@@ -2045,6 +2045,8 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Beachten:** VSt-Rückerstattung wird mit der Steuererklärung beantragt (WV mit Verrechnungsantrag); IBAN angeben
 - **Beachten:** Anspruch erlischt, wenn nicht innert dreier Jahre nach Ablauf des Fälligkeitsjahres gestellt
 - **Beachten:** WV unterschreiben (Bestätigung VSt-Abzug auf Kolonne A); Q-Ertrag 151 → Ziff. 4.2
+- **Limiten:**
+  - Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: Kanton **–** · Bund **35 % (Verrechnungssteuer 35 % auf Kapitalerträgen (und steuerbaren Geldspielgewinnen); natürliche Personen fordern sie über das Wertschriftenverzeichnis der kantonalen Erklärung zurück (35 % der Erträge mit VSt-Abzug). Bundesrecht, gilt in allen Kantonen: Anspruch verwirkt, wenn die Einkünfte nicht deklariert werden (Art. 23 Abs. 1 VStG) – Ausnahme bei fahrlässiger Nichtangabe und Nachdeklaration bzw. Aufrechnung im noch offenen Verfahren (Art. 23 Abs. 2 VStG); Antrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres (Art. 32 Abs. 1 VStG).)**
 - **Quellen:**
   - [Formular 340 ZH 2025 S. 3](../../chunks/zh/2025/zh-form-340-2025/zh-form-340-2025__c0005.md) `zh-form-340-2025__c0005` – «35% von Total Bruttoertrag A 540»
   - [Formular 340 ZH 2025 S. 3](../../chunks/zh/2025/zh-form-340-2025/zh-form-340-2025__c0005.md) `zh-form-340-2025__c0005` – «Total Steuerwert 400»

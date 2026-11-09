@@ -878,6 +878,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 ### Form. 2 Ziff. 10 · Verrechnungssteueranspruch: 35% von Bruttoertrag Total A (Spalte 8) ☑️
 - **Rein:** Übertrag Form. 2 Ziff. 3: Zwischentotal I Sp. 8 (Erträge mit VSt, inkl. Beiblätter) · Formular 1 S. 1 → Auszahlungskonto (bei Erstantrag oder Kontoänderung) · Bank-Steuerauszug anstelle Detailangaben → Bestandteil des Antrags
 - **Rechnen:** Ziff. 10 = 35% × Total I Bruttoertrag Kolonne A (Sp. 8, Ziff. 3 inkl. Beiblätter)
+- **Limite (Kanton / Bund):** Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: – / 35 %
 - **Beachten:** Nur bei Wohnsitz TG am 31. Dezember 2026 und deklarierten Erträgen; Form. 2 unterzeichnen
 - **Beachten:** Unverteilte Erbschaft: VSt-belastete Erträge nach Erbquote in Sp. A; STWE-Fonds nicht (Form. 25)
 - **Beachten:** DA-1: Anrechnung ausländischer Quellensteuer nur, wenn insgesamt > Fr. 100

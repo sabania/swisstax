@@ -3610,6 +3610,8 @@ positionen:
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: 'Verrechnungssteueranspruch: 35% von Bruttoertrag Total A (Rückerstattungsantrag)'
   key: verrechnungssteuer.rueckerstattung
+  werte_keys:
+  - verrechnungssteuer.satz
   belege:
   - steuerauszug-bank
   feld: Formular 2 Ziff. 10; Unterschrift Rückerstattungsantrag; Auszahlungskonto Formular 1 Seite 1

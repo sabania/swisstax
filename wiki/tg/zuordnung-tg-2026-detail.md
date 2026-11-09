@@ -2195,6 +2195,8 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Nur bei Wohnsitz TG am 31. Dezember 2026 und deklarierten Erträgen; Form. 2 unterzeichnen
 - **Beachten:** Unverteilte Erbschaft: VSt-belastete Erträge nach Erbquote in Sp. A; STWE-Fonds nicht (Form. 25)
 - **Beachten:** DA-1: Anrechnung ausländischer Quellensteuer nur, wenn insgesamt > Fr. 100
+- **Limiten:**
+  - Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: Kanton **–** · Bund **35 % (Verrechnungssteuer 35 % auf Kapitalerträgen (und steuerbaren Geldspielgewinnen); natürliche Personen fordern sie über das Wertschriftenverzeichnis der kantonalen Erklärung zurück (35 % der Erträge mit VSt-Abzug). Bundesrecht, gilt in allen Kantonen: Anspruch verwirkt, wenn die Einkünfte nicht deklariert werden (Art. 23 Abs. 1 VStG) – Ausnahme bei fahrlässiger Nichtangabe und Nachdeklaration bzw. Aufrechnung im noch offenen Verfahren (Art. 23 Abs. 2 VStG); Antrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres (Art. 32 Abs. 1 VStG).)**
 - **Quellen:**
   - [Formular 2 TG 2026 S. 2](../../chunks/tg/2026/tg-form-02-2026/tg-form-02-2026__c0006.md) `tg-form-02-2026__c0006` – «10. Verrechnungssteueranspruch: 35% von Bruttoertrag Total A»
   - [WL TG 2026 S. 35](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0166.md) `tg-wl-2026__c0166` – «Ein Anspruch auf Rückerstattung der Verrechnungssteuer besteht nur, wenn Sie die Erträge in der»

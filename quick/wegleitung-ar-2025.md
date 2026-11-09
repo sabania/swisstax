@@ -684,6 +684,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 ### Form. 2 Total · Verrechnungssteueranspruch 35 % vom Bruttoertrag (Total A) (Code 999) ☑️
 - **Rein:** Übertrag Form. 2 → Total Bruttoertrag Spalte A (Erträge mit 35 % VSt-Abzug)
 - **Rechnen:** Code 999 = 35 % × Total Bruttoertrag Spalte A
+- **Limite (Kanton / Bund):** Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: – / 35 %
 - **Beachten:** Rückerstattung nur bei Wohnsitz AR am 31. Dezember 2025; sonst Antrag beim Steueramt des früheren Wohnortes
 - **Beachten:** Kollektiv-/Kommanditgesellschaft: Formular 25 durch die Gesellschaft; STWE-Erneuerungsfonds: Formular 25 durch die STWE-Verwaltung (direkt ESTV)
 - **Beachten:** Anspruch erlischt, wenn nicht innert drei Jahren nach Ablauf des Fälligkeitsjahres beantragt

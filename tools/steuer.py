@@ -378,6 +378,17 @@ def wert(jur, jahr, begriff, n=8) -> str:
         if kz:
             out += ["", f"**Kantonal geregelt – Werte je Kanton {jahr}** (die Frage nennt einen Kanton → dessen Zeile gilt; "
                     "Details mit Bundesspalte: `wert <kt> " + jahr + " " + str(begriff) + "`):"] + kz
+        # Wo im (kantonalen) Formular? Natürliche Personen deklarieren auch Bundesthemen in der kantonalen Erklärung
+        keys = {r["key"] for r in hits}
+        fz = []
+        for kt in ("zh", "sg", "tg", "ar"):
+            ps = [p for p in L()["positionen"] if p["kt"] == kt and p["jahr"] == jahr and set(p.get("werte_keys") or []) & keys
+                  and not re.match(r"Lohnausweis", str(p["ziffer"]))]
+            if ps:
+                p = ps[0]
+                fz.append(f"- **{kt.upper()}:** {zf(p)} {cut(p.get('bezeichnung'), 90)} · {q_line(p.get('quellen'))}")
+        if fz:
+            out += ["", f"**Im kantonalen Formular {jahr}** (Erklärung deckt Kanton und Bund; Details `position <kt> {jahr} <ziffer>`):"] + fz
         out += ["", "Nur Bund. Nennt die Frage einen Kanton (z.B. «TG: …»), `wert <kt> " + jahr + " " + str(begriff) +
                 "` aufrufen – liefert Kanton und Bund; kantonale Formulare können für den Bund eigene Ansätze führen."]
     if j != "bund":

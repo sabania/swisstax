@@ -2249,6 +2249,8 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Beachten:** Nur bei Wohnsitz TG am 31. Dezember 2025 und Deklaration der Erträge; Auszahlung unter Rückforderungsvorbehalt ESTV
 - **Beachten:** Grossspielgewinne: VSt-belasteter Teil in Sp. A, nur kantonal steuerbarer Teil in Sp. B (WL: 929'600 / 70'400)
 - **Beachten:** STWEG-Betriebs-/Erneuerungsfonds nicht aufführen (Gemeinschaft beantragt mit Formular 25 bei ESTV)
+- **Limiten:**
+  - Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: Kanton **–** · Bund **35 % (Verrechnungssteuer 35 % auf Kapitalerträgen (und steuerbaren Geldspielgewinnen); natürliche Personen fordern sie über das Wertschriftenverzeichnis der kantonalen Erklärung zurück (35 % der Erträge mit VSt-Abzug). Bundesrecht, gilt in allen Kantonen: Anspruch verwirkt, wenn die Einkünfte nicht deklariert werden (Art. 23 Abs. 1 VStG) – Ausnahme bei fahrlässiger Nichtangabe und Nachdeklaration bzw. Aufrechnung im noch offenen Verfahren (Art. 23 Abs. 2 VStG); Antrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres (Art. 32 Abs. 1 VStG).)**
 - **Quellen:**
   - [Formular 2 TG 2025 S. 2](../../chunks/tg/2025/tg-form-02-2025/tg-form-02-2025__c0006.md) `tg-form-02-2025__c0006` – «10. Verrechnungssteueranspruch: 35% von Bruttoertrag Total A»
   - [WL TG 2025 S. 35](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0167.md) `tg-wl-2025__c0167` – «Vom Total I der Bruttoerträge 2025»

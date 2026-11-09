@@ -749,6 +749,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 ### Form. 340 Totale · Total Steuerwert (Code 400) und Verrechnungssteueranspruch 35 % (Code 540) ☑️
 - **Rein:** Summen Kolonnen Steuerwert, A, B inkl. Beiblätter (2350/2352, 2360/2362) und DA-1 (2370/2371) · Steuerauszug → Kontrolle VSt-Betrag (35 % auf Kolonne A)
 - **Rechnen:** Total Steuerwert 400 → HF S. 4 Ziff. 30.1; Total A + B 150 → HF S. 2 Ziff. 4.1; VSt-Anspruch 540 = 35 % × Total A, auf 5 Rappen runden
+- **Limite (Kanton / Bund):** Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: – / 35 %
 - **Beachten:** VSt-Rückerstattung wird mit der Steuererklärung beantragt (WV mit Verrechnungsantrag); IBAN angeben
 - **Beachten:** Anspruch erlischt, wenn nicht innert dreier Jahre nach Ablauf des Fälligkeitsjahres gestellt
 - **Beachten:** WV unterschreiben (Bestätigung VSt-Abzug auf Kolonne A); Q-Ertrag 151 → Ziff. 4.2

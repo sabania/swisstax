@@ -881,6 +881,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 ### Form. 2 Ziff. 10 · Verrechnungssteueranspruch: 35% von Bruttoertrag Total A (Rückerstattungsantrag) ☑️
 - **Rein:** Übertrag Form. 2 Ziff. 3 Zwischentotal I, Spalte 8 (inkl. Beiblätter) · Formular 1 S. 1 → Auszahlungskonto (bei Erstantrag/Kontoänderung) · Bank-Steuerauszug (statt Detailangaben) → Bestandteil des Antrags
 - **Rechnen:** VSt-Anspruch = 35% × Σ Bruttoerträge Sp. 8 (Total I, Ziff. 3 inkl. Beiblätter) → Form. 2 Ziff. 10
+- **Limite (Kanton / Bund):** Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: – / 35 %
 - **Beachten:** Nur bei Wohnsitz TG am 31. Dezember 2025 und Deklaration der Erträge; Auszahlung unter Rückforderungsvorbehalt ESTV
 - **Beachten:** Grossspielgewinne: VSt-belasteter Teil in Sp. A, nur kantonal steuerbarer Teil in Sp. B (WL: 929'600 / 70'400)
 - **Beachten:** STWEG-Betriebs-/Erneuerungsfonds nicht aufführen (Gemeinschaft beantragt mit Formular 25 bei ESTV)

@@ -3270,6 +3270,8 @@ positionen:
   abschnitt: Hilfsblatt Wertschriftenverzeichnis (Form. 340)
   bezeichnung: Total Steuerwert (Code 400) und Verrechnungssteueranspruch 35 % (Code 540)
   key: verrechnungssteuer.rueckerstattung
+  werte_keys:
+  - verrechnungssteuer.satz
   belege:
   - steuerauszug-bank
   feld: Steuerauszug (Verrechnungssteuer-Betrag)

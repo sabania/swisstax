@@ -2089,6 +2089,8 @@ positionen:
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: Verrechnungssteueranspruch 35% vom Bruttoertrag Total A (Code 999)
   key: verrechnungssteuer.rueckerstattung
+  werte_keys:
+  - verrechnungssteuer.satz
   belege:
   - steuerauszug-bank
   feld: Total A × 35%

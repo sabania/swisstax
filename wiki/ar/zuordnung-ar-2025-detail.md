@@ -1981,6 +1981,8 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Rückerstattung nur bei Wohnsitz AR am 31. Dezember 2025; sonst Antrag beim Steueramt des früheren Wohnortes
 - **Beachten:** Kollektiv-/Kommanditgesellschaft: Formular 25 durch die Gesellschaft; STWE-Erneuerungsfonds: Formular 25 durch die STWE-Verwaltung (direkt ESTV)
 - **Beachten:** Anspruch erlischt, wenn nicht innert drei Jahren nach Ablauf des Fälligkeitsjahres beantragt
+- **Limiten:**
+  - Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: Kanton **–** · Bund **35 % (Verrechnungssteuer 35 % auf Kapitalerträgen (und steuerbaren Geldspielgewinnen); natürliche Personen fordern sie über das Wertschriftenverzeichnis der kantonalen Erklärung zurück (35 % der Erträge mit VSt-Abzug). Bundesrecht, gilt in allen Kantonen: Anspruch verwirkt, wenn die Einkünfte nicht deklariert werden (Art. 23 Abs. 1 VStG) – Ausnahme bei fahrlässiger Nichtangabe und Nachdeklaration bzw. Aufrechnung im noch offenen Verfahren (Art. 23 Abs. 2 VStG); Antrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres (Art. 32 Abs. 1 VStG).)**
 - **Bemerkung:** Code 999 aus Form. 2.
 - **Quellen:**
   - [Formular 2 AR 2025 S. 2](../../chunks/ar/2025/ar-form-02-2025/ar-form-02-2025__c0007.md) `ar-form-02-2025__c0007` – «Verrechnungssteueranspruch: 35 % vom Bruttoertrag (Total A) Fr./Rp. 999»

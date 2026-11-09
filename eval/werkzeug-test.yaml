@@ -23,6 +23,7 @@ faelle:
 - {befehl: wert, jur: tg, jahr: "2025", eingabe: selbstnutzungsabzug, enthaelt: "Selbstnutzung"}
 - {befehl: wert, jur: bund, jahr: "2025", eingabe: verrechnungssteuer, enthaelt: "Verrechnungssteuer"}
 - {befehl: wert, jur: bund, jahr: "2025", eingabe: eigenmietwert, enthaelt: "**TG** liegenschaft.eigenmietwert_abzug = **40 %**"}
+- {befehl: wert, jur: bund, jahr: "2025", eingabe: verrechnungssteuer, enthaelt: "Code 540"}
 - {befehl: position, jur: ar, jahr: "2025", eingabe: verwaltungskosten, enthaelt: "auch private Bankkonten"}
 - {befehl: formular, jur: zh, jahr: "2025", eingabe: "", enthaelt: "Wertschriften in einem Bankdepot"}
 - {befehl: formular, jur: sg, jahr: "2025", eingabe: "", enthaelt: "Pauschalen ohne Beleg"}

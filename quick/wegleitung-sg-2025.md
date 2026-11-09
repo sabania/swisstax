@@ -566,6 +566,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 ### Form. 2 Code 999 · Verrechnungssteueranspruch 35% vom Bruttoertrag Total A (Code 999) ☑️
 - **Rein:** Übertrag aus Form. 2 Total Bruttoertrag Spalte A · Steuerauszug Bank → Total Erträge mit Verrechnungssteuerabzug (A)
 - **Rechnen:** Total Bruttoertrag Spalte A (vor Abzug G/BG/BP) × 35% → Code 999
+- **Limite (Kanton / Bund):** Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: – / 35 %
 - **Beachten:** Anspruch Fälligkeiten 2025 verwirkt ohne Antrag bis Ende 2028; Fristerstreckung hemmt nicht
 - **Beachten:** Nicht deklarierte Erträge/Vermögen: Anspruch verwirkt (ausser fahrlässig und nachträglich angegeben)
 - **Beachten:** Kollektiv-/Kommanditgesellschaft und STWE-Erneuerungsfonds: Formular 25 direkt an ESTV

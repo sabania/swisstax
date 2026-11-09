@@ -1400,6 +1400,8 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 - **Beachten:** Anspruch Fälligkeiten 2025 verwirkt ohne Antrag bis Ende 2028; Fristerstreckung hemmt nicht
 - **Beachten:** Nicht deklarierte Erträge/Vermögen: Anspruch verwirkt (ausser fahrlässig und nachträglich angegeben)
 - **Beachten:** Kollektiv-/Kommanditgesellschaft und STWE-Erneuerungsfonds: Formular 25 direkt an ESTV
+- **Limiten:**
+  - Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis: Kanton **–** · Bund **35 % (Verrechnungssteuer 35 % auf Kapitalerträgen (und steuerbaren Geldspielgewinnen); natürliche Personen fordern sie über das Wertschriftenverzeichnis der kantonalen Erklärung zurück (35 % der Erträge mit VSt-Abzug). Bundesrecht, gilt in allen Kantonen: Anspruch verwirkt, wenn die Einkünfte nicht deklariert werden (Art. 23 Abs. 1 VStG) – Ausnahme bei fahrlässiger Nichtangabe und Nachdeklaration bzw. Aufrechnung im noch offenen Verfahren (Art. 23 Abs. 2 VStG); Antrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres (Art. 32 Abs. 1 VStG).)**
 - **Quellen:**
   - [Formular 2 SG 2025 S. 2](../../chunks/sg/2025/sg-form-2-2025/sg-form-2-2025__c0006.md) `sg-form-2-2025__c0006` – «Verrechnungssteueranspruch: 35 % vom Bruttoertrag (Total A) Fr./Rp. 999»
   - [WL SG 2025 S. 39](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0138.md) `sg-wl-2025__c0138` – «Verrechnungssteueranspruch: 35 % vom Bruttoertrag (Total A)»
