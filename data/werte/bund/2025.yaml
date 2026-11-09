@@ -527,7 +527,7 @@ werte:
 - key: liegenschaft.eigenmietwert_abzug
   wert: null
   einheit: null
-  text: Kein prozentualer Einschlag auf den Eigenmietwert beim Bund
+  text: 'Das DBG kennt keinen eigenen festen Prozentsatz; der Eigenmietwert für die direkte Bundessteuer wird im kantonalen Verfahren festgesetzt – ob und wie stark er reduziert wird, steht beim Kanton (z.B. TG Bund 20 %, SG kantonale Ansätze auch für den Bund): `wert <kt> <jahr> eigenmietwert`'
   gilt_fuer: bund
   quellen: []
   status: na

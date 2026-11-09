@@ -375,7 +375,7 @@ def wert(jur, jahr, begriff, n=8) -> str:
             out += ["", f"**Bund (direkte Bundessteuer) {jahr} – gleiche Schlüssel, separat deklarieren:**"]
             for r in bund:
                 if r.get("status") == "na":
-                    out.append(f"- {r['key']}: beim Bund nicht gesondert – {cut(r.get('text') or r.get('bemerkung') or '', 180)}")
+                    out.append(f"- {r['key']}: beim Bund nicht gesondert – {cut(r.get('text') or r.get('bemerkung') or '', 320)}")
                 else:
                     out.append(f"- {r['key']} = **{fmt_wert(r)}** · {st(r)} · Quelle: {q_line(r.get('quellen'))}")
         else:
