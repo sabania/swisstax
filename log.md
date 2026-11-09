@@ -64,3 +64,17 @@ Letzte Einträge: `grep "^## \[" log.md | tail -5`
 
 ## [2026-11-09] query | Nachtest ZH-Fall nach Tuning
 - Alle Positionen korrekt, zusätzliche zulässige Pauschale gefunden → 4/4 Fälle «einreichbar nach Kontrolle»; Skill-Hinweis Codes Person 2.
+
+## [2026-11-09] aufbau | Plugin für schwache Modelle (Haiku), firmenunabhängige Ablage
+Plugin (Skills belege-ablage/steuererklaerung-np/steuerwiki, MCP-Werkzeug steuer: ablage, beleg, formular, position, wert,
+vergleich, rechne, suche, zeige); Einstieg openclaw/AGENTS.workspace-snippet.md; Kategorienliste austauschbar (KATEGORIEN.md,
+kategorien/consis.md). Daten: data/ablage/erkennung.yaml, data/einreichen/<kt>/<jahr>.yaml (Einreichepflicht mit Zitat).
+
+## [2026-11-09] lint | Ursachenanalyse Haiku-Lauf H4 und Datenkorrekturen
+19 Fehler je von einem Analysten untersucht, 38 Datenkorrekturen gegen Primärquelle gegengeprüft und übernommen
+(ZH Form. 360/367, TG Berufsauslagen/Wertschriften, SG Lotterie/Weiterbildung, Bund übrige Berufskosten/3a-Einkauf).
+Offen für Fachperson: reports/entscheidungsvorlage-strittig.md Nr. 11 (Einreichepflicht Unterhaltsbeiträge ZH 2025).
+
+## [2026-11-09] query | Haiku-Läufe H5–H7 und Werkzeugtest
+Werkzeugtest eval/werkzeug_test.py: echte Fehlgriffe 46/46 (+3 Rechner), Holdout 2 (270, frisch) 72 % → 98 %.
+Haiku H5/H6: Positionen 10/10, Ablage 8/8, Dokumente 40/40, ganze Fälle 96–99/109, Praxis 31–36/40. Details eval/laeufe/experimente.md (E4).
