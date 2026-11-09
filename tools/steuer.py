@@ -720,10 +720,14 @@ def formular(kt, jahr) -> str:
             out += ["", f"### {a}"]
             letzte = a
         lim = []
-        for k in (p.get("werte_keys") or [])[:2]:
-            kv, bv = W.get((j, k)), W.get(("bund", k))
-            if (kv and kv.get("status") != "na") or (bv and bv.get("status") != "na"):
-                lim.append(f"{k.split('.')[-1]}: K {kurzwert(kv)} | B {kurzwert(bv)}")
+        tarif = str(p["ziffer"]).startswith(("—", "(Tarif")) or "kein Formularfeld" in str(p.get("bezeichnung") or "")
+        if tarif:
+            lim.append("nur Steuertarif – nichts eintragen, nicht vom Vermögen/Einkommen abziehen")
+        else:
+            for k in (p.get("werte_keys") or [])[:2]:
+                kv, bv = W.get((j, k)), W.get(("bund", k))
+                if (kv and kv.get("status") != "na") or (bv and bv.get("status") != "na"):
+                    lim.append(f"{k.split('.')[-1]}: K {kurzwert(kv)} | B {kurzwert(bv)}")
         out.append(f"- {p['ziffer']} · {cut(p.get('bezeichnung'), 100)}" + (f" · {' · '.join(lim)}" if lim else ""))
     if neben:
         out += ["", "### Hilfsblätter / Lohnausweis (Überträge ins Hauptformular)"]
@@ -749,7 +753,9 @@ def formular(kt, jahr) -> str:
             kv, bv = W.get((j, k)), W.get(("bund", k))
             if not ((kv and kv.get("status") != "na") or (bv and bv.get("status") != "na")):
                 continue
-            ort = "" if k not in zif else (f" ({zif[k]})" if zif[k].startswith("Tarif") else f" (Ziff. {zif[k]})")
+            if zif.get(k, "").startswith("Tarif"):
+                continue        # Tarif-Nullstufe: kein Abzug – nicht in die Abzugsliste
+            ort = f" (Ziff. {zif[k]})" if k in zif else ""
             teile.append(f"{k}{ort}: K {kurzwert(kv)} | B {kurzwert(bv)}")
         if teile:
             out.append(f"- **{titel}:** " + " · ".join(teile))
@@ -760,6 +766,8 @@ def formular(kt, jahr) -> str:
             "- Unklarer Sachverhalt (z.B. Heimkehr über Mittag, Arbeitstage): Standardfall erfassen, Annahme offenlegen, Alternative mit "
             "Betrag nennen, Rückfrage formulieren – keinen Abzug aus einer eigenen Annahme streichen.",
             "- Nur belegte Hinweise geben; Nebenbemerkungen ohne Fundstelle (z.B. zu Vermögen, Zulagen) weglassen oder «nicht geprüft».",
+            "- Vermögen: nur Abzüge mit eigener Formularziffer abziehen (Schulden, Sozialabzüge mit Code); steuerfreie Beträge, die nur "
+            "im Tarif wirken (Zeile «Tarif»), nicht abziehen – das steuerbare Vermögen bleibt dann Vermögenswerte − Schulden.",
             "- Alle Totale mit Ziffer ausweisen und mit `rechne` rechnen (nie im Kopf); steuerbares Einkommen Kanton und Bund auf Plausibilität vergleichen."]
     return "\n".join(out)
 
