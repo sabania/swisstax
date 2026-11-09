@@ -12,6 +12,14 @@ verlinktes Markdown-Wiki → Schema-Datei (`AGENTS.md`) mit den Regeln. Ergänzt
 2. **Je Kanton und Jahr: welcher Beleg / welche Zahl gehört in welche Formularposition, welche Limite gilt?**
    → `quick/zuordnung-<kanton>-<jahr>.md` und `quick/werte-<jurisdiktion>-<jahr>.md` (Einstieg: [`quick/index.md`](quick/index.md))
 
+3. **Firmenprozess (consis):** eingegangene Dokumente erkennen und in M-Files ablegen (Schritt 1), Positionen in DrTax erfassen
+   (Schritt 2), Status/Grenzen der KI, Veranlagung, provisorische Rechnung → [`wiki/firma/prozess-np.md`](wiki/firma/prozess-np.md),
+   `quick/ablage-<kanton>-<jahr>.md`.
+
+**Schnellster Zugriff (auch für kleine Modelle):** `python3 tools/steuer.py wert zh 2025 fahrkosten` · `position sg 2025 16.2` ·
+`beleg steuerauszug --kanton tg --jahr 2025` · `ablage "<Titel des Dokuments>"` · `suche …` · `prozess 1` · `mfiles` –
+oder als **OpenClaw-/Claude-Plugin** mit Skills und Tools: `python3 tools/build_plugin.py --tgz` (siehe [`openclaw/README.md`](openclaw/README.md)).
+
 > Die Wissensbasis unterstützt Fachpersonen; sie ersetzt keine fachliche Beurteilung. Jede Zahl ist mit Fundstelle und
 > Prüfstatus versehen (🟡 extrahiert · ☑️ agent-geprüft · ✅ verifiziert durch Fachperson · ⚠️ strittig).
 
