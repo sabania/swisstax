@@ -12,6 +12,8 @@ from __future__ import annotations
 import argparse, json, subprocess, time, concurrent.futures as cf
 from pathlib import Path
 import yaml
+import time
+LAUF = time.strftime("%Y%m%d%H%M%S")   # eindeutig je Aufruf: alte Sitzungen mit gleicher ID nie fortsetzen
 
 
 def load_questions(p: Path):
@@ -41,7 +43,7 @@ def run(q, a):
         if "error" not in d:
             return q["id"], d, 0.0
     t0 = time.time()
-    cmd = [a.openclaw, "agent", "--local", "--agent", a.agent, "--session-id", f"eval-{a.tag}-{q['id']}", "--json",
+    cmd = [a.openclaw, "agent", "--local", "--agent", a.agent, "--session-id", f"eval-{a.tag}-{q['id']}-{LAUF}", "--json",
            "--timeout", str(a.timeout), "--message", q["frage"]]
     for versuch in range(5):
         p = subprocess.run(cmd, capture_output=True, text=True, timeout=a.timeout + 60)
