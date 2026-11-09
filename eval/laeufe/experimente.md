@@ -99,16 +99,22 @@ Primärquellen); jede Antwort in einer frischen Sitzung (eindeutige Sitzungs-ID)
 | H4 | Haiku + Plugin, firmenunabhängige Ablage (`KATEGORIEN.md`), Kanton-/Jahresregel im Einstieg |
 | H5 | wie H4 + robustere Wortsuche, `formular`-Gerüst, Korrekturen aus der Ursachenanalyse von H4 (siehe unten) |
 
-| Testset | H0 | H1 | H4 | H5 |
-|---|---|---|---|---|
-| Praxistest q01–q40 (richtig / teilweise / falsch) | 35 / 5 / 0 | 31 / 7 / 2 | 33 / 6 / 1 | 31 / 7 / 2 |
-| Blindtest b01–b14 | 14 / 0 / 0 | 14 / 0 / 0 | 13 / 1 / 0 | 14 / 0 / 0 |
-| Positionstest p01–p10 | 10 / 0 / 0 | 8 / 2 / 0 | 7 / 3 / 0 | **10 / 0 / 0** |
-| Ablage + Ausfüllen a01–a08 | – | – | 6 / 2 / 0 | **8 / 0 / 0** |
-| Eingehende Dokumente d01–d40 (Typ, relevant, Jahr, einreichen, Kategorie) | – | – | 34 / 4 / 2 | **40 / 0 / 0** |
-| Vollständige Steuerfälle ZH/SG/TG/AR (109 Positionen korrekt) | – | – | 78 | **96** (AR 31/31, TG 24/25) |
-| Ø Dauer je Frage / Ø Werkzeugaufrufe (Praxistest) | 38 s / 7.2 | 29 s / 4.0 | 28 s / 4.2 | 29 s / 3.5 |
-| Ø Dauer / Aufrufe je vollständigem Fall | – | – | 182 s / 39 | 139 s / 22 |
+| Testset | H0 | H1 | H4 | H5 | H6 | H7 |
+|---|---|---|---|---|---|---|
+| Praxistest q01–q40 (richtig / teilweise / falsch) | 35 / 5 / 0 | 31 / 7 / 2 | 33 / 6 / 1 | 31 / 7 / 2 | **36 / 2 / 2** | 33 / 6 / 1 |
+| Blindtest b01–b14 | 14 / 0 / 0 | 14 / 0 / 0 | 13 / 1 / 0 | 14 / 0 / 0 | 13 / 1 / 0 | 13 / 1 / 0 |
+| Positionstest p01–p10 | 10 / 0 / 0 | 8 / 2 / 0 | 7 / 3 / 0 | **10 / 0 / 0** | **10 / 0 / 0** | 8 / 2 / 0 |
+| Ablage + Ausfüllen a01–a08 | – | – | 6 / 2 / 0 | **8 / 0 / 0** | – | – |
+| Eingehende Dokumente d01–d40 (Typ, relevant, Jahr, einreichen, Kategorie) | – | – | 34 / 4 / 2 | **40 / 0 / 0** | – | – |
+| Vollständige Steuerfälle ZH/SG/TG/AR (109 Positionen korrekt) | – | – | 78 | 96 | 99 | **100** (SG 24/24, AR 31/31) |
+| Ø Dauer je Frage / Ø Werkzeugaufrufe (Praxistest) | 38 s / 7.2 | 29 s / 4.0 | 28 s / 4.2 | 29 s / 3.5 | 27 s / 3.4 | 28 s / 3.6 |
+| Ø Dauer / Aufrufe je vollständigem Fall | – | – | 182 s / 39 | 139 s / 22 | 153 s / – | 169 s / 24 |
+
+H6 = Stand H5 + Korrekturen aus H5 (3a-Text, Hinweis bei Nur-Bund-Abfragen, Ausfüllregeln in `formular`); H7 = H6 + Rechner
+`rechne` (Haiku ruft ihn bei 9/10 Positions-Rechenaufgaben und in allen 4 Fällen selbst auf; in H7 kein Rechenfehler mehr gemeldet).
+Die Praxisfragen streuen über die Läufe um ±3 (31–36); stabil verbessert sind Positionen, Ablage, Dokumente und ganze Fälle.
+Die Restfehler der Fälle in H7 (ZH Tarif-Freibetrag als Abzug, TG Bund-Selbstnutzungsabzug) gingen auf das Gerüst bzw. einen zu
+knappen Bundestext zurück und sind danach korrigiert.
 
 Lesart: Mit Plugin arbeitet Haiku rund 25 % schneller und mit halb so vielen Aufrufen wie mit Dateisuche (H0). Ab H5 sind
 Positionsfragen, Ablage, Dokumente und ganze Fälle klar besser als H4; die Praxisfragen liegen im Bereich der Streuung
