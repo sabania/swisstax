@@ -9,7 +9,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 
 # Spesenreglement des Arbeitgebers (genehmigtes Spesenreglement, Spesenabrechnung, Pauschalspesen)
 
-> Relevanz: **bedingt** (Bedingt relevant) · ID `spesenreglement` · Status: 🟡 extrahiert · [Belege-Übersicht](../../quick/belege-relevanz.md)
+> Relevanz: **bedingt** (Bedingt relevant) · ID `spesenreglement` · Status: ☑️ agent-geprueft · [Belege-Übersicht](../../quick/belege-relevanz.md)
 
 **Bedingung:** Nur als Hilfsunterlage zum Lohnausweis (Ziff. 13): Entscheidend ist, ob die Spesen im Lohnausweis steuerfrei ausgewiesen sind (dann kein zusätzlicher Berufskostenabzug für dieselben Auslagen) oder ob nicht ersetzte Berufsauslagen als zusätzliche Abzüge geltend gemacht werden. Ohne genehmigtes Spesenreglement unterliegen Pauschalspesen bei Quellenbesteuerten der Quellensteuer (KS 45 Ziff. 3.2.5); Pauschalen müssen in etwa den effektiven Auslagen entsprechen, effektive Spesen brauchen Einzelbelege.
 
@@ -51,14 +51,14 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - Pauschale Spesenvergütungen müssen in etwa den effektiven Auslagen entsprechen und sind auch bei genehmigtem Reglement betragsmässig im Lohnausweis (Ziff. 13.2) anzugeben.
 - Spesenvergütungen, die über tatsächlichen Aufwand hinausgehen, sind Bestandteil des steuerbaren Bruttolohns; ersetzte Auslagen dürfen nicht nochmals als Berufskosten abgezogen werden (kein Doppelabzug).
 - Quellenbesteuerte Arbeitnehmer: Pauschalspesen ohne genehmigtes Reglement unterliegen der Quellensteuer (KS 45).
-- Die Wegleitung zum Lohnausweis liegt in der Fassung 2026 vor; für 2025 gilt die inhaltlich gleiche Praxis (Ziff.-Angaben prüfen).
+- Die Wegleitung zum Lohnausweis liegt nur in der Fassung 2026 vor; die Übertragbarkeit auf 2025 ist nicht separat belegt (Ziff.-Angaben prüfen).
 
 ## Kantonale Besonderheiten
 
-- **ZH:** Lohnausweise sind der Steuererklärung beizulegen (WL ZH 2025); Spesenreglement des Sitzkantons wird anerkannt – Einzelheiten kantonal nicht abweichend geregelt.
-- **SG:** Keine abweichende Regelung in der WL SG 2025 gefunden; Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
-- **AR:** Keine abweichende Regelung in der WL AR 2025 gefunden; Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
-- **TG:** Keine abweichende Regelung in der WL TG 2025 gefunden; Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
+- **ZH:** Lohnausweise sind der Steuererklärung beizulegen (WL ZH 2025); Spesenreglement des Sitzkantons wird anerkannt (Lohnausweis-Wegleitung). Eine abweichende kantonale Regelung wurde in den zitierten Quellen nicht ausgewertet.
+- **SG:** Kantonsspezifische Quelle zum Spesenreglement nicht ausgewertet; es gilt die Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
+- **AR:** Kantonsspezifische Quelle zum Spesenreglement nicht ausgewertet; es gilt die Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
+- **TG:** Kantonsspezifische Quelle zum Spesenreglement nicht ausgewertet; es gilt die Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
 
 > Bemerkung: Geprüft: Lohnausweis-Wegleitung liegt nur für 2026 vor (Praxis für 2025 inhaltlich gleich, nicht separat belegt); Kreuz bei 13.1.1 «genehmigtes Reglement» entfernt (Reglement-Vermerk steht in Ziff. 15).
 
@@ -67,3 +67,4 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - [WL Lohnausweis 2026 S. 17–18](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0047.md) `bund-wl-lohnausweis-2026__c0047` – «Vom Sitzkanton genehmigte Spesenreglemente werden von»
 - [WL Lohnausweis 2026 S. 17](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0045.md) `bund-wl-lohnausweis-2026__c0045` – «sind bei allen Arbeitnehmern im Lohnausweis betragsmässig anzugeben»
 - [KS 45 S. 13](../../chunks/bund/dauernd/bund-ks-45/bund-ks-45__c0036.md) `bund-ks-45__c0036` – «Pauschalspesen der Quellensteuer zu unterwerfen»
+- [WL ZH 2025 S. 10](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0032.md) `zh-wl-2025__c0032` – «Bitte vergessen Sie nicht, Ihre Lohnausweise der Steuererklärung beizulegen.»

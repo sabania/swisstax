@@ -367,9 +367,15 @@ werte:
     zitat: können nicht mit einem Einkauf ausgeglichen werden
   - chunk: bund-mm-saeule3a-einkauf__c0001
     zitat: Diese treten per 1. Januar 2025 in Kraft
-  status: extrahiert
-  bemerkung: BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. Betrag CHF 7'258 abgeleitet aus 8 % des oberen Grenzbetrags (BSV-Masszahlen 7'258). Das ESTV-KS 18a (ab 01.01.2026) gilt nicht für 2025 und wurde
-    nicht herangezogen. Praktisch erster Einkauf frühestens 2026 (Lücken erst ab Beitragsjahr 2025) – laut Seed, nicht aus Quelle bestätigt.
+  - chunk: bund-bvv3__art-7a-t2
+    zitat: ist nicht mehr als ein Einkauf zulässig
+  - chunk: bund-bvv3__art-7b
+    zitat: für die Jahre, für die eine Beitragslücke ausgeglichen werden soll, noch keinen Einkauf vorgenommen hat
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
+  status: agent-geprueft
+  bemerkung: BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. Betrag CHF 7'258 = oberer Grenzbetrag (BSV-Masszahlen 2025/2026, zitiert); «nur ein Einkauf je Jahresbeitragslücke» = Art. 7a Abs. 3 BVV 3. Das ESTV-KS
+    18a (ab 01.01.2026) gilt nicht für 2025 und wurde nicht herangezogen. Praktisch erster Einkauf frühestens 2026 (Lücken erst ab Beitragsjahr 2025) – laut Seed, nicht aus Quelle bestätigt.
 - key: zweiverdiener.satz
   wert: 50
   einheit: '%'

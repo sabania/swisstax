@@ -42,7 +42,7 @@ werte:
   - *id001
   - chunk: bund-rs-2-215__c0004
     zitat: Fahrkosten für Motorräder pro Kilometer1 0.40 0.40
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - key: berufskosten.fahrkosten.velo_pauschale
   wert: 700
@@ -56,7 +56,7 @@ werte:
     zitat: Fahrkosten für Fahrräder, Motorfahrräder1 700 700
   - chunk: bund-wl-2a-2026__c0043
     zitat: Pauschalabzug von 700 Fr. im Jahr bei Benützung ei-
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - key: berufskosten.fahrkosten.arbeitstage
   wert: null
@@ -79,7 +79,7 @@ werte:
     zitat: können nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen werden
   - chunk: bund-rs-2-215__c0005
     zitat: Mehrkosten bei auswärtiger Verpflegung 15 15 (voller Abzug / Tag)1
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - key: berufskosten.verpflegung.jahr
   wert: 3200
@@ -91,7 +91,7 @@ werte:
   - *id002
   - chunk: bund-rs-2-215__c0005
     zitat: Mehrkosten bei auswärtiger Verpflegung 3’200 3’200 (voller Abzug / Jahr)1
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
@@ -106,7 +106,7 @@ werte:
     zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant eingenommen werden kann
   - chunk: bund-rs-2-215__c0005
     zitat: Mehrkosten bei auswärtiger Verpflegung 7.50 7.50 (halber Abzug / Tag)1
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml). Regel: halber Abzug (Art. 16 Abs. 2 StV).'
 - key: berufskosten.verpflegung.verbilligt_jahr
   wert: 1600
@@ -118,7 +118,7 @@ werte:
   - *id003
   - chunk: bund-rs-2-215__c0005
     zitat: Mehrkosten bei auswärtiger Verpflegung 1’600 1’600 (halber Abzug / Jahr)1
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - key: berufskosten.schichtarbeit.tag
   wert: 15
@@ -134,7 +134,7 @@ werte:
     zitat: a. Bei auswärtiger Verpflegung bzw. Schicht- oder Nachtarbeit (Art. 6 Abs. 1 und 2)
   - chunk: bund-bkv-2026__art-6-t1
     zitat: b. bei durchgehender Schicht- oder Nachtarbeit.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml). Kein zusätzlicher Abzug neben der Verpflegungspauschale.
 - key: berufskosten.wochenaufenthalt.unterkunft
   wert: null
@@ -158,7 +158,7 @@ werte:
     zitat: bestimmt sich nach den für die direkte Bundessteuer massgebenden Pauschalansätzen
   - chunk: bund-rs-2-215__c0005
     zitat: Mehrkosten bei auswärtigem Wochenaufenthalt 6’400 6’400 (voller Abzug / Jahr)1
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml). Gekürzter Abzug (verbilligtes Mittagessen): Fr. 4''800 pro Jahr (Bund).'
 - key: berufskosten.uebrige.satz
   wert: 10
@@ -214,7 +214,7 @@ werte:
     zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
   - chunk: bund-wl-2a-2026__c0045
     zitat: kann ein Pauschalabzug von 20 % der Nebeneinkünfte (Netto-
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml). Behördenabzug Fr. 2'600 (Art. 19 Abs. 2 StV, MB 15) ist kantonal.
 - key: berufskosten.nebenerwerb.min
   wert: 800
@@ -229,7 +229,7 @@ werte:
     zitat: mindestens Fr. 800, maximal Fr. 2'400
   - chunk: bund-rs-2-215__c0006
     zitat: Min. 800 800 Pauschale Nebenerwerb1 Max. 2’400 2’400
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - key: berufskosten.nebenerwerb.max
   wert: 2400
@@ -244,7 +244,7 @@ werte:
     zitat: pauschal bis Fr. 2‘600.- abgezogen (Behördenabzug)
   - chunk: bund-rs-2-215__c0006
     zitat: Min. 800 800 Pauschale Nebenerwerb1 Max. 2’400 2’400
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - key: berufskosten.homeoffice
   wert: null
@@ -330,7 +330,7 @@ werte:
     zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
   - chunk: bund-bvv3__art-7
     zitat: jährlich bis 8 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG, wenn sie einer Vorsorgeeinrichtung nach Artikel 80 BVG angehören
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf Art. 82 BVG / BVV 3 (Bund 2026, data/werte/bund/2026.yaml): Verweis auf DBG-Ansatz.'
 - key: saeule3a.max_ohne_2saeule
   wert: 36288
@@ -344,7 +344,7 @@ werte:
     zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
   - chunk: bund-bvv3__art-7
     zitat: jährlich bis 20 Prozent des Erwerbseinkommens, jedoch höchstens bis 40 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf Art. 82 BVG / BVV 3 (Bund 2026, data/werte/bund/2026.yaml): Verweis auf DBG-Ansatz.'
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
@@ -356,7 +356,7 @@ werte:
   - *id006
   - chunk: bund-bvv3__art-7
     zitat: jährlich bis 20 Prozent des Erwerbseinkommens, jedoch höchstens bis 40 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf Art. 82 BVG / BVV 3 (Bund 2026, data/werte/bund/2026.yaml): Verweis auf DBG-Ansatz.'
 - key: saeule3a.einkauf
   wert: 7258
@@ -372,7 +372,7 @@ werte:
     zitat: auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG
   - chunk: bund-ks-18a__c0017
     zitat: maximal im Umfang des «kleinen Abzugs», d.h. im Umfang von höchstes 8 Prozent des
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf Art. 82 BVG / BVV 3 (Bund 2026, data/werte/bund/2026.yaml): Verweis auf DBG-Ansatz. AR-Quellen regeln den Einkauf nicht ausdrücklich; Geltung ergibt sich aus dem Verweis «im Umfang
     von Art. 82 BVG» – Fachperson soll die AR-Praxis bestätigen.'
 - key: zweiverdiener.satz
@@ -800,7 +800,7 @@ werte:
     zitat: ab 01.01.2024 | 1.0%
   - chunk: ar-info-steuerbezug__c0008
     zitat: Der Verfalltag ist jeweils der 30. Juni des Steuerjahres.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Tabelle nennt letzten Satz ab 01.01.2024; keine 2026-spezifische Bestätigung, aber auch keine spätere Änderung.
 - key: tarif.kapitalleistung_vorsorge
   kurz: "einf. Steuer verh. 0,75 % / übrige 1,0 % (über 400'000: 1,0 / 1,3333 %)"

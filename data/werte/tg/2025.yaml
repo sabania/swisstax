@@ -236,12 +236,13 @@ werte:
     zitat: Ein Abzug für ein Arbeitszimmer im Privathaus oder in der Privatwohnung wird nur gewährt, wenn die Erledigung der haupt- oder nebenberuflichen Arbeit zu Hause notwendig ist.
   - chunk: tg-info-faq__c0015
     zitat: Die Arbeitnehmerin/der Arbeitnehmer muss über einen besonderen Raum verfügen
-  status: extrahiert
-  bemerkung: Ergänzt durch Prüfung aus FAQ (nicht Wegleitung). Weisung StP 29 Nr. 8 (Details) nicht im Wiki; Homeoffice-Pauschale gibt es gemäss Quellen nicht. Fachperson prüft Einzelfall.
+  status: agent-geprueft
+  bemerkung: Ergänzt durch Prüfung aus FAQ (nicht Wegleitung). Weisung StP 29 Nr. 8 (Details) nicht im Wiki; Eine Homeoffice-Pauschale wird in den vorliegenden Quellen nicht erwähnt (kein Treffer «Homeoffice»
+    in chunks/tg; nicht aus Quelle bestätigt). Fachperson prüft Einzelfall.
   text: 'Arbeitszimmer in der Privatwohnung: Abzug nur, wenn die Arbeit zu Hause notwendig ist (Nachweis durch steuerpflichtige Person) und kumulativ: wesentlicher Teil der Arbeit zu Hause, weil der Arbeitgeber
     kein geeignetes Zimmer stellt oder dessen Benützung nicht möglich/zumutbar ist; besonderer, ausschliesslich oder vorwiegend beruflich genutzter Raum; Raumverhältnisse erlauben Ausscheiden eines Zimmers.
-    Details: StP 29 Nr. 8. Kein Pauschalbetrag.'
-  rechtsgrundlage: TG FAQ natürliche Personen (Berufsauslagen); StP 29 Nr. 7 Ziff. 4 / StP 29 Nr. 8
+    Details: StP 29 Nr. 8. Ein Pauschalbetrag wird in den vorliegenden Quellen nicht erwähnt (nicht aus Quelle bestätigt, Fachperson prüfen).'
+  rechtsgrundlage: TG FAQ natürliche Personen (Berufsauslagen); StP 29 Nr. 8
 - key: weiterbildung.max
   wert: 13000
   einheit: CHF
@@ -255,7 +256,7 @@ werte:
     zitat: auf jährlich maximal Fr. 13'000 pro Person beschränkt
   - chunk: bund-dbg-2025__art-33-t4
     zitat: bis zum Gesamtbetrag von 13 000 Franken
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf DBG-Ansatz (§ 34 Abs. 1 Ziff. 16 StG TG: «bis zu dem für die direkte Bundessteuer massgebenden Betrag»); Betrag 2025 = Bund CHF 13''000 (WL 2025 bestätigt für Kanton und Bund).'
 - key: versicherung.verheiratet
   wert: 7000
@@ -323,7 +324,7 @@ werte:
     zitat: bis zum bundesrechtlich festgelegten Betrag
   - chunk: bund-bsv-masszahlen-2025-2026__c0003
     zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (bundesrechtlich festgelegter Betrag, Art. 7 BVV 3).
 - key: saeule3a.max_ohne_2saeule
   wert: 36288
@@ -340,7 +341,7 @@ werte:
     zitat: bis zum bundesrechtlich festgelegten Betrag
   - chunk: bund-bsv-masszahlen-2025-2026__c0003
     zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (bundesrechtlich festgelegter Betrag, Art. 7 BVV 3).
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
@@ -353,7 +354,7 @@ werte:
     zitat: Der Abzug von 20% des Erwerbseinkommens gilt auch für unselbständig erwerbende Personen
   - chunk: bund-bvv3__art-7
     zitat: jährlich bis 20 Prozent des Erwerbseinkommens
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (bundesrechtlich festgelegter Betrag, Art. 7 BVV 3). StP 34 Nr. 27 nennt 40% des oberen Grenzbetrags (=36'288) als Maximalabzug ohne 2. Säule; die 20%-Grenze vom Erwerbseinkommen
     steht in der Wegleitung (Ziff. 13).
 - key: saeule3a.einkauf
@@ -706,7 +707,7 @@ werte:
     zitat: steuerfuss liegt seit 2022 bei 109 %
   - chunk: tg-stg__par-6
     zitat: Der Grosse Rat setzt jährlich den Staatssteuerfuss in Prozenten der einfachen Steuer fest
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Quelle ist die Statistische Mitteilung 3/2026 (Steuerfüsse 2026); '109% seit 2022' impliziert 2025, Grossratsbeschluss 2025 nicht im Wiki, daher extrahiert.
 - key: tarif.steuerfrei_alleinstehend
   wert: null

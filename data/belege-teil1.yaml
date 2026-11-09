@@ -580,8 +580,8 @@ belege:
   - 'Begriffe: Rechnung, Tarmed/Tarifpunkte, Patientenanteil, Zahlungsbestätigung'
   - Ärztlich verordnete Medikamente, Zahnbehandlung, Brillen/Sehhilfen, Kuraufenthalte
   relevanz: bedingt
-  bedingung: Nur die selbst bezahlten Kosten (nach Abzug der Kassenleistungen), und nur soweit sie 5 % des Nettoeinkommens übersteigen; allgemeine Gesundheitsvorsorge und Lebenshaltungskosten sind nicht
-    abziehbar (Art. 34 DBG).
+  bedingung: Nur die selbst bezahlten Kosten (nach Abzug der Kassenleistungen), und nur soweit sie 5 % des Nettoeinkommens übersteigen; allgemeine Gesundheitsvorsorge (z. B. Präventivmassnahmen, ZH Formular
+    370) und Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie sind nicht abziehbar (Art. 34 lit. a DBG).
   zweck:
   - abzug
   positionen:
@@ -600,7 +600,7 @@ belege:
   - 'Besondere Ernährungskosten: bei ärztlich angeordneter, lebensnotwendiger Sonderernährung Pauschale möglich (unterliegt dem Selbstbehalt); Detailwerte siehe Werte-Dateien.'
   - KS 11a (Bund) tritt erst ab Steuerperiode 2027 in Kraft; für 2025/2026 gilt noch die bisherige Praxis (Kreisschreiben Nr. 11, bund-ks-11).
   kantone:
-    ZH: Formular 370 mit Aufstellung ausfüllen und Belege bereithalten; nicht abzugsfähig sind u.a. Fahrkosten zum Arzt, Präventivmassnahmen (Fitness), Akupunktur ohne Verordnung, Schönheitsbehandlungen
+    ZH: Formular 370 mit Aufstellung ausfüllen; Belege geordnet beilegen; nicht abzugsfähig sind u.a. Fahrkosten zum Arzt, Präventivmassnahmen (Fitness), Akupunktur ohne Verordnung, Schönheitsbehandlungen
       (Form. 370).
     SG: 'Formular 6: Belege nur auf Verlangen einreichen (Formular 6 SG 2025).'
     AR: 'Formular 6: Belege nur auf Verlangen einreichen; Diätpauschale Fr. 2''500 anstelle effektiver Kosten bei lebensnotwendiger Diät (nicht bei Diabetes) (WL AR 2025 Ziff. 21.1).'
@@ -618,5 +618,23 @@ belege:
     zitat: Fr. 2’500.– in Abzug gebracht werden.
   - chunk: bund-ks-11__c0030
     zitat: halt von 5 % der um die Aufwendungen (Art. 26 – 33 DBG) verminderten steuerbaren
-  status: extrahiert
+  - chunk: zh-form-370__c0003
+    zitat: Die Belege sind geordnet
+  - chunk: zh-form-370__c0002
+    zitat: Präventivmassnahmen
+  - chunk: zh-form-370__c0002
+    zitat: Fahrkosten zum Arzt, Zahn-
+  - chunk: zh-form-370__c0002
+    zitat: Akupunktur, sofern nicht
+  - chunk: zh-form-370__c0002
+    zitat: Schönheitsbehandlungen
+  - chunk: zh-form-370__c0002
+    zitat: Eigene Pflegeleistungen
+  - chunk: sg-form-6-2025__c0003
+    zitat: Verlangen einzureichen.
+  - chunk: ar-form-06-2025__c0003
+    zitat: Verlangen einzureichen.
+  - chunk: tg-form-05-1-2025__c0001
+    zitat: Die Belege sind geordnet beizulegen
+  status: agent-geprueft
   bemerkung: Für 2025/2026 gilt KS 11 (bund-ks-11); KS 11a gilt ab Steuerperiode 2027. Review Opus 2026-11-09.

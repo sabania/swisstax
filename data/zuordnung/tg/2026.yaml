@@ -87,7 +87,7 @@ positionen:
   - chunk: tg-wl-2026__c0106
     zitat: Besteht die Steuerpflicht nur während eines Teils der Steuerperiode, werden
       die Sozialabzüge an-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: S. 1 Auszahlung
   abschnitt: Personalien
   bezeichnung: Steuerrückzahlungen inkl. Rückerstattung der Verrechnungssteuer – Auszahlungskonto
@@ -106,7 +106,7 @@ positionen:
       erfolgen
   - chunk: tg-wl-2026__c0046
     zitat: wie auch beim Postkonto die IBAN-Nummer an.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '1.1'
   abschnitt: Einkünfte
   bezeichnung: Haupterwerbstätigkeit unselbständig – Person 1 (Code 100) / Person

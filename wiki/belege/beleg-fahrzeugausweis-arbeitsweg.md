@@ -9,7 +9,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 
 # Fahrzeugausweis (Fahrzeugschein) / Kontrollschild-Nachweis, Fahrtenaufstellung für Auto oder Motorrad auf dem Arbeitsweg
 
-> Relevanz: **bedingt** (Bedingt relevant) · ID `fahrzeugausweis-arbeitsweg` · Status: 🟡 extrahiert · [Belege-Übersicht](../../quick/belege-relevanz.md)
+> Relevanz: **bedingt** (Bedingt relevant) · ID `fahrzeugausweis-arbeitsweg` · Status: ☑️ agent-geprueft · [Belege-Übersicht](../../quick/belege-relevanz.md)
 
 **Bedingung:** Fahrkostenabzug für Privatauto/Motorrad nur in begründeten Fällen (kein zumutbares öffentliches Verkehrsmittel, Zeitersparnis über 1 Stunde, ständige Benützung während der Arbeitszeit im Auftrag des Arbeitgebers, Krankheit/Gebrechlichkeit mit Arztzeugnis); Geschäftsfahrzeug des Arbeitgebers: kein Fahrkostenabzug. Für Vermögen: Fahrzeug im Eigentum ist als Vermögenswert zu deklarieren (geleaste nicht).
 
@@ -50,7 +50,6 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - Auto/Motorrad: Kilometerentschädigung nur in begründeten Fällen (Formular 4/Begründungsfeld): AR Fr. 0.70/km Auto bzw. 0.40 Motorrad; SG einheitlich Fr. 0.70/km (2025; ab 2026 Fr. 0.75); Velo/Kleinmotorrad: Fr. 700 pro Jahr. Ansätze der anderen Kantone und des Bundes aus data/werte verwenden.
 - Das private Motorfahrzeug ist mit dem aktuellen Verkehrswert zu deklarieren; in der Regel Wertverminderung 40 % des Restwerts pro Jahr (ZH WL 2025 Ziff. 30.4). Geleaste Fahrzeuge nicht deklarieren.
 - Der Fahrzeugausweis allein ist nie ein Abzugsbeleg: Abzug folgt aus Arbeitsweg und Begründung; mit Lohnausweis (Kästchen F, Geschäftsfahrzeug) abgleichen.
-- Unterhalts-, Versicherungs-, Leasing- und Parkplatzkosten sind mit dem Kilometeransatz abgegolten und nicht zusätzlich abziehbar. (Praxis; in den zitierten Chunks nicht belegt, nachprüfen)
 
 ## Kantonale Besonderheiten
 
@@ -59,7 +58,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - **AR:** Je Fahrtkilometer 70 Rappen für Autos bzw. 40 Rappen für Motorräder, in begründeten Fällen; Pendlerabzug max. Fr. 6'000 (Staats-/Gemeindesteuer) (WL AR 2025 Ziff. 10.1).
 - **TG:** Bei Benützung eines Privatautos in der Regel nur den Betrag, den die Benützung des öffentlichen Verkehrsmittels gekostet hätte; Privatfahrzeug-Kosten nur in Ausnahmefällen (WL TG 2025 Ziff. 2.3).
 
-> Bemerkung: Geprüft: Kilometeransätze/220 Tage auf belegte Kantone eingeschränkt; Aussage zur Abgeltung von Unterhalts-/Versicherungs-/Parkplatzkosten durch den Kilometeransatz nicht in Chunks belegt.
+> Bemerkung: Geprüft: Kilometeransätze/220 Tage auf belegte Kantone eingeschränkt (SG: WL SG 2025 und MB 8/2026 zitiert). Der Hinweis, Unterhalts-/Versicherungs-/Parkplatzkosten seien mit dem Kilometeransatz abgegolten, wurde gestrichen (nicht belegt).
 
 ## Quellen
 
@@ -68,3 +67,6 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - [WL ZH 2025 S. 22](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0140.md) `zh-wl-2025__c0140` – «Das private Motorfahrzeug ist mit dem aktuellen Verkehrswert zu deklarieren.»
 - [WL AR 2025 S. 13](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0074.md) `ar-wl-2025__c0074` – «je Fahrtkilometer 70 Rappen für Autos, bzw. 40 Rappen für Motorräder, wenn»
 - [WL TG 2025 S. 38](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0178.md) `tg-wl-2025__c0178` – «Die Kosten der Benützung von privaten Motorfahrzeugen können Sie nur in Ausnahmefällen»
+- [WL SG 2025 S. 23](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0077.md) `sg-wl-2025__c0077` – «70 Rappen je»
+- [WL SG 2025 S. 23](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0077.md) `sg-wl-2025__c0077` – «mit höchstens 220 Arbeits»
+- [MB 8/2026 SG S. 4](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0009.md) `sg-mb-8-2026__c0009` – «erhöht sich auf 75 Rappen pro Kilometer (bisher 70 Rappen).»

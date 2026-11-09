@@ -9,7 +9,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 
 # Leasingvertrag Fahrzeug / Leasingraten-Abrechnung
 
-> Relevanz: **nein** (Nicht relevant) · ID `leasingvertrag` · Status: 🟡 extrahiert · [Belege-Übersicht](../../quick/belege-relevanz.md)
+> Relevanz: **nein** (Nicht relevant) · ID `leasingvertrag` · Status: ☑️ agent-geprueft · [Belege-Übersicht](../../quick/belege-relevanz.md)
 
 **Begründung:** Privat geleaste Fahrzeuge: Leasingraten und die darin enthaltenen Zinsanteile sind nicht abziehbar (Lebenshaltungskosten, Art. 34 DBG); das geleaste Fahrzeug ist nicht als Vermögen zu deklarieren. Nur relevant (bedingt) bei geschäftlicher Nutzung durch Selbständige (Aufwand in der Jahresrechnung) oder als Information für den Fahrkostenabzug (Auto als Arbeitsweg, begründeter Fall).
 

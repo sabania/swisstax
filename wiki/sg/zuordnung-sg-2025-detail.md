@@ -240,24 +240,27 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 <a id="lohnausweis-ziff-10-2-abzug-vorsorge-saeule2-einkauf"></a>
 ### Ziff. Lohnausweis Ziff. 10.2 – Lohnausweis Ziff. 10.2: BVG-Einkaufsbeiträge (bereits vom Lohn abgezogen)
 
-- **Schlüssel:** `abzug.vorsorge.saeule2_einkauf` (Beiträge/Einkäufe 2. Säule (soweit nicht im Lohnausweis abgezogen)) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.vorsorge.saeule2_einkauf` (Beiträge/Einkäufe 2. Säule (soweit nicht im Lohnausweis abgezogen)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Bescheinigung Einkauf Pensionskasse (2. Säule, Formular 21 EDP) → Lohnausweis Ziff. 10.2 (Einkaufsbeiträge)
 - **Regel:** Im Nettolohn (Ziff. 1.1/1.2) bereits berücksichtigt: Beiträge an die 2. Säule sind im Regelfall schon über die Deklaration des Nettolohnes berücksichtigt, ein nochmaliger Abzug unter Ziff. 13.2 ist ausgeschlossen. Einkauf über Lohnausweis abgerechnet: nicht doppelt abziehen; nur Einkäufe, die vom Lohn nicht abgezogen wurden (Direktzahlung), in Ziff. 13.2 mit Bescheinigung. Die Praxis zu Ziff. 10.2 stützt sich auf die Lohnausweis-Wegleitung (nur 2026 im Wiki); Fachperson prüft.
-- **Bemerkung:** Spezifische Lohnausweis-Ziffer 10.2 in der SG-WL 2025 nicht erwähnt; Aussage zur Doppelerfassung aus WL SG 2025 Ziff. 13.2. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw. 61, nur 2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert.
+- **Bemerkung:** Spezifische Lohnausweis-Ziffer 10.2 in der SG-WL 2025 nicht erwähnt; Aussage zur Doppelerfassung aus WL SG 2025 Ziff. 13.2. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw. 61, nur 2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert. Zweitprüfung: Bedeutung von Lohnausweis Ziff. 10.2 aus WL Lohnausweis 2026 (jahr_ok; WL Lohnausweis 2025 nicht im Wiki, Feldstruktur für 2025 nicht separat bestätigt).
 - **Quellen:**
   - [WL SG 2025 S. 26](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0086.md) `sg-wl-2025__c0086` – «Deklaration des Nettolohnes»
+  - [WL Lohnausweis 2026 S. 14–15](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0036.md) `bund-wl-lohnausweis-2026__c0036` – «In diesem Feld sind die im Bruttolohn enthaltenen, dem Arbeitnehmer vom Lohn abgezoge»
+  - [WL Lohnausweis 2026 S. 14–15](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0037.md) `bund-wl-lohnausweis-2026__c0037` – «sind nicht durch den Arbeitgeber im Lohnausweis, sondern durch die Vorsorgeeinrichtung separat mit dem Formular 21 EDP zu bescheinigen»
 
 <a id="lohnausweis-ziff-13-3-abzug-weiterbildung"></a>
 ### Ziff. Lohnausweis Ziff. 13.3 – Lohnausweis Ziff. 13.3: Beiträge des Arbeitgebers an Aus-/Weiterbildung
 
-- **Schlüssel:** `abzug.weiterbildung` (Berufsorientierte Aus- und Weiterbildungskosten) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.weiterbildung` (Berufsorientierte Aus- und Weiterbildungskosten) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Rechnungen und Belege Aus- und Weiterbildung (Kurse, Lehrgänge, Umschulung, Prüfungsgebühren) → Lohnausweis Ziff. 13.3
 - **Regel:** Vom Arbeitgeber getragene Kosten der berufsorientierten Aus- und Weiterbildung (inkl. Umschulung) sind nicht steuerbar; entsprechend darf der Arbeitnehmer diese Kosten nicht nochmals in Ziff. 16.4 abziehen (nur selbst bezahlte Kosten).
-- **Bemerkung:** Lohnausweis-Ziffer 13.3 wird in der WL SG 2025 nicht namentlich genannt; Regel aus WL SG 2025 Ziff. 1 und 16.4. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw. 61, nur 2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert.
+- **Bemerkung:** Lohnausweis-Ziffer 13.3 wird in der WL SG 2025 nicht namentlich genannt; Regel aus WL SG 2025 Ziff. 1 und 16.4. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw. 61, nur 2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert. Zweitprüfung: Bedeutung von Lohnausweis Ziff. 13.3 aus WL Lohnausweis 2026 (jahr_ok; WL Lohnausweis 2025 nicht im Wiki, Feldstruktur für 2025 nicht separat bestätigt).
 - **Quellen:**
   - [WL SG 2025 S. 14](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0040.md) `sg-wl-2025__c0040` – «Nicht steuerbar sind die vom Arbeitgeber getragenen Kosten der berufsorientierten»
   - [WL SG 2025 S. 14](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0040.md) `sg-wl-2025__c0040` – «Aus- und Weiterbildung, einschliesslich Umschulungskosten.»
   - [WL SG 2025 S. 28](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0094.md) `sg-wl-2025__c0094` – «Um selbst bezahlte, berufsorientierte Aus-, Weiterbildungs- und»
+  - [WL Lohnausweis 2026 S. 18](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0048.md) `bund-wl-lohnausweis-2026__c0048` – «In diesem Feld sind alle effektiven Vergütungen des Arbeitgebers für berufsorientierte»
 
 ## Abzüge
 

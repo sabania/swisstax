@@ -1311,9 +1311,16 @@ positionen:
   quellen:
   - chunk: sg-wl-2025__c0086
     zitat: Deklaration des Nettolohnes
-  status: extrahiert
-  bemerkung: Spezifische Lohnausweis-Ziffer 10.2 in der SG-WL 2025 nicht erwähnt; Aussage zur Doppelerfassung aus WL SG 2025 Ziff. 13.2. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw.
-    61, nur 2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert.
+  - chunk: bund-wl-lohnausweis-2026__c0036
+    zitat: In diesem Feld sind die im Bruttolohn enthaltenen, dem Arbeitnehmer vom Lohn abgezoge
+    jahr_ok: true
+  - chunk: bund-wl-lohnausweis-2026__c0037
+    zitat: sind nicht durch den Arbeitgeber im Lohnausweis, sondern durch die Vorsorgeeinrichtung separat mit dem Formular 21 EDP zu bescheinigen
+    jahr_ok: true
+  status: agent-geprueft
+  bemerkung: 'Spezifische Lohnausweis-Ziffer 10.2 in der SG-WL 2025 nicht erwähnt; Aussage zur Doppelerfassung aus WL SG 2025 Ziff. 13.2. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47
+    bzw. 61, nur 2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert. Zweitprüfung: Bedeutung von Lohnausweis Ziff. 10.2 aus WL Lohnausweis 2026 (jahr_ok; WL Lohnausweis 2025 nicht im Wiki, Feldstruktur
+    für 2025 nicht separat bestätigt).'
 - ziffer: Lohnausweis Ziff. 13.3
   abschnitt: Einkünfte
   bezeichnung: 'Lohnausweis Ziff. 13.3: Beiträge des Arbeitgebers an Aus-/Weiterbildung'
@@ -1331,9 +1338,13 @@ positionen:
     zitat: Aus- und Weiterbildung, einschliesslich Umschulungskosten.
   - chunk: sg-wl-2025__c0094
     zitat: Um selbst bezahlte, berufsorientierte Aus-, Weiterbildungs- und
-  status: extrahiert
-  bemerkung: Lohnausweis-Ziffer 13.3 wird in der WL SG 2025 nicht namentlich genannt; Regel aus WL SG 2025 Ziff. 1 und 16.4. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw. 61, nur
-    2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert.
+  - chunk: bund-wl-lohnausweis-2026__c0048
+    zitat: In diesem Feld sind alle effektiven Vergütungen des Arbeitgebers für berufsorientierte
+    jahr_ok: true
+  status: agent-geprueft
+  bemerkung: 'Lohnausweis-Ziffer 13.3 wird in der WL SG 2025 nicht namentlich genannt; Regel aus WL SG 2025 Ziff. 1 und 16.4. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw. 61, nur
+    2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert. Zweitprüfung: Bedeutung von Lohnausweis Ziff. 13.3 aus WL Lohnausweis 2026 (jahr_ok; WL Lohnausweis 2025 nicht im Wiki, Feldstruktur für 2025
+    nicht separat bestätigt).'
 - ziffer: Lohnausweis Ziff. 15
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Lohnausweis Ziff. 15 Bemerkungen: Anzahl Schichttage; «Einer von xx Lohnausweisen»'

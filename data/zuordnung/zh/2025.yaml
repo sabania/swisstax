@@ -1849,7 +1849,7 @@ positionen:
     zitat: Arbeitnehmende, die über ein Geschäftsfahrzeug verfügen, können keine Fahrkosten in Abzug bringen.
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0003
     zitat: zwischen Wohn- und Arbeitsstätte geltend gemacht werden.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Quelle ist die ESTV-Wegleitung zum Lohnausweis (Formular 11) in der Fassung 2026 (bund-wl-lohnausweis-2026); im Wiki ist keine 2025er Fassung vorhanden. Es handelt sich um qualitative Deklarationsregeln
     ohne Beträge; ob sich die Regel für 2025 geändert hat, ist durch die Fachperson zu prüfen.
 - ziffer: Lohnausweis Feld G
@@ -1859,8 +1859,9 @@ positionen:
   belege:
   - lohnausweis
   feld: Lohnausweis Feld G (Kreuz) / Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt»
-  regel: Feld G angekreuzt (Lunch-Checks, verbilligtes Personalrestaurant, auch wenn Nutzung unbekannt) → nur der reduzierte Verpflegungsabzug CHF 7.50/Tag (max. CHF 1’600/Jahr), nicht CHF 15/3’200. Vermerk
-    «Mittagessen durch Arbeitgeber bezahlt» in Ziff. 15 (Mittagessensentschädigung bei > 60 % Aussendienst) → kein Verpflegungsabzug.
+  regel: Feld G angekreuzt (Lunch-Checks, verbilligtes Personalrestaurant, auch wenn Nutzung unbekannt) → nur der reduzierte Verpflegungsabzug CHF 7.50/Tag (max. CHF 1’600/Jahr), nicht CHF 15/3’200. Bei
+    > 60 % auswärtiger Tätigkeit mit Mittagessensentschädigung ist im Lohnausweis ausschliesslich unter Ziff. 15 der Hinweis «Mittagessen durch Arbeitgeber bezahlt» anzubringen (WL Lohnausweis 2026); die
+    Folge für den Verpflegungsabzug ist in den vorliegenden Quellen nicht ausdrücklich belegt – nicht belegt, Fachperson prüfen.
   werte_keys:
   - berufskosten.verpflegung.verbilligt_tag
   - berufskosten.verpflegung.verbilligt_jahr
@@ -1873,7 +1874,10 @@ positionen:
     jahr_ok: true
   - chunk: zh-wl-2025__c0066
     zitat: – wenn die Verpflegung durch den Arbeitgeber verbilligt wird (Kantine, Personalrestaurant,
-  status: extrahiert
+  - chunk: bund-wl-lohnausweis-2026__c0012
+    zitat: Bei Arbeitnehmern, die mehr als 60 % der Arbeitszeit ausserhalb ihrer üblichen
+    jahr_ok: true
+  status: agent-geprueft
   bemerkung: Quelle ist die ESTV-Wegleitung zum Lohnausweis (Formular 11) in der Fassung 2026 (bund-wl-lohnausweis-2026); im Wiki ist keine 2025er Fassung vorhanden. Es handelt sich um qualitative Deklarationsregeln
     ohne Beträge; ob sich die Regel für 2025 geändert hat, ist durch die Fachperson zu prüfen.
 - ziffer: Lohnausweis Ziff. 10.2
@@ -1898,7 +1902,7 @@ positionen:
     jahr_ok: true
   - chunk: zh-wl-2025__c0092
     zitat: werden, soweit innerhalb von drei Jahren ein Kapitalbezug erfolgt.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Quelle ist die ESTV-Wegleitung zum Lohnausweis (Formular 11) in der Fassung 2026 (bund-wl-lohnausweis-2026); im Wiki ist keine 2025er Fassung vorhanden. Es handelt sich um qualitative Deklarationsregeln
     ohne Beträge; ob sich die Regel für 2025 geändert hat, ist durch die Fachperson zu prüfen.
 - ziffer: Lohnausweis Ziff. 13.3
@@ -1920,7 +1924,7 @@ positionen:
     jahr_ok: true
   - chunk: zh-form-367-2025__c0001
     zitat: Beitrag Arbeitgeber oder weiterer Stellen (Bund, Branchenverbände etc.)
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Quelle ist die ESTV-Wegleitung zum Lohnausweis (Formular 11) in der Fassung 2026 (bund-wl-lohnausweis-2026); im Wiki ist keine 2025er Fassung vorhanden. Es handelt sich um qualitative Deklarationsregeln
     ohne Beträge; ob sich die Regel für 2025 geändert hat, ist durch die Fachperson zu prüfen.
 - ziffer: Lohnausweis Ziff. 15
@@ -1940,6 +1944,6 @@ positionen:
     jahr_ok: true
   - chunk: zh-wl-2025__c0066
     zitat: gewiesenen Schichttag CHF 15, bei ständiger Schicht- oder Nachtarbeit im Jahr
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Quelle ist die ESTV-Wegleitung zum Lohnausweis (Formular 11) in der Fassung 2026 (bund-wl-lohnausweis-2026); im Wiki ist keine 2025er Fassung vorhanden. Es handelt sich um qualitative Deklarationsregeln
     ohne Beträge; ob sich die Regel für 2025 geändert hat, ist durch die Fachperson zu prüfen.

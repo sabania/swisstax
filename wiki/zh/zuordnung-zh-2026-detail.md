@@ -1089,10 +1089,12 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 <a id="form-350-einkommen-liegenschaften-eigenmietwert"></a>
 ### Ziff. Form. 350 – Liegenschaftenverzeichnis: Steuerwert (Codes 5531ff / 5541ff), Eigenmietwert/Mietzinseinnahmen, Unterhalt (pauschal/effektiv), Nettoertrag aus Liegenschaften (Code 3953), Übertrag weitere Verzeichnisse (Code 578)
 
-- **Schlüssel:** `einkommen.liegenschaften.eigenmietwert` (Eigenmietwert selbstbewohnter Liegenschaft) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `einkommen.liegenschaften.eigenmietwert` (Eigenmietwert selbstbewohnter Liegenschaft) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Schätzungsprotokoll / Steuerwert- und Eigenmietwert-Verfügung Liegenschaft (amtliche Schätzung, Liegenschaftssteuerrechnung), Mietverträge / Mietzinsabrechnung / Mietzinsaufstellung (vermietete Liegenschaft, Garage, Ferienwohnung), Handwerker- und Unterhaltsrechnungen Liegenschaft (Reparaturen, Renovationen, Energiespar-/Umweltschutzmassnahmen), Nebenkosten-, Versicherungs- und Verwaltungsabrechnungen Liegenschaft (Gebäudeversicherung, Grundstücksteuern, Hauswart, Verwalter) → Liegenschaftenbewertung 2026 der Gemeinde; Mieterspiegel; Unterhaltsrechnungen; Beiblatt zum Liegenschaftenverzeichnis
-- **Regel:** Pro Liegenschaft (alle Liegenschaften, auch in anderen Kantonen und im Ausland) Steuerwert, Eigenmietwert bzw. Mieterträge, Unterhalt/Verwaltung (Pauschale oder effektiv) und verbleibenden Ertrag erfassen; Nettoertrag → Ziff. 6, Steuerwerte → Ziff. 31.1/31.2. Online-Steuererklärung überträgt die Totale automatisch.
+- **Regel:** Pro Liegenschaft (alle Liegenschaften, auch in anderen Kantonen und im Ausland) Steuerwert, Eigenmietwert bzw. Mieterträge, Unterhalt/Verwaltung (Pauschale oder effektiv) und verbleibenden Ertrag erfassen; Nettoertrag → Ziff. 6, Steuerwerte → Ziff. 31.1/31.2.
 - **Bemerkung:** korrigiert durch Prüfung: Zitate durch wörtliche Textstellen (Code 3953; Deklarationspflicht aller Liegenschaften) ersetzt. Detailregeln in c0172/c0173 bei Bedarf direkt prüfen.
 - **Quellen:**
   - [WL ZH 2026 UJ S. 27](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0177.md) `zh-wl-2026-uj__c0177` – «Nettoertrag aus Liegenschaften 3953»
   - [WL ZH 2026 UJ S. 27](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0173.md) `zh-wl-2026-uj__c0173` – «Es sind alle Liegenschaften zu deklarieren, auch jene in anderen Kantonen oder»
+  - [WL ZH 2026 UJ S. 27](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0174.md) `zh-wl-2026-uj__c0174` – «erklärung Seite 4, Ziffer 31.2»
+  - [WL ZH 2026 UJ S. 27](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0174.md) `zh-wl-2026-uj__c0174` – «erklärung Seite 4, Ziffer 31.1»

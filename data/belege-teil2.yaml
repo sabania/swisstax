@@ -137,7 +137,7 @@ belege:
     zitat: Leasingzinsen sind grundsätzlich nicht abzugsfähig.
   - chunk: zh-wl-2025__c0140
     zitat: Nicht deklariert werden müssen geleaste Fahrzeuge.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Hinweis ZH-Zitat (zh-wl-2025__c0073): Der Satzanfang «Nicht» steht im PDF-Layout (S. 14) in einer vorangehenden Zeile; der Satz lautet vollständig «Nicht abzugsberechtigt sind Amortisationen
     (Schuldrückzahlungen) sowie Leasingraten (mit den darin enthaltenen Zinsanteilen).» Aussage zur Abgeltung der Leasingkosten durch den Kilometeransatz ist in den zitierten Chunks nicht belegt (Praxis,
     nachprüfen).'
@@ -651,7 +651,6 @@ belege:
     Fr. 700 pro Jahr. Ansätze der anderen Kantone und des Bundes aus data/werte verwenden.'
   - Das private Motorfahrzeug ist mit dem aktuellen Verkehrswert zu deklarieren; in der Regel Wertverminderung 40 % des Restwerts pro Jahr (ZH WL 2025 Ziff. 30.4). Geleaste Fahrzeuge nicht deklarieren.
   - 'Der Fahrzeugausweis allein ist nie ein Abzugsbeleg: Abzug folgt aus Arbeitsweg und Begründung; mit Lohnausweis (Kästchen F, Geschäftsfahrzeug) abgleichen.'
-  - Unterhalts-, Versicherungs-, Leasing- und Parkplatzkosten sind mit dem Kilometeransatz abgegolten und nicht zusätzlich abziehbar. (Praxis; in den zitierten Chunks nicht belegt, nachprüfen)
   kantone:
     ZH: 'Begründung für private Motorfahrzeuge im Formular 360 (Ziff. 7): Fehlen eines öV, Zeitersparnis über 1 Stunde, ständige Benützung während der Arbeitszeit, Krankheit mit Arztzeugnis; Velo/Kleinmotorrad
       CHF 700; Fahrkostenmaximum Staat CHF 5''200 / Bund CHF 3''300; Wertverminderung 40 % für Vermögen (WL ZH 2025).'
@@ -669,8 +668,15 @@ belege:
     zitat: je Fahrtkilometer 70 Rappen für Autos, bzw. 40 Rappen für Motorräder, wenn
   - chunk: tg-wl-2025__c0178
     zitat: Die Kosten der Benützung von privaten Motorfahrzeugen können Sie nur in Ausnahmefällen
-  status: extrahiert
-  bemerkung: 'Geprüft: Kilometeransätze/220 Tage auf belegte Kantone eingeschränkt; Aussage zur Abgeltung von Unterhalts-/Versicherungs-/Parkplatzkosten durch den Kilometeransatz nicht in Chunks belegt.'
+  - chunk: sg-wl-2025__c0077
+    zitat: 70 Rappen je
+  - chunk: sg-wl-2025__c0077
+    zitat: mit höchstens 220 Arbeits
+  - chunk: sg-mb-8-2026__c0009
+    zitat: erhöht sich auf 75 Rappen pro Kilometer (bisher 70 Rappen).
+  status: agent-geprueft
+  bemerkung: 'Geprüft: Kilometeransätze/220 Tage auf belegte Kantone eingeschränkt (SG: WL SG 2025 und MB 8/2026 zitiert). Der Hinweis, Unterhalts-/Versicherungs-/Parkplatzkosten seien mit dem Kilometeransatz
+    abgegolten, wurde gestrichen (nicht belegt).'
 - id: spesenreglement
   name: Spesenreglement des Arbeitgebers (genehmigtes Spesenreglement, Spesenabrechnung, Pauschalspesen)
   erkennen:
@@ -699,12 +705,13 @@ belege:
   - Pauschale Spesenvergütungen müssen in etwa den effektiven Auslagen entsprechen und sind auch bei genehmigtem Reglement betragsmässig im Lohnausweis (Ziff. 13.2) anzugeben.
   - Spesenvergütungen, die über tatsächlichen Aufwand hinausgehen, sind Bestandteil des steuerbaren Bruttolohns; ersetzte Auslagen dürfen nicht nochmals als Berufskosten abgezogen werden (kein Doppelabzug).
   - 'Quellenbesteuerte Arbeitnehmer: Pauschalspesen ohne genehmigtes Reglement unterliegen der Quellensteuer (KS 45).'
-  - Die Wegleitung zum Lohnausweis liegt in der Fassung 2026 vor; für 2025 gilt die inhaltlich gleiche Praxis (Ziff.-Angaben prüfen).
+  - Die Wegleitung zum Lohnausweis liegt nur in der Fassung 2026 vor; die Übertragbarkeit auf 2025 ist nicht separat belegt (Ziff.-Angaben prüfen).
   kantone:
-    ZH: Lohnausweise sind der Steuererklärung beizulegen (WL ZH 2025); Spesenreglement des Sitzkantons wird anerkannt – Einzelheiten kantonal nicht abweichend geregelt.
-    SG: Keine abweichende Regelung in der WL SG 2025 gefunden; Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
-    AR: Keine abweichende Regelung in der WL AR 2025 gefunden; Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
-    TG: Keine abweichende Regelung in der WL TG 2025 gefunden; Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
+    ZH: Lohnausweise sind der Steuererklärung beizulegen (WL ZH 2025); Spesenreglement des Sitzkantons wird anerkannt (Lohnausweis-Wegleitung). Eine abweichende kantonale Regelung wurde in den zitierten
+      Quellen nicht ausgewertet.
+    SG: Kantonsspezifische Quelle zum Spesenreglement nicht ausgewertet; es gilt die Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
+    AR: Kantonsspezifische Quelle zum Spesenreglement nicht ausgewertet; es gilt die Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
+    TG: Kantonsspezifische Quelle zum Spesenreglement nicht ausgewertet; es gilt die Anerkennung des Reglements des Sitzkantons laut Lohnausweis-Wegleitung.
   quellen:
   - chunk: bund-wl-lohnausweis-2026__c0047
     zitat: Vom Sitzkanton genehmigte Spesenreglemente werden von
@@ -712,6 +719,8 @@ belege:
     zitat: sind bei allen Arbeitnehmern im Lohnausweis betragsmässig anzugeben
   - chunk: bund-ks-45__c0036
     zitat: Pauschalspesen der Quellensteuer zu unterwerfen
-  status: extrahiert
+  - chunk: zh-wl-2025__c0032
+    zitat: Bitte vergessen Sie nicht, Ihre Lohnausweise der Steuererklärung beizulegen.
+  status: agent-geprueft
   bemerkung: 'Geprüft: Lohnausweis-Wegleitung liegt nur für 2026 vor (Praxis für 2025 inhaltlich gleich, nicht separat belegt); Kreuz bei 13.1.1 «genehmigtes Reglement» entfernt (Reglement-Vermerk steht
     in Ziff. 15).'

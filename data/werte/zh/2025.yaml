@@ -59,7 +59,7 @@ werte:
   quellen:
   - chunk: zh-wl-2025__c0060
     zitat: in der Regel begrenzt auf 240 Tage
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Nur Formularangabe (WL-Abdruck von Form. 360); im Gesetz/LS 631.33 nicht genannt. Gilt für Km-Abzug, nicht für ÖV-Abo oder Velopauschale.
 - key: berufskosten.verpflegung.tag
   wert: 15
@@ -224,7 +224,7 @@ werte:
     zitat: Fachliteratur, privates Arbeits
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0007
     zitat: sind die Berufsauslagen in vollem Umfang nachzuweisen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Aus dem Wortlaut der Verfügung abgeleitet; eine ausdrückliche Homeoffice-Regel (z. B. Homeoffice-Tage) wurde in den Quellen 2025 nicht gefunden.
 - key: weiterbildung.max
   wert: 12400
@@ -348,9 +348,17 @@ werte:
     zitat: auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG
   - chunk: bund-bvv3__uebergang-disp-u3
     zitat: können nicht mit einem Einkauf ausgeglichen werden
-  status: extrahiert
-  bemerkung: Verweis auf Bundesrecht (BVV 3, Wert aus data/werte/bund/2025.yaml). Kantonale Norm § 31 Abs. 1 lit. e verweist «im Sinn und im Umfang von Art. 82 BVG». Taxonomie führt Beleg-Schlüssel «ab
-    Steuerjahr 2026»; praktisch erster Einkauf frühestens 2026 (Lücken ab Beitragsjahr 2025). ZH-spezifische Vollzugspraxis (ZStB 31.1) hierzu nicht gefunden.
+  - chunk: bund-bvv3__art-7b
+    zitat: für die Jahre, für die eine Beitragslücke ausgeglichen werden soll, noch keinen Einkauf vorgenommen hat
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
+  - chunk: bund-mm-saeule3a-einkauf__c0001
+    zitat: Diese treten per 1. Januar 2025 in Kraft
+  status: agent-geprueft
+  bemerkung: 'Verweis auf Bundesrecht (BVV 3, Wert aus data/werte/bund/2025.yaml). Kantonale Norm § 31 Abs. 1 lit. e verweist «im Sinn und im Umfang von Art. 82 BVG». Taxonomie führt Beleg-Schlüssel «ab
+    Steuerjahr 2026»; praktisch erster Einkauf frühestens 2026 (Lücken ab Beitragsjahr 2025). ZH-spezifische Vollzugspraxis (ZStB 31.1) hierzu nicht gefunden. Ergänzt (Zweitprüfung): CHF 7''258 = oberer
+    Grenzbetrag (BSV-Masszahlen 2025/2026, bund-bsv-masszahlen-2025-2026__c0003); «nur ein Einkauf je Jahresbeitragslücke» Art. 7b Abs. 2 lit. c bzw. Art. 7a Abs. 3 BVV 3; Inkrafttreten 1.1.2025 gemäss
+    Bundesrat-Mitteilung vom 6.11.2024 (Bundesquellen, gelten über den Verweis von § 31 Abs. 1 lit. e StG ZH).'
   einheit: Text
   text: 'Nachträglicher Einkauf (Nachzahlung) in die Säule 3a: zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren (ab Beitragsjahr 2025) nicht alle zulässigen Beiträge einbezahlt
     wurden; im Einkaufsjahr muss der volle ordentliche Beitrag geleistet sein; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7''258); je Jahresbeitragslücke nur ein Einkauf; Lücken vor
@@ -508,7 +516,7 @@ werte:
     zitat: kann in Ausnahmefällen ein Einschlag gewährt werden
   - chunk: zh-zstb-21-3-bis-2025__c0001
     zitat: Diese Weisung wurde per 24. Mai 2023 aufgehoben.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Weisung 2009 gilt bis Steuerjahr 2025; ab 2026 Weisung 2026 (nicht Teil dieser Datei).
 - key: sozialabzug.kind
   wert: 9300
@@ -803,7 +811,7 @@ werte:
     zitat: Der Zins zu Gunsten wie zu Lasten der steuerpflichtigen Person beträgt im Kalenderjahr 2025
   - chunk: zh-wl-2025__c0022
     zitat: vor dem 1. Oktober 2025 geleistet haben
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'ergänzt durch Prüfung: WL ZH 2025 (S. 8, «Steuern 2025») nennt den Satz 2025. Gleicher Satz zu Gunsten wie zu Lasten (Ausgleichszins).'
   einheit: '%'
   text: 'Vergütungszins (Zins zu Gunsten der steuerpflichtigen Person) im Kalenderjahr 2025: 1 %; Zahlungen vor dem 1. Oktober 2025 werden bis zur Schlussrechnung verzinst.'
@@ -822,7 +830,7 @@ werte:
     zitat: zulasten des Steuerpflichtigen ab einem Verfalltag in der Steuerperiode
   - chunk: zh-wl-2025__c0022
     zitat: Der Zins zu Gunsten wie zu Lasten der steuerpflichtigen Person beträgt im Kalenderjahr 2025
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'ergänzt durch Prüfung: Satz 2025 = 1 % (WL ZH 2025 c0022); Satz 2026 = 0,75 % (c0024), hier nicht massgebend. Siehe bezug.verguetungszins.'
 - key: tarif.kapitalleistung_vorsorge
   kurz: "Satz für 1/20 der Leistung, einf. Staatssteuer mind. 2 %"

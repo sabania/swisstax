@@ -56,7 +56,7 @@ werte:
   text: Für die Berechnung des Fahrkostenabzugs wird von 220 Arbeitstagen pro Kalenderjahr (Vollzeitstelle) ausgegangen, sofern nicht eine höhere Anzahl nachgewiesen wird. Homeoffice-Tage und Tage ohne
     Arbeitsleistung zählen nicht.
   gilt_fuer: kanton
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Gefunden in StB 39 Nr. 3 Ziff. 2.7 (gilt 2025/2026); ergänzt durch Prüfung.
   rechtsgrundlage: StB 39 Nr. 3 Ziff. 2.7
   quellen:
@@ -321,7 +321,7 @@ werte:
     der gebundenen Selbstvorsorge nach Art. 82 BVG; Höchstbetrag nach BVV 3 (identisch mit DBG).'
   gilt_fuer: kanton
   rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG i.V.m. Art. 82 BVG, Art. 7 BVV 3
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf DBG-Ansatz: StG SG beziffert den Betrag nicht, sondern verweist auf Art. 82 BVG; kantonaler Wert = Bundeswert 2026 (data/werte/bund/2026.yaml).'
   quellen:
   - chunk: sg-stg-2026__art-45-t2
@@ -338,7 +338,7 @@ werte:
   text: 'Säule 3a (grosser Abzug) ohne 2. Säule: 20 % des Erwerbseinkommens, höchstens CHF 36''288 pro Jahr (Bundesrecht, Art. 82 BVG / BVV 3; SG übernimmt via Verweis).'
   gilt_fuer: kanton
   rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG i.V.m. Art. 82 BVG, Art. 7 BVV 3
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf DBG-Ansatz: StG SG beziffert den Betrag nicht, sondern verweist auf Art. 82 BVG; kantonaler Wert = Bundeswert 2026 (data/werte/bund/2026.yaml).'
   quellen:
   - chunk: sg-stg-2026__art-45-t2
@@ -354,7 +354,7 @@ werte:
   einheit: '%'
   text: 'Säule 3a ohne 2. Säule: 20 % des Erwerbseinkommens, max. CHF 36''288 (Bundesrecht BVV 3; SG verweist auf Art. 82 BVG).'
   gilt_fuer: kanton
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Verweis auf DBG-Ansatz: StG SG beziffert den Betrag nicht, sondern verweist auf Art. 82 BVG; kantonaler Wert = Bundeswert 2026 (data/werte/bund/2026.yaml).'
   rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG i.V.m. Art. 82 BVG, Art. 7 BVV 3
   quellen:
@@ -374,7 +374,7 @@ werte:
     zitat: Jahre nachträglich einbezahlt werden, wobei der Abzug höchstens dem kleinen Säule-3a-Maximalbetrag entspricht
   - chunk: sg-mb-8-2026__c0010
     zitat: Mit einem Einkauf können nur Lücken, die ab 1. Januar 2025 entstanden sind, gefüllt werden.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Quelle ist das Merkblatt 8/2026 (unterjährige Steuerpflicht), Ziff. 11 «Änderungen gegenüber 2025»; Betrag des kleinen Maximalbetrags 2026 ist in SG-Quellen nicht beziffert.
 - key: zweiverdiener.satz
   wert: null
@@ -707,7 +707,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-50
     zitat: Für gemeinsam steuerpflichtige Ehegatten wird der Steuersatz des halben steuerbaren Einkommens angewendet.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Wert 23''200 berechnet (2 x 11''600); Splitting-Methode: Satz des halben Einkommens, angewendet auf das ganze Einkommen (Beispiel MB 8/2026 Ziff. 8).'
 - key: tarif.hoechstsatz_ab_alleinstehend
   wert: 264500
@@ -729,7 +729,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-50
     zitat: Für gemeinsam steuerpflichtige Ehegatten wird der Steuersatz des halben steuerbaren Einkommens angewendet.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Wert 529'000 berechnet (2 x 264'500), nicht wörtlich im Gesetz.
 - key: tarif.mindeststeuer
   wert: null
@@ -765,8 +765,8 @@ werte:
 - key: verfahren.abgabeweg
   wert: null
   einheit: Text
-  text: Elektronische Steuererklärung über E-Tax SG (vollständig digital einreichbar; das System erkennt unterjährige Steuerpflicht automatisch) oder Papier. Elektronische Einreichung ersetzt die persönliche
-    Unterschrift durch elektronische Bestätigung, soweit das Steueramt dies zulässt.
+  text: Elektronische Steuererklärung über E-Tax SG (vollständig digital einreichbar; das System erkennt unterjährige Steuerpflicht automatisch). Elektronische Einreichung ersetzt die persönliche Unterschrift
+    durch elektronische Bestätigung, soweit das Steueramt dies zulässt.
   gilt_fuer: kanton
   rechtsgrundlage: Art. 163ter Abs. 2, Art. 168 Abs. 2 StG SG
   quellen:
@@ -774,8 +774,11 @@ werte:
     zitat: vollständig digital eingereicht werden
   - chunk: sg-stg-2026__art-163ter
     zitat: Das kantonale Steueramt kann elektronische Eingaben zulassen.
-  status: extrahiert
-  bemerkung: Zugang E-Login/AGOV laut Seed (E-Tax-Infoseite), im Wiki nicht zitiert.
+  - chunk: sg-stg-2026__art-168
+    zitat: Die vollständig elektronische Einreichung der Steuererklärung richtet sich nach Art. 163ter Abs. 2 dieses Erlasses.
+  status: agent-geprueft
+  bemerkung: 'Zugang E-Login/AGOV laut Seed (E-Tax-Infoseite), im Wiki nicht zitiert. Papierabgabe: nicht ausdrücklich belegt (Art. 168 Abs. 2 StG SG verlangt persönliche Unterzeichnung und Einreichung
+    mit Beilagen) – Fachperson prüft.'
 - key: verfahren.beilagen_schwellen
   wert: null
   einheit: Text

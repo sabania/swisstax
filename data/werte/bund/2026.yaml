@@ -224,7 +224,7 @@ werte:
     zitat: Fachliteratur, privates Arbeitszimmer, Berufskleider, besonderen Schuh- und Kleiderverschleiss sowie Schwerarbeit
   - chunk: bund-wl-2a-2026__c0042
     zitat: zung, Beleuchtung) in Abzug bringen. Bloss gelegentliche
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Aussage zu «keine pauschale Homeoffice-Entschädigung» ist Schluss aus dem Fehlen in BKV/RS 2-215; Quelle nennt sie nicht ausdrücklich.
 - key: weiterbildung.max
   wert: 13000
@@ -458,7 +458,7 @@ werte:
     zitat: i. die Mitgliederbeiträge und Zuwendungen bis zum Gesamtbetrag von 10 600 Franken an politische Parteien
   - chunk: bund-rs-2-215__c0007
     zitat: (Art. 33 Abs. 1 Bst. i DBG)
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Quellen nennen nur einen Gesamtbetrag; ob bei Ehepaaren pro Person oder gemeinsam, ist in den Quellen nicht ausdrücklich geregelt.
 - key: parteispenden.max_verheiratet
   wert: null

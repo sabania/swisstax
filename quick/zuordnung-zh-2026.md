@@ -161,7 +161,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 
 | Ziffer | Position | Beleg | Kurzregel · Limite (Kanton / Bund) | St. |
 |---|---|---|---|---|
-| Form. 350 | Liegenschaftenverzeichnis: Steuerwert (Codes 5531ff / 5541ff), Eigenmietwert/Mietzinseinnahmen, Unterhalt … | Schätzungsprotokoll / Steuerwert- und Eigenmietwert-Verfügung Liegenschaft, Mietverträge / Mietzinsabrechnung / Mietzinsaufstellung, Handwerker- und Unterhaltsrechnungen Liegenschaft, Nebenkosten-, Versicherungs- und Verwaltungsabrechnungen Liegenschaft | Pro Liegenschaft (alle Liegenschaften, auch in anderen Kantonen und im Ausland) Steuerwert, Eigenmietwert bzw. … [↗](../wiki/zh/zuordnung-zh-2026-detail.md#form-350-einkommen-liegenschaften-eigenmietwert) | 🟡 |
+| Form. 350 | Liegenschaftenverzeichnis: Steuerwert (Codes 5531ff / 5541ff), Eigenmietwert/Mietzinseinnahmen, Unterhalt … | Schätzungsprotokoll / Steuerwert- und Eigenmietwert-Verfügung Liegenschaft, Mietverträge / Mietzinsabrechnung / Mietzinsaufstellung, Handwerker- und Unterhaltsrechnungen Liegenschaft, Nebenkosten-, Versicherungs- und Verwaltungsabrechnungen Liegenschaft | Pro Liegenschaft (alle Liegenschaften, auch in anderen Kantonen und im Ausland) Steuerwert, Eigenmietwert bzw. … [↗](../wiki/zh/zuordnung-zh-2026-detail.md#form-350-einkommen-liegenschaften-eigenmietwert) | ☑️ |
 
 ## Beleg → Ziffern (Rückwärts-Index)
 

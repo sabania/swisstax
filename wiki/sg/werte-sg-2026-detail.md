@@ -59,7 +59,7 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
 ### Fahrkosten – massgebende Arbeitstage pro Jahr
 
 - **Wert:** 220 Tage (Für die Berechnung des Fahrkostenabzugs wird von 220 Arbeitstagen pro Kalenderjahr (Vollzeitstelle) ausgegangen, sofern nicht eine höhere Anzahl nachgewiesen wird. Homeoffice-Tage und Tage ohne Arbeitsleistung zählen nicht.)
-- **Schlüssel:** `berufskosten.fahrkosten.arbeitstage` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.fahrkosten.arbeitstage` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** StB 39 Nr. 3 Ziff. 2.7
 - **Bemerkung:** Gefunden in StB 39 Nr. 3 Ziff. 2.7 (gilt 2025/2026); ergänzt durch Prüfung.
 - **Quellen:**
@@ -368,7 +368,7 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
 ### Säule 3a – Maximum mit 2. Säule (CHF)
 
 - **Wert:** CHF 7'258 (Säule 3a (kleiner Abzug): Höchstabzug CHF 7'258 pro Jahr für Personen, die einer Vorsorgeeinrichtung der 2. Säule angehören. SG verweist für die abziehbaren Beiträge auf die anerkannten Formen der gebundenen Selbstvorsorge nach Art. 82 BVG; Höchstbetrag nach BVV 3 (identisch mit DBG).)
-- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 45 Abs. 1 lit. e StG SG i.V.m. Art. 82 BVG, Art. 7 BVV 3
 - **Bemerkung:** Verweis auf DBG-Ansatz: StG SG beziffert den Betrag nicht, sondern verweist auf Art. 82 BVG; kantonaler Wert = Bundeswert 2026 (data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -381,7 +381,7 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
 ### Säule 3a – Maximum ohne 2. Säule (CHF)
 
 - **Wert:** CHF 36'288 (Säule 3a (grosser Abzug) ohne 2. Säule: 20 % des Erwerbseinkommens, höchstens CHF 36'288 pro Jahr (Bundesrecht, Art. 82 BVG / BVV 3; SG übernimmt via Verweis).)
-- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 45 Abs. 1 lit. e StG SG i.V.m. Art. 82 BVG, Art. 7 BVV 3
 - **Bemerkung:** Verweis auf DBG-Ansatz: StG SG beziffert den Betrag nicht, sondern verweist auf Art. 82 BVG; kantonaler Wert = Bundeswert 2026 (data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -394,7 +394,7 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
 ### Säule 3a – ohne 2. Säule in % des Erwerbseinkommens
 
 - **Wert:** 20 % (Säule 3a ohne 2. Säule: 20 % des Erwerbseinkommens, max. CHF 36'288 (Bundesrecht BVV 3; SG verweist auf Art. 82 BVG).)
-- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 45 Abs. 1 lit. e StG SG i.V.m. Art. 82 BVG, Art. 7 BVV 3
 - **Bemerkung:** Verweis auf DBG-Ansatz: StG SG beziffert den Betrag nicht, sondern verweist auf Art. 82 BVG; kantonaler Wert = Bundeswert 2026 (data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -405,7 +405,7 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
 ### Säule 3a – Einkauf (Nachzahlung) Regel/Maximum
 
 - **Wert:** Ab 2025 können fehlende Beiträge bis zu zehn Jahre nachträglich einbezahlt werden. Abzug höchstens kleiner Säule-3a-Maximalbetrag, erstmals mit der Steuererklärung 2026 geltend zu machen. Nur Lücken ab 1.1.2025; Voraussetzungen: AHV-pflichtiges Einkommen, Jahresbeitrag bereits geleistet, noch kein 3a-Kapital bezogen; Bestätigung des Vorsorgeanbieters als Beleg.
-- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 45 Abs. 1 lit. e StG SG; Bundesrecht (BVV 3)
 - **Bemerkung:** Quelle ist das Merkblatt 8/2026 (unterjährige Steuerpflicht), Ziff. 11 «Änderungen gegenüber 2025»; Betrag des kleinen Maximalbetrags 2026 ist in SG-Quellen nicht beziffert.
 - **Quellen:**
@@ -615,7 +615,7 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
 ### Tarif – steuerfrei bis, Verheiratete (CHF, Bund)
 
 - **Wert:** CHF 23'200 (Gemeinsam steuerpflichtige Ehegatten (und Alleinerziehende mit Kindern/Unterstützten, Art. 50 Abs. 4): Steuersatz des halben steuerbaren Einkommens (Splitting); 0-%-Stufe bis Fr. 11'600 des halben Einkommens, d.h. bis Fr. 23'200 steuerbares Einkommen.)
-- **Schlüssel:** `tarif.steuerfrei_verheiratet` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `tarif.steuerfrei_verheiratet` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 50 Abs. 1, 3, 4 StG SG
 - **Bemerkung:** Wert 23'200 berechnet (2 x 11'600); Splitting-Methode: Satz des halben Einkommens, angewendet auf das ganze Einkommen (Beispiel MB 8/2026 Ziff. 8).
 - **Quellen:**
@@ -635,7 +635,7 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
 ### Tarif – Höchstsatz ab, Verheiratete (CHF, Bund)
 
 - **Wert:** CHF 529'000 (Bei Splitting gilt der Satz des halben Einkommens; die 8,5-%-Regel greift somit ab einem steuerbaren Gesamteinkommen von über Fr. 529'000 (halbes Einkommen über Fr. 264'500).)
-- **Schlüssel:** `tarif.hoechstsatz_ab_verheiratet` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `tarif.hoechstsatz_ab_verheiratet` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 50 Abs. 2, 3 StG SG
 - **Bemerkung:** Wert 529'000 berechnet (2 x 264'500), nicht wörtlich im Gesetz.
 - **Quellen:**
@@ -683,13 +683,14 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
 <a id="verfahren-abgabeweg"></a>
 ### Abgabeweg (E-Tax/Portal/Papier, Unterschrift)
 
-- **Wert:** Elektronische Steuererklärung über E-Tax SG (vollständig digital einreichbar; das System erkennt unterjährige Steuerpflicht automatisch) oder Papier. Elektronische Einreichung ersetzt die persönliche Unterschrift durch elektronische Bestätigung, soweit das Steueramt dies zulässt.
-- **Schlüssel:** `verfahren.abgabeweg` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Wert:** Elektronische Steuererklärung über E-Tax SG (vollständig digital einreichbar; das System erkennt unterjährige Steuerpflicht automatisch). Elektronische Einreichung ersetzt die persönliche Unterschrift durch elektronische Bestätigung, soweit das Steueramt dies zulässt.
+- **Schlüssel:** `verfahren.abgabeweg` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 163ter Abs. 2, Art. 168 Abs. 2 StG SG
-- **Bemerkung:** Zugang E-Login/AGOV laut Seed (E-Tax-Infoseite), im Wiki nicht zitiert.
+- **Bemerkung:** Zugang E-Login/AGOV laut Seed (E-Tax-Infoseite), im Wiki nicht zitiert. Papierabgabe: nicht ausdrücklich belegt (Art. 168 Abs. 2 StG SG verlangt persönliche Unterzeichnung und Einreichung mit Beilagen) – Fachperson prüft.
 - **Quellen:**
   - [MB 8/2026 SG S. 1–2](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0003.md) `sg-mb-8-2026__c0003` – «vollständig digital eingereicht werden»
   - [StG SG Art. 163 ter](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-163ter.md) `sg-stg-2026__art-163ter` – «Das kantonale Steueramt kann elektronische Eingaben zulassen.»
+  - [StG SG Art. 168](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-168.md) `sg-stg-2026__art-168` – «Die vollständig elektronische Einreichung der Steuererklärung richtet sich nach Art. 163ter Abs. 2 dieses Erlasses.»
 
 <a id="verfahren-beilagen-schwellen"></a>
 ### Belegpflicht-Schwellen (z.B. Rechnungen ab CHF …)

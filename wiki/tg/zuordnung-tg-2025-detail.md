@@ -36,7 +36,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="seite-1-unterst-tzte-personen-personalien"></a>
 ### Ziff. Seite 1 Unterstützte Personen – Erwerbsunfähige und unterstützungsbedürftige Personen (Unterstützungsbetrag ≥ Fr. 12'000 Kanton / Fr. 6'800 Bund)
 
-- **Schlüssel:** `personalien` (Personalien, Familienverhältnisse, Kinder, unterstützte Personen) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `personalien` (Personalien, Familienverhältnisse, Kinder, unterstützte Personen) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Formular 1 Seite 1: Vorname/Name, Geburtsdatum, im Haushalt, Adresse, Unterstützungsbetrag
 - **Regel:** Nur Personen ohne Kinder-/Ehegattenstatus. Formular nennt Mindestbeitrag Fr. 12'000 (Kanton) bzw. Fr. 6'800 (Bund); Wegleitung kantonal: nachweislich mindestens 50% des betreibungsrechtlichen Existenzminimums, Unterstützungsbedürftigkeit durch Bestätigung der Wohnsitzgemeinde belegen. Abzug siehe Ziff. 25.2.
 - **Bemerkung:** Formulartext (Fr. 12'000 Kanton) und Wegleitung (mind. 50% des betreibungsrechtlichen Existenzminimums, Steuerpraxis) nennen unterschiedliche Kriterien; kein Widerspruch im Betrag des Abzugs, aber Mindestbeitrag in der Praxis nachprüfen.
@@ -59,7 +59,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="1-1-einkommen-unselbstaendig-haupterwerb"></a>
 ### Ziff. 1.1 – Haupterwerb unselbständig (Code 100 Person 1 / 101 Person 2)
 
-- **Schlüssel:** `einkommen.unselbstaendig.haupterwerb` (Unselbständige Erwerbstätigkeit – Haupterwerb (Nettolohn)) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `einkommen.unselbstaendig.haupterwerb` (Unselbständige Erwerbstätigkeit – Haupterwerb (Nettolohn)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Ziff. 11 Nettolohn; Pauschalspesen (Ziff. 13.2) in die Vorspalte «Pauschalspesen»
 - **Regel:** Nettolohn gemäss Lohnausweis Ziff. 11 einsetzen (Brutto Ziff. 8 abzüglich AHV/IV/EO/ALV Ziff. 9 und BVG Ziff. 10). Pauschalspesen separat in der Vorspalte. Naturalbezüge/Trinkgelder, falls nicht im Lohnausweis, ergänzen. Alle Lohnausweise einreichen. Lohnausweis-Hinweise: Feld F (unentgeltliche Beförderung Wohn-/Arbeitsort, z.B. Geschäftsfahrzeug) angekreuzt = kein Fahrkostenabzug (Form. 4.2 Ziff. 2); Feld G (Kantinenverpflegung/Lunch-Checks) = nur halber Verpflegungsabzug (Form. 4.2 Ziff. 3.2); Ziff. 10.2 (Einkauf BVG) ist bereits im Nettolohn abgezogen und nicht nochmals in Ziff. 15.2 geltend zu machen; Ziff. 13.3 (Arbeitgeberbeiträge an Weiterbildung) mindert den Abzug Ziff. 16; Ziff. 15 Bemerkungen: Anzahl Schichttage (Beleg für Verpflegungsabzug), Teilzeit, Rektifikat, mehrere Lohnausweise.
 - **Bemerkung:** Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
@@ -139,7 +139,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="3-3-einkommen-ersatz-taggelder"></a>
 ### Ziff. 3.3 – Erwerbsausfallentschädigungen (Taggelder Kranken-/Unfall-/IV/ALV, Mutterschaft, EO) (Code 136 Person 1 / 137 Person 2)
 
-- **Schlüssel:** `einkommen.ersatz.taggelder` (Erwerbsausfallentschädigungen (ALV, KV, UV, IV-Taggelder, EO, Mutterschaft)) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `einkommen.ersatz.taggelder` (Erwerbsausfallentschädigungen (ALV, KV, UV, IV-Taggelder, EO, Mutterschaft)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Taggeldbescheinigung (ALV, Kranken-/Unfall-/IV-/Militärversicherung, EO/Mutterschaft), Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Bescheinigung der Versicherung/Ausgleichskasse/ALV; Lohnausweis Ziff. 15 (Anzahl Tage mit Erwerbsausfallentschädigung)
 - **Regel:** Nur soweit nicht bereits im Lohnausweis enthalten (sonst Doppelerfassung mit Ziff. 1). Taggelder ALV, SUVA, Kranken-/Unfall-/IV-Versicherung, Mutterschaftsentschädigung, EO-Entschädigungen direkt von der Ausgleichskasse. Steuerfrei und nicht anzugeben: Sold Militär/Zivilschutz/Feuerwehr, Taschengeld Zivildienst. Bescheinigung beilegen. Lohnausweis Ziff. 15 muss die Anzahl Tage nennen, wenn die Entschädigung nicht über den Arbeitgeber lief.
 - **Bemerkung:** Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
@@ -227,13 +227,16 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="6-berechnung-total"></a>
 ### Ziff. 6 – Zwischentotal der Einkünfte (Code 175)
 
-- **Schlüssel:** `berechnung.total` (Berechnungs-/Totalzeilen (Nettoeinkommen, Reineinkommen, steuerbares Einkommen/Vermögen, Totale)) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berechnung.total` (Berechnungs-/Totalzeilen (Nettoeinkommen, Reineinkommen, steuerbares Einkommen/Vermögen, Totale)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Rechenzeile (Summe Ziff. 1.1–5.5 ohne 1.3)
-- **Regel:** Summe der Einkünfte Ziff. 1 bis 5.5; vereinfacht abgerechnete Löhne (Ziff. 1.3) nicht einbeziehen. Ohne Liegenschaften direkt in Ziff. 20 übertragen, sonst über Ziff. 7/8/9.
+- **Regel:** Summe der Einkünfte Ziff. 1 bis 5.5; vereinfacht abgerechnete Löhne (Ziff. 1.3) nicht einbeziehen (WL c0053). Formular 2025: Ziff. 6 wird in Ziff. 7 übertragen, dazu Ziff. 8.1 Einkünfte aus Liegenschaften (Formular 7); das Total der Einkünfte Ziff. 9 (Code 198) ist auf Seite 3, Ziffer 20 zu übertragen. Die WL 2025 (c0085) beschreibt noch die ältere Struktur mit Ziff. 6.1/6.2.
 - **Bemerkung:** Die Wegleitung 2025 beschreibt Ziff. 6.1/6.2 (ältere Formularstruktur mit Geschäftsfahrzeug-Einkommen); das Formular 2025 hat nur Ziff. 6 (Code 175) und Ziff. 7 (Übertrag von Ziff. 6).
 - **Quellen:**
   - [Formular 1 TG 2025 S. 2](../../chunks/tg/2025/tg-form-01-2025/tg-form-01-2025__c0008.md) `tg-form-01-2025__c0008` – «6. Zwischentotal der Einkünfte   175»
   - [WL TG 2025 S. 19](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0085.md) `tg-wl-2025__c0085` – «Andernfalls übertragen Sie zuerst den Betrag von Ziffer 6.1 in Ziffer 6.2 der Steuererklärung.»
+  - [Formular 1 TG 2025 S. 2](../../chunks/tg/2025/tg-form-01-2025/tg-form-01-2025__c0009.md) `tg-form-01-2025__c0009` – «9. Total der Einkünfte, zu übertragen auf Seite 3, Ziffer 20 198»
+  - [Formular 1 TG 2025 S. 2](../../chunks/tg/2025/tg-form-01-2025/tg-form-01-2025__c0009.md) `tg-form-01-2025__c0009` – «7. Übertrag von Ziffer 6»
+  - [WL TG 2025 S. 14](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0053.md) `tg-wl-2025__c0053` – «Löhne werden nicht in die Berechnung des Zwischentotals unter Ziffer 6 miteinbezogen.»
 
 <a id="7-berechnung-total"></a>
 ### Ziff. 7 – Übertrag von Ziffer 6 (Staatssteuer / Bundessteuer)
@@ -393,7 +396,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="15-2-abzug-vorsorge-saeule2-einkauf"></a>
 ### Ziff. 15.2 – Beiträge an Einrichtungen der beruflichen Vorsorge Person 1 / Person 2 (Code 343 / 344)
 
-- **Schlüssel:** `abzug.vorsorge.saeule2_einkauf` (Beiträge/Einkäufe 2. Säule (soweit nicht im Lohnausweis abgezogen)) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.vorsorge.saeule2_einkauf` (Beiträge/Einkäufe 2. Säule (soweit nicht im Lohnausweis abgezogen)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Bescheinigung Einkauf Pensionskasse (2. Säule, Formular 21 EDP), Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Bescheinigung der Vorsorgeeinrichtung (Formular 21 EDP) für selbst bezahlte, nicht vom Lohn abgezogene Einkäufe; Lohnausweis Ziff. 10.2 nur zur Kontrolle
 - **Regel:** Nur soweit nicht im Lohnausweis abgezogen: Lohnausweis Ziff. 10.1 (ordentliche Beiträge) und Ziff. 10.2 (Einkäufe) sind bereits im Nettolohn (Ziff. 11) berücksichtigt und dürfen hier NICHT nochmals abgezogen werden. Selbst entrichtete Einkäufe (Überweisung direkt an die PK) mit Bescheinigung der Vorsorgeeinrichtung. Selbständigerwerbende: nur Privatanteil (Arbeitgeberanteil bereits in Ziff. 2; ohne Personal gilt die Hälfte als Arbeitgeberanteil).
 - **Bemerkung:** Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
@@ -462,7 +465,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="16-1-abzug-weiterbildung"></a>
 ### Ziff. 16.1 – Berufsorientierte Aus- und Weiterbildungskosten Person 1 (Code 348)
 
-- **Schlüssel:** `abzug.weiterbildung` (Berufsorientierte Aus- und Weiterbildungskosten) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.weiterbildung` (Berufsorientierte Aus- und Weiterbildungskosten) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Rechnungen und Belege Aus- und Weiterbildung (Kurse, Lehrgänge, Umschulung, Prüfungsgebühren), Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Kursrechnungen/Zahlungsnachweise mit Aufstellung; Lohnausweis Ziff. 13.3 (Arbeitgeberbeiträge)
 - **Regel:** Selbst getragene berufsorientierte Aus- und Weiterbildungskosten bis max. Fr. 13'000 pro Person (Kanton und Bund). Ausgenommen: Kosten bis zum Abschluss der Erstausbildung (Berufslehre/Sekundarstufe II); ohne Sek-II-Abschluss erst ab vollendetem 20. Lebensjahr. Nicht an Erwerbstätigkeit im Jahr gebunden. Kostenbeteiligungen Dritter (Arbeitgeber, Bund, Verbände) abziehen; Arbeitgeberbeiträge an die Weiterbildung, die dem Arbeitnehmer vergütet wurden, stehen im Lohnausweis Ziff. 13.3 (direkt an das Bildungsinstitut bezahlte Beträge werden dort nicht bescheinigt, mindern aber ebenfalls die eigenen Kosten). PC/Notebook/Smartphone etc. nur bei spezifischem Lehrgangsbezug mit ca. 50% Privatanteil. Liebhaberei/Selbstentfaltung nicht abziehbar.
 - **Limiten:**
@@ -661,7 +664,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="25-3-sozialabzug-alter-iv"></a>
 ### Ziff. 25.3 – Abzug für Personen mit AHV-Altersrenten sowie erwerbsunfähige oder verwitwete Personen (Code 388; nur Staat)
 
-- **Schlüssel:** `sozialabzug.alter_iv` (Abzug für Personen im AHV-Alter, erwerbsunfähig oder verwitwet (kantonal)) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `sozialabzug.alter_iv` (Abzug für Personen im AHV-Alter, erwerbsunfähig oder verwitwet (kantonal)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Rentenbescheinigung AHV/IV (Ausgleichskasse, Jahresbescheinigung der Renten) → Reineinkommen Ziff. 24 (Staat); Rentenbescheinigung AHV/IV
 - **Regel:** Nur Staats-/Gemeindesteuer: max. Fr. 4'200, abnehmend nach satzbestimmendem Reineinkommen Ziff. 24 (Alleinstehende voll bis Fr. 17'899, Ehepaare bis Fr. 25'299; je volle Fr. 1'000 Mehreinkommen Reduktion um Fr. 200; kein Abzug ab Fr. 37'900 bzw. Fr. 45'300). Tabelle in der Wegleitung (S. 25).
 - **Limiten:**
@@ -947,7 +950,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="form-4-2-ziff-1-2-abzug-berufskosten-fahrkosten"></a>
 ### Ziff. Form. 4.2 Ziff. 1.2 – Geschäftsfahrzeug zur Verfügung für die Fahrt zur Arbeitsstätte (ja/nein, von–bis)
 
-- **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Feld F (unentgeltliche Beförderung Wohn-/Arbeitsort) und Ziff. 2.2 (Privatanteil Geschäftsfahrzeug)
 - **Regel:** Steht ein Geschäftsfahrzeug für den Arbeitsweg kostenlos zur Verfügung, ist kein Fahrkostenabzug möglich (Privatanteil 0.9% pro Monat im Lohn enthält den Arbeitsweg, daher keine Aufrechnung). Lohnausweis Feld F angekreuzt = keine Fahrkosten (Ziff. 2.1–2.5) geltend machen; gilt ebenso bei Sammeltransport oder vergüteten effektiven Autokilometern von Aussendienstmitarbeitern; Vergütungen des Arbeitswegs in Lohnausweis Ziff. 2.3 sind kein Feld-F-Fall. Zeitraum von–bis angeben, falls nur zeitweise.
 - **Bemerkung:** Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
@@ -1023,7 +1026,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="form-4-2-ziff-3-1-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Form. 4.2 Ziff. 3.1 – Mehrkosten auswärtige Verpflegung ohne Verbilligung oder bei Schicht-/Nachtarbeit, Fr. 15 pro Tag, max. Fr. 3'200 (Code 214; Person 2: 254)
 
-- **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Spesenreglement des Arbeitgebers (genehmigtes Spesenreglement, Spesenabrechnung, Pauschalspesen) → Lohnausweis (Feld G nicht angekreuzt; Ziff. 15 Anzahl Schichttage; Spesenreglement/Ziff. 13.2); Arbeitgeberbescheinigung Schichttage
 - **Regel:** Fr. 15 pro auswärtige Hauptmahlzeit (i.d.R. Mittagessen), bei ständiger Verpflegung max. Fr. 3'200/Jahr, bei Teilzeit/Nebenberuf und unterjährig entsprechend gekürzt. Voraussetzung: Heimkehr am Mittag unzumutbar (grosse Entfernung oder sehr kurze Pause). Schicht-/Nachtarbeit: gleicher Abzug pro ausgewiesenem Tag mit mind. 8 Stunden durchgehender Schicht-/Nachtarbeit; Anzahl Schichttage in das Feld eintragen und belegen (Lohnausweis Ziff. 15 oder Arbeitgeberbescheinigung). Kein Abzug, wenn Mahlzeit unter Fr. 10 zu stehen kommt oder wenn Fahrkosten für Heimkehr am Mittag geltend gemacht werden. Lohnausweis Feld G angekreuzt → Ziff. 3.2 statt 3.1. Nicht kumulierbar mit Wochenaufenthalt (Ziff. 5.2) für denselben Zeitraum.
 - **Limiten:**
@@ -1041,7 +1044,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="form-4-2-ziff-3-2-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Form. 4.2 Ziff. 3.2 – Mehrkosten auswärtige Verpflegung mit Verbilligung durch Arbeitgeber/Kantine, Fr. 7.50 pro Tag, max. Fr. 1'600 (Code 216; Person 2: 256)
 
-- **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Feld G (Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten)
 - **Regel:** Wenn der Arbeitgeber Mahlzeiten verbilligt (Barbeiträge, Gutscheine/Lunch-Checks) oder eine Kantine/Personalrestaurant zur Verfügung steht und trotzdem Mehrkosten entstehen: nur halber Abzug, Fr. 7.50/Tag, max. Fr. 1'600/Jahr. Lohnausweis Feld G angekreuzt ist das Signal (auch wenn nicht bekannt ist, ob die Kantine genutzt wird). Trägt der Arbeitgeber die Kosten des Mittagessens vollständig (z.B. Vermerk «Mittagessen durch Arbeitgeber bezahlt» in Lohnausweis Ziff. 15), entstehen keine Mehrkosten – kein Verpflegungsabzug (Folgerung aus WL: kein Abzug für vom Arbeitgeber übernommene Kosten). Teilzeit/Nebenberuf: angemessen kürzen.
 - **Limiten:**
@@ -1134,7 +1137,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="form-5-2-a-5-a-6-abzug-versicherungspraemien"></a>
 ### Ziff. Form. 5.2 A.5–A.6 – Krankentaggeldversicherung gemäss Lohnausweis; Total selbst getragene Versicherungsprämien und Sparzinsen (Code 324, Feld «A5»)
 
-- **Schlüssel:** `abzug.versicherungspraemien` (Versicherungsprämien und Zinsen von Sparkapitalien) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.versicherungspraemien` (Versicherungsprämien und Zinsen von Sparkapitalien) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Ziff. 15 (Hinweis Krankentaggeld-Beiträge)
 - **Regel:** Zusätzlich die dem Arbeitnehmer belasteten Krankentaggeld-Beiträge gemäss Lohnausweis eintragen (Lohnausweis weist sie ggf. in Ziff. 15 aus). Total ergibt «A5»/Code 324. Hinweis: Das Formular 2025 hat Zeilen 1–6 (Total in Zeile 6), die Wegleitung beschreibt noch das alte Schema 1–5/'A7'.
 - **Bemerkung:** Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft. Zusätzlich: Zeilennummerierung Formular 5.2 (2025) vs. Wegleitung abweichend.
@@ -1269,7 +1272,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="form-2-verm-gensverwaltungskosten-code-148-abzug-verwaltungskosten-wertschriften"></a>
 ### Ziff. Form. 2 Vermögensverwaltungskosten (Code 148) – Vermögensverwaltungskosten (Code 148; im Formular als Ziffer 17 bzw. Wegleitung Ziffer 7)
 
-- **Schlüssel:** `abzug.verwaltungskosten_wertschriften` (Vermögensverwaltungskosten bewegliches Vermögen) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.verwaltungskosten_wertschriften` (Vermögensverwaltungskosten bewegliches Vermögen) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Depotauszug / Wertschriftenverzeichnis der Bank (Titelbestand per 31.12.) → Depotgebührenausweis der Bank; bei Nachweis höherer Kosten Belege
 - **Regel:** Pauschal 2 Promille des Steuerwerts der durch Dritte verwalteten Wertschriften des Privatvermögens, max. Fr. 6'000; Darlehen, Bankguthaben und nicht kotierte qualifizierte Beteiligungen zählen nicht zur Bemessung. Nachweis höherer Kosten vorbehalten. Nur Depotgebühren/Verwaltung – nicht Kontoführung, Anlageberatung, Kommissionen/Spesen An-/Verkauf, Tresormiete.
 - **Bemerkung:** Zifferbezeichnung im Formular 2 (2025) in der PDF-Extraktion unklar ('17.'); Wegleitung nennt 'Ziffer 7' – Code 148 ist massgebend.
@@ -1280,7 +1283,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 <a id="form-2-einsatzkosten-geldspiele-code-145-einkommen-wertschriften"></a>
 ### Ziff. Form. 2 Einsatzkosten Geldspiele (Code 145) – Einsatzkosten für steuerbare Gewinne aus Geldspielen (Code 145; im Formular Ziffer 18 bzw. Wegleitung Ziffer 8/9)
 
-- **Schlüssel:** `einkommen.wertschriften` (Ertrag aus Wertschriften und Guthaben (gem. Wertschriftenverzeichnis)) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `einkommen.wertschriften` (Ertrag aus Wertschriften und Guthaben (gem. Wertschriftenverzeichnis)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lotterie-/Lottogewinn-Bescheinigung (Swisslos, Casino, Online-Spielbank, Wettbewerbsgewinn) → Gewinnbescheinigung / Auszahlungsbelege
 - **Regel:** Pauschal 5% pro steuerbarem Gewinn, max. Fr. 5'000 je Gewinn (Staat; Bund Fr. 5'400 – Korrektur von Amtes wegen); effektive Einsatzkosten nicht möglich. Online-Spielbank: abgebuchte Spieleinsätze, max. Fr. 25'000 (Bund Fr. 26'800). In der Steuererklärung Staatsmaximum deklarieren. Einsatzkosten für nicht steuerbare Gewinne nicht abziehbar.
 - **Bund:** Bund: Pauschale max. Fr. 5'400 (Online-Spielbank Fr. 26'800); Kanton Fr. 5'000 / Fr. 25'000.

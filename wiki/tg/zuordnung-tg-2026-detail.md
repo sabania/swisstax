@@ -51,7 +51,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 <a id="s-1-unterj-hrige-steuerpflicht-personalien"></a>
 ### Ziff. S. 1 unterjährige Steuerpflicht – Dauer bei unterjähriger Steuerpflicht – Person 1 / Person 2 (von Tag/Monat bis Tag/Monat)
 
-- **Schlüssel:** `personalien` (Personalien, Familienverhältnisse, Kinder, unterstützte Personen) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `personalien` (Personalien, Familienverhältnisse, Kinder, unterstützte Personen) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Zuzug-/Wegzugs-/Todesdatum (Angaben des Mandanten)
 - **Regel:** Nur bei Steuerpflicht während eines Teils der Steuerperiode ausfüllen. Sozialabzüge für Kinder und unterstützte Personen: Verhältnisse am 31.12.2026 bzw. am Ende der Steuerpflicht massgebend; bei Teilperiode werden sie anteilig nach Dauer der Steuerpflicht gewährt.
 - **Quellen:**
@@ -61,7 +61,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 <a id="s-1-auszahlung-verrechnungssteuer-rueckerstattung"></a>
 ### Ziff. S. 1 Auszahlung – Steuerrückzahlungen inkl. Rückerstattung der Verrechnungssteuer – Auszahlungskonto (IBAN)
 
-- **Schlüssel:** `verrechnungssteuer.rueckerstattung` (Rückforderung Verrechnungssteuer (Wertschriftenverzeichnis), DA-1) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `verrechnungssteuer.rueckerstattung` (Rückforderung Verrechnungssteuer (Wertschriftenverzeichnis), DA-1) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Vorgemerktes Auszahlungskonto bzw. Angaben bei Änderung (Kontoinhaber/in, IBAN, Bank/Post)
 - **Regel:** Alle Rückerstattungen der Verrechnungssteuer und allfällige Steuerrückzahlungen erfolgen auf das bezeichnete Konto. Ist kein Konto vorgemerkt oder soll es geändert werden, Felder ausfüllen; bei Bank und Post IBAN angeben. Kontoänderungen nach Einreichung der Steuererklärung unterlassen (Verzögerung).
 - **Quellen:**

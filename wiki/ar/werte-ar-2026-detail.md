@@ -40,7 +40,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Fahrkosten Motorrad – Ansatz pro km (CHF)
 
 - **Wert:** CHF 0.40 (Kilometeransatz Motorrad (weisses Kontrollschild) 40 Rappen/km; AR übernimmt per Verweis (Art. 15 Abs. 3 StV) die DBG-Pauschalansätze. Nur wenn kein ÖV zur Verfügung steht/zumutbar; Gesamtmaximum AR Fr. 6'000.)
-- **Schlüssel:** `berufskosten.fahrkosten.motorrad_km` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.fahrkosten.motorrad_km` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 15 Abs. 3 StV
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -51,7 +51,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Velo/Kleinmotorrad/E-Bike – Pauschale (CHF)
 
 - **Wert:** CHF 700 (Pauschale Fahrrad/Motorfahrrad (und Motorrad mit gelbem Kontrollschild) Fr. 700 pro Jahr; AR übernimmt per Verweis (Art. 15 Abs. 3 StV) die DBG-Pauschalansätze.)
-- **Schlüssel:** `berufskosten.fahrkosten.velo_pauschale` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.fahrkosten.velo_pauschale` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 15 Abs. 3 StV
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -70,7 +70,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Verpflegungsmehrkosten pro Arbeitstag (CHF)
 
 - **Wert:** CHF 15 (Mehrkosten auswärtige Verpflegung Fr. 15 pro Tag (voller Abzug) nach den für die direkte Bundessteuer massgebenden Pauschalansätzen; Voraussetzung: Hauptmahlzeit zu Hause nicht zumutbar (Entfernung oder kurze Essenspause) oder durchgehende Schichtarbeit.)
-- **Schlüssel:** `berufskosten.verpflegung.tag` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.verpflegung.tag` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 29 Abs. 1 lit. b StG; Art. 16 Abs. 1 StV
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -81,7 +81,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Verpflegungsmehrkosten pro Jahr (CHF)
 
 - **Wert:** CHF 3'200 (Mehrkosten auswärtige Verpflegung, voller Abzug max. Fr. 3'200 pro Jahr (DBG-Pauschalansatz, per Verweis in Art. 16 Abs. 1 StV).)
-- **Schlüssel:** `berufskosten.verpflegung.jahr` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.verpflegung.jahr` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 16 Abs. 1 StV
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -92,7 +92,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF)
 
 - **Wert:** CHF 7.50 (Halber Abzug Fr. 7.50 pro Tag, wenn die Verpflegung in einem Personalrestaurant eingenommen werden kann oder eine wesentliche Verbilligung durch Beiträge des Arbeitgebers erfolgt (Art. 16 Abs. 2 StV; Betrag = halber DBG-Ansatz).)
-- **Schlüssel:** `berufskosten.verpflegung.verbilligt_tag` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.verpflegung.verbilligt_tag` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 16 Abs. 2 StV
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml). Regel: halber Abzug (Art. 16 Abs. 2 StV).
 - **Quellen:**
@@ -103,7 +103,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Verpflegung bei Verbilligung pro Jahr (CHF)
 
 - **Wert:** CHF 1'600 (Halber Jahresabzug max. Fr. 1'600 (Art. 16 Abs. 2 StV; DBG-Pauschalansatz).)
-- **Schlüssel:** `berufskosten.verpflegung.verbilligt_jahr` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.verpflegung.verbilligt_jahr` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 16 Abs. 2 StV
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -114,7 +114,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Schicht-/Nachtarbeit pro Tag (CHF)
 
 - **Wert:** CHF 15 (Schichtarbeit (inkl. gestaffelte/unregelmässige Arbeitszeit): Pauschale Fr. 15 pro Tag nach DBG-Pauschalansätzen (max. Fr. 3'200 pro Jahr); nicht zusätzlich zum Verpflegungsabzug (Art. 16 Abs. 1, 3, 4 StV).)
-- **Schlüssel:** `berufskosten.schichtarbeit.tag` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.schichtarbeit.tag` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 16 Abs. 1, 3, 4 StV
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml). Kein zusätzlicher Abzug neben der Verpflegungspauschale.
 - **Quellen:**
@@ -135,7 +135,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Wochenaufenthalt – Mehrkosten Verpflegung pro Jahr (CHF)
 
 - **Wert:** CHF 6'400 (Verpflegung bei auswärtigem Wochenaufenthalt: nach DBG-Pauschalansätzen voller Abzug Fr. 6'400 pro Jahr (Fr. 30/Tag).)
-- **Schlüssel:** `berufskosten.wochenaufenthalt.verpflegung_jahr` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.wochenaufenthalt.verpflegung_jahr` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 17 Abs. 1 StV
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml). Gekürzter Abzug (verbilligtes Mittagessen): Fr. 4'800 pro Jahr (Bund).
 - **Quellen:**
@@ -181,7 +181,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Nebenerwerb – Pauschale in % der Nebeneinkünfte
 
 - **Wert:** 20 % (Unselbständiger Nebenerwerb: Pauschale nach DBG-Pauschalansätzen: 20 % der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2'400. Nachweis höherer Kosten vorbehalten. Nebenamtliche Behördenmitglieder zusätzlich pauschal bis Fr. 2'600 (Behördenabzug).)
-- **Schlüssel:** `berufskosten.nebenerwerb.satz` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.nebenerwerb.satz` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 19 StV; MB 15
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml). Behördenabzug Fr. 2'600 (Art. 19 Abs. 2 StV, MB 15) ist kantonal.
 - **Quellen:**
@@ -193,7 +193,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Nebenerwerb – Pauschale Minimum (CHF)
 
 - **Wert:** CHF 800 (Minimum der Nebenerwerbspauschale (Verweis auf DBG).)
-- **Schlüssel:** `berufskosten.nebenerwerb.min` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.nebenerwerb.min` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 19 StV; MB 15 Ziff. 2
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -205,7 +205,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Nebenerwerb – Pauschale Maximum (CHF)
 
 - **Wert:** CHF 2'400 (Maximum der Nebenerwerbspauschale (Verweis auf DBG). Zusätzlich Behördenabzug bis Fr. 2'600 für nebenamtliche Behördenmitglieder.)
-- **Schlüssel:** `berufskosten.nebenerwerb.max` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.nebenerwerb.max` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 19 StV; MB 15 Ziff. 2/3
 - **Bemerkung:** Verweis auf DBG-Ansatz (Bund 2026, data/werte/bund/2026.yaml).
 - **Quellen:**
@@ -374,7 +374,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Säule 3a – Maximum mit 2. Säule (CHF)
 
 - **Wert:** CHF 7'258 (Säule 3a mit Zugehörigkeit zur 2. Säule: Abzug im Sinn und im Umfang von Art. 82 BVG, max. Fr. 7'258 pro Jahr (8 % des oberen Grenzbetrags, BVV 3 Art. 7).)
-- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 35 Abs. 1 lit. e StG
 - **Bemerkung:** Verweis auf Art. 82 BVG / BVV 3 (Bund 2026, data/werte/bund/2026.yaml): Verweis auf DBG-Ansatz.
 - **Quellen:**
@@ -386,7 +386,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Säule 3a – Maximum ohne 2. Säule (CHF)
 
 - **Wert:** CHF 36'288 (Säule 3a ohne 2. Säule: 20 % des Erwerbseinkommens, höchstens Fr. 36'288 pro Jahr (Art. 82 BVG / BVV 3 Art. 7).)
-- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 35 Abs. 1 lit. e StG
 - **Bemerkung:** Verweis auf Art. 82 BVG / BVV 3 (Bund 2026, data/werte/bund/2026.yaml): Verweis auf DBG-Ansatz.
 - **Quellen:**
@@ -398,7 +398,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Säule 3a – ohne 2. Säule in % des Erwerbseinkommens
 
 - **Wert:** 20 % (Säule 3a ohne 2. Säule: 20 % des Erwerbseinkommens (max. Fr. 36'288).)
-- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 35 Abs. 1 lit. e StG
 - **Bemerkung:** Verweis auf Art. 82 BVG / BVV 3 (Bund 2026, data/werte/bund/2026.yaml): Verweis auf DBG-Ansatz.
 - **Quellen:**
@@ -409,7 +409,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Säule 3a – Einkauf (Nachzahlung) Regel/Maximum
 
 - **Wert:** CHF 7'258 (Einkauf Säule 3a (ab Steuerperiode 2026, Beitragslücken ab 2025): Umfang gemäss Bundesrecht (Art. 82 BVG / BVV 3 Art. 7a), pro Steuerjahr höchstens Fr. 7'258; Details siehe Bund 2026.)
-- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 35 Abs. 1 lit. e StG
 - **Bemerkung:** Verweis auf Art. 82 BVG / BVV 3 (Bund 2026, data/werte/bund/2026.yaml): Verweis auf DBG-Ansatz. AR-Quellen regeln den Einkauf nicht ausdrücklich; Geltung ergibt sich aus dem Verweis «im Umfang von Art. 82 BVG» – Fachperson soll die AR-Praxis bestätigen.
 - **Quellen:**
@@ -709,7 +709,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 ### Ausgleichszins – Regel/Satz
 
 - **Wert:** 1 % (Ausgleichszins mit der Schlussrechnung: positiv auf Zahlungen bis zur Schlussrechnung, negativ auf veranlagtem Steuerbetrag ab Verfalltag 30. Juni des Steuerjahres; Satz ab 1.1.2024: 1.0 %.)
-- **Schlüssel:** `bezug.ausgleichszins` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `bezug.ausgleichszins` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Bemerkung:** Tabelle nennt letzten Satz ab 01.01.2024; keine 2026-spezifische Bestätigung, aber auch keine spätere Änderung.
 - **Quellen:**
   - [AR Steuerbezug](../../chunks/ar/dauernd/ar-info-steuerbezug/ar-info-steuerbezug__c0009.md) `ar-info-steuerbezug__c0009` – «ab 01.01.2024 | 1.0%»

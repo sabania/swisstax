@@ -1310,7 +1310,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 <a id="lohnausweis-feld-f-abzug-berufskosten-fahrkosten"></a>
 ### Ziff. Lohnausweis Feld F – Unentgeltliche Beförderung zwischen Wohn- und Arbeitsort → kein Fahrkostenabzug (Form. 360 Ziff. 1)
 
-- **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Feld F (Kreuz) / Ziff. 2.2 Privatanteil Geschäftsfahrzeug
 - **Regel:** Ist Feld F angekreuzt (Geschäftsfahrzeug, Sammeltransport, Autokilometervergütung an Aussendienst, Autopauschale, geschäftlich notwendiges GA), entstehen dem Arbeitnehmer keine Arbeitswegkosten: kein Fahrkostenabzug in Form. 360 Ziff. 1. Wer ein Geschäftsfahrzeug hat, kann keine Fahrkosten abziehen. Ein GA ohne geschäftliche Notwendigkeit ist zum Marktwert in Lohnausweis Ziff. 2.3 zu deklarieren; Feld F ist dann nicht anzukreuzen.
 - **Bemerkung:** Quelle ist die ESTV-Wegleitung zum Lohnausweis (Formular 11) in der Fassung 2026 (bund-wl-lohnausweis-2026); im Wiki ist keine 2025er Fassung vorhanden. Es handelt sich um qualitative Deklarationsregeln ohne Beträge; ob sich die Regel für 2025 geändert hat, ist durch die Fachperson zu prüfen.
@@ -1322,9 +1322,9 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 <a id="lohnausweis-feld-g-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Lohnausweis Feld G – Kantinenverpflegung / Lunch-Checks → reduzierter Verpflegungsabzug (Form. 360 Ziff. 2.1 verbilligt, Code 206)
 
-- **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Feld G (Kreuz) / Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt»
-- **Regel:** Feld G angekreuzt (Lunch-Checks, verbilligtes Personalrestaurant, auch wenn Nutzung unbekannt) → nur der reduzierte Verpflegungsabzug CHF 7.50/Tag (max. CHF 1’600/Jahr), nicht CHF 15/3’200. Vermerk «Mittagessen durch Arbeitgeber bezahlt» in Ziff. 15 (Mittagessensentschädigung bei > 60 % Aussendienst) → kein Verpflegungsabzug.
+- **Regel:** Feld G angekreuzt (Lunch-Checks, verbilligtes Personalrestaurant, auch wenn Nutzung unbekannt) → nur der reduzierte Verpflegungsabzug CHF 7.50/Tag (max. CHF 1’600/Jahr), nicht CHF 15/3’200. Bei > 60 % auswärtiger Tätigkeit mit Mittagessensentschädigung ist im Lohnausweis ausschliesslich unter Ziff. 15 der Hinweis «Mittagessen durch Arbeitgeber bezahlt» anzubringen (WL Lohnausweis 2026); die Folge für den Verpflegungsabzug ist in den vorliegenden Quellen nicht ausdrücklich belegt – nicht belegt, Fachperson prüfen.
 - **Limiten:**
   - Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): Kanton **CHF 7.50 (Verpflegung durch Arbeitgeber verbilligt (Kantine, Personalrestaurant, Barbeitrag, Essensgutscheine) und trotzdem Mehrkosten: CHF 7.50 pro Arbeitstag.)** · Bund **CHF 7.50 (Halber Abzug CHF 7.50 pro Hauptmahlzeit, wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers)**
   - Verpflegung bei Verbilligung pro Jahr (CHF): Kanton **CHF 1'600 (Bei ständiger auswärtiger Verpflegung mit Verbilligung: CHF 1'600 pro Jahr.)** · Bund **CHF 1'600 (Halber Abzug bei Verbilligung: CHF 1'600 pro Jahr)**
@@ -1333,11 +1333,12 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [WL Lohnausweis 2026 S. 8–9](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md) `bund-wl-lohnausweis-2026__c0012` – «Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer Lunch-Checks (vgl. Rz 18) abgege»
   - [WL Lohnausweis 2026 S. 8–9](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md) `bund-wl-lohnausweis-2026__c0012` – ««Mittagessen durch Arbeitgeber bezahlt»»
   - [WL ZH 2025 S. 13](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0066.md) `zh-wl-2025__c0066` – «– wenn die Verpflegung durch den Arbeitgeber verbilligt wird (Kantine, Personalrestaurant,»
+  - [WL Lohnausweis 2026 S. 8–9](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md) `bund-wl-lohnausweis-2026__c0012` – «Bei Arbeitnehmern, die mehr als 60 % der Arbeitszeit ausserhalb ihrer üblichen»
 
 <a id="lohnausweis-ziff-10-2-abzug-vorsorge-saeule2-einkauf"></a>
 ### Ziff. Lohnausweis Ziff. 10.2 – Beiträge für den Einkauf in die berufliche Vorsorge – bereits vom Lohn abgezogen → nicht nochmals unter Ziff. 16.1 abziehen
 
-- **Schlüssel:** `abzug.vorsorge.saeule2_einkauf` (Beiträge/Einkäufe 2. Säule (soweit nicht im Lohnausweis abgezogen)) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.vorsorge.saeule2_einkauf` (Beiträge/Einkäufe 2. Säule (soweit nicht im Lohnausweis abgezogen)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Bescheinigung Einkauf Pensionskasse (2. Säule, Formular 21 EDP) → Lohnausweis Ziff. 10.2 (Einkauf, im Nettolohn Ziff. 11 bereits berücksichtigt); separat bezahlte Einkäufe: Formular 21 EDP der Vorsorgeeinrichtung
 - **Regel:** Ziff. 10.2 ist vom Bruttolohn schon abgezogen (Nettolohn = Brutto – Ziff. 9 und 10); NICHT zusätzlich in Ziff. 16.1 abziehen. Nur vom Arbeitnehmer selbst bezahlte (nicht vom Lohn abgezogene) Einkäufe werden von der Vorsorgeeinrichtung mit Formular 21 EDP bescheinigt und in Ziff. 16.1 deklariert. Sperrfrist 3 Jahre bei Kapitalbezug beachten.
 - **Bemerkung:** Quelle ist die ESTV-Wegleitung zum Lohnausweis (Formular 11) in der Fassung 2026 (bund-wl-lohnausweis-2026); im Wiki ist keine 2025er Fassung vorhanden. Es handelt sich um qualitative Deklarationsregeln ohne Beträge; ob sich die Regel für 2025 geändert hat, ist durch die Fachperson zu prüfen.
@@ -1350,7 +1351,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 <a id="lohnausweis-ziff-13-3-abzug-weiterbildung"></a>
 ### Ziff. Lohnausweis Ziff. 13.3 – Beiträge des Arbeitgebers an berufsorientierte Aus- und Weiterbildung → Form. 367 «Beitrag Arbeitgeber»
 
-- **Schlüssel:** `abzug.weiterbildung` (Berufsorientierte Aus- und Weiterbildungskosten) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.weiterbildung` (Berufsorientierte Aus- und Weiterbildungskosten) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Rechnungen und Belege Aus- und Weiterbildung (Kurse, Lehrgänge, Umschulung, Prüfungsgebühren) → Lohnausweis Ziff. 13.3 (Vergütungen an den Arbeitnehmer; direkt an Bildungsinstitut bezahlte Beträge werden nicht bescheinigt)
 - **Regel:** Ziff. 13.3 als «Beitrag Arbeitgeber oder weiterer Stellen» im Form. 367 von den Gesamtkosten abziehen; nur die selbst getragenen Kosten sind abziehbar. Direkt an Dritte (Bildungsinstitut) bezahlte Arbeitgeberbeiträge stehen nicht im Lohnausweis – beim Arbeitgeber nachfragen und ebenfalls abziehen.
 - **Bemerkung:** Quelle ist die ESTV-Wegleitung zum Lohnausweis (Formular 11) in der Fassung 2026 (bund-wl-lohnausweis-2026); im Wiki ist keine 2025er Fassung vorhanden. Es handelt sich um qualitative Deklarationsregeln ohne Beträge; ob sich die Regel für 2025 geändert hat, ist durch die Fachperson zu prüfen.
@@ -1362,7 +1363,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 <a id="lohnausweis-ziff-15-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Lohnausweis Ziff. 15 – Bemerkungen: Anzahl Schichttage u. a. → Grundlage für Schichtarbeitsabzug (Form. 360 Ziff. 2.2, Code 210)
 
-- **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** 🟡 extrahiert
+- **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Ziff. 15 «Bemerkungen» (Anzahl im Kalenderjahr geleisteter Schichttage)
 - **Regel:** Der Arbeitgeber kann die Anzahl geleisteter Schichttage in Ziff. 15 (Bemerkungen) bescheinigen (freiwillige Angabe); Schichtarbeitsabzug CHF 15 pro ausgewiesenem Schichttag (max. CHF 3’200/Jahr), mind. achtstündige durchgehende Schicht-/Nachtarbeit. Ziff. 15 kann zudem freiwillig die Höhe der im Bruttolohn enthaltenen Kinderzulagen und Krankenkassenbeiträge nennen.
 - **Limiten:**

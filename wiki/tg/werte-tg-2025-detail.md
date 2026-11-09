@@ -205,10 +205,10 @@ generiert: tools/build_quick.py aus data/werte/tg/2025.yaml (2026-11-09)
 <a id="berufskosten-homeoffice"></a>
 ### Arbeitszimmer/Homeoffice – Regel
 
-- **Wert:** Arbeitszimmer in der Privatwohnung: Abzug nur, wenn die Arbeit zu Hause notwendig ist (Nachweis durch steuerpflichtige Person) und kumulativ: wesentlicher Teil der Arbeit zu Hause, weil der Arbeitgeber kein geeignetes Zimmer stellt oder dessen Benützung nicht möglich/zumutbar ist; besonderer, ausschliesslich oder vorwiegend beruflich genutzter Raum; Raumverhältnisse erlauben Ausscheiden eines Zimmers. Details: StP 29 Nr. 8. Kein Pauschalbetrag.
-- **Schlüssel:** `berufskosten.homeoffice` · **gilt für:** kanton · **Status:** 🟡 extrahiert
-- **Rechtsgrundlage:** TG FAQ natürliche Personen (Berufsauslagen); StP 29 Nr. 7 Ziff. 4 / StP 29 Nr. 8
-- **Bemerkung:** Ergänzt durch Prüfung aus FAQ (nicht Wegleitung). Weisung StP 29 Nr. 8 (Details) nicht im Wiki; Homeoffice-Pauschale gibt es gemäss Quellen nicht. Fachperson prüft Einzelfall.
+- **Wert:** Arbeitszimmer in der Privatwohnung: Abzug nur, wenn die Arbeit zu Hause notwendig ist (Nachweis durch steuerpflichtige Person) und kumulativ: wesentlicher Teil der Arbeit zu Hause, weil der Arbeitgeber kein geeignetes Zimmer stellt oder dessen Benützung nicht möglich/zumutbar ist; besonderer, ausschliesslich oder vorwiegend beruflich genutzter Raum; Raumverhältnisse erlauben Ausscheiden eines Zimmers. Details: StP 29 Nr. 8. Ein Pauschalbetrag wird in den vorliegenden Quellen nicht erwähnt (nicht aus Quelle bestätigt, Fachperson prüfen).
+- **Schlüssel:** `berufskosten.homeoffice` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
+- **Rechtsgrundlage:** TG FAQ natürliche Personen (Berufsauslagen); StP 29 Nr. 8
+- **Bemerkung:** Ergänzt durch Prüfung aus FAQ (nicht Wegleitung). Weisung StP 29 Nr. 8 (Details) nicht im Wiki; Eine Homeoffice-Pauschale wird in den vorliegenden Quellen nicht erwähnt (kein Treffer «Homeoffice» in chunks/tg; nicht aus Quelle bestätigt). Fachperson prüft Einzelfall.
 - **Quellen:**
   - [TG FAQ NP](../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0014.md) `tg-info-faq__c0014` – «Ein Abzug für ein Arbeitszimmer im Privathaus oder in der Privatwohnung wird nur gewährt, wenn die Erledigung der haupt- oder nebenberuflichen Arbeit zu Hause notwendig ist.»
   - [TG FAQ NP](../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0015.md) `tg-info-faq__c0015` – «Die Arbeitnehmerin/der Arbeitnehmer muss über einen besonderen Raum verfügen»
@@ -219,7 +219,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2025.yaml (2026-11-09)
 ### Aus- und Weiterbildungskosten – Maximum (CHF)
 
 - **Wert:** CHF 13'000 (Berufsorientierte Aus- und Weiterbildung: max. CHF 13'000 pro Person und Jahr (Kanton und Bund identisch). Ausgenommen Kosten bis zum ersten Abschluss Sekundarstufe II.)
-- **Schlüssel:** `weiterbildung.max` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `weiterbildung.max` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 34 Abs. 1 Ziff. 16 StG TG
 - **Bemerkung:** Verweis auf DBG-Ansatz (§ 34 Abs. 1 Ziff. 16 StG TG: «bis zu dem für die direkte Bundessteuer massgebenden Betrag»); Betrag 2025 = Bund CHF 13'000 (WL 2025 bestätigt für Kanton und Bund).
 - **Quellen:**
@@ -386,7 +386,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2025.yaml (2026-11-09)
 ### Säule 3a – Maximum mit 2. Säule (CHF)
 
 - **Wert:** CHF 7'258 (Säule 3a mit Anschluss an 2. Säule: 8% des oberen BVG-Grenzbetrags = CHF 7'258 (Steuerperiode 2025).)
-- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 34 Abs. 1 Ziff. 7 StG TG (bundesrechtlich festgelegter Betrag)
 - **Bemerkung:** Verweis auf DBG-Ansatz (bundesrechtlich festgelegter Betrag, Art. 7 BVV 3).
 - **Quellen:**
@@ -399,7 +399,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2025.yaml (2026-11-09)
 ### Säule 3a – Maximum ohne 2. Säule (CHF)
 
 - **Wert:** CHF 36'288 (Säule 3a ohne 2. Säule: 20% des Erwerbseinkommens, maximal CHF 36'288 (40% von 90'720; Steuerperiode 2025).)
-- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 34 Abs. 1 Ziff. 7 StG TG
 - **Bemerkung:** Verweis auf DBG-Ansatz (bundesrechtlich festgelegter Betrag, Art. 7 BVV 3).
 - **Quellen:**
@@ -412,7 +412,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2025.yaml (2026-11-09)
 ### Säule 3a – ohne 2. Säule in % des Erwerbseinkommens
 
 - **Wert:** 20 % (Ohne 2. Säule: 20% des Erwerbseinkommens (gilt auch für Unselbständige ohne PK), maximal CHF 36'288.)
-- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** WL TG 2025 Ziff. 13
 - **Bemerkung:** Verweis auf DBG-Ansatz (bundesrechtlich festgelegter Betrag, Art. 7 BVV 3). StP 34 Nr. 27 nennt 40% des oberen Grenzbetrags (=36'288) als Maximalabzug ohne 2. Säule; die 20%-Grenze vom Erwerbseinkommen steht in der Wegleitung (Ziff. 13).
 - **Quellen:**
@@ -617,7 +617,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2025.yaml (2026-11-09)
 ### Steuerfuss Kanton (%/Einheiten)
 
 - **Wert:** 109 % (Staatssteuerfuss 109% der einfachen Steuer (seit 2022). Gemeinde-, Schul- und Kirchensteuerfüsse sind gemeindeweise festgelegt (Statistik TG).)
-- **Schlüssel:** `tarif.steuerfuss_kanton` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `tarif.steuerfuss_kanton` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 6 Abs. 2 StG TG
 - **Bemerkung:** Quelle ist die Statistische Mitteilung 3/2026 (Steuerfüsse 2026); '109% seit 2022' impliziert 2025, Grossratsbeschluss 2025 nicht im Wiki, daher extrahiert.
 - **Quellen:**

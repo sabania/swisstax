@@ -253,7 +253,7 @@ werte:
     zitat: auf jährlich maximal Fr. 13'000 pro Person beschränkt
   - chunk: tg-stg__par-34-t6
     zitat: bis zu dem für die direkte Bundessteuer massgebenden Betrag
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt mit data/werte/bund/2026.yaml ueberein).
 - key: versicherung.verheiratet
   wert: 7000
@@ -320,7 +320,7 @@ werte:
     zitat: Erwerbstätige Personen mit 2. Säule (Pensionskasse) max. Fr. 7'258
   - chunk: tg-stg__par-34-t2
     zitat: bis zum bundesrechtlich festgelegten Betrag
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: StP 34 Nr. 27 Ziff. 3 nennt 'ab 2025' Fr. 7'258 (8 % von Fr. 90'720); konsistent. Verweis auf DBG-Ansatz (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt mit data/werte/bund/2026.yaml
     ueberein).
 - key: saeule3a.max_ohne_2saeule
@@ -332,7 +332,7 @@ werte:
   quellen:
   - chunk: tg-wl-2026__c0004
     zitat: 'Erwerbstätige Personen ohne 2. Säule: 20% des Erwerbseinkommens max. Fr. 36''288'
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt mit data/werte/bund/2026.yaml ueberein).
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
@@ -342,7 +342,7 @@ werte:
   quellen:
   - chunk: tg-wl-2026__c0089
     zitat: Der Abzug von 20% des Erwerbseinkommens gilt auch für unselbständig erwerbende Personen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: StP 34 Nr. 27 formuliert dieselbe Grenze als 40 % des oberen BVG-Grenzbetrags (Fr. 90'720 = Fr. 36'288). Verweis auf DBG-Ansatz (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt
     mit data/werte/bund/2026.yaml ueberein).
 - key: saeule3a.einkauf
@@ -356,7 +356,7 @@ werte:
     zitat: (2026 maximal 7’258 Fr.)
   - chunk: tg-wl-2026__c0090
     zitat: können diese Beiträge bis zu zehn Jahre rückwirkend noch einzahlen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Fuer den Taxonomie-Schluessel abzug.vorsorge.saeule3a_einkauf relevant. Seed-Hinweis 'Einkaeufe ab 2026' - WL spricht von Beitraegen, die ab 1.1.2025 nicht einbezahlt wurden. Verweis auf DBG-Ansatz
     (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt mit data/werte/bund/2026.yaml ueberein).
 - key: zweiverdiener.satz

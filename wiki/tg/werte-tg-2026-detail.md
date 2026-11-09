@@ -213,7 +213,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2026.yaml (2026-11-09)
 ### Aus- und Weiterbildungskosten – Maximum (CHF)
 
 - **Wert:** CHF 13'000 (Berufsorientierte Aus- und Weiterbildung: max. Fr. 13'000 pro Person und Jahr (Kanton und Bund); Erstausbildung (Sek. II) ausgenommen; Kostenbeteiligung Dritter mindert.)
-- **Schlüssel:** `weiterbildung.max` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `weiterbildung.max` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 34 Abs. 1 Ziff. 16 StG (Verweis auf DBG-Betrag)
 - **Bemerkung:** Verweis auf DBG-Ansatz (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt mit data/werte/bund/2026.yaml ueberein).
 - **Quellen:**
@@ -360,7 +360,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2026.yaml (2026-11-09)
 ### Säule 3a – Maximum mit 2. Säule (CHF)
 
 - **Wert:** CHF 7'258 (Saeule 3a 2026: max. Fr. 7'258 fuer Erwerbstaetige mit Anschluss an eine 2. Saeule (Pensionskasse); gleichzeitig absolute Einzahlungslimite.)
-- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 34 Abs. 1 Ziff. 7 StG (bundesrechtlicher Betrag)
 - **Bemerkung:** StP 34 Nr. 27 Ziff. 3 nennt 'ab 2025' Fr. 7'258 (8 % von Fr. 90'720); konsistent. Verweis auf DBG-Ansatz (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt mit data/werte/bund/2026.yaml ueberein).
 - **Quellen:**
@@ -372,7 +372,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2026.yaml (2026-11-09)
 ### Säule 3a – Maximum ohne 2. Säule (CHF)
 
 - **Wert:** CHF 36'288 (Saeule 3a 2026: ohne Anschluss an 2. Saeule 20 % des Erwerbseinkommens, maximal Fr. 36'288.)
-- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 34 Abs. 1 Ziff. 7 StG (bundesrechtlicher Betrag)
 - **Bemerkung:** Verweis auf DBG-Ansatz (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt mit data/werte/bund/2026.yaml ueberein).
 - **Quellen:**
@@ -382,7 +382,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2026.yaml (2026-11-09)
 ### Säule 3a – ohne 2. Säule in % des Erwerbseinkommens
 
 - **Wert:** 20 % (Saeule 3a ohne 2. Saeule: 20 % des Erwerbseinkommens (gilt auch fuer Unselbstaendige ohne Pensionskasse), max. Fr. 36'288.)
-- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Bemerkung:** StP 34 Nr. 27 formuliert dieselbe Grenze als 40 % des oberen BVG-Grenzbetrags (Fr. 90'720 = Fr. 36'288). Verweis auf DBG-Ansatz (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt mit data/werte/bund/2026.yaml ueberein).
 - **Quellen:**
   - [WL TG 2026 S. 20](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0089.md) `tg-wl-2026__c0089` – «Der Abzug von 20% des Erwerbseinkommens gilt auch für unselbständig erwerbende Personen»
@@ -391,7 +391,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2026.yaml (2026-11-09)
 ### Säule 3a – Einkauf (Nachzahlung) Regel/Maximum
 
 - **Wert:** CHF 7'258 (NEU ab 2025/2026: Einkauf (Nachzahlung) fuer fruehere Jahre bis zu 10 Jahre rueckwirkend; zusaetzlich zum ordentlichen Beitrag pro Jahr max. der kleine Beitrag (2026: Fr. 7'258). Voraussetzung: AHV-pflichtiges Erwerbseinkommen in der Schweiz im Einkaufsjahr und im Nachzahlungsjahr; ordentlicher Jahresbeitrag vollstaendig geleistet. Voll abzugsfaehig.)
-- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Bemerkung:** Fuer den Taxonomie-Schluessel abzug.vorsorge.saeule3a_einkauf relevant. Seed-Hinweis 'Einkaeufe ab 2026' - WL spricht von Beitraegen, die ab 1.1.2025 nicht einbezahlt wurden. Verweis auf DBG-Ansatz (StG verweist auf bundesrechtlichen Betrag; Wert 2026 stimmt mit data/werte/bund/2026.yaml ueberein).
 - **Quellen:**
   - [WL TG 2026 S. 20–21](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0090.md) `tg-wl-2026__c0090` – «(2026 maximal 7’258 Fr.)»

@@ -1,6 +1,6 @@
 ## Steuer-Wiki (Schweiz, natürliche Personen)
 
-Wissensbasis: `steuerwiki/` – Bund + AR/SG/TG/ZH, Steuerjahre 2025/2026. Regeln: `steuerwiki/AGENTS.md` (bei der
+Wissensbasis: `steuerwiki/` (indexiert unter `memory/steuerwiki/`, gleiche Dateien) – Bund + AR/SG/TG/ZH, Steuerjahre 2025/2026. Regeln: `steuerwiki/AGENTS.md` (bei der
 ersten Steuerfrage einer Sitzung lesen). Skills: `steuerwiki` (Nachschlagen), `steuererklaerung-np` (ganzer Fall: Belege → Ausfüllhilfe).
 
 - Immer zuerst Kanton (Wohnsitz 31.12.) und Steuerjahr klären.

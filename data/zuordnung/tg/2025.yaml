@@ -45,7 +45,7 @@ positionen:
     zitat: mindestens Fr. 12 000.– (Kanton) bzw. Fr. 6 800.– (Bund) unterstützen
   - chunk: tg-wl-2025__c0114
     zitat: lichen Existenzminimums der betreffenden erwerbsunfähigen und unterstützungsbedür
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Formulartext (Fr. 12'000 Kanton) und Wegleitung (mind. 50% des betreibungsrechtlichen Existenzminimums, Steuerpraxis) nennen unterschiedliche Kriterien; kein Widerspruch im Betrag des Abzugs,
     aber Mindestbeitrag in der Praxis nachprüfen.
 - ziffer: Seite 1 Auszahlungskonto
@@ -81,7 +81,7 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0038
     zitat: In diesem Feld ist der für die Steuererklärung massgebende Nettolohn anzugeben.
     jahr_ok: true
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
     Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
 - ziffer: '1.2'
@@ -206,7 +206,7 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0052
     zitat: 'Anzahl der Tage mit Erwerbsausfallentschädigungen: Diese sind stets anzugeben,'
     jahr_ok: true
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
     Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
 - ziffer: '3.4'
@@ -330,13 +330,20 @@ positionen:
   key: berechnung.total
   belege: []
   feld: Rechenzeile (Summe Ziff. 1.1–5.5 ohne 1.3)
-  regel: Summe der Einkünfte Ziff. 1 bis 5.5; vereinfacht abgerechnete Löhne (Ziff. 1.3) nicht einbeziehen. Ohne Liegenschaften direkt in Ziff. 20 übertragen, sonst über Ziff. 7/8/9.
+  regel: 'Summe der Einkünfte Ziff. 1 bis 5.5; vereinfacht abgerechnete Löhne (Ziff. 1.3) nicht einbeziehen (WL c0053). Formular 2025: Ziff. 6 wird in Ziff. 7 übertragen, dazu Ziff. 8.1 Einkünfte aus Liegenschaften
+    (Formular 7); das Total der Einkünfte Ziff. 9 (Code 198) ist auf Seite 3, Ziffer 20 zu übertragen. Die WL 2025 (c0085) beschreibt noch die ältere Struktur mit Ziff. 6.1/6.2.'
   quellen:
   - chunk: tg-form-01-2025__c0008
     zitat: 6. Zwischentotal der Einkünfte   175
   - chunk: tg-wl-2025__c0085
     zitat: Andernfalls übertragen Sie zuerst den Betrag von Ziffer 6.1 in Ziffer 6.2 der Steuererklärung.
-  status: extrahiert
+  - chunk: tg-form-01-2025__c0009
+    zitat: 9. Total der Einkünfte, zu übertragen auf Seite 3, Ziffer 20 198
+  - chunk: tg-form-01-2025__c0009
+    zitat: 7. Übertrag von Ziffer 6
+  - chunk: tg-wl-2025__c0053
+    zitat: Löhne werden nicht in die Berechnung des Zwischentotals unter Ziffer 6 miteinbezogen.
+  status: agent-geprueft
   bemerkung: Die Wegleitung 2025 beschreibt Ziff. 6.1/6.2 (ältere Formularstruktur mit Geschäftsfahrzeug-Einkommen); das Formular 2025 hat nur Ziff. 6 (Code 175) und Ziff. 7 (Übertrag von Ziff. 6).
 - ziffer: '7'
   abschnitt: Einkünfte
@@ -585,7 +592,7 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0037
     zitat: Vom Arbeitnehmer selber entrichtete, d. h. nicht vom Lohn abgezogene Einkaufsbeiträge an
     jahr_ok: true
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
     Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
 - ziffer: '15.3'
@@ -701,7 +708,7 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0048
     zitat: In diesem Feld sind alle effektiven Vergütungen des Arbeitgebers für berufsorientierte Aus-
     jahr_ok: true
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
     Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
 - ziffer: '16.2'
@@ -975,7 +982,7 @@ positionen:
     zitat: bis   17'899   bis   25'299   4'200
   - chunk: tg-vakp__par-1
     zitat: beträgt das Reineinkommen mehr als Fr. 16'900, bei Steuerpflichtigen in ungetrennter Ehe mehr als Fr. 24'300, ermässigt sich der Abzug je Fr. 1'000 Mehreinkommen um Fr. 200
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Wegleitungstabelle: Zeile ''36''900–37''689'' ist offensichtlich ein Druckfehler für 37''899 (Gesetz/VAKP: Reduktion in 1''000er-Schritten bis 0 bei 37''900 bzw. 45''300); Tabelle vor Anwendung
     gegen WL S. 25 prüfen.'
 - ziffer: '25.4'
@@ -1370,7 +1377,7 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0022
     zitat: In allen Fällen ist im Lohnausweis grundsätzlich das Feld F (unentgeltliche Beförderung zwi
     jahr_ok: true
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
     Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
 - ziffer: Form. 4.2 Ziff. 2.1
@@ -1487,7 +1494,7 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0051
     zitat: die Anzahl im Kalenderjahr geleisteter Schichttage
     jahr_ok: true
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
     Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
 - ziffer: Form. 4.2 Ziff. 3.2
@@ -1515,7 +1522,7 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0012
     zitat: Dieses Feld ist auch anzukreuzen bei Arbeitnehmern, die 40 % - 60 % der Arbeitszeit aus
     jahr_ok: true
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
     Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
 - ziffer: Form. 4.2 Ziff. 4
@@ -1644,7 +1651,7 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0034
     zitat: Arbeitnehmern belastete Beiträge an Krankentaggeldversicherungen sowie Prä
     jahr_ok: true
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
     Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft. Zusätzlich: Zeilennummerierung Formular 5.2 (2025)
     vs. Wegleitung abweichend.'
@@ -1833,7 +1840,7 @@ positionen:
     zitat: 17. Vermögensverwaltungskosten   Code 148
   - chunk: tg-wl-2025__c0159
     zitat: Der Pauschalabzug beträgt maximal Fr. 6'000.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Zifferbezeichnung im Formular 2 (2025) in der PDF-Extraktion unklar ('17.'); Wegleitung nennt 'Ziffer 7' – Code 148 ist massgebend.
 - ziffer: Form. 2 Einsatzkosten Geldspiele (Code 145)
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
@@ -1850,7 +1857,7 @@ positionen:
     zitat: 18. Einsatzkosten und Spieleinsätze für steuerbare Gewinne aus Geldspielen
   - chunk: tg-wl-2025__c0161
     zitat: Formulars geltend machen. Von jedem einzelnen steuerbaren Gewinn können pauschal fünf Pro
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Ziffernbezeichnung im Formular 2 in der PDF-Extraktion unklar; Wegleitung nennt Ziffer 8 bzw. 9. Code 145 massgebend.
 - ziffer: Form. 2 Hilfsblatt qualifizierte Beteiligungen
   abschnitt: Hilfsblatt Wertschriftenverzeichnis

@@ -27,7 +27,7 @@ werte:
     zitat: Autos | pro Fahrkilometer | –.70
   - chunk: ar-wl-2025__c0001
     zitat: Bei Benützung eines privaten Motorfahrzeuges in begründeten Fällen pro Km Fr. 0.70
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz. Steuerjahr 2025. Für 2026 gilt gemäss News AR 2026 CHF 0.75/km (ar-news-2026__c0002) - dort in 2026.yaml.
 - key: berufskosten.fahrkosten.motorrad_km
   wert: 0.4
@@ -37,7 +37,7 @@ werte:
     zitat: gemäss den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen werden
   - chunk: bund-bkv-2025__anhang-1
     zitat: Motorräder mit weissem Kontrollschild | pro Fahrkilometer | –.40
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz. Die AR-Wegleitung nennt nur die Pauschale bis Fr. 700 für Fahrrad/Kleinmotorrad; der km-Ansatz für Motorräder mit weissem Kontrollschild folgt aus dem Verweis in Art. 15 Abs. 3 StV auf die DBG-Pauschalansätze. Bitte fachlich bestätigen.
   einheit: CHF
   text: 'Privates Motorrad (weisses Kontrollschild), sofern Benützung begründet: CHF 0.40 pro km (kantonaler Wert = DBG-Ansatz gemäss Verweis in Art. 15 Abs. 3 StV).'
@@ -76,7 +76,7 @@ werte:
     zitat: Voller Abzug | pro Hauptmahlzeit bzw. Tag | 15.—
   - chunk: ar-wl-2025__c0002
     zitat: Abzug für Mehrkosten der Verpflegung Fr. 15 pro Tag max. Fr. 3’200
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.verpflegung.jahr
   wert: 3200
@@ -90,7 +90,7 @@ werte:
     zitat: im Jahr | 3200.—
   - chunk: ar-wl-2025__c0002
     zitat: Abzug für Mehrkosten der Verpflegung Fr. 15 pro Tag max. Fr. 3’200
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
@@ -105,7 +105,7 @@ werte:
     zitat: Halber Abzug | pro Hauptmahlzeit bzw. Tag | 7.50
   - chunk: ar-wl-2025__c0002
     zitat: Bei Kantinenverpflegung oder Arbeitgeberbeitrag Fr. 7.50 pro Tag max. Fr. 1’600
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.verpflegung.verbilligt_jahr
   wert: 1600
@@ -120,7 +120,7 @@ werte:
     zitat: Nur der halbe Abzug (Fr. 7.50 im Tag, 1600 Fr. im Jahr) ist
   - chunk: ar-wl-2025__c0002
     zitat: Bei Kantinenverpflegung oder Arbeitgeberbeitrag Fr. 7.50 pro Tag max. Fr. 1’600
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.schichtarbeit.tag
   wert: 15
@@ -135,7 +135,7 @@ werte:
     zitat: Voller Abzug | pro Hauptmahlzeit bzw. Tag | 15.—
   - chunk: ar-wl-2025__c0002
     zitat: Bei Schicht- oder Nachtarbeit Fr. 15 pro Tag max. Fr. 3’200
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz Schichtarbeitsabzug nicht zusätzlich zum Verpflegungsabzug (Art. 16 Abs. 4 StV).
 - key: berufskosten.wochenaufenthalt.unterkunft
   wert: null
@@ -162,7 +162,7 @@ werte:
     zitat: Voller Abzug | im Tag im Jahr | 30.— 6400.—
   - chunk: ar-wl-2025__c0002
     zitat: Für die auswärtige Verpflegung Fr. 30 pro Tag max. Fr. 6’400
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.uebrige.satz
   wert: 10
@@ -219,7 +219,7 @@ werte:
     zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
   - chunk: ar-wl-2025__c0002
     zitat: Pauschalabzug 20 % des Nettolohnes, mind. Fr. 800 max. Fr. 2’400
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.nebenerwerb.min
   wert: 800
@@ -234,7 +234,7 @@ werte:
     zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
   - chunk: ar-wl-2025__c0002
     zitat: Pauschalabzug 20 % des Nettolohnes, mind. Fr. 800 max. Fr. 2’400
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.nebenerwerb.max
   wert: 2400
@@ -249,7 +249,7 @@ werte:
     zitat: höchstens im Jahr | 2400.—
   - chunk: ar-wl-2025__c0002
     zitat: Pauschalabzug 20 % des Nettolohnes, mind. Fr. 800 max. Fr. 2’400
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.homeoffice
   wert: null
@@ -259,7 +259,7 @@ werte:
     zitat: Die Kosten eines Arbeitszimmers in der Privatwohnung werden als notwendige Berufskosten anerkannt
   - chunk: ar-stv__art-18
     zitat: mindestens 40 Prozent der Tätigkeit, gemessen an einer Vollzeitbeschäftigung, zu Hause erledigt werden müssen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Ergänzt durch Prüfung (StV Art. 18 Abs. 3).
   einheit: Text
   text: Kosten eines Arbeitszimmers in der Privatwohnung sind abziehbar, wenn ein spezifisch eingerichteter Arbeitsplatz benötigt und tatsächlich ausgeschieden wird und mindestens 40 % der Tätigkeit (bezogen auf Vollzeit) zu Hause erledigt werden müssen; sonst nur Pauschale übrige Berufskosten bzw. Nachweis höherer Kosten.
@@ -338,7 +338,7 @@ werte:
     zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
   - chunk: ar-wl-2025__c0003
     zitat: Erwerbstätige mit 2. Säule (Belege) max. Fr. 7’258
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: saeule3a.max_ohne_2saeule
   wert: 36288
@@ -352,7 +352,7 @@ werte:
     zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
   - chunk: ar-wl-2025__c0003
     zitat: 20 % des Erwerbseinkommens (Belege) max. Fr. 36’288
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
@@ -366,7 +366,7 @@ werte:
     zitat: jährlich bis 20 Prozent des Erwerbseinkommens
   - chunk: ar-wl-2025__c0003
     zitat: 20 % des Erwerbseinkommens (Belege) max. Fr. 36’288
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Verweis auf DBG-Ansatz
 - key: saeule3a.einkauf
   wert: null
@@ -783,7 +783,7 @@ werte:
     zitat: ab 01.01.2024 | 1.0%
   - chunk: ar-wl-2025__c0180
     zitat: Zinssatz für positive und negative Ausgleichszinsen wird durch den Regierungsrat
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Tabelle nennt letzten Satz ab 01.01.2024; ausdrückliche Bestätigung für 2025 fehlt - als geltend angenommen, bitte prüfen.
 - key: tarif.kapitalleistung_vorsorge
   kurz: "einf. Steuer verh. 0,75 % / übrige 1,0 % (über 400'000: 1,0 / 1,3333 %)"

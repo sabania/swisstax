@@ -58,7 +58,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 ### Fahrkosten – massgebende Arbeitstage pro Jahr
 
 - **Wert:** 240 Tage (Kilometerabrechnung (Auto/Motorrad, weisses Kontrollschild) in der Regel auf 240 Arbeitstage begrenzt (gemäss Formular Berufsauslagen).)
-- **Schlüssel:** `berufskosten.fahrkosten.arbeitstage` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.fahrkosten.arbeitstage` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Form. 360 (Berufsauslagen) Ziff. 1.3
 - **Bemerkung:** Nur Formularangabe (WL-Abdruck von Form. 360); im Gesetz/LS 631.33 nicht genannt. Gilt für Km-Abzug, nicht für ÖV-Abo oder Velopauschale.
 - **Quellen:**
@@ -199,7 +199,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 ### Arbeitszimmer/Homeoffice – Regel
 
 - **Wert:** Keine separate Homeoffice-/Arbeitszimmer-Pauschale: Kosten eines privaten Arbeitszimmers sind in der Pauschale für übrige Berufsauslagen (3 % des Nettolohns, CHF 2'000–4'000) enthalten; höhere effektive Kosten nur bei vollem Nachweis.
-- **Schlüssel:** `berufskosten.homeoffice` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.homeoffice` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** LS 631.33 Ziff. I/3 und IV
 - **Bemerkung:** Aus dem Wortlaut der Verfügung abgeleitet; eine ausdrückliche Homeoffice-Regel (z. B. Homeoffice-Tage) wurde in den Quellen 2025 nicht gefunden.
 - **Quellen:**
@@ -402,14 +402,17 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 ### Säule 3a – Einkauf (Nachzahlung) Regel/Maximum
 
 - **Wert:** Nachträglicher Einkauf (Nachzahlung) in die Säule 3a: zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren (ab Beitragsjahr 2025) nicht alle zulässigen Beiträge einbezahlt wurden; im Einkaufsjahr muss der volle ordentliche Beitrag geleistet sein; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7'258); je Jahresbeitragslücke nur ein Einkauf; Lücken vor Inkrafttreten (1.1.2025) nicht einkaufbar.
-- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 31 Abs. 1 lit. e StG ZH (Verweis auf Art. 82 BVG); Art. 7a, 7b BVV 3
-- **Bemerkung:** Verweis auf Bundesrecht (BVV 3, Wert aus data/werte/bund/2025.yaml). Kantonale Norm § 31 Abs. 1 lit. e verweist «im Sinn und im Umfang von Art. 82 BVG». Taxonomie führt Beleg-Schlüssel «ab Steuerjahr 2026»; praktisch erster Einkauf frühestens 2026 (Lücken ab Beitragsjahr 2025). ZH-spezifische Vollzugspraxis (ZStB 31.1) hierzu nicht gefunden.
+- **Bemerkung:** Verweis auf Bundesrecht (BVV 3, Wert aus data/werte/bund/2025.yaml). Kantonale Norm § 31 Abs. 1 lit. e verweist «im Sinn und im Umfang von Art. 82 BVG». Taxonomie führt Beleg-Schlüssel «ab Steuerjahr 2026»; praktisch erster Einkauf frühestens 2026 (Lücken ab Beitragsjahr 2025). ZH-spezifische Vollzugspraxis (ZStB 31.1) hierzu nicht gefunden. Ergänzt (Zweitprüfung): CHF 7'258 = oberer Grenzbetrag (BSV-Masszahlen 2025/2026, bund-bsv-masszahlen-2025-2026__c0003); «nur ein Einkauf je Jahresbeitragslücke» Art. 7b Abs. 2 lit. c bzw. Art. 7a Abs. 3 BVV 3; Inkrafttreten 1.1.2025 gemäss Bundesrat-Mitteilung vom 6.11.2024 (Bundesquellen, gelten über den Verweis von § 31 Abs. 1 lit. e StG ZH).
 - **Quellen:**
   - [StG ZH § 31](../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-31-t2.md) `zh-stg-2025__par-31-t2` – «vorsorge im Sinn und im Umfang von Art. 82 BVG»
   - [BVV 3 Art. 7a](../../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) `bund-bvv3__art-7a-t1` – «in den zehn dem Einkauf vorangehenden Jahren nicht alle für sie maximal zulässigen Beiträge einbezahlt haben»
   - [BVV 3 Art. 7a](../../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) `bund-bvv3__art-7a-t1` – «auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG»
   - [BVV 3 Übergangsbestimmung zur Änderung vom 6. November 2024](../../chunks/bund/2025/bund-bvv3/bund-bvv3__uebergang-disp-u3.md) `bund-bvv3__uebergang-disp-u3` – «können nicht mit einem Einkauf ausgeglichen werden»
+  - [BVV 3 Art. 7b](../../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7b.md) `bund-bvv3__art-7b` – «für die Jahre, für die eine Beitragslücke ausgeglichen werden soll, noch keinen Einkauf vorgenommen hat»
+  - [BSV Masszahlen 25/26 S. 1](../../chunks/bund/2025/bund-bsv-masszahlen-2025-2026/bund-bsv-masszahlen-2025-2026__c0003.md) `bund-bsv-masszahlen-2025-2026__c0003` – «Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258»
+  - [MM 3a-Einkäufe](../../chunks/bund/dauernd/bund-mm-saeule3a-einkauf/bund-mm-saeule3a-einkauf__c0001.md) `bund-mm-saeule3a-einkauf__c0001` – «Diese treten per 1. Januar 2025 in Kraft»
 
 ## Liegenschaften
 
@@ -437,7 +440,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 ### Eigenmietwert – Einschlag/Abzug für selbstbewohnte Liegenschaft (%)
 
 - **Wert:** Kein prozentualer Pauschal-Einschlag: Eigenmietwert nach Weisung 2009 (ZStB 21.1), Formelwert wird auf 60–70 % der Marktmiete begrenzt; Einschlag nur ausnahmsweise bei tatsächlicher Unternutzung (ZStB 21.2). Der frühere Härtefalleinschlag (ZStB 21.3) ist aufgehoben.
-- **Schlüssel:** `liegenschaft.eigenmietwert_abzug` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `liegenschaft.eigenmietwert_abzug` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Weisung 2009 (ZStB 21.1) Ziff. 83–86; WL ZH 2025 Liegenschaftenverzeichnis
 - **Bemerkung:** Weisung 2009 gilt bis Steuerjahr 2025; ab 2026 Weisung 2026 (nicht Teil dieser Datei).
 - **Quellen:**
@@ -726,7 +729,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 ### Vergütungs-/Vorauszahlungszins (%)
 
 - **Wert:** 1 % (Vergütungszins (Zins zu Gunsten der steuerpflichtigen Person) im Kalenderjahr 2025: 1 %; Zahlungen vor dem 1. Oktober 2025 werden bis zur Schlussrechnung verzinst.)
-- **Schlüssel:** `bezug.verguetungszins` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `bezug.verguetungszins` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 174 StG ZH; §§ 51–54 StV; WL ZH 2025 Anmerkungen zur Steuerzahlung
 - **Bemerkung:** ergänzt durch Prüfung: WL ZH 2025 (S. 8, «Steuern 2025») nennt den Satz 2025. Gleicher Satz zu Gunsten wie zu Lasten (Ausgleichszins).
 - **Quellen:**
@@ -737,7 +740,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 ### Ausgleichszins – Regel/Satz
 
 - **Wert:** Mit der Schlussrechnung werden Zinsen zu Gunsten (Vergütungszins) und zu Lasten (Ausgleichszins) in einer Zinsrechnung abgerechnet; Zahlungen vor dem 30. September (Verfalltag) werden zu Gunsten, Ausstände danach zu Lasten verzinst. Satz im Kalenderjahr 2025 für beide Zinsen: 1 % (WL: Zinsen zu Lasten ab 1. Oktober 2025).
-- **Schlüssel:** `bezug.ausgleichszins` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `bezug.ausgleichszins` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 174 StG ZH; §§ 51–54 StV; ZStB 172.1 Ziff. I
 - **Bemerkung:** ergänzt durch Prüfung: Satz 2025 = 1 % (WL ZH 2025 c0022); Satz 2026 = 0,75 % (c0024), hier nicht massgebend. Siehe bezug.verguetungszins.
 - **Quellen:**

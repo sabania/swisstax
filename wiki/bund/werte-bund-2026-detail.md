@@ -199,7 +199,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 ### Arbeitszimmer/Homeoffice – Regel
 
 - **Wert:** Privates Arbeitszimmer: in der Pauschale übrige Berufskosten enthalten. Separater Abzug der Zimmerkosten (Miete, Heizung, Beleuchtung) nur bei Nachweis höherer Kosten und wenn ein Zimmer der Privatwohnung hauptsächlich und regelmässig für die Berufsarbeit benützt werden muss; bloss gelegentliche Arbeit zu Hause gibt keinen Abzug. Keine pauschale Homeoffice-Entschädigung.
-- **Schlüssel:** `berufskosten.homeoffice` · **gilt für:** bund · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.homeoffice` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 7 Abs. 1 BKV
 - **Bemerkung:** Aussage zu «keine pauschale Homeoffice-Entschädigung» ist Schluss aus dem Fehlen in BKV/RS 2-215; Quelle nennt sie nicht ausdrücklich.
 - **Quellen:**
@@ -350,7 +350,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 ### Parteispenden – Maximum (CHF), ggf. alleinstehend
 
 - **Wert:** CHF 10'600 (Mitgliederbeiträge und Zuwendungen an politische Parteien (Parteienregister / kantonales Parlament / mind. 3 % Stimmen): bis Gesamtbetrag CHF 10'600.)
-- **Schlüssel:** `parteispenden.max` · **gilt für:** bund · **Status:** 🟡 extrahiert
+- **Schlüssel:** `parteispenden.max` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 33 Abs. 1 lit. i DBG
 - **Bemerkung:** Quellen nennen nur einen Gesamtbetrag; ob bei Ehepaaren pro Person oder gemeinsam, ist in den Quellen nicht ausdrücklich geregelt.
 - **Quellen:**

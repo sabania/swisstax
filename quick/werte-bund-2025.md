@@ -64,7 +64,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 | Säule 3a – Maximum mit 2. Säule (CHF) <small>`saeule3a.max_mit_2saeule`</small> | **CHF 7'258** |  [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-max-mit-2saeule) | [BSV Masszahlen 25/26 S. 1](../chunks/bund/2025/bund-bsv-masszahlen-2025-2026/bund-bsv-masszahlen-2025-2026__c0003.md) | ☑️ |
 | Säule 3a – Maximum ohne 2. Säule (CHF) <small>`saeule3a.max_ohne_2saeule`</small> | **CHF 36'288** |  [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-max-ohne-2saeule) | [BSV Masszahlen 25/26 S. 1](../chunks/bund/2025/bund-bsv-masszahlen-2025-2026/bund-bsv-masszahlen-2025-2026__c0003.md) | ☑️ |
 | Säule 3a – ohne 2. Säule in % des Erwerbseinkommens <small>`saeule3a.satz_ohne_2saeule`</small> | **20 %** |  [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-satz-ohne-2saeule) | [BVV 3 Art. 7](../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7.md) | ☑️ |
-| Säule 3a – Einkauf (Nachzahlung) Regel/Maximum <small>`saeule3a.einkauf`</small> | **Nachträglicher Einkauf (Nachzahlung) in die Säule 3a: zusätzlich zum o…** | BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-einkauf) | [BVV 3 Art. 7a](../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) | 🟡 |
+| Säule 3a – Einkauf (Nachzahlung) Regel/Maximum <small>`saeule3a.einkauf`</small> | **Nachträglicher Einkauf (Nachzahlung) in die Säule 3a: zusätzlich zum o…** | BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-einkauf) | [BVV 3 Art. 7a](../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) | ☑️ |
 
 ## Liegenschaften
 

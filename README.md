@@ -62,8 +62,9 @@ lesbar je Jurisdiktion: `wiki/<jur>/<jur>-quellen.md`.
 
 ## Nutzung durch einen Agenten
 
-- **OpenClaw:** siehe [`openclaw/README.md`](openclaw/README.md) – Snippet für die Workspace-`AGENTS.md`, Skills
-  kopieren, `memory.search.extraPaths` auf `quick/`, `wiki/`, `chunks/` (nicht `sources/`, nicht `raw/`).
+- **OpenClaw** (getestet mit 2026.11.2): `./openclaw/install.sh <workspace>` → Snippet in die Workspace-`AGENTS.md` →
+  `openclaw memory index --force --agent <id>`. Indexiert werden `quick/`, `wiki/`, `chunks/` unter `memory/steuerwiki/`
+  (kein Zeitverfall), nicht `sources/`/`raw/`. Details, Konfiguration und Testprotokoll: [`openclaw/README.md`](openclaw/README.md).
 - **Andere Agenten (Claude Code, Codex …):** `AGENTS.md` ist das Schema; `skills/steuerwiki/SKILL.md` beschreibt den Abfrageablauf.
 - **Eigenes Hybrid-RAG:** `index/chunks.jsonl` (ein Datensatz pro Chunk: `id, jurisdiktion, jahre, typ, dokument, titel,
   pfad, artikel, ziffer, seiten, quelle_url, kontext, text, stichworte, positionen, …`). Empfehlung: BM25 (deutscher

@@ -409,14 +409,17 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 ### Säule 3a – Einkauf (Nachzahlung) Regel/Maximum
 
 - **Wert:** Nachträglicher Einkauf (Nachzahlung) in die Säule 3a: zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren (ab Beitragsjahr 2025) nicht alle zulässigen Beiträge einbezahlt wurden, im Einkaufsjahr der volle ordentliche Beitrag geleistet wird; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7'258); je Jahresbeitragslücke nur ein Einkauf; Lücken vor 01.01.2025 nicht einkaufbar
-- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** bund · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.einkauf` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 7a, 7b BVV 3; Übergangsbestimmung Änderung 6.11.2024
-- **Bemerkung:** BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. Betrag CHF 7'258 abgeleitet aus 8 % des oberen Grenzbetrags (BSV-Masszahlen 7'258). Das ESTV-KS 18a (ab 01.01.2026) gilt nicht für 2025 und wurde nicht herangezogen. Praktisch erster Einkauf frühestens 2026 (Lücken erst ab Beitragsjahr 2025) – laut Seed, nicht aus Quelle bestätigt.
+- **Bemerkung:** BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. Betrag CHF 7'258 = oberer Grenzbetrag (BSV-Masszahlen 2025/2026, zitiert); «nur ein Einkauf je Jahresbeitragslücke» = Art. 7a Abs. 3 BVV 3. Das ESTV-KS 18a (ab 01.01.2026) gilt nicht für 2025 und wurde nicht herangezogen. Praktisch erster Einkauf frühestens 2026 (Lücken erst ab Beitragsjahr 2025) – laut Seed, nicht aus Quelle bestätigt.
 - **Quellen:**
   - [BVV 3 Art. 7a](../../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) `bund-bvv3__art-7a-t1` – «in den zehn dem Einkauf vorangehenden Jahren nicht alle für sie maximal zulässigen Beiträge einbezahlt haben»
   - [BVV 3 Art. 7a](../../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) `bund-bvv3__art-7a-t1` – «auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG»
   - [BVV 3 Übergangsbestimmung zur Änderung vom 6. November 2024](../../chunks/bund/2025/bund-bvv3/bund-bvv3__uebergang-disp-u3.md) `bund-bvv3__uebergang-disp-u3` – «können nicht mit einem Einkauf ausgeglichen werden»
   - [MM 3a-Einkäufe](../../chunks/bund/dauernd/bund-mm-saeule3a-einkauf/bund-mm-saeule3a-einkauf__c0001.md) `bund-mm-saeule3a-einkauf__c0001` – «Diese treten per 1. Januar 2025 in Kraft»
+  - [BVV 3 Art. 7a](../../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t2.md) `bund-bvv3__art-7a-t2` – «ist nicht mehr als ein Einkauf zulässig»
+  - [BVV 3 Art. 7b](../../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7b.md) `bund-bvv3__art-7b` – «für die Jahre, für die eine Beitragslücke ausgeglichen werden soll, noch keinen Einkauf vorgenommen hat»
+  - [BSV Masszahlen 25/26 S. 1](../../chunks/bund/2025/bund-bsv-masszahlen-2025-2026/bund-bsv-masszahlen-2025-2026__c0003.md) `bund-bsv-masszahlen-2025-2026__c0003` – «Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258»
 
 ## Liegenschaften
 

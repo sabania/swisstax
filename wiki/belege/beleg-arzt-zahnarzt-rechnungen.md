@@ -9,9 +9,9 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 
 # Arzt-, Zahnarzt-, Spital- und Therapierechnungen (Krankheits- und Unfallkosten)
 
-> Relevanz: **bedingt** (Bedingt relevant) · ID `arzt-zahnarzt-rechnungen` · Status: 🟡 extrahiert · [Belege-Übersicht](../../quick/belege-relevanz.md)
+> Relevanz: **bedingt** (Bedingt relevant) · ID `arzt-zahnarzt-rechnungen` · Status: ☑️ agent-geprueft · [Belege-Übersicht](../../quick/belege-relevanz.md)
 
-**Bedingung:** Nur die selbst bezahlten Kosten (nach Abzug der Kassenleistungen), und nur soweit sie 5 % des Nettoeinkommens übersteigen; allgemeine Gesundheitsvorsorge und Lebenshaltungskosten sind nicht abziehbar (Art. 34 DBG).
+**Bedingung:** Nur die selbst bezahlten Kosten (nach Abzug der Kassenleistungen), und nur soweit sie 5 % des Nettoeinkommens übersteigen; allgemeine Gesundheitsvorsorge (z. B. Präventivmassnahmen, ZH Formular 370) und Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie sind nicht abziehbar (Art. 34 lit. a DBG).
 
 ## Erkennen an
 
@@ -54,7 +54,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 
 ## Kantonale Besonderheiten
 
-- **ZH:** Formular 370 mit Aufstellung ausfüllen und Belege bereithalten; nicht abzugsfähig sind u.a. Fahrkosten zum Arzt, Präventivmassnahmen (Fitness), Akupunktur ohne Verordnung, Schönheitsbehandlungen (Form. 370).
+- **ZH:** Formular 370 mit Aufstellung ausfüllen; Belege geordnet beilegen; nicht abzugsfähig sind u.a. Fahrkosten zum Arzt, Präventivmassnahmen (Fitness), Akupunktur ohne Verordnung, Schönheitsbehandlungen (Form. 370).
 - **SG:** Formular 6: Belege nur auf Verlangen einreichen (Formular 6 SG 2025).
 - **AR:** Formular 6: Belege nur auf Verlangen einreichen; Diätpauschale Fr. 2'500 anstelle effektiver Kosten bei lebensnotwendiger Diät (nicht bei Diabetes) (WL AR 2025 Ziff. 21.1).
 - **TG:** Formular 5.1: Belege geordnet beilegen; Brillen (Sehhilfen) abziehbar, soweit nicht von der Kasse getragen, Fitnessabo nicht (TG FAQ).
@@ -69,3 +69,12 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - [TG FAQ NP](../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0025.md) `tg-info-faq__c0025` – «Nein, die Kosten für das Fitnessabonnement stellen in der Regel private Lebenshaltungskosten dar und sind nicht abzugsfähig.»
 - [WL AR 2025 S. 18](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0099.md) `ar-wl-2025__c0099` – «Fr. 2’500.– in Abzug gebracht werden.»
 - [KS 11 S. 11](../../chunks/bund/dauernd/bund-ks-11/bund-ks-11__c0030.md) `bund-ks-11__c0030` – «halt von 5 % der um die Aufwendungen (Art. 26 – 33 DBG) verminderten steuerbaren»
+- [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0003.md) `zh-form-370__c0003` – «Die Belege sind geordnet»
+- [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0002.md) `zh-form-370__c0002` – «Präventivmassnahmen»
+- [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0002.md) `zh-form-370__c0002` – «Fahrkosten zum Arzt, Zahn-»
+- [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0002.md) `zh-form-370__c0002` – «Akupunktur, sofern nicht»
+- [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0002.md) `zh-form-370__c0002` – «Schönheitsbehandlungen»
+- [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0002.md) `zh-form-370__c0002` – «Eigene Pflegeleistungen»
+- [Formular 6 SG 2025 S. 2](../../chunks/sg/2025/sg-form-6-2025/sg-form-6-2025__c0003.md) `sg-form-6-2025__c0003` – «Verlangen einzureichen.»
+- [Formular 6 AR 2025 S. 2](../../chunks/ar/2025/ar-form-06-2025/ar-form-06-2025__c0003.md) `ar-form-06-2025__c0003` – «Verlangen einzureichen.»
+- [Formular 5.1 TG 2025 S. 1](../../chunks/tg/2025/tg-form-05-1-2025/tg-form-05-1-2025__c0001.md) `tg-form-05-1-2025__c0001` – «Die Belege sind geordnet beizulegen»

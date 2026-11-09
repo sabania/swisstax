@@ -28,7 +28,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Fahrkosten Auto – Ansatz pro km (CHF)
 
 - **Wert:** CHF 0.70 (Privates Motorfahrzeug in begründeten Fällen: CHF 0.70 pro km.)
-- **Schlüssel:** `berufskosten.fahrkosten.auto_km` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.fahrkosten.auto_km` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 15 Abs. 3 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz. Steuerjahr 2025. Für 2026 gilt gemäss News AR 2026 CHF 0.75/km (ar-news-2026__c0002) - dort in 2026.yaml.
 - **Quellen:**
@@ -40,7 +40,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Fahrkosten Motorrad – Ansatz pro km (CHF)
 
 - **Wert:** CHF 0.40 (Privates Motorrad (weisses Kontrollschild), sofern Benützung begründet: CHF 0.40 pro km (kantonaler Wert = DBG-Ansatz gemäss Verweis in Art. 15 Abs. 3 StV).)
-- **Schlüssel:** `berufskosten.fahrkosten.motorrad_km` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.fahrkosten.motorrad_km` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 15 Abs. 3 StV AR (Verweis auf DBG-Ansatz)
 - **Bemerkung:** Verweis auf DBG-Ansatz. Die AR-Wegleitung nennt nur die Pauschale bis Fr. 700 für Fahrrad/Kleinmotorrad; der km-Ansatz für Motorräder mit weissem Kontrollschild folgt aus dem Verweis in Art. 15 Abs. 3 StV auf die DBG-Pauschalansätze. Bitte fachlich bestätigen.
 - **Quellen:**
@@ -69,7 +69,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Verpflegungsmehrkosten pro Arbeitstag (CHF)
 
 - **Wert:** CHF 15 (Mehrkosten auswärtige Verpflegung CHF 15 pro Tag.)
-- **Schlüssel:** `berufskosten.verpflegung.tag` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.verpflegung.tag` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 16 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -81,7 +81,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Verpflegungsmehrkosten pro Jahr (CHF)
 
 - **Wert:** CHF 3'200 (Mehrkosten auswärtige Verpflegung höchstens CHF 3'200 pro Jahr.)
-- **Schlüssel:** `berufskosten.verpflegung.jahr` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.verpflegung.jahr` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 16 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -93,7 +93,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF)
 
 - **Wert:** CHF 7.50 (Bei Kantinenverpflegung oder Arbeitgeberbeitrag CHF 7.50 pro Tag.)
-- **Schlüssel:** `berufskosten.verpflegung.verbilligt_tag` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.verpflegung.verbilligt_tag` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 16 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -105,7 +105,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Verpflegung bei Verbilligung pro Jahr (CHF)
 
 - **Wert:** CHF 1'600 (Bei Kantinenverpflegung oder Arbeitgeberbeitrag höchstens CHF 1'600 pro Jahr.)
-- **Schlüssel:** `berufskosten.verpflegung.verbilligt_jahr` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.verpflegung.verbilligt_jahr` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 16 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -117,7 +117,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Schicht-/Nachtarbeit pro Tag (CHF)
 
 - **Wert:** CHF 15 (Schicht- oder Nachtarbeit: CHF 15 pro Tag, max. CHF 3'200 pro Jahr.)
-- **Schlüssel:** `berufskosten.schichtarbeit.tag` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.schichtarbeit.tag` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 16 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz Schichtarbeitsabzug nicht zusätzlich zum Verpflegungsabzug (Art. 16 Abs. 4 StV).
 - **Quellen:**
@@ -139,7 +139,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Wochenaufenthalt – Mehrkosten Verpflegung pro Jahr (CHF)
 
 - **Wert:** CHF 6'400 (Wochenaufenthalt: auswärtige Verpflegung CHF 30 pro Tag, max. CHF 6'400 pro Jahr (bei Vergünstigung durch Arbeitgeber CHF 22.50/Tag, max. CHF 4'800).)
-- **Schlüssel:** `berufskosten.wochenaufenthalt.verpflegung_jahr` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.wochenaufenthalt.verpflegung_jahr` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 17 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -188,7 +188,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Nebenerwerb – Pauschale in % der Nebeneinkünfte
 
 - **Wert:** 20 % (Nebenerwerb: Pauschalabzug 20 % der Nettoeinkünfte (WL: Nettolohn), mind. CHF 800, max. CHF 2'400 (DBG-Ansatz).)
-- **Schlüssel:** `berufskosten.nebenerwerb.satz` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.nebenerwerb.satz` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 19 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -200,7 +200,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Nebenerwerb – Pauschale Minimum (CHF)
 
 - **Wert:** CHF 800 (Nebenerwerb Pauschale Minimum CHF 800.)
-- **Schlüssel:** `berufskosten.nebenerwerb.min` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.nebenerwerb.min` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 19 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -212,7 +212,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Nebenerwerb – Pauschale Maximum (CHF)
 
 - **Wert:** CHF 2'400 (Nebenerwerb Pauschale Maximum CHF 2'400.)
-- **Schlüssel:** `berufskosten.nebenerwerb.max` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.nebenerwerb.max` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 19 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -224,7 +224,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Arbeitszimmer/Homeoffice – Regel
 
 - **Wert:** Kosten eines Arbeitszimmers in der Privatwohnung sind abziehbar, wenn ein spezifisch eingerichteter Arbeitsplatz benötigt und tatsächlich ausgeschieden wird und mindestens 40 % der Tätigkeit (bezogen auf Vollzeit) zu Hause erledigt werden müssen; sonst nur Pauschale übrige Berufskosten bzw. Nachweis höherer Kosten.
-- **Schlüssel:** `berufskosten.homeoffice` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `berufskosten.homeoffice` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 18 Abs. 3 StV AR
 - **Bemerkung:** Ergänzt durch Prüfung (StV Art. 18 Abs. 3).
 - **Quellen:**
@@ -394,7 +394,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Säule 3a – Maximum mit 2. Säule (CHF)
 
 - **Wert:** CHF 7'258 (Säule 3a: Erwerbstätige mit 2. Säule max. CHF 7'258 (nur im Jahr 2025 tatsächlich bezahlte Beiträge).)
-- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_mit_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 35 lit. e StG AR i.V.m. Art. 82 BVG, Art. 7 BVV 3; WL 2025 Ziff. 13.1
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -406,7 +406,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Säule 3a – Maximum ohne 2. Säule (CHF)
 
 - **Wert:** CHF 36'288 (Säule 3a: Erwerbstätige ohne 2. Säule 20 % des Erwerbseinkommens, max. CHF 36'288.)
-- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.max_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 35 lit. e StG AR i.V.m. Art. 82 BVG, Art. 7 BVV 3; WL 2025 Ziff. 13.1
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -418,7 +418,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Säule 3a – ohne 2. Säule in % des Erwerbseinkommens
 
 - **Wert:** 20 % (Säule 3a ohne 2. Säule: 20 % des Erwerbseinkommens (max. CHF 36'288).)
-- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `saeule3a.satz_ohne_2saeule` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 35 lit. e StG AR i.V.m. Art. 82 BVG, Art. 7 BVV 3; WL 2025 Ziff. 13.1
 - **Bemerkung:** Verweis auf DBG-Ansatz
 - **Quellen:**
@@ -729,7 +729,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 ### Ausgleichszins – Regel/Satz
 
 - **Wert:** 1 % (Ausgleichszins mit der Schlussrechnung (Verfalltag 30. Juni); Satz gemäss Regierungsrat, ab 01.01.2024 1.0 %.)
-- **Schlüssel:** `bezug.ausgleichszins` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Schlüssel:** `bezug.ausgleichszins` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 206 StG AR
 - **Bemerkung:** Tabelle nennt letzten Satz ab 01.01.2024; ausdrückliche Bestätigung für 2025 fehlt - als geltend angenommen, bitte prüfen.
 - **Quellen:**

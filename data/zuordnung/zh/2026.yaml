@@ -1409,13 +1409,17 @@ positionen:
   - liegenschaft-nebenkosten-gebaeudeversicherung
   feld: Liegenschaftenbewertung 2026 der Gemeinde; Mieterspiegel; Unterhaltsrechnungen; Beiblatt zum Liegenschaftenverzeichnis
   regel: Pro Liegenschaft (alle Liegenschaften, auch in anderen Kantonen und im Ausland) Steuerwert, Eigenmietwert bzw. Mieterträge, Unterhalt/Verwaltung (Pauschale oder effektiv) und verbleibenden Ertrag
-    erfassen; Nettoertrag → Ziff. 6, Steuerwerte → Ziff. 31.1/31.2. Online-Steuererklärung überträgt die Totale automatisch.
+    erfassen; Nettoertrag → Ziff. 6, Steuerwerte → Ziff. 31.1/31.2.
   quellen:
   - chunk: zh-wl-2026-uj__c0177
     zitat: Nettoertrag aus Liegenschaften 3953
   - chunk: zh-wl-2026-uj__c0173
     zitat: Es sind alle Liegenschaften zu deklarieren, auch jene in anderen Kantonen oder
-  status: extrahiert
+  - chunk: zh-wl-2026-uj__c0174
+    zitat: erklärung Seite 4, Ziffer 31.2
+  - chunk: zh-wl-2026-uj__c0174
+    zitat: erklärung Seite 4, Ziffer 31.1
+  status: agent-geprueft
   bemerkung: 'korrigiert durch Prüfung: Zitate durch wörtliche Textstellen (Code 3953; Deklarationspflicht aller Liegenschaften) ersetzt. Detailregeln in c0172/c0173 bei Bedarf direkt prüfen.'
 - ziffer: '32'
   abschnitt: Vermögen
