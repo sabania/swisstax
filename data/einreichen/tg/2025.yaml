@@ -1,0 +1,360 @@
+kanton: tg
+jahr: 2025
+beschreibung: Einreichepflicht der Belege laut amtlichen Quellen TG 2025 (Wegleitung, Formulare, Gesetz). Erstellt durch Agent (Extraktion + unabhängige Prüfung, 09.11.2026); Status agent-geprueft. Entscheidet
+  in M-Files «Belege eingereicht» vs. «Belege Sonstiges» (data/firma/mfiles.yaml).
+status: agent-geprueft
+allgemein:
+- regel: 'Gesetzliche Beilagenpflicht: Steuererklärung persönlich unterzeichnet samt den vorgeschriebenen Beilagen fristgemäss einreichen (§ 155 Abs. 2 StG TG).'
+  chunk: tg-stg__par-155
+  zitat: persönlich zu unterzeichnen und samt den vorgeschriebenen Beilagen fristgemäss der zuständigen Behörde einzureichen
+  urteil: bestätigt
+- regel: 'Pflichtbeilagen natürliche Personen (§ 156 Abs. 1 StG TG): Lohnausweise über alle unselbständigen Einkünfte, Ausweise über VR-/Organbezüge, Verzeichnisse über sämtliche Wertschriften, Forderungen
+    und Schulden.'
+  chunk: tg-stg__par-156
+  zitat: 'Natürliche Personen müssen der Steuererklärung insbesondere beilegen:'
+  urteil: bestätigt
+- regel: 'Selbständigerwerbende (§ 156 Abs. 2 StG TG): unterzeichnete Jahresrechnungen bzw. bei vereinfachter Buchführung Aufstellungen über Einnahmen/Ausgaben, Vermögenslage, Privatentnahmen/-einlagen
+    beilegen.'
+  chunk: tg-stg__par-156
+  zitat: die unterzeichneten Jahresrechnungen (Bilanzen, Erfolgsrechnungen) der Steuerperiode oder
+  urteil: bestätigt
+- regel: 'Übrige Belege nur auf Verlangen: Auf Verlangen der Veranlagungsbehörde sind Auskünfte zu erteilen und Belege/Bescheinigungen vorzulegen (§ 157 Abs. 1 StG TG).'
+  chunk: tg-stg__par-157
+  zitat: Der Steuerpflichtige hat auf Verlangen der Veranlagungsbehörde mündlich oder schriftlich Auskunft zu erteilen. Er hat Geschäftsbücher, Belege und weitere Bescheinigungen sowie Urkunden über den
+    Geschäftsverkehr vorzulegen.
+  urteil: bestätigt
+- regel: 'Aufbewahrungspflicht Selbständigerwerbende: Geschäftsbelege 10 Jahre, bei hängigen Verfahren weitere 5 Jahre (§ 157 Abs. 2 StG TG; ebenso WL TG 2025 S. 14).'
+  chunk: tg-stg__par-157
+  zitat: während zehn Jahren, bei noch hängigen Verfahren während weiteren fünf Jahren aufzubewahren
+  urteil: bestätigt
+- regel: 'Fehlende Bescheinigungen: Bringt die steuerpflichtige Person sie trotz Mahnung nicht bei, kann die Behörde sie bei Dritten einfordern (§ 158 Abs. 2 StG TG).'
+  chunk: tg-stg__par-158
+  zitat: Bringt der Steuerpflichtige trotz Mahnung die nötigen Bescheinigungen nicht bei, kann sie die Veranlagungsbehörde von Dritten einfordern.
+  urteil: bestätigt
+- regel: 'Mitwirkungspflicht laut Wegleitung: Steuererklärung samt den erforderlichen Beilagen fristgerecht einreichen; zusätzliche Unterlagen/Beweismittel erst auf Aufforderung der Steuerbehörde.'
+  chunk: tg-wl-2025__c0023
+  zitat: die Einreichung von zusätzlichen Unterlagen und Beweismitteln aufgrund einer entsprechenden Aufforderung der Steuerbehörden.
+  urteil: bestätigt
+- regel: 'Folge der Nichteinreichung: Wer trotz Mahnung Steuererklärung oder verlangte Beilagen nicht einreicht, wird nach Ermessen veranlagt und gebüsst.'
+  chunk: tg-wl-2025__c0024
+  zitat: Wer trotz Mahnung die Steuererklärung oder verlangten Beilagen innert angesetzter Frist
+  urteil: bestätigt
+- regel: 'Online-Einreichung (eFisc2025 bzw. zertifizierte Drittsoftware): Alle beizulegenden Belege können elektronisch erfasst und übermittelt werden.'
+  chunk: tg-wl-2025__c0033
+  zitat: sämtliche der Steuererklärung beizulegenden Belege elektronisch zu
+  urteil: bestätigt
+- regel: 'Bei elektronischer Übermittlung: unterzeichnete Quittung mit leerem Original-Formular 1 einreichen; Belege wahlweise per Post mit der Quittung oder elektronisch.'
+  chunk: tg-wl-2025__c0035
+  zitat: Die Belege können wahlweise zusammen mit der Quittung gesandt oder elektronisch eingereicht werden.
+  urteil: bestätigt
+- regel: 'Immer einzureichen (elektronisch oder per Post), z.B.: sämtliche Lohnausweise; Unterlagen Selbständigerwerb; Bank-Steuerauszüge bei Total-Deklaration; Liegenschaftsrechnungen ab Fr. 1''000; Spendenbestätigungen
+    ab Fr. 1''000; Bescheinigungen Säule 3a. (Die Liste geht ab «Steuerauszüge von Banken» in WL c0036 weiter.)'
+  chunk: tg-wl-2025__c0035
+  zitat: 'Immer einzureichen, ob elektronisch oder via Postversand, sind z.B:'
+  urteil: 'korrigiert: Hinweis ergänzt, dass die zweite Hälfte der Liste (Steuerauszüge, Liegenschaftsrechnungen, Zuwendungen, Säule 3a) in tg-wl-2025__c0036 steht, nicht in c0035'
+- regel: Elektronisch übermittelte Formulare nicht ausdrucken/einreichen; Steuererklärung gilt erst mit Eingang der unterzeichneten Quittung als eingereicht.
+  chunk: tg-wl-2025__c0036
+  zitat: Nicht einreichen und daher auch nicht ausdrucken müssen Sie die elektronisch übermittelten
+  urteil: bestätigt
+- regel: Original-Hauptformular (Formular 1) ist immer einzureichen, auch bei PC-Ausfüllung (dann leer); keine leeren Formulare beilegen.
+  chunk: tg-wl-2025__c0041
+  zitat: Reichen Sie bitte, mit Ausnahme des Original-Hauptformulars, keine leeren Formulare ein.
+  urteil: bestätigt
+- regel: Belege in der Reihenfolge der Angaben auf dem jeweiligen Formular einreichen.
+  chunk: tg-wl-2025__c0041
+  zitat: Bitte reichen Sie die Belege in der Reihenfolge Ihrer Angaben auf dem jeweiligen Formular ein.
+  urteil: bestätigt
+- regel: Werden Originale noch benötigt, gut lesbare Kopien beilegen (eingereichte Unterlagen werden gescannt, nicht zurückgesandt, Originale vernichtet).
+  chunk: tg-wl-2025__c0041
+  zitat: Sofern Sie die Original-Belege noch benötigen, legen Sie bitte gut lesbare Belegkopien bei.
+  urteil: bestätigt
+- regel: 'Keine Rücksendung: Eingereichte Steuererklärung inkl. Beilagen wird vollständig gescannt und elektronisch archiviert.'
+  chunk: tg-wl-2025__c0040
+  zitat: keine Rücksendung von eingereichten Dokumenten erfolgt
+  urteil: bestätigt
+- regel: Dokumente ohne Bostitch/Büroklammern und ungebunden einreichen.
+  chunk: tg-wl-2025__c0042
+  zitat: Reichen Sie die Dokumente ohne Bostitche und Büroklammern sowie ungebunden ein.
+  urteil: bestätigt
+- regel: 'Zusätzliche Angaben, die nicht in die Bemerkungszeilen passen: separates Dokument beilegen und auf Seite 4 darauf verweisen (Angaben ausserhalb der Formularfelder gelten als nicht getätigt).'
+  chunk: tg-wl-2025__c0032
+  zitat: Verweisen Sie in der Bemerkungszeile auf Seite 4 der Steuererklärung auf diese zusätzliche Beilage.
+  urteil: bestätigt
+- regel: 'Ausserkantonale mit TG-Liegenschaft/Geschäftsort: Kopie der im Wohnsitzkanton eingereichten Steuererklärung samt Hilfsformularen genügt, Original-Formular 1 TG aber immer einreichen. (Satz «Original-Formular
+    1 … in jedem Falle … wieder ein» in WL c0011.)'
+  chunk: tg-wl-2025__c0010
+  zitat: eingereichten Steuererklärung 2025 samt den Hilfsformularen einreichen
+  urteil: 'korrigiert: Fundstellenhinweis ergänzt – Pflicht Original-Formular 1 steht in tg-wl-2025__c0011'
+- regel: 'Erstmalige straflose Selbstanzeige: unterzeichneten Antrag sowie Aufstellung der nicht versteuerten Werte und Belege beilegen. (Aufstellung/Belege in WL c0136.)'
+  chunk: tg-wl-2025__c0135
+  zitat: Legen Sie bitte der Steuererklärung einen unterzeichneten Antrag auf eine erstmalige straflose
+  urteil: 'korrigiert: Fundstellenhinweis ergänzt – Aufstellung und Belege stehen in tg-wl-2025__c0136'
+- regel: Wegleitung nennt zur Vorbereitung «benötigte Unterlagen» (Lohnausweise, Renten-, Zins-, Depot-, Schuld-, Unterhalts-, Vorsorge-, Krankheits-, Weiterbildungsbelege usw.) – das ist keine abschliessende
+    Beilagenliste.
+  chunk: tg-wl-2025__c0026
+  zitat: 'Dabei kann es sich insbesondere um folgende Unterlagen handeln:'
+  urteil: bestätigt
+- regel: 'Nur aufbewahren: Belege zu Handänderungssteuer/Notariatskosten beim Liegenschaftskauf sind nicht abziehbar, aber für eine spätere Grundstückgewinnsteuer aufzubewahren.'
+  chunk: tg-info-faq__c0047
+  zitat: Bewahren Sie die entsprechenden Belege trotzdem auf.
+  urteil: bestätigt
+belege:
+- beleg_id: lohnausweis
+  einreichen: ja
+  bedingung: immer, alle Lohnausweise (auch Nebenerwerb); VR-/Organbezüge gem. § 156 Abs. 1 Ziff. 2 StG ebenfalls
+  chunk: tg-wl-2025__c0035
+  zitat: 'Immer einzureichen, ob elektronisch oder via Postversand, sind z.B: – sämtliche Lohnausweise;'
+  urteil: bestätigt
+- beleg_id: rentenbescheinigung-ahv-iv
+  einreichen: unklar
+  bedingung: nur als «benötigte Unterlage» zum Ausfüllen genannt; Beilagepflicht nicht ausdrücklich geregelt
+  chunk: tg-wl-2025__c0026
+  zitat: AHV- und PK-Rentenausweise oder Postabschnitte über Renten
+  urteil: bestätigt
+- beleg_id: rentenbescheinigung-vorsorge
+  einreichen: bedingt
+  bedingung: 'Leibrenten: Jahresbescheinigung (Ertragsanteil/Überschuss) beilegen; bei mehr als zwei Renten Aufstellung + Bescheinigungen; PK-/3a-Renten nicht ausdrücklich geregelt'
+  chunk: tg-wl-2025__c0078
+  zitat: Bitte legen Sie diese Bescheinigung der Steuererklärung bei. Beziehen Sie mehr als zwei verschiedene Renten, legen Sie der Steuererklärung bitte eine separate Aufstellung über die Renten und die
+    entsprechenden Versicherungsbescheinigungen bei.
+  urteil: bestätigt
+- beleg_id: taggeldbescheinigung
+  einreichen: bedingt
+  bedingung: nur wenn Taggelder/EO direkt ausbezahlt und nicht im Lohnausweis enthalten (Deklaration Ziff. 3.3)
+  chunk: tg-wl-2025__c0079
+  zitat: Legen Sie bitte eine Bescheinigung über die Bezüge bei.
+  urteil: bestätigt
+- beleg_id: bescheinigung-saeule3a
+  einreichen: ja
+  bedingung: immer bei Abzug Ziff. 13 (elektronisch oder per Post)
+  chunk: tg-wl-2025__c0036
+  zitat: Bescheinigungen von Einzahlungen in die gebundene Selbstvorsorge (Säule 3a).
+  urteil: bestätigt
+- beleg_id: bescheinigung-pk-einkauf
+  einreichen: ja
+  bedingung: bei Abzug Einkauf/Beiträge 2. Säule (Ziff. 15.2); Bescheinigungen der Vorsorgeeinrichtung beizulegen
+  chunk: tg-wl-2025__c0094
+  zitat: Bescheinigungen der Vorsorgeeinrichtungen sind der Steuererklärung
+  urteil: bestätigt
+- beleg_id: steuerauszug-bank
+  einreichen: bedingt
+  bedingung: Pflicht, wenn Titel nicht einzeln im Wertschriftenverzeichnis, sondern als Total gemäss Steuerauszug deklariert (WL c0036); dann Bestandteil des VSt-Antrags
+  chunk: tg-wl-2025__c0168
+  zitat: Steuerauszüge von Banken, die anstelle von detaillierten Angaben im Formular 2 eingereicht
+  urteil: bestätigt
+- beleg_id: kontoauszug-zinsausweis
+  einreichen: unklar
+  bedingung: als «benötigte Unterlage» genannt; Beilagepflicht nicht ausdrücklich (allenfalls «weitere notwendige Belege» zu Formular 2)
+  chunk: tg-wl-2025__c0026
+  zitat: Zins- und Kapitalbescheinigungen von Bank- und Postkonto, aus denen die Bruttozinsen, die abgezogene Verrechnungssteuer und der Kontostand ersichtlich sind;
+  urteil: bestätigt
+- beleg_id: depotauszug
+  einreichen: ja
+  bedingung: von Banken erstellte Depotverzeichnisse dem Wertschriftenverzeichnis beilegen
+  chunk: tg-wl-2025__c0142
+  zitat: Legen Sie von Banken erstellte Depotverzeichnisse und allfällig weitere notwendige Belege dem Wertschriften- und Guthabenverzeichnis bei.
+  urteil: bestätigt
+- beleg_id: krypto-auszug
+  einreichen: unklar
+  bedingung: in den TG-Quellen 2025 nicht konkret geregelt
+  urteil: bestätigt
+- beleg_id: dividenden-ausland-quellensteuer
+  einreichen: bedingt
+  bedingung: 'bei Antrag DA-1 (Anrechnung ausl. Quellensteuer/Rückbehalt USA): DA-1 mit der Steuererklärung einreichen; Rückerstattungsanträge (R-D1, F-5000 ff.) direkt an StV; Beilage der Abrechnungen
+    nicht ausdrücklich verlangt'
+  chunk: tg-wl-2025__c0042
+  zitat: Der Antrag auf pauschale Steueranrechnung DA-1 ist zusammen mit der Steuererklärung beim Gemeindesteueramt einzureichen.
+  urteil: bestätigt
+- beleg_id: versicherung-rueckkaufswert
+  einreichen: ja
+  bedingung: 'sofern Lebens-/Rentenversicherung mit Steuerwert (Ziff. 30.3): Bescheinigung per 31.12.2025 beilegen'
+  chunk: tg-wl-2025__c0122
+  zitat: Ihre Versicherungsgesellschaften stellen Ihnen für die steuerbaren Werte Ihrer Lebens- und Rentenversicherungen Bescheinigungen per 31. Dezember 2025 zu. Diese sind der Steuererklärung beizulegen.
+  urteil: bestätigt
+- beleg_id: krankenkasse-praemien
+  einreichen: unklar
+  bedingung: Deklaration der Nettoprämie (Formular 5 Rückseite) vorausgesetzt; Beilage der Prämienbescheinigung nicht ausdrücklich verlangt
+  chunk: tg-wl-2025__c0209
+  zitat: Die Deklaration der Prämien der privaten Krankenversicherung wird vorausgesetzt.
+  urteil: bestätigt
+- beleg_id: krankenkasse-leistungen
+  einreichen: bedingt
+  bedingung: 'nur wenn Krankheits-/Unfallkosten geltend gemacht (Formular 5.1, Ziff. 23.1): Nachweis (Kostenzusammenstellung KK) mit der Steuererklärung einreichen'
+  chunk: tg-wl-2025__c0206
+  zitat: Reichen Sie bitte einen Nachweis über die von Ihnen geltend gemachten
+  urteil: bestätigt
+- beleg_id: arzt-zahnarzt-rechnungen
+  einreichen: bedingt
+  bedingung: 'nur wenn Krankheits-/Unfall- oder behinderungsbedingte Kosten geltend gemacht: Belege geordnet beilegen; bei Therapien/Kuren Kopie der ärztlichen Verordnung'
+  chunk: tg-form-05-1-2025__c0001
+  zitat: 'Details der Kosten:   Die Belege sind geordnet beizulegen'
+  urteil: bestätigt
+- beleg_id: hypothekarbestaetigung
+  einreichen: unklar
+  bedingung: Schuldenverzeichnis (Formular 4.1) ist einzureichen; Bankbestätigung nur als «benötigte Unterlage» genannt, Beilagepflicht nicht ausdrücklich
+  chunk: tg-wl-2025__c0026
+  zitat: Belege über Schulden und Schuldzinsen
+  urteil: bestätigt
+- beleg_id: kredit-darlehen-schuldzinsen
+  einreichen: unklar
+  bedingung: Formular 4.1 mit Gläubiger (Adresse) und Zinssatz einreichen; Beilage von Vertrag/Zinsbescheinigung nicht ausdrücklich verlangt
+  chunk: tg-wl-2025__c0171
+  zitat: Unerlässlich ist insbesondere die Angabe der Gläubigerin bzw. des Gläubigers
+  urteil: bestätigt
+- beleg_id: leasingvertrag
+  einreichen: nein
+  bedingung: Leasingzinsen nicht abzugsfähig (WL c0173); geleaste Fahrzeuge nicht zu deklarieren (WL c0123)
+  chunk: tg-wl-2025__c0173
+  zitat: Leasingzinsen sind grundsätzlich nicht abzugsfähig.
+  urteil: 'korrigiert: Fundstellenhinweis ergänzt – «geleaste Fahrzeuge nicht zu deklarieren» stammt aus tg-wl-2025__c0123; Einstufung nein bestätigt'
+- beleg_id: liegenschaft-unterhaltsrechnungen
+  einreichen: bedingt
+  bedingung: 'nur bei effektiven Kosten statt Pauschale: Rechnungskopien für Einzelbeträge ab Fr. 1''000 (inkl. Details) beilegen; unter Fr. 1''000 nur auf Verlangen'
+  chunk: tg-wl-2025__c0234
+  zitat: Für Einzelbeträge ab Fr. 1'000 legen Sie der Steuererklärung bitte die Rechnungskopien
+  urteil: bestätigt
+- beleg_id: liegenschaft-schaetzung-eigenmietwert
+  einreichen: unklar
+  bedingung: Werte (Steuerwert, indexierter Mietwert) aus der Liegenschaftensteuerrechnung übernehmen; Beilage nicht geregelt
+  chunk: tg-wl-2025__c0239
+  zitat: Die individuellen Grundstücksdaten von im Kanton Thurgau gelegenen Liegenschaften können Sie der im Januar 2026 versandten Liegenschaftensteuerrechnung entnehmen.
+  urteil: bestätigt
+- beleg_id: liegenschaft-mietertraege
+  einreichen: unklar
+  bedingung: Deklaration in Formular 7; Beilage von Mietverträgen/Mietzinsaufstellung in den TG-Quellen 2025 nicht geregelt
+  urteil: bestätigt
+- beleg_id: liegenschaft-nebenkosten-gebaeudeversicherung
+  einreichen: bedingt
+  bedingung: 'nur bei effektiven Kosten: Einzelbeträge ab Fr. 1''000 Rechnungskopie; bei Stockwerkeigentum Kopie der detaillierten STWEG-Abrechnung; übrige auf Verlangen'
+  chunk: tg-wl-2025__c0234
+  zitat: Bei Stockwerkeigentum legen Sie bitte eine Kopie der detaillierten Abrechnung der Stockwerkeigentümergemeinschaft bei.
+  urteil: bestätigt
+- beleg_id: kinderbetreuung-rechnungen
+  einreichen: unklar
+  bedingung: Abzug nur für nachgewiesene Kosten (Ziff. 15.3); ob Rechnungen beizulegen sind, nicht ausdrücklich geregelt
+  chunk: tg-wl-2025__c0096
+  zitat: Pro Kind können Sie kantonal die nachgewiesenen echten Kosten für die Drittbetreuung in Abzug
+  urteil: bestätigt
+- beleg_id: weiterbildung-rechnungen
+  einreichen: ja
+  bedingung: 'bei Abzug Ziff. 16: Aufstellung mit Belegen beilegen'
+  chunk: tg-wl-2025__c0102
+  zitat: legen Sie der Steuererklärung bitte eine Aufstellung mit Belegen bei.
+  urteil: bestätigt
+- beleg_id: spendenbestaetigung
+  einreichen: bedingt
+  bedingung: Quittung/Bescheinigung ab Fr. 1'000 pro Zuwendung einreichen; darunter keine Belege, nur auf Verlangen
+  chunk: tg-wl-2025__c0220
+  zitat: Für Zuwendungen unter Fr. 1'000 sind keine Belege einzureichen. Ab Fr. 1'000 pro Zuwendung reichen Sie bitte die entsprechende Quittung oder Bescheinigung mit Ihrer Steuererklärung ein.
+  urteil: bestätigt
+- beleg_id: parteispende
+  einreichen: bedingt
+  bedingung: 'gleiche Regel wie Spenden (Formular 6): ab Fr. 1''000 pro Zuwendung Quittung/Bescheinigung einreichen; darunter nur auf Verlangen'
+  chunk: tg-form-06-2025__c0001
+  zitat: Ab Fr. 1000.– pro Zuwendung reichen Sie bitte die entsprechende Quittung oder Bescheinigung mit Ihrer Steuererklärung ein.
+  urteil: bestätigt
+- beleg_id: unterhaltszahlungen-alimente
+  einreichen: bedingt
+  bedingung: 'bezahlte Unterhaltsbeiträge (Abzug Ziff. 12): Zahlungsnachweise immer einreichen, sonst kein Abzug; Kopie Urteil/Vereinbarung bei erstmaliger Deklaration; für erhaltene Alimente keine Beilagepflicht
+    genannt'
+  chunk: tg-wl-2025__c0087
+  zitat: Bei erstmaliger Deklaration ist eine Kopie der entsprechenden Passagen des Scheidungs- oder Trennungsurteils, der Trennungsvereinbarung oder des Rentenvertrages beizulegen.
+  urteil: bestätigt
+- beleg_id: oev-abo
+  einreichen: unklar
+  bedingung: abziehbar sind die nachgewiesenen Abonnementskosten; Beilagepflicht nicht ausdrücklich geregelt
+  chunk: tg-stp-29-2__c0002
+  zitat: die tatsächlich entstandenen (nachgewiesenen) Abonnementskosten abgezogen werden.
+  urteil: bestätigt
+- beleg_id: fahrzeugausweis-arbeitsweg
+  einreichen: unklar
+  bedingung: bei Privatfahrzeug Distanzangaben im Formular 4.2; Beilage Fahrzeugausweis/Fahrtenaufstellung nicht geregelt
+  chunk: tg-wl-2025__c0179
+  zitat: Machen Sie Fahrkosten für die Benützung eines Privatfahrzeugs geltend, geben Sie die genaue Distanz zwischen der Wohnadresse und dem Standort des Fahrzeugs am Arbeitsort (oder der P+Rail-Anlage)
+    an.
+  urteil: bestätigt
+- beleg_id: spesenreglement
+  einreichen: unklar
+  bedingung: in den TG-Quellen 2025 nicht konkret geregelt
+  urteil: bestätigt
+- beleg_id: kapitalleistung-vorsorge
+  einreichen: unklar
+  bedingung: Deklaration auf S. 4 Formular 1; bei mehreren Kapitalleistungen Aufstellung einreichen; Beilage der Bescheinigung selbst nicht ausdrücklich verlangt
+  chunk: tg-form-01-2025__c0018
+  zitat: bei mehreren Kapitalleistungen ist eine Aufstellung einzureichen
+  urteil: bestätigt
+- beleg_id: erbschaft-schenkung
+  einreichen: unklar
+  bedingung: Angaben auf S. 4 bzw. Hilfsblättern (Datum, Betrag, Personen, Verwandtschaftsgrad); Beilage von Verträgen/Inventar nicht geregelt
+  chunk: tg-wl-2025__c0129
+  zitat: Führen Sie sämtliche im Jahre 2025 getätigten oder empfangenen Schenkungen und Erbvorbezüge
+  urteil: bestätigt
+- beleg_id: lotteriegewinn
+  einreichen: ja
+  bedingung: 'bei deklarierten (steuerbaren) Gewinnen: Auszahlungsbescheinigung im Original bzw. Postanweisungsabschnitt (WL c0152); VSt-Ausweise für Geldspielgewinne ebenfalls beilegen (WL c0142)'
+  chunk: tg-wl-2025__c0152
+  zitat: Legen Sie bei den Lotterietreffern aller Art die Auszahlungsbescheinigung im Original bzw. den Postanweisungsabschnitt bei.
+  urteil: 'korrigiert: Fundstellenhinweis ergänzt – VSt-Ausweise aus tg-wl-2025__c0142; Einstufung ja bestätigt'
+- beleg_id: selbstaendig-jahresrechnung
+  einreichen: ja
+  bedingung: 'immer: unterzeichnete Bilanz/Erfolgsrechnung bzw. bei vereinfachter Buchführung Aufstellungen Einnahmen/Ausgaben, Aktiven/Passiven, Privatentnahmen/-einlagen (§ 156 Abs. 2 StG; WL c0035/c0057);
+    zusätzlich Kontoblatt «Privatkonto» und Abschreibungstabelle (WL c0056/c0057); Gesellschafter Kollektiv-/Kommanditgesellschaft zusätzlich Bescheinigung der Gesellschaft über Anteil an Einkommen und
+    Vermögen (WL c0057, c0124)'
+  chunk: tg-wl-2025__c0035
+  zitat: bei selbständiger Erwerbstätigkeit Aufstellungen über die Einnahmen und Ausgaben sowie über Aktiven und Passiven oder Bilanzen und Erfolgsrechnungen;
+  urteil: 'korrigiert: Bedingung präzisiert – Privatkonto/Abschreibungstabelle stammen aus tg-wl-2025__c0056/c0057, nicht aus c0035; Gesellschafterbescheinigung ergänzt; Einstufung ja bestätigt'
+- beleg_id: mitarbeiterbeteiligung
+  einreichen: unklar
+  bedingung: Arbeitgeber reicht die Bescheinigung selbst bei der Behörde ein (Meldepflicht § 160 Abs. 1 Ziff. 5 StG TG; Doppel an die steuerpflichtige Person, Abs. 2); Beilagepflicht der steuerpflichtigen
+    Person in den TG-Quellen 2025 nicht konkret geregelt
+  chunk: tg-stg__par-160
+  zitat: Arbeitgeber, die ihren Angestellten Mitarbeiterbeteiligungen einräumen, über alle für deren Veranlagung notwendigen Angaben
+  urteil: 'korrigiert: Fundstelle ergänzt (§ 160 Abs. 1 Ziff. 5 StG TG, Meldepflicht Arbeitgeber); Einstufung bleibt unklar'
+- beleg_id: steuerrechnung
+  einreichen: unklar
+  bedingung: relevant für den Abzug der Ausgleichszinsen als Schuldzinsen (Formular 4.1); Beilagepflicht in den TG-Quellen 2025 nicht konkret geregelt
+  chunk: tg-wl-2025__c0172
+  zitat: Die im 2025 mit der Steuerschlussrechnung belasteten Ausgleichszinsen können Sie ebenfalls als Schuldzinsen abziehen.
+  urteil: 'korrigiert: Fundstelle ergänzt (Ausgleichszinsen, WL c0172); Einstufung bleibt unklar'
+- beleg_id: vorjahresveranlagung
+  einreichen: unklar
+  bedingung: in den TG-Quellen 2025 nicht konkret geregelt
+  urteil: bestätigt
+- beleg_id: ahv-beitragsverfuegung-nichterwerbstaetige
+  einreichen: unklar
+  bedingung: Abzug Ziff. 15.1 (Beiträge nichterwerbstätiger Personen); Beilagepflicht in den TG-Quellen 2025 nicht konkret geregelt
+  chunk: tg-wl-2025__c0093
+  zitat: Unter dieser Ziffer können in der Regel nur Beiträge an die AHV/IV/EO sowie FAK-Beiträge von
+  urteil: 'korrigiert: Fundstelle für Abzug Ziff. 15.1 ergänzt (WL c0093); Einstufung bleibt unklar'
+- beleg_id: ergaenzungsleistungen
+  einreichen: nein
+  bedingung: EL sind steuerfrei und nicht anzugeben (WL c0076); über EL ausgerichtete Prämienverbilligungen mindern aber die Nettoprämie, Formular 5 (WL c0210)
+  chunk: tg-wl-2025__c0076
+  zitat: 'Steuerfrei und deshalb nicht anzugeben sind: – Ergänzungsleistungen der AHV und IV;'
+  urteil: 'korrigiert: Fundstellenhinweis ergänzt – Prämienverbilligung über EL aus tg-wl-2025__c0210; Einstufung nein bestätigt'
+- beleg_id: privatrechnungen-alltag
+  einreichen: nein
+  bedingung: nicht steuerrelevant
+  urteil: bestätigt
+- beleg_id: hausrat-haftpflicht-police
+  einreichen: nein
+  bedingung: nicht steuerrelevant; Privathaftpflicht/Hausrat auch nicht als Liegenschaftskosten abziehbar
+  chunk: tg-wl-2025__c0227
+  zitat: nicht aber Privathaftpflicht- und Hausratversicherungen
+  urteil: bestätigt
+- beleg_id: motorfahrzeug-versicherung
+  einreichen: nein
+  bedingung: nicht steuerrelevant
+  urteil: bestätigt
+- beleg_id: mietvertrag-wohnung
+  einreichen: unklar
+  bedingung: in den TG-Quellen 2025 nicht konkret geregelt
+  urteil: bestätigt
+- beleg_id: kreditkartenabrechnung
+  einreichen: unklar
+  bedingung: in den TG-Quellen 2025 nicht konkret geregelt
+  urteil: bestätigt
+- beleg_id: steuerberatungskosten
+  einreichen: nein
+  bedingung: nicht steuerrelevant (privat) – keine TG-Fundstelle 2025 gefunden (Suche «Steuerberatung» ohne Treffer); Einstufung beruht nicht auf einer Quelle, Fachperson prüfen
+  urteil: unklar

@@ -1,0 +1,49 @@
+# Deterministischer Test der Dokumenterkennung (Schritt 1, tools/steuer.py ablage): Titel/Textanfang → erwarteter Typ.
+# Fiktive, anonyme Beispiele (Muster Hans/Anna). Auswertung: python3 eval/ablage_test.py
+faelle:
+- {text: "Lohnausweis 2025 / Certificat de salaire – Muster AG – 8. Bruttolohn total 95'400 – 11. Nettolohn 82'100", soll: lohnausweis}
+- {text: "Rentenbescheinigung 2025 SVA Zürich Ausgleichskasse – AHV-Altersrente Hans Muster", soll: rentenbescheinigung-ahv-iv}
+- {text: "Pensionskasse Stadt Muster – Rentenausweis 2025 – Altersrente aus beruflicher Vorsorge", soll: rentenbescheinigung-vorsorge}
+- {text: "Arbeitslosenkasse Unia – Bescheinigung über Arbeitslosenentschädigung 2025", soll: taggeldbescheinigung}
+- {text: "Bescheinigung über Vorsorgebeiträge Säule 3a 2025 – VIAC Vorsorgestiftung – Einzahlungen CHF 7'258", soll: bescheinigung-saeule3a}
+- {text: "Bestätigung Einkauf Pensionskasse 2025 – Einkauf berufliche Vorsorge CHF 20'000 – Beitragsjahre", soll: bescheinigung-pk-einkauf}
+- {text: "eSteuerauszug 2025 – Zürcher Kantonalbank – Steuerverzeichnis per 31.12.2025 – Verrechnungssteuer", soll: steuerauszug-bank}
+- {text: "Zins- und Saldobestätigung per 31.12.2025 – Sparkonto – Bruttozins CHF 12.40", soll: kontoauszug-zinsausweis}
+- {text: "Depotauszug per 31.12.2025 – Vermögensausweis – Aktien, Fonds, Kurswert", soll: depotauszug}
+- {text: "Wallet-Auszug 2025 – Bitcoin und Ethereum Bestand per 31.12.2025 – Exchange", soll: krypto-auszug}
+- {text: "Dividend statement 2025 – US withholding tax 15% – Apple Inc.", soll: dividenden-ausland-quellensteuer}
+- {text: "Steuerbescheinigung Lebensversicherung 2025 – Rückkaufswert per 31.12.2025 – Police 3b", soll: versicherung-rueckkaufswert}
+- {text: "Prämienübersicht 2025 – Grundversicherung KVG und Zusatzversicherung VVG – Helsana", soll: krankenkasse-praemien}
+- {text: "Leistungsabrechnung 2025 – Kostenbeteiligung Franchise und Selbstbehalt – Steuerbestätigung Kostenbeteiligung", soll: krankenkasse-leistungen}
+- {text: "Zahnarztpraxis Dr. med. dent. Muster – Rechnung Zahnbehandlung 2025", soll: arzt-zahnarzt-rechnungen}
+- {text: "Hypothekarzinsbestätigung 2025 – Festhypothek – Zinsbescheinigung Hypothek Raiffeisen", soll: hypothekarbestaetigung}
+- {text: "Darlehensvertrag Privatdarlehen – Zinsbestätigung 2025 Schuldzinsen", soll: kredit-darlehen-schuldzinsen}
+- {text: "Leasingvertrag Fahrzeug – Leasingrate monatlich CHF 450", soll: leasingvertrag}
+- {text: "Rechnung Malerarbeiten und Sanitär Renovation Einfamilienhaus 2025", soll: liegenschaft-unterhaltsrechnungen}
+- {text: "Verfügung Eigenmietwert und amtliche Schätzung – Steuerwert Liegenschaft", soll: liegenschaft-schaetzung-eigenmietwert}
+- {text: "Mietzinsaufstellung 2025 – Ferienwohnung Vermietung – Mietertrag", soll: liegenschaft-mietertraege}
+- {text: "Nebenkostenabrechnung 2025 Stockwerkeigentum – Verwaltungshonorar, Gebäudeversicherung, Hauswart", soll: liegenschaft-nebenkosten-gebaeudeversicherung}
+- {text: "Kita Sonnenschein – Jahresrechnung Kinderbetreuung 2025", soll: kinderbetreuung-rechnungen}
+- {text: "Rechnung Lehrgang CAS Rechnungslegung – Studiengebühr 2025", soll: weiterbildung-rechnungen}
+- {text: "Spendenbestätigung 2025 – Verdankung Ihrer Spende – gemeinnützige Stiftung", soll: spendenbestaetigung}
+- {text: "Mitgliederbeitrag Partei 2025 – Bestätigung Parteispende", soll: parteispende}
+- {text: "Scheidungskonvention – Unterhaltsbeiträge für die Kinder – Alimente monatlich", soll: unterhaltszahlungen-alimente}
+- {text: "SBB Generalabonnement 2. Klasse 2025 – Quittung", soll: oev-abo}
+- {text: "Spesenreglement der Muster AG – genehmigt – Pauschalspesen", soll: spesenreglement}
+- {text: "Auszahlung Kapitalleistung Freizügigkeitskonto 2025 – Kapitalauszahlung bei Pensionierung", soll: kapitalleistung-vorsorge}
+- {text: "Erbteilungsvertrag – Nachlass – Erbbescheinigung", soll: erbschaft-schenkung}
+- {text: "Swisslos Gewinnbestätigung 2025 – Lottogewinn CHF 2'500'000", soll: lotteriegewinn}
+- {text: "Jahresrechnung 2025 Einzelfirma Muster Hans – Bilanz und Erfolgsrechnung", soll: selbstaendig-jahresrechnung}
+- {text: "Beiblatt Mitarbeiterbeteiligung zum Lohnausweis – Mitarbeiteraktien mit Sperrfrist", soll: mitarbeiterbeteiligung}
+- {text: "Ausgleichskasse – Beitragsverfügung 2025 für Nichterwerbstätige", soll: ahv-beitragsverfuegung-nichterwerbstaetige}
+- {text: "Verfügung Ergänzungsleistungen zur AHV 2025", soll: ergaenzungsleistungen}
+- {text: "Swisscom Rechnung Mobile Oktober 2025", soll: privatrechnungen-alltag}
+- {text: "Police Hausratversicherung und Privathaftpflicht 2025", soll: hausrat-haftpflicht-police}
+- {text: "Kantonales Steueramt Zürich – Einschätzungsentscheid Staats- und Gemeindesteuern Steuerperiode 2024 – Rechtsmittelbelehrung", soll: veranlagung}
+- {text: "Provisorische Steuerrechnung 2026 – Staats- und Gemeindesteuern – Ratenrechnung", soll: provisorische-rechnung}
+- {text: "Steuerverwaltung – Auflage: Bitte reichen Sie folgende Unterlagen ein bis 30.11.2026", soll: auflage-nachfrage}
+- {text: "Kontoauszug Steuerkonto Staats- und Gemeindesteuern – Zahlungseingang – Vergütungszins", soll: kontoauszug-steueramt}
+- {text: "Bestätigung Fristerstreckung Steuererklärung 2025 bis 30.09.2026", soll: fristerstreckung}
+- {text: "Übermittlungsquittung Online-Übermittlung Dr. Tax Steuererklärung 2025", soll: uebermittlungsquittung}
+- {text: "Freigabequittung Steuererklärung 2025 – unterzeichnet via DeepSign", soll: freigabequittung}
+- {text: "Grundstückgewinnsteuer – Veräusserung Parzelle – Steuererklärung", soll: grundstueckgewinn-erbschaft-schenkung-steuer}

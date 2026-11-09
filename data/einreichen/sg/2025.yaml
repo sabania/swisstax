@@ -1,0 +1,404 @@
+kanton: sg
+jahr: 2025
+beschreibung: Einreichepflicht der Belege laut amtlichen Quellen SG 2025 (Wegleitung, Formulare, Gesetz). Erstellt durch Agent (Extraktion + unabhängige Prüfung, 09.11.2026); Status agent-geprueft. Entscheidet
+  in M-Files «Belege eingereicht» vs. «Belege Sonstiges» (data/firma/mfiles.yaml).
+status: agent-geprueft
+allgemein:
+- regel: Mit Formular 1 und 2 sind nur die im Einzelfall benötigten Formulare sowie Bescheinigungen, Aufstellungen und Belege einzureichen, soweit dies bei der jeweiligen Position ausdrücklich verlangt
+    ist.
+  chunk: sg-wl-2025__c0012
+  zitat: die Bescheinigungen und Aufstellungen für jene Positionen, bei denen dies ausdrücklich verlangt ist; – die Belege, soweit dies bei einzelnen Positionen ausdrücklich verlangt wird.
+- regel: Nur tatsächlich benötigte Unterlagen einreichen; weitere Belege und Rechnungen bereithalten, die Steuerbehörde verlangt sie bei Bedarf ein (Aufbewahrung mindestens bis zur rechtskräftigen Veranlagung,
+    v.a. bei Abzügen und Schulden).
+  chunk: sg-wl-2025__c0013
+  zitat: Belege und Rechnungen sind bereitzuhalten und werden von der Steuerbehörde
+- regel: Unaufgefordert beigelegte Unterlagen nur in Kopie einreichen (keine Rücksendung, Vernichtung nach Veranlagung).
+  chunk: sg-wl-2025__c0013
+  zitat: Der Steuererklärung unaufgefordert beigelegte Unter lagen dürfen nur in Kopie eingereicht werden, da diese nicht zurückgesandt und nach erfolgter Veranlagung vernichtet werden.
+- regel: 'Belege zu den Abzügen: Grundsatz bereithalten und erst auf Verlangen einreichen; Ausnahmen sind in der Wegleitung bei der jeweiligen Ziffer vermerkt. Die Formulare 5, 6 und 7 tragen zudem den
+    Randvermerk «Die Belege sind auf Verlangen einzureichen» (zweispaltiges Layout, im Chunk nicht zusammenhängend zitierbar; Fragmente in sg-form-5-2025__c0001/__c0003, sg-form-6-2025__c0001/__c0003, sg-form-7-2025__c0001;
+    vgl. raw/sg/2025 Formulare 5/6/7, S. 1). Formular 4 trägt keinen solchen Vermerk.'
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+- regel: Wird bei einem Abzug eine Bescheinigung oder Bestätigung verlangt, ist diese der Steuererklärung beizulegen.
+  chunk: sg-wl-2025__c0073
+  zitat: Soweit bei einzelnen Abzügen eine Bescheinigung oder Bestätigung ver- langt wird, ist diese der Steuererklärung beizulegen.
+- regel: 'Gesetzliche Beilagen natürlicher Personen (StG SG Art. 169 Abs. 1): Lohnausweise, Ausweise über VR-/Organbezüge, Verzeichnisse über Wertschriften, Forderungen und Schulden.'
+  chunk: sg-stg-2025__art-169
+  zitat: 'Natürliche Personen müssen der Steuererklärung für die Einkommens- und Vermögenssteuern insbesondere beilegen:'
+- regel: Auf Verlangen der Veranlagungsbehörde sind Belege, Bescheinigungen und Urkunden vorzulegen (Mitwirkungspflicht, StG SG Art. 170 Abs. 2).
+  chunk: sg-stg-2025__art-170
+  zitat: Er muss auf Verlangen der Veranlagungsbehörde insbesondere mündlich oder schriftlich Auskunft erteilen, Geschäftsbücher, Belege und weitere Bescheinigungen sowie Urkunden über den Geschäftsverkehr
+    vorlegen.
+- regel: 'Selbständigerwerbende: Urkunden und Belege zur Tätigkeit 10 Jahre aufbewahren (StG SG Art. 171).'
+  chunk: sg-stg-2025__art-171
+  zitat: Natürliche Personen mit Einkommen aus selbständiger Erwerbstätigkeit und juristische Personen müssen Urkunden und sonstige Belege, die mit ihrer Tätigkeit in Zusammenhang stehen, während zehn Jahren
+    aufbewahren.
+- regel: Wird eine Drittbescheinigung trotz Mahnung nicht eingereicht, kann die Veranlagungsbehörde sie direkt beim Dritten einfordern (StG SG Art. 172 Abs. 2).
+  chunk: sg-stg-2025__art-172-t2
+  zitat: Reicht der Steuerpflichtige die Bescheinigung trotz Mahnung nicht ein, kann die Veranlagungsbehörde diese vom Dritten einfordern.
+- regel: Das Wertschriften- und Guthabenverzeichnis (Formular 2) ist Bestandteil der Steuererklärung und immer einzureichen.
+  chunk: sg-wl-2025__c0120
+  zitat: Das Wertschriften- und Guthabenverzeichnis ist Bestandteil der Steuerer- klärung und damit ebenfalls immer einzureichen.
+- regel: 'Online-Einreichung (NEU ab Steuerperiode 2025): E-Tax SG kann online ausgefüllt und inklusive aller Belege vollständig digital eingereicht werden.'
+  chunk: sg-wl-2025__c0008
+  zitat: die Steuererklärung ab der Steuerperiode 2025 bequem online ausgefüllt und inklusive aller Belege vollständig digital über eine geschützte Internetver- bindung eingereicht werden.
+- regel: 'E-Tax SG ohne Hochladen der Belege: nur Werte werden elektronisch übermittelt, die notwendigen Belege sind auf Papier mit der unterzeichneten Freigabequittung beim Gemeindesteueramt einzureichen.'
+  chunk: sg-wl-2025__c0023
+  zitat: In diesem Fall müssen die notwendigen Belege auf Papier eingereicht werden. Die Einreichung muss zusammen mit der von E-Tax SG erstellten Freigabequittung
+- regel: Mit E-Tax SG erstellte Steuererklärungen können nur elektronisch übermittelt werden (kein Ausdruck/Postversand der Erklärung).
+  chunk: sg-wl-2025__c0023
+  zitat: Steuererklärungen, die mit E-Tax SG erstellt werden, können ausschliesslich elektronisch übermittelt werden; ein Ausdrucken und postalisches Einreichen ist nicht möglich.
+- regel: 'Steuererklärung und erforderliche Beilagen sind bis zum Einreichetermin (Seite 1 der Steuererklärung) beim Gemeindesteueramt einzureichen; Fristverlängerung auf Gesuch (Verfahren: massgebend ist
+    der Zeitpunkt der Handlung, d.h. 2026).'
+  chunk: sg-wl-2025__c0018
+  zitat: Die Steuererklärung sowie die erforderlichen Beilagen sind bis zum Einreiche
+- regel: Alle Formulare und Beilagen mit Name und Register-Nummer versehen.
+  chunk: sg-wl-2025__c0019
+  zitat: Versehen Sie alle Formulare und Beilagen mit Ihrem Namen und Ihrer Register- Nummer.
+- regel: Selbst erstellte Wertschriftenverzeichnisse sind zusammen mit Formular 2 einzureichen (Totale ins Formular 2 übertragen).
+  chunk: sg-wl-2025__c0122
+  zitat: Das eigene Verzeichnis ist zusammen mit dem Formular 2 einzureichen.
+- regel: 'Beschränkte Steuerpflicht (Liegenschaft/Betriebsstätte in SG, Wohnsitz in anderem Kanton): Kopie der Steuererklärung des Wohnsitzkantons genügt.'
+  chunk: sg-wl-2025__c0007
+  zitat: In einem solchen Fall genügt das Einreichen einer Kopie der Steuererklärung des Wohnsitzkantons (siehe Merkblatt 27).
+- regel: 'Wohnsitz im Ausland mit Nebensteuerdomizil SG: empfohlen, Hilfsformulare (u.a. Schuldenverzeichnis) und die Veranlagung des Wohnsitzstaates (Finanzbescheid) beizulegen.'
+  chunk: sg-form-27-2025__c0005
+  zitat: der Steuererklärung nebst den notwendigen Hilfsformularen (u.a. Schuldenverzeichnis) auch die vom Wohnsitzstaat getroffene Veranlagung (Finanzbescheid) beizulegen.
+- regel: 'Übrige Berufskosten (Formular 4 Ziff. 3.2, tatsächliche Kosten statt Pauschale): gegen Nachweis abziehbar; Kosten auf einem Beiblatt aufführen, das zusammen mit Formular 4 einzureichen ist.'
+  chunk: sg-wl-2025__c0080
+  zitat: Die Kosten sind auf einem Beiblatt aufzuführen, welches zusammen mit dem Formular 4 einzureichen ist.
+- regel: 'Unterstützungsabzug Ziff. 23.4 (nur direkte Bundessteuer): Betrag, Name/Adresse der unterstützten Person und eine Bescheinigung über deren Bedürftigkeit angeben bzw. beilegen.'
+  chunk: sg-wl-2025__c0106
+  zitat: zusammen mit einer Bescheinigung, woraus ersichtlich ist, dass diese Per- son ihren Lebensunterhalt nicht aus eigenen Mitteln bestreiten kann.
+- regel: 'Vereinfacht abgerechnete Erwerbseinkünfte (Ziff. 8.1, BGSA): Bestätigung der Ausgleichskasse über den Quellensteuerabzug beilegen, ersatzweise die Lohnabrechnungen.'
+  chunk: sg-wl-2025__c0071
+  zitat: Die Bestätigung der Ausgleichskasse über den Quellensteuerabzug ist beizulegen. Fehlt diese, sind die Lohnabrechnungen beizulegen.
+- regel: 'Direkt von Ausgleichskassen ausbezahlte Familienzulagen (Ziff. 3.5), die im Reingewinn aus selbständiger Erwerbstätigkeit enthalten sind: Buchungsnachweis beilegen.'
+  chunk: sg-wl-2025__c0061
+  zitat: Der Buchungs- nachweis ist beizulegen.
+- regel: 'Unternutzungsabzug beim Eigenmietwert (Formular 7 B.a): entsprechenden Nachweis der Steuererklärung beilegen.'
+  chunk: sg-wl-2025__c0157
+  zitat: Bei Deklaration eines Unternutzungsabzuges ist der entsprechen- de Nachweis der Steuererklärung beizulegen.
+- regel: 'Globalverzinsliche Obligationen, Discount-/Zero-Bonds und derivative Finanzinstrumente mit überwiegender Einmalverzinsung: Erwerbs- und Verkaufs- bzw. Rückzahlungsbelege beilegen (zweispaltiges
+    Layout, Zitat nur ab «und Verkaufs-» zusammenhängend).'
+  chunk: sg-wl-2025__c0132
+  zitat: und Verkaufs- bzw. Rückzahlungsbelege sind beizulegen.
+belege:
+- beleg_id: lohnausweis
+  einreichen: ja
+  bedingung: immer; pro Arbeitgeber ein Lohnausweis (auch Nebenerwerb); Formular 1 Ziff. 1.1/1.2 «Lohnausweis»
+  chunk: sg-stg-2025__art-169
+  zitat: 'Natürliche Personen müssen der Steuererklärung für die Einkommens- und Vermögenssteuern insbesondere beilegen: - a) Lohnausweise über alle Einkünfte aus unselbständiger Erwerbstätigkeit'
+  urteil: 'bestätigt – StG SG Art. 169 Abs. 1 Bst. a (Fassung 2025); WL S. 14 Randtext «Pro Arbeitgeber ist grundsätzlich ein Lohnausweis einzureichen» (c0039, zweispaltig, nicht zusammenhängend zitierbar);
+    Formular 1 Beilagenliste «Lohnausweis(e)» (sg-form-1-2025__c0014). VR-Honorare/Sitzungsgelder: Ausweis nach Bst. b.'
+- beleg_id: rentenbescheinigung-ahv-iv
+  einreichen: ja
+  bedingung: bei Bezug von AHV-/IV-Renten; Formular 1 Ziff. 3.1 verlangt «Bescheinigung»
+  chunk: sg-form-1-2025__c0005
+  zitat: 3.1 AHV/IV-Renten (zu 100%) Person 1 Bescheinigung 126
+  urteil: 'bestätigt (abgeleitet) – Formularvermerk «Bescheinigung» bei Ziff. 3.1 i.V.m. WL S. 7 (c0012: Bescheinigungen einreichen, wo ausdrücklich verlangt); WL-Text Ziff. 3.1 (c0056) nennt keine eigene
+    Beilagepflicht.'
+- beleg_id: rentenbescheinigung-vorsorge
+  einreichen: ja
+  bedingung: bei Renten/Pensionen 2. Säule, 3a, Leibrenten (Ziff. 3.2); bei mehreren Renten zusätzlich separate Aufstellung
+  chunk: sg-form-1-2025__c0005
+  zitat: 3.2 Renten/Pensionen Bescheinigung / Aufstellung Bei mehreren Renten separate Aufstellung beilegen.
+  urteil: 'bestätigt – Formular 1 Ziff. 3.2 «Bescheinigung / Aufstellung» mit Randtext «Bei mehreren Renten separate Aufstellung beilegen.»; Leibrentenversicherungen VVG: Ertragsanteil bescheinigt der Versicherer
+    (WL c0059).'
+- beleg_id: taggeldbescheinigung
+  einreichen: ja
+  bedingung: 'soweit Taggelder/Erwerbsausfallentschädigungen nicht im Lohnausweis enthalten (Ziff. 3.3/3.4); Militärversicherung: Verfügung/Abrechnung beilegen'
+  chunk: sg-wl-2025__c0060
+  zitat: Über nicht im Lohnausweis aufgeführte Bezüge ist eine Bescheinigung beizulegen, die bei der Arbeitslosenkasse bezogen werden kann.
+  urteil: bestätigt – ALV-Taggelder (Ziff. 3.4) ausdrücklich (c0060); Ziff. 3.3 Formularvermerk «Bescheinigung» (sg-form-1-2025__c0005); Militärversicherung «unter Beilage der entsprechenden Verfügung bzw.
+    Abrechnung» (c0059).
+- beleg_id: bescheinigung-saeule3a
+  einreichen: ja
+  bedingung: immer bei Abzug Säule 3a (Ziff. 13.1); Bescheinigung der Bankstiftung/Versicherung (Form. 21 EDP)
+  chunk: sg-form-1-2025__c0008
+  zitat: 13.1 Säule 3a Person 1 Bescheinigung 208
+  urteil: bestätigt – Formular 1 Ziff. 13.1 «Bescheinigung»; WL S. 26 Randtext «Der Steuererklärung sind in jedem Fall die Bescheinigungen der Versicherung oder der Bankstiftung (Form. 21 EDP dfi) beizulegen»
+    (c0085, zweispaltig – im Chunk tatsächlich nicht zusammenhängend zitierbar; Original raw/sg/2025/sg-wl-2025.pdf S. 26); WL c0022 nennt «Bescheinigung Säule 3a» als notwendigen Beleg.
+- beleg_id: bescheinigung-pk-einkauf
+  einreichen: ja
+  bedingung: immer bei Abzug Einkauf 2. Säule (Ziff. 13.2), zusammen mit der Einkaufsberechnung
+  chunk: sg-wl-2025__c0086
+  zitat: ist in jedem Fall die Bescheinigung der Vorsorgeträgerin beizu- legen, zusammen mit der entsprechenden Einkaufsberechnung.
+  urteil: bestätigt – WL Ziff. 13.2 «in jedem Fall» beizulegen (c0086); Formular 1 Ziff. 13.2 «Bescheinigung» (sg-form-1-2025__c0008).
+- beleg_id: steuerauszug-bank
+  einreichen: ja
+  bedingung: bei Papiereinreichung bzw. Einreichung mit Freigabequittung immer komplett zu Formular 2; bei vollständig digitaler Einreichung (eFiling) automatische elektronische Übermittlung
+  chunk: sg-wl-2025__c0122
+  zitat: Steuerauszüge sind bei Einreichung der Steuererklärung auf Papier immer komplett dem Formular 2 beizulegen.
+  urteil: 'bestätigt – WL c0122: auf Papier/mit Freigabequittung immer komplett zu Formular 2; bei vollständigem eFiling elektronische Übermittlung (also ebenfalls eingereicht).'
+- beleg_id: kontoauszug-zinsausweis
+  einreichen: bedingt
+  bedingung: Bankbeleg mit Verrechnungssteuernachweis beilegen, wenn VST abgezogen wurde (Bruttozins > Fr. 200, Abschnitt A); bei Festgeld-/Treuhandanlagen Bescheinigung des Finanzinstituts beilegen (c0123);
+    sonst bereithalten
+  chunk: sg-wl-2025__c0130
+  zitat: mit dem Verrechnungssteuernachweis muss in diesem Fall beigelegt werden.
+  urteil: 'bestätigt – WL c0130 Bst. a (VST-Abzug → Abschnitt A, Bankbeleg mit VST-Nachweis beilegen); Festgeld-/Treuhandanlagen, Geldmarktbuchforderungen: Bescheinigung der Finanzinstitute (c0123).'
+- beleg_id: depotauszug
+  einreichen: bedingt
+  bedingung: 'bei Bestandesänderungen (Erwerb, Veräusserung, Rückzahlung, Konversion) Bankbelege beilegen; selbst erstelltes Verzeichnis mit Formular 2 einreichen; nichtkotierte Titel: Kauf-/Verkaufsverträge
+    beilegen'
+  chunk: sg-wl-2025__c0121
+  zitat: sind in die entsprechenden Spalten das Datum des Zu- oder Abganges anzugeben und die Bankbelege beizulegen.
+  urteil: 'bestätigt – WL c0121 (Bestandesänderungen: Datum angeben und Bankbelege beilegen), c0122 (eigenes Verzeichnis mit Formular 2), c0123 (nichtkotierte Titel: Kauf-/Verkaufsverträge); ergänzend c0132:
+    bei globalverzinslichen Obligationen/derivativen Produkten Erwerbs- und Verkaufs- bzw. Rückzahlungsbelege beilegen.'
+- beleg_id: krypto-auszug
+  einreichen: auf_verlangen
+  bedingung: Bestand per 31.12. im Formular 2 deklarieren (Kryptowährungen ausdrücklich genannt, c0121); keine besondere Beilagepflicht – Auszüge bereithalten
+  chunk: sg-wl-2025__c0013
+  zitat: Belege und Rechnungen sind bereitzuhalten und werden von der Steuerbehörde
+  urteil: unklar – Krypto ist für 2025 in SG nur in WL c0121 erwähnt (Deklarationspflicht im Formular 2); keine ausdrückliche Beilageregel. Die Bestandesänderungs-Regel derselben Stelle («Titel und Forderungen
+    … Bankbelege beizulegen») könnte analog auf Krypto-Käufe/-Verkäufe angewendet werden; grep über chunks/sg findet sonst nur StB 44 Nr. 1 (Beispiel, Jahre 2026/2027). Einstufung «auf Verlangen» ist plausibel,
+    aber nur aus dem allgemeinen Grundsatz abgeleitet – Fachperson.
+- beleg_id: dividenden-ausland-quellensteuer
+  einreichen: ja
+  bedingung: 'ausländische Wertschriftenerträge: Bankabrechnungen/Auszahlungsbordereaux unaufgefordert mit Formular 2; Formular DA-1 mit der Steuererklärung einreichen (c0145); ausländische nichtkotierte
+    Titel: Bescheinigungen beilegen (c0123)'
+  chunk: sg-wl-2025__c0143
+  zitat: Belege wie Bankabrechnungen, Auszahlungsbordereau usw. sind unauf gefordert mit dem Wertschriften- und Guthabenverzeichnis einzureichen.
+  urteil: 'bestätigt – WL c0143 (Abschnitt «Ausländische Wertschriften»: Belege wie Bankabrechnungen, Auszahlungsbordereau unaufgefordert mit Formular 2); Hinweis: «Die entsprechenden Belege» folgt unmittelbar
+    auf den Satz zu nichtkotierten Titeln (Werte aus Bankabrechnungen) – Reichweite für kotierte Titel mit Steuerauszug nicht eindeutig. DA-1 mit der Steuererklärung einreichen (c0145), nur bei Anrechnung
+    ausländischer Quellensteuern.'
+- beleg_id: versicherung-rueckkaufswert
+  einreichen: ja
+  bedingung: bei Lebens-/Rentenversicherungen mit Rückkaufswert (Ziff. 30.3); bei Vorsorge-Kapitalversicherung mit Einmalprämie zusätzlich Versicherungsvertrag in Kopie (c0133)
+  chunk: sg-wl-2025__c0110
+  zitat: Die entsprechende Berechnung bzw. Bescheinigung der Versi- cherungsgesellschaft ist der Steuererklärung beizulegen.
+  urteil: 'bestätigt – WL Ziff. 30.3 (c0110) ausdrücklich beizulegen; Vorsorge-Kapitalversicherung mit Einmalprämie: Vertrag in Kopie (c0133).'
+- beleg_id: krankenkasse-praemien
+  einreichen: auf_verlangen
+  bedingung: Prämien im Formular 6 Teil A deklarieren (Prämienverbilligung abziehen); Formular 6 Randvermerk «Die Belege sind auf Verlangen einzureichen»
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: 'bestätigt – WL c0073 (Grundsatz Belege zu Abzügen; Ziff. 14 Formular 6 in der Tabelle); Formular-Randvermerk «Die Belege sind auf Verlangen einzureichen.» vorhanden (sg-form-6-2025__c0001), aber
+    im Chunk nicht zusammenhängend zitierbar (zwischen «Die Belege sind auf» und «Verlangen einzureichen.» steht «Person 1: Reg.-Nr.»).'
+- beleg_id: krankenkasse-leistungen
+  einreichen: bedingt
+  bedingung: zwingend einzureichen, wenn im Formular 6 auf einen Krankenkassenauszug bzw. das Total gemäss Zusammenzug verwiesen wird (detaillierte Aufstellung inkl. Leistungsübersicht); sonst auf Verlangen
+  chunk: sg-form-6-2025__c0003
+  zitat: Wird auf einen Auszug der Krankenkasse verwiesen, so ist zwingend die Aufstellung mit allen Details (inkl. Leistungsübersicht) mit der Deklaration einzureichen.
+  urteil: bestätigt – Formular 6 Rückseite Hinweis (sg-form-6-2025__c0003) und WL S. 29 Randtext «Bei Deklaration des Totals gemäss Zusammenzug der Krankenkasse ist die detaillierte Kostenzusammenstellung
+    zwingend miteinzureichen» (c0098, zweispaltig).
+- beleg_id: arzt-zahnarzt-rechnungen
+  einreichen: auf_verlangen
+  bedingung: 'Einzelrechnungen im Formular 6 aufführen, Belege auf Verlangen; Ausnahmen beilegen: ärztliches Zeugnis bei Medikamenten/Heilmitteln, ärztliche Bescheinigung bei erstmaliger Diätpauschale (c0098),
+    Verfügung Hilflosenentschädigung bzw. Arztfragebogen bei Behindertenpauschalen (c0100, c0101)'
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: 'korrigiert: Fundstelle präzisiert auf WL c0073 (Belege zu Abzügen «erst auf Verlangen einzureichen»); das bisherige Zitat aus c0013 bricht vor «bei Bedarf einverlangt» ab und belegt «auf Verlangen»
+    nicht wörtlich. Einstufung bestätigt. Abzug Ziff. 21.1 steht in der Tabelle von c0073. Formular-Randvermerk «Die Belege sind auf Verlangen einzureichen.» vorhanden (sg-form-6-2025__c0003), aber im Chunk
+    nicht zusammenhängend zitierbar (zwischen «Die Belege sind auf» und «Verlangen einzureichen.» steht «Person 1: Reg.-Nr.»). Ausnahmen bestätigt: ärztliches Zeugnis bei Medikamenten/Heilmitteln und ärztliche
+    Bescheinigung bei erstmaliger Diätpauschale (c0098), Verfügung Hilflosenentschädigung (c0100), ärztlicher Fragebogen Gehörlose/Dialyse bei erstmaliger Geltendmachung (c0101).'
+- beleg_id: hypothekarbestaetigung
+  einreichen: auf_verlangen
+  bedingung: Schulden und Schuldzinsen im Formular 5 (Schuldenverzeichnis, gehört zur Steuererklärung) aufführen; Bankbestätigungen auf Verlangen (Formular 5 Randvermerk)
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: 'bestätigt – Schuldenverzeichnis ist gesetzliche Beilage (StG Art. 169 Abs. 1 Bst. c), die Zinsbescheinigung der Bank nur auf Verlangen (WL c0073); Formular-Randvermerk «Die Belege sind auf Verlangen
+    einzureichen.» vorhanden (sg-form-5-2025__c0001), aber im Chunk nicht zusammenhängend zitierbar (zwischen «Die Belege sind auf» und «Verlangen einzureichen.» steht «Person 1: Reg.-Nr.»).'
+- beleg_id: kredit-darlehen-schuldzinsen
+  einreichen: auf_verlangen
+  bedingung: private Schulden mit Gläubiger, Schuld 31.12. und Zinsen im Formular 5 Teil A deklarieren; Verträge/Zinsbescheinigungen auf Verlangen
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: 'bestätigt – WL c0073 und c0083 (Deklaration Teil A Formular 5); Formular-Randvermerk «Die Belege sind auf Verlangen einzureichen.» vorhanden (sg-form-5-2025__c0001), aber im Chunk nicht zusammenhängend
+    zitierbar (zwischen «Die Belege sind auf» und «Verlangen einzureichen.» steht «Person 1: Reg.-Nr.»).'
+- beleg_id: leasingvertrag
+  einreichen: nein
+  bedingung: Leasinggebühren privater Fahrzeuge nicht abzugsfähig
+  chunk: sg-wl-2025__c0083
+  zitat: Leasinggebühren persönlicher Gebrauchsgegenstände und privater Fahr zeuge.
+  urteil: 'bestätigt – WL Ziff. 11 (c0083): Leasinggebühren privater Fahrzeuge nicht als Schuldzinsen abziehbar; geschäftliches Leasing ist in der Jahresrechnung erfasst (nicht Formular 5).'
+- beleg_id: liegenschaft-unterhaltsrechnungen
+  einreichen: auf_verlangen
+  bedingung: 'nur bei tatsächlichen Kosten statt Pauschale (Formular 7 Rückseite, Randvermerk Belege auf Verlangen); Ausnahmen beilegen: separate Liegenschaftenrechnung bei Gesamtbetrag in C2 (c0169), aufgegliederte
+    Abrechnung Rückbaukosten (c0167)'
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: 'korrigiert: Fundstelle präzisiert auf WL c0073 (Belege zu Abzügen «erst auf Verlangen einzureichen»); das bisherige Zitat aus c0013 bricht vor «bei Bedarf einverlangt» ab und belegt «auf Verlangen»
+    nicht wörtlich. Einstufung bestätigt. Abzug Ziff. 15 steht in der Tabelle von c0073. Formular-Randvermerk «Die Belege sind auf Verlangen einzureichen.» vorhanden (sg-form-7-2025__c0001), aber im Chunk
+    nicht zusammenhängend zitierbar (zwischen «Die Belege sind auf» und «Verlangen einzureichen.» steht «Person 1: Reg.-Nr.»). Ausnahmen bestätigt: separate Liegenschaftenrechnung bei Total in C2 beilegen
+    (c0169), aufgegliederte Abrechnung Rückbaukosten einreichen (c0167).'
+- beleg_id: liegenschaft-schaetzung-eigenmietwert
+  einreichen: nein
+  bedingung: Werte (Steuerwert, Eigenmietwert, Grundstück-Nr.) aus der amtlichen Schätzung ins Formular 7 übernehmen; Schätzung wird vom Gemeindesteueramt eröffnet; für ausserkantonale Liegenschaften keine
+    Regel
+  chunk: sg-wl-2025__c0155
+  zitat: Der massgebliche Steuerwert wird vom Gemeindesteueramt eröffnet.
+  urteil: 'bestätigt (abgeleitet) – WL c0155: Steuerwert wird vom Gemeindesteueramt eröffnet; keine Beilagepflicht. Für ausserkantonale/ausländische Liegenschaften keine Beilageregel (nur Wertangabe); Unternutzungsabzug:
+    Nachweis beilegen (c0157).'
+- beleg_id: liegenschaft-mietertraege
+  einreichen: bedingt
+  bedingung: Aufstellung der Miet-/Pachtzinsen (Formular 7 Ziff. B.b «Aufstellung», Hilfsformular 7M); separate Liegenschaftenrechnung beilegen, wenn deren Total direkt eingesetzt wird; Mietverträge selbst
+    auf Verlangen
+  chunk: sg-wl-2025__c0160
+  zitat: Wird für die Liegenschaft eine separate Liegenschaftenrechnung geführt, so kann das Total der Erträge durch Fremdnutzung direkt in die Hauptspalte ein gesetzt werden. Die Liegenschaftenrechnung
+    ist beizulegen.
+  urteil: bestätigt – WL c0160 (separate Liegenschaftenrechnung beilegen); Formular 7 B.b Vermerk «Aufstellung» und Hinweis auf Formular 7M (sg-form-7-2025__c0003); übrige Belege gemäss Formular-7-Randvermerk
+    auf Verlangen (sg-form-7-2025__c0001).
+- beleg_id: liegenschaft-nebenkosten-gebaeudeversicherung
+  einreichen: auf_verlangen
+  bedingung: nur bei tatsächlichen Unterhalts-/Verwaltungskosten (Formular 7 Rückseite); bei separater Liegenschaftenrechnung diese beilegen (c0169)
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: 'korrigiert: Fundstelle präzisiert auf WL c0073 (Belege zu Abzügen «erst auf Verlangen einzureichen»); das bisherige Zitat aus c0013 bricht vor «bei Bedarf einverlangt» ab und belegt «auf Verlangen»
+    nicht wörtlich. Einstufung bestätigt. Abzug Ziff. 15 steht in der Tabelle von c0073. Formular-Randvermerk «Die Belege sind auf Verlangen einzureichen.» vorhanden (sg-form-7-2025__c0001), aber im Chunk
+    nicht zusammenhängend zitierbar (zwischen «Die Belege sind auf» und «Verlangen einzureichen.» steht «Person 1: Reg.-Nr.»). Ausnahme separate Liegenschaftenrechnung (c0169).'
+- beleg_id: kinderbetreuung-rechnungen
+  einreichen: auf_verlangen
+  bedingung: Formular 10 mit Vorname des Kindes, bezahlten Kosten sowie Name und Adresse der Betreuungsperson ausfüllen (c0092); Rechnungen nach Grundsatz auf Verlangen
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: bestätigt – WL c0073 (Grundsatz); WL c0092 verlangt nur Angaben (Vorname Kind, Kosten, Name/Adresse Betreuungsperson); Formular 10 ist nicht im Wiki, ein allfälliger Randvermerk dort ist ungeprüft.
+- beleg_id: weiterbildung-rechnungen
+  einreichen: auf_verlangen
+  bedingung: 'Aufstellung zu Ziff. 16.4 (Rechnungsdatum, Bezeichnung, Betrag) einreichen; Rechnungen auf Verlangen; Informatikmittel: Bestätigung der Kursleitung erforderlich (c0096); Pauschale Fr. 400
+    (nur Kanton) ohne Nachweis'
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: 'bestätigt – Formular 1 Ziff. 16.4 Vermerk «Aufstellung» (sg-form-1-2025__c0009), Inhalt gemäss WL-Randtext c0094 (Rechnungsdatum, Bezeichnung, Betrag); Rechnungen nach Grundsatz c0073 auf Verlangen;
+    Pauschale Fr. 400 nur Kanton «ohne besonderen Nachweis» (c0095); Informatikmittel: Bestätigung der Kursleitung erforderlich (c0096).'
+- beleg_id: spendenbestaetigung
+  einreichen: auf_verlangen
+  bedingung: Zuwendungen mit Datum, Institution und Betrag im Formular 5 Rückseite (Randvermerk Belege auf Verlangen)
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: 'bestätigt – WL c0073 (Ziff. 21.3, Formular 5); WL Ziff. 21.3 (c0102) ohne eigene Beilagepflicht; Formular-Randvermerk «Die Belege sind auf Verlangen einzureichen.» vorhanden (sg-form-5-2025__c0003,
+    Formular 5 S. 2), aber im Chunk nicht zusammenhängend zitierbar (zwischen «Die Belege sind auf» und «Verlangen einzureichen.» steht «Person 1: Reg.-Nr.»).'
+- beleg_id: parteispende
+  einreichen: auf_verlangen
+  bedingung: Parteispenden im Formular 5 Teil B (Randvermerk Belege auf Verlangen)
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: 'bestätigt – WL c0073 (Ziff. 16.3, Formular 5); WL c0093 ohne Beilagepflicht; Formular-Randvermerk «Die Belege sind auf Verlangen einzureichen.» vorhanden (sg-form-5-2025__c0003, gilt für Teil
+    A und B auf S. 2), aber im Chunk nicht zusammenhängend zitierbar (zwischen «Die Belege sind auf» und «Verlangen einzureichen.» steht «Person 1: Reg.-Nr.»).'
+- beleg_id: unterhaltszahlungen-alimente
+  einreichen: bedingt
+  bedingung: 'bei erstmaliger Zahlung: Auszug Scheidungsurteil/Trennungsvereinbarung und Zahlungsnachweis beilegen; Folgejahre Aufstellung (Ziff. 12.1/12.2), Belege auf Verlangen'
+  chunk: sg-wl-2025__c0084
+  zitat: Bei erstmaliger Zahlung von Unter- haltsbeiträgen ist der entsprechende Auszug aus dem Scheidungsurteil bzw. der Trennungsvereinbarung sowie ein Zahlungsnachweis beizulegen.
+  urteil: bestätigt – WL c0084 (im Absatz zu Ziff. 12.2); Formular 1 Randtext zu Ziff. 12.1–12.2 «Bei erstmaliger Zahlung Scheidungsurteil bzw. Trennungsvereinbarung beilegen» (sg-form-1-2025__c0008) erstreckt
+    die Pflicht auch auf Ziff. 12.1; Vermerk «Aufstellung» bei 12.1–12.3.
+- beleg_id: oev-abo
+  einreichen: auf_verlangen
+  bedingung: tatsächliche Kosten im Formular 4 Ziff. 1.1; keine besondere Beilagepflicht
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: bestätigt – keine besondere Beilagepflicht für ÖV-Kosten (WL c0077 Ziff. 1.1 «tatsächliche Kosten»); Formular 4 trägt keinen Randvermerk, daher allgemeiner Grundsatz WL c0073.
+- beleg_id: fahrzeugausweis-arbeitsweg
+  einreichen: auf_verlangen
+  bedingung: 'Begründung für Motorfahrzeug im Formular 4 Ziff. 1.3 angeben (bei Krankheit Arztzeugnis); mehr als 220 Arbeitstage nachzuweisen; Geschäftsfahrzeug mit effektiver Abrechnung: Bordbuch (c0076)'
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: bestätigt – Begründung im Formular 4 anzugeben, höhere Anzahl als 220 Arbeitstage nachzuweisen (WL-Randtext c0077); Formular 4 Begründung «Krankheit oder Gebrechlichkeit (Arztzeugnis)» (sg-form-4-2025__c0002);
+    Bordbuch bei effektiver Abrechnung Geschäftsfahrzeug (c0076). Fahrzeugausweis selbst nirgends verlangt.
+- beleg_id: spesenreglement
+  einreichen: auf_verlangen
+  bedingung: Nachweis des Auslagenersatzes obliegt dem Empfänger (WL c0041); Arbeitgeberbescheinigung/Spesenabrechnungen werden einverlangt, z.B. wenn Autokosten mit Dienstfahrten begründet werden
+  chunk: sg-stb-39-3__c0006
+  zitat: Deshalb werden in sol- chen Fällen eine Arbeitgeberbescheinigung sowie die entsprechenden Spesenabrechnun- gen einverlangt.
+  urteil: 'bestätigt – StB 39 Nr. 3 Ziff. 2.2.2 (SG, Praxis): Arbeitgeberbescheinigung und Spesenabrechnungen werden einverlangt (= auf Verlangen). Zeitbezug: Chunk aus Fassung 01.01.2026 («ersetzt 01.01.2025»),
+    Registry jahre [2025, 2026]; als Verfahrensregel bei der Veranlagung 2025 (in 2026) anwendbar. Nachweispflicht des Empfängers: WL c0041.'
+- beleg_id: kapitalleistung-vorsorge
+  einreichen: ja
+  bedingung: bei Kapitalleistungen aus Säule 3a, 2. Säule oder übriger Vorsorge (Ziff. 40.1–40.3); Formular 1 verlangt «Bescheinigung»
+  chunk: sg-form-1-2025__c0014
+  zitat: 40.1 aus gebundener Vorsorge Säule 3a Bescheinigung 40.2 aus Einrichtungen der beruflichen Vorsorge (2. Säule) Bescheinigung
+  urteil: bestätigt (abgeleitet) – Formular 1 Ziff. 40.1–40.3 Vermerk «Bescheinigung» (sg-form-1-2025__c0014) i.V.m. WL c0012; WL Ziff. 40 (c0119) ohne eigene Beilageformulierung.
+- beleg_id: erbschaft-schenkung
+  einreichen: bedingt
+  bedingung: 'geteilte Erbschaft im Steuerjahr: Kopie des Erbteilaktes beilegen; erhaltene/gemachte Schenkung: Aufstellung über Zusammensetzung beilegen (c0003); unverteilte Erbschaft: detaillierte Aufstellung
+    der Einkünfte (c0068)'
+  chunk: sg-form-2-2025__c0002
+  zitat: (Kopie des Erbteilaktes beilegen)
+  urteil: 'bestätigt – Formular 2 S. 1: «(Kopie des Erbteilaktes beilegen)» (c0002), Schenkungen «(Zusammensetzung: Aufstellung beilegen)» (sg-form-2-2025__c0003); unverteilte Erbschaft: detaillierte Aufstellung
+    (WL c0068).'
+- beleg_id: lotteriegewinn
+  einreichen: bedingt
+  bedingung: bei im Formular 2 deklarierten (steuerbaren bzw. VST-belasteten) Geldspielgewinnen; Formular 2 nennt Lotto-/Totobescheinigungen als Beilage
+  chunk: sg-form-2-2025__c0004
+  zitat: Ergänzungsblätter Steuerauszüge Bankbescheinigungen Lotto- /Totobesch.
+  urteil: bestätigt (schwach) – einzige SG-Fundstelle ist die Beilagenliste von Formular 2 («Lotto-/Totobesch.»); keine ausdrückliche Beilagepflicht in WL 2025 (grep Lotterie/Geldspiel/Lotto über chunks/sg
+    ohne Treffer zu Belegen). Analog zu WL c0130 (VST-Nachweis bei Abschnitt A) plausibel für VST-belastete Bargewinne aus inländischen Lotterien (c0135).
+- beleg_id: selbstaendig-jahresrechnung
+  einreichen: ja
+  bedingung: 'unterzeichnete Bilanz und Erfolgsrechnung (WL: inkl. Privatkonti und Abschreibungstabellen); bei vereinfachter Buchführung Aufstellung über Aktiven/Passiven, Einnahmen/Ausgaben, Privatentnahmen/-einlagen
+    (c0046); übrige Geschäftsbelege 10 Jahre aufbewahren, auf Verlangen vorweisen'
+  chunk: sg-stg-2025__art-169
+  zitat: 'Natürliche Personen mit Einkommen aus selbständiger Erwerbstätigkeit und juristische Personen müssen der Steuererklärung beilegen:'
+  urteil: 'bestätigt – StG SG Art. 169 Abs. 2 Bst. a/b (unterzeichnete Jahresrechnungen bzw. Aufstellungen bei vereinfachter Buchführung); WL-Randtext S. 15 (c0045: Privatkonti, Abschreibungstabellen) und
+    c0046; Aufbewahrung 10 Jahre und Vorweisen auf Verlangen (Art. 171, c0046).'
+- beleg_id: mitarbeiterbeteiligung
+  einreichen: ja
+  bedingung: 'bei Mitarbeiteraktien und -optionen: Bescheinigung des Arbeitgebers'
+  chunk: sg-wl-2025__c0123
+  zitat: Bei Mitarbeiteraktien und -optionen muss die vom Arbeitgeber ausgestellte Bescheinigung beigelegt werden.
+  urteil: bestätigt – WL c0123 ausdrücklich («muss … beigelegt werden»).
+- beleg_id: steuerrechnung
+  einreichen: nein
+  bedingung: Dokument der Steuerbehörde; nur positive Ausgleichs-/Vergütungszinsen als Ertrag deklarieren (c0063); keine Beilagepflicht genannt
+  chunk: sg-wl-2025__c0013
+  zitat: Reichen Sie ausschliesslich die tatsächlich benötigten Unterlagen ein.
+  urteil: bestätigt (abgeleitet) – keine ausdrückliche SG-Regel; Grundsatz «ausschliesslich die tatsächlich benötigten Unterlagen» (c0013); Vergütungszinsen zu Gunsten als Ertrag im Formular 2 (c0063).
+- beleg_id: vorjahresveranlagung
+  einreichen: nein
+  bedingung: 'eigene Vorjahresveranlagung nur Hilfsmittel (z.B. letztbekannter Steuerwert nichtkotierter Titel, c0128); Ausnahme: bei Wohnsitz im Ausland wird empfohlen, die Veranlagung des Wohnsitzstaates
+    beizulegen (Formular 27, c0005)'
+  chunk: sg-wl-2025__c0013
+  zitat: Reichen Sie ausschliesslich die tatsächlich benötigten Unterlagen ein.
+  urteil: 'bestätigt (abgeleitet) – keine Beilagepflicht für die SG-Vorjahresveranlagung; WL c0128 verwendet sie nur als Informationsquelle für den letztbekannten Steuerwert. Wohnsitz im Ausland: Finanzbescheid
+    des Wohnsitzstaates beizulegen nur «empfohlen» (Formular 27, c0005).'
+- beleg_id: ahv-beitragsverfuegung-nichterwerbstaetige
+  einreichen: auf_verlangen
+  bedingung: Abzug unter Ziff. 16.5 (übrige Abzüge, c0097); keine besondere Beilagepflicht
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: bestätigt – WL Ziff. 16.5 (c0097) ohne Beilagepflicht; Formular 1 Ziff. 16.5 verlangt nur «Arten» (sg-form-1-2025__c0009), keine Bescheinigung.
+- beleg_id: ergaenzungsleistungen
+  einreichen: auf_verlangen
+  bedingung: EL steuerfrei, nur Angabe in Ziff. 8.2 zu Informationszwecken (c0072); EL zur Vergütung von Krankheits-/Behinderungskosten im Formular 6 anrechnen; keine besondere Beilagepflicht
+  chunk: sg-wl-2025__c0013
+  zitat: Belege und Rechnungen sind bereitzuhalten und werden von der Steuerbehörde
+  urteil: bestätigt (abgeleitet) – EL steuerfrei, Angabe zu Informationszwecken (c0072, c0056); keine Beilagepflicht; im Formular 6 anzurechnende EL fallen unter dessen Randvermerk «auf Verlangen» (sg-form-6-2025__c0003).
+- beleg_id: privatrechnungen-alltag
+  einreichen: nein
+  bedingung: nicht steuerrelevant
+  chunk: sg-wl-2025__c0013
+  zitat: Reichen Sie ausschliesslich die tatsächlich benötigten Unterlagen ein.
+  urteil: 'korrigiert: Fundstelle ergänzt (WL c0013, Grundsatz nur benötigte Unterlagen); Einstufung «nein» bestätigt.'
+- beleg_id: hausrat-haftpflicht-police
+  einreichen: nein
+  bedingung: nicht steuerrelevant (Prämien für Mobiliar-/Haftpflichtversicherungen vom Abzug ausgeschlossen, WL S. 27 Randtext c0088)
+  chunk: sg-wl-2025__c0088
+  zitat: Mobiliar-, Motorfahrzeug- und Haftpflichtversiche
+  urteil: 'korrigiert: Fundstelle ergänzt – WL S. 27 Randtext «Vom Abzug ausgeschlossen sind die Prämien für Mobiliar-, Motorfahrzeug- und Haftpflichtversicherungen sowie für andere Sachversicherungen»
+    (c0088; zweispaltig, nur das Fragment ist zusammenhängend zitierbar). Einstufung «nein» bestätigt.'
+- beleg_id: motorfahrzeug-versicherung
+  einreichen: nein
+  bedingung: nicht steuerrelevant (Motorfahrzeugversicherungen vom Abzug ausgeschlossen, WL S. 27 Randtext c0088)
+  chunk: sg-wl-2025__c0088
+  zitat: Mobiliar-, Motorfahrzeug- und Haftpflichtversiche
+  urteil: 'korrigiert: Fundstelle ergänzt – WL S. 27 Randtext c0088 (wie Hausrat; zweispaltig, Fragment). Einstufung «nein» bestätigt; geschäftliche Fahrzeuge Selbständiger laufen über die Jahresrechnung.'
+- beleg_id: mietvertrag-wohnung
+  einreichen: auf_verlangen
+  bedingung: nur relevant bei Abzug Wochenaufenthalt (Zimmerkosten Formular 4 Ziff. 4.1); Mieterkautionszinsen im Formular 2 (c0130); sonst keine Beilage
+  chunk: sg-wl-2025__c0073
+  zitat: reitzuhalten und erst auf Verlangen einzureichen sind.
+  urteil: bestätigt – Wochenaufenthalt Ziff. 4.1 «tatsächliche Kosten für ein auswärtiges Zimmer» ohne Beilagepflicht (WL c0081); Mieterkautionszinsen im Formular 2 (c0130 Bst. b).
+- beleg_id: kreditkartenabrechnung
+  einreichen: auf_verlangen
+  bedingung: nur als Zahlungsnachweis zu geltend gemachten Abzügen; keine besondere Regel
+  chunk: sg-wl-2025__c0013
+  zitat: Belege und Rechnungen sind bereitzuhalten und werden von der Steuerbehörde
+  urteil: bestätigt (abgeleitet) – keine besondere Regel; Grundsatz Belege bereithalten (c0013).
+- beleg_id: steuerberatungskosten
+  einreichen: nein
+  bedingung: Steuerberatungskosten nicht abzugsfähig
+  chunk: sg-wl-2025__c0091
+  zitat: die Finanz-, Anlage-, Erbschafts-, Vorsorge- und Steuerberatung
+  urteil: 'bestätigt – WL Ziff. 16.1 (c0091): Steuerberatung bei den nicht abzugsfähigen Vermögensverwaltungskosten aufgeführt.'

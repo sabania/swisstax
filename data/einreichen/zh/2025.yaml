@@ -1,0 +1,370 @@
+kanton: zh
+jahr: 2025
+beschreibung: Einreichepflicht der Belege laut amtlichen Quellen ZH 2025 (Wegleitung, Formulare, Gesetz). Erstellt durch Agent (Extraktion + unabhängige Prüfung, 09.11.2026); Status agent-geprueft. Entscheidet
+  in M-Files «Belege eingereicht» vs. «Belege Sonstiges» (data/firma/mfiles.yaml).
+status: agent-geprueft
+allgemein:
+- regel: 'Grundsatz: Belege zu Aufstellungen und Formularen nur einreichen, wenn ausdrücklich verlangt (sonst erst auf Verlangen im Einschätzungsverfahren)'
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+- regel: 'Ausdrücklich nur auf Verlangen: Belege zu Liegenschaftskosten und gemeinnützigen Zuwendungen'
+  chunk: zh-wl-2025__c0207
+  zitat: Insbesondere sind demnach die Belege zu den Liegenschaftskosten und gemeinnützigen Zuwendungen erst im Einschät- zungsverfahren auf Verlangen nachzureichen.
+- regel: Belegkopien im Format A4; Unterlagen werden nicht zurückgegeben
+  chunk: zh-wl-2025__c0207
+  zitat: Belegkopien sind im Format A4 einzureichen. Die Unterlagen werden nicht retourniert.
+- regel: 'Papier-Einreichung: Beilagen in Papierform, keine elektronischen Datenträger (CD/DVD)'
+  chunk: zh-wl-2025__c0201
+  zitat: Beilagen zur Steuererklärung sind in Papierform einzureichen. Elektronische Datenträger wie CD, DVD usw. können aus Sicherheitsgründen nicht angenommen werden
+- regel: 'Online-Einreichung: erforderliche Beilagen zusammen mit der Steuererklärung elektronisch einreichen (§ 8 Abs. 4 V elektr. Einreichung)'
+  chunk: zh-v-einreichung__par-8
+  zitat: Die erforderlichen Beilagen sind zusammen mit der Steuererklärung elektronisch einzureichen.
+- regel: Einreichung der SE 2025 bis Ende März 2026 an das Scancenter (Papier)
+  chunk: zh-wl-2025__c0202
+  zitat: Die Steuererklärung ist bis Ende März 2026 dem Scancenter einzureichen.
+- regel: 'Verfahren (ZStB 132.1, Fassung ab 1.1.2026, massgebend für die Einreichung der SE 2025): Steuererklärung samt Wertschriftenverzeichnis bis 31. März online oder ans Scan-Center'
+  chunk: zh-zstb-132-1__c0022
+  zitat: Die Steuererklärung ist zusammen mit dem Wertschriftenverzeichnis bis 31. März des der Steuerperiode folgenden Kalenderjahres online oder dem Scan-Center einzureichen.
+- regel: 'Verfahren SE 2025 (ZStB 133.1 Aufforderung zur Einreichung 2026): Steuererklärung zusammen mit den erforderlichen Beilagen gemäss § 134 StG bis 31. März 2026 online oder ans Scan-Center [Prüfer:
+    Eintrag ergänzt]'
+  chunk: zh-zstb-133-1-aufforderung-2026__c0004
+  zitat: Die Steuererklärungen sind, zusammen mit den erforderlichen Beilagen gemäss § 134 StG, bis 31. März 2026 online (www.zh.ch/steuererklaerung) oder dem Scan-Center einzureichen.
+- regel: 'Gesetz: Formular vollständig ausfüllen, unterzeichnen und samt vorgeschriebenen Beilagen fristgemäss einreichen (§ 133 Abs. 2 StG)'
+  chunk: zh-stg-2025__par-133
+  zitat: Die steuerpflichtige Person muss das amtliche Formular für die Steuererklärung wahrheitsgemäss und vollständig ausfüllen, persönlich unterzeichnen und samt den vorgeschriebenen Beilagen fristgemäss
+    der zuständigen Behörde einreichen.
+- regel: 'Gesetzliche Pflichtbeilagen natürlicher Personen (§ 134 Abs. 1 StG): Lohnausweise, Ausweise über VR-/Organbezüge, Verzeichnisse über Wertschriften, Forderungen und Schulden, Bescheinigungen 2.
+    Säule/3a (sofern nicht im Lohnausweis)'
+  chunk: zh-stg-2025__par-134
+  zitat: 'Natürliche Personen müssen der Steuererklärung insbesondere beilegen:'
+- regel: Verzeichnisse über sämtliche Wertschriften, Forderungen und Schulden sind Pflichtbeilage (§ 134 Abs. 1 lit. c StG)
+  chunk: zh-stg-2025__par-134
+  zitat: c. Verzeichnisse über sämtliche Wertschriften, Forderungen und Schulden,
+- regel: Auf Verlangen der Steuerbehörde Belege und Bescheinigungen vorlegen (§ 135 Abs. 2 StG)
+  chunk: zh-stg-2025__par-135
+  zitat: Er muss auf Verlangen der Steuerbehörde insbesondere mündlich oder schriftlich Auskunft erteilen und Geschäftsbücher, Belege und weitere Bescheinigungen sowie Urkunden über den Geschäftsverkehr
+    vorlegen.
+- regel: 'Selbständigerwerbende: Urkunden und Belege 10 Jahre aufbewahren (§ 135 Abs. 3 StG)'
+  chunk: zh-stg-2025__par-135
+  zitat: Natürliche Personen mit Einkommen aus selbstständiger Erwerbstätigkeit und juristische Personen müssen Urkunden und sonstige Belege, die mit ihrer Tätigkeit in Zusammenhang stehen, während zehn
+    Jahren aufbewahren.
+- regel: 'Fehlende Bescheinigungen trotz Mahnung: Steuerbehörde kann sie beim Dritten einfordern (§ 136 Abs. 2 StG)'
+  chunk: zh-stg-2025__par-136
+  zitat: Reicht der Steuerpflichtige trotz Mahnung die nötigen Bescheinigungen nicht ein, kann sie die Steuerbehörde vom Dritten einfordern.
+- regel: 'Beilagen Unselbständigerwerbende: Lohnausweis(e) inkl. Beilagen, Bescheinigungen Mitarbeiterbeteiligungen, Formular Berufsauslagen/Versicherungsprämien'
+  chunk: zh-wl-2025__c0203
+  zitat: Formular Berufsauslagen/Versicherungsprämien.
+- regel: 'Beilagen Liegenschaftenbesitzer: Liegenschaftenverzeichnis mit allfälligen Beiblättern (weitere Gruppen: VR-Entschädigungen, ALV-Taggelder, Erbengemeinschaften, Geschäftsanteile)'
+  chunk: zh-wl-2025__c0205
+  zitat: Liegenschaftenverzeichnis mit allfälligen Beiblättern.
+- regel: Weitere Beilagen nur, wenn entsprechende Abzüge geltend gemacht werden (u.a. Aufstellungen Liegenschaftsunterhalt effektiv, Berufsauslagen effektiv, gemeinnützige Zuwendungen, Unterstützungsleistungen,
+    Fremdbetreuung; Bescheinigungen 3a, AHV/IV/PK; Formulare Schuldenverzeichnis, Weiterbildung, Krankheits-/Behinderungskosten, Qualifizierte Beteiligungen, Hilfsblatt STAF)
+  chunk: zh-wl-2025__c0206
+  zitat: 'Wenn Sie entsprechende Abzüge geltend machen, haben Sie der Steuererklärung ausserdem nachstehende Aufstellungen, Bescheinigungen und Formulare beizulegen:'
+- regel: 'Effektive Berufsauslagen statt Pauschale: Aufstellung beilegen'
+  chunk: zh-wl-2025__c0206
+  zitat: Aufstellung über die übrigen Berufsauslagen, falls der Abzug der tatsächlichen Aufwendun- gen beansprucht wird;
+- regel: 'Schulden: vollständiges Schuldenverzeichnis (Gläubiger mit Adresse, Zinssatz) einreichen'
+  chunk: zh-wl-2025__c0141
+  zitat: Werden Schulden deklariert, ist ein vollständiges Schuldenverzeichnis mit der Steuererklärung einzureichen.
+- regel: 'Checkliste Wertschriftenverzeichnis: Gutschriftsanzeigen beilegen für Festgeld (Kolonne A), nicht kotierte Beteiligungstitel, Lotteriegewinne, qualifizierte Beteiligungen'
+  chunk: zh-wl-2025__c0172
+  zitat: 'Sind die Gutschriftsanzeigen vollständig beigelegt für:'
+- regel: 'Nicht kotierte inländische Titel: Bescheinigung über die Ausschüttungen stets beilegen'
+  chunk: zh-wl-2025__c0163
+  zitat: Bei nicht kotierten Titeln ist stets die Bescheinigung über die Ausschüttungen beizulegen.
+- regel: 'Unterstützungsabzug: Bestätigung der unterstützten Person einreichen; Zahlungsbelege auf Verlangen'
+  chunk: zh-wl-2025__c0134
+  zitat: haben Sie mit der Steuererklärung eine Bestätigung der unterstützten Person über Art, Zeitpunkt und Höhe der erfolgten Unterstützungen einzureichen.
+- regel: 'Bezahlte Leibrenten/Verpfründungen (Ziff. 13.3): beweiskräftige Belege (Vertrag, Überweisungsbelege) einreichen'
+  chunk: zh-wl-2025__c0080
+  zitat: Mit der Steuererklärung 2025 sind beweiskräftige Belege über die bezahlten
+- regel: 'Ausserkantonale mit Liegenschaft/Betriebsstätte in ZH: Kopie der Wohnsitzkanton-Steuererklärung genügt, persönlich unterzeichnet, mit leerer vorbeschrifteter ZH-Steuererklärung'
+  chunk: zh-wl-2025__c0008
+  zitat: Diese Kopie ist jedoch persönlich zu unterzeichnen; zudem ist ihr die leere vorbeschriftete Steuererklärung des Kantons Zürich beizulegen.
+belege:
+- beleg_id: lohnausweis
+  einreichen: ja
+  bedingung: immer, für jeden Arbeitgeber inkl. Nebenerwerb; Lohnausweis inkl. Beilagen (§ 134 Abs. 1 lit. a StG; WL S. 31)
+  chunk: zh-wl-2025__c0032
+  zitat: Bitte vergessen Sie nicht, Ihre Lohnausweise der Steuererklärung beizulegen.
+  urteil: bestätigt
+- beleg_id: rentenbescheinigung-ahv-iv
+  einreichen: auf_verlangen
+  bedingung: 'keine ausdrückliche Beilagepflicht: Ziff. 3.1 ohne Beilagevermerk im Formular, nicht in der Beilagenliste WL S. 31 (WL S. 32 nennt Rentenbescheinigungen nur als bereitzuhaltende Unterlage)
+    -> Vorlage auf Verlangen (§ 135 Abs. 2 StG)'
+  chunk: zh-stg-2025__par-135
+  zitat: Er muss auf Verlangen der Steuerbehörde insbesondere mündlich oder schriftlich Auskunft erteilen und Geschäftsbücher, Belege und weitere Bescheinigungen sowie Urkunden über den Geschäftsverkehr
+    vorlegen.
+  urteil: bestätigt
+- beleg_id: rentenbescheinigung-vorsorge
+  einreichen: bedingt
+  bedingung: 'Leibrentenversicherungen: Steuerbescheinigung des Versicherers einreichen; private/ausländische Leibrenten: Leibrentenvertrag (Kopie) einreichen (Formular Ziff. 3.2); für PK-/3a-Renten keine
+    ausdrückliche Beilagepflicht (nur auf Verlangen)'
+  chunk: zh-wl-2025__c0052
+  zitat: Die Steuer- bescheinigung ist zusammen mit der Steuererklärung einzureichen.
+  urteil: bestätigt
+- beleg_id: taggeldbescheinigung
+  einreichen: ja
+  bedingung: 'sofern Taggelder/EO/Familienzulagen direkt von Versicherung bzw. Ausgleichs-/Arbeitslosenkasse ausbezahlt (nicht im Lohnausweis); ALV: Bescheinigung der Arbeitslosenkasse (WL Ziff. 3.3/3.4,
+    Beilagenliste S. 31)'
+  chunk: zh-wl-2025__c0055
+  zitat: eine Bescheinigung über diese Einkünfte und reichen Sie diese mit der Steuererklärung ein.
+  urteil: bestätigt
+- beleg_id: bescheinigung-saeule3a
+  einreichen: ja
+  bedingung: bei Abzug Säule 3a (Ziff. 14)
+  chunk: zh-wl-2025__c0081
+  zitat: Der Steuererklärung sind die Bescheinigungen der Versicherung oder Bankstiftung beizulegen.
+  urteil: bestätigt
+- beleg_id: bescheinigung-pk-einkauf
+  einreichen: ja
+  bedingung: bei Abzug von Beiträgen/Einkäufen 2. Säule unter Ziff. 16.1 (soweit nicht im Lohnausweis enthalten)
+  chunk: zh-wl-2025__c0092
+  zitat: Die abziehbaren Einkaufsbeiträge sind der von der Vorsorgeeinrichtung ausgestellten Bescheinigung zu entnehmen, die mit der Steuererklärung einzureichen ist.
+  urteil: bestätigt
+- beleg_id: steuerauszug-bank
+  einreichen: bedingt
+  bedingung: beizulegen, wenn im Wertschriften- und Guthabenverzeichnis auf das Steuerverzeichnis der Bank verwiesen wird (statt Einzelauflistung); eSteuerauszug kann online importiert werden (WL c0153);
+    Wertschriftenverzeichnis selbst ist Pflichtbeilage
+  chunk: zh-wl-2025__c0173
+  zitat: Liegen die detaillierten Steuerverzeichnisse bzw. Steuerbewertungen bei, auf welche im Wertschriften- und Guthabenverzeichnis verwiesen wird?
+  urteil: bestätigt
+- beleg_id: kontoauszug-zinsausweis
+  einreichen: bedingt
+  bedingung: nur Festgeldanlagen (Abrechnungsbelege des Schuldners) und Kassenobligationen mit Zeichnung/Rückzahlung/Umtausch im Jahr (Bankabrechnungen); gewöhnliche Konti nur im Wertschriftenverzeichnis
+    aufführen
+  chunk: zh-wl-2025__c0162
+  zitat: Die Abrechnungsbelege des Schuldners sind beizulegen.
+  urteil: bestätigt
+- beleg_id: depotauszug
+  einreichen: bedingt
+  bedingung: wenn im Wertschriftenverzeichnis darauf verwiesen wird; zudem Kauf-/Verkaufsabrechnungen bei Obligationen mit Einmalverzinsung, Optionen, Derivaten (WL c0169/c0173) und Ausschüttungsbescheinigungen
+    nicht kotierter Titel (c0163)
+  chunk: zh-wl-2025__c0173
+  zitat: Liegen die detaillierten Steuerverzeichnisse bzw. Steuerbewertungen bei, auf welche im Wertschriften- und Guthabenverzeichnis verwiesen wird?
+  urteil: bestätigt
+- beleg_id: krypto-auszug
+  einreichen: ja
+  bedingung: 'bei Kryptowährungen im Vermögen: Nachweis zwingend per Wallet-/Kontoauszug, Stand Ende Steuerperiode (WL S. 25); die WL sagt nicht ausdrücklich «beilegen/mit der Steuererklärung einreichen»
+    (vgl. Grundsatz c0207) – «ja» ist die vorsichtige Lesart, Fachperson entscheidet'
+  chunk: zh-wl-2025__c0159
+  zitat: Der Nachweis hat mittels Kontoauszug der digitalen Brieftasche (Wallet), Stand per Ende der Steuerperiode, zu erfolgen.
+  urteil: unklar
+- beleg_id: dividenden-ausland-quellensteuer
+  einreichen: bedingt
+  bedingung: 'nur wenn Anrechnung ausländischer Quellensteuern bzw. Rückerstattung Steuerrückbehalt USA beantragt: Formular DA-1 inkl. sämtlicher Ertragsabrechnungen mit der Steuererklärung (USA-Positionen
+    ohne Belege werden abgelehnt, WL DA-1 c0013)'
+  chunk: zh-wl-da1-2025__c0007
+  zitat: Das vollständig ausgefüllte Formular DA-1 (inkl. sämtlicher Ertragsabrechnungen) muss nur der
+  urteil: bestätigt
+- beleg_id: versicherung-rueckkaufswert
+  einreichen: ja
+  bedingung: bei rückkaufsfähigen Lebens-/Rentenversicherungen (Ziff. 30.3, Steuerwert gemäss Bescheinigung der Versicherungsgesellschaft)
+  chunk: zh-wl-2025__c0139
+  zitat: ist auf den von der Versicherungsgesellschaft bescheinigten Wert abzustellen. Diese Beschei- nigung ist mit der Steuererklärung einzureichen.
+  urteil: bestätigt
+- beleg_id: krankenkasse-praemien
+  einreichen: auf_verlangen
+  bedingung: Formular Versicherungsprämien ist beizulegen (WL S. 31); Prämienbelege selbst nicht ausdrücklich verlangt -> allgemeine Regel
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+  urteil: bestätigt
+- beleg_id: krankenkasse-leistungen
+  einreichen: bedingt
+  bedingung: 'nur bei Abzug Krankheits-/Unfallkosten (Ziff. 22.1): Kosten-/Leistungsaufstellung der Krankenkasse zusammen mit Formular «Aufstellung über Krankheits- und Unfallkosten» einreichen'
+  chunk: zh-wl-2025__c0119
+  zitat: der Krankenkasse zusammen mit dem ausgefüllten Formular «Aufstellung über Krankheits‑ und
+  urteil: bestätigt
+- beleg_id: arzt-zahnarzt-rechnungen
+  einreichen: bedingt
+  bedingung: 'nur bei Abzug Krankheits-/Unfall- bzw. behinderungsbedingter Kosten: Formular mit den dort verlangten Unterlagen einreichen (Formular 370: «Die Belege sind geordnet beizulegen», zh-form-370__c0003)'
+  chunk: zh-wl-2025__c0118
+  zitat: Krankheits‑ und Unfallkosten» mit den dort verlangten Angaben und Unterlagen einreichen.
+  urteil: bestätigt
+- beleg_id: hypothekarbestaetigung
+  einreichen: auf_verlangen
+  bedingung: Schuldenverzeichnis (Gläubiger mit Adresse, Zinssatz) bzw. Aufstellung der Schuldzinsen ist beizulegen (WL Ziff. 12/34); die Bankbestätigung selbst ist nicht ausdrücklich verlangt -> allgemeine
+    Regel
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+  urteil: bestätigt
+- beleg_id: kredit-darlehen-schuldzinsen
+  einreichen: auf_verlangen
+  bedingung: Schuldenverzeichnis bzw. Aufstellung der Schuldzinsen beilegen (WL Ziff. 12/34); Verträge/Zinsbescheinigungen nicht ausdrücklich verlangt -> allgemeine Regel
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+  urteil: bestätigt
+- beleg_id: leasingvertrag
+  einreichen: nein
+  bedingung: 'nicht steuerrelevant: geleaste Fahrzeuge nicht im Vermögen deklarieren; Leasingraten nicht als Schuldzinsen abziehbar (WL Ziff. 12)'
+  chunk: zh-wl-2025__c0140
+  zitat: Nicht deklariert werden müssen geleaste Fahrzeuge.
+  urteil: bestätigt
+- beleg_id: liegenschaft-unterhaltsrechnungen
+  einreichen: auf_verlangen
+  bedingung: bei effektiven Kosten statt Pauschale ist eine detaillierte Aufstellung (Datum, Art der Leistung, Empfänger, Beträge) bzw. Verwaltungsabrechnung oder Beiblatt beizulegen; die Rechnungen selbst
+    erst auf Verlangen im Einschätzungsverfahren
+  chunk: zh-wl-2025__c0207
+  zitat: Insbesondere sind demnach die Belege zu den Liegenschaftskosten und gemeinnützigen Zuwendungen erst im Einschät- zungsverfahren auf Verlangen nachzureichen.
+  urteil: bestätigt
+- beleg_id: liegenschaft-schaetzung-eigenmietwert
+  einreichen: auf_verlangen
+  bedingung: keine Beilagepflicht genannt; die Liegenschaftenbewertung wird vom Gemeindesteueramt der Liegenschaftengemeinde zugestellt (WL S. 28/30, zh-wl-2025__c0177/c0196), Werte ins Liegenschaftenverzeichnis
+    übertragen -> allgemeine Regel (Belege zu Formularen nur wenn ausdrücklich verlangt)
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+  urteil: 'korrigiert: unklar -> auf_verlangen (Bewertung ist Beleg zum Liegenschaftenverzeichnis; Grundsatz c0207 greift, keine ausdrückliche Beilagepflicht)'
+- beleg_id: liegenschaft-mietertraege
+  einreichen: bedingt
+  bedingung: 'vermietete Liegenschaften: Ertragsaufstellung (Mieterspiegel) bzw. Kopie der Verwaltungsrechnung beilegen, sonst Beiblatt zum Liegenschaftenverzeichnis; Mietverträge selbst nicht verlangt'
+  chunk: zh-wl-2025__c0180
+  zitat: 'Für jede Liegenschaft ist eine Ertragsaufstellung (Mieterspiegel) mit folgenden Angaben beizulegen:'
+  urteil: bestätigt
+- beleg_id: liegenschaft-nebenkosten-gebaeudeversicherung
+  einreichen: auf_verlangen
+  bedingung: 'Teil der Liegenschaftskosten: bei effektivem Abzug in der detaillierten Aufstellung aufführen; Belege erst auf Verlangen'
+  chunk: zh-wl-2025__c0207
+  zitat: Insbesondere sind demnach die Belege zu den Liegenschaftskosten und gemeinnützigen Zuwendungen erst im Einschät- zungsverfahren auf Verlangen nachzureichen.
+  urteil: bestätigt
+- beleg_id: kinderbetreuung-rechnungen
+  einreichen: auf_verlangen
+  bedingung: Aufstellung der bezahlten Kosten mit Empfängern unaufgefordert beilegen (Ziff. 16.6, WL S. 31); Rechnungen auf Verlangen; bei Betreuung durch Angestellte Kopie Lohnausweis beilegen (ZStB 34.1
+    Rz 46, Fassung bis 2025)
+  chunk: zh-zstb-34-1-bis-2025__c0023
+  zitat: Die Kinderdrittbetreuungskosten sind auf Verlangen der Steuerbehörden hinreichend nachzuweisen.
+  urteil: bestätigt
+- beleg_id: weiterbildung-rechnungen
+  einreichen: auf_verlangen
+  bedingung: Formular «Berufsorientierte Aus- und Weiterbildungskosten» ist beizulegen (Ziff. 16.2); Rechnungen nicht ausdrücklich verlangt -> allgemeine Regel
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+  urteil: bestätigt
+- beleg_id: spendenbestaetigung
+  einreichen: auf_verlangen
+  bedingung: 'Liste/Aufstellung aller Zuwendungen beilegen (Ziff. 22.2); Spendenbescheinigungen erst auf Nachfrage (WL S. 32: Belege zu gemeinnützigen Zuwendungen auf Verlangen)'
+  chunk: zh-info-spenden__c0006
+  zitat: Auf Nachfrage müssen Sie dem Steueramt eine Spendenbescheinigung der entsprechenden Organisation über Ihre getätigte Zuwendung vorweisen können.
+  urteil: bestätigt
+- beleg_id: parteispende
+  einreichen: auf_verlangen
+  bedingung: Aufstellung zu Ziff. 16.5 beilegen (Formularvermerk «Aufstellung»); Belege nicht ausdrücklich verlangt -> allgemeine Regel
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+  urteil: bestätigt
+- beleg_id: unterhaltszahlungen-alimente
+  einreichen: auf_verlangen
+  bedingung: 'bezahlte Unterhaltsbeiträge (Ziff. 13.1/13.2): WL 2025 S. 14–15 nennt keine Beilagepflicht; der Formularhinweis «Mit der Steuererklärung 2025 sind sämtliche Zahlungsnachweise einzureichen»
+    steht eingerückt unter Ziff. 13.3 Rentenleistungen (zh-form-300-2025__c0007) und wird in der WL S. 15 auf die bezahlten Leibrenten und Verpfründungen bezogen (zh-wl-2025__c0080) -> für Alimente allgemeine
+    Regel, Nachweise (Zahlungsbelege, Urteil/Konvention) auf Verlangen; Formularwortlaut nicht ganz eindeutig (raw/zh/2025/zh-form-300-2025.pdf S. 3), im Zweifel beilegen – Fachperson entscheidet; erhaltene
+    Alimente (Ziff. 5.1/5.2): nur Name/Adresse Alimentenzahler/in, keine Beilagepflicht'
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+  urteil: 'korrigiert: bedingt -> auf_verlangen; der Hinweis «sämtliche Zahlungsnachweise» betrifft gemäss WL c0080 die Rentenleistungen Ziff. 13.3 (Leibrenten/Verpfründungen), nicht die Unterhaltsbeiträge
+    13.1/13.2'
+- beleg_id: oev-abo
+  einreichen: auf_verlangen
+  bedingung: Formular Berufsauslagen ist beizulegen; Abo-Beleg nicht ausdrücklich verlangt -> allgemeine Regel
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+  urteil: bestätigt
+- beleg_id: fahrzeugausweis-arbeitsweg
+  einreichen: bedingt
+  bedingung: 'Fahrzeugausweis selbst nicht verlangt; Begründung im Formular 360 Ziff. 7 ankreuzen; beizulegen: Bestätigung des Arbeitgebers (ständige Benützung auf Verlangen des AG) bzw. Arztzeugnis (Krankheit/Gebrechlichkeit)'
+  chunk: zh-wl-2025__c0064
+  zitat: keine Entschädigung erhält (Bestätigung des Arbeitgebers ist beizulegen);
+  urteil: bestätigt
+- beleg_id: spesenreglement
+  einreichen: unklar
+  bedingung: 'in den ZH-Quellen 2025 nicht als Beilage genannt (verlangt ist nur der Lohnausweis inkl. Beilagen, c0203); Stichprobe grep «Spesenreglement» in chunks/zh/2025 und dauernd: kein Treffer'
+  urteil: bestätigt
+- beleg_id: kapitalleistung-vorsorge
+  einreichen: auf_verlangen
+  bedingung: Bescheinigung nicht ausdrücklich verlangt (Ziff. 40 ohne Beilagevermerk); bei mehreren Kapitalleistungen ist eine Aufstellung einzureichen (WL Ziff. 40, c0144)
+  chunk: zh-stg-2025__par-135
+  zitat: Er muss auf Verlangen der Steuerbehörde insbesondere mündlich oder schriftlich Auskunft erteilen und Geschäftsbücher, Belege und weitere Bescheinigungen sowie Urkunden über den Geschäftsverkehr
+    vorlegen.
+  urteil: bestätigt
+- beleg_id: erbschaft-schenkung
+  einreichen: bedingt
+  bedingung: 'unverteilte Erbschaft: Aufstellung (Erblasser, Erben/Quoten, Vermögen, Erträge, Schulden) und entsprechende Belege beilegen (WL S. 23); Schenkung/Erbvorbezug: Angaben in Ziff. 50, Verträge
+    zur separaten Schenkungssteuererklärung an das kant. Steueramt (Nachlass), nicht zur Steuererklärung'
+  chunk: zh-wl-2025__c0150
+  zitat: Das Vermögen aus unverteilten Erbschaften ist mit dem per 31.12. gültigen Steuerwert an- teilmässig unter Beilage der entsprechenden Belege zu deklarieren.
+  urteil: bestätigt
+- beleg_id: lotteriegewinn
+  einreichen: bedingt
+  bedingung: 'steuerbare inländische Gewinne mit Verrechnungssteuerabzug (Kolonne A, z.B. Grossspiele über CHF 1''033''000): Originalbescheinigung bzw. Auszahlungsabschnitt beilegen; steuerfreie Gewinne
+    nicht deklarieren'
+  chunk: zh-wl-2025__c0167
+  zitat: Die Bescheinigung der Lotteriegesellschaft oder einer schweizerischen Bank oder der Auszahlungsabschnitt der Post ist unbedingt beizulegen.
+  urteil: bestätigt
+- beleg_id: selbstaendig-jahresrechnung
+  einreichen: ja
+  bedingung: 'kaufmännische Buchführung: unterzeichnete Jahresrechnung (Bilanz, ER, Anhang) + Kontoblätter Privat-/Eigenkapitalkonten; vereinfachte Buchführung: Aufstellungen Aktiven/Passiven, Einnahmen/Ausgaben,
+    Privatentnahmen/-einlagen; jeweils mit Hilfsblatt A (§ 134 Abs. 2 StG)'
+  chunk: zh-wl-2025__c0204
+  zitat: Unterzeichnete Jahresrechnung (Bilanz, Erfolgsrechnung und Anhang) für Steuerpflichtige
+  urteil: bestätigt
+- beleg_id: mitarbeiterbeteiligung
+  einreichen: ja
+  bedingung: bei Mitarbeiterbeteiligungen (Beilagen Unselbständigerwerbende, WL S. 31)
+  chunk: zh-wl-2025__c0203
+  zitat: Bescheinigungen über Mitarbeiterbeteiligungen;
+  urteil: bestätigt
+- beleg_id: steuerrechnung
+  einreichen: unklar
+  bedingung: in den ZH-Quellen 2025 nicht als Beilage genannt (WL S. 8 erwähnt Steuerrechnungen nur im Zusammenhang mit Fristen, c0020); Stichprobe grep ohne Beilageregel
+  urteil: bestätigt
+- beleg_id: vorjahresveranlagung
+  einreichen: unklar
+  bedingung: in den ZH-Quellen 2025 nicht als Beilage genannt (Einschätzungsakten liegen dem kantonalen Steueramt elektronisch vor, WL S. 8, zh-wl-2025__c0019); Stichprobe grep ohne Beilageregel
+  urteil: bestätigt
+- beleg_id: ahv-beitragsverfuegung-nichterwerbstaetige
+  einreichen: ja
+  bedingung: bei Abzug AHV/IV-Beiträge unter Ziff. 16.1 (soweit Einkünfte nicht bereits darum gekürzt)
+  chunk: zh-wl-2025__c0092
+  zitat: Einkünfte nicht bereits um diese Beiträge gekürzt worden sind (bitte Bescheinigung beilegen).
+  urteil: bestätigt
+- beleg_id: ergaenzungsleistungen
+  einreichen: nein
+  bedingung: EL sind steuerfrei und nicht zu deklarieren (§ 24 lit. i StG; WL S. 12, zh-wl-2025__c0053); allfällige Vergütungen von Krankheitskosten durch Dritte sind in Formular 370 Teil B «Vergütungen
+    Dritter» abzuziehen – EL dort nicht ausdrücklich genannt (zh-form-370__c0003)
+  chunk: zh-stg-2025__par-24-t2
+  zitat: die Einkünfte aufgrund der Bundesgesetzgebung über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung,
+  urteil: 'korrigiert: Bedingung präzisiert – die Aussage «EL-Vergütungen im Formular 370 Teil B» ist so nicht belegt (Formular nennt nur «Vergütungen Dritter»); Einstufung nein bestätigt'
+- beleg_id: privatrechnungen-alltag
+  einreichen: nein
+  bedingung: 'nicht steuerrelevant: Lebenshaltungskosten sind nicht abzugsfähig (§ 33 lit. a StG)'
+  chunk: zh-stg-2025__par-33
+  zitat: a. die Aufwendungen für den Unterhalt des Steuerpflichtigen un d seiner Familie
+  urteil: 'korrigiert: Fundstelle ergänzt (§ 33 lit. a StG); Einstufung nein bestätigt'
+- beleg_id: hausrat-haftpflicht-police
+  einreichen: nein
+  bedingung: 'nicht steuerrelevant: abziehbar sind nur Prämien für Lebens-, Kranken- und Unfallversicherungen (§ 31 Abs. 1 lit. g StG, Hausrat-/Haftpflichtprämien nicht genannt); Hausrat ist steuerfrei
+    (WL S. 22, zh-wl-2025__c0140)'
+  chunk: zh-stg-2025__par-31-t2
+  zitat: g. die Einlagen, Prämien und Beiträge für die Lebens-, die Kranken- und die nicht unter lit. f fallende Unfallversicherung sowie die Zinsen von Sparkapitalien
+  urteil: 'korrigiert: Fundstelle ergänzt (§ 31 Abs. 1 lit. g StG e contrario); Einstufung nein bestätigt'
+- beleg_id: motorfahrzeug-versicherung
+  einreichen: nein
+  bedingung: 'nicht steuerrelevant (Privatvermögen): Prämien nicht unter den abziehbaren Versicherungen (§ 31 Abs. 1 lit. g StG); Fahrkosten Privatauto nur pauschal pro km (WL S. 13); Fahrzeug selbst in
+    Ziff. 30.4 mit Kaufpreis/Kaufjahr deklarieren'
+  chunk: zh-stg-2025__par-31-t2
+  zitat: g. die Einlagen, Prämien und Beiträge für die Lebens-, die Kranken- und die nicht unter lit. f fallende Unfallversicherung sowie die Zinsen von Sparkapitalien
+  urteil: 'korrigiert: Fundstelle ergänzt (§ 31 Abs. 1 lit. g StG e contrario); Einstufung nein bestätigt'
+- beleg_id: mietvertrag-wohnung
+  einreichen: auf_verlangen
+  bedingung: nur relevant bei Wochenaufenthalt (Zimmermiete in der Aufstellung zu Formular Berufsauslagen Ziff. 4); Vertrag nicht ausdrücklich verlangt -> allgemeine Regel
+  chunk: zh-wl-2025__c0207
+  zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
+  urteil: bestätigt
+- beleg_id: kreditkartenabrechnung
+  einreichen: unklar
+  bedingung: 'in den ZH-Quellen 2025 nicht erwähnt (Stichprobe grep «Kreditkart»: kein Treffer)'
+  urteil: bestätigt
+- beleg_id: steuerberatungskosten
+  einreichen: nein
+  bedingung: 'Abzugsfähigkeit in den ZH-Quellen 2025 nicht geregelt (Stichprobe grep «Steuerberat»: nur Verweise auf Website-Rubrik); eine Beilagepflicht besteht jedenfalls nicht (Grundsatz c0207) – «nicht
+    steuerrelevant» ohne Fundstelle, Fachperson prüfen'
+  urteil: unklar

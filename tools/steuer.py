@@ -378,7 +378,7 @@ def mfiles_kategorie(bid, kt=None, jahr=None):
         if e["einreichen"] == "ja":
             return "Belege eingereicht", f"{nr}; {NAME[kt]} {jahr}: einzureichen ({e.get('chunk')})"
         if e["einreichen"] == "bedingt":
-            return (f"Belege eingereicht, wenn {cut(e.get('bedingung'), 120)} – sonst Belege Sonstiges",
+            return (f"Belege eingereicht, falls: {cut(e.get('bedingung'), 140)} – sonst Belege Sonstiges",
                     f"{nr}; {NAME[kt]} {jahr}: bedingt ({e.get('chunk')})")
         return "Belege Sonstiges", f"{nr}; {NAME[kt]} {jahr}: {e['einreichen'].replace('_', ' ')} ({e.get('chunk') or 'ohne Fundstelle'})"
     return r.get("kategorie") or "?", nr
@@ -476,6 +476,7 @@ def ablage(text, kt=None, jahr=None) -> str:
             kand.append((s, "beleg", bid))
     for pid, kw in (er.get("prozessdokumente") or {}).items():
         s = 5 * sum(phrase_in(p, ntext) for p in kw.get("stark") or []) + sum(phrase_in(p, ntext) for p in kw.get("schwach") or [])
+        s -= 5 * sum(phrase_in(p, ntext) for p in kw.get("nicht") or [])
         if s > 0:
             kand.append((s + 0.5, "prozess", pid))
     kand.sort(key=lambda x: -x[0])

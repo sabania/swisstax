@@ -5,8 +5,8 @@
 # Prozessdokumente (ohne beleg) haben Klasse/Kategorie/Weiterleitung direkt aus dem Prozessbeschrieb.
 belegtypen:
   lohnausweis: {stark: [lohnausweis, certificat de salaire, formular 11, bruttolohn total, nettolohn], schwach: [arbeitgeber, ahv-nr, spesenverguetungen, lohn]}
-  rentenbescheinigung-ahv-iv: {stark: [ahv-rente, iv-rente, rentenbescheinigung ahv, ausgleichskasse rentenbescheinigung], schwach: [ausgleichskasse, altersrente, invalidenrente, svA]}
-  rentenbescheinigung-vorsorge: {stark: [rentenbescheinigung pensionskasse, rentenausweis vorsorge, leibrente, altersrente pensionskasse], schwach: [pensionskasse, vorsorgeeinrichtung, rente]}
+  rentenbescheinigung-ahv-iv: {stark: [ahv-rente, iv-rente, rentenbescheinigung ahv, ausgleichskasse rentenbescheinigung, ahv-altersrente], schwach: [ausgleichskasse, altersrente, invalidenrente, sva], nicht: [pensionskasse, beruflicher vorsorge, berufliche vorsorge]}
+  rentenbescheinigung-vorsorge: {stark: [rentenbescheinigung pensionskasse, rentenausweis, leibrente, altersrente pensionskasse, beruflicher vorsorge, berufliche vorsorge], schwach: [pensionskasse, vorsorgeeinrichtung, rente, altersrente], nicht: [einkauf, kapitalauszahlung]}
   taggeldbescheinigung: {stark: [taggeldbescheinigung, arbeitslosenentschaedigung, krankentaggeld, unfalltaggeld, erwerbsersatz, mutterschaftsentschaedigung], schwach: [arbeitslosenkasse, alv, eo, taggeld, suva]}
   bescheinigung-saeule3a: {stark: [saeule 3a, saule 3a, gebundene vorsorge, vorsorgekonto 3a, bescheinigung 3a, bvv 3], schwach: [vorsorgestiftung, einzahlungen, 3a]}
   bescheinigung-pk-einkauf: {stark: [einkauf pensionskasse, einkaufsbescheinigung, einkauf berufliche vorsorge, einkaufsbeitrag], schwach: [pensionskasse, bvg, beitragsjahre]}
@@ -18,7 +18,7 @@ belegtypen:
   versicherung-rueckkaufswert: {stark: [rueckkaufswert, steuerwert police, lebensversicherung steuerbescheinigung, rentenversicherung steuerwert], schwach: [police, lebensversicherung, versicherungsnehmer]}
   krankenkasse-praemien: {stark: [praemienbescheinigung, praemienuebersicht, versicherungsausweis kvg, jahresuebersicht praemien, praemienrechnung], schwach: [krankenkasse, grundversicherung, zusatzversicherung, kvg, vvg, praemien]}
   krankenkasse-leistungen: {stark: [leistungsabrechnung, leistungsuebersicht, kostenbeteiligung, selbstbehalt und franchise, steuerbestaetigung kostenbeteiligung], schwach: [franchise, selbstbehalt, krankenkasse, leistungen]}
-  arzt-zahnarzt-rechnungen: {stark: [arztrechnung, zahnarzt, spitalrechnung, therapie rechnung, physiotherapie, apotheke, tarmed, tardoc], schwach: [behandlung, patient, diagnose, praxis dr]}
+  arzt-zahnarzt-rechnungen: {stark: [arztrechnung, zahnarzt, zahnarztpraxis, zahnbehandlung, arztpraxis, dr. med, spitalrechnung, therapie rechnung, physiotherapie, apotheke, tarmed, tardoc], schwach: [behandlung, patient, diagnose, praxis dr]}
   hypothekarbestaetigung: {stark: [hypothek, hypothekarzins, zinsbescheinigung hypothek, festhypothek, saron-hypothek, baukredit], schwach: [grundpfand, schuldzins, liegenschaft, darlehen]}
   kredit-darlehen-schuldzinsen: {stark: [privatkredit, darlehensvertrag, lombardkredit, konsumkredit, schuldzinsen, darlehen], schwach: [kredit, zinsen, rate]}
   leasingvertrag: {stark: [leasingvertrag, leasingrate, leasing], schwach: [leasingnehmer, fahrzeug]}
@@ -96,6 +96,7 @@ prozessdokumente:
     name: Steuererklärung / Hauptformular (leer vom Steueramt oder ausgefüllt vom Kunden)
     stark: [steuererklaerung, hauptformular, formular 300, zugangsdaten, steuererklaerung 20]
     schwach: [code, steuerpflichtige person, unterschrift]
+    nicht: [fristerstreckung, fristverlaengerung, uebermittlungsquittung, freigabequittung, grundstueckgewinnsteuer, auflage]
     klasse: StE
     kategorie: Deklaration
     beschreibung: Hauptformular
