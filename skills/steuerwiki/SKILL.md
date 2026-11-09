@@ -10,7 +10,8 @@ Jede Ausgabe enthält schon Fundstelle (Chunk-ID) und Status – übernehmen, ni
 
 ## Ablauf (in dieser Reihenfolge, meist reichen 1–3 Aufrufe)
 
-1. **Kanton + Steuerjahr** festlegen (Wohnsitz am 31.12.). Fehlt eines → nachfragen. Kanton nicht AR/SG/TG/ZH → «nicht im Wiki».
+1. **Kanton + Steuerjahr** festlegen: Kanton = Wohnsitz am 31.12. (fehlt er → nachfragen); fehlt das Jahr → 2025 verwenden und nennen.
+   Kanton nicht AR/SG/TG/ZH → «nicht im Wiki».
 2. **Zahl/Limite/Pauschale/Frist/Zins** → `wert <jur> <jahr> <stichwort>` (Kanton liefert Bundeswert mit). Nur Bund → `wert bund <jahr> …`.
 3. **Formularziffer, «wo eintragen», «wie rechnen»** → `position <kt> <jahr> <ziffer|stichwort>`.
 4. **Dokument/Beleg** → `beleg <stichwort> --kanton <kt> --jahr <jahr>`.
@@ -26,11 +27,12 @@ Jede Ausgabe enthält schon Fundstelle (Chunk-ID) und Status – übernehmen, ni
 ## Häufige Fallen
 - **Bund ≠ Kanton:** Fahrkosten-Maximum, Kinderabzug, Versicherungsabzug, Weiterbildung, Drittbetreuung, Zweiverdiener je eigene Beträge.
 - **Altersstufen:** AR/SG/TG-Kinderabzüge je Stufe (`kind_vorschule`, `kind_schule`, `kind_ausbildung`).
-- **Schwellen gelten fürs Jahrestotal** (z.B. Spenden Bund ab CHF 100).
+- **Schwellen gelten fürs Jahrestotal** (z.B. Mindestbetrag Spenden: `wert bund <jahr> spenden`).
 - **Kein Doppelabzug:** PK-Einkauf via Lohn (Lohnausweis Ziff. 10.2) steckt im Nettolohn; Feld F (Gratis-Arbeitsweg) → keine Fahrkosten.
 - **«bedingt»** heisst relevant, wenn die Bedingung zutrifft – als bedingt mit Bedingung nennen.
 - **2026 teils provisorisch** (ZH/SG 2026 nur Formulare für unterjährige Steuerpflicht; AR 2026 lückenhaft).
-- **Zeitbezug:** Fristen/Verfahren der Erklärung X richten sich nach der Fassung im Jahr X+1; Zinsen nach dem Zahlungsjahr.
+- **Zeitbezug:** Tools immer mit dem Steuerjahr der Erklärung aufrufen – die Ausgabe berücksichtigt, dass Fristen/Verfahren der
+  Erklärung X aus der Fassung X+1 stammen (Frist der Erklärung 2025 = `wert <kt> 2025 einreichefrist`). Zinsen: Jahr der Zahlung.
 
 ## Vertiefung (nur wenn nötig)
 `zeige quick/index.md` (Frage → Seite) · `zeige quick/wegleitung-<kt>-<jahr>.md --abschnitt "<ziffer>"` ·

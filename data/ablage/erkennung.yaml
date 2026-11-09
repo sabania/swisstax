@@ -317,6 +317,10 @@ belegtypen:
     - rechnungen vom maler
     - badezimmer erneuert
     - fassade streichen
+    - unterhaltsrechnungen
+    - handwerkerrechnungen
+    - unterhaltskosten liegenschaft
+    - unterhaltsrechnung
     schwach:
     - rechnung
     - liegenschaft
@@ -353,6 +357,9 @@ belegtypen:
     - verwaltungshonorar
     - hauswart
     - liegenschaftsverwaltung
+    - nebenkosten
+    - verwaltungsabrechnung
+    - verwaltungsabrechnungen
     schwach:
     - stockwerkeigentum
     - erneuerungsfonds
@@ -522,6 +529,7 @@ belegtypen:
     - beiblatt mitarbeiterbeteiligung
     - rsu
     - restricted stock
+    - mitarbeiterbeteiligung
     schwach:
     - optionen
     - vesting
@@ -559,6 +567,9 @@ belegtypen:
     - ikea
     - mobile abo
     - internet + tv
+    - alltagsrechnung
+    - private rechnung
+    - private alltagsrechnungen
     schwach:
     - einkauf
     - quittung
@@ -584,6 +595,7 @@ belegtypen:
     - verkehrsabgabe
     - strassenverkehrs- und schifffahrtsamt
     - taxe automobile
+    - motorfahrzeug
     schwach:
     - fahrzeug
     - police
@@ -718,6 +730,8 @@ verfahrensdokumente:
     - estratto conto imposte
     - ufficio esazione
     - extrait de compte fiscal
+    - kontoauszug des steueramts
+    - kontoauszug steueramt
     schwach:
     - zahlungseingang
     - saldo zu ihren gunsten
@@ -789,7 +803,7 @@ verfahrensdokumente:
     - freigabe
     hinweis: Die Steuererklärung selbst bzw. ihre Bestandteile/Quittungen der Steuerpflichtigen.
   kundenantwort:
-    name: Antworten/Bestätigungen/Checklisten des Kunden, Kundenfreigabe per E-Mail
+    name: Antworten, Bestätigungen und Checklisten des Kunden, Kundenfreigabe per E-Mail
     stark:
     - checkliste
     - fragebogen
@@ -800,6 +814,10 @@ verfahrensdokumente:
     - hier die antworten
     - rueckfragen
     - 'aw:'
+    - antworten des kunden
+    - bestaetigungen des kunden
+    - checklisten des kunden
+    - antworten bestaetigungen
     schwach:
     - wie besprochen
     - gerne bestaetige ich
@@ -854,6 +872,8 @@ verfahrensdokumente:
     - verwaltungsrat beschluss
     - gewinnsteuer
     - kapitalsteuer
+    - juristischen person
+    - juristische person
     schwach:
     - aktiengesellschaft
     - sarl

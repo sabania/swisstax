@@ -12,7 +12,7 @@ generiert: tools/build_ablage.py (2026-11-09)
 
 # Ablage – AR Steuerjahr 2026
 
-> Je Belegtyp: steuerrelevant? → muss er eingereicht werden (Wegleitung, Fundstelle)? → Formularziffern (Positionen, wie in DrTax/amtlichem Formular). Ziffer im Detail: `steuer position ar 2026 <ziffer>` bzw. Kompakt-Wegleitung (für dieses Jahr nicht vorhanden). Die Ablage-Kategorie kommt aus der Kategorienliste der Firma (`KATEGORIEN.md`); Übersicht: [Ablage](../wiki/ablage/ablage.md).
+> Je Belegtyp: steuerrelevant? → muss er eingereicht werden (Wegleitung, Fundstelle)? → Formularziffern (Positionen = Ziffer/Code des amtlichen Formulars). Ziffer im Detail: `steuer position ar 2026 <ziffer>` bzw. Kompakt-Wegleitung (für dieses Jahr nicht vorhanden). Die Ablage-Kategorie kommt aus der Kategorienliste der Firma (`KATEGORIEN.md`); Übersicht: [Ablage](../wiki/ablage/ablage.md).
 
 > ⚠️ Für AR 2026 ist keine Einreichepflicht aus der Wegleitung erfasst – bei «je nach Kanton» prüfen.
 

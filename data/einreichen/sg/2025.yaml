@@ -1,7 +1,7 @@
 kanton: sg
 jahr: 2025
-beschreibung: Einreichepflicht der Belege laut amtlichen Quellen SG 2025 (Wegleitung, Formulare, Gesetz). Erstellt durch Agent (Extraktion + unabhängige Prüfung, 09.11.2026); Status agent-geprueft. Entscheidet
-  die Ablagegruppe «Steuerbeleg – einzureichen» vs. «nicht einzureichen» (data/ablage/gruppen.yaml).
+beschreibung: Einreichepflicht der Belege laut amtlichen Quellen SG 2025 (Wegleitung, Formulare, Gesetz). Erstellt durch Agent (Extraktion + unabhängige Prüfung, 09.11.2026); Status agent-geprueft. Grundlage
+  für die Spalte «Eingereicht?» der Kategorienliste (KATEGORIEN.md).
 status: agent-geprueft
 allgemein:
 - regel: Mit Formular 1 und 2 sind nur die im Einzelfall benötigten Formulare sowie Bescheinigungen, Aufstellungen und Belege einzureichen, soweit dies bei der jeweiligen Position ausdrücklich verlangt

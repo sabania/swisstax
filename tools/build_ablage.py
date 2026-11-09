@@ -72,7 +72,7 @@ def kanton_seiten():
                      "quellen": [f"{kt}-wl-{j}"], "status": "entwurf", "generiert": f"tools/build_ablage.py ({today()})"}),
                  f"# Ablage – {steuer.NAME[kt]} Steuerjahr {j}", "",
                  "> Je Belegtyp: steuerrelevant? → muss er eingereicht werden (Wegleitung, Fundstelle)? → Formularziffern "
-                 f"(Positionen, wie in DrTax/amtlichem Formular). Ziffer im Detail: `steuer position {kt} {j} <ziffer>` bzw. {wl}. "
+                 f"(Positionen = Ziffer/Code des amtlichen Formulars). Ziffer im Detail: `steuer position {kt} {j} <ziffer>` bzw. {wl}. "
                  "Die Ablage-Kategorie kommt aus der Kategorienliste der Firma (`KATEGORIEN.md`); Übersicht: [Ablage](../wiki/ablage/ablage.md).", ""]
             if not er:
                 L += [f"> ⚠️ Für {kt.upper()} {j} ist keine Einreichepflicht aus der Wegleitung erfasst – bei «je nach Kanton» prüfen.", ""]

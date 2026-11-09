@@ -34,7 +34,7 @@ def main():
         "name": "steuerwiki",
         "version": a.version,
         "description": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; Steuerjahre 2025/2026): Belege prüfen und ablegen, "
-                       "Steuererklärung ausfüllen (DrTax-Positionen) – Skills und Lookup-Tools mit Fundstellen.",
+                       "Steuererklärung ausfüllen (Formularpositionen) – Skills und Lookup-Tools mit Fundstellen.",
         "author": {"name": "Steuer-Wiki"},
         "keywords": ["steuern", "schweiz", "steuererklaerung", "belege", "ablage"],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -48,8 +48,10 @@ def main():
     (out / "index").mkdir()
     for f in ("lookup.json", "fts.sqlite"):
         shutil.copy2(ROOT / "index" / f, out / "index" / f)
-    for d in ("quick", "wiki", "kategorien"):
-        shutil.copytree(ROOT / d, out / d, ignore=shutil.ignore_patterns("quellen"))
+    for d in ("quick", "wiki"):
+        shutil.copytree(ROOT / d, out / d)
+    (out / "kategorien").mkdir()
+    shutil.copy2(ROOT / "kategorien" / "vorlage.md", out / "kategorien" / "vorlage.md")   # nur die Vorlage, keine Firmenliste
     for f in ("AGENTS.md", "KONZEPT.md"):
         shutil.copy2(ROOT / f, out / f)
     shutil.copy2(ROOT / "openclaw" / "AGENTS.workspace-snippet.md", out / "AGENTS.workspace-snippet.md")
@@ -59,7 +61,7 @@ Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; 2025/2026): Belege prüfen (steuerrel
 
 - **Skills** (werden bei Bedarf geladen): {', '.join(SKILLS)}
 - **Tools** (MCP-Server `steuerwiki`, in OpenClaw `steuerwiki__<name>`): ablage, beleg, position, wert, vergleich, suche, zeige
-- **Ablage-Kategorien:** Liste der Firma als `KATEGORIEN.md` in den Workspace legen (Vorlage/Beispiel: kategorien/)
+- **Ablage-Kategorien:** Liste der Firma als `KATEGORIEN.md` in den Workspace legen (Vorlage: kategorien/vorlage.md)
 - **Wissen:** index/lookup.json (Eckwerte, Positionen, Belege, Einreichepflicht, Erkennung), index/fts.sqlite (Volltext aller
   Quellen-Chunks), quick/ und wiki/ (Seiten für `zeige`). Originale und Volltexte: Repository/ZIP.
 - Voraussetzung: `python3` (nur Standardbibliothek) auf dem Gateway-Host.
@@ -70,7 +72,7 @@ openclaw plugins install ./steuerwiki-plugin --force --accept-capabilities
 openclaw plugins inspect steuerwiki      # Bundle capabilities: skills, mcpServers
 ```
 Danach den Inhalt von `AGENTS.workspace-snippet.md` in die `AGENTS.md` des Agent-Workspaces einfügen (L0: immer geladener Einstieg)
-und die Kategorienliste der Firma als `KATEGORIEN.md` in den Workspace legen (z.B. `cp kategorien/consis.md <workspace>/KATEGORIEN.md`).
+und die Kategorienliste der Firma als `KATEGORIEN.md` in den Workspace legen (Vorlage: `kategorien/vorlage.md`).
 
 ## Test ohne Agent
 ```bash

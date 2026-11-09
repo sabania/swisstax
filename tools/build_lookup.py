@@ -46,7 +46,7 @@ def main():
             out["positionen"].append(e)
     for p in sorted((ROOT / "data").glob("belege-teil*.yaml")):
         for r in ylo(p).get("belege") or []:
-            e = {k: r.get(k) for k in ("id", "name", "erkennen", "relevanz", "zweck", "positionen", "extrahieren",
+            e = {k: r.get(k) for k in ("id", "name", "erkennen", "relevanz", "bedingung", "zweck", "positionen", "extrahieren",
                                        "hinweise", "kantone", "status", "bemerkung")}
             e["quellen"] = kurzq(r.get("quellen"), 2)
             out["belege"].append(e)

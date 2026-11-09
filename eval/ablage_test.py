@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Misst die deterministische Dokumenterkennung (tools/steuer.py ablage) gegen eval/ablage-test.yaml: Top-1/Top-3."""
+"""Misst die deterministische Dokumenterkennung (tools/steuer.py ablage): Top-1/Top-3 gegen ein Testset (Standard eval/ablage-test.yaml)
+oder mit --selbsttest: jeder Belegtyp/jedes Verfahrensdokument muss an seinem eigenen Namen erkannt werden."""
 from __future__ import annotations
 import re, sys
 from pathlib import Path
@@ -9,6 +10,20 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import steuer  # noqa: E402
 
+GLEICH = {"steuerrechnung": {"veranlagung", "provisorische-rechnung"}, "vorjahresveranlagung": {"veranlagung"}}
+if len(sys.argv) > 1 and sys.argv[1] == "--selbsttest":
+    Lk = steuer.L()
+    items = [(b["id"], b["name"].split("(")[0].strip()) for b in Lk["belege"]] + \
+            [(k, v["name"].split("(")[0].split("/")[0].strip()) for k, v in Lk["erkennung"]["verfahrensdokumente"].items()]
+    fehl = []
+    for i, name in items:
+        k = re.findall(r"^\d\. \*\*.+?\*\* \(`([a-z0-9\-]+)`\)", steuer.ablage(name + " 2025"), re.M)
+        if not k or (k[0] != i and k[0] not in GLEICH.get(i, ())):
+            fehl.append((i, name, k[:3]))
+    print(f"Selbsttest Erkennung am eigenen Namen: {len(items) - len(fehl)}/{len(items)}")
+    for x in fehl:
+        print("  ", x)
+    sys.exit(1 if fehl else 0)
 DATEI = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "eval" / "ablage-test.yaml"
 f = yaml.safe_load(DATEI.read_text(encoding="utf-8"))["faelle"]
 t1 = t3 = 0
@@ -16,7 +31,7 @@ fehl = []
 for c in f:
     out = steuer.ablage(c["text"])
     kand = re.findall(r"^\d\. \*\*.+?\*\* \(`([a-z0-9\-]+)`\)", out, re.M)
-    # Belegtyp «steuerrechnung» = Prozessdokumente Veranlagung/definitive bzw. provisorische Rechnung (gleiche Klasse)
+    # Belegtyp «steuerrechnung» = Verfahrensdokumente Veranlagung/definitive bzw. provisorische Rechnung
     if c["soll"] == "steuerrechnung":
         kand = ["steuerrechnung" if k in ("veranlagung", "provisorische-rechnung") else k for k in kand]
     if kand[:1] == [c["soll"]]:

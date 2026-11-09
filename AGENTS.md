@@ -1,7 +1,7 @@
 # AGENTS.md – Schema des Steuer-Wikis (Schweiz, natürliche Personen)
 
 Dieses Repository ist eine **LLM-Wiki-Wissensbasis** (Muster nach Karpathy: Rohquellen → Wiki → Schema) für einen
-KI-Steuerexperten, der Fachpersonen (SB/ML) beim Erstellen von Steuererklärungen natürlicher Personen unterstützt.
+KI-Steuerexperten, der Fachpersonen beim Erstellen von Steuererklärungen natürlicher Personen unterstützt.
 Abdeckung: **Bund** (DBG, StHG, VStG, ESTV-Praxis) und die Kantone **AR, SG, TG, ZH**, Steuerjahre **2025, 2026** (erweiterbar).
 Die fachliche Beurteilung bleibt bei der Fachperson. Diese Datei ist das Regelwerk für jeden Agenten, der das Wiki liest oder pflegt.
 
@@ -34,13 +34,13 @@ Die fachliche Beurteilung bleibt bei der Fachperson. Diese Datei ist das Regelwe
 | Schicht | Ordner | Inhalt | Wer schreibt |
 |---|---|---|---|
 | 1 Quick Access | `quick/` | Belege-Relevanz, Zuordnung Beleg→Formularziffer je Kanton/Jahr, Eckwerte je Jurisdiktion/Jahr, Jahresvergleich | generiert aus `data/` (`tools/build_quick.py`) |
-| Daten | `data/` | `belege.yaml`, `werte/<jur>/<jahr>.yaml`, `zuordnung/<kanton>/<jahr>.yaml` – jede Angabe mit Chunk-ID + wörtlichem Zitat | Agent (Ingest) + Fachperson |
+| Daten | `data/` | `belege-teil*.yaml`, `werte/<jur>/<jahr>.yaml`, `zuordnung/<kanton>/<jahr>.yaml` – jede Angabe mit Chunk-ID + wörtlichem Zitat | Agent (Ingest) + Fachperson |
 | 2 Detailwissen | `wiki/` | `themen/` (Querschnitt), `belege/` (Detailkarte je Belegtyp), `<jur>/` Überblick, Zuordnung-/Werte-Detail (mit Zitaten), Quellenkatalog, `quellen/` (Zusammenfassung je Dokument) | Agent, Review durch Fachperson; `belege/` und `*-detail.md` generiert |
 | 3 Volltext | `sources/<jur>/<jahr>/<id>.md` | verbatim konvertierte Quellen mit Seitenmarkern `<!-- Seite N -->` | `tools/convert.py`, `tools/laws.py` |
 | 3 RAG-Chunks | `chunks/<jur>/<jahr>/<id>/<id>__cNNNN.md` bzw. `__art-33` | semantische/strukturelle Chunks (≤ ~1'500 Zeichen) mit Kontextzeile | `tools/chunk.py` |
 | Index | `index/chunks.jsonl`, `index/quellen.jsonl` | alle Chunks/Quellen mit Metadaten (für Hybrid-RAG) | `tools/build_index.py` |
 | Originale | `raw/<jur>/<jahr>/<id>.pdf|html|xml` | unveränderte Downloads (Backup, sha256 in Registry) | `tools/fetch.py` |
-| Ablage | `data/ablage/`, `data/einreichen/`, `wiki/ablage/`, `quick/ablage-*`, `kategorien/` | Erkennung, Einreichepflicht je Kanton/Jahr (mit Zitat); Kategorienliste der Firma als MD-Tabelle (austauschbar) | Agent (mit Zitat) · Liste: Firma |
+| Ablage | `data/ablage/`, `data/einreichen/`, `wiki/ablage/`, `quick/ablage-*`; Kategorienliste `KATEGORIEN.md` im Workspace (Vorlage `kategorien/`) | Erkennung, Einreichepflicht je Kanton/Jahr (mit Zitat); Kategorien der Firma als austauschbare MD-Tabelle | Agent (mit Zitat) · Liste: Firma |
 | L1-Index | `index/lookup.json`, `index/fts.sqlite` | kompakte Daten für `tools/steuer.py` / MCP-Server, Volltextindex | `tools/build_lookup.py` |
 | Register | `registry/` | `sources.yaml` (alle Quellen), `taxonomy.yaml` (Schlüssel), `years.yaml`, `chunkplans/` | Tools + Agent |
 
@@ -52,6 +52,8 @@ Dokumente (Kreisschreiben, Merkblätter, Praxis). Massgeblich ist immer das Feld
 1. **Kanton und Steuerjahr klären** (Wohnsitz am 31.12.; bei Unklarheit nachfragen).
 1a. **Werkzeug zuerst** (L1, ein Aufruf mit Fundstelle): `python3 tools/steuer.py ablage|beleg|position|wert|vergleich|suche|zeige …`
    bzw. Plugin-Tools `steuerwiki__…` (siehe `KONZEPT.md` §9a). Die folgenden Schritte sind der Weg über die Dateien.
+1b. **Eingegangenes Dokument:** `steuer.py ablage …` (Typ, steuerrelevant, Steuerjahr, Einreichepflicht) → Kategorie aus `KATEGORIEN.md`
+   im Workspace (Skill `belege-ablage`). Das Wiki kennt keine firmeninternen Abläufe.
 2. **Quick-Layer:** `quick/index.md` (Frage → Seite) → `quick/belege-relevanz.md` (ist ein Dokument relevant?) →
    `quick/zuordnung-<kt>-<jahr>.md` bzw. `quick/belege-ziffern.md` (welcher Wert in welche Ziffer?) →
    `quick/werte-<jur>-<jahr>.md` / `quick/vergleich-<jahr>.md` (Limiten/Pauschalen).

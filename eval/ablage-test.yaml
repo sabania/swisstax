@@ -1,4 +1,4 @@
-# Deterministischer Test der Dokumenterkennung (Schritt 1, tools/steuer.py ablage): Titel/Textanfang → erwarteter Typ.
+# Deterministischer Test der Dokumenterkennung (tools/steuer.py ablage): Titel/Textanfang → erwarteter Typ.
 # Fiktive, anonyme Beispiele (Muster Hans/Anna). Auswertung: python3 eval/ablage_test.py
 faelle:
 - {text: "Lohnausweis 2025 / Certificat de salaire – Muster AG – 8. Bruttolohn total 95'400 – 11. Nettolohn 82'100", soll: lohnausweis}

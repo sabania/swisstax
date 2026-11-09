@@ -1,4 +1,5 @@
-# Test Ablage + Ausfüllen (Steuerwissen firmenunabhängig; Kategorie nach der Kategorienliste consis im Test-Workspace).
+# Test Ablage + Ausfüllen (Steuerwissen firmenunabhängig). Test-Workspace: KATEGORIEN.md = kategorien/consis.md;
+# die Kategorie-Teile der Referenzen gelten nur für diese Liste.
 # Fiktive Muster-Mandanten. Referenzen aus data/einreichen (Zitate), kategorien/consis.md und dem Steuer-Wiki.
 fragen:
 - id: a01

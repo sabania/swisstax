@@ -12,7 +12,7 @@ generiert: tools/build_ablage.py (2026-11-09)
 
 # Ablage – SG Steuerjahr 2026
 
-> Je Belegtyp: steuerrelevant? → muss er eingereicht werden (Wegleitung, Fundstelle)? → Formularziffern (Positionen, wie in DrTax/amtlichem Formular). Ziffer im Detail: `steuer position sg 2026 <ziffer>` bzw. [Kompakt-Wegleitung](wegleitung-sg-2026.md). Die Ablage-Kategorie kommt aus der Kategorienliste der Firma (`KATEGORIEN.md`); Übersicht: [Ablage](../wiki/ablage/ablage.md).
+> Je Belegtyp: steuerrelevant? → muss er eingereicht werden (Wegleitung, Fundstelle)? → Formularziffern (Positionen = Ziffer/Code des amtlichen Formulars). Ziffer im Detail: `steuer position sg 2026 <ziffer>` bzw. [Kompakt-Wegleitung](wegleitung-sg-2026.md). Die Ablage-Kategorie kommt aus der Kategorienliste der Firma (`KATEGORIEN.md`); Übersicht: [Ablage](../wiki/ablage/ablage.md).
 
 > ⚠️ Für SG 2026 ist keine Einreichepflicht aus der Wegleitung erfasst – bei «je nach Kanton» prüfen.
 

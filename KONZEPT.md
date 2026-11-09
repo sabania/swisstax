@@ -3,7 +3,7 @@
 > Stand 09.11.2026 · 285 Quellen · 8'876 Chunks · 73 Eckwerte je Jurisdiktion/Jahr · 724 Formularpositionen mit
 > Kompakt-Wegleitung · getestet in OpenClaw 2026.11.2
 
-Dieses Dokument erklärt, **wie** die Wissensbasis aufgebaut ist und **warum** – für Fachpersonen (SB/ML), die sie nutzen
+Dieses Dokument erklärt, **wie** die Wissensbasis aufgebaut ist und **warum** – für Fachpersonen, die sie nutzen
 und pflegen, und für alle, die den OpenClaw-Steuer-Agenten betreiben. Kurzfassung für Agenten: `AGENTS.md`.
 
 ---
@@ -181,7 +181,7 @@ Aufruf, und L1 liefert in einem Aufruf das, wofür der Agent früher 5–10 Date
 |---|---|
 | `ablage "<titel/text>" --kanton --jahr` | Dokument: Typ (Top 3), steuerrelevant, Steuerjahr, Einreichepflicht, Sicherheit (Kategorie danach aus `KATEGORIEN.md`) |
 | `beleg <stichwort> --kanton --jahr` | Belegkarte: relevant?, Feld → Position → Rechnen → Limite, Einreichepflicht (Zitat) |
-| `position <kt> <jahr> <ziffer\|stichwort>` | Formularposition (= DrTax-Position): Rein, Rechnen, Regel, Limite Kanton/Bund, Bundesspalte, Beachten, Belege |
+| `position <kt> <jahr> <ziffer\|stichwort>` | Formularposition (Ziffer/Code): Rein, Rechnen, Regel, Limite Kanton/Bund, Bundesspalte, Beachten, Belege |
 | `wert <jur> <jahr> <stichwort>` / `vergleich <jahr> <stichwort>` | Eckwerte mit Zitat, Chunk, Status (Kanton + Bund) / alle Jurisdiktionen nebeneinander |
 | `suche "<begriffe>" --jur --jahr` / `zeige <chunk\|pfad>` | Volltext (SQLite FTS5, unicode61) über alle 8'925 Chunks / Wortlaut |
 

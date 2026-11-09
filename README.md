@@ -52,7 +52,7 @@ oder als **OpenClaw-/Claude-Plugin** mit Skills und Tools: `python3 tools/build_
 ├── raw/<jur>/<jahr>/    Originale (PDF/HTML/XML) als Backup, sha256 in der Registry
 ├── registry/            sources.yaml (alle Quellen inkl. Zeitbezug, gilt_ab/bis, Versionskette) · taxonomy.yaml · glossar.yaml · chunkplans/
 ├── tools/               Python-Pipeline (fetch → convert/laws → chunk → build_index → build_quick → lint)
-├── skills/              AgentSkills/OpenClaw: steuerwiki (Abfrage), steuererklaerung-np (Fall-Ablauf), steuerwiki-pflege (Pflege)
+├── skills/              AgentSkills/OpenClaw: belege-ablage (Relevanz, Einreichepflicht, Kategorie aus KATEGORIEN.md), steuerwiki (Abfrage), steuererklaerung-np (ausfüllen), steuerwiki-pflege (Pflege)
 ├── openclaw/            Integrationsanleitung, Konfig-Snippets, install.sh
 └── reports/             Lint- und Prüfberichte
 ```

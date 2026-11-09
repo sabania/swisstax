@@ -1,9 +1,9 @@
 ---
 name: steuererklaerung-np
-description: Steuererklärung natürliche Person ausfüllen (AR/SG/TG/ZH + Bund) – aus den Belegen die Werte je Formularposition (DrTax/amtliches Formular) bestimmen, Limiten Kanton/Bund anwenden, Pauschalen prüfen, fehlende Belege und offene Punkte ausweisen. Auch für komplette Ausfüllhilfen.
+description: Steuererklärung natürliche Person ausfüllen (AR/SG/TG/ZH + Bund) – aus den Belegen die Werte je Formularposition (Ziffer/Code des amtlichen Formulars) bestimmen, Limiten Kanton/Bund anwenden, Pauschalen prüfen, fehlende Belege und offene Punkte ausweisen. Auch für komplette Ausfüllhilfen.
 ---
 
-# Steuererklärung ausfüllen (Positionen in DrTax / amtliches Formular)
+# Steuererklärung ausfüllen (Formularpositionen: Ziffer/Code des amtlichen Formulars)
 
 Werkzeug: `steuerwiki__position`, `__wert`, `__beleg`, `__vergleich` (ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
 Ergebnis: Werte je Position mit Beleg-Referenz und Fundstelle. Fachliche Verantwortung: Fachperson.
@@ -14,9 +14,10 @@ Belege mit Vorjahr vergleichen: was letztes Jahr da war (Lohnausweis, 3a, Steuer
 Fehlendes als «fehlender Beleg» ausweisen; fehlende Belege blockieren die übrigen Positionen nicht.
 
 ## 2. Beleg für Beleg
-1. `beleg <typ> --kanton <kt> --jahr <jahr>` → welche Werte entnehmen, welche Ziffern.
-2. Je Ziffer `position <kt> <jahr> <ziffer>` → **Rein · Rechnen · Limite (Kanton | Bund) · Beachten**, und wie der Bund im
-   Formular erfasst wird (eigene Spalte, eine Spalte, keine Bundesspalte – steht in der Ausgabe).
+1. `beleg <typ> --kanton <kt> --jahr <jahr>` → **Feld → Position (Ziffer/Code) → Rechnen → Limite Kanton | Bund** für alle
+   Ziffern dieses Belegs. Positionen «nur Selbständigerwerb/Geschäftsvermögen» nur bei Selbständigen verwenden.
+2. `position <kt> <jahr> <ziffer>` nur, wenn Regel, Beachten, Fundstelle oder die Bundesspalte gebraucht werden oder etwas unklar ist
+   (die Ausgabe sagt auch, wie der Bund im Formular erfasst wird: eigene Spalte, eine Spalte oder keine Bundesspalte).
 3. Betrag mit Beleg-Referenz (Datei/Seite) erfassen; Kanton und Bund getrennt, wo Limiten abweichen.
 4. Wert unsicher gelesen → **nie schätzen**: als offenen Punkt «Wert prüfen» ausweisen.
 5. Pauschale vs. effektiv: beide rechnen, günstigere Variante, wo erlaubt. Pauschalen ohne Beleg nicht vergessen
@@ -25,7 +26,7 @@ Fehlendes als «fehlender Beleg» ausweisen; fehlende Belege blockieren die übr
 ## 3. Kontrolle
 - Vermögen Vorjahr + Einkommen − Verbrauch ≈ Vermögen aktuell; ungeklärte Differenz als Hinweis.
   Grosse Veränderungen gegenüber dem Vorjahr (Einkommen, Vermögen) begründen oder als Rückfrage ausweisen.
-- Bruttoertrag ↔ Verrechnungssteuer 35 %; Schuldzinsen ↔ Schulden; Kinder: Alimente vs. Kinderabzug (nicht beides).
+- Bruttoertrag mit Verrechnungssteuer ↔ Verrechnungssteueranspruch; Schuldzinsen ↔ Schulden; Kinder: Alimente vs. Kinderabzug (nicht beides).
 - Prüfpunkte: ausländische Quellensteuer (DA-1), Steuerausscheidung (andere Kantone/Liegenschaften).
 
 ## Ausgabe
@@ -42,7 +43,7 @@ Fehlende Belege: …   Werte prüfen: …   Hinweise Fachperson (Annahmen, strit
   Rückfrage formulieren – nicht selbst einen Abzug streichen.
 - Person 2 hat in Hilfsblättern eigene Codes; Überträge aus Hilfsblättern ins Hauptformular (Ziffer aus `position`).
 - AR/SG/TG-Kinderabzüge je Altersstufe; Bund ≠ Kanton bei Fahrkosten, Versicherung, Kinder, Drittbetreuung, Weiterbildung.
-- Spenden Bund: Freigrenze CHF 100 – erreicht das Total 100, ist der ganze Betrag abziehbar.
+- Spenden Bund: Freigrenze – erreicht das Jahrestotal die Mindestsumme, ist der ganze Betrag abziehbar (`wert bund <jahr> spenden`).
 - Status ⬜ offen / ⚠️ strittig → in «Hinweise Fachperson», nie Werte aus einem anderen Jahr/Kanton.
 
 Nicht abgedeckt (nur Hinweise, Fachperson): Buchhaltung Selbständigerwerb, Erbschafts-/Schenkungs-/Grundstückgewinnsteuer,

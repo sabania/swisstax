@@ -25,7 +25,7 @@ TOOLS = [
                     "Versicherungsabzug). Für Vergleichs- und Rangfolgefragen statt mehrerer wert-Aufrufe.",
      "inputSchema": {"type": "object", "properties": {"jahr": S, "begriff": S}, "required": ["jahr", "begriff"]}},
     {"name": "position", "fn": lambda a: steuer.position(a["kanton"], a["jahr"], a["ziffer_oder_begriff"]),
-     "description": "Formularposition (wie in DrTax/amtlichem Formular) eines Kantons: welche Belege rein, wie rechnen, Limite Kanton/Bund, "
+     "description": "Formularposition (Ziffer/Code des amtlichen Formulars) eines Kantons: welche Belege rein, wie rechnen, Limite Kanton/Bund, "
                     "Beachten, Belege, Fundstelle. Mit Ziffer (z.B. 11.1, 16.2) oder Stichwort (z.B. Kinderbetreuung).",
      "inputSchema": {"type": "object", "properties": {"kanton": {**S, "description": "zh, sg, tg oder ar"}, "jahr": S,
                                                       "ziffer_oder_begriff": S}, "required": ["kanton", "jahr", "ziffer_oder_begriff"]}},

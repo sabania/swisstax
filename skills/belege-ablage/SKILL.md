@@ -1,30 +1,38 @@
 ---
 name: belege-ablage
-description: Eingegangenes Dokument eines Mandanten beurteilen – ist es steuerrelevant, welcher Belegtyp, welches Steuerjahr, muss es eingereicht werden und in welche Kategorie der Kategorienliste (KATEGORIEN.md) gehört es. Verwenden für jede Frage «relevant?», «wie ablegen?», «welche Kategorie?».
+description: Eingegangenes Dokument eines Mandanten beurteilen – ist es steuerrelevant, welcher Belegtyp, welches Steuerjahr, muss es im Kanton eingereicht werden, und in welche Kategorie der Kategorienliste (KATEGORIEN.md) gehört es. Verwenden für jede Frage «relevant?», «wie ablegen?», «welche Kategorie?».
 ---
 
-# Belege prüfen und ablegen (Relevanz · Typ · Steuerjahr · Ablage)
+# Belege prüfen und ablegen
 
 Werkzeug: `steuerwiki__ablage`, `__beleg` (ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
-**Kategorienliste:** `KATEGORIEN.md` im Workspace – Tabelle der Firma (Kategorie · was hinein gehört · Beispiele · eingereicht?).
-Vor dem ersten Einordnen lesen; die Kategorie immer aus dieser Liste wählen, nie eine eigene erfinden.
+**Kategorienliste:** `KATEGORIEN.md` im Workspace (Markdown-Tabelle der Firma). Mit dem Datei-Lesewerkzeug (`read`) öffnen, nicht mit `zeige`.
+Fehlt die Datei → nur Steuerwissen liefern (Typ, relevant, Steuerjahr, einreichen) und sagen, dass keine Kategorienliste vorliegt.
+Keine Beispielliste aus dem Plugin verwenden, keine Kategorie erfinden.
 
-## Für jedes Dokument (ein Beleg = eine Datei; Sammel-PDF zuerst trennen)
+## Für jedes Dokument
 
-1. **Einordnen:** `ablage "<Titel + erste Zeilen + Absender>" --kanton <kt> --jahr <jahr>` → Typ (Top 3), steuerrelevant,
+1. **Kanton** = Wohnsitz des Mandanten am 31.12. (aus der Anfrage; steht er nicht da und ist er nötig → nachfragen).
+   **Steuerjahr** = Bescheinigungsjahr des Dokuments (Veranlagung/Rechnung: die Steuerperiode, für die sie gilt).
+2. **Einordnen:** `ablage "<Titel + erste Zeilen + Absender>" --kanton <kt>` → Belegtyp (Top 3), steuerrelevant (mit Bedingung),
    Steuerjahr, Einreichepflicht. Mit dem Dokument abgleichen – die Erkennung ist eine Hilfe, der Inhalt entscheidet.
-2. **Steuerrelevant?**
-   - **ja** → weiter.
-   - **bedingt** → Bedingung mit `beleg <typ> --kanton <kt> --jahr <jahr>` prüfen und nennen (z.B. Kita: nur bei Erwerbstätigkeit).
-   - **nein** (Alltagsrechnungen, Hausrat-/Autoversicherung, Leasing …) → nicht als Steuerbeleg ablegen; Grund nennen.
-3. **Steuerjahr** = Bescheinigungsjahr des Belegs (Lohnausweis 2025 → 2025); Veranlagung/Rechnung: die Steuerperiode, für die sie gilt.
-4. **Einreichen?** `beleg <typ> --kanton <kt> --jahr <jahr>` zeigt, ob der Kanton den Beleg mit der Steuererklärung verlangt
-   (ja · auf Verlangen · nein · bedingt mit Bedingung), mit Fundstelle aus der Wegleitung.
-5. **Kategorie:** in `KATEGORIEN.md` die Zeile wählen, deren «Was hinein gehört» und Beispiele passen – mit Relevanz und
-   Einreichepflicht aus 2./4. (z.B. «muss eingereicht werden» vs. «hat einen Wert, wird nicht eingereicht»). Dokumente der
-   Steuerbehörde (Veranlagung, provisorische Rechnung, Steuerkonto, Auflage, Einsprache), die Steuererklärung selbst und
-   Korrespondenz des Mandanten haben in der Liste meist eigene Zeilen. Passt keine Zeile → zur Prüfung markieren.
-6. **Bezeichnung:** Dokumentart + Aussteller, z.B. «Lohnausweis Beispiel AG».
-7. **Unsicher** (Typ, Person, Jahr oder Kategorie) → nicht raten: zur Prüfung markieren, mit Grund und Vorschlag.
+3. **Steuerrelevant?** ja · **bedingt** → die angezeigte Bedingung am Dokument prüfen und nennen · nein → kein Wert in der Steuererklärung.
+4. **Einreichen?** steht in der Ausgabe (`beleg <typ> --kanton <kt> --jahr <jahr>` für Details mit Fundstelle).
+5. **Kategorie aus `KATEGORIEN.md`** – die Zeile wählen, deren «Was hinein gehört» und Beispiele zum Dokument passen; bei Belegen
+   mit Wert in der Steuererklärung entscheidet die Einreichepflicht:
 
+   | Einreichen (Tool) | Kategorie |
+   |---|---|
+   | ja | Zeile für einzureichende Belege («Eingereicht?» = ja) |
+   | auf Verlangen · nein | Zeile für Belege, die nicht eingereicht werden («Eingereicht?» = nein) |
+   | bedingt | Bedingung prüfen: erfüllt → einzureichen, sonst nicht; Bedingung nennen |
+   | unklar · nicht erfasst | wie «nicht einzureichen» und die Unsicherheit nennen |
+
+   Gibt die Liste für eine Dokumentart ausdrücklich eine Kategorie vor, gilt diese. Die Liste kann mehrere Tabellen haben (z.B.
+   Klassen ausserhalb der Steuererklärung für Veranlagung, Rechnungen, Auflagen): dann Tabelle/Klasse **und** Kategorie nennen.
+   Nicht steuerrelevant → keine Steuerbeleg-Kategorie; Grund nennen.
+6. **Beschreibung/Dateiregeln:** wie in `KATEGORIEN.md` angegeben (falls vorhanden).
+7. **Unsicher** (Typ, Person, Jahr oder Kategorie) → nicht raten; Unsicherheit mit Grund und Vorschlag offenlegen.
+
+Ausgabe je Dokument: `Dokument | Belegtyp | steuerrelevant | Steuerjahr | einreichen (Fundstelle) | Kategorie (Tabelle) | Unsicherheit`.
 Danach: Werte erfassen mit Skill `steuererklaerung-np`.

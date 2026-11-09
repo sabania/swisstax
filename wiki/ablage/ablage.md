@@ -77,7 +77,7 @@ generiert: tools/build_ablage.py (2026-11-09)
 | Fristerstreckungsgesuch / Bestätigung Fristerstreckung (`fristerstreckung`) | Gesuch oder Bestätigung einer Fristerstreckung. | Jahr des Dokuments |
 | Übermittlungs-/Eingangsquittung der eingereichten Steuererklärung (`uebermittlungsquittung`) | Bestätigung, dass die Steuererklärung eingereicht ist. | Jahr des Dokuments |
 | Freigabe-/Unterschriftsquittung zur (elektronisch eingereichten) Steuererklärung (`freigabequittung`) | Die Steuererklärung selbst bzw. ihre Bestandteile/Quittungen der Steuerpflichtigen. | Jahr des Dokuments |
-| Antworten/Bestätigungen/Checklisten des Kunden, Kundenfreigabe per E-Mail (`kundenantwort`) | Angaben des Mandanten ohne eigentlichen Beleg (z.B. Antworten auf Rückfragen) – Inhalt für die Erfassung verwenden. | Jahr des Dokuments |
+| Antworten, Bestätigungen und Checklisten des Kunden, Kundenfreigabe per E-Mail (`kundenantwort`) | Angaben des Mandanten ohne eigentlichen Beleg (z.B. Antworten auf Rückfragen) – Inhalt für die Erfassung verwenden. | Jahr des Dokuments |
 | Steuerausscheidung (mehrere Steuerdomizile) (`steuerausscheidung`) | Mehrere Steuerdomizile (interkantonal/international). | Jahr des Dokuments |
 | Unterjährige Deklaration (Tod, Wegzug ins Ausland, Zuzug aus dem Ausland) (`unterjaehrige-deklaration`) | Keine volle Steuerperiode (Zuzug/Wegzug Ausland, Tod). | Jahr des Dokuments |
 | Grundstückgewinnsteuer-, Erbschafts- oder Schenkungssteuer-Verfahren (Steuererklärung/Veranlagung) (`grundstueckgewinn-erbschaft-schenkung-steuer`) | Nicht Einkommens-/Vermögenssteuer der natürlichen Person (Grundstückgewinn-, Erbschafts-, Schenkungssteuer). | Jahr des Dokuments |

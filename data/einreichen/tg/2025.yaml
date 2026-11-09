@@ -1,7 +1,7 @@
 kanton: tg
 jahr: 2025
-beschreibung: Einreichepflicht der Belege laut amtlichen Quellen TG 2025 (Wegleitung, Formulare, Gesetz). Erstellt durch Agent (Extraktion + unabhängige Prüfung, 09.11.2026); Status agent-geprueft. Entscheidet
-  die Ablagegruppe «Steuerbeleg – einzureichen» vs. «nicht einzureichen» (data/ablage/gruppen.yaml).
+beschreibung: Einreichepflicht der Belege laut amtlichen Quellen TG 2025 (Wegleitung, Formulare, Gesetz). Erstellt durch Agent (Extraktion + unabhängige Prüfung, 09.11.2026); Status agent-geprueft. Grundlage
+  für die Spalte «Eingereicht?» der Kategorienliste (KATEGORIEN.md).
 status: agent-geprueft
 allgemein:
 - regel: 'Gesetzliche Beilagenpflicht: Steuererklärung persönlich unterzeichnet samt den vorgeschriebenen Beilagen fristgemäss einreichen (§ 155 Abs. 2 StG TG).'
