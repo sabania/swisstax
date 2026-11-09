@@ -4,31 +4,29 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 3.4.1 Stempelabgaben; Ziff. 3.4.2 Nicht transparente Produkte"
-ziffer: "3.4.2"
-seiten: "11"
+titel: "Ziff. 3.5 Klassische Options- und Wandelanleihen – Besteuerung"
+ziffer: "3.5"
+seiten: "11-12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.4 Kapitalgarantierte Derivate › 3.4.2 Nicht transparente Produkte · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.5 Klassische Options- und Wandelanleihen · S. 11–12
 
-Stempelabgaben
-In Bezug auf die Umsatzabgabe kann auf das unter Ziffer 3.1. Gesagte verwiesen werden.
-
-3.4.2   Nicht transparente Produkte
+3.5   Klassische Options- und Wandelanleihen
 
 Direkte Bundessteuer und Verrechnungssteuer
-Liegt ein nicht transparentes Instrument vor, stellt die Option oder das Wandelrecht die vari-
-able Komponente eines Ertrags aus dem Anlagegeschäft dar. Alles, was der Investor bei
-Verfall von Coupons, auf Grund eines Options- oder Wandelrechts sowie bei Auflösung des
-Schuldverhältnisses über das ursprünglich investierte Kapital hinaus erhält, unterliegt der
-Einkommenssteuer und – soweit das Produkt von einem Inländer emittiert wurde – der Ver-
-rechnungssteuer (Art. 20 Abs. 1 Bst. a oder b DBG, Art. 4 Abs. 1 Bst. a VStG).
+Auch die klassischen Options- und Wandelanleihen sind – wie unter Ziffer 2.3.1. und 2.3.2.
+hievor ausgeführt – zusammengesetzte, kapitalgarantierte Finanzinstrumente. Klassische
+Options- und Wandelanleihen, die von einem Inländer emittiert werden, geniessen aber eine
+andere steuerliche Behandlung, jedenfalls solange angenommen werden kann, dass die vom
+Emittenten üblicherweise erzielte Zinsersparnis seinen steuerbaren Gewinn entsprechend
+erhöht: Die Differenz zwischen dem Wert der Obligation ex-Option im Emissionszeitpunkt
+und dem garantierten Rückzahlungsbetrag wird weder von der direkten Bundessteuer noch
+von der Verrechnungssteuer erfasst. Es erfolgt auch keine Besteuerung bei Handänderun-
+gen nach Artikel 20 Absatz 1 Buchstabe b DBG. Die periodischen Zinsen sind indessen steu-
+erbar (Art. 20 Abs. 1 Bst. a DBG; Art. 4 Abs. 1 Bst. a VStG).
 
-Nicht transparente Instrumente sind in der Regel Anwendungsfälle von Artikel 20 Absatz 1
-Buchstabe b DBG; steuerbar im Falle von Handänderungen ist stets die Differenz zwischen
-Kauf- und Verkaufspreis (bzw. Rückzahlungswert) des Gesamtinstruments (reine Differenz-
-besteuerung).
+
+1-015-DVS-2017-d
 
 Stempelabgaben
-Der Handel mit in- und ausländischen, nicht transparenten Instrumenten unterliegt wie bei
-gewöhnlichen Obligationen der Umsatzabgabe.
+Für die Umsatzabgabe gilt das bezüglich Obligationen unter Ziffer 3.1. hievor Gesagte.

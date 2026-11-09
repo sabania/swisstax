@@ -4,25 +4,21 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 26"
-seiten: "8"
+titel: "Ziff. 4.7.2 Rückzahlung vom Arbeitgeber getragener Kosten durch Arbeitnehmer"
+ziffer: "4.7.2"
+seiten: "9-10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.7 Vom Arbeitgeber bezahlte Kosten · S. 9–10
 
-4.5.1   Beratungsleistungen, Berufs-, Studien- und Karriereberatung, Coaching, Training
-Im Gegensatz zur berufsorientierten Aus- und Weiterbildung erschöpft sich die Beratungsleistung
-nicht in der Vermittlung von Wissen. Vielmehr liegt das in erster Linie verfolgte Ziel in der Lösung
-eines konkreten Problems. Oft beinhaltet eine Beratungsleistung sowohl Elemente der Schulung
-als auch Elemente der Beratung. Die Beurteilung, ob eine solche Dienstleistung als Bildungsleis-
-tung oder als Beratung zu qualifizieren ist, wird aufgrund des abgeschlossenen Vertrags vorge-
-nommen. Überwiegt der Beratungscharakter, sind die angefallenen Kosten gesamthaft nicht als
-eine berufsorientierte Aus- und Weiterbildung im Sinne von Artikel 33 Absatz 1 Buchstabe j DBG
-zu qualifizieren.
-Eine Beratungsleistung, die keine berufsorientierte Aus- und Weiterbildung darstellt, liegt insbe-
-sondere dann vor, wenn das vertragliche Verhältnis individuell auf den Auftraggeber zugeschnit-
-ten ist, auf einer vorgängigen Analyse der entsprechenden Situation beim Auftraggeber beruht
-und darin besteht, konkrete Problemlösungsvorschläge auszuarbeiten sowie eventuell umzuset-
-zen.
-Deshalb stellen Berufs-, Studien- und Karriereberatungen, Coaching und Training grundsätzlich
-keine berufsorientierten Aus- und Weiterbildungen dar.
+4.7.2   Rückzahlung von ursprünglich vom Arbeitgeber getragenen berufsorientierten Aus-
+    und Weiterbildungskosten durch den Arbeitnehmer
+Muss der Arbeitnehmer die vom Arbeitgeber zunächst übernommenen berufsorientierten Aus-
+und Weiterbildungskosten (ganz oder teilweise) an diesen zurückbezahlen (z.B. aufgrund einer
+Rückzahlungsklausel in der Ausbildungsvereinbarung bei vorzeitigem Stellenwechsel), kann er
+dafür im Zeitpunkt der Rückzahlung den Abzug gemäss Artikel 33 Absatz 1 Buchstabe j DBG
+geltend machen. Wenn der Arbeitgeber die berufsorientierten Aus- und Weiterbildungskosten
+
+über mehrere Kalenderjahre übernommen hat, kann der Arbeitnehmer im Jahr der Rückzahlung
+einen Abzug gemäss Artikel 33 Absatz 1 Buchstabe j DBG bis höchstens 12 000 Franken pro
+Kalenderjahr, in dem die entsprechenden Kosten angefallen sind, geltend machen.

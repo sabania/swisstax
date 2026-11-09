@@ -4,23 +4,26 @@ quelle: bund-ks-14
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 14 – Abschnitt 19"
-seiten: "5"
+titel: "Ziff. 5.2 Rechtsverbindliche Auskünfte – Zuständigkeit und Gegenstand"
+ziffer: "5.2"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 14 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 14 · 5 Steuerfolgen und Verfahren › 5.2 Auskünfte · S. 6
 
-<!-- Seite 5 -->
-ASA 60, 537 Erw. 6b; 59, 717, Erw. 5d). Das Zusammenwirken zwischen Verkäufer und
-Käufergesellschaft kann aktiv erfolgen, z.B. durch:
-   -   Gewährung eines Darlehens des Verkäufers an die Käuferin;
-   -   Verrechnung einer Schuld des Verkäufers gegenüber der Zielgesellschaft mit dem
-    Kaufpreis;
-   -   Sicherheitsleistungen der Zielgesellschaft für Darlehen Dritter an die Käuferin im
-    Zeitpunkt des Verkaufs;
-   -   Hinterlegung der veräusserten Beteiligungsrechte durch den Verkäufer als Sicherheit
-    für eine Fremdfinanzierung des Kaufpreises;
-   -   Verpflichtung des Verkäufers, Aktiven der Zielgesellschaft in flüssige Form zu brin-
-    gen;
-   -   Einräumung der Verfügungsgewalt über die Aktiven der Zielgesellschaft an den Käu-
-    fer vor Bezahlung des Kaufpreises.
+5.2. Rechtsverbindliche Auskünfte
+
+
+Für rechtsverbindliche Auskünfte gelten die allgemeinen Grundsätze des Verwaltungsrechts.
+Sie können deshalb nur durch die für den Verkäufer zuständige Veranlagungsbehörde erteilt
+werden. Für die Beurteilung, ob eine indirekte Teilliquidation vorliegt, gelten die folgenden
+Präzisierungen:
+
+Erfolgt eine Anfrage vor dem Verkauf, so kann sich eine Auskunft nur auf diesen Zeitpunkt
+und auf die folgenden Punkte beziehen:
+    -   Das Vorliegen der folgenden objektiven Tatbestandselemente: Verkauf, System-
+    wechsel, Fristenlauf, handelsrechtlich ausschüttungsfähige Reserven;
+    -   Das Vorliegen einer qualifizierenden Beteiligung, allenfalls unter dem Vorbehalt wei-
+    terer Verkäufe in den folgenden 5 Jahren;
+    -   Sachverhalte, die unter dem Aspekt der Ausschüttung zu prüfen sind, und die sich
+    gleichzeitig mit oder kurz nach dem Verkauf verwirklichen sollen.

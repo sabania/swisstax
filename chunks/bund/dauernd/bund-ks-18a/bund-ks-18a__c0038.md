@@ -4,19 +4,22 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 38"
-seiten: "9"
+titel: "Ziff. 9.1 Folgen unzulässiger Einzahlungen – Rückerstattung"
+ziffer: "9.1"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 9
+> Bund · Steuerjahr 2026 · KS 18a · 9. Folgen unzulässiger Einzahlungen › 9.1 Für den Vorsorgenehmer · S. 12
 
-Gemäss Artikel 3a Absatz 1 Buchstabe b BVV 3 besteht die Möglichkeit der vorzeitigen Aus-
-richtung der Altersleistung unter Einbringung des Guthabens in eine andere anerkannte Vor-
-sorgeform. Dieses Vorgehen setzt die vollständige Auflösung des entsprechenden Vorsorge-
-kontos bzw. der entsprechenden Versicherungspolice und den Abschluss einer neuen ge-
-bundenen Vorsorgeversicherung bzw. einer neuen gebundenen Vorsorgevereinbarung vo-
-raus (z.B. bei einer anderen Bank oder bei einer anderen Versicherungsgesellschaft). In sol-
-chen Übertragungsfällen ist keine Steuerbescheinigung auszustellen. Ein Splitting bestehen-
-der Vorsorgeguthaben ist nicht möglich. Der Steuerpflichtige kann nicht durch eine teilweise
-Übertragung vorhandener Altersguthaben der gebundenen Selbstvorsorge neue Vorsorge-
-konten oder Vorsorgeversicherungen (Säule 3a) bilden.
+9.   Folgen unzulässiger Einzahlungen
+9.1. Für den Vorsorgenehmer
+Auf Vorsorgekonten und in Vorsorgeversicherungen können nicht höhere Beiträge einbezahlt
+werden, als ein Abzug gemäss Artikel 7 Absatz 1 BVV 3 zulässig ist. Bei der Beschränkung
+des höchstzulässigen Einzahlungsbetrages geht es auch um eine Beschränkung der Steuer-
+befreiung bezüglich der Einkommens-, Vermögens- und der Verrechnungssteuer. Die einbe-
+zahlten Beträge sind von der Vermögenssteuer ausgenommen und die Erträge daraus unter-
+liegen nicht der Verrechnungssteuer. Sind überhöhte Einzahlungen vorgenommen worden,
+fordert die Veranlagungsbehörde den Steuerpflichtigen auf, sich die zu viel einbezahlten Be-
+träge vom Vorsorgeträger zurückerstatten zu lassen. Die Vorsorgeeinrichtungen bezahlen
+nur den nominellen Überschussbetrag zurück, der auf diesem Betrag aufgelaufene Zins wird
+nicht zurückerstattet.

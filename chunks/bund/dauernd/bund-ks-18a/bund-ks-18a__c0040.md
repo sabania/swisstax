@@ -4,14 +4,16 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 40"
-seiten: "9"
+titel: "Ziff. 9.2 Folgen für Bankstiftungen"
+ziffer: "9.2"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 9
+> Bund · Steuerjahr 2026 · KS 18a · 9. Folgen unzulässiger Einzahlungen › 9.2 Für Bankstiftungen · S. 12
 
-b)   Vorbezug im Rahmen der Wohneigentumsförderung (WEF)
-Gemäss Artikel 3 Absatz 3 BVV 3 kann die Altersleistung aus der gebundenen Selbstvor-
-sorge ferner für den Erwerb und die Erstellung von Wohneigentum zum Eigenbedarf, als Be-
-teiligung an Wohneigentum zum Eigenbedarf sowie für die Amortisation von Hypothekardar-
-lehen ausgerichtet werden. Ein Vorbezug kann alle fünf Jahre geltend gemacht werden. Eine
+9.2. Für Bankstiftungen
+Bankstiftungen, die unter dem Titel der gebundenen Selbstvorsorge höhere Beiträge als
+diejenigen, die der Abzugsberechtigung entsprechen, entgegennehmen (vgl. vorne unter
+Ziffer 5.1.), können den Anspruch auf Steuerbefreiung (Art. 6 BVV 3) verlieren, weil die ein-
+bezahlten Beiträge in diesem Fall nicht ausschliesslich der Vorsorge im Sinne der BVV 3 die-
+nen.

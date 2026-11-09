@@ -301,24 +301,6 @@
 },
 {
 "id": "zh-zstb-132-1__c0018",
-"titel": "I. Zustellung an natürliche Personen",
-"pfad": [
-"ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
-"F. Formularzustellung",
-"I. Zustellung an natürliche Personen"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0017",
-"nachher": "zh-zstb-132-1__c0019"
-},
-{
-"id": "zh-zstb-132-1__c0019",
 "titel": "II. Zustellung an juristische Personen",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
@@ -332,11 +314,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0018",
-"nachher": "zh-zstb-132-1__c0020"
+"vorher": "zh-zstb-132-1__c0017",
+"nachher": "zh-zstb-132-1__c0019"
 },
 {
-"id": "zh-zstb-132-1__c0020",
+"id": "zh-zstb-132-1__c0019",
 "titel": "III. Beschriftung",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
@@ -350,11 +332,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0019",
-"nachher": "zh-zstb-132-1__c0021"
+"vorher": "zh-zstb-132-1__c0018",
+"nachher": "zh-zstb-132-1__c0020"
 },
 {
-"id": "zh-zstb-132-1__c0021",
+"id": "zh-zstb-132-1__c0020",
 "titel": "IV. Versand",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
@@ -368,11 +350,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0020",
-"nachher": "zh-zstb-132-1__c0022"
+"vorher": "zh-zstb-132-1__c0019",
+"nachher": "zh-zstb-132-1__c0021"
 },
 {
-"id": "zh-zstb-132-1__c0022",
+"id": "zh-zstb-132-1__c0021",
 "titel": "V. Fristen (§ 33 StV)",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
@@ -386,16 +368,34 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0021",
-"nachher": "zh-zstb-132-1__c0023"
+"vorher": "zh-zstb-132-1__c0020",
+"nachher": "zh-zstb-132-1__c0022"
 },
 {
-"id": "zh-zstb-132-1__c0023",
+"id": "zh-zstb-132-1__c0022",
 "titel": "I. Ordentliche Fristen",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
 "G. Einreichungsfristen und Fristerstreckungen",
 "I. Ordentliche Fristen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-132-1__c0021",
+"nachher": "zh-zstb-132-1__c0023"
+},
+{
+"id": "zh-zstb-132-1__c0023",
+"titel": "II. Fristerstreckung (§ 39 StV, Art. 119 DBG)",
+"pfad": [
+"ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
+"G. Einreichungsfristen und Fristerstreckungen",
+"II. Fristerstreckung (§ 39 StV, Art. 119 DBG)"
 ],
 "seiten": [],
 "artikel": null,
@@ -481,24 +481,6 @@
 },
 {
 "id": "zh-zstb-132-1__c0028",
-"titel": "II. Fristerstreckung (§ 39 StV, Art. 119 DBG)",
-"pfad": [
-"ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
-"G. Einreichungsfristen und Fristerstreckungen",
-"II. Fristerstreckung (§ 39 StV, Art. 119 DBG)"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0027",
-"nachher": "zh-zstb-132-1__c0029"
-},
-{
-"id": "zh-zstb-132-1__c0029",
 "titel": "III. Nachträgliche ordentliche Veranlagung von Quellensteuerpflichtigen",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
@@ -512,11 +494,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0028",
-"nachher": "zh-zstb-132-1__c0030"
+"vorher": "zh-zstb-132-1__c0027",
+"nachher": "zh-zstb-132-1__c0029"
 },
 {
-"id": "zh-zstb-132-1__c0030",
+"id": "zh-zstb-132-1__c0029",
 "titel": "IV. Mahnungen (§§ 132 ff., § 234 StG, § 41 StV; Art. 124 - 126, 130, 174 DBG)",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
@@ -530,15 +512,32 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
+"vorher": "zh-zstb-132-1__c0028",
+"nachher": "zh-zstb-132-1__c0030"
+},
+{
+"id": "zh-zstb-132-1__c0030",
+"titel": "H. Kontrolle bei Eingang (§ 40 StV)",
+"pfad": [
+"ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
+"H. Kontrolle bei Eingang (§ 40 StV)"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
 "vorher": "zh-zstb-132-1__c0029",
 "nachher": "zh-zstb-132-1__c0031"
 },
 {
 "id": "zh-zstb-132-1__c0031",
-"titel": "H. Kontrolle bei Eingang (§ 40 StV)",
+"titel": "I. Rücksendung mangelhafter Steuererklärungen und Wertschriftenverzeichnisse (§ 41 StV)",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
-"H. Kontrolle bei Eingang (§ 40 StV)"
+"I. Rücksendung mangelhafter Steuererklärungen und Wertschriftenverzeichnisse (§ 41 StV)"
 ],
 "seiten": [],
 "artikel": null,
@@ -552,10 +551,10 @@
 },
 {
 "id": "zh-zstb-132-1__c0032",
-"titel": "I. Rücksendung mangelhafter Steuererklärungen und Wertschriftenverzeichnisse (§ 41 StV)",
+"titel": "J. Verfahren bei Nichtabgabe der Steuererklärung (§ 42 Abs. 3 StV)",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
-"I. Rücksendung mangelhafter Steuererklärungen und Wertschriftenverzeichnisse (§ 41 StV)"
+"J. Verfahren bei Nichtabgabe der Steuererklärung (§ 42 Abs. 3 StV)"
 ],
 "seiten": [],
 "artikel": null,
@@ -569,10 +568,10 @@
 },
 {
 "id": "zh-zstb-132-1__c0033",
-"titel": "J. Verfahren bei Nichtabgabe der Steuererklärung (§ 42 Abs. 3 StV)",
+"titel": "K. Ablieferung an das kantonale Steueramt (§ 42 Abs. 1 StV)",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
-"J. Verfahren bei Nichtabgabe der Steuererklärung (§ 42 Abs. 3 StV)"
+"K. Ablieferung an das kantonale Steueramt (§ 42 Abs. 1 StV)"
 ],
 "seiten": [],
 "artikel": null,
@@ -586,10 +585,10 @@
 },
 {
 "id": "zh-zstb-132-1__c0034",
-"titel": "K. Ablieferung an das kantonale Steueramt (§ 42 Abs. 1 StV)",
+"titel": "L. Inkrafttreten",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
-"K. Ablieferung an das kantonale Steueramt (§ 42 Abs. 1 StV)"
+"L. Inkrafttreten"
 ],
 "seiten": [],
 "artikel": null,
@@ -603,23 +602,6 @@
 },
 {
 "id": "zh-zstb-132-1__c0035",
-"titel": "L. Inkrafttreten",
-"pfad": [
-"ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
-"L. Inkrafttreten"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0034",
-"nachher": "zh-zstb-132-1__c0036"
-},
-{
-"id": "zh-zstb-132-1__c0036",
 "titel": "Gültig bis Steuerperiode 2024",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
@@ -633,11 +615,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0035",
-"nachher": "zh-zstb-132-1__c0037"
+"vorher": "zh-zstb-132-1__c0034",
+"nachher": "zh-zstb-132-1__c0036"
 },
 {
-"id": "zh-zstb-132-1__c0037",
+"id": "zh-zstb-132-1__c0036",
 "titel": "Gültig bis Steuerperiode 2019",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
@@ -651,11 +633,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0036",
-"nachher": "zh-zstb-132-1__c0038"
+"vorher": "zh-zstb-132-1__c0035",
+"nachher": "zh-zstb-132-1__c0037"
 },
 {
-"id": "zh-zstb-132-1__c0038",
+"id": "zh-zstb-132-1__c0037",
 "titel": "Gültig bis Steuerperiode 2016",
 "pfad": [
 "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung",
@@ -669,7 +651,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-132-1__c0037",
+"vorher": "zh-zstb-132-1__c0036",
 "nachher": null
 }
 ]

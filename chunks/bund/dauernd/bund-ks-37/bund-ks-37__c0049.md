@@ -4,20 +4,21 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 49"
-seiten: "11"
+titel: "Ziff. 7.3.3.2 Arbeitgeberwechsel ins Ausland – anteilsmässige Quellenbesteuerung (Teil 1/2)"
+ziffer: "7.3.3.2"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3.3 Export › 7.3.3.2 Ohne Ansässigkeitswechsel · S. 16
 
-Artikel 7 wie auch Artikel 8 MBV schreiben dem Arbeitgeber vor, welche Angaben er in den
-Fällen der anteilsmässigen Besteuerung nach Artikel 17d DBG zu bescheinigen hat. Anzu-
-merken ist, dass die Artikel 7 und 8 MBV auf Grund des ausdrücklichen Verweises in Arti-
-kel 9 MBV in analoger Weise auch auf weitere Sachverhalte anzuwenden sind, wie beispiels-
-weise, wenn ein Mitarbeitender aus dem Ausland in die Schweiz zuzieht, für kurze Zeit hier
-ansässig ist und noch vor dem Vesting wieder wegzieht oder umgekehrt. Die örtliche Zustän-
-digkeit der Besteuerung richtet sich nach den Artikeln 107 und 105 DBG. Die Bescheinigung
-bei Wegzug eines Mitarbeitenden ist der nach diesen Bestimmungen zuständigen kantona-
-len Behörde zuzustellen. Der Arbeitgeber hat in seiner Eigenschaft als Schuldner der steuer-
-baren Leistung die Quellensteuer jeweils bloss auf dem schweizerischen Anteil abzurech-
-nen.
+Hat der im Ausland ansässige Mitarbeitende innerhalb der Vestingperiode einen Arbeitgeber-
+wechsel ins Ausland vollzogen bzw. sein Arbeitsverhältnis in der Schweiz beendet, so hat
+die Quellenbesteuerung gemäss den Artikeln 91 und 97 DBG anteilsmässig zu erfolgen.
+Dies gilt dementsprechend auch für Fälle, die nach Artikel 93 DBG quellensteuerpflichtig
+sind. Die Besteuerung ist dabei nach dem Verhältnis der Arbeitstage (Tage des Verwaltungs-
+ratsmandats) Schweiz / Ausland während der Vestingperiode anteilsmässig vorzunehmen
+(sinngemässe Anwendung von Art. 17d DBG). Die in diese Zeitspanne fallenden Ferien, Wo-
+chenenden, gesetzlichen Feiertage und sonstigen Abwesenheiten (Reisetage, Krankheiten,
+Militärdienst, Mutterschaftsurlaub etc.) sind für die Berechnung der massgebenden Arbeits-
+tage unerheblich. Die Arbeitstage Schweiz sind allenfalls noch um allfällige Drittstaattage zu
+kürzen (vgl. voranstehender Absatz). Die Berechnung ist wie folgt vorzunehmen:

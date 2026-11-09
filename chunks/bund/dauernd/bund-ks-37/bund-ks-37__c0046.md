@@ -4,23 +4,24 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 46"
-seiten: "11"
+titel: "Ziff. 7.3.3.1 Export mit Ansässigkeitswechsel – erweiterte Quellensteuer Art. 97a DBG (11,5 %)"
+ziffer: "7.3.3.1"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3.3 Export › 7.3.3.1 Mit Ansässigkeitswechsel · S. 15
 
-<!-- Seite 11 -->
-Abs. 3 DBG). Steuerbar ist der gesamte Veräusserungserlös bzw. Ausübungsgewinn nach
-Abzug allfälliger Gestehungskosten.
+7.3.3.1   „Export“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel
+Der „Export“ von Mitarbeiterbeteiligungen, welche nach schweizerischem Recht bei Realisa-
+tion besteuert werden, zieht in diesem Zeitpunkt in der Schweiz Einkommenssteuerfolgen
+nach sich. Verlegt dabei der Mitarbeitende vor Realisation der Mitarbeiterbeteiligungen sei-
+nen Wohnsitz ins Ausland, hat die Quellenbesteuerung in Anwendung von Artikel 97a DBG
+zu erfolgen. Der in der Schweiz steuerbare geldwerte Vorteil berechnet sich dabei wie folgt
+(vgl. Art. 17d DBG):
 
-5   Besteuerung von Anwartschaften auf Mitarbeiteraktien
-Anwartschaften auf Mitarbeiteraktien werden im Zeitpunkt der Umwandlung in Mitarbeiterak-
-tien besteuert. Die Besteuerung richtet sich in diesem Zeitpunkt nach den für die Mitarbeiter-
-aktien geltenden Vorgaben (vgl. Ziff. 3 hievor).
+Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage in der Schweiz innerhalb der Vestingperiode
 
-6   Besteuerung von unechten Mitarbeiterbeteiligungen (Art. 17c DBG)
-Geldwerte Vorteile aus der Einräumung von unechten Mitarbeiterbeteiligungen sind im Zeit-
-punkt ihres Zuflusses steuerbar. Als Erwerbseinkommen unterliegt der gesamte geldwerte
-Vorteil der Einkommenssteuer, d.h. aus unechten Mitarbeiterbeteiligungen kann diesfalls
-kein steuerfreier privater Kapitalgewinn resultieren.
+    Anzahl Tage der Vestingperiode
+
+Die Steuer (Anteil direkte Bundessteuer) beträgt 11,5 Prozent des in der Schweiz steuerba-
+ren geldwerten Vorteils (Art. 97a Abs. 2 DBG).

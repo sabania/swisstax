@@ -4,30 +4,44 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 131"
-seiten: "33"
+titel: "Ziff. 7.3.2 Beispiel 2 – 50 %/50 %, unterschiedlicher Lohn"
+ziffer: "7.3.2"
+seiten: "42"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 33
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.2 Teilzeit-Erwerbstätigkeiten · S. 42
 
-    Leistungen   steuerbar   Satz   satzbestimmend
+    Teilzeit-Tätigkeiten (50 % - 50 %; unterschiedlicher Lohn):
+    2. Ein lediger Steuerpflichtiger übt zwei unselbstständige Erwerbstätigkeiten in der Schweiz aus (Gesamtpen-
+    sum 100 %):
+       50 % beim Arbeitgeber 1 für einen Bruttojahreslohn von CHF 39 000.00 (CHF 3 000 x 13)
+       50 % beim Arbeitgeber 2 für einen Bruttojahreslohn von CHF 52 000.00 (CHF 4 000 x 13)
 
-    Bruttolohn (Nov. 2021)   8 000   15,0 %   8 000
+    Arbeitgeber 1
 
-    Bonus (Apr. 2022)   10 500   27,0 %   23 000
+    Monat   Januar   …   November   Dezember   Besteuerung
 
-    Quellensteuern bezahlt November 2021   1 200
+    Bruttolohn   3 000   3 000   6 000   39 000
 
-    Quellensteuern geschuldet April 2022   2 835
+    Tarifcode   A0   A0   A0   A0
 
-    3. Besteuerung einer Bonuszahlung an einen Grenzgänger aus Deutschland:
-    Der Arbeitnehmer W. tritt per 30. November 2021 aus der Unternehmung X. aus. W. qualifiziert als Grenz-
-    gänger im Sinne von Artikel 15a DBA-D. Die letzte Lohnzahlung im November 2021 beläuft sich auf
-    CHF 8 000.00 und wurde mit einem Satz von 4.5 % an der Quelle besteuert. Im April des Folgejahres er-
-    hält er einen Bonus von CHF 21 000.00, welcher von der Geschäftsleitung der Unternehmung X. im April
-    2022 beschlossen wurde. Dieser Bonus ist separat im Auszahlungsmonat (April 2022) steuerpflichtig, da
-    der Rechtsanspruch in diesem Monat entstanden ist (Beschluss Geschäftsleitung Unternehmung X.). Es
-    hat keine Satzkorrektur auf dem letzten Arbeitsmonat (November 2021) zu erfolgen. Die Unternehmung X.
-    hat keine Kenntnis über die aktuellen Einkommensverhältnisse von W. Da der Arbeitnehmer W. in der Ver-
-    dienstperiode (2021) Grenzgänger im Sinne von Artikel 15a DBA-D war, ist der Bonus zum Steuersatz von
-    maximal 4.5 % an der Quelle zu besteuern.
+    Steuersatz (%)   12,41   12,4   12,4   12,4
+
+    Quellensteuer   372   372   744   4 836
+
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 78 000.00 (CHF 3000 x 13 / 50 %).
+
+
+    Arbeitgeber 2
+
+    Monat   Januar   …   November   Dezember   Besteuerung
+
+    Bruttolohn   4 000   4 000   8 000   52 000
+
+    Tarifcode   A0   A0   A0   A0
+
+    Steuersatz (%)   15,41   15,4   15,4   15,4
+
+    Quellensteuer   616   616   1 232   8 008
+
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 104 000.00 (CHF 4 000 x 13 / 50 %).

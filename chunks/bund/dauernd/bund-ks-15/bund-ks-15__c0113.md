@@ -4,31 +4,28 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang IV Gutachten Ziff. III.2 Verhältnismässigkeit schuldnerspezifischer Zinssatz"
-ziffer: "Anh. IV III.2"
-seiten: "33-34"
+titel: "Anhang IV Gutachten Ziff. III.3 Anleihensteil während der Laufzeit – Formel (Teil 2/2)"
+ziffer: "Anh. IV III.3"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Gutachten SBVg › III Beurteilung · S. 33–34
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34
 
-Auch bei der modifizierten Differenzbesteuerung wäre es - zumindest theoretisch -
-denkbar, den Wert des Anleihensteils basierend auf dem risikofreien Zinssatz und dem
-individuellen Credit Spread des Schuldners zu berechnen. Dies würde allerdings vor-
-aussetzen, dass nicht bloss das Credit Rating (wie beispielsweise A, AA, AAA), son-
-dern insbesondere der Credit Spread des entsprechenden Emittenten im jeweiligen
-Emissionszeitpunkt bekannt wäre. Ein solches Vorgehen wäre aufgrund der schwieri-
-gen Datenermittlung nicht nur für die Emittenten aufwendiger, sondern auch für die
-Steuerbehörde kaum mehr zu überprüfen. Die Anwendung des schuldnerspezifischen
-Zinssatzes für die Ermittlung des Bond Floors würde nicht zu wesentlich anderen Er-
-gebnissen führen. Daher erachten wir es unter dem Aspekt der Verhältnismässigkeit
-als vertretbar, die Berechnung des Wertes des Anleihensteils zum Zeitpunkt der Emis-
+Bei der angewandten Methode wird der Veränderung des Zinsumfelds dadurch Rech-
+nung getragen, dass der bei Emission für die Abdiskontierung verwendete Zinssatz (i0)
+im Verhältnis der 5-Jahres-Swap-Rate zum Zeitpunkt der Emission (SQ0) zu jener zum
+Zeitpunkt der Handänderung (SQ1) angepasst wird. Für diese Anpassung wird die 5-
+Jahres-Swap-Rate am ersten Tag des entsprechenden Quartals angewendet*.
 
+i1 = i0 * sQ1 / sQ0
 
-Gutachten - Anhang IV zum Kreisschreiben Nr. 15   5
+i1:   Modifizierter Abdiskontierungssatz für die Berechnung des Anleihensteils wäh-
+    rend der Laufzeit
+i0:   Swap-Rate für die entsprechende Währung und Laufzeit zum Emissionszeit-
+    punkt
+sQ0:   5-Jahres-Swap-Rate der entsprechenden Währung im Quartal des Emissions-
+    zeitpunkts
+sQ1:   5-Jahres-Swap-Rate der entsprechenden Währung im entsprechenden Quartal
+    während der Laufzeit
 
-sion aufgrund der Swap-Rate für die entsprechende Währung und Laufzeit vorzuneh-
-men.
-
-In der Praxis hat sich gezeigt, dass sich für die Emittenten (in der Regel schweizeri-
-sche oder international operierende Banken) mit diesem Ansatz keine nennenswerten
-Probleme ergeben.
+*   vgl. auch Beispiele im Anhang II des KS 15

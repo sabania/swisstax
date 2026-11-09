@@ -4,26 +4,26 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 63"
-seiten: "20"
+titel: "Ziff. 9.3 a) Meldung Verrechnungssteuer – ordentliches Verfahren, Formular 170 (Teil 1/2)"
+ziffer: "9.3 a"
+seiten: "25-26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.3 Meldung Verrechnungssteuer · S. 25–26
 
-Der übertragene und ausgewiesene Aktivenüberschuss der Vermögenswerte kann in der
-Handelsbilanz der übernehmenden Kapitalgesellschaft oder Genossenschaft als KER bzw.
-Ausland-KER ausgewiesen und/oder für die Liberierung von Grund- oder Stammkapital ver-
-wendet werden.
+9.3.   Meldung für die Verrechnungssteuer
 
-6.6.   Übertragung zwischen inländischen Konzerngesellschaften
+a) Ordentliches Verfahren
 
-a)   Direkte Bundessteuer (Einkommenssteuer)
+Der Geschäftsbericht oder die unterzeichnete Abschrift der Jahresrechnung ist unter Berück-
+sichtigung des unter Ziffer 9.1. hiervor erläuterten gesonderten Ausweises von KER bzw.
+Ausland-KER der ESTV unaufgefordert innert 30 Tagen nach Genehmigung der Jahresrech-
+nung einzureichen.
 
-Nicht betroffen.
+Gleiches gilt für das Formular 170, sofern im betreffenden Geschäftsjahr nur Einlagen in die
+KER bzw. Ausland-KER erfolgten.
 
-b)   Direkte Bundessteuer (Gewinnsteuer)
-
-Erfolgt die steuerneutrale Übertragung zu Lasten der offenen Reserven einer Tochtergesell-
-schaft an die Muttergesellschaft, stellt der erhaltene Aktivenüberschuss einen Beteiligungser-
-trag dar. Falls der Aktivenüberschuss nicht über die Erfolgsrechnung, sondern direkt über die
-Reserven verbucht wird, qualifiziert der Zugang als übrige Reserve.
+Erfolgen Rückzahlungen von KER bzw. Ausland-KER, sind diese innert 30 Tagen nach der
+Generalversammlung oder spätestens 30 Tage nach der Rückzahlung mittels Formular 170
+unaufgefordert zu melden. Allenfalls erfolgte Einlagen des laufenden Geschäftsjahres sind
+mit dem gleichen Formular zu melden.

@@ -1,0 +1,818 @@
+jur: bund
+jahr: 2025
+werte:
+- key: berufskosten.fahrkosten.max
+  wert: 3300
+  einheit: CHF
+  text: 'Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3''300 pro Person und Jahr (Steuerjahr 2025)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 26 Abs. 1 lit. a DBG; Art. 5 BKV
+  quellen:
+  - chunk: bund-dbg-2025__art-26
+    zitat: die notwendigen Kosten bis zu einem Maximalbetrag von 3300 Franken für die Fahrten zwischen Wohn- und Arbeitsstätte
+  - chunk: bund-rs-2-210__c0002
+    zitat: auf CHF 3'300 erhöht
+  - chunk: bund-wl-2a-2025__c0042
+    zitat: '3200 Franken jährlich:'
+  status: strittig
+  bemerkung: 'Widerspruch: DBG Art. 26 Abs. 1 lit. a (Fassung 2025) und RS 2-210 Ziff. 1.1 nennen CHF 3''300 (Erhöhung von 3''200 wegen kalter Progression); die ESTV-Wegleitung 2a 2025 (S. 6) nennt noch
+    ''maximal 3200 Franken''. Nach Rangfolge gilt das Gesetz (3''300), der Wegleitungstext scheint nicht nachgeführt; Entscheid durch Fachperson. Original: raw Wegleitung 2a 2025, S. 6.'
+- key: berufskosten.fahrkosten.auto_km
+  wert: 0.7
+  einheit: CHF
+  text: 'Privatauto: Abzug pro Fahrkilometer CHF 0.70, nur wenn kein öffentliches Verkehrsmittel verfügbar/zumutbar (Steuerjahr 2025)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 5 Abs. 2 lit. b BKV; Anhang Ziff. 2 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Autos | pro Fahrkilometer | –.70
+  - chunk: bund-wl-2a-2025__c0043
+    zitat: und bis zu 70 Rp. für Autos
+  status: extrahiert
+  bemerkung: Ab Steuerjahr 2026 CHF 0.75/km (ESTV-Mitteilung 11.09.2025) – für 2025 nicht anwendbar.
+- key: berufskosten.fahrkosten.motorrad_km
+  wert: 0.4
+  einheit: CHF
+  text: 'Motorrad mit weissem Kontrollschild: CHF 0.40 pro Fahrkilometer (Steuerjahr 2025)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 5 Abs. 2 lit. b BKV; Anhang Ziff. 2 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Motorräder mit weissem Kontrollschild | pro Fahrkilometer | –.40
+  - chunk: bund-wl-2a-2025__c0043
+    zitat: ein Abzug bis zu 40 Rp., für Motorrä-
+  status: extrahiert
+- key: berufskosten.fahrkosten.velo_pauschale
+  wert: 700
+  einheit: CHF
+  text: Pauschale pro Jahr für Fahrrad, Motorfahrrad und Motorrad mit gelbem Kontrollschild; tatsächliche Kosten zusätzlich nicht abziehbar
+  gilt_fuer: bund
+  rechtsgrundlage: Anhang Ziff. 2 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Fahrräder, Motorfahrräder und Motorräder mit gelbem Kontrollschild | im Jahr | 700.—
+  - chunk: bund-wl-2a-2025__c0042
+    zitat: Pauschalabzug von 700 Fr. im Jahr bei Benützung
+  status: extrahiert
+- key: berufskosten.fahrkosten.arbeitstage
+  wert: null
+  einheit: null
+  text: Keine Arbeitstage-Regel beim Bund
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: Bund kennt keine Festlegung massgebender Arbeitstage; abziehbar sind die tatsächlichen notwendigen Kosten bis zum Maximalbetrag (Art. 26 Abs. 1 lit. a DBG).
+- key: berufskosten.verpflegung.tag
+  wert: 15
+  einheit: CHF
+  text: 'Mehrkosten auswärtige Verpflegung: CHF 15 pro Hauptmahlzeit (i.d.R. Mittagessen); ausschliesslich Pauschale, wenn Hauptmahlzeit wegen Entfernung/kurzer Pause nicht zu Hause eingenommen werden kann'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 26 Abs. 1 lit. b DBG; Art. 6 BKV; Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Voller Abzug | pro Hauptmahlzeit bzw. Tag | 15.—
+  - chunk: bund-wl-2a-2025__c0045
+    zitat: beträgt 15 Fr. für jede auswärtige Hauptmahlzeit
+  status: extrahiert
+- key: berufskosten.verpflegung.jahr
+  wert: 3200
+  einheit: CHF
+  text: Bei ständiger auswärtiger Verpflegung CHF 3'200 pro Jahr (voller Abzug)
+  gilt_fuer: bund
+  rechtsgrundlage: Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: im Jahr | 3200.—
+  - chunk: bund-wl-2a-2025__c0045
+    zitat: gung 3200 Fr. im Jahr
+  status: extrahiert
+- key: berufskosten.verpflegung.verbilligt_tag
+  wert: 7.5
+  einheit: CHF
+  text: Halber Abzug CHF 7.50 pro Hauptmahlzeit, wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 6 Abs. 2 BKV; Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Halber Abzug | pro Hauptmahlzeit bzw. Tag | 7.50
+  - chunk: bund-bkv-2025__art-6-t1
+    zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung vom Arbeitgeber anders als in bar verbilligt wird
+  status: extrahiert
+  bemerkung: Kein Abzug mangels Mehrkosten, wenn Hauptmahlzeiten höchstens CHF 10 kosten bzw. unter den Bewertungsansätzen (Art. 6 Abs. 3 BKV; WL 2a 2025 S. 6).
+- key: berufskosten.verpflegung.verbilligt_jahr
+  wert: 1600
+  einheit: CHF
+  text: 'Halber Abzug bei Verbilligung: CHF 1''600 pro Jahr'
+  gilt_fuer: bund
+  rechtsgrundlage: Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-wl-2a-2025__c0045
+    zitat: Nur der halbe Abzug (Fr. 7.50 im Tag, 1600 Fr. im Jahr) ist
+  status: extrahiert
+- key: berufskosten.schichtarbeit.tag
+  wert: 15
+  einheit: CHF
+  text: 'Durchgehende Schicht-/Nachtarbeit (gestaffelte Arbeitszeit gleichgestellt, wenn beide Hauptmahlzeiten nicht zur üblichen Zeit zu Hause möglich): CHF 15 pro ausgewiesenem Tag, bei ganzjähriger Schicht-/Nachtarbeit
+    CHF 3''200 pro Jahr'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 6 Abs. 1 lit. b, Abs. 4 BKV; Anhang Ziff. 1 lit. a BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Bei auswärtiger Verpflegung bzw. Schicht- oder Nachtarbeit (Art. 6 Abs. 1 und 2)
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Voller Abzug | pro Hauptmahlzeit bzw. Tag | 15.—
+  - chunk: bund-bkv-2025__art-6-t1
+    zitat: bei durchgehender Schicht- oder Nachtarbeit
+  status: extrahiert
+  bemerkung: Nicht kumulierbar mit dem Wochenaufenthalts-Abzug (Art. 6 Abs. 6 BKV). Arbeitgeber bescheinigt Anzahl Tage (Art. 6 Abs. 5 BKV).
+- key: berufskosten.wochenaufenthalt.unterkunft
+  wert: null
+  einheit: Text
+  text: 'Mehrkosten Unterkunft: ortsübliche Auslagen für ein Zimmer (nicht eine Wohnung) abziehbar; Fahrkosten der regelmässigen Heimkehr bis zum Maximalbetrag nach Art. 5 Abs. 1 BKV'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 9 Abs. 3 und 4 BKV
+  quellen:
+  - chunk: bund-bkv-2025__art-9
+    zitat: Als notwendige Mehrkosten der Unterkunft sind die ortsüblichen Auslagen für ein Zimmer abziehbar.
+  status: extrahiert
+- key: berufskosten.wochenaufenthalt.verpflegung_jahr
+  wert: 6400
+  einheit: CHF
+  text: 'Auswärtiger Wochenaufenthalt: Verpflegung CHF 30 pro Tag, max. CHF 6''400 pro Jahr; bei Verbilligung CHF 22.50 pro Tag bzw. CHF 4''800 pro Jahr; Nachweis höherer Kosten ausgeschlossen'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 9 Abs. 2 BKV; Anhang Ziff. 1 lit. b BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Voller Abzug | im Tag im Jahr | 30.— 6400.—
+  - chunk: bund-wl-2a-2025__c0044
+    zitat: Wochenaufenthalt 6400 Fr. im Jahr
+  status: extrahiert
+- key: berufskosten.uebrige.satz
+  wert: 3
+  einheit: '%'
+  text: 'Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 26 Abs. 2 DBG; Art. 7 BKV; Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: 3 % des Nettolohns, mindestens im Jahr | 2000.—
+  - chunk: bund-bkv-2025__art-7
+    zitat: Der Pauschalabzug ist angemessen zu kürzen, wenn die unselbständige Erwerbstätigkeit bloss während eines Teils des Jahres oder als Teilzeitarbeit ausgeübt wird.
+  status: extrahiert
+- key: berufskosten.uebrige.fix
+  wert: null
+  einheit: null
+  text: Kein fixer Sockelbetrag (Formel nur Prozentsatz mit Min/Max)
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: 'Bund: 3 % des Nettolohns, min. CHF 2''000, max. CHF 4''000; kein ''fix + %''-Modell.'
+- key: berufskosten.uebrige.min
+  wert: 2000
+  einheit: CHF
+  text: Minimum der Pauschale übrige Berufskosten
+  gilt_fuer: bund
+  rechtsgrundlage: Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: 3 % des Nettolohns, mindestens im Jahr | 2000.—
+  status: extrahiert
+- key: berufskosten.uebrige.max
+  wert: 4000
+  einheit: CHF
+  text: Maximum der Pauschale übrige Berufskosten
+  gilt_fuer: bund
+  rechtsgrundlage: Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: höchstens im Jahr | 4000.—
+  status: extrahiert
+- key: berufskosten.nebenerwerb.satz
+  wert: 20
+  einheit: '%'
+  text: 'Nebenerwerb: Pauschale 20 % der Nettoeinkünfte (nach Abzug der Sozialversicherungsbeiträge)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 10 BKV; Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
+  - chunk: bund-wl-2a-2025__c0045
+    zitat: Pauschalabzug von 20 % der Nebeneinkünfte
+  status: extrahiert
+- key: berufskosten.nebenerwerb.min
+  wert: 800
+  einheit: CHF
+  text: Minimum Pauschale Nebenerwerb
+  gilt_fuer: bund
+  rechtsgrundlage: Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
+  - chunk: bund-wl-2a-2025__c0046
+    zitat: destens 800 Fr. bzw. maximal 2400 Fr. im Jahr geltend gemacht
+  status: extrahiert
+- key: berufskosten.nebenerwerb.max
+  wert: 2400
+  einheit: CHF
+  text: Maximum Pauschale Nebenerwerb
+  gilt_fuer: bund
+  rechtsgrundlage: Anhang Ziff. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: höchstens im Jahr | 2400.—
+  - chunk: bund-wl-2a-2025__c0046
+    zitat: destens 800 Fr. bzw. maximal 2400 Fr. im Jahr geltend gemacht
+  status: extrahiert
+- key: berufskosten.homeoffice
+  wert: null
+  einheit: Text
+  text: 'Privates Arbeitszimmer: nur als Teil der Pauschale ''übrige Berufskosten'' bzw. bei Nachweis höherer Kosten abziehbar; Kosten (Miete, Heizung, Beleuchtung) nur, wenn das Zimmer für die Berufsarbeit
+    benützt werden muss. Gelegentliche Arbeit in der Privatwohnung gibt keinen Abzug'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 7 Abs. 1 BKV
+  quellen:
+  - chunk: bund-bkv-2025__art-7
+    zitat: privates Arbeitszimmer, Berufskleider, besonderen Schuh- und Kleiderverschleiss sowie Schwerarbeit als Pauschale nach Artikel 3 abgezogen werden
+  - chunk: bund-wl-2a-2025__c0041
+    zitat: Bloss gelegentliche
+  status: extrahiert
+  bemerkung: Keine separate Homeoffice-Pauschale in den Quellen des Wikis für Bund 2025.
+- key: weiterbildung.max
+  wert: 13000
+  einheit: CHF
+  text: Berufsorientierte Aus- und Weiterbildung inkl. Umschulung bis CHF 13'000 (erster Abschluss Sek II oder 20. Lebensjahr vollendet)
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 1 lit. j DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t4
+    zitat: bis zum Gesamtbetrag von 13 000 Franken
+  - chunk: bund-rs-2-210__c0007
+    zitat: 12’900 13’000
+  - chunk: bund-wl-2a-2025__c0052
+    zitat: Umschulungskosten bis zum Gesamtbetrag von maximal
+  status: extrahiert
+- key: versicherung.verheiratet
+  wert: 3700
+  einheit: CHF
+  text: Versicherungsprämien und Sparkapitalzinsen, Ehepaare mit Beiträgen an Säule 2/3a
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 1 lit. g Ziff. 1 DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t2
+    zitat: 3700 Franken für Ehepaare, die in rechtlich und tatsächlich ungetrennter Ehe leben
+  - chunk: bund-rs-2-210__c0006
+    zitat: mit Beiträgen an die Säulen 2 und 3a 3’600 3’700
+  status: extrahiert
+- key: versicherung.verheiratet_ohne_vorsorge
+  wert: 5550
+  einheit: CHF
+  text: Ehepaare ohne Beiträge an Säule 2/3a (Erhöhung um die Hälfte)
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 1bis lit. a DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t5
+    zitat: um die Hälfte für Steuerpflichtige ohne Beiträge nach Absatz 1 Buchstaben d und e
+  - chunk: bund-rs-2-210__c0006
+    zitat: ohne Beiträge an die Säulen 2 und 3a 5’400 5’550
+  status: extrahiert
+- key: versicherung.alleinstehend
+  wert: 1800
+  einheit: CHF
+  text: Übrige Steuerpflichtige (Ledige, Verwitwete, Geschiedene, Getrennte) mit Beiträgen an Säule 2/3a
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 1 lit. g Ziff. 2 DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t2
+    zitat: 1800 Franken für die übrigen Steuerpflichtigen
+  - chunk: bund-wl-2a-2025__c0050
+    zitat: 1800 Fr. für die übrigen Steuerpflichtigen;
+  status: extrahiert
+- key: versicherung.alleinstehend_ohne_vorsorge
+  wert: 2700
+  einheit: CHF
+  text: Übrige Steuerpflichtige ohne Beiträge an Säule 2/3a
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 1bis lit. a DBG
+  quellen:
+  - chunk: bund-rs-2-210__c0006
+    zitat: ohne Beiträge an die Säulen 2 und 3a 2’700 2’700
+  - chunk: bund-wl-2a-2025__c0050
+    zitat: 2700 Fr. für die übrigen Steuerpflichtigen.
+  status: extrahiert
+- key: versicherung.kind
+  wert: 700
+  einheit: CHF
+  text: Zuschlag pro Kind bzw. unterstützungsbedürftige Person mit Abzug nach Art. 35 Abs. 1 lit. a/b DBG
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 1bis lit. b DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t5
+    zitat: um 700 Franken für jedes Kind oder jede unterstützungsbedürftige Person
+  - chunk: bund-rs-2-210__c0006
+    zitat: für jedes Kind 700 700
+  status: extrahiert
+- key: saeule3a.max_mit_2saeule
+  wert: 7258
+  einheit: CHF
+  text: 'Säule 3a: Höchstabzug mit Zugehörigkeit zur 2. Säule (8 % des oberen BVG-Grenzbetrags)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 1 lit. e DBG; Art. 7 Abs. 1 lit. a BVV 3
+  quellen:
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
+  - chunk: bund-wl-2a-2025__c0048
+    zitat: Höchstabzug von 7258 Fr. im Jahr
+  - chunk: bund-bvv3__art-7
+    zitat: jährlich bis 8 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG
+  status: extrahiert
+- key: saeule3a.max_ohne_2saeule
+  wert: 36288
+  einheit: CHF
+  text: 'Säule 3a: Höchstabzug ohne 2. Säule (max. 36''288, 40 % des oberen BVG-Grenzbetrags)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 7 Abs. 1 lit. b BVV 3
+  quellen:
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
+  - chunk: bund-wl-2a-2025__c0048
+    zitat: höchstens 36 288 Fr. im Jahr
+  status: extrahiert
+- key: saeule3a.satz_ohne_2saeule
+  wert: 20
+  einheit: '%'
+  text: 'Säule 3a ohne 2. Säule: 20 % des Erwerbseinkommens (max. CHF 36''288)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 7 Abs. 1 lit. b BVV 3
+  quellen:
+  - chunk: bund-bvv3__art-7
+    zitat: jährlich bis 20 Prozent des Erwerbseinkommens
+  - chunk: bund-wl-2a-2025__c0048
+    zitat: 'der beruflichen Vorsorge (2. Säule) angehört: 20 % des'
+  status: extrahiert
+- key: saeule3a.einkauf
+  wert: null
+  einheit: Text
+  text: 'Nachträglicher Einkauf (Nachzahlung) in die Säule 3a: zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren (ab Beitragsjahr 2025) nicht alle zulässigen Beiträge einbezahlt
+    wurden, im Einkaufsjahr der volle ordentliche Beitrag geleistet wird; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7''258); je Jahresbeitragslücke nur ein Einkauf; Lücken vor 01.01.2025
+    nicht einkaufbar'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 7a, 7b BVV 3; Übergangsbestimmung Änderung 6.11.2024
+  quellen:
+  - chunk: bund-bvv3__art-7a-t1
+    zitat: in den zehn dem Einkauf vorangehenden Jahren nicht alle für sie maximal zulässigen Beiträge einbezahlt haben
+  - chunk: bund-bvv3__art-7a-t1
+    zitat: auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG
+  - chunk: bund-bvv3__uebergang-disp-u3
+    zitat: können nicht mit einem Einkauf ausgeglichen werden
+  - chunk: bund-mm-saeule3a-einkauf__c0001
+    zitat: Diese treten per 1. Januar 2025 in Kraft
+  status: extrahiert
+  bemerkung: BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. Betrag CHF 7'258 abgeleitet aus 8 % des oberen Grenzbetrags (BSV-Masszahlen 7'258). Das ESTV-KS 18a (ab 01.01.2026) gilt nicht für 2025 und wurde
+    nicht herangezogen. Praktisch erster Einkauf frühestens 2026 (Lücken erst ab Beitragsjahr 2025) – laut Seed, nicht aus Quelle bestätigt.
+- key: zweiverdiener.satz
+  wert: 50
+  einheit: '%'
+  text: 'Zweiverdienerabzug: 50 % des niedrigeren Erwerbseinkommens (bei Ehegatten in ungetrennter Ehe mit beidseitigem Erwerbseinkommen)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 2 DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t6
+    zitat: so werden vom niedrigeren Erwerbseinkommen 50 Prozent, jedoch mindestens 8600 Franken und höchstens 14 100 Franken abgezogen
+  - chunk: bund-wl-2a-2025__c0058
+    zitat: Vom niedrigeren Erwerbsein
+  status: extrahiert
+- key: zweiverdiener.min
+  wert: 8600
+  einheit: CHF
+  text: Zweiverdienerabzug Minimum
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 2 DBG; Art. 3 Abs. 4 VKP
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t6
+    zitat: 50 Prozent, jedoch mindestens 8600 Franken
+  - chunk: bund-rs-2-210__c0007
+    zitat: Min. 8’500 8’600
+  - chunk: bund-vkp-2025__art-3-t2
+    zitat: mindestens 8600 Franken und höchstens 14 100 Franken
+  status: extrahiert
+- key: zweiverdiener.max
+  wert: 14100
+  einheit: CHF
+  text: Zweiverdienerabzug Maximum
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 2 DBG; Art. 3 Abs. 4 VKP
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t6
+    zitat: höchstens 14 100 Franken
+  - chunk: bund-rs-2-210__c0007
+    zitat: Max. 13’900 14’100
+  - chunk: bund-vkp-2025__art-3-t2
+    zitat: mindestens 8600 Franken und höchstens 14 100 Franken
+  status: extrahiert
+- key: drittbetreuung.max
+  wert: 25800
+  einheit: CHF
+  text: Nachgewiesene Drittbetreuungskosten pro Kind bis max. CHF 25'800 (Kind unter 14, im gleichen Haushalt, Zusammenhang mit Erwerbstätigkeit/Ausbildung/Erwerbsunfähigkeit)
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 3 DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t7
+    zitat: jedoch höchstens 25 800 Franken, für die Drittbetreuung jedes Kindes
+  - chunk: bund-rs-2-210__c0007
+    zitat: Max. 25’500 25’800
+  status: extrahiert
+- key: drittbetreuung.altersgrenze
+  wert: 14
+  einheit: Jahre
+  text: Kind, das das 14. Altersjahr noch nicht vollendet hat
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 3 DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t7
+    zitat: das das 14. Altersjahr noch nicht vollendet hat
+  status: extrahiert
+- key: krankheitskosten.selbstbehalt_satz
+  wert: 5
+  einheit: '%'
+  text: Krankheits- und Unfallkosten abziehbar, soweit sie 5 % der um die Aufwendungen (Art. 26–33) verminderten steuerbaren Einkünfte übersteigen; behinderungsbedingte Kosten (BehiG) ohne Selbstbehalt
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 1 lit. h und hbis DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t3
+    zitat: diese 5 Prozent der um die Aufwendungen
+  - chunk: bund-wl-2a-2025__c0055
+    zitat: um den Selbstbehalt von 5 % des Nettoeinkommens
+  status: extrahiert
+  bemerkung: 'KS 11a (publiziert 26.05.2026, ersetzt KS 11) ist eine Praxisänderung nach Ende des Steuerjahres; Anwendung auf 2025 durch Fachperson prüfen (Hinweis in Quellenliste: gilt grundsätzlich für
+    alle offenen Veranlagungen).'
+- key: spenden.min
+  wert: 100
+  einheit: CHF
+  text: 'Freiwillige Zuwendungen an steuerbefreite juristische Personen (CH) bzw. Gemeinwesen: mindestens CHF 100 im Steuerjahr'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33a DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33a
+    zitat: wenn diese Leistungen im Steuerjahr 100 Franken erreichen
+  status: extrahiert
+- key: spenden.max_satz
+  wert: 20
+  einheit: '%'
+  text: Maximum 20 % der um die Aufwendungen (Art. 26–33) verminderten Einkünfte (Nettoeinkommen Ziff. 20)
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33a DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33a
+    zitat: insgesamt 20 Prozent der um die Aufwendungen
+  - chunk: bund-wl-2a-2025__c0056
+    zitat: dürfen 20 % des Nettoeinkommens gemäss Ziffer 20
+  status: extrahiert
+- key: parteispenden.max
+  wert: 10600
+  einheit: CHF
+  text: Mitgliederbeiträge und Zuwendungen an politische Parteien bis CHF 10'600
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 1 lit. i DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t3
+    zitat: bis zum Gesamtbetrag von 10 600 Franken an politische Parteien
+  - chunk: bund-rs-2-210__c0007
+    zitat: 10’400 10’600
+  status: extrahiert
+- key: parteispenden.max_verheiratet
+  wert: null
+  einheit: null
+  text: Keine separate Grenze für gemeinsam Besteuerte
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: Bund kennt nur einen Gesamtbetrag von CHF 10'600 (Art. 33 Abs. 1 lit. i DBG); keine Verdoppelung für Ehepaare in der Quelle.
+- key: liegenschaft.pauschale_neu
+  wert: 10
+  einheit: '%'
+  text: 'Pauschalabzug Unterhaltskosten: 10 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, Gebäude bis 10 Jahre alt (zu Beginn der Steuerperiode); Wahlrecht je Periode und Liegenschaft'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 32 Abs. 4 DBG; Art. 5 Abs. 2 lit. a LKV
+  quellen:
+  - chunk: bund-lkv__art-5
+    zitat: 'wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags'
+  status: extrahiert
+- key: liegenschaft.pauschale_alt
+  wert: 20
+  einheit: '%'
+  text: 'Pauschalabzug: 20 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, Gebäude über 10 Jahre alt'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 5 Abs. 2 lit. b LKV
+  quellen:
+  - chunk: bund-lkv__art-5
+    zitat: 'wenn das Gebäude zu Beginn der Steuerperiode mehr als zehn Jahre alt ist: 20 Prozent des Brutto-Mietertrags'
+  status: extrahiert
+- key: liegenschaft.eigenmietwert_abzug
+  wert: null
+  einheit: null
+  text: Kein prozentualer Einschlag auf den Eigenmietwert beim Bund
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: Eigenmietwert wird nach ortsüblichen Verhältnissen und tatsächlicher Nutzung festgesetzt (Art. 21 Abs. 2 DBG); Abschaffung per 01.01.2029 beschlossen, 2025–2028 gilt bisheriges Recht. Kantonale
+    Einschläge sind Sache der Kantone.
+  rechtsgrundlage: Art. 21 Abs. 1 lit. b, Abs. 2 DBG
+- key: sozialabzug.kind
+  wert: 6800
+  einheit: CHF
+  text: Kinderabzug pro minderjähriges oder in Ausbildung stehendes Kind; bei getrennter Besteuerung hälftig, wenn gemeinsame elterliche Sorge und keine Unterhaltsbeiträge
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 35 Abs. 1 lit. a DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-35
+    zitat: 6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind
+  - chunk: bund-rs-2-210__c0007
+    zitat: Kinderabzug (Art. 35 Abs. 1 Bst. a DBG) 6’700 6’800
+  status: extrahiert
+- key: sozialabzug.kind_vorschule
+  wert: null
+  einheit: null
+  text: Beim Bund kein Vorschulabzug
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: 'Bund: einheitlicher Kinderabzug CHF 6''800 (sozialabzug.kind); Staffelung nach Alter nur kantonal.'
+- key: sozialabzug.kind_schule
+  wert: null
+  einheit: null
+  text: Beim Bund kein Schulalter-Abzug
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: 'Bund: einheitlicher Kinderabzug CHF 6''800 (sozialabzug.kind).'
+- key: sozialabzug.kind_ausbildung
+  wert: 6800
+  einheit: CHF
+  text: 'Kinder in beruflicher oder schulischer Ausbildung: gleicher Kinderabzug CHF 6''800 wie für Minderjährige (kein höherer Ausbildungsabzug)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 35 Abs. 1 lit. a DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-35
+    zitat: 6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind
+  status: extrahiert
+- key: sozialabzug.kind_ausbildung_auswaerts
+  wert: null
+  einheit: null
+  text: Beim Bund kein Zuschlag für auswärtige Ausbildung
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: 'Bund: gleicher Kinderabzug CHF 6''800 (Art. 35 Abs. 1 lit. a DBG).'
+- key: sozialabzug.unterstuetzung
+  wert: 6800
+  einheit: CHF
+  text: Unterstützungsabzug pro erwerbsunfähige/beschränkt erwerbsfähige Person, wenn mindestens in Höhe des Abzugs unterstützt; nicht für Ehegatten und Kinder mit Kinderabzug
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 35 Abs. 1 lit. b DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-35
+    zitat: 6800 Franken für jede erwerbsunfähige oder beschränkt erwerbsfähige Person
+  - chunk: bund-rs-2-210__c0007
+    zitat: Unterstützungsabzug (Art. 35 Abs. 1 Bst. b DBG) 6’700 6’800
+  status: extrahiert
+- key: sozialabzug.verheiratete
+  wert: 2800
+  einheit: CHF
+  text: Verheiratetenabzug für Ehepaare in rechtlich und tatsächlich ungetrennter Ehe
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 35 Abs. 1 lit. c DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-35
+    zitat: 2800 Franken für Ehepaare, die in rechtlich und tatsächlich ungetrennter Ehe leben
+  - chunk: bund-rs-2-210__c0007
+    zitat: Verheiratetenabzug (Art. 35 Abs. 1 Bst. c DBG) 2’800 2’800
+  status: extrahiert
+- key: sozialabzug.alter_iv
+  wert: null
+  einheit: null
+  text: Beim Bund kein Abzug für AHV-Alter/Erwerbsunfähigkeit/Verwitwete
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: Kantonaler Schlüssel; Art. 35 DBG kennt nur Kinder-, Unterstützungs- und Verheiratetenabzug.
+- key: steuerbetrag.abzug_kind
+  wert: 263
+  einheit: CHF
+  text: 'Ermässigung des Steuerbetrags pro Kind bzw. unterstützungsbedürftige Person (Elterntarif: Ehepaare und Alleinstehende mit Kindern im gleichen Haushalt)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 36 Abs. 2bis DBG; Art. 2 Abs. 3 VKP
+  quellen:
+  - chunk: bund-dbg-2025__art-36-t4
+    zitat: Der so ermittelte Steuerbetrag ermässigt sich um 263 Franken für jedes Kind oder jede unterstützungsbedürftige Person
+  - chunk: bund-rs-2-210__c0007
+    zitat: Abzug vom Steuerbetrag pro Kind (Art. 36 Abs. 2bis DBG) 259 263
+  status: extrahiert
+- key: vermoegen.freibetrag_alleinstehend
+  wert: null
+  einheit: null
+  text: Keine Vermögenssteuer beim Bund
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.
+- key: vermoegen.freibetrag_verheiratet
+  wert: null
+  einheit: null
+  text: Keine Vermögenssteuer beim Bund
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.
+- key: vermoegen.freibetrag_kind
+  wert: null
+  einheit: null
+  text: Keine Vermögenssteuer beim Bund
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.
+- key: steuerfrei.feuerwehrsold
+  wert: 5300
+  einheit: CHF
+  text: Sold der Milizfeuerwehrleute für Kernaufgaben steuerfrei bis CHF 5'300 pro Jahr
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 24 lit. fbis DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-24-t2
+    zitat: Sold der Milizfeuerwehrleute bis zum Betrag von jährlich 5300 Franken
+  - chunk: bund-rs-2-210__c0006
+    zitat: Feuerwehrsold (Art. 24 Bst. fbis DBG) 5’300 5’300
+  status: extrahiert
+- key: steuerfrei.grossspielgewinn
+  wert: 1070400
+  einheit: CHF
+  text: Einzelne Gewinne aus Grossspielen und Online-Spielbankenspielen steuerfrei bis CHF 1'070'400
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 24 lit. ibis DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-24-t3
+    zitat: die einzelnen Gewinne bis zum Betrag von 1 070 400 Franken
+  - chunk: bund-rs-2-210__c0006
+    zitat: Gewinnspiele (Art. 24 Bst. ibis DBG) 1'056’600 1'070’400
+  status: extrahiert
+- key: steuerfrei.kleingewinn
+  wert: 1100
+  einheit: CHF
+  text: Einzelne Gewinne aus Lotterien/Geschicklichkeitsspielen zur Verkaufsförderung steuerfrei bis CHF 1'100
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 24 lit. j DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-24-t3
+    zitat: sofern die Grenze von 1100 Franken nicht überschritten wird
+  status: extrahiert
+- key: tarif.steuerfuss_kanton
+  wert: null
+  einheit: null
+  text: Kantonaler Steuerfuss
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: Nur kantonal; beim Bund gilt der Tarif nach Art. 36 DBG.
+- key: tarif.steuerfrei_alleinstehend
+  wert: 15200
+  einheit: CHF
+  text: 'Grundtarif (Art. 36 Abs. 1 DBG): bis CHF 15''200 Einkommen CHF 0; danach CHF 0.77 pro weitere CHF 100'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 36 Abs. 1 DBG; Art. 2 Abs. 1 VKP
+  quellen:
+  - chunk: bund-rs-2-210__c0009
+    zitat: bis 15 200 Franken Einkommen 0 Franken
+  - chunk: bund-dbg-2025__art-36-t1
+    zitat: Die Steuer für ein Steuerjahr beträgt
+  status: extrahiert
+  bemerkung: 'Vollständiger Tarif: Art. 36 DBG / Tabelle WL 2a 2025 S. 10.'
+- key: tarif.steuerfrei_verheiratet
+  wert: 29700
+  einheit: CHF
+  text: 'Verheiratetentarif (Art. 36 Abs. 2 DBG): bis CHF 29''700 Einkommen CHF 0; danach CHF 1.00 pro weitere CHF 100'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 36 Abs. 2 DBG; Art. 2 Abs. 2 VKP
+  quellen:
+  - chunk: bund-rs-2-210__c0012
+    zitat: bis 29 700 Franken Einkommen 0 Franken
+  - chunk: bund-dbg-2025__art-36-t2
+    zitat: Für Ehepaare, die in rechtlich und tatsächlich ungetrennter Ehe leben, beträgt die jährliche Steuer
+  status: extrahiert
+- key: tarif.hoechstsatz_ab_alleinstehend
+  wert: 793400
+  einheit: CHF
+  text: 'Grundtarif: ab Einkommen CHF 793''400 einheitlich 11.5 % (CHF 91''241.00 + CHF 11.50 pro weitere CHF 100)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 36 Abs. 1 DBG
+  quellen:
+  - chunk: bund-rs-2-210__c0011
+    zitat: für 793 400 Franken Einkommen 91 241.00 Franken
+  - chunk: bund-wl-2a-2025__c0075
+    zitat: Für höhere steuerbare Einkünfte beträgt die Jahressteuer einheitlich 11.5 %
+  status: extrahiert
+- key: tarif.hoechstsatz_ab_verheiratet
+  wert: 940900
+  einheit: CHF
+  text: 'Verheiratetentarif: ab Einkommen CHF 940''900 einheitlich 11.5 % (CHF 108''203.50 + CHF 11.50 pro weitere CHF 100)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 36 Abs. 2 DBG
+  quellen:
+  - chunk: bund-rs-2-210__c0015
+    zitat: für 940 900 Franken Einkommen 108 203.50 Franken
+  - chunk: bund-wl-2a-2025__c0075
+    zitat: Für höhere steuerbare Einkünfte beträgt die Jahressteuer einheitlich 11.5 %
+  status: extrahiert
+- key: tarif.mindeststeuer
+  wert: 25
+  einheit: CHF
+  text: Steuerbeträge unter CHF 25 werden nicht erhoben
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 36 Abs. 3 DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-36-t4
+    zitat: Steuerbeträge unter 25 Franken werden nicht erhoben
+  - chunk: bund-rs-2-210__c0016
+    zitat: Steuerbeträge unter 25 Franken werden nicht erhoben
+  status: extrahiert
+  bemerkung: Seed nannte für 2025 '–'; Quelle (Art. 36 Abs. 3 DBG, Fassung 2025) nennt CHF 25.
+- key: verfahren.einreichefrist
+  wert: null
+  einheit: null
+  text: Einreichefrist bestimmt der Kanton
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: 'Natürliche Personen reichen die kantonale Steuererklärung ein, die auch die direkte Bundessteuer abdeckt; Frist/Erstreckung kantonal (Art. 124 Abs. 2 DBG: ''fristgemäss'').'
+  rechtsgrundlage: Art. 124 DBG
+- key: verfahren.fristerstreckung
+  wert: null
+  einheit: null
+  text: Fristerstreckung kantonal geregelt
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: 'Bund: keine eigene Regel; es gilt das kantonale Verfahren der Steuererklärung.'
+  rechtsgrundlage: Art. 124 DBG
+- key: verfahren.abgabeweg
+  wert: null
+  einheit: null
+  text: Abgabe über die kantonale Steuererklärung
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: Keine separate Bundessteuererklärung; Abgabeweg (E-Tax/Portal/Papier) richtet sich nach dem Kanton.
+- key: verfahren.beilagen_schwellen
+  wert: null
+  einheit: null
+  text: Keine betragsmässigen Belegschwellen im DBG
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: 'Beilagen: Lohnausweise, Verzeichnisse über Wertschriften/Forderungen/Schulden (Art. 125 DBG); Schwellen sind kantonale Praxis.'
+  rechtsgrundlage: Art. 125 DBG
+- key: bezug.provisorisch
+  wert: null
+  einheit: Text
+  text: Provisorischer Bezug gemäss Steuererklärung, letzter Veranlagung oder mutmasslich geschuldetem Betrag, wenn die Veranlagung bei Fälligkeit fehlt; Zahlung innert 30 Tagen nach Fälligkeit; Ratenbezug
+    möglich; Fälligkeitstermin bestimmt das EFD
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 161–163 DBG
+  quellen:
+  - chunk: bund-dbg-2025__art-162
+    zitat: Ist die Veranlagung im Zeitpunkt der Fälligkeit noch nicht vorgenommen, so wird die Steuer provisorisch bezogen
+  - chunk: bund-dbg-2025__art-163
+    zitat: Die Steuer muss innert 30 Tagen nach Fälligkeit entrichtet werden
+  status: extrahiert
+  bemerkung: Konkreter Fälligkeitstermin/Raten ist kantonal publiziert (Art. 163 Abs. 3 DBG).
+- key: bezug.verzugszins
+  wert: 4.5
+  einheit: '%'
+  text: 'Verzugs- und Rückerstattungszins DBSt Steuerjahr 2025: 4.50 %'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 164 Abs. 1, Art. 162 Abs. 3 DBG; Zinssatzverordnung EFD
+  quellen:
+  - chunk: bund-rs-2-215__c0010
+    zitat: Verzugs- und Rückerstattungszins 4,50 4,00
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: Quelle RS 2-215 (Steuerjahr 2026) enthält ausdrücklich die Spalte 2025 (4,50 %); die Jahresspalte 2025 ist massgebend (jahr_ok). Das RS 2-212/2025 mit dem 2025-Satz ist im Wiki nicht erfasst.
+- key: bezug.verguetungszins
+  wert: 0.75
+  einheit: '%'
+  text: 'Vergütungszins für Vorauszahlungen DBSt Steuerjahr 2025: 0.75 %'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 163 Abs. 2 DBG; Zinssatzverordnung EFD
+  quellen:
+  - chunk: bund-rs-2-215__c0010
+    zitat: Vergütungszins für Vorauszahlungen 0,75 0,00
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: 'Spalte 2025 der Tabelle im RS 2-215 (Steuerjahr 2026); jahr_ok. Für 2026: 0,00 %.'
+- key: bezug.ausgleichszins
+  wert: null
+  einheit: null
+  text: Beim Bund kein Ausgleichszins
+  gilt_fuer: bund
+  quellen: []
+  status: na
+  bemerkung: DBG kennt Verzugs-, Rückerstattungs- und Vergütungszins; der Rückerstattungszins entspricht 2025 dem Verzugszins (4.50 %, RS 2-215, Spalte 2025).

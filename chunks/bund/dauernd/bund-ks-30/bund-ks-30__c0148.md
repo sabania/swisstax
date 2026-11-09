@@ -4,24 +4,36 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 16.2 Busse nur für eigene Steuerfaktoren; Teilnahme (Art. 177 DBG)"
-ziffer: "16.2"
-seiten: "43"
+titel: "Beilage 2 Seite 1/13 Normalfall Ehepaar mit minderjährigem Kind"
+ziffer: "Beilage 2, S. 1/13"
+seiten: "46"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 16 Steuerstrafrecht der Ehegatten › 16.2 Steuerhinterziehung · S. 43
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 46
 
-Gemäss Artikel 180 DBG kann jeder in rechtlich und tatsächlich ungetrennter Ehe lebende
-Ehegatte nur für die Hinterziehung seiner eigenen Steuerfaktoren gebüsst werden. Die soli-
-darische Haftung des anderen Ehepartners für die Busse bleibt damit ausgeschlossen. Der-
-jenige Ehegatte, der die Einkünfte seines Ehepartners nicht richtig deklariert, verletzt die
-eigenen Verfahrenspflichten nicht und kann daher nicht als Täter der Steuerhinterziehung
-bestraft werden.
+Beilage 2
 
-Allerdings wurde der Vorbehalt von Artikel 177 DBG verankert, in welchem die Teilnahme an
-einer vollendeten oder versuchten Hinterziehung geregelt wird. Dies hat zur Folge, dass ein
-Ehegatte - wie jeder andere Steuerpflichtige - als Teilnehmer an einer Steuerhinterziehung
-seines Partners, d.h. wegen Anstiftung, Gehilfenschaft oder Mitwirkung, bestraft werden
-kann. Der Gesetzestext hebt zudem ausdrücklich hervor, dass die Unterzeichnung der ge-
-meinsamen Steuererklärung für sich allein keine Teilnahme oder Mitwirkung an einer Hinter-
-ziehung der Steuerfaktoren des anderen Ehegatten darstellt.
+Tabelle zu den verschiedenen Familienkonstellationen
+Besteuerung der Unterhaltsleistungen sowie Zuteilung der verschiedenen Abzüge und Tarife nach DBG
+    Seite 1/13
+
+    Unterhaltszahlungen für   Zusätzlicher Versiche-
+    Kinderbetreuungskosten-
+    das Kind   Kinderabzug   rungs- und Sparzinsen-
+   Familienkonstellationen   abzug nur bis zum voll-   Tarif
+    (Art. 23 Bst. f, 24 Bst. e,   (Art. 35 Abs. 1 Bst. a   abzug für das Kind
+   (Kapitel im KS)   endeten 14. Altersjahr   (Art. 36 DBG)
+    33 Abs. 1 Bst. c, 34 Bst. a   DBG)   (Art. 33 Abs. 1bis Bst. b
+    (Art. 33 Abs. 3 DBG)
+    DBG)   DBG)
+
+   Minderjähriges Kind
+
+   Normalfall:   entfällt   Kinderabzug von der ge-   Versicherungs- und Spar-   Abzug der nachgewiesenen   Gemeinsame Veranlagung
+   Ehepaar in rechtlich und   meinsamen Bemessungs-   zinsenabzug für das Kind   Kosten bis zum Maximal-   mit Elterntarif
+   tatsächlich ungetrennter   grundlage   von der gemeinsamen Be-   betrag von der gemeinsa-
+   Ehe mit minderjährigem   messungsgrundlage   men Bemessungsgrundlage
+   Kind
+
+
+1-030-D-2010-Beilage-2-d-2014.doc

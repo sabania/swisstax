@@ -4,19 +4,29 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 6"
-seiten: "2"
+titel: "Ziff. 2.2 Spezialfälle – Schwestergesellschaften, Tochter-Liberierung, Sanierung (Teil 1/2)"
+ziffer: "2.2"
+seiten: "5-7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 2 Kapitaleinlagen › 2.2 Spezialfälle · S. 5–7
 
-5.2.   Teilliquidationsregel .......................................................................................14
-5.2.1.   Regelverletzung .................................................................................................14
-6.   Umstrukturierungen allgemein ....................................................................15
-6.1.   Übertragung eines Betriebes oder Teilbetriebes einer
-    Personenunternehmung auf eine juristische Person ............................15
-6.2.   Zusammenschluss (Fusion) .........................................................................15
-6.2.1.   Echte und unechte Fusion unabhängiger Gesellschaften...........................15
-6.2.2.   Echte und unechte Fusion verbundener Gesellschaften.............................16
-6.2.3.   Absorption einer Tochtergesellschaft („Up -Stream Merger“) ......................16
-6.2.4.   Absorption der Muttergesellschaft („Reverse Merger“)................................16
+2.2.   Spezialfälle
+
+2.2.1. Vorteilszuwendungen unter Schwestergesellschaften
+
+Bei einer Vorteilszuwendung unter Schwestergesellschaften erhalten die Beteiligten aus wirt-
+schaftlicher Sicht einen geldwerten Vorteil von der leistenden Gesellschaft, den sie in die be-
+günstigte Gesellschaft einlegen. Unter dem Kapitaleinlageprinzip qualifizieren Vorteilszuwen-
+dungen unter Schwestergesellschaften jedoch nicht als Einlagen in die KER bzw. Ausland-
+KER, da sie nicht direkt durch die Inhaber der Beteiligungsrechte geleistet werden und die
+übertragenen Mehrwerte in der übernehmenden Kapitalgesellschaft oder Genossenschaft
+nur als Aufwertung offengelegt werden können.
+
+2.2.2. Liberierung neuer Beteiligungsrechte durch Tochtergesellschaften
+
+Bei der Liberierung von Beteiligungsrechten durch Tochtergesellschaften kann das bei spä-
+terer Drittplatzierung durch die Muttergesellschaft realisierte Aufgeld (Agio) den KER gutge-
+schrieben werden.
+
+2.2.3. Kapitaleinlagen aus Sanierungen

@@ -4,18 +4,22 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 7"
-seiten: "2"
+titel: "Ziff. 2.2.1 Schuldner der steuerbaren Leistung – Grundsatz (Teil 1/2)"
+ziffer: "2.2.1"
+seiten: "5-6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.2 Schuldner der steuerbaren Leistung · S. 5–6
 
-<!-- Seite 2 -->
-4.7   Gewährung von Kinderabzügen .............................................................................. 17
-4.8   Kirchensteuerpflicht ................................................................................................. 18
-4.9   Härtefallregelung ...................................................................................................... 18
-5   Abgrenzungen .......................................................................................................... 19
-5.1   Künstler, Sportler und Referenten........................................................................... 19
-5.2   Mitarbeiterbeteiligungen .......................................................................................... 19
-5.3   Verwaltungsratsentschädigungen........................................................................... 19
-6   Berechnung der Quellensteuer nach dem Monatsmodell...................................... 21
+2.2   Schuldner der steuerbaren Leistung
+2.2.1 Grundsatz
+Als Schuldner der steuerbaren Leistung im Sinne dieses Kreisschreibens gilt diejenige natür-
+liche oder juristische Person, die dem Arbeitnehmer eine dem Quellensteuerabzug unterlie-
+gende Leistung ausrichtet (vgl. Ziffer 3.2 unten). Dies betrifft einerseits den Arbeitgeber, d.h.
+eine Gesellschaft, eine Gruppengesellschaft, Betriebsstätte oder feste Einrichtung, bei wel-
+cher der Arbeitnehmer für die Verrichtung einer unselbstständigen Erwerbstätigkeit angestellt
+ist sowie andererseits die Sozial- oder Privatversicherer bzw. die haftpflichtigen Dritten für
+
+1 Aus Gründen der Lesbarkeit werden im vorliegenden Kreisschreiben nur die männlichen Formen verwendet.
+
+ Frauen sind selbstverständlich mitgemeint.

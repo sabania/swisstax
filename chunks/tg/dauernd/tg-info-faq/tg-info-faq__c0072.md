@@ -9,13 +9,18 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
-    - [StP 155 Nr. 2 "Fristerstreckung zur Einreichung der Steuererklärung"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-155-nr-2-fristerstreckung-einreichung-steuererklaerung&version=latest)
+    - die Hinterziehung (d.h. Nichtdeklaration usw.) ist keiner Steuerbehörde bekannt;
+    - die Erbinnen und Erben unterstützen die Verwaltung bei der Feststellung der hinterzogenen Vermögens- und Einkommenselemente vorbehaltlos;
+    - sie bemühen sich ernstlich um die Bezahlung der geschuldeten Nachsteuer;
+    - die Erbschaft wird weder amtlich noch konkursamtlich liquidiert.
 
-Nachbesteuerung in Erbfällen
+    Detailliertere Informationen dazu finden Sie über den folgenden Link:
+
+    - [Vereinfachung der Nachbesteuerung in Erbfällen](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/erbschaft-schenkung/nachbesteuerung-in-erbfaellen.html/2939)
+
+Rekursverfahren
 :   ### Frage:
 
-    Beim Ordnen des Nachlasses meines kürzlich verstorbenen Vaters habe ich festgestellt, dass er einige Vermögenswerte bisher nicht deklariert hat. Wie muss ich vorgehen?
+    Ich bin mit dem Einspracheentscheid zur Steuerveranlagung nicht einverstanden, was kann ich tun?
 
     ### Antwort:
-
-    Bei Offenlegung einer Steuerhinterziehung des Erblassers durch die Erbinnen und Erben wird die Vereinfachung der Nachbesteuerung in Erbfällen gewährt, wenn die folgenden Voraussetzungen erfüllt sind:

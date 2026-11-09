@@ -1,1714 +1,2466 @@
 [
 {
 "id": "bund-ks-28__c0001",
-"titel": "KS 28 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Gegenstand – Liquidationsgewinne USTR II, Art. 37b DBG",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
+"seiten": [
+2
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Liquidationsgewinn",
+"Aufgabe selbständige Erwerbstätigkeit",
+"Unternehmenssteuerreform II",
+"Art. 37b DBG",
+"LGBV",
+"stille Reserven"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Das KS regelt die getrennte Besteuerung der Liquidationsgewinne bei definitiver Aufgabe der selbständigen Erwerbstätigkeit nach Art. 37b DBG und der LGBV.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-28__c0002"
 },
 {
 "id": "bund-ks-28__c0002",
-"titel": "KS 28 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Wortlaut Art. 37b DBG Liquidationsgewinne (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-1
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1 (Art. 37b)",
+"stichworte": [
+"Art. 37b DBG",
+"55. Altersjahr",
+"Invalidität",
+"ein Fünftel Tarif",
+"Mindestsatz 2 Prozent",
+"Erben Liquidation"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Nach dem 55. Altersjahr oder bei Invalidität werden die in den letzten zwei Geschäftsjahren realisierten stillen Reserven getrennt besteuert, zu einem Fünftel der Tarife, mindestens zu 2 Prozent.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0001",
 "nachher": "bund-ks-28__c0003"
 },
 {
 "id": "bund-ks-28__c0003",
-"titel": "KS 28 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1 Wortlaut Art. 37b DBG Liquidationsgewinne (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-1
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1 (Art. 37b)",
+"stichworte": [
+"Art. 37b DBG",
+"55. Altersjahr",
+"Invalidität",
+"ein Fünftel Tarif",
+"Mindestsatz 2 Prozent",
+"Erben Liquidation"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0002",
 "nachher": "bund-ks-28__c0004"
 },
 {
 "id": "bund-ks-28__c0004",
-"titel": "KS 28 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2.1 Beendigung selbständige Erwerbstätigkeit – Grundsatz",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1",
+"stichworte": [
+"definitive Aufgabe",
+"geringfügige Tätigkeit",
+"BVG-Eintrittsschwelle",
+"einmalige Anwendung",
+"Einzelunternehmen",
+"Personengesellschaft"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Art. 37b DBG gilt ab dem 55. Altersjahr oder bei Invalidität; geringfügige Tätigkeit bleibt möglich bis zur BVG-Eintrittsschwelle; nur einmal anwendbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0003",
 "nachher": "bund-ks-28__c0005"
 },
 {
 "id": "bund-ks-28__c0005",
-"titel": "KS 28 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2.2 Beendigung infolge Invalidität",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"Invalidität",
+"IV-Leistungen",
+"Umschulung",
+"Kausalität",
+"Aufgabe Geschäft",
+"Veranlagung zuwarten"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Invalidität liegt vor, wenn IV-Leistungen (auch Umschulung) ausgerichtet werden; sie muss kausal zur Aufgabe führen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0004",
 "nachher": "bund-ks-28__c0006"
 },
 {
 "id": "bund-ks-28__c0006",
-"titel": "KS 28 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 2.3 Übertragung Personenunternehmung auf juristische Person (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-1
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3",
+"stichworte": [
+"Umwandlung AG GmbH",
+"steuerneutrale Übertragung",
+"Sperrfrist 5 Jahre",
+"Art. 19 DBG",
+"Nachsteuerverfahren",
+"Anstellungsverhältnis"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Bei nicht steuerneutraler Übertragung werden die stillen Reserven nach Art. 37b DBG besteuert; bei Sperrfristverletzung (5 Jahre) im Nachsteuerverfahren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0005",
 "nachher": "bund-ks-28__c0007"
 },
 {
 "id": "bund-ks-28__c0007",
-"titel": "KS 28 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 2.3 Übertragung Personenunternehmung auf juristische Person (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-2
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.3",
+"stichworte": [
+"Umwandlung AG GmbH",
+"steuerneutrale Übertragung",
+"Sperrfrist 5 Jahre",
+"Art. 19 DBG",
+"Nachsteuerverfahren",
+"Anstellungsverhältnis"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0006",
 "nachher": "bund-ks-28__c0008"
 },
 {
 "id": "bund-ks-28__c0008",
-"titel": "KS 28 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 2.4.1 Verhältnis zu Art. 18a Abs. 1 DBG (Überführung Liegenschaft) (Teil 1/2)",
+"pfad": [
+"einkommen.selbstaendig",
+"vermoegen.liegenschaften"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.4.1",
+"stichworte": [
+"Art. 18a DBG",
+"Liegenschaft Privatvermögen",
+"Steueraufschub",
+"wieder eingebrachte Abschreibungen",
+"Wertzuwachsgewinn",
+"Liquidationsperiode"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Bei Aufschub nach Art. 18a Abs. 1 DBG gilt Art. 37b nur auf wieder eingebrachte Abschreibungen, ausser Überführung und Verkauf fallen in Liquidationsjahr und Vorjahr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0007",
 "nachher": "bund-ks-28__c0009"
 },
 {
 "id": "bund-ks-28__c0009",
-"titel": "KS 28 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 2.4.1 Verhältnis zu Art. 18a Abs. 1 DBG (Überführung Liegenschaft) (Teil 2/2)",
+"pfad": [
+"einkommen.selbstaendig",
+"vermoegen.liegenschaften"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.4.1",
+"stichworte": [
+"Art. 18a DBG",
+"Liegenschaft Privatvermögen",
+"Steueraufschub",
+"wieder eingebrachte Abschreibungen",
+"Wertzuwachsgewinn",
+"Liquidationsperiode"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0008",
 "nachher": "bund-ks-28__c0010"
 },
 {
 "id": "bund-ks-28__c0010",
-"titel": "KS 28 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 2.4.2–2.4.3 Verhältnis zu Art. 18a Abs. 2 und 3 DBG (Verpachtung, Erben)",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.4.2–2.4.3",
+"stichworte": [
+"Verpachtung Geschäftsbetrieb",
+"Art. 18a Abs. 2",
+"Art. 18a Abs. 3",
+"Erben Aufschub",
+"Überführung Privatvermögen"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Bei Verpachtung bleibt der Betrieb im Geschäftsvermögen; beantragen Erben Aufschub nach Art. 18a Abs. 3 DBG, werden keine stillen Reserven realisiert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0009",
 "nachher": "bund-ks-28__c0011"
 },
 {
 "id": "bund-ks-28__c0011",
-"titel": "KS 28 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 3 Liquidation – Liquidationsjahr und Abschluss",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-2
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Liquidationsjahr",
+"letzte Inkassohandlung",
+"Vorjahr",
+"Revision Veranlagung",
+"Inkrafttreten 1.1.2011",
+"stille Reserven zwei Geschäftsjahre"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Liquidationsgewinn ist die Summe der in den letzten zwei Geschäftsjahren realisierten stillen Reserven; die Liquidation ist in der Regel mit der letzten Inkassohandlung abgeschlossen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0010",
 "nachher": "bund-ks-28__c0012"
 },
 {
 "id": "bund-ks-28__c0012",
-"titel": "KS 28 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 4 Einkauf in eine Vorsorgeeinrichtung",
+"pfad": [
+"einkommen.selbstaendig",
+"abzug.vorsorge.saeule2_einkauf"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4",
+"stichworte": [
+"Einkauf Pensionskasse",
+"Liquidationsjahr",
+"Beitragsüberhang",
+"Abzug Einkauf",
+"2. Säule Selbständige"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Einkäufe im Liquidationsjahr und Vorjahr werden zuerst vom übrigen Einkommen abgezogen; ein Überhang reduziert den Liquidationsgewinn.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0011",
 "nachher": "bund-ks-28__c0013"
 },
 {
 "id": "bund-ks-28__c0013",
-"titel": "KS 28 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 5.1 Fiktiver Einkauf – Grundsatz",
+"pfad": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1",
+"stichworte": [
+"fiktiver Einkauf",
+"Deckungslücke",
+"Antrag Steuerbehörde",
+"nicht angeschlossen Vorsorgeeinrichtung",
+"Art. 33 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Selbständig Erwerbende können unabhängig vom Anschluss an eine Vorsorgeeinrichtung die Besteuerung eines fiktiven Einkaufs beantragen, nach Abzug eines tatsächlichen Einkaufs.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0012",
 "nachher": "bund-ks-28__c0014"
 },
 {
 "id": "bund-ks-28__c0014",
-"titel": "KS 28 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 5.2 Fiktiver Einkauf – anrechenbare Beitragsjahre",
+"pfad": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.2",
+"stichworte": [
+"Beitragsjahre",
+"25. Altersjahr",
+"AHV-Rentenalter",
+"angefangenes Altersjahr"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Massgebend sind die Jahre vom vollendeten 25. Altersjahr bis zum Alter im Liquidationsjahr, höchstens bis zum ordentlichen AHV-Rentenalter.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0013",
 "nachher": "bund-ks-28__c0015"
 },
 {
 "id": "bund-ks-28__c0015",
-"titel": "KS 28 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 5.3 Fiktiver Einkauf – massgebendes Einkommen",
+"pfad": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.3",
+"stichworte": [
+"Durchschnittseinkommen fünf Jahre",
+"AHV-pflichtiges Einkommen",
+"Berechnung fiktiver Einkauf",
+"weniger als fünf Jahre selbständig"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Massgebend ist das arithmetische Mittel der AHV-pflichtigen Einkünfte der letzten fünf Geschäftsjahre vor dem Liquidationsjahr, abzüglich der im Vorjahr realisierten stillen Reserven.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0014",
 "nachher": "bund-ks-28__c0016"
 },
 {
 "id": "bund-ks-28__c0016",
-"titel": "KS 28 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 5.4–5.5 Besteuerung fiktiver Einkauf; spätere Einkäufe",
+"pfad": [
+"einkommen.kapitalleistung_vorsorge",
+"einkommen.selbstaendig"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.4–5.5",
+"stichworte": [
+"Art. 38 DBG",
+"Vorsorgetarif",
+"keine Zusammenrechnung Kapitalleistungen",
+"späterer Einkauf Anrechnung",
+"Deckungslücke"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Der fiktive Einkauf wird nach Art. 38 Abs. 1 DBG besteuert, ohne Zusammenrechnung mit Kapitalleistungen aus Vorsorge derselben Periode, und an spätere Einkäufe angerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0015",
 "nachher": "bund-ks-28__c0017"
 },
 {
 "id": "bund-ks-28__c0017",
-"titel": "KS 28 – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 6.1 Erbgang – Grundsatz",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.1",
+"stichworte": [
+"Erbgang Unternehmen",
+"Vermächtnisnehmer",
+"Universalsukzession",
+"Liquidation durch Erben",
+"kein fiktiver Einkauf Erben"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Erben, die nicht weiterführen, können anstelle des Erblassers Art. 37b DBG geltend machen; Einkäufe oder fiktiver Einkauf sind nicht möglich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0016",
 "nachher": "bund-ks-28__c0018"
 },
 {
 "id": "bund-ks-28__c0018",
-"titel": "KS 28 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 6.2 Liquidation durch Erben – Einzelunternehmung und Personengesellschaft",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2",
+"stichworte": [
+"Einzelunternehmung Erben",
+"fünf Kalenderjahre",
+"Überführung Privatvermögen",
+"Personengesellschaft Anhang III"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Wird nicht innert fünf Kalenderjahren nach dem Todesjahr liquidiert, erfolgt gesetzlich die Überführung ins Privatvermögen und Besteuerung nach Art. 37b DBG ohne fiktiven Einkauf.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0017",
 "nachher": "bund-ks-28__c0019"
 },
 {
 "id": "bund-ks-28__c0019",
-"titel": "KS 28 – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 6.3–7 Fortführung durch Erben; Inkrafttreten (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.3–7",
+"stichworte": [
+"Fortführung Erben",
+"Art. 571 ZGB",
+"Art. 11 Abs. 3 LGBV",
+"Inkrafttreten 1. Januar 2011",
+"Art. 18a Abs. 3"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Mit der ersten über die Erfüllung bestehender Verpflichtungen hinausgehenden Handlung geht der Anspruch unter; das KS gilt ab 1. Januar 2011.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0018",
 "nachher": "bund-ks-28__c0020"
 },
 {
 "id": "bund-ks-28__c0020",
-"titel": "KS 28 – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 6.3–7 Fortführung durch Erben; Inkrafttreten (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Kreisschreiben"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6.3–7",
+"stichworte": [
+"Fortführung Erben",
+"Art. 571 ZGB",
+"Art. 11 Abs. 3 LGBV",
+"Inkrafttreten 1. Januar 2011",
+"Art. 18a Abs. 3"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0019",
 "nachher": "bund-ks-28__c0021"
 },
 {
 "id": "bund-ks-28__c0021",
-"titel": "KS 28 – Abschnitt 21",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 1–2 Gegenstand, Geltungsbereich, Liquidationsjahr (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-5
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 1–2",
+"stichworte": [
+"LGBV",
+"Verordnung Liquidationsgewinne",
+"Geltungsbereich",
+"Invalidität IVG",
+"Liquidationsjahr"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Die LGBV vom 17. Februar 2010 regelt die Besteuerung der Liquidationsgewinne nach dem vollendeten 55. Altersjahr oder infolge Invalidität.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0020",
 "nachher": "bund-ks-28__c0022"
 },
 {
 "id": "bund-ks-28__c0022",
-"titel": "KS 28 – Abschnitt 22",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 1–2 Gegenstand, Geltungsbereich, Liquidationsjahr (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-5
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 1–2",
+"stichworte": [
+"LGBV",
+"Verordnung Liquidationsgewinne",
+"Geltungsbereich",
+"Invalidität IVG",
+"Liquidationsjahr"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0021",
 "nachher": "bund-ks-28__c0023"
 },
 {
 "id": "bund-ks-28__c0023",
-"titel": "KS 28 – Abschnitt 23",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 3–4 Verhältnis Art. 18a DBG; Einkauf Vorsorgeeinrichtung",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-5
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 3–4",
+"stichworte": [
+"Art. 18a DBG",
+"Einkauf Vorsorgeeinrichtung",
+"Beitragsüberhang",
+"Liquidationsgewinn reduzieren"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Einkäufe im Liquidationsjahr und Vorjahr sind abziehbar (Art. 33 Abs. 1 Bst. d DBG); ein Beitragsüberhang reduziert den Liquidationsgewinn.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0022",
 "nachher": "bund-ks-28__c0024"
 },
 {
 "id": "bund-ks-28__c0024",
-"titel": "KS 28 – Abschnitt 24",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 5–6 Abs. 1–2 Fiktiver Einkauf – Grundsätze, Berechnung",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-5
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 5–6",
+"stichworte": [
+"fiktiver Einkauf Berechnung",
+"Altersgutschriftensatz 15 Prozent",
+"25. Altersjahr",
+"Belege Antrag"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Fiktiver Einkauf = Altersgutschriftensatz von 15 Prozent mal Anzahl Jahre mal Einkommen, abzüglich Abzüge; er darf den Liquidationsgewinn nicht übersteigen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0023",
 "nachher": "bund-ks-28__c0025"
 },
 {
 "id": "bund-ks-28__c0025",
-"titel": "KS 28 – Abschnitt 25",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 6 Abs. 3–6 Einkommen, Höchstgrenze, Abzüge (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-5
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 6 Abs. 3–6",
+"stichworte": [
+"zehnfacher oberer Grenzbetrag BVG",
+"Altersguthaben Abzug",
+"Säule 3a Guthaben",
+"WEF-Vorbezug",
+"Barauszahlung",
+"Freizügigkeit"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Das Einkommen darf höchstens das Zehnfache des oberen Grenzbetrags nach Art. 8 Abs. 1 BVG betragen; abgezogen werden Vorsorgeguthaben, Vorbezüge und Leistungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0024",
 "nachher": "bund-ks-28__c0026"
 },
 {
 "id": "bund-ks-28__c0026",
-"titel": "KS 28 – Abschnitt 26",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 6 Abs. 3–6 Einkommen, Höchstgrenze, Abzüge (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-6
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 6 Abs. 3–6",
+"stichworte": [
+"zehnfacher oberer Grenzbetrag BVG",
+"Altersguthaben Abzug",
+"Säule 3a Guthaben",
+"WEF-Vorbezug",
+"Barauszahlung",
+"Freizügigkeit"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0025",
 "nachher": "bund-ks-28__c0027"
 },
 {
 "id": "bund-ks-28__c0027",
-"titel": "KS 28 – Abschnitt 27",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 7–8 Nachträglicher Anschluss; Besteuerung fiktiver Einkauf",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-6
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 7–8",
+"stichworte": [
+"nachträglicher Anschluss",
+"Art. 38 DBG",
+"fiktiver Einkauf Besteuerung"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Der fiktive Einkauf wird an einen späteren Einkauf angerechnet und nach Art. 38 DBG besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0026",
 "nachher": "bund-ks-28__c0028"
 },
 {
 "id": "bund-ks-28__c0028",
-"titel": "KS 28 – Abschnitt 28",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 9–10 Übriger Liquidationsgewinn, Besteuerung",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-6
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 9–10",
+"stichworte": [
+"übriger Liquidationsgewinn",
+"ein Fünftel satzbestimmend",
+"Mindestsatz 2 Prozent",
+"Verlustvortrag",
+"Art. 214 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Für den Steuersatz ist ein Fünftel des Liquidationsgewinns massgebend; der Steuersatz beträgt mindestens 2 Prozent.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0027",
 "nachher": "bund-ks-28__c0029"
 },
 {
 "id": "bund-ks-28__c0029",
-"titel": "KS 28 – Abschnitt 29",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 11 Liquidation durch Erben (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-6
+10,
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 11",
+"stichworte": [
+"Erben Liquidation",
+"fünf Kalenderjahre",
+"steuersystematische Abrechnung",
+"kein fiktiver Einkauf Erben"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Liquidieren die Erben innert fünf Kalenderjahren nach Ablauf des Todesjahres, gilt der Satz nach Art. 10; ein fiktiver Einkauf ist für Erben ausgeschlossen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0028",
 "nachher": "bund-ks-28__c0030"
 },
 {
 "id": "bund-ks-28__c0030",
-"titel": "KS 28 – Abschnitt 30",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 11 Liquidation durch Erben (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-7
+10,
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 11",
+"stichworte": [
+"Erben Liquidation",
+"fünf Kalenderjahre",
+"steuersystematische Abrechnung",
+"kein fiktiver Einkauf Erben"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0029",
 "nachher": "bund-ks-28__c0031"
 },
 {
 "id": "bund-ks-28__c0031",
-"titel": "KS 28 – Abschnitt 31",
-"pfad": [],
+"titel": "Anhang I LGBV Art. 12–13 Fortführung durch Erben; Inkrafttreten",
+"pfad": [
+"KS 28",
+"Anhang I LGBV"
+],
 "seiten": [
-8
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 12–13",
+"stichworte": [
+"Fortführung Erben",
+"Art. 37b DBG Voraussetzungen",
+"Inkrafttreten 1. Januar 2011"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Führen die Erben fort, gilt die LGBV nur, wenn sie die Voraussetzungen von Art. 37b DBG selbst erfüllen; Inkrafttreten am 1. Januar 2011.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0030",
 "nachher": "bund-ks-28__c0032"
 },
 {
 "id": "bund-ks-28__c0032",
-"titel": "KS 28 – Abschnitt 32",
-"pfad": [],
+"titel": "Anhang II Zusammenfassung der Erläuterungen zur LGBV (Teil 1/3)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-8
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Zusammenfassung",
+"stichworte": [
+"Zusammenfassung",
+"Liquidationsgewinn privilegiert",
+"fiktiver Einkauf neues Steuerinstitut",
+"Art. 11 Abs. 5 StHG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Der Liquidationsgewinn wird getrennt und privilegiert besteuert, ein Fünftel ist satzbestimmend; der fiktive Einkauf wird nach Art. 38 DBG besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0031",
 "nachher": "bund-ks-28__c0033"
 },
 {
 "id": "bund-ks-28__c0033",
-"titel": "KS 28 – Abschnitt 33",
-"pfad": [],
+"titel": "Anhang II Zusammenfassung der Erläuterungen zur LGBV (Teil 2/3)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-8
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Zusammenfassung",
+"stichworte": [
+"Zusammenfassung",
+"Liquidationsgewinn privilegiert",
+"fiktiver Einkauf neues Steuerinstitut",
+"Art. 11 Abs. 5 StHG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0032",
 "nachher": "bund-ks-28__c0034"
 },
 {
 "id": "bund-ks-28__c0034",
-"titel": "KS 28 – Abschnitt 34",
-"pfad": [],
+"titel": "Anhang II Zusammenfassung der Erläuterungen zur LGBV (Teil 3/3)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-9
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Zusammenfassung",
+"stichworte": [
+"Zusammenfassung",
+"Liquidationsgewinn privilegiert",
+"fiktiver Einkauf neues Steuerinstitut",
+"Art. 11 Abs. 5 StHG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0033",
 "nachher": "bund-ks-28__c0035"
 },
 {
 "id": "bund-ks-28__c0035",
-"titel": "KS 28 – Abschnitt 35",
-"pfad": [],
+"titel": "Anhang II Ziff. 1 Einleitung – Unternehmenssteuerreform II (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-9
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Unternehmenssteuerreform II",
+"USTR II",
+"KMU Entlastung",
+"Personenunternehmen",
+"Referendum 24. Februar 2008"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Die USTR II wurde am 24. Februar 2008 vom Volk angenommen; Art. 37b DBG tritt am 1. Januar 2011 in Kraft.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0034",
 "nachher": "bund-ks-28__c0036"
 },
 {
 "id": "bund-ks-28__c0036",
-"titel": "KS 28 – Abschnitt 36",
-"pfad": [],
+"titel": "Anhang II Ziff. 1 Einleitung – Unternehmenssteuerreform II (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-9
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Unternehmenssteuerreform II",
+"USTR II",
+"KMU Entlastung",
+"Personenunternehmen",
+"Referendum 24. Februar 2008"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0035",
 "nachher": "bund-ks-28__c0037"
 },
 {
 "id": "bund-ks-28__c0037",
-"titel": "KS 28 – Abschnitt 37",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.1 Vorschlag des Bundesrates (ein Achtel satzbestimmend) (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-10
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.1",
+"stichworte": [
+"Botschaft USTR II",
+"ein Achtel",
+"Art. 37a DBG",
+"Revisionsgrund"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Der Bundesrat wollte ein Achtel der realisierten stillen Reserven als satzbestimmend; der ursprüngliche Art. 37a wurde zu Art. 37b DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0036",
 "nachher": "bund-ks-28__c0038"
 },
 {
 "id": "bund-ks-28__c0038",
-"titel": "KS 28 – Abschnitt 38",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.1 Vorschlag des Bundesrates (ein Achtel satzbestimmend) (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-10
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1.1",
+"stichworte": [
+"Botschaft USTR II",
+"ein Achtel",
+"Art. 37a DBG",
+"Revisionsgrund"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0037",
 "nachher": "bund-ks-28__c0039"
 },
 {
 "id": "bund-ks-28__c0039",
-"titel": "KS 28 – Abschnitt 39",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.1 (Forts.) Verzicht auf Privilegierung wegen Vorsorge (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-10
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.1",
+"stichworte": [
+"berufliche Vorsorge Selbständige",
+"Art. 4 Abs. 3 BVG",
+"Progression stille Reserven",
+"Botschaft"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Der Bundesrat verzichtete auf eine Privilegierung wegen Vorsorgeanteilen, da Art. 4 Abs. 3 BVG Selbständigen die Vorsorge ermöglicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0038",
 "nachher": "bund-ks-28__c0040"
 },
 {
 "id": "bund-ks-28__c0040",
-"titel": "KS 28 – Abschnitt 40",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.1 (Forts.) Verzicht auf Privilegierung wegen Vorsorge (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-10
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1.1",
+"stichworte": [
+"berufliche Vorsorge Selbständige",
+"Art. 4 Abs. 3 BVG",
+"Progression stille Reserven",
+"Botschaft"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0039",
 "nachher": "bund-ks-28__c0041"
 },
 {
 "id": "bund-ks-28__c0041",
-"titel": "KS 28 – Abschnitt 41",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.2 Beratung Ständerat – Fünftel und Mindestsatz 2 Prozent (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-11,
-12,
-13
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"Ständerat",
+"ein Fünftel",
+"Mindestsatz 2 Prozent",
+"Art. 11 Abs. 5 StHG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Der Ständerat beschloss getrennte Besteuerung der in den letzten zwei Geschäftsjahren realisierten stillen Reserven, ein Fünftel satzbestimmend, mindestens 2 Prozent.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0040",
 "nachher": "bund-ks-28__c0042"
 },
 {
 "id": "bund-ks-28__c0042",
-"titel": "KS 28 – Abschnitt 42",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.2 Beratung Ständerat – Fünftel und Mindestsatz 2 Prozent (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-14
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1.2",
+"stichworte": [
+"Ständerat",
+"ein Fünftel",
+"Mindestsatz 2 Prozent",
+"Art. 11 Abs. 5 StHG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0041",
 "nachher": "bund-ks-28__c0043"
 },
 {
 "id": "bund-ks-28__c0043",
-"titel": "KS 28 – Abschnitt 43",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.2 Nationalrat – Streichung Mindestsatz, Fünftel des Tarifs (Teil 1/3)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-14
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"Nationalrat",
+"Kleinstunternehmen Altersvorsorge",
+"Tarif ein Fünftel",
+"Differenzbereinigung"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Der Nationalrat strich den Mindestsatz von 2 Prozent und wollte den Liquidationsgewinn zu einem Fünftel der Tarife nach Art. 36 DBG besteuern.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0042",
 "nachher": "bund-ks-28__c0044"
 },
 {
 "id": "bund-ks-28__c0044",
-"titel": "KS 28 – Abschnitt 44",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.2 Nationalrat – Streichung Mindestsatz, Fünftel des Tarifs (Teil 2/3)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-14
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1.2",
+"stichworte": [
+"Nationalrat",
+"Kleinstunternehmen Altersvorsorge",
+"Tarif ein Fünftel",
+"Differenzbereinigung"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0043",
 "nachher": "bund-ks-28__c0045"
 },
 {
 "id": "bund-ks-28__c0045",
-"titel": "KS 28 – Abschnitt 45",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.2 Nationalrat – Streichung Mindestsatz, Fünftel des Tarifs (Teil 3/3)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-15
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1.2",
+"stichworte": [
+"Nationalrat",
+"Kleinstunternehmen Altersvorsorge",
+"Tarif ein Fünftel",
+"Differenzbereinigung"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0044",
 "nachher": "bund-ks-28__c0046"
 },
 {
 "id": "bund-ks-28__c0046",
-"titel": "KS 28 – Abschnitt 46",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.2 Einigung – Einkaufsbeiträge und fiktiver Einkauf (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-15
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"Einkaufsbeiträge abziehbar",
+"fiktiver Einkauf Entstehung",
+"Deckungslücke",
+"Votum Merz"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Das Parlament einigte sich auf Abzug von Einkaufsbeiträgen und auf den fiktiven Einkauf für Selbständige ohne genügende Vorsorge.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0045",
 "nachher": "bund-ks-28__c0047"
 },
 {
 "id": "bund-ks-28__c0047",
-"titel": "KS 28 – Abschnitt 47",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.2 Einigung – Einkaufsbeiträge und fiktiver Einkauf (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-15
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1.2",
+"stichworte": [
+"Einkaufsbeiträge abziehbar",
+"fiktiver Einkauf Entstehung",
+"Deckungslücke",
+"Votum Merz"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0046",
 "nachher": "bund-ks-28__c0048"
 },
 {
 "id": "bund-ks-28__c0048",
-"titel": "KS 28 – Abschnitt 48",
-"pfad": [],
+"titel": "Anhang II Wortlaut Art. 37b DBG (vom Parlament verabschiedet)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-15
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 37b",
+"stichworte": [
+"Art. 37b DBG Wortlaut",
+"Liquidationsgewinne",
+"ein Fünftel",
+"mindestens 2 Prozent"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Verabschiedeter Wortlaut von Art. 37b DBG: stille Reserven der letzten zwei Geschäftsjahre getrennt besteuern, Einkaufsbeiträge abziehbar, Satz auf Fünftel, mindestens 2 Prozent.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0047",
 "nachher": "bund-ks-28__c0049"
 },
 {
 "id": "bund-ks-28__c0049",
-"titel": "KS 28 – Abschnitt 49",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.3 Auslegung von Art. 37b DBG (Teil 1/3)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-15
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.3",
+"stichworte": [
+"Auslegung",
+"teleologisch",
+"fiktiver Einkauf Nichtangeschlossene",
+"Erben Voraussetzungen",
+"BGE 134 V 170"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Eine strikt wörtliche Auslegung würde Nichtangeschlossene vom fiktiven Einkauf ausschliessen und auch die Erben dem Alterserfordernis unterwerfen, was der Gesetzgeber nicht wollte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0048",
 "nachher": "bund-ks-28__c0050"
 },
 {
 "id": "bund-ks-28__c0050",
-"titel": "KS 28 – Abschnitt 50",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.3 Auslegung von Art. 37b DBG (Teil 2/3)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-16
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1.3",
+"stichworte": [
+"Auslegung",
+"teleologisch",
+"fiktiver Einkauf Nichtangeschlossene",
+"Erben Voraussetzungen",
+"BGE 134 V 170"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0049",
 "nachher": "bund-ks-28__c0051"
 },
 {
 "id": "bund-ks-28__c0051",
-"titel": "KS 28 – Abschnitt 51",
-"pfad": [],
+"titel": "Anhang II Ziff. 1.3 Auslegung von Art. 37b DBG (Teil 3/3)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-16
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1.3",
+"stichworte": [
+"Auslegung",
+"teleologisch",
+"fiktiver Einkauf Nichtangeschlossene",
+"Erben Voraussetzungen",
+"BGE 134 V 170"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0050",
 "nachher": "bund-ks-28__c0052"
 },
 {
 "id": "bund-ks-28__c0052",
-"titel": "KS 28 – Abschnitt 52",
-"pfad": [],
+"titel": "Anhang II Art. 1 Abs. 1–2 Gegenstand: definitive Aufgabe, Invalidität (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-16
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 1 Abs. 1–2",
+"stichworte": [
+"definitive Aufgabe",
+"55. Altersjahr",
+"Invalidität Art. 4 IVG",
+"unselbständige Tätigkeit nachher"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Die privilegierte Besteuerung setzt das vollendete 55. Altersjahr oder Invalidität voraus; eine nachträgliche unselbständige Tätigkeit schadet nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0051",
 "nachher": "bund-ks-28__c0053"
 },
 {
 "id": "bund-ks-28__c0053",
-"titel": "KS 28 – Abschnitt 53",
-"pfad": [],
+"titel": "Anhang II Art. 1 Abs. 1–2 Gegenstand: definitive Aufgabe, Invalidität (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-16
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 1 Abs. 1–2",
+"stichworte": [
+"definitive Aufgabe",
+"55. Altersjahr",
+"Invalidität Art. 4 IVG",
+"unselbständige Tätigkeit nachher"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0052",
 "nachher": "bund-ks-28__c0054"
 },
 {
 "id": "bund-ks-28__c0054",
-"titel": "KS 28 – Abschnitt 54",
-"pfad": [],
+"titel": "Anhang II Art. 1 Abs. 3 Ausnahmen – nur einmal, nur stille Reserven",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-16
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 1 Abs. 3",
+"stichworte": [
+"einmalige Anwendung",
+"Wiederaufnahme selbständige Tätigkeit",
+"ordentliche Besteuerung",
+"übrige Einkünfte"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Die Privilegierung gilt nur für im Vorjahr und Liquidationsjahr realisierte stille Reserven und nur einmal; bei Wiederaufnahme der Tätigkeit gilt später die ordentliche Besteuerung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0053",
 "nachher": "bund-ks-28__c0055"
 },
 {
 "id": "bund-ks-28__c0055",
-"titel": "KS 28 – Abschnitt 55",
-"pfad": [],
+"titel": "Anhang II Art. 1 – Nachsteuerverfahren und Steuerumgehung (Teil 1/4)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-17
+19,
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 1",
+"stichworte": [
+"Nachsteuerverfahren",
+"Art. 151 DBG",
+"Steuerumgehung",
+"neue Tatsachen",
+"Bundesgericht"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Ein Nachsteuerverfahren nach Art. 151 DBG ist bei Wiederaufnahme der Tätigkeit nicht möglich; vorbehalten bleibt die Steuerumgehung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0054",
 "nachher": "bund-ks-28__c0056"
 },
 {
 "id": "bund-ks-28__c0056",
-"titel": "KS 28 – Abschnitt 56",
-"pfad": [],
+"titel": "Anhang II Art. 1 – Nachsteuerverfahren und Steuerumgehung (Teil 2/4)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-17
+19,
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 1",
+"stichworte": [
+"Nachsteuerverfahren",
+"Art. 151 DBG",
+"Steuerumgehung",
+"neue Tatsachen",
+"Bundesgericht"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0055",
 "nachher": "bund-ks-28__c0057"
 },
 {
 "id": "bund-ks-28__c0057",
-"titel": "KS 28 – Abschnitt 57",
-"pfad": [],
+"titel": "Anhang II Art. 1 – Nachsteuerverfahren und Steuerumgehung (Teil 3/4)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-17
+19,
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 1",
+"stichworte": [
+"Nachsteuerverfahren",
+"Art. 151 DBG",
+"Steuerumgehung",
+"neue Tatsachen",
+"Bundesgericht"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0056",
 "nachher": "bund-ks-28__c0058"
 },
 {
 "id": "bund-ks-28__c0058",
-"titel": "KS 28 – Abschnitt 58",
-"pfad": [],
+"titel": "Anhang II Art. 1 – Nachsteuerverfahren und Steuerumgehung (Teil 4/4)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-17
+19,
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 1",
+"stichworte": [
+"Nachsteuerverfahren",
+"Art. 151 DBG",
+"Steuerumgehung",
+"neue Tatsachen",
+"Bundesgericht"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0057",
 "nachher": "bund-ks-28__c0059"
 },
 {
 "id": "bund-ks-28__c0059",
-"titel": "KS 28 – Abschnitt 59",
-"pfad": [],
+"titel": "Anhang II Art. 2 Liquidationsjahr",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-17
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 2",
+"stichworte": [
+"Liquidationsjahr Definition",
+"Inkrafttreten 2011",
+"Vorjahr 2010"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Liquidationsjahr ist das Geschäftsjahr der letzten Liquidationshandlung; bei Aufgabe 2011 kann 2010 als Vorjahr herangezogen werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0058",
 "nachher": "bund-ks-28__c0060"
 },
 {
 "id": "bund-ks-28__c0060",
-"titel": "KS 28 – Abschnitt 60",
-"pfad": [],
+"titel": "Anhang II Art. 3 Verhältnis zu Art. 18a DBG – Grundsätze (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-18
+20,
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 3",
+"stichworte": [
+"Art. 18a DBG",
+"Überführung Liegenschaft",
+"Aufschub",
+"wieder eingebrachte Abschreibungen",
+"Wertzuwachsgewinn"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Bei Aufschub nach Art. 18a DBG gilt Art. 37b nur auf wieder eingebrachte Abschreibungen; innerhalb von Vorjahr und Liquidationsjahr gehören alle stillen Reserven zum Liquidationsgewinn.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0059",
 "nachher": "bund-ks-28__c0061"
 },
 {
 "id": "bund-ks-28__c0061",
-"titel": "KS 28 – Abschnitt 61",
-"pfad": [],
+"titel": "Anhang II Art. 3 Verhältnis zu Art. 18a DBG – Grundsätze (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-18
+20,
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 3",
+"stichworte": [
+"Art. 18a DBG",
+"Überführung Liegenschaft",
+"Aufschub",
+"wieder eingebrachte Abschreibungen",
+"Wertzuwachsgewinn"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0060",
 "nachher": "bund-ks-28__c0062"
 },
 {
 "id": "bund-ks-28__c0062",
-"titel": "KS 28 – Abschnitt 62",
-"pfad": [],
+"titel": "Anhang II Art. 3 Fall 1 – Überführung Vorjahr ohne Aufschub, Verkauf Liquidationsjahr",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-18
+21,
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 3 Fall 1",
+"stichworte": [
+"Fall 1 Liegenschaft",
+"ohne Aufschub",
+"Revisionsverfahren",
+"Liquidationsgewinn Liegenschaft"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ohne Aufschub werden bei Überführung im Vorjahr und Verkauf im Liquidationsjahr die gesamten stillen Reserven privilegiert besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0061",
 "nachher": "bund-ks-28__c0063"
 },
 {
 "id": "bund-ks-28__c0063",
-"titel": "KS 28 – Abschnitt 63",
-"pfad": [],
+"titel": "Anhang II Art. 3 Fall 2 – Überführung Vorjahr ohne Aufschub, Verkauf später",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-18
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 3 Fall 2",
+"stichworte": [
+"Fall 2 Liegenschaft",
+"Grundstückgewinnsteuer",
+"steuerfreier privater Kapitalgewinn",
+"Art. 16 Abs. 3 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Eine spätere Veräusserung löst nur kantonale Grundstückgewinnsteuer aus; der Kapitalgewinn ist steuerfrei (Art. 16 Abs. 3 DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0062",
 "nachher": "bund-ks-28__c0064"
 },
 {
 "id": "bund-ks-28__c0064",
-"titel": "KS 28 – Abschnitt 64",
-"pfad": [],
+"titel": "Anhang II Art. 3 Fall 3 – Überführung mit Aufschub, Verkauf nach Liquidationsjahr",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-19
+22,
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 3 Fall 3",
+"stichworte": [
+"Fall 3 Liegenschaft",
+"mit Aufschub",
+"Anlagekosten",
+"wieder eingebrachte Abschreibungen"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Mit Aufschub sind nur die wieder eingebrachten Abschreibungen Teil des Liquidationsgewinns; der Wertzuwachsgewinn wird später als Einkommen aus selbständiger Erwerbstätigkeit besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0063",
 "nachher": "bund-ks-28__c0065"
 },
 {
 "id": "bund-ks-28__c0065",
-"titel": "KS 28 – Abschnitt 65",
-"pfad": [],
+"titel": "Anhang II Art. 3 Fall 4 – Überführung vor Vorjahr mit Aufschub, Verkauf im Liquidationsjahr (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-19
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 3 Fall 4",
+"stichworte": [
+"Fall 4 Liegenschaft",
+"Aufschub Art. 18a",
+"ordentliche Besteuerung Wertzuwachs"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Art. 37b DBG findet weder auf die wieder eingebrachten Abschreibungen noch auf den Wertzuwachsgewinn Anwendung; beides wird ordentlich besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0064",
 "nachher": "bund-ks-28__c0066"
 },
 {
 "id": "bund-ks-28__c0066",
-"titel": "KS 28 – Abschnitt 66",
-"pfad": [],
+"titel": "Anhang II Art. 3 Fall 4 – Überführung vor Vorjahr mit Aufschub, Verkauf im Liquidationsjahr (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-19
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 3 Fall 4",
+"stichworte": [
+"Fall 4 Liegenschaft",
+"Aufschub Art. 18a",
+"ordentliche Besteuerung Wertzuwachs"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0065",
 "nachher": "bund-ks-28__c0067"
 },
 {
 "id": "bund-ks-28__c0067",
-"titel": "KS 28 – Abschnitt 67",
-"pfad": [],
+"titel": "Anhang II Art. 4 Einkauf in eine Vorsorgeeinrichtung",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-19
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 4",
+"stichworte": [
+"Einkauf Art. 33 Abs. 1 Bst. d",
+"Art. 79b Abs. 3 BVG",
+"Kapitalbezug Sperrfrist drei Jahre",
+"Beitragsüberhang"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Einkäufe werden zuerst vom übrigen Einkommen abgezogen; Leistungen aus Einkäufen dürfen innerhalb von drei Jahren nicht als Kapital bezogen werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0066",
 "nachher": "bund-ks-28__c0068"
 },
 {
 "id": "bund-ks-28__c0068",
-"titel": "KS 28 – Abschnitt 68",
-"pfad": [],
+"titel": "Anhang II Art. 5 Fiktiver Einkauf – Grundsätze und Anspruchsberechtigte (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-20
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 5",
+"stichworte": [
+"fiktiver Einkauf Anspruch",
+"Beweislast Steuerpflichtiger",
+"Vorsorgeguthaben anrechnen"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Alle selbständig Erwerbenden, die keinen tatsächlichen Einkauf leisten, können die Besteuerung eines fiktiven Einkaufs beantragen; bestehende Vorsorgeguthaben werden angerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0067",
 "nachher": "bund-ks-28__c0069"
 },
 {
 "id": "bund-ks-28__c0069",
-"titel": "KS 28 – Abschnitt 69",
-"pfad": [],
+"titel": "Anhang II Art. 5 Fiktiver Einkauf – Grundsätze und Anspruchsberechtigte (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-20
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 5",
+"stichworte": [
+"fiktiver Einkauf Anspruch",
+"Beweislast Steuerpflichtiger",
+"Vorsorgeguthaben anrechnen"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0068",
 "nachher": "bund-ks-28__c0070"
 },
 {
 "id": "bund-ks-28__c0070",
-"titel": "KS 28 – Abschnitt 70",
-"pfad": [],
+"titel": "Anhang II Art. 6 Abs. 1–2 Altersgutschriftensatz 15 Prozent, Beitragsjahre (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-20
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 6 Abs. 1–2",
+"stichworte": [
+"Altersgutschriftensatz 15 Prozent",
+"Art. 16 BVG",
+"40 Jahre",
+"39 Jahre",
+"Koordinationsabzug"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Der Altersgutschriftensatz von 15 Prozent entspricht dem obligatorischen Satz zwischen 45 und 54; maximal 40 (65-25) bzw. 39 Jahre (64-25) werden berücksichtigt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0069",
 "nachher": "bund-ks-28__c0071"
 },
 {
 "id": "bund-ks-28__c0071",
-"titel": "KS 28 – Abschnitt 71",
-"pfad": [],
+"titel": "Anhang II Art. 6 Abs. 1–2 Altersgutschriftensatz 15 Prozent, Beitragsjahre (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-20
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 6 Abs. 1–2",
+"stichworte": [
+"Altersgutschriftensatz 15 Prozent",
+"Art. 16 BVG",
+"40 Jahre",
+"39 Jahre",
+"Koordinationsabzug"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0070",
 "nachher": "bund-ks-28__c0072"
 },
 {
 "id": "bund-ks-28__c0072",
-"titel": "KS 28 – Abschnitt 72",
-"pfad": [],
+"titel": "Anhang II Art. 6 Abs. 3–5 Durchschnittseinkommen, Höchstgrenze",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-20
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 6 Abs. 3–5",
+"stichworte": [
+"Durchschnittseinkommen",
+"fünfjähriger Durchschnitt",
+"oberer Grenzbetrag BVG",
+"weniger als fünf Jahre"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Es zählt das AHV-pflichtige ordentliche Einkommen im Fünfjahresdurchschnitt ohne Liquidationsgewinn, höchstens der versicherbare BVG-Lohn.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0071",
 "nachher": "bund-ks-28__c0073"
 },
 {
 "id": "bund-ks-28__c0073",
-"titel": "KS 28 – Abschnitt 73",
-"pfad": [],
+"titel": "Anhang II Art. 6 Abs. 6 Anrechnung von Vorsorgeguthaben und Bezügen",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-21
+25,
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 6 Abs. 6",
+"stichworte": [
+"Vorsorgeguthaben anrechnen",
+"Freizügigkeitsguthaben",
+"WEF-Vorbezug",
+"Barauszahlung",
+"Wohlfahrtsfonds"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Alle Vorsorgeguthaben inklusive Einkäufe im Vorjahr und Liquidationsjahr sowie bereits bezogene Leistungen sind an den fiktiven Einkauf anzurechnen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0072",
 "nachher": "bund-ks-28__c0074"
 },
 {
 "id": "bund-ks-28__c0074",
-"titel": "KS 28 – Abschnitt 74",
-"pfad": [],
+"titel": "Anhang II Art. 7 Nachträglicher Anschluss an eine Vorsorgeeinrichtung",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-21
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 7",
+"stichworte": [
+"nachträglicher Anschluss",
+"neue Erwerbstätigkeit",
+"Art. 60a BVV 2",
+"Einkauf nach Liquidation"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Der bereits geltend gemachte fiktive Einkauf wird von der effektiven Einkaufslücke abgezogen und wie eine Freizügigkeitsleistung behandelt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0073",
 "nachher": "bund-ks-28__c0075"
 },
 {
 "id": "bund-ks-28__c0075",
-"titel": "KS 28 – Abschnitt 75",
-"pfad": [],
+"titel": "Anhang II Art. 8 Besteuerung des fiktiven Einkaufs (Vorsorgetarif, Zusammenrechnung)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-21
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 8",
+"stichworte": [
+"Art. 38 DBG",
+"Kapitalleistung Vorsorge",
+"Zusammenrechnung Kapitalleistungen",
+"Vorsorgetarif"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Der fiktive Einkauf wird nach Art. 38 DBG wie eine Kapitalleistung aus Vorsorge besteuert und mit Kapitalleistungen derselben Steuerperiode zusammengerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0074",
 "nachher": "bund-ks-28__c0076"
 },
 {
 "id": "bund-ks-28__c0076",
-"titel": "KS 28 – Abschnitt 76",
-"pfad": [],
+"titel": "Anhang II Art. 9 Bemessung des übrigen Liquidationsgewinns (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-22
+27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 9",
+"stichworte": [
+"Abzüge Liquidationsgewinn",
+"Liquidationsaufwand",
+"Verlustvortrag",
+"Beitragsüberhang",
+"fiktiver Einkauf Aussonderung"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Vom Liquidationsgewinn abgezogen werden Beitragsüberhänge, der fiktive Einkauf, Liquidationsaufwand (z.B. Notar, Anwalt) und verrechenbare Verlustvorträge.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0075",
 "nachher": "bund-ks-28__c0077"
 },
 {
 "id": "bund-ks-28__c0077",
-"titel": "KS 28 – Abschnitt 77",
-"pfad": [],
+"titel": "Anhang II Art. 9 Bemessung des übrigen Liquidationsgewinns (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-22
+27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 9",
+"stichworte": [
+"Abzüge Liquidationsgewinn",
+"Liquidationsaufwand",
+"Verlustvortrag",
+"Beitragsüberhang",
+"fiktiver Einkauf Aussonderung"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0076",
 "nachher": "bund-ks-28__c0078"
 },
 {
 "id": "bund-ks-28__c0078",
-"titel": "KS 28 – Abschnitt 78",
-"pfad": [],
+"titel": "Anhang II Art. 10 Besteuerung – ein Fünftel, Mindestsatz 2 Prozent",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-23
+28
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 10",
+"stichworte": [
+"ein Fünftel satzbestimmend",
+"Mindestsatz 2 Prozent",
+"Art. 214 DBG",
+"Progression"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Ein Fünftel des verbleibenden Liquidationsgewinns bestimmt den Steuersatz nach Art. 214 DBG; der Mindestsatz von 2 Prozent stellt sicher, dass immer eine Steuer anfällt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0077",
 "nachher": "bund-ks-28__c0079"
 },
 {
 "id": "bund-ks-28__c0079",
-"titel": "KS 28 – Abschnitt 79",
-"pfad": [],
+"titel": "Anhang II Art. 11 Abs. 1–3 Liquidation durch Erben",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-23
+28
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 11 Abs. 1–3",
+"stichworte": [
+"Erben Liquidationsgewinn",
+"Auffangtatbestand",
+"fünf Jahre",
+"Erfüllung Verpflichtungen"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Erben und Vermächtnisnehmer übernehmen den Anspruch des Erblassers; nach fünf Jahren ohne Liquidation gilt eine gesetzliche Privatentnahme.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0078",
 "nachher": "bund-ks-28__c0080"
 },
 {
 "id": "bund-ks-28__c0080",
-"titel": "KS 28 – Abschnitt 80",
-"pfad": [],
+"titel": "Anhang II Art. 11 Abs. 4 Kein fiktiver Einkauf für Erben (Teil 1/4)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-23
+28,
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 11 Abs. 4",
+"stichworte": [
+"fiktiver Einkauf Erben",
+"Todesfallleistung",
+"Vorsorgelücke",
+"Art. 37b Abs. 2 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Erben und Vermächtnisnehmer können keinen fiktiven Einkauf geltend machen, da nach dem Tod keine Vorsorgelücken mehr geschlossen werden können.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0079",
 "nachher": "bund-ks-28__c0081"
 },
 {
 "id": "bund-ks-28__c0081",
-"titel": "KS 28 – Abschnitt 81",
-"pfad": [],
+"titel": "Anhang II Art. 11 Abs. 4 Kein fiktiver Einkauf für Erben (Teil 2/4)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-24
+28,
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 11 Abs. 4",
+"stichworte": [
+"fiktiver Einkauf Erben",
+"Todesfallleistung",
+"Vorsorgelücke",
+"Art. 37b Abs. 2 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0080",
 "nachher": "bund-ks-28__c0082"
 },
 {
 "id": "bund-ks-28__c0082",
-"titel": "KS 28 – Abschnitt 82",
-"pfad": [],
+"titel": "Anhang II Art. 11 Abs. 4 Kein fiktiver Einkauf für Erben (Teil 3/4)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-24
+28,
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 11 Abs. 4",
+"stichworte": [
+"fiktiver Einkauf Erben",
+"Todesfallleistung",
+"Vorsorgelücke",
+"Art. 37b Abs. 2 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0081",
 "nachher": "bund-ks-28__c0083"
 },
 {
 "id": "bund-ks-28__c0083",
-"titel": "KS 28 – Abschnitt 83",
-"pfad": [],
+"titel": "Anhang II Art. 11 Abs. 4 Kein fiktiver Einkauf für Erben (Teil 4/4)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-24
+28,
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 11 Abs. 4",
+"stichworte": [
+"fiktiver Einkauf Erben",
+"Todesfallleistung",
+"Vorsorgelücke",
+"Art. 37b Abs. 2 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0082",
 "nachher": "bund-ks-28__c0084"
 },
 {
 "id": "bund-ks-28__c0084",
-"titel": "KS 28 – Abschnitt 84",
-"pfad": [],
+"titel": "Anhang II Art. 12–13 Fortführung durch Erben; Inkrafttreten (Teil 1/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-25
+29,
+30,
+31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Art. 12–13",
+"stichworte": [
+"Fortführung Erben",
+"Art. 18a Abs. 3 DBG",
+"übrige Erben Anteil",
+"Inkrafttreten 1. Januar 2011"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Mit der ersten Fortführungshandlung geht der Anspruch des Erblassers unter; übrige Erben können für ihren Anteil Art. 37b geltend machen; Inkrafttreten 1. Januar 2011.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0083",
 "nachher": "bund-ks-28__c0085"
 },
 {
 "id": "bund-ks-28__c0085",
-"titel": "KS 28 – Abschnitt 85",
-"pfad": [],
+"titel": "Anhang II Art. 12–13 Fortführung durch Erben; Inkrafttreten (Teil 2/2)",
+"pfad": [
+"KS 28",
+"Anhang II Erläuterungen"
+],
 "seiten": [
-25
+29,
+30,
+31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Art. 12–13",
+"stichworte": [
+"Fortführung Erben",
+"Art. 18a Abs. 3 DBG",
+"übrige Erben Anteil",
+"Inkrafttreten 1. Januar 2011"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0084",
 "nachher": "bund-ks-28__c0086"
 },
 {
 "id": "bund-ks-28__c0086",
-"titel": "KS 28 – Abschnitt 86",
-"pfad": [],
+"titel": "Anhang III Tod eines Gesellschafters – keine Regelung, Nachfolgeklausel (Teil 1/3)",
+"pfad": [
+"KS 28",
+"Anhang III Personengesellschaft"
+],
 "seiten": [
-25
+31,
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang III",
+"stichworte": [
+"Personengesellschaft Tod Gesellschafter",
+"Nachfolgeklausel",
+"Erbengemeinschaft",
+"Fortführung nicht fortführen",
+"Art. 37b Abs. 2 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Übersicht, ob beim Tod eines Gesellschafters Fortführung oder Nichtfortführung vorliegt und ob Art. 37b Abs. 2 DBG anwendbar ist.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0085",
 "nachher": "bund-ks-28__c0087"
 },
 {
 "id": "bund-ks-28__c0087",
-"titel": "KS 28 – Abschnitt 87",
-"pfad": [],
+"titel": "Anhang III Tod eines Gesellschafters – keine Regelung, Nachfolgeklausel (Teil 2/3)",
+"pfad": [
+"KS 28",
+"Anhang III Personengesellschaft"
+],
 "seiten": [
-25
+31,
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang III",
+"stichworte": [
+"Personengesellschaft Tod Gesellschafter",
+"Nachfolgeklausel",
+"Erbengemeinschaft",
+"Fortführung nicht fortführen",
+"Art. 37b Abs. 2 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0086",
 "nachher": "bund-ks-28__c0088"
 },
 {
 "id": "bund-ks-28__c0088",
-"titel": "KS 28 – Abschnitt 88",
-"pfad": [],
+"titel": "Anhang III Tod eines Gesellschafters – keine Regelung, Nachfolgeklausel (Teil 3/3)",
+"pfad": [
+"KS 28",
+"Anhang III Personengesellschaft"
+],
 "seiten": [
-26
+31,
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang III",
+"stichworte": [
+"Personengesellschaft Tod Gesellschafter",
+"Nachfolgeklausel",
+"Erbengemeinschaft",
+"Fortführung nicht fortführen",
+"Art. 37b Abs. 2 DBG"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0087",
 "nachher": "bund-ks-28__c0089"
 },
 {
 "id": "bund-ks-28__c0089",
-"titel": "KS 28 – Abschnitt 89",
-"pfad": [],
+"titel": "Anhang III Nachfolgeklausel 2.B, Fortsetzungs- und Eintrittsklausel (Teil 1/3)",
+"pfad": [
+"KS 28",
+"Anhang III Personengesellschaft"
+],
 "seiten": [
-26
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang III",
+"stichworte": [
+"Fortsetzungsklausel",
+"Eintrittsklausel",
+"Abfindungsanspruch",
+"kein fiktiver Einkauf",
+"Liquidationsgewinn Erblasser"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Bei Fortsetzungs- oder nicht angenommener Eintrittsklausel realisiert der Erblasser den Liquidationsgewinn (Art. 37b Abs. 1 DBG), ein fiktiver Einkauf ist nicht möglich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0088",
 "nachher": "bund-ks-28__c0090"
 },
 {
 "id": "bund-ks-28__c0090",
-"titel": "KS 28 – Abschnitt 90",
-"pfad": [],
+"titel": "Anhang III Nachfolgeklausel 2.B, Fortsetzungs- und Eintrittsklausel (Teil 2/3)",
+"pfad": [
+"KS 28",
+"Anhang III Personengesellschaft"
+],
 "seiten": [
-26
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang III",
+"stichworte": [
+"Fortsetzungsklausel",
+"Eintrittsklausel",
+"Abfindungsanspruch",
+"kein fiktiver Einkauf",
+"Liquidationsgewinn Erblasser"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0089",
 "nachher": "bund-ks-28__c0091"
 },
 {
 "id": "bund-ks-28__c0091",
-"titel": "KS 28 – Abschnitt 91",
-"pfad": [],
+"titel": "Anhang III Nachfolgeklausel 2.B, Fortsetzungs- und Eintrittsklausel (Teil 3/3)",
+"pfad": [
+"KS 28",
+"Anhang III Personengesellschaft"
+],
 "seiten": [
-27
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang III",
+"stichworte": [
+"Fortsetzungsklausel",
+"Eintrittsklausel",
+"Abfindungsanspruch",
+"kein fiktiver Einkauf",
+"Liquidationsgewinn Erblasser"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-28__c0090",
-"nachher": "bund-ks-28__c0092"
-},
-{
-"id": "bund-ks-28__c0092",
-"titel": "KS 28 – Abschnitt 92",
-"pfad": [],
-"seiten": [
-27
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0091",
-"nachher": "bund-ks-28__c0093"
-},
-{
-"id": "bund-ks-28__c0093",
-"titel": "KS 28 – Abschnitt 93",
-"pfad": [],
-"seiten": [
-28
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0092",
-"nachher": "bund-ks-28__c0094"
-},
-{
-"id": "bund-ks-28__c0094",
-"titel": "KS 28 – Abschnitt 94",
-"pfad": [],
-"seiten": [
-28
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0093",
-"nachher": "bund-ks-28__c0095"
-},
-{
-"id": "bund-ks-28__c0095",
-"titel": "KS 28 – Abschnitt 95",
-"pfad": [],
-"seiten": [
-28
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0094",
-"nachher": "bund-ks-28__c0096"
-},
-{
-"id": "bund-ks-28__c0096",
-"titel": "KS 28 – Abschnitt 96",
-"pfad": [],
-"seiten": [
-28
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0095",
-"nachher": "bund-ks-28__c0097"
-},
-{
-"id": "bund-ks-28__c0097",
-"titel": "KS 28 – Abschnitt 97",
-"pfad": [],
-"seiten": [
-29
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0096",
-"nachher": "bund-ks-28__c0098"
-},
-{
-"id": "bund-ks-28__c0098",
-"titel": "KS 28 – Abschnitt 98",
-"pfad": [],
-"seiten": [
-29
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0097",
-"nachher": "bund-ks-28__c0099"
-},
-{
-"id": "bund-ks-28__c0099",
-"titel": "KS 28 – Abschnitt 99",
-"pfad": [],
-"seiten": [
-29
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0098",
-"nachher": "bund-ks-28__c0100"
-},
-{
-"id": "bund-ks-28__c0100",
-"titel": "KS 28 – Abschnitt 100",
-"pfad": [],
-"seiten": [
-29
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0099",
-"nachher": "bund-ks-28__c0101"
-},
-{
-"id": "bund-ks-28__c0101",
-"titel": "KS 28 – Abschnitt 101",
-"pfad": [],
-"seiten": [
-30
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0100",
-"nachher": "bund-ks-28__c0102"
-},
-{
-"id": "bund-ks-28__c0102",
-"titel": "KS 28 – Abschnitt 102",
-"pfad": [],
-"seiten": [
-31
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0101",
-"nachher": "bund-ks-28__c0103"
-},
-{
-"id": "bund-ks-28__c0103",
-"titel": "KS 28 – Abschnitt 103",
-"pfad": [],
-"seiten": [
-31
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0102",
-"nachher": "bund-ks-28__c0104"
-},
-{
-"id": "bund-ks-28__c0104",
-"titel": "KS 28 – Abschnitt 104",
-"pfad": [],
-"seiten": [
-31
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0103",
-"nachher": "bund-ks-28__c0105"
-},
-{
-"id": "bund-ks-28__c0105",
-"titel": "KS 28 – Abschnitt 105",
-"pfad": [],
-"seiten": [
-32
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0104",
-"nachher": "bund-ks-28__c0106"
-},
-{
-"id": "bund-ks-28__c0106",
-"titel": "KS 28 – Abschnitt 106",
-"pfad": [],
-"seiten": [
-32
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0105",
-"nachher": "bund-ks-28__c0107"
-},
-{
-"id": "bund-ks-28__c0107",
-"titel": "KS 28 – Abschnitt 107",
-"pfad": [],
-"seiten": [
-32
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-28__c0106",
 "nachher": null
 }
 ]

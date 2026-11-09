@@ -4,15 +4,17 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 5"
-seiten: "1"
+titel: "Ziff. 3.1 Steuerliche Grundlagen – transparente Betrachtung (Teil 2/2)"
+ziffer: "3.1"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 25 · 3 Grundsätze der Besteuerung › 3.1 · S. 3
 
-6   Inkrafttreten...................................................................................................... 10
-7   Anhänge ........................................................................................................... 11
-Anhang I Begriffsbestimmungen / Abkürzungen ............................................................... 11
-Anhang II Kollektive Kapitalanlagen mit direktem Grundbesitz / Spartenrechnung............. 13
-Anhang III Grafische Übersicht über die Formen der kollektiven Kapitalanlagen (KKA) ...... 15
-Anhang IV Gleichstellung ausländischer kollektiver Kapitalanlagen .................................... 16
+Ebenfalls ausgenommen vom Prinzip der transparenten Besteuerung sind kollektive Kapital-
+anlagen mit direktem Grundbesitz. Diese werden nach Artikel 10 Absatz 2 DBG in Verbin-
+dung mit Artikel 49 Absatz 2 DBG besteuert. Nachfolgend wird unterschieden zwischen kol-
+lektiven Kapitalanlagen ohne und solchen mit direktem Grundbesitz (vgl. Ziff. 3.2 und 3.3).
+
+Ausländische kollektive Kapitalanlagen sind steuerlich den schweizerischen kollektiven Kapi-
+talanlagen gleichzustellen (vgl. Gleichstellungsregeln im Anhang IV).

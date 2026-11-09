@@ -4,16 +4,18 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 42"
-seiten: "10"
+titel: "Ziff. 7 Geltungsbereich und Anhang Fragebogen"
+ziffer: "7"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 11a · 7 Geltungsbereich · S. 12
 
-4.3.9   Wohnkosten
-Die Kosten des infolge einer Behinderung notwendigen Umbaus, der behinderungsbedingten
-Anpassung oder des behinderungsbedingten Unterhalts einer Wohnstätte in einem Mietobjekt
-oder eines Eigenheims (z.B. Einbau eines Treppenlifts, einer Rollstuhlrampe, eines WC für Per
-sonen mit Behinderung etc.) können zum Abzug gebracht werden. Werterhaltende Kosten der
-Wohneigentümerin oder des Wohneigentümers hingegen sind als ordentlicher Liegenschaftsun
-terhalt abzuziehen.
+7   Geltungsbereich
+
+Dieses Kreisschreiben ersetzt das Kreisschreiben Nr. 11 vom 31. August 2005 betreffend Ab
+zug von Krankheits- und Unfallkosten sowie von behinderungsbedingten Kosten und gelangt ab
+der Steuerperiode 2027 zur Anwendung.
+
+
+Anhang: Fragebogen für Ärztinnen und Ärzte

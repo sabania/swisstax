@@ -4,27 +4,28 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 13.4.4–13.4.5 Elterntarif bei unterstützungsbedürftigen Personen; Stichtagsprinzip"
-ziffer: "13.4.4"
-seiten: "26"
+titel: "Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus (Teil 2/2)"
+ziffer: "13.4.7"
+seiten: "27-28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.7 Teilweise Steuerpflicht · S. 27–28
 
-13.4.4   Gewährung des Elterntarifs bei unterstützungsbedürftigen Personen
+Familienstand   rechtlich und tatsächlich ungetrennte Ehe
+Anzahl Kinder im gemeinsamen Haushalt   2
+Steuerbares Einkommen in CHF   20’000
+Satzbestimmendes Einkommen in CHF   250’000
+Steuersatz in % (SP 2011)   7,663
 
-Der Elterntarif wird ebenfalls gewährt, wenn eine steuerpflichtige Person mit einer unterstüt-
-zungsbedürftigen Person zusammenlebt. Vorausgesetzt wird auch hier, dass die Person den
-Unterhalt der unterstützungsbedürftigen Person zur Hauptsache bestreitet. In Weiterführung
-der Praxis zum bisherigen Artikel 36 Absatz 2 DBG ist dieses Erfordernis erfüllt, wenn die
-Voraussetzungen des Unterstützungsabzugs (Art. 35 Abs. 1 Bst. b DBG) gegeben sind (vgl.
-dazu Ziff. 11).
+Steuerberechnung:
 
+    CHF   Steuersatz in %   CHF
+Steuer vor Abzug   20’000   7,663   1’532.60
+./. Anteiliger Abzug vom   (2 x 251) x 20’000   - 40.15
+Steuerbetrag
+    250'000
+Geschuldete Steuer   1’492.45
 
-13.4.5   Stichtagsprinzip
-
-Artikel 36 DBG gibt keine Auskunft darüber, welcher Zeitpunkt für die Bestimmung des an-
-zuwendenden Tarifs massgebend ist. Aufgrund des engen Zusammenhangs zwischen Steu-
-ertarifen und Sozialabzügen ist das für die Sozialabzüge geltende Stichtagsprinzip gemäss
-Artikel 35 Absatz 2 DBG anzuwenden. Die Voraussetzungen für die Anwendbarkeit des El-
-terntarifs müssen daher am Ende der Steuerperiode oder der Steuerpflicht erfüllt sein.
+Auch im Fall einer Kombination von teilweiser und unterjähriger Steuerpflicht ist der Abzug
+vom Steuerbetrag im Verhältnis des steuerbaren zum höheren satzbestimmenden Einkom-
+men zu bemessen.

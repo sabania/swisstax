@@ -4,20 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 4a Low Exercise Price Options (LEPO) (Teil 2/2)"
-ziffer: "Anh. III 4a"
+titel: "Anhang III Ziff. 4b Mini-Futures – Funktionsweise, Hebel (Teil 1/2)"
+ziffer: "Anh. III 4b"
 seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 22
 
-Aus verwaltungs- und verfahrensökonomischen Gründen werden die Zinskomponenten von
-LEPO mit Laufzeiten von nicht mehr als zwölf Monaten auf Zusehen hin steuerfrei belassen.
-Bei überjährigen Laufzeiten werden hingegen die Zinskomponenten im Zeitpunkt der Rück-
-zahlung bzw. Ausübung als steuerbarer Vermögensertrag gemäss Artikel 20 Absatz 1 Buch-
-stabe a DBG erfasst. Mangels gesetzlicher Grundlage wird keine Verrechnungssteuer erho-
-ben und fällt bei der Ausgabe der LEPO auch keine Emissionsabgabe an. Jedoch unterlie-
-gen überjährige LEPO auf Aktien im Sekundärmarkt der Umsatzabgabe, da sie als „Unterbe-
-teiligungen“ an Aktien im Sinne von Artikel 13 Absatz 2 Buchstabe c StG qualifizieren.
-
-Den LEPO steuerlich gleichgestellt werden Aktienzertifikate auf weniger als fünf Aktien.
+b)   Mini-Futures auf Aktien, Edelmetalle und Rohstoffe
+Grundsätzlich ermöglichen Mini-Futures eine volle Partizipation an der Kursentwicklung des
+Basiswerts, wobei sowohl auf steigende (Mini Long) als auch auf fallende Kurse (Mini Short)
+gesetzt werden kann. Da sie keinen Volatilitätseinflüssen unterliegen, wird die Performance
+des Basiswerts zudem linear abgebildet. Mini-Futures weisen in der Regel eine unbegrenzte
+Laufzeit (open end) auf, sind aber mit einer Sicherheitsbarriere (Stop-Loss-Level) ausgestat-
+tet, welche garantiert, dass der maximale Verlust stets auf das investierte Kapital beschränkt
+bleibt (keine Nachschusspflicht). Wird nämlich die Sicherheitsbarriere eines Mini-Futures er-
+reicht, so wird die Position automatisch aufgelöst und der Restwert an die Investoren rück-
+vergütet. Ein wichtiges Merkmal von Futures-Kontrakten ist der grösstenteils fremdfinanzierte
+(Termin-) Kauf des jeweiligen Basiswerts. Beim Erwerb des Mini-Futures wird von den Anle-

@@ -4,24 +4,28 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung (Teil 1/2)"
-ziffer: "15.2"
-seiten: "40-41"
+titel: "Ziff. 15.6 Akteneinsichtsrecht der Ehegatten"
+ziffer: "15.6"
+seiten: "41-42"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.2 Steuererklärung · S. 40–41
+> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.6 Akteneinsichtsrecht · S. 41–42
 
-15.2   Steuererklärung
+15.6   Akteneinsichtsrecht
 
-Gemäss Artikel 113 Absatz 2 DBG unterschreiben die Ehepartner die Steuererklärung ge-
-meinsam. Fehlt die Unterschrift eines Ehegatten, wird nach erfolgloser Aufforderung das
-Bestehen einer vertraglichen Vertretung gemäss Artikel 32 ff. OR gesetzlich vermutet (Art.
-113 Abs. 2 DBG). Der nicht unterzeichnende Ehegatte wird infolgedessen so gestellt, wie
-wenn er das Steuerformular selber ausgefüllt, unterschrieben und eingereicht hätte. Die ge-
-setzliche Vermutung der vertraglichen Vertretung entbindet jedoch keinen der Ehegatten von
-der Deklarationspflicht.
+Die steuerliche Gleichberechtigung der Ehegatten wirkt sich auch auf die Akteneinsicht aus.
+Beide Steuerpflichtigen sind zur Einsicht in alle Steuerakten der Ehegemeinschaft berechtigt
+(Art. 114 Abs. 2 DBG). Wird einem Ehegatten die Einsichtnahme in ein Aktenstück aufgrund
+öffentlicher oder privater Interesse verweigert, so darf darauf zum Nachteil dieses Ehegatten
+nur abgestellt werden, wenn ihm die Behörde von dem für die Sache wesentlichen Inhalt
+mündlich oder schriftlich Kenntnis und ausserdem Gelegenheit gegeben hat, sich zu äussern
+und Gegenbeweismittel zu bezeichnen (Art. 114 Abs. 3 DBG). Auf Wunsch des Ehegatten,
+dem die Einsicht verweigert wurde, hat die Behörde die Verweigerung der Akteneinsicht
 
-Ist ein Ehegatte mit der von seinem Ehepartner ausgefüllten Steuererklärung nicht einver-
-standen und verweigert daher die Unterschrift, hat er innert Frist eine separate Steuererklä-
-rung einzureichen. Andernfalls werden ihm infolge der Vertretungsvermutung die in der
-Steuererklärung enthaltenen Angaben zugerechnet.
+durch eine Verfügung zu bestätigen, die durch Beschwerde angefochten werden kann (Art.
+114 Abs. 4 DBG).
+
+Ab dem Zeitpunkt der Trennung kann ein Ehegatte die Steuerakten des anderen Ehegatten
+nicht mehr einsehen, da diese getrennt veranlagt werden und es sich somit nicht mehr um
+gemeinsame Steuerakten im Sinne von Artikel 9 DBG in Verbindung mit Artikel 114 Absatz 1
+DBG handelt.

@@ -4,23 +4,24 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 14"
-seiten: "3"
+titel: "Ziff. 2.5 Realisation und 2.6 Umrechnung von Fremdwährungen"
+ziffer: "2.5 / 2.6"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 37 · 2 Begriffe › 2.5 Realisation / 2.6 Fremdwährungen · S. 6
 
-Die in Artikel 129 Absatz 1 Buchstabe d des Bundesgesetzes vom 14. Dezember 1990 über
-die direkte Bundessteuer (DBG, SR 642.11) vorgesehenen neuen Bescheinigungs- und Mel-
-depflichten werden in der Verordnung vom 27. Juni 2012 über die Bescheinigungspflichten
-bei Mitarbeiterbeteiligungen (Mitarbeiterbeteiligungsverordnung [MBV], SR 642.115.325.1)
-näher ausgeführt.
+2.5   Realisation
+Wird in diesem Kreisschreiben von Realisation von Mitarbeiterbeteiligungen gesprochen,
+dann deckt dies insbesondere die Ausübung oder den Verkauf von Mitarbeiteroptionen ab,
+ebenso wie die Umwandlung von Anwartschaften in Aktien sowie den Bezug von Bargeld
+aus aktienkursbezogenen Bargeldanreizsystemen (vgl. Anhang I, Übersicht über Mitarbeiter-
+beteiligungen).
 
-Die Botschaft (vgl. Bundesblatt [BBl] 2005 575) zum neuen Bundesgesetz datiert bereits vom
-17. November 2004. Damit vermag der neue Erlass den in der Zwischenzeit eingetretenen
-Entwicklungen im Bereich der Mitarbeiterbeteiligungen nicht mehr in allen Punkten Rech-
-nung zu tragen. Das vorliegende Kreisschreiben sowie die Anhänge I bis IV sollen einen
-Überblick über die steuerlichen Auswirkungen der neuen Bestimmungen verschaffen.
-
-Die Änderungen des vorliegenden Kreisschreibens in seiner Version vom 30. Oktober
-2020 sind in diesem Dokument mit einem Balken auf der linken Seite gekennzeichnet.
+2.6   Umrechnung von Fremdwährungen
+Lautet eine Mitarbeiterbeteiligung auf eine ausländische Währung, so sind die jeweils zu be-
+scheinigenden Angaben in Schweizerfranken (nachfolgend Franken) umzurechnen. Der Um-
+rechnung ist das Mittel der Geld- und Briefschlusskurse am Tage der Abgabe, dem Erwerb
+oder der Realisation des geldwerten Vorteils aus der Mitarbeiterbeteiligung zu Grunde zu le-
+gen. In begründeten Fällen und in Absprache mit der zuständigen Steuerbehörde kann von
+dieser Umrechnung abgewichen werden.

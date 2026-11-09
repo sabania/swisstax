@@ -1,0 +1,289 @@
+{
+ "id": "sg-stb-39-9",
+ "hinweise": [
+  "Stand 01.01.2016 (neu); Extraktion sauber, Seitenfusszeilen (z.B. '01.01.2016 -1- neu') stehen im Text; Silbentrennung am Zeilenende."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Ziff. 1 Rechtsgrundlagen – Berufskosten, Pauschale übrige Berufskosten",
+   "pfad": [
+    "1. Rechtsgrundlagen"
+   ],
+   "stichworte": [
+    "Berufskosten",
+    "übrige Berufskosten",
+    "Pauschale",
+    "Art. 39 StG",
+    "Art. 21 StV",
+    "Arbeitszimmer"
+   ],
+   "zusammenfassung": "Übrige notwendige Berufskosten: Fr. 700.-- zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2'400.--, höherer Nachweis vorbehalten (Art. 21 StV).",
+   "ziffer": "1",
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ]
+  },
+  {
+   "start": 39,
+   "titel": "Ziff. 1 Zusatzabzug Nebenerwerb – 20 %, min. Fr. 800, max. Fr. 2'400",
+   "pfad": [
+    "1. Rechtsgrundlagen"
+   ],
+   "stichworte": [
+    "Nebenerwerb",
+    "Nebenerwerbsabzug",
+    "20 Prozent",
+    "Pauschale",
+    "Art. 22 StV",
+    "Berufskostenverordnung"
+   ],
+   "zusammenfassung": "Für unselbständigen Nebenerwerb sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar; höherer Nachweis vorbehalten.",
+   "ziffer": "1",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb"
+   ]
+  },
+  {
+   "start": 47,
+   "titel": "Ziff. 2 Zweck des Abzugs bei unselbständiger Nebenerwerbstätigkeit",
+   "pfad": [
+    "2. Zweck des Abzugs"
+   ],
+   "stichworte": [
+    "Zweck",
+    "Gewinnungskosten",
+    "Selbständigerwerbende",
+    "widerlegbare Pauschale",
+    "Art. 40 StG"
+   ],
+   "zusammenfassung": "Selbständige ziehen Berufskosten als geschäftsmässigen Aufwand ab; bei Unselbständigen gelten teilweise Pauschalen (Art. 39 StG, Art. 18–21 StV).",
+   "ziffer": "2",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb"
+   ]
+  },
+  {
+   "start": 57,
+   "titel": "Ziff. 2 Zusätzliche Abzugspauschale für Nebenerwerb – restriktive Auslegung",
+   "pfad": [
+    "2. Zweck des Abzugs"
+   ],
+   "stichworte": [
+    "Nebenerwerb",
+    "Zusatzpauschale",
+    "restriktive Auslegung",
+    "Haupterwerb",
+    "Verordnungsebene"
+   ],
+   "zusammenfassung": "Die zusätzliche Pauschale fängt diverse kleinere Auslagen auf, ist aber nicht extensiv auszulegen; Nebenerwerb setzt eine Haupterwerbstätigkeit voraus.",
+   "ziffer": "2",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb"
+   ]
+  },
+  {
+   "start": 72,
+   "titel": "Ziff. 3 Haupterwerb – Begriff, Mindestquote zwei Drittel",
+   "pfad": [
+    "3. Haupterwerb"
+   ],
+   "stichworte": [
+    "Haupterwerb",
+    "Teilzeit",
+    "zwei Drittel",
+    "Arbeitspensum",
+    "Normalpensum",
+    "Nebenjob"
+   ],
+   "zusammenfassung": "Haupterwerb liegt vor, wenn der Aufwand im Verhältnis zum Nebenerwerb wenigstens zwei Drittel einer 100-prozentigen Arbeitszeit entspricht.",
+   "ziffer": "3",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb",
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 93,
+   "titel": "Ziff. 3 Haupterwerb – mehrere Anstellungen und Teilzeitstellen zusammenzählen",
+   "pfad": [
+    "3. Haupterwerb"
+   ],
+   "stichworte": [
+    "mehrere Anstellungen",
+    "Teilzeitstellen",
+    "Lehrer",
+    "Hauswart",
+    "Mindestquote"
+   ],
+   "zusammenfassung": "Mehrere Anstellungsverhältnisse (z.B. Lehrer an verschiedenen Schulen) ergeben gesamthaft nur einen Haupterwerb; Teilzeitstellen werden bis über zwei Drittel zusammengezählt.",
+   "ziffer": "3",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb",
+    "abzug.berufskosten.nebenerwerb"
+   ]
+  },
+  {
+   "start": 101,
+   "titel": "Ziff. 3 Haupterwerb – enger beruflicher Zusammenhang, Einkünfte ex officio, Einzelbeschäftigung",
+   "pfad": [
+    "3. Haupterwerb"
+   ],
+   "stichworte": [
+    "ex officio",
+    "Verwaltungsrat",
+    "Behördenmitglied",
+    "Gemeindepräsident",
+    "Rentner mit Teilpensum",
+    "eine Beschäftigung"
+   ],
+   "zusammenfassung": "Einkünfte aus Tätigkeiten im engen beruflichen Zusammenhang und Amtsfunktionen gehören zum Haupterwerb; wer nur eine Beschäftigung hat, übt immer Haupterwerb aus.",
+   "ziffer": "3",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb",
+    "einkommen.unselbstaendig.vr_honorare"
+   ]
+  },
+  {
+   "start": 115,
+   "titel": "Ziff. 4 Nebenerwerb – Begriff und Abgrenzung (anderer Arbeitgeber, Überstunden)",
+   "pfad": [
+    "4. Nebenerwerb"
+   ],
+   "stichworte": [
+    "Nebenerwerb",
+    "Nebenjob",
+    "anderer Arbeitgeber",
+    "Überstunden",
+    "Arbeitsort",
+    "Zweitjob"
+   ],
+   "zusammenfassung": "Nebenerwerb ist eine von der Haupttätigkeit unabhängige Tätigkeit, meist bei anderem Arbeitgeber, an anderem Ort und ausserhalb der Arbeitszeit; Überstunden für den Hauptarbeitgeber sind kein Nebenerwerb.",
+   "ziffer": "4",
+   "positionen": [
+    "einkommen.unselbstaendig.nebenerwerb",
+    "abzug.berufskosten.nebenerwerb"
+   ]
+  },
+  {
+   "start": 133,
+   "titel": "Ziff. 4 Nebenerwerb nur unselbständig – untergeordnete Bedeutung",
+   "pfad": [
+    "4. Nebenerwerb"
+   ],
+   "stichworte": [
+    "selbständiger Nebenerwerb",
+    "Buchführung",
+    "Art. 169 StG",
+    "untergeordnete Bedeutung",
+    "mehrere Nebenerwerbe"
+   ],
+   "zusammenfassung": "Nebenerwerb im Sinn des Abzugs ist ausschliesslich unselbständig; bei Selbständigkeit ist der geschäftsmässig begründete Aufwand uneingeschränkt abziehbar (Art. 40 ff. StG).",
+   "ziffer": "4",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb",
+    "einkommen.selbstaendig"
+   ]
+  },
+  {
+   "start": 145,
+   "titel": "Ziff. 5 Abzugsregelung – Pauschale 20 %, min. Fr. 800, max. Fr. 2'400",
+   "pfad": [
+    "5. Abzugsregelung"
+   ],
+   "stichworte": [
+    "Pauschalabzug",
+    "20 Prozent",
+    "Fr. 800",
+    "Fr. 2'400",
+    "Nachweis effektive Kosten",
+    "Art. 22 StV"
+   ],
+   "zusammenfassung": "Pauschale nach DBG: 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.--; Nachweis höherer effektiver Kosten bleibt vorbehalten.",
+   "ziffer": "5",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb"
+   ]
+  },
+  {
+   "start": 153,
+   "titel": "Ziff. 5 Mindestbetrag, Liebhaberei, Berechnung aus Summe aller Nebenerwerbe",
+   "pfad": [
+    "5. Abzugsregelung"
+   ],
+   "stichworte": [
+    "Nebenerwerbseinkünfte unter Fr. 800",
+    "Liebhaberei",
+    "Pauschale oder effektiv",
+    "mehrere Nebenerwerbe"
+   ],
+   "zusammenfassung": "Von Nebenerwerbseinkünften unter Fr. 800.-- ist höchstens ein Pauschalabzug in gleicher Höhe zulässig; die 20% werden aus der Summe aller Nebenerwerbseinkünfte berechnet.",
+   "ziffer": "5",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb"
+   ]
+  },
+  {
+   "start": 165,
+   "titel": "Ziff. 5 Pauschale gilt Fahrkosten und Verpflegung mit ab",
+   "pfad": [
+    "5. Abzugsregelung"
+   ],
+   "stichworte": [
+    "Fahrkosten",
+    "auswärtige Verpflegung",
+    "abgegolten",
+    "kein Zusatzabzug"
+   ],
+   "zusammenfassung": "Die Nebenerwerbspauschale schliesst Fahrkosten und Mehrkosten der auswärtigen Verpflegung ein; ein zusätzlicher Abzug kommt nicht in Betracht.",
+   "ziffer": "5",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb",
+    "abzug.berufskosten.fahrkosten",
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 171,
+   "titel": "Ziff. 5 Spesenvergütungen im Nebenerwerb – Lohnausweis, Spesenreglement",
+   "pfad": [
+    "5. Abzugsregelung"
+   ],
+   "stichworte": [
+    "Spesen",
+    "Spesenvergütung",
+    "Lohnausweis",
+    "Spesenreglement",
+    "Auslagenersatz",
+    "Rz. 52"
+   ],
+   "zusammenfassung": "Spesenvergütungen des Arbeitgebers im Nebenerwerb sind grundsätzlich steuerbares Erwerbseinkommen, von dem die Pauschale abgezogen werden kann; Ausnahme bei genehmigtem Spesenreglement oder effektiven Spesen.",
+   "ziffer": "5",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb",
+    "einkommen.unselbstaendig.nebenerwerb"
+   ]
+  },
+  {
+   "start": 191,
+   "titel": "Ziff. 5–6 Effektive Kosten (Fahrt, Verpflegung) und nebenamtliche Behördentätigkeit",
+   "pfad": [
+    "5. Abzugsregelung",
+    "6. Nebenamtliche Behördentätigkeit"
+   ],
+   "stichworte": [
+    "effektive Kosten",
+    "Behördenmitglied",
+    "nebenamtlich",
+    "Art. 22 Abs. 2 StV",
+    "StB 39 Nr. 4"
+   ],
+   "zusammenfassung": "Bei effektiven Kosten gelten für Fahrt und Verpflegung die Pauschalansätze nach Art. 18 und 19 StV; der Behördenabzug kann zusätzlich zum Nebenerwerbsabzug geltend gemacht werden.",
+   "ziffer": "5–6",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb",
+    "einkommen.unselbstaendig.vr_honorare"
+   ]
+  }
+ ]
+}

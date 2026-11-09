@@ -4,23 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 2/3)"
+titel: "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 2/3)"
 ziffer: "11"
-seiten: "21"
+seiten: "21-22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21–22
 
-Voraussetzung für die Gewährung des Abzugs ist, dass die unterstützte Person aus objekti-
-ven Gründen ihren Lebensunterhalt vorübergehend oder dauernd nicht selber bestreiten
-kann. Dies ist erfüllt, wenn es einer Person unabhängig von ihrem Willen nicht möglich oder
-nur beschränkt möglich ist, selber einer Erwerbstätigkeit nachzugehen. Der Abzug kann
-auch bei Personen gewährt werden, die an sich zwar erwerbsfähig sind, aufgrund ihrer Ar-
-beitslosigkeit oder als alleinerziehende Eltern mit vorschulpflichtigen Kindern aber kein aus-
-reichendes Erwerbseinkommen erzielen und daher unterstützungsbedürftig sind. Keine Un-
-terstützungsbedürftigkeit liegt hingegen vor, wenn die unterstützte Person freiwillig bzw. oh-
-ne zwingenden Grund darauf verzichtet, ein genügendes Einkommen zu erzielen. Die Unter-
-haltsleistungen müssen zudem unentgeltlich sein bzw. ohne Gegenleistung erfolgen. Stehen
-den Unterhaltsleistungen wirtschaftlich messbare Leistungen des Leistungsempfängers ge-
-genüber, wie etwa die Besorgung des Haushaltes, liegen keine Unterhaltsbeiträge im Sinne
-von Artikel 35 Absatz 1 Buchstabe b DBG vor.
+gen. Den Unterstützungsabzug kann er nicht zusätzlich auch noch beanspruchen. Dem an-
+deren Elternteil, der die Unterhaltsleistungen für das Kind zu versteuern hat, wird der Kin-
+derabzug gewährt. Bei Unterhaltsleistungen an volljährige Kinder in Ausbildung kann der
+leistende Elternteil die Unterhaltszahlungen nicht mehr in Abzug bringen, er erhält dafür
+grundsätzlich den Kinderabzug. Leisten beide Elternteile Unterhaltszahlungen, kann der El-
+ternteil mit den höheren finanziellen Leistungen, d.h. in der Regel derjenige mit dem höheren
+Einkommen, den Kinderabzug geltend machen. Der andere Elternteil kann den Unterstüt-
+zungsabzug geltend machen, sofern seine Leistungen mindestens in der Höhe des Abzuges
+erfolgen.

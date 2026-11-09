@@ -9,10 +9,15 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
-     bei der Behörde, welche den rechtskräftigen Entscheid gefällt hat, eingereicht werden. Voraussetzung ist, dass ein Revisionsgrund vorliegt. Als Revisionsgründe gelten:
+    Unabhängig davon, ob ein Revisionsgrund vorliegt, ist eine Revision in jedem Fall ausgeschlossen, wenn die steuerpflichtige Person als Revisionsgrund vorbringt, was bei der ihr zumutbaren Sorgfalt bereits im ordentlichen Verfahren hätte geltend gemacht werden können. So qualifiziert beispielsweise die Falschdeklaration der steuerpflichtigen Person als Revisionsausschlussgrund. Ebenfalls ausgeschlossen ist eine Revision, wenn ein Umstand angeführt wird, der im Anschluss an einen rechtsmittelfähigen Entscheid mittels Rechtsmittel hätte vorgebracht werden können.
 
-    - es werden erhebliche Tatsachen oder Beweismittel entdeckt, welche bereits im Zeitpunkt des Eintritts der Rechtskraft bestanden haben, aber erst danach entdeckt worden sind (sog. "Neuheit").
-    - die erkennende Behörde hat erhebliche Tatsachen oder entscheidende Beweismittel, die ihr bekannt waren oder bekannt sein mussten, ausser acht gelassen oder in anderer Weise wesentliche Verfahrensgrundsätze verletzt;
-    - ein Verbrechen oder Vergehen hat die Verfügung oder den Entscheid beeinflusst.
+    Detaillierte Ausführungen zum Revisionsverfahren finden Sie in der Thurgauer Steuerpraxis in Weisung:
 
-     Liegt kein solcher Grund vor oder erfolgt dass Begehren nicht fristgerecht, muss das Revisionsbegehren abgewiesen werden.
+    - [StP 179a Nr. 1 "Revisionsverfahren"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-179a-nr-1-revisionsverfahren&version=latest)
+
+Einsprachverfahren
+:   ### Frage:
+
+    Ich bin mit einigen Punkten der Steuerveranlagung nicht einverstanden. Was kann ich tun?
+
+    ### Antwort:

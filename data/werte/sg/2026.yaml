@@ -1,0 +1,800 @@
+jur: sg
+jahr: 2026
+werte:
+- key: berufskosten.fahrkosten.max
+  wert: 8000
+  einheit: CHF
+  text: 'Fahrkosten Wohn-/Arbeitsstätte: Maximalabzug Fr. 8''000 (Maximalabzug, keine Pauschale; bei unterjähriger Steuerpflicht/Teilzeit nicht gekürzt; gilt für Haupt- und Nebenerwerb insgesamt).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 39 Abs. 1 lit. a StG SG; StB 39 Nr. 3 Ziff. 3
+  quellen:
+  - chunk: sg-stg-2026__art-39
+    zitat: die notwendigen Kosten für Fahrten zwischen Wohn- und Arbeitsstätte bis zum Betrag von Fr. 8000.–
+  - chunk: sg-stb-39-3__c0011
+    zitat: 2026 Fr. 8'000.--
+  status: extrahiert
+  bemerkung: 'Die Weisung StB 39 Nr. 3 führt 2026 zusätzlich eine zweite Spalte (Fr. 3''300.--); deren Bedeutung ist im Chunk nicht erklärt und wird hier nicht übernommen. Direkte Bundessteuer: siehe data/werte/bund.'
+- key: berufskosten.fahrkosten.auto_km
+  wert: 0.75
+  einheit: CHF
+  text: 'Privates Motorfahrzeug (Auto): 75 Rappen je Fahrkilometer, sofern kein öffentliches Verkehrsmittel zur Verfügung steht oder dessen Benützung nicht zumutbar ist; im Rahmen des Maximalabzugs von
+    Fr. 8''000.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 18 Abs. 1bis lit. b, Abs. 3 StV SG; StB 39 Nr. 3 Ziff. 2.5
+  quellen:
+  - chunk: sg-mb-8-2026__c0009
+    zitat: erhöht sich auf 75 Rappen pro Kilometer (bisher 70 Rappen)
+  - chunk: sg-stb-39-3__c0009
+    zitat: 75 Rappen je Fahrkilometer für Motorräder und Autos.
+  status: extrahiert
+  bemerkung: 'Neu 2026 (2025: 70 Rappen). Änderung auch in StB-Änderungsliste 2026 (sg-stb-aenderungen-2026__c0002) aufgeführt.'
+- key: berufskosten.fahrkosten.motorrad_km
+  wert: 0.75
+  einheit: CHF
+  text: 'Motorräder: 75 Rappen je Fahrkilometer (gleicher Ansatz wie Autos), sofern kein öffentliches Verkehrsmittel zur Verfügung steht oder zumutbar ist.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 18 Abs. 1bis lit. b, Abs. 3 StV SG; StB 39 Nr. 3 Ziff. 2.5
+  quellen:
+  - chunk: sg-stb-39-3__c0009
+    zitat: 75 Rappen je Fahrkilometer für Motorräder und Autos.
+  status: extrahiert
+  bemerkung: Motorrad und Auto werden in StB 39 Nr. 3 zusammen mit 75 Rappen genannt. Kleinmotorrad (Motorfahrrad) fällt unter die Velo-Pauschale.
+- key: berufskosten.fahrkosten.velo_pauschale
+  wert: 700
+  einheit: CHF
+  text: Pauschale Fr. 700 im Jahr bei Benützung eines Fahrrades, eines Motorfahrrades oder eines Kleinmotorrades.
+  gilt_fuer: kanton
+  rechtsgrundlage: StB 39 Nr. 3 Ziff. 2.5
+  quellen:
+  - chunk: sg-stb-39-3__c0009
+    zitat: Fr. 700.-- im Jahr bei Benützung eines Fahrrades, eines Motorfahrrades oder eines
+  status: extrahiert
+  bemerkung: Weisung gilt für Steuerjahre 2025 und 2026 (Frontmatter jahre).
+- key: berufskosten.fahrkosten.arbeitstage
+  wert: null
+  einheit: Tage
+  text: Für 2026 keine Quelle mit verbindlicher Anzahl massgebender Arbeitstage gefunden.
+  gilt_fuer: kanton
+  status: offen
+  bemerkung: StB 39 Nr. 8 rechnet in einem Beispiel mit 220 Arbeitstagen (sg-stb-39-8__c0015), das ist keine Regel. Wegleitung 2026 noch nicht publiziert.
+- key: berufskosten.verpflegung.tag
+  wert: 15
+  einheit: CHF
+  text: 'Mehrkosten auswärtige Verpflegung, voller Abzug: Fr. 15 pro Hauptmahlzeit bzw. Tag, max. Fr. 3''200 im Jahr (bei täglicher Heimkehr nicht gleichzeitig mit Wochenaufenthalt). Nachweis höherer Kosten
+    nicht zulässig.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 39 Abs. 1 lit. b, Abs. 2 StG SG; Art. 19 Abs. 1 StV SG (Pauschalansätze direkte Bundessteuer); StB 39 Nr. 8 Ziff. 3.2
+  quellen:
+  - chunk: sg-stb-39-8__c0012
+    zitat: voller Abzug pro Hauptmahlzeit bzw. 15.-- Tag im Jahr 3'200.--
+  - chunk: sg-stv__art-19
+    zitat: Mehrkosten für Verpflegung werden nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
+  status: extrahiert
+  bemerkung: StB 39 Nr. 8 gilt 2025/2026; die Ansätze sind laut Weisung seit zehn Jahren unverändert (sg-stb-39-8__c0012).
+- key: berufskosten.verpflegung.jahr
+  wert: 3200
+  einheit: CHF
+  text: 'Voller Abzug auswärtige Verpflegung: max. Fr. 3''200 im Jahr (bei Kürzung für vergütete Mahlzeiten anteilig nach Arbeitstagen).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 19 Abs. 1 StV SG; StB 39 Nr. 8 Ziff. 3.2
+  quellen:
+  - chunk: sg-stb-39-8__c0012
+    zitat: voller Abzug pro Hauptmahlzeit bzw. 15.-- Tag im Jahr 3'200.--
+  status: extrahiert
+  bemerkung: ''
+- key: berufskosten.verpflegung.verbilligt_tag
+  wert: 7.5
+  einheit: CHF
+  text: Halber Abzug Fr. 7.50 pro Hauptmahlzeit bzw. Tag, wenn Verpflegung im Personalrestaurant möglich ist oder durch angemessenen Arbeitgeberbeitrag verbilligt wird (Lohnausweis Feld G).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 19 Abs. 2 StV SG; StB 39 Nr. 8 Ziff. 3.4
+  quellen:
+  - chunk: sg-stb-39-8__c0012
+    zitat: halber Abzug pro Hauptmahlzeit bzw. 7.50 Tag 1'600.-- im Jahr
+  - chunk: sg-stv__art-19
+    zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant des Arbeitgebers eingenommen werden kann
+  status: extrahiert
+  bemerkung: ''
+- key: berufskosten.verpflegung.verbilligt_jahr
+  wert: 1600
+  einheit: CHF
+  text: 'Halber Abzug bei verbilligter Verpflegung: max. Fr. 1''600 im Jahr.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 19 Abs. 2 StV SG; StB 39 Nr. 8 Ziff. 3.2/3.4
+  quellen:
+  - chunk: sg-stb-39-8__c0012
+    zitat: halber Abzug pro Hauptmahlzeit bzw. 7.50 Tag 1'600.-- im Jahr
+  status: extrahiert
+  bemerkung: ''
+- key: berufskosten.schichtarbeit.tag
+  wert: 15
+  einheit: CHF
+  text: 'Schicht-/Nachtarbeit (durchgehend; gleichgestellt gestaffelte/unregelmässige Arbeitszeit): gleiche Pauschale wie auswärtige Verpflegung, Fr. 15 pro Tag, max. Fr. 3''200 im Jahr.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 19 Abs. 1 lit. b, Abs. 3 StV SG; StB 39 Nr. 8 Ziff. 3.2
+  quellen:
+  - chunk: sg-stb-39-8__c0012
+    zitat: voller Abzug pro Hauptmahlzeit bzw. 15.-- Tag im Jahr 3'200.--
+  - chunk: sg-stv__art-19
+    zitat: bei durchgehender Schicht- oder Nachtarbeit
+  status: extrahiert
+  bemerkung: Die Tabelle in StB 39 Nr. 8 führt «auswärtige Verpflegung bzw. Schicht- oder Nachtarbeit» unter denselben Ansätzen.
+- key: berufskosten.wochenaufenthalt.unterkunft
+  wert: null
+  einheit: Text
+  text: 'Abziehbar sind die ortsüblichen Mietkosten für ein Zimmer (1-Zimmerwohnung/Studio). Allgemein anerkannt: Monatsmieten bis Fr. 800 in den Städten Zürich, Bern, Basel, Lausanne, Genf und grösseren
+    Kurorten, sonst bis Fr. 500. Komfortmehrkosten sind nicht abziehbar.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 20 Abs. 3 StV SG; StB 39 Nr. 5 Ziff. 3.2
+  quellen:
+  - chunk: sg-stv__art-20
+    zitat: Als notwendige Mehrkosten der Unterkunft gelten die ortsüblichen Mietkosten für ein Zimmer.
+  - chunk: sg-stb-39-5__c0004
+    zitat: Monatsmieten bis Fr. 800.--, an anderen Orten bis Fr. 500.-- allgemein anerkannt
+  status: extrahiert
+  bemerkung: ''
+- key: berufskosten.wochenaufenthalt.verpflegung_jahr
+  wert: 6400
+  einheit: CHF
+  text: 'Wochenaufenthalt Verpflegung: voller Abzug Fr. 30 pro Tag, max. Fr. 6''400 im Jahr; gekürzter Abzug Fr. 22.50 pro Tag, max. Fr. 4''800 im Jahr (bei verbilligter Hauptmahlzeit).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 20 Abs. 2 StV SG; StB 39 Nr. 8 Ziff. 3.2
+  quellen:
+  - chunk: sg-stb-39-8__c0012
+    zitat: voller Abzug im Tag 30.-- im Jahr 6'400.--
+  - chunk: sg-stv__art-20
+    zitat: wird nach den für die direkte Bundessteuer massgebenden Pauschalansätzen bestimmt
+  status: extrahiert
+  bemerkung: 'Gekürzter Abzug: 22.50/Tag bzw. 4''800 im Jahr (sg-stb-39-8__c0013).'
+- key: berufskosten.uebrige.satz
+  wert: 10
+  einheit: '%'
+  text: 'Übrige Berufskosten: Pauschale Fr. 700 zuzüglich 10 % der Nettoeinkünfte, höchstens Fr. 2''400. Nachweis höherer notwendiger Kosten bleibt vorbehalten. Nettoeinkünfte = Bruttoeinkünfte abzüglich
+    AHV/BVG-/Sozialversicherungsprämien nach Art. 45 Abs. 1 lit. d und f StG (ohne Einkäufe).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 39 Abs. 1 lit. c StG SG; Art. 21 StV SG
+  quellen:
+  - chunk: sg-stv__art-21
+    zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.–
+  - chunk: sg-stb-39-9__c0001
+    zitat: Fr. 700.-- zuzüglich 10 Prozent der Nettoeinkünfte, höchstens aber Fr. 2'400.--
+  status: extrahiert
+  bemerkung: 'Formel fix + Satz: fix 700, Satz 10 %, max 2''400, kein Minimum.'
+- key: berufskosten.uebrige.fix
+  wert: 700
+  einheit: CHF
+  text: 'Fixer Sockel der Pauschale für übrige Berufskosten: Fr. 700 (zuzüglich 10 % der Nettoeinkünfte).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 21 Abs. 1 StV SG
+  quellen:
+  - chunk: sg-stv__art-21
+    zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.–
+  status: extrahiert
+  bemerkung: ''
+- key: berufskosten.uebrige.min
+  wert: null
+  einheit: CHF
+  text: Kein separates Minimum; der fixe Sockel von Fr. 700 gilt de facto als Untergrenze.
+  gilt_fuer: kanton
+  status: na
+  bemerkung: Formel 700 + 10 % kennt kein Minimum (Art. 21 Abs. 1 StV SG).
+- key: berufskosten.uebrige.max
+  wert: 2400
+  einheit: CHF
+  text: 'Pauschale für übrige Berufskosten: höchstens Fr. 2''400.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 21 Abs. 1 StV SG
+  quellen:
+  - chunk: sg-stv__art-21
+    zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.–
+  status: extrahiert
+  bemerkung: ''
+- key: berufskosten.nebenerwerb.satz
+  wert: 20
+  einheit: '%'
+  text: 'Unselbständige Nebenerwerbstätigkeit: 20 % der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2''400 (Pauschalansätze der direkten Bundessteuer). Nachweis höherer notwendiger Kosten vorbehalten.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 22 Abs. 1, 3 StV SG; Art. 10 Berufskostenverordnung (Bund)
+  quellen:
+  - chunk: sg-stb-39-9__c0002
+    zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
+  - chunk: sg-stv__art-22
+    zitat: werden die notwendigen Berufskosten nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
+  status: extrahiert
+  bemerkung: 'Nebenamtliche Behördenmitglieder: zusätzlich pauschal bis Fr. 2''400 oder Fr. 60 je Sitzung (max. Fr. 4''000), Art. 22 Abs. 2 StV.'
+- key: berufskosten.nebenerwerb.min
+  wert: 800
+  einheit: CHF
+  text: 'Nebenerwerb: Pauschale mindestens Fr. 800; Nebenerwerbseinkünfte unter Fr. 800 sind nicht betroffen (siehe StB 39 Nr. 9).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 22 Abs. 1 StV SG; Art. 10 Berufskostenverordnung
+  quellen:
+  - chunk: sg-stb-39-9__c0002
+    zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
+  status: extrahiert
+  bemerkung: ''
+- key: berufskosten.nebenerwerb.max
+  wert: 2400
+  einheit: CHF
+  text: 'Nebenerwerb: Pauschale höchstens Fr. 2''400.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 22 Abs. 1 StV SG; Art. 10 Berufskostenverordnung
+  quellen:
+  - chunk: sg-stb-39-9__c0002
+    zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
+  status: extrahiert
+  bemerkung: ''
+- key: berufskosten.homeoffice
+  wert: null
+  einheit: Text
+  text: Kosten eines beruflich bedingten Arbeitszimmers sind grundsätzlich mit der Pauschale für übrige Berufskosten abgegolten. Keine Kumulation von Pauschale und effektiven Arbeitszimmerkosten. Effektive
+    Kosten nur, wenn insgesamt die Pauschale übersteigend und dann sämtliche tatsächlichen Aufwendungen nachgewiesen werden (berufliche Notwendigkeit, Nachweis durch Steuerpflichtigen).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 39 Abs. 1 lit. c StG SG; Art. 21 Abs. 3 StV SG; StB 39 Nr. 1
+  quellen:
+  - chunk: sg-stb-39-1__c0001
+    zitat: Sie gelten grundsätzlich als mit der Pauschale abgegolten.
+  - chunk: sg-stb-39-1__c0001
+    zitat: Eine Kumu- lation der Pauschale mit einem Abzug der tatsächlichen Kosten für ein Arbeitszimmer ist nicht möglich.
+  status: extrahiert
+  bemerkung: Kein pauschaler Homeoffice-Abzug in den vorliegenden Quellen.
+- key: weiterbildung.max
+  wert: 13000
+  einheit: CHF
+  text: 'Berufsorientierte Aus- und Weiterbildung inkl. Umschulung: max. Fr. 13''000 je Steuerpflichtigen, wenn erster Abschluss Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist (und nicht
+    Ausbildung bis zum ersten Abschluss Sek. II).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. j StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t4
+    zitat: bis zum Gesamtbetrag von Fr. 13 000.– je Steuerpflichtigen
+  status: extrahiert
+  bemerkung: 'Gesetzesfassung 1.1.2026 (Betrag gegenüber WL 2025 unverändert; MB 8/2026 listet keine Änderung). Pauschale ohne Nachweis (WL 2025: 400) nicht in Quelle 2026 verifiziert.'
+- key: versicherung.verheiratet
+  wert: 6800
+  einheit: CHF
+  text: 'Versicherungsprämien (Lebens-, Kranken-, nicht obligatorische Unfallversicherung) und Sparkapitalzinsen: gemeinsam steuerpflichtige Ehegatten bis Fr. 6''800.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. g StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: bis zum Gesamtbetrag von Fr. 6800.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 3400.– für die übrigen Steuerpflichtigen
+  status: extrahiert
+  bemerkung: ''
+- key: versicherung.verheiratet_ohne_vorsorge
+  wert: 7900
+  einheit: CHF
+  text: 'Gemeinsam steuerpflichtige Ehegatten ohne Abzug von Beiträgen nach Art. 45 Abs. 1 lit. d und e (2. Säule/3a): Fr. 6''800 + Fr. 1''100 = Fr. 7''900.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. g StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: Diese Abzüge erhöhen sich um Fr. 1100.– für gemeinsam steuerpflichtige Ehegatten und um Fr. 500.– für die übrigen Steuerpflichtigen, wenn keine Beiträge nach Bst. d und e dieser Bestimmung abgezogen
+      werden.
+  status: extrahiert
+  bemerkung: 'Wert 7''900 ist Summe aus Grundbetrag 6''800 und gesetzlicher Erhöhung 1''100 (berechnet). Zuschlag allein: 1''100.'
+- key: versicherung.alleinstehend
+  wert: 3400
+  einheit: CHF
+  text: 'Versicherungsprämien und Sparkapitalzinsen: übrige Steuerpflichtige bis Fr. 3''400.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. g StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: bis zum Gesamtbetrag von Fr. 6800.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 3400.– für die übrigen Steuerpflichtigen
+  status: extrahiert
+  bemerkung: ''
+- key: versicherung.alleinstehend_ohne_vorsorge
+  wert: 3900
+  einheit: CHF
+  text: 'Übrige Steuerpflichtige ohne Abzug von Beiträgen nach Art. 45 Abs. 1 lit. d und e (2. Säule/3a): Fr. 3''400 + Fr. 500 = Fr. 3''900.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. g StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: Diese Abzüge erhöhen sich um Fr. 1100.– für gemeinsam steuerpflichtige Ehegatten und um Fr. 500.– für die übrigen Steuerpflichtigen, wenn keine Beiträge nach Bst. d und e dieser Bestimmung abgezogen
+      werden.
+  status: extrahiert
+  bemerkung: 'Wert 3''900 ist Summe aus Grundbetrag 3''400 und gesetzlicher Erhöhung 500 (berechnet). Zuschlag allein: 500.'
+- key: versicherung.kind
+  wert: 1100
+  einheit: CHF
+  text: Erhöhung des Versicherungsabzugs um Fr. 1'100 für jedes Kind, für das ein Kinderabzug geltend gemacht werden kann.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. g StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: Sie erhöhen sich um Fr. 1100.– für jedes Kind, für das der Steuerpflichtige einen Kinderabzug geltend machen kann
+  status: extrahiert
+  bemerkung: ''
+- key: saeule3a.max_mit_2saeule
+  wert: null
+  einheit: CHF
+  text: Maximalbeträge Säule 3a sind in StG/StV SG nicht beziffert (Verweis auf anerkannte Formen gebundener Selbstvorsorge nach Art. 82 BVG; Bundesrecht BVV 3).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG
+  status: offen
+  bemerkung: 'Kein SG-Dokument für 2026 mit dem Betrag vorhanden. Vorjahr 2025: Betrag in WL SG 2025 (sg-wl-2025__c0094), nicht als 2026 bestätigt. Bundesvorgabe für 2026 in data/werte/bund prüfen.'
+- key: saeule3a.max_ohne_2saeule
+  wert: null
+  einheit: CHF
+  text: 'Grosser Säule-3a-Betrag (ohne 2. Säule): in SG-Quellen 2026 nicht beziffert.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG
+  status: offen
+  bemerkung: 'Vorjahr 2025: WL SG 2025 (sg-wl-2025__c0094), nicht als 2026 bestätigt. Wegleitung 2026 noch nicht publiziert.'
+- key: saeule3a.satz_ohne_2saeule
+  wert: null
+  einheit: '%'
+  text: 'Prozentsatz des Erwerbseinkommens (ohne 2. Säule): in SG-Quellen 2026 nicht genannt.'
+  gilt_fuer: kanton
+  status: offen
+  bemerkung: Bundesrecht (BVV 3); Wegleitung SG 2026 noch nicht publiziert. Vorjahr 2025 siehe WL SG 2025.
+- key: saeule3a.einkauf
+  wert: null
+  einheit: Text
+  text: 'Ab 2025 können fehlende Beiträge bis zu zehn Jahre nachträglich einbezahlt werden. Abzug höchstens kleiner Säule-3a-Maximalbetrag, erstmals mit der Steuererklärung 2026 geltend zu machen. Nur Lücken
+    ab 1.1.2025; Voraussetzungen: AHV-pflichtiges Einkommen, Jahresbeitrag bereits geleistet, noch kein 3a-Kapital bezogen; Bestätigung des Vorsorgeanbieters als Beleg.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG; Bundesrecht (BVV 3)
+  quellen:
+  - chunk: sg-mb-8-2026__c0010
+    zitat: Jahre nachträglich einbezahlt werden, wobei der Abzug höchstens dem kleinen Säule-3a-Maximalbetrag entspricht
+  - chunk: sg-mb-8-2026__c0010
+    zitat: Mit einem Einkauf können nur Lücken, die ab 1. Januar 2025 entstanden sind, gefüllt werden.
+  status: extrahiert
+  bemerkung: Quelle ist das Merkblatt 8/2026 (unterjährige Steuerpflicht), Ziff. 11 «Änderungen gegenüber 2025»; Betrag des kleinen Maximalbetrags 2026 ist in SG-Quellen nicht beziffert.
+- key: zweiverdiener.satz
+  wert: null
+  einheit: '%'
+  text: Kein prozentualer Zweiverdienerabzug; fixer Abzug von Fr. 500 je Ehegatte (siehe zweiverdiener.max).
+  gilt_fuer: kanton
+  status: na
+  bemerkung: Art. 45 Abs. 2 StG SG kennt nur einen Fixbetrag.
+- key: zweiverdiener.min
+  wert: null
+  einheit: CHF
+  text: Kein Minimum/Maximum-Rahmen; Fixbetrag.
+  gilt_fuer: kanton
+  status: na
+  bemerkung: Fixbetrag Fr. 500 siehe zweiverdiener.max.
+- key: zweiverdiener.max
+  wert: 500
+  einheit: CHF
+  text: 'Gemeinsam steuerpflichtige Ehegatten: Abzug von Fr. 500 vom Erwerbseinkommen, das ein Ehegatte unabhängig vom Beruf/Geschäft des andern erzielt; gleicher Abzug bei erheblicher Mitarbeit im Beruf/Geschäft
+    des andern Ehegatten.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 2 StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t4
+    zitat: Fr. 500.– abgezogen; ein gleicher Abzug wird bei erheblicher Mitarbeit
+  status: extrahiert
+  bemerkung: Bei unterjähriger Steuerpflicht zeitanteilig kürzen (MB 8/2026 Ziff. 7, Ziff. 17).
+- key: drittbetreuung.max
+  wert: 26800
+  einheit: CHF
+  text: 'Kinderdrittbetreuungskosten: höchstens Fr. 26''800 je Kind unter 14 Jahren, das im gleichen Haushalt lebt, soweit in direktem kausalem Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. h StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t3
+    zitat: höchstens Fr. 26 800.– für jedes Kind, das mit dem Steuerpflichtigen
+  status: extrahiert
+  bemerkung: 'Neu 2026 gemäss MB 8/2026 Ziff. 16.2 (sg-mb-8-2026__c0012; Zitat wegen Spaltenlayout nicht maschinell prüfbar); 2025: Fr. 26''700 laut Seed/WL 2025.'
+- key: drittbetreuung.altersgrenze
+  wert: 14
+  einheit: Text
+  text: Kinder unter 14 Jahren.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. h StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t3
+    zitat: die Kosten der Betreuung von Kindern unter 14 Jahren durch Drittpersonen
+  status: extrahiert
+  bemerkung: ''
+- key: krankheitskosten.selbstbehalt_satz
+  wert: 2
+  einheit: '%'
+  text: 'Krankheits- und Unfallkosten sind abziehbar, soweit selbst getragen und über 2 % der Nettoeinkünfte. Behinderungsbedingte Kosten: ohne Selbstbehalt (lit. abis).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 46 Abs. 1 lit. a StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-46
+    zitat: diese 2 Prozent der Nettoeinkünfte übersteigen
+  status: extrahiert
+  bemerkung: ''
+- key: spenden.min
+  wert: 100
+  einheit: CHF
+  text: 'Freiwillige Leistungen an steuerbefreite juristische Personen mit Sitz in der Schweiz (und Bund/Kantone/Gemeinden): abziehbar, wenn sie im Steuerjahr Fr. 100 erreichen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 46 Abs. 1 lit. c StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-46
+    zitat: wenn diese Leistungen im Steuerjahr Fr. 100.– erreichen, insgesamt höchstens 20 Prozent der Nettoeinkünfte
+  status: extrahiert
+  bemerkung: ''
+- key: spenden.max_satz
+  wert: 20
+  einheit: '%'
+  text: 'Freiwillige Zuwendungen: insgesamt höchstens 20 % der Nettoeinkünfte.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 46 Abs. 1 lit. c StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-46
+    zitat: wenn diese Leistungen im Steuerjahr Fr. 100.– erreichen, insgesamt höchstens 20 Prozent der Nettoeinkünfte
+  status: extrahiert
+  bemerkung: Bemessungsgrundlage sind die Nettoeinkünfte (nach Abzügen nach Art. 39–45 StG), nicht das Reineinkommen.
+- key: parteispenden.max
+  wert: 10700
+  einheit: CHF
+  text: 'Mitgliederbeiträge und Zuwendungen an politische Parteien: bis Fr. 10''700 für übrige (alleinstehende) Steuerpflichtige.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. i StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t3
+    zitat: bis zum Gesamtbetrag von Fr. 21 400.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 10 700.– für die übrigen Steuerpflichtigen
+  status: extrahiert
+  bemerkung: 'MB 8/2026 Ziff. 16.3 nennt «Höherer Abzug Parteispenden» (Betrag im Merkblatt-Chunk nicht lesbar). Seed führt 2025 mit 10''700/21''400, die Gesetzesfassung 1.1.2026 nennt dieselben Beträge:
+    Abweichung Seed-Annahme «geändert» nicht bestätigt; Gesetz gilt.'
+- key: parteispenden.max_verheiratet
+  wert: 21400
+  einheit: CHF
+  text: 'Parteispenden: bis Fr. 21''400 für gemeinsam steuerpflichtige Ehegatten.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 1 lit. i StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-45-t3
+    zitat: bis zum Gesamtbetrag von Fr. 21 400.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 10 700.– für die übrigen Steuerpflichtigen
+  status: extrahiert
+  bemerkung: ''
+- key: liegenschaft.pauschale_neu
+  wert: 20
+  einheit: '%'
+  text: 'Pauschalabzug Liegenschaftsunterhalt bei vorwiegend Wohnzwecken dienenden Liegenschaften: 20 % des Bruttomietertrags ohne Nebenkosten oder des angerechneten Eigenmietwerts, anstelle der tatsächlichen
+    Kosten (Wahl pro Periode und Liegenschaft).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 44 Abs. 4 StG SG; Art. 29 StV SG
+  quellen:
+  - chunk: sg-stv__art-29
+    zitat: Pauschalabzug von 20 Prozent des Bruttomietertrags ohne Nebenkosten oder des angerechneten Eigenmietwerts
+  - chunk: sg-stg-2026__art-44-t2
+    zitat: einen Pauschalabzug geltend machen. Die Regierung legt diesen Pauschalabzug fest.
+  status: extrahiert
+  bemerkung: SG kennt keine Staffelung nach Gebäudealter in Art. 29 StV. Weisung StB 44 Nr. 8 (Pauschalabzug) per 1.1.2026 «geringfügig überarbeitet» (sg-stb-aenderungen-2026__c0003), StB 44 Nr. 2 mit Praxisänderungen
+    (Abschaffung wirtschaftlicher Neubau); Inhalt nicht im Wiki, bei Bedarf Originalweisung prüfen.
+- key: liegenschaft.pauschale_alt
+  wert: 20
+  einheit: '%'
+  text: 'Gleicher Pauschalsatz wie bei jüngeren Gebäuden: 20 % des Bruttomietertrags bzw. angerechneten Eigenmietwerts (keine Altersstaffelung in Art. 29 StV).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 29 Abs. 1 StV SG
+  quellen:
+  - chunk: sg-stv__art-29
+    zitat: Pauschalabzug von 20 Prozent des Bruttomietertrags ohne Nebenkosten oder des angerechneten Eigenmietwerts
+  status: extrahiert
+  bemerkung: Schlüssel aus ZH-Systematik übernommen; SG hat einen einheitlichen Satz.
+- key: liegenschaft.eigenmietwert_abzug
+  wert: 30
+  einheit: '%'
+  text: 'Mietwert des Eigenheims, das am Wohnsitz dauernd selbst bewohnt wird, wird um 30 % herabgesetzt; dauerhafter Unternutzung wird auf Antrag Rechnung getragen. Im AHV-Rentenalter weitere Reduktion
+    bei offensichtlichem Missverhältnis (nicht unter 60 % der Marktmiete; Art. 14 StV: Mietwert über 30 % der Bruttoeinkünfte und steuerbares Vermögen höchstens Fr. 600''000).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 34 Abs. 3, 4 StG SG; Art. 14 StV SG
+  quellen:
+  - chunk: sg-stg-2026__art-34
+    zitat: wird um 30 Prozent herabgesetzt
+  - chunk: sg-stv__art-14
+    zitat: das steuerbare Vermögen des Steuerpflichtigen höchstens Fr. 600 000.– beträgt
+  status: extrahiert
+  bemerkung: 'Kein Abzug auf Zweitliegenschaften. Härtefallregel: StB 34 Nr. 1.'
+- key: sozialabzug.kind
+  wert: null
+  einheit: CHF
+  text: Kein einheitlicher Grundbetrag; Kinderabzug nach Alter/Ausbildung gestaffelt (siehe sozialabzug.kind_vorschule/_schule/_ausbildung/_ausbildung_auswaerts).
+  gilt_fuer: kanton
+  status: na
+  bemerkung: 'Art. 48 Abs. 1 lit. a StG SG. Voraussetzung: Steuerpflichtiger kommt zur Hauptsache für den Unterhalt auf und beansprucht keinen Abzug für Unterhaltsbeiträge (Art. 45 Abs. 1 lit. c).'
+- key: sozialabzug.kind_vorschule
+  wert: 7600
+  einheit: CHF
+  text: Kinderabzug Fr. 7'600 für jedes unter der elterlichen Sorge oder Obhut stehende Kind, das noch nicht schulpflichtig ist.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 48 Abs. 1 lit. a Ziff. 1 StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-48
+    zitat: Fr. 7600.– für jedes unter der elterlichen Sorge oder Obhut des Steuerpflichtigen stehende Kind, das noch nicht schulpflichtig ist
+  status: extrahiert
+  bemerkung: Bei unterjähriger Steuerpflicht anteilmässig (Art. 48 Abs. 3 StG); satzbestimmend voller Betrag.
+- key: sozialabzug.kind_schule
+  wert: 10800
+  einheit: CHF
+  text: Kinderabzug Fr. 10'800 für jedes unter elterlicher Sorge/Obhut stehende oder volljährige Kind in schulischer oder beruflicher Ausbildung (gilt für Schulalter und Ausbildung).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 48 Abs. 1 lit. a Ziff. 2 StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-48
+    zitat: Fr. 10 800.– für jedes unter der elterlichen Sorge oder Obhut des Steuerpflichtigen stehende oder volljährige Kind
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Fr. 10’800 ÷ 360 × 180 Tage
+  status: extrahiert
+  bemerkung: Unverändert gegenüber 2025; in MB 8/2026 Ziff. 11 nicht als geändert aufgeführt.
+- key: sozialabzug.kind_ausbildung
+  wert: 10800
+  einheit: CHF
+  text: 'Kinderabzug für Kind in schulischer oder beruflicher Ausbildung (auch volljährig): Fr. 10''800.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 48 Abs. 1 lit. a Ziff. 2 StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-48
+    zitat: Fr. 10 800.– für jedes unter der elterlichen Sorge oder Obhut des Steuerpflichtigen stehende oder volljährige Kind
+  status: extrahiert
+  bemerkung: Gleicher Betrag wie sozialabzug.kind_schule (eine gesetzliche Ziffer).
+- key: sozialabzug.kind_ausbildung_auswaerts
+  wert: 13800
+  einheit: CHF
+  text: 'Zusätzlich zum Kinderabzug: höchstens weitere Fr. 13''800 für Ausbildungskosten je Kind in schulischer/beruflicher Ausbildung, soweit vom Steuerpflichtigen selbst getragen und über Fr. 3''200 (Selbstbehalt).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 48 Abs. 1 lit. a Ziff. 3 StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-48
+    zitat: höchstens weitere Fr. 13 800.– für Ausbildungskosten
+  status: extrahiert
+  bemerkung: 'Neu 2026 gemäss MB 8/2026 Ziff. 23.3 (sg-mb-8-2026__c0013; Zitat wegen Layout nicht maschinell prüfbar); 2025: 13''700. Selbstbehalt Fr. 3''200 unverändert (Gesetzestext).'
+- key: sozialabzug.unterstuetzung
+  wert: null
+  einheit: CHF
+  text: Kein kantonaler Unterstützungsabzug im StG SG 2026 (Art. 48 nennt nur den Kinderabzug; Art. 49 aufgehoben).
+  gilt_fuer: kanton
+  status: na
+  bemerkung: 'Unterstützungsabzug existiert nur bei der direkten Bundessteuer (data/werte/bund). Seed: WL 2025 Ziff. 23.4.'
+- key: sozialabzug.alter_iv
+  wert: null
+  einheit: CHF
+  text: Kein Abzug für AHV-Alter/Erwerbsunfähigkeit/Verwitwete im StG SG 2026.
+  gilt_fuer: kanton
+  status: na
+  bemerkung: Art. 48 StG SG kennt nur Kinderabzüge; Art. 49 aufgehoben.
+- key: sozialabzug.verheiratete
+  wert: null
+  einheit: CHF
+  text: Kein Verheiratetenabzug im kantonalen Recht (Splittingtarif, Art. 50 Abs. 3 StG SG); Verheiratetenabzug nur direkte Bundessteuer.
+  gilt_fuer: kanton
+  status: na
+  bemerkung: Siehe data/werte/bund.
+- key: steuerbetrag.abzug_kind
+  wert: null
+  einheit: CHF
+  text: Abzug vom Steuerbetrag pro Kind existiert nur bei der direkten Bundessteuer.
+  gilt_fuer: kanton
+  status: na
+  bemerkung: Siehe data/werte/bund.
+- key: vermoegen.freibetrag_alleinstehend
+  wert: 75000
+  einheit: CHF
+  text: 'Sozialabzug vom Reinvermögen: Fr. 75''000 für jeden Steuerpflichtigen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 64 Abs. 1 lit. a StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-64
+    zitat: für jeden Steuerpflichtigen Fr. 75 000.–
+  status: extrahiert
+  bemerkung: Vermögenssteuer-Einheitssatz 1,7 Promille (Art. 65 StG; sg-stg-2026__art-65). Restbeträge unter Fr. 1'000 fallen ausser Betracht.
+- key: vermoegen.freibetrag_verheiratet
+  wert: 150000
+  einheit: CHF
+  text: 'Gemeinsam steuerpflichtige Ehegatten: Fr. 75''000 für jeden Steuerpflichtigen, somit Fr. 150''000 gemeinsam.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 64 Abs. 1 lit. a StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-64
+    zitat: für jeden Steuerpflichtigen Fr. 75 000.–
+  status: extrahiert
+  bemerkung: 150'000 ist berechnet (2 x 75'000); das Gesetz nennt keinen separaten Ehegattenbetrag. WL 2025 Ziff. 36 nennt 150'000 gemeinsam (Vorjahresbestätigung).
+- key: vermoegen.freibetrag_kind
+  wert: 20000
+  einheit: CHF
+  text: Zusätzlich Fr. 20'000 für jedes minderjährige, unter der elterlichen Sorge oder Obhut stehende Kind, für das ein Kinderabzug nach Art. 48 Abs. 1 lit. a beansprucht werden kann.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 64 Abs. 1 lit. b StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-64
+    zitat: zusätzlich Fr. 20 000.–
+  status: extrahiert
+  bemerkung: ''
+- key: steuerfrei.feuerwehrsold
+  wert: 5300
+  einheit: CHF
+  text: Sold der Milizfeuerwehrleute steuerfrei bis Fr. 5'300 (Kernaufgaben der Feuerwehr; ausgenommen Pauschalzulagen Kader, Funktionszulagen, administrative Arbeiten, freiwillige Dienstleistungen).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 37 Abs. 1 lit. l StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-37-t2
+    zitat: der Sold der Milizfeuerwehrleute bis zum Betrag von Fr. 5300.–
+  status: extrahiert
+  bemerkung: ''
+- key: steuerfrei.grossspielgewinn
+  wert: 1070900
+  einheit: CHF
+  text: Einzelne Gewinne aus Grossspielen und Online-Spielbankenspielen (nach Geldspielgesetz) sind bis Fr. 1'070'900 steuerfrei; darüber steuerbar (abzüglich Einsatzkosten Art. 45 Abs. 3).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 37 Abs. 1 lit. o StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-37-t3
+    zitat: die einzelnen Gewinne bis zum Betrag von Fr. 1 070 900.–
+  - chunk: sg-mb-8-2026__c0009
+    zitat: soweit > Fr. 1’070’900
+  status: extrahiert
+  bemerkung: 'Gemäss MB 8/2026 Ziff. 11 neu/Änderung 2026. Einsatzkosten: 5 % der Gewinne, max. Fr. 5''400 (Art. 45 Abs. 3); Online-Spielbank: abgebuchte Einsätze, max. Fr. 26''800.'
+- key: steuerfrei.kleingewinn
+  wert: 1100
+  einheit: CHF
+  text: 'Einzelne Gewinne aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung (nicht dem Geldspielgesetz unterstellt): steuerfrei, solange die Grenze von Fr. 1''100 nicht überschritten wird
+    (Freigrenze). Gewinne aus Kleinspielen (Geldspielgesetz) steuerfrei.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 37 Abs. 1 lit. p, q StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-37-t3
+    zitat: sofern die Grenze von Fr. 1100.– nicht überschritten wird
+  - chunk: sg-mb-8-2026__c0009
+    zitat: wenn > Fr. 1’100 (Freigrenze)
+  status: extrahiert
+  bemerkung: 'Freigrenze, nicht Freibetrag: bei Überschreitung ist der gesamte Gewinn steuerbar.'
+- key: tarif.steuerfuss_kanton
+  wert: 105
+  einheit: '%'
+  text: 'Kantonssteuerfuss 2026: 105 % der einfachen Steuer (Gemeinde- und Kirchensteuerfüsse je Gemeinde in der Steuerfusstabelle).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 6 StG SG
+  quellen:
+  - chunk: sg-steuerfuesse-2026__c0001
+    zitat: Die Kantonssteuer beträgt 105 Prozent.
+  status: extrahiert
+  bemerkung: Steuerfüsse 2026 (KStA, 30.9.2026). Aktualisierung Kantonssteuerfuss in StB 6 Nr. 1 per 1.1.2026.
+- key: tarif.steuerfrei_alleinstehend
+  wert: 11600
+  einheit: CHF
+  text: 'Einkommenssteuertarif Kanton: 0 % für die ersten Fr. 11''600 steuerbares Einkommen (Alleinstehende). Weitere Stufen: 4 % auf 4''200, 6 % auf 18''000, 8 % auf 26''500, 9,2 % auf 38''100, 9,4 % auf
+    166''100; über Fr. 264''500 einheitlich 8,5 % auf das ganze Einkommen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 50 Abs. 1, 2 StG SG; Verordnung kalte Progression (sGS 811.12)
+  quellen:
+  - chunk: sg-stg-2026__art-50
+    zitat: 0 Prozent für die ersten · Fr. 11 600.–
+  - chunk: sg-vkp__c0001
+    zitat: Anpassung der Tarifstufen und Abzüge der Einkommens- steuer der natürlichen Personen an den Landesindex der Konsumentenpreise
+  status: extrahiert
+  bemerkung: Taxonomie-Schlüssel ist als Bundes-Schlüssel beschrieben, hier sinngemäss für den kantonalen Tarif genutzt. Tarifstufen 2026 aus StG-Jahresversion (indexiert nach VKP, in Vollzug ab 1.1.2026).
+- key: tarif.steuerfrei_verheiratet
+  wert: 23200
+  einheit: CHF
+  text: 'Gemeinsam steuerpflichtige Ehegatten (und Alleinerziehende mit Kindern/Unterstützten, Art. 50 Abs. 4): Steuersatz des halben steuerbaren Einkommens (Splitting); 0-%-Stufe bis Fr. 11''600 des halben
+    Einkommens, d.h. bis Fr. 23''200 steuerbares Einkommen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 50 Abs. 1, 3, 4 StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-50
+    zitat: Für gemeinsam steuerpflichtige Ehegatten wird der Steuersatz des halben steuerbaren Einkommens angewendet.
+  status: extrahiert
+  bemerkung: 'Wert 23''200 berechnet (2 x 11''600); Splitting-Methode: Satz des halben Einkommens, angewendet auf das ganze Einkommen (Beispiel MB 8/2026 Ziff. 8).'
+- key: tarif.hoechstsatz_ab_alleinstehend
+  wert: 264500
+  einheit: CHF
+  text: Für steuerbare Einkommen über Fr. 264'500 beträgt die einfache Steuer für das ganze Einkommen 8,5 %.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 50 Abs. 2 StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-50
+    zitat: Für steuerbare Einkommen über Fr. 264 500.– beträgt die einfache Steuer für das ganze Einkommen 8,5 Prozent.
+  status: extrahiert
+  bemerkung: Kein klassischer Höchstsatz, sondern Flat-Satz 8,5 % auf das ganze Einkommen.
+- key: tarif.hoechstsatz_ab_verheiratet
+  wert: 529000
+  einheit: CHF
+  text: Bei Splitting gilt der Satz des halben Einkommens; die 8,5-%-Regel greift somit ab einem steuerbaren Gesamteinkommen von über Fr. 529'000 (halbes Einkommen über Fr. 264'500).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 50 Abs. 2, 3 StG SG
+  quellen:
+  - chunk: sg-stg-2026__art-50
+    zitat: Für gemeinsam steuerpflichtige Ehegatten wird der Steuersatz des halben steuerbaren Einkommens angewendet.
+  status: extrahiert
+  bemerkung: Wert 529'000 berechnet (2 x 264'500), nicht wörtlich im Gesetz.
+- key: tarif.mindeststeuer
+  wert: null
+  einheit: CHF
+  text: 'Keine Mindeststeuer bei Einkommens-/Vermögenssteuer natürlicher Personen. Bagatellgrenzen: Einkommens- und Vermögenssteuern werden nicht in Rechnung gestellt, wenn die einfache Steuer gesamthaft
+    Fr. 20 nicht übersteigt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 88 Abs. 1 StV SG
+  status: na
+  bemerkung: Die Mindeststeuer in Art. 99bis ff. StG betrifft Gewinn-/Kapitalsteuern. Bagatellregel (Art. 88 StV, Stand 1.1.2024) nur informativ.
+- key: verfahren.einreichefrist
+  wert: null
+  einheit: Text
+  text: Einreichefrist 2026 nicht aus einer Quelle des Jahres belegt.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 168 Abs. 2 StG SG
+  status: offen
+  bemerkung: Art. 168 Abs. 2 StG verlangt fristgemässe Einreichung mit den vorgeschriebenen Beilagen; Datum steht auf der Steuererklärung (Seite 1). Wegleitung 2026 noch nicht publiziert (WL 2025 S. 8 nur
+    Vorjahr).
+- key: verfahren.fristerstreckung
+  wert: null
+  einheit: Text
+  text: Fristverlängerung online über eFristverlängerung mit Register-Nr. und Geburtsdatum aus der Steuererklärung; Gesuch wird interaktiv bewilligt oder abgelehnt. Fristverlängerung nur, wenn die fälligen
+    Steuerrechnungen bezahlt sind.
+  gilt_fuer: kanton
+  quellen:
+  - chunk: sg-info-fristverlaengerung__c0002
+    zitat: Fristverlängerung kann nur gewährt werden, wenn die fälligen Steuerrechnungen bezahlt sind.
+  - chunk: sg-info-fristverlaengerung__c0002
+    zitat: Das Gesuch wird interaktiv bewilligt bzw. abgelehnt.
+  status: extrahiert
+  bemerkung: Dauer/Kosten sowie Sonderregel für Treuhänder in den Quellen nicht genannt (offen). Info-Seite gilt für 2025/2026.
+- key: verfahren.abgabeweg
+  wert: null
+  einheit: Text
+  text: Elektronische Steuererklärung über E-Tax SG (vollständig digital einreichbar; das System erkennt unterjährige Steuerpflicht automatisch) oder Papier. Elektronische Einreichung ersetzt die persönliche
+    Unterschrift durch elektronische Bestätigung, soweit das Steueramt dies zulässt.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 163ter Abs. 2, Art. 168 Abs. 2 StG SG
+  quellen:
+  - chunk: sg-mb-8-2026__c0003
+    zitat: vollständig digital eingereicht werden
+  - chunk: sg-stg-2026__art-163ter
+    zitat: Das kantonale Steueramt kann elektronische Eingaben zulassen.
+  status: extrahiert
+  bemerkung: Zugang E-Login/AGOV laut Seed (E-Tax-Infoseite), im Wiki nicht zitiert.
+- key: verfahren.beilagen_schwellen
+  wert: null
+  einheit: Text
+  text: 'Pflichtbeilagen nach Gesetz: Lohnausweise, Ausweise über VR-/Organbezüge, Verzeichnisse über Wertschriften, Forderungen und Schulden; bei Selbständigen unterzeichnete Jahresrechnungen. Betragsschwellen
+    sind in den Quellen nicht genannt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 169 StG SG
+  status: offen
+  bemerkung: Keine Belegschwellen (z.B. Rechnungen ab CHF …) für 2026 gefunden; Wegleitung 2026 noch nicht publiziert.
+- key: bezug.provisorisch
+  wert: null
+  einheit: Text
+  text: 'Kantons- und Gemeindesteuern: provisorische Rechnung Anfang Jahr, drei Raten Ende Mai, Ende Juli, Ende September (auf Fr. 100 gerundeter Akonto-Betrag). Direkte Bundessteuer: provisorische Rechnung
+    im Januar des Folgejahres, zahlbar bis Ende März. Schlussrechnung gemeinsam mit der Veranlagung, Zahlungsfrist 30 Tage.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 214 Abs. 1 StG SG
+  quellen:
+  - chunk: sg-info-steuern-bezahlen__c0002
+    zitat: 'drei Raten vorgesehen: Ende Mai, Ende Juli und Ende September'
+  - chunk: sg-info-steuern-bezahlen__c0002
+    zitat: Sie ist bis Ende März zu bezahlen.
+  - chunk: sg-stg-2026__art-214
+    zitat: wird eine Zahlungsfrist von dreissig Tagen gewährt
+  status: extrahiert
+  bemerkung: ''
+- key: bezug.verzugszins
+  wert: null
+  einheit: '%'
+  text: 'Auf dem Steuerbetrag der Schlussrechnung wird nach Ablauf der 30-tägigen Zahlungsfrist ein Verzugszins geschuldet, ungeachtet eines Rechtsmittelverfahrens. Zinssatz 2026: in StB 214 Nr. 1 geregelt,
+    im Wiki nicht enthalten.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 214 Abs. 2 StG SG; StB 214 Nr. 1
+  status: offen
+  bemerkung: Satz fehlt; StB 214 Nr. 1 wurde per 1.1.2026 allgemein aktualisiert (sg-stb-aenderungen-2026__c0004), Weisung selbst nicht im Wiki.
+- key: bezug.verguetungszins
+  wert: null
+  einheit: '%'
+  text: Vergütung auf geleisteten Akontozahlungen erfolgt über den Ausgleichszins zugunsten des Steuerpflichtigen (Art. 212 Abs. 1 lit. a StG); Satz in StB 212 Nr. 1.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 212 Abs. 1 lit. a StG SG; StB 212 Nr. 1
+  status: offen
+  bemerkung: Zinssatz 2026 nicht im Wiki (StB 212 Nr. 1 per 1.1.2026 «Aktualisierung der Zinssätze», sg-stb-aenderungen-2026__c0004).
+- key: bezug.ausgleichszins
+  wert: null
+  einheit: Text
+  text: 'Mit der Schlussrechnung werden Ausgleichszinsen berechnet: zugunsten des Steuerpflichtigen auf allen Zahlungen aufgrund der vorläufigen Rechnung bis zur Schlussrechnung; zulasten des Steuerpflichtigen
+    auf dem veranlagten Steuerbetrag ab dem Verfalltag (bei periodischen Steuern durch Verordnung bestimmt). Satz: StB 212 Nr. 1 (nicht im Wiki).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 212 StG SG; StB 212 Nr. 1
+  quellen:
+  - chunk: sg-stg-2026__art-212
+    zitat: zulasten des Steuerpflichtigen auf dem veranlagten Steuerbetrag ab dem Verfalltag
+  status: extrahiert
+  bemerkung: Regel extrahiert, Zinssatz offen.

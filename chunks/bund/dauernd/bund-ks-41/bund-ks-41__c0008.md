@@ -4,17 +4,23 @@ quelle: bund-ks-41
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 41 – Abschnitt 8"
-seiten: "2"
+titel: "Ziff. 2.2.3 Einkauf nach Wiederaufnahme einer Erwerbstätigkeit im Rentenalter (Teil 1/2)"
+ziffer: "2.2.3"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 41 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 41 · 2.2 Steuerliche Auswirkungen › 2.2.3 Einkauf nach Frühpensionierung · S. 3–4
 
-Grundsätzlich gilt somit, dass die Austrittsleistung (Freizügigkeitsleistung) von der bisherigen
-Vorsorgeeinrichtung an die Vorsorgeeinrichtung des neuen Arbeitgebers übertragen werden
-muss. Die Übertragung der Austrittsleistung auf eine Freizügigkeitspolice oder auf ein Frei-
-zügigkeitskonto ist nur dann zulässig, wenn die versicherte Person keiner neuen Vorsorge-
-einrichtung beitritt. Wird in der neuen Vorsorgeeinrichtung nicht die gesamte mitgebrachte
-Austrittsleistung zum Einkauf der versicherten Person in die vollen reglementarischen Leis-
-tungen benötigt, kann die Differenz ebenfalls auf eine Freizügigkeitseinrichtung übertragen
-werden (vgl. dazu nachstehende Ziff. 2.2.1).
+2.2.3   Einkauf von Beitragsjahren nach Wiederaufnahme einer Erwerbstätig-
+    keit im Rentenalter
+
+Ein Einkauf in die vollen reglementarischen Leistungen einer frühpensionierten Person, die
+wieder erwerbstätig ist, wird nur unter der Voraussetzung möglich, dass das Altersguthaben,
+über welches diese versicherte Person im Zeitpunkt des frühzeitigen Altersrücktritts verfügte,
+bei der Berechnung des notwendigen Einkaufsbetrages angerechnet wird. Die Hinzurech-
+nungspflicht ergibt sich sowohl aus dem Grundsatz der Angemessenheit der Vorsorge als
+auch daraus, dass im Falle einer Frühpensionierung mit Weiterarbeit faktisch ein Freizügig-
+keitsfall vorliegt und daher die Altersleistung materiell wie eine Freizügigkeitsleistung zu be-
+handeln ist (vgl. Mitteilung des Bundesamtes für Sozialversicherungen über die berufliche
+Vorsorge Nr. 97 vom 15. Februar 2007, Rz 568). Nur der so berechnete Einkauf kann vom
+steuerbaren Einkommen in Abzug gebracht werden.

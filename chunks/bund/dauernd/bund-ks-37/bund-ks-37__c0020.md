@@ -4,19 +4,31 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 20"
-seiten: "4"
+titel: "Ziff. 3.3 Steuerbares Einkommen – Diskontierungstabelle Sperrfrist (6 % pro Sperrjahr)"
+ziffer: "3.3"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 37 · 3 Besteuerung von Mitarbeiteraktien › 3.3 Ermittlung des steuerbaren Einkommens · S. 8
 
-2.3.1.2 Mitarbeiteroptionen
-Eine Mitarbeiteroption ist das einem Mitarbeitenden aufgrund seines ehemaligen, aktuellen
-oder künftigen Arbeitsverhältnisses in der Regel zu Vorzugsbedingungen eingeräumte
-Recht, ein Beteiligungspapier des Arbeitgebers innerhalb eines definierten Zeitraums (Aus-
-übungsfrist) zu einem bestimmten Preis (Ausübungspreis) zu erwerben, um sich am Gesell-
-schaftskapital des Arbeitgebers zu beteiligen.
+3.3   Ermittlung des steuerbaren Einkommens
+Der Besteuerung unterliegt die positive Differenz zwischen dem Verkehrswert der Mitarbei-
+teraktien und deren Abgabepreis.
 
- 2.3.1.2.1 Freie Mitarbeiteroptionen
-Freie Mitarbeiteroptionen können nach ihrer Abgabe ohne Einschränkung ausgeübt oder ver-
-kauft werden.
+Gesperrte Mitarbeiteraktien weisen gegenüber frei verfügbaren Aktien einen Minderwert auf.
+Artikel 17b Absatz 2 DBG trägt diesem Umstand mit einem Diskont von sechs Prozent pro
+Sperrjahr Rechnung, wobei maximal zehn Sperrjahre berücksichtigt werden können. Dies
+führt zur folgenden Diskontierungstabelle:
+
+    Sperrfrist   Einschlag   Reduzierter
+    Verkehrswert
+    1 Jahr   5,660 %   94,340 %
+    2 Jahre   11,000 %   89,000 %
+    3 Jahre   16,038 %   83,962 %
+    4 Jahre   20,791 %   79,209 %
+    5 Jahre   25,274 %   74,726 %
+    6 Jahre   29,504 %   70,496 %
+    7 Jahre   33,494 %   66,506 %
+    8 Jahre   37,259 %   62,741 %
+    9 Jahre   40,810 %   59,190 %
+    10 Jahre   44,161 %   55,839 %

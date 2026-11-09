@@ -4,21 +4,29 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 79"
-seiten: "19"
+titel: "Ziff. 6.5 Beispiel 1 – Personalverleih, wöchentliche Auszahlung Stundenlohn"
+ziffer: "6.5"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.5 Stunden- oder Tageslohn · S. 25
 
     Beispiele:
-    - Ein Schauspieler mit Ansässigkeit in Österreich, der über einen viermonatigen Arbeitsvertrag beim Stadt-
-    theater St. Gallen verfügt und jeweils von Freitag bis Sonntag auftritt und dafür eine monatliche Entschädi-
-    gung erhält, unterliegt der Quellensteuer nach den ordentlichen Tarifen für Arbeitnehmer (Art. 91 DBG).
-    - Ein Pianist mit Ansässigkeit in Polen, der in einer Pianobar in Aarau während zwei Wochen angestellt ist
-    und täglich zwei Stunden auftritt, wird mit dem Künstlertarif nach Artikel 92 Absatz 2 DBG abgerechnet.
-    - Eine vierköpfige Band aus Deutschland tritt an einem Tag des Gurtenfestivals in Bern auf. Die Bandmit-
-    glieder unterliegen für die Bruttogage dem Künstlertarif nach Artikel 92 Absatz 2 DBG.
+    1. Der Arbeitnehmer E. ist bei der Personalverleiherin O. AG angestellt. Vom 1. bis 31. März 2021 hat er
+    Einsätze bei verschiedenen Betrieben. Pro Stunde erhält er, je nach Tätigkeit im Einsatzbetrieb, vom Per-
+    sonalverleiher einen Lohn zwischen CHF 32.00 und CHF 40.00. Im gesamten Monat arbeitet er während
+    152 Stunden. Der Lohn wird ihm, nach Einreichung der Arbeitsrapporte, wöchentlich ausbezahlt.
 
-Zu beachten sind Einschränkungen in den DBA (vgl. Art. 17 OECD-MA sowie das jeweils
-gültige Merkblatt der ESTV zur Quellenbesteuerung von Künstlern, Sportlern und Referen-
-ten).
+    Woche   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
+    lohn   stimmend   len-
+    steuer
+
+    1. Woche   32   1 024   32   180   5 760   11.1 %   113.65
+
+    2. Woche   35   1 330   38   180   6 300   12.0 %   159.60
+
+    3. Woche   33   1 485   45   180   5 940   11.4 %   169.30
+
+    4. Woche   40   1 480   37   180   7 200   13.5 %   199.80
+
+    Total   5 319   152   180   6 299   642.35

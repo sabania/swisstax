@@ -4,20 +4,24 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 41"
-seiten: "9"
+titel: "Anhang II Beispiel Spartenrechnung – Ertrag"
+ziffer: "Anhang II"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang II Spartenrechnung · S. 13
 
-5.3.2   Ebene der Anleger
-Da ein Umtauschverhältnis zu Verkehrswerten zu bestimmen ist, ergeben sich für die Anle-
-gerinnen und Anleger durch den Umtausch ihrer Anteile an sich keine Folgen bei den direk-
-ten Steuern. Für Anteile im Geschäftsvermögen gilt dies nur, soweit die bisherigen Einkom-
-mens- bzw. Gewinnsteuerwerte unverändert weitergeführt werden. Bei der Vermögensüber-
-tragung einer SICAV gilt dies sinngemäss.
-
-Sacheinlagen bzw. die Einbringung von Immobilien in eine kollektive Kapitalanlage sind nur
-zu Verkehrswerten möglich. Artikel 61 DBG ist nicht anwendbar.
-
-6 SR 221.301
+Anhang II   Kollektive Kapitalanlagen mit direktem Grundbesitz / Spartenrechnung
+Beispiel:
+Gesamtaktiven: 90% direkter Grundbesitz, 10% Übriges Vermögen
+ Erfolg   Berechnung   Grund- Übri-   Total
+    besitz  ger
+    Betrag Betrag
+    (1'000) (1'000)
+    Ertrag
+    Mietzinseinnahmen   objektmässig   4’000   -   4’000
+    Kapital- und Aufwertungs-   objektmässig nach Abzug der   1’000   -   1’000
+    gewinne   direkten Kosten
+    Einkäufe   objektmässig   1‘000   1‘000
+    Aktivzinsen   500   500
+    Total Ertrag   6’000   500   6’500

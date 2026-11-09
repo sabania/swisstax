@@ -4,25 +4,18 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 40"
-seiten: "9"
+titel: "Ziff. 7.3.1 Gesperrte/nicht kotierte Optionen, Anwartschaften, unechte Beteiligungen – Allgemeines"
+ziffer: "7.3.1"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3 Gesperrte oder nicht kotierte Optionen u.a. › 7.3.1 Allgemeines · S. 14
 
-3.4.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV)
-Muss ein Mitarbeitender bei Beendigung des Arbeitsverhältnisses aufgrund einer reglemen-
-tarischen bzw. vertraglichen Verpflichtung Mitarbeiteraktien an seinen Arbeitgeber zurückge-
-ben, kann daraus entweder eine im Arbeitsverhältnis begründete Vermögenseinbusse oder
-steuerbares Einkommen resultieren. In der positiven Differenz zwischen dem Rücknahme-
-preis und dem (entsprechend der Restsperrfrist diskontierten) Verkehrs- resp. Formelwert re-
-alisiert der Mitarbeitende steuerbares Einkommen aus Erwerbstätigkeit und nicht etwa einen
-steuerfreien privaten Kapitalgewinn. Deshalb ist in diesen Fällen eine Bescheinigung sinnge-
-mäss mit den Angaben nach Artikel 11 Absatz 4 MBV zu erstellen. Das steuerbare Einkom-
-men im Zeitpunkt der Rückgabe bemisst sich diesfalls nach der Differenz zwischen dem
-(entsprechend der Restsperrfrist diskontierten) Verkehrs- resp. Formelwert der zurückgege-
-benen Mitarbeiteraktien und dem höheren Rückgabepreis. Im Falle einer entschädigungslo-
-sen oder unter dem aktuellen Verkehrswert liegenden Rückgabe der Mitarbeiteraktien kann
-der Mitarbeitende die Vermögenseinbusse in der Steuerperiode der Rückgabe der Mitarbei-
-teraktien durch einen Gewinnungskostenabzug vom Einkommen geltend machen (vgl. Art.
-12 Abs. 1 MBV).
+  7.3 Besteuerung von gesperrten oder nicht börsenkotierten Mitarbeiteropti-
+    onen, Anwartschaften auf Mitarbeiteraktien sowie unechten Mitarbeiter-
+    beteiligungen im internationalen Verhältnis
+
+7.3.1 Allgemeines
+Geldwerte Vorteile aus gesperrten oder nicht börsenkotierten Mitarbeiteroptionen, aus An-
+wartschaften auf Mitarbeiteraktien sowie aus unechten Mitarbeiterbeteiligungen werden im
+Zeitpunkt ihrer Realisation besteuert (vgl. auch Ziff. 4.2, Ziff. 5 und Ziff. 6 hievor).

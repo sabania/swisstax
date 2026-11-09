@@ -9,15 +9,22 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vermögenssteuer
 
-## Vermögenssteuer
+    Sofern sich eine Liegenschaft im Nachlass befindet, sind die Vermögens- und Ertragsanteile daran separat im Formular 7 "Angaben bei Liegenschaftsbesitz" zu deklarieren. Allfällige Hypothekar- und Schuldzinsanteile auf der betreffenden Liegenschaft sind diesfalls separat im Formular 4 "Schuldenverzeichnis" aufzuführen.
 
-Anteile an unverteilten Erbschaften
+Bankkonto: Konto für minderjähriges Patenkind
 :   ### Frage:
 
-    Ich bin seit letztem Jahr an einer Erbschaft beteiligt. Die Erbschaft war Ende letzten Jahres noch unverteilt. Muss ich die Erbschaft in der Steuererklärung deklarieren?
+    Ich habe auf den Namen meines minderjährigen Patenkindes ein Bankkonto eingerichtet, auf das ich jedes Jahr einzahle. Wer muss dieses Konto bis zur Volljährigkeit des Kindes deklarieren? Ich oder die Eltern des Kindes.
 
     ### Antwort:
 
-    Auch wenn die Erbschaft noch unverteilt ist, untersteht das Nachlassvermögen ab Todesdatum der Erblasserin/des Erblassers bei den erbenden Personen im Rahmen ihrer Erbquote der Vermögenssteuer. Erträge aus dem unverteilten Erbschaftsvermögen ab Todestag der Erblasserin/des Erblassers unterliegen zudem bei den Erbinnen und Erben im Rahmen ihrer Erbquote der Einkommenssteuer.
+    Wenn das Konto auf den Namen Ihres Patenkindes lautet, müssen die Eltern das Konto und die Erträge daraus deklarieren.
 
-    Vermögens- und Ertragsanteile aus unverteilter Erbschaft sind daher in der Steuererklärung auf Seite 2 "Einkommen" und Seite 4 "Vermögen" zu deklarieren. Zudem ist auf Seite 4 an der dafür vorgesehenen Stelle ein Hinweis anzubringen.
+Geleastes Fahrzeug
+:   ### Frage:
+
+    Wie muss ich mein geleastes Fahrzeug deklarieren?
+
+    ### Antwort:
+
+    Da sich das Fahrzeug weder in Ihrem Eigentum noch in Ihrer Nutzniessung befindet, muss es nicht als Vermögen deklariert werden.

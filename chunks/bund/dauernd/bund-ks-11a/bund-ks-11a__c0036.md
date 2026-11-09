@@ -4,16 +4,20 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 36"
-seiten: "9"
+titel: "Ziff. 5.1 Ergänzungsleistungen und Pauschalen"
+ziffer: "5.1"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 11a · 5 Abzugsfähige Kosten › 5.1 Selbstgetragene Kosten · S. 11
 
-4.3.5   Kosten für heilpädagogische Therapien und Sozialrehabilitationsmassnahmen
-Die Kosten anerkannter heilpädagogischer Therapien (z.B. heilpädagogisches Reiten, Musik
-therapie) und von Sozialrehabilitationsmassnahmen für Personen mit Hör- und Sehbehinderung
-durch speziell ausgebildetes Personal (z.B. Erlernen der Blindenschrift, Low Vision-Training für
-Personen mit Sehbehinderung, Ableseunterricht für Personen mit Hörbehinderung) sind ab
-zugsfähig. Bestehen Zweifel über die Zweckmässigkeit der Massnahme, kann eine ärztliche Be
-stätigung verlangt werden.
+Jährliche Ergänzungsleistungen gemäss Artikel 3 Absatz 1 Buchstabe a des Bundesgesetzes
+vom 6. Oktober 2006 über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenver
+sicherung (ELG; SR 831.30) gelten nicht als solche anzurechnende Leistungen Dritter, die bei
+der Festlegung der abzugsfähigen Kosten gemäss Artikel 33 Absatz 1 Buchstaben h und
+hbis DBG zu berücksichtigen sind. Hingegen sind diejenigen Ergänzungsleistungen, welche zur
+Vergütung von Krankheits- und Behinderungskosten gemäss Artikel 3 Absatz 1 Buch
+stabe b ELG ausgerichtet werden, an die entstandenen Kosten anzurechnen, beziehungsweise
+von diesen in Abzug zu bringen. Auch dürfen die Pauschalen für besondere Ernährung (Ziff.
+3.2.10), Dolmetscherkosten (Ziff. 4.3.1) und Transportkosten (Ziff. 4.3.6) nicht geltend gemacht
+werden, wenn die entsprechenden Kosten durch Ergänzungsleistungen gedeckt sind.

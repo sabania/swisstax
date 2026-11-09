@@ -4,29 +4,25 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 60"
-seiten: "18"
+titel: "Anhang II Art. 3 Verhältnis zu Art. 18a DBG – Grundsätze (Teil 1/2)"
+ziffer: "Art. 3"
+seiten: "20-21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 20–21
 
-<!-- Seite 18 -->
-Der vom Parlament verabschiedete Artikel zur Liquidationsbesteuerung lautete schliesslich
-wie folgt:
+Artikel 3   Verhältnis zu Artikel 18a DBG
 
-Art. 37b Liquidationsgewinne
-1
-  Wird die selbstständige Erwerbstätigkeit nach dem vollendeten 55. Altersjahr oder wegen
-Unfähigkeit zur Weiterführung infolge Invalidität definitiv aufgegeben, so ist die Summe der in
-den letzten zwei Geschäftsjahren realisierten stillen Reserven getrennt vom übrigen Ein-
-kommen zu besteuern. Einkaufsbeiträge gemäss Artikel 33 Absatz 1 Buchstabe d sind ab-
-ziehbar. Werden keine solchen Einkäufe vorgenommen, so wird die Steuer auf dem Betrag
-der realisierten stillen Reserven, für den der Steuerpflichtige die Zulässigkeit eines Einkaufs
-gemäss Artikel 33 Absatz 1 Buchstabe d nachweist, zu einem Fünftel der Tarife nach Artikel
-36 berechnet. Für die Bestimmung des auf den Restbetrag der realisierten stillen Reserven
-anwendbaren Satzes ist ein Fünftel dieses Restbetrages massgebend, es wird aber in jedem
-Falle eine Steuer zu einem Satz von mindestens 2 Prozent erhoben.
-2
-  Absatz 1 gilt auch für den überlebenden Ehegatten, die anderen Erben und die Vermächt-
-nisnehmer, sofern sie das übernommene Unternehmen nicht fortführen; die steuerliche Ab-
-rechnung erfolgt spätestens fünf Kalenderjahre nach Ablauf des Todesjahres des Erblassers.
+Wird eine Liegenschaft (LS) aus dem Geschäftsvermögen (GV) in das Privatvermögen (PV)
+überführt, kann nach Artikel 18a DBG verlangt werden, dass im Zeitpunkt der Überführung
+nur die Differenz zwischen den Anlagekosten und dem massgebenden Einkommenssteuer-
+wert (wieder eingebrachte Abschreibungen) besteuert wird. Die Besteuerung des Wertzu-
+wachsgewinnes als Einkommen aus selbständiger Erwerbstätigkeit wird bis zur Veräusse-
+rung der Liegenschaft aufgeschoben. Diese, im Zeitpunkt der Veräusserung realisierten,
+
+übrigen stillen Reserven unterliegen zusammen mit dem übrigen Einkommen dannzumal der
+ordentlichen Besteuerung.
+
+Im Zeitpunkt der Überführung vom Geschäftsvermögen in das Privatvermögen liegt nicht
+zwangsläufig eine definitive Aufgabe der Erwerbstätigkeit vor, weshalb Artikel 37b DBG nicht
+in jedem Fall geltend gemacht werden kann.

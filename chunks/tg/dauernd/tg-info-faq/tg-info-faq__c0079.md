@@ -9,11 +9,8 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
 
-    Die Steuerverwaltung Thurgau, welche für den Bezug der direkten Bundessteuer zuständig ist, stellt anfangs Jahr jeweils eine Steuerrechnung für das Vorjahr aus. Ist die definitive Veranlagung im Zeitpunkt der Fälligkeit noch nicht vorgenommen worden, wird die Steuer provisorisch bezogen, wobei die Fälligkeit unverändert bleibt. Die provisorische Steuerrechnung wird durch eine definitive ersetzt, sobald die Steuerveranlagung rechtskräftig geworden ist. Fällt die definitive Rechnung höher als die provisorische aus, gilt für die Nachzahlung ebenfalls eine Zahlungsfrist von 30 Tagen.
+    Bei der Gegenwartsbemessung fallen Bemessungs- und Steuerperiode zusammen, während die Veranlagung frühestens im darauffolgenden Jahr stattfindet. Im laufenden Steuerjahr werden demnach die Steuern zunächst einmal provisorisch bezogen. Die provisorische Steuerrechnung wird nach Massgabe des mutmasslich geschuldeten Steuerbetrages ausgestellt. Dabei können insbesondere die letzte Veranlagung oder die letzte Steuererklärung berücksichtigt werden.
 
-Provisorischer Steuerbezug
-:   ### Frage:
+    Bei höherem steuerbaren Einkommen im Vergleich zu den Vorjahren empfiehlt es sich, bei seinem Gemeindesteueramt eine entsprechend angepasste provisorische Steuerrechnung zu verlangen. So kann verhindert werden, dass nach Zustellung der definitiven Schlussrechnung innert der Zahlungsfrist von 30 Tagen eine hohe Nachzahlung leisten muss und ein Ausgleichszinsensaldo zu seinen Lasten entsteht.
 
-    Wieso werden die Steuern zuerst provisorisch bezogen, obwohl das Gegenwartsbesteuerungssystem gilt?
-
-    ### Antwort:
+    Detaillierte Ausführungen finden Sie in der Steuerpraxis in Weisung:

@@ -1,4096 +1,5779 @@
 [
 {
 "id": "bund-ks-45__c0001",
-"titel": "KS 45 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Allgemeines – Revision Quellenbesteuerung 2021",
+"pfad": [
+"1 Allgemeines und Gegenstand"
+],
+"seiten": [
+4
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "1",
+"stichworte": [
+"Revision Quellensteuer",
+"Quasi-Ansässigkeit",
+"1. Januar 2021",
+"FZA",
+"Lohnstandard ELM-QSt"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Das Bundesgesetz vom 16. Dezember 2016 über die Revision der Quellenbesteuerung tritt auf den 1. Januar 2021 in Kraft und führt u.a. die Quasi-Ansässigkeit ein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-45__c0002"
 },
 {
 "id": "bund-ks-45__c0002",
-"titel": "KS 45 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Allgemeines – DBA, Art. 85 Abs. 4 DBG, Geltungsbereich",
+"pfad": [
+"1 Allgemeines und Gegenstand"
+],
 "seiten": [
-1
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "1",
+"stichworte": [
+"DBA",
+"OECD-MA",
+"Art. 85 DBG",
+"Vereinheitlichung Berechnung",
+"Merkblätter ESTV"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Die Berechnung der Quellensteuern für Arbeitnehmer nach Art. 83 und 91 DBG wird vereinheitlicht; für übrige Quellensteuerpflichtige gelten die ESTV-Rundschreiben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0001",
 "nachher": "bund-ks-45__c0003"
 },
 {
 "id": "bund-ks-45__c0003",
-"titel": "KS 45 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1 Allgemeines – Wichtigste Neuerungen",
+"pfad": [
+"1 Allgemeines und Gegenstand"
+],
 "seiten": [
-1
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "1",
+"stichworte": [
+"Neuerungen",
+"schweizweite Gültigkeit",
+"Abrechnung mit zuständigem Kanton",
+"Monatsmodell",
+"Jahresmodell"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Das Kreisschreiben gilt schweizweit; Schuldner rechnen direkt mit dem zuständigen Kanton nach dessen Modell (Monats- oder Jahresmodell) ab.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0002",
 "nachher": "bund-ks-45__c0004"
 },
 {
 "id": "bund-ks-45__c0004",
-"titel": "KS 45 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2.1 Arbeitnehmer – Begriff",
+"pfad": [
+"2 Begriffe",
+"2.1 Arbeitnehmer"
+],
 "seiten": [
-1
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1",
+"stichworte": [
+"Arbeitnehmer",
+"unselbstständige Erwerbstätigkeit",
+"Art. 17 DBG",
+"Art. 319 OR"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Arbeitnehmer sind Personen im Dienst eines Arbeitgebers mit Sitz in der Schweiz; massgebend ist der Charakter als unselbstständige Erwerbstätigkeit nach Art. 17 Abs. 1 DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0003",
 "nachher": "bund-ks-45__c0005"
 },
 {
 "id": "bund-ks-45__c0005",
-"titel": "KS 45 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2.1 Arbeitnehmer – Abgrenzungskriterien selbstständig/unselbstständig (Teil 1/2)",
+"pfad": [
+"2 Begriffe",
+"2.1 Arbeitnehmer"
+],
 "seiten": [
-1
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1",
+"stichworte": [
+"Weisungsgebundenheit",
+"Unterordnungsverhältnis",
+"unternehmerisches Risiko",
+"Scheinselbstständigkeit",
+"Unternehmer",
+"Beauftragte"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Abgrenzungskriterien wie Weisungsgebundenheit, Eingliederung und fehlendes unternehmerisches Risiko; sie müssen nicht kumulativ erfüllt sein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0004",
 "nachher": "bund-ks-45__c0006"
 },
 {
 "id": "bund-ks-45__c0006",
-"titel": "KS 45 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 2.1 Arbeitnehmer – Abgrenzungskriterien selbstständig/unselbstständig (Teil 2/2)",
+"pfad": [
+"2 Begriffe",
+"2.1 Arbeitnehmer"
+],
 "seiten": [
-1
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.1",
+"stichworte": [
+"Weisungsgebundenheit",
+"Unterordnungsverhältnis",
+"unternehmerisches Risiko",
+"Scheinselbstständigkeit",
+"Unternehmer",
+"Beauftragte"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0005",
 "nachher": "bund-ks-45__c0007"
 },
 {
 "id": "bund-ks-45__c0007",
-"titel": "KS 45 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 2.2.1 Schuldner der steuerbaren Leistung – Grundsatz (Teil 1/2)",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-2
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.1",
+"stichworte": [
+"Schuldner der steuerbaren Leistung",
+"Arbeitgeber",
+"Ersatzeinkünfte",
+"Versicherer",
+"Sitz in der Schweiz"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Schuldner ist, wer dem Arbeitnehmer eine quellensteuerpflichtige Leistung ausrichtet und Wohnsitz, Sitz, Verwaltung, Betriebsstätte oder feste Einrichtung in der Schweiz hat.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0006",
 "nachher": "bund-ks-45__c0008"
 },
 {
 "id": "bund-ks-45__c0008",
-"titel": "KS 45 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 2.2.1 Schuldner der steuerbaren Leistung – Grundsatz (Teil 2/2)",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-2
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.1",
+"stichworte": [
+"Schuldner der steuerbaren Leistung",
+"Arbeitgeber",
+"Ersatzeinkünfte",
+"Versicherer",
+"Sitz in der Schweiz"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0007",
 "nachher": "bund-ks-45__c0009"
 },
 {
 "id": "bund-ks-45__c0009",
-"titel": "KS 45 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 2.2.2 Schuldner beim Personalverleih",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-2
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.2",
+"stichworte": [
+"Personalverleih",
+"Temporärarbeit",
+"Verleiher",
+"Einsatzbetrieb",
+"Kettenverleih",
+"AVG"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beim Personalverleih gilt der Verleiher als Arbeitgeber; bei verbotenem Verleih aus dem Ausland gilt der schweizerische Einsatzbetrieb als Schuldner.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0008",
 "nachher": "bund-ks-45__c0010"
 },
 {
 "id": "bund-ks-45__c0010",
-"titel": "KS 45 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Begriff und Kriterien",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-2
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.3",
+"stichworte": [
+"faktische Arbeitgeberschaft",
+"wirtschaftlicher Arbeitgeber",
+"Entsendung",
+"Konzerngesellschaft",
+"Weiterverrechnung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Faktische Arbeitgeberschaft liegt vor, wenn der Arbeitnehmer seine Leistung einer anderen Unternehmung schuldet, die weisungsbefugt ist und die Lohnkosten wirtschaftlich trägt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0009",
 "nachher": "bund-ks-45__c0011"
 },
 {
 "id": "bund-ks-45__c0011",
-"titel": "KS 45 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Prüfkriterien",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-2
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.3",
+"stichworte": [
+"Weisungshoheit",
+"Eingliederung Betriebsorganisation",
+"Lohnkosten",
+"Verantwortung und Risiko"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Prüfkriterien u.a. integraler Bestandteil der Geschäftstätigkeit, Verantwortung und Risiko, Weisungshoheit, Eingliederung und Tragung der Lohnkosten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0010",
 "nachher": "bund-ks-45__c0012"
 },
 {
 "id": "bund-ks-45__c0012",
-"titel": "KS 45 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Dreimonatsgrenze und Rechtsfolge (Teil 1/2)",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-2
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.3",
+"stichworte": [
+"drei Monate",
+"Entsendung in die Schweiz",
+"Quellensteuerpflicht ab erstem Arbeitstag",
+"Art. 4 QStV"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Geprüft wird in der Regel nur bei Entsendungen von mehr als drei Monaten innerhalb von zwölf Monaten; die Quellensteuerpflicht besteht dann ab dem ersten Arbeitstag.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0011",
 "nachher": "bund-ks-45__c0013"
 },
 {
 "id": "bund-ks-45__c0013",
-"titel": "KS 45 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Dreimonatsgrenze und Rechtsfolge (Teil 2/2)",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-3
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.3",
+"stichworte": [
+"drei Monate",
+"Entsendung in die Schweiz",
+"Quellensteuerpflicht ab erstem Arbeitstag",
+"Art. 4 QStV"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0012",
 "nachher": "bund-ks-45__c0014"
 },
 {
 "id": "bund-ks-45__c0014",
-"titel": "KS 45 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Beispiele – faktische Arbeitgeberschaft bejaht",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-3
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.3",
+"stichworte": [
+"Beispiele",
+"Entsendung",
+"Konzerngesellschaft",
+"Software-Installation"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele mit Entsendung von vier bzw. sechs Monaten, bei denen die schweizerische Gesellschaft als faktische Arbeitgeberin die Quellensteuer abrechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0013",
 "nachher": "bund-ks-45__c0015"
 },
 {
 "id": "bund-ks-45__c0015",
-"titel": "KS 45 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Beispiele 1–2 – faktische Arbeitgeberschaft verneint (Erfüllungsgehilfe, Subunternehmer)",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-3
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.3",
+"stichworte": [
+"Beispiele",
+"Subunternehmer",
+"Erfüllungsgehilfe",
+"Werkvertrag",
+"Entsendung Deutschland"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Keine faktische Arbeitgeberschaft, wenn ein ausländisches Unternehmen als Erfüllungsgehilfe oder Subunternehmer Arbeitnehmer zur Auftragserfüllung (z.B. sechs bzw. fünf Monate) in die Schweiz entsendet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0014",
 "nachher": "bund-ks-45__c0016"
 },
 {
 "id": "bund-ks-45__c0016",
-"titel": "KS 45 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Beispiel 3 – Konzern-CIO mit 95 Arbeitstagen in der Schweiz",
+"pfad": [
+"2 Begriffe",
+"2.2 Schuldner der steuerbaren Leistung"
+],
 "seiten": [
-4
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2.3",
+"stichworte": [
+"Beispiel",
+"Informatikchef CIO",
+"95 Arbeitstage",
+"Mutterhaus Stuttgart",
+"Tochtergesellschaft Solothurn"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Keine faktische Arbeitgeberschaft beim Informatikchef des deutschen Mutterhauses, der jährlich 95 Arbeitstage bei der Tochter in Solothurn verbringt (Arbeitsleistungen nur gemäss Vertrag mit dem Mutterhaus).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0015",
 "nachher": "bund-ks-45__c0017"
 },
 {
 "id": "bund-ks-45__c0017",
-"titel": "KS 45 – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 2.3 Ansässigkeit – Begriff und Schweizer Recht",
+"pfad": [
+"2 Begriffe",
+"2.3 Ansässigkeit"
+],
 "seiten": [
-4
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.3",
+"stichworte": [
+"Ansässigkeit",
+"Wohnsitz",
+"unbeschränkte Steuerpflicht",
+"Art. 3 DBG",
+"qualifizierter Aufenthalt"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Ansässig ist, wer nach Art. 3 DBG aufgrund persönlicher Zugehörigkeit unbeschränkt steuerpflichtig ist.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0016",
 "nachher": "bund-ks-45__c0018"
 },
 {
 "id": "bund-ks-45__c0018",
-"titel": "KS 45 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 2.3 Ansässigkeit – Doppelansässigkeit und Vorrangkriterien (Teil 1/2)",
+"pfad": [
+"2 Begriffe",
+"2.3 Ansässigkeit"
+],
 "seiten": [
-4
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.3",
+"stichworte": [
+"Doppelansässigkeit",
+"Mittelpunkt der Lebensinteressen",
+"ständige Wohnstätte",
+"gewöhnlicher Aufenthalt",
+"Art. 4 OECD-MA"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Doppelansässigkeit gilt die Reihenfolge: ständige Wohnstätte/Mittelpunkt der Lebensinteressen, gewöhnlicher Aufenthalt, Staatsangehörigkeit, Verständigungsverfahren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0017",
 "nachher": "bund-ks-45__c0019"
 },
 {
 "id": "bund-ks-45__c0019",
-"titel": "KS 45 – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 2.3 Ansässigkeit – Doppelansässigkeit und Vorrangkriterien (Teil 2/2)",
+"pfad": [
+"2 Begriffe",
+"2.3 Ansässigkeit"
+],
 "seiten": [
-4
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.3",
+"stichworte": [
+"Doppelansässigkeit",
+"Mittelpunkt der Lebensinteressen",
+"ständige Wohnstätte",
+"gewöhnlicher Aufenthalt",
+"Art. 4 OECD-MA"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0018",
 "nachher": "bund-ks-45__c0020"
 },
 {
 "id": "bund-ks-45__c0020",
-"titel": "KS 45 – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 2.3 Ansässigkeit – Grenzgänger, Wochen- und Kurzaufenthalter",
+"pfad": [
+"2 Begriffe",
+"2.3 Ansässigkeit"
+],
 "seiten": [
-5
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.3",
+"stichworte": [
+"Grenzgänger",
+"Wochenaufenthalter",
+"Kurzaufenthalter",
+"beschränkte Steuerpflicht",
+"Art. 91 DBG"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Grenzgänger, Wochenaufenthalter und Kurzaufenthalter begründen keine Ansässigkeit in der Schweiz und unterliegen nur für Erwerbseinkommen der Quellensteuer.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0019",
 "nachher": "bund-ks-45__c0021"
 },
 {
 "id": "bund-ks-45__c0021",
-"titel": "KS 45 – Abschnitt 21",
-"pfad": [],
+"titel": "Ziff. 3.1 / 3.1.1 Quellenbesteuerte Arbeitnehmer mit Ansässigkeit in der Schweiz",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.1 Grundsätze"
+],
 "seiten": [
-5
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Ausländer ohne Niederlassungsbewilligung",
+"Ausweis C",
+"Ehepaar",
+"Schweizer Ehepartner",
+"Art. 83 DBG",
+"Minderjährige"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Ausländer ohne Niederlassungsbewilligung (Ausweis C) mit Ansässigkeit in der Schweiz sind quellensteuerpflichtig; Ehepaare in ungetrennter Ehe nicht, wenn ein Ehegatte Schweizer ist oder die Niederlassungsbewilligung hat.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0020",
 "nachher": "bund-ks-45__c0022"
 },
 {
 "id": "bund-ks-45__c0022",
-"titel": "KS 45 – Abschnitt 22",
-"pfad": [],
+"titel": "Ziff. 3.1.2 Arbeitnehmer mit Ansässigkeit im Ausland (Teil 1/2)",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.1 Grundsätze"
+],
 "seiten": [
-5
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.1.2",
+"stichworte": [
+"Grenzgänger",
+"Art. 91 DBG",
+"internationaler Verkehr",
+"Schiff Luftfahrzeug Strasse",
+"Schweizer Bürger im Ausland"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Arbeitnehmer mit Ansässigkeit im Ausland sind unabhängig von Staatsangehörigkeit oder Bewilligung für Lohn- und Ersatzeinkünfte quellensteuerpflichtig, vorbehältlich DBA.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0021",
 "nachher": "bund-ks-45__c0023"
 },
 {
 "id": "bund-ks-45__c0023",
-"titel": "KS 45 – Abschnitt 23",
-"pfad": [],
+"titel": "Ziff. 3.1.2 Arbeitnehmer mit Ansässigkeit im Ausland (Teil 2/2)",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.1 Grundsätze"
+],
 "seiten": [
-5
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.1.2",
+"stichworte": [
+"Grenzgänger",
+"Art. 91 DBG",
+"internationaler Verkehr",
+"Schiff Luftfahrzeug Strasse",
+"Schweizer Bürger im Ausland"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0022",
 "nachher": "bund-ks-45__c0024"
 },
 {
 "id": "bund-ks-45__c0024",
-"titel": "KS 45 – Abschnitt 24",
-"pfad": [],
+"titel": "Ziff. 3.2.1 Steuerbare Einkünfte aus Arbeitsverhältnis – Bruttoeinkünfte (Teil 1/2)",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-6
+9,
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.1",
+"stichworte": [
+"Bruttolohn",
+"Bonus",
+"Gratifikation",
+"Naturalleistungen",
+"Trinkgelder",
+"Tantiemen",
+"Abgangsentschädigung",
+"Art. 84 DBG"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.uebrige"
+],
+"zusammenfassung": "Die Quellensteuer wird vom Bruttoeinkommen berechnet; steuerbar sind Lohn, Zulagen, Provisionen, Boni, Naturalleistungen, Tantiemen, Sitzungsgelder, Mitarbeiterbeteiligungen und Abgangsentschädigungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0023",
 "nachher": "bund-ks-45__c0025"
 },
 {
 "id": "bund-ks-45__c0025",
-"titel": "KS 45 – Abschnitt 25",
-"pfad": [],
+"titel": "Ziff. 3.2.1 Steuerbare Einkünfte aus Arbeitsverhältnis – Bruttoeinkünfte (Teil 2/2)",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-6
+9,
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.2.1",
+"stichworte": [
+"Bruttolohn",
+"Bonus",
+"Gratifikation",
+"Naturalleistungen",
+"Trinkgelder",
+"Tantiemen",
+"Abgangsentschädigung",
+"Art. 84 DBG"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0024",
 "nachher": "bund-ks-45__c0026"
 },
 {
 "id": "bund-ks-45__c0026",
-"titel": "KS 45 – Abschnitt 26",
-"pfad": [],
+"titel": "Ziff. 3.2.1 Ersatzeinkünfte und nicht quellensteuerpflichtige Einkünfte",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-6
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.1",
+"stichworte": [
+"Ersatzeinkünfte",
+"Taggelder",
+"Teilinvalidenrente",
+"Mutterschaftsentschädigung",
+"Wertschriftenerträge",
+"nachträgliche Veranlagung"
+],
+"positionen": [
+"einkommen.ersatz.taggelder"
+],
+"zusammenfassung": "Auch Ersatzeinkünfte (Taggelder, Teil-Invaliditätsrenten, Mutterschaftsentschädigung) sind steuerbar; Wertschriften- und Liegenschaftserträge werden nachträglich ordentlich veranlagt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0025",
 "nachher": "bund-ks-45__c0027"
 },
 {
 "id": "bund-ks-45__c0027",
-"titel": "KS 45 – Abschnitt 27",
-"pfad": [],
+"titel": "Ziff. 3.2.1 Leistungsschuldner mit Sitz im Ausland",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-6
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.2.1",
+"stichworte": [
+"Arbeitgeber im Ausland",
+"Betriebsstätte",
+"ordentliche Veranlagung",
+"Art. 4 QStV"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Schuldnern mit Sitz im Ausland gilt grundsätzlich die ordentliche Veranlagung; Quellenbesteuerung nur bei Betriebsstätte, Personalverleih oder faktischer Arbeitgeberschaft in der Schweiz.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0026",
 "nachher": "bund-ks-45__c0028"
 },
 {
 "id": "bund-ks-45__c0028",
-"titel": "KS 45 – Abschnitt 28",
-"pfad": [],
+"titel": "Ziff. 3.2.2 Beschränkt steuerbare Einkünfte – schweizerische Arbeitstage (Teil 1/2)",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-7
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.2",
+"stichworte": [
+"Kürzung auf Schweizer Arbeitstage",
+"Arbeitstage im Ausland",
+"Monteurklausel",
+"Bonus Vestingperiode",
+"satzbestimmendes Einkommen",
+"Art. 7 DBG"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Bei Ansässigkeit im Ausland ist nur der auf Schweizer Arbeitstage entfallende Teil steuerbar; für den Satz zählen die weltweiten Bruttoerwerbseinkünfte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0027",
 "nachher": "bund-ks-45__c0029"
 },
 {
 "id": "bund-ks-45__c0029",
-"titel": "KS 45 – Abschnitt 29",
-"pfad": [],
+"titel": "Ziff. 3.2.2 Beschränkt steuerbare Einkünfte – schweizerische Arbeitstage (Teil 2/2)",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-7
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.2.2",
+"stichworte": [
+"Kürzung auf Schweizer Arbeitstage",
+"Arbeitstage im Ausland",
+"Monteurklausel",
+"Bonus Vestingperiode",
+"satzbestimmendes Einkommen",
+"Art. 7 DBG"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0028",
 "nachher": "bund-ks-45__c0030"
 },
 {
 "id": "bund-ks-45__c0030",
-"titel": "KS 45 – Abschnitt 30",
-"pfad": [],
+"titel": "Ziff. 3.2.3 Vom Arbeitgeber übernommene Leistungen – Hinzurechnung zum Bruttolohn (Teil 1/2)",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-7
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.3",
+"stichworte": [
+"AHV-Beiträge Arbeitgeber",
+"2. Säule",
+"Säule 3a",
+"Nettolohnvereinbarung",
+"übernommene Quellensteuer",
+"Iteration"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Vom Arbeitgeber übernommene Arbeitnehmerbeiträge (AHV/IV/EO, ALV, 2. Säule, 3a/3b, Privatversicherungen) und übernommene Quellensteuern gehören zum Bruttolohn.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0029",
 "nachher": "bund-ks-45__c0031"
 },
 {
 "id": "bund-ks-45__c0031",
-"titel": "KS 45 – Abschnitt 31",
-"pfad": [],
+"titel": "Ziff. 3.2.3 Vom Arbeitgeber übernommene Leistungen – Hinzurechnung zum Bruttolohn (Teil 2/2)",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-7
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.2.3",
+"stichworte": [
+"AHV-Beiträge Arbeitgeber",
+"2. Säule",
+"Säule 3a",
+"Nettolohnvereinbarung",
+"übernommene Quellensteuer",
+"Iteration"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0030",
 "nachher": "bund-ks-45__c0032"
 },
 {
 "id": "bund-ks-45__c0032",
-"titel": "KS 45 – Abschnitt 32",
-"pfad": [],
+"titel": "Ziff. 3.2.3 Nicht hinzuzurechnende Arbeitgeberleistungen",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-7
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.2.3",
+"stichworte": [
+"patronale Vorsorge",
+"UVG",
+"BUV NBUV",
+"Kollektivkrankentaggeld",
+"pauschale Abzüge im Tarif"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Nicht hinzuzurechnen sind reglementarische Leistungen an rein patronale Vorsorge, UVG-Beiträge und Kollektiv-Taggeldversicherungen, sofern für alle bzw. Gruppen gleich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0031",
 "nachher": "bund-ks-45__c0033"
 },
 {
 "id": "bund-ks-45__c0033",
-"titel": "KS 45 – Abschnitt 33",
-"pfad": [],
+"titel": "Ziff. 3.2.3 Hypo-Tax bei entsandten Arbeitnehmern",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-8
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.2.3",
+"stichworte": [
+"Hypo-Tax",
+"Entsendung",
+"Steuerausgleich",
+"übernommene Quellensteuer",
+"Iteration"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Hypo-Tax-Vereinbarung wird die hypothetische ausländische Steuer vom Bruttolohn abgezogen und die vom Arbeitgeber übernommene Quellensteuer nach der Methode der Iteration hinzugerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0032",
 "nachher": "bund-ks-45__c0034"
 },
 {
 "id": "bund-ks-45__c0034",
-"titel": "KS 45 – Abschnitt 34",
-"pfad": [],
+"titel": "Ziff. 3.2.3 Beispiel – Iterationsberechnung übernommene Quellensteuer (Hypo-Tax)",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-8
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.2.3",
+"stichworte": [
+"Beispiel",
+"Iteration",
+"Bruttolohn CHF 7 000",
+"Abzug CHF 1 750",
+"Steuersatz 12.79 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Bruttolohn CHF 7 000.00 abzüglich CHF 1 750.00 Hypo-Tax ergibt CHF 5 250.00; nach Iteration Steuersatz 12.79 %, steuerbarer Lohn CHF 6 019.95, QSt CHF 769.95.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0033",
 "nachher": "bund-ks-45__c0035"
 },
 {
 "id": "bund-ks-45__c0035",
-"titel": "KS 45 – Abschnitt 35",
-"pfad": [],
+"titel": "Ziff. 3.2.4 Entschädigung für Berufskosten",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-8
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.4",
+"stichworte": [
+"Berufskosten",
+"Fahrkosten",
+"auswärtige Verpflegung",
+"Wochenaufenthalt",
+"Expatriates",
+"Lohnausweis Rz 18"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.verpflegung",
+"abzug.berufskosten.wochenaufenthalt"
+],
+"zusammenfassung": "Zusätzliche Arbeitgeberentschädigungen für Berufskosten gehören zum steuerbaren Bruttolohn; Verpflegungsentschädigungen nicht, wenn sie nach Rz 18 Lohnausweis nicht im Bruttolohn auszuweisen sind.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0034",
 "nachher": "bund-ks-45__c0036"
 },
 {
 "id": "bund-ks-45__c0036",
-"titel": "KS 45 – Abschnitt 36",
-"pfad": [],
+"titel": "Ziff. 3.2.5 Spesenzahlungen",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-9
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.2.5",
+"stichworte": [
+"Spesen",
+"Pauschalspesen",
+"Spesenreglement",
+"Belege",
+"Reisespesen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Effektive Spesen sind nicht steuerbar (Belege aufbewahren); Pauschalspesen unterliegen der Quellensteuer, ausser sie stützen sich auf ein genehmigtes Spesenreglement.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0035",
 "nachher": "bund-ks-45__c0037"
 },
 {
 "id": "bund-ks-45__c0037",
-"titel": "KS 45 – Abschnitt 37",
-"pfad": [],
+"titel": "Ziff. 3.2.6–3.2.7 Geschäftsfahrzeuge und Naturalleistungen",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-9
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.2.6",
+"stichworte": [
+"Geschäftsauto",
+"Privatanteil",
+"Naturalleistungen",
+"Verpflegung und Unterkunft",
+"Merkblatt N2",
+"FABI"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Das Geschäftsfahrzeug erhöht den Bruttomonatslohn nach Rz 21 Lohnausweis; Naturalleistungen werden zum Marktwert nach Merkblatt N2 ESTV zugerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0036",
 "nachher": "bund-ks-45__c0038"
 },
 {
 "id": "bund-ks-45__c0038",
-"titel": "KS 45 – Abschnitt 38",
-"pfad": [],
+"titel": "Ziff. 3.2.8 Abgangsentschädigungen",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-9
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.8",
+"stichworte": [
+"Abgangsentschädigung",
+"Vorsorgecharakter",
+"Kapitalabfindung",
+"Neuberechnung bis Ende März",
+"KS 1"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Abgangsentschädigungen ohne Vorsorgecharakter sind steuerbar; mit Vorsorgecharakter bei in der Schweiz Ansässigen kein Quellensteuerabzug, bei Nichtansässigen Besteuerung nach ordentlichen Tarifcodes.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0037",
 "nachher": "bund-ks-45__c0039"
 },
 {
 "id": "bund-ks-45__c0039",
-"titel": "KS 45 – Abschnitt 39",
-"pfad": [],
+"titel": "Ziff. 3.2.9 Personalverleih und faktische Arbeitgeberschaft – steuerbare Leistungen",
+"pfad": [
+"3 Quellenbesteuerte Arbeitnehmer",
+"3.2 Steuerbare Leistungen"
+],
 "seiten": [
-9
+13,
+14,
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.2.9",
+"stichworte": [
+"Personalverleih",
+"Management Fees",
+"Verleiher",
+"Bruttolohn CHF 34.00",
+"Differenz CHF 18.00"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Steuerbar sind nur die dem Arbeitnehmer zukommenden Leistungen; im Beispiel unterliegt nur der Bruttolohn von CHF 34.00 pro Stunde, die Differenz von CHF 18.00 wird beim Verleiher besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0038",
 "nachher": "bund-ks-45__c0040"
 },
 {
 "id": "bund-ks-45__c0040",
-"titel": "KS 45 – Abschnitt 40",
-"pfad": [],
+"titel": "Ziff. 4.1 Tarifanwendung – Allgemeines, Zeitpunkt, Änderungen",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.1 Allgemeines"
+],
 "seiten": [
-9
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4.1",
+"stichworte": [
+"Tarifcode",
+"Tarifcodes A B C F H",
+"Zivilstand Änderung",
+"Heirat Scheidung Geburt",
+"Kirchenzugehörigkeit",
+"Art. 2 QStV"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der Tarifcode richtet sich nach den Verhältnissen bei Auszahlung/Fälligkeit; Änderungen wie Heirat oder Geburt gelten ab Beginn des Folgemonats.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0039",
 "nachher": "bund-ks-45__c0041"
 },
 {
 "id": "bund-ks-45__c0041",
-"titel": "KS 45 – Abschnitt 41",
-"pfad": [],
+"titel": "Ziff. 4.1 Tarifanwendung – fehlende Angaben, Mehrfachtätigkeit, Sondertarife E, G, Q (Teil 1/2)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.1 Allgemeines"
+],
 "seiten": [
-10
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4.1",
+"stichworte": [
+"Tarifcode A0Y",
+"Tarifcode C0Y",
+"fehlende Tarifeinstufung",
+"mehrere Erwerbstätigkeiten",
+"Tarifcode E",
+"Tarifcode G"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Weist sich der Arbeitnehmer nicht aus, gilt für Ledige A0Y und für Verheiratete C0Y; Vorbehalten bleiben die Tarifcodes E, G und Q.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0040",
 "nachher": "bund-ks-45__c0042"
 },
 {
 "id": "bund-ks-45__c0042",
-"titel": "KS 45 – Abschnitt 42",
-"pfad": [],
+"titel": "Ziff. 4.1 Tarifanwendung – fehlende Angaben, Mehrfachtätigkeit, Sondertarife E, G, Q (Teil 2/2)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.1 Allgemeines"
+],
 "seiten": [
-10
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4.1",
+"stichworte": [
+"Tarifcode A0Y",
+"Tarifcode C0Y",
+"fehlende Tarifeinstufung",
+"mehrere Erwerbstätigkeiten",
+"Tarifcode E",
+"Tarifcode G"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0041",
 "nachher": "bund-ks-45__c0043"
 },
 {
 "id": "bund-ks-45__c0043",
-"titel": "KS 45 – Abschnitt 43",
-"pfad": [],
+"titel": "Ziff. 4.2 Einverdiener- und Zweiverdienertarif (Tarifcodes B, C, M, N) (Teil 1/2)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.2 Einverdiener-/Zweiverdienertarif"
+],
 "seiten": [
-10
+15,
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2",
+"stichworte": [
+"Tarifcode B",
+"Tarifcode C",
+"Zweiverdienerehepaar",
+"Einverdiener",
+"Ehegatte erwerbstätig",
+"Folgemonat"
+],
+"positionen": [
+"abzug.zweiverdiener"
+],
+"zusammenfassung": "Tarifcode B gilt, wenn nur ein Ehegatte erwerbstätig ist, Tarifcode C bei Erwerbstätigkeit beider Ehegatten (Höhe der Einkünfte unerheblich); Wechsel ab dem Folgemonat.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0042",
 "nachher": "bund-ks-45__c0044"
 },
 {
 "id": "bund-ks-45__c0044",
-"titel": "KS 45 – Abschnitt 44",
-"pfad": [],
+"titel": "Ziff. 4.2 Einverdiener- und Zweiverdienertarif (Tarifcodes B, C, M, N) (Teil 2/2)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.2 Einverdiener-/Zweiverdienertarif"
+],
 "seiten": [
-10
+15,
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.2",
+"stichworte": [
+"Tarifcode B",
+"Tarifcode C",
+"Zweiverdienerehepaar",
+"Einverdiener",
+"Ehegatte erwerbstätig",
+"Folgemonat"
+],
+"positionen": [
+"abzug.zweiverdiener"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0043",
 "nachher": "bund-ks-45__c0045"
 },
 {
 "id": "bund-ks-45__c0045",
-"titel": "KS 45 – Abschnitt 45",
-"pfad": [],
+"titel": "Ziff. 4.3 Tarif für Alleinerziehende (Tarifcodes H, P) (Teil 1/2)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.3 Alleinerziehende"
+],
 "seiten": [
-10
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3",
+"stichworte": [
+"Alleinerziehende",
+"Tarifcode H",
+"Konkubinat",
+"höheres Bruttoeinkommen",
+"Kinderabzug",
+"KS 30"
+],
+"positionen": [
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Tarifcode H gilt für Alleinstehende mit Kindern im gleichen Haushalt; im Konkubinat erhält ihn der Elternteil mit dem höheren Bruttoeinkommen, im Zweifel zunächst A0.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0044",
 "nachher": "bund-ks-45__c0046"
 },
 {
 "id": "bund-ks-45__c0046",
-"titel": "KS 45 – Abschnitt 46",
-"pfad": [],
+"titel": "Ziff. 4.3 Tarif für Alleinerziehende (Tarifcodes H, P) (Teil 2/2)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.3 Alleinerziehende"
+],
 "seiten": [
-11
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.3",
+"stichworte": [
+"Alleinerziehende",
+"Tarifcode H",
+"Konkubinat",
+"höheres Bruttoeinkommen",
+"Kinderabzug",
+"KS 30"
+],
+"positionen": [
+"sozialabzug.kinder"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0045",
 "nachher": "bund-ks-45__c0047"
 },
 {
 "id": "bund-ks-45__c0047",
-"titel": "KS 45 – Abschnitt 47",
-"pfad": [],
+"titel": "Ziff. 4.4 Vereinfachtes Abrechnungsverfahren (Tarifcode E)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.4 Vereinfachtes Abrechnungsverfahren"
+],
 "seiten": [
-11
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.4",
+"stichworte": [
+"Tarifcode E",
+"Schwarzarbeit BGSA",
+"kleinere Arbeitsentgelte",
+"Haushaltshilfe",
+"Art. 37a DBG"
+],
+"positionen": [
+"einkommen.vereinfachtes_verfahren"
+],
+"zusammenfassung": "Kleinere Arbeitsentgelte im vereinfachten Abrechnungsverfahren (Art. 37a DBG, BGSA) werden mit Tarifcode E an der Quelle besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0046",
 "nachher": "bund-ks-45__c0048"
 },
 {
 "id": "bund-ks-45__c0048",
-"titel": "KS 45 – Abschnitt 48",
-"pfad": [],
+"titel": "Ziff. 4.5 Grenzgänger aus Italien (Tarifcode F)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.5 Grenzgänger aus Italien"
+],
 "seiten": [
-11
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4.5",
+"stichworte": [
+"Grenzgänger Italien",
+"Tarifcode F",
+"Tessin Wallis Graubünden",
+"Grenzgemeinde"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Tarifcode F gilt für Grenzgänger aus italienischen Grenzgemeinden mit ausserhalb der Schweiz erwerbstätigem Ehegatten, nur in TI, VS und GR.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0047",
 "nachher": "bund-ks-45__c0049"
 },
 {
 "id": "bund-ks-45__c0049",
-"titel": "KS 45 – Abschnitt 49",
-"pfad": [],
+"titel": "Ziff. 4.6 Grenzgänger aus Deutschland – Tarife L, M, N, P und Ansässigkeitsbescheinigung",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.6 Grenzgänger aus Deutschland"
+],
 "seiten": [
-11
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4.6",
+"stichworte": [
+"Grenzgänger Deutschland",
+"Tarifcode L",
+"Gre-1",
+"Ansässigkeitsbescheinigung",
+"4.5 Prozent"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Die Grenzgängertarife (höchstens 4.5 Prozent) setzen eine Ansässigkeitsbescheinigung (Gre-1/Gre-2) pro Kalenderjahr voraus, sonst gelten die ordentlichen Tarife.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0048",
 "nachher": "bund-ks-45__c0050"
 },
 {
 "id": "bund-ks-45__c0050",
-"titel": "KS 45 – Abschnitt 50",
-"pfad": [],
+"titel": "Ziff. 4.6 Grenzgänger Deutschland – Nichtrückkehrtage (Gre-3)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.6 Grenzgänger aus Deutschland"
+],
 "seiten": [
-12
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4.6",
+"stichworte": [
+"Nichtrückkehrtage",
+"60 Arbeitstage",
+"Gre-3",
+"Neuberechnung Quellensteuer"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Wer an mehr als 60 Arbeitstagen im Jahr nicht an den deutschen Wohnort zurückkehren kann (Gre-3), gilt nicht als Grenzgänger und wird nach ordentlichen Tarifen besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0049",
 "nachher": "bund-ks-45__c0051"
 },
 {
 "id": "bund-ks-45__c0051",
-"titel": "KS 45 – Abschnitt 51",
-"pfad": [],
+"titel": "Ziff. 4.7 Gewährung von Kinderabzügen",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.7 Kinderabzüge"
+],
 "seiten": [
-12
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.7",
+"stichworte": [
+"Kinderabzug",
+"Geburtsurkunde",
+"Zulagenentscheid",
+"Immatrikulationsbestätigung",
+"Erstausbildung",
+"gleicher Haushalt"
+],
+"positionen": [
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Kinderabzug für minderjährige oder in Erstausbildung stehende Kinder, für deren Unterhalt der Arbeitnehmer zur Hauptsache aufkommt; Nachweis durch Geburtsurkunde, Zulagenentscheid, Lehrvertrag etc.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0050",
 "nachher": "bund-ks-45__c0052"
 },
 {
 "id": "bund-ks-45__c0052",
-"titel": "KS 45 – Abschnitt 52",
-"pfad": [],
+"titel": "Ziff. 4.7 Beispiele Tarifcode B (Einverdiener mit Kindern)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.7 Kinderabzüge"
+],
 "seiten": [
-12
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4.7",
+"stichworte": [
+"Beispiel Tarifcode B2",
+"Wochenaufenthalter",
+"Kinderzulagen",
+"Geburtsurkunden"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele für Tarifcode B2 bei nicht erwerbstätigem Ehegatten und zwei Kindern.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0051",
 "nachher": "bund-ks-45__c0053"
 },
 {
 "id": "bund-ks-45__c0053",
-"titel": "KS 45 – Abschnitt 53",
-"pfad": [],
+"titel": "Ziff. 4.7 Beispiele Tarifcode C (Zweiverdiener mit Kindern)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.7 Kinderabzüge"
+],
 "seiten": [
-13
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4.7",
+"stichworte": [
+"Beispiel Tarifcode C2",
+"Differenzzulage",
+"Wohnsitz Ausland",
+"Gesamtsatzbesteuerung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele für Tarifcode C2 bzw. C1 bei erwerbstätigen Ehegatten, auch bei separaten Wohnsitzen in der Schweiz und im Ausland.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0052",
 "nachher": "bund-ks-45__c0054"
 },
 {
 "id": "bund-ks-45__c0054",
-"titel": "KS 45 – Abschnitt 54",
-"pfad": [],
+"titel": "Ziff. 4.7 Beispiele Tarifcode H (Alleinerziehende, Konkubinat)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.7 Kinderabzüge"
+],
 "seiten": [
-13
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4.7",
+"stichworte": [
+"Beispiel Tarifcode H1",
+"Konkubinatspartnerin",
+"Tarifcode A0",
+"Kind im Ausland"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele zu H1 und A0: H1 nur, wenn das Kind im gleichen Haushalt lebt und der Arbeitnehmer zur Hauptsache für den Unterhalt aufkommt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0053",
 "nachher": "bund-ks-45__c0055"
 },
 {
 "id": "bund-ks-45__c0055",
-"titel": "KS 45 – Abschnitt 55",
-"pfad": [],
+"titel": "Ziff. 4.8–4.9 Kirchensteuerpflicht und Härtefallregelung (Alimente)",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.8 / 4.9"
+],
 "seiten": [
-13
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.8",
+"stichworte": [
+"Kirchensteuer",
+"Härtefall",
+"Alimente",
+"Unterhaltsbeiträge",
+"betreibungsrechtliches Existenzminimum",
+"Art. 11 QStV"
+],
+"positionen": [
+"abzug.unterhaltsbeitraege",
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Auf Antrag können bei Alimentenzahlungen zur Milderung von Härtefällen Kinderabzüge im Tarif gewährt werden (Art. 11 Abs. 1 QStV); die Kirchensteuerpflicht richtet sich nach kantonalem Recht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0054",
 "nachher": "bund-ks-45__c0056"
 },
 {
 "id": "bund-ks-45__c0056",
-"titel": "KS 45 – Abschnitt 56",
-"pfad": [],
+"titel": "Ziff. 4.9 Beispiel Härtefallregelung – Alimente CHF 42 000",
+"pfad": [
+"4 Grundsätze zur Tarifanwendung",
+"4.9 Härtefallregelung"
+],
 "seiten": [
-13
+18,
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.9",
+"stichworte": [
+"Beispiel",
+"Alimente CHF 1 500",
+"Tarifcode A5N",
+"Kinderabzug CHF 8 000"
+],
+"positionen": [
+"abzug.unterhaltsbeitraege"
+],
+"zusammenfassung": "Beispiel: jährliche Unterhaltszahlungen CHF 42 000.00, Kinderabzug CHF 8 000.00 je Kind, bewilligt wird Tarifcode A5N (5 x CHF 8 000.00 = CHF 40 000.00).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0055",
 "nachher": "bund-ks-45__c0057"
 },
 {
 "id": "bund-ks-45__c0057",
-"titel": "KS 45 – Abschnitt 57",
-"pfad": [],
+"titel": "Ziff. 5 / 5.1 Abgrenzungen – Künstler, Sportler und Referenten",
+"pfad": [
+"5 Abgrenzungen",
+"5.1 Künstler, Sportler und Referenten"
+],
 "seiten": [
-13
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "5.1",
+"stichworte": [
+"Künstler",
+"Sportler",
+"Referenten",
+"30 Tage",
+"Art. 92 DBG",
+"Künstlertarif"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Künstler, Sportler und Referenten mit Ansässigkeit im Ausland unterliegen bei mindestens 30 Tagen Anstellung Art. 91 DBG, bei weniger als 30 Tagen Art. 92 DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0056",
 "nachher": "bund-ks-45__c0058"
 },
 {
 "id": "bund-ks-45__c0058",
-"titel": "KS 45 – Abschnitt 58",
-"pfad": [],
+"titel": "Ziff. 5.1 Beispiele Künstler und Sportler",
+"pfad": [
+"5 Abgrenzungen",
+"5.1 Künstler, Sportler und Referenten"
+],
 "seiten": [
-14
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "5.1",
+"stichworte": [
+"Beispiel Schauspieler",
+"Pianist",
+"Band",
+"Gurtenfestival",
+"Künstlertarif Art. 92 Abs. 2 DBG"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele: viermonatiger Vertrag = ordentliche Tarife (Art. 91 DBG); zweiwöchiger oder eintägiger Auftritt = Künstlertarif nach Art. 92 Abs. 2 DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0057",
 "nachher": "bund-ks-45__c0059"
 },
 {
 "id": "bund-ks-45__c0059",
-"titel": "KS 45 – Abschnitt 59",
-"pfad": [],
+"titel": "Ziff. 5.2 Mitarbeiterbeteiligungen",
+"pfad": [
+"5 Abgrenzungen",
+"5.2 Mitarbeiterbeteiligungen"
+],
 "seiten": [
-15
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.2",
+"stichworte": [
+"Mitarbeiterbeteiligung",
+"Mitarbeiteraktien",
+"Optionen",
+"KS 37",
+"Art. 97a DBG"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Geldwerte Vorteile aus Mitarbeiterbeteiligungen werden in der Regel zusammen mit dem übrigen Erwerbseinkommen an der Quelle besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0058",
 "nachher": "bund-ks-45__c0060"
 },
 {
 "id": "bund-ks-45__c0060",
-"titel": "KS 45 – Abschnitt 60",
-"pfad": [],
+"titel": "Ziff. 5.3 Verwaltungsratsentschädigungen",
+"pfad": [
+"5 Abgrenzungen",
+"5.3 Verwaltungsratsentschädigungen"
+],
 "seiten": [
-15
+19,
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.3",
+"stichworte": [
+"Verwaltungsrat",
+"VR-Honorar",
+"Tantiemen",
+"Sitzungsgelder",
+"Art. 93 DBG",
+"Aufsichtsfunktion"
+],
+"positionen": [
+"einkommen.unselbstaendig.vr_honorare"
+],
+"zusammenfassung": "VR-Entschädigungen von in der Schweiz Ansässigen werden nach Art. 83 DBG besteuert; bei Ansässigkeit im Ausland gilt Art. 93 DBG für Aufsichtsfunktionen, Art. 91 DBG für operative Tätigkeiten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0059",
 "nachher": "bund-ks-45__c0061"
 },
 {
 "id": "bund-ks-45__c0061",
-"titel": "KS 45 – Abschnitt 61",
-"pfad": [],
+"titel": "Ziff. 5.3 Beispiele Verwaltungsratsentschädigung und Lohn",
+"pfad": [
+"5 Abgrenzungen",
+"5.3 Verwaltungsratsentschädigungen"
+],
 "seiten": [
-15
+20,
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.3",
+"stichworte": [
+"Beispiel",
+"VR-Entschädigung CHF 5 000",
+"Bruttolohn CHF 10 000",
+"linearer Tarif"
+],
+"positionen": [
+"einkommen.unselbstaendig.vr_honorare"
+],
+"zusammenfassung": "Beispiel: VR-Entschädigung CHF 5 000.00 plus Bruttolohn CHF 10 000.00 = CHF 15 000.00 bei Ansässigkeit in der Schweiz; im Ausland getrennt (progressiver Tarif und linearer Tarif).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0060",
 "nachher": "bund-ks-45__c0062"
 },
 {
 "id": "bund-ks-45__c0062",
-"titel": "KS 45 – Abschnitt 62",
-"pfad": [],
+"titel": "Ziff. 6.1 Monatsmodell – Vorbemerkungen (Swissdec)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.1 Vorbemerkungen"
+],
 "seiten": [
-15
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.1",
+"stichworte": [
+"Swissdec",
+"zertifizierte Software",
+"Monatsmodell"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Abrechnung über Swissdec-zertifizierte Software sind deren Richtlinien massgebend, mit geringfügigen Abweichungen vom Kreisschreiben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0061",
 "nachher": "bund-ks-45__c0063"
 },
 {
 "id": "bund-ks-45__c0063",
-"titel": "KS 45 – Abschnitt 63",
-"pfad": [],
+"titel": "Ziff. 6.2 Monatsmodell – Grundsätze (Teil 1/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.2 Grundsätze"
+],
 "seiten": [
-16
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.2",
+"stichworte": [
+"Monatsmodell",
+"Steuerperiode Monat",
+"Bruttoeinkünfte Monat",
+"Fälligkeit",
+"Stundenlohn",
+"13. Monatslohn"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beim Monatsmodell ist der Monat die Steuerperiode; die Quellensteuer ergibt sich aus Bruttoeinkünften x Steuersatz des Tarifs, der 13. Monatslohn wird im Auszahlungsmonat besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0062",
 "nachher": "bund-ks-45__c0064"
 },
 {
 "id": "bund-ks-45__c0064",
-"titel": "KS 45 – Abschnitt 64",
-"pfad": [],
+"titel": "Ziff. 6.2 Monatsmodell – Grundsätze (Teil 2/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.2 Grundsätze"
+],
 "seiten": [
-16
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.2",
+"stichworte": [
+"Monatsmodell",
+"Steuerperiode Monat",
+"Bruttoeinkünfte Monat",
+"Fälligkeit",
+"Stundenlohn",
+"13. Monatslohn"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0063",
 "nachher": "bund-ks-45__c0065"
 },
 {
 "id": "bund-ks-45__c0065",
-"titel": "KS 45 – Abschnitt 65",
-"pfad": [],
+"titel": "Ziff. 6.3 Satzbestimmendes Einkommen beim 13. Monatslohn (Teil 1/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.3 Satzbestimmendes Einkommen 13. Monatslohn"
+],
 "seiten": [
-16
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.3",
+"stichworte": [
+"13. Monatslohn",
+"satzbestimmendes Einkommen",
+"25 Prozent",
+"50 Prozent",
+"100 Prozent",
+"Glättung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Bei vierteljährlicher, halbjährlicher oder jährlicher Auszahlung werden 25, 50 bzw. 100 Prozent eines vollen 13. Monatslohns zum satzbestimmenden Einkommen hinzugerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0064",
 "nachher": "bund-ks-45__c0066"
 },
 {
 "id": "bund-ks-45__c0066",
-"titel": "KS 45 – Abschnitt 66",
-"pfad": [],
+"titel": "Ziff. 6.3 Satzbestimmendes Einkommen beim 13. Monatslohn (Teil 2/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.3 Satzbestimmendes Einkommen 13. Monatslohn"
+],
 "seiten": [
-16
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6.3",
+"stichworte": [
+"13. Monatslohn",
+"satzbestimmendes Einkommen",
+"25 Prozent",
+"50 Prozent",
+"100 Prozent",
+"Glättung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0065",
 "nachher": "bund-ks-45__c0067"
 },
 {
 "id": "bund-ks-45__c0067",
-"titel": "KS 45 – Abschnitt 67",
-"pfad": [],
+"titel": "Ziff. 6.3 Beispiel 13. Monatslohn – halbjährliche Auszahlung, Austritt 31. Mai 2021",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.3 Satzbestimmendes Einkommen 13. Monatslohn"
+],
 "seiten": [
-16
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.3",
+"stichworte": [
+"Beispiel",
+"13. Monatslohn Austritt",
+"360 Tage",
+"Umrechnung 2 500 / 150 x 180"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Lohn CHF 6 000 plus anteiliger 13. Monatslohn CHF 2 500 steuerbar, satzbestimmend CHF 3 000 (2 500 / 150 x 180), total steuerbar CHF 8 500, satzbestimmend CHF 9 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0066",
 "nachher": "bund-ks-45__c0068"
 },
 {
 "id": "bund-ks-45__c0068",
-"titel": "KS 45 – Abschnitt 68",
-"pfad": [],
+"titel": "Ziff. 6.4 Teilzeit und mehrere Erwerbstätigkeiten – Umrechnungsmethode (Teil 1/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.4 Satzbestimmendes Einkommen Teilzeit"
+],
 "seiten": [
-16
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.4",
+"stichworte": [
+"Teilzeitpensum",
+"mehrere Arbeitgeber",
+"Gesamtbeschäftigungsgrad",
+"Umrechnung auf 100 Prozent",
+"Ersatzeinkünfte"
+],
+"positionen": [
+"einkommen.unselbstaendig.nebenerwerb"
+],
+"zusammenfassung": "Bei mehreren Arbeitsverhältnissen wird das satzbestimmende Einkommen auf den Gesamtbeschäftigungsgrad, ersatzweise auf 100 Prozent bzw. auf das tatsächliche Gesamteinkommen umgerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0067",
 "nachher": "bund-ks-45__c0069"
 },
 {
 "id": "bund-ks-45__c0069",
-"titel": "KS 45 – Abschnitt 69",
-"pfad": [],
+"titel": "Ziff. 6.4 Teilzeit und mehrere Erwerbstätigkeiten – Umrechnungsmethode (Teil 2/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.4 Satzbestimmendes Einkommen Teilzeit"
+],
 "seiten": [
-17
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6.4",
+"stichworte": [
+"Teilzeitpensum",
+"mehrere Arbeitgeber",
+"Gesamtbeschäftigungsgrad",
+"Umrechnung auf 100 Prozent",
+"Ersatzeinkünfte"
+],
+"positionen": [
+"einkommen.unselbstaendig.nebenerwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0068",
 "nachher": "bund-ks-45__c0070"
 },
 {
 "id": "bund-ks-45__c0070",
-"titel": "KS 45 – Abschnitt 70",
-"pfad": [],
+"titel": "Ziff. 6.4 Offenlegungspflicht, Pensum nicht bekannt, 100-Prozent-Umrechnung",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.4 Satzbestimmendes Einkommen Teilzeit"
+],
 "seiten": [
-17
+22,
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.4",
+"stichworte": [
+"Offenlegung Pensum",
+"Art. 136 DBG",
+"100 Prozent-Pensum",
+"Ersatzeinkünfte Invaliditätsgrad",
+"Hauswartstelle",
+"Tarifcode C Betrag"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Gibt der Arbeitnehmer Pensum und Lohn der anderen Tätigkeit nicht bekannt, wird jedes Arbeitsverhältnis auf ein 100-Prozent-Pensum umgerechnet; bei Ersatzeinkünften zählt der Invaliditätsgrad.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0069",
 "nachher": "bund-ks-45__c0071"
 },
 {
 "id": "bund-ks-45__c0071",
-"titel": "KS 45 – Abschnitt 71",
-"pfad": [],
+"titel": "Ziff. 6.4 Aperiodische Bestandteile, Folgemonat, Tarifcode E, Neuberechnung",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.4 Satzbestimmendes Einkommen Teilzeit"
+],
 "seiten": [
-17
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.4",
+"stichworte": [
+"aperiodische Lohnbestandteile",
+"Folgemonat",
+"Tarifcode E",
+"Neuberechnung bis 31. März",
+"nachträgliche ordentliche Veranlagung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Nur periodische Lohnbestandteile werden umgerechnet; die Umrechnung beginnt ab dem Folgemonat; Neuberechnung oder nachträgliche ordentliche Veranlagung ist bis 31. März des Folgejahres zu beantragen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0070",
 "nachher": "bund-ks-45__c0072"
 },
 {
 "id": "bund-ks-45__c0072",
-"titel": "KS 45 – Abschnitt 72",
-"pfad": [],
+"titel": "Ziff. 6.4 Beispiele 1–3 – zwei Arbeitsverhältnisse in der Schweiz",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.4 Satzbestimmendes Einkommen Teilzeit"
+],
 "seiten": [
-17
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.4",
+"stichworte": [
+"Beispiel",
+"zwei Arbeitgeber",
+"Gesamtpensum 100 %",
+"Gesamtpensum 90 %",
+"Pensum bekannt/unbekannt"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele: 50 %/50 % ergibt satzbestimmend 9 000 und 8 000; bei Gesamtpensum 90 % ohne Kenntnis 9 000 und 11 000, mit Kenntnis 8 100 und 9 900.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0071",
 "nachher": "bund-ks-45__c0073"
 },
 {
 "id": "bund-ks-45__c0073",
-"titel": "KS 45 – Abschnitt 73",
-"pfad": [],
+"titel": "Ziff. 6.4 Beispiel 4 – Pensum 70 % mit Bonus plus Pensum 30 %",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.4 Satzbestimmendes Einkommen Teilzeit"
+],
 "seiten": [
-18
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.4",
+"stichworte": [
+"Beispiel",
+"Bonus",
+"aperiodisch",
+"Pensum 70 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Lohn 70 % CHF 4 550 wird auf 6 500 umgerechnet, Bonus CHF 2 000 nicht, zweite Stelle 30 % CHF 1 200 ergibt 4 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0072",
 "nachher": "bund-ks-45__c0074"
 },
 {
 "id": "bund-ks-45__c0074",
-"titel": "KS 45 – Abschnitt 74",
-"pfad": [],
+"titel": "Ziff. 6.4 Beispiele 5–6 – Stundenlohn und gleicher Schuldner",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.4 Satzbestimmendes Einkommen Teilzeit"
+],
 "seiten": [
-18
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.4",
+"stichworte": [
+"Beispiel",
+"Stundenlohn CHF 30",
+"betriebsübliche Arbeitszeit 182 Stunden",
+"gleicher Schuldner",
+"Hauswart"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele: Stundenlohn mit 35 Stunden bei 182 Stunden betriebsüblich entspricht 19,23 % Pensum; beim gleichen Schuldner werden die Bruttolöhne addiert (satzbestimmend 5 300).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0073",
 "nachher": "bund-ks-45__c0075"
 },
 {
 "id": "bund-ks-45__c0075",
-"titel": "KS 45 – Abschnitt 75",
-"pfad": [],
+"titel": "Ziff. 6.4 Beispiele 6–7 – gleicher Schuldner, Arbeitsverhältnis im Ausland",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.4 Satzbestimmendes Einkommen Teilzeit"
+],
 "seiten": [
-18
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.4",
+"stichworte": [
+"Beispiel",
+"Arbeitgeber im Ausland",
+"Stuttgart",
+"Pensum 70 %",
+"Steuerpflicht Deutschland"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele zur Umrechnung bei zwei Tätigkeiten beim gleichen Schuldner und bei einem Arbeitsverhältnis im Ausland (Gesamtpensum 70 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0074",
 "nachher": "bund-ks-45__c0076"
 },
 {
 "id": "bund-ks-45__c0076",
-"titel": "KS 45 – Abschnitt 76",
-"pfad": [],
+"titel": "Ziff. 6.4 Beispiele 8–9 – Lohn und IV-Rente (Tarifcode G), Tätigkeit ohne Pensum",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.4 Satzbestimmendes Einkommen Teilzeit"
+],
 "seiten": [
-18
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.4",
+"stichworte": [
+"IV-Rente",
+"Tarifcode G",
+"nebenamtliche Tätigkeit",
+"kein Pensum",
+"maximales satzbestimmendes Einkommen Tarifcode C"
+],
+"positionen": [
+"einkommen.sozialversicherung.ahv_iv"
+],
+"zusammenfassung": "Beispiele: Lohn 60 % CHF 6 000 und IV-Rente 40 % CHF 2 000 (Tarifcode G) ergeben satzbestimmend 10 000 und 5 000; nebenamtliche Tätigkeit ohne Pensum satzbestimmend 5 425.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0075",
 "nachher": "bund-ks-45__c0077"
 },
 {
 "id": "bund-ks-45__c0077",
-"titel": "KS 45 – Abschnitt 77",
-"pfad": [],
+"titel": "Ziff. 6.5 Stunden- und Tageslohn – satzbestimmendes Monatseinkommen",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.5 Stunden- oder Tageslohn"
+],
 "seiten": [
-18
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.5",
+"stichworte": [
+"Stundenlohn",
+"Tageslohn",
+"180 Stunden",
+"21,667 Tage",
+"Ferienentschädigung",
+"Feiertagsentschädigung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Bei Stunden- oder Tageslohn ohne Monatszahlung wird das satzbestimmende Monatseinkommen durch Umrechnung auf 180 Stunden bzw. 21,667 Tage ermittelt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0076",
 "nachher": "bund-ks-45__c0078"
 },
 {
 "id": "bund-ks-45__c0078",
-"titel": "KS 45 – Abschnitt 78",
-"pfad": [],
+"titel": "Ziff. 6.5 Abzugszeitpunkt, Ablieferung, gewogenes Mittel, Neuberechnung",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.5 Stunden- oder Tageslohn"
+],
 "seiten": [
-19
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.5",
+"stichworte": [
+"Zeitpunkt Lohnzahlung",
+"gewogenes Mittel",
+"Ferienzuschlag",
+"monatliche Ablieferung",
+"Neuberechnung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der Quellensteuerabzug erfolgt im Zeitpunkt der Lohnzahlung, die Ablieferung monatlich; bei unterschiedlichen Ansätzen gilt das gewogene Mittel (x 180 Stunden bzw. 21.667 Tage).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0077",
 "nachher": "bund-ks-45__c0079"
 },
 {
 "id": "bund-ks-45__c0079",
-"titel": "KS 45 – Abschnitt 79",
-"pfad": [],
+"titel": "Ziff. 6.5 Beispiel 1 – Personalverleih, wöchentliche Auszahlung Stundenlohn",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.5 Stunden- oder Tageslohn"
+],
 "seiten": [
-19
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.5",
+"stichworte": [
+"Beispiel",
+"Personalverleih",
+"wöchentliche Lohnzahlung",
+"152 Stunden",
+"Quellensteuer CHF 642.35"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: 152 Stunden zu CHF 32.00–40.00 pro Stunde, wöchentliche Auszahlung; je Woche wird x 180 umgerechnet, Total Lohn CHF 5 319 und Quellensteuer CHF 642.35.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0078",
 "nachher": "bund-ks-45__c0080"
 },
 {
 "id": "bund-ks-45__c0080",
-"titel": "KS 45 – Abschnitt 80",
-"pfad": [],
+"titel": "Ziff. 6.5 Beispiel 2 – Tageslohn und Stundenlohn bei zwei Arbeitgebern",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.5 Stunden- oder Tageslohn"
+],
 "seiten": [
-19
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.5",
+"stichworte": [
+"Beispiel",
+"Abrufarbeit",
+"Tagesentschädigung CHF 190",
+"betriebsübliche Arbeitszeit",
+"zwei Arbeitgeber"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Tagesentschädigung CHF 190.00 an 11 Tagen (x 21,667) bei der P. AG und 70 Stunden zu CHF 22.00 bei der R. AG (Pensum 38,46 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0079",
 "nachher": "bund-ks-45__c0081"
 },
 {
 "id": "bund-ks-45__c0081",
-"titel": "KS 45 – Abschnitt 81",
-"pfad": [],
+"titel": "Ziff. 6.5 Beispiel 3 – Reinigungskraft im Stundenlohn plus Monatslohn 50 %",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.5 Stunden- oder Tageslohn"
+],
 "seiten": [
-19
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.5",
+"stichworte": [
+"Beispiel",
+"Reinigungskraft",
+"Stundenlohn CHF 23",
+"Monatslohn CHF 2 400",
+"Pensum 50 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: 70 Stunden zu CHF 23.00 (satzbestimmend 4 140, Satz 7.5 %) und 50 % Monatslohn CHF 2 400 (satzbestimmend 4 800, Satz 9.5 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0080",
 "nachher": "bund-ks-45__c0082"
 },
 {
 "id": "bund-ks-45__c0082",
-"titel": "KS 45 – Abschnitt 82",
-"pfad": [],
+"titel": "Ziff. 6.5 Beispiele 4–5 – Kurzeinsatz und Abrechnung über mehrere Wochen",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.5 Stunden- oder Tageslohn"
+],
 "seiten": [
-20
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.5",
+"stichworte": [
+"Beispiel",
+"Stundenlohn CHF 35",
+"72 Stunden",
+"195 Stunden",
+"Abrechnung 5 Wochen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele: 72 Stunden zu CHF 35.00 ergeben satzbestimmend 6 300 und Quellensteuer CHF 327.60; Stundenabrechnungen über mehrere Wochen werden je Abrechnung auf 180 Stunden umgerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0081",
 "nachher": "bund-ks-45__c0083"
 },
 {
 "id": "bund-ks-45__c0083",
-"titel": "KS 45 – Abschnitt 83",
-"pfad": [],
+"titel": "Ziff. 6.5 Beispiel 6 – Stundenlohn mit Krankentaggeld und Familienzulage",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.5 Stunden- oder Tageslohn"
+],
 "seiten": [
-21
+27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.5",
+"stichworte": [
+"Beispiel",
+"Krankentaggeld",
+"Familienzulage",
+"Nachzahlung",
+"Stundenlohn"
+],
+"positionen": [
+"einkommen.ersatz.taggelder",
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "Beispiel: Lohn CHF 2 625, Taggeld CHF 2 000 und Familienzulage CHF 1 200 (inkl. Nachzahlung) ergeben total steuerbar CHF 5 825 und satzbestimmend CHF 7 500.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0082",
 "nachher": "bund-ks-45__c0084"
 },
 {
 "id": "bund-ks-45__c0084",
-"titel": "KS 45 – Abschnitt 84",
-"pfad": [],
+"titel": "Ziff. 6.6 Untermonatige Ein- und Austritte – Umrechnung auf 30 Tage",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.6 Untermonatige Ein- und Austritte"
+],
 "seiten": [
-21
+27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Eintritt im Monat",
+"Austritt im Monat",
+"30 Kalendertage",
+"periodische Lohnbestandteile",
+"aperiodisch"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Im Ein- oder Austrittsmonat werden nur die periodischen Lohnbestandteile auf 30 Kalendertage umgerechnet; aperiodische Bestandteile werden danach hinzugerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0083",
 "nachher": "bund-ks-45__c0085"
 },
 {
 "id": "bund-ks-45__c0085",
-"titel": "KS 45 – Abschnitt 85",
-"pfad": [],
+"titel": "Ziff. 6.6 Spezialfälle Anzahl Tage im Ein- oder Austrittsmonat",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.6 Untermonatige Ein- und Austritte"
+],
 "seiten": [
-21
+27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Anzahl Tage",
+"Eintritt 31. März",
+"Schaltjahr",
+"Sozialversicherungstage",
+"Austritt 27. Februar"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Tabelle der Tagesanzahl bei Ein-/Austritt Ende Monat, z.B. Eintritt 31. März = 1 Tag, Eintritt 27. Februar 2023 = 4 Tage, Austritt 27. Februar 2023 = 27 Tage.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0084",
 "nachher": "bund-ks-45__c0086"
 },
 {
 "id": "bund-ks-45__c0086",
-"titel": "KS 45 – Abschnitt 86",
-"pfad": [],
+"titel": "Ziff. 6.6 Aperiodische Leistungen und Beispiel 1 (Austritt 16. März 2022)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.6 Untermonatige Ein- und Austritte"
+],
 "seiten": [
-21
+27,
+28
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"aperiodische Leistungen",
+"Überzeitentschädigung",
+"Ferienguthaben",
+"Abgangsentschädigung",
+"Beispiel Austritt"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Aperiodisch sind u.a. Überzeit, Ferienentschädigung, Boni, Gratifikationen und Abgangsentschädigungen; im Beispiel wird CHF 3 500 auf 6 562.50 umgerechnet (3 500 / 16 x 30), Total satzbestimmend CHF 12 562.50.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0085",
 "nachher": "bund-ks-45__c0087"
 },
 {
 "id": "bund-ks-45__c0087",
-"titel": "KS 45 – Abschnitt 87",
-"pfad": [],
+"titel": "Ziff. 6.6 Beispiel 2 – Austritt bei einer von zwei Stellen mit Abgangsentschädigung",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.6 Untermonatige Ein- und Austritte"
+],
 "seiten": [
-21
+28
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Beispiel",
+"zwei Arbeitgeber",
+"Austritt 15. März",
+"Abgangsentschädigung CHF 500",
+"Anteil 13. Monatslohn"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Umrechnung Austritt auf 30 Tage und anschliessend auf Gesamtpensum 90 %; Total Satzbestimmung bei der C. AG CHF 9 500 inkl. Abgangsentschädigung CHF 500.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0086",
 "nachher": "bund-ks-45__c0088"
 },
 {
 "id": "bund-ks-45__c0088",
-"titel": "KS 45 – Abschnitt 88",
-"pfad": [],
+"titel": "Ziff. 6.6 Beispiele 13. Monatslohn 3 – halbjährliche Auszahlung, Austritt 15. Juni 2021",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.6 Untermonatige Ein- und Austritte"
+],
 "seiten": [
-22
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Beispiel",
+"13. Monatslohn halbjährlich",
+"Austritt 15. Juni",
+"2 750 / 165 x 180"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: periodische Lohnzahlung CHF 3 000 ergibt satzbestimmend 6 000, 13. Monatslohn CHF 2 750 ergibt 3 000; Total satzbestimmend CHF 9 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0087",
 "nachher": "bund-ks-45__c0089"
 },
 {
 "id": "bund-ks-45__c0089",
-"titel": "KS 45 – Abschnitt 89",
-"pfad": [],
+"titel": "Ziff. 6.6 Beispiel 4 – vierteljährliche Auszahlung 13. Monatslohn, Austritt 15. Oktober 2021",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.6 Untermonatige Ein- und Austritte"
+],
 "seiten": [
-22
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Beispiel",
+"13. Monatslohn vierteljährlich",
+"Austritt 15. Oktober",
+"250 / 15 x 90"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: 13. Monatslohn CHF 250 pro rata ergibt satzbestimmend CHF 1 500 (250 / 15 x 90); Total satzbestimmend CHF 7 500.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0088",
 "nachher": "bund-ks-45__c0090"
 },
 {
 "id": "bund-ks-45__c0090",
-"titel": "KS 45 – Abschnitt 90",
-"pfad": [],
+"titel": "Ziff. 6.6 Beispiel 5 – Ein- und Austritt im selben Jahr, halbjährliche Auszahlung",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.6 Untermonatige Ein- und Austritte"
+],
 "seiten": [
-22
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Beispiel",
+"Eintritt 1. Februar",
+"Austritt 15. Juni",
+"2 250 / 135 x 180"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Eintritt 1. Februar, Austritt 15. Juni 2021; 13. Monatslohn CHF 2 250 ergibt satzbestimmend CHF 3 000, Total satzbestimmend CHF 9 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0089",
 "nachher": "bund-ks-45__c0091"
 },
 {
 "id": "bund-ks-45__c0091",
-"titel": "KS 45 – Abschnitt 91",
-"pfad": [],
+"titel": "Ziff. 6.6 Beispiel 6 – jährliche Auszahlung 13. Monatslohn, Austritt 15. Dezember 2021",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.6 Untermonatige Ein- und Austritte"
+],
 "seiten": [
-22
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Beispiel",
+"13. Monatslohn jährlich",
+"Austritt 15. Dezember",
+"5 750 / 345 x 360"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: 13. Monatslohn CHF 5 750 ergibt satzbestimmend CHF 6 000 (5 750 / 345 x 360); Total steuerbar CHF 8 750, satzbestimmend CHF 12 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0090",
 "nachher": "bund-ks-45__c0092"
 },
 {
 "id": "bund-ks-45__c0092",
-"titel": "KS 45 – Abschnitt 92",
-"pfad": [],
+"titel": "Ziff. 6.6 Beispiel 7 – jährliche Auszahlung 13. Monatslohn, Ein- und Austritt im Jahr",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.6 Untermonatige Ein- und Austritte"
+],
 "seiten": [
-23
+30
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Beispiel",
+"Eintritt 1. April",
+"Austritt 15. Oktober",
+"3 250 / 195 x 360"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: 13. Monatslohn CHF 3 250 ergibt satzbestimmend CHF 6 000 (3 250 / 195 x 360), periodischer Lohn CHF 3 000 ergibt 6 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0091",
 "nachher": "bund-ks-45__c0093"
 },
 {
 "id": "bund-ks-45__c0093",
-"titel": "KS 45 – Abschnitt 93",
-"pfad": [],
+"titel": "Ziff. 6.7 Ausscheidung ausländischer Arbeitstage – Ansässige und Monteurklausel",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.7 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-23
+30
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.7",
+"stichworte": [
+"Arbeitstage im Ausland",
+"Monteurklausel",
+"Art. 15 OECD-MA",
+"Ausscheidung",
+"Ansässigkeit Schweiz"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "In der Schweiz Ansässige sind grundsätzlich auch für Arbeitstage im Ausland steuerpflichtig, ausser das DBA weist die Steuerbefugnis dem Tätigkeitsstaat zu (Monteurklausel nicht erfüllt).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0092",
 "nachher": "bund-ks-45__c0094"
 },
 {
 "id": "bund-ks-45__c0094",
-"titel": "KS 45 – Abschnitt 94",
-"pfad": [],
+"titel": "Ziff. 6.7 Ausscheidungsregeln – 20 Arbeitstage pro Monat, 240 pro Jahr",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.7 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-23
+30
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.7",
+"stichworte": [
+"20 Arbeitstage pro Monat",
+"240 Arbeitstage pro Jahr",
+"Ferientage",
+"Hin- und Rückreisetage",
+"Wochenaufenthalter"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Schweizer Arbeitstage ergeben sich aus 20 Arbeitstagen pro Monat bzw. 240 pro Jahr abzüglich ausländischer Arbeitstage; Ferien- und Krankheitstage werden nicht ausgeschieden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0093",
 "nachher": "bund-ks-45__c0095"
 },
 {
 "id": "bund-ks-45__c0095",
-"titel": "KS 45 – Abschnitt 95",
-"pfad": [],
+"titel": "Ziff. 6.7 Beispiel 1 – 5 Arbeitstage in Österreich, Bruttolohn CHF 8 000",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.7 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-24
+30
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.7",
+"stichworte": [
+"Beispiel",
+"Wochenaufenthalter",
+"Ausscheidungsverhältnis 15/20",
+"CHF 8 000 / 20 x 15"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Bruttolohn CHF 8 000.00, 5 ausländische Arbeitstage, Ausscheidung 15/20; steuerbar CHF 6 000.00, satzbestimmend CHF 8 000.00.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0094",
 "nachher": "bund-ks-45__c0096"
 },
 {
 "id": "bund-ks-45__c0096",
-"titel": "KS 45 – Abschnitt 96",
-"pfad": [],
+"titel": "Ziff. 6.7 Beispiel 2 – Lohn mit Bonus Vorjahr, Ausscheidung",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.7 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-24
+31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.7",
+"stichworte": [
+"Beispiel",
+"Bonus Vorjahr",
+"Grossbritannien",
+"200 von 240 Arbeitstagen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Lohn CHF 10 000 (16/20 = CHF 8 000) plus Bonus Vorjahr CHF 30 000 (200/240 = CHF 25 000); total steuerbar CHF 33 000, satzbestimmend CHF 40 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0095",
 "nachher": "bund-ks-45__c0097"
 },
 {
 "id": "bund-ks-45__c0097",
-"titel": "KS 45 – Abschnitt 97",
-"pfad": [],
+"titel": "Ziff. 6.7 Kalendarium und nachträgliche Korrektur der Ausscheidung",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.7 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-24
+31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.7",
+"stichworte": [
+"Kalendarium",
+"ELM-QSt",
+"Neuberechnung bis 31. März",
+"Unterschrift Arbeitnehmer und Arbeitgeber",
+"nachträgliche Korrektur"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Die massgebenden Arbeitstage sind in einem Kalendarium festzuhalten und der Abrechnung beizulegen; Neuberechnung ist bis 31. März des Folgejahres mit unterzeichnetem Kalendarium zu beantragen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0096",
 "nachher": "bund-ks-45__c0098"
 },
 {
 "id": "bund-ks-45__c0098",
-"titel": "KS 45 – Abschnitt 98",
-"pfad": [],
+"titel": "Ziff. 6.8 Leistungen vor Antritt des Arbeitsverhältnisses (Sign-on-Bonus)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.8 Leistungen vor Antritt"
+],
 "seiten": [
-25
+31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.8",
+"stichworte": [
+"Sign-on-Bonus",
+"Antrittsprämie",
+"vor Antritt",
+"Art. 17 DBG",
+"Neuberechnung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Vor Antritt ausgerichtete Entschädigungen wie ein Sign-on-Bonus unterliegen der Quellensteuer nach den Verhältnissen im Zeitpunkt der Ausrichtung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0097",
 "nachher": "bund-ks-45__c0099"
 },
 {
 "id": "bund-ks-45__c0099",
-"titel": "KS 45 – Abschnitt 99",
-"pfad": [],
+"titel": "Ziff. 6.9 Leistungen bei Beendigung – fällige Ansprüche (Überzeit, Ferien)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.9 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-25
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.9",
+"stichworte": [
+"Beendigung Arbeitsverhältnis",
+"Ferienguthaben",
+"Überzeitguthaben",
+"letzter Arbeitsmonat",
+"Anrechnung bezahlte Quellensteuer"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Beendigung fällige, später ausbezahlte Leistungen werden zusammen mit dem letzten Arbeitsmonat besteuert, bereits abgezogene Quellensteuern werden angerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0098",
 "nachher": "bund-ks-45__c0100"
 },
 {
 "id": "bund-ks-45__c0100",
-"titel": "KS 45 – Abschnitt 100",
-"pfad": [],
+"titel": "Ziff. 6.9 Leistungen mit Rechtsanspruch erst nach Beendigung (Bonus, Abgangsentschädigung)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.9 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-25
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.9",
+"stichworte": [
+"nachträglicher Bonus",
+"Rechtsanspruch nach Austritt",
+"separate Berechnung",
+"Auszahlungsmonat",
+"letzter Bruttomonatslohn"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Leistungen, auf die der Anspruch erst nach Beendigung entsteht, werden separat nach den Verhältnissen im Auszahlungsmonat besteuert; zur Satzbestimmung kann der letzte Bruttomonatslohn dienen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0099",
 "nachher": "bund-ks-45__c0101"
 },
 {
 "id": "bund-ks-45__c0101",
-"titel": "KS 45 – Abschnitt 101",
-"pfad": [],
+"titel": "Ziff. 6.9 Lohnfortzahlung bei Freistellung – Ansässigkeit im Ausland",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.9 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-25
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.9",
+"stichworte": [
+"Freistellung",
+"Kündigung",
+"Lohnfortzahlung",
+"reduzierter Bruttolohn",
+"Grenzgänger Deutschland"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Lohnfortzahlungen an einen freigestellten Arbeitnehmer mit Ansässigkeit im Ausland sind an der Quelle zu besteuern, auf einem reduzierten Bruttolohn, wenn die Arbeit mutmasslich im Ausland geleistet worden wäre.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0100",
 "nachher": "bund-ks-45__c0102"
 },
 {
 "id": "bund-ks-45__c0102",
-"titel": "KS 45 – Abschnitt 102",
-"pfad": [],
+"titel": "Ziff. 6.9 Beispiel 1 – nachträglich ausbezahlte Ferienguthaben",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.9 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-26
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.9",
+"stichworte": [
+"Beispiel",
+"Ferienguthaben CHF 500",
+"Quellensteuer CHF 107.65",
+"Anrechnung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Lohn CHF 5 500 plus Ferienguthaben CHF 500 = CHF 6 000, Quellensteuer CHF 757.20 abzüglich bezahlte CHF 649.55 ergibt CHF 107.65 geschuldet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0101",
 "nachher": "bund-ks-45__c0103"
 },
 {
 "id": "bund-ks-45__c0103",
-"titel": "KS 45 – Abschnitt 103",
-"pfad": [],
+"titel": "Ziff. 6.9 Beispiel 2 – Bonus nach Austritt, Ansässigkeit in Österreich (Teil 1/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.9 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-26
+33
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.9",
+"stichworte": [
+"Beispiel",
+"Bonus CHF 15 000",
+"Ansässigkeit Österreich",
+"66 von 220 Arbeitstagen",
+"CHF 10 500"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Bonus CHF 15 000 nur im Umfang von CHF 10 500 (15 000 / 220 x 154) zum Satz auf CHF 23 000 steuerbar; Quellensteuer geschuldet April 2022 CHF 2 835.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0102",
 "nachher": "bund-ks-45__c0104"
 },
 {
 "id": "bund-ks-45__c0104",
-"titel": "KS 45 – Abschnitt 104",
-"pfad": [],
+"titel": "Ziff. 6.9 Beispiel 2 – Bonus nach Austritt, Ansässigkeit in Österreich (Teil 2/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.9 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-26
+33
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.9",
+"stichworte": [
+"Beispiel",
+"Bonus CHF 15 000",
+"Ansässigkeit Österreich",
+"66 von 220 Arbeitstagen",
+"CHF 10 500"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0103",
 "nachher": "bund-ks-45__c0105"
 },
 {
 "id": "bund-ks-45__c0105",
-"titel": "KS 45 – Abschnitt 105",
-"pfad": [],
+"titel": "Ziff. 6.9 Beispiel 3 – Bonus an Grenzgänger aus Deutschland (4.5 %)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.9 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-26
+33
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.9",
+"stichworte": [
+"Beispiel",
+"Grenzgänger Deutschland",
+"Bonus CHF 21 000",
+"Satz 4.5 %",
+"Art. 15a DBA-D"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Bonus CHF 21 000 an einen Grenzgänger wird zum Satz von maximal 4.5 % besteuert; geschuldet CHF 945, bezahlt im November CHF 360.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0104",
 "nachher": "bund-ks-45__c0106"
 },
 {
 "id": "bund-ks-45__c0106",
-"titel": "KS 45 – Abschnitt 106",
-"pfad": [],
+"titel": "Ziff. 6.9 Beispiele 4–5 – Gre-3 und Lohnfortzahlung bei Freistellung (Italien)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.9 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-27
+33
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.9",
+"stichworte": [
+"Beispiel",
+"Gre-3 Nichtrückkehrtage",
+"Freistellung",
+"Ansässigkeit Italien",
+"CHF 7 000 / 240 x 180"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 5: Bruttolohn CHF 7 000 bei Freistellung; steuerbar je Monat CHF 5 250.00 (7 000 / 240 x 180 Schweizer Arbeitstage), Satz auf CHF 7 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0105",
 "nachher": "bund-ks-45__c0107"
 },
 {
 "id": "bund-ks-45__c0107",
-"titel": "KS 45 – Abschnitt 107",
-"pfad": [],
+"titel": "Ziff. 6.10 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.10 Ersatzeinkünfte über Arbeitgeber"
+],
 "seiten": [
-27
+34
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.10",
+"stichworte": [
+"Taggeld an Arbeitgeber",
+"Unfalltaggeld",
+"Ersatzeinkünfte",
+"Tarifcode A0",
+"Versicherung"
+],
+"positionen": [
+"einkommen.ersatz.taggelder"
+],
+"zusammenfassung": "Taggelder, die die Versicherung dem Arbeitgeber überweist, werden vom Arbeitgeber zusammen mit dem Lohn besteuert; im Beispiel CHF 4 500 plus CHF 1 000 = CHF 5 500 mit Tarifcode A0.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0106",
 "nachher": "bund-ks-45__c0108"
 },
 {
 "id": "bund-ks-45__c0108",
-"titel": "KS 45 – Abschnitt 108",
-"pfad": [],
+"titel": "Ziff. 6.11 Ersatzeinkünfte direkt an Arbeitnehmer (Tarifcode G / Q)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.11 Ersatzeinkünfte direkt ausbezahlt"
+],
 "seiten": [
-27
+34
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.11",
+"stichworte": [
+"Tarifcode G",
+"Tarifcode Q",
+"Taggeld direkt",
+"Ausgleichskasse",
+"Arbeitslosenkasse",
+"versicherter Verdienst"
+],
+"positionen": [
+"einkommen.ersatz.taggelder"
+],
+"zusammenfassung": "Direkt ausbezahlte Ersatzeinkünfte werden vom Leistungserbringer mit Tarifcode G (Grenzgänger Deutschland: Q) besteuert; bei Verdienstbezug gilt der versicherte Verdienst als satzbestimmend.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0107",
 "nachher": "bund-ks-45__c0109"
 },
 {
 "id": "bund-ks-45__c0109",
-"titel": "KS 45 – Abschnitt 109",
-"pfad": [],
+"titel": "Ziff. 6.11 Beispiel – Krankentaggeld für 12 Tage und Teilzeitlohn",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.11 Ersatzeinkünfte direkt ausbezahlt"
+],
 "seiten": [
-27
+34
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.11",
+"stichworte": [
+"Beispiel",
+"Krankentaggeld CHF 1 800",
+"12 Kalendertage",
+"Pensum 60 %"
+],
+"positionen": [
+"einkommen.ersatz.taggelder"
+],
+"zusammenfassung": "Beispiel: Krankentaggeld CHF 1 800 für 12 Tage (40 %) ergibt satzbestimmend CHF 4 500 (Tarifcode G); Lohn CHF 3 000 bei 60 % ergibt CHF 5 000 (Tarifcode A0).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0108",
 "nachher": "bund-ks-45__c0110"
 },
 {
 "id": "bund-ks-45__c0110",
-"titel": "KS 45 – Abschnitt 110",
-"pfad": [],
+"titel": "Ziff. 6.12 Kapitalabfindungen für wiederkehrende Leistungen (Teil 1/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.12 Kapitalabfindungen wiederkehrende Leistungen"
+],
 "seiten": [
-28
+34,
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.12",
+"stichworte": [
+"Kapitalabfindung",
+"Nachzahlung Familienzulagen",
+"wiederkehrende Leistungen",
+"keine Umrechnung",
+"Neuberechnung"
+],
+"positionen": [
+"einkommen.kapitalabfindung_wiederkehrend",
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "Kapitalabfindungen für wiederkehrende Leistungen werden im Auszahlungsmonat zusammen mit dem Lohn besteuert und für die Satzbestimmung nicht umgerechnet; Beispiel Mai 2022: Lohn CHF 4 800 plus Nachzahlung CHF 1 200 = CHF 6 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0109",
 "nachher": "bund-ks-45__c0111"
 },
 {
 "id": "bund-ks-45__c0111",
-"titel": "KS 45 – Abschnitt 111",
-"pfad": [],
+"titel": "Ziff. 6.12 Kapitalabfindungen für wiederkehrende Leistungen (Teil 2/2)",
+"pfad": [
+"6 Berechnung nach dem Monatsmodell",
+"6.12 Kapitalabfindungen wiederkehrende Leistungen"
+],
 "seiten": [
-28
+34,
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6.12",
+"stichworte": [
+"Kapitalabfindung",
+"Nachzahlung Familienzulagen",
+"wiederkehrende Leistungen",
+"keine Umrechnung",
+"Neuberechnung"
+],
+"positionen": [
+"einkommen.kapitalabfindung_wiederkehrend",
+"einkommen.ersatz.familienzulagen"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0110",
 "nachher": "bund-ks-45__c0112"
 },
 {
 "id": "bund-ks-45__c0112",
-"titel": "KS 45 – Abschnitt 112",
-"pfad": [],
+"titel": "Ziff. 7.1 Jahresmodell – Vorbemerkungen (Swissdec, 13. Monatslohn)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.1 Vorbemerkungen"
+],
 "seiten": [
-29
+36
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.1",
+"stichworte": [
+"Jahresmodell",
+"Swissdec",
+"13. Monatslohn Realisationsprinzip",
+"satzbestimmendes Einkommen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Swissdec-Software gelten deren Richtlinien; der 13. Monatslohn wird im Jahresmodell erst bei Auszahlung berücksichtigt (Realisationsprinzip).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0111",
 "nachher": "bund-ks-45__c0113"
 },
 {
 "id": "bund-ks-45__c0113",
-"titel": "KS 45 – Abschnitt 113",
-"pfad": [],
+"titel": "Ziff. 7.2 Jahresmodell – Grundsätze (Kalenderjahr als Steuerperiode)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.2 Grundsätze"
+],
 "seiten": [
-29
+36
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.2",
+"stichworte": [
+"Kalenderjahr Steuerperiode",
+"monatlicher Abzug",
+"satzbestimmendes Jahreseinkommen",
+"Stundenlohn"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Im Jahresmodell ist das Kalenderjahr Steuerperiode; die Quellensteuer wird monatlich einbehalten, der Satz bestimmt sich nach dem gesamten Jahreseinkommen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0112",
 "nachher": "bund-ks-45__c0114"
 },
 {
 "id": "bund-ks-45__c0114",
-"titel": "KS 45 – Abschnitt 114",
-"pfad": [],
+"titel": "Ziff. 7.2 Vergütungen für andere Perioden (DBA) und Korrektur am Jahresende",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.2 Grundsätze"
+],
 "seiten": [
-29
+36
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.2",
+"stichworte": [
+"Bonus andere Periode",
+"DBA Einschränkungen",
+"Korrektur im Dezember",
+"Ende Arbeitsverhältnis",
+"Grenzgängerregelung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der Arbeitgeber darf Korrekturen beim satzbestimmenden Jahreseinkommen erst im Dezember bzw. am Ende des Arbeitsverhältnisses vornehmen und bereits abgezogene Steuern anrechnen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0113",
 "nachher": "bund-ks-45__c0115"
 },
 {
 "id": "bund-ks-45__c0115",
-"titel": "KS 45 – Abschnitt 115",
-"pfad": [],
+"titel": "Ziff. 7.2 Die vier Schritte zur Berechnung des monatlichen Quellensteuerabzugs",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.2 Grundsätze"
+],
 "seiten": [
-29
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.2",
+"stichworte": [
+"vier Schritte",
+"Bemessungsgrundlage",
+"satzbestimmendes Jahreseinkommen",
+"Tarifcode",
+"Steuersatz"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Vier Schritte: Bemessungsgrundlage ermitteln, satzbestimmendes Jahreseinkommen, Tarifcode festlegen, Bemessungsgrundlage mit dem jährlichen Steuersatz multiplizieren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0114",
 "nachher": "bund-ks-45__c0116"
 },
 {
 "id": "bund-ks-45__c0116",
-"titel": "KS 45 – Abschnitt 116",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Satzbestimmendes Jahreseinkommen – Grundsatz und Beispiel 1 (gleichbleibender Lohn)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-30
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.1",
+"stichworte": [
+"Beispiel",
+"Jahreseinkommen CHF 60 000",
+"Tarifcode A0",
+"Steuersatz 9,5 %",
+"gleichbleibender Lohn"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 1: Monatslohn CHF 5 000 (Jahr CHF 60 000), Tarifcode A0, Steuersatz 9,5 %, Quellensteuer CHF 475 pro Monat bzw. CHF 5 700 pro Jahr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0115",
 "nachher": "bund-ks-45__c0117"
 },
 {
 "id": "bund-ks-45__c0117",
-"titel": "KS 45 – Abschnitt 117",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Jahresendberechnung und Anpassung der monatlichen Abzüge",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-30
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.1",
+"stichworte": [
+"Jahresende Neuberechnung",
+"Gehaltsänderungen",
+"Boni Prämien",
+"bekannter 13. Monatslohn"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Am Jahresende bzw. Ende des Arbeitsverhältnisses wird die Quellensteuer auf dem gesamten Jahreseinkommen nochmals berechnet; ein bekannter 13. Monatslohn kann ab Januar berücksichtigt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0116",
 "nachher": "bund-ks-45__c0118"
 },
 {
 "id": "bund-ks-45__c0118",
-"titel": "KS 45 – Abschnitt 118",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Beispiel 2 – 13. Monatslohn im Dezember",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-30
+38
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.1",
+"stichworte": [
+"Beispiel",
+"13. Monatslohn Dezember",
+"Jahreseinkommen CHF 65 000",
+"Steuersatz 10,4 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 2: Jahreseinkommen CHF 65 000 (12 x CHF 5 000 + 13. Monatslohn), Steuersatz 10,4 %, Quellensteuer CHF 520 pro Monat, im Dezember CHF 1 040, Jahr CHF 6 760.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0117",
 "nachher": "bund-ks-45__c0119"
 },
 {
 "id": "bund-ks-45__c0119",
-"titel": "KS 45 – Abschnitt 119",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Beispiel 3 – halbjährliche Auszahlung 13. Monatslohn",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-30
+38
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.1",
+"stichworte": [
+"Beispiel",
+"13. Monatslohn Juni und Dezember",
+"Jahreseinkommen CHF 65 000",
+"Steuersatz 10,4 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 3: halbjährliche Auszahlung (Juni/Dezember) bei Jahreseinkommen CHF 65 000; Quellensteuer CHF 520 pro Monat, CHF 780 im Juni und Dezember, Jahr CHF 6 760.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0118",
 "nachher": "bund-ks-45__c0120"
 },
 {
 "id": "bund-ks-45__c0120",
-"titel": "KS 45 – Abschnitt 120",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Beispiel 4 – Lohnänderung im Verlauf des Kalenderjahres (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-30
+38,
+39
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.1",
+"stichworte": [
+"Beispiel",
+"Lohnänderung",
+"Korrektur Quellensteuerabzug",
+"Jahreseinkommen CHF 72 000",
+"Steuersatz 11,5 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 4: Jahresbruttoeinkommen CHF 72 000 mit Lohnerhöhungen; Quellensteuer total CHF 8 280 inkl. Korrekturen für Januar–April und Mai–Oktober.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0119",
 "nachher": "bund-ks-45__c0121"
 },
 {
 "id": "bund-ks-45__c0121",
-"titel": "KS 45 – Abschnitt 121",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Beispiel 4 – Lohnänderung im Verlauf des Kalenderjahres (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-31
+38,
+39
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.1",
+"stichworte": [
+"Beispiel",
+"Lohnänderung",
+"Korrektur Quellensteuerabzug",
+"Jahreseinkommen CHF 72 000",
+"Steuersatz 11,5 %"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0120",
 "nachher": "bund-ks-45__c0122"
 },
 {
 "id": "bund-ks-45__c0122",
-"titel": "KS 45 – Abschnitt 122",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Beispiel 5 – Bonus CHF 8 000 im April (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-31
+39
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.1",
+"stichworte": [
+"Beispiel",
+"Bonus",
+"aperiodisch",
+"Jahreseinkommen CHF 73 000",
+"Steuersatz 11,7 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 5: unbekannter Bonus von CHF 8 000 im April hebt das satzbestimmende Jahreseinkommen auf CHF 73 000 (Satz 11,7 %); Korrektur Januar–März, Quellensteuer total CHF 8 541.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0121",
 "nachher": "bund-ks-45__c0123"
 },
 {
 "id": "bund-ks-45__c0123",
-"titel": "KS 45 – Abschnitt 123",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Beispiel 5 – Bonus CHF 8 000 im April (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-31
+39
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.1",
+"stichworte": [
+"Beispiel",
+"Bonus",
+"aperiodisch",
+"Jahreseinkommen CHF 73 000",
+"Steuersatz 11,7 %"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0122",
 "nachher": "bund-ks-45__c0124"
 },
 {
 "id": "bund-ks-45__c0124",
-"titel": "KS 45 – Abschnitt 124",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Umrechnung auf 360 Tage – periodische und aperiodische Leistungen",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-31
+40
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.1",
+"stichworte": [
+"360 Tage",
+"aperiodische Leistungen",
+"Überzeitentschädigung",
+"Boni",
+"Abgangsentschädigung",
+"Verwaltungsratshonorare"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Teilzeit, Stunden-/Tageslohn oder unterjährigen Verhältnissen werden nur periodische Leistungen auf 360 Tage umgerechnet; aperiodisch sind u.a. Überzeit, Ferienentschädigung, Boni, Prämien, VR-Honorare und Abgangsentschädigungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0123",
 "nachher": "bund-ks-45__c0125"
 },
 {
 "id": "bund-ks-45__c0125",
-"titel": "KS 45 – Abschnitt 125",
-"pfad": [],
+"titel": "Ziff. 7.3.2 Teilzeit und mehrere Erwerbstätigkeiten – Umrechnungsmethode (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.2 Teilzeit-Erwerbstätigkeiten"
+],
 "seiten": [
-32
+40
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.2",
+"stichworte": [
+"Teilzeit",
+"mehrere Arbeitgeber",
+"Gesamtbeschäftigungsgrad",
+"Umrechnung 100 Prozent",
+"Ersatzeinkünfte"
+],
+"positionen": [
+"einkommen.unselbstaendig.nebenerwerb"
+],
+"zusammenfassung": "Bei mehreren Arbeitsverhältnissen wird das satzbestimmende Jahreseinkommen auf den Gesamtbeschäftigungsgrad, ersatzweise 100 Prozent oder das tatsächliche Gesamteinkommen umgerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0124",
 "nachher": "bund-ks-45__c0126"
 },
 {
 "id": "bund-ks-45__c0126",
-"titel": "KS 45 – Abschnitt 126",
-"pfad": [],
+"titel": "Ziff. 7.3.2 Teilzeit und mehrere Erwerbstätigkeiten – Umrechnungsmethode (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.2 Teilzeit-Erwerbstätigkeiten"
+],
 "seiten": [
-32
+40
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.3.2",
+"stichworte": [
+"Teilzeit",
+"mehrere Arbeitgeber",
+"Gesamtbeschäftigungsgrad",
+"Umrechnung 100 Prozent",
+"Ersatzeinkünfte"
+],
+"positionen": [
+"einkommen.unselbstaendig.nebenerwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0125",
 "nachher": "bund-ks-45__c0127"
 },
 {
 "id": "bund-ks-45__c0127",
-"titel": "KS 45 – Abschnitt 127",
-"pfad": [],
+"titel": "Ziff. 7.3.2 Offenlegungspflicht, Pensum nicht bestimmbar, Folgemonat, Tarifcode E (Teil 1/3)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.2 Teilzeit-Erwerbstätigkeiten"
+],
 "seiten": [
-32
+40,
+41
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.2",
+"stichworte": [
+"Offenlegung",
+"Art. 136 DBG",
+"Hauswartstelle",
+"Folgemonat",
+"Tarifcode E",
+"Neuberechnung bis 31. März"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der Arbeitnehmer muss weitere Erwerbstätigkeiten melden; ohne Angaben gilt eine Umrechnung auf 100 %; Umrechnung ab Folgemonat, nicht bei Tarifcode E; Neuberechnung bis 31. März des Folgejahres.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0126",
 "nachher": "bund-ks-45__c0128"
 },
 {
 "id": "bund-ks-45__c0128",
-"titel": "KS 45 – Abschnitt 128",
-"pfad": [],
+"titel": "Ziff. 7.3.2 Offenlegungspflicht, Pensum nicht bestimmbar, Folgemonat, Tarifcode E (Teil 2/3)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.2 Teilzeit-Erwerbstätigkeiten"
+],
 "seiten": [
-32
+40,
+41
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.2",
+"stichworte": [
+"Offenlegung",
+"Art. 136 DBG",
+"Hauswartstelle",
+"Folgemonat",
+"Tarifcode E",
+"Neuberechnung bis 31. März"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0127",
 "nachher": "bund-ks-45__c0129"
 },
 {
 "id": "bund-ks-45__c0129",
-"titel": "KS 45 – Abschnitt 129",
-"pfad": [],
+"titel": "Ziff. 7.3.2 Offenlegungspflicht, Pensum nicht bestimmbar, Folgemonat, Tarifcode E (Teil 3/3)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.2 Teilzeit-Erwerbstätigkeiten"
+],
 "seiten": [
-33
+40,
+41
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.2",
+"stichworte": [
+"Offenlegung",
+"Art. 136 DBG",
+"Hauswartstelle",
+"Folgemonat",
+"Tarifcode E",
+"Neuberechnung bis 31. März"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0128",
 "nachher": "bund-ks-45__c0130"
 },
 {
 "id": "bund-ks-45__c0130",
-"titel": "KS 45 – Abschnitt 130",
-"pfad": [],
+"titel": "Ziff. 7.3.2 Beispiel 1 – 50 %/50 %, gleicher Lohn CHF 39 000",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.2 Teilzeit-Erwerbstätigkeiten"
+],
 "seiten": [
-33
+41
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.2",
+"stichworte": [
+"Beispiel",
+"zwei Arbeitgeber 50 %",
+"Jahreslohn CHF 39 000",
+"Jahreseinkommen CHF 78 000",
+"Steuersatz 12,4 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 1: je CHF 39 000 bei 50 % ergibt satzbestimmendes Jahreseinkommen von CHF 78 000 (Steuersatz 12,4 %, Quellensteuer CHF 4 836 pro Arbeitgeber).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0129",
 "nachher": "bund-ks-45__c0131"
 },
 {
 "id": "bund-ks-45__c0131",
-"titel": "KS 45 – Abschnitt 131",
-"pfad": [],
+"titel": "Ziff. 7.3.2 Beispiel 2 – 50 %/50 %, unterschiedlicher Lohn",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.2 Teilzeit-Erwerbstätigkeiten"
+],
 "seiten": [
-33
+42
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.2",
+"stichworte": [
+"Beispiel",
+"unterschiedlicher Lohn",
+"CHF 52 000",
+"Jahreseinkommen CHF 104 000",
+"Steuersatz 15,4 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 2: CHF 39 000 ergibt satzbestimmend CHF 78 000 (12,4 %), CHF 52 000 ergibt satzbestimmend CHF 104 000 (15,4 %, Quellensteuer CHF 8 008).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0130",
 "nachher": "bund-ks-45__c0132"
 },
 {
 "id": "bund-ks-45__c0132",
-"titel": "KS 45 – Abschnitt 132",
-"pfad": [],
+"titel": "Ziff. 7.3.2 Beispiel 3 – 70 %/20 % ohne Mitteilung des Gesamtpensums",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.2 Teilzeit-Erwerbstätigkeiten"
+],
 "seiten": [
-33
+42
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.2",
+"stichworte": [
+"Beispiel",
+"Pensum 70 % und 20 %",
+"Gesamtpensum nicht mitgeteilt",
+"Jahreseinkommen CHF 34 285.70"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 3: CHF 24 000 bei 70 % ergibt satzbestimmend CHF 34 285.70 (Satz 3,9 %), CHF 6 000 bei 20 % ergibt CHF 30 000 (Satz 3,2 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0131",
 "nachher": "bund-ks-45__c0133"
 },
 {
 "id": "bund-ks-45__c0133",
-"titel": "KS 45 – Abschnitt 133",
-"pfad": [],
+"titel": "Ziff. 7.3.3 Stunden- und Tageslohn – Umrechnung auf 2 160 Stunden / 260 Tage",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.3 Stunden- oder Tageslohn"
+],
 "seiten": [
-33
+43
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.3",
+"stichworte": [
+"Stundenlohn",
+"Tageslohn",
+"2 160 Stunden",
+"260 Tage",
+"Ferienentschädigung",
+"Kapitalabfindung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Bei Stunden- oder Tageslohn ohne Monatszahlung ist das satzbestimmende Jahreseinkommen durch Umrechnung auf 2 160 Stunden (12 x 180) bzw. 260 Tage (12 x 21.667) zu ermitteln.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0132",
 "nachher": "bund-ks-45__c0134"
 },
 {
 "id": "bund-ks-45__c0134",
-"titel": "KS 45 – Abschnitt 134",
-"pfad": [],
+"titel": "Ziff. 7.3.3 Abzugszeitpunkt, Ablieferung und Neuberechnung bei Stunden-/Tageslohn",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.3 Stunden- oder Tageslohn"
+],
 "seiten": [
-34
+43
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.3",
+"stichworte": [
+"Zeitpunkt Lohnzahlung",
+"Ferienzuschlag",
+"monatliche Ablieferung",
+"Neuberechnung bis 31. März"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der Abzug erfolgt bei Lohnzahlung, die Ablieferung monatlich; Neuberechnung oder nachträgliche ordentliche Veranlagung ist bis 31. März des Folgejahres zu beantragen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0133",
 "nachher": "bund-ks-45__c0135"
 },
 {
 "id": "bund-ks-45__c0135",
-"titel": "KS 45 – Abschnitt 135",
-"pfad": [],
+"titel": "Ziff. 7.3.3 Beispiel – Stundenlohn CHF 35, Jahreseinkommen CHF 75 600",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.3 Stunden- oder Tageslohn"
+],
 "seiten": [
-34
+43
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.3",
+"stichworte": [
+"Beispiel",
+"Stundenlohn CHF 35",
+"wöchentliche Auszahlung",
+"Jahreseinkommen CHF 75 600",
+"Steuersatz 12,0 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Stundenlohn CHF 35 x 2 160 = CHF 75 600 satzbestimmend (A0, Satz 12,0 %); Bruttolohn Jahr CHF 50 750, Quellensteuer CHF 6 090.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0134",
 "nachher": "bund-ks-45__c0136"
 },
 {
 "id": "bund-ks-45__c0136",
-"titel": "KS 45 – Abschnitt 136",
-"pfad": [],
+"titel": "Ziff. 7.3.4 Unterjährige Ein- und Austritte – Umrechnung auf 360 Tage",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.4 Unterjährige Ein-/Austritte"
+],
 "seiten": [
-34
+43,
+44
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.4",
+"stichworte": [
+"unterjähriger Eintritt",
+"unterjähriger Austritt",
+"360 Tage",
+"30 Tage pro Monat",
+"periodische Gehaltsbestandteile"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei weniger als einem Kalenderjahr Tätigkeit wird der Lohn für die Satzbestimmung auf 360 Tage (30 Tage pro Monat) umgerechnet; aperiodische Bestandteile werden erst danach addiert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0135",
 "nachher": "bund-ks-45__c0137"
 },
 {
 "id": "bund-ks-45__c0137",
-"titel": "KS 45 – Abschnitt 137",
-"pfad": [],
+"titel": "Ziff. 7.3.4 Beispiel – Ein- und Austritt in Monaten mit Bonus (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.4 Unterjährige Ein-/Austritte"
+],
 "seiten": [
-34
+44
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.4",
+"stichworte": [
+"Beispiel",
+"Bonus CHF 2 000",
+"Eintritt 16. Januar",
+"Austritt 18. März",
+"Korrektur Quellensteuerabzug"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Arbeitsperioden von 15, 20 und 18 Tagen mit Bonus von CHF 2 000; satzbestimmend Januar CHF 120 000, Februar CHF 113 142.85, März CHF 97 094.35; Quellensteuer total CHF 2 336.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0136",
 "nachher": "bund-ks-45__c0138"
 },
 {
 "id": "bund-ks-45__c0138",
-"titel": "KS 45 – Abschnitt 138",
-"pfad": [],
+"titel": "Ziff. 7.3.4 Beispiel – Ein- und Austritt in Monaten mit Bonus (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.3 Satzbestimmendes Jahreseinkommen",
+"7.3.4 Unterjährige Ein-/Austritte"
+],
 "seiten": [
-35
+44
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.4",
+"stichworte": [
+"Beispiel",
+"Bonus CHF 2 000",
+"Eintritt 16. Januar",
+"Austritt 18. März",
+"Korrektur Quellensteuerabzug"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0137",
 "nachher": "bund-ks-45__c0139"
 },
 {
 "id": "bund-ks-45__c0139",
-"titel": "KS 45 – Abschnitt 139",
-"pfad": [],
+"titel": "Ziff. 7.4 Änderung persönlicher Verhältnisse – Grundsatz und Beispiel 1 (Heirat)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-36
+44,
+45
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.4",
+"stichworte": [
+"Heirat",
+"Zivilstandsänderung",
+"Tarifcode A0 zu B0",
+"Folgemonat",
+"Einverdiener"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Änderungen wie Heirat, Scheidung oder Geburt werden erst im Folgemonat berücksichtigt; Beispiel 1: Heirat am 26. Mai 2021, Wechsel von A0 zu B0 ab Juni (Satz 5,0 %), Quellensteuer Jahr CHF 4 600.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0138",
 "nachher": "bund-ks-45__c0140"
 },
 {
 "id": "bund-ks-45__c0140",
-"titel": "KS 45 – Abschnitt 140",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 2 – Scheidung während des Jahres",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-36
+45
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Scheidung",
+"Tarifcode B0 zu A0",
+"Jahreslohn CHF 65 000"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 2: Scheidung am 25. August 2021, Wechsel von B0 (Satz 5,0 %) zu A0 (Satz 10,4 %) ab September.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0139",
 "nachher": "bund-ks-45__c0141"
 },
 {
 "id": "bund-ks-45__c0141",
-"titel": "KS 45 – Abschnitt 141",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 3 – Arbeitgeberwechsel und Heirat (Arbeitgeber 1)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-36
+45
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Arbeitgeberwechsel",
+"Heirat 26. Mai",
+"unterjährig"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 3: Arbeitgeber 1 (Januar–April) rechnet das satzbestimmende Jahreseinkommen auf CHF 65 000 hoch ((15 000 + 6 666.65) / 120 x 360), Tarifcode A0.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0140",
 "nachher": "bund-ks-45__c0142"
 },
 {
 "id": "bund-ks-45__c0142",
-"titel": "KS 45 – Abschnitt 142",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 3 – Arbeitgeberwechsel und Heirat (Arbeitgeber 2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-37
+46
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Arbeitgeber 2",
+"Tarifcode B0",
+"Geburt Kind",
+"Bonus"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 3 (Arbeitgeber 2, Mai–Dezember): satzbestimmend CHF 65 000 ((35 000 + 8 333.35) / 240 x 360), Tarifcode A0 bzw. ab Juni B0; Beispiel 4 folgt mit Heirat und Geburt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0141",
 "nachher": "bund-ks-45__c0143"
 },
 {
 "id": "bund-ks-45__c0143",
-"titel": "KS 45 – Abschnitt 143",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 4 – Heirat, Geburt eines Kindes und Bonus CHF 30 000 (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-37
+46
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Heirat",
+"Geburt Kind",
+"Bonus Vorjahr CHF 30 000",
+"Tarifcode B1"
+],
+"positionen": [
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Beispiel 4: Bonus CHF 30 000 im Februar hebt das satzbestimmende Einkommen auf CHF 95 000; Tarifwechsel A0, B0 (ab Juni), B1 (ab November); Quellensteuer total CHF 11 205.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0142",
 "nachher": "bund-ks-45__c0144"
 },
 {
 "id": "bund-ks-45__c0144",
-"titel": "KS 45 – Abschnitt 144",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 4 – Heirat, Geburt eines Kindes und Bonus CHF 30 000 (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-37
+46
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Heirat",
+"Geburt Kind",
+"Bonus Vorjahr CHF 30 000",
+"Tarifcode B1"
+],
+"positionen": [
+"sozialabzug.kinder"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0143",
 "nachher": "bund-ks-45__c0145"
 },
 {
 "id": "bund-ks-45__c0145",
-"titel": "KS 45 – Abschnitt 145",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 5 – Aufnahme Erwerbstätigkeit des anderen Ehegatten",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-38
+47
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Zweiverdiener",
+"Tarifcode C0",
+"Ehegattin nimmt Erwerbstätigkeit auf",
+"sofortige Anwendung"
+],
+"positionen": [
+"abzug.zweiverdiener"
+],
+"zusammenfassung": "Beispiel 5: Ehegattin beginnt am 15. September 2021; Tarifcode C0 gilt für sie sofort, für den Ehemann ab Oktober (Satz 7,2 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0144",
 "nachher": "bund-ks-45__c0146"
 },
 {
 "id": "bund-ks-45__c0146",
-"titel": "KS 45 – Abschnitt 146",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 6 – Geburt eines Kindes und Aufgabe der Erwerbstätigkeit des Ehegatten (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-38
+47
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Geburt Kind",
+"Familienzulagen",
+"Tarifcode C1",
+"Tarifcode B1",
+"Aufgabe Erwerbstätigkeit"
+],
+"positionen": [
+"einkommen.ersatz.familienzulagen",
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Beispiel 6: Kind am 15. August, Familienzulagen CHF 200 pro Monat, Ehegattin gibt am 15. Oktober auf; Wechsel C0, C1, B1; Quellensteuer total CHF 7 801.80.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0145",
 "nachher": "bund-ks-45__c0147"
 },
 {
 "id": "bund-ks-45__c0147",
-"titel": "KS 45 – Abschnitt 147",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 6 – Geburt eines Kindes und Aufgabe der Erwerbstätigkeit des Ehegatten (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-38
+47
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Geburt Kind",
+"Familienzulagen",
+"Tarifcode C1",
+"Tarifcode B1",
+"Aufgabe Erwerbstätigkeit"
+],
+"positionen": [
+"einkommen.ersatz.familienzulagen",
+"sozialabzug.kinder"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0146",
 "nachher": "bund-ks-45__c0148"
 },
 {
 "id": "bund-ks-45__c0148",
-"titel": "KS 45 – Abschnitt 148",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 7 – Lohnerhöhung und anschliessende Erwerbstätigkeit des Ehegatten (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-39
+48
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Lohnerhöhung",
+"Tarifcode B0 zu C0",
+"Korrektur Vormonate",
+"Jahreslohn CHF 114 000"
+],
+"positionen": [
+"abzug.zweiverdiener"
+],
+"zusammenfassung": "Beispiel 7: Jahreslohn CHF 114 000 mit Lohnerhöhung (CHF 8 000 auf CHF 11 000) und Eintritt der Ehegattin im September; Tarifcode B0 dann C0, Quellensteuer total CHF 14 526.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0147",
 "nachher": "bund-ks-45__c0149"
 },
 {
 "id": "bund-ks-45__c0149",
-"titel": "KS 45 – Abschnitt 149",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 7 – Lohnerhöhung und anschliessende Erwerbstätigkeit des Ehegatten (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-39
+48
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Lohnerhöhung",
+"Tarifcode B0 zu C0",
+"Korrektur Vormonate",
+"Jahreslohn CHF 114 000"
+],
+"positionen": [
+"abzug.zweiverdiener"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0148",
 "nachher": "bund-ks-45__c0150"
 },
 {
 "id": "bund-ks-45__c0150",
-"titel": "KS 45 – Abschnitt 150",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 8 – Heirat und Lohnerhöhung im Verlauf des Jahres (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-39
+48
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Heirat April",
+"Lohnerhöhung September",
+"Tarifcode C0",
+"Korrektur Quellensteuer"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 8: Heirat im April und Lohnerhöhung von CHF 6 000 auf CHF 8 000 ab September; satzbestimmend CHF 72 000 dann CHF 80 000, Quellensteuer total CHF 9 936.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0149",
 "nachher": "bund-ks-45__c0151"
 },
 {
 "id": "bund-ks-45__c0151",
-"titel": "KS 45 – Abschnitt 151",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 8 – Heirat und Lohnerhöhung im Verlauf des Jahres (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-39
+48
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Heirat April",
+"Lohnerhöhung September",
+"Tarifcode C0",
+"Korrektur Quellensteuer"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0150",
 "nachher": "bund-ks-45__c0152"
 },
 {
 "id": "bund-ks-45__c0152",
-"titel": "KS 45 – Abschnitt 152",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 9 – Kind wird volljährig, Wegfall der Familienzulagen (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-40
+49
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Kind volljährig",
+"Familienzulagen",
+"Tarifcode C1 zu C0",
+"Zweiverdiener"
+],
+"positionen": [
+"einkommen.ersatz.familienzulagen",
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Beispiel 9: Kind wird im September volljährig, Familienzulagen CHF 200 enden; Wechsel von C1 zu C0, Quellensteuer total CHF 8 452.20 inkl. Korrektur CHF -55.80.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0151",
 "nachher": "bund-ks-45__c0153"
 },
 {
 "id": "bund-ks-45__c0153",
-"titel": "KS 45 – Abschnitt 153",
-"pfad": [],
+"titel": "Ziff. 7.4 Beispiel 9 – Kind wird volljährig, Wegfall der Familienzulagen (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.4 Änderung der persönlichen Verhältnisse"
+],
 "seiten": [
-40
+49
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.4",
+"stichworte": [
+"Beispiel",
+"Kind volljährig",
+"Familienzulagen",
+"Tarifcode C1 zu C0",
+"Zweiverdiener"
+],
+"positionen": [
+"einkommen.ersatz.familienzulagen",
+"sozialabzug.kinder"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0152",
 "nachher": "bund-ks-45__c0154"
 },
 {
 "id": "bund-ks-45__c0154",
-"titel": "KS 45 – Abschnitt 154",
-"pfad": [],
+"titel": "Ziff. 7.5.1 Ausscheidung von im Ausland geleisteten Arbeitstagen (Jahresmodell) (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.1 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-40
+49
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.1",
+"stichworte": [
+"Arbeitstage im Ausland",
+"Monteurklausel",
+"20 Arbeitstage pro Monat",
+"240 Arbeitstage pro Jahr",
+"Ferientage"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Schweizer Arbeitstage = 20 Arbeitstage pro Monat bzw. 240 pro Jahr abzüglich ausländischer Arbeitstage; bezahlte Abwesenheitstage (Ferien, Krankheit) werden nicht ausgeschieden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0153",
 "nachher": "bund-ks-45__c0155"
 },
 {
 "id": "bund-ks-45__c0155",
-"titel": "KS 45 – Abschnitt 155",
-"pfad": [],
+"titel": "Ziff. 7.5.1 Ausscheidung von im Ausland geleisteten Arbeitstagen (Jahresmodell) (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.1 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-40
+49
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.1",
+"stichworte": [
+"Arbeitstage im Ausland",
+"Monteurklausel",
+"20 Arbeitstage pro Monat",
+"240 Arbeitstage pro Jahr",
+"Ferientage"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0154",
 "nachher": "bund-ks-45__c0156"
 },
 {
 "id": "bund-ks-45__c0156",
-"titel": "KS 45 – Abschnitt 156",
-"pfad": [],
+"titel": "Ziff. 7.5.1 Beispiel 1 – 5 Arbeitstage in Österreich (Jahresmodell)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.1 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-41
+50
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.1",
+"stichworte": [
+"Beispiel",
+"Wochenaufenthalter",
+"Österreich",
+"satzbestimmend CHF 96 000"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 1: Bruttolohn CHF 8 000, 5 ausländische Arbeitstage; steuerbar CHF 6 000.00 (8 000 / 20 x 15), satzbestimmend CHF 96 000.00 (8 000 x 12).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0155",
 "nachher": "bund-ks-45__c0157"
 },
 {
 "id": "bund-ks-45__c0157",
-"titel": "KS 45 – Abschnitt 157",
-"pfad": [],
+"titel": "Ziff. 7.5.1 Beispiel 2 – Lohn und Bonus Vorjahr (Jahresmodell)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.1 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-41
+50
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.1",
+"stichworte": [
+"Beispiel",
+"Bonus Vorjahr",
+"Grossbritannien",
+"200 von 240 Arbeitstagen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 2: steuerbar CHF 33 000 (Lohn CHF 8 000 plus Bonus CHF 25 000), satzbestimmend CHF 150 000 (CHF 10 000 x 12 + CHF 30 000).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0156",
 "nachher": "bund-ks-45__c0158"
 },
 {
 "id": "bund-ks-45__c0158",
-"titel": "KS 45 – Abschnitt 158",
-"pfad": [],
+"titel": "Ziff. 7.5.1 Korrektur am Jahresende, Kalendarium und nachträgliche Neuberechnung (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.1 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-41
+50
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.1",
+"stichworte": [
+"Kalendarium",
+"ELM-QSt",
+"Neuberechnung bis 31. März",
+"Unterschrift Arbeitgeber und Arbeitnehmer"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Korrekturen dürfen am Jahresende erfolgen; das Kalendarium ist der Abrechnung beizulegen; Neuberechnung ist bis 31. März des Folgejahres mit unterzeichnetem Kalendarium zu beantragen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0157",
 "nachher": "bund-ks-45__c0159"
 },
 {
 "id": "bund-ks-45__c0159",
-"titel": "KS 45 – Abschnitt 159",
-"pfad": [],
+"titel": "Ziff. 7.5.1 Korrektur am Jahresende, Kalendarium und nachträgliche Neuberechnung (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.1 Ausscheidung ausländischer Arbeitstage"
+],
 "seiten": [
-41
+50
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.1",
+"stichworte": [
+"Kalendarium",
+"ELM-QSt",
+"Neuberechnung bis 31. März",
+"Unterschrift Arbeitgeber und Arbeitnehmer"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0158",
 "nachher": "bund-ks-45__c0160"
 },
 {
 "id": "bund-ks-45__c0160",
-"titel": "KS 45 – Abschnitt 160",
-"pfad": [],
+"titel": "Ziff. 7.5.2 Leistungen vor Antritt des Arbeitsverhältnisses (Sign-on-Bonus)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.2 Leistungen vor Antritt"
+],
 "seiten": [
-42
+51
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.2",
+"stichworte": [
+"Sign-on-Bonus",
+"vor Antritt",
+"Art. 17 DBG",
+"Neuberechnung bis 31. März"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Vor Antritt ausgerichtete Entschädigungen (z.B. Sign-on-Bonus) werden nach den Verhältnissen im Zeitpunkt der Ausrichtung besteuert; Neuberechnung bis 31. März des Folgejahres möglich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0159",
 "nachher": "bund-ks-45__c0161"
 },
 {
 "id": "bund-ks-45__c0161",
-"titel": "KS 45 – Abschnitt 161",
-"pfad": [],
+"titel": "Ziff. 7.5.3 Leistungen bei Beendigung – fällige Ansprüche (Jahresmodell)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.3 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-42
+51
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.3",
+"stichworte": [
+"Beendigung Arbeitsverhältnis",
+"Ferienguthaben",
+"Überzeitguthaben",
+"Anrechnung Quellensteuer",
+"gleicher Kanton"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Beendigung fällige, später ausbezahlte Leistungen werden zusammen mit dem letzten Arbeitsmonat besteuert und bereits abgezogene Quellensteuern angerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0160",
 "nachher": "bund-ks-45__c0162"
 },
 {
 "id": "bund-ks-45__c0162",
-"titel": "KS 45 – Abschnitt 162",
-"pfad": [],
+"titel": "Ziff. 7.5.3 Nachträgliche Ansprüche und Satzbestimmung nach Beendigung (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.3 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-42
+51
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.3",
+"stichworte": [
+"nachträglicher Bonus",
+"Rechtsanspruch nach Beendigung",
+"satzbestimmendes Einkommen",
+"Folgejahr",
+"aperiodische Leistungen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Anspruch erst nach Beendigung: separate Berechnung nach Verhältnissen im Auszahlungsmonat; satzbestimmend ist der auf ein Jahr umgerechnete letzte Bruttomonatslohn zuzüglich der Leistung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0161",
 "nachher": "bund-ks-45__c0163"
 },
 {
 "id": "bund-ks-45__c0163",
-"titel": "KS 45 – Abschnitt 163",
-"pfad": [],
+"titel": "Ziff. 7.5.3 Nachträgliche Ansprüche und Satzbestimmung nach Beendigung (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.3 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-43
+51
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.3",
+"stichworte": [
+"nachträglicher Bonus",
+"Rechtsanspruch nach Beendigung",
+"satzbestimmendes Einkommen",
+"Folgejahr",
+"aperiodische Leistungen"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0162",
 "nachher": "bund-ks-45__c0164"
 },
 {
 "id": "bund-ks-45__c0164",
-"titel": "KS 45 – Abschnitt 164",
-"pfad": [],
+"titel": "Ziff. 7.5.3 Lohnfortzahlung bei Freistellung (Ansässigkeit im Ausland)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.3 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-43
+51,
+52
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.3",
+"stichworte": [
+"Freistellung",
+"Kündigung",
+"Lohnfortzahlung",
+"reduzierter Bruttolohn",
+"Grenzgänger Deutschland"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Lohnfortzahlungen an einen freigestellten Arbeitnehmer mit Ansässigkeit im Ausland sind quellensteuerpflichtig, auf einem reduzierten Bruttolohn, wenn die Arbeit mutmasslich im Ausland geleistet worden wäre.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0163",
 "nachher": "bund-ks-45__c0165"
 },
 {
 "id": "bund-ks-45__c0165",
-"titel": "KS 45 – Abschnitt 165",
-"pfad": [],
+"titel": "Ziff. 7.5.3 Beispiel 1 – Austritt 31. August 2022 mit Bonus CHF 20 000",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.3 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-43
+52
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.3",
+"stichworte": [
+"Beispiel",
+"Bonus",
+"Austritt",
+"Korrektur Januar–Juli",
+"Jahreseinkommen CHF 85 000"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 1: Bonus CHF 20 000 im August hebt das satzbestimmende Einkommen auf CHF 85 000 (Satz 13,3 %); Korrektur Januar–Juli CHF 1 015, Quellensteuer total CHF 8 423.30.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0164",
 "nachher": "bund-ks-45__c0166"
 },
 {
 "id": "bund-ks-45__c0166",
-"titel": "KS 45 – Abschnitt 166",
-"pfad": [],
+"titel": "Ziff. 7.5.3 Beispiel 2 – Bonus nach Beendigung (Februar 2023) und Variante mit Auslandtagen (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.3 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-43
+52
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.3",
+"stichworte": [
+"Beispiel",
+"Bonus nach Beendigung",
+"Bonus CHF 30 000",
+"Variante Auslandtage",
+"120 Tage Schweiz"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel 2: Bonus CHF 30 000 nach Beendigung zum Satz auf CHF 110 000 (80 000 + 30 000), Quellensteuer CHF 4 800; Variante: nur CHF 15 000 steuerpflichtig bei 120 Schweizer von 240 Arbeitstagen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0165",
 "nachher": "bund-ks-45__c0167"
 },
 {
 "id": "bund-ks-45__c0167",
-"titel": "KS 45 – Abschnitt 167",
-"pfad": [],
+"titel": "Ziff. 7.5.3 Beispiel 2 – Bonus nach Beendigung (Februar 2023) und Variante mit Auslandtagen (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.3 Leistungen bei/nach Beendigung"
+],
 "seiten": [
-44
+52
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.5.3",
+"stichworte": [
+"Beispiel",
+"Bonus nach Beendigung",
+"Bonus CHF 30 000",
+"Variante Auslandtage",
+"120 Tage Schweiz"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0166",
 "nachher": "bund-ks-45__c0168"
 },
 {
 "id": "bund-ks-45__c0168",
-"titel": "KS 45 – Abschnitt 168",
-"pfad": [],
+"titel": "Ziff. 7.5.4 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden (Jahresmodell)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.4 Ersatzeinkünfte über Arbeitgeber"
+],
 "seiten": [
-44
+53
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.5.4",
+"stichworte": [
+"Taggeld an Arbeitgeber",
+"Unfalltaggeld",
+"Tarifcode A0",
+"Ersatzeinkünfte"
+],
+"positionen": [
+"einkommen.ersatz.taggelder"
+],
+"zusammenfassung": "Vom Arbeitgeber weitergeleitete Taggelder werden zusammen mit dem Lohn besteuert; im Beispiel Lohn CHF 4 500 plus Unfalltaggeld CHF 1 000, satzbestimmend CHF 66 000 (Satz 10,5 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0167",
 "nachher": "bund-ks-45__c0169"
 },
 {
 "id": "bund-ks-45__c0169",
-"titel": "KS 45 – Abschnitt 169",
-"pfad": [],
+"titel": "Ziff. 7.5.5 Ersatzeinkünfte direkt an Arbeitnehmer (Tarifcode G / Q), Jahresmodell",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.5 Ersatzeinkünfte direkt ausbezahlt"
+],
 "seiten": [
-44
+53
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.5.5",
+"stichworte": [
+"Tarifcode G",
+"Tarifcode Q",
+"Taggeld direkt",
+"versicherter Verdienst",
+"Merkblatt Ersatzeinkünfte"
+],
+"positionen": [
+"einkommen.ersatz.taggelder"
+],
+"zusammenfassung": "Direkt ausbezahlte Ersatzeinkünfte werden vom Leistungserbringer mit Tarifcode G (Grenzgänger Deutschland: Q) besteuert; bei zusätzlichem Erwerbseinkommen erfolgt eine Umrechnung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0168",
 "nachher": "bund-ks-45__c0170"
 },
 {
 "id": "bund-ks-45__c0170",
-"titel": "KS 45 – Abschnitt 170",
-"pfad": [],
+"titel": "Ziff. 7.5.5 Beispiel – Krankentaggeld und Teilzeitlohn 60 % (Jahresmodell)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.5 Ersatzeinkünfte direkt ausbezahlt"
+],
 "seiten": [
-44
+53
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.5.5",
+"stichworte": [
+"Beispiel",
+"Krankentaggeld CHF 1 800",
+"Tarifcode G",
+"Pensum 60 %",
+"Jahreslohn CHF 65 000"
+],
+"positionen": [
+"einkommen.ersatz.taggelder"
+],
+"zusammenfassung": "Beispiel: Lohn CHF 39 000 bei 60 % ergibt satzbestimmend CHF 65 000 (A0, Satz 10,4 %); Krankentaggeld CHF 21 600 bei 40 % ergibt CHF 54 000 (Tarifcode G, Satz 5,7 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0169",
 "nachher": "bund-ks-45__c0171"
 },
 {
 "id": "bund-ks-45__c0171",
-"titel": "KS 45 – Abschnitt 171",
-"pfad": [],
+"titel": "Ziff. 7.5.6 Kapitalleistungen für wiederkehrende Leistungen (Jahresmodell)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.6 Kapitalleistungen wiederkehrende Leistungen"
+],
 "seiten": [
-45
+54
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.5.6",
+"stichworte": [
+"Kapitalleistung",
+"Nachzahlung Familienzulagen",
+"wiederkehrende Leistungen",
+"Satzbestimmung"
+],
+"positionen": [
+"einkommen.kapitalabfindung_wiederkehrend",
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "Kapitalleistungen für wiederkehrende Leistungen sind im Auszahlungszeitpunkt zusammen mit dem Lohn quellensteuerpflichtig; der Satz ergibt sich aus Kapitalleistung, Jahresbruttolohn und weiteren periodischen Leistungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0170",
 "nachher": "bund-ks-45__c0172"
 },
 {
 "id": "bund-ks-45__c0172",
-"titel": "KS 45 – Abschnitt 172",
-"pfad": [],
+"titel": "Ziff. 7.5.6 Beispiel – Nachzahlung Familienzulagen CHF 4 400 (Tarifcode H1) (Teil 1/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.6 Kapitalleistungen wiederkehrende Leistungen"
+],
 "seiten": [
-45
+54
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.5.6",
+"stichworte": [
+"Beispiel",
+"Familienzulagen Nachzahlung",
+"Tarifcode H1",
+"Alleinerziehend",
+"Jahreseinkommen CHF 58 800"
+],
+"positionen": [
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "Beispiel: Nachzahlung Familienzulagen CHF 4 400 im März hebt das satzbestimmende Einkommen auf CHF 58 800 (H1, Satz 1,9 %); Quellensteuer total CHF 1 117.20.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0171",
 "nachher": "bund-ks-45__c0173"
 },
 {
 "id": "bund-ks-45__c0173",
-"titel": "KS 45 – Abschnitt 173",
-"pfad": [],
+"titel": "Ziff. 7.5.6 Beispiel – Nachzahlung Familienzulagen CHF 4 400 (Tarifcode H1) (Teil 2/2)",
+"pfad": [
+"7 Berechnung nach dem Jahresmodell",
+"7.5 Sonderfälle",
+"7.5.6 Kapitalleistungen wiederkehrende Leistungen"
+],
 "seiten": [
-45
+54
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.5.6",
+"stichworte": [
+"Beispiel",
+"Familienzulagen Nachzahlung",
+"Tarifcode H1",
+"Alleinerziehend",
+"Jahreseinkommen CHF 58 800"
+],
+"positionen": [
+"einkommen.ersatz.familienzulagen"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0172",
 "nachher": "bund-ks-45__c0174"
 },
 {
 "id": "bund-ks-45__c0174",
-"titel": "KS 45 – Abschnitt 174",
-"pfad": [],
+"titel": "Ziff. 8.1–8.2 Kantonswechsel – Grundsatz und Wechsel Jahresmodell zu Monatsmodell",
+"pfad": [
+"8 Kantonswechsel"
+],
 "seiten": [
-46
+55
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.1",
+"stichworte": [
+"Kantonswechsel",
+"Wohnsitzwechsel",
+"anspruchsberechtigter Kanton",
+"Jahresmodell zu Monatsmodell",
+"Folgemonat"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der Schuldner rechnet mit dem im Zeitpunkt der Fälligkeit anspruchsberechtigten Kanton ab, ab dem Folgemonat des Kantonswechsels nach dessen Tarif; Einmalzahlungen nach dem Wechsel beeinflussen das Jahreseinkommen des früheren Kantons nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0173",
 "nachher": "bund-ks-45__c0175"
 },
 {
 "id": "bund-ks-45__c0175",
-"titel": "KS 45 – Abschnitt 175",
-"pfad": [],
+"titel": "Ziff. 8.2 Beispiel – Wechsel Tessin (Jahresmodell) nach Bern (Monatsmodell) (Teil 1/2)",
+"pfad": [
+"8 Kantonswechsel",
+"8.2 Jahresmodell zu Monatsmodell"
+],
 "seiten": [
-46
+55
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.2",
+"stichworte": [
+"Beispiel",
+"Tessin",
+"Bern",
+"Bonus CHF 30 000",
+"Wohnsitzverlegung 15. August"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Wohnsitzwechsel TI nach BE am 15. August 2021, Bonus CHF 30 000 im Februar; Quellensteuer total CHF 13 375.50, ab September mit dem Tarif des Kantons Bern.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0174",
 "nachher": "bund-ks-45__c0176"
 },
 {
 "id": "bund-ks-45__c0176",
-"titel": "KS 45 – Abschnitt 176",
-"pfad": [],
+"titel": "Ziff. 8.2 Beispiel – Wechsel Tessin (Jahresmodell) nach Bern (Monatsmodell) (Teil 2/2)",
+"pfad": [
+"8 Kantonswechsel",
+"8.2 Jahresmodell zu Monatsmodell"
+],
 "seiten": [
-46
+55
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.2",
+"stichworte": [
+"Beispiel",
+"Tessin",
+"Bern",
+"Bonus CHF 30 000",
+"Wohnsitzverlegung 15. August"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0175",
 "nachher": "bund-ks-45__c0177"
 },
 {
 "id": "bund-ks-45__c0177",
-"titel": "KS 45 – Abschnitt 177",
-"pfad": [],
+"titel": "Ziff. 8.3 Wechsel von Monatsmodell zu Jahresmodell",
+"pfad": [
+"8 Kantonswechsel",
+"8.3 Monatsmodell zu Jahresmodell"
+],
 "seiten": [
-47
+55,
+56
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.3",
+"stichworte": [
+"Kantonswechsel",
+"Monatsmodell zu Jahresmodell",
+"Einmalzahlungen vor Wechsel",
+"Folgemonat"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Ab dem Folgemonat wird ausschliesslich mit dem Kanton mit Jahresmodell abgerechnet; frühere Einmalzahlungen beeinflussen dessen satzbestimmendes Jahreseinkommen nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0176",
 "nachher": "bund-ks-45__c0178"
 },
 {
 "id": "bund-ks-45__c0178",
-"titel": "KS 45 – Abschnitt 178",
-"pfad": [],
+"titel": "Ziff. 8.3 Beispiel – Wechsel Bern (Monatsmodell) nach Tessin (Jahresmodell) (Teil 1/2)",
+"pfad": [
+"8 Kantonswechsel",
+"8.3 Monatsmodell zu Jahresmodell"
+],
 "seiten": [
-47
+56
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.3",
+"stichworte": [
+"Beispiel",
+"Bern",
+"Tessin",
+"Bonus CHF 30 000",
+"Monatsmodell"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Wechsel BE nach TI am 15. August 2021; im Februar zählt im Monatsmodell nur der Monatslohn inkl. Bonus (CHF 35 000); Quellensteuer total CHF 17 086.50.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0177",
 "nachher": "bund-ks-45__c0179"
 },
 {
 "id": "bund-ks-45__c0179",
-"titel": "KS 45 – Abschnitt 179",
-"pfad": [],
+"titel": "Ziff. 8.3 Beispiel – Wechsel Bern (Monatsmodell) nach Tessin (Jahresmodell) (Teil 2/2)",
+"pfad": [
+"8 Kantonswechsel",
+"8.3 Monatsmodell zu Jahresmodell"
+],
 "seiten": [
-47
+56
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.3",
+"stichworte": [
+"Beispiel",
+"Bern",
+"Tessin",
+"Bonus CHF 30 000",
+"Monatsmodell"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0178",
 "nachher": "bund-ks-45__c0180"
 },
 {
 "id": "bund-ks-45__c0180",
-"titel": "KS 45 – Abschnitt 180",
-"pfad": [],
+"titel": "Ziff. 8.4 Wechsel von Jahresmodell zu Jahresmodell",
+"pfad": [
+"8 Kantonswechsel",
+"8.4 Jahresmodell zu Jahresmodell"
+],
 "seiten": [
-48
+56
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.4",
+"stichworte": [
+"Kantonswechsel",
+"Jahresmodell zu Jahresmodell",
+"Einmalzahlungen",
+"unterjähriger Austritt"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Ab dem Folgemonat wird mit dem neuen Kanton nach dessen Tarif abgerechnet; Einmalzahlungen vor oder nach dem Wechsel haben keinen Einfluss auf das Jahreseinkommen im anderen Kanton.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0179",
 "nachher": "bund-ks-45__c0181"
 },
 {
 "id": "bund-ks-45__c0181",
-"titel": "KS 45 – Abschnitt 181",
-"pfad": [],
+"titel": "Ziff. 8.4 Beispiel Tessin nach Genf und Ziff. 8.5 Wechsel Monatsmodell zu Monatsmodell (Teil 1/2)",
+"pfad": [
+"8 Kantonswechsel",
+"8.4 Jahresmodell zu Jahresmodell"
+],
 "seiten": [
-48
+57
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.4",
+"stichworte": [
+"Beispiel",
+"Tessin",
+"Genf",
+"Bonus CHF 30 000",
+"Monatsmodell zu Monatsmodell",
+"Ziff. 8.5"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Wechsel TI nach GE am 15. August 2021; ab September Satz Genf 11,31 %, satzbestimmend CHF 65 000; Quellensteuer total CHF 12 907.50. Ziff. 8.5: Bei Wechsel zwischen zwei Monatsmodell-Kantonen wird ab dem Folgemonat nur noch mit dem anspruchsberechtigten Kanton abgerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0180",
 "nachher": "bund-ks-45__c0182"
 },
 {
 "id": "bund-ks-45__c0182",
-"titel": "KS 45 – Abschnitt 182",
-"pfad": [],
+"titel": "Ziff. 8.4 Beispiel Tessin nach Genf und Ziff. 8.5 Wechsel Monatsmodell zu Monatsmodell (Teil 2/2)",
+"pfad": [
+"8 Kantonswechsel",
+"8.4 Jahresmodell zu Jahresmodell"
+],
 "seiten": [
-48
+57
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.4",
+"stichworte": [
+"Beispiel",
+"Tessin",
+"Genf",
+"Bonus CHF 30 000",
+"Monatsmodell zu Monatsmodell",
+"Ziff. 8.5"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0181",
 "nachher": "bund-ks-45__c0183"
 },
 {
 "id": "bund-ks-45__c0183",
-"titel": "KS 45 – Abschnitt 183",
-"pfad": [],
+"titel": "Ziff. 9.1 Pflichten und Haftung des Schuldners der steuerbaren Leistung (Teil 1/2)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.1 Allgemeines"
+],
 "seiten": [
-48
+58
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.1",
+"stichworte": [
+"Haftung Arbeitgeber",
+"Bezugsprovision",
+"verschuldensunabhängige Haftung",
+"Nachzahlung Quellensteuer",
+"Rückgriff auf Arbeitnehmer"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Der Schuldner haftet in vollem Umfang und verschuldensunabhängig für die Quellensteuer, erhält eine Bezugsprovision und kann auf den Arbeitnehmer zurückgreifen (Art. 88, 100, 138 DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0182",
 "nachher": "bund-ks-45__c0184"
 },
 {
 "id": "bund-ks-45__c0184",
-"titel": "KS 45 – Abschnitt 184",
-"pfad": [],
+"titel": "Ziff. 9.1 Pflichten und Haftung des Schuldners der steuerbaren Leistung (Teil 2/2)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.1 Allgemeines"
+],
 "seiten": [
-49
+58
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "9.1",
+"stichworte": [
+"Haftung Arbeitgeber",
+"Bezugsprovision",
+"verschuldensunabhängige Haftung",
+"Nachzahlung Quellensteuer",
+"Rückgriff auf Arbeitnehmer"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0183",
 "nachher": "bund-ks-45__c0185"
 },
 {
 "id": "bund-ks-45__c0185",
-"titel": "KS 45 – Abschnitt 185",
-"pfad": [],
+"titel": "Ziff. 9.1 Ermittlung persönlicher Verhältnisse, Strafbarkeit, Ausweis im Lohnausweis",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.1 Allgemeines"
+],
 "seiten": [
-49
+58
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.1",
+"stichworte": [
+"persönliche Verhältnisse",
+"Steuerhinterziehung",
+"Veruntreuung Quellensteuer",
+"Lohnausweis Ziffer 12",
+"Tarifcode Ziffer 15"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der Schuldner muss Zivilstand, Kinderzahl und Konfession ermitteln; die abgezogene Quellensteuer ist in jeder Lohnabrechnung und in Ziffer 12 des Lohnausweises auszuweisen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0184",
 "nachher": "bund-ks-45__c0186"
 },
 {
 "id": "bund-ks-45__c0186",
-"titel": "KS 45 – Abschnitt 186",
-"pfad": [],
+"titel": "Ziff. 9.2 Anmeldung und Mutationen quellensteuerpflichtiger Arbeitnehmer (Teil 1/2)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.2 Anmeldung und Mutationen"
+],
 "seiten": [
-49
+58,
+59
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.2",
+"stichworte": [
+"Anmeldung Quellensteuer",
+"acht Tage",
+"Mutation",
+"Eintritt Austritt",
+"ELM-QSt",
+"Personalverleih Einsatzort"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Neuanstellungen und Änderungen der persönlichen Verhältnisse sind der kantonalen Steuerbehörde innert acht Tagen zu melden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0185",
 "nachher": "bund-ks-45__c0187"
 },
 {
 "id": "bund-ks-45__c0187",
-"titel": "KS 45 – Abschnitt 187",
-"pfad": [],
+"titel": "Ziff. 9.2 Anmeldung und Mutationen quellensteuerpflichtiger Arbeitnehmer (Teil 2/2)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.2 Anmeldung und Mutationen"
+],
 "seiten": [
-49
+58,
+59
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "9.2",
+"stichworte": [
+"Anmeldung Quellensteuer",
+"acht Tage",
+"Mutation",
+"Eintritt Austritt",
+"ELM-QSt",
+"Personalverleih Einsatzort"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0186",
 "nachher": "bund-ks-45__c0188"
 },
 {
 "id": "bund-ks-45__c0188",
-"titel": "KS 45 – Abschnitt 188",
-"pfad": [],
+"titel": "Ziff. 9.2 Beispiele Personalverleih – Meldung von Ein- und Austritten (Teil 1/3)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.2 Anmeldung und Mutationen"
+],
 "seiten": [
-50
+59
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.2",
+"stichworte": [
+"Beispiel",
+"Personalverleih",
+"Eintritt Austritt melden",
+"September-Abrechnung",
+"Fallvarianten"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiele und Fallvarianten, wie bei Personalverleih Ein- und Austritte in der monatlichen Quellensteuerabrechnung zu melden sind.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0187",
 "nachher": "bund-ks-45__c0189"
 },
 {
 "id": "bund-ks-45__c0189",
-"titel": "KS 45 – Abschnitt 189",
-"pfad": [],
+"titel": "Ziff. 9.2 Beispiele Personalverleih – Meldung von Ein- und Austritten (Teil 2/3)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.2 Anmeldung und Mutationen"
+],
 "seiten": [
-50
+59
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.2",
+"stichworte": [
+"Beispiel",
+"Personalverleih",
+"Eintritt Austritt melden",
+"September-Abrechnung",
+"Fallvarianten"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0188",
 "nachher": "bund-ks-45__c0190"
 },
 {
 "id": "bund-ks-45__c0190",
-"titel": "KS 45 – Abschnitt 190",
-"pfad": [],
+"titel": "Ziff. 9.2 Beispiele Personalverleih – Meldung von Ein- und Austritten (Teil 3/3)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.2 Anmeldung und Mutationen"
+],
 "seiten": [
-50
+59
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.2",
+"stichworte": [
+"Beispiel",
+"Personalverleih",
+"Eintritt Austritt melden",
+"September-Abrechnung",
+"Fallvarianten"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0189",
 "nachher": "bund-ks-45__c0191"
 },
 {
 "id": "bund-ks-45__c0191",
-"titel": "KS 45 – Abschnitt 191",
-"pfad": [],
+"titel": "Ziff. 9.3 / 9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell (Teil 1/2)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.3 Abrechnung und Ablieferung"
+],
 "seiten": [
-50
+59,
+60
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.3.1",
+"stichworte": [
+"Quellensteuerabrechnung",
+"monatlich",
+"30 Tage Einreichfrist",
+"vierteljährlich halbjährlich",
+"Kalendarium",
+"ELM-QSt"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Die Abrechnung erfolgt grundsätzlich monatlich und ist innert 30 Tagen nach Ablauf der Abrechnungsperiode einzureichen; längere Perioden nur auf Antrag und nicht bei ELM-QSt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0190",
 "nachher": "bund-ks-45__c0192"
 },
 {
 "id": "bund-ks-45__c0192",
-"titel": "KS 45 – Abschnitt 192",
-"pfad": [],
+"titel": "Ziff. 9.3 / 9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell (Teil 2/2)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.3 Abrechnung und Ablieferung"
+],
 "seiten": [
-50
+59,
+60
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "9.3.1",
+"stichworte": [
+"Quellensteuerabrechnung",
+"monatlich",
+"30 Tage Einreichfrist",
+"vierteljährlich halbjährlich",
+"Kalendarium",
+"ELM-QSt"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0191",
 "nachher": "bund-ks-45__c0193"
 },
 {
 "id": "bund-ks-45__c0193",
-"titel": "KS 45 – Abschnitt 193",
-"pfad": [],
+"titel": "Ziff. 9.3.2–9.3.4 Ablieferung (Monatsmodell) sowie Abrechnung und Ablieferung (Jahresmodell)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.3 Abrechnung und Ablieferung"
+],
 "seiten": [
-51
+60
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.3.2",
+"stichworte": [
+"Ablieferung Quellensteuer",
+"30 Tage seit Fälligkeit",
+"Jahresmodell Abrechnung",
+"Endabrechnung Jahresende"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Im Jahresmodell ist immer innert 30 Tagen abzurechnen und die abgezogene Steuer innerhalb von 30 Tagen seit Fälligkeit abzuliefern; im Monatsmodell nach Rechnungsstellung des Kantons.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0192",
 "nachher": "bund-ks-45__c0194"
 },
 {
 "id": "bund-ks-45__c0194",
-"titel": "KS 45 – Abschnitt 194",
-"pfad": [],
+"titel": "Ziff. 9.4 Abrechnungskorrekturen durch den Schuldner (bis 31. März)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.4 Abrechnungskorrekturen"
+],
 "seiten": [
-51
+60
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.4",
+"stichworte": [
+"Korrektur Quellensteuerabrechnung",
+"31. März",
+"Verfügung Art. 137 DBG",
+"Fehler Tarifcode"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Fehler bei Bruttolohn oder Tarifcode kann der Schuldner bis 31. März des Folgejahres selber korrigieren und bis dahin eine Verfügung über die Quellensteuerpflicht verlangen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0193",
 "nachher": "bund-ks-45__c0195"
 },
 {
 "id": "bund-ks-45__c0195",
-"titel": "KS 45 – Abschnitt 195",
-"pfad": [],
+"titel": "Ziff. 9.4 Nachforderung und Rückerstattung zu viel/zu wenig abgezogener Quellensteuer",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.4 Abrechnungskorrekturen"
+],
 "seiten": [
-51
+60,
+61
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.4",
+"stichworte": [
+"Nachforderung",
+"Rückerstattung",
+"zu viel abgezogen",
+"zu wenig abgezogen",
+"Art. 138 DBG",
+"zinslos"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Zu wenig abgezogene Steuern kann der Schuldner beim Arbeitnehmer nachfordern; zu viel abgezogene sind zurückzuerstatten, bei bereits erfolgter Abrechnung zinslos durch die Steuerbehörde.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0194",
 "nachher": "bund-ks-45__c0196"
 },
 {
 "id": "bund-ks-45__c0196",
-"titel": "KS 45 – Abschnitt 196",
-"pfad": [],
+"titel": "Ziff. 9.5 Anspruchsberechtigter Kanton – Zuständigkeitsregeln",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.5 Anspruchsberechtigter Kanton"
+],
 "seiten": [
-51
+61
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.5",
+"stichworte": [
+"anspruchsberechtigter Kanton",
+"Wohnsitzkanton",
+"Wochenaufenthalt",
+"Art. 107 DBG",
+"Betriebsstättekanton"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Abzurechnen ist mit dem Wohn- bzw. Aufenthaltskanton, bei Ansässigkeit im Ausland mit dem Sitz-/Betriebsstättekanton des Arbeitgebers, bei Wochenaufenthaltern mit dem Wochenaufenthaltskanton (Art. 107 DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0195",
 "nachher": "bund-ks-45__c0197"
 },
 {
 "id": "bund-ks-45__c0197",
-"titel": "KS 45 – Abschnitt 197",
-"pfad": [],
+"titel": "Ziff. 9.5 Sonderfälle, Personalverleiher, Konstellationen und Wohnsitzwechsel (Teil 1/2)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.5 Anspruchsberechtigter Kanton"
+],
 "seiten": [
-52
+61
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.5",
+"stichworte": [
+"Personalverleiher Zweigniederlassung",
+"Bonus nach Beendigung",
+"Konstellationen",
+"Wohnsitzverlegung Kanton",
+"Folgemonat"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bonus nach Beendigung, Freistellungslohn und Mitarbeiterbeteiligungen bei Ansässigkeit im Ausland sind mit dem Kanton des Leistungsschuldners abzurechnen; bei Wohnsitzwechsel ab dem Folgemonat mit dem neuen Kanton.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0196",
 "nachher": "bund-ks-45__c0198"
 },
 {
 "id": "bund-ks-45__c0198",
-"titel": "KS 45 – Abschnitt 198",
-"pfad": [],
+"titel": "Ziff. 9.5 Sonderfälle, Personalverleiher, Konstellationen und Wohnsitzwechsel (Teil 2/2)",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.5 Anspruchsberechtigter Kanton"
+],
 "seiten": [
-52
+61
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.5",
+"stichworte": [
+"Personalverleiher Zweigniederlassung",
+"Bonus nach Beendigung",
+"Konstellationen",
+"Wohnsitzverlegung Kanton",
+"Folgemonat"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0197",
 "nachher": "bund-ks-45__c0199"
 },
 {
 "id": "bund-ks-45__c0199",
-"titel": "KS 45 – Abschnitt 199",
-"pfad": [],
+"titel": "Ziff. 9.6 Verletzung von Verfahrenspflichten durch den Schuldner",
+"pfad": [
+"9 Pflichten des Schuldners der steuerbaren Leistung",
+"9.6 Verletzung von Verfahrenspflichten"
+],
 "seiten": [
-52
+62
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.6",
+"stichworte": [
+"Bezugsprovision Verlust",
+"Verzugszinsen",
+"Busse Art. 174 DBG",
+"Ermessensveranlagung",
+"Steuerhinterziehung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei verspäteten Anmeldungen oder Abrechnungen droht der Verlust der Bezugsprovision, Verzugszinsen, Busse (Art. 174 DBG) und Veranlagung nach pflichtgemässem Ermessen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0198",
 "nachher": "bund-ks-45__c0200"
 },
 {
 "id": "bund-ks-45__c0200",
-"titel": "KS 45 – Abschnitt 200",
-"pfad": [],
+"titel": "Ziff. 10.1 Rechte des Arbeitnehmers – Ausweis und Verfügung über Quellensteuerpflicht",
+"pfad": [
+"10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers",
+"10.1 Rechte"
+],
 "seiten": [
-52
+63
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "10.1",
+"stichworte": [
+"Recht auf Bescheinigung",
+"Verfügung Art. 137 DBG",
+"31. März",
+"Einsprache Quellensteuerabzug",
+"Lohnausweis Ziffer 12"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der Arbeitnehmer kann bis 31. März des Folgejahres eine Verfügung über Bestand und Umfang der Quellensteuerpflicht verlangen; der Schuldner muss bis zum rechtskräftigen Entscheid weiter abziehen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0199",
 "nachher": "bund-ks-45__c0201"
 },
 {
 "id": "bund-ks-45__c0201",
-"titel": "KS 45 – Abschnitt 201",
-"pfad": [],
+"titel": "Ziff. 10.1 Zusätzliche Abzüge, Antrag auf nachträgliche ordentliche Veranlagung oder Neuberechnung",
+"pfad": [
+"10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers",
+"10.1 Rechte"
+],
 "seiten": [
-53
+63
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "10.1",
+"stichworte": [
+"zusätzliche Abzüge",
+"nachträgliche ordentliche Veranlagung",
+"Neuberechnung",
+"Satzkorrektur Tarifcode C",
+"31. März"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Zusätzliche, im Tarif nicht berücksichtigte Abzüge können nur über eine nachträgliche ordentliche Veranlagung (Antrag bis 31. März) geltend gemacht werden; Fehler bei Lohn oder Tarif über die Neuberechnung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0200",
 "nachher": "bund-ks-45__c0202"
 },
 {
 "id": "bund-ks-45__c0202",
-"titel": "KS 45 – Abschnitt 202",
-"pfad": [],
+"titel": "Ziff. 10.2 Pflichten des quellensteuerpflichtigen Arbeitnehmers",
+"pfad": [
+"10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers",
+"10.2 Pflichten"
+],
 "seiten": [
-53
+63
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10.2",
+"stichworte": [
+"Mitteilungspflicht",
+"Zivilstandsänderung",
+"Kinderzahl",
+"Konfession",
+"Auskunftspflicht",
+"Busse"
+],
+"positionen": [
+"personalien"
+],
+"zusammenfassung": "Der Arbeitnehmer muss dem Schuldner Zivilstand, Kinder, Konfession, zusätzliche Erwerbstätigkeit und Erwerbstätigkeit des Ehegatten mitteilen; bei Verletzung droht eine Busse (Art. 174 DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0201",
 "nachher": "bund-ks-45__c0203"
 },
 {
 "id": "bund-ks-45__c0203",
-"titel": "KS 45 – Abschnitt 203",
-"pfad": [],
+"titel": "Ziff. 11.1 Nachträgliche ordentliche Veranlagung – Grundsätze und Anrechnung",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.1 Allgemeine Grundsätze"
+],
 "seiten": [
-53
+64
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "11.1",
+"stichworte": [
+"nachträgliche ordentliche Veranlagung",
+"Steuererklärung",
+"Anrechnung Quellensteuer zinslos",
+"weltweites Einkommen",
+"NOV"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bei der nachträglichen ordentlichen Veranlagung (NOV) gelten die ordentlichen Verfahrensregeln; bereits bezahlte Quellensteuern werden zinslos angerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0202",
 "nachher": "bund-ks-45__c0204"
 },
 {
 "id": "bund-ks-45__c0204",
-"titel": "KS 45 – Abschnitt 204",
-"pfad": [],
+"titel": "Ziff. 11.1 Dauer des Antrags, Quasi-Ansässigkeit, Verrechnungssteuer",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.1 Allgemeine Grundsätze"
+],
 "seiten": [
-54
+64
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "11.1",
+"stichworte": [
+"Antrag gilt dauerhaft",
+"Quasi-Ansässigkeit",
+"Verrechnungssteuer Rückforderung",
+"Quellensteuerabzug bleibt"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Ein einmal gestellter Antrag gilt bis zum Ende der Quellensteuerpflicht; Quasi-Ansässige müssen jährlich bis 31. März neu beantragen; Verrechnungssteuer kann über die NOV zurückgefordert werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0203",
 "nachher": "bund-ks-45__c0205"
 },
 {
 "id": "bund-ks-45__c0205",
-"titel": "KS 45 – Abschnitt 205",
-"pfad": [],
+"titel": "Ziff. 11.1 Zuständigkeit für die nachträgliche ordentliche Veranlagung",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.1 Allgemeine Grundsätze"
+],
 "seiten": [
-54
+64
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.1",
+"stichworte": [
+"Zuständigkeit Kanton",
+"Art. 107 Abs. 4 DBG",
+"Wohnsitzkanton Ende Steuerperiode",
+"Wochenaufenthaltskanton"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Zuständig ist der Wohnsitz- bzw. Aufenthaltskanton am Ende der Steuerperiode, bei Ansässigkeit im Ausland der Sitz-/Betriebsstättekanton des Schuldners bzw. der Wochenaufenthaltskanton.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0204",
 "nachher": "bund-ks-45__c0206"
 },
 {
 "id": "bund-ks-45__c0206",
-"titel": "KS 45 – Abschnitt 206",
-"pfad": [],
+"titel": "Ziff. 11.2 Obligatorische NOV – Schwelle Bruttoeinkommen CHF 120 000",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.2 Obligatorische NOV bei Ansässigkeit in der Schweiz"
+],
 "seiten": [
-54
+64
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.2",
+"stichworte": [
+"obligatorische Veranlagung",
+"CHF 120 000",
+"Bruttoeinkommen Schwelle",
+"Ehegatten nicht zusammengerechnet",
+"unterjährige Steuerpflicht"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Eine obligatorische NOV erfolgt bei einem Bruttoeinkommen aus unselbstständiger Erwerbstätigkeit von mindestens CHF 120 000; bei Ehegatten werden die Einkommen für den Mindestbetrag nicht zusammengerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0205",
 "nachher": "bund-ks-45__c0207"
 },
 {
 "id": "bund-ks-45__c0207",
-"titel": "KS 45 – Abschnitt 207",
-"pfad": [],
+"titel": "Ziff. 11.2 Obligatorische NOV – zusätzliche Einkünfte/Vermögen, Ehegatten, Heirat und Scheidung",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.2 Obligatorische NOV bei Ansässigkeit in der Schweiz"
+],
 "seiten": [
-55
+65
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "11.2",
+"stichworte": [
+"zusätzliche Einkünfte",
+"Alimente",
+"Waisenrenten Witwenrenten",
+"Vermögen",
+"Heirat gemeinsame Veranlagung",
+"Scheidung Trennung"
+],
+"positionen": [
+"einkommen.unterhaltsbeitraege",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Zusätzliche nicht quellenbesteuerte Einkünfte (selbstständige Tätigkeit, Alimente, Renten, Vermögenserträge) oder Vermögen führen zur obligatorischen NOV; Steuererklärung bis 31. März verlangen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0206",
 "nachher": "bund-ks-45__c0208"
 },
 {
 "id": "bund-ks-45__c0208",
-"titel": "KS 45 – Abschnitt 208",
-"pfad": [],
+"titel": "Ziff. 11.3 NOV auf Antrag bei Ansässigkeit in der Schweiz – Voraussetzungen und Form",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.3 NOV auf Antrag bei Ansässigkeit in der Schweiz"
+],
 "seiten": [
-55
+65
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "11.3",
+"stichworte": [
+"Antrag NOV",
+"unter CHF 120 000",
+"31. März",
+"schriftlich unterzeichnet",
+"Ehegatten unterzeichnen",
+"Nachfrist"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bei Einkommen unter CHF 120 000 erfolgt die NOV auf schriftlichen, unterzeichneten Antrag bis 31. März des Folgejahres (bei Eheleuten von beiden unterzeichnet).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0207",
 "nachher": "bund-ks-45__c0209"
 },
 {
 "id": "bund-ks-45__c0209",
-"titel": "KS 45 – Abschnitt 209",
-"pfad": [],
+"titel": "Ziff. 11.3 Steuererklärung, Bindungswirkung des Antrags und Wegzug aus der Schweiz (Teil 1/2)",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.3 NOV auf Antrag bei Ansässigkeit in der Schweiz"
+],
 "seiten": [
-55
+65
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.3",
+"stichworte": [
+"Antrag nicht zurückziehbar",
+"Folgejahre von Amtes wegen",
+"Wegzug",
+"Abmeldung",
+"Mahnung Busse"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Ein form- und fristgerecht gestellter Antrag kann nicht zurückgezogen werden; die NOV wird danach von Amtes wegen bis Ende der Quellensteuerpflicht durchgeführt; beim Wegzug endet die Frist mit der Abmeldung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0208",
 "nachher": "bund-ks-45__c0210"
 },
 {
 "id": "bund-ks-45__c0210",
-"titel": "KS 45 – Abschnitt 210",
-"pfad": [],
+"titel": "Ziff. 11.3 Steuererklärung, Bindungswirkung des Antrags und Wegzug aus der Schweiz (Teil 2/2)",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.3 NOV auf Antrag bei Ansässigkeit in der Schweiz"
+],
 "seiten": [
-55
+65
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.3",
+"stichworte": [
+"Antrag nicht zurückziehbar",
+"Folgejahre von Amtes wegen",
+"Wegzug",
+"Abmeldung",
+"Mahnung Busse"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0209",
 "nachher": "bund-ks-45__c0211"
 },
 {
 "id": "bund-ks-45__c0211",
-"titel": "KS 45 – Abschnitt 211",
-"pfad": [],
+"titel": "Ziff. 11.4 NOV auf Antrag bei Ansässigkeit im Ausland – Quasi-Ansässigkeit (90 Prozent)",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.4 NOV auf Antrag bei Ansässigkeit im Ausland"
+],
 "seiten": [
-56
+66
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.4",
+"stichworte": [
+"Quasi-Ansässigkeit",
+"90 Prozent der weltweiten Einkünfte",
+"Art. 99a DBG",
+"Antrag jährlich",
+"Grenzgänger"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Im Ausland Ansässige können bis 31. März des Folgejahres eine NOV beantragen, wenn in der Regel mindestens 90 Prozent ihrer weltweiten Bruttoeinkünfte in der Schweiz steuerbar sind (Quasi-Ansässigkeit).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0210",
 "nachher": "bund-ks-45__c0212"
 },
 {
 "id": "bund-ks-45__c0212",
-"titel": "KS 45 – Abschnitt 212",
-"pfad": [],
+"titel": "Ziff. 11.4 Vergleichbarkeit mit Ansässigen und Vertreter in der Schweiz",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.4 NOV auf Antrag bei Ansässigkeit im Ausland"
+],
 "seiten": [
-56
+66
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.4",
+"stichworte": [
+"vergleichbare Situation",
+"niedrige Gesamteinkünfte",
+"Vertreter in der Schweiz",
+"Zustelladresse",
+"Art. 99a Abs. 1 Bst. b DBG"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Eine NOV kann auch beantragt werden, wenn die Situation mit derjenigen eines in der Schweiz Wohnhaften vergleichbar ist; zusätzlich ist eine Zustelladresse in der Schweiz zu bezeichnen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0211",
 "nachher": "bund-ks-45__c0213"
 },
 {
 "id": "bund-ks-45__c0213",
-"titel": "KS 45 – Abschnitt 213",
-"pfad": [],
+"titel": "Ziff. 11.4 Berechnung der 90-Prozent-Schwelle",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.4 NOV auf Antrag bei Ansässigkeit im Ausland"
+],
 "seiten": [
-56
+66
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.4",
+"stichworte": [
+"Schwelle 90 Prozent",
+"weltweites Gesamteinkommen",
+"Ehegatte Einkünfte hinzurechnen",
+"internationale Zuteilungsregeln"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Zur Prüfung der 90-Prozent-Schwelle wird das nach den Zuteilungsregeln in der Schweiz steuerbare Einkommen ins Verhältnis zum weltweiten Einkommen (inkl. Ehegatte) gesetzt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0212",
 "nachher": "bund-ks-45__c0214"
 },
 {
 "id": "bund-ks-45__c0214",
-"titel": "KS 45 – Abschnitt 214",
-"pfad": [],
+"titel": "Ziff. 11.4 Beispiel – Quasi-Ansässigkeit nicht erfüllt (75.7 Prozent)",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.4 NOV auf Antrag bei Ansässigkeit im Ausland"
+],
 "seiten": [
-57
+66
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.4",
+"stichworte": [
+"Beispiel",
+"Frankreich",
+"Bruttoeinkünfte CHF 132 200",
+"75.7 %",
+"nicht quasi-ansässig"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Beispiel: Gesamteinkünfte CHF 132 200 (Lohn CHF 100 000, Mieterträge CHF 20 000, Zinsen CHF 200, Alimente CHF 12 000); Anteil des Schweizer Lohns 75.7 %, daher keine Quasi-Ansässigkeit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0213",
 "nachher": "bund-ks-45__c0215"
 },
 {
 "id": "bund-ks-45__c0215",
-"titel": "KS 45 – Abschnitt 215",
-"pfad": [],
+"titel": "Ziff. 11.4 Abweisende Verfügung, Nichteintreten und Rechtskraft des Quellensteuerabzugs",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.4 NOV auf Antrag bei Ansässigkeit im Ausland"
+],
 "seiten": [
-57
+66
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.4",
+"stichworte": [
+"abweisende Verfügung",
+"Nichteintreten",
+"Rechtsmittel",
+"Quellensteuerabzug definitiv",
+"Zustelladresse fehlt"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Sind die Voraussetzungen nicht erfüllt, ergeht eine anfechtbare abweisende Verfügung bzw. ein Nichteintretensentscheid; der Quellensteuerabzug wird nach Ablauf der Rechtsmittelfrist definitiv.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0214",
 "nachher": "bund-ks-45__c0216"
 },
 {
 "id": "bund-ks-45__c0216",
-"titel": "KS 45 – Abschnitt 216",
-"pfad": [],
+"titel": "Ziff. 11.5 NOV von Amtes wegen bei Ansässigkeit im Ausland",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.5 NOV von Amtes wegen"
+],
 "seiten": [
-58
+67
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.5",
+"stichworte": [
+"NOV von Amtes wegen",
+"Art. 99b DBG",
+"selbstständige Nebenerwerbstätigkeit",
+"Liegenschaftserträge",
+"zuständiger Kanton"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei teils quellenbesteuerten, teils ordentlich zu veranlagenden Einkünften kann die Behörde von Amtes wegen eine NOV vornehmen (Art. 99b DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0215",
 "nachher": "bund-ks-45__c0217"
 },
 {
 "id": "bund-ks-45__c0217",
-"titel": "KS 45 – Abschnitt 217",
-"pfad": [],
+"titel": "Ziff. 11.6 Neuberechnung der Quellensteuer (Teil 1/2)",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.6 Neuberechnung der Quellensteuer"
+],
 "seiten": [
-58
+67
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.6",
+"stichworte": [
+"Neuberechnung Quellensteuer",
+"falscher Bruttolohn",
+"falsche Tarifanwendung",
+"31. März",
+"keine zusätzlichen Abzüge"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Neuberechnung kann bis 31. März des Folgejahres bei falschem Bruttolohn, falschem satzbestimmendem Einkommen oder falscher Tarifanwendung beantragt werden; zusätzliche Abzüge nur über die NOV.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0216",
 "nachher": "bund-ks-45__c0218"
 },
 {
 "id": "bund-ks-45__c0218",
-"titel": "KS 45 – Abschnitt 218",
-"pfad": [],
+"titel": "Ziff. 11.6 Neuberechnung der Quellensteuer (Teil 2/2)",
+"pfad": [
+"11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
+"11.6 Neuberechnung der Quellensteuer"
+],
 "seiten": [
-58
+67
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11.6",
+"stichworte": [
+"Neuberechnung Quellensteuer",
+"falscher Bruttolohn",
+"falsche Tarifanwendung",
+"31. März",
+"keine zusätzlichen Abzüge"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0217",
 "nachher": "bund-ks-45__c0219"
 },
 {
 "id": "bund-ks-45__c0219",
-"titel": "KS 45 – Abschnitt 219",
-"pfad": [],
+"titel": "Ziff. 12.1 Wechsel von der Quellenbesteuerung zur ordentlichen Veranlagung (Teil 1/2)",
+"pfad": [
+"12 Wechsel zwischen Quellenbesteuerung und ordentlicher Veranlagung",
+"12.1 Quellenbesteuerung zu ordentlicher Veranlagung"
+],
 "seiten": [
-58
+68
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "12.1",
+"stichworte": [
+"Niederlassungsbewilligung C",
+"Schweizer Bürgerrecht",
+"Heirat mit Schweizer",
+"AHV-Rentenalter",
+"volle Invaliditätsrente",
+"Entlassung aus Quellensteuer"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Entlassung aus der Quellensteuer bei Niederlassungsbewilligung, Schweizer Bürgerrecht, Heirat mit einer solchen Person, Erreichen des AHV-Rentenalters ohne quellenbesteuerte Einkünfte oder voller IV-Rente, ab dem ersten Tag des Folgemonats.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0218",
 "nachher": "bund-ks-45__c0220"
 },
 {
 "id": "bund-ks-45__c0220",
-"titel": "KS 45 – Abschnitt 220",
-"pfad": [],
+"titel": "Ziff. 12.1 Wechsel von der Quellenbesteuerung zur ordentlichen Veranlagung (Teil 2/2)",
+"pfad": [
+"12 Wechsel zwischen Quellenbesteuerung und ordentlicher Veranlagung",
+"12.1 Quellenbesteuerung zu ordentlicher Veranlagung"
+],
 "seiten": [
-59
+68
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "12.1",
+"stichworte": [
+"Niederlassungsbewilligung C",
+"Schweizer Bürgerrecht",
+"Heirat mit Schweizer",
+"AHV-Rentenalter",
+"volle Invaliditätsrente",
+"Entlassung aus Quellensteuer"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0219",
 "nachher": "bund-ks-45__c0221"
 },
 {
 "id": "bund-ks-45__c0221",
-"titel": "KS 45 – Abschnitt 221",
-"pfad": [],
+"titel": "Ziff. 12.2 Wechsel von der ordentlichen Veranlagung zur Quellenbesteuerung",
+"pfad": [
+"12 Wechsel zwischen Quellenbesteuerung und ordentlicher Veranlagung",
+"12.2 Ordentliche Veranlagung zu Quellenbesteuerung"
+],
 "seiten": [
-59
+68
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "12.2",
+"stichworte": [
+"Rückfall in Quellenbesteuerung",
+"Scheidung",
+"Trennung",
+"Tod des Ehegatten",
+"Vorauszahlungen anrechnen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Fallen die Voraussetzungen weg (z.B. Scheidung ohne Bewilligung C/Bürgerrecht), gilt ab dem Folgemonat wieder die Quellenbesteuerung und es folgt eine NOV für die ganze Steuerperiode.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-45__c0220",
 "nachher": "bund-ks-45__c0222"
 },
 {
 "id": "bund-ks-45__c0222",
-"titel": "KS 45 – Abschnitt 222",
-"pfad": [],
-"seiten": [
-59
+"titel": "Ziff. 13 Inkrafttreten, Übergangsrecht und Anhänge",
+"pfad": [
+"13 Inkrafttreten, Aufhebungen und Übergangsrecht"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0221",
-"nachher": "bund-ks-45__c0223"
-},
-{
-"id": "bund-ks-45__c0223",
-"titel": "KS 45 – Abschnitt 223",
-"pfad": [],
-"seiten": [
-59
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0222",
-"nachher": "bund-ks-45__c0224"
-},
-{
-"id": "bund-ks-45__c0224",
-"titel": "KS 45 – Abschnitt 224",
-"pfad": [],
-"seiten": [
-60
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0223",
-"nachher": "bund-ks-45__c0225"
-},
-{
-"id": "bund-ks-45__c0225",
-"titel": "KS 45 – Abschnitt 225",
-"pfad": [],
-"seiten": [
-60
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0224",
-"nachher": "bund-ks-45__c0226"
-},
-{
-"id": "bund-ks-45__c0226",
-"titel": "KS 45 – Abschnitt 226",
-"pfad": [],
-"seiten": [
-60
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0225",
-"nachher": "bund-ks-45__c0227"
-},
-{
-"id": "bund-ks-45__c0227",
-"titel": "KS 45 – Abschnitt 227",
-"pfad": [],
-"seiten": [
-60
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0226",
-"nachher": "bund-ks-45__c0228"
-},
-{
-"id": "bund-ks-45__c0228",
-"titel": "KS 45 – Abschnitt 228",
-"pfad": [],
-"seiten": [
-61
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0227",
-"nachher": "bund-ks-45__c0229"
-},
-{
-"id": "bund-ks-45__c0229",
-"titel": "KS 45 – Abschnitt 229",
-"pfad": [],
-"seiten": [
-61
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0228",
-"nachher": "bund-ks-45__c0230"
-},
-{
-"id": "bund-ks-45__c0230",
-"titel": "KS 45 – Abschnitt 230",
-"pfad": [],
-"seiten": [
-61
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0229",
-"nachher": "bund-ks-45__c0231"
-},
-{
-"id": "bund-ks-45__c0231",
-"titel": "KS 45 – Abschnitt 231",
-"pfad": [],
-"seiten": [
-61
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0230",
-"nachher": "bund-ks-45__c0232"
-},
-{
-"id": "bund-ks-45__c0232",
-"titel": "KS 45 – Abschnitt 232",
-"pfad": [],
-"seiten": [
-62
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0231",
-"nachher": "bund-ks-45__c0233"
-},
-{
-"id": "bund-ks-45__c0233",
-"titel": "KS 45 – Abschnitt 233",
-"pfad": [],
-"seiten": [
-63
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0232",
-"nachher": "bund-ks-45__c0234"
-},
-{
-"id": "bund-ks-45__c0234",
-"titel": "KS 45 – Abschnitt 234",
-"pfad": [],
-"seiten": [
-63
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0233",
-"nachher": "bund-ks-45__c0235"
-},
-{
-"id": "bund-ks-45__c0235",
-"titel": "KS 45 – Abschnitt 235",
-"pfad": [],
-"seiten": [
-63
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0234",
-"nachher": "bund-ks-45__c0236"
-},
-{
-"id": "bund-ks-45__c0236",
-"titel": "KS 45 – Abschnitt 236",
-"pfad": [],
-"seiten": [
-64
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0235",
-"nachher": "bund-ks-45__c0237"
-},
-{
-"id": "bund-ks-45__c0237",
-"titel": "KS 45 – Abschnitt 237",
-"pfad": [],
-"seiten": [
-64
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0236",
-"nachher": "bund-ks-45__c0238"
-},
-{
-"id": "bund-ks-45__c0238",
-"titel": "KS 45 – Abschnitt 238",
-"pfad": [],
-"seiten": [
-64
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0237",
-"nachher": "bund-ks-45__c0239"
-},
-{
-"id": "bund-ks-45__c0239",
-"titel": "KS 45 – Abschnitt 239",
-"pfad": [],
-"seiten": [
-64
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0238",
-"nachher": "bund-ks-45__c0240"
-},
-{
-"id": "bund-ks-45__c0240",
-"titel": "KS 45 – Abschnitt 240",
-"pfad": [],
-"seiten": [
-65
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0239",
-"nachher": "bund-ks-45__c0241"
-},
-{
-"id": "bund-ks-45__c0241",
-"titel": "KS 45 – Abschnitt 241",
-"pfad": [],
-"seiten": [
-65
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0240",
-"nachher": "bund-ks-45__c0242"
-},
-{
-"id": "bund-ks-45__c0242",
-"titel": "KS 45 – Abschnitt 242",
-"pfad": [],
-"seiten": [
-65
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0241",
-"nachher": "bund-ks-45__c0243"
-},
-{
-"id": "bund-ks-45__c0243",
-"titel": "KS 45 – Abschnitt 243",
-"pfad": [],
-"seiten": [
-65
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0242",
-"nachher": "bund-ks-45__c0244"
-},
-{
-"id": "bund-ks-45__c0244",
-"titel": "KS 45 – Abschnitt 244",
-"pfad": [],
-"seiten": [
-65
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0243",
-"nachher": "bund-ks-45__c0245"
-},
-{
-"id": "bund-ks-45__c0245",
-"titel": "KS 45 – Abschnitt 245",
-"pfad": [],
-"seiten": [
-66
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0244",
-"nachher": "bund-ks-45__c0246"
-},
-{
-"id": "bund-ks-45__c0246",
-"titel": "KS 45 – Abschnitt 246",
-"pfad": [],
-"seiten": [
-66
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0245",
-"nachher": "bund-ks-45__c0247"
-},
-{
-"id": "bund-ks-45__c0247",
-"titel": "KS 45 – Abschnitt 247",
-"pfad": [],
-"seiten": [
-66
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0246",
-"nachher": "bund-ks-45__c0248"
-},
-{
-"id": "bund-ks-45__c0248",
-"titel": "KS 45 – Abschnitt 248",
-"pfad": [],
-"seiten": [
-66
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0247",
-"nachher": "bund-ks-45__c0249"
-},
-{
-"id": "bund-ks-45__c0249",
-"titel": "KS 45 – Abschnitt 249",
-"pfad": [],
-"seiten": [
-66
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0248",
-"nachher": "bund-ks-45__c0250"
-},
-{
-"id": "bund-ks-45__c0250",
-"titel": "KS 45 – Abschnitt 250",
-"pfad": [],
-"seiten": [
-67
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0249",
-"nachher": "bund-ks-45__c0251"
-},
-{
-"id": "bund-ks-45__c0251",
-"titel": "KS 45 – Abschnitt 251",
-"pfad": [],
-"seiten": [
-67
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0250",
-"nachher": "bund-ks-45__c0252"
-},
-{
-"id": "bund-ks-45__c0252",
-"titel": "KS 45 – Abschnitt 252",
-"pfad": [],
-"seiten": [
-67
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0251",
-"nachher": "bund-ks-45__c0253"
-},
-{
-"id": "bund-ks-45__c0253",
-"titel": "KS 45 – Abschnitt 253",
-"pfad": [],
-"seiten": [
-68
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0252",
-"nachher": "bund-ks-45__c0254"
-},
-{
-"id": "bund-ks-45__c0254",
-"titel": "KS 45 – Abschnitt 254",
-"pfad": [],
-"seiten": [
-68
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0253",
-"nachher": "bund-ks-45__c0255"
-},
-{
-"id": "bund-ks-45__c0255",
-"titel": "KS 45 – Abschnitt 255",
-"pfad": [],
-"seiten": [
-68
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0254",
-"nachher": "bund-ks-45__c0256"
-},
-{
-"id": "bund-ks-45__c0256",
-"titel": "KS 45 – Abschnitt 256",
-"pfad": [],
 "seiten": [
 69
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "13",
+"stichworte": [
+"Inkrafttreten 1. Januar 2021",
+"Übergangsrecht",
+"Rulings",
+"Anhang Musterformulare",
+"Kantone Monatsmodell Jahresmodell"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-45__c0255",
+"zusammenfassung": "Das Kreisschreiben tritt am 1. Januar 2021 in Kraft; altrechtliche Vorbescheide entfalten ab der Steuerperiode 2021 keine Wirkung mehr; Anhänge I–III (Musterformulare, Übersicht NOV, Kantone mit Monats-/Jahresmodell).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-45__c0221",
 "nachher": null
 }
 ]

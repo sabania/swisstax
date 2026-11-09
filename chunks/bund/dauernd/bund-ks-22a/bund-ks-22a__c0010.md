@@ -4,24 +4,23 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 10"
-seiten: "3"
+titel: "Ziff. 3.1 Maximal zulässiger Schuldzinsenabzug – Grundbetrag 50'000 Franken"
+ziffer: "3.1"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.1 · S. 4
 
-<!-- Seite 3 -->
-Die Qualifikation von ausländischen Beteiligungsrechten erfolgt in sinngemässer Anwendung
-von Artikel 49 Absatz 3 DBG. Die Gründerrechte an einer liechtensteinischen Anstalt mit
-ungeteiltem Kapital stellen keine Beteiligungsrechte im Sinn des Artikels 20 Absatz 1bis DBG
-dar.
+3.   Beschränkung des Schuldzinsenabzugs
 
-2.2.2. Erforderliches Ausmass der Beteiligung
+3.1.   Berechnung des maximal zulässigen Schuldzinsenabzugs
 
-Für die Teilbesteuerung kommen nur Beteiligungsrechte in Betracht, die mindestens 10 Pro
-zent am Grund- oder Stammkapital einer Kapitalgesellschaft oder Genossenschaft ausma
-chen (Eigentum oder Nutzniessung).
+Bei der Festsetzung des steuerbaren Einkommens entspricht der maximal zulässige Schuld-
+zinsenabzug den steuerbaren Erträgen aus Privatvermögen zuzüglich eines Grundbetrages
+von 50‘000 Franken. Dieser Grundbetrag gilt sowohl für verheiratete Personen, die in recht
+lich und tatsächlich ungetrennter Ehe leben, eingetragene Partnerinnen oder Partner und
+Kinder unter elterlicher Sorge gesamthaft (Art. 9 DBG) als auch für die übrigen Steuerpflich
+tigen.
 
-Die sich im Besitz von Ehegatten, eingetragener Partnerinnen und Partnern sowie Kindern
-unter elterlicher Sorge, die zusammen veranlagt werden, befindenden Beteiligungsrechte
-werden zusammengerechnet.
+Schuldzinsen können auch ohne Erträge aus beweglichem oder unbeweglichem Vermögen
+bis zum Betrag von 50‘000 Franken in Abzug gebracht werden.

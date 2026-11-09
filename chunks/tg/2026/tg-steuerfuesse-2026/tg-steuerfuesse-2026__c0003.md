@@ -4,11 +4,11 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 3"
+titel: "Durchschnittlicher Gemeindesteuerfuss 55.8 % – tiefster/höchster Steuerfuss"
 seiten: "2"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 2
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Gemeindesteuerfuss · S. 2
 
 Durchschnittlicher Gemeindesteuerfuss sinkt
 minim
@@ -20,5 +20,3 @@ Im Vergleich zu vor zwanzig Jahren bleibt er aber auf tiefem Ni-   Folge die Gem
 veau. Vor allem zwischen 2000 und 2012 sank der durchschnitt-   den Rang aufgrund der Steuerfusserhöhung mit Horn. Auf Rang 2
 liche Steuerfuss der Gemeinden kräftig (von 74.8 % auf 58.6 %).   liegt Tägerwilen (36 %), gefolgt von Bottighofen (37 %). Ebenfalls
     unter 40 % liegen die Steuerfüsse in Dozwil und Neunforn (je
-Höhere Gemeindesteuerfüsse in 4 Gemeinden
-    39 %). Nach der Steuerfusssenkung in Arbon liegen neu Arbon

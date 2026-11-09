@@ -4,37 +4,32 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 69"
+titel: "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Dielsdorf"
 seiten: "31"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 31
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Geschäftshäuser/Industrie · S. 31
 
-<!-- Seite 31 -->
-Landwerte Bauland für Geschäftshäuser sowie industrielle und gewerbliche Bauten
-    Geschäftshäuser   Industrie- und
-    (Ziff. 14)   Gewerbebauten
-    (Ziff. 15 und 49)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 1   LK 2   LK 3   LK 4
-
-Bezirk Bülach
-Bachenbülach   1   570   –   –   –   360   –   –   –
-Bassersdorf   1   750   –   –   –   410   –   –   –
-Bülach   1   1080   –   –   –   380   –   –   –
-Dietlikon   1   880   –   –   –   380   –   –   –
-Eglisau   1   440   –   –   –   290   –   –   –
-Embrach   1   530   –   –   –   360   –   –   –
-Freienstein-Teufen   1   440   –   –   –   290   –   –   –
-Glattfelden   1   440   –   –   –   290   –   –   –
-Hochfelden   1   440   –   –   –   290   –   –   –
-Höri   1   530   –   –   –   360   –   –   –
-Hüntwangen   1   440   –   –   –   290   –   –   –
-Kloten   1   1080   –   –   –   610   –   –   –
-Lufingen   1   440   –   –   –   290   –   –   –
-Nürensdorf   1   440   –   –   –   290   –   –   –
-Oberembrach   1   360   –   –   –   250   –   –   –
-Opfikon   1   1080   –   –   –   610   –   –   –
-Rafz   1   440   –   –   –   290   –   –   –
-Rorbas   1   440   –   –   –   290   –   –   –
-Wallisellen   1   1080   –   –   –   610   –   –   –
+Bezirk Dielsdorf
+Bachs   1   290   –   –   –   140   –   –   –
+Boppelsen   1   440   –   –   –   290   –   –   –
+Buchs   1   760   –   –   –   360   –   –   –
+Dällikon   1   600   –   –   –   350   –   –   –
+Dänikon   1   440   –   –   –   290   –   –   –
+Dielsdorf   1   830   –   –   –   450   –   –   –
+Hüttikon   1   440   –   –   –   290   –   –   –
+Neerach   1   440   –   –   –   290   –   –   –
+Niederglatt   1   550   –   –   –   360   –   –   –
+Niederhasli   1   550   –   –   –   360   –   –   –
+Niederweningen   1   440   –   –   –   290   –   –   –
+Oberglatt   1   530   –   –   –   360   –   –   –
+Oberweningen   1   440   –   –   –   290   –   –   –
+Otelfingen   1   600   –   –   –   350   –   –   –
+Regensberg   1   440   –   –   –   290   –   –   –
+Regensdorf   1   740   –   –   –   470   –   –   –
+Rümlang   1   830   –   –   –   610   –   –   –
+Schleinikon   1   440   –   –   –   290   –   –   –
+Schöfflisdorf   1   440   –   –   –   290   –   –   –
+Stadel   1   440   –   –   –   290   –   –   –
+Steinmaur   1   530   –   –   –   360   –   –   –
+Weiach   1   440   –   –   –   290   –   –   –

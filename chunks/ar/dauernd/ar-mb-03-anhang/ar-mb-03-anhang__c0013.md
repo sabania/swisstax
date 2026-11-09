@@ -4,31 +4,30 @@ quelle: ar-mb-03-anhang
 jur: ar
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB AR 03-anhang – Abschnitt 13"
-seiten: "4"
+titel: "Ziff. 5.1 Garten – Blumengarten, Gartenmöbel, Lebhäge, Terrain, Stützmauern"
+ziffer: "5.1"
+seiten: "5"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 4
+> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 5 Umgebung › 5.1 Gartenunterhalt · S. 5
 
- 5.1 Gartenunterhalt
-  - Geräte
-    a) Rasenmäher
+    - Aufwendungen für Blumen- und Gemüsegarten sowie zur   1/1
+    Gewinnung von Beeren und Baumfrüchten inkl. schneiden und
+    spritzen
+    - Auslagen für Topf- und Zimmerpflanzen sowie Hochbeete   1/1
+    und Pflanzentröge
+    b) Fahrnisgegenstände wie Gartenmöbel, Sonnenschirme etc.   1/1
+    c) Lebhäge (z.B. Thuja) und Sichtschutz
+    - gleichwertiger Ersatz   1/1
+    - Ersatz Lebhäge durch Sichtschutzwände (z.B. WPC/Holz)   1/1
+    - Ersatz Lebhäge durch hochwertige Häge (z.B. Granitstelen)   1/3   2/3
     - erstmalige Anschaffung   1/1
-    - Reparatur, Service oder gleichwertiger Ersatz   1/1
-    - Ersatz Rasenmäher durch Rasenroboter   1/1
-    b) Anschaffung/Ersatz von Geräten wie Rasentrimmer,   1/1
-    Laubbläser, Hochdruckreiniger, Hacken, Schaufeln, Rechen,
-    Besen, Gartenschlauch, Fliess, Heckenschere,
-    Gartenschredder etc.
-  - Gartenanlage
-    a) Pflanzen, Sträucher und Bäume
-    - gleichwertiger Ersatz mehrjähriger Pflanzen, Sträucher und   1/1
-    Bäume
-    - ordentlicher Gartenunterhalt, normale Rasenpflege,   1/1
-    Baumschnitt etc. (keine luxuriösen Aufwendungen)
-    - erstmaliges Ansetzen   1/1
-    - Grünabfuhr, Häckseldienst, Dünger und weitere   1/1
-    Verbrauchsmaterialien/-mitteln
-    - Kosten für das Überwintern von Pflanzen   1/1
-
-21.11.2024   Seite 4 von 7
+    d) Unterhalt an weiteren Umgebungselementen, sofern in der   1/1
+    Mietwertschätzung enthalten (z.B. Teichanlagen, Gartenhäuser
+    etc.)
+    e) Terrainveränderungen/Gartenumgestaltung   1/1
+    f) erstmaliges Erstellen von Steingärten, Biotopen, Grillplätzen,   1/1
+    Brunnen etc.
+    g) Stützmauern/Trockenmauern
+    - erstmalige Erstellung   1/1
+    - gleichwertiger Ersatz   1/1

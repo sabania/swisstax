@@ -4,18 +4,25 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 12"
-seiten: "3"
+titel: "Ziff. 5.4 Abzug für in der 2. Säule Versicherte (kleine Säule 3a, 8 %)"
+ziffer: "5.4"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 3
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.4 Mit 2. Säule · S. 5
 
-Weist der Vorsorgenehmer nach, dass er erwerbstätig ist und ein AHV-pflichtiges Erwerbs-
-einkommen erzielt, kann er bis höchstens fünf Jahre nach Erreichen des Referenzalters ge-
-mäss Artikel 21 Absatz 1 des Bundesgesetzes über die Alters- und Hinterlassenenversiche-
-rung (AHVG; SR 831.10) die eingebrachten Beiträge zum Abzug bringen. Personen, die über
-das Referenzalter gemäss Artikel 21 Absatz 1 AHVG hinaus erwerbstätig sind, können wei-
-terhin Säule 3a-Beiträge leisten. Dies gilt selbst dann, wenn sie ein Einkommen unterhalb
-des Freibetrags gemäss Artikel 6quater der Verordnung vom 31. Oktober 1947 über die Alters-
-und Hinterlassenenversicherung (AHVV; SR 831.101) erzielen (im Zeitpunkt der Publikation
-dieses Kreisschreibens beträgt der Freibetrag CHF 16'800 pro Arbeitgeber). Den Nachweis
+5.4. Abzug für Steuerpflichtige, die einer Einrichtung der beruflichen Vorsorge
+    (2. Säule) angehören
+In der 2. Säule versicherte Arbeitnehmer und Selbständigerwerbende können gemäss Arti-
+kel 7 Absatz 1 Buchstabe a BVV 3 ihre im betreffenden Jahr tatsächlich geleisteten Beiträge
+an anerkannte Vorsorgeformen bis 8 Prozent des oberen Grenzbetrages abziehen. Dieser
+Abzug kann von allen in Frage kommenden erwerbstätigen Steuerpflichtigen beansprucht
+werden, unabhängig davon, ob sie in der 2. Säule obligatorisch oder freiwillig versichert sind.
+Nach Artikel 7 Absatz 2 BVV 3 können Ehegatten oder eingetragene Partnerinnen oder Part-
+ner, die beide einer Erwerbstätigkeit nachgehen, den Abzug je für sich geltend machen. Da-
+bei ist es unerlässlich, dass der entsprechende Vorsorgevertrag auf ihn als Vorsorgenehmer
+lautet. Der höchstzulässige Abzug richtet sich für jeden Ehegatten oder eingetragene Part-
+ner/in einzeln danach, ob er/sie in der beruflichen Vorsorge versichert ist oder nicht. Voraus-
+setzung für die Geltendmachung eines Abzuges ist das Ausweisen eines AHV-pflichtigen Er-
+werbseinkommens des entsprechenden Ehegatten oder eingetragenen Partners/in in der
+Steuererklärung.

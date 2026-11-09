@@ -4,7 +4,7 @@ quelle: ar-stg
 jur: ar
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 237 StG AR – Steuerbefreiung (Teil 2/3)"
+titel: "Art. 237 StG AR – Steuerbefreiung (Teil 2/2)"
 artikel: "Art. 237"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
@@ -16,3 +16,5 @@ qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 - b) Handänderungen bei vollständiger oder teilweiser Veräusserung eines selbstbewirtschafteten land- oder forstwirtschaftlich genutzten Grundstücks, soweit der Erlös innert angemessener Frist zum Erwerb eines selbstbewirtschafteten Ersatzgrundstücks oder zur Verbesserung der eigenen, selbstbewirtschafteten land- oder forstwirtschaftlichen Grundstücke im Kanton verwendet wird.
 **Abs. 3** Die erwerbende Person ist von der Handänderungssteuer befreit bei:
 - a) Handänderungen beim Erwerb eines neuen betriebsnotwendigen Ersatzgrundstücks im Kanton, soweit der eingesetzte Erlös aus der Veräusserung eines Grundstücks des Anlagevermögens stammt und innert angemessener Frist erfolgt;
+
+- b) Handänderungen beim Erwerb eines selbstbewirtschafteten land- oder forstwirtschaftlichen Ersatzgrundstücks, soweit der eingesetzte Erlös aus der Veräusserung eines selbstbewirtschafteten land- oder forstwirtschaftlichen Grundstücks im Kanton stammt und innert angemessener Frist erfolgt.

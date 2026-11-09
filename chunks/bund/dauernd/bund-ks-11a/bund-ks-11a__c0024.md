@@ -4,22 +4,26 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 24"
-seiten: "6"
+titel: "Ziff. 4.3.2–4.3.3 Kinderbetreuung und Tagesstrukturen"
+ziffer: "4.3.2–4.3.3"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8
 
-3.2.10   Besondere Ernährungskosten
-Die Mehrkosten einer ärztlich angeordneten, lebensnotwendigen Sonderernährung (Einnahme
-von bestimmten Lebensmitteln, Spezial- oder Ergänzungsnahrung, Aufbau- und Sonderkost)
-können abgezogen werden. Vom Begriff der Krankheitskosten nicht erfasst sind Aufwendungen
-für eine allgemein empfohlene, gesundheitsbewusste Ernährung, welche von einem grossen
-Teil der Bevölkerung befolgt wird (vgl. Urteil des Bundesgerichts 2C_722/2007 vom 14. April
-2007 E. 3.4).
-Anstelle des Abzugs der effektiven selbstgetragenen Mehrkosten kann bei ärztlich angeordne
-ter, lebensnotwendiger Sonderernährung eine Pauschale von jährlich CHF 1'500 pro erkrankter
-Person geltend gemacht werden. Die Pauschale ist bei der Berechnung des Selbstbehalts von
-5 Prozent zu berücksichtigen (vgl. Ziff. 5.3).
+4.3.2   Kosten für Kinderbetreuung
+Kosten der aufgrund einer Behinderung notwendigen Hilfe bei der Kinderbetreuung eigener Kin
+der sind abzugsfähig, sofern eine ärztliche Bescheinigung darüber vorliegt (z.B. gemäss Frage
+bogen in der Beilage), dass und in welchem Umfang behinderungsbedingt Dritthilfe für die Kin
+derbetreuung benötigt wird.
+Behinderungsbedingte Kinderdrittbetreuungskosten sind zudem nur im Umfang abzugsfähig, in
+welchem sie den gewährten Abzug für Kinderdrittbetreuungskosten übersteigen (vgl. Art. 33
+Abs. 3 DBG und Kreisschreiben Nr. 30 der ESTV vom 21. Dezember 2010 [Ziff. 8.3]).
 
-4   Behinderungsbedingte Kosten
+
+4.3.3   Kosten für den Aufenthalt in Tagesstrukturen
+Als behinderungsbedingte Kosten gelten die Aufenthaltskosten in speziellen Tagesstrukturen
+für Personen mit Behinderung (Beschäftigungsstätten, Tageszentren etc.). Nicht zum Abzug zu
+gelassen sind die Kosten der üblichen Verpflegung. Falls die nicht abzugsfähigen Verpflegungs
+kosten nicht separat ausgewiesen sind, können sie nach den Ansätzen gemäss dem Merkblatt
+der ESTV Naturalbezüge von Arbeitnehmenden berechnet werden.

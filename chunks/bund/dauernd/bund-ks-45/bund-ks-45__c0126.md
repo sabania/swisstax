@@ -4,21 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 126"
-seiten: "32"
+titel: "Ziff. 7.3.2 Teilzeit und mehrere Erwerbstätigkeiten – Umrechnungsmethode (Teil 2/2)"
+ziffer: "7.3.2"
+seiten: "40"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 32
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.2 Teilzeit-Erwerbstätigkeiten · S. 40
 
-Bei Leistungen, auf die der Rechtsanspruch erst nach Beendigung des Arbeitsverhältnisses
-entstanden ist (bspw. nachträglich von der Geschäftsleitung beschlossene Bonuszahlungen
-bzw. Abgangsentschädigungen oder nachträglich durchgesetzte Lohnforderungen), muss
-der Quellensteuerabzug separat berechnet werden. Massgebend für die Bestimmung des
-anwendbaren Tarifcodes sind die Verhältnisse im Zeitpunkt der Auszahlung dieser Leistung.
-Für die Ermittlung des satzbestimmenden Einkommens sind alle vom Arbeitnehmer im sel-
-ben Monat – im Ausland wie auch in der Schweiz – erzielten Erwerbseinkünfte (inkl. Ersatz-
-einkünfte) beizuziehen. Sind dem Arbeitgeber diese zusätzlichen Einkünfte nicht bekannt, so
-kann er zur Satzbestimmung den letzten von ihm ausbezahlten und der Quellenbesteuerung
-unterworfenen Bruttomonatslohn berücksichtigen. Allfällige Beschränkungen durch DBA sind
-zu beachten (vgl. Ziffer 6.7 oben).
-Lohnfortzahlungen an einen im Ausland ansässigen Arbeitnehmer, der nach erfolgter Kündi-
+    grad dem Arbeitgeber mitteilt;
+  2. Umrechnung auf einen Beschäftigungsgrad von 100 Prozent, wenn der effektive Ge-
+    samtbeschäftigungsgrad durch den Arbeitnehmer nicht offengelegt wird;
+  3. Umrechnung auf das tatsächliche Gesamtbruttoeinkommen, sofern die Einkünfte dem
+    Schuldner der steuerbaren Leistung bekannt sind bzw. bekannt gegeben werden
+    (bspw. im Konzern oder mehrere Arbeitsverträge beim gleichen Schuldner der steuer-
+    baren Leistung).
+Dies gilt auch, wenn eine oder mehrere der Erwerbstätigkeiten ausserhalb der Schweiz ver-
+richtet wird resp. Werden, bzw. wenn Ersatzeinkünfte im Ausland ausbezahlt wird resp. wer-
+den.

@@ -4,25 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 25"
-seiten: "6"
+titel: "Ziff. 3.2.1 Steuerbare Einkünfte aus Arbeitsverhältnis – Bruttoeinkünfte (Teil 2/2)"
+ziffer: "3.2.1"
+seiten: "9-10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.2 Steuerbare Leistungen · S. 9–10
 
-2.2.2 Beim Personalverleih
-Bei Arbeitnehmern, die im Rahmen eines Personalverleihs im Sinne des Bundesgesetzes
-vom 6. Oktober 1989 über die Arbeitsvermittlung und den Personalverleih (AVG; SR 823.11)
-tätig werden, gilt in der Regel der Arbeitnehmerverleiher als Arbeitgeber bzw. Schuldner der
-steuerbaren Leistung (vgl. Art. 12 Abs. 1 AVG). Bei einer Aneinanderreihung von mehreren
-Verleihverhältnissen (sog. Ketten-Personalverleih) gilt grundsätzlich der letzte Verleiher, der
-den Arbeitnehmer an den Endkunden bzw. Einsatzbetrieb (Entleiher) verleiht, als Arbeitge-
-ber (vgl. Urteil des BGer vom 13. Mai 2015, 2C_978/2014 bzw. 2C_979/2014).
-Der Personalverleih vom Ausland in die Schweiz durch einen ausländischen Verleiher ist ge-
-mäss Artikel 12 Absatz 2 AVG verboten. Wird ein Arbeitnehmer dennoch von einem Perso-
-nalverleiher mit Sitz im Ausland an einen Einsatzbetrieb in der Schweiz verliehen, gilt der
-schweizerische Einsatzbetrieb als Arbeitgeber und Schuldner der steuerbaren Leistung im
-Sinne des Quellensteuerrechts (vgl. Art. 4 Abs. 2 Bst. c QStV). Dies gilt auch dann, wenn der
-Lohn durch den ausländischen Personalverleiher ausbezahlt wird (vgl. Weisungen und Er-
-läuterungen des Staatssekretariats für Wirtschaft SECO vom 21.11.2017 zum AVG).
-Zur Steuerbarkeit der Leistungen vgl. Ziffer 3.2.9 unten.
+     Naturalleistungen (Unterkunft und Verpflegung, Geschäftsauto);
+     Trinkgelder (sofern diese einen wesentlichen Teil des Lohnes ausmachend; vgl. Rand-
+    ziffer 32 der «Wegleitung zum Ausfüllen des Lohnausweises»);
+     Tantiemen, Sitzungsgelder,
+     Geldwerte Vorteile aus Mitarbeiterbeteiligungen und andere geldwerte Vorteile; sowie
+     Abgangsentschädigungen.
+Weitere Gehaltsnebenleistungen sind gemäss den Randziffern 19 bis 26 der «Wegleitung
+zum Ausfüllen des Lohnausweises» zum Bruttolohn hinzuzurechnen. Nicht der Quellen-
+steuer unterliegen Leistungen des Arbeitgebers, die im Rahmen von Randziffer 72 der
+«Wegleitung zum Ausfüllen des Lohnausweises» ausgerichtet werden.

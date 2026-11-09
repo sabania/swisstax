@@ -4,24 +4,28 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 36"
-seiten: "13"
+titel: "Rz 44–46 Ziffer 10.1/10.2 Ordentliche Beiträge und Einkauf in die 2. Säule (Teil 1/2)"
+ziffer: "10.1–10.2 / 44–46"
+seiten: "14-15"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 13
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 10.1/10.2 · S. 14–15
 
-<!-- Seite 13 -->
-Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+Ordentliche Beiträge für die berufliche Vorsorge   Ziffer 10.1
 
-Verwaltungsratsentschädigungen   Ziffer 6
+In diesem Feld sind die nach Gesetz, Statut oder Reglement geleisteten ordentlichen Bei   44
+träge für die berufliche Vorsorge (2. Säule) einzutragen.
 
-In diesem Feld sind alle Entschädigungen anzugeben, die einer Person in ihrer Eigenschaft   30
-als Mitglied des Verwaltungsrats oder eines anderen Leitungsorgans (z.B. Stiftungsrat) als
-Lohn für eine unselbstständige Tätigkeit ausgerichtet wurden.
+Beiträge für den Einkauf in die berufliche Vorsorge   Ziffer 10.2
 
+In diesem Feld sind die im Bruttolohn enthaltenen, dem Arbeitnehmer vom Lohn abgezoge   45
+nen Beiträge an Vorsorgeeinrichtungen (2. Säule) anzugeben, die der Verbesserung des
+Vorsorgeschutzes bis (höchstens) zu den vollen reglementarischen Leistungen dienen.
 Es sind dies vor allem:
-•   Verwaltungsratsentschädigungen
-•   Sitzungsgelder
-•   Tantiemen
-
-Andere Leistungen   Ziffer 7
+•   Beiträge für den Einkauf von fehlenden Versicherungsjahren oder von fehlendem Spar-
+    bzw. Deckungskapital;
+•   Beiträge für den Einkauf, der durch eine Änderung des Reglements oder des Vorsorge
+    plans bedingt ist;
+•   Beiträge für den Wiedereinkauf nach einer Scheidung.
+Zusätzlich sind die vom Arbeitgeber übernommenen Arbeitnehmerbeiträge anzugeben, so
+fern sie in Ziffer 7 des Lohnausweises aufgeführt sind (vgl. Rz 36).

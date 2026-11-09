@@ -4,14 +4,22 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 42"
-seiten: "10"
+titel: "Ziff. 11 Besteuerung bei Leistungen im Todesfall; Ziff. 12 Inkrafttreten (1. Januar 2026)"
+ziffer: "11–12"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 10
+> Bund · Steuerjahr 2026 · KS 18a · 11. Todesfall / 12. Inkrafttreten · S. 13
 
-Eine Ausrichtung unter dem Titel „Wohneigentumsförderung“ ist nur bis zu dem in Artikel 3
-Absatz 1 BVV 3 festgelegten Alter möglich. Überschreitet der Versicherte dieses Alter, kann
-er nur die gesamte Leistung aus dem fraglichen Vorsorgeverhältnis – zu welchem Zweck
-auch immer – beziehen. Die Auflösung des Vorsorgeverhältnisses hat sodann die Besteue-
-rung der entsprechenden Leistung als Ganzes zur Folge.
+11. Besteuerung bei Leistungen im Todesfall
+Säule 3a-Guthaben gehören grundsätzlich nicht zur Erbmasse des Erblassers. Die Begüns-
+tigten (vgl. Ziffer 4) haben einen eigenen Anspruch auf die ihnen zugewiesene Leistung (Art.
+82 Abs. 4 BVG). Die Auszahlung eines Säule 3a-Guthabens an eine begünstigte Person un-
+terliegt damit stets der Einkommenssteuer (vgl. Ziffer 6.1). Wenn pflichtteilsgeschützte Erben
+infolge einer erfolgreichen Herabsetzungsklage eine Auszahlung aus einem Säule 3a-Gutha-
+ben erhalten, unterliegt auch diese der Einkommenssteuer (vgl. Ziffer 6.1).
+
+
+12. Inkrafttreten
+Das vorliegende Kreisschreiben tritt per 1. Januar 2026 in Kraft. Es ersetzt das Kreisschrei-
+ben Nr. 18 vom 17. Juli 2008.

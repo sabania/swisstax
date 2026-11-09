@@ -4,21 +4,22 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 28"
-seiten: "7"
+titel: "Ziff. 3.2.2 Beschränkt steuerbare Einkünfte – schweizerische Arbeitstage (Teil 1/2)"
+ziffer: "3.2.2"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.2 Steuerbare Leistungen · S. 10
 
-<!-- Seite 7 -->
-Zur Beurteilung, ob der entsandte Arbeitnehmer seine Arbeitsleistungen gegenüber seinem
-formellen Arbeitgeber oder gegenüber einer anderen Unternehmung zu erbringen hat, muss
-eine Würdigung gemäss jeweiliger Indizienlage vorgenommen werden. Primär entscheidend
-sind die tatsächlich gelebten Verhältnisse. Die Bezeichnungen in den Verträgen sind nicht
-massgebend. Als Arbeitgeber gilt dabei diejenige natürliche oder juristische Person, die ei-
-nerseits das Recht auf die Arbeitsergebnisse bzw. auf die Arbeitsleistungen hat und die an-
-dererseits die damit zusammenhängenden Verantwortlichkeiten und Risiken trägt. Das Recht
-an den Arbeitsergebnissen bzw. an den Arbeitsleistungen sowie das Weisungsrecht stellen
-somit die wichtigsten Merkmale des Arbeitgeberbegriffs dar.
-Der Tatbestand einer faktischen Arbeitgeberschaft wird in der Regel nur bei Entsendungen in
-die Schweiz von mehr als drei Monaten innerhalb eines Zeitraums von zwölf Monaten ge-
+3.2.2 In der Schweiz beschränkt der Quellensteuer unterliegende Einkünfte aus Arbeitsver-
+    hältnis
+In bestimmten Fällen kann der steuerbare Bruttolohn auf das Einkommen aus schweizeri-
+schen Arbeitstagen gekürzt werden (Ausnahmen nach den DBA bleiben vorbehalten, wie
+beispielsweise für Arbeitnehmer im internationalen Verkehr, bei denen je nach Ausgestaltung
+des DBA der gesamte Bruttolohn in der Schweiz steuerbar ist). Entschädigungen, welche in
+einer vorhergehenden Periode verdient wurden (bspw. Bonuszahlungen oder geldwerte Leis-
+tungen aus Mitarbeiterbeteiligungen), sind in der Schweiz in dem Umfang an der Quelle (al-
+lenfalls begrenzt) steuerbar, in dem das in der Verdienstperiode bzw. Vestingperiode erzielte
+Lohneinkommen in der Schweiz steuerbar war.
+Bei Arbeitnehmern mit Ansässigkeit in der Schweiz ist der auf jene Arbeitstage entfallende
+Teil der steuerbaren Leistung steuerbar, der nicht aufgrund eines DBA wegen Arbeitsaus-

@@ -4,16 +4,13 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 85"
+titel: "Anhang S. 35 Landwerte Wohnbauland bebaut Einfamilienhäuser – Horgen"
+ziffer: "13, 23"
 seiten: "35"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 35
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, Einfamilienhäuser · S. 35
 
-Rüti (ZH)   5   360   330   290   250   210   –   –
-Seegräben   4   420   360   290   230   –   –   –
-Wald (ZH)   3   270   230   180   –   –   –   –
-Wetzikon (ZH)   5   430   390   350   310   260   –   –
 Bezirk Horgen
 Adliswil   5   520   480   430   380   330   –   –
 Horgen
@@ -34,3 +31,6 @@ Wädenswil
   (ehemalige Gemeinde)
 – Wädenswil   5   600   540   480   420   350   –   –
   (ehemalige Gemeinde)
+
+
+1. 1. 23 - 119   35

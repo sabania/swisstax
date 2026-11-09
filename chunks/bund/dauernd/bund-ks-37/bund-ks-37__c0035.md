@@ -4,31 +4,19 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 35"
-seiten: "8"
+titel: "Ziff. 7.1 Begriff Arbeitstage und DBA-Vorbehalt"
+ziffer: "7.1"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.1 Allgemeines · S. 12
 
-Gesperrte Mitarbeiteraktien weisen gegenüber frei verfügbaren Aktien einen Minderwert auf.
-Artikel 17b Absatz 2 DBG trägt diesem Umstand mit einem Diskont von sechs Prozent pro
-Sperrjahr Rechnung, wobei maximal zehn Sperrjahre berücksichtigt werden können. Dies
-führt zur folgenden Diskontierungstabelle:
+Als Arbeitstage im Sinne von Artikel 7 und 8 MBV gilt der Zeitraum, in welchem zwischen ei-
+nem Mitarbeitenden und seinem Arbeitgeber ein Arbeitsvertragsverhältnis besteht. Die in
+diese Zeitspanne fallenden Ferien, Wochenenden, gesetzlichen Feiertage und sonstigen Ab-
+wesenheiten (Reisetage, Krankheit, Militärdienst, Mutterschaftsurlaub etc.) werden dabei
+nicht in Abzug gebracht.
 
-    Sperrfrist   Einschlag   Reduzierter
-    Verkehrswert
-    1 Jahr   5,660 %   94,340 %
-    2 Jahre   11,000 %   89,000 %
-    3 Jahre   16,038 %   83,962 %
-    4 Jahre   20,791 %   79,209 %
-    5 Jahre   25,274 %   74,726 %
-    6 Jahre   29,504 %   70,496 %
-    7 Jahre   33,494 %   66,506 %
-    8 Jahre   37,259 %   62,741 %
-    9 Jahre   40,810 %   59,190 %
-    10 Jahre   44,161 %   55,839 %
-
-Angebrochene Sperrfristjahre werden pro rata temporis berücksichtigt (vgl. Art. 11 Abs. 3
-und Art. 12 Abs. 2 MBV). Der reduzierte (prozentuale) Verkehrswert berechnet sich nach der
-Formel (100 : 1.06 n), wobei (n) der Anzahl am Bewertungsstichtag noch ausstehender Sperr-
-jahre entspricht.
+Generell vorbehalten bleiben Bestimmungen in DBA oder weiteren Abkommen mit anderen
+Staaten, die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa Art.
+15a DBA Deutschland über die Besteuerung von Grenzgängern).

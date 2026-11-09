@@ -251,7 +251,7 @@
 },
 {
 "id": "bund-sthg__art-7-t1",
-"titel": "Art. 7 StHG – Grundsatz (Teil 1/9)",
+"titel": "Art. 7 StHG – Grundsatz (Teil 1/8)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -270,7 +270,7 @@
 },
 {
 "id": "bund-sthg__art-7-t2",
-"titel": "Art. 7 StHG – Grundsatz (Teil 2/9)",
+"titel": "Art. 7 StHG – Grundsatz (Teil 2/8)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -289,7 +289,7 @@
 },
 {
 "id": "bund-sthg__art-7-t3",
-"titel": "Art. 7 StHG – Grundsatz (Teil 3/9)",
+"titel": "Art. 7 StHG – Grundsatz (Teil 3/8)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -308,7 +308,7 @@
 },
 {
 "id": "bund-sthg__art-7-t4",
-"titel": "Art. 7 StHG – Grundsatz (Teil 4/9)",
+"titel": "Art. 7 StHG – Grundsatz (Teil 4/8)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -327,7 +327,7 @@
 },
 {
 "id": "bund-sthg__art-7-t5",
-"titel": "Art. 7 StHG – Grundsatz (Teil 5/9)",
+"titel": "Art. 7 StHG – Grundsatz (Teil 5/8)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -346,7 +346,7 @@
 },
 {
 "id": "bund-sthg__art-7-t6",
-"titel": "Art. 7 StHG – Grundsatz (Teil 6/9)",
+"titel": "Art. 7 StHG – Grundsatz (Teil 6/8)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -365,7 +365,7 @@
 },
 {
 "id": "bund-sthg__art-7-t7",
-"titel": "Art. 7 StHG – Grundsatz (Teil 7/9)",
+"titel": "Art. 7 StHG – Grundsatz (Teil 7/8)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -384,7 +384,7 @@
 },
 {
 "id": "bund-sthg__art-7-t8",
-"titel": "Art. 7 StHG – Grundsatz (Teil 8/9)",
+"titel": "Art. 7 StHG – Grundsatz (Teil 8/8)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -399,30 +399,11 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-sthg__art-7-t7",
-"nachher": "bund-sthg__art-7-t9"
-},
-{
-"id": "bund-sthg__art-7-t9",
-"titel": "Art. 7 StHG – Grundsatz (Teil 9/9)",
-"pfad": [
-"Zweiter Titel: Steuern der natürlichen Personen",
-"2. Kapitel: Einkommenssteuer",
-"1. Abschnitt: Einkünfte",
-"Art. 7 Grundsatz"
-],
-"seiten": [],
-"artikel": "Art. 7",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-sthg__art-7-t8",
 "nachher": "bund-sthg__art-7a-t1"
 },
 {
 "id": "bund-sthg__art-7a-t1",
-"titel": "Art. 7a StHG – Besondere Fälle (Teil 1/3)",
+"titel": "Art. 7a StHG – Besondere Fälle (Teil 1/2)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -436,12 +417,12 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-sthg__art-7-t9",
+"vorher": "bund-sthg__art-7-t8",
 "nachher": "bund-sthg__art-7a-t2"
 },
 {
 "id": "bund-sthg__art-7a-t2",
-"titel": "Art. 7a StHG – Besondere Fälle (Teil 2/3)",
+"titel": "Art. 7a StHG – Besondere Fälle (Teil 2/2)",
 "pfad": [
 "Zweiter Titel: Steuern der natürlichen Personen",
 "2. Kapitel: Einkommenssteuer",
@@ -456,25 +437,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-sthg__art-7a-t1",
-"nachher": "bund-sthg__art-7a-t3"
-},
-{
-"id": "bund-sthg__art-7a-t3",
-"titel": "Art. 7a StHG – Besondere Fälle (Teil 3/3)",
-"pfad": [
-"Zweiter Titel: Steuern der natürlichen Personen",
-"2. Kapitel: Einkommenssteuer",
-"1. Abschnitt: Einkünfte",
-"Art. 7a Besondere Fälle"
-],
-"seiten": [],
-"artikel": "Art. 7a",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-sthg__art-7a-t2",
 "nachher": "bund-sthg__art-7b-t1"
 },
 {
@@ -493,7 +455,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-sthg__art-7a-t3",
+"vorher": "bund-sthg__art-7a-t2",
 "nachher": "bund-sthg__art-7b-t2"
 },
 {
@@ -1827,7 +1789,7 @@
 },
 {
 "id": "bund-sthg__art-28-t1",
-"titel": "Art. 28 StHG – Besondere Fälle (Teil 1/4)",
+"titel": "Art. 28 StHG – Besondere Fälle (Teil 1/3)",
 "pfad": [
 "Dritter Titel: Steuern der juristischen Personen",
 "2. Kapitel: Gewinnsteuer",
@@ -1846,7 +1808,7 @@
 },
 {
 "id": "bund-sthg__art-28-t2",
-"titel": "Art. 28 StHG – Besondere Fälle (Teil 2/4)",
+"titel": "Art. 28 StHG – Besondere Fälle (Teil 2/3)",
 "pfad": [
 "Dritter Titel: Steuern der juristischen Personen",
 "2. Kapitel: Gewinnsteuer",
@@ -1865,7 +1827,7 @@
 },
 {
 "id": "bund-sthg__art-28-t3",
-"titel": "Art. 28 StHG – Besondere Fälle (Teil 3/4)",
+"titel": "Art. 28 StHG – Besondere Fälle (Teil 3/3)",
 "pfad": [
 "Dritter Titel: Steuern der juristischen Personen",
 "2. Kapitel: Gewinnsteuer",
@@ -1880,25 +1842,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-sthg__art-28-t2",
-"nachher": "bund-sthg__art-28-t4"
-},
-{
-"id": "bund-sthg__art-28-t4",
-"titel": "Art. 28 StHG – Besondere Fälle (Teil 4/4)",
-"pfad": [
-"Dritter Titel: Steuern der juristischen Personen",
-"2. Kapitel: Gewinnsteuer",
-"2. Abschnitt: Steuerberechnung",
-"Art. 28 Besondere Fälle"
-],
-"seiten": [],
-"artikel": "Art. 28",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-sthg__art-28-t3",
 "nachher": "bund-sthg__art-29"
 },
 {
@@ -1916,7 +1859,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-sthg__art-28-t4",
+"vorher": "bund-sthg__art-28-t3",
 "nachher": "bund-sthg__art-29a"
 },
 {
@@ -2421,11 +2364,11 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-sthg__art-43",
-"nachher": "bund-sthg__art-45-t1"
+"nachher": "bund-sthg__art-45"
 },
 {
-"id": "bund-sthg__art-45-t1",
-"titel": "Art. 45 StHG – Meldepflicht Dritter (Teil 1/2)",
+"id": "bund-sthg__art-45",
+"titel": "Art. 45 StHG – Meldepflicht Dritter",
 "pfad": [
 "Fünfter Titel: Verfahrensrecht",
 "1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
@@ -2439,24 +2382,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-sthg__art-44",
-"nachher": "bund-sthg__art-45-t2"
-},
-{
-"id": "bund-sthg__art-45-t2",
-"titel": "Art. 45 StHG – Meldepflicht Dritter (Teil 2/2)",
-"pfad": [
-"Fünfter Titel: Verfahrensrecht",
-"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
-"Art. 45 Meldepflicht Dritter"
-],
-"seiten": [],
-"artikel": "Art. 45",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-sthg__art-45-t1",
 "nachher": "bund-sthg__art-46"
 },
 {
@@ -2474,7 +2399,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-sthg__art-45-t2",
+"vorher": "bund-sthg__art-45",
 "nachher": "bund-sthg__art-47"
 },
 {

@@ -4,20 +4,21 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 14"
-seiten: "3"
+titel: "Ziff. 4.1 Anlegerebene – ausschüttende, thesaurierende, gemischte Fonds (Teil 1/2)"
+ziffer: "4.1"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 25 · 4 Besteuerung auf Ebene der Anleger › 4.1 Allgemeines · S. 6
 
-3.2   Besteuerung kollektiver Kapitalanlagen ohne direkten Grundbesitz
-Vertragliche Anlagefonds, SICAV und KmGK ohne direkten Grundbesitz sind grundsätzlich
-keine Steuersubjekte. Aufgrund der transparenten Betrachtungsweise erfolgt keine Gewinn-
-besteuerung auf Ebene der kollektiven Kapitalanlage. Die Erträge werden den Anlegerinnen
-und Anlegern ihren Anteilen entsprechend zugerechnet. Diese Betrachtungsweise gilt für
-Ausschüttungsfonds, Thesaurierungsfonds und gemischte Fonds gleichermassen.
-
-Die SICAF nach Artikel 110 KAG hingegen werden nach Artikel 49 Absatz 2 DBG wie Kapi-
-talgesellschaften besteuert. Somit unterliegt der Reingewinn gemäss Artikel 58 DBG zum
-Satz von 8,5% der Gewinnsteuer (vgl. Art. 68 DBG). Erzielt die SICAF qualifizierende Beteili-
-gungserträge, so ist der Beteiligungsabzug gemäss Artikel 69 ff. DBG anwendbar.
+4   Besteuerung auf Ebene der Anleger
+4.1   Allgemeines
+Ein vertraglicher Anlagefonds, eine SICAV oder KmGK, welche in ihren Basisdokumenten
+(beispielsweise im Fondsvertrag) eine Ausschüttungsvorschrift von mindestens 70% des
+jährlichen Nettoertrags, inklusive vorgetragener Erträge aus früheren Rechnungsjahren, vor-
+sehen, gilt steuerlich als ausschüttende kollektive Kapitalanlage. Demgegenüber gelten kol-
+lektive Kapitalanlagen als thesaurierend, wenn in den Basisdokumenten keine Ausschüt-
+tungsvorschrift des jährlichen Nettoertrages vorgesehen ist. Als gemischte kollektive Kapital-
+anlagen gelten vertragliche Anlagefonds, SICAV und KmGK, wenn die jährliche Festsetzung
+der Ausschüttungs- bzw. Thesaurierungsquote im Ermessen der Funktionsträger der kol-
+lektiven Kapitalanlage liegt.

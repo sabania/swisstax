@@ -4,25 +4,15 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 60"
-seiten: "19"
+titel: "Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel (Teil 2/3)"
+ziffer: "9.1"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.1 Ausweis im Jahresabschluss · S. 25
 
-Die bei einer Spaltung den Inhabern der gesellschaftlichen Beteiligungsrechte an der über-
-nehmenden Gesellschaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unter-
-liegen nach Artikel 20 Absatz 1 Buchstabe c DBG der Einkommenssteuer, soweit sie nicht zu
-Lasten des Nennwertes der Beteiligungsrechte oder von KER bzw. Ausland-KER der über-
-tragenden Gesellschaft erfolgen.
-
-Erfolgt die Spaltung nicht gewinnsteuerneutral, liegt eine Vorteilszuwendung unter Schwes-
-tergesellschaften (vgl. Ziff. 2.2.1. hiervor) vor.
-
-b)   Verrechnungssteuer
-
-Die bei einer Spaltung den Inhabern der Beteiligungsrechte an der übernehmenden Gesell-
-schaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unterliegen nach Artikel 4
-Absatz 1 Buchstabe b VStG der Verrechnungssteuer, soweit sie nicht zu Lasten des Nenn-
-wertes der Beteiligungsrechte oder der KER bzw. Ausland-KER der übertragenden Gesell-
-schaft erfolgen.
+Offene Kapitaleinlagen, die von Inhabern der Beteiligungsrechte nach dem 31. Dezem-
+ber 1996 geleistet und der ESTV bisher nicht gemeldet wurden, können in der handelsrecht-
+lichen Bilanz auf den gesonderten Positionen (Ziff. 2.1. hiervor) ausgewiesen werden, sofern
+die Nachmeldung der Kapitaleinlagen erfolgt ist und eine Zustimmung der ESTV vorliegt.
+Verluste, die solchen KER bzw. Ausland-KER belastet wurden, vermindern diese definitiv.

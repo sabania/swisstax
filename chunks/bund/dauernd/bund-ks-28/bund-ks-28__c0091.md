@@ -4,41 +4,24 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 91"
-seiten: "27"
+titel: "Anhang III Nachfolgeklausel 2.B, Fortsetzungs- und Eintrittsklausel (Teil 3/3)"
+ziffer: "Anhang III"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 27
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang III Personengesellschaft · S. 32
 
-<!-- Seite 27 -->
-2.4   Übriger Liquidationsgewinn
-Artikel 9   Bemessung
+4. Eintrittsklausel   Mit der Eintrittsklausel erhalten die Erben   4.A) Nehmen die Erben diese Offerte   4.A) Die Erben führen die Gesellschaft
+    das Recht, aber nicht die Pflicht, der Gesell-   an, treten sie anstelle des Erblassers   fort = „Fortführung“, Artikel 37b
+    schaft beizutreten.   in die Gesellschaft ein.   DBG Absatz 2 DBG findet keine An-
+    wendung
 
-  Gesamt-   Liqui-   Separat   Restli-
-  einkom-   dations-   besteu-   cher
-    men   gewinn   er-   steuer-   davon 1/5
-    ter Liq.   barer   satzbestimmend
-    Gew.   Liquida-
-    tions-
-    gewinn
-    Getrennt
-    besteu-
-    Besteuerung
-    erter
-    zu 1/5 des Satzes
-    fiktiver
-    Einkauf
-
-    Übriges
-    Eink.   Ordentliche
-    Besteuerung
-
-Als Liquidationsgewinn im Sinne dieser Verordnung gelten die im Vorjahr und im Liquidati-
-onsjahr realisierten stillen Reserven. Ein Teil dieses Liquidationsgewinnes wird privilegiert
-nach Artikel 10 dieser Verordnung besteuert. Um diesen Anteil des Liquidationsgewinns zu
-berechnen, müssen von den realisierten stillen Reserven folgende Beträge abgezogen wer-
-den:
-
-Buchstabe a
-Ein allfälliger Überhang des Einkaufsbeitrages in eine Vorsorgeeinrichtung nach Artikel 4
-nach Abzug von den übrigen Einkünften.
+    4.B) Nehmen die Erben diese Offerte   4.B) Der Erblasser realisiert den Li-
+    nicht an, treten sie nie in die Gesell-   quidationsgewinn. Hat er im Zeitpunkt
+    schaft ein. In diesem Fall muss die   seines Todes das 55. Altersjahr er-
+    Gesellschaft aufgelöst und liquidiert   reicht oder war er in diesem Zeitpunkt
+    werden.   invalid, wird sein Einkommen und sein
+    Liquidationsgewinn gemäss Arti-
+    kel 37b Absatz 1 DBG besteuert. Ein
+    fiktiver Einkauf kann nicht geltend ge-
+    macht werden.

@@ -4,19 +4,22 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 12"
-seiten: "4"
+titel: "Ziff. II.2.3 a) Einkauf nach WEF-Vorbezug – Sperre und Dreijahresfrist"
+ziffer: "II.2.3 a"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 2 Steuerliche Auswirkungen › 2.3 Einkauf von Beitragsjahren · S. 6
 
-<!-- Seite 4 -->
-a)   Rückerstattung der bezahlten Steuern
+2.3.   Einkauf von Beitragsjahren
 
-Falls die Rückzahlung des Vorbezuges aus den im Gesetz genannten Gründen zwingend
-oder fakultativ (Art. 30d Abs. 1 und 2, Art. 79b Abs. 3 BVG) erfolgt ist, gibt sie dem Vorsor-
-genehmer Anspruch auf zinslose Rückerstattung der seinerzeit an Bund, Kanton und Ge-
-meinde bezahlten Steuern. Folgerichtig ist der Abzug des wieder einbezahlten Vorbezuges
-vom steuerbaren Einkommen ausgeschlossen. Das Recht auf Rückerstattung erlischt nach
-Ablauf von drei Jahren seit der Wiedereinzahlung des Vorbezuges (Art. 83a Abs. 2 und
-3 BVG).
+a)   nach einem WEF-Vorbezug
+
+Seit dem 1. Januar 2006 dürfen freiwillige Einkäufe in die berufliche Vorsorge erst wieder
+vorgenommen werden, wenn allfällig früher getätigte Vorbezüge für die Wohneigentumsför-
+derung zurückbezahlt sind (Art. 79b Abs. 3 Satz 2 BVG).
+
+Wurden Einkäufe getätigt, so dürfen die daraus resultierenden Leistungen innerhalb der
+nächsten drei Jahre nicht in Kapitalform aus der Vorsorge zurückgezogen werden (Art. 79b
+Abs. 3 Satz 1 BVG). Um einen Kapitalbezug handelt es sich auch bei einem Vorbezug für
+das Wohneigentum.

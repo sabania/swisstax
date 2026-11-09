@@ -1,111 +1,189 @@
 [
 {
 "id": "bund-form-da1-2025__c0001",
-"titel": "DA-1 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Formular DA-1 2025 – Kopf, Personalien und Antrag auf Anrechnung ausländischer Quellensteuern",
+"pfad": [
+"DA-1",
+"Kopf"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Ergänzungsblatt Wertschriftenverzeichnis",
+"Dividenden Ausland",
+"Pauschale Steueranrechnung"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Ergänzungsblatt zum Wertschriftenverzeichnis 2025: Antrag auf Anrechnung ausländischer Quellensteuern für ausländische Dividenden und Zinsen (Fälligkeiten 2025).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-form-da1-2025__c0002"
 },
 {
 "id": "bund-form-da1-2025__c0002",
-"titel": "DA-1 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "DA-1 Kapitalanlagen und Erträge (Kolonnen 1–8), Totalzeile und Übertrag ins Wertschriftenverzeichnis",
+"pfad": [
+"DA-1",
+"Kapitalanlagen und Erträge"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Kol. 1-8",
+"stichworte": [
+"Steuerwert",
+"Bruttoertrag",
+"nicht rückforderbare ausländische Steuer",
+"Qualifizierende Beteiligung",
+"Dividenden USA",
+"Ländercode"
+],
+"positionen": [
+"einkommen.wertschriften",
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": "Kapitalanlagen mit Steuerwert am 31. Dezember 2025, Bruttoertrag und nicht rückforderbarer ausländischer Steuer; Totale in die Kolonnen des Wertschriftenverzeichnisses zu übertragen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-da1-2025__c0001",
 "nachher": "bund-form-da1-2025__c0003"
 },
 {
 "id": "bund-form-da1-2025__c0003",
-"titel": "DA-1 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "DA-1 Entscheid und Buchungsanweisung (leer lassen)",
+"pfad": [
+"DA-1",
+"Amtlicher Teil"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Anrechnung bewilligt",
+"Buchungsanweisung",
+"Bund Kanton Gemeinde"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Amtlicher Teil für Entscheid und Buchung der bewilligten Anrechnung (Bund, Kanton und Gemeinde); vom Antragsteller leer zu lassen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-da1-2025__c0002",
 "nachher": "bund-form-da1-2025__c0004"
 },
 {
 "id": "bund-form-da1-2025__c0004",
-"titel": "DA-1 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "DA-1 Seite 2 Fragen 1–4 – Besteuerung in der Schweiz, Pauschalsteuer, satzbestimmendes Einkommen, Schuldzinsen",
+"pfad": [
+"DA-1",
+"Besteuerung in der Schweiz"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1-4",
+"stichworte": [
+"Pauschalsteuer",
+"Aufwandbesteuerung",
+"satzbestimmendes Einkommen",
+"Schuldzinsen",
+"Art. 14 DBG"
+],
+"positionen": [
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Angaben zur Unterstellung unter direkte Bundessteuer und Kantonssteuern, Besteuerung nach dem Aufwand (Art. 14 DBG), satzbestimmendes Einkommen 2025 und bezahlte Schuldzinsen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-da1-2025__c0003",
 "nachher": "bund-form-da1-2025__c0005"
 },
 {
 "id": "bund-form-da1-2025__c0005",
-"titel": "DA-1 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "DA-1 Vergütung auf Konto und Erklärung des Antragstellers",
+"pfad": [
+"DA-1",
+"Vergütung und Erklärung"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Vergütung",
+"IBAN",
+"Postkonto",
+"Unterschrift"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Nicht verrechneter Anrechnungsbetrag wird auf Post- oder Bankkonto (IBAN) vergütet; Antragsteller bestätigt die Richtigkeit durch Unterschrift.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-da1-2025__c0004",
 "nachher": "bund-form-da1-2025__c0006"
 },
 {
 "id": "bund-form-da1-2025__c0006",
-"titel": "DA-1 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "DA-1 Erläuterungen 1–5 – Einreichung, Bagatellgrenze Fr. 100, Lizenzgebühren DA-3 (Teil 1/2)",
+"pfad": [
+"DA-1",
+"Erläuterungen"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1-5",
+"stichworte": [
+"Bagatellgrenze 100 Franken",
+"Einreichung Kanton",
+"Lizenzgebühren DA-3",
+"Bankbescheinigung",
+"Quellenstaat"
+],
+"positionen": [
+"verfahren.einreichung",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Antrag im Wohnsitzkanton am 31.12.2025 mit Steuererklärung einreichen; übersteigen die nicht rückforderbaren Steuern insgesamt Fr. 100 nicht, wird keine Anrechnung gewährt; Lizenzgebühren auf Formular DA-3.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-da1-2025__c0005",
 "nachher": "bund-form-da1-2025__c0007"
 },
 {
 "id": "bund-form-da1-2025__c0007",
-"titel": "DA-1 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "DA-1 Erläuterungen 1–5 – Einreichung, Bagatellgrenze Fr. 100, Lizenzgebühren DA-3 (Teil 2/2)",
+"pfad": [
+"DA-1",
+"Erläuterungen"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1-5",
+"stichworte": [
+"Bagatellgrenze 100 Franken",
+"Einreichung Kanton",
+"Lizenzgebühren DA-3",
+"Bankbescheinigung",
+"Quellenstaat"
+],
+"positionen": [
+"verfahren.einreichung",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-da1-2025__c0006",
 "nachher": null
 }

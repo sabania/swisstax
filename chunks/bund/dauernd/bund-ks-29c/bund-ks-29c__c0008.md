@@ -4,19 +4,27 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 8"
-seiten: "2"
+titel: "Ziff. 3.1 Reserven aus Kapitaleinlagen – steuerneutrale Gutschrift, Kapitalband (Teil 1/2)"
+ziffer: "3.1"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 3 Reserven › 3.1 Reserven aus Kapitaleinlagen · S. 7
 
-    Personenunternehmung ...................................................................................19
-6.4.   Spaltung .............................................................................................................19
-6.5.   Ausgliederung ..................................................................................................20
-6.6.   Übertragung zwischen inländischen Konzerngesellschaften .............20
-7.   Umstrukturierungen von an einer schweizerischen Börse
-    kotierten Kapitalgesellschaften oder Genossenschaften.....................21
-7.1.   Zusammenschluss (Fusion) .........................................................................21
-7.1.1.   Echte und unechte Fusion unabhängiger Gesellschaften...........................21
-7.1.2.   Echte und unechte Fusion verbundener Gesellschaften.............................21
-7.1.3.   Absorption einer Tochtergesellschaft („Up-Stream Merger“) ......................21
+3.   Reserven
+
+3.1.   Reserven aus Kapitaleinlagen
+
+Offene Kapitaleinlagen der Beteiligungsinhaber können steuerneutral den KER bzw. Aus-
+land-KER gutgeschrieben werden und deren Rückzahlungen sind der Rückzahlung von ein-
+bezahltem Grund- oder Stammkapital gleichgestellt. Verluste, die den KER bzw. den Aus-
+land-KER belastet wurden, vermindern diese definitiv. Dies gilt auch für offene Kapitaleinla-
+gen von Inhabern der Beteiligungsrechte, die:
+
+       nach dem 31. Dezember 1996 und vor dem Inkrafttreten der Artikel 20 Absatz 3 DBG
+    und Artikel 5 Absatz 1bis VStG am 1. Januar 2011 oder
+       nach dem 24. Februar 2008 und vor dem Inkrafttreten der Artikel 20 Absatz 5 Buch-
+    staben a und b DBG und Artikel 5 Absatz 1quater Buchstaben a und b VStG am 1. Ja-
+    nuar 2020
+
+geleistet wurden (vgl. Ziff. 9.1. hiernach).

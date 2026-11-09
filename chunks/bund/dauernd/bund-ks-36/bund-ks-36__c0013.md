@@ -4,28 +4,25 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 13"
-seiten: "4"
+titel: "Ziff. 4.3.2 Vordergrund-Kriterium Transaktionsvolumen, Häufigkeit, kurze Besitzdauer"
+ziffer: "4.3.2"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.3.2 › Im Vordergrund · S. 5
 
-<!-- Seite 4 -->
-4.   Die selbständige Erwerbstätigkeit mit Wertschriften
-    (Gewerbsmässiger Wertschriftenhandel)
+Im Vordergrund stehende Kriterien:
 
-4.1   Grundsatz: Übernahme der unter dem BdBSt entwickelten Praxis für das DBG
-    (BGE vom 2. Dezember 1999)
+-   Höhe des Transaktionsvolumens (Häufigkeit der Geschäfte und kurze Besitzdauer)
 
-Mit Entscheid vom 2. Dezember 1999 bestätigte das Bundesgericht, dass die bisherige Pra-
-xis zu Artikel 21 Absatz 1 Buchstabe a BdBSt grundsätzlich auch unter der Herrschaft des
-DBG gilt (ASA 69, 788). Danach erzielt die steuerpflichtige Person steuerbares Einkommen
-aus selbständiger Erwerbstätigkeit, wenn sie An- und Verkäufe von Vermögensgegenstän-
-den in einer Art tätigt, die über die schlichte Verwaltung von Privatvermögen hinausgeht.
-Erforderlich hierzu ist, dass sie eine Tätigkeit entfaltet, die in ihrer Gesamtheit auf Erwerb
-gerichtet ist, bzw. dass sie solche Geschäfte systematisch mit der Absicht der Gewinnerzie-
-lung betreibt. Für eine solche selbständige Erwerbstätigkeit wird nicht vorausgesetzt, dass
-die steuerpflichtige Person nach aussen sichtbar am wirtschaftlichen Verkehr teilnimmt oder
-die Tätigkeit in einem eigentlichen, organisierten Betrieb ausübt (ASA 73, 299).
+    Eine kurze Besitzdauer deutet darauf hin, dass die steuerpflichtige Person nicht vor-
+    wiegend Anlagezwecke verfolgt, sondern vielmehr an einer raschen Erzielung eines
+    Gewinns interessiert ist (ASA 69, 652 und 788; 63, 43; 59, 709). Unter Umständen
+    kann schon eine einzige Transaktion dazu führen, dass eine selbständige
+    Erwerbstätigkeit vorliegt (2A.23/2004; ASA 69, 652).
 
-4.2   Wertschriften
+    Die Häufigkeit der Geschäfte und die Kürze der Besitzdauer der Wertschriften sind
+    Indizien dafür, dass die steuerpflichtige Person keine zumindest mittelfristige
+    Kapitalanlage anstrebt, sondern auf eine rasche Erzielung eines Kapitalgewinns
+    angewiesen ist und auch in Kauf nimmt, dass bedeutende Verluste entstehen könnten
+    (ASA 71, 627).

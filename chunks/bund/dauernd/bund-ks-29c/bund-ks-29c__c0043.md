@@ -4,14 +4,24 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 43"
-seiten: "14"
+titel: "Ziff. 6.3.3 Umwandlung von Verein/Stiftung in Kapitalgesellschaft (Teil 2/2)"
+ziffer: "6.3.3"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.3 Umwandlung · S. 18
 
-Wird die Teilliquidationsregel nicht eingehalten, werden die KER und in zweiter Linie die Aus-
-land-KER so vermindert, dass mindestens die Hälfte der Rückzahlung aus KER und/oder
-Ausland-KER erfolgt. Die Einkommens- und Verrechnungssteuern sind auf dem Teil, der auf
-KER oder Ausland-KER fällt, nicht geschuldet. Die Kapitalgesellschaft oder Genossenschaft
-erhöht die übrigen Reserven um den nicht der Verrechnungssteuer unterliegenden Betrag.
+Die bei einer Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Per-
+son in eine Kapitalgesellschaft oder Genossenschaft ausgegebenen Beteiligungsrechte un-
+terliegen nicht der Verrechnungssteuer, da sie zu Lasten des Aktivenüberschusses einer
+nicht verrechnungssteuerpflichtigen juristischen Person (Verein, Stiftung oder übrige juristi-
+sche Person) begründet werden.
+
+Bei einer direkten Umwandlung eines im Handelsregister eingetragenen Vereins in eine Ka-
+pitalgesellschaft oder in eine Genossenschaft durch Rechtsformwechsel und bei einer Um-
+wandlung mittels Vermögensübertragung können keine KER gebildet werden.
+
+Bei einer indirekten Umwandlung durch Sacheinlagegründung kann der ausgewiesene Akti-
+venüberschuss der Vermögenswerte gemäss Handelsbilanz der Kapitalgesellschaft oder Ge-
+nossenschaft steuerneutral als KER ausgewiesen werden, soweit er das Grund- oder
+Stammkapital übersteigt.

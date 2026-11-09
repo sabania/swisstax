@@ -4,22 +4,24 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 12"
-seiten: "7"
+titel: "Rz 10 Buchstabe G – Kantinenverpflegung / Lunch-Checks (Teil 1/2)"
+ziffer: "10"
+seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 7
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstabe G · S. 8–9
 
-Massgebendes Kalenderjahr   Buchstabe D
+Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten   Buchstabe G
 
-In diesem Feld ist das Kalenderjahr anzugeben, für das die Lohnzahlungen bescheinigt wer   7
-den. Der Lohnausweis ist jährlich bzw. bei Wegzug oder Todesfall eines Arbeitnehmers so
-fort auszustellen. Er hat sämtliche Leistungen, die dem Arbeitnehmer im entsprechenden
-Kalenderjahr zugeflossen sind, zu umfassen. Eine Aufteilung auf mehrere Einzelausweise ist
-grundsätzlich unzulässig. Wurden indessen aus betrieblichen Gründen einem Arbeitnehmer
-vom selben Arbeitgeber mehrere Lohnausweise (z. B. für Tätigkeiten in verschiedenen Ab
-teilungen oder aufgrund mehrerer Arbeitsverträge innerhalb der gleichen Unternehmung)
-ausgestellt, ist in Ziffer 15 des Lohnausweises («Bemerkungen») die Gesamtzahl der Lohn
-ausweise anzubringen, z. B.: «Einer von zwei Lohnausweisen» (vgl. Rz 66).
+Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer Lunch-Checks (vgl. Rz 18) abgege   10
+ben werden. Ein Hinweis ist auch dann anzubringen, wenn der Arbeitgeber dem Arbeitneh
+mer die Möglichkeit einräumt, das Mittag- oder Abendessen verbilligt in einem Personalres
+taurant einzunehmen. Dies gilt auch dann, wenn nicht bekannt ist, ob der Arbeitnehmer da
+von tatsächlich Gebrauch macht.
 
-Lohnperiode   Buchstabe E
+Dieses Feld ist auch anzukreuzen bei Arbeitnehmern, die 40 % - 60 % der Arbeitszeit aus
+serhalb ihrer üblichen Arbeitsstätte tätig sind und deshalb eine Mittagessensentschädigung
+erhalten. Bei Arbeitnehmern, die mehr als 60 % der Arbeitszeit ausserhalb ihrer üblichen
+Arbeitsstätte tätig sind und deshalb eine Mittagessensentschädigung erhalten, ist im Lohn
+ausweis ausschliesslich unter Ziffer 15 folgender Hinweis anzubringen: «Mittagessen durch
+Arbeitgeber bezahlt».

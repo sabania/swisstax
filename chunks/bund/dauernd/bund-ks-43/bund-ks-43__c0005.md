@@ -4,20 +4,19 @@ quelle: bund-ks-43
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 43 – Abschnitt 5"
+titel: "Ziff. 2 Schenkung und Unterstützung – Begriffe, Bescheinigung der Stiftungen (Teil 2/2)"
+ziffer: "2"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 43 · 2 Rechtliche Grundlagen · S. 2
 
-Auf Grund sämtlicher Umstände des Einzelfalls ist vorab zu prüfen, ob es sich bei einer Leis-
-tung um eine Schenkung oder um eine Unterstützung aus öffentlichen oder privaten Mitteln
-handelt. Für diese Prüfung sind Reglemente oder Statuten der preisverleihenden oder der bei-
-tragsgewährenden privaten oder öffentlichen Institutionen beizuziehen. Zudem ist die finanzielle
-Situation der empfangenden Person zu analysieren.
+Eine Unterstützung aus öffentlichen oder privaten Mitteln liegt vor, wenn es sich um eine unent-
+geltliche Leistung mit Unterstützungsabsicht an eine bedürftige Person handelt
+(vgl. BGE 137 II 328 E. 4.3 und Urteil 2C_78/2014 des Bundesgerichts vom 26. Mai 2014
+E. 3.1). Unterstützungen aus öffentlichen oder privaten Mitteln sind steuerfrei
+(vgl. Art. 24 Bst. d DBG).
 
-Eine Schenkung liegt vor, wenn die schenkende Person der beschenkten Person ein Vermögen
-oder einen Vermögensteil zuwendet, ohne von der beschenkten Person eine Gegenleistung zu
-verlangen. Der Vermögensanfall infolge Schenkung ist ausdrücklich von der direkten Bundes-
-steuer befreit (vgl. Art. 24 Bst. a DBG), kann aber der jeweiligen kantonalen Schenkungssteuer
-unterliegen.
+Stiftungen sind aufgrund von Artikel 129 Absatz 1 Buchstabe a DBG dazu verpflichtet, für jede
+Steuerperiode den Veranlagungsbehörden eine Bescheinigung über die ihren Begünstigten er-
+brachten Leistungen einzureichen.

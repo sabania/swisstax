@@ -4,21 +4,15 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 191"
-seiten: "50"
+titel: "Ziff. 9.3 / 9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell (Teil 1/2)"
+ziffer: "9.3.1"
+seiten: "59-60"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 50
+> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.3 Abrechnung und Ablieferung · S. 59–60
 
-Alternativ zur monatlichen Ausscheidung des Einkommens aus ausländischen Arbeitstagen
-steht es dem Arbeitgeber offen, die erforderlichen Korrekturen erst am Ende des Kalender-
-jahres bzw. am Ende des Arbeitsverhältnisses vorzunehmen. In diesem Fall sind die in den
-Vormonaten des laufenden Jahres bereits abgezogenen Quellensteuern von den am Ende
-des Kalenderjahres bzw. am Ende des Arbeitsverhältnisses berechneten Quellensteuern für
-die gesamte Periode in Abzug zu bringen.
-Die massgebenden Arbeitstage sind in einem Kalendarium festzuhalten, welches der Quel-
-lensteuerabrechnung beizulegen ist. Rechnet der Arbeitgeber die Quellensteuer elektronisch
-ab (bspw. über ELM-QSt), ist das Kalendarium auf postalischem Weg der zuständigen Steu-
-erbehörde zuzustellen, solange keine Möglichkeit der elektronischen Übermittlung zur Verfü-
-gung steht.
-Erfolgt bei der Berechnung des Quellensteuerabzugs durch den Arbeitgeber keine Berück-
+9.3   Quellensteuerabrechnung und Quellensteuerablieferung
+9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell
+Der Schuldner der steuerbaren Leistung erstellt periodisch die Abrechnung über die abgezo-
+gene Quellensteuer und reicht diese bei der zuständigen Steuerbehörde ein. Die Quellen-
+steuerabrechnung hat die Angaben gemäss Musterformular im Anhang I zu enthalten. Für

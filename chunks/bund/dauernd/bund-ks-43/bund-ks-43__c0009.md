@@ -4,20 +4,25 @@ quelle: bund-ks-43
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 43 – Abschnitt 9"
-seiten: "3"
+titel: "Ziff. 4 Steuerbare Leistungen – Bewertung, Zufluss, Abzüge"
+ziffer: "4"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 43 · 4 Steuerbare Leistungen · S. 3–4
 
-terium 2) voraus, wobei diese gegeben ist, wenn die private oder öffentliche Institution die Un-
-terstützung ausrichtet, um einer bedürftigen Person dabei zu helfen, ihren (minimalen) Lebens-
-unterhalt zu bestreiten.
-Eine Leistung erfolgt dann unentgeltlich (Kriterium 3), wenn die empfangende Person dafür kei-
-ne Gegenleistung erbringen muss. Der wirtschaftliche Wert sowie die Art der Gegenleistung
-sind dabei unerheblich (vgl. Urteil 2C_904/2012 des Bundesgerichts vom 12. Februar 2013
-E. 4.2.6 und Beispiel 2 im Anhang). Auch bei einer Studie oder einer Forschungsarbeit kann es
-sich fallweise um eine Gegenleistung handeln (vgl. Urteil 2C_715/2007 des Bundesgerichts
-vom 28. April 2008 E. 2.3.4, Urteil 2C_78/2014 des Bundesgerichts vom 26. Mai 2014 E. 3.1
-sowie Beispiele 3 und 4 im Anhang). Eine Leistung, welche eine Art Entlöhnung im Nachhinein
-darstellt, ist nicht unentgeltlich (vgl. Urteil 2C_715/2007 des Bundesgerichts vom
+4   Steuerbare Leistungen
+
+Handelt es sich bei einer Leistung nicht um eine steuerfreie Unterstützungsleistung oder eine
+Schenkung, so ist grundsätzlich der gesamte Betrag als Einkommen im Sinne von Arti-
+kel 16 Absatz 1 DBG steuerbar (vgl. Urteil 2C_715/2007 des Bundesgerichts vom
+28. April 2008 E. 2.4). Leistungen in Form von Geld sind zum Nominalwert zu besteuern.
+
+Leistungen in Form von Naturalgaben (z. B. Auto, Tiere u. dgl.) werden nach ihrem Marktwert
+(Verkehrswert) bemessen (vgl. Art. 16 Abs. 2 DBG).
+
+Die Leistungen sind in dem Jahr zu versteuern, in welchem sie der empfangenden Person zu-
+geflossen sind. Sie gelten in dem Zeitpunkt als zugeflossen und erzielt, in dem die begünstigte
+Person einen festen Rechtsanspruch darauf erworben hat. Von den Bruttoeinkünften können
+die üblichen Abzüge (insbesondere für Gewinnungskosten) vorgenommen werden (vgl. Urteil
+2C_715/2007 des Bundesgerichts vom 28. April 2008 E. 2.4).

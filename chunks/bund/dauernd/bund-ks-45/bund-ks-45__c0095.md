@@ -4,23 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 95"
-seiten: "24"
+titel: "Ziff. 6.7 Beispiel 1 – 5 Arbeitstage in Österreich, Bruttolohn CHF 8 000"
+ziffer: "6.7"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 24
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.7 Ausscheidung ausländischer Arbeitstage · S. 30
 
-<!-- Seite 24 -->
-    5. Zwei Arbeitsverhältnisse in der Schweiz (1 Arbeitspensum 60 % sowie 1 Arbeitsverhältnis im Stundenlohn;
-    CHF 30.00 pro Stunde):
-    Der Arbeitnehmer W. ist bei der Z. AG, Zürich, zu 60 % und bei der J. AG, Winterthur, im Stundenlohn an-
-    gestellt. Im Monat April arbeitet W. bei der J. AG während 35 Stunden. Die betriebsübliche Arbeitszeit bei
-    der J. AG beträgt 182 Stunden pro Monat (= 42 Stunden pro Woche). Sein Pensum bei der J. AG beträgt
-    somit 19,23 %. Beiden Arbeitgebern ist das jeweils andere Pensum nicht bekannt. W. erzielt folgende
-    Lohneinkommen:
+    Beispiele:
+    1. Arbeitnehmer Z. ist internationaler Wochenaufenthalter in der Schweiz. Sein Arbeitgeber hat den Sitz in
+    Zürich. Z. übt seine Tätigkeit an seinem fixen Arbeitsplatz in Zürich aus. Während des Monats September
+    hat er ausnahmsweise an 5 Tagen in Österreich gearbeitet. Zusätzlich hat er 10 Ferientage bezogen, wel-
+    che er in Italien verbracht hat. Z. erhält im Monat September einen Bruttolohn von CHF 8 000.00. Die für
+    die Ausscheidung massgebenden schweizerischen Arbeitstage ergeben sich aus der Subtraktion von fünf
+    ausländischen Arbeitstagen vom Total von 20 Arbeitstagen pro Monat. Davon ausgehend ist das steuer-
+    bare Einkommen wie folgt zu berechnen bzw. das satzbestimmende Einkommen wie folgt festzulegen:
 
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    Z. AG (CH)   60 %   3 400   5 667
-
-    J. AG (CH)   19,23 %   1 050   5 460
+    Total an Arbeitstagen:   20 Tage
+    Arbeitstage Schweiz:   20 Tage – 5 Tage = 15 Tage
+    massgebendes Ausscheidungsverhältnis:   15 CH-Arbeitstage zum Total von 20 Arbeitstagen
+    Steuerbares Einkommen:   CHF 8 000.00 / 20 x 15 = CHF 6 000.00
+    Satzbestimmendes Einkommen:   CHF 8 000.00

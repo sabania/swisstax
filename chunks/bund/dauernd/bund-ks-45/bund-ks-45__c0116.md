@@ -4,25 +4,34 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 116"
-seiten: "30"
+titel: "Ziff. 7.3.1 Satzbestimmendes Jahreseinkommen – Grundsatz und Beispiel 1 (gleichbleibender Lohn)"
+ziffer: "7.3.1"
+seiten: "37"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 30
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.1 Allgemeines · S. 37
 
-<!-- Seite 30 -->
-    7. Jährliche Auszahlung des 13. Monatslohns (Dezember) gemäss Arbeitsvertrag:
-    Der Arbeitnehmer V. tritt per 1. April 2021 in die Unternehmung ein und tritt per 15. Oktober 2021 wieder
-    aus und erhält neben der anteilsmässigen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbar-
-    ten 13. Monatslohn ausbezahlt (pro rata für die Zeit vom 1. April 2021 – 15. Oktober 2021). Die Lohnzah-
-    lung ist zur Satzbestimmung auf 30 Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezo-
-    gen auf die Periode, für welche er bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage
-    pro Jahr).
+7.3   Ermittlung des satzbestimmenden Jahreseinkommens
+7.3.1 Allgemeines und Grundsatz zur Berechnung der Quellensteuer
+Für die Berechnung der monatlichen Quellensteuer muss das tatsächlich erzielte Einkom-
+men demjenigen Steuersatz unterliegen, der dem zu versteuernden Jahreseinkommen ent-
+spricht.
 
-    Leistungen   steuerbar   satzbestimmend   Berechnung
+    Gleichbleibender Lohn während 12 Monaten:
+    1. Ein lediger Steuerpflichtiger ohne Kinder ist mit einem Beschäftigungsgrad von 100 % vom 1. Januar bis
+    am 31. Dezember 2021 in der Schweiz erwerbstätig. Für diese Tätigkeit erhält er ein Jahresbruttoeinkom-
+    men von CHF 60 000.00 (12 x CHF 5 000).
+    Das monatliche Bruttoeinkommen von CHF 5 000.00 wird mit dem Tarifcode A0 und zum satzbestimmen-
+    den Jahreseinkommen von CHF 60 000.00 besteuert.
 
-    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
+    Monat   Januar   …   November   Dezember   Besteuerung
 
-    13. Monatslohn   3 250   6 000   3 250 / 195 x 360
+    Bruttolohn   5 000   5 000   5 000   60 000
 
-    Total   6 250   12 000
+    Tarifcode   A0   A0   A0   A0
+
+    Steuersatz (%)   9,51   9,5   9,5   9,5
+
+    Quellensteuer   475   475   475   5 700
+
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 60 000.00 (CHF 5 000 x 12).

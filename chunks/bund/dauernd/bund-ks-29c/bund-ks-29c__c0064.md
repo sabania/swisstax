@@ -4,25 +4,26 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 64"
-seiten: "20"
+titel: "Ziff. 9.3 a) Meldung Verrechnungssteuer – ordentliches Verfahren, Formular 170 (Teil 2/2)"
+ziffer: "9.3 a"
+seiten: "25-26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.3 Meldung Verrechnungssteuer · S. 25–26
 
-Erfolgt eine steuerneutrale Übertragung zu Lasten der Reserven der übertragenden Gesell-
-schaft, verbucht die übernehmende Schwestergesellschaft den erhaltenen Aktivenüber-
-schuss spiegelbildlich zu Gunsten ihrer Reserven. Dies gilt sowohl für übrige Reserven als
-auch für KER bzw. Ausland-KER.
+Einlagen in die Reserven aus Kapitaleinlagen, die während eines Kapitalbands nach den Ar-
+tikeln 653s ff. OR geleistet werden, sind aufgrund der Nettobetrachtung erst nach Beendi-
+gung des Kapitalbands als KER oder Ausland-KER mittels Formular 170 zu melden.
 
-c)   Verrechnungssteuer
+Ändert eine Kapitalgesellschaft auf den Beginn eines Geschäftsjahres ihr Aktien- oder
+Stammkapital in eine für die Geschäftstätigkeit wesentliche ausländische Währung, so ist für
+den Währungswechsel innert 30 Tagen nach Publikation des Währungswechsels im Schwei-
+zerischen Handelsamtsblatt ein separates Formular 170 inklusive Zusatzblatt mit der Wäh-
+rungsumrechnung sowie einer Kopie der öffentlichen Urkunde einzureichen.
 
-Erfolgt die steuerneutrale Übertragung zu Lasten der offenen Reserven einer Tochtergesell-
-schaft an die Muttergesellschaft und wird der erhaltene Aktivenüberschuss nicht über die Er-
-folgsrechnung, sondern direkt über die Reserven verbucht, qualifiziert der Zugang als übrige
-Reserve.
+Erfahren die KER bzw. Ausland-KER in einem Geschäftsjahr keine Veränderungen, entfällt
+die Einreichung des Formulars 170. Der Geschäftsbericht oder die unterzeichnete Jahres-
+rechnung ist jedoch jedes Jahr einzureichen.
 
-Erfolgt eine steuerneutrale Übertragung zu Lasten der Reserven der übertragenden Gesell-
-schaft, verbucht die übernehmende Schwestergesellschaft den erhaltenen Aktivenüber-
-schuss spiegelbildlich zu Gunsten ihrer Reserven. Dies gilt sowohl für übrige Reserven als
-auch für KER bzw. Ausland-KER.
+Das Formular 170 steht auf der Homepage der ESTV zum Download zur Verfügung
+(www.estv.admin.ch).

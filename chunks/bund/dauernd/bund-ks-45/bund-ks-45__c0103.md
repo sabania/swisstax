@@ -4,25 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 103"
-seiten: "26"
+titel: "Ziff. 6.9 Beispiel 2 – Bonus nach Austritt, Ansässigkeit in Österreich (Teil 1/2)"
+ziffer: "6.9"
+seiten: "33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.9 Leistungen bei/nach Beendigung · S. 33
 
-    ches anhand der betriebsüblichen Arbeitsstunden festzulegen ist.
-
-    3. Der Arbeitnehmer G. ist als Reinigungskraft bei der Q. AG im Stundenlohn angestellt. Seine wöchentliche
-    Arbeitszeit beträgt zwischen 16 und 20 Stunden. Im April 2021 arbeitet er während 70 Stunden für die Q.
-    AG. Sein Lohn beträgt CHF 23.00 pro Stunde und wird ihm, nach Auswertung der eingereichten Arbeits-
-    rapporte ausbezahlt. Daneben übt er eine weitere Erwerbstätigkeit zu 50 % im Monatslohn bei der T. AG
-    aus. Dort beträgt sein Lohn CHF 2 400.00 pro Monat. Beide Arbeitgeber haben keine Kenntnis vom Pen-
-    sum beim anderen Arbeitgeber.
-
-    Arbeitgeber   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
-    lohn/Pensum   stimmend   len-
-    steuer
-
-    Q. AG   23.00   1 610   70   180   4 140   7.5 %   120.75
-
-    T. AG   50 %   2 400   -   100 %   4 800   9.5 %   228.00
+    2. Besteuerung einer Bonuszahlung:
+    Der Arbeitnehmer Y. ist in Österreich ansässig und tritt per 30. November 2021 aus der Unternehmung T.
+    aus. Die letzte Lohnzahlung im November 2021 beläuft sich auf CHF 8 000.00. Im April des Folgejahres
+    erhält er einen Bonus von CHF 15 000.00, welcher von der Geschäftsleitung der Unternehmung T. im April
+    2022 beschlossen wurde. Dieser Bonus ist separat im Auszahlungsmonat (April 2022) steuerpflichtig. Da
+    der Rechtsanspruch auf den Bonus erst im April 2022 entstanden ist (Beschluss Geschäftsleitung), hat auf
+    der letzten Lohnzahlung (November 2021; CHF 8 000.00) keine Satzkorrektur zu erfolgen. Für die Tarifbe-
+    stimmung und für die Festlegung des satzbestimmenden Einkommens sind die Verhältnisse zum Zeitpunkt
+    der Auszahlung der Leistung massgebend. Weil diese Verhältnisse der Unternehmung T. nicht bekannt
+    sind, berücksichtigt sie für die Festlegung des satzbestimmenden Einkommens den letzten von ihr ausbe-

@@ -4,11 +4,15 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 43"
-seiten: "20"
+titel: "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Bülach (Teil 2/2)"
+seiten: "21"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 20
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Einfamilienhäuser · S. 21
 
-Truttikon   5   550   490   440   390   330   –   –   –   –
-Volken   3   540   500   460   –   –   –   –   –   –
+Rafz   5   900   820   750   670   590   –   –   –   –
+Rorbas   3   880   770   660   –   –   –   –   –   –
+Wallisellen   5   1780   1630   1480   1320   1170   –   –   –   –
+Wasterkingen   3   670   620   570   –   –   –   –   –   –
+Wil   4   650   570   500   430   –   –   –   –   –
+Winkel   4   1480   1290   1100   920   –   –   –   –   –

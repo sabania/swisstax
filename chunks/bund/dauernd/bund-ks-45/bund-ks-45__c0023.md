@@ -4,21 +4,16 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 23"
-seiten: "5"
+titel: "Ziff. 3.1.2 Arbeitnehmer mit Ansässigkeit im Ausland (Teil 2/2)"
+ziffer: "3.1.2"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.1 Grundsätze · S. 9
 
-2.2   Schuldner der steuerbaren Leistung
-2.2.1 Grundsatz
-Als Schuldner der steuerbaren Leistung im Sinne dieses Kreisschreibens gilt diejenige natür-
-liche oder juristische Person, die dem Arbeitnehmer eine dem Quellensteuerabzug unterlie-
-gende Leistung ausrichtet (vgl. Ziffer 3.2 unten). Dies betrifft einerseits den Arbeitgeber, d.h.
-eine Gesellschaft, eine Gruppengesellschaft, Betriebsstätte oder feste Einrichtung, bei wel-
-cher der Arbeitnehmer für die Verrichtung einer unselbstständigen Erwerbstätigkeit angestellt
-ist sowie andererseits die Sozial- oder Privatversicherer bzw. die haftpflichtigen Dritten für
-
-1 Aus Gründen der Lesbarkeit werden im vorliegenden Kreisschreiben nur die männlichen Formen verwendet.
-
- Frauen sind selbstverständlich mitgemeint.
+oder andere Vergütungen von einem Arbeitgeber mit Sitz oder Betriebsstätte in der Schweiz
+erhalten, unterliegen ohne Rücksicht auf ihre Staatsangehörigkeit oder ihre aufenthaltsrecht-
+liche Bewilligung der Quellensteuerpflicht (vgl. Art. 91 Abs. 2 DBG). Ob im Einzelfall ein
+Quellensteuerabzug vorgenommen werden muss, ist den Bestimmungen des anwendbaren
+DBA zu entnehmen. Eine entsprechende Übersicht findet sich im jeweils gültigen «Merkblatt
+der ESTV über die Quellenbesteuerung von Arbeitnehmern bei internationalen Transporten».

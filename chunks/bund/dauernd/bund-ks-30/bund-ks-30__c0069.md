@@ -4,13 +4,15 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 3/3)"
+titel: "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 3/3)"
 ziffer: "11"
-seiten: "21"
+seiten: "21-22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21–22
 
-Die Unterstützungsbedürftigkeit ist ebenfalls stets nach objektiven Gesichtspunkten festzule-
-gen. Diese können jedoch nicht gesamtschweizerisch vereinheitlicht werden, da die Lebens-
-haltungskosten je nach Gegend unterschiedlich hoch sind.
+Wie bei allen Sozialabzügen sind für die Gewährung des Unterstützungsabzugs die Verhält-
+nisse am Ende der Steuerperiode oder der Steuerpflicht massgebend (Stichtagsprinzip; Art.
+35 Abs. 2 DBG). Bei teilweiser Steuerpflicht erfolgt eine anteilsmässige Gewährung des Un-
+terstützungsabzugs (Art. 35 Abs. 3 DBG). Die Höhe bemisst sich nach dem Verhältnis des in
+der Schweiz steuerbaren Reineinkommens3 zum gesamten Reineinkommen.

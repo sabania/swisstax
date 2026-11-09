@@ -4,22 +4,15 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 21"
-seiten: "7"
+titel: "Ziff. 4.5.2 Unterhaltung, Geselligkeit, Sport und Hobby – nicht abzugsfähig (Teil 2/2)"
+ziffer: "4.5.2"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.5 Keine berufsorientierte Weiterbildung · S. 8
 
-<!-- Seite 7 -->
-jedem Ehegatten, jeder eingetragenen Partnerin und jedem eingetragenen Partner zu. Aufgrund
-dieser gesetzlichen Konzeption ist für dessen Geltendmachung kein Zusammenhang mit Er-
-werbseinkünften erforderlich. Dies bedeutet, dass der Abzug auch dann geltend gemacht werden
-kann, wenn in der entsprechenden Steuerperiode kein Erwerbseinkommen erzielt wurde. Es ist
-zudem darauf hinzuweisen, dass die Verordnung des Eidgenössischen Finanzdepartements vom
-10. Februar 1993 über den Abzug der Berufskosten unselbstständig Erwerbstätiger bei der direk-
-ten Bundessteuer (SR 642.118.1; Berufskostenverordnung) daher keine direkte Anwendung fin-
-det. Auch bei einer unterjährigen Steuerpflicht können effektive Aufwendungen bis zum maximal
-zulässigen Betrag von 12 000 Franken in Abzug gebracht werden. Für die Berechnung des satz-
-bestimmenden Einkommens sind die effektiven Aufwendungen nicht umzurechnen.
-Die steuerpflichtige Person kann allerdings nur diejenigen Kosten abziehen, die sie selbst für ihre
-berufsorientierte Aus- oder Weiterbildung leisten muss.
+Schnupperflüge, Gymnastik, Aerobic, Pump, (Nordic-)Walking, Yogakurse, Bodybuilding, Kraft-
+training usw., aber auch Fahrstunden, Erste Hilfe Kurse, Nothilfekurse sowie Reanimationskurse,
+usw.; Sportkurse, die nicht in erster Linie der Bildung, sondern der Fitness, dem Training, der
+sportlichen Ertüchtigung / Sportanimation oder der Gesundheit dienen; Instruktionen, die über-
+wiegend der Freizeitbeschäftigung dienen, usw.

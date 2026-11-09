@@ -4,16 +4,23 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 200"
-seiten: "52"
+titel: "Ziff. 10.1 Rechte des Arbeitnehmers – Ausweis und Verfügung über Quellensteuerpflicht"
+ziffer: "10.1"
+seiten: "63"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 52
+> Bund · Steuerjahr 2025/2026 · KS 45 · 10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers › 10.1 Rechte · S. 63
 
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 110 000.00 (CHF 80 000 + CHF 30 000).
+10   Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers
 
-    Variante zum Beispiel:
-    -   Gleicher Sachverhalt wie in Beispiel 2. Im Jahr 2022 arbeitete der Steuerpflichtige jedoch 120 Tage in der
-    Schweiz und 120 Tage im Ausland.
-    -   Vom Bonus ist in der Schweiz nur der Anteil von CHF 15 000.00 steuerpflichtig (CHF 30 000 / 240 x 120)
-    zum Steuersatz von CHF 110 000.00.
+10.1 Rechte des quellensteuerpflichtigen Arbeitnehmers
+Der quellensteuerpflichtige Arbeitnehmer hat Anspruch darauf, dass die ihm abgezogenen
+Quellensteuern auf den Lohnabrechnungen und dem Lohnausweis ausgewiesen werden
+(vgl. auch Ziffer 12 der „Wegleitung zum Ausfüllen des Lohnausweises“).
+Ist ein Arbeitnehmer mit dem Quellensteuerabzug gemäss Bescheinigung des Schuldners
+der steuerbaren Leistung nicht einverstanden (vgl. Art. 137 Abs. 1 Bst. a DBG) oder hat er
+keine solche Bescheinigung erhalten (vgl. Art. 137 Abs. 1 Bst. b DBG), kann er bis am
+31. März des auf die Fälligkeit der Leistung folgenden Steuerjahres von der zuständigen kan-
+tonalen Steuerbehörde eine Verfügung über Bestand und Umfang der Quellensteuerpflicht
+verlangen. Der Schuldner der steuerbaren Leistung ist in diesem Fall verpflichtet, bis zum
+rechtskräftigen Entscheid die Quellensteuer weiterhin abzuziehen (vgl. Art. 137 Abs. 3 DBG).

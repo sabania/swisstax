@@ -1,352 +1,572 @@
 [
 {
 "id": "ar-mb-03-anhang__c0001",
-"titel": "MB AR 03-anhang – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1.1 Dach – Abziehbarkeit Unterhalt/Anlagekosten",
+"pfad": [
+"1 Gebäude aussen",
+"1.1 Dach"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.1",
+"stichworte": [
+"Dach",
+"Dachersatz",
+"Dachgaube",
+"Blitzableiter",
+"Dachisolation",
+"Liegenschaftsunterhalt"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Dachunterhalt, gleichwertiger Dachersatz, Dachrinne und Blitzableiter-Reparatur sind zu 1/1 abziehbar; Neueinbau Blitzableiter und Ausbau Dachwohnraum/Dachgaube 1/1 nicht abziehbar; thermische Isolation als Energiesparmassnahme (E).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "ar-mb-03-anhang__c0002"
 },
 {
 "id": "ar-mb-03-anhang__c0002",
-"titel": "MB AR 03-anhang – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1.2 Fassaden, Fenster, Insektenschutz, Rollläden",
+"pfad": [
+"1 Gebäude aussen",
+"1.2 Fassaden und Aussenwände"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"Fassadenrenovation",
+"Fenster Ersatz",
+"Isolierglasfenster",
+"Rollläden",
+"Einbruchschutz",
+"Gerüstkosten"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Gleichwertige Fassaden- und Fensterrenovation abziehbar (1/1), Isolation/Isolierglasfenster als Energiesparmassnahme E; Neueinbau Rollläden und Neuanschaffung Insektenschutz sind Anlagekosten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0001",
 "nachher": "ar-mb-03-anhang__c0003"
 },
 {
 "id": "ar-mb-03-anhang__c0003",
-"titel": "MB AR 03-anhang – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1.2 Haustüren, Garagentore, Sonnenstoren",
+"pfad": [
+"1 Gebäude aussen",
+"1.2 Fassaden und Aussenwände"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"Haustür",
+"Garagentor",
+"Sonnenstoren",
+"Motorisierung",
+"Neueinbau"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Gleichwertiger Ersatz von Haus-, Keller- und Garagentüren sowie Sonnenstoren und Ersatz mit Motorisierung 1/1 abziehbar bzw. Anlagekosten bei Neueinbau je nach Spalte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0002",
 "nachher": "ar-mb-03-anhang__c0004"
 },
 {
 "id": "ar-mb-03-anhang__c0004",
-"titel": "MB AR 03-anhang – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 1.2 Wintergarten, Balkonverglasung, Windfang",
+"pfad": [
+"1 Gebäude aussen",
+"1.2 Fassaden und Aussenwände"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"Wintergarten",
+"Sitzplatzverglasung",
+"Balkonverglasung",
+"Windfang"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Sanierung/Reparatur und gleichwertiger Ersatz von Wintergarten und Balkonverglasung abziehbar, Neuerstellung nicht; unbeheizter Windfang-Neubau als Energiesparmassnahme E.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0003",
 "nachher": "ar-mb-03-anhang__c0005"
 },
 {
 "id": "ar-mb-03-anhang__c0005",
-"titel": "MB AR 03-anhang – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2 Gebäude innen – Grundrissveränderung, Innenausbau",
+"pfad": [
+"2 Gebäude innen",
+"2.1 Grundrissveränderungen",
+"2.2 Innenausbau"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Wohnraumerweiterung",
+"Bodenbeläge",
+"Malerarbeiten",
+"Wandbeläge",
+"Zimmertüren",
+"Schränke Garderoben"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Wohnraumerweiterung und Grundrissveränderungen sind nicht abziehbar; gleichwertiger Ersatz von Bodenbelägen, Wandbelägen, Zimmertüren und Malerarbeiten abziehbar (Maler bei Anbauten nicht).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0004",
 "nachher": "ar-mb-03-anhang__c0006"
 },
 {
 "id": "ar-mb-03-anhang__c0006",
-"titel": "MB AR 03-anhang – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 3.1–3.2 Küche und Sanitäre Installationen",
+"pfad": [
+"3 Installationen",
+"3.1 Kücheneinrichtungen",
+"3.2 Sanitäre Installationen"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1-3.2",
+"stichworte": [
+"Küche Ersatz",
+"Komfortverbesserung 2/3",
+"Bad Dusche WC",
+"Waschmaschine",
+"Wasserenthärtung",
+"Küchengeräte"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Gleichwertiger Ersatz Küche und Sanitär 1/1 abziehbar; Ersatz mit erheblicher Komfortverbesserung 2/3 abziehbar, 1/3 nicht abziehbar; Neuinstallationen und erstmalige Anschaffungen nicht abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0005",
 "nachher": "ar-mb-03-anhang__c0007"
 },
 {
 "id": "ar-mb-03-anhang__c0007",
-"titel": "MB AR 03-anhang – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 3.3–3.4 Elektroinstallationen, Glasfaser, Ladestation, Alarmanlage, Lift",
+"pfad": [
+"3 Installationen",
+"3.3 Elektroinstallationen",
+"3.4 Aufzug, Lift"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.3-3.4",
+"stichworte": [
+"Elektroinstallationen",
+"Glasfaser",
+"Smart Home",
+"Ladestation Elektromobil",
+"bidirektionale Ladestation 3/4",
+"Alarmanlage",
+"Lift"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Gleichwertiger Ersatz abziehbar, Erstanschaffung/Erweiterung nicht; erstmalige bidirektionale Ladestation 3/4 abziehbar (E), 1/4 nicht abziehbar; Neueinbau Lift nicht abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0006",
 "nachher": "ar-mb-03-anhang__c0008"
 },
 {
 "id": "ar-mb-03-anhang__c0008",
-"titel": "MB AR 03-anhang – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 4.1 Heizungs- und Lüftungsinstallationen – Wartung, Heizungssystem",
+"pfad": [
+"4 Heizung, Energiegewinnung",
+"4.1 Heizungs- und Lüftungsinstallationen"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1",
+"stichworte": [
+"Heizungsersatz",
+"Öltank Entfernung",
+"Wärmepumpe",
+"Fussbodenheizung",
+"Kaminfeger",
+"Serviceabonnement"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Wartung und Reparatur abziehbar; vollständiger Ersatz durch Heizung mit erneuerbarer Energie, Öltank-Entfernung beim Ersatz und Umstellung auf Bodenheizung als Energiesparmassnahme E abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0007",
 "nachher": "ar-mb-03-anhang__c0009"
 },
 {
 "id": "ar-mb-03-anhang__c0009",
-"titel": "MB AR 03-anhang – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 4.1 Wärmecontracting, Klimaanlage und Lüftung",
+"pfad": [
+"4 Heizung, Energiegewinnung",
+"4.1 Heizungs- und Lüftungsinstallationen",
+"Contracting"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1",
+"stichworte": [
+"Wärmecontracting",
+"Energiecontracting",
+"Amortisationsraten",
+"Klimaanlage",
+"Lüftung"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Contracting: Amortisationsraten bei Neubau nicht, bei Ersatz abziehbar; nicht aufteilbare Grundkosten 1/2 abziehbar und 1/2 nicht; Klimaanlage erstmalig nicht, gleichwertiger Ersatz abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0008",
 "nachher": "ar-mb-03-anhang__c0010"
 },
 {
 "id": "ar-mb-03-anhang__c0010",
-"titel": "MB AR 03-anhang – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 4.2 Energiegewinnung – Fernwärme, Photovoltaik, Boiler",
+"pfad": [
+"4 Heizung, Energiegewinnung",
+"4.2 Energiegewinnung und -nutzung"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2",
+"stichworte": [
+"Photovoltaik",
+"Solaranlage",
+"Fernwärme",
+"Batteriespeicher",
+"GEAK",
+"Boiler"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Photovoltaik bei bestehenden Bauten und Fernwärmeanschluss mit Ausserbetriebnahme der Heizung als E abziehbar; PV bei Neubau (innert 2 Jahren) nicht abziehbar; laufende Betriebskosten abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0009",
 "nachher": "ar-mb-03-anhang__c0011"
 },
 {
 "id": "ar-mb-03-anhang__c0011",
-"titel": "MB AR 03-anhang – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 4.3 Kaminanlagen, Cheminées, Schweden- und Speicheröfen",
+"pfad": [
+"4 Heizung, Energiegewinnung",
+"4.3 Kaminanlagen"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3",
+"stichworte": [
+"Kamin",
+"Cheminée",
+"Schwedenofen",
+"Speicherofen",
+"Kaminsanierung"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Kaminsanierung im Zusammenhang mit Ersatz des Wärmeerzeugers als E abziehbar; erstmaliger Einbau von Cheminée/Ofen nicht abziehbar, gleichwertiger Ersatz abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0010",
 "nachher": "ar-mb-03-anhang__c0012"
 },
 {
 "id": "ar-mb-03-anhang__c0012",
-"titel": "MB AR 03-anhang – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 5.1 Gartenunterhalt – Geräte, Pflanzen und Gartenanlage",
+"pfad": [
+"5 Umgebung",
+"5.1 Gartenunterhalt"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1",
+"stichworte": [
+"Garten",
+"Rasenmäher",
+"Rasenroboter",
+"Pflanzen Sträucher Bäume",
+"Gartenunterhalt",
+"Grünabfuhr"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Ordentlicher Gartenunterhalt, Rasenpflege und gleichwertiger Ersatz mehrjähriger Pflanzen 1/1 abziehbar; erstmaliges Ansetzen und Geräteanschaffung gemäss Tabelle.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0011",
 "nachher": "ar-mb-03-anhang__c0013"
 },
 {
 "id": "ar-mb-03-anhang__c0013",
-"titel": "MB AR 03-anhang – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 5.1 Garten – Blumengarten, Gartenmöbel, Lebhäge, Terrain, Stützmauern",
+"pfad": [
+"5 Umgebung",
+"5.1 Gartenunterhalt"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1",
+"stichworte": [
+"Gartenmöbel",
+"Lebhag Thuja",
+"Gartenumgestaltung",
+"Steingarten",
+"Stützmauer",
+"Topfpflanzen"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Gartenmöbel und Topfpflanzen nicht abziehbar; gleichwertiger Ersatz Lebhag abziehbar, Ersatz durch hochwertige Häge 1/3 abziehbar und 2/3 nicht; Terrainveränderungen/Gartenumgestaltung und erstmalige Erstellung nicht abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0012",
 "nachher": "ar-mb-03-anhang__c0014"
 },
 {
 "id": "ar-mb-03-anhang__c0014",
-"titel": "MB AR 03-anhang – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 5.1 Böschungssicherung, Sitzplatz, Pergola, Zäune, Drainage, Lärm- und Hochwasserschutz",
+"pfad": [
+"5 Umgebung",
+"5.1 Gartenunterhalt"
+],
 "seiten": [
 5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1",
+"stichworte": [
+"Böschungssicherung",
+"Pergola",
+"Zaun Gartenweg",
+"Drainage",
+"Lärmschutz",
+"Hochwasserschutz"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Gleichwertiger Ersatz sowie Sanierung/Reparatur abziehbar, erstmalige Erstellung von Pergola, Zäunen, Lärm- und Hochwasserschutz nicht (Ausnahme Lärmschutz bei überschrittenen Grenzwerten).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0013",
 "nachher": "ar-mb-03-anhang__c0015"
 },
 {
 "id": "ar-mb-03-anhang__c0015",
-"titel": "MB AR 03-anhang – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 5.2 Umgebungsarbeiten – Vorplätze, Carports, Schwimmbad",
+"pfad": [
+"5 Umgebung",
+"5.2 Diverse Umgebungsarbeiten"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.2",
+"stichworte": [
+"Vorplatz",
+"Carport",
+"Velounterstand",
+"Schwimmbad",
+"Schwimmteich",
+"Poolroboter"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Vorplatz bei gleicher Qualität abziehbar; Kiesplatz zu Teer/Verbundstein 1/4 abziehbar, 3/4 nicht abziehbar; Schwimmbad Ersatz, Service, Reparatur, Folie und Reinigung abziehbar, wenn in der Mietwertschätzung enthalten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0014",
 "nachher": "ar-mb-03-anhang__c0016"
 },
 {
 "id": "ar-mb-03-anhang__c0016",
-"titel": "MB AR 03-anhang – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 5.3 Anschlusskosten und -gebühren (Kanalisation, ARA, Retention)",
+"pfad": [
+"5 Umgebung",
+"5.3 Anschlusskosten und -gebühren"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.3",
+"stichworte": [
+"Anschlussgebühr",
+"ARA-Beiträge",
+"Kanalisation",
+"Anstösserbeiträge",
+"Trennsystem",
+"Retentionstank"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Einmalige Anschluss-/Klärbeiträge und Anstösserbeiträge nicht abziehbar; Anpassung an Norm (Ersatz Klär-/Jauchegrube) 2/3 abziehbar, 1/3 nicht; Umstellung Misch- auf Trennsystem 1/2 abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0015",
 "nachher": "ar-mb-03-anhang__c0017"
 },
 {
 "id": "ar-mb-03-anhang__c0017",
-"titel": "MB AR 03-anhang – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 6 Diverse Kosten – Architekt, Baubewilligung, Schädlinge, Feuerschutz, Mobiliar",
+"pfad": [
+"6 Diverse Kosten"
+],
 "seiten": [
 6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6",
+"stichworte": [
+"Architekt",
+"Baubewilligungsgebühren",
+"Marderschutz",
+"Schädlingsbekämpfung",
+"Hausbock",
+"Feuerlöscher",
+"Mobiliar"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Architekturleistungen anteilmässig zum Liegenschaftsunterhalt abziehbar; Marderschutz, Schädlingsbekämpfung und Feuerschutz-Reparaturen abziehbar; Mobiliar und Werkzeuge nicht abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0016",
 "nachher": "ar-mb-03-anhang__c0018"
 },
 {
 "id": "ar-mb-03-anhang__c0018",
-"titel": "MB AR 03-anhang – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 6 Diverse Kosten – Reinigung, Schneeräumung, Versicherungsprämien, Besitzesabgaben",
+"pfad": [
+"6 Diverse Kosten",
+"Reinigung und Besitzesabgaben"
+],
 "seiten": [
 6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6",
+"stichworte": [
+"Reinigung",
+"Schneeräumung",
+"Sachversicherung",
+"Gebäudeversicherung",
+"Hausrat Haftpflicht",
+"Hauseigentümerverband",
+"Liegenschaftssteuer"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Baureinigung bei Renovation abziehbar; Haus-/Fensterreinigung, Schneeräumung, Gebäudeversicherungs- und Hausratprämien, HEV-Beitrag und Verwaltungskosten sind Lebenshaltung, nicht als Unterhalt abziehbar (siehe Spalten).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0017",
 "nachher": "ar-mb-03-anhang__c0019"
 },
 {
 "id": "ar-mb-03-anhang__c0019",
-"titel": "MB AR 03-anhang – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 6 Diverse Kosten – nutzungsbedingte Kosten und Grundgebühren",
+"pfad": [
+"6 Diverse Kosten",
+"Nutzungsbedingte Kosten"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6",
+"stichworte": [
+"Wasser Abwasser Strom Heizung",
+"Serafe",
+"Kehrichtabfuhr",
+"Grundgebühren",
+"Nebenkosten Vermietung",
+"Betriebskosten"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Wiederkehrende Nebenkosten (Wasser, Strom, Heizung, Telefon, Serafe, Kehricht) bei Selbstnutzung der Lebenshaltung zugeordnet; bei fremdvermieteter Liegenschaft nur bei Deklaration der Bruttomieterträge abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0018",
 "nachher": "ar-mb-03-anhang__c0020"
 },
 {
 "id": "ar-mb-03-anhang__c0020",
-"titel": "MB AR 03-anhang – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 6 Stockwerkeigentümerschaft (Erneuerungsfonds, Hauswart) und Anwaltskosten",
+"pfad": [
+"6 Diverse Kosten",
+"Stockwerkeigentum, Anwaltskosten"
+],
 "seiten": [
 7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6",
+"stichworte": [
+"Stockwerkeigentum",
+"Erneuerungsfonds",
+"Hauswartkosten",
+"Anwaltskosten",
+"Rechtsmittel"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Einlagen in den Erneuerungsfonds 1/1 nicht abziehbar; Hauswartkosten 1/2 abziehbar, 1/2 nicht; Anwaltskosten zur Werterhaltung des Grundstücks abziehbar, aussichtsloses Rechtsmittel nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03-anhang__c0019",
-"nachher": "ar-mb-03-anhang__c0021"
-},
-{
-"id": "ar-mb-03-anhang__c0021",
-"titel": "MB AR 03-anhang – Abschnitt 21",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-mb-03-anhang__c0020",
-"nachher": "ar-mb-03-anhang__c0022"
-},
-{
-"id": "ar-mb-03-anhang__c0022",
-"titel": "MB AR 03-anhang – Abschnitt 22",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-mb-03-anhang__c0021",
 "nachher": null
 }
 ]

@@ -4,23 +4,25 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 40"
-seiten: "9"
+titel: "Ziff. 4.1 Tarifanwendung – Allgemeines, Zeitpunkt, Änderungen"
+ziffer: "4.1"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.1 Allgemeines · S. 15
 
-3.2   Steuerbare Leistungen
-3.2.1 Der Quellensteuer unterliegende Einkünfte aus Arbeitsverhältnis
-Die Quellensteuer wird von den Bruttoeinkünften berechnet (Art. 84 Abs. 1 DBG).
-Steuerbar sind alle dem Arbeitnehmer oder einer Drittperson im Zusammenhang mit dem Ar-
-beitsverhältnis ausgerichteten oder gutgeschriebenen Entschädigungen, insbesondere (vgl.
-Art. 84 Abs. 2 Bst. a DBG):
-     Der ordentliche Arbeitslohn (Monatslohn, Stunden- oder Taglohn, Akkordentschädigun-
-    gen);
-     Entschädigungen für Sonderleistungen (Lohn für Überzeit-, Nacht- oder Extraarbeiten,
-    Arbeitsprämien);
-     sämtliche Lohnzulagen (Familienzulagen, Essens-, Orts- und Teuerungszulagen, Feri-
-    enentschädigungen etc.);
-     Provisionen, Gratifikationen und Bonuszahlungen;
-     Dienstalters- und Jubiläumsgeschenke;
+4   Grundsätze zur Tarifanwendung
+
+4.1   Allgemeines
+Die Berechnung der geschuldeten Quellensteuer erfolgt zum anwendbaren Quellensteuerta-
+rif (Tarifcodes A, B, C, F und H bzw. L, M, N und P; vgl. Art. 1 Abs. 1 QStV).
+Der anwendbare Tarifcode richtet sich nach den persönlichen Verhältnissen der quellensteu-
+erpflichtigen Person im Zeitpunkt der Auszahlung, Überweisung, Gutschrift oder Fälligkeit
+der steuerbaren Leistung (vgl. Art. 2 Abs. 1 QStV). Dies gilt auch für nach dem Austritt des
+Arbeitnehmers fällige Leistungen (bspw. Bonus, Abgangsentschädigung).
+Änderungen, die eine neue Tarifeinstufung bedingen (bspw. Heirat, Scheidung, Trennung,
+Geburt von Kindern, Aufnahme oder Aufgabe einer Erwerbstätigkeit, Ein- oder Austritt in
+bzw. aus einer Landeskirche), werden bei der Quellenbesteuerung ab Beginn des auf die
+Änderung folgenden Monats entsprechend berücksichtigt.
+Bei der Festlegung des anwendbaren Tarifcodes ist es unerheblich, ob die Einkünfte in der
+Schweiz oder im Ausland erzielt werden.

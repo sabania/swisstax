@@ -4,18 +4,17 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 15"
-seiten: "4"
+titel: "Ziff. 4.3.2 Vordergrund-Kriterium Einsatz von Derivaten"
+ziffer: "4.3.2"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.3.2 › Im Vordergrund · S. 6
 
-4.3.1 Allgemeine Kriterien
+-   Einsatz von Derivaten
 
-Nach der Rechtsprechung werden Kapitalgewinne auf beweglichen Vermögenswerten,
-namentlich Wertschriften, als Einkommen aus selbständiger Erwerbstätigkeit qualifiziert,
-sofern die steuerpflichtige Person An- und Verkäufe von Vermögensgegenständen in einer
-Art tätigt, die über die schlichte Verwaltung von Privatvermögen hinausgeht (ASA 71, 627;
-66, 224). Hingegen bleiben Kapitalgewinne aus der Veräusserung von beweglichen
-Vermögenswerten so lange steuerfrei, als sie im Rahmen der privaten Vermögensverwaltung
-oder in Ausnützung einer sich zufällig bietenden Gelegenheit erzielt werden.
+    Ein Handel mit Derivaten kann der Absicherung namentlich des Aktienvermögens
+    dienen. Übersteigt der Einsatz von Derivaten aber die Absicherung von Risiken und
+    wird im Verhältnis zum Gesamtvermögen ein grosses Volumen umgesetzt, so ist der
+    Handel mit Derivaten als spekulativ zu qualifizieren, was auf gewerbsmässiges
+    Vorgehen hindeutet.

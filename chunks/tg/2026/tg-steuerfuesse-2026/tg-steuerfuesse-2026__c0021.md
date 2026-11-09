@@ -4,18 +4,11 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 21"
+titel: "Karte Steuerkraft pro Einwohner der Politischen Gemeinden 2025 (Klassen) (Teil 1/2)"
 seiten: "6"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 6
-
-    1000   Bereich, in dem
-    Mittlere Steuerkraft (Median)   Unterste 25 % der Gemeinden   50 % der Gemeinden liegen
-    0
-    2003   2005   2007   2009   2011   2013   2015   2017   2019   2021   2023   2025
-
-Datenquelle: Steuerverwaltung Kanton Thurgau
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Karte · S. 6
 
 Steuerkraft pro Einwohnerin oder Einwohner der Politischen Gemeinden
 Kanton Thurgau, 2025, in Franken
@@ -98,3 +91,31 @@ Kanton Thurgau, 2025, in Franken
     inge
     sw
     G
+
+    Uesslingen−Buch   ein   Märstetten
+    s
+    b
+
+    th−W   Berg   Uttwil
+    Ke
+    ach
+
+    War   Felben−   i Dozwil
+    n
+
+    Birwinken   mer
+    or
+
+    Hüttlingen   Weinfelden   Som
+    H
+
+    sh
+
+    Wellhausen
+    ef fen
+
+    an
+    en
+    ho
+
+    om

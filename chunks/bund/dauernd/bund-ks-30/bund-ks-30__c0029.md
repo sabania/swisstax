@@ -4,13 +4,14 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 3/3)"
+titel: "Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 1/2)"
 ziffer: "7"
-seiten: "11-12"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 7 Abzug für Versicherungsprämien und Sparkapitalzinsen · S. 11–12
+> Bund · Steuerjahr 2025/2026 · KS 30 · 7 Abzug für Versicherungsprämien und Sparkapitalzinsen · S. 12
 
-Die Abzüge erhöhen sich zudem um einen bestimmten Betrag für jedes Kind und für jede
-unterstützungsbedürftige Person, für die ein Kinderabzug oder ein Unterstützungsabzug
-nach Artikel 35 Absatz 1 Buchstabe a bzw. b DBG geltend gemacht werden kann.
+Bei Steuerpflichtigen mit minderjährigen oder volljährigen Kindern in Ausbildung ist der Ver-
+sicherungs- und Sparzinsenabzug für das Kind grundsätzlich an den Kinderabzug gekoppelt.
+Wird kein Kinderabzug gewährt, kann der Versicherungs- und Sparzinsenabzug für das Kind
+mit dem Unterstützungsabzug gekoppelt werden. Dies bedeutet konkret Folgendes:

@@ -344,7 +344,7 @@
 },
 {
 "id": "bund-vstv__art-17-t1",
-"titel": "Art. 17 VStV (Teil 1/3)",
+"titel": "Art. 17 VStV (Teil 1/2)",
 "pfad": [
 "Erster Titel: Steuererhebung",
 "Zweiter Abschnitt: Steuer auf Kapitalerträgen",
@@ -364,7 +364,7 @@
 },
 {
 "id": "bund-vstv__art-17-t2",
-"titel": "Art. 17 VStV (Teil 2/3)",
+"titel": "Art. 17 VStV (Teil 2/2)",
 "pfad": [
 "Erster Titel: Steuererhebung",
 "Zweiter Abschnitt: Steuer auf Kapitalerträgen",
@@ -380,26 +380,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-vstv__art-17-t1",
-"nachher": "bund-vstv__art-17-t3"
-},
-{
-"id": "bund-vstv__art-17-t3",
-"titel": "Art. 17 VStV (Teil 3/3)",
-"pfad": [
-"Erster Titel: Steuererhebung",
-"Zweiter Abschnitt: Steuer auf Kapitalerträgen",
-"A. Steuer auf dem Ertrag von Obligationen und Kundenguthaben",
-"II. Anmeldung als Steuerpflichtiger",
-"Art. 17"
-],
-"seiten": [],
-"artikel": "Art. 17",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-vstv__art-17-t2",
 "nachher": "bund-vstv__art-18"
 },
 {
@@ -420,7 +400,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-vstv__art-17-t3",
+"vorher": "bund-vstv__art-17-t2",
 "nachher": "bund-vstv__art-19-t1"
 },
 {
@@ -508,7 +488,7 @@
 },
 {
 "id": "bund-vstv__art-21-t1",
-"titel": "Art. 21 VStV (Teil 1/3)",
+"titel": "Art. 21 VStV (Teil 1/2)",
 "pfad": [
 "Erster Titel: Steuererhebung",
 "Zweiter Abschnitt: Steuer auf Kapitalerträgen",
@@ -530,7 +510,7 @@
 },
 {
 "id": "bund-vstv__art-21-t2",
-"titel": "Art. 21 VStV (Teil 2/3)",
+"titel": "Art. 21 VStV (Teil 2/2)",
 "pfad": [
 "Erster Titel: Steuererhebung",
 "Zweiter Abschnitt: Steuer auf Kapitalerträgen",
@@ -548,28 +528,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-vstv__art-21-t1",
-"nachher": "bund-vstv__art-21-t3"
-},
-{
-"id": "bund-vstv__art-21-t3",
-"titel": "Art. 21 VStV (Teil 3/3)",
-"pfad": [
-"Erster Titel: Steuererhebung",
-"Zweiter Abschnitt: Steuer auf Kapitalerträgen",
-"B. Steuer auf dem Ertrag von Aktien, Stammanteilen an Gesellschaften mit beschränkter Haftung, Genossenschaftsanteilen, Beteiligungsscheinen von Genossenschaftsbanken und Genussscheinen",
-"II. Steuerabrechnung",
-"1. Aktiengesellschaften und Gesellschaften mit beschränkter Haftung",
-"a. Im allgemeinen",
-"Art. 21"
-],
-"seiten": [],
-"artikel": "Art. 21",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-vstv__art-21-t2",
 "nachher": "bund-vstv__art-22-t1"
 },
 {
@@ -591,7 +549,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-vstv__art-21-t3",
+"vorher": "bund-vstv__art-21-t2",
 "nachher": "bund-vstv__art-22-t2"
 },
 {

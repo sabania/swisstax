@@ -4,19 +4,22 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 10"
-seiten: "2"
+titel: "Ziff. 2.3.2 Unechte Mitarbeiterbeteiligungen – Begriff"
+ziffer: "2.3.2"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 37 · 2 Begriffe › 2.3.2 Unechte Mitarbeiterbeteiligungen · S. 5
 
-    Mitarbeiterbeteiligungen, die erst bei Realisierung steuerbar sind ............... 16
-8   Mitwirkungs- und Bescheinigungspflichten ............................................ 18
-8.1   Arbeitgeber ................................................................................................. 18
-8.1.1   Allgemeines.................................................................................................. 18
-8.1.2   Bescheinigungen bei Mitarbeiteraktien (Art. 4 MBV) .................................... 19
-8.1.2.1 Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfrist (Art. 11 MBV) .................. 19
-8.1.2.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV) ...................................................... 19
-8.1.3   Bescheinigung über Mitarbeiteroptionen, Anwartschaften auf
-    Mitarbeiteraktien und unechte Mitarbeiterbeteiligungen (Art. 5 und 6 MBV) 20
-8.1.3.1 Freie, börsenkotierte Mitarbeiteroptionen ............................................................... 20
+2.3.2 Unechte Mitarbeiterbeteiligungen
+Als unechte Mitarbeiterbeteiligungen gelten eigenkapital- bzw. aktienkursbezogene Anreiz-
+systeme, welche dem Mitarbeitenden im Ergebnis keine Beteiligung am Eigenkapital des Ar-
+beitgebers, sondern in der Regel nur eine Geldleistung in Aussicht stellen, welche sich an
+der Wertentwicklung des Basistitels bestimmt. Weil diese Instrumente dem Mitarbeitenden
+regelmässig keine weiteren Rechte wie Stimm- und Dividendenrechte einräumen, gelten die
+unechten Mitarbeiterbeteiligungen bis zu ihrer Realisation steuerlich als blosse Anwartschaf-
+ten.
+
+Als häufigste Formen unechter Mitarbeiterbeteiligungen gelten die sog. Phantom Stocks
+(synthetische Aktien) und die sog. Stock Appreciation Rights (synthetische Optionen) sowie
+Formen von Co-Investments.

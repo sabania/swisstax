@@ -4,20 +4,19 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 29"
-seiten: "7"
+titel: "Ziff. 3.2.2 Beschränkt steuerbare Einkünfte – schweizerische Arbeitstage (Teil 2/2)"
+ziffer: "3.2.2"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.2 Steuerbare Leistungen · S. 10
 
-prüft. Steht von Anfang an fest, dass die Entsendung mehr als drei Monate dauert, besteht
-die Quellensteuerpflicht in der Schweiz ab dem ersten Arbeitstag. Wird eine Entsendung von
-weniger als drei Monaten vereinbart und ergibt sich erst nachträglich eine Verlängerung auf
-mehr als drei Monate, beginnt auch hier die Quellensteuerpflicht rückwirkend ab dem 1. Ar-
-beitstag in der Schweiz. Hierbei ist nicht auf die in der Schweiz erbrachten Arbeitstage abzu-
-stellen, sondern auf die vereinbarte Entsendedauer.
-Wird ein Arbeitnehmer von einem ausländischen Arbeitgeber in die Schweiz entsandt, ist so-
-mit bei Vorliegen einer faktischen Arbeitgeberschaft – und dies trotz allfällig fortgeführter
-Lohnzahlung aus dem Ausland – eine Quellensteuerpflicht in der Schweiz gegeben (vgl.
-Art. 4 Abs. 2 Bst. b QStV) und der faktische Arbeitgeber mit Sitz in der Schweiz qualifiziert
-als Schuldner der steuerbaren Leistung.
+übung im Ausland von der Schweiz freigestellt werden muss (bspw. bei Vorliegen einer fakti-
+schen Arbeitgeberschaft oder wenn die Voraussetzungen der Monteurklausel nicht erfüllt
+sind).
+Bei Arbeitnehmern mit Ansässigkeit im Ausland ist grundsätzlich nur derjenige Teil der Leis-
+tung steuerbar, der auf in der Schweiz erbrachte Arbeitstage entfällt.
+Für die Ermittlung des satzbestimmenden Einkommens sind die weltweiten Bruttoerwerbs-
+einkünfte (inkl. Ersatzeinkünfte) heranzuziehen (vgl. Art. 7 Abs. 1 DBG).
+Zur Berechnung des steuerbaren sowie satzbestimmenden Einkommens wird auf die Ziffern
+6 (Monatsmodell) und 7 (Jahresmodell) unten verwiesen.

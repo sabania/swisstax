@@ -4,20 +4,22 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 17"
-seiten: "4"
+titel: "Ziff. 3.3.4 Kontrollrechnung – Einkünfte aus ausländischen Quellen (DBA-Entlastung) (Teil 1/2)"
+ziffer: "3.3.4"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.3 Mindestwerte › 3.3.4 Kontrollrechnung · S. 6
 
-Ebenfalls zum steuerbaren Aufwand sind die Lebenshaltungskosten zu rechnen, die der Ehe-
-gatte der steuerpflichtigen Person und die Kinder unter elterlicher Sorge aus eigenen Mitteln be-
-streiten (vgl. Art. 9 DBG).
-Der so ermittelte weltweite Aufwand entspricht dem Betrag, der nach dem ordentlichen Tarif be-
-steuert wird, wenn er nicht niedriger ist als einer der in Artikel 14 Absatz 3 Buchstaben a-d DBG
-genannten Beträge.
-Für jede Steuerperiode ist der steuerbare Betrag zu ermitteln. Vom steuerbaren Betrag (Kosten
-der Lebenshaltung oder Mehrfaches des Mietzinses bzw. Mietwerts oder Pensionspreises) kön-
-nen keine Abzüge gemacht werden. Der auf diese Weise ermittelte Betrag gilt unter dem Vorbe-
-halt, dass die Kontrollrechnung, wie sie in der folgenden Ziffer dargestellt wird, nicht zu einem
-höheren Steuerbetrag führt, als Bemessungsgrundlage.
+Aus ausländischen Quellen: Es sind die Einkünfte, für die die steuerpflichtige Person aufgrund
+eines von der Schweiz abgeschlossenen Abkommens zur Vermeidung der Doppelbesteuerung
+gänzlich oder teilweise Entlastung von ausländischen Steuern beansprucht, heranzuziehen.
+Dazu ist Folgendes anzumerken:
+Für den Einbezug ausländischer Einkünfte genügt es, dass dafür irgendwelche Steuern des
+Quellenstaates (sowohl solche, die an der Quelle, als auch jene, die im ordentlichen Verfahren
+erhoben werden) kraft Abkommens gänzlich oder teilweise entfallen. Dies trifft auch dann zu,
+wenn der ausländische Staat gestützt auf ein mit der Schweiz abgeschlossenes Abkommen bei
+beschränkter Steuerpflicht beispielsweise auf die Besteuerung eines Ruhegehalts im Veranla-
+gungsverfahren verzichtet.
+Als Einkünfte, für die die steuerpflichtige Person kraft eines Doppelbesteuerungsabkommens
+gänzliche oder teilweise Befreiung, Anrechnung oder Rückerstattung von ausländischen Steu-

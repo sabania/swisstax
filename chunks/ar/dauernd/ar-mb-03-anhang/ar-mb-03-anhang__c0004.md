@@ -4,17 +4,13 @@ quelle: ar-mb-03-anhang
 jur: ar
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB AR 03-anhang – Abschnitt 4"
+titel: "Ziff. 1.2 Wintergarten, Balkonverglasung, Windfang"
+ziffer: "1.2"
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 1
+> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 1 Gebäude aussen › 1.2 Fassaden und Aussenwände · S. 1
 
-  - Sonnenstoren
-    a) gleichwertiger Ersatz   1/1
-    b) Ersatz mit Motorisierung (vorher manuell, exkl. Installation   1/1
-    neuer elektrischer Zuleitungen)
-    c) Neueinbau   1/1
   - Wintergarten und Sitzplatzverglasung
     a) Sanierung und Reparatur   1/1
     b) gleichwertiger Ersatz   1/1
@@ -26,3 +22,5 @@ qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
   - Windfang
     a) Neubau von unbeheizten Windfängen   1/1   E
     b) Reparatur/gleichwertiger Ersatz   1/1
+
+21.11.2024   Seite 1 von 7

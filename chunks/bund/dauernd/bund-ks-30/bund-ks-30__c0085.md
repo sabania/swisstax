@@ -4,23 +4,29 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 13.4.3 Elterntarif – Ehepaare, getrennte und unverheiratete Eltern mit volljährigem Kind (Teil 2/2)"
-ziffer: "13.4.3"
-seiten: "25-26"
+titel: "Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus (Teil 1/2)"
+ziffer: "13.4.7"
+seiten: "27-28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.3 Volljährige Kinder in Ausbildung · S. 25–26
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.7 Teilweise Steuerpflicht · S. 27–28
 
-Bei unverheirateten Eltern ist bei der Zuweisung des Elterntarifs auf die Unterhaltszahlungen
-an das Kind gemäss Artikel 24 Buchstabe e DBG abzustellen. Leistet nur ein Elternteil Un-
-terhaltzahlungen, kann dieser den Elterntarif geltend machen. Leisten beide Elternteile Un-
-terhaltszahlungen, ist davon auszugehen, dass der Elternteil mit den höheren finanziellen
-Leistungen, d.h. in der Regel derjenige mit dem höheren Einkommen, hauptsächlich für den
-Unterhalt des Kindes sorgt. Diesem wird der Elterntarif wie auch der Kinderabzug gewährt.
-Der andere Elternteil kann den Unterstützungsabzug gemäss Artikel 35 Absatz 1 Buchstabe
-b DBG geltend machen, sofern seine Leistungen mindestens in der Höhe des Abzuges er-
-folgen.
+13.4.7   Teilweise Steuerpflicht
 
-Erhält das Kind keine Unterhaltszahlungen gemäss Artikel 24 Buchstabe e DBG, wird der
-Elterntarif demjenigen Elternteil mit dem höheren Reineinkommen gewährt, da davon aus-
-gegangen wird, dass er höhere finanzielle Beiträge an das Kind erbringt.
+Bei beschränkter Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit nach den Artikeln 4
+und 5 DBG wird der Abzug vom Steuerbetrag anteilsmässig gewährt.
+
+Auch bei unbeschränkter Steuerpflicht aufgrund persönlicher Zugehörigkeit wird der Abzug
+vom Steuerbetrag nur anteilsmässig gewährt, soweit Auslandeinkünfte gemäss Artikel 6 Ab-
+satz 1 DBG oder aufgrund eines Doppelbesteuerungsabkommens von der Steuerpflicht aus-
+zunehmen sind.
+
+Der Steuerbetrag ermässigt sich bei teilweiser Steuerpflicht somit nur um den anteilsmässi-
+gen Abzug von 251 Franken für jedes Kind und jede unterstützungsbedürftige Person. Die
+Höhe des Abzugs bemisst sich nach dem Verhältnis des in der Schweiz steuerbaren Ein-
+kommens zum höheren satzbestimmenden Einkommen.
+
+Beispiel:   Beschränkte Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit
+(Ferienhaus in der Schweiz; Art. 4 Abs. 1 Bst. c und 21 DBG)
+
+Annahmen:

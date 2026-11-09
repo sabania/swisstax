@@ -1,0 +1,869 @@
+jur: zh
+jahr: 2026
+jahre_hinweis: 'Steuerjahr 2026. Primärquellen: StG ZH Nachtrag 132 (Stand 1.4.2026, enthält die Werte des Teuerungsausgleichs per 1.1.2026), VKP ab 2026 (ZStB 48.1), Verfügung LS 631.33 (ab Steuerperiode
+  2026), Wegleitung 2026 nur für unterjährige Steuerpflicht (WL 2026 UJ; für das volle Steuerjahr 2026 ist noch keine Wegleitung publiziert, die Werte daraus gelten aber für alle). Bundessteuer-Werte stehen
+  in data/werte/bund/2026.yaml.'
+werte:
+- key: berufskosten.fahrkosten.max
+  wert: 5200
+  einheit: CHF
+  text: 'Fahrten Wohn-/Arbeitsstätte (inkl. Fahrkosten bei auswärtigem Wochenaufenthalt): Höchstbetrag Fr. 5''200 im Jahr (Staats- und Gemeindesteuer). Bei der direkten Bundessteuer gilt ein anderer Höchstbetrag
+    (Fr. 3''300 laut WL 2026 UJ; siehe Bund-Datei).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 26 Abs. 1 lit. a StG; LS 631.33 Ziff. I/1
+  quellen:
+  - chunk: zh-stg-2026__par-26
+    zitat: bis zu einem Höchstbetrag von Fr. 5200 für Fahrten zwischen Wohn- und Arbeitsstätte
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0003
+    zitat: Fr. 5200 im Jahr abgezogen werden
+  - chunk: zh-wl-2026-uj__c0060
+    zitat: Bei der Staatssteuer ist der Fahrkostenabzug auf CHF 5’200 beschränkt.
+  status: extrahiert
+  bemerkung: Aus WL 2026 UJ bestätigt.
+- key: berufskosten.fahrkosten.auto_km
+  wert: 0.75
+  einheit: CHF
+  text: 'Privates Auto (nur ausnahmsweise abziehbar): 75 Rp. pro Fahrkilometer (2026; 2025: 70 Rp.).'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/1 (ab Steuerperiode 2026)
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0003
+    zitat: für Auto . . . . . . . . . . . . . . . . . 75 Rp. pro Fahrkilometer
+  - chunk: zh-wl-2026-uj__c0021
+    zitat: der Fahrkostenabzug für Automobile pro Kilometer von CHF 0.70 auf CHF 0.75 angehoben worden
+  status: extrahiert
+  bemerkung: Privates Motorfahrzeug nur bei Ausnahmen gemäss Ziff. I/1 (kein ÖV, Zeitersparnis über 1 Std., Arbeitgeber-Verlangen, Krankheit/Gebrechlichkeit). Aus WL 2026 UJ bestätigt.
+- key: berufskosten.fahrkosten.motorrad_km
+  wert: 0.4
+  einheit: CHF
+  text: 'Motorrad mit weissem Kontrollschild (nur ausnahmsweise abziehbar): 40 Rp. pro Fahrkilometer.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/1
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0003
+    zitat: 40 Rp. pro Fahrkilometer
+  - chunk: zh-wl-2026-uj__c0060
+    zitat: für Motorrad mit weissem Kontrollschild 40 Rp. pro Fahrkilometer
+  status: extrahiert
+- key: berufskosten.fahrkosten.velo_pauschale
+  wert: 700
+  einheit: CHF
+  text: 'Fahrrad, Motorfahrrad oder Motorrad mit gelbem Kontrollschild bei ständiger Benützung: Pauschale Fr. 700 im Jahr.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/1 lit. b
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0001
+    zitat: im Jahr Fr. 700
+  - chunk: zh-wl-2026-uj__c0055
+    zitat: Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700
+  status: extrahiert
+- key: berufskosten.fahrkosten.arbeitstage
+  wert: 240
+  einheit: Tage
+  text: Bei Auto/Motorrad (weisses Kontrollschild) ist der Fahrkostenabzug in der Regel auf 240 Arbeitstage begrenzt.
+  gilt_fuer: kanton
+  rechtsgrundlage: Formular Berufsauslagen 2026 (Wegleitung)
+  quellen:
+  - chunk: zh-wl-2026-uj__c0062
+    zitat: in der Regel begrenzt auf 240 Tage
+  status: extrahiert
+  bemerkung: Quelle ist das Formular Berufsauslagen (in WL 2026 UJ abgedruckt), nicht LS 631.33 selbst.
+- key: berufskosten.verpflegung.tag
+  wert: 15
+  einheit: CHF
+  text: 'Auswärtige Verpflegung, wenn voll zulasten des Arbeitnehmers (Dauer der Arbeitspause ermöglicht keine Heimkehr): Fr. 15 pro Arbeitstag.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/2 lit. a
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0004
+    zitat: pro Arbeitstag Fr. 15
+  - chunk: zh-wl-2026-uj__c0061
+    zitat: pro Arbeitstag CHF 15, bei ständiger auswärtiger Verpflegung im Jahr höchstens CHF 3’200
+  status: extrahiert
+- key: berufskosten.verpflegung.jahr
+  wert: 3200
+  einheit: CHF
+  text: 'Bei ständiger auswärtiger Verpflegung (voll zulasten Arbeitnehmer): höchstens Fr. 3''200 im Jahr. Nicht kumulierbar mit Schichtarbeits- und Wochenaufenthalts-Verpflegung.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/2 lit. a
+  quellen:
+  - chunk: zh-wl-2026-uj__c0061
+    zitat: pro Arbeitstag CHF 15, bei ständiger auswärtiger Verpflegung im Jahr höchstens CHF 3’200
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0004
+    zitat: Die vorstehenden Abzüge dürfen nicht kumuliert werden.
+  status: extrahiert
+- key: berufskosten.verpflegung.verbilligt_tag
+  wert: 7.5
+  einheit: CHF
+  text: 'Verpflegung durch Arbeitgeber verbilligt (Kantine, Personalrestaurant, Barbeitrag, Essensgutscheine) und trotzdem Mehrkosten: Fr. 7.50 pro Arbeitstag.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/2 lit. a
+  quellen:
+  - chunk: zh-wl-2026-uj__c0061
+    zitat: pro Arbeitstag CHF 7.50, bei ständiger auswärtiger Verpflegung im Jahr höchstens CHF 1’600
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0004
+    zitat: Fr. 7.50
+  status: extrahiert
+- key: berufskosten.verpflegung.verbilligt_jahr
+  wert: 1600
+  einheit: CHF
+  text: 'Bei ständiger auswärtiger Verpflegung mit Verbilligung durch den Arbeitgeber: höchstens Fr. 1''600 im Jahr.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/2 lit. a
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0004
+    zitat: bei ständiger auswärtiger Verpflegung . . im Jahr Fr. 1600
+  - chunk: zh-wl-2026-uj__c0061
+    zitat: bei ständiger auswärtiger Verpflegung im Jahr höchstens CHF 1’600
+  status: extrahiert
+- key: berufskosten.schichtarbeit.tag
+  wert: 15
+  einheit: CHF
+  text: 'Durchgehende, mindestens achtstündige Schicht- oder Nachtarbeit: Fr. 15 pro ausgewiesenen Schichttag, bei ständiger Schicht-/Nachtarbeit höchstens Fr. 3''200 im Jahr. Gestaffelte (unregelmässige)
+    Arbeitszeit ist gleichgestellt, wenn die Hauptmahlzeiten nicht zur üblichen Zeit zu Hause eingenommen werden können.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/2 lit. b
+  quellen:
+  - chunk: zh-wl-2026-uj__c0061
+    zitat: Schichttag CHF 15, bei ständiger Schicht- oder Nachtarbeit im Jahr höchstens CHF 3’200
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0004
+    zitat: bei ständiger Schicht- oder Nachtarbeit . . im Jahr Fr. 3200
+  status: extrahiert
+- key: berufskosten.wochenaufenthalt.unterkunft
+  wert: null
+  einheit: Text
+  text: 'Auswärtiger Wochenaufenthalt: als Mehrkosten für die auswärtige Unterkunft kann der Mietzins für ein Zimmer abgezogen werden (effektive Kosten, gemäss Aufstellung). Kosten der wöchentlichen Heimkehr
+    in der Regel nur ÖV-Aufwendungen (unter Fahrkosten, Ziff. 1 des Berufsauslagenblatts).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 26 Abs. 1 lit. b StG; Wegleitung
+  quellen:
+  - chunk: zh-wl-2026-uj__c0066
+    zitat: Als Mehrkosten für auswärtige Unterkunft kann der Mietzins für ein Zimmer abgezogen werden.
+  status: extrahiert
+  bemerkung: Aus WL 2026 UJ; LS 631.33 enthält keine Pauschale für die Unterkunft.
+- key: berufskosten.wochenaufenthalt.verpflegung_jahr
+  wert: 3200
+  einheit: CHF
+  text: 'Auswärtiger Wochenaufenthalt: Mehrkosten für auswärtige Verpflegung beim Abendessen Fr. 15 pro Arbeitstag bzw. Fr. 3''200 im Jahr bei ganzjährigem Wochenaufenthalt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Wegleitung 2026 UJ, Ziff. 4 Berufsauslagen
+  quellen:
+  - chunk: zh-wl-2026-uj__c0066
+    zitat: bei ganzjährigem Wochenaufenthalt CHF 3’200 im Jahr abgezogen werden
+  status: extrahiert
+  bemerkung: Aus WL 2026 UJ; nicht aus LS 631.33.
+- key: berufskosten.uebrige.satz
+  wert: 3
+  einheit: '%'
+  text: 'Übrige Berufskosten (Berufskleider, Berufswerkzeuge inkl. EDV, Fachliteratur, privates Arbeitszimmer, Berufsverbandsbeiträge): 3 % des Nettolohns. Nettolohn = Bruttolohn nach Abzug AHV/IV/EO/ALV,
+    laufender Beiträge an Personalvorsorge und Prämien der obligatorischen NBUV.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/3; § 26 Abs. 1 lit. c, Abs. 2 StG
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0005
+    zitat: mindestens jedoch Fr. 2000 und höchstens Fr. 4000
+  - chunk: zh-wl-2026-uj__c0062
+    zitat: 3% des Nettolohnes gemäss Lohnausweis, mindestens jedoch CHF 2’000
+  status: extrahiert
+- key: berufskosten.uebrige.fix
+  wert: null
+  einheit: CHF
+  text: 'Kein fixer Pauschalbetrag: Die Pauschale ist ein Prozentsatz (3 % des Nettolohns) mit Minimum und Maximum.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/3
+  quellen: []
+  status: na
+- key: berufskosten.uebrige.min
+  wert: 2000
+  einheit: CHF
+  text: 'Mindestbetrag der Pauschale für übrige Berufskosten: Fr. 2''000.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/3
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0005
+    zitat: mindestens jedoch Fr. 2000 und höchstens Fr. 4000
+  - chunk: zh-wl-2026-uj__c0062
+    zitat: 3% des Nettolohnes gemäss Lohnausweis, mindestens jedoch CHF 2’000
+  status: extrahiert
+- key: berufskosten.uebrige.max
+  wert: 4000
+  einheit: CHF
+  text: 'Höchstbetrag der Pauschale für übrige Berufskosten: Fr. 4''000. Höhere effektive Kosten sind in vollem Umfang nachzuweisen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/3 und IV
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0005
+    zitat: mindestens jedoch Fr. 2000 und höchstens Fr. 4000
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0007
+    zitat: sind die Berufsauslagen in vollem Umfang nachzuweisen
+  status: extrahiert
+- key: berufskosten.nebenerwerb.satz
+  wert: 20
+  einheit: '%'
+  text: 'Auslagen bei Nebenbeschäftigung in unselbstständiger Stellung (inkl. Fahrkosten, auswärtige Verpflegung): 20 % der Einkünfte aus der Nebenbeschäftigung.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/4
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0006
+    zitat: mindestens jedoch Fr. 800 und höchstens Fr. 2400
+  - chunk: zh-wl-2026-uj__c0067
+    zitat: 20% der Einkünfte aus allen Nebenbeschäftigungen, insgesamt mindestens jedoch CHF 800 und höchstens CHF 2’400
+  status: extrahiert
+- key: berufskosten.nebenerwerb.min
+  wert: 800
+  einheit: CHF
+  text: 'Mindestbetrag der Nebenerwerbs-Pauschale: Fr. 800.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/4
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0006
+    zitat: mindestens jedoch Fr. 800 und höchstens Fr. 2400
+  status: extrahiert
+- key: berufskosten.nebenerwerb.max
+  wert: 2400
+  einheit: CHF
+  text: 'Höchstbetrag der Nebenerwerbs-Pauschale: Fr. 2''400. Höhere effektive Kosten sind detailliert aufzuführen und nachzuweisen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/4 und IV
+  quellen:
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0006
+    zitat: mindestens jedoch Fr. 800 und höchstens Fr. 2400
+  - chunk: zh-wl-2026-uj__c0067
+    zitat: insgesamt mindestens jedoch CHF 800 und höchstens CHF 2’400
+  status: extrahiert
+- key: berufskosten.homeoffice
+  wert: null
+  einheit: Text
+  text: 'Kein separater Homeoffice-/Arbeitszimmerabzug: Das private Arbeitszimmer ist in der Pauschale für übrige Berufskosten (3 % des Nettolohns, min. Fr. 2''000, max. Fr. 4''000) enthalten. Höhere effektive
+    Kosten sind in vollem Umfang nachzuweisen (Aufstellung).'
+  gilt_fuer: kanton
+  rechtsgrundlage: LS 631.33 Ziff. I/3 und IV
+  quellen:
+  - chunk: zh-wl-2026-uj__c0062
+    zitat: privates Arbeitszimmer, Beiträge an Berufsverbände
+  - chunk: zh-pauschalierung-berufsauslagen-2026__c0007
+    zitat: sind die Berufsauslagen in vollem Umfang nachzuweisen
+  status: extrahiert
+- key: weiterbildung.max
+  wert: 12600
+  einheit: CHF
+  text: 'Berufsorientierte Aus- und Weiterbildungskosten inkl. Umschulung: bis Fr. 12''600 (Staatssteuer), sofern erster Abschluss Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist (und es
+    nicht um Kosten bis zum ersten Abschluss Sek. II geht).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. k StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t3
+    zitat: bis zum Gesamtbetrag von Fr. 12 600
+  - chunk: zh-vkp-2026-zstb__c0004
+    zitat: bis zum Gesamtbetrag von Fr. 12 600
+  - chunk: zh-wl-2026-uj__c0089
+    zitat: CHF 12’600 bei der Staatssteuer bzw. CHF 13’000 bei der Bundessteuer
+  status: extrahiert
+- key: versicherung.verheiratet
+  wert: 5800
+  einheit: CHF
+  text: 'Versicherungsprämien und Sparzinsen (Staatssteuer), in ungetrennter Ehe lebende Steuerpflichtige mit Beiträgen an 2. Säule/Säule 3a: Fr. 5''800.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. g StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t2
+    zitat: bis zum Gesamtbetrag von Fr. 5800 für in ungetrennter Ehe lebende Steuerpflichtige und von Fr. 2900 für die übrigen Steuerpflichtigen
+  - chunk: zh-wl-2026-uj__c0081
+    zitat: CHF 5’800 für verheiratete Personen in rechtlich und tatsächlich ungetrennter Ehe
+  status: extrahiert
+- key: versicherung.verheiratet_ohne_vorsorge
+  wert: 8700
+  einheit: CHF
+  text: 'Gemeinsam Besteuerte ohne Beiträge an 2. Säule und Säule 3a (weder durch Steuerpflichtige noch Arbeitgeber): Abzug erhöht sich um die Hälfte, höchstens Fr. 8''700.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. g StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t2
+    zitat: Für Steuerpflichtige ohne Beiträge gemäss lit. d und e erhöhen sich diese Abzüge um die Hälfte.
+  - chunk: zh-wl-2026-uj__c0081
+    zitat: Der Abzug beträgt für solche Steuerpflichtige höchstens CHF 8’700.
+  status: extrahiert
+- key: versicherung.alleinstehend
+  wert: 2900
+  einheit: CHF
+  text: 'Versicherungsprämien und Sparzinsen (Staatssteuer), übrige Steuerpflichtige (nicht in ungetrennter Ehe) mit Vorsorgebeiträgen: Fr. 2''900.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. g StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t2
+    zitat: Fr. 5800 für in ungetrennter Ehe lebende Steuerpflichtige und von Fr. 2900 für die übrigen Steuerpflichtigen
+  - chunk: zh-wl-2026-uj__c0084
+    zitat: CHF 2’900 für alle übrigen Steuerpflichtigen.
+  status: extrahiert
+- key: versicherung.alleinstehend_ohne_vorsorge
+  wert: 4350
+  einheit: CHF
+  text: 'Übrige Steuerpflichtige ohne Beiträge an 2. Säule und Säule 3a: Abzug erhöht sich um die Hälfte, höchstens Fr. 4''350.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. g StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t2
+    zitat: Für Steuerpflichtige ohne Beiträge gemäss lit. d und e erhöhen sich diese Abzüge um die Hälfte.
+  - chunk: zh-wl-2026-uj__c0085
+    zitat: Steuerpflichtige höchstens CHF 4’350.
+  status: extrahiert
+  bemerkung: 4'350 = 2'900 x 1.5 (Gesetz) und in WL 2026 UJ ausdrücklich genannt.
+- key: versicherung.kind
+  wert: 1300
+  einheit: CHF
+  text: 'Zuschlag zum Versicherungsabzug: Fr. 1''300 für jedes Kind oder jede unterstützungsbedürftige Person mit Kinder-/Unterstützungsabzug nach § 34 Abs. 1; bei hälftig aufgeteiltem Kinderabzug Fr. 650.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. g StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t2
+    zitat: Zudem erhöhen sich diese Abzüge um Fr. 1300 für jedes Kin d oder jede unterstützungsbedürftige Person
+  - chunk: zh-wl-2026-uj__c0087
+    zitat: CHF 1’300 für jedes Kind oder jede u nterstützungsbedürftige Person
+  status: extrahiert
+- key: saeule3a.max_mit_2saeule
+  wert: 7258
+  einheit: CHF
+  text: 'Säule 3a mit Zugehörigkeit zur 2. Säule: höchstens Fr. 7''258 (Bemessungsjahr ab 2025).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 7 Abs. 1 lit. a BVV 3; § 31 Abs. 1 lit. e StG
+  quellen:
+  - chunk: zh-wl-2026-uj__c0075
+    zitat: höchstens CHF 7’258
+  - chunk: zh-zstb-31-1-bis-2026__c0002
+    zitat: ab 2025 7 258 36 288
+  status: extrahiert
+  bemerkung: ZStB 31.1 (Fassung bis 31.12.2026) nennt die Beträge 'ab 2025' ohne neues Datum für 2026; Wegleitung 2026 UJ bestätigt 7'258.
+- key: saeule3a.max_ohne_2saeule
+  wert: 36288
+  einheit: CHF
+  text: 'Säule 3a ohne Zugehörigkeit zur 2. Säule: höchstens 20 % des Erwerbseinkommens, maximal Fr. 36''288.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 7 Abs. 1 lit. b BVV 3
+  quellen:
+  - chunk: zh-wl-2026-uj__c0075
+    zitat: höchstens 20% des Erwerbseinkommens, maximal aber CHF 36’288
+  - chunk: zh-zstb-31-1-bis-2026__c0002
+    zitat: ab 2025 7 258 36 288
+  status: extrahiert
+- key: saeule3a.satz_ohne_2saeule
+  wert: 20
+  einheit: '%'
+  text: 'Säule 3a ohne 2. Säule: 20 % des Erwerbseinkommens (max. Fr. 36''288).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 7 Abs. 1 lit. b BVV 3
+  quellen:
+  - chunk: zh-wl-2026-uj__c0075
+    zitat: höchstens 20% des Erwerbseinkommens, maximal aber CHF 36’288
+  status: extrahiert
+- key: saeule3a.einkauf
+  wert: 7258
+  einheit: CHF
+  text: 'Neu ab Steuerperiode 2026: Einkauf in die Säule 3a für Beitragslücken, die ab 1.1.2025 entstanden sind (innerhalb der zehn Jahre vor dem Einkauf). Voraussetzungen: AHV/IV/EO-Beiträge in den Lückenjahren
+    und im Einkaufsjahr voller ordentlicher Maximalbeitrag einbezahlt. Einkauf höchstens Summe der Lücken, in jedem Fall maximal Fr. 7''258.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 7 Abs. 1bis BVV 3 (laut Wegleitung); Wegleitung 2026 UJ Ziff. 14.3
+  quellen:
+  - chunk: zh-wl-2026-uj__c0077
+    zitat: in jedem Fall aber maximal CHF 7’258
+  - chunk: zh-wl-2026-uj__c0020
+    zitat: auch Einkäufe getätigt werden für Beitragslücken, die ab dem 1.1.2025 entstanden sind
+  status: extrahiert
+  bemerkung: Rechtsgrundlage nur aus Wegleitung belegt, Artikelangabe BVV 3 nicht aus einem Chunk geprüft.
+- key: zweiverdiener.satz
+  wert: null
+  einheit: '%'
+  text: 'Kein Prozentsatz: Der Staatssteuer-Abzug ist ein fixer Betrag (max. Fr. 6''200), begrenzt auf das niedrigere Erwerbseinkommen. (Der Bund kennt einen Prozentabzug: 50 %, siehe Bund-Datei.)'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 2 StG
+  quellen: []
+  status: na
+- key: zweiverdiener.min
+  wert: null
+  einheit: CHF
+  text: Kein Minimum; unterschreitet das niedrigere Erwerbseinkommen Fr. 6'200, kann nur der niedrigere Betrag abgezogen werden.
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 2 StG
+  quellen:
+  - chunk: zh-wl-2026-uj__c0109
+    zitat: kann nur der niedrigere Betrag abgezogen werden
+  status: na
+- key: zweiverdiener.max
+  wert: 6200
+  einheit: CHF
+  text: 'Zweiverdienerabzug (Ehegatten in ungetrennter Ehe, unabhängig erzielte Erwerbseinkommen oder erhebliche Mitarbeit im Geschäft des Ehegatten): Fr. 6''200, begrenzt auf das niedrigere Erwerbseinkommen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 2 StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t4
+    zitat: Erwerbseinkommen, das ein Ehegatte unabhängig von Beruf, Geschäft oder Gewerbe des anderen Ehegatten erzielt, Fr. 6200 abgezogen
+  - chunk: zh-wl-2026-uj__c0109
+    zitat: Der Abzug beträgt max. CHF 6’200
+  status: extrahiert
+- key: drittbetreuung.max
+  wert: 25300
+  einheit: CHF
+  text: 'Kinderdrittbetreuungskosten: nachgewiesene Kosten, höchstens Fr. 25''300 pro Kind (Staatssteuer); bei Konkubinat/alternierender Obhut mit gemeinsamer Sorge je halber Abzug (Fr. 12''650).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. j StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t3
+    zitat: die nachgewiesenen Kosten, jedoch höchstens Fr. 25 300, für die Drittbetreuung jedes Kindes
+  - chunk: zh-vkp-2026-zstb__c0004
+    zitat: jedoch höchstens Fr. 25 300, für die Drittbetreuung jedes Kindes
+  - chunk: zh-wl-2026-uj__c0105
+    zitat: Der Abzug beträgt höchstens CHF 25’300 (Staatssteuer)
+  status: extrahiert
+  bemerkung: 'StG Nachtrag 127 (2025) vs. VKP 2024: für 2026 gilt 25''300 laut StG Nachtrag 132 und VKP ab 2026; die 10''400 der alten VKP ab 2024 sind überholt.'
+- key: drittbetreuung.altersgrenze
+  wert: 14
+  einheit: Text
+  text: Kind hat das 14. Altersjahr noch nicht vollendet, lebt im gleichen Haushalt wie die für den Unterhalt sorgende Person; Kosten im direkten kausalen Zusammenhang mit Erwerbstätigkeit, Ausbildung oder
+    Erwerbsunfähigkeit.
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. j StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t3
+    zitat: welches das 14. Altersjahr noch nicht vollendet hat
+  status: extrahiert
+- key: krankheitskosten.selbstbehalt_satz
+  wert: 5
+  einheit: '%'
+  text: 'Krankheits- und Unfallkosten sind abziehbar, soweit selbst getragen und über 5 % der um die Aufwendungen gemäss §§ 26-31 verminderten steuerbaren Einkünfte (laut Wegleitung: Nettoeinkommen, Ziff.
+    21). Diät-Pauschale Fr. 2''500 bei ärztlich angeordneter, lebensnotwendiger Diät.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 32 lit. a StG
+  quellen:
+  - chunk: zh-stg-2026__par-32
+    zitat: diese 5 Prozent der um die Aufwendungen gemäss §§ 26–31 verminderten steuerbaren Einkünfte übersteigen
+  - chunk: zh-wl-2026-uj__c0115
+    zitat: Selbstbehalt von 5% des Nettoeinkommens
+  status: extrahiert
+- key: spenden.min
+  wert: 100
+  einheit: CHF
+  text: 'Freiwillige Zuwendungen an steuerbefreite juristische Personen mit Sitz in der Schweiz (öffentliche/gemeinnützige Zwecke): Abzug, wenn die Zuwendungen in der Steuerperiode mindestens Fr. 100 erreichen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 32 lit. b StG
+  quellen:
+  - chunk: zh-stg-2026__par-32
+    zitat: wenn die Zuwendungen in der Steuerperiode Fr. 100 erreichen
+  - chunk: zh-info-spenden__c0003
+    zitat: Die Zuwendungen in einem Jahr gesamthaft mindestens CHF 100 betragen.
+  status: extrahiert
+- key: spenden.max_satz
+  wert: 20
+  einheit: '%'
+  text: Zuwendungen insgesamt höchstens 20 % der um die Aufwendungen gemäss §§ 26-31 verminderten steuerbaren Einkünfte (Nettoeinkommen).
+  gilt_fuer: kanton
+  rechtsgrundlage: § 32 lit. b StG
+  quellen:
+  - chunk: zh-stg-2026__par-32
+    zitat: insgesamt 20 Prozent der um die Aufwendungen gemäss §§ 26–31 verminderten steuerbaren Einkünfte nicht übersteigen
+  - chunk: zh-wl-2026-uj__c0120
+    zitat: die Zuwendungen in der Steuerperiode CHF 100 erreichen und soweit sie insgesamt 20%
+  status: extrahiert
+- key: parteispenden.max
+  wert: 10500
+  einheit: CHF
+  text: 'Mitgliederbeiträge und Zuwendungen an politische Parteien (Parteienregister, Vertretung im kantonalen Parlament oder mind. 3 % Wähleranteil): bis Fr. 10''500 für die übrigen Steuerpflichtigen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. h StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t2
+    zitat: Fr. 21 000 für in ungetrennter Ehe lebende Steuerpflichtige und von Fr. 10 500 für die übrigen Steuerpflichtigen
+  - chunk: zh-vkp-2026-zstb__c0003
+    zitat: und von Fr. 10 500 für die übrigen Steuerpflichtigen an politische
+  status: extrahiert
+- key: parteispenden.max_verheiratet
+  wert: 21000
+  einheit: CHF
+  text: 'Parteispenden gemeinsam Besteuerte (in ungetrennter Ehe): bis Fr. 21''000.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 31 Abs. 1 lit. h StG
+  quellen:
+  - chunk: zh-stg-2026__par-31-t2
+    zitat: Fr. 21 000 für in ungetrennter Ehe lebende Steuerpflichtige
+  - chunk: zh-wl-2026-uj__c0097
+    zitat: Höchstbetrag von CHF 21’000 für in ungetrennter Ehe lebende Steuerpflichtige
+  status: extrahiert
+- key: liegenschaft.pauschale_neu
+  wert: 20
+  einheit: '%'
+  text: 'Pauschalabzug für Unterhalts- und Verwaltungskosten von Liegenschaften des Privatvermögens: 20 % des Brutto-Mietertrags bzw. Mietwerts je Liegenschaft; ZH kennt keine Abstufung nach Gebäudealter.
+    Wahl pro Liegenschaft und Steuerperiode; nicht bei ganz oder vorwiegend geschäftlich genutzten Liegenschaften; daneben nur Baurechtszinsen abziehbar.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 30 Abs. 5 StG; ZStB 30.2 (LS 631.31)
+  quellen:
+  - chunk: zh-zstb-30-2__c0002
+    zitat: Dieser Pauschalabzug beträgt 20 % vom Brutto-Mietertrag bzw. -Mietwert.
+  - chunk: zh-wl-2026-uj__c0191
+    zitat: beträgt 20% für jede Liegenschaft
+  status: extrahiert
+  bemerkung: Keine Unterscheidung Gebäude bis/über 10 Jahre in den Quellen.
+- key: liegenschaft.pauschale_alt
+  wert: 20
+  einheit: '%'
+  text: 'Gleicher Satz wie für jüngere Gebäude: 20 % des Brutto-Mietertrags bzw. Mietwerts (keine Altersabstufung in ZH).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 30 Abs. 5 StG; ZStB 30.2
+  quellen:
+  - chunk: zh-zstb-30-2__c0002
+    zitat: Dieser Pauschalabzug beträgt 20 % vom Brutto-Mietertrag bzw. -Mietwert.
+  - chunk: zh-wl-2026-uj__c0191
+    zitat: beträgt 20% für jede Liegenschaft
+  status: extrahiert
+- key: liegenschaft.eigenmietwert_abzug
+  wert: 10
+  einheit: '%'
+  text: 'Eigenmietwert: Für Liegenschaften bis und mit Baujahr 2025 gelten weiterhin die Eigenmietwerte nach Weisung 2009 (ohne Erhöhung); für Neubauten ab 2026 gilt die Weisung 2026 mit einem pauschalen
+    Abzug von 10 % zum Ausgleich der höheren Eigenmietwerte. Selbstgenutzte Wohnungen in Mehrfamilien-/Geschäftshäusern: 70 % des erzielbaren Mietzinses. Gesetzliche Leitlinie: Eigenmietwert max. 70 % des
+    Marktwerts.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 21 Abs. 2 StG; Weisung 2026 (ZStB 21.1); Übergangsregelung
+  quellen:
+  - chunk: zh-wl-2026-uj__c0182
+    zitat: Abzug von 10% vorgenommen
+  - chunk: zh-wl-2026-uj__c0181
+    zitat: gelten für Zürcher Liegenschaften bis und mit Baujahr 2025 deshalb weiterhin die bisherigen
+  - chunk: zh-stg-2026__par-21-t2
+    zitat: auf maximal 70 Prozent des Marktwertes festzulegen
+  status: extrahiert
+  bemerkung: 'Der Abzug von 10 % gilt nur für Neubauten ab 2026 (Quelle: WL 2026 UJ, Liegenschaftenverzeichnis). Härtefalleinschlag nach § 21 Abs. 2 lit. d StG (Nachtrag 132) auf Antrag möglich, Details
+    siehe ZStB 21.3.'
+- key: sozialabzug.kind
+  wert: 9400
+  einheit: CHF
+  text: 'Kinderabzug je Kind (minderjährig unter elterlicher Sorge/Obhut oder volljährig in beruflicher Erstausbildung, Unterhalt zur Hauptsache): Fr. 9''400. Bei nicht gemeinsam besteuerten Eltern hälftig
+    aufgeteilt (Fr. 4''700), wenn gemeinsame elterliche Sorge und keine Unterhaltsbeiträge für das Kind abgezogen werden.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 lit. a StG
+  quellen:
+  - chunk: zh-stg-2026__par-34
+    zitat: je Fr. 9400
+  - chunk: zh-vkp-2026-zstb__c0006
+    zitat: je Fr. 9400
+  - chunk: zh-wl-2026-uj__c0124
+    zitat: CHF 9’400 pro Kind
+  status: extrahiert
+- key: sozialabzug.kind_vorschule
+  wert: null
+  einheit: CHF
+  text: ZH kennt keinen nach Alter gestaffelten Kinderabzug; ein einheitlicher Kinderabzug (sozialabzug.kind).
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 lit. a StG
+  quellen: []
+  status: na
+- key: sozialabzug.kind_schule
+  wert: null
+  einheit: CHF
+  text: ZH kennt keinen nach Alter gestaffelten Kinderabzug; ein einheitlicher Kinderabzug (sozialabzug.kind).
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 lit. a StG
+  quellen: []
+  status: na
+- key: sozialabzug.kind_ausbildung
+  wert: 9400
+  einheit: CHF
+  text: 'Volljährige Kinder in beruflicher Erstausbildung, deren Unterhalt zur Hauptsache bestritten wird: gleicher Kinderabzug Fr. 9''400.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 lit. a StG
+  quellen:
+  - chunk: zh-stg-2026__par-34
+    zitat: volljährige Kinder, die in der beruflichen Erstausbildung stehen und deren Unterhalt der Steuerpflichtige zur Hauptsache bestreitet, je Fr. 9400
+  status: extrahiert
+- key: sozialabzug.kind_ausbildung_auswaerts
+  wert: null
+  einheit: CHF
+  text: Kein erhöhter Abzug für auswärtige Ausbildung im StG vorgesehen; es gilt der einheitliche Kinderabzug.
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 lit. a StG
+  quellen: []
+  status: na
+  bemerkung: Aus dem Gesetzestext (§ 34 StG) ohne Sonderregel abgeleitet.
+- key: sozialabzug.unterstuetzung
+  wert: 2800
+  einheit: CHF
+  text: 'Unterstützungsabzug für erwerbsunfähige oder beschränkt erwerbsfähige Personen, an deren Unterhalt mindestens in Höhe des Abzugs beigetragen wird: Fr. 2''800 je Person. Nicht für Ehegatten und
+    Kinder mit Kinderabzug oder Unterhaltsbeitragsabzug.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 lit. b StG
+  quellen:
+  - chunk: zh-stg-2026__par-34
+    zitat: mindestens in der Höhe des Abzugs beiträgt, je Fr. 2800
+  - chunk: zh-wl-2026-uj__c0134
+    zitat: Unterstützungsabzuges von CHF 2’800
+  status: extrahiert
+- key: sozialabzug.verheiratete
+  wert: null
+  einheit: CHF
+  text: Kein Verheiratetenabzug bei der Staatssteuer (ZH wendet den Verheiratetentarif an); der Verheiratetenabzug von Fr. 2'800 betrifft nur die direkte Bundessteuer.
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 StG; § 35 Abs. 2 StG
+  quellen:
+  - chunk: zh-wl-2026-uj__c0134
+    zitat: Bei der Bundessteuer gibt es für alle in rechtlich und tatsächlich ungetrennter Ehe lebenden
+  status: na
+- key: sozialabzug.alter_iv
+  wert: null
+  einheit: CHF
+  text: Kein Sozialabzug für AHV-Alter/Erwerbsunfähigkeit/Verwitwete in § 34 StG ZH.
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 StG
+  quellen: []
+  status: na
+  bemerkung: 'Aus dem Gesetzestext (§ 34 Abs. 1: nur Kinder- und Unterstützungsabzug) abgeleitet.'
+- key: steuerbetrag.abzug_kind
+  wert: null
+  einheit: CHF
+  text: Kein Abzug vom Steuerbetrag in ZH (nur Bund).
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 StG
+  quellen: []
+  status: na
+- key: vermoegen.freibetrag_alleinstehend
+  wert: 81000
+  einheit: CHF
+  text: 'Vermögenssteuer Grundtarif: 0 ‰ für die ersten Fr. 81''000 (steuerfreies Vermögen im Tarif; kein separater Sozialabzug).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 47 Abs. 1 StG
+  quellen:
+  - chunk: zh-stg-2026__par-47-t1
+    zitat: 0‰ für die ersten Fr. 81 000
+  - chunk: zh-vkp-2026-zstb__c0009
+    zitat: für die ersten Fr. 81 000
+  status: extrahiert
+- key: vermoegen.freibetrag_verheiratet
+  wert: 161000
+  einheit: CHF
+  text: 'Vermögenssteuer Verheiratetentarif (ungetrennte Ehe; auch Verwitwete, Getrennte, Geschiedene, Ledige mit Kindern im Haushalt): 0 ‰ für die ersten Fr. 161''000.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 47 Abs. 2 StG
+  quellen:
+  - chunk: zh-stg-2026__par-47-t2
+    zitat: 0‰ für die ersten Fr. 161 000
+  - chunk: zh-vkp-2026-zstb__c0010
+    zitat: für die ersten Fr. 161 000
+  status: extrahiert
+- key: vermoegen.freibetrag_kind
+  wert: null
+  einheit: CHF
+  text: Kein Vermögens-Sozialabzug pro Kind in ZH; Alleinstehende mit Kindern im gleichen Haushalt erhalten den Verheiratetentarif (§ 47 Abs. 2 StG).
+  gilt_fuer: kanton
+  rechtsgrundlage: § 47 StG
+  quellen:
+  - chunk: zh-stg-2026__par-47-t2
+    zitat: geschiedene und ledige Steuerpflichtige, die mit Kindern im Sinn von § 34 Abs. 1 lit. a zusammenleben
+  status: na
+- key: steuerfrei.feuerwehrsold
+  wert: 8400
+  einheit: CHF
+  text: 'Sold der Milizfeuerwehrleute für Kernaufgaben der Feuerwehr: steuerfrei bis Fr. 8''400 jährlich (ausgenommen Pauschalzulagen für Kader, Funktionszulagen, administrative Arbeiten, freiwillige Dienstleistungen).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 24 lit. g StG
+  quellen:
+  - chunk: zh-stg-2026__par-24-t2
+    zitat: Sold der Milizfeuerwehrleute bis zum Betrag von jährlich Fr. 8400
+  - chunk: zh-vkp-2026-zstb__c0002
+    zitat: bis zum Betrag von jährlich Fr. 8400
+  status: extrahiert
+- key: steuerfrei.grossspielgewinn
+  wert: 1046400
+  einheit: CHF
+  text: 'Einzelne Gewinne aus Grossspielen und Online-Spielbankenspielen (BGS) steuerfrei bis Fr. 1''046''400 (Freibetrag: nur der übersteigende Anteil ist steuerbar).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 24 lit. k StG
+  quellen:
+  - chunk: zh-stg-2026__par-24-t3
+    zitat: die einzelnen Gewinne bis zum Betrag von Fr. 1 046 400
+  - chunk: zh-wl-2026-uj__c0164
+    zitat: bis zu einem Betrag von CHF 1’046’400 bei
+  status: extrahiert
+- key: steuerfrei.kleingewinn
+  wert: 1000
+  einheit: CHF
+  text: 'Einzelne Gewinne aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung steuerfrei, sofern die Grenze von Fr. 1''000 nicht überschritten wird (Freigrenze: bei Überschreitung ist der gesamte
+    Gewinn steuerbar). Gewinne aus Kleinspielen (BGS) sind steuerfrei.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 24 lit. l, m StG
+  quellen:
+  - chunk: zh-stg-2026__par-24-t3
+    zitat: sofern die Grenze von Fr. 1000 nicht überschritten wird
+  - chunk: zh-wl-2026-uj__c0165
+    zitat: CHF 1’000 (Staatssteuer) bzw. CHF 1’100 (Bundessteuer) steuerfrei
+  status: extrahiert
+- key: tarif.steuerfuss_kanton
+  wert: 95
+  einheit: '%'
+  text: 'Staatssteuerfuss 2026: 95 % der einfachen Staatssteuer (für alle Gemeinden gleich; 2025: 98 %). Gemeindesteuerfüsse werden von den Gemeinden festgesetzt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Beschluss Kantonsrat (Steuerfuss)
+  quellen:
+  - chunk: zh-info-steuerfuesse__c0003
+    zitat: liegt für die Jahre 2026 und 2027 bei 95 Prozent der einfachen Staatssteuer
+  status: extrahiert
+- key: tarif.steuerfrei_alleinstehend
+  wert: 7000
+  einheit: CHF
+  text: 'Einkommenssteuer Grundtarif: 0 % für die ersten Fr. 7''000 (nicht Bundessteuer; ZH-Staatssteuertarif). Die weiteren Stufen siehe § 35 Abs. 1 StG.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 35 Abs. 1 StG
+  quellen:
+  - chunk: zh-stg-2026__par-35-t1
+    zitat: 0% für die ersten Fr. 7 000
+  - chunk: zh-vkp-2026-zstb__c0007
+    zitat: 0% für die ersten Fr. 7 000
+  status: extrahiert
+- key: tarif.steuerfrei_verheiratet
+  wert: 14100
+  einheit: CHF
+  text: 'Einkommenssteuer Verheiratetentarif (auch Verwitwete, Getrennte, Geschiedene, Ledige mit Kindern im Haushalt): 0 % für die ersten Fr. 14''100.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 35 Abs. 2 StG
+  quellen:
+  - chunk: zh-stg-2026__par-35-t2
+    zitat: 0% für die ersten Fr. 14 100
+  - chunk: zh-vkp-2026-zstb__c0008
+    zitat: 0% für die ersten Fr. 14 100
+  status: extrahiert
+- key: tarif.hoechstsatz_ab_alleinstehend
+  wert: 266700
+  einheit: CHF
+  text: 'Grundtarif: Höchstsatz 13 % für Einkommensteile über Fr. 266''700.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 35 Abs. 1 StG
+  quellen:
+  - chunk: zh-stg-2026__par-35-t1
+    zitat: 13% für Einkommensteile über Fr. 266 700
+  - chunk: zh-vkp-2026-zstb__c0007
+    zitat: 13% für Einkommensteile über Fr. 266 700
+  status: extrahiert
+- key: tarif.hoechstsatz_ab_verheiratet
+  wert: 370600
+  einheit: CHF
+  text: 'Verheiratetentarif: Höchstsatz 13 % für Einkommensteile über Fr. 370''600.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 35 Abs. 2 StG
+  quellen:
+  - chunk: zh-stg-2026__par-35-t2
+    zitat: 13% für Einkommensteile über Fr. 370 600
+  - chunk: zh-vkp-2026-zstb__c0008
+    zitat: 13% für Einkommensteile über Fr. 370 600
+  status: extrahiert
+- key: tarif.mindeststeuer
+  wert: null
+  einheit: CHF
+  text: Keine Mindeststeuer im Einkommens-/Vermögenssteuertarif des StG ZH gefunden.
+  gilt_fuer: kanton
+  rechtsgrundlage: §§ 35, 47 StG
+  quellen: []
+  status: na
+  bemerkung: 'Negativbefund: Volltextsuche nach ''Mindeststeuer'' im StG ZH 2026 ohne Treffer; Fachperson prüft bei Bedarf Gemeinde-/Kopfsteuerregelung.'
+- key: verfahren.einreichefrist
+  wert: null
+  einheit: Text
+  text: 'Steuererklärung 2026 (natürliche Personen): bis 31. März 2027, online oder beim Scan-Center, zusammen mit den erforderlichen Beilagen. Bei unterjähriger Steuerpflicht (Wegzug ins Ausland, Tod):
+    30 Tage nach Zustellung der Formulare beim Gemeindesteueramt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 133 StG; ZStB 133.1 / 132.1
+  quellen:
+  - chunk: zh-zstb-133-1__c0009
+    zitat: bis 31. März 2027 online
+  - chunk: zh-zstb-132-1__c0022
+    zitat: bis 31. März des der Steuerperiode folgenden Kalenderjahres
+  - chunk: zh-wl-2026-uj__c0013
+    zitat: Die Steuererklärung ist innert 30 Tagen nach Zustellung der Formulare
+  status: extrahiert
+  bemerkung: ZStB 133.1 (Aufforderung 2027) nennt 31.3.2027 ausdrücklich für die Steuererklärung 2026. 30-Tage-Frist nur für unterjährige Steuerpflicht (WL 2026 UJ).
+- key: verfahren.fristerstreckung
+  wert: null
+  einheit: Text
+  text: Gesuch vor Ablauf der Frist beim Gemeindesteueramt; rechtzeitige Gesuche werden längstens bis 30. November des Folgejahres bewilligt; erstmalige rechtzeitige Gesuche gelten ohne gegenteiligen Entscheid
+    als stillschweigend bewilligt. Darüber hinaus nur bei ausserordentlichen Gründen (starke Beanspruchung des Vertreters oder fehlende Unterlagen genügen nicht). Von Amtes wegen Erstreckung bis 30. September
+    für im Kanton wohnhafte Selbständigerwerbende, Branchenabteilungs-Fälle und ausserkantonal Wohnhafte (L- und B-Fälle). Mahnfristen sind nicht erstreckbar.
+  gilt_fuer: kanton
+  rechtsgrundlage: § 39 StV; Art. 119 DBG; ZStB 132.1
+  quellen:
+  - chunk: zh-zstb-132-1__c0024
+    zitat: längstens bis 30. November des der Steuerperiode folgenden Kalenderjahres zu entsprechen
+  - chunk: zh-zstb-132-1__c0026
+    zitat: gelten ohne gegenteiligen schriftlichen Entscheid als stillschweigend bewilligt
+  - chunk: zh-zstb-132-1__c0023
+    zitat: erstrecken von Amtes wegen die Frist bis am 30. September des der Steuerperiode folgenden Kalenderjahres
+  status: extrahiert
+  bemerkung: Kosten einer Fristerstreckung in den Quellen nicht gefunden. ZStB 132.1 gilt ab 1.1.2026 (Steuererklärung 2025 und Folgejahre).
+- key: verfahren.abgabeweg
+  wert: null
+  einheit: Text
+  text: Einreichung online (ZHprivateTax; elektronische Bestätigung statt Unterschrift, gemeinsam steuerpflichtige Ehegatten bestätigen gemeinsam) oder in Papierform beim Scan-Center. Beilagen bei Papiereinreichung
+    in Papierform (keine Datenträger); bei elektronischer Einreichung elektronisch.
+  gilt_fuer: kanton
+  rechtsgrundlage: V elektr. Einreichung (LS 631.121) §§ 1, 8; ZStB 133.1
+  quellen:
+  - chunk: zh-v-einreichung__par-8
+    zitat: Die erforderlichen Beilagen sind zusammen mit der Steuererklärung elektronisch einzureichen.
+  - chunk: zh-v-einreichung__par-1
+    zitat: Die Steuererklärung kann auch in Papierform eingereicht werden.
+  - chunk: zh-zstb-133-1__c0009
+    zitat: bis 31. März 2027 online
+  - chunk: zh-wl-2026-uj__c0214
+    zitat: Beilagen zur Steuererklärung sind in Papierform einzureichen.
+  status: extrahiert
+- key: verfahren.beilagen_schwellen
+  wert: null
+  einheit: Text
+  text: 'Keine betragsmässige Belegpflicht-Schwelle: Belege zu den Aufstellungen und Formularen sind nur einzureichen, wenn ausdrücklich verlangt; insbesondere Belege zu Liegenschaftskosten und gemeinnützigen
+    Zuwendungen erst im Einschätzungsverfahren auf Verlangen. Belegkopien im Format A4.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 134 StG; Wegleitung
+  quellen:
+  - chunk: zh-wl-2026-uj__c0220
+    zitat: sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist
+  status: extrahiert
+- key: bezug.provisorisch
+  wert: null
+  einheit: Text
+  text: 'Provisorische Rechnung wird in drei Raten (30. Juni, 30. September, 31. Dezember) bezogen; die Gemeinden können sie auch in sieben Raten beziehen (30.6., 31.7., 31.8., 30.9., 31.10., 30.11., 31.12.).
+    Verfalltag der Staatssteuer: 30. September der Steuerperiode.'
+  gilt_fuer: kanton
+  rechtsgrundlage: §§ 49, 50 StV; ZStB 172.1
+  quellen:
+  - chunk: zh-stv__par-50
+    zitat: in drei Raten per 30. Juni, 30. September
+  - chunk: zh-stv__par-49
+    zitat: der 30. September in der Steuerperiode
+  status: extrahiert
+- key: bezug.verzugszins
+  wert: 4.5
+  einheit: '%'
+  text: 'Verzugszins nach Zustellung der Schlussrechnung und Ablauf der 30-tägigen Zahlungsfrist: 4,5 %.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 174 StG; Regierungsratsbeschluss
+  quellen:
+  - chunk: zh-wl-2026-uj__c0019
+    zitat: Ablauf der dreissig tägigen Zahlungsfrist seit 1. Januar 2008 4,5%
+  status: extrahiert
+  bemerkung: Aus WL 2026 UJ (Satzangabe gilt seit 2008; vorübergehende Senkung 2020 ist abgelaufen).
+- key: bezug.verguetungszins
+  wert: 0.75
+  einheit: '%'
+  text: 'Zins zugunsten der steuerpflichtigen Person 2026: 0,75 % (Zahlungen vor dem 1. Oktober 2026 werden bis zur Schlussrechnung verzinst).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 174 StG
+  quellen:
+  - chunk: zh-wl-2026-uj__c0018
+    zitat: Zins zu Gunsten wie zu Lasten der steuerpflichtigen Person beträgt im Kalenderjahr 2026 Zinssatz 0,75%
+  status: extrahiert
+  bemerkung: Gleicher Satz für Zins zugunsten und zulasten (Ausgleichszins); aus WL 2026 UJ.
+- key: bezug.ausgleichszins
+  wert: 0.75
+  einheit: '%'
+  text: 'Ausgleichszins (Zins zu Gunsten wie zu Lasten) im Kalenderjahr 2026: 0,75 %. Zinsen zu Lasten laufen ab 1. Oktober 2026 auf dem definitiven Steuerbetrag der Schlussrechnung; Zahlungen vor dem 1.
+    Oktober 2026 werden verzinst.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 174 StG; § 49 StV
+  quellen:
+  - chunk: zh-wl-2026-uj__c0018
+    zitat: beträgt im Kalenderjahr 2026 Zinssatz 0,75%
+  - chunk: zh-wl-2026-uj__c0018
+    zitat: Sämtliche Zahlungen, die Sie im Kalenderjahr 2026 vor dem 1. Oktober 2026 geleistet haben
+  status: extrahiert

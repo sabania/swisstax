@@ -4,21 +4,21 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 13"
-seiten: "4"
+titel: "Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen (Teil 1/3)"
+ziffer: "4.1"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.1 Grundsätze · S. 9
 
-<!-- Seite 4 -->
-1.   Gegenstand des Kreisschreibens
+Rückzahlungen aus KER bzw. Ausland-KER einer Kapitalgesellschaft oder Genossenschaft
+unterliegen weder der Einkommenssteuer (Art. 20 Abs. 3 DBG) noch der Verrechnungs-
+steuer (Art. 5 Abs. 1bis VStG).
 
-Mit dem Bundesgesetz vom 23. März 2007 über die Verbesserung der steuerlichen Rahmen-
-bedingungen für unternehmerische Tätigkeiten und Investitionen (Unternehmenssteuerre-
-formgesetz II) wurden in Artikel 20 Absatz 3 und Artikel 125 Absatz 3 des Bundesgesetzes
-vom 14. Dezember 1990 über die direkte Bundessteuer (DBG; SR 642.11) und in Artikel 5
-Absatz 1bis des Bundesgesetzes vom 13. Oktober 1965 über die Verrechnungssteuer (VStG;
-SR 642.21) die Rückzahlung von Einlagen, Aufgeldern und Zuschüssen (Reserven aus Kapi-
-taleinlagen) von Inhabern der Beteiligungsrechte neu geregelt. Demnach wird die Rückzah-
-lung von Reserven aus Kapitaleinlagen an die Inhaber von Beteiligungsrechten der Rückzah-
-lung von Grund- oder Stammkapital gleichgestellt (Kapitaleinlageprinzip).
+Ausschüttungen aus übrigen Reserven einer Kapitalgesellschaft oder Genossenschaft sind
+nach Artikel 20 Absatz 1 Buchstabe c DBG oder Artikel 20 Absatz 1bis DBG steuerbar und
+unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer.
+
+Verdeckte Gewinnausschüttungen qualifizieren als Ausschüttungen aus übrigen Reserven
+und sind nach Artikel 20 Absatz 1 Buchstabe c oder 20 Absatz 1bis DBG steuerbar und unter-
+liegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer.

@@ -4,17 +4,17 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 187"
-seiten: "49"
+titel: "Ziff. 9.2 Anmeldung und Mutationen quellensteuerpflichtiger Arbeitnehmer (Teil 2/2)"
+ziffer: "9.2"
+seiten: "58-59"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 49
+> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.2 Anmeldung und Mutationen · S. 58–59
 
-serhalb der Schweiz ausgeübt wurde. Bezahlte Abwesenheitstage, an welchen keine Ar-
-beitsleistung zu erbringen ist (insb. Ferien- und Krankheitstage), unterliegen nicht der Steu-
-erausscheidung. Die für die Quellenbesteuerung massgebenden schweizerischen Arbeits-
-tage sind dabei in der Regel durch Subtraktion der ausländischen Arbeitstage vom Total von
-20 Arbeitstagen pro Monat bzw. vom Total von 240 Arbeitstagen pro Jahr zu ermitteln. Als
-ausländischer Arbeitstag gilt dabei jeder Arbeitstag ausserhalb der Schweiz sowie alle Hin-
-und Rückreisetage, an denen der Arbeitnehmer ausschliesslich oder zur Hauptsache im
-Ausland gearbeitet hat.
+Beim Schuldner der steuerbaren Leistung, der die Quellensteuern über das einheitliche
+Lohnmeldeverfahren ELM-QSt abrechnet, werden die Anmelde- und Mutationsdaten im Rah-
+men des monatlichen Abrechnungsverfahrens automatisch übermittelt (vgl. Art. 5 Abs. 2
+QStV).
+Ist der Arbeitnehmer im Personalverleih angestellt und ändert er im Verlauf eines Monats
+bloss die Einsatzorte, sind im entsprechenden Monat maximal ein Eintritts- und ein Austritts-
+datum zu melden.

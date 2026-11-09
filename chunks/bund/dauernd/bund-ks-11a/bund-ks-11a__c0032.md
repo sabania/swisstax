@@ -4,22 +4,24 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 32"
-seiten: "8"
+titel: "Ziff. 4.3.7–4.3.8 Assistenzhunde, Hilfsmittel, Pflegeartikel, Kleider (Teil 2/2)"
+ziffer: "4.3.7–4.3.8"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 10
 
-besorgt, sind diese Kosten angemessen in abziehbare Pflege- und nichtabziehbare Lebenshal
-tungskosten aufzuteilen (vgl. Urteil des Bundesgerichts 9C_655/2022 vom 31. Oktober 2023
-E. 5.4.1).
-Für unentgeltlich erbrachte Assistenzleistungen kann kein Abzug (weder effektiv noch pau
-schal) gemacht werden.
-Die Kosten der Dienste von Dolmetscherinnen und Dolmetschern für Gehörlose (Gebärden
-sprache) und Taubblinde sind ebenfalls zum Abzug zugelassen. Als gehörlos gelten Personen
-mit einem Hörverlust von mindestens 71 Dezibel Hearing Level auf beiden Ohren, gemessen
-ohne Hilfsmittel oder bei anderweitigem Nachweis der Gehörlosigkeit mittels Fragebogen.
-Personen, die keine Hilflosenentschädigung beziehen, aber aufgrund ihrer Behinderung nach
-weislich regelmässig auf Dienstleistungen durch Dolmetscherinnen und Dolmetscher angewie
-sen sind, können anstelle der effektiven selbstgetragenen Kosten eine Pauschale von
-CHF 2‘500 pro Jahr geltend machen, sofern wiederkehrend von Kosten in dieser Höhe auszu
+4.3.8   Kosten für Hilfsmittel, Pflegeartikel und Kleider
+Als behinderungsbedingte Kosten gelten Anschaffungs- oder Mietauslagen für Hilfsmittel, Ge
+räte und Pflegeartikel (z.B. Windeln, Stoma-Artikel etc.) aller Art, die es der Person mit Behinde
+rung erlauben, die Folgen ihrer Behinderung zu minimieren. Darunter fallen auch die Kosten,
+die im Zusammenhang mit dem Gebrauchstraining (z.B. Einführung in den Gebrauch eines
+Lese- und Schreibgeräts für Blinde oder Sehbehinderte), der Reparatur und dem Unterhalt sol
+cher Hilfsmittel und Geräte entstehen. Auch die Kosten einer behinderungsbedingt notwendigen
+Installation von Alarmanlagen und Notrufsystemen sind abzugsfähig.
+Abzugsfähig sind auch die Mehrkosten, die im Zusammenhang mit der Anfertigung von speziel
+len Kleidern oder Schuhen entstehen. Ebenso sind die Mehrkosten zum Abzug zugelassen, die
+durch vermehrten Kleiderverschleiss entstehen, weil die Person wegen ihrer Behinderung im
+Vergleich zu einer Person ohne Behinderung ihre Kleider in rascherer Abfolge ersetzen muss
+(z. B. Paraplegiker im Rollstuhl; vgl. Urteil StRK ZH vom 18. Juni 2003 [Zürcher Steuerpraxis
+ZStP 2004, 221 f.]).

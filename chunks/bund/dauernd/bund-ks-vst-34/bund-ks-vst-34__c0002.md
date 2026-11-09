@@ -4,34 +4,20 @@ quelle: bund-ks-vst-34
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 34 – Abschnitt 2"
+titel: "Ziff. 2–3 Begriff Bank/Sparkasse und Inländerbegriff"
+ziffer: "2–3"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 34 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS VST 34 · Begriffe · S. 1
 
-<!-- Seite 1 -->
-    Eidgenössisches Finanzdepartement EFD
+2. Begriff der Bank oder Sparkasse
+Als Bank oder Sparkasse gilt, wer sich öffentlich zur Annahme verzinslicher Gelder
+empfiehlt (Bank nach Bankengesetz) oder fortgesetzt Gelder gegen Zins entgegennimmt
+(Bank im Sinne von Art. 9 Abs. 2 des Bundesgesetzes vom 13. Oktober 1965 über die
+Verrechnungssteuer; VStG).
 
-    Eidgenössische Steuerverwaltung ESTV
-    Hauptabteilung Direkte Bundessteuer,
-    Verrechnungssteuer, Stempelabgaben
-
-Verrechnungssteuer
-
-Bern, 26. Juli 2011
-
-Kreisschreiben Nr. 34
-
-Kundenguthaben
-
-Einleitung
-Die Eidgenössische Steuerverwaltung passt mit diesem Kreisschreiben im Sinne einer
-administrativen Vereinfachung die Richtlinien im Bereich Kundenguthaben an. Die Änderung
-trägt zudem auch der veränderten Marktsituation Rechnung.
-
-1. Begriff der Kundenguthaben
-Bei Kundenguthaben handelt es sich um Einlagen bei einer inländischen Bank oder
-Sparkasse begründeten Forderungen. Kundenguthaben können beispielsweise sein: Spar-,
-Einlage-, Depositen- und Kontokorrentguthaben, Festgelder, Callgelder, Lohnkonti,
-Aktionärsdarlehen usw.
+3. Inländerbegriff
+Inländer ist, wer im Inland Wohnsitz, dauernden Aufenthalt, statutarischen oder gesetzlichen
+Sitz hat oder als Unternehmen im inländischen Handelsregister eingetragen ist (Art. 9 Abs. 1
+VStG).

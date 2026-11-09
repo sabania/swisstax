@@ -4,18 +4,20 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 2.2 Kein Schweizer Bürgerrecht"
+ziffer: "2.2"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 44 · 2 Subjektive Voraussetzungen › 2.2 Kein Schweizer Bürgerrecht · S. 2
 
-3.1   Rechtsgrundlage .................................................................................................... 3
-3.2   Weltweiter Aufwand................................................................................................ 4
-3.3   Mindestwerte und Kontrollrechnung..................................................................... 4
-3.3.1   Artikel 14 Absatz 3 Buchstabe a DBG ................................................................... 5
-3.3.2   Artikel 14 Absatz 3 Buchstabe b DBG ................................................................... 5
-3.3.3   Artikel 14 Absatz 3 Buchstabe c DBG ................................................................... 5
-3.3.4   Artikel 14 Absatz 3 Buchstabe d DBG (Kontrollrechnung) .................................. 5
-4   Sozialabzüge, anwendbarer Tarif, Satzbestimmung ............................................ 6
-5   Verfahren bei der Aufwandbesteuerung ............................................................... 7
+2.2   Kein Schweizer Bürgerrecht
+Nur ausländische Staatsangehörige können die Aufwandbesteuerung beantragen.
+Schweizerische Staatsangehörige, die ein weiteres Bürgerrecht besitzen, gelten nicht als Aus-
+länder und erfüllen die Voraussetzungen für eine Aufwandbesteuerung somit nicht.
+Das Recht auf Aufwandbesteuerung erlischt, wenn die steuerpflichtige Person das Schweizer
+Bürgerrecht erwirbt. In diesem Fall ist für die ganze Steuerperiode, in der die Einbürgerung er-
+folgt, die ordentliche Einkommenssteuer zu entrichten.
+Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, können die Aufwandbesteu-
+erung nicht beanspruchen, wenn einer von ihnen das Schweizer Bürgerrecht besitzt (siehe
+dazu Botschaft S. 6034 zu Art. 14 Abs. 2 DBG).

@@ -4,20 +4,19 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 9"
-seiten: "2"
+titel: "Ziff. 2.3.1.3 Anwartschaften auf Mitarbeiteraktien (RSU)"
+ziffer: "2.3.1.3"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 37 · 2 Begriffe › 2.3.1 Echte Mitarbeiterbeteiligungen › 2.3.1.3 Anwartschaften · S. 5
 
-7.3   Besteuerung von gesperrten oder nicht börsenkotierten
-    Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien sowie
-    unechten Mitarbeiterbeteiligungen im internationalen Verhältnis ......... 14
-7.3.1   Allgemeines.................................................................................................. 14
-7.3.2   „Import“ von Mitarbeiterbeteiligungen (Art. 7 MBV) ...................................... 14
-7.3.2.1 „Import“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel............................ 14
-7.3.2.2 „Import“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel ........................ 14
-7.3.3   „Export“ von Mitarbeiterbeteiligungen (Art. 8 MBV) ...................................... 15
-7.3.3.1 „Export“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel ........................... 15
-7.3.3.2 „Export“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel ........................ 15
-7.3.4   Überblick zur Quellenbesteuerung von geldwerten Vorteilen aus
+2.3.1.3 Anwartschaften auf Mitarbeiteraktien
+Anwartschaften auf Mitarbeiteraktien stellen dem Mitarbeitenden in Aussicht, in einem späte-
+ren Zeitpunkt eine bestimmte Anzahl Aktien entweder unentgeltlich oder zu Vorzugsbedin-
+gungen erwerben zu können. Die Übertragung der Aktien wird dabei in der Regel von Bedin-
+gungen abhängig gemacht, wie beispielsweise vom Bestehen eines Arbeitsverhältnisses.
+Mithin enthalten Anwartschaften auf Mitarbeiteraktien eine Entschädigung für künftige Leis-
+tungen, weshalb sie den echten Mitarbeiteroptionen gleichgestellt werden können (vgl.
+hierzu auch Ziff. 2.3.1 hievor). Restricted Stock Units (RSU) sind typische Anwendungsfälle
+solcher Anwartschaften.

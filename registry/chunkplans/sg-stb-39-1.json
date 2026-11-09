@@ -1,0 +1,127 @@
+{
+ "id": "sg-stb-39-1",
+ "hinweise": [],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Arbeitszimmer – Abzug nur mit Nachweis, nicht kumulierbar mit Pauschale",
+   "pfad": [
+    "Art. 39 Abs. 1 Bst. c StG",
+    "1. Voraussetzungen für den Abzug"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Arbeitszimmer",
+    "Homeoffice",
+    "Büro zu Hause",
+    "übrige Berufsauslagen",
+    "Pauschale",
+    "Berufskosten"
+   ],
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ],
+   "zusammenfassung": "Arbeitszimmerkosten gelten grundsätzlich als mit der Pauschale der übrigen Berufsauslagen abgegolten; eine Kumulation von Pauschale und effektiven Kosten ist nicht möglich, bei höheren Kosten müssen sämtliche tatsächlichen Aufwendungen nachgewiesen werden."
+  },
+  {
+   "start": 43,
+   "titel": "Arbeitszimmer – berufliche Notwendigkeit",
+   "pfad": [
+    "Art. 39 Abs. 1 Bst. c StG",
+    "1. Voraussetzungen für den Abzug"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Arbeitszimmer",
+    "berufliche Notwendigkeit",
+    "Homeoffice",
+    "Arbeitgeber stellt kein Büro",
+    "ruhiger Arbeitsplatz"
+   ],
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ],
+   "zusammenfassung": "Die berufliche Notwendigkeit ist gegeben, wenn ein wesentlicher Teil der Berufsarbeiten zu Hause erledigt werden muss, der Arbeitgeber kein geeignetes Arbeitszimmer zur Verfügung stellt und ein spezifisch eingerichteter Arbeitsplatz tatsächlich ausgeschieden ist."
+  },
+  {
+   "start": 55,
+   "titel": "Arbeitszimmer – drei kumulative Voraussetzungen (ca. 40 % der Arbeitszeit)",
+   "pfad": [
+    "Art. 39 Abs. 1 Bst. c StG",
+    "1. Voraussetzungen für den Abzug"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Arbeitszimmer",
+    "40 % Arbeitszeit",
+    "Homeoffice",
+    "kumulative Voraussetzungen",
+    "SGE 2007 Nr. 14"
+   ],
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ],
+   "zusammenfassung": "Kumulativ erforderlich: wesentlicher Teil der Arbeit (ca. 40% der gesamten Arbeitszeit) ausserhalb des Arbeitsorts, Angewiesensein auf einen ruhigen spezifisch eingerichteten Arbeitsplatz und tatsächlich ausgeschiedener besonderer Arbeitsplatz."
+  },
+  {
+   "start": 69,
+   "titel": "Arbeitszimmer – Abzug verweigert bei Arbeitszimmer des Arbeitgebers; Abend-/Wochenendarbeit",
+   "pfad": [
+    "Art. 39 Abs. 1 Bst. c StG",
+    "1. Voraussetzungen für den Abzug"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Arbeitszimmer",
+    "Abzug verweigert",
+    "Arbeit am Abend",
+    "Wochenende",
+    "Homeoffice aus Annehmlichkeit"
+   ],
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ],
+   "zusammenfassung": "Der Abzug wird verweigert, wenn der Arbeitgeber ein Arbeitszimmer zur Verfügung stellt; Berufsarbeiten am Abend und an Wochenenden vermögen die Notwendigkeit eines Arbeitszimmers nicht darzutun."
+  },
+  {
+   "start": 81,
+   "titel": "Arbeitszimmer – Berechnung des Abzugs (Eigenheim/Mietobjekt, Zimmer + 2)",
+   "pfad": [
+    "2. Berechnung des Abzugs"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "Arbeitszimmer Berechnung",
+    "Eigenmietwert",
+    "Anzahl Zimmer plus 2",
+    "Miete",
+    "Teilzeitarbeit",
+    "Homeoffice"
+   ],
+   "positionen": [
+    "abzug.berufskosten.uebrige",
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Abzugsfähig ist der Anteil an Miete, Beleuchtung, Heizung und Reinigung, berechnet als Gesamtkosten geteilt durch (Anzahl Zimmer + 2); beim Eigenheim Eigenmietwert abzüglich 30% plus 10% Nebenkosten, bei Teilzeitarbeit anteilsmässig gekürzt."
+  },
+  {
+   "start": 111,
+   "titel": "Arbeitszimmer – Direkte Bundessteuer",
+   "pfad": [
+    "3. Direkte Bundessteuer"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "Arbeitszimmer",
+    "direkte Bundessteuer",
+    "Art. 26 DBG",
+    "Berufskostenverordnung",
+    "Homeoffice"
+   ],
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ],
+   "zusammenfassung": "Beim Bund fallen Arbeitszimmerkosten gemäss Art. 26 Abs. 1 Bst. c DBG unter die übrigen Berufsauslagen (Pauschale), Abzugsvoraussetzungen und Berechnung sind gleich wie im kantonalen Recht."
+  }
+ ]
+}

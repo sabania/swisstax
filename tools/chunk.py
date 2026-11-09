@@ -87,7 +87,8 @@ def split_paragraphs(text: str, target=TARGET, maxtok=MAXTOK) -> list[str]:
             merged.append(c)
     # sehr kleiner Rest am Ende an den Vorgänger anhängen
     if len(merged) > 1 and ntok(merged[-1]) < MINTOK * 2 and ntok(merged[-2]) + ntok(merged[-1]) <= maxtok * 1.15:
-        merged[-2] = merged[-2] + "\n\n" + merged.pop()
+        last = merged.pop()
+        merged[-1] = merged[-1] + "\n\n" + last
     return merged
 
 

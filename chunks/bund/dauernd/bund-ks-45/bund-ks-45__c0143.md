@@ -4,31 +4,22 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 143"
-seiten: "37"
+titel: "Ziff. 7.4 Beispiel 4 – Heirat, Geburt eines Kindes und Bonus CHF 30 000 (Teil 1/2)"
+ziffer: "7.4"
+seiten: "46"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 37
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 46
 
-7.3   Ermittlung des satzbestimmenden Jahreseinkommens
-7.3.1 Allgemeines und Grundsatz zur Berechnung der Quellensteuer
-Für die Berechnung der monatlichen Quellensteuer muss das tatsächlich erzielte Einkom-
-men demjenigen Steuersatz unterliegen, der dem zu versteuernden Jahreseinkommen ent-
-spricht.
+    Änderung des Zivilstands und anschliessender Geburt eines Kindes während des Kalenderjahres:
+    4. Ein lediger Steuerpflichtiger heiratet am 26. Mai 2021. Am 21. Oktober desselben Jahres kommt das Kind
+    des Ehepaars zur Welt. Der ledige Steuerpflichtige übt eine unselbstständige Erwerbstätigkeit mit einem
+    Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 65 000.00 (CHF 5 000 x 13). Zusätzlich zum
+    Lohn erhält er im Februar 2021 einen Bonus von CHF 30 000.00 für das Jahr 2020.
+    Seine Ehegattin übt keine Erwerbstätigkeit aus.
 
-    Gleichbleibender Lohn während 12 Monaten:
-    1. Ein lediger Steuerpflichtiger ohne Kinder ist mit einem Beschäftigungsgrad von 100 % vom 1. Januar bis
-    am 31. Dezember 2021 in der Schweiz erwerbstätig. Für diese Tätigkeit erhält er ein Jahresbruttoeinkom-
-    men von CHF 60 000.00 (12 x CHF 5 000).
-    Das monatliche Bruttoeinkommen von CHF 5 000.00 wird mit dem Tarifcode A0 und zum satzbestimmen-
-    den Jahreseinkommen von CHF 60 000.00 besteuert.
+    Monat   Jan.   Feb.   März   …   Mai   Juni   … Okt.   Nov.   Dez.   Besteuerung
 
-    Monat   Januar   …   November   Dezember   Besteuerung
+    Bruttolohn   5 000   5 000   5 000   5 000   5 000   5 000   5 000 10 000   65 000
 
-    Bruttolohn   5 000   5 000   5 000   60 000
-
-    Tarifcode   A0   A0   A0   A0
-
-    Steuersatz (%)   9,51   9,5   9,5   9,5
-
-    Quellensteuer   475   475   475   5 700
+    Bonus   30 000   30 000

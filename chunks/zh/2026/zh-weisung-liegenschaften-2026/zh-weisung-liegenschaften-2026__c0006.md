@@ -4,19 +4,36 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 6"
-seiten: "3"
+titel: "Ziff. 10–15 Landwerte nach Bauland-Kategorie (Lageklassen)"
+ziffer: "10–15"
+seiten: "3-4"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 3
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 3. Festlegung der Landwerte · S. 3–4
 
-<!-- Seite 3 -->
-    Dabei ist unter anderem zu berücksichtigen, dass   8
-–   eine ausreichende Zahl von Vergleichshandänderungen in den ein-
-    zelnen Gemeinden fehlt, weshalb die steuerlich massgebenden
-    Landwerte auf indirektem Weg zu ermitteln sind,
-–   die festzulegenden Werte, trotz der nachstehenden Differenzierun-
-    gen, auf eine Vielzahl von Fällen zur Anwendung gelangen, wes-
-    halb Zurückhaltung geboten ist.
-   Im Übrigen hängt die Ermittlung der steuerlich massgebenden 9
-Landwerte von der Bauland-Kategorie ab.
+Bauland für Mehrfamilienhäuser und Stockwerkeigentum
+    Für jede Gemeinde wird eine Preisbandbreite festgelegt.   10
+   Innerhalb einer Gemeinde werden die Grundstücke bestimmten 11
+Lageklassen zugeordnet. Im Rahmen der Preisbandbreite wird für jede
+Lageklasse der steuerlich massgebende Landwert festgelegt.
+    Dabei sind insbesondere zu berücksichtigen:   12
+–   Lage der Gemeinde innerhalb des Kantons,
+–   Vergleichspreise für überbaute Grundstücke in der Gemeinde,
+–   Lage der Grundstücke innerhalb der Gemeinde,
+–   mittlere bauliche Dichte in der Gemeinde,
+–   mittlere Preise für überbaute Grundstücke im ganzen Kanton.
+
+
+Bauland für Einfamilienhäuser
+    Der Landwert wird nach dem Vorgehen gemäss Ziff. 10–12 ermit- 13
+telt.
+
+
+Bauland für Geschäftshäuser
+   Mit einem Zentrum-Peripherie-Modell werden die Gemeinden 14
+bestimmten Gemeindetypen zugeteilt. Aufgrund von Vergleichshand-
+änderungen werden für die einzelnen Gemeindetypen in der Regel
+einheitliche Landwerte festgelegt.
+
+    Bauland für industrielle und gewerbliche Bauten
+15   Es ist gemäss Ziff. 14 vorzugehen.

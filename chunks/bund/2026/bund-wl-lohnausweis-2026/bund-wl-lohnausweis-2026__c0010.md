@@ -4,24 +4,22 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 10"
-seiten: "7"
+titel: "Rz 9 Buchstabe F – Unentgeltliche Beförderung Wohn-/Arbeitsort"
+ziffer: "9"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 7
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstabe F · S. 8
 
-<!-- Seite 7 -->
-Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+Unentgeltliche Beförderung zwischen Wohn- und Arbeitsort   Buchstabe F
 
-I   Notwendige Angaben
-Verwendung des Formulars 11 als Lohnausweis   Buchstabe A
-
-Dieses Feld ist anzukreuzen, wenn das Formular für die Bescheinigung von Leistungen dient,   4
-die auf Grund eines (unselbstständigen) Arbeitsverhältnisses ausgerichtet worden sind. Ne
-ben dem Regelfall, dass ein Lohn für eine Haupt- oder Nebenerwerbstätigkeit bescheinigt
-wird, fallen auch die Bezüge eines Verwaltungsratsmitglieds darunter. Ebenfalls ist dieses
-Feld anzukreuzen, wenn das Formular für die Bescheinigung von Ersatzeinkommen der Ar
-beitslosenversicherung wie Arbeitslosenentschädigung, Insolvenzentschädigung und weite
-ren Kostenbeiträgen verwendet wird.
-
-Verwendung des Formulars 11 als Rentenbescheinigung   Buchstabe B
+    9
+Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer keine Kosten für den Arbeitsweg er
+wachsen. In Betracht fallen insbesondere:
+•   das zur Verfügung stellen eines Geschäftsfahrzeugs durch den Arbeitgeber (vgl.
+    Rz 21 – 25), sofern der Arbeitnehmer für den Arbeitsweg nicht mindestens 751 Rappen
+    oder mindestens die Selbstkosten pro Kilometer bezahlen muss;
+•   die Beförderung zum Arbeitsort mittels Sammeltransports (v.a. im Baugewerbe);
+•   die Vergütung der effektiven Autokilometerkosten an Aussendienstmitarbeiter, die
+    mit dem Privatfahrzeug überwiegend von zu Hause direkt zu den Kunden, also nicht zu
+    erst zu den Büros ihres Arbeitgebers, fahren;

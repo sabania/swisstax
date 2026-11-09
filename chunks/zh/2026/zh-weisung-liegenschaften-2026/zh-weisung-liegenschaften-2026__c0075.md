@@ -4,14 +4,12 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 75"
+titel: "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Uster"
 seiten: "33"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 33
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Geschäftshäuser/Industrie · S. 33
 
-Wila   1   360   –   –   –   250   –   –   –
-Wildberg   1   350   –   –   –   250   –   –   –
 Bezirk Uster
 Dübendorf   1   1070   –   –   –   600   –   –   –
 Egg   1   950   –   –   –   440   –   –   –

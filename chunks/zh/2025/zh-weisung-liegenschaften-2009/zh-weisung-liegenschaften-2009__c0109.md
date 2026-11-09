@@ -4,17 +4,13 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 109"
+titel: "Anhang S. 43 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Pfäffikon"
+ziffer: "14, 15, 49"
 seiten: "43"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 43
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49) · S. 43
 
-Bezirk Meilen
-Erlenbach (ZH)   1   730   –   –   490   –   –   440   –   –
-Herrliberg   1   730   –   –   490   –   –   440   –   –
-Hombrechtikon   1   500   –   –   370   –   –   330   –   –
-Küsnacht (ZH)   1   730   –   –   490   –   –   440   –   –
 Männedorf   1   570   –   –   360   –   –   320   –   –
 Meilen   1   730   –   –   490   –   –   440   –   –
 Oetwil am See   1   500   –   –   370   –   –   330   –   –
@@ -31,3 +27,8 @@ Sternenberg   1   280   –   –   140   –   –   130   –   –
   (ehemalige Gemeinde)
 Fehraltorf   1   570   –   –   360   –   –   320   –   –
 Hittnau   1   420   –   –   290   –   –   260   –   –
+Illnau-Effretikon
+– Illnau-Effretikon   1   500   –   –   370   –   –   330   –   –
+  (ehemalige Gemeinde)
+– Kyburg   1   420   –   –   290   –   –   260   –   –
+  (ehemalige Gemeinde)

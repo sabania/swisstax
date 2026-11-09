@@ -4,7 +4,7 @@ quelle: bund-dbg-2025
 jur: bund
 jahre: [2025]
 typ: gesetz
-titel: "Art. 20a DBG – Besondere Fälle (Teil 1/3)"
+titel: "Art. 20a DBG – Besondere Fälle (Teil 1/2)"
 artikel: "Art. 20a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---

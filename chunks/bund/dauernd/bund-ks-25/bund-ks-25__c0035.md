@@ -4,22 +4,26 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 35"
-seiten: "8"
+titel: "Anhang I Begriffsbestimmungen (Anlagefonds, Ausschüttungsfonds, offene KKA) (Teil 1/2)"
+ziffer: "Anhang I"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang I Begriffsbestimmungen · S. 11
 
-4.5   Bescheinigungspflicht
-Die kollektiven Kapitalanlagen haben den Anlegerinnen und Anlegern alle Verhältnisse zu
-bescheinigen, die für die Besteuerung der Erträge massgeblich sind. Zudem haben sie ihre
-Jahresberichte bzw. Jahresrechnungen bei der ESTV einzureichen.
+7   Anhänge
+Anhang I   Begriffsbestimmungen / Abkürzungen
 
-Die thesaurierten Vermögenserträge unterliegen aufgrund der Treuhandlösung auf Stufe der
-Anlegerinnen und Anleger der Einkommenssteuer. Die thesaurierenden kollektiven Kapital-
-anlagen haben daher den Anlegerinnen und Anlegern für die direkten Steuern die thesaurier-
-ten Erträge jährlich zu bescheinigen. Davon ausgenommen sind die wiederangelegten Kapi-
-talgewinne, sofern sie in der Jahresrechnung separat ausgewiesen werden. Mit der Meldung
-des thesaurierten Ertrages pro Anteil an die ESTV zu Handen der Kursliste HB und der Be-
-reitstellung der entsprechenden Berechnungsgrundlagen ist die Bescheinigungspflicht der
-Kapitalanlage erfüllt.
+Begriffsbestimmungen:
+Anlagefonds: Vertragliche kollektive Kapitalanlage.
+Anlegerinnen und Anleger: Natürliche oder juristische Personen, Kollektiv- und Komman-
+ditgesellschaften, die Anteile an kollektiven Kapitalanlagen halten (Art. 10 Abs. 1 KAG).
+Anteile: Forderungen gegen die Fondsleitung auf Beteiligung an Vermögen und Ertrag des
+Anlagefonds oder Beteiligungen an der Gesellschaft (vgl. Art. 11 KAG).
+Ausschüttungsfonds: Offene oder geschlossene kollektive Kapitalanlagen, welche in den
+Basisdokumenten eine Ausschüttungsvorschrift von mindestens 70% des jährlichen Nettoer-
+trags inklusive vorgetragener Erträge aus früheren Rechnungsjahren vorsehen.
+Kollektive Kapitalanlage: Vermögen, das von Anlegerinnen oder Anlegern zur gemein-
+schaftlichen Kapitalanlage aufgebracht und für deren Rechnung verwaltet wird (vgl. Art. 7
+Abs. 1 KAG).
+Offene kollektive Kapitalanlagen: Vertraglicher Anlagefonds und Investmentgesellschaft

@@ -4,25 +4,42 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 64"
-seiten: "19"
+titel: "Anhang II Art. 3 Fall 3 – Überführung mit Aufschub, Verkauf nach Liquidationsjahr"
+ziffer: "Art. 3 Fall 3"
+seiten: "22-23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 22–23
 
-<!-- Seite 19 -->
-2.   Erläuterungen zu den einzelnen Bestimmungen
+2. Mit Aufschub:
 
-2.1   Allgemeine Bestimmungen
-Artikel 1   Gegenstand und Geltungsbereich
+a)   Eine Liegenschaft wird im Jahr n-1 vom Geschäftsvermögen ins Privatvermögen
+    überführt. Die steuerpflichtige Person macht dabei den Steueraufschub gemäss Artikel
+    18a DBG geltend. Die Liegenschaft wird im Jahr n+1 veräussert. In diesem Fall sind nur
+    die wieder eingebrachten Abschreibungen Teil des Liquidationsgewinnes (Anwendung
+    von Artikel 37b DBG, u.U. mittels eines Revisionsverfahrens). Der Wertzuwachsgewinn
+    wird infolge Aufschubes gemäss Artikel 18a DBG im Jahr n+1 als steuerbares Einkom-
+    men aus selbständiger Erwerbstätigkeit besteuert.
 
-Absatz 1
-Steuerpflichtige, welche ihre selbständige Erwerbstätigkeit definitiv aufgeben, können die
-Besteuerung des Liquidationsgewinnes gemäss Artikel 37b DBG und dieser Verordnung
-geltend machen. Die definitive Aufgabe setzt nach der gesetzlichen Bestimmung voraus,
-dass die steuerpflichtige Person das 55. Alterjahr erreicht hat oder aufgrund einer Invalidität
-unfähig geworden ist, ihre Unternehmung weiterzuführen. Dies betrifft sowohl Einzelunter-
-nehmungen als auch Beteiligungen an einer Personengesellschaft. Die gleichzeitige oder
-nachträgliche Aufnahme einer unselbständigen Erwerbstätigkeit steht der privilegierten Be-
-steuerung des Liquidationsgewinnes nicht im Wege. Diese Verordnung definiert die - nach
-der Umschreibung des Gesetzes - realisierten stillen Reserven als „Liquidationsgewinn“.
+    Vorjahr   Liquidationsjahr
+
+    2011   2012   2013
+
+    Fall 3
+    PV
+    2011 LS wird ins PV   PV   Dritte
+    überführt mit Auf-
+    Differenz
+    schub gem.
+    Verkaufspreis
+    Art. 18a DBG
+    Aufschub Art.   ./. Anlagekos-
+    18a DBG   ten = steuer-
+    2013 LS wird an   Art. 37b DBG   bares Ein-
+    Dritte veräussert
+    kommen aus
+    wieder eingebrach-
+    selbständiger
+    te Abschreibungen
+    Erwerbstätig-
+    keit

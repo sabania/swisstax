@@ -4,22 +4,20 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 58"
-seiten: "17"
+titel: "Anhang II Art. 1 – Nachsteuerverfahren und Steuerumgehung (Teil 4/4)"
+ziffer: "Art. 1"
+seiten: "19-20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 19–20
 
-Der Nationalrat sah in der Folge ein, dass der von ihm beschlossene Tarif zu tief war. Er
-wollte jedoch sicherstellen, dass Gewerbetreibende ohne oder ohne genügende Altersvor-
-sorge nicht gezwungen werden, sich in einer Einrichtung der beruflichen Vorsorge einzukau-
-fen, um es kurz darauf wieder beziehen zu müssen 4 . Vielmehr soll der Teil des Liquidations-
-gewinnes, für den der Selbständigerwerbende die Zulässigkeit eines Einkaufs in eine Ein-
-richtung der beruflichen Vorsorge nachweisen kann, steuerrechtlich so behandelt werden,
-wie ein Einkauf in eine Einrichtung der beruflichen Vorsorge mit anschliessendem Bezug.
-Der Selbständigerwerbende soll, gestützt auf eine angebliche Deckungslücke, einen fiktiven
-Einkauf geltend machen können.
-
-Dieser Möglichkeit des fiktiven Einkaufs hat der Ständerat zugestimmt, wobei er davon aus-
-gegangen ist, dass sich die fiktive Deckungslücke im Rahmen eines mittleren Vorsorgeplans
-bewegen und die Steuerverwaltung dazu eine Praxis entwickeln soll.
+Vorbehalten bleibt natürlich stets die Steuerumgehung, die zu einem Nachsteuerverfahren
+führt. Nach der Rechtsprechung des Bundesgerichts liegt eine Steuerumgehung vor, wenn
+a)   die von den Beteiligten gewählte Rechtsgestaltung als ungewöhnlich, sachwidrig oder
+    absonderlich, jedenfalls den wirtschaftlichen Gegebenheiten völlig unangemessen er-
+    scheint,
+b)   ferner anzunehmen ist, dass diese Wahl missbräuchlich lediglich deshalb getroffen wur-
+    de, um Steuern einzusparen, welche bei sachgemässer Ordnung der Verhältnisse ge-
+    schuldet wären und
+c)   das gewählte Vorgehen tatsächlich zu einer erheblichen Steuerersparnis führen würde,
+    sofern die Steuerbehörde es hinnähme.

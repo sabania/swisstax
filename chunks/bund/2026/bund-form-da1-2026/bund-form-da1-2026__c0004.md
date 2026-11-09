@@ -4,13 +4,13 @@ quelle: bund-form-da1-2026
 jur: bund
 jahre: [2026]
 typ: formular
-titel: "DA-1 2026 – Abschnitt 4"
+titel: "DA-1 Seite 2 Fragen 1–4 – Besteuerung in der Schweiz, Pauschalsteuer, satzbestimmendes Einkommen, Schuldzinsen"
+ziffer: "1-4"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: formular}}
 ---
-> Bund · Steuerjahr 2026 · DA-1 2026 · S. 2
+> Bund · Steuerjahr 2026 · DA-1 2026 · DA-1 › Besteuerung in der Schweiz · S. 2
 
-<!-- Seite 2 -->
 DA-1 Besteuerung in der Schweiz   ja   nein
     (zutreffendes Feld ankreuzen)
 
@@ -36,9 +36,3 @@ DA-1 Besteuerung in der Schweiz   ja   nein
 4. Haben Sie im Jahr 2026 Schuldzinsen bezahlt
 
     Wenn ja, Betrag   Fr.
-
-Der Betrag der Anrechnung, falls er nicht oder nicht voll verrechnet wird, ist wie folgt zu vergüten:
-
-    auf mein Postkonto Nr.   auf Bankkonto / IBAN
-
-bei   Postkonto Nr. der Bank

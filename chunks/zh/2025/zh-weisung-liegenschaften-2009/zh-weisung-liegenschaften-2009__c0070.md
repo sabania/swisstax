@@ -4,42 +4,31 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 70"
+titel: "Anhang S. 30 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – (Fortsetzung)"
+ziffer: "10, 23"
 seiten: "30"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 30
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum · S. 30
 
-<!-- Seite 30 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
-
-Wohnbauland
-
-Bebaute Grundstücke
-    Stockwerkeigentum (Ziff. 10 und 23)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
-
-Bezirk Affoltern
-Aeugst am Albis   5   880   780   680   580   470   –   –
-Affoltern am Albis   5   680   620   550   490   420   –   –
-Bonstetten   3   720   610   490   –   –   –   –
-Hausen am Albis   5   650   590   520   460   390   –   –
-Hedingen   5   710   660   600   540   480   –   –
-Kappel am Albis   2   520   440   –   –   –   –   –
-Knonau   3   660   540   410   –   –   –   –
-Maschwanden   2   480   380   –   –   –   –   –
-Mettmenstetten   5   670   620   570   520   470   –   –
-Obfelden   3   630   520   410   –   –   –   –
-Ottenbach   3   590   460   320   –   –   –   –
-Rifferswil   3   590   510   440   –   –   –   –
-Stallikon   3   790   650   510   –   –   –   –
-Wettswil am Albis   3   870   720   570   –   –   –   –
-Bezirk Andelfingen
-Andelfingen
-– Adlikon   3   450   370   290   –   –   –   –
+Dorf   3   490   410   320   –   –   –   –
+Feuerthalen   5   460   420   370   320   270   –   –
+Flaach   5   400   380   350   320   290   –   –
+Flurlingen   3   550   450   340   –   –   –   –
+Henggart   3   570   470   370   –   –   –   –
+Kleinandelfingen   5   550   500   440   380   320   –   –
+Laufen-Uhwiesen   5   520   470   420   370   310   –   –
+Marthalen   3   490   410   330   –   –   –   –
+Ossingen   4   540   430   320   210   –   –   –
+Rheinau   3   370   310   250   –   –   –   –
+Stammheim
+– Oberstammheim   3   410   360   300   –   –   –   –
  (ehemalige Gemeinde)
-– Andelfingen   5   530   480   430   380   320   –   –
+– Unterstammheim   4   410   370   340   300   –   –   –
  (ehemalige Gemeinde)
-– Humlikon   3   540   460   380   –   –   –   –
+– Waltalingen   3   430   350   270   –   –   –   –
  (ehemalige Gemeinde)
+Thalheim an der Thur   3   480   390   290   –   –   –   –
+Trüllikon   5   490   440   380   330   270   –   –
+Truttikon   5   400   380   360   340   310   –   –
+Volken   3   400   350   290   –   –   –   –

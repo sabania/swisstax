@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html> · lokal: [sg-info-ekst-vst.html](../../../raw/sg/dauernd/sg-info-ekst-vst.html) · Volltext: [sg-info-ekst-vst.md](../../../sources/sg/dauernd/sg-info-ekst-vst.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c081baf763cca831…`
 
-## Inhalt (67 Chunks)
+## Inhalt (64 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -59,19 +59,19 @@ generiert: tools/build_index.py
 | [c0041](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0041.md) | Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) |  |  |
 | [c0042](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0042.md) | Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) |  |  |
 | [c0043](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0043.md) | Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) |  |  |
-| [c0044](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0044.md) | Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) |  |  |
+| [c0044](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0044.md) | Formulare |  |  |
 | [c0045](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0045.md) | Formulare |  |  |
 | [c0046](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0046.md) | Formulare |  |  |
 | [c0047](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0047.md) | Formulare |  |  |
 | [c0048](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0048.md) | Formulare |  |  |
-| [c0049](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0049.md) | Formulare |  |  |
+| [c0049](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0049.md) | Merkblätter |  |  |
 | [c0050](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0050.md) | Merkblätter |  |  |
-| [c0051](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0051.md) | Merkblätter |  |  |
-| [c0052](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0052.md) | Fragebogen für Ärzte und Anwälte |  |  |
+| [c0051](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0051.md) | Fragebogen für Ärzte und Anwälte |  |  |
+| [c0052](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0052.md) | Tarife Privatpersonen, gültig ab |  |  |
 | [c0053](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0053.md) | Tarife Privatpersonen, gültig ab |  |  |
-| [c0054](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0054.md) | Tarife Privatpersonen, gültig ab |  |  |
-| [c0055](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0055.md) | Tarife Privatpersonen, gültig ab |  |  |
-| [c0056](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0056.md) | Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen |  |  |
+| [c0054](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0054.md) | Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen |  |  |
+| [c0055](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0055.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
+| [c0056](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0056.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
 | [c0057](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0057.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
 | [c0058](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0058.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
 | [c0059](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0059.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
@@ -79,7 +79,4 @@ generiert: tools/build_index.py
 | [c0061](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0061.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
 | [c0062](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0062.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
 | [c0063](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0063.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
-| [c0064](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0064.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
-| [c0065](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0065.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
-| [c0066](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0066.md) | Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr: |  |  |
-| [c0067](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0067.md) | Kurslisten |  |  |
+| [c0064](../../../chunks/sg/dauernd/sg-info-ekst-vst/sg-info-ekst-vst__c0064.md) | Kurslisten |  |  |

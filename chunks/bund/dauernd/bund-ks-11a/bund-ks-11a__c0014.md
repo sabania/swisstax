@@ -4,19 +4,18 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 14"
-seiten: "4"
+titel: "Ziff. 3.2.9 Transportkosten zu Arzt und Therapie"
+ziffer: "3.2.9"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 6
 
-    e. ohnehin im Rahmen der privaten Lebenshaltung anfallen würden und durch einen Spital
-    aufenthalt eingespart werden können (z. B. Spitalkostenbeiträge, welche hauptsächlich
-    Verpflegungskosten abdecken);
-    f. für zusätzlichen Komfort anfallen, die nicht medizinisch indiziert sind oder lediglich der Be
-    quemlichkeit dienen (z. B. zusätzliche Hotelleriekosten auf der halbprivaten bzw. privaten
-    Abteilung, Zimmer-Upgrade; vgl. Urteil des Bundesgerichts 2C_404/2020 vom 16. De
-    zember 2020 E. 3.6 und 3.7).
-Keine Krankheitskosten stellen weiter die Krankenkassenprämien dar. Sie können nur im Rah
-men des Abzuges nach Artikel 33 Absatz 1 Buchstabe g und Artikel 33 Absatz 1bis DBG berück
-sichtigt werden.
+3.2.9   Transportkosten
+Transportkosten zur Ärztin oder zum Arzt, zu Therapien etc. stehen mit der Behandlung einer
+Krankheit oder eines Unfalls in der Regel nur indirekt in Zusammenhang. Sie sind deshalb
+grundsätzlich nicht als Krankheits- bzw. Unfallkosten abzugsfähig (vgl. Urteil des Bundesge
+richts 2C_258/2010 vom 23. Mai 2011 E. 4.4). Medizinisch notwendige Transport-, Rettungs-
+und Bergungskosten sind ausnahmsweise abzugsfähig, wenn aus gesundheitlichen Gründen
+weder die Benützung des öffentlichen Verkehrsmittels noch des privaten Motorfahrzeugs mög
+lich oder zumutbar ist (z. B. Transport mit dem Krankenwagen oder Rettungshelikopter).

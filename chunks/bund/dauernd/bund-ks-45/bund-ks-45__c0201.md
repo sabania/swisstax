@@ -4,30 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 201"
-seiten: "53"
+titel: "Ziff. 10.1 Zusätzliche Abzüge, Antrag auf nachträgliche ordentliche Veranlagung oder Neuberechnung"
+ziffer: "10.1"
+seiten: "63"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 53
+> Bund · Steuerjahr 2025/2026 · KS 45 · 10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers › 10.1 Rechte · S. 63
 
-<!-- Seite 53 -->
-7.5.4 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden
-Auf Ersatzeinkünften (Taggelder), welche von der Versicherung an den Arbeitgeber ausbe-
-zahlt werden, sind von der Versicherung keine Quellensteuern abzurechnen. Der Arbeitge-
-ber nimmt den Quellensteuerabzug auf der von ihm geschuldeten Bruttoentschädigung an
-den Arbeitnehmer vor und wendet darauf den massgebenden Tarifcode bzw. Steuersatz an.
-
-    Beispiel:
-    - Der Arbeitgeber schuldet dem Arbeitnehmer T. im März 2021 einen Bruttomonatslohn von CHF 4 500.00
-    sowie ein Unfalltaggeld (Ersatzeinkunft) über CHF 1 000.00, welches die Versicherung an den Arbeitgeber
-    überweist.
-
-    Monat   Januar   Februar   März   April   … Dezember   Besteuerung
-
-    Bruttolohn   5 500   5 500   4 500   5 500   5 500   65 000
-
-    Unfalltaggeld   1 000   1 000
-
-    Tarifcode   A0   A0   A0   A0   A0   A0
-
-    Steuersatz (%)   10,51   10,5   10,5   10,5   10,5   10,5
+Will ein nicht der obligatorischen nachträglichen Veranlagung unterliegender Arbeitnehmer
+zusätzliche, im Quellensteuertarif gar nicht oder bloss pauschal berücksichtigte Abzüge gel-
+tend machen, kann er bei Erfüllung der erforderlichen Voraussetzungen bei der zuständigen
+Steuerbehörde bis am 31. März des auf die Fälligkeit der Leistung folgenden Steuerjahres
+einen Antrag auf Vornahme einer nachträglichen ordentlichen Veranlagung einreichen (vgl.
+Art. 89a und 99a DBG, vgl. Ziffer 11 unten). Werden fristgerecht Fehler bei der Ermittlung
+des Bruttolohns oder bei der Tarifanwendung (bspw. Satzkorrektur beim Tarifcode C; vgl. Ur-
+teil des BGer vom 26. Juni 2018, 2C_450/2017) gerügt, kann anstelle der nachträglichen or-
+dentlichen Veranlagung bis am 31. März des auf die Fälligkeit der Leistung folgenden Steu-
+erjahres eine Neuberechnung der Quellensteuer verlangt werden (vgl. Ziffer 11 unten).

@@ -4,18 +4,16 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 20"
-seiten: "6"
+titel: "Ziff. 4.2.4 Indirekte Teilliquidation"
+ziffer: "4.2.4"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.2 Spezialfälle · S. 11
 
-<!-- Seite 6 -->
-2.2.3. Kapitaleinlagen aus Sanierungen
+4.2.4. Indirekte Teilliquidation
 
-Soweit Kapitaleinlagen nicht durch die Ausbuchung von handelsrechtlichen Verlustvorträgen
-vernichtet werden und direkt offen in das Eigenkapital der Gesellschaft eingelegt werden,
-gelten diese aufgrund der Massgeblichkeit der Handelsbilanz steuerrechtlich als KER bzw.
-Ausland-KER. Forderungsverzichte und direkte Kapitaleinlagen der Beteiligungsinhaber, die
-im Zuge der Sanierung erfolgswirksam gebucht werden, gelten nie als KER bzw. Ausland-
-KER.
+Die Besteuerung des Vermögensertrags aus einer indirekten Teilliquidation nach Artikel 20a
+Absatz 1 Buchstabe a DBG richtet sich nach der Verbuchung der Ausschüttung in der Kapi-
+talgesellschaft oder Genossenschaft, deren Beteiligungsrechte verkauft worden sind. Der
+steuerbare Anteil ist nach den in Ziffer 4.1. festgehaltenen Grundsätzen zu berechnen.

@@ -4,21 +4,23 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 3/3)"
-ziffer: "Anh. IV III.3"
-seiten: "34-35"
+titel: "Anhang IV Gutachten Ziff. III.4.2 Fazit mit Handänderung (Teil 1/2)"
+ziffer: "Anh. IV III.4.2"
+seiten: "35-36"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34–35
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung › 4 Fazit · S. 35–36
 
-Obschon das Abstellen auf die Veränderung der 5-Jahres-Swap-Rate für die Quantifi-
-zierung der Veränderung des Zinsniveaus ein relativ grobes Mittel darstellt und Verän-
-derung des Credit Spreads grundsätzlich nicht berücksichtigt werden, führt das von der
-Telekurs und der ESTV angewendete System grundsätzlich zu wirklichkeitsnahen Wer-
-ten. Bezüglich der Veränderung der Credit Spreads ist noch zu erwähnen, dass diese
-in der Praxis nicht besonders relevant sind, weil es sich bei den Emittenten in der ü-
-berwiegenden Mehrheit um Banken mit einem Rating von mindestens Single A handelt
-und erfahrungsgemäss deren Credit Spreads nicht erheblich schwanken. Daher sind
-wir der Ansicht, dass die zur Anwendung gelangenden finanzmathematischen Formeln
-geeignet sind, den Vermögensertrag bei kombinierten Produkten in rechtsgenügender
-Weise zu ermitteln.
+4.2.   Mit Handänderung während der Laufzeit
+Der bei der Ermittlung des Werts des Anleihensteils bei Handänderungen während der
+Laufzeit zur Anwendung gelangende Mechanismus berücksichtigt Veränderungen des
+Zinsumfelds (quartalsweise Anpassung mittels 5-Jahres-Swap-Rate) und damit das
+grundsätzlich wesentlichste Element für die Bestimmung des Wertes von Anleihen. Die
+weiteren relevanten, jedoch grundsätzlich bei weitem nicht so stark ins Gewicht fallen-
+den Elemente wie Veränderungen des individuellen Credit Spreads des Emittenten und
+Markteinflüsse, bleiben hingegen unberücksichtigt. Dennoch lässt sich festhalten, dass
+der zur Anwendung gelangende Mechanismus geeignet ist, den Wert des Anleihens-
+teils von kombinierten Produkten, welche der modifizierten Differenzbesteuerung unter-
+liegen, zuverlässig zu ermitteln. Daher sind wir der Ansicht, dass die zur Anwendung
+gelangenden finanzmathematischen Formeln geeignet sind, den steuerbaren Vermö-
+gensertrag in rechtsgenügender Weise zu ermitteln.

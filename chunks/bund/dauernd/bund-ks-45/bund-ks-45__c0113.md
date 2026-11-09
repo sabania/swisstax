@@ -4,24 +4,23 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 113"
-seiten: "29"
+titel: "Ziff. 7.2 Jahresmodell – Grundsätze (Kalenderjahr als Steuerperiode)"
+ziffer: "7.2"
+seiten: "36"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 29
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.2 Grundsätze · S. 36
 
-    4. Vierteljährliche Auszahlung des 13. Monatslohns (März / Juni / September / Dezember) gemäss Arbeits-
-    vertrag:
-    Der Arbeitnehmer S. tritt per 15. Oktober 2021 aus der Unternehmung aus und erhält neben der anteils-
-    mässigen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbarten 13. Monatslohn ausbezahlt
-    (pro rata für die Zeit vom 1. Oktober 2021 – 15. Oktober 2021). Die Lohnzahlung ist zur Satzbestimmung
-    auf 30 Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezogen auf die Periode, für wel-
-    che er bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage pro Jahr).
-
-    Leistungen   steuerbar   satzbestimmend   Berechnung
-
-    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
-
-    13. Monatslohn   250   1 500   250 / 15 x 90
-
-    Total   3 250   7 500
+7.2   Grundsätze
+Bei der Berechnung der Quellensteuer nach dem Jahresmodell entspricht das Kalenderjahr
+der Steuerperiode. Obwohl Letzteres massgebend ist, muss der Schuldner der steuerbaren
+Leistung die Quellensteuer trotzdem monatlich einbehalten und darüber abrechnen (vgl. Zif-
+fern 9.3.3 und 9.3.4 unten).
+Für die Berechnung des Quellensteuerabzugs sind die monatlichen Bruttoeinkünfte massge-
+bend. Für die Ermittlung des satzbestimmenden Einkommens ist es jedoch erforderlich, das
+gesamte im betreffenden Jahr der Quellenbesteuerung unterliegende Bruttoeinkommen zu
+berücksichtigen. Die Höhe des Quellensteuerabzugs wird auf der Grundlage des Bruttoein-
+kommens des betreffenden Monats durch Multiplikation dieses Einkommens mit dem Steuer-
+satz des anzuwendenden Quellensteuertarifs ermittelt. Das gleiche Verfahren ist anzuwen-
+den, wenn der Arbeitnehmer auf Stundenlohnbasis beschäftigt ist und ihm sein Gehalt mo-
+natlich ausbezahlt wird (vgl. Beispiele in den nachfolgenden Ziffern).

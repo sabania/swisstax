@@ -4,26 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 206"
-seiten: "54"
+titel: "Ziff. 11.2 Obligatorische NOV – Schwelle Bruttoeinkommen CHF 120 000"
+ziffer: "11.2"
+seiten: "64"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 54
+> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.2 Obligatorische NOV bei Ansässigkeit in der Schweiz · S. 64
 
-    Quellensteuer   56   56   1713   79.80   79.80   155.80   1 077.20
-    Korrektur
-    +404   +40.00
-    Januar und Februar
-    Total
-    56   56   211   79.80   79.80   155.80   1 117.20
-    Quellensteuer
-    1 = H1 mit satzbestimmendem Jahreseinkommen von CHF 52 000.00 (CHF 4 000 x 13).
-
-    2 = H1 mit satzbestimmendem Jahreseinkommen von CHF 58 800.00 ([CHF 4 000 x 13] + [CHF 200 x 12]
-
-    + CHF 4 400).
-    3 = (CHF 4 000 + CHF 600 + CHF 4 400) x 1.90 %.
-
-    4 = Korrektur des Quellensteuerabzugs für die Monate Januar und Februar [(CHF 4 000 x 1.90 %) x 2] –
-
-    (2 x CHF 56).
+11.2 Obligatorische nachträgliche ordentliche Veranlagung bei Ansässigkeit in der
+    Schweiz
+Eine obligatorische nachträgliche ordentliche Veranlagung wird durchgeführt, wenn eine
+quellensteuerpflichtige Person mit Ansässigkeit in der Schweiz in einem Steuerjahr, vor Aus-
+scheidung von allfälligen dem Ausland zur Besteuerung zugewiesenen Einkünften, ein Brut-
+toeinkommen aus unselbstständiger Erwerbstätigkeit von mindestens CHF 120 000 erzielte
+(vgl. Art. 89 DBG i.V.m. Art. 9 QStV). Bei Ehegatten, die in rechtlich und tatsächlich unge-
+trennter Ehe leben, werden zur Bestimmung des Mindestbetrags die Bruttoeinkommen aus
+unselbstständiger Erwerbstätigkeit der Ehegatten nicht zusammengerechnet.
+Bei unterjähriger Steuerpflicht werden für die Berechnung des Mindestbetrags die periodi-
+schen Bruttolohneinkommen auf zwölf Monate umgerechnet und die aperiodischen Brutto-
+lohnbestandteile ohne Umrechnung miteinbezogen (vgl. Art. 40 Abs. 3 DBG).
+Erzielt eine quellensteuerpflichtige Person mit Ansässigkeit in der Schweiz zusätzliche, nicht
+der Quellensteuer unterliegende Einkünfte (oder hat sie nach kantonalem Recht steuerbares

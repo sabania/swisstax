@@ -4,39 +4,28 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 49"
-seiten: "22"
+titel: "Anhang S. 23 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Bülach"
+ziffer: "13"
+seiten: "23"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 22
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser · S. 23
 
-<!-- Seite 22 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
-
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
 Wohnbauland
 
 Unbebaute Grundstücke
-    Mehrfamilienhäuser und Stockwerkeigentum (Ziff. 10)
+    Einfamilienhäuser (Ziff. 13)
     Anzahl
 Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
 
 Bezirk Bülach
-Bachenbülach   4   780   690   610   520   –   –   –
-Bassersdorf   5   910   820   730   640   550   –   –
-Bülach   5   830   760   680   610   530   –   –
-Dietlikon   5   920   840   750   660   570   –   –
-Eglisau   5   660   600   540   480   410   –   –
-Embrach   4   710   640   570   500   –   –   –
-Freienstein-Teufen   2   600   490   –   –   –   –   –
-Glattfelden   5   580   540   490   440   390   –   –
-Hochfelden   4   710   640   560   490   –   –   –
-Höri   3   460   390   310   –   –   –   –
-Hüntwangen   5   570   530   490   450   410   –   –
-Kloten   5   910   830   740   650   560   –   –
-Lufingen   3   910   710   500   –   –   –   –
-Nürensdorf   5   880   800   720   640   550   –   –
-Oberembrach   3   760   610   460   –   –   –   –
-Opfikon   4   860   750   630   520   –   –   –
-Rafz   4   660   580   510   430   –   –   –
-Rorbas   3   560   510   460   –   –   –   –
-Wallisellen   5   970   890   800   720   630   –   –
+Bachenbülach   4   470   420   360   310   –   –
+Bassersdorf   5   540   490   440   390   330   –   –
+Bülach   5   500   460   410   370   320   –   –
+Dietlikon   5   550   500   450   400   340   –   –
+Eglisau   5   400   370   330   290   250   –   –
+Embrach   4   420   380   340   300   –   –   –
+Freienstein-Teufen   2   360   300   –   –   –   –   –
+Glattfelden   5   350   320   290   260   230   –   –
+Hochfelden   4   430   380   340   290   –   –   –

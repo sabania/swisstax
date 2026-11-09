@@ -4,29 +4,33 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 54"
-seiten: "13"
+titel: "Ziff. 7.3.4 Überblick Quellenbesteuerung – Arbeitnehmer und Verwaltungsrat zugleich"
+ziffer: "7.3.4"
+seiten: "17-18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3.4 Überblick Quellenbesteuerung · S. 17–18
 
-    übrigen Einkommen aus un-   für diese Leistung an der
-    selbstständiger Erwerbstätig-   Quelle besteuert werden.
-    keit an der Quelle zu besteu-
-    ern.
-  Zugleich Arbeitnehmer   Fälle von Art. 83 DBG:   Fälle von Art. 91 oder 97 so-
-  (AN) und Verwaltungsrat   wie 93 DBG:
-  (VR)   Einkünfte aus Mitarbeiterak-
-    tien sind zusammen mit dem   In diesen Fällen ist vorgängig
-    übrigen Einkommen aus un-   zu bestimmen, für welche Art
-    selbstständiger Erwerbstätig-   der Erwerbstätigkeit (AN o-
-    keit an der Quelle zu besteu-   der VR) die Mitarbeiteraktien
-    ern.   ausgegeben werden. Die Be-
-    steuerung richtet sich an-
-    schliessend nach der Art der
-    Erwerbstätigkeit. Vorbehalten
-    bleibt eine anteilsmässige
-    Besteuerung bei Mitarbeiter-
-    beteiligungen, die als Bonus
-    abgegeben werden (sinnge-
-    mäss Art. 17d DBG).
+3 Massgebend, ob die Besteuerung nach internem Recht erfolgen kann, ist die Zuweisung der Besteuerungsho-
+
+heit durch ein allfällig anwendbares DBA und weitere bilaterale Abkommen mit anderen Staaten. Im Falle eines
+Wegzugs aus der Schweiz ist somit eine Besteuerung durch die Schweiz dennoch nicht ausgeschlossen.
+
+    Zugleich Arbeitnehmer   Fälle von Art. 83 DBG:   Fälle von Art. 91, 97 oder 93
+    (AN) und Verwaltungsrat   DBG:
+    (VR)   Einkünfte aus diesen Mitar-
+    beiterbeteiligungen sind zu-   In diesen Fällen ist vorgängig
+    sammen mit dem übrigen Ein-   zu bestimmen, für welche Art
+    kommen aus unselbstständi-   der Erwerbstätigkeit (AN o-
+    ger Erwerbstätigkeit an der   der VR) die Mitarbeiterbeteili-
+    Quelle zu besteuern.   gungen ausgegeben wurde.
+
+    Eine anteilsmässige Besteue-   Die Besteuerung richtet sich
+    rung (Art. 17d DBG) kann nur   anschliessend nach der Art
+    dann erfolgen, wenn die steu-   der Erwerbstätigkeit, d.h. im
+    erpflichtige Person nicht wäh-   Zusammenhang mit einem
+    rend der ganzen Zeitspanne   Arbeitsverhältnis nach Art.
+    für ihr Einkommen in der   91, 97 DBG bzw. in Zusam-
+    Schweiz steuerpflichtig war.   menhang mit einem Verwal-
+    tungsratsmandat nach
+    Art. 93 DBG.

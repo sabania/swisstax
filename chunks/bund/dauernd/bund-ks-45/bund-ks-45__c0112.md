@@ -4,25 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 112"
-seiten: "29"
+titel: "Ziff. 7.1 Jahresmodell – Vorbemerkungen (Swissdec, 13. Monatslohn)"
+ziffer: "7.1"
+seiten: "36"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 29
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.1 Vorbemerkungen · S. 36
 
-<!-- Seite 29 -->
-    Beispiele 13. Monatslohn:
-    3. Halbjährliche Auszahlung des 13. Monatslohns (Juni / Dezember) gemäss Arbeitsvertrag:
-    Der Arbeitnehmer S. tritt per 15. Juni 2021 aus der Unternehmung aus und erhält neben der anteilsmässi-
-    gen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbarten 13. Monatslohn ausbezahlt (pro
-    rata für die Zeit vom 1. Januar 2021 – 15. Juni 2021). Die Lohnzahlung ist zur Satzbestimmung auf 30
-    Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezogen auf die Periode, für welche er
-    bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage pro Jahr).
+7   Berechnung der Quellensteuer nach dem Jahresmodell
 
-    Leistungen   steuerbar   satzbestimmend   Berechnung
-
-    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
-
-    13. Monatslohn   2 750   3 000   2 750 / 165 x 180
-
-    Total   5 750   9 000
+7.1   Vorbemerkungen
+Erfolgt die Abrechnung der Quellensteuer über eine von Swissdec zertifizierte Software, sind
+die jeweils gültigen Richtlinien von Swissdec massgebend für die Berechnung der abzuzie-
+henden Quellensteuer. Dabei kann für die Berechnung der Quellensteuer in besonderen Fäl-
+len und/oder Situationen in geringem Ausmass vom vorliegenden Kreisschreiben abgewi-
+chen werden.
+Der 13. Monatslohn wird im Jahresmodell bei der Berechnung der Quellensteuer mittels ei-
+ner von Swissdec zertifizierten Software abweichend vom vorliegenden Kreisschreiben be-
+rücksichtigt. Dabei wird der 13. Monatslohn erst bei dessen Auszahlung für die Ermittlung
+des satzbestimmenden Einkommens berücksichtigt (Realisationsprinzip). Das Vorgehen ist
+in den von den Steuerbehörden ausdrücklich genehmigten Richtlinien von Swissdec festge-
+halten.

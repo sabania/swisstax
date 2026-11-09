@@ -4,20 +4,23 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 54"
-seiten: "18"
+titel: "Rz 66–71 Ziffer 15 – mehrere Lohnausweise, Rektifikat, Teilzeit, Beteiligungen, Umzugskosten (Teil 1/2)"
+ziffer: "15 / 66–71"
+seiten: "19-20"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 18
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 15 Bemerkungen · S. 19–20
 
-<!-- Seite 18 -->
-Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
-
-genehmigten Spesenreglements nur die Pauschalspesen (vgl. Ziffer 13.2 des Lohnauswei
-ses) betragsmässig anzugeben. Vom Sitzkanton genehmigte Spesenreglemente werden von
-den anderen Kantonen ebenfalls anerkannt, sofern die Richtlinien der Mustervorlagen für
-Spesenreglemente vom 1. Februar 2024, gültig ab 1. Mai 2024, eingehalten sind.
-
-Unternehmen mit einem genehmigten Spesenreglement haben im Lohnausweis unter   60
-Ziffer 15 folgenden Vermerk anzubringen: «Spesenreglement durch Kanton XY (Auto
-kennzeichen des Kantons) am ... (Datum) genehmigt. »
+•   Mehrere Lohnausweise: Wurden vom Arbeitgeber für dasselbe Jahr ausnahmsweise   66
+    mehrere Lohnausweise ausgestellt, ist folgende Bemerkung anzubringen: «Einer von ...
+    Lohnausweisen» (vgl. Rz 7);
+•   Rektifikat: Wird ein bereits bestehender Lohnausweis für einen Arbeitnehmer ersetzt, ist   66a
+    im neuen Lohnausweis folgende Bemerkung anzubringen: «Dieser Lohnausweis ersetzt
+    den Lohnausweis vom XX.XX.XXXX»;
+•   Teilzeitanstellung: Wurde der Arbeitnehmer mit einem reduzierten Beschäftigungsgrad   67
+    angestellt, ist eine entsprechende Bemerkung, z. B. «Teilzeitbeschäftigung», anzubrin
+    gen.
+•   Mitarbeiterbeteiligungen: Wurde der Verkehrswert von den Steuerbehörden geneh   68
+    migt, ist folgender Vermerk anzubringen (vgl. Rz 29): «Verkehrswert durch Kanton XY
+    (Autokennzeichen des Kantons) am ... (Datum) genehmigt»:
+•   Wenn aus der Abgabe der Mitarbeiterbeteiligung noch kein steuerbares Einkommen   69

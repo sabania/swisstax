@@ -1,0 +1,157 @@
+{
+ "id": "bund-ks-w95-024",
+ "hinweise": [
+  "Seite 1: Fussnote 1 (Zeile 68-69) steht im Fliesstext; Ziffernnummerierung 'Kreisschreiben Nr. 24' mit Seitenzahl-Artefakt '1'.",
+  "Kopf-/Fusszeilen entfernt; Text sonst gut lesbar."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "titel": "Kreisschreiben Nr. 24 – Einleitung, Art. 20 Abs. 1 Bst. a DBG und Art. 205a DBG",
+   "pfad": [
+    "I. Allgemeines"
+   ],
+   "ziffer": "I",
+   "stichworte": [
+    "Kapitalversicherung Einmalprämie",
+    "Art. 20 DBG",
+    "Art. 205a DBG",
+    "Säule 3b",
+    "Lebensversicherung steuerfrei",
+    "60. Altersjahr"
+   ],
+   "positionen": [
+    "vermoegen.lebensversicherungen",
+    "einkommen.wertschriften"
+   ],
+   "zusammenfassung": "Wortlaut von Art. 20 Abs. 1 Bst. a DBG: Erträge aus rückkaufsfähigen Kapitalversicherungen mit Einmalprämie sind steuerfrei bei Auszahlung ab vollendetem 60. Altersjahr und mindestens fünfjährigem Vertragsverhältnis; Übergangsbestimmung Art. 205a für Verträge vor 1.1.1994."
+  },
+  {
+   "start": 72,
+   "titel": "Ziff. II.1 Rückkaufsfähige Kapitalversicherung – Begriff und Vorsorgezweck",
+   "pfad": [
+    "II. Artikel 20 Absatz 1 Buchstabe a",
+    "1. Rückkaufsfähige Kapitalversicherung"
+   ],
+   "ziffer": "II.1",
+   "stichworte": [
+    "rückkaufsfähige Kapitalversicherung",
+    "gemischte Versicherung",
+    "Vermögensanlage",
+    "Säule 3b",
+    "Vorsorge",
+    "Einmalprämie"
+   ],
+   "positionen": [
+    "vermoegen.lebensversicherungen",
+    "einkommen.wertschriften"
+   ],
+   "zusammenfassung": "Rückkaufsfähige Kapitalversicherungen mit Einmalprämie sind im Erlebensfall und bei Rückkauf steuerbar, soweit sie nicht der Vorsorge dienen; zwei Kategorien (a) Vorsorge steuerfrei, (b) andere besteuert."
+  },
+  {
+   "start": 115,
+   "titel": "Ziff. II.1.a Kapitalversicherungen mit Einmalprämie, die der Vorsorge dienen – Voraussetzungen",
+   "pfad": [
+    "II. Artikel 20 Absatz 1 Buchstabe a",
+    "1.a Vorsorge"
+   ],
+   "ziffer": "II.1.a",
+   "stichworte": [
+    "Vorsorgezweck",
+    "60. Altersjahr",
+    "fünf Jahre Vertragsdauer",
+    "steuerfreie Auszahlung",
+    "Todesfallschutz",
+    "kumulativ"
+   ],
+   "positionen": [
+    "vermoegen.lebensversicherungen",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Auszahlung nach vollendetem 60. Altersjahr und mindestens fünf Jahren Vertragsdauer (kumulativ) ist steuerfrei, sofern angemessener Versicherungsschutz für Erlebens- und Todesfall besteht."
+  },
+  {
+   "start": 139,
+   "titel": "Ziff. II.1.b Kapitalversicherungen mit Einmalprämie, die nicht der Vorsorge dienen",
+   "pfad": [
+    "II. Artikel 20 Absatz 1 Buchstabe a",
+    "1.b Nicht der Vorsorge dienend"
+   ],
+   "ziffer": "II.1.b",
+   "stichworte": [
+    "Erlebensfallversicherung mit Rückgewähr",
+    "terme fixe",
+    "Open end",
+    "Versicherung auf festen Termin",
+    "Anlagegeschäft",
+    "Überschussanteile"
+   ],
+   "positionen": [
+    "vermoegen.lebensversicherungen",
+    "einkommen.wertschriften"
+   ],
+   "zusammenfassung": "Erlebensfallversicherungen mit Rückgewähr, Versicherungen auf festen Termin und Open-end-Versicherungen gelten als verkappte Anlagegeschäfte und werden bei Auszahlung besteuert."
+  },
+  {
+   "start": 184,
+   "titel": "Ziff. II.2–3 Versicherte Person und Einmalprämie",
+   "pfad": [
+    "II. Artikel 20 Absatz 1 Buchstabe a",
+    "2. Versicherte Person / 3. Einmalprämie"
+   ],
+   "ziffer": "II.2–3",
+   "stichworte": [
+    "Versicherungsnehmer",
+    "versicherte Person",
+    "Versicherung auf zwei Leben",
+    "Ehegatten",
+    "flexible Versicherungsprodukte",
+    "periodische Prämie"
+   ],
+   "positionen": [
+    "vermoegen.lebensversicherungen"
+   ],
+   "zusammenfassung": "Versicherungsnehmer muss zugleich versicherte Person sein (Ausnahme: Ehegatten bei gemeinsamer Veranlagung); Einlagen ohne planmässige periodische Prämien gelten als Einmalprämien."
+  },
+  {
+   "start": 214,
+   "titel": "Ziff. II.4–5 Besteuerung der Erträge und Steuerumgehung (Fremdfinanzierung)",
+   "pfad": [
+    "II. Artikel 20 Absatz 1 Buchstabe a",
+    "4. Besteuerung / 5. Steuerumgehung"
+   ],
+   "ziffer": "II.4–5",
+   "stichworte": [
+    "Vermögensertrag",
+    "Differenz Einmalprämie Auszahlung",
+    "Rentensatz",
+    "Schuldzinsen Abzug verweigert",
+    "Steuerumgehung",
+    "Darlehen Finanzierung"
+   ],
+   "positionen": [
+    "einkommen.wertschriften",
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Steuerbar ist die Differenz zwischen Einmalprämie und ausbezahlter Leistung inkl. Überschussanteilen, ohne Rentensatz (Art. 37) oder Kapitalleistungssatz (Art. 38 DBG); bei Fremdfinanzierung kann der Schuldzinsenabzug wegen Steuerumgehung verweigert werden."
+  },
+  {
+   "start": 246,
+   "titel": "Ziff. III–V Art. 205a DBG Übergangsregelung, Aufhebung, Auskunftsstelle",
+   "pfad": [
+    "III. Artikel 205a DBG / IV. Aufhebung / V. Auskunftsstelle"
+   ],
+   "ziffer": "III–V",
+   "stichworte": [
+    "altrechtliche Kapitalversicherung",
+    "vor 1. Januar 1994",
+    "Übergangsregelung",
+    "Auskunftsstelle ESTV"
+   ],
+   "positionen": [
+    "vermoegen.lebensversicherungen"
+   ],
+   "zusammenfassung": "Bei vor dem 1.1.1994 abgeschlossenen Verträgen genügt für die Steuerfreiheit eine der Voraussetzungen: fünfjährige Vertragsdauer oder vollendetes 60. Altersjahr; das KS vom 21. Juni 1982 wird aufgehoben."
+  }
+ ]
+}

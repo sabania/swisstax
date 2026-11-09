@@ -4,22 +4,29 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 33"
-seiten: "11"
+titel: "Ziff. 6.2.2 Fusion verbundener Gesellschaften"
+ziffer: "6.2.2"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.2 Fusion · S. 16
 
-Die Besteuerung des Vermögensertrags aus einer indirekten Teilliquidation nach Artikel 20a
-Absatz 1 Buchstabe a DBG richtet sich nach der Verbuchung der Ausschüttung in der Kapi-
-talgesellschaft oder Genossenschaft, deren Beteiligungsrechte verkauft worden sind. Der
-steuerbare Anteil ist nach den in Ziffer 4.1. festgehaltenen Grundsätzen zu berechnen.
+6.2.2. Echte und unechte Fusion verbundener Gesellschaften
 
-4.2.5. Transponierung
+Siehe Ausführungen unter Ziffer 6.2.1. hiervor unter Beachtung folgender Besonderheiten:
 
-In Artikel 20a Absatz 1 Buchstabe b DBG werden die Steuerfolgen der Übertragung von
-Grund- oder Stammkapital einer Kapitalgesellschaft oder Genossenschaft aus dem Privat-
-ins Geschäftsvermögen einer Personenunternehmung oder juristischen Person, an welcher
-der Veräusserer oder Einbringer nach der Übertragung zu mindestens 50 Prozent am Kapital
-beteiligt ist, geregelt. Gleiches gilt sinngemäss auch, wenn mehrere Beteiligte die Übertra-
-gung gemeinsam vornehmen, d.h. eine gemeinsame Willensbildung vorliegt. Eine solche ist
+a)   Direkte Bundessteuer (Einkommenssteuer)
+
+Übernimmt eine Gesellschaft mit echter Unterbilanz durch Absorption die Aktiven und Passi-
+ven einer von den gleichen Gesellschaftern (Privatpersonen) beherrschten Gesellschaft mit
+Reserven und Gewinnvortrag, erlangen die Gesellschafter durch diese Sanierung nur dann
+einen geldwerten Vorteil gemäss Artikel 20 Absatz 1 Buchstabe c oder 20 Absatz 1bis DBG,
+wenn und soweit durch die Fusion übrige Reserven untergehen.
+
+Gleiches gilt für Vorteilszuwendungen an eine Schwestergesellschaft mit echter Unterbilanz.
+
+b)   Verrechnungssteuer
+
+Übernimmt eine Kapitalgesellschaft oder Genossenschaft mit echter Unterbilanz eine über
+Reserven verfügende Kapitalgesellschaft oder Genossenschaft oder umgekehrt, erlangen
+die Anteilsinhaber eine geldwerte Leistung im Umfang der untergehenden übrigen Reserven.

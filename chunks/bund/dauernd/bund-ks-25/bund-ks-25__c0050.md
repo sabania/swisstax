@@ -4,19 +4,21 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 50"
-seiten: "12"
+titel: "Anhang IV Erläuterungen zu den Gleichstellungsregeln (Teil 3/3)"
+ziffer: "Anhang IV"
+seiten: "16-17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang IV Gleichstellung · S. 16–17
 
-SICAF Société d’investissement à capital fixe; Investmentgesellschaft mit fixem Kapital
-SICAV Société d’investissement à capital variable; Investmentgesellschaft mit
-    variablem Kapital
-UA   Umsatzabgabe
-vgl.   vergleiche
-VStG   Bundesgesetz vom 13. Oktober 1965 über die Verrechnungssteuer (SR 642.21)
-VStV   Vollziehungsverordnung vom 19. Dezember 1966 zum Bundesgesetz über die Ver-
-    rechnungssteuer (SR 642.211)
-z.B.   zum Beispiel
-Ziff.   Ziffer
+Zu Ziffern 3 und 4: Das Vorliegen folgender Hilfskriterien weist daraufhin, dass es sich um
+eine kollektive Kapitalanlage handelt:
+       Beschränkte Laufzeit der Anlageform;
+       Vorhandensein eines Offering Memorandums;
+       keine oder sehr eingeschränkte Mitbestimmungsrechte der Anlegerinnen und des An-
+    legers;
+
+       Reporting / Berichterstattung erfolgt auf gleiche Weise wie bei beaufsichtigten, kol-
+    lektiven Kapitalanlagen;
+       die Anlageform verfügt über die typischen Funktionsträger wie Investment Manager,
+    Depotbank etc.

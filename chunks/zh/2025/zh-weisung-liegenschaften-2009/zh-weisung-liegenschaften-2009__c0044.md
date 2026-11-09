@@ -4,31 +4,27 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 44"
-seiten: "20"
+titel: "Anhang S. 21 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Andelfingen"
+ziffer: "13"
+seiten: "21"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 20
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser · S. 21
 
-Benken (ZH)   5   410   380   340   310   270   –   –
-Berg am Irchel   3   530   460   390   –   –   –   –
-Buch am Irchel   2   520   420   –   –   –   –   –
-Dachsen   3   480   390   300   –   –   –   –
-Dorf   3   550   450   350   –   –   –   –
-Feuerthalen   5   510   460   410   360   300   –   –
-Flaach   5   450   420   390   360   320   –   –
-Flurlingen   3   610   500   380   –   –   –   –
-Henggart   3   640   530   420   –   –   –   –
-Kleinandelfingen   5   620   560   490   430   360   –   –
-Laufen-Uhwiesen   5   580   520   460   400   340   –   –
-Marthalen   3   540   460   370   –   –   –   –
-Ossingen   4   600   480   350   230   –   –   –
-Rheinau   3   410   350   280   –   –   –   –
-Stammheim
-– Oberstammheim   3   460   400   330   –   –   –   –
- (ehemalige Gemeinde)
-– Unterstammheim   4   460   420   370   330   –   –   –
- (ehemalige Gemeinde)
-– Waltalingen   3   480   390   300   –   –   –   –
- (ehemalige Gemeinde)
-Thalheim an der Thur   3   530   430   330   –   –   –   –
+Obfelden   3   420   350   270   –   –   –   –
+Ottenbach   3   390   300   210   –   –   –   –
+Rifferswil   3   390   340   290   –   –   –   –
+Stallikon   3   520   430   340   –   –   –   –
+Wettswil am Albis   3   580   480   380   –   –   –   –
+Bezirk Andelfingen
+Andelfingen
+– Adlikon   3   300   250   190   –   –   –   –
+  (ehemalige Gemeinde)
+– Andelfingen   5   360   330   290   250   210   –   –
+  (ehemalige Gemeinde)
+– Humlikon   3   360   310   260   –   –   –   –
+  (ehemalige Gemeinde)
+Benken (ZH)   5   250   230   210   190   160   –   –
+Berg am Irchel   3   320   280   240   –   –   –   –
+Buch am Irchel   2   310   250   –   –   –   –   –
+Dachsen   3   290   240   180   –   –   –   –

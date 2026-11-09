@@ -1,0 +1,33 @@
+{
+ "id": "ar-mb-01",
+ "hinweise": [],
+ "chunks": [
+  {
+   "start": 17,
+   "skip": true,
+   "titel": "Titel und Adressblock"
+  },
+  {
+   "start": 40,
+   "titel": "Merkblatt 01 – Fahrkosten privates Fahrzeug, Höchstbetrag und Unzumutbarkeit ÖV",
+   "pfad": [
+    "Fahrt zum Arbeitsort"
+   ],
+   "ziffer": "Art. 29 Abs. 1 lit. a StG",
+   "stichworte": [
+    "Pendlerabzug",
+    "Fahrkosten",
+    "Arbeitsweg",
+    "Auto",
+    "Velo",
+    "Motorrad",
+    "öffentlicher Verkehr",
+    "Park and Ride"
+   ],
+   "positionen": [
+    "abzug.berufskosten.fahrkosten"
+   ],
+   "zusammenfassung": "Kosten privater Fahrzeuge bis Höchstbetrag Fr. 6‘000 abziehbar, wenn kein ÖV verfügbar oder zumutbar (z.B. über 15 Minuten Fussmarsch, Mehraufwand 60 Minuten pro Tag)."
+  }
+ ]
+}

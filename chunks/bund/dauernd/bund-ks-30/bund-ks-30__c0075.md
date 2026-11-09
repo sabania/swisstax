@@ -4,34 +4,23 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 13.2–13.3 Grundtarif und Verheiratetentarif – Anwendungsbereich"
-ziffer: "13.2"
-seiten: "23"
+titel: "Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder (Teil 2/3)"
+ziffer: "13.4.1"
+seiten: "23-24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.2 Grundtarif / 13.3 Verheiratetentarif · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.1 Allgemeines · S. 23–24
 
-13.2   Grundtarif
-
-Der Grundtarif (Art.36 Abs. 1 DBG) als Auffangtarif gilt für alle steuerpflichtigen Personen,
-die nicht die Voraussetzungen der Spezialtarife von Absatz 2 und 2 bis erfüllen. Darunter fal-
-len namentlich die folgenden Kategorien von Steuerpflichtigen:
-
-      Ledige oder verwitwete Alleinstehende
-      Gerichtlich oder tatsächlich getrennt lebende oder geschiedene Personen, die nicht
-    mit Kindern oder unterstützungsbedürftigen Personen im gleichen Haushalt leben
-      Konkubinatspaare ohne Kinder
-      Konkubinatspartner, die zwar mit ihrem Kind zusammenleben, jedoch nicht über die
-    elterliche Sorge verfügen und den Unterhalt des Kindes nicht zur Hauptsache bestrei-
-    ten.
-
-
-13.3   Verheiratetentarif
-
-Der Verheiratetentarif gemäss Artikel 36 Absatz 2 DBG kommt für sich allein nur noch für die
-in rechtlich und tatsächlich ungetrennter Ehe lebenden Steuerpflichtigen zur Anwendung, die
-nicht mit Kindern oder unterstützungsbedürftigen Personen zusammenleben, deren Unterhalt
-sie zur Hauptsache bestreiten.
-
-Leben die Ehegatten getrennt, kommt je nach Konstellation der Grundtarif oder - wenn ein
-Ehegatte mit einem Kind zusammenlebt - der Elterntarif zur Anwendung.
+Beim Zusammenleben wird auf den Wohnsitz abgestellt. Gemäss Artikel 25 Absatz 1 ZGB
+gilt der Wohnsitz der Eltern als Wohnsitz des Kindes unter elterlicher Sorge oder, wenn die
+Eltern keinen gemeinsamen Wohnsitz haben, der Wohnsitz des Elternteils, unter dessen
+Obhut das Kind steht. Sobald das Kind volljährig ist, kann es einen eigenen Wohnsitz be-
+gründen. Bei volljährigen Kindern in Ausbildung erhalten die Eltern den Elterntarif daher nur,
+wenn das Kind im gleichen Haushalt wohnt. Befindet sich die Ausbildungsstätte des Kindes
+an einem anderen Ort als am Wohnsitz der Eltern, kann der Elterntarif nur gewährt werden,
+wenn das Kind Wochenaufenthalter am Ausbildungsort ist, seinen Wohnsitz jedoch bei den
+Eltern beibehalten hat. Bei einer Berufslehre oder einem Studium dürfte dies in der Regel der
+Fall sein, da gemäss Art. 26 ZGB der Aufenthalt an einem Orte zum Zweck des Besuches
+einer Lehranstalt keinen Wohnsitz begründet. Hat das volljährige Kind seinen Wohnsitz je-
+doch verlegt, werden die Eltern - auch wenn sie das Kind unterstützen - zum Verheirateten-
+tarif, –und wenn sie nicht verheiratet sind, zum Grundtarif besteuert.

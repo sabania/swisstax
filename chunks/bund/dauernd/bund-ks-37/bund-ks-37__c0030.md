@@ -4,24 +4,27 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 30"
-seiten: "7"
+titel: "Ziff. 4 Besteuerung von Mitarbeiteroptionen – freie börsenkotierte und übrige"
+ziffer: "4 / 4.1 / 4.2"
+seiten: "10-11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 37 · 4 Besteuerung von Mitarbeiteroptionen · S. 10–11
 
-<!-- Seite 7 -->
-3.2   Verkehrswert
+4   Besteuerung von Mitarbeiteroptionen (Art. 17b DBG)
+4.1   Freie börsenkotierte Mitarbeiteroptionen
+Freie börsenkotierte Mitarbeiteroptionen werden im Zeitpunkt der Abgabe besteuert. Werden
+solche Mitarbeiteroptionen unentgeltlich oder zu Vorzugsbedingungen abgegeben, stellt die
+positive Differenz zwischen dem Verkehrswert und dem Abgabepreis bei den Mitarbeitenden
+einen geldwerten Vorteil und damit Einkommen aus unselbständiger Erwerbstätigkeit dar
+(vgl. Art. 17b Abs. 1 DBG).
 
-3.2.1 Börsenkotierte Mitarbeiteraktien
-Bei börsenkotierten Mitarbeiteraktien gilt als Verkehrswert grundsätzlich der Börsenschluss-
-kurs am Tage des Rechtserwerbs.
+In Bezug auf den Verkehrswert der Mitarbeiteroptionen gelten die Bestimmungen gemäss
+Ziffer 3.2.1 dieses Kreisschreibens sinngemäss.
 
-Der Rechtserwerb von Mitarbeiteraktien erfolgt regelmässig in einem Zeitpunkt, in welchem
-der Mitarbeitende das Angebot des Arbeitgebers zum Bezug von Aktien annimmt. Insbeson-
-dere aus administrativen Gründen kann der Beteiligungsplan eine bestimmte Bezugsfrist vor-
-sehen, während welcher der Mitarbeitende die Annahme der Offerte bestätigen muss. Lie-
-gen solche Bezugsfristen vor, gilt Folgendes:
+4.2   Übrige Mitarbeiteroptionen
+Sämtliche Mitarbeiteroptionen, die nicht gemäss Ziffer 4.1 hievor bei Abgabe zu besteuern
+sind, werden im Zeitpunkt der Veräusserung oder der Ausübung besteuert (vgl. Art. 17b
 
-       Bei Bezugsfristen von mehr als 60 Kalendertagen gilt als steuerlich massgebender
-    Verkehrswert der Schlusskurs am Tage der Annahme der Offerte.
+Abs. 3 DBG). Steuerbar ist der gesamte Veräusserungserlös bzw. Ausübungsgewinn nach
+Abzug allfälliger Gestehungskosten.

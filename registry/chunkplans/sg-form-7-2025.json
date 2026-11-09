@@ -1,0 +1,91 @@
+{
+ "id": "sg-form-7-2025",
+ "hinweise": [
+  "Formularraster; Marginalspalte und Hauptspalte vermischt, Eingabefelder leer (S.1-2)."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Teil A Angaben zur Liegenschaft / Steuerwert (Übertrag Seite 4 Ziff. 31)",
+   "pfad": [
+    "Vorderseite",
+    "A. Angaben zur Liegenschaft"
+   ],
+   "stichworte": [
+    "Liegenschaft",
+    "Steuerwert",
+    "Einfamilienhaus",
+    "Stockwerkeigentum",
+    "Zugang Wegfall",
+    "Formular 7Z"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Angaben zu Art, Nutzung, Anteil und Steuerwert; Übertrag in Steuererklärung Seite 4 Ziffer 31, bei mehreren Liegenschaften in Formular 7 Z.",
+   "ziffer": "A"
+  },
+  {
+   "start": 59,
+   "titel": "Teil B Erträge: Eigenmietwert (Abzug 30%) und Fremdnutzung (Ziff. 5)",
+   "pfad": [
+    "Vorderseite",
+    "B. Erträge"
+   ],
+   "stichworte": [
+    "Eigenmietwert",
+    "Abzug 30%",
+    "Unternutzungsabzug",
+    "Mietzinsen",
+    "Härtefallabzug",
+    "Formular 7M"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "einkommen.liegenschaften.mietertrag"
+   ],
+   "zusammenfassung": "Abzug von 30% nur für dauernd selbstbewohnte Liegenschaft am Wohnort; Total Erträge Übertrag in Steuererklärung Seite 2 Ziffer 5.",
+   "ziffer": "B"
+  },
+  {
+   "start": 89,
+   "titel": "Teil C Unterhalts- und Verwaltungskosten: Pauschalabzug 20% (Ziff. 15)",
+   "pfad": [
+    "Vorderseite",
+    "C. Unterhalts- und Verwaltungskosten"
+   ],
+   "stichworte": [
+    "Pauschalabzug 20%",
+    "Unterhaltskosten",
+    "tatsächliche Kosten",
+    "Liegenschaftsunterhalt"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Pauschalabzug 20% der Erträge (B) nur für private Wohnliegenschaften; Übertrag Steuererklärung Seite 3 Ziffer 15.",
+   "ziffer": "C"
+  },
+  {
+   "start": 103,
+   "titel": "Rückseite: Tatsächliche Unterhalts- und Verwaltungskosten (C2)",
+   "pfad": [
+    "Rückseite",
+    "Tatsächliche Kosten"
+   ],
+   "stichworte": [
+    "Rechnungen",
+    "Anlagekosten",
+    "Förderbeiträge",
+    "Versicherungsleistungen",
+    "Energiesparmassnahmen"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Nur selbst bezahlte Kosten abzugsfähig; Förderbeiträge und Versicherungsleistungen sind abzuziehen; Total C2 Übertrag Seite 3 Ziffer 15.",
+   "ziffer": "C2"
+  }
+ ]
+}

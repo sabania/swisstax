@@ -4,22 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 48"
-seiten: "11"
+titel: "Ziff. 4.5 Grenzgänger aus Italien (Tarifcode F)"
+ziffer: "4.5"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.5 Grenzgänger aus Italien · S. 16
 
-     Reglementarische Leistungen des Arbeitgebers an rein patronal finanzierte Vorsorge-
-    einrichtungen;
-     Beiträge des Arbeitgebers an die obligatorische Unfallversicherung nach dem Bundes-
-    gesetz vom 20. März 1981 über die Unfallversicherung (UVG; SR 832.20), an die Be-
-    rufsunfallversicherung (BUV) und die Nichtberufsunfallversicherung (NBUV) sowie
-     Beiträge für vom Arbeitgeber abgeschlossene Kollektivkrankentaggeld- und Kollektiv-
-    UVG-Zusatzversicherungen.
-In den Quellensteuertarifen sind pauschale Abzüge für die ordentlichen Arbeitnehmerbei-
-träge an die berufliche Vorsorge (BVG) und die NBUV enthalten. Sieht das Reglement eine
-davon abweichende Aufteilung der Beiträge zwischen Arbeitgeber und Arbeitnehmer vor, er-
-folgt keine Korrektur des im Quellensteuertarif eingerechneten Abzugs.
-Vereinbart der Arbeitgeber mit einem vorübergehend in die Schweiz entsandten Arbeitneh-
-mer, dass dieser durch die unterschiedliche Steuerbelastung zwischen dem ursprünglichen
+4.5   Tarif für Grenzgänger aus Italien (Tarifcode F)
+Der Tarifcode F kommt zur Anwendung für Grenzgänger aus Italien, welche im Sinne der
+Vereinbarung vom 3. Oktober 1974 zwischen der Schweiz und Italien über die Besteuerung
+der Grenzgänger und den finanziellen Ausgleich zugunsten der italienischen Grenzgemein-
+den (SR 0.642.045.43) in einer italienischen Grenzgemeinde leben und deren Ehemann oder
+Ehefrau ausserhalb der Schweiz erwerbstätig ist. Das ausserhalb der Schweiz erzielte Er-
+werbseinkommen wird bei der Berechnung des satzbestimmenden Einkommens nicht be-
+rücksichtigt (vgl. hierzu die Erläuterungen zur Änderung der QStV vom 25. Februar 2013, S.
+5 – 6 in: https://www.newsd.admin.ch/newsd/message/attachments/29836.pdf). Der Ta-
+rifcode F kommt nur in den Kantonen Tessin, Wallis und Graubünden zur Anwendung.

@@ -4,7 +4,7 @@ quelle: zh-stg-2025
 jur: zh
 jahre: [2025]
 typ: gesetz
-titel: "§ 241a StG ZH – 2. Selbstanzeige (Teil 2/3)"
+titel: "§ 241a StG ZH – 2. Selbstanzeige (Teil 2/2)"
 artikel: "§ 241a"
 seiten: "83-84"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
@@ -20,3 +20,5 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 **Abs. 4** Zeigt ein ausgeschiedenes Organmitglied oder ein ausgeschiedener Vertreter der juristischen Person diese wegen Steuerhinterziehun g erstmals an und ist die Steuerhinterziehung keiner Steuerbehörde bekannt, wird von einer Strafverfolgung der juristischen Person, sämtlicher aktueller und ausgeschiedener Mitglieder der Organe und sämtlicher aktueller und ausgeschiedener Vertreter abgesehen. Ihre Solidarhaftung entfällt.
 
 **Abs. 5** Bei jeder weiteren Selbstanzeige wird die Busse unter den Voraussetzungen nach Abs. 1 auf einen Fünftel der hinterzogenen Steuer ermässigt.
+
+**Abs. 6** Nach Beendigung der Steuerpflicht einer juristischen Person i n der Schweiz kann keine Selbstanzeige mehr eingereicht werden.

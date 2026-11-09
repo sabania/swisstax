@@ -4,28 +4,20 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 33"
-seiten: "12"
+titel: "Rz 38 Ziffer 7 – Arbeitgeberbeiträge an Säule 3a"
+ziffer: "7 / 38"
+seiten: "13-14"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 12
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 7 Andere Leistungen · S. 13–14
 
-<!-- Seite 12 -->
+•   Alle vom Arbeitgeber für seinen Arbeitnehmer erbrachten Beiträge an anerkannte   38
+    Formen der gebundenen Selbstvorsorge (Säule 3a). Dies gilt unabhängig davon,
+    ob diese dem Arbeitnehmer vom Lohn abgezogen und anschliessend einbezahlt
+    oder vom Arbeitgeber direkt zu Gunsten des Arbeitnehmers einbezahlt worden
+    sind. Diese Beiträge dürfen vom Arbeitgeber nicht im Lohnausweis abgezogen werden,
+    sondern sind ausnahmslos von der Versicherungseinrichtung oder Bankstiftung in einer
+    besonderen Bescheinigung (Formular 21 EDP dfi) dem Vorsorgenehmer auszuweisen.
+    ESTV   Seite 13 / 25
+
 Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
-
-    Ziffer 3 aufzuführen (vgl. Art. 2 Abs. 3 Bst. b ExpaV).
-
-Werden solche Leistungen vor oder nach der Zeit ausbezahlt, in welcher der Arbeitnehmer
-Wohnsitz in der Schweiz hatte, so sind sie ebenfalls in diesem Feld zu bescheinigen. Sie
-unterliegen allenfalls der Quellensteuer.
-
-Kapitalleistungen   Ziffer 4
-
-Auf dieser Zeile ist vorab die Art bzw. der Grund der Kapitalleistung anzugeben, die dem Ar   28
-beitnehmer ausbezahlt wird. Möglicherweise erfolgt die Besteuerung zu einem reduzierten
-Steuersatz (z. B. Kapitalleistung für Vorsorge). Zusätzlich ist im entsprechenden Feld der Be
-trag dieser Leistung einzutragen (wie bei mehreren Leistungen vorzugehen ist, vgl. Rz 26).
-Als solche Kapitalleistungen fallen in Betracht:
-•   Abgangsentschädigungen mit Vorsorgecharakter;
-•   Kapitalleistungen mit Vorsorgecharakter;
-•   Lohnnachzahlungen (inkl. Lohnnachgenuss) usw.

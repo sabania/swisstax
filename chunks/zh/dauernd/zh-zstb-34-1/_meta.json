@@ -322,11 +322,11 @@
 },
 {
 "id": "zh-zstb-34-1__c0019",
-"titel": "II. Unterstützungsabzug",
+"titel": "III. Kinderdrittbetreuungskostenabzug",
 "pfad": [
 "ZStB 34.1: Sozialabzüge und Steuertarife (ab 2026)",
 "B. Kinderabzug, Unterstützungsabzug und Kinderdrittbetreuungskostenabzug",
-"II. Unterstützungsabzug"
+"III. Kinderdrittbetreuungskostenabzug"
 ],
 "seiten": [],
 "artikel": null,
@@ -466,11 +466,11 @@
 },
 {
 "id": "zh-zstb-34-1__c0027",
-"titel": "III. Kinderdrittbetreuungskostenabzug",
+"titel": "I. Grundsatz",
 "pfad": [
 "ZStB 34.1: Sozialabzüge und Steuertarife (ab 2026)",
-"B. Kinderabzug, Unterstützungsabzug und Kinderdrittbetreuungskostenabzug",
-"III. Kinderdrittbetreuungskostenabzug"
+"C. Steuertarife",
+"I. Grundsatz"
 ],
 "seiten": [],
 "artikel": null,
@@ -484,11 +484,11 @@
 },
 {
 "id": "zh-zstb-34-1__c0028",
-"titel": "I. Grundsatz",
+"titel": "II. Die anwendbaren Tarife",
 "pfad": [
 "ZStB 34.1: Sozialabzüge und Steuertarife (ab 2026)",
 "C. Steuertarife",
-"I. Grundsatz"
+"II. Die anwendbaren Tarife"
 ],
 "seiten": [],
 "artikel": null,
@@ -592,24 +592,6 @@
 },
 {
 "id": "zh-zstb-34-1__c0034",
-"titel": "II. Die anwendbaren Tarife",
-"pfad": [
-"ZStB 34.1: Sozialabzüge und Steuertarife (ab 2026)",
-"C. Steuertarife",
-"II. Die anwendbaren Tarife"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-34-1__c0033",
-"nachher": "zh-zstb-34-1__c0035"
-},
-{
-"id": "zh-zstb-34-1__c0035",
 "titel": "III. Heirat, Scheidung und Trennung",
 "pfad": [
 "ZStB 34.1: Sozialabzüge und Steuertarife (ab 2026)",
@@ -623,7 +605,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-34-1__c0034",
+"vorher": "zh-zstb-34-1__c0033",
 "nachher": null
 }
 ]

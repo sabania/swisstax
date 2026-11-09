@@ -1,0 +1,1103 @@
+{
+ "id": "bund-ks-29c",
+ "hinweise": [
+  "S. 1-3: Inhaltsverzeichnis mit Punktlinien (übersprungen).",
+  "S. 4: Hochgestellte Absatzziffern (1septies, 8) im Gesetzestext vermischt dargestellt.",
+  "S. 9: Beispiel Gewinnverwendung als einfache Zahlenspalten.",
+  "S. 28-37 (Anhänge): Bilanz-/Zahlentabellen im Layout verflacht, Spaltenköpfe nur teilweise nachvollziehbar.",
+  "S. 35/36: Anhang 4 Beispiel 2 und 3 überlagert: Tabellen- und Textzeilen von Beispiel 3 mitten in Beispiel 2 vermischt (Zeilen 1539-1552).",
+  "Dokument betrifft juristische Personen (Kapitaleinlageprinzip); für natürliche Personen relevant als Aktionärsbesteuerung (Dividenden, Verrechnungssteuer, Transponierung)."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt und Inhaltsverzeichnis"
+  },
+  {
+   "start": 144,
+   "titel": "Ziff. 1 Gegenstand – Kapitaleinlageprinzip (UStR II, STAF, Kapitalband)",
+   "pfad": [
+    "KS 29c",
+    "1 Gegenstand"
+   ],
+   "stichworte": [
+    "Kapitaleinlageprinzip",
+    "KER",
+    "Reserven aus Kapitaleinlagen",
+    "Rückzahlung steuerfrei",
+    "Art. 20 Abs. 3 DBG",
+    "Art. 5 Abs. 1bis VStG",
+    "STAF 2020"
+   ],
+   "zusammenfassung": "Rückzahlungen von Reserven aus Kapitaleinlagen werden der Rückzahlung von Grund- oder Stammkapital gleichgestellt (Art. 20 Abs. 3 DBG, Art. 5 Abs. 1bis VStG); STAF und Kapitalband haben Auswirkungen.",
+   "ziffer": "1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 167,
+   "titel": "Ziff. 1 Neue Bestimmungen Art. 20 Abs. 8 DBG und Art. 5 Abs. 1septies VStG (Kapitalband)",
+   "pfad": [
+    "KS 29c",
+    "1 Gegenstand"
+   ],
+   "stichworte": [
+    "Kapitalband",
+    "Art. 653s OR",
+    "Nettobetrachtung",
+    "Art. 20 Abs. 8 DBG"
+   ],
+   "zusammenfassung": "Einlagen und Aufgelder während eines Kapitalbands zählen nur, soweit sie die Rückzahlungen im Rahmen dieses Kapitalbands übersteigen.",
+   "ziffer": "1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 192,
+   "titel": "Ziff. 2.1 Kapitaleinlagen – Grundsätze, KER und Ausland-KER, Währungsumrechnung",
+   "pfad": [
+    "KS 29c",
+    "2 Kapitaleinlagen",
+    "2.1 Grundsätze"
+   ],
+   "stichworte": [
+    "Kapitaleinlageprinzip",
+    "KER",
+    "Reserven aus Kapitaleinlagen",
+    "Ausland-KER",
+    "offene Kapitaleinlagen",
+    "Fremdwährung",
+    "gesonderter Ausweis"
+   ],
+   "zusammenfassung": "Direkt von den Inhabern der Beteiligungsrechte geleistete, offen ausgewiesene Einlagen, Aufgelder und Zuschüsse gelten als KER; Fremdwährungseinlagen werden zum Tageskurs umgerechnet.",
+   "ziffer": "2.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 227,
+   "titel": "Ziff. 2.2 Spezialfälle – Schwestergesellschaften, Tochter-Liberierung, Sanierung",
+   "pfad": [
+    "KS 29c",
+    "2 Kapitaleinlagen",
+    "2.2 Spezialfälle"
+   ],
+   "stichworte": [
+    "Vorteilszuwendung Schwestergesellschaft",
+    "Sanierung",
+    "Forderungsverzicht",
+    "Agio",
+    "Liberierung"
+   ],
+   "zusammenfassung": "Vorteilszuwendungen unter Schwestergesellschaften und erfolgswirksam gebuchte Sanierungsleistungen gelten nie als KER.",
+   "ziffer": "2.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 257,
+   "titel": "Ziff. 3.1 Reserven aus Kapitaleinlagen – steuerneutrale Gutschrift, Kapitalband",
+   "pfad": [
+    "KS 29c",
+    "3 Reserven",
+    "3.1 Reserven aus Kapitaleinlagen"
+   ],
+   "stichworte": [
+    "Kapitaleinlageprinzip",
+    "KER",
+    "Reserven aus Kapitaleinlagen",
+    "Verluste",
+    "Nettobetrachtung",
+    "Wiedereinzahlung",
+    "1. Januar 2011"
+   ],
+   "zusammenfassung": "Offene Kapitaleinlagen können steuerneutral den KER gutgeschrieben werden; Rückzahlungen sind der Rückzahlung von Grund- oder Stammkapital gleichgestellt.",
+   "ziffer": "3.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 284,
+   "titel": "Ziff. 3.2 Übrige Reserven – keine Umqualifikation in KER",
+   "pfad": [
+    "KS 29c",
+    "3 Reserven",
+    "3.2 Übrige Reserven"
+   ],
+   "stichworte": [
+    "übrige Reserven",
+    "thesaurierte Gewinne",
+    "verdeckte Kapitaleinlagen",
+    "Umqualifikation unzulässig"
+   ],
+   "zusammenfassung": "Gewinne, verdeckte Kapitaleinlagen und nicht direkt von Beteiligungsinhabern stammende Einlagen sind übrige Reserven; eine Umqualifikation in KER wird nicht anerkannt.",
+   "ziffer": "3.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 293,
+   "titel": "Ziff. 4.1 Ausschüttungen allgemein – Grundsätze, steuerbarer Teil",
+   "pfad": [
+    "KS 29c",
+    "4 Ausschüttungen",
+    "4.1 Grundsätze"
+   ],
+   "stichworte": [
+    "Dividende",
+    "Ausschüttung",
+    "steuerbarer Teil",
+    "quellenmässige Betrachtung",
+    "Gewinnverwendungsbeschluss"
+   ],
+   "zusammenfassung": "Ausschüttungen sind in dem Umfang steuerbar, als sie auf übrige Reserven entfallen; die Aufteilung erfolgt nach freiem Ermessen aufgrund der Verbuchung in der Handelsbilanz.",
+   "ziffer": "4.1",
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 317,
+   "titel": "Ziff. 4.1 Beispiel Aufteilung der Ausschüttung (Dividende 2000, KER 15% / übrige 85%)",
+   "pfad": [
+    "KS 29c",
+    "4 Ausschüttungen",
+    "4.1 Grundsätze"
+   ],
+   "stichworte": [
+    "Beispiel Dividende",
+    "Anteil KER",
+    "Coupon",
+    "Verrechnungssteuer"
+   ],
+   "zusammenfassung": "Beispiel: Total Ausschüttung 2000, davon KER 300 (15%) und übrige Reserven 1700 (85%); KER-Rückzahlungen sind gesondert auszuweisen.",
+   "ziffer": "4.1",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 340,
+   "titel": "Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen",
+   "pfad": [
+    "KS 29c",
+    "4 Ausschüttungen",
+    "4.1 Grundsätze"
+   ],
+   "stichworte": [
+    "Verrechnungssteuer",
+    "verdeckte Gewinnausschüttung",
+    "ausländische Gesellschaft",
+    "Vorzugsaktien",
+    "Art. 20 Abs. 1 Bst. c DBG"
+   ],
+   "zusammenfassung": "Rückzahlungen aus KER unterliegen weder Einkommens- noch Verrechnungssteuer; Ausschüttungen aus übrigen Reserven und verdeckte Gewinnausschüttungen sind steuerbar.",
+   "ziffer": "4.1",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 368,
+   "titel": "Ziff. 4.1 Einlagen während Kapitalband erst nach dessen Ende als KER bestätigt",
+   "pfad": [
+    "KS 29c",
+    "4 Ausschüttungen",
+    "4.1 Grundsätze"
+   ],
+   "stichworte": [
+    "Kapitalband",
+    "Bestätigung KER",
+    "Nettobetrachtung"
+   ],
+   "zusammenfassung": "Einlagen während eines Kapitalbands können erst nach dessen Beendigung als KER bestätigt und steuerfrei zurückbezahlt werden.",
+   "ziffer": "4.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 375,
+   "titel": "Ziff. 4.2.1–4.2.2 Gratisaktien, Gratisnennwerterhöhungen und direkte Teilliquidation",
+   "pfad": [
+    "KS 29c",
+    "4 Ausschüttungen",
+    "4.2 Spezialfälle"
+   ],
+   "stichworte": [
+    "Gratisaktien",
+    "Gratisnennwerterhöhung",
+    "Teilliquidation",
+    "Liberierung"
+   ],
+   "zusammenfassung": "Gratisaktien zu Lasten übriger Reserven sind steuerbar; zu Lasten der KER weder einkommens- noch verrechnungssteuerpflichtig.",
+   "ziffer": "4.2.1–4.2.2",
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 396,
+   "titel": "Ziff. 4.2.3 Rückkauf eigener Beteiligungsrechte",
+   "pfad": [
+    "KS 29c",
+    "4 Ausschüttungen",
+    "4.2 Spezialfälle"
+   ],
+   "stichworte": [
+    "Aktienrückkauf",
+    "eigene Aktien",
+    "Art. 4a VStG",
+    "Minusposten"
+   ],
+   "zusammenfassung": "Ausweis eigener Beteiligungsrechte als Minusposten gegen KER vermeidet Einkommens- und Verrechnungssteuerfolgen bei Vernichtung oder Fristablauf nach Art. 4a VStG.",
+   "ziffer": "4.2.3",
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 416,
+   "titel": "Ziff. 4.2.4 Indirekte Teilliquidation",
+   "pfad": [
+    "KS 29c",
+    "4 Ausschüttungen",
+    "4.2 Spezialfälle"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a Abs. 1 Bst. a DBG",
+    "Verkauf Beteiligung"
+   ],
+   "zusammenfassung": "Die Besteuerung der indirekten Teilliquidation richtet sich nach der Verbuchung der Ausschüttung; der steuerbare Anteil wird nach Ziff. 4.1 berechnet.",
+   "ziffer": "4.2.4",
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 423,
+   "titel": "Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG)",
+   "pfad": [
+    "KS 29c",
+    "4 Ausschüttungen",
+    "4.2 Spezialfälle"
+   ],
+   "stichworte": [
+    "Transponierung",
+    "Privat- ins Geschäftsvermögen",
+    "50 Prozent",
+    "Vermögensumschichtung",
+    "Mehrwert"
+   ],
+   "zusammenfassung": "Bei Übertragung ins Geschäftsvermögen mit mindestens 50 Prozent Beteiligung ist der den Nennwert zuzüglich KER übersteigende Erlös Ertrag aus beweglichem Vermögen.",
+   "ziffer": "4.2.5",
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 471,
+   "titel": "Ziff. 5 und 5.1 Kotierte Gesellschaften – Ausschüttungsregel (STAF)",
+   "pfad": [
+    "KS 29c",
+    "5 Kotierte Gesellschaften",
+    "5.1 Ausschüttungsregel"
+   ],
+   "stichworte": [
+    "Publikumsgesellschaft",
+    "Ausschüttungsregel",
+    "Art. 20 Abs. 4 DBG",
+    "Art. 5 Abs. 1ter VStG",
+    "kotierte Aktiengesellschaft"
+   ],
+   "zusammenfassung": "Kotierte Gesellschaften müssen mindestens im gleichen Umfang wie KER auch übrige steuerbare Reserven ausschütten, solange solche vorhanden sind.",
+   "ziffer": "5, 5.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 493,
+   "titel": "Ziff. 5.1.2 Regelverletzung der Ausschüttungsregel – halbe Differenz steuerbar",
+   "pfad": [
+    "KS 29c",
+    "5 Kotierte Gesellschaften",
+    "5.1 Ausschüttungsregel"
+   ],
+   "stichworte": [
+    "Regelverletzung",
+    "halbe Differenz",
+    "Verschiebung steuerfreier Rückzahlung"
+   ],
+   "zusammenfassung": "Bei Verletzung der Ausschüttungsregel ist die halbe Differenz zwischen Rückzahlung von KER und übrigen Reserven steuerbar, höchstens bis zu den ausschüttungsfähigen übrigen Reserven.",
+   "ziffer": "5.1.2",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 506,
+   "titel": "Ziff. 5.1.3 Ausland-KER nach Art. 5 Abs. 1quater Bst. a und b VStG",
+   "pfad": [
+    "KS 29c",
+    "5 Kotierte Gesellschaften",
+    "5.1 Ausschüttungsregel"
+   ],
+   "stichworte": [
+    "Ausland-KER",
+    "fusionsähnlicher Zusammenschluss",
+    "24. Februar 2008",
+    "grenzüberschreitend"
+   ],
+   "zusammenfassung": "Ausland-KER sind offen geleistete Kapitaleinlagen aus fusionsähnlichen Zusammenschlüssen nach dem 24. Februar 2008 oder bereits im Ausland vorhandene, nach dem 31. Dezember 1996 geleistete Einlagen.",
+   "ziffer": "5.1.3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 522,
+   "titel": "Ziff. 5.1.4–5.1.5 Ausnahmen von der Ausschüttungsregel; Gratisaktien",
+   "pfad": [
+    "KS 29c",
+    "5 Kotierte Gesellschaften",
+    "5.1 Ausschüttungsregel"
+   ],
+   "stichworte": [
+    "Ausnahmen",
+    "Ausland-KER Rückzahlung",
+    "10 Prozent Beteiligung",
+    "Liquidation",
+    "Gratisaktien"
+   ],
+   "zusammenfassung": "Die Ausschüttungsregel gilt nicht für Ausland-KER und (Verrechnungssteuer) nicht bei Rückzahlung an juristische Personen mit mindestens 10 Prozent Beteiligung.",
+   "ziffer": "5.1.4–5.1.5",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 544,
+   "titel": "Ziff. 5.2 Teilliquidationsregel und Regelverletzung (5.2.1)",
+   "pfad": [
+    "KS 29c",
+    "5 Kotierte Gesellschaften",
+    "5.2 Teilliquidationsregel"
+   ],
+   "stichworte": [
+    "Teilliquidationsregel",
+    "Art. 20 Abs. 7 DBG",
+    "Art. 4a Abs. 4 VStG",
+    "Hälfte des Liquidationsüberschusses",
+    "Aktienrückkauf zweite Handelslinie"
+   ],
+   "zusammenfassung": "Kotierte Gesellschaften müssen bei Teilliquidation mindestens die Hälfte des Liquidationsüberschusses den KER oder Ausland-KER belasten.",
+   "ziffer": "5.2",
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 561,
+   "titel": "Ziff. 6.1 Übertragung eines Betriebs einer Personenunternehmung auf juristische Person",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.1 Betriebsübertragung"
+   ],
+   "stichworte": [
+    "Umstrukturierung",
+    "Einzelfirma Umwandlung",
+    "Sperrfristverletzung",
+    "Buchwertübernahme"
+   ],
+   "zusammenfassung": "Der Aktivenüberschuss bei Buchwertübernahme kann steuerneutral als KER ausgewiesen werden; bei Sperrfristverletzung (Nachsteuerverfahren) nicht.",
+   "ziffer": "6.1",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 576,
+   "titel": "Ziff. 6.2.1 Fusion unabhängiger Gesellschaften – Einkommenssteuer und Verrechnungssteuer",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.2 Fusion"
+   ],
+   "stichworte": [
+    "Fusion",
+    "Fusionsagio",
+    "Ausgleichszahlung",
+    "Nennwertgewinn",
+    "Verrechnungssteuer"
+   ],
+   "zusammenfassung": "Das Fusionsagio ist nur insoweit KER, als es aus Grund- oder Stammkapital bzw. KER der übernommenen Gesellschaft stammt; Vermögensertrag entsteht bei Zuflüssen zu Lasten übriger Reserven.",
+   "ziffer": "6.2.1",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 610,
+   "titel": "Ziff. 6.2.2 Fusion verbundener Gesellschaften",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.2 Fusion"
+   ],
+   "stichworte": [
+    "Fusion verbundene Gesellschaften",
+    "echte Unterbilanz",
+    "Sanierung",
+    "untergehende Reserven"
+   ],
+   "zusammenfassung": "Geldwerter Vorteil nur, wenn und soweit durch die Fusion übrige Reserven untergehen.",
+   "ziffer": "6.2.2",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 630,
+   "titel": "Ziff. 6.2.3 Absorption der Tochtergesellschaft (Up-Stream Merger)",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.2 Fusion"
+   ],
+   "stichworte": [
+    "Up-Stream Merger",
+    "Buchgewinn",
+    "Absorption Tochter",
+    "Art. 61 Abs. 5 DBG"
+   ],
+   "zusammenfassung": "Buchgewinn aus der Absorption ist steuerbarer Reingewinn und gehört in der aufnehmenden Gesellschaft zu den übrigen Reserven.",
+   "ziffer": "6.2.3"
+  },
+  {
+   "start": 644,
+   "titel": "Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger)",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.2 Fusion"
+   ],
+   "stichworte": [
+    "Reverse Merger",
+    "Absorption Muttergesellschaft",
+    "Beteiligungsertrag",
+    "Fusionsagio"
+   ],
+   "zusammenfassung": "Höhere KER der Tochter werden auf die KER der Muttergesellschaft reduziert; Zuflüsse von höherem Nennwert oder Ausgleichszahlungen sind steuerbar bzw. verrechnungssteuerpflichtig.",
+   "ziffer": "6.2.4",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 682,
+   "titel": "Ziff. 6.2.5 Fusionsähnlicher Zusammenschluss (Quasifusion)",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.2 Fusion"
+   ],
+   "stichworte": [
+    "Quasifusion",
+    "Sacheinlage",
+    "Transponierung",
+    "Steuerumgehung Art. 21 Abs. 2 VStG"
+   ],
+   "zusammenfassung": "Die gesamte Sacheinlage gilt als offene Kapitaleinlage; der Teil über der Kapitalerhöhung kann als KER ausgewiesen werden, Transponierung bleibt vorbehalten.",
+   "ziffer": "6.2.5",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 701,
+   "titel": "Ziff. 6.3.1 Umwandlung Kapitalgesellschaft in andere Kapitalgesellschaft",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.3 Umwandlung"
+   ],
+   "stichworte": [
+    "Umwandlung",
+    "Rechtsformwechsel",
+    "Gratisnennwerterhöhung",
+    "Ausgleichszahlung"
+   ],
+   "zusammenfassung": "Vermögensertrag entsteht im Umfang von höherem Nennwert, Ausgleichszahlungen oder geldwerten Vorteilen zu Lasten übriger Reserven.",
+   "ziffer": "6.3.1",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 721,
+   "titel": "Ziff. 6.3.2 Umwandlung in Verein, Stiftung oder übrige juristische Person",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.3 Umwandlung"
+   ],
+   "stichworte": [
+    "Umwandlung Verein Stiftung",
+    "Liquidation",
+    "Liquidationsüberschuss"
+   ],
+   "zusammenfassung": "Die Umwandlung gleicht einer Liquidation; der Liquidationsüberschuss (Verkehrswert abzüglich Nennwert und KER) ist bei natürlichen Personen steuerbar und verrechnungssteuerpflichtig.",
+   "ziffer": "6.3.2",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 737,
+   "titel": "Ziff. 6.3.3 Umwandlung von Verein/Stiftung in Kapitalgesellschaft",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.3 Umwandlung"
+   ],
+   "stichworte": [
+    "Umwandlung Verein",
+    "Sacheinlagegründung",
+    "Ausgabepreis",
+    "Verkehrswert"
+   ],
+   "zusammenfassung": "Steuerbares Einkommen im Umfang der Differenz zwischen Verkehrswert und Ausgabepreis der Beteiligungsrechte; bei Rechtsformwechsel können keine KER gebildet werden.",
+   "ziffer": "6.3.3",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 766,
+   "titel": "Ziff. 6.3.4 Umwandlung eines Instituts des öffentlichen Rechts",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.3 Umwandlung"
+   ],
+   "stichworte": [
+    "Institut des öffentlichen Rechts",
+    "Rechtsformwechsel",
+    "Sacheinlagegründung"
+   ],
+   "zusammenfassung": "Bei direkter Umwandlung durch Rechtsformwechsel können keine KER gebildet werden; bei Sacheinlagegründung ist der Aktivenüberschuss steuerneutral als KER ausweisbar.",
+   "ziffer": "6.3.4"
+  },
+  {
+   "start": 788,
+   "titel": "Ziff. 6.3.5 Umwandlung in Personenunternehmung",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.3 Umwandlung"
+   ],
+   "stichworte": [
+    "Umwandlung Einzelfirma",
+    "Liquidationsüberschuss",
+    "Personenunternehmung"
+   ],
+   "zusammenfassung": "Liquidation der Gesellschaft: Der Liquidationsüberschuss (Verkehrswert abzüglich Nennwert und KER) ist einkommenssteuer- und verrechnungssteuerpflichtig.",
+   "ziffer": "6.3.5",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 806,
+   "titel": "Ziff. 6.4 Spaltung",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.4 Spaltung"
+   ],
+   "stichworte": [
+    "Spaltung",
+    "Abspaltung",
+    "Gratisaktien",
+    "Sanierungsbedürftige Schwestergesellschaft"
+   ],
+   "zusammenfassung": "Gratisaktien und Gratisnennwerterhöhungen bei Spaltung sind steuerbar, soweit nicht zu Lasten von Nennwert oder KER der übertragenden Gesellschaft.",
+   "ziffer": "6.4",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 833,
+   "titel": "Ziff. 6.5 Ausgliederung",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.5 Ausgliederung"
+   ],
+   "stichworte": [
+    "Ausgliederung",
+    "Aktivenüberschuss",
+    "Sperrfristverletzung",
+    "Art. 61 Abs. 2 DBG"
+   ],
+   "zusammenfassung": "Der übertragene Aktivenüberschuss kann steuerneutral als KER bzw. Ausland-KER ausgewiesen werden.",
+   "ziffer": "6.5"
+  },
+  {
+   "start": 859,
+   "titel": "Ziff. 6.6 Übertragung zwischen inländischen Konzerngesellschaften",
+   "pfad": [
+    "KS 29c",
+    "6 Umstrukturierungen",
+    "6.6 Konzerngesellschaften"
+   ],
+   "stichworte": [
+    "Konzern",
+    "Übertragung Konzerngesellschaften",
+    "Beteiligungsertrag",
+    "Schwestergesellschaft"
+   ],
+   "zusammenfassung": "Steuerneutrale Übertragungen zu Lasten offener Reserven: bei der Muttergesellschaft Beteiligungsertrag, bei Schwestergesellschaften spiegelbildliche Verbuchung.",
+   "ziffer": "6.6"
+  },
+  {
+   "start": 890,
+   "titel": "Ziff. 7.1 Fusion kotierter Gesellschaften (7.1.1–7.1.5)",
+   "pfad": [
+    "KS 29c",
+    "7 Umstrukturierungen kotierter Gesellschaften",
+    "7.1 Fusion"
+   ],
+   "stichworte": [
+    "kotierte Gesellschaft",
+    "Fusion",
+    "Fusionsagio",
+    "Ziff. 5.1.5"
+   ],
+   "zusammenfassung": "Wie Ziff. 6.2, zusätzlich gelten die Bestimmungen zu Ziff. 5.1.5, wenn das Grund- oder Stammkapital aus KER stammt.",
+   "ziffer": "7.1",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 946,
+   "titel": "Ziff. 7.2 Umwandlung kotierter Gesellschaften (7.2.1–7.2.5)",
+   "pfad": [
+    "KS 29c",
+    "7 Umstrukturierungen kotierter Gesellschaften",
+    "7.2 Umwandlung"
+   ],
+   "stichworte": [
+    "Umwandlung kotierte Gesellschaft",
+    "Beteiligungsertrag",
+    "Ziff. 5.1.5"
+   ],
+   "zusammenfassung": "Wie Ziff. 6.3; stammt das Grund- oder Stammkapital aus KER, gelten die Bestimmungen zu Ziff. 5.1.5.",
+   "ziffer": "7.2",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 990,
+   "titel": "Ziff. 7.3 Spaltung kotierter Gesellschaften",
+   "pfad": [
+    "KS 29c",
+    "7 Umstrukturierungen kotierter Gesellschaften",
+    "7.3 Spaltung"
+   ],
+   "stichworte": [
+    "Spaltung kotierte Gesellschaft",
+    "Gratisaktien",
+    "Ausland-KER"
+   ],
+   "zusammenfassung": "Gratisaktien bei Spaltung sind steuerbar, soweit nicht zu Lasten von Nennwert oder Ausland-KER; für Gratisaktien aus KER gilt Ziff. 5.1.5.",
+   "ziffer": "7.3",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 1019,
+   "titel": "Ziff. 7.4–7.5 Ausgliederung und Konzernübertragung kotierter Gesellschaften",
+   "pfad": [
+    "KS 29c",
+    "7 Umstrukturierungen kotierter Gesellschaften"
+   ],
+   "stichworte": [
+    "Ausgliederung",
+    "Konzerngesellschaften"
+   ],
+   "zusammenfassung": "Analoge Anwendung der Ziffern 6.5 und 6.6.",
+   "ziffer": "7.4–7.5"
+  },
+  {
+   "start": 1029,
+   "titel": "Ziff. 8 Zuzug einer juristischen Person aus dem Ausland",
+   "pfad": [
+    "KS 29c",
+    "8 Zuzug aus dem Ausland"
+   ],
+   "stichworte": [
+    "Zuzug",
+    "Sitzverlegung",
+    "Immigrations-Quasifusion",
+    "Ausland-KER",
+    "31. Dezember 1996"
+   ],
+   "zusammenfassung": "Beim Zuzug ändert die Qualifikation der übrigen Reserven nicht; bei Immigrations-Quasifusion kann der Teil über der Kapitalerhöhung als KER (bis 24.2.2008) bzw. Ausland-KER ausgewiesen werden.",
+   "ziffer": "8",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 1048,
+   "titel": "Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel",
+   "pfad": [
+    "KS 29c",
+    "9 Ausweis und Meldung",
+    "9.1 Ausweis im Jahresabschluss"
+   ],
+   "stichworte": [
+    "Jahresabschluss",
+    "gesonderter Ausweis KER",
+    "Meldung ESTV",
+    "Währungswechsel Aktienkapital",
+    "Art. 621 OR"
+   ],
+   "zusammenfassung": "KER nach dem 31. Dezember 1996 werden nur bei gesondertem Ausweis in der Handelsbilanz und Meldung jeder Veränderung an die ESTV wie Kapitalrückzahlung behandelt.",
+   "ziffer": "9.1",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 1078,
+   "titel": "Ziff. 9.2 Deklaration für die direkte Bundessteuer (Art. 125 Abs. 3 DBG)",
+   "pfad": [
+    "KS 29c",
+    "9 Ausweis und Meldung",
+    "9.2 Deklaration DBG"
+   ],
+   "stichworte": [
+    "Steuererklärung Kapitalgesellschaft",
+    "Bestand Reserven",
+    "Art. 125 Abs. 3 DBG"
+   ],
+   "zusammenfassung": "Kapitalgesellschaften weisen den Bestand der Reserven aus Aufgeldern und Zuschüssen am Ende der Steuerperiode gesondert in der Steuererklärung aus.",
+   "ziffer": "9.2",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 1086,
+   "titel": "Ziff. 9.3 a) Meldung Verrechnungssteuer – ordentliches Verfahren, Formular 170",
+   "pfad": [
+    "KS 29c",
+    "9 Ausweis und Meldung",
+    "9.3 Meldung Verrechnungssteuer"
+   ],
+   "stichworte": [
+    "Formular 170",
+    "Meldefrist 30 Tage",
+    "Geschäftsbericht",
+    "Rückzahlung KER Meldung"
+   ],
+   "zusammenfassung": "Geschäftsbericht und ggf. Formular 170 sind unaufgefordert innert 30 Tagen einzureichen; Rückzahlungen von KER innert 30 Tagen nach Generalversammlung bzw. Rückzahlung.",
+   "ziffer": "9.3 a",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 1122,
+   "titel": "Ziff. 9.3 b) Nachmeldung von KER",
+   "pfad": [
+    "KS 29c",
+    "9 Ausweis und Meldung",
+    "9.3 Meldung Verrechnungssteuer"
+   ],
+   "stichworte": [
+    "Nachmeldung KER",
+    "1. Januar 1997",
+    "Belege",
+    "Formular 170"
+   ],
+   "zusammenfassung": "Nicht gemeldete KER seit dem 1. Januar 1997 können nachgemeldet werden; Jahresrechnungen sind lückenlos einzureichen und Einlagen zu belegen.",
+   "ziffer": "9.3 b",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 1138,
+   "titel": "Ziff. 9.3 c) Nachmeldung von Ausland-KER",
+   "pfad": [
+    "KS 29c",
+    "9 Ausweis und Meldung",
+    "9.3 Meldung Verrechnungssteuer"
+   ],
+   "stichworte": [
+    "Nachmeldung Ausland-KER",
+    "Börsengang",
+    "24. Februar 2008"
+   ],
+   "zusammenfassung": "Ausland-KER nach dem 24. Februar 2008 können nachgemeldet werden; Nachmeldung wird nur für kotierte Gesellschaften empfohlen.",
+   "ziffer": "9.3 c",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 1165,
+   "titel": "Ziff. 9.3 d) Rückmeldung der ESTV und Ziff. 10 Inkrafttreten",
+   "pfad": [
+    "KS 29c",
+    "9 Ausweis und Meldung",
+    "10 Inkrafttreten"
+   ],
+   "stichworte": [
+    "Inkrafttreten",
+    "1. Januar 2023",
+    "ersetzt KS 29, 29a, 29b",
+    "Rückmeldung ESTV"
+   ],
+   "zusammenfassung": "Das Kreisschreiben tritt per 1. Januar 2023 in Kraft und ersetzt die Kreisschreiben Nr. 29, 29a und 29b.",
+   "ziffer": "9.3 d, 10",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 1178,
+   "titel": "Anhang 1 Beispiele 1–2 zur Transponierung (Ertrag 700 bzw. 630)",
+   "pfad": [
+    "KS 29c",
+    "Anhang 1 Transponierung"
+   ],
+   "stichworte": [
+    "Transponierung Beispiel",
+    "Einbringung in H AG",
+    "steuerbarer Ertrag 700",
+    "steuerbarer Ertrag 630"
+   ],
+   "zusammenfassung": "Beispiel 1 (100% beherrscht): steuerbarer Ertrag aus Transponierung 700; Beispiel 2 (90%/20%): 630.",
+   "ziffer": "Anhang 1",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 1223,
+   "titel": "Anhang 1 Beispiel 3 – nicht beherrschte Gesellschaft (keine Transponierung)",
+   "pfad": [
+    "KS 29c",
+    "Anhang 1 Transponierung"
+   ],
+   "stichworte": [
+    "Transponierung Beispiel",
+    "42,9% Beteiligung",
+    "nicht beherrscht"
+   ],
+   "zusammenfassung": "Beispiel 3: Der Ertrag von 210 ist nicht als Transponierung steuerbar, da A die H AG mit 42,9% nicht beherrscht.",
+   "ziffer": "Anhang 1",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 1247,
+   "titel": "Anhang 2 Alternativer Ausweis eigener Beteiligungsrechte",
+   "pfad": [
+    "KS 29c",
+    "Anhang 2 Eigene Beteiligungsrechte"
+   ],
+   "stichworte": [
+    "eigene Beteiligungsrechte",
+    "Minusposten",
+    "Eigenkapital Gliederung",
+    "Art. 959a OR"
+   ],
+   "zusammenfassung": "Ausweis eigener Beteiligungsrechte auf mehreren Positionen (gegen KER, Ausland-KER, übrige) ist bei kumulativ erfüllten Voraussetzungen möglich; Beispiel-Eigenkapital Total 250.",
+   "ziffer": "Anhang 2",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 1293,
+   "titel": "Anhang 2 Erklärungen zum Ausweis eigener Beteiligungsrechte",
+   "pfad": [
+    "KS 29c",
+    "Anhang 2 Eigene Beteiligungsrechte"
+   ],
+   "stichworte": [
+    "Erklärungen",
+    "KER Konto",
+    "Art. 725a OR",
+    "Kapitalverlust"
+   ],
+   "zusammenfassung": "KER 30 und Ausland-KER 10 im Beispiel; Ausweis nur zulässig, wenn die KER bereits beim Erwerb der eigenen Beteiligungsrechte vorhanden waren.",
+   "ziffer": "Anhang 2",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 1321,
+   "titel": "Anhang 3 Fallbeispiele 1–2 – Ausschüttungsregel kotierte X AG",
+   "pfad": [
+    "KS 29c",
+    "Anhang 3 Fallbeispiele"
+   ],
+   "stichworte": [
+    "Fallbeispiel",
+    "Dividende 6%",
+    "Regelverletzung",
+    "steuerbare Ausschüttung 24",
+    "Y AG"
+   ],
+   "zusammenfassung": "Fall 1: Dividende 60 zu Lasten KER, steuerbare Ausschüttung 24 (KER-Rückzahlung an Y AG von 12 ausgenommen); Fall 2: Ausland-KER, keine Verletzung, Rückzahlung von 60 steuerfrei.",
+   "ziffer": "Anhang 3",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 1374,
+   "titel": "Anhang 3 Fallbeispiel 3 – Teilliquidationsregel (Aktienrückkauf 340)",
+   "pfad": [
+    "KS 29c",
+    "Anhang 3 Fallbeispiele"
+   ],
+   "stichworte": [
+    "Aktienrückkauf",
+    "Teilliquidation Beispiel",
+    "zweite Handelslinie",
+    "160 nicht steuerbar"
+   ],
+   "zusammenfassung": "Fall 3: Rückkauf für 340; Teilliquidation im Umfang von 160 nicht steuerbar, KER entsprechend korrigiert.",
+   "ziffer": "Anhang 3",
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 1426,
+   "titel": "Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband",
+   "pfad": [
+    "KS 29c",
+    "Anhang 4 Kapitalband"
+   ],
+   "stichworte": [
+    "Kapitalband Beispiel",
+    "Wiedereinzahlung KER",
+    "zusätzliche Gutschrift",
+    "11'400"
+   ],
+   "zusammenfassung": "Nettoerhöhung KER 2'000 plus zusätzliche Gutschrift der zurück- und wiedereinbezahlten KER von 11'400; Total KER 13'400.",
+   "ziffer": "Anhang 4",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1493,
+   "titel": "Anhang 4 Beispiel 2 – kotierte Gesellschaft ohne Wiedereinzahlung KER",
+   "pfad": [
+    "KS 29c",
+    "Anhang 4 Kapitalband"
+   ],
+   "stichworte": [
+    "Kapitalband Beispiel",
+    "keine zusätzliche Gutschrift",
+    "Nettoerhöhung KER 2'000"
+   ],
+   "zusammenfassung": "Ohne zurückbezahlte und wieder einbezahlte KER keine zusätzliche Gutschrift; Total KER 2'000.",
+   "ziffer": "Anhang 4",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1539,
+   "titel": "Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800)",
+   "pfad": [
+    "KS 29c",
+    "Anhang 4 Kapitalband"
+   ],
+   "stichworte": [
+    "Kapitalband Beispiel",
+    "nicht kotierte Gesellschaft",
+    "Umbuchung übrige Reserven in KER",
+    "24'800"
+   ],
+   "zusammenfassung": "Nicht kotierte Gesellschaft: zusätzliche Gutschrift 22'800, Total KER 24'800; Umbuchung von 24'800 am Ende des Kapitalbands.",
+   "ziffer": "Anhang 4",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1603,
+   "titel": "Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD)",
+   "pfad": [
+    "KS 29c",
+    "Anhang 5 Währungswechsel"
+   ],
+   "stichworte": [
+    "Währungswechsel",
+    "USD",
+    "Umrechnung KER",
+    "Art. 621 Abs. 3 OR",
+    "Kurs 0.90"
+   ],
+   "zusammenfassung": "Bestätigte KER von CHF 220'700 werden zum Kurs 0.90 in USD 245'222 umgerechnet; Wertdifferenz von USD 115'522 handelsrechtlich dem Gewinnvortrag belastet.",
+   "ziffer": "Anhang 5",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  }
+ ]
+}

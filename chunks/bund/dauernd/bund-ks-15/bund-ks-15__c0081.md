@@ -4,21 +4,22 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 1/3)"
+titel: "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 2/2)"
 ziffer: "Anh. III 5a"
 seiten: "23-24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 23–24
 
-5   Spezialfälle im Bereich der Reverse Convertibles
-a)   Reverse Convertibles auf Aktien, Edelmetalle und Rohstoffe ohne garantierte
-    Zahlungen und mit Laufzeiten von nicht mehr als zwölf Monaten
-Im Unterschied zu den im Kreisschreiben Nr. 15 genannten Reverse Convertibles (RC) ent-
-halten die unter der Bezeichnung Discount Certificate (nachfolgend Diskont-Zertifikat) etc.
-emittierten Produkte keine garantierten Zahlungen seitens des Emittenten und haben Lauf-
-zeiten von nicht mehr als zwölf Monaten. Aufgrund einer wirtschaftlichen Betrachtungsweise
-steht bei diesen RC aus der Sicht des Investors nicht die Kapitalanlage, sondern der Kauf
-des Basiswertes (Aktie, Index) im Vordergrund. Als atypische, nämlich im Voraus finanzierte
-Termingeschäfte sind sie damit mit den bis anhin steuerfrei belassenen LEPO vergleichbar.
-Entsprechend erfolgt die Emission auf Diskontbasis. Die Differenz zwischen aktuellem Ver-
+kehrswert des Basiswertes und Emissionspreis des fraglichen Produkts umfasst eine (steuer-
+freie) Zinskomponente für die Vorausfinanzierung des Basiswertes sowie eine Optionsprämie
+für das Schreiben einer Call-Option. Die vom Investor dem Emittenten verkaufte Call-Option
+sichert dem Emittenten das Recht, dem Investor den zu liefernden Basiswert gegebenenfalls
+zum Ausübungspreis wiederum abnehmen zu können. Anstelle der physischen Lieferung
+des Basiswertes kann auch ein Barausgleich vorgesehen sein (Cash-Settlement).
+
+Die mit Diskont-Zertifikaten ohne garantierte Zahlungen und mit Laufzeiten von nicht mehr
+als zwölf Monaten erzielten Gewinne und Verluste gelten (wie bei den übrigen derivativen Fi-
+nanzinstrumenten) – auf Zusehen hin – als steuerfrei.
+
+1-015-DVS-2017-d / Anhang III

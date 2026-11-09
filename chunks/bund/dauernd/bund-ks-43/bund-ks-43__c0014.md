@@ -4,16 +4,17 @@ quelle: bund-ks-43
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 43 – Abschnitt 14"
+titel: "Anhang Beispiel 3 – Gehalt Doktorand (CHF 1'960 monatlich)"
+ziffer: "Beispiel 3"
 seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 43 · Anhang: Beispiele · S. 5
 
-gesamte Stipendium angewiesen, um seine Lebenshaltungskosten zu bestreiten. Das Stipendi-
-um übersteigt den lebensnotwendigen Bedarf nicht und ist deshalb gemäss Artikel 24 Buchsta-
-be d DBG eine von der direkten Bundessteuer befreite Unterstützung aus öffentlichen Mitteln.
-Lösung Variante: In diesem Fall übersteigt das Stipendium den lebensnotwendigen Bedarf des
-Studenten A. Deshalb ist das über dem Existenzminimum (siehe vorangehende Lösung) lie-
-gende Einkommen von monatlich CHF 800.– lückenlos steuerlich zu erfassen (vgl. Ziff. 3 des
-Kreisschreibens, Ausführungen zur Bedürftigkeit).
+Beispiel 3: Besteuerung eines Förderbeitrages im Wissenschaftsbereich
+Sachverhalt: Der Doktorand C forscht zu 50 Prozent an der Universität Zürich. Die Universität
+bezahlt ihm dafür ein monatliches Gehalt von CHF 1’960.–, finanziert von der Stiftung Y.
+Frage: Wie ist das ausgerichtete Gehalt durch den Doktoranden C zu versteuern?
+Lösung: Das von der Universität Zürich ausgerichtete Gehalt stellt beim Doktoranden C ge-
+mäss Artikel 17 Absatz 1 DBG steuerbares Einkommen aus unselbständiger Erwerbstätigkeit
+dar.

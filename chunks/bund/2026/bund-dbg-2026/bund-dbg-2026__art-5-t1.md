@@ -4,7 +4,7 @@ quelle: bund-dbg-2026
 jur: bund
 jahre: [2026]
 typ: gesetz
-titel: "Art. 5 DBG – Andere steuerbare Werte (Teil 1/3)"
+titel: "Art. 5 DBG – Andere steuerbare Werte (Teil 1/2)"
 artikel: "Art. 5"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---

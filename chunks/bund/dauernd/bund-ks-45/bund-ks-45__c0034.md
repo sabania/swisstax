@@ -4,23 +4,52 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 34"
-seiten: "8"
+titel: "Ziff. 3.2.3 Beispiel – Iterationsberechnung übernommene Quellensteuer (Hypo-Tax)"
+ziffer: "3.2.3"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.2 Steuerbare Leistungen · S. 12
 
-staat der Vorrang als Ansässigkeitsstaat eingeräumt wird. Bei natürlichen Personen gilt fol-
-gende Reihenfolge der Vorrangkriterien:
-    1. Ständige Wohnstätte bzw. falls eine solche in beiden Staaten vorhanden ist der Mittel-
-    punkt der Lebensinteressen;
-    2. gewöhnlicher Aufenthalt;
-    3. Staatsangehörigkeit und
-    4. Resultat eines Verständigungsverfahrens beider Vertragsstaaten.
-Weist das anwendbare DBA die Ansässigkeit in solchen Fällen dem anderen Staat zu, ist die
-Person in der Schweiz nach den Regeln der beschränkten Steuerpflicht (vgl. Art. 5 Abs. 1
-DBG) zu besteuern. Besteht zwischen der Schweiz und dem betreffenden Land kein DBA,
-so gelten ausschliesslich die vorstehenden Bestimmungen des internen schweizerischen
-Rechts für die Feststellung, ob eine Person in der Schweiz unbeschränkt steuerpflichtig ist
-(d.h. Wohnsitz oder Aufenthalt).
-Keine Ansässigkeit in der Schweiz begründen gemäss Artikel 91 Absatz 1 DBG Grenzgän-
+    Beispiel:
+    -   Dem in die Schweiz entsandten Arbeitnehmer Y. wird vom Bruttolohn von CHF 7 000.00 ein Abzug in
+    Höhe von CHF 1 750.00 für hypothetisch im Ansässigkeitsstaat geschuldete Steuern gewährt. Die auf die-
+    sem reduzierten Bruttolohn geschuldete schweizerische Quellensteuer berechnet sich wie folgt (nach der
+    Methode der Iteration):
+
+    1. Schritt
+
+    Bruttolohn   zuzüglich QST   Summe   Steuersatz   QST
+
+    5 250.00   11.43 %   600.08
+
+    5 250.00   600.08   5 850.08   12.49 %   730.67
+
+    5 250.00   730.67   5 980.67   12.62 %   754.76
+
+    5 250.00   754.76   6 004.76   12.79 %   768.01
+
+    5 250.00   768.01   6 018.01   12.79 %   769.70
+
+    usw.   usw.   usw.   usw.
+
+    Die Berechnung ist solange zu wiederholen (Iteration), bis sich der Steuersatz, gerundet auf zwei Nach-
+    kommastellen, nicht mehr verändert.
+
+    2. Schritt
+
+    Der der Quellensteuer unterliegende Lohn (= Bruttolohn + QST) ergibt sich anhand folgender Be-
+    rechnung:
+
+    5 250.00 x 100
+    = 6 019.95
+    87.21 (100 - 12.79)
+
+
+    3. Schritt
+
+    Die geschuldete QSt kann auf zwei Wegen ermittelt werden:
+
+    6 019.95 x 12.79   = 769.95   oder   6 019.95 – 5 250.00 = 769.95
+
+    100

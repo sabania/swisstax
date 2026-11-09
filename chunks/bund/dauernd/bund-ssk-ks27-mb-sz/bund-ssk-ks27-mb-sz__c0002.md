@@ -4,36 +4,20 @@ quelle: bund-ssk-ks27-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 27 (MB SZ) – Abschnitt 2"
-seiten: "1"
+titel: "Ziff. 1–2 Einleitung und Anpassung der bundesgerichtlichen Rechtsprechung (Teil 2/4)"
+ziffer: "1–2"
+seiten: "1-2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · S. 1
+> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · 1. Einleitung / 2. Rechtsprechung · S. 1–2
 
-<!-- Seite 1 -->
-Finanzdepartement
-Steuerverwaltung
-Grundstückgewinnsteuer
+Diese Praxis führte in zahlreichen Fällen zu sogenannten Ausscheidungsverlusten. Die steuerpflich-
+tige Person musste im Liegenschaftskanton (Spezialsteuerdomizil) ein Einkommen versteuern, wel-
+ches das gesamte Reineinkommen überstieg. Im Extremfall versteuerte eine Unternehmung am
+Spezialsteuerdomizil einen Reingewinn, obwohl die Gesamtunternehmung Verluste erlitten hatte.
 
-Merkblatt
+2.   Anpassung der bundesgerichtlichen Rechtsprechung
 
-Anrechnung von Ausscheidungsverlusten
-
-Inhaltsverzeichnis
-
-1.   Einleitung   1
-2.   Anpassung der bundesgerichtlichen Rechtsprechung   2
-3.   Kreisschreiben der Schweizerischen Steuerkonferenz (SSK)   2
-3.1   Ausscheidungsgrundsätze für natürliche Personen   2
-3.2   Ausscheidungsgrundsätze für juristische Personen   3
-4.   Verlustverrechnung im Kanton Schwyz   3
-4.1   Rechtsprechung / Grundlage   3
-4.2   Veranlagungspraxis für Veräusserungen ab 1.01.2010   3
-5.   Verfahren   4
-6.   Übergangsregelungen für Veräusserungen vor dem 01.01.2010   4
-6.1   Inner- oder ausserkantonale gewerbsmässige Liegenschaftenhändler sowie übrige
-    ausserkantonale Betriebe und Gesellschaften   4
-6.2   Übrige innerkantonale Betriebe und Gesellschaften (nicht gewerbsmässige Liegen-
-    schaftenhändler)   4
-
-1.   Einleitung
+Das Bundesgericht hat im interkantonalen Verhältnis seine Rechtsprechung zur bisher nicht beste-
+henden grundstückgewinnsteuerlichen Verrechnung von Ausscheidungsverlusten stufenweise wie
+folgt angepasst:

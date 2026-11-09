@@ -4,32 +4,24 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 65"
-seiten: "21"
+titel: "Ziff. 9.3 b) Nachmeldung von KER"
+ziffer: "9.3 b"
+seiten: "26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.3 Meldung Verrechnungssteuer · S. 26
 
-<!-- Seite 21 -->
-7.   Umstrukturierungen von an einer schweizerischen Börse kotierten Kapi-
-    talgesellschaften oder Genossenschaften
+b) Nachmeldung von KER
 
-7.1.   Zusammenschluss (Fusion)
+KER vergangener Geschäftsjahre, welche durch Einlagen, Aufgelder oder Zuschüsse seit
+dem 1. Januar 1997 geäufnet und bisher nicht gemeldet wurden, können der ESTV, Haupt-
+abteilung DVS, nachgemeldet werden.
 
-7.1.1. Echte und unechte Fusion unabhängiger Gesellschaften
+Für sämtliche Geschäftsjahre ab der ersten gemeldeten Einlage sind die Jahresrechnungen
+lückenlos einzureichen und das handelsrechtlich massgebende Eigenkapital detailliert nach-
+zuweisen. Sämtliche Einlagen sind zudem durch sachdienliche Unterlagen (Sacheinlagever-
+träge, Beschlüsse usw.) zu belegen. Aus den eingereichten Belegen müssen alle Angaben
+zum Verständnis der getroffenen Buchungen vorliegen.
 
-a)   Direkte Bundessteuer (Einkommenssteuer)
-
-Das Fusionsagio stellt nur in dem Umfang eine ausweisbare KER bzw. Ausland-KER dar, als
-es aus bestehenden KER bzw. Ausland-KER der übernommenen Gesellschaft stammt.
-Stammt das Grund- oder Stammkapital aus KER, gelten die Bestimmungen zu Ziff. 5.1.5
-hiervor.
-
-Bei einer Fusion erzielen beteiligte Privatpersonen in dem Umfang steuerbaren Vermögens-
-ertrag, als ihnen höherer Nennwert, Ausgleichszahlungen oder andere geldwerte Vorteile zu
-Lasten der übrigen Reserven zufliessen.
-
-Nennwertgewinne und -verluste sowie Gewinne und Verluste von KER bzw. Ausland-KER
-können miteinander und gegenseitig verrechnet werden.
-
-b)   Verrechnungssteuer
+Zusätzlich ist ein vollständig ausgefülltes und unterzeichnetes Formular 170 zur Nachmel-
+dung der Bestände der gesonderten Konti bei der Hauptabteilung DVS einzureichen.

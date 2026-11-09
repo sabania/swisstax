@@ -4,24 +4,21 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 56"
-seiten: "18"
+titel: "Ziff. 7.3 Spaltung kotierter Gesellschaften (Teil 2/2)"
+ziffer: "7.3"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 7 Umstrukturierungen kotierter Gesellschaften › 7.3 Spaltung · S. 23
 
-a)   Direkte Bundessteuer (Einkommenssteuer)
+Die bei einer Spaltung den Inhabern der Beteiligungsrechte an der übernehmenden Gesell-
+schaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unterliegen nach Artikel 4
+Absatz 1 Buchstabe b VStG der Verrechnungssteuer, soweit sie nicht zu Lasten des Nenn-
+wertes der Beteiligungsrechte oder der Ausland-KER der übertragenden Gesellschaft erfol-
+gen. Für Gratisaktien und Gratisnennwerterhöhungen aus KER gelten die Bestimmungen ge-
+mäss Ziff. 5.1.5. hiervor.
 
-Bei einer Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Person in
-eine Kapitalgesellschaft oder Genossenschaft erzielen Privatpersonen, die dadurch in den
-Besitz von Beteiligungsrechten an der neuen Kapitalgesellschaft oder Genossenschaft kom-
-men, im Umfang der Differenz zwischen Verkehrswert und Ausgabepreis der Beteiligungs-
-rechte steuerbares Einkommen ( Art. 16 Abs. 1 DBG).
-
-b)   Verrechnungssteuer
-
-Die bei einer Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Per-
-son in eine Kapitalgesellschaft oder Genossenschaft ausgegebenen Beteiligungsrechte un-
-terliegen nicht der Verrechnungssteuer, da sie zu Lasten des Aktivenüberschusses einer
-nicht verrechnungssteuerpflichtigen juristischen Person (Verein, Stiftung oder übrige juristi-
-sche Person) begründet werden.
+Erfolgt eine Abspaltung auf eine sanierungsbedürftige Schwestergesellschaft, erlangen die
+Anteilsinhaber eine geldwerte Leistung im Umfang der untergehenden übrigen Reserven. Er-
+folgt die Spaltung nicht gewinnsteuerneutral, liegt eine Vorteilszuwendung unter Schwester-
+gesellschaften vor (vgl. Ziff. 2.2.1. hiervor).

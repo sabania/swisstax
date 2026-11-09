@@ -4,19 +4,18 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. II.1 Begrenzungen des Vorbezugs (relativ/absolut, ab 50 Jahren)"
+ziffer: "II.1"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 1 Zweck und Inhalt · S. 2–3
 
-    2.   Steuerliche Auswirkungen des Vorbezuges ............................................................... 3
-    2.1.  Besteuerung des Vorbezuges ................................................................................. 3
-    2.2.  Rückzahlung des Vorbezuges ................................................................................. 3
-    a) Rückerstattung der bezahlten Steuern .................................................................... 4
-    b) Ausgleich des durch einen WEF-Vorbezug entstandenen Zinsausfalls ................... 4
-    c) Keine WEF-Rückzahlung mit Mitteln, die bereits für die Vorsorge gebunden sind... 4
-    2.3.  Einkauf von Beitragsjahren ...................................................................................... 6
-    a) nach einem WEF-Vorbezug .................................................................................... 6
-    b) nach einer Scheidung .............................................................................................. 6
-    2.4.  Zusatzversicherung ................................................................................................. 6
+Massgeblich für den Vorbezug ist der individuelle Freizügigkeitsanspruch der versicherten
+Person. Betragsmässig bestehen jedoch Einschränkungen: Es kann stets nur die Summe
+der Freizügigkeitsleistung beansprucht werden, wie sie im Zeitpunkt des Gesuches besteht
+(relative Begrenzung). Sodann können Vorsorgenehmer, die über 50 Jahre alt sind, gesamt-
+haft höchstens den Betrag der Freizügigkeitsleistung im Alter 50 oder die hälftige Freizügig-
+
+keitsleistung vorbeziehen (absolute Begrenzung). Die gleiche Beschränkung gilt auch für die
+Verpfändung des Vorsorgeguthabens.

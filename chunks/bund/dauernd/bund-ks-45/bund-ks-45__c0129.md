@@ -4,19 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 129"
-seiten: "33"
+titel: "Ziff. 7.3.2 Offenlegungspflicht, Pensum nicht bestimmbar, Folgemonat, Tarifcode E (Teil 3/3)"
+ziffer: "7.3.2"
+seiten: "40-41"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 33
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.2 Teilzeit-Erwerbstätigkeiten · S. 40–41
 
-<!-- Seite 33 -->
-    2. Besteuerung einer Bonuszahlung:
-    Der Arbeitnehmer Y. ist in Österreich ansässig und tritt per 30. November 2021 aus der Unternehmung T.
-    aus. Die letzte Lohnzahlung im November 2021 beläuft sich auf CHF 8 000.00. Im April des Folgejahres
-    erhält er einen Bonus von CHF 15 000.00, welcher von der Geschäftsleitung der Unternehmung T. im April
-    2022 beschlossen wurde. Dieser Bonus ist separat im Auszahlungsmonat (April 2022) steuerpflichtig. Da
-    der Rechtsanspruch auf den Bonus erst im April 2022 entstanden ist (Beschluss Geschäftsleitung), hat auf
-    der letzten Lohnzahlung (November 2021; CHF 8 000.00) keine Satzkorrektur zu erfolgen. Für die Tarifbe-
-    stimmung und für die Festlegung des satzbestimmenden Einkommens sind die Verhältnisse zum Zeitpunkt
-    der Auszahlung der Leistung massgebend. Weil diese Verhältnisse der Unternehmung T. nicht bekannt
+aperiodischen Lohnbestandteilen (vgl. Ziffer 7.3.1 oben), sind einzig die periodischen Lohn-
+bestandteile für die Satzbestimmung umzurechnen.
+Bei Aufnahme einer weiteren Erwerbstätigkeit ist die Umrechnung ab dem Folgemonat vor-
+zunehmen. Entsprechend ist bei Beendigung einer weiteren Erwerbstätigkeit keine Umrech-
+nung mehr vorzunehmen.
+Die Umrechnung hat nicht zu erfolgen, wenn ein Arbeitseinkommen nach dem Tarifcode E
+besteuert wird.
+Der Arbeitnehmer kann bei der zuständigen Steuerbehörde bis am 31. März des auf die Fäl-
+ligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine
+nachträgliche ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten).

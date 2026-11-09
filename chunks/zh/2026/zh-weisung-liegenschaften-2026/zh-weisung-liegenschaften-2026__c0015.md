@@ -4,22 +4,23 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 15"
-seiten: "7"
+titel: "Ziff. 35 Besondere Verhältnisse bei Einfamilienhäusern und Stockwerkeigentum"
+ziffer: "35"
+seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 7
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 4. Besondere Verhältnisse · S. 8
 
-<!-- Seite 7 -->
-   Landflächenanteile, welche die gemäss Ziff. 26–28 anrechenbare 29
-Grundstücksfläche übersteigen, werden folgendermassen bewertet:
-   Für Einfamilienhäuser:
-– bis höchstens 1200 m2: zu 30% des steuerlich massgebenden Land-
-   werts
-– über 1200 m2: zu 5% des steuerlich massgebenden Landwerts
-   Für Stockwerkeigentum:
-– bis höchstens 200 m2: zu 30% des steuerlich massgebenden Land-
-   werts
-– über 200 m2: zu 5% des steuerlich massgebenden Landwerts
+    4. Besondere Verhältnisse
 
-3. Zeitbauwert
+35   Auf Verlangen des Steuerpflichtigen können bei der Berechnung
+    des Verkehrswerts von Einfamilienhäusern sowie Stockwerkeigentum
+    zu Wohnzwecken, vorbehältlich des entsprechenden Nachweises, fol-
+    gende Korrekturen vorgenommen werden:
+    – beim Landwert, soweit sich dieser bei einer Veräusserung nicht in
+    einem entsprechenden Erlös niederschlagen würde und diesem
+    Umstand nicht schon durch Anwendung von Ziff. 18, 19, 26–29
+    Rechnung getragen wurde,
+    – beim Zeitbauwert, wenn dieser wesentlich durch Elemente erhöht
+    wird, die sich bei einer Veräusserung nicht in einem entsprechen-
+    den Erlös niederschlagen würden.

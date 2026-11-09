@@ -4,17 +4,34 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 9"
+titel: "Entwicklung der Steuerfüsse seit 2005 – Staatssteuerfuss 109 % seit 2022 (Teil 1/2)"
 seiten: "3"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 3
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Entwicklung · S. 3
 
-    0
-    2006   2010   2014   2018   2022   2026   0
-    2002   2006   2010   2014   2018   2022   2026
+Steuerfüsse tiefer als vor zwanzig Jahren   Gemeindesteuerfüsse rücken näher zusammen
+In den letzten zwanzig Jahren waren die Steuerfüsse rückläufig.   Die Steuerfüsse der Politischen Gemeinden rückten in den letz-
+Zuletzt blieb der Gemeindesteuerfuss nahezu stabil, der Schul-   ten zwanzig Jahren näher zusammen. 2026 lagen sie in der
+steuerfuss erhöhte sich zum dritten Mal in Folge. Der Staats-   Hälfte der Gemeinden zwischen 48 % und 58 % (2005: zwi-
+steuerfuss liegt seit 2022 bei 109 %.   schen 60 % und 79 %, grauer Bereich).
 
-¹ Nach Einwohnerzahl der Gemeinden gewichtete Durchschnitte   Hinweis: Der graue Bereich zeigt die Bandbreite, in der sich 50 % der
-    Gemeindesteuerfüsse befinden.
+Staats-, Gemeinde¹- und Schulsteuerfüsse¹   Streuung der Steuerfüsse der Politischen Gemeinden
+Kanton Thurgau, in %   Kanton Thurgau, in %
+  150   100
 
-Datenquelle: Steuerverwaltung Kanton Thurgau   Datenquelle: Steuerverwaltung Kanton Thurgau
+    Staatssteuerfuss   Höchster Steuerfuss
+  120   127   80
+    117   117
+    Schulsteuerfuss¹   109   109
+    98.1   3. Quartil
+    90   94.2   92.3   60   Median
+    87.8   89.4
+
+    Gemeindesteuerfuss¹   1. Quartil
+    60   63.5
+    58.5   40
+    57.7   55.9   55.8
+
+    30   Tiefster Steuerfuss
+    20

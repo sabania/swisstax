@@ -4,39 +4,11 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 22"
+titel: "Karte Steuerkraft pro Einwohner der Politischen Gemeinden 2025 (Klassen) (Teil 2/2)"
 seiten: "6"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 6
-
-    Uesslingen−Buch   ein   Märstetten
-    s
-    b
-
-    th−W   Berg   Uttwil
-    Ke
-    ach
-
-    War   Felben−   i Dozwil
-    n
-
-    Birwinken   mer
-    or
-
-    Hüttlingen   Weinfelden   Som
-    H
-
-    sh
-
-    Wellhausen
-    ef fen
-
-    an
-    en
-    ho
-
-    om
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Karte · S. 6
 
     Amlikon−Bissegg
     −
@@ -89,3 +61,6 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
     1'700−1'999 Franken   Über 4'000 Franken
 
     2'000−2'999 Franken
+
+Datenquelle: Steuerverwaltung Kanton Thurgau
+Interaktive Karten zu den Themen Steuerfüsse und Steuerkraft finden Sie im Thurgauer Themenatlas.

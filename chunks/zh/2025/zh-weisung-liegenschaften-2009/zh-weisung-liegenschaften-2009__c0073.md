@@ -4,41 +4,34 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 73"
+titel: "Anhang S. 31 Landwerte Wohnbauland bebaut Einfamilienhäuser – (Fortsetzung)"
+ziffer: "13, 23"
 seiten: "31"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 31
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, Einfamilienhäuser · S. 31
 
-<!-- Seite 31 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-Wohnbauland
+Dorf   3   300   250   190   –   –   –   –
+Feuerthalen   5   280   250   220   190   160   –   –
+Flaach   5   240   230   210   190   170   –   –
+Flurlingen   3   330   270   200   –   –   –   –
+Henggart   3   340   280   220   –   –   –   –
+Kleinandelfingen   5   330   300   260   230   190   –   –
+Laufen-Uhwiesen   5   310   280   250   220   180   –   –
+Marthalen   3   290   250   200   –   –   –   –
+Ossingen   4   330   260   200   130   –   –   –
+Rheinau   3   220   190   150   –   –   –   –
+Stammheim
+– Oberstammheim   3   250   220   180   –   –   –   –
+  (ehemalige Gemeinde)
+– Unterstammheim   4   250   230   200   180   –   –   –
+  (ehemalige Gemeinde)
+– Waltalingen   3   260   210   160   –   –   –   –
+  (ehemalige Gemeinde)
+Thalheim an der Thur   3   290   240   180   –   –   –   –
+Trüllikon   5   290   260   230   200   160   –   –
+Truttikon   5   240   230   210   200   180   –   –
+Volken   3   240   210   170   –   –   –   –
 
-Bebaute Grundstücke
-    Einfamilienhäuser (Ziff. 13 und 23)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
 
-Bezirk Affoltern
-Aeugst am Albis   5   530   470   410   350   280   –   –
-Affoltern am Albis   5   410   370   330   290   250   –   –
-Bonstetten   3   430   360   290   –   –   –   –
-Hausen am Albis   5   390   360   320   280   240   –   –
-Hedingen   5   430   400   360   330   290   –   –
-Kappel am Albis   2   310   270   –   –   –   –   –
-Knonau   3   400   330   250   –   –   –   –
-Maschwanden   2   290   230   –   –   –   –   –
-Mettmenstetten   5   400   370   340   310   280   –   –
-Obfelden   3   380   320   250   –   –   –   –
-Ottenbach   3   350   270   190   –   –   –   –
-Rifferswil   3   360   310   260   –   –   –   –
-Stallikon   3   470   390   310   –   –   –   –
-Wettswil am Albis   3   520   430   340   –   –   –   –
-Bezirk Andelfingen
-Andelfingen
-– Adlikon   3   270   220   170   –   –   –   –
-  (ehemalige Gemeinde)
-– Andelfingen   5   320   290   260   230   190   –   –
-  (ehemalige Gemeinde)
-– Humlikon   3   330   280   230   –   –   –   –
-  (ehemalige Gemeinde)
+1. 1. 23 - 119   31

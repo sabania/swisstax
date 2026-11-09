@@ -4,25 +4,24 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 6"
-seiten: "2"
+titel: "Fussnoten 3–5 (Voten Bundesrat Villiger und Ständerat Gemperli)"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 36 · 2 Rechtliche Grundlagen › Fussnoten · S. 3–4
 
-<!-- Seite 2 -->
-1.   Gegenstand des Kreisschreibens
-
-Dieses Kreisschreiben dient als Hilfsmittel zur Abgrenzung einer selbständigen Erwerbs-
-tätigkeit (Quasi-Wertschriftenhandel) von der privaten Vermögensverwaltung. Es stützt sich
-auf die Rechtsprechung des Bundesgerichtes bis zum 31. Dezember 2011 und betrifft
-ausschliesslich die Bewirtschaftung eines Wertschriftenportefeuilles (Ziff. 4).
-
-Um den Steuerpflichtigen Rechtssicherheit zu gewährleisten, wurden Kriterien ausgearbeitet,
-anhand derer im Rahmen einer Vorprüfung gewerbsmässiger Wertschriftenhandel
-ausgeschlossen werden kann (Ziff. 3). Sind diese Kriterien nicht kumulativ erfüllt, liegt nicht
-zwingend gewerbsmässiger Wertschriftenhandel vor, sondern es ist aufgrund der Umstände
-des Einzelfalls nach der bundesgerichtlichen Rechtsprechung zu beurteilen, ob private
-Vermögensverwaltung oder selbständige Erwerbstätigkeit vorliegt (Ziff. 4).
-
-2.   Rechtliche Grundlagen
+3
+  Votum Villiger, Bundesrat, Amtliches Bulletin, Ständerat 10.3.1999, S. 140: "... Es sind im
+  allgemeinen seltene Fälle, und dabei wird es bleiben. Das ist auch im Interesse des Fiskus, denn
+  der Fiskus trägt bei der gewerbsmässigen Besteuerung auch ein Risiko, weil er dann nämlich auch
+  Verluste zum Abzug zulassen muss; ..."
+4
+  Votum Villiger, Bundesrat, Amtliches Bulletin, Ständerat 3.3.1999, S. 47: "... Wir wollen keine
+  Kapitalgewinnsteuer für alle Normalanleger und -sparer, oder wie immer Sie diese bezeichnen,
+  auch wenn sie nach modernsten Methoden ein gutes Portefeuille bewirtschaften. Da will der Fiskus
+  nicht "zuschlagen". Das wäre eine Kapitalgewinnsteuer durch die Hintertüre. ..."; vgl. auch BGE vom
+  3.7.1998, in: StE 1998, B 23.1 Nr. 39
+5
+  Votum Gemperli, Amtliches Bulletin, Ständerat 2.3.1999, S. 43: "... In der Regel kann man im
+  Wertschriftenbereich die geschäftliche Tätigkeit bereits wegen der Beanspruchung von
+  Fremdmitteln feststellen. ...".

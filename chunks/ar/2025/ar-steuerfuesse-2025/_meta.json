@@ -1,64 +1,80 @@
 [
 {
 "id": "ar-steuerfuesse-2025__c0001",
-"titel": "Steuerfüsse AR 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Steuerfüsse 2025 AR – Kantonsfuss und Gemeinden Bühler bis Lutzenberg",
+"pfad": [
+"Steuerfüsse natürliche Personen"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Steuerfuss AR",
+"Gemeindesteuerfuss",
+"Kirchensteuer",
+"Herisau",
+"Heiden",
+"Gais",
+"Bühler"
+],
+"positionen": [],
+"zusammenfassung": "Kantonaler Steuerfuss 3.30 Einheiten; Gemeinde-, Kirchgemeinde- und Gesamtsteuerfüsse (z.B. Bühler 3.70, Herisau 4.10, Hundwil 4.30).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "ar-steuerfuesse-2025__c0002"
 },
 {
 "id": "ar-steuerfuesse-2025__c0002",
-"titel": "Steuerfüsse AR 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Steuerfüsse 2025 AR – Gemeinden Rehetobel bis Wolfhalden",
+"pfad": [
+"Steuerfüsse natürliche Personen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Teufen",
+"Speicher",
+"Trogen",
+"Urnäsch",
+"Wald",
+"Walzenhausen",
+"Gesamtsteuerfuss"
+],
+"positionen": [],
+"zusammenfassung": "Steuerfüsse je Gemeinde und Kirchgemeinde, u.a. Teufen 2.60, Trogen 4.50, Wolfhalden 3.80 Einheiten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-steuerfuesse-2025__c0001",
 "nachher": "ar-steuerfuesse-2025__c0003"
 },
 {
 "id": "ar-steuerfuesse-2025__c0003",
-"titel": "Steuerfüsse AR 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Hinweis Separaterhebungen und Entwicklung der Steuerfüsse 2024–2025",
+"pfad": [
+"Steuerfüsse natürliche Personen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss Entwicklung",
+"Separaterhebung",
+"Erhöhung",
+"Senkung",
+"Stand 8.1.2025"
+],
+"positionen": [],
+"zusammenfassung": "Ansätze enthalten Separaterhebungen; Übersicht der Veränderungen 2024–2025 (Staatssteuer unverändert, Stand 08.01.2025).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-steuerfuesse-2025__c0002",
-"nachher": "ar-steuerfuesse-2025__c0004"
-},
-{
-"id": "ar-steuerfuesse-2025__c0004",
-"titel": "Steuerfüsse AR 2025 – Abschnitt 4",
-"pfad": [],
-"seiten": [
-1
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-steuerfuesse-2025__c0003",
 "nachher": null
 }
 ]

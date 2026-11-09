@@ -4,56 +4,36 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang I Übersicht Obligationen, Derivate und kombinierte Produkte"
-ziffer: "Anhang I"
-seiten: "15"
+titel: "Anhang II Beispiele Nrn. 1–2 – Gesamtrendite und überwiegende Einmalverzinsung"
+ziffer: "Nr. 1–2"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang I · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang II Beispiele · S. 16
 
-Anhang I zum Kreisschreiben Nr. 15
-
-
-    Obligationen
+Anhang II zum Kreisschreiben Nr. 15
 
 
-    gewöhnliche   Diskont-   globalverzinsliche
-    Obligationen   obligationen   Obligationen
+Beispiele
 
 
-    reine   reine global-   gemischte
-    gemischte
-    Diskont-   verzinsliche   globalver-
-    Diskont-
-    obligationen   Obligationen   zinsliche
-    obligationen
-    (Zerobonds)   (Zerobonds)   Obligationen
+Nrn. 1 und 2
 
+−   Eine gemischte Diskontobligation, die unter pari zu Fr. 788.80 emittiert wurde, bietet
+    einen Jahreszins von Fr. 30.- und soll nach sechs Jahren zum Nennwert von Fr. 1'000.-
+    zurückbezahlt werden (Beispiel 1);
 
-    Derivative
-    Finanzinstrumente
+−   Eine gemischte globalverzinsliche Obligation wurde zum Nennwert von Fr. 1'000.- emit-
+    tiert; sie bietet ebenfalls einen Jahreszins von Fr. 30.- und soll nach sechs Jahren zu
+    Fr. 1'326.- zurückbezahlt werden (Beispiel 2).
 
+In beiden Beispielen ergibt die vorzunehmende finanzmathematische Berechnung eine Ge-
+samtrendite der Obligationen von 7,5% pro Jahr.
 
-    Termin-
-    Optionen
-    geschäfte
+In Beispiel 1 beträgt der Jahreszins von Fr. 30.- 3,8% des Anlagewertes von Fr. 788.80; das
+ist mehr als die Hälfte der gesamten Rendite von 7,5%. Diese Obligation fällt deshalb nicht
+unter Art. 20 Abs. 1 Bst. b DBG.
 
-
-    Kaufoption   Verkaufoption
-    Futures
-    (Call-Option)   (Put-Option)
-
-
-    Kombinierte
-    Produkte
-
-
-    kapitalgarantierte
-    Produkte mit Geld-
-    Derivate und nicht   klassische
-    oder Titellieferung
-    klassische Options-   Options- und
-    (Reverse
-    und   Wandelanleihen
-    Convertibles)
-    Wandelanleihen
+In Beispiel 2 beträgt dagegen der Jahreszins von Fr. 30.- 3% des Anlagewertes von
+Fr. 1'000.-; das ist weniger als die Hälfte der gesamten Rendite von 7,5%. Diese Obligation
+ist damit überwiegend einmalverzinslich und fällt daher unter Art. 20 Abs. 1 Bst. b DBG.

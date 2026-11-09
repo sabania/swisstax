@@ -4,30 +4,19 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 179"
-seiten: "47"
+titel: "Ziff. 8.3 Beispiel – Wechsel Bern (Monatsmodell) nach Tessin (Jahresmodell) (Teil 2/2)"
+ziffer: "8.3"
+seiten: "56"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 47
+> Bund · Steuerjahr 2025/2026 · KS 45 · 8 Kantonswechsel › 8.3 Monatsmodell zu Jahresmodell · S. 56
 
-    Tarifcode   C0   C0   C0   C1   C1   B1   B1
+    mung massgebend.
+    2 = A0 mit satzbestimmendem Monatseinkommen von CHF 5 000.00.
 
-    Steuersatz (%)   12,01   12,0   12,12   9,84   9,8   4,15   4,1
+    3 = A0 mit satzbestimmendem Monatseinkommen von CHF 35 000.00 (CHF 5 000 + CHF 30 000).
 
-    Quellensteuer   720   720   750.20   607.60   607.60   254.20   500.20   7 759.80
-    Korrektur
-    +42.003   +42.00
-    Januar – Juli
-    Total
-    720   720   792.20   607.60   607.60   254.20   500.20   7 801.80
-    Quellensteuer
-    1 = C0 mit satzbestimmendem Jahreseinkommen von CHF 78 000.00 (CHF 6 000 x 13).
+    4 = Die Quellensteuer ist im Monat nach dem Kantonswechsel mit dem neuen, zuständigen Kanton nach
 
-    2 = C0 mit satzbestimmendem Jahreseinkommen von CHF 79 000.00 ([CHF 6 000 x 13] + [CHF 200 x 5]).
-
-    3 = Korrektur des Quellensteuerabzugs für die Monate Januar bis Juli ([CHF 6 000 x 12.10 %] x 7) –
-
-    (CHF 720 x 7).
-    4 = C1 mit satzbestimmendem Jahreseinkommen von CHF 79 000.00.
-
-    5 = B1 mit satzbestimmendem Jahreseinkommen von CHF 79 000.00.
+    dessen Tarif abzurechnen.
+    5 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).

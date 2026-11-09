@@ -4,7 +4,7 @@ quelle: bund-sthg
 jur: bund
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 7 StHG – Grundsatz (Teil 2/9)"
+titel: "Art. 7 StHG – Grundsatz (Teil 2/8)"
 artikel: "Art. 7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
 ---

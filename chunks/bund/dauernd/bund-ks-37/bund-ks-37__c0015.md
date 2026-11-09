@@ -4,23 +4,17 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 15"
-seiten: "3"
+titel: "Ziff. 3.1 Besteuerung von Mitarbeiteraktien – Grundsatz (Art. 17b DBG)"
+ziffer: "3.1"
+seiten: "6-7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 37 · 3 Besteuerung von Mitarbeiteraktien › 3.1 Grundsatz · S. 6–7
 
-2   Begriffe
-2.1   Mitarbeitende
-Als Mitarbeitende im Sinne dieses Kreisschreibens gelten Arbeitnehmende, die im Dienste
-eines Arbeitgebers stehen (vgl. Art. 319 Abs. 1 des Bundesgesetzes betreffend die Ergän-
-zung des Schweizerischen Zivilgesetzbuches [Fünfter Teil: Obligationenrecht; OR, SR 220]
-und Art. 17 DBG) sowie Mitglieder der Verwaltung oder der Geschäftsführung ungeachtet
-deren Wohnsitz respektive Ansässigkeit. Massgebend ist dabei, ob die Einkünfte aus dem
-zugrundeliegenden Rechtsverhältnis als Einkommen aus unselbständiger Erwerbstätigkeit
-gemäss Artikel 17 Absatz 1 DBG qualifizieren.
-
-Ebenfalls als Mitarbeitende gelten künftige Angestellte, wenn der künftige Arbeitgeber ihnen
-mit Blick auf das bevorstehende Arbeitsverhältnis bereits Mitarbeiterbeteiligungen einräumt,
-bzw. ehemalige Mitarbeitende, denen der ehemalige Arbeitgeber während der Anstellungs-
-dauer Mitarbeiterbeteiligungen eingeräumt hat.
+3   Besteuerung von Mitarbeiteraktien (Art. 17b DBG)
+3.1   Grundsatz
+Werden Mitarbeiteraktien unentgeltlich oder zu Vorzugsbedingungen abgegeben, stellt die
+positive Differenz zwischen dem Verkehrswert und dem Abgabepreis bei den Mitarbeitenden
+einen geldwerten Vorteil und damit Einkommen aus unselbständiger Erwerbstätigkeit dar
+(vgl. Art. 17 Abs. 1 DBG). Mitarbeiteraktien sind bei Abgabe, d.h. im Zeitpunkt des Rechtser-
+werbs zu besteuern.

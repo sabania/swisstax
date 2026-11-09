@@ -4,33 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 214"
-seiten: "57"
+titel: "Ziff. 11.4 Beispiel – Quasi-Ansässigkeit nicht erfüllt (75.7 Prozent)"
+ziffer: "11.4"
+seiten: "66"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 57
+> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.4 NOV auf Antrag bei Ansässigkeit im Ausland · S. 66
 
-<!-- Seite 57 -->
     Beispiel:
-    - Ein lediger Steuerpflichtiger arbeitet vom 1. Januar bis 31. Dezember 2021 mit einem Pensum von 100 %
-    beim gleichen Arbeitgeber. Er erhält einen Bruttojahreslohn inkl. 13. Monatslohn von CHF 65 000.00
-    (CHF 5 000.00 x 12 + CHF 5 000.00) und erhält im Februar 2021 einen Bonus von CHF 30 000.00 ausbe-
-    zahlt. Am 15. August 2021 verlegt er seinen Wohnsitz vom Kanton Tessin in den Kanton Genf.
-
-    Monat   Jan.   Feb.   März   …   Aug.   Sep. 5   …   Dez.   Besteuerung
-
-    Bruttolohn   5 000   5 000   5 000   5 000   5 000   10 000   65 000.00
-    Bonus
-    30 000   30 000.00
-    (aperiodisch)
-    Tarifcode   A0   A0   A0   A0   A0   A0
-
-    Steuersatz TI (%)   10,41   14,42   14,4   14,4
-
-    Steuersatz GE (%)   11,315   11,31
-
-    Korrektur Januar   +2003
-
-    Quellensteuer   520   5 240   720   720   565.50   1 131   12 907.50
-
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
+    -   Eine in Frankreich ansässige Person erzielt jährliche Bruttoeinkünfte in der Höhe von CHF 132 200.00,
+    welche sich wie folgt zusammensetzen:
+       Jahresbruttolohn von CHF 100 000.00 aus der unselbstständigen Erwerbstätigkeit in der Schweiz;
+       Erträge von CHF 20 000.00 aus der Vermietung einer Liegenschaft in Frankreich;
+       Zinserträge auf in- und ausländischen Bankkonten von CHF 200.00 und
+       Alimentenzahlungen vom Ex-Ehegatten mit Wohnsitz in der Schweiz in der Höhe von CHF 12 000.00
+    In Anwendung der internationalen Zuteilungsregeln ist einzig das Einkommen aus unselbstständiger Er-
+    werbstätigkeit in der Schweiz steuerbar. Der Anteil dieses Einkommens an den weltweiten Einkünften be-
+    trägt 75.7 % der steuerpflichtigen Person. Die Person gilt somit in der Schweiz nicht als quasi-ansässig.

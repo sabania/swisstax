@@ -4,24 +4,24 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 39"
-seiten: "9"
+titel: "Ziff. 9.1 Säule-3a-Police: Risikoprämie; Verzicht auf Rückforderung"
+ziffer: "9.1"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 9
+> Bund · Steuerjahr 2026 · KS 18a · 9. Folgen unzulässiger Einzahlungen › 9.1 Für den Vorsorgenehmer · S. 12
 
-Verlangt ein Vorsorgenehmer innerhalb der fünf Jahre vor Erreichen des Referenzalters,
-dass ihm sein Vorsorgekapital ausbezahlt wird, beendet er damit den Aufbau seiner Vor-
-sorge, auch wenn er nur eine Teilauszahlung verlangt. Mit dem ersten Bezug verfügt der
-Vorsorgenehmer über seinen Vorsorgeanspruch, wodurch der anwartschaftliche Charakter
-des entsprechenden Vorsorgeguthabens dahinfällt. Bereits im Zeitpunkt des ersten Bezugs
-(Teilbezüge stellen lediglich eine Zahlungsmodalität dar) realisiert er das gesamte auf dem
-betroffenen Konto/der betroffenen Police angesammelte Vorsorgekapital inklusive Zinsen.
-Dies hat zur Folge, dass das gesamte auf diesem Konto/dieser Police vorhandene Vorsorge-
-kapital einkommenssteuerlich erfasst wird. Beim ersten Teilbezug ist daher das Vorsorge-
-konto/die Vorsorgepolice zu saldieren; das nicht bezogene Kapital ist auf ein frei verfügbares
-Konto zu übertragen. Die Versicherungsleistung unterliegt grundsätzlich gemäss Artikel 7
-VStG der Verrechnungssteuer (Ausnahmen vgl. Art. 8 VStG). Die entsprechende Steuer-
-pflicht kann entweder durch Meldung der steuerbaren Leistung oder durch Entrichtung der
-Steuer erfüllt werden (Art. 11 Abs. 1 VStG). Bei Meldung ist die Bruttoleistung inkl. Zinsen
-anzugeben.
+Bei Säule-3a-Versicherungspolicen kann jedoch nur der Sparteil an der Gesamtprämie zu-
+rückerstattet werden. Die Prämie für eine Risikoversicherung kann nicht mehr zurückbezahlt
+werden, da das Risiko zum Zeitpunkt der Besteuerung vom Versicherer bereits gedeckt
+wurde und die Prämie daher geschuldet ist. Übersteigt der Prämienanteil für eine Risikover-
+sicherung den höchstzulässigen Abzug gemäss Artikel 7 BVV 3 muss eine sofortige Anpas-
+sung der Risikoversicherung verlangt werden.
+
+Auch wenn eine steuerpflichtige Person – trotz entsprechender Verpflichtung – auf die Rück-
+forderung der zu viel einbezahlten Säule 3a-Beiträge verzichtet, wird bei einer späteren Aus-
+zahlung das gesamte Säule 3a-Guthaben besteuert. Denn ein Bezug aus der Säule 3a un-
+terliegt immer vollumfänglich der Einkommenssteuer, unabhängig davon, ob die einbezahl-
+ten Beiträge steuerlich in Abzug gebracht wurden. Die zu viel einbezahlten und nicht zurück-
+geforderten Beiträge sowie die darauf entfallenden Zinsen werden somit im Zeitpunkt des
+Bezugs nicht herausgerechnet.

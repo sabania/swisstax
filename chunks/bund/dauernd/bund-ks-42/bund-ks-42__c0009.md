@@ -4,22 +4,21 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 9"
-seiten: "2"
+titel: "Ziff. 4.1 Allgemeines – Voraussetzungen, Altersrentner, Lebenshaltungskosten (Teil 1/2)"
+ziffer: "4.1"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.1 Allgemeines · S. 6
 
-2   Bildungssystem in der Schweiz
-
-Der neue Abzug orientiert sich am schweizerischen Bildungssystem und übernimmt insbeson-
-dere dessen Begrifflichkeit. Das Bildungssystem in der Schweiz umfasst grundsätzlich die folgen-
-den Stufen bzw. Bereiche (vgl. dazu die Ausführungen des Schweizer Medieninstituts für Bildung
-und Kultur im Auftrag des Staatssekretariats für Bildung, Forschung und Innovation und der
-Schweizerischen Konferenz der kantonalen Erziehungsdirektoren):
-– Primarstufe: Die Primarstufe – inklusive zwei Jahre Kindergarten oder die ersten beiden Jahre
-einer Eingangsstufe – umfasst acht Jahre. Die Kantone mit ihren Gemeinden sind zuständig für
-die Organisation und Finanzierung der Primarstufe. Träger der Schulen sind die Gemeinden. Der
-Schulbesuch ist für alle Kinder obligatorisch und kostenlos. Beim Eintritt in die Primarstufe sind
-die Kinder in der Regel zwischen vier und fünf Jahre alt.
-– Sekundarstufe I: Die Sekundarstufe I folgt auf die Primarstufe und dauert in der Regel drei Jahre
+Nach dem Wortlaut dieser Bestimmung kann bei Vorliegen eines Abschlusses auf der Sekundar-
+stufe II ein allgemeiner Abzug für alle berufsorientierten Aus- und Weiterbildungskosten geltend
+gemacht werden. Dieser umfasst die Kosten für die Weiterbildung im bisherigen Beruf, für die
+Umschulung, für den Wiedereinstieg und für den Berufsaufstieg.
+Ab dem vollendeten 20. Lebensjahr können steuerpflichtige Personen auch ohne einen Ab-
+schluss auf der Sekundarstufe II ihre anfallenden berufsorientierten Aus- und Weiterbildungskos-
+ten abziehen, sofern diese nicht im Hinblick auf den ersten Abschluss auf der Sekundarstufe II
+aufgewendet werden.
+Mit dieser schematischen Abgrenzung, die dem Wortlaut von Artikel 33 Absatz 1 Buch-
+stabe j DBG zugrunde liegt, können sämtliche berufsorientierten Aus- und Weiterbildungskosten
+von Bildungsaktivitäten sowohl auf der Sekundarstufe II (nach dem ersten Abschluss auf dersel-

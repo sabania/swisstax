@@ -4,7 +4,7 @@ quelle: bund-dbg-2026
 jur: bund
 jahre: [2026]
 typ: gesetz
-titel: "Art. 107 DBG – Bei Quellensteuern (Teil 2/3)"
+titel: "Art. 107 DBG – Bei Quellensteuern (Teil 2/2)"
 artikel: "Art. 107"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
@@ -20,3 +20,5 @@ qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 - a. für Arbeitnehmer nach Absatz 1 Buchstabe a: der Kanton, in dem die steuerpflichtige Person am Ende der Steuerperiode oder der Steuerpflicht ihren steuerrechtlichen Wohnsitz oder Aufenthalt hatte;
 - b. für Personen nach Absatz 1 Buchstabe b: der Kanton, in dem die steuerpflichtige Person am Ende der Steuerperiode oder der Steuerpflicht erwerbstätig war;
 - c. für Arbeitnehmer nach Absatz 2: der Kanton, in dem die steuerpflichtige Person am Ende der Steuerperiode oder der Steuerpflicht Wochenaufenthalt hatte.
+
+**Abs. 5** Der nach Absatz 4 zuständige Kanton hat Anspruch auf allfällige im Kalenderjahr an andere Kantone überwiesene Quellensteuerbeträge. Zu viel bezogene Steuern werden dem Arbeitnehmer zurückerstattet, zu wenig bezogene Steuern nachgefordert.

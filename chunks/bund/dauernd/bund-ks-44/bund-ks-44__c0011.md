@@ -4,17 +4,26 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 11"
-seiten: "3"
+titel: "Ziff. 3.2 Lebenshaltungskosten – Aufzählung"
+ziffer: "3.2"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.2 Weltweiter Aufwand · S. 4
 
-2.4   Erfüllung der Voraussetzungen durch beide Ehegatten
-Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, müssen beide die Voraus-
-setzungen nach Artikel 14 Absatz 1 DBG erfüllen.
-Hat einer der beiden in rechtlich und tatsächlich ungetrennter Ehe lebenden Ehegatten das
-Schweizer Bürgerrecht oder erwirbt dieses, übt einer der beiden Ehegatten eine Erwerbstätig-
-keit in der Schweiz aus oder nimmt eine Erwerbstätigkeit in der Schweiz auf, so hat dies den
-Verlust des Rechts auf Aufwandbesteuerung für beide Ehegatten zur Folge. In diesem Fall ist
-für die ganze Steuerperiode die ordentliche Steuer vom Einkommen zu entrichten.
+Unter die Lebenshaltungskosten der steuerpflichtigen Person fallen insbesondere (siehe dazu
+Botschaft S. 6035 zu Art. 14 Abs. 3 DBG):
+-   die Kosten für Verpflegung und Bekleidung,
+-   die Kosten für Unterkunft inkl. Heizung, Reinigung, Gartenunterhalt usw.,
+-   die Steuern und Sozialversicherungsabgaben,
+-   die gesamten Aufwendungen (Geld- und Naturalleistungen) für Personal im Dienste der
+    steuerpflichtigen Person,
+-   Unterhaltsbeiträge,
+-   die Ausgaben für Bildung inkl. Schulkosten der Kinder im Ausland, Freizeit, Sport usw.,
+-   die Ausgaben für Reisen, Ferien, sportliche Aktivitäten und andere Unterhaltung, Kuren usw.,
+-   die Kosten für die Haltung aufwändiger Haustiere (Reitpferde usw.),
+-   die Unterhalts- und Betriebskosten von Automobilen, Motorbooten, Jachten, Flugzeugen usw.
+
+Ebenfalls zum steuerbaren Aufwand sind die Lebenshaltungskosten zu rechnen, die der Ehe-
+gatte der steuerpflichtigen Person und die Kinder unter elterlicher Sorge aus eigenen Mitteln be-
+streiten (vgl. Art. 9 DBG).

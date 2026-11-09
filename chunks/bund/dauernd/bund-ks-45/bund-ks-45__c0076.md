@@ -4,26 +4,33 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 76"
-seiten: "18"
+titel: "Ziff. 6.4 Beispiele 8–9 – Lohn und IV-Rente (Tarifcode G), Tätigkeit ohne Pensum"
+ziffer: "6.4"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.4 Satzbestimmendes Einkommen Teilzeit · S. 24
 
-4.8   Kirchensteuerpflicht
-Die Kirchensteuerpflicht richtet sich nach dem kantonalen Recht. Dabei ist zu beachten, dass
-die Kirchensteuern grundsätzlich auch von den DBA erfasst sind und zu deren Erhebung der
-Schweiz das Besteuerungsrecht eingeräumt werden muss.
+    8. Lohneinkommen und Ersatzeinkünfte:
+    Der Arbeitnehmer Z. erhält folgende Entschädigungen, welche beiden Schuldnern der steuerbaren Leis-
+    tungen bekannt sind:
 
-4.9   Härtefallregelung
-Auf Antrag einer in der Schweiz ansässigen Person kann die zuständige Steuerbehörde zur
-Milderung von wirtschaftlichen Härtefällen infolge Alimentenzahlungen Kinderabzüge im an-
-wendbaren Tarif gewähren (vgl. Art. 11 Abs. 1 QStV). Als Grundlage für die Beurteilung, ob
-ein Härtefall vorliegt, kann zum Beispiel das betreibungsrechtliche Existenzminimum dienen.
-Der anwendbare Quellensteuertarif wird unter Berücksichtigung der effektiven Alimentenzah-
-lungen neu festgelegt (bspw. Tarif A2 anstatt A0). Die zuständige kantonale Steuerbehörde
-legt die Höhe der zu gewährenden Kinderabzüge fest und teilt ihren Entscheid dem Schuld-
-ner der steuerbaren Leistung sowie dem Arbeitnehmer mit.
-Wurden die Unterhaltsbeiträge bei der Anwendung eines Tarifcodes berücksichtigt, so wird
-die nachträgliche ordentliche Veranlagung nur auf Antrag der quellensteuerpflichtigen Per-
-son durchgeführt (vgl. Art. 11 Abs. 2 QStV).
+    Pensum/   Bruttolohn/-
+    Arbeitgeber/Versicherung   Satzbestimmend
+    IV-Grad   rente
+
+    P. AG (CH)   60 %   6 000   10 000
+
+    IV-Rente (CH) 1   40 %   2 000   5 000
+    1 Besteuerung mit dem Tarifcode G
+
+
+    9. Lohneinkommen und Tätigkeit ohne Pensum:
+    Der Arbeitnehmer Z. erhält folgende Entschädigungen:
+
+    Arbeitgeber   Pensum   Bruttolohn   Satzbestimmend
+
+    R. AG (CH)   100 %   7 000   7 000
+
+    Nebenamtliche Tätigkeit (CH)   n.a.   500   5 4251
+    1 maximales satzbestimmendes Einkommen des Ehegatten beim Tarifcode C (Stand: 1.1.2019)

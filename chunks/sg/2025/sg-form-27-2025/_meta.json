@@ -1,176 +1,244 @@
 [
 {
 "id": "sg-form-27-2025__c0001",
-"titel": "Formular 27 SG 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Merkblatt 27 – Steuerpflicht Nebensteuerdomizil Liegenschaft/Geschäftsbetrieb (Teil 1/3)",
+"pfad": [
+"Steuerpflicht"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Nebensteuerdomizil",
+"Liegenschaft ausserkantonal",
+"Betriebsstätte",
+"beschränkte Steuerpflicht",
+"Wohnsitz Ausland"
+],
+"positionen": [
+"personalien"
+],
+"zusammenfassung": "Liegenschaft oder Geschäftsbetrieb begründet am Ort der Sache ein Nebensteuerdomizil; Steuerpflicht für die gesamte Periode, Wert im Verhältnis zur Dauer vermindert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-form-27-2025__c0002"
 },
 {
 "id": "sg-form-27-2025__c0002",
-"titel": "Formular 27 SG 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Merkblatt 27 – Steuerpflicht Nebensteuerdomizil Liegenschaft/Geschäftsbetrieb (Teil 2/3)",
+"pfad": [
+"Steuerpflicht"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Nebensteuerdomizil",
+"Liegenschaft ausserkantonal",
+"Betriebsstätte",
+"beschränkte Steuerpflicht",
+"Wohnsitz Ausland"
+],
+"positionen": [
+"personalien"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-27-2025__c0001",
 "nachher": "sg-form-27-2025__c0003"
 },
 {
 "id": "sg-form-27-2025__c0003",
-"titel": "Formular 27 SG 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Merkblatt 27 – Steuerpflicht Nebensteuerdomizil Liegenschaft/Geschäftsbetrieb (Teil 3/3)",
+"pfad": [
+"Steuerpflicht"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Nebensteuerdomizil",
+"Liegenschaft ausserkantonal",
+"Betriebsstätte",
+"beschränkte Steuerpflicht",
+"Wohnsitz Ausland"
+],
+"positionen": [
+"personalien"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-27-2025__c0002",
 "nachher": "sg-form-27-2025__c0004"
 },
 {
 "id": "sg-form-27-2025__c0004",
-"titel": "Formular 27 SG 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Steuererklärung – Wohnsitz in anderem Kanton oder im Ausland, Formular 7 (Teil 1/2)",
+"pfad": [
+"Steuererklärung"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuererklärung Kopie",
+"E-Tax SG",
+"Formular 7",
+"Formular 7 Z",
+"Liegenschaft Ausland",
+"Finanzbescheid"
+],
+"positionen": [
+"verfahren.einreichung",
+"einkommen.liegenschaften.mietertrag"
+],
+"zusammenfassung": "Bei Wohnsitz in anderem Kanton genügt eine Kopie der Steuererklärung des Wohnsitzkantons; bei Wohnsitz im Ausland ist die vollständige St.Galler Steuererklärung mit Formular 7 pro Liegenschaft einzureichen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-27-2025__c0003",
 "nachher": "sg-form-27-2025__c0005"
 },
 {
 "id": "sg-form-27-2025__c0005",
-"titel": "Formular 27 SG 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Steuererklärung – Wohnsitz in anderem Kanton oder im Ausland, Formular 7 (Teil 2/2)",
+"pfad": [
+"Steuererklärung"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuererklärung Kopie",
+"E-Tax SG",
+"Formular 7",
+"Formular 7 Z",
+"Liegenschaft Ausland",
+"Finanzbescheid"
+],
+"positionen": [
+"verfahren.einreichung",
+"einkommen.liegenschaften.mietertrag"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-27-2025__c0004",
 "nachher": "sg-form-27-2025__c0006"
 },
 {
 "id": "sg-form-27-2025__c0006",
-"titel": "Formular 27 SG 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "Bemessungsgrundlagen – Stichtag, unterjährige Steuerpflicht, Umrechnung",
+"pfad": [
+"Bemessungsgrundlagen"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"unterjährig",
+"Umrechnung",
+"satzbestimmendes Einkommen",
+"Gratifikation",
+"regelmässig fliessende Einkünfte"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Vermögen per 31. Dezember bzw. Ende der Steuerpflicht; regelmässige Einkünfte werden auf zwölf Monate umgerechnet, unregelmässige (Gratifikationen, Boni) nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-27-2025__c0005",
 "nachher": "sg-form-27-2025__c0007"
 },
 {
 "id": "sg-form-27-2025__c0007",
-"titel": "Formular 27 SG 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "Steuerausscheidung – Aufteilung von Einkommen und Vermögen",
+"pfad": [
+"Steuerausscheidung"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerausscheidung",
+"interkantonal",
+"Doppelbesteuerungsabkommen",
+"Schuldzinsen",
+"weltweites Einkommen"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"schulden.privat"
+],
+"zusammenfassung": "Die Steuerausscheidung teilt Gesamteinkommen und -vermögen auf die beteiligten Kantone und Staaten auf; st.gallische Grundstücke und Geschäftsgewinne besteuert SG ausschliesslich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-27-2025__c0006",
 "nachher": "sg-form-27-2025__c0008"
 },
 {
 "id": "sg-form-27-2025__c0008",
-"titel": "Formular 27 SG 2025 – Abschnitt 8",
-"pfad": [],
+"titel": "Steuerausscheidung – Steuersatz, Schulden und Schuldzinsen, Deklarationspflicht",
+"pfad": [
+"Steuerausscheidung"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerausscheidung",
+"interkantonal",
+"Doppelbesteuerungsabkommen",
+"Schuldzinsen",
+"weltweites Einkommen"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"schulden.privat"
+],
+"zusammenfassung": "Für den Steuersatz ist das gesamte weltweite Einkommen und Vermögen massgebend; Schulden und Schuldzinsen werden proportional nach Lage der Gesamtaktiven zugewiesen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-27-2025__c0007",
 "nachher": "sg-form-27-2025__c0009"
 },
 {
 "id": "sg-form-27-2025__c0009",
-"titel": "Formular 27 SG 2025 – Abschnitt 9",
-"pfad": [],
+"titel": "Eigenmietwert ausländischer Liegenschaften; Auskünfte",
+"pfad": [
+"Eigenmietwert",
+"Auskünfte"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Eigenmietwert Ausland",
+"Marktmiete",
+"Ferienhaus Ausland",
+"Gemeindesteueramt"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Eigenmietwerte ausländischer Liegenschaften sind zu deklarieren (erzielbare Marktmiete), auch wenn im Ausland nicht besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-27-2025__c0008",
-"nachher": "sg-form-27-2025__c0010"
-},
-{
-"id": "sg-form-27-2025__c0010",
-"titel": "Formular 27 SG 2025 – Abschnitt 10",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-form-27-2025__c0009",
-"nachher": "sg-form-27-2025__c0011"
-},
-{
-"id": "sg-form-27-2025__c0011",
-"titel": "Formular 27 SG 2025 – Abschnitt 11",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-form-27-2025__c0010",
 "nachher": null
 }
 ]

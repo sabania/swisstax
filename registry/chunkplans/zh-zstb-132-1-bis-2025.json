@@ -1,0 +1,533 @@
+{
+ "id": "zh-zstb-132-1-bis-2025",
+ "hinweise": [
+  "Textextraktion sauber; Formularlisten (Nummer, Bezeichnung) in zwei Spalten, aber gut lesbar.",
+  "Kopfzeile 'Zürcher Steuerbuch Nr. 132.1' wiederholt sich als Seitenrest ab S. 5."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "A. Einleitende Bemerkungen – Pflicht zur Steuererklärung, Geltungsbereich",
+   "pfad": [
+    "A. Einleitende Bemerkungen"
+   ],
+   "stichworte": [
+    "Steuererklärung Pflicht",
+    "Steuerperiode",
+    "Volljährigkeit erste Steuererklärung",
+    "Beendigung Steuerpflicht",
+    "Verrechnungssteuer Antrag"
+   ],
+   "zusammenfassung": "Natürliche und juristische Personen reichen für jede Steuerperiode eine Steuererklärung ein, in der Regel im folgenden Kalenderjahr; wer volljährig geworden ist, reicht im Folgejahr erstmals eine eigene ein.",
+   "ziffer": "A",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 53,
+   "titel": "B. Steuerpflicht – Einreichungspflicht und Ausnahmen (Quellensteuer)",
+   "pfad": [
+    "B. Steuerpflicht"
+   ],
+   "stichworte": [
+    "Einreichungspflicht",
+    "Quellensteuer Ausnahme",
+    "nachträgliche ordentliche Veranlagung",
+    "Aufforderung zur Einreichung",
+    "Einschätzung Veranlagung"
+   ],
+   "zusammenfassung": "Alle Steuerpflichtigen werden zur Abgabe aufgefordert; ausgenommen sind nur Quellensteuerpflichtige, die nicht die Voraussetzungen der nachträglichen ordentlichen Veranlagung erfüllen.",
+   "ziffer": "B",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 71,
+   "titel": "C.–D. Durchführung (Gemeindesteuerämter) und Publikation der Aufforderung",
+   "pfad": [
+    "C. Durchführung",
+    "D. Publikationen"
+   ],
+   "stichworte": [
+    "Gemeindesteueramt",
+    "kantonales Steueramt Abteilung Register",
+    "Amtsblatt Januar März",
+    "Rückerstattung Verrechnungssteuer ESTV"
+   ],
+   "zusammenfassung": "Das Verfahren für natürliche Personen führen die Gemeindesteuerämter durch, für juristische Personen das kantonale Steueramt; die Aufforderung wird im Januar und März im Amtsblatt publiziert.",
+   "ziffer": "C / D",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 100,
+   "titel": "E.I Formularverzeichnis natürliche Personen – Lohnausweis, Steuererklärung 300/303, Wegleitung, Hilfsblätter A",
+   "pfad": [
+    "E. Formularverzeichnis",
+    "I. Natürliche Personen"
+   ],
+   "stichworte": [
+    "Formular 300",
+    "Formular 303",
+    "Wegleitung 305",
+    "Lohnausweis Form. 11",
+    "Hilfsblatt A Selbständigerwerbende",
+    "Liquidationsgewinne"
+   ],
+   "zusammenfassung": "Formulare: Form. 11 Lohnausweis, 300 Steuererklärung (im Kanton wohnhaft), 303 (ausserkantonal mit Liegenschaften/Betriebsstätten), 305 Wegleitung, 321–329 Selbständigerwerbende.",
+   "ziffer": "E.I",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 127,
+   "titel": "E.I Formularverzeichnis – Landwirtschaft 330–332",
+   "pfad": [
+    "E. Formularverzeichnis",
+    "I. Natürliche Personen"
+   ],
+   "stichworte": [
+    "Hilfsblatt B Landwirtschaft",
+    "Hilfsblatt G",
+    "Landwirte",
+    "Forstwirtschaft Formular 332"
+   ],
+   "zusammenfassung": "Formulare 330 (Hilfsblatt B), 331 (Hilfsblatt G) und 332 (Wegleitung) für Einkünfte aus Land- und Forstwirtschaft.",
+   "ziffer": "E.I"
+  },
+  {
+   "start": 136,
+   "titel": "E.I Formularverzeichnis – Wertschriftenverzeichnis 340, Liegenschaften 350, Schulden 355, Berufsauslagen 360, Versicherungen 365–370",
+   "pfad": [
+    "E. Formularverzeichnis",
+    "I. Natürliche Personen"
+   ],
+   "stichworte": [
+    "Wertschriften- und Guthabenverzeichnis 340",
+    "Liegenschaftenverzeichnis 350",
+    "Schuldenverzeichnis 355",
+    "Berufsauslagen 360",
+    "Versicherungsprämien 365",
+    "Weiterbildung 367",
+    "Krankheitskosten 370"
+   ],
+   "zusammenfassung": "Formulare 340/342 Wertschriften, 345/346 qualifizierte Beteiligungen, 350/352 Liegenschaften, 355 Schulden, 360 Berufsauslagen, 365 Versicherungsprämien, 367 Weiterbildung, 370 Krankheits-/Behinderungskosten.",
+   "ziffer": "E.I",
+   "positionen": [
+    "vermoegen.wertschriften_guthaben",
+    "abzug.berufskosten.uebrige",
+    "abzug.versicherungspraemien",
+    "abzug.weiterbildung",
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 161,
+   "titel": "E.I Formularverzeichnis – Inventar, Todesfall, Erbschaft, DA-1/DA-3",
+   "pfad": [
+    "E. Formularverzeichnis",
+    "I. Natürliche Personen"
+   ],
+   "stichworte": [
+    "Inventarfragebogen 395",
+    "Tresoröffnungsprotokoll",
+    "Erbschaftssteuer Merkblatt",
+    "DA-1",
+    "DA-3",
+    "Wegleitung 438"
+   ],
+   "zusammenfassung": "Formulare 395–398 (Inventar, Todesfälle, Erbschafts- und Schenkungssteuer), 430 DA-1, 434 DA-3 und 438 Wegleitung zu DA-1/2/3.",
+   "ziffer": "E.I",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 175,
+   "titel": "E.II Formularverzeichnis juristische Personen – 12, 431, 434, 438, 500–520",
+   "pfad": [
+    "E. Formularverzeichnis",
+    "II. Juristische Personen"
+   ],
+   "stichworte": [
+    "Kapitalgesellschaften Formular 500",
+    "Vereine Stiftungen 510",
+    "DA-2",
+    "Bescheinigung Bezüge Verwaltung",
+    "Steuerausscheidung 520"
+   ],
+   "zusammenfassung": "Formulare für juristische Personen: 12 (Bezüge Verwaltung), 431 DA-2, 434 DA-3, 438 Wegleitung, 500/505 Kapitalgesellschaften, 510 Vereine und Stiftungen, 520 Steuerausscheidung.",
+   "ziffer": "E.II"
+  },
+  {
+   "start": 208,
+   "titel": "E.II Formularverzeichnis juristische Personen – 530–570 (STAF, Beteiligungsabzug), R 25",
+   "pfad": [
+    "E. Formularverzeichnis",
+    "II. Juristische Personen"
+   ],
+   "stichworte": [
+    "Hilfsblatt STAF",
+    "Patentbox",
+    "Beteiligungsabzug",
+    "Forschungs- und Entwicklungsaufwand",
+    "Rückerstattungsantrag R 25"
+   ],
+   "zusammenfassung": "Formulare 530–547 (STAF: F&E-Abzug, Patentbox, Eigenfinanzierung), 550/551 Beteiligungen, 570 Gestehungskosten und R 25 Rückerstattungsantrag.",
+   "ziffer": "E.II"
+  },
+  {
+   "start": 232,
+   "titel": "F.I.1 Ordentliches Verfahren – vollständiger Formularsatz (Wohnsitz im Kanton, Quellensteuerpflichtige)",
+   "pfad": [
+    "F. Vorbereitung des Versandes",
+    "I. Zustellung an natürliche Personen",
+    "1. Vollständiger Formularsatz"
+   ],
+   "stichworte": [
+    "vollständiger Formularsatz",
+    "Formulare 300 305 340 360 365 367 370",
+    "Quellensteuerpflichtige ordentliche Veranlagung",
+    "Wohnsitz Kanton Zürich"
+   ],
+   "zusammenfassung": "Allen im Kanton Zürich Wohnhaften werden Formulare 300, 305, 340, 360, 365, 367 und 370 zugestellt, auch Quellensteuerpflichtigen mit nachträglicher ordentlicher Veranlagung.",
+   "ziffer": "F.I.1 a)",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 262,
+   "titel": "F.I.1 b)–d) Zusatzformulare Liegenschaften, Selbständigerwerbende, Landwirte, ausserkantonal Wohnhafte",
+   "pfad": [
+    "F. Vorbereitung des Versandes",
+    "I. Zustellung an natürliche Personen",
+    "1. Vollständiger Formularsatz"
+   ],
+   "stichworte": [
+    "Liegenschaftenverzeichnis 350 352 355",
+    "Selbständigerwerbende Hilfsblatt A",
+    "Landwirte 330 331 332",
+    "ausserkantonal Formular 303"
+   ],
+   "zusammenfassung": "Liegenschaftsbesitzer erhalten 350/352/355, Selbständigerwerbende 321–329, Landwirte zusätzlich 330–332, ausserkantonal Wohnhafte 303 und 305.",
+   "ziffer": "F.I.1 b)–d)",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 299,
+   "titel": "F.I.2 Reduzierter Formularsatz (Steuererklärungssoftware)",
+   "pfad": [
+    "F. Vorbereitung des Versandes",
+    "I. Zustellung an natürliche Personen",
+    "2. Reduzierter Formularsatz"
+   ],
+   "stichworte": [
+    "reduzierter Formularsatz",
+    "Steuererklärungssoftware",
+    "Formulare 300 und 340"
+   ],
+   "zusammenfassung": "Wer die Steuererklärung mit Software ausgefüllt hat, erhält ab der Folgeperiode nur noch die Formulare 300 und 340.",
+   "ziffer": "F.I.2",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 314,
+   "titel": "F.I.3–4 Zugangsdaten ZHprivateTax online und nachträgliche ordentliche Veranlagung",
+   "pfad": [
+    "F. Vorbereitung des Versandes",
+    "I. Zustellung an natürliche Personen"
+   ],
+   "stichworte": [
+    "ZHprivate Tax",
+    "Online-Steuererklärung",
+    "Zugangsdaten",
+    "Quellensteuer nachträgliche ordentliche Veranlagung",
+    "ausländische Arbeitnehmer"
+   ],
+   "zusammenfassung": "Wer im Vorjahr ZHprivate Tax online verwendet hat, erhält nur ein Schreiben mit Zugangsdaten; für die nachträgliche ordentliche Veranlagung Quellensteuerpflichtiger gelten die gleichen Formulare wie bei ordentlich Besteuerten.",
+   "ziffer": "F.I.3 / F.I.4",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 331,
+   "titel": "F.II–III Zustellung an juristische Personen und Beschriftung (Ehepaare, eingetragene Partnerschaft)",
+   "pfad": [
+    "F. Vorbereitung des Versandes",
+    "II.–III. Juristische Personen, Beschriftung"
+   ],
+   "stichworte": [
+    "Ehepaare gemeinsame Zustellung",
+    "eingetragene Partnerschaft",
+    "Beschriftung Steuererklärung",
+    "Allianzname",
+    "Postversand Wertschriftenverzeichnis"
+   ],
+   "zusammenfassung": "Bei ungetrennter Ehe sind die Unterlagen beiden Eheleuten gemeinsam zuzustellen (beide nennen); bei eingetragener Partnerschaft beide Partner in alphabetischer Reihenfolge.",
+   "ziffer": "F.II / F.III"
+  },
+  {
+   "start": 352,
+   "titel": "F.IV–V Versand (Retourcouvert) und Frist der Formularzustellung (Ende Januar)",
+   "pfad": [
+    "F. Vorbereitung des Versandes",
+    "IV. Versand / V. Fristen"
+   ],
+   "stichworte": [
+    "Versand Formulare",
+    "Retourcouvert",
+    "Ende Januar",
+    "§ 33 StV"
+   ],
+   "zusammenfassung": "Die Formularzustellung an die Steuerpflichtigen des Hauptregisters muss bis Ende Januar abgeschlossen sein; jeder Sendung ist ein Retourcouvert beizulegen.",
+   "ziffer": "F.IV / F.V"
+  },
+  {
+   "start": 367,
+   "titel": "F.VI Heirat, Trennung, Scheidung, Tod im Kalenderjahr – gemeinsame bzw. getrennte Besteuerung",
+   "pfad": [
+    "F. Vorbereitung des Versandes",
+    "VI. Begründung und Auflösung der Ehe/Partnerschaft"
+   ],
+   "stichworte": [
+    "Heirat Steuerperiode",
+    "Scheidung Trennung getrennte Besteuerung",
+    "Tod Ehegatte",
+    "Verwitwung",
+    "eingetragene Partnerschaft Auflösung"
+   ],
+   "zusammenfassung": "Bei Heirat werden die Eheleute für die ganze Steuerperiode gemeinsam besteuert; bei Trennung oder Scheidung für die ganze Steuerperiode getrennt mit je einer Steuererklärung; bei Tod reicht der überlebende Ehegatte eine Erklärung ab Todestag ein.",
+   "ziffer": "F.VI",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 385,
+   "titel": "G.I–II.1 Ordentliche Einreichungsfristen (31. März / 30. September) und Fristerstreckung von Amtes wegen",
+   "pfad": [
+    "G. Einreichungsfristen und Fristerstreckungen"
+   ],
+   "stichworte": [
+    "Einreichefrist 31. März",
+    "30. September juristische Personen",
+    "Fristerstreckung Selbständigerwerbende",
+    "ausserkantonal Wohnhafte",
+    "§ 39 StV"
+   ],
+   "zusammenfassung": "Natürliche Personen reichen bis 31. März des Folgejahres ein, juristische bis 30. September; Gemeindesteuerämter können für Selbständigerwerbende und ausserkantonal Wohnhafte von Amtes wegen bis 30. September erstrecken.",
+   "ziffer": "G.I / G.II.1",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 413,
+   "titel": "G.II.2 a) Fristerstreckungsgesuche – Allgemeines und Wiederherstellung",
+   "pfad": [
+    "G. Einreichungsfristen",
+    "II. Fristerstreckung",
+    "2. Gesuche von Steuerpflichtigen"
+   ],
+   "stichworte": [
+    "Fristerstreckungsgesuch",
+    "abgelaufene Frist",
+    "Wiederherstellung der Frist",
+    "vor Ablauf einreichen",
+    "§ 15 StV"
+   ],
+   "zusammenfassung": "Gesuche sind vor Fristablauf einzureichen; nach Ablauf gestellte Gesuche sind abzuweisen, eine abgelaufene Frist kann höchstens wiederhergestellt werden.",
+   "ziffer": "G.II.2 a)",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 433,
+   "titel": "G.II.2 b) Fristerstreckung längstens bis 30. November – ausserordentliche Gründe",
+   "pfad": [
+    "G. Einreichungsfristen",
+    "II. Fristerstreckung",
+    "2. Gesuche von Steuerpflichtigen"
+   ],
+   "stichworte": [
+    "Fristerstreckung 30. November",
+    "ausserordentliche Gründe",
+    "Steuerberater Fristerstreckung",
+    "Beschwerde Finanzdirektion § 111 StG",
+    "30 Tage Nachfrist"
+   ],
+   "zusammenfassung": "Rechtzeitigen Gesuchen ist längstens bis 30. November zu entsprechen; darüber hinaus nur bei glaubhaft gemachten ausserordentlichen Gründen (starke berufliche Beanspruchung oder fehlende Unterlagen genügen nicht).",
+   "ziffer": "G.II.2 b)",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 447,
+   "titel": "G.II.2 c) Verrechnungssteuer – Rückerstattungsanspruch erlischt nach drei Jahren",
+   "pfad": [
+    "G. Einreichungsfristen",
+    "II. Fristerstreckung",
+    "2. Gesuche von Steuerpflichtigen"
+   ],
+   "stichworte": [
+    "Verrechnungssteuer Rückerstattung Frist",
+    "drei Jahre",
+    "Verrechnungssteuerantrag",
+    "Verwirkung"
+   ],
+   "zusammenfassung": "Der Anspruch auf Rückerstattung der Verrechnungssteuer erlischt, wenn er nicht innerhalb dreier Jahre nach Ablauf des Kalenderjahres der Fälligkeit geltend gemacht wird; die Frist darf nicht darüber hinaus erstreckt werden.",
+   "ziffer": "G.II.2 c)",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 456,
+   "titel": "G.II.2 d)–e) Entscheid über Fristerstreckung, stillschweigende Bewilligung, andere Kantone",
+   "pfad": [
+    "G. Einreichungsfristen",
+    "II. Fristerstreckung",
+    "2. Gesuche von Steuerpflichtigen"
+   ],
+   "stichworte": [
+    "stillschweigend bewilligt",
+    "schriftlicher Entscheid",
+    "Vertreter Eröffnung",
+    "Wohnsitzkanton Fristerstreckung",
+    "Beschwerdemöglichkeit"
+   ],
+   "zusammenfassung": "Rechtzeitige erstmalige Gesuche gelten ohne gegenteiligen Entscheid als stillschweigend bewilligt; Erstreckungsentscheide des Wohnsitzkantons gelten auch für den Kanton Zürich, wenn sie vor Ablauf der zürcherischen Frist mitgeteilt werden.",
+   "ziffer": "G.II.2 d)–e)",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 476,
+   "titel": "G.III Nachträgliche ordentliche Veranlagung von Quellensteuerpflichtigen (ab Fr. 120'000.-)",
+   "pfad": [
+    "G. Einreichungsfristen",
+    "III. Nachträgliche ordentliche Veranlagung"
+   ],
+   "stichworte": [
+    "Quellensteuer 120 000 Franken",
+    "nachträgliche ordentliche Veranlagung",
+    "Bruttoeinkünfte Quellensteuer",
+    "Einreichung 31. März"
+   ],
+   "zusammenfassung": "Betrugen die quellenbesteuerten Bruttoeinkünfte im Vorjahr oder einem der Vorjahre mindestens Fr. 120'000.-, ist eine Steuererklärung für die nachträgliche ordentliche Veranlagung bis 31. März einzureichen.",
+   "ziffer": "G.III",
+   "positionen": [
+    "verfahren.einreichung",
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 491,
+   "titel": "G.IV.1–2 Mahnungen – Allgemeines und Zeitpunkt (20 Tage vorab)",
+   "pfad": [
+    "G. Einreichungsfristen",
+    "IV. Mahnungen"
+   ],
+   "stichworte": [
+    "Mahnung Steuererklärung",
+    "Einreichung innert 20 Tagen",
+    "Mahnverfahren",
+    "§ 234 StG",
+    "Art. 174 DBG"
+   ],
+   "zusammenfassung": "Wer die Steuererklärung nicht fristgerecht einreicht, wird gemahnt; vorher kann mit gewöhnlicher Post eine Einreichung innert 20 Tagen verlangt werden, das Mahnverfahren beginnt unmittelbar nach Fristablauf.",
+   "ziffer": "G.IV.1–2",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 504,
+   "titel": "G.IV.3–5 Mahnung – Androhung (Ermessenseinschätzung, Ordnungsbusse), Mahnfrist 10 Tage, A-Post Plus",
+   "pfad": [
+    "G. Einreichungsfristen",
+    "IV. Mahnungen"
+   ],
+   "stichworte": [
+    "Mahnfrist 10 Tage",
+    "Ermessenseinschätzung",
+    "Ordnungsbusse",
+    "A-Post Plus",
+    "keine Gebühren"
+   ],
+   "zusammenfassung": "Die Mahnfrist beträgt 10 Tage und ist nicht erstreckbar; bei Unterlassung droht eine Einschätzung nach pflichtgemässem Ermessen und eine Ordnungsbusse; Mahnungen gehen per A-Post Plus ohne Gebühren.",
+   "ziffer": "G.IV.3–5",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 524,
+   "titel": "H.–I. Kontrolle bei Eingang und Rücksendung mangelhafter Steuererklärungen",
+   "pfad": [
+    "H. Kontrolle bei Eingang",
+    "I. Rücksendung mangelhafter Steuererklärungen"
+   ],
+   "stichworte": [
+    "mangelhafte Steuererklärung",
+    "provisorische Steuererklärung",
+    "Rücksendung zur Ergänzung",
+    "unvollständige Steuererklärung",
+    "§ 41 StV"
+   ],
+   "zusammenfassung": "Unvollständige oder formell unrichtige Steuererklärungen sowie «provisorische» Erklärungen ohne Details und Unterlagen werden unter Fristansetzung zur Ergänzung zurückgesandt; bei Nichtbefolgung folgt das Mahnverfahren.",
+   "ziffer": "H / I",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 545,
+   "titel": "J.–K. Verfahren bei Nichtabgabe und Ablieferung an das kantonale Steueramt",
+   "pfad": [
+    "J. Nichtabgabe",
+    "K. Ablieferung"
+   ],
+   "stichworte": [
+    "Nichtabgabe Steuererklärung",
+    "Einschätzung nach Ermessen",
+    "ZStB 139.2",
+    "ZStB 107.3",
+    "Ablieferung"
+   ],
+   "zusammenfassung": "Bei Nichtabgabe trotz Mahnung gilt die Weisung ZStB Nr. 139.2; die Ablieferung der Steuererklärungen erfolgt nach ZStB Nr. 107.3.",
+   "ziffer": "J / K",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 559,
+   "titel": "L. Inkrafttreten – Weisung vom 10. Juli 2024, gültig ab 1. Januar 2025",
+   "pfad": [
+    "L. Inkrafttreten"
+   ],
+   "stichworte": [
+    "Inkrafttreten 1. Januar 2025",
+    "Steuerperiode 2024",
+    "Weisung Finanzdirektion",
+    "ersetzt Weisung 2020"
+   ],
+   "zusammenfassung": "Die Weisung tritt am 1. Januar 2025 in Kraft, gilt erstmals für das Steuererklärungsverfahren 2025 (Steuerperiode 2024) und ersetzt die Weisung vom 30. September 2020.",
+   "ziffer": "L"
+  }
+ ]
+}

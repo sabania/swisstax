@@ -4,22 +4,20 @@ quelle: bund-ks-43
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 43 – Abschnitt 15"
-seiten: "5"
+titel: "Anhang Beispiel 4 – Forschungsstipendium CHF 42'000 mit Berichtspflicht"
+ziffer: "Beispiel 4"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 43 · Anhang: Beispiele · S. 6
 
-Beispiel 2: Besteuerung eines Förderbeitrages im Sportbereich
-Sachverhalt: Die junge Nachwuchsathletin B erhält von der Stiftung X im Jahr 2018 einen För-
-derbeitrag von CHF 5’000.– für die nächsten vier Jahre. Die Höhe des Beitrags hängt zu zwei
-Dritteln vom finanziellen Bedarf der Athletin und zu einem Drittel von anderen Bedingungen ab,
-wie beispielsweise der Verpflichtung, sich persönlich für die Stiftung X zu engagieren. Die Zu-
-sammenarbeit zwischen der Athletin und der Stiftung ist in einer schriftlichen Vereinbarung ge-
-regelt.
-Frage: Wie ist der Förderbeitrag durch die Nachwuchsathletin B zu versteuern?
-Lösung: Der Förderbeitrag der Stiftung X stellt steuerbares Einkommen im Sinne von Artikel 16
-Absatz 1 DBG dar. Dies deshalb, weil die Leistung nur teilweise von den finanziellen Bedürfnis-
-sen der Nachwuchsathletin B abhängt und die Stiftung X von ihr dafür eine Gegenleistung ge-
-mäss Vereinbarung über die Zusammenarbeit verlangt (vgl. Ziff. 3 des Kreisschreibens, Ausfüh-
-rungen zur Unentgeltlichkeit).
+Beispiel 4: Besteuerung eines Förderbeitrages im Wissenschaftsbereich
+Sachverhalt: Die Forscherin D erhält von der Stiftung Z ein Stipendium für ihre wissenschaftli-
+che Weiterbildung im Ausland in der Höhe von CHF 42’000.–. Sie muss das Stipendium ge-
+mäss den von der Stiftung Z festgelegten Bedingungen nutzen und ihr regelmässig Bericht über
+den Fortschritt ihrer Arbeit erstatten.
+Frage: Wie ist das Stipendium durch die Forscherin D zu versteuern?
+Lösung: Beim Stipendium der Stiftung Z handelt es sich um steuerbares Einkommen im Sinne
+von Artikel 16 Absatz 1 DBG. Das Bundesgericht qualifiziert die im Reglement vorgesehene re-
+gelmässige Berichterstattung über den Fortschritt der Forschungsarbeit an die Stiftung Z als
+Gegenleistung (vgl. Ziff. 3 des Kreisschreibens, Ausführungen zur Unentgeltlichkeit).

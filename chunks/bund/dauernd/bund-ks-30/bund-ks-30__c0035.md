@@ -4,19 +4,23 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.2 Kinder, für die der Drittbetreuungsabzug möglich ist (bis 14. Altersjahr) (Teil 1/2)"
-ziffer: "8.2"
-seiten: "12-13"
+titel: "Ziff. 8.3 Erwerbstätigkeit und Ausbildung als Voraussetzung (Teil 1/2)"
+ziffer: "8.3"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.2 Für welche Kinder · S. 12–13
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.3 Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit · S. 13
 
-8.2   Für welche Kinder können Kinderdrittbetreuungskosten abgezogen
-    werden
+8.3   Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit
 
-Als Kinder, für die ein Kinderdrittbetreuungskostenabzug beansprucht werden kann, gelten
-einerseits die leiblichen Kinder sowie die Adoptivkinder nach Artikel 264 ff. ZGB. Anderer-
-seits fallen bei Ehepaaren auch die nicht gemeinsamen Kinder, die sog. Stiefkinder, darun-
-ter, da gemäss Artikel 299 ZGB jeder Ehegatte dem andern in der Ausübung der elterlichen
-Sorge gegenüber dessen Kindern in angemessener Weise beizustehen und ihn zu vertreten
-hat, wenn es die Umstände erfordern.
+Die Kinderdrittbetreuungskosten können von der steuerpflichtigen Person nur geltend ge-
+macht werden, wenn die Eigenbetreuung der Kinder in direktem kausalem Zusammenhang
+mit der Erwerbstätigkeit, der Ausbildung oder der Erwerbsunfähigkeit mit gleichzeitiger Be-
+treuungsunfähigkeit nicht wahrgenommen werden konnte.
+
+Als Erwerbstätigkeit gilt jede selbständige wie auch jede unselbständige Tätigkeit im Sinne
+der Artikel 17 und 18 DBG. Arbeitslose Eltern, die beispielsweise auf Veranlassung eines
+regionalen Arbeitsvermittlungszentrums Kurse besuchen müssen oder die zu einem Vorstel-
+lungsgespräch aufgeboten wurden etc., können für diesen Zeitraum ebenfalls den Kinder-
+drittbetreuungskostenabzug beanspruchen. Solche Bemühungen zur Wiedereingliederung in
+die Arbeitswelt sind einer Erwerbstätigkeit gleichzusetzen.

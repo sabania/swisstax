@@ -1,0 +1,309 @@
+{
+ "id": "sg-stb-39-8",
+ "hinweise": [
+  "Stand 01.07.2021 (ersetzt 01.01.2016); Pauschaltabelle Ziff. 3.2 (Seite 3) im Layout leicht durcheinander, Werte aber eindeutig: Fr. 15.-- / Fr. 3'200.-- (voll), Fr. 7.50 / Fr. 1'600.-- (halb), Wochenaufenthalt Fr. 30.-- / Fr. 6'400.-- bzw. Fr. 22.50 / Fr. 4'800.--. Bruchformel im Beispiel Seite 4 (Zeile 224) horizontal verrutscht."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Ziff. 1.1 Voraussetzung unselbständige Erwerbstätigkeit; Ehegatten, Arbeitslose",
+   "pfad": [
+    "1. Voraussetzungen",
+    "1.1 Unselbständige Erwerbstätigkeit"
+   ],
+   "stichworte": [
+    "Verpflegungsabzug",
+    "unselbständig",
+    "Ehegatten",
+    "Arbeitslose",
+    "Stellensuche",
+    "Mitarbeit Ehegatte"
+   ],
+   "zusammenfassung": "Abzug für auswärtige Verpflegung setzt unselbständige Erwerbstätigkeit und direkten ursächlichen Zusammenhang mit den Mehrkosten voraus; jedem unselbständig erwerbenden Ehegatten steht er zu.",
+   "ziffer": "1.1",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 45,
+   "titel": "Ziff. 1.2 Notwendigkeit der auswärtigen Verpflegung (Art. 19 StV)",
+   "pfad": [
+    "1. Voraussetzungen",
+    "1.2 Notwendigkeit"
+   ],
+   "stichworte": [
+    "Notwendigkeit",
+    "Hauptmahlzeit",
+    "grosse Entfernung",
+    "kurze Essenspause",
+    "Schichtarbeit",
+    "Nachtarbeit",
+    "Art. 19 StV"
+   ],
+   "zusammenfassung": "Abzug zulässig, wenn wegen grosser Entfernung oder kurzer Essenspause eine Hauptmahlzeit nicht zu Hause eingenommen werden kann oder bei durchgehender Schicht- oder Nachtarbeit.",
+   "ziffer": "1.2",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 60,
+   "titel": "Ziff. 1.2 Beurteilung der Notwendigkeit – grosszügige Praxis, Mittagspause",
+   "pfad": [
+    "1. Voraussetzungen",
+    "1.2 Notwendigkeit"
+   ],
+   "stichworte": [
+    "Mittagessen",
+    "Mittagspause",
+    "Wohnort gleich Arbeitsort",
+    "Alleinstehende",
+    "grosszügig"
+   ],
+   "zusammenfassung": "Die Kriterien Entfernung und Essenspause werden grosszügig ausgelegt; verneint nur, wenn der Arbeitsweg sehr kurz ist und die Mittagspause die Einnahme zu Hause zulässt.",
+   "ziffer": "1.2",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 71,
+   "titel": "Ziff. 1.2 Gleitende Arbeitszeit und individuelle Mittagspause",
+   "pfad": [
+    "1. Voraussetzungen",
+    "1.2 Notwendigkeit"
+   ],
+   "stichworte": [
+    "gleitende Arbeitszeit",
+    "Mittagspause eine Stunde",
+    "Homeoffice",
+    "auswärts essen"
+   ],
+   "zusammenfassung": "Bei gleitender Arbeitszeit wird eine erhebliche Verlängerung der Mittagspause nicht zugemutet; Mittagspausen von rund einer Stunde sind üblich, das Essen muss aber tatsächlich auswärts eingenommen werden.",
+   "ziffer": "1.2",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 85,
+   "titel": "Ziff. 1.2 Schichtarbeit und unregelmässige Arbeitszeit (mind. 8 Stunden)",
+   "pfad": [
+    "1. Voraussetzungen",
+    "1.2 Notwendigkeit"
+   ],
+   "stichworte": [
+    "Schichtarbeit",
+    "Nachtarbeit",
+    "unregelmässige Arbeitszeit",
+    "gestaffelte Arbeitszeit",
+    "achtstündig",
+    "Art. 19 Abs. 3 StV"
+   ],
+   "zusammenfassung": "Schichtarbeit ist eine mindestens achtstündige, durchgehende Arbeitszeit; der Abzug für Schicht-/Nachtarbeit kann nicht zusätzlich zum Verpflegungsabzug wegen Entfernung oder kurzer Pause beansprucht werden.",
+   "ziffer": "1.2",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 100,
+   "titel": "Ziff. 1.3 Mehrkosten der auswärtigen Verpflegung – Zwischenverpflegung, Bewertungsansätze",
+   "pfad": [
+    "1. Voraussetzungen",
+    "1.3 Mehrkosten"
+   ],
+   "stichworte": [
+    "Mehrkosten",
+    "Zwischenverpflegung",
+    "Lebenshaltungskosten",
+    "Naturalbezüge",
+    "Nettoprinzip",
+    "Znüni"
+   ],
+   "zusammenfassung": "Nur Mehrkosten gegenüber Verpflegung zu Hause sind abziehbar; für Zwischenverpflegungen besteht kein Abzug (Lebenshaltungskosten, Art. 47 Bst. a StG).",
+   "ziffer": "1.3",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 119,
+   "titel": "Ziff. 1.4 Tragung der Kosten durch den Steuerpflichtigen",
+   "pfad": [
+    "1. Voraussetzungen",
+    "1.4 Kostentragung"
+   ],
+   "stichworte": [
+    "Arbeitgeberbeitrag",
+    "Kürzung Pauschale",
+    "Kostentragung"
+   ],
+   "zusammenfassung": "Abzug nur, wenn die Kosten selbst getragen wurden; beteiligt sich der Arbeitgeber, wird der Pauschalansatz gekürzt.",
+   "ziffer": "1.4",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 126,
+   "titel": "Ziff. 2.1 Verpflegung bei Wochenaufenthalt – inner-/interkantonal (Art. 20 StV)",
+   "pfad": [
+    "2. Verpflegung bei Wochenaufenthalt",
+    "2.1 Inner- und interkantonale Wochenaufenthalter"
+   ],
+   "stichworte": [
+    "Wochenaufenthalt",
+    "Wochenaufenthalter",
+    "Art. 20 StV",
+    "auswärtiger Arbeitsort"
+   ],
+   "zusammenfassung": "Wochenaufenthalter können die Mehrkosten des auswärtigen Aufenthalts inkl. Verpflegung nach den Pauschalansätzen der direkten Bundessteuer abziehen (Art. 20 StV).",
+   "ziffer": "2.1",
+   "positionen": [
+    "abzug.berufskosten.wochenaufenthalt",
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 140,
+   "titel": "Ziff. 2.2 Internationale Wochenaufenthalter – Quellensteuer",
+   "pfad": [
+    "2. Verpflegung bei Wochenaufenthalt",
+    "2.2 Internationale Wochenaufenthalter"
+   ],
+   "stichworte": [
+    "Quellensteuer",
+    "Wochenaufenthalter Ausland",
+    "Grenzgänger",
+    "Quellensteuertarif"
+   ],
+   "zusammenfassung": "Berufskostenabzüge inkl. Verpflegung sind in den Quellensteuertarifen pauschaliert eingerechnet; zusätzliche Abzüge sind nicht möglich.",
+   "ziffer": "2.2",
+   "positionen": [
+    "abzug.berufskosten.wochenaufenthalt"
+   ]
+  },
+  {
+   "start": 149,
+   "titel": "Ziff. 3.1 Höhe des Abzugs – Pauschalen, kein Nachweis höherer Kosten",
+   "pfad": [
+    "3. Höhe des Abzuges",
+    "3.1 Allgemeines"
+   ],
+   "stichworte": [
+    "Pauschalansätze",
+    "Nachweis höherer Kosten",
+    "Art. 39 Abs. 2 StG",
+    "Art. 26 Abs. 2 DBG"
+   ],
+   "zusammenfassung": "Verpflegungsmehrkosten werden nach den DBG-Pauschalen abgezogen; ein Nachweis höherer Kosten ist (anders als bei anderen Berufskosten) nicht möglich.",
+   "ziffer": "3.1",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 161,
+   "titel": "Ziff. 3.2 Pauschalansätze Verpflegung: Fr. 15 / Fr. 3'200, halb Fr. 7.50 / Fr. 1'600, Wochenaufenthalt Fr. 30 / Fr. 6'400",
+   "pfad": [
+    "3. Höhe des Abzuges",
+    "3.2 Pauschalansätze"
+   ],
+   "stichworte": [
+    "Verpflegungspauschale",
+    "Fr. 15",
+    "Fr. 3'200",
+    "Fr. 7.50",
+    "Fr. 1'600",
+    "Wochenaufenthalt Fr. 6'400",
+    "Fr. 4'800"
+   ],
+   "zusammenfassung": "Voller Abzug pro Hauptmahlzeit Fr. 15.--, im Jahr Fr. 3'200.--; halber Abzug Fr. 7.50 bzw. Fr. 1'600.--; Wochenaufenthalt voll Fr. 30.-- bzw. Fr. 6'400.--, gekürzt Fr. 22.50 bzw. Fr. 4'800.--.",
+   "ziffer": "3.2",
+   "positionen": [
+    "abzug.berufskosten.verpflegung",
+    "abzug.berufskosten.wochenaufenthalt"
+   ]
+  },
+  {
+   "start": 184,
+   "titel": "Ziff. 3.3 Voller Abzug – Regel, nicht kumulierbar mit Wochenaufenthalt",
+   "pfad": [
+    "3. Höhe des Abzuges",
+    "3.3 Voller Abzug"
+   ],
+   "stichworte": [
+    "voller Abzug",
+    "Kürzungsgrund",
+    "Wochenaufenthalt nicht kumulierbar",
+    "Art. 6 Abs. 6 Berufskostenverordnung"
+   ],
+   "zusammenfassung": "Grundsätzlich wird der volle Abzug gewährt; der Pauschalabzug bei täglicher Heimkehr kann nicht gleichzeitig mit jenem bei Wochenaufenthalt geltend gemacht werden.",
+   "ziffer": "3.3",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 191,
+   "titel": "Ziff. 3.4 Halber/gekürzter Abzug – Kantine, Personalrestaurant, Mensa, Feld G",
+   "pfad": [
+    "3. Höhe des Abzuges",
+    "3.4 Halber/gekürzter Abzug"
+   ],
+   "stichworte": [
+    "Kantine",
+    "Personalrestaurant",
+    "Mensa",
+    "halber Abzug",
+    "Lunch-Checks",
+    "Feld G Lohnausweis",
+    "Arbeitgeberbeitrag"
+   ],
+   "zusammenfassung": "Nur der halbe bzw. gekürzte Abzug, wenn ein Personalrestaurant zur Verfügung steht oder der Arbeitgeber die Verpflegung verbilligt (Lohnausweis Feld G); auch bei freiwilligem Verzicht auf die Kantine.",
+   "ziffer": "3.4",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 217,
+   "titel": "Ziff. 3.4 Kürzung bei Spesenersatz des Arbeitgebers – Beispiel 44 von 220 Tagen",
+   "pfad": [
+    "3. Höhe des Abzuges",
+    "3.4 Halber/gekürzter Abzug"
+   ],
+   "stichworte": [
+    "Spesenersatz",
+    "Fallpauschale",
+    "Montage",
+    "Kürzung",
+    "Fr. 2'560"
+   ],
+   "zusammenfassung": "Bei vergüteter Verpflegung wird die Pauschale im Verhältnis der Arbeitstage gekürzt: Fr. 3'200.-- x (220 - 44) / 220 = Fr. 2'560.--.",
+   "ziffer": "3.4",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 228,
+   "titel": "Ziff. 4 Nachweis der Abzugsberechtigung",
+   "pfad": [
+    "4. Nachweis"
+   ],
+   "stichworte": [
+    "Nachweis",
+    "Beweislast",
+    "steuermindernde Tatsachen"
+   ],
+   "zusammenfassung": "Wer den Abzug geltend macht, hat auf Verlangen die Abzugsberechtigung nachzuweisen (steuermindernde Tatsachen).",
+   "ziffer": "4",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  }
+ ]
+}

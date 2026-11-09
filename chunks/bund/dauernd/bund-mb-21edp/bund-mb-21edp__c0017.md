@@ -4,22 +4,23 @@ quelle: bund-mb-21edp
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB 21 EDP – Abschnitt 17"
-seiten: "5"
+titel: "Rz 34 Die Richtigkeit bezeugt – Bestätigung durch den Vorsorgeträger"
+ziffer: "34"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 5
+> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Die Richtigkeit bezeugt · S. 6
 
-    Die Jahresbeitragslücke, die durch einen Einkauf geschlossen werden kann, ergibt sich
-    aus der Differenz zwischen dem maximal für die steuerpflichtige Person möglichen Säule
-    3a Beitrag des betreffenden Steuerjahres und dem effektiv einbezahlten Beitrag. Der Ein-
-    kauf muss nicht zwingend in dieselbe Vorsorgepolice oder Vorsorgevereinbarung erfol-
-    gen, in die im betreffenden Steuerjahr die ordentlichen Beiträge einbezahlt wurden.
+    Die Richtigkeit bezeugt
+34   Die Richtigkeit der Bescheinigung ist vom Verantwortlichen, mit dem Vorsorgenehmer in
+    einem Vertragsverhältnis stehenden Vorsorgeträger zu bestätigen. Der Name der für die
+    Bescheinigung verantwortlichen Person ist lesbar einzusetzen. Wird die Bescheinigung
+    vollständig durch eine Datenverarbeitungsanlage erstellt, so sind lediglich die genaue Fir
+    menbezeichnung und der Name der für die Bescheinigung verantwortlichen Person ein
+    zusetzen. Der Verzicht auf die handschriftliche Unterzeichnung entbindet den Vorsorge
+    träger aber nicht von der Verantwortung für das korrekte Ausfüllen des Formulars 21. Für
+    allfällige Rückfragen sind die Telefonnummer und E-Mailadresse des Ausstellers der Be
+    scheinigung anzugeben.
 
-    Es ist nicht möglich, die Jahresbeitragslücke auf mehrere Policen oder mehrere Versi-
-    cherungsverträge aufzuteilen, zumal für den Ausgleich einer Beitragslücke eines be-
-    stimmten Jahres nicht mehr als ein Einkauf zulässig ist. Mit einem Einkauf können
-    hingegen mehrere Jahresbeitragslücken ausgeglichen werden.
 
-29   Soweit der Arbeitgeber für die versicherte Person Einkäufe in die Säule 3a vornimmt, gel
-    ten die Ausführungen in Rz 24.
+Bern, 29. Juli 2025

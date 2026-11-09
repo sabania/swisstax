@@ -4,26 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 15.1 Verfahrensrechtliche Stellung der Ehegatten – Grundsatz"
-ziffer: "15.1"
-seiten: "40"
+titel: "Ziff. 15.4–15.5 Mitteilungen und Vertretung der Ehegatten"
+ziffer: "15.4"
+seiten: "41"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.1 Grundsatz · S. 40
+> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.4 Mitteilungen / 15.5 Vertretung · S. 41
 
-15   Verfahrensrechtliche Stellung der Ehegatten
+15.4   Mitteilungen
+
+Sämtliche Mitteilungen der Behörden an verheiratete Steuerpflichtige, die in rechtlich und
+tatsächlich ungetrennter Ehe leben, sind gemäss Artikel 113 Absatz 4 DBG an diese ge-
+meinsam zu richten, es sei denn, die Ehegatten hätten einen gemeinsamen Vertreter bestellt
+(Art. 117 Abs. 3 DBG).
+
+Leben die Ehegatten hingegen in gerichtlich oder tatsächlich getrennter Ehe, bestimmt das
+Gesetz, dass die Zustellung an jeden Ehegatten gesondert zu erfolgen hat (Art. 117 Abs. 4
+DBG).
 
 
-15.1   Grundsatz
+15.5   Vertretung
 
-Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, werden zusammen ver-
-anlagt. Sie üben die ihnen im Gesetz zukommenden Verfahrensrechte und -pflichten ge-
-meinsam aus (Art. 113 Abs. 1 DBG). Der Ehemann und die Ehefrau sind steuerrechtlich
-gleichgestellt. Beide sind Steuerpflichtige und ihnen stehen die gleichen Mitwirkungsrechte
-und -pflichten zu.
-
-Obwohl die Ehegatten die Verfahrenshandlungen grundsätzlich gemeinsam vorzunehmen
-haben, wird das Erfordernis des konsequenten gemeinsamen Handelns relativiert. Rechtzei-
-tige Handlungen nur eines Ehegatten wirken auch für den anderen Ehegatten, der innert
-Frist nicht handelt. Dieser Grundsatz wird für die Unterzeichnung der Steuererklärung sowie
-für das Einreichen von Rechtsmitteln und anderen Eingaben im Gesetz näher konkretisiert.
+Der verfahrensrechtlichen Gleichstellung der Ehegatten steht nicht entgegen, dass sie sich
+im Verkehr mit den Steuerbehörden vertreten lassen können. Die vertragliche Vertretung
+wird in Artikel 117 DBG geregelt.

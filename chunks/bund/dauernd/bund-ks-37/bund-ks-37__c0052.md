@@ -4,15 +4,32 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 52"
-seiten: "12"
+titel: "Ziff. 7.3.4 Überblick Quellenbesteuerung bei Realisation – Arbeitnehmer (Teil 2/2)"
+ziffer: "7.3.4"
+seiten: "16-17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3.4 Überblick Quellenbesteuerung · S. 16–17
 
-7.2.2 Quellenbesteuerung
-Im internationalen Verhältnis ist zu berücksichtigen, dass der Empfänger der Mitarbeiterak-
-tien im Zeitpunkt des Erwerbs seine Ansässigkeit entweder in der Schweiz oder im Ausland
-haben kann. In beiden Fällen kann die Besteuerung an der Quelle erfolgen, sofern die Vor-
-aussetzungen der Artikel 83 respektive 91 oder 97 DBG erfüllt sind. Daraus ergeben sich fol-
-gende Möglichkeiten der Besteuerung:
+  Art der Erwerbstätigkeit   steuerrechtlicher Wohnsitz im Zeitpunkt der Besteuerung
+  im Besteuerungszeit-   Schweiz   Ausland3
+  punkt
+  Ausschliesslich Arbeit-   Fälle von Art. 83 DBG:   Fälle von Art. 91 und 97
+  nehmer (AN)   DBG:
+    Einkünfte aus diesen Mitar-
+    beiterbeteiligungen sind zu-   Einkünfte aus diesen Mitar-
+    sammen mit dem übrigen Ein-   beiterbeteiligungen sind zu-
+    kommen aus unselbstständi-   sammen mit dem übrigen
+    ger Erwerbstätigkeit an der   Einkommen aus unselbst-
+    Quelle zu besteuern.   ständiger Erwerbstätigkeit an
+    der Quelle zu besteuern.
+    Eine anteilsmässige Besteue-
+    rung (Art. 17d DBG) kann nur   Die Besteuerung erfolgt nach
+    dann erfolgen, wenn die steu-   Art. 84 DBG, wobei eine an-
+    erpflichtige Person nicht wäh-   teilsmässige Besteuerung
+    rend der ganzen Zeitspanne   gemäss Art. 17d DBG ausge-
+    für ihr Einkommen in der   schlossen ist (vgl. Art. 13
+    Schweiz steuerpflichtig war.   Abs. 1 MBV). Vorbehalten
+    bleiben Bestimmungen aus
+    DBA oder Abkommen mit an-
+    deren Staaten.

@@ -4,21 +4,27 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 219"
-seiten: "58"
+titel: "Ziff. 12.1 Wechsel von der Quellenbesteuerung zur ordentlichen Veranlagung (Teil 1/2)"
+ziffer: "12.1"
+seiten: "68"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 58
+> Bund · Steuerjahr 2025/2026 · KS 45 · 12 Wechsel zwischen Quellenbesteuerung und ordentlicher Veranlagung › 12.1 Quellenbesteuerung zu ordentlicher Veranlagung · S. 68
 
-9.2   Anmeldung und Mutationen quellensteuerpflichtiger Arbeitnehmer
-Der Schuldner der steuerbaren Leistung meldet Neuanstellungen von quellensteuerpflichti-
-gen Arbeitnehmern innert acht Tagen seit Stellenantritt der zuständigen kantonalen Steuer-
-behörde (vgl. Art. 5 Abs. 1 QStV). Ändern sich die persönlichen Verhältnisse eines quellen-
-steuerpflichtigen Arbeitnehmers, hat der Schuldner der steuerbaren Leistung dies ebenfalls
-innert acht Tagen nach dem Ereignis der zuständigen Steuerbehörde mitzuteilen (vgl. Art. 5
-Abs. 3 zweiter Satz QStV). Die Anmeldung bzw. Meldung von Änderungen hat sämtliche für
-die korrekte Quellenbesteuerung relevanten Angaben zu enthalten (vgl. Musterformular im
-Anhang I).
-Zusätzlich sind Eintritt und Austritt der quellensteuerpflichtigen Person in die bzw. aus der
-Unternehmung in den dafür vorgesehenen Feldern der Quellensteuerabrechnung aufzufüh-
-ren.
+12   Wechsel zwischen Quellenbesteuerung und ordentlicher Veranlagung
+
+12.1 Wechsel von der Quellenbesteuerung zur ordentlichen Veranlagung
+Eine quellensteuerpflichtige Person mit Ansässigkeit in der Schweiz wird aus der Quellenbe-
+steuerung entlassen, wenn sie (vgl. Art. 12 QStV):
+     die Niederlassungsbewilligung oder das Schweizer Bürgerrecht erhält,
+     eine Person heiratet, welche die Niederlassungsbewilligung oder das Schweizer Bür-
+    gerrecht besitzt,
+     mit einer Person verheiratet ist, welche die Niederlassungsbewilligung oder das
+    Schweizer Bürgerrecht erhält,
+     das ordentliche AHV-Rentenalter erreicht und keine der Quellensteuer unterliegenden
+    Einkünfte mehr erzielt, oder
+     eine volle Invaliditätsrente erhält.
+Ist derjenige Ehegatte, welcher im Besitz der Niederlassungsbewilligung oder des Schweizer
+Bürgerrechts ist, aufgrund eines separaten Wohnsitzes im Ausland ansässig, unterliegt der
+andere Ehegatte ohne Niederlassungsbewilligung oder Schweizer Bürgerrecht in der
+Schweiz weiterhin der Quellenbesteuerung.

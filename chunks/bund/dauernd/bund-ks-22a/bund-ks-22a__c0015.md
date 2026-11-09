@@ -4,21 +4,23 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 15"
-seiten: "4"
+titel: "Ziff. 3.3 Kosten ohne Schuldzinscharakter – Leasing, Baurechtszins, Baukreditzinsen"
+ziffer: "3.3"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.3 · S. 5
 
-Die Erträge aus beweglichem Vermögen (Art. 20 DBG) bemessen sich brutto, d.h. im Um
-fang der gesamten steuerbaren Einkünfte vor Abzug der darauf entfallenden Gewinnungs
-kosten und Schuldzinsen. Vermögensverwaltungskosten und die weder rückforderbaren
-noch anrechenbaren ausländischen Quellensteuern (Art. 32 Abs. 1 DBG) kürzen den Um
-fang des maximal zulässigen Schuldzinsenabzuges daher nicht. Der Nachweis des Bruttoer
-trages obliegt dem Steuerpflichtigen. Einkünfte aus Beteiligungen des Privatvermögens, die
-unter Artikel 20 Absatz 1bis DBG (Teilbesteuerung) fallen, werden nur zu 70% in die Bemes
-sung einbezogen. Verluste aus der Veräusserung von Obligationen mit überwiegender Ein
-malverzinsung (Art. 20 Abs. 1 Bst. b DBG) kürzen den Bruttoertrag aus beweglichem Ver
-mögen nur im Ausmass der Verrechnung mit Gewinnen aus anderen Obligationen mit über
-wiegender Einmalverzinsung (Kreisschreiben der ESTV Nr. 15 vom 7. Februar 2007,
-Ziff. 3.2).
+3.3.   Kosten ohne Schuldzinsencharakter
+
+Leasingraten für privat genutzte Güter enthalten keine abzugsfähigen Zinsanteile (ASA 61,
+250 und 62, 683).
+
+Baurechtszinsen für selbstgenutztes Wohneigentum gelten als nicht abzugsfähige Lebens
+haltungskosten (Art. 34 Bst. a DBG; BGE vom 29.3.1999, in StE 1999, B 25.6 Nr. 34). Dem
+Umstand, dass ein Haus im Baurecht errichtet wurde, ist bei der Bemessung des Eigen
+mietwertes Rechnung zu tragen (StE 1999, B 25.3 Nr. 20).
+
+Baukreditzinsen gehören bis zur Bezugsbereitschaft der Liegenschaft zu den wertvermeh
+renden Aufwendungen oder Anlagekosten und sind nicht abziehbar (Art. 34 Bst. d DBG;
+ASA 60, 191 und 65, 750).

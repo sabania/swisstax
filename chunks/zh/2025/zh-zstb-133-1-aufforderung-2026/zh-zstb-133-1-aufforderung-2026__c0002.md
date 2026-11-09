@@ -4,19 +4,11 @@ quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
 jahre: [2025]
 typ: praxis
-titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 2"
+titel: "Vorbemerkungen Aufforderung zur Einreichung 2026 (Teil 2/2)"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 1
-
-<!-- Seite 1 -->
-Aufforderung zur Einreichung von
-Steuererklärungen und Verrechnungsanträgen im
-Jahr 2026
-(vom 21. August 2025)
-
-Veröffentlichung im Amtsblatt des Kantons Zürich am 9. Januar 2026 und am 6. März 2026
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · Vorbemerkungen · S. 1
 
 Vorbemerkungen
 Natürliche und juristische Personen, die schon vor dem 1. Januar 2026 steuerpflichtig waren,
@@ -30,8 +22,3 @@ bei natürlichen Personen der definitiven Veranlagung der Staats- und Gemeindest
 direkten Bundessteuer für die unterjährige Steuerperiode 2026. Bei den juristischen Personen
 dient die Steuererklärung 2026 der definitiven Veranlagung der im Kalenderjahr 2026 endenden
 Steuerperioden.
-
-A. Natürliche Personen
-
-I. Steuererklärung 2025 für Staats- und Gemeindesteuern sowie direkte
-Bundessteuer

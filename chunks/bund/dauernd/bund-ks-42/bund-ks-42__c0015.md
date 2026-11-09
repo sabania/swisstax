@@ -4,19 +4,25 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 15"
-seiten: "5"
+titel: "Ziff. 4.3 Obergrenze des Abzuges – 12 000 Franken pro Steuerperiode"
+ziffer: "4.3"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.3 Obergrenze · S. 7
 
-4.1   Allgemeines
-Artikel 33 Absatz 1 Buchstabe j DBG trat am 1. Januar 2016 in Kraft und lautet folgendermassen:
-    „Von den Einkünften werden abgezogen:
-    j. die Kosten der berufsorientierten Aus- und Weiterbildung, ein-
-    schliesslich der Umschulungskosten, bis zum Gesamtbetrag von
-    12 000 Franken, sofern:
-    1. ein erster Abschluss auf der Sekundarstufe II vorliegt, oder
-    2. das 20. Lebensjahr vollendet ist und es sich nicht um die
-
-    Ausbildungskosten bis zum ersten Abschluss auf der Sekundarstufe II
+4.3   Obergrenze des Abzuges
+Der zulässige Abzug ist auf einen Gesamtbetrag von höchstens 12 000 Franken pro Steuerperi-
+ode begrenzt (vgl. Art. 33 Abs. 1 Bst. j DBG).
+Der jeweilige Maximalbetrag kann von jeder steuerpflichtigen Person pro Steuerperiode für ihre
+selbst getragenen Aus- und Weiterbildungskosten geltend gemacht werden. Der genannte Maxi-
+malabzug steht somit sowohl jedem Ehegatten als auch jedem eingetragenen Partner, resp. jeder
+eingetragenen Partnerin einzeln zu. Die Begrenzung der abzugsfähigen Kosten bezieht sich da-
+bei nicht auf die Kosten des einzelnen Lehrganges, sondern auf die während der Steuerperiode
+gesamthaft für die Aus- und Weiterbildung verwendeten Mittel.
+Allfällige weitere direkt oder indirekt mit diesem Abzug zusammenhängende Kosten – etwa für
+Fahrten zwischen dem Wohn- respektive Arbeitsort an den Ort der Weiterbildung – können aus-
+schliesslich im Rahmen des jährlich zulässigen Gesamtbetrags geltend gemacht werden, sofern
+es sich um notwendige Kosten handelt. Nicht notwendige Kosten sind der privaten Lebenshaltung
+zuzuordnen und berechtigen nicht zum Abzug. Allenfalls muss eine anteilsmässige Aufteilung der
+geltend gemachten Kosten vorgenommen werden.

@@ -4,21 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 17"
-seiten: "4"
+titel: "Ziff. 2.3 Ansässigkeit – Begriff und Schweizer Recht"
+ziffer: "2.3"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.3 Ansässigkeit · S. 7–8
 
-Die Neuerungen verfolgen auch den Zweck, den technischen Entwicklungen Rechnung zu
-tragen (bspw. dem einheitlichen Lohnmeldewesen bzw. dem Lohnstandard-CH Quellen-
-steuer [ELM-QSt]), die Rechtssicherheit für die Arbeitnehmer und die Schuldner der steuer-
-baren Leistung zu erhöhen sowie die Verfahren – soweit möglich – zu vereinheitlichen.
-Berücksichtigt wurden bei der Erarbeitung dieses Kreisschreibens auch die von der Schweiz
-abgeschlossenen Abkommen zur Vermeidung der Doppelbesteuerung (nachfolgend DBA).
-Dabei wird stellvertretend auf das OECD-Musterabkommen zur Vermeidung der Doppelbe-
-steuerung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen (nachfolgend
-OECD-MA) sowie auf den dazugehörenden Kommentar der OECD in der Version 2017
-(nachfolgend OECD-Kommentar) hingewiesen. Für die Beurteilung von grenzüberschreiten-
-den Sachverhalten sind jeweils die konkreten Bestimmungen des massgebenden Doppelbe-
-steuerungsabkommens zu beachten.
+2.3   Ansässigkeit
+Im vorliegenden Kreisschreiben wird systematisch der Begriff «Ansässigkeit» verwendet.
+Dieser umfasst auch den Begriff „Wohnsitz“ gemäss unilateralem Recht. Für die Zwecke die-
+ses Kreisschreibens wird unter «Ansässigkeit» Folgendes verstanden:
+
+Als in der Schweiz ansässig gelten nach schweizerischem Recht Personen, die aufgrund
+persönlicher Zugehörigkeit in der Schweiz eine unbeschränkte Steuerpflicht begründen. Ge-
+mäss Artikel 3 DBG sind natürliche Personen aufgrund persönlicher Zugehörigkeit und damit
+nach Artikel 6 Absatz 1 DBG grundsätzlich unbeschränkt steuerpflichtig, wenn sie ihren steu-
+errechtlichen Wohnsitz in der Schweiz haben oder sie in der Schweiz einen qualifizierten
+Aufenthalt begründen.

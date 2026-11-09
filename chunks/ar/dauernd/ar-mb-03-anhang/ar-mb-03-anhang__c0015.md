@@ -4,34 +4,30 @@ quelle: ar-mb-03-anhang
 jur: ar
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB AR 03-anhang – Abschnitt 15"
-seiten: "5"
+titel: "Ziff. 5.2 Umgebungsarbeiten – Vorplätze, Carports, Schwimmbad"
+ziffer: "5.2"
+seiten: "5-6"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 5
+> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 5 Umgebung › 5.2 Diverse Umgebungsarbeiten · S. 5–6
 
-    g) Stützmauern/Trockenmauern
-    - erstmalige Erstellung   1/1
-    - gleichwertiger Ersatz   1/1
-    - Sanierung und Reparatur   1/1
-    h) Böschungssicherungen (mit Nachweis Expertise/amtliche
-    Auflage)
-    - erstmalige Erstellung bei bestehender Liegenschaft   1/1
-    - gleichwertiger Ersatz   1/1
-    i) gleichwertiger Ersatz von bestehenden Sitzplatzbelägen   1/1
-    j) Pergola, Laube, Sitzplatzüberdachung
-    - erstmalige Erstellung   1/1
-    - gleichwertiger Ersatz   1/1
-    - Sanierung und Reparatur   1/1
-    k) Zäune/Gartenwege
-    - Neuerstellung   1/1
-    - gleichwertiger Ersatz   1/1
-    l) Sickerleitung/Drainage
-    - Erstellung/Ersatz   1/1
-    m) Lärmschutzmassnahmen
-    - erstmalige Erstellung   1/1
-    - erstmalige Erstellung (amtliche Lärmgrenzwerte   1/1
-    überschritten, abzüglich Beiträge Dritter)
-    - gleichwertiger Ersatz   1/1
-    n) Schutzmassnahmen gegen Hochwasser, Schnee und
-    Starkregen (aufgrund Expertise oder amtlicher Auflage)
+ 5.2 Diverse Umgebungsarbeiten (ohne Garten)
+  - Vorplätze
+    a) Ersatz bei vergleichbarer Qualität   1/1
+    b) bisher gekofferter Kiesplatz zu Teer/Verbundstein   1/4   3/4
+    c) bisher Naturplatz ohne Kofferung zu Vorplatz mit Kofferung   1/1
+    d) Teer zu Verbundstein (verdichtet, nicht erweitert)   1/1
+  - Velounterstände, Carports (sofern in der Schätzung enthalten)
+    a) Neuerstellung   1/1
+    b) gleichwertiger Ersatzbau   1/1
+    c) Sanierung und Reparatur   1/1
+
+    E = Energiesparmassnahmen   abziehbar   nicht abziehbar
+  -   Schwimmbad, Schwimmteich (sofern in der Mietwertschätzung
+    enthalten)
+    a) gleichwertiger Ersatz Schwimmbad   1/1
+    b) Service   1/1
+    c) Reparatur und Sanierung   1/1
+    d) Ersatz Schwimmbadfolie   1/1
+    e) Reinigung, Chemikalien für Schwimmbäder   1/1
+    f) Poolroboter/-sauger   1/1

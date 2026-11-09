@@ -1,512 +1,659 @@
 [
 {
 "id": "bund-ks-17__c0001",
-"titel": "KS 17 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. I Allgemeines – Rechtsgrundlagen WEF",
+"pfad": [
+"I Allgemeines"
+],
+"seiten": [
+2
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "I",
+"stichworte": [
+"WEF",
+"Wohneigentumsförderung",
+"BVG 30a",
+"WEFV",
+"Pensionskasse"
+],
+"positionen": [],
+"zusammenfassung": "Rechtsgrundlagen der Wohneigentumsförderung mit beruflicher Vorsorge (Art. 30a-30g BVG, Art. 331d/e OR, WEFV); das KS erläutert die steuerlichen Auswirkungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-17__c0002"
 },
 {
 "id": "bund-ks-17__c0002",
-"titel": "KS 17 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. II.1 Zweck und Inhalt – Eigenbedarf, Objekt, Verwendung",
+"pfad": [
+"II 2. Säule",
+"1 Zweck und Inhalt"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.1",
+"stichworte": [
+"Eigenbedarf",
+"selbstbewohnt",
+"Zweitwohnsitz",
+"Ferienhaus",
+"Hypothek amortisieren",
+"Wohnbaugenossenschaft"
+],
+"positionen": [],
+"zusammenfassung": "Vorsorgegelder dürfen nur für ein einziges selbstbewohntes Objekt (Kauf, Beteiligung, Amortisation) verwendet werden, nicht für Zweitwohnsitz oder Ferienhaus.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0001",
 "nachher": "bund-ks-17__c0003"
 },
 {
 "id": "bund-ks-17__c0003",
-"titel": "KS 17 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. II.1 Begrenzungen des Vorbezugs (relativ/absolut, ab 50 Jahren)",
+"pfad": [
+"II 2. Säule",
+"1 Zweck und Inhalt"
+],
 "seiten": [
-1
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.1",
+"stichworte": [
+"Vorbezug Begrenzung",
+"über 50 Jahre",
+"Freizügigkeitsleistung",
+"Verpfändung"
+],
+"positionen": [],
+"zusammenfassung": "Ab Alter 50 höchstens die Freizügigkeitsleistung im Alter 50 oder die hälftige Freizügigkeitsleistung; gleiche Begrenzung bei Verpfändung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0002",
 "nachher": "bund-ks-17__c0004"
 },
 {
 "id": "bund-ks-17__c0004",
-"titel": "KS 17 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. II.1 Gesuchsfrist, Mindestbetrag 20'000 Franken, alle fünf Jahre",
+"pfad": [
+"II 2. Säule",
+"1 Zweck und Inhalt"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.1",
+"stichworte": [
+"Mindestbetrag 20000",
+"alle fünf Jahre",
+"Gesuch",
+"Leistungskürzung",
+"Zusatzversicherung"
+],
+"positionen": [],
+"zusammenfassung": "Vorbezug bis drei Jahre vor Altersleistungsanspruch, mindestens 20'000 Franken pro Bezug und nur alle fünf Jahre; Vorbezug kürzt Leistungen, Verpfändung nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0003",
 "nachher": "bund-ks-17__c0005"
 },
 {
 "id": "bund-ks-17__c0005",
-"titel": "KS 17 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. II.2.1 Besteuerung des Vorbezugs (Kapitalleistung, Art. 38 DBG, Quellensteuer)",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.1 Besteuerung des Vorbezuges"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.1",
+"stichworte": [
+"Vorbezug Besteuerung",
+"Kapitalleistung Vorsorge",
+"Jahressteuer Fünftel",
+"Quellensteuer Grenzgänger",
+"Art. 38 DBG"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Der Vorbezug wird als Kapitalleistung aus Vorsorge mit voller Jahressteuer zu einem Fünftel der Tarife nach Art. 36 DBG besteuert (Art. 38 DBG), bei Auslandwohnsitz an der Quelle.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0004",
 "nachher": "bund-ks-17__c0006"
 },
 {
 "id": "bund-ks-17__c0006",
-"titel": "KS 17 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. II.2.1 Quellensteuer auf dem Vorbezug (Art. 11 QStV, DBA)",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.1 Besteuerung des Vorbezuges"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.1",
+"stichworte": [
+"Quellensteuer Vorbezug",
+"Grenzgänger",
+"DBA",
+"QStV"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Bei ausländischem Wohnsitz wird der Vorbezug stets an der Quelle besteuert (Art. 11 QStV); bei DBA ist der Abzug nicht definitiv und wird unter Bedingungen zurückerstattet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0005",
 "nachher": "bund-ks-17__c0007"
 },
 {
 "id": "bund-ks-17__c0007",
-"titel": "KS 17 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. II.2.2 a) Rückzahlung – Rückerstattung der bezahlten Steuern",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.2 Rückzahlung des Vorbezuges"
+],
 "seiten": [
-2
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.2 a",
+"stichworte": [
+"Rückzahlung Vorbezug",
+"Steuerrückerstattung",
+"Formular WEF",
+"drei Jahre Frist",
+"Wiedereinzahlung"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Rückerstattung der seinerzeit bezahlten Steuern zinslos, Recht erlischt drei Jahre nach Wiedereinzahlung; Abzug der Rückzahlung vom Einkommen ist ausgeschlossen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0006",
 "nachher": "bund-ks-17__c0008"
 },
 {
 "id": "bund-ks-17__c0008",
-"titel": "KS 17 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. II.2.2 a) Gesuch um Steuerrückerstattung und Bescheinigungen (Teil 1/2)",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.2 Rückzahlung des Vorbezuges"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.2 a",
+"stichworte": [
+"Gesuch Rückerstattung",
+"Formular WEF",
+"Registerauszug",
+"mehrere Vorbezüge"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Schriftliches Gesuch an die Steuerbehörde mit Bescheinigung der Rückzahlung (Formular WEF), Registerauszug und bezahltem Steuerbetrag; Rückerstattung in zeitlicher Reihenfolge der Vorbezüge.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0007",
 "nachher": "bund-ks-17__c0009"
 },
 {
 "id": "bund-ks-17__c0009",
-"titel": "KS 17 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. II.2.2 a) Gesuch um Steuerrückerstattung und Bescheinigungen (Teil 2/2)",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.2 Rückzahlung des Vorbezuges"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "II.2.2 a",
+"stichworte": [
+"Gesuch Rückerstattung",
+"Formular WEF",
+"Registerauszug",
+"mehrere Vorbezüge"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0008",
 "nachher": "bund-ks-17__c0010"
 },
 {
 "id": "bund-ks-17__c0010",
-"titel": "KS 17 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. II.2.2 b) Ausgleich des Zinsausfalls durch Einkauf",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.2 Rückzahlung des Vorbezuges"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.2 b",
+"stichworte": [
+"Zinsausfall",
+"Einkauf Beitragsjahre",
+"WEF-Rückzahlung"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Die Rückzahlung umfasst nur den bezogenen Betrag; die Zinslücke kann durch Einkauf von Beitragsjahren geschlossen werden, sofern das Reglement dies vorsieht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0009",
 "nachher": "bund-ks-17__c0011"
 },
 {
 "id": "bund-ks-17__c0011",
-"titel": "KS 17 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. II.2.2 c) Keine WEF-Rückzahlung mit bereits gebundenen Mitteln",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.2 Rückzahlung des Vorbezuges"
+],
 "seiten": [
-3
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.2 c",
+"stichworte": [
+"Rückzahlung gebundene Mittel",
+"Scheidung Austrittsleistung",
+"Säule 3a Rückzahlung",
+"Freizügigkeitsguthaben"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Rückzahlung nicht mit bereits vorsorgegebundenen Mitteln möglich (Scheidungsanteil, Freizügigkeitsguthaben); keine Direktüberweisung aus der Säule 3a.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0010",
 "nachher": "bund-ks-17__c0012"
 },
 {
 "id": "bund-ks-17__c0012",
-"titel": "KS 17 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. II.2.3 a) Einkauf nach WEF-Vorbezug – Sperre und Dreijahresfrist",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.3 Einkauf von Beitragsjahren"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.3 a",
+"stichworte": [
+"Einkauf nach Vorbezug",
+"Einkaufssperre",
+"drei Jahre Kapitalbezug",
+"Art. 79b BVG"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Freiwillige Einkäufe sind erst nach Rückzahlung früherer WEF-Vorbezüge möglich; Leistungen aus Einkäufen dürfen drei Jahre nicht als Kapital bezogen werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0011",
 "nachher": "bund-ks-17__c0013"
 },
 {
 "id": "bund-ks-17__c0013",
-"titel": "KS 17 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. II.2.3 a) Rückzahlungsfrist und Einkauf bei Vorsorgelücken (Art. 60d BVV 2)",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.3 Einkauf von Beitragsjahren"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.3 a",
+"stichworte": [
+"WEF-Rückzahlung bis drei Jahre vor Pensionierung",
+"Vorsorgelücke",
+"Art. 60d BVV 2"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "WEF-Rückzahlung ist bis drei Jahre vor Entstehung des Altersleistungsanspruchs zulässig; bei reglementarischem Ausschluss sind Einkäufe im Umfang der Vorsorgelücken möglich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0012",
 "nachher": "bund-ks-17__c0014"
 },
 {
 "id": "bund-ks-17__c0014",
-"titel": "KS 17 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. II.2.3 b) Einkauf nach einer Scheidung",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.3 Einkauf von Beitragsjahren"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.3 b",
+"stichworte": [
+"Scheidung",
+"Wiedereinkauf",
+"Austrittsleistung",
+"eingetragene Partnerschaft"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Nach der Scheidung kann sich der verpflichtete Ehegatte im Rahmen der übertragenen Austrittsleistung wieder einkaufen (Art. 79b Abs. 4 BVG, Art. 22c FZG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0013",
 "nachher": "bund-ks-17__c0015"
 },
 {
 "id": "bund-ks-17__c0015",
-"titel": "KS 17 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. II.2.4 Zusatzversicherung – Risikodeckung nach Vorbezug",
+"pfad": [
+"II 2. Säule",
+"2 Steuerliche Auswirkungen",
+"2.4 Zusatzversicherung"
+],
 "seiten": [
-4
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.2.4",
+"stichworte": [
+"Zusatzversicherung",
+"Risikodeckung",
+"Tod Invalidität",
+"Säule 3a 3b Prämien"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a",
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Die Zusatzversicherung gilt steuerlich immer als individuelle Vorsorge; Abzugsfähigkeit der Prämien nach Art. 33 Abs. 1 Bst. e bzw. g DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0014",
 "nachher": "bund-ks-17__c0016"
 },
 {
 "id": "bund-ks-17__c0016",
-"titel": "KS 17 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. II.3.1 Verkauf Eigenheim – Neukauf innert zwei Jahren (Wartekonto, Zinsen)",
+"pfad": [
+"II 2. Säule",
+"3 Verkauf des Eigenheims",
+"3.1 Neukauf innerhalb von zwei Jahren"
+],
 "seiten": [
-4
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.3.1",
+"stichworte": [
+"Verkauf Eigenheim",
+"Wartekonto",
+"Freizügigkeitskonto",
+"Reinvestition",
+"Zinsen 5000"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Verkaufserlös kann zwei Jahre auf einem Freizügigkeitskonto geparkt werden; Zinsen unterliegen bei Reinvestition der Besteuerung nach Art. 38 DBG, Meldung erst über Fr. 5'000.--.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0015",
 "nachher": "bund-ks-17__c0017"
 },
 {
 "id": "bund-ks-17__c0017",
-"titel": "KS 17 – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. II.3.1 Verkauf Eigenheim – Besteuerung der Zinsen und Meldepflicht",
+"pfad": [
+"II 2. Säule",
+"3 Verkauf des Eigenheims",
+"3.1 Neukauf innerhalb von zwei Jahren"
+],
 "seiten": [
-5
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.3.1",
+"stichworte": [
+"Zinsen Freizügigkeitskonto",
+"Meldung Steuerbehörde",
+"Fr. 5000"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Die auf dem Freizügigkeitskonto angefallenen Zinsen unterliegen bei Reinvestition der Besteuerung nach Art. 38 DBG; Meldung an Steuerbehörden erst, wenn sie Fr. 5'000.-- übersteigen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0016",
 "nachher": "bund-ks-17__c0018"
 },
 {
 "id": "bund-ks-17__c0018",
-"titel": "KS 17 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. II.3.1 Vorsorgefall während Parkierung des Verkaufserlöses",
+"pfad": [
+"II 2. Säule",
+"3 Verkauf des Eigenheims",
+"3.1 Neukauf innerhalb von zwei Jahren"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.3.1",
+"stichworte": [
+"Tod",
+"Invalidität",
+"Vorsorgefall",
+"Meldung ESTV"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Tritt ein Vorsorgefall ein, kann der Vorbezug nicht mehr zurückbezahlt werden; Zinsen über Fr. 5'000.-- sind der ESTV zu melden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0017",
 "nachher": "bund-ks-17__c0019"
 },
 {
 "id": "bund-ks-17__c0019",
-"titel": "KS 17 – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. II.3.2 Neukauf nach zwei Jahren oder Verzicht – Rückzahlung an Pensionskasse",
+"pfad": [
+"II 2. Säule",
+"3 Verkauf des Eigenheims",
+"3.2 Neukauf nach Ablauf von zwei Jahren"
+],
 "seiten": [
-6
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.3.2",
+"stichworte": [
+"Verzicht Neukauf",
+"Rückzahlung Pensionskasse",
+"Zinsen steuerfrei"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Ohne Neukauf innert zwei Jahren muss der Vorbezug in die Pensionskasse zurück; die Zinsen bleiben im Vorsorgekreis und sind nicht steuerbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0018",
 "nachher": "bund-ks-17__c0020"
 },
 {
 "id": "bund-ks-17__c0020",
-"titel": "KS 17 – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. II.4 Verpfändung von Vorsorgeguthaben und Pfandverwertung",
+"pfad": [
+"II 2. Säule",
+"4 Verpfändung von Vorsorgeguthaben"
+],
 "seiten": [
-6
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.4",
+"stichworte": [
+"Verpfändung",
+"Pfandverwertung",
+"Sicherheitsleistung Hypothek"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Die Verpfändung als solche hat keine steuerlichen Folgen; bei Pfandverwertung gelten dieselben Regeln wie beim Vorbezug.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0019",
 "nachher": "bund-ks-17__c0021"
 },
 {
 "id": "bund-ks-17__c0021",
-"titel": "KS 17 – Abschnitt 21",
-"pfad": [],
+"titel": "Ziff. II.5.1 Pflichten gegenüber dem Vorsorgenehmer – Bescheinigung",
+"pfad": [
+"II 2. Säule",
+"5 Pflichten der Vorsorgeeinrichtungen"
+],
 "seiten": [
-6
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.5.1",
+"stichworte": [
+"Meldung ESTV",
+"Formular WEF",
+"30 Tage",
+"Bruttobetrag"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Die Vorsorgeeinrichtung bescheinigt die Rückzahlung auf dem ESTV-Formular WEF (Art. 7 Abs. 3 WEFV).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0020",
 "nachher": "bund-ks-17__c0022"
 },
 {
 "id": "bund-ks-17__c0022",
-"titel": "KS 17 – Abschnitt 22",
-"pfad": [],
+"titel": "Ziff. II.5.2 Pflichten gegenüber der ESTV – Meldung innert 30 Tagen",
+"pfad": [
+"II 2. Säule",
+"5 Pflichten der Vorsorgeeinrichtungen"
+],
 "seiten": [
-7
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.5.2",
+"stichworte": [
+"Meldung ESTV",
+"30 Tage",
+"Bruttobetrag",
+"Formular WEF"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Meldung von Vorbezug, Pfandverwertung und Rückzahlung innerhalb von 30 Tagen auf dem offiziellen WEF-Formular, mit Bruttobetrag, auch bei bereits abgezogener Quellensteuer.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0021",
 "nachher": "bund-ks-17__c0023"
 },
 {
 "id": "bund-ks-17__c0023",
-"titel": "KS 17 – Abschnitt 23",
-"pfad": [],
+"titel": "Ziff. II.6 Aufgaben der ESTV – Register und Kontoauszug",
+"pfad": [
+"II 2. Säule",
+"6 Aufgaben der ESTV"
+],
 "seiten": [
-7
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II.6",
+"stichworte": [
+"ESTV Register",
+"Kontoauszug",
+"Steuerrückerstattung Behörde"
+],
+"positionen": [],
+"zusammenfassung": "Die ESTV führt ein Register aller Vorbezüge, Pfandverwertungen und Rückzahlungen und sendet dem Steuerpflichtigen unaufgefordert einen Registerauszug.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0022",
 "nachher": "bund-ks-17__c0024"
 },
 {
 "id": "bund-ks-17__c0024",
-"titel": "KS 17 – Abschnitt 24",
-"pfad": [],
+"titel": "Ziff. III WEF mit Mitteln der Säule 3a",
+"pfad": [
+"III Säule 3a"
+],
 "seiten": [
-7
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "III",
+"stichworte": [
+"Säule 3a Wohneigentum",
+"Vorbezug 3a",
+"Verpfändung 3a",
+"keine Rückzahlung"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Altersleistungen der Säule 3a können für Wohneigentum zum Eigenbedarf verwendet werden; eine Rückzahlung wie in der 2. Säule ist nicht möglich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0023",
 "nachher": "bund-ks-17__c0025"
 },
 {
 "id": "bund-ks-17__c0025",
-"titel": "KS 17 – Abschnitt 25",
-"pfad": [],
+"titel": "Ziff. IV Inkrafttreten und Empfehlung an die Kantone",
+"pfad": [
+"IV Inkrafttreten"
+],
 "seiten": [
-7
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "IV",
+"stichworte": [
+"Inkrafttreten",
+"Ersetzt KS 23 1995",
+"SSK Empfehlung Kantone"
+],
+"positionen": [],
+"zusammenfassung": "Das Kreisschreiben gilt ab sofort (3. Oktober 2007), ersetzt das KS Nr. 23 vom 5. Mai 1995; die SSK empfiehlt es den Kantonen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-17__c0024",
-"nachher": "bund-ks-17__c0026"
-},
-{
-"id": "bund-ks-17__c0026",
-"titel": "KS 17 – Abschnitt 26",
-"pfad": [],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-17__c0025",
-"nachher": "bund-ks-17__c0027"
-},
-{
-"id": "bund-ks-17__c0027",
-"titel": "KS 17 – Abschnitt 27",
-"pfad": [],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-17__c0026",
-"nachher": "bund-ks-17__c0028"
-},
-{
-"id": "bund-ks-17__c0028",
-"titel": "KS 17 – Abschnitt 28",
-"pfad": [],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-17__c0027",
-"nachher": "bund-ks-17__c0029"
-},
-{
-"id": "bund-ks-17__c0029",
-"titel": "KS 17 – Abschnitt 29",
-"pfad": [],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-17__c0028",
-"nachher": "bund-ks-17__c0030"
-},
-{
-"id": "bund-ks-17__c0030",
-"titel": "KS 17 – Abschnitt 30",
-"pfad": [],
-"seiten": [
-9
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-17__c0029",
-"nachher": "bund-ks-17__c0031"
-},
-{
-"id": "bund-ks-17__c0031",
-"titel": "KS 17 – Abschnitt 31",
-"pfad": [],
-"seiten": [
-9
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-17__c0030",
-"nachher": "bund-ks-17__c0032"
-},
-{
-"id": "bund-ks-17__c0032",
-"titel": "KS 17 – Abschnitt 32",
-"pfad": [],
-"seiten": [
-9
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-17__c0031",
 "nachher": null
 }
 ]

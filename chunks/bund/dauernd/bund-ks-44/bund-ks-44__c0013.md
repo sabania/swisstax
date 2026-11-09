@@ -4,17 +4,19 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 13"
-seiten: "3"
+titel: "Ziff. 3.3 Mindestwerte und Kontrollrechnung – Ziff. 3.3.1 Mindestbetrag 400 000 Franken"
+ziffer: "3.3 / 3.3.1"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.3 Mindestwerte und Kontrollrechnung · S. 4–5
 
-3.1   Rechtsgrundlage
-Die Steuer nach dem Aufwand wird gemäss Artikel 14 Absatz 3 DBG nach den jährlichen, in
-der Bemessungsperiode im In- und Ausland entstandenen Lebenshaltungskosten der steuer-
-pflichtigen Person und der von ihr unterhaltenen Personen, mindestens aber nach dem höchs-
-ten der folgenden Beträge bemessen:
-    a. 400 000 Franken;
-    b. für steuerpflichtige Personen mit eigenem Haushalt: dem Siebenfachen des jährlichen
-    Mietzinses oder des Mietwerts nach Artikel 21 Absatz 1 Buchstabe b DBG;
+3.3   Mindestwerte und Kontrollrechnung
+Als Bemessungsgrundlage ist der höchste der Beträge nach den Buchstaben a-d von Artikel 14
+Absatz 3 DBG heranzuziehen, wenn dieser Betrag höher ist als der nach Ziffer 3.2 hiervor er-
+mittelte weltweite Aufwand.
+
+3.3.1   Artikel 14 Absatz 3 Buchstabe a DBG
+Der weltweite Aufwand nach Ziffer 3.2 hiervor ist mindestens auf 400 000 Franken festzulegen.
+Nach Artikel 14 Absatz 6 DBG passt das Eidgenössische Finanzdepartement diesen Betrag je-
+weils an den Landesindex der Konsumentenpreise an.

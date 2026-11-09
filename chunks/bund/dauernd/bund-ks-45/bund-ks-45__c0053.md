@@ -4,18 +4,23 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 53"
-seiten: "13"
+titel: "Ziff. 4.7 Beispiele Tarifcode C (Zweiverdiener mit Kindern)"
+ziffer: "4.7"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.7 Kinderabzüge · S. 18
 
-<!-- Seite 13 -->
-3.2.5 Spesenzahlungen
-Leistungen des Arbeitgebers für den Ersatz von Reisespesen und von anderen Berufsausla-
-gen sind nur insoweit nicht Bestandteil der steuerbaren Bruttoeinkünfte, als ihnen tatsächli-
-che geschäftliche Aufwendungen gegenüberstehen. Die Belege zu diesen effektiven Spe-
-senzahlungen sind aufzubewahren.
-Demgegenüber sind Pauschalspesen der Quellensteuer zu unterwerfen, soweit sich diese
-nicht auf ein durch die zuständige Steuerbehörde genehmigtes Spesenreglement abstützen.
-Im Weiteren wird auf die «Wegleitung zum Ausfüllen des Lohnausweises» verwiesen.
+    -   Tarifcode C:
+    Die Eheleute R. leben in der Schweiz und sind beide erwerbstätig. Sie erhalten einen Familienzulagenent-
+    scheid, worin die zwei vollen Zulagen für die Kinder ersichtlich sind. Der Tarifcode C2 kann von beiden
+    Arbeitgebern angewendet werden.
+    Die Eheleute S. leben in Österreich und sie haben eine gemeinsame Tochter. Der Ehemann arbeitet in der
+    Schweiz und erhält eine Differenzzulage ausbezahlt. Die Ehefrau ist in Österreich erwerbstätig. Der Ta-
+    rifcode C1 ist anwendbar.
+    Die Eheleute W. leben in tatsächlich ungetrennter Ehe. Der Ehemann lebt in der Schweiz und die Ehefrau
+    mit den zwei gemeinsamen Kindern (ein Kind minderjährig, ein Kind volljährig) in Deutschland (zwei sepa-
+    rate Wohnsitze). Der Ehemann legt dem Arbeitgeber einen Familienausweis, in welchem die beiden Kin-
+    der ausgewiesen sind, sowie eine Immatrikulationsbestätigung der Universität Heidelberg für das volljäh-
+    rige Kind vor. In diesem Fall ist der Tarifcode C2 anwendbar, da das Ehepaar unverändert der Gesamt-
+    satzbesteuerung unterliegt.

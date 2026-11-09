@@ -4,23 +4,26 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 41"
-seiten: "10"
+titel: "Ziff. 6 Nachweis – Belege und ärztlicher Fragebogen"
+ziffer: "6"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 11a · 6 Nachweis · S. 12
 
-4.3.8   Kosten für Hilfsmittel, Pflegeartikel und Kleider
-Als behinderungsbedingte Kosten gelten Anschaffungs- oder Mietauslagen für Hilfsmittel, Ge
-räte und Pflegeartikel (z.B. Windeln, Stoma-Artikel etc.) aller Art, die es der Person mit Behinde
-rung erlauben, die Folgen ihrer Behinderung zu minimieren. Darunter fallen auch die Kosten,
-die im Zusammenhang mit dem Gebrauchstraining (z.B. Einführung in den Gebrauch eines
-Lese- und Schreibgeräts für Blinde oder Sehbehinderte), der Reparatur und dem Unterhalt sol
-cher Hilfsmittel und Geräte entstehen. Auch die Kosten einer behinderungsbedingt notwendigen
-Installation von Alarmanlagen und Notrufsystemen sind abzugsfähig.
-Abzugsfähig sind auch die Mehrkosten, die im Zusammenhang mit der Anfertigung von speziel
-len Kleidern oder Schuhen entstehen. Ebenso sind die Mehrkosten zum Abzug zugelassen, die
-durch vermehrten Kleiderverschleiss entstehen, weil die Person wegen ihrer Behinderung im
-Vergleich zu einer Person ohne Behinderung ihre Kleider in rascherer Abfolge ersetzen muss
-(z. B. Paraplegiker im Rollstuhl; vgl. Urteil StRK ZH vom 18. Juni 2003 [Zürcher Steuerpraxis
-ZStP 2004, 221 f.]).
+6   Nachweis
+
+Die von der steuerpflichtigen Person für sich oder für eine von ihr unterhaltene Person geltend
+gemachten krankheits-, unfall- und behinderungsbedingten Kosten sind durch ärztliche Be
+scheinigungen, Rechnungen, Zahlungsnachweise, Versicherungsbelege, Verfügungen der So
+zialversicherungsträger etc. nachzuweisen, zumal es sich um steuermindernde Tatsachen han
+delt (vgl. Urteil des Bundesgerichts 2A.84/2005 vom 24. Februar 2005 E. 4). Da den Steuerbe
+hörden die Überprüfung der Verhältnisse bei unterhaltenen Personen im Ausland nicht möglich
+ist, sind an den Nachweis der Behinderung, der Unterstützungsbedürftigkeit sowie der erfolgten
+Zahlung ins Ausland hohe Anforderungen zu stellen (vgl. Urteil des Bundesgerichts
+2A.609/2003 vom 27. Oktober 2004 E. 2).
+Durch Ausfüllen eines ärztlichen Fragebogens (vgl. Muster in der Beilage) können sich Hin
+weise auf die Art einer Behinderung und damit auch auf die mit der Behinderung zusammen
+hängenden Kosten ergeben. Dieser Fragebogen kann bei Geltendmachung von behinderungs
+bedingten Kosten von einer Ärztin oder einem Arzt ausgefüllt und der Steuererklärung beigelegt
+werden.

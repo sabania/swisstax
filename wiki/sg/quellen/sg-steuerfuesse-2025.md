@@ -16,7 +16,7 @@ generiert: tools/build_index.py
 
 - Tabellen-Layout (pdftotext): Fussnotenziffern 3/4 stehen als eigene Zeilen über den Gemeindezeilen (Seiten 1-4); Zuordnung zur Gemeinde ist die jeweils folgende Zeile.
 
-## Inhalt (8 Chunks)
+## Inhalt (7 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -26,5 +26,4 @@ generiert: tools/build_index.py
 | [c0004](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0004.md) | Steuerfüsse Gemeinden Au bis Walenstadt (Seite 2) (Teil 2/2) | S. 2 |  |
 | [c0005](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0005.md) | Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3) (Teil 1/2) | S. 3 | Tabelle der Steuerfüsse von Quarten, Amden, Rapperswil-Jona (74 %), Wattwil, Ebnat-Kappel, Neckertal, Mosnang u.a. |
 | [c0006](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0006.md) | Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3) (Teil 2/2) | S. 3 |  |
-| [c0007](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0007.md) | Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4) (Teil 1/2) | S. 4 | Tabelle der Steuerfüsse von Kirchberg, Uzwil, Flawil, Wil (115 %), Gossau (116 %), Gaiserwald u.a.; Stand Kantonales Steueramt 15.1.2026. |
-| [c0008](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0008.md) | Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4) (Teil 2/2) | S. 4 |  |
+| [c0007](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0007.md) | Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4) | S. 4 | Tabelle der Steuerfüsse von Kirchberg, Uzwil, Flawil, Wil (115 %), Gossau (116 %), Gaiserwald u.a.; Stand Kantonales Steueramt 15.1.2026. |

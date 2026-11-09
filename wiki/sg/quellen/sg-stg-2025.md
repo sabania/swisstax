@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/811.1/versions/3711> · lokal: [sg-stg-2025.json](../../../raw/sg/2025/sg-stg-2025.json) · Volltext: [sg-stg-2025.md](../../../sources/sg/2025/sg-stg-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `8912ce5c110ecd9c…`
 
-## Inhalt (404 Chunks)
+## Inhalt (403 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -345,9 +345,8 @@ generiert: tools/build_index.py
 | [art-252](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-252.md) | Art. 252 StG SG – … | Art. 252 |  |
 | [art-253](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-253.md) | Art. 253 StG SG – f) Steuerhinterziehung von Ehegatten | Art. 253 |  |
 | [art-254](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-254.md) | Art. 254 StG SG – Juristische Personen a) Strafbarkeit | Art. 254 |  |
-| [art-254bis-t1](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-254bis-t1.md) | Art. 254 bis StG SG – b) Straflose Selbstanzeige (Teil 1/3) | Art. 254 bis |  |
-| [art-254bis-t2](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-254bis-t2.md) | Art. 254 bis StG SG – b) Straflose Selbstanzeige (Teil 2/3) | Art. 254 bis |  |
-| [art-254bis-t3](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-254bis-t3.md) | Art. 254 bis StG SG – b) Straflose Selbstanzeige (Teil 3/3) | Art. 254 bis |  |
+| [art-254bis-t1](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-254bis-t1.md) | Art. 254 bis StG SG – b) Straflose Selbstanzeige (Teil 1/2) | Art. 254 bis |  |
+| [art-254bis-t2](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-254bis-t2.md) | Art. 254 bis StG SG – b) Straflose Selbstanzeige (Teil 2/2) | Art. 254 bis |  |
 | [art-255](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-255.md) | Art. 255 StG SG – Verfahren vor den Steuerbehörden a) Zuständigkeit | Art. 255 |  |
 | [art-256](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-256.md) | Art. 256 StG SG – b) Bussenverfügung | Art. 256 |  |
 | [art-257](../../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-257.md) | Art. 257 StG SG – c) Untersuchung und Strafbefehl 1. Eröffnung der Untersuchung | Art. 257 |  |

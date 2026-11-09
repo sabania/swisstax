@@ -4,22 +4,26 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 10"
-seiten: "5"
+titel: "Ziff. 23–25 Landwert bei Einfamilienhaus und Stockwerkeigentum"
+ziffer: "23–25"
+seiten: "5-6"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 5
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 2. Landwert · S. 5–6
 
-<!-- Seite 5 -->
-Parkanlagen, ausgeschiedenen Gartenparzellen (Pünten) und land-
-wirtschaftlichen Charakter aufweisenden Landreserven von Industrie-
-und Gewerbebetrieben, so wird auf Begehren des Pflichtigen die Bewer-
-tung zum Ertragswert vorgenommen, sofern dieser nach Orientierung
-über die Vermögensnachbesteuerung durch unterschriftliche Protokoll-
-erklärung die Bewertung und für den Fall der Veräusserung, Über-
-bauung oder Belastung mit Eigentumsbeschränkungen auch die Ver-
-mögensnachbesteuerung anerkennt.
+2. Landwert
 
-IV. Einfamilienhäuser und Stockwerkeigentum zu Wohnzwecken
+    Bei der Bewertung von mit einem Einfamilienhaus oder Stockwerk- 23
+eigentum zu Wohnzwecken überbautem Land ist auszugehen von:
+– den Bauland-Kategorien (Bauland für Mehrfamilienhäuser und
+    Stockwerkeigentum bzw. Bauland für Einfamilienhäuser) gemäss
+    Ziff. 10–13,
+– den steuerlich massgebenden Werten, wie sie für entsprechendes
+    Land gelten.
 
-1. Allgemeine Grundsätze
+24   Die Zuordnung zu den Bauland-Kategorien gemäss Ziff. 10–13
+    erfolgt aufgrund der Art der Baute, und nicht wie bei unüberbautem
+    Land nach Massgabe der Zonenordnung.
+25   Mit Einfamilienhäusern oder Stockwerkeigentum überbautes Land,
+    das ausserhalb der Bauzone liegt, wird ebenfalls einer bestimmten
+    Lageklasse im Sinne von Ziff. 10–12 zugeordnet.

@@ -4,23 +4,22 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 215"
-seiten: "57"
+titel: "Ziff. 11.4 Abweisende Verfügung, Nichteintreten und Rechtskraft des Quellensteuerabzugs"
+ziffer: "11.4"
+seiten: "66"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 57
+> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.4 NOV auf Antrag bei Ansässigkeit im Ausland · S. 66
 
-    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 95 000.00 [(CHF 5 000 x 13) + CHF 30 000].
-
-    3 = Korrektur des Quellensteuerabzugs für den Monat Januar [(CHF 5 000 x 14.4 %) – CHF 520.
-
-    4 = Die Quellensteuer ist im Monat nach dem Kantonswechsel mit dem neuen, zuständigen Kanton nach
-
-    dessen Tarif abzurechnen.
-    5 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
-
-8.5   Wechsel von einem Kanton mit Monatsmodell zu einem anderen Kanton mit Mo-
-    natsmodell
-Der Schuldner der steuerbaren Leistung rechnet die Quellensteuern ab dem Folgemonat des
-Kantonswechsels ausschliesslich mit dem anspruchsberechtigten Kanton nach dessen Tarif
-ab.
+Stellt die zuständige Steuerbehörde fest, dass die Voraussetzungen für eine nachträgliche
+ordentliche Veranlagung nicht erfüllt sind, erlässt sie eine abweisende Verfügung, gegen
+welche die ordentlichen Rechtsmittel ergriffen werden können (vgl. Anhang 4 der Botschaft
+des Bundesrates vom 28. November 2014 zum Bundesgesetz über die Revision der Quel-
+lenbesteuerung des Erwerbseinkommens [BBl 2015 S. 657]). Ist die Quasi-Ansässigkeit ge-
+geben, nimmt die zuständige Steuerbehörde die nachträgliche ordentliche Veranlagung vor.
+Sind die formellen Voraussetzungen an den Antrag für eine nachträgliche ordentliche Veran-
+lagung nicht erfüllt, wird nicht darauf eingetreten. Dies ist auch der Fall, wenn die quellen-
+steuerpflichtige Person innert Nachfrist keine Zustelladresse in der Schweiz bekannt gibt. Die
+zuständige Steuerbehörde erlässt in beiden Fällen einen anfechtbaren Nichteintretensent-
+scheid. Der vorgenommene Quellensteuerabzug erwächst nach unbenutztem Ablauf der
+Rechtsmittelfrist in Rechtskraft und wird damit definitiv.

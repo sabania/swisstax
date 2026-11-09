@@ -1,0 +1,124 @@
+{
+ "id": "bund-ks-vst-34",
+ "hinweise": [
+  "Layout gut."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Titel und Kopfblock ESTV"
+  },
+  {
+   "start": 41,
+   "titel": "Einleitung und Ziff. 1 Begriff der Kundenguthaben",
+   "pfad": [
+    "Begriff Kundenguthaben"
+   ],
+   "stichworte": [
+    "Kundenguthaben",
+    "Sparkonto",
+    "Lohnkonto",
+    "Festgeld",
+    "Aktionärsdarlehen",
+    "Bankguthaben"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "einkommen.wertschriften"
+   ],
+   "zusammenfassung": "Kundenguthaben sind Einlagen bei inländischen Banken oder Sparkassen wie Spar-, Depositen-, Kontokorrentguthaben, Festgelder, Lohnkonti.",
+   "ziffer": "1"
+  },
+  {
+   "start": 52,
+   "titel": "Ziff. 2–3 Begriff Bank/Sparkasse und Inländerbegriff",
+   "pfad": [
+    "Begriffe"
+   ],
+   "stichworte": [
+    "Bank",
+    "Sparkasse",
+    "Inländer",
+    "Art. 9 VStG"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ],
+   "zusammenfassung": "Bank ist, wer sich öffentlich zur Annahme verzinslicher Gelder empfiehlt oder fortgesetzt Gelder gegen Zins entgegennimmt; Inländer mit Wohnsitz oder Sitz im Inland.",
+   "ziffer": "2–3"
+  },
+  {
+   "start": 63,
+   "titel": "Ziff. 4 Beginn der Steuerpflicht (über 100 Gläubiger, CHF 5'000'000)",
+   "pfad": [
+    "Beginn der Steuerpflicht"
+   ],
+   "stichworte": [
+    "Steuerpflicht",
+    "100 Gläubiger",
+    "5'000'000 Franken",
+    "Bank nach VStG"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ],
+   "zusammenfassung": "Bei Banken im Sinne des VStG beginnt die Steuerpflicht, sobald die Gläubigerzahl 100 übersteigt und die Schuldsumme mindestens 5'000'000 Franken beträgt.",
+   "ziffer": "4"
+  },
+  {
+   "start": 88,
+   "titel": "Ziff. 5–6 Anmeldepflicht und Steuererhebung",
+   "pfad": [
+    "Anmeldepflicht / Steuererhebung"
+   ],
+   "stichworte": [
+    "Anmeldepflicht",
+    "Verrechnungssteuer auf Zinsen",
+    "Schuldner der Leistung"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ],
+   "zusammenfassung": "Steuerpflichtig ist der inländische Schuldner; Anmeldung unaufgefordert bei der ESTV (Art. 38 Abs. 1 VStG).",
+   "ziffer": "5–6"
+  },
+  {
+   "start": 98,
+   "titel": "Ziff. 7 Abrechnungsverfahren (30 Tage)",
+   "pfad": [
+    "Abrechnungsverfahren"
+   ],
+   "stichworte": [
+    "Abrechnung",
+    "30 Tage",
+    "Geschäftsvierteljahr",
+    "amtliches Formular"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "verfahren.bezug"
+   ],
+   "zusammenfassung": "Abrechnung innert 30 Tagen nach Ablauf des Geschäftsvierteljahres bzw. des letzten Quartals.",
+   "ziffer": "7"
+  },
+  {
+   "start": 108,
+   "titel": "Ziff. 8–9 Geldmarktpapiere und Inkrafttreten",
+   "pfad": [
+    "Geldmarktpapiere / Inkrafttreten"
+   ],
+   "stichworte": [
+    "Geldmarktpapiere",
+    "Buchforderungen",
+    "Inkrafttreten",
+    "Merkblatt S-02.122.2"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ],
+   "zusammenfassung": "Verweis auf Merkblatt S-02.130.1; das Kreisschreiben ersetzt das Merkblatt S-02.122.2 vom April 1999.",
+   "ziffer": "8–9"
+  }
+ ]
+}

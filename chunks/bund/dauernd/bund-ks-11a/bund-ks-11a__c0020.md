@@ -4,24 +4,16 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 20"
-seiten: "5"
+titel: "Ziff. 4.2 Begriff der behinderungsbedingten Kosten (Teil 2/3)"
+ziffer: "4.2"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.2 Begriff · S. 7–8
 
-3.2.5   Kosten für Medikamente und Heilmittel
-Die Kosten für Medikamente und Heilmittel sind nur abzugsfähig, wenn sie von einer Ärztin, ei
-nem Arzt oder von einer nach kantonaler Praxis anerkannten Naturheilpraktikerin/einem aner
-kannten Naturheilpraktiker verordnet werden (vgl. Ziff. 3.2.4; vgl. Verwaltungsgericht Thurgau
-V64 vom 17. März 2004).
-
-3.2.6   Pflegekosten
-Abzugsfähig sind die Kosten für die krankheits- oder unfallbedingte ambulante Pflege zu Hause.
-Unwesentlich ist dabei, wer diese Pflegeleistungen erbringt (Pflegefachpersonen, Spitexorgani
-sationen, private Pflegekräfte etc.). Kein Abzug kann jedoch gemacht werden für unentgeltlich
-erbrachte Pflegeleistungen.
-Werden die Dienste einer ambulanten Pflege in Anspruch genommen, die neben der eigentli
-chen Pflege auch den Haushalt besorgt, so sind diese Kosten angemessen in abziehbare
-Pflege- und nichtabziehbare Lebenshaltungskosten aufzuteilen (vgl. Urteil des Bundesgerichts
-9C_655/2022 vom 31. Oktober 2023 E. 5.4.1).
+Krankheits- und Unfallkosten im Sinne von Ziffer 3 hiervor können auch von einer Person mit
+Behinderung nur insoweit abgezogen werden, als sie den in Artikel 33 Absatz 1 Buchstabe h
+DBG geregelten Selbstbehalt übersteigen. Hat hingegen die medizinische Behandlung ihre Ur
+sache in der Behinderung der behandelten Person (kausaler Zusammenhang), können die da
+mit zusammenhängenden Kosten als behinderungsbedingt vollumfänglich zum Abzug gebracht
+werden (z. B. Physiotherapie bei einer gelähmten Person).

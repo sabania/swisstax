@@ -4,23 +4,23 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 8"
-seiten: "2"
+titel: "Ziff. 4.2 Begriff Wertschriften (Aktien, Obligationen, Derivate, Futures)"
+ziffer: "4.2"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.2 · S. 4
 
-Artikel 18 Absatz 1 DBG hält fest, dass alle Einkünfte aus einem Handels-, Industrie-,
-Gewerbe-, Land- und Forstwirtschaftsbetrieb, aus einem freien Beruf sowie aus jeder ande-
-ren selbständigen Erwerbstätigkeit steuerbar sind. Zu den Einkünften aus selbständiger
-Erwerbstätigkeit gehören nach Artikel 18 Absatz 2 DBG auch alle Kapitalgewinne aus Ver-
-äusserung, Verwertung oder buchmässiger Aufwertung von Geschäftsvermögen.
+4.2   Wertschriften
 
-2.3   Absicht des Gesetzgebers im Stabilisierungsprogramm 1998
-
-Die Eidgenössischen Räte haben in den Beratungen des Bundesgesetzes über das
-Stabilisierungsprogramm 1998 2 versucht, den gewerbsmässigen Wertschriftenhandel im
-Gesetz explizit zu regeln. Dieses Vorhaben scheiterte jedoch auf Grund der Komplexität
-dieser Materie. Es wurde daher beschlossen, im Gesetz nichts zu regeln und es beim
-bisherigen Recht (Praxis und Rechtsprechung zum BdBSt) zu belassen. Somit stand der
-"Wille des Gesetzgebers" eindeutig fest.
+Wertschriften im Sinne dieses Kreisschreibens sind Wertpapiere sowie nicht verurkundete
+Rechte mit gleicher Funktion (Wertrechte). Zu den Wertschriften gehören einmal jene
+Wertpapiere im zivilrechtlichen Sinn, die entweder volle Mitgliedschaftsrechte (z.B. Aktien,
+Anteile von Genossenschaften) oder bloss beteiligungsrechtliche Vermögensrechte (z.B.
+Partizipationsscheine, Genussscheine, Anteile an kollektiven Kapitalanlagen) verkörpern
+sowie Forderungsrechte (Obligationen). Sodann umfassen die Wertschriften im Sinn dieses
+Kreisschreibens auch bloss buchmässig registrierte Mitgliedschafts- und Forderungsrechte.
+Schliesslich zählen zu den Wertschriften auch Futures und die Derivate, deren Wert von
+einem bestimmten Basiswert (Aktien, Obligationen, Devisen, Edelmetalle, Rohwaren,
+Indizes, usw.) abgeleitet wird. Zu den derivativen Finanzinstrumenten zählen insbesondere
+Optionen und Swaps.

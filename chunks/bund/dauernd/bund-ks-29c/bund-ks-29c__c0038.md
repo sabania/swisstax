@@ -4,23 +4,17 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 38"
-seiten: "13"
+titel: "Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 4/4)"
+ziffer: "6.2.4"
+seiten: "16-17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.2 Fusion · S. 16–17
 
-Die handelsrechtlich ausschüttungsfähigen übrigen Reserven bestimmen sich nach dem Be-
-stand des in der ordentlichen Jahresbilanz der ausschüttenden Gesellschaft ausgewiesenen
-Eigenkapitals vor der Ausschüttung unter Abzug des Aktien-, Genossenschafts- oder
-Stammkapitals, der KER und Ausland-KER und des maximal möglichen Umfanges der ge-
-setzlichen Reserven gemäss OR (vgl. Art. 671 – 675a, 804 sowie 860 OR).
-
-5.1.2. Regelverletzung
-
-Wird die Ausschüttungsregel nicht eingehalten, ist mit Wirkung für die Einkommens- und
-Verrechnungssteuer die halbe Differenz zwischen der Rückzahlung von KER und den übri-
-gen Reserven steuerbar, höchstens jedoch bis zu den vorhandenen, handelsrechtlich aus-
-schüttungsfähigen übrigen Reserven. Soweit handelsrechtlich ausgeschüttete KER aufgrund
-der Regelverletzung den übrigen Reserven belastet werden müssen, sind diese in der Han-
-delsbilanz mit dem entsprechenden Betrag dem gesonderten Konto für KER zuzuweisen.
+Ein allfälliges Fusionsagio stellt nur in dem Umfang eine ausweisbare KER bzw. Ausland-
+KER dar, soweit es dem liberierten Grund- oder Stammkapital und den bestehenden KER
+bzw. Ausland-KER der übernommenen Muttergesellschaft entspricht, und soweit das libe-
+rierte Grund- oder Stammkapital und die bestehenden KER bzw. Ausland-KER der Mutterge-
+sellschaft das bereits bestehende liberierte Grund- oder Stammkapital und die KER bzw.
+Ausland-KER der Tochtergesellschaft übersteigen.
+.

@@ -4,35 +4,31 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 149"
-seiten: "39"
+titel: "Ziff. 7.4 Beispiel 7 – Lohnerhöhung und anschliessende Erwerbstätigkeit des Ehegatten (Teil 2/2)"
+ziffer: "7.4"
+seiten: "48"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 39
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 48
 
-    Quellensteuer   475   475   654   654   654   920   920   7 664
+    Quellensteuer   752   752   1 287   1 287   1 683   1 683   1 683   13 422
     Korrektur
-    +2803   +1205   +400
-    Januar - April
-    Korrektur
-    +2166   +216
-    Mai – Oktober
+    +1 1043   +1 104
+    Januar - Juni
     Total
-    475   475   934   654   654   1 256   920   8 280
+    752   752   2 391   1 287   1 683   1 683   1 683   14 526
     Quellensteuer
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 60 000.00 (CHF 5 000 x 12)
+    1 = B0 mit satzbestimmendem Jahreseinkommen von CHF 96 000.00 (CHF 8 000 x 12).
 
-    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 68 000.00 [(CHF 5 000 x 4) + (CHF 6 000 x 8)]
+    2 = B0 mit satzbestimmendem Jahreseinkommen von CHF 114 000.00 ([CHF 8 000 x 6] + [CHF 11 000 x
 
-    3 = Korrektur des Quellensteuerabzugs für die Monate Januar bis April [(CHF 5 000 x 4) x 10.9 % -
+    6]).
+    3 = Korrektur des Quellensteuerabzugs für die Monate Januar bis Juni ([CHF 8 000 x 11.70 %] x 6) –
 
-    (CHF 475 x 4)]
-    4 = A0 mit satzbestimmendem Jahreseinkommen von CHF 72 000.00 [(CHF 5 000 x 4) + (CHF 6 000 x 6)
+    (CHF 752 x 6).
+    4 = C0 mit satzbestimmendem Jahreseinkommen von CHF 114 000.00.
 
-    + CHF 8 000 x 2)]
-    5 = Korrektur des Quellensteuerabzugs für die Monate Januar bis April [(CHF 5 000 x 4) x 11.5 % -
-
-    (CHF 475 x 4) – CHF 280]
-    6 = Korrektur des Quellensteuerabzugs für die Monate Mai bis Oktober [(CHF 6 000 x 6) x 11.5 % -
-
-    (CHF 654 x 6)]
+Ändert sich der satzbestimmende Jahreslohn während des Jahres (bspw. infolge einer Lohn-
+erhöhung oder aufgrund der Ausrichtung eines Bonus), sind die in den Vormonaten bezoge-
+nen zu hohen oder zu tiefen Quellensteuern gemäss dem damals gültigen Tarifcode wäh-
+rend des laufenden Monats zu korrigieren.

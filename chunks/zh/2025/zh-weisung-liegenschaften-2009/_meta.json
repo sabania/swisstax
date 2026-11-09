@@ -1,1825 +1,3230 @@
 [
 {
 "id": "zh-weisung-liegenschaften-2009__c0001",
-"titel": "Weisung 2009 ZH – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Weisung 2009 Liegenschaftsbewertung ZH – Kopf und Ingress",
+"pfad": [
+"Weisung 2009"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Weisung 2009",
+"Liegenschaftsbewertung Zürich",
+"Eigenmietwert",
+"Vermögenssteuerwert",
+"ZStB 21.1",
+"Regierungsrat"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Die Weisung 2009 des Regierungsrates (vom 12. August 2009) gilt bis und mit Steuerperiode 2025; ab 2026 gilt die neue Weisung 2026.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "zh-weisung-liegenschaften-2009__c0002"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0002",
-"titel": "Weisung 2009 ZH – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1–3 Landwirtschaftliche Liegenschaften – Ertragswert",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"I. Landwirtschaftliche Liegenschaften"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–3",
+"stichworte": [
+"Landwirtschaft",
+"Ertragswert",
+"Bauernhof",
+"Heimwesen",
+"BGBB",
+"Forstwirtschaft"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Land- und forstwirtschaftlich beworbene Liegenschaften werden mit den erforderlichen Gebäuden zum Ertragswert nach BGBB bewertet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0001",
 "nachher": "zh-weisung-liegenschaften-2009__c0003"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0003",
-"titel": "Weisung 2009 ZH – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 4–5 Unüberbautes Land – Verkehrswert, Bauland",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"1.–2. Allgemeines, Bauland-Kategorien"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4–5",
+"stichworte": [
+"Bauland",
+"Verkehrswert",
+"Bauland-Kategorien",
+"unüberbautes Land",
+"Zonenordnung",
+"Mehrfamilienhaus"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwirtschaftlich beworbenes Bauland wird nach Ziff. 1–3 bewertet; sonst wird unüberbautes Land nach Zonenordnung vier Bauland-Kategorien zugeordnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0002",
 "nachher": "zh-weisung-liegenschaften-2009__c0004"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0004",
-"titel": "Weisung 2009 ZH – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 6 Bauland-Kategorien nach Zonenordnung",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"2. Bauland-Kategorien"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6",
+"stichworte": [
+"Bauland-Kategorien",
+"Zonenordnung",
+"Einfamilienhaus",
+"Geschäftshaus",
+"Industrie"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Unüberbautes, nicht landwirtschaftliches Land wird vier Kategorien zugeordnet: Mehrfamilienhäuser/Stockwerkeigentum, Einfamilienhäuser, Geschäftshäuser, industrielle/gewerbliche Bauten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0003",
 "nachher": "zh-weisung-liegenschaften-2009__c0005"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0005",
-"titel": "Weisung 2009 ZH – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 7–9 Festlegung der steuerlich massgebenden Landwerte",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"3. Festlegung der Landwerte"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7–9",
+"stichworte": [
+"Landwerte",
+"Sachverständige",
+"Finanzdirektion",
+"Anhang",
+"Vergleichshandänderungen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Die steuerlich massgebenden Landwerte werden von Sachverständigen der Finanzdirektion indirekt ermittelt und stehen im Anhang.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0004",
 "nachher": "zh-weisung-liegenschaften-2009__c0006"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0006",
-"titel": "Weisung 2009 ZH – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 10–12 Bauland Mehrfamilienhäuser und Stockwerkeigentum – Lageklassen",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"3. Landwerte",
+"Mehrfamilienhäuser und Stockwerkeigentum"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10–12",
+"stichworte": [
+"Lageklasse",
+"Preisbandbreite",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Landwert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Pro Gemeinde wird eine Preisbandbreite festgelegt und jede Lageklasse erhält im Rahmen der Bandbreite einen Landwert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0005",
 "nachher": "zh-weisung-liegenschaften-2009__c0007"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0007",
-"titel": "Weisung 2009 ZH – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 13–15 Bauland Einfamilienhäuser, Geschäftshäuser, Industrie",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"3. Landwerte"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13–15",
+"stichworte": [
+"Einfamilienhaus",
+"60%",
+"Geschäftshäuser",
+"Industrie",
+"Gewerbe",
+"Zentrum-Peripherie-Modell"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Der Landwert für Einfamilienhäuser beträgt 60% der Werte für Mehrfamilienhäuser und Stockwerkeigentum; Geschäftshäuser und Industrie nach Zentrum-Peripherie-Modell.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0006",
 "nachher": "zh-weisung-liegenschaften-2009__c0008"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0008",
-"titel": "Weisung 2009 ZH – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 16–18 Kiesland, anderes Land, besondere Verhältnisse",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"4.–6."
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "16–18",
+"stichworte": [
+"Kiesland",
+"Campingplatz",
+"Lärm",
+"Immissionen",
+"Baubeschränkung",
+"Reduktion Landwert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Kiesland und anderes nicht landwirtschaftliches Land werden zum Verkehrswert bewertet; bei wesentlich tieferem tatsächlichem Landwert (Immissionen, Baubeschränkungen) erfolgt eine Reduktion.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0007",
 "nachher": "zh-weisung-liegenschaften-2009__c0009"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0009",
-"titel": "Weisung 2009 ZH – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 19 Grenzfälle landwirtschaftlich beworbenes Land",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"III. Grenzfälle"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "19",
+"stichworte": [
+"Grenzfall",
+"Ertragswert",
+"Umschwung",
+"Pünten",
+"Vermögensnachbesteuerung",
+"Parkanlage"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Bei fraglicher landwirtschaftlicher Bewirtschaftung wird auf Begehren zum Ertragswert bewertet, wenn die Vermögensnachbesteuerung unterschriftlich anerkannt wird.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0008",
 "nachher": "zh-weisung-liegenschaften-2009__c0010"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0010",
-"titel": "Weisung 2009 ZH – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 20–22 Einfamilienhäuser und Stockwerkeigentum – Grundsätze",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"1. Allgemeine Grundsätze"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "20–22",
+"stichworte": [
+"Einfamilienhaus",
+"Stockwerkeigentum",
+"Landwert",
+"Zeitbauwert",
+"Wertquote",
+"Verkehrswert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Der Verkehrswert beträgt bei Einfamilienhäusern Landwert plus Zeitbauwert, bei Stockwerkeigentum Landwertanteil plus Zeitbauwertanteil nach Wertquoten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0009",
 "nachher": "zh-weisung-liegenschaften-2009__c0011"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0011",
-"titel": "Weisung 2009 ZH – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 23–25 Landwert überbautes Land – Einschlag 10%",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"2. Landwert"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "23–25",
+"stichworte": [
+"Landwert",
+"Einschlag 10%",
+"Überbauung",
+"Bauland-Kategorie",
+"Lageklasse"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Für überbautes Land gelten die Werte des unüberbauten Landes mit einem Einschlag von 10% wegen der Überbauung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0010",
 "nachher": "zh-weisung-liegenschaften-2009__c0012"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0012",
-"titel": "Weisung 2009 ZH – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 26–27 Anrechenbare Grundstückfläche Einfamilienhaus",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"2. Landwert"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "26–27",
+"stichworte": [
+"Grundstücksfläche",
+"Umschwung",
+"Basiswert",
+"400 m2",
+"Fr. 1 je m2",
+"Gartenland"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Anrechenbare Fläche je Basiswert: Einfamilienhaus höchstens 400 m2 bis Fr. 30 000, bis 800 m2 plus 100 m2 je Fr. 30 000 Basiswert; Mehrfläche zu Fr. 1 je m2.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0011",
 "nachher": "zh-weisung-liegenschaften-2009__c0013"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0013",
-"titel": "Weisung 2009 ZH – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 28–29 Anrechenbare Grundstückfläche Stockwerkeigentum, Mehrfläche",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"2. Landwert"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "28–29",
+"stichworte": [
+"Stockwerkeigentum",
+"Grundstücksfläche",
+"100 m2",
+"Fr. 1 je m2",
+"Basiswert Fr. 10 000"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Stockwerkeigentum: höchstens 100 m2 bis Basiswert Fr. 10 000, bis 200 m2 plus 30 m2 je Fr. 10 000 Basiswert; Mehrfläche zu Fr. 1 je m2.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0012",
 "nachher": "zh-weisung-liegenschaften-2009__c0014"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0014",
-"titel": "Weisung 2009 ZH – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 30–34 Zeitbauwert – Neubauwert und Altersentwertung",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"3. Zeitbauwert"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "30–34",
+"stichworte": [
+"Zeitbauwert",
+"Neubauwert",
+"Altersentwertung",
+"Gebäudeversicherung",
+"Basiswert",
+"Totalrenovation"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Neubauwert 1000% des Basiswerts der Gebäudeversicherung abzüglich Altersentwertung von 1% pro Jahr, höchstens 30%.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0013",
 "nachher": "zh-weisung-liegenschaften-2009__c0015"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0015",
-"titel": "Weisung 2009 ZH – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 35 Besondere Verhältnisse – Korrekturen auf Verlangen",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"4. Besondere Verhältnisse"
+],
 "seiten": [
-6
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "35",
+"stichworte": [
+"Korrektur Vermögenssteuerwert",
+"Härtefall",
+"Nachweis",
+"Verkehrswert",
+"Luxusausbau"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Auf Verlangen und gegen Nachweis kann der Landwert oder Zeitbauwert korrigiert werden, wenn sich Elemente bei einer Veräusserung nicht im Erlös niederschlagen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0014",
 "nachher": "zh-weisung-liegenschaften-2009__c0016"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0016",
-"titel": "Weisung 2009 ZH – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 36–37 Mehrfamilien- und Geschäftshäuser – Grundsätze",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"V. Mehrfamilien- und Geschäftshäuser",
+"1. Allgemeine Grundsätze"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "36–37",
+"stichworte": [
+"Mehrfamilienhaus",
+"Geschäftshaus",
+"Ertragswert",
+"Renditeliegenschaft"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Mehrfamilien- und Geschäftshäuser sowie Stockwerkeigentum zu Geschäftszwecken werden zum Ertragswert bewertet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0015",
 "nachher": "zh-weisung-liegenschaften-2009__c0017"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0017",
-"titel": "Weisung 2009 ZH – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 38–40 Ertragswert Mehrfamilienhäuser – Ertrag",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"V. Mehrfamilien- und Geschäftshäuser",
+"2. Ertragswert"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "38–40",
+"stichworte": [
+"Kapitalisierungssatz",
+"7,05%",
+"Basiszinssatz 4,75%",
+"Mietertrag",
+"Ertragswert",
+"Mehrfamilienhaus"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.mietertrag"
+],
+"zusammenfassung": "Der Mietertrag wird mit 7,05% kapitalisiert (Basiszinssatz 4,75% plus Zuschlag 2,3%).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0016",
 "nachher": "zh-weisung-liegenschaften-2009__c0018"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0018",
-"titel": "Weisung 2009 ZH – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 41–42 Kapitalisierungssatz Mehrfamilienhäuser 7,05%",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"V. Mehrfamilien- und Geschäftshäuser",
+"2. Ertragswert"
+],
 "seiten": [
-8
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "41–42",
+"stichworte": [
+"Kapitalisierungssatz",
+"7,05%",
+"Basiszinssatz 4,75%",
+"Zuschlag 2,3%",
+"Ertragswert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Der Kapitalisierungssatz beträgt 7,05% (Basiszinssatz 4,75% plus Zuschlag 2,3%).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0017",
 "nachher": "zh-weisung-liegenschaften-2009__c0019"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0019",
-"titel": "Weisung 2009 ZH – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 43–44 Ertragswert Geschäftshäuser",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"V. Mehrfamilien- und Geschäftshäuser",
+"2. Ertragswert"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "43–44",
+"stichworte": [
+"Geschäftshaus",
+"Kapitalisierung",
+"Ertragswert",
+"Bürogebäude"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Der Ertrag von Geschäftshäusern wird mit dem Satz der Mehrfamilienhäuser (Ziff. 41 und 42) kapitalisiert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0018",
 "nachher": "zh-weisung-liegenschaften-2009__c0020"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0020",
-"titel": "Weisung 2009 ZH – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 45–48 Industrielle/gewerbliche Liegenschaften – Grundsätze",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"VI. Industrielle oder gewerbliche Liegenschaften",
+"1. Allgemeine Grundsätze"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "45–48",
+"stichworte": [
+"Industrie",
+"Gewerbe",
+"Lagerhaus",
+"Fabrik",
+"Landreserve"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Verkehrswert industrieller oder gewerblicher Bauten ist Landwert plus Zeitbauwert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0019",
 "nachher": "zh-weisung-liegenschaften-2009__c0021"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0021",
-"titel": "Weisung 2009 ZH – Abschnitt 21",
-"pfad": [],
+"titel": "Ziff. 49–50 Landwert industrielle/gewerbliche Bauten",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"VI. Industrielle oder gewerbliche Liegenschaften",
+"2. Landwert"
+],
 "seiten": [
-9
+9,
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "49–50",
+"stichworte": [
+"Landwert",
+"Einschlag 10%",
+"Industrieland",
+"Gewerbebauten"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ausgegangen wird von den Werten unüberbauten Landes mit 10% Einschlag; Zuordnung nach Art der Baute.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0020",
 "nachher": "zh-weisung-liegenschaften-2009__c0022"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0022",
-"titel": "Weisung 2009 ZH – Abschnitt 22",
-"pfad": [],
+"titel": "Ziff. 51–55 Zeitbauwert industrielle Bauten – Altersentwertung 2%/3%",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"VI. Industrielle oder gewerbliche Liegenschaften",
+"3. Zeitbauwert"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "51–55",
+"stichworte": [
+"Altersentwertung",
+"Zeitbauwert",
+"Neubauwert 1000%",
+"starke Abnützung",
+"chemische Industrie"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Altersentwertung bei normaler Abnützung 2% pro Jahr bis Restwert 30%, bei besonders starker Abnützung 3% pro Jahr bis Restwert 0%.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0021",
 "nachher": "zh-weisung-liegenschaften-2009__c0023"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0023",
-"titel": "Weisung 2009 ZH – Abschnitt 23",
-"pfad": [],
+"titel": "Ziff. 56–58 Neue Gebäudeteile, Bürohäuser, Personalwohnungen",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"VI. Industrielle oder gewerbliche Liegenschaften",
+"4.–6."
+],
 "seiten": [
-9
+10,
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "56–58",
+"stichworte": [
+"Anbau",
+"Aufbau",
+"Bürohaus",
+"Personalwohnhaus",
+"Fabrikareal"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Neue Gebäudeteile werden nach der Erhöhung des Versicherungs-Basiswerts bewertet; Bürohäuser im Fabrikareal zusammen mit den Fabrikgebäuden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0022",
 "nachher": "zh-weisung-liegenschaften-2009__c0024"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0024",
-"titel": "Weisung 2009 ZH – Abschnitt 24",
-"pfad": [],
+"titel": "Ziff. 59–60 Eigenmietwert Einfamilienhaus 3,50% / Stockwerkeigentum 4,25%",
+"pfad": [
+"B. Eigenmietwerte",
+"I. Einfamilienhäuser und Stockwerkeigentum"
+],
 "seiten": [
-10
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "59–60",
+"stichworte": [
+"Eigenmietwert",
+"3,50%",
+"4,25%",
+"Basiswert Fr. 120 000",
+"Basiswert Fr. 40 000",
+"selbstbewohntes Eigenheim"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Eigenmietwert: Einfamilienhaus 3,50% des Land- und Zeitbauwertes, Stockwerkeigentum 4,25%; Teil über Basiswert Fr. 120 000 (EFH) bzw. Fr. 40 000 (StWE) nur mit 1%.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0023",
 "nachher": "zh-weisung-liegenschaften-2009__c0025"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0025",
-"titel": "Weisung 2009 ZH – Abschnitt 25",
-"pfad": [],
+"titel": "Ziff. 61–62 Eigenmietwert – Korrekturen und Einschlag",
+"pfad": [
+"B. Eigenmietwerte",
+"I. Einfamilienhäuser und Stockwerkeigentum"
+],
 "seiten": [
-10
+11,
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "61–62",
+"stichworte": [
+"Eigenmietwert Einschlag",
+"Wegzug der Kinder",
+"Härtefall",
+"Teilnutzung",
+"Eigenmietwert Reduktion"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"sozialabzug.eigenmietwert"
+],
+"zusammenfassung": "Auf Verlangen Korrekturen bei Land- und Zeitbauwert; angemessener Einschlag bei verminderter Nutzung (z.B. Wegzug der Kinder) oder Härtefall.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0024",
 "nachher": "zh-weisung-liegenschaften-2009__c0026"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0026",
-"titel": "Weisung 2009 ZH – Abschnitt 26",
-"pfad": [],
+"titel": "Ziff. 63–67 Eigenmietwert Wohnungen in Mehrfamilienhäusern – Einschlag 30%",
+"pfad": [
+"B. Eigenmietwerte",
+"II. Wohnungen in Mehrfamilienhäusern ohne Stockwerkeigentum"
+],
 "seiten": [
-11
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "63–67",
+"stichworte": [
+"Eigenmietwert Wohnung",
+"Einschlag 30%",
+"Vergleichsmiete",
+"Mehrfamilienhaus",
+"Eigentümerwohnung"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Mietwert durch Vergleich mit Drittmieten im gleichen Haus; davon wird ein Einschlag von 30% abgezogen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0025",
 "nachher": "zh-weisung-liegenschaften-2009__c0027"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0027",
-"titel": "Weisung 2009 ZH – Abschnitt 27",
-"pfad": [],
+"titel": "Ziff. 68–72 Wohnungen in Geschäftshäusern und Geschäftsräume – Mietwert in % Umsatz",
+"pfad": [
+"B. Eigenmietwerte",
+"III.–IV. Geschäftshäuser, Geschäftsräume"
+],
 "seiten": [
-11
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "68–72",
+"stichworte": [
+"Geschäftsräume",
+"Mietwert Umsatz",
+"Bäckerei",
+"Gastgewerbe",
+"Apotheke",
+"Eigennutzung Geschäft"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Üblicher Mietwert in % des Umsatzes: Bäckereien 4–5, Metzgereien 3, Lebensmittel-Detailhandel 2–3, Drogerien/Apotheken 3–4, Gastgewerbe mit Alkohol 8–10, ohne 9–12.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0026",
 "nachher": "zh-weisung-liegenschaften-2009__c0028"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0028",
-"titel": "Weisung 2009 ZH – Abschnitt 28",
-"pfad": [],
+"titel": "Ziff. 73–74 Andere Liegenschaften und Räume",
+"pfad": [
+"B. Eigenmietwerte",
+"V. Andere Liegenschaften und Räume"
+],
 "seiten": [
-11
+13,
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "73–74",
+"stichworte": [
+"Garage",
+"Scheune",
+"Reithalle",
+"Mietwert",
+"Einzelfall"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Für Scheunen, Garagen, Sport- und Reithallen gilt der Mietzins, den ein Dritter zahlen würde, geschätzt im Einzelfall.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0027",
 "nachher": "zh-weisung-liegenschaften-2009__c0029"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0029",
-"titel": "Weisung 2009 ZH – Abschnitt 29",
-"pfad": [],
+"titel": "Ziff. 75–78 Liegenschaften im Baurecht",
+"pfad": [
+"C. Liegenschaften im Baurecht",
+"I.–II. Baurechtsnehmer, Baurechtsgeber"
+],
 "seiten": [
-12
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "75–78",
+"stichworte": [
+"Baurecht",
+"Baurechtszins",
+"Baurechtsnehmer",
+"Baurechtsgeber",
+"Vermögenssteuerwert"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Beim Baurecht bildet für EFH/StWE der Zeitbauwert, für Mehrfamilienhäuser die Differenz von Ertragswert und kapitalisiertem Baurechtszins den Steuerwert; Baurechtsgeber: kapitalisierter Baurechtszins.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0028",
 "nachher": "zh-weisung-liegenschaften-2009__c0030"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0030",
-"titel": "Weisung 2009 ZH – Abschnitt 30",
-"pfad": [],
+"titel": "Ziff. 79–80 Individuelle Schätzung Vermögenssteuerwert – Auslöser und Grundlagen",
+"pfad": [
+"D. Individuelle Schätzung",
+"I. Vermögenssteuerwert"
+],
 "seiten": [
-12
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "79–80",
+"stichworte": [
+"individuelle Schätzung",
+"70% Verkehrswert",
+"100% Verkehrswert",
+"Kaufpreis",
+"Privatgutachten"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Individuelle Schätzung, wenn der Formelwert über 100% oder unter 70% des Verkehrswerts liegt; Grundlagen: Kaufpreis, Anlagewert, Privatgutachten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0029",
 "nachher": "zh-weisung-liegenschaften-2009__c0031"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0031",
-"titel": "Weisung 2009 ZH – Abschnitt 31",
-"pfad": [],
+"titel": "Ziff. 81 Hedonische Methode Verkehrswert",
+"pfad": [
+"D. Individuelle Schätzung",
+"I. Vermögenssteuerwert"
+],
 "seiten": [
-13
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "81",
+"stichworte": [
+"hedonische Methode",
+"amtliches Gutachten",
+"Fragebogen",
+"Mitwirkungspflicht",
+"70%",
+"90%"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bei individueller Schätzung wird der Steuerwert auf 70% des Verkehrswerts (Formelwert unter 70%) bzw. 90% (Formelwert über 100%) festgesetzt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0030",
 "nachher": "zh-weisung-liegenschaften-2009__c0032"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0032",
-"titel": "Weisung 2009 ZH – Abschnitt 32",
-"pfad": [],
+"titel": "Ziff. 82 Steuerwert 70%/90% des Verkehrswerts bei individueller Schätzung",
+"pfad": [
+"D. Individuelle Schätzung",
+"I. Vermögenssteuerwert"
+],
 "seiten": [
-13
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "82",
+"stichworte": [
+"Vermögenssteuerwert 70%",
+"Vermögenssteuerwert 90%",
+"Verkehrswert",
+"Formelwert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Der Vermögenssteuerwert wird auf 70% des Verkehrswerts (Formelwert unter 70%) bzw. 90% (Formelwert über 100%) festgesetzt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0031",
 "nachher": "zh-weisung-liegenschaften-2009__c0033"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0033",
-"titel": "Weisung 2009 ZH – Abschnitt 33",
-"pfad": [],
+"titel": "Ziff. 83–84 Individuelle Schätzung Eigenmietwert – Auslöser und Grundlagen",
+"pfad": [
+"D. Individuelle Schätzung",
+"II. Eigenmietwert"
+],
 "seiten": [
-14
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "83–84",
+"stichworte": [
+"Marktmiete",
+"Eigenmietwert 60%",
+"Eigenmietwert 70%",
+"individuelle Schätzung",
+"Vergleichsmiete"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Individuelle Schätzung, wenn der Formelwert über 70% oder unter 60% der Marktmiete liegt; Grundlagen: Vergleichsmieten, Privatgutachten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0032",
 "nachher": "zh-weisung-liegenschaften-2009__c0034"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0034",
-"titel": "Weisung 2009 ZH – Abschnitt 34",
-"pfad": [],
+"titel": "Ziff. 85 Hedonische Methode Marktmietwert",
+"pfad": [
+"D. Individuelle Schätzung",
+"II. Eigenmietwert"
+],
 "seiten": [
-14
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "85",
+"stichworte": [
+"hedonische Methode",
+"Marktmietwert",
+"Fragebogen",
+"amtliches Gutachten",
+"Eigenmietwert"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Bei individueller Schätzung wird der Eigenmietwert auf 60% der Marktmiete (Formelwert unter 60%) bzw. 70% (Formelwert über 70%) festgelegt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0033",
 "nachher": "zh-weisung-liegenschaften-2009__c0035"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0035",
-"titel": "Weisung 2009 ZH – Abschnitt 35",
-"pfad": [],
+"titel": "Ziff. 86 Eigenmietwert 60%/70% der Marktmiete bei individueller Schätzung",
+"pfad": [
+"D. Individuelle Schätzung",
+"II. Eigenmietwert"
+],
 "seiten": [
-15
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "86",
+"stichworte": [
+"Eigenmietwert 60%",
+"Eigenmietwert 70%",
+"Marktmiete",
+"Formelwert"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Der Eigenmietwert wird auf 60% der Marktmiete (Formelwert unter 60%) bzw. 70% (Formelwert über 70%) festgelegt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0034",
 "nachher": "zh-weisung-liegenschaften-2009__c0036"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0036",
-"titel": "Weisung 2009 ZH – Abschnitt 36",
-"pfad": [],
+"titel": "Ziff. 87–88 Allgemeine Neubewertung 2009",
+"pfad": [
+"E. Neufestsetzung",
+"I. Einfamilienhäuser, Stockwerkeigentum, Industrie",
+"1. Allgemeine Neubewertung"
+],
 "seiten": [
-15
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "87–88",
+"stichworte": [
+"Neubewertung",
+"Steuerperiode 2009",
+"unveränderte Werte"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Die Werte wurden für die Steuerperiode 2009 allgemein neu festgelegt und bleiben bis zur nächsten allgemeinen Neubewertung unverändert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0035",
 "nachher": "zh-weisung-liegenschaften-2009__c0037"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0037",
-"titel": "Weisung 2009 ZH – Abschnitt 37",
-"pfad": [],
+"titel": "Ziff. 89–91 Ausserordentliche Neubewertung einzelner Liegenschaften",
+"pfad": [
+"E. Neufestsetzung",
+"I. Einfamilienhäuser, Stockwerkeigentum, Industrie",
+"2. Ausserordentliche Neubewertung"
+],
 "seiten": [
-15
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "89–91",
+"stichworte": [
+"Neubau",
+"Totalrenovation",
+"Abbruch",
+"Handänderung",
+"Baukosten 60%",
+"ausserordentliche Neubewertung"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Ausserordentliche Neufestsetzung bei neu erstellten Liegenschaften, Totalrenovation, Abbruch und Handänderung; Bauten im Bau: Landwert plus 60% der Baukosten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0036",
 "nachher": "zh-weisung-liegenschaften-2009__c0038"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0038",
-"titel": "Weisung 2009 ZH – Abschnitt 38",
-"pfad": [],
+"titel": "Ziff. 92–94 Mehrfamilienhäuser jährliche Neufestsetzung, Inkrafttreten",
+"pfad": [
+"E. Neufestsetzung",
+"II. Mehrfamilien- und Geschäftshäuser; F. Inkrafttreten"
+],
 "seiten": [
-16
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "92–94",
+"stichworte": [
+"jährliche Neubewertung",
+"Inkrafttreten",
+"Mehrfamilienhaus",
+"Geschäftshaus"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Werte von Mehrfamilien- und Geschäftshäusern werden ab 2009 jede Steuerperiode neu festgelegt; die Weisung gilt ab Steuerperiode 2009.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0037",
 "nachher": "zh-weisung-liegenschaften-2009__c0039"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0039",
-"titel": "Weisung 2009 ZH – Abschnitt 39",
-"pfad": [],
+"titel": "Anhang – Übersicht Steuerlich massgebende Landwerte",
+"pfad": [
+"Anhang"
+],
 "seiten": [
-16
+19
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Anhang Landwerte",
+"Wohnbauland",
+"Verzeichnis"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Übersicht über die Landwerttabellen: Wohnbauland unbebaut S. 20–29, bebaut S. 30–39, Geschäfts- und Industrieland S. 40–44.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0038",
 "nachher": "zh-weisung-liegenschaften-2009__c0040"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0040",
-"titel": "Weisung 2009 ZH – Abschnitt 40",
-"pfad": [],
+"titel": "Anhang S. 20 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Affoltern",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-17
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Affoltern",
+"Aeugst am Albis",
+"Affoltern am Albis"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0039",
 "nachher": "zh-weisung-liegenschaften-2009__c0041"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0041",
-"titel": "Weisung 2009 ZH – Abschnitt 41",
-"pfad": [],
+"titel": "Anhang S. 20 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Andelfingen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-17
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Andelfingen",
+"Mettmenstetten",
+"Obfelden"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0040",
 "nachher": "zh-weisung-liegenschaften-2009__c0042"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0042",
-"titel": "Weisung 2009 ZH – Abschnitt 42",
-"pfad": [],
+"titel": "Anhang S. 20 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-18,
-19
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dachsen",
+"Dorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0041",
 "nachher": "zh-weisung-liegenschaften-2009__c0043"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0043",
-"titel": "Weisung 2009 ZH – Abschnitt 43",
-"pfad": [],
+"titel": "Anhang S. 21 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Affoltern",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-20
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Affoltern",
+"Aeugst am Albis",
+"Affoltern am Albis"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0042",
 "nachher": "zh-weisung-liegenschaften-2009__c0044"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0044",
-"titel": "Weisung 2009 ZH – Abschnitt 44",
-"pfad": [],
+"titel": "Anhang S. 21 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Andelfingen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-20
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Andelfingen",
+"Obfelden",
+"Ottenbach"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0043",
 "nachher": "zh-weisung-liegenschaften-2009__c0045"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0045",
-"titel": "Weisung 2009 ZH – Abschnitt 45",
-"pfad": [],
+"titel": "Anhang S. 21 Landwerte Wohnbauland unbebaut Einfamilienhäuser – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-20
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dorf",
+"Feuerthalen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0044",
 "nachher": "zh-weisung-liegenschaften-2009__c0046"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0046",
-"titel": "Weisung 2009 ZH – Abschnitt 46",
-"pfad": [],
+"titel": "Anhang S. 22 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Bülach",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-21
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Bülach",
+"Bachenbülach",
+"Bassersdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0045",
 "nachher": "zh-weisung-liegenschaften-2009__c0047"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0047",
-"titel": "Weisung 2009 ZH – Abschnitt 47",
-"pfad": [],
+"titel": "Anhang S. 22 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Dielsdorf",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-21
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dielsdorf",
+"Höri",
+"Hüntwangen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0046",
 "nachher": "zh-weisung-liegenschaften-2009__c0048"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0048",
-"titel": "Weisung 2009 ZH – Abschnitt 48",
-"pfad": [],
+"titel": "Anhang S. 22 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-21
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Buchs (ZH)",
+"Dällikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0047",
 "nachher": "zh-weisung-liegenschaften-2009__c0049"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0049",
-"titel": "Weisung 2009 ZH – Abschnitt 49",
-"pfad": [],
+"titel": "Anhang S. 23 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Bülach",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-22
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Bülach",
+"Bachenbülach",
+"Bassersdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0048",
 "nachher": "zh-weisung-liegenschaften-2009__c0050"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0050",
-"titel": "Weisung 2009 ZH – Abschnitt 50",
-"pfad": [],
+"titel": "Anhang S. 23 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Dielsdorf",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-22
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dielsdorf",
+"Höri",
+"Hüntwangen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0049",
 "nachher": "zh-weisung-liegenschaften-2009__c0051"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0051",
-"titel": "Weisung 2009 ZH – Abschnitt 51",
-"pfad": [],
+"titel": "Anhang S. 23 Landwerte Wohnbauland unbebaut Einfamilienhäuser – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-22
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Buchs (ZH)",
+"Dällikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0050",
 "nachher": "zh-weisung-liegenschaften-2009__c0052"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0052",
-"titel": "Weisung 2009 ZH – Abschnitt 52",
-"pfad": [],
+"titel": "Anhang S. 24 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Dietikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-23
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dietikon",
+"Aesch (ZH)",
+"Birmensdorf (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0051",
 "nachher": "zh-weisung-liegenschaften-2009__c0053"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0053",
-"titel": "Weisung 2009 ZH – Abschnitt 53",
-"pfad": [],
+"titel": "Anhang S. 24 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Hinwil",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-23
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Hinwil",
+"Unterengstringen",
+"Urdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0052",
 "nachher": "zh-weisung-liegenschaften-2009__c0054"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0054",
-"titel": "Weisung 2009 ZH – Abschnitt 54",
-"pfad": [],
+"titel": "Anhang S. 24 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Horgen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-23
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Horgen",
+"Adliswil",
+"Kilchberg (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0053",
 "nachher": "zh-weisung-liegenschaften-2009__c0055"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0055",
-"titel": "Weisung 2009 ZH – Abschnitt 55",
-"pfad": [],
+"titel": "Anhang S. 25 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Dietikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-24
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dietikon",
+"Aesch (ZH)",
+"Birmensdorf (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0054",
 "nachher": "zh-weisung-liegenschaften-2009__c0056"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0056",
-"titel": "Weisung 2009 ZH – Abschnitt 56",
-"pfad": [],
+"titel": "Anhang S. 25 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Hinwil",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-24
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Hinwil",
+"Urdorf",
+"Weiningen (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0055",
 "nachher": "zh-weisung-liegenschaften-2009__c0057"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0057",
-"titel": "Weisung 2009 ZH – Abschnitt 57",
-"pfad": [],
+"titel": "Anhang S. 25 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Horgen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-24
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Horgen",
+"Adliswil",
+"Kilchberg (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0056",
 "nachher": "zh-weisung-liegenschaften-2009__c0058"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0058",
-"titel": "Weisung 2009 ZH – Abschnitt 58",
-"pfad": [],
+"titel": "Anhang S. 26 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Meilen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-25
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Meilen",
+"Erlenbach (ZH)",
+"Herrliberg"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0057",
 "nachher": "zh-weisung-liegenschaften-2009__c0059"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0059",
-"titel": "Weisung 2009 ZH – Abschnitt 59",
-"pfad": [],
+"titel": "Anhang S. 26 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Pfäffikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-25
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Pfäffikon",
+"Uetikon am See",
+"Zollikon-Berg"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0058",
 "nachher": "zh-weisung-liegenschaften-2009__c0060"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0060",
-"titel": "Weisung 2009 ZH – Abschnitt 60",
-"pfad": [],
+"titel": "Anhang S. 26 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Uster",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-25
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Uster",
+"Pfäffikon",
+"Russikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Uster (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0059",
 "nachher": "zh-weisung-liegenschaften-2009__c0061"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0061",
-"titel": "Weisung 2009 ZH – Abschnitt 61",
-"pfad": [],
+"titel": "Anhang S. 27 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Meilen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-26
+27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Meilen",
+"Erlenbach (ZH)",
+"Herrliberg"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0060",
 "nachher": "zh-weisung-liegenschaften-2009__c0062"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0062",
-"titel": "Weisung 2009 ZH – Abschnitt 62",
-"pfad": [],
+"titel": "Anhang S. 27 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Pfäffikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-26
+27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Pfäffikon",
+"Zollikon-Berg",
+"Zollikon-Dorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0061",
 "nachher": "zh-weisung-liegenschaften-2009__c0063"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0063",
-"titel": "Weisung 2009 ZH – Abschnitt 63",
-"pfad": [],
+"titel": "Anhang S. 27 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Uster",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
 27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Uster",
+"Russikon",
+"Weisslingen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Uster (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0062",
 "nachher": "zh-weisung-liegenschaften-2009__c0064"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0064",
-"titel": "Weisung 2009 ZH – Abschnitt 64",
-"pfad": [],
+"titel": "Anhang S. 28 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Winterthur",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-27
+28
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Winterthur",
+"Altikon",
+"Brütten"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0063",
 "nachher": "zh-weisung-liegenschaften-2009__c0065"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0065",
-"titel": "Weisung 2009 ZH – Abschnitt 65",
-"pfad": [],
+"titel": "Anhang S. 28 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Zürich",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-27
+28
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Zürich",
+"Elsau",
+"Hagenbuch"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Zürich (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0064",
 "nachher": "zh-weisung-liegenschaften-2009__c0066"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0066",
-"titel": "Weisung 2009 ZH – Abschnitt 66",
-"pfad": [],
+"titel": "Anhang S. 29 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Winterthur",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-28
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Winterthur",
+"Altikon",
+"Brütten"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0065",
 "nachher": "zh-weisung-liegenschaften-2009__c0067"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0067",
-"titel": "Weisung 2009 ZH – Abschnitt 67",
-"pfad": [],
+"titel": "Anhang S. 29 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Zürich",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-28
+29
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Zürich",
+"Elsau",
+"Hagenbuch"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Zürich (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0066",
 "nachher": "zh-weisung-liegenschaften-2009__c0068"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0068",
-"titel": "Weisung 2009 ZH – Abschnitt 68",
-"pfad": [],
+"titel": "Anhang S. 30 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Affoltern",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-29
+30
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Affoltern",
+"Aeugst am Albis",
+"Affoltern am Albis"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0067",
 "nachher": "zh-weisung-liegenschaften-2009__c0069"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0069",
-"titel": "Weisung 2009 ZH – Abschnitt 69",
-"pfad": [],
+"titel": "Anhang S. 30 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Andelfingen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-29
+30
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Andelfingen",
+"Obfelden",
+"Ottenbach"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0068",
 "nachher": "zh-weisung-liegenschaften-2009__c0070"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0070",
-"titel": "Weisung 2009 ZH – Abschnitt 70",
-"pfad": [],
+"titel": "Anhang S. 30 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
 30
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dorf",
+"Feuerthalen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0069",
 "nachher": "zh-weisung-liegenschaften-2009__c0071"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0071",
-"titel": "Weisung 2009 ZH – Abschnitt 71",
-"pfad": [],
+"titel": "Anhang S. 31 Landwerte Wohnbauland bebaut Einfamilienhäuser – Affoltern",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-30
+31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Affoltern",
+"Aeugst am Albis",
+"Affoltern am Albis"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0070",
 "nachher": "zh-weisung-liegenschaften-2009__c0072"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0072",
-"titel": "Weisung 2009 ZH – Abschnitt 72",
-"pfad": [],
+"titel": "Anhang S. 31 Landwerte Wohnbauland bebaut Einfamilienhäuser – Andelfingen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-30
+31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Andelfingen",
+"Obfelden",
+"Ottenbach"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0071",
 "nachher": "zh-weisung-liegenschaften-2009__c0073"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0073",
-"titel": "Weisung 2009 ZH – Abschnitt 73",
-"pfad": [],
+"titel": "Anhang S. 31 Landwerte Wohnbauland bebaut Einfamilienhäuser – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
 31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dorf",
+"Feuerthalen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0072",
 "nachher": "zh-weisung-liegenschaften-2009__c0074"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0074",
-"titel": "Weisung 2009 ZH – Abschnitt 74",
-"pfad": [],
+"titel": "Anhang S. 32 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Bülach",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-31
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Bülach",
+"Bachenbülach",
+"Bassersdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0073",
 "nachher": "zh-weisung-liegenschaften-2009__c0075"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0075",
-"titel": "Weisung 2009 ZH – Abschnitt 75",
-"pfad": [],
+"titel": "Anhang S. 32 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Dielsdorf",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-31
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dielsdorf",
+"Höri",
+"Hüntwangen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0074",
 "nachher": "zh-weisung-liegenschaften-2009__c0076"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0076",
-"titel": "Weisung 2009 ZH – Abschnitt 76",
-"pfad": [],
+"titel": "Anhang S. 32 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
 32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Buchs (ZH)",
+"Dällikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0075",
 "nachher": "zh-weisung-liegenschaften-2009__c0077"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0077",
-"titel": "Weisung 2009 ZH – Abschnitt 77",
-"pfad": [],
+"titel": "Anhang S. 33 Landwerte Wohnbauland bebaut Einfamilienhäuser – Bülach",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-32
+33
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Bülach",
+"Bachenbülach",
+"Bassersdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0076",
 "nachher": "zh-weisung-liegenschaften-2009__c0078"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0078",
-"titel": "Weisung 2009 ZH – Abschnitt 78",
-"pfad": [],
+"titel": "Anhang S. 33 Landwerte Wohnbauland bebaut Einfamilienhäuser – Dielsdorf",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-32
+33
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dielsdorf",
+"Höri",
+"Hüntwangen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0077",
 "nachher": "zh-weisung-liegenschaften-2009__c0079"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0079",
-"titel": "Weisung 2009 ZH – Abschnitt 79",
-"pfad": [],
+"titel": "Anhang S. 33 Landwerte Wohnbauland bebaut Einfamilienhäuser – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
 33
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Buchs (ZH)",
+"Dällikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0078",
 "nachher": "zh-weisung-liegenschaften-2009__c0080"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0080",
-"titel": "Weisung 2009 ZH – Abschnitt 80",
-"pfad": [],
+"titel": "Anhang S. 34 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Dietikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-33
+34
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dietikon",
+"Aesch (ZH)",
+"Birmensdorf (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0079",
 "nachher": "zh-weisung-liegenschaften-2009__c0081"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0081",
-"titel": "Weisung 2009 ZH – Abschnitt 81",
-"pfad": [],
+"titel": "Anhang S. 34 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Hinwil",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-33
+34
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Hinwil",
+"Urdorf",
+"Weiningen (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0080",
 "nachher": "zh-weisung-liegenschaften-2009__c0082"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0082",
-"titel": "Weisung 2009 ZH – Abschnitt 82",
-"pfad": [],
+"titel": "Anhang S. 34 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Horgen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
 34
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Horgen",
+"Adliswil",
+"Kilchberg (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0081",
 "nachher": "zh-weisung-liegenschaften-2009__c0083"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0083",
-"titel": "Weisung 2009 ZH – Abschnitt 83",
-"pfad": [],
+"titel": "Anhang S. 35 Landwerte Wohnbauland bebaut Einfamilienhäuser – Dietikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-34
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Dietikon",
+"Aesch (ZH)",
+"Birmensdorf (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0082",
 "nachher": "zh-weisung-liegenschaften-2009__c0084"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0084",
-"titel": "Weisung 2009 ZH – Abschnitt 84",
-"pfad": [],
+"titel": "Anhang S. 35 Landwerte Wohnbauland bebaut Einfamilienhäuser – Hinwil",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
 35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Hinwil",
+"Urdorf",
+"Weiningen (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0083",
 "nachher": "zh-weisung-liegenschaften-2009__c0085"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0085",
-"titel": "Weisung 2009 ZH – Abschnitt 85",
-"pfad": [],
+"titel": "Anhang S. 35 Landwerte Wohnbauland bebaut Einfamilienhäuser – Horgen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
 35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Horgen",
+"Adliswil",
+"Kilchberg (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0084",
 "nachher": "zh-weisung-liegenschaften-2009__c0086"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0086",
-"titel": "Weisung 2009 ZH – Abschnitt 86",
-"pfad": [],
+"titel": "Anhang S. 36 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Meilen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-35
+36
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Meilen",
+"Erlenbach (ZH)",
+"Herrliberg"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0085",
 "nachher": "zh-weisung-liegenschaften-2009__c0087"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0087",
-"titel": "Weisung 2009 ZH – Abschnitt 87",
-"pfad": [],
+"titel": "Anhang S. 36 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Pfäffikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
 36
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Pfäffikon",
+"Uetikon am See",
+"Zollikon-Berg"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0086",
 "nachher": "zh-weisung-liegenschaften-2009__c0088"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0088",
-"titel": "Weisung 2009 ZH – Abschnitt 88",
-"pfad": [],
+"titel": "Anhang S. 36 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Uster",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
 36
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Uster",
+"Pfäffikon",
+"Russikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Uster (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0087",
 "nachher": "zh-weisung-liegenschaften-2009__c0089"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0089",
-"titel": "Weisung 2009 ZH – Abschnitt 89",
-"pfad": [],
+"titel": "Anhang S. 37 Landwerte Wohnbauland bebaut Einfamilienhäuser – Meilen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
 37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Meilen",
+"Erlenbach (ZH)",
+"Herrliberg"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0088",
 "nachher": "zh-weisung-liegenschaften-2009__c0090"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0090",
-"titel": "Weisung 2009 ZH – Abschnitt 90",
-"pfad": [],
+"titel": "Anhang S. 37 Landwerte Wohnbauland bebaut Einfamilienhäuser – Pfäffikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
 37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Pfäffikon",
+"Zollikon-Berg",
+"Zollikon-Dorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0089",
 "nachher": "zh-weisung-liegenschaften-2009__c0091"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0091",
-"titel": "Weisung 2009 ZH – Abschnitt 91",
-"pfad": [],
+"titel": "Anhang S. 37 Landwerte Wohnbauland bebaut Einfamilienhäuser – Uster",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
 37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Uster",
+"Russikon",
+"Weisslingen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Uster (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0090",
 "nachher": "zh-weisung-liegenschaften-2009__c0092"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0092",
-"titel": "Weisung 2009 ZH – Abschnitt 92",
-"pfad": [],
+"titel": "Anhang S. 38 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Winterthur",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
 38
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Winterthur",
+"Altikon",
+"Brütten"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0091",
 "nachher": "zh-weisung-liegenschaften-2009__c0093"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0093",
-"titel": "Weisung 2009 ZH – Abschnitt 93",
-"pfad": [],
+"titel": "Anhang S. 38 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Zürich",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+],
 "seiten": [
-39
+38
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Zürich",
+"Elsau",
+"Hagenbuch"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Zürich (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0092",
 "nachher": "zh-weisung-liegenschaften-2009__c0094"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0094",
-"titel": "Weisung 2009 ZH – Abschnitt 94",
-"pfad": [],
+"titel": "Anhang S. 39 Landwerte Wohnbauland bebaut Einfamilienhäuser – Winterthur",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
 39
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Winterthur",
+"Altikon",
+"Brütten"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0093",
 "nachher": "zh-weisung-liegenschaften-2009__c0095"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0095",
-"titel": "Weisung 2009 ZH – Abschnitt 95",
-"pfad": [],
+"titel": "Anhang S. 39 Landwerte Wohnbauland bebaut Einfamilienhäuser – Zürich",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+],
 "seiten": [
-40
+39
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 23",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Wohnbauland",
+"Zürich",
+"Elsau",
+"Hagenbuch"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Zürich (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0094",
 "nachher": "zh-weisung-liegenschaften-2009__c0096"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0096",
-"titel": "Weisung 2009 ZH – Abschnitt 96",
-"pfad": [],
+"titel": "Anhang S. 40 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Affoltern",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 40
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Affoltern",
+"Aeugst am Albis",
+"Affoltern am Albis"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0095",
 "nachher": "zh-weisung-liegenschaften-2009__c0097"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0097",
-"titel": "Weisung 2009 ZH – Abschnitt 97",
-"pfad": [],
+"titel": "Anhang S. 40 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Andelfingen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 40
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Andelfingen",
+"Hedingen",
+"Kappel am Albis"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0096",
 "nachher": "zh-weisung-liegenschaften-2009__c0098"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0098",
-"titel": "Weisung 2009 ZH – Abschnitt 98",
-"pfad": [],
+"titel": "Anhang S. 40 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 40
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Benken (ZH)",
+"Berg am Irchel"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0097",
 "nachher": "zh-weisung-liegenschaften-2009__c0099"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0099",
-"titel": "Weisung 2009 ZH – Abschnitt 99",
-"pfad": [],
+"titel": "Anhang S. 40 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
-41
+40
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Rheinau",
+"Thalheim an der Thur"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0098",
 "nachher": "zh-weisung-liegenschaften-2009__c0100"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0100",
-"titel": "Weisung 2009 ZH – Abschnitt 100",
-"pfad": [],
+"titel": "Anhang S. 41 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Bülach",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 41
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Bülach",
+"Bachenbülach",
+"Bassersdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0099",
 "nachher": "zh-weisung-liegenschaften-2009__c0101"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0101",
-"titel": "Weisung 2009 ZH – Abschnitt 101",
-"pfad": [],
+"titel": "Anhang S. 41 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 41
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Eglisau",
+"Embrach"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0100",
 "nachher": "zh-weisung-liegenschaften-2009__c0102"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0102",
-"titel": "Weisung 2009 ZH – Abschnitt 102",
-"pfad": [],
+"titel": "Anhang S. 41 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Dielsdorf",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 41
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Dielsdorf",
+"Rorbas",
+"Wallisellen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0101",
 "nachher": "zh-weisung-liegenschaften-2009__c0103"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0103",
-"titel": "Weisung 2009 ZH – Abschnitt 103",
-"pfad": [],
+"titel": "Anhang S. 41 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 41
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Niederglatt",
+"Niederhasli"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0102",
 "nachher": "zh-weisung-liegenschaften-2009__c0104"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0104",
-"titel": "Weisung 2009 ZH – Abschnitt 104",
-"pfad": [],
+"titel": "Anhang S. 42 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Dietikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 42
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Dietikon",
+"Aesch (ZH)",
+"Birmensdorf (ZH)"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0103",
 "nachher": "zh-weisung-liegenschaften-2009__c0105"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0105",
-"titel": "Weisung 2009 ZH – Abschnitt 105",
-"pfad": [],
+"titel": "Anhang S. 42 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Hinwil",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 42
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Hinwil",
+"Oberengstringen",
+"Oetwil an der Limmat"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0104",
 "nachher": "zh-weisung-liegenschaften-2009__c0106"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0106",
-"titel": "Weisung 2009 ZH – Abschnitt 106",
-"pfad": [],
+"titel": "Anhang S. 42 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Horgen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 42
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Horgen",
+"Grüningen",
+"Hinwil"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0105",
 "nachher": "zh-weisung-liegenschaften-2009__c0107"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0107",
-"titel": "Weisung 2009 ZH – Abschnitt 107",
-"pfad": [],
+"titel": "Anhang S. 42 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 42
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Richterswil",
+"Rüschlikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0106",
 "nachher": "zh-weisung-liegenschaften-2009__c0108"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0108",
-"titel": "Weisung 2009 ZH – Abschnitt 108",
-"pfad": [],
+"titel": "Anhang S. 43 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Meilen",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 43
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Meilen",
+"Erlenbach (ZH)",
+"Herrliberg"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0107",
 "nachher": "zh-weisung-liegenschaften-2009__c0109"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0109",
-"titel": "Weisung 2009 ZH – Abschnitt 109",
-"pfad": [],
+"titel": "Anhang S. 43 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Pfäffikon",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 43
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Pfäffikon",
+"Männedorf",
+"Meilen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0108",
 "nachher": "zh-weisung-liegenschaften-2009__c0110"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0110",
-"titel": "Weisung 2009 ZH – Abschnitt 110",
-"pfad": [],
+"titel": "Anhang S. 43 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Uster",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 43
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Uster",
+"Lindau",
+"Pfäffikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Uster (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0109",
 "nachher": "zh-weisung-liegenschaften-2009__c0111"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0111",
-"titel": "Weisung 2009 ZH – Abschnitt 111",
-"pfad": [],
+"titel": "Anhang S. 44 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Winterthur",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
-43
+44
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Winterthur",
+"Altikon",
+"Brütten"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0110",
 "nachher": "zh-weisung-liegenschaften-2009__c0112"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0112",
-"titel": "Weisung 2009 ZH – Abschnitt 112",
-"pfad": [],
+"titel": "Anhang S. 44 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 44
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Dinhard",
+"Ellikon an der Thur"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0111",
 "nachher": "zh-weisung-liegenschaften-2009__c0113"
 },
 {
 "id": "zh-weisung-liegenschaften-2009__c0113",
-"titel": "Weisung 2009 ZH – Abschnitt 113",
-"pfad": [],
+"titel": "Anhang S. 44 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Zürich",
+"pfad": [
+"Anhang",
+"Steuerlich massgebende Landwerte",
+"Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+],
 "seiten": [
 44
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14, 15, 49",
+"stichworte": [
+"Landwert",
+"Lageklasse",
+"Geschäftshäuser Industrieland",
+"Zürich",
+"Turbenthal",
+"Winterthur"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Zürich (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2009__c0112",
-"nachher": "zh-weisung-liegenschaften-2009__c0114"
-},
-{
-"id": "zh-weisung-liegenschaften-2009__c0114",
-"titel": "Weisung 2009 ZH – Abschnitt 114",
-"pfad": [],
-"seiten": [
-44
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-weisung-liegenschaften-2009__c0113",
 "nachher": null
 }
 ]

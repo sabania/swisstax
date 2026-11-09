@@ -4,24 +4,18 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 9.1 Zweiverdienerabzug bei Mitarbeit im Betrieb des Ehegatten"
-ziffer: "9.1"
-seiten: "17"
+titel: "Ziff. 9.2 Definition Erwerbseinkommen für den Zweiverdienerabzug (Teil 2/2)"
+ziffer: "9.2"
+seiten: "17-18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.1 Voraussetzungen · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.2 Definition Erwerbseinkommen · S. 17–18
 
-Der Zweiverdienerabzug wird nicht nur bei unselbständiger Tätigkeit der Ehegatten, sondern
-auch bei erheblicher Mitarbeit eines Ehegatten im Beruf, Geschäft oder Gewerbe des ande-
-ren Ehegatten gewährt. Die Mitarbeit gilt dann als erheblich, wenn sie regelmässig und in
-beträchtlichem Masse erfolgt und einer Drittperson hierfür ein Lohn in mindestens der Höhe
-des Abzuges bezahlt werden müsste. Dies gilt für die Mitarbeit sowohl im Rahmen einer
-hauptberuflichen wie auch einer nebenberuflichen selbständigen Erwerbstätigkeit des Ehe-
-partners.
+Dem Erwerbseinkommen gleichgestellt sind Erwerbsausfallsentschädigungen bei vorüber-
+gehendem Unterbruch der Erwerbstätigkeit (Militär- bzw. Zivilschutzdienst, Mutterschaftsver-
+sicherung, Taggelder aus Arbeitslosen-, Kranken- und Unfallversicherungen). Andere Ein-
+kommen, wie insbesondere Renteneinkommen aus der Alters-, Hinterlassenen- und Invali-
+denversicherung (1. Säule), Rentenleistungen aus der beruflichen Vorsorge (2. Säule) und
 
-Bei Mitarbeit im Rahmen einer unselbständigen (haupt- oder nebenberufliche) Erwerbstätig-
-keit des Ehegatten kann ein Abzug nur gewährt werden, wenn eine erhebliche oder regel-
-mässige Mitarbeit bei der Tätigkeit des Ehepartners vertraglich vorgesehen ist.
-
-Schliesslich ist der Abzug auch zu gewähren, wenn beide Ehegatten eine selbständige Er-
-werbstätigkeit ausüben.
+aus der gebundenen Selbstvorsorge (Säule 3a), Vermögensertrag oder Leibrenten, sind hin-
+gegen dem Erwerbseinkommen nicht gleichgestellt.

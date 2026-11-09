@@ -9,28 +9,10 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
 
-Zivilstandsänderung: Heirat
-:   ### Frage:
+    Die ab April 2026 geflossenen Unterhaltsbeiträge sind bei der leistenden Person abzugsfähig und bei der empfangenden Person steuerbar. Die Person, welche die Unterhaltsleistungen für die minderjährigen Kinder in ihrem Haushalt erhält, kann die Kinderabzüge tätigen. Sie wird zum Vollsplitting-Tarif (Staats- und Gemeindesteuern) bzw. zum Elterntarif (direkte Bundessteuer) besteuert.
 
-    Wir haben am 9. Oktboer 2025 geheiratet. Werden wir ab Heiratsdatum gemeinsam besteuert?
+    Die leistende Person kann die geleisteten periodischen Unterhaltsbeiträge für die Ehefrau oder den Ehemann sowie für die minderjährigen Kinder in Abzug bringen und wird zum Alleinstehendentarif besteuert.
 
-    ### Antwort:
-
-    Bei Heirat werden die Eheleute für die ganze Steuerperiode gemeinsam besteuert.
-
-    Für die gesamte Steuerperiode 2025 sind sie bereits gemeinsam steuerpflichtig.
-
-    Weitere Informationen über die steuerrechtliche Wirkung einer Ehe finden Sie unter:
+     Weitere Informationen über die steuerrechtliche Wirkung einer Trennung finden Sie unter:
 
     - [Änderung Zivilstand](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/zivilstandsaenderung.html/3495)
-
-Zivilstandsänderung: Trennung Ehe
-:   ### Frage:
-
-    Wir haben uns am 1. März 2026 getrennt und haben zwei gemeinsame minderjährige Kinder. Für Ehefrau und die beiden Kindern sind Unterhaltsbeiträge von je Fr. 1'000 festgelegt worden.
-
-    Wie erfolgt die Besteuerung im 2026?
-
-    ### Antwort:
-
-    Bei Scheidung, rechtlicher oder tatsächlicher Trennung erfolgt für die ganze Steuerperiode eine getrennte Steuerveranlagung der beiden Eheleute.

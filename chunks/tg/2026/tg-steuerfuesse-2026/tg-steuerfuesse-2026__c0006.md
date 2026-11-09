@@ -4,120 +4,24 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 6"
-seiten: "3"
+titel: "Tabelle Anzahl Gemeinden mit Steuerfusserhöhungen/-senkungen 2023–2026"
+seiten: "2"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 3
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Überblick · S. 2
 
-<!-- Seite 3 -->
-    Steuerfüsse 2026, Steuerkraft 2025   3
-
-Gemeindesteuerfüsse der Politischen Gemeinden
-Kanton Thurgau, 2026, in %
-
-    Diessenhofen
-
-    Be
-    Gottlieben
-
-    Sa n
-    rli
-    W
-
-    Schlatt
-
-    ng
-
-    le
-    ag
-
-    Basadingen−   Steckborn
-
-    ns
-    e
-    Ermatingen
-    en
-
-    n
-    te
-    Schlattingen
-
-    ile
-    ha
-
-    in
-
-    w
-    us
-
-    ern   ilen
-
-    en
-    er
-    Kreuzlingen
-    amm
-    en
-
-    ersw
-
-    g
-
-    of
-    Tä
-    Eschenz M   Homburg   Rap   Münster−
-
-    gh
-    tti
-    Wäldi   lingen
-
-    Bo
-
-    Lan
-    Hüttwilen   Herdern   Wigol−   Lengwil
-    Kemmental   Altnau
-
-    n
-    Pfyn
-
-    gric
-    tingen
-
-    ge
-    Neunforn   Müllheim
-
-    tin
-    ken
-
-    il
-    n
-
-    üt
-    inge
-
-    sw
-    G
-    Uesslingen−Buch   ein   Märstetten
-
-    s
-    ba
-    th−W   Berg   Uttwil
-
-    Ke
-    War
-
-    ch
-    Felben−   i Dozwil
-
-    n
-    Birwinken   mer
-
-    or
-    Hüttlingen   Weinfelden   Som
-
-    H
-
-    sh
-    Wellhausen
-
-    ef fen
+ Anzahl Gemeinden mit Steuerfusserhöhungen bzw.   Seit 2024 setzte sich dieser Abwärtstrend nicht mehr fort: 2024
+ -senkungen
+ Kanton Thurgau, 2023–2026
+    stieg der gewichtete Schulsteuerfuss um 0.5 Prozentpunkte,
+    2023   2024   2025   2026   2025 um einen weiteren Prozentpunkt auf 89.2 % und 2026 er-
+Politische Gemeinden   80   80   80   80   neut leicht auf 89.4 %.
+Senkung   16   7   3   4
+keine Veränderung   58   70   68   72
+Erhöhung   6   3   9   4
+Schulgemeinden   72   72   72   72
+Senkung   29   3   4   6
+keine Veränderung   39   54   54   56
+Erhöhung   4   15   14   10
+Datenquelle: Steuerverwaltung Kanton Thurgau, Amt für Volksschule Kanton
+Thurgau

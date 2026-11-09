@@ -4,29 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 199"
-seiten: "52"
+titel: "Ziff. 9.6 Verletzung von Verfahrenspflichten durch den Schuldner"
+ziffer: "9.6"
+seiten: "62"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 52
+> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.6 Verletzung von Verfahrenspflichten · S. 62
 
-    Zahlung eines Bonus nach Beendigung des Arbeitsverhältnisses:
-    2. Ein lediger Steuerpflichtiger übt seine Erwerbstätigkeit vom 1. Januar bis zum 31. Dezember des Jahres
-    2022 aus (Beendigung des Arbeitsverhältnisses). Während des Jahres 2022 hat er einen Bruttojahreslohn
-    von CHF 80 000.00 erzielt sowie einen Bonus über CHF 20 000.00 für im Jahr 2021 geleistete Arbeit er-
-    halten. Im Februar des Jahres 2023, d.h. nach Beendigung des Arbeitsverhältnisses, erhält er einen Bo-
-    nus über CHF 30 000.00, welcher für im Jahr 2022 geleistete Arbeit ausgerichtet wird. Der Bonus von
-    CHF 20 000.00 für das Jahr 2021 (ausbezahlt im Jahr 2022) muss für die Satzbestimmung des Bonus im
-    Jahr 2023 nicht berücksichtigt werden (aperiodische Leistung).
-
-    Monat   Januar   Februar   März   …   Dezember Besteuerung
-
-    Bruttolohn   0
-
-    Bonus   30 000
-
-    Tarifcode   A0
-
-    Steuersatz (%)   16,01
-
-    Quellensteuer   4 800   4 800
+9.6   Verletzung von Verfahrenspflichten
+Der Schuldner der steuerbaren Leistung, der die Fristen für das Einreichen von Anmeldun-
+gen oder Mutationen sowie von Quellensteuerabrechnungen nicht einhält, verliert je nach
+kantonaler Regelung den Anspruch auf die Bezugsprovision. Bei nicht fristgerechter Bezah-
+lung von in Rechnung gestellten Quellensteuern können zusätzlich Verzugszinsen erhoben
+werden. Kommt ein Schuldner der steuerbaren Leistung den Verfahrenspflichten trotz Mah-
+nung nicht nach, kann er gebüsst (vgl. Art. 174 DBG) und die geschuldeten Quellensteuern
+können nach pflichtgemässem Ermessen erhoben werden (vgl. Art. 130 Abs. 2 DBG). Vorbe-
+halten bleiben Verurteilungen wegen vollendeter Steuerhinterziehung (vgl. Art. 175 Abs. 1
+DBG) oder wegen Veruntreuung von Quellensteuern (vgl. Art. 187 DBG).

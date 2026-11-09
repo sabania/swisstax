@@ -4,15 +4,20 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 23"
-seiten: "7"
+titel: "Ziff. II.6 Aufgaben der ESTV – Register und Kontoauszug"
+ziffer: "II.6"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 6 Aufgaben der ESTV · S. 9
 
-Besteuerung nach Artikel 38 DBG, da es sich um eine Vorsorgeleistung gemäss Artikel 83a
-BVG handelt. Die Freizügigkeitseinrichtung hat in diesem Fall den Steuerbehörden einen
-Vorbezug für Wohneigentum im Umfang der Zinsen zu melden. Eine Meldung darüber muss
-seitens der Freizügigkeitseinrichtung auch an die Pensionskasse erfolgen (Art. 12 WEFV).
-Aus praktischen Gründen sind die auf dem Freizügigkeitskonto angefallenen Zinsen den
-Steuerbehörden nicht zu melden, solange sie den Betrag von Fr. 5'000.-- nicht übersteigen.
+6.   Aufgaben der ESTV
+
+Die ESTV Hauptabteilung Direkte Bundessteuer, Verrechnungssteuer, Stempelabgaben
+(Abteilung Erhebung) führt über sämtliche ihr von den Vorsorgeeinrichtungen gemeldeten
+Vorbezüge, Pfandverwertungen sowie Rückzahlungen Buch, d.h. sie unterhält für alle diese
+Transaktionen ein Register. Nachdem die Vorsorgeeinrichtung der ESTV die Rückzahlung
+des WEF-Vorbezuges auf dem WEF-Formular gemeldet hat, sendet die ESTV dem Steuer-
+pflichtigen unaufgefordert (und nicht nur auf schriftliches Ersuchen wie in Art. 13 Abs. 3
+WEFV festgehalten) einen Register-(Konto)auszug sowie eine Kopie der WEF-Meldung zu
+und weist sie auf die für die Steuerrückerstattung zuständige Behörde hin.

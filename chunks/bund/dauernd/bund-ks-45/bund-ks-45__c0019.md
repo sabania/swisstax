@@ -4,15 +4,15 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 19"
-seiten: "4"
+titel: "Ziff. 2.3 Ansässigkeit – Doppelansässigkeit und Vorrangkriterien (Teil 2/2)"
+ziffer: "2.3"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.3 Ansässigkeit · S. 8
 
-    resmodell; vgl. Ziffern 6 und 7 unten sowie Anhang III) abzurechnen sind.
-Abschliessend wird festgehalten, dass die im vorliegenden Kreisschreiben erwähnten Geset-
-zes- und Verordnungsartikel, sofern sie im Zusammenhang mit der Revision der Quellen-
-steuer stehen, bereits auf die revidierten Fassungen des DBG und der Verordnung des EFD
-vom 11. April 2018 über die Quellensteuer bei der direkten Bundessteuer (QStV;
-SR 642.118.2) verweisen.
+Person in der Schweiz nach den Regeln der beschränkten Steuerpflicht (vgl. Art. 5 Abs. 1
+DBG) zu besteuern. Besteht zwischen der Schweiz und dem betreffenden Land kein DBA,
+so gelten ausschliesslich die vorstehenden Bestimmungen des internen schweizerischen
+Rechts für die Feststellung, ob eine Person in der Schweiz unbeschränkt steuerpflichtig ist
+(d.h. Wohnsitz oder Aufenthalt).

@@ -4,21 +4,16 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 17"
-seiten: "5"
+titel: "Ziff. 4 Inkrafttreten – ab 1. Januar 2020"
+ziffer: "4"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 22a · 4 Inkrafttreten · S. 6
 
-<!-- Seite 5 -->
-Schuldzinsenabzuges. Für die internationale Steuerausscheidung (Art. 6 DBG) werden die
-so ermittelten maximal zulässigen (weltweiten) Schuldzinsen proportional nach Lage der
-Aktiven verteilt.
+4.   Inkrafttreten
 
-Aperiodische Vermögenserträge fallen im gesamten Umfang des steuerbaren Ertrags im
-Fälligkeitsjahr in die Berechnung des maximal zulässigen Schuldzinsenabzugs. Eine Vertei
-lung von steuerbaren Erträgen aus Kapitalversicherungen mit Einmalprämie (Art. 20 Abs. 1
-Bst. a DBG) oder Obligationen mit überwiegender Einmalverzinsung (Art. 20 Abs. 1 Bst. b
-DBG) auf die Laufzeit ist demnach unzulässig.
-
-3.2.   Abgrenzung zwischen privaten und geschäftlichen Schuldzinsen
+Dieses Kreisschreiben tritt zusammen mit Artikel 20 Absatz 1bis DBG in der Fassung vom 28.
+September 2018 per 1. Januar 2020 in Kraft und findet Anwendung ab Steuerperiode 2020.
+Für Sachverhalte bis 31. Dezember 2019 ist nach wie vor das Kreisschreiben Nr. 22 vom 16.
+Dezember 2008 anwendbar.

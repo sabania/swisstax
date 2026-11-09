@@ -4,24 +4,17 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 21"
-seiten: "5"
+titel: "Ziff. 5.7 Sonderfall e: Einzahlung bei Beendigung der Erwerbstätigkeit"
+ziffer: "5.7 e"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 5
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 8
 
-5.4. Abzug für Steuerpflichtige, die einer Einrichtung der beruflichen Vorsorge
-    (2. Säule) angehören
-In der 2. Säule versicherte Arbeitnehmer und Selbständigerwerbende können gemäss Arti-
-kel 7 Absatz 1 Buchstabe a BVV 3 ihre im betreffenden Jahr tatsächlich geleisteten Beiträge
-an anerkannte Vorsorgeformen bis 8 Prozent des oberen Grenzbetrages abziehen. Dieser
-Abzug kann von allen in Frage kommenden erwerbstätigen Steuerpflichtigen beansprucht
-werden, unabhängig davon, ob sie in der 2. Säule obligatorisch oder freiwillig versichert sind.
-Nach Artikel 7 Absatz 2 BVV 3 können Ehegatten oder eingetragene Partnerinnen oder Part-
-ner, die beide einer Erwerbstätigkeit nachgehen, den Abzug je für sich geltend machen. Da-
-bei ist es unerlässlich, dass der entsprechende Vorsorgevertrag auf ihn als Vorsorgenehmer
-lautet. Der höchstzulässige Abzug richtet sich für jeden Ehegatten oder eingetragene Part-
-ner/in einzeln danach, ob er/sie in der beruflichen Vorsorge versichert ist oder nicht. Voraus-
-setzung für die Geltendmachung eines Abzuges ist das Ausweisen eines AHV-pflichtigen Er-
-werbseinkommens des entsprechenden Ehegatten oder eingetragenen Partners/in in der
-Steuererklärung.
+e)   Einzahlung in die Säule 3a bei Beendigung der Erwerbstätigkeit
+Für das Jahr, in dem die Erwerbstätigkeit beendet wird, kann der volle Beitrag geleistet wer-
+den gemäss Artikel 7 Absatz 4 BVV 3. Die Einzahlung von ordentlichen Beiträgen bzw. Ein-
+käufen in die Säule 3a (vgl. Ziff. 5.6) muss jedoch zu einem Zeitpunkt erfolgen, in welchem
+die steuerpflichtige Person noch erwerbstätig ist. Sobald die Erwerbstätigkeit beendet wurde,
+dürfen Bankstiftungen und Versicherungseinrichtungen keine Vorsorgebeiträge mehr entge-
+gennehmen.

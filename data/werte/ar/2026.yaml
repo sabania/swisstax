@@ -1,0 +1,735 @@
+jur: ar
+jahre_hinweis: 'Für 2026 liegt keine Wegleitung vor. Quellen: StG AR/StV AR (jahre 2025+2026), Anhang 1 StG (indexierte Beträge per 1.1.2024), Merkblätter (dauernd), News AR 2026, Steuerfüsse 2026.'
+jahr: 2026
+werte:
+- key: berufskosten.fahrkosten.max
+  wert: 6000
+  einheit: CHF
+  text: 'Fahrkosten Wohn-/Arbeitsstätte (ÖV oder privates Fahrzeug, wenn ÖV nicht zur Verfügung steht/unzumutbar): Höchstbetrag Fr. 6''000 pro Person.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 29 Abs. 1 lit. a StG; Art. 15 StV; MB 01
+  quellen:
+  - chunk: ar-stg__art-29
+    zitat: bis zu einem Höchstbetrag von Fr. 6 000.–
+  - chunk: ar-mb-01__c0001
+    zitat: bis zu einem Höchstbetrag von Fr. 6‘000 in Abzug gebracht werden
+  status: extrahiert
+  bemerkung: Art. 29 StG gehört nicht zu den nach Art. 39a StG indexierten Beträgen (lit. g–l); Anhang 1 nennt ihn nicht.
+- key: berufskosten.fahrkosten.auto_km
+  wert: 0.75
+  einheit: CHF
+  text: 'Kilometeransatz Auto 75 Rappen/km (2026, neu; 2025: 70 Rappen). Gilt auch für Staats- und Gemeindesteuern AR.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 15 Abs. 3 StV (Verweis auf DBG-Pauschalansätze)
+  quellen:
+  - chunk: ar-news-2026__c0002
+    zitat: steigt zum Beispiel der Kilometeransatz für Autofahrten von 70 auf 75 Rappen pro Kilometer
+  - chunk: ar-news-2026__c0002
+    zitat: Dieser neue Kilometer-Ansatz findet auch Anwendung für die Staats- und Gemeindesteuern in Appenzell Ausserrhoden.
+  status: extrahiert
+- key: berufskosten.fahrkosten.motorrad_km
+  wert: null
+  einheit: CHF
+  text: AR verweist auf die für die direkte Bundessteuer massgebenden Pauschalansätze; kein AR-eigener 2026-Wert in den Quellen.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 15 Abs. 3 StV
+  quellen: []
+  status: offen
+  bemerkung: Wert 2026 aus data/werte/bund/2026.yaml (Berufskostenverordnung EFD) übernehmen/prüfen; in AR-Quellen für 2026 nicht genannt.
+- key: berufskosten.fahrkosten.velo_pauschale
+  wert: null
+  einheit: CHF
+  text: AR verweist auf die für die direkte Bundessteuer massgebenden Pauschalansätze; kein AR-eigener 2026-Wert in den Quellen.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 15 Abs. 3 StV
+  quellen: []
+  status: offen
+  bemerkung: Siehe Bund 2026 (Berufskostenverordnung).
+- key: berufskosten.fahrkosten.arbeitstage
+  wert: null
+  einheit: Tage
+  text: Keine AR-Quelle für 2026 zur Anzahl Arbeitstage.
+  gilt_fuer: kanton
+  quellen: []
+  status: offen
+- key: berufskosten.verpflegung.tag
+  wert: null
+  einheit: CHF
+  text: 'Mehrkosten auswärtige Verpflegung nach den für die direkte Bundessteuer massgebenden Pauschalansätzen; Voraussetzung: Hauptmahlzeit zu Hause nicht zumutbar (Entfernung oder kurze Essenspause) oder
+    durchgehende Schichtarbeit.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 29 Abs. 1 lit. b StG; Art. 16 Abs. 1 StV
+  quellen:
+  - chunk: ar-stv__art-16
+    zitat: können nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen werden
+  status: offen
+  bemerkung: Betrag nur per Verweis auf DBG-Pauschale (siehe data/werte/bund/2026.yaml); AR-Wegleitung 2026 nicht publiziert. Seed nennt 15/Tag bzw. 3'200/Jahr (WL 2025), für 2026 nicht bestätigt.
+- key: berufskosten.verpflegung.jahr
+  wert: null
+  einheit: CHF
+  text: 'Wie berufskosten.verpflegung.tag: Verweis auf DBG-Pauschalansätze.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 16 Abs. 1 StV
+  quellen: []
+  status: offen
+  bemerkung: Siehe Bund 2026.
+- key: berufskosten.verpflegung.verbilligt_tag
+  wert: null
+  einheit: Text
+  text: Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant eingenommen werden kann oder eine wesentliche Verbilligung durch Beiträge des Arbeitgebers erfolgt.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 16 Abs. 2 StV
+  quellen:
+  - chunk: ar-stv__art-16
+    zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant eingenommen werden kann
+  status: extrahiert
+  bemerkung: Regel (50 % des Pauschalansatzes); CHF-Betrag ergibt sich aus der Bund-Pauschale.
+- key: berufskosten.verpflegung.verbilligt_jahr
+  wert: null
+  einheit: CHF
+  text: Halber Jahresabzug gemäss Art. 16 Abs. 2 StV; Betrag abhängig von DBG-Pauschale.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 16 Abs. 2 StV
+  quellen: []
+  status: offen
+- key: berufskosten.schichtarbeit.tag
+  wert: null
+  einheit: CHF
+  text: Schichtarbeit (inkl. gestaffelte/unregelmässige Arbeitszeit bei Verpflegung ausserhalb der üblichen Zeiten) nach DBG-Pauschalansätzen; nicht zusätzlich zum Verpflegungsabzug.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 16 Abs. 1, 3, 4 StV
+  quellen:
+  - chunk: ar-stv__art-16
+    zitat: Der Abzug für Schichtarbeit kann nicht zusätzlich zum Abzug für Mehrkosten der Verpflegung geltend gemacht werden.
+  status: offen
+  bemerkung: Betrag per Verweis auf Bund 2026; Regel zitiert.
+- key: berufskosten.wochenaufenthalt.unterkunft
+  wert: null
+  einheit: Text
+  text: 'Auswärtige Unterkunft: höchstens die ortsüblichen Mietkosten für ein Zimmer; Fahrt zur auswärtigen Unterkunft sinngemäss nach Art. 15 StV. Voraussetzung: tägliche Rückkehr an den Wohnsitz nicht
+    zumutbar.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 17 StV
+  quellen:
+  - chunk: ar-stv__art-17
+    zitat: höchstens die ortsüblichen Mietkosten für ein Zimmer in Abzug gebracht werden
+  status: extrahiert
+- key: berufskosten.wochenaufenthalt.verpflegung_jahr
+  wert: null
+  einheit: CHF
+  text: Verpflegung bei Wochenaufenthalt nach den für die direkte Bundessteuer massgebenden Pauschalansätzen.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 17 Abs. 1 StV
+  quellen:
+  - chunk: ar-stv__art-17
+    zitat: bestimmt sich nach den für die direkte Bundessteuer massgebenden Pauschalansätzen
+  status: offen
+  bemerkung: Betrag siehe Bund 2026.
+- key: berufskosten.uebrige.satz
+  wert: 10
+  einheit: '%'
+  text: 'Übrige Berufskosten: Fr. 700 zuzüglich 10 % der Nettoeinkünfte, höchstens Fr. 2''400. Nachweis höherer Kosten vorbehalten.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 29 Abs. 1 lit. c StG; Art. 18 Abs. 1 StV
+  quellen:
+  - chunk: ar-stv__art-18
+    zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens aber Fr. 2400.–
+  status: extrahiert
+- key: berufskosten.uebrige.fix
+  wert: 700
+  einheit: CHF
+  text: Fixer Sockelbetrag der Pauschale für übrige Berufskosten.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 18 Abs. 1 StV
+  quellen:
+  - chunk: ar-stv__art-18
+    zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte
+  status: extrahiert
+- key: berufskosten.uebrige.min
+  wert: null
+  einheit: CHF
+  text: Kein separates Minimum; die Pauschale beträgt mindestens den fixen Sockelbetrag Fr. 700.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 18 Abs. 1 StV
+  quellen: []
+  status: na
+  bemerkung: Formel 700 + 10 %, max. 2'400 – kein Minimum genannt.
+- key: berufskosten.uebrige.max
+  wert: 2400
+  einheit: CHF
+  text: Höchstbetrag der Pauschale für übrige Berufskosten.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 18 Abs. 1 StV
+  quellen:
+  - chunk: ar-stv__art-18
+    zitat: höchstens aber Fr. 2400.–
+  status: extrahiert
+- key: berufskosten.nebenerwerb.satz
+  wert: 20
+  einheit: '%'
+  text: 'Unselbständiger Nebenerwerb: Pauschale nach DBG-Pauschalansätzen: 20 % der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2''400. Nachweis höherer Kosten vorbehalten. Nebenamtliche Behördenmitglieder
+    zusätzlich pauschal bis Fr. 2''600 (Behördenabzug).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 19 StV; MB 15
+  quellen:
+  - chunk: ar-stv__art-19
+    zitat: nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
+  - chunk: ar-mb-15__c0002
+    zitat: 20% der Nettoein-
+  status: extrahiert
+  bemerkung: Der Prozentsatz/Min/Max steht im MB 15 unter «Direkte Bundessteuer»; AR verweist in Art. 19 Abs. 1 StV darauf. Gegen Bund 2026 abgleichen.
+- key: berufskosten.nebenerwerb.min
+  wert: 800
+  einheit: CHF
+  text: Minimum der Nebenerwerbspauschale (Verweis auf DBG).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 19 StV; MB 15 Ziff. 2
+  quellen:
+  - chunk: ar-mb-15__c0002
+    zitat: mindestens Fr. 800, maximal Fr. 2'400
+  status: extrahiert
+  bemerkung: Siehe berufskosten.nebenerwerb.satz.
+- key: berufskosten.nebenerwerb.max
+  wert: 2400
+  einheit: CHF
+  text: Maximum der Nebenerwerbspauschale (Verweis auf DBG). Zusätzlich Behördenabzug bis Fr. 2'600 für nebenamtliche Behördenmitglieder.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 19 StV; MB 15 Ziff. 2/3
+  quellen:
+  - chunk: ar-mb-15__c0002
+    zitat: mindestens Fr. 800, maximal Fr. 2'400
+  - chunk: ar-mb-15__c0003
+    zitat: pauschal bis Fr. 2‘600.- abgezogen (Behördenabzug)
+  status: extrahiert
+- key: berufskosten.homeoffice
+  wert: null
+  einheit: Text
+  text: Arbeitszimmer in der Privatwohnung nur bei spezifisch eingerichtetem, tatsächlich ausgeschiedenem Arbeitsplatz und wenn mindestens 40 % der Tätigkeit (gemessen an einer Vollzeitbeschäftigung) zu
+    Hause erledigt werden müssen.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 18 Abs. 3 StV
+  quellen:
+  - chunk: ar-stv__art-18
+    zitat: mindestens 40 Prozent der Tätigkeit, gemessen an einer Vollzeitbeschäftigung, zu Hause erledigt werden müssen
+  status: extrahiert
+- key: weiterbildung.max
+  wert: 12000
+  einheit: CHF
+  text: 'Berufsorientierte Aus- und Weiterbildungskosten inkl. Umschulung: max. Fr. 12''000 pro steuerpflichtige Person, sofern erster Abschluss Sekundarstufe II oder 20. Lebensjahr vollendet (nicht Ausbildung
+    bis erster Abschluss Sek. II).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. l StG
+  quellen:
+  - chunk: ar-stg__art-35-t5
+    zitat: bis zum Gesamtbetrag von Fr. 12 000.– pro steuerpflichtige Person
+  status: extrahiert
+  bemerkung: Art. 35 lit. l ist nach Art. 39a StG indexierbar, Anhang 1 (per 1.1.2024) nennt keine Anpassung.
+- key: versicherung.verheiratet
+  wert: 5400
+  einheit: CHF
+  text: 'Versicherungsprämien/Sparzinsen: Fr. 5''400 für in ungetrennter Ehe lebende Personen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. g StG
+  quellen:
+  - chunk: ar-stg__art-35-t2
+    zitat: Fr. 5 400.– für in ungetrennter Ehe lebende
+  status: extrahiert
+  bemerkung: Anhang 1 (per 1.1.2024) nennt lit. g nicht; Betrag aus Gesetzestext. WL 2025 bestätigt für 2025, für 2026 keine Wegleitung.
+- key: versicherung.verheiratet_ohne_vorsorge
+  wert: null
+  einheit: CHF
+  text: AR kennt keine Unterscheidung mit/ohne Beiträge 2. Säule/3a beim Versicherungsabzug (Art. 35 lit. g StG; 2. Säule/3a separat nach lit. d/e).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. d, e, g StG
+  quellen: []
+  status: na
+- key: versicherung.alleinstehend
+  wert: 2700
+  einheit: CHF
+  text: 'Versicherungsprämien/Sparzinsen: Fr. 2''700 für die übrigen steuerpflichtigen Personen.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. g StG
+  quellen:
+  - chunk: ar-stg__art-35-t2
+    zitat: Fr. 2 700.– für die übrigen steuerpflichtigen Personen
+  status: extrahiert
+- key: versicherung.alleinstehend_ohne_vorsorge
+  wert: null
+  einheit: CHF
+  text: AR kennt keine Unterscheidung mit/ohne Beiträge 2. Säule/3a beim Versicherungsabzug.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. g StG
+  quellen: []
+  status: na
+- key: versicherung.kind
+  wert: 1000
+  einheit: CHF
+  text: Zuschlag pro Kind, für das ein Kinderabzug nach Art. 38 geltend gemacht werden kann.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. g StG
+  quellen:
+  - chunk: ar-stg__art-35-t2
+    zitat: erhöhen sich diese Abzüge um Fr. 1 000.–
+  status: extrahiert
+- key: saeule3a.max_mit_2saeule
+  wert: null
+  einheit: CHF
+  text: Abzug im Sinn und im Umfang von Art. 82 BVG (gebundene Selbstvorsorge); Maximalbeträge richten sich nach Bundesrecht (BVV 3).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. e StG
+  quellen:
+  - chunk: ar-stg__art-35-t2
+    zitat: im Sinn und im Umfang von Art. 82 des Bundesgesetzes über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge
+  status: offen
+  bemerkung: Zahl 2026 siehe data/werte/bund/2026.yaml (BVV 3); in AR-Quellen nicht beziffert.
+- key: saeule3a.max_ohne_2saeule
+  wert: null
+  einheit: CHF
+  text: 'Wie saeule3a.max_mit_2saeule: Verweis auf Bundesrecht.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. e StG
+  quellen: []
+  status: offen
+  bemerkung: Siehe Bund 2026.
+- key: saeule3a.satz_ohne_2saeule
+  wert: null
+  einheit: '%'
+  text: 'Wie saeule3a.max_mit_2saeule: Verweis auf Bundesrecht.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. e StG
+  quellen: []
+  status: offen
+  bemerkung: Siehe Bund 2026.
+- key: saeule3a.einkauf
+  wert: null
+  einheit: Text
+  text: 'Einkauf (Nachzahlung) Säule 3a ab 2026: in AR-Quellen nicht geregelt/beziffert; Verweis auf Art. 82 BVG.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. e StG
+  quellen: []
+  status: offen
+  bemerkung: Siehe Bund 2026.
+- key: zweiverdiener.satz
+  wert: 10
+  einheit: '%'
+  text: 'Zweiverdienerabzug: 10 % des niedrigeren Erwerbseinkommens (Ehegatten in rechtlich und tatsächlich ungetrennter Ehe), mindestens Fr. 2''500, höchstens Fr. 5''200 (indexiert per 1.1.2024).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. h StG; Anhang 1
+  quellen:
+  - chunk: ar-stg__art-35-t3
+    zitat: 10 Prozent, jedoch mindestens
+  status: extrahiert
+- key: zweiverdiener.min
+  wert: 2500
+  einheit: CHF
+  text: Minimum Zweiverdienerabzug (indexierter Betrag per 1.1.2024; Gesetzestext nennt noch Fr. 2'400).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. h StG; Anhang 1 StG
+  quellen:
+  - chunk: ar-stg-anhang-kp__c0001
+    zitat: Art. 35 Abs. 1 lit. h, Abzug Minimum 2'500
+  status: extrahiert
+  abweichung: 'Art. 35 StG-Text: Fr. 2''400 (nicht indexiert; ar-stg__art-35-t3). Massgeblich ist der Anhang 1.'
+  bemerkung: 'Anhang 1 per 1.1.2024; keine spätere Anpassung in den Quellen, Gültigkeit für 2026 unter Annahme unveränderter Indexierung (Art. 39a StG verlangt +3.0 % LIK). Seed (WL 2025): 2''500, übereinstimmend.'
+- key: zweiverdiener.max
+  wert: 5200
+  einheit: CHF
+  text: Maximum Zweiverdienerabzug (indexierter Betrag per 1.1.2024; Gesetzestext nennt noch Fr. 5'000).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. h StG; Anhang 1 StG
+  quellen:
+  - chunk: ar-stg-anhang-kp__c0001
+    zitat: Art. 35 Abs. 1 lit. h, Abzug Maximum 5'200
+  status: extrahiert
+  abweichung: 'Art. 35 StG-Text: Fr. 5''000 (nicht indexiert). Massgeblich ist der Anhang 1.'
+  bemerkung: Siehe zweiverdiener.min.
+- key: drittbetreuung.max
+  wert: 25000
+  einheit: CHF
+  text: Nachgewiesene Kinderdrittbetreuungskosten, max. Fr. 25'000 pro Kind (Kind im gleichen Haushalt, kausaler Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. i StG
+  quellen:
+  - chunk: ar-stg__art-35-t4
+    zitat: jedoch höchstens Fr. 25 000.–, für die Drittbetreuung jedes Kindes
+  status: extrahiert
+- key: drittbetreuung.altersgrenze
+  wert: 14
+  einheit: Text
+  text: Kind hat das 14. Altersjahr noch nicht vollendet.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. i StG
+  quellen:
+  - chunk: ar-stg__art-35-t4
+    zitat: welches das 14. Altersjahr noch nicht vollendet hat
+  status: extrahiert
+- key: krankheitskosten.selbstbehalt_satz
+  wert: 5
+  einheit: '%'
+  text: Krankheits- und Unfallkosten abziehbar, soweit selbst getragen und über 5 % der um die Aufwendungen nach Art. 28–35 verminderten steuerbaren Einkünfte.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 36 Abs. 1 lit. a StG
+  quellen:
+  - chunk: ar-stg__art-36
+    zitat: diese 5 Prozent der um die Aufwendungen gemäss Art. 28–35 verminderten steuerbaren Einkünfte übersteigen
+  status: extrahiert
+- key: spenden.min
+  wert: 100
+  einheit: CHF
+  text: 'Freiwillige Zuwendungen an steuerbefreite juristische Personen mit Sitz in der Schweiz sowie Bund/Kantone/Gemeinden: ab Fr. 100 pro Steuerperiode.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 36 Abs. 1 lit. b StG
+  quellen:
+  - chunk: ar-stg__art-36
+    zitat: wenn die Zuwendungen in der Steuerperiode Fr. 100.– erreichen
+  status: extrahiert
+- key: spenden.max_satz
+  wert: 20
+  einheit: '%'
+  text: Maximum 20 % der um die Aufwendungen nach Art. 28–35 verminderten steuerbaren Einkünfte.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 36 Abs. 1 lit. b StG
+  quellen:
+  - chunk: ar-stg__art-36
+    zitat: insgesamt 20 Prozent der um die Aufwendungen gemäss Art. 28–35 verminderten steuerbaren Einkünfte
+  status: extrahiert
+- key: parteispenden.max
+  wert: 10000
+  einheit: CHF
+  text: 'Mitgliederbeiträge und Zuwendungen an politische Parteien (Parteienregister, im kantonalen Parlament vertreten oder mind. 3 % Stimmen): bis Fr. 10''000 gesamt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. j StG
+  quellen:
+  - chunk: ar-stg__art-35-t4
+    zitat: bis zu einem Gesamtbetrag von Fr. 10 000.– an politische Parteien
+  status: extrahiert
+  bemerkung: Ein einheitlicher Betrag, nicht nach Zivilstand unterschieden.
+- key: parteispenden.max_verheiratet
+  wert: null
+  einheit: CHF
+  text: Keine separate Grenze für gemeinsam Besteuerte; der Gesamtbetrag von Fr. 10'000 gilt allgemein.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 35 Abs. 1 lit. j StG
+  quellen: []
+  status: na
+- key: liegenschaft.pauschale_neu
+  wert: 10
+  einheit: '%'
+  text: 'Pauschalabzug Unterhalt/Verwaltung: 10 % des Bruttomietertrags bei Gebäuden bis 10 Jahre; nur wenn jährlicher Bruttomietertrag des gesamten Liegenschaftsbesitzes höchstens Fr. 100''000; Wahlrecht
+    je Gebäude und Veranlagungsperiode; bei Eigenmietwert ist dieser massgebend.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 34 Abs. 5 StG; Art. 25 StV; MB 03
+  quellen:
+  - chunk: ar-stv__art-25
+    zitat: Der Pauschalabzug beträgt 10 Prozent des Bruttomietertrages bei Gebäuden mit einem Alter bis zu 10 Jahren
+  - chunk: ar-mb-03__c0004
+    zitat: Der Pauschalabzug beträgt 10 Prozent des Bruttomietertrages bei Gebäuden mit einem Alter bis zu 10
+  status: extrahiert
+- key: liegenschaft.pauschale_alt
+  wert: 20
+  einheit: '%'
+  text: 'Pauschalabzug: 20 % des Bruttomietertrags für ältere Gebäude (über 10 Jahre); Voraussetzungen wie liegenschaft.pauschale_neu.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 34 Abs. 5 StG; Art. 25 StV; MB 03
+  quellen:
+  - chunk: ar-stv__art-25
+    zitat: 20 Prozent des Bruttomietertrages für ältere Gebäude
+  - chunk: ar-mb-03__c0004
+    zitat: 20 Prozent des Bruttomietertrages für ältere Gebäude
+  status: extrahiert
+- key: liegenschaft.eigenmietwert_abzug
+  wert: 20
+  einheit: '%'
+  text: 'Eigenmietwert dauernd selbstbewohnter Liegenschaften am Wohnsitz: massgeblicher Mietwert abzüglich 20 %; kein Abzug bei landwirtschaftlichen Liegenschaften sowie Zweit- und Ferienwohnungen. Bei
+    Berechnung in % des Verkehrswertes zusätzlich -10 % (Schätzungsunsicherheit) und -10 % bei Selbstbewohnung am Wohnsitz.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 24 StG; Art. 11 StV; MB 07
+  quellen:
+  - chunk: ar-mb-07__c0002
+    zitat: entspricht dem massgeblichen Wert nach Abs. 1 abzüglich 20 Prozent
+  status: extrahiert
+  bemerkung: MB 07 (Fassung 17.6.2025, gültig ab Steuerperiode 2020, dauernd). Seed-Hinweis auf weitere 10 % bei Verkehrswertmethode bestätigt (MB 07 Ziff. 3).
+- key: sozialabzug.kind
+  wert: null
+  einheit: CHF
+  text: AR kennt keinen einheitlichen Grundbetrag; der Kinderabzug ist nach Alter gestaffelt (siehe kind_vorschule/kind_schule/kind_ausbildung).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 38 Abs. 1 lit. a StG
+  quellen: []
+  status: na
+- key: sozialabzug.kind_vorschule
+  wert: 5300
+  einheit: CHF
+  text: 'Kinderabzug bis zur Vollendung des 4. Altersjahres (indexiert per 1.1.2024). Voraussetzungen: Unterhalt zur Hauptsache, Kind unter elterlicher Sorge/Obhut, keine Unterhaltsbeiträge nach Art. 35
+    lit. c.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 38 Abs. 1 lit. a Ziff. 1 StG; Anhang 1; MB 02
+  quellen:
+  - chunk: ar-stg-anhang-kp__c0001
+    zitat: Art. 38 Abs. 1 lit. a Ziff. 1 5'300
+  - chunk: ar-mb-02__c0002
+    zitat: Fr. 5'000 für jedes Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person bis zur Vollendung des 4. Altersjahrs
+  status: strittig
+  abweichung: 'Anhang 1 StG: 5''300; StG-Text Art. 38 und MB 02 (Fassung 25.9.2025): 5''000.'
+  bemerkung: 'Widerspruch: Anhang 1 (indexierte Beträge per 1.1.2024, laut Hinweis massgeblich; WL 2025 zeigt 5''300) vs. StG-Text und MB 02 (5''000, vermutlich nicht nachgeführt). Wahrscheinlich gilt 5''300
+    – Fachperson bestätigt.'
+- key: sozialabzug.kind_schule
+  wert: 7400
+  einheit: CHF
+  text: Kinderabzug nach Vollendung des 4. bis zur Vollendung des 15. Altersjahres (indexiert per 1.1.2024).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 38 Abs. 1 lit. a Ziff. 2 StG; Anhang 1; MB 02
+  quellen:
+  - chunk: ar-stg-anhang-kp__c0001
+    zitat: Art. 38 Abs. 1 lit. a Ziff. 2 7'400
+  - chunk: ar-mb-02__c0002
+    zitat: Fr. 7'000 für jedes Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person nach
+  status: strittig
+  abweichung: 'Anhang 1 StG: 7''400; StG-Text und MB 02: 7''000.'
+  bemerkung: Siehe sozialabzug.kind_vorschule.
+- key: sozialabzug.kind_ausbildung
+  wert: 11600
+  einheit: CHF
+  text: Kinderabzug nach Vollendung des 15. Altersjahres bis zur Volljährigkeit sowie für volljährige Kinder in beruflicher/schulischer Ausbildung bis zum 26. Altersjahr (indexiert per 1.1.2024). Bei volljährigen
+    Kindern entfällt der Abzug, wenn Einkünfte des Kindes über Fr. 18'000 oder Reinvermögen über Fr. 250'000 (MB 02).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 38 Abs. 1 lit. a Ziff. 3 StG; Anhang 1; MB 02
+  quellen:
+  - chunk: ar-stg-anhang-kp__c0001
+    zitat: Art. 38 Abs. 1 lit. a Ziff. 3 11'600
+  - chunk: ar-mb-02__c0002
+    zitat: Fr. 11‘000 für jedes Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person nach
+  status: strittig
+  abweichung: 'Anhang 1 StG: 11''600; StG-Text und MB 02: 11''000.'
+  bemerkung: Siehe sozialabzug.kind_vorschule.
+- key: sozialabzug.kind_ausbildung_auswaerts
+  wert: null
+  einheit: CHF
+  text: AR kennt keinen separaten Ausbildungsabzug für auswärtige Ausbildung; es gilt der Kinderabzug Ziff. 3 (Art. 38 Abs. 1 lit. a Ziff. 3 StG). Ausbildungskosten sind im Kinderabzug abgegolten (MB 02).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 38 StG; MB 02
+  quellen: []
+  status: na
+- key: sozialabzug.unterstuetzung
+  wert: null
+  einheit: CHF
+  text: Im Gesetzestext Art. 38 Abs. 1 lit. b nicht lesbar («…»); kein Unterstützungsabzug in den Quellen für 2026 belegt.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 38 Abs. 1 lit. b StG
+  quellen: []
+  status: offen
+  bemerkung: Prüfen, ob lit. b aufgehoben ist; Anhang 1 nennt keinen entsprechenden Betrag.
+- key: sozialabzug.verheiratete
+  wert: null
+  einheit: CHF
+  text: Verheiratetenabzug existiert nur bei der direkten Bundessteuer (siehe data/werte/bund/).
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: sozialabzug.alter_iv
+  wert: null
+  einheit: CHF
+  text: In Art. 38 StG kein Abzug für AHV-Alter/Erwerbsunfähigkeit/Verwitwete aufgeführt.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 38 StG
+  quellen: []
+  status: na
+  bemerkung: Art. 38 Abs. 1 enthält nur lit. a (Kinderabzug) und lit. b («…»).
+- key: steuerbetrag.abzug_kind
+  wert: null
+  einheit: CHF
+  text: 'Abzug vom Steuerbetrag pro Kind nur bei der direkten Bundessteuer (Elterntarif; AR-Steuerbezug nennt für 2026: Fr. 263 – siehe Bund).'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: vermoegen.freibetrag_alleinstehend
+  wert: 75000
+  einheit: CHF
+  text: Steuerfreier Betrag vom Reinvermögen für alle übrigen steuerpflichtigen Personen.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 51 Abs. 1 lit. b StG
+  quellen:
+  - chunk: ar-stg__art-51
+    zitat: für alle übrigen steuerpflichtigen Personen Fr. 75 000.–
+  status: extrahiert
+- key: vermoegen.freibetrag_verheiratet
+  wert: 150000
+  einheit: CHF
+  text: Steuerfreier Betrag für Ehegatten in rechtlich und tatsächlich ungetrennter Ehe.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 51 Abs. 1 lit. a StG
+  quellen:
+  - chunk: ar-stg__art-51
+    zitat: in rechtlich und tatsächlich ungetrennter Ehe leben, Fr. 150 000.–
+  status: extrahiert
+- key: vermoegen.freibetrag_kind
+  wert: 25000
+  einheit: CHF
+  text: Zusätzlich pro minderjähriges Kind unter elterlicher Sorge/Obhut, für das ein Kinderabzug nach Art. 38 Abs. 1 geltend gemacht werden kann.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 51 Abs. 1 lit. c StG
+  quellen:
+  - chunk: ar-stg__art-51
+    zitat: Art. 38 Abs. 1 geltend gemacht werden kann, Fr. 25 000.–
+  status: extrahiert
+- key: steuerfrei.feuerwehrsold
+  wert: 5000
+  einheit: CHF
+  text: Sold der Milizfeuerwehrleute steuerfrei bis jährlich Fr. 5'000 (Kernaufgaben; ohne Pauschalzulagen für Kader, Funktionszulagen, administrative Arbeiten).
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 27 Abs. 1 lit. j StG
+  quellen:
+  - chunk: ar-stg__art-27-t2
+    zitat: bis zu einem Betrag von jährlich Fr. 5 000.–
+  status: extrahiert
+- key: steuerfrei.grossspielgewinn
+  wert: 1000000
+  einheit: CHF
+  text: Einzelne Gewinne aus Grossspielen und Online-Spielbankenspielen (nach BGS zugelassen) steuerfrei bis 1 Million Franken; Spielbankengewinne (Art. 27 lit. k) unbeschränkt steuerfrei, sofern nicht
+    aus selbständiger Erwerbstätigkeit.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 27 Abs. 1 lit. k, l StG
+  quellen:
+  - chunk: ar-stg__art-27-t2
+    zitat: bis zu einem Betrag von 1 Million Franken
+  status: extrahiert
+- key: steuerfrei.kleingewinn
+  wert: 1000
+  einheit: CHF
+  text: Einzelne Gewinne aus Lotterien/Geschicklichkeitsspielen zur Verkaufsförderung steuerfrei, sofern Fr. 1'000 nicht überschritten werden; Gewinne aus Kleinspielen (nach BGS zugelassen) steuerfrei.
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 27 Abs. 1 lit. m, n StG
+  quellen:
+  - chunk: ar-stg__art-27-t3
+    zitat: sofern die Grenze von Fr. 1 000.– nicht überschritten wird
+  status: extrahiert
+- key: tarif.steuerfuss_kanton
+  wert: 3.3
+  einheit: Text
+  text: 'Kantonaler Steuerfuss 2026: 3.30 Einheiten (unverändert); Gemeinde-/Kirchgemeindesteuerfüsse siehe Steuerfüsse 2026.'
+  gilt_fuer: kanton
+  rechtsgrundlage: Beschluss Kantonsrat 1.12.2025
+  quellen:
+  - chunk: ar-steuerfuesse-2026__c0002
+    zitat: 'Kantonaler Steuerfuss: 3.30 Einheiten'
+  - chunk: ar-news-2026__c0002
+    zitat: den Steuerfuss unverändert bei 3.3. Einheiten zu belassen
+  status: extrahiert
+- key: tarif.steuerfrei_alleinstehend
+  wert: null
+  einheit: CHF
+  text: 'Nur Bund. Kantonstarif AR: Alleinstehendentarif beginnt mit 0.00 % für die ersten Fr. 8''000 (Gesetzestext, Anhang 1 indexiert: Fr. 8''300).'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 39 Abs. 1 lit. b Ziff. 1 StG; Anhang 1
+  quellen: []
+  status: na
+  bemerkung: Schlüssel ist als Bund-Tarif definiert; AR-Tarifstufen (Anhang 1, Art. 39 Abs. 1 lit. b Ziff. 1 = 8'300; lit. a Ziff. 1 = 16'700) hier nicht als Eckwert geführt.
+- key: tarif.steuerfrei_verheiratet
+  wert: null
+  einheit: CHF
+  text: Nur Bund (siehe tarif.steuerfrei_alleinstehend).
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: tarif.hoechstsatz_ab_alleinstehend
+  wert: null
+  einheit: CHF
+  text: 'Nur Bund. AR: Höchstsatzstufe ab Anhang 1 Art. 39 Abs. 1 lit. b Ziff. 12.'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: tarif.hoechstsatz_ab_verheiratet
+  wert: null
+  einheit: CHF
+  text: Nur Bund (siehe tarif.hoechstsatz_ab_alleinstehend).
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: tarif.mindeststeuer
+  wert: null
+  einheit: CHF
+  text: In den AR-Quellen kein Mindeststeuerbetrag gefunden.
+  gilt_fuer: kanton
+  quellen: []
+  status: offen
+- key: verfahren.einreichefrist
+  wert: null
+  einheit: Text
+  text: 'Einreichefrist Steuererklärung 2026 (Einreichung 2027): in den AR-Quellen für 2026 nicht genannt.'
+  gilt_fuer: kanton
+  quellen: []
+  status: offen
+  bemerkung: Wegleitung 2025 (Datum auf Seite 1 der Steuererklärung) gilt nur für 2025; Steuererklärung 2025 wird laut News 2026 um den 20. Januar 2026 aufgeschaltet.
+- key: verfahren.fristerstreckung
+  wert: 25
+  einheit: CHF
+  text: Fristverlängerungen online über eSteuern; im Wiederholungsfall Gebühr Fr. 25.
+  gilt_fuer: kanton
+  rechtsgrundlage: MB 18 (Gebühren ab 1.9.2025)
+  quellen:
+  - chunk: ar-mb-18__c0001
+    zitat: 'Fristverlängerungen (im Wiederholungsfall): Fr. 25'
+  - chunk: ar-info-fristen__c0002
+    zitat: Verlängern Sie online Ihre Frist zur Einreichung der Steuererklärung.
+  status: extrahiert
+  bemerkung: Quellen nennen nur die Gebühr im Wiederholungsfall; Aussagen zu Treuhänder-Sammelgesuchen/erster Verlängerung gratis stehen nur in der WL 2025 (nicht für 2026).
+- key: verfahren.abgabeweg
+  wert: null
+  einheit: Text
+  text: Steuererklärung natürlicher Personen online (eSteuern/mein.ar.ch); elektronische Steuererklärung wird jeweils im Januar aufgeschaltet.
+  gilt_fuer: kanton
+  quellen:
+  - chunk: ar-info-fristen__c0001
+    zitat: Füllen Sie die Steuererklärung online aus.
+  - chunk: ar-news-2026__c0003
+    zitat: werden um den 20. Januar 2026 aufgeschaltet und können ab dann genutzt werden
+  status: extrahiert
+- key: verfahren.beilagen_schwellen
+  wert: null
+  einheit: Text
+  text: Keine Schwellenwerte für 2026 in den Quellen belegt.
+  gilt_fuer: kanton
+  quellen: []
+  status: offen
+  bemerkung: Seed nennt Rechnungskopien ab Einzelbeträgen von 5'000 (Liegenschaftsunterhalt, MB 03) – in den indexierten MB-03-Chunks nicht wörtlich gefunden.
+- key: bezug.provisorisch
+  wert: null
+  einheit: Text
+  text: 'Jährlich vorläufige Rechnung für die laufende Periode: Gesamtzahlung per 30. Juni oder drei Raten (31. März, 30. Juni, 30. September); auf Gesuch 4 bis 11 Monatsraten.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: ar-info-steuerbezug__c0004
+    zitat: Einzahlungsschein für die Gesamtzahlung (per 30. Juni)
+  status: extrahiert
+- key: bezug.verzugszins
+  wert: 5
+  einheit: '%'
+  text: 'Verzugszins Staats- und Gemeindesteuern 5 %; wenn Schlussrechnung nicht innert 30 Tagen bezahlt. Direkte Bundessteuer ab 2026: 4.0 %. Zinsen unter Fr. 10 werden nicht in Rechnung gestellt.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: ar-news-2026__c0003
+    zitat: Für zu spät bezahlte definitive Steuern bleibt der Verzugszins bei unverändert 5 %
+  - chunk: ar-info-steuerbezug__c0009
+    zitat: Der Zinssatz für Verzugszinsen beträgt bei den Staats- und Gemeindesteuern 5 %
+  status: extrahiert
+- key: bezug.verguetungszins
+  wert: 1
+  einheit: '%'
+  text: 'Zins auf zu früh oder zu spät bezahlten provisorischen Steuern 2026: 1 %.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: ar-news-2026__c0003
+    zitat: Für zu früh oder zu spät bezahlte provisorische Steuern beträgt der Zins unverändert 1 %
+  status: extrahiert
+- key: bezug.ausgleichszins
+  wert: 1
+  einheit: '%'
+  text: 'Ausgleichszins mit der Schlussrechnung: positiv auf Zahlungen bis zur Schlussrechnung, negativ auf veranlagtem Steuerbetrag ab Verfalltag 30. Juni des Steuerjahres; Satz ab 1.1.2024: 1.0 %.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: ar-info-steuerbezug__c0009
+    zitat: ab 01.01.2024 | 1.0%
+  - chunk: ar-info-steuerbezug__c0008
+    zitat: Der Verfalltag ist jeweils der 30. Juni des Steuerjahres.
+  status: extrahiert
+  bemerkung: Tabelle nennt letzten Satz ab 01.01.2024; keine 2026-spezifische Bestätigung, aber auch keine spätere Änderung.

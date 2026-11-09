@@ -4,20 +4,23 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 52"
-seiten: "17"
+titel: "Ziff. 7.1 Fusion kotierter Gesellschaften (7.1.1–7.1.5) (Teil 3/3)"
+ziffer: "7.1"
+seiten: "21-22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 7 Umstrukturierungen kotierter Gesellschaften › 7.1 Fusion · S. 21–22
 
-Ein allfälliges Fusionsagio stellt nur in dem Umfang eine ausweisbare KER bzw. Ausland-
-KER dar, soweit es dem liberierten Grund- oder Stammkapital und den bestehenden KER
-bzw. Ausland-KER der übernommenen Muttergesellschaft entspricht, und soweit das libe-
-rierte Grund- oder Stammkapital und die bestehenden KER bzw. Ausland-KER der Mutterge-
-sellschaft das bereits bestehende liberierte Grund- oder Stammkapital und die KER bzw.
-Ausland-KER der Tochtergesellschaft übersteigen.
-.
+Analog Ausführungen unter Ziffer 6.2.2. hiervor.
 
-6.2.5. Fusionsähnlicher Zusammenschluss („Quasifusion“)
+7.1.3. Absorption einer Tochtergesellschaft („Up-Stream Merger“)
 
-a)   Direkte Bundessteuer
+Analog Ausführungen unter Ziffer 6.2.3. hiervor.
+
+7.1.4. Absorption der Muttergesellschaft („Reverse Merger“)
+
+Analog Ausführungen unter Ziffer 6.2.4. hiervor.
+
+7.1.5. Fusionsähnlicher Zusammenschluss („Quasifusion“)
+
+Analog Ausführungen unter Ziffer 6.2.5. hiervor.

@@ -4,20 +4,17 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 9 Strukturierte Kredit- und Schadenderivate – Funktionsweise"
+titel: "Anhang III Ziff. 9 Steuerliche Behandlung Credit Linked Notes (Teil 2/2)"
 ziffer: "Anh. III 9"
 seiten: "27"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 9 Kredit- und Schadenderivate · S. 27
 
-9   Strukturierte Kredit- und Schadenderivate
-Im Bereich der Kredit- und Schadenderivate kann ebenfalls zwischen strukturierten (kombi-
-nierten) und nicht strukturierten (reinen) Produkten unterschieden werden. Basiswert der
-Kreditderivate bilden eine oder mehrere Kreditrisiken. Kreditderivate sind Finanzinstrumente,
-die sich je nach Ausgestaltung zur Übertragung eines Ausfallrisikos, eines Rating- oder des
-gesamten Spreadrisikos eignen. Basiswert der Schadenderivate bilden Naturkatastrophen
-oder durch sie verursachte Schäden (Erdbeben, Hagel, Wirbelstürme usw.). Mit Schadende-
-rivaten werden solche Risiken übertragen. Für die reinen Kreditderivate (Credit Default
-Swap, Total Return Swap, Spread-Optionen und Spread-Forwards) und die reinen Schaden-
-derivate kann auf Ziffer 2.2. des Kreisschreibens Nr. 15 verwiesen werden.
+Kredit- und Schadenderivate weisen dieselbe Struktur auf wie RC ohne Kapitalschutz (vgl.
+Ziffer 2.3.3.1. des Kreisschreibens Nr. 15). Indessen erfahren nur die Schadenderivate die-
+selbe steuerliche Behandlung (vgl. 3.6. des Kreisschreibens Nr. 15). Bei strukturierten Kredit-
+derivaten ist die Risikoprämie mit dem Bonitätsrisiko des übertragenen Kreditrisikos gleichzu-
+setzen, welches sich in einer höheren Verzinsung niederschlägt. Dies hat zur Folge, dass
+sämtliche Entschädigungen im Bereich von Credit Linked Notes steuerbaren Obligationener-
+trag darstellen (vgl. Ziffer 3.1. und 3.2. des Kreisschreibens Nr. 15).

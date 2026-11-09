@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-30-3.html> · lokal: [zh-zstb-30-3.html](../../../raw/zh/dauernd/zh-zstb-30-3.html) · Volltext: [zh-zstb-30-3.md](../../../sources/zh/dauernd/zh-zstb-30-3.md)
 - **Abgerufen:** 2026-11-09 · sha256 `33d3a3ba2031df48…`
 
-## Inhalt (55 Chunks)
+## Inhalt (54 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -69,5 +69,4 @@ generiert: tools/build_index.py
 | [c0051](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0051.md) | K. Abgrenzungskatalog |  |  |
 | [c0052](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0052.md) | K. Abgrenzungskatalog |  |  |
 | [c0053](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0053.md) | K. Abgrenzungskatalog |  |  |
-| [c0054](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0054.md) | K. Abgrenzungskatalog |  |  |
-| [c0055](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0055.md) | L. Inkrafttreten |  |  |
+| [c0054](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0054.md) | L. Inkrafttreten |  |  |

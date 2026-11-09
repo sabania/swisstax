@@ -1,1328 +1,2344 @@
 [
 {
 "id": "bund-wl-2a-2025__c0001",
-"titel": "WL 2a 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Personalien, Familienverhältnisse, Kinderabzug; Einkommen minderjähriger Kinder (Teil 1/2)",
+"pfad": [
+"Personalien, Berufs- und Familienverhältnisse"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Ehegatten gemeinsam",
+"eingetragene Partnerschaft",
+"Kinderabzug",
+"minderjährige Kinder",
+"Einkommen Kind",
+"Waisenrente"
+],
+"positionen": [
+"personalien",
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Massgebend sind die Verhältnisse am 31.12.2025; Kinderabzug für minderjährige oder in Ausbildung stehende Kinder, kein Abzug bei bezahlten Unterhaltsbeiträgen (Ziff. 12.2); Erwerbseinkommen des Kindes wird selbständig besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-wl-2a-2025__c0002"
 },
 {
 "id": "bund-wl-2a-2025__c0002",
-"titel": "WL 2a 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Personalien, Familienverhältnisse, Kinderabzug; Einkommen minderjähriger Kinder (Teil 2/2)",
+"pfad": [
+"Personalien, Berufs- und Familienverhältnisse"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Ehegatten gemeinsam",
+"eingetragene Partnerschaft",
+"Kinderabzug",
+"minderjährige Kinder",
+"Einkommen Kind",
+"Waisenrente"
+],
+"positionen": [
+"personalien",
+"sozialabzug.kinder"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0001",
 "nachher": "bund-wl-2a-2025__c0003"
 },
 {
 "id": "bund-wl-2a-2025__c0003",
-"titel": "WL 2a 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Erwerbsunfähige Personen (6 800 Fr.) und Ziff. 1 Unselbständige Erwerbstätigkeit (Teil 1/2)",
+"pfad": [
+"Personalien, Berufs- und Familienverhältnisse",
+"Hinweise zu den Ziffern",
+"Einkünfte",
+"Ziffer 1"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Unterstützungsabzug",
+"erwerbsunfähig",
+"Nettolohn",
+"Lohnausweis",
+"Nebenerwerb",
+"Tantiemen",
+"Trinkgelder"
+],
+"positionen": [
+"sozialabzug.unterstuetzung",
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.unselbstaendig.nebenerwerb"
+],
+"zusammenfassung": "Wer mit mindestens 6 800 Fr. pro Jahr eine erwerbsunfähige Person unterstützt, führt sie auf; Nettolohn gemäss Lohnausweis ist zu übertragen, ebenso Nebeneinkünfte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0002",
 "nachher": "bund-wl-2a-2025__c0004"
 },
 {
 "id": "bund-wl-2a-2025__c0004",
-"titel": "WL 2a 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Erwerbsunfähige Personen (6 800 Fr.) und Ziff. 1 Unselbständige Erwerbstätigkeit (Teil 2/2)",
+"pfad": [
+"Personalien, Berufs- und Familienverhältnisse",
+"Hinweise zu den Ziffern",
+"Einkünfte",
+"Ziffer 1"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Unterstützungsabzug",
+"erwerbsunfähig",
+"Nettolohn",
+"Lohnausweis",
+"Nebenerwerb",
+"Tantiemen",
+"Trinkgelder"
+],
+"positionen": [
+"sozialabzug.unterstuetzung",
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.unselbstaendig.nebenerwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0003",
 "nachher": "bund-wl-2a-2025__c0005"
 },
 {
 "id": "bund-wl-2a-2025__c0005",
-"titel": "WL 2a 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Massgebendes Einkommen, Teilperiode; Ziff. 1 Spesen und Naturallohn (645/345/990 Fr.) (Teil 1/2)",
+"pfad": [
+"Allgemeine Erläuterungen",
+"Ziffer 1"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Naturallohn",
+"Verpflegung",
+"Unterkunft",
+"Spesenentschädigung",
+"Zuzug Wegzug",
+"Teilperiode",
+"Satzbestimmung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Bei Teilperiode werden Einkünfte auf 12 Monate umgerechnet für den Satz; Naturallohn: volle Verpflegung 645 Fr./Monat (7 740 Fr./Jahr), Unterkunft 345 Fr. (4 140 Fr.), beides 990 Fr. (11 880 Fr.).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0004",
 "nachher": "bund-wl-2a-2025__c0006"
 },
 {
 "id": "bund-wl-2a-2025__c0006",
-"titel": "WL 2a 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "Massgebendes Einkommen, Teilperiode; Ziff. 1 Spesen und Naturallohn (645/345/990 Fr.) (Teil 2/2)",
+"pfad": [
+"Allgemeine Erläuterungen",
+"Ziffer 1"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Naturallohn",
+"Verpflegung",
+"Unterkunft",
+"Spesenentschädigung",
+"Zuzug Wegzug",
+"Teilperiode",
+"Satzbestimmung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0005",
 "nachher": "bund-wl-2a-2025__c0007"
 },
 {
 "id": "bund-wl-2a-2025__c0007",
-"titel": "WL 2a 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 2 Selbständige Erwerbstätigkeit – Aufbewahrung, Naturalbezüge, Privatanteil (Teil 1/2)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 2"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Selbständigerwerbende",
+"Jahresrechnung",
+"Aufbewahrung 10 Jahre",
+"Privatanteil",
+"Naturalbezüge",
+"Haushalt Privatanteil"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Jahresrechnung beilegen, Belege 10 Jahre aufbewahren; Privatanteil Haushalt 3 540 Fr. pro Jahr für 1 Erwachsenen, Zuschlag 900 Fr. je weiterer Erwachsener, 600 Fr. je Kind.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0006",
 "nachher": "bund-wl-2a-2025__c0008"
 },
 {
 "id": "bund-wl-2a-2025__c0008",
-"titel": "WL 2a 2025 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 2 Selbständige Erwerbstätigkeit – Aufbewahrung, Naturalbezüge, Privatanteil (Teil 2/2)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 2"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2",
+"stichworte": [
+"Selbständigerwerbende",
+"Jahresrechnung",
+"Aufbewahrung 10 Jahre",
+"Privatanteil",
+"Naturalbezüge",
+"Haushalt Privatanteil"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0007",
 "nachher": "bund-wl-2a-2025__c0009"
 },
 {
 "id": "bund-wl-2a-2025__c0009",
-"titel": "WL 2a 2025 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 2 Selbständige – Ermittlung, Vorsorgebeiträge nur Arbeitgeberanteil, Kapitalerträge (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 2"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Fragebogen 15",
+"Fragebogen 15a",
+"Arbeitgeberanteil",
+"Säule 3a Selbständige",
+"Abschreibungen",
+"Rückstellungen",
+"Geschäftsvermögen Wertschriften"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Beiträge an 2. Säule/3a dürfen nur im Umfang des Arbeitgeberanteils unter Ziff. 2 abgezogen werden, der Rest in Ziff. 15.3 bzw. 13; Erträge des Geschäftsvermögens im Wertschriftenverzeichnis mit G bezeichnen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0008",
 "nachher": "bund-wl-2a-2025__c0010"
 },
 {
 "id": "bund-wl-2a-2025__c0010",
-"titel": "WL 2a 2025 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 2 Selbständige – Ermittlung, Vorsorgebeiträge nur Arbeitgeberanteil, Kapitalerträge (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 2"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2",
+"stichworte": [
+"Fragebogen 15",
+"Fragebogen 15a",
+"Arbeitgeberanteil",
+"Säule 3a Selbständige",
+"Abschreibungen",
+"Rückstellungen",
+"Geschäftsvermögen Wertschriften"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"abzug.vorsorge.saeule3a"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0009",
 "nachher": "bund-wl-2a-2025__c0011"
 },
 {
 "id": "bund-wl-2a-2025__c0011",
-"titel": "WL 2a 2025 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 2 Selbständige – Ermittlung, Vorsorgebeiträge nur Arbeitgeberanteil, Kapitalerträge (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 2"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2",
+"stichworte": [
+"Fragebogen 15",
+"Fragebogen 15a",
+"Arbeitgeberanteil",
+"Säule 3a Selbständige",
+"Abschreibungen",
+"Rückstellungen",
+"Geschäftsvermögen Wertschriften"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"abzug.vorsorge.saeule3a"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0010",
 "nachher": "bund-wl-2a-2025__c0012"
 },
 {
 "id": "bund-wl-2a-2025__c0012",
-"titel": "WL 2a 2025 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 2 Selbständige – nicht abziehbare Kosten, Kapitalgewinne, Landwirtschaft, Verluste (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 2"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Kapitalgewinne Geschäftsvermögen",
+"Präponderanzmethode",
+"Landwirtschaft",
+"Wertschriftenhandel",
+"nicht abziehbar",
+"Eigenmietwert Geschäft"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Nicht abziehbar sind u.a. Zinsen auf Eigenkapital, Privatauslagen und Steuern; Kapitalgewinne auf Geschäftsvermögen werden mit dem übrigen Einkommen besteuert (Präponderanzmethode).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0011",
 "nachher": "bund-wl-2a-2025__c0013"
 },
 {
 "id": "bund-wl-2a-2025__c0013",
-"titel": "WL 2a 2025 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 2 Selbständige – nicht abziehbare Kosten, Kapitalgewinne, Landwirtschaft, Verluste (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 2"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2",
+"stichworte": [
+"Kapitalgewinne Geschäftsvermögen",
+"Präponderanzmethode",
+"Landwirtschaft",
+"Wertschriftenhandel",
+"nicht abziehbar",
+"Eigenmietwert Geschäft"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0012",
 "nachher": "bund-wl-2a-2025__c0014"
 },
 {
 "id": "bund-wl-2a-2025__c0014",
-"titel": "WL 2a 2025 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 2 Selbständige – nicht abziehbare Kosten, Kapitalgewinne, Landwirtschaft, Verluste (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 2"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2",
+"stichworte": [
+"Kapitalgewinne Geschäftsvermögen",
+"Präponderanzmethode",
+"Landwirtschaft",
+"Wertschriftenhandel",
+"nicht abziehbar",
+"Eigenmietwert Geschäft"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0013",
 "nachher": "bund-wl-2a-2025__c0015"
 },
 {
 "id": "bund-wl-2a-2025__c0015",
-"titel": "WL 2a 2025 – Abschnitt 15",
-"pfad": [],
+"titel": "Verluste Selbständige; Ziff. 3 Sozialversicherungen: AHV/IV-Renten, Renten, Erwerbsausfall (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 3"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3, 3.1–3.4",
+"stichworte": [
+"Verlustverrechnung 7 Jahre",
+"AHV-Rente",
+"IV-Rente",
+"Erwerbsausfallentschädigung",
+"Taggelder",
+"Kinderzulagen",
+"Leibrente"
+],
+"positionen": [
+"einkommen.sozialversicherung.ahv_iv",
+"einkommen.ersatz.taggelder",
+"einkommen.ersatz.familienzulagen",
+"einkommen.vorsorge.uebrige_renten"
+],
+"zusammenfassung": "Verluste der sieben Vorjahre (2018–2024) abziehbar; AHV/IV-Renten zu 100 % steuerbar; Erwerbsausfallentschädigungen und Familienzulagen nur soweit nicht im Lohnausweis.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0014",
 "nachher": "bund-wl-2a-2025__c0016"
 },
 {
 "id": "bund-wl-2a-2025__c0016",
-"titel": "WL 2a 2025 – Abschnitt 16",
-"pfad": [],
+"titel": "Verluste Selbständige; Ziff. 3 Sozialversicherungen: AHV/IV-Renten, Renten, Erwerbsausfall (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 3"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3, 3.1–3.4",
+"stichworte": [
+"Verlustverrechnung 7 Jahre",
+"AHV-Rente",
+"IV-Rente",
+"Erwerbsausfallentschädigung",
+"Taggelder",
+"Kinderzulagen",
+"Leibrente"
+],
+"positionen": [
+"einkommen.sozialversicherung.ahv_iv",
+"einkommen.ersatz.taggelder",
+"einkommen.ersatz.familienzulagen",
+"einkommen.vorsorge.uebrige_renten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0015",
 "nachher": "bund-wl-2a-2025__c0017"
 },
 {
 "id": "bund-wl-2a-2025__c0017",
-"titel": "WL 2a 2025 – Abschnitt 17",
-"pfad": [],
+"titel": "Verluste Selbständige; Ziff. 3 Sozialversicherungen: AHV/IV-Renten, Renten, Erwerbsausfall (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 3"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3, 3.1–3.4",
+"stichworte": [
+"Verlustverrechnung 7 Jahre",
+"AHV-Rente",
+"IV-Rente",
+"Erwerbsausfallentschädigung",
+"Taggelder",
+"Kinderzulagen",
+"Leibrente"
+],
+"positionen": [
+"einkommen.sozialversicherung.ahv_iv",
+"einkommen.ersatz.taggelder",
+"einkommen.ersatz.familienzulagen",
+"einkommen.vorsorge.uebrige_renten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0016",
 "nachher": "bund-wl-2a-2025__c0018"
 },
 {
 "id": "bund-wl-2a-2025__c0018",
-"titel": "WL 2a 2025 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 3.2 Renten (60 %/80 %/100 %), Säule 3a; Ziff. 4 Wertschriftenertrag (Teil 1/2)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 3.2",
+"Ziffer 4"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2, 4",
+"stichworte": [
+"Rente 60 %",
+"Rente 80 %",
+"Säule 3a Rente",
+"Wertschriftenverzeichnis",
+"Verrechnungssteuer",
+"Gratisaktien"
+],
+"positionen": [
+"einkommen.vorsorge.renten",
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Renten aus beruflicher Vorsorge vor 1987/2002 zu 60 %, 80 % oder 100 % steuerbar; Leistungen aus Säule 3a zu 100 %; Erträge aus Wertschriften sind im Wertschriftenverzeichnis aufzuführen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0017",
 "nachher": "bund-wl-2a-2025__c0019"
 },
 {
 "id": "bund-wl-2a-2025__c0019",
-"titel": "WL 2a 2025 – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 3.2 Renten (60 %/80 %/100 %), Säule 3a; Ziff. 4 Wertschriftenertrag (Teil 2/2)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 3.2",
+"Ziffer 4"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.2, 4",
+"stichworte": [
+"Rente 60 %",
+"Rente 80 %",
+"Säule 3a Rente",
+"Wertschriftenverzeichnis",
+"Verrechnungssteuer",
+"Gratisaktien"
+],
+"positionen": [
+"einkommen.vorsorge.renten",
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0018",
 "nachher": "bund-wl-2a-2025__c0020"
 },
 {
 "id": "bund-wl-2a-2025__c0020",
-"titel": "WL 2a 2025 – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 4 Qualifizierte Beteiligungen (70 %); Militärversicherung, übrige Renten, Leibrenten (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 3.2",
+"Ziffer 4"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2, 4",
+"stichworte": [
+"qualifizierte Beteiligung 10 %",
+"Teilbesteuerung 70 %",
+"Formular 8",
+"Militärversicherung",
+"Leibrente Ertragsanteil",
+"ausländische Rente"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"einkommen.vorsorge.uebrige_renten"
+],
+"zusammenfassung": "Beteiligungen ab 10 % im Privatvermögen zu 70 % steuerbar (Abzug 30 % via Formular 8, Ziff. 15.8); Veräusserungsgewinne nur bei mindestens zwölf Monaten Haltedauer.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0019",
 "nachher": "bund-wl-2a-2025__c0021"
 },
 {
 "id": "bund-wl-2a-2025__c0021",
-"titel": "WL 2a 2025 – Abschnitt 21",
-"pfad": [],
+"titel": "Ziff. 4 Qualifizierte Beteiligungen (70 %); Militärversicherung, übrige Renten, Leibrenten (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 3.2",
+"Ziffer 4"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.2, 4",
+"stichworte": [
+"qualifizierte Beteiligung 10 %",
+"Teilbesteuerung 70 %",
+"Formular 8",
+"Militärversicherung",
+"Leibrente Ertragsanteil",
+"ausländische Rente"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"einkommen.vorsorge.uebrige_renten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0020",
 "nachher": "bund-wl-2a-2025__c0022"
 },
 {
 "id": "bund-wl-2a-2025__c0022",
-"titel": "WL 2a 2025 – Abschnitt 22",
-"pfad": [],
+"titel": "Ziff. 4 Qualifizierte Beteiligungen (70 %); Militärversicherung, übrige Renten, Leibrenten (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 3.2",
+"Ziffer 4"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.2, 4",
+"stichworte": [
+"qualifizierte Beteiligung 10 %",
+"Teilbesteuerung 70 %",
+"Formular 8",
+"Militärversicherung",
+"Leibrente Ertragsanteil",
+"ausländische Rente"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"einkommen.vorsorge.uebrige_renten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0021",
 "nachher": "bund-wl-2a-2025__c0023"
 },
 {
 "id": "bund-wl-2a-2025__c0023",
-"titel": "WL 2a 2025 – Abschnitt 23",
-"pfad": [],
+"titel": "Negativzinsen, Spiel-/Lotteriegewinne (1 070 400 Fr.), steuerfreie Einkünfte (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 4–5"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4, 5",
+"stichworte": [
+"Negativzinsen",
+"Lotteriegewinn",
+"Sportwetten",
+"Casino steuerfrei",
+"Erbschaft steuerfrei",
+"Genugtuung",
+"Ergänzungsleistungen"
+],
+"positionen": [
+"einkommen.lotterie_gewinne",
+"abzug.verwaltungskosten_wertschriften",
+"info.steuerfreie_leistungen",
+"info.schenkungen_erbschaften"
+],
+"zusammenfassung": "Gewinne aus Online- und Grossspielen sind ab 1 070 400 Fr. steuerbar (Einsatzabzug max. 26 800 Fr. bzw. 5 %, max. 5 400 Fr.); Kleinspiele und Erbschaften steuerfrei; Gratiswettbewerbe ab 1 100 Fr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0022",
 "nachher": "bund-wl-2a-2025__c0024"
 },
 {
 "id": "bund-wl-2a-2025__c0024",
-"titel": "WL 2a 2025 – Abschnitt 24",
-"pfad": [],
+"titel": "Negativzinsen, Spiel-/Lotteriegewinne (1 070 400 Fr.), steuerfreie Einkünfte (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 4–5"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4, 5",
+"stichworte": [
+"Negativzinsen",
+"Lotteriegewinn",
+"Sportwetten",
+"Casino steuerfrei",
+"Erbschaft steuerfrei",
+"Genugtuung",
+"Ergänzungsleistungen"
+],
+"positionen": [
+"einkommen.lotterie_gewinne",
+"abzug.verwaltungskosten_wertschriften",
+"info.steuerfreie_leistungen",
+"info.schenkungen_erbschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0023",
 "nachher": "bund-wl-2a-2025__c0025"
 },
 {
 "id": "bund-wl-2a-2025__c0025",
-"titel": "WL 2a 2025 – Abschnitt 25",
-"pfad": [],
+"titel": "Negativzinsen, Spiel-/Lotteriegewinne (1 070 400 Fr.), steuerfreie Einkünfte (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 4–5"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4, 5",
+"stichworte": [
+"Negativzinsen",
+"Lotteriegewinn",
+"Sportwetten",
+"Casino steuerfrei",
+"Erbschaft steuerfrei",
+"Genugtuung",
+"Ergänzungsleistungen"
+],
+"positionen": [
+"einkommen.lotterie_gewinne",
+"abzug.verwaltungskosten_wertschriften",
+"info.steuerfreie_leistungen",
+"info.schenkungen_erbschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0024",
 "nachher": "bund-wl-2a-2025__c0026"
 },
 {
 "id": "bund-wl-2a-2025__c0026",
-"titel": "WL 2a 2025 – Abschnitt 26",
-"pfad": [],
+"titel": "Ziff. 5.1/5.2 Unterhaltsbeiträge, 5.5 Kapitalabfindungen; Ziff. 8 Liegenschaften (Einleitung) (Teil 1/2)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 5",
+"Ziffer 8"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1, 5.2, 5.5, 8",
+"stichworte": [
+"Alimente",
+"Unterhaltsbeiträge",
+"Scheidung",
+"Kapitalabfindung",
+"Formular 16",
+"Liegenschaften"
+],
+"positionen": [
+"einkommen.unterhaltsbeitraege",
+"einkommen.kapitalabfindung_wiederkehrend",
+"einkommen.liegenschaften.mietertrag"
+],
+"zusammenfassung": "Erhaltene Alimente für sich und Kinder sind steuerbar; über die Mündigkeit hinaus entfällt die Steuerpflicht; als Kapitalabfindung erbrachte Unterhaltsbeiträge sind nicht steuerbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0025",
 "nachher": "bund-wl-2a-2025__c0027"
 },
 {
 "id": "bund-wl-2a-2025__c0027",
-"titel": "WL 2a 2025 – Abschnitt 27",
-"pfad": [],
+"titel": "Ziff. 5.1/5.2 Unterhaltsbeiträge, 5.5 Kapitalabfindungen; Ziff. 8 Liegenschaften (Einleitung) (Teil 2/2)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 5",
+"Ziffer 8"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "5.1, 5.2, 5.5, 8",
+"stichworte": [
+"Alimente",
+"Unterhaltsbeiträge",
+"Scheidung",
+"Kapitalabfindung",
+"Formular 16",
+"Liegenschaften"
+],
+"positionen": [
+"einkommen.unterhaltsbeitraege",
+"einkommen.kapitalabfindung_wiederkehrend",
+"einkommen.liegenschaften.mietertrag"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0026",
 "nachher": "bund-wl-2a-2025__c0028"
 },
 {
 "id": "bund-wl-2a-2025__c0028",
-"titel": "WL 2a 2025 – Abschnitt 28",
-"pfad": [],
+"titel": "Ziff. 5.3/5.4 Weitere Einkünfte; Ziff. 8 Mietwert selbstbenutzter Liegenschaften, Unternutzung (Teil 1/2)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 5.3–5.4",
+"Ziffer 8"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.3, 5.4, 8",
+"stichworte": [
+"Eigenmietwert",
+"Unternutzung",
+"unverteilte Erbschaft",
+"Untervermietung",
+"Trinkgelder",
+"Burgernutzen"
+],
+"positionen": [
+"einkommen.erbschaften_unverteilt",
+"einkommen.uebrige",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Eigenmietwert ist der Betrag, den man für ein gleichartiges Objekt zahlen müsste; Unternutzungsabzug nur bei dauernd nicht benutzten Räumen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0027",
 "nachher": "bund-wl-2a-2025__c0029"
 },
 {
 "id": "bund-wl-2a-2025__c0029",
-"titel": "WL 2a 2025 – Abschnitt 29",
-"pfad": [],
+"titel": "Ziff. 5.3/5.4 Weitere Einkünfte; Ziff. 8 Mietwert selbstbenutzter Liegenschaften, Unternutzung (Teil 2/2)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 5.3–5.4",
+"Ziffer 8"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "5.3, 5.4, 8",
+"stichworte": [
+"Eigenmietwert",
+"Unternutzung",
+"unverteilte Erbschaft",
+"Untervermietung",
+"Trinkgelder",
+"Burgernutzen"
+],
+"positionen": [
+"einkommen.erbschaften_unverteilt",
+"einkommen.uebrige",
+"einkommen.liegenschaften.eigenmietwert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0028",
 "nachher": "bund-wl-2a-2025__c0030"
 },
 {
 "id": "bund-wl-2a-2025__c0030",
-"titel": "WL 2a 2025 – Abschnitt 30",
-"pfad": [],
+"titel": "Ziff. 8 Unternutzung (Ausnahmen), Mietzinse, Ferienwohnung (4/5), Energiesparinvestitionen (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 8"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8",
+"stichworte": [
+"Unternutzung Ausnahmen",
+"Ferienwohnung",
+"Mietzins",
+"Energiesparen",
+"Wärmepumpe",
+"Photovoltaik",
+"Rückbaukosten"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Kein Unternutzungsabzug für gelegentlich genutzte Räume und Ferienhäuser; bei möblierten Ferienwohnungen 4/5 der Bruttoeinnahmen (2/3 bei Wäsche); Energiespar- und Umweltinvestitionen abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0029",
 "nachher": "bund-wl-2a-2025__c0031"
 },
 {
 "id": "bund-wl-2a-2025__c0031",
-"titel": "WL 2a 2025 – Abschnitt 31",
-"pfad": [],
+"titel": "Ziff. 8 Unternutzung (Ausnahmen), Mietzinse, Ferienwohnung (4/5), Energiesparinvestitionen (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 8"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "8",
+"stichworte": [
+"Unternutzung Ausnahmen",
+"Ferienwohnung",
+"Mietzins",
+"Energiesparen",
+"Wärmepumpe",
+"Photovoltaik",
+"Rückbaukosten"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.energie_umwelt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0030",
 "nachher": "bund-wl-2a-2025__c0032"
 },
 {
 "id": "bund-wl-2a-2025__c0032",
-"titel": "WL 2a 2025 – Abschnitt 32",
-"pfad": [],
+"titel": "Ziff. 8 Unternutzung (Ausnahmen), Mietzinse, Ferienwohnung (4/5), Energiesparinvestitionen (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 8"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "8",
+"stichworte": [
+"Unternutzung Ausnahmen",
+"Ferienwohnung",
+"Mietzins",
+"Energiesparen",
+"Wärmepumpe",
+"Photovoltaik",
+"Rückbaukosten"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.energie_umwelt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0031",
 "nachher": "bund-wl-2a-2025__c0033"
 },
 {
 "id": "bund-wl-2a-2025__c0033",
-"titel": "WL 2a 2025 – Abschnitt 33",
-"pfad": [],
+"titel": "Ziff. 8 Andere Erträge, Baurechtszinsen, Rückbau/Energie, nicht abziehbare Kosten (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 8"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8",
+"stichworte": [
+"Baurechtszins",
+"Mietwert Geschäftsräume",
+"Rückbaukosten Ersatzneubau",
+"Haushaltgeräte",
+"Anschlussgebühren",
+"Übertrag Investitionen"
+],
+"positionen": [
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.energie_umwelt",
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Nicht gedeckte Energie-/Rückbaukosten sind bei negativem Reineinkommen auf zwei Folgeperioden übertragbar; einmalige Anschlussbeiträge und Heizbetriebskosten nicht abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0032",
 "nachher": "bund-wl-2a-2025__c0034"
 },
 {
 "id": "bund-wl-2a-2025__c0034",
-"titel": "WL 2a 2025 – Abschnitt 34",
-"pfad": [],
+"titel": "Ziff. 8 Andere Erträge, Baurechtszinsen, Rückbau/Energie, nicht abziehbare Kosten (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 8"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "8",
+"stichworte": [
+"Baurechtszins",
+"Mietwert Geschäftsräume",
+"Rückbaukosten Ersatzneubau",
+"Haushaltgeräte",
+"Anschlussgebühren",
+"Übertrag Investitionen"
+],
+"positionen": [
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.energie_umwelt",
+"abzug.liegenschaft.unterhalt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0033",
 "nachher": "bund-wl-2a-2025__c0035"
 },
 {
 "id": "bund-wl-2a-2025__c0035",
-"titel": "WL 2a 2025 – Abschnitt 35",
-"pfad": [],
+"titel": "Ziff. 8 Andere Erträge, Baurechtszinsen, Rückbau/Energie, nicht abziehbare Kosten (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 8"
+],
 "seiten": [
 5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "8",
+"stichworte": [
+"Baurechtszins",
+"Mietwert Geschäftsräume",
+"Rückbaukosten Ersatzneubau",
+"Haushaltgeräte",
+"Anschlussgebühren",
+"Übertrag Investitionen"
+],
+"positionen": [
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.energie_umwelt",
+"abzug.liegenschaft.unterhalt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0034",
 "nachher": "bund-wl-2a-2025__c0036"
 },
 {
 "id": "bund-wl-2a-2025__c0036",
-"titel": "WL 2a 2025 – Abschnitt 36",
-"pfad": [],
+"titel": "Ziff. 8 Abziehbare Kosten: tatsächlich oder Pauschalabzug 10 %/20 %; Wohnrecht (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 8",
+"Abziehbare Kosten"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8",
+"stichworte": [
+"Liegenschaftsunterhalt",
+"Pauschalabzug 10 %",
+"Pauschalabzug 20 %",
+"Unterhaltskosten",
+"Versicherungsprämien Gebäude",
+"Nutzniessung",
+"Wohnrecht"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Pauschalabzug 10 % vom Brutto-Mietertrag/-wert bei Gebäude bis 10 Jahre, 20 % bei älteren; Wahl zwischen tatsächlichen Kosten und Pauschale pro Periode und Liegenschaft.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0035",
 "nachher": "bund-wl-2a-2025__c0037"
 },
 {
 "id": "bund-wl-2a-2025__c0037",
-"titel": "WL 2a 2025 – Abschnitt 37",
-"pfad": [],
+"titel": "Ziff. 8 Abziehbare Kosten: tatsächlich oder Pauschalabzug 10 %/20 %; Wohnrecht (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 8",
+"Abziehbare Kosten"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "8",
+"stichworte": [
+"Liegenschaftsunterhalt",
+"Pauschalabzug 10 %",
+"Pauschalabzug 20 %",
+"Unterhaltskosten",
+"Versicherungsprämien Gebäude",
+"Nutzniessung",
+"Wohnrecht"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0036",
 "nachher": "bund-wl-2a-2025__c0038"
 },
 {
 "id": "bund-wl-2a-2025__c0038",
-"titel": "WL 2a 2025 – Abschnitt 38",
-"pfad": [],
+"titel": "Ziff. 8 Abziehbare Kosten: tatsächlich oder Pauschalabzug 10 %/20 %; Wohnrecht (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Einkünfte",
+"Ziffer 8",
+"Abziehbare Kosten"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "8",
+"stichworte": [
+"Liegenschaftsunterhalt",
+"Pauschalabzug 10 %",
+"Pauschalabzug 20 %",
+"Unterhaltskosten",
+"Versicherungsprämien Gebäude",
+"Nutzniessung",
+"Wohnrecht"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0037",
 "nachher": "bund-wl-2a-2025__c0039"
 },
 {
 "id": "bund-wl-2a-2025__c0039",
-"titel": "WL 2a 2025 – Abschnitt 39",
-"pfad": [],
+"titel": "Ausgabenüberschuss Liegenschaften; Ziff. 10 Berufskosten: Schichtarbeit, übrige Berufskosten (3 %) (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 10"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Berufskosten",
+"Schichtarbeit",
+"Nachtarbeit",
+"Pauschale 3 %",
+"Arbeitszimmer",
+"Homeoffice",
+"Formular 9"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Schicht-/Nachtarbeit 15 Fr. pro Tag bzw. 3 200 Fr. im Jahr; Pauschale übrige Berufskosten 3 % des Nettolohns, mindestens 2 000 Fr., maximal 4 000 Fr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0038",
 "nachher": "bund-wl-2a-2025__c0040"
 },
 {
 "id": "bund-wl-2a-2025__c0040",
-"titel": "WL 2a 2025 – Abschnitt 40",
-"pfad": [],
+"titel": "Ausgabenüberschuss Liegenschaften; Ziff. 10 Berufskosten: Schichtarbeit, übrige Berufskosten (3 %) (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 10"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10",
+"stichworte": [
+"Berufskosten",
+"Schichtarbeit",
+"Nachtarbeit",
+"Pauschale 3 %",
+"Arbeitszimmer",
+"Homeoffice",
+"Formular 9"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.verpflegung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0039",
 "nachher": "bund-wl-2a-2025__c0041"
 },
 {
 "id": "bund-wl-2a-2025__c0041",
-"titel": "WL 2a 2025 – Abschnitt 41",
-"pfad": [],
+"titel": "Ausgabenüberschuss Liegenschaften; Ziff. 10 Berufskosten: Schichtarbeit, übrige Berufskosten (3 %) (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 10"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10",
+"stichworte": [
+"Berufskosten",
+"Schichtarbeit",
+"Nachtarbeit",
+"Pauschale 3 %",
+"Arbeitszimmer",
+"Homeoffice",
+"Formular 9"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.verpflegung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0040",
 "nachher": "bund-wl-2a-2025__c0042"
 },
 {
 "id": "bund-wl-2a-2025__c0042",
-"titel": "WL 2a 2025 – Abschnitt 42",
-"pfad": [],
+"titel": "Ziff. 10 Fahrkosten (3 200 Fr.), Velo 700 Fr., Wochenaufenthalt (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 10",
+"Fahrkosten"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Pendlerabzug",
+"Fahrkosten",
+"GA",
+"Velo 700 Fr.",
+"40 Rp pro km",
+"70 Rp pro km",
+"Auto Arbeitsweg"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.wochenaufenthalt"
+],
+"zusammenfassung": "Fahrkosten bis maximal 3 200 Fr. jährlich; Velo/Mofa 700 Fr. pauschal; Privatauto/Motorrad ohne ÖV bis 70 Rp. (Auto) bzw. 40 Rp. (Motorrad weiss) pro km.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0041",
 "nachher": "bund-wl-2a-2025__c0043"
 },
 {
 "id": "bund-wl-2a-2025__c0043",
-"titel": "WL 2a 2025 – Abschnitt 43",
-"pfad": [],
+"titel": "Ziff. 10 Fahrkosten (3 200 Fr.), Velo 700 Fr., Wochenaufenthalt (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 10",
+"Fahrkosten"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10",
+"stichworte": [
+"Pendlerabzug",
+"Fahrkosten",
+"GA",
+"Velo 700 Fr.",
+"40 Rp pro km",
+"70 Rp pro km",
+"Auto Arbeitsweg"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.wochenaufenthalt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0042",
 "nachher": "bund-wl-2a-2025__c0044"
 },
 {
 "id": "bund-wl-2a-2025__c0044",
-"titel": "WL 2a 2025 – Abschnitt 44",
-"pfad": [],
+"titel": "Ziff. 10 Fahrkosten (3 200 Fr.), Velo 700 Fr., Wochenaufenthalt (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 10",
+"Fahrkosten"
+],
 "seiten": [
 6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10",
+"stichworte": [
+"Pendlerabzug",
+"Fahrkosten",
+"GA",
+"Velo 700 Fr.",
+"40 Rp pro km",
+"70 Rp pro km",
+"Auto Arbeitsweg"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.wochenaufenthalt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0043",
 "nachher": "bund-wl-2a-2025__c0045"
 },
 {
 "id": "bund-wl-2a-2025__c0045",
-"titel": "WL 2a 2025 – Abschnitt 45",
-"pfad": [],
+"titel": "Ziff. 10 Auswärtige Verpflegung (15 Fr.), Wochenaufenthalt (6 400 Fr.), Nebenerwerb 20 % (Teil 1/2)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 10"
+],
 "seiten": [
-6
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"auswärtige Verpflegung",
+"Mittagessen",
+"Kantine",
+"Wochenaufenthalt",
+"Nebenerwerb Pauschale",
+"Feuerwehrsold"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung",
+"abzug.berufskosten.wochenaufenthalt",
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Verpflegung 15 Fr. pro Hauptmahlzeit, 3 200 Fr. pro Jahr (halb bei Kantine); Wochenaufenthalt 6 400 Fr. (4 800 Fr. bei Verbilligung); Nebenerwerb 20 %, mindestens 800 Fr., maximal 2 400 Fr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0044",
 "nachher": "bund-wl-2a-2025__c0046"
 },
 {
 "id": "bund-wl-2a-2025__c0046",
-"titel": "WL 2a 2025 – Abschnitt 46",
-"pfad": [],
+"titel": "Ziff. 10 Auswärtige Verpflegung (15 Fr.), Wochenaufenthalt (6 400 Fr.), Nebenerwerb 20 % (Teil 2/2)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 10"
+],
 "seiten": [
-6
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10",
+"stichworte": [
+"auswärtige Verpflegung",
+"Mittagessen",
+"Kantine",
+"Wochenaufenthalt",
+"Nebenerwerb Pauschale",
+"Feuerwehrsold"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung",
+"abzug.berufskosten.wochenaufenthalt",
+"abzug.berufskosten.nebenerwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0045",
 "nachher": "bund-wl-2a-2025__c0047"
 },
 {
 "id": "bund-wl-2a-2025__c0047",
-"titel": "WL 2a 2025 – Abschnitt 47",
-"pfad": [],
+"titel": "Feuerwehrsold (5 300 Fr.); Ziff. 11 Schuldzinsen; Ziff. 13 Säule 3a (7 258 / 36 288 Fr.) (Teil 1/2)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 10, 11, 13"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10, 11, 13",
+"stichworte": [
+"Feuerwehrsold steuerfrei",
+"Schuldzinsen",
+"50 000 Fr.",
+"Säule 3a Maximum",
+"7258",
+"36288",
+"Bescheinigung 3a"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"abzug.vorsorge.saeule3a",
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Feuerwehrsold bis 5 300 Fr. steuerfrei; private Schuldzinsen im Umfang des Vermögensertrags plus 50 000 Fr.; Säule 3a: mit 2. Säule 7 258 Fr., ohne 20 % des Erwerbseinkommens, höchstens 36 288 Fr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0046",
 "nachher": "bund-wl-2a-2025__c0048"
 },
 {
 "id": "bund-wl-2a-2025__c0048",
-"titel": "WL 2a 2025 – Abschnitt 48",
-"pfad": [],
+"titel": "Feuerwehrsold (5 300 Fr.); Ziff. 11 Schuldzinsen; Ziff. 13 Säule 3a (7 258 / 36 288 Fr.) (Teil 2/2)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 10, 11, 13"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10, 11, 13",
+"stichworte": [
+"Feuerwehrsold steuerfrei",
+"Schuldzinsen",
+"50 000 Fr.",
+"Säule 3a Maximum",
+"7258",
+"36288",
+"Bescheinigung 3a"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"abzug.vorsorge.saeule3a",
+"abzug.berufskosten.nebenerwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0047",
 "nachher": "bund-wl-2a-2025__c0049"
 },
 {
 "id": "bund-wl-2a-2025__c0049",
-"titel": "WL 2a 2025 – Abschnitt 49",
-"pfad": [],
+"titel": "Ziff. 12 Unterhaltsbeiträge; Ziff. 14 Versicherungsprämien (3 700/1 800/5 550/2 700 Fr.) (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 11, 12, 14"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "11, 12, 14",
+"stichworte": [
+"Versicherungsabzug",
+"Krankenkasse",
+"Prämien",
+"3700",
+"1800",
+"5550",
+"2700",
+"Alimente abziehbar"
+],
+"positionen": [
+"abzug.versicherungspraemien",
+"abzug.unterhaltsbeitraege"
+],
+"zusammenfassung": "Versicherungsabzug mit Vorsorge: 3 700 Fr. Ehepaare/1 800 Fr. übrige; ohne Vorsorge: 5 550 Fr./2 700 Fr.; plus 700 Fr. je Kind oder unterstützte Person; Alimente an Ex-Partner und für Kinder abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0048",
 "nachher": "bund-wl-2a-2025__c0050"
 },
 {
 "id": "bund-wl-2a-2025__c0050",
-"titel": "WL 2a 2025 – Abschnitt 50",
-"pfad": [],
+"titel": "Ziff. 12 Unterhaltsbeiträge; Ziff. 14 Versicherungsprämien (3 700/1 800/5 550/2 700 Fr.) (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 11, 12, 14"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "11, 12, 14",
+"stichworte": [
+"Versicherungsabzug",
+"Krankenkasse",
+"Prämien",
+"3700",
+"1800",
+"5550",
+"2700",
+"Alimente abziehbar"
+],
+"positionen": [
+"abzug.versicherungspraemien",
+"abzug.unterhaltsbeitraege"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0049",
 "nachher": "bund-wl-2a-2025__c0051"
 },
 {
 "id": "bund-wl-2a-2025__c0051",
-"titel": "WL 2a 2025 – Abschnitt 51",
-"pfad": [],
+"titel": "Ziff. 12 Unterhaltsbeiträge; Ziff. 14 Versicherungsprämien (3 700/1 800/5 550/2 700 Fr.) (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 11, 12, 14"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "11, 12, 14",
+"stichworte": [
+"Versicherungsabzug",
+"Krankenkasse",
+"Prämien",
+"3700",
+"1800",
+"5550",
+"2700",
+"Alimente abziehbar"
+],
+"positionen": [
+"abzug.versicherungspraemien",
+"abzug.unterhaltsbeitraege"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0050",
 "nachher": "bund-wl-2a-2025__c0052"
 },
 {
 "id": "bund-wl-2a-2025__c0052",
-"titel": "WL 2a 2025 – Abschnitt 52",
-"pfad": [],
+"titel": "Ziff. 12.3 Renten; Ziff. 15 Weitere Abzüge: Weiterbildung 13 000, Parteispenden 10 600, Drittbetreuung 25 800 (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 12.3, 13, 15"
+],
 "seiten": [
-6
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "12.3, 15",
+"stichworte": [
+"Weiterbildung 13 000",
+"Parteispenden 10 600",
+"Behinderungskosten",
+"Kinderbetreuung 25 800",
+"Kita",
+"Nichterwerbstätige AHV",
+"Leibrente bezahlt"
+],
+"positionen": [
+"abzug.unterhaltsbeitraege",
+"abzug.ahv_nichterwerbstaetige",
+"abzug.weiterbildung",
+"abzug.parteispenden",
+"abzug.behinderungskosten",
+"abzug.drittbetreuung"
+],
+"zusammenfassung": "Weiterbildung bis 13 000 Fr. pro Jahr; Parteien bis 10 600 Fr.; Drittbetreuung nachgewiesen bis höchstens 25 800 Fr. pro Kind (bis 14 Jahre); behinderungsbedingte Kosten selbst getragen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0051",
 "nachher": "bund-wl-2a-2025__c0053"
 },
 {
 "id": "bund-wl-2a-2025__c0053",
-"titel": "WL 2a 2025 – Abschnitt 53",
-"pfad": [],
+"titel": "Ziff. 12.3 Renten; Ziff. 15 Weitere Abzüge: Weiterbildung 13 000, Parteispenden 10 600, Drittbetreuung 25 800 (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 12.3, 13, 15"
+],
 "seiten": [
-7
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "12.3, 15",
+"stichworte": [
+"Weiterbildung 13 000",
+"Parteispenden 10 600",
+"Behinderungskosten",
+"Kinderbetreuung 25 800",
+"Kita",
+"Nichterwerbstätige AHV",
+"Leibrente bezahlt"
+],
+"positionen": [
+"abzug.unterhaltsbeitraege",
+"abzug.ahv_nichterwerbstaetige",
+"abzug.weiterbildung",
+"abzug.parteispenden",
+"abzug.behinderungskosten",
+"abzug.drittbetreuung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0052",
 "nachher": "bund-wl-2a-2025__c0054"
 },
 {
 "id": "bund-wl-2a-2025__c0054",
-"titel": "WL 2a 2025 – Abschnitt 54",
-"pfad": [],
+"titel": "Ziff. 12.3 Renten; Ziff. 15 Weitere Abzüge: Weiterbildung 13 000, Parteispenden 10 600, Drittbetreuung 25 800 (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 12.3, 13, 15"
+],
 "seiten": [
-7
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "12.3, 15",
+"stichworte": [
+"Weiterbildung 13 000",
+"Parteispenden 10 600",
+"Behinderungskosten",
+"Kinderbetreuung 25 800",
+"Kita",
+"Nichterwerbstätige AHV",
+"Leibrente bezahlt"
+],
+"positionen": [
+"abzug.unterhaltsbeitraege",
+"abzug.ahv_nichterwerbstaetige",
+"abzug.weiterbildung",
+"abzug.parteispenden",
+"abzug.behinderungskosten",
+"abzug.drittbetreuung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0053",
 "nachher": "bund-wl-2a-2025__c0055"
 },
 {
 "id": "bund-wl-2a-2025__c0055",
-"titel": "WL 2a 2025 – Abschnitt 55",
-"pfad": [],
+"titel": "Drittbetreuung (Fortsetzung), Wertschriftenverwaltung; Ziff. 21.2 Spenden; Ziff. 23 Sozialabzüge (2 800 Fr.) (Teil 1/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 15, 21, 23"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "15, 21.2, 23",
+"stichworte": [
+"Depotspesen",
+"Spenden 100 Fr.",
+"20 % Nettoeinkommen",
+"Verheiratetenabzug 2800",
+"Kinderabzug Voraussetzungen",
+"gemeinnützige Zuwendungen"
+],
+"positionen": [
+"abzug.drittbetreuung",
+"abzug.verwaltungskosten_wertschriften",
+"abzug.spenden",
+"sozialabzug.verheiratete",
+"abzug.krankheitskosten",
+"abzug.teilbesteuerung_beteiligungen"
+],
+"zusammenfassung": "Spenden ab 100 Fr. bis 20 % des Nettoeinkommens abziehbar; Verheiratetenabzug 2 800 Fr.; nur Depotspesen und Safegebühren als Wertschriftenverwaltung; kein Abzug für Beratung oder Steuerberatung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0054",
 "nachher": "bund-wl-2a-2025__c0056"
 },
 {
 "id": "bund-wl-2a-2025__c0056",
-"titel": "WL 2a 2025 – Abschnitt 56",
-"pfad": [],
+"titel": "Drittbetreuung (Fortsetzung), Wertschriftenverwaltung; Ziff. 21.2 Spenden; Ziff. 23 Sozialabzüge (2 800 Fr.) (Teil 2/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 15, 21, 23"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "15, 21.2, 23",
+"stichworte": [
+"Depotspesen",
+"Spenden 100 Fr.",
+"20 % Nettoeinkommen",
+"Verheiratetenabzug 2800",
+"Kinderabzug Voraussetzungen",
+"gemeinnützige Zuwendungen"
+],
+"positionen": [
+"abzug.drittbetreuung",
+"abzug.verwaltungskosten_wertschriften",
+"abzug.spenden",
+"sozialabzug.verheiratete",
+"abzug.krankheitskosten",
+"abzug.teilbesteuerung_beteiligungen"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0055",
 "nachher": "bund-wl-2a-2025__c0057"
 },
 {
 "id": "bund-wl-2a-2025__c0057",
-"titel": "WL 2a 2025 – Abschnitt 57",
-"pfad": [],
+"titel": "Drittbetreuung (Fortsetzung), Wertschriftenverwaltung; Ziff. 21.2 Spenden; Ziff. 23 Sozialabzüge (2 800 Fr.) (Teil 3/3)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 15, 21, 23"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "15, 21.2, 23",
+"stichworte": [
+"Depotspesen",
+"Spenden 100 Fr.",
+"20 % Nettoeinkommen",
+"Verheiratetenabzug 2800",
+"Kinderabzug Voraussetzungen",
+"gemeinnützige Zuwendungen"
+],
+"positionen": [
+"abzug.drittbetreuung",
+"abzug.verwaltungskosten_wertschriften",
+"abzug.spenden",
+"sozialabzug.verheiratete",
+"abzug.krankheitskosten",
+"abzug.teilbesteuerung_beteiligungen"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0056",
 "nachher": "bund-wl-2a-2025__c0058"
 },
 {
 "id": "bund-wl-2a-2025__c0058",
-"titel": "WL 2a 2025 – Abschnitt 58",
-"pfad": [],
+"titel": "Ziff. 16 Zweiverdienerabzug (min. 8 600 / max. 14 100 Fr.); nicht abziehbare Kosten; Ziff. 24 Tarife (Teil 1/2)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 16, 23, 24"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "16, 23, 24",
+"stichworte": [
+"Zweiverdienerabzug",
+"50 %",
+"8600",
+"14100",
+"Mitarbeit Ehegatte",
+"nicht abzugsberechtigt"
+],
+"positionen": [
+"abzug.zweiverdiener",
+"berechnung.total"
+],
+"zusammenfassung": "Zweiverdienerabzug 50 % des niedrigeren Erwerbseinkommens, mindestens 8 600 Fr., höchstens 14 100 Fr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0057",
 "nachher": "bund-wl-2a-2025__c0059"
 },
 {
 "id": "bund-wl-2a-2025__c0059",
-"titel": "WL 2a 2025 – Abschnitt 59",
-"pfad": [],
+"titel": "Ziff. 16 Zweiverdienerabzug (min. 8 600 / max. 14 100 Fr.); nicht abziehbare Kosten; Ziff. 24 Tarife (Teil 2/2)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffern 16, 23, 24"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "16, 23, 24",
+"stichworte": [
+"Zweiverdienerabzug",
+"50 %",
+"8600",
+"14100",
+"Mitarbeit Ehegatte",
+"nicht abzugsberechtigt"
+],
+"positionen": [
+"abzug.zweiverdiener",
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0058",
 "nachher": "bund-wl-2a-2025__c0060"
 },
 {
 "id": "bund-wl-2a-2025__c0060",
-"titel": "WL 2a 2025 – Abschnitt 60",
-"pfad": [],
+"titel": "Ziff. 16 (Schluss); Tarife Grund-/Verheirateten-/Elterntarif (263 Fr.); Ziff. 27 Eigenkapital (Teil 1/2)",
+"pfad": [
+"Hinweise",
+"Steuerberechnung",
+"Ziffern 21, 24, 27"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "24, 27",
+"stichworte": [
+"Grundtarif",
+"Verheiratetentarif",
+"Elterntarif",
+"263 Fr. pro Kind",
+"Eigenkapital Selbständige",
+"Einelternfamilie"
+],
+"positionen": [
+"berechnung.total",
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Elterntarif = Verheiratetentarif mit Abzug vom Steuerbetrag von 263 Fr. pro Kind oder unterstützungsbedürftiger Person; Grundtarif für Alleinstehende ohne Kinder.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0059",
 "nachher": "bund-wl-2a-2025__c0061"
 },
 {
 "id": "bund-wl-2a-2025__c0061",
-"titel": "WL 2a 2025 – Abschnitt 61",
-"pfad": [],
+"titel": "Ziff. 16 (Schluss); Tarife Grund-/Verheirateten-/Elterntarif (263 Fr.); Ziff. 27 Eigenkapital (Teil 2/2)",
+"pfad": [
+"Hinweise",
+"Steuerberechnung",
+"Ziffern 21, 24, 27"
+],
 "seiten": [
 8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "24, 27",
+"stichworte": [
+"Grundtarif",
+"Verheiratetentarif",
+"Elterntarif",
+"263 Fr. pro Kind",
+"Eigenkapital Selbständige",
+"Einelternfamilie"
+],
+"positionen": [
+"berechnung.total",
+"sozialabzug.kinder"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0060",
 "nachher": "bund-wl-2a-2025__c0062"
 },
 {
 "id": "bund-wl-2a-2025__c0062",
-"titel": "WL 2a 2025 – Abschnitt 62",
-"pfad": [],
+"titel": "Ziff. 21.1 Krankheitskosten (5 %); BGSA; Schlussbemerkungen; Kapitalabfindungen (Einleitung) (Teil 1/2)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 21.1",
+"Schlussbemerkungen"
+],
 "seiten": [
-8
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "21.1",
+"stichworte": [
+"Krankheitskosten Selbstbehalt 5 %",
+"vereinfachtes Abrechnungsverfahren",
+"Schwarzarbeit",
+"Unterschrift",
+"Kapitalabfindungen"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"einkommen.vereinfachtes_verfahren",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Krankheits- und Unfallkosten abziehbar, soweit sie 5 % des Nettoeinkommens übersteigen; Steuererklärung ist persönlich zu unterzeichnen, Ehegatten gemeinsam.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0061",
 "nachher": "bund-wl-2a-2025__c0063"
 },
 {
 "id": "bund-wl-2a-2025__c0063",
-"titel": "WL 2a 2025 – Abschnitt 63",
-"pfad": [],
+"titel": "Ziff. 21.1 Krankheitskosten (5 %); BGSA; Schlussbemerkungen; Kapitalabfindungen (Einleitung) (Teil 2/2)",
+"pfad": [
+"Hinweise",
+"Abzüge",
+"Ziffer 21.1",
+"Schlussbemerkungen"
+],
 "seiten": [
-8
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "21.1",
+"stichworte": [
+"Krankheitskosten Selbstbehalt 5 %",
+"vereinfachtes Abrechnungsverfahren",
+"Schwarzarbeit",
+"Unterschrift",
+"Kapitalabfindungen"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"einkommen.vereinfachtes_verfahren",
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0062",
 "nachher": "bund-wl-2a-2025__c0064"
 },
 {
 "id": "bund-wl-2a-2025__c0064",
-"titel": "WL 2a 2025 – Abschnitt 64",
-"pfad": [],
+"titel": "Kapitalabfindungen bei Beendigung des Arbeitsverhältnisses (Fünftel-Tarif)",
+"pfad": [
+"Kapitalabfindungen und Kapitalleistungen"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Abgangsentschädigung",
+"Golden Parachute",
+"Freizügigkeitsleistung",
+"Vorsorgecharakter",
+"Fünftel Tarif"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge",
+"einkommen.kapitalabfindung_wiederkehrend"
+],
+"zusammenfassung": "Abfindungen mit Vorsorgecharakter werden gesondert zu einem Fünftel der Tarife 2025 besteuert; ohne Vorsorgecharakter mit dem übrigen Einkommen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0063",
 "nachher": "bund-wl-2a-2025__c0065"
 },
 {
 "id": "bund-wl-2a-2025__c0065",
-"titel": "WL 2a 2025 – Abschnitt 65",
-"pfad": [],
+"titel": "Kapitalleistungen aus Vorsorge; Zahlungen bei Tod und für bleibende Nachteile",
+"pfad": [
+"Kapitalabfindungen und Kapitalleistungen"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Kapitalleistung AHV",
+"Pensionskasse Kapital",
+"Säule 3a Auszahlung",
+"Fünftel der Tarife",
+"Todesfallleistung",
+"Genugtuung"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Kapitalleistungen aus AHV/IV, 2. Säule und Säule 3a werden getrennt zu einem Fünftel der Tarife 2025 besteuert, ohne Sozialabzüge.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0064",
 "nachher": "bund-wl-2a-2025__c0066"
 },
 {
 "id": "bund-wl-2a-2025__c0066",
-"titel": "WL 2a 2025 – Abschnitt 66",
-"pfad": [],
+"titel": "Straffolgen bei Widerhandlungen (Bussen bis 10 000 / 30 000 / 50 000 Fr.) (Teil 1/2)",
+"pfad": [
+"Straffolgen"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerhinterziehung",
+"Busse",
+"Nachsteuer",
+"Urkundenfälschung",
+"Versuch"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Busse bis 10 000 Fr. bei verweigerter Einreichung; Hinterziehung: Nachzahlung plus Busse bis zum Dreifachen; Anstiftung/Gehilfen bis 50 000 Fr.; Urkundenfälschung bis 30 000 Fr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0065",
 "nachher": "bund-wl-2a-2025__c0067"
 },
 {
 "id": "bund-wl-2a-2025__c0067",
-"titel": "WL 2a 2025 – Abschnitt 67",
-"pfad": [],
+"titel": "Straffolgen bei Widerhandlungen (Bussen bis 10 000 / 30 000 / 50 000 Fr.) (Teil 2/2)",
+"pfad": [
+"Straffolgen"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerhinterziehung",
+"Busse",
+"Nachsteuer",
+"Urkundenfälschung",
+"Versuch"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0066",
 "nachher": "bund-wl-2a-2025__c0068"
 },
 {
 "id": "bund-wl-2a-2025__c0068",
-"titel": "WL 2a 2025 – Abschnitt 68",
-"pfad": [],
+"titel": "Tarif DBST 2025 – Tabelle (Teil 1: Kopf und Zeilen bis ca. 55 000 Fr.) (Teil 1/5)",
+"pfad": [
+"Tarife 2025"
+],
 "seiten": [
-8
+10
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Bundessteuertarif",
+"Tabelle Steuerberechnung",
+"Grundtarif",
+"Verheiratetentarif",
+"Einelternfamilien"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Tabelle zur Berechnung der direkten Bundessteuer natürlicher Personen 2025, gilt auch für Kapitalleistungen aus Vorsorge.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0067",
 "nachher": "bund-wl-2a-2025__c0069"
 },
 {
 "id": "bund-wl-2a-2025__c0069",
-"titel": "WL 2a 2025 – Abschnitt 69",
-"pfad": [],
+"titel": "Tarif DBST 2025 – Tabelle (Teil 1: Kopf und Zeilen bis ca. 55 000 Fr.) (Teil 2/5)",
+"pfad": [
+"Tarife 2025"
+],
 "seiten": [
-8
+10
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Bundessteuertarif",
+"Tabelle Steuerberechnung",
+"Grundtarif",
+"Verheiratetentarif",
+"Einelternfamilien"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0068",
 "nachher": "bund-wl-2a-2025__c0070"
 },
 {
 "id": "bund-wl-2a-2025__c0070",
-"titel": "WL 2a 2025 – Abschnitt 70",
-"pfad": [],
+"titel": "Tarif DBST 2025 – Tabelle (Teil 1: Kopf und Zeilen bis ca. 55 000 Fr.) (Teil 3/5)",
+"pfad": [
+"Tarife 2025"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Bundessteuertarif",
+"Tabelle Steuerberechnung",
+"Grundtarif",
+"Verheiratetentarif",
+"Einelternfamilien"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0069",
 "nachher": "bund-wl-2a-2025__c0071"
 },
 {
 "id": "bund-wl-2a-2025__c0071",
-"titel": "WL 2a 2025 – Abschnitt 71",
-"pfad": [],
+"titel": "Tarif DBST 2025 – Tabelle (Teil 1: Kopf und Zeilen bis ca. 55 000 Fr.) (Teil 4/5)",
+"pfad": [
+"Tarife 2025"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Bundessteuertarif",
+"Tabelle Steuerberechnung",
+"Grundtarif",
+"Verheiratetentarif",
+"Einelternfamilien"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0070",
 "nachher": "bund-wl-2a-2025__c0072"
 },
 {
 "id": "bund-wl-2a-2025__c0072",
-"titel": "WL 2a 2025 – Abschnitt 72",
-"pfad": [],
+"titel": "Tarif DBST 2025 – Tabelle (Teil 1: Kopf und Zeilen bis ca. 55 000 Fr.) (Teil 5/5)",
+"pfad": [
+"Tarife 2025"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Bundessteuertarif",
+"Tabelle Steuerberechnung",
+"Grundtarif",
+"Verheiratetentarif",
+"Einelternfamilien"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0071",
 "nachher": "bund-wl-2a-2025__c0073"
 },
 {
 "id": "bund-wl-2a-2025__c0073",
-"titel": "WL 2a 2025 – Abschnitt 73",
-"pfad": [],
+"titel": "Tarif DBST 2025 – Tabelle (Teil 2: Zeilen ab ca. 42 000 Fr., Höchstsatz 11.5 %) (Teil 1/3)",
+"pfad": [
+"Tarife 2025"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Bundessteuertarif",
+"Höchstsatz 11.5 %",
+"Jahressteuer",
+"Steuer für 1 Jahr"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Für höhere steuerbare Einkünfte beträgt die Jahressteuer einheitlich 11.5 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0072",
 "nachher": "bund-wl-2a-2025__c0074"
 },
 {
 "id": "bund-wl-2a-2025__c0074",
-"titel": "WL 2a 2025 – Abschnitt 74",
-"pfad": [],
+"titel": "Tarif DBST 2025 – Tabelle (Teil 2: Zeilen ab ca. 42 000 Fr., Höchstsatz 11.5 %) (Teil 2/3)",
+"pfad": [
+"Tarife 2025"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Bundessteuertarif",
+"Höchstsatz 11.5 %",
+"Jahressteuer",
+"Steuer für 1 Jahr"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0073",
 "nachher": "bund-wl-2a-2025__c0075"
 },
 {
 "id": "bund-wl-2a-2025__c0075",
-"titel": "WL 2a 2025 – Abschnitt 75",
-"pfad": [],
+"titel": "Tarif DBST 2025 – Tabelle (Teil 2: Zeilen ab ca. 42 000 Fr., Höchstsatz 11.5 %) (Teil 3/3)",
+"pfad": [
+"Tarife 2025"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Bundessteuertarif",
+"Höchstsatz 11.5 %",
+"Jahressteuer",
+"Steuer für 1 Jahr"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0074",
 "nachher": "bund-wl-2a-2025__c0076"
 },
 {
 "id": "bund-wl-2a-2025__c0076",
-"titel": "WL 2a 2025 – Abschnitt 76",
-"pfad": [],
+"titel": "Tarif DBST 2025 – Fussnoten (Rundung, Abzug 263 Fr. pro Kind)",
+"pfad": [
+"Tarife 2025"
+],
 "seiten": [
 10
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Fussnoten Tarif",
+"Rundung 100 Fr.",
+"263 Franken Kind",
+"Abzug vom Steuerbetrag"
+],
+"positionen": [
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Restbeträge unter 100 Fr. fallen ausser Betracht; der Steuerbetrag ermässigt sich um 263 Franken pro Kind oder unterstützungsbedürftige Person.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-2a-2025__c0075",
-"nachher": "bund-wl-2a-2025__c0077"
-},
-{
-"id": "bund-wl-2a-2025__c0077",
-"titel": "WL 2a 2025 – Abschnitt 77",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-2a-2025__c0076",
-"nachher": "bund-wl-2a-2025__c0078"
-},
-{
-"id": "bund-wl-2a-2025__c0078",
-"titel": "WL 2a 2025 – Abschnitt 78",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-2a-2025__c0077",
-"nachher": "bund-wl-2a-2025__c0079"
-},
-{
-"id": "bund-wl-2a-2025__c0079",
-"titel": "WL 2a 2025 – Abschnitt 79",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-2a-2025__c0078",
-"nachher": "bund-wl-2a-2025__c0080"
-},
-{
-"id": "bund-wl-2a-2025__c0080",
-"titel": "WL 2a 2025 – Abschnitt 80",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-2a-2025__c0079",
-"nachher": "bund-wl-2a-2025__c0081"
-},
-{
-"id": "bund-wl-2a-2025__c0081",
-"titel": "WL 2a 2025 – Abschnitt 81",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-2a-2025__c0080",
-"nachher": "bund-wl-2a-2025__c0082"
-},
-{
-"id": "bund-wl-2a-2025__c0082",
-"titel": "WL 2a 2025 – Abschnitt 82",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-2a-2025__c0081",
-"nachher": "bund-wl-2a-2025__c0083"
-},
-{
-"id": "bund-wl-2a-2025__c0083",
-"titel": "WL 2a 2025 – Abschnitt 83",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-2a-2025__c0082",
 "nachher": null
 }
 ]

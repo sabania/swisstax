@@ -4,14 +4,17 @@ quelle: bund-ks-43
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 43 – Abschnitt 10"
-seiten: "3"
+titel: "Ziff. 5 Inkrafttreten und ersetzte Kreisschreiben"
+ziffer: "5"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 43 · 5 Inkrafttreten · S. 4
 
-28. April 2008 E. 2.3.4 und Urteil 2C_78/2014 des Bundesgerichts vom 26. Mai 2014 E. 3.1).
-Wenn alle drei obengenannten Kriterien kumulativ erfüllt sind, handelt es sich bei der fraglichen
-Leistung um eine steuerfreie Unterstützungsleistung. Ist mindestens eines der Kriterien nicht er-
-füllt, ist die fragliche Leistung steuerbar nach Artikel 16 Absatz 1 DBG, sofern es sich nicht um
-eine Schenkung handelt.
+5   Inkrafttreten
+
+Das vorliegende Kreisschreiben tritt mit seiner Publikation in Kraft. Es ersetzt das Kreisschrei-
+ben Nr. 15 der ESTV vom 8. April 1953 über die steuerliche Behandlung von Preisen, Ehrenga-
+ben und Stipendien an Schriftsteller, Musiker, Maler, Bildhauer, Wissenschaftler usw. und das
+Kreisschreiben Nr. 8 der ESTV vom 25. Februar 1971 über die Zuwendungen des Schweizeri-
+schen Nationalfonds zur Förderung der wissenschaftlichen Forschung.

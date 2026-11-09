@@ -4,17 +4,33 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 2 Aufsichtsrechtliche Aspekte kollektiver Kapitalanlagen"
+ziffer: "2"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 25 · 2 Aufsichtsrechtliche Aspekte · S. 2–3
 
-3.3.4   Deklarationspflicht ............................................................................................... 5
-4   Besteuerung auf Ebene der Anleger ................................................................ 6
-4.1   Allgemeines ......................................................................................................... 6
-4.2   Bei Anlagen im Privatvermögen ........................................................................... 6
-4.3   Bei Anlagen im Geschäftsvermögen .................................................................... 7
-4.4   Rückerstattung der Verrechnungssteuer.............................................................. 7
-4.5   Bescheinigungspflicht .......................................................................................... 8
-5   Spezialfragen ..................................................................................................... 8
+2   Aufsichtsrechtliche Aspekte kollektiver Kapitalanlagen
+Gemäss Artikel 7 Absatz 1 KAG gelten für aufsichtsrechtliche Zwecke als kollektive Kapital-
+anlagen Vermögen, die von Anlegerinnen und Anlegern zur gemeinschaftlichen Vermögens-
+anlage aufgebracht und für deren Rechnung verwaltet werden. Die Anlagebedürfnisse der
+Anlegerinnen und Anleger werden in gleichmässiger Weise befriedigt. Das KAG folgt der so-
+genannten „Treuhandlösung“, wonach die Fondsleitungen, die SICAV bzw. die KmGK das
+Fondsvermögen quasi-treuhänderisch für Rechnung ihrer Anlegerinnen und Anleger verwal-
+ten. Dabei sind – ausserhalb des Einanlegerfonds (vgl. Ziffer 5.6 hiernach) – mindestens
+
+
+1 SR 951.31
+
+2 SR 951.311
+
+3 SR 642.11
+
+4 SR 220
+
+zwei voneinander unabhängige Anlegerinnen und Anleger erforderlich, damit die Kollektivität
+gegeben ist (vgl. Art. 5 Abs. 1 KKV).
+
+Diese aufsichtsrechtlichen Vorgaben finden auch für direktsteuerliche Zwecke in analoger
+Weise Anwendung.

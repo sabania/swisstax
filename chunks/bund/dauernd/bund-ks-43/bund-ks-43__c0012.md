@@ -4,27 +4,17 @@ quelle: bund-ks-43
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 43 – Abschnitt 12"
-seiten: "4"
+titel: "Anhang Beispiel 1 – Stipendium CHF 1'500 / 3'000 monatlich (Bedürftigkeit) (Teil 2/2)"
+ziffer: "Beispiel 1"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 43 · Anhang: Beispiele · S. 5
 
-<!-- Seite 4 -->
-Leistungen in Form von Naturalgaben (z. B. Auto, Tiere u. dgl.) werden nach ihrem Marktwert
-(Verkehrswert) bemessen (vgl. Art. 16 Abs. 2 DBG).
-
-Die Leistungen sind in dem Jahr zu versteuern, in welchem sie der empfangenden Person zu-
-geflossen sind. Sie gelten in dem Zeitpunkt als zugeflossen und erzielt, in dem die begünstigte
-Person einen festen Rechtsanspruch darauf erworben hat. Von den Bruttoeinkünften können
-die üblichen Abzüge (insbesondere für Gewinnungskosten) vorgenommen werden (vgl. Urteil
-2C_715/2007 des Bundesgerichts vom 28. April 2008 E. 2.4).
-
-
-5   Inkrafttreten
-
-Das vorliegende Kreisschreiben tritt mit seiner Publikation in Kraft. Es ersetzt das Kreisschrei-
-ben Nr. 15 der ESTV vom 8. April 1953 über die steuerliche Behandlung von Preisen, Ehrenga-
-ben und Stipendien an Schriftsteller, Musiker, Maler, Bildhauer, Wissenschaftler usw. und das
-Kreisschreiben Nr. 8 der ESTV vom 25. Februar 1971 über die Zuwendungen des Schweizeri-
-schen Nationalfonds zur Förderung der wissenschaftlichen Forschung.
+gesamte Stipendium angewiesen, um seine Lebenshaltungskosten zu bestreiten. Das Stipendi-
+um übersteigt den lebensnotwendigen Bedarf nicht und ist deshalb gemäss Artikel 24 Buchsta-
+be d DBG eine von der direkten Bundessteuer befreite Unterstützung aus öffentlichen Mitteln.
+Lösung Variante: In diesem Fall übersteigt das Stipendium den lebensnotwendigen Bedarf des
+Studenten A. Deshalb ist das über dem Existenzminimum (siehe vorangehende Lösung) lie-
+gende Einkommen von monatlich CHF 800.– lückenlos steuerlich zu erfassen (vgl. Ziff. 3 des
+Kreisschreibens, Ausführungen zur Bedürftigkeit).

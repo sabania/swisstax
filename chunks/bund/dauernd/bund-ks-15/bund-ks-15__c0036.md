@@ -4,30 +4,31 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 3.4.1 Modifizierte Differenzbesteuerung (BFP-Service), Stempelabgaben"
-ziffer: "3.4.1"
-seiten: "10-11"
+titel: "Ziff. 3.4.1 Stempelabgaben; Ziff. 3.4.2 Nicht transparente Produkte"
+ziffer: "3.4.2"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.4 Kapitalgarantierte Derivate › 3.4.1 Transparente Produkte · S. 10–11
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.4 Kapitalgarantierte Derivate › 3.4.2 Nicht transparente Produkte · S. 11
 
-Bei überwiegend einmalverzinslichen Papieren, bei denen kein separater Handel der einzel-
-nen Komponenten stattfindet, müssen in der Folge auch die Einkünfte aus der Veräusserung
-oder Rückzahlung der Obligationen bei Handänderungen analytisch ermittelt werden, da die
+Stempelabgaben
+In Bezug auf die Umsatzabgabe kann auf das unter Ziffer 3.1. Gesagte verwiesen werden.
 
-1-015-DVS-2017-d
+3.4.2   Nicht transparente Produkte
 
-jeweiligen Kurse sich nicht nur auf den Obligationenteil beziehen, sondern auch den Wert der
-Option beinhalten. Weil zudem das Zinsniveau nicht konstant bleibt, muss die rechnerische
-Ermittlung der Anschaffungs- und Veräusserungswerte zusätzlich modifiziert werden. Hierbei
-wird der Originalzinssatz für die jeweilige Emission vierteljährlich der Entwicklung auf dem
-Geld- und Kapitalmarkt unter Bezugnahme auf den 5-jährigen Swapsatz der fraglichen Wäh-
-rung angepasst. Diese sog. modifizierte Differenzbesteuerung gemäss Artikel 20 Absatz 1
-Buchstabe b DBG wird technisch im BFP-Service der SIX Financial Information AG umge-
-setzt (vgl. Anhang IV). Dies ergibt die einkommenssteuerlich relevante Differenz zwischen
-dem Wert der Obligation im Zeitpunkt der Veräusserung und jenem im Zeitpunkt des Er-
-werbs oder zwischen dem Rückzahlungsbetrag und dem Wert der Obligation bei Erwerb. Zu
-beachten gilt, dass die Verrechnungssteuer auch bei überwiegend einmalverzinslichen Pa-
-pieren ausschliesslich auf dem Originaldiskont erhoben wird (siehe Beispiel Nr. 4 in Anhang
-II). Ausführungen zu den Mitwirkungs- und Auskunftspflichten der Banken in diesem Zusam-
-menhang finden sich unter Ziffer 4.2. hienach.
+Direkte Bundessteuer und Verrechnungssteuer
+Liegt ein nicht transparentes Instrument vor, stellt die Option oder das Wandelrecht die vari-
+able Komponente eines Ertrags aus dem Anlagegeschäft dar. Alles, was der Investor bei
+Verfall von Coupons, auf Grund eines Options- oder Wandelrechts sowie bei Auflösung des
+Schuldverhältnisses über das ursprünglich investierte Kapital hinaus erhält, unterliegt der
+Einkommenssteuer und – soweit das Produkt von einem Inländer emittiert wurde – der Ver-
+rechnungssteuer (Art. 20 Abs. 1 Bst. a oder b DBG, Art. 4 Abs. 1 Bst. a VStG).
+
+Nicht transparente Instrumente sind in der Regel Anwendungsfälle von Artikel 20 Absatz 1
+Buchstabe b DBG; steuerbar im Falle von Handänderungen ist stets die Differenz zwischen
+Kauf- und Verkaufspreis (bzw. Rückzahlungswert) des Gesamtinstruments (reine Differenz-
+besteuerung).
+
+Stempelabgaben
+Der Handel mit in- und ausländischen, nicht transparenten Instrumenten unterliegt wie bei
+gewöhnlichen Obligationen der Umsatzabgabe.

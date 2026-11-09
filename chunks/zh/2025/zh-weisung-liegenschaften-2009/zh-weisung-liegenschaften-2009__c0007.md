@@ -4,24 +4,28 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 7"
-seiten: "3"
+titel: "Ziff. 13–15 Bauland Einfamilienhäuser, Geschäftshäuser, Industrie"
+ziffer: "13–15"
+seiten: "3-4"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 3
-
-Bauland für Mehrfamilienhäuser und Stockwerkeigentum
-    Für jede Gemeinde wird eine Preisbandbreite festgelegt.   10
-   Innerhalb einer Gemeinde werden die Grundstücke bestimmten 11
-Lageklassen zugeordnet. Im Rahmen der Preisbandbreite wird für jede
-Lageklasse der steuerlich massgebende Landwert festgelegt.
-    Dabei sind insbesondere zu berücksichtigen:   12
-–   Lage der Gemeinde innerhalb des Kantons,
-–   Vergleichspreise für unüberbaute und überbaute Grundstücke in
-    der Gemeinde,
-–   Lage der Grundstücke innerhalb der Gemeinde,
-–   mittlere Preise für unüberbaute Grundstücke im ganzen Kanton.
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 3. Landwerte · S. 3–4
 
 Bauland für Einfamilienhäuser
    Der Landwert beträgt 60% der gemäss Ziff. 10–12 ermittelten 13
 Landwerte für Mehrfamilienhäuser und Stockwerkeigentum.
+
+
+Bauland für Geschäftshäuser
+   Mit einem Zentrum-Peripherie-Modell werden die Gemeinden 14
+bestimmten Gemeindetypen zugeteilt. Aufgrund von Vergleichshand-
+änderungen an entsprechendem Bauland werden für die einzelnen
+Gemeindetypen in der Regel einheitliche Landwerte festgelegt.
+
+
+1. 1. 23 - 119   3
+
+    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+
+    Bauland für industrielle und gewerbliche Bauten
+15   Es ist gemäss Ziff. 14 vorzugehen.

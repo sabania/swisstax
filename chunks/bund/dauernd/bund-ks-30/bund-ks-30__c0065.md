@@ -4,15 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 10.3 Kinderabzug für volljährige Kinder in Ausbildung – Voraussetzungen (Teil 2/2)"
-ziffer: "10.3"
-seiten: "20"
+titel: "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 1/2)"
+ziffer: "11"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 10 Kinderabzug › 10.3 Volljährige Kinder in Ausbildung · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21
 
-massgebenden Zeitpunkt tatsächlich auf den Unterhaltsbeitrag angewiesen war. Erzielt das
-Kind ein Einkommen, das ihm den selbständigen Lebensunterhalt ermöglicht, so kann der
-Kinderabzug nicht mehr beansprucht werden. Der Kinderabzug wird beispielsweise nicht
-gewährt, wenn das Kind über ein umfangreiches Vermögen verfügt, dessen Vermögenser-
-träge einen selbständigen Unterhalt des Kindes erlauben.
+11   Unterstützungsabzug
+
+Eine steuerpflichtige Person kann die Unterstützungsleistungen an eine erwerbsunfähige
+oder beschränkt erwerbsfähige Person in Abzug bringen, wenn die Leistungen mindestens in
+der Höhe des Unterstützungsabzuges erfolgen (Art. 35 Abs. 1 Bst. b DBG). Die Unterstüt-
+zung muss nicht zwingend auf einer Rechtspflicht wie beispielsweise die Verwandtenunter-
+stützung nach Artikel 328 ZGB beruhen, sie kann auch aufgrund einer vertraglichen Ver-
+pflichtung oder freiwillig erfolgen. Wird in einem Steuerjahr weniger als der festgelegte Abzug
+geleistet, entfällt dieser Sozialabzug.

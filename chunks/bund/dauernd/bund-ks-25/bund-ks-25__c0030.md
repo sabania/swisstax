@@ -4,23 +4,17 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 30"
-seiten: "7"
+titel: "Ziff. 5.3.1 Umstrukturierungen auf Ebene der kollektiven Kapitalanlage (Teil 2/2)"
+ziffer: "5.3.1"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 25 · 5 Spezialfragen › 5.3 Umstrukturierungen › 5.3.1 · S. 9
 
-<!-- Seite 7 -->
-Die Liquidation eines vertraglichen Anlagefonds, einer SICAV oder einer KmGK hat den Re-
-geln in Artikel 96 KAG zu folgen. Artikel 97 Absatz 2 KAG räumt den Anlegerinnen und Anle-
-gern einen Anspruch auf den verhältnismässigen Anteil des Liquidationserlöses ein. Die
-Rückzahlung der Kapitaleinzahlungen und dieerzielten Kapitalgewinne sind für die Anlegerin-
-nen und Anleger im Privatvermögen steuerfrei. Der Einkommenssteuer unterliegen die mit
-dem Liquidationsergebnis anteilsmässig verteilten Vermögenserträge, die nicht bereits ver-
-steuert wurden. Wird eine kollektive Kapitalanlage mit direktem Grundbesitz aufgelöst, unter-
-liegen die den Anlegerinnen und Anlegern ausgeschütteten Erträge nicht der Einkommens-
-steuer, soweit diese aus direktem Grundbesitz stammen.
+Bei der Übernahme von Vermögenswerten durch eine kollektive Kapitalanlage von einer Ka-
+pitalgesellschaft oder Genossenschaft kommt Artikel 61 DBG nicht zur Anwendung. Daher
+realisiert die übertragende Kapitalgesellschaft oder Genossenschaft die entsprechenden stil-
+len Reserven.
 
-Bei der Liquidation einer SICAF unterliegt der Liquidationsüberschuss (Differenz zwischen
-Rückgabepreis und dem anteiligen Nennwert) gemäss Artikel 20 Absatz 1 Buchstabe c DBG
-der Einkommenssteuer.
+Auf Umstrukturierungen von oder mit ausländischen kollektiven Kapitalanlagen sind die Best-
+immungen von Artikel 61 DBG ebenfalls sinngemäss anwendbar.

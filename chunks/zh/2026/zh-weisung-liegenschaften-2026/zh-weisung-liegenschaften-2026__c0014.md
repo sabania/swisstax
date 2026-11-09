@@ -4,25 +4,29 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 14"
-seiten: "6"
+titel: "Ziff. 30–34 Zeitbauwert (Neubauwert 1120 %, Altersentwertung 1 % pro Jahr, max. 40 %)"
+ziffer: "30–34"
+seiten: "7"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 6
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 3. Zeitbauwert · S. 7
 
-    Basiswert über Fr. 120 000   effektive Grundstücksfläche,
-    höchstens jedoch 800 m2 zuzüglich
-    100 m2 pro volle Fr. 30 000 Basiswert
-    (oder Bewertung entsprechend den
-    konkreten Verhältnissen).
-28 Für Stockwerkeigentum:
-   bis Basiswert Fr. 10 000   effektive Grundstücksfläche,
-    höchstens jedoch 100 m2,
-    Basiswert zwischen Fr. 10 000   effektive Grundstücksfläche,
-    und Fr. 40 000   höchstens jedoch 100 m2
-    + (Basiswert – 10 000)/300,
-    Basiswert über Fr. 40 000   effektive Grundstücksfläche,
-    höchstens jedoch 200 m2 zuzüglich
-    30 m2 pro volle Fr. 10 000 Basiswert
-    (oder Bewertung entsprechend den
-    konkreten Verhältnissen).
+3. Zeitbauwert
+
+   Der Zeitbauwert entspricht dem Neubauwert abzüglich der dem 30
+Alter des Gebäudes entsprechenden Altersentwertung.
+  Der Neubauwert ist auf 1120% des von der Gebäudeversicherung 31
+Kanton Zürich festgelegten Basiswerts festzusetzen.
+    Die Altersentwertung wird bei der allgemeinen Neubewertung in 32
+der Regel berechnet vom Erstellungsjahr bis zum Kalenderjahr 2026.
+Sie beträgt pro Jahr 1% des Neubauwerts, jedoch höchstens 40%.
+    Als Erstellungsjahr des Gebäudes ist in der Regel das Erstellungs- 33
+jahr gemäss Gebäudeversicherungsschätzung massgebend. Bei späte-
+rer umfassender Totalrenovation ist für die Berechnung der Alters-
+entwertung der Zeitpunkt dieser Investitionen als Erstellungsjahr
+massgebend.
+    Befinden sich in einem Gebäude gemeinschaftlich genutzte, meh- 34
+reren Gebäuden dienende Anlagen und Einrichtungen, wie Heizun-
+gen, Schutzräume, Autoeinstellplätze usw., so ist der Wert dieser ge-
+meinsamen Anlagen und Einrichtungen auf die beteiligten Bauten
+aufzuteilen.

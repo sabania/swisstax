@@ -9,13 +9,11 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
 
-    - [StP 189 Nr. 1 "Ausgleichszinsen"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-189-nr-1-ausgleichszinsen&version=latest)
+    Die Steuerverwaltung Thurgau, welche für den Bezug der direkten Bundessteuer zuständig ist, stellt anfangs Jahr jeweils eine Steuerrechnung für das Vorjahr aus. Ist die definitive Veranlagung im Zeitpunkt der Fälligkeit noch nicht vorgenommen worden, wird die Steuer provisorisch bezogen, wobei die Fälligkeit unverändert bleibt. Die provisorische Steuerrechnung wird durch eine definitive ersetzt, sobald die Steuerveranlagung rechtskräftig geworden ist. Fällt die definitive Rechnung höher als die provisorische aus, gilt für die Nachzahlung ebenfalls eine Zahlungsfrist von 30 Tagen.
 
-Direkte Bundessteuer: Fälligkeit
+Provisorischer Steuerbezug
 :   ### Frage:
 
-    Wann ist die direkte Bundessteuer fällig?
+    Wieso werden die Steuern zuerst provisorisch bezogen, obwohl das Gegenwartsbesteuerungssystem gilt?
 
     ### Antwort:
-
-    Bei ganzjähriger Steuerpflicht gilt der 1. März des auf die Steuerperiode folgenden Kalenderjahres als Fälligkeitstermin. Die Zahlungsfrist beträgt 30 Tage ab diesem Datum. Für nicht fristgerechte Zahlungen wird ein Verzugszins berechnet.

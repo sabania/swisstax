@@ -4,25 +4,39 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 68"
-seiten: "30"
+titel: "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Bülach"
+seiten: "31"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 30
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Geschäftshäuser/Industrie · S. 31
 
-Dachsen   1   440   –   –   –   290   –   –   –
-Dorf   1   360   –   –   –   250   –   –   –
-Feuerthalen   1   530   –   –   –   360   –   –   –
-Flaach   1   290   –   –   –   140   –   –   –
-Flurlingen   1   430   –   –   –   290   –   –   –
-Henggart   1   440   –   –   –   290   –   –   –
-Kleinandelfingen   1   360   –   –   –   250   –   –   –
-Laufen-Uhwiesen   1   440   –   –   –   290   –   –   –
-Marthalen   1   360   –   –   –   250   –   –   –
-Ossingen   1   290   –   –   –   140   –   –   –
-Rheinau   1   350   –   –   –   250   –   –   –
-Stammheim   1   290   –   –   –   140   –   –   –
-Thalheim an der Thur   1   360   –   –   –   250   –   –   –
-Trüllikon   1   360   –   –   –   250   –   –   –
-Truttikon   1   290   –   –   –   140   –   –   –
-Volken   1   290   –   –   –   140   –   –   –
+Landwerte Bauland für Geschäftshäuser sowie industrielle und gewerbliche Bauten
+    Geschäftshäuser   Industrie- und
+    (Ziff. 14)   Gewerbebauten
+    (Ziff. 15 und 49)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 1   LK 2   LK 3   LK 4
+
+Bezirk Bülach
+Bachenbülach   1   570   –   –   –   360   –   –   –
+Bassersdorf   1   750   –   –   –   410   –   –   –
+Bülach   1   1080   –   –   –   380   –   –   –
+Dietlikon   1   880   –   –   –   380   –   –   –
+Eglisau   1   440   –   –   –   290   –   –   –
+Embrach   1   530   –   –   –   360   –   –   –
+Freienstein-Teufen   1   440   –   –   –   290   –   –   –
+Glattfelden   1   440   –   –   –   290   –   –   –
+Hochfelden   1   440   –   –   –   290   –   –   –
+Höri   1   530   –   –   –   360   –   –   –
+Hüntwangen   1   440   –   –   –   290   –   –   –
+Kloten   1   1080   –   –   –   610   –   –   –
+Lufingen   1   440   –   –   –   290   –   –   –
+Nürensdorf   1   440   –   –   –   290   –   –   –
+Oberembrach   1   360   –   –   –   250   –   –   –
+Opfikon   1   1080   –   –   –   610   –   –   –
+Rafz   1   440   –   –   –   290   –   –   –
+Rorbas   1   440   –   –   –   290   –   –   –
+Wallisellen   1   1080   –   –   –   610   –   –   –
+Wasterkingen   1   430   –   –   –   290   –   –   –
+Wil   1   440   –   –   –   290   –   –   –
+Winkel   1   670   –   –   –   360   –   –   –

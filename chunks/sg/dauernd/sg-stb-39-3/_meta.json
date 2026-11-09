@@ -1,368 +1,537 @@
 [
 {
 "id": "sg-stb-39-3__c0001",
-"titel": "StB 39 Nr. 3 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Rechtslage Fahrkostenabzug – Maximalabzug Fr. 8'000 ab 2025 (Teil 1/2)",
+"pfad": [
+"1. Übersicht Rechtslage"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Fahrkostenabzug",
+"Pendlerabzug",
+"Generalabonnement",
+"Maximalabzug Fr. 8'000",
+"Art. 39 Abs. 1 Bst. a StG",
+"Geschäftsfahrzeug Pauschale"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Seit 1.1.2025 beträgt der maximale Fahrkostenabzug Fr. 8'000.--; zuvor war er an den GA-Preis (2020: zuzüglich Fr. 600.--) gekoppelt; seit 1.1.2022 umfasst die Geschäftsfahrzeug-Pauschale auch den Arbeitsweg.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-stb-39-3__c0002"
 },
 {
 "id": "sg-stb-39-3__c0002",
-"titel": "StB 39 Nr. 3 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Rechtslage Fahrkostenabzug – Maximalabzug Fr. 8'000 ab 2025 (Teil 2/2)",
+"pfad": [
+"1. Übersicht Rechtslage"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Fahrkostenabzug",
+"Pendlerabzug",
+"Generalabonnement",
+"Maximalabzug Fr. 8'000",
+"Art. 39 Abs. 1 Bst. a StG",
+"Geschäftsfahrzeug Pauschale"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0001",
 "nachher": "sg-stb-39-3__c0003"
 },
 {
 "id": "sg-stb-39-3__c0003",
-"titel": "StB 39 Nr. 3 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2.1–2.2.1 Öffentliches Verkehrsmittel, Fahrrad, Motorfahrrad, Kleinmotorrad",
+"pfad": [
+"2. Regelung im Allgemeinen",
+"2.1 Öffentliches Verkehrsmittel",
+"2.2.1 Fahrrad"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1-2.2.1",
+"stichworte": [
+"ÖV Abo",
+"Arbeitsweg",
+"Velo",
+"Motorfahrrad",
+"Kleinmotorrad",
+"10 Minuten Fussweg"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Kosten des öffentlichen Verkehrsmittels gelten als notwendig; Abzug für Fahrrad/Motorfahrrad/Kleinmotorrad (max. 50 cm3) nur, wenn zu Fuss bzw. zur nächsten Haltestelle mehr als 10 Minuten nötig sind.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0002",
 "nachher": "sg-stb-39-3__c0004"
 },
 {
 "id": "sg-stb-39-3__c0004",
-"titel": "StB 39 Nr. 3 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2.2.2 Privatauto und Motorrad – Zumutbarkeit des öffentlichen Verkehrs (Teil 1/2)",
+"pfad": [
+"2. Regelung im Allgemeinen",
+"2.2 Privates Verkehrsmittel",
+"2.2.2 Privatauto und Motorrad"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2.2",
+"stichworte": [
+"Autokosten Arbeitsweg",
+"Park-and-Ride",
+"schlechte Verbindung 60 Minuten",
+"Invalidität",
+"unregelmässige Arbeitszeit",
+"Pendler Auto"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Autokosten nur abziehbar, wenn kein öffentliches Verkehrsmittel zur Verfügung steht oder zumutbar ist, u.a. bei Gesundheit, mehr als 10 Fussminuten zur Haltestelle, Mehraufwand über 60 Minuten pro Tag, Präsenzpflicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0003",
 "nachher": "sg-stb-39-3__c0005"
 },
 {
 "id": "sg-stb-39-3__c0005",
-"titel": "StB 39 Nr. 3 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2.2.2 Privatauto und Motorrad – Zumutbarkeit des öffentlichen Verkehrs (Teil 2/2)",
+"pfad": [
+"2. Regelung im Allgemeinen",
+"2.2 Privates Verkehrsmittel",
+"2.2.2 Privatauto und Motorrad"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.2.2",
+"stichworte": [
+"Autokosten Arbeitsweg",
+"Park-and-Ride",
+"schlechte Verbindung 60 Minuten",
+"Invalidität",
+"unregelmässige Arbeitszeit",
+"Pendler Auto"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0004",
 "nachher": "sg-stb-39-3__c0006"
 },
 {
 "id": "sg-stb-39-3__c0006",
-"titel": "StB 39 Nr. 3 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 2.2.2 Nachweis Dienstfahrten und Arbeitgeberbescheinigung",
+"pfad": [
+"2. Regelung im Allgemeinen",
+"2.2 Privates Verkehrsmittel",
+"2.2.2 Privatauto und Motorrad"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2.2",
+"stichworte": [
+"Dienstfahrten Nachweis",
+"Autospesen",
+"Arbeitgeberbescheinigung",
+"Spesenabrechnung",
+"Art. 327a OR"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Wird der Autoabzug mit Dienstfahrten begründet, ist deren Ausmass nachzuweisen; fehlende Autospesen des Arbeitgebers sind ein Indiz gegen geschäftliche Nutzung, Arbeitgeberbescheinigung und Spesenabrechnungen werden verlangt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0005",
 "nachher": "sg-stb-39-3__c0007"
 },
 {
 "id": "sg-stb-39-3__c0007",
-"titel": "StB 39 Nr. 3 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 2.3 Autokosten bei unselbständig und selbständig Erwerbstätigen",
+"pfad": [
+"2. Regelung im Allgemeinen",
+"2.3 Unselbständig und selbständig Erwerbstätige"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3",
+"stichworte": [
+"Geschäftsvermögen Fahrzeug",
+"Privatvermögen Fahrzeug",
+"selbständig und unselbständig",
+"Geschäftswagen"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Fahrzeug im Geschäftsvermögen: kein Arbeitswegabzug unter unselbständiger Erwerbstätigkeit; Fahrzeug im Privatvermögen: Abzug für unselbständige Tätigkeit zu gewähren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0006",
 "nachher": "sg-stb-39-3__c0008"
 },
 {
 "id": "sg-stb-39-3__c0008",
-"titel": "StB 39 Nr. 3 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 2.4 Fahrt zum Wochenaufenthalt",
+"pfad": [
+"2. Regelung im Allgemeinen",
+"2.4 Fahrt zum Wochenaufenthalt"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.4",
+"stichworte": [
+"Wochenaufenthalt",
+"Wochenaufenthälter",
+"Heimfahrt",
+"Art. 20 Abs. 4 StV",
+"Wohnstätte unter der Woche"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.wochenaufenthalt"
+],
+"zusammenfassung": "Für Wochenaufenthalter gilt die Weisung sachgemäss; in der Regel nur Kosten des öffentlichen Verkehrsmittels, Wohnstätte unter der Woche muss am oder nahe beim Arbeitsort liegen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0007",
 "nachher": "sg-stb-39-3__c0009"
 },
 {
 "id": "sg-stb-39-3__c0009",
-"titel": "StB 39 Nr. 3 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 2.5–2.6 Pauschalbeträge (Fr. 700 Velo, 75 Rappen/km) und Parkplatzgebühren",
+"pfad": [
+"2. Regelung im Allgemeinen",
+"2.5 Pauschalbeträge",
+"2.6 Parkplatzgebühren"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.5-2.6",
+"stichworte": [
+"Pauschale Velo Fr. 700",
+"75 Rappen pro km",
+"Kilometerpauschale Auto",
+"Parkplatzgebühren",
+"Park-and-Ride"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Pauschalen bei privatem Verkehrsmittel: Fr. 700.-- im Jahr für Fahrrad/Motorfahrrad/Kleinmotorrad, 75 Rappen je Fahrkilometer für Motorräder und Autos; Parkplatzgebühren bei Nachweis abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0008",
 "nachher": "sg-stb-39-3__c0010"
 },
 {
 "id": "sg-stb-39-3__c0010",
-"titel": "StB 39 Nr. 3 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 2.7 Anzahl Arbeitstage (220) und Homeoffice",
+"pfad": [
+"2. Regelung im Allgemeinen",
+"2.7 Anzahl Arbeitstage"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.7",
+"stichworte": [
+"220 Arbeitstage",
+"Homeoffice",
+"Teilzeit",
+"Jahresabo Homeoffice",
+"Kurzarbeit"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Berechnung mit 220 Arbeitstagen pro Jahr (Vollzeit); für Homeoffice-Tage und Tage ohne Arbeitsleistung keine Fahrkosten, Abo-Kosten müssen aber nicht um Homeoffice-Tage gekürzt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0009",
 "nachher": "sg-stb-39-3__c0011"
 },
 {
 "id": "sg-stb-39-3__c0011",
-"titel": "StB 39 Nr. 3 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 3 Begrenzung Fahrkostenabzug – Maximalabzüge 2016–2026 (SG Fr. 8'000, DBST Fr. 3'300)",
+"pfad": [
+"3. Begrenzung des Fahrkostenabzugs"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Maximalabzug Fahrkosten",
+"Fr. 8'000",
+"Fr. 3'300",
+"Direkte Bundessteuer Fahrkosten",
+"Pendlerabzug Limite",
+"Teilzeit nicht gekürzt"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Maximalabzug 2025 und 2026: Kanton/Gemeinde Fr. 8'000.--, direkte Bundessteuer Fr. 3'300.--; kein Pauschalbetrag, bei Teilzeit oder unterjähriger Steuerpflicht nicht gekürzt, bei Haupt- und Nebenerwerb insgesamt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0010",
 "nachher": "sg-stb-39-3__c0012"
 },
 {
 "id": "sg-stb-39-3__c0012",
-"titel": "StB 39 Nr. 3 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 4.1 Vom Arbeitgeber übernommene Fahrkosten – Aufrechnung Lohnausweis Ziff. 2.3 (Teil 1/2)",
+"pfad": [
+"4. Vom Arbeitgebenden übernommene Fahrkosten",
+"4.1 Im Allgemeinen"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1",
+"stichworte": [
+"GA vom Arbeitgeber",
+"Lohnausweis Feld F",
+"Lohnausweis Ziff. 2.3",
+"geldwerter Vorteil",
+"Formular 4"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Übersteigt die Kostenübernahme des Arbeitgebers die abzugsfähigen Fahrkosten, liegt steuerbares Einkommen vor; Entschädigung in Ziff. 2.3 Lohnausweis, kein Kreuz im Feld F, Abzug im Formular 4 bis zum Maximalbetrag.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0011",
 "nachher": "sg-stb-39-3__c0013"
 },
 {
 "id": "sg-stb-39-3__c0013",
-"titel": "StB 39 Nr. 3 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 4.1 Vom Arbeitgeber übernommene Fahrkosten – Aufrechnung Lohnausweis Ziff. 2.3 (Teil 2/2)",
+"pfad": [
+"4. Vom Arbeitgebenden übernommene Fahrkosten",
+"4.1 Im Allgemeinen"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.1",
+"stichworte": [
+"GA vom Arbeitgeber",
+"Lohnausweis Feld F",
+"Lohnausweis Ziff. 2.3",
+"geldwerter Vorteil",
+"Formular 4"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0012",
 "nachher": "sg-stb-39-3__c0014"
 },
 {
 "id": "sg-stb-39-3__c0014",
-"titel": "StB 39 Nr. 3 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 4.1 Beispiel 1 GA 2. Klasse vom Arbeitgeber (Fr. 1'970 geldwerter Vorteil)",
+"pfad": [
+"4. Vom Arbeitgebenden übernommene Fahrkosten",
+"4.1 Im Allgemeinen",
+"Beispiel 1"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1",
+"stichworte": [
+"Beispiel GA",
+"Generalabonnement Arbeitgeber",
+"Streckenabo",
+"geldwerter Vorteil"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Beispiel: GA 2. Klasse Fr. 3'995.-- im Bruttolohn, abzüglich Streckenabo Fr. 2'025.-- im Formular 4, ergibt steuerbaren geldwerten Vorteil Fr. 1'970.--.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0013",
 "nachher": "sg-stb-39-3__c0015"
 },
 {
 "id": "sg-stb-39-3__c0015",
-"titel": "StB 39 Nr. 3 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 4.2 / 4.2.1 Geschäftsfahrzeug – pauschale Fahrkostenberechnung (0,9% pro Monat, 10,8% pro Jahr) (Teil 1/2)",
+"pfad": [
+"4. Vom Arbeitgebenden übernommene Fahrkosten",
+"4.2 Geschäftsfahrzeuge",
+"4.2.1 Pauschale"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2.1",
+"stichworte": [
+"Geschäftswagen",
+"Privatanteil 0,9%",
+"10,8% pro Jahr",
+"mindestens Fr. 150 pro Monat",
+"Lohnausweis Ziff. 2.2",
+"Firmenauto"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Pauschal 0,9% des Kaufpreises (exkl. MWST, inkl. Sonderausstattung) pro Monat bzw. 10,8% pro Jahr, mindestens Fr. 150.-- pro Monat, in Ziff. 2.2 des Lohnausweises.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0014",
 "nachher": "sg-stb-39-3__c0016"
 },
 {
 "id": "sg-stb-39-3__c0016",
-"titel": "StB 39 Nr. 3 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 4.2 / 4.2.1 Geschäftsfahrzeug – pauschale Fahrkostenberechnung (0,9% pro Monat, 10,8% pro Jahr) (Teil 2/2)",
+"pfad": [
+"4. Vom Arbeitgebenden übernommene Fahrkosten",
+"4.2 Geschäftsfahrzeuge",
+"4.2.1 Pauschale"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.2.1",
+"stichworte": [
+"Geschäftswagen",
+"Privatanteil 0,9%",
+"10,8% pro Jahr",
+"mindestens Fr. 150 pro Monat",
+"Lohnausweis Ziff. 2.2",
+"Firmenauto"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0015",
 "nachher": "sg-stb-39-3__c0017"
 },
 {
 "id": "sg-stb-39-3__c0017",
-"titel": "StB 39 Nr. 3 – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 4.2.1 Leasingfahrzeuge und Wegfall des Fahrkostenabzugs bei Pauschale",
+"pfad": [
+"4. Vom Arbeitgebenden übernommene Fahrkosten",
+"4.2 Geschäftsfahrzeuge",
+"4.2.1 Pauschale"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2.1",
+"stichworte": [
+"Leasing Barkaufpreis",
+"Objektpreis",
+"Pauschale kein Fahrkostenabzug",
+"Art. 18a StV"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Bei Leasing gilt der Barkaufpreis (exkl. MWST); wird die Pauschale beansprucht, entfallen die Aufrechnung für den Arbeitsweg und der Fahrkostenabzug.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0016",
 "nachher": "sg-stb-39-3__c0018"
 },
 {
 "id": "sg-stb-39-3__c0018",
-"titel": "StB 39 Nr. 3 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 4.2.1 Beispiel 2 Geschäftsfahrzeug Fr. 50'000 (Privatanteil Fr. 5'400)",
+"pfad": [
+"4. Vom Arbeitgebenden übernommene Fahrkosten",
+"4.2 Geschäftsfahrzeuge",
+"Beispiel 2"
+],
 "seiten": [
 5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2.1",
+"stichworte": [
+"Beispiel Geschäftsfahrzeug",
+"Privatanteil Fr. 5'400",
+"Fahrtenheft"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Beispiel: Kaufpreis Fr. 50'000.-- x 10,8% = Fr. 5'400.-- im Lohnausweis Ziff. 2.2; damit ist auch der Fahrkostenabzug abgegolten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-3__c0017",
 "nachher": "sg-stb-39-3__c0019"
 },
 {
 "id": "sg-stb-39-3__c0019",
-"titel": "StB 39 Nr. 3 – Abschnitt 19",
-"pfad": [],
-"seiten": [
-5
+"titel": "Ziff. 4.2.2 Effektive Erfassung der Privatnutzung (Fr. --.75 pro km ab 2026)",
+"pfad": [
+"4. Vom Arbeitgebenden übernommene Fahrkosten",
+"4.2 Geschäftsfahrzeuge",
+"4.2.2 Effektive Erfassung"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-3__c0018",
-"nachher": "sg-stb-39-3__c0020"
-},
-{
-"id": "sg-stb-39-3__c0020",
-"titel": "StB 39 Nr. 3 – Abschnitt 20",
-"pfad": [],
 "seiten": [
-5
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-3__c0019",
-"nachher": "sg-stb-39-3__c0021"
-},
-{
-"id": "sg-stb-39-3__c0021",
-"titel": "StB 39 Nr. 3 – Abschnitt 21",
-"pfad": [],
-"seiten": [
-5
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-3__c0020",
-"nachher": "sg-stb-39-3__c0022"
-},
-{
-"id": "sg-stb-39-3__c0022",
-"titel": "StB 39 Nr. 3 – Abschnitt 22",
-"pfad": [],
-"seiten": [
-5
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-3__c0021",
-"nachher": "sg-stb-39-3__c0023"
-},
-{
-"id": "sg-stb-39-3__c0023",
-"titel": "StB 39 Nr. 3 – Abschnitt 23",
-"pfad": [],
-"seiten": [
+5,
 6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-3__c0022",
+"ziffer": "4.2.2",
+"stichworte": [
+"Fahrtenheft Bordbuch",
+"Privatnutzung 75 Rappen",
+"Kilometeransatz Fr. --.70",
+"Privatkilometer"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Mit Fahrtenheft: private Kilometer (inkl. Arbeitsweg) x Fr. --.75 ab Steuerperiode 2026 (Fr. --.70 für 2025), zusätzlich beschränkter Fahrkostenabzug möglich.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-stb-39-3__c0018",
 "nachher": null
 }
 ]

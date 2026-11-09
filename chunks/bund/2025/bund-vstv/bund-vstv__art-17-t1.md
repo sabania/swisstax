@@ -4,7 +4,7 @@ quelle: bund-vstv
 jur: bund
 jahre: [2025, 2026]
 typ: verordnung
-titel: "Art. 17 VStV (Teil 1/3)"
+titel: "Art. 17 VStV (Teil 1/2)"
 artikel: "Art. 17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---

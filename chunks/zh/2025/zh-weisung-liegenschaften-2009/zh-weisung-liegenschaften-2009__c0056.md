@@ -4,32 +4,24 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 56"
-seiten: "24"
+titel: "Anhang S. 25 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Hinwil"
+ziffer: "13"
+seiten: "25"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 24
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser · S. 25
 
-Rüti (ZH)   5   660   600   530   470   400   –   –
-Seegräben   4   780   660   550   430   –   –   –
-Wald (ZH)   3   510   420   320   –   –   –   –
-Wetzikon (ZH)   5   790   720   640   570   490   –   –
-Bezirk Horgen
-Adliswil   5   960   880   790   700   610   –   –
-Horgen
-– Hirzel   5   1020   920   820   720   620   –   –
- (ehemalige Gemeinde)
-– Horgen   5   1200   1070   940   810   670   –   –
- (ehemalige Gemeinde)
-Kilchberg (ZH)   5   1620   1450   1270   1090   910   –   –
-Langnau am Albis   5   810   750   680   620   550   –   –
-Oberrieden   5   1420   1280   1130   980   830   –   –
-Richterswil   5   1030   930   820   720   610   –   –
-Rüschlikon   3   1430   1250   1070   –   –   –   –
-Thalwil   5   1460   1310   1150   990   830   –   –
-Wädenswil
-– Hütten   5   850   760   670   580   480   –   –
- (ehemalige Gemeinde)
-– Schönenberg (ZH)   5   840   780   710   650   580   –   –
- (ehemalige Gemeinde)
-– Wädenswil   5   1110   1000   890   780   660   –   –
+Urdorf   5   610   560   500   440   380   –   –
+Weiningen (ZH)   3   610   500   390   –   –   –   –
+Bezirk Hinwil
+Bäretswil   3   370   290   210   –   –   –   –
+Bubikon   3   370   330   290   –   –   –   –
+Dürnten   5   340   310   280   250   210   –   –
+Fischenthal   2   240   190   –   –   –   –   –
+Gossau (ZH)   5   450   400   350   300   240   –   –
+Grüningen   5   450   410   360   310   260   –   –
+Hinwil   5   440   400   360   320   280   –   –
+Rüti (ZH)   5   400   360   320   280   240   –   –
+Seegräben   4   470   400   330   260   –   –   –
+Wald (ZH)   3   300   250   190   –   –   –   –
+Wetzikon (ZH)   5   480   440   390   340   290   –   –

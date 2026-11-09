@@ -4,7 +4,7 @@ quelle: zh-stg-2026
 jur: zh
 jahre: [2026]
 typ: gesetz
-titel: "§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 1/3)"
+titel: "§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 1/2)"
 artikel: "§ 35"
 seiten: "20-21"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}

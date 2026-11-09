@@ -4,20 +4,18 @@ quelle: bund-ks-vst-21
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 21 – Abschnitt 10"
-seiten: "2"
+titel: "Ziff. 5 / 5.1 Kontrollrechnungen und Schweizer Banken (60 Kalendertage) (Teil 2/3)"
+ziffer: "5-5.1"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 21 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS VST 21 · 5 Kontrollrechnungen › 5.1 Schweizer Banken · S. 3–4
 
-2   Begriffe
-2.1   Custody-Account
-Beim Custody-Account handelt es sich um ein Account, welches vom Accountholder selber
-bewirtschaftet wird, d.h. Käufe/Verkäufe werden nicht über die depotführende Bank abgewi-
-ckelt, sondern direkt getätigt und resultieren in Ein-/Auslieferungen der depotführenden
-Bank. In diesem Account können sowohl Eigenbestände und/oder Kundenbestände des Ac-
-countholders liegen. Die Erstellung der Dividendenabrechnungen für Kunden des Account-
-holders findet durch den Accountholder selbst statt.
-2.2   Cross-Ex-Compensation oder Market Claims
-Wird eine Aktie cum Dividende verkauft, so steht diese Dividende auch dann allein dem Käu-
-fer der Aktien zu, wenn die Lieferung nach dem Ex-Tag erfolgt.
+Ausgangspunkt für diese Kontrollrechnung bilden die auf dem jeweiligen Depot, dem jeweili-
+gen Valor sowie der einzelnen Fälligkeit gutgeschriebenen Erträge. Von diesen Erträgen sind
+nachträgliche Korrekturen, insbesondere Cross-Ex-Compensations (vgl. Ziff. 2.2 Abs. 2), in
+Abzug zu bringen bzw. hinzuzurechnen. Dabei sind Korrekturen bis und mit 60 Kalenderta-
+gen nach dem Ex-Tag zu berücksichtigen.
+
+Ergibt diese Kontrollrechnung ein negatives Ergebnis, so liegt ein Short-Bestand auf diesem
+Depot vor und es gelangt die unter Ziffer 3.1. beschriebene Praxis zur Anwendung.

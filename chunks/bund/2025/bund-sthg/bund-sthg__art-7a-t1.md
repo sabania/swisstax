@@ -4,7 +4,7 @@ quelle: bund-sthg
 jur: bund
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 7a StHG – Besondere Fälle (Teil 1/3)"
+titel: "Art. 7a StHG – Besondere Fälle (Teil 1/2)"
 artikel: "Art. 7a"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
 ---

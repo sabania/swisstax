@@ -4,29 +4,19 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 94"
-seiten: "23"
+titel: "Ziff. 6.7 Ausscheidungsregeln – 20 Arbeitstage pro Monat, 240 pro Jahr"
+ziffer: "6.7"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.7 Ausscheidung ausländischer Arbeitstage · S. 30
 
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    M. AG (CH)   50 %   4 500   8 100
-
-    T. AG (CH)   40 %   4 400   9 900
-
-    4. Zwei Arbeitsverhältnisse in der Schweiz (1 Arbeitspensum 70 % plus Bonus sowie 1 Arbeitspensum
-    30 %):
-    Arbeitnehmer Z. ist bei der G. AG, Bern, zu 70 % plus Bonus und bei der H. AG, Thun, zu 30 % angestellt
-    und erzielt folgende Lohneinkommen:
-
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    G. AG (CH)   70 %   4 550   6 500
-
-    G. AG (CH)   Bonus   2 000   2 000
-
-    G. AG (CH)   6 550   8 500
-
-    H. AG (CH)   30 %   1 200   4 000
+Auszuscheiden sind nur diejenigen Arbeitstage, an welchen die Tätigkeit tatsächlich aus-
+serhalb der Schweiz ausgeübt wurde. Bezahlte Abwesenheitstage, an welchen keine Ar-
+beitsleistung zu erbringen ist (insb. Ferientage, Krankheitstage), unterliegen nicht der Steuer-
+ausscheidung. Die für die Quellenbesteuerung massgebenden schweizerischen Arbeitstage
+sind dabei in der Regel durch Subtraktion der ausländischen Arbeitstage vom Total von 20
+Arbeitstagen pro Monat bzw. vom Total von 240 Arbeitstagen pro Jahr zu ermitteln. Als aus-
+ländischer Arbeitstag gilt dabei jeder Arbeitstag ausserhalb der Schweiz sowie alle Hin- und
+Rückreisetage, an denen der Arbeitnehmer ausschliesslich oder zur Hauptsache im Ausland
+gearbeitet hat.

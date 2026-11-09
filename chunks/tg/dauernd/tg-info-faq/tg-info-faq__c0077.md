@@ -9,20 +9,13 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
 
-## Steuerbezug
+    - [StP 189 Nr. 1 "Ausgleichszinsen"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-189-nr-1-ausgleichszinsen&version=latest)
 
-Ausgleichszinsen
+Direkte Bundessteuer: Fälligkeit
 :   ### Frage:
 
-    Was genau sind Ausgleichszinsen und wieso werden diese berechnet?
+    Wann ist die direkte Bundessteuer fällig?
 
     ### Antwort:
 
-    Ausgleichszinsen sind keine Verzugszinsen. Den Ausgleichszinsen kommt eine wichtige Funktion im Hinblick auf eine Gleichbehandlung aller steuerpflichtigen Personen bei Festsetzung und Bezug der Steuern zu. Damit wird die Rechtsgleichheit aller steuerpflichtigen Personen auch bei Verzögerungen der Steuerfestsetzung und des Steuerbezugs sichergestellt.
-
-    Mit der Steuerschlussrechnung werden Ausgleichszinsen berechnet:
-
-    - zu Gunsten der steuerpflichtigen Person auf allen Zahlungen die sie aufgrund einer provisorischen Steuerrechnung bis zur Schlussrechnung geleistet haben.
-    - zu Lasten der steuerpflichtigen Person auf dem veranlagten Steuerbetrag ab dem Verfalltag der Steuerperiode (31.08.) bis zum Datum der Schlussrechnung.
-
-     Detaillierte Ausführungen zu den Ausgleichszinsen finden Sie in der Thurgauer Steuerpraxis in Weisung:
+    Bei ganzjähriger Steuerpflicht gilt der 1. März des auf die Steuerperiode folgenden Kalenderjahres als Fälligkeitstermin. Die Zahlungsfrist beträgt 30 Tage ab diesem Datum. Für nicht fristgerechte Zahlungen wird ein Verzugszins berechnet.

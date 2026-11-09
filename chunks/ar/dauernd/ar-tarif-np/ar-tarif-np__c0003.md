@@ -4,11 +4,12 @@ quelle: ar-tarif-np
 jur: ar
 jahre: [2025, 2026]
 typ: tarif
-titel: "Tarif NP AR ab 2024 – Abschnitt 3"
+titel: "Einkommenssteuertarif 2024 (Art. 39 StG) – Verheirateten- und Alleinstehendentarif (Teil 3/3)"
+ziffer: "1"
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: tarif}}
 ---
-> AR · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · S. 1
+> AR · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · 1. Einkommenssteuer · S. 1
 
    6   1,90 Prozent für die weiteren   15'600   6   2,20 Prozent für die weiteren   14'600
    7   2,20 Prozent für die weiteren   15'600   7   2,40 Prozent für die weiteren   12'500
@@ -21,3 +22,5 @@ qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: tarif}}
  2. Restbeträge von weniger als Fr. 100.– fallen bei der Festsetzung des steuerbaren Einkommens ausser
     Betracht.
  3. Der Tarif wird nach den Verhältnissen am Ende der Steuerperiode oder der Steuerpflicht festgelegt.
+
+*) Anpassung des Steuertarifs gemäss Art. 39a Ausgleich der Folgen der kalten Progression per 01.01.2024

@@ -4,17 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 24"
-seiten: "6"
+titel: "Ziff. 3.2.1 Steuerbare Einkünfte aus Arbeitsverhältnis – Bruttoeinkünfte (Teil 1/2)"
+ziffer: "3.2.1"
+seiten: "9-10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.2 Steuerbare Leistungen · S. 9–10
 
-<!-- Seite 6 -->
-Ersatzeinkünfte. Voraussetzung ist, dass der Schuldner der steuerbaren Leistung den Wohn-
-sitz, den Sitz, die tatsächliche Verwaltung, eine Betriebsstätte oder eine feste Einrichtung in
-der Schweiz hat. Darunter sind auch Fälle von wirtschaftlicher Arbeitgeberschaft mit Sitz o-
-der Betriebsstätte in der Schweiz (bspw. Personalverleih aus dem Ausland [vgl. Ziffer 2.2.2
-unten] sowie faktische Arbeitgeberschaft [vgl. Ziffer 2.2.3 unten]) zu verstehen. Mangelt es
-an einem Schuldner der steuerbaren Leistung in der Schweiz, besteht keine Quellensteuer-
-pflicht.
+3.2   Steuerbare Leistungen
+3.2.1 Der Quellensteuer unterliegende Einkünfte aus Arbeitsverhältnis
+Die Quellensteuer wird von den Bruttoeinkünften berechnet (Art. 84 Abs. 1 DBG).
+Steuerbar sind alle dem Arbeitnehmer oder einer Drittperson im Zusammenhang mit dem Ar-
+beitsverhältnis ausgerichteten oder gutgeschriebenen Entschädigungen, insbesondere (vgl.
+Art. 84 Abs. 2 Bst. a DBG):
+     Der ordentliche Arbeitslohn (Monatslohn, Stunden- oder Taglohn, Akkordentschädigun-
+    gen);
+     Entschädigungen für Sonderleistungen (Lohn für Überzeit-, Nacht- oder Extraarbeiten,
+    Arbeitsprämien);
+     sämtliche Lohnzulagen (Familienzulagen, Essens-, Orts- und Teuerungszulagen, Feri-
+    enentschädigungen etc.);
+     Provisionen, Gratifikationen und Bonuszahlungen;
+     Dienstalters- und Jubiläumsgeschenke;

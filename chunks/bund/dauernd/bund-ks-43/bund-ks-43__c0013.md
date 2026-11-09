@@ -4,25 +4,23 @@ quelle: bund-ks-43
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 43 – Abschnitt 13"
+titel: "Anhang Beispiel 2 – Förderbeitrag Sport CHF 5'000 mit Gegenleistung"
+ziffer: "Beispiel 2"
 seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 43 · Anhang: Beispiele · S. 5
 
-<!-- Seite 5 -->
-Anhang: Beispiele
-
-Beispiel 1: Besteuerung eines Stipendiums
-Sachverhalt: Der Student A erhält für sein Studium ein Stipendium des Kantons B in der Höhe
-von monatlich CHF 1’500.– ohne dafür eine Gegenleistung erbringen zu müssen. Er stammt
-aus bescheidenen wirtschaftlichen Verhältnissen und verfügt selbst weder über Einkommen
-noch Vermögen.
-Sachverhalt Variante: Der Kanton B gewährt dem Studenten A ein Stipendium in der Höhe
-von monatlich CHF 3’000.–.
-Frage: Wie ist das Stipendium durch den Studenten A zu versteuern?
-Lösung: Beim vorliegenden Stipendium handelt es sich um eine unentgeltliche Zuwendung mit
-Unterstützungsabsicht. Das Vorliegen einer Bedürftigkeit ist dann anzunehmen, wenn die Höhe
-des Einkommens unter dem nach den Artikeln 9 und 11 ELG berechneten Existenzminimum
-liegt (vgl. Ziff. 3 des Kreisschreibens, Ausführungen zur Bedürftigkeit). Unter der Annahme,
-dass das Existenzminimum beim Studenten A bei monatlich CHF 2’200.– liegt, ist er auf das
+Beispiel 2: Besteuerung eines Förderbeitrages im Sportbereich
+Sachverhalt: Die junge Nachwuchsathletin B erhält von der Stiftung X im Jahr 2018 einen För-
+derbeitrag von CHF 5’000.– für die nächsten vier Jahre. Die Höhe des Beitrags hängt zu zwei
+Dritteln vom finanziellen Bedarf der Athletin und zu einem Drittel von anderen Bedingungen ab,
+wie beispielsweise der Verpflichtung, sich persönlich für die Stiftung X zu engagieren. Die Zu-
+sammenarbeit zwischen der Athletin und der Stiftung ist in einer schriftlichen Vereinbarung ge-
+regelt.
+Frage: Wie ist der Förderbeitrag durch die Nachwuchsathletin B zu versteuern?
+Lösung: Der Förderbeitrag der Stiftung X stellt steuerbares Einkommen im Sinne von Artikel 16
+Absatz 1 DBG dar. Dies deshalb, weil die Leistung nur teilweise von den finanziellen Bedürfnis-
+sen der Nachwuchsathletin B abhängt und die Stiftung X von ihr dafür eine Gegenleistung ge-
+mäss Vereinbarung über die Zusammenarbeit verlangt (vgl. Ziff. 3 des Kreisschreibens, Ausfüh-
+rungen zur Unentgeltlichkeit).

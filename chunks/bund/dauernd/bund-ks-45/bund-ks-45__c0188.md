@@ -4,19 +4,23 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 188"
-seiten: "50"
+titel: "Ziff. 9.2 Beispiele Personalverleih – Meldung von Ein- und Austritten (Teil 1/3)"
+ziffer: "9.2"
+seiten: "59"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 50
+> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.2 Anmeldung und Mutationen · S. 59
 
-<!-- Seite 50 -->
     Beispiele:
-    1. Arbeitnehmer Z. ist internationaler Wochenaufenthalter in der Schweiz. Sein Arbeitgeber hat den Sitz in
-    Zürich. Z. übt seine Tätigkeit an seinem fixen Arbeitsplatz in Zürich aus. Während des Monats September
-    hat er ausnahmsweise an fünf Tagen in Österreich gearbeitet. Zusätzlich hat er 10 Ferientage bezogen,
-    welche er in Italien verbracht hat. Z. erhält im Monat September einen Bruttolohn von CHF 8‘000.
-    Die für die Ausscheidung massgebenden schweizerischen Arbeitstage ergeben sich aus der Subtraktion
-    von fünf ausländischen Arbeitstagen vom Total von 20 Arbeitstagen pro Monat. Davon ausgehend ist das
-    steuerbare Einkommen wie folgt zu berechnen bzw. das satzbestimmende Einkommen wie folgt festzule-
-    gen:
+    - Der Personalverleiher Y. AG verleiht den Arbeitnehmer B. an verschiedene Entleiher (= Einsatzbetriebe).
+    Im Monat Mai 2022 hat B. Einsätze in zwei verschiedenen Betrieben. Im Betrieb M vom 1. Mai 2022 – 12.
+    Mai 2022 und im Betrieb P. vom 15. Mai 2022 – 25. Mai 2022. Der Personalverleiher (= Arbeitgeber) mel-
+    det der kantonalen Steuerbehörde den Eintritt per 1. Mai 2022 und den Austritt per 25. Mai 2022.
+    - Nachfolgend weitere Fallvarianten, wie in einer Quellensteuerabrechnung (vorliegend für den Monat Sep-
+    tember 2021) Ein- und Austritte zu melden sind:
+    1. Fortdauernder Personalverleih ab 13.09.2021: Eintritt aber noch kein Austritt in September-Abrech-
+    nung
+    2. Einmaliger Personalverleih vom 13.09.2021 bis 17.09.2021: Eintritt und Austritt in September-Abrech-
+    nung
+    3. Einmaliger Personalverleih vom 22.08.2021 bis 17.09.2021: Kein Eintritt, aber Austritt in September-
+    Abrechnung

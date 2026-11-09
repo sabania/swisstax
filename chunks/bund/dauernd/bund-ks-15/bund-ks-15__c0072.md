@@ -4,23 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 3 Mitteilungspflicht Emittent, Veranlagung nach Ermessen"
-ziffer: "Anh. III 3"
-seiten: "21-22"
+titel: "Anhang III Ziff. 4a Low Exercise Price Options (LEPO) (Teil 1/2)"
+ziffer: "Anh. III 4a"
+seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 3 Zertifikate auf kollektive Kapitalanlagen · S. 21–22
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 22
 
-Sofern der in- oder ausländische Emittent oder Vertreiber solcher Index- und Basketzertifi-
-kate der ESTV alljährlich die aggregierten Vermögenserträge und Kapitalgewinne bzw. – ver-
-luste mitteilt und die entsprechenden Jahresrechnungen einreicht, damit die ESTV die Unter-
-scheidung zwischen Vermögenserträgen und Kapitalgewinnen überprüfen und die Betreff-
-nisse in der Kursliste publizieren kann, unterliegen einzig die Vermögenserträge der direkten
-Bundessteuer. Andernfalls erfolgt eine Veranlagung nach Ermessen.
-
-
-1-015-DVS-2017-d / Anhang III
-
-Dies bedeutet, dass der Veranlagung eine marktgerechte Rendite (unter Berücksichtigung
-der Anlageklassen, in welche das Zertifikatsvermögen angelegt ist) auf dem Nettoanlagever-
-mögen (NAV, Net Asset Value) per Abschlussdatum zugrunde gelegt wird.
+4   Low Exercise Price Options (LEPO) und Mini-Futures auf Aktien,
+    Edelmetalle und Rohstoffe
+a)   Low Exercise Price Options (LEPO)
+LEPO sind Call-Optionen auf Aktien mit Ausübungspreis sehr nahe bei null. Sie werden des-
+halb auch als atypische, weil im Voraus finanzierte Termingeschäfte aufgefasst (vgl. Kreis-
+schreiben Nr. 15, Ziffer 2.2.3.). Gemäss Praxis der ESTV liegt ein LEPO dann vor, wenn der
+Basiswert im Emissionszeitpunkt zu mindestens 50 Prozent im Voraus finanziert wird, d.h.
+wenn im Zeitpunkt der Emission des LEPO der Ausübungspreis weniger als 50 % des Werts
+des Basiswerts beträgt. LEPO werden auf Diskontbasis emittiert und sehen während ihrer
+Laufzeit keine Zahlungen an den Investor vor. Bei Verfall der LEPO kommt es in der Regel
+zur physischen Lieferung des Basiswertes.

@@ -4,21 +4,18 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 12"
-seiten: "3"
+titel: "Ziff. 3.2 Ordentlicher Tarif und kein Abzug vom steuerbaren Betrag"
+ziffer: "3.2"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.2 Weltweiter Aufwand · S. 4
 
-2.5   Beginn des Rechts auf Aufwandbesteuerung
-Das Recht auf die Besteuerung nach dem Aufwand entsteht – sofern die obgenannten Voraus-
-setzungen dafür erfüllt sind – bei Beginn der Steuerpflicht. Das gilt sowohl für Personen, die in
-der Schweiz Wohnsitz begründen, als auch für solche, die hier Aufenthalt nehmen (vgl. Art. 8
-DBG). Die der Steuerperiode vorangehende Aufenthaltsdauer zählt bei der Berechnung dieser
-Frist mit. Auch wird ein Aufenthalt an verschiedenen Orten zusammengerechnet, und ein vo-
-rübergehendes Verlassen des Landes wird nicht als Unterbrechung des Aufenthalts gewertet
-(vgl. Art. 3 Abs. 3 DBG).
-Wer nach einer Besteuerung nach dem Aufwand auf diese Besteuerungsart verzichtet und or-
-dentlich besteuert wird, kann in der Regel nicht wieder nach dem Aufwand besteuert werden.
-
-3 Objektive Voraussetzungen für die Aufwandbesteuerung
+Der so ermittelte weltweite Aufwand entspricht dem Betrag, der nach dem ordentlichen Tarif be-
+steuert wird, wenn er nicht niedriger ist als einer der in Artikel 14 Absatz 3 Buchstaben a-d DBG
+genannten Beträge.
+Für jede Steuerperiode ist der steuerbare Betrag zu ermitteln. Vom steuerbaren Betrag (Kosten
+der Lebenshaltung oder Mehrfaches des Mietzinses bzw. Mietwerts oder Pensionspreises) kön-
+nen keine Abzüge gemacht werden. Der auf diese Weise ermittelte Betrag gilt unter dem Vorbe-
+halt, dass die Kontrollrechnung, wie sie in der folgenden Ziffer dargestellt wird, nicht zu einem
+höheren Steuerbetrag führt, als Bemessungsgrundlage.

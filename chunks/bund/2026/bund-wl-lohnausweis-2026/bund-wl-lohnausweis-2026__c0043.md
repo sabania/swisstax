@@ -4,22 +4,27 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 43"
-seiten: "14"
+titel: "Rz 53–54 Ziffer 13.1.1/13.1.2 Effektive Reise- und übrige Spesen, Homeoffice (Teil 1/2)"
+ziffer: "13.1.1–13.1.2 / 53–54"
+seiten: "16-17"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 14
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13.1.1/13.1.2 · S. 16–17
 
-In diesem Feld sind die im Bruttolohn enthaltenen, dem Arbeitnehmer vom Lohn abgezoge   45
-nen Beiträge an Vorsorgeeinrichtungen (2. Säule) anzugeben, die der Verbesserung des
-Vorsorgeschutzes bis (höchstens) zu den vollen reglementarischen Leistungen dienen.
-Es sind dies vor allem:
-•   Beiträge für den Einkauf von fehlenden Versicherungsjahren oder von fehlendem Spar-
-    bzw. Deckungskapital;
-•   Beiträge für den Einkauf, der durch eine Änderung des Reglements oder des Vorsorge
-    plans bedingt ist;
-•   Beiträge für den Wiedereinkauf nach einer Scheidung.
-Zusätzlich sind die vom Arbeitgeber übernommenen Arbeitnehmerbeiträge anzugeben, so
-fern sie in Ziffer 7 des Lohnausweises aufgeführt sind (vgl. Rz 36).
+Effektive Reise-, Verpflegungs- und Übernachtungsspesen   Ziffer 13.1.1
 
-    ESTV   Seite 14 / 25
+Sind die Vorgaben gemäss Rz 52 nicht erfüllt (kein Kreuz im vorangestellten Feld) oder liegt   53
+kein genehmigtes Spesenreglement vor, sind die Reise-, Verpflegungs- und Übernachtungs
+spesen, die effektiv, d. h. gegen Beleg, vergütet worden sind, betragsmässig anzugeben.
+Als solche Spesen fallen insbesondere in Betracht
+•   Effektive Autospesen;
+•   Flug-, Taxi- und Bahnspesen;
+•   Spesen für Übernachtungen, Frühstück, Mittag und Abendessen;
+•   Spesen für Einladungen von Geschäftspartnern ins Restaurant oder zu Hause;
+•   Spesen für kleinere Verpflegungsauslagen unterwegs.
+
+    ESTV   Seite 16 / 25
+
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+
+Übrige effektive Spesen   Ziffer 13.1.2

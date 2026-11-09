@@ -4,13 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 100"
-seiten: "25"
+titel: "Ziff. 6.9 Leistungen mit Rechtsanspruch erst nach Beendigung (Bonus, Abgangsentschädigung)"
+ziffer: "6.9"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.9 Leistungen bei/nach Beendigung · S. 32
 
-Ist der Arbeitnehmer mit dem bei ihm vorgenommenen Quellensteuerabzug nicht einverstan-
-den, kann er bei der zuständigen Steuerbehörde bis zum 31. März des auf die Fälligkeit der
-Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträg-
-liche ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten).
+Bei Leistungen, auf die der Rechtsanspruch erst nach Beendigung des Arbeitsverhältnisses
+entstanden ist (bspw. nachträglich von der Geschäftsleitung beschlossene Bonuszahlungen
+bzw. Abgangsentschädigungen oder nachträglich durchgesetzte Lohnforderungen), muss
+der Quellensteuerabzug separat berechnet werden. Massgebend für die Bestimmung des
+anwendbaren Tarifcodes sind die Verhältnisse im Zeitpunkt der Auszahlung dieser Leistung.
+Für die Ermittlung des satzbestimmenden Einkommens sind alle vom Arbeitnehmer im sel-
+ben Monat – im Ausland wie auch in der Schweiz – erzielten Erwerbseinkünfte (inkl. Ersatz-
+einkünfte) beizuziehen. Sind dem Arbeitgeber diese zusätzlichen Einkünfte nicht bekannt, so
+kann er zur Satzbestimmung den letzten von ihm ausbezahlten und der Quellenbesteuerung
+unterworfenen Bruttomonatslohn berücksichtigen. Allfällige Beschränkungen durch DBA sind
+zu beachten (vgl. Ziffer 6.7 oben).

@@ -4,22 +4,19 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 163"
-seiten: "43"
+titel: "Ziff. 7.5.3 Nachträgliche Ansprüche und Satzbestimmung nach Beendigung (Teil 2/2)"
+ziffer: "7.5.3"
+seiten: "51"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 43
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.3 Leistungen bei/nach Beendigung · S. 51
 
-<!-- Seite 43 -->
-7.3.3 Erwerbstätigkeiten im Stunden- oder Tageslohn
-Ist ein quellensteuerpflichtiger Arbeitnehmer im Stunden- oder Tageslohn angestellt und wird
-ihm der Lohn nicht in Form einer monatlichen Zahlung ausgerichtet (bspw. wöchentliche
-Lohnzahlung, unregelmässige Zahlungen gemäss eingereichten Stundenabrechnungen), ist
-immer ein satzbestimmendes Jahreseinkommen zu ermitteln und zwar bei Anstellungen im
-Stundenlohn durch Umrechnung auf 2‘160 Stunden (12 x 180 Stunden) oder bei Anstellun-
-gen im Tageslohn durch Umrechnung auf 260 Tage (12 x 21.667 Tage). Umzurechnen ist
-dabei ausschliesslich der vereinbarte, aktuelle Stunden- oder Tageslohn (inkl. Ferien- und
-Feiertagsentschädigungen sowie weitere Entschädigungen, die auf Stunden- oder Tagesba-
-sis ausgerichtet werden). Daneben sind einzig noch Kapitalabfindungen für in der Regel wie-
-derkehrende Leistungen – und zwar ohne Umrechnung – in das satzbestimmende Lohnein-
-kommen einzurechnen.
+ausgerichtet, entspricht das satzbestimmende Einkommen:
+     dem bis zum Ende des Arbeitsverhältnisses erzielten Bruttoeinkommen, das auf einen
+    Jahreslohn umzurechnen ist, wenn die Tätigkeit weniger als ein Jahr ausgeübt wurde;
+     abzüglich allfälliger aperiodischer Leistungen;
+     erhöht um die betreffende Leistung bei oder nach Beendigung des Arbeitsverhältnis-
+    ses.
+Wird die Leistung dagegen erst im Folgejahr ausbezahlt, so ist das letzte Jahreseinkommen,
+welches der Quellenbesteuerung zu Grunde gelegt wurde, entsprechend für die Satzbestim-
+mung beizuziehen.

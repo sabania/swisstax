@@ -9,15 +9,18 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
 
-    Für die Zeit von Januar bis September (Todestag) haben Sie somit eine Steuererklärung auszufüllen, welche sowohl Ihr als auch das Einkommen und Vermögen Ihrer Frau aufführt.
+    Die nach dem Tod der Erblasserin/des Erblassers fälligen Zinsen sind nicht in deren/dessen Steuererklärung, sondern in der Steuererklärung der Erbinnen und Erben (anteilsmässig nach Erbquote) zu deklarieren.
 
-    Für die Zeit bis zum Jahresende ist eine zweite Steuererklärung auszufüllen, welches das in dieser Zeit von Ihnen erzielte Einkommen und das Vermögen am Jahresende enthält.
-
-Tod: Deklaration Zinserträge, Dividenden und Schuldzinsen
+Wohnsitzverlegung
 :   ### Frage:
 
-    Muss ich beim Ausfüllen der Steuererklärung einer verstorbenen Person Rata- und Marchzinsen berechnen (etwa bei Sparkontozinsen oder Schuldzinsen).
+    Ich werde am 1.5.2026 meinen Wohnsitz von Frauenfeld nach Winterthur verlegen. Ab wann werde ich in Winterthur steuerpflichtig sein?
 
     ### Antwort:
 
-    Deklarieren Sie die Höhe des Vermögens zum Zeitpunkt des Todesfalls. Einkünfte und Abzüge sind nach dem Fälligkeitsprinzip zu erfassen. Bei den Wertschriften- und Guthaben sowie bei den Schulden sind somit nur in der Zeit vom 1.1. bis zum Todesdatum fällige Zinserträge, Dividenden und Schuldzinsen zu erfassen (keine March- und Ratazinsen).
+    Bei Wohnsitzverlegung in einen anderen Kanton oder in eine andere Thurgauer Gemeinde ist der Wohnsitz am Ende der Steuerperiode massgebend für die Steuerpflicht. Die Steuerpflicht in Winterthur beginnt somit rückwirkend am 1. Januar 2026.
+
+    Weitere Informationen zur Wohnsitzverlegung finden Sie unter:
+
+    - [Wegzug/Beendigung Steuerpflicht](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/wegzug-beendigung-steuerpflicht.html/3515)
+    - [Zuzug/Beginn Steuerpflicht](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/zuzug-beginn-steuerpflicht.html/3514)

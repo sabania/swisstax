@@ -4,25 +4,24 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 33"
-seiten: "7"
+titel: "Ziff. 5.5 Sitzverlegung oder Expatriierung von KKA"
+ziffer: "5.5"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 25 · 5 Spezialfragen › 5.5 · S. 10
 
-Wird eine kollektive Kapitalanlage liquidiert, unterliegt bei Anlagen im Geschäftsvermögen
-die positive Differenz zwischen dem Liquidationserlös und dem steuerlich massgebenden
-Buchwert (Einkommens- bzw. Gewinnsteuerwert) der Einkommens- oder der Gewinnsteuer.
-Allfällige negative Differenzen stellen im Geschäftsvermögen abzugsfähigen Kapitalverlust
-dar.
+5.5   Sitzverlegung oder Expatriierung von kollektiven Kapitalanlagen
+Die Sitzverlegung hat im Unterschied zur Verrechnungssteuer keine direktsteuerlichen Fol-
+gen, da diese nicht als Liquidation zu betrachten ist. Aufgrund der Treuhandlösung verbleibt
+das „Treugut“ nämlich weiterhin im Privat- oder Geschäftsvermögen der Anlegerinnen und
+Anleger.
 
-4.4   Rückerstattung der Verrechnungssteuer
-Gemäss Artikel 4 Absatz 1 Buchstabe c des Bundesgesetzes über die Verrechnungssteuer
-(VStG)5 unterliegen die Zinsen, Gewinnanteile und sonstigen Erträge des von einem Inländer
-oder von einem Ausländer in Verbindung mit einem Inländer ausgegebenen Anteile an einer
-kollektiven Kapitalanlage gemäss KAG der Verrechnungssteuer.
+Zwecks Rückforderung der Verrechnungssteuer müssen Anlegerinnen und Anleger, welche
+die Anteile im Privatvermögen halten, den Liquidationserlös (Nettoertrag inkl. eines allfälligen
+Gewinnvortrages) deklarieren, können ihn jedoch mittels Deklaration eines entsprechenden
+Minusertrags wieder neutralisieren.
 
-Anlegerinnen und Anleger haben Anspruch auf Rückerstattung der Verrechnungssteuer,
-wenn sie bei Fälligkeit der steuerbaren Leistung rückerstattungsberechtigt sind.
-
-5 SR 642.21
+Handelt es sich bei den Anlegern um juristische Personen, Geschäftsbetriebe und derglei-
+chen und befinden sich die Anteile im Geschäftsvermögen, muss die Verrechnungssteuer
+aufgrund der Verbuchungsvorschriften nach Artikel 25 VStG verbucht werden.

@@ -4,27 +4,26 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 15.3 Rechtsmittel und andere Eingaben"
-ziffer: "15.3"
-seiten: "41"
+titel: "Ziff. 16.1 Steuerstrafrecht – Verletzung von Verfahrenspflichten"
+ziffer: "16.1"
+seiten: "42"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.3 Rechtsmittel · S. 41
+> Bund · Steuerjahr 2025/2026 · KS 30 · 16 Steuerstrafrecht der Ehegatten › 16.1 · S. 42
 
-15.3   Rechtsmittel und andere Eingaben
+16   Steuerstrafrecht der Ehegatten
 
-Rechtsmittel und andere Eingaben gelten als rechtzeitig eingereicht, wenn bloss einer der
-beiden Ehegatten innert Frist gehandelt hat (Art. 113 Abs. 3 DBG). Eine Aufforderung zur
-Doppelunterschrift ist hier im Gegensatz zur Steuererklärung nicht nötig. Das DBG geht so-
-mit im Falle der Unterzeichnung der betreffenden Eingabe durch einen Ehegatten allein stets
-von der stillschweigenden Ermächtigung zur Vertretung aus. Jeder Ehegatte kann im
-Rechtsmittelverfahren selbständig rechtswirksam vorgehen, was sich gleichzeitig zugunsten
-des untätig gebliebenen Ehepartners auswirkt. Diesem bleibt es unbenommen, gegen einen
-späteren Entscheid der zuständigen Instanz ein Rechtmittel einzulegen.
 
-Da das Steuerverfahren unter dem Offizialprinzip steht, hat die Behörde alle rechtzeitigen
-Vorkehren der Steuerpflichtigen zu berücksichtigen. Das gilt auch dann, wenn beide Ehegat-
-ten unabhängig voneinander eine form- und fristgerechte Eingabe eingereicht haben (z.B.
-getrennte Einlegung von Rechtsmitteln mit unterschiedlichen Anträgen und abweichenden
-Begründungen). Bei sich widersprechenden Handlungen der Ehegatten haben die Behörden
-alle rechtzeitigen Vorkehren in ihre Erwägungen miteinzubeziehen und zu würdigen.
+16.1   Verletzung von Verfahrenspflichten
+
+Ehegatten machen sich wie die übrigen Steuerpflichten strafbar, wenn sie die ihnen auferleg-
+ten steuerlichen Verfahrenspflichten trotz Mahnung schuldhaft nicht nachkommen (Art. 174
+DBG). Wegen Verletzung von Verfahrenspflichten macht sich jeder Ehegatte nur nach sei-
+nem persönlichen Verschulden strafbar. Die Ehegemeinschaft als solche kann nicht gebüsst
+werden. Haben beide Ehegatten pflichtwidrig die Mitwirkung verweigert (z.B. Steuererklärung
+nicht eingereicht) oder sich im Verfahren gemeinsam rechtswidrig verhalten, muss grund-
+sätzlich gegen jeden Ehegatten separat eine Steuerbusse ausgesprochen werden, in wel-
+cher das individuelle Verschulden berücksichtigt wird. Wird aber gezielt die Auskunft oder
+Mitwirkung hinsichtlich der Einkommensbestandteile oder sonstiger steuerlich relevanter
+Umstände verweigert, die nur einen der beiden Ehegatten betreffen, ist auch nur dieser Ehe-
+gatte zu büssen.

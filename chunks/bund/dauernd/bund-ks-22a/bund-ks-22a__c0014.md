@@ -4,18 +4,24 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 14"
-seiten: "4"
+titel: "Ziff. 3.2 Abgrenzung private und geschäftliche Schuldzinsen"
+ziffer: "3.2"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.2 · S. 5
 
-Bei der Festsetzung des steuerbaren Einkommens entspricht der maximal zulässige Schuld-
-zinsenabzug den steuerbaren Erträgen aus Privatvermögen zuzüglich eines Grundbetrages
-von 50‘000 Franken. Dieser Grundbetrag gilt sowohl für verheiratete Personen, die in recht
-lich und tatsächlich ungetrennter Ehe leben, eingetragene Partnerinnen oder Partner und
-Kinder unter elterlicher Sorge gesamthaft (Art. 9 DBG) als auch für die übrigen Steuerpflich
-tigen.
+3.2.   Abgrenzung zwischen privaten und geschäftlichen Schuldzinsen
 
-Schuldzinsen können auch ohne Erträge aus beweglichem oder unbeweglichem Vermögen
-bis zum Betrag von 50‘000 Franken in Abzug gebracht werden.
+Die Abgrenzung zwischen privaten und geschäftlichen Schuldzinsen erfolgt aufgrund der
+vom Steuerpflichtigen nachgewiesenen Verwendung der fremden Mittel. Fehlt der Nachweis
+der Mittelverwendung, erfolgt die Abgrenzung zwischen privaten und geschäftlichen Schuld
+zinsen nach dem Verhältnis der Aktiven (proportionale Aufteilung nach Verkehrswerten; sie
+he Beispiel Nr. 4 im Anhang).
+
+Bei selbständiger Erwerbstätigkeit wird auf den Geschäftsabschluss abgestellt. Als Ge
+schäftsschulden verbuchte Verbindlichkeiten, die für private Zwecke verwendet wurden, sind
+jedoch dem Privatvermögen zuzuordnen.
+
+Schulden und Schuldzinsen auf Beteiligungen, die zum Geschäftsvermögen erklärt wurden
+(Art. 18 Abs. 2 DBG), sind anhand der Kaufpreisfinanzierung nachzuweisen.

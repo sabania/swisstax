@@ -1,0 +1,816 @@
+jur: tg
+jahr: 2026
+jahre_hinweis: 'Quellen 2026: WL TG 2026 (tg-wl-2026), StG/StV/BKV/VAKP (Fassungen mit jahre 2025+2026), StP (dauernd). Die Tabellen in StP 34 Nr. 27 und StP 36 Nr. 1 enthalten nur Spalten bis 2025 bzw.
+  ''ab 2020/ab 2025''; fuer 2026 gilt, wo vorhanden, die WL 2026 bzw. das Gesetz (Betraege 2026 = 2025 unveraendert). Bund-Werte stehen in data/werte/bund/2026.yaml.'
+werte:
+- key: berufskosten.fahrkosten.max
+  wert: 6000
+  einheit: CHF
+  text: 'Fahrkosten Wohn-/Arbeitsstaette (Staats- und Gemeindesteuern): Maximalabzug Fr. 6''000 pro Person gesamthaft (inkl. Fahrkosten Wochenaufenthalt und Nebenerwerb); wird bei unterjaehriger Steuerpflicht/Teilzeit
+    nicht gekuerzt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 29 Ziff. 1 StG; § 1 BKV; StP 29 Nr. 2 Ziff. 3
+  quellen:
+  - chunk: tg-wl-2026__c0176
+    zitat: Fahrkosten von gesamthaft maximal Fr. 6 000
+  - chunk: tg-stp-29-2__c0006
+    zitat: Der Fahrkostenabzug ist bei den Staats- und Gemeindesteuern auf maximal Fr. 6 000 beschränkt.
+  status: extrahiert
+  bemerkung: 'Bund (DBG) separat: Fr. 3''300 (nicht in dieser Datei).'
+- key: berufskosten.fahrkosten.auto_km
+  wert: null
+  einheit: CHF
+  text: 'Privatauto (nur in begruendeten Ausnahmefaellen, wenn OeV nicht zur Verfuegung steht/unzumutbar): gestaffelter Ansatz je jaehrlich gefahrener Kilometer: bis 3''000 km Fr. 0.60, 3''001-5''000 km
+    Fr. 0.50, ueber 5''000 km Fr. 0.40 pro km (Parkgebuehren inbegriffen). Beispiel 12''150 km = Fr. 5''660.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 1 Abs. 1 Ziff. 3 BKV
+  quellen:
+  - chunk: tg-bkv__par-1
+    zitat: b. von 3'001 bis 5'000 km · Fr. 0.50
+  - chunk: tg-wl-2026__c0180
+    zitat: Bei den Staats- und Gemeindesteuern gelten für Autos, je nach jährlich gefahrener Kilometerzahl, die folgenden Ansätze
+  - chunk: tg-wl-2026__c0180
+    zitat: Total 12'150 km Fr. 5'660
+  status: extrahiert
+  bemerkung: 'Staffeltarif, daher wert null. Bund 2026: einheitlich Fr. 0.75/km (WL 2026 c0180); StP 29 Nr. 2 (Stand 2025) nennt fuer den Bund noch Fr. 0.70 - fuer den Kanton nicht relevant.'
+- key: berufskosten.fahrkosten.motorrad_km
+  wert: 0.4
+  einheit: CHF
+  text: 'Motorrad (Hoechstgeschwindigkeit ab 45 km/h, weisses Kontrollschild): bis Fr. 0.40 pro Fahrkilometer.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 1 Abs. 1 Ziff. 3 BKV
+  quellen:
+  - chunk: tg-bkv__par-1
+    zitat: ist pro Fahrkilometer ein Abzug bis Fr. 0.40 für Motorräder mit weissem Kontrollschild
+  - chunk: tg-wl-2026__c0180
+    zitat: zu Fr. -.40 pro Fahrkilometer zulässig
+  status: extrahiert
+- key: berufskosten.fahrkosten.velo_pauschale
+  wert: 700
+  einheit: CHF
+  text: 'Fahrrad, Motorfahrrad, Kleinmotorrad (bis 45 km/h, gelbes Kontrollschild): bis Fr. 700 im Jahr.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 1 Abs. 1 Ziff. 2 BKV
+  quellen:
+  - chunk: tg-wl-2026__c0177
+    zitat: können Sie bis zu Fr. 700 im Jahr abziehen
+  - chunk: tg-bkv__par-1
+    zitat: bis Fr. 700 im Jahr
+  status: extrahiert
+- key: berufskosten.fahrkosten.arbeitstage
+  wert: 225
+  einheit: Tage
+  text: Bei der Berechnung der notwendigen Berufsauslagen ist in der Regel von 225 Arbeitstagen im Jahr auszugehen (100%-Pensum).
+  gilt_fuer: kanton
+  rechtsgrundlage: WL 2026 Formular 4.2
+  quellen:
+  - chunk: tg-wl-2026__c0173
+    zitat: ist in der Regel von 225 Arbeitstagen im Jahr auszugehen
+  status: extrahiert
+- key: berufskosten.verpflegung.tag
+  wert: 15
+  einheit: CHF
+  text: 'Mehrkosten auswaertige Verpflegung bei taeglicher Heimkehr: Fr. 15 pro auswaertige Hauptmahlzeit (in der Regel nur Mittagessen), wenn Heimkehr am Mittag wegen grosser Entfernung oder sehr kurzer
+    Essenspause nicht zumutbar.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 2 Abs. 2 BKV
+  quellen:
+  - chunk: tg-bkv__par-2-t1
+    zitat: beträgt Fr. 15 für jede auswärtige Hauptmahlzeit
+  - chunk: tg-wl-2026__c0183
+    zitat: Der Pauschalabzug beträgt Fr. 15 für jede auswärtige Hauptmahlzeit
+  status: extrahiert
+- key: berufskosten.verpflegung.jahr
+  wert: 3200
+  einheit: CHF
+  text: Bei staendiger auswaertiger Verpflegung maximal Fr. 3'200 im Jahr; bei Teilzeit/Nebenberuf angemessene Kuerzung.
+  gilt_fuer: kanton
+  rechtsgrundlage: § 2 Abs. 2 BKV
+  quellen:
+  - chunk: tg-bkv__par-2-t1
+    zitat: bei ständiger auswärtiger Verpflegung Fr. 3'200 im Jahr
+  - chunk: tg-wl-2026__c0183
+    zitat: bei ständiger auswärtiger Verpflegung maximal Fr. 3'200 im Jahr
+  status: extrahiert
+- key: berufskosten.verpflegung.verbilligt_tag
+  wert: 7.5
+  einheit: CHF
+  text: 'Bei Verbilligung durch Arbeitgeber (Gutscheine, Kantine, Personalrestaurant) nur der halbe Abzug: Fr. 7.50 pro Tag. Kein Abzug, wenn Hauptmahlzeit unter Fr. 10 zu stehen kommt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 2 Abs. 2 Ziff. 1 BKV
+  quellen:
+  - chunk: tg-bkv__par-2-t2
+    zitat: Nur der halbe Abzug (Fr. 7.50 im Tag, Fr. 1'600 im Jahr)
+  - chunk: tg-wl-2026__c0185
+    zitat: Nur der halbe Abzug (Fr. 7.50 im Tag, Fr. 1'600 im Jahr) ist zulässig
+  status: extrahiert
+- key: berufskosten.verpflegung.verbilligt_jahr
+  wert: 1600
+  einheit: CHF
+  text: 'Bei Verbilligung durch Arbeitgeber: halber Abzug, maximal Fr. 1''600 im Jahr.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 2 Abs. 2 Ziff. 1 BKV
+  quellen:
+  - chunk: tg-bkv__par-2-t2
+    zitat: Nur der halbe Abzug (Fr. 7.50 im Tag, Fr. 1'600 im Jahr)
+  - chunk: tg-wl-2026__c0004
+    zitat: Fr. 7.50 pro Tag max. Fr. 1'600
+  status: extrahiert
+- key: berufskosten.schichtarbeit.tag
+  wert: 15
+  einheit: CHF
+  text: 'Durchgehende, mindestens achtstuendige Schicht- oder Nachtarbeit (ausgewiesen, Bescheinigung Arbeitgeber): gleiche Abzuege wie auswaertige Verpflegung (Fr. 15 pro Tag, max. Fr. 3''200 im Jahr;
+    bei Verbilligung halb). Nicht kumulierbar mit Verpflegungs- oder Wochenaufenthaltsabzug.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 3 BKV
+  quellen:
+  - chunk: tg-bkv__par-3
+    zitat: werden für die Mehrkosten gegenüber der normalen Verpflegung zu Hause die gleichen Abzüge wie für auswärtige Verpflegung gewährt
+  - chunk: tg-wl-2026__c0184
+    zitat: Abzüge wie bei unzumutbarer Heimkehr gewährt
+  status: extrahiert
+  bemerkung: Kein eigener Betrag in den Quellen; Wert 15 ergibt sich aus dem Verweis auf die Verpflegungsansaetze.
+- key: berufskosten.wochenaufenthalt.unterkunft
+  wert: null
+  einheit: Text
+  text: 'Wochenaufenthalt: notwendige Mehrkosten der Unterkunft - nur ortsuebliche Auslagen fuer ein Zimmer (nicht Wohnung). Bei gemieteter kleinerer Wohnung (bis 3.5 Zimmer): Jahresmietzins : (Anzahl Zimmer
+    + 1) = Kosten des Zimmers. Kein Abzug bei Naturallohn.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 4 Abs. 1 Ziff. 2 BKV
+  quellen:
+  - chunk: tg-bkv__par-4
+    zitat: für die notwendigen Mehrkosten der Unterkunft sind die ortsüblichen Auslagen für ein Zimmer abziehbar
+  - chunk: tg-wl-2026__c0189
+    zitat: 'Jahresmietzins : (Anzahl Zimmer + 1) = Kosten des Zimmers'
+  status: extrahiert
+- key: berufskosten.wochenaufenthalt.verpflegung_jahr
+  wert: 6400
+  einheit: CHF
+  text: 'Wochenaufenthalt Verpflegung: Fr. 15 pro Hauptmahlzeit = Fr. 30 pro Tag, bei ganzjaehrigem Wochenaufenthalt Fr. 6''400 im Jahr; bei Verbilligung des Mittagessens Fr. 22.50 pro Tag bzw. Fr. 4''800
+    im Jahr.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 4 Abs. 1 Ziff. 1 BKV
+  quellen:
+  - chunk: tg-bkv__par-4
+    zitat: bei ganzjährigem Wochenaufenthalt Fr. 6'400
+  - chunk: tg-wl-2026__c0189
+    zitat: bei ganzjährigem Wochenaufenthalt Fr. 6'400 im Jahr abziehen
+  status: extrahiert
+- key: berufskosten.uebrige.satz
+  wert: 3
+  einheit: '%'
+  text: 'Pauschale uebrige Berufskosten: 3 % des Nettolohns (Ziff. 11 Lohnausweis); alternativ Nachweis der effektiven Kosten (nicht kumulierbar). Bei weniger als 12 Monaten Erwerbstaetigkeit anteilmaessig
+    gekuerzt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 4a Abs. 1 BKV; StP 29 Nr. 7
+  quellen:
+  - chunk: tg-bkv__par-4a
+    zitat: beträgt der Pauschalabzug 3 Prozent des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000
+  - chunk: tg-wl-2026__c0187
+    zitat: mindestens Fr. 2'000 und höchstens Fr. 4'000 (kantonal und direkte Bundessteuer)
+  - chunk: tg-stp-29-7__c0002
+    zitat: 3% des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000
+  status: extrahiert
+- key: berufskosten.uebrige.fix
+  wert: null
+  einheit: CHF
+  text: TG kennt keine Formel 'fixer Betrag + %'; die Pauschale ist 3 % des Nettolohns mit Minimum/Maximum.
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: berufskosten.uebrige.min
+  wert: 2000
+  einheit: CHF
+  text: 'Pauschale uebrige Berufskosten: Minimum Fr. 2''000.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 4a Abs. 1 BKV
+  quellen:
+  - chunk: tg-bkv__par-4a
+    zitat: mindestens Fr. 2'000 und höchstens Fr. 4'000
+  - chunk: tg-wl-2026__c0187
+    zitat: mindestens Fr. 2'000 und höchstens Fr. 4'000 (kantonal und direkte Bundessteuer)
+  status: extrahiert
+- key: berufskosten.uebrige.max
+  wert: 4000
+  einheit: CHF
+  text: 'Pauschale uebrige Berufskosten: Maximum Fr. 4''000.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 4a Abs. 1 BKV
+  quellen:
+  - chunk: tg-bkv__par-4a
+    zitat: mindestens Fr. 2'000 und höchstens Fr. 4'000
+  - chunk: tg-wl-2026__c0187
+    zitat: mindestens Fr. 2'000 und höchstens Fr. 4'000 (kantonal und direkte Bundessteuer)
+  status: extrahiert
+- key: berufskosten.nebenerwerb.satz
+  wert: 20
+  einheit: '%'
+  text: 'Nebenerwerb (unselbstaendig): Pauschale 20 % der Nettoeinkuenfte; sie gilt alle Berufskosten des Nebenerwerbs (Fahrt, Verpflegung, uebrige) ab. Nachweis hoeherer effektiver Kosten vorbehalten;
+    maximal bis Hoehe des Nebenerwerbseinkommens.'
+  gilt_fuer: kanton
+  rechtsgrundlage: WL 2026 Formular 4.2 Ziff. 6
+  quellen:
+  - chunk: tg-wl-2026__c0190
+    zitat: Der Abzug beträgt 20% der Nettoeinkünfte, mindestens aber Fr. 800
+  status: extrahiert
+  bemerkung: Nur die Wegleitung nennt den Wert; keine Verordnungsstelle im Wiki gefunden (BKV § 4b/5 nicht geprueft).
+- key: berufskosten.nebenerwerb.min
+  wert: 800
+  einheit: CHF
+  text: 'Nebenerwerb-Pauschale: Minimum Fr. 800 im Jahr.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: tg-wl-2026__c0190
+    zitat: Der Abzug beträgt 20% der Nettoeinkünfte, mindestens aber Fr. 800
+  status: extrahiert
+- key: berufskosten.nebenerwerb.max
+  wert: 2400
+  einheit: CHF
+  text: 'Nebenerwerb-Pauschale: Maximum Fr. 2''400 im Jahr.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: tg-wl-2026__c0190
+    zitat: Fr. 2'400 im Jahr
+  - chunk: tg-wl-2026__c0004
+    zitat: Pauschalabzug 20% des Nettolohns, mindestens Fr. 800 max. Fr. 2'400
+  status: extrahiert
+- key: berufskosten.homeoffice
+  wert: null
+  einheit: Text
+  text: Arbeitszimmer in der Privatwohnung wird nur als effektive uebrige Berufskosten (Nachweis, nicht neben der 3%-Pauschale) nach StP 29 Nr. 8 beurteilt.
+  gilt_fuer: kanton
+  quellen: []
+  status: offen
+  bemerkung: StP 29 Nr. 8 (Praxis effektive uebrige Berufskosten) ist nicht im Wiki; keine Zahl/Regel verifizierbar. StP 29 Nr. 7 verweist nur darauf (tg-stp-29-7__c0006).
+- key: weiterbildung.max
+  wert: 13000
+  einheit: CHF
+  text: 'Berufsorientierte Aus- und Weiterbildung: max. Fr. 13''000 pro Person und Jahr (Kanton und Bund); Erstausbildung (Sek. II) ausgenommen; Kostenbeteiligung Dritter mindert.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 16 StG (Verweis auf DBG-Betrag)
+  quellen:
+  - chunk: tg-wl-2026__c0101
+    zitat: auf jährlich maximal Fr. 13'000 pro Person beschränkt
+  - chunk: tg-stg__par-34-t6
+    zitat: bis zu dem für die direkte Bundessteuer massgebenden Betrag
+  status: extrahiert
+- key: versicherung.verheiratet
+  wert: 7000
+  einheit: CHF
+  text: 'Versicherungspraemien (Leben, Kranken, Unfall) und Sparzinsen: max. Fr. 7''000 fuer Verheiratete in ungetrennter Ehe.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 9 lit. a StG
+  quellen:
+  - chunk: tg-stg__par-34-t3
+    zitat: a. Fr. 7'000 für verheiratete Personen, die in ungetrennter Ehe leben
+  - chunk: tg-wl-2026__c0209
+    zitat: für gemeinsam besteuerte Personen Fr. 7'000 Fr. 3'700
+  status: extrahiert
+- key: versicherung.verheiratet_ohne_vorsorge
+  wert: null
+  einheit: CHF
+  text: 'Kantonal keine erhoehte Limite ohne Beitraege an die Saeulen 2/3a (nur Bund: Fr. 5''550).'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+  bemerkung: WL 2026 c0209 und StG § 34 kennen die Erhoehung nur fuer die direkte Bundessteuer.
+- key: versicherung.alleinstehend
+  wert: 3500
+  einheit: CHF
+  text: 'Versicherungspraemien und Sparzinsen: max. Fr. 3''500 fuer uebrige Steuerpflichtige.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 9 lit. b StG
+  quellen:
+  - chunk: tg-stg__par-34-t3
+    zitat: b. Fr. 3'500 für die übrigen Steuerpflichtigen
+  - chunk: tg-wl-2026__c0209
+    zitat: übrige steuerpflichtige Personen Fr. 3'500 Fr. 1'800
+  status: extrahiert
+- key: versicherung.alleinstehend_ohne_vorsorge
+  wert: null
+  einheit: CHF
+  text: 'Kantonal keine erhoehte Limite ohne Beitraege an die Saeulen 2/3a (nur Bund: Fr. 2''700).'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+  bemerkung: Nur direkte Bundessteuer, siehe WL 2026 c0209.
+- key: versicherung.kind
+  wert: 1000
+  einheit: CHF
+  text: 'Zuschlag zum Versicherungsabzug: Fr. 1''000 je minderjaehriges oder in Ausbildung stehendes Kind bzw. unterstuetzte Person (fuer die Kinder-/Unterstuetzungsabzug moeglich ist).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 9 lit. c StG
+  quellen:
+  - chunk: tg-stg__par-34-t3
+    zitat: c. zusätzlich Fr. 1'000 für jedes minderjährige oder in Ausbildung stehende Kind
+  - chunk: tg-wl-2026__c0209
+    zitat: gemacht werden kann Fr. 1'000 Fr. 700
+  status: extrahiert
+- key: saeule3a.max_mit_2saeule
+  wert: 7258
+  einheit: CHF
+  text: 'Saeule 3a 2026: max. Fr. 7''258 fuer Erwerbstaetige mit Anschluss an eine 2. Saeule (Pensionskasse); gleichzeitig absolute Einzahlungslimite.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 7 StG (bundesrechtlicher Betrag)
+  quellen:
+  - chunk: tg-wl-2026__c0089
+    zitat: Maximalbeitrag Säule 3a für Steuerperiode 2026
+  - chunk: tg-wl-2026__c0004
+    zitat: Erwerbstätige Personen mit 2. Säule (Pensionskasse) max. Fr. 7'258
+  - chunk: tg-stg__par-34-t2
+    zitat: bis zum bundesrechtlich festgelegten Betrag
+  status: extrahiert
+  bemerkung: StP 34 Nr. 27 Ziff. 3 nennt 'ab 2025' Fr. 7'258 (8 % von Fr. 90'720); konsistent.
+- key: saeule3a.max_ohne_2saeule
+  wert: 36288
+  einheit: CHF
+  text: 'Saeule 3a 2026: ohne Anschluss an 2. Saeule 20 % des Erwerbseinkommens, maximal Fr. 36''288.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 7 StG (bundesrechtlicher Betrag)
+  quellen:
+  - chunk: tg-wl-2026__c0004
+    zitat: 'Erwerbstätige Personen ohne 2. Säule: 20% des Erwerbseinkommens max. Fr. 36''288'
+  status: extrahiert
+- key: saeule3a.satz_ohne_2saeule
+  wert: 20
+  einheit: '%'
+  text: 'Saeule 3a ohne 2. Saeule: 20 % des Erwerbseinkommens (gilt auch fuer Unselbstaendige ohne Pensionskasse), max. Fr. 36''288.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: tg-wl-2026__c0089
+    zitat: Der Abzug von 20% des Erwerbseinkommens gilt auch für unselbständig erwerbende Personen
+  status: extrahiert
+  bemerkung: StP 34 Nr. 27 formuliert dieselbe Grenze als 40 % des oberen BVG-Grenzbetrags (Fr. 90'720 = Fr. 36'288).
+- key: saeule3a.einkauf
+  wert: 7258
+  einheit: CHF
+  text: 'NEU ab 2025/2026: Einkauf (Nachzahlung) fuer fruehere Jahre bis zu 10 Jahre rueckwirkend; zusaetzlich zum ordentlichen Beitrag pro Jahr max. der kleine Beitrag (2026: Fr. 7''258). Voraussetzung:
+    AHV-pflichtiges Erwerbseinkommen in der Schweiz im Einkaufsjahr und im Nachzahlungsjahr; ordentlicher Jahresbeitrag vollstaendig geleistet. Voll abzugsfaehig.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: tg-wl-2026__c0090
+    zitat: (2026 maximal 7’258 Fr.)
+  - chunk: tg-wl-2026__c0090
+    zitat: können diese Beiträge bis zu zehn Jahre rückwirkend noch einzahlen
+  status: extrahiert
+  bemerkung: Fuer den Taxonomie-Schluessel abzug.vorsorge.saeule3a_einkauf relevant. Seed-Hinweis 'Einkaeufe ab 2026' - WL spricht von Beitraegen, die ab 1.1.2025 nicht einbezahlt wurden.
+- key: zweiverdiener.satz
+  wert: null
+  einheit: '%'
+  text: Kein kantonaler Zweiverdienerabzug (nur direkte Bundessteuer).
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+  bemerkung: 'StP 34 Nr. 25: ''Im Gesetz ... ist kein Zweiverdienerabzug vorgesehen'' (tg-stp-34-25__c0001); WL 2026 c0103.'
+- key: zweiverdiener.min
+  wert: null
+  einheit: CHF
+  text: 'Kein kantonaler Zweiverdienerabzug (Bund: min. Fr. 8''600).'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: zweiverdiener.max
+  wert: null
+  einheit: CHF
+  text: 'Kein kantonaler Zweiverdienerabzug (Bund: max. Fr. 14''100).'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: drittbetreuung.max
+  wert: 10100
+  einheit: CHF
+  text: 'Kinderdrittbetreuung: nachgewiesene echte Betreuungskosten, max. Fr. 10''100 pro Kind (in der Regel 75 % der Rechnungsbetraege anerkannt, ausser Nachweis ohne Verpflegung/Unterhalt). Alternierende
+    Obhut: je Elternteil max. 50 % (Fr. 5''050) bei haelftiger Zuteilung des Kinderabzugs.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 13 StG; § 11c StV
+  quellen:
+  - chunk: tg-stg__par-34-t5
+    zitat: höchstens Fr. 10'100, für die Drittbetreuung jedes Kindes
+  - chunk: tg-wl-2026__c0094
+    zitat: maximal jedoch Fr. 10'100
+  - chunk: tg-stv__par-11c
+    zitat: 75 Prozent der nachgewiesenen Kosten, maximal jedoch Fr. 10'100
+  status: extrahiert
+  bemerkung: 'StP 34 Nr. 27 Ziff. 4 hat keine Spalte 2026 (nur 2025: Fr. 10''100); fuer 2026 bestaetigen WL 2026 und StG den Wert (Seed ''pruefen'' erledigt).'
+- key: drittbetreuung.altersgrenze
+  wert: 14
+  einheit: Jahre
+  text: Kind darf das 14. Altersjahr noch nicht vollendet haben; Kind lebt mit dem fuer den Unterhalt sorgenden Elternteil im gleichen Haushalt; kausaler Zusammenhang mit Erwerbstaetigkeit, Ausbildung oder
+    Erwerbsunfaehigkeit. Betreuungsperson muss mind. 16 Jahre alt sein (§ 11c Abs. 2 StV).
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 13 StG
+  quellen:
+  - chunk: tg-stg__par-34-t5
+    zitat: welches das 14. Altersjahr noch nicht vollendet hat
+  - chunk: tg-wl-2026__c0094
+    zitat: Das Kind hat das 14. Altersjahr noch nicht vollendet
+  status: extrahiert
+- key: krankheitskosten.selbstbehalt_satz
+  wert: 5
+  einheit: '%'
+  text: 'Krankheits- und Unfallkosten: abziehbar, soweit selbst getragen und ueber 5 % des Nettoeinkommens (Ziff. 22 Steuererklaerung). Diaet-Pauschale Fr. 2''500 (z.B. Zoeliakie, nicht Diabetes).'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 10 StG
+  quellen:
+  - chunk: tg-stg__par-34-t3
+    zitat: diese 5 Prozent des Reineinkommens übersteigen
+  - chunk: tg-wl-2026__c0196
+    zitat: diese 5% des Nettoeinkommens (Ziffer 22) übersteigen
+  status: extrahiert
+  bemerkung: Gesetz sagt 'Reineinkommen', Wegleitung 'Nettoeinkommen (Ziffer 22)'; Prozentsatz identisch - Berechnungsbasis nach Formular (Ziff. 22) anwenden.
+- key: spenden.min
+  wert: 200
+  einheit: CHF
+  text: 'Freiwillige Zuwendungen: abziehbar, soweit sie gesamthaft Fr. 200 uebersteigen (Selbstbehalt Fr. 200). Bund: ab Fr. 100 ohne Selbstbehalt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 11 StG
+  quellen:
+  - chunk: tg-stg__par-34-t4
+    zitat: soweit sie gesamthaft Fr. 200 übersteigen
+  - chunk: tg-wl-2026__c0215
+    zitat: Soweit die freiwilligen Zuwendungen gesamthaft Fr. 200 übersteigen
+  status: extrahiert
+- key: spenden.max_satz
+  wert: 20
+  einheit: '%'
+  text: 'Freiwillige Zuwendungen: max. 20 % des Nettoeinkommens (Ziff. 22); bei Nettoeinkommen bis Fr. 40''000 max. Fr. 8''000.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 11 StG
+  quellen:
+  - chunk: tg-stg__par-34-t4
+    zitat: bis zu Fr. 8'000 oder 20 Prozent des Reineinkommens
+  - chunk: tg-wl-2026__c0215
+    zitat: einkommen über Fr. 40'000 können Sie maximal 20% des Nettoeinkommens
+  status: extrahiert
+- key: parteispenden.max
+  wert: 10000
+  einheit: CHF
+  text: 'Mitgliederbeitraege und Zuwendungen an politische Parteien: max. Fr. 10''000 (Staats- und Gemeindesteuern); Bund Fr. 10''600.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 34 Abs. 1 Ziff. 14 StG
+  quellen:
+  - chunk: tg-stg__par-34-t5
+    zitat: bis zum Gesamtbetrag von Fr. 10'000 an politische Parteien
+  - chunk: tg-wl-2026__c0216
+    zitat: beträgt bei den Staats- und Gemeindesteuern Fr. 10 000
+  status: extrahiert
+- key: parteispenden.max_verheiratet
+  wert: null
+  einheit: CHF
+  text: Keine separate Limite fuer gemeinsam Besteuerte in den Quellen; Gesetz nennt einen Gesamtbetrag von Fr. 10'000.
+  gilt_fuer: kanton
+  quellen: []
+  status: offen
+  bemerkung: Unklar, ob Fr. 10'000 pro Person oder pro Ehepaar gilt; StP 34 Nr. 26 (Parteispenden) nicht im Wiki.
+- key: liegenschaft.pauschale_neu
+  wert: 10
+  einheit: '%'
+  text: 'Pauschalabzug Liegenschaftsunterhalt: 10 % des Bruttomietertrags bzw. (Eigen-)Mietwerts fuer Gebaeude bis 10 Jahre alt (Ende Steuerperiode); wahlweise statt effektiver Kosten, je Liegenschaft und
+    Periode.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 9 Abs. 2 Ziff. 1 StV
+  quellen:
+  - chunk: tg-stv__par-9
+    zitat: bis zu zehn Jahre alt sind, 10 Prozent des Bruttomietertrages
+  - chunk: tg-wl-2026__c0235
+    zitat: 10% für Gebäude, die am Ende der Steuerperiode bis zu zehn Jahre alt sind
+  status: extrahiert
+- key: liegenschaft.pauschale_alt
+  wert: 20
+  einheit: '%'
+  text: 'Pauschalabzug Liegenschaftsunterhalt: 20 % fuer Gebaeude, die ueber 10 Jahre alt sind.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 9 Abs. 2 Ziff. 2 StV
+  quellen:
+  - chunk: tg-stv__par-9
+    zitat: für mehr als zehn Jahre alte Gebäude 20 Prozent
+  - chunk: tg-wl-2026__c0235
+    zitat: 20% für Gebäude, die am Ende der Steuerperiode älter als zehn Jahre sind
+  status: extrahiert
+- key: liegenschaft.eigenmietwert_abzug
+  wert: 40
+  einheit: '%'
+  text: 'Selbstnutzungsabzug: 40 % vom Mietwert fuer am Wohnsitz selbstgenutztes Wohneigentum (Bund: 20 %). Kein Abzug bei Zweit-/Ferienwohnungen, landwirtschaftlichen Liegenschaften, an Nahestehende ueberlassenen
+    Objekten.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 23 Abs. 3 StG
+  quellen:
+  - chunk: tg-stg__par-23
+    zitat: wird von dem gemäss Abs. 2 festgelegten Mietwert ein Abzug von 40 Prozent vorgenommen
+  - chunk: tg-wl-2026__c0222
+    zitat: kantonal einen Abzug von 40% und beim Bund von 20% vornehmen
+  status: extrahiert
+- key: sozialabzug.kind
+  wert: 7400
+  einheit: CHF
+  text: 'Kinderabzug je Kind (nicht selbstaendig besteuert, in Ausbildung oder erwerbsunfaehig, Unterhalt wird getragen): Fr. 7''400 (''uebriges Kind''). Stichtag 31.12.2026. Zusaetzlich Steuergutschrift
+    max. Fr. 100 pro minderjaehriges Kind mit der Schlussrechnung.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 36 Abs. 2 Ziff. 1 lit. a StG; § 1 VAKP
+  quellen:
+  - chunk: tg-stg__par-36-t1
+    zitat: a. je Kind · Fr. 7'400
+  - chunk: tg-wl-2026__c0107
+    zitat: für jedes übrige Kind Fr. 7'400
+  status: extrahiert
+  bemerkung: StP 36 Nr. 1 Ziff. 4.2.1 zeigt nur Spalte 2025 (Fr. 7'400); WL 2026 bestaetigt unveraendert fuer 2026.
+- key: sozialabzug.kind_vorschule
+  wert: null
+  einheit: CHF
+  text: TG kennt keine Staffelung nach Vorschulalter; Grundbetrag Fr. 7'400 gilt fuer alle uebrigen Kinder.
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: sozialabzug.kind_schule
+  wert: null
+  einheit: CHF
+  text: TG kennt keine Staffelung nach Schulalter; Erhoehungen nur fuer Kinder in Ausbildung (ab 16. bzw. 20. Altersjahr).
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: sozialabzug.kind_ausbildung
+  wert: 8500
+  einheit: CHF
+  text: 'Kind in Ausbildung nach Vollendung des 16. Altersjahres (WL 2026: Jahrgang 2007-2010): Fr. 8''500.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 36 Abs. 2 Ziff. 1 lit. b StG
+  quellen:
+  - chunk: tg-stg__par-36-t1
+    zitat: nach Vollendung des 16. Altersjahres auf · Fr. 8'500
+  - chunk: tg-wl-2026__c0107
+    zitat: für jedes Kind in Ausbildung mit Jahrgang 2007 – 2010 Fr. 8'500
+  status: extrahiert
+- key: sozialabzug.kind_ausbildung_auswaerts
+  wert: 10600
+  einheit: CHF
+  text: 'Kind in Ausbildung nach Vollendung des 20. bis zum vollendeten 26. Altersjahr (WL 2026: Jahrgang 2001-2006): Fr. 10''600. Ab vollendetem 26. Altersjahr (erwerbsunfaehig/in Ausbildung): Fr. 7''400.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 36 Abs. 2 Ziff. 1 lit. c StG
+  quellen:
+  - chunk: tg-stg__par-36-t1
+    zitat: bis höchstens zum vollendeten 26. Altersjahr auf · Fr. 10'600
+  - chunk: tg-wl-2026__c0107
+    zitat: für jedes Kind in Ausbildung mit Jahrgang 2001 – 2006 Fr. 10'600
+  status: extrahiert
+  bemerkung: Zuordnung zum Schluessel 'auswaerts/hoehere Stufe' ist eine Naeherung (TG staffelt nach Alter, nicht nach Ausbildungsort).
+- key: sozialabzug.unterstuetzung
+  wert: 2700
+  einheit: CHF
+  text: 'Unterstuetzungsabzug je erwerbsunfaehige und unterstuetzungsbeduerftige Person (nicht Ehegatte/Kind mit Kinderabzug): Fr. 2''700; Voraussetzung: Beitrag zu mehr als 50 % des betreibungsrechtlichen
+    Existenzminimums.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 36 Abs. 2 Ziff. 2 StG; § 12 StV
+  quellen:
+  - chunk: tg-stg__par-36-t1
+    zitat: zur Hauptsache aufkommt; der Abzug kann nicht beansprucht werden für den Ehegatten
+  - chunk: tg-wl-2026__c0113
+    zitat: können Sie kantonal Fr. 2 700 abziehen
+  status: extrahiert
+- key: sozialabzug.verheiratete
+  wert: null
+  einheit: CHF
+  text: Kein kantonaler Verheiratetenabzug (Tarif beruecksichtigt Vollsplitting, Divisor 2); nur Bund Fr. 2'800.
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+  bemerkung: 'WL 2026 c0116: ''Bei den Staats- und Gemeindesteuern kann dieser Abzug nicht geltend gemacht werden.'''
+- key: sozialabzug.alter_iv
+  wert: 4200
+  einheit: CHF
+  text: 'Abzug fuer AHV-Altersrentner, Erwerbsunfaehige und Verwitwete (nur Kanton): max. Fr. 4''200; Reduktion um Fr. 200 je Fr. 1''000 Mehreinkommen ab satzbestimmendem Reineinkommen ueber Fr. 16''900
+    (Alleinstehende) bzw. Fr. 24''300 (Gemeinsam Besteuerte); kein Abzug ab Fr. 37''900 bzw. Fr. 45''300.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 36 Abs. 2 Ziff. 3 StG
+  quellen:
+  - chunk: tg-stg__par-36-t1
+    zitat: erwerbsunfähigen oder verwitweten Steuerpflichtigen Fr. 4'200
+  - chunk: tg-wl-2026__c0006
+    zitat: für AHV-Altersrentner, Erwerbsunfähige oder Verwitwete max. Fr. 4'200
+  status: extrahiert
+- key: steuerbetrag.abzug_kind
+  wert: null
+  einheit: CHF
+  text: 'Nur Bund (Ermaessigung Fr. 263 pro Kind). Kanton: Steuergutschrift max. Fr. 100 pro minderjaehriges Kind mit Kinderabzug, ausbezahlt nur bis zur Hoehe des Steuerbetrags.'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+  bemerkung: 'Kantonale Steuergutschrift Fr. 100: WL 2026 c0246 (''Steuergutschrift von maximal Fr. 100'').'
+- key: vermoegen.freibetrag_alleinstehend
+  wert: 100000
+  einheit: CHF
+  text: 'Steuerfreier Betrag Vermoegenssteuer: Fr. 100''000 fuer alle uebrigen Steuerpflichtigen (ledig, getrennt, geschieden, verwitwet). Stichtag 31.12.2026.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 53 Abs. 1 Ziff. 2 StG
+  quellen:
+  - chunk: tg-stg__par-53
+    zitat: 2. bei allen übrigen Steuerpflichtigen · Fr. 100'000
+  - chunk: tg-wl-2026__c0128
+    zitat: ledige, getrenntlebende, geschiedene oder verwitwete Personen Fr. 100'000
+  status: extrahiert
+- key: vermoegen.freibetrag_verheiratet
+  wert: 200000
+  einheit: CHF
+  text: 'Steuerfreier Betrag Vermoegenssteuer: Fr. 200''000 fuer Steuerpflichtige in ungetrennter Ehe/Partnerschaft.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 53 Abs. 1 Ziff. 1 StG
+  quellen:
+  - chunk: tg-stg__par-53
+    zitat: 1. bei Steuerpflichtigen in ungetrennter Ehe · Fr. 200'000
+  - chunk: tg-wl-2026__c0128
+    zitat: gemeinsam besteuerte Personen Fr. 200'000
+  status: extrahiert
+- key: vermoegen.freibetrag_kind
+  wert: 100000
+  einheit: CHF
+  text: 'Zusaetzlich Fr. 100''000 je nicht selbstaendig besteuertes Kind (WL 2026: Jahrgang 2009 und juenger). Bei getrennt besteuerten Eltern Zuteilung wie Kinderabzug; haelftig bei gemeinsamem Sorgerecht
+    und alternierender Obhut ohne Alimente.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 53 Abs. 1 Ziff. 3 StG
+  quellen:
+  - chunk: tg-stg__par-53
+    zitat: 3. für jedes nicht selbständig besteuerte Kind zusätzlich · Fr. 100'000
+  - chunk: tg-wl-2026__c0128
+    zitat: für jedes nicht selbständig besteuerte Kind (Jahrgang 2009 und jünger) Fr. 100'000
+  status: extrahiert
+- key: steuerfrei.feuerwehrsold
+  wert: 5000
+  einheit: CHF
+  text: Sold der Milizfeuerwehrleute fuer Kernaufgaben bis Fr. 5'000 jaehrlich steuerfrei (Staats- und Gemeindesteuern); Bund Fr. 5'400 (Korrektur von Amtes wegen).
+  gilt_fuer: kanton
+  rechtsgrundlage: § 26 Abs. 1 Ziff. 12 StG
+  quellen:
+  - chunk: tg-stg__par-26-t3
+    zitat: bis zu einem Betrag von jährlich Fr. 5'000
+  - chunk: tg-wl-2026__c0051
+    zitat: Fr. 5'000 bei der Staats- und Gemeindesteuer
+  status: extrahiert
+- key: steuerfrei.grossspielgewinn
+  wert: 1000000
+  einheit: CHF
+  text: 'Einzelne Gewinne aus BGS-Grossspielen und Online-Spielbankenspielen bis Fr. 1''000''000 steuerfrei; nur der Mehrbetrag ist steuerbar (Bund: Fr. 1''071''000). Kleinspiele nach BGS vollstaendig steuerfrei.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 26 Abs. 1 Ziff. 11bis StG
+  quellen:
+  - chunk: tg-stg__par-26-t2
+    zitat: die einzelnen Gewinne bis zu einem Betrag von Fr. 1'000'000
+  - chunk: tg-wl-2026__c0147
+    zitat: Fr. 1'000'000 bei den Staats- und Gemeindesteuern
+  status: extrahiert
+- key: steuerfrei.kleingewinn
+  wert: 1000
+  einheit: CHF
+  text: 'Einzelne Gewinne aus Lotterien/Geschicklichkeitsspielen zur Verkaufsfoerderung bis Fr. 1''000 steuerfrei; wird die Grenze ueberschritten, ist der gesamte Gewinn steuerbar. Auslaendische Lotterien
+    voll steuerbar. Bund: Freigrenze Fr. 1''100.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 26 Abs. 1 Ziff. 13 StG
+  quellen:
+  - chunk: tg-stg__par-26-t3
+    zitat: bis zu einem Betrag von Fr. 1'000, die nach Art. 1 Abs. 2 lit. d und lit. e BGS
+  - chunk: tg-wl-2026__c0146
+    zitat: Steuerfrei da unter Freigrenze von Fr. 1'000 (Kanton) bzw. Fr. 1'100 Bund
+  status: extrahiert
+- key: tarif.steuerfuss_kanton
+  wert: 109
+  einheit: '%'
+  text: 'Staatssteuerfuss 2026: 109 % der einfachen Steuer (seit 2022 unveraendert). Gemeinde-, Schul- und Kirchensteuerfuesse je Gemeinde in tg-steuerfuesse-2026.'
+  gilt_fuer: kanton
+  rechtsgrundlage: § 6 Abs. 2 StG (Festsetzung jaehrlich durch den Grossen Rat)
+  quellen:
+  - chunk: tg-steuerfuesse-2026__c0023
+    zitat: 'Staatssteuerfuss: 109 %'
+  - chunk: tg-stg__par-6
+    zitat: Der Grosse Rat setzt jährlich den Staatssteuerfuss in Prozenten der einfachen Steuer fest.
+  status: extrahiert
+- key: tarif.steuerfrei_alleinstehend
+  wert: null
+  einheit: CHF
+  text: 'Schluessel gilt fuer Bund. Kanton TG: einfache Einkommenssteuer 0 bis Fr. 12''200 (danach 2 %), Vollsplitting Divisor 2 fuer Verheiratete/Einelternfamilien (§ 37 StG); Vermoegenssteuer 1,1 Promille.'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+  bemerkung: Kantonaler Tarif ausserhalb der Eckwerte-Taxonomie; siehe tg-stg__par-37, tg-vakp__par-2, tg-wl-2026__c0243.
+- key: tarif.steuerfrei_verheiratet
+  wert: null
+  einheit: CHF
+  text: 'Schluessel gilt fuer Bund (Kanton: Vollsplitting, siehe tarif.steuerfrei_alleinstehend).'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: tarif.hoechstsatz_ab_alleinstehend
+  wert: null
+  einheit: CHF
+  text: 'Schluessel gilt fuer Bund. Kanton TG: Hoechstsatz 8 % ab Fr. 158''400 steuerbarem Einkommen (bei Vollsplitting nach Division durch 2).'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+  bemerkung: 'tg-stg__par-37 Ziff. 8: ''Fr. 10''133 bis Fr. 158''400 und 8 % für den Mehrbetrag''.'
+- key: tarif.hoechstsatz_ab_verheiratet
+  wert: null
+  einheit: CHF
+  text: 'Schluessel gilt fuer Bund (Kanton: Vollsplitting, siehe oben).'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+- key: tarif.mindeststeuer
+  wert: null
+  einheit: CHF
+  text: 'Kanton TG kennt keinen Mindeststeuerbetrag; Bezugslimite: Steuern unter Fr. 30 werden nicht bezogen.'
+  gilt_fuer: kanton
+  quellen: []
+  status: na
+  bemerkung: 'WL 2026 c0266: Bezugslimite Fr. 30 (einfache Steuer unter Fr. 30). Der Tarifminimum Fr. 25 betrifft den Bund-Elterntarif (c0276).'
+- key: verfahren.einreichefrist
+  wert: null
+  einheit: Text
+  text: Die Steuererklaerung ist bis zum auf dem Formular vorgedruckten Datum beim Gemeindesteueramt der Wohnsitzgemeinde einzureichen; die Frist ist individuell aufgedruckt.
+  gilt_fuer: kanton
+  rechtsgrundlage: § 155 StG
+  quellen:
+  - chunk: tg-wl-2026__c0022
+    zitat: Die ausgefüllte Steuererklärung und die Hilfsblätter sind bis zum vorgedruckten Datum
+  status: extrahiert
+- key: verfahren.fristerstreckung
+  wert: null
+  einheit: Text
+  text: 'Gesuch (schriftlich, begruendet, rechtzeitig) an das Gemeindesteueramt. Private: Erstgesuch bis max. 30. September des Deklarationsjahres; weitere Gesuche in begruendeten Faellen bis max. 30. November.
+    Arbeitsueberlastung ist kein Grund. Treuhaender/Steuerberater, die gewerbsmaessig Steuererklaerungen ausfuellen: fuer ihre Mandanten bis max. 31. Dezember des Deklarationsjahres. Weitergehende Gesuche
+    nur bei ausserordentlichen Gruenden.'
+  gilt_fuer: kanton
+  rechtsgrundlage: StP 155 Nr. 2 Ziff. 1
+  quellen:
+  - chunk: tg-stp-155-2__c0001
+    zitat: Erstmals eingereichte Fristerstreckungsgesuche werden grundsätzlich, jedoch längstens bis am 30. September des Deklarationsjahres, gutgeheissen.
+  - chunk: tg-stp-155-2__c0001
+    zitat: zum 30. November des Deklarationsjahres
+  - chunk: tg-stp-155-2__c0002
+    zitat: längstens bis zum 31. Dezember des Deklarationsjahres
+  - chunk: tg-stp-155-2__c0001
+    zitat: Arbeitsüberlastung stellt keinen Fristverlängerungsgrund dar.
+  status: extrahiert
+  bemerkung: Praxis StP 155 Nr. 2 (Ausgabe 2025-10, geaendert 05.01.2026). Fuer natuerliche Personen keine Gebuehr genannt (Kanzleigebuehr Fr. 30 nur fuer juristische Personen).
+- key: verfahren.abgabeweg
+  wert: null
+  einheit: Text
+  text: 'Elektronische Uebermittlung (eFisc2026/zertifizierte Software): die Steuererklaerung gilt erst als eingereicht, wenn die unterzeichnete Quittung zusammen mit dem Original-Hauptformular (Formular
+    1, Aktenhuelle) beim Gemeindesteueramt eingetroffen ist; Belege wahlweise per Post oder elektronisch. Sonst Papier an das Gemeindesteueramt.'
+  gilt_fuer: kanton
+  rechtsgrundlage: WL 2026 'Einreichung'
+  quellen:
+  - chunk: tg-wl-2026__c0035
+    zitat: wenn die unterzeichnete Quittung beim Gemeindesteueramt eingetroffen ist
+  - chunk: tg-wl-2026__c0034
+    zitat: Reichen Sie Ihrem Steueramt die persönlich unterzeichnete Quittung zusammen mit dem
+  status: extrahiert
+- key: verfahren.beilagen_schwellen
+  wert: 1000
+  einheit: CHF
+  text: 'Immer einzureichen: alle Lohnausweise, Bescheinigungen Saeule 3a, Aufstellungen/Bilanzen bei Selbstaendigen, Bankauszuege bei Total-Deklaration; Kopien der Rechnungen Liegenschaftsunterhalt ab
+    Fr. 1''000; Bestaetigungen freiwilliger Zuwendungen ab Fr. 1''000.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: tg-wl-2026__c0034
+    zitat: bei Liegenschaftsunterhaltskosten Kopien der Rechnungen ab Fr. 1'000;
+  - chunk: tg-wl-2026__c0034
+    zitat: Bestätigungen von freiwilligen Zuwendungen ab einem Betrag von Fr. 1'000
+  status: extrahiert
+  bemerkung: 'Seed nannte auch ''Unterhaltsrechnungen ab 1''000'' - bestaetigt. Rechnungen fuer Aus-/Weiterbildung: Aufstellung mit Belegen beilegen (WL c0101).'
+- key: bezug.provisorisch
+  wert: null
+  einheit: Text
+  text: 'Provisorische Steuerrechnung in drei Raten: 31. Mai, 31. August, 31. Oktober (bei ganzjaehriger Steuerpflicht). Bei Nichtzahlung der 1. und 2. Rate trotz Mahnung wird die ganze Steuer faellig.
+    Einsprache gegen die provisorische Rechnung innert 30 Tagen beim Gemeindesteueramt.'
+  gilt_fuer: kanton
+  quellen:
+  - chunk: tg-wl-2026__c0264
+    zitat: wobei die erste Rate am 31. Mai, die zweite am 31. August und die dritte am 31. Oktober fällig ist
+  status: extrahiert
+- key: bezug.verzugszins
+  wert: null
+  einheit: '%'
+  text: Verzugszins wird erhoben, wenn die Schlussrechnung nicht innert 30 Tagen bezahlt wird; Satz jaehrlich vom Regierungsrat festgelegt (StP 191 Nr. 1).
+  gilt_fuer: kanton
+  quellen: []
+  status: offen
+  bemerkung: Satz 2026 nicht in den Wiki-Quellen (StP 191 Nr. 1 nicht enthalten); Verweis in tg-wl-2026__c0268 und § 191 StG.
+- key: bezug.verguetungszins
+  wert: null
+  einheit: '%'
+  text: Rueckerstattungszins auf zuviel bezahlte Steuern ab Datum der Schlussrechnung bis Auszahlung (nicht ausbezahlt, wenn bis Fr. 30); Satz jaehrlich vom Regierungsrat (StP 191 Nr. 1).
+  gilt_fuer: kanton
+  quellen: []
+  status: offen
+  bemerkung: Satz 2026 nicht in den Wiki-Quellen; siehe tg-wl-2026__c0268.
+- key: bezug.ausgleichszins
+  wert: null
+  einheit: Text
+  text: Positiver Ausgleichszins auf bezahlte Raten bis zur Schlussrechnung; negativer Ausgleichszins auf dem Gesamtsteuerbetrag ab mittlerem Verfalltag (in der Regel 31. August) bis Rechnungsstellung.
+    Satz jaehrlich vom Regierungsrat festgelegt.
+  gilt_fuer: kanton
+  rechtsgrundlage: § 191 StG; StP 191 Nr. 1
+  quellen:
+  - chunk: tg-wl-2026__c0267
+    zitat: gilt in der Regel der 31. August als mittlerer
+  - chunk: tg-stg__par-191
+    zitat: Der Regierungsrat bestimmt den Zinsfuss für Ausgleichs-, Verzugs- und Rückerstattungszinsen.
+  status: extrahiert
+  bemerkung: Regel extrahiert; konkreter Zinssatz 2026 nicht in den Wiki-Quellen.

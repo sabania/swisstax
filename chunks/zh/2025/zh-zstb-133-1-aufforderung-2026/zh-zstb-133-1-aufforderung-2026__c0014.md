@@ -4,28 +4,18 @@ quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
 jahre: [2025]
 typ: praxis
-titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 14"
+titel: "C Fristerstreckungen für Steuererklärungen"
+ziffer: "C"
 seiten: "5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 5
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · C. Fristerstreckungen · S. 5
 
-<!-- Seite 5 -->
-Zürcher Steuerbuch   Nr. 133.1
-
-2. Zustellung der Steuerformulare
-
-Die Formulare werden den juristischen Personen, deren Steuerpflicht bekannt ist, durch das
-kantonale Steueramt, Abteilung Register, zugestellt. Wer kein Formular erhält, muss von sich aus
-ein solches beim kantonalen Steueramt, Abteilung Register, verlangen oder dieses über die
-Homepage des kantonalen Steueramtes (www.zh.ch/steueramt) herunterladen.
-
-3. Frist zur Abgabe der Steuererklärung
-
-Die Steuererklärung ist, zusammen mit den erforderlichen Beilagen gemäss § 134 Abs. 2 StG,
-innert 30 Tagen nach Zustellung der Formulare dem kantonalen Steueramt, Abteilung Register,
-einzureichen.
-
-III. Sitzverlegung in einen anderen Kanton oder Aufgabe eines
-Nebensteuerdomizils durch eine steuerpflichtige juristische Person mit Sitz in
-einem anderen Kanton
+C. Fristerstreckungen für Steuererklärungen
+Gesuche um Fristerstreckung müssen vor Ablauf der Frist bei derjenigen Behörde eingereicht
+werden, welche für das Steuererklärungsverfahren zuständig ist. Nach Ablauf der Frist gestellte
+Gesuche können nicht berücksichtigt werden.
+Bei Steuerpflichtigen mit Wohnsitz oder Sitz in einem anderen Kanton gelten
+Fristerstreckungsentscheide des Wohnsitz- oder Sitzkantons auch für den Kanton Zürich, sofern
+der Fristerstreckungsentscheid vor Ablauf der zürcherischen Frist der zuständigen Behörde für
+das Steuererklärungsverfahren im Kanton Zürich mitgeteilt wird.

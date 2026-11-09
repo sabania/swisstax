@@ -4,22 +4,23 @@ quelle: bund-mb-nl1
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB NL1/2007 – Abschnitt 3"
+titel: "Ziff. 1 Naturalbezüge (Privatanteile pro Person) und Ziff. 6 Naturallohn Verpflegung/Unterkunft (Teil 2/2)"
+ziffer: "1, 6"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB NL1/2007 · S. 1
+> Bund · Steuerjahr 2025/2026 · MB NL1/2007 · Merkblatt NL1 › Ziff. 1 / Ziff. 6 · S. 1
 
-Dieses Merkblatt ist erstmals bei der Bewertung und Einkommens   5. Privatanteil an den Autokosten
-ermittlung des Bemessungsjahres 2007 anzuwenden. Die Angaben   Der Privatanteil kann entweder auf Grund der tatsächlichen Kosten anhand
-unter den Ziffern 2–7 sind z.T. dem Merkblatt N 1 über die Natural   des ausgewiesenen, privat gefahrenen Kilometeranteiles berechnet, oder
-bezüge Selbstständigerwerbender entnommen und auf praktikable   pauschal mit 0,9%* des Kaufpreises (exkl. MWST) oder einem Drittel bis
-Beträge gerundet worden.   der Hälfte der ausgewiesenen Gesamtkosten erfasst werden, mindestens
-    aber mit CHF 150 pro Monat und Fahrzeug.
-1. Naturalbezüge
-Diese Beträge stellen den Wert der Nahrungsmittelbezüge aus Selbst-   6. Naturallohn (Verpflegung und Unterkunft)
-versorgung für die Betriebsleiterfamilie und der Angestellten dar. Für die   für landwirtschaftliche Arbeitnehmer
-Betriebsangestellten werden diese Bezüge im Naturallohn abgezogen   Erwachsene   Früh-	 Mittag-	Abend-	Volle
-(siehe Ziffer 7).   stück  essen   essen  Verpflegung
-    Erwachsene Kinder im Alter von .... Jahren*
-Jahr / CHF   bis 6   über 6–13 über 13–18   Tag / CHF   3.50   10   8   21.50
+Mit Milch, ohne Fleisch   600   145   300   455   Erwachsene   Unterkunft   Verpflegung und Unterkunft
+Viehloser Betrieb   240	  60   120   180
+    Tag / CHF   11.50   33
+* Massgebend ist das Alter der Kinder zu Beginn jedes Geschäftsjahres.   Monat / CHF   345   990
+Bei Familien mit mehr als drei Kindern sind vom Totalwert der Kinder
+    Jahr / CHF   4140   11 880
+ansätze abzuziehen: bei 4 Kindern 10%, bei 5 Kindern 20%, bei 6 und
+mehr Kindern 30%.   Für bis 6-jährige Kinder sind die Ansätze auf 25 %, für bis 13-jährige auf
+    50%, für bis 18-jährige auf 75% zu reduzieren. Familien mit 4 Kindern
+2. Mietwert der Wohnung   und mehr: siehe Ziffer 1.
+Der Mietwert der Wohnung im eigenen Hause ist von Fall zu Fall nach den   Kommt der Arbeitgeber weitgehend auch für Kleider, Leibwäsche und
+ortsüblichen Mietzinsen für eine entsprechende Wohnung zu bestimmen.   Schuhe sowie deren Unterhalt auf, so sind hier zusätzlich CHF 80.– im
+In Fällen, in denen einzelne Räume sowohl dem betrieblichen als auch   Monat bzw. CHF 960.– im Jahr anzurechnen.

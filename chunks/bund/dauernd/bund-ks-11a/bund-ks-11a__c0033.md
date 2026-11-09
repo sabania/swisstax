@@ -4,19 +4,27 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 33"
-seiten: "8"
+titel: "Ziff. 4.3.9–4.3.10 Wohnkosten und Privatschulen"
+ziffer: "4.3.9–4.3.10"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 10
 
-gehen ist.
+4.3.9   Wohnkosten
+Die Kosten des infolge einer Behinderung notwendigen Umbaus, der behinderungsbedingten
+Anpassung oder des behinderungsbedingten Unterhalts einer Wohnstätte in einem Mietobjekt
+oder eines Eigenheims (z.B. Einbau eines Treppenlifts, einer Rollstuhlrampe, eines WC für Per
+sonen mit Behinderung etc.) können zum Abzug gebracht werden. Werterhaltende Kosten der
+Wohneigentümerin oder des Wohneigentümers hingegen sind als ordentlicher Liegenschaftsun
+terhalt abzuziehen.
 
-4.3.2   Kosten für Kinderbetreuung
-Kosten der aufgrund einer Behinderung notwendigen Hilfe bei der Kinderbetreuung eigener Kin
-der sind abzugsfähig, sofern eine ärztliche Bescheinigung darüber vorliegt (z.B. gemäss Frage
-bogen in der Beilage), dass und in welchem Umfang behinderungsbedingt Dritthilfe für die Kin
-derbetreuung benötigt wird.
-Behinderungsbedingte Kinderdrittbetreuungskosten sind zudem nur im Umfang abzugsfähig, in
-welchem sie den gewährten Abzug für Kinderdrittbetreuungskosten übersteigen (vgl. Art. 33
-Abs. 3 DBG und Kreisschreiben Nr. 30 der ESTV vom 21. Dezember 2010 [Ziff. 8.3]).
+4.3.10   Kosten für Privatschulen
+Mehrkosten, die durch den Besuch einer Privatschule entstehen, sind in der Regel nicht zum
+Abzug zugelassen. Sie gelten nur dann als behinderungsbedingte Kosten, wenn mittels Bericht
+des kantonalen schulpsychologischen Dienstes oder – sofern ein solcher Bericht nicht erhältlich
+ist – durch ein gleichwertiges Fachgutachten nachgewiesen wird, dass es sich beim Besuch ei
+ner Privatschule um eine notwendige Massnahme für eine angemessene schulische Ausbildung
+des Kindes mit Behinderung handelt und es keine anderen Massnahmen gibt, die kostengünsti
+ger sind oder weniger weit gehen und zum selben Erfolg führen würden (vgl. Urteil des Bundes
+gerichts 2C_588/2011 vom 16. Dezember 2011 E. 3.4).

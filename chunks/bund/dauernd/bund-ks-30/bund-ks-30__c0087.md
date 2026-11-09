@@ -4,38 +4,26 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 13.4.6 Unterjährige Steuerpflicht – Beispiel Zuzug aus dem Ausland"
-ziffer: "13.4.6"
-seiten: "26-27"
+titel: "Ziff. 13.4.8–13.4.9 Aufwandbesteuerung und Quellensteuer – Elterntarif"
+ziffer: "13.4.8"
+seiten: "28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.6 Unterjährige Steuerpflicht · S. 26–27
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif · S. 28
 
-13.4.6   Unterjährige Steuerpflicht
+13.4.8   Besteuerung nach dem Aufwand
 
-Besteht die Steuerpflicht nur während eines Teils des Steuerjahres, wird der Abzug vom
-Steuerbetrag anteilsmässig gewährt: Es kommt als Basis der Verheiratetentarif zur Anwen-
-dung; der Steuerbetrag ermässigt sich jedoch nur um den anteilsmässigen Abzug von 251
-Franken für jedes Kind und jede unterstützungsbedürftige Person. Die Höhe des Abzugs
-bemisst sich nach dem Verhältnis des steuerbaren Einkommens zum satzbestimmenden
-Einkommen.
+Nach Artikel 14 Absatz 3 DBG wird die Steuer für Personen, die nach dem Aufwand besteu-
+ert werden, nach dem ordentlichen Steuertarif berechnet. Bei der Besteuerung nach dem
+Aufwand werden persönliche Verhältnisse, die bei einer ordentlichen Veranlagung zu Abzü-
+gen berechtigen, nicht berücksichtigt. Dementsprechend hat der Gesetzgeber in Artikel 14
+Absatz 3 DBG festgehalten, dass nur der Grundtarif (Art. 36 Abs. 1 DBG) oder der Verheira-
+tetentarif (Art. 36 Abs. 2 DBG) zur Anwendung kommen. Bei der Besteuerung nach dem
+Aufwand gelangt somit der Elterntarif nicht zur Anwendung.
 
-Beispiel:   Zuzug aus dem Ausland
 
-Annahmen:
+13.4.9   Quellensteuer für natürliche Personen
 
-Familienstand   rechtlich und tatsächlich ungetrennte Ehe
-Anzahl Kinder im gemeinsamen Haushalt   2
-Eintritt in die Steuerpflicht   1. Juni
-Steuerbares Einkommen in CHF   146’000
-Satzbestimmendes Einkommen in CHF   250’000
-Steuersatz in %   7,663
-
-Steuerberechnung:
-
-    CHF   Steuersatz in %   CHF
-Steuer vor Abzug   146’000   7,663   11'188.00
-./. Anteiliger Abzug vom   (2 x 251) x 146’000
-Steuerbetrag   ––––––––––––––––––   - 293.15
-    250'000
-Geschuldete Steuer   10’894.85
+Bei der Festsetzung der Quellensteuertarife für natürliche Personen sind die Abzüge für Fa-
+milienlasten zu berücksichtigen (Art. 86 Abs. 1 DBG). Dies gilt auch für den Elterntarif, wel-
+cher als Abzug vom Steuerbetrag in die jeweiligen Tarife eingerechnet wird.

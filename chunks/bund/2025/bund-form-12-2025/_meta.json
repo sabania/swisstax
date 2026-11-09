@@ -1,49 +1,82 @@
 [
 {
 "id": "bund-form-12-2025__c0001",
-"titel": "Formular 12 2025 – Abschnitt 1",
-"pfad": [],
+"titel": "Formular 12 Seite 1 – Bescheinigung Bezüge Verwaltungsmitglieder 2025",
+"pfad": [
+"Formular"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Verwaltungsrat",
+"VR-Honorar",
+"Tantiemen",
+"Bescheinigung Bezüge",
+"Formular 12",
+"Organe Geschäftsführung"
+],
+"positionen": [
+"einkommen.unselbstaendig.vr_honorare"
+],
+"zusammenfassung": "Verzeichnis der Mitglieder der Verwaltung mit Bezügen 2025 gemäss Ziffer 11 des Lohnausweises; Beilage Lohnausweise Form. 11.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-form-12-2025__c0002"
 },
 {
 "id": "bund-form-12-2025__c0002",
-"titel": "Formular 12 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Formular 12 Seite 2 – Erläuterungen Lohnausweis und Einreichung (Teil 1/2)",
+"pfad": [
+"Erläuterungen"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Art. 129 DBG",
+"Lohnausweis Verwaltungsrat",
+"Tantiemen Kalenderjahr",
+"Einreichung",
+"Geschäftsführer"
+],
+"positionen": [
+"einkommen.unselbstaendig.vr_honorare",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Juristische Personen müssen nach Art. 129 Abs. 1 lit. a DBG für jedes Mitglied einen Lohnausweis (Form. 11) ausstellen und Formular 12 einreichen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-12-2025__c0001",
 "nachher": "bund-form-12-2025__c0003"
 },
 {
 "id": "bund-form-12-2025__c0003",
-"titel": "Formular 12 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Formular 12 Seite 2 – Erläuterungen Lohnausweis und Einreichung (Teil 2/2)",
+"pfad": [
+"Erläuterungen"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Art. 129 DBG",
+"Lohnausweis Verwaltungsrat",
+"Tantiemen Kalenderjahr",
+"Einreichung",
+"Geschäftsführer"
+],
+"positionen": [
+"einkommen.unselbstaendig.vr_honorare",
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-12-2025__c0002",
 "nachher": null
 }

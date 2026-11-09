@@ -12,28 +12,29 @@ generiert: tools/build_index.py
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/03_Merkblatt_steuerliche_Behandlung_des_Liegenschaftsunterhaltes__ab_2024_.pdf> · lokal: [ar-mb-03.pdf](../../../raw/ar/dauernd/ar-mb-03.pdf) · Volltext: [ar-mb-03.md](../../../sources/ar/dauernd/ar-mb-03.md)
 - **Abgerufen:** 2026-11-09 · sha256 `0e07eb68ddc5cb8b…`
 
-## Inhalt (21 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Text sauber extrahiert; Seite 6 enthält Verweis auf Anhang-Tabelle (Richtwerte), die nicht im Dokument enthalten ist.
+
+## Inhalt (18 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0001.md) | MB AR 03 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0002.md) | MB AR 03 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0003.md) | MB AR 03 – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0004.md) | MB AR 03 – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0005.md) | MB AR 03 – Abschnitt 5 | S. 1 |  |
-| [c0006](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0006.md) | MB AR 03 – Abschnitt 6 | S. 2 |  |
-| [c0007](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0007.md) | MB AR 03 – Abschnitt 7 | S. 2 |  |
-| [c0008](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0008.md) | MB AR 03 – Abschnitt 8 | S. 2 |  |
-| [c0009](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0009.md) | MB AR 03 – Abschnitt 9 | S. 3 |  |
-| [c0010](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0010.md) | MB AR 03 – Abschnitt 10 | S. 3 |  |
-| [c0011](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0011.md) | MB AR 03 – Abschnitt 11 | S. 3 |  |
-| [c0012](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0012.md) | MB AR 03 – Abschnitt 12 | S. 3 |  |
-| [c0013](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0013.md) | MB AR 03 – Abschnitt 13 | S. 4 |  |
-| [c0014](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0014.md) | MB AR 03 – Abschnitt 14 | S. 4 |  |
-| [c0015](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0015.md) | MB AR 03 – Abschnitt 15 | S. 4 |  |
-| [c0016](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0016.md) | MB AR 03 – Abschnitt 16 | S. 5 |  |
-| [c0017](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0017.md) | MB AR 03 – Abschnitt 17 | S. 5 |  |
-| [c0018](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0018.md) | MB AR 03 – Abschnitt 18 | S. 5 |  |
-| [c0019](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0019.md) | MB AR 03 – Abschnitt 19 | S. 6 |  |
-| [c0020](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0020.md) | MB AR 03 – Abschnitt 20 | S. 6 |  |
-| [c0021](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0021.md) | MB AR 03 – Abschnitt 21 | S. 6 |  |
+| [c0001](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0001.md) | Merkblatt 03 AR – Liegenschaftsunterhalt, gültig ab Steuerperiode 2024 | S. 1 | Merkblatt der Kantonalen Steuerverwaltung AR vom 30. September 2025, gültig ab Steuerperiode 2024. |
+| [c0002](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0002.md) | Ziff. 1 Rechtliche Grundlagen – Art. 34 StG AR Privatvermögen (Teil 1/2) | S. 1 | Bei Privatliegenschaften abziehbar sind Unterhalts-, Instandstellungs-, Versicherungs- und Verwaltungskosten; Energie-/Umweltinvestitionen und Rückbaukosten sind in den zwei Folgeperioden übertragbar. |
+| [c0003](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0003.md) | Ziff. 1 Rechtliche Grundlagen – Art. 34 StG AR Privatvermögen (Teil 2/2) | S. 1 |  |
+| [c0004](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0004.md) | Ziff. 1 Art. 25 StV AR – Pauschalabzug 10 % / 20 %, Wahlrecht | S. 1–2 | Pauschalabzug bei Bruttomietertrag bis Fr. 100'000.--: 10 Prozent bei Gebäuden bis 10 Jahre, 20 Prozent bei älteren Gebäuden; Wahlrecht pro Gebäude und Veranlagungsperiode. |
+| [c0005](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0005.md) | Ziff. 2/2.1 Allgemeines zum Liegenschaftsunterhalt – Lebenshaltungskosten (Teil 1/2) | S. 2 | Abziehbar sind werterhaltende Aufwendungen; Betriebs-/Energiekosten (Heizöl, Strom, Wasser), Gebühren und nicht ausgeführte Bauprojekte sind nicht abzugsfähige Lebenshaltungskosten. |
+| [c0006](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0006.md) | Ziff. 2/2.1 Allgemeines zum Liegenschaftsunterhalt – Lebenshaltungskosten (Teil 2/2) | S. 2 |  |
+| [c0007](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0007.md) | Ziff. 2.2 Werterhaltende Aufwendungen – Instandhaltung, Instandstellung | S. 2–3 | Abziehbar sind Verwaltungskosten Dritter, laufende Instandhaltung, Beseitigung von Abnützung und Instandstellungskosten; Leistungen Dritter sind abzuziehen. |
+| [c0008](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0008.md) | Ziff. 2.3 Investitionen und wertvermehrende Aufwendungen | S. 3 | Umbauten und Verbesserungen sind nicht abzugsfähig und gelten bei der Grundstückgewinnsteuer als Anlagekosten; Mischaufwendungen werden durch Schätzung aufgeteilt. |
+| [c0009](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0009.md) | Ziff. 2.4 Energiesparende und umweltgerechte Massnahmen (Teil 1/2) | S. 3–4 | Energiespar- und Umweltschutzinvestitionen in bestehenden Gebäuden sind den Unterhaltskosten gleichgestellt; in Neubauten gelten sie als Anlagekosten (zwei Jahre ab Steuerperiode 2023, bisher fünf). |
+| [c0010](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0010.md) | Ziff. 2.4 Energiesparende und umweltgerechte Massnahmen (Teil 2/2) | S. 3–4 |  |
+| [c0011](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0011.md) | Ziff. 2.5 Rückbaukosten im Hinblick auf einen Ersatzneubau (Teil 1/2) | S. 4 | Rückbaukosten sind abziehbar, wenn der Ersatzneubau kumulativ durch dieselbe Person, auf demselben Grundstück, gleichartig genutzt und innert angemessener Frist (i.d.R. zwei Jahre) erfolgt. |
+| [c0012](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0012.md) | Ziff. 2.5 Rückbaukosten im Hinblick auf einen Ersatzneubau (Teil 2/2) | S. 4 |  |
+| [c0013](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0013.md) | Ziff. 2.6 Übertragbare Kosten (Energie, Umwelt, Rückbau) | S. 4–5 | Nicht berücksichtigte Energie-/Umwelt- und Rückbaukosten sind auf Antrag in den zwei nachfolgenden Steuerperioden abziehbar; dann ist kein Pauschalabzug möglich. |
+| [c0014](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0014.md) | Ziff. 2.7 Behebung von Baumängeln und Folgeschäden | S. 5 | Behebung von Konstruktionsfehlern und verborgenen Mängeln ist Investition; Kosten für Folgeschäden sind abzugsfähig. |
+| [c0015](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0015.md) | Ziff. 3.1–3.2 Abzugsberechtigte Person und Gartenunterhalt | S. 5 | Abzug hat, wer als Eigentümer oder Nutzniesser (Grundbucheintrag) steuerpflichtig ist; Gartenunterhalt ist bei Einfamilienhaus-Eigentümern grundsätzlich abziehbar. |
+| [c0016](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0016.md) | Ziff. 3.3 Ab wann Liegenschaftskosten abzugsfähig sind | S. 5–6 | Kosten sind frühestens ab Übergang von Nutzen und Gefahr abziehbar; Akonto-Rechnungen nach Baufortschritt zählen, reine Vorauszahlungen nicht. |
+| [c0017](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0017.md) | Ziff. 3.4 Pauschalabzug – Voraussetzungen und Wahlrecht | S. 6 | Pauschalabzug nur, wenn der Bruttoertrag aller Privatliegenschaften Fr. 100'000.-- nicht übersteigt; bei Eigenmietwert ist der Nettobetrag massgebend; Geschäftsliegenschaften nur effektive Kosten. |
+| [c0018](../../../chunks/ar/dauernd/ar-mb-03/ar-mb-03__c0018.md) | Ziff. 4–5 Direkte Bundessteuer und Hinweise zur Richtwerttabelle | S. 6 | Für die direkte Bundessteuer gelten die gleichen Grundsätze; die Richtwerte im Anhang sind unverbindlich und gelten nur für den Ersatz alter Bauteile durch solche mittlerer Qualität. |

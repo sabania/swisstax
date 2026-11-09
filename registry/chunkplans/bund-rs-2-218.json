@@ -1,0 +1,125 @@
+{
+ "id": "bund-rs-2-218",
+ "hinweise": [
+  "Seite 2: Tabelle mit Spalten Wohnbau/Landwirtschaft und Industrie/Gewerbe leicht vermischt; Fussnotenziffern an Zahlen angehängt."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Geldwerte Leistungen bei Vorschüssen/Darlehen an Beteiligte – Verrechnungssteuer 35 % (2026)",
+   "pfad": [
+    "Einleitung"
+   ],
+   "stichworte": [
+    "geldwerte Leistung",
+    "Verrechnungssteuer 35 %",
+    "Darlehen Aktionär",
+    "Formular 102",
+    "verdeckte Gewinnausschüttung",
+    "unverzinsliches Darlehen"
+   ],
+   "zusammenfassung": "Unverzinste oder ungenügend verzinste Vorschüsse an Beteiligte sind geldwerte Leistungen mit Verrechnungssteuer von 35 %, zu deklarieren mit Formular 102 innert 30 Tagen."
+  },
+  {
+   "start": 54,
+   "titel": "Massgebende Zinssätze ab 1. Januar 2026 (Hinweis auf Safe-Haven-Sätze)",
+   "pfad": [
+    "Einleitung"
+   ],
+   "stichworte": [
+    "Zinssätze",
+    "safe haven",
+    "angemessene Verzinsung",
+    "ESTV"
+   ],
+   "zusammenfassung": "Die ESTV stellt seit 1. Januar 2026 auf die nachfolgenden Zinssätze für Vorschüsse und Darlehen in CHF ab."
+  },
+  {
+   "start": 68,
+   "titel": "Ziff. 1 Vorschüsse an Beteiligte – Mindestzinssatz 2026",
+   "pfad": [
+    "Zinssätze",
+    "Ziff. 1"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Darlehen an Aktionär",
+    "Mindestzins",
+    "Eigenkapital",
+    "Fremdkapital Selbstkosten"
+   ],
+   "zusammenfassung": "Mindestzinssatz ¾ % bei Finanzierung aus Eigenkapital bzw. Selbstkosten zuzüglich ¼ – ½ %, mindestens ¾ %."
+  },
+  {
+   "start": 76,
+   "titel": "Ziff. 2.1 Vorschüsse von Beteiligten – Liegenschaftskredite, Höchstzinssätze 2026",
+   "pfad": [
+    "Zinssätze",
+    "Ziff. 2",
+    "2.1"
+   ],
+   "ziffer": "2.1",
+   "stichworte": [
+    "Hypothek Aktionär",
+    "Liegenschaftskredit",
+    "Höchstzins",
+    "Wohnbau Landwirtschaft",
+    "Belehnung 70 % 80 %"
+   ],
+   "zusammenfassung": "Erste Hypothek (2/3 Verkehrswert) 1 ¼ % bzw. 1¾ %, Rest 2 % bzw. 2½ %; Fremdfinanzierung bis 70 % bzw. 80 % des Verkehrswerts."
+  },
+  {
+   "start": 91,
+   "titel": "Ziff. 2.2 Betriebskredite von Beteiligten – Höchstzinssätze 2026, safe haven",
+   "pfad": [
+    "Zinssätze",
+    "Ziff. 2",
+    "2.2"
+   ],
+   "ziffer": "2.2",
+   "stichworte": [
+    "Betriebskredit",
+    "Holding",
+    "Handelsunternehmen",
+    "Kredit ab 1 Mio.",
+    "safe haven"
+   ],
+   "zusammenfassung": "Betriebskredite bis CHF 1 Mio.: 3½ % bzw. 3 %; ab CHF 1 Mio.: 1½ % bzw. 1¼ %; Limiten aller Beteiligten zusammenzählen."
+  },
+  {
+   "start": 108,
+   "titel": "Fussnoten – Zuschlag Selbstkosten, verdecktes Eigenkapital (KS 6a)",
+   "pfad": [
+    "Zinssätze",
+    "Fussnoten"
+   ],
+   "stichworte": [
+    "verdecktes Eigenkapital",
+    "Kreisschreiben 6a",
+    "Art. 65 DBG"
+   ],
+   "zusammenfassung": "Zuschlag ½ % bis CHF 10 Mio., ¼ % darüber; verdecktes Eigenkapital gemäss Kreisschreiben Nr. 6a beachten."
+  },
+  {
+   "start": 120,
+   "titel": "Ziff. 3 Bewertung von Unternehmen – Verweis KS 28 SSK",
+   "pfad": [
+    "Zinssätze",
+    "Ziff. 3"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "Unternehmensbewertung",
+    "Kapitalisierungssatz",
+    "Kreisschreiben 28",
+    "Wertpapiere ohne Kurswert"
+   ],
+   "zusammenfassung": "Kapitalisierungssätze: Verweis auf Randziffer 10 des SSK-Kreisschreibens Nr. 28."
+  },
+  {
+   "start": 128,
+   "skip": true,
+   "titel": "Kontaktpersonen und Unterschrift"
+  }
+ ]
+}

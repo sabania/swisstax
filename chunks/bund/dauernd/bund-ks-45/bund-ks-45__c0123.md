@@ -4,25 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 123"
-seiten: "31"
+titel: "Ziff. 7.3.1 Beispiel 5 – Bonus CHF 8 000 im April (Teil 2/2)"
+ziffer: "7.3.1"
+seiten: "39"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 31
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.1 Allgemeines · S. 39
 
-Die massgebenden Arbeitstage sind in einem Kalendarium festzuhalten, welches der Quel-
-lensteuerabrechnung beizulegen ist. Rechnet der Arbeitgeber die Quellensteuer elektronisch
-ab (bspw. über ELM-QSt), ist das Kalendarium auf dem postalischen Weg der zuständigen
-Steuerbehörde zuzustellen, solange keine Möglichkeit der elektronischen Übermittlung zur
-Verfügung steht.
-Erfolgt bei der Berechnung des Quellensteuerabzugs durch den Arbeitgeber keine Berück-
-sichtigung der ausländischen Arbeitstage oder ist der Arbeitnehmer mit der anzahlmässigen
-Ausscheidung von im Ausland geleisteten Arbeitstagen nicht einverstanden, kann der Arbeit-
-nehmer bis am 31. März des auf die Fälligkeit der Leistung folgenden Steuerjahres bei der
-zuständigen Steuerbehörde eine Neuberechnung der Quellensteuer oder eine nachträgliche
-ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten). Das Kalendarium muss sowohl
-vom Arbeitnehmer als auch vom Arbeitgeber unterzeichnet und zusammen mit dem Antrag
-eingereicht werden.
-Für die Ausscheidung im Rahmen einer nachträglichen Korrektur sind die Regeln des inter-
-nationalen Steuerrechts bzw. der entsprechenden staatsvertraglichen Vereinbarungen
-(bspw. DBA, Verständigungsvereinbarungen) massgebend.
+    Quellensteuer   520   520   1 521   585   1 170   8 346
+    Korrektur
+    +1953   +195
+    Januar - März
+    Total
+    520   520   1 716   585   1 170   8 541
+    Quellensteuer
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000 (CHF 5 000 x 13).
+
+    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 73 000 (CHF 5 000 x 13 + CHF 8 000).
+
+    3 = Korrektur des Quellensteuerabzugs für die Monate Januar bis März [(CHF 5 000 x 11.7 %) x 3 -
+
+    (CHF 520 x 3)].

@@ -1,210 +1,301 @@
 [
 {
 "id": "sg-mb-8-2026__c0001",
-"titel": "MB 8/2026 SG – Abschnitt 1",
-"pfad": [],
+"titel": "Merkblatt 8 Unterjährige Steuerpflicht 2026 – Allgemeines, E-Tax (Teil 1/3)",
+"pfad": [
+"Allgemeine Hinweise"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–2",
+"stichworte": [
+"unterjährige Steuerpflicht",
+"Wegzug Ausland",
+"Tod",
+"E-Tax SG",
+"Merkblatt 8"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Merkblatt erläutert Besonderheiten der Veranlagung bei Steuerpflicht von weniger als einem Jahr (Wegzug ins Ausland, Tod); E-Tax SG erkennt unterjährige Pflicht automatisch.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-mb-8-2026__c0002"
 },
 {
 "id": "sg-mb-8-2026__c0002",
-"titel": "MB 8/2026 SG – Abschnitt 2",
-"pfad": [],
+"titel": "Merkblatt 8 Unterjährige Steuerpflicht 2026 – Allgemeines, E-Tax (Teil 2/3)",
+"pfad": [
+"Allgemeine Hinweise"
+],
 "seiten": [
+1,
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–2",
+"stichworte": [
+"unterjährige Steuerpflicht",
+"Wegzug Ausland",
+"Tod",
+"E-Tax SG",
+"Merkblatt 8"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0001",
 "nachher": "sg-mb-8-2026__c0003"
 },
 {
 "id": "sg-mb-8-2026__c0003",
-"titel": "MB 8/2026 SG – Abschnitt 3",
-"pfad": [],
+"titel": "Merkblatt 8 Unterjährige Steuerpflicht 2026 – Allgemeines, E-Tax (Teil 3/3)",
+"pfad": [
+"Allgemeine Hinweise"
+],
 "seiten": [
+1,
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–2",
+"stichworte": [
+"unterjährige Steuerpflicht",
+"Wegzug Ausland",
+"Tod",
+"E-Tax SG",
+"Merkblatt 8"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0002",
 "nachher": "sg-mb-8-2026__c0004"
 },
 {
 "id": "sg-mb-8-2026__c0004",
-"titel": "MB 8/2026 SG – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 3–4 Beendigung der Steuerpflicht, unterjährige Veranlagung",
+"pfad": [
+"Beendigung der Steuerpflicht"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3–4",
+"stichworte": [
+"Wegzug Ausland",
+"Todesfall",
+"überlebender Partner",
+"zwei Steuerpflichten",
+"unterjährige Veranlagung"
+],
+"positionen": [
+"personalien",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Steuerpflicht endet bei Wegzug ins Ausland oder per Todestag; überlebender Partner begründet ab Folgetag neue Steuerpflicht; deklariert werden nur effektiv zugeflossene Einkünfte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0003",
 "nachher": "sg-mb-8-2026__c0005"
 },
 {
 "id": "sg-mb-8-2026__c0005",
-"titel": "MB 8/2026 SG – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 5–6 Satzbestimmendes Einkommen, Erträge aus beweglichem Vermögen",
+"pfad": [
+"Berechnung"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5–6",
+"stichworte": [
+"satzbestimmendes Einkommen",
+"Jahreseinkommen",
+"Verrechnungssteuer",
+"Wegzug",
+"Marchzinsen"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Steuersatz richtet sich nach dem auf ein Jahr umgerechneten Einkommen (von Amtes wegen); nur tatsächlich zugeflossene Vermögenserträge sind zu deklarieren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0004",
 "nachher": "sg-mb-8-2026__c0006"
 },
 {
 "id": "sg-mb-8-2026__c0006",
-"titel": "MB 8/2026 SG – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 7 Pauschalierte Abzüge – Kürzung nach Dauer, Beispiel Kinderabzug",
+"pfad": [
+"Pauschalierte Abzüge"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7",
+"stichworte": [
+"Pauschalabzug",
+"pro rata",
+"Kinderabzug",
+"Kürzung",
+"360 Tage"
+],
+"positionen": [
+"sozialabzug.kinder",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Pauschal- und Maximalabzüge werden nach Dauer der Steuerpflicht gekürzt; Beispiel Kinderabzug Fr. 10'800 ÷ 360 × 180 Tage = Fr. 5'400.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0005",
 "nachher": "sg-mb-8-2026__c0007"
 },
 {
 "id": "sg-mb-8-2026__c0007",
-"titel": "MB 8/2026 SG – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 8 Berechnung der Einkommenssteuer – Beispiel Splittingtarif",
+"pfad": [
+"Berechnung der Einkommenssteuer"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8",
+"stichworte": [
+"Einkommenssteuer",
+"Steuerberechnung",
+"Splittingtarif",
+"Steuerfuss 270%"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Beispiel: effektives Einkommen Fr. 36'000, satzbestimmend Fr. 72'000, einfache Steuer 3.9556% = Fr. 1'424.00, bei Steuerfuss 270% Fr. 3'844.80.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0006",
 "nachher": "sg-mb-8-2026__c0008"
 },
 {
 "id": "sg-mb-8-2026__c0008",
-"titel": "MB 8/2026 SG – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 9–10 Stichtag Vermögen, Berechnung Vermögenssteuer",
+"pfad": [
+"Vermögenssteuer"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9–10",
+"stichworte": [
+"Vermögenssteuer",
+"Stichtag",
+"1,7 Promille",
+"Wegzug"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"berechnung.total"
+],
+"zusammenfassung": "Vermögen per Wegzugs-/Todestag; einfache Vermögenssteuer 1,7 Promille, bei Fr. 200'000 Fr. 340, bei 180 Tagen Fr. 170, mit Steuerfuss 270% Fr. 459.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0007",
 "nachher": "sg-mb-8-2026__c0009"
 },
 {
 "id": "sg-mb-8-2026__c0009",
-"titel": "MB 8/2026 SG – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 11 Änderungen gegenüber 2025 – Geldspielgewinne, Fahrkosten, Säule-3a-Einkauf (Teil 1/2)",
+"pfad": [
+"Änderungen gegenüber 2025"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1 / 10 / 13.1",
+"stichworte": [
+"Geldspiele",
+"Kilometeransatz 75 Rappen",
+"Säule 3a Einkauf",
+"Nachzahlung 3a",
+"Freibetrag Lotterie"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a_einkauf",
+"abzug.berufskosten.fahrkosten",
+"einkommen.lotterie_gewinne"
+],
+"zusammenfassung": "Gewinne steuerbar > Fr. 1'070'900 (Verkaufsförderung > Fr. 1'100); Auto 75 Rappen/km; Säule-3a-Einkauf bis zehn Jahre rückwirkend, ab Steuererklärung 2026.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0008",
 "nachher": "sg-mb-8-2026__c0010"
 },
 {
 "id": "sg-mb-8-2026__c0010",
-"titel": "MB 8/2026 SG – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 11 Änderungen gegenüber 2025 – Geldspielgewinne, Fahrkosten, Säule-3a-Einkauf (Teil 2/2)",
+"pfad": [
+"Änderungen gegenüber 2025"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.1 / 10 / 13.1",
+"stichworte": [
+"Geldspiele",
+"Kilometeransatz 75 Rappen",
+"Säule 3a Einkauf",
+"Nachzahlung 3a",
+"Freibetrag Lotterie"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a_einkauf",
+"abzug.berufskosten.fahrkosten",
+"einkommen.lotterie_gewinne"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0009",
 "nachher": "sg-mb-8-2026__c0011"
 },
 {
 "id": "sg-mb-8-2026__c0011",
-"titel": "MB 8/2026 SG – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 11 Änderungen 2026 – Einsatzkosten Online-Spiele, Kinderbetreuung, Ausbildungskosten",
+"pfad": [
+"Änderungen gegenüber 2025"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "16.1 / 16.2 / 16.3 / 23.3",
+"stichworte": [
+"Kinderbetreuung",
+"Drittbetreuung",
+"Kita",
+"Ausbildungskosten Kind",
+"Online-Spiele"
+],
+"positionen": [
+"abzug.drittbetreuung",
+"sozialabzug.kinder",
+"abzug.parteispenden"
+],
+"zusammenfassung": "Neu max. Fr. 26'800 für Einsatzkosten Online-Spiele und Kinderbetreuung pro Kind; Ausbildungskosten pro Kind neu max. Fr. 13'800.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-mb-8-2026__c0010",
-"nachher": "sg-mb-8-2026__c0012"
-},
-{
-"id": "sg-mb-8-2026__c0012",
-"titel": "MB 8/2026 SG – Abschnitt 12",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-mb-8-2026__c0011",
-"nachher": "sg-mb-8-2026__c0013"
-},
-{
-"id": "sg-mb-8-2026__c0013",
-"titel": "MB 8/2026 SG – Abschnitt 13",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-mb-8-2026__c0012",
 "nachher": null
 }
 ]

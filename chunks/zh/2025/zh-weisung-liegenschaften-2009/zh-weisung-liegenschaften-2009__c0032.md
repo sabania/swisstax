@@ -4,16 +4,19 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 32"
-seiten: "13"
+titel: "Ziff. 82 Steuerwert 70%/90% des Verkehrswerts bei individueller Schätzung"
+ziffer: "82"
+seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 13
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15
 
-    Der bei eigener Nutzung von anderen Liegenschaften und Räumen 73
-wie ehemaligen, nicht mehr landwirtschaftlich genutzten Scheunen,
-freistehenden Garagen, Sport- und Reithallen und dergleichen anzu-
-rechnende Mietwert soll dem Mietzins entsprechen, den der Pflichtige
-bei Vermietung von einem Dritten erhalten würde.
+   Wird der Verkehrswert aufgrund einer individuellen Schätzung 82
+ermittelt, ist der Vermögenssteuerwert
+– auf 70% des ermittelten Verkehrswerts festzusetzen, wenn der For-
+   melwert weniger als 70% des Verkehrswerts beträgt,
+– auf 90% des ermittelten Verkehrswerts festzusetzen, wenn der For-
+   melwert mehr als 100% des Verkehrswerts beträgt.
 
-1. 1. 23 - 119   13
+
+1. 1. 23 - 119   15

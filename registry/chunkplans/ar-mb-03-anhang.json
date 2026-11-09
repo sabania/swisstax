@@ -1,0 +1,438 @@
+{
+ "id": "ar-mb-03-anhang",
+ "hinweise": [
+  "Alle Seiten: dreispaltige Ja/Nein-Tabelle (abziehbare Unterhaltskosten / nicht abziehbare Anlagekosten / Lebenshaltung) als Textraster extrahiert; Spaltenzuordnung nur über die Bruchwerte (1/1, 2/3, 1/3) und Einrückung erkennbar, die Spalte (abziehbar vs. nicht abziehbar) ist nicht immer eindeutig ablesbar",
+  "Kopfzeile der Tabelle wiederholt sich auf S. 5, 6 und 7; Seitenumbrüche (S. 4/5, 5/6) laufen mitten in Gruppen",
+  "Zusammenfassungen sind deshalb vorsichtig formuliert; für die Spaltenzuordnung Original konsultieren"
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Ziff. 1.1 Dach – Abziehbarkeit Unterhalt/Anlagekosten",
+   "pfad": [
+    "1 Gebäude aussen",
+    "1.1 Dach"
+   ],
+   "ziffer": "1.1",
+   "stichworte": [
+    "Dach",
+    "Dachersatz",
+    "Dachgaube",
+    "Blitzableiter",
+    "Dachisolation",
+    "Liegenschaftsunterhalt"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Dachunterhalt, gleichwertiger Dachersatz, Dachrinne und Blitzableiter-Reparatur sind zu 1/1 abziehbar; Neueinbau Blitzableiter und Ausbau Dachwohnraum/Dachgaube 1/1 nicht abziehbar; thermische Isolation als Energiesparmassnahme (E)."
+  },
+  {
+   "start": 40,
+   "titel": "Ziff. 1.2 Fassaden, Fenster, Insektenschutz, Rollläden",
+   "pfad": [
+    "1 Gebäude aussen",
+    "1.2 Fassaden und Aussenwände"
+   ],
+   "ziffer": "1.2",
+   "stichworte": [
+    "Fassadenrenovation",
+    "Fenster Ersatz",
+    "Isolierglasfenster",
+    "Rollläden",
+    "Einbruchschutz",
+    "Gerüstkosten"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Gleichwertige Fassaden- und Fensterrenovation abziehbar (1/1), Isolation/Isolierglasfenster als Energiesparmassnahme E; Neueinbau Rollläden und Neuanschaffung Insektenschutz sind Anlagekosten."
+  },
+  {
+   "start": 58,
+   "titel": "Ziff. 1.2 Haustüren, Garagentore, Sonnenstoren",
+   "pfad": [
+    "1 Gebäude aussen",
+    "1.2 Fassaden und Aussenwände"
+   ],
+   "ziffer": "1.2",
+   "stichworte": [
+    "Haustür",
+    "Garagentor",
+    "Sonnenstoren",
+    "Motorisierung",
+    "Neueinbau"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Gleichwertiger Ersatz von Haus-, Keller- und Garagentüren sowie Sonnenstoren und Ersatz mit Motorisierung 1/1 abziehbar bzw. Anlagekosten bei Neueinbau je nach Spalte."
+  },
+  {
+   "start": 71,
+   "titel": "Ziff. 1.2 Wintergarten, Balkonverglasung, Windfang",
+   "pfad": [
+    "1 Gebäude aussen",
+    "1.2 Fassaden und Aussenwände"
+   ],
+   "ziffer": "1.2",
+   "stichworte": [
+    "Wintergarten",
+    "Sitzplatzverglasung",
+    "Balkonverglasung",
+    "Windfang"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Sanierung/Reparatur und gleichwertiger Ersatz von Wintergarten und Balkonverglasung abziehbar, Neuerstellung nicht; unbeheizter Windfang-Neubau als Energiesparmassnahme E."
+  },
+  {
+   "start": 85,
+   "titel": "Ziff. 2 Gebäude innen – Grundrissveränderung, Innenausbau",
+   "pfad": [
+    "2 Gebäude innen",
+    "2.1 Grundrissveränderungen",
+    "2.2 Innenausbau"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "Wohnraumerweiterung",
+    "Bodenbeläge",
+    "Malerarbeiten",
+    "Wandbeläge",
+    "Zimmertüren",
+    "Schränke Garderoben"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Wohnraumerweiterung und Grundrissveränderungen sind nicht abziehbar; gleichwertiger Ersatz von Bodenbelägen, Wandbelägen, Zimmertüren und Malerarbeiten abziehbar (Maler bei Anbauten nicht)."
+  },
+  {
+   "start": 111,
+   "titel": "Ziff. 3.1–3.2 Küche und Sanitäre Installationen",
+   "pfad": [
+    "3 Installationen",
+    "3.1 Kücheneinrichtungen",
+    "3.2 Sanitäre Installationen"
+   ],
+   "ziffer": "3.1-3.2",
+   "stichworte": [
+    "Küche Ersatz",
+    "Komfortverbesserung 2/3",
+    "Bad Dusche WC",
+    "Waschmaschine",
+    "Wasserenthärtung",
+    "Küchengeräte"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Gleichwertiger Ersatz Küche und Sanitär 1/1 abziehbar; Ersatz mit erheblicher Komfortverbesserung 2/3 abziehbar, 1/3 nicht abziehbar; Neuinstallationen und erstmalige Anschaffungen nicht abziehbar."
+  },
+  {
+   "start": 139,
+   "titel": "Ziff. 3.3–3.4 Elektroinstallationen, Glasfaser, Ladestation, Alarmanlage, Lift",
+   "pfad": [
+    "3 Installationen",
+    "3.3 Elektroinstallationen",
+    "3.4 Aufzug, Lift"
+   ],
+   "ziffer": "3.3-3.4",
+   "stichworte": [
+    "Elektroinstallationen",
+    "Glasfaser",
+    "Smart Home",
+    "Ladestation Elektromobil",
+    "bidirektionale Ladestation 3/4",
+    "Alarmanlage",
+    "Lift"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Gleichwertiger Ersatz abziehbar, Erstanschaffung/Erweiterung nicht; erstmalige bidirektionale Ladestation 3/4 abziehbar (E), 1/4 nicht abziehbar; Neueinbau Lift nicht abziehbar."
+  },
+  {
+   "start": 167,
+   "titel": "Ziff. 4.1 Heizungs- und Lüftungsinstallationen – Wartung, Heizungssystem",
+   "pfad": [
+    "4 Heizung, Energiegewinnung",
+    "4.1 Heizungs- und Lüftungsinstallationen"
+   ],
+   "ziffer": "4.1",
+   "stichworte": [
+    "Heizungsersatz",
+    "Öltank Entfernung",
+    "Wärmepumpe",
+    "Fussbodenheizung",
+    "Kaminfeger",
+    "Serviceabonnement"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Wartung und Reparatur abziehbar; vollständiger Ersatz durch Heizung mit erneuerbarer Energie, Öltank-Entfernung beim Ersatz und Umstellung auf Bodenheizung als Energiesparmassnahme E abziehbar."
+  },
+  {
+   "start": 184,
+   "titel": "Ziff. 4.1 Wärmecontracting, Klimaanlage und Lüftung",
+   "pfad": [
+    "4 Heizung, Energiegewinnung",
+    "4.1 Heizungs- und Lüftungsinstallationen",
+    "Contracting"
+   ],
+   "ziffer": "4.1",
+   "stichworte": [
+    "Wärmecontracting",
+    "Energiecontracting",
+    "Amortisationsraten",
+    "Klimaanlage",
+    "Lüftung"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Contracting: Amortisationsraten bei Neubau nicht, bei Ersatz abziehbar; nicht aufteilbare Grundkosten 1/2 abziehbar und 1/2 nicht; Klimaanlage erstmalig nicht, gleichwertiger Ersatz abziehbar."
+  },
+  {
+   "start": 199,
+   "titel": "Ziff. 4.2 Energiegewinnung – Fernwärme, Photovoltaik, Boiler",
+   "pfad": [
+    "4 Heizung, Energiegewinnung",
+    "4.2 Energiegewinnung und -nutzung"
+   ],
+   "ziffer": "4.2",
+   "stichworte": [
+    "Photovoltaik",
+    "Solaranlage",
+    "Fernwärme",
+    "Batteriespeicher",
+    "GEAK",
+    "Boiler"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Photovoltaik bei bestehenden Bauten und Fernwärmeanschluss mit Ausserbetriebnahme der Heizung als E abziehbar; PV bei Neubau (innert 2 Jahren) nicht abziehbar; laufende Betriebskosten abziehbar."
+  },
+  {
+   "start": 223,
+   "titel": "Ziff. 4.3 Kaminanlagen, Cheminées, Schweden- und Speicheröfen",
+   "pfad": [
+    "4 Heizung, Energiegewinnung",
+    "4.3 Kaminanlagen"
+   ],
+   "ziffer": "4.3",
+   "stichworte": [
+    "Kamin",
+    "Cheminée",
+    "Schwedenofen",
+    "Speicherofen",
+    "Kaminsanierung"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Kaminsanierung im Zusammenhang mit Ersatz des Wärmeerzeugers als E abziehbar; erstmaliger Einbau von Cheminée/Ofen nicht abziehbar, gleichwertiger Ersatz abziehbar."
+  },
+  {
+   "start": 234,
+   "titel": "Ziff. 5.1 Gartenunterhalt – Geräte, Pflanzen und Gartenanlage",
+   "pfad": [
+    "5 Umgebung",
+    "5.1 Gartenunterhalt"
+   ],
+   "ziffer": "5.1",
+   "stichworte": [
+    "Garten",
+    "Rasenmäher",
+    "Rasenroboter",
+    "Pflanzen Sträucher Bäume",
+    "Gartenunterhalt",
+    "Grünabfuhr"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Ordentlicher Gartenunterhalt, Rasenpflege und gleichwertiger Ersatz mehrjähriger Pflanzen 1/1 abziehbar; erstmaliges Ansetzen und Geräteanschaffung gemäss Tabelle."
+  },
+  {
+   "start": 264,
+   "titel": "Ziff. 5.1 Garten – Blumengarten, Gartenmöbel, Lebhäge, Terrain, Stützmauern",
+   "pfad": [
+    "5 Umgebung",
+    "5.1 Gartenunterhalt"
+   ],
+   "ziffer": "5.1",
+   "stichworte": [
+    "Gartenmöbel",
+    "Lebhag Thuja",
+    "Gartenumgestaltung",
+    "Steingarten",
+    "Stützmauer",
+    "Topfpflanzen"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Gartenmöbel und Topfpflanzen nicht abziehbar; gleichwertiger Ersatz Lebhag abziehbar, Ersatz durch hochwertige Häge 1/3 abziehbar und 2/3 nicht; Terrainveränderungen/Gartenumgestaltung und erstmalige Erstellung nicht abziehbar."
+  },
+  {
+   "start": 284,
+   "titel": "Ziff. 5.1 Böschungssicherung, Sitzplatz, Pergola, Zäune, Drainage, Lärm- und Hochwasserschutz",
+   "pfad": [
+    "5 Umgebung",
+    "5.1 Gartenunterhalt"
+   ],
+   "ziffer": "5.1",
+   "stichworte": [
+    "Böschungssicherung",
+    "Pergola",
+    "Zaun Gartenweg",
+    "Drainage",
+    "Lärmschutz",
+    "Hochwasserschutz"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Gleichwertiger Ersatz sowie Sanierung/Reparatur abziehbar, erstmalige Erstellung von Pergola, Zäunen, Lärm- und Hochwasserschutz nicht (Ausnahme Lärmschutz bei überschrittenen Grenzwerten)."
+  },
+  {
+   "start": 309,
+   "titel": "Ziff. 5.2 Umgebungsarbeiten – Vorplätze, Carports, Schwimmbad",
+   "pfad": [
+    "5 Umgebung",
+    "5.2 Diverse Umgebungsarbeiten"
+   ],
+   "ziffer": "5.2",
+   "stichworte": [
+    "Vorplatz",
+    "Carport",
+    "Velounterstand",
+    "Schwimmbad",
+    "Schwimmteich",
+    "Poolroboter"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Vorplatz bei gleicher Qualität abziehbar; Kiesplatz zu Teer/Verbundstein 1/4 abziehbar, 3/4 nicht abziehbar; Schwimmbad Ersatz, Service, Reparatur, Folie und Reinigung abziehbar, wenn in der Mietwertschätzung enthalten."
+  },
+  {
+   "start": 331,
+   "titel": "Ziff. 5.3 Anschlusskosten und -gebühren (Kanalisation, ARA, Retention)",
+   "pfad": [
+    "5 Umgebung",
+    "5.3 Anschlusskosten und -gebühren"
+   ],
+   "ziffer": "5.3",
+   "stichworte": [
+    "Anschlussgebühr",
+    "ARA-Beiträge",
+    "Kanalisation",
+    "Anstösserbeiträge",
+    "Trennsystem",
+    "Retentionstank"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Einmalige Anschluss-/Klärbeiträge und Anstösserbeiträge nicht abziehbar; Anpassung an Norm (Ersatz Klär-/Jauchegrube) 2/3 abziehbar, 1/3 nicht; Umstellung Misch- auf Trennsystem 1/2 abziehbar."
+  },
+  {
+   "start": 344,
+   "titel": "Ziff. 6 Diverse Kosten – Architekt, Baubewilligung, Schädlinge, Feuerschutz, Mobiliar",
+   "pfad": [
+    "6 Diverse Kosten"
+   ],
+   "ziffer": "6",
+   "stichworte": [
+    "Architekt",
+    "Baubewilligungsgebühren",
+    "Marderschutz",
+    "Schädlingsbekämpfung",
+    "Hausbock",
+    "Feuerlöscher",
+    "Mobiliar"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Architekturleistungen anteilmässig zum Liegenschaftsunterhalt abziehbar; Marderschutz, Schädlingsbekämpfung und Feuerschutz-Reparaturen abziehbar; Mobiliar und Werkzeuge nicht abziehbar."
+  },
+  {
+   "start": 362,
+   "titel": "Ziff. 6 Diverse Kosten – Reinigung, Schneeräumung, Versicherungsprämien, Besitzesabgaben",
+   "pfad": [
+    "6 Diverse Kosten",
+    "Reinigung und Besitzesabgaben"
+   ],
+   "ziffer": "6",
+   "stichworte": [
+    "Reinigung",
+    "Schneeräumung",
+    "Sachversicherung",
+    "Gebäudeversicherung",
+    "Hausrat Haftpflicht",
+    "Hauseigentümerverband",
+    "Liegenschaftssteuer"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Baureinigung bei Renovation abziehbar; Haus-/Fensterreinigung, Schneeräumung, Gebäudeversicherungs- und Hausratprämien, HEV-Beitrag und Verwaltungskosten sind Lebenshaltung, nicht als Unterhalt abziehbar (siehe Spalten)."
+  },
+  {
+   "start": 379,
+   "titel": "Ziff. 6 Diverse Kosten – nutzungsbedingte Kosten und Grundgebühren",
+   "pfad": [
+    "6 Diverse Kosten",
+    "Nutzungsbedingte Kosten"
+   ],
+   "ziffer": "6",
+   "stichworte": [
+    "Wasser Abwasser Strom Heizung",
+    "Serafe",
+    "Kehrichtabfuhr",
+    "Grundgebühren",
+    "Nebenkosten Vermietung",
+    "Betriebskosten"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Wiederkehrende Nebenkosten (Wasser, Strom, Heizung, Telefon, Serafe, Kehricht) bei Selbstnutzung der Lebenshaltung zugeordnet; bei fremdvermieteter Liegenschaft nur bei Deklaration der Bruttomieterträge abziehbar."
+  },
+  {
+   "start": 404,
+   "titel": "Ziff. 6 Stockwerkeigentümerschaft (Erneuerungsfonds, Hauswart) und Anwaltskosten",
+   "pfad": [
+    "6 Diverse Kosten",
+    "Stockwerkeigentum, Anwaltskosten"
+   ],
+   "ziffer": "6",
+   "stichworte": [
+    "Stockwerkeigentum",
+    "Erneuerungsfonds",
+    "Hauswartkosten",
+    "Anwaltskosten",
+    "Rechtsmittel"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Einlagen in den Erneuerungsfonds 1/1 nicht abziehbar; Hauswartkosten 1/2 abziehbar, 1/2 nicht; Anwaltskosten zur Werterhaltung des Grundstücks abziehbar, aussichtsloses Rechtsmittel nicht."
+  }
+ ]
+}

@@ -4,23 +4,25 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 35"
-seiten: "8"
+titel: "Ziff. 8 Bescheinigungspflicht der Vorsorgeträger (Einkäufe)"
+ziffer: "8"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 8
+> Bund · Steuerjahr 2026 · KS 18a · 8. Bescheinigungspflicht · S. 11
 
-6.   Ausrichtung und Besteuerung der Leistungen
-6.1. Grundsätze
-Die gebundene Selbstvorsorge dient ausschliesslich und unwiderruflich der Vorsorge und
-vermittelt nur Anwartschaften. Altersleistungen aus der Säule 3a dürfen deshalb frühestens
-fünf Jahre vor Erreichen des Referenzalters ausgerichtet werden (Art. 3 Abs. 1 BVV 3). Ver-
-einbarungen, die ein Vertragsende nach Erreichen des 70. Altersjahres vorsehen, sind unzu-
-lässig. Ebenso ist der Abschluss eines neuen Vorsorgevertrages nach diesem Termin aus-
-geschlossen.
+8.   Bescheinigungspflicht
+Versicherungseinrichtungen und Bankstiftungen haben gemäss Artikel 8 BVV 3 und Arti-
+kel 129 Absatz 1 Buchstabe b DBG dem Vorsorgenehmer die erbrachten Beiträge und Leis-
+tungen zu bescheinigen.
 
-Mit Erreichen des Referenzalters fällt der anwartschaftliche Charakter grundsätzlich weg und
-das Guthaben in der Säule 3a wird aus steuerlicher Sicht fällig. Der anwartschaftliche Cha-
-rakter bleibt nur dann bestehen, wenn über das Referenzalter hinaus eine Erwerbstätigkeit
-ausgeübt wird. Spätestens fünf Jahre nach Erreichen des Referenzalters fällt jedoch der an-
-wartschaftliche Charakter dahin. Es muss eine Auszahlung erfolgen, welche zu besteuern
+Bei Einkäufen in die Säule 3a (vgl. Ziff. 5.6) muss die Bescheinigung der Einrichtung der ge-
+bundenen Selbstvorsorge zusätzlich folgende Angaben enthalten:
+
+    •   Das Datum des Einkaufs;
+    •   Die Höhe des vorgenommenen Einkaufs;
+    •   Die Jahre, für die eine Beitragslücke ausgeglichen werden soll und in welcher Höhe
+    diese ausgeglichen werden soll;
+    •   Die Höhe der Beiträge, die in den Jahren, für die eine Beitragslücke ausgeglichen
+    werden sollen, gegebenenfalls bereits geleistet wurden, unter Angabe des Zahlungs-
+    datums.

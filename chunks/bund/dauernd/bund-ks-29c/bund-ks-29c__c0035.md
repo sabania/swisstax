@@ -4,21 +4,21 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 35"
-seiten: "12"
+titel: "Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 1/4)"
+ziffer: "6.2.4"
+seiten: "16-17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.2 Fusion · S. 16–17
 
-       Wird der Mehrwert dem Nominalkapital und/oder den KER bzw. Ausland-KER gutge-
-    schrieben, ist beim Einleger die Zunahme des Nominalkapitals und der KER bzw.
-    Ausland-KER als Ertrag aus beweglichem Vermögen nach Artikel 20a Absatz 1
-    Buchstabe b DBG in Verbindung mit Artikel 20 Absatz 3 DBG steuerbar. Betreffend
-    die Berechnung des steuerbaren Ertrages siehe Beispiele im Anhang dieses Kreis-
-    schreibens.
+6.2.4. Absorption der Muttergesellschaft („Reverse Merger“)
 
-       Wird der Mehrwert den übrigen Reserven gutgeschrieben, bleibt die latente Aus-
-    schüttungslast erhalten und die Übertragung ist steuerneutral.
+a)   Direkte Bundessteuer (Gewinnsteuer)
 
-Für sämtliche Beteiligungsübertragungen vor dem 1. Januar 1997 qualifiziert der Ausweis
-des gesamten über dem Nennwert liegenden Mehrwertes als übrige Reserve.
+Bei einer Absorption der Muttergesellschaft erzielen beteiligte Privatpersonen in dem Um-
+fang Beteiligungsertrag, als ihnen höherer Nennwert, Ausgleichszahlungen oder andere
+geldwerte Vorteile zufliessen. Verfügt die übernehmende Tochtergesellschaft über höhere
+KER, bzw. Ausland-KER, werden diese nach der Absorption der Muttergesellschaft auf die
+Höhe der bei der Muttergesellschaft vorhandenen KER bzw. Ausland-KER reduziert. Nenn-
+wertgewinne und der Zuwachs an KER bzw. Ausland-KER können mit entsprechenden Ver-
+lusten bzw. Abnahmen verrechnet werden.

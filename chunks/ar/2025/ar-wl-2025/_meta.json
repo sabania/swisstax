@@ -242,7 +242,7 @@
 },
 {
 "id": "ar-wl-2025__c0009",
-"titel": "Einreichung der Steuererklärung, Belege und zweckmässiges Vorgehen (Teil 1/4)",
+"titel": "Einreichung der Steuererklärung – einzureichende Belege und Aufbewahrung",
 "pfad": [
 "Allgemeines",
 "Einreichung"
@@ -256,22 +256,20 @@
 "Belege",
 "Beilagen",
 "Aufbewahrung",
-"Unterlagen beschaffen",
-"Lohnausweis",
-"Steuerauszug",
-"Säule 3a Bescheinigung"
+"Abzüge belegen",
+"Steuerstrafe"
 ],
 "positionen": [
 "verfahren.einreichung"
 ],
-"zusammenfassung": "Beizulegen sind benötigte Formulare, Bescheinigungen und Original-Steuererklärung; weitere Belege sind bis zur Rechtskraft der Veranlagung aufzubewahren; Vorgehen in drei Schritten.",
+"zusammenfassung": "Mit der Steuererklärung sind benötigte Formulare, Bescheinigungen und die Original-Steuererklärung einzureichen; weitere Belege sind bereitzuhalten und bis zur Rechtskraft der Veranlagung aufzubewahren; nicht belegte Abzüge werden nicht gewährt.",
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-wl-2025__c0008",
 "nachher": "ar-wl-2025__c0010"
 },
 {
 "id": "ar-wl-2025__c0010",
-"titel": "Einreichung der Steuererklärung, Belege und zweckmässiges Vorgehen (Teil 2/4)",
+"titel": "Zweckmässiges Vorgehen beim Ausfüllen – Unterlagen beschaffen in drei Schritten (Teil 1/2)",
 "pfad": [
 "Allgemeines",
 "Einreichung"
@@ -282,25 +280,23 @@
 "artikel": null,
 "ziffer": null,
 "stichworte": [
-"Belege",
-"Beilagen",
-"Aufbewahrung",
 "Unterlagen beschaffen",
 "Lohnausweis",
 "Steuerauszug",
-"Säule 3a Bescheinigung"
+"Säule 3a Bescheinigung",
+"Rückkaufswert Lebensversicherung"
 ],
 "positionen": [
 "verfahren.einreichung"
 ],
-"zusammenfassung": null,
+"zusammenfassung": "1. Schritt Unterlagen beschaffen (Lohnausweise, Bankauszüge, Säule-3a-Bescheinigung, Belege), 2. Schritt Wertschriftenverzeichnis und Formulare ausfüllen, 3. Schritt Ergebnisse in die Steuererklärung übertragen.",
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-wl-2025__c0009",
 "nachher": "ar-wl-2025__c0011"
 },
 {
 "id": "ar-wl-2025__c0011",
-"titel": "Einreichung der Steuererklärung, Belege und zweckmässiges Vorgehen (Teil 3/4)",
+"titel": "Zweckmässiges Vorgehen beim Ausfüllen – Unterlagen beschaffen in drei Schritten (Teil 2/2)",
 "pfad": [
 "Allgemeines",
 "Einreichung"
@@ -311,13 +307,11 @@
 "artikel": null,
 "ziffer": null,
 "stichworte": [
-"Belege",
-"Beilagen",
-"Aufbewahrung",
 "Unterlagen beschaffen",
 "Lohnausweis",
 "Steuerauszug",
-"Säule 3a Bescheinigung"
+"Säule 3a Bescheinigung",
+"Rückkaufswert Lebensversicherung"
 ],
 "positionen": [
 "verfahren.einreichung"
@@ -329,35 +323,6 @@
 },
 {
 "id": "ar-wl-2025__c0012",
-"titel": "Einreichung der Steuererklärung, Belege und zweckmässiges Vorgehen (Teil 4/4)",
-"pfad": [
-"Allgemeines",
-"Einreichung"
-],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": [
-"Belege",
-"Beilagen",
-"Aufbewahrung",
-"Unterlagen beschaffen",
-"Lohnausweis",
-"Steuerauszug",
-"Säule 3a Bescheinigung"
-],
-"positionen": [
-"verfahren.einreichung"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0011",
-"nachher": "ar-wl-2025__c0013"
-},
-{
-"id": "ar-wl-2025__c0013",
 "titel": "Einreichefrist, Fristverlängerung, Verrechnungssteuer-Rückerstattung, Mitwirkungspflichten (Teil 1/2)",
 "pfad": [
 "Allgemeines",
@@ -381,11 +346,11 @@
 ],
 "zusammenfassung": "Nur die erste Fristverlängerung ist kostenlos, jede weitere kostet Fr. 25.–; Verrechnungssteuer wird in der Regel mit ausstehenden Steuern verrechnet; Verletzung der Mitwirkungspflichten kann Ermessensveranlagung zur Folge haben.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0012",
-"nachher": "ar-wl-2025__c0014"
+"vorher": "ar-wl-2025__c0011",
+"nachher": "ar-wl-2025__c0013"
 },
 {
-"id": "ar-wl-2025__c0014",
+"id": "ar-wl-2025__c0013",
 "titel": "Einreichefrist, Fristverlängerung, Verrechnungssteuer-Rückerstattung, Mitwirkungspflichten (Teil 2/2)",
 "pfad": [
 "Allgemeines",
@@ -409,12 +374,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0013",
-"nachher": "ar-wl-2025__c0015"
+"vorher": "ar-wl-2025__c0012",
+"nachher": "ar-wl-2025__c0014"
 },
 {
-"id": "ar-wl-2025__c0015",
-"titel": "Richtiges Ausfüllen; Grundsätze der Besteuerung (Gegenwartsbemessung, Erbschaft) (Teil 1/4)",
+"id": "ar-wl-2025__c0014",
+"titel": "Richtiges Ausfüllen der Steuererklärung; Grundsätze der Besteuerung (Gegenwartsbemessung) (Teil 1/2)",
 "pfad": [
 "Grundsätze der Besteuerung"
 ],
@@ -426,24 +391,47 @@
 "stichworte": [
 "Gegenwartsbemessung",
 "Steuerperiode",
-"Erbschaft",
-"Schenkung",
-"Erbvorbezug",
 "PID-Nummer",
+"Kalenderjahr",
 "Stichtag 31. Dezember"
 ],
 "positionen": [
-"verfahren.einreichung",
-"info.schenkungen_erbschaften"
+"verfahren.einreichung"
 ],
-"zusammenfassung": "Besteuert wird das im Kalenderjahr tatsächlich erzielte Einkommen und das Vermögen per 31. Dezember; bei einer Erbschaft ab Fr. 100’000.– wird der Vermögenszuwachs von Amtes wegen zeitlich gewichtet.",
+"zusammenfassung": "Besteuert wird das im Kalenderjahr tatsächlich erzielte Einkommen und das Vermögen am Ende der Steuerperiode (31. Dezember); alle Formulare mit Name und PID-Nummer versehen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0013",
+"nachher": "ar-wl-2025__c0015"
+},
+{
+"id": "ar-wl-2025__c0015",
+"titel": "Richtiges Ausfüllen der Steuererklärung; Grundsätze der Besteuerung (Gegenwartsbemessung) (Teil 2/2)",
+"pfad": [
+"Grundsätze der Besteuerung"
+],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Gegenwartsbemessung",
+"Steuerperiode",
+"PID-Nummer",
+"Kalenderjahr",
+"Stichtag 31. Dezember"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-wl-2025__c0014",
 "nachher": "ar-wl-2025__c0016"
 },
 {
 "id": "ar-wl-2025__c0016",
-"titel": "Richtiges Ausfüllen; Grundsätze der Besteuerung (Gegenwartsbemessung, Erbschaft) (Teil 2/4)",
+"titel": "Veränderungen in der Erwerbstätigkeit; Schenkung, Erbvorbezug, Erbschaft (Fr. 100’000)",
 "pfad": [
 "Grundsätze der Besteuerung"
 ],
@@ -453,28 +441,28 @@
 "artikel": null,
 "ziffer": null,
 "stichworte": [
-"Gegenwartsbemessung",
-"Steuerperiode",
+"Stellenwechsel",
+"Pensionierung",
 "Erbschaft",
 "Schenkung",
 "Erbvorbezug",
-"PID-Nummer",
-"Stichtag 31. Dezember"
+"Erbengemeinschaft"
 ],
 "positionen": [
 "verfahren.einreichung",
 "info.schenkungen_erbschaften"
 ],
-"zusammenfassung": null,
+"zusammenfassung": "Auch bei Aufnahme oder Aufgabe einer Tätigkeit ist das im ganzen Jahr erzielte Einkommen zu deklarieren; bei einer Erbschaft ab Fr. 100’000.– wird der Vermögenszuwachs von Amtes wegen zeitlich gewichtet.",
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-wl-2025__c0015",
 "nachher": "ar-wl-2025__c0017"
 },
 {
 "id": "ar-wl-2025__c0017",
-"titel": "Richtiges Ausfüllen; Grundsätze der Besteuerung (Gegenwartsbemessung, Erbschaft) (Teil 3/4)",
+"titel": "Beginn der Steuerpflicht – Zuzug aus anderem Kanton",
 "pfad": [
-"Grundsätze der Besteuerung"
+"Grundsätze der Besteuerung",
+"Steuerpflicht"
 ],
 "seiten": [
 5
@@ -482,141 +470,50 @@
 "artikel": null,
 "ziffer": null,
 "stichworte": [
-"Gegenwartsbemessung",
-"Steuerperiode",
-"Erbschaft",
-"Schenkung",
-"Erbvorbezug",
-"PID-Nummer",
-"Stichtag 31. Dezember"
+"Zuzug Kanton",
+"Umzug innerhalb Schweiz",
+"ganzes Jahr steuerpflichtig",
+"Wegzugskanton"
 ],
 "positionen": [
-"verfahren.einreichung",
-"info.schenkungen_erbschaften"
+"personalien"
 ],
-"zusammenfassung": null,
+"zusammenfassung": "Wer im Laufe des Jahres aus einem anderen Kanton zugezogen ist und am 31. Dezember in AR wohnte, ist für das ganze Jahr in AR steuerpflichtig; Vermögenssteuer für das ganze Jahr, Stand per 31. Dezember.",
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-wl-2025__c0016",
 "nachher": "ar-wl-2025__c0018"
 },
 {
 "id": "ar-wl-2025__c0018",
-"titel": "Richtiges Ausfüllen; Grundsätze der Besteuerung (Gegenwartsbemessung, Erbschaft) (Teil 4/4)",
+"titel": "Beginn der Steuerpflicht – Zuzug aus dem Ausland (unterjährige Veranlagung, Satzbestimmung)",
 "pfad": [
-"Grundsätze der Besteuerung"
+"Grundsätze der Besteuerung",
+"Steuerpflicht"
 ],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
 "ziffer": null,
 "stichworte": [
-"Gegenwartsbemessung",
-"Steuerperiode",
-"Erbschaft",
-"Schenkung",
-"Erbvorbezug",
-"PID-Nummer",
-"Stichtag 31. Dezember"
+"Zuzug Ausland",
+"unterjährige Veranlagung",
+"Gratifikation",
+"Boni",
+"Satzbestimmung",
+"Umrechnung zwölf Monate"
 ],
 "positionen": [
-"verfahren.einreichung",
-"info.schenkungen_erbschaften"
+"personalien"
 ],
-"zusammenfassung": null,
+"zusammenfassung": "Bei Zuzug aus dem Ausland ist das ab Zuzugsdatum erzielte Einkommen zu deklarieren; regelmässige Einkünfte werden für den Steuersatz auf zwölf Monate umgerechnet, nicht regelmässige (Gratifikationen, Boni) nicht; Vermögenssteuer nach Dauer der Steuerpflicht.",
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-wl-2025__c0017",
 "nachher": "ar-wl-2025__c0019"
 },
 {
 "id": "ar-wl-2025__c0019",
-"titel": "Beginn der Steuerpflicht – Zuzug aus anderem Kanton oder Ausland (unterjährige Veranlagung) (Teil 1/3)",
-"pfad": [
-"Grundsätze der Besteuerung",
-"Steuerpflicht"
-],
-"seiten": [
-5,
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": [
-"Zuzug",
-"Wegzug",
-"unterjährige Veranlagung",
-"Umzug",
-"Satzbestimmung",
-"Gratifikation"
-],
-"positionen": [
-"personalien"
-],
-"zusammenfassung": "Bei Zuzug aus einem anderen Kanton gilt die Steuerpflicht für das ganze Jahr; bei Zuzug aus dem Ausland wird ab Zuzugsdatum unterjährig veranlagt, regelmässige Einkünfte werden für den Satz auf zwölf Monate umgerechnet.",
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0018",
-"nachher": "ar-wl-2025__c0020"
-},
-{
-"id": "ar-wl-2025__c0020",
-"titel": "Beginn der Steuerpflicht – Zuzug aus anderem Kanton oder Ausland (unterjährige Veranlagung) (Teil 2/3)",
-"pfad": [
-"Grundsätze der Besteuerung",
-"Steuerpflicht"
-],
-"seiten": [
-5,
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": [
-"Zuzug",
-"Wegzug",
-"unterjährige Veranlagung",
-"Umzug",
-"Satzbestimmung",
-"Gratifikation"
-],
-"positionen": [
-"personalien"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0019",
-"nachher": "ar-wl-2025__c0021"
-},
-{
-"id": "ar-wl-2025__c0021",
-"titel": "Beginn der Steuerpflicht – Zuzug aus anderem Kanton oder Ausland (unterjährige Veranlagung) (Teil 3/3)",
-"pfad": [
-"Grundsätze der Besteuerung",
-"Steuerpflicht"
-],
-"seiten": [
-5,
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": [
-"Zuzug",
-"Wegzug",
-"unterjährige Veranlagung",
-"Umzug",
-"Satzbestimmung",
-"Gratifikation"
-],
-"positionen": [
-"personalien"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0020",
-"nachher": "ar-wl-2025__c0022"
-},
-{
-"id": "ar-wl-2025__c0022",
 "titel": "Ende der Steuerpflicht, Tod eines Ehegatten, Heirat, Trennung und Scheidung (Teil 1/2)",
 "pfad": [
 "Grundsätze der Besteuerung",
@@ -641,11 +538,11 @@
 ],
 "zusammenfassung": "Bis zum Todestag werden Ehegatten gemeinsam veranlagt, danach der Überlebende selbständig; bei Heirat gemeinsame Veranlagung für die ganze Periode, bei Trennung oder Scheidung getrennte Veranlagung für die ganze Periode.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0021",
-"nachher": "ar-wl-2025__c0023"
+"vorher": "ar-wl-2025__c0018",
+"nachher": "ar-wl-2025__c0020"
 },
 {
-"id": "ar-wl-2025__c0023",
+"id": "ar-wl-2025__c0020",
 "titel": "Ende der Steuerpflicht, Tod eines Ehegatten, Heirat, Trennung und Scheidung (Teil 2/2)",
 "pfad": [
 "Grundsätze der Besteuerung",
@@ -670,11 +567,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0022",
-"nachher": "ar-wl-2025__c0024"
+"vorher": "ar-wl-2025__c0019",
+"nachher": "ar-wl-2025__c0021"
 },
 {
-"id": "ar-wl-2025__c0024",
+"id": "ar-wl-2025__c0021",
 "titel": "Formular 1 Seite 1 – Personalien, Berufs- und Familienverhältnisse (Formularraster) (Teil 1/3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -699,11 +596,11 @@
 ],
 "zusammenfassung": "Formularraster Titelseite der Steuererklärung (Personalien, Dauer der Steuerpflicht, Rückfragen an, Kinder) mit zerrissenem Layout.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0023",
-"nachher": "ar-wl-2025__c0025"
+"vorher": "ar-wl-2025__c0020",
+"nachher": "ar-wl-2025__c0022"
 },
 {
-"id": "ar-wl-2025__c0025",
+"id": "ar-wl-2025__c0022",
 "titel": "Formular 1 Seite 1 – Personalien, Berufs- und Familienverhältnisse (Formularraster) (Teil 2/3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -728,11 +625,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0024",
-"nachher": "ar-wl-2025__c0026"
+"vorher": "ar-wl-2025__c0021",
+"nachher": "ar-wl-2025__c0023"
 },
 {
-"id": "ar-wl-2025__c0026",
+"id": "ar-wl-2025__c0023",
 "titel": "Formular 1 Seite 1 – Personalien, Berufs- und Familienverhältnisse (Formularraster) (Teil 3/3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -757,11 +654,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0025",
-"nachher": "ar-wl-2025__c0027"
+"vorher": "ar-wl-2025__c0022",
+"nachher": "ar-wl-2025__c0024"
 },
 {
-"id": "ar-wl-2025__c0027",
+"id": "ar-wl-2025__c0024",
 "titel": "Personalien, Berufs- und Familienverhältnisse – Erläuterungen",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -784,11 +681,11 @@
 ],
 "zusammenfassung": "Personalien sind eingedruckt und bei Änderungen zu korrigieren und dem Einwohneramt zu melden; Beruf und überwiegende Erwerbsart sind immer anzugeben.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0026",
-"nachher": "ar-wl-2025__c0028"
+"vorher": "ar-wl-2025__c0023",
+"nachher": "ar-wl-2025__c0025"
 },
 {
-"id": "ar-wl-2025__c0028",
+"id": "ar-wl-2025__c0025",
 "titel": "Kinder, für deren Unterhalt Sie zur Hauptsache aufkommen (Ziff. 23.1–23.3, 36.3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -812,11 +709,11 @@
 ],
 "zusammenfassung": "Aufzuführen sind nur Kinder, für die ein Abzug nach Ziffer 23.1, 23.2 oder 23.3 geltend gemacht wird; bei Ausbildung sind Schule oder Lehrfirma und Dauer anzugeben.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0027",
-"nachher": "ar-wl-2025__c0029"
+"vorher": "ar-wl-2025__c0024",
+"nachher": "ar-wl-2025__c0026"
 },
 {
-"id": "ar-wl-2025__c0029",
+"id": "ar-wl-2025__c0026",
 "titel": "Formular 1 Seite 2 – Einkünfte Ziff. 1 Unselbständige Erwerbstätigkeit (Codes 100–114, Raster)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -842,11 +739,11 @@
 ],
 "zusammenfassung": "Formularraster Seite 2: Ziff. 1.1 Haupterwerb (Codes 100–104), 1.2 Nebenerwerb (106–108), 1.3 VR-Honorare/Sitzungsgelder (110–114) je Person.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0028",
-"nachher": "ar-wl-2025__c0030"
+"vorher": "ar-wl-2025__c0025",
+"nachher": "ar-wl-2025__c0027"
 },
 {
-"id": "ar-wl-2025__c0030",
+"id": "ar-wl-2025__c0027",
 "titel": "Formular 1 Seite 2 – Ziff. 2 Selbständige Erwerbstätigkeit und Ziff. 3 Sozialversicherungen (Codes 120–147, Raster) (Teil 1/2)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -875,11 +772,11 @@
 ],
 "zusammenfassung": "Formularraster Seite 2 mit Ziff. 2.1/2.2 (Codes 120–128), 3.1 AHV/IV (130–132), 3.2 Renten (134–136), 3.3 Taggelder (138–142), 3.4 Arbeitslose, 3.5 Zulagen (146–147); dazwischen Satzteile der allgemeinen Erläuterungen zum Einkommen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0029",
-"nachher": "ar-wl-2025__c0031"
+"vorher": "ar-wl-2025__c0026",
+"nachher": "ar-wl-2025__c0028"
 },
 {
-"id": "ar-wl-2025__c0031",
+"id": "ar-wl-2025__c0028",
 "titel": "Formular 1 Seite 2 – Ziff. 2 Selbständige Erwerbstätigkeit und Ziff. 3 Sozialversicherungen (Codes 120–147, Raster) (Teil 2/2)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -908,11 +805,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0030",
-"nachher": "ar-wl-2025__c0032"
+"vorher": "ar-wl-2025__c0027",
+"nachher": "ar-wl-2025__c0029"
 },
 {
-"id": "ar-wl-2025__c0032",
+"id": "ar-wl-2025__c0029",
 "titel": "Formular 1 Seite 2 – Ziff. 4–8 Wertschriften, Liegenschaften, weitere Einkünfte, Ergänzende Angaben (Codes 149–293, Raster) (Teil 1/3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -944,11 +841,11 @@
 ],
 "zusammenfassung": "Formularraster Ziff. 4.1–4.3 (Codes 149–154), 5 Liegenschaften, 6.1–6.4 weitere Einkünfte (156–168), 7 Total Einkünfte (290), 8 Ergänzende Angaben (291–293); Schluss der allgemeinen Erläuterung, dass das gesamte in- und ausländische Einkommen der Steuerpflicht unterliegt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0031",
-"nachher": "ar-wl-2025__c0033"
+"vorher": "ar-wl-2025__c0028",
+"nachher": "ar-wl-2025__c0030"
 },
 {
-"id": "ar-wl-2025__c0033",
+"id": "ar-wl-2025__c0030",
 "titel": "Formular 1 Seite 2 – Ziff. 4–8 Wertschriften, Liegenschaften, weitere Einkünfte, Ergänzende Angaben (Codes 149–293, Raster) (Teil 2/3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -980,11 +877,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0032",
-"nachher": "ar-wl-2025__c0034"
+"vorher": "ar-wl-2025__c0029",
+"nachher": "ar-wl-2025__c0031"
 },
 {
-"id": "ar-wl-2025__c0034",
+"id": "ar-wl-2025__c0031",
 "titel": "Formular 1 Seite 2 – Ziff. 4–8 Wertschriften, Liegenschaften, weitere Einkünfte, Ergänzende Angaben (Codes 149–293, Raster) (Teil 3/3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -1016,11 +913,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0033",
-"nachher": "ar-wl-2025__c0035"
+"vorher": "ar-wl-2025__c0030",
+"nachher": "ar-wl-2025__c0032"
 },
 {
-"id": "ar-wl-2025__c0035",
+"id": "ar-wl-2025__c0032",
 "titel": "Ziff. 1 Einkünfte aus unselbständiger Erwerbstätigkeit – Lohn, Nebenbezüge, Naturalleistungen (Teil 1/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1045,11 +942,11 @@
 ],
 "zusammenfassung": "Alle Leistungen des Arbeitgebers (Lohn, Zulagen, Provisionen, Gratifikationen, Mitarbeiteraktien, Naturalleistungen) sind steuerbar und mit den Lohnausweisen (Ziffern 1–10) lückenlos zu belegen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0034",
-"nachher": "ar-wl-2025__c0036"
+"vorher": "ar-wl-2025__c0031",
+"nachher": "ar-wl-2025__c0033"
 },
 {
-"id": "ar-wl-2025__c0036",
+"id": "ar-wl-2025__c0033",
 "titel": "Ziff. 1 Einkünfte aus unselbständiger Erwerbstätigkeit – Lohn, Nebenbezüge, Naturalleistungen (Teil 2/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1074,11 +971,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0035",
-"nachher": "ar-wl-2025__c0037"
+"vorher": "ar-wl-2025__c0032",
+"nachher": "ar-wl-2025__c0034"
 },
 {
-"id": "ar-wl-2025__c0037",
+"id": "ar-wl-2025__c0034",
 "titel": "Ziff. 1 – vereinfachtes Abrechnungsverfahren, Aus-/Weiterbildung durch Arbeitgeber, Spesenentschädigungen",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1102,101 +999,97 @@
 ],
 "zusammenfassung": "Pauschale Spesenvergütungen sind in jedem Fall auf dem Lohnausweis aufzuführen; vom Arbeitgeber getragene Aus- und Weiterbildungskosten sind nicht steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0033",
+"nachher": "ar-wl-2025__c0035"
+},
+{
+"id": "ar-wl-2025__c0035",
+"titel": "Ziff. 1.1 und 1.2 Haupterwerb (Nettolohn) und Nebenerwerb – Einkünfte, Abgrenzung (Teil 1/2)",
+"pfad": [
+"Die einzelnen Einkünfte",
+"Ziff. 1"
+],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": "1.1, 1.2",
+"stichworte": [
+"Nettolohn",
+"Haupterwerb",
+"Nebenerwerb",
+"Nebenjob",
+"Hauswart",
+"Mietzinsreduktion"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.unselbstaendig.nebenerwerb"
+],
+"zusammenfassung": "Einzusetzen ist der Nettolohn gemäss Lohnausweis (Bruttolohn abzüglich Sozialversicherungs- und 2.-Säule-Beiträge); Nebenerwerb ist eine Tätigkeit neben einem vollen Hauptberuf für einen anderen Arbeitgeber.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0034",
+"nachher": "ar-wl-2025__c0036"
+},
+{
+"id": "ar-wl-2025__c0036",
+"titel": "Ziff. 1.1 und 1.2 Haupterwerb (Nettolohn) und Nebenerwerb – Einkünfte, Abgrenzung (Teil 2/2)",
+"pfad": [
+"Die einzelnen Einkünfte",
+"Ziff. 1"
+],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": "1.1, 1.2",
+"stichworte": [
+"Nettolohn",
+"Haupterwerb",
+"Nebenerwerb",
+"Nebenjob",
+"Hauswart",
+"Mietzinsreduktion"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.unselbstaendig.nebenerwerb"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0035",
+"nachher": "ar-wl-2025__c0037"
+},
+{
+"id": "ar-wl-2025__c0037",
+"titel": "Ziff. 1.3 Sitzungs- und Taggelder, VR-Honorare, Tantièmen; Behördenmitglieder (Zuschlag Fr. 2’600)",
+"pfad": [
+"Die einzelnen Einkünfte",
+"Ziff. 1"
+],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": "1.3",
+"stichworte": [
+"Sitzungsgeld",
+"Taggeld",
+"Verwaltungsratshonorar",
+"Tantième",
+"Behördenentschädigung",
+"Gemeinderat"
+],
+"positionen": [
+"einkommen.unselbstaendig.vr_honorare"
+],
+"zusammenfassung": "Sitzungs- und Taggelder, VR-Honorare und Tantièmen sind unter Ziffer 1.3 anzugeben; für nebenamtliche Behördenmitglieder können zusätzlich bis max. Fr. 2’600.– zu den pauschalen Berufskosten abgezogen werden (nicht DBSt).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-wl-2025__c0036",
 "nachher": "ar-wl-2025__c0038"
 },
 {
 "id": "ar-wl-2025__c0038",
-"titel": "Ziff. 1.1–1.3 Haupterwerb, Nebenerwerb, Sitzungsgelder und VR-Honorare (Teil 1/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 1"
-],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": "1.1, 1.2, 1.3",
-"stichworte": [
-"Nettolohn",
-"Nebenerwerb",
-"Behördenentschädigung",
-"Sitzungsgeld",
-"Tantième",
-"Hauswart"
-],
-"positionen": [
-"einkommen.unselbstaendig.haupterwerb",
-"einkommen.unselbstaendig.nebenerwerb",
-"einkommen.unselbstaendig.vr_honorare"
-],
-"zusammenfassung": "Einzusetzen ist der Nettolohn gemäss Lohnausweis; bei nebenamtlichen Behördenmitgliedern können zu den pauschalen Berufskosten zusätzlich bis max. Fr. 2’600.– abgezogen werden (nicht DBSt).",
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0037",
-"nachher": "ar-wl-2025__c0039"
-},
-{
-"id": "ar-wl-2025__c0039",
-"titel": "Ziff. 1.1–1.3 Haupterwerb, Nebenerwerb, Sitzungsgelder und VR-Honorare (Teil 2/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 1"
-],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": "1.1, 1.2, 1.3",
-"stichworte": [
-"Nettolohn",
-"Nebenerwerb",
-"Behördenentschädigung",
-"Sitzungsgeld",
-"Tantième",
-"Hauswart"
-],
-"positionen": [
-"einkommen.unselbstaendig.haupterwerb",
-"einkommen.unselbstaendig.nebenerwerb",
-"einkommen.unselbstaendig.vr_honorare"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0038",
-"nachher": "ar-wl-2025__c0040"
-},
-{
-"id": "ar-wl-2025__c0040",
-"titel": "Ziff. 1.1–1.3 Haupterwerb, Nebenerwerb, Sitzungsgelder und VR-Honorare (Teil 3/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 1"
-],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": "1.1, 1.2, 1.3",
-"stichworte": [
-"Nettolohn",
-"Nebenerwerb",
-"Behördenentschädigung",
-"Sitzungsgeld",
-"Tantième",
-"Hauswart"
-],
-"positionen": [
-"einkommen.unselbstaendig.haupterwerb",
-"einkommen.unselbstaendig.nebenerwerb",
-"einkommen.unselbstaendig.vr_honorare"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0039",
-"nachher": "ar-wl-2025__c0041"
-},
-{
-"id": "ar-wl-2025__c0041",
 "titel": "Ziff. 2 Selbständige Erwerbstätigkeit – Umfang, Buchführung, Beilagen (Teil 1/3)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1221,11 +1114,11 @@
 ],
 "zusammenfassung": "Einkommen aus Gewerbe, Landwirtschaft und freien Berufen; Aufstellung über Aktiven/Passiven, Einnahmen/Ausgaben beizulegen, Belege sind zehn Jahre aufzubewahren.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0040",
-"nachher": "ar-wl-2025__c0042"
+"vorher": "ar-wl-2025__c0037",
+"nachher": "ar-wl-2025__c0039"
 },
 {
-"id": "ar-wl-2025__c0042",
+"id": "ar-wl-2025__c0039",
 "titel": "Ziff. 2 Selbständige Erwerbstätigkeit – Umfang, Buchführung, Beilagen (Teil 2/3)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1250,11 +1143,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0041",
-"nachher": "ar-wl-2025__c0043"
+"vorher": "ar-wl-2025__c0038",
+"nachher": "ar-wl-2025__c0040"
 },
 {
-"id": "ar-wl-2025__c0043",
+"id": "ar-wl-2025__c0040",
 "titel": "Ziff. 2 Selbständige Erwerbstätigkeit – Umfang, Buchführung, Beilagen (Teil 3/3)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1279,11 +1172,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0042",
-"nachher": "ar-wl-2025__c0044"
+"vorher": "ar-wl-2025__c0039",
+"nachher": "ar-wl-2025__c0041"
 },
 {
-"id": "ar-wl-2025__c0044",
+"id": "ar-wl-2025__c0041",
 "titel": "Ziff. 2 – Internet-Plattformen, Kapitalgewinne, Liquidationsgewinne (Teil 1/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1307,11 +1200,11 @@
 ],
 "zusammenfassung": "Kapitalgewinne und Liquidationsgewinne zählen zum selbständigen Einkommen; bei Aufgabe nach dem 55. Altersjahr oder wegen Invalidität privilegierte Besteuerung der in den letzten zwei Geschäftsjahren realisierten stillen Reserven.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0043",
-"nachher": "ar-wl-2025__c0045"
+"vorher": "ar-wl-2025__c0040",
+"nachher": "ar-wl-2025__c0042"
 },
 {
-"id": "ar-wl-2025__c0045",
+"id": "ar-wl-2025__c0042",
 "titel": "Ziff. 2 – Internet-Plattformen, Kapitalgewinne, Liquidationsgewinne (Teil 2/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1335,12 +1228,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0044",
-"nachher": "ar-wl-2025__c0046"
+"vorher": "ar-wl-2025__c0041",
+"nachher": "ar-wl-2025__c0043"
 },
 {
-"id": "ar-wl-2025__c0046",
-"titel": "Ziff. 2 – Naturalbezüge und Privatanteile (Pauschalen Fr. 3’540 / 900 / 600) (Teil 1/3)",
+"id": "ar-wl-2025__c0043",
+"titel": "Ziff. 2 – Bewertung von Naturalbezügen, Eigenmietwert im Geschäftshaus (Teil 1/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
 "Ziff. 2"
@@ -1352,22 +1245,104 @@
 "ziffer": "2",
 "stichworte": [
 "Naturalbezug",
-"Privatanteil",
+"Warenbezug",
 "Eigenmietwert Geschäftshaus",
-"Autokosten Privatanteil",
 "Merkblatt N1/2007"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Warenbezüge sind mit dem Betrag anzurechnen, den eine dritte Person zahlen müsste; der Mietwert der Wohnung im eigenen Haus richtet sich nach den ortsüblichen Mietzinsen bzw. der Grundbuchschätzung.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0042",
+"nachher": "ar-wl-2025__c0044"
+},
+{
+"id": "ar-wl-2025__c0044",
+"titel": "Ziff. 2 – Bewertung von Naturalbezügen, Eigenmietwert im Geschäftshaus (Teil 2/2)",
+"pfad": [
+"Die einzelnen Einkünfte",
+"Ziff. 2"
+],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": "2",
+"stichworte": [
+"Naturalbezug",
+"Warenbezug",
+"Eigenmietwert Geschäftshaus",
+"Merkblatt N1/2007"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0043",
+"nachher": "ar-wl-2025__c0045"
+},
+{
+"id": "ar-wl-2025__c0045",
+"titel": "Ziff. 2 – Privatanteil an Unkosten (Fr. 3’540 / 900 / 600), Löhne und Autokosten, EO und Zulagen",
+"pfad": [
+"Die einzelnen Einkünfte",
+"Ziff. 2"
+],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": "2, 3.3, 3.5",
+"stichworte": [
+"Privatanteil",
+"Heizung Strom Telefon",
+"Autokosten Privatanteil",
+"Erwerbsausfallentschädigung",
+"Familienzulagen"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "Privatanteil jährlich Fr. 3’540.– (1 Erwachsener), Fr. 900.– je weiteren Erwachsenen, Fr. 600.– je Kind (monatlich Fr. 295 / 75 / 50); EO bei Selbständigen in der Jahresrechnung, Familienzulagen unter Ziffer 3.5.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0044",
+"nachher": "ar-wl-2025__c0046"
+},
+{
+"id": "ar-wl-2025__c0046",
+"titel": "Ziff. 2 – Abzugsfähige Gewinnungskosten",
+"pfad": [
+"Die einzelnen Einkünfte",
+"Ziff. 2"
+],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": "2",
+"stichworte": [
+"Gewinnungskosten",
+"Betriebsunkosten",
+"Fremdkapitalzinsen",
+"Löhne Personal",
+"AHV-Beiträge Geschäft"
 ],
 "positionen": [
 "einkommen.selbstaendig"
 ],
-"zusammenfassung": "Privatanteil an Unkosten pro Jahr: Fr. 3’540.– für 1 Erwachsenen, Fr. 900.– je weiteren Erwachsenen, Fr. 600.– je Kind (monatlich Fr. 295 / 75 / 50).",
+"zusammenfassung": "Abziehbar sind Betriebsunkosten, Unterhalt von Inventar und Betriebsliegenschaften, Fremdkapitalzinsen, Löhne, Mietzinsen für Betriebsräume und AHV/IV/EO/ALV-Beiträge.",
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-wl-2025__c0045",
 "nachher": "ar-wl-2025__c0047"
 },
 {
 "id": "ar-wl-2025__c0047",
-"titel": "Ziff. 2 – Naturalbezüge und Privatanteile (Pauschalen Fr. 3’540 / 900 / 600) (Teil 2/3)",
+"titel": "Ziff. 2 – 2. Säule und Säule 3a bei Selbständigen, nicht abziehbare Aufwendungen",
 "pfad": [
 "Die einzelnen Einkünfte",
 "Ziff. 2"
@@ -1376,138 +1351,26 @@
 9
 ],
 "artikel": null,
-"ziffer": "2",
+"ziffer": "2, 13",
 "stichworte": [
-"Naturalbezug",
-"Privatanteil",
-"Eigenmietwert Geschäftshaus",
-"Autokosten Privatanteil",
-"Merkblatt N1/2007"
+"Arbeitgeberanteil",
+"Selbständige Vorsorge",
+"Eigenlohn",
+"Eigenkapitalzins",
+"Privatsteuern nicht abziehbar"
 ],
 "positionen": [
-"einkommen.selbstaendig"
+"einkommen.selbstaendig",
+"abzug.vorsorge.saeule3a",
+"abzug.vorsorge.saeule2_einkauf"
 ],
-"zusammenfassung": null,
+"zusammenfassung": "Selbständige dürfen nur den Arbeitgeberanteil (ohne Personal die Hälfte) der 2.-Säule-Beiträge abziehen; der Privatanteil und Säule 3a nur in Ziffern 13.2 bzw. 13.1; nicht abziehbar sind u.a. Eigenlohn, Eigenkapitalzinsen, Steuern und Privatversicherungen.",
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-wl-2025__c0046",
 "nachher": "ar-wl-2025__c0048"
 },
 {
 "id": "ar-wl-2025__c0048",
-"titel": "Ziff. 2 – Naturalbezüge und Privatanteile (Pauschalen Fr. 3’540 / 900 / 600) (Teil 3/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 2"
-],
-"seiten": [
-9
-],
-"artikel": null,
-"ziffer": "2",
-"stichworte": [
-"Naturalbezug",
-"Privatanteil",
-"Eigenmietwert Geschäftshaus",
-"Autokosten Privatanteil",
-"Merkblatt N1/2007"
-],
-"positionen": [
-"einkommen.selbstaendig"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0047",
-"nachher": "ar-wl-2025__c0049"
-},
-{
-"id": "ar-wl-2025__c0049",
-"titel": "Ziff. 2 – Gewinnungskosten, Vorsorgebeiträge Selbständiger, nicht abziehbare Aufwendungen (Teil 1/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 2"
-],
-"seiten": [
-9
-],
-"artikel": null,
-"ziffer": "2, 13",
-"stichworte": [
-"Gewinnungskosten",
-"Geschäftsaufwand",
-"Arbeitgeberanteil 2. Säule",
-"Eigenlohn",
-"Familienzulagen",
-"EO"
-],
-"positionen": [
-"einkommen.selbstaendig",
-"einkommen.ersatz.familienzulagen"
-],
-"zusammenfassung": "Abziehbar sind Betriebsunkosten, Fremdkapitalzinsen, Löhne, Sozialbeiträge; Selbständige dürfen nur den Arbeitgeberanteil (ohne Personal die Hälfte) der 2.-Säule-Beiträge abziehen, Säule 3a nur in Ziff. 13.1.",
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0048",
-"nachher": "ar-wl-2025__c0050"
-},
-{
-"id": "ar-wl-2025__c0050",
-"titel": "Ziff. 2 – Gewinnungskosten, Vorsorgebeiträge Selbständiger, nicht abziehbare Aufwendungen (Teil 2/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 2"
-],
-"seiten": [
-9
-],
-"artikel": null,
-"ziffer": "2, 13",
-"stichworte": [
-"Gewinnungskosten",
-"Geschäftsaufwand",
-"Arbeitgeberanteil 2. Säule",
-"Eigenlohn",
-"Familienzulagen",
-"EO"
-],
-"positionen": [
-"einkommen.selbstaendig",
-"einkommen.ersatz.familienzulagen"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0049",
-"nachher": "ar-wl-2025__c0051"
-},
-{
-"id": "ar-wl-2025__c0051",
-"titel": "Ziff. 2 – Gewinnungskosten, Vorsorgebeiträge Selbständiger, nicht abziehbare Aufwendungen (Teil 3/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 2"
-],
-"seiten": [
-9
-],
-"artikel": null,
-"ziffer": "2, 13",
-"stichworte": [
-"Gewinnungskosten",
-"Geschäftsaufwand",
-"Arbeitgeberanteil 2. Säule",
-"Eigenlohn",
-"Familienzulagen",
-"EO"
-],
-"positionen": [
-"einkommen.selbstaendig",
-"einkommen.ersatz.familienzulagen"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0050",
-"nachher": "ar-wl-2025__c0052"
-},
-{
-"id": "ar-wl-2025__c0052",
 "titel": "Ziff. 2 – Abschreibungen, Rückstellungen, Ersatzbeschaffung",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1531,11 +1394,11 @@
 ],
 "zusammenfassung": "Gewinne aus Veräusserung von betriebsnotwendigem Anlagevermögen können steuerneutral auf ein Ersatzobjekt übertragen werden, in der Regel innert drei Jahren.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0051",
-"nachher": "ar-wl-2025__c0053"
+"vorher": "ar-wl-2025__c0047",
+"nachher": "ar-wl-2025__c0049"
 },
 {
-"id": "ar-wl-2025__c0053",
+"id": "ar-wl-2025__c0049",
 "titel": "Ziff. 3.1–3.2 AHV-/IV-Renten, Renten der 2. Säule und aus Versicherungsverträgen",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1560,12 +1423,12 @@
 ],
 "zusammenfassung": "AHV-/IV-Renten sind voll zu deklarieren, Ergänzungsleistungen nicht; Renten und Pensionen der 2. Säule sind steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0052",
-"nachher": "ar-wl-2025__c0054"
+"vorher": "ar-wl-2025__c0048",
+"nachher": "ar-wl-2025__c0050"
 },
 {
-"id": "ar-wl-2025__c0054",
-"titel": "Ziff. 3.2 Steuerbarer Umfang von Renten (80 %, 60 %, 100 %), Leibrenten, Militärversicherung (Teil 1/3)",
+"id": "ar-wl-2025__c0050",
+"titel": "Ziff. 3.2 Steuerbarer Umfang von Renten der 2. Säule (80 % / 100 %) und Säule 3a",
 "pfad": [
 "Die einzelnen Einkünfte",
 "Ziff. 3"
@@ -1576,25 +1439,52 @@
 "artikel": null,
 "ziffer": "3.2",
 "stichworte": [
-"Rentenbesteuerung",
+"Pensionskassenrente",
 "80 Prozent",
+"100 Prozent steuerbar",
+"Säule 3a Rente",
+"Rentenbeginn 2001"
+],
+"positionen": [
+"einkommen.vorsorge.renten"
+],
+"zusammenfassung": "2.-Säule-Renten zu 80 % steuerbar, wenn Rentenbeginn vor 31.12.2001, Vorsorgeverhältnis vor 1.1.1985 und mind. 20 % eigene Beiträge, sonst 100 %; Säule-3a-Renten 100 % steuerbar.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0049",
+"nachher": "ar-wl-2025__c0051"
+},
+{
+"id": "ar-wl-2025__c0051",
+"titel": "Ziff. 3.2 Unfallversicherungsrenten, Leibrenten (Säule 3b), Risikoversicherung, Militärversicherung (Teil 1/2)",
+"pfad": [
+"Die einzelnen Einkünfte",
+"Ziff. 3"
+],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": "3.2",
+"stichworte": [
+"Unfallrente",
 "Leibrente",
 "Säule 3b",
-"Unfallversicherung Rente",
+"Ertragsanteil",
+"Risikoversicherung",
 "Militärversicherung"
 ],
 "positionen": [
 "einkommen.vorsorge.renten",
 "einkommen.vorsorge.uebrige_renten"
 ],
-"zusammenfassung": "2.-Säule-Renten zu 100 % steuerbar (80 % bei Rentenbeginn vor 31.12.2001 und Vorsorgeverhältnis vor 1.1.1985 mit mind. 20 % eigenen Beiträgen); Säule-3a-Renten 100 %; Unfallversicherungsrenten 100 %, 80 % oder 60 % je nach Fall.",
+"zusammenfassung": "Unfallversicherungsrenten zu 100 % (80 % bzw. 60 % bei Nichtberufsunfall vor 1.1.1987); Leibrenten nach VVG mit dem von der Versicherung bescheinigten Ertragsanteil; Renten aus Risikoversicherungen und Militärversicherung 100 % steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0053",
-"nachher": "ar-wl-2025__c0055"
+"vorher": "ar-wl-2025__c0050",
+"nachher": "ar-wl-2025__c0052"
 },
 {
-"id": "ar-wl-2025__c0055",
-"titel": "Ziff. 3.2 Steuerbarer Umfang von Renten (80 %, 60 %, 100 %), Leibrenten, Militärversicherung (Teil 2/3)",
+"id": "ar-wl-2025__c0052",
+"titel": "Ziff. 3.2 Unfallversicherungsrenten, Leibrenten (Säule 3b), Risikoversicherung, Militärversicherung (Teil 2/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
 "Ziff. 3"
@@ -1605,11 +1495,11 @@
 "artikel": null,
 "ziffer": "3.2",
 "stichworte": [
-"Rentenbesteuerung",
-"80 Prozent",
+"Unfallrente",
 "Leibrente",
 "Säule 3b",
-"Unfallversicherung Rente",
+"Ertragsanteil",
+"Risikoversicherung",
 "Militärversicherung"
 ],
 "positionen": [
@@ -1618,40 +1508,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0054",
-"nachher": "ar-wl-2025__c0056"
+"vorher": "ar-wl-2025__c0051",
+"nachher": "ar-wl-2025__c0053"
 },
 {
-"id": "ar-wl-2025__c0056",
-"titel": "Ziff. 3.2 Steuerbarer Umfang von Renten (80 %, 60 %, 100 %), Leibrenten, Militärversicherung (Teil 3/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 3"
-],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": "3.2",
-"stichworte": [
-"Rentenbesteuerung",
-"80 Prozent",
-"Leibrente",
-"Säule 3b",
-"Unfallversicherung Rente",
-"Militärversicherung"
-],
-"positionen": [
-"einkommen.vorsorge.renten",
-"einkommen.vorsorge.uebrige_renten"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0055",
-"nachher": "ar-wl-2025__c0057"
-},
-{
-"id": "ar-wl-2025__c0057",
+"id": "ar-wl-2025__c0053",
 "titel": "Ziff. 3.3–3.5 Erwerbsausfall-, IV-, Kranken- und Unfalltaggelder, Arbeitslosentaggelder, Familienzulagen (Teil 1/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1676,11 +1537,11 @@
 ],
 "zusammenfassung": "Taggelder aus Invaliden-, Kranken- und Unfallversicherung sind vollumfänglich zu deklarieren, soweit nicht im Lohnausweis enthalten; direkt ausbezahlte Kinder- und Familienzulagen gehören in Ziffer 3.5.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0056",
-"nachher": "ar-wl-2025__c0058"
+"vorher": "ar-wl-2025__c0052",
+"nachher": "ar-wl-2025__c0054"
 },
 {
-"id": "ar-wl-2025__c0058",
+"id": "ar-wl-2025__c0054",
 "titel": "Ziff. 3.3–3.5 Erwerbsausfall-, IV-, Kranken- und Unfalltaggelder, Arbeitslosentaggelder, Familienzulagen (Teil 2/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1705,12 +1566,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0057",
-"nachher": "ar-wl-2025__c0059"
+"vorher": "ar-wl-2025__c0053",
+"nachher": "ar-wl-2025__c0055"
 },
 {
-"id": "ar-wl-2025__c0059",
-"titel": "Ziff. 4.1 Erträge von Bankkonten und Wertschriften – steuerbare Erträge (Teil 1/3)",
+"id": "ar-wl-2025__c0055",
+"titel": "Ziff. 4.1 Erträge von Bankkonten und Wertschriften – Zinsen, Lotterie, Naturalleistungen",
 "pfad": [
 "Die einzelnen Einkünfte",
 "Ziff. 4"
@@ -1723,23 +1584,22 @@
 "stichworte": [
 "Wertschriftenertrag",
 "Zinsen",
-"Dividenden",
-"Lotteriegewinne",
-"Kapitalversicherung Einmalprämie",
-"Anlagefonds"
+"Lotteriegewinn",
+"Geldspielgesetz",
+"Wertschriftenverzeichnis"
 ],
 "positionen": [
 "einkommen.wertschriften",
 "einkommen.lotterie_gewinne"
 ],
-"zusammenfassung": "Sämtliche Erträge aus beweglichem Privatvermögen sind steuerbar (Zinsen, Dividenden, Lotteriegewinne, Erträge aus rückkaufsfähigen Kapitalversicherungen mit Einmalprämie).",
+"zusammenfassung": "Sämtliche Erträge aus beweglichem Privatvermögen sind steuerbar; inländische Geldspielgewinne zum Teil steuerfrei (steuerbar ist die der Verrechnungssteuer unterliegende Quote), ausländische voll steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0058",
-"nachher": "ar-wl-2025__c0060"
+"vorher": "ar-wl-2025__c0054",
+"nachher": "ar-wl-2025__c0056"
 },
 {
-"id": "ar-wl-2025__c0060",
-"titel": "Ziff. 4.1 Erträge von Bankkonten und Wertschriften – steuerbare Erträge (Teil 2/3)",
+"id": "ar-wl-2025__c0056",
+"titel": "Ziff. 4.1 – Tombola, rückkaufsfähige Kapitalversicherungen, Obligationen, Dividenden",
 "pfad": [
 "Die einzelnen Einkünfte",
 "Ziff. 4"
@@ -1750,53 +1610,22 @@
 "artikel": null,
 "ziffer": "4.1",
 "stichworte": [
-"Wertschriftenertrag",
-"Zinsen",
-"Dividenden",
-"Lotteriegewinne",
+"Tombola",
 "Kapitalversicherung Einmalprämie",
-"Anlagefonds"
+"Diskont-Obligation",
+"Dividende",
+"kollektive Kapitalanlagen"
 ],
 "positionen": [
-"einkommen.wertschriften",
-"einkommen.lotterie_gewinne"
+"einkommen.wertschriften"
 ],
-"zusammenfassung": null,
+"zusammenfassung": "Steuerbar sind Erträge aus rückkaufsfähigen Kapitalversicherungen mit Einmalprämie (ausser Vorsorge: Auszahlung ab 60 nach mind. fünf Jahren), Obligationen mit überwiegender Einmalverzinsung und Dividenden.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0059",
-"nachher": "ar-wl-2025__c0061"
+"vorher": "ar-wl-2025__c0055",
+"nachher": "ar-wl-2025__c0057"
 },
 {
-"id": "ar-wl-2025__c0061",
-"titel": "Ziff. 4.1 Erträge von Bankkonten und Wertschriften – steuerbare Erträge (Teil 3/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 4"
-],
-"seiten": [
-11
-],
-"artikel": null,
-"ziffer": "4.1",
-"stichworte": [
-"Wertschriftenertrag",
-"Zinsen",
-"Dividenden",
-"Lotteriegewinne",
-"Kapitalversicherung Einmalprämie",
-"Anlagefonds"
-],
-"positionen": [
-"einkommen.wertschriften",
-"einkommen.lotterie_gewinne"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0060",
-"nachher": "ar-wl-2025__c0062"
-},
-{
-"id": "ar-wl-2025__c0062",
+"id": "ar-wl-2025__c0057",
 "titel": "Ziff. 4.2–4.3 Teilbesteuerung qualifizierter Beteiligungen (60 %)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1820,11 +1649,11 @@
 ],
 "zusammenfassung": "Ausgeschüttete Gewinne werden nur zu 60 Prozent besteuert bei einer Beteiligung von wenigstens 10 Prozent; Beteiligungen des Geschäftsvermögens (Code BG) sind in Ziffer 4.3 zu deklarieren.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0061",
-"nachher": "ar-wl-2025__c0063"
+"vorher": "ar-wl-2025__c0056",
+"nachher": "ar-wl-2025__c0058"
 },
 {
-"id": "ar-wl-2025__c0063",
+"id": "ar-wl-2025__c0058",
 "titel": "Ziff. 5 Einkünfte aus Liegenschaften (Teil 1/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1848,11 +1677,11 @@
 ],
 "zusammenfassung": "Eigenmietwert und Miet-/Pachtzinseinnahmen privater Liegenschaften sind pro Liegenschaft im Formular 7 zu ermitteln und gesamthaft in Ziffer 5 zu übertragen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0062",
-"nachher": "ar-wl-2025__c0064"
+"vorher": "ar-wl-2025__c0057",
+"nachher": "ar-wl-2025__c0059"
 },
 {
-"id": "ar-wl-2025__c0064",
+"id": "ar-wl-2025__c0059",
 "titel": "Ziff. 5 Einkünfte aus Liegenschaften (Teil 2/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -1876,12 +1705,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0063",
-"nachher": "ar-wl-2025__c0065"
+"vorher": "ar-wl-2025__c0058",
+"nachher": "ar-wl-2025__c0060"
 },
 {
-"id": "ar-wl-2025__c0065",
-"titel": "Ziff. 6.1–6.4 Weitere Einkünfte – Alimente, unverteilte Erbschaften, übrige Einkünfte, Kapitalabfindungen (Teil 1/3)",
+"id": "ar-wl-2025__c0060",
+"titel": "Ziff. 6.1 Erhaltene Unterhaltsbeiträge (Alimente)",
 "pfad": [
 "Die einzelnen Einkünfte",
 "Ziff. 6"
@@ -1891,95 +1720,84 @@
 12
 ],
 "artikel": null,
-"ziffer": "6.1, 6.2, 6.3, 6.4",
+"ziffer": "6.1",
 "stichworte": [
 "Alimente erhalten",
 "Unterhaltsbeiträge",
+"Kinderalimente",
+"geschieden",
+"getrennt"
+],
+"positionen": [
+"einkommen.unterhaltsbeitraege"
+],
+"zusammenfassung": "Periodische Unterhaltsbeiträge für den Ehegatten und für minderjährige Kinder sind beim Empfänger steuerbar.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0059",
+"nachher": "ar-wl-2025__c0061"
+},
+{
+"id": "ar-wl-2025__c0061",
+"titel": "Ziff. 6.2–6.4 Unverteilte Erbschaften, übrige Einkünfte, Kapitalabfindungen (Teil 1/2)",
+"pfad": [
+"Die einzelnen Einkünfte",
+"Ziff. 6"
+],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": "6.2, 6.3, 6.4",
+"stichworte": [
 "Erbengemeinschaft",
 "Provisionen",
+"Trinkgelder",
 "Lizenzen",
 "Förderbeiträge",
 "Kapitalabfindung"
 ],
 "positionen": [
-"einkommen.unterhaltsbeitraege",
 "einkommen.erbschaften_unverteilt",
 "einkommen.uebrige",
 "einkommen.kapitalabfindung_wiederkehrend"
 ],
-"zusammenfassung": "Unterhaltsbeiträge für Ehegatte und minderjährige Kinder sind beim Empfänger steuerbar; übrige Einkünfte wie Provisionen, Trinkgelder, Lizenzen und nicht verrechnete Förderbeiträge gehören in Ziffer 6.3.",
+"zusammenfassung": "Einkünfte aus unverteilten Erbschaften sind anteilig mit Aufstellung zu deklarieren; Ziffer 6.3 für Provisionen, Trinkgelder, Mitarbeiterbeteiligungen, Lizenzen; Kapitalabfindungen für wiederkehrende Leistungen zum Rentensatz.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0064",
-"nachher": "ar-wl-2025__c0066"
+"vorher": "ar-wl-2025__c0060",
+"nachher": "ar-wl-2025__c0062"
 },
 {
-"id": "ar-wl-2025__c0066",
-"titel": "Ziff. 6.1–6.4 Weitere Einkünfte – Alimente, unverteilte Erbschaften, übrige Einkünfte, Kapitalabfindungen (Teil 2/3)",
+"id": "ar-wl-2025__c0062",
+"titel": "Ziff. 6.2–6.4 Unverteilte Erbschaften, übrige Einkünfte, Kapitalabfindungen (Teil 2/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
 "Ziff. 6"
 ],
 "seiten": [
-11,
 12
 ],
 "artikel": null,
-"ziffer": "6.1, 6.2, 6.3, 6.4",
+"ziffer": "6.2, 6.3, 6.4",
 "stichworte": [
-"Alimente erhalten",
-"Unterhaltsbeiträge",
 "Erbengemeinschaft",
 "Provisionen",
+"Trinkgelder",
 "Lizenzen",
 "Förderbeiträge",
 "Kapitalabfindung"
 ],
 "positionen": [
-"einkommen.unterhaltsbeitraege",
-"einkommen.erbschaften_unverteilt",
-"einkommen.uebrige",
-"einkommen.kapitalabfindung_wiederkehrend"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0065",
-"nachher": "ar-wl-2025__c0067"
-},
-{
-"id": "ar-wl-2025__c0067",
-"titel": "Ziff. 6.1–6.4 Weitere Einkünfte – Alimente, unverteilte Erbschaften, übrige Einkünfte, Kapitalabfindungen (Teil 3/3)",
-"pfad": [
-"Die einzelnen Einkünfte",
-"Ziff. 6"
-],
-"seiten": [
-11,
-12
-],
-"artikel": null,
-"ziffer": "6.1, 6.2, 6.3, 6.4",
-"stichworte": [
-"Alimente erhalten",
-"Unterhaltsbeiträge",
-"Erbengemeinschaft",
-"Provisionen",
-"Lizenzen",
-"Förderbeiträge",
-"Kapitalabfindung"
-],
-"positionen": [
-"einkommen.unterhaltsbeitraege",
 "einkommen.erbschaften_unverteilt",
 "einkommen.uebrige",
 "einkommen.kapitalabfindung_wiederkehrend"
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0066",
-"nachher": "ar-wl-2025__c0068"
+"vorher": "ar-wl-2025__c0061",
+"nachher": "ar-wl-2025__c0063"
 },
 {
-"id": "ar-wl-2025__c0068",
+"id": "ar-wl-2025__c0063",
 "titel": "Ziff. 8 Ergänzende Angaben – vereinfachtes Verfahren, EL, Hilflosenentschädigung, Überbrückungsleistungen (Teil 1/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -2003,11 +1821,11 @@
 ],
 "zusammenfassung": "Beim vereinfachten Verfahren ist der Bruttolohn einzusetzen (Quellensteuerabzug 5 %); Ergänzungsleistungen, Hilflosenentschädigungen und Überbrückungsleistungen sind steuerfrei, nur zur Information.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0067",
-"nachher": "ar-wl-2025__c0069"
+"vorher": "ar-wl-2025__c0062",
+"nachher": "ar-wl-2025__c0064"
 },
 {
-"id": "ar-wl-2025__c0069",
+"id": "ar-wl-2025__c0064",
 "titel": "Ziff. 8 Ergänzende Angaben – vereinfachtes Verfahren, EL, Hilflosenentschädigung, Überbrückungsleistungen (Teil 2/2)",
 "pfad": [
 "Die einzelnen Einkünfte",
@@ -2031,11 +1849,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0068",
-"nachher": "ar-wl-2025__c0070"
+"vorher": "ar-wl-2025__c0063",
+"nachher": "ar-wl-2025__c0065"
 },
 {
-"id": "ar-wl-2025__c0070",
+"id": "ar-wl-2025__c0065",
 "titel": "Abzüge vom Einkommen – Übersicht Formulare und Belege",
 "pfad": [
 "Abzüge vom Einkommen"
@@ -2058,11 +1876,11 @@
 ],
 "zusammenfassung": "Tabelle der Abzüge mit Formular: Ziff. 10 Berufskosten (Formular 4), 11 Schuldzinsen (5), 14 Versicherungsprämien (6), 15 Liegenschaften (7), 16.2 Kinderbetreuung (10), 16.3 Parteispenden (5), 21.1/2 Krankheitskosten (6), 21.3 Zuwendungen (5).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0069",
-"nachher": "ar-wl-2025__c0071"
+"vorher": "ar-wl-2025__c0064",
+"nachher": "ar-wl-2025__c0066"
 },
 {
-"id": "ar-wl-2025__c0071",
+"id": "ar-wl-2025__c0066",
 "titel": "Formular 4 Vorderseite – Berufskosten Ziff. 1 Fahrkosten (Codes 400–405, Raster) (Teil 1/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2086,11 +1904,11 @@
 ],
 "zusammenfassung": "Formularraster Formular 4: Fahrkosten Wohn-/Arbeitsstätte (Codes 400–405, Maximum Fr. 6’000); dazwischen Satz über Belege (auf Verlangen einzureichen).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0070",
-"nachher": "ar-wl-2025__c0072"
+"vorher": "ar-wl-2025__c0065",
+"nachher": "ar-wl-2025__c0067"
 },
 {
-"id": "ar-wl-2025__c0072",
+"id": "ar-wl-2025__c0067",
 "titel": "Formular 4 Vorderseite – Berufskosten Ziff. 1 Fahrkosten (Codes 400–405, Raster) (Teil 2/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2114,11 +1932,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0071",
-"nachher": "ar-wl-2025__c0073"
+"vorher": "ar-wl-2025__c0066",
+"nachher": "ar-wl-2025__c0068"
 },
 {
-"id": "ar-wl-2025__c0073",
+"id": "ar-wl-2025__c0068",
 "titel": "Formular 4 – Ziff. 2 Verpflegung und Ziff. 3 Übrige Berufskosten (Codes 408–418, Raster) (Teil 1/3)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2143,11 +1961,11 @@
 ],
 "zusammenfassung": "Formularraster: Verpflegung Fr. 15 pro Arbeitstag / Fr. 3’200 im Jahr, Kantine Fr. 7.50 / Fr. 1’600, Schichtarbeit; übrige Kosten Pauschale Fr. 700 zuzüglich 10 % des Nettolohnes, höchstens Fr. 2’400.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0072",
-"nachher": "ar-wl-2025__c0074"
+"vorher": "ar-wl-2025__c0067",
+"nachher": "ar-wl-2025__c0069"
 },
 {
-"id": "ar-wl-2025__c0074",
+"id": "ar-wl-2025__c0069",
 "titel": "Formular 4 – Ziff. 2 Verpflegung und Ziff. 3 Übrige Berufskosten (Codes 408–418, Raster) (Teil 2/3)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2172,11 +1990,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0073",
-"nachher": "ar-wl-2025__c0075"
+"vorher": "ar-wl-2025__c0068",
+"nachher": "ar-wl-2025__c0070"
 },
 {
-"id": "ar-wl-2025__c0075",
+"id": "ar-wl-2025__c0070",
 "titel": "Formular 4 – Ziff. 2 Verpflegung und Ziff. 3 Übrige Berufskosten (Codes 408–418, Raster) (Teil 3/3)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2201,11 +2019,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0074",
-"nachher": "ar-wl-2025__c0076"
+"vorher": "ar-wl-2025__c0069",
+"nachher": "ar-wl-2025__c0071"
 },
 {
-"id": "ar-wl-2025__c0076",
+"id": "ar-wl-2025__c0071",
 "titel": "Formular 4 – Ziff. 4 Wochenaufenthalt, Ziff. 5 Nebenerwerb, Ziff. 6 Total (Codes 426–438, Raster) (Teil 1/3)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2230,11 +2048,11 @@
 ],
 "zusammenfassung": "Formularraster: Wochenaufenthalt Verpflegung Fr. 30 pro Tag / Fr. 6’400 (verbilligt Fr. 22.50 / Fr. 4’800), Nebenerwerb 20 % mind. Fr. 800, max. Fr. 2’400; Nettolohn = Bruttolohn abzüglich Sozialversicherungsbeiträge und 2. Säule; Abzüge stehen jedem Ehegatten individuell zu.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0075",
-"nachher": "ar-wl-2025__c0077"
+"vorher": "ar-wl-2025__c0070",
+"nachher": "ar-wl-2025__c0072"
 },
 {
-"id": "ar-wl-2025__c0077",
+"id": "ar-wl-2025__c0072",
 "titel": "Formular 4 – Ziff. 4 Wochenaufenthalt, Ziff. 5 Nebenerwerb, Ziff. 6 Total (Codes 426–438, Raster) (Teil 2/3)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2259,11 +2077,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0076",
-"nachher": "ar-wl-2025__c0078"
+"vorher": "ar-wl-2025__c0071",
+"nachher": "ar-wl-2025__c0073"
 },
 {
-"id": "ar-wl-2025__c0078",
+"id": "ar-wl-2025__c0073",
 "titel": "Formular 4 – Ziff. 4 Wochenaufenthalt, Ziff. 5 Nebenerwerb, Ziff. 6 Total (Codes 426–438, Raster) (Teil 3/3)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2288,11 +2106,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0077",
-"nachher": "ar-wl-2025__c0079"
+"vorher": "ar-wl-2025__c0072",
+"nachher": "ar-wl-2025__c0074"
 },
 {
-"id": "ar-wl-2025__c0079",
+"id": "ar-wl-2025__c0074",
 "titel": "Ziff. 10.1 Fahrkosten zwischen Wohn- und Arbeitsstätte – Pendlerabzug Fr. 6’000",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2318,11 +2136,11 @@
 ],
 "zusammenfassung": "ÖV tatsächliche Kosten; Velo/Kleinmotorrad bis Fr. 700; privates Auto Fr. 0.70 pro km, Motorrad Fr. 0.40 pro km in begründeten Fällen; Pendlerabzug max. Fr. 6’000 bei Staats- und Gemeindesteuern; in der Regel max. 220 Arbeitstage.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0078",
-"nachher": "ar-wl-2025__c0080"
+"vorher": "ar-wl-2025__c0073",
+"nachher": "ar-wl-2025__c0075"
 },
 {
-"id": "ar-wl-2025__c0080",
+"id": "ar-wl-2025__c0075",
 "titel": "Ziff. 10.1 – Geschäftsfahrzeug Privatanteil 0,9 %, Generalabonnement Arbeitgeber, Heimkehr über Mittag",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2346,11 +2164,11 @@
 ],
 "zusammenfassung": "Geschäftsfahrzeug: Privatanteil 0,9 % pro Monat bzw. 10,8 % pro Jahr auf dem Anschaffungspreis (exkl. MWST); bei Kostenübernahme durch den Arbeitgeber (Feld F) ist kein Abzug möglich.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0079",
-"nachher": "ar-wl-2025__c0081"
+"vorher": "ar-wl-2025__c0074",
+"nachher": "ar-wl-2025__c0076"
 },
 {
-"id": "ar-wl-2025__c0081",
+"id": "ar-wl-2025__c0076",
 "titel": "Ziff. 10.2 Mehrkosten für Verpflegung (Fr. 15 pro Tag / Fr. 3’200; Kantine Fr. 7.50 / Fr. 1’600; Schichtarbeit) (Teil 1/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2375,11 +2193,11 @@
 ],
 "zusammenfassung": "Fr. 15.– pro auswärtige Hauptmahlzeit, bei regelmässiger auswärtiger Verpflegung Fr. 3’200.– im Jahr; bei Kantine oder Arbeitgeberbeitrag Fr. 7.50 pro Tag bzw. Fr. 1’600.–; Schichtarbeit Fr. 15 pro Schichttag, ganzjährig Fr. 3’200.–.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0080",
-"nachher": "ar-wl-2025__c0082"
+"vorher": "ar-wl-2025__c0075",
+"nachher": "ar-wl-2025__c0077"
 },
 {
-"id": "ar-wl-2025__c0082",
+"id": "ar-wl-2025__c0077",
 "titel": "Ziff. 10.2 Mehrkosten für Verpflegung (Fr. 15 pro Tag / Fr. 3’200; Kantine Fr. 7.50 / Fr. 1’600; Schichtarbeit) (Teil 2/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2404,11 +2222,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0081",
-"nachher": "ar-wl-2025__c0083"
+"vorher": "ar-wl-2025__c0076",
+"nachher": "ar-wl-2025__c0078"
 },
 {
-"id": "ar-wl-2025__c0083",
+"id": "ar-wl-2025__c0078",
 "titel": "Ziff. 10.3 Übrige Berufskosten – Pauschale Fr. 700 + 10 % (max. Fr. 2’400) oder effektive Kosten",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2432,11 +2250,11 @@
 ],
 "zusammenfassung": "Pauschale von Fr. 700.– zuzüglich 10 Prozent des Nettolohnes, höchstens Fr. 2’400.–; höhere tatsächliche Kosten gegen Nachweis auf Beiblatt; bei Pauschalspesen kein zusätzlicher Pauschalabzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0082",
-"nachher": "ar-wl-2025__c0084"
+"vorher": "ar-wl-2025__c0077",
+"nachher": "ar-wl-2025__c0079"
 },
 {
-"id": "ar-wl-2025__c0084",
+"id": "ar-wl-2025__c0079",
 "titel": "Ziff. 10.4 Mehrkosten bei auswärtigem Wochenaufenthalt (Zimmer Fr. 800/Monat, Verpflegung Fr. 30/Tag)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2460,11 +2278,11 @@
 ],
 "zusammenfassung": "Zimmer max. Fr. 800.– pro Monat; Verpflegung Fr. 30.– pro Tag bzw. Fr. 6’400.– im Jahr, bei verbilligtem Mittagessen Fr. 22.50 pro Tag bzw. Fr. 4’800.–.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0083",
-"nachher": "ar-wl-2025__c0085"
+"vorher": "ar-wl-2025__c0078",
+"nachher": "ar-wl-2025__c0080"
 },
 {
-"id": "ar-wl-2025__c0085",
+"id": "ar-wl-2025__c0080",
 "titel": "Ziff. 10.5 Kosten bei unselbständiger Nebenerwerbstätigkeit (20 %, mind. Fr. 800, max. Fr. 2’400)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2488,11 +2306,11 @@
 ],
 "zusammenfassung": "Pauschalabzug von 20 Prozent der Nebeneinkünfte, wenigstens Fr. 800.–, höchstens Fr. 2’400.– im Jahr; bis zur Höhe des Nettolohns bei Nebeneinkünften bis Fr. 800.–; kein Anspruch ohne Haupterwerbstätigkeit.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0084",
-"nachher": "ar-wl-2025__c0086"
+"vorher": "ar-wl-2025__c0079",
+"nachher": "ar-wl-2025__c0081"
 },
 {
-"id": "ar-wl-2025__c0086",
+"id": "ar-wl-2025__c0081",
 "titel": "Ziff. 11 Schuldzinsen",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2516,11 +2334,11 @@
 ],
 "zusammenfassung": "Private Schuldzinsen sind im Umfang der Einkünfte aus Wertschriften (Ziff. 4) und Liegenschaften (Ziff. 5) zuzüglich Fr. 50’000.– abziehbar; nicht abziehbar sind Amortisationen, Baurechtszinsen selbstgenutzter Eigenheime und Leasingraten.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0085",
-"nachher": "ar-wl-2025__c0087"
+"vorher": "ar-wl-2025__c0080",
+"nachher": "ar-wl-2025__c0082"
 },
 {
-"id": "ar-wl-2025__c0087",
+"id": "ar-wl-2025__c0082",
 "titel": "Ziff. 12 Unterhaltsbeiträge und Rentenleistungen (Alimente, Leibrenten)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2544,11 +2362,11 @@
 ],
 "zusammenfassung": "Unterhaltsbeiträge an geschiedene oder getrennt lebende Person (12.1) und für minderjährige Kinder (12.2) abziehbar; dann entfallen die Kinderabzüge nach Ziff. 23.1–23.3; Beiträge an volljährige Kinder nicht abziehbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0086",
-"nachher": "ar-wl-2025__c0088"
+"vorher": "ar-wl-2025__c0081",
+"nachher": "ar-wl-2025__c0083"
 },
 {
-"id": "ar-wl-2025__c0088",
+"id": "ar-wl-2025__c0083",
 "titel": "Ziff. 13 Säule 3a (max. Fr. 7’258 / Fr. 36’288) und 2. Säule Einkäufe (Teil 1/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2574,11 +2392,11 @@
 ],
 "zusammenfassung": "Säule 3a: mit 2. Säule max. Fr. 7’258.–, ohne 2. Säule 20 % des Erwerbseinkommens max. Fr. 36’288.–; Einkaufsbeiträge 2. Säule zu 100 % abziehbar, Bescheinigung beizulegen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0087",
-"nachher": "ar-wl-2025__c0089"
+"vorher": "ar-wl-2025__c0082",
+"nachher": "ar-wl-2025__c0084"
 },
 {
-"id": "ar-wl-2025__c0089",
+"id": "ar-wl-2025__c0084",
 "titel": "Ziff. 13 Säule 3a (max. Fr. 7’258 / Fr. 36’288) und 2. Säule Einkäufe (Teil 2/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2604,11 +2422,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0088",
-"nachher": "ar-wl-2025__c0090"
+"vorher": "ar-wl-2025__c0083",
+"nachher": "ar-wl-2025__c0085"
 },
 {
-"id": "ar-wl-2025__c0090",
+"id": "ar-wl-2025__c0085",
 "titel": "Ziff. 14 Versicherungsprämien und Sparzinsen",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2632,11 +2450,11 @@
 ],
 "zusammenfassung": "Abzugsfähig sind Prämien für Kranken-, Unfall-, Lebens- und Rentenversicherungen sowie Sparzinsen in begrenztem Umfang (Kurzübersicht: Fr. 2’700 / Fr. 5’400 / Fr. 1’000 pro Kind), abzüglich Prämienverbilligung; Mobiliar-, Motorfahrzeug- und Haftpflichtprämien nicht abziehbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0089",
-"nachher": "ar-wl-2025__c0091"
+"vorher": "ar-wl-2025__c0084",
+"nachher": "ar-wl-2025__c0086"
 },
 {
-"id": "ar-wl-2025__c0091",
+"id": "ar-wl-2025__c0086",
 "titel": "Ziff. 15 Unterhalts- und Verwaltungskosten für Liegenschaften (Hinweis)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2659,11 +2477,11 @@
 ],
 "zusammenfassung": "Tatsächliche Kosten oder Pauschale; Einzelbeträge ab Fr. 5’000.– sind mit Rechnungskopien einzureichen; Details auf den Seiten 28–32.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0090",
-"nachher": "ar-wl-2025__c0092"
+"vorher": "ar-wl-2025__c0085",
+"nachher": "ar-wl-2025__c0087"
 },
 {
-"id": "ar-wl-2025__c0092",
+"id": "ar-wl-2025__c0087",
 "titel": "Ziff. 16.1 Verwaltungskosten für Wertschriften (3 ‰ max. Fr. 6’000; über 2 Mio. 1 ‰ max. Fr. 15’000) (Teil 1/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2686,11 +2504,11 @@
 ],
 "zusammenfassung": "Pauschalabzug auf Antrag: bis 2 Mio. 3 Promille des drittverwalteten Wertschriftenbestands, maximal Fr. 6’000.–; darüber 1 Promille, maximal Fr. 15’000.–; Courtagen, Beratung und Kartengebühren nicht abziehbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0091",
-"nachher": "ar-wl-2025__c0093"
+"vorher": "ar-wl-2025__c0086",
+"nachher": "ar-wl-2025__c0088"
 },
 {
-"id": "ar-wl-2025__c0093",
+"id": "ar-wl-2025__c0088",
 "titel": "Ziff. 16.1 Verwaltungskosten für Wertschriften (3 ‰ max. Fr. 6’000; über 2 Mio. 1 ‰ max. Fr. 15’000) (Teil 2/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2713,12 +2531,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0092",
-"nachher": "ar-wl-2025__c0094"
+"vorher": "ar-wl-2025__c0087",
+"nachher": "ar-wl-2025__c0089"
 },
 {
-"id": "ar-wl-2025__c0094",
-"titel": "Ziff. 16.2 Kinderbetreuungskosten durch Drittpersonen (max. Fr. 25’000 pro Kind) (Teil 1/3)",
+"id": "ar-wl-2025__c0089",
+"titel": "Ziff. 16.2 Kinderbetreuungskosten – Höchstbetrag Fr. 25’000 und Voraussetzungen",
 "pfad": [
 "Abzüge vom Einkommen",
 "Ziff. 16 Weitere Abzüge"
@@ -2730,24 +2548,22 @@
 "ziffer": "16.2",
 "stichworte": [
 "Kinderbetreuung",
-"Kita",
-"Krippe",
-"Tagesmutter",
-"Hort",
 "Drittbetreuung",
-"Formular 10"
+"Fr. 25'000",
+"14. Altersjahr",
+"Erwerbstätigkeit Voraussetzung"
 ],
 "positionen": [
 "abzug.drittbetreuung"
 ],
-"zusammenfassung": "Nachgewiesene Kosten, höchstens Fr. 25’000.– pro Kind bis zum 14. Geburtstag; Voraussetzung Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit; Lebenshaltungskosten (Mittagstisch) nicht abziehbar; erhaltene Beiträge sind abzuziehen.",
+"zusammenfassung": "Nachgewiesene Kosten, höchstens Fr. 25’000.– pro Kind bis zum 14. Geburtstag, im gleichen Haushalt; in direktem Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit; Nachweis im Formular 10.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0093",
-"nachher": "ar-wl-2025__c0095"
+"vorher": "ar-wl-2025__c0088",
+"nachher": "ar-wl-2025__c0090"
 },
 {
-"id": "ar-wl-2025__c0095",
-"titel": "Ziff. 16.2 Kinderbetreuungskosten durch Drittpersonen (max. Fr. 25’000 pro Kind) (Teil 2/3)",
+"id": "ar-wl-2025__c0090",
+"titel": "Ziff. 16.2 Abziehbare Betreuungskosten (Kita, Tagesfamilie), Ehepaare, Lebenshaltungskosten, kantonale Beiträge (Teil 1/2)",
 "pfad": [
 "Abzüge vom Einkommen",
 "Ziff. 16 Weitere Abzüge"
@@ -2758,53 +2574,53 @@
 "artikel": null,
 "ziffer": "16.2",
 "stichworte": [
-"Kinderbetreuung",
 "Kita",
 "Krippe",
-"Tagesmutter",
 "Hort",
-"Drittbetreuung",
-"Formular 10"
+"Tagesmutter",
+"Mittagstisch nicht abziehbar",
+"Konkubinat",
+"Betreuungsbeiträge"
+],
+"positionen": [
+"abzug.drittbetreuung"
+],
+"zusammenfassung": "Abziehbar sind Krippen, Horte, Tagesfamilien und Fahrkosten zur Betreuungsstätte; Ehepaare nur bei gleichzeitiger Erwerbstätigkeit/Ausbildung; Lebenshaltungskosten (Mittagstisch) nicht; erhaltene kantonale Beiträge sind abzuziehen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0089",
+"nachher": "ar-wl-2025__c0091"
+},
+{
+"id": "ar-wl-2025__c0091",
+"titel": "Ziff. 16.2 Abziehbare Betreuungskosten (Kita, Tagesfamilie), Ehepaare, Lebenshaltungskosten, kantonale Beiträge (Teil 2/2)",
+"pfad": [
+"Abzüge vom Einkommen",
+"Ziff. 16 Weitere Abzüge"
+],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": "16.2",
+"stichworte": [
+"Kita",
+"Krippe",
+"Hort",
+"Tagesmutter",
+"Mittagstisch nicht abziehbar",
+"Konkubinat",
+"Betreuungsbeiträge"
 ],
 "positionen": [
 "abzug.drittbetreuung"
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0094",
-"nachher": "ar-wl-2025__c0096"
+"vorher": "ar-wl-2025__c0090",
+"nachher": "ar-wl-2025__c0092"
 },
 {
-"id": "ar-wl-2025__c0096",
-"titel": "Ziff. 16.2 Kinderbetreuungskosten durch Drittpersonen (max. Fr. 25’000 pro Kind) (Teil 3/3)",
-"pfad": [
-"Abzüge vom Einkommen",
-"Ziff. 16 Weitere Abzüge"
-],
-"seiten": [
-16
-],
-"artikel": null,
-"ziffer": "16.2",
-"stichworte": [
-"Kinderbetreuung",
-"Kita",
-"Krippe",
-"Tagesmutter",
-"Hort",
-"Drittbetreuung",
-"Formular 10"
-],
-"positionen": [
-"abzug.drittbetreuung"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0095",
-"nachher": "ar-wl-2025__c0097"
-},
-{
-"id": "ar-wl-2025__c0097",
+"id": "ar-wl-2025__c0092",
 "titel": "Ziff. 16.3 Mitgliederbeiträge und Zuwendungen an politische Parteien (max. Fr. 10’000)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2828,11 +2644,11 @@
 ],
 "zusammenfassung": "Bis zu Fr. 10’000.– pro Steuererklärung an Parteien, die im Parteienregister eingetragen, im kantonalen Parlament vertreten sind oder mindestens 3 Prozent der Stimmen erreicht haben; persönliche Wahlkampfkosten nicht abziehbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0096",
-"nachher": "ar-wl-2025__c0098"
+"vorher": "ar-wl-2025__c0091",
+"nachher": "ar-wl-2025__c0093"
 },
 {
-"id": "ar-wl-2025__c0098",
+"id": "ar-wl-2025__c0093",
 "titel": "Ziff. 16.4 Berufsorientierte Aus- und Weiterbildungskosten (max. Fr. 12’000)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2856,11 +2672,11 @@
 ],
 "zusammenfassung": "Abziehbar bis Fr. 12’000.– bei erstem Abschluss Sekundarstufe II oder nach vollendetem 20. Lebensjahr; Informatikmittel nur bei zwingendem Zusammenhang, bei privater Nutzung 50 %.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0097",
-"nachher": "ar-wl-2025__c0099"
+"vorher": "ar-wl-2025__c0092",
+"nachher": "ar-wl-2025__c0094"
 },
 {
-"id": "ar-wl-2025__c0099",
+"id": "ar-wl-2025__c0094",
 "titel": "Ziff. 16.6 Übrige Abzüge – AHV nichterwerbstätig, Geldspiel-Einsatzkosten, NBUV",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2884,11 +2700,11 @@
 ],
 "zusammenfassung": "Von Geldspielgewinnen können 5 Prozent, höchstens Fr. 5’400.–, als Einsatzkosten abgezogen werden (Online-Spiele max. Fr. 26’800.–); nicht im Nettolohn berücksichtigte NBUV-Beiträge sind hier abziehbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0098",
-"nachher": "ar-wl-2025__c0100"
+"vorher": "ar-wl-2025__c0093",
+"nachher": "ar-wl-2025__c0095"
 },
 {
-"id": "ar-wl-2025__c0100",
+"id": "ar-wl-2025__c0095",
 "titel": "Ziff. 16.7 Abzug Teilbesteuerung Beteiligungserträge (60 %)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2910,11 +2726,11 @@
 ],
 "zusammenfassung": "Gewinne aus Beteiligungen von mindestens 10 Prozent sind im Umfang von 60 % steuerbar; der Abzug erfolgt auf Seite 3, Ziffer 16.7.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0099",
-"nachher": "ar-wl-2025__c0101"
+"vorher": "ar-wl-2025__c0094",
+"nachher": "ar-wl-2025__c0096"
 },
 {
-"id": "ar-wl-2025__c0101",
+"id": "ar-wl-2025__c0096",
 "titel": "Ziff. 17 Zweiverdienerabzug (10 %, mind. Fr. 2’500, max. Fr. 5’200) (Teil 1/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2937,11 +2753,11 @@
 ],
 "zusammenfassung": "Bei niedrigerem Erwerbseinkommen über Fr. 2’500.– beträgt der Abzug 10 %, mindestens Fr. 2’500.– und höchstens Fr. 5’200.–; unter Fr. 2’500.– in Höhe des Einkommens; bei Fr. 0.– kein Abzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0100",
-"nachher": "ar-wl-2025__c0102"
+"vorher": "ar-wl-2025__c0095",
+"nachher": "ar-wl-2025__c0097"
 },
 {
-"id": "ar-wl-2025__c0102",
+"id": "ar-wl-2025__c0097",
 "titel": "Ziff. 17 Zweiverdienerabzug (10 %, mind. Fr. 2’500, max. Fr. 5’200) (Teil 2/2)",
 "pfad": [
 "Abzüge vom Einkommen",
@@ -2964,11 +2780,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0101",
-"nachher": "ar-wl-2025__c0103"
+"vorher": "ar-wl-2025__c0096",
+"nachher": "ar-wl-2025__c0098"
 },
 {
-"id": "ar-wl-2025__c0103",
+"id": "ar-wl-2025__c0098",
 "titel": "Ziff. 21.1 Krankheits- und Unfallkosten (Selbstbehalt 5 %, Diätpauschale Fr. 2’500) (Teil 1/2)",
 "pfad": [
 "Abzüge vom Nettoeinkommen",
@@ -2993,11 +2809,11 @@
 ],
 "zusammenfassung": "Abzugsfähig sind Krankheits- und Unfallkosten, die 5 Prozent des Nettoeinkommens übersteigen; bei lebensnotwendiger Diät (Zöliakie, nicht Diabetes) Pauschale von Fr. 2’500.–.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0102",
-"nachher": "ar-wl-2025__c0104"
+"vorher": "ar-wl-2025__c0097",
+"nachher": "ar-wl-2025__c0099"
 },
 {
-"id": "ar-wl-2025__c0104",
+"id": "ar-wl-2025__c0099",
 "titel": "Ziff. 21.1 Krankheits- und Unfallkosten (Selbstbehalt 5 %, Diätpauschale Fr. 2’500) (Teil 2/2)",
 "pfad": [
 "Abzüge vom Nettoeinkommen",
@@ -3022,12 +2838,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0103",
-"nachher": "ar-wl-2025__c0105"
+"vorher": "ar-wl-2025__c0098",
+"nachher": "ar-wl-2025__c0100"
 },
 {
-"id": "ar-wl-2025__c0105",
-"titel": "Ziff. 21.2 Behinderungsbedingte Kosten – Pflegeheim (2/3), Pauschalen Fr. 2’500 / 5’000 / 7’500 (Teil 1/3)",
+"id": "ar-wl-2025__c0100",
+"titel": "Ziff. 21.2 Behinderungsbedingte Kosten – dauerhafter Pflegeheimaufenthalt (2/3 der Heimkosten)",
 "pfad": [
 "Abzüge vom Nettoeinkommen",
 "Ziff. 21"
@@ -3039,23 +2855,22 @@
 "ziffer": "21.2",
 "stichworte": [
 "Pflegeheim",
-"Hilflosenentschädigung",
-"Behinderung",
-"Gehörlose",
-"Dialyse",
-"Pauschale"
+"Heimkosten",
+"Pflegestufe 4",
+"Hilflosenentschädigung abziehen",
+"Bewohnerkonto"
 ],
 "positionen": [
 "abzug.behinderungskosten"
 ],
-"zusammenfassung": "Bei dauerhaftem Pflegeheimaufenthalt (ab Pflegestufe 4) pauschal 2/3 der Heimkosten; Pauschalen je Hilflosenentschädigung leicht Fr. 2’500, mittel Fr. 5’000, schwer Fr. 7’500; Gehörlose und Dialyse Fr. 2’500, ohne Selbstbehalt.",
+"zusammenfassung": "Bei dauerhaftem Pflegeheimaufenthalt (ab Pflegestufe 4 bzw. 61 Minuten) werden pauschal 2/3 der selbstgetragenen Heimkosten anerkannt, abzüglich Hilflosenentschädigung und Vergütungen Dritter; Bewohnerkonto beilegen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0104",
-"nachher": "ar-wl-2025__c0106"
+"vorher": "ar-wl-2025__c0099",
+"nachher": "ar-wl-2025__c0101"
 },
 {
-"id": "ar-wl-2025__c0106",
-"titel": "Ziff. 21.2 Behinderungsbedingte Kosten – Pflegeheim (2/3), Pauschalen Fr. 2’500 / 5’000 / 7’500 (Teil 2/3)",
+"id": "ar-wl-2025__c0101",
+"titel": "Ziff. 21.2 Behinderungsbedingte Kosten – Pauschalen nach Hilflosenentschädigung, Gehörlose, Dialyse",
 "pfad": [
 "Abzüge vom Nettoeinkommen",
 "Ziff. 21"
@@ -3066,51 +2881,23 @@
 "artikel": null,
 "ziffer": "21.2",
 "stichworte": [
-"Pflegeheim",
-"Hilflosenentschädigung",
-"Behinderung",
+"Hilflosenentschädigung leicht mittel schwer",
+"Fr. 2'500",
+"Fr. 5'000",
+"Fr. 7'500",
 "Gehörlose",
-"Dialyse",
-"Pauschale"
+"Dialyse"
 ],
 "positionen": [
 "abzug.behinderungskosten"
 ],
-"zusammenfassung": null,
+"zusammenfassung": "Jährlicher Pauschalabzug: Hilflosenentschädigung leichten Grades Fr. 2’500.–, mittleren Grades Fr. 5’000.–, schweren Grades Fr. 7’500.–; Gehörlose und Dialysepatienten unabhängig davon Fr. 2’500.–.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0105",
-"nachher": "ar-wl-2025__c0107"
+"vorher": "ar-wl-2025__c0100",
+"nachher": "ar-wl-2025__c0102"
 },
 {
-"id": "ar-wl-2025__c0107",
-"titel": "Ziff. 21.2 Behinderungsbedingte Kosten – Pflegeheim (2/3), Pauschalen Fr. 2’500 / 5’000 / 7’500 (Teil 3/3)",
-"pfad": [
-"Abzüge vom Nettoeinkommen",
-"Ziff. 21"
-],
-"seiten": [
-18
-],
-"artikel": null,
-"ziffer": "21.2",
-"stichworte": [
-"Pflegeheim",
-"Hilflosenentschädigung",
-"Behinderung",
-"Gehörlose",
-"Dialyse",
-"Pauschale"
-],
-"positionen": [
-"abzug.behinderungskosten"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0106",
-"nachher": "ar-wl-2025__c0108"
-},
-{
-"id": "ar-wl-2025__c0108",
+"id": "ar-wl-2025__c0102",
 "titel": "Ziff. 21.3 Freiwillige Zuwendungen (ab Fr. 100, max. 20 % des Nettoeinkommens) (Teil 1/2)",
 "pfad": [
 "Abzüge vom Nettoeinkommen",
@@ -3133,11 +2920,11 @@
 ],
 "zusammenfassung": "Zuwendungen an steuerbefreite juristische Personen mit Sitz in der Schweiz sind abziehbar, wenn das Total mindestens Fr. 100.– beträgt, maximal 20 Prozent des Nettoeinkommens; Mitgliederbeiträge nicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0107",
-"nachher": "ar-wl-2025__c0109"
+"vorher": "ar-wl-2025__c0101",
+"nachher": "ar-wl-2025__c0103"
 },
 {
-"id": "ar-wl-2025__c0109",
+"id": "ar-wl-2025__c0103",
 "titel": "Ziff. 21.3 Freiwillige Zuwendungen (ab Fr. 100, max. 20 % des Nettoeinkommens) (Teil 2/2)",
 "pfad": [
 "Abzüge vom Nettoeinkommen",
@@ -3160,11 +2947,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0108",
-"nachher": "ar-wl-2025__c0110"
+"vorher": "ar-wl-2025__c0102",
+"nachher": "ar-wl-2025__c0104"
 },
 {
-"id": "ar-wl-2025__c0110",
+"id": "ar-wl-2025__c0104",
 "titel": "Ziff. 23 Sozialabzüge – Stichtag, Kinderabzug und Einkünfte des Kindes (Fr. 18’000)",
 "pfad": [
 "Sozialabzüge",
@@ -3187,11 +2974,11 @@
 ],
 "zusammenfassung": "Massgebend sind die Verhältnisse am 31. Dezember 2025; übersteigen die Einkünfte des Kindes Fr. 18’000, entfällt der Kinderabzug; bei getrennter Besteuerung kann der Kinderabzug hälftig aufgeteilt werden.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0109",
-"nachher": "ar-wl-2025__c0111"
+"vorher": "ar-wl-2025__c0103",
+"nachher": "ar-wl-2025__c0105"
 },
 {
-"id": "ar-wl-2025__c0111",
+"id": "ar-wl-2025__c0105",
 "titel": "Ziff. 23.1–23.4 Kinderabzüge nach Kurzwegleitung, Unterstützungsabzug (nur DBSt)",
 "pfad": [
 "Sozialabzüge",
@@ -3214,11 +3001,11 @@
 ],
 "zusammenfassung": "Kinderabzug entfällt bei geltend gemachten Unterhaltsbeiträgen (Ziff. 12.2); der Unterstützungsabzug gilt nur für die direkte Bundessteuer und setzt Beiträge mindestens in Höhe des Abzugs voraus.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0110",
-"nachher": "ar-wl-2025__c0112"
+"vorher": "ar-wl-2025__c0104",
+"nachher": "ar-wl-2025__c0106"
 },
 {
-"id": "ar-wl-2025__c0112",
+"id": "ar-wl-2025__c0106",
 "titel": "Steuererklärung Seite 4 – Vermögen Ziff. 30–32 (Codes 300–326, Formularraster)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -3248,11 +3035,11 @@
 ],
 "zusammenfassung": "Formularraster Seite 4 mit Ziff. 30.1–30.6 (Codes 300–314), 31 Liegenschaften, 32 Betriebsvermögen (316–322); dazwischen Textteile zur Vermögenssteuerpflicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0111",
-"nachher": "ar-wl-2025__c0113"
+"vorher": "ar-wl-2025__c0105",
+"nachher": "ar-wl-2025__c0107"
 },
 {
-"id": "ar-wl-2025__c0113",
+"id": "ar-wl-2025__c0107",
 "titel": "Steuererklärung Seite 4 – Ziff. 33–37 Schulden, Reinvermögen, Sozialabzüge (Codes 326–338, Formularraster) (Teil 1/3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -3278,11 +3065,11 @@
 ],
 "zusammenfassung": "Formularraster: Schulden Ziff. 34 (Code 326), Reinvermögen Ziff. 35 (330), Sozialabzüge Fr. 75’000 / Fr. 150’000 / Fr. 25’000 pro Kind (332–335), steuerbares Vermögen Ziff. 37 (338).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0112",
-"nachher": "ar-wl-2025__c0114"
+"vorher": "ar-wl-2025__c0106",
+"nachher": "ar-wl-2025__c0108"
 },
 {
-"id": "ar-wl-2025__c0114",
+"id": "ar-wl-2025__c0108",
 "titel": "Steuererklärung Seite 4 – Ziff. 33–37 Schulden, Reinvermögen, Sozialabzüge (Codes 326–338, Formularraster) (Teil 2/3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -3308,11 +3095,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0113",
-"nachher": "ar-wl-2025__c0115"
+"vorher": "ar-wl-2025__c0107",
+"nachher": "ar-wl-2025__c0109"
 },
 {
-"id": "ar-wl-2025__c0115",
+"id": "ar-wl-2025__c0109",
 "titel": "Steuererklärung Seite 4 – Ziff. 33–37 Schulden, Reinvermögen, Sozialabzüge (Codes 326–338, Formularraster) (Teil 3/3)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -3338,11 +3125,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0114",
-"nachher": "ar-wl-2025__c0116"
+"vorher": "ar-wl-2025__c0108",
+"nachher": "ar-wl-2025__c0110"
 },
 {
-"id": "ar-wl-2025__c0116",
+"id": "ar-wl-2025__c0110",
 "titel": "Steuererklärung Seite 4 – Ziff. 40–41 Kapitalleistungen aus Vorsorge, Beilagen, Unterschrift (Raster)",
 "pfad": [
 "Formular 1 (Steuererklärung)",
@@ -3366,11 +3153,11 @@
 ],
 "zusammenfassung": "Formularraster mit Ziff. 40.1–40.3 ausbezahlte Kapitalleistungen aus Vorsorge (Code 950), Total Ziff. 41, Beilagenliste und Unterschrift.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0115",
-"nachher": "ar-wl-2025__c0117"
+"vorher": "ar-wl-2025__c0109",
+"nachher": "ar-wl-2025__c0111"
 },
 {
-"id": "ar-wl-2025__c0117",
+"id": "ar-wl-2025__c0111",
 "titel": "Vermögen: Allgemeines, Ziff. 30 Bewegliches Vermögen, Hausrat und Gebrauchsgegenstände (Teil 1/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3393,11 +3180,11 @@
 ],
 "zusammenfassung": "Gesamtes bewegliches und unbewegliches Vermögen unterliegt der Vermögenssteuer; Hausrat und persönliche Gebrauchsgegenstände sind steuerfrei; Vorsorgeansprüche der 2. Säule und Säule 3a sind bis zur Fälligkeit steuerfrei.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0116",
-"nachher": "ar-wl-2025__c0118"
+"vorher": "ar-wl-2025__c0110",
+"nachher": "ar-wl-2025__c0112"
 },
 {
-"id": "ar-wl-2025__c0118",
+"id": "ar-wl-2025__c0112",
 "titel": "Vermögen: Allgemeines, Ziff. 30 Bewegliches Vermögen, Hausrat und Gebrauchsgegenstände (Teil 2/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3420,11 +3207,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0117",
-"nachher": "ar-wl-2025__c0119"
+"vorher": "ar-wl-2025__c0111",
+"nachher": "ar-wl-2025__c0113"
 },
 {
-"id": "ar-wl-2025__c0119",
+"id": "ar-wl-2025__c0113",
 "titel": "Ziff. 30.1–30.4 Wertschriften, Bargeld/Edelmetalle, Lebensversicherungen, Motorfahrzeuge (20 % pro Jahr) (Teil 1/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3451,11 +3238,11 @@
 ],
 "zusammenfassung": "Rückkaufsfähige Lebensversicherungen mit dem Steuerwert (Rückkaufswert plus Überschussguthaben); bei Motorfahrzeugen Wertverminderung von 20 Prozent pro Jahr seit Erwerb vom Anschaffungswert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0118",
-"nachher": "ar-wl-2025__c0120"
+"vorher": "ar-wl-2025__c0112",
+"nachher": "ar-wl-2025__c0114"
 },
 {
-"id": "ar-wl-2025__c0120",
+"id": "ar-wl-2025__c0114",
 "titel": "Ziff. 30.1–30.4 Wertschriften, Bargeld/Edelmetalle, Lebensversicherungen, Motorfahrzeuge (20 % pro Jahr) (Teil 2/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3482,11 +3269,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0119",
-"nachher": "ar-wl-2025__c0121"
+"vorher": "ar-wl-2025__c0113",
+"nachher": "ar-wl-2025__c0115"
 },
 {
-"id": "ar-wl-2025__c0121",
+"id": "ar-wl-2025__c0115",
 "titel": "Ziff. 30.5–30.6 Anteil an unverteilter Erbschaft, übrige Vermögenswerte (Teil 1/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3511,11 +3298,11 @@
 ],
 "zusammenfassung": "Anteile an unverteilten Erbschaften werden nach den Regeln der Ziffern 30 und 31 bewertet, Inventar und Erbenverzeichnis sind beizulegen; übrige Vermögenswerte (Boote, Reitpferde, Kunstsammlungen) zum mutmasslichen Verkehrswert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0120",
-"nachher": "ar-wl-2025__c0122"
+"vorher": "ar-wl-2025__c0114",
+"nachher": "ar-wl-2025__c0116"
 },
 {
-"id": "ar-wl-2025__c0122",
+"id": "ar-wl-2025__c0116",
 "titel": "Ziff. 30.5–30.6 Anteil an unverteilter Erbschaft, übrige Vermögenswerte (Teil 2/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3540,11 +3327,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0121",
-"nachher": "ar-wl-2025__c0123"
+"vorher": "ar-wl-2025__c0115",
+"nachher": "ar-wl-2025__c0117"
 },
 {
-"id": "ar-wl-2025__c0123",
+"id": "ar-wl-2025__c0117",
 "titel": "Ziff. 31 Liegenschaften (Vermögen) und Ziff. 32 Betriebsvermögen – Einleitung (Teil 1/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3568,11 +3355,11 @@
 ],
 "zusammenfassung": "Alle Liegenschaften sind steuerbar, Werte pro Liegenschaft im Formular 7 zu ermitteln und in Ziffer 31 zu übertragen; Betriebsanlagen mit Buchwert, Waren zu Anschaffungs- oder Herstellungskosten.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0122",
-"nachher": "ar-wl-2025__c0124"
+"vorher": "ar-wl-2025__c0116",
+"nachher": "ar-wl-2025__c0118"
 },
 {
-"id": "ar-wl-2025__c0124",
+"id": "ar-wl-2025__c0118",
 "titel": "Ziff. 31 Liegenschaften (Vermögen) und Ziff. 32 Betriebsvermögen – Einleitung (Teil 2/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3596,11 +3383,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0123",
-"nachher": "ar-wl-2025__c0125"
+"vorher": "ar-wl-2025__c0117",
+"nachher": "ar-wl-2025__c0119"
 },
 {
-"id": "ar-wl-2025__c0125",
+"id": "ar-wl-2025__c0119",
 "titel": "Ziff. 32.1–32.3 Geschäftsvermögen in Gesellschaften, Geschäftsaktiven, Landwirtschaft (Teil 1/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3623,11 +3410,11 @@
 ],
 "zusammenfassung": "Geschäftsaktiven stammen aus der letzten Schlussbilanz; der Buchwert der Liegenschaften ist abzurechnen, da diese zum amtlichen Verkehrswert in Ziffer 31 erfasst werden.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0124",
-"nachher": "ar-wl-2025__c0126"
+"vorher": "ar-wl-2025__c0118",
+"nachher": "ar-wl-2025__c0120"
 },
 {
-"id": "ar-wl-2025__c0126",
+"id": "ar-wl-2025__c0120",
 "titel": "Ziff. 32.1–32.3 Geschäftsvermögen in Gesellschaften, Geschäftsaktiven, Landwirtschaft (Teil 2/2)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3650,11 +3437,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0125",
-"nachher": "ar-wl-2025__c0127"
+"vorher": "ar-wl-2025__c0119",
+"nachher": "ar-wl-2025__c0121"
 },
 {
-"id": "ar-wl-2025__c0127",
+"id": "ar-wl-2025__c0121",
 "titel": "Ziff. 34 Schulden",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3678,11 +3465,11 @@
 ],
 "zusammenfassung": "Abzugsfähig sind ausgewiesene Verpflichtungen, für die die steuerpflichtige Person alleine haftet; bei Solidar- oder Bürgschaftsschulden nur soweit die Schuld selbst zu tragen ist; Total in Ziffer 34.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0126",
-"nachher": "ar-wl-2025__c0128"
+"vorher": "ar-wl-2025__c0120",
+"nachher": "ar-wl-2025__c0122"
 },
 {
-"id": "ar-wl-2025__c0128",
+"id": "ar-wl-2025__c0122",
 "titel": "Ziff. 36 Sozialabzüge Vermögen (Fr. 75’000 / Fr. 150’000 / Fr. 25’000)",
 "pfad": [
 "Vermögen im In- und Ausland",
@@ -3704,12 +3491,12 @@
 ],
 "zusammenfassung": "Vom Reinvermögen werden abgezogen: Fr. 75’000.– für Alleinstehende, Fr. 150’000.– für gemeinsam steuerpflichtige Ehegatten, Fr. 25’000.– für jedes minderjährige Kind; Stand per 31. Dezember 2025.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0127",
-"nachher": "ar-wl-2025__c0129"
+"vorher": "ar-wl-2025__c0121",
+"nachher": "ar-wl-2025__c0123"
 },
 {
-"id": "ar-wl-2025__c0129",
-"titel": "Formular 2 Wertschriften- und Guthabenverzeichnis, Seite 1 – Fragen Erbschaft/Schenkung (Formularraster) (Teil 1/3)",
+"id": "ar-wl-2025__c0123",
+"titel": "Formular 2 Wertschriften- und Guthabenverzeichnis, Seite 1 – Fragen Erbschaft/Schenkung (Formularraster) (Teil 1/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
 "Formularseite 1"
@@ -3732,12 +3519,12 @@
 ],
 "zusammenfassung": "Zerrissenes Formularraster der Seite 1 von Formular 2 mit den Fragen zu Erbschaften, unverteilten Erbschaften, Schenkungen und Kollektivgesellschaften.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0128",
-"nachher": "ar-wl-2025__c0130"
+"vorher": "ar-wl-2025__c0122",
+"nachher": "ar-wl-2025__c0124"
 },
 {
-"id": "ar-wl-2025__c0130",
-"titel": "Formular 2 Wertschriften- und Guthabenverzeichnis, Seite 1 – Fragen Erbschaft/Schenkung (Formularraster) (Teil 2/3)",
+"id": "ar-wl-2025__c0124",
+"titel": "Formular 2 Wertschriften- und Guthabenverzeichnis, Seite 1 – Fragen Erbschaft/Schenkung (Formularraster) (Teil 2/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
 "Formularseite 1"
@@ -3760,39 +3547,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0129",
-"nachher": "ar-wl-2025__c0131"
+"vorher": "ar-wl-2025__c0123",
+"nachher": "ar-wl-2025__c0125"
 },
 {
-"id": "ar-wl-2025__c0131",
-"titel": "Formular 2 Wertschriften- und Guthabenverzeichnis, Seite 1 – Fragen Erbschaft/Schenkung (Formularraster) (Teil 3/3)",
-"pfad": [
-"Wertschriften- und Guthabenverzeichnis (Formular 2)",
-"Formularseite 1"
-],
-"seiten": [
-22
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": [
-"Wertschriftenverzeichnis",
-"Erbschaft Frage",
-"Schenkung Frage",
-"Kollektivgesellschaft",
-"Rückerstattungsantrag Verrechnungssteuer"
-],
-"positionen": [
-"verrechnungssteuer.rueckerstattung",
-"info.schenkungen_erbschaften"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0130",
-"nachher": "ar-wl-2025__c0132"
-},
-{
-"id": "ar-wl-2025__c0132",
+"id": "ar-wl-2025__c0125",
 "titel": "Formular 2 Seite 1 – Zweck des Verzeichnisses, Beilagen und Unterschrift (Formularraster) (Teil 1/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -3815,11 +3574,11 @@
 ],
 "zusammenfassung": "Raster mit Beilagen (Steuerauszüge, Bankbescheinigungen, Lotto/Toto) und Unterschrift; das Verzeichnis dient der Feststellung des Wertschriftenvermögens (Ziff. 30.1).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0131",
-"nachher": "ar-wl-2025__c0133"
+"vorher": "ar-wl-2025__c0124",
+"nachher": "ar-wl-2025__c0126"
 },
 {
-"id": "ar-wl-2025__c0133",
+"id": "ar-wl-2025__c0126",
 "titel": "Formular 2 Seite 1 – Zweck des Verzeichnisses, Beilagen und Unterschrift (Formularraster) (Teil 2/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -3842,11 +3601,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0132",
-"nachher": "ar-wl-2025__c0134"
+"vorher": "ar-wl-2025__c0125",
+"nachher": "ar-wl-2025__c0127"
 },
 {
-"id": "ar-wl-2025__c0134",
+"id": "ar-wl-2025__c0127",
 "titel": "Formular 2 – Ausfüllen: Zweck, Verrechnungssteuer, Erbschaften, Stichtag, Kryptowährungen, Selbstanzeige (Teil 1/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -3871,11 +3630,11 @@
 ],
 "zusammenfassung": "Das Verzeichnis ist immer einzureichen, enthält Vermögen und Erträge inkl. Kryptowährungen per 31. Dezember 2025; mit der Unterschrift wird bestätigt, dass auf Rubrik A die Verrechnungssteuer von 35 % abgezogen wurde.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0133",
-"nachher": "ar-wl-2025__c0135"
+"vorher": "ar-wl-2025__c0126",
+"nachher": "ar-wl-2025__c0128"
 },
 {
-"id": "ar-wl-2025__c0135",
+"id": "ar-wl-2025__c0128",
 "titel": "Formular 2 – Ausfüllen: Zweck, Verrechnungssteuer, Erbschaften, Stichtag, Kryptowährungen, Selbstanzeige (Teil 2/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -3900,11 +3659,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0134",
-"nachher": "ar-wl-2025__c0136"
+"vorher": "ar-wl-2025__c0127",
+"nachher": "ar-wl-2025__c0129"
 },
 {
-"id": "ar-wl-2025__c0136",
+"id": "ar-wl-2025__c0129",
 "titel": "Formular 2 – Beilagen zum Wertschriftenverzeichnis (Steuerauszug, Darlehen ab Fr. 50’000, Erbteilung) (Teil 1/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -3929,11 +3688,11 @@
 ],
 "zusammenfassung": "Beizulegen sind Steuerauszüge, Bescheinigungen bei Festgeld/Treuhand/ausländischen Titeln, Kauf-/Verkaufsbelege, Mitarbeiteraktien-Bescheinigung, bei Darlehen ab Fr. 50’000.– eine Vertragskopie und bei Erbschaften Inventar bzw. Erbteilung.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0135",
-"nachher": "ar-wl-2025__c0137"
+"vorher": "ar-wl-2025__c0128",
+"nachher": "ar-wl-2025__c0130"
 },
 {
-"id": "ar-wl-2025__c0137",
+"id": "ar-wl-2025__c0130",
 "titel": "Formular 2 – Beilagen zum Wertschriftenverzeichnis (Steuerauszug, Darlehen ab Fr. 50’000, Erbteilung) (Teil 2/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -3958,11 +3717,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0136",
-"nachher": "ar-wl-2025__c0138"
+"vorher": "ar-wl-2025__c0129",
+"nachher": "ar-wl-2025__c0131"
 },
 {
-"id": "ar-wl-2025__c0138",
+"id": "ar-wl-2025__c0131",
 "titel": "Verrechnungssteueranspruch (35 %), Rückerstattung, Verwirkung nach drei Jahren (Teil 1/3)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -3986,11 +3745,11 @@
 ],
 "zusammenfassung": "Der Verrechnungssteuersatz beträgt 35 Prozent; der Rückerstattungsanspruch erlischt, wenn der Antrag nicht innert drei Jahren nach Ablauf des Fälligkeitsjahrs gestellt wird; Rückerstattung nur an Personen mit Wohnsitz in AR am 31.12.2025.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0137",
-"nachher": "ar-wl-2025__c0139"
+"vorher": "ar-wl-2025__c0130",
+"nachher": "ar-wl-2025__c0132"
 },
 {
-"id": "ar-wl-2025__c0139",
+"id": "ar-wl-2025__c0132",
 "titel": "Verrechnungssteueranspruch (35 %), Rückerstattung, Verwirkung nach drei Jahren (Teil 2/3)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4014,11 +3773,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0138",
-"nachher": "ar-wl-2025__c0140"
+"vorher": "ar-wl-2025__c0131",
+"nachher": "ar-wl-2025__c0133"
 },
 {
-"id": "ar-wl-2025__c0140",
+"id": "ar-wl-2025__c0133",
 "titel": "Verrechnungssteueranspruch (35 %), Rückerstattung, Verwirkung nach drei Jahren (Teil 3/3)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4042,11 +3801,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0139",
-"nachher": "ar-wl-2025__c0141"
+"vorher": "ar-wl-2025__c0132",
+"nachher": "ar-wl-2025__c0134"
 },
 {
-"id": "ar-wl-2025__c0141",
+"id": "ar-wl-2025__c0134",
 "titel": "Bewertung der Wertschriften (Kursliste, nichtkotierte Titel, Fremdwährung) (Teil 1/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4069,11 +3828,11 @@
 ],
 "zusammenfassung": "Kotierte Wertpapiere zum offiziellen Steuerwert Ende 2025 gemäss Kursliste der ESTV; nichtkotierte nach innerem Wert (Kreisschreiben Nr. 28); Fremdwährungen zum Jahresendkurs.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0140",
-"nachher": "ar-wl-2025__c0142"
+"vorher": "ar-wl-2025__c0133",
+"nachher": "ar-wl-2025__c0135"
 },
 {
-"id": "ar-wl-2025__c0142",
+"id": "ar-wl-2025__c0135",
 "titel": "Bewertung der Wertschriften (Kursliste, nichtkotierte Titel, Fremdwährung) (Teil 2/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4096,11 +3855,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0141",
-"nachher": "ar-wl-2025__c0143"
+"vorher": "ar-wl-2025__c0134",
+"nachher": "ar-wl-2025__c0136"
 },
 {
-"id": "ar-wl-2025__c0143",
+"id": "ar-wl-2025__c0136",
 "titel": "Deklaration der Erträge – Bruttozinsen (bis Fr. 200 verrechnungssteuerfrei), Mieterkaution, Bruchzinsen (Teil 1/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4126,11 +3885,11 @@
 ],
 "zusammenfassung": "Bruttozinsen von Kundenguthaben bis und mit Fr. 200.– je Kalenderjahr sind verrechnungssteuerfrei und in Spalte B aufzuführen; Bruchzinsen sind steuerpflichtig, Marchzinsen aus Titelverkäufen nicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0142",
-"nachher": "ar-wl-2025__c0144"
+"vorher": "ar-wl-2025__c0135",
+"nachher": "ar-wl-2025__c0137"
 },
 {
-"id": "ar-wl-2025__c0144",
+"id": "ar-wl-2025__c0137",
 "titel": "Deklaration der Erträge – Bruttozinsen (bis Fr. 200 verrechnungssteuerfrei), Mieterkaution, Bruchzinsen (Teil 2/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4156,11 +3915,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0143",
-"nachher": "ar-wl-2025__c0145"
+"vorher": "ar-wl-2025__c0136",
+"nachher": "ar-wl-2025__c0138"
 },
 {
-"id": "ar-wl-2025__c0145",
+"id": "ar-wl-2025__c0138",
 "titel": "Deklaration der Erträge – Geldspielgewinne (Grenze Fr. 1 Mio. / Fr. 1’000) und Dividenden-Fälligkeit",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4184,11 +3943,11 @@
 ],
 "zusammenfassung": "Steuerbar sind einzelne Gewinne aus Online-Spielbankenspielen und Grossspielen soweit über Fr. 1 Mio., aus Lotterien zur Verkaufsförderung über Fr. 1’000.–; Gratis- und ausländische Spiele voll steuerbar; für Dividenden gilt das Fälligkeitsdatum.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0144",
-"nachher": "ar-wl-2025__c0146"
+"vorher": "ar-wl-2025__c0137",
+"nachher": "ar-wl-2025__c0139"
 },
 {
-"id": "ar-wl-2025__c0146",
+"id": "ar-wl-2025__c0139",
 "titel": "Deklaration der Erträge – globalverzinsliche Obligationen, Anlagefonds, Kapitalversicherungen, Naturalpreise (Teil 1/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4211,11 +3970,11 @@
 ],
 "zusammenfassung": "Bei globalverzinslichen Obligationen ist der Ertrag bei Verfall zu deklarieren; Naturalpreise: Reisen 50 %, Autos/Velos 75 %, Übrige 50 % des Katalogpreises.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0145",
-"nachher": "ar-wl-2025__c0147"
+"vorher": "ar-wl-2025__c0138",
+"nachher": "ar-wl-2025__c0140"
 },
 {
-"id": "ar-wl-2025__c0147",
+"id": "ar-wl-2025__c0140",
 "titel": "Deklaration der Erträge – globalverzinsliche Obligationen, Anlagefonds, Kapitalversicherungen, Naturalpreise (Teil 2/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4238,11 +3997,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0146",
-"nachher": "ar-wl-2025__c0148"
+"vorher": "ar-wl-2025__c0139",
+"nachher": "ar-wl-2025__c0141"
 },
 {
-"id": "ar-wl-2025__c0148",
+"id": "ar-wl-2025__c0141",
 "titel": "Gratisaktien, Gratis-Nennwerterhöhung und Kapitaleinlagereserven",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4264,11 +4023,11 @@
 ],
 "zusammenfassung": "Gratisaktien und Gratis-Nennwerterhöhungen sind steuerbar; geprüfte Ausschüttungen aus Kapitaleinlagereserven sind wie Rückzahlung von Grund- und Stammkapital einkommenssteuerfrei.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0147",
-"nachher": "ar-wl-2025__c0149"
+"vorher": "ar-wl-2025__c0140",
+"nachher": "ar-wl-2025__c0142"
 },
 {
-"id": "ar-wl-2025__c0149",
+"id": "ar-wl-2025__c0142",
 "titel": "Wertschriften des Geschäftsvermögens (Code G)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4291,11 +4050,11 @@
 ],
 "zusammenfassung": "Wertschriften des Geschäftsvermögens sind in Spalte 1 mit «G» zu bezeichnen; für die Vermögensbesteuerung gilt der Einkommenssteuerwert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0148",
-"nachher": "ar-wl-2025__c0150"
+"vorher": "ar-wl-2025__c0141",
+"nachher": "ar-wl-2025__c0143"
 },
 {
-"id": "ar-wl-2025__c0150",
+"id": "ar-wl-2025__c0143",
 "titel": "Erbschaft und Schenkung im Wertschriftenverzeichnis (Codes E und S)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4320,11 +4079,11 @@
 ],
 "zusammenfassung": "Erträge sind ab Erbteilung/Schenkung aufzuführen und mit «E» bzw. «S» zu bezeichnen; Fälligkeiten zwischen Todestag und Erbteilung sind anteilsmässig in Ziffer 6.2 bzw. 30.5 zu deklarieren.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0149",
-"nachher": "ar-wl-2025__c0151"
+"vorher": "ar-wl-2025__c0142",
+"nachher": "ar-wl-2025__c0144"
 },
 {
-"id": "ar-wl-2025__c0151",
+"id": "ar-wl-2025__c0144",
 "titel": "Ausländische Wertschriften, DA-1, Anrechnung ausländischer Quellensteuern (Grenze Fr. 100) (Teil 1/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4349,11 +4108,11 @@
 ],
 "zusammenfassung": "Massgebend ist der Bruttoertrag in Franken vor Quellensteuern; Formular DA-1; übersteigen die nicht rückforderbaren Steuern Fr. 100.– nicht, wird keine Anrechnung gewährt, sie sind dann als Vermögensverwaltungskosten abziehbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0150",
-"nachher": "ar-wl-2025__c0152"
+"vorher": "ar-wl-2025__c0143",
+"nachher": "ar-wl-2025__c0145"
 },
 {
-"id": "ar-wl-2025__c0152",
+"id": "ar-wl-2025__c0145",
 "titel": "Ausländische Wertschriften, DA-1, Anrechnung ausländischer Quellensteuern (Grenze Fr. 100) (Teil 2/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4378,11 +4137,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0151",
-"nachher": "ar-wl-2025__c0153"
+"vorher": "ar-wl-2025__c0144",
+"nachher": "ar-wl-2025__c0146"
 },
 {
-"id": "ar-wl-2025__c0153",
+"id": "ar-wl-2025__c0146",
 "titel": "Rückerstattungsverfahren ausländischer Quellensteuern (Fristen, R-D 1)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4404,11 +4163,11 @@
 ],
 "zusammenfassung": "Rückforderungsanträge sind nach Ablauf des Fälligkeitsjahres innert den Fristen der Vertragsstaaten (ein bis zehn Jahre) mit vollständigen Originalbankbelegen an die Kantonale Steuerverwaltung zu richten.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0152",
-"nachher": "ar-wl-2025__c0154"
+"vorher": "ar-wl-2025__c0145",
+"nachher": "ar-wl-2025__c0147"
 },
 {
-"id": "ar-wl-2025__c0154",
+"id": "ar-wl-2025__c0147",
 "titel": "Formular 2 – Spalte A: Vermögenswerte mit Verrechnungssteuerabzug",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4432,12 +4191,12 @@
 ],
 "zusammenfassung": "In Spalte A gehören Kundenguthaben mit Bruttozins über Fr. 200.–, Kassenobligationen, Festgelder, inländische Aktien/Obligationen, GmbH-Anteile, inländische Fonds, Mitarbeiteraktien und Lotteriegewinne mit VST-Quote.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0153",
-"nachher": "ar-wl-2025__c0155"
+"vorher": "ar-wl-2025__c0146",
+"nachher": "ar-wl-2025__c0148"
 },
 {
-"id": "ar-wl-2025__c0155",
-"titel": "Muster Wertschriften- und Guthabenverzeichnis, Formular 2 Seite 1 links (Code-Abkürzungen G, N, E, S, BP, BG) (Teil 1/3)",
+"id": "ar-wl-2025__c0148",
+"titel": "Muster Wertschriftenverzeichnis – Titelzeilen (Konten, Aktien, Fonds, Darlehen; Raster) (Teil 1/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
 "Muster"
@@ -4449,23 +4208,22 @@
 "ziffer": null,
 "stichworte": [
 "Muster Wertschriftenverzeichnis",
-"Code BP",
-"Code BG",
+"IBAN",
 "Valorennummer",
-"IBAN"
+"Namenaktien",
+"Kassenobligation"
 ],
 "positionen": [
-"einkommen.wertschriften",
-"verrechnungssteuer.rueckerstattung"
+"einkommen.wertschriften"
 ],
-"zusammenfassung": "Zerrissenes Muster eines ausgefüllten Formulars 2 (unverbindliche Zahlen) mit Code-Abkürzungen G, N, E, S, BP, BG.",
+"zusammenfassung": "Zerrissenes Muster mit Beispielzeilen (Postkonto, Privatkonto, Aktien, Fonds, Darlehen, Kassenobligation, Mieterkautionskonto); Zahlen unverbindlich.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0154",
-"nachher": "ar-wl-2025__c0156"
+"vorher": "ar-wl-2025__c0147",
+"nachher": "ar-wl-2025__c0149"
 },
 {
-"id": "ar-wl-2025__c0156",
-"titel": "Muster Wertschriften- und Guthabenverzeichnis, Formular 2 Seite 1 links (Code-Abkürzungen G, N, E, S, BP, BG) (Teil 2/3)",
+"id": "ar-wl-2025__c0149",
+"titel": "Muster Wertschriftenverzeichnis – Titelzeilen (Konten, Aktien, Fonds, Darlehen; Raster) (Teil 2/2)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
 "Muster"
@@ -4477,23 +4235,22 @@
 "ziffer": null,
 "stichworte": [
 "Muster Wertschriftenverzeichnis",
-"Code BP",
-"Code BG",
+"IBAN",
 "Valorennummer",
-"IBAN"
+"Namenaktien",
+"Kassenobligation"
 ],
 "positionen": [
-"einkommen.wertschriften",
-"verrechnungssteuer.rueckerstattung"
+"einkommen.wertschriften"
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0155",
-"nachher": "ar-wl-2025__c0157"
+"vorher": "ar-wl-2025__c0148",
+"nachher": "ar-wl-2025__c0150"
 },
 {
-"id": "ar-wl-2025__c0157",
-"titel": "Muster Wertschriften- und Guthabenverzeichnis, Formular 2 Seite 1 links (Code-Abkürzungen G, N, E, S, BP, BG) (Teil 3/3)",
+"id": "ar-wl-2025__c0150",
+"titel": "Muster Wertschriftenverzeichnis – Code-Abkürzungen (G, N, E, S, BP, BG) und Totale",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
 "Muster"
@@ -4504,23 +4261,26 @@
 "artikel": null,
 "ziffer": null,
 "stichworte": [
-"Muster Wertschriftenverzeichnis",
+"Code G",
+"Code N Nutzniessung",
+"Code E",
+"Code S",
 "Code BP",
 "Code BG",
-"Valorennummer",
-"IBAN"
+"Pauschale 3 Promille"
 ],
 "positionen": [
 "einkommen.wertschriften",
-"verrechnungssteuer.rueckerstattung"
+"abzug.verwaltungskosten_wertschriften",
+"berechnung.total"
 ],
-"zusammenfassung": null,
+"zusammenfassung": "Codes in Spalte 1: G Geschäftsvermögen, N Nutzniessung, E neuer Titel aus Erbschaft, S aus Schenkung, BP Privatbeteiligung mind. 10 %, BG Geschäftsbeteiligung mind. 10 %; Pauschale 3 Promille für Vermögensverwaltungskosten.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0156",
-"nachher": "ar-wl-2025__c0158"
+"vorher": "ar-wl-2025__c0149",
+"nachher": "ar-wl-2025__c0151"
 },
 {
-"id": "ar-wl-2025__c0158",
+"id": "ar-wl-2025__c0151",
 "titel": "Formular 2 – Spalte B und Muster rechte Hälfte (Beträge, Verrechnungssteueranspruch 35 %) (Teil 1/4)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4545,11 +4305,11 @@
 ],
 "zusammenfassung": "Spalte B: Kundenguthaben bis Fr. 200.– Bruttozins, inländische Darlehen/Hypothekarforderungen, ausländische Wertschriften, Immobilienfonds mit direktem Grundbesitz, ausländische Gewinne und Naturalpreise; Muster mit Totalen und Verrechnungssteueranspruch 35 % (Raster).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0157",
-"nachher": "ar-wl-2025__c0159"
+"vorher": "ar-wl-2025__c0150",
+"nachher": "ar-wl-2025__c0152"
 },
 {
-"id": "ar-wl-2025__c0159",
+"id": "ar-wl-2025__c0152",
 "titel": "Formular 2 – Spalte B und Muster rechte Hälfte (Beträge, Verrechnungssteueranspruch 35 %) (Teil 2/4)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4574,11 +4334,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0158",
-"nachher": "ar-wl-2025__c0160"
+"vorher": "ar-wl-2025__c0151",
+"nachher": "ar-wl-2025__c0153"
 },
 {
-"id": "ar-wl-2025__c0160",
+"id": "ar-wl-2025__c0153",
 "titel": "Formular 2 – Spalte B und Muster rechte Hälfte (Beträge, Verrechnungssteueranspruch 35 %) (Teil 3/4)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4603,11 +4363,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0159",
-"nachher": "ar-wl-2025__c0161"
+"vorher": "ar-wl-2025__c0152",
+"nachher": "ar-wl-2025__c0154"
 },
 {
-"id": "ar-wl-2025__c0161",
+"id": "ar-wl-2025__c0154",
 "titel": "Formular 2 – Spalte B und Muster rechte Hälfte (Beträge, Verrechnungssteueranspruch 35 %) (Teil 4/4)",
 "pfad": [
 "Wertschriften- und Guthabenverzeichnis (Formular 2)",
@@ -4632,11 +4392,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0160",
-"nachher": "ar-wl-2025__c0162"
+"vorher": "ar-wl-2025__c0153",
+"nachher": "ar-wl-2025__c0155"
 },
 {
-"id": "ar-wl-2025__c0162",
+"id": "ar-wl-2025__c0155",
 "titel": "Ausfüllen der Formulare Liegenschaften (Formular 7 und 7Z) – Grundsatz",
 "pfad": [
 "Liegenschaften",
@@ -4660,11 +4420,11 @@
 ],
 "zusammenfassung": "Pro Liegenschaft ist ein separates Formular 7 auszufüllen; bei einer einzigen Liegenschaft werden die Ergebnisse direkt in die Steuererklärung übertragen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0161",
-"nachher": "ar-wl-2025__c0163"
+"vorher": "ar-wl-2025__c0154",
+"nachher": "ar-wl-2025__c0156"
 },
 {
-"id": "ar-wl-2025__c0163",
+"id": "ar-wl-2025__c0156",
 "titel": "Muster Formular 7 Teil A – Angaben zur Liegenschaft / Steuerwert (Formularraster) (Teil 1/2)",
 "pfad": [
 "Liegenschaften",
@@ -4686,11 +4446,11 @@
 ],
 "zusammenfassung": "Zerrissenes Formularraster Teil A: Art, Lage, Anteile, Nutzung, Steuerwert (Übertrag Seite 4 Ziffer 31 bzw. Formular 7Z).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0162",
-"nachher": "ar-wl-2025__c0164"
+"vorher": "ar-wl-2025__c0155",
+"nachher": "ar-wl-2025__c0157"
 },
 {
-"id": "ar-wl-2025__c0164",
+"id": "ar-wl-2025__c0157",
 "titel": "Muster Formular 7 Teil A – Angaben zur Liegenschaft / Steuerwert (Formularraster) (Teil 2/2)",
 "pfad": [
 "Liegenschaften",
@@ -4712,11 +4472,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0163",
-"nachher": "ar-wl-2025__c0165"
+"vorher": "ar-wl-2025__c0156",
+"nachher": "ar-wl-2025__c0158"
 },
 {
-"id": "ar-wl-2025__c0165",
+"id": "ar-wl-2025__c0158",
 "titel": "Muster Formular 7 Teil B und C – Eigenmietwert (20 % Abzug), Erträge, Pauschalabzug (Teil 1/3)",
 "pfad": [
 "Liegenschaften",
@@ -4741,11 +4501,11 @@
 ],
 "zusammenfassung": "Fiktives Muster: Eigenmietwert abzüglich 20 % = anrechenbarer Eigenmietwert, Übertrag in Seite 2 Ziffer 5; Pauschalabzug der Erträge Übertrag in Seite 3 Ziffer 15; Selbstnutzungsabzug nur am Wohnort.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0164",
-"nachher": "ar-wl-2025__c0166"
+"vorher": "ar-wl-2025__c0157",
+"nachher": "ar-wl-2025__c0159"
 },
 {
-"id": "ar-wl-2025__c0166",
+"id": "ar-wl-2025__c0159",
 "titel": "Muster Formular 7 Teil B und C – Eigenmietwert (20 % Abzug), Erträge, Pauschalabzug (Teil 2/3)",
 "pfad": [
 "Liegenschaften",
@@ -4770,11 +4530,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0165",
-"nachher": "ar-wl-2025__c0167"
+"vorher": "ar-wl-2025__c0158",
+"nachher": "ar-wl-2025__c0160"
 },
 {
-"id": "ar-wl-2025__c0167",
+"id": "ar-wl-2025__c0160",
 "titel": "Muster Formular 7 Teil B und C – Eigenmietwert (20 % Abzug), Erträge, Pauschalabzug (Teil 3/3)",
 "pfad": [
 "Liegenschaften",
@@ -4799,12 +4559,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0166",
-"nachher": "ar-wl-2025__c0168"
+"vorher": "ar-wl-2025__c0159",
+"nachher": "ar-wl-2025__c0161"
 },
 {
-"id": "ar-wl-2025__c0168",
-"titel": "Formular 7Z – Zusammenzug aller Liegenschaften (Muster) (Teil 1/4)",
+"id": "ar-wl-2025__c0161",
+"titel": "Formular 7Z – Zusammenzug aller Liegenschaften (Muster) (Teil 1/3)",
 "pfad": [
 "Liegenschaften",
 "Formular 7Z"
@@ -4828,12 +4588,12 @@
 ],
 "zusammenfassung": "Bei mehr als einer Liegenschaft werden die Totale der Formulare 7 in Formular 7Z übertragen und von dort in Seite 4 Ziffer 31, Seite 2 Ziffer 5 und Seite 3 Ziffer 15 der Steuererklärung (Beispiel mit Tabellen-Raster).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0167",
-"nachher": "ar-wl-2025__c0169"
+"vorher": "ar-wl-2025__c0160",
+"nachher": "ar-wl-2025__c0162"
 },
 {
-"id": "ar-wl-2025__c0169",
-"titel": "Formular 7Z – Zusammenzug aller Liegenschaften (Muster) (Teil 2/4)",
+"id": "ar-wl-2025__c0162",
+"titel": "Formular 7Z – Zusammenzug aller Liegenschaften (Muster) (Teil 2/3)",
 "pfad": [
 "Liegenschaften",
 "Formular 7Z"
@@ -4857,12 +4617,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0168",
-"nachher": "ar-wl-2025__c0170"
+"vorher": "ar-wl-2025__c0161",
+"nachher": "ar-wl-2025__c0163"
 },
 {
-"id": "ar-wl-2025__c0170",
-"titel": "Formular 7Z – Zusammenzug aller Liegenschaften (Muster) (Teil 3/4)",
+"id": "ar-wl-2025__c0163",
+"titel": "Formular 7Z – Zusammenzug aller Liegenschaften (Muster) (Teil 3/3)",
 "pfad": [
 "Liegenschaften",
 "Formular 7Z"
@@ -4886,40 +4646,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0169",
-"nachher": "ar-wl-2025__c0171"
+"vorher": "ar-wl-2025__c0162",
+"nachher": "ar-wl-2025__c0164"
 },
 {
-"id": "ar-wl-2025__c0171",
-"titel": "Formular 7Z – Zusammenzug aller Liegenschaften (Muster) (Teil 4/4)",
-"pfad": [
-"Liegenschaften",
-"Formular 7Z"
-],
-"seiten": [
-29
-],
-"artikel": null,
-"ziffer": "7Z",
-"stichworte": [
-"Formular 7Z",
-"Zusammenzug Liegenschaften",
-"mehrere Liegenschaften",
-"Total Steuerwert"
-],
-"positionen": [
-"vermoegen.liegenschaften",
-"einkommen.liegenschaften.eigenmietwert",
-"abzug.liegenschaft.unterhalt",
-"berechnung.total"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0170",
-"nachher": "ar-wl-2025__c0172"
-},
-{
-"id": "ar-wl-2025__c0172",
+"id": "ar-wl-2025__c0164",
 "titel": "Formular 7 Teil A – Angaben zur Liegenschaft, Steuerwert (80 % Neu-/Anbauten) (Teil 1/2)",
 "pfad": [
 "Liegenschaften",
@@ -4942,11 +4673,11 @@
 ],
 "zusammenfassung": "Steuerwert nach amtlicher Verkehrs- oder Ertragswertschätzung; bei Neu- und Anbauten ohne Schätzung Zuschlag von 80 Prozent der Neu- oder Anbaukosten.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0171",
-"nachher": "ar-wl-2025__c0173"
+"vorher": "ar-wl-2025__c0163",
+"nachher": "ar-wl-2025__c0165"
 },
 {
-"id": "ar-wl-2025__c0173",
+"id": "ar-wl-2025__c0165",
 "titel": "Formular 7 Teil A – Angaben zur Liegenschaft, Steuerwert (80 % Neu-/Anbauten) (Teil 2/2)",
 "pfad": [
 "Liegenschaften",
@@ -4969,11 +4700,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0172",
-"nachher": "ar-wl-2025__c0174"
+"vorher": "ar-wl-2025__c0164",
+"nachher": "ar-wl-2025__c0166"
 },
 {
-"id": "ar-wl-2025__c0174",
+"id": "ar-wl-2025__c0166",
 "titel": "Formular 7 Teil B – Erträge: Eigenmietwert (Abzug 20 %), Mietertrag, Photovoltaik-Einspeisung (Teil 1/2)",
 "pfad": [
 "Liegenschaften",
@@ -5000,11 +4731,11 @@
 ],
 "zusammenfassung": "Eigenmietwert der dauernd selbstbewohnten Liegenschaft am Wohnsitz = Mietwert abzüglich 20 Prozent (nicht bei Zweit-/Ferienwohnungen und Landwirtschaft); Zuschlag 2.8 Prozent auf wertvermehrende Investitionen; Einspeisevergütungen Photovoltaik abzüglich Eigenverbrauch steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0173",
-"nachher": "ar-wl-2025__c0175"
+"vorher": "ar-wl-2025__c0165",
+"nachher": "ar-wl-2025__c0167"
 },
 {
-"id": "ar-wl-2025__c0175",
+"id": "ar-wl-2025__c0167",
 "titel": "Formular 7 Teil B – Erträge: Eigenmietwert (Abzug 20 %), Mietertrag, Photovoltaik-Einspeisung (Teil 2/2)",
 "pfad": [
 "Liegenschaften",
@@ -5031,11 +4762,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0174",
-"nachher": "ar-wl-2025__c0176"
+"vorher": "ar-wl-2025__c0166",
+"nachher": "ar-wl-2025__c0168"
 },
 {
-"id": "ar-wl-2025__c0176",
+"id": "ar-wl-2025__c0168",
 "titel": "Formular 7 Teil C – Unterhalts- und Verwaltungskosten: Übersicht und Instandhaltungskosten",
 "pfad": [
 "Liegenschaften",
@@ -5059,11 +4790,11 @@
 ],
 "zusammenfassung": "Zu den abziehbaren Kosten zählen Instandhaltung, Instandstellung, Ersatzbeschaffung, Betriebs- und Verwaltungskosten, denkmalpflegerische Arbeiten sowie Energiespar- und Umweltschutzinvestitionen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0175",
-"nachher": "ar-wl-2025__c0177"
+"vorher": "ar-wl-2025__c0167",
+"nachher": "ar-wl-2025__c0169"
 },
 {
-"id": "ar-wl-2025__c0177",
+"id": "ar-wl-2025__c0169",
 "titel": "Liegenschaftsunterhalt – Instandstellung, Ersatzbeschaffung, Betriebs- und Verwaltungskosten (wertvermehrend nicht abziehbar)",
 "pfad": [
 "Liegenschaften",
@@ -5087,11 +4818,11 @@
 ],
 "zusammenfassung": "Renovationen und Ersatzbeschaffungen sind abziehbar; wertvermehrende Aufwendungen (Baubeiträge, Perimeter) nicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0176",
-"nachher": "ar-wl-2025__c0178"
+"vorher": "ar-wl-2025__c0168",
+"nachher": "ar-wl-2025__c0170"
 },
 {
-"id": "ar-wl-2025__c0178",
+"id": "ar-wl-2025__c0170",
 "titel": "Liegenschaftsunterhalt – Betriebs- und Verwaltungskosten bei Eigengebrauch bzw. Vermietung (Teil 1/2)",
 "pfad": [
 "Liegenschaften",
@@ -5115,11 +4846,11 @@
 ],
 "zusammenfassung": "Bei Eigengebrauch nur nutzungsunabhängige Auslagen (z.B. Wartung, Gebäudeversicherungen) abziehbar; Verbrauchskosten, Heiz- und Abwassergebühren nicht; bei Vermietung alle nicht überwälzten Aufwendungen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0177",
-"nachher": "ar-wl-2025__c0179"
+"vorher": "ar-wl-2025__c0169",
+"nachher": "ar-wl-2025__c0171"
 },
 {
-"id": "ar-wl-2025__c0179",
+"id": "ar-wl-2025__c0171",
 "titel": "Liegenschaftsunterhalt – Betriebs- und Verwaltungskosten bei Eigengebrauch bzw. Vermietung (Teil 2/2)",
 "pfad": [
 "Liegenschaften",
@@ -5143,11 +4874,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0178",
-"nachher": "ar-wl-2025__c0180"
+"vorher": "ar-wl-2025__c0170",
+"nachher": "ar-wl-2025__c0172"
 },
 {
-"id": "ar-wl-2025__c0180",
+"id": "ar-wl-2025__c0172",
 "titel": "Liegenschaftsunterhalt – Denkmalpflege, Energiespar- und Umweltschutzinvestitionen, Förderbeiträge",
 "pfad": [
 "Liegenschaften",
@@ -5173,11 +4904,11 @@
 ],
 "zusammenfassung": "Energiespar- und Umweltschutzinvestitionen sind dem Unterhalt gleichgestellt (soweit bei der DBSt abziehbar); Förderbeiträge vermindern die Kosten, bei Vergütung erst im Folgejahr sind sie unter Ziffer 6.3 zu deklarieren.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0179",
-"nachher": "ar-wl-2025__c0181"
+"vorher": "ar-wl-2025__c0171",
+"nachher": "ar-wl-2025__c0173"
 },
 {
-"id": "ar-wl-2025__c0181",
+"id": "ar-wl-2025__c0173",
 "titel": "Liegenschaftsunterhalt – Rückbaukosten Ersatzneubau und Vortrag auf zwei Folgejahre (Formular 7 RE)",
 "pfad": [
 "Liegenschaften",
@@ -5200,12 +4931,40 @@
 ],
 "zusammenfassung": "Nicht vollständig berücksichtigte Energiespar-/Umweltschutz- und Rückbaukosten können maximal auf die nächsten zwei Jahre als effektiver Unterhalt vorgetragen werden.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0180",
-"nachher": "ar-wl-2025__c0182"
+"vorher": "ar-wl-2025__c0172",
+"nachher": "ar-wl-2025__c0174"
 },
 {
-"id": "ar-wl-2025__c0182",
-"titel": "Stockwerkeigentum, Liegenschaftenrechnung und Pauschalabzug 10 % / 20 % (Brutto-Mietertrag bis Fr. 100’000) (Teil 1/3)",
+"id": "ar-wl-2025__c0174",
+"titel": "Stockwerkeigentum, Reparatur- und Erneuerungsfonds, separate Liegenschaftenrechnung (Feld C2)",
+"pfad": [
+"Liegenschaften",
+"Formular 7",
+"C. Unterhalts- und Verwaltungskosten"
+],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": "7 C",
+"stichworte": [
+"Stockwerkeigentum",
+"STWE",
+"Erneuerungsfonds",
+"Liegenschaftenrechnung",
+"tatsächliche Kosten"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Bei Stockwerkeigentum sind die anteiligen Unterhaltskosten (ohne Heiz-, Warmwasser- und Stromkosten) abziehbar, auch Einlagen in den Reparatur- und Erneuerungsfonds, wenn unwiderruflich entzogen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-wl-2025__c0173",
+"nachher": "ar-wl-2025__c0175"
+},
+{
+"id": "ar-wl-2025__c0175",
+"titel": "Pauschalabzug Liegenschaftsunterhalt 10 % / 20 % (Bruttomietertrag bis Fr. 100’000), Wahlrecht",
 "pfad": [
 "Liegenschaften",
 "Formular 7",
@@ -5219,76 +4978,20 @@
 "stichworte": [
 "Pauschalabzug 10 Prozent",
 "Pauschalabzug 20 Prozent",
-"Stockwerkeigentum",
-"Erneuerungsfonds",
-"Fr. 100'000"
+"Gebäudealter 10 Jahre",
+"Fr. 100'000",
+"Wahlrecht"
 ],
 "positionen": [
 "abzug.liegenschaft.unterhalt"
 ],
-"zusammenfassung": "Pauschale 10 % (Gebäude bis und mit 10 Jahre) bzw. 20 % (über 10 Jahre) der Liegenschaftserträge, wenn der jährliche Bruttomietertrag Fr. 100’000.– nicht übersteigt; Wahlrecht je Gebäude und Jahr; Einlagen in den Erneuerungsfonds werden anerkannt.",
+"zusammenfassung": "Pauschalabzug 10 % der Liegenschaftserträge bei Gebäuden bis und mit 10 Jahre, 20 % über 10 Jahre, sofern der jährliche Bruttomietertrag Fr. 100’000.– nicht übersteigt; Wahlrecht je Gebäude und Veranlagungsperiode.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0181",
-"nachher": "ar-wl-2025__c0183"
+"vorher": "ar-wl-2025__c0174",
+"nachher": "ar-wl-2025__c0176"
 },
 {
-"id": "ar-wl-2025__c0183",
-"titel": "Stockwerkeigentum, Liegenschaftenrechnung und Pauschalabzug 10 % / 20 % (Brutto-Mietertrag bis Fr. 100’000) (Teil 2/3)",
-"pfad": [
-"Liegenschaften",
-"Formular 7",
-"C. Unterhalts- und Verwaltungskosten"
-],
-"seiten": [
-32
-],
-"artikel": null,
-"ziffer": "7 C",
-"stichworte": [
-"Pauschalabzug 10 Prozent",
-"Pauschalabzug 20 Prozent",
-"Stockwerkeigentum",
-"Erneuerungsfonds",
-"Fr. 100'000"
-],
-"positionen": [
-"abzug.liegenschaft.unterhalt"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0182",
-"nachher": "ar-wl-2025__c0184"
-},
-{
-"id": "ar-wl-2025__c0184",
-"titel": "Stockwerkeigentum, Liegenschaftenrechnung und Pauschalabzug 10 % / 20 % (Brutto-Mietertrag bis Fr. 100’000) (Teil 3/3)",
-"pfad": [
-"Liegenschaften",
-"Formular 7",
-"C. Unterhalts- und Verwaltungskosten"
-],
-"seiten": [
-32
-],
-"artikel": null,
-"ziffer": "7 C",
-"stichworte": [
-"Pauschalabzug 10 Prozent",
-"Pauschalabzug 20 Prozent",
-"Stockwerkeigentum",
-"Erneuerungsfonds",
-"Fr. 100'000"
-],
-"positionen": [
-"abzug.liegenschaft.unterhalt"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0183",
-"nachher": "ar-wl-2025__c0185"
-},
-{
-"id": "ar-wl-2025__c0185",
+"id": "ar-wl-2025__c0176",
 "titel": "Strafbestimmungen – Verfahrenspflichten, Steuerhinterziehung, Steuerbetrug (Teil 1/2)",
 "pfad": [
 "Strafbestimmungen"
@@ -5310,11 +5013,11 @@
 ],
 "zusammenfassung": "Steuerhinterziehung wird in der Regel mit dem Einfachen der hinterzogenen Steuer gebüsst, der Versuch mit zwei Dritteln; Steuerbetrug mit Gefängnis oder Busse bis Fr. 30’000.–.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0184",
-"nachher": "ar-wl-2025__c0186"
+"vorher": "ar-wl-2025__c0175",
+"nachher": "ar-wl-2025__c0177"
 },
 {
-"id": "ar-wl-2025__c0186",
+"id": "ar-wl-2025__c0177",
 "titel": "Strafbestimmungen – Verfahrenspflichten, Steuerhinterziehung, Steuerbetrug (Teil 2/2)",
 "pfad": [
 "Strafbestimmungen"
@@ -5336,11 +5039,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0185",
-"nachher": "ar-wl-2025__c0187"
+"vorher": "ar-wl-2025__c0176",
+"nachher": "ar-wl-2025__c0178"
 },
 {
-"id": "ar-wl-2025__c0187",
+"id": "ar-wl-2025__c0178",
 "titel": "Straflose Selbstanzeige",
 "pfad": [
 "Strafbestimmungen",
@@ -5363,11 +5066,11 @@
 ],
 "zusammenfassung": "Bei erstmaliger Selbstanzeige bleibt straffrei, wer sich um vollständige Festsetzung und Bezahlung der Nachsteuern bemüht; Kennzeichnung z.B. «Selbstanzeige, bisher nicht versteuert».",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0186",
-"nachher": "ar-wl-2025__c0188"
+"vorher": "ar-wl-2025__c0177",
+"nachher": "ar-wl-2025__c0179"
 },
 {
-"id": "ar-wl-2025__c0188",
+"id": "ar-wl-2025__c0179",
 "titel": "Direkte Bundessteuer und Steuerbezug (Gegenwartsbemessung, vorläufige Rechnung)",
 "pfad": [
 "Steuerbezug"
@@ -5389,11 +5092,11 @@
 ],
 "zusammenfassung": "Die Steuererklärung dient auch der direkten Bundessteuer, die keine Vermögenssteuer kennt; Steuern des laufenden Jahres werden vorläufig in Rechnung gestellt, definitiv erst im Folgejahr.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0187",
-"nachher": "ar-wl-2025__c0189"
+"vorher": "ar-wl-2025__c0178",
+"nachher": "ar-wl-2025__c0180"
 },
 {
-"id": "ar-wl-2025__c0189",
+"id": "ar-wl-2025__c0180",
 "titel": "Höhe der vorläufigen Rechnung 2026 und Ausgleichszins (Verfalltag 30. Juni)",
 "pfad": [
 "Steuerbezug"
@@ -5415,11 +5118,11 @@
 ],
 "zusammenfassung": "Auf Zahlungen wird Ausgleichszins gutgeschrieben, auf dem veranlagten Betrag ab Verfalltag belastet (Verfalltag 30. Juni); bei starken Abweichungen kann eine neue Rechnung beantragt werden.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0188",
-"nachher": "ar-wl-2025__c0190"
+"vorher": "ar-wl-2025__c0179",
+"nachher": "ar-wl-2025__c0181"
 },
 {
-"id": "ar-wl-2025__c0190",
+"id": "ar-wl-2025__c0181",
 "titel": "Schlussrechnung 2025, Zahlungsfrist 30 Tage, Verzugszins, Stundung, Verrechnungssteuerguthaben",
 "pfad": [
 "Steuerbezug"
@@ -5443,11 +5146,11 @@
 ],
 "zusammenfassung": "Zahlungsfrist für die Schlussrechnung 30 Tage, danach Verzugszins; Stundungs-/Erlassgesuche schriftlich und begründet innerhalb der Zahlungsfrist; Verrechnungssteuerguthaben wird als Teilzahlung verrechnet.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0189",
-"nachher": "ar-wl-2025__c0191"
+"vorher": "ar-wl-2025__c0180",
+"nachher": "ar-wl-2025__c0182"
 },
 {
-"id": "ar-wl-2025__c0191",
+"id": "ar-wl-2025__c0182",
 "titel": "Steuertarife – Einkommenssteuer (Verheirateten- und Alleinstehendentarif)",
 "pfad": [
 "Steuertarife"
@@ -5469,11 +5172,11 @@
 ],
 "zusammenfassung": "Einkommenssteuer nach Art. 39 StG mit Tarif für Verheiratete (V) und Alleinstehende (A); einfache Steuer wird mit Steuerfuss multipliziert; Restbeträge unter Fr. 100.– fallen ausser Betracht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0190",
-"nachher": "ar-wl-2025__c0192"
+"vorher": "ar-wl-2025__c0181",
+"nachher": "ar-wl-2025__c0183"
 },
 {
-"id": "ar-wl-2025__c0192",
+"id": "ar-wl-2025__c0183",
 "titel": "Steuertarife – Vermögenssteuer (0,50 ‰ bis Fr. 250’000, 0,55 ‰ darüber)",
 "pfad": [
 "Steuertarife"
@@ -5495,7 +5198,7 @@
 ],
 "zusammenfassung": "Einfache Vermögenssteuer 0,50 Promille bis Fr. 250’000.– und 0,55 Promille über Fr. 250’000.–; Restbeträge unter Fr. 1’000.– fallen ausser Betracht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-wl-2025__c0191",
+"vorher": "ar-wl-2025__c0182",
 "nachher": null
 }
 ]

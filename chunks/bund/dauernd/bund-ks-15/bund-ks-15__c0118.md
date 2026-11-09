@@ -4,20 +4,18 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 2/3)"
-ziffer: "Anh. IV III.3"
-seiten: "34-35"
+titel: "Anhang IV Gutachten Ziff. III.4.1 Fazit ohne Handänderung"
+ziffer: "Anh. IV III.4.1"
+seiten: "35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34–35
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung › 4 Fazit · S. 35
 
-    •   Beim risikofreien Zinssatz handelt es sich im Prinzip um die Zinskurve, welche
-    sich aus Staatspapieren ableitet. Dieser entspricht somit nicht der Swap-Rate,
-    welche bereits einen gewissen Credit Spread beinhaltet. Für nicht "standardi-
-    sierte" Laufzeiten wie beispielsweise 4 Jahre 3 Monate und 12 Tage werden die
-    risikofreien Zinssätze nicht publiziert und müssten daher durch Interpolation
-    täglich ermittelt werden.
+4.   Fazit
+4.1   Ohne Handänderung während der Laufzeit
+Die Ermittlung des Bond Floors mittels der Swap-Rate für die entsprechende Währung
+und Laufzeit führt in der Praxis zu sachgerechten Resultaten.
 
-    •   Die Credit Spreads der Emittenten müssten ebenfalls täglich nachgeführt wer-
-    den. Dabei wäre zudem zu berücksichtigen, dass für unterschiedliche Restlauf-
-    zeiten unterschiedliche Credit Spreads anzuwenden wären.
+Änderungen des Zinsumfelds und des Credit Ratings des Schuldners haben bei Inves-
+toren, welche das kombinierte Produkt aus Emission erwerben und bis Endverfall hal-
+ten, grundsätzlich keine Auswirkung auf die Höhe des steuerbaren Vermögensertrags.

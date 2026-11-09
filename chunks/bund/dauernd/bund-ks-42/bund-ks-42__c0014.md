@@ -4,47 +4,22 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 14"
-seiten: "5"
+titel: "Ziff. 4.2 Allgemeiner Abzug – kein Pauschalabzug, pro Ehegatte (Teil 2/2)"
+ziffer: "4.2"
+seiten: "6-7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.2 Allgemeiner Abzug · S. 6–7
 
-<!-- Seite 5 -->
- der Sekun-
- darstufe II
- Ausbildung   Nein   Ja   Ja
- für weiteren
- Abschluss
- auf Sekun-
- darstufe II
- Ausbildung   Nein   Ja   Ja
- ab Tertiär-
- stufe
- Weiterbildung   Ja   Ja   Ja   Ja   Nein
- (z.B. zur bes-
- seren Berufs-
- ausübung,
- zur Anpas-
- sung an neue
- Anforderun-
- gen)
- Umschulung   Nein   Ja   Ja, ausser   Ja   Nein
- in eine hö-   Ausbildungs-
- here berufli-   kosten bis
- che Stellung   zum ersten
- oder in einen   Sek II-Ab-
- neuen Beruf   schluss
- Wiederein-   Ja   Ja   Ja, ausser   Ja   Nein
- stieg   Ausbildungs-
-    kosten bis
-    zum ersten
-    Sek II-Ab-
-    schluss
- Liebhaberei,   Nein   Nein   Nein   Nein   Nein
- Hobby
-
-grau = nicht mögliche Sachverhaltskonstellation
-
-4   Steuerliche Behandlung der berufsorientierten Aus- und Weiterbildungs-
-    kosten
+jedem Ehegatten, jeder eingetragenen Partnerin und jedem eingetragenen Partner zu. Aufgrund
+dieser gesetzlichen Konzeption ist für dessen Geltendmachung kein Zusammenhang mit Er-
+werbseinkünften erforderlich. Dies bedeutet, dass der Abzug auch dann geltend gemacht werden
+kann, wenn in der entsprechenden Steuerperiode kein Erwerbseinkommen erzielt wurde. Es ist
+zudem darauf hinzuweisen, dass die Verordnung des Eidgenössischen Finanzdepartements vom
+10. Februar 1993 über den Abzug der Berufskosten unselbstständig Erwerbstätiger bei der direk-
+ten Bundessteuer (SR 642.118.1; Berufskostenverordnung) daher keine direkte Anwendung fin-
+det. Auch bei einer unterjährigen Steuerpflicht können effektive Aufwendungen bis zum maximal
+zulässigen Betrag von 12 000 Franken in Abzug gebracht werden. Für die Berechnung des satz-
+bestimmenden Einkommens sind die effektiven Aufwendungen nicht umzurechnen.
+Die steuerpflichtige Person kann allerdings nur diejenigen Kosten abziehen, die sie selbst für ihre
+berufsorientierte Aus- oder Weiterbildung leisten muss.

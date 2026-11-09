@@ -4,27 +4,27 @@ quelle: bund-bsv-masszahlen-2025-2026
 jur: bund
 jahre: [2025, 2026]
 typ: info
-titel: "BSV Masszahlen 25/26 – Abschnitt 4"
-seiten: "1"
+titel: "BSV Masszahlen – Erläuterungen und Rechtsgrundlagen (Ziff. 1–5) (Teil 1/4)"
+ziffer: "1–5"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · S. 1
+> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 1–5 · S. 2
 
-  6. Teuerungsanpassung BVG-Risikorenten vor dem Referenzalter (Zeitreihe)
-    erstmals nach einer Laufzeit von 3 Jahren   5,8%   2,7%
-    nach einer weiteren Laufzeit von 2 Jahren   2,5%
-    nach einer weiteren Laufzeit von 1 Jahr
-    0,8%
- 7. Beitrag Sicherheitsfonds BVG
-    für Zuschüsse wegen ungünstiger Altersstruktur   0,130%   0,110%
-    für Leistungen bei Insolvenz und für andere Leistungen   0,002%   0,002%
-    Max. Grenzlohn für die Sicherstellung der Leistungen   136'080   136'080
- 8. Versicherung arbeitsloser Personen im BVG
-    Eintrittsschwelle (minimaler Tageslohn)   87,10   87,10
-    Koordinationsabzug vom Tageslohn   101,60   101,60
-    Max. versicherter Tageslohn   348,40   348,40
-    Min. koordinierter Tageslohn   14,50   14,50
-    Max. koordinierter Tageslohn   246,75   246,75
- 9. Steuerfreier Grenzbetrag Säule 3a
-    Oberer Grenzbetrag bei Unterstellung unter 2. Säule   7'258   7'258
-    Oberer Grenzbetrag ohne Unterstellung unter 2. Säule   36'288   36'288
+Wichtige Masszahlen im Bereich der beruflichen Vorsorge
+Die jährlichen Angaben seit 1985 sind auf der BSV-Homepage
+
+Erläuterungen zu den Masszahlen   Art.
+  1. Die minimale AHV-Altersrente entspricht der Hälfte der maximalen AHV-Altersrente.   34 AHVG
+    34 Abs. 3 AHVG
+
+  2. ArbeitnehmerInnen, die bei einem Arbeitgeber einen Jahreslohn beziehen, der den   2 BVG
+    minimalen Lohn übersteigt, unterstehen ab 1. Januar nach Vollendung des 17. Altersjahres   7 Abs. 1 und 2 BVG
+    für die Risiken Tod und Invalidität, ab 1. Januar nach Vollendung des 24 Altersjahres auch   8 Abs. 1 BVG
+    für das Alter der obligatorischen Versicherung. Ab dem 1.1.2005, entspricht die   8 Abs. 2 BVG
+    Eintrittsschwelle 3/4 der max. AHV-Rente, der Koordinationsabzug 7/8, der minimale   46 BVG
+    Koordinierter Lohn 1/8 und der maximale koordinierte Lohn 17/8 der max. AHV-Rente. Der   79c BVG
+    in der beruflichen Vorsorge versicherbare Lohn ist auf den zehnfachen maximalen
+    versicherten Jahreslohn in der obligatorischen BV.
+  3. Das Altersguthaben besteht aus den Altersgutschriften, die während der Zeit der   15 BVG
+    Zugehörigkeit zu einer Pensionskasse angespart worden sind, und denjenigen, die von   16 BVG

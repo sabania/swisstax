@@ -4,21 +4,19 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 26"
-seiten: "10"
+titel: "Rz 27 Ziffer 3 Unregelmässige Leistungen – Bonus, Umzugsentschädigung (Teil 3/3)"
+ziffer: "3 / 27"
+seiten: "11-12"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 10
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 3 · S. 11–12
 
-Übernimmt der Arbeitnehmer beträchtliche Kosten (z. B. sämtliche Kosten für Unterhalt,   22
-Versicherungen, Benzin und Reparaturen; die Übernahme ausschliesslich der Benzinkosten
-oder der Kosten für das Aufladen von Elektrofahrzeugen genügt dagegen nicht), so ist im
-entsprechenden Feld 2.2 des Lohnausweises keine Aufrechnung vorzunehmen. In den Be
-merkungen unter Ziffer 15 des Lohnausweises ist folgender Text anzubringen: «Privatanteil
-Geschäftsfahrzeug im Veranlagungsverfahren abzuklären».
+    ESTV   Seite 11 / 25
 
-Neben der pauschalen Ermittlung des Privatanteils gemäss Rz 21 besteht die Möglichkeit   23
-der effektiven Erfassung der Privatnutzung. Voraussetzung dafür ist, dass ein Bordbuch
-geführt wird. Der im Lohnausweis zu deklarierende Anteil für die Privatnutzung wird so er
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
 
-    ESTV   Seite 10 / 25
+    Ziffer 3 aufzuführen (vgl. Art. 2 Abs. 3 Bst. b ExpaV).
+
+Werden solche Leistungen vor oder nach der Zeit ausbezahlt, in welcher der Arbeitnehmer
+Wohnsitz in der Schweiz hatte, so sind sie ebenfalls in diesem Feld zu bescheinigen. Sie
+unterliegen allenfalls der Quellensteuer.

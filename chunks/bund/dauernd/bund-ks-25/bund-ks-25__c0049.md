@@ -4,35 +4,24 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 49"
-seiten: "12"
+titel: "Anhang IV Erläuterungen zu den Gleichstellungsregeln (Teil 2/3)"
+ziffer: "Anhang IV"
+seiten: "16-17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang IV Gleichstellung · S. 16–17
 
-<!-- Seite 12 -->
-Abkürzungen:
-Abs.   Absatz
-akK   ausländische kollektive Kapitalanlage
-Art.   Artikel
-Bst.   Buchstabe(n)
-bzw.   beziehungsweise
-DBG   Bundesgesetz vom 14. Dezember 1990 über die direkte Bundessteuer
-    (SR 642.11)
-d.h.   das heisst
-ESTV   Eidgenössische Steuerverwaltung
-FINMA Eidgenössische Finanzmarktaufsicht
-FusG   Bundesgesetz vom 3. Oktober 2003 über Fusion, Spaltung, Umwandlung und Ver-
-    mögensübertragung (SR 221.301)
-inkl.   inklusive
-KAG   Bundesgesetz vom 23. Juni 2006 über die kollektiven Kapitalanlagen (SR 951.31)
-KmGK Kommanditgesellschaft für kollektive Kapitalanlagen
-KKV   Verordnung vom 22. November 2006 über die kollektiven Kapitalanlagen
-    (SR 951.311)
-KS   Kreisschreiben
-LP   Limited Partnership
-NAV   Net Asset Value (Nettoanlagevermögen) einer kollektiven Kapitalanlage
-Nr.   Nummer
-OR   Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen
-    Zivilgesetzbuches [Fünfter Teil: Obligationenrecht] (SR 220)
-resp.   respektive
+Zu Ziffer 3: Handelt es sich bei dieser Anlageform um eine juristische Person mit Rückgabe-
+recht der Anteile (vgl. Art. 119 Abs. 1 Bst. b KAG), ist diese aufgrund von Artikel 49 Absatz 3
+DBG einer SICAV gleichzustellen, da sie rechtlich diesem Fondstyp gleicht. Handelt es sich
+dagegen um eine Gesellschaft, die wegen des fehlenden Rückgaberechts als geschlossene
+kollektive Kapitalanlage zu qualifizieren ist, ist sie einer SICAF gleichzustellen.
+
+Der Rechtsanspruch der Anlegerinnen und Anleger auf Rückzahlung ihrer Anteile zum NAV
+ist aber erfüllt, sofern mindestens ein einmaliges Rückgaberecht pro Jahr vorgesehen ist.
+Eine Lockup-Periode von maximal fünf Jahren ändert nichts an der Erfüllung dieses Kriteri-
+ums.
+
+Zu Ziffer 4: Entspricht eine geschlossene kollektive Kapitalanlage (LP, GmbH & Co KG) ei-
+ner KmGK, sind die Gesellschafter als Anlegerinnen und Anleger zu qualifizieren, mit der
+Folge, dass sie hier Einkünfte aus beweglichem Vermögen realisieren.

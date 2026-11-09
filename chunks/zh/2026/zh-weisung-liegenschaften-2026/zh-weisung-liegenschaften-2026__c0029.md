@@ -4,30 +4,35 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 29"
-seiten: "13"
+titel: "Ziff. 71 Mietwert Geschäftsräume in Prozenten des Umsatzes (Branchenansätze)"
+ziffer: "71"
+seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 13
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › IV. Geschäftsräume · S. 14
 
-<!-- Seite 13 -->
-    Unterschieden bezüglich Wohnungsgrösse und Lage innerhalb des 65
-Gebäudes sowie im Ausbau- und Komfortstand ist bei der Schätzung
-angemessen Rechnung zu tragen. Besondere Einrichtungen und An-
-lagen und Stockwerkunterschiede sind nach den örtlichen Verhältnis-
-sen zu bewerten.
-    Von den so ermittelten Ausgangswerten wird ein Einschlag von 66
-30% abgezogen. Dieser Einschlag wird zwecks durchschnittlich gleich-
-mässiger Bemessung der Eigenmietwerte selbst genutzter Liegenschaf-
-ten und Wohnungen gewährt; gleichzeitig wird damit Unterschieden
-zu den Vergleichsobjekten Rechnung getragen.
-  Ziff. 62 ist sinngemäss auch bei der Festsetzung der Mietwerte von 67
-Wohnungen anwendbar.
-
-III. Wohnungen in Geschäftshäusern
-
-    Für die Mietwerte von durch den Pflichtigen und zu seinem Haus- 68
-halt gehörende Personen genutzten Wohnungen in Geschäftshäusern
-gelten Ziff. 63 ff. sinngemäss.
-
-IV. Geschäftsräume
+71   Üblich sind folgende Ansätze:
+    Branche   durchschnittlicher Mietwert
+    in Prozenten des Umsatzes
+    Lebensmittel / Food / Detailhandel   3,0%
+    Restaurant / Bar / Take-away   9,0%
+    Bäckerei / Confiserie   3,0%
+    Wohnen / Haushalt   13,0%
+    Blumen / Garten / DIY / Bau / Tierbedarf   6,5%
+    Kleider / Mode   8,5%
+    Schuhe   8,0%
+    Uhren / Schmuck   10,0%
+    Lederwaren / Accessoires   10,0%
+    Bücher / Medien / Papeterie   12,0%
+    Mobiltelefonie / Kommunikation / Elektronik   8,0%
+    Spiele / Sport / Hobby   10,0%
+    DL Schlüssel / Schuh / Textil   6,5%
+    Reisebüro   6,5%
+    Arztpraxen   10,0%
+    Zahnarztpraxen   12,0%
+    Therapie (z.B. Physio, Massage usw.)   8,0%
+    Apotheke / Drogerie / Parfums   8,0%
+    Optiker / Hörgeräte   8,0%
+    Fitness / Wellness   8,0%
+    DL Coiffeur / Körperpflege   6,5%
+    DL Finanzen / Bank / Post   6,5%

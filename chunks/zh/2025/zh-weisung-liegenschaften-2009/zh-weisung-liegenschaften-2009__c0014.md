@@ -4,31 +4,30 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 14"
-seiten: "6"
+titel: "Ziff. 30–34 Zeitbauwert – Neubauwert und Altersentwertung"
+ziffer: "30–34"
+seiten: "7"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 6
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 3. Zeitbauwert · S. 7
 
-<!-- Seite 6 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+3. Zeitbauwert
 
-24   Die Zuordnung zu den Bauland-Kategorien gemäss Ziff. 10–13
-    erfolgt aufgrund der Art der Baute, und nicht wie bei unüberbautem
-    Land nach Massgabe der Zonenordnung.
-25   Mit Einfamilienhäusern oder Stockwerkeigentum überbautes Land,
-    das ausserhalb der Bauzone liegt, wird ebenfalls einer bestimmten
-    Lageklasse im Sinne von Ziff. 10–12 zugeordnet.
-26   Übersteigt die Landfläche einen angemessenen Umschwung, ist
-    bei der Berechnung des Vermögenssteuerwerts eine vom Basiswert
-    abhängige Grundstückfläche zu berücksichtigen. Es gelten dabei die
-    nachfolgenden Ansätze:
-    Anrechenbare Grundstückfläche zum steuerlich massgeblichen
-    Landwert:
-27 Für Einfamilienhäuser:
-   bis Basiswert Fr. 30 000   effektive Grundstücksfläche,
-    höchstens jedoch 400 m2,
-    Basiswert zwischen Fr. 30 000   effektive Grundstücksfläche,
-    und Fr. 120 000   höchstens jedoch 400 m2
-    + (Basiswert – 30 000)/225,
-    Basiswert über Fr. 120 000   effektive Grundstücksfläche,
+   Der Zeitbauwert entspricht dem Neubauwert abzüglich der dem 30
+Alter des Gebäudes entsprechenden Altersentwertung.
+   Der Neubauwert ist auf 1000% des von der Gebäudeversicherung 31
+des Kantons Zürich festgelegten Basiswerts festzusetzen.
+    Die Altersentwertung wird bei der allgemeinen Neubewertung in 32
+der Regel berechnet vom Erstellungsjahr bis zum Kalenderjahr 2009.
+Sie beträgt pro Jahr 1% des Neubauwertes, jedoch höchstens 30%.
+    Als Erstellungsjahr des Gebäudes ist in der Regel das Erstellungs- 33
+jahr gemäss Gebäudeversicherungsschätzung massgebend. Bei späte-
+rer umfassender Totalrenovation ist für die Berechnung der Alters-
+entwertung der Zeitpunkt dieser Investitionen als Erstellungsjahr
+massgebend.
+    Befinden sich in einem Gebäude gemeinschaftlich genutzte, meh- 34
+reren Gebäuden dienende Anlagen und Einrichtungen, wie Heizun-
+gen, Schutzräume, Autoeinstellplätze usw., so ist der Wert dieser ge-
+meinsamen Anlagen und Einrichtungen auf die beteiligten Bauten
+aufzuteilen.

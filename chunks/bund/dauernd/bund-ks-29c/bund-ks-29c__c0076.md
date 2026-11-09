@@ -4,21 +4,31 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 76"
-seiten: "25"
+titel: "Anhang 3 Fallbeispiele 1–2 – Ausschüttungsregel kotierte X AG (Teil 1/2)"
+ziffer: "Anhang 3"
+seiten: "32-33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 3 Fallbeispiele · S. 32–33
 
-Ändert eine Kapitalgesellschaft auf den Beginn eines Geschäftsjahres ihr Aktien- oder
-Stammkapital in eine für die Geschäftstätigkeit wesentliche ausländische Währung nach Arti-
-kel 621 Absatz 2 OR, so ist der Bestand der von der ESTV bestätigten KER bzw. Ausland-
-KER ebenfalls zum Kurs nach Artikel 621 Absatz 3 OR umzurechnen. Der so errechnete Be-
-stand an KER bzw. Ausland-KER in der für die Buchführung und Rechnungslegung massge-
-blichen ausländischen Währung ist im ordentlichen Verfahren zu melden (Ziff. 9.3 Bst. a hier-
-nach). Die Kapitalgesellschaft weist die so berechneten KER bzw. Ausland-KER in ihrer
-Handelsbilanz als gesetzliche oder freie Kapitalreserven aus. Wertdifferenzen der KER bzw.
-Ausland-KER werden gewinnsteuerunwirksam handelsrechtlich dem Gewinn-/Verlustvortrag
-oder den freien Gewinnreserven belastet bzw. gutgeschrieben (vgl. Beispiel 5 im Anhang).
+Anhang 3: Fallbeispiele einer in der Schweiz kotierten Kapitalgesellschaft
 
-9.2.   Deklaration für die direkte Bundessteuer
+1. Fallbeispiel
+
+Die X AG hat ihr Domizil in der Schweiz. Sie ist an der SIX Swiss Exchange kotiert. Im Früh-
+jahr 2021 beschliesst die Gesellschaft eine Dividende von 6% aufgrund des Jahresergebnis-
+ses 2020. Die Dividende von 60 wird zu Lasten der KER ausgeschüttet. Die ausländische Y
+AG hält 20% am Grundkapital der X AG. Das Eigenkapital der Gesellschaft zeigt vor Korrek-
+tur folgendes Bild:
+
+ Handelsbilanz / Eigenkapital   Bestand   Ausschüt- Bestand
+    tung
+
+ Aktienkapital   1000   1000
+ Kapitalreserven
+ - KER bestätigt   800   -60   740
+ - übrige   400   400
+ Gewinnreserven   4000   4000
+ Gewinn/Gewinnvortrag   800   800
+
+ Total Eigenkapital   7000   6940

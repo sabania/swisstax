@@ -4,21 +4,24 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 13"
-seiten: "3"
+titel: "Ziff. 5.1 Fiktiver Einkauf – Grundsatz"
+ziffer: "5.1"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 28 · einkommen.selbstaendig › einkommen.kapitalleistung_vorsorge · S. 5
 
-Die Besteuerung gemäss Artikel 37b DBG kommt nach dem Wortlaut des Gesetzes nur
-dann zur Anwendung, wenn die selbständige Erwerbstätigkeit definitiv aufgegeben wird. Eine
-geringfügige selbständige Erwerbstätigkeit ohne feste Einrichtungen und ohne Personal soll
-jedoch auch nach der Anwendung von Artikel 37b DBG möglich sein, sofern das mutmassli-
-che jährliche Nettoeinkommen aus dieser Tätigkeit inskünftig nicht höher als der Betrag (Ein-
-trittschwelle) nach Artikel 2 Absatz 1 des Bundesgesetzes vom 25. Juni 1982 über die beruf-
-    2
-liche Alters-, Hinterlassenen- und Invalidenvorsorge (BVG) ist.
+5.   Fiktiver Einkauf
 
-Wurde einmal ein Liquidationsgewinn nach Artikel 37b DBG besteuert, so ist bei einer späte-
-ren Aufnahme einer selbständigen Erwerbstätigkeit Artikel 37b DBG für den Liquidationsge-
-winn aus dieser Tätigkeit nicht mehr anwendbar.
+5.1.   Grundsatz
+Der selbständig Erwerbende kann unabhängig davon, ob er einer beruflichen Vorsorgeinrich-
+tung angeschlossen ist oder nicht, einen Antrag auf Besteuerung eines fiktiven Einkaufs stel-
+len. Ist der selbständig Erwerbende einer Einrichtung der beruflichen Vorsorge angeschlos-
+sen, verzichtet er aber ganz oder teilweise auf einen tatsächlichen Einkauf von Beitragsjah-
+ren, so kann er die Besteuerung eines fiktiven Einkaufs nach Abzug des allfällig vorgenom-
+menen tatsächlichen Einkaufes geltend machen. Eine höhere tatsächliche Deckungslücke
+des konkreten Vorsorgeplanes bleibt in diesem Fall für die Berechnung des fiktiven Einkaufs
+unbeachtlich.
+
+Die Besteuerung eines fiktiven Einkaufs kann geltend gemacht werden, solange nach dem
+BVG ein Einkauf möglich ist.

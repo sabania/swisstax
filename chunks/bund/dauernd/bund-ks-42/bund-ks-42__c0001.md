@@ -4,11 +4,26 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 1"
+titel: "Ziff. 1 Gesetzliche Grundlage und Gegenstand – Abzug bis 12 000 Franken"
+ziffer: "1"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42
+> Bund · Steuerjahr 2025/2026 · KS 42 · 1 Gesetzliche Grundlage · S. 2
 
-# ESTV-Kreisschreiben Nr. 42: Berufsorientierte Aus- und Weiterbildungskosten
+1   Gesetzliche Grundlage sowie Gegenstand des Kreisschreibens
 
-> Bund · Kreisschreiben · Quelle: <https://www.estv.admin.ch/dam/de/sd-web/i9TZSnch31KO/dbst-ks-2017-1-042-d-de.pdf>
+Mit dem Bundesgesetz vom 27. September 2013 über die steuerliche Behandlung der berufsori-
+entierten Aus- und Weiterbildungskosten wurde die steuerliche Abzugsfähigkeit der Kosten für
+die Aus- und Weiterbildung neu geregelt (vgl. Amtliche Sammlung des Bundesrechts [AS] Jahr-
+gang 2014, Seite 1105 ff. sowie Bundesblatt [BBl] Jahrgang 2011, Seite 2607 ff.). Gestützt darauf
+sind alle berufsorientierten Aus- und Weiterbildungskosten nach dem ersten Abschluss auf der
+Sekundarstufe II abzugsfähig. Liegt kein erster Abschluss auf der Sekundarstufe II vor, sind alle
+berufsorientierten Aus- und Weiterbildungskosten ab dem vollendeten 20. Lebensjahr abzugsfä-
+hig, sofern es sich dabei nicht um die Ausbildungskosten bis und mit dem ersten Abschluss auf
+der Sekundarstufe II handelt.
+Der Abzug gemäss Artikel 33 Absatz 1 Buchstabe j des Bundesgesetzes vom 14. Dezember
+1990 über die direkte Bundessteuer (DBG, SR 642.11) ist auf höchstens 12 000 Franken pro
+Person und Steuerperiode beschränkt.
+Nicht abzugsfähig sind Kosten für Aus- und Weiterbildungen, die nicht berufsorientiert sind (Lieb-
+haberei, Hobby).

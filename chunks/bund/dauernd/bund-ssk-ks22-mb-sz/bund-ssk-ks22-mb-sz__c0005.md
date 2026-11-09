@@ -4,23 +4,16 @@ quelle: bund-ssk-ks22-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 22 (MB SZ) – Abschnitt 5"
+titel: "Rz 9 Beispiel – Ausgangslage Liegenschaften SZ und TI"
+ziffer: "9"
 seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · S. 3
-
-<!-- Seite 3 -->
-    sehr unterschiedlich sind, resultieren uneinheitliche Steuerwerte, die von den Verkehrs-
-    werten abweichen können. Aus diesem Grund sind die Liegenschaftswerte für die Steuer-
-    ausscheidung vorerst mit einem Umrechnungskoeffizienten (Repartitionsfaktor) auszuglei-
-    chen. Die Anpassung der kantonalen Steuerwerte aufgrund des anwendbaren Repartitions-
-    faktors vereinheitlicht die Liegenschaftswerte schweizweit und gewährleistet eine korrekte
-    Verteilung der Schulden und Schuldzinsen auf die betroffenen Kantone.
-
-8   Die Schweizerische Steuerkonferenz (SSK) ermittelt die massgebenden Repartitionsfakto-
-    ren periodisch aufgrund von Vergleichen zwischen Steuer- und Marktwerten und publiziert
-    diese im Kreisschreiben Nr. 22 «Regeln für die Bewertung der Grundstücke bei interkan-
-    tonalen Steuerausscheidungen» vom 22. März 20183.
+> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 3. Beispiele · S. 3
 
     3. Beispiele
+
+9   Eine steuerpflichtige Person mit Wohnsitz im Kanton Schwyz besitzt je eine Liegenschaft
+    im Kanton Schwyz und im Kanton Tessin. Die kantonalen Steuerwerte der Liegenschaften
+    belaufen sich auf CHF 400 000 (Kanton Schwyz) bzw. CHF 120 000 (Kanton Tessin). Wie
+    hoch sind die satzbestimmenden Liegenschaftswerte in den beiden Kantonen?

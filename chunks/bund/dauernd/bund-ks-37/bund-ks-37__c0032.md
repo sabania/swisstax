@@ -4,19 +4,21 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 32"
-seiten: "7"
+titel: "Ziff. 7.1 Internationales Verhältnis – anteilsmässige Besteuerung (Art. 17d DBG) (Teil 1/2)"
+ziffer: "7.1"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.1 Allgemeines · S. 11
 
-Wird der Formelwert nur einmal pro Jahr berechnet, gilt er nur dann als steuerlich massge-
-bender Wert, wenn die Abgabe der Mitarbeiteraktien innert sechs Monaten nach dem betref-
-fenden Bewertungsstichtag erfolgt. Andernfalls ist der Formelwert des kommenden Bewer-
-tungsstichtags angemessen zu berücksichtigen.
-
-Ist für nicht börsenkotierte Aktien ausnahmsweise ein Verkehrswert verfügbar, ist grundsätz-
-lich dieser anwendbar. Im Einzelfall kann auf entsprechenden Antrag des Arbeitgebers trotz
-Verfügbarkeit eines Verkehrswerts auf einen Formelwert abgestellt werden. Dies setzt vo-
-raus, dass der Arbeitgeber ein unbeschränktes Kaufrecht hat, die Mitarbeiteraktien zum iden-
-tisch berechneten Formelwert zurück zu kaufen.
+7   Besteuerung von Mitarbeiterbeteiligungen im internationalen Verhältnis
+    (Art. 7 bis 9 MBV)
+7.1   Allgemeines
+Die anteilsmässige Besteuerung, welche in den Artikeln 17d DBG sowie 7 und 8 MBV fest-
+gehalten wird, ist auf zwei Sachverhalte anwendbar. Der erste Sachverhalt betrifft Fälle, in
+welchen der Mitarbeitende aus dem Ausland in die Schweiz zuzieht (Zuzug; Art. 7 MBV). Der
+Zweite betrifft Mitarbeitende, die aus der Schweiz ins Ausland ziehen (Wegzug; Art. 8 MBV).
+Dabei werden die Mitarbeiterbeteiligungen jeweils in einem Land abgegeben und in einem
+anderen Land realisiert. Bei diesen Mitarbeiterbeteiligungen handelt es sich in der Regel um
+Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien oder um unechte Mitarbeiterbeteili-
+gungen.

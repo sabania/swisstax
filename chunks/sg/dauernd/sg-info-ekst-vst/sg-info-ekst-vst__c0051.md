@@ -4,10 +4,17 @@ quelle: sg-info-ekst-vst
 jur: sg
 jahre: [2025, 2026]
 typ: info
-titel: "Merkblätter"
+titel: "Fragebogen für Ärzte und Anwälte"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Merkblätter
+> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Fragebogen für Ärzte und Anwälte
 
-- [Naturalbezüge Land- und Forstwirtschaft ab 2007 (NL1)(60 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/merkblaetter/NL1-2007.pdf "Download: Es öffnet sich ein neues Fenster: Naturalbezüge Land- und Forstwirtschaft ab 2007 (NL1)")
-- [Naturalbezüge Selbständigerwerbende ab 2007 (N1)(39 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/merkblaetter/N1-2007.pdf "Download: Es öffnet sich ein neues Fenster: Naturalbezüge Selbständigerwerbende ab 2007 (N1)")
+### Fragebogen für Ärzte und Anwälte
+
+Aufgrund des neuen Rechnungslegungsrechts stehen die Fragebogen 16 und 17 nicht mehr zur Verfügung. Benutzen Sie stattdessen, wenn Sie die Voraussetzungen erfüllen, den
+
+[- Fragebogen 15a für Selbstständigerwerbende ohne kaufmännische Buchhaltung neues Fenster](https://www.estv.admin.ch/estv/de/home/direkte-bundessteuer/dbst-formulare.html)
+
+welcher als Download  bei der Eidg. Steuerverwaltung ([www.estv.admin.ch neues Fenster](http://www.estv.admin.ch/)) zur Verfügung steht.
+
+####

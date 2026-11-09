@@ -1,79 +1,140 @@
 [
 {
 "id": "sg-form-7-2025__c0001",
-"titel": "Formular 7 SG 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Teil A Angaben zur Liegenschaft / Steuerwert (Übertrag Seite 4 Ziff. 31) (Teil 1/2)",
+"pfad": [
+"Vorderseite",
+"A. Angaben zur Liegenschaft"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "A",
+"stichworte": [
+"Liegenschaft",
+"Steuerwert",
+"Einfamilienhaus",
+"Stockwerkeigentum",
+"Zugang Wegfall",
+"Formular 7Z"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Angaben zu Art, Nutzung, Anteil und Steuerwert; Übertrag in Steuererklärung Seite 4 Ziffer 31, bei mehreren Liegenschaften in Formular 7 Z.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-form-7-2025__c0002"
 },
 {
 "id": "sg-form-7-2025__c0002",
-"titel": "Formular 7 SG 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Teil A Angaben zur Liegenschaft / Steuerwert (Übertrag Seite 4 Ziff. 31) (Teil 2/2)",
+"pfad": [
+"Vorderseite",
+"A. Angaben zur Liegenschaft"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "A",
+"stichworte": [
+"Liegenschaft",
+"Steuerwert",
+"Einfamilienhaus",
+"Stockwerkeigentum",
+"Zugang Wegfall",
+"Formular 7Z"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-7-2025__c0001",
 "nachher": "sg-form-7-2025__c0003"
 },
 {
 "id": "sg-form-7-2025__c0003",
-"titel": "Formular 7 SG 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Teil B Erträge: Eigenmietwert (Abzug 30%) und Fremdnutzung (Ziff. 5)",
+"pfad": [
+"Vorderseite",
+"B. Erträge"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "B",
+"stichworte": [
+"Eigenmietwert",
+"Abzug 30%",
+"Unternutzungsabzug",
+"Mietzinsen",
+"Härtefallabzug",
+"Formular 7M"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag"
+],
+"zusammenfassung": "Abzug von 30% nur für dauernd selbstbewohnte Liegenschaft am Wohnort; Total Erträge Übertrag in Steuererklärung Seite 2 Ziffer 5.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-7-2025__c0002",
 "nachher": "sg-form-7-2025__c0004"
 },
 {
 "id": "sg-form-7-2025__c0004",
-"titel": "Formular 7 SG 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Teil C Unterhalts- und Verwaltungskosten: Pauschalabzug 20% (Ziff. 15)",
+"pfad": [
+"Vorderseite",
+"C. Unterhalts- und Verwaltungskosten"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "C",
+"stichworte": [
+"Pauschalabzug 20%",
+"Unterhaltskosten",
+"tatsächliche Kosten",
+"Liegenschaftsunterhalt"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Pauschalabzug 20% der Erträge (B) nur für private Wohnliegenschaften; Übertrag Steuererklärung Seite 3 Ziffer 15.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-7-2025__c0003",
 "nachher": "sg-form-7-2025__c0005"
 },
 {
 "id": "sg-form-7-2025__c0005",
-"titel": "Formular 7 SG 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Rückseite: Tatsächliche Unterhalts- und Verwaltungskosten (C2)",
+"pfad": [
+"Rückseite",
+"Tatsächliche Kosten"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "C2",
+"stichworte": [
+"Rechnungen",
+"Anlagekosten",
+"Förderbeiträge",
+"Versicherungsleistungen",
+"Energiesparmassnahmen"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Nur selbst bezahlte Kosten abzugsfähig; Förderbeiträge und Versicherungsleistungen sind abzuziehen; Total C2 Übertrag Seite 3 Ziffer 15.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-7-2025__c0004",
 "nachher": null
 }

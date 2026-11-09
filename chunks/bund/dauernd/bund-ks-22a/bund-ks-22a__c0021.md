@@ -4,16 +4,22 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 21"
-seiten: "5"
+titel: "Anhang Beispiel 4 – Abgrenzung private/geschäftliche Schuldzinsen ohne Nachweis"
+ziffer: "Bsp. 4"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 22a · Anhang Beispiele › Beispiel 4 · S. 8
 
-Zinsen für Darlehen, die eine Kapitalgesellschaft einer an ihrem Kapital massgeblich beteilig
-ten oder ihr sonstwie nahestehenden natürlichen Person zu Bedingungen gewährt, die er
-heblich von den im Geschäftsverkehr unter Dritten üblichen Bedingungen abweichen, sind
-insoweit nicht abzugsfähig, als die Zinsen das übliche Mass übersteigen (Art. 33 Abs. 1
-Bst. a DBG). Darunter fallen verdeckte Kapitaleinlagen durch übersetzte Zinssätze sowie
-Zinsen auf Darlehen, soweit diese Darlehen steuerlich als verdeckte Gewinnausschüttungen
-erfasst wurden.
+Nr. 4: Abgrenzung zwischen privaten und geschäftlichen Schuldzinsen
+
+Annahmen:   - Natürliche Person mit Beteiligung im gewillkürten Geschäftsvermögen
+    - Total Schuldzinsen: 400'000
+    - Nachweis der Verwendung der fremden Mittel fehlt
+
+
+ Vermögenswerte   Verkehrswerte   %   Schuldzinsen
+ Beteiligung (Geschäftsvermögen)   8'000'000   80   320'000
+ Wertschriften (Privatvermögen)   500'000
+ Grundstück (Privatvermögen)   1'500'000
+ Total Privatvermögen   2'000'000   20   80'000

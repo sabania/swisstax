@@ -1,111 +1,189 @@
 [
 {
 "id": "bund-form-9-14-2025__c0001",
-"titel": "Formular 9–14 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Allgemeine Angaben Berufskosten 2025",
+"pfad": [
+"Berufskosten",
+"Allgemeine Angaben"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Arbeitspensum",
+"Arbeitsort",
+"Arbeitstage",
+"Berufskosten Formular"
+],
+"positionen": [
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Angaben zu Wohnort, Arbeitsort, Arbeitspensum und Arbeitstagen (nur ankreuzen, wenn Pensum nicht 100 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-form-9-14-2025__c0002"
 },
 {
 "id": "bund-form-9-14-2025__c0002",
-"titel": "Formular 9–14 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 2 Fahrkosten Wohn-/Arbeitsort (Auto CHF –.70/km, max. CHF 3300.–)",
+"pfad": [
+"Berufskosten",
+"Fahrkosten"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Pendlerabzug",
+"Fahrkosten",
+"GA",
+"Abonnement ÖV",
+"Auto pro km",
+"Velo pauschal 700"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Velo/Mofa pauschal CHF 700.–, Auto CHF –.70 pro km, Motorrad weiss CHF –.40 pro km, Zwischentotal max. CHF 3300.–.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-9-14-2025__c0001",
 "nachher": "bund-form-9-14-2025__c0003"
 },
 {
 "id": "bund-form-9-14-2025__c0003",
-"titel": "Formular 9–14 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 3 Mehrkosten der Verpflegung (CHF 7.50 / 15.–)",
+"pfad": [
+"Berufskosten",
+"Verpflegung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Verpflegung",
+"Mittagessen",
+"Schichtarbeit",
+"Nachtarbeit",
+"auswärtige Verpflegung"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "CHF 7.50 pro Tag (max. CHF 1600.–) bei Verbilligung, CHF 15.– pro Tag (max. CHF 3200.–) ohne; 3.1 und 3.2 nicht kumulierbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-9-14-2025__c0002",
 "nachher": "bund-form-9-14-2025__c0004"
 },
 {
 "id": "bund-form-9-14-2025__c0004",
-"titel": "Formular 9–14 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 4–5 Übrige Berufskosten und Wochenaufenthalt",
+"pfad": [
+"Berufskosten",
+"Übrige Kosten / Wochenaufenthalt"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4–5",
+"stichworte": [
+"Pauschale 3% Nettolohn",
+"Wochenaufenthalt",
+"Zimmer",
+"übrige Berufskosten"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.wochenaufenthalt"
+],
+"zusammenfassung": "Pauschal 3% des Nettolohnes, min. CHF 2000.– / max. CHF 4000.–; Wochenaufenthalt Verpflegung CHF 22.50 (max. 4800.–) bzw. CHF 30.– (max. 6400.–).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-9-14-2025__c0003",
 "nachher": "bund-form-9-14-2025__c0005"
 },
 {
 "id": "bund-form-9-14-2025__c0005",
-"titel": "Formular 9–14 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 6–8 Nebenerwerb, Feuerwehrsold, Total Berufskosten",
+"pfad": [
+"Berufskosten",
+"Nebenerwerb / Feuerwehr / Total"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6–8",
+"stichworte": [
+"Nebenerwerb 20%",
+"Feuerwehrsold",
+"Total Berufskosten",
+"Übertrag Steuererklärung"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Nebenerwerb pauschal 20% (min. CHF 800.– / max. CHF 2400.–); Feuerwehrsold steuerfrei max. CHF 5300.–; Total in Steuererklärung Seite 3 Ziffer 10.1 bzw. 10.2.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-9-14-2025__c0004",
 "nachher": "bund-form-9-14-2025__c0006"
 },
 {
 "id": "bund-form-9-14-2025__c0006",
-"titel": "Formular 9–14 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 9 Begründung Benützung privates Motorfahrzeug",
+"pfad": [
+"Berufskosten",
+"Privatfahrzeug Begründung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9",
+"stichworte": [
+"Privatfahrzeug",
+"Zeitersparnis 1 Stunde",
+"kein ÖV",
+"Arztzeugnis"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Privatfahrzeug nur bei fehlendem ÖV, Zeitersparnis über 1 Stunde pro Tag, Arbeitgeberverlangen oder Krankheit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-9-14-2025__c0005",
 "nachher": "bund-form-9-14-2025__c0007"
 },
 {
 "id": "bund-form-9-14-2025__c0007",
-"titel": "Formular 9–14 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "Schuldenverzeichnis 2025 (Übertrag Seite 4 Ziff. 29 / Seite 3 Ziff. 11)",
+"pfad": [
+"Schuldenverzeichnis"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "29 / 11",
+"stichworte": [
+"Schuldenverzeichnis",
+"Schuldzinsen",
+"Hypothek",
+"Privatschulden",
+"Geschäftsschulden"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"schulden.privat"
+],
+"zusammenfassung": "Schulden per 31. Dezember 2025 und Schuldzinsen; Total in Steuererklärung Seite 4 Ziffer 29 bzw. Seite 3 Ziffer 11.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-9-14-2025__c0006",
 "nachher": null
 }

@@ -4,26 +4,34 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 18"
-seiten: "5"
+titel: "Anhang Beispiel 1 – Negative Liegenschaftsrechnung: maximaler Schuldzinsenabzug 140'000"
+ziffer: "Bsp. 1"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 22a · Anhang Beispiele › Beispiel 1 · S. 7
 
-Die Abgrenzung zwischen privaten und geschäftlichen Schuldzinsen erfolgt aufgrund der
-vom Steuerpflichtigen nachgewiesenen Verwendung der fremden Mittel. Fehlt der Nachweis
-der Mittelverwendung, erfolgt die Abgrenzung zwischen privaten und geschäftlichen Schuld
-zinsen nach dem Verhältnis der Aktiven (proportionale Aufteilung nach Verkehrswerten; sie
-he Beispiel Nr. 4 im Anhang).
+Anhang zum Kreisschreiben Nr. 22a vom 31. Januar 2020
 
-Bei selbständiger Erwerbstätigkeit wird auf den Geschäftsabschluss abgestellt. Als Ge
-schäftsschulden verbuchte Verbindlichkeiten, die für private Zwecke verwendet wurden, sind
-jedoch dem Privatvermögen zuzuordnen.
+Beispiele 1 - 4
 
-Schulden und Schuldzinsen auf Beteiligungen, die zum Geschäftsvermögen erklärt wurden
-(Art. 18 Abs. 2 DBG), sind anhand der Kaufpreisfinanzierung nachzuweisen.
+Nr. 1: Negative Liegenschaftsrechnung
 
-3.3.   Kosten ohne Schuldzinsencharakter
+    Liegenschaftsrechnung   Maximaler Schuldzinsenabzug
+    1)
+ Mietertrag   110'000
+ Akontozahlungen für Ne
+ benkosten   - 20'000
+ Liegenschaftsbrutto-   Liegenschaftsbrutto-
+ ertrag   90'000   ertrag   90'000
+ ./. Unterhaltskosten 2)   - 100'000
+ ./. Schuldzinsen   - 60'000   Grundbetrag   50'000
+ Nettoertrag (Verlust)   - 70'000   Maximaler Abzug   140'000
 
-Leasingraten für privat genutzte Güter enthalten keine abzugsfähigen Zinsanteile (ASA 61,
-250 und 62, 683).
+1)
+    inkl. Akontozahlungen für Nebenkosten
+2)
+    inkl. abzugsfähige Kosten für Gebäudeisolation und Erneuerung der Heizanlage
+
+Die negative Liegenschaftsrechnung beschränkt den Abzug der effektiv angefallenen
+Schuldzinsen von 60'000 nicht.

@@ -4,13 +4,13 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 7"
-seiten: "1"
+titel: "Ziff. 3.1 Krankenkassenprämien sind keine Krankheitskosten"
+ziffer: "3.1"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 4
 
-    Eidgenössische Steuerverwaltung ESTV
-    Eigerstrasse 65
-    3003 Bern
-    www.estv.admin.ch
+Keine Krankheitskosten stellen weiter die Krankenkassenprämien dar. Sie können nur im Rah
+men des Abzuges nach Artikel 33 Absatz 1 Buchstabe g und Artikel 33 Absatz 1bis DBG berück
+sichtigt werden.

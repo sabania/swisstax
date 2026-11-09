@@ -4,23 +4,30 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 22"
-seiten: "9"
+titel: "Ziff. 51–55 Zeitbauwert industrielle Bauten – Altersentwertung 2%/3%"
+ziffer: "51–55"
+seiten: "10"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 9
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › VI. Industrielle oder gewerbliche Liegenschaften › 3. Zeitbauwert · S. 10
 
-    Als industriell oder gewerblich gelten unter Einschluss von Lager- 45
-häusern diejenigen Liegenschaften, welche ausschliesslich einem Fab-
-rikations- oder Gewerbebetrieb dienen und deren Wert durch diese
-Benutzungsart bestimmt wird.
-   Der Verkehrswert von industriellen oder gewerblichen Bauten ist 46
-nach folgender Formel zu berechnen:
-    Landwert + Zeitbauwert
-   Gehört Industriegelände (Lagerplätze, Werkplätze, Werkhöfe) zu 47
-industriellen Anlagen, so ist es zusammen mit diesen zu bewerten.
-    Als Landreserve dienendes, unüberbautes Industriegelände ist nach 48
-den für landwirtschaftliches Land geltenden Grundsätzen zu bewer-
-ten, wenn es land- oder forstwirtschaftlich genutzt wird.
+    3. Zeitbauwert
 
-2. Landwert
+51   Der Zeitbauwert entspricht dem Neubauwert abzüglich der dem
+    Alter des Gebäudes entsprechenden Altersentwertung.
+52   Der Neubauwert ist auf 1000% des von der Gebäudeversicherung
+    des Kantons Zürich festgelegten Basiswertes festzusetzen.
+53   Die Altersentwertung wird bei der allgemeinen Neubewertung in
+    der Regel berechnet vom Erstellungsjahr bis zum Kalenderjahr 2009.
+    Sie beträgt bei:
+    normaler Abnützung: 2% pro Jahr bis zum Restwert von 30%,
+    besonders
+    starker Abnützung:   3% pro Jahr bis zum Restwert von 0%.
+54   Der Ansatz für besonders starke Abnützung ist in erster Linie
+    Betrieben der chemischen Industrie und der Schwerindustrie zu ge-
+    währen.
+55   Als Erstellungsjahr des Gebäudes ist in der Regel das Erstellungs-
+    jahr gemäss Gebäudeversicherungsschätzung massgebend. Bei späte-
+    rer umfassender Totalrenovation ist für die Berechnung der Alters-
+    entwertung der Zeitpunkt dieser Investitionen als Erstellungsjahr
+    massgebend.

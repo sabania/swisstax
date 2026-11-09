@@ -1,416 +1,605 @@
 [
 {
 "id": "bund-ks-14__c0001",
-"titel": "KS 14 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1–2 Einleitung und Systematik der indirekten Teilliquidation (Art. 20a Abs. 1 Bst. a DBG)",
+"pfad": [
+"1 Einleitung / 2 Systematik"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1-2",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Abgrenzung Kapitalgewinn",
+"kumulativ"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Art. 20a Abs. 1 Bst. a DBG grenzt steuerfreien privaten Kapitalgewinn von steuerbarem Vermögensertrag aus Beteiligungsverkäufen an Dritte ab; die Tatbestandselemente müssen kumulativ erfüllt sein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-14__c0002"
 },
 {
 "id": "bund-ks-14__c0002",
-"titel": "KS 14 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 3 Tatbestandselemente – Verkauf, 20 %-Beteiligung, Systemwechsel, 5 Jahre, Ausschüttung, Mitwirkung",
+"pfad": [
+"3 Tatbestandselemente"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"20 % Beteiligung",
+"Systemwechsel",
+"5 Jahre Ausschüttungsfrist",
+"Mitwirkung",
+"Substanzentnahme"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Kumulativ: Verkauf einer Beteiligung von mindestens 20 % aus dem Privat- ins Geschäftsvermögen, Ausschüttungen innerhalb von 5 Jahren, bereits vorhandene ausschüttungsfähige nichtbetriebsnotwendige Substanz, Mitwirkung des Verkäufers.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0001",
 "nachher": "bund-ks-14__c0003"
 },
 {
 "id": "bund-ks-14__c0003",
-"titel": "KS 14 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 4.1–4.2 Verkauf und qualifizierende Beteiligung (mindestens 20 %, gestaffelte Verkäufe)",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.1-4.2"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1-4.2",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"20 % Beteiligung",
+"gestaffelter Verkauf",
+"gemeinsamer Verkauf"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Nur Verkäufe von mindestens 20 % am Grund- oder Stammkapital; bei gestaffelten Verkäufen fallen alle unter Art. 20a, sobald innert 5 Jahren insgesamt mindestens 20 % veräussert sind.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0002",
 "nachher": "bund-ks-14__c0004"
 },
 {
 "id": "bund-ks-14__c0004",
-"titel": "KS 14 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 4.2 Gemeinsamer Verkauf durch mehrere Personen",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.2"
+],
 "seiten": [
-1
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"gemeinsamer Verkauf",
+"öffentliches Übernahmeangebot"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Die 20 %-Quote kann durch gemeinsamen Verkauf mehrerer unbeschränkt steuerpflichtiger Personen erreicht werden; ein öffentliches Übernahmeangebot begründet keine gemeinsame Willensbildung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0003",
 "nachher": "bund-ks-14__c0005"
 },
 {
 "id": "bund-ks-14__c0005",
-"titel": "KS 14 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 4.3–4.4 Systemwechsel und Ausschüttungsfrist von 5 Jahren",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.3-4.4"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3-4.4",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Systemwechsel",
+"gewillkürtes Geschäftsvermögen",
+"Ausschüttungsfrist 5 Jahre"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Die Ausschüttungsfrist von 5 Jahren beginnt im Zeitpunkt des Verkaufs (in der Regel Verpflichtungsgeschäft); bei gestaffelten Verkäufen läuft für jeden Verkauf eine eigene Frist.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0004",
 "nachher": "bund-ks-14__c0006"
 },
 {
 "id": "bund-ks-14__c0006",
-"titel": "KS 14 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 4.5 Ausschüttung – Dividenden, verdeckte Gewinnausschüttung, geldwerte Vorteile",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.5 Ausschüttung"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.5",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Ausschüttung",
+"verdeckte Gewinnausschüttung",
+"Darlehen Zielgesellschaft",
+"Sicherheiten"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Ausschüttungen sind Dividenden, verdeckte Gewinnausschüttungen und geldwerte Vorteile (Naturaldividenden, Darlehen, Sicherheiten der Zielgesellschaft an die Käuferin).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0005",
 "nachher": "bund-ks-14__c0007"
 },
 {
 "id": "bund-ks-14__c0007",
-"titel": "KS 14 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 4.6.1 Grundlage: handelsrechtlicher Einzelabschluss der Zielgesellschaft",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.6 Reserven"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.6.1-4.6.2",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"ausschüttungsfähige Reserven",
+"ordentliche Dividende",
+"Eigenkapital abzüglich Aktienkapital"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Grundlage ist der handelsrechtskonforme Einzelabschluss der Zielgesellschaft bei Beginn der Ausschüttungsfrist; Beurteilung unter Annahme der unveränderten Weiterführung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0006",
 "nachher": "bund-ks-14__c0008"
 },
 {
 "id": "bund-ks-14__c0008",
-"titel": "KS 14 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 4.6.1 Ordentliche Dividenden sind keine Substanzausschüttung",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.6 Reserven"
+],
 "seiten": [
-2
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.6.1-4.6.2",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"ordentliche Dividende"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Dividenden aus den ab dem Verkaufsjahr ausschüttungsfähigen ordentlichen Jahresgewinnen sind keine Substanzausschüttung; darüber hinausgehende Ausschüttungen sind qualifizierende Substanzausschüttungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0007",
 "nachher": "bund-ks-14__c0009"
 },
 {
 "id": "bund-ks-14__c0009",
-"titel": "KS 14 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 4.6.2 Handelsrechtlich ausschüttungsfähige Reserven",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.6 Reserven"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.6.1-4.6.2",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Eigenkapital abzüglich Aktienkapital"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Ausschüttungsfähige Reserven = Eigenkapital der letzten handelsrechtskonformen Bilanz vor dem Verkauf abzüglich Aktien-/Stammkapital und maximal möglicher gesetzlicher Reserven (Art. 671 ff. OR).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0008",
 "nachher": "bund-ks-14__c0010"
 },
 {
 "id": "bund-ks-14__c0010",
-"titel": "KS 14 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 4.6.3 Nichtbetriebsnotwendige Substanz – Beurteilung",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.6 Reserven"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.6.3-4.6.4",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"nichtbetriebsnotwendige Substanz",
+"Bewertung",
+"latente Steuern",
+"einheitliche Leitung"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Beurteilung am Stichtag des Verkaufs nach betriebswirtschaftlichen Kriterien, inkl. Gesellschaften unter einheitlicher Leitung; Ausschüttungen über den seit Verkauf erwirtschafteten Gewinnen gelten vermutungsweise als nichtbetriebsnotwendige Substanz.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0009",
 "nachher": "bund-ks-14__c0011"
 },
 {
 "id": "bund-ks-14__c0011",
-"titel": "KS 14 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 4.6.4 Bewertung der nichtbetriebsnotwendigen Substanz",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.6 Reserven"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.6.3-4.6.4",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Bewertung",
+"latente Steuern"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Bewertung nach anerkannten Grundsätzen unter Abzug zuordenbarer Passiven und Berücksichtigung latenter Steuern, erst bei Ausschüttung innert der Frist.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0010",
 "nachher": "bund-ks-14__c0012"
 },
 {
 "id": "bund-ks-14__c0012",
-"titel": "KS 14 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 4.7 Mitwirkung – Voraussetzungen (Art. 20a Abs. 2 DBG)",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.7 Mitwirkung"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.7",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Mitwirkung",
+"Refinanzierung Kaufpreis",
+"Art. 20a Abs. 2 DBG"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Ohne konkrete Ausschüttung kann die Mitwirkung nicht ausgeschlossen werden; sie liegt vor, wenn der Verkäufer weiss oder wissen muss, dass bestehende nichtbetriebsnotwendige Mittel entzogen werden und ihm als Kaufpreis zufliessen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0011",
 "nachher": "bund-ks-14__c0013"
 },
 {
 "id": "bund-ks-14__c0013",
-"titel": "KS 14 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 4.7 Mitwirkung – objektive Beurteilung des Zusammenwirkens",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.7 Mitwirkung"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.7",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Zusammenwirken"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Ob Verkäufer und Käufer zusammenwirken, wird nach objektiven Kriterien und den gesamten Finanzierungsumständen entschieden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0012",
 "nachher": "bund-ks-14__c0014"
 },
 {
 "id": "bund-ks-14__c0014",
-"titel": "KS 14 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 4.7 Aktive Mitwirkung (Verkäuferdarlehen, Verrechnung, Sicherheiten)",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.7 Mitwirkung"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.7",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"aktive Mitwirkung",
+"passive Mitwirkung",
+"Fusion",
+"Verkäuferdarlehen"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Aktive Mitwirkung z.B. durch Verkäuferdarlehen an die Käuferin, Verrechnung einer Schuld mit dem Kaufpreis, Sicherheitsleistungen der Zielgesellschaft oder Hinterlegung der Aktien als Sicherheit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0013",
 "nachher": "bund-ks-14__c0015"
 },
 {
 "id": "bund-ks-14__c0015",
-"titel": "KS 14 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 4.7 Passive Mitwirkung (ungenügende Mittel der Käuferin, Fusion)",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.7 Mitwirkung"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.7",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"passive Mitwirkung",
+"Fusion"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Passive Mitwirkung, wenn die Käuferin den Kaufpreis nicht aus eigener Kraft oder künftigen ordentlichen Dividenden zahlen kann oder der Verkäufer die Fusion kennt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0014",
 "nachher": "bund-ks-14__c0016"
 },
 {
 "id": "bund-ks-14__c0016",
-"titel": "KS 14 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 4.7 Mitwirkung auch bei finanzstarker Käufergesellschaft",
+"pfad": [
+"4 Abgrenzungsfragen",
+"4.7 Mitwirkung"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.7",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"finanzstarke Käuferin"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Der Hinweis auf die Finanzkraft der Käuferin oder des Konzerns belegt nicht, dass der Verkäufer nicht mit dem Gebrauch der Mittel rechnen musste.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0015",
 "nachher": "bund-ks-14__c0017"
 },
 {
 "id": "bund-ks-14__c0017",
-"titel": "KS 14 – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 5.1.1 Umfang des steuerbaren Vermögensertrags (kleinste der vier Grössen)",
+"pfad": [
+"5 Steuerfolgen und Verfahren",
+"5.1 Besteuerung"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"steuerbarer Vermögensertrag",
+"Verkaufserlös",
+"Ausschüttungsbetrag",
+"Nachsteuer"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Steuerbar ist die kleinste Grösse aus Verkaufserlös, Ausschüttungsbetrag, handelsrechtlich ausschüttungsfähigen Reserven und nichtbetriebsnotwendiger Substanz.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0016",
 "nachher": "bund-ks-14__c0018"
 },
 {
 "id": "bund-ks-14__c0018",
-"titel": "KS 14 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 5.1.2 Periodengerechte Zuordnung und Nachsteuerverfahren",
+"pfad": [
+"5 Steuerfolgen und Verfahren",
+"5.1 Besteuerung"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Nachsteuer",
+"Realisationsprinzip"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Der Vermögensertrag wird der Steuerperiode des qualifizierenden Verkaufs zugerechnet, bei gestaffelten Verkäufen anteilig; bei rechtskräftiger Veranlagung Nachsteuer nach Art. 151 ff. DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0017",
 "nachher": "bund-ks-14__c0019"
 },
 {
 "id": "bund-ks-14__c0019",
-"titel": "KS 14 – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 5.2 Rechtsverbindliche Auskünfte – Zuständigkeit und Gegenstand",
+"pfad": [
+"5 Steuerfolgen und Verfahren",
+"5.2 Auskünfte"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.2",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Ruling",
+"rechtsverbindliche Auskunft",
+"Veranlagungsbehörde"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Rechtsverbindliche Auskünfte erteilt die für den Verkäufer zuständige Veranlagungsbehörde; vor dem Verkauf nur zu Verkauf, Systemwechsel, Fristenlauf, Reserven, Beteiligungsquote und geplanten Ausschüttungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0018",
 "nachher": "bund-ks-14__c0020"
 },
 {
 "id": "bund-ks-14__c0020",
-"titel": "KS 14 – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 5.2 Auskunft vor dem Verkauf – Ausschluss einer indirekten Teilliquidation",
+"pfad": [
+"5 Steuerfolgen und Verfahren",
+"5.2 Auskünfte"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.2",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Ausschluss"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Vor dem Verkauf kann eine indirekte Teilliquidation nur ausgeschlossen werden, wenn ein objektives Tatbestandselement fehlt oder offensichtlich keine nichtbetriebsnotwendige Substanz vorhanden ist; konkret geplante Vorgänge werden vollständig beurteilt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-14__c0019",
 "nachher": "bund-ks-14__c0021"
 },
 {
 "id": "bund-ks-14__c0021",
-"titel": "KS 14 – Abschnitt 21",
-"pfad": [],
-"seiten": [
-5
+"titel": "Ziff. 6 Geltungsbereich und Inkrafttreten (1. Januar 2007, Rückwirkung ab Steuerjahr 2001)",
+"pfad": [
+"6 Geltungsbereich / Inkrafttreten"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-14__c0020",
-"nachher": "bund-ks-14__c0022"
-},
-{
-"id": "bund-ks-14__c0022",
-"titel": "KS 14 – Abschnitt 22",
-"pfad": [],
-"seiten": [
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-14__c0021",
-"nachher": "bund-ks-14__c0023"
-},
-{
-"id": "bund-ks-14__c0023",
-"titel": "KS 14 – Abschnitt 23",
-"pfad": [],
-"seiten": [
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-14__c0022",
-"nachher": "bund-ks-14__c0024"
-},
-{
-"id": "bund-ks-14__c0024",
-"titel": "KS 14 – Abschnitt 24",
-"pfad": [],
-"seiten": [
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-14__c0023",
-"nachher": "bund-ks-14__c0025"
-},
-{
-"id": "bund-ks-14__c0025",
-"titel": "KS 14 – Abschnitt 25",
-"pfad": [],
-"seiten": [
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-14__c0024",
-"nachher": "bund-ks-14__c0026"
-},
-{
-"id": "bund-ks-14__c0026",
-"titel": "KS 14 – Abschnitt 26",
-"pfad": [],
 "seiten": [
 7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-14__c0025",
+"ziffer": "6",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a DBG",
+"Beteiligungsverkauf",
+"Verkauf Firma",
+"Inkrafttreten",
+"Verrechnungssteuer",
+"Revers"
+],
+"positionen": [],
+"zusammenfassung": "Gilt für Verkäufe durch unbeschränkt steuerpflichtige natürliche Personen aus dem Privatvermögen; in Kraft am 1. Januar 2007, anwendbar auf nicht rechtskräftige Veranlagungen ab Steuerjahr 2001; nicht anwendbar auf die Verrechnungssteuer.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-14__c0020",
 "nachher": null
 }
 ]

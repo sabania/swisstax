@@ -4,23 +4,23 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 13.4.12 Übriger Liquidationsgewinn (Art. 37b DBG)"
-ziffer: "13.4.12"
-seiten: "30"
+titel: "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 1/2)"
+ziffer: "14.1.2"
+seiten: "30-31"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.12 Liquidationsgewinn · S. 30
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1.2 Steuerrechtliche Aspekte · S. 30–31
 
-13.4.12   Übriger Liquidationsgewinn nach Artikel 37b DBG
+14.1.2   Steuerrechtliche Aspekte
 
-Wird die selbständige Erwerbstätigkeit nach dem vollendeten 55. Altersjahr oder wegen Un-
-fähigkeit zur Weiterführung infolge Invalidität definitiv aufgegeben, so ist die Summe der in
-den letzten zwei Geschäftsjahren realisierten stillen Reserven getrennt vom übrigen Ein-
-kommen zu besteuern (Art. 37b DBG). Für die Bestimmung des auf dem übrigen Liquidati-
-onsgewinn (Art. 9 der Verordnung über die Besteuerung der Liquidationsgewinne bei definiti-
-ver Aufgabe der selbständigen Erwerbstätigkeit; LGBV; AS 2010, 717) anwendbaren Satzes
-ist ein Fünftel des übrigen Liquidationsgewinnes massgebend. Der Steuersatz beträgt jedoch
-mindestens 2 Prozent (Art. 37b Abs. 1 DBG und Art. 10 LGBV).
+Leistet eine steuerpflichtige Person Unterhaltsbeiträge an seinen geschiedenen, gerichtlich
+oder tatsächlich getrennt lebenden Ehegatten, kann sie diese von seinem Einkommen in
+Abzug bringen (Art. 33 Abs. 1 Bst. c DBG). Der die Leistung empfangende Ehegatte hat die-
+se zu versteuern (Art. 23 Bst. f DBG). Aus dem hier geltenden Korrespondenzprinzip ergibt
 
-Der im Elterntarif vorgesehene Abzug vom Steuerbetrag kommt bei diesen gesondert zu
-besteuernden Einkünften nicht zur Anwendung.
+sich, dass alle jene Leistungen für den Unterhalt, die beim empfangenden Ehegatten be-
+steuert werden, beim leistenden Ehegatten in Abzug gebracht werden können.
+
+Unterhaltsleistungen erfolgen in der Regel als wiederkehrende direkte Geldleistungen. Sie
+können jedoch auch in der Form von indirekten Zahlungen erbracht werden, wie etwa die
+Übernahme von Miet- oder Schuldzinsen, oder aus eigentlichen Naturalleistungen bestehen.

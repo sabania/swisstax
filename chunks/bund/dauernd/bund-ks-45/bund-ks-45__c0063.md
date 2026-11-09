@@ -4,17 +4,23 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 63"
-seiten: "16"
+titel: "Ziff. 6.2 Monatsmodell – Grundsätze (Teil 1/2)"
+ziffer: "6.2"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.2 Grundsätze · S. 21
 
-<!-- Seite 16 -->
-keit eines Ehegatten ist der Zweiverdienertarif bei diesem (Tarifcode C bzw. N) sofort an-
-wendbar. Beim anderen (bereits erwerbstätigen) Ehegatten gelangt der Zweiverdienertarif
-(Tarifcode C bzw. N) ab dem Folgemonat zur Anwendung.
-Der Tarifcode C (bzw. N) gelangt nicht zur Anwendung, wenn der andere Ehegatte einzig
-Einkommen erzielt, welches gemäss Tarifcode E über das vereinfachte Abrechnungsverfah-
-ren im Sinn des Bundesgesetzes vom 17. Juni 2005 über Massnahmen zur Bekämpfung der
-Schwarzarbeit (BGSA; SR 822.41) besteuert wird (vgl. Art. 37a DBG).
+6.2   Grundsätze
+Bei der Berechnung der Quellensteuer nach dem Monatsmodell gilt der Monat als Steuerpe-
+riode. Für die Berechnung des Steuerabzugs sind die monatlichen Bruttoeinkünfte massge-
+bend, d.h. sämtliche steuerpflichtigen Leistungen, die im entsprechenden Monat an den
+quellensteuerpflichtigen Arbeitnehmer ausgerichtet werden, sind in der Regel zusammenzu-
+zählen und als Ganzes der Quellenbesteuerung zu unterwerfen.
+Für den Quellensteuerabzug sind die Verhältnisse im Zeitpunkt der Fälligkeit der steuerbaren
+Leistung massgebend. Im Normalfall wird die geschuldete Quellensteuer aufgrund der Brut-
+toeinkünfte eines Monats durch Multiplikation der Bruttoeinkünfte mit dem Steuersatz ge-
+mäss anwendbarem Quellensteuertarif ermittelt. Dieselbe Vorgehensweise ist anzuwenden,
+wenn der Arbeitnehmer im Stundenlohn angestellt ist und ihm der Lohn monatlich ausbezahlt
+wird.
+In Einzelfällen kann eine Berechnung des satzbestimmenden Einkommens notwendig sein

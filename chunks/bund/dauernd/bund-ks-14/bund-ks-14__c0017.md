@@ -4,19 +4,26 @@ quelle: bund-ks-14
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 14 – Abschnitt 17"
-seiten: "4"
+titel: "Ziff. 5.1.1 Umfang des steuerbaren Vermögensertrags (kleinste der vier Grössen)"
+ziffer: "5.1"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 14 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 14 · 5 Steuerfolgen und Verfahren › 5.1 Besteuerung · S. 6
 
-Der Wortlaut von Artikel 20a Absatz 2 DBG entspricht der Formulierung in verschiedenen
-Bundesgerichtsentscheiden zum bisherigen Recht (StE 2002, B 24.4 Nr. 63; ASA 60, 537
-Erw. 6b; ASA 59, 717 Erw. 5b). In diesem Punkt kann die Bundesgerichtspraxis herangezo-
-gen werden. Eine Mitwirkung gemäss Artikel 20a Absatz 2 DBG liegt vor, wenn der Verkäu-
-fer weiss oder wissen muss, dass der Zielgesellschaft im Zeitpunkt der Veräusserung bereits
-bestehende, nichtbetriebsnotwendige und ausschüttungsfähige Mittel entzogen werden und
-diese dem Verkäufer in Form des Kaufpreises zufliessen. Ein solcher Entzug liegt dann vor,
-wenn die Käuferin den Kaufpreis aus einer Mittelentnahme (offene oder verdeckte Gewinn-
-ausschüttung) aus der Zielgesellschaft entrichtet, oder wenn sie die ursprüngliche Eigen-
-oder Fremdfinanzierung des Kaufpreises durch eine solche Mittelentnahme refinanziert.
+5.   Steuerfolgen und Verfahren
+
+5.1. Besteuerung
+
+5.1.1. Umfang
+
+Soweit Ausschüttungen im Sinne von Ziffer 3.5 und 4.5 erfolgen, wird der Verkaufserlös bei
+der Verkaufspartei (teilweise) als steuerbarer Vermögensertrag erfasst. Dabei bildet die
+kleinste der folgenden Grössen (nach Massgabe der veräusserten Beteiligungsquote) den
+steuerbaren Vermögensertrag:
+    - Verkaufserlös: Dazu gehört der gesamte Verkaufserlös mit den unter suspensiven
+    oder resolutiven Bedingungen vereinbarten Beträgen. Der Nominalwert der veräus-
+    serten Beteiligungsrechte reduziert den Verkaufserlös nicht;
+    - Ausschüttungsbetrag (gemäss Ziff. 3.5 und 4.5);
+    - Handelsrechtlich ausschüttungsfähige Reserven (gemäss Ziff. 3.6 und 4.6.2);
+    - Nichtbetriebsnotwendige Substanz (gemäss Ziff. 3.6, 4.6.3 und 4.6.4).

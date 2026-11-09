@@ -1,239 +1,407 @@
 [
 {
 "id": "ar-mb-11__c0001",
-"titel": "MB AR 11 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziel und Zweck des Steuererlasses – einmalig, keine Gläubigerbevorzugung",
+"pfad": [
+"Allgemeines"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuererlass",
+"Erlass",
+"Opfersymmetrie",
+"Schuldensanierung",
+"Gläubiger",
+"einmalig"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Erlass soll die wirtschaftliche Lage langfristig sanieren, einmalig sein und nicht anderen Gläubigern zugutekommen; anteilsmässiger Verzicht nur, wenn alle Gläubiger im gleichen Umfang verzichten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "ar-mb-11__c0002"
 },
 {
 "id": "ar-mb-11__c0002",
-"titel": "MB AR 11 – Abschnitt 2",
-"pfad": [],
+"titel": "Gegenstand des Erlassgesuchs – nur definitive, rechtskräftige Steuern",
+"pfad": [
+"Allgemeines"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"definitive Veranlagung",
+"provisorische Steuern",
+"Ratenzahlung",
+"Zahlungserleichterung",
+"Abteilung Steuerbezug"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Erlassgesuche betreffen nur definitiv veranlagte, rechtskräftige und noch geschuldete Steuern; für provisorische Steuern sind nur Zahlungserleichterungen möglich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0001",
 "nachher": "ar-mb-11__c0003"
 },
 {
 "id": "ar-mb-11__c0003",
-"titel": "MB AR 11 – Abschnitt 3",
-"pfad": [],
+"titel": "Erlassverfahren ersetzt kein Rechtsmittel; Quellensteuer; Frist und Betreibung",
+"pfad": [
+"Allgemeines"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Rechtsmittel",
+"Revision",
+"Quellensteuer",
+"Zahlungsfrist",
+"Betreibung",
+"Frist Erlassgesuch"
+],
+"positionen": [
+"verfahren.bezug",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Das Gesuch muss innerhalb der Zahlungsfrist eingereicht werden; nach Einleitung einer Betreibung wird nicht darauf eingetreten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0002",
 "nachher": "ar-mb-11__c0004"
 },
 {
 "id": "ar-mb-11__c0004",
-"titel": "MB AR 11 – Abschnitt 4",
-"pfad": [],
+"titel": "Zuständigkeit der Kantonalen Steuerverwaltung und erfasste Steuerarten",
+"pfad": [
+"Zuständigkeit der Kantonalen Steuerverwaltung"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Zuständigkeit",
+"Steuerverwaltung Herisau",
+"Staats- und Gemeindesteuern",
+"direkte Bundessteuer",
+"Nachsteuern",
+"Bussen"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Zuständig für Staats- und Gemeindesteuern sowie direkte Bundessteuer, u.a. Einkommens-/Vermögenssteuer, Quellensteuer, Grundstückgewinnsteuer, Nachsteuern und Bussen, Zinsen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0003",
 "nachher": "ar-mb-11__c0005"
 },
 {
 "id": "ar-mb-11__c0005",
-"titel": "MB AR 11 – Abschnitt 5",
-"pfad": [],
+"titel": "Voraussetzungen – Notlage und grosse Härte (Art. 222 StG, Art. 167 ff. DBG)",
+"pfad": [
+"Voraussetzungen des Steuererlasses"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Voraussetzungen",
+"Notlage",
+"grosse Härte",
+"Art. 222 StG",
+"Art. 167 DBG",
+"Steuererlassverordnung"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Die Steuerverwaltung kann Steuern ganz oder teilweise erlassen, wenn eine Notlage besteht und die Zahlung eine grosse Härte bedeuten würde.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0004",
 "nachher": "ar-mb-11__c0006"
 },
 {
 "id": "ar-mb-11__c0006",
-"titel": "MB AR 11 – Abschnitt 6",
-"pfad": [],
+"titel": "Notlage – betreibungsrechtliches Existenzminimum, dauerhafte Notlage",
+"pfad": [
+"Voraussetzungen des Steuererlasses"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Notlage",
+"Existenzminimum",
+"Missverhältnis",
+"Leistungsfähigkeit",
+"Stundung",
+"Ratenzahlung",
+"dauerhaft"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Notlage: Mittel reichen nicht für das betreibungsrechtliche Existenzminimum oder die Schuld steht in Missverhältnis zur Leistungsfähigkeit; sie muss dauerhaft sein, sonst nur Stundung oder Ratenzahlung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0005",
 "nachher": "ar-mb-11__c0007"
 },
 {
 "id": "ar-mb-11__c0007",
-"titel": "MB AR 11 – Abschnitt 7",
-"pfad": [],
+"titel": "Beurteilung Notlage; absehbare Tilgung (2–3 bzw. 4–6 Jahre); bereits bezahlte Steuern",
+"pfad": [
+"Voraussetzungen des Steuererlasses"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Existenzminimum SchKG",
+"Art. 93 SchKG",
+"absehbar zwei bis drei Jahre",
+"vier bis sechs Jahre",
+"Nachsteuern",
+"bereits bezahlt"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Kein Erlass, wenn die Schuld mit Zahlungserleichterungen in absehbarer Zeit getilgt werden kann: zwei bis drei Jahre (Normalfall), vier bis sechs Jahre bei Nachsteuern und Bussen; auf bezahlte Steuern kein Erlass.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0006",
 "nachher": "ar-mb-11__c0008"
 },
 {
 "id": "ar-mb-11__c0008",
-"titel": "MB AR 11 – Abschnitt 8",
-"pfad": [],
+"titel": "Ablehnungsgründe – fehlende Opfersymmetrie",
+"pfad": [
+"Ablehnungsgründe",
+"Fehlende Opfersymmetrie"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Opfersymmetrie",
+"Ablehnung",
+"Forderungsverzicht",
+"Sonderopfer",
+"private Gläubiger"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Kein Erlass, wenn weitere Schulden bestehen und die übrigen Gläubiger nicht im gleichen Umfang auf ihre Forderungen verzichten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0007",
 "nachher": "ar-mb-11__c0009"
 },
 {
 "id": "ar-mb-11__c0009",
-"titel": "MB AR 11 – Abschnitt 9",
-"pfad": [],
+"titel": "Ablehnungsgründe – keine dauerhafte Sanierung, Verletzung Mitwirkungspflichten",
+"pfad": [
+"Ablehnungsgründe"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"keine Sanierung",
+"Mitwirkungspflicht",
+"Steuererklärung nicht eingereicht",
+"Rechtsmittel verpasst",
+"Belege"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Abgelehnt wird, wenn keine dauerhafte Sanierung möglich ist oder Pflichten im Veranlagungsverfahren schwerwiegend und wiederholt verletzt wurden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0008",
 "nachher": "ar-mb-11__c0010"
 },
 {
 "id": "ar-mb-11__c0010",
-"titel": "MB AR 11 – Abschnitt 10",
-"pfad": [],
+"titel": "Ablehnungsgründe – keine Rücklagen, freiwilliger Verzicht auf Einkommen/Vermögen",
+"pfad": [
+"Ablehnungsgründe"
+],
 "seiten": [
 3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Rücklagen",
+"Kapitalleistung Vorsorge",
+"freiwilliger Verzicht",
+"übersetzte Lebenshaltungskosten"
+],
+"positionen": [
+"verfahren.bezug",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Kein Erlass ohne Rücklagen trotz verfügbarer Mittel oder bei freiwilligem Verzicht; bei einmaligen Einkünften (z.B. Kapitalleistungen aus Vorsorge) ist die Zahlung aus dem Vermögen zumutbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0009",
 "nachher": "ar-mb-11__c0011"
 },
 {
 "id": "ar-mb-11__c0011",
-"titel": "MB AR 11 – Abschnitt 11",
-"pfad": [],
+"titel": "Erlassverfahren – Einreichung: schriftlich, begründet, mit Fragebogen vor Ablauf der Zahlungsfrist",
+"pfad": [
+"Erlassverfahren",
+"Einreichung"
+],
 "seiten": [
 3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Einreichung",
+"Erlassgesuch",
+"Fragebogen",
+"Adresse Herisau",
+"Notlage darlegen"
+],
+"positionen": [
+"verfahren.einreichung",
+"verfahren.bezug"
+],
+"zusammenfassung": "Erlassgesuche sind schriftlich und begründet inklusive Fragebogen vor Ablauf der Zahlungsfrist an die Kantonale Steuerverwaltung, Erlasse, 9100 Herisau einzureichen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0010",
 "nachher": "ar-mb-11__c0012"
 },
 {
 "id": "ar-mb-11__c0012",
-"titel": "MB AR 11 – Abschnitt 12",
-"pfad": [],
+"titel": "Erlassverfahren – Auskunftspflicht, einzureichende Unterlagen, Nachfrist",
+"pfad": [
+"Erlassverfahren",
+"Einreichung"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Unterlagen",
+"Lohnabrechnungen",
+"Kontoauszüge",
+"Sozialhilfe",
+"Nachfrist",
+"Schuldenverzeichnis"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Gesuchsteller müssen umfassend Auskunft geben und Belege vorlegen; bei fehlenden Beweismitteln wird eine Nachfrist angesetzt, sonst Nichteintreten bzw. Entscheid nach Aktenlage.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0011",
 "nachher": "ar-mb-11__c0013"
 },
 {
 "id": "ar-mb-11__c0013",
-"titel": "MB AR 11 – Abschnitt 13",
-"pfad": [],
+"titel": "Entscheid – gesamte wirtschaftliche Verhältnisse, Vermögen, Verkehrswert",
+"pfad": [
+"Erlassverfahren",
+"Entscheid"
+],
 "seiten": [
 4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Entscheid",
+"Verkehrswert",
+"Vermögensverwertung",
+"Lebenshaltung",
+"wirtschaftliche Verhältnisse"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Massgebend ist die Situation im Zeitpunkt des Entscheids; bei vorübergehenden Zahlungsschwierigkeiten mit Vermögen wird zuerst Belastung oder Verwertung geprüft (Verkehrswert).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0012",
 "nachher": "ar-mb-11__c0014"
 },
 {
 "id": "ar-mb-11__c0014",
-"titel": "MB AR 11 – Abschnitt 14",
-"pfad": [],
+"titel": "Entscheid – Grundstückgewinnsteuer (Pfandrecht) und Nachsteuern/Bussen strenger",
+"pfad": [
+"Erlassverfahren",
+"Entscheid"
+],
 "seiten": [
 4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Grundstückgewinnsteuer",
+"Pfandrecht",
+"Objektsteuer",
+"Nachsteuern",
+"Bussen",
+"strengerer Massstab"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Die Grundstückgewinnsteuer kann nur erlassen werden, wenn kein Pfandrecht mehr besteht; bei Nachsteuern und Bussen gilt ein strengerer Massstab.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0013",
 "nachher": "ar-mb-11__c0015"
 },
 {
 "id": "ar-mb-11__c0015",
-"titel": "MB AR 11 – Abschnitt 15",
-"pfad": [],
+"titel": "Rechtsmittel – Einsprache innert 30 Tagen",
+"pfad": [
+"Rechtsmittel"
+],
 "seiten": [
 4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Einsprache",
+"30 Tage",
+"Rechtsmittelbelehrung",
+"Erlassentscheid"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Gegen den Erlassentscheid kann innert 30 Tagen seit Zustellung bei der Kantonalen Steuerverwaltung Einsprache erhoben werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-11__c0014",
 "nachher": null
 }

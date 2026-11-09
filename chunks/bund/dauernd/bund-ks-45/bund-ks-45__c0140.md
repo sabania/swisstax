@@ -4,22 +4,30 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 140"
-seiten: "36"
+titel: "Ziff. 7.4 Beispiel 2 – Scheidung während des Jahres"
+ziffer: "7.4"
+seiten: "45"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 36
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 45
 
-7.2   Grundsätze
-Bei der Berechnung der Quellensteuer nach dem Jahresmodell entspricht das Kalenderjahr
-der Steuerperiode. Obwohl Letzteres massgebend ist, muss der Schuldner der steuerbaren
-Leistung die Quellensteuer trotzdem monatlich einbehalten und darüber abrechnen (vgl. Zif-
-fern 9.3.3 und 9.3.4 unten).
-Für die Berechnung des Quellensteuerabzugs sind die monatlichen Bruttoeinkünfte massge-
-bend. Für die Ermittlung des satzbestimmenden Einkommens ist es jedoch erforderlich, das
-gesamte im betreffenden Jahr der Quellenbesteuerung unterliegende Bruttoeinkommen zu
-berücksichtigen. Die Höhe des Quellensteuerabzugs wird auf der Grundlage des Bruttoein-
-kommens des betreffenden Monats durch Multiplikation dieses Einkommens mit dem Steuer-
-satz des anzuwendenden Quellensteuertarifs ermittelt. Das gleiche Verfahren ist anzuwen-
-den, wenn der Arbeitnehmer auf Stundenlohnbasis beschäftigt ist und ihm sein Gehalt mo-
-natlich ausbezahlt wird (vgl. Beispiele in den nachfolgenden Ziffern).
+    Änderung des Zivilstands während des Kalenderjahres (Scheidung):
+
+    2. Ein verheirateter Steuerpflichtiger wird am 25. August 2021 geschieden. Er übt eine unselbstständige Er-
+    werbstätigkeit mit einem Pensum von 100 % aus und erhält dafür einen Jahreslohn von CHF 65 000.00
+    (CHF 5 000 x 13).
+    Seine Ehegattin übt keine Erwerbstätigkeit aus.
+
+    Monat   Januar   …   August   September … November   Dezember   Besteuerung
+
+    Bruttolohn   5 000   5 000   5 000   5 000   10 000   65 000
+
+    Tarifcode   B0   B0   A0   A0   A0
+
+    Steuersatz (%)   5,01   5,0   10,42   10,4   10,4
+
+    Quellensteuer   250   250   520   520   1 040   4 600
+
+    1 = B0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
+
+    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).

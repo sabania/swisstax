@@ -1,96 +1,134 @@
 [
 {
 "id": "bund-mb-nl1__c0001",
-"titel": "MB NL1/2007 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Merkblatt NL 1/2007 Naturalbezüge Land-/Forstwirtschaft – Einleitung und Ziff. 5 Autokosten-Privatanteil",
+"pfad": [
+"Merkblatt NL1",
+"Einleitung / Ziff. 5"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5",
+"stichworte": [
+"Privatanteil Auto",
+"0,9 % Kaufpreis",
+"CHF 150 pro Monat",
+"Landwirt",
+"Naturalbezüge"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Privatanteil Autokosten pauschal 0,9 % des Kaufpreises oder ein Drittel bis die Hälfte der Gesamtkosten, mindestens CHF 150 pro Monat und Fahrzeug.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-mb-nl1__c0002"
 },
 {
 "id": "bund-mb-nl1__c0002",
-"titel": "MB NL1/2007 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Naturalbezüge (Privatanteile pro Person) und Ziff. 6 Naturallohn Verpflegung/Unterkunft (Teil 1/2)",
+"pfad": [
+"Merkblatt NL1",
+"Ziff. 1 / Ziff. 6"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1, 6",
+"stichworte": [
+"Naturalbezüge",
+"Naturallohn",
+"Verpflegung Unterkunft",
+"Kinderansätze",
+"landwirtschaftliche Arbeitnehmer"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Naturalbezüge Erwachsene in der Regel CHF 960 pro Jahr; Naturallohn volle Verpflegung CHF 21.50/Tag, 7740/Jahr, Unterkunft CHF 11.50/Tag, Verpflegung und Unterkunft CHF 33/Tag, 11 880/Jahr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-nl1__c0001",
 "nachher": "bund-mb-nl1__c0003"
 },
 {
 "id": "bund-mb-nl1__c0003",
-"titel": "MB NL1/2007 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1 Naturalbezüge (Privatanteile pro Person) und Ziff. 6 Naturallohn Verpflegung/Unterkunft (Teil 2/2)",
+"pfad": [
+"Merkblatt NL1",
+"Ziff. 1 / Ziff. 6"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1, 6",
+"stichworte": [
+"Naturalbezüge",
+"Naturallohn",
+"Verpflegung Unterkunft",
+"Kinderansätze",
+"landwirtschaftliche Arbeitnehmer"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-nl1__c0002",
 "nachher": "bund-mb-nl1__c0004"
 },
 {
 "id": "bund-mb-nl1__c0004",
-"titel": "MB NL1/2007 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2–3 Mietwert Wohnung, Privatanteil Heizung/Beleuchtung und Ziff. 7 Naturallohnabzug",
+"pfad": [
+"Merkblatt NL1",
+"Ziff. 2, 3, 7"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2, 3, 7",
+"stichworte": [
+"Mietwert Wohnung",
+"Privatanteil Heizung Elektrizität",
+"Naturallohnabzug",
+"Selbstkostenabzug"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Privatanteil Heizung etc. in der Regel CHF 2640 für den ersten Erwachsenen, Zuschlag CHF 660 je weiteren Erwachsenen und CHF 420 je Kind; Naturallohnabzug in der Regel CHF 17/Tag, 510/Monat, 6120/Jahr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-nl1__c0003",
 "nachher": "bund-mb-nl1__c0005"
 },
 {
 "id": "bund-mb-nl1__c0005",
-"titel": "MB NL1/2007 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 4 Privatanteil an den Löhnen des Geschäftspersonals",
+"pfad": [
+"Merkblatt NL1",
+"Ziff. 4"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4",
+"stichworte": [
+"Privatanteil Löhne",
+"Betriebsangestellte",
+"Haushalt"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Arbeiten Angestellte teilweise für private Bedürfnisse, ist ein entsprechender Teil der Löhne als Privatanteil anzurechnen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-nl1__c0004",
-"nachher": "bund-mb-nl1__c0006"
-},
-{
-"id": "bund-mb-nl1__c0006",
-"titel": "MB NL1/2007 – Abschnitt 6",
-"pfad": [],
-"seiten": [
-1
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-mb-nl1__c0005",
 "nachher": null
 }
 ]

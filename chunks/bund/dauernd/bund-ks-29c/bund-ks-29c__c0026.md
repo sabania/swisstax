@@ -4,20 +4,22 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 26"
-seiten: "9"
+titel: "Ziff. 5.1.2 Regelverletzung der Ausschüttungsregel – halbe Differenz steuerbar"
+ziffer: "5.1.2"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 5 Kotierte Gesellschaften › 5.1 Ausschüttungsregel · S. 13
 
-Rückzahlungen aus KER bzw. Ausland-KER einer Kapitalgesellschaft oder Genossenschaft
-unterliegen weder der Einkommenssteuer (Art. 20 Abs. 3 DBG) noch der Verrechnungs-
-steuer (Art. 5 Abs. 1bis VStG).
+5.1.2. Regelverletzung
 
-Ausschüttungen aus übrigen Reserven einer Kapitalgesellschaft oder Genossenschaft sind
-nach Artikel 20 Absatz 1 Buchstabe c DBG oder Artikel 20 Absatz 1bis DBG steuerbar und
-unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer.
+Wird die Ausschüttungsregel nicht eingehalten, ist mit Wirkung für die Einkommens- und
+Verrechnungssteuer die halbe Differenz zwischen der Rückzahlung von KER und den übri-
+gen Reserven steuerbar, höchstens jedoch bis zu den vorhandenen, handelsrechtlich aus-
+schüttungsfähigen übrigen Reserven. Soweit handelsrechtlich ausgeschüttete KER aufgrund
+der Regelverletzung den übrigen Reserven belastet werden müssen, sind diese in der Han-
+delsbilanz mit dem entsprechenden Betrag dem gesonderten Konto für KER zuzuweisen.
 
-Verdeckte Gewinnausschüttungen qualifizieren als Ausschüttungen aus übrigen Reserven
-und sind nach Artikel 20 Absatz 1 Buchstabe c oder 20 Absatz 1bis DBG steuerbar und unter-
-liegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer.
+Damit wird erreicht, dass sämtliche KER steuerfrei zurückbezahlt werden können. Es stellt
+sich einzig eine Verschiebung der steuerfreien Rückzahlungen von KER auf der Zeitachse
+ein.

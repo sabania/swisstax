@@ -1,512 +1,779 @@
 [
 {
 "id": "zh-zstb-132-1-bis-2025__c0001",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "A. Einleitende Bemerkungen – Pflicht zur Steuererklärung, Geltungsbereich (Teil 1/2)",
+"pfad": [
+"A. Einleitende Bemerkungen"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "A",
+"stichworte": [
+"Steuererklärung Pflicht",
+"Steuerperiode",
+"Volljährigkeit erste Steuererklärung",
+"Beendigung Steuerpflicht",
+"Verrechnungssteuer Antrag"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Natürliche und juristische Personen reichen für jede Steuerperiode eine Steuererklärung ein, in der Regel im folgenden Kalenderjahr; wer volljährig geworden ist, reicht im Folgejahr erstmals eine eigene ein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "zh-zstb-132-1-bis-2025__c0002"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0002",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 2",
-"pfad": [],
+"titel": "A. Einleitende Bemerkungen – Pflicht zur Steuererklärung, Geltungsbereich (Teil 2/2)",
+"pfad": [
+"A. Einleitende Bemerkungen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "A",
+"stichworte": [
+"Steuererklärung Pflicht",
+"Steuerperiode",
+"Volljährigkeit erste Steuererklärung",
+"Beendigung Steuerpflicht",
+"Verrechnungssteuer Antrag"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0001",
 "nachher": "zh-zstb-132-1-bis-2025__c0003"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0003",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 3",
-"pfad": [],
+"titel": "B. Steuerpflicht – Einreichungspflicht und Ausnahmen (Quellensteuer)",
+"pfad": [
+"B. Steuerpflicht"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "B",
+"stichworte": [
+"Einreichungspflicht",
+"Quellensteuer Ausnahme",
+"nachträgliche ordentliche Veranlagung",
+"Aufforderung zur Einreichung",
+"Einschätzung Veranlagung"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Alle Steuerpflichtigen werden zur Abgabe aufgefordert; ausgenommen sind nur Quellensteuerpflichtige, die nicht die Voraussetzungen der nachträglichen ordentlichen Veranlagung erfüllen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0002",
 "nachher": "zh-zstb-132-1-bis-2025__c0004"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0004",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 4",
-"pfad": [],
+"titel": "C.–D. Durchführung (Gemeindesteuerämter) und Publikation der Aufforderung",
+"pfad": [
+"C. Durchführung",
+"D. Publikationen"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "C / D",
+"stichworte": [
+"Gemeindesteueramt",
+"kantonales Steueramt Abteilung Register",
+"Amtsblatt Januar März",
+"Rückerstattung Verrechnungssteuer ESTV"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Das Verfahren für natürliche Personen führen die Gemeindesteuerämter durch, für juristische Personen das kantonale Steueramt; die Aufforderung wird im Januar und März im Amtsblatt publiziert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0003",
 "nachher": "zh-zstb-132-1-bis-2025__c0005"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0005",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 5",
-"pfad": [],
+"titel": "E.I Formularverzeichnis natürliche Personen – Lohnausweis, Steuererklärung 300/303, Wegleitung, Hilfsblätter A",
+"pfad": [
+"E. Formularverzeichnis",
+"I. Natürliche Personen"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "E.I",
+"stichworte": [
+"Formular 300",
+"Formular 303",
+"Wegleitung 305",
+"Lohnausweis Form. 11",
+"Hilfsblatt A Selbständigerwerbende",
+"Liquidationsgewinne"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Formulare: Form. 11 Lohnausweis, 300 Steuererklärung (im Kanton wohnhaft), 303 (ausserkantonal mit Liegenschaften/Betriebsstätten), 305 Wegleitung, 321–329 Selbständigerwerbende.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0004",
 "nachher": "zh-zstb-132-1-bis-2025__c0006"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0006",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 6",
-"pfad": [],
+"titel": "E.I Formularverzeichnis – Landwirtschaft 330–332",
+"pfad": [
+"E. Formularverzeichnis",
+"I. Natürliche Personen"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "E.I",
+"stichworte": [
+"Hilfsblatt B Landwirtschaft",
+"Hilfsblatt G",
+"Landwirte",
+"Forstwirtschaft Formular 332"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Formulare 330 (Hilfsblatt B), 331 (Hilfsblatt G) und 332 (Wegleitung) für Einkünfte aus Land- und Forstwirtschaft.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0005",
 "nachher": "zh-zstb-132-1-bis-2025__c0007"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0007",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 7",
-"pfad": [],
+"titel": "E.I Formularverzeichnis – Wertschriftenverzeichnis 340, Liegenschaften 350, Schulden 355, Berufsauslagen 360, Versicherungen 365–370",
+"pfad": [
+"E. Formularverzeichnis",
+"I. Natürliche Personen"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "E.I",
+"stichworte": [
+"Wertschriften- und Guthabenverzeichnis 340",
+"Liegenschaftenverzeichnis 350",
+"Schuldenverzeichnis 355",
+"Berufsauslagen 360",
+"Versicherungsprämien 365",
+"Weiterbildung 367",
+"Krankheitskosten 370"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"abzug.berufskosten.uebrige",
+"abzug.versicherungspraemien",
+"abzug.weiterbildung",
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Formulare 340/342 Wertschriften, 345/346 qualifizierte Beteiligungen, 350/352 Liegenschaften, 355 Schulden, 360 Berufsauslagen, 365 Versicherungsprämien, 367 Weiterbildung, 370 Krankheits-/Behinderungskosten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0006",
 "nachher": "zh-zstb-132-1-bis-2025__c0008"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0008",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 8",
-"pfad": [],
+"titel": "E.I Formularverzeichnis – Inventar, Todesfall, Erbschaft, DA-1/DA-3",
+"pfad": [
+"E. Formularverzeichnis",
+"I. Natürliche Personen"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "E.I",
+"stichworte": [
+"Inventarfragebogen 395",
+"Tresoröffnungsprotokoll",
+"Erbschaftssteuer Merkblatt",
+"DA-1",
+"DA-3",
+"Wegleitung 438"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Formulare 395–398 (Inventar, Todesfälle, Erbschafts- und Schenkungssteuer), 430 DA-1, 434 DA-3 und 438 Wegleitung zu DA-1/2/3.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0007",
 "nachher": "zh-zstb-132-1-bis-2025__c0009"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0009",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 9",
-"pfad": [],
+"titel": "E.II Formularverzeichnis juristische Personen – 12, 431, 434, 438, 500–520 (Teil 1/2)",
+"pfad": [
+"E. Formularverzeichnis",
+"II. Juristische Personen"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "E.II",
+"stichworte": [
+"Kapitalgesellschaften Formular 500",
+"Vereine Stiftungen 510",
+"DA-2",
+"Bescheinigung Bezüge Verwaltung",
+"Steuerausscheidung 520"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Formulare für juristische Personen: 12 (Bezüge Verwaltung), 431 DA-2, 434 DA-3, 438 Wegleitung, 500/505 Kapitalgesellschaften, 510 Vereine und Stiftungen, 520 Steuerausscheidung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0008",
 "nachher": "zh-zstb-132-1-bis-2025__c0010"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0010",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 10",
-"pfad": [],
+"titel": "E.II Formularverzeichnis juristische Personen – 12, 431, 434, 438, 500–520 (Teil 2/2)",
+"pfad": [
+"E. Formularverzeichnis",
+"II. Juristische Personen"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "E.II",
+"stichworte": [
+"Kapitalgesellschaften Formular 500",
+"Vereine Stiftungen 510",
+"DA-2",
+"Bescheinigung Bezüge Verwaltung",
+"Steuerausscheidung 520"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0009",
 "nachher": "zh-zstb-132-1-bis-2025__c0011"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0011",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 11",
-"pfad": [],
+"titel": "E.II Formularverzeichnis juristische Personen – 530–570 (STAF, Beteiligungsabzug), R 25",
+"pfad": [
+"E. Formularverzeichnis",
+"II. Juristische Personen"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "E.II",
+"stichworte": [
+"Hilfsblatt STAF",
+"Patentbox",
+"Beteiligungsabzug",
+"Forschungs- und Entwicklungsaufwand",
+"Rückerstattungsantrag R 25"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Formulare 530–547 (STAF: F&E-Abzug, Patentbox, Eigenfinanzierung), 550/551 Beteiligungen, 570 Gestehungskosten und R 25 Rückerstattungsantrag.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0010",
 "nachher": "zh-zstb-132-1-bis-2025__c0012"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0012",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 12",
-"pfad": [],
+"titel": "F.I.1 Ordentliches Verfahren – vollständiger Formularsatz (Wohnsitz im Kanton, Quellensteuerpflichtige)",
+"pfad": [
+"F. Vorbereitung des Versandes",
+"I. Zustellung an natürliche Personen",
+"1. Vollständiger Formularsatz"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "F.I.1 a)",
+"stichworte": [
+"vollständiger Formularsatz",
+"Formulare 300 305 340 360 365 367 370",
+"Quellensteuerpflichtige ordentliche Veranlagung",
+"Wohnsitz Kanton Zürich"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Allen im Kanton Zürich Wohnhaften werden Formulare 300, 305, 340, 360, 365, 367 und 370 zugestellt, auch Quellensteuerpflichtigen mit nachträglicher ordentlicher Veranlagung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0011",
 "nachher": "zh-zstb-132-1-bis-2025__c0013"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0013",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 13",
-"pfad": [],
+"titel": "F.I.1 b)–d) Zusatzformulare Liegenschaften, Selbständigerwerbende, Landwirte, ausserkantonal Wohnhafte",
+"pfad": [
+"F. Vorbereitung des Versandes",
+"I. Zustellung an natürliche Personen",
+"1. Vollständiger Formularsatz"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "F.I.1 b)–d)",
+"stichworte": [
+"Liegenschaftenverzeichnis 350 352 355",
+"Selbständigerwerbende Hilfsblatt A",
+"Landwirte 330 331 332",
+"ausserkantonal Formular 303"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Liegenschaftsbesitzer erhalten 350/352/355, Selbständigerwerbende 321–329, Landwirte zusätzlich 330–332, ausserkantonal Wohnhafte 303 und 305.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0012",
 "nachher": "zh-zstb-132-1-bis-2025__c0014"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0014",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 14",
-"pfad": [],
+"titel": "F.I.2 Reduzierter Formularsatz (Steuererklärungssoftware)",
+"pfad": [
+"F. Vorbereitung des Versandes",
+"I. Zustellung an natürliche Personen",
+"2. Reduzierter Formularsatz"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "F.I.2",
+"stichworte": [
+"reduzierter Formularsatz",
+"Steuererklärungssoftware",
+"Formulare 300 und 340"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Wer die Steuererklärung mit Software ausgefüllt hat, erhält ab der Folgeperiode nur noch die Formulare 300 und 340.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0013",
 "nachher": "zh-zstb-132-1-bis-2025__c0015"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0015",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 15",
-"pfad": [],
+"titel": "F.I.3–4 Zugangsdaten ZHprivateTax online und nachträgliche ordentliche Veranlagung",
+"pfad": [
+"F. Vorbereitung des Versandes",
+"I. Zustellung an natürliche Personen"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "F.I.3 / F.I.4",
+"stichworte": [
+"ZHprivate Tax",
+"Online-Steuererklärung",
+"Zugangsdaten",
+"Quellensteuer nachträgliche ordentliche Veranlagung",
+"ausländische Arbeitnehmer"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Wer im Vorjahr ZHprivate Tax online verwendet hat, erhält nur ein Schreiben mit Zugangsdaten; für die nachträgliche ordentliche Veranlagung Quellensteuerpflichtiger gelten die gleichen Formulare wie bei ordentlich Besteuerten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0014",
 "nachher": "zh-zstb-132-1-bis-2025__c0016"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0016",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 16",
-"pfad": [],
+"titel": "F.II–III Zustellung an juristische Personen und Beschriftung (Ehepaare, eingetragene Partnerschaft)",
+"pfad": [
+"F. Vorbereitung des Versandes",
+"II.–III. Juristische Personen, Beschriftung"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "F.II / F.III",
+"stichworte": [
+"Ehepaare gemeinsame Zustellung",
+"eingetragene Partnerschaft",
+"Beschriftung Steuererklärung",
+"Allianzname",
+"Postversand Wertschriftenverzeichnis"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei ungetrennter Ehe sind die Unterlagen beiden Eheleuten gemeinsam zuzustellen (beide nennen); bei eingetragener Partnerschaft beide Partner in alphabetischer Reihenfolge.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0015",
 "nachher": "zh-zstb-132-1-bis-2025__c0017"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0017",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 17",
-"pfad": [],
+"titel": "F.IV–V Versand (Retourcouvert) und Frist der Formularzustellung (Ende Januar)",
+"pfad": [
+"F. Vorbereitung des Versandes",
+"IV. Versand / V. Fristen"
+],
 "seiten": [
 6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "F.IV / F.V",
+"stichworte": [
+"Versand Formulare",
+"Retourcouvert",
+"Ende Januar",
+"§ 33 StV"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Die Formularzustellung an die Steuerpflichtigen des Hauptregisters muss bis Ende Januar abgeschlossen sein; jeder Sendung ist ein Retourcouvert beizulegen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0016",
 "nachher": "zh-zstb-132-1-bis-2025__c0018"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0018",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 18",
-"pfad": [],
+"titel": "F.VI Heirat, Trennung, Scheidung, Tod im Kalenderjahr – gemeinsame bzw. getrennte Besteuerung",
+"pfad": [
+"F. Vorbereitung des Versandes",
+"VI. Begründung und Auflösung der Ehe/Partnerschaft"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "F.VI",
+"stichworte": [
+"Heirat Steuerperiode",
+"Scheidung Trennung getrennte Besteuerung",
+"Tod Ehegatte",
+"Verwitwung",
+"eingetragene Partnerschaft Auflösung"
+],
+"positionen": [
+"personalien"
+],
+"zusammenfassung": "Bei Heirat werden die Eheleute für die ganze Steuerperiode gemeinsam besteuert; bei Trennung oder Scheidung für die ganze Steuerperiode getrennt mit je einer Steuererklärung; bei Tod reicht der überlebende Ehegatte eine Erklärung ab Todestag ein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0017",
 "nachher": "zh-zstb-132-1-bis-2025__c0019"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0019",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 19",
-"pfad": [],
+"titel": "G.I–II.1 Ordentliche Einreichungsfristen (31. März / 30. September) und Fristerstreckung von Amtes wegen",
+"pfad": [
+"G. Einreichungsfristen und Fristerstreckungen"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "G.I / G.II.1",
+"stichworte": [
+"Einreichefrist 31. März",
+"30. September juristische Personen",
+"Fristerstreckung Selbständigerwerbende",
+"ausserkantonal Wohnhafte",
+"§ 39 StV"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Natürliche Personen reichen bis 31. März des Folgejahres ein, juristische bis 30. September; Gemeindesteuerämter können für Selbständigerwerbende und ausserkantonal Wohnhafte von Amtes wegen bis 30. September erstrecken.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0018",
 "nachher": "zh-zstb-132-1-bis-2025__c0020"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0020",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 20",
-"pfad": [],
+"titel": "G.II.2 a) Fristerstreckungsgesuche – Allgemeines und Wiederherstellung",
+"pfad": [
+"G. Einreichungsfristen",
+"II. Fristerstreckung",
+"2. Gesuche von Steuerpflichtigen"
+],
 "seiten": [
-6
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "G.II.2 a)",
+"stichworte": [
+"Fristerstreckungsgesuch",
+"abgelaufene Frist",
+"Wiederherstellung der Frist",
+"vor Ablauf einreichen",
+"§ 15 StV"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Gesuche sind vor Fristablauf einzureichen; nach Ablauf gestellte Gesuche sind abzuweisen, eine abgelaufene Frist kann höchstens wiederhergestellt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0019",
 "nachher": "zh-zstb-132-1-bis-2025__c0021"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0021",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 21",
-"pfad": [],
+"titel": "G.II.2 b) Fristerstreckung längstens bis 30. November – ausserordentliche Gründe",
+"pfad": [
+"G. Einreichungsfristen",
+"II. Fristerstreckung",
+"2. Gesuche von Steuerpflichtigen"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "G.II.2 b)",
+"stichworte": [
+"Fristerstreckung 30. November",
+"ausserordentliche Gründe",
+"Steuerberater Fristerstreckung",
+"Beschwerde Finanzdirektion § 111 StG",
+"30 Tage Nachfrist"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Rechtzeitigen Gesuchen ist längstens bis 30. November zu entsprechen; darüber hinaus nur bei glaubhaft gemachten ausserordentlichen Gründen (starke berufliche Beanspruchung oder fehlende Unterlagen genügen nicht).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0020",
 "nachher": "zh-zstb-132-1-bis-2025__c0022"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0022",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 22",
-"pfad": [],
+"titel": "G.II.2 c) Verrechnungssteuer – Rückerstattungsanspruch erlischt nach drei Jahren",
+"pfad": [
+"G. Einreichungsfristen",
+"II. Fristerstreckung",
+"2. Gesuche von Steuerpflichtigen"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "G.II.2 c)",
+"stichworte": [
+"Verrechnungssteuer Rückerstattung Frist",
+"drei Jahre",
+"Verrechnungssteuerantrag",
+"Verwirkung"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Der Anspruch auf Rückerstattung der Verrechnungssteuer erlischt, wenn er nicht innerhalb dreier Jahre nach Ablauf des Kalenderjahres der Fälligkeit geltend gemacht wird; die Frist darf nicht darüber hinaus erstreckt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0021",
 "nachher": "zh-zstb-132-1-bis-2025__c0023"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0023",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 23",
-"pfad": [],
+"titel": "G.II.2 d)–e) Entscheid über Fristerstreckung, stillschweigende Bewilligung, andere Kantone",
+"pfad": [
+"G. Einreichungsfristen",
+"II. Fristerstreckung",
+"2. Gesuche von Steuerpflichtigen"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "G.II.2 d)–e)",
+"stichworte": [
+"stillschweigend bewilligt",
+"schriftlicher Entscheid",
+"Vertreter Eröffnung",
+"Wohnsitzkanton Fristerstreckung",
+"Beschwerdemöglichkeit"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Rechtzeitige erstmalige Gesuche gelten ohne gegenteiligen Entscheid als stillschweigend bewilligt; Erstreckungsentscheide des Wohnsitzkantons gelten auch für den Kanton Zürich, wenn sie vor Ablauf der zürcherischen Frist mitgeteilt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0022",
 "nachher": "zh-zstb-132-1-bis-2025__c0024"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0024",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 24",
-"pfad": [],
+"titel": "G.III Nachträgliche ordentliche Veranlagung von Quellensteuerpflichtigen (ab Fr. 120'000.-)",
+"pfad": [
+"G. Einreichungsfristen",
+"III. Nachträgliche ordentliche Veranlagung"
+],
 "seiten": [
-8
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "G.III",
+"stichworte": [
+"Quellensteuer 120 000 Franken",
+"nachträgliche ordentliche Veranlagung",
+"Bruttoeinkünfte Quellensteuer",
+"Einreichung 31. März"
+],
+"positionen": [
+"verfahren.einreichung",
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Betrugen die quellenbesteuerten Bruttoeinkünfte im Vorjahr oder einem der Vorjahre mindestens Fr. 120'000.-, ist eine Steuererklärung für die nachträgliche ordentliche Veranlagung bis 31. März einzureichen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0023",
 "nachher": "zh-zstb-132-1-bis-2025__c0025"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0025",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 25",
-"pfad": [],
+"titel": "G.IV.1–2 Mahnungen – Allgemeines und Zeitpunkt (20 Tage vorab)",
+"pfad": [
+"G. Einreichungsfristen",
+"IV. Mahnungen"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "G.IV.1–2",
+"stichworte": [
+"Mahnung Steuererklärung",
+"Einreichung innert 20 Tagen",
+"Mahnverfahren",
+"§ 234 StG",
+"Art. 174 DBG"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Wer die Steuererklärung nicht fristgerecht einreicht, wird gemahnt; vorher kann mit gewöhnlicher Post eine Einreichung innert 20 Tagen verlangt werden, das Mahnverfahren beginnt unmittelbar nach Fristablauf.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0024",
 "nachher": "zh-zstb-132-1-bis-2025__c0026"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0026",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 26",
-"pfad": [],
+"titel": "G.IV.3–5 Mahnung – Androhung (Ermessenseinschätzung, Ordnungsbusse), Mahnfrist 10 Tage, A-Post Plus",
+"pfad": [
+"G. Einreichungsfristen",
+"IV. Mahnungen"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "G.IV.3–5",
+"stichworte": [
+"Mahnfrist 10 Tage",
+"Ermessenseinschätzung",
+"Ordnungsbusse",
+"A-Post Plus",
+"keine Gebühren"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Die Mahnfrist beträgt 10 Tage und ist nicht erstreckbar; bei Unterlassung droht eine Einschätzung nach pflichtgemässem Ermessen und eine Ordnungsbusse; Mahnungen gehen per A-Post Plus ohne Gebühren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0025",
 "nachher": "zh-zstb-132-1-bis-2025__c0027"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0027",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 27",
-"pfad": [],
+"titel": "H.–I. Kontrolle bei Eingang und Rücksendung mangelhafter Steuererklärungen",
+"pfad": [
+"H. Kontrolle bei Eingang",
+"I. Rücksendung mangelhafter Steuererklärungen"
+],
 "seiten": [
-8
+9,
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "H / I",
+"stichworte": [
+"mangelhafte Steuererklärung",
+"provisorische Steuererklärung",
+"Rücksendung zur Ergänzung",
+"unvollständige Steuererklärung",
+"§ 41 StV"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Unvollständige oder formell unrichtige Steuererklärungen sowie «provisorische» Erklärungen ohne Details und Unterlagen werden unter Fristansetzung zur Ergänzung zurückgesandt; bei Nichtbefolgung folgt das Mahnverfahren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0026",
 "nachher": "zh-zstb-132-1-bis-2025__c0028"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0028",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 28",
-"pfad": [],
+"titel": "J.–K. Verfahren bei Nichtabgabe und Ablieferung an das kantonale Steueramt",
+"pfad": [
+"J. Nichtabgabe",
+"K. Ablieferung"
+],
 "seiten": [
-8
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "J / K",
+"stichworte": [
+"Nichtabgabe Steuererklärung",
+"Einschätzung nach Ermessen",
+"ZStB 139.2",
+"ZStB 107.3",
+"Ablieferung"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bei Nichtabgabe trotz Mahnung gilt die Weisung ZStB Nr. 139.2; die Ablieferung der Steuererklärungen erfolgt nach ZStB Nr. 107.3.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-132-1-bis-2025__c0027",
 "nachher": "zh-zstb-132-1-bis-2025__c0029"
 },
 {
 "id": "zh-zstb-132-1-bis-2025__c0029",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 29",
-"pfad": [],
-"seiten": [
-9
+"titel": "L. Inkrafttreten – Weisung vom 10. Juli 2024, gültig ab 1. Januar 2025",
+"pfad": [
+"L. Inkrafttreten"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-zstb-132-1-bis-2025__c0028",
-"nachher": "zh-zstb-132-1-bis-2025__c0030"
-},
-{
-"id": "zh-zstb-132-1-bis-2025__c0030",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 30",
-"pfad": [],
-"seiten": [
-9
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-zstb-132-1-bis-2025__c0029",
-"nachher": "zh-zstb-132-1-bis-2025__c0031"
-},
-{
-"id": "zh-zstb-132-1-bis-2025__c0031",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 31",
-"pfad": [],
-"seiten": [
-9
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-zstb-132-1-bis-2025__c0030",
-"nachher": "zh-zstb-132-1-bis-2025__c0032"
-},
-{
-"id": "zh-zstb-132-1-bis-2025__c0032",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 32",
-"pfad": [],
 "seiten": [
 10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "L",
+"stichworte": [
+"Inkrafttreten 1. Januar 2025",
+"Steuerperiode 2024",
+"Weisung Finanzdirektion",
+"ersetzt Weisung 2020"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-zstb-132-1-bis-2025__c0031",
+"zusammenfassung": "Die Weisung tritt am 1. Januar 2025 in Kraft, gilt erstmals für das Steuererklärungsverfahren 2025 (Steuerperiode 2024) und ersetzt die Weisung vom 30. September 2020.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-zstb-132-1-bis-2025__c0028",
 "nachher": null
 }
 ]

@@ -4,29 +4,30 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 44"
-seiten: "15"
+titel: "Ziff. 6.3.4 Umwandlung eines Instituts des öffentlichen Rechts"
+ziffer: "6.3.4"
+seiten: "18-19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.3 Umwandlung · S. 18–19
 
-<!-- Seite 15 -->
-6.   Umstrukturierungen allgemein
+6.3.4. Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesellschaft
+    oder in eine Genossenschaft
 
-6.1.   Übertragung eines Betriebes oder Teilbetriebes einer Personenunterneh-
-    mung auf eine juristische Person
+a)   Direkte Bundessteuer (Einkommenssteuer) nicht betroffen
 
-Der handelsrechtliche Aktivenüberschuss der übertragenen Vermögenswerte (Buchwert-
-übernahme) kann in der Handelsbilanz der übernehmenden Kapitalgesellschaft oder Genos-
-senschaft steuerneutral als KER ausgewiesen werden, soweit er das Grund- oder Stammka-
-pital übersteigt.
+Bei einer direkten Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesell-
+schaft oder in eine Genossenschaft durch Rechtsformwechsel können keine KER gebildet
+werden.
 
-Werden infolge Sperrfristverletzung die übertragenen stillen Reserven nach Artikel 19 Ab-
-satz 2 DBG im Nachsteuerverfahren besteuert, kann in der Handelsbilanz der übernehmen-
-den Kapitalgesellschaft oder Genossenschaft keine KER ausgewiesen werden.
+Bei einer indirekten Umwandlung durch Sacheinlagegründung kann der ausgewiesene Akti-
+venüberschuss der Vermögenswerte in der Handelsbilanz der Kapitalgesellschaft oder Ge-
+nossenschaft steuerneutral als KER ausgewiesen werden, soweit er das Grund- oder
+Stammkapital übersteigt.
 
-6.2.   Zusammenschluss (Fusion)
+b)   Verrechnungssteuer
 
-6.2.1. Echte und unechte Fusion unabhängiger Gesellschaften
-
-a)   Direkte Bundessteuer (Einkommenssteuer)
+Die bei einer Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesellschaft
+oder Genossenschaft ausgegebenen Beteiligungsrechte unterliegen nicht der Verrechnungs-
+steuer, da sie zu Lasten des Aktivenüberschusses einer nicht verrechnungssteuerpflichtigen
+Körperschaft begründet werden.

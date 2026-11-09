@@ -1,0 +1,106 @@
+{
+"id": "bund-mb-n1",
+"hinweise": [
+"Zwei- bis dreispaltiges Layout vermischt (Seite 1 Zeilen 32-107: Tabellen a) bis e) und Ziff. 2-4 ineinander verschränkt; Seite 2 Zeilen 114-136 Ziff. 5 und 6 nebeneinander)."
+],
+"chunks": [
+{
+"start": 21,
+"titel": "Merkblatt N1/2007 – Vorbemerkungen, Warenbezüge Bäckerei, Metzgerei, Restaurant, Tabak",
+"pfad": [
+"Warenbezüge"
+],
+"ziffer": "1",
+"stichworte": [
+"Naturalbezug",
+"Eigenverbrauch",
+"Selbständigerwerbende",
+"Bäckerei",
+"Metzgerei",
+"Restaurant Hotel",
+"Tabakwaren"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Pauschalen pro Erwachsener/Jahr: Bäckerei Fr. 3000, Metzgerei Fr. 2760, Restaurants/Hotels Fr. 6480; Tabakwaren zusätzlich CHF 1500–2200 pro rauchende Person."
+},
+{
+"start": 60,
+"titel": "Ziff. 2–3 Mietwert Wohnung, Privatanteil Heizung/Strom; Lebensmittelgeschäfte (Ziff. 1b)",
+"pfad": [
+"Mietwert und Privatanteile"
+],
+"ziffer": "1b, 2, 3",
+"stichworte": [
+"Mietwert Wohnung",
+"Privatanteil Unkosten",
+"Heizung Strom",
+"Lebensmittelgeschäft",
+"Haushalt"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Lebensmittelgeschäfte Erwachsene Fr. 5280 im Jahr; Privatanteil Heizung/Beleuchtung usw. Fr. 3540 (1 Erwachsener), Zuschlag Fr. 900 pro weiteren Erwachsenen, Fr. 600 pro Kind."
+},
+{
+"start": 89,
+"titel": "Ziff. 1c Milchhandlungen, Ziff. 4 Privatanteil an Löhnen, Abzug bei mehr als 3 Kindern",
+"pfad": [
+"Warenbezüge",
+"Privatanteil Löhne"
+],
+"ziffer": "1c, 4",
+"stichworte": [
+"Milchhandlung",
+"Käserei",
+"Löhne Personal",
+"Kinderansätze",
+"Privatanteil Lohn"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Milchhandlungen Erwachsene Fr. 2460 im Jahr; bei mehr als 3 Kindern Abzug vom Totalwert der Kinderansätze: 10 % (4 Kinder), 20 % (5), 30 % (6 und mehr)."
+},
+{
+"start": 111,
+"titel": "Ziff. 5 Privatanteil an den Autokosten – effektiv oder pauschal",
+"pfad": [
+"Privatanteil Autokosten"
+],
+"ziffer": "5",
+"stichworte": [
+"Autokosten",
+"Privatanteil Auto",
+"Bordbuch",
+"0,9 % Kaufpreis",
+"Geschäftsfahrzeug"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Pauschal pro Monat 0,9 % des Kaufpreises (exkl. MWST), mindestens CHF 150 (ab 1. Januar 2022; vorher 0,8 %)."
+},
+{
+"start": 126,
+"titel": "Ziff. 6 Selbstkostenabzug für Naturallöhne der Arbeitnehmenden",
+"pfad": [
+"Naturallöhne"
+],
+"ziffer": "6",
+"stichworte": [
+"Naturallohn",
+"Verpflegung Personal",
+"Gastwirtschaft",
+"Selbstkosten",
+"Unterkunft"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Verpflegung pro Tag: Gastwirtschaftsgewerbe Fr. 16 (Fr. 480 im Monat, Fr. 5760 im Jahr), andere Gewerbe Fr. 17 (Fr. 510, Fr. 6120)."
+}
+]
+}

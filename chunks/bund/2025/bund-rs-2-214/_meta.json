@@ -1,176 +1,177 @@
 [
 {
 "id": "bund-rs-2-214__c0001",
-"titel": "RS 2-214 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Einleitung – geldwerte Leistungen, Verrechnungssteuer 35 %, Formular 102 (Teil 1/2)",
+"pfad": [
+"Einleitung"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"geldwerte Leistung",
+"Verrechnungssteuer 35 %",
+"Formular 102",
+"Darlehen Beteiligte",
+"Fremdwährung",
+"Zinssätze 2025"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Unverzinste oder ungenügend verzinste Vorschüsse/Darlehen an Beteiligte sind geldwerte Leistungen und unterliegen der Verrechnungssteuer von 35 %, Deklaration mit Formular 102 innert 30 Tagen nach Fälligkeit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-rs-2-214__c0002"
 },
 {
 "id": "bund-rs-2-214__c0002",
-"titel": "RS 2-214 – Abschnitt 2",
-"pfad": [],
+"titel": "Einleitung – geldwerte Leistungen, Verrechnungssteuer 35 %, Formular 102 (Teil 2/2)",
+"pfad": [
+"Einleitung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"geldwerte Leistung",
+"Verrechnungssteuer 35 %",
+"Formular 102",
+"Darlehen Beteiligte",
+"Fremdwährung",
+"Zinssätze 2025"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-214__c0001",
 "nachher": "bund-rs-2-214__c0003"
 },
 {
 "id": "bund-rs-2-214__c0003",
-"titel": "RS 2-214 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1 Anwendung – Vorschüsse oder Darlehen an Beteiligte",
+"pfad": [
+"Anwendung der Zinssätze",
+"1 Vorschüsse an Beteiligte"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "1",
+"stichworte": [
+"Darlehen an Beteiligte",
+"Mindestzins Schweizer Franken",
+"Zuschlag ½ %",
+"Fremdkapitalzinssatz"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Darlehen an Beteiligte gilt mindestens der CHF-Zinssatz; bei verzinslichen Verpflichtungen Fremdkapitalzins plus Zuschlag von ½ %, mindestens die Tabellensätze.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-214__c0002",
 "nachher": "bund-rs-2-214__c0004"
 },
 {
 "id": "bund-rs-2-214__c0004",
-"titel": "RS 2-214 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2 Anwendung – Vorschüsse oder Darlehen von Beteiligten (safe haven)",
+"pfad": [
+"Anwendung der Zinssätze",
+"2 Vorschüsse von Beteiligten"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2",
+"stichworte": [
+"safe haven",
+"Spread Betriebskredite",
+"CHF 1 Mio.",
+"verdecktes Eigenkapital",
+"KS 6a"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Die Zinssätze gelten als «safe haven»; Spread für Betriebskredite bis CHF 1 Mio. 2.50 % bzw. 2.00 %, ab CHF 1 Mio. 0.75 % bzw. 0.50 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-214__c0003",
 "nachher": "bund-rs-2-214__c0005"
 },
 {
 "id": "bund-rs-2-214__c0005",
-"titel": "RS 2-214 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3 Bewertung von Unternehmen",
+"pfad": [
+"Anwendung der Zinssätze",
+"3 Bewertung"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3",
+"stichworte": [
+"Kapitalisierungssatz",
+"Unternehmensbewertung",
+"KS 28 SSK",
+"Rz 60"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Für Kapitalisierungssätze wird auf Rz 60 des SSK-Kreisschreibens Nr. 28 verwiesen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-214__c0004",
 "nachher": "bund-rs-2-214__c0006"
 },
 {
 "id": "bund-rs-2-214__c0006",
-"titel": "RS 2-214 – Abschnitt 6",
-"pfad": [],
+"titel": "Tabelle Steuerlich anerkannte Zinssätze Fremdwährungen 2020–2025 (Teil 1/2)",
+"pfad": [
+"Zinssatztabelle"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Zinssatz EUR",
+"Zinssatz USD",
+"GBP",
+"JPY",
+"Richtwerte Fremdwährung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Tabelle der Zinssätze 2025 u. a. EUR 2.50, USD 4.25, GBP 4.50, JPY 1.25, AUD 4.50, CAD 3.25 (Vorjahre 2020–2024 ebenfalls aufgeführt).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-214__c0005",
 "nachher": "bund-rs-2-214__c0007"
 },
 {
 "id": "bund-rs-2-214__c0007",
-"titel": "RS 2-214 – Abschnitt 7",
-"pfad": [],
+"titel": "Tabelle Steuerlich anerkannte Zinssätze Fremdwährungen 2020–2025 (Teil 2/2)",
+"pfad": [
+"Zinssatztabelle"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Zinssatz EUR",
+"Zinssatz USD",
+"GBP",
+"JPY",
+"Richtwerte Fremdwährung"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-214__c0006",
-"nachher": "bund-rs-2-214__c0008"
-},
-{
-"id": "bund-rs-2-214__c0008",
-"titel": "RS 2-214 – Abschnitt 8",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-rs-2-214__c0007",
-"nachher": "bund-rs-2-214__c0009"
-},
-{
-"id": "bund-rs-2-214__c0009",
-"titel": "RS 2-214 – Abschnitt 9",
-"pfad": [],
-"seiten": [
-3
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-rs-2-214__c0008",
-"nachher": "bund-rs-2-214__c0010"
-},
-{
-"id": "bund-rs-2-214__c0010",
-"titel": "RS 2-214 – Abschnitt 10",
-"pfad": [],
-"seiten": [
-3
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-rs-2-214__c0009",
-"nachher": "bund-rs-2-214__c0011"
-},
-{
-"id": "bund-rs-2-214__c0011",
-"titel": "RS 2-214 – Abschnitt 11",
-"pfad": [],
-"seiten": [
-3
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-rs-2-214__c0010",
 "nachher": null
 }
 ]

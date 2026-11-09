@@ -4,7 +4,7 @@ quelle: bund-dbg-2026
 jur: bund
 jahre: [2026]
 typ: gesetz
-titel: "Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 1/3)"
+titel: "Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 1/2)"
 artikel: "Art. 207a"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---

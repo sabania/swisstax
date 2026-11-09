@@ -1,1776 +1,2627 @@
 [
 {
 "id": "bund-ks-29c__c0001",
-"titel": "KS 29c – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Gegenstand – Kapitaleinlageprinzip (UStR II, STAF, Kapitalband) (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"1 Gegenstand"
+],
+"seiten": [
+4
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Kapitaleinlageprinzip",
+"KER",
+"Reserven aus Kapitaleinlagen",
+"Rückzahlung steuerfrei",
+"Art. 20 Abs. 3 DBG",
+"Art. 5 Abs. 1bis VStG",
+"STAF 2020"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Rückzahlungen von Reserven aus Kapitaleinlagen werden der Rückzahlung von Grund- oder Stammkapital gleichgestellt (Art. 20 Abs. 3 DBG, Art. 5 Abs. 1bis VStG); STAF und Kapitalband haben Auswirkungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-29c__c0002"
 },
 {
 "id": "bund-ks-29c__c0002",
-"titel": "KS 29c – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Gegenstand – Kapitaleinlageprinzip (UStR II, STAF, Kapitalband) (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"1 Gegenstand"
+],
 "seiten": [
-1
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Kapitaleinlageprinzip",
+"KER",
+"Reserven aus Kapitaleinlagen",
+"Rückzahlung steuerfrei",
+"Art. 20 Abs. 3 DBG",
+"Art. 5 Abs. 1bis VStG",
+"STAF 2020"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0001",
 "nachher": "bund-ks-29c__c0003"
 },
 {
 "id": "bund-ks-29c__c0003",
-"titel": "KS 29c – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1 Neue Bestimmungen Art. 20 Abs. 8 DBG und Art. 5 Abs. 1septies VStG (Kapitalband)",
+"pfad": [
+"KS 29c",
+"1 Gegenstand"
+],
 "seiten": [
-1
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Kapitalband",
+"Art. 653s OR",
+"Nettobetrachtung",
+"Art. 20 Abs. 8 DBG"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Einlagen und Aufgelder während eines Kapitalbands zählen nur, soweit sie die Rückzahlungen im Rahmen dieses Kapitalbands übersteigen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0002",
 "nachher": "bund-ks-29c__c0004"
 },
 {
 "id": "bund-ks-29c__c0004",
-"titel": "KS 29c – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2.1 Kapitaleinlagen – Grundsätze, KER und Ausland-KER, Währungsumrechnung (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"2 Kapitaleinlagen",
+"2.1 Grundsätze"
+],
 "seiten": [
-1
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1",
+"stichworte": [
+"Kapitaleinlageprinzip",
+"KER",
+"Reserven aus Kapitaleinlagen",
+"Ausland-KER",
+"offene Kapitaleinlagen",
+"Fremdwährung",
+"gesonderter Ausweis"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Direkt von den Inhabern der Beteiligungsrechte geleistete, offen ausgewiesene Einlagen, Aufgelder und Zuschüsse gelten als KER; Fremdwährungseinlagen werden zum Tageskurs umgerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0003",
 "nachher": "bund-ks-29c__c0005"
 },
 {
 "id": "bund-ks-29c__c0005",
-"titel": "KS 29c – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2.1 Kapitaleinlagen – Grundsätze, KER und Ausland-KER, Währungsumrechnung (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"2 Kapitaleinlagen",
+"2.1 Grundsätze"
+],
 "seiten": [
-2
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.1",
+"stichworte": [
+"Kapitaleinlageprinzip",
+"KER",
+"Reserven aus Kapitaleinlagen",
+"Ausland-KER",
+"offene Kapitaleinlagen",
+"Fremdwährung",
+"gesonderter Ausweis"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0004",
 "nachher": "bund-ks-29c__c0006"
 },
 {
 "id": "bund-ks-29c__c0006",
-"titel": "KS 29c – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 2.2 Spezialfälle – Schwestergesellschaften, Tochter-Liberierung, Sanierung (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"2 Kapitaleinlagen",
+"2.2 Spezialfälle"
+],
 "seiten": [
-2
+5,
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"Vorteilszuwendung Schwestergesellschaft",
+"Sanierung",
+"Forderungsverzicht",
+"Agio",
+"Liberierung"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Vorteilszuwendungen unter Schwestergesellschaften und erfolgswirksam gebuchte Sanierungsleistungen gelten nie als KER.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0005",
 "nachher": "bund-ks-29c__c0007"
 },
 {
 "id": "bund-ks-29c__c0007",
-"titel": "KS 29c – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 2.2 Spezialfälle – Schwestergesellschaften, Tochter-Liberierung, Sanierung (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"2 Kapitaleinlagen",
+"2.2 Spezialfälle"
+],
 "seiten": [
-2
+5,
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.2",
+"stichworte": [
+"Vorteilszuwendung Schwestergesellschaft",
+"Sanierung",
+"Forderungsverzicht",
+"Agio",
+"Liberierung"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0006",
 "nachher": "bund-ks-29c__c0008"
 },
 {
 "id": "bund-ks-29c__c0008",
-"titel": "KS 29c – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 3.1 Reserven aus Kapitaleinlagen – steuerneutrale Gutschrift, Kapitalband (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"3 Reserven",
+"3.1 Reserven aus Kapitaleinlagen"
+],
 "seiten": [
-2
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Kapitaleinlageprinzip",
+"KER",
+"Reserven aus Kapitaleinlagen",
+"Verluste",
+"Nettobetrachtung",
+"Wiedereinzahlung",
+"1. Januar 2011"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Offene Kapitaleinlagen können steuerneutral den KER gutgeschrieben werden; Rückzahlungen sind der Rückzahlung von Grund- oder Stammkapital gleichgestellt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0007",
 "nachher": "bund-ks-29c__c0009"
 },
 {
 "id": "bund-ks-29c__c0009",
-"titel": "KS 29c – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 3.1 Reserven aus Kapitaleinlagen – steuerneutrale Gutschrift, Kapitalband (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"3 Reserven",
+"3.1 Reserven aus Kapitaleinlagen"
+],
 "seiten": [
-2
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.1",
+"stichworte": [
+"Kapitaleinlageprinzip",
+"KER",
+"Reserven aus Kapitaleinlagen",
+"Verluste",
+"Nettobetrachtung",
+"Wiedereinzahlung",
+"1. Januar 2011"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0008",
 "nachher": "bund-ks-29c__c0010"
 },
 {
 "id": "bund-ks-29c__c0010",
-"titel": "KS 29c – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 3.2 Übrige Reserven – keine Umqualifikation in KER",
+"pfad": [
+"KS 29c",
+"3 Reserven",
+"3.2 Übrige Reserven"
+],
 "seiten": [
-3
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2",
+"stichworte": [
+"übrige Reserven",
+"thesaurierte Gewinne",
+"verdeckte Kapitaleinlagen",
+"Umqualifikation unzulässig"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Gewinne, verdeckte Kapitaleinlagen und nicht direkt von Beteiligungsinhabern stammende Einlagen sind übrige Reserven; eine Umqualifikation in KER wird nicht anerkannt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0009",
 "nachher": "bund-ks-29c__c0011"
 },
 {
 "id": "bund-ks-29c__c0011",
-"titel": "KS 29c – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 4.1 Ausschüttungen allgemein – Grundsätze, steuerbarer Teil",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.1 Grundsätze"
+],
 "seiten": [
-3
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1",
+"stichworte": [
+"Dividende",
+"Ausschüttung",
+"steuerbarer Teil",
+"quellenmässige Betrachtung",
+"Gewinnverwendungsbeschluss"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Ausschüttungen sind in dem Umfang steuerbar, als sie auf übrige Reserven entfallen; die Aufteilung erfolgt nach freiem Ermessen aufgrund der Verbuchung in der Handelsbilanz.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0010",
 "nachher": "bund-ks-29c__c0012"
 },
 {
 "id": "bund-ks-29c__c0012",
-"titel": "KS 29c – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 4.1 Beispiel Aufteilung der Ausschüttung (Dividende 2000, KER 15% / übrige 85%)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.1 Grundsätze"
+],
 "seiten": [
-3
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1",
+"stichworte": [
+"Beispiel Dividende",
+"Anteil KER",
+"Coupon",
+"Verrechnungssteuer"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Beispiel: Total Ausschüttung 2000, davon KER 300 (15%) und übrige Reserven 1700 (85%); KER-Rückzahlungen sind gesondert auszuweisen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0011",
 "nachher": "bund-ks-29c__c0013"
 },
 {
 "id": "bund-ks-29c__c0013",
-"titel": "KS 29c – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen (Teil 1/3)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.1 Grundsätze"
+],
 "seiten": [
-4
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1",
+"stichworte": [
+"Verrechnungssteuer",
+"verdeckte Gewinnausschüttung",
+"ausländische Gesellschaft",
+"Vorzugsaktien",
+"Art. 20 Abs. 1 Bst. c DBG"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Rückzahlungen aus KER unterliegen weder Einkommens- noch Verrechnungssteuer; Ausschüttungen aus übrigen Reserven und verdeckte Gewinnausschüttungen sind steuerbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0012",
 "nachher": "bund-ks-29c__c0014"
 },
 {
 "id": "bund-ks-29c__c0014",
-"titel": "KS 29c – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen (Teil 2/3)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.1 Grundsätze"
+],
 "seiten": [
-4
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.1",
+"stichworte": [
+"Verrechnungssteuer",
+"verdeckte Gewinnausschüttung",
+"ausländische Gesellschaft",
+"Vorzugsaktien",
+"Art. 20 Abs. 1 Bst. c DBG"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0013",
 "nachher": "bund-ks-29c__c0015"
 },
 {
 "id": "bund-ks-29c__c0015",
-"titel": "KS 29c – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen (Teil 3/3)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.1 Grundsätze"
+],
 "seiten": [
-4
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.1",
+"stichworte": [
+"Verrechnungssteuer",
+"verdeckte Gewinnausschüttung",
+"ausländische Gesellschaft",
+"Vorzugsaktien",
+"Art. 20 Abs. 1 Bst. c DBG"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0014",
 "nachher": "bund-ks-29c__c0016"
 },
 {
 "id": "bund-ks-29c__c0016",
-"titel": "KS 29c – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 4.1 Einlagen während Kapitalband erst nach dessen Ende als KER bestätigt",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.1 Grundsätze"
+],
 "seiten": [
-5
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1",
+"stichworte": [
+"Kapitalband",
+"Bestätigung KER",
+"Nettobetrachtung"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Einlagen während eines Kapitalbands können erst nach dessen Beendigung als KER bestätigt und steuerfrei zurückbezahlt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0015",
 "nachher": "bund-ks-29c__c0017"
 },
 {
 "id": "bund-ks-29c__c0017",
-"titel": "KS 29c – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 4.2.1–4.2.2 Gratisaktien, Gratisnennwerterhöhungen und direkte Teilliquidation",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.2 Spezialfälle"
+],
 "seiten": [
-5
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2.1–4.2.2",
+"stichworte": [
+"Gratisaktien",
+"Gratisnennwerterhöhung",
+"Teilliquidation",
+"Liberierung"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Gratisaktien zu Lasten übriger Reserven sind steuerbar; zu Lasten der KER weder einkommens- noch verrechnungssteuerpflichtig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0016",
 "nachher": "bund-ks-29c__c0018"
 },
 {
 "id": "bund-ks-29c__c0018",
-"titel": "KS 29c – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 4.2.3 Rückkauf eigener Beteiligungsrechte (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.2 Spezialfälle"
+],
 "seiten": [
-5
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2.3",
+"stichworte": [
+"Aktienrückkauf",
+"eigene Aktien",
+"Art. 4a VStG",
+"Minusposten"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Ausweis eigener Beteiligungsrechte als Minusposten gegen KER vermeidet Einkommens- und Verrechnungssteuerfolgen bei Vernichtung oder Fristablauf nach Art. 4a VStG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0017",
 "nachher": "bund-ks-29c__c0019"
 },
 {
 "id": "bund-ks-29c__c0019",
-"titel": "KS 29c – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 4.2.3 Rückkauf eigener Beteiligungsrechte (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.2 Spezialfälle"
+],
 "seiten": [
-5
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.2.3",
+"stichworte": [
+"Aktienrückkauf",
+"eigene Aktien",
+"Art. 4a VStG",
+"Minusposten"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0018",
 "nachher": "bund-ks-29c__c0020"
 },
 {
 "id": "bund-ks-29c__c0020",
-"titel": "KS 29c – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 4.2.4 Indirekte Teilliquidation",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.2 Spezialfälle"
+],
 "seiten": [
-6
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2.4",
+"stichworte": [
+"indirekte Teilliquidation",
+"Art. 20a Abs. 1 Bst. a DBG",
+"Verkauf Beteiligung"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Die Besteuerung der indirekten Teilliquidation richtet sich nach der Verbuchung der Ausschüttung; der steuerbare Anteil wird nach Ziff. 4.1 berechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0019",
 "nachher": "bund-ks-29c__c0021"
 },
 {
 "id": "bund-ks-29c__c0021",
-"titel": "KS 29c – Abschnitt 21",
-"pfad": [],
+"titel": "Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 1/4)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.2 Spezialfälle"
+],
 "seiten": [
-7
+11,
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2.5",
+"stichworte": [
+"Transponierung",
+"Privat- ins Geschäftsvermögen",
+"50 Prozent",
+"Vermögensumschichtung",
+"Mehrwert"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Bei Übertragung ins Geschäftsvermögen mit mindestens 50 Prozent Beteiligung ist der den Nennwert zuzüglich KER übersteigende Erlös Ertrag aus beweglichem Vermögen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0020",
 "nachher": "bund-ks-29c__c0022"
 },
 {
 "id": "bund-ks-29c__c0022",
-"titel": "KS 29c – Abschnitt 22",
-"pfad": [],
+"titel": "Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 2/4)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.2 Spezialfälle"
+],
 "seiten": [
-7
+11,
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.2.5",
+"stichworte": [
+"Transponierung",
+"Privat- ins Geschäftsvermögen",
+"50 Prozent",
+"Vermögensumschichtung",
+"Mehrwert"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0021",
 "nachher": "bund-ks-29c__c0023"
 },
 {
 "id": "bund-ks-29c__c0023",
-"titel": "KS 29c – Abschnitt 23",
-"pfad": [],
+"titel": "Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 3/4)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.2 Spezialfälle"
+],
 "seiten": [
-7
+11,
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.2.5",
+"stichworte": [
+"Transponierung",
+"Privat- ins Geschäftsvermögen",
+"50 Prozent",
+"Vermögensumschichtung",
+"Mehrwert"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0022",
 "nachher": "bund-ks-29c__c0024"
 },
 {
 "id": "bund-ks-29c__c0024",
-"titel": "KS 29c – Abschnitt 24",
-"pfad": [],
+"titel": "Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 4/4)",
+"pfad": [
+"KS 29c",
+"4 Ausschüttungen",
+"4.2 Spezialfälle"
+],
 "seiten": [
-8
+11,
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.2.5",
+"stichworte": [
+"Transponierung",
+"Privat- ins Geschäftsvermögen",
+"50 Prozent",
+"Vermögensumschichtung",
+"Mehrwert"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0023",
 "nachher": "bund-ks-29c__c0025"
 },
 {
 "id": "bund-ks-29c__c0025",
-"titel": "KS 29c – Abschnitt 25",
-"pfad": [],
+"titel": "Ziff. 5 und 5.1 Kotierte Gesellschaften – Ausschüttungsregel (STAF)",
+"pfad": [
+"KS 29c",
+"5 Kotierte Gesellschaften",
+"5.1 Ausschüttungsregel"
+],
 "seiten": [
-9
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5, 5.1",
+"stichworte": [
+"Publikumsgesellschaft",
+"Ausschüttungsregel",
+"Art. 20 Abs. 4 DBG",
+"Art. 5 Abs. 1ter VStG",
+"kotierte Aktiengesellschaft"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Kotierte Gesellschaften müssen mindestens im gleichen Umfang wie KER auch übrige steuerbare Reserven ausschütten, solange solche vorhanden sind.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0024",
 "nachher": "bund-ks-29c__c0026"
 },
 {
 "id": "bund-ks-29c__c0026",
-"titel": "KS 29c – Abschnitt 26",
-"pfad": [],
+"titel": "Ziff. 5.1.2 Regelverletzung der Ausschüttungsregel – halbe Differenz steuerbar",
+"pfad": [
+"KS 29c",
+"5 Kotierte Gesellschaften",
+"5.1 Ausschüttungsregel"
+],
 "seiten": [
-9
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1.2",
+"stichworte": [
+"Regelverletzung",
+"halbe Differenz",
+"Verschiebung steuerfreier Rückzahlung"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Bei Verletzung der Ausschüttungsregel ist die halbe Differenz zwischen Rückzahlung von KER und übrigen Reserven steuerbar, höchstens bis zu den ausschüttungsfähigen übrigen Reserven.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0025",
 "nachher": "bund-ks-29c__c0027"
 },
 {
 "id": "bund-ks-29c__c0027",
-"titel": "KS 29c – Abschnitt 27",
-"pfad": [],
+"titel": "Ziff. 5.1.3 Ausland-KER nach Art. 5 Abs. 1quater Bst. a und b VStG",
+"pfad": [
+"KS 29c",
+"5 Kotierte Gesellschaften",
+"5.1 Ausschüttungsregel"
+],
 "seiten": [
-9
+13,
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1.3",
+"stichworte": [
+"Ausland-KER",
+"fusionsähnlicher Zusammenschluss",
+"24. Februar 2008",
+"grenzüberschreitend"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Ausland-KER sind offen geleistete Kapitaleinlagen aus fusionsähnlichen Zusammenschlüssen nach dem 24. Februar 2008 oder bereits im Ausland vorhandene, nach dem 31. Dezember 1996 geleistete Einlagen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0026",
 "nachher": "bund-ks-29c__c0028"
 },
 {
 "id": "bund-ks-29c__c0028",
-"titel": "KS 29c – Abschnitt 28",
-"pfad": [],
+"titel": "Ziff. 5.1.4–5.1.5 Ausnahmen von der Ausschüttungsregel; Gratisaktien",
+"pfad": [
+"KS 29c",
+"5 Kotierte Gesellschaften",
+"5.1 Ausschüttungsregel"
+],
 "seiten": [
-9
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1.4–5.1.5",
+"stichworte": [
+"Ausnahmen",
+"Ausland-KER Rückzahlung",
+"10 Prozent Beteiligung",
+"Liquidation",
+"Gratisaktien"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Die Ausschüttungsregel gilt nicht für Ausland-KER und (Verrechnungssteuer) nicht bei Rückzahlung an juristische Personen mit mindestens 10 Prozent Beteiligung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0027",
 "nachher": "bund-ks-29c__c0029"
 },
 {
 "id": "bund-ks-29c__c0029",
-"titel": "KS 29c – Abschnitt 29",
-"pfad": [],
+"titel": "Ziff. 5.2 Teilliquidationsregel und Regelverletzung (5.2.1)",
+"pfad": [
+"KS 29c",
+"5 Kotierte Gesellschaften",
+"5.2 Teilliquidationsregel"
+],
 "seiten": [
-10
+14,
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.2",
+"stichworte": [
+"Teilliquidationsregel",
+"Art. 20 Abs. 7 DBG",
+"Art. 4a Abs. 4 VStG",
+"Hälfte des Liquidationsüberschusses",
+"Aktienrückkauf zweite Handelslinie"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Kotierte Gesellschaften müssen bei Teilliquidation mindestens die Hälfte des Liquidationsüberschusses den KER oder Ausland-KER belasten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0028",
 "nachher": "bund-ks-29c__c0030"
 },
 {
 "id": "bund-ks-29c__c0030",
-"titel": "KS 29c – Abschnitt 30",
-"pfad": [],
+"titel": "Ziff. 6.1 Übertragung eines Betriebs einer Personenunternehmung auf juristische Person",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.1 Betriebsübertragung"
+],
 "seiten": [
-11
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.1",
+"stichworte": [
+"Umstrukturierung",
+"Einzelfirma Umwandlung",
+"Sperrfristverletzung",
+"Buchwertübernahme"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Der Aktivenüberschuss bei Buchwertübernahme kann steuerneutral als KER ausgewiesen werden; bei Sperrfristverletzung (Nachsteuerverfahren) nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0029",
 "nachher": "bund-ks-29c__c0031"
 },
 {
 "id": "bund-ks-29c__c0031",
-"titel": "KS 29c – Abschnitt 31",
-"pfad": [],
+"titel": "Ziff. 6.2.1 Fusion unabhängiger Gesellschaften – Einkommenssteuer und Verrechnungssteuer (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.2 Fusion"
+],
 "seiten": [
-11
+15,
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2.1",
+"stichworte": [
+"Fusion",
+"Fusionsagio",
+"Ausgleichszahlung",
+"Nennwertgewinn",
+"Verrechnungssteuer"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Das Fusionsagio ist nur insoweit KER, als es aus Grund- oder Stammkapital bzw. KER der übernommenen Gesellschaft stammt; Vermögensertrag entsteht bei Zuflüssen zu Lasten übriger Reserven.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0030",
 "nachher": "bund-ks-29c__c0032"
 },
 {
 "id": "bund-ks-29c__c0032",
-"titel": "KS 29c – Abschnitt 32",
-"pfad": [],
+"titel": "Ziff. 6.2.1 Fusion unabhängiger Gesellschaften – Einkommenssteuer und Verrechnungssteuer (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.2 Fusion"
+],
 "seiten": [
-11
+15,
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6.2.1",
+"stichworte": [
+"Fusion",
+"Fusionsagio",
+"Ausgleichszahlung",
+"Nennwertgewinn",
+"Verrechnungssteuer"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0031",
 "nachher": "bund-ks-29c__c0033"
 },
 {
 "id": "bund-ks-29c__c0033",
-"titel": "KS 29c – Abschnitt 33",
-"pfad": [],
+"titel": "Ziff. 6.2.2 Fusion verbundener Gesellschaften",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.2 Fusion"
+],
 "seiten": [
-11
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2.2",
+"stichworte": [
+"Fusion verbundene Gesellschaften",
+"echte Unterbilanz",
+"Sanierung",
+"untergehende Reserven"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Geldwerter Vorteil nur, wenn und soweit durch die Fusion übrige Reserven untergehen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0032",
 "nachher": "bund-ks-29c__c0034"
 },
 {
 "id": "bund-ks-29c__c0034",
-"titel": "KS 29c – Abschnitt 34",
-"pfad": [],
+"titel": "Ziff. 6.2.3 Absorption der Tochtergesellschaft (Up-Stream Merger)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.2 Fusion"
+],
 "seiten": [
-12
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.2.3",
+"stichworte": [
+"Up-Stream Merger",
+"Buchgewinn",
+"Absorption Tochter",
+"Art. 61 Abs. 5 DBG"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Buchgewinn aus der Absorption ist steuerbarer Reingewinn und gehört in der aufnehmenden Gesellschaft zu den übrigen Reserven.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0033",
 "nachher": "bund-ks-29c__c0035"
 },
 {
 "id": "bund-ks-29c__c0035",
-"titel": "KS 29c – Abschnitt 35",
-"pfad": [],
+"titel": "Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 1/4)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.2 Fusion"
+],
 "seiten": [
-12
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2.4",
+"stichworte": [
+"Reverse Merger",
+"Absorption Muttergesellschaft",
+"Beteiligungsertrag",
+"Fusionsagio"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Höhere KER der Tochter werden auf die KER der Muttergesellschaft reduziert; Zuflüsse von höherem Nennwert oder Ausgleichszahlungen sind steuerbar bzw. verrechnungssteuerpflichtig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0034",
 "nachher": "bund-ks-29c__c0036"
 },
 {
 "id": "bund-ks-29c__c0036",
-"titel": "KS 29c – Abschnitt 36",
-"pfad": [],
+"titel": "Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 2/4)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.2 Fusion"
+],
 "seiten": [
-12
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6.2.4",
+"stichworte": [
+"Reverse Merger",
+"Absorption Muttergesellschaft",
+"Beteiligungsertrag",
+"Fusionsagio"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0035",
 "nachher": "bund-ks-29c__c0037"
 },
 {
 "id": "bund-ks-29c__c0037",
-"titel": "KS 29c – Abschnitt 37",
-"pfad": [],
+"titel": "Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 3/4)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.2 Fusion"
+],
 "seiten": [
-13
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6.2.4",
+"stichworte": [
+"Reverse Merger",
+"Absorption Muttergesellschaft",
+"Beteiligungsertrag",
+"Fusionsagio"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0036",
 "nachher": "bund-ks-29c__c0038"
 },
 {
 "id": "bund-ks-29c__c0038",
-"titel": "KS 29c – Abschnitt 38",
-"pfad": [],
+"titel": "Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 4/4)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.2 Fusion"
+],
 "seiten": [
-13
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6.2.4",
+"stichworte": [
+"Reverse Merger",
+"Absorption Muttergesellschaft",
+"Beteiligungsertrag",
+"Fusionsagio"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0037",
 "nachher": "bund-ks-29c__c0039"
 },
 {
 "id": "bund-ks-29c__c0039",
-"titel": "KS 29c – Abschnitt 39",
-"pfad": [],
+"titel": "Ziff. 6.2.5 Fusionsähnlicher Zusammenschluss (Quasifusion)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.2 Fusion"
+],
 "seiten": [
-13
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2.5",
+"stichworte": [
+"Quasifusion",
+"Sacheinlage",
+"Transponierung",
+"Steuerumgehung Art. 21 Abs. 2 VStG"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Die gesamte Sacheinlage gilt als offene Kapitaleinlage; der Teil über der Kapitalerhöhung kann als KER ausgewiesen werden, Transponierung bleibt vorbehalten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0038",
 "nachher": "bund-ks-29c__c0040"
 },
 {
 "id": "bund-ks-29c__c0040",
-"titel": "KS 29c – Abschnitt 40",
-"pfad": [],
+"titel": "Ziff. 6.3.1 Umwandlung Kapitalgesellschaft in andere Kapitalgesellschaft",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.3 Umwandlung"
+],
 "seiten": [
-13
+17,
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.3.1",
+"stichworte": [
+"Umwandlung",
+"Rechtsformwechsel",
+"Gratisnennwerterhöhung",
+"Ausgleichszahlung"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Vermögensertrag entsteht im Umfang von höherem Nennwert, Ausgleichszahlungen oder geldwerten Vorteilen zu Lasten übriger Reserven.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0039",
 "nachher": "bund-ks-29c__c0041"
 },
 {
 "id": "bund-ks-29c__c0041",
-"titel": "KS 29c – Abschnitt 41",
-"pfad": [],
+"titel": "Ziff. 6.3.2 Umwandlung in Verein, Stiftung oder übrige juristische Person",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.3 Umwandlung"
+],
 "seiten": [
-14
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.3.2",
+"stichworte": [
+"Umwandlung Verein Stiftung",
+"Liquidation",
+"Liquidationsüberschuss"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Die Umwandlung gleicht einer Liquidation; der Liquidationsüberschuss (Verkehrswert abzüglich Nennwert und KER) ist bei natürlichen Personen steuerbar und verrechnungssteuerpflichtig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0040",
 "nachher": "bund-ks-29c__c0042"
 },
 {
 "id": "bund-ks-29c__c0042",
-"titel": "KS 29c – Abschnitt 42",
-"pfad": [],
+"titel": "Ziff. 6.3.3 Umwandlung von Verein/Stiftung in Kapitalgesellschaft (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.3 Umwandlung"
+],
 "seiten": [
-14
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.3.3",
+"stichworte": [
+"Umwandlung Verein",
+"Sacheinlagegründung",
+"Ausgabepreis",
+"Verkehrswert"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Steuerbares Einkommen im Umfang der Differenz zwischen Verkehrswert und Ausgabepreis der Beteiligungsrechte; bei Rechtsformwechsel können keine KER gebildet werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0041",
 "nachher": "bund-ks-29c__c0043"
 },
 {
 "id": "bund-ks-29c__c0043",
-"titel": "KS 29c – Abschnitt 43",
-"pfad": [],
+"titel": "Ziff. 6.3.3 Umwandlung von Verein/Stiftung in Kapitalgesellschaft (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.3 Umwandlung"
+],
 "seiten": [
-14
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6.3.3",
+"stichworte": [
+"Umwandlung Verein",
+"Sacheinlagegründung",
+"Ausgabepreis",
+"Verkehrswert"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0042",
 "nachher": "bund-ks-29c__c0044"
 },
 {
 "id": "bund-ks-29c__c0044",
-"titel": "KS 29c – Abschnitt 44",
-"pfad": [],
+"titel": "Ziff. 6.3.4 Umwandlung eines Instituts des öffentlichen Rechts",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.3 Umwandlung"
+],
 "seiten": [
-15
+18,
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.3.4",
+"stichworte": [
+"Institut des öffentlichen Rechts",
+"Rechtsformwechsel",
+"Sacheinlagegründung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei direkter Umwandlung durch Rechtsformwechsel können keine KER gebildet werden; bei Sacheinlagegründung ist der Aktivenüberschuss steuerneutral als KER ausweisbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0043",
 "nachher": "bund-ks-29c__c0045"
 },
 {
 "id": "bund-ks-29c__c0045",
-"titel": "KS 29c – Abschnitt 45",
-"pfad": [],
+"titel": "Ziff. 6.3.5 Umwandlung in Personenunternehmung",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.3 Umwandlung"
+],
 "seiten": [
-15
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.3.5",
+"stichworte": [
+"Umwandlung Einzelfirma",
+"Liquidationsüberschuss",
+"Personenunternehmung"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Liquidation der Gesellschaft: Der Liquidationsüberschuss (Verkehrswert abzüglich Nennwert und KER) ist einkommenssteuer- und verrechnungssteuerpflichtig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0044",
 "nachher": "bund-ks-29c__c0046"
 },
 {
 "id": "bund-ks-29c__c0046",
-"titel": "KS 29c – Abschnitt 46",
-"pfad": [],
+"titel": "Ziff. 6.4 Spaltung",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.4 Spaltung"
+],
 "seiten": [
-15
+19,
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.4",
+"stichworte": [
+"Spaltung",
+"Abspaltung",
+"Gratisaktien",
+"Sanierungsbedürftige Schwestergesellschaft"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Gratisaktien und Gratisnennwerterhöhungen bei Spaltung sind steuerbar, soweit nicht zu Lasten von Nennwert oder KER der übertragenden Gesellschaft.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0045",
 "nachher": "bund-ks-29c__c0047"
 },
 {
 "id": "bund-ks-29c__c0047",
-"titel": "KS 29c – Abschnitt 47",
-"pfad": [],
+"titel": "Ziff. 6.5 Ausgliederung",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.5 Ausgliederung"
+],
 "seiten": [
-16
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.5",
+"stichworte": [
+"Ausgliederung",
+"Aktivenüberschuss",
+"Sperrfristverletzung",
+"Art. 61 Abs. 2 DBG"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der übertragene Aktivenüberschuss kann steuerneutral als KER bzw. Ausland-KER ausgewiesen werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0046",
 "nachher": "bund-ks-29c__c0048"
 },
 {
 "id": "bund-ks-29c__c0048",
-"titel": "KS 29c – Abschnitt 48",
-"pfad": [],
+"titel": "Ziff. 6.6 Übertragung zwischen inländischen Konzerngesellschaften (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.6 Konzerngesellschaften"
+],
 "seiten": [
-16
+20,
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Konzern",
+"Übertragung Konzerngesellschaften",
+"Beteiligungsertrag",
+"Schwestergesellschaft"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Steuerneutrale Übertragungen zu Lasten offener Reserven: bei der Muttergesellschaft Beteiligungsertrag, bei Schwestergesellschaften spiegelbildliche Verbuchung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0047",
 "nachher": "bund-ks-29c__c0049"
 },
 {
 "id": "bund-ks-29c__c0049",
-"titel": "KS 29c – Abschnitt 49",
-"pfad": [],
+"titel": "Ziff. 6.6 Übertragung zwischen inländischen Konzerngesellschaften (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"6 Umstrukturierungen",
+"6.6 Konzerngesellschaften"
+],
 "seiten": [
-16
+20,
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6.6",
+"stichworte": [
+"Konzern",
+"Übertragung Konzerngesellschaften",
+"Beteiligungsertrag",
+"Schwestergesellschaft"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0048",
 "nachher": "bund-ks-29c__c0050"
 },
 {
 "id": "bund-ks-29c__c0050",
-"titel": "KS 29c – Abschnitt 50",
-"pfad": [],
+"titel": "Ziff. 7.1 Fusion kotierter Gesellschaften (7.1.1–7.1.5) (Teil 1/3)",
+"pfad": [
+"KS 29c",
+"7 Umstrukturierungen kotierter Gesellschaften",
+"7.1 Fusion"
+],
 "seiten": [
-16
+21,
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.1",
+"stichworte": [
+"kotierte Gesellschaft",
+"Fusion",
+"Fusionsagio",
+"Ziff. 5.1.5"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Wie Ziff. 6.2, zusätzlich gelten die Bestimmungen zu Ziff. 5.1.5, wenn das Grund- oder Stammkapital aus KER stammt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0049",
 "nachher": "bund-ks-29c__c0051"
 },
 {
 "id": "bund-ks-29c__c0051",
-"titel": "KS 29c – Abschnitt 51",
-"pfad": [],
+"titel": "Ziff. 7.1 Fusion kotierter Gesellschaften (7.1.1–7.1.5) (Teil 2/3)",
+"pfad": [
+"KS 29c",
+"7 Umstrukturierungen kotierter Gesellschaften",
+"7.1 Fusion"
+],
 "seiten": [
-17
+21,
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.1",
+"stichworte": [
+"kotierte Gesellschaft",
+"Fusion",
+"Fusionsagio",
+"Ziff. 5.1.5"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0050",
 "nachher": "bund-ks-29c__c0052"
 },
 {
 "id": "bund-ks-29c__c0052",
-"titel": "KS 29c – Abschnitt 52",
-"pfad": [],
+"titel": "Ziff. 7.1 Fusion kotierter Gesellschaften (7.1.1–7.1.5) (Teil 3/3)",
+"pfad": [
+"KS 29c",
+"7 Umstrukturierungen kotierter Gesellschaften",
+"7.1 Fusion"
+],
 "seiten": [
-17
+21,
+22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.1",
+"stichworte": [
+"kotierte Gesellschaft",
+"Fusion",
+"Fusionsagio",
+"Ziff. 5.1.5"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0051",
 "nachher": "bund-ks-29c__c0053"
 },
 {
 "id": "bund-ks-29c__c0053",
-"titel": "KS 29c – Abschnitt 53",
-"pfad": [],
+"titel": "Ziff. 7.2 Umwandlung kotierter Gesellschaften (7.2.1–7.2.5) (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"7 Umstrukturierungen kotierter Gesellschaften",
+"7.2 Umwandlung"
+],
 "seiten": [
-17
+22,
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.2",
+"stichworte": [
+"Umwandlung kotierte Gesellschaft",
+"Beteiligungsertrag",
+"Ziff. 5.1.5"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Wie Ziff. 6.3; stammt das Grund- oder Stammkapital aus KER, gelten die Bestimmungen zu Ziff. 5.1.5.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0052",
 "nachher": "bund-ks-29c__c0054"
 },
 {
 "id": "bund-ks-29c__c0054",
-"titel": "KS 29c – Abschnitt 54",
-"pfad": [],
+"titel": "Ziff. 7.2 Umwandlung kotierter Gesellschaften (7.2.1–7.2.5) (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"7 Umstrukturierungen kotierter Gesellschaften",
+"7.2 Umwandlung"
+],
 "seiten": [
-17
+22,
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.2",
+"stichworte": [
+"Umwandlung kotierte Gesellschaft",
+"Beteiligungsertrag",
+"Ziff. 5.1.5"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0053",
 "nachher": "bund-ks-29c__c0055"
 },
 {
 "id": "bund-ks-29c__c0055",
-"titel": "KS 29c – Abschnitt 55",
-"pfad": [],
+"titel": "Ziff. 7.3 Spaltung kotierter Gesellschaften (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"7 Umstrukturierungen kotierter Gesellschaften",
+"7.3 Spaltung"
+],
 "seiten": [
-18
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3",
+"stichworte": [
+"Spaltung kotierte Gesellschaft",
+"Gratisaktien",
+"Ausland-KER"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Gratisaktien bei Spaltung sind steuerbar, soweit nicht zu Lasten von Nennwert oder Ausland-KER; für Gratisaktien aus KER gilt Ziff. 5.1.5.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0054",
 "nachher": "bund-ks-29c__c0056"
 },
 {
 "id": "bund-ks-29c__c0056",
-"titel": "KS 29c – Abschnitt 56",
-"pfad": [],
+"titel": "Ziff. 7.3 Spaltung kotierter Gesellschaften (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"7 Umstrukturierungen kotierter Gesellschaften",
+"7.3 Spaltung"
+],
 "seiten": [
-18
+23
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.3",
+"stichworte": [
+"Spaltung kotierte Gesellschaft",
+"Gratisaktien",
+"Ausland-KER"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0055",
 "nachher": "bund-ks-29c__c0057"
 },
 {
 "id": "bund-ks-29c__c0057",
-"titel": "KS 29c – Abschnitt 57",
-"pfad": [],
+"titel": "Ziff. 7.4–7.5 Ausgliederung und Konzernübertragung kotierter Gesellschaften",
+"pfad": [
+"KS 29c",
+"7 Umstrukturierungen kotierter Gesellschaften"
+],
 "seiten": [
-18
+23,
+24
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.4–7.5",
+"stichworte": [
+"Ausgliederung",
+"Konzerngesellschaften"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Analoge Anwendung der Ziffern 6.5 und 6.6.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0056",
 "nachher": "bund-ks-29c__c0058"
 },
 {
 "id": "bund-ks-29c__c0058",
-"titel": "KS 29c – Abschnitt 58",
-"pfad": [],
+"titel": "Ziff. 8 Zuzug einer juristischen Person aus dem Ausland",
+"pfad": [
+"KS 29c",
+"8 Zuzug aus dem Ausland"
+],
 "seiten": [
-19
+24,
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8",
+"stichworte": [
+"Zuzug",
+"Sitzverlegung",
+"Immigrations-Quasifusion",
+"Ausland-KER",
+"31. Dezember 1996"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Beim Zuzug ändert die Qualifikation der übrigen Reserven nicht; bei Immigrations-Quasifusion kann der Teil über der Kapitalerhöhung als KER (bis 24.2.2008) bzw. Ausland-KER ausgewiesen werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0057",
 "nachher": "bund-ks-29c__c0059"
 },
 {
 "id": "bund-ks-29c__c0059",
-"titel": "KS 29c – Abschnitt 59",
-"pfad": [],
+"titel": "Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel (Teil 1/3)",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"9.1 Ausweis im Jahresabschluss"
+],
 "seiten": [
-19
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.1",
+"stichworte": [
+"Jahresabschluss",
+"gesonderter Ausweis KER",
+"Meldung ESTV",
+"Währungswechsel Aktienkapital",
+"Art. 621 OR"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
+"zusammenfassung": "KER nach dem 31. Dezember 1996 werden nur bei gesondertem Ausweis in der Handelsbilanz und Meldung jeder Veränderung an die ESTV wie Kapitalrückzahlung behandelt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0058",
 "nachher": "bund-ks-29c__c0060"
 },
 {
 "id": "bund-ks-29c__c0060",
-"titel": "KS 29c – Abschnitt 60",
-"pfad": [],
+"titel": "Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel (Teil 2/3)",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"9.1 Ausweis im Jahresabschluss"
+],
 "seiten": [
-19
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "9.1",
+"stichworte": [
+"Jahresabschluss",
+"gesonderter Ausweis KER",
+"Meldung ESTV",
+"Währungswechsel Aktienkapital",
+"Art. 621 OR"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0059",
 "nachher": "bund-ks-29c__c0061"
 },
 {
 "id": "bund-ks-29c__c0061",
-"titel": "KS 29c – Abschnitt 61",
-"pfad": [],
+"titel": "Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel (Teil 3/3)",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"9.1 Ausweis im Jahresabschluss"
+],
 "seiten": [
-19
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "9.1",
+"stichworte": [
+"Jahresabschluss",
+"gesonderter Ausweis KER",
+"Meldung ESTV",
+"Währungswechsel Aktienkapital",
+"Art. 621 OR"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0060",
 "nachher": "bund-ks-29c__c0062"
 },
 {
 "id": "bund-ks-29c__c0062",
-"titel": "KS 29c – Abschnitt 62",
-"pfad": [],
+"titel": "Ziff. 9.2 Deklaration für die direkte Bundessteuer (Art. 125 Abs. 3 DBG)",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"9.2 Deklaration DBG"
+],
 "seiten": [
-20
+25
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.2",
+"stichworte": [
+"Steuererklärung Kapitalgesellschaft",
+"Bestand Reserven",
+"Art. 125 Abs. 3 DBG"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Kapitalgesellschaften weisen den Bestand der Reserven aus Aufgeldern und Zuschüssen am Ende der Steuerperiode gesondert in der Steuererklärung aus.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0061",
 "nachher": "bund-ks-29c__c0063"
 },
 {
 "id": "bund-ks-29c__c0063",
-"titel": "KS 29c – Abschnitt 63",
-"pfad": [],
+"titel": "Ziff. 9.3 a) Meldung Verrechnungssteuer – ordentliches Verfahren, Formular 170 (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"9.3 Meldung Verrechnungssteuer"
+],
 "seiten": [
-20
+25,
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.3 a",
+"stichworte": [
+"Formular 170",
+"Meldefrist 30 Tage",
+"Geschäftsbericht",
+"Rückzahlung KER Meldung"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Geschäftsbericht und ggf. Formular 170 sind unaufgefordert innert 30 Tagen einzureichen; Rückzahlungen von KER innert 30 Tagen nach Generalversammlung bzw. Rückzahlung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0062",
 "nachher": "bund-ks-29c__c0064"
 },
 {
 "id": "bund-ks-29c__c0064",
-"titel": "KS 29c – Abschnitt 64",
-"pfad": [],
+"titel": "Ziff. 9.3 a) Meldung Verrechnungssteuer – ordentliches Verfahren, Formular 170 (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"9.3 Meldung Verrechnungssteuer"
+],
 "seiten": [
-20
+25,
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "9.3 a",
+"stichworte": [
+"Formular 170",
+"Meldefrist 30 Tage",
+"Geschäftsbericht",
+"Rückzahlung KER Meldung"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0063",
 "nachher": "bund-ks-29c__c0065"
 },
 {
 "id": "bund-ks-29c__c0065",
-"titel": "KS 29c – Abschnitt 65",
-"pfad": [],
+"titel": "Ziff. 9.3 b) Nachmeldung von KER",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"9.3 Meldung Verrechnungssteuer"
+],
 "seiten": [
-21
+26
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.3 b",
+"stichworte": [
+"Nachmeldung KER",
+"1. Januar 1997",
+"Belege",
+"Formular 170"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Nicht gemeldete KER seit dem 1. Januar 1997 können nachgemeldet werden; Jahresrechnungen sind lückenlos einzureichen und Einlagen zu belegen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0064",
 "nachher": "bund-ks-29c__c0066"
 },
 {
 "id": "bund-ks-29c__c0066",
-"titel": "KS 29c – Abschnitt 66",
-"pfad": [],
+"titel": "Ziff. 9.3 c) Nachmeldung von Ausland-KER (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"9.3 Meldung Verrechnungssteuer"
+],
 "seiten": [
-21
+26,
+27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.3 c",
+"stichworte": [
+"Nachmeldung Ausland-KER",
+"Börsengang",
+"24. Februar 2008"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Ausland-KER nach dem 24. Februar 2008 können nachgemeldet werden; Nachmeldung wird nur für kotierte Gesellschaften empfohlen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0065",
 "nachher": "bund-ks-29c__c0067"
 },
 {
 "id": "bund-ks-29c__c0067",
-"titel": "KS 29c – Abschnitt 67",
-"pfad": [],
+"titel": "Ziff. 9.3 c) Nachmeldung von Ausland-KER (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"9.3 Meldung Verrechnungssteuer"
+],
 "seiten": [
-21
+26,
+27
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "9.3 c",
+"stichworte": [
+"Nachmeldung Ausland-KER",
+"Börsengang",
+"24. Februar 2008"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0066",
 "nachher": "bund-ks-29c__c0068"
 },
 {
 "id": "bund-ks-29c__c0068",
-"titel": "KS 29c – Abschnitt 68",
-"pfad": [],
+"titel": "Ziff. 9.3 d) Rückmeldung der ESTV und Ziff. 10 Inkrafttreten",
+"pfad": [
+"KS 29c",
+"9 Ausweis und Meldung",
+"10 Inkrafttreten"
+],
 "seiten": [
-22
+27,
+28
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.3 d, 10",
+"stichworte": [
+"Inkrafttreten",
+"1. Januar 2023",
+"ersetzt KS 29, 29a, 29b",
+"Rückmeldung ESTV"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Das Kreisschreiben tritt per 1. Januar 2023 in Kraft und ersetzt die Kreisschreiben Nr. 29, 29a und 29b.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0067",
 "nachher": "bund-ks-29c__c0069"
 },
 {
 "id": "bund-ks-29c__c0069",
-"titel": "KS 29c – Abschnitt 69",
-"pfad": [],
+"titel": "Anhang 1 Beispiele 1–2 zur Transponierung (Ertrag 700 bzw. 630) (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"Anhang 1 Transponierung"
+],
 "seiten": [
-22
+28
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 1",
+"stichworte": [
+"Transponierung Beispiel",
+"Einbringung in H AG",
+"steuerbarer Ertrag 700",
+"steuerbarer Ertrag 630"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Beispiel 1 (100% beherrscht): steuerbarer Ertrag aus Transponierung 700; Beispiel 2 (90%/20%): 630.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0068",
 "nachher": "bund-ks-29c__c0070"
 },
 {
 "id": "bund-ks-29c__c0070",
-"titel": "KS 29c – Abschnitt 70",
-"pfad": [],
+"titel": "Anhang 1 Beispiele 1–2 zur Transponierung (Ertrag 700 bzw. 630) (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"Anhang 1 Transponierung"
+],
 "seiten": [
-22
+28
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 1",
+"stichworte": [
+"Transponierung Beispiel",
+"Einbringung in H AG",
+"steuerbarer Ertrag 700",
+"steuerbarer Ertrag 630"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0069",
 "nachher": "bund-ks-29c__c0071"
 },
 {
 "id": "bund-ks-29c__c0071",
-"titel": "KS 29c – Abschnitt 71",
-"pfad": [],
+"titel": "Anhang 1 Beispiel 3 – nicht beherrschte Gesellschaft (keine Transponierung)",
+"pfad": [
+"KS 29c",
+"Anhang 1 Transponierung"
+],
 "seiten": [
-23
+29,
+30
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 1",
+"stichworte": [
+"Transponierung Beispiel",
+"42,9% Beteiligung",
+"nicht beherrscht"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Beispiel 3: Der Ertrag von 210 ist nicht als Transponierung steuerbar, da A die H AG mit 42,9% nicht beherrscht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0070",
 "nachher": "bund-ks-29c__c0072"
 },
 {
 "id": "bund-ks-29c__c0072",
-"titel": "KS 29c – Abschnitt 72",
-"pfad": [],
+"titel": "Anhang 2 Alternativer Ausweis eigener Beteiligungsrechte (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"Anhang 2 Eigene Beteiligungsrechte"
+],
 "seiten": [
-23
+30,
+31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 2",
+"stichworte": [
+"eigene Beteiligungsrechte",
+"Minusposten",
+"Eigenkapital Gliederung",
+"Art. 959a OR"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Ausweis eigener Beteiligungsrechte auf mehreren Positionen (gegen KER, Ausland-KER, übrige) ist bei kumulativ erfüllten Voraussetzungen möglich; Beispiel-Eigenkapital Total 250.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0071",
 "nachher": "bund-ks-29c__c0073"
 },
 {
 "id": "bund-ks-29c__c0073",
-"titel": "KS 29c – Abschnitt 73",
-"pfad": [],
+"titel": "Anhang 2 Alternativer Ausweis eigener Beteiligungsrechte (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"Anhang 2 Eigene Beteiligungsrechte"
+],
 "seiten": [
-24
+30,
+31
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 2",
+"stichworte": [
+"eigene Beteiligungsrechte",
+"Minusposten",
+"Eigenkapital Gliederung",
+"Art. 959a OR"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0072",
 "nachher": "bund-ks-29c__c0074"
 },
 {
 "id": "bund-ks-29c__c0074",
-"titel": "KS 29c – Abschnitt 74",
-"pfad": [],
+"titel": "Anhang 2 Erklärungen zum Ausweis eigener Beteiligungsrechte (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"Anhang 2 Eigene Beteiligungsrechte"
+],
 "seiten": [
-25
+31,
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 2",
+"stichworte": [
+"Erklärungen",
+"KER Konto",
+"Art. 725a OR",
+"Kapitalverlust"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "KER 30 und Ausland-KER 10 im Beispiel; Ausweis nur zulässig, wenn die KER bereits beim Erwerb der eigenen Beteiligungsrechte vorhanden waren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0073",
 "nachher": "bund-ks-29c__c0075"
 },
 {
 "id": "bund-ks-29c__c0075",
-"titel": "KS 29c – Abschnitt 75",
-"pfad": [],
+"titel": "Anhang 2 Erklärungen zum Ausweis eigener Beteiligungsrechte (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"Anhang 2 Eigene Beteiligungsrechte"
+],
 "seiten": [
-25
+31,
+32
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 2",
+"stichworte": [
+"Erklärungen",
+"KER Konto",
+"Art. 725a OR",
+"Kapitalverlust"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0074",
 "nachher": "bund-ks-29c__c0076"
 },
 {
 "id": "bund-ks-29c__c0076",
-"titel": "KS 29c – Abschnitt 76",
-"pfad": [],
+"titel": "Anhang 3 Fallbeispiele 1–2 – Ausschüttungsregel kotierte X AG (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"Anhang 3 Fallbeispiele"
+],
 "seiten": [
-25
+32,
+33
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 3",
+"stichworte": [
+"Fallbeispiel",
+"Dividende 6%",
+"Regelverletzung",
+"steuerbare Ausschüttung 24",
+"Y AG"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Fall 1: Dividende 60 zu Lasten KER, steuerbare Ausschüttung 24 (KER-Rückzahlung an Y AG von 12 ausgenommen); Fall 2: Ausland-KER, keine Verletzung, Rückzahlung von 60 steuerfrei.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0075",
 "nachher": "bund-ks-29c__c0077"
 },
 {
 "id": "bund-ks-29c__c0077",
-"titel": "KS 29c – Abschnitt 77",
-"pfad": [],
+"titel": "Anhang 3 Fallbeispiele 1–2 – Ausschüttungsregel kotierte X AG (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"Anhang 3 Fallbeispiele"
+],
 "seiten": [
-25
+32,
+33
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 3",
+"stichworte": [
+"Fallbeispiel",
+"Dividende 6%",
+"Regelverletzung",
+"steuerbare Ausschüttung 24",
+"Y AG"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0076",
 "nachher": "bund-ks-29c__c0078"
 },
 {
 "id": "bund-ks-29c__c0078",
-"titel": "KS 29c – Abschnitt 78",
-"pfad": [],
+"titel": "Anhang 3 Fallbeispiel 3 – Teilliquidationsregel (Aktienrückkauf 340) (Teil 1/3)",
+"pfad": [
+"KS 29c",
+"Anhang 3 Fallbeispiele"
+],
 "seiten": [
-25
+33,
+34
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 3",
+"stichworte": [
+"Aktienrückkauf",
+"Teilliquidation Beispiel",
+"zweite Handelslinie",
+"160 nicht steuerbar"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Fall 3: Rückkauf für 340; Teilliquidation im Umfang von 160 nicht steuerbar, KER entsprechend korrigiert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0077",
 "nachher": "bund-ks-29c__c0079"
 },
 {
 "id": "bund-ks-29c__c0079",
-"titel": "KS 29c – Abschnitt 79",
-"pfad": [],
+"titel": "Anhang 3 Fallbeispiel 3 – Teilliquidationsregel (Aktienrückkauf 340) (Teil 2/3)",
+"pfad": [
+"KS 29c",
+"Anhang 3 Fallbeispiele"
+],
 "seiten": [
-26
+33,
+34
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 3",
+"stichworte": [
+"Aktienrückkauf",
+"Teilliquidation Beispiel",
+"zweite Handelslinie",
+"160 nicht steuerbar"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0078",
 "nachher": "bund-ks-29c__c0080"
 },
 {
 "id": "bund-ks-29c__c0080",
-"titel": "KS 29c – Abschnitt 80",
-"pfad": [],
+"titel": "Anhang 3 Fallbeispiel 3 – Teilliquidationsregel (Aktienrückkauf 340) (Teil 3/3)",
+"pfad": [
+"KS 29c",
+"Anhang 3 Fallbeispiele"
+],
 "seiten": [
-26
+33,
+34
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 3",
+"stichworte": [
+"Aktienrückkauf",
+"Teilliquidation Beispiel",
+"zweite Handelslinie",
+"160 nicht steuerbar"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.beteiligungen_qualifiziert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0079",
 "nachher": "bund-ks-29c__c0081"
 },
 {
 "id": "bund-ks-29c__c0081",
-"titel": "KS 29c – Abschnitt 81",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 1/5)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-26
+34,
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"Wiedereinzahlung KER",
+"zusätzliche Gutschrift",
+"11'400"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Nettoerhöhung KER 2'000 plus zusätzliche Gutschrift der zurück- und wiedereinbezahlten KER von 11'400; Total KER 13'400.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0080",
 "nachher": "bund-ks-29c__c0082"
 },
 {
 "id": "bund-ks-29c__c0082",
-"titel": "KS 29c – Abschnitt 82",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 2/5)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-26
+34,
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"Wiedereinzahlung KER",
+"zusätzliche Gutschrift",
+"11'400"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0081",
 "nachher": "bund-ks-29c__c0083"
 },
 {
 "id": "bund-ks-29c__c0083",
-"titel": "KS 29c – Abschnitt 83",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 3/5)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-27
+34,
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"Wiedereinzahlung KER",
+"zusätzliche Gutschrift",
+"11'400"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0082",
 "nachher": "bund-ks-29c__c0084"
 },
 {
 "id": "bund-ks-29c__c0084",
-"titel": "KS 29c – Abschnitt 84",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 4/5)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-28
+34,
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"Wiedereinzahlung KER",
+"zusätzliche Gutschrift",
+"11'400"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0083",
 "nachher": "bund-ks-29c__c0085"
 },
 {
 "id": "bund-ks-29c__c0085",
-"titel": "KS 29c – Abschnitt 85",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 5/5)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-28
+34,
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"Wiedereinzahlung KER",
+"zusätzliche Gutschrift",
+"11'400"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0084",
 "nachher": "bund-ks-29c__c0086"
 },
 {
 "id": "bund-ks-29c__c0086",
-"titel": "KS 29c – Abschnitt 86",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 2 – kotierte Gesellschaft ohne Wiedereinzahlung KER (Teil 1/2)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-29
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"keine zusätzliche Gutschrift",
+"Nettoerhöhung KER 2'000"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Ohne zurückbezahlte und wieder einbezahlte KER keine zusätzliche Gutschrift; Total KER 2'000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0085",
 "nachher": "bund-ks-29c__c0087"
 },
 {
 "id": "bund-ks-29c__c0087",
-"titel": "KS 29c – Abschnitt 87",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 2 – kotierte Gesellschaft ohne Wiedereinzahlung KER (Teil 2/2)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-30
+35
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"keine zusätzliche Gutschrift",
+"Nettoerhöhung KER 2'000"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0086",
 "nachher": "bund-ks-29c__c0088"
 },
 {
 "id": "bund-ks-29c__c0088",
-"titel": "KS 29c – Abschnitt 88",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 1/4)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-30
+36,
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"nicht kotierte Gesellschaft",
+"Umbuchung übrige Reserven in KER",
+"24'800"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Nicht kotierte Gesellschaft: zusätzliche Gutschrift 22'800, Total KER 24'800; Umbuchung von 24'800 am Ende des Kapitalbands.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0087",
 "nachher": "bund-ks-29c__c0089"
 },
 {
 "id": "bund-ks-29c__c0089",
-"titel": "KS 29c – Abschnitt 89",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 2/4)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-30
+36,
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"nicht kotierte Gesellschaft",
+"Umbuchung übrige Reserven in KER",
+"24'800"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0088",
 "nachher": "bund-ks-29c__c0090"
 },
 {
 "id": "bund-ks-29c__c0090",
-"titel": "KS 29c – Abschnitt 90",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 3/4)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-31
+36,
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"nicht kotierte Gesellschaft",
+"Umbuchung übrige Reserven in KER",
+"24'800"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0089",
 "nachher": "bund-ks-29c__c0091"
 },
 {
 "id": "bund-ks-29c__c0091",
-"titel": "KS 29c – Abschnitt 91",
-"pfad": [],
+"titel": "Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 4/4)",
+"pfad": [
+"KS 29c",
+"Anhang 4 Kapitalband"
+],
 "seiten": [
-31
+36,
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 4",
+"stichworte": [
+"Kapitalband Beispiel",
+"nicht kotierte Gesellschaft",
+"Umbuchung übrige Reserven in KER",
+"24'800"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0090",
 "nachher": "bund-ks-29c__c0092"
 },
 {
 "id": "bund-ks-29c__c0092",
-"titel": "KS 29c – Abschnitt 92",
-"pfad": [],
+"titel": "Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 1/3)",
+"pfad": [
+"KS 29c",
+"Anhang 5 Währungswechsel"
+],
 "seiten": [
-32
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 5",
+"stichworte": [
+"Währungswechsel",
+"USD",
+"Umrechnung KER",
+"Art. 621 Abs. 3 OR",
+"Kurs 0.90"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Bestätigte KER von CHF 220'700 werden zum Kurs 0.90 in USD 245'222 umgerechnet; Wertdifferenz von USD 115'522 handelsrechtlich dem Gewinnvortrag belastet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0091",
 "nachher": "bund-ks-29c__c0093"
 },
 {
 "id": "bund-ks-29c__c0093",
-"titel": "KS 29c – Abschnitt 93",
-"pfad": [],
+"titel": "Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 2/3)",
+"pfad": [
+"KS 29c",
+"Anhang 5 Währungswechsel"
+],
 "seiten": [
-32
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 5",
+"stichworte": [
+"Währungswechsel",
+"USD",
+"Umrechnung KER",
+"Art. 621 Abs. 3 OR",
+"Kurs 0.90"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0092",
 "nachher": "bund-ks-29c__c0094"
 },
 {
 "id": "bund-ks-29c__c0094",
-"titel": "KS 29c – Abschnitt 94",
-"pfad": [],
+"titel": "Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 3/3)",
+"pfad": [
+"KS 29c",
+"Anhang 5 Währungswechsel"
+],
 "seiten": [
-33
+37
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Anhang 5",
+"stichworte": [
+"Währungswechsel",
+"USD",
+"Umrechnung KER",
+"Art. 621 Abs. 3 OR",
+"Kurs 0.90"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-29c__c0093",
-"nachher": "bund-ks-29c__c0095"
-},
-{
-"id": "bund-ks-29c__c0095",
-"titel": "KS 29c – Abschnitt 95",
-"pfad": [],
-"seiten": [
-33
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0094",
-"nachher": "bund-ks-29c__c0096"
-},
-{
-"id": "bund-ks-29c__c0096",
-"titel": "KS 29c – Abschnitt 96",
-"pfad": [],
-"seiten": [
-33
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0095",
-"nachher": "bund-ks-29c__c0097"
-},
-{
-"id": "bund-ks-29c__c0097",
-"titel": "KS 29c – Abschnitt 97",
-"pfad": [],
-"seiten": [
-34
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0096",
-"nachher": "bund-ks-29c__c0098"
-},
-{
-"id": "bund-ks-29c__c0098",
-"titel": "KS 29c – Abschnitt 98",
-"pfad": [],
-"seiten": [
-34
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0097",
-"nachher": "bund-ks-29c__c0099"
-},
-{
-"id": "bund-ks-29c__c0099",
-"titel": "KS 29c – Abschnitt 99",
-"pfad": [],
-"seiten": [
-34
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0098",
-"nachher": "bund-ks-29c__c0100"
-},
-{
-"id": "bund-ks-29c__c0100",
-"titel": "KS 29c – Abschnitt 100",
-"pfad": [],
-"seiten": [
-34
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0099",
-"nachher": "bund-ks-29c__c0101"
-},
-{
-"id": "bund-ks-29c__c0101",
-"titel": "KS 29c – Abschnitt 101",
-"pfad": [],
-"seiten": [
-34
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0100",
-"nachher": "bund-ks-29c__c0102"
-},
-{
-"id": "bund-ks-29c__c0102",
-"titel": "KS 29c – Abschnitt 102",
-"pfad": [],
-"seiten": [
-35
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0101",
-"nachher": "bund-ks-29c__c0103"
-},
-{
-"id": "bund-ks-29c__c0103",
-"titel": "KS 29c – Abschnitt 103",
-"pfad": [],
-"seiten": [
-35
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0102",
-"nachher": "bund-ks-29c__c0104"
-},
-{
-"id": "bund-ks-29c__c0104",
-"titel": "KS 29c – Abschnitt 104",
-"pfad": [],
-"seiten": [
-35
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0103",
-"nachher": "bund-ks-29c__c0105"
-},
-{
-"id": "bund-ks-29c__c0105",
-"titel": "KS 29c – Abschnitt 105",
-"pfad": [],
-"seiten": [
-36
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0104",
-"nachher": "bund-ks-29c__c0106"
-},
-{
-"id": "bund-ks-29c__c0106",
-"titel": "KS 29c – Abschnitt 106",
-"pfad": [],
-"seiten": [
-36
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0105",
-"nachher": "bund-ks-29c__c0107"
-},
-{
-"id": "bund-ks-29c__c0107",
-"titel": "KS 29c – Abschnitt 107",
-"pfad": [],
-"seiten": [
-36
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0106",
-"nachher": "bund-ks-29c__c0108"
-},
-{
-"id": "bund-ks-29c__c0108",
-"titel": "KS 29c – Abschnitt 108",
-"pfad": [],
-"seiten": [
-36
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0107",
-"nachher": "bund-ks-29c__c0109"
-},
-{
-"id": "bund-ks-29c__c0109",
-"titel": "KS 29c – Abschnitt 109",
-"pfad": [],
-"seiten": [
-37
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0108",
-"nachher": "bund-ks-29c__c0110"
-},
-{
-"id": "bund-ks-29c__c0110",
-"titel": "KS 29c – Abschnitt 110",
-"pfad": [],
-"seiten": [
-37
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0109",
-"nachher": "bund-ks-29c__c0111"
-},
-{
-"id": "bund-ks-29c__c0111",
-"titel": "KS 29c – Abschnitt 111",
-"pfad": [],
-"seiten": [
-37
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-29c__c0110",
 "nachher": null
 }
 ]

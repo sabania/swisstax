@@ -4,21 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 182"
-seiten: "48"
+titel: "Ziff. 8.4 Beispiel Tessin nach Genf und Ziff. 8.5 Wechsel Monatsmodell zu Monatsmodell (Teil 2/2)"
+ziffer: "8.4"
+seiten: "57"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 48
+> Bund · Steuerjahr 2025/2026 · KS 45 · 8 Kantonswechsel › 8.4 Jahresmodell zu Jahresmodell · S. 57
 
-    Änderung des Zivilstands mit anschliessender Anpassung des Lohns während des Kalenderjahres:
-    8. Ein lediger Steuerpflichtiger heiratet im April 2021. Er übt eine unselbstständige Erwerbstätigkeit mit einem
-    Pensum von 100 % aus. Sein Jahresbruttolohn beträgt CHF 72 000.00 (CHF 6 000 x 12).
-    Ab September 2021 wird sein Jahresbruttolohn auf CHF 80 000 erhöht.
+    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 95 000.00 [(CHF 5 000 x 13) + CHF 30 000].
 
-    Monat   Jan.   … Apr.   Mai   Juni   … Aug.   Sep.   Okt.   … Dez.   Besteuerung
+    3 = Korrektur des Quellensteuerabzugs für den Monat Januar [(CHF 5 000 x 14.4 %) – CHF 520.
 
-    Bruttolohn   6 000   6 000   6 000   6 000   6 000   8 000   8 000   8 000   80 000
+    4 = Die Quellensteuer ist im Monat nach dem Kantonswechsel mit dem neuen, zuständigen Kanton nach
 
-    Tarifcode   A0   A0   C0   C0   C0   C0   C0   C0
+    dessen Tarif abzurechnen.
+    5 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
 
-    Steuersatz (%)   11,51   11,5   11,32   11,3   11,3   12,33   12,3   12,3   (12,7)3
+8.5   Wechsel von einem Kanton mit Monatsmodell zu einem anderen Kanton mit Mo-
+    natsmodell
+Der Schuldner der steuerbaren Leistung rechnet die Quellensteuern ab dem Folgemonat des
+Kantonswechsels ausschliesslich mit dem anspruchsberechtigten Kanton nach dessen Tarif
+ab.

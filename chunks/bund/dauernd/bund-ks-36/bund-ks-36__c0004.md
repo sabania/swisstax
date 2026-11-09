@@ -4,13 +4,24 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 4"
-seiten: "1"
+titel: "Ziff. 3 Vorprüfung – Einzelfallbeurteilung und Rechtssicherheit"
+ziffer: "3"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 36 · 3 Vorprüfung · S. 3
 
-5.1   Grundsatz........................................................................................................7
-5.2   Schuldzinsen ..................................................................................................7
-5.3   Geerbte Wertschriften ....................................................................................8
-6.   Inkrafttreten ....................................................................................................8
+3.   Vorprüfung
+
+Ob in einem konkreten Einzelfall eine selbständige Erwerbstätigkeit, d.h. ein
+gewerbsmässiger Wertschriftenhandel vorliegt, ist auf Grund sämtlicher Umstände des
+jeweiligen Einzelfalls zu beurteilen.
+
+Um der Mehrheit der Steuerpflichtigen eine angemessene Rechtssicherheit zu
+gewährleisten, wurden für die Rechtsanwendung Kriterien ausgearbeitet, anhand derer im
+Rahmen einer Vorprüfung gewerbsmässiger Wertschriftenhandel ausgeschlossen
+werden kann.
+
+Die Steuerbehörden gehen in jedem Fall von einer privaten Vermögensverwaltung bzw. von
+steuerfreien privaten Kapitalgewinnen aus, wenn die nachfolgenden Kriterien kumulativ
+erfüllt sind.

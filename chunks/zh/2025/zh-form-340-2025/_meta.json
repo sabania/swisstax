@@ -197,7 +197,7 @@
 },
 {
 "id": "zh-form-340-2025__c0008",
-"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 1/5)",
+"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 1/4)",
 "pfad": [
 "Seite 4",
 "Beispiel"
@@ -224,7 +224,7 @@
 },
 {
 "id": "zh-form-340-2025__c0009",
-"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 2/5)",
+"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 2/4)",
 "pfad": [
 "Seite 4",
 "Beispiel"
@@ -251,7 +251,7 @@
 },
 {
 "id": "zh-form-340-2025__c0010",
-"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 3/5)",
+"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 3/4)",
 "pfad": [
 "Seite 4",
 "Beispiel"
@@ -278,7 +278,7 @@
 },
 {
 "id": "zh-form-340-2025__c0011",
-"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 4/5)",
+"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 4/4)",
 "pfad": [
 "Seite 4",
 "Beispiel"
@@ -301,33 +301,6 @@
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-form-340-2025__c0010",
-"nachher": "zh-form-340-2025__c0012"
-},
-{
-"id": "zh-form-340-2025__c0012",
-"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 5/5)",
-"pfad": [
-"Seite 4",
-"Beispiel"
-],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": [
-"Zugang",
-"Abgang",
-"Fremdwährung",
-"Festgeld",
-"Rundung Steuerwert"
-],
-"positionen": [
-"vermoegen.wertschriften_guthaben"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "zh-form-340-2025__c0011",
 "nachher": null
 }
 ]

@@ -4336,7 +4336,7 @@
 },
 {
 "id": "ar-stg__art-175-t1",
-"titel": "Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 1/3)",
+"titel": "Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 1/2)",
 "pfad": [
 "1. Teil: Staatssteuern",
 "7. Verfahrensrecht",
@@ -4355,7 +4355,7 @@
 },
 {
 "id": "ar-stg__art-175-t2",
-"titel": "Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 2/3)",
+"titel": "Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 2/2)",
 "pfad": [
 "1. Teil: Staatssteuern",
 "7. Verfahrensrecht",
@@ -4370,25 +4370,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "ar-stg__art-175-t1",
-"nachher": "ar-stg__art-175-t3"
-},
-{
-"id": "ar-stg__art-175-t3",
-"titel": "Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 3/3)",
-"pfad": [
-"1. Teil: Staatssteuern",
-"7. Verfahrensrecht",
-"D. Besondere Verfahrens- und Organisationsbestimmungen",
-"Art. 175 I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung"
-],
-"seiten": [],
-"artikel": "Art. 175",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "ar-stg__art-175-t2",
 "nachher": "ar-stg__art-176"
 },
 {
@@ -4407,7 +4388,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "ar-stg__art-175-t3",
+"vorher": "ar-stg__art-175-t2",
 "nachher": "ar-stg__art-176a"
 },
 {
@@ -5730,7 +5711,7 @@
 },
 {
 "id": "ar-stg__art-237-t1",
-"titel": "Art. 237 StG AR – Steuerbefreiung (Teil 1/3)",
+"titel": "Art. 237 StG AR – Steuerbefreiung (Teil 1/2)",
 "pfad": [
 "2. Teil: Steuern der Gemeinden und von Körperschaften",
 "3. Handänderungssteuer",
@@ -5748,7 +5729,7 @@
 },
 {
 "id": "ar-stg__art-237-t2",
-"titel": "Art. 237 StG AR – Steuerbefreiung (Teil 2/3)",
+"titel": "Art. 237 StG AR – Steuerbefreiung (Teil 2/2)",
 "pfad": [
 "2. Teil: Steuern der Gemeinden und von Körperschaften",
 "3. Handänderungssteuer",
@@ -5762,24 +5743,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "ar-stg__art-237-t1",
-"nachher": "ar-stg__art-237-t3"
-},
-{
-"id": "ar-stg__art-237-t3",
-"titel": "Art. 237 StG AR – Steuerbefreiung (Teil 3/3)",
-"pfad": [
-"2. Teil: Steuern der Gemeinden und von Körperschaften",
-"3. Handänderungssteuer",
-"Art. 237 Steuerbefreiung"
-],
-"seiten": [],
-"artikel": "Art. 237",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "ar-stg__art-237-t2",
 "nachher": "ar-stg__art-238"
 },
 {
@@ -5797,7 +5760,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "ar-stg__art-237-t3",
+"vorher": "ar-stg__art-237-t2",
 "nachher": "ar-stg__art-239"
 },
 {
@@ -6603,7 +6566,7 @@
 },
 {
 "id": "ar-stg__art-282-t1",
-"titel": "Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 1/3)",
+"titel": "Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 1/2)",
 "pfad": [
 "4. Teil: Schlussbestimmungen",
 "Art. 282 5. Beteiligungen an Gesellschaften mit Sitz im Kanton"
@@ -6620,7 +6583,7 @@
 },
 {
 "id": "ar-stg__art-282-t2",
-"titel": "Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 2/3)",
+"titel": "Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 2/2)",
 "pfad": [
 "4. Teil: Schlussbestimmungen",
 "Art. 282 5. Beteiligungen an Gesellschaften mit Sitz im Kanton"
@@ -6633,23 +6596,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "ar-stg__art-282-t1",
-"nachher": "ar-stg__art-282-t3"
-},
-{
-"id": "ar-stg__art-282-t3",
-"titel": "Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 3/3)",
-"pfad": [
-"4. Teil: Schlussbestimmungen",
-"Art. 282 5. Beteiligungen an Gesellschaften mit Sitz im Kanton"
-],
-"seiten": [],
-"artikel": "Art. 282",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "ar-stg__art-282-t2",
 "nachher": "ar-stg__art-283-t1"
 },
 {
@@ -6666,7 +6612,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "ar-stg__art-282-t3",
+"vorher": "ar-stg__art-282-t2",
 "nachher": "ar-stg__art-283-t2"
 },
 {

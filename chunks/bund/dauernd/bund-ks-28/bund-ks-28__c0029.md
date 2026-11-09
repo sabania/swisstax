@@ -4,21 +4,25 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 29"
-seiten: "6"
+titel: "Anhang I LGBV Art. 11 Liquidation durch Erben (Teil 1/2)"
+ziffer: "Art. 11"
+seiten: "10-11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang I LGBV · S. 10–11
 
-Führen ein oder mehrere Erben oder Vermächtnisnehmer die selbständige Erwerbstätigkeit
-fort oder übernehmen sie die Anteile an einer Personengesellschaft, so können die übrigen
-Erben, welche die selbständige Erwerbstätigkeit nicht fortführen, auf ihren Anteil die Besteu-
-erung nach Artikel 37b DBG geltend machen, sofern der Erblasser im Zeitpunkt des Todes
-die Voraussetzungen gemäss Artikel 1 Absatz 1 LGBV erfüllt hat. Sie müssen diesen An-
-spruch im Anschluss an den Erbgang geltend machen.
+5. Abschnitt: Erbgang
 
-Die Anwendung von Artikel 18a Absatz 3 DBG bleibt vorbehalten.
-
-7.   Inkrafttreten
-Dieses Kreisschreiben tritt zusammen mit den Artikeln 18a und 37b DBG sowie der LGBV
-per 1. Januar 2011 in Kraft.
+Art. 11   Liquidation durch die Erben, Erbinnen, Vermächtnisnehmer
+    oder Vermächtnisnehmerinnen
+1 Führen die Erben, Erbinnen, Vermächtnisnehmer oder Vermächtnisnehmerinnen
+der steuerpflichtigen Person die selbstständige Erwerbstätigkeit nicht fort und liqui-
+dieren sie das Einzelunternehmen innert fünf Kalenderjahren nach Ablauf des
+Todesjahres des Erblassers oder der Erblasserin, so bestimmt sich der Steuersatz
+nach Artikel 10. Dasselbe gilt, wenn die Tätigkeit der steuerpflichtigen Person in
+einer Personengesellschaft durch die Erben, Erbinnen, Vermächtnisnehmer oder
+Vermächtnisnehmerinnen nicht fortgeführt wird und innert derselben Frist die Per-
+sonengesellschaft liquidiert oder der Gesellschaftsanteil veräussert wird.
+2 Führen die Erben, Erbinnen, Vermächtnisnehmer oder Vermächtnisnehmerinnen
+der steuerpflichtigen Person die selbstständige Erwerbstätigkeit nicht fort und liqui-
+dieren sie das Unternehmen nicht innert fünf Kalenderjahren nach Ablauf des

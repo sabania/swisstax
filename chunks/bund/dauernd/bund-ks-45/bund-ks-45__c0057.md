@@ -4,16 +4,28 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 57"
-seiten: "13"
+titel: "Ziff. 5 / 5.1 Abgrenzungen – Künstler, Sportler und Referenten"
+ziffer: "5.1"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 45 · 5 Abgrenzungen › 5.1 Künstler, Sportler und Referenten · S. 19
 
-3.2.9 Beim Personalverleih bzw. bei einer faktischen Arbeitgeberschaft
-Steuerbar sind grundsätzlich diejenigen Leistungen, welche dem Arbeitnehmer zukommen.
-Für die Zwecke der Quellenbesteuerung nicht entscheidend ist, wer die steuerbaren Leistun-
-gen an den Arbeitnehmer ausrichtet und ob der Arbeitnehmer in der Schweiz ansässig ist o-
-der nicht.
-Nicht durch den Arbeitnehmer zu versteuern sind Leistungen, welche keinen Lohncharakter
-haben und vom Entleiher bzw. vom faktischen Arbeitgeber an den Personalverleiher bzw.
+5   Abgrenzungen
+
+Nachfolgend wird ausgeführt, welche Leistungen von einem Arbeitgeber nach den ordentli-
+chen Tarifcodes für Arbeitnehmer abzurechnen sind bzw. welche Leistungen einer separaten
+Quellenbesteuerung unterliegen.
+
+5.1   Künstler, Sportler und Referenten
+Künstler, Sportler und Referenten mit Ansässigkeit in der Schweiz unterliegen der Quellen-
+steuer nach Artikel 83 DBG, sofern sie in der Schweiz einer unselbstständigen Erwerbstätig-
+keit nachgehen.
+Künstler, Sportler und Referenten mit Ansässigkeit im Ausland, die bei einem Arbeitgeber mit
+Sitz in der Schweiz für eine Dauer von mindestens 30 Tagen angestellt sind, unterliegen der
+Quellensteuer nach Artikel 91 DBG. Für die Beurteilung der Frist von mindestens 30 Tagen
+wird auf die mit dem einzelnen Schuldner der steuerbaren Leistung vereinbarte Vertrags-
+dauer abgestellt, unabhängig von den effektiven Auftritts- und Probetagen.
+Werden Künstler, Sportler und Referenten mit Ansässigkeit im Ausland weniger als 30 Tage
+beschäftigt (bspw. punktueller oder einmaliger Auftritt), unterliegen sie der Quellenbesteue-
+rung nach Artikel 92 DBG.

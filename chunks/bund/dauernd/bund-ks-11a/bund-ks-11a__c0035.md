@@ -4,20 +4,22 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 35"
-seiten: "9"
+titel: "Ziff. 5.1 Selbstgetragene Kosten – Anrechnung von Leistungen Dritter"
+ziffer: "5.1"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 11a · 5 Abzugsfähige Kosten › 5.1 Selbstgetragene Kosten · S. 11
 
-<!-- Seite 9 -->
-Behinderung oder in einem Alters- und Pflegeheim sind abzugsfähig. Gleiches gilt für Kosten
-von Entlastungsaufenthalten in solchen Heimen oder in speziellen Ferienheimen für Personen
-mit Behinderung. Diese Kosten sind aber um denjenigen Betrag zu kürzen, der für Lebenshal
-tungskosten im eigenen Haushalt hätte aufgewendet werden müssen. Die Lebenshaltungskos
-ten berechnen sich dabei entweder nach den Richtlinien über die Berechnung des Existenzmi
-nimums gemäss Artikel 93 des Bundesgesetzes vom 11. April 1889 über Schuldbetreibung und
-Konkurs (SchKG; SR 281.1) oder nach entsprechenden kantonalen Richtlinien (vgl. z.B. Ver
-waltungsgericht des Kantons Luzern A 04 60 und A 04 61 vom 3. Januar 2005). Nicht abgezo
-gen werden können die Kosten des Aufenthalts in einem Altersheim, wenn der Heimaufenthalt
-nicht aufgrund einer Behinderung erfolgt (vgl. Ziff. 3.2.7).
+5   Abzugsfähige Kosten
+
+5.1   Selbstgetragene Kosten / Anrechenbarkeit von Leistungen Dritter
+Abzugsfähig sind nur diejenigen Kosten, die von der steuerpflichtigen Person selbst getragen
+werden und welche tatsächlich Krankheits- oder Unfallkosten bzw. behinderungsbedingte Kos
+ten nach diesem Kreisschreiben abdecken. Als abzugsfähig gelten diejenigen Kosten, die der
+steuerpflichtigen Person nach Abzug aller Leistungen öffentlicher, beruflicher oder privater Ver
+sicherungen und Institutionen zur Zahlung verbleiben (AHV, IV, SUVA, Militärversicherung,
+Krankenkasse, Haftpflicht- und private Unfallversicherung, Hilfswerke und Stiftungen etc.; vgl.
+Urteil des Bundesgerichts 2C_439/2015 vom 21. Januar 2016 E. 3.4).
+In Krankenkassenbescheinigungen aufgelistete Kosten, welche nicht zu den Krankheits- oder
+Unfallkosten im Sinne dieses Kreisschreibens gehören, sind nicht abzugsfähig.

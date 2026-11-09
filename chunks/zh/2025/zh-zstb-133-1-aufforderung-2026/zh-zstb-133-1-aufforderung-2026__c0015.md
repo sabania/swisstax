@@ -4,15 +4,24 @@ quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
 jahre: [2025]
 typ: praxis
-titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 15"
+titel: "D Folgen der Nichteinreichung – Ermessenseinschätzung, Busse bis Fr. 1'000/10'000"
+ziffer: "D"
 seiten: "5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 5
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · D. Folgen der Nichteinreichung · S. 5
 
-Wenn in der Geschäfts- und Steuerperiode, die im Kalenderjahr 2026 endet, der Sitz in einen
-anderen Kanton verlegt oder das Nebensteuerdomizil (Liegenschaften, Betriebsstätten) im
-Kanton Zürich durch eine steuerpflichtige juristische Person mit Sitz in einem anderen Kanton
-aufgegeben wird, so ist im Kalenderjahr 2027 eine Steuererklärung 2026 einzureichen. Für
-dieses Steuererklärungsverfahren gelten im Übrigen die Grundsätze gemäss Aufforderung zur
-Einreichung von Steuererklärungen und Verrechnungsanträgen im Jahre 2027.
+D. Folgen der Nichteinreichung der Steuererklärung
+
+I. Ermessenseinschätzung
+
+Wer die Steuererklärung trotz Verpflichtung und Mahnung nicht einreicht, wird nach
+pflichtgemässem Ermessen eingeschätzt.
+
+II. Busse
+
+Steuerpflichtige, die trotz Mahnung keine Steuererklärung einreichen, werden nach Art. 174 DBG
+mit einer Busse bis Fr. 1'000.-, in schweren Fällen oder bei Rückfall mit einer Busse bis
+Fr. 10'000.- bestraft. Die Ahndung einer Verletzung von Verfahrenspflichten erfolgt nach § 234
+StG, wenn, mangels Zuständigkeit der Zürcher Steuerbehörden für die Veranlagung der direkten
+Bundessteuer, keine Bestrafung nach dem Recht der Bundessteuer erfolgen kann.

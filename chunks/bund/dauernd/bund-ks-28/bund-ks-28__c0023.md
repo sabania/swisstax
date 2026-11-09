@@ -4,17 +4,30 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 23"
-seiten: "5"
+titel: "Anhang I LGBV Art. 3–4 Verhältnis Art. 18a DBG; Einkauf Vorsorgeeinrichtung"
+ziffer: "Art. 3–4"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang I LGBV · S. 8
 
-5.2.   Anrechenbare Beitragsjahre
-Massgebend ist die Anzahl Jahre vom vollendeten 25. Altersjahr bis zum Alter im Liquidati-
-onsjahr, höchstens jedoch bis zum ordentlichen AHV-Rentenalter. Die Jahre ab dem 25.
-Altersjahr bis und mit dem Liquidationsjahr werden stets vollumfänglich berücksichtigt, unab-
-hängig davon, ob die selbständig erwerbende Person während der ganzen Zeit einer Er-
-werbstätigkeit nachgegangen ist oder nicht. Bei der Berechnung wird auf die Differenz zwi-
-schen dem 25. Altersjahr und dem Alter, in welchem die Erwerbstätigkeit aufgegeben wurde,
-abgestellt. Das angefangene Altersjahr wird hinzugezählt.
+Art. 3   Verhältnis zu Artikel 18a DBG
+1 Wird die Besteuerung von stillen Reserven als Einkommen aus selbstständiger
+Erwerbstätigkeit nach Artikel 18a Absatz 1 DBG bis zur Veräusserung der Liegen-
+schaft aufgeschoben, so findet die Verordnung auf diese realisierten stillen Reserven
+keine Anwendung.
+2 Wird die Liegenschaft jedoch während des Liquidationsjahrs oder des Vorjahrs aus
+dem Geschäftsvermögen in das Privatvermögen überführt und in einem dieser Jahre
+veräussert, so sind die realisierten stillen Reserven Bestandteil des Liquidationsge-
+winns.
+
+
+2. Abschnitt: Einkauf in eine Vorsorgeeinrichtung
+
+Art. 4
+1 Ist die steuerpflichtige Person einer Vorsorgeeinrichtung angeschlossen, so kann
+sie sich im Liquidationsjahr und im Vorjahr im Rahmen der reglementarischen und
+übrigen vorsorgerechtlichen Bestimmungen in die Vorsorgeeinrichtung einkaufen.
+2 Sie kann diese Einkaufsbeträge von den Einkünften abziehen (Art. 33 Abs. 1 Bst. d
+DBG).
+3 Ein Beitragsüberhang reduziert den Liquidationsgewinn.

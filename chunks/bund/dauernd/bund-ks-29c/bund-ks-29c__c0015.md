@@ -4,26 +4,17 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 15"
-seiten: "4"
+titel: "Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen (Teil 3/3)"
+ziffer: "4.1"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.1 Grundsätze · S. 9
 
-Art. 20
-[…]
-8
- Absatz 3 gilt für Einlagen und Aufgelder, die während eines Kapitalbands nach den Artikeln
-653s ff. des Obligationenrechts (OR) geleistet werden, nur soweit sie die Rückzahlungen von
-Reserven im Rahmen dieses Kapitalbands übersteigen.
-
-VStG
-
-Art. 5
-[…]
-
-    Absatz 1bis gilt für Einlagen und Aufgelder, die während eines Kapitalbands nach den
-1septies
-
-Artikeln 653s ff. des OR geleistet werden, nur soweit sie die Rückzahlungen von Reserven
-im Rahmen dieses Kapitalbands übersteigen.
+Stehen Ausschüttungen aus Kapitalgesellschaften und Genossenschaften nicht sämtlichen
+Ausschüttungsberechtigten gleichermassen zu, so darf die Rückzahlung von KER bzw. Aus-
+land-KER gemessen an der gesamten Ausschüttung für jeden Berechtigten höchstens dem
+proportionalen Anteil der KER bzw. Ausland-KER an den gesamten Reserven der Kapitalge-
+sellschaft oder Genossenschaft entsprechen. Gleiches gilt innerhalb von verschiedenen An-
+teilsklassen, sofern die Statuten verschiedene Anteilsklassen (Vorzugsaktien) mit Vorrechten
+auf Rückzahlung von KER bzw. Ausland-KER vorsehen.

@@ -4,15 +4,26 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 11"
-seiten: "3"
+titel: "Ziff. 3.2.5–3.2.6 Medikamente, Heilmittel und Pflegekosten"
+ziffer: "3.2.5–3.2.6"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5
 
-    son, der es eine voraussichtlich dauernde körperliche, geistige oder psychische Beeinträchti
-    gung erschwert oder verunmöglicht, alltägliche Verrichtungen vorzunehmen, soziale Kontakte
-    zu pflegen, sich fortzubewegen, sich aus- und weiterzubilden oder eine Erwerbstätigkeit aus
-    zuüben.
-Im Gegensatz zu den Krankheits- und Unfallkosten ist bei den behinderungsbedingten Kosten
-kein Selbstbehalt zu berücksichtigen.
+3.2.5   Kosten für Medikamente und Heilmittel
+Die Kosten für Medikamente und Heilmittel sind nur abzugsfähig, wenn sie von einer Ärztin, ei
+nem Arzt oder von einer nach kantonaler Praxis anerkannten Naturheilpraktikerin/einem aner
+kannten Naturheilpraktiker verordnet werden (vgl. Ziff. 3.2.4; vgl. Verwaltungsgericht Thurgau
+V64 vom 17. März 2004).
+
+
+3.2.6   Pflegekosten
+Abzugsfähig sind die Kosten für die krankheits- oder unfallbedingte ambulante Pflege zu Hause.
+Unwesentlich ist dabei, wer diese Pflegeleistungen erbringt (Pflegefachpersonen, Spitexorgani
+sationen, private Pflegekräfte etc.). Kein Abzug kann jedoch gemacht werden für unentgeltlich
+erbrachte Pflegeleistungen.
+Werden die Dienste einer ambulanten Pflege in Anspruch genommen, die neben der eigentli
+chen Pflege auch den Haushalt besorgt, so sind diese Kosten angemessen in abziehbare
+Pflege- und nichtabziehbare Lebenshaltungskosten aufzuteilen (vgl. Urteil des Bundesgerichts
+9C_655/2022 vom 31. Oktober 2023 E. 5.4.1).

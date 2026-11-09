@@ -1,384 +1,583 @@
 [
 {
 "id": "sg-stb-44-1__c0001",
-"titel": "StB 44 Nr. 1 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Grundsatz Abzug Verwaltungskosten bewegliches Privatvermögen",
+"pfad": [
+"1. Grundsatz"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Vermögensverwaltungskosten",
+"Verwaltungskosten Wertschriften",
+"Art. 44 Abs. 1 StG",
+"Anlagekosten nicht abzugsfähig",
+"Bankgebühren"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Kosten der Verwaltung durch Dritte sind vom Ertrag des beweglichen Privatvermögens abziehbar (Art. 44 Abs. 1 StG); Erwerbs-, Erhaltungs-, Umschichtungs- und Verkaufskosten nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-stb-44-1__c0002"
 },
 {
 "id": "sg-stb-44-1__c0002",
-"titel": "StB 44 Nr. 1 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 2 Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten – Begriff",
+"pfad": [
+"2. Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"allgemeine Verwaltung",
+"Grundsatz der Notwendigkeit",
+"Bank Vermögensverwalter",
+"Anlagekosten",
+"Lebenshaltungskosten"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Abzugsfähig ist nur die Vergütung an Dritte für die allgemeine Verwaltung (inkl. MWST), die zur Bewirtschaftung notwendig ist; Detailübersicht im Anhang.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0001",
 "nachher": "sg-stb-44-1__c0003"
 },
 {
 "id": "sg-stb-44-1__c0003",
-"titel": "StB 44 Nr. 1 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2 Verwaltung durch Willensvollstrecker, Beistand, Erbschaftsverwalter",
+"pfad": [
+"2. Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten",
+"Willensvollstrecker/Beistand"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Willensvollstrecker",
+"Beistand",
+"Vorsorgeauftrag",
+"Erbschaftsverwalter",
+"Beistandschaft Entschädigung",
+"Art. 404 ZGB"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Kosten von Willensvollstrecker, Beauftragtem, Beistand und Erbschaftsverwalter sind abzugsfähig, soweit blosse Verwahrung und Verwaltung; Anlage- und Rechtsberatung nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0002",
 "nachher": "sg-stb-44-1__c0004"
 },
 {
 "id": "sg-stb-44-1__c0004",
-"titel": "StB 44 Nr. 1 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2 Verbeiständete behinderte Person 60/40 und Selbstverwaltung",
+"pfad": [
+"2. Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten",
+"Pauschale Aufteilung / Selbstverwaltung"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"verbeiständete Person",
+"60% Vermögensverwaltung",
+"40% behinderungsbedingte Kosten",
+"Selbstverwaltung kein Abzug",
+"Behinderung"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften",
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Behinderte verbeiständete Person: pauschal 60% der Entschädigung als Vermögensverwaltungskosten und 40% als behinderungsbedingte Kosten; bei Selbstverwaltung kein Abzug.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0003",
 "nachher": "sg-stb-44-1__c0005"
 },
 {
 "id": "sg-stb-44-1__c0005",
-"titel": "StB 44 Nr. 1 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3 / 3.1 Abzugsformen und Abzugspauschale (2 Promille, max. Fr. 15'000) (Teil 1/2)",
+"pfad": [
+"3. Abzugsformen",
+"3.1 Abzugspauschale"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Pauschale Vermögensverwaltung",
+"2 Promille",
+"1 Promille",
+"Fr. 15'000",
+"Wertschriftenvermögen",
+"Pauschalabzug"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Pauschale 2 Promille bis Fr. 3 Mio. Wertschriftenvermögen und 1 Promille darüber, max. Fr. 15'000.--; Wahl zwischen Pauschale und tatsächlichen Kosten, keine Kumulation.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0004",
 "nachher": "sg-stb-44-1__c0006"
 },
 {
 "id": "sg-stb-44-1__c0006",
-"titel": "StB 44 Nr. 1 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 3 / 3.1 Abzugsformen und Abzugspauschale (2 Promille, max. Fr. 15'000) (Teil 2/2)",
+"pfad": [
+"3. Abzugsformen",
+"3.1 Abzugspauschale"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.1",
+"stichworte": [
+"Pauschale Vermögensverwaltung",
+"2 Promille",
+"1 Promille",
+"Fr. 15'000",
+"Wertschriftenvermögen",
+"Pauschalabzug"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0005",
 "nachher": "sg-stb-44-1__c0007"
 },
 {
 "id": "sg-stb-44-1__c0007",
-"titel": "StB 44 Nr. 1 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 3.1 Beispiel Berechnung der Abzugspauschale",
+"pfad": [
+"3. Abzugsformen",
+"3.1 Abzugspauschale",
+"Beispiel"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Beispiel Pauschale",
+"Bemessungsgrundlage",
+"Kryptowährungen",
+"Darlehen",
+"Edelmetalle"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Beispiel: Bemessungsgrundlage Fr. 150'000.00 x 2 Promille ergibt abzugsfähige Pauschale Fr. 300.00; Krypto, Beteiligung, Darlehen und Edelmetalle nicht relevant.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0006",
 "nachher": "sg-stb-44-1__c0008"
 },
 {
 "id": "sg-stb-44-1__c0008",
-"titel": "StB 44 Nr. 1 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 3.2 Abzug der tatsächlichen Kosten, All-in-Gebühr (Teil 1/2)",
+"pfad": [
+"3. Abzugsformen",
+"3.2 Abzug der tatsächlichen Kosten"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2",
+"stichworte": [
+"tatsächliche Kosten",
+"All-in Fee",
+"Paketgebühr",
+"Schätzung",
+"Nachweis",
+"Depot"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Höhere Kosten sind nachzuweisen; bei All-in-Gebühr werden abzugsfähige Kosten pro Depot nach pflichtgemässem Ermessen geschätzt, ohne Begrenzung auf Fr. 15'000.--, höchstens die tatsächliche Gebühr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0007",
 "nachher": "sg-stb-44-1__c0009"
 },
 {
 "id": "sg-stb-44-1__c0009",
-"titel": "StB 44 Nr. 1 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 3.2 Abzug der tatsächlichen Kosten, All-in-Gebühr (Teil 2/2)",
+"pfad": [
+"3. Abzugsformen",
+"3.2 Abzug der tatsächlichen Kosten"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.2",
+"stichworte": [
+"tatsächliche Kosten",
+"All-in Fee",
+"Paketgebühr",
+"Schätzung",
+"Nachweis",
+"Depot"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0008",
 "nachher": "sg-stb-44-1__c0010"
 },
 {
 "id": "sg-stb-44-1__c0010",
-"titel": "StB 44 Nr. 1 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 4 Direkte Bundessteuer – gleiche Abzugsregeln",
+"pfad": [
+"4. Direkte Bundessteuer"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4",
+"stichworte": [
+"direkte Bundessteuer",
+"Art. 32 Abs. 1 DBG",
+"Verwaltungskosten Bund"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Art. 32 Abs. 1 DBG erlaubt den Abzug der Verwaltung durch Dritte; es gelten dieselben Regeln wie im kantonalen Recht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0009",
 "nachher": "sg-stb-44-1__c0011"
 },
 {
 "id": "sg-stb-44-1__c0011",
-"titel": "StB 44 Nr. 1 – Abschnitt 11",
-"pfad": [],
+"titel": "Anhang SSK-Aufstellung Typ-ID 1–10 (Anlagekosten, Dienstleistungen) (Teil 1/2)",
+"pfad": [
+"Anhang",
+"Typ-ID 1–10"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1-10",
+"stichworte": [
+"eSteuerauszug",
+"Stempelabgaben",
+"Transaktionskosten",
+"Beratungskosten",
+"Steuererklärung Kosten",
+"Steuerverzeichnisse Banken"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "SSK-Aufstellung: Typ-ID 1–9 nicht abzugsfähig, Typ-ID 10 Kosten für Steuerverzeichnisse von Banken abzugsfähig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0010",
 "nachher": "sg-stb-44-1__c0012"
 },
 {
 "id": "sg-stb-44-1__c0012",
-"titel": "StB 44 Nr. 1 – Abschnitt 12",
-"pfad": [],
+"titel": "Anhang SSK-Aufstellung Typ-ID 1–10 (Anlagekosten, Dienstleistungen) (Teil 2/2)",
+"pfad": [
+"Anhang",
+"Typ-ID 1–10"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1-10",
+"stichworte": [
+"eSteuerauszug",
+"Stempelabgaben",
+"Transaktionskosten",
+"Beratungskosten",
+"Steuererklärung Kosten",
+"Steuerverzeichnisse Banken"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0011",
 "nachher": "sg-stb-44-1__c0013"
 },
 {
 "id": "sg-stb-44-1__c0013",
-"titel": "StB 44 Nr. 1 – Abschnitt 13",
-"pfad": [],
+"titel": "Anhang Typ-ID 11–19 (Dienstleistungen, All-in Fee) (Teil 1/3)",
+"pfad": [
+"Anhang",
+"Typ-ID 11–19"
+],
 "seiten": [
-4
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "11-19",
+"stichworte": [
+"Provisionen",
+"Vermögensverwaltung aktives Depotmanagement",
+"Affidavitspesen",
+"Abgezogene Quellensteuer",
+"All-in Fee"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Typ-ID 11–16 nicht abzugsfähig, 17 (nicht rückforderbare Quellensteuer) und 18 (Affidavitspesen) abzugsfähig, 19 All-in Fee nein* (zu schätzen, Ziff. 3.2).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0012",
 "nachher": "sg-stb-44-1__c0014"
 },
 {
 "id": "sg-stb-44-1__c0014",
-"titel": "StB 44 Nr. 1 – Abschnitt 14",
-"pfad": [],
+"titel": "Anhang Typ-ID 11–19 (Dienstleistungen, All-in Fee) (Teil 2/3)",
+"pfad": [
+"Anhang",
+"Typ-ID 11–19"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "11-19",
+"stichworte": [
+"Provisionen",
+"Vermögensverwaltung aktives Depotmanagement",
+"Affidavitspesen",
+"Abgezogene Quellensteuer",
+"All-in Fee"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0013",
 "nachher": "sg-stb-44-1__c0015"
 },
 {
 "id": "sg-stb-44-1__c0015",
-"titel": "StB 44 Nr. 1 – Abschnitt 15",
-"pfad": [],
+"titel": "Anhang Typ-ID 11–19 (Dienstleistungen, All-in Fee) (Teil 3/3)",
+"pfad": [
+"Anhang",
+"Typ-ID 11–19"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "11-19",
+"stichworte": [
+"Provisionen",
+"Vermögensverwaltung aktives Depotmanagement",
+"Affidavitspesen",
+"Abgezogene Quellensteuer",
+"All-in Fee"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0014",
 "nachher": "sg-stb-44-1__c0016"
 },
 {
 "id": "sg-stb-44-1__c0016",
-"titel": "StB 44 Nr. 1 – Abschnitt 16",
-"pfad": [],
+"titel": "Anhang Typ-ID 20–29 (Depot-, Konto-, Inkassogebühren, Negativzinsen) (Teil 1/2)",
+"pfad": [
+"Anhang",
+"Typ-ID 20–29"
+],
 "seiten": [
-5
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "20-29",
+"stichworte": [
+"Depotgebühren",
+"Kontoführungsgebühren",
+"Inkassospesen",
+"Negativzinsen",
+"Auslieferung Edelmetalle",
+"eigene Bemühungen"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Abzugsfähig: Typ-ID 20–25 und 29 (u.a. Depot-, Kontoführungsgebühren, Negativzinsen); nicht: 26 eigene Bemühungen, 27 Managementgebühren, 28 Metallkontokommissionen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0015",
 "nachher": "sg-stb-44-1__c0017"
 },
 {
 "id": "sg-stb-44-1__c0017",
-"titel": "StB 44 Nr. 1 – Abschnitt 17",
-"pfad": [],
+"titel": "Anhang Typ-ID 20–29 (Depot-, Konto-, Inkassogebühren, Negativzinsen) (Teil 2/2)",
+"pfad": [
+"Anhang",
+"Typ-ID 20–29"
+],
 "seiten": [
-6
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "20-29",
+"stichworte": [
+"Depotgebühren",
+"Kontoführungsgebühren",
+"Inkassospesen",
+"Negativzinsen",
+"Auslieferung Edelmetalle",
+"eigene Bemühungen"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0016",
 "nachher": "sg-stb-44-1__c0018"
 },
 {
 "id": "sg-stb-44-1__c0018",
-"titel": "StB 44 Nr. 1 – Abschnitt 18",
-"pfad": [],
+"titel": "Anhang Typ-ID 30–40 (Pauschalgebühren, Porto, Tresorfach, Sonstige) (Teil 1/3)",
+"pfad": [
+"Anhang",
+"Typ-ID 30–40"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "30-40",
+"stichworte": [
+"Pauschalgebühren",
+"Porto Versandkosten",
+"Tresorfachgebühren",
+"Kartengebühren",
+"performanceorientierte Honorare"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Abzugsfähig: Typ-ID 33 Porto/Versand, 34 Saldierungsspesen, 35 Tresorfachgebühren; Pauschalgebühren (31) nein* mit Schätzung; übrige nein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0017",
 "nachher": "sg-stb-44-1__c0019"
 },
 {
 "id": "sg-stb-44-1__c0019",
-"titel": "StB 44 Nr. 1 – Abschnitt 19",
-"pfad": [],
+"titel": "Anhang Typ-ID 30–40 (Pauschalgebühren, Porto, Tresorfach, Sonstige) (Teil 2/3)",
+"pfad": [
+"Anhang",
+"Typ-ID 30–40"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "30-40",
+"stichworte": [
+"Pauschalgebühren",
+"Porto Versandkosten",
+"Tresorfachgebühren",
+"Kartengebühren",
+"performanceorientierte Honorare"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0018",
 "nachher": "sg-stb-44-1__c0020"
 },
 {
 "id": "sg-stb-44-1__c0020",
-"titel": "StB 44 Nr. 1 – Abschnitt 20",
-"pfad": [],
+"titel": "Anhang Typ-ID 30–40 (Pauschalgebühren, Porto, Tresorfach, Sonstige) (Teil 3/3)",
+"pfad": [
+"Anhang",
+"Typ-ID 30–40"
+],
 "seiten": [
 7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "30-40",
+"stichworte": [
+"Pauschalgebühren",
+"Porto Versandkosten",
+"Tresorfachgebühren",
+"Kartengebühren",
+"performanceorientierte Honorare"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-44-1__c0019",
 "nachher": "sg-stb-44-1__c0021"
 },
 {
 "id": "sg-stb-44-1__c0021",
-"titel": "StB 44 Nr. 1 – Abschnitt 21",
-"pfad": [],
-"seiten": [
-7
+"titel": "Anhang Typ-ID 41–43 und 99 (Kreditgebühren, Sonstige)",
+"pfad": [
+"Anhang",
+"Typ-ID 41–99"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-44-1__c0020",
-"nachher": "sg-stb-44-1__c0022"
-},
-{
-"id": "sg-stb-44-1__c0022",
-"titel": "StB 44 Nr. 1 – Abschnitt 22",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-44-1__c0021",
-"nachher": "sg-stb-44-1__c0023"
-},
-{
-"id": "sg-stb-44-1__c0023",
-"titel": "StB 44 Nr. 1 – Abschnitt 23",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-44-1__c0022",
-"nachher": "sg-stb-44-1__c0024"
-},
-{
-"id": "sg-stb-44-1__c0024",
-"titel": "StB 44 Nr. 1 – Abschnitt 24",
-"pfad": [],
 "seiten": [
 8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-44-1__c0023",
+"ziffer": "41-99",
+"stichworte": [
+"Kreditgebühren",
+"Nichtkündigungsabzug",
+"Zessionskommission",
+"unqualifizierte Begriffe"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften"
+],
+"zusammenfassung": "Typ-ID 41, 42, 43 und 99 (Kreditkommissionen, Nichtkündigungsabzug, Zessionskommission, Sonstige) sind nicht abzugsfähig.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-stb-44-1__c0020",
 "nachher": null
 }
 ]

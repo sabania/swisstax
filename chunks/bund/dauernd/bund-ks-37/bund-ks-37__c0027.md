@@ -4,21 +4,23 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 27"
-seiten: "6"
+titel: "Beispiel Ziff. 3.4.2 – Rückgabe bei Kündigung (Gewinnungskosten 229 Franken) (Teil 2/2)"
+ziffer: "3.4.2"
+seiten: "9-10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 37 · 3.4 Besondere Fälle › 3.4.2 Rückgabe von Mitarbeiteraktien › Beispiel · S. 9–10
 
-Die Vestingperiode stellt die Zeitspanne dar, während welcher der Mitarbeitende eine Option
-verdienen bzw. „abverdienen“ muss, insbesondere indem er gewisse berufliche Ziele erfüllt
-oder auch indem er seinen Arbeitsvertrag nicht vor Ablauf einer bestimmten Dauer kündigt.
-Das Ende dieser Zeitspanne wird als „Vesting“ bezeichnet (vgl. Urteil des Bundesgerichts
-2C_138/2010 vom 2. Juni 2010, Erw. 2.2) Dementsprechend gelten solche Mitarbeiterbeteili-
-gungen bis zum Eintritt des Vesting lediglich als aufschiebend bedingt zugeteilt.
+    Preis von 800 Franken (y) zurückzugeben hat, kann er in der Steuererklä-
+    rung die Differenz von 229 Franken als Gewinnungskosten abziehen. Ma-
+    thematisch entspricht diese Berechnung der Formel (x : 1,06 n – y), bzw.
+    (1'500 : 1,06 6,46 – 800).
 
-Das Vesting, also das Ende der Vestingperiode, wird in der Regel im jeweiligen Beteiligungs-
-plan bzw. -vertrag festgehalten, ebenso wie die Gründe, welche zu einem vorzeitigen Ves-
-ting führen können. Läuft die Vestingperiode ab und werden sämtliche Vestingbedingungen
-erfüllt, führt dies zum Erwerb des Rechtsanspruchs an der entsprechenden Mitarbeiterbeteili-
-gung. Der Besteuerungszeitpunkt richtet sich dabei nach Ziffer 3 ff. dieses Kreisschreibens.
+    Datum   Sperrfrist   (Rest-)   Verkehrs- Rückgabe-   Ein-   Reduzierter
+    Sperrfrist   wert   preis   schlag   Verkehrs-
+    wert
+Zuteilung   15.03.2010   10 Jahre
+Kündigung   30.09.2013   -   6.46 Jahre   1‘500   800   68.637%   1‘029
+    (= 1‘029)
+Da der Rückgabepreis 800 Franken und der reduzierte Verkehrswert 1‘029 Franken betragen, belau-
+fen sich die steuerlich massgebenden Gewinnungskosten auf 229 Franken.

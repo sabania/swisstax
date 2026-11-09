@@ -4,7 +4,7 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 1/3)"
+titel: "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 1/2)"
 ziffer: "7"
 seiten: "11-12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}

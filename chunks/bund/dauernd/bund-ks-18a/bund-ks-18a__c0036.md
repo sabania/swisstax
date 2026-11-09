@@ -4,23 +4,22 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 36"
-seiten: "9"
+titel: "Ziff. 8 Meldung der Leistungen an die ESTV; Bemerkungen bei Prämienbefreiung/Rückzahlung"
+ziffer: "8"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 9
+> Bund · Steuerjahr 2026 · KS 18a · 8. Bescheinigungspflicht · S. 11
 
-<!-- Seite 9 -->
-ist. Beendet der Vorsorgenehmer seine Erwerbstätigkeit nach dem Referenzalter, aber vor
-dem 70. Altersjahr, so muss die Auflösung von sämtlichen noch bestehenden Säule 3a-Konti
-bzw. -Policen im Zeitpunkt der Beendigung der Erwerbstätigkeit erfolgen, was die Steuerbar-
-keit all dieser Leistungen auslöst.
+Die ausgerichteten Leistungen sind gemäss VStG vom Vorsorgeträger der Eidgenössischen
+Steuerverwaltung (ESTV) Direkte Bundessteuer, Verrechnungssteuer, Stempelabgaben, Ab-
+teilung Erhebung, Eigerstrasse 65, 3003 Bern, zu melden. Die entsprechenden Formulare
+563 "Meldung über Kapitalleistungen" und 565 "Rentenmeldung" sind auf der Homepage der
+ESTV verfügbar (www.estv.admin.ch/estv/de/home/verrechnungssteuer/vst-abrechnen/vst-
+meldungen).
 
-Kapitalleistungen aus anerkannten Formen der gebundenen Selbstvorsorge werden gemäss
-Artikel 22 Absatz 1 in Verbindung mit Artikel 38 DBG gesondert besteuert. Sie unterliegen
-einer vollen Jahressteuer, die zu einem Fünftel der Tarife nach Artikel 36 DBG berechnet
-wird. Bei Auflösung des Vorsorgeverhältnisses entsteht die Verrechnungssteuerforderung,
-welche durch Entrichtung oder Meldung erfüllt werden kann (vgl. Art. 7, 11, 12 und 19 des
-Bundesgesetzes vom 13. Oktober 1965 über die Verrechnungssteuer [VStG; SR 642.21]).
-Die Erträge der Guthaben unterliegen fortan der Verrechnungssteuer nach Artikel 4 Absatz 1
-Buchstabe d VStG.
+Wurden durch die Versicherungseinrichtung Leistungen infolge einer Prämienbefreiung er-
+bracht, so ist in der Rubrik „Bemerkungen“ ein Hinweis anzubringen und der entsprechende
+Betrag zu nennen. Ebenfalls unter „Bemerkungen“ sind die vom Vorsorgeträger auf Veran-
+lassung der Steuerbehörden vorgenommenen Rückzahlungen von zu viel einbezahlten Bei-
+trägen und Einlagen anzugeben (Datum der Rückzahlung und Betrag).

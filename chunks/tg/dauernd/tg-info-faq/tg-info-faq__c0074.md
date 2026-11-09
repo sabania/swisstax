@@ -9,6 +9,17 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
-    Gegen Einspracheentscheide der Steuerverwaltung Thurgau können Sie innert 30 Tagen nach Zustellung des Entscheids bei der Steuerrekurskommission Rekurs bezüglich der Staats- und Gemeindesteuern bzw. Beschwerde bezüglich die direkte Bundessteuer erheben. Dies kann in einer einzigen Eingabe verbunden werden. Voraussetzung dafür ist, dass die Eingabe die entsprechenden Anträge sowohl für die Staats- und Gemeindesteuern als auch für die direkte Bundessteuer enthält.
+    Im Rekurs können alle Mängel des Verfahrens und des angefochtenen Entscheides geltend gemacht werden. Gegen Entscheide der Steuerrekurskommission kann innert 30 Tagen nach Zustellung Beschwerde beim Verwaltungsgericht erhoben werden.
 
-    Die Rekursschrift ist innert Frist unter Beilage des angefochtenen Entscheides oder genauer Bezeichnung desselben bei der Rekursinstanz unterzeichnet und im Doppel einzureichen. Der Rekurs muss einen Antrag und eine Begründung enthalten sowie die Beweismittel aufführen. In der Regel wird dafür ein vom Rekurrenten ein angemessener Kostenvorschuss einverlangt. Wird dieser nicht innert Frist bezahlt, wird auf den Rekurs nicht eingetreten.
+    Detaillierte Ausführungen finden Sie in der Thurgauer Steuerpraxis in Weisung:
+
+    - [StP 175 Nr. 1 "Rekursverfahren"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-175-nr-1-rekursverfahren&version=latest)
+
+Straflose Selbstanzeige
+:   ### Frage:
+
+    Ich habe seit Jahren unversteuertes Vermögen (Schwarzgeld) und möchte dieses dem Steueramt melden. Wie gehe ich vor?
+
+    ### Antwort:
+
+    Stellen Sie alle Belege zusammen und richten Sie ein entsprechendes Schreiben an die Steuerverwaltung (Nach- und Strafsteuern).

@@ -4,24 +4,25 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.3 Behinderungsbedingte Drittbetreuung – Maximum CHF 10'100"
-ziffer: "8.3"
-seiten: "13-14"
+titel: "Ziff. 8.4.3 Konkubinatseltern – Aufteilung CHF 5'050 je Elternteil, Maximum CHF 10'100"
+ziffer: "8.4.3"
+seiten: "14-15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.3 Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit · S. 13–14
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung › 8.4.3 · S. 14–15
 
-Kinderdrittbetreuungskosten konnten früher allenfalls aufgrund des Invaliditätskostenabzu-
-ges (Art. 33 Abs. 1 Bst. hbis DBG) geltend gemacht werden. Gemäss Kreisschreiben Nr. 11
-der ESTV vom 31. August 2005 betreffend den Abzug von Krankheits- und Unfallkosten so-
-wie von behinderungsbedingten Kosten sind die Kinderdrittbetreuungskosten bei einer Be-
+8.4.3   Unverheiratete Eltern (gemeinsamer Haushalt) mit gemeinsamen
+    oder nicht gemeinsamen Kindern
 
-hinderung abzugsfähig (Ziff. 4.3.2. KS). Voraussetzung für die uneingeschränkte Ab-
-zugsfähigkeit ist das Vorliegen einer ärztlichen Bescheinigung, in welcher attestiert wird,
-dass eine Person behinderungsbedingt Dritthilfe für die Kinderbetreuung bedarf. Nun
-können die Kosten für die Drittbetreuung der Kinder jedoch bis maximal 10‘100 Franken
-aufgrund des Kinderdrittbetreuungskostenabzuges in Rechnung gebracht werden. Als
-behinderungsbedingte Kosten gemäss Artikel 33 Absatz 1 Buchstabe hbis DBG können
-daher bei einer Behinderung der Eltern nur noch die Kinderdrittbetreuungskosten be-
-rücksichtigt werden, welche den Maximalbetrag des Kinderdrittbetreuungskostenabzu-
-ges übersteigen.
+Unverheirateten Eltern, die mit gemeinsamen Kindern zusammen in einem Haushalt leben
+(Konkubinat), können den Abzug geltend machen, wenn sie beide gleichzeitig einer Erwerbs-
+tätigkeit nachgehen bzw. in Ausbildung stehen oder erwerbsunfähig und zugleich betreu-
+ungsunfähig sind.
+
+Halten die unverheirateten Eltern die elterliche Sorge gemeinsam inne, kann jeder Elternteil
+maximal 5‘050 Franken der nachgewiesenen Kosten für die Kinderdrittbetreuung in Abzug
+bringen. Es besteht jedoch die Möglichkeit, dass die Eltern eine andere Aufteilung beantra-
+gen. Die beiden Elternteile haben sich diesfalls zu einigen. Es obliegt daher den Eltern, eine
+andere Aufteilung zu begründen und nachzuweisen. Betragen die geltend gemachten Kosten
+beider Elternteile zusammen mehr als den Maximalbetrag von 10’100 Franken, werden die
+Abzüge im Verhältnis der nachgewiesenen Kosten auf diesen Maximalbetrag gekürzt.

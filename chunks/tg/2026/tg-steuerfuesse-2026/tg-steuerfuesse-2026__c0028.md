@@ -4,11 +4,11 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 28"
+titel: "Tabelle Steuerfüsse – Bezirke Frauenfeld/Kreuzlingen/Weinfelden (Fortsetzung) (Teil 2/2)"
 seiten: "7"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 7
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Tabelle nach Gemeinden · S. 7
 
 Thundorf   55   100   27 / 16   287.8   2’185   Hohentannen   50   90   25 / 24   273.5   2’234
 Uesslingen-Buch   57   85   24 / 16   272.2   2’553   Kradolf-Schönenberg   55   93   25 / 21   280.2   1’870

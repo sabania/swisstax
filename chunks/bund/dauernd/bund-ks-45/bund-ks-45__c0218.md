@@ -4,21 +4,17 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 218"
-seiten: "58"
+titel: "Ziff. 11.6 Neuberechnung der Quellensteuer (Teil 2/2)"
+ziffer: "11.6"
+seiten: "67"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 58
+> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.6 Neuberechnung der Quellensteuer · S. 67
 
-Pflichten der quellensteuerpflichtigen Person wird auf Ziffer 10.2 unten verwiesen.
-Die vorsätzliche oder fahrlässige Nichtablieferung der Quellensteuer kann zudem den Tatbe-
-stand der Steuerhinterziehung erfüllen (vgl. Art. 175 DBG). Verwendet der Schuldner der
-steuerbaren Leistung abgezogene Quellensteuern zu seinem oder eines andern Nutzen,
-kann ausserdem eine strafbare Veruntreuung von Quellensteuern vorliegen (vgl. Art. 187
-DBG).
-Die abgezogene Quellensteuer ist dem quellensteuerpflichtigen Arbeitnehmer in jeder Lohn-
-abrechnung sowie zusätzlich in Ziffer 12 des Lohnausweises offenzulegen. Massgebend ist
-die „Wegleitung zum Ausfüllen des Lohnausweises“. Zwecks Überprüfung des Quellensteu-
-erabzugs durch die Arbeitnehmer wird den Arbeitgebern zudem empfohlen, in Ziffer 15 des
-Lohnausweises (Bemerkungen) den bzw. die angewendeten Tarifcodes und die entspre-
-chenden Perioden aufzuführen.
+Quellensteuer eine nachträgliche ordentliche Veranlagung durchgeführt wird.
+Eine solche Neuberechnung der Quellensteuer kann auch durch die zuständige Steuerbe-
+hörde von Amtes wegen durchgeführt werden.
+Zuständig für die Neuberechnung der Quellensteuer ist der anspruchsberechtigte Kanton ge-
+mäss Ziffer 9.5 oben. Nimmt dieser Kanton anstelle einer Neuberechnung der Quellensteuer
+eine nachträgliche ordentliche Veranlagung vor, richtet sich die Zuständigkeit nach Ziffer
+11.1 oben.

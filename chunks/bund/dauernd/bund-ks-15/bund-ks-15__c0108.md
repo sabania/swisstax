@@ -4,24 +4,24 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 2/3)"
+titel: "Anhang IV Gutachten – Entscheid Verwaltungsgericht ZH 2005"
 ziffer: "Anh. IV I"
 seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › I Ausgangslage · S. 32
 
-Die Anwendung der modifizierten Differenzbesteuerung setzt voraus, dass das kombi-
-nierte Produkt (für steuerliche Zwecke) transparent gemacht wird. Dies geschieht, in-
-dem der Wert des Anleihensteils im Zeitpunkt der Emission berechnet und offen gelegt
-wird. Die Berechnung des Wertes des Anleihensteils im Emissionszeitpunkt (auch
-Bond Floor genannt) wird mittels der Swap-Rate für die entsprechende Währung und
-Laufzeit aufgrund der folgenden Eckwerte vorgenommen:
+Das Verwaltungsgericht des Kantons Zürich hat in einem Entscheid vom 24. August
+2005 die Anwendung der modifizierten Differenzbesteuerung grundsätzlich bejaht. Al-
+lerdings hat es die Frage offen gelassen, ob die zur Anwendung gelangenden komple-
+xen finanzmathematischen Berechnungen in jedem Fall geeignet seien, den steuerba-
+ren Vermögensertrag in rechtsgenügender Weise zu ermitteln. Ferner wurde in diesem
+Entscheid festgehalten, dass es denn auch grundsätzlich der Veranlagungsbehörde
+obliege, ihre Berechnungen und deren Grundlagen im Einzelfall ausreichend zu sub-
+stanziieren und gegebenenfalls - zum Beispiel durch ein Sachverständigengutachten -
+den Nachweis zu leisten, dass das Berechnungsprogramm die ihm zugedachte Aufga-
+be erfüllen könne. Insoweit ihr dies nicht gelinge, laufe sie Gefahr, den geltend ge-
+machten steuerbaren Vermögensertrag nicht rechtsgenügend nachweisen zu können.
 
-    •   Emissions- und Mindest-Rückzahlungsbetrag
-    •   Laufzeit (Liberierungs- und Rückzahlungsdatum)
-    •   allfällige periodische Verzinsung
 
-Mit dieser Berechnung wird letztlich ermittelt, zu welchem Preis der Anleihensteil von
-einem Schuldner mit einem bestimmten Rating emittiert worden wäre, wenn der Anlei-
-hensteil separat (vom Optionsteil) emittiert worden wäre.
+Gutachten - Anhang IV zum Kreisschreiben Nr. 15   4

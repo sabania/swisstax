@@ -4,7 +4,7 @@ quelle: ar-stg
 jur: ar
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 1/3)"
+titel: "Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 1/2)"
 artikel: "Art. 175"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---

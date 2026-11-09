@@ -4,30 +4,19 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 94"
-seiten: "33"
+titel: "Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 3/3)"
+ziffer: "Anhang 5"
+seiten: "37"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 33
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 5 Währungswechsel · S. 37
 
-<!-- Seite 33 -->
-3. Fallbeispiel
-
-Die X AG hat ihr Domizil in der Schweiz. Sie ist an der SIX Swiss Exchange kotiert. Im Früh-
-jahr 2021 beschliesst die Gesellschaft einen Aktienrückkauf mit der Absicht der Kapitalherab-
-setzung (direkte Teilliquidation) von 2% des Aktienkapitals, welche zu Lasten der übrigen
-Reserven und dem anteiligen Nominalwert verbucht werden soll. Die zu vernichtenden Ak-
-tien werden für insgesamt 340 über die zweite Handelslinie angedient. Die geplante Kapital-
-herabsetzung würde folgendes Bild ergeben:
-
- Handelsbilanz / Eigenkapital   Bestand   Ausschüt- Bestand
-    tung
-
- Aktienkapital   1000   -20   980
- Kapitalreserven
- - KER bestätigt   800   800
- - übrige   400   400
- Gewinnreserven   4000   -320   3680
- Gewinn/Gewinnvortrag   800   800
-
- Total Eigenkapital   7000   6660
+Da die Kapitalgesellschaft ihr Aktienkapital auf den Beginn des Geschäftsjahrs 2023 in USD
+ändert, ist der Bestand der von der ESTV bestätigten KER zum Kurs nach Artikel 621 Absatz
+3 OR (hier 0.90) umzurechnen. Der so errechnete Bestand an KER von USD 245’222 ist der
+ESTV zu melden und wird durch diese als neuer Bestand in USD bestätigt und geführt. Die
+Kapitalgesellschaft weist die KER von USD 245’222 in ihrer Handelsbilanz als gesetzliche
+oder freie Kapitalreserven aus. In der Folge wird die gewinnsteuerunwirksame Wertdifferenz
+von vorliegend USD 115’522 handelsrechtlich in USD dem Gewinnvortrag oder den freien
+Gewinnreserven belastet. Ergibt sich jedoch ein Umrechnungsverlust, ist dieser handels-
+rechtlich dem Verlustvortrag oder den freien Gewinnreserven gutzuschreiben.

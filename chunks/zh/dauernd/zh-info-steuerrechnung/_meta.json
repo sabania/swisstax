@@ -455,23 +455,6 @@
 "zusammenfassung": null,
 "chunking": "überschriften",
 "vorher": "zh-info-steuerrechnung__c0025",
-"nachher": "zh-info-steuerrechnung__c0027"
-},
-{
-"id": "zh-info-steuerrechnung__c0027",
-"titel": "Weiterführende Informationen",
-"pfad": [
-"Steuerrechnung Privatpersonen",
-"Weiterführende Informationen"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-info-steuerrechnung__c0026",
 "nachher": null
 }
 ]

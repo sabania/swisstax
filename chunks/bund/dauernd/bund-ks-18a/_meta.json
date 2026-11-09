@@ -1,864 +1,1123 @@
 [
 {
 "id": "bund-ks-18a__c0001",
-"titel": "KS 18a – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Rechtliche Grundlagen der Säule 3a",
+"pfad": [
+"1. Rechtliche Grundlagen"
+],
+"seiten": [
+3
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Säule 3a",
+"gebundene Selbstvorsorge",
+"BVV 3",
+"Art. 82 BVG",
+"3. Säule"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Die gebundene Selbstvorsorge (Säule 3a) beruht auf Art. 82 BVG und BVV 3; anerkannte Vorsorgeformen sind gebundene Vorsorgeversicherung und gebundene Vorsorgevereinbarung mit Bankstiftung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-18a__c0002"
 },
 {
 "id": "bund-ks-18a__c0002",
-"titel": "KS 18a – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 2 Prüfung der Vertragsmodelle durch die ESTV",
+"pfad": [
+"2. Prüfung der Vertragsmodelle"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Vertragsmodelle",
+"ESTV Genehmigung",
+"Bankstiftung",
+"Vorsorgeversicherung",
+"Abzug verweigert"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Vertragsmodelle sind der ESTV vor Abschluss zur Prüfung einzureichen; ohne Genehmigung ist der Abzug der Vorsorgebeiträge zu verweigern.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0001",
 "nachher": "bund-ks-18a__c0003"
 },
 {
 "id": "bund-ks-18a__c0003",
-"titel": "KS 18a – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2 Genehmigte Bezeichnung «gebundene Vorsorge» – sonst kein Abzug",
+"pfad": [
+"2. Prüfung der Vertragsmodelle"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Genehmigung ESTV",
+"gebundene Vorsorgeversicherung",
+"gebundene Vorsorgevereinbarung",
+"Abzug verweigern"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Die Bezeichnungen «gebundene Vorsorgeversicherung» und «gebundene Vorsorgevereinbarung» dürfen nur für von der ESTV genehmigte Modelle verwendet werden, sonst ist der Abzug zu verweigern.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0002",
 "nachher": "bund-ks-18a__c0004"
 },
 {
 "id": "bund-ks-18a__c0004",
-"titel": "KS 18a – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 3 Kreis der Vorsorgenehmer (AHV-pflichtiges Einkommen, Grenzgänger)",
+"pfad": [
+"3. Kreis der Vorsorgenehmer"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Vorsorgenehmer",
+"AHV-pflichtiges Einkommen",
+"Grenzgänger",
+"Erwerbsersatzeinkommen",
+"wer darf Säule 3a"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Vorsorgeverträge der Säule 3a können nur Personen mit AHV-pflichtigem Erwerbs- oder Erwerbsersatzeinkommen abschliessen, auch Grenzgänger mit Wohnsitz im Ausland.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0003",
 "nachher": "bund-ks-18a__c0005"
 },
 {
 "id": "bund-ks-18a__c0005",
-"titel": "KS 18a – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3 Erwerbstätigkeit über das Referenzalter hinaus; Freibetrag; jährlicher Nachweis",
+"pfad": [
+"3. Kreis der Vorsorgenehmer"
+],
 "seiten": [
-1
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Weiterarbeiten nach AHV-Alter",
+"Freibetrag 16'800",
+"Art. 6quater AHVV",
+"Nachweis Erwerbstätigkeit",
+"fünf Jahre nach Referenzalter"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Abzug bis höchstens fünf Jahre nach Erreichen des Referenzalters, auch bei Einkommen unter dem AHV-Freibetrag (im Publikationszeitpunkt CHF 16'800 pro Arbeitgeber); der Nachweis der Erwerbstätigkeit ist jährlich zu erbringen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0004",
 "nachher": "bund-ks-18a__c0006"
 },
 {
 "id": "bund-ks-18a__c0006",
-"titel": "KS 18a – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 4 Begünstigte Personen",
+"pfad": [
+"4. Begünstigte Personen"
+],
 "seiten": [
-1
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4",
+"stichworte": [
+"Begünstigte",
+"Todesfall",
+"Ehegatte",
+"Lebenspartner",
+"Begünstigtenordnung"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Im Erlebensfall ist der Vorsorgenehmer begünstigt, danach Ehegatte/eingetragener Partner, dann direkte Nachkommen und weitere in Art. 2 BVV 3 genannte Personen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0005",
 "nachher": "bund-ks-18a__c0007"
 },
 {
 "id": "bund-ks-18a__c0007",
-"titel": "KS 18a – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 4 Kürzung der Leistung bei vorsätzlicher Herbeiführung des Todes",
+"pfad": [
+"4. Begünstigte Personen"
+],
 "seiten": [
-1
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4",
+"stichworte": [
+"Begünstigte Kürzung",
+"Art. 2a BVV 3",
+"Tod vorsätzlich herbeigeführt"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Die Vorsorgeeinrichtung kann die Leistung kürzen oder verweigern, wenn der Begünstigte den Tod vorsätzlich herbeigeführt hat; sie fällt dann den nächsten Begünstigten zu.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0006",
 "nachher": "bund-ks-18a__c0008"
 },
 {
 "id": "bund-ks-18a__c0008",
-"titel": "KS 18a – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 5.1 Abzugsberechtigung für Beiträge – Allgemeines",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.1 Allgemeines"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1",
+"stichworte": [
+"Abzug Säule 3a",
+"Art. 33 DBG",
+"Erwerbstätigkeit",
+"Selbständigerwerbende",
+"Rückerstattung überschiessende Beiträge",
+"Prämienbefreiung"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Beiträge sind nach Art. 33 Abs. 1 Bst. e DBG i.V.m. Art. 7 BVV 3 nur in begrenztem Umfang abziehbar und setzen Erwerbstätigkeit voraus; überschiessende Beiträge unterliegen der Rückerstattungspflicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0007",
 "nachher": "bund-ks-18a__c0009"
 },
 {
 "id": "bund-ks-18a__c0009",
-"titel": "KS 18a – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 5.1 Begrenzung inkl. Risikoversicherung; Unterbruch der Erwerbstätigkeit; Prämienbefreiung",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.1 Allgemeines"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1",
+"stichworte": [
+"Risikoversicherung Säule 3a",
+"Unterbruch Erwerbstätigkeit",
+"Mutterschaft",
+"Arbeitslosigkeit",
+"Prämienbefreiung",
+"vorzeitige Pensionierung"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Die Begrenzung nach Art. 7 BVV 3 umfasst auch Beiträge an eine ergänzende Risikoversicherung; bei vorübergehendem Unterbruch (Militär, Arbeitslosigkeit, Krankheit) bleibt die Abzugsberechtigung bestehen, bei Aufgabe der Erwerbstätigkeit entfällt sie.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0008",
 "nachher": "bund-ks-18a__c0010"
 },
 {
 "id": "bund-ks-18a__c0010",
-"titel": "KS 18a – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 5.1–5.2 Zeitpunkt der Einzahlung (31. Dezember); Anzahl Vorsorgekonten",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.1 Allgemeines / 5.2 Anzahl Konten"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1–5.2",
+"stichworte": [
+"Einzahlung 31. Dezember",
+"Gutschrift",
+"mehrere Säule 3a Konten",
+"Stichtag",
+"allgemeine Abzüge"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Der Beitrag muss bis spätestens 31. Dezember auf dem individuellen Vorsorgekonto gutgeschrieben sein; mehrere Konten sind möglich, die Gesamtsumme darf den Maximalbetrag nach Art. 7 Abs. 1 BVV 3 nicht übersteigen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0009",
 "nachher": "bund-ks-18a__c0011"
 },
 {
 "id": "bund-ks-18a__c0011",
-"titel": "KS 18a – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 5.3 Oberer Grenzbetrag (8 % / 40 %)",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.3 Oberer Grenzbetrag"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.3",
+"stichworte": [
+"oberer Grenzbetrag",
+"Art. 8 BVG",
+"8 Prozent",
+"40 Prozent",
+"Maximalbetrag Säule 3a"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Abziehbar sind jährlich 8 Prozent (Bst. a) bzw. 40 Prozent (Bst. b) des oberen Grenzbetrages nach Art. 8 Abs. 1 BVG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0010",
 "nachher": "bund-ks-18a__c0012"
 },
 {
 "id": "bund-ks-18a__c0012",
-"titel": "KS 18a – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 5.4 Abzug für in der 2. Säule Versicherte (kleine Säule 3a, 8 %)",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.4 Mit 2. Säule"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.4",
+"stichworte": [
+"kleine Säule 3a",
+"Pensionskasse",
+"8 Prozent oberer Grenzbetrag",
+"Ehegatten je einzeln",
+"Doppelverdiener"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Mit Anschluss an die 2. Säule sind die tatsächlich geleisteten Beiträge bis 8 Prozent des oberen Grenzbetrages abziehbar; beide erwerbstätigen Ehegatten können den Abzug je für sich geltend machen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0011",
 "nachher": "bund-ks-18a__c0013"
 },
 {
 "id": "bund-ks-18a__c0013",
-"titel": "KS 18a – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 5.5 Abzug ohne 2. Säule (grosse Säule 3a, 20 % / max. 40 %)",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.5 Ohne 2. Säule"
+],
 "seiten": [
-4
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.5",
+"stichworte": [
+"grosse Säule 3a",
+"ohne Pensionskasse",
+"20 Prozent Erwerbseinkommen",
+"40 Prozent",
+"Selbständigerwerbende",
+"Erwerbsausfall"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Nicht in der 2. Säule Versicherte können bis 20 Prozent des Erwerbseinkommens, höchstens 40 Prozent des oberen Grenzbetrages abziehen; bei Verlust aus Erwerbstätigkeit kein Abzug.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0012",
 "nachher": "bund-ks-18a__c0014"
 },
 {
 "id": "bund-ks-18a__c0014",
-"titel": "KS 18a – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 5.5 Begriff Erwerbseinkommen für die Säule 3a",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.5 Ohne 2. Säule"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.5",
+"stichworte": [
+"Erwerbseinkommen Definition",
+"Bruttolohn nach AHV-Abzug",
+"Gewinn Selbständigerwerbende",
+"Geschäftsjahr",
+"Wertzuwachsgewinne"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Erwerbseinkommen ist bei Unselbständigen der Bruttolohn nach Abzug der AHV/IV/EO/ALV-Beiträge, bei Selbständigen der Saldo der Gewinn- und Verlustrechnung nach Abzug der AHV-Beiträge, aber ohne Abzug von Vorsorgebeiträgen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0013",
 "nachher": "bund-ks-18a__c0015"
 },
 {
 "id": "bund-ks-18a__c0015",
-"titel": "KS 18a – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 5.6 Einkäufe in die Säule 3a – Voraussetzungen (ab 2025/2026)",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.6 Einkäufe in die Säule 3a"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.6",
+"stichworte": [
+"Einkauf Säule 3a",
+"Beitragslücke",
+"Art. 7a BVV 3",
+"Nachzahlung 3a",
+"zehn Jahre",
+"ab 2025"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a_einkauf",
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Seit 1. Januar 2025 (Art. 7a/7b BVV 3) können Beitragslücken ab Steuerjahr 2025 durch Einkäufe nachgezahlt werden, wenn der Maximalbeitrag im Einkaufsjahr geleistet wurde und noch keine Altersleistung aus der Säule 3a bezogen wurde.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0014",
 "nachher": "bund-ks-18a__c0016"
 },
 {
 "id": "bund-ks-18a__c0016",
-"titel": "KS 18a – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 5.6 Einkäufe Säule 3a – kumulative Voraussetzungen",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.6 Einkäufe in die Säule 3a"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.6",
+"stichworte": [
+"Einkauf Voraussetzungen",
+"Maximalbeitrag geleistet",
+"keine Altersleistung bezogen",
+"Beitragslücke ab 2025"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a_einkauf"
+],
+"zusammenfassung": "Voraussetzungen kumulativ: im Einkaufsjahr Maximalbeitrag geleistet, in den zehn Vorjahren Lücken (erst ab Steuerjahr 2025), in den betroffenen Jahren Beitragsberechtigung und noch keine Altersleistung aus der Säule 3a bezogen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0015",
 "nachher": "bund-ks-18a__c0017"
 },
 {
 "id": "bund-ks-18a__c0017",
-"titel": "KS 18a – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 5.6 Einkäufe Säule 3a – Umfang (kleiner Abzug), Jahresbeitragslücke, Fristen",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.6 Einkäufe in die Säule 3a"
+],
 "seiten": [
-4
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.6",
+"stichworte": [
+"Einkauf Säule 3a Maximum",
+"kleiner Abzug 8 Prozent",
+"Jahresbeitragslücke",
+"fünf Jahre nach Referenzalter",
+"mehrere Jahre ausgleichen"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a_einkauf"
+],
+"zusammenfassung": "Der Einkauf ist pro Steuerjahr höchstens im Umfang des kleinen Abzugs (8 Prozent des oberen Grenzbetrags) möglich; jede Jahresbeitragslücke darf nur durch einen einzigen Einkauf ausgeglichen werden, längstens bis fünf Jahre nach Referenzalter.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0016",
 "nachher": "bund-ks-18a__c0018"
 },
 {
 "id": "bund-ks-18a__c0018",
-"titel": "KS 18a – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 5.7 Sonderfall a: Mitarbeit im Beruf oder Betrieb des Ehegatten",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.7 Sonderfälle"
+],
 "seiten": [
-5
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.7 a",
+"stichworte": [
+"mitarbeitender Ehegatte",
+"eheliche Beistandspflicht",
+"Mitarbeit im Betrieb des Ehepartners",
+"AHV-Abrechnung Ehegatte"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Bei Mitarbeit im Beruf oder Betrieb des Ehegatten wird die eheliche Beistandspflicht vermutet; ein Abzug setzt ein darüber hinausgehendes Arbeitsverhältnis mit AHV/IV-Abrechnung auf den Namen des mithelfenden Ehegatten voraus.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0017",
 "nachher": "bund-ks-18a__c0019"
 },
 {
 "id": "bund-ks-18a__c0019",
-"titel": "KS 18a – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 5.7 Sonderfälle b–c: Selbständige mit 2.-Säule-Nebenverdienst; IV-Bezüger",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.7 Sonderfälle"
+],
 "seiten": [
-5
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.7 b–c",
+"stichworte": [
+"Selbständigerwerbender Nebenverdienst",
+"Freistellung BVV 2",
+"IV-Rente Säule 3a",
+"Resterwerbsfähigkeit"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Selbständigerwerbende mit 2.-Säule-Nebenverdienst können nur den kleinen Abzug (Art. 7 Abs. 1 Bst. a BVV 3) geltend machen, ausser sie lassen sich von der obligatorischen Versicherung freistellen; IV-Bezüger mit AHV-pflichtigem Resterwerbseinkommen können eine Säule 3a bilden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0018",
 "nachher": "bund-ks-18a__c0020"
 },
 {
 "id": "bund-ks-18a__c0020",
-"titel": "KS 18a – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 5.7 Sonderfall d: Quellensteuerpflichtige",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.7 Sonderfälle"
+],
 "seiten": [
-5
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.7 d",
+"stichworte": [
+"Quellensteuer",
+"nachträgliche ordentliche Veranlagung",
+"31. März",
+"Säule 3a Quellenbesteuerte"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Quellenbesteuerte mit Wohnsitz in der Schweiz können bis 31. März des Folgejahres schriftlich eine nachträgliche ordentliche Veranlagung beantragen, um Säule-3a-Einzahlungen abzuziehen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0019",
 "nachher": "bund-ks-18a__c0021"
 },
 {
 "id": "bund-ks-18a__c0021",
-"titel": "KS 18a – Abschnitt 21",
-"pfad": [],
+"titel": "Ziff. 5.7 Sonderfall e: Einzahlung bei Beendigung der Erwerbstätigkeit",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.7 Sonderfälle"
+],
 "seiten": [
-5
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.7 e",
+"stichworte": [
+"Ende Erwerbstätigkeit",
+"Pensionierung",
+"voller Beitrag",
+"Aufgabe Erwerbstätigkeit"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Im Jahr der Beendigung der Erwerbstätigkeit kann der volle Beitrag geleistet werden, die Einzahlung muss aber erfolgen, solange die Person noch erwerbstätig ist.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0020",
 "nachher": "bund-ks-18a__c0022"
 },
 {
 "id": "bund-ks-18a__c0022",
-"titel": "KS 18a – Abschnitt 22",
-"pfad": [],
+"titel": "Ziff. 5.7 Sonderfall f: Erwerbstätige nach Erreichen des Referenzalters",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.7 Sonderfälle"
+],
 "seiten": [
-5
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.7 f",
+"stichworte": [
+"Referenzalter überschritten",
+"AHV-Alter weiterarbeiten",
+"passive Zugehörigkeit",
+"Rentner Säule 3a",
+"20 Prozent"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a",
+"abzug.vorsorge.saeule3a_einkauf"
+],
+"zusammenfassung": "Nach dem Referenzalter erwerbstätige Rentenbezüger können bis fünf Jahre danach 20 Prozent des Erwerbseinkommens, höchstens 40 Prozent des oberen Grenzbetrags einzahlen; bei aktiver Versicherung in der Vorsorgeeinrichtung 8 Prozent.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0021",
 "nachher": "bund-ks-18a__c0023"
 },
 {
 "id": "bund-ks-18a__c0023",
-"titel": "KS 18a – Abschnitt 23",
-"pfad": [],
+"titel": "Ziff. 5.7 Sonderfall g: Wechsel unselbständig/selbständig im Jahr",
+"pfad": [
+"5. Abzugsberechtigung für Beiträge",
+"5.7 Sonderfälle"
+],
 "seiten": [
-6
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.7 g",
+"stichworte": [
+"Wechsel Selbständigkeit",
+"Jahresabschluss",
+"Anschluss Pensionskasse",
+"Übergang Erwerbstätigkeit"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Beim Wechsel zwischen unselbständiger und selbständiger Erwerbstätigkeit sind ordentliche Beiträge insgesamt auf den Maximalbetrag von 40% des oberen Grenzbetrages begrenzt; bis zu 20% des selbständigen Einkommens setzt einen Jahresabschluss voraus.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0022",
 "nachher": "bund-ks-18a__c0024"
 },
 {
 "id": "bund-ks-18a__c0024",
-"titel": "KS 18a – Abschnitt 24",
-"pfad": [],
+"titel": "Ziff. 6.1 Grundsätze der Ausrichtung (frühestens 5 Jahre vor Referenzalter)",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.1 Grundsätze"
+],
 "seiten": [
-6
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.1",
+"stichworte": [
+"Auszahlung Säule 3a",
+"Pensionierung",
+"Referenzalter",
+"Altersleistung",
+"70. Altersjahr",
+"Bezug 3a"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Altersleistungen dürfen frühestens fünf Jahre vor dem Referenzalter ausgerichtet werden; spätestens fünf Jahre nach Referenzalter bzw. mit Ende der Erwerbstätigkeit (vor dem 70. Altersjahr) müssen die Konten aufgelöst und besteuert werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0023",
 "nachher": "bund-ks-18a__c0025"
 },
 {
 "id": "bund-ks-18a__c0025",
-"titel": "KS 18a – Abschnitt 25",
-"pfad": [],
+"titel": "Ziff. 6.1 Besteuerung der Kapitalleistungen (Fünftel-Tarif, Verrechnungssteuer)",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.1 Grundsätze"
+],
 "seiten": [
-6
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.1",
+"stichworte": [
+"Kapitalleistung Besteuerung",
+"Jahressteuer ein Fünftel",
+"Art. 38 DBG",
+"Verrechnungssteuer",
+"gesonderte Besteuerung"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Kapitalleistungen aus der Säule 3a werden nach Art. 22 Abs. 1 i.V.m. Art. 38 DBG gesondert besteuert, mit voller Jahressteuer zu einem Fünftel der Tarife nach Art. 36 DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0024",
 "nachher": "bund-ks-18a__c0026"
 },
 {
 "id": "bund-ks-18a__c0026",
-"titel": "KS 18a – Abschnitt 26",
-"pfad": [],
+"titel": "Ziff. 6.2 a Vorzeitige Ausrichtung – Allgemeines",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.2 Vorzeitige Ausrichtung und Übertragung"
+],
 "seiten": [
-6
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2 a",
+"stichworte": [
+"vorzeitiger Bezug",
+"Ausnahmefälle Art. 3 BVV 3",
+"Prämienbefreiung",
+"Zinsen Gewinnanteile"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Die vorzeitige Ausrichtung ist nur in den Ausnahmefällen nach Art. 3 Abs. 2 und 3 BVV 3 möglich; die gesamte Leistung unterliegt der Besteuerung nach Art. 22 Abs. 1 i.V.m. Art. 38 DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0025",
 "nachher": "bund-ks-18a__c0027"
 },
 {
 "id": "bund-ks-18a__c0027",
-"titel": "KS 18a – Abschnitt 27",
-"pfad": [],
+"titel": "Ziff. 6.2 a Übertragung in andere Vorsorgeform (Art. 3a Abs. 1 Bst. b BVV 3)",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.2 Vorzeitige Ausrichtung und Übertragung"
+],
 "seiten": [
-7
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2 a",
+"stichworte": [
+"Übertragung Säule 3a",
+"Bankwechsel Vorsorgekonto",
+"Auflösung Vorsorgekonto",
+"kein Splitting",
+"steuerneutral"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Die Übertragung in eine andere anerkannte Vorsorgeform setzt die vollständige Auflösung des bisherigen Kontos voraus; ein Splitting bestehender Guthaben ist nicht möglich und es ist keine Steuerbescheinigung auszustellen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0026",
 "nachher": "bund-ks-18a__c0028"
 },
 {
 "id": "bund-ks-18a__c0028",
-"titel": "KS 18a – Abschnitt 28",
-"pfad": [],
+"titel": "Ziff. 6.2 a Teilbezug innerhalb fünf Jahre vor Referenzalter",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.2 Vorzeitige Ausrichtung und Übertragung"
+],
 "seiten": [
-7
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2 a",
+"stichworte": [
+"Teilbezug",
+"erster Bezug",
+"Konto saldieren",
+"Vorsorgekapital ausbezahlen",
+"Meldung Verrechnungssteuer"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Mit dem ersten (Teil-)Bezug innerhalb der fünf Jahre vor dem Referenzalter wird das gesamte Guthaben des betroffenen Kontos einkommenssteuerlich erfasst; das Konto ist zu saldieren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0027",
 "nachher": "bund-ks-18a__c0029"
 },
 {
 "id": "bund-ks-18a__c0029",
-"titel": "KS 18a – Abschnitt 29",
-"pfad": [],
+"titel": "Ziff. 6.2 b Vorbezug Wohneigentumsförderung (WEF) – Zweck und Häufigkeit",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.2 Vorzeitige Ausrichtung und Übertragung"
+],
 "seiten": [
-7
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2 b",
+"stichworte": [
+"WEF Vorbezug",
+"Wohneigentum Eigenbedarf",
+"Hypothek amortisieren",
+"Verpfändung",
+"alle fünf Jahre",
+"Ehegatten Eigentümer"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Die Altersleistung aus der Säule 3a kann für Erwerb, Beteiligung an Wohneigentum zum Eigenbedarf und Hypothekaramortisation vorbezogen werden; ein Vorbezug kann alle fünf Jahre geltend gemacht werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0028",
 "nachher": "bund-ks-18a__c0030"
 },
 {
 "id": "bund-ks-18a__c0030",
-"titel": "KS 18a – Abschnitt 30",
-"pfad": [],
+"titel": "Ziff. 6.2 b WEF – keine Rückzahlung, Verpfändung, Besteuerung, Ehegatten als Eigentümer",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.2 Vorzeitige Ausrichtung und Übertragung"
+],
 "seiten": [
-7
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2 b",
+"stichworte": [
+"WEF Vorbezug Besteuerung",
+"Verpfändung Säule 3a",
+"Ehegatten Grundbuch",
+"Miteigentümer",
+"Rückzahlung nicht möglich"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Eine Rückzahlung des WEF-Vorbezugs ist in der Säule 3a nicht möglich; im Zeitpunkt der Auszahlung wird nur der ausgerichtete Teilbezug besteuert, beide Ehegatten müssen im Grundbuch eingetragene Eigentümer sein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0029",
 "nachher": "bund-ks-18a__c0031"
 },
 {
 "id": "bund-ks-18a__c0031",
-"titel": "KS 18a – Abschnitt 31",
-"pfad": [],
+"titel": "Ziff. 6.2 b WEF-Vorbezug – Altersgrenze; Ziff. 6.2 c Barauszahlung bei Selbständigkeit",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.2 Vorzeitige Ausrichtung und Übertragung"
+],
 "seiten": [
-8
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.2 b–c",
+"stichworte": [
+"Altersgrenze WEF",
+"Barauszahlung selbständige Erwerbstätigkeit",
+"innerhalb eines Jahres",
+"gesamtes Guthaben"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Die Barauszahlung bei Aufnahme einer selbständigen Erwerbstätigkeit ist nur innerhalb eines Jahres seit der Aufnahme möglich und betrifft das gesamte Vorsorgeguthaben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0030",
 "nachher": "bund-ks-18a__c0032"
 },
 {
 "id": "bund-ks-18a__c0032",
-"titel": "KS 18a – Abschnitt 32",
-"pfad": [],
+"titel": "Ziff. 6.3 Einkauf in die 2. Säule mit Mitteln der Säule 3a",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.3 Einkauf in die 2. Säule"
+],
 "seiten": [
-8
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.3",
+"stichworte": [
+"Einkauf Pensionskasse mit 3a",
+"Übertragung steuerneutral",
+"Art. 3a Abs. 1 Bst. a BVV 3",
+"Säule 3a zu 2. Säule"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf",
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Die Übertragung von Säule 3a-Mitteln für den vollständigen Einkauf in eine steuerbefreite Vorsorgeeinrichtung ist steuerneutral; der Einkaufsbetrag kann nicht zusätzlich abgezogen werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0031",
 "nachher": "bund-ks-18a__c0033"
 },
 {
 "id": "bund-ks-18a__c0033",
-"titel": "KS 18a – Abschnitt 33",
-"pfad": [],
+"titel": "Ziff. 6.4 Rückzahlung WEF-Vorbezug der 2. Säule mit Säule-3a-Mitteln",
+"pfad": [
+"6. Ausrichtung und Besteuerung der Leistungen",
+"6.4 Rückzahlung WEF-Vorbezug"
+],
 "seiten": [
-8
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6.4",
+"stichworte": [
+"WEF Rückzahlung",
+"Pensionskasse Vorbezug zurückzahlen",
+"Säule 3a Rückzahlung nicht zulässig"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Ein WEF-Vorbezug aus der beruflichen Vorsorge kann nicht steuerneutral mit Mitteln der Säule 3a zurückbezahlt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0032",
 "nachher": "bund-ks-18a__c0034"
 },
 {
 "id": "bund-ks-18a__c0034",
-"titel": "KS 18a – Abschnitt 34",
-"pfad": [],
+"titel": "Ziff. 7 Reinvestition der Altersleistung aus der 2. Säule in die Säule 3a",
+"pfad": [
+"7. Reinvestition der Altersleistung"
+],
 "seiten": [
-8
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7",
+"stichworte": [
+"Pensionskassenkapital in 3a",
+"Freizügigkeitsguthaben",
+"keine Übertragung in 3a",
+"Maximalbetrag"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Leistungen aus der 2. Säule oder Freizügigkeit können nicht direkt in die Säule 3a übertragen werden; Beiträge sind nur bis zum Maximalbetrag und im Umfang eines Säule-3a-Einkaufs abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0033",
 "nachher": "bund-ks-18a__c0035"
 },
 {
 "id": "bund-ks-18a__c0035",
-"titel": "KS 18a – Abschnitt 35",
-"pfad": [],
+"titel": "Ziff. 8 Bescheinigungspflicht der Vorsorgeträger (Einkäufe)",
+"pfad": [
+"8. Bescheinigungspflicht"
+],
 "seiten": [
-8
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8",
+"stichworte": [
+"Bescheinigung Säule 3a",
+"Art. 8 BVV 3",
+"Bescheinigung Einkauf",
+"Steuerbescheinigung 3a"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a",
+"abzug.vorsorge.saeule3a_einkauf"
+],
+"zusammenfassung": "Versicherungseinrichtungen und Bankstiftungen müssen Beiträge und Leistungen bescheinigen; bei Einkäufen sind zusätzlich Datum, Höhe, ausgeglichene Beitragslücken-Jahre und bereits geleistete Beiträge anzugeben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0034",
 "nachher": "bund-ks-18a__c0036"
 },
 {
 "id": "bund-ks-18a__c0036",
-"titel": "KS 18a – Abschnitt 36",
-"pfad": [],
+"titel": "Ziff. 8 Meldung der Leistungen an die ESTV; Bemerkungen bei Prämienbefreiung/Rückzahlung",
+"pfad": [
+"8. Bescheinigungspflicht"
+],
 "seiten": [
-9
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8",
+"stichworte": [
+"Meldung Kapitalleistungen",
+"Formular 563",
+"Rentenmeldung 565",
+"Prämienbefreiung Bemerkung"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Ausgerichtete Leistungen sind der ESTV mit Formular 563 «Meldung über Kapitalleistungen» bzw. 565 «Rentenmeldung» zu melden; Prämienbefreiung und Rückzahlungen zu viel einbezahlter Beiträge sind unter «Bemerkungen» anzugeben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0035",
 "nachher": "bund-ks-18a__c0037"
 },
 {
 "id": "bund-ks-18a__c0037",
-"titel": "KS 18a – Abschnitt 37",
-"pfad": [],
+"titel": "Ziff. 8 Mitteilungspflicht bei Übertragung (zehn Jahre Beiträge und Einkäufe)",
+"pfad": [
+"8. Bescheinigungspflicht"
+],
 "seiten": [
-9
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8",
+"stichworte": [
+"Übertragung Mitteilung",
+"Beiträge letzte zehn Jahre",
+"Einkäufe Jahresbeitragslücke",
+"neue Vorsorgeeinrichtung"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a",
+"abzug.vorsorge.saeule3a_einkauf"
+],
+"zusammenfassung": "Bei Übertragung muss die abtretende Einrichtung der neuen die ordentlichen Beiträge und Einkäufe der letzten zehn Jahre mitteilen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0036",
 "nachher": "bund-ks-18a__c0038"
 },
 {
 "id": "bund-ks-18a__c0038",
-"titel": "KS 18a – Abschnitt 38",
-"pfad": [],
+"titel": "Ziff. 9.1 Folgen unzulässiger Einzahlungen – Rückerstattung",
+"pfad": [
+"9. Folgen unzulässiger Einzahlungen",
+"9.1 Für den Vorsorgenehmer"
+],
 "seiten": [
-9
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.1",
+"stichworte": [
+"zu hohe Einzahlung",
+"Rückerstattung",
+"überhöhte Beiträge",
+"Vermögenssteuer Befreiung",
+"Zins nicht zurückerstattet"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Bei überhöhten Einzahlungen wird der Steuerpflichtige aufgefordert, sich den Überschussbetrag (nominell, ohne Zins) zurückerstatten zu lassen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0037",
 "nachher": "bund-ks-18a__c0039"
 },
 {
 "id": "bund-ks-18a__c0039",
-"titel": "KS 18a – Abschnitt 39",
-"pfad": [],
+"titel": "Ziff. 9.1 Säule-3a-Police: Risikoprämie; Verzicht auf Rückforderung",
+"pfad": [
+"9. Folgen unzulässiger Einzahlungen",
+"9.1 Für den Vorsorgenehmer"
+],
 "seiten": [
-9
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.1",
+"stichworte": [
+"Risikoversicherung",
+"Säule 3a Police",
+"Sparteil",
+"Verzicht Rückforderung",
+"Bezug voll steuerbar"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Bei Policen kann nur der Sparteil zurückerstattet werden; wird auf die Rückforderung verzichtet, wird bei späterer Auszahlung das gesamte Guthaben besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0038",
 "nachher": "bund-ks-18a__c0040"
 },
 {
 "id": "bund-ks-18a__c0040",
-"titel": "KS 18a – Abschnitt 40",
-"pfad": [],
+"titel": "Ziff. 9.2 Folgen für Bankstiftungen",
+"pfad": [
+"9. Folgen unzulässiger Einzahlungen",
+"9.2 Für Bankstiftungen"
+],
 "seiten": [
-9
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9.2",
+"stichworte": [
+"Bankstiftung",
+"Steuerbefreiung Verlust",
+"Art. 6 BVV 3"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Bankstiftungen, die zu hohe Beiträge entgegennehmen, können den Anspruch auf Steuerbefreiung verlieren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0039",
 "nachher": "bund-ks-18a__c0041"
 },
 {
 "id": "bund-ks-18a__c0041",
-"titel": "KS 18a – Abschnitt 41",
-"pfad": [],
+"titel": "Ziff. 10 Anlage in Wertschriften; Rückerstattung der Verrechnungssteuer",
+"pfad": [
+"10. Anlage in Wertschriften"
+],
 "seiten": [
-10
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Wertschriftendepot Säule 3a",
+"Verrechnungssteuer Rückerstattung",
+"Bankstiftung Antrag",
+"Art. 53 VStV"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Bei individuellen Wertschriftendepots hat die Bankstiftung, nicht der Vorsorgenehmer, Anspruch auf Rückerstattung der Verrechnungssteuer.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-18a__c0040",
 "nachher": "bund-ks-18a__c0042"
 },
 {
 "id": "bund-ks-18a__c0042",
-"titel": "KS 18a – Abschnitt 42",
-"pfad": [],
-"seiten": [
-10
+"titel": "Ziff. 11 Besteuerung bei Leistungen im Todesfall; Ziff. 12 Inkrafttreten (1. Januar 2026)",
+"pfad": [
+"11. Todesfall / 12. Inkrafttreten"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0041",
-"nachher": "bund-ks-18a__c0043"
-},
-{
-"id": "bund-ks-18a__c0043",
-"titel": "KS 18a – Abschnitt 43",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0042",
-"nachher": "bund-ks-18a__c0044"
-},
-{
-"id": "bund-ks-18a__c0044",
-"titel": "KS 18a – Abschnitt 44",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0043",
-"nachher": "bund-ks-18a__c0045"
-},
-{
-"id": "bund-ks-18a__c0045",
-"titel": "KS 18a – Abschnitt 45",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0044",
-"nachher": "bund-ks-18a__c0046"
-},
-{
-"id": "bund-ks-18a__c0046",
-"titel": "KS 18a – Abschnitt 46",
-"pfad": [],
-"seiten": [
-11
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0045",
-"nachher": "bund-ks-18a__c0047"
-},
-{
-"id": "bund-ks-18a__c0047",
-"titel": "KS 18a – Abschnitt 47",
-"pfad": [],
-"seiten": [
-11
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0046",
-"nachher": "bund-ks-18a__c0048"
-},
-{
-"id": "bund-ks-18a__c0048",
-"titel": "KS 18a – Abschnitt 48",
-"pfad": [],
-"seiten": [
-11
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0047",
-"nachher": "bund-ks-18a__c0049"
-},
-{
-"id": "bund-ks-18a__c0049",
-"titel": "KS 18a – Abschnitt 49",
-"pfad": [],
-"seiten": [
-11
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0048",
-"nachher": "bund-ks-18a__c0050"
-},
-{
-"id": "bund-ks-18a__c0050",
-"titel": "KS 18a – Abschnitt 50",
-"pfad": [],
-"seiten": [
-12
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0049",
-"nachher": "bund-ks-18a__c0051"
-},
-{
-"id": "bund-ks-18a__c0051",
-"titel": "KS 18a – Abschnitt 51",
-"pfad": [],
-"seiten": [
-12
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0050",
-"nachher": "bund-ks-18a__c0052"
-},
-{
-"id": "bund-ks-18a__c0052",
-"titel": "KS 18a – Abschnitt 52",
-"pfad": [],
-"seiten": [
-12
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0051",
-"nachher": "bund-ks-18a__c0053"
-},
-{
-"id": "bund-ks-18a__c0053",
-"titel": "KS 18a – Abschnitt 53",
-"pfad": [],
-"seiten": [
-12
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0052",
-"nachher": "bund-ks-18a__c0054"
-},
-{
-"id": "bund-ks-18a__c0054",
-"titel": "KS 18a – Abschnitt 54",
-"pfad": [],
 "seiten": [
 13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-18a__c0053",
+"ziffer": "11–12",
+"stichworte": [
+"Todesfall Säule 3a",
+"Erbmasse",
+"Begünstigte Einkommenssteuer",
+"Inkrafttreten 1. Januar 2026",
+"ersetzt KS 18"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge",
+"info.schenkungen_erbschaften"
+],
+"zusammenfassung": "Säule-3a-Guthaben gehören nicht zur Erbmasse, die Auszahlung an Begünstigte unterliegt stets der Einkommenssteuer; das Kreisschreiben gilt ab 1. Januar 2026 und ersetzt das Kreisschreiben Nr. 18 vom 17. Juli 2008.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-18a__c0041",
 "nachher": null
 }
 ]

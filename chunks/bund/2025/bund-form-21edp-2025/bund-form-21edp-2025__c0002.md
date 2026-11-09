@@ -4,28 +4,24 @@ quelle: bund-form-21edp-2025
 jur: bund
 jahre: [2025]
 typ: formular
-titel: "Formular 21 EDP 2025 – Abschnitt 2"
+titel: "Ziff. 1 Beiträge an Einrichtungen der beruflichen Vorsorge 2. Säule (Felder d–k) (Teil 1/2)"
+ziffer: "1"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · S. 1
+> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › 1. Beiträge 2. Säule · S. 1
 
-<!-- Seite 1 -->
-    Von der versicherten Person der Steuererklärung beizulegen
- Form. 21 EDP dfi/A4
-    A joindre à la déclaration d'impôt par l'assuré
-    Da allegare dall'assicurato alla dichiarazione d'imposta
-
-Bescheinigung über Vorsorgebeiträge Art. 81 Abs. 3 BVG, Art. 8 BVV 3
-Attestation concernant les cotisations de prévoyance art. 81, 3e al., LPP, art. 8 OPP 3
-Attestazione concernente i contributi di previdenza art. 81 cpv. 3 LPP, art. 8 OPP 3
-a Name und Sitz der Vorsorgeeinrichtung / Versicherungseinrichtung / Bankstiftung   Name, Vorname, Adresse – Nom, prénom, adresse – Cognome, nome, indirizzo
-  Nom et siège de l'institution de prévoyance / institution d'assurance / fondation bancaire
-  Nome e sede dell'istituto di previdenza / istituto di assicurazione / fondazione bancaria
-
-b AHV-Versichertennummer
-  Numéro d'assuré AVS   756.
-  Numero d'assicurato dell'AVS
-c Geburtsdatum der versicherten Person
-  Date de naissance de l'assuré
-  Data di nascita dell'assicurato
+Wir bestätigen, von der genannten versicherten Person erhalten zu haben – Nous confirmons avoir reçu de l‘assuré précité – Attestiamo di aver ricevuto dall‘assicurato indicato:
+1. Beiträge an Einrichtungen der beruflichen Vorsorge (2. Säule) 1   Überall nur ganze Franken angeben
+   Cotisations à des institutions de prévoyance professionnelle (2e pilier) 1   Indiquer partout seulement les francs entiers
+    Indicare sempre solo i franchi interi
+   Contributi a istituti di previdenza professionale (2o pilastro) 1
+    k Ordentl. und obligatorische
+    Erhöhungsbeiträge
+d Datum   Beiträge entrichtet   h Beginn des Vorsorgeverhältnisses 2   i Fälligkeit der Altersleistungen   j Freiwillige Einkaufsbeiträge
+    Cotisations ord. et obligatoire
+  Date   Cotisations payées   Début du rapport de prévoyance 2   Echéance des prestations de vieillesse   Contributions de rachat volontaires
+    sur augmentations
+  Data   Contributi pagati   Inizio del rapporto di previdenza 2   Scadenza delle prestazioni di vecchiaia   Contributi di riscatto volontari
+    Contributi ordinari e obbligat.
+    su aumenti

@@ -4,23 +4,28 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 53"
-seiten: "13"
+titel: "Anhang V Entscheidungsbaum ausländische KKA (Teil 2) (Teil 2/2)"
+ziffer: "Anhang V"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang V Entscheidungsbaum · S. 18
 
-    Fondsleitung und Depot-   der Erfolgsrechnung belastet
-    bank   wird:
-    quotenmässige Aufteilung *)
-    Aufwand vor Steuern   2’134   42   2’176
-    Gewinn vor Steuern   3’866   458   4’324
-    Kapitalsteuer (Staat)   Annahme; Bemessungsgrund-   -176
-    lage: Reinvermögen nach den
-    Bestimmungen für nat. Perso-
-    nen am Ende der Steuerperiode
-    Gewinn vor Gewinnsteuer   = 115%, da die Gewinnsteuer   3’690
-    abziehbar ist
-    Gewinnsteuer (Staat/Bund)   Annahme: Steuersatz Staat und   -481
-    Bund 15%
-    Steuerbarer Gewinn   = 100%   3‘209
+    nein   ja   AkK, welche für CH-Steuerzwecke wie eine SICAF besteuert wird:
+    Rückgaberecht
+    UA: Primärmarkt unterliegt
+    des Anlegers   SICAF-ähnlich?
+    Befreiter Anleger für UA-Zwecke: Ja
+    vorhanden5?
+    Einkommens-/Gewinnsteuerzwecke: Nicht-transparente Besteuerung
+
+    nein   AkK, welche für CH-Steuerzwecke wie eine KmGK besteuert wird:
+    ja   UA: Primärmarkt unterliegt
+    Befreiter Anleger für UA-Zwecke: Ja
+    Einkommens-/Gewinnsteuerzwecke: Transparente Besteuerung
+
+    AkK, welche für CH-Steuerzwecke wie ein FCP resp. eine SICAV besteuert
+    wird:
+    UA: Primärmarkt unterliegt
+    Befreiter Anleger für UA-Zwecke: Ja
+    Einkommens-/Gewinnsteuerzwecke: Transparente Besteuerung

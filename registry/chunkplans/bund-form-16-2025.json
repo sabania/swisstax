@@ -1,0 +1,51 @@
+{
+ "id": "bund-form-16-2025",
+ "hinweise": [
+  "Seite 1: Formularraster mit Spalten Liegenschaft A/B/C, Beträge leer; Feldbezeichnungen und Einheiten zusammengeklebt."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 16 – Angaben über die Liegenschaft (A, B, C)",
+   "pfad": [
+    "Einkünfte aus Liegenschaften"
+   ],
+   "stichworte": [
+    "Liegenschaft",
+    "Steuerwert",
+    "Brandversicherungswert",
+    "Alter Gebäude",
+    "Formular 16",
+    "Ferienhaus"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Lage, Art, Gebäudealter, Bodenfläche, Brandversicherungswert und kantonaler Steuerwert je Liegenschaft."
+  },
+  {
+   "start": 56,
+   "titel": "Formular 16 – Ertrag, Unterhaltskosten, Nettoertrag (Übertrag Seite 2 Ziffer 8.4)",
+   "pfad": [
+    "Einkünfte aus Liegenschaften",
+    "Ertrag"
+   ],
+   "ziffer": "8.4",
+   "stichworte": [
+    "Mietwert",
+    "Mietertrag",
+    "Pauschalabzug Liegenschaft",
+    "Unterhaltskosten",
+    "Nettoertrag",
+    "Baurechtszins"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "einkommen.liegenschaften.mietertrag",
+    "abzug.liegenschaft.unterhalt",
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Total Rohertrag abzüglich tatsächlicher Kosten oder Pauschalabzug ergibt Nettoertrag; Nettoertrag sämtlicher Liegenschaften zu übertragen in die Steuererklärung, Seite 2, Ziffer 8.4."
+  }
+ ]
+}

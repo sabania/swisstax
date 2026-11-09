@@ -4,7 +4,7 @@ quelle: zh-stg-2026
 jur: zh
 jahre: [2026]
 typ: gesetz
-titel: "§ 47 StG ZH – VIII.[^70] Steuertarif (Teil 1/3)"
+titel: "§ 47 StG ZH – VIII.[^70] Steuertarif (Teil 1/2)"
 artikel: "§ 47"
 seiten: "24-25"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}

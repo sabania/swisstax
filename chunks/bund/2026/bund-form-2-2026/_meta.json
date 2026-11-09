@@ -1,208 +1,470 @@
 [
 {
 "id": "bund-form-2-2026__c0001",
-"titel": "Formular 2 2026 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Formular 2 2026: Kopf – Zustelladresse, Vertreter, Einsendefrist",
+"pfad": [
+"Kopf"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuererklärung",
+"Zustelladresse",
+"Vertreter",
+"Vollmacht",
+"Einsendefrist",
+"Wegleitung"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Titelblatt der Steuererklärung 2026 für natürliche Personen (Staats-/Gemeindesteuern und direkte Bundessteuer) mit Zustelladresse und Vertreter/in.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-form-2-2026__c0002"
 },
 {
 "id": "bund-form-2-2026__c0002",
-"titel": "Formular 2 2026 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Personalien, Kinder und unterstützte Personen (Mindestbeitrag CHF 6800) (Teil 1/2)",
+"pfad": [
+"Seite 1",
+"Personalien, Berufs- und Familienverhältnisse"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Personalien",
+"Kinder",
+"Unterstützte Personen",
+"Zivilstand",
+"Arbeitgeber",
+"Unterhaltsbeiträge andere Elternteil"
+],
+"positionen": [
+"personalien",
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung"
+],
+"zusammenfassung": "Personalien am 31. Dezember 2026; Kinder in Ausbildung und erwerbsunfähige Personen, die mit mindestens CHF 6800 pro Jahr unterstützt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0001",
 "nachher": "bund-form-2-2026__c0003"
 },
 {
 "id": "bund-form-2-2026__c0003",
-"titel": "Formular 2 2026 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1 Personalien, Kinder und unterstützte Personen (Mindestbeitrag CHF 6800) (Teil 2/2)",
+"pfad": [
+"Seite 1",
+"Personalien, Berufs- und Familienverhältnisse"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Personalien",
+"Kinder",
+"Unterstützte Personen",
+"Zivilstand",
+"Arbeitgeber",
+"Unterhaltsbeiträge andere Elternteil"
+],
+"positionen": [
+"personalien",
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0002",
 "nachher": "bund-form-2-2026__c0004"
 },
 {
 "id": "bund-form-2-2026__c0004",
-"titel": "Formular 2 2026 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 1–2 Einkünfte aus unselbständiger und selbständiger Erwerbstätigkeit",
+"pfad": [
+"Seite 2",
+"Einkünfte"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–2",
+"stichworte": [
+"Nettolohn",
+"Lohnausweis",
+"Haupterwerb",
+"Nebenerwerb",
+"selbständig",
+"Landwirtschaft"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.unselbstaendig.nebenerwerb",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Nettolohn aus Haupt- und Nebenerwerb je Person (Lohnausweise beilegen) sowie Einkünfte aus selbständiger Erwerbstätigkeit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0003",
 "nachher": "bund-form-2-2026__c0005"
 },
 {
 "id": "bund-form-2-2026__c0005",
-"titel": "Formular 2 2026 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3 Einkünfte aus Sozial- und anderen Versicherungen (AHV/IV, Renten, Taggelder, Familienzulagen)",
+"pfad": [
+"Seite 2",
+"Einkünfte"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"AHV",
+"IV",
+"Rente",
+"Pension",
+"Taggelder",
+"Familienzulagen",
+"Leibrente"
+],
+"positionen": [
+"einkommen.sozialversicherung.ahv_iv",
+"einkommen.vorsorge.renten",
+"einkommen.ersatz.taggelder",
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "AHV/IV-Renten zu 100 %, Renten/Pensionen mit steuerbarem Prozentsatz, Erwerbsausfallentschädigungen und direkt ausbezahlte Kinder- und Familienzulagen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0004",
 "nachher": "bund-form-2-2026__c0006"
 },
 {
 "id": "bund-form-2-2026__c0006",
-"titel": "Formular 2 2026 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 4–5 Wertschriftenertrag, Lotteriegewinne, Unterhaltsbeiträge, übrige Einkünfte",
+"pfad": [
+"Seite 2",
+"Einkünfte"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4–5",
+"stichworte": [
+"Wertschriften",
+"Zinsen",
+"Dividenden",
+"Lotteriegewinne",
+"Alimente",
+"Erbschaften",
+"Kapitalabfindung"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.lotterie_gewinne",
+"einkommen.unterhaltsbeitraege",
+"einkommen.erbschaften_unverteilt",
+"einkommen.uebrige",
+"einkommen.kapitalabfindung_wiederkehrend"
+],
+"zusammenfassung": "Wertschriftenertrag und Gewinne laut Wertschriftenverzeichnis; erhaltene Unterhaltsbeiträge, Ertrag unverteilter Erbschaften, weitere Einkünfte und Kapitalabfindungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0005",
 "nachher": "bund-form-2-2026__c0007"
 },
 {
 "id": "bund-form-2-2026__c0007",
-"titel": "Formular 2 2026 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 6–9 Zwischentotal, Einkünfte aus Liegenschaften (Eigenmietwert), Total der Einkünfte",
+"pfad": [
+"Seite 2",
+"Einkünfte"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6–9",
+"stichworte": [
+"Eigenmietwert",
+"Liegenschaft",
+"Mietzinseinnahmen",
+"Unterhalt pauschal",
+"Formular 16",
+"Total der Einkünfte"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.unterhalt",
+"berechnung.total"
+],
+"zusammenfassung": "Nur von Liegenschaftsbesitzern auszufüllen: Eigenmietwert, Mietzinseinnahmen, Abzug Unterhalt und Abgaben; Total der Einkünfte zu übertragen auf Seite 3, Ziffer 18.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0006",
 "nachher": "bund-form-2-2026__c0008"
 },
 {
 "id": "bund-form-2-2026__c0008",
-"titel": "Formular 2 2026 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 10–13 Abzüge: Berufskosten, Schuldzinsen, Unterhaltsbeiträge, Säule 3a (inkl. Einkauf ab 2026)",
+"pfad": [
+"Seite 3",
+"Abzüge"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10–13",
+"stichworte": [
+"Berufskosten",
+"Schuldzinsen",
+"Unterhaltsbeiträge",
+"Säule 3a",
+"3. Säule",
+"Alimente"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.schuldzinsen",
+"abzug.unterhaltsbeitraege",
+"abzug.vorsorge.saeule3a",
+"abzug.vorsorge.saeule3a_einkauf"
+],
+"zusammenfassung": "Berufskosten (Formular 9), Schuldzinsen, Unterhaltsbeiträge und Rentenleistungen sowie Beiträge Säule 3a inkl. Einkauf Person 1/2 (Ziff. 13.3/13.4) sind abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0007",
 "nachher": "bund-form-2-2026__c0009"
 },
 {
 "id": "bund-form-2-2026__c0009",
-"titel": "Formular 2 2026 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 14 Versicherungsprämien und Zinsen von Sparkapitalien – Abzugsmaxima",
+"pfad": [
+"Seite 3",
+"Abzüge"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14",
+"stichworte": [
+"Versicherungsprämien",
+"Krankenkasse",
+"Sparzinsen",
+"Versicherungsabzug",
+"CHF 3 700",
+"CHF 1 800",
+"pro Kind"
+],
+"positionen": [
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Abzug maximal: Verheiratete mit Säule 2/3a CHF 3 700, ohne CHF 5 550; übrige Steuerpflichtige mit CHF 1 800, ohne CHF 2 700; zusätzlich CHF 700 pro Kind bzw. unterstützte Person.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0008",
 "nachher": "bund-form-2-2026__c0010"
 },
 {
 "id": "bund-form-2-2026__c0010",
-"titel": "Formular 2 2026 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 15–17 Weitere Abzüge, Zweiverdienerabzug (CHF 8 600–14 100), Total Abzüge",
+"pfad": [
+"Seite 3",
+"Abzüge"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "15–17",
+"stichworte": [
+"Weitere Abzüge",
+"Kinderdrittbetreuung",
+"Weiterbildung",
+"Parteispenden",
+"Zweiverdienerabzug",
+"CHF 25 800",
+"Behinderungskosten"
+],
+"positionen": [
+"abzug.ahv_nichterwerbstaetige",
+"abzug.weiterbildung",
+"abzug.vorsorge.saeule2_einkauf",
+"abzug.parteispenden",
+"abzug.behinderungskosten",
+"abzug.drittbetreuung",
+"abzug.verwaltungskosten_wertschriften",
+"abzug.uebrige",
+"abzug.zweiverdiener",
+"berechnung.total"
+],
+"zusammenfassung": "Weitere Abzüge u.a. Kinderdrittbetreuung je Kind maximal CHF 25 800; Zweiverdienerabzug 50 % des niedrigeren Erwerbseinkommens, minimal CHF 8 600, maximal CHF 14 100.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0009",
 "nachher": "bund-form-2-2026__c0011"
 },
 {
 "id": "bund-form-2-2026__c0011",
-"titel": "Formular 2 2026 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 18–24 Einkommensberechnung, Sozialabzüge (Kinder CHF 6 800, Verheiratete CHF 2 800), BGSA",
+"pfad": [
+"Seite 3",
+"Einkommensberechnung"
+],
 "seiten": [
-4
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "18–24",
+"stichworte": [
+"Nettoeinkommen",
+"Reineinkommen",
+"Krankheitskosten 5 %",
+"Spenden 20 %",
+"Kinderabzug",
+"Verheiratetenabzug",
+"steuerbares Einkommen",
+"Schwarzarbeit BGSA"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.spenden",
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung",
+"sozialabzug.verheiratete",
+"einkommen.vereinfachtes_verfahren",
+"berechnung.total"
+],
+"zusammenfassung": "Krankheits-/Unfallkosten über 5 % des Nettoeinkommens, Zuwendungen max. 20 %; Kinderabzug und Abzug für unterstützte Personen je CHF 6 800, Verheiratetenabzug CHF 2 800.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0010",
 "nachher": "bund-form-2-2026__c0012"
 },
 {
 "id": "bund-form-2-2026__c0012",
-"titel": "Formular 2 2026 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 25 Bewegliches Vermögen: Wertschriften, Edelmetalle, Versicherungen, Fahrzeuge",
+"pfad": [
+"Seite 4",
+"Vermögen"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "25",
+"stichworte": [
+"Vermögen",
+"Wertschriften",
+"Bargeld",
+"Gold",
+"Rückkaufswert",
+"Motorfahrzeuge",
+"Steuerwert 31.12."
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"vermoegen.bargeld_edelmetalle",
+"vermoegen.lebensversicherungen",
+"vermoegen.fahrzeuge",
+"vermoegen.erbschaften_beteiligungen",
+"vermoegen.uebrige"
+],
+"zusammenfassung": "Steuerwerte am 31.12.2026: Wertschriften und Guthaben, Bargeld/Edelmetalle, Rückkaufswert Lebensversicherungen, Motorfahrzeuge, unverteilte Erbschaften, übrige Vermögenswerte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-2-2026__c0011",
 "nachher": "bund-form-2-2026__c0013"
 },
 {
 "id": "bund-form-2-2026__c0013",
-"titel": "Formular 2 2026 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 26–30 Liegenschaften, Selbständigerwerbende, Total Vermögenswerte, Schulden, Reinvermögen",
+"pfad": [
+"Seite 4",
+"Vermögen"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "26–30",
+"stichworte": [
+"Liegenschaften Steuerwert",
+"Schulden",
+"Reinvermögen",
+"Eigenkapital",
+"Schuldenverzeichnis",
+"Hypothek"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"schulden.privat",
+"berechnung.total"
+],
+"zusammenfassung": "Liegenschaften zum kantonalen Steuerwert, Geschäftsvermögen, Total der Vermögenswerte abzüglich Schulden ergibt das Reinvermögen (Ziff. 30).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-form-2-2026__c0012",
+"nachher": "bund-form-2-2026__c0014"
+},
+{
+"id": "bund-form-2-2026__c0014",
+"titel": "Schenkungen, Erbvorbezüge, Erbschaften sowie Angaben zu Kapitalleistungen aus Vorsorge",
+"pfad": [
+"Seite 4",
+"Ergänzende Angaben"
+],
 "seiten": [
 4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-form-2-2026__c0012",
+"stichworte": [
+"Schenkung",
+"Erbschaft",
+"Erbvorbezug",
+"Kapitalleistung",
+"Säule 3a Auszahlung",
+"Pensionskasse"
+],
+"positionen": [
+"info.schenkungen_erbschaften",
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Angaben zu im Jahr 2026 erhaltenen oder ausgerichteten Schenkungen/Erbschaften und zu Kapitalleistungen aus AHV/IV, 2. Säule, Säule 3a und Freizügigkeit.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-form-2-2026__c0013",
+"nachher": "bund-form-2-2026__c0015"
+},
+{
+"id": "bund-form-2-2026__c0015",
+"titel": "Bemerkungen, Erklärung der Vollständigkeit und Unterschrift",
+"pfad": [
+"Seite 4",
+"Unterschrift"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Unterschrift",
+"Bemerkungen",
+"wahrheitsgetreu",
+"Ort und Datum"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bestätigung, dass die Steuererklärung vollständig und wahrheitsgetreu ausgefüllt ist, mit Unterschrift beider Personen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-form-2-2026__c0014",
 "nachher": null
 }
 ]

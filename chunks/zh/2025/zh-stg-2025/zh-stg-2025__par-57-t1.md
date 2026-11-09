@@ -4,7 +4,7 @@ quelle: zh-stg-2025
 jur: zh
 jahre: [2025]
 typ: gesetz
-titel: "§ 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 1/3)"
+titel: "§ 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 1/2)"
 artikel: "§ 57"
 seiten: "27-28"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}

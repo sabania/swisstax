@@ -4,21 +4,33 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 175"
-seiten: "46"
+titel: "Ziff. 8.2 Beispiel – Wechsel Tessin (Jahresmodell) nach Bern (Monatsmodell) (Teil 1/2)"
+ziffer: "8.2"
+seiten: "55"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 46
+> Bund · Steuerjahr 2025/2026 · KS 45 · 8 Kantonswechsel › 8.2 Jahresmodell zu Monatsmodell · S. 55
 
-    Änderung des Zivilstands und anschliessender Geburt eines Kindes während des Kalenderjahres:
-    4. Ein lediger Steuerpflichtiger heiratet am 26. Mai 2021. Am 21. Oktober desselben Jahres kommt das Kind
-    des Ehepaars zur Welt. Der ledige Steuerpflichtige übt eine unselbstständige Erwerbstätigkeit mit einem
-    Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 65 000.00 (CHF 5 000 x 13). Zusätzlich zum
-    Lohn erhält er im Februar 2021 einen Bonus von CHF 30 000.00 für das Jahr 2020.
-    Seine Ehegattin übt keine Erwerbstätigkeit aus.
+    Beispiel:
+    - Ein lediger Steuerpflichtiger arbeitet vom 1. Januar bis 31. Dezember 2021 mit einem Pensum von 100 %
+    beim gleichen Arbeitgeber. Er erzielt einen Bruttojahreslohn inkl. 13. Monatslohn von CHF 65 000.00
+    (CHF 5'000.00 x 12 + CHF 5 000.00) und erhält im Februar 2021 einen Bonus von CHF 30 000.00 ausbe-
+    zahlt. Am 15. August 2021 verlegt er seinen Wohnsitz vom Kanton Tessin in den Kanton Bern.
 
-    Monat   Jan.   Feb.   März   …   Mai   Juni   … Okt.   Nov.   Dez.   Besteuerung
+    Monat   Jan.   Feb.   …   Aug.   Sep.4   …   Dez.   Besteuerung
 
-    Bruttolohn   5 000   5 000   5 000   5 000   5 000   5 000   5 000 10 000   65 000
+    Bruttolohn   5 000   5 000   5 000   5 000   10 000   65 000.00
+    Bonus
+    30 000   30 000.00
+    (aperiodisch)
+    Tarifcode   A0   A0   A0   A0   A0
 
-    Bonus   30 000   30 000
+    Steuersatz TI (%)   10,41   14,42   14,4
+
+    Steuersatz BE (%)   10,635   17,016
+
+    Korrektur Januar   0   +2003
+
+    Quellensteuer   520   5 240   720   531.50   1 701   13 375.50
+
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).

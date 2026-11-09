@@ -1,384 +1,422 @@
 [
 {
 "id": "bund-ks-vst-21__c0001",
-"titel": "KS VST 21 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Ausgangslage – Short-Verkäufe und Tax-Voucher-System (Teil 1/3)",
+"pfad": [
+"1 Ausgangslage"
+],
+"seiten": [
+2
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Verrechnungssteuer Rückerstattung",
+"ausländische Banken",
+"Short-Verkauf",
+"Tax-Voucher",
+"Abzugsbescheinigung",
+"manufactured dividends"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Wegen Short-Verkäufen können mehr rückerstattungsfähige Belege im Umlauf sein als Verrechnungssteuer abgeliefert wurde; für ausländische Banken wird ein Tax-Voucher-System eingeführt (Abzug 35 Prozent bei Schweizer Banken).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-vst-21__c0002"
 },
 {
 "id": "bund-ks-vst-21__c0002",
-"titel": "KS VST 21 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Ausgangslage – Short-Verkäufe und Tax-Voucher-System (Teil 2/3)",
+"pfad": [
+"1 Ausgangslage"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Verrechnungssteuer Rückerstattung",
+"ausländische Banken",
+"Short-Verkauf",
+"Tax-Voucher",
+"Abzugsbescheinigung",
+"manufactured dividends"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0001",
 "nachher": "bund-ks-vst-21__c0003"
 },
 {
 "id": "bund-ks-vst-21__c0003",
-"titel": "KS VST 21 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1 Ausgangslage – Short-Verkäufe und Tax-Voucher-System (Teil 3/3)",
+"pfad": [
+"1 Ausgangslage"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Verrechnungssteuer Rückerstattung",
+"ausländische Banken",
+"Short-Verkauf",
+"Tax-Voucher",
+"Abzugsbescheinigung",
+"manufactured dividends"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0002",
 "nachher": "bund-ks-vst-21__c0004"
 },
 {
 "id": "bund-ks-vst-21__c0004",
-"titel": "KS VST 21 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2.1–2.2 Begriffe Custody-Account und Cross-Ex-Compensation",
+"pfad": [
+"2 Begriffe"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1-2.2",
+"stichworte": [
+"Custody-Account",
+"Cross-Ex-Compensation",
+"Market Claims",
+"Ex-Tag",
+"Dividende 65 Prozent"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Definition Custody-Account und Cross-Ex-Compensation (Market Claim): zu Unrecht dem Verkäufer gutgeschriebene Dividende (65 Prozent netto) wird wieder belastet und dem Käufer gutgeschrieben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0003",
 "nachher": "bund-ks-vst-21__c0005"
 },
 {
 "id": "bund-ks-vst-21__c0005",
-"titel": "KS VST 21 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2.3–2.4 Begriffe Short-Verkauf und Cum/ex-Transaktion",
+"pfad": [
+"2 Begriffe"
+],
 "seiten": [
-1
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3-2.4",
+"stichworte": [
+"Short-Verkauf",
+"short-sale",
+"Cum/ex",
+"Dividendenersatzzahlung",
+"manufactured dividend"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Short-Verkauf und Cum/ex-Transaktion: Dividendengutschrift 65 Prozent mit ausgewiesenem Verrechnungssteuerabzug von 35 Prozent, ohne dass die Steuer abgeliefert wurde.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0004",
 "nachher": "bund-ks-vst-21__c0006"
 },
 {
 "id": "bund-ks-vst-21__c0006",
-"titel": "KS VST 21 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 3 Massnahmen gegen Rückerstattung nicht abgelieferter Verrechnungssteuer",
+"pfad": [
+"3 Massnahmen"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Short-Positionen",
+"inländische Banken 35 Prozent",
+"ausländische Depotstellen",
+"manufactured dividend"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Schweizer Banken belasten manufactured dividends zu 100 Prozent, kürzen um 35 Prozent und liefern an die ESTV ab; für ausländische Stellen gilt das Tax-Voucher-System.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0005",
 "nachher": "bund-ks-vst-21__c0007"
 },
 {
 "id": "bund-ks-vst-21__c0007",
-"titel": "KS VST 21 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 4 Tax-Voucher-System – Voraussetzung für Rückerstattung (Teil 1/2)",
+"pfad": [
+"4 Tax-Voucher-System"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4",
+"stichworte": [
+"Tax-Voucher",
+"Rückerstattungsantrag Beilage",
+"ausländische Bank Bestätigung",
+"Steuerverzeichnis"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Bei Ertragsabrechnung oder Steuerverzeichnis einer ausländischen Bank ist dem Rückerstattungsantrag ein Tax-Voucher beizulegen; er begründet allein keinen Anspruch und wird erst nachträglich abgegeben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0006",
 "nachher": "bund-ks-vst-21__c0008"
 },
 {
 "id": "bund-ks-vst-21__c0008",
-"titel": "KS VST 21 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 4 Tax-Voucher-System – Voraussetzung für Rückerstattung (Teil 2/2)",
+"pfad": [
+"4 Tax-Voucher-System"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4",
+"stichworte": [
+"Tax-Voucher",
+"Rückerstattungsantrag Beilage",
+"ausländische Bank Bestätigung",
+"Steuerverzeichnis"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0007",
 "nachher": "bund-ks-vst-21__c0009"
 },
 {
 "id": "bund-ks-vst-21__c0009",
-"titel": "KS VST 21 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 5 / 5.1 Kontrollrechnungen und Schweizer Banken (60 Kalendertage) (Teil 1/3)",
+"pfad": [
+"5 Kontrollrechnungen",
+"5.1 Schweizer Banken"
+],
 "seiten": [
-2
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5-5.1",
+"stichworte": [
+"Kontrollrechnung",
+"Custody-Kunden",
+"60 Kalendertage",
+"Short-Bestand",
+"Securities Lending"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Banken prüfen per Kontrollrechnung die Übereinstimmung der Belege; Schweizer Depotstellen berücksichtigen Korrekturen bis und mit 60 Kalendertage nach dem Ex-Tag und bestätigen das Ergebnis Custody-Kunden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0008",
 "nachher": "bund-ks-vst-21__c0010"
 },
 {
 "id": "bund-ks-vst-21__c0010",
-"titel": "KS VST 21 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 5 / 5.1 Kontrollrechnungen und Schweizer Banken (60 Kalendertage) (Teil 2/3)",
+"pfad": [
+"5 Kontrollrechnungen",
+"5.1 Schweizer Banken"
+],
 "seiten": [
-2
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "5-5.1",
+"stichworte": [
+"Kontrollrechnung",
+"Custody-Kunden",
+"60 Kalendertage",
+"Short-Bestand",
+"Securities Lending"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0009",
 "nachher": "bund-ks-vst-21__c0011"
 },
 {
 "id": "bund-ks-vst-21__c0011",
-"titel": "KS VST 21 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 5 / 5.1 Kontrollrechnungen und Schweizer Banken (60 Kalendertage) (Teil 3/3)",
+"pfad": [
+"5 Kontrollrechnungen",
+"5.1 Schweizer Banken"
+],
 "seiten": [
-2
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "5-5.1",
+"stichworte": [
+"Kontrollrechnung",
+"Custody-Kunden",
+"60 Kalendertage",
+"Short-Bestand",
+"Securities Lending"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0010",
 "nachher": "bund-ks-vst-21__c0012"
 },
 {
 "id": "bund-ks-vst-21__c0012",
-"titel": "KS VST 21 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 5.2 Ausländische Banken – Custody-Kunden und Endkunden",
+"pfad": [
+"5 Kontrollrechnungen",
+"5.2 Ausländische Banken"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.2",
+"stichworte": [
+"ausländische Bank Kontrollrechnung",
+"Endkunden",
+"Custody-Kunden",
+"Ertragsgutschriften"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Ausländische Banken führen für Custody-Kunden und Endkunden (Rückerstattungsantrag) Kontrollrechnungen durch und teilen das Ergebnis standardisiert mit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0011",
 "nachher": "bund-ks-vst-21__c0013"
 },
 {
 "id": "bund-ks-vst-21__c0013",
-"titel": "KS VST 21 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 6 Abgabe des Tax-Voucher",
+"pfad": [
+"6 Abgabe des Tax-Voucher"
+],
 "seiten": [
-3
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6",
+"stichworte": [
+"Tax-Voucher ausstellen",
+"Dividendengutschriften",
+"Depotstelle Bestätigung"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Ein Tax-Voucher darf nur ausgestellt werden, wenn die Dividendengutschriften den von den vorgelagerten Depotstellen bescheinigten Gesamtbetrag nicht übersteigen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0012",
 "nachher": "bund-ks-vst-21__c0014"
 },
 {
 "id": "bund-ks-vst-21__c0014",
-"titel": "KS VST 21 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 7–8 Verrechnungssteuerersatz (Formular 102M) und Gültigkeit ab 1.4.2008",
+"pfad": [
+"7 Ablieferung eines Verrechnungssteuerersatzes",
+"8 Gültigkeit"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7-8",
+"stichworte": [
+"Verrechnungssteuerersatz",
+"Formular 102M",
+"Gültigkeit 1. April 2008",
+"Tax-Voucher Erträge nach 31.03.2008"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Ausländische Bank kann Tax-Voucher ausstellen, wenn sie auf dem Fehlbestand einen Verrechnungssteuerersatz mit Formular 102M abliefert; gilt für ab 01.04.2008 fällige Dividenden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0013",
 "nachher": "bund-ks-vst-21__c0015"
 },
 {
 "id": "bund-ks-vst-21__c0015",
-"titel": "KS VST 21 – Abschnitt 15",
-"pfad": [],
+"titel": "Anhang 1 Textvorgabe Tax-Voucher",
+"pfad": [
+"Anhang 1"
+],
 "seiten": [
-3
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 1",
+"stichworte": [
+"Textvorgabe Tax-Voucher",
+"Bestätigung Bank",
+"Muster AG",
+"Unterschrift"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Mustertext des Tax-Voucher mit Bestätigung, dass Ertragsabrechnungen nur im Umfang bestätigter Gutschriften erstellt oder ein Verrechnungssteuerersatz abgeliefert wurde.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0014",
 "nachher": "bund-ks-vst-21__c0016"
 },
 {
 "id": "bund-ks-vst-21__c0016",
-"titel": "KS VST 21 – Abschnitt 16",
-"pfad": [],
+"titel": "Anhang 2 Textvorgabe Bestätigungen unter Banken/Depotstellen",
+"pfad": [
+"Anhang 2"
+],
 "seiten": [
-3
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Anhang 2",
+"stichworte": [
+"Bestätigung unter Banken",
+"Depotstellen",
+"4'500 Titel CHF 3.50",
+"35% Verrechnungssteuer"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Mustertext der Bestätigung unter Banken (Beispiel 4'500 Titel à CHF 3.50 abzüglich 35% Verrechnungssteuer) als Grundlage für die Abgabe von Tax-Vouchers.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-21__c0015",
-"nachher": "bund-ks-vst-21__c0017"
-},
-{
-"id": "bund-ks-vst-21__c0017",
-"titel": "KS VST 21 – Abschnitt 17",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-21__c0016",
-"nachher": "bund-ks-vst-21__c0018"
-},
-{
-"id": "bund-ks-vst-21__c0018",
-"titel": "KS VST 21 – Abschnitt 18",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-21__c0017",
-"nachher": "bund-ks-vst-21__c0019"
-},
-{
-"id": "bund-ks-vst-21__c0019",
-"titel": "KS VST 21 – Abschnitt 19",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-21__c0018",
-"nachher": "bund-ks-vst-21__c0020"
-},
-{
-"id": "bund-ks-vst-21__c0020",
-"titel": "KS VST 21 – Abschnitt 20",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-21__c0019",
-"nachher": "bund-ks-vst-21__c0021"
-},
-{
-"id": "bund-ks-vst-21__c0021",
-"titel": "KS VST 21 – Abschnitt 21",
-"pfad": [],
-"seiten": [
-5
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-21__c0020",
-"nachher": "bund-ks-vst-21__c0022"
-},
-{
-"id": "bund-ks-vst-21__c0022",
-"titel": "KS VST 21 – Abschnitt 22",
-"pfad": [],
-"seiten": [
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-21__c0021",
-"nachher": "bund-ks-vst-21__c0023"
-},
-{
-"id": "bund-ks-vst-21__c0023",
-"titel": "KS VST 21 – Abschnitt 23",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-21__c0022",
-"nachher": "bund-ks-vst-21__c0024"
-},
-{
-"id": "bund-ks-vst-21__c0024",
-"titel": "KS VST 21 – Abschnitt 24",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-21__c0023",
 "nachher": null
 }
 ]

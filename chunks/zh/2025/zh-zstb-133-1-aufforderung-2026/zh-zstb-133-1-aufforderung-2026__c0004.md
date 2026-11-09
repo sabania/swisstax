@@ -4,14 +4,15 @@ quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
 jahre: [2025]
 typ: praxis
-titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 4"
+titel: "A.I.2–4 Heirat, Trennung, Zustellung Formulare und Frist 31. März 2026"
+ziffer: "A.I.2-4"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 2
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › I. Steuererklärung 2025 › 2.–4. · S. 2
 
-<!-- Seite 2 -->
 Zürcher Steuerbuch   Nr. 133.1
+
 
 2. Begründung und Auflösung der Ehe bzw. der eingetragenen Partnerschaft
 
@@ -35,3 +36,6 @@ Gemeindesteueramt zugestellt. Wer kein Formular erhält, muss von sich aus ein s
 Gemeindesteueramt verlangen.
 
 4. Frist zur Einreichung der Steuererklärung
+
+Die Steuererklärungen sind, zusammen mit den erforderlichen Beilagen gemäss § 134 StG, bis
+31. März 2026 online (www.zh.ch/steuererklaerung) oder dem Scan-Center einzureichen.

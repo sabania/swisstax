@@ -1,0 +1,147 @@
+{
+ "id": "bund-form-9-14-2025",
+ "hinweise": [
+  "Formularraster; Spalten Person 1/2 vermischt (S.1); Kopfzeilen des Schuldenverzeichnisses zerstückelt (S.2)."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Ziff. 1 Allgemeine Angaben Berufskosten 2025",
+   "pfad": [
+    "Berufskosten",
+    "Allgemeine Angaben"
+   ],
+   "stichworte": [
+    "Arbeitspensum",
+    "Arbeitsort",
+    "Arbeitstage",
+    "Berufskosten Formular"
+   ],
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ],
+   "zusammenfassung": "Angaben zu Wohnort, Arbeitsort, Arbeitspensum und Arbeitstagen (nur ankreuzen, wenn Pensum nicht 100 %).",
+   "ziffer": "1"
+  },
+  {
+   "start": 41,
+   "titel": "Ziff. 2 Fahrkosten Wohn-/Arbeitsort (Auto CHF –.70/km, max. CHF 3300.–)",
+   "pfad": [
+    "Berufskosten",
+    "Fahrkosten"
+   ],
+   "stichworte": [
+    "Pendlerabzug",
+    "Fahrkosten",
+    "GA",
+    "Abonnement ÖV",
+    "Auto pro km",
+    "Velo pauschal 700"
+   ],
+   "positionen": [
+    "abzug.berufskosten.fahrkosten"
+   ],
+   "zusammenfassung": "Velo/Mofa pauschal CHF 700.–, Auto CHF –.70 pro km, Motorrad weiss CHF –.40 pro km, Zwischentotal max. CHF 3300.–.",
+   "ziffer": "2"
+  },
+  {
+   "start": 50,
+   "titel": "Ziff. 3 Mehrkosten der Verpflegung (CHF 7.50 / 15.–)",
+   "pfad": [
+    "Berufskosten",
+    "Verpflegung"
+   ],
+   "stichworte": [
+    "Verpflegung",
+    "Mittagessen",
+    "Schichtarbeit",
+    "Nachtarbeit",
+    "auswärtige Verpflegung"
+   ],
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ],
+   "zusammenfassung": "CHF 7.50 pro Tag (max. CHF 1600.–) bei Verbilligung, CHF 15.– pro Tag (max. CHF 3200.–) ohne; 3.1 und 3.2 nicht kumulierbar.",
+   "ziffer": "3"
+  },
+  {
+   "start": 59,
+   "titel": "Ziff. 4–5 Übrige Berufskosten und Wochenaufenthalt",
+   "pfad": [
+    "Berufskosten",
+    "Übrige Kosten / Wochenaufenthalt"
+   ],
+   "stichworte": [
+    "Pauschale 3% Nettolohn",
+    "Wochenaufenthalt",
+    "Zimmer",
+    "übrige Berufskosten"
+   ],
+   "positionen": [
+    "abzug.berufskosten.uebrige",
+    "abzug.berufskosten.wochenaufenthalt"
+   ],
+   "zusammenfassung": "Pauschal 3% des Nettolohnes, min. CHF 2000.– / max. CHF 4000.–; Wochenaufenthalt Verpflegung CHF 22.50 (max. 4800.–) bzw. CHF 30.– (max. 6400.–).",
+   "ziffer": "4–5"
+  },
+  {
+   "start": 66,
+   "titel": "Ziff. 6–8 Nebenerwerb, Feuerwehrsold, Total Berufskosten",
+   "pfad": [
+    "Berufskosten",
+    "Nebenerwerb / Feuerwehr / Total"
+   ],
+   "stichworte": [
+    "Nebenerwerb 20%",
+    "Feuerwehrsold",
+    "Total Berufskosten",
+    "Übertrag Steuererklärung"
+   ],
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb",
+    "abzug.berufskosten.uebrige"
+   ],
+   "zusammenfassung": "Nebenerwerb pauschal 20% (min. CHF 800.– / max. CHF 2400.–); Feuerwehrsold steuerfrei max. CHF 5300.–; Total in Steuererklärung Seite 3 Ziffer 10.1 bzw. 10.2.",
+   "ziffer": "6–8"
+  },
+  {
+   "start": 72,
+   "titel": "Ziff. 9 Begründung Benützung privates Motorfahrzeug",
+   "pfad": [
+    "Berufskosten",
+    "Privatfahrzeug Begründung"
+   ],
+   "stichworte": [
+    "Privatfahrzeug",
+    "Zeitersparnis 1 Stunde",
+    "kein ÖV",
+    "Arztzeugnis"
+   ],
+   "positionen": [
+    "abzug.berufskosten.fahrkosten"
+   ],
+   "zusammenfassung": "Privatfahrzeug nur bei fehlendem ÖV, Zeitersparnis über 1 Stunde pro Tag, Arbeitgeberverlangen oder Krankheit.",
+   "ziffer": "9"
+  },
+  {
+   "start": 83,
+   "titel": "Schuldenverzeichnis 2025 (Übertrag Seite 4 Ziff. 29 / Seite 3 Ziff. 11)",
+   "pfad": [
+    "Schuldenverzeichnis"
+   ],
+   "stichworte": [
+    "Schuldenverzeichnis",
+    "Schuldzinsen",
+    "Hypothek",
+    "Privatschulden",
+    "Geschäftsschulden"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen",
+    "schulden.privat"
+   ],
+   "zusammenfassung": "Schulden per 31. Dezember 2025 und Schuldzinsen; Total in Steuererklärung Seite 4 Ziffer 29 bzw. Seite 3 Ziffer 11.",
+   "ziffer": "29 / 11"
+  }
+ ]
+}

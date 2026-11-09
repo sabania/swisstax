@@ -4,27 +4,18 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 21"
-seiten: "7"
+titel: "Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 1/4)"
+ziffer: "4.2.5"
+seiten: "11-13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.2 Spezialfälle · S. 11–13
 
-<!-- Seite 7 -->
-3.   Reserven
+4.2.5. Transponierung
 
-3.1.   Reserven aus Kapitaleinlagen
-
-Offene Kapitaleinlagen der Beteiligungsinhaber können steuerneutral den KER bzw. Aus-
-land-KER gutgeschrieben werden und deren Rückzahlungen sind der Rückzahlung von ein-
-bezahltem Grund- oder Stammkapital gleichgestellt. Verluste, die den KER bzw. den Aus-
-land-KER belastet wurden, vermindern diese definitiv. Dies gilt auch für offene Kapitaleinla-
-gen von Inhabern der Beteiligungsrechte, die:
-
-       nach dem 31. Dezember 1996 und vor dem Inkrafttreten der Artikel 20 Absatz 3 DBG
-    und Artikel 5 Absatz 1bis VStG am 1. Januar 2011 oder
-       nach dem 24. Februar 2008 und vor dem Inkrafttreten der Artikel 20 Absatz 5 Buch-
-    staben a und b DBG und Artikel 5 Absatz 1quater Buchstaben a und b VStG am 1. Ja-
-    nuar 2020
-
-geleistet wurden (vgl. Ziff. 9.1. hiernach).
+In Artikel 20a Absatz 1 Buchstabe b DBG werden die Steuerfolgen der Übertragung von
+Grund- oder Stammkapital einer Kapitalgesellschaft oder Genossenschaft aus dem Privat-
+ins Geschäftsvermögen einer Personenunternehmung oder juristischen Person, an welcher
+der Veräusserer oder Einbringer nach der Übertragung zu mindestens 50 Prozent am Kapital
+beteiligt ist, geregelt. Gleiches gilt sinngemäss auch, wenn mehrere Beteiligte die Übertra-
+gung gemeinsam vornehmen, d.h. eine gemeinsame Willensbildung vorliegt. Eine solche ist

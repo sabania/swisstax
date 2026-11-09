@@ -1,0 +1,51 @@
+{
+ "id": "zh-zstb-31-1-bis-2026",
+ "hinweise": [
+  "Seite 1: Tabelle sauber extrahiert, Spaltenüberschriften leicht zerrissen."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "ZStB 31.1 Säule 3a – Abzugsberechtigung nach Art. 7 BVV 3",
+   "pfad": [
+    "Säule 3a"
+   ],
+   "ziffer": "31.1",
+   "stichworte": [
+    "Säule 3a",
+    "3a Abzug",
+    "Maximalbetrag 3a",
+    "BVV 3",
+    "Selbstvorsorge",
+    "kleine 3a",
+    "grosse 3a"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Arbeitnehmer und Selbständigerwerbende können Beiträge an die gebundene Selbstvorsorge (3. Säule a) nach Art. 7 Abs. 1 BVV 3 in begrenztem Umfang abziehen."
+  },
+  {
+   "start": 39,
+   "titel": "ZStB 31.1 Säule 3a – Tabelle obere Grenzbeträge je Bemessungsjahr",
+   "pfad": [
+    "Säule 3a",
+    "Obere Grenzbeträge"
+   ],
+   "ziffer": "31.1",
+   "stichworte": [
+    "Säule 3a",
+    "3a Abzug",
+    "Maximalbetrag 3a",
+    "BVV 3",
+    "Selbstvorsorge",
+    "kleine 3a",
+    "grosse 3a"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Maximal abziehbar ab 2025: Fr. 7 258 (Art. 7 Abs. 1 lit. a BVV 3) bzw. 20% des Erwerbseinkommens, höchstens Fr. 36 288 (lit. b); 2023/2024: 7 056 / 35 280."
+  }
+ ]
+}

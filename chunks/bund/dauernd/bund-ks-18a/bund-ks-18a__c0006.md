@@ -4,17 +4,23 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 6"
-seiten: "1"
+titel: "Ziff. 4 Begünstigte Personen"
+ziffer: "4"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 1
+> Bund · Steuerjahr 2026 · KS 18a · 4. Begünstigte Personen · S. 4
 
-6.   Ausrichtung und Besteuerung der Leistungen .......................................................................... 8
-    6.1. Grundsätze............................................................................................................................... 8
-    6.2. Vorzeitige Ausrichtung und Übertragung ................................................................................. 9
-    a) Allgemeines ........................................................................................................................ 9
-    b) Vorbezug im Rahmen der Wohneigentumsförderung (WEF) ............................................. 9
-    c) Barauszahlung infolge Aufnahme einer selbständigen Erwerbstätigkeit
-    oder bei Wechsel der selbständigen Erwerbstätigkeit ...................................................... 10
-    6.3. Einkauf in die 2. Säule mit Mitteln der Säule 3a .................................................................... 10
+4.   Begünstigte Personen
+Im Erlebensfall ist der Vorsorgenehmer die begünstigte Person. Nach dessen Ableben ist
+Begünstigter der überlebende Ehegatte oder der/die eingetragene Partner/in. Bei Nichtvor-
+handensein eines Ehegatten oder eines eingetragenen Partners / einer eingetragenen Part-
+nerin gelten als Begünstigte die direkten Nachkommen sowie die natürlichen Personen, die
+von der verstorbenen Person in erheblichem Masse unterstützt worden sind, oder die Per-
+son, die mit dieser in den letzten fünf Jahren bis zu ihrem Tod ununterbrochen eine Lebens-
+gemeinschaft geführt hat oder die für den Unterhalt eines oder mehrerer gemeinsamer Kin-
+der aufkommen muss. Die Reihenfolge dieser begünstigten Personen kann vom Vorsorge-
+nehmer geändert und die Ansprüche können näher bezeichnet werden. Erst wenn solche
+Personen nicht vorhanden sind, sind die Eltern, die Geschwister und die übrigen Erben als
+Begünstigte vorgesehen, wobei auch hier die Reihenfolge festgelegt und Ansprüche näher
+bezeichnet werden können (vgl. Art. 2 BVV 3).

@@ -4,45 +4,33 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Beilage 1 Übersicht über die Familienkonstellationen (Entscheidungsbaum) (Teil 2/2)"
-ziffer: "Beilage 1"
-seiten: "44-45"
+titel: "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 1/2)"
+ziffer: "Beilage 2, S. 3/13"
+seiten: "48"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 1 Familienkonstellationen · S. 44–45
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 48
 
-Familienkonstellationen II: Volljährige Kinder in 1. Ausbildung
+Beilage 2
 
- 14.10./14.11./14.12.
-    Mit
-    Unterhalts-   14.10./14.12.
- A) Getrennte, geschiedene
-    zahlungen
-    oder unverheiratete
-    Paare mit Kindern
+Tabelle zu den verschiedenen Familienkonstellationen
+Besteuerung der Unterhaltsleistungen sowie Zuteilung der verschiedenen Abzüge und Tarife nach DBG
+    Seite 3/13
 
- 2 Haushalte   Ohne
-    Unterhalts-   14.11.
-    zahlungen
-    Mit
-    Unterhalts- 14.13./14.15.
-    zahlungen
-    14.13./14.14./14.15.
-    Gemeinsame Kinder
-
-  14.13./14.14./14.15./14.16.
-    Ohne
-    Unterhalts-   14.14.
- B) Konkubinatspaare mit   zahlungen
-    Kindern
-
- 1 Haushalt   Mit
-    Unterhalts-
-    zahlungen
-    = A)
-    14.16.
-    Keine gemeinsamen Kinder
-
-    Ohne
-    Unterhalts-   = A)
-    zahlungen
+    Unterhaltszahlungen für   Zusätzlicher Versiche-
+    Kinderbetreuungskosten-
+    das Kind   Kinderabzug   rungs- und Sparzinsen-
+   Familienkonstellationen   abzug nur bis zum voll-   Tarif
+    (Art. 23 Bst. f, 24 Bst. e,   (Art. 35 Abs. 1 Bst. a   abzug für das Kind
+   (Kapitel im KS)   endeten 14. Altersjahr   (Art. 36 DBG)
+    33 Abs. 1 Bst. c, 34 Bst. a   DBG)   (Art. 33 Abs. 1bis Bst. b
+    (Art. 33 Abs. 3 DBG)
+    DBG)   DBG)
+    entfällt   Jeder Elternteil erhält je   Jeder Elternteil erhält je    Der Elternteil, der mit   
+   14.4. Getrennte,   den halben Kinderabzug.   den halben Abzug für das   dem Kind zusammen-
+    Der Elternteil, der mit
+    dem Kind zusammen-
+   geschiedene oder unver-   Kind.   lebt.   lebt und zur Hauptsa-
+   heiratete Eltern (zwei    Befindet sich das Kind   che für dessen Unter-
+   Haushalte) mit minder-   in alternierender Obhut,   halt aufkommt, erhält
+   jährigem Kind, mit ge-   kann jeder Elternteil   den Elterntarif. Der an-

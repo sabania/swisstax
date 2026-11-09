@@ -4,24 +4,59 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 7"
-seiten: "2"
+titel: "Ziff. 3 Schematischer Überblick über die Abzugsfähigkeit (Tabelle)"
+ziffer: "3"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 42 · 3 Überblick Abzugsfähigkeit · S. 4–5
 
-<!-- Seite 2 -->
-1   Gesetzliche Grundlage sowie Gegenstand des Kreisschreibens
+3   Schematischer Überblick über die Abzugsfähigkeit (Grundzüge)
 
-Mit dem Bundesgesetz vom 27. September 2013 über die steuerliche Behandlung der berufsori-
-entierten Aus- und Weiterbildungskosten wurde die steuerliche Abzugsfähigkeit der Kosten für
-die Aus- und Weiterbildung neu geregelt (vgl. Amtliche Sammlung des Bundesrechts [AS] Jahr-
-gang 2014, Seite 1105 ff. sowie Bundesblatt [BBl] Jahrgang 2011, Seite 2607 ff.). Gestützt darauf
-sind alle berufsorientierten Aus- und Weiterbildungskosten nach dem ersten Abschluss auf der
-Sekundarstufe II abzugsfähig. Liegt kein erster Abschluss auf der Sekundarstufe II vor, sind alle
-berufsorientierten Aus- und Weiterbildungskosten ab dem vollendeten 20. Lebensjahr abzugsfä-
-hig, sofern es sich dabei nicht um die Ausbildungskosten bis und mit dem ersten Abschluss auf
-der Sekundarstufe II handelt.
-Der Abzug gemäss Artikel 33 Absatz 1 Buchstabe j des Bundesgesetzes vom 14. Dezember
-1990 über die direkte Bundessteuer (DBG, SR 642.11) ist auf höchstens 12 000 Franken pro
-Person und Steuerperiode beschränkt.
+    Abzugsfähig gemäss Artikel 33 Absatz 1 Buchstabe j DBG
+    bis 31. De-   ab 1. Januar 2016
+    zember 2015
+    über 20   über 20   unter 20   unter 20
+    Jahre alt, mit   Jahre alt,   Jahre alt, mit   Jahre alt,
+    erstem   ohne ersten   erstem   ohne ersten
+    Sek II-Ab-   Sek II-Ab-   Sek II-Ab-   Sek II-Ab-
+    schluss   schluss   schluss   schluss
+ Ausbildung   Nein   Nein   Nein
+ bis und mit
+ erstem Ab-
+ schluss auf
+
+ der Sekun-
+ darstufe II
+ Ausbildung   Nein   Ja   Ja
+ für weiteren
+ Abschluss
+ auf Sekun-
+ darstufe II
+ Ausbildung   Nein   Ja   Ja
+ ab Tertiär-
+ stufe
+ Weiterbildung   Ja   Ja   Ja   Ja   Nein
+ (z.B. zur bes-
+ seren Berufs-
+ ausübung,
+ zur Anpas-
+ sung an neue
+ Anforderun-
+ gen)
+ Umschulung   Nein   Ja   Ja, ausser   Ja   Nein
+ in eine hö-   Ausbildungs-
+ here berufli-   kosten bis
+ che Stellung   zum ersten
+ oder in einen   Sek II-Ab-
+ neuen Beruf   schluss
+ Wiederein-   Ja   Ja   Ja, ausser   Ja   Nein
+ stieg   Ausbildungs-
+    kosten bis
+    zum ersten
+    Sek II-Ab-
+    schluss
+ Liebhaberei,   Nein   Nein   Nein   Nein   Nein
+ Hobby
+
+grau = nicht mögliche Sachverhaltskonstellation

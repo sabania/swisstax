@@ -1,0 +1,67 @@
+{
+ "id": "ar-steuerfuesse-2025",
+ "hinweise": [
+  "Seite 1: Tabellenlayout mit mehrzeiligen Gemeindezeilen (Mehrfach-Kirchgemeinden), Spalten teils vermischt."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "skip": true,
+   "titel": "Titel und Adressblock Steuerverwaltung"
+  },
+  {
+   "start": 32,
+   "titel": "Steuerfüsse 2025 AR – Kantonsfuss und Gemeinden Bühler bis Lutzenberg",
+   "pfad": [
+    "Steuerfüsse natürliche Personen"
+   ],
+   "stichworte": [
+    "Steuerfuss",
+    "Steuerfuss AR",
+    "Gemeindesteuerfuss",
+    "Kirchensteuer",
+    "Herisau",
+    "Heiden",
+    "Gais",
+    "Bühler"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Kantonaler Steuerfuss 3.30 Einheiten; Gemeinde-, Kirchgemeinde- und Gesamtsteuerfüsse (z.B. Bühler 3.70, Herisau 4.10, Hundwil 4.30)."
+  },
+  {
+   "start": 49,
+   "titel": "Steuerfüsse 2025 AR – Gemeinden Rehetobel bis Wolfhalden",
+   "pfad": [
+    "Steuerfüsse natürliche Personen"
+   ],
+   "stichworte": [
+    "Steuerfuss",
+    "Teufen",
+    "Speicher",
+    "Trogen",
+    "Urnäsch",
+    "Wald",
+    "Walzenhausen",
+    "Gesamtsteuerfuss"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Steuerfüsse je Gemeinde und Kirchgemeinde, u.a. Teufen 2.60, Trogen 4.50, Wolfhalden 3.80 Einheiten."
+  },
+  {
+   "start": 68,
+   "titel": "Hinweis Separaterhebungen und Entwicklung der Steuerfüsse 2024–2025",
+   "pfad": [
+    "Steuerfüsse natürliche Personen"
+   ],
+   "stichworte": [
+    "Steuerfuss Entwicklung",
+    "Separaterhebung",
+    "Erhöhung",
+    "Senkung",
+    "Stand 8.1.2025"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Ansätze enthalten Separaterhebungen; Übersicht der Veränderungen 2024–2025 (Staatssteuer unverändert, Stand 08.01.2025)."
+  }
+ ]
+}

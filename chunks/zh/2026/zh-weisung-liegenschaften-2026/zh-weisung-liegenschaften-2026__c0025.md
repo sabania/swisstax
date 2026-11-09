@@ -4,23 +4,20 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 25"
-seiten: "11"
+titel: "Ziff. 60–60a Eigenmietwert – Basiswert über Fr. 120 000 / 40 000, Landwertanteile 0,2 %"
+ziffer: "60–60a"
+seiten: "12"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 11
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › I. Einfamilienhäuser und Stockwerkeigentum · S. 12
 
-    Die Eigenmietwerte von durch den Pflichtigen und zu seinem Haus- 59
-halt gehörende Personen genutzten Einfamilienhäusern und Stock-
-werkeigentum bestimmen sich durch die Multiplikation der im An-
-hang dieser Weisung aufgeführten Ableitungssätze mit dem Land- und
-Zeitbauwert bzw. Land- und Zeitbauwertanteil. Für Zweifamilienhäuser,
-die nicht als Stockwerkeigentum ausgestaltet sind, gelten die Regeln
-für Einfamilienhäuser analog.
-    Bei Stockwerkeigentum in Hochhäusern (Wohngebäuden mit mehr
-als acht Stockwerken) ist eine individuelle Schätzung nach Ziff. 83 ff. vor-
-zunehmen, falls für die Ermittlung des Vermögenssteuerwerts nach
-Ziff. 20 nicht auf den Formelwert abgestellt werden kann. Beträgt der
-vom Formelwert abgeleitete Eigenmietwert zwischen 60% und 70%
-des individuellen Schätzwerts, ist der vom Formelwert abgeleitete
-Eigenmietwert massgebend.
+60   Übersteigt der Basiswert bzw. Basiswertanteil
+    – bei Einfamilienhäusern Fr. 120 000,
+    – bei Stockwerkeigentum Fr. 40 000,
+    so ist bei der Ermittlung des Eigenmietwerts der diese Beträge über-
+    steigende Teil bei der Berechnung nur mit 1% zu berücksichtigen. Bei
+    dieser Berechnung des Eigenmietwerts kann der Zeitbauwert nicht
+    gleichzeitig noch nach Ziff. 35 korrigiert werden.
+60a   Landwertanteile gemäss Ziff. 29 werden bei der Ermittlung des
+    Eigenmietwerts nur mit einem Ableitungssatz von 0,2% berücksich-
+    tigt.

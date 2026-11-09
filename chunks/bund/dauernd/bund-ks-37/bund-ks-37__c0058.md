@@ -4,28 +4,20 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 58"
-seiten: "14"
+titel: "Ziff. 8.1.1 Gestaltung der Bescheinigung, Musterbescheinigungen, Vorbescheid"
+ziffer: "8.1.1"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1 Arbeitgeber › 8.1.1 Allgemeines · S. 19
 
-Die Besteuerung kann dabei im ordentlichen Verfahren oder im Quellensteuerverfahren er-
-folgen und es sind die Bescheinigungen gemäss Artikel 7 MBV beizubringen.
+Die Arbeitgeber sind in der Gestaltung der Bescheinigung grundsätzlich frei, soweit diese die
+Minimalanforderungen gemäss der MBV erfüllt. Musterbescheinigungen finden sich im An-
+hang III dieses Kreisschreibens. Die ESTV und die kantonalen Steuerbehörden können zu-
+sätzlich zu den in der MBV vorgeschriebenen Angaben weitere Informationen von den Ar-
+beitgebern verlangen, soweit dies für die vorschriftsgemässe Veranlagung notwendig ist (vgl.
+Art. 17 MBV).
 
-Zur Veranschaulichung dienen die Fallbeispiele 1 und 3 im Anhang II dieses Kreisschrei-
-bens.
-
-7.3.2.2   „Import“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel
-Das Erwerbseinkommen von „importierten“ Mitarbeiterbeteiligungen, die nach schweizeri-
-schem Recht im Zeitpunkt der Realisation besteuert werden, wird – unter Progressionsvor-
-behalt – auch bei unveränderter Ansässigkeit im Ausland anteilsmässig besteuert, sofern
-sich der Mitarbeitende zwischen dem Zeitpunkt der Abgabe und Realisation einer Mitarbei-
-terbeteiligung bei einem Arbeitgeber mit Sitz in der Schweiz anstellen lässt. In diesen Fällen
-erfolgt die anteilsmässige Besteuerung nach dem Verhältnis der Arbeitsverträge (Arbeits-
-tage) Schweiz / Ausland innerhalb der Vestingperiode (sinngemässe Anwendung von Art.
-17d DBG). Die in diese Zeitspanne fallenden Ferien, Wochenenden, gesetzlichen Feiertage
-und sonstigen Abwesenheiten (Reisetage, Krankheiten, Militärdienst, Mutterschaftsurlaub
-etc.) sind für die Berechnung der massgebenden Arbeitstage unerheblich. Die Arbeitstage
-Schweiz sind um allfällige Drittstaattage zu kürzen. Die Berechnung ist wie folgt vorzuneh-
-men:
+Sofern ein Vorbescheid betreffend die Besteuerung der Mitarbeiterbeteiligungen vorliegt,
+sind auf der Bescheinigung die kantonale Amtsstelle, die den Vorbescheid getroffen hat und
+das Datum der Vereinbarung (Abschlussdatum) zu vermerken.

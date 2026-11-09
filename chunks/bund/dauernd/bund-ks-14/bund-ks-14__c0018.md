@@ -4,13 +4,18 @@ quelle: bund-ks-14
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 14 – Abschnitt 18"
-seiten: "4"
+titel: "Ziff. 5.1.2 Periodengerechte Zuordnung und Nachsteuerverfahren"
+ziffer: "5.1"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 14 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 14 · 5 Steuerfolgen und Verfahren › 5.1 Besteuerung · S. 6
 
-Ob die Zielgesellschaft bei der Veräusserung der Beteiligungsrechte durch ein Zusammen-
-wirken von Verkäufer und Käufer teilweise liquidiert und dem Verkäufer dadurch eine geld-
-werte Leistung ausgerichtet wird, ist nach objektiven Kriterien und aufgrund der gesamten
-für die Finanzierung massgebenden Umständen zu entscheiden (StE 2002, B 24.4 Nr. 63;
+5.1.2. Periodengerechte Zuordnung
+
+Der steuerbare Vermögensertrag wird nach dem Realisationsprinzip derjenigen Steuerperio-
+de zugerechnet, in welcher der qualifizierende Verkauf stattgefunden hat. Werden die Betei-
+ligungsrechte gestaffelt verkauft (Ziff. 4.2), so wird der steuerbare Vermögensertrag im Ver-
+hältnis der betreffenden Verkaufserlöse auf die entsprechenden Steuerjahre aufgeteilt. Ist
+die von einem solchen Vermögensertrag betroffene Steuerperiode bereits rechtskräftig ver-
+anlagt, so wird die Steuer im Nachsteuerverfahren nach Artikel 151 ff. DBG erhoben.

@@ -4,15 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten (Teil 3/3)"
-ziffer: "8.6"
-seiten: "16-17"
+titel: "Ziff. 9.1 Zweiverdienerabzug bei Mitarbeit im Betrieb des Ehegatten"
+ziffer: "9.1"
+seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.6 Nachweispflicht · S. 16–17
+> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.1 Voraussetzungen · S. 17
 
-Kinderdrittbetreuungskosten sind als Aufwendungen im Privatbereich der steuerpflichtigen
-Person zu qualifizieren. Sie sind bei selbständiger Erwerbstätigkeit der Eltern somit auf das
-Privatkonto zu verbuchen, und nicht der Geschäftsbuchhaltung zu belasten. Auch bei den
-selbständig Erwerbstätigen sind die Kosten sowie die Empfänger separat auszuweisen und
-zu belegen.
+Der Zweiverdienerabzug wird nicht nur bei unselbständiger Tätigkeit der Ehegatten, sondern
+auch bei erheblicher Mitarbeit eines Ehegatten im Beruf, Geschäft oder Gewerbe des ande-
+ren Ehegatten gewährt. Die Mitarbeit gilt dann als erheblich, wenn sie regelmässig und in
+beträchtlichem Masse erfolgt und einer Drittperson hierfür ein Lohn in mindestens der Höhe
+des Abzuges bezahlt werden müsste. Dies gilt für die Mitarbeit sowohl im Rahmen einer
+hauptberuflichen wie auch einer nebenberuflichen selbständigen Erwerbstätigkeit des Ehe-
+partners.
+
+Bei Mitarbeit im Rahmen einer unselbständigen (haupt- oder nebenberufliche) Erwerbstätig-
+keit des Ehegatten kann ein Abzug nur gewährt werden, wenn eine erhebliche oder regel-
+mässige Mitarbeit bei der Tätigkeit des Ehepartners vertraglich vorgesehen ist.
+
+Schliesslich ist der Abzug auch zu gewähren, wenn beide Ehegatten eine selbständige Er-
+werbstätigkeit ausüben.

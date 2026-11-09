@@ -9,22 +9,15 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vermögenssteuer
 
-    Sofern sich eine Liegenschaft im Nachlass befindet, sind die Vermögens- und Ertragsanteile daran separat im Formular 7 "Angaben bei Liegenschaftsbesitz" zu deklarieren. Allfällige Hypothekar- und Schuldzinsanteile auf der betreffenden Liegenschaft sind diesfalls separat im Formular 4 "Schuldenverzeichnis" aufzuführen.
-
-Bankkonto: Konto für minderjähriges Patenkind
+Todesfallkosten
 :   ### Frage:
 
-    Ich habe auf den Namen meines minderjährigen Patenkindes ein Bankkonto eingerichtet, auf das ich jedes Jahr einzahle. Wer muss dieses Konto bis zur Volljährigkeit des Kindes deklarieren? Ich oder die Eltern des Kindes.
+    Was kann als "Todesfallkosten" abgezogen werden?
 
     ### Antwort:
 
-    Wenn das Konto auf den Namen Ihres Patenkindes lautet, müssen die Eltern das Konto und die Erträge daraus deklarieren.
+    Im Steuerinventar sind alle mit dem Todesfall direkt im Zusammenhang stehenden Auslagen wie Kosten für Todesanzeige, Danksagung, Bestattungsunternehmen, Bescheinigungen, Grabstein, usw. abziehbar.
 
-Geleastes Fahrzeug
-:   ### Frage:
+    Die Todesfallkosten können in der Steuererklärung der verstorbenen Person weder bei der Einkommens- noch bei der Vermögenssteuer berücksichtigt werden. Unter den Schulden können nur die offenen Rechnungen per Todestag deklariert werden (Abzug bei der Vermögenssteuer).
 
-    Wie muss ich mein geleastes Fahrzeug deklarieren?
-
-    ### Antwort:
-
-    Da sich das Fahrzeug weder in Ihrem Eigentum noch in Ihrer Nutzniessung befindet, muss es nicht als Vermögen deklariert werden.
+    Bei den Erbinnen und Erben reduzieren die offenen Rechnungen und die Todesfallkosten das Nachlassvermögen per Todestag entsprechend. Die Todesfallkosten können nicht beim Einkommen der Erben in Abzug gebracht werden.

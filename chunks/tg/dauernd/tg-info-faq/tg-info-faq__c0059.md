@@ -9,22 +9,18 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Kapitalleistungen aus Vorsorge
 
-## Kapitalleistungen aus Vorsorge
+    Zusätzlich hält § 39 Abs. 1 StG fest, dass Kapitalleistungen stets einer vollen Jahressteuer für das Kalenderjahr, in dem sie zugeflossen sind, unterliegen. Eine Leistung wird als "zugeflossen" betrachtet, wenn der Steuerpflichtige einen festen und durchsetzbaren Rechtsanspruch erworben hat und in der Lage ist, über die Leistung wirtschaftlich frei zu verfügen. Normalerweise tritt dieser Fall zum Zeitpunkt der Fälligkeit der Leistung ein.
 
-Angewandter Tarif
+Deklaration Kapitalleistungen in Steuererklärung
 :   ### Frage
 
-    Bei mir wurde der Tarif "verheiratet" angewendet, obwohl ich dies gar nicht bin.
+    Müssen Kapitalbezüge in der Steuererklärung deklariert werden?
 
     ### Antwort
 
-    Unter bestimmten Voraussetzungen kommt der Steuersatz für Verheiratete auch bei Alleinstehenden bzw. Alleinerziehenden zur Anwendung.
+    Neben der Deklaration des ausbezahlten Guthabens im Wertschriften- und Guthabenverzeichnis bitten wir Sie die Kapitalleistungen zu Informationszwecken auf der Seite 4 des Hauptformulars "Steuererklärung" unten zu deklarieren.
 
-Besteuerungszeitpunkt der Kapitalleistung
+Einbringung Kapitalleistung in andere Säule 3a
 :   ### Frage
 
-    Ich habe mir das Kapital erst im Jahr 2026 auszahlen lassen. Warum erfolgt die Besteuerung im Jahr 2025?
-
-    ### Antwort
-
-    Für die Feststellung des Zeitpunktes, ab dem ein Wertzufluss versteuert werden muss, ist massgebend, wann der Steuerpflichtige den Rechtsanspruch erworben hat bzw. wann er über diesen wirtschaftlich tatsächlich verfügen kann. Altersleistungen in Form von Kapitalleistungen gelten mit dem Eintritt des Vorsorgefalls als realisiert. Im Normalfall ist daher auf die Fälligkeit und nicht auf die tatsächliche Auszahlung abzustellen.
+    Ich habe meine Säule 3a nicht bezogen, sondern in eine andere Säule 3a eingebracht. Wie muss ich vorgehen?

@@ -4,16 +4,17 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 4"
-seiten: "1"
+titel: "Ziff. 3 Kreis der Vorsorgenehmer (AHV-pflichtiges Einkommen, Grenzgänger)"
+ziffer: "3"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 1
+> Bund · Steuerjahr 2026 · KS 18a · 3. Kreis der Vorsorgenehmer · S. 3
 
-    5.3. Oberer Grenzbetrag ................................................................................................................. 5
-    5.4. Abzug für Steuerpflichtige, die einer Einrichtung der beruflichen Vorsorge (2. Säule)
-    angehören ................................................................................................................................ 5
-    5.5. Abzug für Steuerpflichtige, die keiner Einrichtung der beruflichen Vorsorge (2. Säule)
-    angehören ................................................................................................................................ 5
-    5.6. Einkäufe in die Säule 3a .......................................................................................................... 6
-    5.7. Sonderfälle ............................................................................................................................... 7
+3.   Kreis der Vorsorgenehmer
+Vorsorgeverträge für anerkannte Formen der gebundenen Selbstvorsorge können nur von
+Personen abgeschlossen werden, die ein der AHV/IV/EO-Pflicht unterliegendes Erwerbs-
+oder Erwerbsersatzeinkommen erzielen (nachfolgend: AHV-pflichtiges Einkommen). Auch
+Grenzgänger mit Wohnsitz im Ausland, die für einen Arbeitgeber in der Schweiz arbeiten,
+können eine Säule 3a bilden; dabei ist unwesentlich, ob sie ihre Vorsorgebeiträge in der
+Schweiz zum Abzug bringen können oder nicht.

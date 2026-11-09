@@ -4,39 +4,30 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 76"
+titel: "Anhang S. 32 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – (Fortsetzung)"
+ziffer: "10, 23"
 seiten: "32"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 32
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum · S. 32
 
-<!-- Seite 32 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
-
-Wohnbauland
-
-Bebaute Grundstücke
-    Stockwerkeigentum (Ziff. 10 und 23)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
-
-Bezirk Bülach
-Bachenbülach   4   700   620   540   460   –   –   –
-Bassersdorf   5   820   740   660   580   490   –   –
-Bülach   5   740   680   610   550   480   –   –
-Dietlikon   5   830   750   670   590   510   –   –
-Eglisau   5   600   550   490   430   370   –   –
-Embrach   4   640   580   510   450   –   –   –
-Freienstein-Teufen   2   540   440   –   –   –   –   –
-Glattfelden   5   520   480   440   400   350   –   –
-Hochfelden   4   640   570   510   440   –   –   –
-Höri   3   420   350   280   –   –   –   –
-Hüntwangen   5   510   480   440   410   370   –   –
-Kloten   5   820   740   660   580   500   –   –
-Lufingen   3   820   640   450   –   –   –   –
-Nürensdorf   5   800   730   650   580   500   –   –
-Oberembrach   3   680   550   410   –   –   –   –
-Opfikon   4   780   680   570   470   –   –   –
-Rafz   4   600   530   460   390   –   –   –
-Rorbas   3   500   460   420   –   –   –
-Wallisellen   5   880   810   730   650   570   –   –
+Buchs (ZH)   5   700   650   590   530   470   –   –
+Dällikon   5   720   660   600   540   470   –   –
+Dänikon   3   540   460   370   –   –   –   –
+Dielsdorf   5   700   630   550   480   400   –   –
+Hüttikon   2   610   460   –   –   –   –   –
+Neerach   5   870   780   680   590   490   –   –
+Niederglatt   3   670   560   450   –   –   –   –
+Niederhasli   5   630   590   540   500   450   –   –
+Niederweningen   5   650   590   520   460   390   –   –
+Oberglatt   5   660   610   550   500   440   –   –
+Oberweningen   5   640   590   530   480   420   –   –
+Otelfingen   5   710   650   590   530   460   –   –
+Regensberg   3   830   720   610   –   –   –   –
+Regensdorf   5   800   730   650   580   500   –   –
+Rümlang   5   670   610   540   470   400   –   –
+Schleinikon   2   620   500   –   –   –   –   –
+Schöfflisdorf   4   610   540   460   390   –   –   –
+Stadel   2   520   410   –   –   –   –   –
+Steinmaur   5   640   580   520   460   390   –   –
+Weiach   3   580   500   420   –   –   –   –

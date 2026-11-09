@@ -4,17 +4,23 @@ quelle: bund-ssk-ks27-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 27 (MB SZ) – Abschnitt 7"
-seiten: "2"
+titel: "Ziff. 3.1 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze natürliche Personen (Teil 3/3)"
+ziffer: "3.1"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · S. 2
+> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · 3. Kreisschreiben SSK › 3.1 Natürliche Personen · S. 2–3
 
-Aufgrund der geänderten bundesgerichtlichen Rechtsprechung hat die Schweizerische Steuerkonfe-
-renz (SSK) mit dem Kreisschreiben Nr. 27 vom 15. März 2007 (Details siehe
-http://www.steuerkonferenz.ch/?Dokumente:Kreisschreiben) die sowohl für natürliche wie auch ju-
-ristische Personen interkantonal zu beachtenden Ausscheidungsgrundsätze definiert, wobei Ver-
-lustübernahmen definitiv zu erfolgen haben (Bezug auf das Urteil vom 3. November 2006,
-2P.84/2006, E. 5.2; keine Rückbelastung an andere Kantone in den Folgejahren).
+    werden im Verhältnis der in den betroffenen Kantonen steuerbaren Reineinkommen verlegt.
+   In den Liegenschaftskantonen erfolgt die Verrechnung mit Grundstückgewinnen des Geschäfts-
+    vermögens, ungeachtet ob diese Gewinne mit der Einkommens- oder mit der Grundstückge-
+    winnsteuer erfasst werden. Kantone mit dem monistischen System der Grundstückgewinnsteuer
+    verrechnen übernommene Verluste zuerst mit den wieder eingebrachten Abschreibungen und
+    einen allenfalls verbleibenden Rest mit dem Wertzuwachsgewinn.
+   Eine Verrechnung von Verlusten und Gewinnungskostenüberschüssen mit Grundstückgewinnen
+    des Privatvermögens ist in jedem Fall ausgeschlossen.
+   Die Übernahme von Verlusten und Gewinnungskostenüberschüssen ist definitiv. Weder das
+    Hauptsteuerdomizil noch die sekundären oder Spezialsteuerdomizile belasten Verluste und Ge-
 
-3.1   Ausscheidungsgrundsätze für natürliche Personen
+    winnungskostenüberschüsse, die sie von einem anderen Steuerdomizil übernommen haben, an
+    dieses zurück.

@@ -4,22 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 18"
-seiten: "4"
+titel: "Ziff. 2.3 Ansässigkeit – Doppelansässigkeit und Vorrangkriterien (Teil 1/2)"
+ziffer: "2.3"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.3 Ansässigkeit · S. 8
 
-Gemäss Artikel 85 Absatz 4 des Bundesgesetzes vom 14. Dezember 1990 über die direkte
-Bundessteuer in der Fassung vom 11. April 2018 (DBG; SR 642.11) ist die Berechnung der
-Quellensteuern für Arbeitnehmer im Sinne der Artikel 83 und 91 DBG zu vereinheitlichen.
-Für die übrigen quellensteuerpflichtigen Personen mit Ansässigkeit im Ausland, welche eine
-der Voraussetzungen nach Artikel 5 Absatz 1 Buchstaben b – f DBG erfüllen, wird auf die re-
-gelmässig erscheinenden Rundschreiben der ESTV über die Quellensteuer und die darin
-publizierten Merkblätter verwiesen.
-Die wichtigsten Neuerungen sind:
-    1. Für die Steuerbehörden, dass das vorliegende Kreisschreiben – wie sämtliche Kreis-
-    schreiben der ESTV – schweizweite Gültigkeit hat und somit von allen Kantonen anzu-
-    wenden ist;
-    2. Für die Schuldner der steuerbaren Leistungen, dass die Quellensteuern direkt mit dem
-    zuständigen Kanton nach Artikel 107 DBG und nach dessen Modell (Monats- oder Jah-
+Im internationalen Verhältnis wird die Ansässigkeit in Artikel 4 Absatz 1 OECD-MA definiert.
+Demnach gilt eine Person als in einem Staat ansässig, wenn sie nach dem in diesem Staat
+geltenden Recht dort unbeschränkt steuerpflichtig ist.
+Ist eine natürliche Person sowohl nach unilateralem schweizerischem Recht als auch nach
+internem Recht eines anderen Staates in beiden Vertragsstaaten ansässig (sog. Doppelan-
+sässigkeit), bestimmen die Kriterien von Artikel 4 Absatz 2 OECD-MA, welchem Vertrags-
+staat der Vorrang als Ansässigkeitsstaat eingeräumt wird. Bei natürlichen Personen gilt fol-
+gende Reihenfolge der Vorrangkriterien:
+    1. Ständige Wohnstätte bzw. falls eine solche in beiden Staaten vorhanden ist der Mittel-
+    punkt der Lebensinteressen;
+    2. gewöhnlicher Aufenthalt;
+    3. Staatsangehörigkeit und
+    4. Resultat eines Verständigungsverfahrens beider Vertragsstaaten.
+Weist das anwendbare DBA die Ansässigkeit in solchen Fällen dem anderen Staat zu, ist die

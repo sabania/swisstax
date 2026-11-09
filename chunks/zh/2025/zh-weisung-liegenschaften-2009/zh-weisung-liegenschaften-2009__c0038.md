@@ -4,29 +4,29 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 38"
-seiten: "16"
+titel: "Ziff. 92–94 Mehrfamilienhäuser jährliche Neufestsetzung, Inkrafttreten"
+ziffer: "92–94"
+seiten: "18"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 16
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · E. Neufestsetzung › II. Mehrfamilien- und Geschäftshäuser; F. Inkrafttreten · S. 18
 
-<!-- Seite 16 -->
     631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
 
-    II. Eigenmietwert
+    II. Mehrfamilien- und Geschäftshäuser
 
-83   Führt die schematische, formelmässige Ermittlung zu einem Eigen-
-    mietwert, der über 70% der Marktmiete oder unter 60% derselben liegt,
-    so ist eine individuelle Schätzung des Eigenmietwerts vorzunehmen.
-84   Bei der individuellen Schätzung des Eigenmietwerts ist in einem
-    ersten Schritt auf folgende Grundlagen abzustellen:
-    – auf für vergleichbare Objekte an ähnlicher Lage bezahlte Miet-
-    preise,
-    – auf ein nach anerkannten Bewertungsgrundsätzen erstelltes Privat-
-    gutachten über die erzielbare Marktmiete.
-85   Ist aufgrund vorstehender Grundlagen keine gesicherte Indivi-
-    dualschätzung möglich, so kann das kantonale Steueramt in einem
-    zweiten Schritt für die individuelle Ermittlung des Marktmietwerts die
-    hedonische Methode anwenden. Für die Ermittlung des Marktmiet-
-    werts mittels hedonischer Methode haben die Steuerpflichtigen mitzu-
-    wirken, indem sie insbesondere den zugestellten Fragebogen vollstän-
+92   Die Vermögenssteuerwerte von Mehrfamilien- und Geschäfts-
+    häusern sowie die Mietwerte von durch den Pflichtigen und zu seinem
+    Haushalt gehörenden Personen genutzten Wohnungen in Mehrfami-
+    lien- und Geschäftshäusern sind ab Steuerperiode 2009 in jeder Steu-
+    erperiode nach den Bestimmungen dieser Weisung neu festzulegen.
+93   Ziff. 91 gilt sinngemäss.
+
+
+    F. Inkrafttreten
+
+94   Diese Weisung gilt ab Steuerperiode 2009 (1. Januar 2010).
+
+
+    1   OS 64, 496; Begründung siehe ABl 2009, 1687.
+    2   LS 631.1.

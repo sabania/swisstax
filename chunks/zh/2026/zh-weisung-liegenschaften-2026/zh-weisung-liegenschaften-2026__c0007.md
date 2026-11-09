@@ -4,30 +4,38 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 7"
-seiten: "3"
+titel: "Ziff. 16–18 Kiesland, anderes Land, besondere Verhältnisse"
+ziffer: "16–18"
+seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 3
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 4.–6. · S. 4
 
-Bauland für Mehrfamilienhäuser und Stockwerkeigentum
-    Für jede Gemeinde wird eine Preisbandbreite festgelegt.   10
-   Innerhalb einer Gemeinde werden die Grundstücke bestimmten 11
-Lageklassen zugeordnet. Im Rahmen der Preisbandbreite wird für jede
-Lageklasse der steuerlich massgebende Landwert festgelegt.
-    Dabei sind insbesondere zu berücksichtigen:   12
-–   Lage der Gemeinde innerhalb des Kantons,
-–   Vergleichspreise für überbaute Grundstücke in der Gemeinde,
-–   Lage der Grundstücke innerhalb der Gemeinde,
-–   mittlere bauliche Dichte in der Gemeinde,
-–   mittlere Preise für überbaute Grundstücke im ganzen Kanton.
+    4. Kiesland
 
-Bauland für Einfamilienhäuser
-    Der Landwert wird nach dem Vorgehen gemäss Ziff. 10–12 ermit- 13
-telt.
+16   Kiesland, das ausgebeutet wird oder zur unmittelbaren Ausbeutung
+    erworben wurde, wird bis zur Wiederherstellung der landwirtschaft-
+    lichen Nutzung zum Verkehrswert besteuert. Als Verkehrswert gilt der
+    Preis, der im betreffenden Gebiet für unausgebeutetes bzw. teilweise
+    oder ganz ausgebeutetes Kiesland bezahlt wird.
 
-Bauland für Geschäftshäuser
-   Mit einem Zentrum-Peripherie-Modell werden die Gemeinden 14
-bestimmten Gemeindetypen zugeteilt. Aufgrund von Vergleichshand-
-änderungen werden für die einzelnen Gemeindetypen in der Regel
-einheitliche Landwerte festgelegt.
+
+    5. Anderes unüberbautes, nicht landwirtschaftlich beworbenes Land
+
+17   Anderes unüberbautes, auf längere Sicht nicht landwirtschaftlich
+    beworbenes Land, wie Lagerplätze, Campingplätze usw., wird zum
+    Verkehrswert besteuert. Soweit das Land in der Bauzone liegt, sind
+    Ziff. 7 ff. sinngemäss anwendbar.
+
+
+    6. Besondere Verhältnisse
+
+18   Liegt im Einzelfall der tatsächliche Landwert wesentlich tiefer als
+    der steuerlich massgebende Wert gemäss Ziff. 7 ff., wie z.B. bei:
+    – ausserordentlichen Lärm- oder anderen Immissionen, denen nicht
+    schon bei der Zuteilung zur betreffenden Lageklasse Rechnung
+    getragen wurde,
+    – entsprechenden privat- oder öffentlich-rechtlichen Baubeschrän-
+    kungen,
+    so wird, vorbehältlich des Nachweises, eine entsprechende Reduktion
+    vorgenommen.

@@ -4,19 +4,27 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 22"
-seiten: "5"
+titel: "Ziff. 5.7 Sonderfall f: Erwerbstätige nach Erreichen des Referenzalters"
+ziffer: "5.7 f"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 5
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 8
 
-5.5. Abzug für Steuerpflichtige, die keiner Einrichtung der beruflichen Vor-
-    sorge (2. Säule) angehören
-Nicht in der 2. Säule versicherte Arbeitnehmer und Selbständigerwerbende können nach
-Artikel 7 Absatz 1 Buchstabe b BVV 3 ihre im betreffenden Jahr tatsächlich geleisteten
-Beiträge an anerkannte Vorsorgeformen bis 20 Prozent des Erwerbseinkommens, jedoch
-höchstens bis 40 Prozent des oberen Grenzbetrages abziehen.
+f)   Erwerbstätige, die das Referenzalter überschritten haben
+Leistet der Vorsorgenehmer keine Beiträge mehr in eine Vorsorgeeinrichtung, weil er das
+Referenzalter bereits überschritten hat und Rentenbezüger ist (passive Zugehörigkeit), ist er
+aber weiterhin erwerbstätig, kann er bis fünf Jahre nach Erreichen des Referenzalters bis 20
+Prozent des Erwerbseinkommens, jedoch höchstens 40 Prozent des oberen Grenzbetrages
+nach Artikel 8 Absatz 1 BVG in die Säule 3a einzahlen.
 
-Jeglicher Abzug setzt voraus, dass die steuerpflichtige Person ein AHV-pflichtiges Erwerbs-
-einkommen erzielt (unter Vorbehalt des Freibetrags gemäss Art. 6quater AHVV, vgl. Ziff. 3).
-Kein Abzug kommt deshalb in Betracht, wenn sich aus der Erwerbstätigkeit ein Verlust
+Ist der Vorsorgenehmer jedoch noch aktiv bei einer Vorsorgeeinrichtung versichert (selbst
+wenn keine Beiträge mehr geleistet werden), kann er bis höchstens fünf Jahre nach Errei-
+chen des Referenzalters jährlich bis 8 Prozent des oberen Grenzbetrages nach Artikel 8 Ab-
+satz 1 BVG in die Säule 3a einzahlen.
+
+Einkäufe in die Säule 3a nach Erreichen des Referenzalters setzen eine Erwerbstätigkeit vo-
+raus und können längstens bis fünf Jahre nach Erreichen des Referenzalters geleistet wer-
+den (Art. 7a Abs. 5 i.V.m. Art. 7 Abs. 3 BVV3). Zudem ist zu beachten, dass Einkäufe nicht
+mehr zulässig sind, wenn der Vorsorgenehmer einen Bezug einer Altersleistung aus der
+Säule 3a tätigt (Art. 7a Abs. 4 BVV3).

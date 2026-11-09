@@ -4,34 +4,25 @@ quelle: bund-ssk-ks22-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 22 (MB SZ) – Abschnitt 2"
+titel: "Rz 5–6 Interkantonale Steuerausscheidung – Grundsätze"
+ziffer: "5–6"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · S. 2
-
-<!-- Seite 2 -->
-    A. Inhalt
-
-1   Das vorliegende Merkblatt hat die Bewertung von Grundstücken bei interkantonalen Steu-
-    erausscheidungen mittels Repartitionswerten zum Gegenstand.
-
-    B. Rechtliche Grundlagen
-
-2   Gemäss § 5 Abs. 1 Bst. b des Steuergesetzes vom 9. Februar 2000 (StG, SRSZ 172.200)
-    sind natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt im Kanton auf
-    Grund wirtschaftlicher Zugehörigkeit steuerpflichtig, wenn sie Eigentum, dingliche Rechte
-    oder diesen wirtschaftlich gleichkommende persönliche Nutzungsrechte an Grundstücken
-    im Kanton haben.
-
-3   Gemäss § 7 Abs. 1 StG erfolgt die Steuerausscheidung für Grundstücke im Verhältnis zu
-    anderen Kantonen nach den Grundsätzen des Bundesrechts über das Verbot der interkan-
-    tonalen Doppelbesteuerung.
-
-    C. Geltungsbereich
-
-4   Das Merkblatt findet Anwendung auf nichtlandwirtschaftliche Grundstücke.
+> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 1. Interkantonale Steuerausscheidung · S. 2
 
     D. Repartitionswerte
 
     1. Interkantonale Steuerausscheidung
+
+5   Die Steuerausscheidung teilt das steuerbare Gesamteinkommen und -vermögen einer Per-
+    son betragsmässig auf die betroffenen Steuerhoheiten auf (Ausland, Kantone, Gemeinden).
+    Die interkantonale Steuerausscheidung betrifft die Aufteilung auf die Kantone.
+
+6   Die interkantonale Steuerausscheidung wird aufgrund der Steuerveranlagung für das nach
+    kantonalem Recht ermittelte Gesamteinkommen und -vermögen vorgenommen. Die jewei-
+    lige Steuerhoheit (Kanton) besteuert die für sie bestimmten Teile des Einkommens und
+    Vermögens zum Steuersatz des gesamten Einkommens und Vermögens (unbedingte Frei-
+    stellung1 mit Progressionsvorbehalt). Grundsätzlich werden Einkommen und Vermögen ob-
+    jektmässig2, Schulden und Schuldzinsen proportional, d.h. nach Lage der Gesamtaktiven,
+    verlegt.

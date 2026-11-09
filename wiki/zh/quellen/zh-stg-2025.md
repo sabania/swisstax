@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_1-1997_06_08-1999_01_01-127.html> · lokal: [zh-stg-2025.pdf](../../../raw/zh/2025/zh-stg-2025.pdf) · Volltext: [zh-stg-2025.md](../../../sources/zh/2025/zh-stg-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `bb07dc6cb57e8f6d…`
 
-## Inhalt (386 Chunks)
+## Inhalt (380 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -55,9 +55,8 @@ generiert: tools/build_index.py
 | [par-20-t3](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-20-t3.md) | § 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] (Teil 3/5) | § 20 |  |
 | [par-20-t4](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-20-t4.md) | § 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] (Teil 4/5) | § 20 |  |
 | [par-20-t5](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-20-t5.md) | § 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] (Teil 5/5) | § 20 |  |
-| [par-20a-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-20a-t1.md) | § 20a StG ZH – b. Besondere Fälle (Teil 1/3) | § 20a |  |
-| [par-20a-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-20a-t2.md) | § 20a StG ZH – b. Besondere Fälle (Teil 2/3) | § 20a |  |
-| [par-20a-t3](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-20a-t3.md) | § 20a StG ZH – b. Besondere Fälle (Teil 3/3) | § 20a |  |
+| [par-20a-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-20a-t1.md) | § 20a StG ZH – b. Besondere Fälle (Teil 1/2) | § 20a |  |
+| [par-20a-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-20a-t2.md) | § 20a StG ZH – b. Besondere Fälle (Teil 2/2) | § 20a |  |
 | [par-21-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-21-t1.md) | § 21 StG ZH – 5. Unbewegliches Vermögen (Teil 1/2) | § 21 |  |
 | [par-21-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-21-t2.md) | § 21 StG ZH – 5. Unbewegliches Vermögen (Teil 2/2) | § 21 |  |
 | [par-22](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-22.md) | § 22 StG ZH – 6. Einkünfte aus Vorsorge | § 22 |  |
@@ -81,9 +80,8 @@ generiert: tools/build_index.py
 | [par-32](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-32.md) | § 32 StG ZH – b. Von der Höhe des Einkommens abhängige Abzüge | § 32 |  |
 | [par-33](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-33.md) | § 33 StG ZH – 6. Nicht abzugsfähige Kosten und Aufwendungen | § 33 |  |
 | [par-34](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-34.md) | § 34 StG ZH – IV. Sozialabzüge | § 34 |  |
-| [par-35-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-35-t1.md) | § 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 1/3) | § 35 |  |
-| [par-35-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-35-t2.md) | § 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 2/3) | § 35 |  |
-| [par-35-t3](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-35-t3.md) | § 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 3/3) | § 35 |  |
+| [par-35-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-35-t1.md) | § 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 1/2) | § 35 |  |
+| [par-35-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-35-t2.md) | § 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 2/2) | § 35 |  |
 | [par-36](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-36.md) | § 36 StG ZH – 2. Sonderfälle a. Kapitalabfindungen für wiederkehrende Leistungen | § 36 |  |
 | [par-37](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-37.md) | § 37 StG ZH – b. Kapitalleistungen aus Vorsorge | § 37 |  |
 | [par-37a](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-37a.md) | § 37a StG ZH – VI. Vereinfachtes Abrechnungsverfahren | § 37a |  |
@@ -98,9 +96,8 @@ generiert: tools/build_index.py
 | [par-44](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-44.md) | § 44 StG ZH – 4. Verfahren | § 44 |  |
 | [par-45](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-45.md) | § 45 StG ZH – VI.[^70] Lebens- und Rentenversicherungen | § 45 |  |
 | [par-46](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-46.md) | § 46 StG ZH – VII.[^70] Abzug von Schulden | § 46 |  |
-| [par-47-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t1.md) | § 47 StG ZH – VIII.[^70] Steuertarif (Teil 1/3) | § 47 |  |
-| [par-47-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t2.md) | § 47 StG ZH – VIII.[^70] Steuertarif (Teil 2/3) | § 47 |  |
-| [par-47-t3](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t3.md) | § 47 StG ZH – VIII.[^70] Steuertarif (Teil 3/3) | § 47 |  |
+| [par-47-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t1.md) | § 47 StG ZH – VIII.[^70] Steuertarif (Teil 1/2) | § 47 |  |
+| [par-47-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t2.md) | § 47 StG ZH – VIII.[^70] Steuertarif (Teil 2/2) | § 47 |  |
 | [par-48](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-48.md) | § 48 StG ZH – Ausgleich der kalten Progression | § 48 |  |
 | [par-49](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-49.md) | § 49 StG ZH – I. Steuerperiode | § 49 |  |
 | [par-50](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-50.md) | § 50 StG ZH – II. Bemessungsperiode | § 50 |  |
@@ -110,9 +107,8 @@ generiert: tools/build_index.py
 | [par-54](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-54.md) | § 54 StG ZH – I. Begriff der juristischen Person | § 54 |  |
 | [par-55](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-55.md) | § 55 StG ZH – II. Steuerliche Zugehörigkeit 1. Persönliche Zugehörigkeit | § 55 |  |
 | [par-56](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-56.md) | § 56 StG ZH – 2. Wirtschaftliche Zugehörigkeit | § 56 |  |
-| [par-57-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-57-t1.md) | § 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 1/3) | § 57 |  |
-| [par-57-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-57-t2.md) | § 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 2/3) | § 57 |  |
-| [par-57-t3](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-57-t3.md) | § 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 3/3) | § 57 |  |
+| [par-57-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-57-t1.md) | § 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 1/2) | § 57 |  |
+| [par-57-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-57-t2.md) | § 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 2/2) | § 57 |  |
 | [par-58](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-58.md) | § 58 StG ZH | § 58 |  |
 | [par-59](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-59.md) | § 59 StG ZH – III. Beginn und Ende der Steuerpflicht | § 59 |  |
 | [par-60-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-60-t1.md) | § 60 StG ZH – IV. Mithaftung (Teil 1/2) | § 60 |  |
@@ -231,8 +227,7 @@ generiert: tools/build_index.py
 | [par-133](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-133.md) | § 133 StG ZH – 2. Pflichten des Steuerpflichtigen a. Steuererklärung | § 133 |  |
 | [par-134](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-134.md) | § 134 StG ZH – b. Beilagen zur Steuererklärung | § 134 |  |
 | [par-135](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-135.md) | § 135 StG ZH – c. Weitere Mitwirkungspflichten | § 135 |  |
-| [par-136-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-136-t1.md) | § 136 StG ZH – 3. Bescheinigungspflicht Dritter (Teil 1/2) | § 136 |  |
-| [par-136-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-136-t2.md) | § 136 StG ZH – 3. Bescheinigungspflicht Dritter (Teil 2/2) | § 136 |  |
+| [par-136](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-136.md) | § 136 StG ZH – 3. Bescheinigungspflicht Dritter | § 136 |  |
 | [par-137](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-137.md) | § 137 StG ZH – 4. Auskunftspflicht Dritter | § 137 |  |
 | [par-137a](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-137a.md) | § 137a StG ZH – 5. Meldepflicht bei Mitarbeiterbeteiligungen | § 137a |  |
 | [par-138](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-138.md) | § 138 StG ZH – II. Einschätzung 1. Vorbereitung | § 138 |  |
@@ -344,9 +339,8 @@ generiert: tools/build_index.py
 | [par-239](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-239.md) | § 239 StG ZH | § 239 |  |
 | [par-240](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-240.md) | § 240 StG ZH – 6. Steuerhinterziehung von Ehegatten | § 240 |  |
 | [par-241](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-241.md) | § 241 StG ZH – III. Juristische Personen 1. Allgemein[^61] | § 241 |  |
-| [par-241a-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-241a-t1.md) | § 241a StG ZH – 2. Selbstanzeige (Teil 1/3) | § 241a |  |
-| [par-241a-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-241a-t2.md) | § 241a StG ZH – 2. Selbstanzeige (Teil 2/3) | § 241a |  |
-| [par-241a-t3](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-241a-t3.md) | § 241a StG ZH – 2. Selbstanzeige (Teil 3/3) | § 241a |  |
+| [par-241a-t1](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-241a-t1.md) | § 241a StG ZH – 2. Selbstanzeige (Teil 1/2) | § 241a |  |
+| [par-241a-t2](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-241a-t2.md) | § 241a StG ZH – 2. Selbstanzeige (Teil 2/2) | § 241a |  |
 | [par-242](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-242.md) | § 242 StG ZH – IV. Verjährung der Strafverfolgung | § 242 |  |
 | [par-243](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-243.md) | § 243 StG ZH – V. Strafverfahren 1. Untersuchung und Strafbescheid der Steuerbehörden a. Zuständigkeit | § 243 |  |
 | [par-244](../../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-244.md) | § 244 StG ZH – b. Eröffnung des Verfahrens | § 244 |  |

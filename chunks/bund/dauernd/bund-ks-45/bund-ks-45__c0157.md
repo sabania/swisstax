@@ -4,19 +4,28 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 157"
-seiten: "41"
+titel: "Ziff. 7.5.1 Beispiel 2 – Lohn und Bonus Vorjahr (Jahresmodell)"
+ziffer: "7.5.1"
+seiten: "50"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 41
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.1 Ausscheidung ausländischer Arbeitstage · S. 50
 
-aperiodischen Lohnbestandteilen (vgl. Ziffer 7.3.1 oben), sind einzig die periodischen Lohn-
-bestandteile für die Satzbestimmung umzurechnen.
-Bei Aufnahme einer weiteren Erwerbstätigkeit ist die Umrechnung ab dem Folgemonat vor-
-zunehmen. Entsprechend ist bei Beendigung einer weiteren Erwerbstätigkeit keine Umrech-
-nung mehr vorzunehmen.
-Die Umrechnung hat nicht zu erfolgen, wenn ein Arbeitseinkommen nach dem Tarifcode E
-besteuert wird.
-Der Arbeitnehmer kann bei der zuständigen Steuerbehörde bis am 31. März des auf die Fäl-
-ligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine
-nachträgliche ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten).
+    2. Arbeitnehmer B. ist internationaler Wochenaufenthalter und erhält im April 2021 einen Bruttolohn in Höhe
+    von CHF 10 000.00 sowie einen Bonus für das Vorjahr in Höhe von CHF 30 000.00. Im Monat April hat er
+    an 4 Tagen in Grossbritannien gearbeitet. Im Vorjahr hat Arbeitnehmer B. an insgesamt 200 von Total 240
+    Arbeitstagen in der Schweiz gearbeitet.
+
+    Berechnung steuerbarer Bruttolohn (April 2021):
+    Total an Arbeitstagen:   20 Tage
+    Arbeitstage Schweiz:   20 Tage – 4 Tage = 16 Tage
+    Massgebendes Ausscheidungsverhältnis:   16 CH-Arbeitstage zum Total von 20 Arbeitstagen
+    Steuerbares Einkommen:   CHF 10 000.00 / 20 x 16 = CHF 8 000.00
+
+    Berechnung steuerbarer Bonus Vorjahr:
+    Total Arbeitstage Vorjahr:   240 Tage
+    Arbeitstage Schweiz Vorjahr:   240 Tage – 40 Tage = 200 Tage
+    Massgebendes Ausscheidungsverhältnis:   200 CH-Arbeitstage zum Total von 240 Arbeitstagen
+    Steuerbares Einkommen:   CHF 30 000.00 / 240 x 200 = CHF 25 000.00
+    Total steuerbar April 2021:   CHF 33 000.00 (CHF 8 000 + CHF 25 000)
+    Satzbestimmendes Einkommen April 2021:   CHF 150 000.00 (CHF 10 000 x 12 + CHF 30 000)

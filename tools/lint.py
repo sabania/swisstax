@@ -65,6 +65,34 @@ def check_registry(reg):
                 warnings.append(f"R2 {e['id']}: {len(big)} Chunk-Dateien > 1'800 Bytes (OpenClaw teilt sie), z.B. {big[0]}")
 
 
+def check_integrity(reg):
+    """R4: Chunks aus Agent-Plänen enthalten den Quelltext vollständig und unverändert (verbatim-Garantie)."""
+    import json as _j
+    plans = ROOT / "registry" / "chunkplans"
+    for e in reg:
+        pp = plans / f"{e['id']}.json"
+        d = chunk_dir(e)
+        if not pp.exists() or not d.exists() or e.get("strukturiert"):
+            continue
+        plan = _j.loads(pp.read_text(encoding="utf-8"))
+        full = source_path(e).read_text(encoding="utf-8").splitlines()
+        starts = [c["start"] for c in plan["chunks"]] + [len(full) + 1]
+        src = []
+        for i, c in enumerate(plan["chunks"]):
+            if c.get("skip"):
+                continue
+            src += [l for l in full[c["start"] - 1:starts[i + 1] - 1] if not l.startswith("<!-- Seite ")]
+        want = re.sub(r"\s+", "", "".join(src))
+        got = []
+        for f in sorted(d.glob("*.md")):
+            fm, body = read_frontmatter(f.read_text(encoding="utf-8"))
+            parts = body.split("\n", 2)
+            got.append(parts[2] if len(parts) > 2 and parts[0].startswith("> ") else body)
+        have = re.sub(r"\s+", "", "".join(got))
+        if want != have:
+            errors.append(f"R4 {e['id']}: Chunk-Text weicht vom Quelltext ab (Plan/Chunks neu erzeugen: tools/chunk.py --id {e['id']})")
+
+
 def check_filenames():
     for p in ROOT.rglob("*.md"):
         if ".git" in p.parts:
@@ -136,6 +164,7 @@ def main():
     reg = load_registry()
     cidx = chunk_index()
     check_registry(reg)
+    check_integrity(reg)
     check_filenames()
     stats = check_data(reg, cidx)
     nlinks = check_links()

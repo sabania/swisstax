@@ -4,18 +4,21 @@ quelle: bund-ssk-ks22-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 22 (MB SZ) – Abschnitt 4"
-seiten: "2"
+titel: "Rz 7–8 Bewertung der Liegenschaften – Repartitionsfaktor (Teil 2/2)"
+ziffer: "7–8"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · S. 2
+> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 2. Bewertung der Liegenschaften (Repartition) · S. 2–3
 
-7   Eine sachgerechte und vollständige Verteilung der Schulden und Schuldzinsen bei der in-
-    terkantonalen Steuerausscheidung setzt voraus, dass die betroffenen Kantone die Bewer-
-    tung der inner- und ausserkantonalen Vermögensobjekte, insbesondere der Liegenschaf-
-    ten, nach übereinstimmenden Regeln vornehmen. Da die kantonalen Bewertungskriterien
-    1
-    Unbedingte Freistellungsmethode: Die nicht zur Besteuerung berechtigten Kantone sind von der Besteuerung des Steuer-
-    objektes auch dann ausgeschlossen, wenn der berechtigte Kanton von seinem Besteuerungsrecht keinen Gebrauch macht.
-    Bei der objektmässigen Methode werden Einkommens- und Vermögensbestandteile jeweils als Ganzes dem berechtigten
-    Kanton zugewiesen.
+    sehr unterschiedlich sind, resultieren uneinheitliche Steuerwerte, die von den Verkehrs-
+    werten abweichen können. Aus diesem Grund sind die Liegenschaftswerte für die Steuer-
+    ausscheidung vorerst mit einem Umrechnungskoeffizienten (Repartitionsfaktor) auszuglei-
+    chen. Die Anpassung der kantonalen Steuerwerte aufgrund des anwendbaren Repartitions-
+    faktors vereinheitlicht die Liegenschaftswerte schweizweit und gewährleistet eine korrekte
+    Verteilung der Schulden und Schuldzinsen auf die betroffenen Kantone.
+
+8   Die Schweizerische Steuerkonferenz (SSK) ermittelt die massgebenden Repartitionsfakto-
+    ren periodisch aufgrund von Vergleichen zwischen Steuer- und Marktwerten und publiziert
+    diese im Kreisschreiben Nr. 22 «Regeln für die Bewertung der Grundstücke bei interkan-
+    tonalen Steuerausscheidungen» vom 22. März 20183.

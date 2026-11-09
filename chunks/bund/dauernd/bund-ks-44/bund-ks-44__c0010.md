@@ -4,14 +4,17 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 10"
-seiten: "3"
+titel: "Ziff. 3.2 Weltweiter Aufwand – Prinzip"
+ziffer: "3.2"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.2 Weltweiter Aufwand · S. 4
 
-sitz oder Aufenthalt in der Schweiz, die nach ihrer Pensionierung in der Schweiz bleiben, kön-
-nen keine Besteuerung nach dem Aufwand beanspruchen. Es liegt keine erstmalige Steuer-
-pflicht, beziehungsweise keine Steuerpflicht nach mindestens zehnjähriger Unterbrechung ge-
-mäss Artikel 14 Absatz 1 Buchstabe b DBG vor, selbst wenn das bislang resultierende Erwerbs-
-einkommen aufgrund völkerrechtlicher Verträge von der direkten Bundessteuer befreit war.
+3.2   Weltweiter Aufwand
+Die Steuer nach dem Aufwand wird nach den jährlichen, in der Bemessungsperiode im In- und
+Ausland entstandenen Lebenshaltungskosten der steuerpflichtigen Person und der von ihr un-
+terhaltenen, im In- und Ausland lebenden Personen berechnet (Prinzip des weltweiten Auf-
+wands). Die ausserordentlichen und nichtperiodischen Kosten, wie zum Beispiel die Schenkung
+eines bedeutenden Teils des Vermögens der steuerpflichtigen Person, gelten in der Regel nicht
+als Unterhaltskosten der steuerpflichtigen Person oder derer Familie.

@@ -4,22 +4,24 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 15"
-seiten: "4"
+titel: "Ziff. II.2.4 Zusatzversicherung – Risikodeckung nach Vorbezug"
+ziffer: "II.2.4"
+seiten: "6-7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 2 Steuerliche Auswirkungen › 2.4 Zusatzversicherung · S. 6–7
 
-Die Rückzahlung eines WEF-Vorbezuges umfasst immer nur den seinerzeit bezogenen Be-
-trag, ohne den durch die Kapitalreduktion entstandenen Zinsausfall. Die durch den Zinsaus-
-fall entstandene Lücke kann nach erfolgter WEF-Rückzahlung mittels Einkauf von Beitrags-
-jahren geschlossen werden. Dafür muss das Reglement der Vorsorgeeinrichtung einen Ein-
-kauf von Beitragsjahren auch nach dem Zeitpunkt des Eintritts in dieselbe vorsehen.
+2.4.   Zusatzversicherung
 
-c)   Keine WEF-Rückzahlung mit Mitteln, die bereits für die Vorsorge gebun-
-    den sind
+Die nach einem Vorbezug entstandene Verminderung der Risikodeckung bei Tod und Invali-
+dität kann mit einer Zusatzversicherung ausgeglichen werden, welche die Vorsorgeeinrich-
+tung selber anbietet oder vermittelt (Art. 30c Abs. 4 BVG). Eine solche Zusatzversicherung
+kann bei einer Versicherungsgesellschaft als gebundene Selbstvorsorge (Säule 3a) oder im
+Rahmen der freien Vorsorge (Säule 3b) abgeschlossen werden. Aus steuerlicher Sicht han-
+delt es sich aber bei der Zusatzversicherung immer, d.h. auch bei Abschluss mit der Vorsor-
+geeinrichtung selber, um individuelle Vorsorge. Die steuerliche Abzugsfähigkeit für die ent-
 
-Eine Rückzahlung des Vorbezuges für Wohneigentumsförderung ist nicht möglich mit Mit-
-teln, die bereits für die Vorsorge gebunden sind wie z.B. der anlässlich einer Scheidung er-
-haltene Anteil an der Austrittsleistung, frei werdendes Vorsorgeguthaben bei einer Reduktion
-des Beschäftigungsgrades oder bereits bestehende Freizügigkeitsguthaben. Der für das
+    Vgl. BGE 2A.509/2003 vom 18. Mai 2004, Erw. 5.1
+
+sprechenden Prämien richten sich nach den jeweiligen Vorsorgeformen (Art. 33 Abs. 1 Bst.
+e bzw. Bst. g DBG).

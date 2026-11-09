@@ -4,14 +4,28 @@ quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
 jahre: [2025]
 typ: praxis
-titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 6"
-seiten: "2"
+titel: "A.III.1 Nachträgliche ordentliche Veranlagung Quellensteuerpflichtige (Fr. 120'000) (Teil 1/3)"
+ziffer: "A.III.1"
+seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 2
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › III. Nachträgliche ordentliche Veranlagung › 1. Steuerperiode 2025 · S. 3
 
-3. Frist zur Abgabe der Steuererklärung
+III. Nachträgliche ordentliche Veranlagung von quellensteuerpflichtigen
+ausländischen Arbeitnehmenden im Jahr 2026
 
-Die Steuererklärung ist, zusammen mit den erforderlichen Beilagen gemäss § 134 StG, innert 30
-Tagen nach Zustellung der Formulare online (www.zh.ch/steuererklaerung) oder dem Scan-
-Center einzureichen. Im Todesfall beträgt die Frist 60 Tage.
+1. Nachträgliche ordentliche Veranlagung für die Steuerperiode 2025 (Steuererklärung 2025)
+
+a) Pflicht zur Einreichung der Steuererklärung
+
+Personen, welche der Quellensteuer für ausländische Arbeitnehmende unterliegen, müssen
+nachträglich ihr gesamtes Einkommen und Vermögen im ordentlichen Verfahren versteuern,
+wenn ihre dem Steuerabzug an der Quelle unterworfenen Bruttoeinkünfte in einem Kalenderjahr
+mehr als Fr. 120'000.- betragen haben und ein Wohnsitz im Kanton bestanden hat. Bei
+gemeinsam steuerpflichtigen Ehegatten bzw. Partnerinnen oder Partnern ist eine nachträgliche
+ordentliche Veranlagung durchzuführen, wenn die Bruttoeinkünfte eines der beiden Ehegatten
+bzw. Partner den genannten Schwellenwert überstiegen haben. In den Folgejahren wird somit bis
+zum Ende der Quellensteuerpflicht auch dann eine nachträgliche ordentliche Veranlagung
+durchgeführt, wenn der Schwellenwert von Fr. 120'000.- vorübergehend oder dauernd wieder
+unterschritten wird.
+Ebenfalls der nachträglichen ordentlichen Veranlagung unterliegen im Kanton Zürich wohnhafte

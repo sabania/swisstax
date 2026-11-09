@@ -1,193 +1,275 @@
 [
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0001",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Weisung Einschätzung ohne Steuererklärung – Titel, A.I. Aufgaben Gemeindesteueramt (Rz 1–3) (Teil 1/2)",
+"pfad": [
+"A. Verfahren",
+"I. Einschätzung durch das kantonale Steueramt"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Rz 1–3",
+"stichworte": [
+"Ermessenseinschätzung",
+"Fehlblatt",
+"Steuererklärung nicht eingereicht",
+"Mahnung",
+"Gemeindesteueramt"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bei fehlender oder offensichtlich unrichtiger Steuererklärung trotz Mahnung erstellt das Gemeindesteueramt ein Fehlblatt (StA Form. 109) mit Antrag auf Ermessenseinschätzung (§ 139 Abs. 2 StG, Art. 130 Abs. 2 DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "zh-zstb-139-2-bis-2025-06__c0002"
 },
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0002",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 2",
-"pfad": [],
+"titel": "Weisung Einschätzung ohne Steuererklärung – Titel, A.I. Aufgaben Gemeindesteueramt (Rz 1–3) (Teil 2/2)",
+"pfad": [
+"A. Verfahren",
+"I. Einschätzung durch das kantonale Steueramt"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Rz 1–3",
+"stichworte": [
+"Ermessenseinschätzung",
+"Fehlblatt",
+"Steuererklärung nicht eingereicht",
+"Mahnung",
+"Gemeindesteueramt"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-139-2-bis-2025-06__c0001",
 "nachher": "zh-zstb-139-2-bis-2025-06__c0003"
 },
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0003",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 3",
-"pfad": [],
+"titel": "Rz 4–6 Aufgaben der Divisionen – Ermessenseinschätzung, Bussenverfahren",
+"pfad": [
+"A. Verfahren",
+"I. Einschätzung durch das kantonale Steueramt"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Rz 4–6",
+"stichworte": [
+"Division",
+"Busse",
+"Verfahrenspflichten",
+"Art. 174 DBG",
+"Ermessenseinschätzung"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Divisionen sind für die Ermessenseinschätzung zuständig und beantragen Bussen wegen Verletzung von Verfahrenspflichten (Art. 174 DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-139-2-bis-2025-06__c0002",
 "nachher": "zh-zstb-139-2-bis-2025-06__c0004"
 },
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0004",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 4",
-"pfad": [],
+"titel": "Rz 7–12 Ermessenseinschätzung durch Gemeinden – Zuständigkeit, Staats- und Bundessteuer",
+"pfad": [
+"A. Verfahren",
+"II. Ermessenseinschätzungen durch die Gemeinden"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Rz 7–12",
+"stichworte": [
+"Gemeinde Einschätzung",
+"Form. 49",
+"Bundessteuer Veranlagung",
+"Unselbständigerwerbende",
+"Sichtverfahren"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Gemeinden können Ermessenseinschätzungen für unselbständig Erwerbende vornehmen (StA Form. 49 im Doppel); die direkte Bundessteuer wird gleichzeitig veranlagt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-139-2-bis-2025-06__c0003",
 "nachher": "zh-zstb-139-2-bis-2025-06__c0005"
 },
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0005",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 5",
-"pfad": [],
+"titel": "Rz 13–15 Zustellung der Einschätzungsentscheide, Einsprache",
+"pfad": [
+"A. Verfahren",
+"II. Ermessenseinschätzungen durch die Gemeinden"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Rz 13–15",
+"stichworte": [
+"Zustellung",
+"eingeschrieben",
+"Einsprache",
+"Annahme verweigert",
+"Einschätzungsentscheid"
+],
+"positionen": [
+"verfahren.einreichung",
+"verfahren.bezug"
+],
+"zusammenfassung": "Entscheide werden eingeschrieben oder gegen Empfangsschein zugestellt; bei Annahmeverweigerung wird trotzdem eine Steuerrechnung zugestellt; Einsprache geht ans kantonale Steueramt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-139-2-bis-2025-06__c0004",
 "nachher": "zh-zstb-139-2-bis-2025-06__c0006"
 },
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0006",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 6",
-"pfad": [],
+"titel": "Rz 16–21 Ablieferung der Unterlagen, Meldung Bundessteuer, Bussen, fehlerhafte Zustellung (Teil 1/2)",
+"pfad": [
+"A. Verfahren",
+"II. Ermessenseinschätzungen durch die Gemeinden"
+],
 "seiten": [
-2
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Rz 16–21",
+"stichworte": [
+"Ablieferung Akten",
+"Scan-Center",
+"Bussenverfahren",
+"Sonderbeitrag",
+"Dienstabteilung Bundessteuer"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Doppel der Entscheide an das Scan-Center; Bussenanträge an die Dienstabteilung Bundessteuer; bei fehlerhafter Zustellung entfällt der Sonderbeitrag.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-139-2-bis-2025-06__c0005",
 "nachher": "zh-zstb-139-2-bis-2025-06__c0007"
 },
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0007",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 7",
-"pfad": [],
+"titel": "Rz 16–21 Ablieferung der Unterlagen, Meldung Bundessteuer, Bussen, fehlerhafte Zustellung (Teil 2/2)",
+"pfad": [
+"A. Verfahren",
+"II. Ermessenseinschätzungen durch die Gemeinden"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "Rz 16–21",
+"stichworte": [
+"Ablieferung Akten",
+"Scan-Center",
+"Bussenverfahren",
+"Sonderbeitrag",
+"Dienstabteilung Bundessteuer"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-139-2-bis-2025-06__c0006",
 "nachher": "zh-zstb-139-2-bis-2025-06__c0008"
 },
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0008",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 8",
-"pfad": [],
+"titel": "B. Grundsätze der ermessensweisen Festsetzung von Einkommen und Vermögen (Rz 22–24)",
+"pfad": [
+"B. Grundsätze der Ermessenseinschätzung"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Rz 22–24",
+"stichworte": [
+"Ermessen",
+"Schätzung Einkommen",
+"Lebensaufwand",
+"Vermögensneubildung",
+"§ 139 Abs. 2 StG"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Einkommen ist so zu schätzen, dass der Pflichtige von der Nichtabgabe nicht profitiert; Vermögen nur bei früherer Veranlagung oder vermuteter Neubildung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-139-2-bis-2025-06__c0007",
 "nachher": "zh-zstb-139-2-bis-2025-06__c0009"
 },
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0009",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 9",
-"pfad": [],
+"titel": "C. Nachträgliche Steuererklärungen – Rz 25–27 (innerhalb Einsprachefrist)",
+"pfad": [
+"C. Nachträgliche Steuererklärungen"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Rz 25–28",
+"stichworte": [
+"nachträgliche Steuererklärung",
+"Einsprachefrist",
+"Einsprache",
+"Vermerk",
+"verspätet eingereicht"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Wird die Steuererklärung innerhalb der Einsprachefrist nachgereicht, gilt sie als Einsprache und geht mit dem Doppel des Entscheids ans kantonale Steueramt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-139-2-bis-2025-06__c0008",
 "nachher": "zh-zstb-139-2-bis-2025-06__c0010"
 },
 {
 "id": "zh-zstb-139-2-bis-2025-06__c0010",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 10",
-"pfad": [],
+"titel": "C. Nachträgliche Steuererklärungen – Rz 28 (nach Fristablauf), Schluss der Weisung",
+"pfad": [
+"C. Nachträgliche Steuererklärungen"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Rz 25–28",
+"stichworte": [
+"nachträgliche Steuererklärung",
+"Einsprachefrist",
+"Einsprache",
+"Vermerk",
+"verspätet eingereicht"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Nach Ablauf der Einsprachefrist: Vermerk «Einsprache?» und Weiterleitung; Weisung der Finanzdirektion vom 17. Februar 2006.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-zstb-139-2-bis-2025-06__c0009",
-"nachher": "zh-zstb-139-2-bis-2025-06__c0011"
-},
-{
-"id": "zh-zstb-139-2-bis-2025-06__c0011",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 11",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-zstb-139-2-bis-2025-06__c0010",
-"nachher": "zh-zstb-139-2-bis-2025-06__c0012"
-},
-{
-"id": "zh-zstb-139-2-bis-2025-06__c0012",
-"titel": "ZStB 139.2 (bis 30.6.2025) – Abschnitt 12",
-"pfad": [],
-"seiten": [
-5,
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-zstb-139-2-bis-2025-06__c0011",
 "nachher": null
 }
 ]

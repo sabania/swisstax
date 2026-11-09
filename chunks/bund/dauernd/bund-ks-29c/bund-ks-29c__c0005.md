@@ -4,19 +4,26 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 5"
-seiten: "2"
+titel: "Ziff. 2.1 Kapitaleinlagen – Grundsätze, KER und Ausland-KER, Währungsumrechnung (Teil 2/2)"
+ziffer: "2.1"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 2 Kapitaleinlagen › 2.1 Grundsätze · S. 5
 
-<!-- Seite 2 -->
-5.   Ausschüttungen und Teilliquidationen von an einer
-    schweizerischen Börse kotierten Kapitalgesellschaften oder
-    Genossenschaften...........................................................................................13
-5.1.   Ausschüttungsregel........................................................................................13
-5.1.1.   Handelsrechtlich ausschüttungsfähige übrige Reserven ............................13
-5.1.2.   Regelverletzung .................................................................................................13
-5.1.3.   Ausland-KER nach Artikel 5 Absatz 1 quater Buchstaben a und b VStG .....13
-5.1.4.   Ausnahmen .........................................................................................................14
-5.1.5.   Gratisaktien und Gratisnennwerterhöhungen................................................14
+Bei Kapitalgesellschaften mit einem Nominalkapital in Schweizer Franken nach Artikel 621
+Absatz 1 OR sind für Kapitaleinlagen in fremder Währung sowohl die Einlagen als auch die
+Rückzahlungen (im Zeitpunkt der jeweiligen Fälligkeit) von Reserven aus Kapitaleinlagen zum
+Tageskurs in Schweizer Franken umzurechnen.
+
+Bei Kapitalgesellschaften mit einem Nominalkapital in einer für die Geschäftstätigkeit we-
+sentlichen ausländischen Währung im Sinne von Artikel 621 Absatz 2 OR sind für Kapitalein-
+lagen in einer anderen als der wesentlichen ausländischen Währung sowohl die Einlagen als
+auch die Rückzahlungen (im Zeitpunkt der jeweiligen Fälligkeit) zum Tageskurs in die we-
+sentliche ausländische Währung (= Währung des nominellen Kapitals gemäss Handelsregis-
+tereintrag) umzurechnen. Die Reserven aus Kapitaleinlagen werden dabei nur in der wesent-
+lichen ausländischen Währung anerkannt und bestätigt.
+
+Für Kapitalgesellschaften und Genossenschaften, die der Verrechnungssteuer gemäss Arti-
+kel 9 Absatz 1 VStG unterliegen, ist die steuerliche Beurteilung der Kapitaleinlagen durch die
+Verrechnungssteuer auch für die direkten Steuern massgeblich.

@@ -4,31 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 183"
-seiten: "48"
+titel: "Ziff. 9.1 Pflichten und Haftung des Schuldners der steuerbaren Leistung (Teil 1/2)"
+ziffer: "9.1"
+seiten: "58"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 48
+> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.1 Allgemeines · S. 58
 
-    Quellensteuer   690   690   678   678   678   984   984   984   9 408
-    Korrekur
-    +2884   +288
-    Januar – April
-    Korrektur
-    +2405   +240
-    Mai – August
-    Total
-    690   690   966   678   678   1 224   984   984   9 936
-    Quellensteuer
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 72 000.00 (CHF 6 000 x 12).
+9   Pflichten des Schuldners der steuerbaren Leistung
 
-    2
-    = C0 mit satzbestimmendem Jahreseinkommen von CHF 72 000.00 (CHF 6 000 x 12).
-    3 = C0 mit satzbestimmendem Jahreseinkommen von CHF 80 000.00 (CHF 6 000 x 8 + fr. 8 000 x 4).
-
-    4 = Korrektur des Quellensteuerabzugs für die Monate Januar – April [(CHF 6 000 x 12.7 %) x 4] –
-
-    (CHF 690 x 4).
-    5 = Korrektur des Quellensteuerabzugs für die Monat Mai – August [CHF 6 000 x 12.3 %) x 4] – (CHF 678
-
-    x 4).
+9.1   Allgemeines
+Dem Schuldner der steuerbaren Leistung obliegen im Quellensteuerverfahren verschiedene
+Pflichten (vgl. Art. 88 und 100 DBG). Er erhält für seine Mitwirkung eine Bezugsprovision,
+welche von den Kantonen nach Vorgabe des Bundesrechts festgelegt wird (vgl. Art. 88
+Abs. 4 bzw. Art. 100 Abs. 3 DBG i.V.m. Art. 6 QStV).
+Der Schuldner der steuerbaren Leistung haftet in vollem Umfang für die Entrichtung der
+Quellensteuer. Die Haftung des Schuldners der steuerbaren Leistung ist verschuldensunab-
+hängig und schliesst auch Fehler bzw. Fehlinformationen der steuerpflichtigen Person sowie
+von Dritten mit ein (vgl. Art. 88 Abs. 3 bzw. Art. 100 Abs. 2 DBG). Es obliegt deshalb dem
+Schuldner der steuerbaren Leistung, die persönliche Situation der steuerpflichtigen Person
+abzuklären, die erhaltenen Informationen zu überprüfen und festzulegen, ob für diese Person
+eine Quellenbesteuerung durchzuführen ist. Unterlässt es der Schuldner der steuerbaren

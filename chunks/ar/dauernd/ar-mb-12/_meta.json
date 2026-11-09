@@ -1,79 +1,130 @@
 [
 {
 "id": "ar-mb-12__c0001",
-"titel": "MB AR 12 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Merkblatt 12 Nachsteuerverfahren – Gebühr 10 % (Art. 195 StG)",
+"pfad": [
+"Kostenverrechnung"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Nachsteuer",
+"Nachsteuerverfahren Kosten",
+"Gebühr 10 Prozent",
+"Mindestgebühr Fr. 100",
+"Maximalgebühr Fr. 5'000",
+"Art. 195 StG"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Gebühr 10 % des Nachsteuerbetrags, abgerundet auf Fr. 100.–; Minimum Fr. 100.–, Maximum Fr. 5'000.–.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "ar-mb-12__c0002"
 },
 {
 "id": "ar-mb-12__c0002",
-"titel": "MB AR 12 – Abschnitt 2",
-"pfad": [],
+"titel": "Gebührentabelle Nachsteuerbetrag – bis Fr. 9'999",
+"pfad": [
+"Kostenverrechnung",
+"Gebührentabelle"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Gebührentabelle Nachsteuer",
+"bis Fr. 1'999 Fr. 100",
+"ab Fr. 50'000 Fr. 5'000"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Bis Fr. 1'999 Fr. 100; ab Fr. 2'000 Fr. 200, je weitere Fr. 1'000 Nachsteuerbetrag Fr. 100 mehr.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-12__c0001",
 "nachher": "ar-mb-12__c0003"
 },
 {
 "id": "ar-mb-12__c0003",
-"titel": "MB AR 12 – Abschnitt 3",
-"pfad": [],
+"titel": "Gebührentabelle Nachsteuerbetrag – ab Fr. 10'000 bis Fr. 50'000",
+"pfad": [
+"Kostenverrechnung",
+"Gebührentabelle"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Gebührentabelle Nachsteuer",
+"bis Fr. 1'999 Fr. 100",
+"ab Fr. 50'000 Fr. 5'000"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Ab Fr. 10'000 Fr. 1'000; ab Fr. 48'000 Fr. 4'800; ab Fr. 50'000 Fr. 5'000 (Maximum).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-12__c0002",
 "nachher": "ar-mb-12__c0004"
 },
 {
 "id": "ar-mb-12__c0004",
-"titel": "MB AR 12 – Abschnitt 4",
-"pfad": [],
+"titel": "Bemessung innerhalb Gebührenrahmen (Art. 20 VPRG)",
+"pfad": [
+"Kostenverrechnung",
+"Bemessung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Art. 20 VPRG",
+"Zuschlag Ermässigung 50 %",
+"wirtschaftliche Leistungsfähigkeit",
+"Zeitaufwand"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Gebühr nach Zeitaufwand, Bedeutung, Interesse und wirtschaftlicher Leistungsfähigkeit innerhalb des Gebührenrahmens.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-12__c0003",
 "nachher": "ar-mb-12__c0005"
 },
 {
 "id": "ar-mb-12__c0005",
-"titel": "MB AR 12 – Abschnitt 5",
-"pfad": [],
+"titel": "Ermässigung oder Zuschlag max. +/- 50 % – Obergrenze Fr. 5'000.–",
+"pfad": [
+"Kostenverrechnung",
+"Bemessung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Art. 20 VPRG",
+"Zuschlag Ermässigung 50 %",
+"wirtschaftliche Leistungsfähigkeit",
+"Zeitaufwand"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Ermässigung oder Zuschlag von maximal +/- 50 % je nach Aufwand, Leistungsfähigkeit und Bedeutung; Obergrenze Fr. 5'000.– darf nicht überschritten werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-12__c0004",
 "nachher": null
 }

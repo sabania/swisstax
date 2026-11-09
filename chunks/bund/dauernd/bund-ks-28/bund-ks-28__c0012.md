@@ -4,18 +4,17 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 12"
-seiten: "3"
+titel: "Ziff. 4 Einkauf in eine Vorsorgeeinrichtung"
+ziffer: "4"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 28 · einkommen.selbstaendig › abzug.vorsorge.saeule2_einkauf · S. 5
 
-<!-- Seite 3 -->
-2.   Beendigung der selbständigen Erwerbstätigkeit
+4.   Einkauf in eine Vorsorgeeinrichtung
 
-2.1.   Grundsatz
-Der Liquidationsgewinn aus der Aufgabe der selbständigen Erwerbstätigkeit wird gemäss
-Artikel 37b DBG und LGBV besteuert, wenn die steuerpflichtige Person das 55. Altersjahr
-erreicht hat oder infolge Invalidität unfähig geworden ist, ihre selbständige Erwerbstätigkeit
-weiter auszuüben. Dies betrifft sowohl Einzelunternehmen als auch Beteiligungen an Perso-
-nengesellschaften.
+Beim Einkauf in eine Vorsorgeeinrichtung im Liquidationsjahr und im Vorjahr (Art. 4 LGBV)
+wird der einbezahlte Betrag bei der Berechnung des steuerbaren Einkommens der Steuerpe-
+riode in erster Linie vom übrigen, nicht gesondert besteuerten Einkommen in Abzug ge-
+bracht. Kann dabei nicht der gesamte Einkaufbetrag angerechnet werden, so reduziert die-
+ser Überhang den Liquidationsgewinn.

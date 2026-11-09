@@ -4,25 +4,19 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 9"
-seiten: "3"
+titel: "Ziff. 3.2.3 Kuraufenthalte (CHF 21.50 pro Tag Verpflegung)"
+ziffer: "3.2.3"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 4–5
 
-<!-- Seite 3 -->
-1   Einleitung
+3.2.3   Kosten für Kuraufenthalte
+Die Kosten für ärztlich verordnete Kur- und Erholungsaufenthalte gelten als Krankheitskosten,
+soweit die Auslagen die im eigenen Haushalt eingesparten Lebenshaltungskosten, d. h. jeden
+falls mindestens die eingesparten Verpflegungskosten, übersteigen (Ansätze gemäss dem
+Merkblatt der Eidgenössischen Steuerverwaltung [ESTV] Naturalbezüge von Arbeitnehmenden,
 
-Das Bundesgesetz vom 14. Dezember 1990 über die direkte Bundessteuer (DBG; SR 642.11)
-regelt die Abzugsfähigkeit von Krankheits- und Unfallkosten sowie behinderungsbedingten Kos
-ten der steuerpflichtigen Person und der von ihr unterhaltenen Personen in Artikel 33 Absatz 1
-Buchstaben h und hbis DBG.
-Im vorliegenden Kreisschreiben werden die Krankheits- und Unfallkosten sowie die behinde
-rungsbedingten Kosten beschrieben, welche für die Zwecke der direkten Bundessteuer zum Ab
-zug berechtigt sind.
-Das Kreisschreiben Nr. 11a beinhaltet neben allgemeinen redaktionellen Änderungen die ge
-setzlichen Anpassungen (vgl. die unter Ziff. 2 aufgeführten Gesetze) sowie die seit der Publika
-tion des Kreisschreibens Nr. 11 ergangenen relevanten Urteile insbesondere des Bundesge
-richts wie auch einzelner kantonaler Gerichte und Praxispräzisierungen.
-
-2   Gesetzliche Grundlagen
+derzeit CHF 21.50 pro Tag für eine erwachsene Person). Nicht als Krankheitskosten anerkannt
+werden grundsätzlich die Transportkosten (vgl. Ziff. 3.2.9) sowie eigentliche Luxusausgaben im
+Bereich der Hotellerie.

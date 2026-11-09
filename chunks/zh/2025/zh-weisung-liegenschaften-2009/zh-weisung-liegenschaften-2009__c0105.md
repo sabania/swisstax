@@ -4,17 +4,13 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 105"
+titel: "Anhang S. 42 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Hinwil"
+ziffer: "14, 15, 49"
 seiten: "42"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 42
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49) · S. 42
 
-Bezirk Dietikon
-Aesch (ZH)   1   730   –   –   490   –   –   440   –   –
-Birmensdorf (ZH)   1   500   –   –   370   –   –   330   –   –
-Dietikon   1   570   –   –   360   –   –   320   –   –
-Geroldswil   1   500   –   –   370   –   –   330   –   –
 Oberengstringen   1   500   –   –   370   –   –   330   –   –
 Oetwil an der Limmat   1   730   –   –   490   –   –   440   –   –
 Schlieren   1   570   –   –   360   –   –   320   –   –

@@ -4,21 +4,41 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 86"
-seiten: "21"
+titel: "Ziff. 6.6 Aperiodische Leistungen und Beispiel 1 (Austritt 16. März 2022)"
+ziffer: "6.6"
+seiten: "27-28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.6 Untermonatige Ein- und Austritte · S. 27–28
 
-6.3   Satzbestimmendes Einkommen beim 13. Monatslohn
-Erfolgt die Ausrichtung des 13. Monatslohns gemäss Arbeitsvertrag monatlich, so ist der ge-
-samte Bruttolohn der Quellensteuer zu unterwerfen.
-Ist im Arbeitsvertrag keine monatliche Auszahlung vorgesehen, ist es nicht zulässig, durch
-monatliche Zuweisung des 13. Monatslohns eine Glättung des Steuersatzes zu erwirken.
-Wird der 13. Monatslohn vierteljährlich, halbjährlich oder jährlich ausbezahlt, ist der Anteil
-des 13. Monatslohns für die Ermittlung des satzbestimmenden Einkommens wie folgt zu den
-übrigen satzbestimmenden Einkünften des Auszahlungsmonats hinzuzurechnen (Anspruchs-
-berechtigung des Arbeitnehmers in Abhängigkeit von der Dauer des Arbeitsverhältnisses):
-     vierteljährliche Auszahlung:   25 Prozent eines vollen 13. Monatslohns;
-     halbjährliche Auszahlung:   50 Prozent eines vollen 13. Monatslohns;
-     jährliche Auszahlung:   100 Prozent eines vollen 13. Monatslohns.
+Folgende aperiodische Leistungen bilden keinen Bestandteil des umzurechnenden Brutto-
+monatslohns (die Aufzählung ist nicht abschliessend):
+     Überzeitentschädigungen
+     Entschädigungen von nicht bezogenen Ferienguthaben
+     Dienstalterszulagen
+     Bonuszahlungen
+
+     Prämien
+     Verwaltungsratshonorare
+     Abgangsentschädigungen
+     Gratifikationen
+     Geldwerte Vorteile aus Mitarbeiterbeteiligungen
+
+    Beispiele mit aperiodischen Leistungen:
+    1. Der Arbeitnehmer S. tritt per 16. März 2022 aus der Unternehmung aus und erhält neben der anteilsmässi-
+    gen Lohnzahlung von CHF 3 500.00, eine Entschädigung für nicht bezogene Ferienguthaben von
+    CHF 1 000.00. Ausserdem erhält er noch eine Abgangsentschädigung in Höhe von CHF 5 000.00. Die
+    Lohnzahlung ist zur Satzbestimmung auf 30 Tage umzurechnen. Die aperiodischen Leistungen (Entschä-
+    digung von nicht bezogenen Ferienguthaben und Abgangsentschädigung) sind nicht umzurechnen.
+
+    Leistungen   steuerbar   satzbestimmend   Berechnung
+
+    Periodische Lohnzahlung   3 500   6 562.50   3'500 / 16 x 30
+
+    Entschädigung für nicht
+    1 000   1 000.00   keine Umrechnung
+    bezogene Ferienguthaben
+
+    Abgangsentschädigung   5 000   5 000.00   keine Umrechnung
+
+    Total   9 500   12 562.50

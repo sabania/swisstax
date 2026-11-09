@@ -4,11 +4,11 @@ quelle: sg-info-ekst-vst
 jur: sg
 jahre: [2025, 2026]
 typ: info
-titel: "Tarife Privatpersonen, gültig ab"
+titel: "Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Tarife Privatpersonen, gültig ab
+> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen
 
-- [Tarif 2024(312 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/tarife-privatpersonen-gueltig-ab/Tarif%202024%20SG%20Def.pdf "Download: Es öffnet sich ein neues Fenster: Tarif 2024")
-- [Tarif 2010(413 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/tarife-privatpersonen-gueltig-ab/Tarif%202010%20SG%20Def.pdf "Download: Es öffnet sich ein neues Fenster: Tarif 2010")
-- [Tarif 2007(407 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/tarife-privatpersonen-gueltig-ab/Tarif%202007%20SG%20Def.pdf "Download: Es öffnet sich ein neues Fenster: Tarif 2007")
+### Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen
+
+- [Klicken Sie hier für die Suche nach Gemeinden und Steuerjahren](https://www.sg.ch/steuern-finanzen/steuern/steuerkalkulator/steuerfuss-uebersicht-aller-sg-gemeinden.html "Interner Link: Steuerfuss-Übersicht aller SG-Gemeinden")

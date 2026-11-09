@@ -4,23 +4,17 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 62"
-seiten: "15"
+titel: "Ziff. 8.1.3.2 Zwei Bescheinigungen bei übrigen Optionen, Anwartschaften und unechten Beteiligungen"
+ziffer: "8.1.3.2"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1 Arbeitgeber › 8.1.3 Bescheinigung Optionen, Anwartschaften, unechte Beteiligungen · S. 20
 
-7.3.3.1   „Export“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel
-Der „Export“ von Mitarbeiterbeteiligungen, welche nach schweizerischem Recht bei Realisa-
-tion besteuert werden, zieht in diesem Zeitpunkt in der Schweiz Einkommenssteuerfolgen
-nach sich. Verlegt dabei der Mitarbeitende vor Realisation der Mitarbeiterbeteiligungen sei-
-nen Wohnsitz ins Ausland, hat die Quellenbesteuerung in Anwendung von Artikel 97a DBG
-zu erfolgen. Der in der Schweiz steuerbare geldwerte Vorteil berechnet sich dabei wie folgt
-(vgl. Art. 17d DBG):
-
-Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage in der Schweiz innerhalb der Vestingperiode
-
-    Anzahl Tage der Vestingperiode
-
-Die Steuer (Anteil direkte Bundessteuer) beträgt 11,5 Prozent des in der Schweiz steuerba-
-ren geldwerten Vorteils (Art. 97a Abs. 2 DBG).
+8.1.3.2 Übrige Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien und un-
+    echte Mitarbeiterbeteiligungen
+Für Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien und unechte Mitarbeiterbeteili-
+gungen, die im Zeitpunkt der Realisation des geldwerten Vorteils besteuert werden, sind für
+die Belange der direkten Bundessteuer stets zwei Bescheinigungen erforderlich: Die Erste im
+Zeitpunkt der Abgabe der Mitarbeiterbeteiligung und die Zweite im Zeitpunkt der Realisation
+(vgl. Art. 5 Abs. 2 Bst. a und b MBV).

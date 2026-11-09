@@ -816,10 +816,10 @@
 },
 {
 "id": "tg-info-faq__c0049",
-"titel": "Liegenschaften",
+"titel": "Vermögenssteuer",
 "pfad": [
 "Natürliche Personen",
-"Liegenschaften"
+"Vermögenssteuer"
 ],
 "seiten": [],
 "artikel": null,
@@ -867,10 +867,10 @@
 },
 {
 "id": "tg-info-faq__c0052",
-"titel": "Vermögenssteuer",
+"titel": "Steuerpflicht / Bemessung",
 "pfad": [
 "Natürliche Personen",
-"Vermögenssteuer"
+"Steuerpflicht / Bemessung"
 ],
 "seiten": [],
 "artikel": null,
@@ -952,10 +952,10 @@
 },
 {
 "id": "tg-info-faq__c0057",
-"titel": "Steuerpflicht / Bemessung",
+"titel": "Quellensteuer",
 "pfad": [
 "Natürliche Personen",
-"Steuerpflicht / Bemessung"
+"Quellensteuer"
 ],
 "seiten": [],
 "artikel": null,
@@ -969,10 +969,10 @@
 },
 {
 "id": "tg-info-faq__c0058",
-"titel": "Quellensteuer",
+"titel": "Kapitalleistungen aus Vorsorge",
 "pfad": [
 "Natürliche Personen",
-"Quellensteuer"
+"Kapitalleistungen aus Vorsorge"
 ],
 "seiten": [],
 "artikel": null,
@@ -1071,10 +1071,10 @@
 },
 {
 "id": "tg-info-faq__c0064",
-"titel": "Kapitalleistungen aus Vorsorge",
+"titel": "Veranlagungsverfahren",
 "pfad": [
 "Natürliche Personen",
-"Kapitalleistungen aus Vorsorge"
+"Veranlagungsverfahren"
 ],
 "seiten": [],
 "artikel": null,
@@ -1275,10 +1275,10 @@
 },
 {
 "id": "tg-info-faq__c0076",
-"titel": "Veranlagungsverfahren",
+"titel": "Steuerbezug",
 "pfad": [
 "Natürliche Personen",
-"Veranlagungsverfahren"
+"Steuerbezug"
 ],
 "seiten": [],
 "artikel": null,
@@ -1390,23 +1390,6 @@
 "zusammenfassung": null,
 "chunking": "überschriften",
 "vorher": "tg-info-faq__c0081",
-"nachher": "tg-info-faq__c0083"
-},
-{
-"id": "tg-info-faq__c0083",
-"titel": "Steuerbezug",
-"pfad": [
-"Natürliche Personen",
-"Steuerbezug"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "tg-info-faq__c0082",
 "nachher": null
 }
 ]

@@ -4,17 +4,29 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 5"
-seiten: "1"
+titel: "Ziff. 2.3 / 2.3.1 Mitarbeiterbeteiligungen – echte Beteiligungen"
+ziffer: "2.3 / 2.3.1"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 37 · 2 Begriffe › 2.3 Mitarbeiterbeteiligungen › 2.3.1 Echte Mitarbeiterbeteiligungen · S. 4
 
-2.3.2.2 Stock Appreciation Rights ........................................................................................ 5
-2.3.2.3 Co-Investments ....................................................................................................... 5
-2.3.3   Künftige Entwicklungen .................................................................................. 6
-2.4   Sperrfrist sowie Vesting / Vestingperiode ................................................. 6
-2.5   Realisation .................................................................................................... 6
-2.6   Umrechnung von Fremdwährungen ........................................................... 6
-3   Besteuerung von Mitarbeiteraktien (Art. 17b DBG) .................................. 6
-3.1   Grundsatz ..................................................................................................... 6
+2.3   Mitarbeiterbeteiligungen
+Ist das Beteiligungsrecht auf das ehemalige, das aktuelle oder das künftige Arbeitsverhältnis
+mit dem Arbeitgeber zurückzuführen, dann qualifiziert es entweder als echte oder unechte
+Mitarbeiterbeteiligung.
+
+Wird die Beteiligung dem Mitarbeitenden nicht durch den Arbeitgeber, sondern durch eine
+natürliche Person (z.B. aus dem Eigenbestand eines Aktionärs) abgegeben, handelt es sich
+zwar nicht um eine Mitarbeiterbeteiligung nach Artikel 17a DBG im engeren Sinne. Es recht-
+fertigt sich aber, für die Bemessung des geldwerten Vorteils die Bestimmungen für Mitarbei-
+terbeteiligungen sinngemäss anzuwenden.
+
+2.3.1 Echte Mitarbeiterbeteiligungen
+Echte Mitarbeiterbeteiligungen beteiligen den Mitarbeitenden im Ergebnis am Eigenkapital
+des Arbeitgebers. Die Beteiligung kann dabei direkt mittels Einräumung von Beteiligungspa-
+pieren erfolgen oder indirekt mittels Einräumung von Optionen oder Anwartschaften zum Be-
+zug von Beteiligungspapieren.
+
+Häufigste Formen echter Mitarbeiterbeteiligungen sind Mitarbeiteraktien und Mitarbeiteroptio-
+nen.

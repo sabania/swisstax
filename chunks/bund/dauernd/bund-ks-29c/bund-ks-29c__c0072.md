@@ -4,28 +4,21 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 72"
-seiten: "23"
+titel: "Anhang 2 Alternativer Ausweis eigener Beteiligungsrechte (Teil 1/2)"
+ziffer: "Anhang 2"
+seiten: "30-31"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 2 Eigene Beteiligungsrechte · S. 30–31
 
-Die bei einer Spaltung den Inhabern der Beteiligungsrechte an der übernehmenden Gesell-
-schaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unterliegen nach Artikel 4
-Absatz 1 Buchstabe b VStG der Verrechnungssteuer, soweit sie nicht zu Lasten des Nenn-
-wertes der Beteiligungsrechte oder der Ausland-KER der übertragenden Gesellschaft erfol-
-gen. Für Gratisaktien und Gratisnennwerterhöhungen aus KER gelten die Bestimmungen ge-
-mäss Ziff. 5.1.5. hiervor.
+Anhang 2: Alternativer Ausweis eigener Beteiligungsrechte
 
-Erfolgt eine Abspaltung auf eine sanierungsbedürftige Schwestergesellschaft, erlangen die
-Anteilsinhaber eine geldwerte Leistung im Umfang der untergehenden übrigen Reserven. Er-
-folgt die Spaltung nicht gewinnsteuerneutral, liegt eine Vorteilszuwendung unter Schwester-
-gesellschaften vor (vgl. Ziff. 2.2.1. hiervor).
+Nur der Ausweis der eigenen Beteiligungsrechte als Minusposten unter den gesetzlichen o-
+der freien Kapitalreserven bewirkt, dass sich bei Vernichtung von eigenen Beteiligungsrech-
+ten oder bei Fristablauf gemäss Artikel 4a VStG weder Einkommens- noch Verrechnungs-
+steuerfolgen ergeben. Die Mindestgliederung des Obligationenrechtes nach Artikel 959a Ab-
+satz 2 Ziffer 3 Buchstabe e OR verlangt demgegenüber einen Ausweis der eigenen Beteili-
+gungsrechte als Minusposten am Schluss des Eigenkapitals.
 
-7.4.   Ausgliederung
-
-Analog Ausführungen unter Ziffer 6.5. hiervor.
-
-7.5.   Übertragung zwischen inländischen Konzerngesellschaften
-
-Analog Ausführungen unter Ziffer 6.6. hiervor.
+Sofern die nachstehenden Voraussetzungen kumulativ erfüllt sind, ist ein Ausweis eigener
+Beteiligungsrechte auf mehreren Positionen möglich:

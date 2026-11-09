@@ -4,22 +4,18 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 34"
-seiten: "8"
+titel: "Ziff. 7 Reinvestition der Altersleistung aus der 2. Säule in die Säule 3a"
+ziffer: "7"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 8
+> Bund · Steuerjahr 2026 · KS 18a · 7. Reinvestition der Altersleistung · S. 11
 
-g)   Berechnung des Abzuges beim Übergang von einer unselbständigen zu
-    einer selbständigen Erwerbstätigkeit oder umgekehrt
-Während der Zeitspanne der unselbständigen Erwerbstätigkeit mit Anschluss an eine Pensi-
-onskasse kann die steuerpflichtige Person maximal den in Artikel 7 Absatz 1 Buchstabe a
-BVV 3 vorgesehenen Maximalbetrag einbezahlen. Für die Zeitspanne der Selbständigkeit
-ohne Anschluss an eine Pensionskasse kann die steuerpflichtige Person bis zu 20% ihres
-selbständigen Erwerbseinkommens einbezahlen, vorausgesetzt sie hat einen Jahresab-
-schluss für die aktuelle Steuerperiode erstellt. Für das betroffene Jahr können insgesamt or-
-dentliche Beiträge (inkl. allfällige Einzahlung in die kleine Säule 3a) von nicht mehr als der in
-Artikel 7 Absatz 1 Buchstabe b BVV 3 vorgesehene Maximalbetrag (40% des oberen Grenz-
-betrages nach Art. 8 Abs. 1 BVG) einbezahlt werden. Gleich verhält es sich beim Anschluss
-an eine Vorsorgeeinrichtung infolge Aufnahme einer unselbständigen Erwerbstätigkeit wäh-
-rend des Jahres.
+7.   Reinvestition der Altersleistung aus einer 2. Säule in eine Vorsorgeform der
+    Säule 3a
+Die Leistung aus einer Vorsorgeeinrichtung (2. Säule) oder aus einer Freizügigkeitseinrich-
+tung kann nicht direkt in die Säule 3a übertragen werden. Die aus der beruflichen Vorsorge
+ausgerichtete Vorsorgeleistung ist im ganzen Umfang zu besteuern und die an die Säule 3a
+geleisteten Beiträge können nur bis zum Maximalbetrag (vgl. Art. 7 Abs. 1 Bst. a und b BVV3
+sowie Ziff. 5.3) und gegebenenfalls im Umfang eines Säule 3a Einkaufs (vgl. Ziff. 5.6) vom
+Einkommen in Abzug gebracht werden.

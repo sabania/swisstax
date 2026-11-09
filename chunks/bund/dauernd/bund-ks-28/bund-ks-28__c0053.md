@@ -4,18 +4,17 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 53"
-seiten: "16"
+titel: "Anhang II Art. 1 Abs. 1–2 Gegenstand: definitive Aufgabe, Invalidität (Teil 2/2)"
+ziffer: "Art. 1 Abs. 1–2"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 19
 
-nicht durch die Besteuerung des Liquidationsgewinnes zu beeinflussen, da dieser aus der
-Beendigung der selbständigen Erwerbstätigkeit gewissermassen eine Besonderheit darstel-
-le. Zudem wurde argumentiert, dass mit dem Liquidationsgewinn die Summe der Einkom-
-men der letzten Jahre aus der selbständigen Erwerbstätigkeit erfasst und besteuert werde.
-Wären diese Gewinne kontinuierlich realisiert worden, so wären sie gestaffelt und mit kleine-
-rer Progressionswirkung in das steuerbare Einkommen eingeflossen. Dies lege nahe, bei der
-Satzbestimmung der Liquidationsgewinnbesteuerung nur einen Anteil dieses Gewinnes he-
-ranzuziehen. Angesichts der Progression bei der direkten Bundessteuer hatte diese Satzbe-
-stimmung zur Folge, dass ein Mindestbesteuerungssatz eingeführt wurde.
+Absatz 2
+Das Vorliegen einer Invalidität richtet sich nach den massgebenden gesetzlichen Bestim-
+mungen des Bundesgesetzes über die Invalidenversicherung (IVG) 5 . Nach dessen Artikel 4
+Absatz 2 IVG ist eine Invalidität gegeben, sobald von der IV wegen voraussichtlich bleiben-
+der oder längerer Zeit dauernder ganzer oder teilweise Erwerbsunfähigkeit Leistungen aus-
+gerichtet werden. Unter den Terminus „Leistungen“ fallen mithin nicht nur Renten, sondern
+auch andere Leistungen der IV, wie beispielsweise solche für eine notwendige Umschulung.

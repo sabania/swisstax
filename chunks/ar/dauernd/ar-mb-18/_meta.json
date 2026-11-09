@@ -1,64 +1,81 @@
 [
 {
 "id": "ar-mb-18__c0001",
-"titel": "MB AR 18 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Merkblatt 18 Erhebung von Gebühren – Gebührenansätze KGV (ab 1.9.2025)",
+"pfad": [
+"Gebührenansätze"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Gebühren Steuerverwaltung",
+"Kanzleigebühr",
+"Mahnung Fr. 25",
+"Fristverlängerung",
+"Kopien Fr. 1",
+"Auskünfte Fr. 60 pro Stunde"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Nachforschungen Fr. 10–200, Legalisationen Fr. 10–30, Auszüge Fr. 10 pro Seite, Auskünfte Fr. 60 pro Stunde, Fristverlängerung (Wiederholung) und 2. Mahnung je Fr. 25, Kopien Fr. 1.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "ar-mb-18__c0002"
 },
 {
 "id": "ar-mb-18__c0002",
-"titel": "MB AR 18 – Abschnitt 2",
-"pfad": [],
+"titel": "Gebührenpflicht der Steuerverwaltung – Ausnahme Veranlagungs- und Einspracheverfahren (Teil 1/2)",
+"pfad": [
+"Gebührenpflicht"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Gebührenpflicht",
+"Ansässigkeitsbescheinigung",
+"Ruling Vorbescheid",
+"Mitwirkungspflichten Verletzung",
+"Einspracheverfahren"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Im ordentlichen Veranlagungs- und Einspracheverfahren nur bei schuldhafter Verletzung der Mitwirkungspflichten Gebühr; übrige Dienstleistungen (Bestätigungen, Rulings, Kopien) gebührenpflichtig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-18__c0001",
 "nachher": "ar-mb-18__c0003"
 },
 {
 "id": "ar-mb-18__c0003",
-"titel": "MB AR 18 – Abschnitt 3",
-"pfad": [],
+"titel": "Gebührenpflicht der Steuerverwaltung – Ausnahme Veranlagungs- und Einspracheverfahren (Teil 2/2)",
+"pfad": [
+"Gebührenpflicht"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Gebührenpflicht",
+"Ansässigkeitsbescheinigung",
+"Ruling Vorbescheid",
+"Mitwirkungspflichten Verletzung",
+"Einspracheverfahren"
+],
+"positionen": [
+"verfahren.bezug"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-18__c0002",
-"nachher": "ar-mb-18__c0004"
-},
-{
-"id": "ar-mb-18__c0004",
-"titel": "MB AR 18 – Abschnitt 4",
-"pfad": [],
-"seiten": [
-1
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-mb-18__c0003",
 "nachher": null
 }
 ]

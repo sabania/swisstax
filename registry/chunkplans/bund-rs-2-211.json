@@ -1,0 +1,535 @@
+{
+ "id": "bund-rs-2-211",
+ "hinweise": [
+  "Dokument hat 870 Seiten, konvertiert sind nur Seiten 1–13 (Rundschreiben, Beilagen 1–3, Beginn Beilage 4 Tarif A); die Tariftabellen ab Seite 14 fehlen (Hinweis Zeile 642).",
+  "S. 9 (Beilage 2): Tabelle mit vier Spalten (Tarifcodes A/B/C/H) im Text vermischt; Zuordnung Rechtsgrundlage/Wert teils verschoben.",
+  "S. 10 (Beilage 3): Erläuterungstext und Beispieltabelle nebeneinander vermischt.",
+  "S. 11–13 (Beilage 4): zweisprachig (D/F) nebeneinander; Tarif-A-Tabelle nur teilweise erfasst (Löhne 1–3'550)."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "RS 2-211 Kopf – Rundschreiben Quellensteuertarife 2025 an kantonale Verwaltungen",
+   "pfad": [
+    "Rundschreiben",
+    "1. Quellensteuertarife 2025"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Quellensteuertarife 2025",
+    "ESTV Rundschreiben",
+    "direkte Bundessteuer",
+    "Quellensteuer"
+   ],
+   "zusammenfassung": "Rundschreiben der ESTV vom 8. Oktober 2024 an die kantonalen Verwaltungen für die direkte Bundessteuer zu den Quellensteuertarifen 2025."
+  },
+  {
+   "start": 42,
+   "titel": "RS 2-211 Ziff. 1 Kalte Progression – LIK-Stand und VKP",
+   "pfad": [
+    "Rundschreiben",
+    "1. Quellensteuertarife 2025"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "kalte Progression",
+    "LIK 170.3",
+    "1.31 Prozent",
+    "VKP",
+    "Teuerungsausgleich"
+   ],
+   "zusammenfassung": "Am 30. Juni 2024 betrug der LIK 170.3 Punkte (+1.31% gegenüber 168.1 per 30. Juni 2023); die VKP tritt am 1. Januar 2025 in Kraft."
+  },
+  {
+   "start": 57,
+   "titel": "RS 2-211 Ziff. 1 Abzüge 2025 gegenüber 2024",
+   "pfad": [
+    "Rundschreiben",
+    "1. Quellensteuertarife 2025"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Zweiverdienerabzug 14'100",
+    "Kinderabzug 6'800",
+    "Versicherungsprämien 3'700",
+    "Abzug pro Kind 263",
+    "Abzüge 2025"
+   ],
+   "positionen": [
+    "abzug.zweiverdiener",
+    "sozialabzug.kinder",
+    "abzug.versicherungspraemien"
+   ],
+   "zusammenfassung": "Neu: Zweiverdienerabzug min. CHF 8'600 / max. CHF 14'100 (bisher 8'500 / 13'900), Versicherungsprämien Verheiratete CHF 3'700 (3'600), Kinderabzug CHF 6'800 (6'700), Abzug vom Steuerbetrag pro Kind CHF 263 (259)."
+  },
+  {
+   "start": 78,
+   "titel": "RS 2-211 Ziff. 1 Medianwert Lohneinkünfte und Beilagen",
+   "pfad": [
+    "Rundschreiben",
+    "1. Quellensteuertarife 2025"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Medianwert Lohn",
+    "69'300",
+    "Haushaltsbudgeterhebung",
+    "Tarifcode C",
+    "Beilagen"
+   ],
+   "zusammenfassung": "Medianwert der effektiven Lohneinkünfte 2025: CHF 5'775 pro Monat bzw. CHF 69'300 pro Jahr (bisher 5'725 bzw. 68'700)."
+  },
+  {
+   "start": 99,
+   "titel": "RS 2-211 Ziff. 2 Tarife Kapitalleistungen aus Vorsorge",
+   "pfad": [
+    "Rundschreiben",
+    "2.–3. Kapitalleistungen, Ersatzeinkünfte"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "Kapitalleistung Vorsorge Quellensteuer",
+    "Tarif G",
+    "Ersatzeinkünfte",
+    "Taggelder Quellensteuer",
+    "QStV"
+   ],
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Die neuen Tarife für Kapitalleistungen aus Vorsorge (Ziff. 3 Anhang QStV) wurden am 22. August 2024 erlassen und gelten ab 1. Januar 2025."
+  },
+  {
+   "start": 106,
+   "titel": "RS 2-211 Ziff. 3 Tarif G für Ersatzeinkünfte",
+   "pfad": [
+    "Rundschreiben",
+    "3. Ersatzeinkünfte"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "Tarif G",
+    "Ersatzeinkünfte",
+    "Taggelder Quellensteuer",
+    "Kreisschreiben 45",
+    "Merkblatt Ersatzeinkünfte"
+   ],
+   "positionen": [
+    "einkommen.ersatz.taggelder"
+   ],
+   "zusammenfassung": "Der Tarif G für nicht über den Arbeitgeber ausbezahlte Ersatzeinkünfte wurde neu berechnet und gilt ab 1. Januar 2025 (Ziff. 2 Anhang QStV)."
+  },
+  {
+   "start": 140,
+   "titel": "RS 2-211 Verzeichnis der Beilagen 1–6",
+   "pfad": [
+    "Rundschreiben",
+    "Beilagen"
+   ],
+   "stichworte": [
+    "Beilagen",
+    "VKP",
+    "Quellensteuerverordnung",
+    "Tarifcode C"
+   ],
+   "zusammenfassung": "Beilagen: VKP, Grundlagen Quellensteuertarife, Erläuterungen Tarifcode C, Tarife 2025, Quellensteuerverordnung, Tabelle Kapitalleistungen."
+  },
+  {
+   "start": 155,
+   "titel": "Beilage 1 VKP Art. 1–2 – Gegenstand und Tarif Alleinstehende (Teil 1)",
+   "pfad": [
+    "Beilage 1 VKP",
+    "Art. 2 Tarife"
+   ],
+   "ziffer": "Art. 2 Abs. 1",
+   "stichworte": [
+    "Einkommenssteuertarif Bund",
+    "Grundtarif",
+    "Alleinstehende",
+    "kalte Progression",
+    "Art. 36 DBG"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "VKP vom 22. August 2024: Tarif Art. 36 Abs. 1 DBG, bis CHF 15'200 Einkommen 0.00, dann 0.77 je CHF 100; bei CHF 33'200 138.60 (+0.88)."
+  },
+  {
+   "start": 195,
+   "titel": "Beilage 1 VKP Art. 2 Abs. 1 – Tarif Alleinstehende (Teil 2)",
+   "pfad": [
+    "Beilage 1 VKP",
+    "Art. 2 Tarife"
+   ],
+   "ziffer": "Art. 2 Abs. 1",
+   "stichworte": [
+    "Einkommenssteuertarif Bund",
+    "Alleinstehende",
+    "793'400",
+    "Tarifstufen"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Tarifstufen ab CHF 82'000 (1 500.00, +6.60) bis CHF 793'400 (91 241.00, danach 11.50 je weitere CHF 100)."
+  },
+  {
+   "start": 222,
+   "titel": "Beilage 1 VKP Art. 2 Abs. 2 – Tarif Verheiratete (Teil 1)",
+   "pfad": [
+    "Beilage 1 VKP",
+    "Art. 2 Tarife"
+   ],
+   "ziffer": "Art. 2 Abs. 2",
+   "stichworte": [
+    "Verheiratetentarif",
+    "Ehepaare",
+    "Einkommenssteuertarif Bund",
+    "Art. 36 Abs. 2 DBG",
+    "Tarif 2025"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Tarif Verheiratete: bis CHF 29'700 Einkommen 0.00, dann 1.00 je CHF 100; bei CHF 53'400 237.00 (+2.00); bis CHF 152'300 5 686.00 (+13.00)."
+  },
+  {
+   "start": 254,
+   "titel": "Beilage 1 VKP Art. 2 Abs. 2 – Tarif Verheiratete (Teil 2)",
+   "pfad": [
+    "Beilage 1 VKP",
+    "Art. 2 Tarife"
+   ],
+   "ziffer": "Art. 2 Abs. 2",
+   "stichworte": [
+    "Verheiratetentarif",
+    "940'900",
+    "Einkommenssteuertarif Bund",
+    "Tarifstufen"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Tarif Verheiratete: bei CHF 940 900 Einkommen 108 203.50, danach 11.50 je weitere CHF 100."
+  },
+  {
+   "start": 266,
+   "titel": "Beilage 1 VKP Art. 2 Abs. 3, Art. 3 Abs. 1–3 – Steuerermässigung, Versicherungen, Parteispenden, Weiterbildung",
+   "pfad": [
+    "Beilage 1 VKP",
+    "Art. 2–3"
+   ],
+   "ziffer": "Art. 2 Abs. 3, Art. 3",
+   "stichworte": [
+    "Drittbetreuung 25'800",
+    "Zweiverdienerabzug",
+    "Parteispenden 10'600",
+    "Weiterbildung 13'000",
+    "Versicherungsabzug 3'700",
+    "Kinder Steuerabzug 263"
+   ],
+   "positionen": [
+    "abzug.versicherungspraemien",
+    "abzug.parteispenden",
+    "abzug.weiterbildung",
+    "sozialabzug.kinder"
+   ],
+   "zusammenfassung": "Steuerermässigung CHF 263 je Kind; Versicherungsabzug Ehepaare 3700; Parteispenden bis 10 600; Weiterbildung bis 13 000."
+  },
+  {
+   "start": 292,
+   "titel": "Beilage 1 VKP Art. 3 Abs. 4–5 – Zweiverdienerabzug und Drittbetreuung",
+   "pfad": [
+    "Beilage 1 VKP",
+    "Art. 3 Allgemeine Abzüge"
+   ],
+   "ziffer": "Art. 3 Abs. 4–5",
+   "stichworte": [
+    "Zweiverdienerabzug",
+    "Drittbetreuung 25'800",
+    "Kita",
+    "Kinderbetreuung",
+    "14. Altersjahr"
+   ],
+   "positionen": [
+    "abzug.zweiverdiener",
+    "abzug.drittbetreuung"
+   ],
+   "zusammenfassung": "Zweiverdienerabzug 50% des tieferen Erwerbseinkommens, min. 8600 / max. 14 100; Drittbetreuung höchstens 25 800 je Kind unter 14 Jahren."
+  },
+  {
+   "start": 320,
+   "titel": "Beilage 1 VKP Art. 3 Abs. 6 – Geldspiele Einsatzkosten",
+   "pfad": [
+    "Beilage 1 VKP",
+    "Art. 3 Allgemeine Abzüge"
+   ],
+   "ziffer": "Art. 3 Abs. 6",
+   "stichworte": [
+    "Geldspiele",
+    "Lotteriegewinn",
+    "Einsatzkosten 5'400",
+    "Online-Spielbank",
+    "26'800"
+   ],
+   "positionen": [
+    "einkommen.lotterie_gewinne"
+   ],
+   "zusammenfassung": "Von Geldspielgewinnen werden 5%, höchstens 5400, als Einsatzkosten abgezogen; Online-Spielbank: Spieleinsätze höchstens 26 800."
+  },
+  {
+   "start": 329,
+   "titel": "Beilage 1 VKP Art. 4–5 – Sozialabzüge Kinder/Unterstützung und Aufwandbesteuerung",
+   "pfad": [
+    "Beilage 1 VKP",
+    "Art. 4–9"
+   ],
+   "ziffer": "Art. 4–5",
+   "stichworte": [
+    "Kinderabzug 6'800",
+    "Unterstützungsabzug",
+    "Aufwandbesteuerung",
+    "Fahrkosten 3'300",
+    "Grossspielgewinn",
+    "Inkrafttreten 2025"
+   ],
+   "positionen": [
+    "sozialabzug.kinder",
+    "sozialabzug.unterstuetzung"
+   ],
+   "zusammenfassung": "Kinder- und Unterstützungsabzug je 6800 Franken; Aufwandbesteuerung Betrag 434 700 Franken."
+  },
+  {
+   "start": 347,
+   "titel": "Beilage 1 VKP Art. 6–9 – Spielgewinne steuerfrei, Fahrkosten, Inkrafttreten",
+   "pfad": [
+    "Beilage 1 VKP",
+    "Art. 6–9"
+   ],
+   "ziffer": "Art. 6–9",
+   "stichworte": [
+    "Grossspielgewinn 1'070'400",
+    "Fahrkosten 3'300",
+    "Pendlerabzug",
+    "Inkrafttreten",
+    "Aufhebung VKP 2023"
+   ],
+   "positionen": [
+    "einkommen.lotterie_gewinne",
+    "abzug.berufskosten.fahrkosten"
+   ],
+   "zusammenfassung": "Steuerfreie Spielgewinne bis 1 070 400 Franken; Fahrkosten höchstens 3300 Franken; Inkrafttreten 1. Januar 2025."
+  },
+  {
+   "start": 380,
+   "titel": "Beilage 2 – Grundlagen Quellensteuertarife: Tarifcodes und allgemeine Abzüge",
+   "pfad": [
+    "Beilage 2 Grundlagen"
+   ],
+   "stichworte": [
+    "Tarifcode A B C H",
+    "Quellensteuer Abzüge",
+    "AHV 5.30%",
+    "ALV 1.10%",
+    "BVG 6.00%",
+    "Grenzgänger"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Tarifcodes A (Alleinstehende), B (Verheiratete, Ehegatte nicht erwerbstätig), C (Zweiverdiener), H (Alleinerziehende); AHV/IV/EO 5.30%, ALV 1.10% max. CHF 1'630.20, NBUV 1.00% max. CHF 1'482.00, 2. Säule 6.00%."
+  },
+  {
+   "start": 403,
+   "titel": "Beilage 2 – Versicherungsprämien und Berufskosten in der Quellensteuer",
+   "pfad": [
+    "Beilage 2 Grundlagen"
+   ],
+   "stichworte": [
+    "Quellensteuer Berufskosten",
+    "Pauschalabzug 3%",
+    "Fahrkosten 800",
+    "Verpflegung 3'200",
+    "Versicherungsprämien 1'800",
+    "Kind 700"
+   ],
+   "positionen": [
+    "abzug.versicherungspraemien",
+    "abzug.berufskosten.fahrkosten",
+    "abzug.berufskosten.verpflegung",
+    "abzug.berufskosten.uebrige"
+   ],
+   "zusammenfassung": "Versicherungsprämien Alleinstehende 3.00% max. CHF 1'800, Verheiratete 5.00% max. CHF 3'700, pro Kind CHF 700; Fahrkosten CHF 800, Verpflegung CHF 3'200, Pauschalabzug 3.00% min. 2'000 / max. 4'000."
+  },
+  {
+   "start": 422,
+   "titel": "Beilage 2 – Zweiverdiener-, Sozialabzüge, Familienentlastung, Median",
+   "pfad": [
+    "Beilage 2 Grundlagen"
+   ],
+   "stichworte": [
+    "Zweiverdienerabzug Quellensteuer",
+    "Kinderabzug",
+    "Ehepaarabzug 2'800",
+    "Familienentlastung 263",
+    "Median 69'300"
+   ],
+   "positionen": [
+    "abzug.zweiverdiener",
+    "sozialabzug.kinder",
+    "sozialabzug.verheiratete"
+   ],
+   "zusammenfassung": "Zweiverdienerabzug 50%, min. CHF 8'600 / max. CHF 14'100; Kinderabzug CHF 6'800; Ehepaarabzug CHF 2'800; Abzug vom Steuerbetrag CHF 263 pro Kind; Medianwert CHF 5'775 pro Monat bzw. CHF 69'300 pro Jahr."
+  },
+  {
+   "start": 447,
+   "titel": "Beilage 2 – Erläuterungen, Grenzgänger-Tarife, Tarifcodes D, E, G",
+   "pfad": [
+    "Beilage 2 Grundlagen",
+    "Erläuterungen"
+   ],
+   "stichworte": [
+    "Grenzgänger",
+    "Tarifcode D",
+    "Tarifcode E",
+    "Tarifcode G",
+    "DBA Deutschland",
+    "Italien"
+   ],
+   "zusammenfassung": "Tarife L/M/N/P gelten für Grenzgänger Deutschland, R/S/T/U für Grenzgänger Italien; Tarifcode D 1%, E 0.5%, G progressiv."
+  },
+  {
+   "start": 457,
+   "titel": "Beilage 3 – Tarifcode C: Tabelle Ehegatteneinkommen",
+   "pfad": [
+    "Beilage 3 Tarifcode C"
+   ],
+   "stichworte": [
+    "Tarifcode C",
+    "Zweiverdienerehepaar",
+    "satzbestimmendes Einkommen",
+    "5'775",
+    "Tarifstufen 50 Franken"
+   ],
+   "positionen": [
+    "abzug.zweiverdiener"
+   ],
+   "zusammenfassung": "Satzbestimmendes Ehegatteneinkommen: Verhältnis der Bruttolöhne 1:1, höchstens CHF 5'775; 50-Franken-Tarifstufen mit Berechnung auf Stufenmitte."
+  },
+  {
+   "start": 477,
+   "titel": "Beilage 3 – Tarifcode C: Tarifstufen, Verhältnis der Löhne, Abzüge",
+   "pfad": [
+    "Beilage 3 Tarifcode C"
+   ],
+   "stichworte": [
+    "Tarifcode C",
+    "Tarifstufen",
+    "5'775",
+    "Zweiverdienerehepaar",
+    "Berücksichtigung Abzüge"
+   ],
+   "positionen": [
+    "abzug.zweiverdiener"
+   ],
+   "zusammenfassung": "Verhältnis der Bruttolöhne 1:1, satzbestimmendes Ehegatteneinkommen höchstens CHF 5'775; Berechnung auf der Mitte der 50-Franken-Tarifstufe."
+  },
+  {
+   "start": 503,
+   "titel": "Beilage 4 – Tarif A: Titel und Berechnungsgrundlagen (Sozialversicherungen)",
+   "pfad": [
+    "Beilage 4 Tarife",
+    "Tarif A"
+   ],
+   "stichworte": [
+    "Tarif A",
+    "Alleinstehende Quellensteuer",
+    "A0",
+    "Berechnungsgrundlagen",
+    "Unterhaltsbeiträge Quellensteuer"
+   ],
+   "zusammenfassung": "Tarif A (Alleinstehende): Jahreslohn = Monatslohn x 12; AHV 5.30%, ALV 1.10% bis CHF 148'200, Versicherungen 3.00% max. CHF 1'800, Kinderabzug CHF 6'800; A1–A9 nur auf Anweisung der Steuerbehörde."
+  },
+  {
+   "start": 531,
+   "titel": "Beilage 4 – Tarif A: Versicherungsprämien, Berufskosten, Kinderabzug",
+   "pfad": [
+    "Beilage 4 Tarife",
+    "Tarif A"
+   ],
+   "stichworte": [
+    "Tarif A Abzüge",
+    "Pauschalabzug",
+    "Fahrkosten 800",
+    "Verpflegung 3'200",
+    "A1–A9 Unterhaltsbeiträge"
+   ],
+   "positionen": [
+    "abzug.versicherungspraemien",
+    "abzug.berufskosten.uebrige",
+    "sozialabzug.kinder"
+   ],
+   "zusammenfassung": "Versicherungsabzug 3.00% max. CHF 1'800, pro Kind CHF 700; Pauschalabzug 3.00% min. 2'000 / max. 4'000; Fahrkosten 800; Verpflegung 3'200; Kinderabzug 6'800; A1–A9 nur auf Anweisung."
+  },
+  {
+   "start": 553,
+   "titel": "Beilage 4 – Tarif A0–A9 Tabelle Löhne CHF 1–700",
+   "pfad": [
+    "Beilage 4 Tarife",
+    "Tarif A",
+    "Tabelle"
+   ],
+   "stichworte": [
+    "Quellensteuertabelle A",
+    "Tarif A0",
+    "Steuerbetrag Lohnstufe"
+   ],
+   "zusammenfassung": "Tariftabelle A (Steuer pro Jahr in 50-Franken-Lohnstufen); in diesem Bereich überall kein Steuerbetrag (-)."
+  },
+  {
+   "start": 577,
+   "titel": "Beilage 4 – Tarif A0–A9 Tabelle Löhne CHF 701–1'750",
+   "pfad": [
+    "Beilage 4 Tarife",
+    "Tarif A",
+    "Tabelle"
+   ],
+   "stichworte": [
+    "Quellensteuertabelle A",
+    "Tarif A0",
+    "Lohnstufen"
+   ],
+   "zusammenfassung": "Tariftabelle A: für Löhne CHF 701–1'750 kein Steuerbetrag (-)."
+  },
+  {
+   "start": 601,
+   "titel": "Beilage 4 – Tarif A0–A9 Tabelle Löhne CHF 1'751–2'750",
+   "pfad": [
+    "Beilage 4 Tarife",
+    "Tarif A",
+    "Tabelle"
+   ],
+   "stichworte": [
+    "Quellensteuertabelle A",
+    "Tarif A0",
+    "Lohnstufen"
+   ],
+   "zusammenfassung": "Tariftabelle A: A0 ab Lohn CHF 2'451–2'500 CHF 27.70, steigt um 3.85 je 50-Franken-Stufe."
+  },
+  {
+   "start": 625,
+   "titel": "Beilage 4 – Tarif A0–A9 Tabelle Löhne CHF 2'751–3'550 (Ende konvertierter Teil)",
+   "pfad": [
+    "Beilage 4 Tarife",
+    "Tarif A",
+    "Tabelle"
+   ],
+   "stichworte": [
+    "Quellensteuertabelle A",
+    "Tarif A0 A1",
+    "Lohnstufen"
+   ],
+   "zusammenfassung": "Tariftabelle A: A0 CHF 50.80 bei Lohn 2'751–2'800; A1 ab Lohn 3'201–3'250 CHF 27.70; Seiten 14–870 nicht konvertiert."
+  }
+ ]
+}

@@ -4,24 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 13.4.2 Elterntarif bei minderjährigen Kindern – Grundsatz"
-ziffer: "13.4.2"
-seiten: "24"
+titel: "Ziff. 13.4.3 Elterntarif bei volljährigen Kindern in Ausbildung – Voraussetzungen"
+ziffer: "13.4.3"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.2 Minderjährige Kinder · S. 24
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.3 Volljährige Kinder in Ausbildung · S. 25
 
-13.4.2   Gewährung des Elterntarifs bei minderjährigen Kindern
+13.4.3   Gewährung des Elterntarifs bei volljährigen Kindern in Ausbildung
 
-Neben dem Zusammenleben wird für die Gewährung des Elterntarifs vorausgesetzt, dass
-die steuerpflichtige Person bzw. das Ehepaar den Unterhalt des Kindes oder der unterstüt-
-zungsbedürftigen Person zur Hauptsache bestreitet. Bei minderjährigen Kindern von ge-
-trennt lebenden oder unverheiratet zusammenlebenden Eltern bedeutet zur Hauptsache,
-dass grundsätzlich derjenige Elternteil, der mehr als die Hälfte der Unterhaltskosten des Kin-
-des übernimmt, den Elterntarif beanspruchen kann. Werden bei getrennt lebenden Eltern
-oder unverheirateten Eltern, die zusammenleben (Konkubinat), Unterhaltszahlungen für das
-minderjährige Kind geltend gemacht, ist davon auszugehen, dass dieser Elternteil mit den
-empfangenen und zu versteuernden Leistungen zusammen mit den eigenen Leistungen den
-Unterhalt des Kindes zur Hauptsache bestreitet und den Elterntarif erhält. Dies ist in der Re-
-gel der Elternteil, der die elterliche Sorge innehält. Der unterhaltsleistende Elternteil kann im
-Gegenzug die Unterhaltsleistungen von seinem Einkommen abziehen.
+Der Elterntarif wird ebenfalls Steuerpflichtigen gewährt, die mit volljährigen Kindern in Aus-
+bildung zusammenleben. Auch hier muss die Voraussetzung erfüllt sein, dass die Person,
+welche den Elterntarif beansprucht, hauptsächlich für den Unterhalt des Kindes aufkommt.
+Der Elterntarif wird in Analogie zum Kinderabzug daher nur gewährt, wenn das volljährige
+Kind in Ausbildung im massgebenden Zeitpunkt tatsächlich auf den Unterhaltsbeitrag der
+Eltern angewiesen ist. Erzielt das Kind ein Einkommen, das ihm einen selbständigen Le-
+bensunterhalt ermöglicht, so kann der Elterntarif nicht mehr beansprucht werden. Verfügt
+das Kind beispielsweise über ein umfangreiches Vermögen, wird der Elterntarif nicht ge-
+währt, wenn dadurch Vermögenserträge erzielt werden, die einen selbständigen Lebensun-
+terhalt des Kindes erlauben. Unter Ausbildung ist wie beim Kinderabzug ein Lehrgang für die
+berufliche Erstausbildung zu verstehen. Es ist daher auf die Ausführungen über den Kin-
+derabzug unter Ziffer 10.3 zu verweisen.

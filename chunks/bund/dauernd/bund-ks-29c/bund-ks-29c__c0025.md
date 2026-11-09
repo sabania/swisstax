@@ -4,31 +4,31 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 25"
-seiten: "9"
+titel: "Ziff. 5 und 5.1 Kotierte Gesellschaften – Ausschüttungsregel (STAF)"
+ziffer: "5, 5.1"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 5 Kotierte Gesellschaften › 5.1 Ausschüttungsregel · S. 13
 
-<!-- Seite 9 -->
-Beispiel:
+5.   Ausschüttungen und Teilliquidationen von an einer schweizerischen
+    Börse kotierten Kapitalgesellschaften oder Genossenschaften
 
-Gewinnvortrag   100
-Jahresgewinn   1700
-Auflösung Kapitalreserven   300   (KER bzw. Ausland-KER)
-Auflösung Gewinnreserven   100   (übrige Reserven)
-Total zur Verfügung der Generalversammlung   2200
-Dividende   2000
-Vortrag auf neue Rechnung   200
+Die Ausschüttungs- und Teilliquidationsregel gemäss STAF geht mit Wirkung für die Publi-
+kumsgesellschaften den in Ziff. 4.1. und Ziff. 4.2. hiervor definierten Grundsätzen vor.
 
-Total Ausschüttung   2000   100%
-./. Anteil KER bzw. Ausland-KER   - 300   15%
-Anteil übrige Reserven   1700   85%
+5.1.   Ausschüttungsregel
 
-Die Rückzahlungen von KER bzw. Ausland-KER sind gemäss Artikel 5 Absatz 1bis VStG und
-Artikel 3 Absatz 1 der Verordnung vom 19. Dezember 1966 über die Verrechnungssteuer
-(VStV; SR 642.211) in der Abrechnung gesondert auszuweisen und über einen nur diesem
-Zweck dienenden Coupon auszurichten.
+Gemäss Artikel 20 Absatz 4 DBG und Artikel 5 Absatz 1ter VStG sind Publikumsgesellschaf-
+ten nicht mehr frei, wie sie die Aufteilung der Ausschüttungen in Rückzahlung aus KER und
+Ausschüttungen aus übrigen Reserven vornehmen. Zwingend sind mindestens im gleichen
+Umfang wie KER auch übrige steuerbare Reserven auszuschütten. Dies jedoch nur solange
+und soweit noch übrige Reserven vorhanden sind.
 
-Liegen keine detaillierten Angaben über die Aufteilung der Ausschüttung vor, wird sie steuer-
-lich vorab als Ausschüttung von übrigen Reserven qualifiziert.
+5.1.1. Handelsrechtlich ausschüttungsfähige übrige Reserven
+
+Die handelsrechtlich ausschüttungsfähigen übrigen Reserven bestimmen sich nach dem Be-
+stand des in der ordentlichen Jahresbilanz der ausschüttenden Gesellschaft ausgewiesenen
+Eigenkapitals vor der Ausschüttung unter Abzug des Aktien-, Genossenschafts- oder
+Stammkapitals, der KER und Ausland-KER und des maximal möglichen Umfanges der ge-
+setzlichen Reserven gemäss OR (vgl. Art. 671 – 675a, 804 sowie 860 OR).

@@ -4,16 +4,24 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 27"
-seiten: "9"
+titel: "Ziff. 5.1.3 Ausland-KER nach Art. 5 Abs. 1quater Bst. a und b VStG"
+ziffer: "5.1.3"
+seiten: "13-14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 5 Kotierte Gesellschaften › 5.1 Ausschüttungsregel · S. 13–14
 
-Die gesetzlichen Bestimmungen im DBG über Rückzahlungen von KER gelten für in- und
-ausländische Gesellschaften. Ohne gesonderten Ausweis der KER in der Handelsbilanz o-
-der einem auf andere Art erbrachten Nachweis über das Vorliegen und die Rückzahlung von
-qualifizierenden Kapitaleinlagen durch die in der Schweiz ansässigen Beteiligungsinhaber
-unterliegen Ausschüttungen von ausländischen Kapitalgesellschaften oder Genossenschaf-
-ten der direkten Bundessteuer (Einkommenssteuer) nach Artikel 20 Absatz 1 Buchstabe c
-oder 20 Absatz 1bis DBG.
+5.1.3. Ausland-KER nach Artikel 5 Absatz 1quater Buchstaben a und b VStG
+
+Als Ausland-KER nach Artikel 5 Absatz 1quater Buchstaben a und b VStG gelten offen durch
+die Beteiligungsinhaber geleistete Kapitaleinlagen, die:
+
+       bei fusionsähnlichen Zusammenschlüssen durch Einbringen von Beteiligungs- und
+    Mitgliedschaftsrechten einer ausländischen Kapitalgesellschaft oder Genossenschaft
+    in eine inländische Kapitalgesellschaft oder Genossenschaft oder durch grenzüber-
+    schreitende Übertragung auf eine inländische Tochtergesellschaft nach dem 24. Feb-
+    ruar 2008 entstanden sind;
+       im Zeitpunkt einer grenzüberschreitenden Fusion oder Umstrukturierung nach dem
+    24. Februar 2008 bereits in einer ausländischen Kapitalgesellschaft oder Genossen-
+    schaft vorhanden waren und die Kapitaleinlagen gemäss den allgemeinen Grundsät-
+    zen nach dem 31. Dezember 1996 geleistet wurden.

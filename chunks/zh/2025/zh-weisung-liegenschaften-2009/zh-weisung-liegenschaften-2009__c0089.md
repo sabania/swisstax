@@ -4,13 +4,13 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 89"
+titel: "Anhang S. 37 Landwerte Wohnbauland bebaut Einfamilienhäuser – Meilen"
+ziffer: "13, 23"
 seiten: "37"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 37
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, Einfamilienhäuser · S. 37
 
-<!-- Seite 37 -->
 Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
 Wohnbauland
 
@@ -29,16 +29,3 @@ Meilen   5   820   740   650   560   470   –   –
 Oetwil am See   3   390   330   260   –   –   –   –
 Stäfa   5   700   630   560   490   420   –   –
 Uetikon am See   4   760   650   540   430   –   –   –
-Zollikon-Berg   4   n.v.   670   610   550   480   –   –
-Zollikon-Dorf   5   970   890   810   730   640   –   –
-Zumikon   5   990   870   740   620   490   –   –
-Bezirk Pfäffikon
-Bauma
-– Bauma   5   250   230   210   190   170   –   –
-  (ehemalige Gemeinde)
-– Sternenberg   3   160   150   130   –   –   –   –
-  (ehemalige Gemeinde)
-Fehraltorf   4   440   390   330   280   –   –   –
-Hittnau   3   320   290   260   –   –   –   –
-Illnau-Effretikon
-– Illnau-Effretikon   5   390   360   320   290   250   –   –

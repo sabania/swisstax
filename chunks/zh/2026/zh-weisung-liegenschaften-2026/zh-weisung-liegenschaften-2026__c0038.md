@@ -4,24 +4,19 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 38"
-seiten: "17"
+titel: "Ziff. 90–91 Ausserordentliche Neubewertung – Massgebende Werte, Bauten im Bau (60 %)"
+ziffer: "90–91"
+seiten: "18"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 17
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · E. Neufestsetzung › I. Einfamilienhäuser, Stockwerkeigentum, industrielle Liegenschaften · S. 18
 
-   Die Vermögenssteuerwerte und Eigenmietwerte sind für die Steuer- 87
-periode 2026 allgemein nach dieser Weisung neu festzulegen.
-    Unter Vorbehalt von Ziff. 89–91 bleiben die Vermögenssteuerwerte 88
-und Eigenmietwerte bis zu einer späteren allgemeinen Neubewertung
-in den nachfolgenden Steuerperioden unverändert.
-
-2. Ausserordentliche Neubewertung einzelner Liegenschaften
-
-   Eine ausserordentliche Neufestsetzung der Vermögenssteuerwerte 89
-und Eigenmietwerte von Liegenschaften erfolgt:
-– für neu erstellte Gebäude oder Gebäudeerweiterungen sowie neue
-   Liegenschaften,
-– nach umfassender Totalrenovation von Gebäuden (Ziff. 33),
-– nach Abbruch von Gebäuden oder Gebäudeteilen,
-– nach entgeltlichen Handänderungen unter unabhängigen Dritten.
+90   Massgebend für ausserordentliche Neubewertungen sind die Land-
+    werte gemäss Ziff. 23 und 24 sowie 49 und 50, der neue Basiswert, das
+    Alter des Gebäudes im Zeitpunkt der ausserordentlichen Neu-
+    bewertung sowie der Jahresertrag der Liegenschaft, ermittelt im Zeit-
+    punkt der ausserordentlichen Neubewertung. Im Übrigen gelten die
+    Regeln dieser Weisung.
+91   Die in Bau begriffenen Bauten sind mit 60% der investierten Bau-
+    kosten zu dem nach dieser Weisung zu ermittelnden Vermögenssteuer-
+    wert der Liegenschaft hinzuzuzählen.

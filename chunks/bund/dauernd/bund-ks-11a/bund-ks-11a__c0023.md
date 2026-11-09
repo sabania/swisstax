@@ -4,17 +4,19 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 23"
-seiten: "6"
+titel: "Ziff. 4.3.1 Dolmetscherkosten Gehörlose – Pauschale CHF 2'500"
+ziffer: "4.3.1"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8
 
-3.2.9   Transportkosten
-Transportkosten zur Ärztin oder zum Arzt, zu Therapien etc. stehen mit der Behandlung einer
-Krankheit oder eines Unfalls in der Regel nur indirekt in Zusammenhang. Sie sind deshalb
-grundsätzlich nicht als Krankheits- bzw. Unfallkosten abzugsfähig (vgl. Urteil des Bundesge
-richts 2C_258/2010 vom 23. Mai 2011 E. 4.4). Medizinisch notwendige Transport-, Rettungs-
-und Bergungskosten sind ausnahmsweise abzugsfähig, wenn aus gesundheitlichen Gründen
-weder die Benützung des öffentlichen Verkehrsmittels noch des privaten Motorfahrzeugs mög
-lich oder zumutbar ist (z. B. Transport mit dem Krankenwagen oder Rettungshelikopter).
+Die Kosten der Dienste von Dolmetscherinnen und Dolmetschern für Gehörlose (Gebärden
+sprache) und Taubblinde sind ebenfalls zum Abzug zugelassen. Als gehörlos gelten Personen
+mit einem Hörverlust von mindestens 71 Dezibel Hearing Level auf beiden Ohren, gemessen
+ohne Hilfsmittel oder bei anderweitigem Nachweis der Gehörlosigkeit mittels Fragebogen.
+Personen, die keine Hilflosenentschädigung beziehen, aber aufgrund ihrer Behinderung nach
+weislich regelmässig auf Dienstleistungen durch Dolmetscherinnen und Dolmetscher angewie
+sen sind, können anstelle der effektiven selbstgetragenen Kosten eine Pauschale von
+CHF 2‘500 pro Jahr geltend machen, sofern wiederkehrend von Kosten in dieser Höhe auszu
+gehen ist.

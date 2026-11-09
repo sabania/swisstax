@@ -4,22 +4,18 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 14"
-seiten: "3"
+titel: "Ziff. 5.2 Fiktiver Einkauf – anrechenbare Beitragsjahre"
+ziffer: "5.2"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 28 · einkommen.selbstaendig › einkommen.kapitalleistung_vorsorge · S. 5
 
-2.2.   Beendigung infolge Invalidität
-Eine Invalidität liegt vor, wenn wegen einer voraussichtlich bleibenden oder während länge-
-rer Zeit dauernden ganzen oder teilweisen Erwerbsunfähigkeit Leistungen gemäss dem
-    3
-Bundesgesetz vom 19. Juni 1959 über die Invalidenversicherung (IVG) ausgerichtet wer-
-den. Unter den Begriff „Leistungen“ fallen mithin nicht nur Renten, sondern auch andere
-Leistungen der IV, wie beispielsweise solche für eine notwendige Umschulung.
-
-Wird als Grund für die Aufgabe der selbständigen Erwerbstätigkeit eine Invalidität geltend
-gemacht, so muss diese kausal zur Aufgabe der selbständigen Tätigkeit führen. Die zustän-
-dige Steuerverwaltung hat dies im Einzelfall zu prüfen. In unklaren Fällen, in denen erst in
-einem gerichtlichen Verfahren geklärt werden muss, ob überhaupt eine Invalidität vorliegt, ist
-mit der Veranlagung zuzuwarten, bis der definitive Entscheid vorliegt.
+5.2.   Anrechenbare Beitragsjahre
+Massgebend ist die Anzahl Jahre vom vollendeten 25. Altersjahr bis zum Alter im Liquidati-
+onsjahr, höchstens jedoch bis zum ordentlichen AHV-Rentenalter. Die Jahre ab dem 25.
+Altersjahr bis und mit dem Liquidationsjahr werden stets vollumfänglich berücksichtigt, unab-
+hängig davon, ob die selbständig erwerbende Person während der ganzen Zeit einer Er-
+werbstätigkeit nachgegangen ist oder nicht. Bei der Berechnung wird auf die Differenz zwi-
+schen dem 25. Altersjahr und dem Alter, in welchem die Erwerbstätigkeit aufgegeben wurde,
+abgestellt. Das angefangene Altersjahr wird hinzugezählt.

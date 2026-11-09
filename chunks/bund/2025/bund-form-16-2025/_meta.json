@@ -1,48 +1,60 @@
 [
 {
 "id": "bund-form-16-2025__c0001",
-"titel": "Formular 16 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Formular 16 – Angaben über die Liegenschaft (A, B, C)",
+"pfad": [
+"Einkünfte aus Liegenschaften"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Liegenschaft",
+"Steuerwert",
+"Brandversicherungswert",
+"Alter Gebäude",
+"Formular 16",
+"Ferienhaus"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Lage, Art, Gebäudealter, Bodenfläche, Brandversicherungswert und kantonaler Steuerwert je Liegenschaft.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-form-16-2025__c0002"
 },
 {
 "id": "bund-form-16-2025__c0002",
-"titel": "Formular 16 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Formular 16 – Ertrag, Unterhaltskosten, Nettoertrag (Übertrag Seite 2 Ziffer 8.4)",
+"pfad": [
+"Einkünfte aus Liegenschaften",
+"Ertrag"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8.4",
+"stichworte": [
+"Mietwert",
+"Mietertrag",
+"Pauschalabzug Liegenschaft",
+"Unterhaltskosten",
+"Nettoertrag",
+"Baurechtszins"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.unterhalt",
+"berechnung.total"
+],
+"zusammenfassung": "Total Rohertrag abzüglich tatsächlicher Kosten oder Pauschalabzug ergibt Nettoertrag; Nettoertrag sämtlicher Liegenschaften zu übertragen in die Steuererklärung, Seite 2, Ziffer 8.4.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-16-2025__c0001",
-"nachher": "bund-form-16-2025__c0003"
-},
-{
-"id": "bund-form-16-2025__c0003",
-"titel": "Formular 16 2025 – Abschnitt 3",
-"pfad": [],
-"seiten": [
-1
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-form-16-2025__c0002",
 "nachher": null
 }
 ]

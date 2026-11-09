@@ -4,18 +4,20 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 61"
-seiten: "18"
+titel: "Anhang II Art. 3 Verhältnis zu Art. 18a DBG – Grundsätze (Teil 2/2)"
+ziffer: "Art. 3"
+seiten: "20-21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 20–21
 
-1.3   Auslegung von Artikel 37b DBG
-Das Gesetz muss in erster Linie aus sich selbst heraus, das heisst nach dem Wortlaut, Sinn
-und Zweck der ihm zugrunde liegenden Wertungen auf der Basis einer teleologischen Ver-
-ständnismethode ausgelegt werden. Die Gesetzesauslegung hat sich vom Gedanken leiten
-zu lassen, dass nicht schon der Wortlaut die Norm darstellt, sondern erst das an Sachverhal-
-ten verstandene und konkretisierte Gesetz. Gefordert ist die sachlich richtige Entscheidung
-im normativen Gefüge, ausgerichtet auf ein befriedigendes Ergebnis der ratio legis (BGE 134
-V 170, E. 4.1). Hält man sich bei der Auslegung von Artikel 37b DBG strikte an den Wortlaut,
-würde dies namentlich zwei bizarr anmutende Konsequenzen haben:
+Verlangt die steuerpflichtige Person im Rahmen der definitiven Aufgabe der selbständigen
+Erwerbstätigkeit einen Besteuerungsaufschub nach Artikel 18a DBG, findet Artikel 37b DBG
+nur auf die wieder eingebrachten Abschreibungen Anwendung.
+
+Finden jedoch sowohl die Überführung einer Liegenschaft als auch deren Veräusserung in-
+nerhalb der „Liquidationsperiode“ (Vorjahr und Liquidationsjahr) statt, so werden diese bei-
+den Vorgänge als Liquidationstätigkeit betrachtet und alle stillen Reserven, das heisst die
+wieder eingebrachten Abschreibungen und der Wertzuwachsgewinn, bilden Teil des Liquida-
+tionsgewinnes, auf welchen Artikel 37b DBG Anwendung findet. Ein Aufschub nach Artikel
+18a Absatz 1 DBG ist allerdings auch in diesen Fällen möglich.

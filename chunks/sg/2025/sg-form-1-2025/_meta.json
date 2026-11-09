@@ -1,208 +1,441 @@
 [
 {
 "id": "sg-form-1-2025__c0001",
-"titel": "Formular 1 SG 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Formular 1 SG 2025: Kopf – Dauer der Steuerpflicht, Rückfragen, Vertretung",
+"pfad": [
+"Seite 1",
+"Kopf"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuererklärung",
+"Rückfragen",
+"E-Mail",
+"Vollmacht",
+"Wegzug"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Kopf der Steuererklärung 2025 (Kantons-, Gemeinde- und direkte Bundessteuer) mit Dauer der Steuerpflicht; Vertretung nur mit schriftlicher Vollmacht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-form-1-2025__c0002"
 },
 {
 "id": "sg-form-1-2025__c0002",
-"titel": "Formular 1 SG 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Personalien, Berufs- und Familienverhältnisse, Kinder",
+"pfad": [
+"Seite 1",
+"Personalien"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Personalien",
+"Zivilstand",
+"Erwerbsart",
+"Kinder",
+"Ausbildung",
+"Arbeitgeber"
+],
+"positionen": [
+"personalien",
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Personalien am 31. Dezember 2025 für Person 1 und 2 sowie Kinder, für deren Unterhalt zur Hauptsache aufgekommen wird.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0001",
 "nachher": "sg-form-1-2025__c0003"
 },
 {
 "id": "sg-form-1-2025__c0003",
-"titel": "Formular 1 SG 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Rückzahlungen – Auszahlungskonto für Steuerrückzahlungen (IBAN)",
+"pfad": [
+"Seite 1",
+"Rückzahlungen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerrückzahlung",
+"IBAN",
+"Auszahlungskonto",
+"Bankverbindung"
+],
+"positionen": [
+"verfahren.bezug"
+],
+"zusammenfassung": "Steuerrückzahlungen erfolgen auf das bezeichnete Konto (Feld A); sonst in Feld B Bank, IBAN oder Post-IBAN angeben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0002",
 "nachher": "sg-form-1-2025__c0004"
 },
 {
 "id": "sg-form-1-2025__c0004",
-"titel": "Formular 1 SG 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 1–2 Einkünfte aus Erwerbstätigkeit: unselbständig, VR-Honorare, selbständig (Codes 100–122)",
+"pfad": [
+"Seite 2",
+"Einkünfte"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–2",
+"stichworte": [
+"Nettolohn",
+"Lohnausweis",
+"Nebenerwerb",
+"VR-Honorare",
+"Sitzungsgelder",
+"selbständig",
+"Gesellschaften"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.unselbstaendig.nebenerwerb",
+"einkommen.unselbstaendig.vr_honorare",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Haupt-/Nebenerwerb mit Lohnausweis (Codes 100–106), Sitzungsgelder/VR-Honorare (108/110), selbständige Erwerbstätigkeit (112–122).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0003",
 "nachher": "sg-form-1-2025__c0005"
 },
 {
 "id": "sg-form-1-2025__c0005",
-"titel": "Formular 1 SG 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3 Einkünfte aus Sozial- und anderen Versicherungen (Codes 126–142)",
+"pfad": [
+"Seite 2",
+"Einkünfte"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"AHV",
+"IV",
+"Rente",
+"Pension",
+"Taggelder",
+"Arbeitslosentaggeld",
+"Familienzulagen"
+],
+"positionen": [
+"einkommen.sozialversicherung.ahv_iv",
+"einkommen.vorsorge.renten",
+"einkommen.ersatz.taggelder",
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "AHV/IV-Renten zu 100 % (126/128), Renten/Pensionen mit steuerbarem Prozentsatz (130/132), Erwerbsausfall- und Arbeitslosen-Taggelder, Familienzulagen von Ausgleichskassen (142).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0004",
 "nachher": "sg-form-1-2025__c0006"
 },
 {
 "id": "sg-form-1-2025__c0006",
-"titel": "Formular 1 SG 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 4–7 Bewegliches Vermögen, Liegenschaften, weitere Einkünfte, Total (Codes 146–168)",
+"pfad": [
+"Seite 2",
+"Einkünfte"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4–7",
+"stichworte": [
+"Wertschriften",
+"Dividenden",
+"Teilbesteuerung 30 Prozent",
+"Eigenmietwert",
+"Alimente",
+"Provisionen",
+"Kapitalabfindung",
+"Total Einkünfte"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.lotterie_gewinne",
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen",
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.unterhaltsbeitraege",
+"einkommen.erbschaften_unverteilt",
+"einkommen.uebrige",
+"einkommen.kapitalabfindung_wiederkehrend",
+"berechnung.total"
+],
+"zusammenfassung": "Wertschriften (146), Beteiligungen ab 10 Prozent mit Teilbesteuerungsabzug von 30 Prozent (150), Liegenschaftsertrag (712), Unterhaltsbeiträge, übrige Einkünfte, Total der Einkünfte (168).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0005",
 "nachher": "sg-form-1-2025__c0007"
 },
 {
 "id": "sg-form-1-2025__c0007",
-"titel": "Formular 1 SG 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 8 Ergänzende Angaben: vereinfachte Abrechnung, Ergänzungsleistungen, Hilflosenentschädigung (290–292)",
+"pfad": [
+"Seite 2",
+"Ergänzende Angaben"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8",
+"stichworte": [
+"Schwarzarbeit",
+"vereinfachtes Abrechnungsverfahren",
+"Ergänzungsleistungen",
+"Hilflosenentschädigung",
+"Überbrückungsleistungen"
+],
+"positionen": [
+"einkommen.vereinfachtes_verfahren",
+"info.steuerfreie_leistungen"
+],
+"zusammenfassung": "Nicht im Total der Einkünfte zu berücksichtigen: vereinfacht abgerechnete Einkünfte (290), Ergänzungs-/Überbrückungsleistungen (291), Hilflosenentschädigungen (292).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0006",
 "nachher": "sg-form-1-2025__c0008"
 },
 {
 "id": "sg-form-1-2025__c0008",
-"titel": "Formular 1 SG 2025 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 10–13 Abzüge: Berufskosten, Schuldzinsen, Unterhalt, Vorsorgebeiträge (Codes 200–500)",
+"pfad": [
+"Seite 3",
+"Abzüge"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10–13",
+"stichworte": [
+"Berufskosten Formular 4",
+"Schuldzinsen",
+"Unterhaltsbeiträge",
+"Alimente",
+"Säule 3a",
+"Säule 2",
+"Einkauf BVG"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.schuldzinsen",
+"abzug.unterhaltsbeitraege",
+"abzug.vorsorge.saeule3a",
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Berufskosten (438/488), Schuldzinsen (500), Unterhaltsbeiträge und Renten (200–204), Säule 3a (208/210) und Säule 2 inkl. Einkaufsbeiträge (218/219).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0007",
 "nachher": "sg-form-1-2025__c0009"
 },
 {
 "id": "sg-form-1-2025__c0009",
-"titel": "Formular 1 SG 2025 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 14–18 Versicherungsprämien, Liegenschaftsunterhalt, weitere Abzüge, Zweiverdienerabzug, Total (Codes 600–230)",
+"pfad": [
+"Seite 3",
+"Abzüge"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14–18",
+"stichworte": [
+"Versicherungsprämien",
+"Sparzinsen",
+"Liegenschaftsunterhalt",
+"Kinderbetreuung",
+"Parteispenden",
+"Weiterbildung",
+"Zweiverdienerabzug"
+],
+"positionen": [
+"abzug.versicherungspraemien",
+"abzug.liegenschaft.unterhalt",
+"abzug.verwaltungskosten_wertschriften",
+"abzug.drittbetreuung",
+"abzug.parteispenden",
+"abzug.weiterbildung",
+"abzug.ahv_nichterwerbstaetige",
+"abzug.uebrige",
+"abzug.zweiverdiener",
+"berechnung.total"
+],
+"zusammenfassung": "Versicherungsprämien (600), Liegenschaftsunterhalt (716), Verwaltungskosten Wertschriften (220), Kinderdrittbetreuung (258), Parteispenden (555), Weiterbildung (223/224), Zweiverdienerabzug (226), Total Abzüge (230).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0008",
 "nachher": "sg-form-1-2025__c0010"
 },
 {
 "id": "sg-form-1-2025__c0010",
-"titel": "Formular 1 SG 2025 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 20–22 Einkommensberechnung: Krankheitskosten (Selbstbehalt 2 %), Behinderung, Zuwendungen, Reineinkommen",
+"pfad": [
+"Seite 3",
+"Einkommensberechnung"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "20–22",
+"stichworte": [
+"Nettoeinkommen",
+"Krankheitskosten Selbstbehalt 2 %",
+"Behinderungsbedingte Kosten",
+"Spenden",
+"Reineinkommen"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten",
+"abzug.spenden",
+"berechnung.total"
+],
+"zusammenfassung": "Krankheits- und Unfallkosten abzüglich Selbstbehalt 2% des Nettoeinkommens (650/238/240), behinderungsbedingte Kosten ohne Selbstbehalt (235), Zuwendungen mind. Fr. 100, max. 20% von Ziffer 20 (244), Reineinkommen (248).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0009",
 "nachher": "sg-form-1-2025__c0011"
 },
 {
 "id": "sg-form-1-2025__c0011",
-"titel": "Formular 1 SG 2025 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 23–24 Sozialabzüge: Kinderabzug Fr. 7’600 / Fr. 10’800, unterstützte Personen, steuerbares Einkommen (Codes 252–268)",
+"pfad": [
+"Seite 3",
+"Sozialabzüge"
+],
 "seiten": [
-4
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "23–24",
+"stichworte": [
+"Kinderabzug",
+"Fr. 7’600",
+"Fr. 10’800",
+"Ausbildungskosten Kinder",
+"unterstützte Personen",
+"steuerbares Einkommen"
+],
+"positionen": [
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung",
+"berechnung.total"
+],
+"zusammenfassung": "Kinderabzug Fr. 7’600 für jedes noch nicht schulpflichtige Kind (252) und Fr. 10’800 für jedes Kind in Schule oder Ausbildung (254); Abzug für unterstützte Personen gilt nur für die direkte Bundessteuer (264).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0010",
 "nachher": "sg-form-1-2025__c0012"
 },
 {
 "id": "sg-form-1-2025__c0012",
-"titel": "Formular 1 SG 2025 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 30–31 Vermögen: Wertschriften, Edelmetalle, Versicherungen, Fahrzeuge, Liegenschaften (Codes 300–710)",
+"pfad": [
+"Seite 4",
+"Vermögen"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "30–31",
+"stichworte": [
+"Vermögen",
+"Wertschriften Guthaben",
+"Rückkaufswert",
+"Motorfahrzeuge",
+"Boote Sammlungen",
+"Liegenschaften"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"vermoegen.bargeld_edelmetalle",
+"vermoegen.lebensversicherungen",
+"vermoegen.fahrzeuge",
+"vermoegen.erbschaften_beteiligungen",
+"vermoegen.uebrige",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerwerte am 31. Dezember 2025: Wertschriften (300), Bargeld/Edelmetalle (302), Lebensversicherungen (304), Motorfahrzeuge (306), unverteilte Erbschaften (308), übrige Vermögenswerte (310), Liegenschaften (710).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0011",
 "nachher": "sg-form-1-2025__c0013"
 },
 {
 "id": "sg-form-1-2025__c0013",
-"titel": "Formular 1 SG 2025 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 32–37 Betriebsvermögen, Schulden, Reinvermögen, Sozialabzüge Vermögen (Fr. 75’000 / 150’000 / 20’000)",
+"pfad": [
+"Seite 4",
+"Vermögen"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "32–37",
+"stichworte": [
+"Betriebsvermögen",
+"Schulden",
+"Reinvermögen",
+"Vermögensfreibetrag",
+"Fr. 75’000",
+"Fr. 150’000",
+"Kinderabzug Vermögen"
+],
+"positionen": [
+"schulden.privat",
+"vermoegen.sozialabzug",
+"vermoegen.erbschaften_beteiligungen",
+"berechnung.total"
+],
+"zusammenfassung": "Sozialabzüge Vermögen: alleinstehend Fr. 75’000 (330), gemeinsam steuerpflichtige Ehegatten Fr. 150’000 (332), je minderjähriges Kind Fr. 20’000 (334); Privat- und Geschäftsschulden (504/506).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-1-2025__c0012",
+"nachher": "sg-form-1-2025__c0014"
+},
+{
+"id": "sg-form-1-2025__c0014",
+"titel": "Ziff. 40–41 Kapitalleistungen aus Vorsorge, Beilagen und Unterschrift",
+"pfad": [
+"Seite 4",
+"Ergänzende Angaben"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "40–41",
+"stichworte": [
+"Kapitalleistung",
+"Säule 3a Auszahlung",
+"Pensionskasse",
+"Beilagen",
+"Unterschrift",
+"Lohnausweis"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Kapitalleistungen aus Säule 3a, 2. Säule und übrige (Total Code 950); Beilagenliste und Unterschrift beider Personen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2025__c0013",
 "nachher": null
 }
 ]

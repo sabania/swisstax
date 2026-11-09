@@ -4,7 +4,7 @@ quelle: bund-vstg
 jur: bund
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 62 VStG (Teil 1/3)"
+titel: "Art. 62 VStG (Teil 1/2)"
 artikel: "Art. 62"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
 ---

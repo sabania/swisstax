@@ -4,23 +4,32 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 151"
-seiten: "39"
+titel: "Ziff. 7.4 Beispiel 8 – Heirat und Lohnerhöhung im Verlauf des Jahres (Teil 2/2)"
+ziffer: "7.4"
+seiten: "48"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 39
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 48
 
-    Quellensteuer   520   520   1 521   585   1 170   8 346
+    Quellensteuer   690   690   678   678   678   984   984   984   9 408
+    Korrekur
+    +2884   +288
+    Januar – April
     Korrektur
-    +1953   +195
-    Januar - März
+    +2405   +240
+    Mai – August
     Total
-    520   520   1 716   585   1 170   8 541
+    690   690   966   678   678   1 224   984   984   9 936
     Quellensteuer
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000 (CHF 5 000 x 13).
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 72 000.00 (CHF 6 000 x 12).
 
-    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 73 000 (CHF 5 000 x 13 + CHF 8 000).
+    2
+    = C0 mit satzbestimmendem Jahreseinkommen von CHF 72 000.00 (CHF 6 000 x 12).
+    3 = C0 mit satzbestimmendem Jahreseinkommen von CHF 80 000.00 (CHF 6 000 x 8 + fr. 8 000 x 4).
 
-    3 = Korrektur des Quellensteuerabzugs für die Monate Januar bis März [(CHF 5 000 x 11.7 %) x 3 -
+    4 = Korrektur des Quellensteuerabzugs für die Monate Januar – April [(CHF 6 000 x 12.7 %) x 4] –
 
-    (CHF 520 x 3)].
+    (CHF 690 x 4).
+    5 = Korrektur des Quellensteuerabzugs für die Monat Mai – August [CHF 6 000 x 12.3 %) x 4] – (CHF 678
+
+    x 4).

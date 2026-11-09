@@ -4,33 +4,20 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 24"
-seiten: "8"
+titel: "Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 4/4)"
+ziffer: "4.2.5"
+seiten: "11-13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.2 Spezialfälle · S. 11–13
 
-<!-- Seite 8 -->
-4.   Ausschüttungen / Rückzahlungen allgemein
+Für Beteiligungsübertragungen nach dem 31. Dezember 1996 bis zum 31. Dezember 2010
+gelten die gleichen Grundsätze wie für Übertragungen nach dem 31. Dezember 2010. Somit
+qualifiziert der Ausweis des gesamten über dem Nennwert zuzüglich der KER im Zeitpunkt
+der Übertragung liegenden Mehrwertes als übrige Reserve.
 
-4.1.   Grundsätze
-
-Die Aufteilung der Ausschüttungen der Kapitalgesellschaft oder Genossenschaft in Rückz ah-
-lung aus KER bzw. Ausland-KER und Ausschüttungen aus übrigen Reserven erfolgt unter
-Berücksichtigung der handelsrechtlichen Bestimmungen (Art. 671 – 675a OR) nach freiem
-Ermessen der ausschüttenden Kapitalgesellschaft oder Genossenschaft aufgrund der Verbu-
-chung und Qualifikation der Reserven in der Handelsbilanz der ausschüttenden Gesellschaft
-(quellenmässige Betrachtungsweise).
-
-Für Kapitalgesellschaften und Genossenschaften, die der Verrechnungssteuer gemäss Arti-
-kel 9 Absatz 1 VStG unterliegen, ist die steuerliche Beurteilung der Ausschüttungen durch
-die Verrechnungssteuer auch für die direkten Steuern massgeblich.
-
-Ausschüttungen von Kapitalgesellschaften oder Genossenschaften sind in dem Umfang
-steuerbar, als sie auf die Ausschüttung von übrigen Reserven entfallen. Für die Berechnung
-des steuerbaren Teils der Ausschüttung wird die gesamte Ausschüttung um den Anteil ge-
-kürzt, welcher gemäss Gewinnverwendungsbeschluss der Generalversammlung den KER
-bzw. Ausland-KER belastet wird.
-
-Der so ermittelte steuerbare Teil der Ausschüttung gilt für sämtliche ausschüttungsberechtig-
-ten Anteile.
+Für Erlöse aus Beteiligungsübertragungen zwischen dem 31. Dezember 2006 und dem
+31. Dezember 2019, die nicht als Ertrag aus beweglichem Vermögen gemäss während die-
+sem Zeitraum geltenden Artikel 20a Absatz 1 Buchstabe b DBG qualifizieren, kann der ge-
+samte über dem Nennwert liegende Mehrwert den KER bzw. Ausland-KER gutgeschrieben
+werden.

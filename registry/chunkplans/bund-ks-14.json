@@ -1,0 +1,466 @@
+{
+ "id": "bund-ks-14",
+ "hinweise": [
+  "Silbentrennung am Zeilenende; sonst sauberer Fliesstext."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt (Kopf, Datum, Titel)"
+  },
+  {
+   "start": 42,
+   "titel": "Ziff. 1–2 Einleitung und Systematik der indirekten Teilliquidation (Art. 20a Abs. 1 Bst. a DBG)",
+   "pfad": [
+    "1 Einleitung / 2 Systematik"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Abgrenzung Kapitalgewinn",
+    "kumulativ"
+   ],
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Art. 20a Abs. 1 Bst. a DBG grenzt steuerfreien privaten Kapitalgewinn von steuerbarem Vermögensertrag aus Beteiligungsverkäufen an Dritte ab; die Tatbestandselemente müssen kumulativ erfüllt sein.",
+   "ziffer": "1-2"
+  },
+  {
+   "start": 61,
+   "titel": "Ziff. 3 Tatbestandselemente – Verkauf, 20 %-Beteiligung, Systemwechsel, 5 Jahre, Ausschüttung, Mitwirkung",
+   "pfad": [
+    "3 Tatbestandselemente"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "20 % Beteiligung",
+    "Systemwechsel",
+    "5 Jahre Ausschüttungsfrist",
+    "Mitwirkung",
+    "Substanzentnahme"
+   ],
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Kumulativ: Verkauf einer Beteiligung von mindestens 20 % aus dem Privat- ins Geschäftsvermögen, Ausschüttungen innerhalb von 5 Jahren, bereits vorhandene ausschüttungsfähige nichtbetriebsnotwendige Substanz, Mitwirkung des Verkäufers.",
+   "ziffer": "3"
+  },
+  {
+   "start": 99,
+   "titel": "Ziff. 4.1–4.2 Verkauf und qualifizierende Beteiligung (mindestens 20 %, gestaffelte Verkäufe)",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.1-4.2"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "20 % Beteiligung",
+    "gestaffelter Verkauf",
+    "gemeinsamer Verkauf"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Nur Verkäufe von mindestens 20 % am Grund- oder Stammkapital; bei gestaffelten Verkäufen fallen alle unter Art. 20a, sobald innert 5 Jahren insgesamt mindestens 20 % veräussert sind.",
+   "ziffer": "4.1-4.2"
+  },
+  {
+   "start": 119,
+   "titel": "Ziff. 4.2 Gemeinsamer Verkauf durch mehrere Personen",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.2"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "gemeinsamer Verkauf",
+    "öffentliches Übernahmeangebot"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Die 20 %-Quote kann durch gemeinsamen Verkauf mehrerer unbeschränkt steuerpflichtiger Personen erreicht werden; ein öffentliches Übernahmeangebot begründet keine gemeinsame Willensbildung.",
+   "ziffer": "4.2"
+  },
+  {
+   "start": 136,
+   "titel": "Ziff. 4.3–4.4 Systemwechsel und Ausschüttungsfrist von 5 Jahren",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.3-4.4"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Systemwechsel",
+    "gewillkürtes Geschäftsvermögen",
+    "Ausschüttungsfrist 5 Jahre"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Die Ausschüttungsfrist von 5 Jahren beginnt im Zeitpunkt des Verkaufs (in der Regel Verpflichtungsgeschäft); bei gestaffelten Verkäufen läuft für jeden Verkauf eine eigene Frist.",
+   "ziffer": "4.3-4.4"
+  },
+  {
+   "start": 153,
+   "titel": "Ziff. 4.5 Ausschüttung – Dividenden, verdeckte Gewinnausschüttung, geldwerte Vorteile",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.5 Ausschüttung"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Ausschüttung",
+    "verdeckte Gewinnausschüttung",
+    "Darlehen Zielgesellschaft",
+    "Sicherheiten"
+   ],
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Ausschüttungen sind Dividenden, verdeckte Gewinnausschüttungen und geldwerte Vorteile (Naturaldividenden, Darlehen, Sicherheiten der Zielgesellschaft an die Käuferin).",
+   "ziffer": "4.5"
+  },
+  {
+   "start": 172,
+   "titel": "Ziff. 4.6.1 Grundlage: handelsrechtlicher Einzelabschluss der Zielgesellschaft",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.6 Reserven"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "ausschüttungsfähige Reserven",
+    "ordentliche Dividende",
+    "Eigenkapital abzüglich Aktienkapital"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Grundlage ist der handelsrechtskonforme Einzelabschluss der Zielgesellschaft bei Beginn der Ausschüttungsfrist; Beurteilung unter Annahme der unveränderten Weiterführung.",
+   "ziffer": "4.6.1-4.6.2"
+  },
+  {
+   "start": 185,
+   "titel": "Ziff. 4.6.1 Ordentliche Dividenden sind keine Substanzausschüttung",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.6 Reserven"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "ordentliche Dividende"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Dividenden aus den ab dem Verkaufsjahr ausschüttungsfähigen ordentlichen Jahresgewinnen sind keine Substanzausschüttung; darüber hinausgehende Ausschüttungen sind qualifizierende Substanzausschüttungen.",
+   "ziffer": "4.6.1-4.6.2"
+  },
+  {
+   "start": 194,
+   "titel": "Ziff. 4.6.2 Handelsrechtlich ausschüttungsfähige Reserven",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.6 Reserven"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Eigenkapital abzüglich Aktienkapital"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Ausschüttungsfähige Reserven = Eigenkapital der letzten handelsrechtskonformen Bilanz vor dem Verkauf abzüglich Aktien-/Stammkapital und maximal möglicher gesetzlicher Reserven (Art. 671 ff. OR).",
+   "ziffer": "4.6.1-4.6.2"
+  },
+  {
+   "start": 203,
+   "titel": "Ziff. 4.6.3 Nichtbetriebsnotwendige Substanz – Beurteilung",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.6 Reserven"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "nichtbetriebsnotwendige Substanz",
+    "Bewertung",
+    "latente Steuern",
+    "einheitliche Leitung"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Beurteilung am Stichtag des Verkaufs nach betriebswirtschaftlichen Kriterien, inkl. Gesellschaften unter einheitlicher Leitung; Ausschüttungen über den seit Verkauf erwirtschafteten Gewinnen gelten vermutungsweise als nichtbetriebsnotwendige Substanz.",
+   "ziffer": "4.6.3-4.6.4"
+  },
+  {
+   "start": 216,
+   "titel": "Ziff. 4.6.4 Bewertung der nichtbetriebsnotwendigen Substanz",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.6 Reserven"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Bewertung",
+    "latente Steuern"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Bewertung nach anerkannten Grundsätzen unter Abzug zuordenbarer Passiven und Berücksichtigung latenter Steuern, erst bei Ausschüttung innert der Frist.",
+   "ziffer": "4.6.3-4.6.4"
+  },
+  {
+   "start": 225,
+   "titel": "Ziff. 4.7 Mitwirkung – Voraussetzungen (Art. 20a Abs. 2 DBG)",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.7 Mitwirkung"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Mitwirkung",
+    "Refinanzierung Kaufpreis",
+    "Art. 20a Abs. 2 DBG"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Ohne konkrete Ausschüttung kann die Mitwirkung nicht ausgeschlossen werden; sie liegt vor, wenn der Verkäufer weiss oder wissen muss, dass bestehende nichtbetriebsnotwendige Mittel entzogen werden und ihm als Kaufpreis zufliessen.",
+   "ziffer": "4.7"
+  },
+  {
+   "start": 242,
+   "titel": "Ziff. 4.7 Mitwirkung – objektive Beurteilung des Zusammenwirkens",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.7 Mitwirkung"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Zusammenwirken"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Ob Verkäufer und Käufer zusammenwirken, wird nach objektiven Kriterien und den gesamten Finanzierungsumständen entschieden.",
+   "ziffer": "4.7"
+  },
+  {
+   "start": 247,
+   "titel": "Ziff. 4.7 Aktive Mitwirkung (Verkäuferdarlehen, Verrechnung, Sicherheiten)",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.7 Mitwirkung"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "aktive Mitwirkung",
+    "passive Mitwirkung",
+    "Fusion",
+    "Verkäuferdarlehen"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Aktive Mitwirkung z.B. durch Verkäuferdarlehen an die Käuferin, Verrechnung einer Schuld mit dem Kaufpreis, Sicherheitsleistungen der Zielgesellschaft oder Hinterlegung der Aktien als Sicherheit.",
+   "ziffer": "4.7"
+  },
+  {
+   "start": 262,
+   "titel": "Ziff. 4.7 Passive Mitwirkung (ungenügende Mittel der Käuferin, Fusion)",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.7 Mitwirkung"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "passive Mitwirkung",
+    "Fusion"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Passive Mitwirkung, wenn die Käuferin den Kaufpreis nicht aus eigener Kraft oder künftigen ordentlichen Dividenden zahlen kann oder der Verkäufer die Fusion kennt.",
+   "ziffer": "4.7"
+  },
+  {
+   "start": 280,
+   "titel": "Ziff. 4.7 Mitwirkung auch bei finanzstarker Käufergesellschaft",
+   "pfad": [
+    "4 Abgrenzungsfragen",
+    "4.7 Mitwirkung"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "finanzstarke Käuferin"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Der Hinweis auf die Finanzkraft der Käuferin oder des Konzerns belegt nicht, dass der Verkäufer nicht mit dem Gebrauch der Mittel rechnen musste.",
+   "ziffer": "4.7"
+  },
+  {
+   "start": 285,
+   "titel": "Ziff. 5.1.1 Umfang des steuerbaren Vermögensertrags (kleinste der vier Grössen)",
+   "pfad": [
+    "5 Steuerfolgen und Verfahren",
+    "5.1 Besteuerung"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "steuerbarer Vermögensertrag",
+    "Verkaufserlös",
+    "Ausschüttungsbetrag",
+    "Nachsteuer"
+   ],
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Steuerbar ist die kleinste Grösse aus Verkaufserlös, Ausschüttungsbetrag, handelsrechtlich ausschüttungsfähigen Reserven und nichtbetriebsnotwendiger Substanz.",
+   "ziffer": "5.1"
+  },
+  {
+   "start": 303,
+   "titel": "Ziff. 5.1.2 Periodengerechte Zuordnung und Nachsteuerverfahren",
+   "pfad": [
+    "5 Steuerfolgen und Verfahren",
+    "5.1 Besteuerung"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Nachsteuer",
+    "Realisationsprinzip"
+   ],
+   "positionen": [
+    "einkommen.wertschriften",
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Der Vermögensertrag wird der Steuerperiode des qualifizierenden Verkaufs zugerechnet, bei gestaffelten Verkäufen anteilig; bei rechtskräftiger Veranlagung Nachsteuer nach Art. 151 ff. DBG.",
+   "ziffer": "5.1"
+  },
+  {
+   "start": 312,
+   "titel": "Ziff. 5.2 Rechtsverbindliche Auskünfte – Zuständigkeit und Gegenstand",
+   "pfad": [
+    "5 Steuerfolgen und Verfahren",
+    "5.2 Auskünfte"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Ruling",
+    "rechtsverbindliche Auskunft",
+    "Veranlagungsbehörde"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Rechtsverbindliche Auskünfte erteilt die für den Verkäufer zuständige Veranlagungsbehörde; vor dem Verkauf nur zu Verkauf, Systemwechsel, Fristenlauf, Reserven, Beteiligungsquote und geplanten Ausschüttungen.",
+   "ziffer": "5.2"
+  },
+  {
+   "start": 329,
+   "titel": "Ziff. 5.2 Auskunft vor dem Verkauf – Ausschluss einer indirekten Teilliquidation",
+   "pfad": [
+    "5 Steuerfolgen und Verfahren",
+    "5.2 Auskünfte"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Ausschluss"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Vor dem Verkauf kann eine indirekte Teilliquidation nur ausgeschlossen werden, wenn ein objektives Tatbestandselement fehlt oder offensichtlich keine nichtbetriebsnotwendige Substanz vorhanden ist; konkret geplante Vorgänge werden vollständig beurteilt.",
+   "ziffer": "5.2"
+  },
+  {
+   "start": 340,
+   "titel": "Ziff. 6 Geltungsbereich und Inkrafttreten (1. Januar 2007, Rückwirkung ab Steuerjahr 2001)",
+   "pfad": [
+    "6 Geltungsbereich / Inkrafttreten"
+   ],
+   "stichworte": [
+    "indirekte Teilliquidation",
+    "Art. 20a DBG",
+    "Beteiligungsverkauf",
+    "Verkauf Firma",
+    "Inkrafttreten",
+    "Verrechnungssteuer",
+    "Revers"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Gilt für Verkäufe durch unbeschränkt steuerpflichtige natürliche Personen aus dem Privatvermögen; in Kraft am 1. Januar 2007, anwendbar auf nicht rechtskräftige Veranlagungen ab Steuerjahr 2001; nicht anwendbar auf die Verrechnungssteuer.",
+   "ziffer": "6"
+  }
+ ]
+}

@@ -4,23 +4,20 @@ quelle: bund-ssk-ks27-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 27 (MB SZ) – Abschnitt 5"
-seiten: "2"
+titel: "Ziff. 3.1 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze natürliche Personen (Teil 1/3)"
+ziffer: "3.1"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · S. 2
+> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · 3. Kreisschreiben SSK › 3.1 Natürliche Personen · S. 2–3
 
-<!-- Seite 2 -->
-2.   Anpassung der bundesgerichtlichen Rechtsprechung
+3.   Kreisschreiben der Schweizerischen Steuerkonferenz (SSK)
 
-Das Bundesgericht hat im interkantonalen Verhältnis seine Rechtsprechung zur bisher nicht beste-
-henden grundstückgewinnsteuerlichen Verrechnung von Ausscheidungsverlusten stufenweise wie
-folgt angepasst:
+Aufgrund der geänderten bundesgerichtlichen Rechtsprechung hat die Schweizerische Steuerkonfe-
+renz (SSK) mit dem Kreisschreiben Nr. 27 vom 15. März 2007 (Details siehe
+http://www.steuerkonferenz.ch/?Dokumente:Kreisschreiben) die sowohl für natürliche wie auch ju-
+ristische Personen interkantonal zu beachtenden Ausscheidungsgrundsätze definiert, wobei Ver-
+lustübernahmen definitiv zu erfolgen haben (Bezug auf das Urteil vom 3. November 2006,
+2P.84/2006, E. 5.2; keine Rückbelastung an andere Kantone in den Folgejahren).
 
-   Veräusserungsgewinne auf Betriebsliegenschaften von Liegenschaftenhändlern und General-
-    bauunternehmungen sind im Umfang der Wertzuwachskomponente dem Belegenheitskanton
-    zur ausschliesslichen Besteuerung zuzuweisen. Dieser hat jedoch einen allfälligen Geschäfts-
-    verlust, den die Unternehmung im Sitzkanton und in weiteren Kantonen mit Betriebsstätten er-
-    leidet, auf den Grundstückgewinn anzurechnen. Diese Anrechnungspflicht besteht für Betriebs-
-    liegenschaften von interkantonalen Unternehmungen generell (BGer 19.11.2004
-    [2P.222/2002]).
+3.1   Ausscheidungsgrundsätze für natürliche Personen

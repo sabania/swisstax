@@ -4,21 +4,17 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 44"
-seiten: "10"
+titel: "Ziff. 4.2 Einverdiener- und Zweiverdienertarif (Tarifcodes B, C, M, N) (Teil 2/2)"
+ziffer: "4.2"
+seiten: "15-16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.2 Einverdiener-/Zweiverdienertarif · S. 15–16
 
-3.2.2 In der Schweiz beschränkt der Quellensteuer unterliegende Einkünfte aus Arbeitsver-
-    hältnis
-In bestimmten Fällen kann der steuerbare Bruttolohn auf das Einkommen aus schweizeri-
-schen Arbeitstagen gekürzt werden (Ausnahmen nach den DBA bleiben vorbehalten, wie
-beispielsweise für Arbeitnehmer im internationalen Verkehr, bei denen je nach Ausgestaltung
-des DBA der gesamte Bruttolohn in der Schweiz steuerbar ist). Entschädigungen, welche in
-einer vorhergehenden Periode verdient wurden (bspw. Bonuszahlungen oder geldwerte Leis-
-tungen aus Mitarbeiterbeteiligungen), sind in der Schweiz in dem Umfang an der Quelle (al-
-lenfalls begrenzt) steuerbar, in dem das in der Verdienstperiode bzw. Vestingperiode erzielte
-Lohneinkommen in der Schweiz steuerbar war.
-Bei Arbeitnehmern mit Ansässigkeit in der Schweiz ist der auf jene Arbeitstage entfallende
-Teil der steuerbaren Leistung steuerbar, der nicht aufgrund eines DBA wegen Arbeitsaus-
+keit eines Ehegatten ist der Zweiverdienertarif bei diesem (Tarifcode C bzw. N) sofort an-
+wendbar. Beim anderen (bereits erwerbstätigen) Ehegatten gelangt der Zweiverdienertarif
+(Tarifcode C bzw. N) ab dem Folgemonat zur Anwendung.
+Der Tarifcode C (bzw. N) gelangt nicht zur Anwendung, wenn der andere Ehegatte einzig
+Einkommen erzielt, welches gemäss Tarifcode E über das vereinfachte Abrechnungsverfah-
+ren im Sinn des Bundesgesetzes vom 17. Juni 2005 über Massnahmen zur Bekämpfung der
+Schwarzarbeit (BGSA; SR 822.41) besteuert wird (vgl. Art. 37a DBG).

@@ -4,18 +4,23 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 2 Bildungssystem in der Schweiz – Primarstufe bis Sekundarstufe II (Teil 1/2)"
+ziffer: "2"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 42 · 2 Bildungssystem · S. 2
 
-1   Gesetzliche Grundlage sowie Gegenstand des Kreisschreibens ....................... 2
-2   Bildungssystem in der Schweiz ............................................................................ 2
-3   Schematischer Überblick über die Abzugsfähigkeit (Grundzüge) ...................... 4
-4   Steuerliche Behandlung der berufsorientierten Aus- und Weiterbildungs-
-    kosten ...................................................................................................................... 5
-4.1   Allgemeines ............................................................................................................ 5
-4.2   Allgemeiner Abzug ................................................................................................. 6
-4.3   Obergrenze des Abzuges ....................................................................................... 7
-4.4   Berufsorientierte Aus- und Weiterbildung nach Abschluss auf Sekundar-
+2   Bildungssystem in der Schweiz
+
+Der neue Abzug orientiert sich am schweizerischen Bildungssystem und übernimmt insbeson-
+dere dessen Begrifflichkeit. Das Bildungssystem in der Schweiz umfasst grundsätzlich die folgen-
+den Stufen bzw. Bereiche (vgl. dazu die Ausführungen des Schweizer Medieninstituts für Bildung
+und Kultur im Auftrag des Staatssekretariats für Bildung, Forschung und Innovation und der
+Schweizerischen Konferenz der kantonalen Erziehungsdirektoren):
+– Primarstufe: Die Primarstufe – inklusive zwei Jahre Kindergarten oder die ersten beiden Jahre
+einer Eingangsstufe – umfasst acht Jahre. Die Kantone mit ihren Gemeinden sind zuständig für
+die Organisation und Finanzierung der Primarstufe. Träger der Schulen sind die Gemeinden. Der
+Schulbesuch ist für alle Kinder obligatorisch und kostenlos. Beim Eintritt in die Primarstufe sind
+die Kinder in der Regel zwischen vier und fünf Jahre alt.
+– Sekundarstufe I: Die Sekundarstufe I folgt auf die Primarstufe und dauert in der Regel drei Jahre

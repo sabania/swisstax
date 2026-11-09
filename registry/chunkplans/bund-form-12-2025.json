@@ -1,0 +1,46 @@
+{
+ "id": "bund-form-12-2025",
+ "hinweise": [
+  "Seite 1: leeres Raster mit Zeilen 01–16; Seite 2: Erläuterungen zweispaltig, Sätze zwischen Spalten vermischt."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 12 Seite 1 – Bescheinigung Bezüge Verwaltungsmitglieder 2025",
+   "pfad": [
+    "Formular"
+   ],
+   "stichworte": [
+    "Verwaltungsrat",
+    "VR-Honorar",
+    "Tantiemen",
+    "Bescheinigung Bezüge",
+    "Formular 12",
+    "Organe Geschäftsführung"
+   ],
+   "positionen": [
+    "einkommen.unselbstaendig.vr_honorare"
+   ],
+   "zusammenfassung": "Verzeichnis der Mitglieder der Verwaltung mit Bezügen 2025 gemäss Ziffer 11 des Lohnausweises; Beilage Lohnausweise Form. 11."
+  },
+  {
+   "start": 82,
+   "titel": "Formular 12 Seite 2 – Erläuterungen Lohnausweis und Einreichung",
+   "pfad": [
+    "Erläuterungen"
+   ],
+   "stichworte": [
+    "Art. 129 DBG",
+    "Lohnausweis Verwaltungsrat",
+    "Tantiemen Kalenderjahr",
+    "Einreichung",
+    "Geschäftsführer"
+   ],
+   "positionen": [
+    "einkommen.unselbstaendig.vr_honorare",
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Juristische Personen müssen nach Art. 129 Abs. 1 lit. a DBG für jedes Mitglied einen Lohnausweis (Form. 11) ausstellen und Formular 12 einreichen."
+  }
+ ]
+}

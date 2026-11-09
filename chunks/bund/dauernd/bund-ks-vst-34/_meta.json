@@ -1,128 +1,156 @@
 [
 {
 "id": "bund-ks-vst-34__c0001",
-"titel": "KS VST 34 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Einleitung und Ziff. 1 Begriff der Kundenguthaben",
+"pfad": [
+"Begriff Kundenguthaben"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Kundenguthaben",
+"Sparkonto",
+"Lohnkonto",
+"Festgeld",
+"Aktionärsdarlehen",
+"Bankguthaben"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Kundenguthaben sind Einlagen bei inländischen Banken oder Sparkassen wie Spar-, Depositen-, Kontokorrentguthaben, Festgelder, Lohnkonti.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-vst-34__c0002"
 },
 {
 "id": "bund-ks-vst-34__c0002",
-"titel": "KS VST 34 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 2–3 Begriff Bank/Sparkasse und Inländerbegriff",
+"pfad": [
+"Begriffe"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2–3",
+"stichworte": [
+"Bank",
+"Sparkasse",
+"Inländer",
+"Art. 9 VStG"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Bank ist, wer sich öffentlich zur Annahme verzinslicher Gelder empfiehlt oder fortgesetzt Gelder gegen Zins entgegennimmt; Inländer mit Wohnsitz oder Sitz im Inland.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-34__c0001",
 "nachher": "bund-ks-vst-34__c0003"
 },
 {
 "id": "bund-ks-vst-34__c0003",
-"titel": "KS VST 34 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 4 Beginn der Steuerpflicht (über 100 Gläubiger, CHF 5'000'000)",
+"pfad": [
+"Beginn der Steuerpflicht"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4",
+"stichworte": [
+"Steuerpflicht",
+"100 Gläubiger",
+"5'000'000 Franken",
+"Bank nach VStG"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Bei Banken im Sinne des VStG beginnt die Steuerpflicht, sobald die Gläubigerzahl 100 übersteigt und die Schuldsumme mindestens 5'000'000 Franken beträgt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-34__c0002",
 "nachher": "bund-ks-vst-34__c0004"
 },
 {
 "id": "bund-ks-vst-34__c0004",
-"titel": "KS VST 34 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 5–6 Anmeldepflicht und Steuererhebung",
+"pfad": [
+"Anmeldepflicht / Steuererhebung"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5–6",
+"stichworte": [
+"Anmeldepflicht",
+"Verrechnungssteuer auf Zinsen",
+"Schuldner der Leistung"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Steuerpflichtig ist der inländische Schuldner; Anmeldung unaufgefordert bei der ESTV (Art. 38 Abs. 1 VStG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-34__c0003",
 "nachher": "bund-ks-vst-34__c0005"
 },
 {
 "id": "bund-ks-vst-34__c0005",
-"titel": "KS VST 34 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 7 Abrechnungsverfahren (30 Tage)",
+"pfad": [
+"Abrechnungsverfahren"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7",
+"stichworte": [
+"Abrechnung",
+"30 Tage",
+"Geschäftsvierteljahr",
+"amtliches Formular"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.bezug"
+],
+"zusammenfassung": "Abrechnung innert 30 Tagen nach Ablauf des Geschäftsvierteljahres bzw. des letzten Quartals.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-34__c0004",
 "nachher": "bund-ks-vst-34__c0006"
 },
 {
 "id": "bund-ks-vst-34__c0006",
-"titel": "KS VST 34 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 8–9 Geldmarktpapiere und Inkrafttreten",
+"pfad": [
+"Geldmarktpapiere / Inkrafttreten"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8–9",
+"stichworte": [
+"Geldmarktpapiere",
+"Buchforderungen",
+"Inkrafttreten",
+"Merkblatt S-02.122.2"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Verweis auf Merkblatt S-02.130.1; das Kreisschreiben ersetzt das Merkblatt S-02.122.2 vom April 1999.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-vst-34__c0005",
-"nachher": "bund-ks-vst-34__c0007"
-},
-{
-"id": "bund-ks-vst-34__c0007",
-"titel": "KS VST 34 – Abschnitt 7",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-34__c0006",
-"nachher": "bund-ks-vst-34__c0008"
-},
-{
-"id": "bund-ks-vst-34__c0008",
-"titel": "KS VST 34 – Abschnitt 8",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-vst-34__c0007",
 "nachher": null
 }
 ]

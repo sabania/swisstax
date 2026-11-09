@@ -4,22 +4,20 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 9"
-seiten: "2"
+titel: "Ziff. 3.3.2 Besteuerung – Gewinnsteuer 4,25 % auf Ertrag aus Grundbesitz (Teil 2/2)"
+ziffer: "3.3.2"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 25 · 3 Grundsätze der Besteuerung › 3.3 › 3.3.2 Besteuerung · S. 4
 
-Dem KAG unterstellt sind grundsätzlich vier Formen kollektiver Kapitalanlagen. Darunter fal-
-len Anlagefonds auf vertraglicher Basis, solche auf gesellschaftlicher Grundlage als juristi-
-sche Personen (SICAV oder SICAF) oder als Personengesellschaften in Form von Komman-
-ditgesellschaften für kollektive Kapitalanlagen (KmGK). Ausschliesslicher Zweck dieser Anla-
-geformen ist die kollektive Kapitalanlage. Ausgenommen von der Unterstellungspflicht sind
-bspw. Einrichtungen und Hilfseinrichtungen der beruflichen Vorsorge, einschliesslich Anlage-
-stiftungen.
+Erträge, die nicht aus direktem Grundbesitz stammen (z.B. Zinsen auf kurzfristigen festver-
+zinslichen Effekten oder auf kurzfristig verfügbaren Mitteln; vgl. Art. 60 KAG), sind von der
+Gewinnsteuer der kollektiven Kapitalanlagen ausgenommen und sind durch die Anlegerin-
+nen und Anleger zu versteuern (vgl. Art. 20 Abs. 1 Bst. e DBG). Bei der SICAF unterliegen
+demgegenüber sämtliche Erträge der Gewinnsteuer. Ausschüttungen unterliegen gemäss
+Artikel 20 Absatz 1 Buchstabe c DBG beim Anleger der Einkommenssteuer.
 
-Die bis zum Inkrafttreten des KAG geltenden Bestimmungen des DBG wurden in materieller
-Hinsicht beibehalten. Der Gesetzgeber hat betreffend kollektiven Kapitalanlagen mit direktem
-Grundbesitz eine neue Bestimmung erlassen. Diese Anlageform wird von der Steuerpflicht
-befreit, wenn sich daran ausschliesslich steuerbefreite Pensions-, Sozialversicherungs- oder
-Ausgleichskassen beteiligen (vgl. Art. 56 Bst. j DBG).
+Für die Veranlagung kollektiver Kapitalanlagen mit direktem Grundbesitz in der Schweiz ist
+der Kanton zuständig, in dem sich der Sitz der Fondsleitung, der SICAV oder der KmGK am
+Ende der Steuerperiode befindet (vgl. Art. 105 Abs. 3 DBG).

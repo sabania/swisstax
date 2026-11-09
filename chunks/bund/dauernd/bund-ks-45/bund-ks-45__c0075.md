@@ -4,14 +4,33 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 75"
-seiten: "18"
+titel: "Ziff. 6.4 Beispiele 6–7 – gleicher Schuldner, Arbeitsverhältnis im Ausland"
+ziffer: "6.4"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.4 Satzbestimmendes Einkommen Teilzeit · S. 24
 
-    Der Arbeitnehmer T. lebt zusammen mit seinem minderjährigen Kind und der Konkubinatspartnerin in
-    Deutschland. Er ist in der Schweiz erwerbstätig und kehrt jeweils an den Wochenenden nach Deutschland
-    zurück. Er legt dem Arbeitgeber eine Vaterschaftsanerkennung sowie eine Bestätigung der deutschen
-    Wohngemeinde über den gemeinsamen Haushalt vor. Da die Konkubinatspartnerin nicht erwerbstätig ist,
-    kommt der Tarifcode H1 zur Anwendung.
+    6. Zwei Arbeitsverhältnisse beim gleichen Schuldner der steuerbaren Leistung in der Schweiz:
+    Der Arbeitnehmer S. ist bei der A. AG, Aarau, zu 80 % als Sachbearbeiter und zu 20 % als Hauswart an-
+    gestellt. Das satzbestimmende Einkommen wird durch Addition der beiden Bruttolöhne ermittelt. S. erzielt
+    folgende Lohneinkommen:
+
+    Tätigkeiten   Pensum   Bruttolohn   satzbestimmend
+
+    Sachbearbeiter   80 %   4 400   5 300
+
+    Hauswart   20 %   900   5 300
+
+
+    7. Ein Arbeitsverhältnis in der Schweiz und ein Arbeitsverhältnis im Ausland (Gesamtpensum 70 %):
+    Der Arbeitnehmer Z. ist bei der R. AG, Bern (= Arbeitsort), und bei der H. AG, Stuttgart (= Arbeitsort), an-
+    gestellt. Das Arbeitspensum beim ausländischen Arbeitgeber ist der R. AG, Bern, bekannt. Z. erzielt fol-
+    gende Lohneinkommen:
+
+    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
+
+    R. AG (CH)   50 %   4 500   6 300
+
+    H. AG (D) 1   20 %   n.a.   n.a.
+    1 Steuerpflichtig in Deutschland

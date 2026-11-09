@@ -1,63 +1,108 @@
 [
 {
 "id": "ar-steuerfuesse-2026__c0001",
-"titel": "Steuerfüsse AR 2026 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Steuerfüsse 2026 natürliche Personen AR – Kantonaler Steuerfuss 3.30",
+"pfad": [
+"Steuerfüsse 2026"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Steuerfuss",
+"Kanton Appenzell Ausserrhoden",
+"Staatssteuer",
+"Einheiten",
+"Steuerverwaltung AR"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Kantonaler Steuerfuss AR 2026 natürliche Personen: 3.30 Einheiten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "ar-steuerfuesse-2026__c0002"
 },
 {
 "id": "ar-steuerfuesse-2026__c0002",
-"titel": "Steuerfüsse AR 2026 – Abschnitt 2",
-"pfad": [],
+"titel": "Steuerfüsse pro Gemeinde und Kirchgemeinde 2026 (Tabelle AR) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026",
+"Tabelle nach Gemeinde"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Steuerfuss Gemeinde",
+"Kirchensteuer",
+"Herisau",
+"Teufen",
+"Bühler",
+"Gais",
+"Speicher",
+"Trogen",
+"Gesamtsteuerfuss"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Tabelle der Steuerfüsse pro politische Gemeinde und Kirchgemeinde sowie gesamt (z.B. Teufen 2.60 politisch, gesamt 6.35; Herisau 4.10, gesamt 8.00).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-steuerfuesse-2026__c0001",
 "nachher": "ar-steuerfuesse-2026__c0003"
 },
 {
 "id": "ar-steuerfuesse-2026__c0003",
-"titel": "Steuerfüsse AR 2026 – Abschnitt 3",
-"pfad": [],
+"titel": "Steuerfüsse pro Gemeinde und Kirchgemeinde 2026 (Tabelle AR) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026",
+"Tabelle nach Gemeinde"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Steuerfuss Gemeinde",
+"Kirchensteuer",
+"Herisau",
+"Teufen",
+"Bühler",
+"Gais",
+"Speicher",
+"Trogen",
+"Gesamtsteuerfuss"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-steuerfuesse-2026__c0002",
 "nachher": "ar-steuerfuesse-2026__c0004"
 },
 {
 "id": "ar-steuerfuesse-2026__c0004",
-"titel": "Steuerfüsse AR 2026 – Abschnitt 4",
-"pfad": [],
+"titel": "Hinweis Separaterhebungen und Entwicklung der Steuerfüsse 2025–2026",
+"pfad": [
+"Steuerfüsse 2026",
+"Entwicklung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Steuerfussentwicklung",
+"Erhöhung",
+"Senkung",
+"Separaterhebung",
+"Kirchgemeinden"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Ansätze enthalten Separaterhebungen für besondere Zwecke; Entwicklung 2025–2026: Staatssteuer unverändert, bei politischen Gemeinden 15 unverändert, 1 Erhöhung, 2 Senkungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-steuerfuesse-2026__c0003",
 "nachher": null
 }

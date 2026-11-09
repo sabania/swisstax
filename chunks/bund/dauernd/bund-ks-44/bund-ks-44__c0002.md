@@ -4,32 +4,26 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 2"
-seiten: "1"
+titel: "Ziff. 2.1 Rechtsgrundlage – Voraussetzungen Art. 14 Abs. 1 DBG"
+ziffer: "2.1"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 44 · 2 Subjektive Voraussetzungen › 2.1 Rechtsgrundlage · S. 2
 
-<!-- Seite 1 -->
-    Eidgenössisches Finanzdepartement EFD
-    Eidgenössische Steuerverwaltung ESTV
-    Hauptabteilung Direkte Bundessteuer,
-    Verrechnungssteuer, Stempelabgaben
+2 Subjektive Voraussetzungen für die Aufwandbesteuerung
 
-Direkte Bundessteuer
-
-Bern, 24. Juli 2018
-
-Kreisschreiben Nr. 44
-
-Besteuerung nach dem Aufwand bei der direkten Bundessteuer
-
-Inhaltsverzeichnis
-1   Allgemeines ............................................................................................................ 2
-2   Subjektive Voraussetzungen für die Aufwandbesteuerung ................................ 2
-2.1   Rechtsgrundlage .................................................................................................... 2
-2.2   Kein Schweizer Bürgerrecht .................................................................................. 2
-2.3   Zuzug in die Schweiz ohne Erwerbstätigkeit ........................................................ 2
-2.4   Erfüllung der Voraussetzungen durch beide Ehegatten ...................................... 3
-2.5   Beginn des Rechts auf Aufwandbesteuerung ...................................................... 3
-3   Objektive Voraussetzungen für die Aufwandbesteuerung .................................. 3
+2.1   Rechtsgrundlage
+Nach Artikel 14 Absatz 1 DBG in der Fassung vom 28. September 2012 haben natürliche Per-
+sonen das Recht, anstelle der Einkommenssteuer eine Steuer nach dem Aufwand zu entrich-
+ten, wenn sie:
+    a. nicht das Schweizer Bürgerrecht haben;
+    b. erstmals oder nach mindestens zehnjähriger Unterbrechung unbeschränkt steuerpflich-
+    tig sind; und
+    c. in der Schweiz keine Erwerbstätigkeit ausüben.
+Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, müssen beide die Voraus-
+setzungen nach Artikel 14 Absatz 1 DBG erfüllen (vgl. Art. 14 Abs. 2 DBG).
+Nach Artikel 205d DBG gilt für natürliche Personen, die am 1. Januar 2016 nach dem Aufwand
+besteuert wurden, während fünf Jahren, das heisst bis am 31. Dezember 2020, weiterhin das
+alte Recht, mithin Artikel 14 DBG in der Fassung vom 14. Dezember 1990. Ab 1. Januar 2021
+ist der Artikel 14 DBG in der Fassung vom 28. September 2012 ausnahmslos gültig.

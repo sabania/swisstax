@@ -1,0 +1,1677 @@
+{
+ "id": "zh-weisung-liegenschaften-2026",
+ "hinweise": [
+  "Seiten 20–39: Anhangstabellen (Landwerte je Gemeinde/Lageklasse, Ableitungs- und Kapitalisierungssätze) als Tabellentext, spaltenweise lesbar; Chunks je Bezirk, Zürich mit Winterthur zusammengelegt.",
+  "Seite 6: Randziffern (z.B. 27, 28) stehen vor Tabellen; Tabellenspalten teils vermischt.",
+  "Randziffern stehen im Original rechts neben dem Text (Seiten 1–5, 7–18), Zuordnung im Text teils am Zeilenende."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Weisung 2026 ZH – Titel, Ermächtigung, Geltung ab Steuerperiode 2026",
+   "pfad": [],
+   "stichworte": [
+    "Weisung 2026",
+    "Regierungsrat Zürich",
+    "Liegenschaften",
+    "Eigenmietwert",
+    "Vermögenssteuerwert",
+    "LS 631.32"
+   ],
+   "zusammenfassung": "Weisung des Regierungsrates vom 28. August 2024 über die Bewertung von Liegenschaften und die Festsetzung der Eigenmietwerte ab Steuerperiode 2026.",
+   "positionen": [
+    "vermoegen.liegenschaften",
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 39,
+   "titel": "Ziff. 1–3 Landwirtschaftliche Liegenschaften – Ertragswert",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "I. Landwirtschaftliche Liegenschaften"
+   ],
+   "stichworte": [
+    "Landwirtschaft",
+    "Ertragswert",
+    "BGBB",
+    "bäuerliches Heimwesen",
+    "Forstwirtschaft"
+   ],
+   "zusammenfassung": "Landwirtschaftlich oder forstwirtschaftlich beworbene Liegenschaften werden mit den erforderlichen Gebäuden zum Ertragswert nach BGBB bewertet.",
+   "ziffer": "1–3",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 60,
+   "titel": "Ziff. 4–6 Unüberbautes Land – Allgemeines und Bauland-Kategorien",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "II. Unüberbautes Land",
+    "1.–2. Allgemeines, Bauland-Kategorien"
+   ],
+   "stichworte": [
+    "Bauland",
+    "Verkehrswert",
+    "Zonenordnung",
+    "Mehrfamilienhaus",
+    "Einfamilienhaus",
+    "Geschäftshaus"
+   ],
+   "zusammenfassung": "Unüberbautes Land wird nach Zonenordnung Bauland-Kategorien zugeordnet (Mehrfamilienhäuser/Stockwerkeigentum, Einfamilienhäuser, Geschäftshäuser, industrielle/gewerbliche Bauten).",
+   "ziffer": "4–6",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 92,
+   "titel": "Ziff. 7–9 Festlegung der steuerlich massgebenden Landwerte",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "II. Unüberbautes Land",
+    "3. Festlegung der Landwerte"
+   ],
+   "stichworte": [
+    "Landwerte",
+    "Sachverständige",
+    "Finanzdirektion",
+    "Vergleichshandänderungen"
+   ],
+   "zusammenfassung": "Die steuerlich massgebenden Landwerte werden von Sachverständigen der Finanzdirektion ermittelt und stehen im Anhang zur Weisung.",
+   "ziffer": "7–9",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 110,
+   "titel": "Ziff. 10–15 Landwerte nach Bauland-Kategorie (Lageklassen)",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "II. Unüberbautes Land",
+    "3. Festlegung der Landwerte"
+   ],
+   "stichworte": [
+    "Lageklassen",
+    "Preisbandbreite",
+    "Zentrum-Peripherie-Modell",
+    "Gemeindetyp",
+    "Landwert Einfamilienhaus"
+   ],
+   "zusammenfassung": "Pro Gemeinde wird eine Preisbandbreite und je Lageklasse ein Landwert festgelegt; Geschäftshäuser und industrielle Bauten über ein Zentrum-Peripherie-Modell.",
+   "ziffer": "10–15",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 139,
+   "titel": "Ziff. 16–18 Kiesland, anderes Land, besondere Verhältnisse",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "II. Unüberbautes Land",
+    "4.–6."
+   ],
+   "stichworte": [
+    "Kiesland",
+    "Campingplatz",
+    "Lärmimmissionen",
+    "Baubeschränkungen",
+    "Reduktion Landwert"
+   ],
+   "zusammenfassung": "Kiesland und anderes unüberbautes Land werden zum Verkehrswert besteuert; bei wesentlich tieferem tatsächlichem Landwert (Lärm, Baubeschränkungen) Reduktion nach Nachweis.",
+   "ziffer": "16–18",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 169,
+   "titel": "Ziff. 19 Grenzfälle landwirtschaftlich beworbenes Land",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "III. Grenzfälle"
+   ],
+   "stichworte": [
+    "Grenzfall",
+    "Umschwung",
+    "Pünten",
+    "Vermögensnachbesteuerung",
+    "Ertragswert auf Begehren"
+   ],
+   "zusammenfassung": "Bei Grenzfällen erfolgt auf Begehren die Bewertung zum Ertragswert, wenn der Pflichtige die Vermögensnachbesteuerung unterschriftlich anerkennt.",
+   "ziffer": "19",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 188,
+   "titel": "Ziff. 20–22 Einfamilienhäuser und Stockwerkeigentum – Grundsätze (Landwert + Zeitbauwert)",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "IV. Einfamilienhäuser und Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Einfamilienhaus",
+    "Stockwerkeigentum",
+    "Landwert plus Zeitbauwert",
+    "Hochhaus",
+    "Wertquote",
+    "Formelwert 70 %"
+   ],
+   "zusammenfassung": "Verkehrswert Einfamilienhaus = Landwert + Zeitbauwert; bei Hochhaus-Stockwerkeigentum (mehr als acht Stockwerke) individuelle Schätzung, Formelwert massgebend bei 70 % bis 100 % des Schätzwerts.",
+   "ziffer": "20–22",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 210,
+   "titel": "Ziff. 23–25 Landwert bei Einfamilienhaus und Stockwerkeigentum",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "IV. Einfamilienhäuser und Stockwerkeigentum",
+    "2. Landwert"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Zuordnung nach Art der Baute",
+    "ausserhalb Bauzone",
+    "Lageklasse"
+   ],
+   "zusammenfassung": "Landwert nach Bauland-Kategorie gemäss Art der Baute (nicht Zonenordnung); Land ausserhalb der Bauzone wird ebenfalls einer Lageklasse zugeordnet.",
+   "ziffer": "23–25",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 227,
+   "titel": "Ziff. 26–27 Anrechenbare Grundstücksfläche Einfamilienhäuser (400 m2 / 800 m2)",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "IV. Einfamilienhäuser und Stockwerkeigentum",
+    "2. Landwert"
+   ],
+   "stichworte": [
+    "Umschwung",
+    "Grundstücksfläche",
+    "400 m2",
+    "800 m2",
+    "Basiswert Fr. 30 000",
+    "Fr. 120 000"
+   ],
+   "zusammenfassung": "Einfamilienhäuser: anrechenbare Fläche bis Basiswert Fr. 30 000 höchstens 400 m2, über Fr. 120 000 höchstens 800 m2 zuzüglich 100 m2 pro volle Fr. 30 000 Basiswert.",
+   "ziffer": "26–27",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 244,
+   "titel": "Ziff. 28 Anrechenbare Grundstücksfläche Stockwerkeigentum (100 m2 / 200 m2)",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "IV. Einfamilienhäuser und Stockwerkeigentum",
+    "2. Landwert"
+   ],
+   "stichworte": [
+    "Stockwerkeigentum",
+    "Grundstücksfläche",
+    "100 m2",
+    "200 m2",
+    "Basiswert Fr. 10 000",
+    "Fr. 40 000"
+   ],
+   "zusammenfassung": "Stockwerkeigentum: bis Basiswert Fr. 10 000 höchstens 100 m2, über Fr. 40 000 höchstens 200 m2 zuzüglich 30 m2 pro volle Fr. 10 000 Basiswert.",
+   "ziffer": "28",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 256,
+   "titel": "Ziff. 29 Übersteigende Landflächenanteile (30 % / 5 % des Landwerts)",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "IV. Einfamilienhäuser und Stockwerkeigentum",
+    "2. Landwert"
+   ],
+   "stichworte": [
+    "Landflächenanteil",
+    "1200 m2",
+    "30 % Landwert",
+    "5 % Landwert",
+    "Umschwung"
+   ],
+   "zusammenfassung": "Übersteigende Flächenanteile: Einfamilienhäuser bis 1200 m2 zu 30 %, darüber zu 5 % des Landwerts; Stockwerkeigentum bis 200 m2 zu 30 %, darüber zu 5 %.",
+   "ziffer": "29",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 269,
+   "titel": "Ziff. 30–34 Zeitbauwert (Neubauwert 1120 %, Altersentwertung 1 % pro Jahr, max. 40 %)",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "IV. Einfamilienhäuser und Stockwerkeigentum",
+    "3. Zeitbauwert"
+   ],
+   "stichworte": [
+    "Zeitbauwert",
+    "Neubauwert",
+    "Basiswert Gebäudeversicherung",
+    "Altersentwertung",
+    "Totalrenovation",
+    "1120 %"
+   ],
+   "zusammenfassung": "Neubauwert = 1120 % des Basiswerts der Gebäudeversicherung; Altersentwertung 1 % pro Jahr des Neubauwerts, höchstens 40 %, berechnet bis Kalenderjahr 2026.",
+   "ziffer": "30–34",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 289,
+   "titel": "Ziff. 35 Besondere Verhältnisse bei Einfamilienhäusern und Stockwerkeigentum",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "IV. Einfamilienhäuser und Stockwerkeigentum",
+    "4. Besondere Verhältnisse"
+   ],
+   "stichworte": [
+    "Korrektur Landwert",
+    "Korrektur Zeitbauwert",
+    "Nachweis",
+    "Veräusserungserlös"
+   ],
+   "zusammenfassung": "Auf Verlangen und gegen Nachweis Korrekturen beim Landwert oder Zeitbauwert, soweit sie sich bei einer Veräusserung nicht im Erlös niederschlagen würden.",
+   "ziffer": "35",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 305,
+   "titel": "Ziff. 36–37 Mehrfamilien- und Geschäftshäuser – Ertragswert, Abgrenzung",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "V. Mehrfamilien- und Geschäftshäuser",
+    "1. Allgemeine Grundsätze"
+   ],
+   "stichworte": [
+    "Mehrfamilienhaus",
+    "Geschäftshaus",
+    "Ertragswert",
+    "mehr als zwei Wohneinheiten",
+    "Zweifamilienhaus"
+   ],
+   "zusammenfassung": "Mehrfamilien- und Geschäftshäuser (mehr als zwei Wohneinheiten) werden zum Ertragswert bewertet; Zweifamilienhäuser ohne Stockwerkeigentum wie Einfamilienhäuser.",
+   "ziffer": "36–37",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 319,
+   "titel": "Ziff. 38–39 Ertragswert Mehrfamilienhäuser – Kapitalisierung des Ertrags",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "V. Mehrfamilien- und Geschäftshäuser",
+    "2. Ertragswert"
+   ],
+   "stichworte": [
+    "Ertragswert",
+    "Mietertrag",
+    "Marktmiete",
+    "Kapitalisierung",
+    "Eigennutzung"
+   ],
+   "zusammenfassung": "Ertragswert = kapitalisierter Ertrag aus Mieterentschädigungen; bei Eigennutzung ist die erzielbare Marktmiete hinzuzuzählen.",
+   "ziffer": "38–39",
+   "positionen": [
+    "vermoegen.liegenschaften",
+    "einkommen.liegenschaften.mietertrag"
+   ]
+  },
+  {
+   "start": 337,
+   "titel": "Ziff. 40–42 Vorzugsmieten und Kapitalisierungssätze (Anhang)",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "V. Mehrfamilien- und Geschäftshäuser",
+    "2. Ertragswert"
+   ],
+   "stichworte": [
+    "Kapitalisierungssatz",
+    "Vorzugsmiete",
+    "Leerstand",
+    "Zinssituation"
+   ],
+   "zusammenfassung": "Bei nicht oder teilweise vermieteten Objekten ist der erzielbare Ertrag einzubeziehen; die Kapitalisierungssätze stehen im Anhang.",
+   "ziffer": "40–42",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 349,
+   "titel": "Ziff. 43–44 Ertragswert Geschäftshäuser",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "V. Mehrfamilien- und Geschäftshäuser",
+    "2. Ertragswert"
+   ],
+   "stichworte": [
+    "Geschäftshaus",
+    "Kapitalisierungssatz",
+    "Ertragswert"
+   ],
+   "zusammenfassung": "Geschäftshäuser: Ertrag kapitalisieren mit den Kapitalisierungssätzen für Mehrfamilienhäuser (Ziff. 41, 42).",
+   "ziffer": "43–44",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 356,
+   "titel": "Ziff. 45–48 Industrielle oder gewerbliche Liegenschaften – Grundsätze",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "VI. Industrielle oder gewerbliche Liegenschaften",
+    "1. Allgemeine Grundsätze"
+   ],
+   "stichworte": [
+    "industriell",
+    "gewerblich",
+    "Lagerhaus",
+    "Industriegelände",
+    "Landreserve"
+   ],
+   "zusammenfassung": "Verkehrswert industrieller/gewerblicher Bauten = Landwert + Zeitbauwert; Industriegelände wird zusammen mit den Anlagen bewertet.",
+   "ziffer": "45–48",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 376,
+   "titel": "Ziff. 49–50 Landwert industrielle oder gewerbliche Bauten",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "VI. Industrielle oder gewerbliche Liegenschaften",
+    "2. Landwert"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Bauland-Kategorie Industrie",
+    "Art der Baute"
+   ],
+   "zusammenfassung": "Landwert nach Bauland-Kategorie für industrielle/gewerbliche Bauten gemäss Art der Baute.",
+   "ziffer": "49–50",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 389,
+   "titel": "Ziff. 51–55 Zeitbauwert industriell (Altersentwertung 2 % / 3 % pro Jahr)",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "VI. Industrielle oder gewerbliche Liegenschaften",
+    "3. Zeitbauwert"
+   ],
+   "stichworte": [
+    "Altersentwertung",
+    "Abnützung",
+    "Restwert 30 %",
+    "Schwerindustrie",
+    "Neubauwert 1120 %"
+   ],
+   "zusammenfassung": "Altersentwertung bei normaler Abnützung 2 % pro Jahr bis Restwert 30 %, bei besonders starker Abnützung 3 % pro Jahr bis Restwert 0 %.",
+   "ziffer": "51–55",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 410,
+   "titel": "Ziff. 56–58 Neue Gebäudeteile, Bürohäuser, Personalwohnungen",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "VI. Industrielle oder gewerbliche Liegenschaften",
+    "4.–6."
+   ],
+   "stichworte": [
+    "Anbau",
+    "Aufbau",
+    "Bürohaus",
+    "Personalwohnhaus",
+    "Fabrikareal"
+   ],
+   "zusammenfassung": "Neu hinzugekommene Gebäudeteile werden nach der Erhöhung des Basiswerts bewertet; Bürohäuser im Fabrikareal werden mit den Fabrikgebäuden bewertet.",
+   "ziffer": "56–58",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 435,
+   "titel": "Ziff. 59 Eigenmietwert Einfamilienhäuser und Stockwerkeigentum – Ableitungssätze",
+   "pfad": [
+    "B. Eigenmietwerte",
+    "I. Einfamilienhäuser und Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Eigenmietwert",
+    "Ableitungssatz",
+    "Hochhaus",
+    "Zweifamilienhaus",
+    "60 % bis 70 % Schätzwert"
+   ],
+   "zusammenfassung": "Eigenmietwert = Ableitungssatz (Anhang) mal Land- und Zeitbauwert; bei Hochhaus-Stockwerkeigentum gilt der Formelwert bei 60 % bis 70 % des individuellen Schätzwerts.",
+   "ziffer": "59",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 454,
+   "titel": "Ziff. 60–60a Eigenmietwert – Basiswert über Fr. 120 000 / 40 000, Landwertanteile 0,2 %",
+   "pfad": [
+    "B. Eigenmietwerte",
+    "I. Einfamilienhäuser und Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Basiswert",
+    "Fr. 120 000",
+    "Fr. 40 000",
+    "1 %",
+    "Ableitungssatz 0,2 %"
+   ],
+   "zusammenfassung": "Der Basiswert über Fr. 120 000 (Einfamilienhaus) bzw. Fr. 40 000 (Stockwerkeigentum) zählt nur mit 1 %; Landwertanteile nach Ziff. 29 nur mit 0,2 %.",
+   "ziffer": "60–60a",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 465,
+   "titel": "Ziff. 61–62 Eigenmietwert – Korrekturen und Einschlag bei Minderbenutzung",
+   "pfad": [
+    "B. Eigenmietwerte",
+    "I. Einfamilienhäuser und Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Einschlag",
+    "Wegzug der Kinder",
+    "Minderbenutzung",
+    "Korrektur Eigenmietwert",
+    "Nachweis"
+   ],
+   "zusammenfassung": "Auf Verlangen Korrekturen gegen Nachweis; angemessener Einschlag auf dem Eigenmietwert bei verminderter Nutzung (z.B. Wegzug der Kinder).",
+   "ziffer": "61–62",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "sozialabzug.eigenmietwert"
+   ]
+  },
+  {
+   "start": 484,
+   "titel": "Ziff. 63–67 Eigenmietwert Wohnungen in Mehrfamilienhäusern (Einschlag 30 %)",
+   "pfad": [
+    "B. Eigenmietwerte",
+    "II. Wohnungen in Mehrfamilienhäusern ohne Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Mietwert",
+    "Vergleichsmiete",
+    "Einschlag 30 %",
+    "Eigennutzung Wohnung"
+   ],
+   "zusammenfassung": "Mietwert durch Vergleich mit Mieten gleicher Objekte; von den Ausgangswerten wird ein Einschlag von 30 % abgezogen.",
+   "ziffer": "63–67",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 508,
+   "titel": "Ziff. 68–70 Wohnungen in Geschäftshäusern und eigene Geschäftsräume",
+   "pfad": [
+    "B. Eigenmietwerte",
+    "III.–IV. Wohnungen in Geschäftshäusern, Geschäftsräume"
+   ],
+   "stichworte": [
+    "Geschäftsräume",
+    "Eigennutzung",
+    "Mietwert",
+    "Geschäftshaus Wohnung"
+   ],
+   "zusammenfassung": "Eigengenutzte Geschäftsräume werden mit dem Mietzins bei Vermietung an Dritte angerechnet; Wohnungen in Geschäftshäusern sinngemäss Ziff. 63 ff.",
+   "ziffer": "68–70",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 526,
+   "titel": "Ziff. 71 Mietwert Geschäftsräume in Prozenten des Umsatzes (Branchenansätze)",
+   "pfad": [
+    "B. Eigenmietwerte",
+    "IV. Geschäftsräume"
+   ],
+   "stichworte": [
+    "Branche",
+    "Mietwert in % des Umsatzes",
+    "Restaurant 9,0 %",
+    "Arztpraxis 10,0 %",
+    "Detailhandel 3,0 %"
+   ],
+   "zusammenfassung": "Übliche Ansätze nach Branche in Prozenten des Umsatzes, z.B. Lebensmittel 3,0 %, Restaurant 9,0 %, Wohnen/Haushalt 13,0 %, Zahnarztpraxen 12,0 %.",
+   "ziffer": "71",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 552,
+   "titel": "Ziff. 72–74 Einheitssatz pro m2 und andere Liegenschaften und Räume",
+   "pfad": [
+    "B. Eigenmietwerte",
+    "IV.–V. Geschäftsräume, andere Liegenschaften"
+   ],
+   "stichworte": [
+    "Einheitssatz Quadratmeter",
+    "Scheune",
+    "Garage",
+    "Reithalle",
+    "Mietwert Einzelfall"
+   ],
+   "zusammenfassung": "Mietwerte nach Einheitssatz pro m2 Nutzfläche bzw. nach den Verhältnissen des Einzelfalls für andere Liegenschaften (Scheunen, Garagen, Hallen).",
+   "ziffer": "72–74",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 567,
+   "titel": "Ziff. 75–77 Baurechtsnehmer – Vermögenssteuerwert und Eigenmietwert",
+   "pfad": [
+    "C. Liegenschaften im Baurecht",
+    "I. Baurechtsnehmer"
+   ],
+   "stichworte": [
+    "Baurecht",
+    "Baurechtsnehmer",
+    "Baurechtszins",
+    "Kapitalisierung minus 2 Prozentpunkte"
+   ],
+   "zusammenfassung": "Baurechtsnehmer: Zeitbauwert bzw. Ertragswert abzüglich kapitalisierte Baurechtszinsen (Sätze nach Ziff. 42 vermindert um 2 Prozentpunkte).",
+   "ziffer": "75–77",
+   "positionen": [
+    "vermoegen.liegenschaften",
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 593,
+   "titel": "Ziff. 78 Baurechtsgeber – Vermögenssteuerwert",
+   "pfad": [
+    "C. Liegenschaften im Baurecht",
+    "II. Baurechtsgeber"
+   ],
+   "stichworte": [
+    "Baurechtsgeber",
+    "Baurechtszins",
+    "kapitalisiert"
+   ],
+   "zusammenfassung": "Für den Baurechtsgeber bilden die kapitalisierten Baurechtszinsen den Vermögenssteuerwert.",
+   "ziffer": "78",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 601,
+   "titel": "Ziff. 79–80 Individuelle Schätzung des Vermögenssteuerwerts – Voraussetzung und Grundlagen",
+   "pfad": [
+    "D. Individuelle Schätzung",
+    "I. Vermögenssteuerwert"
+   ],
+   "stichworte": [
+    "individuelle Schätzung",
+    "über 100 % Verkehrswert",
+    "unter 70 %",
+    "Kaufpreis",
+    "Privatgutachten"
+   ],
+   "zusammenfassung": "Individuelle Schätzung, wenn der Formelwert über 100 % oder unter 70 % des Verkehrswerts liegt; Grundlagen: Kaufpreis, Anlagewert, Privatgutachten.",
+   "ziffer": "79–80",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 618,
+   "titel": "Ziff. 81–82 Individuelle Schätzung – Verfahren, Festsetzung auf 70 % / 90 % des Verkehrswerts",
+   "pfad": [
+    "D. Individuelle Schätzung",
+    "I. Vermögenssteuerwert"
+   ],
+   "stichworte": [
+    "hedonische Methode",
+    "amtliches Gutachten",
+    "Mitwirkungspflicht",
+    "70 % Verkehrswert",
+    "90 % Verkehrswert"
+   ],
+   "zusammenfassung": "Vermögenssteuerwert wird auf 70 % des Verkehrswerts festgesetzt, wenn der Formelwert unter 70 % liegt, auf 90 %, wenn er über 100 % liegt.",
+   "ziffer": "81–82",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 635,
+   "titel": "Ziff. 83–84 Individuelle Schätzung des Eigenmietwerts – Voraussetzung und Grundlagen",
+   "pfad": [
+    "D. Individuelle Schätzung",
+    "II. Eigenmietwert"
+   ],
+   "stichworte": [
+    "Marktmiete",
+    "über 70 % Marktmiete",
+    "unter 60 %",
+    "Vergleichsmieten",
+    "Privatgutachten"
+   ],
+   "zusammenfassung": "Individuelle Schätzung, wenn der Formelwert über 70 % oder unter 60 % der Marktmiete liegt.",
+   "ziffer": "83–84",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 646,
+   "titel": "Ziff. 85–86 Individuelle Schätzung Eigenmietwert – Verfahren, Festsetzung auf 60 % / 70 % der Marktmiete",
+   "pfad": [
+    "D. Individuelle Schätzung",
+    "II. Eigenmietwert"
+   ],
+   "stichworte": [
+    "hedonische Methode",
+    "Marktmietwert",
+    "60 % Marktmiete",
+    "70 % Marktmiete",
+    "Mitwirkungspflicht"
+   ],
+   "zusammenfassung": "Eigenmietwert wird auf 60 % der Marktmiete festgelegt, wenn der Formelwert darunter liegt, auf 70 %, wenn er darüber liegt.",
+   "ziffer": "85–86",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 665,
+   "titel": "Ziff. 87–89 Neufestsetzung: allgemeine und ausserordentliche Neubewertung",
+   "pfad": [
+    "E. Neufestsetzung",
+    "I. Einfamilienhäuser, Stockwerkeigentum, industrielle Liegenschaften"
+   ],
+   "stichworte": [
+    "Neubewertung 2026",
+    "ausserordentliche Neubewertung",
+    "Handänderung",
+    "Totalrenovation",
+    "Neubau",
+    "Abbruch"
+   ],
+   "zusammenfassung": "Allgemeine Neubewertung für die Steuerperiode 2026; ausserordentliche Neufestsetzung bei Neubau, Totalrenovation, Abbruch und entgeltlicher Handänderung unter Dritten.",
+   "ziffer": "87–89",
+   "positionen": [
+    "vermoegen.liegenschaften",
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 689,
+   "titel": "Ziff. 90–91 Ausserordentliche Neubewertung – Massgebende Werte, Bauten im Bau (60 %)",
+   "pfad": [
+    "E. Neufestsetzung",
+    "I. Einfamilienhäuser, Stockwerkeigentum, industrielle Liegenschaften"
+   ],
+   "stichworte": [
+    "Bau begriffen",
+    "60 % der Baukosten",
+    "Neubewertung"
+   ],
+   "zusammenfassung": "In Bau begriffene Bauten werden mit 60 % der investierten Baukosten zum Vermögenssteuerwert hinzugezählt.",
+   "ziffer": "90–91",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 701,
+   "titel": "Ziff. 92–94 Mehrfamilien- und Geschäftshäuser jährlich neu, Inkrafttreten",
+   "pfad": [
+    "E. Neufestsetzung",
+    "II. Mehrfamilien- und Geschäftshäuser",
+    "F. Inkrafttreten"
+   ],
+   "stichworte": [
+    "jährliche Neufestsetzung",
+    "Inkrafttreten",
+    "Steuerperiode 2026"
+   ],
+   "zusammenfassung": "Werte von Mehrfamilien- und Geschäftshäusern werden ab 2026 in jeder Steuerperiode neu festgelegt; die Weisung gilt ab Steuerperiode 2026.",
+   "ziffer": "92–94",
+   "positionen": [
+    "vermoegen.liegenschaften",
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 720,
+   "skip": true,
+   "titel": "Anhang – Inhaltsübersicht der Tabellen"
+  },
+  {
+   "start": 747,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Affoltern",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Affoltern"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Affoltern; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 768,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Andelfingen",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Andelfingen"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Andelfingen; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 790,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Bülach",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Bülach"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Bülach; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 819,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Dielsdorf",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Dielsdorf"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Dielsdorf; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 843,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Dietikon",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Dietikon"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Dietikon; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 861,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Hinwil",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Hinwil"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Hinwil; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 873,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Horgen",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Horgen"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Horgen; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 884,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Meilen",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Meilen"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Meilen; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 902,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Pfäffikon",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Pfäffikon"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Pfäffikon; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 913,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Uster",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Uster"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Uster; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 925,
+   "titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Winterthur und Zürich",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Einfamilienhäuser"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Einfamilienhaus",
+    "Lageklasse",
+    "Bauland",
+    "Gemeinde",
+    "Bezirk Winterthur"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Winterthur und Zürich; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 954,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Affoltern",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Affoltern"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Affoltern; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 975,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Andelfingen",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Andelfingen"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Andelfingen; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 997,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Bülach",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Bülach"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Bülach; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1026,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Dielsdorf",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Dielsdorf"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Dielsdorf; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1050,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Dietikon",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Dietikon"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Dietikon; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1068,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Hinwil",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Hinwil"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Hinwil; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1080,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Horgen",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Horgen"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Horgen; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1091,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Meilen",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Meilen"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Meilen; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1109,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Pfäffikon",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Pfäffikon"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Pfäffikon; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1120,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Uster",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Uster"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Uster; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1132,
+   "titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Winterthur und Zürich",
+   "pfad": [
+    "Anhang",
+    "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Stockwerkeigentum",
+    "Mehrfamilienhaus",
+    "Lageklasse",
+    "Gemeinde",
+    "Bezirk Winterthur"
+   ],
+   "zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Winterthur und Zürich; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1161,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Affoltern",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Affoltern"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Affoltern; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1184,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Andelfingen",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Andelfingen"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Andelfingen; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1206,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Bülach",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Bülach"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Bülach; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1237,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Dielsdorf",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Dielsdorf"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Dielsdorf; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1261,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Dietikon",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Dietikon"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Dietikon; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1281,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Hinwil",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Hinwil"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Hinwil; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1293,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Horgen",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Horgen"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Horgen; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1304,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Meilen",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Meilen"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Meilen; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1324,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Pfäffikon",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Pfäffikon"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Pfäffikon; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1335,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Uster",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Uster"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Uster; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1347,
+   "titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Winterthur und Zürich",
+   "pfad": [
+    "Anhang",
+    "Landwerte Geschäftshäuser/Industrie"
+   ],
+   "stichworte": [
+    "Landwert",
+    "Geschäftshaus",
+    "Industrie",
+    "Gewerbe",
+    "Gemeinde",
+    "Bezirk Winterthur"
+   ],
+   "zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Winterthur und Zürich; Tabellenwerte im Text.",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1378,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Affoltern",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Affoltern"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Affoltern; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1400,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Andelfingen",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Andelfingen"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Andelfingen; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1422,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Bülach",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Bülach"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Bülach; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1452,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Dielsdorf",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Dielsdorf"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Dielsdorf; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1476,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Dietikon",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Dietikon"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Dietikon; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1495,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Hinwil",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Hinwil"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Hinwil; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1507,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Horgen",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Horgen"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Horgen; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1518,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Meilen",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Meilen"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Meilen; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1537,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Pfäffikon",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Pfäffikon"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Pfäffikon; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1548,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Uster",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Uster"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Uster; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 1560,
+   "titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Winterthur und Zürich",
+   "pfad": [
+    "Anhang",
+    "Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+   ],
+   "stichworte": [
+    "Ableitungssatz",
+    "Eigenmietwert",
+    "Kapitalisierungssatz",
+    "Mehrfamilienhaus",
+    "Gemeinde",
+    "Bezirk Winterthur"
+   ],
+   "zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Winterthur und Zürich; Tabellenwerte im Text.",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ]
+  }
+ ]
+}

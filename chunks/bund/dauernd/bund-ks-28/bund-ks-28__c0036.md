@@ -4,22 +4,29 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 36"
-seiten: "9"
+titel: "Anhang II Ziff. 1 Einleitung – Unternehmenssteuerreform II (Teil 2/2)"
+ziffer: "1"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 15
 
-Art. 7   Nachträglicher Anschluss an eine Vorsorgeeinrichtung
-Der geltend gemachte fiktive Einkauf wird steuerrechtlich an einen späteren Einkauf
-in eine Vorsorgeeinrichtung angerechnet.
+Ziel der Unternehmenssteuerreform II (nachstehend USTR II) war – gemäss Ausführungen
+des Bundesrates in der Botschaft 1 – einerseits eine steuerliche Entlastung von Risikokapital,
+primär zugunsten von Investoren, die sich unternehmerisch beteiligen. Andererseits zielte die
+Reform aber auch auf die steuerliche Entlastung der kleinen und mittleren Unternehmen
+(KMU) ab. Unter anderem sollten ungerechtfertigte Überbesteuerungen gemildert und zum
+Teil beseitigt werden. Die beabsichtigten Massnahmen zu Gunsten der Personenunterneh-
+men betrafen folgende vier Bereiche:
 
-Art. 8   Besteuerung des fiktiven Einkaufs
-Der Betrag des fiktiven Einkaufs wird nach Artikel 38 DBG besteuert.
+– Erhaltung bestehender Personenunternehmen,
 
-3   SR 831.40
-4   SR 831.441.1
-5   SR 831.461.3
-6   SR 220
+– Erleichterung der Restrukturierung von Personenunternehmen,
 
-    3
+– Erleichterung der Übertragung von Unternehmen sowie um
+
+– Steuererleichterungen bei der zu Lebzeiten oder nach dem Tod des Inhabers erfolgten
+  Liquidation eines Unternehmens.
+
+Letztere Massnahme führte zum Artikel 37b DBG, welcher am 1. Januar 2011 in Kraft treten
+wird.

@@ -4,19 +4,31 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 57"
-seiten: "18"
+titel: "Rz 72 Nicht zu deklarierende Leistungen (Teil 2) – Anlässe, Krippe, Parkplatz"
+ziffer: "72"
+seiten: "20-21"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 18
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · II Nicht zu deklarierende Leistungen · S. 20–21
 
-Ein Hinweis auf solche Gehaltsnebenleistungen ist nicht notwendig, wenn es sich bei der
-Gehaltsnebenleistung um eine geringfügige jährliche Vergünstigung handelt (bis zu CHF
-2'500, analog zur Regelung für geringfügige Jahreslöhne gemäss AHV-Recht, Stand
-1.1.2025). Als geringfügig gelten die branchenüblichen Rabatte, sofern der Arbeitgeber die
-Waren usw. dem Arbeitnehmer ausschliesslich zu dessen Eigengebrauch und zu einem
-Preis, der mindestens die Selbstkosten deckt, zukommen lässt. Personalvergünstigungen an
-dessen nahestehenden Personen sind in Ziffer 2.3 zu deklarieren. Weitere Ausnahmen von
-der Deklarationspflicht sind in Rz 72 aufgeführt.
+•   Branchenübliche Rabatte auf Waren, die zum Verzehr und Eigenbedarf bestimmt sind
+    (vgl. Rz 62);
+•   Zutrittskarten für kulturelle, sportliche und andere gesellschaftliche Anlässe bis
+    CHF 600 pro Kalenderjahr (zu deklarieren sind lediglich Beiträge, soweit sie CHF 600 pro
+    Kalenderjahr übersteigen);
+•   Die Bezahlung von Reisekosten für den Ehegatten oder den Partner bzw. die Partnerin,
+    die den Arbeitnehmer aus geschäftlichen Gründen auf Geschäftsreisen begleiten;
+•   Beiträge an Kinderkrippen, die für Kinder des Arbeitnehmers verbilligte Plätze anbieten.
+    Kommen die Beiträge des Arbeitgebers jedoch nur bestimmten Arbeitnehmern zugute,
+    sei es durch Bezahlung an den Arbeitnehmer oder direkt an die Krippe, sind sie im Lohn
+    ausweis unter Ziffer 1 zum Bruttolohn hinzuzurechnen oder in Ziffer 7 separat zu dekla
+    rieren;
+•   Gratis-Parkplatz am Arbeitsort;
+•   Kosten für ärztliche Vorsorgeuntersuchungen, die auf Verlangen des Arbeitgebers oder
+    der Pensionskasse erfolgen;
+•   Gutschriften von Flugmeilen. Diese sind für geschäftliche Zwecke zu verwenden.
 
-Bemerkungen   Ziffer 15
+
+    ESTV   Seite 20 / 25
+
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11

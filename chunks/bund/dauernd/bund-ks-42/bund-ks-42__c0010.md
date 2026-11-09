@@ -4,17 +4,21 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 10"
-seiten: "2"
+titel: "Ziff. 4.1 Allgemeines – Voraussetzungen, Altersrentner, Lebenshaltungskosten (Teil 2/2)"
+ziffer: "4.1"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.1 Allgemeines · S. 6
 
-(neuntes bis elftes Schuljahr). Die Sekundarstufe I vermittelt eine grundlegende Allgemeinbildung
-und bereitet auf die berufliche Grundbildung oder auf den Übertritt an allgemeinbildende Schulen
-der Sekundarstufe II vor. Die Kantone mit ihren Gemeinden sind zuständig für die Organisation
-und Finanzierung der Sekundarstufe I. Die Gemeinden, teilweise auch die Kantone, sind Träger
-dieser Schulen. Der Schulbesuch ist obligatorisch und kostenlos. Die Schülerinnen und Schüler
-der Sekundarstufe I sind in der Regel zwischen 12 und 15 Jahre alt.
-– Sekundarstufe II: Nach der obligatorischen Schule treten die Jugendlichen in die Sekundarstufe
-II über. Unterteilen lässt sich die Sekundarstufe II in allgemeinbildende und in berufsbildende
+ben) und der Tertiärstufe als auch ausserhalb des formalen Bildungssystems in Abzug gebracht
+werden. Unter formaler Bildung wird gemeinhin die institutionalisierte, kontinuierliche Aus- und
+Weiterbildung in den staatlichen Bildungsinstitutionen (wie Schule, Universität, Institutionen der
+Berufsbildung) verstanden. Sie ist ein strukturierter, hierarchisch gegliederter Prozess und ge-
+kennzeichnet durch klare Lernziele, Lehrpläne, Lernsettings und Zertifizierungen.
+Der Abzug ist bei Altersrentnerinnen und Altersrentnern nur möglich, falls diese eine aktuelle oder
+zukünftige Erwerbstätigkeit glaubhaft machen.
+Die Kosten bis und mit dem ersten Abschluss auf der Sekundarstufe II gelten als Lebenshaltungs-
+kosten und sind nicht abzugsfähig. Ebenso sind sämtliche berufsorientierten Aus- und Weiterbil-
+dungskosten, die vor Vollendung des 20. Lebensjahres anfallen, nicht abzugsfähig, sofern kein
+Abschluss auf Sekundarstufe II vorliegt.

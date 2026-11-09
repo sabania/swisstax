@@ -1961,7 +1961,7 @@
 },
 {
 "id": "tg-stg__par-75-t1",
-"titel": "§ 75 StG TG – Steuerbefreiung (Teil 1/3)",
+"titel": "§ 75 StG TG – Steuerbefreiung (Teil 1/2)",
 "pfad": [
 "1. Teil: Staatssteuern",
 "1.3. Steuern der juristischen Personen",
@@ -1980,7 +1980,7 @@
 },
 {
 "id": "tg-stg__par-75-t2",
-"titel": "§ 75 StG TG – Steuerbefreiung (Teil 2/3)",
+"titel": "§ 75 StG TG – Steuerbefreiung (Teil 2/2)",
 "pfad": [
 "1. Teil: Staatssteuern",
 "1.3. Steuern der juristischen Personen",
@@ -1995,25 +1995,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "tg-stg__par-75-t1",
-"nachher": "tg-stg__par-75-t3"
-},
-{
-"id": "tg-stg__par-75-t3",
-"titel": "§ 75 StG TG – Steuerbefreiung (Teil 3/3)",
-"pfad": [
-"1. Teil: Staatssteuern",
-"1.3. Steuern der juristischen Personen",
-"1.3.1. Steuerpflicht",
-"§ 75 Steuerbefreiung"
-],
-"seiten": [],
-"artikel": "§ 75",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "tg-stg__par-75-t2",
 "nachher": "tg-stg__par-76"
 },
 {
@@ -2033,7 +2014,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "tg-stg__par-75-t3",
+"vorher": "tg-stg__par-75-t2",
 "nachher": "tg-stg__par-76a"
 },
 {

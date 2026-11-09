@@ -1,0 +1,287 @@
+{
+ "id": "ar-mb-03",
+ "hinweise": [
+  "Text sauber extrahiert; Seite 6 enthält Verweis auf Anhang-Tabelle (Richtwerte), die nicht im Dokument enthalten ist."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Merkblatt 03 AR – Liegenschaftsunterhalt, gültig ab Steuerperiode 2024",
+   "pfad": [
+    "Merkblatt"
+   ],
+   "stichworte": [
+    "Liegenschaftsunterhalt",
+    "Merkblatt AR",
+    "Steuerverwaltung Appenzell Ausserrhoden",
+    "ab 2024"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Merkblatt der Kantonalen Steuerverwaltung AR vom 30. September 2025, gültig ab Steuerperiode 2024."
+  },
+  {
+   "start": 39,
+   "titel": "Ziff. 1 Rechtliche Grundlagen – Art. 34 StG AR Privatvermögen",
+   "pfad": [
+    "1. Rechtliche Grundlagen"
+   ],
+   "stichworte": [
+    "Art. 34 StG",
+    "Unterhaltskosten",
+    "Energiesparen",
+    "Rückbaukosten",
+    "Denkmalpflege",
+    "Pauschalabzug"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Bei Privatliegenschaften abziehbar sind Unterhalts-, Instandstellungs-, Versicherungs- und Verwaltungskosten; Energie-/Umweltinvestitionen und Rückbaukosten sind in den zwei Folgeperioden übertragbar.",
+   "ziffer": "1"
+  },
+  {
+   "start": 69,
+   "titel": "Ziff. 1 Art. 25 StV AR – Pauschalabzug 10 % / 20 %, Wahlrecht",
+   "pfad": [
+    "1. Rechtliche Grundlagen",
+    "Art. 25 StV"
+   ],
+   "stichworte": [
+    "Pauschalabzug",
+    "Unterhaltskostenpauschale",
+    "Bruttomietertrag 100'000",
+    "Gebäudealter 10 Jahre",
+    "Wahlrecht effektive Kosten"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Pauschalabzug bei Bruttomietertrag bis Fr. 100'000.--: 10 Prozent bei Gebäuden bis 10 Jahre, 20 Prozent bei älteren Gebäuden; Wahlrecht pro Gebäude und Veranlagungsperiode.",
+   "ziffer": "1"
+  },
+  {
+   "start": 91,
+   "titel": "Ziff. 2/2.1 Allgemeines zum Liegenschaftsunterhalt – Lebenshaltungskosten",
+   "pfad": [
+    "2. Allgemeines",
+    "2.1 Lebenshaltungskosten"
+   ],
+   "stichworte": [
+    "Lebenshaltungskosten",
+    "nicht abzugsfähig",
+    "Heizöl Strom Wasser",
+    "Nebenkosten",
+    "Eigenmietwert Zusammenhang"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Abziehbar sind werterhaltende Aufwendungen; Betriebs-/Energiekosten (Heizöl, Strom, Wasser), Gebühren und nicht ausgeführte Bauprojekte sind nicht abzugsfähige Lebenshaltungskosten.",
+   "ziffer": "2.1"
+  },
+  {
+   "start": 117,
+   "titel": "Ziff. 2.2 Werterhaltende Aufwendungen – Instandhaltung, Instandstellung",
+   "pfad": [
+    "2. Allgemeines",
+    "2.2 Werterhaltende Aufwendungen"
+   ],
+   "stichworte": [
+    "werterhaltend",
+    "Instandhaltung",
+    "Instandstellung",
+    "Renovation",
+    "Verwaltungskosten",
+    "Versicherungsleistungen"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Abziehbar sind Verwaltungskosten Dritter, laufende Instandhaltung, Beseitigung von Abnützung und Instandstellungskosten; Leistungen Dritter sind abzuziehen.",
+   "ziffer": "2.2"
+  },
+  {
+   "start": 130,
+   "titel": "Ziff. 2.3 Investitionen und wertvermehrende Aufwendungen",
+   "pfad": [
+    "2. Allgemeines",
+    "2.3 Investitionen und wertvermehrende Aufwendungen"
+   ],
+   "stichworte": [
+    "wertvermehrend",
+    "Investitionen",
+    "Anlagekosten",
+    "Grundstückgewinnsteuer",
+    "Umbau Ausbau",
+    "Richtwerte Tabelle"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Umbauten und Verbesserungen sind nicht abzugsfähig und gelten bei der Grundstückgewinnsteuer als Anlagekosten; Mischaufwendungen werden durch Schätzung aufgeteilt.",
+   "ziffer": "2.3"
+  },
+  {
+   "start": 150,
+   "titel": "Ziff. 2.4 Energiesparende und umweltgerechte Massnahmen",
+   "pfad": [
+    "2. Allgemeines",
+    "2.4 Energiesparen und Umweltschutz"
+   ],
+   "stichworte": [
+    "Energiesparen",
+    "Photovoltaik",
+    "Wärmepumpe",
+    "Umweltschutz",
+    "Liegenschaftskostenverordnung",
+    "Neubau zwei Jahre"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Energiespar- und Umweltschutzinvestitionen in bestehenden Gebäuden sind den Unterhaltskosten gleichgestellt; in Neubauten gelten sie als Anlagekosten (zwei Jahre ab Steuerperiode 2023, bisher fünf).",
+   "ziffer": "2.4"
+  },
+  {
+   "start": 172,
+   "titel": "Ziff. 2.5 Rückbaukosten im Hinblick auf einen Ersatzneubau",
+   "pfad": [
+    "2. Allgemeines",
+    "2.5 Rückbaukosten"
+   ],
+   "stichworte": [
+    "Rückbaukosten",
+    "Ersatzneubau",
+    "Abbruch",
+    "Demontage",
+    "Entsorgung",
+    "BKP SN 506 500"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Rückbaukosten sind abziehbar, wenn der Ersatzneubau kumulativ durch dieselbe Person, auf demselben Grundstück, gleichartig genutzt und innert angemessener Frist (i.d.R. zwei Jahre) erfolgt.",
+   "ziffer": "2.5"
+  },
+  {
+   "start": 206,
+   "titel": "Ziff. 2.6 Übertragbare Kosten (Energie, Umwelt, Rückbau)",
+   "pfad": [
+    "2. Allgemeines",
+    "2.6 Übertragbare Kosten"
+   ],
+   "stichworte": [
+    "Übertrag",
+    "negatives Reineinkommen",
+    "zwei Folgeperioden",
+    "Pauschalabzug ausgeschlossen"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Nicht berücksichtigte Energie-/Umwelt- und Rückbaukosten sind auf Antrag in den zwei nachfolgenden Steuerperioden abziehbar; dann ist kein Pauschalabzug möglich.",
+   "ziffer": "2.6"
+  },
+  {
+   "start": 217,
+   "titel": "Ziff. 2.7 Behebung von Baumängeln und Folgeschäden",
+   "pfad": [
+    "2. Allgemeines",
+    "2.7 Baumängel"
+   ],
+   "stichworte": [
+    "Baumängel",
+    "Konstruktionsfehler",
+    "verborgene Mängel",
+    "Folgeschaden"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Behebung von Konstruktionsfehlern und verborgenen Mängeln ist Investition; Kosten für Folgeschäden sind abzugsfähig.",
+   "ziffer": "2.7"
+  },
+  {
+   "start": 230,
+   "titel": "Ziff. 3.1–3.2 Abzugsberechtigte Person und Gartenunterhalt",
+   "pfad": [
+    "3. Abzug der Kosten"
+   ],
+   "stichworte": [
+    "Eigentümer",
+    "Nutzniesser",
+    "Gartenunterhalt",
+    "Mieter kein Abzug",
+    "Grundbucheintrag"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Abzug hat, wer als Eigentümer oder Nutzniesser (Grundbucheintrag) steuerpflichtig ist; Gartenunterhalt ist bei Einfamilienhaus-Eigentümern grundsätzlich abziehbar.",
+   "ziffer": "3.1–3.2"
+  },
+  {
+   "start": 246,
+   "titel": "Ziff. 3.3 Ab wann Liegenschaftskosten abzugsfähig sind",
+   "pfad": [
+    "3. Abzug der Kosten",
+    "3.3 Zeitpunkt"
+   ],
+   "stichworte": [
+    "Nutzen und Gefahr",
+    "Hauskauf Renovation",
+    "Akonto-Rechnung",
+    "Vorauszahlung",
+    "Handänderung"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Kosten sind frühestens ab Übergang von Nutzen und Gefahr abziehbar; Akonto-Rechnungen nach Baufortschritt zählen, reine Vorauszahlungen nicht.",
+   "ziffer": "3.3"
+  },
+  {
+   "start": 266,
+   "titel": "Ziff. 3.4 Pauschalabzug – Voraussetzungen und Wahlrecht",
+   "pfad": [
+    "3. Abzug der Kosten",
+    "3.4 Pauschalabzug"
+   ],
+   "stichworte": [
+    "Pauschalabzug",
+    "Bruttoertrag Fr. 100'000",
+    "Geschäftsliegenschaft",
+    "Wahlrecht",
+    "effektive Kosten"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Pauschalabzug nur, wenn der Bruttoertrag aller Privatliegenschaften Fr. 100'000.-- nicht übersteigt; bei Eigenmietwert ist der Nettobetrag massgebend; Geschäftsliegenschaften nur effektive Kosten.",
+   "ziffer": "3.4"
+  },
+  {
+   "start": 283,
+   "titel": "Ziff. 4–5 Direkte Bundessteuer und Hinweise zur Richtwerttabelle",
+   "pfad": [
+    "4. Direkte Bundessteuer",
+    "5. Tabelle"
+   ],
+   "stichworte": [
+    "direkte Bundessteuer",
+    "Richtwerte",
+    "unverbindlich",
+    "Bauteile Ersatz"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Für die direkte Bundessteuer gelten die gleichen Grundsätze; die Richtwerte im Anhang sind unverbindlich und gelten nur für den Ersatz alter Bauteile durch solche mittlerer Qualität.",
+   "ziffer": "4–5"
+  }
+ ]
+}

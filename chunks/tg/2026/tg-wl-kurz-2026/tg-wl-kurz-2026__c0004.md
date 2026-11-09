@@ -4,14 +4,13 @@ quelle: tg-wl-kurz-2026
 jur: tg
 jahre: [2026]
 typ: wegleitung
-titel: "Kurz-WL TG 2026 – Abschnitt 4"
+titel: "Ziff. 13 Säule 3a und Ziff. 14 Versicherungsprämien und Sparzinsen"
+ziffer: "13, 14"
 seiten: "1"
 qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
-> TG · Steuerjahr 2026 · Kurz-WL TG 2026 · S. 1
+> TG · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 · S. 1
 
-    bei Vergünstigung durch Arbeitgeber/in Fr. 22.50 pro Tag   max. Fr.   4 800
-    Nebenerwerb   6. Pauschalabzug 20% des Nettolohns, mindestens Fr. 800   max. Fr.   2 400
 13.   Säule 3a   Erwerbstätige Personen mit 2. Säule (Pensionskasse)   max. Fr.   7 258
     Erwerbstätige Personen ohne 2. Säule: 20% des Erwerbseinkommens max. Fr. 36 288
 14.   Versicherungs   Abzug für bezahlte Prämien und Sparzinsen   Kanton   Bund
@@ -20,5 +19,3 @@ qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
     für alleinstehende Personen max.   Fr. 3 500 Fr.   1 800
     oder ohne Beiträge an die Säulen 2 und 3a max.   Fr.   2 700
     pro Kind zusätzlich max.   Fr. 1 000 Fr.   700
-15.   Weitere Abzüge   15.3 Kosten für Drittbetreuung von Kinder unter 14 Jahren, pro Kind   Kanton   Bund
-    in der Regel 75% der Kosten, maximal aber   Fr. 10 100 Fr. 25 800

@@ -1,0 +1,597 @@
+belege:
+- id: lohnausweis
+  name: Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare)
+  erkennen:
+  - Titel «Lohnausweis – Rentenbescheinigung» (Formular 11 SSK/ESTV) bzw. eLohnausweis mit Datamatrix-Code
+  - 'Absender: Arbeitgeber; Felder A–H, Ziffern 1–15'
+  - 'Typische Begriffe: Bruttolohn total (Ziff. 8), Nettolohn/Rente (Ziff. 11), Spesenvergütungen (Ziff. 13), Bemerkungen (Ziff. 15)'
+  - Kästchen F (unentgeltliche Beförderung) und G (Kantinenverpflegung/Lunch-Checks)
+  relevanz: ja
+  zweck:
+  - einkommen
+  positionen:
+  - einkommen.unselbstaendig.haupterwerb
+  - einkommen.unselbstaendig.nebenerwerb
+  - einkommen.unselbstaendig.vr_honorare
+  - abzug.berufskosten.fahrkosten
+  - abzug.berufskosten.verpflegung
+  - abzug.vorsorge.saeule2_einkauf
+  extrahieren:
+  - Ziff. 11 Nettolohn (= Bruttolohn Ziff. 8 minus Abzüge Ziff. 9 und 10) – Übertrag in die Steuererklärung
+  - Ziff. 6 Verwaltungsratsentschädigungen und Ziff. 5 Beteiligungsrechte (separat ausgewiesen, siehe Beiblatt)
+  - Ziff. 10.2 Einkaufsbeiträge 2. Säule (nur wenn vom Lohn abgezogen)
+  - Ziff. 12 Quellensteuerabzug (nur Information bei Quellensteuerpflicht)
+  - 'Ziff. 13 Spesen: Kreuz bei 13.1.1 = genehmigtes Spesenreglement; effektive Spesen 13.1.1/13.1.2 (z.B. «Spesen für externen Arbeitsplatz»), Pauschalspesen 13.2, Weiterbildung 13.3'
+  - Kästchen F (Arbeitsweg gratis → Fahrkostenabzug fällt weg), Kästchen G (Kantine/Lunch-Checks → reduzierte Verpflegungspauschale), Feld Ziff. 15 Bemerkungen
+  hinweise:
+  - Pro Arbeitgeber ein Lohnausweis, auch bei Nebenbeschäftigungen; bei mehreren Lohnausweisen für dasselbe Jahr steht in Ziff. 15 «Einer von … Lohnausweisen», ein ersetzter Lohnausweis trägt den Vermerk
+    «Dieser Lohnausweis ersetzt den Lohnausweis vom …».
+  - Erwerbslücken (Arbeitslosigkeit, Krankheit, Mutterschaft) müssen in der Steuererklärung bezeichnet und mit Bescheinigung belegt werden, sonst Rückfragen.
+  - Einkäufe, die der Arbeitnehmer selber bezahlt hat (nicht vom Lohn abgezogen), stehen nicht im Lohnausweis, sondern auf der Bescheinigung der Vorsorgeeinrichtung (Formular 21 EDP) -> siehe bescheinigung-pk-einkauf.
+  - Taggelder/EO, die der Arbeitgeber ausbezahlt hat, stehen im Lohnausweis (Ziff. 7 bzw. Ziff. 1 mit Bemerkung Ziff. 15); nur direkt von der Versicherung ausbezahlte Beträge sind separat zu deklarieren.
+  - Die hinterlegte ESTV-Wegleitung zum Lohnausweis ist die Fassung 2026 (Formular 11); für 2025 ist die Fassung mit gleichem Aufbau massgebend – Ziffernbezeichnungen gelten gemäss der jeweiligen Wegleitung
+    des Steuerjahres.
+  kantone:
+    TG: In der Steuererklärung ist der in Ziffer 11 des Lohnausweises aufgeführte Nettolohn einzusetzen; Trinkgelder sind auch ohne Ausweis im Lohnausweis steuerbar (WL TG 2025 Ziff. 1.1).
+    AR: Nettolohn gemäss Lohnausweis in Ziff. 1.1; nicht im Lohnausweis abgerechnete NBUV-/2.-Säule-Beiträge werden unter Ziff. 16.6 abgezogen (WL AR 2025 Ziff. 1.1).
+    ZH: Lohnausweise sind der Steuererklärung beizulegen; Nebenerwerb über Hilfsblatt (Ziff. 1.2) (WL ZH 2025 Ziff. 1.1).
+  quellen:
+  - chunk: bund-wl-lohnausweis-2026__c0038
+    zitat: In diesem Feld ist der für die Steuererklärung massgebende Nettolohn anzugeben.
+  - chunk: zh-wl-2025__c0032
+    zitat: Bitte vergessen Sie nicht, Ihre Lohnausweise der Steuererklärung beizulegen.
+  - chunk: tg-wl-2025__c0049
+    zitat: In die Steuererklärung ist der in Ziffer 11 des Lohnausweises aufgeführte Nettolohn einzusetzen.
+  - chunk: tg-stg__par-156
+    zitat: Lohnausweise über alle Einkünfte aus unselbständiger Erwerbstätigkeit
+  - chunk: bund-wl-lohnausweis-2026__c0054
+    zitat: Wurden vom Arbeitgeber für dasselbe Jahr ausnahmsweise
+  status: extrahiert
+- id: rentenbescheinigung-ahv-iv
+  name: Rentenbescheinigung AHV/IV (Ausgleichskasse, Jahresbescheinigung der Renten)
+  erkennen:
+  - 'Absender: kantonale/eidgenössische Ausgleichskasse (SVA, AHV-Zweigstelle, SAK, Pensionsversicherung des Bundes)'
+  - Titel «Rentenbescheinigung» bzw. «Bescheinigung der Renten» für das Steuerjahr
+  - 'Begriffe: AHV-Altersrente, IV-Rente, Hinterlassenenrente, Kinder-/Zusatzrente, Hilflosenentschädigung'
+  - 'Alternativ: Postabschnitte/Rentenverfügung (nur Monatsbetrag, nicht Jahresbescheinigung)'
+  relevanz: ja
+  zweck:
+  - einkommen
+  positionen:
+  - einkommen.sozialversicherung.ahv_iv
+  - info.steuerfreie_leistungen
+  extrahieren:
+  - Jahresbruttobetrag der AHV-/IV-Renten (inkl. Kinder- und Zusatzrenten), getrennt je Person
+  - Rentenart (AHV oder IV) und Dauer, falls nicht ganzes Jahr
+  - Hilflosenentschädigung und Ergänzungsleistungen separat ausweisen (nicht steuerbar, nur Angabe)
+  hinweise:
+  - AHV-/IV-Renten sind zu 100 % steuerbar (Bund und Kantone); Ergänzungsleistungen zur AHV/IV, Sozialhilfe und Genugtuungszahlungen sind steuerfrei und nicht zu deklarieren (-> ergaenzungsleistungen).
+  - Bei Ehepaaren je Person eine Bescheinigung; Rentenbezüge nur zum Teil des Jahres (Eintritt Rentenalter) – Bruttobetrag des Kalenderjahres massgebend, nicht der Monatsbetrag mal 12.
+  - Gleiches Formular 11 (Rentenbescheinigung) kann auch von Pensionskassen verwendet werden -> rentenbescheinigung-vorsorge.
+  kantone:
+    TG: AHV-/IV-Rentenausweise bzw. Postabschnitte gelten als Unterlage; steuerfrei sind u.a. Ergänzungsleistungen (WL TG 2025 Ziff. 3).
+    ZH: Ziff. 3.1 (AHV getrennt von IV) – Rentenbescheinigung gemäss Formular 11 beilegen (WL ZH 2025 Ziff. 1.1/3.1).
+  quellen:
+  - chunk: ar-wl-2025__c0049
+    zitat: Die ordentlichen und ausserordentlichen AHV- und IV-Renten sind in vollem Um-
+  - chunk: tg-wl-2025__c0076
+    zitat: Ergänzungsleistungen der AHV und IV;
+  - chunk: bund-dbg-2025__art-22-t1
+    zitat: Steuerbar sind alle Einkünfte aus der Alters-, Hinterlassenen- und Invalidenversicherung
+  - chunk: tg-wl-2025__c0026
+    zitat: AHV- und PK-Rentenausweise oder Postabschnitte über Renten;
+  status: extrahiert
+- id: rentenbescheinigung-vorsorge
+  name: Rentenbescheinigung Pensionskasse / Versicherung (2. Säule, 3a, Leibrente)
+  erkennen:
+  - 'Absender: Pensionskasse, Sammelstiftung, Freizügigkeitsstiftung, Versicherungsgesellschaft, Bankstiftung'
+  - Titel «Rentenbescheinigung», «Bescheinigung über Renten/Leistungen», Formular 11 oder Versicherungsbescheinigung
+  - 'Begriffe: Altersrente, Invalidenrente, Pensionierten-/Ehegattenrente, steuerbarer Ertragsanteil, Überschussleistungen'
+  - 'Bei Kapitalbezug: «Auszahlungsbescheinigung», «Kapitalleistung» (separate Besteuerung)'
+  relevanz: ja
+  zweck:
+  - einkommen
+  positionen:
+  - einkommen.vorsorge.renten
+  - einkommen.vorsorge.uebrige_renten
+  - einkommen.kapitalleistung_vorsorge
+  extrahieren:
+  - Jahresbruttorente je Rentenart (Alters-/Invalidenrente, Hinterlassenenrente)
+  - Steuerbarer Anteil bzw. Ertragsanteil und Überschussleistungen (bei Leibrenten aus Versicherungsverträgen)
+  - Rentenbeginn (für die Quote 100 % / 80 % relevant) und ob mindestens 20 % der Beiträge selbst erbracht wurden
+  - Datum und Betrag einer Kapitalleistung (separat von Rente erfassen)
+  hinweise:
+  - Renten der 2. Säule und aus gebundener Selbstvorsorge sind grundsätzlich zu 100 % steuerbar; 80 % nur bei Rentenbeginn vor 1.1.1987 (bzw. 31.12.2001 mit Vorsorgeverhältnis vor 31.12.1985/86) und mindestens
+    20 % Eigenbeiträgen (Altfälle).
+  - Leibrenten/Rentenversicherungen sind nur im Ertragsanteil steuerbar (Art. 22 Abs. 3 DBG); Bescheinigung des Versicherers mit dem steuerbaren Anteil ist beizulegen.
+  - Kapitalleistungen aus Vorsorge werden separat und zu einem reduzierten Satz besteuert – dafür die Auszahlungsbescheinigung aufbewahren; sie gehört nicht in die Rentenposition.
+  kantone:
+    TG: 'Leibrenten: Bescheinigung der Versicherung mit Ertragsanteil beilegen; Überschussleistungen pauschal zu 70 % steuerbar; bei mehr als zwei Renten separate Aufstellung (WL TG 2025 Ziff. 3.2).'
+    ZH: Quoten 80 % / 100 % gemäss WL ZH 2025 Ziff. 3.2 (Altfälle vor 1987).
+  quellen:
+  - chunk: zh-wl-2025__c0050
+    zitat: Renten von Einrichtungen der beruflichen Vorsorge (2. Säule), d.h. Renten von
+  - chunk: bund-dbg-2025__art-22-t1
+    zitat: aus Einrichtungen der beruflichen Vorsorge und aus anerkannten Formen der gebundenen Selbstvorsorge
+  - chunk: tg-wl-2025__c0078
+    zitat: Bitte legen Sie diese Bescheinigung der Steuererklärung bei.
+  - chunk: tg-wl-2025__c0078
+    zitat: Überschussleistungen sind pauschal zu 70% steuerbar.
+  status: extrahiert
+- id: taggeldbescheinigung
+  name: Taggeldbescheinigung (ALV, Kranken-/Unfall-/IV-/Militärversicherung, EO/Mutterschaft)
+  erkennen:
+  - 'Absender: Arbeitslosenkasse (RAV/ALK), Krankentaggeldversicherer, Unfallversicherer (Suva u.a.), IV-Stelle, Ausgleichskasse (EO/Mutterschaft)'
+  - Titel «Bescheinigung über Taggelder/Leistungen», «Taggeldabrechnung», «Jahresbescheinigung»
+  - 'Begriffe: Taggeld, Erwerbsersatz, Mutterschaftsentschädigung, Anzahl Taggelder, Bruttoleistung'
+  relevanz: ja
+  zweck:
+  - einkommen
+  positionen:
+  - einkommen.ersatz.taggelder
+  - einkommen.ersatz.familienzulagen
+  - abzug.krankheitskosten
+  extrahieren:
+  - Bruttobetrag der im Steuerjahr ausbezahlten Taggelder/Entschädigungen je Versicherer
+  - Zeitraum bzw. Anzahl Taggeldtage
+  - Prüfen, ob der Betrag bereits im Lohnausweis des Arbeitgebers enthalten ist (Ziff. 7 oder Bemerkung Ziff. 15)
+  hinweise:
+  - Nur direkt von der Versicherung/Kasse ausbezahlte Taggelder separat deklarieren; vom Arbeitgeber ausbezahlte stehen im Lohnausweis (Doppeldeklaration vermeiden).
+  - IV-Taggelder sind Ersatz für Erwerbseinkommen und steuerbar; Taggelder KV/UV/IV sind vollumfänglich zu deklarieren. Zusammenhängende, selbst getragene Krankheitskosten sind separat als Abzug geltend
+    zu machen (-> arzt-zahnarzt-rechnungen).
+  - Bei Arbeitslosigkeit Bescheinigung der Arbeitslosenkasse beilegen; Erwerbslücken in der Steuererklärung ausdrücklich bezeichnen.
+  kantone:
+    ZH: 'Ziff. 3.3 (ALV, direkt ausbezahlte EO) und Ziff. 3.4 (KV/UV/IV/MV-Taggelder, Familienzulagen, Mutterschaft): Bescheinigungen sind beizulegen (WL ZH 2025 Ziff. 3.3/3.4).'
+    SG: 'Ziff. 3.3 (IV/KV/UV) und 3.4 (ALV): Bescheinigung der Arbeitslosenkasse beilegen, soweit nicht im Lohnausweis (WL SG 2025 Ziff. 3.3-3.4).'
+    AR: 'Gleiche Gliederung wie SG: Ziff. 3.3 / 3.4 (WL AR 2025 Ziff. 3.3-3.5).'
+    TG: Taggelder aus Kranken-, Unfall- und Invalidenversicherung werden als Erwerbsausfallentschädigungen unter Ziff. 3.3 deklariert (WL TG 2025 Ziff. 3.3).
+  quellen:
+  - chunk: zh-wl-2025__c0054
+    zitat: Die entsprechenden Bescheinigungen sind beizulegen.
+  - chunk: sg-wl-2025__c0060
+    zitat: Über nicht im Lohnausweis aufgeführte Bezüge ist eine
+  - chunk: ar-wl-2025__c0053
+    zitat: IV-Taggelder gehören zum steuerbaren Einkommen
+  - chunk: bund-wl-lohnausweis-2026__c0052
+    zitat: Anzahl der Tage mit Erwerbsausfallentschädigungen
+  status: extrahiert
+- id: bescheinigung-saeule3a
+  name: Bescheinigung Säule 3a (Formular 21 EDP, Bank-/Versicherungsstiftung)
+  erkennen:
+  - Titel «Bescheinigung über Beiträge an anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)», Formular 21 EDP
+  - 'Absender: Bankstiftung (z.B. Vorsorgekonto 3a) oder Versicherungsgesellschaft (3a-Police)'
+  - 'Felder: Feld q «Total Beiträge an die Säule 3a», Datum der Einzahlungen, Ziffer 2 (Beiträge), Ziffer 3 (Einkäufe)'
+  relevanz: ja
+  zweck:
+  - abzug
+  positionen:
+  - abzug.vorsorge.saeule3a
+  - abzug.vorsorge.saeule3a_einkauf
+  extrahieren:
+  - Total der im Steuerjahr tatsächlich einbezahlten Beiträge (Feld q) je Vorsorgenehmer und je Vorsorgeträger
+  - Einzahlungsdatum (massgebend ist das Jahr der effektiven Zahlung, nicht das Jahr der Gutschrift im Folgejahr)
+  - Einkäufe in die Säule 3a (Ziffer 3, Feld x) separat vom ordentlichen Beitrag, mit Steuerperiode (Feld t)
+  hinweise:
+  - Bescheinigt wird das Total der Beiträge – nicht nur der steuerlich abziehbare Teil; die Begrenzung (Max.-Beträge mit/ohne 2. Säule) wendet der Bearbeiter an. Werte siehe Werte-Dateien (saeule3a.max_*).
+  - Abzug nur für tatsächlich im Steuerjahr bezahlte Beiträge und nur bei AHV-pflichtiger Erwerbstätigkeit; bei Ehepaaren je Person mit eigenem Vertrag; Bescheinigung muss auf die erwerbstätige Person lauten.
+  - 'Einkäufe in die Säule 3a (BVV 3 Art. 7a/7b): im Einkaufsjahr zusätzlich zum vollen ordentlichen Beitrag und nur separat bescheinigt (Ziffer 3); Abzug für Einkäufe erst ab Steuerperiode 2026 – Details
+    in den Werte-Dateien (saeule3a.einkauf).'
+  - 'Selbständigerwerbende: 3a-Beiträge sind Privatentnahmen, nie als Geschäftsaufwand in der Erfolgsrechnung zu verbuchen.'
+  kantone:
+    SG: Bescheinigung der Versicherung oder Bankstiftung (Form. 21 EDP) ist in jedem Fall beizulegen (WL SG 2025 Ziff. 13.1).
+    AR: Bescheinigung (Form. 21 EDP) in jedem Fall beilegen (WL AR 2025 Ziff. 13.1).
+    ZH: Bescheinigungen der Versicherung/Bankstiftung beilegen (WL ZH 2025 Ziff. 14).
+    TG: Bescheinigung über Beiträge/Einkäufe 2. Säule und 3a ist Pflichtunterlage; Abzug setzt AHV/IV-pflichtige Erwerbstätigkeit voraus (WL TG 2025 Ziff. 13).
+  quellen:
+  - chunk: zh-wl-2025__c0081
+    zitat: Der Steuererklärung sind die Bescheinigungen der Versicherung oder
+  - chunk: bund-mb-21edp__c0013
+    zitat: Total der Beiträge für anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)
+  - chunk: sg-wl-2025__c0085
+    zitat: Es dürfen nur die im Jahre
+  - chunk: bund-mb-21edp__c0016
+    zitat: Im Jahr, in dem der Einkauf erfolgt (Einkaufsjahr) kann maximal der kleine Säule 3a-Ab
+  status: extrahiert
+- id: bescheinigung-pk-einkauf
+  name: Bescheinigung Einkauf Pensionskasse (2. Säule, Formular 21 EDP)
+  erkennen:
+  - 'Absender: Pensionskasse, Vorsorgestiftung, Sammelstiftung'
+  - Titel «Bescheinigung Einkäufe in die berufliche Vorsorge», Formular 21 EDP (Einkauf von Beitragsjahren)
+  - 'Begriffe: Einkaufssumme, Einkauf Beitragsjahre, freiwillige Einlage, Einkaufsberechnung/Einkaufsmöglichkeit'
+  - Zahlungsdatum der Einzahlung
+  relevanz: ja
+  zweck:
+  - abzug
+  positionen:
+  - abzug.vorsorge.saeule2_einkauf
+  extrahieren:
+  - Total der im Steuerjahr geleisteten Einkaufsbeiträge (jede Einzahlung mit genauem Datum)
+  - Ordentliche Beiträge, soweit nicht bereits im Lohnausweis (Ziff. 10) abgezogen
+  - Ggf. Einkaufsberechnung/Einkaufspotenzial; Hinweis auf frühere WEF-Vorbezüge
+  hinweise:
+  - Massgebend für die Zuordnung zum Steuerjahr ist das Jahr, in dem die Beiträge effektiv entrichtet wurden (nicht das Jahr der Verbuchung).
+  - '3-Jahres-Sperrfrist: Einkäufe sind steuerlich nicht abziehbar, soweit innerhalb von drei Jahren ein Kapitalbezug erfolgt; Einkauf erst nach Rückzahlung früherer WEF-Vorbezüge zulässig (Art. 79b Abs.
+    3 BVG).'
+  - Rückzahlungen von WEF-Vorbezügen sind keine abziehbaren Einkäufe (separates WEF-Formular, nicht Formular 21 EDP).
+  - Vom Lohn abgezogene Einkäufe sind im Lohnausweis (Ziff. 10.2) bescheinigt; selbst überwiesene nur mit Formular 21 EDP der Vorsorgeeinrichtung – nicht doppelt abziehen.
+  kantone:
+    AR: Bescheinigung der Vorsorgeträgerin ist in jedem Fall zusammen mit der Einkaufsberechnung beizulegen; Selbständigerwerbende deklarieren immer 100 % der Einkaufsbeiträge (WL AR 2025 Ziff. 13.2).
+    ZH: Abziehbare Einkaufsbeiträge sind der Bescheinigung der Vorsorgeeinrichtung zu entnehmen (Ziff. 16.1); Sperrfrist 3 Jahre (WL ZH 2025 Ziff. 16.1).
+    TG: 'Kapitalbezug innerhalb von 3 Jahren nach Einkauf und WEF-Vorbezug: siehe TG FAQ Vorsorge 2. und 3. Säule.'
+  quellen:
+  - chunk: zh-wl-2025__c0092
+    zitat: Die abziehbaren Einkaufsbeiträge sind der von der Vorsorgeeinrichtung ausgestellten
+  - chunk: zh-wl-2025__c0092
+    zitat: Einkäufe steuerlich nicht zum Abzug zugelassen
+  - chunk: ar-wl-2025__c0084
+    zitat: Der Steuererklärung ist in jedem Fall die Bescheinigung der Vorsorgeträgerin bei
+  - chunk: bund-mb-21edp__c0009
+    zitat: Massgebend für die Zuordnung bei Einkäufen von Beitragsjahren ist das Jahr
+  - chunk: tg-info-faq__c0028
+    zitat: Gemäss Artikel 79b Absatz 3 Satz 2 BVG darf ein Einkauf von Beitragsjahren erst vorgenommen werden
+  status: extrahiert
+- id: steuerauszug-bank
+  name: Steuerauszug der Bank / Post (inkl. eSteuerauszug)
+  erkennen:
+  - Titel «Steuerauszug», «Steuerverzeichnis», «eSteuerauszug» (Barcode am Ende des Dokuments)
+  - 'Absender: Bank, Post/PostFinance, Vermögensverwalter, Neobroker'
+  - 'Spalten: Valor/ISIN, Steuerwert 31.12., Bruttoertrag mit/ohne Verrechnungssteuer (A/B), Kontosaldo, Zinsen'
+  - Gesamtübersicht aller Konti und Depots der Bank per 31.12.
+  relevanz: ja
+  zweck:
+  - einkommen
+  - vermoegen
+  positionen:
+  - einkommen.wertschriften
+  - vermoegen.wertschriften_guthaben
+  - verrechnungssteuer.rueckerstattung
+  - abzug.verwaltungskosten_wertschriften
+  extrahieren:
+  - Steuerwert per 31.12. je Konto/Titel und Total (Vermögen)
+  - Bruttoertrag Kolonne A (mit Verrechnungssteuer, 35 %) und Kolonne B (ohne Verrechnungssteuer)
+  - Abgezogene Verrechnungssteuer, ausländische Quellensteuern (-> dividenden-ausland-quellensteuer)
+  - Depotgebühren / Verwaltungskosten, soweit ausgewiesen
+  hinweise:
+  - Der Steuerauszug ersetzt Einzelauszüge der Bank für Konti und Depots; bei Papiereinreichung ist er vollständig beizulegen (nicht nur die Zusammenfassung).
+  - Der eSteuerauszug kann in die Online-Steuererklärung importiert werden; die Werte werden danach mit der aktuellen Kursliste geprüft; fehlende Positionen (andere Banken, Kryptowerte, Darlehen) sind zu
+    ergänzen.
+  - 'Bei Veräusserung/Erwerb von Titeln im Jahr: Datum angeben und Bankbelege beilegen; Bruttoerträge verkaufter/rückbezahlter Titel sind ebenfalls zu deklarieren.'
+  - Vermögen und Ertrag von minderjährigen Kindern (Jahrgang 2008 und jünger bei ZH) gehören in die Steuererklärung der Eltern; Ansprüche an 2. Säule/3a sind bis zur Fälligkeit steuerfrei und nicht aufzuführen.
+  kantone:
+    SG: Steuerauszüge sind bei Papiereinreichung immer komplett dem Formular 2 beizulegen, auch wenn in E-Tax SG importiert; bei vollständigem eFiling erfolgt die Übermittlung automatisch (WL SG 2025 Formular
+      2 Beilagen).
+    AR: Werden die Gesamtbeträge der Steuerauszüge in Formular 2 übertragen, sind die Auszüge vollständig beizulegen (WL AR 2025 Formular 2 Beilagen).
+    ZH: eSteuerauszug (Barcode) kann in die Online-Steuererklärung importiert werden (WL ZH 2025 Wertschriftenverzeichnis).
+  quellen:
+  - chunk: sg-wl-2025__c0122
+    zitat: Steuerauszüge sind bei Einreichung der Steuererklärung auf Papier immer
+  - chunk: ar-wl-2025__c0129
+    zitat: sind die Auszüge für Steuerzwecke
+  - chunk: zh-wl-2025__c0153
+    zitat: Sie können diesen eSteuerauszug in die Online-
+  - chunk: zh-wl-2025__c0156
+    zitat: Für steuerliche Zwecke eignen sich die von den Banken – auf Wunsch des Kunden – erstellten
+  - chunk: zh-wl-2025__c0155
+    zitat: entweder in der Kolonne A oder Kolonne B einzutragen
+  status: extrahiert
+- id: kontoauszug-zinsausweis
+  name: Kontoauszug / Zins- und Saldobescheinigung (Sparkonto, Privatkonto, Festgeld, Post)
+  erkennen:
+  - Titel «Zins- und Kapitalausweis», «Saldomeldung», «Jahresabschluss/Kontoauszug per 31.12.»
+  - 'Absender: Bank, Kantonalbank, Raiffeisen, PostFinance, Versicherer (Sparkonti), Mieterkautionskonto'
+  - 'Begriffe: Saldo 31.12., Bruttozins, Verrechnungssteuer 35 %, Nettozins'
+  relevanz: ja
+  zweck:
+  - einkommen
+  - vermoegen
+  positionen:
+  - einkommen.wertschriften
+  - vermoegen.wertschriften_guthaben
+  - verrechnungssteuer.rueckerstattung
+  extrahieren:
+  - Saldo per 31.12. (Vermögen; bei ausländischer Währung in CHF umrechnen)
+  - Bruttozins des Jahres und abgezogene Verrechnungssteuer (falls vorhanden)
+  - Kontonummer/IBAN und Kontoart, Eröffnungs- bzw. Saldierungsdatum innerhalb des Jahres
+  hinweise:
+  - Auch Konti ohne oder mit geringen Zinsen (z.B. Lohnkonto) und im Jahr saldierte Konti sind zu deklarieren; Bruchzinsen bei Saldierung sind steuerbar. Selbst errechnete Zinsen dürfen nicht eingetragen
+    werden.
+  - Bruttozinsen von Kundenguthaben bei inländischen Banken bis und mit Fr. 200 pro Jahr sind verrechnungssteuerfrei (Kolonne B); über Fr. 200 mit Verrechnungssteuer (Kolonne A).
+  - 'Fehlt der Bank-Steuerauszug: Kontoauszug 31.12. genügt als Nachweis; Konti bei mehreren Banken immer vollständig erfassen (Vermögensverheimlichung vermeiden).'
+  - Zinsen von Mieterkautionskonti sind vom Mieter anzugeben.
+  kantone:
+    AR: Bei Konti mit Bruttozins unter Fr. 200, aber Verrechnungssteuerabzug, ist der Nachweis beizulegen (WL AR 2025 Deklaration der Erträge a).
+    SG: Bankbeleg mit Verrechnungssteuernachweis beilegen, wenn Abzug erfolgte (WL SG 2025 Deklaration der Erträge a).
+    TG: Zins- und Kapitalbescheinigungen müssen Bruttozinsen, abgezogene Verrechnungssteuer und Kontostand zeigen (WL TG 2025 Benötigte Unterlagen).
+    ZH: Kolonne A (Kundenguthaben mit Bruttozins über CHF 200) / Kolonne B (bis CHF 200); Abrechnungsbelege bei Festgeld beilegen (WL ZH 2025 Kolonnen A/B).
+  quellen:
+  - chunk: ar-wl-2025__c0136
+    zitat: sind bis und mit Fr. 200.– je Kalenderjahr verrechnungssteuerfrei
+  - chunk: sg-wl-2025__c0130
+    zitat: Selbst errechnete Zinsen dürfen nicht ein
+  - chunk: zh-wl-2025__c0162
+    zitat: Dies gilt auch für Kundenguthaben mit einem Bruttozins von mehr als
+  - chunk: tg-wl-2025__c0026
+    zitat: aus denen die Bruttozinsen, die
+  - chunk: ar-wl-2025__c0137
+    zitat: Bruchzinsen (Zinsen bei Aufgabe, Rückzahlung, Einlösung oder Konversion
+  status: extrahiert
+- id: depotauszug
+  name: Depotauszug / Wertschriftenverzeichnis der Bank (Titelbestand per 31.12.)
+  erkennen:
+  - Titel «Depotauszug», «Depotverzeichnis», «Vermögensausweis», «Portfolio-Report»
+  - 'Absender: Depotbank, Online-Broker, Vermögensverwalter, Fondsgesellschaft'
+  - 'Spalten: Titel/ISIN, Anzahl/Nominal, Kurs 31.12., Wert in CHF, Erträge (Dividenden, Coupons)'
+  relevanz: ja
+  zweck:
+  - einkommen
+  - vermoegen
+  positionen:
+  - einkommen.wertschriften
+  - einkommen.beteiligungen_qualifiziert
+  - vermoegen.wertschriften_guthaben
+  - verrechnungssteuer.rueckerstattung
+  extrahieren:
+  - Steuerwert je Titel per 31.12. (Schlusskurs des letzten Börsenhandelstages im Dezember, Kursliste ESTV)
+  - Bruttoerträge des Jahres je Titel (Dividenden, Zinsen) mit Verrechnungssteuer (A) bzw. ohne (B)
+  - Käufe/Verkäufe/Rückzahlungen im Jahr mit Datum (Zu-/Abgang)
+  - Unkotierte Titel / Beteiligungen ab 10 % (Code Q) separat kennzeichnen
+  hinweise:
+  - Für den Steuerwert gilt der Kurs der amtlichen ESTV-Steuerkursliste 31.12.; nicht kotierte Titel zum Verkehrswert (Steuerwert Sitzkanton) – nicht zum Anschaffungswert.
+  - 'Bei Erwerb oder Veräusserung nichtkotierter Wertpapiere Kauf-/Verkaufsverträge beilegen; Mitarbeiteraktien/-optionen: Bescheinigung des Arbeitgebers beilegen (-> mitarbeiterbeteiligung).'
+  - 'Auch im Jahr verkaufte oder zurückbezahlte Titel: Erträge bis zum Abgang sind steuerbar; Kapitalgewinne auf Privatvermögen sind in der Regel steuerfrei (nicht deklarieren), ausser gewerbsmässiger Handel.'
+  - Verrechnungssteuer wird nur zurückerstattet, wenn Titel und Ertrag vollständig deklariert sind.
+  kantone:
+    AR: Bei Kauf/Verkauf kotierter und nichtkotierter Wertpapiere sind Kaufs- bzw. Verkaufsbelege unaufgefordert beizulegen; Darlehen ab Fr. 50'000 mit Vertragskopie (WL AR 2025 Formular 2 Beilagen).
+    SG: Bei Veränderung des Bestandes Datum des Zu-/Abgangs und Bankbelege beilegen; nur bei nichtkotierten Titeln Kauf-/Verkaufsverträge (WL SG 2025).
+    TG: Kurse gemäss ESTV-Kursliste; nicht kotierte Wertpapiere zum Verkehrswert per 31.12., ersatzweise Wert per 1.1. (WL TG 2025 S. 31).
+    ZH: 'Steuerwert: Schlusskurs des letzten Börsenhandelstags im Dezember; Q-Kennzeichnung für Beteiligungen >= 10 % (WL ZH 2025).'
+  quellen:
+  - chunk: zh-wl-2025__c0156
+    zitat: Für den Steuerwert per Ende des Kalenderjahres ist der Schlusskurs des letzten Börsenhan-
+  - chunk: ar-wl-2025__c0130
+    zitat: Bei Erwerb oder Veräusserung von kotierten und nichtkotierten Wertpapieren
+  - chunk: sg-wl-2025__c0121
+    zitat: Bei Veränderung des Bestandes
+  - chunk: tg-wl-2025__c0144
+    zitat: Für nicht kotierte Wertpapiere gilt der Verkehrswert per 31. Dezember 2025.
+  - chunk: zh-wl-2025__c0155
+    zitat: Beteiligungen von mindestens 10 Prozent am Aktien-, Grund- oder Stammkapital
+  status: extrahiert
+- id: krypto-auszug
+  name: Krypto-Auszug (Exchange-/Wallet-Auszug, Jahresendbestand)
+  erkennen:
+  - 'Absender: Krypto-Börse/-Broker (z.B. Bitcoin Suisse, Kraken, Binance, Bitpanda) oder Wallet-Export'
+  - 'Begriffe: Bestand per 31.12., Kurs/Jahresendkurs, Staking-/Lending-Erträge, Transaktionshistorie'
+  - Bitcoin, Ether, XRP, Bitcoin Cash, EOS und weitere Kryptowährungen
+  relevanz: ja
+  zweck:
+  - vermoegen
+  - einkommen
+  positionen:
+  - vermoegen.wertschriften_guthaben
+  - einkommen.wertschriften
+  - einkommen.uebrige
+  extrahieren:
+  - Bestand je Kryptowährung per 31.12. (Anzahl) und Wert in CHF zum ESTV-Jahresendkurs
+  - 'Erträge des Jahres: Staking, Lending, Zinsen, Airdrops, Mining (je Quelle)'
+  - Plattform/Wallet und Adresse (Nachweis des Eigentums)
+  hinweise:
+  - Kryptowährungen sind Vermögen (Wertschriften- und Guthabenverzeichnis); für Bitcoin und weitere geläufige Kryptowährungen publiziert die ESTV einen Jahresendsteuerkurs, andere zum Jahresschlusskurs
+    der gängigsten Börsenplattform.
+  - Nachweis durch Kontoauszug der Plattform bzw. der digitalen Brieftasche (Wallet), Stand per Ende der Steuerperiode.
+  - Erträge aus Staking, Lending usw. sind Einkommen; Kursgewinne bei privater Haltung grundsätzlich steuerfrei, bei gewerbsmässigem Handel jedoch Einkommen – Einzelfallprüfung durch die Fachperson.
+  - 'Verluste auf Kryptowerten sind im Privatvermögen nicht abziehbar (Art. 34 DBG); ausländische Plattformen ohne Steuerauszug: Auszug zwingend selbst beschaffen.'
+  kantone:
+    SG: Kryptowährungen ausdrücklich im Wertschriften- und Guthabenverzeichnis anzugeben (Bitcoin, Ether, XRP, Bitcoin Cash, EOS etc.) (WL SG 2025).
+    AR: Kryptowährungen wie Bitcoin und Ether im Formular 2 anzugeben; Stichtag 31.12. (WL AR 2025).
+    ZH: Nachweis mittels Wallet-/Plattformauszug per Ende der Steuerperiode; ESTV-Jahresendkurs (WL ZH 2025 Guthaben und Kryptowährungen).
+  quellen:
+  - chunk: zh-wl-2025__c0159
+    zitat: Andere Kryptowährungen sind zum Jahresschlusskurs der für diese Währung gängigsten Börsenplattform zu deklarieren.
+  - chunk: zh-wl-2025__c0159
+    zitat: Der Nachweis hat mittels Kontoauszug der digitalen Brieftasche
+  - chunk: sg-wl-2025__c0121
+    zitat: inkl. Kryptowährungen
+  - chunk: ar-wl-2025__c0128
+    zitat: (inkl. Kryptowäh-
+  - chunk: bund-dbg-2025__art-34
+    zitat: die Aufwendungen für die Anschaffung, Herstellung oder Wertvermehrung von Vermögensgegenständen
+  status: extrahiert
+- id: dividenden-ausland-quellensteuer
+  name: Dividenden-/Zinsabrechnung Ausland mit Quellensteuer (inkl. DA-1, USA)
+  erkennen:
+  - 'Absender: Depotbank (Gutschriftsanzeige/Auszahlungsbordereau) oder ausländische Zahlstelle'
+  - 'Begriffe: Brutto-Dividende, Quellensteuer (z.B. 15 % / 30 % USA), Netto-Gutschrift, withholding tax, DA-1'
+  - Positionen mit ausländischen Aktien/Fonds/Obligationen (ISIN nicht CH)
+  relevanz: bedingt
+  bedingung: Nur bei Erträgen aus dem Ausland mit abgezogener ausländischer Quellensteuer; die Rückerstattung bzw. Anrechnung wird über Formular DA-1 (und ggf. zusätzlicher Steuerrückbehalt USA) beantragt.
+  zweck:
+  - einkommen
+  - abzug
+  positionen:
+  - einkommen.wertschriften
+  - verrechnungssteuer.rueckerstattung
+  extrahieren:
+  - Bruttoertrag vor Quellensteuer in CHF und Währung/Devisenkurs
+  - Abgezogene ausländische Quellensteuer (Satz und Betrag) je Titel und Staat
+  - Nicht rückforderbarer Teil der Quellensteuer (für Anrechnung) und ob zusätzlicher Steuerrückbehalt USA
+  - Valuta/Zahldatum
+  hinweise:
+  - Steuerbarer Ertrag ausländischer Wertpapiere = Nettobetrag zuzüglich ausländischer Quellensteuern, soweit sie aufgrund eines DBA zurückverlangt oder angerechnet werden können.
+  - Banken stellen die Quellensteuern meist im Steuerauszug zusammen; fehlen die Angaben, Bescheinigung der Finanzinstitute (Kapital, Zinssatz, Laufzeit, Bruttoerträge, abgezogene Quellensteuer) beilegen.
+  - 'Rückerstattung im Ausland: Formulare gehen an das kantonale Steueramt, nicht an die Gemeinde; pauschale Steueranrechnung (DA-1) nur für nicht rückforderbare Teile.'
+  kantone:
+    SG: DA-1 zusammen mit der Steuererklärung dem Gemeindesteueramt einreichen; Formulare für Rückerstattung im Ausland an das Kantonale Steueramt, Fachbereich Verrechnungssteuer (WL SG 2025).
+    TG: DA-1 dient zugleich als Antrag auf Rückerstattung des zusätzlichen Steuerrückbehalts USA; Gesamtbeträge auf Formular 2 Seite 1 übertragen (WL TG 2025 S. 33).
+    ZH: DA-1/DA-3 eigene Wegleitung (WL DA-1/DA-3 2025).
+  quellen:
+  - chunk: sg-wl-2025__c0145
+    zitat: Das Formular DA-1 ist zusammen mit der Steuererklärung
+  - chunk: sg-wl-2025__c0123
+    zitat: Bruttoerträge und der abgezogenen Verrechnungssteuer bzw. ausländischen
+  - chunk: tg-wl-2025__c0155
+    zitat: Übertragen Sie die Gesamtbeträge des Formulars DA-1 alsdann auf Seite 1 des Formulars 2
+  status: extrahiert
+- id: versicherung-rueckkaufswert
+  name: Versicherungsbescheinigung Rückkaufswert (Lebens-/Rentenversicherung, Steuerwert 31.12.)
+  erkennen:
+  - 'Absender: Lebensversicherungsgesellschaft'
+  - Titel «Bescheinigung für die Steuererklärung», «Steuerwert per 31.12.», «Rückkaufswert»
+  - 'Begriffe: Rückkaufswert, Überschussanteil/Gewinnbeteiligung, Prämien des Jahres, Ertragsanteil'
+  relevanz: ja
+  zweck:
+  - vermoegen
+  - abzug
+  positionen:
+  - vermoegen.lebensversicherungen
+  - abzug.versicherungspraemien
+  - einkommen.vorsorge.uebrige_renten
+  extrahieren:
+  - Steuerwert = Rückkaufswert inkl. Überschussguthaben per 31.12. (nur für rückkaufsfähige Policen)
+  - Im Jahr bezahlte Prämien (für den Versicherungsabzug, soweit abziehbar)
+  - 'Bei laufenden Rentenversicherungen: Rückkaufswert und steuerbarer Ertragsanteil der Rente'
+  hinweise:
+  - Rückkaufsfähige Lebens- und Rentenversicherungen unterliegen der Vermögenssteuer; reine Risikoversicherungen haben keinen Rückkaufswert und sind nicht steuerbar.
+  - Policen der gebundenen Selbstvorsorge (Säule 3a) sind bis zur Fälligkeit steuerfrei und nicht als Vermögen zu deklarieren.
+  - Die Bescheinigung des Versicherers über den Steuerwert ist der Steuererklärung beizulegen; Bund erhebt keine Vermögenssteuer – nur kantonaler Vermögenswert.
+  - Prämien rückkaufsfähiger Policen fallen unter den begrenzten Versicherungsabzug (Art. 33 Abs. 1 lit. g DBG), nicht als eigenständiger Abzug.
+  kantone:
+    AR: Steuerwert = Rückkaufswert + Überschussguthaben; Bescheinigung der Gesellschaft beilegen; auch laufende Rentenversicherungen mit Rückkaufswert sind steuerbar (WL AR 2025 Ziff. 30.3).
+    SG: Rückkaufswert inkl. Überschussanteil; Bescheinigung beilegen; reine Risikoversicherungen nicht steuerpflichtig (WL SG 2025 Ziff. 30.3).
+    ZH: Vermögenssteuerwert gemäss von der Gesellschaft bescheinigtem Wert; nicht rückkaufsfähige laufende Renten sind nicht steuerbar (WL ZH 2025 Ziff. 30.3).
+    TG: Bescheinigungen der Steuerwerte der Lebensversicherungen per 31.12.2025 gehören zu den benötigten Unterlagen; Versicherer ist nach § 158 StG TG bescheinigungspflichtig (WL TG 2025).
+  quellen:
+  - chunk: zh-wl-2025__c0139
+    zitat: Rückkaufsfähige Lebens- und Rentenversicherungen unterliegen der Vermögenssteuer.
+  - chunk: ar-wl-2025__c0114
+    zitat: Als steuerbares Vermögen gilt der Steuer
+  - chunk: sg-wl-2025__c0110
+    zitat: Reine Risikoversicherun
+  - chunk: tg-wl-2025__c0027
+    zitat: Bescheinigungen der Steuerwerte Ihrer Lebensversicherungen per 31.12.2025.
+  - chunk: tg-stg__par-158
+    zitat: Versicherer über den Rückkaufswert von Versicherungen
+  status: extrahiert
+- id: krankenkasse-praemien
+  name: Krankenkassen-Prämienrechnung / Jahresbescheinigung (Grund- und Zusatzversicherung)
+  erkennen:
+  - 'Absender: Krankenversicherer (KVG-Grundversicherung und VVG-Zusatzversicherungen)'
+  - Titel «Jahresbescheinigung für die Steuererklärung», «Prämienübersicht», «Prämienrechnung»
+  - 'Begriffe: Grundversicherung, Zusatzversicherung, Prämienverbilligung (IPV), Franchise, Selbstbehalt'
+  relevanz: ja
+  zweck:
+  - abzug
+  positionen:
+  - abzug.versicherungspraemien
+  extrahieren:
+  - Im Steuerjahr tatsächlich bezahlte Prämien (Grund- und Zusatzversicherung), je versicherte Person
+  - Erhaltene individuelle Prämienverbilligung (IPV) – Prämien netto oder Verbilligung separat ausweisen
+  - Unfallprämien (falls nicht obligatorisch über Arbeitgeber/NBUV)
+  hinweise:
+  - 'Prämien sind nur im Rahmen des begrenzten Versicherungsabzugs (Pauschal-Höchstbetrag) abziehbar; der Abzug wird um erhaltene Prämienverbilligung gekürzt: Nur die selbst getragenen Prämien zählen.'
+  - Prämien für Mobiliar-, Motorfahrzeug- und Haftpflichtversicherungen sowie für Sachversicherungen sind nicht abziehbar (-> hausrat-haftpflicht-police).
+  - Wird die Prämienverbilligung direkt mit der Prämienrechnung verrechnet (Regelfall), ist die um die IPV reduzierte Prämie einzutragen; nicht doppelt kürzen.
+  - Arbeitgeberprämien für obligatorische Unfall-/Krankentaggeldversicherung sind im Nettolohn bereits berücksichtigt.
+  kantone:
+    TG: 'Ziffer 1 des Formulars 5.2: Nettoprämie (nach IPV) eintragen, inkl. über Ergänzungsleistungen ausgerichteter Prämienverbilligung und Nachzahlungen früherer Jahre; Jahresbestätigung der Krankenkasse
+      beilegen (WL TG 2025 S. 44).'
+    ZH: Erhaltene Prämienverbilligung als Abzug in Ziff. 15.6 (soweit nicht schon bei den Prämien berücksichtigt) (WL ZH 2025 Ziff. 15).
+    SG: Versicherungsabzug in Formular 6 ermitteln; individuelle Prämienverbilligungen anrechnen (WL SG 2025 Ziff. 14).
+    AR: Versicherungsabzug in Formular 6 ermitteln; Prämien für Mobiliar-, Motorfahrzeug- und Haftpflichtversicherungen sind ausgeschlossen (WL AR 2025 Ziff. 14).
+  quellen:
+  - chunk: bund-ks-30__c0031
+    zitat: nur die tat
+  - chunk: bund-dbg-2025__art-33-t2
+    zitat: die Einlagen, Prämien und Beiträge für die Lebens-, die Kranken- und die nicht unter Buchstabe f fallende Unfallversicherung
+  - chunk: tg-wl-2025__c0210
+    zitat: Tragen Sie in Ziffer 1 die selber bezahlten Einlagen, Prämien und Beiträge für die private Kran-
+  - chunk: ar-wl-2025__c0085
+    zitat: Vom Abzug ausgeschlossen sind die Prämien für Mobiliar-, Motorfahrzeug- und
+  - chunk: sg-wl-2025__c0087
+    zitat: Dabei sind die individuellen Prämienverbilligungen, die für
+  status: extrahiert
+- id: krankenkasse-leistungen
+  name: Krankenkassen-Leistungsabrechnung / Kosten- und Selbstbehaltszusammenstellung
+  erkennen:
+  - 'Absender: Krankenversicherer'
+  - Titel «Leistungsabrechnung», «Kostenzusammenstellung», «Franchise-/Selbstbehaltsübersicht», «Jahresübersicht Leistungen»
+  - 'Begriffe: Rechnungsbetrag, Kassenleistung, Franchise, Selbstbehalt (10 %), Spitalbeitrag'
+  relevanz: bedingt
+  bedingung: Nur wenn Krankheits- oder Unfallkosten geltend gemacht werden, die den Selbstbehalt von 5 % des Nettoeinkommens übersteigen; dient dazu, Leistungen Dritter (Kasse) von den selbst getragenen
+    Kosten abzuziehen.
+  zweck:
+  - abzug
+  positionen:
+  - abzug.krankheitskosten
+  - abzug.behinderungskosten
+  extrahieren:
+  - Franchise und Selbstbehalt (Kostenbeteiligung der versicherten Person) laut Jahresabrechnung
+  - Bruttokosten und Kassenleistungen je Rechnung (damit nur der selbst getragene Teil geltend gemacht wird)
+  - Leistungsübersicht (inkl. Details je Behandlung), wenn auf einen Kassenauszug verwiesen wird
+  hinweise:
+  - 'Abzugsfähig sind nur die selbst getragenen Kosten: Beiträge Dritter (Krankenkasse, Unfallversicherer, Hilflosenentschädigung) sind abzuziehen. Abzug nur soweit über 5 % der um die Aufwendungen (Art.
+    26-33 DBG) verminderten steuerbaren Einkünfte (Bund) bzw. des Nettoeinkommens (Kantone).'
+  - Franchise und Selbstbehalt gemäss detaillierter Kostenzusammenstellung der Krankenkasse sind abziehbar (Ziffer 1 der Kantonsformulare).
+  - Prämien sind keine Krankheitskosten (-> krankenkasse-praemien); Prämienverbilligung nicht hier berücksichtigen.
+  - Behinderungsbedingte Kosten unterliegen keinem Selbstbehalt (Art. 33 Abs. 1 lit. hbis DBG).
+  kantone:
+    ZH: Formular 370 «Aufstellung über Krankheits- und Unfallkosten» ist einzureichen; Kassen geben auf Verlangen jährlich Kosten- und Prämienzusammenstellungen ab (WL ZH 2025 Ziff. 22.1).
+    SG: Belege auf Verlangen einzureichen; wird auf einen Kassenauszug verwiesen, ist zwingend die Aufstellung mit allen Details (inkl. Leistungsübersicht) mit der Deklaration einzureichen (Formular 6 SG
+      2025).
+    AR: Belege auf Verlangen einzureichen (Formular 6 AR 2025).
+    TG: Belege sind geordnet beizulegen (Formular 5.1 TG 2025).
+  quellen:
+  - chunk: bund-dbg-2025__art-33-t3
+    zitat: soweit der Steuerpflichtige die Kosten selber trägt und diese 5 Prozent der um die Aufwendungen (Art. 26–33) verminderten steuerbaren Einkünfte übersteigen
+  - chunk: sg-form-6-2025__c0003
+    zitat: Abzugsfähig sind die tatsächlich selbst getragenen Kosten.
+  - chunk: zh-wl-2025__c0118
+    zitat: Viele Krankenkassen geben auf Verlangen jährlich Kosten- und
+  - chunk: zh-form-370__c0002
+    zitat: 1. Selbstbehalt gemäss Abrechnung Krankenkasse und Versicherung
+  - chunk: tg-form-05-1-2025__c0001
+    zitat: Die Belege sind geordnet beizulegen
+  status: extrahiert
+- id: arzt-zahnarzt-rechnungen
+  name: Arzt-, Zahnarzt-, Spital- und Therapierechnungen (Krankheits- und Unfallkosten)
+  erkennen:
+  - 'Absender: Arzt, Zahnarzt, Spital, Physiotherapie, Apotheke, Optiker, Pflegedienst/Spitex'
+  - 'Begriffe: Rechnung, Tarmed/Tarifpunkte, Patientenanteil, Zahlungsbestätigung'
+  - Ärztlich verordnete Medikamente, Zahnbehandlung, Brillen/Sehhilfen, Kuraufenthalte
+  relevanz: bedingt
+  bedingung: Nur die selbst bezahlten Kosten (nach Abzug der Kassenleistungen), und nur soweit sie 5 % des Nettoeinkommens übersteigen; allgemeine Gesundheitsvorsorge und Lebenshaltungskosten sind nicht
+    abziehbar (Art. 34 DBG).
+  zweck:
+  - abzug
+  positionen:
+  - abzug.krankheitskosten
+  - abzug.behinderungskosten
+  extrahieren:
+  - Rechnungsdatum, Leistungserbringer, Bruttobetrag
+  - Davon von Dritten (Krankenkasse/Unfallversicherung) übernommen und selbst getragener Betrag
+  - Zahlungsnachweis (bezahlt im Steuerjahr)
+  - Art der Kosten gemäss Formular (Arzt/Medikamente, Zahnarzt, Pflege, Spital, Therapien/Kuren)
+  hinweise:
+  - Nachweis durch ärztliche Bescheinigungen, Rechnungen, Zahlungsnachweise und Versicherungsbelege, da steuermindernde Tatsachen.
+  - Abziehbar sind Kosten im Jahr der Zahlung; Kosten Dritter (z.B. unterhaltene Personen) nur bei effektiver Unterstützung.
+  - Nicht abziehbar sind z.B. Präventivmassnahmen (Fitness-Abo), Fahrkosten zum Arzt, Schönheitsbehandlungen, Wellness- und Schlankheitskuren, eigene Pflegeleistungen.
+  - 'Besondere Ernährungskosten: bei ärztlich angeordneter, lebensnotwendiger Sonderernährung Pauschale möglich (unterliegt dem Selbstbehalt); Detailwerte siehe Werte-Dateien.'
+  - KS 11a (Bund) tritt erst ab Steuerperiode 2027 in Kraft; für 2025/2026 gilt noch die bisherige Praxis (Kreisschreiben Nr. 11).
+  kantone:
+    ZH: Formular 370 mit Aufstellung ausfüllen und Belege bereithalten; nicht abzugsfähig sind u.a. Fahrkosten zum Arzt, Präventivmassnahmen (Fitness), Akupunktur ohne Verordnung, Schönheitsbehandlungen
+      (Form. 370).
+    SG: 'Formular 6: Belege nur auf Verlangen einreichen (Formular 6 SG 2025).'
+    AR: 'Formular 6: Belege nur auf Verlangen einreichen; Diätpauschale Fr. 2''500 anstelle effektiver Kosten bei lebensnotwendiger Diät (nicht bei Diabetes) (WL AR 2025 Ziff. 21.1).'
+    TG: 'Formular 5.1: Belege geordnet beilegen; Brillen (Sehhilfen) abziehbar, soweit nicht von der Kasse getragen, Fitnessabo nicht (TG FAQ).'
+  quellen:
+  - chunk: bund-ks-11a__c0041
+    zitat: durch ärztliche Be
+  - chunk: bund-dbg-2025__art-34
+    zitat: die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie
+  - chunk: tg-info-faq__c0025
+    zitat: Brillenkosten (Sehhilfen) können Sie, sofern nicht durch die Krankenkassen getragen, als Krankheitskosten geltend machen.
+  - chunk: tg-info-faq__c0025
+    zitat: Nein, die Kosten für das Fitnessabonnement stellen in der Regel private Lebenshaltungskosten dar und sind nicht abzugsfähig.
+  - chunk: ar-wl-2025__c0099
+    zitat: Fr. 2’500.– in Abzug gebracht werden.
+  status: extrahiert

@@ -4,17 +4,24 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 10 Praxis ESTV – Toleranzgrenze ein halbes Prozent pro Jahr (Teil 2/2)"
-ziffer: "Anh. III 10"
-seiten: "28"
+titel: "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 2/3)"
+ziffer: "Anh. IV I"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 10 Aufstockungen von Anleihen · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › I Ausgangslage · S. 32
 
-Grundanleihen, die vor dem 1. Januar 2001 emittiert wurden und in den Anwendungsbereich
-von Artikel 14 Absatz 2 VStV fielen, werden im Rahmen dieser ab 1. Januar 2001 geltenden
-Regelung wie zu pari emittierte Anleihen behandelt. Aufstockungen solcher Grundanleihen
-kommen deshalb ebenfalls in den Genuss der rückwirkend vorzunehmenden Praxisfestle-
-gung.
+Die Anwendung der modifizierten Differenzbesteuerung setzt voraus, dass das kombi-
+nierte Produkt (für steuerliche Zwecke) transparent gemacht wird. Dies geschieht, in-
+dem der Wert des Anleihensteils im Zeitpunkt der Emission berechnet und offen gelegt
+wird. Die Berechnung des Wertes des Anleihensteils im Emissionszeitpunkt (auch
+Bond Floor genannt) wird mittels der Swap-Rate für die entsprechende Währung und
+Laufzeit aufgrund der folgenden Eckwerte vorgenommen:
 
-1-015-DVS-2017-d / Anhang III
+    •   Emissions- und Mindest-Rückzahlungsbetrag
+    •   Laufzeit (Liberierungs- und Rückzahlungsdatum)
+    •   allfällige periodische Verzinsung
+
+Mit dieser Berechnung wird letztlich ermittelt, zu welchem Preis der Anleihensteil von
+einem Schuldner mit einem bestimmten Rating emittiert worden wäre, wenn der Anlei-
+hensteil separat (vom Optionsteil) emittiert worden wäre.

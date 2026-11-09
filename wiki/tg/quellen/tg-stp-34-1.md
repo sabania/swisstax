@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-1-liegenschaftsunterhalt> · lokal: [tg-stp-34-1.html](../../../raw/tg/dauernd/tg-stp-34-1.html) · Volltext: [tg-stp-34-1.md](../../../sources/tg/dauernd/tg-stp-34-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `6976db124d32c4e6…`
 
-## Inhalt (29 Chunks)
+## Inhalt (28 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -40,8 +40,7 @@ generiert: tools/build_index.py
 | [c0022](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0022.md) | 7.1. Wem steht der Abzug zu? |  |  |
 | [c0023](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0023.md) | 7.2. Zeitliche Abgrenzung |  |  |
 | [c0024](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0024.md) | 7.2. Zeitliche Abgrenzung |  |  |
-| [c0025](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0025.md) | 7.2. Zeitliche Abgrenzung |  |  |
-| [c0026](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0026.md) | 7.3. Selbst bezahlte Kosten |  |  |
+| [c0025](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0025.md) | 7.3. Selbst bezahlte Kosten |  |  |
+| [c0026](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0026.md) | Ältere Versionen |  |  |
 | [c0027](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0027.md) | Ältere Versionen |  |  |
 | [c0028](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0028.md) | Ältere Versionen |  |  |
-| [c0029](../../../chunks/tg/dauernd/tg-stp-34-1/tg-stp-34-1__c0029.md) | Ältere Versionen |  |  |

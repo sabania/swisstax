@@ -4,24 +4,15 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 19"
-seiten: "8"
+titel: "Ziff. 43–44 Ertragswert Geschäftshäuser"
+ziffer: "43–44"
+seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 8
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › V. Mehrfamilien- und Geschäftshäuser › 2. Ertragswert · S. 9
 
-    Ertragswert von Mehrfamilienhäusern
-38   Zur Ermittlung des Ertragswerts von Mehrfamilienhäusern ist der
-    Ertrag der Liegenschaft zu kapitalisieren.
-39   Der Ertrag bestimmt sich nach der Gesamtheit der von den Mie-
-    tern geleisteten Entschädigungen. Ein allfälliger Mietwert der vom
-    Eigentümer und von zu seinem Haushalt gehörenden Personen selbst
-    genutzten Räume ist, ohne Berücksichtigung eines eventuellen Ein-
-    schlags gemäss Ziff. 67, zum Mietertrag hinzuzuzählen. Wurden Mieter
-    vertraglich zur Übernahme von üblicherweise vom Eigentümer zu
-    tragenden Unterhaltskosten und Abgaben verpflichtet, so ist der Wert
-    dieser Leistungen zum vereinbarten Mietzins hinzuzuzählen. Ausser
-    Betracht fallen Vergütungen der Mieter für Heizung, Warmwasser,
-    Treppenhausreinigung, Empfangsgebühren für Radio und Fernsehen,
-    Gebühren für die Kehrichtentsorgung sowie Gebühren für Wasser,
-    Abwasser und für die Abwasserreinigung.
+Ertragswert von Geschäftshäusern
+   Zur Ermittlung des Ertragswerts ist der Ertrag der Liegenschaft zu 43
+kapitalisieren. Es gilt der Kapitalisierungssatz für Mehrfamilienhäuser
+(Ziff. 41 und 42).
+    Ziff. 39 und 40 gelten sinngemäss.   44

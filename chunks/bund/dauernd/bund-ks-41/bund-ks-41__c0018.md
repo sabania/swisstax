@@ -4,21 +4,21 @@ quelle: bund-ks-41
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 41 – Abschnitt 18"
-seiten: "4"
+titel: "Ziff. 2.2.7 Unzulässige Auszahlung des Vorsorgeguthabens"
+ziffer: "2.2.7"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 41 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 41 · 2.2 Steuerliche Auswirkungen › 2.2.7 Unzulässige Auszahlung · S. 5
 
-Die Besteuerung an der Quelle erfolgt aufgrund der entsprechenden Bestimmungen der
-Verordnung des EFD vom 19. Oktober 1993 über die Quellensteuer bei der direkten Bun-
-dessteuer (Quellensteuerverordnung [QStV; SR 642.118.2]). Gemäss Artikel 11 QStV wird
-die Kapitalleistung des im Ausland ansässigen Empfängers ungeachtet staatsvertraglicher
-Regelung stets der Quellensteuer unterstellt; der bezahlte Quellensteuerbetrag wird jedoch
-unter gewissen Bedingungen wieder zurückerstattet (so etwa dann, wenn gemäss Doppel-
-besteuerungsabkommen das Besteuerungsrecht beim Ansässigkeitsstaat liegt und der Emp-
-fänger der seinerzeitigen Leistung belegen kann, dass die zuständige ausländische Steuer-
-behörde von der Kapitalleistung Kenntnis hat; massgebend ist in jedem Fall das zum Zeit-
-punkt der Fälligkeit der Leistung geltende Doppelbesteuerungsabkommen). In Ziffer 3 des
-Anhangs zur QStV sind die massgebenden Quellensteuersätze festgelegt, welche in die kan-
-tonalen Quellensteuertarife integriert sind.
+2.2.7   Unzulässige Auszahlung des Vorsorgeguthabens
+
+Wird die Austrittsleistung der versicherten Person bar ausgerichtet, obwohl der Barauszah-
+lungsgrund von Anfang an nicht gegeben war, oder wird die Barauszahlung nicht zweckent-
+sprechend verwendet, ist die Barauszahlung als unzulässig zu betrachten. In solchen Fällen
+ist der steuerpflichtigen Person die Möglichkeit einzuräumen, die Vorsorgeeinrichtung um
+Rückabwicklung der Zahlung zu ersuchen oder die zweckentfremdet verwendete Barauszah-
+lung wieder ihrem ursprünglichen Zweck zuzuführen. Erfolgt keine Rückabwicklung der un-
+zulässigen Auszahlung oder wird diese nicht wieder ihrem Zweck (gemäss Auszahlungs-
+grund) zugeführt, wird die Kapitalleistung zusammen mit dem übrigen Einkommen ordentlich
+besteuert (vgl. Urteil des Bundesgerichts 2C_156/2010 vom 7. Juni 2011).

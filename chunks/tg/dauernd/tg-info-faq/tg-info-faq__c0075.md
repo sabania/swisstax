@@ -9,17 +9,10 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
-    Im Rekurs können alle Mängel des Verfahrens und des angefochtenen Entscheides geltend gemacht werden. Gegen Entscheide der Steuerrekurskommission kann innert 30 Tagen nach Zustellung Beschwerde beim Verwaltungsgericht erhoben werden.
+    Die erstmalige Selbstanzeige einer Steuerhinterziehung führt zu keiner Busse, wenn die Steuerverwaltung vor der Selbstanzeige noch keine Kenntnis von der Hinterziehung hatte und Sie die Steuerverwaltung bei der Festsetzung der Nachsteuer vorbehaltlos unterstützen.
 
-    Detaillierte Ausführungen finden Sie in der Thurgauer Steuerpraxis in Weisung:
+    Die straflose Selbstanzeige ist übrigens nur einmal im Leben möglich. Bei jeder weiteren Anzeige würde die Busse wie bisher ein Fünftel der hinterzogenen Steuer betragen.
 
-    - [StP 175 Nr. 1 "Rekursverfahren"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-175-nr-1-rekursverfahren&version=latest)
+    Detailliertere Informationen finden Sie unter folgendem Link:
 
-Straflose Selbstanzeige
-:   ### Frage:
-
-    Ich habe seit Jahren unversteuertes Vermögen (Schwarzgeld) und möchte dieses dem Steueramt melden. Wie gehe ich vor?
-
-    ### Antwort:
-
-    Stellen Sie alle Belege zusammen und richten Sie ein entsprechendes Schreiben an die Steuerverwaltung (Nach- und Strafsteuern).
+    - [Straflose Selbstanzeige](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/straflose-selbstanzeige.html/2938)

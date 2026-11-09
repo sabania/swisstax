@@ -4,22 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 1/3)"
-ziffer: "14.12"
-seiten: "38"
+titel: "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Abzüge"
+ziffer: "14.13"
+seiten: "38-39"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.12 · S. 38
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.13 · S. 38–39
 
-14.12   Besteuerung der getrennten, geschiedenen oder unverheirateten El-
-    tern (zwei Haushalte) mit gemeinsamem volljährigem Kind in Ausbil-
-    dung, Kind lebt nicht bei einem Elternteil (Wohnsitz verlegt), mit Un-
-    terhaltszahlungen
+14.13.2   Abzüge
+   Der Elternteil, der die Unterhaltszahlungen leistet, kann den Kinderabzug geltend ma-
+    chen. Leisten beide Elternteile Unterhaltszahlungen, kann der Elternteil mit den höheren
+    finanziellen Leistungen, d.h. in der Regel derjenige mit dem höheren Einkommen, den
 
-Werden Unterhaltszahlungen gemäss Artikel 24 Buchstabe e DBG von einem oder von bei-
-den Elternteilen an das Kind geleistet, erfolgt die Besteuerung folgendermassen:
-
-14.12.1   Unterhaltsbeiträge
-   Die Unterhaltsbeiträge an das volljährige Kind in Ausbildung sind vom Kind nicht zu ver-
-    steuern. Der leistende Elternteil kann die Unterhaltsbeiträge nicht von seinem Einkom-
-    men absetzen.
+    Kinderabzug geltend machen. Der andere Elternteil kann den Unterstützungsabzug gel-
+    tend machen, sofern seine Leistungen mindestens in der Höhe des Abzuges erfolgen.
+   Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Versiche-
+    rungs- und Sparzinsenabzug für das Kind. Leisten beide Elternteile Unterhaltszahlungen
+    und erfüllen die Voraussetzungen von Artikel 35 Absatz 1 Buchstabe a bzw. Buchstabe b
+    DBG, können beide den Abzug geltend machen, sofern sie nachweisen können, dass sie
+    auch entsprechende abzugsfähige Versicherungsprämien für das Kind geleistet haben.
+    Wenn dieser Nachweis nur einem Elternteil gelingt, so kann nur dieser den Versiche-
+    rungsabzug für das Kind geltend machen.

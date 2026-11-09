@@ -4,34 +4,28 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 75"
-seiten: "21"
+titel: "Anhang II Art. 8 Besteuerung des fiktiven Einkaufs (Vorsorgetarif, Zusammenrechnung)"
+ziffer: "Art. 8"
+seiten: "26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 26
 
-a)   Die Überführung der Liegenschaft vom Geschäftsvermögen ins Privatvermögen erfolgt
-    im Vorjahr (n-1). Die steuerpflichtige Person macht dabei keinen Steueraufschub ge-
-    mäss Artikel 18a DBG geltend. Die Liegenschaft wird im Liquidationsjahr n veräussert, in
-    welchem die selbständige Erwerbstätigkeit definitiv aufgegeben wird. Die gesamten stil-
-    len Reserven (wieder eingebrachte Abschreibungen und der Wertzuwachsgewinn) wer-
-    den privilegiert besteuert, allenfalls mittels eines Revisionsverfahrens für die Veranla-
-    gung des Jahres n-1.
+Artikel 8   Besteuerung des fiktiven Einkaufs
 
-    Vorjahr   Liquidationsjahr
-    2010   2011   2012
+Der Liquidationsgewinn wird im Umfang des fiktiven Einkaufs wie eine Kapitalleistung aus
+Vorsorge nach Artikel 38 DBG besteuert. Er erfährt mithin eine von der Liquidationsgewinn-
+besteuerung unabhängige, gesonderte Besteuerung.
 
-    Fall 1
-    PV
-    2010 LS wird ins PV
-    überführt   PV   Dritte
-    (ohne Art. 18a DBG)
-
-    2011 LS wird an   Wertzuwachs-
-    Dritte veräussert   gewinn   Art. 37b DBG
-
-    wieder eingebr.
-    Abschreibungen
-
-    Teil des Liquidations-
-    gewinnes
+Der fiktive Einkauf, welcher zum Vorsorgetarif besteuert wird, ist gemäss Artikel 38 Absatz 1
+DBG zusammen mit allfälligen echten Kapitalleistungen, die in der gleichen Steuerperiode
+anfallen, zusammenzurechnen. Der zum Vorsorgetarif zu besteuernde Anteil des Liquidati-
+onsgewinnes (= fiktiver Einkauf) wird deshalb wie eine Leistung aus Vorsorge besteuert, weil
+er nach Meinung des Gesetzgebers einen Bezug aus Vorsorge darstellt. Damit soll eine
+selbständig erwerbende Person steuerrechtlich gegenüber jenen, welche ihr Geld nicht in
+einen Betrieb, sondern in eine Vorsorgeeinrichtung im Sinne des BVG investiert haben,
+gleichgestellt werden. Die Gleichstellung ist auch insofern gewährleistet, als die Äufnung
+dieser Vorsorge im Betrieb (Bildung der stillen Reserven) – analog den BVG-Prämien – nicht
+durch die Einkommenssteuer erfasst wird. Die Besteuerung des fiktiven Einkaufs hat daher
+unter Zusammenrechnung mit allfälligen Kapitalleistungen aus Vorsorgeeinrichtungen, die in
+der gleichen Steuerperiode anfallen, zu erfolgen.

@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1966/1585_1641_1624/20250101/de> · lokal: [bund-vstv.xml](../../../raw/bund/2025/bund-vstv.xml) · Volltext: [bund-vstv.md](../../../sources/bund/2025/bund-vstv.md)
 - **Abgerufen:** 2026-11-09 · sha256 `6c61ccdcfea3674d…`
 
-## Inhalt (95 Chunks)
+## Inhalt (93 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -33,17 +33,15 @@ generiert: tools/build_index.py
 | [art-14a](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-14a.md) | Art. 14a VStV | Art. 14a |  |
 | [art-15](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-15.md) | Art. 15 VStV | Art. 15 |  |
 | [art-16](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-16.md) | Art. 16 VStV | Art. 16 |  |
-| [art-17-t1](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-17-t1.md) | Art. 17 VStV (Teil 1/3) | Art. 17 |  |
-| [art-17-t2](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-17-t2.md) | Art. 17 VStV (Teil 2/3) | Art. 17 |  |
-| [art-17-t3](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-17-t3.md) | Art. 17 VStV (Teil 3/3) | Art. 17 |  |
+| [art-17-t1](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-17-t1.md) | Art. 17 VStV (Teil 1/2) | Art. 17 |  |
+| [art-17-t2](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-17-t2.md) | Art. 17 VStV (Teil 2/2) | Art. 17 |  |
 | [art-18](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-18.md) | Art. 18 VStV | Art. 18 |  |
 | [art-19-t1](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-19-t1.md) | Art. 19 VStV (Teil 1/3) | Art. 19 |  |
 | [art-19-t2](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-19-t2.md) | Art. 19 VStV (Teil 2/3) | Art. 19 |  |
 | [art-19-t3](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-19-t3.md) | Art. 19 VStV (Teil 3/3) | Art. 19 |  |
 | [art-20](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-20.md) | Art. 20 VStV | Art. 20 |  |
-| [art-21-t1](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-21-t1.md) | Art. 21 VStV (Teil 1/3) | Art. 21 |  |
-| [art-21-t2](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-21-t2.md) | Art. 21 VStV (Teil 2/3) | Art. 21 |  |
-| [art-21-t3](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-21-t3.md) | Art. 21 VStV (Teil 3/3) | Art. 21 |  |
+| [art-21-t1](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-21-t1.md) | Art. 21 VStV (Teil 1/2) | Art. 21 |  |
+| [art-21-t2](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-21-t2.md) | Art. 21 VStV (Teil 2/2) | Art. 21 |  |
 | [art-22-t1](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-22-t1.md) | Art. 22 VStV (Teil 1/2) | Art. 22 |  |
 | [art-22-t2](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-22-t2.md) | Art. 22 VStV (Teil 2/2) | Art. 22 |  |
 | [art-23](../../../chunks/bund/2025/bund-vstv/bund-vstv__art-23.md) | Art. 23 VStV | Art. 23 |  |

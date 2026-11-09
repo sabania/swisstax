@@ -689,9 +689,10 @@
 },
 {
 "id": "sg-info-ekst-vst__c0044",
-"titel": "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
+"titel": "Formulare",
 "pfad": [
-"Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)"
+"Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
+"Formulare"
 ],
 "seiten": [],
 "artikel": null,
@@ -773,10 +774,10 @@
 },
 {
 "id": "sg-info-ekst-vst__c0049",
-"titel": "Formulare",
+"titel": "Merkblätter",
 "pfad": [
 "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
-"Formulare"
+"Merkblätter"
 ],
 "seiten": [],
 "artikel": null,
@@ -807,10 +808,10 @@
 },
 {
 "id": "sg-info-ekst-vst__c0051",
-"titel": "Merkblätter",
+"titel": "Fragebogen für Ärzte und Anwälte",
 "pfad": [
 "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
-"Merkblätter"
+"Fragebogen für Ärzte und Anwälte"
 ],
 "seiten": [],
 "artikel": null,
@@ -824,10 +825,10 @@
 },
 {
 "id": "sg-info-ekst-vst__c0052",
-"titel": "Fragebogen für Ärzte und Anwälte",
+"titel": "Tarife Privatpersonen, gültig ab",
 "pfad": [
 "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
-"Fragebogen für Ärzte und Anwälte"
+"Tarife Privatpersonen, gültig ab"
 ],
 "seiten": [],
 "artikel": null,
@@ -858,10 +859,10 @@
 },
 {
 "id": "sg-info-ekst-vst__c0054",
-"titel": "Tarife Privatpersonen, gültig ab",
+"titel": "Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen",
 "pfad": [
 "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
-"Tarife Privatpersonen, gültig ab"
+"Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen"
 ],
 "seiten": [],
 "artikel": null,
@@ -875,10 +876,10 @@
 },
 {
 "id": "sg-info-ekst-vst__c0055",
-"titel": "Tarife Privatpersonen, gültig ab",
+"titel": "Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:",
 "pfad": [
 "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
-"Tarife Privatpersonen, gültig ab"
+"Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:"
 ],
 "seiten": [],
 "artikel": null,
@@ -892,10 +893,10 @@
 },
 {
 "id": "sg-info-ekst-vst__c0056",
-"titel": "Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen",
+"titel": "Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:",
 "pfad": [
 "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
-"Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen"
+"Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:"
 ],
 "seiten": [],
 "artikel": null,
@@ -1028,57 +1029,6 @@
 },
 {
 "id": "sg-info-ekst-vst__c0064",
-"titel": "Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:",
-"pfad": [
-"Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
-"Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "sg-info-ekst-vst__c0063",
-"nachher": "sg-info-ekst-vst__c0065"
-},
-{
-"id": "sg-info-ekst-vst__c0065",
-"titel": "Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:",
-"pfad": [
-"Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
-"Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "sg-info-ekst-vst__c0064",
-"nachher": "sg-info-ekst-vst__c0066"
-},
-{
-"id": "sg-info-ekst-vst__c0066",
-"titel": "Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:",
-"pfad": [
-"Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
-"Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "sg-info-ekst-vst__c0065",
-"nachher": "sg-info-ekst-vst__c0067"
-},
-{
-"id": "sg-info-ekst-vst__c0067",
 "titel": "Kurslisten",
 "pfad": [
 "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)",
@@ -1091,7 +1041,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "sg-info-ekst-vst__c0066",
+"vorher": "sg-info-ekst-vst__c0063",
 "nachher": null
 }
 ]

@@ -4,17 +4,24 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 30"
-seiten: "13"
+titel: "Ziff. 72–74 Einheitssatz pro m2 und andere Liegenschaften und Räume"
+ziffer: "72–74"
+seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 13
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › IV.–V. Geschäftsräume, andere Liegenschaften · S. 14
 
-   Der bei eigener Nutzung von Geschäftsräumen im eigenen Ein- 69
-familienhaus, Stockwerkeigentum oder Mehrfamilienhaus im Berech-
-nungsjahr anzurechnende Mietwert soll dem Mietzins entsprechen,
-den der Pflichtige bei Vermietung von einem Dritten erhalten würde.
-   Die zur Berechnung des Verkehrswerts heranzuziehenden Brutto- 70
-mietwerte sind durch Vergleich mit den Mieterträgen gleichartiger
-Räume zu ermitteln. Dabei sind die bestehenden Erfahrungszahlen zu
-berücksichtigen.
+72   Für Räume, die übungsgemäss nach einem Einheitssatz pro Qua-
+    dratmeter Nutzfläche (ohne Treppenhäuser und WC) vermietet wer-
+    den, bestimmen sich die Mietwerte entsprechend.
+
+
+    V. Andere Liegenschaften und Räume
+
+73   Der bei eigener Nutzung von anderen Liegenschaften und Räumen
+    wie ehemaligen, nicht mehr landwirtschaftlich genutzten Scheunen, frei-
+    stehenden Garagen, Sport- und Reithallen und dergleichen anzurech-
+    nende Mietwert soll dem Mietzins entsprechen, den der Pflichtige bei
+    Vermietung von einem Dritten erhalten würde.
+74   Die Mietwerte solcher Liegenschaften und Räume sind unter Be-
+    rücksichtigung der Verhältnisse des Einzelfalls zu schätzen.

@@ -4,17 +4,21 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung (Teil 2/2)"
-ziffer: "15.2"
-seiten: "40-41"
+titel: "Ziff. 15.7 Verfahrensrechtliche Stellung des überlebenden Ehegatten"
+ziffer: "15.7"
+seiten: "42"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.2 Steuererklärung · S. 40–41
+> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.7 · S. 42
 
-Die Regelung, dass die Ehegatten die Steuererklärung gemeinsam zu unterzeichnen haben,
-führt dazu, dass sich die Ehegatten im Veranlagungsverfahren gegenseitig über ihre eigenen
-Steuerfaktoren informieren.
+15.7   Verfahrensrechtliche Stellung des überlebenden Ehegatten
 
-Jeder Ehegatte hat in der Steuererklärung nur die ihm zuzurechnenden Einkommensfaktoren
-zu deklarieren. Dies folgt aus Artikel 180 DBG, wonach jeder Ehegatte nur für die Hinterzie-
-hung der eigenen Steuerfaktoren gebüsst werden kann.
+Stirbt ein Partner eines gemeinsam veranlagten Ehepaares, kommt dem überlebenden Ehe-
+gatten eine besondere Rechtsstellung zu. Einerseits übt er die ihm als selbständig steuer-
+pflichtige Person zustehenden Mitwirkungsrechte und -pflichten selbst aus. Andererseits tritt
+er als Erbe mit den übrigen Erben in die Rechte und Pflichten seines verstorbenen Ehegat-
+ten ein (Art. 12 Abs. 1 DBG) und übernimmt damit auch dessen Verfahrensrechte und
+-pflichten. Dies bedeutet namentlich, dass der überlebende Ehegatte nicht nur für die eige-
+nen Steuerfaktoren, sondern nun für das gesamte eheliche Einkommen mitwirkungspflichtig
+wird. Dies wirkt sich auch auf das Ausmass seiner Verantwortlichkeit im Steuerstrafrecht aus
+(vgl. dazu auch Ziff. 16).

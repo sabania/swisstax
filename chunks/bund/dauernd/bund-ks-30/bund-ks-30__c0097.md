@@ -4,23 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 1/2)"
-ziffer: "14.1.2"
-seiten: "30-31"
+titel: "Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge) (Teil 1/3)"
+ziffer: "14.2.1"
+seiten: "31-32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1.2 Steuerrechtliche Aspekte · S. 30–31
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.2.1 Zivilrechtliche Aspekte · S. 31–32
 
-14.1.2   Steuerrechtliche Aspekte
+14.2   Besteuerung der Unterhaltszahlungen für das Kind
 
-Leistet eine steuerpflichtige Person Unterhaltsbeiträge an seinen geschiedenen, gerichtlich
-oder tatsächlich getrennt lebenden Ehegatten, kann sie diese von seinem Einkommen in
-Abzug bringen (Art. 33 Abs. 1 Bst. c DBG). Der die Leistung empfangende Ehegatte hat die-
-se zu versteuern (Art. 23 Bst. f DBG). Aus dem hier geltenden Korrespondenzprinzip ergibt
+14.2.1   Zivilrechtliche Aspekte
 
-sich, dass alle jene Leistungen für den Unterhalt, die beim empfangenden Ehegatten be-
-steuert werden, beim leistenden Ehegatten in Abzug gebracht werden können.
-
-Unterhaltsleistungen erfolgen in der Regel als wiederkehrende direkte Geldleistungen. Sie
-können jedoch auch in der Form von indirekten Zahlungen erbracht werden, wie etwa die
-Übernahme von Miet- oder Schuldzinsen, oder aus eigentlichen Naturalleistungen bestehen.
+Das ZGB sieht die Möglichkeit vor, einerseits die elterliche Sorge gemeinsam auf unverheira-
+tete Eltern zu übertragen, andererseits aber die gemeinsame Ausübung der elterlichen Sor-
+ge auch nach der Trennung oder Scheidung der Eltern beizubehalten. Die gemeinsame el-
+terliche Sorge trägt dem Umstand Rechnung, dass heutzutage vermehrt beide Eltern in glei-
+cher Weise zur Übernahme der elterlichen Sorge und der Obhut bereit und in der Lage sind.

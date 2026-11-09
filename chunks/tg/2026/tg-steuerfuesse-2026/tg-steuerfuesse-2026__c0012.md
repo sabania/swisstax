@@ -4,17 +4,55 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 12"
+titel: "Grafik Steuerfüsse und Veränderung zu vor 10 Jahren (Streudiagramm)"
 seiten: "4"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 4
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Entwicklung · S. 4
 
-Von den 72 Schulgemeinden1 senkten 2026 6 ihren Steuerfuss.   Bei den Gemeinden mit einer Steuerfussanpassung gab es et-
-Das sind deutlich weniger Senkungen als zwischen 2005 und   was mehr Erhöhungen als Senkungen: Für die evangelische Be-
-2023, wo die Anzahl Schulgemeinden mit Steuerfusssenkungen   völkerung stiegen die Gesamtsteuerfüsse in 20 Gemeinden, für
-immer im zweistelligen Bereich lag. Erhöhungen gab es in 10   die katholischen Einwohnerinnen und Einwohner in 21 Gemein-
-Schulgemeinden. Das sind etwas weniger Erhöhungen als in den   den. Demgegenüber profitierte die evangelische Bevölkerung in
-beiden Vorjahren, aber mehr als in den Jahren zuvor. Die restli-   14, die katholische Bevölkerung in 15 Gemeinden von tieferen
-chen 56 Schulgemeinden hielten an den Schulsteuerfüssen des   Steuerfüssen.
-Vorjahres fest.   Am stärksten stiegen die Gesamtsteuerfüsse unabhängig von
+ Steuerfüsse der Politischen Gemeinden und Veränderung im Vergleich zu vor 10 Jahren
+ Kanton Thurgau, 2026
+    20
+
+    Durchschnittlicher
+    Veränderung gegenüber 2016, in Prozentpunkten
+
+
+    Mammern   Gemeindesteuerfuss
+    Tiefer Steuerfuss /   Hoher Steuerfuss /
+    Höher als vor 10 Jahren   Höher als vor 10 Jahren
+    10   Tobel−Tägerschen
+    Hüttlingen
+
+
+    Zihlschlacht−Sitterdorf   Aadorf
+    Horn
+    Bottighofen
+    Ermatingen   Frauenfeld
+    0   Tägerwilen
+    Hefenhofen
+    Hauptwil−Gottshaus Amriswil
+    Warth−Weiningen   Münsterlingen
+    Kreuzlingen   Bischofszell   Romanshorn
+    Amlikon−Bissegg
+    Neunforn
+    Fischingen
+    Arbon
+    Langrickenbach
+    Dozwil   Hohentannen
+    −10   Lommis   Pfyn
+    Weinfelden
+    Roggwil   Bürglen   Raperswilen
+
+    Salmsach
+    Steckborn
+    Tiefer Steuerfuss /   Hoher Steuerfuss /
+    −20
+    Tiefer als vor 10 Jahren   Tiefer als vor 10 Jahren
+
+
+    30   40   50   60   70   80
+    Gemeindesteuerfuss 2026, in %
+
+    Gemeinden mit mehr als 10'000 Einw.   Gemeinden mit weniger als 10'000 Einw.
+ Datenquelle: Steuerverwaltung Kanton Thurgau

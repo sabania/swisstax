@@ -4,32 +4,27 @@ quelle: ar-mb-03-anhang
 jur: ar
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB AR 03-anhang – Abschnitt 8"
+titel: "Ziff. 4.1 Heizungs- und Lüftungsinstallationen – Wartung, Heizungssystem"
+ziffer: "4.1"
 seiten: "3"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 3
+> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 4 Heizung, Energiegewinnung › 4.1 Heizungs- und Lüftungsinstallationen · S. 3
 
-<!-- Seite 3 -->
- 3.3 Elektroinstallationen
-  - Elektroinstallationen
-    a) gleichwertiger Ersatz von Installationen   1/1
-    b) erstmaliger Einbau, Erweiterung, Verlegung jeglicher   1/1
-    Elektroinstallationen
-    c) Lampen inkl. Leuchtmittel (gilt auch für fest montierte, die   1/1
-    ohne Beschädigungen entfernt und ersetzt werden können)
-  - Glasfaseranschluss
-    a) Anschluss-/Erschliessungsgebühren   1/1
-    b) Umstellung auf Glasfasernetz   1/1
-  - fest installierte Smart Home Systeme
-    a) Erstanschaffung   1/1
-    b) Reparatur und Ersatz (exkl. Erweiterungen)   1/1
-  - Ladestation/Steckdose Elektromobil
-    a) Erstanschaffung   1/1
-    b) Reparatur und Ersatz   1/1
-    c) Erstanschaffung bidirektionale Ladestation   3/4   E   1/4
-  - Alarmanlagen
-    a) erstmalige Anschaffung   1/1
-    b) gleichwertiger Ersatz (exkl. Erweiterungen)   1/1
-    c) Abonnement Wartung Alarmanlage   1/1
-    d) Kosten der Überwachung (Abonnement für Alarmierung)   1/1
+  4   Heizung, Energiegewinnung und -nutzung
+
+ 4.1 Heizungs- und Lüftungsinstallationen
+    (bei gleichem beheizten Raumvolumen)
+  - periodische Wartungsarbeiten
+    a) Feuerungskontrolle/Kaminfeger   1/1
+    b) Serviceabonnement für Heizungsanlagen   1/1
+    c) (Tank)Revisionen   1/1
+  - Änderung/Umnutzung Tankraum (inkl. entfernen Öltank)   1/1
+  - Entfernung Öltank bei gleichzeitigem Ersatz durch Heizung mit   1/1   E
+    erneuerbarer Energie (ohne Kosten Umnutzung Tankraum)
+  - Heizungssystem
+    a) Reparatur, Ersatz einzelner Komponenten (Brenner, Tank,   1/1
+    Steuerungssysteme etc.)
+    b) vollständiger Ersatz durch Heizungssystem mit erneuerbarer   1/1   E
+    Energie
+    c) Umstellung Heizkörper auf Bodenheizung   1/1   E

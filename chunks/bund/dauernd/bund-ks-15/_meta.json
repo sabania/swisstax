@@ -700,7 +700,7 @@
 },
 {
 "id": "bund-ks-15__c0026",
-"titel": "Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben (Teil 1/2)",
+"titel": "Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben",
 "pfad": [
 "3 Grundsätze der Besteuerung",
 "3.2 Obligationen mit überwiegender Einmalverzinsung"
@@ -728,34 +728,6 @@
 },
 {
 "id": "bund-ks-15__c0027",
-"titel": "Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben (Teil 2/2)",
-"pfad": [
-"3 Grundsätze der Besteuerung",
-"3.2 Obligationen mit überwiegender Einmalverzinsung"
-],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": "3.2",
-"stichworte": [
-"Verlustverrechnung",
-"IUP",
-"Fremdwährung",
-"Verrechnungssteuer Originaldiskont",
-"Wechselkurs"
-],
-"positionen": [
-"einkommen.wertschriften",
-"verrechnungssteuer.rueckerstattung"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0026",
-"nachher": "bund-ks-15__c0028"
-},
-{
-"id": "bund-ks-15__c0028",
 "titel": "Ziff. 3.3 Derivative Finanzinstrumente – Kapitalgewinne, Vorausfinanzierung 25 %",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -780,11 +752,11 @@
 ],
 "zusammenfassung": "Kapitalgewinne aus Futures und Optionen sind im Privatvermögen steuerfrei (Art. 16 Abs. 3 DBG), Verluste unbeachtlich; Grenze der Vorausfinanzierung 25 % des Kontraktwerts.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0027",
-"nachher": "bund-ks-15__c0029"
+"vorher": "bund-ks-15__c0026",
+"nachher": "bund-ks-15__c0028"
 },
 {
-"id": "bund-ks-15__c0029",
+"id": "bund-ks-15__c0028",
 "titel": "Ziff. 3.3 Optionsprämien, Verrechnungssteuer und Stempelabgaben bei Derivaten",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -807,11 +779,11 @@
 ],
 "zusammenfassung": "Optionsprämien sind einkommenssteuerlich nicht relevant; Optionen und Futures sind keine steuerbaren Urkunden, Umsatzabgabe nur bei Lieferung steuerbarer Urkunden (Art. 15 Abs. 2 StG).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0028",
-"nachher": "bund-ks-15__c0030"
+"vorher": "bund-ks-15__c0027",
+"nachher": "bund-ks-15__c0029"
 },
 {
-"id": "bund-ks-15__c0030",
+"id": "bund-ks-15__c0029",
 "titel": "Ziff. 3.4 Kapitalgarantierte Derivate – Kriterien der Transparenz",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -834,11 +806,11 @@
 ],
 "zusammenfassung": "Ein Produkt gilt als transparent, wenn die Komponenten separat gehandelt werden, der Emittent sie im Termsheet berechnet darstellt oder die ESTV sie analytisch nachvollzieht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0029",
-"nachher": "bund-ks-15__c0031"
+"vorher": "bund-ks-15__c0028",
+"nachher": "bund-ks-15__c0030"
 },
 {
-"id": "bund-ks-15__c0031",
+"id": "bund-ks-15__c0030",
 "titel": "Ziff. 3.4 Transparenz – Erläuterung zu a) separater Handel und b) Termsheet",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -861,11 +833,11 @@
 ],
 "zusammenfassung": "Bei separatem Handel gilt der erste Schlusskurs ex-Option als Emissionspreis; beim Termsheet muss die ESTV-Prüfung die Richtigkeit bestätigen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0030",
-"nachher": "bund-ks-15__c0032"
+"vorher": "bund-ks-15__c0029",
+"nachher": "bund-ks-15__c0031"
 },
 {
-"id": "bund-ks-15__c0032",
+"id": "bund-ks-15__c0031",
 "titel": "Ziff. 3.4 Analytische Methode (Swapsatz, BFP-Service)",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -889,11 +861,11 @@
 ],
 "zusammenfassung": "Der garantierte Rückzahlungsbetrag wird mit dem mittleren Swapsatz für Währung und Laufzeit bei Emission diskontiert, um den Wert der Obligation zu bestimmen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0031",
-"nachher": "bund-ks-15__c0033"
+"vorher": "bund-ks-15__c0030",
+"nachher": "bund-ks-15__c0032"
 },
 {
-"id": "bund-ks-15__c0033",
+"id": "bund-ks-15__c0032",
 "titel": "Ziff. 3.4 Voraussetzungen nachträgliche Transparenz, nicht transparente Produkte (Teil 1/2)",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -916,11 +888,11 @@
 ],
 "zusammenfassung": "Nachträgliche Transparenz setzt mindestens ein Single-A-Rating und Börsenkotierung bzw. liquiden Handel durch einen Market Maker voraus; sonst gilt das Produkt als nicht transparent.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0032",
-"nachher": "bund-ks-15__c0034"
+"vorher": "bund-ks-15__c0031",
+"nachher": "bund-ks-15__c0033"
 },
 {
-"id": "bund-ks-15__c0034",
+"id": "bund-ks-15__c0033",
 "titel": "Ziff. 3.4 Voraussetzungen nachträgliche Transparenz, nicht transparente Produkte (Teil 2/2)",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -943,11 +915,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0033",
-"nachher": "bund-ks-15__c0035"
+"vorher": "bund-ks-15__c0032",
+"nachher": "bund-ks-15__c0034"
 },
 {
-"id": "bund-ks-15__c0035",
+"id": "bund-ks-15__c0034",
 "titel": "Ziff. 3.4.1 Transparente Produkte – Besteuerung Anlage- und Optionsteil",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -972,11 +944,11 @@
 ],
 "zusammenfassung": "Beim transparenten Produkt wird der Obligationenteil als Obligation besteuert, Optionsgewinne und -verluste sind im Privatvermögen steuerlich unbeachtlich.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0034",
-"nachher": "bund-ks-15__c0036"
+"vorher": "bund-ks-15__c0033",
+"nachher": "bund-ks-15__c0035"
 },
 {
-"id": "bund-ks-15__c0036",
+"id": "bund-ks-15__c0035",
 "titel": "Ziff. 3.4.1 Modifizierte Differenzbesteuerung (BFP-Service), Stempelabgaben",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -1002,11 +974,11 @@
 ],
 "zusammenfassung": "Der Originalzinssatz wird vierteljährlich anhand des 5-jährigen Swapsatzes angepasst; die Verrechnungssteuer wird nur auf dem Originaldiskont erhoben (Beispiel Nr. 4).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0035",
-"nachher": "bund-ks-15__c0037"
+"vorher": "bund-ks-15__c0034",
+"nachher": "bund-ks-15__c0036"
 },
 {
-"id": "bund-ks-15__c0037",
+"id": "bund-ks-15__c0036",
 "titel": "Ziff. 3.4.1 Stempelabgaben; Ziff. 3.4.2 Nicht transparente Produkte",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -1031,11 +1003,11 @@
 ],
 "zusammenfassung": "Bei nicht transparenten Produkten ist alles über das investierte Kapital hinaus Erhaltene steuerbar; bei Handänderung zählt die Differenz zwischen Kauf- und Verkaufspreis des Gesamtinstruments.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0036",
-"nachher": "bund-ks-15__c0038"
+"vorher": "bund-ks-15__c0035",
+"nachher": "bund-ks-15__c0037"
 },
 {
-"id": "bund-ks-15__c0038",
+"id": "bund-ks-15__c0037",
 "titel": "Ziff. 3.5 Klassische Options- und Wandelanleihen – Besteuerung",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -1059,11 +1031,11 @@
 ],
 "zusammenfassung": "Bei klassischen Options-/Wandelanleihen inländischer Emittenten wird die Differenz zwischen Wert ex-Option und Rückzahlungsbetrag nicht erfasst; nur periodische Zinsen sind steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0037",
-"nachher": "bund-ks-15__c0039"
+"vorher": "bund-ks-15__c0036",
+"nachher": "bund-ks-15__c0038"
 },
 {
-"id": "bund-ks-15__c0039",
+"id": "bund-ks-15__c0038",
 "titel": "Ziff. 3.6 Reverse Convertibles – Besteuerung Zinsteil und Optionsprämie",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -1087,11 +1059,11 @@
 ],
 "zusammenfassung": "Reverse Convertibles sind regelmässig transparent: steuerbar ist die marktkonforme Zinskomponente, Optionsprämien bleiben steuerfrei.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0038",
-"nachher": "bund-ks-15__c0040"
+"vorher": "bund-ks-15__c0037",
+"nachher": "bund-ks-15__c0039"
 },
 {
-"id": "bund-ks-15__c0040",
+"id": "bund-ks-15__c0039",
 "titel": "Ziff. 3.6 Reverse Convertibles – Nennwert, Kapitalschutz, Umsatzabgabe",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -1113,11 +1085,11 @@
 ],
 "zusammenfassung": "Nennwert der Obligation ist in der Regel der investierte Betrag, bei Diskontbasis der Spot-Kurs; der Kapitalschutz ist eine zusätzliche Option und kein Nominalwert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0039",
-"nachher": "bund-ks-15__c0041"
+"vorher": "bund-ks-15__c0038",
+"nachher": "bund-ks-15__c0040"
 },
 {
-"id": "bund-ks-15__c0041",
+"id": "bund-ks-15__c0040",
 "titel": "Ziff. 3.7 Negativzinsen – kein Schuldzinsenabzug, Kapitalverlust",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -1142,11 +1114,11 @@
 ],
 "zusammenfassung": "Negativzinsen auf Anlagen sind eine Prämie und qualifizieren als Kapitalverlust; sie sind keine abzugsfähigen Schuldzinsen nach Art. 33 Abs. 1 Bst. a DBG.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0040",
-"nachher": "bund-ks-15__c0042"
+"vorher": "bund-ks-15__c0039",
+"nachher": "bund-ks-15__c0041"
 },
 {
-"id": "bund-ks-15__c0042",
+"id": "bund-ks-15__c0041",
 "titel": "Ziff. 3.7 Negativzinsen auf Bankguthaben – Gewinnungskosten",
 "pfad": [
 "3 Grundsätze der Besteuerung",
@@ -1173,11 +1145,11 @@
 ],
 "zusammenfassung": "Negativzinsen auf Bank- und Sparkassenguthaben im Privatvermögen sind als Gewinnungskosten nach Art. 32 Abs. 1 DBG abziehbar; bei handelbaren Forderungspapieren nicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0041",
-"nachher": "bund-ks-15__c0043"
+"vorher": "bund-ks-15__c0040",
+"nachher": "bund-ks-15__c0042"
 },
 {
-"id": "bund-ks-15__c0043",
+"id": "bund-ks-15__c0042",
 "titel": "Ziff. 4.1–4.2 Kennzeichnung in Kursliste (IUP), Bankbescheinigung (Teil 1/2)",
 "pfad": [
 "4 Kennzeichnung in der Kursliste"
@@ -1200,11 +1172,11 @@
 ],
 "zusammenfassung": "Die ESTV kennzeichnet überwiegend einmalverzinsliche Papiere in der Kursliste mit IUP; bei modifizierter Differenzbesteuerung bescheinigen die Banken die Tageskurse der Anlageteile.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0042",
-"nachher": "bund-ks-15__c0044"
+"vorher": "bund-ks-15__c0041",
+"nachher": "bund-ks-15__c0043"
 },
 {
-"id": "bund-ks-15__c0044",
+"id": "bund-ks-15__c0043",
 "titel": "Ziff. 4.1–4.2 Kennzeichnung in Kursliste (IUP), Bankbescheinigung (Teil 2/2)",
 "pfad": [
 "4 Kennzeichnung in der Kursliste"
@@ -1227,11 +1199,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0043",
-"nachher": "bund-ks-15__c0045"
+"vorher": "bund-ks-15__c0042",
+"nachher": "bund-ks-15__c0044"
 },
 {
-"id": "bund-ks-15__c0045",
+"id": "bund-ks-15__c0044",
 "titel": "Ziff. 4.3 Nicht an Schweizer Börsen kotierte Papiere; Ziff. 5 Spezialfälle",
 "pfad": [
 "4 Kennzeichnung in der Kursliste",
@@ -1254,11 +1226,11 @@
 ],
 "zusammenfassung": "Bei nicht in der Schweiz kotierten Papieren gilt primär der erste Schlusskurs ex-Option an der ausländischen Börse; Spezialfälle werden in Anhang III geführt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0044",
-"nachher": "bund-ks-15__c0046"
+"vorher": "bund-ks-15__c0043",
+"nachher": "bund-ks-15__c0045"
 },
 {
-"id": "bund-ks-15__c0046",
+"id": "bund-ks-15__c0045",
 "titel": "Ziff. 6 Inkrafttreten (Fälligkeiten ab 1. Januar 2018) und Anhangsverzeichnis",
 "pfad": [
 "6 Inkrafttreten"
@@ -1276,11 +1248,11 @@
 "positionen": null,
 "zusammenfassung": "Das KS 15 gilt für Ertragsfälligkeiten ab 1. Januar 2018 und ersetzt das KS 15 vom 7. Februar 2007.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0045",
-"nachher": "bund-ks-15__c0047"
+"vorher": "bund-ks-15__c0044",
+"nachher": "bund-ks-15__c0046"
 },
 {
-"id": "bund-ks-15__c0047",
+"id": "bund-ks-15__c0046",
 "titel": "Anhang I Übersicht Obligationen, Derivate und kombinierte Produkte",
 "pfad": [
 "Anhang I"
@@ -1299,11 +1271,11 @@
 "positionen": null,
 "zusammenfassung": "Schematische Übersicht der Arten von Obligationen, derivativen Finanzinstrumenten und kombinierten Produkten.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0046",
-"nachher": "bund-ks-15__c0048"
+"vorher": "bund-ks-15__c0045",
+"nachher": "bund-ks-15__c0047"
 },
 {
-"id": "bund-ks-15__c0048",
+"id": "bund-ks-15__c0047",
 "titel": "Anhang II Beispiele Nrn. 1–2 – Gesamtrendite und überwiegende Einmalverzinsung",
 "pfad": [
 "Anhang II Beispiele"
@@ -1324,11 +1296,11 @@
 ],
 "zusammenfassung": "Bei 7,5 % Gesamtrendite und Jahreszins Fr. 30.- ist Beispiel 1 (3,8 % des Anlagewerts von Fr. 788.80) nicht, Beispiel 2 (3 % von Fr. 1'000.-) überwiegend einmalverzinslich.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0047",
-"nachher": "bund-ks-15__c0049"
+"vorher": "bund-ks-15__c0046",
+"nachher": "bund-ks-15__c0048"
 },
 {
-"id": "bund-ks-15__c0049",
+"id": "bund-ks-15__c0048",
 "titel": "Anhang II Beispiel Nr. 3 – Sachverhalt und Annahmen ($-Obligation) (Teil 1/2)",
 "pfad": [
 "Anhang II Beispiele"
@@ -1350,11 +1322,11 @@
 ],
 "zusammenfassung": "Obligation zu \\$ 826.40 emittiert, nach sieben Jahren zu \\$ 1'000.- zurückbezahlt, Jahreszins \\$ 20.-, Originalrendite 5 %.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0048",
-"nachher": "bund-ks-15__c0050"
+"vorher": "bund-ks-15__c0047",
+"nachher": "bund-ks-15__c0049"
 },
 {
-"id": "bund-ks-15__c0050",
+"id": "bund-ks-15__c0049",
 "titel": "Anhang II Beispiel Nr. 3 – Sachverhalt und Annahmen ($-Obligation) (Teil 2/2)",
 "pfad": [
 "Anhang II Beispiele"
@@ -1376,11 +1348,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0049",
-"nachher": "bund-ks-15__c0051"
+"vorher": "bund-ks-15__c0048",
+"nachher": "bund-ks-15__c0050"
 },
 {
-"id": "bund-ks-15__c0051",
+"id": "bund-ks-15__c0050",
 "titel": "Anhang II Beispiel Nr. 3 – Berechnung steuerbare Einkünfte der Investoren",
 "pfad": [
 "Anhang II Beispiele"
@@ -1401,11 +1373,11 @@
 ],
 "zusammenfassung": "Steuerbare Einkünfte bzw. Verluste je Investor (z.B. erster Investor Szenario a: Sfr. 100.80; zweiter Investor Szenario c: – Sfr. 60.60).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0050",
-"nachher": "bund-ks-15__c0052"
+"vorher": "bund-ks-15__c0049",
+"nachher": "bund-ks-15__c0051"
 },
 {
-"id": "bund-ks-15__c0052",
+"id": "bund-ks-15__c0051",
 "titel": "Anhang II Beispiel Nr. 4 – IUP-Obligation mit Option: Sachverhalt, Bondwerte (Teil 1/2)",
 "pfad": [
 "Anhang II Beispiele"
@@ -1426,11 +1398,11 @@
 ],
 "zusammenfassung": "Fünfjährige IUP-Obligation (Zins Fr. 20.-, Nennwert Fr. 1'000.-, Originalrendite 6 %, Emissionspreis Fr. 831.50); Barwert bei der ersten Handänderung Fr. 916.55.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0051",
-"nachher": "bund-ks-15__c0053"
+"vorher": "bund-ks-15__c0050",
+"nachher": "bund-ks-15__c0052"
 },
 {
-"id": "bund-ks-15__c0053",
+"id": "bund-ks-15__c0052",
 "titel": "Anhang II Beispiel Nr. 4 – IUP-Obligation mit Option: Sachverhalt, Bondwerte (Teil 2/2)",
 "pfad": [
 "Anhang II Beispiele"
@@ -1451,11 +1423,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0052",
-"nachher": "bund-ks-15__c0054"
+"vorher": "bund-ks-15__c0051",
+"nachher": "bund-ks-15__c0053"
 },
 {
-"id": "bund-ks-15__c0054",
+"id": "bund-ks-15__c0053",
 "titel": "Anhang II Beispiel Nr. 4 – Steuerbare Einkünfte und Verrechnungssteuer",
 "pfad": [
 "Anhang II Beispiele"
@@ -1477,11 +1449,11 @@
 ],
 "zusammenfassung": "Steuerbar: Fr. 85.05 (erster), Fr. 58.10 (zweiter), Fr. 25.35 (dritter Investor); Verrechnungssteuer auf Coupon Fr. 20.- und Originaldiskont Fr. 168.50.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0053",
-"nachher": "bund-ks-15__c0055"
+"vorher": "bund-ks-15__c0052",
+"nachher": "bund-ks-15__c0054"
 },
 {
-"id": "bund-ks-15__c0055",
+"id": "bund-ks-15__c0054",
 "titel": "Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 1/3)",
 "pfad": [
 "Anhang II Beispiele"
@@ -1504,12 +1476,39 @@
 ],
 "zusammenfassung": "Von jährlich Fr. 800.- auf Fr. 10'000.- sind Fr. 225.- Zins (steuerbar) und Fr. 575.- Optionsprämie (steuerlich unbeachtlich).",
 "chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-15__c0053",
+"nachher": "bund-ks-15__c0055"
+},
+{
+"id": "bund-ks-15__c0055",
+"titel": "Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 2/3)",
+"pfad": [
+"Anhang II Beispiele"
+],
+"seiten": [
+18,
+19
+],
+"artikel": null,
+"ziffer": "Nr. 5",
+"stichworte": [
+"Reverse Convertible",
+"Revexus",
+"Zinskomponente",
+"Optionsprämie",
+"Fr. 800"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-15__c0054",
 "nachher": "bund-ks-15__c0056"
 },
 {
 "id": "bund-ks-15__c0056",
-"titel": "Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 2/3)",
+"titel": "Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 3/3)",
 "pfad": [
 "Anhang II Beispiele"
 ],
@@ -1536,33 +1535,6 @@
 },
 {
 "id": "bund-ks-15__c0057",
-"titel": "Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 3/3)",
-"pfad": [
-"Anhang II Beispiele"
-],
-"seiten": [
-18,
-19
-],
-"artikel": null,
-"ziffer": "Nr. 5",
-"stichworte": [
-"Reverse Convertible",
-"Revexus",
-"Zinskomponente",
-"Optionsprämie",
-"Fr. 800"
-],
-"positionen": [
-"einkommen.wertschriften"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0056",
-"nachher": "bund-ks-15__c0058"
-},
-{
-"id": "bund-ks-15__c0058",
 "titel": "Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 1/3)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1585,12 +1557,39 @@
 ],
 "zusammenfassung": "Klassische Index-/Basketzertifikate (mindestens fünf Aktientitel) werden als eigene Kategorie behandelt; zugrunde liegende Gewinne und Verluste sind Kapitalgewinne/-verluste.",
 "chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-15__c0056",
+"nachher": "bund-ks-15__c0058"
+},
+{
+"id": "bund-ks-15__c0058",
+"titel": "Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 2/3)",
+"pfad": [
+"Anhang III Spezialfälle",
+"1 Index- und Basketzertifikate auf Aktien"
+],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": "Anh. III 1a",
+"stichworte": [
+"Indexzertifikat",
+"Basketzertifikat",
+"Aktienzertifikat",
+"Short-Zertifikat",
+"Ausgleichszahlung"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-15__c0057",
 "nachher": "bund-ks-15__c0059"
 },
 {
 "id": "bund-ks-15__c0059",
-"titel": "Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 2/3)",
+"titel": "Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 3/3)",
 "pfad": [
 "Anhang III Spezialfälle",
 "1 Index- und Basketzertifikate auf Aktien"
@@ -1617,33 +1616,6 @@
 },
 {
 "id": "bund-ks-15__c0060",
-"titel": "Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 3/3)",
-"pfad": [
-"Anhang III Spezialfälle",
-"1 Index- und Basketzertifikate auf Aktien"
-],
-"seiten": [
-19
-],
-"artikel": null,
-"ziffer": "Anh. III 1a",
-"stichworte": [
-"Indexzertifikat",
-"Basketzertifikat",
-"Aktienzertifikat",
-"Short-Zertifikat",
-"Ausgleichszahlung"
-],
-"positionen": [
-"einkommen.wertschriften"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0059",
-"nachher": "bund-ks-15__c0061"
-},
-{
-"id": "bund-ks-15__c0061",
 "titel": "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 1/3)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1667,12 +1639,40 @@
 ],
 "zusammenfassung": "Ausgleichszahlungen sind steuerbarer Vermögensertrag (Art. 20 Abs. 1 Bst. a DBG); Gewinne aus den Basiswerten sind steuerfreie Kapitalgewinne.",
 "chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-15__c0059",
+"nachher": "bund-ks-15__c0061"
+},
+{
+"id": "bund-ks-15__c0061",
+"titel": "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 2/3)",
+"pfad": [
+"Anhang III Spezialfälle",
+"1 Index- und Basketzertifikate auf Aktien"
+],
+"seiten": [
+19,
+20
+],
+"artikel": null,
+"ziffer": "Anh. III 1a",
+"stichworte": [
+"Ausgleichszahlung Dividende",
+"Total Return",
+"Diskont Agio",
+"Art. 16 Abs. 3 DBG",
+"Edelmetallzertifikat"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-15__c0060",
 "nachher": "bund-ks-15__c0062"
 },
 {
 "id": "bund-ks-15__c0062",
-"titel": "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 2/3)",
+"titel": "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 3/3)",
 "pfad": [
 "Anhang III Spezialfälle",
 "1 Index- und Basketzertifikate auf Aktien"
@@ -1700,34 +1700,6 @@
 },
 {
 "id": "bund-ks-15__c0063",
-"titel": "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 3/3)",
-"pfad": [
-"Anhang III Spezialfälle",
-"1 Index- und Basketzertifikate auf Aktien"
-],
-"seiten": [
-19,
-20
-],
-"artikel": null,
-"ziffer": "Anh. III 1a",
-"stichworte": [
-"Ausgleichszahlung Dividende",
-"Total Return",
-"Diskont Agio",
-"Art. 16 Abs. 3 DBG",
-"Edelmetallzertifikat"
-],
-"positionen": [
-"einkommen.wertschriften"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0062",
-"nachher": "bund-ks-15__c0064"
-},
-{
-"id": "bund-ks-15__c0064",
 "titel": "Anhang III Ziff. 1b Dynamische Index- und Basketzertifikate auf Aktien (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1749,11 +1721,11 @@
 ],
 "zusammenfassung": "Dynamische Zertifikate gelten als kollektive Kapitalanlagen, ausser sie werden kumulativ nach im Voraus festgelegten objektiven Kriterien passiv bewirtschaftet.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0063",
-"nachher": "bund-ks-15__c0065"
+"vorher": "bund-ks-15__c0062",
+"nachher": "bund-ks-15__c0064"
 },
 {
-"id": "bund-ks-15__c0065",
+"id": "bund-ks-15__c0064",
 "titel": "Anhang III Ziff. 1b Dynamische Index- und Basketzertifikate auf Aktien (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1775,11 +1747,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0064",
-"nachher": "bund-ks-15__c0066"
+"vorher": "bund-ks-15__c0063",
+"nachher": "bund-ks-15__c0065"
 },
 {
-"id": "bund-ks-15__c0066",
+"id": "bund-ks-15__c0065",
 "titel": "Anhang III Ziff. 1c Zertifikate auf Aktien ohne feste Laufzeit (open end)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1800,11 +1772,11 @@
 ],
 "zusammenfassung": "Open-end-Zertifikate gelten nur bei jährlichem Kündigungsrecht des Investors als Termingeschäfte.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0065",
-"nachher": "bund-ks-15__c0067"
+"vorher": "bund-ks-15__c0064",
+"nachher": "bund-ks-15__c0066"
 },
 {
-"id": "bund-ks-15__c0067",
+"id": "bund-ks-15__c0066",
 "titel": "Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate) (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1827,11 +1799,11 @@
 ],
 "zusammenfassung": "Bond-Zertifikate qualifizieren selber als Obligationen und werden nach KS 15 Ziff. 3.1 ff. besteuert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0066",
-"nachher": "bund-ks-15__c0068"
+"vorher": "bund-ks-15__c0065",
+"nachher": "bund-ks-15__c0067"
 },
 {
-"id": "bund-ks-15__c0068",
+"id": "bund-ks-15__c0067",
 "titel": "Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate) (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1854,11 +1826,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0067",
-"nachher": "bund-ks-15__c0069"
+"vorher": "bund-ks-15__c0066",
+"nachher": "bund-ks-15__c0068"
 },
 {
-"id": "bund-ks-15__c0069",
+"id": "bund-ks-15__c0068",
 "titel": "Anhang III Ziff. 3 Zertifikate auf kollektive Kapitalanlagen – Einkommenssteuer (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1881,11 +1853,11 @@
 ],
 "zusammenfassung": "Ausschüttungen und thesaurierte Gewinne unterliegen jährlich der DBSt (Art. 20 Abs. 1 Bst. e DBG), ausser separat ausgewiesene Kapitalgewinne (Art. 16 Abs. 3 DBG).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0068",
-"nachher": "bund-ks-15__c0070"
+"vorher": "bund-ks-15__c0067",
+"nachher": "bund-ks-15__c0069"
 },
 {
-"id": "bund-ks-15__c0070",
+"id": "bund-ks-15__c0069",
 "titel": "Anhang III Ziff. 3 Zertifikate auf kollektive Kapitalanlagen – Einkommenssteuer (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1908,11 +1880,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0069",
-"nachher": "bund-ks-15__c0071"
+"vorher": "bund-ks-15__c0068",
+"nachher": "bund-ks-15__c0070"
 },
 {
-"id": "bund-ks-15__c0071",
+"id": "bund-ks-15__c0070",
 "titel": "Anhang III Ziff. 3 Verrechnungssteuer und Stempelabgaben bei Fondszertifikaten",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1936,11 +1908,11 @@
 ],
 "zusammenfassung": "Inländische Zertifikate auf kollektive Kapitalanlagen sind keine steuerbaren Urkunden; ausländische unterliegen der Umsatzabgabe (Art. 13 Abs. 2 Bst. b StG).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0070",
-"nachher": "bund-ks-15__c0072"
+"vorher": "bund-ks-15__c0069",
+"nachher": "bund-ks-15__c0071"
 },
 {
-"id": "bund-ks-15__c0072",
+"id": "bund-ks-15__c0071",
 "titel": "Anhang III Ziff. 3 Mitteilungspflicht Emittent, Veranlagung nach Ermessen",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1963,11 +1935,11 @@
 ],
 "zusammenfassung": "Meldet der Emittent der ESTV jährlich nicht Erträge und Kapitalgewinne, erfolgt die Veranlagung nach Ermessen auf einer marktgerechten Rendite des NAV.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0071",
-"nachher": "bund-ks-15__c0073"
+"vorher": "bund-ks-15__c0070",
+"nachher": "bund-ks-15__c0072"
 },
 {
-"id": "bund-ks-15__c0073",
+"id": "bund-ks-15__c0072",
 "titel": "Anhang III Ziff. 4a Low Exercise Price Options (LEPO) (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -1990,11 +1962,11 @@
 ],
 "zusammenfassung": "LEPO liegen vor, wenn der Ausübungspreis bei Emission unter 50 % des Basiswerts liegt; Zinskomponente bei Laufzeit bis zwölf Monate steuerfrei, bei überjährigen steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0072",
-"nachher": "bund-ks-15__c0074"
+"vorher": "bund-ks-15__c0071",
+"nachher": "bund-ks-15__c0073"
 },
 {
-"id": "bund-ks-15__c0074",
+"id": "bund-ks-15__c0073",
 "titel": "Anhang III Ziff. 4a Low Exercise Price Options (LEPO) (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2017,11 +1989,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0073",
-"nachher": "bund-ks-15__c0075"
+"vorher": "bund-ks-15__c0072",
+"nachher": "bund-ks-15__c0074"
 },
 {
-"id": "bund-ks-15__c0075",
+"id": "bund-ks-15__c0074",
 "titel": "Anhang III Ziff. 4b Mini-Futures – Funktionsweise, Hebel (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2045,11 +2017,11 @@
 ],
 "zusammenfassung": "Mini-Futures sind open end, mit Sicherheitsbarriere und fremdfinanziertem Kauf des Basiswerts, was einen Hebel bewirkt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0074",
-"nachher": "bund-ks-15__c0076"
+"vorher": "bund-ks-15__c0073",
+"nachher": "bund-ks-15__c0075"
 },
 {
-"id": "bund-ks-15__c0076",
+"id": "bund-ks-15__c0075",
 "titel": "Anhang III Ziff. 4b Mini-Futures – Funktionsweise, Hebel (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2073,11 +2045,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0075",
-"nachher": "bund-ks-15__c0077"
+"vorher": "bund-ks-15__c0074",
+"nachher": "bund-ks-15__c0076"
 },
 {
-"id": "bund-ks-15__c0077",
+"id": "bund-ks-15__c0076",
 "titel": "Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4) (Teil 1/3)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2101,12 +2073,40 @@
 ],
 "zusammenfassung": "Bei Hebel von mindestens 4 bei Emission liegt ein echtes Termingeschäft vor; sonst Zinskomponente bei Laufzeit bis zwölf Monate steuerfrei, bei überjährigen steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-15__c0075",
+"nachher": "bund-ks-15__c0077"
+},
+{
+"id": "bund-ks-15__c0077",
+"titel": "Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4) (Teil 2/3)",
+"pfad": [
+"Anhang III Spezialfälle",
+"4 LEPO und Mini-Futures"
+],
+"seiten": [
+22,
+23
+],
+"artikel": null,
+"ziffer": "Anh. III 4b",
+"stichworte": [
+"Mini-Future Hebel 4",
+"Termingeschäft",
+"Zinskomponente",
+"Swaprate LIBOR",
+"Umsatzabgabe"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-15__c0076",
 "nachher": "bund-ks-15__c0078"
 },
 {
 "id": "bund-ks-15__c0078",
-"titel": "Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4) (Teil 2/3)",
+"titel": "Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4) (Teil 3/3)",
 "pfad": [
 "Anhang III Spezialfälle",
 "4 LEPO und Mini-Futures"
@@ -2134,34 +2134,6 @@
 },
 {
 "id": "bund-ks-15__c0079",
-"titel": "Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4) (Teil 3/3)",
-"pfad": [
-"Anhang III Spezialfälle",
-"4 LEPO und Mini-Futures"
-],
-"seiten": [
-22,
-23
-],
-"artikel": null,
-"ziffer": "Anh. III 4b",
-"stichworte": [
-"Mini-Future Hebel 4",
-"Termingeschäft",
-"Zinskomponente",
-"Swaprate LIBOR",
-"Umsatzabgabe"
-],
-"positionen": [
-"einkommen.wertschriften"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0078",
-"nachher": "bund-ks-15__c0080"
-},
-{
-"id": "bund-ks-15__c0080",
 "titel": "Anhang III Ziff. 4c Termingeschäfte mit Zinsen als Basiswert",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2183,12 +2155,12 @@
 ],
 "zusammenfassung": "Bei Laufzeit bis zwölf Monate ist die Zinskomponente erst bei Vorausfinanzierung über 25 % steuerbar; bei über zwölf Monaten immer.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0079",
-"nachher": "bund-ks-15__c0081"
+"vorher": "bund-ks-15__c0078",
+"nachher": "bund-ks-15__c0080"
 },
 {
-"id": "bund-ks-15__c0081",
-"titel": "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 1/3)",
+"id": "bund-ks-15__c0080",
+"titel": "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
 "5 Reverse Convertibles"
@@ -2211,67 +2183,39 @@
 ],
 "zusammenfassung": "Diskont-Zertifikate ohne garantierte Zahlungen und Laufzeit bis zwölf Monate gelten als atypische Termingeschäfte; Gewinne und Verluste sind auf Zusehen hin steuerfrei.",
 "chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-15__c0079",
+"nachher": "bund-ks-15__c0081"
+},
+{
+"id": "bund-ks-15__c0081",
+"titel": "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 2/2)",
+"pfad": [
+"Anhang III Spezialfälle",
+"5 Reverse Convertibles"
+],
+"seiten": [
+23,
+24
+],
+"artikel": null,
+"ziffer": "Anh. III 5a",
+"stichworte": [
+"Diskont-Zertifikat",
+"Discount Certificate",
+"Reverse Convertible",
+"Barausgleich",
+"Cap"
+],
+"positionen": [
+"einkommen.wertschriften"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-15__c0080",
 "nachher": "bund-ks-15__c0082"
 },
 {
 "id": "bund-ks-15__c0082",
-"titel": "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 2/3)",
-"pfad": [
-"Anhang III Spezialfälle",
-"5 Reverse Convertibles"
-],
-"seiten": [
-23,
-24
-],
-"artikel": null,
-"ziffer": "Anh. III 5a",
-"stichworte": [
-"Diskont-Zertifikat",
-"Discount Certificate",
-"Reverse Convertible",
-"Barausgleich",
-"Cap"
-],
-"positionen": [
-"einkommen.wertschriften"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0081",
-"nachher": "bund-ks-15__c0083"
-},
-{
-"id": "bund-ks-15__c0083",
-"titel": "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 3/3)",
-"pfad": [
-"Anhang III Spezialfälle",
-"5 Reverse Convertibles"
-],
-"seiten": [
-23,
-24
-],
-"artikel": null,
-"ziffer": "Anh. III 5a",
-"stichworte": [
-"Diskont-Zertifikat",
-"Discount Certificate",
-"Reverse Convertible",
-"Barausgleich",
-"Cap"
-],
-"positionen": [
-"einkommen.wertschriften"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0082",
-"nachher": "bund-ks-15__c0084"
-},
-{
-"id": "bund-ks-15__c0084",
 "titel": "Anhang III Ziff. 5a Weitere Optionsstrategien – gleiche Behandlung",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2293,11 +2237,11 @@
 ],
 "zusammenfassung": "Zusätzliche Optionsstrategien (Bull-Call-Spread, bedingter Kapitalschutz) ändern die steuerliche Behandlung nicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0083",
-"nachher": "bund-ks-15__c0085"
+"vorher": "bund-ks-15__c0081",
+"nachher": "bund-ks-15__c0083"
 },
 {
-"id": "bund-ks-15__c0085",
+"id": "bund-ks-15__c0083",
 "titel": "Anhang III Ziff. 5b Überjährige Barrier Reverse Convertibles (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2320,11 +2264,11 @@
 ],
 "zusammenfassung": "Barrier RC mit Down-and-In-Puts (Kick-In z.B. 70 % des Ausübungspreises) gewähren bedingten Kapitalschutz; zu tiefe Barrieren führen zu faktischem Kapitalschutz.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0084",
-"nachher": "bund-ks-15__c0086"
+"vorher": "bund-ks-15__c0082",
+"nachher": "bund-ks-15__c0084"
 },
 {
-"id": "bund-ks-15__c0086",
+"id": "bund-ks-15__c0084",
 "titel": "Anhang III Ziff. 5b Überjährige Barrier Reverse Convertibles (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2347,11 +2291,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0085",
-"nachher": "bund-ks-15__c0087"
+"vorher": "bund-ks-15__c0083",
+"nachher": "bund-ks-15__c0085"
 },
 {
-"id": "bund-ks-15__c0087",
+"id": "bund-ks-15__c0085",
 "titel": "Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise (Teil 1/3)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2376,11 +2320,11 @@
 ],
 "zusammenfassung": "Step-up-/Autocall-Zertifikate zahlen bei Erreichen des Startniveaus Kapital plus Coupons zurück und haben einen bedingten Kapitalschutz.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0086",
-"nachher": "bund-ks-15__c0088"
+"vorher": "bund-ks-15__c0084",
+"nachher": "bund-ks-15__c0086"
 },
 {
-"id": "bund-ks-15__c0088",
+"id": "bund-ks-15__c0086",
 "titel": "Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise (Teil 2/3)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2405,11 +2349,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0087",
-"nachher": "bund-ks-15__c0089"
+"vorher": "bund-ks-15__c0085",
+"nachher": "bund-ks-15__c0087"
 },
 {
-"id": "bund-ks-15__c0089",
+"id": "bund-ks-15__c0087",
 "titel": "Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise (Teil 3/3)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2434,11 +2378,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0088",
-"nachher": "bund-ks-15__c0090"
+"vorher": "bund-ks-15__c0086",
+"nachher": "bund-ks-15__c0088"
 },
 {
-"id": "bund-ks-15__c0090",
+"id": "bund-ks-15__c0088",
 "titel": "Anhang III Ziff. 5b/5c Steuerliche Behandlung – modifizierte Differenzbesteuerung (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2461,11 +2405,11 @@
 ],
 "zusammenfassung": "Bei Varianten b) und c) gelten bedingte Coupons als Kapitalgewinne; die Obligation hat ausschliessliche Einmalverzinsung und unterliegt der modifizierten Differenzbesteuerung.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0089",
-"nachher": "bund-ks-15__c0091"
+"vorher": "bund-ks-15__c0087",
+"nachher": "bund-ks-15__c0089"
 },
 {
-"id": "bund-ks-15__c0091",
+"id": "bund-ks-15__c0089",
 "titel": "Anhang III Ziff. 5b/5c Steuerliche Behandlung – modifizierte Differenzbesteuerung (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2488,11 +2432,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0090",
-"nachher": "bund-ks-15__c0092"
+"vorher": "bund-ks-15__c0088",
+"nachher": "bund-ks-15__c0090"
 },
 {
-"id": "bund-ks-15__c0092",
+"id": "bund-ks-15__c0090",
 "titel": "Anhang III Ziff. 6a Kapitalgarantierte Derivate – Obligationen mit bedingten Coupons (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2514,11 +2458,11 @@
 ],
 "zusammenfassung": "Kapitalgeschützte Produkte können jährliche Zahlungen von einem Basiswert abhängig machen, auch mit garantierter Mindestverzinsung.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0091",
-"nachher": "bund-ks-15__c0093"
+"vorher": "bund-ks-15__c0089",
+"nachher": "bund-ks-15__c0091"
 },
 {
-"id": "bund-ks-15__c0093",
+"id": "bund-ks-15__c0091",
 "titel": "Anhang III Ziff. 6a Kapitalgarantierte Derivate – Obligationen mit bedingten Coupons (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2540,11 +2484,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0092",
-"nachher": "bund-ks-15__c0094"
+"vorher": "bund-ks-15__c0090",
+"nachher": "bund-ks-15__c0092"
 },
 {
-"id": "bund-ks-15__c0094",
+"id": "bund-ks-15__c0092",
 "titel": "Anhang III Ziff. 6a Steuerliche Behandlung bedingter Coupons",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2567,11 +2511,11 @@
 ],
 "zusammenfassung": "Zahlungen aus den Call-Optionen sind steuerfreie Kapitalgewinne, fix garantierte Zahlungen steuerbarer Vermögensertrag; massgebend sind nur garantierte Geldflüsse.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0093",
-"nachher": "bund-ks-15__c0095"
+"vorher": "bund-ks-15__c0091",
+"nachher": "bund-ks-15__c0093"
 },
 {
-"id": "bund-ks-15__c0095",
+"id": "bund-ks-15__c0093",
 "titel": "Anhang III Ziff. 6b Obligationen mit exotischen Optionen (Barrier, Digital) (Teil 1/3)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2594,11 +2538,11 @@
 ],
 "zusammenfassung": "Kapitalgeschützte Produkte mit exotischen Optionen gelten als transparent; Zahlungen aus der Optionenanlage sind im Privatvermögen steuerlich unbeachtlich.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0094",
-"nachher": "bund-ks-15__c0096"
+"vorher": "bund-ks-15__c0092",
+"nachher": "bund-ks-15__c0094"
 },
 {
-"id": "bund-ks-15__c0096",
+"id": "bund-ks-15__c0094",
 "titel": "Anhang III Ziff. 6b Obligationen mit exotischen Optionen (Barrier, Digital) (Teil 2/3)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2621,11 +2565,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0095",
-"nachher": "bund-ks-15__c0097"
+"vorher": "bund-ks-15__c0093",
+"nachher": "bund-ks-15__c0095"
 },
 {
-"id": "bund-ks-15__c0097",
+"id": "bund-ks-15__c0095",
 "titel": "Anhang III Ziff. 6b Obligationen mit exotischen Optionen (Barrier, Digital) (Teil 3/3)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2648,11 +2592,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0096",
-"nachher": "bund-ks-15__c0098"
+"vorher": "bund-ks-15__c0094",
+"nachher": "bund-ks-15__c0096"
 },
 {
-"id": "bund-ks-15__c0098",
+"id": "bund-ks-15__c0096",
 "titel": "Anhang III Ziff. 7 Obligationen mit «Money back»-Optionen",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2676,11 +2620,11 @@
 ],
 "zusammenfassung": "Wird der Geldanspruch geltend gemacht, ist er bei Ausübung vollumfänglich steuerbarer Zinsertrag (Art. 20 Abs. 1 Bst. a DBG) und verrechnungssteuerpflichtig.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0097",
-"nachher": "bund-ks-15__c0099"
+"vorher": "bund-ks-15__c0095",
+"nachher": "bund-ks-15__c0097"
 },
 {
-"id": "bund-ks-15__c0099",
+"id": "bund-ks-15__c0097",
 "titel": "Anhang III Ziff. 8 Wandelanleihen mit Put-Option zur vorzeitigen Rückzahlung",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2702,11 +2646,11 @@
 ],
 "zusammenfassung": "Solche Wandelanleihen gelten immer als nicht klassisch; die Put-Option ist für die Einmalverzinsung irrelevant, es gelten Ziff. 3.4 bis 3.4.2.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0098",
-"nachher": "bund-ks-15__c0100"
+"vorher": "bund-ks-15__c0096",
+"nachher": "bund-ks-15__c0098"
 },
 {
-"id": "bund-ks-15__c0100",
+"id": "bund-ks-15__c0098",
 "titel": "Anhang III Ziff. 9 Strukturierte Kredit- und Schadenderivate – Funktionsweise",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2729,11 +2673,11 @@
 ],
 "zusammenfassung": "Reine Kredit- und Schadenderivate richten sich nach Ziff. 2.2; strukturierte Produkte kombinieren eine Obligation mit einem Default-Swap.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0099",
-"nachher": "bund-ks-15__c0101"
+"vorher": "bund-ks-15__c0097",
+"nachher": "bund-ks-15__c0099"
 },
 {
-"id": "bund-ks-15__c0101",
+"id": "bund-ks-15__c0099",
 "titel": "Anhang III Ziff. 9 Steuerliche Behandlung Credit Linked Notes (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2755,11 +2699,11 @@
 ],
 "zusammenfassung": "Bei Credit Linked Notes sind sämtliche Entschädigungen steuerbarer Obligationenertrag; Schadenderivate werden wie Ziff. 3.6 behandelt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0100",
-"nachher": "bund-ks-15__c0102"
+"vorher": "bund-ks-15__c0098",
+"nachher": "bund-ks-15__c0100"
 },
 {
-"id": "bund-ks-15__c0102",
+"id": "bund-ks-15__c0100",
 "titel": "Anhang III Ziff. 9 Steuerliche Behandlung Credit Linked Notes (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2781,11 +2725,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0101",
-"nachher": "bund-ks-15__c0103"
+"vorher": "bund-ks-15__c0099",
+"nachher": "bund-ks-15__c0101"
 },
 {
-"id": "bund-ks-15__c0103",
+"id": "bund-ks-15__c0101",
 "titel": "Anhang III Ziff. 10 Aufstockung von Anleihen – Hintergrund",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2809,11 +2753,11 @@
 ],
 "zusammenfassung": "Seit 1. Januar 2001 ist Art. 14 Abs. 2 VStV aufgehoben, was bei Anleihensaufstockungen eine Aufrechnung ins Hundert bewirken kann.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0102",
-"nachher": "bund-ks-15__c0104"
+"vorher": "bund-ks-15__c0100",
+"nachher": "bund-ks-15__c0102"
 },
 {
-"id": "bund-ks-15__c0104",
+"id": "bund-ks-15__c0102",
 "titel": "Anhang III Ziff. 10 Aufstockungen – Risiko der Steuerumgehung",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2835,11 +2779,11 @@
 ],
 "zusammenfassung": "Ausländische Emittenten emittieren Aufstockungstranchen mit beträchtlichen Disagi, wodurch die direktsteuerliche Erfassung gefährdet ist.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0103",
-"nachher": "bund-ks-15__c0105"
+"vorher": "bund-ks-15__c0101",
+"nachher": "bund-ks-15__c0103"
 },
 {
-"id": "bund-ks-15__c0105",
+"id": "bund-ks-15__c0103",
 "titel": "Anhang III Ziff. 10 Praxis ESTV – Toleranzgrenze ein halbes Prozent pro Jahr (Teil 1/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2863,11 +2807,11 @@
 ],
 "zusammenfassung": "Bei Disagio der Aufstockungstranche bis ein halbes Prozent pro Jahr der Restlaufzeit wird auf Verrechnungssteuer und direkte Bundessteuer verzichtet; sonst gilt das gewogene Mittel der Disagi.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0104",
-"nachher": "bund-ks-15__c0106"
+"vorher": "bund-ks-15__c0102",
+"nachher": "bund-ks-15__c0104"
 },
 {
-"id": "bund-ks-15__c0106",
+"id": "bund-ks-15__c0104",
 "titel": "Anhang III Ziff. 10 Praxis ESTV – Toleranzgrenze ein halbes Prozent pro Jahr (Teil 2/2)",
 "pfad": [
 "Anhang III Spezialfälle",
@@ -2891,11 +2835,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0105",
-"nachher": "bund-ks-15__c0107"
+"vorher": "bund-ks-15__c0103",
+"nachher": "bund-ks-15__c0105"
 },
 {
-"id": "bund-ks-15__c0107",
+"id": "bund-ks-15__c0105",
 "titel": "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 1/3)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -2917,11 +2861,11 @@
 ],
 "zusammenfassung": "Der Bond Floor wird mit der Swap-Rate für Währung und Laufzeit berechnet und während der Laufzeit quartalsweise mit der 5-Jahres-Swap-Rate angepasst.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0106",
-"nachher": "bund-ks-15__c0108"
+"vorher": "bund-ks-15__c0104",
+"nachher": "bund-ks-15__c0106"
 },
 {
-"id": "bund-ks-15__c0108",
+"id": "bund-ks-15__c0106",
 "titel": "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 2/3)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -2943,11 +2887,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0107",
-"nachher": "bund-ks-15__c0109"
+"vorher": "bund-ks-15__c0105",
+"nachher": "bund-ks-15__c0107"
 },
 {
-"id": "bund-ks-15__c0109",
+"id": "bund-ks-15__c0107",
 "titel": "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 3/3)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -2969,11 +2913,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0108",
-"nachher": "bund-ks-15__c0110"
+"vorher": "bund-ks-15__c0106",
+"nachher": "bund-ks-15__c0108"
 },
 {
-"id": "bund-ks-15__c0110",
+"id": "bund-ks-15__c0108",
 "titel": "Anhang IV Gutachten – Entscheid Verwaltungsgericht ZH 2005",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -2994,11 +2938,11 @@
 ],
 "zusammenfassung": "Das Verwaltungsgericht ZH bejahte am 24. August 2005 die modifizierte Differenzbesteuerung, liess die Eignung der Berechnungen aber offen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0109",
-"nachher": "bund-ks-15__c0111"
+"vorher": "bund-ks-15__c0107",
+"nachher": "bund-ks-15__c0109"
 },
 {
-"id": "bund-ks-15__c0111",
+"id": "bund-ks-15__c0109",
 "titel": "Anhang IV Gutachten – Auftrag und Vorbemerkungen",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3019,11 +2963,11 @@
 ],
 "zusammenfassung": "Das Gutachten gilt nur für in der Schweiz ansässige natürliche Personen mit Produkten im Privatvermögen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0110",
-"nachher": "bund-ks-15__c0112"
+"vorher": "bund-ks-15__c0108",
+"nachher": "bund-ks-15__c0110"
 },
 {
-"id": "bund-ks-15__c0112",
+"id": "bund-ks-15__c0110",
 "titel": "Anhang IV Gutachten Ziff. III.2 Wert des Anleihensteils bei Emission",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3045,11 +2989,11 @@
 ],
 "zusammenfassung": "Der Bond Floor wird durch Abdiskontierung des Mindestrückzahlungsbetrags mit der Swap-Rate (AA/AAA) berechnet.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0111",
-"nachher": "bund-ks-15__c0113"
+"vorher": "bund-ks-15__c0109",
+"nachher": "bund-ks-15__c0111"
 },
 {
-"id": "bund-ks-15__c0113",
+"id": "bund-ks-15__c0111",
 "titel": "Anhang IV Gutachten Ziff. III.2 Verhältnismässigkeit schuldnerspezifischer Zinssatz",
 "pfad": [
 "Anhang III Gutachten SBVg",
@@ -3071,11 +3015,11 @@
 ],
 "zusammenfassung": "Der schuldnerspezifische Zinssatz würde nicht zu wesentlich anderen Ergebnissen führen; die Swap-Rate ist vertretbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0112",
-"nachher": "bund-ks-15__c0114"
+"vorher": "bund-ks-15__c0110",
+"nachher": "bund-ks-15__c0112"
 },
 {
-"id": "bund-ks-15__c0114",
+"id": "bund-ks-15__c0112",
 "titel": "Anhang IV Gutachten Ziff. III.3 Anleihensteil während der Laufzeit – Formel (Teil 1/2)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3096,11 +3040,11 @@
 ],
 "zusammenfassung": "Der Abdiskontierungssatz wird als i1 = i0 * sQ1 / sQ0 mit der 5-Jahres-Swap-Rate zu Beginn des Quartals angepasst.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0113",
-"nachher": "bund-ks-15__c0115"
+"vorher": "bund-ks-15__c0111",
+"nachher": "bund-ks-15__c0113"
 },
 {
-"id": "bund-ks-15__c0115",
+"id": "bund-ks-15__c0113",
 "titel": "Anhang IV Gutachten Ziff. III.3 Anleihensteil während der Laufzeit – Formel (Teil 2/2)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3121,11 +3065,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0114",
-"nachher": "bund-ks-15__c0116"
+"vorher": "bund-ks-15__c0112",
+"nachher": "bund-ks-15__c0114"
 },
 {
-"id": "bund-ks-15__c0116",
+"id": "bund-ks-15__c0114",
 "titel": "Anhang IV Gutachten Ziff. III.3 Credit Spreads nicht berücksichtigt",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3146,11 +3090,11 @@
 ],
 "zusammenfassung": "Veränderungen des Credit Spreads werden grundsätzlich nicht berücksichtigt, ausser bei massiver Bonitätsverschlechterung.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0115",
-"nachher": "bund-ks-15__c0117"
+"vorher": "bund-ks-15__c0113",
+"nachher": "bund-ks-15__c0115"
 },
 {
-"id": "bund-ks-15__c0117",
+"id": "bund-ks-15__c0115",
 "titel": "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 1/3)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3172,11 +3116,11 @@
 ],
 "zusammenfassung": "Eine Berechnung mit risikofreiem Zins und individuellem Credit Spread wäre extrem aufwendig; die angewandte Methode ergibt wirklichkeitsnahe Werte.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0116",
-"nachher": "bund-ks-15__c0118"
+"vorher": "bund-ks-15__c0114",
+"nachher": "bund-ks-15__c0116"
 },
 {
-"id": "bund-ks-15__c0118",
+"id": "bund-ks-15__c0116",
 "titel": "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 2/3)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3198,11 +3142,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0117",
-"nachher": "bund-ks-15__c0119"
+"vorher": "bund-ks-15__c0115",
+"nachher": "bund-ks-15__c0117"
 },
 {
-"id": "bund-ks-15__c0119",
+"id": "bund-ks-15__c0117",
 "titel": "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 3/3)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3224,11 +3168,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0118",
-"nachher": "bund-ks-15__c0120"
+"vorher": "bund-ks-15__c0116",
+"nachher": "bund-ks-15__c0118"
 },
 {
-"id": "bund-ks-15__c0120",
+"id": "bund-ks-15__c0118",
 "titel": "Anhang IV Gutachten Ziff. III.4.1 Fazit ohne Handänderung",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3249,11 +3193,11 @@
 ],
 "zusammenfassung": "Bei Erwerb aus Emission und Halten bis Verfall haben Änderungen von Zinsumfeld und Rating keine Auswirkung auf den steuerbaren Vermögensertrag.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0119",
-"nachher": "bund-ks-15__c0121"
+"vorher": "bund-ks-15__c0117",
+"nachher": "bund-ks-15__c0119"
 },
 {
-"id": "bund-ks-15__c0121",
+"id": "bund-ks-15__c0119",
 "titel": "Anhang IV Gutachten Ziff. III.4.2 Fazit mit Handänderung (Teil 1/2)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3276,11 +3220,11 @@
 ],
 "zusammenfassung": "Der Mechanismus berücksichtigt das Zinsumfeld und ermittelt den steuerbaren Vermögensertrag in rechtsgenügender Weise.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0120",
-"nachher": "bund-ks-15__c0122"
+"vorher": "bund-ks-15__c0118",
+"nachher": "bund-ks-15__c0120"
 },
 {
-"id": "bund-ks-15__c0122",
+"id": "bund-ks-15__c0120",
 "titel": "Anhang IV Gutachten Ziff. III.4.2 Fazit mit Handänderung (Teil 2/2)",
 "pfad": [
 "Anhang IV Gutachten SBVg",
@@ -3303,7 +3247,7 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-15__c0121",
+"vorher": "bund-ks-15__c0119",
 "nachher": null
 }
 ]

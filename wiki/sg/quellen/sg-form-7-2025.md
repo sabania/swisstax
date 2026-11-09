@@ -12,12 +12,16 @@ generiert: tools/build_index.py
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_7_NP_2025_HA.pdf> · lokal: [sg-form-7-2025.pdf](../../../raw/sg/2025/sg-form-7-2025.pdf) · Volltext: [sg-form-7-2025.md](../../../sources/sg/2025/sg-form-7-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `5a3777b270c8aceb…`
 
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Formularraster; Marginalspalte und Hauptspalte vermischt, Eingabefelder leer (S.1-2).
+
 ## Inhalt (5 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0001.md) | Formular 7 SG 2025 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0002.md) | Formular 7 SG 2025 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0003.md) | Formular 7 SG 2025 – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0004.md) | Formular 7 SG 2025 – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0005.md) | Formular 7 SG 2025 – Abschnitt 5 | S. 2 |  |
+| [c0001](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0001.md) | Teil A Angaben zur Liegenschaft / Steuerwert (Übertrag Seite 4 Ziff. 31) (Teil 1/2) | S. 1 | Angaben zu Art, Nutzung, Anteil und Steuerwert; Übertrag in Steuererklärung Seite 4 Ziffer 31, bei mehreren Liegenschaften in Formular 7 Z. |
+| [c0002](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0002.md) | Teil A Angaben zur Liegenschaft / Steuerwert (Übertrag Seite 4 Ziff. 31) (Teil 2/2) | S. 1 |  |
+| [c0003](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0003.md) | Teil B Erträge: Eigenmietwert (Abzug 30%) und Fremdnutzung (Ziff. 5) | S. 1 | Abzug von 30% nur für dauernd selbstbewohnte Liegenschaft am Wohnort; Total Erträge Übertrag in Steuererklärung Seite 2 Ziffer 5. |
+| [c0004](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0004.md) | Teil C Unterhalts- und Verwaltungskosten: Pauschalabzug 20% (Ziff. 15) | S. 1 | Pauschalabzug 20% der Erträge (B) nur für private Wohnliegenschaften; Übertrag Steuererklärung Seite 3 Ziffer 15. |
+| [c0005](../../../chunks/sg/2025/sg-form-7-2025/sg-form-7-2025__c0005.md) | Rückseite: Tatsächliche Unterhalts- und Verwaltungskosten (C2) | S. 2 | Nur selbst bezahlte Kosten abzugsfähig; Förderbeiträge und Versicherungsleistungen sind abzuziehen; Total C2 Übertrag Seite 3 Ziffer 15. |

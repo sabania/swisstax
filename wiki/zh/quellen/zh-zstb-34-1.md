@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-34-1.html> · lokal: [zh-zstb-34-1.html](../../../raw/zh/dauernd/zh-zstb-34-1.html) · Volltext: [zh-zstb-34-1.md](../../../sources/zh/dauernd/zh-zstb-34-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `01e1b94b93a42b57…`
 
-## Inhalt (35 Chunks)
+## Inhalt (34 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -34,7 +34,7 @@ generiert: tools/build_index.py
 | [c0016](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0016.md) | II. Unterstützungsabzug |  |  |
 | [c0017](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0017.md) | II. Unterstützungsabzug |  |  |
 | [c0018](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0018.md) | II. Unterstützungsabzug |  |  |
-| [c0019](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0019.md) | II. Unterstützungsabzug |  |  |
+| [c0019](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0019.md) | III. Kinderdrittbetreuungskostenabzug |  |  |
 | [c0020](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0020.md) | III. Kinderdrittbetreuungskostenabzug |  |  |
 | [c0021](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0021.md) | III. Kinderdrittbetreuungskostenabzug |  |  |
 | [c0022](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0022.md) | III. Kinderdrittbetreuungskostenabzug |  |  |
@@ -42,12 +42,11 @@ generiert: tools/build_index.py
 | [c0024](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0024.md) | III. Kinderdrittbetreuungskostenabzug |  |  |
 | [c0025](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0025.md) | III. Kinderdrittbetreuungskostenabzug |  |  |
 | [c0026](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0026.md) | III. Kinderdrittbetreuungskostenabzug |  |  |
-| [c0027](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0027.md) | III. Kinderdrittbetreuungskostenabzug |  |  |
-| [c0028](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0028.md) | I. Grundsatz |  |  |
+| [c0027](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0027.md) | I. Grundsatz |  |  |
+| [c0028](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0028.md) | II. Die anwendbaren Tarife |  |  |
 | [c0029](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0029.md) | II. Die anwendbaren Tarife |  |  |
 | [c0030](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0030.md) | II. Die anwendbaren Tarife |  |  |
 | [c0031](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0031.md) | II. Die anwendbaren Tarife |  |  |
 | [c0032](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0032.md) | II. Die anwendbaren Tarife |  |  |
 | [c0033](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0033.md) | II. Die anwendbaren Tarife |  |  |
-| [c0034](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0034.md) | II. Die anwendbaren Tarife |  |  |
-| [c0035](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0035.md) | III. Heirat, Scheidung und Trennung |  |  |
+| [c0034](../../../chunks/zh/dauernd/zh-zstb-34-1/zh-zstb-34-1__c0034.md) | III. Heirat, Scheidung und Trennung |  |  |

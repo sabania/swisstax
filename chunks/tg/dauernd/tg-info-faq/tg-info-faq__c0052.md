@@ -4,20 +4,27 @@ quelle: tg-info-faq
 jur: tg
 jahre: [2025, 2026]
 typ: info
-titel: "Vermögenssteuer"
+titel: "Steuerpflicht / Bemessung"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vermögenssteuer
+> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
 
-Todesfallkosten
+## Steuerpflicht / Bemessung
+
+Mündigkeit: Beginn der selbständigen Veranlagung
 :   ### Frage:
 
-    Was kann als "Todesfallkosten" abgezogen werden?
+    Ich bin 18-jährig geworden aber noch in Ausbildung bzw. noch im Studium. Muss ich trotzdem eine Steuererklärung ausfüllen?
 
     ### Antwort:
 
-    Im Steuerinventar sind alle mit dem Todesfall direkt im Zusammenhang stehenden Auslagen wie Kosten für Todesanzeige, Danksagung, Bestattungsunternehmen, Bescheinigungen, Grabstein, usw. abziehbar.
+    Ab der Steuerperiode, in welcher das 18. Altersjahr vollendet worden ist, besteht die Pflicht zur Einreichung einer Steuererklärung. Dies gilt auch dann, wenn kein Lohn erzielt worden ist oder der Lohn noch so gering war, dass keine Steuern bezahlt werden müssen.
 
-    Die Todesfallkosten können in der Steuererklärung der verstorbenen Person weder bei der Einkommens- noch bei der Vermögenssteuer berücksichtigt werden. Unter den Schulden können nur die offenen Rechnungen per Todestag deklariert werden (Abzug bei der Vermögenssteuer).
+Tod der gemeinsam besteuerten Ehefrau
+:   ### Frage:
 
-    Bei den Erbinnen und Erben reduzieren die offenen Rechnungen und die Todesfallkosten das Nachlassvermögen per Todestag entsprechend. Die Todesfallkosten können nicht beim Einkommen der Erben in Abzug gebracht werden.
+    Meine Frau ist im letzten September verstorben. Was bedeutet ihr Tod für die Steuererklärung?
+
+    ### Antwort:
+
+    Beim Tod einer gemeinsam besteuerten Person (Ehefrau/Ehemann, Partnerin/Partner in eingetragener Partnerschaft) entstehen zwei unterjährige Steuerpflichten. Bis zum Todesdatum erfolgt eine gemeinsame Besteuerung. Danach tritt die überlebende Person neu in die Steuerpflicht ein.

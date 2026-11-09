@@ -1,0 +1,288 @@
+{
+ "id": "bund-mb-21edp",
+ "hinweise": [
+  "Silbentrennung mit Zeilenumbruch (z.B. 'Invali denvorsorge') durch pdftotext im ganzen Dokument."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "titel": "Merkblatt Formular 21 EDP – Abkürzungen und Begriffe",
+   "pfad": [
+    "Merkblatt Formular 21 EDP"
+   ],
+   "stichworte": [
+    "Formular 21",
+    "Bescheinigung Vorsorgebeiträge",
+    "Vorsorgeträger",
+    "Vorsorgenehmer",
+    "BVV 3"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf",
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Merkblatt der ESTV zum Ausfüllen der Bescheinigung über Vorsorgebeiträge (Formular 21 EDP) mit Abkürzungen und Begriffsdefinitionen."
+  },
+  {
+   "start": 53,
+   "titel": "Rz 1–3 Allgemeines – Bescheinigungspflicht des Vorsorgeträgers",
+   "pfad": [
+    "Allgemeines"
+   ],
+   "stichworte": [
+    "Bescheinigungspflicht",
+    "Formular 21 Steuererklärung beilegen",
+    "Art. 81 BVG",
+    "Strafbarkeit"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf",
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Der Vorsorgeträger muss Einlagen, Prämien und Beiträge mit Formular 21 bescheinigen; der Vorsorgenehmer legt es der Steuererklärung bei, es wird nicht der ESTV eingereicht.",
+   "ziffer": "1–3"
+  },
+  {
+   "start": 80,
+   "titel": "Rz 4–6 Anwendungsbereich – 2. Säule, Säule 3a, Einkäufe Säule 3a",
+   "pfad": [
+    "Anwendungsbereich"
+   ],
+   "stichworte": [
+    "Anwendungsbereich",
+    "Säule 3a Bescheinigung",
+    "Einkauf Säule 3a",
+    "2. Säule Beiträge"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf",
+    "abzug.vorsorge.saeule3a",
+    "abzug.vorsorge.saeule3a_einkauf"
+   ],
+   "zusammenfassung": "Zu bescheinigen sind Beiträge an die 2. Säule (soweit nicht im Lohnausweis), Beiträge an die Säule 3a und Einkäufe in die Säule 3a; andere Versicherungsformen nicht.",
+   "ziffer": "4–6"
+  },
+  {
+   "start": 97,
+   "titel": "Rz 7–10 Erläuterungen Formular 21 – Felder a–c (Vorsorgeträger, AHV-Nr., Geburtsdatum)",
+   "pfad": [
+    "Erläuterungen zu den Positionen"
+   ],
+   "stichworte": [
+    "Feld a",
+    "Feld b",
+    "AHV-Versichertennummer",
+    "Geburtsdatum"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Das Formular ist nach Vordruck zu beschriften; Felder a bis c verlangen Vorsorgeträger, AHV-Versichertennummer und Geburtsdatum.",
+   "ziffer": "7–10"
+  },
+  {
+   "start": 113,
+   "titel": "Ziff. 1 Rz 11–12 Beiträge an die 2. Säule – Abgrenzung zum Lohnausweis",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 1: 2. Säule"
+   ],
+   "stichworte": [
+    "2. Säule",
+    "Einkauf",
+    "Wiedereinkauf Scheidung",
+    "Lohnausweis",
+    "aus eigenen Mitteln"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Nicht vom Lohn abgezogene, aus eigenen Mitteln geleistete Beiträge (z.B. Einkäufe, Wiedereinkäufe nach Scheidung) stehen nur im Formular 21, vom Lohn abgezogene im Lohnausweis.",
+   "ziffer": "11–12"
+  },
+  {
+   "start": 131,
+   "titel": "Ziff. 1 Rz 13–15 Lohnausweis-Leistungen und WEF-Rückzahlung",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 1: 2. Säule"
+   ],
+   "stichworte": [
+    "Lohnausweis",
+    "Kapitalleistungen",
+    "Arbeitgeberbeiträge",
+    "WEF-Vorbezug Rückzahlung",
+    "Einkauf vom Lohn abgezogen"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Auf dem Lohnausweis stehen u.a. Kapitalleistungen, übernommene Arbeitnehmerbeiträge und vom Lohn abgezogene Einkäufe; WEF-Rückzahlungen werden nicht mit Formular 21 bescheinigt.",
+   "ziffer": "13–15"
+  },
+  {
+   "start": 156,
+   "titel": "Rz 16–18 Felder d–f: Datum, als Selbständigerwerbende/r, als Arbeitnehmer/in",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 1: 2. Säule"
+   ],
+   "stichworte": [
+    "Datum Einzahlung",
+    "Selbständigerwerbender",
+    "Arbeitnehmer eigene Mittel",
+    "Beitragsjahr"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Massgebend für Einkäufe ist das Jahr der effektiven Zahlung, bei ordentlichen Beiträgen das Jahr, für das sie fakturiert werden.",
+   "ziffer": "16–18"
+  },
+  {
+   "start": 178,
+   "titel": "Rz 19–21 Felder g–i: Arbeitgeberbeiträge durch Arbeitnehmer, Beginn, Fälligkeit",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 1: 2. Säule"
+   ],
+   "stichworte": [
+    "Arbeitgeberbeiträge",
+    "mehrere Arbeitgeber",
+    "Beginn Vorsorgeverhältnis",
+    "Rücktrittsalter"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Arbeitgeberbeiträge, die der Arbeitnehmer selbst entrichtet hat, sind anzugeben; ferner Beginn des Vorsorgeverhältnisses und reglementarisches Rücktrittsalter.",
+   "ziffer": "19–21"
+  },
+  {
+   "start": 196,
+   "titel": "Rz 22–23 Felder j–k: Freiwillige Einkaufsbeiträge, ordentliche und Erhöhungsbeiträge",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 1: 2. Säule"
+   ],
+   "stichworte": [
+    "freiwillige Einkaufsbeiträge",
+    "Erhöhungsbeiträge",
+    "Lohnerhöhung"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Anzugeben sind freiwillige Einkaufsbeiträge sowie ordentliche und obligatorische Erhöhungsbeiträge, die nicht vom Lohn abgezogen wurden.",
+   "ziffer": "22–23"
+  },
+  {
+   "start": 206,
+   "titel": "Ziff. 2 Rz 24–25 Säule 3a – Arbeitgeberbeiträge und anerkannte Vorsorgeformen",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 2: Säule 3a"
+   ],
+   "stichworte": [
+    "Säule 3a",
+    "Arbeitgeberbeiträge 3a",
+    "Lohnausweis Ziffer 7",
+    "BVV 3"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Vom Arbeitgeber erbrachte 3a-Beiträge sind Einkommen, werden im Lohnausweis Ziffer 7 deklariert und ausnahmslos mit Formular 21 bescheinigt.",
+   "ziffer": "24–25"
+  },
+  {
+   "start": 222,
+   "titel": "Ziff. 2 Rz 26–27 Felder p–q: Jahr und Total Beiträge Säule 3a",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 2: Säule 3a"
+   ],
+   "stichworte": [
+    "Total Beiträge 3a",
+    "pro Police",
+    "tatsächlich entrichtete Beiträge"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Anzugeben sind die im Kalenderjahr tatsächlich entrichteten Beiträge, nicht nur der steuerlich abziehbare Betrag.",
+   "ziffer": "26–27"
+  },
+  {
+   "start": 234,
+   "titel": "Ziff. 3 Rz 28–29 Einkäufe Säule 3a – Jahresbeitragslücke",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 3: Einkäufe Säule 3a"
+   ],
+   "stichworte": [
+    "Einkauf Säule 3a",
+    "Beitragslücke",
+    "Nachzahlung 3a",
+    "eine Police",
+    "mehrere Jahre"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a_einkauf"
+   ],
+   "zusammenfassung": "Die Jahresbeitragslücke ist die Differenz zwischen maximal möglichem und effektiv einbezahltem 3a-Beitrag; pro Lücke nur ein Einkauf, mit einem Einkauf können mehrere Lücken geschlossen werden.",
+   "ziffer": "28–29"
+  },
+  {
+   "start": 254,
+   "titel": "Rz 30–31 Felder t–u: Steuerperiode und bereits geleistete 3a-Beiträge",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 3: Einkäufe Säule 3a"
+   ],
+   "stichworte": [
+    "Steuerperiode Einkauf",
+    "bereits geleistete Beiträge",
+    "alle 3a-Beiträge"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a_einkauf"
+   ],
+   "zusammenfassung": "Anzugeben sind die Steuerperiode des Einkaufs und sämtliche im betreffenden Jahr bereits geleisteten Säule-3a-Beiträge.",
+   "ziffer": "30–31"
+  },
+  {
+   "start": 266,
+   "titel": "Rz 32–33 Feld x: Total Einkaufsbeiträge Säule 3a und Abzugsgrenze im Einkaufsjahr",
+   "pfad": [
+    "Erläuterungen",
+    "Ziffer 3: Einkäufe Säule 3a"
+   ],
+   "stichworte": [
+    "Total Einkauf 3a",
+    "kleiner 3a-Abzug",
+    "Einkaufsjahr",
+    "keine Zusammenrechnung"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a_einkauf"
+   ],
+   "zusammenfassung": "Im Einkaufsjahr kann maximal der kleine Säule-3a-Abzug als Einkauf geltend gemacht werden, unabhängig davon, wie viele Jahre der Einkauf umfasst.",
+   "ziffer": "32–33"
+  },
+  {
+   "start": 277,
+   "titel": "Rz 34 Die Richtigkeit bezeugt – Bestätigung durch den Vorsorgeträger",
+   "pfad": [
+    "Die Richtigkeit bezeugt"
+   ],
+   "stichworte": [
+    "Unterschrift",
+    "Verantwortlicher",
+    "maschinell erstellt"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Die Richtigkeit ist durch den verantwortlichen Vorsorgeträger zu bestätigen; bei maschineller Erstellung genügt Firmenbezeichnung und Name der verantwortlichen Person.",
+   "ziffer": "34"
+  }
+ ]
+}

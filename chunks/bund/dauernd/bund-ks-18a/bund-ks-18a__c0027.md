@@ -4,24 +4,20 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 27"
-seiten: "7"
+titel: "Ziff. 6.2 a Übertragung in andere Vorsorgeform (Art. 3a Abs. 1 Bst. b BVV 3)"
+ziffer: "6.2 a"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 7
+> Bund · Steuerjahr 2026 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung und Übertragung · S. 9
 
-<!-- Seite 7 -->
-Einkäufe in die Säule 3a können längstens bis fünf Jahre nach Erreichen des Referenzalters
-geleistet werden (Art. 7a Abs. 5 i.V.m. Art. 7 Abs. 3 BVV3). Für Einkäufe nach Erreichen des
-Referenzalters wird vorausgesetzt, dass die steuerpflichtige Person eine Erwerbstätigkeit
-ausübt.
-
-5.7. Sonderfälle
-a)   Mitarbeit im Beruf oder im Betrieb des Ehegatten
-Bei Mitarbeit im Beruf oder im Betrieb des Ehegatten wird vermutet, diese halte sich im Rah-
-men der ehelichen Beistandspflicht, weshalb die Bildung einer Säule 3a für den mithelfenden
-Ehegatten nicht zulässig ist. Möchten die Ehegatten auch für den mithelfenden Ehepartner
-einen Abzug nach Artikel 7 BVV 3 beanspruchen, obliegt es ihnen, das Vorliegen eines den
-Rahmen der ehelichen Beistandspflicht übersteigenden Arbeitsverhältnisses darzutun. Auf
-dem entsprechenden Einkommen des mithelfenden Ehegatten müssen auf dessen Namen
-AHV/IV-Beiträge abgerechnet werden.
+Gemäss Artikel 3a Absatz 1 Buchstabe b BVV 3 besteht die Möglichkeit der vorzeitigen Aus-
+richtung der Altersleistung unter Einbringung des Guthabens in eine andere anerkannte Vor-
+sorgeform. Dieses Vorgehen setzt die vollständige Auflösung des entsprechenden Vorsorge-
+kontos bzw. der entsprechenden Versicherungspolice und den Abschluss einer neuen ge-
+bundenen Vorsorgeversicherung bzw. einer neuen gebundenen Vorsorgevereinbarung vo-
+raus (z.B. bei einer anderen Bank oder bei einer anderen Versicherungsgesellschaft). In sol-
+chen Übertragungsfällen ist keine Steuerbescheinigung auszustellen. Ein Splitting bestehen-
+der Vorsorgeguthaben ist nicht möglich. Der Steuerpflichtige kann nicht durch eine teilweise
+Übertragung vorhandener Altersguthaben der gebundenen Selbstvorsorge neue Vorsorge-
+konten oder Vorsorgeversicherungen (Säule 3a) bilden.

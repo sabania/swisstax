@@ -4,25 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 9.1 Zweiverdienerabzug – Voraussetzungen und Betrag (8'100 bis 13'400)"
-ziffer: "9.1"
-seiten: "17"
+titel: "Ziff. 9.2 Definition Erwerbseinkommen für den Zweiverdienerabzug (Teil 1/2)"
+ziffer: "9.2"
+seiten: "17-18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.1 Voraussetzungen · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.2 Definition Erwerbseinkommen · S. 17–18
 
-9   Zweiverdienerabzug
+9.2   Definition Erwerbseinkommen
 
+Unter Erwerbseinkommen ist die Gesamtheit des Einkommens einer steuerpflichtigen Per-
+son aus selbständiger und unselbständiger, haupt- und nebenberuflicher Erwerbstätigkeit
+gemäss Steuererklärung zu verstehen.
 
-9.1   Voraussetzungen
+Bei Einkommen aus unselbständiger Erwerbstätigkeit ist dies der Bruttolohn abzüglich der
+Gewinnungskosten sowie der Beiträge an die AHV/IV/EO/ALV, der Beiträge an die berufliche
+Vorsorge (2. Säule) und an die gebundene Selbstvorsorge (Säule 3a) sowie der Prämien für
+die NBU (Nicht-Berufs-Unfallversicherung).
 
-Gemäss dem am 1. Januar 2008 in Kraft getretenen Zweiverdienerabzug (Art. 33 Abs. 2
-DBG) ist vom niedrigeren Erwerbseinkommen der beiden Ehegatten ein Abzug von 50 Pro-
-zent mit einem Mindestansatz von 8’100 Franken und einem Maximalbetrag von 13'400
-Franken zuzulassen. Der Mindestansatz führt dazu, dass auch Ehepaare mit kleineren
-Zweiterwerbseinkommen im Vergleich zum bisherigen Recht trotz Neugestaltung des Zwei-
-verdienerabzugs als Prozentabzug nicht zusätzlich belastet werden. Der Abzug ist an die
-folgenden Voraussetzungen geknüpft:
-
-       die Ehegatten müssen in rechtlich und tatsächlich ungetrennter Ehe leben
-       beide Ehegatten müssen ein Erwerbseinkommen erzielen.
+Bei Einkommen aus selbständiger Erwerbstätigkeit entspricht das Erwerbseinkommen dem
+Saldo der Gewinn- und Verlustrechnung nach Abzug der Beiträge an die Säulen 2 und 3a
+und nach Vornahme allfälliger steuerlicher Berichtigungen.

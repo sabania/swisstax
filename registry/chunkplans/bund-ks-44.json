@@ -1,0 +1,488 @@
+{
+ "id": "bund-ks-44",
+ "hinweise": [
+  "Textextraktion sauber; Gliederung und Aufzählungen gut lesbar. S. 5/6: Auflistung 'Aus schweizerischen Quellen' leicht umgebrochen."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt und Inhaltsverzeichnis"
+  },
+  {
+   "start": 67,
+   "titel": "Ziff. 1 Allgemeines – Aufwandbesteuerung seit 1.1.2016",
+   "pfad": [
+    "1 Allgemeines"
+   ],
+   "stichworte": [
+    "Pauschalbesteuerung",
+    "Aufwandbesteuerung",
+    "Pauschalsteuer",
+    "Art. 14 DBG",
+    "VO Aufwandbesteuerung",
+    "Inkrafttreten 2016"
+   ],
+   "zusammenfassung": "Das Bundesgesetz über die Besteuerung nach dem Aufwand (Änderung DBG/StHG) und die neue Verordnung (SR 642.123) sind per 1. Januar 2016 in Kraft getreten.",
+   "ziffer": "1"
+  },
+  {
+   "start": 85,
+   "titel": "Ziff. 2.1 Rechtsgrundlage – Voraussetzungen Art. 14 Abs. 1 DBG",
+   "pfad": [
+    "2 Subjektive Voraussetzungen",
+    "2.1 Rechtsgrundlage"
+   ],
+   "stichworte": [
+    "Pauschalbesteuerung",
+    "kein Schweizer Bürgerrecht",
+    "zehnjährige Unterbrechung",
+    "keine Erwerbstätigkeit",
+    "Art. 205d DBG",
+    "altes Recht bis 2020"
+   ],
+   "zusammenfassung": "Anspruch auf Aufwandbesteuerung haben Personen ohne Schweizer Bürgerrecht, die erstmals oder nach mindestens zehnjähriger Unterbrechung unbeschränkt steuerpflichtig sind und in der Schweiz keine Erwerbstätigkeit ausüben; altes Recht galt bis 31. Dezember 2020.",
+   "ziffer": "2.1"
+  },
+  {
+   "start": 102,
+   "titel": "Ziff. 2.2 Kein Schweizer Bürgerrecht",
+   "pfad": [
+    "2 Subjektive Voraussetzungen",
+    "2.2 Kein Schweizer Bürgerrecht"
+   ],
+   "stichworte": [
+    "Doppelbürger",
+    "Einbürgerung",
+    "Pauschalbesteuerung Ausländer",
+    "Ehegatten Schweizer Bürgerrecht"
+   ],
+   "zusammenfassung": "Nur Ausländer können die Aufwandbesteuerung beantragen; bei Einbürgerung erlischt das Recht und für die ganze Steuerperiode gilt die ordentliche Besteuerung.",
+   "ziffer": "2.2"
+  },
+  {
+   "start": 113,
+   "titel": "Ziff. 2.3 Zuzug ohne Erwerbstätigkeit – Rückkehr und Erwerbstätigkeit",
+   "pfad": [
+    "2 Subjektive Voraussetzungen",
+    "2.3 Zuzug ohne Erwerbstätigkeit"
+   ],
+   "stichworte": [
+    "Erwerbstätigkeit Schweiz",
+    "Zuzug",
+    "Landesabwesenheit",
+    "Künstler",
+    "Verwaltungsrat",
+    "Rückkehr"
+   ],
+   "zusammenfassung": "Wer in der Schweiz einem Haupt- oder Nebenberuf nachgeht und daraus im In- oder Ausland Einkünfte erzielt, hat keinen Anspruch auf Aufwandbesteuerung; früher nach dem Aufwand Besteuerte können nach Landesabwesenheit ungeachtet der 10-Jahresfrist wieder so besteuert werden.",
+   "ziffer": "2.3"
+  },
+  {
+   "start": 129,
+   "titel": "Ziff. 2.3 Diplomaten und Beamte internationaler Organisationen",
+   "pfad": [
+    "2 Subjektive Voraussetzungen",
+    "2.3 Zuzug ohne Erwerbstätigkeit"
+   ],
+   "stichworte": [
+    "Diplomaten",
+    "Konsularbeamte",
+    "internationale Organisationen",
+    "Pensionierung Schweiz",
+    "Pauschalbesteuerung"
+   ],
+   "zusammenfassung": "Pensionierte Diplomaten, Konsularbeamte und Beamte internationaler Organisationen mit früherem Wohnsitz in der Schweiz können keine Aufwandbesteuerung beanspruchen.",
+   "ziffer": "2.3"
+  },
+  {
+   "start": 136,
+   "titel": "Ziff. 2.4 Erfüllung der Voraussetzungen durch beide Ehegatten",
+   "pfad": [
+    "2 Subjektive Voraussetzungen",
+    "2.4 Ehegatten"
+   ],
+   "stichworte": [
+    "Ehegatten",
+    "Ehepaar Pauschalbesteuerung",
+    "Verlust Recht Aufwandbesteuerung",
+    "ungetrennte Ehe"
+   ],
+   "zusammenfassung": "Bei ungetrennter Ehe müssen beide Ehegatten die Voraussetzungen erfüllen; Schweizer Bürgerrecht oder Erwerbstätigkeit in der Schweiz eines Ehegatten führt zum Verlust des Rechts für beide.",
+   "ziffer": "2.4"
+  },
+  {
+   "start": 145,
+   "titel": "Ziff. 2.5 Beginn des Rechts auf Aufwandbesteuerung",
+   "pfad": [
+    "2 Subjektive Voraussetzungen",
+    "2.5 Beginn des Rechts"
+   ],
+   "stichworte": [
+    "Beginn Steuerpflicht",
+    "Aufenthalt",
+    "Verzicht auf Aufwandbesteuerung",
+    "Wohnsitz",
+    "Wechsel zu ordentlicher Besteuerung"
+   ],
+   "zusammenfassung": "Das Recht entsteht bei Beginn der Steuerpflicht; wer auf die Aufwandbesteuerung verzichtet und ordentlich besteuert wird, kann in der Regel nicht wieder nach dem Aufwand besteuert werden.",
+   "ziffer": "2.5"
+  },
+  {
+   "start": 157,
+   "titel": "Ziff. 3.1 Rechtsgrundlage – Mindestbemessung Art. 14 Abs. 3 DBG",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.1 Rechtsgrundlage"
+   ],
+   "stichworte": [
+    "Mindestbetrag 400 000 Franken",
+    "Siebenfaches Mietzins",
+    "Dreifaches Pensionspreis",
+    "Eigenmietwert",
+    "Lebenshaltungskosten",
+    "Bruttoerträge"
+   ],
+   "zusammenfassung": "Bemessung nach den weltweiten Lebenshaltungskosten, mindestens aber nach dem höchsten von: 400 000 Franken, dem Siebenfachen des Mietzinses/Mietwerts (eigener Haushalt), dem Dreifachen des Pensionspreises (übrige) oder der Summe der Bruttoerträge nach Bst. d.",
+   "ziffer": "3.1",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 183,
+   "titel": "Ziff. 3.2 Weltweiter Aufwand – Prinzip",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.2 Weltweiter Aufwand"
+   ],
+   "stichworte": [
+    "weltweiter Aufwand",
+    "Lebenshaltungskosten",
+    "Unterhaltskosten",
+    "Schenkung",
+    "keine Abzüge"
+   ],
+   "zusammenfassung": "Die Steuer bemisst sich nach den jährlichen im In- und Ausland entstandenen Lebenshaltungskosten der steuerpflichtigen Person und der von ihr unterhaltenen Personen; ausserordentliche Kosten wie eine Schenkung zählen in der Regel nicht dazu.",
+   "ziffer": "3.2"
+  },
+  {
+   "start": 190,
+   "titel": "Ziff. 3.2 Lebenshaltungskosten – Aufzählung",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.2 Weltweiter Aufwand"
+   ],
+   "stichworte": [
+    "Verpflegung",
+    "Unterkunft",
+    "Personal",
+    "Reisen Ferien",
+    "Automobile Jachten",
+    "Schulkosten Kinder",
+    "Haustiere"
+   ],
+   "zusammenfassung": "Zu den Lebenshaltungskosten zählen insbesondere Verpflegung, Kleidung, Unterkunft, Steuern, Personal, Unterhaltsbeiträge, Bildung, Reisen, Haustiere und Unterhalt von Fahrzeugen, Booten und Flugzeugen; auch vom Ehegatten und den Kindern aus eigenen Mitteln bestrittene Kosten gehören dazu.",
+   "ziffer": "3.2"
+  },
+  {
+   "start": 206,
+   "titel": "Ziff. 3.2 Ordentlicher Tarif und kein Abzug vom steuerbaren Betrag",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.2 Weltweiter Aufwand"
+   ],
+   "stichworte": [
+    "ordentlicher Tarif",
+    "keine Abzüge",
+    "Kontrollrechnung",
+    "steuerbarer Betrag"
+   ],
+   "zusammenfassung": "Der weltweite Aufwand wird nach dem ordentlichen Tarif besteuert, wenn er nicht niedriger ist als einer der Mindestbeträge; Abzüge sind nicht möglich, vorbehalten die Kontrollrechnung.",
+   "ziffer": "3.2"
+  },
+  {
+   "start": 215,
+   "titel": "Ziff. 3.3 Mindestwerte und Kontrollrechnung – Ziff. 3.3.1 Mindestbetrag 400 000 Franken",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.3 Mindestwerte und Kontrollrechnung"
+   ],
+   "stichworte": [
+    "400 000 Franken",
+    "Mindestwerte",
+    "Teuerungsanpassung",
+    "Landesindex der Konsumentenpreise",
+    "Art. 14 Abs. 6 DBG"
+   ],
+   "zusammenfassung": "Der weltweite Aufwand ist mindestens auf 400 000 Franken festzulegen; das EFD passt den Betrag an den Landesindex der Konsumentenpreise an.",
+   "ziffer": "3.3 / 3.3.1"
+  },
+  {
+   "start": 226,
+   "titel": "Ziff. 3.3.2 Siebenfacher Mietzins oder Mietwert (Bst. b)",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.3 Mindestwerte",
+    "3.3.2 Art. 14 Abs. 3 Bst. b DBG"
+   ],
+   "stichworte": [
+    "Siebenfaches des Mietzinses",
+    "Mietwert",
+    "eigener Haushalt",
+    "mehrere Liegenschaften",
+    "Mietzins ohne Heizung"
+   ],
+   "zusammenfassung": "Bei eigenem Haushalt beträgt die Summe der Aufwendungen mindestens das Siebenfache des Mietzinses oder Mietwerts; bei mehreren Liegenschaften gilt der höchste Mietzins bzw. Mietwert.",
+   "ziffer": "3.3.2",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 239,
+   "titel": "Ziff. 3.3.3 Dreifacher Pensionspreis (Bst. c)",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.3 Mindestwerte",
+    "3.3.3 Art. 14 Abs. 3 Bst. c DBG"
+   ],
+   "stichworte": [
+    "Dreifaches des Pensionspreises",
+    "ohne eigenen Haushalt",
+    "Hotel",
+    "Unterkunft und Verpflegung"
+   ],
+   "zusammenfassung": "Ohne eigenen Haushalt beträgt der Aufwand mindestens das Dreifache des jährlichen Pensionspreises für Unterkunft und Verpflegung.",
+   "ziffer": "3.3.3"
+  },
+  {
+   "start": 246,
+   "titel": "Ziff. 3.3.4 Kontrollrechnung (Bst. d) – Einkünfte aus schweizerischen Quellen",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.3 Mindestwerte",
+    "3.3.4 Kontrollrechnung"
+   ],
+   "stichworte": [
+    "Kontrollrechnung",
+    "Bruttoerträge Schweiz",
+    "Kapitalvermögen Schweiz",
+    "Renten Pensionen",
+    "Fahrnis",
+    "Urheberrechte Patente"
+   ],
+   "zusammenfassung": "Herangezogen wird die Summe der Bruttoerträge aus unbeweglichem Vermögen, Fahrnis, Kapitalvermögen, Urheberrechten und Renten aus schweizerischen Quellen; Wohnsitz bzw. Sitz des Schuldners bzw. der Gesellschaft in der Schweiz ist massgebend, nicht der Verwahrungsort.",
+   "ziffer": "3.3.4"
+  },
+  {
+   "start": 270,
+   "titel": "Ziff. 3.3.4 Kontrollrechnung – Einkünfte aus ausländischen Quellen (DBA-Entlastung)",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.3 Mindestwerte",
+    "3.3.4 Kontrollrechnung"
+   ],
+   "stichworte": [
+    "Doppelbesteuerungsabkommen",
+    "ausländische Quellensteuer",
+    "Dividenden Zinsen Lizenzgebühren",
+    "Bruttobetrag",
+    "Entlastung ausländischer Steuern"
+   ],
+   "zusammenfassung": "Einzubeziehen sind Einkünfte, für die kraft Doppelbesteuerungsabkommen Entlastung von ausländischen Steuern beansprucht wird; Bruttobetrag ist der um den nicht rückforderbaren Teil der ausländischen Steuer gekürzte Ertrag.",
+   "ziffer": "3.3.4"
+  },
+  {
+   "start": 289,
+   "titel": "Ziff. 3.3.4 Begriff Lizenzgebühren (Royalties)",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.3 Mindestwerte",
+    "3.3.4 Kontrollrechnung"
+   ],
+   "stichworte": [
+    "Lizenzgebühren",
+    "Royalties",
+    "Urheberrechte",
+    "Patente Marken",
+    "Vergütungen"
+   ],
+   "zusammenfassung": "Als Lizenzgebühren gelten Vergütungen jeder Art für die Benutzung von Urheberrechten, Patenten, Marken, Mustern, Plänen, Formeln, Verfahren oder Ausrüstungen sowie für gewerbliche oder wissenschaftliche Erkenntnisse.",
+   "ziffer": "3.3.4"
+  },
+  {
+   "start": 296,
+   "titel": "Ziff. 3.3.4 Abziehbare Kosten bei der Kontrollrechnung (Art. 1 VO Aufwandbesteuerung)",
+   "pfad": [
+    "3 Objektive Voraussetzungen",
+    "3.3 Mindestwerte",
+    "3.3.4 Kontrollrechnung"
+   ],
+   "stichworte": [
+    "abziehbare Kosten",
+    "Liegenschaftsunterhalt",
+    "Vermögensverwaltungskosten",
+    "Schuldzinsen nicht abziehbar",
+    "Liegenschaftskostenverordnung"
+   ],
+   "zusammenfassung": "Abziehbar sind nur die Liegenschaftsunterhaltskosten nach Liegenschaftskostenverordnung und die Kosten der gewöhnlichen Verwaltung beweglichen Vermögens; Schuldzinsen, Renten und dauernde Lasten sind nicht abziehbar.",
+   "ziffer": "3.3.4",
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.verwaltungskosten_wertschriften",
+    "abzug.schuldzinsen"
+   ]
+  },
+  {
+   "start": 307,
+   "titel": "Ziff. 4 Sozialabzüge, anwendbarer Tarif, Satzbestimmung",
+   "pfad": [
+    "4 Sozialabzüge, anwendbarer Tarif, Satzbestimmung"
+   ],
+   "stichworte": [
+    "Sozialabzüge nicht zulässig",
+    "ordentlicher Steuertarif",
+    "Art. 36 DBG",
+    "Satzbestimmung",
+    "Art. 14 Abs. 4 DBG"
+   ],
+   "zusammenfassung": "Die Steuer wird nach dem ordentlichen Tarif (Art. 36 DBG) berechnet; Sozialabzüge sind nicht zulässig und das nicht unter Bst. d fallende Einkommen wird für den Steuersatz nicht berücksichtigt.",
+   "ziffer": "4"
+  },
+  {
+   "start": 319,
+   "titel": "Ziff. 5.1 Ordentliche Aufwandbesteuerung – Steuererklärung und Nachweis",
+   "pfad": [
+    "5 Verfahren",
+    "5.1 Ordentliche Aufwandbesteuerung"
+   ],
+   "stichworte": [
+    "besondere Steuererklärung",
+    "Nachweis Voraussetzungen",
+    "Verrechnungssteuer",
+    "Unterlagen unaufgefordert",
+    "Veranlagung"
+   ],
+   "zusammenfassung": "Wer Anspruch auf Aufwandbesteuerung erhebt, reicht die besondere Steuererklärung ein und weist die Voraussetzungen nach; massgebende Unterlagen sind unaufgefordert und umgehend zuzustellen.",
+   "ziffer": "5.1",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 331,
+   "titel": "Ziff. 5.1 Doppelbesteuerungsabkommen – Abkommensvorteile deklarieren",
+   "pfad": [
+    "5 Verfahren",
+    "5.1 Ordentliche Aufwandbesteuerung"
+   ],
+   "stichworte": [
+    "Doppelbesteuerungsabkommen",
+    "Abkommensvorteile",
+    "Quellensteuer Entlastung",
+    "Erklärung in Steuererklärung",
+    "unbeschränkte Steuerpflicht"
+   ],
+   "zusammenfassung": "Aufwandbesteuerte können DBA-Entlastungen von ausländischen Quellensteuern beanspruchen und müssen in der Steuererklärung angeben, ob und in welchem Umfang sie Abkommensvorteile geltend gemacht haben oder wollen.",
+   "ziffer": "5.1"
+  },
+  {
+   "start": 343,
+   "titel": "Ziff. 5.1 Inanspruchnahme DBA ohne Antrag – Nachentrichtung Quellensteuer",
+   "pfad": [
+    "5 Verfahren",
+    "5.1 Ordentliche Aufwandbesteuerung"
+   ],
+   "stichworte": [
+    "Inanspruchnahme DBA",
+    "Verzicht auf Abkommensvorteile",
+    "Quellensteuer nachentrichten",
+    "Pensionen Ruhegehälter",
+    "Lizenzgebühren"
+   ],
+   "zusammenfassung": "Ein DBA gilt auch ohne Antrag als in Anspruch genommen, wenn die Person tatsächlich entlastet wurde; bei nachträglichem Verzicht ist die nicht abgezogene Quellensteuer spontan nachzuentrichten.",
+   "ziffer": "5.1"
+  },
+  {
+   "start": 356,
+   "titel": "Ziff. 5.2 Modifizierte Aufwandbesteuerung (Art. 14 Abs. 5 DBG)",
+   "pfad": [
+    "5 Verfahren",
+    "5.2 Modifizierte Aufwandbesteuerung"
+   ],
+   "stichworte": [
+    "modifizierte Aufwandbesteuerung",
+    "Belgien Deutschland Italien Norwegen Kanada Österreich USA",
+    "Gesamtfaktoren",
+    "Maximalsatz",
+    "Satzbestimmung Schuldzinsen"
+   ],
+   "zusammenfassung": "Unter den DBA mit Belgien, Deutschland, Italien, Norwegen, Kanada, Österreich und den USA sind alle Einkünfte aus diesen Staaten in die Bemessungsgrundlage einzubeziehen; bei fehlender Angabe der Gesamtfaktoren erfolgt die Besteuerung zum Maximalsatz.",
+   "ziffer": "5.2"
+  },
+  {
+   "start": 379,
+   "titel": "Ziff. 5.2 Pauschale Steueranrechnung bei modifizierter Aufwandbesteuerung",
+   "pfad": [
+    "5 Verfahren",
+    "5.2 Modifizierte Aufwandbesteuerung"
+   ],
+   "stichworte": [
+    "pauschale Steueranrechnung",
+    "Sockelsteuern",
+    "Bruttobeträge deklarieren",
+    "Verordnung pauschale Steueranrechnung",
+    "Art. 4 Abs. 3"
+   ],
+   "zusammenfassung": "Grundsätzlich besteht kein Anspruch auf pauschale Anrechnung der Sockelsteuern; Ausnahme unter den sieben genannten DBA, wenn auf allen Einkünften aus diesen Staaten die vollen Steuern zum Satz des Gesamteinkommens entrichtet werden.",
+   "ziffer": "5.2"
+  },
+  {
+   "start": 395,
+   "titel": "Ziff. 5.2 Vorgehen bei Veranlagung: höchstes Ergebnis nach Art. 14 Abs. 3 und 5 DBG",
+   "pfad": [
+    "5 Verfahren",
+    "5.2 Modifizierte Aufwandbesteuerung"
+   ],
+   "stichworte": [
+    "Veranlagungsergebnis",
+    "Art. 131 DBG",
+    "pauschale Anrechnung kürzen",
+    "Eröffnung"
+   ],
+   "zusammenfassung": "Zu eröffnen ist stets das höchste aufgrund von Art. 14 Abs. 3 und 5 DBG resultierende Veranlagungsergebnis.",
+   "ziffer": "5.2"
+  },
+  {
+   "start": 404,
+   "titel": "Ziff. 6 Verschiedenes – Steuerbescheinigungen und Strafen",
+   "pfad": [
+    "6 Verschiedenes"
+   ],
+   "stichworte": [
+    "Steuerbescheinigung",
+    "Steuerhinterziehung",
+    "Ordnungsvorschriften",
+    "Ansässigkeitsbescheinigung"
+   ],
+   "zusammenfassung": "Amtliche Steuerbescheinigungen werden auf Wunsch abgegeben; bei falschen Angaben wird wie bei der ordentlichen Besteuerung ein Hinterziehungsverfahren eingeleitet.",
+   "ziffer": "6"
+  },
+  {
+   "start": 414,
+   "titel": "Ziff. 7 Inkrafttreten und Übergangsregelung",
+   "pfad": [
+    "7 Inkrafttreten und Übergangsregelung"
+   ],
+   "stichworte": [
+    "Inkrafttreten Steuerperiode 2016",
+    "Kreisschreiben Nr. 9 ersetzt",
+    "Übergangsfrist 31. Dezember 2020",
+    "Art. 205d DBG"
+   ],
+   "zusammenfassung": "Das Kreisschreiben ersetzt Nr. 9 vom 3. Dezember 1993 und gilt ab Steuerperiode 2016; für am 1. Januar 2016 bereits Aufwandbesteuerte gilt altes Recht bis 31. Dezember 2020.",
+   "ziffer": "7"
+  }
+ ]
+}

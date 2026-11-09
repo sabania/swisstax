@@ -4,21 +4,23 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate) (Teil 2/2)"
-ziffer: "Anh. III 2"
-seiten: "20-21"
+titel: "Anhang III Ziff. 3 Zertifikate auf kollektive Kapitalanlagen – Einkommenssteuer (Teil 1/2)"
+ziffer: "Anh. III 3"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 2 Bond-Zertifikate · S. 20–21
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 3 Zertifikate auf kollektive Kapitalanlagen · S. 21
 
-Der Zertifikatsinhaber trägt die gleichen Risiken und Chancen eines steigenden allgemeinen
-Zinsniveaus und/oder sinkender Wechselkurse wie ein gewöhnlicher Obligationär. Die Tatsa-
-che, dass sich Bond-Zertifikate auf Obligationen oder Geldmarktpapiere beziehen, impliziert
-für den Investor, dass er damit in gleicher Weise einen Anspruch auf Rückzahlung seiner In-
+3   Index- und Basketzertifikate auf ausschüttende oder thesaurie-
+    rende kollektive Kapitalanlagen
+Den Basiswert dieser Zertifikate bilden eine oder mehrere kollektive Kapitalanlagen gemäss
+Kollektivanlagegesetz vom 23. Juni 2006 (KAG). Der Ausgabe- und Rückgabepreis der Zerti-
+fikate entspricht dem Reinvermögenswert (Net Asset Value) der Basiswerte. Im Unterschied
+zu den klassischen Basketzertifikaten erfolgt die (aktive) Bewirtschaftung der Basiswerte in
+diesen Fällen durch die Fondsleitungen der jeweiligen kollektiven Kapitalanlagen nach den
+Bestimmungen des Fondsreglements und dem Ermessensspielraum der Fondsleitungen.
 
-1-015-DVS-2017-d / Anhang III
-
-vestition erhält, wie wenn er direkt in das Underlying investiert hätte. Bondzertifikate qualifi-
-zieren damit selber als Obligationen und unterliegen der entsprechenden Besteuerung (vgl.
-Kreisschreiben Nr. 15, Ziffern 3.1. ff.). Für die Zwecke der Stempelabgaben ist nicht die Lauf-
-zeit des Basiswertes, sondern diejenige des Zertifikats entscheidend.
+Der Investor partizipiert damit wirtschaftlich wie ein Anteilsinhaber im vollen Umfang an der
+Entwicklung der im Zertifikat gebündelten kollektiven Kapitalanlagen. In der Folge richtet sich
+die steuerliche Behandlung von Index- und Basketzertifikaten auf kollektive Kapitalanlagen
+nach den Regeln, die für Instrumente der kollektiven Kapitalanlagen gelten.

@@ -13,61 +13,53 @@ generiert: tools/build_index.py
 - **Abgerufen:** 2026-11-09 · sha256 `92fe449505e22c84…`
 - ⚠ **Hinweis:** ersetzt KS 18 ab 1.1.2026; für Steuerjahr 2025 gilt KS 18 (bund-ks-18)
 
-## Inhalt (54 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Layout einspaltig, gute Extraktion; Inhaltsverzeichnis auf Seite 1-2 übersprungen.
+
+## Inhalt (42 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0001.md) | KS 18a – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0002.md) | KS 18a – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0003.md) | KS 18a – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0004.md) | KS 18a – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0005.md) | KS 18a – Abschnitt 5 | S. 1 |  |
-| [c0006](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0006.md) | KS 18a – Abschnitt 6 | S. 1 |  |
-| [c0007](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0007.md) | KS 18a – Abschnitt 7 | S. 1 |  |
-| [c0008](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0008.md) | KS 18a – Abschnitt 8 | S. 2 |  |
-| [c0009](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0009.md) | KS 18a – Abschnitt 9 | S. 3 |  |
-| [c0010](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0010.md) | KS 18a – Abschnitt 10 | S. 3 |  |
-| [c0011](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0011.md) | KS 18a – Abschnitt 11 | S. 3 |  |
-| [c0012](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0012.md) | KS 18a – Abschnitt 12 | S. 3 |  |
-| [c0013](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0013.md) | KS 18a – Abschnitt 13 | S. 4 |  |
-| [c0014](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0014.md) | KS 18a – Abschnitt 14 | S. 4 |  |
-| [c0015](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0015.md) | KS 18a – Abschnitt 15 | S. 4 |  |
-| [c0016](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0016.md) | KS 18a – Abschnitt 16 | S. 4 |  |
-| [c0017](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0017.md) | KS 18a – Abschnitt 17 | S. 4 |  |
-| [c0018](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0018.md) | KS 18a – Abschnitt 18 | S. 5 |  |
-| [c0019](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0019.md) | KS 18a – Abschnitt 19 | S. 5 |  |
-| [c0020](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0020.md) | KS 18a – Abschnitt 20 | S. 5 |  |
-| [c0021](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0021.md) | KS 18a – Abschnitt 21 | S. 5 |  |
-| [c0022](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0022.md) | KS 18a – Abschnitt 22 | S. 5 |  |
-| [c0023](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0023.md) | KS 18a – Abschnitt 23 | S. 6 |  |
-| [c0024](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0024.md) | KS 18a – Abschnitt 24 | S. 6 |  |
-| [c0025](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0025.md) | KS 18a – Abschnitt 25 | S. 6 |  |
-| [c0026](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0026.md) | KS 18a – Abschnitt 26 | S. 6 |  |
-| [c0027](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0027.md) | KS 18a – Abschnitt 27 | S. 7 |  |
-| [c0028](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0028.md) | KS 18a – Abschnitt 28 | S. 7 |  |
-| [c0029](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0029.md) | KS 18a – Abschnitt 29 | S. 7 |  |
-| [c0030](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0030.md) | KS 18a – Abschnitt 30 | S. 7 |  |
-| [c0031](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0031.md) | KS 18a – Abschnitt 31 | S. 8 |  |
-| [c0032](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0032.md) | KS 18a – Abschnitt 32 | S. 8 |  |
-| [c0033](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0033.md) | KS 18a – Abschnitt 33 | S. 8 |  |
-| [c0034](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0034.md) | KS 18a – Abschnitt 34 | S. 8 |  |
-| [c0035](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0035.md) | KS 18a – Abschnitt 35 | S. 8 |  |
-| [c0036](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0036.md) | KS 18a – Abschnitt 36 | S. 9 |  |
-| [c0037](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0037.md) | KS 18a – Abschnitt 37 | S. 9 |  |
-| [c0038](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0038.md) | KS 18a – Abschnitt 38 | S. 9 |  |
-| [c0039](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0039.md) | KS 18a – Abschnitt 39 | S. 9 |  |
-| [c0040](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0040.md) | KS 18a – Abschnitt 40 | S. 9 |  |
-| [c0041](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0041.md) | KS 18a – Abschnitt 41 | S. 10 |  |
-| [c0042](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0042.md) | KS 18a – Abschnitt 42 | S. 10 |  |
-| [c0043](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0043.md) | KS 18a – Abschnitt 43 | S. 10 |  |
-| [c0044](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0044.md) | KS 18a – Abschnitt 44 | S. 10 |  |
-| [c0045](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0045.md) | KS 18a – Abschnitt 45 | S. 10 |  |
-| [c0046](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0046.md) | KS 18a – Abschnitt 46 | S. 11 |  |
-| [c0047](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0047.md) | KS 18a – Abschnitt 47 | S. 11 |  |
-| [c0048](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0048.md) | KS 18a – Abschnitt 48 | S. 11 |  |
-| [c0049](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0049.md) | KS 18a – Abschnitt 49 | S. 11 |  |
-| [c0050](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0050.md) | KS 18a – Abschnitt 50 | S. 12 |  |
-| [c0051](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0051.md) | KS 18a – Abschnitt 51 | S. 12 |  |
-| [c0052](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0052.md) | KS 18a – Abschnitt 52 | S. 12 |  |
-| [c0053](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0053.md) | KS 18a – Abschnitt 53 | S. 12 |  |
-| [c0054](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0054.md) | KS 18a – Abschnitt 54 | S. 13 |  |
+| [c0001](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0001.md) | Ziff. 1 Rechtliche Grundlagen der Säule 3a | S. 3 | Die gebundene Selbstvorsorge (Säule 3a) beruht auf Art. 82 BVG und BVV 3; anerkannte Vorsorgeformen sind gebundene Vorsorgeversicherung und gebundene Vorsorgevereinbarung mit Bankstiftung. |
+| [c0002](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0002.md) | Ziff. 2 Prüfung der Vertragsmodelle durch die ESTV | S. 3 | Vertragsmodelle sind der ESTV vor Abschluss zur Prüfung einzureichen; ohne Genehmigung ist der Abzug der Vorsorgebeiträge zu verweigern. |
+| [c0003](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0003.md) | Ziff. 2 Genehmigte Bezeichnung «gebundene Vorsorge» – sonst kein Abzug | S. 3 | Die Bezeichnungen «gebundene Vorsorgeversicherung» und «gebundene Vorsorgevereinbarung» dürfen nur für von der ESTV genehmigte Modelle verwendet werden, sonst ist der Abzug zu verweigern. |
+| [c0004](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0004.md) | Ziff. 3 Kreis der Vorsorgenehmer (AHV-pflichtiges Einkommen, Grenzgänger) | S. 3 | Vorsorgeverträge der Säule 3a können nur Personen mit AHV-pflichtigem Erwerbs- oder Erwerbsersatzeinkommen abschliessen, auch Grenzgänger mit Wohnsitz im Ausland. |
+| [c0005](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0005.md) | Ziff. 3 Erwerbstätigkeit über das Referenzalter hinaus; Freibetrag; jährlicher Nachweis | S. 3–4 | Abzug bis höchstens fünf Jahre nach Erreichen des Referenzalters, auch bei Einkommen unter dem AHV-Freibetrag (im Publikationszeitpunkt CHF 16'800 pro Arbeitgeber); der Nachweis der Erwerbstätigkeit ist jährlich zu erbringen. |
+| [c0006](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0006.md) | Ziff. 4 Begünstigte Personen | S. 4 | Im Erlebensfall ist der Vorsorgenehmer begünstigt, danach Ehegatte/eingetragener Partner, dann direkte Nachkommen und weitere in Art. 2 BVV 3 genannte Personen. |
+| [c0007](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0007.md) | Ziff. 4 Kürzung der Leistung bei vorsätzlicher Herbeiführung des Todes | S. 4 | Die Vorsorgeeinrichtung kann die Leistung kürzen oder verweigern, wenn der Begünstigte den Tod vorsätzlich herbeigeführt hat; sie fällt dann den nächsten Begünstigten zu. |
+| [c0008](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0008.md) | Ziff. 5.1 Abzugsberechtigung für Beiträge – Allgemeines | S. 4 | Beiträge sind nach Art. 33 Abs. 1 Bst. e DBG i.V.m. Art. 7 BVV 3 nur in begrenztem Umfang abziehbar und setzen Erwerbstätigkeit voraus; überschiessende Beiträge unterliegen der Rückerstattungspflicht. |
+| [c0009](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0009.md) | Ziff. 5.1 Begrenzung inkl. Risikoversicherung; Unterbruch der Erwerbstätigkeit; Prämienbefreiung | S. 4 | Die Begrenzung nach Art. 7 BVV 3 umfasst auch Beiträge an eine ergänzende Risikoversicherung; bei vorübergehendem Unterbruch (Militär, Arbeitslosigkeit, Krankheit) bleibt die Abzugsberechtigung bestehen, bei Aufgabe der Erwerbstätigkeit entfällt sie. |
+| [c0010](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0010.md) | Ziff. 5.1–5.2 Zeitpunkt der Einzahlung (31. Dezember); Anzahl Vorsorgekonten | S. 5 | Der Beitrag muss bis spätestens 31. Dezember auf dem individuellen Vorsorgekonto gutgeschrieben sein; mehrere Konten sind möglich, die Gesamtsumme darf den Maximalbetrag nach Art. 7 Abs. 1 BVV 3 nicht übersteigen. |
+| [c0011](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0011.md) | Ziff. 5.3 Oberer Grenzbetrag (8 % / 40 %) | S. 5 | Abziehbar sind jährlich 8 Prozent (Bst. a) bzw. 40 Prozent (Bst. b) des oberen Grenzbetrages nach Art. 8 Abs. 1 BVG. |
+| [c0012](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0012.md) | Ziff. 5.4 Abzug für in der 2. Säule Versicherte (kleine Säule 3a, 8 %) | S. 5 | Mit Anschluss an die 2. Säule sind die tatsächlich geleisteten Beiträge bis 8 Prozent des oberen Grenzbetrages abziehbar; beide erwerbstätigen Ehegatten können den Abzug je für sich geltend machen. |
+| [c0013](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0013.md) | Ziff. 5.5 Abzug ohne 2. Säule (grosse Säule 3a, 20 % / max. 40 %) | S. 5–6 | Nicht in der 2. Säule Versicherte können bis 20 Prozent des Erwerbseinkommens, höchstens 40 Prozent des oberen Grenzbetrages abziehen; bei Verlust aus Erwerbstätigkeit kein Abzug. |
+| [c0014](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0014.md) | Ziff. 5.5 Begriff Erwerbseinkommen für die Säule 3a | S. 6 | Erwerbseinkommen ist bei Unselbständigen der Bruttolohn nach Abzug der AHV/IV/EO/ALV-Beiträge, bei Selbständigen der Saldo der Gewinn- und Verlustrechnung nach Abzug der AHV-Beiträge, aber ohne Abzug von Vorsorgebeiträgen. |
+| [c0015](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0015.md) | Ziff. 5.6 Einkäufe in die Säule 3a – Voraussetzungen (ab 2025/2026) | S. 6 | Seit 1. Januar 2025 (Art. 7a/7b BVV 3) können Beitragslücken ab Steuerjahr 2025 durch Einkäufe nachgezahlt werden, wenn der Maximalbeitrag im Einkaufsjahr geleistet wurde und noch keine Altersleistung aus der Säule 3a bezogen wurde. |
+| [c0016](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0016.md) | Ziff. 5.6 Einkäufe Säule 3a – kumulative Voraussetzungen | S. 6 | Voraussetzungen kumulativ: im Einkaufsjahr Maximalbeitrag geleistet, in den zehn Vorjahren Lücken (erst ab Steuerjahr 2025), in den betroffenen Jahren Beitragsberechtigung und noch keine Altersleistung aus der Säule 3a bezogen. |
+| [c0017](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0017.md) | Ziff. 5.6 Einkäufe Säule 3a – Umfang (kleiner Abzug), Jahresbeitragslücke, Fristen | S. 6–7 | Der Einkauf ist pro Steuerjahr höchstens im Umfang des kleinen Abzugs (8 Prozent des oberen Grenzbetrags) möglich; jede Jahresbeitragslücke darf nur durch einen einzigen Einkauf ausgeglichen werden, längstens bis fünf Jahre nach Referenzalter. |
+| [c0018](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0018.md) | Ziff. 5.7 Sonderfall a: Mitarbeit im Beruf oder Betrieb des Ehegatten | S. 7 | Bei Mitarbeit im Beruf oder Betrieb des Ehegatten wird die eheliche Beistandspflicht vermutet; ein Abzug setzt ein darüber hinausgehendes Arbeitsverhältnis mit AHV/IV-Abrechnung auf den Namen des mithelfenden Ehegatten voraus. |
+| [c0019](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0019.md) | Ziff. 5.7 Sonderfälle b–c: Selbständige mit 2.-Säule-Nebenverdienst; IV-Bezüger | S. 7 | Selbständigerwerbende mit 2.-Säule-Nebenverdienst können nur den kleinen Abzug (Art. 7 Abs. 1 Bst. a BVV 3) geltend machen, ausser sie lassen sich von der obligatorischen Versicherung freistellen; IV-Bezüger mit AHV-pflichtigem Resterwerbseinkommen können eine Säule 3a bilden. |
+| [c0020](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0020.md) | Ziff. 5.7 Sonderfall d: Quellensteuerpflichtige | S. 7 | Quellenbesteuerte mit Wohnsitz in der Schweiz können bis 31. März des Folgejahres schriftlich eine nachträgliche ordentliche Veranlagung beantragen, um Säule-3a-Einzahlungen abzuziehen. |
+| [c0021](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0021.md) | Ziff. 5.7 Sonderfall e: Einzahlung bei Beendigung der Erwerbstätigkeit | S. 8 | Im Jahr der Beendigung der Erwerbstätigkeit kann der volle Beitrag geleistet werden, die Einzahlung muss aber erfolgen, solange die Person noch erwerbstätig ist. |
+| [c0022](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0022.md) | Ziff. 5.7 Sonderfall f: Erwerbstätige nach Erreichen des Referenzalters | S. 8 | Nach dem Referenzalter erwerbstätige Rentenbezüger können bis fünf Jahre danach 20 Prozent des Erwerbseinkommens, höchstens 40 Prozent des oberen Grenzbetrags einzahlen; bei aktiver Versicherung in der Vorsorgeeinrichtung 8 Prozent. |
+| [c0023](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0023.md) | Ziff. 5.7 Sonderfall g: Wechsel unselbständig/selbständig im Jahr | S. 8 | Beim Wechsel zwischen unselbständiger und selbständiger Erwerbstätigkeit sind ordentliche Beiträge insgesamt auf den Maximalbetrag von 40% des oberen Grenzbetrages begrenzt; bis zu 20% des selbständigen Einkommens setzt einen Jahresabschluss voraus. |
+| [c0024](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0024.md) | Ziff. 6.1 Grundsätze der Ausrichtung (frühestens 5 Jahre vor Referenzalter) | S. 8–9 | Altersleistungen dürfen frühestens fünf Jahre vor dem Referenzalter ausgerichtet werden; spätestens fünf Jahre nach Referenzalter bzw. mit Ende der Erwerbstätigkeit (vor dem 70. Altersjahr) müssen die Konten aufgelöst und besteuert werden. |
+| [c0025](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0025.md) | Ziff. 6.1 Besteuerung der Kapitalleistungen (Fünftel-Tarif, Verrechnungssteuer) | S. 9 | Kapitalleistungen aus der Säule 3a werden nach Art. 22 Abs. 1 i.V.m. Art. 38 DBG gesondert besteuert, mit voller Jahressteuer zu einem Fünftel der Tarife nach Art. 36 DBG. |
+| [c0026](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0026.md) | Ziff. 6.2 a Vorzeitige Ausrichtung – Allgemeines | S. 9 | Die vorzeitige Ausrichtung ist nur in den Ausnahmefällen nach Art. 3 Abs. 2 und 3 BVV 3 möglich; die gesamte Leistung unterliegt der Besteuerung nach Art. 22 Abs. 1 i.V.m. Art. 38 DBG. |
+| [c0027](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0027.md) | Ziff. 6.2 a Übertragung in andere Vorsorgeform (Art. 3a Abs. 1 Bst. b BVV 3) | S. 9 | Die Übertragung in eine andere anerkannte Vorsorgeform setzt die vollständige Auflösung des bisherigen Kontos voraus; ein Splitting bestehender Guthaben ist nicht möglich und es ist keine Steuerbescheinigung auszustellen. |
+| [c0028](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0028.md) | Ziff. 6.2 a Teilbezug innerhalb fünf Jahre vor Referenzalter | S. 9 | Mit dem ersten (Teil-)Bezug innerhalb der fünf Jahre vor dem Referenzalter wird das gesamte Guthaben des betroffenen Kontos einkommenssteuerlich erfasst; das Konto ist zu saldieren. |
+| [c0029](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0029.md) | Ziff. 6.2 b Vorbezug Wohneigentumsförderung (WEF) – Zweck und Häufigkeit | S. 9 | Die Altersleistung aus der Säule 3a kann für Erwerb, Beteiligung an Wohneigentum zum Eigenbedarf und Hypothekaramortisation vorbezogen werden; ein Vorbezug kann alle fünf Jahre geltend gemacht werden. |
+| [c0030](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0030.md) | Ziff. 6.2 b WEF – keine Rückzahlung, Verpfändung, Besteuerung, Ehegatten als Eigentümer | S. 10 | Eine Rückzahlung des WEF-Vorbezugs ist in der Säule 3a nicht möglich; im Zeitpunkt der Auszahlung wird nur der ausgerichtete Teilbezug besteuert, beide Ehegatten müssen im Grundbuch eingetragene Eigentümer sein. |
+| [c0031](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0031.md) | Ziff. 6.2 b WEF-Vorbezug – Altersgrenze; Ziff. 6.2 c Barauszahlung bei Selbständigkeit | S. 10 | Die Barauszahlung bei Aufnahme einer selbständigen Erwerbstätigkeit ist nur innerhalb eines Jahres seit der Aufnahme möglich und betrifft das gesamte Vorsorgeguthaben. |
+| [c0032](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0032.md) | Ziff. 6.3 Einkauf in die 2. Säule mit Mitteln der Säule 3a | S. 10 | Die Übertragung von Säule 3a-Mitteln für den vollständigen Einkauf in eine steuerbefreite Vorsorgeeinrichtung ist steuerneutral; der Einkaufsbetrag kann nicht zusätzlich abgezogen werden. |
+| [c0033](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0033.md) | Ziff. 6.4 Rückzahlung WEF-Vorbezug der 2. Säule mit Säule-3a-Mitteln | S. 10 | Ein WEF-Vorbezug aus der beruflichen Vorsorge kann nicht steuerneutral mit Mitteln der Säule 3a zurückbezahlt werden. |
+| [c0034](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0034.md) | Ziff. 7 Reinvestition der Altersleistung aus der 2. Säule in die Säule 3a | S. 11 | Leistungen aus der 2. Säule oder Freizügigkeit können nicht direkt in die Säule 3a übertragen werden; Beiträge sind nur bis zum Maximalbetrag und im Umfang eines Säule-3a-Einkaufs abziehbar. |
+| [c0035](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0035.md) | Ziff. 8 Bescheinigungspflicht der Vorsorgeträger (Einkäufe) | S. 11 | Versicherungseinrichtungen und Bankstiftungen müssen Beiträge und Leistungen bescheinigen; bei Einkäufen sind zusätzlich Datum, Höhe, ausgeglichene Beitragslücken-Jahre und bereits geleistete Beiträge anzugeben. |
+| [c0036](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0036.md) | Ziff. 8 Meldung der Leistungen an die ESTV; Bemerkungen bei Prämienbefreiung/Rückzahlung | S. 11 | Ausgerichtete Leistungen sind der ESTV mit Formular 563 «Meldung über Kapitalleistungen» bzw. 565 «Rentenmeldung» zu melden; Prämienbefreiung und Rückzahlungen zu viel einbezahlter Beiträge sind unter «Bemerkungen» anzugeben. |
+| [c0037](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0037.md) | Ziff. 8 Mitteilungspflicht bei Übertragung (zehn Jahre Beiträge und Einkäufe) | S. 11 | Bei Übertragung muss die abtretende Einrichtung der neuen die ordentlichen Beiträge und Einkäufe der letzten zehn Jahre mitteilen. |
+| [c0038](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0038.md) | Ziff. 9.1 Folgen unzulässiger Einzahlungen – Rückerstattung | S. 12 | Bei überhöhten Einzahlungen wird der Steuerpflichtige aufgefordert, sich den Überschussbetrag (nominell, ohne Zins) zurückerstatten zu lassen. |
+| [c0039](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0039.md) | Ziff. 9.1 Säule-3a-Police: Risikoprämie; Verzicht auf Rückforderung | S. 12 | Bei Policen kann nur der Sparteil zurückerstattet werden; wird auf die Rückforderung verzichtet, wird bei späterer Auszahlung das gesamte Guthaben besteuert. |
+| [c0040](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0040.md) | Ziff. 9.2 Folgen für Bankstiftungen | S. 12 | Bankstiftungen, die zu hohe Beiträge entgegennehmen, können den Anspruch auf Steuerbefreiung verlieren. |
+| [c0041](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0041.md) | Ziff. 10 Anlage in Wertschriften; Rückerstattung der Verrechnungssteuer | S. 12 | Bei individuellen Wertschriftendepots hat die Bankstiftung, nicht der Vorsorgenehmer, Anspruch auf Rückerstattung der Verrechnungssteuer. |
+| [c0042](../../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0042.md) | Ziff. 11 Besteuerung bei Leistungen im Todesfall; Ziff. 12 Inkrafttreten (1. Januar 2026) | S. 13 | Säule-3a-Guthaben gehören nicht zur Erbmasse, die Auszahlung an Begünstigte unterliegt stets der Einkommenssteuer; das Kreisschreiben gilt ab 1. Januar 2026 und ersetzt das Kreisschreiben Nr. 18 vom 17. Juli 2008. |

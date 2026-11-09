@@ -12,16 +12,18 @@ generiert: tools/build_index.py
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202026%20f%C3%BCr%20Versand.pdf> · lokal: [sg-steuerfuesse-2026.pdf](../../../raw/sg/2026/sg-steuerfuesse-2026.pdf) · Volltext: [sg-steuerfuesse-2026.md](../../../sources/sg/2026/sg-steuerfuesse-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `abde299107d3d935…`
 
-## Inhalt (9 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Seiten 2-4: Fussnotenziffern (Zeichenerklärung 1-4) stehen als separate Zeilen über der Gemeinde; Zuordnung nur aus Position erkennbar. Zeilen 97-98 und 101-102 etc. enthalten Ziffer-Zeilen.
+
+## Inhalt (7 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0001.md) | Steuerfüsse SG 2026 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0002.md) | Steuerfüsse SG 2026 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0003.md) | Steuerfüsse SG 2026 – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0004.md) | Steuerfüsse SG 2026 – Abschnitt 4 | S. 2 |  |
-| [c0005](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0005.md) | Steuerfüsse SG 2026 – Abschnitt 5 | S. 2 |  |
-| [c0006](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0006.md) | Steuerfüsse SG 2026 – Abschnitt 6 | S. 3 |  |
-| [c0007](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0007.md) | Steuerfüsse SG 2026 – Abschnitt 7 | S. 3 |  |
-| [c0008](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0008.md) | Steuerfüsse SG 2026 – Abschnitt 8 | S. 4 |  |
-| [c0009](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0009.md) | Steuerfüsse SG 2026 – Abschnitt 9 | S. 4 |  |
+| [c0001](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0001.md) | Steuerfüsse SG 2026 – Bemerkungen: Kantonssteuer 105 %, Zeichenerklärung | S. 1 | Steuerfuss in Prozent der einfachen Steuer; Kantonssteuer 105 Prozent; christkatholische Kirchgemeinde 24 Prozent im ganzen Kanton. |
+| [c0002](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0002.md) | Steuerfüsse SG 2026 – Gemeinden Seite 1 (St. Gallen, Wittenbach bis St. Margrethen) | S. 1 | St. Gallen politischer Steuerfuss 138 %, Gesamtsteuerfuss katholisch 269 %, evangelisch 268 %; Mörschwil 67 % (188/199). |
+| [c0003](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0003.md) | Steuerfüsse SG 2026 – Gemeinden Seite 2 (Au bis Walenstadt) (Teil 1/2) | S. 2 | Tabelle der Steuerfüsse Au bis Walenstadt, z.B. Balgach 61 % (183/191), Wartau 145 % (274/278). |
+| [c0004](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0004.md) | Steuerfüsse SG 2026 – Gemeinden Seite 2 (Au bis Walenstadt) (Teil 2/2) | S. 2 |  |
+| [c0005](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0005.md) | Steuerfüsse SG 2026 – Gemeinden Seite 3 (Quarten bis Mosnang) (Teil 1/2) | S. 3 | Tabelle der Steuerfüsse Quarten bis Mosnang, z.B. Rapperswil-Jona 74 % (198/199), Lütisburg 155 % (284/288). |
+| [c0006](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0006.md) | Steuerfüsse SG 2026 – Gemeinden Seite 3 (Quarten bis Mosnang) (Teil 2/2) | S. 3 |  |
+| [c0007](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0007.md) | Steuerfüsse SG 2026 – Gemeinden Seite 4 (Kirchberg bis Gaiserwald) und Stand | S. 4 | Tabelle der Steuerfüsse Kirchberg bis Gaiserwald, z.B. Zuzwil 77 % (203/205), Degersheim 138 % (268/271); Stand 30.9.2026. |

@@ -4,15 +4,27 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 55"
-seiten: "13"
+titel: "Ziff. 4.8–4.9 Kirchensteuerpflicht und Härtefallregelung (Alimente)"
+ziffer: "4.8"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.8 / 4.9 · S. 18
 
-3.2.7 Naturalleistungen
-Naturalleistungen werden anhand ihres Marktwerts zum Lohn hinzugerechnet. Für die Be-
-wertung gelten die Ansätze für Verpflegung und Unterkunft gemäss dem jeweils gültigen
-«Merkblatt der Eidgenössischen Steuerverwaltung über die Bewertung von Verpflegung und
-Unterkunft von Unselbstständigerwerbenden» (vgl. Merkblatt N2 der ESTV). Im Weiteren
-wird auf die Randziffer 20 der «Wegleitung zum Ausfüllen des Lohnausweises» verwiesen.
+4.8   Kirchensteuerpflicht
+Die Kirchensteuerpflicht richtet sich nach dem kantonalen Recht. Dabei ist zu beachten, dass
+die Kirchensteuern grundsätzlich auch von den DBA erfasst sind und zu deren Erhebung der
+Schweiz das Besteuerungsrecht eingeräumt werden muss.
+
+4.9   Härtefallregelung
+Auf Antrag einer in der Schweiz ansässigen Person kann die zuständige Steuerbehörde zur
+Milderung von wirtschaftlichen Härtefällen infolge Alimentenzahlungen Kinderabzüge im an-
+wendbaren Tarif gewähren (vgl. Art. 11 Abs. 1 QStV). Als Grundlage für die Beurteilung, ob
+ein Härtefall vorliegt, kann zum Beispiel das betreibungsrechtliche Existenzminimum dienen.
+Der anwendbare Quellensteuertarif wird unter Berücksichtigung der effektiven Alimentenzah-
+lungen neu festgelegt (bspw. Tarif A2 anstatt A0). Die zuständige kantonale Steuerbehörde
+legt die Höhe der zu gewährenden Kinderabzüge fest und teilt ihren Entscheid dem Schuld-
+ner der steuerbaren Leistung sowie dem Arbeitnehmer mit.
+Wurden die Unterhaltsbeiträge bei der Anwendung eines Tarifcodes berücksichtigt, so wird
+die nachträgliche ordentliche Veranlagung nur auf Antrag der quellensteuerpflichtigen Per-
+son durchgeführt (vgl. Art. 11 Abs. 2 QStV).

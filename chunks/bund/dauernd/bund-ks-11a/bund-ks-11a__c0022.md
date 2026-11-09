@@ -4,21 +4,30 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 22"
-seiten: "6"
+titel: "Ziff. 4.3.1 Assistenzkosten, Haushaltshilfe"
+ziffer: "4.3.1"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8
 
-<!-- Seite 6 -->
-3.2.8   Kosten für Fortpflanzungshilfen
-Kosten für Fortpflanzungshilfen, d.h. sowohl die Kosten für Hormonbehandlungen als auch die
-Kosten, welche namentlich aufgrund von homologer künstlicher Insemination oder In-vitro-Ferti
-lisation sowie für das Einfrieren von Eizellen im Hinblick auf die künftige Zeugung von Kindern
-anfallen, werden als abzugsfähige Krankheitskosten anerkannt, sofern diese Behandlungen
-krankheitsbedingt und medizinisch indiziert sind und es sich um ein im Rahmen des Bundesge
-setzes vom 18. Dezember 1998 über die medizinisch unterstützte Fortpflanzung (FMedG;
-SR 810.11) zulässiges Fortpflanzungsverfahren handelt. Die Abzugsfähigkeit besteht unabhän
-gig davon, bei welcher Partnerin oder welchem Partner die krankheitsbedingte Behandlung er
-folgt (vgl. VGer ZH vom 4. Juli 2001 [Zürcher Steuerpraxis ZStP 2001, 288 ff.], VRK SG vom 26.
-Februar 2004 [St. Galler Steuerentscheide SGE 2004 Nr. 3]).
+4.3   Kategorien
+Als behinderungsbedingte Kosten gelten insbesondere:
+
+4.3.1   Assistenzkosten
+Abzugsfähig sind die selbstgetragenen Kosten der behinderungsbedingt notwendigenambulan
+ten Pflege (Behandlungs- und Grundpflege), Betreuung und Begleitung, die im Zusammenhang
+mit der Vornahme alltäglicher Verrichtungen oder administrativer Tätigkeiten, der Hilfe im Haus
+halt, der Pflege angemessener sozialer Kontakte, der Fortbewegung und der Aus- und Weiter
+bildung anfallen sowie die Kosten behinderungsbedingt notwendiger Überwachung. Unwesent
+lich ist dabei, wer diese Assistenzleistungen erbringt (Spitexorganisationen, private Pflege
+kräfte, assistierende Personen, Entlastungsdienste etc.).
+Die Kosten für Haushaltshilfen sind nur abzugsfähig, wenn eine ärztliche Bescheinigung dar
+über vorliegt (z.B. gemäss Fragebogen in der Beilage), welche Haushaltstätigkeiten als Folge
+der Behinderung nicht mehr ohne Hilfe ausgeübt werden können. Werden die Dienste einer am
+bulanten Pflege in Anspruch genommen, die neben der eigentlichen Pflege auch den Haushalt
+besorgt, sind diese Kosten angemessen in abziehbare Pflege- und nichtabziehbare Lebenshal
+tungskosten aufzuteilen (vgl. Urteil des Bundesgerichts 9C_655/2022 vom 31. Oktober 2023
+E. 5.4.1).
+Für unentgeltlich erbrachte Assistenzleistungen kann kein Abzug (weder effektiv noch pau
+schal) gemacht werden.

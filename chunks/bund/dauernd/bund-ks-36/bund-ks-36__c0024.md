@@ -4,21 +4,15 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 24"
-seiten: "6"
+titel: "Ziff. 5.3 Geerbte Wertschriften"
+ziffer: "5.3"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 36 · 5 Beurteilungszeitpunkt › 5.3 · S. 8
 
--   der enge Zusammenhang der Geschäfte mit der beruflichen Tätigkeit der steuerpflichti-
-    gen Person sowie der Einsatz spezieller Fachkenntnisse
+5.3   Geerbte Wertschriften
 
-    Der enge Zusammenhang der Geschäfte mit der beruflichen Tätigkeit der steuerpflich-
-    tigen Person kann auch ein Indiz dafür sein, dass diese nicht wie eine Privatperson
-    handelt, sondern eben wie eine haupt- oder nebenberuflich selbständig erwerbende
-    Person versucht, Gewinne zu erzielen (ASA 66, 224).
-
-Diesen beiden Indizien ist durch den Entscheid des Bundesgerichts vom 23. Oktober 2009
-(2C.868/2008) eine untergeordnete Bedeutung zugewiesen worden. Sie begründen für sich
-alleine keine selbständige Erwerbstätigkeit, dienen aber der Bestärkung, wenn eines der im
-Vordergrund stehenden Kriterien erfüllt ist.
+Bei geerbten Wertschriften besteht die beim Erblasser geltende steuerliche Qualifikation
+(Privatvermögen oder Geschäftsvermögen) bei den Erben weiter (vgl. Kreisschreiben Nr. 22
+der ESTV vom 16. Dezember 2008).

@@ -4,35 +4,20 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 2"
-seiten: "1"
+titel: "Ziff. 1 Gegenstand – Kapitaleinlageprinzip (UStR II, STAF, Kapitalband) (Teil 2/2)"
+ziffer: "1"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 1 Gegenstand · S. 4
 
-<!-- Seite 1 -->
-    Eidgenössisches Finanzdepartement EFD
+Mit Inkrafttreten des Bundesgesetzes über die Steuerreform und die AHV-Finanzierung
+(STAF) per 1. Januar 2020 wurden die steuerfreie Rückzahlung sowie die Verwendung von
+Reserven aus Kapitaleinlagen bei einer direkten Teilliquidation von in der Schweiz kotierten
+juristischen Personen eingeschränkt.
 
-    Eidgenössische Steuerverwaltung ESTV
-    Hauptabteilung Direkte Bundessteuer,
-    Verrechnungssteuer, Stempelabgaben
-
-Direkte Bundessteuer
-Verrechnungssteuer
-Stempelabgaben
-
-Bern, 23.12.2022
-
-Kreisschreiben Nr. 29c
-
-Kapitaleinlageprinzip
-
-Inhaltsverzeichnis
-1.   Gegenstand des Kreisschreibens ................................................................. 4
-2.   Kapitaleinlagen ................................................................................................... 5
-2.1.   Grundsätze .......................................................................................................... 5
-2.2.   Spezialfälle........................................................................................................... 5
-2.2.1.   Vorteilszuwendungen unter Schwestergesellschaften .................................. 5
-2.2.2.   Liberierung neuer Beteiligungsrechte durch Tochtergesellschaften............ 5
-2.2.3.   Kapitaleinlagen aus Sanierungen...................................................................... 6
-3.   Reserven .............................................................................................................. 7
+Zudem hat das Parlament am 19. Juni 2020 das Bundesgesetz vom 30. März 1911 betref-
+fend die Ergänzung des Schweizerischen Zivilgesetzbuches über das Obligationenrecht
+(Fünfter Teil: Obligationenrecht, OR; SR 220) verabschiedet. Die neuen gesetzlichen Bestim-
+mungen im OR zum Kapitalband und zur Denominierung des Aktienkapitals sowie die neuen
+steuerrechtlichen Bestimmungen haben Auswirkungen auf das Kapitaleinlageprinzip.

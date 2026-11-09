@@ -4,27 +4,32 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 23"
-seiten: "10"
+titel: "Ziff. 56–58 Neue Gebäudeteile, Bürohäuser, Personalwohnungen"
+ziffer: "56–58"
+seiten: "11"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 10
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › VI. Industrielle oder gewerbliche Liegenschaften › 4.–6. · S. 11
 
-51   Der Zeitbauwert entspricht dem Neubauwert abzüglich der dem
-    Alter des Gebäudes entsprechenden Altersentwertung.
-52   Der Neubauwert ist auf 1120% des von der Gebäudeversicherung
-    Kanton Zürich festgelegten Basiswerts festzusetzen.
-53   Die Altersentwertung wird bei der allgemeinen Neubewertung in
-    der Regel berechnet vom Erstellungsjahr bis zum Kalenderjahr 2026.
-    Sie beträgt bei:
-    normaler Abnützung: 2% pro Jahr bis zum Restwert von 30%,
-    besonders
-    starker Abnützung:   3% pro Jahr bis zum Restwert von 0%.
-54   Der Ansatz für besonders starke Abnützung ist in erster Linie
-    Betrieben der chemischen Industrie und der Schwerindustrie zu ge-
-    währen.
-55   Als Erstellungsjahr des Gebäudes ist in der Regel das Erstellungs-
-    jahr gemäss Gebäudeversicherungsschätzung massgebend. Bei späte-
-    rer umfassender Totalrenovation ist für die Berechnung der Alters-
-    entwertung der Zeitpunkt dieser Investitionen als Erstellungsjahr
-    massgebend.
+4. Neu hinzugekommene Gebäudeteile
+
+    Als Grundlage für die Berechnung des massgebenden Bauwerts 56
+von neu hinzugekommenen Gebäudeteilen (Anbauten, Aufbauten
+usw.) dient die Erhöhung des von der Gebäudeversicherung Kanton
+Zürich geschätzten Basiswerts. Dem geringeren Alter solcher Gebäude-
+teile wird durch Anwendung der entsprechenden prozentualen Alters-
+entwertung Rechnung getragen.
+
+
+5. Bürohäuser und Personalwohnungen
+
+   Bürohäuser und Personalwohnhäuser, die im Fabrikareal liegen, 57
+werden zusammen mit den Fabrikgebäuden nach den für diese gel-
+tenden Regeln bewertet. Bilden sie räumlich mit dem Fabrikareal
+keine Einheit, so findet eine getrennte Bewertung nach den für Ge-
+schäftshäuser geltenden Grundsätzen statt (Ziff. 36 ff.).
+
+
+6. Besondere Verhältnisse
+
+   Ziff. 35 gilt sinngemäss.   58

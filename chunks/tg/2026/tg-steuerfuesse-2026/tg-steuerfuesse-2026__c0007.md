@@ -4,68 +4,123 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 7"
+titel: "Karte Gemeindesteuerfüsse der Politischen Gemeinden 2026 (Klassen) (Teil 1/2)"
 seiten: "3"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 3
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Karte · S. 3
+
+    Steuerfüsse 2026, Steuerkraft 2025   3
+
+Gemeindesteuerfüsse der Politischen Gemeinden
+Kanton Thurgau, 2026, in %
+
+    Diessenhofen
+
+    Be
+    Gottlieben
+
+    Sa n
+    rli
+    W
+
+    Schlatt
+
+    ng
+
+    le
+    ag
+
+    Basadingen−   Steckborn
+
+    ns
+    e
+    Ermatingen
+    en
+
+    n
+    te
+    Schlattingen
+
+    ile
+    ha
+
+    in
+
+    w
+    us
+
+    ern   ilen
+
+    en
+    er
+    Kreuzlingen
+    amm
+    en
+
+    ersw
+
+    g
+
+    of
+    Tä
+    Eschenz M   Homburg   Rap   Münster−
+
+    gh
+    tti
+    Wäldi   lingen
+
+    Bo
+
+    Lan
+    Hüttwilen   Herdern   Wigol−   Lengwil
+    Kemmental   Altnau
+
+    n
+    Pfyn
+
+    gric
+    tingen
+
+    ge
+    Neunforn   Müllheim
+
+    tin
+    ken
+
+    il
+    n
+
+    üt
+    inge
+
+    sw
+    G
+    Uesslingen−Buch   ein   Märstetten
+
+    s
+    ba
+    th−W   Berg   Uttwil
+
+    Ke
+    War
+
+    ch
+    Felben−   i Dozwil
+
+    n
+    Birwinken   mer
+
+    or
+    Hüttlingen   Weinfelden   Som
+
+    H
+
+    sh
+    Wellhausen
+
+    ef fen
 
     an
     en
     ho
-
-    om
-    Amlikon−Bissegg
-
-    −
-    h
-    Erlen   sac
-
-    R
-    Frauenfeld   Bürglen
-    Gachnang   Thundorf   Amriswil   Salm
-    Sulgen
-    Bussnang
-    en
-
-    Affeltrangen   Egnach
-
-    n
-    ing
-
-    nne
-    tz
-
-    Stettfurt Lommis
-    Schönholzers− Kradolf−   Zihlschlacht−   Arbon
-    Ma
-
-    enta
-    Tobel−
-    wilen Schönenberg   Sitterdorf
-    Tägerschen raunau
-
-    Hoh
-    Roggwil
-    Be   B   Bischofs−
-    Aadorf   ttw   Wuppenau   Hauptwil−   Horn
-    Wängi   ies   zell
-    en   Gottshaus
-    Münchwilen
-
-    Eschlikon
-    Bichelsee−   Sirnach
-    n
-    Wile
-
-    Balterswil   Rickenbach
-
-    Fischingen
-    30−39 % (6 Gemeinden)   60−69 % (15 Gemeinden)
-
-    40−49 % (21 Gemeinden)   70−76 % (2 Gemeinden)
-
-    50−59 % (36 Gemeinden)
-
-Datenquelle: Steuerverwaltung Kanton Thurgau
-Interaktive Karten zu den Themen Steuerfüsse und Steuerkraft finden Sie im Thurgauer Themenatlas.

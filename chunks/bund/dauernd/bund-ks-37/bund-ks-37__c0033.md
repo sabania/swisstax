@@ -4,20 +4,18 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 33"
-seiten: "7"
+titel: "Ziff. 7.1 Internationales Verhältnis – anteilsmässige Besteuerung (Art. 17d DBG) (Teil 2/2)"
+ziffer: "7.1"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.1 Allgemeines · S. 11
 
-    Beispiel:
-    A und B gründen die Newtec AG mit einem AK von 100'000 Franken (100
-    Aktien à nom. 1'000 Franken). Im Zuge einer Kapitalerhöhung zeichnet die
-    Z Bank als Investorin weitere 100 Aktien à nom. 1'000 Franken zuzüglich
-    eines Agios von 9'000 Franken pro Aktie. Damit beträgt der Verkehrswert
-    10'000 Franken pro Aktie.
-
-    Ein halbes Jahr später möchte die Newtec AG ihren Mitarbeiter C mittels
-    einer unentgeltlichen Abgabe von 10 Aktien beteiligen. Bei einem Verkehrs-
-    wert von 10'000 Franken pro Aktie würde dies bei C zu einem steuerbaren
-    Einkommen von 100'000 Franken führen.
+Aufgrund verschiedener Doppelbesteuerungsabkommen (DBA) kann die Schweiz in der Re-
+gel nicht den gesamten geldwerten Vorteil aus der Realisation besteuern. Die Besteuerung
+ist vielmehr aufgrund der Arbeitstage auf die Länder zu verteilen, in denen der Mitarbeitende
+seit der Zuteilung der Mitarbeiterbeteiligung bis zum Entstehen des Ausübungsrechts ansäs-
+sig war (Art. 7 und 8 MBV). Keine Rolle spielt dabei, ob ein anderes Land den geldwerten
+Vorteil anteilsmässig besteuert oder nicht. Vielmehr ist entscheidend, welches Land das an-
+teilige Besteuerungsrecht für das Einkommen aus der zugrundeliegenden Erwerbstätigkeit
+besitzt.

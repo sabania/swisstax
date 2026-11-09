@@ -4,26 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 13.4.8–13.4.9 Aufwandbesteuerung und Quellensteuer – Elterntarif"
-ziffer: "13.4.8"
-seiten: "28"
+titel: "Ziff. 13.4.11 Kapitalleistungen (Art. 38) und fiktive Einkäufe (Art. 37b) – Tarif"
+ziffer: "13.4.11"
+seiten: "29-30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.11 Kapitalleistungen · S. 29–30
 
-13.4.8   Besteuerung nach dem Aufwand
+13.4.11   Kapitalleistungen nach Artikel 38 und fiktive Einkäufe nach Artikel
+    37b DBG
 
-Nach Artikel 14 Absatz 3 DBG wird die Steuer für Personen, die nach dem Aufwand besteu-
-ert werden, nach dem ordentlichen Steuertarif berechnet. Bei der Besteuerung nach dem
-Aufwand werden persönliche Verhältnisse, die bei einer ordentlichen Veranlagung zu Abzü-
-gen berechtigen, nicht berücksichtigt. Dementsprechend hat der Gesetzgeber in Artikel 14
-Absatz 3 DBG festgehalten, dass nur der Grundtarif (Art. 36 Abs. 1 DBG) oder der Verheira-
-tetentarif (Art. 36 Abs. 2 DBG) zur Anwendung kommen. Bei der Besteuerung nach dem
-Aufwand gelangt somit der Elterntarif nicht zur Anwendung.
-
-
-13.4.9   Quellensteuer für natürliche Personen
-
-Bei der Festsetzung der Quellensteuertarife für natürliche Personen sind die Abzüge für Fa-
-milienlasten zu berücksichtigen (Art. 86 Abs. 1 DBG). Dies gilt auch für den Elterntarif, wel-
-cher als Abzug vom Steuerbetrag in die jeweiligen Tarife eingerechnet wird.
+Kapitalleistungen aus Vorsorge, Zahlungen bei Tod und für bleibende körperliche oder ge-
+sundheitliche Nachteile nach Artikel 38 sowie fiktive Einkäufe nach Artikel 37b DBG werden
+gesondert besteuert. Sie unterliegen einer vollen Jahressteuer. Die Steuer wird zu einem
+Fünftel der Tarife nach Artikel 36 Absätze 1, 2 und 2bis DBG berechnet. Bisher verwies Arti-
+kel 38 DBG auf den Grundtarif und den Verheiratetentarif, nicht jedoch auf den im Elterntarif
+ebenfalls vorgesehenen Verheiratetentarif. In der früheren Fassung dieses KS wurde darauf
+hingewiesen, dass es sich dabei um ein gesetzgeberisches Versehen handelt, weshalb die
+Kapitalleistungen aus Vorsorge von Alleinerziehenden dennoch zum Verheiratetentarif und
+nicht zum Grundtarif zu erfassen seien. Das Bundesgesetz über die formelle Bereinigung der
+zeitlichen Bemessung der direkten Steuern bei den natürlichen Personen beseitigt diesen
+Mangel. Kapitalleistungen aus Vorsorge von alleinerziehenden und verheirateten Personen
+mit Kindern werden zum Tarif nach Artikel 36 Absatz 2bis erster Satz DBG besteuert (Verhei-
+ratetentarif). Der im Elterntarif enthaltene Abzug vom Steuerbetrag pro Kind gemäss Artikel
+36 Absatz 2bis zweiter Satz DBG ist hingegen nicht anwendbar.

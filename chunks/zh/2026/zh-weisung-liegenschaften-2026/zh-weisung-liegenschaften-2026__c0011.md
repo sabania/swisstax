@@ -4,27 +4,27 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 11"
-seiten: "5"
+titel: "Ziff. 26–27 Anrechenbare Grundstücksfläche Einfamilienhäuser (400 m2 / 800 m2)"
+ziffer: "26–27"
+seiten: "6"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 5
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 2. Landwert · S. 6
 
-    Der Verkehrswert von Einfamilienhäusern sowie Stockwerkeigen- 20
-tum zu Wohnzwecken ist nach den folgenden Formeln zu berechnen:
-Einfamilienhäuser: Landwert + Zeitbauwert
-Stockwerkeigentum: Landwertanteil + Zeitbauwertanteil
-    Bei Stockwerkeigentum in Hochhäusern (Wohngebäuden mit mehr
-als acht Stockwerken) ist eine individuelle Schätzung nach Ziff. 79 ff.
-vorzunehmen. Beträgt der Formelwert zwischen 70% und 100% des
-individuellen Schätzwerts, ist der Formelwert massgebend.
-    Als Einfamilienhäuser gelten Gebäude, deren Installationen sowie 21
-Zugang zu den Räumen eine getrennte Nutzung durch mehr als einen
-Haushalt ausschliessen. In bestehende Wohneinheiten eingebaute zu-
-sätzliche Kleinwohnungen (nicht grösser als drei Zimmer) gelten nicht
-als selbstständige Haushalte.
-   Für die Bewertung von Stockwerkeigentum werden der Landwert 22
-und der Basiswert der Baute im Verhältnis der Wertquoten aufgeteilt
-(Art. 712 e ZGB).
-
-2. Landwert
+26   Übersteigt die Landfläche einen angemessenen Umschwung, ist
+    bei der Berechnung des Vermögenssteuerwerts eine vom Basiswert
+    des Gebäudes abhängige Grundstücksfläche zu berücksichtigen. Es gel-
+    ten dabei die nachfolgenden Ansätze:
+    Anrechenbare Grundstücksfläche zum steuerlich massgebenden
+    Landwert:
+27 Für Einfamilienhäuser:
+   bis Basiswert Fr. 30 000   effektive Grundstücksfläche,
+    höchstens jedoch 400 m2,
+    Basiswert zwischen Fr. 30 000   effektive Grundstücksfläche,
+    und Fr. 120 000   höchstens jedoch 400 m2
+    + (Basiswert – 30 000)/225,
+    Basiswert über Fr. 120 000   effektive Grundstücksfläche,
+    höchstens jedoch 800 m2 zuzüglich
+    100 m2 pro volle Fr. 30 000 Basiswert
+    (oder Bewertung entsprechend den
+    konkreten Verhältnissen).

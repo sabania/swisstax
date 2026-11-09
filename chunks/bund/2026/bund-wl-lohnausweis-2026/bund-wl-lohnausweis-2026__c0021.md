@@ -4,15 +4,24 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 21"
-seiten: "9"
+titel: "Rz 22–25 Ziffer 2.2 – Kostenübernahme, effektive Erfassung, Feld F (Teil 1/2)"
+ziffer: "2.2 / 22–25"
+seiten: "10-11"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 9
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2.2 Privatanteil Geschäftsfahrzeug · S. 10–11
 
-In den Feldern der Ziffern 2.1 bis 2.3 sind die durch den Arbeitgeber zu bewertenden Ge   19
-haltsnebenleistungen (fringe benefits) anzugeben. Als Gehaltsnebenleistungen gelten alle
-Leistungen des Arbeitgebers, die nicht in Geldform ausgerichtet werden. Sie sind grundsätz
-lich zum Marktwert bzw. Verkehrswert zu bewerten. Als Marktwert gilt der am Markt übli
+Übernimmt der Arbeitnehmer beträchtliche Kosten (z. B. sämtliche Kosten für Unterhalt,   22
+Versicherungen, Benzin und Reparaturen; die Übernahme ausschliesslich der Benzinkosten
+oder der Kosten für das Aufladen von Elektrofahrzeugen genügt dagegen nicht), so ist im
+entsprechenden Feld 2.2 des Lohnausweises keine Aufrechnung vorzunehmen. In den Be
+merkungen unter Ziffer 15 des Lohnausweises ist folgender Text anzubringen: «Privatanteil
+Geschäftsfahrzeug im Veranlagungsverfahren abzuklären».
 
-    ESTV   Seite 9 / 25
+Neben der pauschalen Ermittlung des Privatanteils gemäss Rz 21 besteht die Möglichkeit   23
+der effektiven Erfassung der Privatnutzung. Voraussetzung dafür ist, dass ein Bordbuch
+geführt wird. Der im Lohnausweis zu deklarierende Anteil für die Privatnutzung wird so er
+
+    ESTV   Seite 10 / 25
+
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11

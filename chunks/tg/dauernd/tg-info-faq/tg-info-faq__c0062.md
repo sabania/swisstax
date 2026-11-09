@@ -9,22 +9,22 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Kapitalleistungen aus Vorsorge
 
-    ### Antwort
+    Auch bei der Bundessteuer werden Kapitalleistungen gesondert besteuert. Die direkte Bundessteuer beträgt jeweils ein Fünftel der ordentlichen Tarife gemäss Artikel 36 DBG.
 
-    Es kann sein, dass Meldungen nicht zeitgleich eintreffen und demnach Bezüge nicht zusammen veranlagt werden können. Daher erhalten Sie teils zwei oder mehrere Veranlagungen für das gleiche Jahr. Zur Berechnung der Steuer werden sämtliche im gleichen Jahr ausgezahlten Kapitalleistungen aus Vorsorge grundsätzlich zusammengerechnet. Aus diesem Grund werden immer alle Bezüge des gleichen Jahres aufgeführt. Bei der Schlussrechnung werden jedoch allfällig bereits geleistete Zahlungen angerechnet.
-
-Ort der Besteuerung von Kapitalleistungen
+Steuersatz bei Staats- und Gemeindesteuern
 :   ### Frage
 
-    Wo werden Kapitalleistungen besteuert?
+    Wie ist der Steuersatz bei den Staats- und Gemeindesteuern zu verstehen?
 
     ### Antwort
 
-    Kapitalleistungen sind dort steuerbar, wo die steuerpflichtige Person im Zeitpunkt der Fälligkeit der Leistung ihren Wohnsitz hat.
+    Die einfache Steuer auf Kapitalleistungen aus Vorsorge beträgt für Verheiratete in ungetrennter Ehe einheitlich 2%. Dies gilt ebenfalls für am Ende der Steuerperiode in ungetrennter Partnerschaft lebenden Personen. Unter bestimmten Voraussetzungen kommt dieser Steuersatz auch bei Alleinerziehenden zur Anwendung. Für alle übrigen Steuerpflichtigen beträgt die einfache Steuer einheitlich 2.4%.
 
-Steuerberechnung direkte Bundessteuer
+Tarif bei Scheidung
 :   ### Frage
 
-    Warum wird bei der Bundessteuer nur 1/5 berücksichtigt?
+    Ich habe mich im 2026 scheiden lassen. Zu welchem Tarif wird die Kapitalleistung besteuert?
 
     ### Antwort
+
+    Massgebend für den anzuwendenden Steuersatz sind die Verhältnisse am Ende der Steuerperiode oder am Ende der Steuerpflicht.

@@ -4,7 +4,7 @@ quelle: zh-stg-2025
 jur: zh
 jahre: [2025]
 typ: gesetz
-titel: "§ 241a StG ZH – 2. Selbstanzeige (Teil 1/3)"
+titel: "§ 241a StG ZH – 2. Selbstanzeige (Teil 1/2)"
 artikel: "§ 241a"
 seiten: "83-84"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}

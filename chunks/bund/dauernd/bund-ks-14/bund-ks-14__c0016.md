@@ -4,20 +4,14 @@ quelle: bund-ks-14
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 14 – Abschnitt 16"
-seiten: "4"
+titel: "Ziff. 4.7 Mitwirkung auch bei finanzstarker Käufergesellschaft"
+ziffer: "4.7"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 14 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 14 · 4 Abgrenzungsfragen › 4.7 Mitwirkung · S. 5
 
-Die Bewertung der nichtbetriebsnotwendigen Substanz, welche im Zeitpunkt des Verkaufs
-bereits vorhanden war, hat nach anerkannten Bewertungsgrundsätzen zu erfolgen. Dabei
-sind die zuordenbaren Passiven abzuziehen und die latenten Steuern auf den stillen Reser-
-ven zu berücksichtigen. Diese Bewertung ist erst dann vorzunehmen, wenn innerhalb der
-Ausschüttungsfrist (Ziff. 4.4) eine Ausschüttung (Ziff. 4.5) erfolgt.
-
-4.7. Mitwirkung
-
-Das Kriterium der Mitwirkung kann nur im Zusammenhang mit einer Ausschüttung (vgl.
-Ziff. 3.5 und 4.5) beurteilt werden. Damit kann ohne konkrete Ausschüttung insbesondere
-nicht ausgeschlossen werden, dass dieses Kriterium erfüllt ist.
+Die Mitwirkung kann auch bei einer finanzstarken Käufergesellschaft erfüllt sein. Der Hinweis
+der Verkaufspartei auf die starke Finanzkraft der Käuferin bzw. des Konzerns, dem die Käu-
+fergesellschaft angehört, vermag nicht zu belegen, er habe nicht mit dem Gebrauch dieser
+Mittel für den Erwerb der Aktien rechnen können (ASA 66, 146 Erw. 5c, bb).

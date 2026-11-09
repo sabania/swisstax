@@ -4,28 +4,17 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 15.6 Akteneinsichtsrecht der Ehegatten"
-ziffer: "15.6"
-seiten: "41-42"
+titel: "Ziff. 16.2 Steuerhinterziehung der Ehegatten – Wegfall der Schuldvermutung (Teil 2/2)"
+ziffer: "16.2"
+seiten: "42-43"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.6 Akteneinsichtsrecht · S. 41–42
+> Bund · Steuerjahr 2025/2026 · KS 30 · 16 Steuerstrafrecht der Ehegatten › 16.2 Steuerhinterziehung · S. 42–43
 
-15.6   Akteneinsichtsrecht
-
-Die steuerliche Gleichberechtigung der Ehegatten wirkt sich auch auf die Akteneinsicht aus.
-Beide Steuerpflichtigen sind zur Einsicht in alle Steuerakten der Ehegemeinschaft berechtigt
-(Art. 114 Abs. 2 DBG). Wird einem Ehegatten die Einsichtnahme in ein Aktenstück aufgrund
-öffentlicher oder privater Interesse verweigert, so darf darauf zum Nachteil dieses Ehegatten
-nur abgestellt werden, wenn ihm die Behörde von dem für die Sache wesentlichen Inhalt
-mündlich oder schriftlich Kenntnis und ausserdem Gelegenheit gegeben hat, sich zu äussern
-und Gegenbeweismittel zu bezeichnen (Art. 114 Abs. 3 DBG). Auf Wunsch des Ehegatten,
-dem die Einsicht verweigert wurde, hat die Behörde die Verweigerung der Akteneinsicht
-
-durch eine Verfügung zu bestätigen, die durch Beschwerde angefochten werden kann (Art.
-114 Abs. 4 DBG).
-
-Ab dem Zeitpunkt der Trennung kann ein Ehegatte die Steuerakten des anderen Ehegatten
-nicht mehr einsehen, da diese getrennt veranlagt werden und es sich somit nicht mehr um
-gemeinsame Steuerakten im Sinne von Artikel 9 DBG in Verbindung mit Artikel 114 Absatz 1
-DBG handelt.
+Diese Schuldvermutung mit Exkulpationsbeweis stand nicht in Einklang mit der in Artikel 6
+§ 2 der Konvention vom 4. November 1950 zum Schutze der Menschenrechte und Grund-
+freiheiten (Europäische Menschenrechtskonvention; EMRK) verankerten Unschuldsvermu-
+tung, da die Beweislastverteilung offensichtlich in Widerspruch mit dem strafrechtlichen
+Grundsatz „in dubio pro reo“ stand. Um die ehegattenspezifischen Strafbestimmungen des
+DBG und des StHG in Einklang mit der EMRK zu bringen, beschlossen die Eidg. Räte die
+Streichung der gesetzlich statuierten Schuldvermutung.

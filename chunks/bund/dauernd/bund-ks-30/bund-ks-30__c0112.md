@@ -4,13 +4,22 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife"
-ziffer: "14.5"
-seiten: "34"
+titel: "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen"
+ziffer: "14.7"
+seiten: "34-35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.5 · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.7 · S. 34–35
 
-14.5.3   Tarife
-   Der Elternteil, der die Unterhaltszahlungen erhält, wird zum Elterntarif besteuert.
-   Der Elternteil, der die Unterhaltszahlungen leistet, erhält den Grundtarif besteuert.
+14.7   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
+    minderjährigem Kind, ohne gemeinsame elterliche Sorge, mit Unter-
+    haltszahlungen
+
+Wird ein Abzug für die Unterhaltszahlungen für das Kind nach Artikel 33 Absatz 1 Buchstabe
+c DBG von einem Elternteil geltend gemacht, erfolgt die Besteuerung der Eltern folgender-
+massen:
+
+
+14.7.1   Unterhaltszahlungen
+   Die Unterhaltsbeiträge für das Kind sind vom Empfänger zu versteuern. Der leistende
+    Elternteil kann diese Alimentenleistungen in Abzug bringen.

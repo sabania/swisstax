@@ -4,31 +4,27 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 9"
-seiten: "4"
+titel: "Ziff. 19 Grenzfälle landwirtschaftlich beworbenes Land"
+ziffer: "19"
+seiten: "4-5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 4
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › III. Grenzfälle · S. 4–5
 
-<!-- Seite 4 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+    III. Grenzfälle
 
-    Bauland für industrielle und gewerbliche Bauten
-15   Es ist gemäss Ziff. 14 vorzugehen.
+19   Ist fraglich, ob eine Landparzelle als landwirtschaftlich beworben
+    betrachtet werden kann, zum Beispiel bei Restgrundstücken aus dem
+    früheren Landwirtschaftsbetrieb des Pflichtigen, bei über einen ange-
+    messenen Umschwung von Wohnhäusern, insbesondere von Einfami-
+    lienhäusern und Ferienhäusern hinausgehenden Landflächen grösseren
 
-    4. Kiesland
-
-16   Kiesland, welches ausgebeutet wird oder zur unmittelbaren Aus-
-    beutung erworben wurde, wird bis zur Wiederherstellung der landwirt-
-    schaftlichen Nutzung zum Verkehrswert besteuert. Als Verkehrswert
-    gilt der Preis, der im betreffenden Gebiet für unausgebeutetes bzw.
-    teilweise oder ganz ausgebeutetes Kiesland bezahlt wird.
-
-    5. Anderes unüberbautes, nicht landwirtschaftlich beworbenes Land
-
-17   Anderes unüberbautes, auf längere Sicht nicht landwirtschaftlich
-    beworbenes Land, wie Lagerplätze, Campingplätze usw., wird zum
-    Verkehrswert besteuert. Soweit das Land in der Bauzone liegt, sind die
-    Ziff. 7 ff. sinngemäss anwendbar.
-
-    6. Besondere Verhältnisse
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+Ausmasses, Parkanlagen, ausgeschiedenen Gartenparzellen (Pünten)
+und landwirtschaftlichen Charakter aufweisenden Landreserven von
+Industrie- und Gewerbebetrieben, so wird auf Begehren des Pflichti-
+gen die Bewertung zum Ertragswert vorgenommen, sofern dieser nach
+Orientierung über die Vermögensnachbesteuerung durch unterschrift-
+liche Protokollerklärung die Bewertung und für den Fall der Veräus-
+serung, Überbauung oder Belastung mit Eigentumsbeschränkungen
+auch die Vermögensnachbesteuerung anerkennt.

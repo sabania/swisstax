@@ -4,30 +4,17 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 171"
-seiten: "45"
+titel: "Ziff. 7.5.6 Kapitalleistungen für wiederkehrende Leistungen (Jahresmodell)"
+ziffer: "7.5.6"
+seiten: "54"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 45
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.6 Kapitalleistungen wiederkehrende Leistungen · S. 54
 
-<!-- Seite 45 -->
-    Änderung des Zivilstands während des Kalenderjahres (Heirat):
-    1. Ein lediger Steuerpflichtiger heiratet am 26. Mai 2021. Er ist unselbstständig erwerbstätig und übt seine
-    100 %-Tätigkeit für einen Jahreslohn von CHF 65 000.00 (CHF 5 000 x 13) aus.
-    Seine Ehegattin übt keine Erwerbstätigkeit aus.
-
-    Monat   Januar   …   Mai   Juni   … November   Dezember   Besteuerung
-
-    Bruttolohn   5 000   5 000   5 000   5 000   10 000   65 000
-
-    Tarifcode   A0   A0   B0   B0   B0
-
-    Steuersatz (%)   10,41   10,4   5,02   5,0   5,0
-
-    Quellensteuer   520   520   250   250   500   4 600
-
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
-
-    2 = B0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
-
-    Änderung des Zivilstands während des Kalenderjahres (Scheidung):
+7.5.6 Kapitalleistungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte)
+Werden dem Arbeitnehmer durch den Arbeitgeber Kapitalleistungen für wiederkehrende
+Leistungen ausgerichtet (bspw. nachträgliche Auszahlung von Familienzulagen für mehrere
+Monate), sind diese im Zeitpunkt der Auszahlung quellensteuerpflichtig und zwar zusammen
+mit einer allenfalls im selben Monat ausgerichteten Lohnzahlung. Der Steuersatz ergibt sich
+dabei aus der Summe der Kapitalleistung für wiederkehrende Leistungen, dem Jahresbrutto-
+lohn und den weiteren periodischen Jahresbruttoleistungen für das laufende Jahr.

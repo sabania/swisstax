@@ -4,22 +4,23 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 9"
-seiten: "3"
+titel: "Ziff. 3.1 Rechtsgrundlage – Mindestbemessung Art. 14 Abs. 3 DBG (Teil 2/2)"
+ziffer: "3.1"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.1 Rechtsgrundlage · S. 3–4
 
-<!-- Seite 3 -->
-können anstelle der Einkommenssteuer eine Steuer nach dem Aufwand entrichten, wenn sie
-hier keine Erwerbstätigkeit ausüben.
-Wer früher nach dem Aufwand besteuert wurde und nach einer Landesabwesenheit wieder in
-die Schweiz zurückkehrt, kann ungeachtet der 10-Jahresfrist wieder nach dem Aufwand besteu-
-ert werden.
-Eine die Besteuerung nach dem Aufwand ausschliessende Erwerbstätigkeit in der Schweiz liegt
-vor, wenn eine Person hier einem irgendwie gearteten Haupt- oder Nebenberuf nachgeht und
-daraus im In- oder Ausland Einkünfte erzielt. Dies trifft insbesondere auf Künstler, Wissen-
-schaftler, Erfinder, Sportler und Verwaltungsräte zu, die in der Schweiz persönlich zu Erwerbs-
-zwecken tätig sind. In diesen Fällen besteht kein Anspruch auf die Besteuerung nach dem Auf-
-wand; vielmehr ist die ordentliche Steuer vom Einkommen zu entrichten.
-Diplomaten, Konsularbeamte und Beamte internationaler Organisationen mit einstigem Wohn-
+    c. für die übrigen steuerpflichtigen Personen: dem Dreifachen des jährlichen Pensionsprei-
+    ses für Unterkunft und Verpflegung am Ort des Aufenthalts nach Artikel 3 DBG;
+    d. der Summe der Bruttoerträge:
+    1. der Einkünfte aus dem in der Schweiz gelegenen unbeweglichen Vermögen,
+    2. der Einkünfte aus der in der Schweiz gelegenen Fahrnis,
+    3. der Einkünfte aus dem in der Schweiz angelegten beweglichen Kapitalvermögen,
+    einschliesslich der grundpfändlich gesicherten Forderungen,
+    4. der Einkünfte aus den in der Schweiz verwerteten Urheberrechten, Patenten und
+    ähnlichen Rechten,
+    5. der Ruhegehälter, Renten und Pensionen, die aus schweizerischen Quellen fliessen,
+    6. der Einkünfte, für die die steuerpflichtige Person aufgrund eines von der Schweiz ab-
+    geschlossenen Abkommens zur Vermeidung der Doppelbesteuerung gänzlich
+    oder teilweise Entlastung von ausländischen Steuern beansprucht.

@@ -4,25 +4,18 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 59"
-seiten: "15"
+titel: "Ziff. 5.2 Mitarbeiterbeteiligungen"
+ziffer: "5.2"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 45 · 5 Abgrenzungen › 5.2 Mitarbeiterbeteiligungen · S. 19
 
-<!-- Seite 15 -->
-4   Grundsätze zur Tarifanwendung
-
-4.1   Allgemeines
-Die Berechnung der geschuldeten Quellensteuer erfolgt zum anwendbaren Quellensteuerta-
-rif (Tarifcodes A, B, C, F und H bzw. L, M, N und P; vgl. Art. 1 Abs. 1 QStV).
-Der anwendbare Tarifcode richtet sich nach den persönlichen Verhältnissen der quellensteu-
-erpflichtigen Person im Zeitpunkt der Auszahlung, Überweisung, Gutschrift oder Fälligkeit
-der steuerbaren Leistung (vgl. Art. 2 Abs. 1 QStV). Dies gilt auch für nach dem Austritt des
-Arbeitnehmers fällige Leistungen (bspw. Bonus, Abgangsentschädigung).
-Änderungen, die eine neue Tarifeinstufung bedingen (bspw. Heirat, Scheidung, Trennung,
-Geburt von Kindern, Aufnahme oder Aufgabe einer Erwerbstätigkeit, Ein- oder Austritt in
-bzw. aus einer Landeskirche), werden bei der Quellenbesteuerung ab Beginn des auf die
-Änderung folgenden Monats entsprechend berücksichtigt.
-Bei der Festlegung des anwendbaren Tarifcodes ist es unerheblich, ob die Einkünfte in der
-Schweiz oder im Ausland erzielt werden.
+5.2   Mitarbeiterbeteiligungen
+Geldwerte Vorteile aus Mitarbeiterbeteiligungen sind in der Regel zusammen mit dem übri-
+gen Einkommen aus unselbstständiger Erwerbstätigkeit nach Artikel 83 oder Artikel 91 DBG
+an der Quelle zu besteuern. Für die allfällige Ausscheidung von im Ausland geleisteten Ar-
+beitstagen wird auf die Ziffern 6.7 und 7.5.1 unten verwiesen.
+Für weitere Ausführungen, insbesondere zur anteilsmässigen Besteuerung von Mitarbeiter-
+beteiligungen (vgl. Art. 97a DBG), wird auf das Kreisschreiben Nr. 37 der ESTV vom 22. Juli
+2013 über die Besteuerung von Mitarbeiterbeteiligungen verwiesen.

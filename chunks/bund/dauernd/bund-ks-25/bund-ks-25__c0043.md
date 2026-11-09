@@ -4,23 +4,30 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 43"
-seiten: "10"
+titel: "Anhang II Beispiel Spartenrechnung – Aufwand und steuerbarer Gewinn (Teil 2/2)"
+ziffer: "Anhang II"
+seiten: "13-14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang II Spartenrechnung · S. 13–14
 
-5.5   Sitzverlegung oder Expatriierung von kollektiven Kapitalanlagen
-Die Sitzverlegung hat im Unterschied zur Verrechnungssteuer keine direktsteuerlichen Fol-
-gen, da diese nicht als Liquidation zu betrachten ist. Aufgrund der Treuhandlösung verbleibt
-das „Treugut“ nämlich weiterhin im Privat- oder Geschäftsvermögen der Anlegerinnen und
-Anleger.
+    Fondsleitung und Depot-   der Erfolgsrechnung belastet
+    bank   wird:
+    quotenmässige Aufteilung *)
+    Aufwand vor Steuern   2’134   42   2’176
+    Gewinn vor Steuern   3’866   458   4’324
+    Kapitalsteuer (Staat)   Annahme; Bemessungsgrund-   -176
+    lage: Reinvermögen nach den
+    Bestimmungen für nat. Perso-
+    nen am Ende der Steuerperiode
+    Gewinn vor Gewinnsteuer   = 115%, da die Gewinnsteuer   3’690
+    abziehbar ist
+    Gewinnsteuer (Staat/Bund)   Annahme: Steuersatz Staat und   -481
+    Bund 15%
+    Steuerbarer Gewinn   = 100%   3‘209
 
-Zwecks Rückforderung der Verrechnungssteuer müssen Anlegerinnen und Anleger, welche
-die Anteile im Privatvermögen halten, den Liquidationserlös (Nettoertrag inkl. eines allfälligen
-Gewinnvortrages) deklarieren, können ihn jedoch mittels Deklaration eines entsprechenden
-Minusertrags wieder neutralisieren.
+*)   Für die quotenmässige Aufteilung der indirekten Aufwendungen wird auf das
+    Verhältnis des Verkehrswertes des direkten Grundbesitzes zum Verkehrswert der
 
-Handelt es sich bei den Anlegern um juristische Personen, Geschäftsbetriebe und derglei-
-chen und befinden sich die Anteile im Geschäftsvermögen, muss die Verrechnungssteuer
-aufgrund der Verbuchungsvorschriften nach Artikel 25 VStG verbucht werden.
+    Gesamtaktiven gemäss der konsolidierten Vermögensrechnung (vgl. Art. 90 KAG)
+    abgestellt.

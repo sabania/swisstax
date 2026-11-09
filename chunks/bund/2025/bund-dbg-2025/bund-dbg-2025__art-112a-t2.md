@@ -4,7 +4,7 @@ quelle: bund-dbg-2025
 jur: bund
 jahre: [2025]
 typ: gesetz
-titel: "Art. 112a DBG – Datenbearbeitung (Teil 2/3)"
+titel: "Art. 112a DBG – Datenbearbeitung (Teil 2/2)"
 artikel: "Art. 112a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
@@ -21,3 +21,5 @@ qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 **Abs. 5** Personendaten und die zu deren Bearbeitung verwendeten Einrichtungen wie Datenträger, EDV-Programme und Programmdokumentationen sind vor unbefugtem Verwenden, Verändern oder Zerstören sowie vor Diebstahl zu schützen.
 
 **Abs. 6** Der Bundesrat kann Ausführungsbestimmungen erlassen, insbesondere über die Organisation und den Betrieb des Informationssystems, über die Kategorien der zu erfassenden Daten, über die Zugriffs- und Bearbeitungsberechtigung, über die Aufbewahrungsdauer sowie die Archivierung und Vernichtung der Daten.
+
+**Abs. 7** Können sich Bundesämter über die Datenbekanntgabe nicht einigen, so entscheidet der Bundesrat endgültig. In allen andern Fällen entscheidet das Bundesgericht im Verfahren nach Artikel 120 des Bundesgerichtsgesetzes vom 17. Juni 2005.

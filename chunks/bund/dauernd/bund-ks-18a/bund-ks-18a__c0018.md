@@ -4,20 +4,19 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 18"
-seiten: "5"
+titel: "Ziff. 5.7 Sonderfall a: Mitarbeit im Beruf oder Betrieb des Ehegatten"
+ziffer: "5.7 a"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 5
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 7
 
-<!-- Seite 5 -->
-Damit ein Säule 3a-Beitrag für ein bestimmtes Jahr geleistet und steuerlich in Abzug ge-
-bracht werden kann, muss dieser bis spätestens am 31. Dezember des betreffenden Jahres
-bzw. bei unterjähriger Steuerpflicht bis zum letzten Tag der Steuerpflicht geleistet werden.
-Zeitlich ist auf den Tag der Gutschrift auf dem individuellen Vorsorgekonto bzw. Versiche-
-rungsvertrag der steuerpflichtigen Person abzustellen. Weder die Abbuchung auf dem Bank-
-konto der steuerpflichtigen Person noch die Gutschrift auf dem allgemeinen Bankkonto der
-Säule 3a-Institution reichen aus.
-
-Ordentliche Säule 3a-Beiträge und Einkäufe in die Säule 3a (vgl. Ziff. 5.6) qualifizieren für
-steuerrechtliche Zwecke als allgemeine Abzüge.
+5.7. Sonderfälle
+a)   Mitarbeit im Beruf oder im Betrieb des Ehegatten
+Bei Mitarbeit im Beruf oder im Betrieb des Ehegatten wird vermutet, diese halte sich im Rah-
+men der ehelichen Beistandspflicht, weshalb die Bildung einer Säule 3a für den mithelfenden
+Ehegatten nicht zulässig ist. Möchten die Ehegatten auch für den mithelfenden Ehepartner
+einen Abzug nach Artikel 7 BVV 3 beanspruchen, obliegt es ihnen, das Vorliegen eines den
+Rahmen der ehelichen Beistandspflicht übersteigenden Arbeitsverhältnisses darzutun. Auf
+dem entsprechenden Einkommen des mithelfenden Ehegatten müssen auf dessen Namen
+AHV/IV-Beiträge abgerechnet werden.

@@ -4,24 +4,16 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 13"
-seiten: "4"
+titel: "Ziff. 4.2 Allgemeiner Abzug – kein Pauschalabzug, pro Ehegatte (Teil 1/2)"
+ziffer: "4.2"
+seiten: "6-7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.2 Allgemeiner Abzug · S. 6–7
 
-<!-- Seite 4 -->
-3   Schematischer Überblick über die Abzugsfähigkeit (Grundzüge)
-
-    Abzugsfähig gemäss Artikel 33 Absatz 1 Buchstabe j DBG
-    bis 31. De-   ab 1. Januar 2016
-    zember 2015
-    über 20   über 20   unter 20   unter 20
-    Jahre alt, mit   Jahre alt,   Jahre alt, mit   Jahre alt,
-    erstem   ohne ersten   erstem   ohne ersten
-    Sek II-Ab-   Sek II-Ab-   Sek II-Ab-   Sek II-Ab-
-    schluss   schluss   schluss   schluss
- Ausbildung   Nein   Nein   Nein
- bis und mit
- erstem Ab-
- schluss auf
+4.2   Allgemeiner Abzug
+Der Abzug für die Aus- und Weiterbildungskosten gemäss Artikel 33 Absatz 1 Buchstabe j DBG
+stellt einen allgemeinen Abzug dar, mit dem den tatsächlichen Aufwendungen der steuerpflichti-
+gen Person bis zu einem Gesamtbetrag von höchstens 12 000 Franken Rechnung getragen wird.
+Der Abzug ist kein Pauschalabzug. Bei Ehegatten, die in rechtlich und tatsächlich ungetrennter
+Ehe leben, und bei Personen, die in einer eingetragenen Partnerschaft leben, steht dieser Abzug

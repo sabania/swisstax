@@ -1,0 +1,343 @@
+{
+ "id": "sg-stb-34-1",
+ "hinweise": [
+  "Text sauber extrahiert; Beispiel auf Seite 5 (Härtefalleinschlag) ist als Tabelle linear lesbar."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Ziff. 1 Eigenmietwert – Rechtsgrundlagen und Marktwertprinzip (Art. 34 StG)",
+   "pfad": [
+    "1. Rechtsgrundlagen / Marktwertprinzip"
+   ],
+   "stichworte": [
+    "Eigenmietwert",
+    "Marktwert",
+    "Art. 34 StG SG",
+    "Nutzniessung Wohnrecht",
+    "unterjährig Kauf Verkauf"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Der Mietwert selbstgenutzter Grundstücke ist steuerbar (Art. 34 Abs. 1 Bst. b StG) und bemisst sich am Marktwert; bei unterjähriger Eigentumsdauer nur anteilsmässig.",
+   "ziffer": "1"
+  },
+  {
+   "start": 38,
+   "titel": "Ziff. 2/2.1 Ermittlung des Eigenmietwertes – Schätzung GGS und DBSt",
+   "pfad": [
+    "2. Ermittlung",
+    "2.1 Mietwert gemäss Schätzung"
+   ],
+   "stichworte": [
+    "Grundstückschätzung",
+    "GGS",
+    "Neuschätzung",
+    "Eigenmietwert anfechtbar",
+    "direkte Bundessteuer"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Der rechtskräftig geschätzte Mietwert ist im Jahr der Schätzung verbindlich; Neubeurteilung von Amtes wegen nur bei nachgewiesener Sachverhaltsänderung; gleiche Ansätze bei der DBSt.",
+   "ziffer": "2.1"
+  },
+  {
+   "start": 54,
+   "titel": "Ziff. 2.2 Vorzugsmiete – Aufhebung ab 2024, Steuerumgehung (Hälfte-Grenze)",
+   "pfad": [
+    "2. Ermittlung",
+    "2.2 Vorzugsmiete und Gebrauchsleihe"
+   ],
+   "stichworte": [
+    "Vorzugsmiete",
+    "verbilligte Miete",
+    "nahestehende Person",
+    "BGE 146 II 97",
+    "Steuerumgehung",
+    "Vermietung an Kinder"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Ab Steuerperiode 2024 wird die Vorzugsmiete nicht mehr aufgerechnet, ausser bei Steuerumgehung, etwa wenn der Mietzins unter der Hälfte des Marktmietwerts liegt.",
+   "ziffer": "2.2"
+  },
+  {
+   "start": 71,
+   "titel": "Ziff. 2.2 Unterpreisige Vermietung durch/an Kapitalgesellschaft oder Selbständige",
+   "pfad": [
+    "2. Ermittlung",
+    "2.2 Vorzugsmiete und Gebrauchsleihe"
+   ],
+   "stichworte": [
+    "Kapitalgesellschaft",
+    "Gewinnvorwegnahme",
+    "Geschäftsliegenschaft",
+    "geldwerte Leistung",
+    "Marktwertprinzip"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Vermietet eine Kapitalgesellschaft unterpreislich an eine beteiligte Person, liegt eine Gewinnvorwegnahme vor; bei Geschäftsliegenschaften gilt Art. 31 StG.",
+   "ziffer": "2.2"
+  },
+  {
+   "start": 88,
+   "titel": "Ziff. 2.2 Gebrauchsleihe – unentgeltliche Überlassung, Nutzniessung/Wohnrecht",
+   "pfad": [
+    "2. Ermittlung",
+    "2.2 Vorzugsmiete und Gebrauchsleihe"
+   ],
+   "stichworte": [
+    "Gebrauchsleihe",
+    "unentgeltliche Überlassung",
+    "Wohnrecht",
+    "Nutzniessung",
+    "Marktmietwert"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Bei Gebrauchsleihe versteuert der Eigentümer den vollen Marktmietwert; ein unentgeltliches Nutzungsrecht liegt nur bei im Grundbuch eingetragener Nutzniessung oder eingetragenem Wohnrecht ohne periodisches Entgelt vor.",
+   "ziffer": "2.2"
+  },
+  {
+   "start": 98,
+   "titel": "Ziff. 2.2 Überlassung an Ehegatten bei Trennung/Scheidung",
+   "pfad": [
+    "2. Ermittlung",
+    "2.2 Vorzugsmiete und Gebrauchsleihe"
+   ],
+   "stichworte": [
+    "Trennung",
+    "Scheidung",
+    "Eigenheim Ehegatte",
+    "Unterhaltsbeitrag Eigenmietwert",
+    "Alimente"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "abzug.unterhaltsbeitraege",
+    "einkommen.unterhaltsbeitraege"
+   ],
+   "zusammenfassung": "Überlässt der Eigentümer das Eigenheim dem unterhaltsberechtigten Ehegatten, versteuert er den Eigenmietwert und kann ihn als Unterhaltsbeitrag abziehen; der Berechtigte versteuert einen Unterhaltsbeitrag.",
+   "ziffer": "2.2"
+  },
+  {
+   "start": 111,
+   "titel": "Ziff. 2.3 Baurechtsgrundstück – Mietwert nur des Gebäudes",
+   "pfad": [
+    "2. Ermittlung",
+    "2.3 Baurechtsgrundstück"
+   ],
+   "stichworte": [
+    "Baurecht",
+    "Baurechtszins",
+    "Eigenheim im Baurecht"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Beim Eigenheim im Baurecht wird nur der Mietwert des Gebäudes angerechnet; der Baurechtszins ist im amtlichen Mietwert bereits berücksichtigt.",
+   "ziffer": "2.3"
+  },
+  {
+   "start": 120,
+   "titel": "Ziff. 2.4 Herabsetzung des Eigenmietwertes um 30 % bei Selbstbewohnen",
+   "pfad": [
+    "2. Ermittlung",
+    "2.4 Herabsetzung bei Selbstbewohnen"
+   ],
+   "stichworte": [
+    "30 Prozent Reduktion",
+    "Selbstnutzung",
+    "Zweitwohnung",
+    "Ferienwohnung",
+    "Miteigentum",
+    "Eigenmietwert 70 %"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "sozialabzug.eigenmietwert"
+   ],
+   "zusammenfassung": "Der Mietwert des am Wohnsitz dauernd selbst bewohnten Eigenheims wird um 30 Prozent herabgesetzt (Art. 34 Abs. 3 StG); keine Herabsetzung bei Zweit-/Ferienwohnungen und vermieteten Objekten.",
+   "ziffer": "2.4"
+  },
+  {
+   "start": 151,
+   "titel": "Ziff. 2.5 Unternutzungsabzug – Voraussetzungen",
+   "pfad": [
+    "2. Ermittlung",
+    "2.5 Unternutzungsabzug"
+   ],
+   "stichworte": [
+    "Unternutzung",
+    "nicht benutzte Zimmer",
+    "Auszug der Kinder",
+    "BGE 135 II 416",
+    "Raumreserve"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "sozialabzug.eigenmietwert"
+   ],
+   "zusammenfassung": "Der Unternutzungsabzug wird nur auf Antrag und restriktiv gewährt: bei Selbstnutzung am Wohnsitz, tatsächlicher und dauernder Nichtbenutzung von Räumen, ohne Einfluss der steuerpflichtigen Person.",
+   "ziffer": "2.5"
+  },
+  {
+   "start": 183,
+   "titel": "Ziff. 2.5 Berechnung Unternutzungsabzug – Formel und Beispiel",
+   "pfad": [
+    "2. Ermittlung",
+    "2.5 Unternutzungsabzug"
+   ],
+   "stichworte": [
+    "Unternutzungsabzug Berechnung",
+    "Zimmer + 2",
+    "6-Zimmerwohnung",
+    "Fr. 2'625"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Abzug = um 30 % reduzierter Eigenmietwert x nicht benutzte Zimmer / (Anzahl Zimmer + 2); Beispiel 6 Zimmer, Mietwert Fr. 30'000, ein Raum ungenutzt: Fr. 2'625.",
+   "ziffer": "2.5"
+  },
+  {
+   "start": 193,
+   "titel": "Ziff. 2.6.1–2.6.2 Härtefallregelung – Allgemeines, selbstbewohntes Eigenheim",
+   "pfad": [
+    "2. Ermittlung",
+    "2.6 Härtefallregelung"
+   ],
+   "stichworte": [
+    "Härtefall",
+    "Rentner Eigenmietwert",
+    "60 % der Marktmiete",
+    "nur Kanton und Gemeinde",
+    "von Amtes wegen"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "sozialabzug.eigenmietwert"
+   ],
+   "zusammenfassung": "Seit 1. Januar 2016 gibt es bei der Kantons-/Gemeindesteuer einen Härtefallabzug im AHV-Rentenalter; Reduktion unter 60 % der mittleren Marktmiete ausgeschlossen, Prüfung von Amtes wegen.",
+   "ziffer": "2.6.1–2.6.2"
+  },
+  {
+   "start": 212,
+   "titel": "Ziff. 2.6.3 Härtefall – Person im ordentlichen AHV-Rentenalter",
+   "pfad": [
+    "2. Ermittlung",
+    "2.6 Härtefallregelung"
+   ],
+   "stichworte": [
+    "Referenzalter",
+    "AHV-Alter",
+    "Ehepaar eine Person",
+    "Rentenbezug unerheblich"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Massgebend ist das Erreichen des AHV-Referenzalters, nicht der Rentenbezug; bei Ehepaaren genügt eine Person, Stand Ende Steuerperiode.",
+   "ziffer": "2.6.3"
+  },
+  {
+   "start": 221,
+   "titel": "Ziff. 2.6.4 Härtefall – Missverhältnis: 30 % der Bruttoeinkünfte, Vermögen max. Fr. 600'000",
+   "pfad": [
+    "2. Ermittlung",
+    "2.6 Härtefallregelung"
+   ],
+   "stichworte": [
+    "Missverhältnis",
+    "Bruttoeinkünfte",
+    "Vermögen Fr. 600'000",
+    "Ergänzungsleistungen",
+    "Hilflosenentschädigung"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Missverhältnis, wenn der anrechenbare Mietwert 30 % der Bruttoeinkünfte übersteigt und das steuerbare Vermögen höchstens Fr. 600'000.-- beträgt; Bruttoeinkünfte werden definiert (u.a. plus Ergänzungsleistungen, Hilflosenentschädigungen).",
+   "ziffer": "2.6.4"
+  },
+  {
+   "start": 246,
+   "titel": "Ziff. 2.6.5 Berechnung des Härtefalleinschlags – Grundsatz",
+   "pfad": [
+    "2. Ermittlung",
+    "2.6 Härtefallregelung"
+   ],
+   "stichworte": [
+    "Härtefalleinschlag",
+    "maximal 10 % der Marktmiete",
+    "Untergrenze 60 %"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Härtefalleinschlag = positive Differenz zwischen anrechenbarem Eigenmietwert und 30 % der Bruttoeinkünfte, höchstens 10 % der Marktmiete (Untergrenze 60 %).",
+   "ziffer": "2.6.5"
+  },
+  {
+   "start": 255,
+   "titel": "Ziff. 2.6.5 Beispiel Härtefalleinschlag (Bruttoeinkünfte Fr. 40'000, Marktmietwert Fr. 24'000)",
+   "pfad": [
+    "2. Ermittlung",
+    "2.6 Härtefallregelung"
+   ],
+   "stichworte": [
+    "Beispiel Härtefall",
+    "Fr. 2'400",
+    "Fr. 4'800",
+    "Marktmietwert Fr. 24'000"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Beispiel: Bruttoeinkünfte Fr. 40'000, Marktmietwert Fr. 24'000; Differenzen Fr. 4'800 und Fr. 2'400, Härtefalleinschlag die kleinere Differenz von Fr. 2'400.",
+   "ziffer": "2.6.5"
+  },
+  {
+   "start": 285,
+   "titel": "Ziff. 2.7 Verhältnis Unternutzungsabzug / Härtefallregelung",
+   "pfad": [
+    "2. Ermittlung",
+    "2.7 Verhältnis"
+   ],
+   "stichworte": [
+    "Unternutzung und Härtefall",
+    "unter 60 % Marktmietwert"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Nur beim Unternutzungsabzug kann der steuerbare Mietwert unter 60 % des Marktmietwerts sinken; in diesem Fall greift der Härtefalleinschlag nicht.",
+   "ziffer": "2.7"
+  },
+  {
+   "start": 300,
+   "titel": "Ziff. 3 Unterhaltskostenpauschale bei Eigenheimen – 20 % des Eigenmietwertes",
+   "pfad": [
+    "3. Höhe der Unterhaltskostenpauschale"
+   ],
+   "stichworte": [
+    "Unterhaltskostenpauschale",
+    "20 Prozent",
+    "Art. 29 StV",
+    "Pauschale Eigenheim"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Die Pauschale beträgt bei Eigenheimen 20 % des angerechneten (herabgesetzten) steuerbaren Eigenmietwertes (Art. 29 Abs. 1 StV).",
+   "ziffer": "3"
+  }
+ ]
+}

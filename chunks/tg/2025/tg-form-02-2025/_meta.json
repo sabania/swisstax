@@ -91,7 +91,7 @@
 },
 {
 "id": "tg-form-02-2025__c0004",
-"titel": "Unterschrift und Rückerstattung Verrechnungssteuer – Voraussetzungen (Teil 1/2)",
+"titel": "Unterschrift und Rückerstattung Verrechnungssteuer – Voraussetzungen",
 "pfad": [
 "Formular 2",
 "Seite 1",
@@ -120,35 +120,6 @@
 },
 {
 "id": "tg-form-02-2025__c0005",
-"titel": "Unterschrift und Rückerstattung Verrechnungssteuer – Voraussetzungen (Teil 2/2)",
-"pfad": [
-"Formular 2",
-"Seite 1",
-"Rückerstattung Verrechnungssteuer"
-],
-"seiten": [
-1
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": [
-"Verrechnungssteuer",
-"Rückerstattung",
-"Wohnsitz Thurgau 31. Dezember",
-"Art. 23 VStG",
-"Unterschrift",
-"Konto"
-],
-"positionen": [
-"verrechnungssteuer.rueckerstattung"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "tg-form-02-2025__c0004",
-"nachher": "tg-form-02-2025__c0006"
-},
-{
-"id": "tg-form-02-2025__c0006",
 "titel": "Detailverzeichnis Wertschriften und Guthaben – Spalten und Codes 01–06",
 "pfad": [
 "Formular 2",
@@ -177,11 +148,11 @@
 ],
 "zusammenfassung": "Spalten 1–9 für Bezeichnung, Zuordnungscodes 01–06, Steuerwert am 31.12.2025 und Bruttoertrag mit (A) und ohne (B) Verrechnungssteuerabzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "tg-form-02-2025__c0005",
-"nachher": "tg-form-02-2025__c0007"
+"vorher": "tg-form-02-2025__c0004",
+"nachher": "tg-form-02-2025__c0006"
 },
 {
-"id": "tg-form-02-2025__c0007",
+"id": "tg-form-02-2025__c0006",
 "titel": "Ziff. 11–18, 9, 10 Zwischentotale, Kosten und Verrechnungssteueranspruch (Codes 148, 149, 145, 410, 150)",
 "pfad": [
 "Formular 2",
@@ -209,11 +180,11 @@
 ],
 "zusammenfassung": "Ziffer 9 Total Steuerwert und Ertrag, zu übertragen in Steuererklärung Seite 4 Ziffer 30.1 bzw. Seite 2 Ziffer 4; Ziffer 10 Verrechnungssteueranspruch 35 % von Bruttoertrag Total A.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "tg-form-02-2025__c0006",
-"nachher": "tg-form-02-2025__c0008"
+"vorher": "tg-form-02-2025__c0005",
+"nachher": "tg-form-02-2025__c0007"
 },
 {
-"id": "tg-form-02-2025__c0008",
+"id": "tg-form-02-2025__c0007",
 "titel": "Beiblatt Detailverzeichnis Wertschriften und Guthaben (Seite 3)",
 "pfad": [
 "Formular 2",
@@ -237,11 +208,11 @@
 ],
 "zusammenfassung": "Weiteres Detailverzeichnis; Summen werden auf Seite 2, Spalten 7, 8 und 9 übertragen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "tg-form-02-2025__c0007",
-"nachher": "tg-form-02-2025__c0009"
+"vorher": "tg-form-02-2025__c0006",
+"nachher": "tg-form-02-2025__c0008"
 },
 {
-"id": "tg-form-02-2025__c0009",
+"id": "tg-form-02-2025__c0008",
 "titel": "Hilfsblatt qualifizierte Beteiligungen im Privatvermögen – Teilbesteuerungsabzug (Staatssteuer 40 %, Bundessteuer 30 %)",
 "pfad": [
 "Formular 2",
@@ -267,7 +238,7 @@
 ],
 "zusammenfassung": "Teilbesteuerungsabzug 40 % bei der Staatssteuer und 30 % bei der Bundessteuer für Beteiligungen ab 10 %; Übertrag in Steuererklärung Seite 3 Ziffer 15.6.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "tg-form-02-2025__c0008",
+"vorher": "tg-form-02-2025__c0007",
 "nachher": null
 }
 ]

@@ -4,19 +4,19 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise (Teil 3/3)"
-ziffer: "Anh. III 5c"
-seiten: "24-25"
+titel: "Anhang III Ziff. 5b/5c Steuerliche Behandlung – modifizierte Differenzbesteuerung (Teil 2/2)"
+ziffer: "Anh. III 5b–c"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 24–25
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 25
 
-1-015-DVS-2017-d / Anhang III
+Die besonderen RC-Varianten gemäss Buchstaben b) und c) hievor werden verrechnungs-
+steuerlich und stempelabgaberechtlich gleich behandelt wie die gewöhnlichen RC (vgl.
 
-bis zum nächsten Beobachtungszeitpunkt, usw. – unter Umständen bis zum Endverfall. Übli-
-cherweise haben Step-up-Produkte eine Laufzeit von vier bis fünf Jahren. Tritt der Fall ein,
-dass der Basiswert auch am letzten Beobachtungstag das Startniveau nicht erreicht, führt
-dies zur Aktivierung des bedingten Kapitalschutzes. Wird bei Verfall die Schutzbarriere des
-Basiswerts unterschritten, realisiert der Anleger den Wertverlust des Basiswerts. Bei mehre-
-ren Basiswerten bemisst sich die Rückzahlung nach dem Basiswert, der die schlechteste
-Performance aufweist (sog. „Rainbow-Option“).
+Kreisschreiben Nr. 15, Ziffer 2.3.3. i.V.m. Ziffer 3.6.). Die Steuerfolgen bleiben deshalb immer
+dieselben, weil RC zu den transparenten kombinierten Finanzinstrumenten gehören und sich
+die Höhe der steuerlich relevanten, marktkonformen Verzinsung der Obligation durch den
+Einsatz von exotischen und/oder zusätzlichen Optionen nicht verändert. Für die Bestimmung
+der marktkonformen Verzinsung bei Produkten mit vorzeitiger Rückzahlungsmöglichkeit ist
+stets die maximal mögliche Laufzeit entscheidend.

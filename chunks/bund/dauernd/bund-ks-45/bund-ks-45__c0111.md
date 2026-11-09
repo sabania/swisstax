@@ -4,39 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 111"
-seiten: "28"
+titel: "Ziff. 6.12 Kapitalabfindungen für wiederkehrende Leistungen (Teil 2/2)"
+ziffer: "6.12"
+seiten: "34-35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.12 Kapitalabfindungen wiederkehrende Leistungen · S. 34–35
 
-    Total   9 500   12 562.50
+    Beispiel:
+    - Kapitalabfindungen für wiederkehrende Leistungen sind zusammen mit dem Bruttolohn, welcher im Monat
+    der Auszahlung der Kapitalabfindung ausgerichtet wird, an der Quelle zu besteuern.
 
-    2. Der Arbeitnehmer D. arbeitet bei der M. AG (50 %) und bei der C. AG (40 %), beide mit Sitz in der
-    Schweiz. Per 15. März beendet D. sein Arbeitsverhältnis bei der C. AG. Er erhält neben der anteilsmässi-
-    gen Lohnzahlung noch eine Abgangsentschädigung von CHF 500.00 sowie die anteilsmässige Auszah-
-    lung des 13. Monatslohns.
+    Leistungen   steuerbar   satzbestimmend
 
-    Leistungen   M. AG (CH)   C. AG (CH)   Berechnung
+    Ordentlicher Bruttomonatslohn Mai 2022 (ohne Familienzulage)   4 800   4 800
 
-    Pensum   50 %   40 %
+    Nachzahlung Familienzulagen Dezember 2021 bis Mai 2022   1 200   1 200
 
-    Lohn (periodisch)   2 600   1 000.00
-
-    Abgangsentschädigung (aperiodisch)   -   500.00
-
-    Anteil 13. Monatslohn   0   416.67
-
-    1. Umrechnung Austritt:
-
-    Satzbestimmung 13. Monatslohn   0   2 000   416.67 / 75 x 360
-
-    Satzbestimmung Austritt (auf 30 Tage)   2 600   2 000   1 000 / 15 x 30
-
-    2. Umrechnung mehrere Arbeitgeber
-
-    Satzbestimmung Teilzeitpensum   5 200   9 000   2 000 + 2 000 / 40 % x 90 %
-
-    Abgangsentschädigung   500
-
-    Total Satzbestimmung   5 200   9 500
+    Total Bruttolohn Mai 2022   6 000   6 000

@@ -4,36 +4,30 @@ quelle: sg-stb-aenderungen-2026
 jur: sg
 jahre: [2026]
 typ: info
-titel: "StB SG Änderungen 2026 – Abschnitt 2"
+titel: "Änderungen StB 044 – Verwaltungskosten, Liegenschaftsunterhalt, Denkmalpflege"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: info}}
 ---
-> SG · Steuerjahr 2026 · StB SG Änderungen 2026 · S. 1
+> SG · Steuerjahr 2026 · StB SG Änderungen 2026 · Änderungen Steuerbuch Stand 1.1.2026 · S. 1
 
-<!-- Seite 1 -->
-Kanton St.Gallen
-Steueramt
+StB 044 Nr. 1   Verwaltungskosten des beweglichen   01.01.2026
+    Allgemeine Aktualisierung.
+    Privatvermögens
 
-Rechtabteilung
+StB 044 Nr. 2   Liegenschaftsunterhalt / wertver-   Allgemeine Aktualisierung. Abschaffung der Praxis   01.01.2026
+    mehrende Aufwendungen   zum wirtschaftlichen Neubau. Präzisierungen zum
+    Ersatzneubau und zur Nutzungsänderung.
 
-15. Nachtrag zum Steuerbuch
-Stand 1. Januar 2026
+StB 044 Nr. 3   Liegenschaftsaufwendungen im Ein-   01.01.2026
+    zelnen - Verhältnis zwischen abzieh-
+    baren (Unterhalts-)Kosten und nicht   Allgemeine Aktualisierung.
+    abziehbaren Anlagekosten oder Pri-
+    vataufwand
 
-Weisung   Titel   Änderung   Gültig ab
+StB 044 Nr. 4   Betriebskosten bei Eigengebrauch   Allgemeine Aktualisierung.   01.01.2026
 
-A, B, C, S   Serviceweisungen   Allgemeine Aktualisierung.   01.01.2026
+StB 044 Nr. 7   Denkmalpflege   Allgemeine Überarbeitung und Straffung.   01.01.2026
 
-StB 006 Nr. 1   Kantonssteuerfuss in Prozenten der   Aktualisierung Kantonssteuerfuss 2026.   01.01.2026
-    einfachen Steuer
-
-StB 030 Nr. 1   Spesenvergütungen   Anpassung Kilometeransatz.   01.01.2026
-
-StB 034 Nr. 2   Liegenschaften im Miteigentum   Einarbeitung von BGer 9C_305/2023 vom 10. Okto-   01.01.2025
-    ber 2024, wonach (auch) wonach (auch) bei einem   (Online-Publi-
-    grundbuchlich statuierten Wohnrecht die Liegen-   kation vorgezo-
-    schaft vermögenssteuerlich beim (Mit-)Eigentümer   gen)
-    zu erfassen ist (Praxisänderung); Hinweis auf die
-    per 1. Januar 2024 erfolgte Streichung der Rege-
-    lung zur Vorzugsmiete (Art. 34 Abs. 2 Satz 2 StG).
-
-StB 039 Nr. 3   Fahrt zum Arbeitsort   Anpassung Kilometeransatz.   01.01.2026
+StB 044 Nr. 8   Pauschalabzug für vorwiegend   01.01.2026
+    Wohnzwecken dienende Liegen-   Geringfügige Überarbeitung.
+    schaften

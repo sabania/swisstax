@@ -4,19 +4,23 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 192"
-seiten: "50"
+titel: "Ziff. 9.3 / 9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell (Teil 2/2)"
+ziffer: "9.3.1"
+seiten: "59-60"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 50
+> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.3 Abrechnung und Ablieferung · S. 59–60
 
-sichtigung der ausländischen Arbeitstage oder ist der Arbeitnehmer mit der anzahlmässigen
-Ausscheidung von im Ausland geleisteten Arbeitstagen nicht einverstanden, kann der Arbeit-
-nehmer bis am 31. März des auf die Fälligkeit der Leistung folgenden Kalenderjahres bei der
-zuständigen Steuerbehörde eine Neuberechnung der Quellensteuer oder eine nachträgliche
-ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten). Das Kalendarium muss sowohl
-vom Arbeitnehmer als auch vom Arbeitgeber unterzeichnet und zusammen mit dem Antrag
+den Schuldner der steuerbaren Leistung, der über das einheitliche Lohnmeldeverfahren
+ELM-QSt abrechnet, ist die Übermittlung der erforderlichen Daten sichergestellt.
+Der Schuldner der steuerbaren Leistung hat die Quellensteuerabrechnungen grundsätzlich
+monatlich vorzunehmen.
+Auf Antrag des Schuldners der steuerbaren Leistung kann die zuständige Steuerbehörde
+längere Abrechnungsperioden (vierteljährlich, halbjährlich, jährlich) bewilligen, sofern die
+Quellensteuer nicht über ELM-Quellensteuer abgerechnet wird. Wird eine übermonatliche
+Abrechnungsperiode gewährt, sind die Quellensteuerdaten pro Arbeitnehmer und pro Monat
+auszuweisen Der Quellensteuerabrechnung sind die notwendigen Unterlagen beizulegen
+(bspw. Kalendarium, Bescheinigung über Mitarbeiterbeteiligungen). Die Quellensteuerab-
+rechnungen müssen vom Schuldner der steuerbaren Leistung bzw. seinem Vertreter jeweils
+innert 30 Tagen nach Ablauf der Abrechnungsperiode bei der zuständigen Steuerbehörde
 eingereicht werden.
-Für die Ausscheidung im Rahmen einer nachträglichen Korrektur sind die Regeln des inter-
-nationalen Steuerrechts bzw. der entsprechenden staatsvertraglichen Vereinbarungen
-(bspw. DBA, Verständigungsvereinbarungen) massgebend.

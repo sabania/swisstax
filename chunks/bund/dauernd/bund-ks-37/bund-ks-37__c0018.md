@@ -4,26 +4,15 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 18"
-seiten: "4"
+titel: "Ziff. 3.2.2 Verkehrswert statt Formelwert auf Antrag (Kaufrecht des Arbeitgebers)"
+ziffer: "3.2.2"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 37 · 3 Besteuerung von Mitarbeiteraktien › 3.2 Verkehrswert › 3.2.2 Nicht börsenkotierte Mitarbeiteraktien · S. 7
 
-Häufigste Formen echter Mitarbeiterbeteiligungen sind Mitarbeiteraktien und Mitarbeiteroptio-
-nen.
-
-2.3.1.1 Mitarbeiteraktien
-Als Mitarbeiteraktien im Sinne dieses Kreisschreibens gelten Aktien des Arbeitgebers oder
-ihm nahestehender Gesellschaften (vgl. Art. 17a Abs. 1 Bst. a DBG und Art. 1 Abs. 2 Bst. a
-MBV), die dem Mitarbeitenden von seinem Arbeitgeber aufgrund seines Arbeitsverhältnisses
-in der Regel zu Vorzugsbedingungen übertragen werden.
-
-Andere Beteiligungspapiere, die den Mitarbeitenden direkt am Gesellschaftskapital beteiligen
-– insbesondere Partizipationsscheine oder Genossenschaftsanteile – werden wie Mitarbei-
-teraktien behandelt. Nachfolgend wird der Einfachheit halber ausschliesslich von Mitarbeiter-
-aktien gesprochen.
-
- 2.3.1.1.1 Freie Mitarbeiteraktien
-Als freie Mitarbeiteraktien gelten Mitarbeiteraktien, über welche ein Mitarbeitender ohne Ein-
-schränkung verfügen kann.
+Ist für nicht börsenkotierte Aktien ausnahmsweise ein Verkehrswert verfügbar, ist grundsätz-
+lich dieser anwendbar. Im Einzelfall kann auf entsprechenden Antrag des Arbeitgebers trotz
+Verfügbarkeit eines Verkehrswerts auf einen Formelwert abgestellt werden. Dies setzt vo-
+raus, dass der Arbeitgeber ein unbeschränktes Kaufrecht hat, die Mitarbeiteraktien zum iden-
+tisch berechneten Formelwert zurück zu kaufen.

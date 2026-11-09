@@ -12,96 +12,82 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/IUU3cAaknqvw/dbst-ks-2020-1-037-d-de.pdf> · lokal: [bund-ks-37.pdf](../../../raw/bund/dauernd/bund-ks-37.pdf) · Volltext: [bund-ks-37.md](../../../sources/bund/dauernd/bund-ks-37.md)
 - **Abgerufen:** 2026-11-09 · sha256 `b0b42a4dd57e77e2…`
 
-## Inhalt (89 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Die Anhänge I-V werden im extrahierten Text nur als Titelliste (S. 22) genannt; Inhalt fehlt in der Quelle.
+- S. 9/10: Beispieltabellen (Sperrfrist/Rückgabepreis) nur als Textraster extrahiert; Spaltenzuordnung eingeschränkt lesbar.
+- S. 13, 17, 18: Quellensteuer-Übersichtstabellen im Layout vermischt (Spalten Schweiz/Ausland ineinander verschoben), Zuordnung nur eingeschränkt lesbar.
+- S. 7: Formeln (z.B. 100 : 1.06 hoch n) ohne Hochstellung extrahiert.
+
+## Inhalt (68 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0001.md) | KS 37 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0002.md) | KS 37 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0003.md) | KS 37 – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0004.md) | KS 37 – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0005.md) | KS 37 – Abschnitt 5 | S. 1 |  |
-| [c0006](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0006.md) | KS 37 – Abschnitt 6 | S. 1 |  |
-| [c0007](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0007.md) | KS 37 – Abschnitt 7 | S. 2 |  |
-| [c0008](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0008.md) | KS 37 – Abschnitt 8 | S. 2 |  |
-| [c0009](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0009.md) | KS 37 – Abschnitt 9 | S. 2 |  |
-| [c0010](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0010.md) | KS 37 – Abschnitt 10 | S. 2 |  |
-| [c0011](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0011.md) | KS 37 – Abschnitt 11 | S. 2 |  |
-| [c0012](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0012.md) | KS 37 – Abschnitt 12 | S. 2 |  |
-| [c0013](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0013.md) | KS 37 – Abschnitt 13 | S. 3 |  |
-| [c0014](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0014.md) | KS 37 – Abschnitt 14 | S. 3 |  |
-| [c0015](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0015.md) | KS 37 – Abschnitt 15 | S. 3 |  |
-| [c0016](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0016.md) | KS 37 – Abschnitt 16 | S. 3 |  |
-| [c0017](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0017.md) | KS 37 – Abschnitt 17 | S. 4 |  |
-| [c0018](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0018.md) | KS 37 – Abschnitt 18 | S. 4 |  |
-| [c0019](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0019.md) | KS 37 – Abschnitt 19 | S. 4 |  |
-| [c0020](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0020.md) | KS 37 – Abschnitt 20 | S. 4 |  |
-| [c0021](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0021.md) | KS 37 – Abschnitt 21 | S. 5 |  |
-| [c0022](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0022.md) | KS 37 – Abschnitt 22 | S. 5 |  |
-| [c0023](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0023.md) | KS 37 – Abschnitt 23 | S. 5 |  |
-| [c0024](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0024.md) | KS 37 – Abschnitt 24 | S. 5 |  |
-| [c0025](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0025.md) | KS 37 – Abschnitt 25 | S. 5 |  |
-| [c0026](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0026.md) | KS 37 – Abschnitt 26 | S. 6 |  |
-| [c0027](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0027.md) | KS 37 – Abschnitt 27 | S. 6 |  |
-| [c0028](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0028.md) | KS 37 – Abschnitt 28 | S. 6 |  |
-| [c0029](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0029.md) | KS 37 – Abschnitt 29 | S. 6 |  |
-| [c0030](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0030.md) | KS 37 – Abschnitt 30 | S. 7 |  |
-| [c0031](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0031.md) | KS 37 – Abschnitt 31 | S. 7 |  |
-| [c0032](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0032.md) | KS 37 – Abschnitt 32 | S. 7 |  |
-| [c0033](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0033.md) | KS 37 – Abschnitt 33 | S. 7 |  |
-| [c0034](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0034.md) | KS 37 – Abschnitt 34 | S. 8 |  |
-| [c0035](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0035.md) | KS 37 – Abschnitt 35 | S. 8 |  |
-| [c0036](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0036.md) | KS 37 – Abschnitt 36 | S. 8 |  |
-| [c0037](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0037.md) | KS 37 – Abschnitt 37 | S. 8 |  |
-| [c0038](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0038.md) | KS 37 – Abschnitt 38 | S. 9 |  |
-| [c0039](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0039.md) | KS 37 – Abschnitt 39 | S. 9 |  |
-| [c0040](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0040.md) | KS 37 – Abschnitt 40 | S. 9 |  |
-| [c0041](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0041.md) | KS 37 – Abschnitt 41 | S. 9 |  |
-| [c0042](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0042.md) | KS 37 – Abschnitt 42 | S. 10 |  |
-| [c0043](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0043.md) | KS 37 – Abschnitt 43 | S. 10 |  |
-| [c0044](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0044.md) | KS 37 – Abschnitt 44 | S. 10 |  |
-| [c0045](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0045.md) | KS 37 – Abschnitt 45 | S. 10 |  |
-| [c0046](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0046.md) | KS 37 – Abschnitt 46 | S. 11 |  |
-| [c0047](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0047.md) | KS 37 – Abschnitt 47 | S. 11 |  |
-| [c0048](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0048.md) | KS 37 – Abschnitt 48 | S. 11 |  |
-| [c0049](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0049.md) | KS 37 – Abschnitt 49 | S. 11 |  |
-| [c0050](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0050.md) | KS 37 – Abschnitt 50 | S. 12 |  |
-| [c0051](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0051.md) | KS 37 – Abschnitt 51 | S. 12 |  |
-| [c0052](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0052.md) | KS 37 – Abschnitt 52 | S. 12 |  |
-| [c0053](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0053.md) | KS 37 – Abschnitt 53 | S. 13 |  |
-| [c0054](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0054.md) | KS 37 – Abschnitt 54 | S. 13 |  |
-| [c0055](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0055.md) | KS 37 – Abschnitt 55 | S. 13 |  |
-| [c0056](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0056.md) | KS 37 – Abschnitt 56 | S. 14 |  |
-| [c0057](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0057.md) | KS 37 – Abschnitt 57 | S. 14 |  |
-| [c0058](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0058.md) | KS 37 – Abschnitt 58 | S. 14 |  |
-| [c0059](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0059.md) | KS 37 – Abschnitt 59 | S. 14 |  |
-| [c0060](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0060.md) | KS 37 – Abschnitt 60 | S. 15 |  |
-| [c0061](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0061.md) | KS 37 – Abschnitt 61 | S. 15 |  |
-| [c0062](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0062.md) | KS 37 – Abschnitt 62 | S. 15 |  |
-| [c0063](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0063.md) | KS 37 – Abschnitt 63 | S. 15 |  |
-| [c0064](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0064.md) | KS 37 – Abschnitt 64 | S. 15 |  |
-| [c0065](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0065.md) | KS 37 – Abschnitt 65 | S. 16 |  |
-| [c0066](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0066.md) | KS 37 – Abschnitt 66 | S. 16 |  |
-| [c0067](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0067.md) | KS 37 – Abschnitt 67 | S. 16 |  |
-| [c0068](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0068.md) | KS 37 – Abschnitt 68 | S. 16 |  |
-| [c0069](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0069.md) | KS 37 – Abschnitt 69 | S. 17 |  |
-| [c0070](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0070.md) | KS 37 – Abschnitt 70 | S. 17 |  |
-| [c0071](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0071.md) | KS 37 – Abschnitt 71 | S. 17 |  |
-| [c0072](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0072.md) | KS 37 – Abschnitt 72 | S. 18 |  |
-| [c0073](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0073.md) | KS 37 – Abschnitt 73 | S. 18 |  |
-| [c0074](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0074.md) | KS 37 – Abschnitt 74 | S. 18 |  |
-| [c0075](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0075.md) | KS 37 – Abschnitt 75 | S. 18 |  |
-| [c0076](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0076.md) | KS 37 – Abschnitt 76 | S. 19 |  |
-| [c0077](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0077.md) | KS 37 – Abschnitt 77 | S. 19 |  |
-| [c0078](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0078.md) | KS 37 – Abschnitt 78 | S. 19 |  |
-| [c0079](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0079.md) | KS 37 – Abschnitt 79 | S. 19 |  |
-| [c0080](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0080.md) | KS 37 – Abschnitt 80 | S. 19 |  |
-| [c0081](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0081.md) | KS 37 – Abschnitt 81 | S. 20 |  |
-| [c0082](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0082.md) | KS 37 – Abschnitt 82 | S. 20 |  |
-| [c0083](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0083.md) | KS 37 – Abschnitt 83 | S. 20 |  |
-| [c0084](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0084.md) | KS 37 – Abschnitt 84 | S. 20 |  |
-| [c0085](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0085.md) | KS 37 – Abschnitt 85 | S. 21 |  |
-| [c0086](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0086.md) | KS 37 – Abschnitt 86 | S. 21 |  |
-| [c0087](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0087.md) | KS 37 – Abschnitt 87 | S. 21 |  |
-| [c0088](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0088.md) | KS 37 – Abschnitt 88 | S. 21 |  |
-| [c0089](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0089.md) | KS 37 – Abschnitt 89 | S. 22 |  |
+| [c0001](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0001.md) | Ziff. 1 Allgemeines – Gesetz über Mitarbeiterbeteiligungen und MBV | S. 3 | Das Bundesgesetz vom 17. Dezember 2010 und die Mitarbeiterbeteiligungsverordnung (MBV, SR 642.115.325.1) regeln Besteuerungszeitpunkt, Bemessung und Bescheinigungspflichten bei Mitarbeiterbeteiligungen. |
+| [c0002](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0002.md) | Ziff. 1 Zweck des Kreisschreibens und Version 30. Oktober 2020 | S. 3 | Das Kreisschreiben und die Anhänge I bis IV geben einen Überblick über die steuerlichen Auswirkungen; Änderungen der Version vom 30. Oktober 2020 sind mit einem Balken am linken Rand gekennzeichnet. |
+| [c0003](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0003.md) | Ziff. 2.1 Begriff Mitarbeitende | S. 3 | Mitarbeitende sind Arbeitnehmende, Mitglieder der Verwaltung oder Geschäftsführung sowie künftige und ehemalige Mitarbeitende; Unternehmer, Beauftragte, Mäkler und reine Aktionäre gelten nicht als Mitarbeitende. |
+| [c0004](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0004.md) | Ziff. 2.2 Begriff Arbeitgeber – faktischer Arbeitgeber | S. 3–4 | Arbeitgeber ist die Gesellschaft, Gruppengesellschaft oder Betriebsstätte, bei der der Mitarbeitende angestellt ist, auch als faktischer Arbeitgeber bei Entsendung und Kostenübernahme durch die schweizerische Muttergesellschaft. |
+| [c0005](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0005.md) | Ziff. 2.3 / 2.3.1 Mitarbeiterbeteiligungen – echte Beteiligungen | S. 4 | Echte Mitarbeiterbeteiligungen beteiligen den Mitarbeitenden am Eigenkapital des Arbeitgebers, direkt (Beteiligungspapiere) oder indirekt (Optionen, Anwartschaften); häufigste Formen sind Mitarbeiteraktien und -optionen. |
+| [c0006](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0006.md) | Ziff. 2.3.1.1 Mitarbeiteraktien und freie Mitarbeiteraktien | S. 4 | Mitarbeiteraktien sind Aktien des Arbeitgebers oder nahestehender Gesellschaften, die dem Mitarbeitenden aufgrund des Arbeitsverhältnisses in der Regel zu Vorzugsbedingungen übertragen werden; Partizipationsscheine und Genossenschaftsanteile werden gleich behandelt. |
+| [c0007](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0007.md) | Ziff. 2.3.1.1.2 Gesperrte Mitarbeiteraktien – Sperrfrist | S. 4 | Gesperrte Mitarbeiteraktien haben eine in der Regel befristete Verfügungssperre; blosse Zeitfenster (closed window period) gelten nicht als Sperrfrist. |
+| [c0008](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0008.md) | Ziff. 2.3.1.2 Mitarbeiteroptionen – frei, börsenkotiert, gesperrt | S. 4–5 | Eine Mitarbeiteroption ist das Recht, ein Beteiligungspapier des Arbeitgebers in einem definierten Zeitraum zu einem bestimmten Preis zu erwerben; börsenkotiert ist sie bei Börsennotierung und liquidem, nicht auf Mitarbeitende beschränktem Handel. |
+| [c0009](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0009.md) | Ziff. 2.3.1.3 Anwartschaften auf Mitarbeiteraktien (RSU) | S. 5 | Anwartschaften wie Restricted Stock Units stellen den späteren unentgeltlichen oder vergünstigten Aktienerwerb in Aussicht und werden den echten Mitarbeiteroptionen gleichgestellt. |
+| [c0010](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0010.md) | Ziff. 2.3.2 Unechte Mitarbeiterbeteiligungen – Begriff | S. 5 | Unechte Mitarbeiterbeteiligungen sind aktienkursbezogene Anreizsysteme, die nur eine Geldleistung nach der Wertentwicklung des Basistitels in Aussicht stellen und bis zur Realisation steuerlich blosse Anwartschaften sind. |
+| [c0011](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0011.md) | Ziff. 2.3.2.1–2.3.2.2 Phantom Stocks und Stock Appreciation Rights (SAR) | S. 5 | Phantom Stocks spiegeln eine Aktie wertmässig ohne Mitgliedschaftsrechte; Stock Appreciation Rights zahlen den Wertzuwachs eines Basistitels in bar aus, ohne Lieferung von Aktien. |
+| [c0012](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0012.md) | Ziff. 2.3.2.3 Co-Investments und 2.3.3 Künftige Entwicklungen | S. 5–6 | Co-Investments (v.a. Private Equity) gelten als unechte Beteiligung, wenn sie keine umfassenden Eigentümerrechte einräumen; neue Arten kann die ESTV nach Art. 16 MBV in einem Anhang auflisten. |
+| [c0013](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0013.md) | Ziff. 2.4 Sperrfrist sowie Vesting / Vestingperiode | S. 6 | Die Sperrfrist ist eine vertragliche Verfügungssperre; die Vestingperiode ist die Zeitspanne, in der der Mitarbeitende eine Option verdienen muss, bis zum Vesting gilt die Beteiligung als aufschiebend bedingt zugeteilt. |
+| [c0014](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0014.md) | Ziff. 2.5 Realisation und 2.6 Umrechnung von Fremdwährungen | S. 6 | Realisation umfasst Ausübung oder Verkauf von Optionen, Umwandlung von Anwartschaften und Bargeldbezug; Fremdwährungen sind zum Mittel der Geld- und Briefschlusskurse am Tag der Abgabe, des Erwerbs oder der Realisation umzurechnen. |
+| [c0015](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0015.md) | Ziff. 3.1 Besteuerung von Mitarbeiteraktien – Grundsatz (Art. 17b DBG) | S. 6–7 | Bei unentgeltlicher oder vergünstigter Abgabe ist die positive Differenz zwischen Verkehrswert und Abgabepreis Einkommen aus unselbständiger Erwerbstätigkeit, steuerbar bei Abgabe (Rechtserwerb). |
+| [c0016](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0016.md) | Ziff. 3.2.1 Verkehrswert börsenkotierter Mitarbeiteraktien – Bezugsfristen | S. 7 | Massgebend ist der Börsenschlusskurs am Tag des Rechtserwerbs; bei Bezugsfristen von mehr als 60 Kalendertagen der Schlusskurs am Tag der Annahme, bei bis zu 60 Kalendertagen der Schlusskurs des ersten Tages der Bezugsfrist. |
+| [c0017](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0017.md) | Ziff. 3.2.2 Nicht börsenkotierte Mitarbeiteraktien – Formelwert | S. 7 | Bei nicht kotierten Aktien gilt grundsätzlich der nach anerkannter Methode ermittelte Formelwert (z.B. nach KS Nr. 28), der bei nur jährlicher Berechnung nur gilt, wenn die Abgabe innert sechs Monaten nach dem Bewertungsstichtag erfolgt. |
+| [c0018](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0018.md) | Ziff. 3.2.2 Verkehrswert statt Formelwert auf Antrag (Kaufrecht des Arbeitgebers) | S. 7 | Ist ausnahmsweise ein Verkehrswert verfügbar, gilt dieser; auf Antrag kann trotzdem der Formelwert gelten, wenn der Arbeitgeber ein unbeschränktes Kaufrecht zum identisch berechneten Formelwert hat. |
+| [c0019](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0019.md) | Beispiel Newtec AG – Formelwert statt Verkehrswert | S. 7–8 | Beispiel: Bei 10 Aktien zu einem Verkehrswert von 10'000 Franken entstünden 100'000 Franken steuerbares Einkommen; die Behörden akzeptieren den Formelwert, wenn der Arbeitgeber ein unbeschränktes Rückkaufsrecht zum Formelwert hat. |
+| [c0020](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0020.md) | Ziff. 3.3 Steuerbares Einkommen – Diskontierungstabelle Sperrfrist (6 % pro Sperrjahr) | S. 8 | Gesperrte Aktien werden mit einem Diskont von 6 % pro Sperrjahr (max. 10 Jahre) bewertet: 1 Jahr 5,660 %, 2 Jahre 11,000 %, 5 Jahre 25,274 %, 10 Jahre 44,161 % Einschlag. |
+| [c0021](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0021.md) | Ziff. 3.3 Formel reduzierter Verkehrswert und steuerbare Differenz | S. 8 | Angebrochene Sperrjahre werden pro rata temporis berücksichtigt; der reduzierte Verkehrswert berechnet sich nach (100 : 1.06^n), die positive Differenz zum tieferen Erwerbspreis ist steuerbares Erwerbseinkommen. |
+| [c0022](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0022.md) | Ziff. 3.4.1 Vorzeitiger Wegfall der Sperrfrist (Art. 11 MBV) | S. 8 | Fällt die Sperrfrist vorzeitig weg, ist die Differenz zwischen dem nicht diskontierten Verkehrswert und dem nach der Restsperrfrist diskontierten Wert steuerbares Erwerbseinkommen. |
+| [c0023](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0023.md) | Beispiel Ziff. 3.4.1 – Vorzeitige Pensionierung, Wegfall Sperrfrist (470.50 Franken) (Teil 1/2) | S. 8–9 | Beispiel: Bei Kurs 1'500 Franken und 6,46 Rest-Sperrjahren beträgt der reduzierte Verkehrswert 68,632 % bzw. 1'029.50 Franken, steuerbares Erwerbseinkommen 470.50 Franken. |
+| [c0024](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0024.md) | Beispiel Ziff. 3.4.1 – Vorzeitige Pensionierung, Wegfall Sperrfrist (470.50 Franken) (Teil 2/2) | S. 8–9 |  |
+| [c0025](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0025.md) | Ziff. 3.4.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV) | S. 9 | Bei Rückgabe unter dem diskontierten Verkehrswert kann die Vermögenseinbusse als Gewinnungskostenabzug geltend gemacht werden; ein höherer Rückgabepreis ist steuerbares Erwerbseinkommen, nicht privater Kapitalgewinn. |
+| [c0026](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0026.md) | Beispiel Ziff. 3.4.2 – Rückgabe bei Kündigung (Gewinnungskosten 229 Franken) (Teil 1/2) | S. 9–10 | Beispiel: Rückgabepreis 800 Franken bei reduziertem Verkehrswert von 1'029 Franken (Kurs 1'500, 6,46 Sperrjahre); die Differenz von 229 Franken ist als Gewinnungskosten abziehbar. |
+| [c0027](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0027.md) | Beispiel Ziff. 3.4.2 – Rückgabe bei Kündigung (Gewinnungskosten 229 Franken) (Teil 2/2) | S. 9–10 |  |
+| [c0028](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0028.md) | Ziff. 3.4.3 Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien | S. 10 | Der Verkauf privat gehaltener Mitarbeiteraktien führt zu einem steuerfreien Kapitalgewinn; ein auf Methodenwechsel (Formel- zu Verkehrswert) beruhender Mehrwert ist grundsätzlich Einkommen, ausser das Ereignis tritt nach fünfjähriger Haltedauer ein. |
+| [c0029](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0029.md) | Ziff. 3.4.4 Weitere Sachverhalte – Gründeraktien, Drittkonditionen | S. 10 | Bei Gründung erworbene Aktien und zu Drittkonditionen erworbene Beteiligungsrechte sind keine Mitarbeiterbeteiligungen nach Art. 17a DBG (neu ab 1. Januar 2021). |
+| [c0030](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0030.md) | Ziff. 4 Besteuerung von Mitarbeiteroptionen – freie börsenkotierte und übrige | S. 10–11 | Freie börsenkotierte Optionen werden bei Abgabe besteuert; alle übrigen Optionen bei Veräusserung oder Ausübung, steuerbar ist der gesamte Erlös bzw. Ausübungsgewinn nach Abzug der Gestehungskosten. |
+| [c0031](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0031.md) | Ziff. 5–6 Anwartschaften (RSU) und unechte Mitarbeiterbeteiligungen | S. 11 | Anwartschaften werden bei Umwandlung in Aktien nach den Aktienregeln besteuert; geldwerte Vorteile aus unechten Beteiligungen sind bei Zufluss voll als Erwerbseinkommen steuerbar. |
+| [c0032](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0032.md) | Ziff. 7.1 Internationales Verhältnis – anteilsmässige Besteuerung (Art. 17d DBG) (Teil 1/2) | S. 11 | Bei Zuzug oder Wegzug zwischen Abgabe und Realisation wird der geldwerte Vorteil nach Arbeitstagen auf die Länder aufgeteilt, in denen der Mitarbeitende seit der Zuteilung bis zum Entstehen des Ausübungsrechts ansässig war. |
+| [c0033](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0033.md) | Ziff. 7.1 Internationales Verhältnis – anteilsmässige Besteuerung (Art. 17d DBG) (Teil 2/2) | S. 11 |  |
+| [c0034](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0034.md) | Ziff. 7.1 Bescheinigung nach Art. 7/8/9 MBV und Quellensteuer auf dem Schweizer Anteil | S. 11–12 | Der Arbeitgeber bescheinigt die Angaben nach Art. 7 und 8 MBV und rechnet die Quellensteuer nur auf dem schweizerischen Anteil ab; die Bescheinigung bei Wegzug geht an die zuständige kantonale Behörde. |
+| [c0035](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0035.md) | Ziff. 7.1 Begriff Arbeitstage und DBA-Vorbehalt | S. 12 | Arbeitstage umfassen den Zeitraum des Arbeitsvertrags, wobei Ferien, Wochenenden, Feiertage und sonstige Abwesenheiten nicht abgezogen werden; DBA-Bestimmungen wie Art. 15a DBA Deutschland bleiben vorbehalten. |
+| [c0036](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0036.md) | Ziff. 7.2.1 Quellenbesteuerung Mitarbeiteraktien und freie börsenkotierte Optionen – Allgemeines | S. 12 | Mitarbeiteraktien und freie börsenkotierte Optionen sind immer im Erwerbszeitpunkt steuerbar (Sperrfristdiskont 6 % pro Jahr); eine anteilsmässige Besteuerung ist ausgeschlossen, ausser bei Abgabe als Bonus für Auslandarbeit. |
+| [c0037](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0037.md) | Ziff. 7.2.2 Quellenbesteuerung – Übersicht Arbeitnehmer (Wohnsitz Schweiz/Ausland) | S. 12–13 | Tabelle: Für Arbeitnehmer mit Wohnsitz in der Schweiz gilt Art. 83 DBG, im Ausland Art. 91 oder 97 DBG; Einkünfte aus Mitarbeiteraktien werden zusammen mit dem übrigen Einkommen an der Quelle besteuert. |
+| [c0038](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0038.md) | Ziff. 7.2.2 Quellenbesteuerung – Übersicht Verwaltungsrat | S. 13 | Tabelle: Für Verwaltungsräte mit Wohnsitz im Ausland unterliegen erhaltene Mitarbeiteraktien nach Art. 93 DBG der Quellensteuer, bei Wohnsitz in der Schweiz nach Art. 83 DBG. |
+| [c0039](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0039.md) | Ziff. 7.2.2 Quellenbesteuerung – Übersicht Arbeitnehmer und Verwaltungsrat zugleich | S. 13 | Tabelle: Bei Doppelfunktion ist vorgängig zu bestimmen, für welche Tätigkeit die Aktien ausgegeben werden; danach richtet sich die Besteuerung (Art. 83 bzw. 91/97/93 DBG). |
+| [c0040](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0040.md) | Ziff. 7.3.1 Gesperrte/nicht kotierte Optionen, Anwartschaften, unechte Beteiligungen – Allgemeines | S. 14 | Geldwerte Vorteile aus gesperrten oder nicht kotierten Optionen, Anwartschaften und unechten Beteiligungen werden bei Realisation besteuert. |
+| [c0041](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0041.md) | Ziff. 7.3.2 «Import» von Mitarbeiterbeteiligungen (Art. 7 MBV) | S. 14 | Importierte Beteiligungen wurden im Ausland erworben und nach dem Zuzug in der Schweiz realisiert; solche, die schon bei Abgabe besteuert werden, sind in der Schweiz steuerfrei realisierbar. |
+| [c0042](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0042.md) | Ziff. 7.3.2.1 Import mit Ansässigkeitswechsel – Formel Arbeitstage Vestingperiode | S. 14 | Bei Ansässigkeitswechsel wird nur anteilsmässig besteuert: Geldwerter Vorteil x Arbeitstage in der Schweiz in der Vestingperiode / Tage der Vestingperiode, unter Progressionsvorbehalt. |
+| [c0043](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0043.md) | Ziff. 7.3.2.2 Import ohne Ansässigkeitswechsel – Anstellung bei Schweizer Arbeitgeber | S. 14 | Bei unverändertem Wohnsitz im Ausland wird anteilsmässig nach Arbeitstagen Schweiz/Ausland innerhalb der Vestingperiode besteuert, Arbeitstage Schweiz gekürzt um Drittstaattage. |
+| [c0044](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0044.md) | Ziff. 7.3.2.2 Quellensteuerverfahren bei beschränkter Steuerpflicht | S. 15 | Weil der Mitarbeitende nur beschränkt steuerpflichtig ist, erfolgt die Besteuerung im Quellensteuerverfahren; DBA-Bestimmungen wie Art. 15a DBA Deutschland sind zu beachten. |
+| [c0045](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0045.md) | Ziff. 7.3.3 «Export» von Mitarbeiterbeteiligungen (Art. 8 MBV) | S. 15 | Exportierte Beteiligungen wurden in der Schweiz zugeteilt und nach Wegzug im Ausland realisiert; die Besteuerung erfolgt immer über das Quellensteuerverfahren mit Bescheinigung nach Art. 8 MBV. |
+| [c0046](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0046.md) | Ziff. 7.3.3.1 Export mit Ansässigkeitswechsel – erweiterte Quellensteuer Art. 97a DBG (11,5 %) | S. 15 | Bei Wohnsitzverlegung ins Ausland vor Realisation beträgt die Steuer (Anteil direkte Bundessteuer) 11,5 Prozent des in der Schweiz steuerbaren geldwerten Vorteils (Art. 97a Abs. 2 DBG). |
+| [c0047](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0047.md) | Ziff. 7.3.3.1 Abführung durch Arbeitgeber und Ausnahme gleicher Leistungsschuldner | S. 15 | Die Quellensteuer ist vom (ehemaligen) schweizerischen Arbeitgeber abzuführen, auch bei Auszahlung durch eine ausländische Konzerngesellschaft; bleibt der Mitarbeitende beim gleichen Leistungsschuldner, gelten Art. 91, 97, 93 DBG ohne Ausscheidung nach Art. 17d DBG. |
+| [c0048](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0048.md) | Ziff. 7.3.3.2 Export ohne Ansässigkeitswechsel – Drittstaattage | S. 15–16 | Bei bereits bei Abgabe im Ausland ansässigen Mitarbeitenden gilt Quellenbesteuerung nach Art. 91, 97 und 93 DBG; bei unverändertem Arbeitsverhältnis in der Schweiz sind nur Drittstaattage auszuscheiden. |
+| [c0049](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0049.md) | Ziff. 7.3.3.2 Arbeitgeberwechsel ins Ausland – anteilsmässige Quellenbesteuerung (Teil 1/2) | S. 16 | Bei Arbeitgeberwechsel ins Ausland innerhalb der Vestingperiode wird nach dem Verhältnis der Arbeitstage Schweiz/Ausland anteilsmässig besteuert (Art. 17d DBG sinngemäss), gekürzt um Drittstaattage. |
+| [c0050](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0050.md) | Ziff. 7.3.3.2 Arbeitgeberwechsel ins Ausland – anteilsmässige Quellenbesteuerung (Teil 2/2) | S. 16 |  |
+| [c0051](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0051.md) | Ziff. 7.3.4 Überblick Quellenbesteuerung bei Realisation – Arbeitnehmer (Teil 1/2) | S. 16–17 | Tabelle: Für Arbeitnehmer gilt bei Wohnsitz Schweiz Art. 83 DBG (anteilsmässig nur, wenn nicht die ganze Zeit in der Schweiz steuerpflichtig), bei Wohnsitz Ausland Art. 91 und 97 DBG ohne anteilsmässige Besteuerung. |
+| [c0052](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0052.md) | Ziff. 7.3.4 Überblick Quellenbesteuerung bei Realisation – Arbeitnehmer (Teil 2/2) | S. 16–17 |  |
+| [c0053](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0053.md) | Ziff. 7.3.4 Überblick Quellenbesteuerung bei Realisation – Verwaltungsrat | S. 17 | Tabelle: Für Verwaltungsräte mit Wohnsitz im Ausland gilt Art. 93 DBG ohne anteilsmässige Besteuerung, sofern die Abgabe im Zusammenhang mit dem Verwaltungsratsmandat erfolgte. |
+| [c0054](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0054.md) | Ziff. 7.3.4 Überblick Quellenbesteuerung – Arbeitnehmer und Verwaltungsrat zugleich | S. 17–18 | Tabelle: Bei Doppelfunktion ist zu bestimmen, für welche Tätigkeit die Beteiligungen ausgegeben wurden; danach richtet sich die Besteuerung nach Art. 83, 91/97 oder 93 DBG. |
+| [c0055](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0055.md) | Ziff. 7.3.4 Überblick Quellenbesteuerung – weder Arbeitnehmer noch Verwaltungsrat (Art. 97a DBG) | S. 18 | Tabelle: Bei Personen, die bei Realisation weder Arbeitnehmer noch Verwaltungsrat sind, erfolgt die Besteuerung durch den seinerzeitigen Leistungsschuldner nach Art. 83 DBG bzw. bei Wegzug nach Art. 97a DBG mit anteilsmässiger Besteuerung. |
+| [c0056](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0056.md) | Ziff. 8.1.1 Mitwirkungspflichten des Arbeitgebers – Bescheinigungspflicht | S. 18–19 | Der Arbeitgeber muss ab 1. Januar 2013 für jede Steuerperiode eine Bescheinigung über die Einräumung und über die steuerlich relevante Realisierung von Mitarbeiterbeteiligungen ausstellen, auch wenn der Plan von einer ausländischen Konzerngesellschaft verwaltet wird. |
+| [c0057](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0057.md) | Ziff. 8.1.1 Bescheinigung als Beilage zum Lohnausweis | S. 19 | Die Bescheinigung ist dem Mitarbeitenden als Beilage zum Lohnausweis abzugeben bzw. der Quellensteuerabrechnung beizulegen; bei Realisation nach Beendigung des Arbeitsverhältnisses ist sie direkt an die Steuerbehörde des Wohnsitzkantons zu senden. |
+| [c0058](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0058.md) | Ziff. 8.1.1 Gestaltung der Bescheinigung, Musterbescheinigungen, Vorbescheid | S. 19 | Die Arbeitgeber sind in der Gestaltung der Bescheinigung frei, soweit sie die Minimalanforderungen der MBV erfüllt; liegt ein Vorbescheid vor, sind Amtsstelle und Datum zu vermerken. |
+| [c0059](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0059.md) | Ziff. 8.1.2 Bescheinigung bei Mitarbeiteraktien (Art. 4 MBV) | S. 19 | Bei Mitarbeiteraktien ist die Bescheinigung für die Steuerperiode des Erwerbs zu erstellen; bei nicht kotierten Aktien ist die Herleitung des Verkehrswerts bzw. die angewandte Bewertungsformel anzugeben. |
+| [c0060](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0060.md) | Ziff. 8.1.2.1–8.1.2.2 Bescheinigung bei Freigabe vor Sperrfristablauf und bei Rückgabe | S. 19–20 | Bei vorzeitiger Freigabe (Art. 11 MBV) und Rückgabe (Art. 12 MBV) ist eine weitere Bescheinigung zu erstellen; ein geldwerter Nachteil bei unterpreislicher Rückgabe darf nicht als Minuslohn in den Lohnausweis einfliessen. |
+| [c0061](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0061.md) | Ziff. 8.1.3.1 Bescheinigung bei freien börsenkotierten Mitarbeiteroptionen (Art. 5 MBV) | S. 20 | Für freie börsenkotierte Optionen genügt in der Regel eine einzige Bescheinigung für die Steuerperiode des Erwerbs; eine weitere ist nur bei Änderung zugunsten des Mitarbeitenden (z.B. Repricing) nötig. |
+| [c0062](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0062.md) | Ziff. 8.1.3.2 Zwei Bescheinigungen bei übrigen Optionen, Anwartschaften und unechten Beteiligungen | S. 20 | Für Optionen, Anwartschaften und unechte Beteiligungen, die bei Realisation besteuert werden, sind stets zwei Bescheinigungen nötig: bei Abgabe und bei Realisation. |
+| [c0063](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0063.md) | Ziff. 8.1.3.2 Bescheinigung bei Zuzug/Wegzug – voller Betrag im Lohnausweis | S. 20 | Bei Zuzug fliesst die volle geldwerte Leistung in den Lohnausweis; den auf das Ausland entfallenden Anteil macht der Mitarbeitende in der Steuererklärung als «im Ausland steuerbare Einkünfte» geltend, bei Wegzug ist die Bescheinigung nach Art. 8 MBV der Quellensteuerabrechnung beizulegen. |
+| [c0064](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0064.md) | Ziff. 8.1.4 Weitere Auskünfte und 8.2 Pflichten der Steuerpflichtigen (Wertschriftenverzeichnis) | S. 20 | Steuerpflichtige müssen erhaltene Mitarbeiterbeteiligungen vollständig deklarieren und die Bescheinigung einreichen; alle echten und unechten Beteiligungen sind im Wertschriften- und Guthabenverzeichnis zu deklarieren, auch wenn die Besteuerung noch nicht ansteht. |
+| [c0065](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0065.md) | Ziff. 9.1–9.2 Vorbescheid (Ruling) – Zweck und Voraussetzungen | S. 21 | Ein Vorbescheid sichert dem Arbeitgeber und den Mitarbeitenden die steuerlichen Konsequenzen eines Beteiligungsplans zu und bezieht sich nur auf den im Antrag dargestellten Sachverhalt. |
+| [c0066](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0066.md) | Ziff. 9.3 Zuständigkeit für den Vorbescheid | S. 21 | Zuständig ist die kantonale Steuerbehörde des Sitzkantons des Arbeitgebers; bei Mitarbeitenden in mehreren Kantonen empfiehlt sich zusätzlich die Einreichung bei der ESTV. |
+| [c0067](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0067.md) | Ziff. 10 Inkrafttreten (1. Januar 2013) und Geltungsbereich | S. 21 | Das Kreisschreiben tritt am 1. Januar 2013 in Kraft und ersetzt das Kreisschreiben Nr. 5 von 1997; es gilt für nach dem 1. Januar 2013 abgegebene Beteiligungen sowie bestimmte früher abgegebene. |
+| [c0068](../../../chunks/bund/dauernd/bund-ks-37/bund-ks-37__c0068.md) | Ziff. 10 Altrechtliche Rulings, Änderungen 2021 und Anhänge I–V | S. 21–22 | Altrechtliche Rulings mit Zuteilungs- oder Vestingbesteuerung gelten nur bis Steuerperiode 2012; die Änderungen in Ziff. 3.2.2, 3.4.3 und 3.4.4 gelten ab 1. Januar 2021; Anhänge I–V (Übersicht, Beispiele, Musterbescheinigungen, Fallbeispiele) sind im Text nur als Titel aufgeführt. |

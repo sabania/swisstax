@@ -4,16 +4,24 @@ quelle: bund-ks-vst-21
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 21 – Abschnitt 9"
-seiten: "2"
+titel: "Ziff. 5 / 5.1 Kontrollrechnungen und Schweizer Banken (60 Kalendertage) (Teil 1/3)"
+ziffer: "5-5.1"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 21 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS VST 21 · 5 Kontrollrechnungen › 5.1 Schweizer Banken · S. 3–4
 
-Um auch ausländische Banken und Depotstellen einzubinden, wird für die Rückerstattung
-der Verrechnungssteuer mit Bezug auf ausländische Banken und Depotstellen ein Tax-
-Voucher-System eingeführt. Damit wird sichergestellt, dass auch bei möglichen Short-
-Verkäufen um den Ex-Tag im ausländischen Bankensystem keine unzulässigen Verrech-
-nungssteuerrückforderungen unter Inanspruchnahme der Doppelbesteuerungsabkommen
-(DBA) oder gemäss dem internen Recht möglich sind, denen nicht eine Ablieferung der Ver-
-rechnungssteuer bzw. eines Verrechnungssteuerersatzes gegenübersteht.
+5 Kontrollrechnungen
+Um die Bestätigung in Form eines Tax-Voucher abzugeben, muss jede ausländische Bank
+mittels einer Kontrollrechnung prüfen, ob die Summe der an Kunden abgegebenen, zur
+
+Rückerstattung der Verrechnungssteuer geeigneten Ertragsabrechnungen bzw. Abzugsbe-
+scheinigungen (inklusive Eigenbestände) mit demjenigen Betrag übereinstimmt, welcher ihr
+von ihrer Depotstelle bestätigt wurde. Ausgleichszahlungen im Rahmen von Securities Len-
+ding und Repotransaktionen, welche mit einem Verrechnungssteuerersatz gekürzt wurden,
+sind in die Kontrollrechnung wie Originalzahlungen einzubeziehen.
+5.1   Schweizer Banken und Depotstellen
+5.1.1   Kontrollrechnung
+Schweizer Banken und Depotstellen führen bereits heute für jede Ertragsgutschrift, welche
+unter Abzug der Verrechnungssteuer oder eines Verrechnungssteuerersatzes erfolgt, eine
+Kontrollrechnung pro Depot durch.

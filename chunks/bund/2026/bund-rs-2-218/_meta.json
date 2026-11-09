@@ -1,127 +1,198 @@
 [
 {
 "id": "bund-rs-2-218__c0001",
-"titel": "RS 2-218 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Geldwerte Leistungen bei Vorschüssen/Darlehen an Beteiligte – Verrechnungssteuer 35 % (2026) (Teil 1/2)",
+"pfad": [
+"Einleitung"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"geldwerte Leistung",
+"Verrechnungssteuer 35 %",
+"Darlehen Aktionär",
+"Formular 102",
+"verdeckte Gewinnausschüttung",
+"unverzinsliches Darlehen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Unverzinste oder ungenügend verzinste Vorschüsse an Beteiligte sind geldwerte Leistungen mit Verrechnungssteuer von 35 %, zu deklarieren mit Formular 102 innert 30 Tagen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-rs-2-218__c0002"
 },
 {
 "id": "bund-rs-2-218__c0002",
-"titel": "RS 2-218 – Abschnitt 2",
-"pfad": [],
+"titel": "Geldwerte Leistungen bei Vorschüssen/Darlehen an Beteiligte – Verrechnungssteuer 35 % (2026) (Teil 2/2)",
+"pfad": [
+"Einleitung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"geldwerte Leistung",
+"Verrechnungssteuer 35 %",
+"Darlehen Aktionär",
+"Formular 102",
+"verdeckte Gewinnausschüttung",
+"unverzinsliches Darlehen"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-218__c0001",
 "nachher": "bund-rs-2-218__c0003"
 },
 {
 "id": "bund-rs-2-218__c0003",
-"titel": "RS 2-218 – Abschnitt 3",
-"pfad": [],
+"titel": "Massgebende Zinssätze ab 1. Januar 2026 (Hinweis auf Safe-Haven-Sätze)",
+"pfad": [
+"Einleitung"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Zinssätze",
+"safe haven",
+"angemessene Verzinsung",
+"ESTV"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Die ESTV stellt seit 1. Januar 2026 auf die nachfolgenden Zinssätze für Vorschüsse und Darlehen in CHF ab.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-218__c0002",
 "nachher": "bund-rs-2-218__c0004"
 },
 {
 "id": "bund-rs-2-218__c0004",
-"titel": "RS 2-218 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 1 Vorschüsse an Beteiligte – Mindestzinssatz 2026",
+"pfad": [
+"Zinssätze",
+"Ziff. 1"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "1",
+"stichworte": [
+"Darlehen an Aktionär",
+"Mindestzins",
+"Eigenkapital",
+"Fremdkapital Selbstkosten"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Mindestzinssatz ¾ % bei Finanzierung aus Eigenkapital bzw. Selbstkosten zuzüglich ¼ – ½ %, mindestens ¾ %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-218__c0003",
 "nachher": "bund-rs-2-218__c0005"
 },
 {
 "id": "bund-rs-2-218__c0005",
-"titel": "RS 2-218 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2.1 Vorschüsse von Beteiligten – Liegenschaftskredite, Höchstzinssätze 2026",
+"pfad": [
+"Zinssätze",
+"Ziff. 2",
+"2.1"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.1",
+"stichworte": [
+"Hypothek Aktionär",
+"Liegenschaftskredit",
+"Höchstzins",
+"Wohnbau Landwirtschaft",
+"Belehnung 70 % 80 %"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Erste Hypothek (2/3 Verkehrswert) 1 ¼ % bzw. 1¾ %, Rest 2 % bzw. 2½ %; Fremdfinanzierung bis 70 % bzw. 80 % des Verkehrswerts.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-218__c0004",
 "nachher": "bund-rs-2-218__c0006"
 },
 {
 "id": "bund-rs-2-218__c0006",
-"titel": "RS 2-218 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 2.2 Betriebskredite von Beteiligten – Höchstzinssätze 2026, safe haven",
+"pfad": [
+"Zinssätze",
+"Ziff. 2",
+"2.2"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2",
+"stichworte": [
+"Betriebskredit",
+"Holding",
+"Handelsunternehmen",
+"Kredit ab 1 Mio.",
+"safe haven"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Betriebskredite bis CHF 1 Mio.: 3½ % bzw. 3 %; ab CHF 1 Mio.: 1½ % bzw. 1¼ %; Limiten aller Beteiligten zusammenzählen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-218__c0005",
 "nachher": "bund-rs-2-218__c0007"
 },
 {
 "id": "bund-rs-2-218__c0007",
-"titel": "RS 2-218 – Abschnitt 7",
-"pfad": [],
+"titel": "Fussnoten – Zuschlag Selbstkosten, verdecktes Eigenkapital (KS 6a)",
+"pfad": [
+"Zinssätze",
+"Fussnoten"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"verdecktes Eigenkapital",
+"Kreisschreiben 6a",
+"Art. 65 DBG"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Zuschlag ½ % bis CHF 10 Mio., ¼ % darüber; verdecktes Eigenkapital gemäss Kreisschreiben Nr. 6a beachten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-218__c0006",
 "nachher": "bund-rs-2-218__c0008"
 },
 {
 "id": "bund-rs-2-218__c0008",
-"titel": "RS 2-218 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 3 Bewertung von Unternehmen – Verweis KS 28 SSK",
+"pfad": [
+"Zinssätze",
+"Ziff. 3"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3",
+"stichworte": [
+"Unternehmensbewertung",
+"Kapitalisierungssatz",
+"Kreisschreiben 28",
+"Wertpapiere ohne Kurswert"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Kapitalisierungssätze: Verweis auf Randziffer 10 des SSK-Kreisschreibens Nr. 28.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-rs-2-218__c0007",
 "nachher": null
 }

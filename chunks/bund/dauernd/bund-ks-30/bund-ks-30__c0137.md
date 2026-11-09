@@ -4,20 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Tarife"
-ziffer: "14.15–14.16"
-seiten: "40"
+titel: "Ziff. 15.3 Rechtsmittel und andere Eingaben"
+ziffer: "15.3"
+seiten: "41"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.15–14.16 · S. 40
+> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.3 Rechtsmittel · S. 41
 
-14.15.3   Tarife
-   Beide Elternteile werden zum Grundtarif besteuert.
+15.3   Rechtsmittel und andere Eingaben
 
-14.16   Unverheiratete Eltern (gemeinsamer Haushalt), mit nicht gemeinsa-
-    mem minderjährigem oder volljährigem Kind
+Rechtsmittel und andere Eingaben gelten als rechtzeitig eingereicht, wenn bloss einer der
+beiden Ehegatten innert Frist gehandelt hat (Art. 113 Abs. 3 DBG). Eine Aufforderung zur
+Doppelunterschrift ist hier im Gegensatz zur Steuererklärung nicht nötig. Das DBG geht so-
+mit im Falle der Unterzeichnung der betreffenden Eingabe durch einen Ehegatten allein stets
+von der stillschweigenden Ermächtigung zur Vertretung aus. Jeder Ehegatte kann im
+Rechtsmittelverfahren selbständig rechtswirksam vorgehen, was sich gleichzeitig zugunsten
+des untätig gebliebenen Ehepartners auswirkt. Diesem bleibt es unbenommen, gegen einen
+späteren Entscheid der zuständigen Instanz ein Rechtmittel einzulegen.
 
-Für die getrennt lebenden Eltern des Kindes gelten je nach Konstellation die aus der Sicht
-des betreffenden Elternteils anzuwendenden Regeln wie sie unter den Ziffern14.3, 14.4,
-14.5, 14.10, 14.11 und 14.12 festgehalten sind. Die entsprechende Praxis kann dort ent-
-nommen werden.
+Da das Steuerverfahren unter dem Offizialprinzip steht, hat die Behörde alle rechtzeitigen
+Vorkehren der Steuerpflichtigen zu berücksichtigen. Das gilt auch dann, wenn beide Ehegat-
+ten unabhängig voneinander eine form- und fristgerechte Eingabe eingereicht haben (z.B.
+getrennte Einlegung von Rechtsmitteln mit unterschiedlichen Anträgen und abweichenden
+Begründungen). Bei sich widersprechenden Handlungen der Ehegatten haben die Behörden
+alle rechtzeitigen Vorkehren in ihre Erwägungen miteinzubeziehen und zu würdigen.

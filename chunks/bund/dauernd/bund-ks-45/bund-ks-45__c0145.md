@@ -4,28 +4,34 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 145"
-seiten: "38"
+titel: "Ziff. 7.4 Beispiel 5 – Aufnahme Erwerbstätigkeit des anderen Ehegatten"
+ziffer: "7.4"
+seiten: "47"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 38
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 47
 
-<!-- Seite 38 -->
-    Gleichbleibender Lohn während 12 Monaten und 13. Monatslohn im Dezember:
-    2. Ein lediger Steuerpflichtiger ohne Kinder ist mit einem Beschäftigungsgrad von 100 % vom 1. Januar bis
-    am 31. Dezember 2021 in der Schweiz erwerbstätig. Für diese Tätigkeit erhält er ein Jahresbruttoeinkom-
-    men von CHF 65 000 (12 x CHF 5000 + 13. Monatslohn).
-    Das monatliche Bruttoeinkommen von CHF 5 000 wird mit dem Tarifcode A0 und zum satzbestimmenden
-    Jahreseinkommen von CHF 65 000 besteuert. Damit ist im Dezember keine Korrektur erforderlich.
+    Aufnahme einer Erwerbstätigkeit des anderen Ehegatten während des Kalenderjahres:
+    5. Ein Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Er übt eine unselbstständige Er-
+    werbstätigkeit mit einem Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 52 000.00
+    (CHF 4 000 x 13).
+    Seine Ehegattin nimmt am 15. September 2021 eine Erwerbstätigkeit auf.
 
-    Monat   Januar   …   November   Dezember   Besteuerung
+    Monat   Januar   … September   Oktober   November   Dezember   Besteuerung
 
-    Bruttolohn   5 000   5 000   10 000   65 000
+    Bruttolohn   4 000   4 000   4 000   4 000   8 000   52 000
 
-    Tarifcode   A0   A0   A0   A0
+    Tarifcode   B0   B0   C0   C0   C0
 
-    Steuersatz (%)   10,41   10,4   10,4   10,4
+    Steuersatz (%)   3,01   3,0   7,22   7,2   7,2
 
-    Quellensteuer   520   520   1 040   6 760
+    Quellensteuer   120   120   288   288   576   2 232
 
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
+    1 = B0 mit satzbestimmendem Jahreseinkommen von CHF 52 000.00 (CHF 4 000 x 13).
+
+    2
+    = C0 mit satzbestimmendem Jahreseinkommen von CHF 52 000.00 (CHF 4 000 x 13).
+
+Bei der Ehegattin, welche die Erwerbstätigkeit am 15. September 2021 aufnimmt, wird der
+Tarif für Zweiverdienerehepaare (Tarifcode C) ab sofort, d.h. ab September 2021, angewen-
+det.

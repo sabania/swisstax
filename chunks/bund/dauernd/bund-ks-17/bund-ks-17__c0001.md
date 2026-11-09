@@ -4,11 +4,20 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 1"
+titel: "Ziff. I Allgemeines – Rechtsgrundlagen WEF"
+ziffer: "I"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17
+> Bund · Steuerjahr 2025/2026 · KS 17 · I Allgemeines · S. 2
 
-# ESTV-Kreisschreiben Nr. 17: Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge
+I.   Allgemeines
 
-> Bund · Kreisschreiben · Quelle: <https://www.estv.admin.ch/dam/de/sd-web/JdJbK10G0lJN/dbst-ks-2007-1-017-d-de.pdf>
+Die Bestimmungen über die Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge
+sind in den Artikeln 30a bis 30g des Bundesgesetzes über die berufliche Alters-, Hinterlas-
+senen- und Invalidenvorsorge (BVG; SR 831.40) sowie in den Artikeln 331d und 331e des
+Obligationenrechts (OR; SR 220) zu finden. In der Verordnung über die Wohneigentumsför-
+derung mit Mitteln der beruflichen Vorsorge hat der Bundesrat die Ausführungsbestimmun-
+gen erlassen (WEFV; SR 831.411).
+
+Gegenstand dieses Kreisschreibens sind die Erläuterungen der steuerlichen Auswirkungen.

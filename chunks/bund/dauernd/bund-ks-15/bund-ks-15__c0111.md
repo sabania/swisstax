@@ -4,30 +4,31 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang IV Gutachten – Auftrag und Vorbemerkungen"
-ziffer: "Anh. IV II–III.1"
-seiten: "33"
+titel: "Anhang IV Gutachten Ziff. III.2 Verhältnismässigkeit schuldnerspezifischer Zinssatz"
+ziffer: "Anh. IV III.2"
+seiten: "33-34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › II–III Auftrag, Beurteilung · S. 33
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Gutachten SBVg › III Beurteilung · S. 33–34
 
-II.   Auftrag
-Die Schweizerische Bankiervereinigung ist von der Eidgenössischen Steuerverwaltung
-gebeten worden, zur Frage Stellung zu nehmen, ob die bei der modifizierten Differenz-
-besteuerung zur Anwendung gelangenden finanzmathematischen Formeln in jedem
-Fall geeignet sind, den Vermögensertrag bei kombinierten Produkten in rechtsgenü-
-gender Weise zu ermitteln.
+Auch bei der modifizierten Differenzbesteuerung wäre es - zumindest theoretisch -
+denkbar, den Wert des Anleihensteils basierend auf dem risikofreien Zinssatz und dem
+individuellen Credit Spread des Schuldners zu berechnen. Dies würde allerdings vor-
+aussetzen, dass nicht bloss das Credit Rating (wie beispielsweise A, AA, AAA), son-
+dern insbesondere der Credit Spread des entsprechenden Emittenten im jeweiligen
+Emissionszeitpunkt bekannt wäre. Ein solches Vorgehen wäre aufgrund der schwieri-
+gen Datenermittlung nicht nur für die Emittenten aufwendiger, sondern auch für die
+Steuerbehörde kaum mehr zu überprüfen. Die Anwendung des schuldnerspezifischen
+Zinssatzes für die Ermittlung des Bond Floors würde nicht zu wesentlich anderen Er-
+gebnissen führen. Daher erachten wir es unter dem Aspekt der Verhältnismässigkeit
+als vertretbar, die Berechnung des Wertes des Anleihensteils zum Zeitpunkt der Emis-
 
 
-III.   Beurteilung
-1.   Vorbemerkungen
-Die nachfolgenden Ausführungen beziehen sich ausschliesslich auf die Besteuerung
-von in der Schweiz ansässigen natürlichen Personen, welche das kombinierte Produkt
-im Privatvermögen halten.
+Gutachten - Anhang IV zum Kreisschreiben Nr. 15   5
 
-Bei der modifizierten Differenzbesteuerung ist der steuerbare Vermögensertrag grund-
-sätzlich gleich wie bei der reinen Differenzbesteuerung zu ermitteln, indem vom Wert
-des Anleihensteils im Zeitpunkt der Veräusserung bzw. der Rückzahlung der Wert des
-Anleihensteils bei Erwerb in Abzug gebracht wird. Bei der modifizierten Differenzbe-
-steuerung ist allerdings - mangels eines Marktpreises für den Anleihensteil des kombi-
-nierten Produktes - auf berechnete Werte abzustellen.
+sion aufgrund der Swap-Rate für die entsprechende Währung und Laufzeit vorzuneh-
+men.
+
+In der Praxis hat sich gezeigt, dass sich für die Emittenten (in der Regel schweizeri-
+sche oder international operierende Banken) mit diesem Ansatz keine nennenswerten
+Probleme ergeben.

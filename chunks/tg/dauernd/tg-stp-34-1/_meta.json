@@ -427,11 +427,11 @@
 },
 {
 "id": "tg-stp-34-1__c0025",
-"titel": "7.2. Zeitliche Abgrenzung",
+"titel": "7.3. Selbst bezahlte Kosten",
 "pfad": [
 "StP 34 Nr. 1: Liegenschaftsunterhalt",
 "7. Abzug der Kosten",
-"7.2. Zeitliche Abgrenzung"
+"7.3. Selbst bezahlte Kosten"
 ],
 "seiten": [],
 "artikel": null,
@@ -445,11 +445,11 @@
 },
 {
 "id": "tg-stp-34-1__c0026",
-"titel": "7.3. Selbst bezahlte Kosten",
+"titel": "Ältere Versionen",
 "pfad": [
 "StP 34 Nr. 1: Liegenschaftsunterhalt",
 "7. Abzug der Kosten",
-"7.3. Selbst bezahlte Kosten"
+"Ältere Versionen"
 ],
 "seiten": [],
 "artikel": null,
@@ -495,24 +495,6 @@
 "zusammenfassung": null,
 "chunking": "überschriften",
 "vorher": "tg-stp-34-1__c0027",
-"nachher": "tg-stp-34-1__c0029"
-},
-{
-"id": "tg-stp-34-1__c0029",
-"titel": "Ältere Versionen",
-"pfad": [
-"StP 34 Nr. 1: Liegenschaftsunterhalt",
-"7. Abzug der Kosten",
-"Ältere Versionen"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "tg-stp-34-1__c0028",
 "nachher": null
 }
 ]

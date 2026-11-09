@@ -12,118 +12,110 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/h36nmhxQYuz5/dbst-ks-2022-1-029c-dvs-de.pdf> · lokal: [bund-ks-29c.pdf](../../../raw/bund/dauernd/bund-ks-29c.pdf) · Volltext: [bund-ks-29c.md](../../../sources/bund/dauernd/bund-ks-29c.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c0b160d7ebf862cd…`
 
-## Inhalt (111 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- S. 1-3: Inhaltsverzeichnis mit Punktlinien (übersprungen).
+- S. 4: Hochgestellte Absatzziffern (1septies, 8) im Gesetzestext vermischt dargestellt.
+- S. 9: Beispiel Gewinnverwendung als einfache Zahlenspalten.
+- S. 28-37 (Anhänge): Bilanz-/Zahlentabellen im Layout verflacht, Spaltenköpfe nur teilweise nachvollziehbar.
+- S. 35/36: Anhang 4 Beispiel 2 und 3 überlagert: Tabellen- und Textzeilen von Beispiel 3 mitten in Beispiel 2 vermischt (Zeilen 1539-1552).
+- Dokument betrifft juristische Personen (Kapitaleinlageprinzip); für natürliche Personen relevant als Aktionärsbesteuerung (Dividenden, Verrechnungssteuer, Transponierung).
+
+## Inhalt (94 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0001.md) | KS 29c – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0002.md) | KS 29c – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0003.md) | KS 29c – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0004.md) | KS 29c – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0005.md) | KS 29c – Abschnitt 5 | S. 2 |  |
-| [c0006](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0006.md) | KS 29c – Abschnitt 6 | S. 2 |  |
-| [c0007](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0007.md) | KS 29c – Abschnitt 7 | S. 2 |  |
-| [c0008](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0008.md) | KS 29c – Abschnitt 8 | S. 2 |  |
-| [c0009](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0009.md) | KS 29c – Abschnitt 9 | S. 2 |  |
-| [c0010](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0010.md) | KS 29c – Abschnitt 10 | S. 3 |  |
-| [c0011](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0011.md) | KS 29c – Abschnitt 11 | S. 3 |  |
-| [c0012](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0012.md) | KS 29c – Abschnitt 12 | S. 3 |  |
-| [c0013](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0013.md) | KS 29c – Abschnitt 13 | S. 4 |  |
-| [c0014](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0014.md) | KS 29c – Abschnitt 14 | S. 4 |  |
-| [c0015](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0015.md) | KS 29c – Abschnitt 15 | S. 4 |  |
-| [c0016](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0016.md) | KS 29c – Abschnitt 16 | S. 5 |  |
-| [c0017](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0017.md) | KS 29c – Abschnitt 17 | S. 5 |  |
-| [c0018](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0018.md) | KS 29c – Abschnitt 18 | S. 5 |  |
-| [c0019](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0019.md) | KS 29c – Abschnitt 19 | S. 5 |  |
-| [c0020](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0020.md) | KS 29c – Abschnitt 20 | S. 6 |  |
-| [c0021](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0021.md) | KS 29c – Abschnitt 21 | S. 7 |  |
-| [c0022](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0022.md) | KS 29c – Abschnitt 22 | S. 7 |  |
-| [c0023](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0023.md) | KS 29c – Abschnitt 23 | S. 7 |  |
-| [c0024](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0024.md) | KS 29c – Abschnitt 24 | S. 8 |  |
-| [c0025](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0025.md) | KS 29c – Abschnitt 25 | S. 9 |  |
-| [c0026](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0026.md) | KS 29c – Abschnitt 26 | S. 9 |  |
-| [c0027](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0027.md) | KS 29c – Abschnitt 27 | S. 9 |  |
-| [c0028](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0028.md) | KS 29c – Abschnitt 28 | S. 9 |  |
-| [c0029](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0029.md) | KS 29c – Abschnitt 29 | S. 10 |  |
-| [c0030](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0030.md) | KS 29c – Abschnitt 30 | S. 11 |  |
-| [c0031](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0031.md) | KS 29c – Abschnitt 31 | S. 11 |  |
-| [c0032](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0032.md) | KS 29c – Abschnitt 32 | S. 11 |  |
-| [c0033](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0033.md) | KS 29c – Abschnitt 33 | S. 11 |  |
-| [c0034](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0034.md) | KS 29c – Abschnitt 34 | S. 12 |  |
-| [c0035](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0035.md) | KS 29c – Abschnitt 35 | S. 12 |  |
-| [c0036](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0036.md) | KS 29c – Abschnitt 36 | S. 12 |  |
-| [c0037](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0037.md) | KS 29c – Abschnitt 37 | S. 13 |  |
-| [c0038](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0038.md) | KS 29c – Abschnitt 38 | S. 13 |  |
-| [c0039](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0039.md) | KS 29c – Abschnitt 39 | S. 13 |  |
-| [c0040](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0040.md) | KS 29c – Abschnitt 40 | S. 13 |  |
-| [c0041](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0041.md) | KS 29c – Abschnitt 41 | S. 14 |  |
-| [c0042](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0042.md) | KS 29c – Abschnitt 42 | S. 14 |  |
-| [c0043](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0043.md) | KS 29c – Abschnitt 43 | S. 14 |  |
-| [c0044](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0044.md) | KS 29c – Abschnitt 44 | S. 15 |  |
-| [c0045](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0045.md) | KS 29c – Abschnitt 45 | S. 15 |  |
-| [c0046](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0046.md) | KS 29c – Abschnitt 46 | S. 15 |  |
-| [c0047](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0047.md) | KS 29c – Abschnitt 47 | S. 16 |  |
-| [c0048](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0048.md) | KS 29c – Abschnitt 48 | S. 16 |  |
-| [c0049](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0049.md) | KS 29c – Abschnitt 49 | S. 16 |  |
-| [c0050](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0050.md) | KS 29c – Abschnitt 50 | S. 16 |  |
-| [c0051](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0051.md) | KS 29c – Abschnitt 51 | S. 17 |  |
-| [c0052](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0052.md) | KS 29c – Abschnitt 52 | S. 17 |  |
-| [c0053](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0053.md) | KS 29c – Abschnitt 53 | S. 17 |  |
-| [c0054](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0054.md) | KS 29c – Abschnitt 54 | S. 17 |  |
-| [c0055](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0055.md) | KS 29c – Abschnitt 55 | S. 18 |  |
-| [c0056](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0056.md) | KS 29c – Abschnitt 56 | S. 18 |  |
-| [c0057](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0057.md) | KS 29c – Abschnitt 57 | S. 18 |  |
-| [c0058](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0058.md) | KS 29c – Abschnitt 58 | S. 19 |  |
-| [c0059](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0059.md) | KS 29c – Abschnitt 59 | S. 19 |  |
-| [c0060](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0060.md) | KS 29c – Abschnitt 60 | S. 19 |  |
-| [c0061](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0061.md) | KS 29c – Abschnitt 61 | S. 19 |  |
-| [c0062](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0062.md) | KS 29c – Abschnitt 62 | S. 20 |  |
-| [c0063](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0063.md) | KS 29c – Abschnitt 63 | S. 20 |  |
-| [c0064](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0064.md) | KS 29c – Abschnitt 64 | S. 20 |  |
-| [c0065](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0065.md) | KS 29c – Abschnitt 65 | S. 21 |  |
-| [c0066](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0066.md) | KS 29c – Abschnitt 66 | S. 21 |  |
-| [c0067](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0067.md) | KS 29c – Abschnitt 67 | S. 21 |  |
-| [c0068](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0068.md) | KS 29c – Abschnitt 68 | S. 22 |  |
-| [c0069](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0069.md) | KS 29c – Abschnitt 69 | S. 22 |  |
-| [c0070](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0070.md) | KS 29c – Abschnitt 70 | S. 22 |  |
-| [c0071](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0071.md) | KS 29c – Abschnitt 71 | S. 23 |  |
-| [c0072](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0072.md) | KS 29c – Abschnitt 72 | S. 23 |  |
-| [c0073](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0073.md) | KS 29c – Abschnitt 73 | S. 24 |  |
-| [c0074](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0074.md) | KS 29c – Abschnitt 74 | S. 25 |  |
-| [c0075](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0075.md) | KS 29c – Abschnitt 75 | S. 25 |  |
-| [c0076](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0076.md) | KS 29c – Abschnitt 76 | S. 25 |  |
-| [c0077](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0077.md) | KS 29c – Abschnitt 77 | S. 25 |  |
-| [c0078](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0078.md) | KS 29c – Abschnitt 78 | S. 25 |  |
-| [c0079](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0079.md) | KS 29c – Abschnitt 79 | S. 26 |  |
-| [c0080](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0080.md) | KS 29c – Abschnitt 80 | S. 26 |  |
-| [c0081](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0081.md) | KS 29c – Abschnitt 81 | S. 26 |  |
-| [c0082](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0082.md) | KS 29c – Abschnitt 82 | S. 26 |  |
-| [c0083](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0083.md) | KS 29c – Abschnitt 83 | S. 27 |  |
-| [c0084](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0084.md) | KS 29c – Abschnitt 84 | S. 28 |  |
-| [c0085](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0085.md) | KS 29c – Abschnitt 85 | S. 28 |  |
-| [c0086](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0086.md) | KS 29c – Abschnitt 86 | S. 29 |  |
-| [c0087](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0087.md) | KS 29c – Abschnitt 87 | S. 30 |  |
-| [c0088](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0088.md) | KS 29c – Abschnitt 88 | S. 30 |  |
-| [c0089](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0089.md) | KS 29c – Abschnitt 89 | S. 30 |  |
-| [c0090](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0090.md) | KS 29c – Abschnitt 90 | S. 31 |  |
-| [c0091](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0091.md) | KS 29c – Abschnitt 91 | S. 31 |  |
-| [c0092](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0092.md) | KS 29c – Abschnitt 92 | S. 32 |  |
-| [c0093](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0093.md) | KS 29c – Abschnitt 93 | S. 32 |  |
-| [c0094](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0094.md) | KS 29c – Abschnitt 94 | S. 33 |  |
-| [c0095](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0095.md) | KS 29c – Abschnitt 95 | S. 33 |  |
-| [c0096](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0096.md) | KS 29c – Abschnitt 96 | S. 33 |  |
-| [c0097](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0097.md) | KS 29c – Abschnitt 97 | S. 34 |  |
-| [c0098](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0098.md) | KS 29c – Abschnitt 98 | S. 34 |  |
-| [c0099](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0099.md) | KS 29c – Abschnitt 99 | S. 34 |  |
-| [c0100](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0100.md) | KS 29c – Abschnitt 100 | S. 34 |  |
-| [c0101](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0101.md) | KS 29c – Abschnitt 101 | S. 34 |  |
-| [c0102](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0102.md) | KS 29c – Abschnitt 102 | S. 35 |  |
-| [c0103](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0103.md) | KS 29c – Abschnitt 103 | S. 35 |  |
-| [c0104](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0104.md) | KS 29c – Abschnitt 104 | S. 35 |  |
-| [c0105](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0105.md) | KS 29c – Abschnitt 105 | S. 36 |  |
-| [c0106](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0106.md) | KS 29c – Abschnitt 106 | S. 36 |  |
-| [c0107](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0107.md) | KS 29c – Abschnitt 107 | S. 36 |  |
-| [c0108](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0108.md) | KS 29c – Abschnitt 108 | S. 36 |  |
-| [c0109](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0109.md) | KS 29c – Abschnitt 109 | S. 37 |  |
-| [c0110](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0110.md) | KS 29c – Abschnitt 110 | S. 37 |  |
-| [c0111](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0111.md) | KS 29c – Abschnitt 111 | S. 37 |  |
+| [c0001](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0001.md) | Ziff. 1 Gegenstand – Kapitaleinlageprinzip (UStR II, STAF, Kapitalband) (Teil 1/2) | S. 4 | Rückzahlungen von Reserven aus Kapitaleinlagen werden der Rückzahlung von Grund- oder Stammkapital gleichgestellt (Art. 20 Abs. 3 DBG, Art. 5 Abs. 1bis VStG); STAF und Kapitalband haben Auswirkungen. |
+| [c0002](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0002.md) | Ziff. 1 Gegenstand – Kapitaleinlageprinzip (UStR II, STAF, Kapitalband) (Teil 2/2) | S. 4 |  |
+| [c0003](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0003.md) | Ziff. 1 Neue Bestimmungen Art. 20 Abs. 8 DBG und Art. 5 Abs. 1septies VStG (Kapitalband) | S. 4–5 | Einlagen und Aufgelder während eines Kapitalbands zählen nur, soweit sie die Rückzahlungen im Rahmen dieses Kapitalbands übersteigen. |
+| [c0004](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0004.md) | Ziff. 2.1 Kapitaleinlagen – Grundsätze, KER und Ausland-KER, Währungsumrechnung (Teil 1/2) | S. 5 | Direkt von den Inhabern der Beteiligungsrechte geleistete, offen ausgewiesene Einlagen, Aufgelder und Zuschüsse gelten als KER; Fremdwährungseinlagen werden zum Tageskurs umgerechnet. |
+| [c0005](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0005.md) | Ziff. 2.1 Kapitaleinlagen – Grundsätze, KER und Ausland-KER, Währungsumrechnung (Teil 2/2) | S. 5 |  |
+| [c0006](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0006.md) | Ziff. 2.2 Spezialfälle – Schwestergesellschaften, Tochter-Liberierung, Sanierung (Teil 1/2) | S. 5–7 | Vorteilszuwendungen unter Schwestergesellschaften und erfolgswirksam gebuchte Sanierungsleistungen gelten nie als KER. |
+| [c0007](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0007.md) | Ziff. 2.2 Spezialfälle – Schwestergesellschaften, Tochter-Liberierung, Sanierung (Teil 2/2) | S. 5–7 |  |
+| [c0008](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0008.md) | Ziff. 3.1 Reserven aus Kapitaleinlagen – steuerneutrale Gutschrift, Kapitalband (Teil 1/2) | S. 7 | Offene Kapitaleinlagen können steuerneutral den KER gutgeschrieben werden; Rückzahlungen sind der Rückzahlung von Grund- oder Stammkapital gleichgestellt. |
+| [c0009](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0009.md) | Ziff. 3.1 Reserven aus Kapitaleinlagen – steuerneutrale Gutschrift, Kapitalband (Teil 2/2) | S. 7 |  |
+| [c0010](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0010.md) | Ziff. 3.2 Übrige Reserven – keine Umqualifikation in KER | S. 7–8 | Gewinne, verdeckte Kapitaleinlagen und nicht direkt von Beteiligungsinhabern stammende Einlagen sind übrige Reserven; eine Umqualifikation in KER wird nicht anerkannt. |
+| [c0011](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0011.md) | Ziff. 4.1 Ausschüttungen allgemein – Grundsätze, steuerbarer Teil | S. 8 | Ausschüttungen sind in dem Umfang steuerbar, als sie auf übrige Reserven entfallen; die Aufteilung erfolgt nach freiem Ermessen aufgrund der Verbuchung in der Handelsbilanz. |
+| [c0012](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0012.md) | Ziff. 4.1 Beispiel Aufteilung der Ausschüttung (Dividende 2000, KER 15% / übrige 85%) | S. 9 | Beispiel: Total Ausschüttung 2000, davon KER 300 (15%) und übrige Reserven 1700 (85%); KER-Rückzahlungen sind gesondert auszuweisen. |
+| [c0013](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0013.md) | Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen (Teil 1/3) | S. 9 | Rückzahlungen aus KER unterliegen weder Einkommens- noch Verrechnungssteuer; Ausschüttungen aus übrigen Reserven und verdeckte Gewinnausschüttungen sind steuerbar. |
+| [c0014](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0014.md) | Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen (Teil 2/3) | S. 9 |  |
+| [c0015](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0015.md) | Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen (Teil 3/3) | S. 9 |  |
+| [c0016](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0016.md) | Ziff. 4.1 Einlagen während Kapitalband erst nach dessen Ende als KER bestätigt | S. 10 | Einlagen während eines Kapitalbands können erst nach dessen Beendigung als KER bestätigt und steuerfrei zurückbezahlt werden. |
+| [c0017](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0017.md) | Ziff. 4.2.1–4.2.2 Gratisaktien, Gratisnennwerterhöhungen und direkte Teilliquidation | S. 11 | Gratisaktien zu Lasten übriger Reserven sind steuerbar; zu Lasten der KER weder einkommens- noch verrechnungssteuerpflichtig. |
+| [c0018](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0018.md) | Ziff. 4.2.3 Rückkauf eigener Beteiligungsrechte (Teil 1/2) | S. 11 | Ausweis eigener Beteiligungsrechte als Minusposten gegen KER vermeidet Einkommens- und Verrechnungssteuerfolgen bei Vernichtung oder Fristablauf nach Art. 4a VStG. |
+| [c0019](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0019.md) | Ziff. 4.2.3 Rückkauf eigener Beteiligungsrechte (Teil 2/2) | S. 11 |  |
+| [c0020](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0020.md) | Ziff. 4.2.4 Indirekte Teilliquidation | S. 11 | Die Besteuerung der indirekten Teilliquidation richtet sich nach der Verbuchung der Ausschüttung; der steuerbare Anteil wird nach Ziff. 4.1 berechnet. |
+| [c0021](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0021.md) | Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 1/4) | S. 11–13 | Bei Übertragung ins Geschäftsvermögen mit mindestens 50 Prozent Beteiligung ist der den Nennwert zuzüglich KER übersteigende Erlös Ertrag aus beweglichem Vermögen. |
+| [c0022](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0022.md) | Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 2/4) | S. 11–13 |  |
+| [c0023](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0023.md) | Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 3/4) | S. 11–13 |  |
+| [c0024](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0024.md) | Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 4/4) | S. 11–13 |  |
+| [c0025](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0025.md) | Ziff. 5 und 5.1 Kotierte Gesellschaften – Ausschüttungsregel (STAF) | S. 13 | Kotierte Gesellschaften müssen mindestens im gleichen Umfang wie KER auch übrige steuerbare Reserven ausschütten, solange solche vorhanden sind. |
+| [c0026](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0026.md) | Ziff. 5.1.2 Regelverletzung der Ausschüttungsregel – halbe Differenz steuerbar | S. 13 | Bei Verletzung der Ausschüttungsregel ist die halbe Differenz zwischen Rückzahlung von KER und übrigen Reserven steuerbar, höchstens bis zu den ausschüttungsfähigen übrigen Reserven. |
+| [c0027](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0027.md) | Ziff. 5.1.3 Ausland-KER nach Art. 5 Abs. 1quater Bst. a und b VStG | S. 13–14 | Ausland-KER sind offen geleistete Kapitaleinlagen aus fusionsähnlichen Zusammenschlüssen nach dem 24. Februar 2008 oder bereits im Ausland vorhandene, nach dem 31. Dezember 1996 geleistete Einlagen. |
+| [c0028](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0028.md) | Ziff. 5.1.4–5.1.5 Ausnahmen von der Ausschüttungsregel; Gratisaktien | S. 14 | Die Ausschüttungsregel gilt nicht für Ausland-KER und (Verrechnungssteuer) nicht bei Rückzahlung an juristische Personen mit mindestens 10 Prozent Beteiligung. |
+| [c0029](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0029.md) | Ziff. 5.2 Teilliquidationsregel und Regelverletzung (5.2.1) | S. 14–15 | Kotierte Gesellschaften müssen bei Teilliquidation mindestens die Hälfte des Liquidationsüberschusses den KER oder Ausland-KER belasten. |
+| [c0030](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0030.md) | Ziff. 6.1 Übertragung eines Betriebs einer Personenunternehmung auf juristische Person | S. 15 | Der Aktivenüberschuss bei Buchwertübernahme kann steuerneutral als KER ausgewiesen werden; bei Sperrfristverletzung (Nachsteuerverfahren) nicht. |
+| [c0031](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0031.md) | Ziff. 6.2.1 Fusion unabhängiger Gesellschaften – Einkommenssteuer und Verrechnungssteuer (Teil 1/2) | S. 15–16 | Das Fusionsagio ist nur insoweit KER, als es aus Grund- oder Stammkapital bzw. KER der übernommenen Gesellschaft stammt; Vermögensertrag entsteht bei Zuflüssen zu Lasten übriger Reserven. |
+| [c0032](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0032.md) | Ziff. 6.2.1 Fusion unabhängiger Gesellschaften – Einkommenssteuer und Verrechnungssteuer (Teil 2/2) | S. 15–16 |  |
+| [c0033](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0033.md) | Ziff. 6.2.2 Fusion verbundener Gesellschaften | S. 16 | Geldwerter Vorteil nur, wenn und soweit durch die Fusion übrige Reserven untergehen. |
+| [c0034](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0034.md) | Ziff. 6.2.3 Absorption der Tochtergesellschaft (Up-Stream Merger) | S. 16 | Buchgewinn aus der Absorption ist steuerbarer Reingewinn und gehört in der aufnehmenden Gesellschaft zu den übrigen Reserven. |
+| [c0035](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0035.md) | Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 1/4) | S. 16–17 | Höhere KER der Tochter werden auf die KER der Muttergesellschaft reduziert; Zuflüsse von höherem Nennwert oder Ausgleichszahlungen sind steuerbar bzw. verrechnungssteuerpflichtig. |
+| [c0036](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0036.md) | Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 2/4) | S. 16–17 |  |
+| [c0037](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0037.md) | Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 3/4) | S. 16–17 |  |
+| [c0038](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0038.md) | Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 4/4) | S. 16–17 |  |
+| [c0039](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0039.md) | Ziff. 6.2.5 Fusionsähnlicher Zusammenschluss (Quasifusion) | S. 17 | Die gesamte Sacheinlage gilt als offene Kapitaleinlage; der Teil über der Kapitalerhöhung kann als KER ausgewiesen werden, Transponierung bleibt vorbehalten. |
+| [c0040](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0040.md) | Ziff. 6.3.1 Umwandlung Kapitalgesellschaft in andere Kapitalgesellschaft | S. 17–18 | Vermögensertrag entsteht im Umfang von höherem Nennwert, Ausgleichszahlungen oder geldwerten Vorteilen zu Lasten übriger Reserven. |
+| [c0041](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0041.md) | Ziff. 6.3.2 Umwandlung in Verein, Stiftung oder übrige juristische Person | S. 18 | Die Umwandlung gleicht einer Liquidation; der Liquidationsüberschuss (Verkehrswert abzüglich Nennwert und KER) ist bei natürlichen Personen steuerbar und verrechnungssteuerpflichtig. |
+| [c0042](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0042.md) | Ziff. 6.3.3 Umwandlung von Verein/Stiftung in Kapitalgesellschaft (Teil 1/2) | S. 18 | Steuerbares Einkommen im Umfang der Differenz zwischen Verkehrswert und Ausgabepreis der Beteiligungsrechte; bei Rechtsformwechsel können keine KER gebildet werden. |
+| [c0043](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0043.md) | Ziff. 6.3.3 Umwandlung von Verein/Stiftung in Kapitalgesellschaft (Teil 2/2) | S. 18 |  |
+| [c0044](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0044.md) | Ziff. 6.3.4 Umwandlung eines Instituts des öffentlichen Rechts | S. 18–19 | Bei direkter Umwandlung durch Rechtsformwechsel können keine KER gebildet werden; bei Sacheinlagegründung ist der Aktivenüberschuss steuerneutral als KER ausweisbar. |
+| [c0045](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0045.md) | Ziff. 6.3.5 Umwandlung in Personenunternehmung | S. 19 | Liquidation der Gesellschaft: Der Liquidationsüberschuss (Verkehrswert abzüglich Nennwert und KER) ist einkommenssteuer- und verrechnungssteuerpflichtig. |
+| [c0046](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0046.md) | Ziff. 6.4 Spaltung | S. 19–20 | Gratisaktien und Gratisnennwerterhöhungen bei Spaltung sind steuerbar, soweit nicht zu Lasten von Nennwert oder KER der übertragenden Gesellschaft. |
+| [c0047](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0047.md) | Ziff. 6.5 Ausgliederung | S. 20 | Der übertragene Aktivenüberschuss kann steuerneutral als KER bzw. Ausland-KER ausgewiesen werden. |
+| [c0048](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0048.md) | Ziff. 6.6 Übertragung zwischen inländischen Konzerngesellschaften (Teil 1/2) | S. 20–21 | Steuerneutrale Übertragungen zu Lasten offener Reserven: bei der Muttergesellschaft Beteiligungsertrag, bei Schwestergesellschaften spiegelbildliche Verbuchung. |
+| [c0049](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0049.md) | Ziff. 6.6 Übertragung zwischen inländischen Konzerngesellschaften (Teil 2/2) | S. 20–21 |  |
+| [c0050](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0050.md) | Ziff. 7.1 Fusion kotierter Gesellschaften (7.1.1–7.1.5) (Teil 1/3) | S. 21–22 | Wie Ziff. 6.2, zusätzlich gelten die Bestimmungen zu Ziff. 5.1.5, wenn das Grund- oder Stammkapital aus KER stammt. |
+| [c0051](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0051.md) | Ziff. 7.1 Fusion kotierter Gesellschaften (7.1.1–7.1.5) (Teil 2/3) | S. 21–22 |  |
+| [c0052](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0052.md) | Ziff. 7.1 Fusion kotierter Gesellschaften (7.1.1–7.1.5) (Teil 3/3) | S. 21–22 |  |
+| [c0053](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0053.md) | Ziff. 7.2 Umwandlung kotierter Gesellschaften (7.2.1–7.2.5) (Teil 1/2) | S. 22–23 | Wie Ziff. 6.3; stammt das Grund- oder Stammkapital aus KER, gelten die Bestimmungen zu Ziff. 5.1.5. |
+| [c0054](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0054.md) | Ziff. 7.2 Umwandlung kotierter Gesellschaften (7.2.1–7.2.5) (Teil 2/2) | S. 22–23 |  |
+| [c0055](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0055.md) | Ziff. 7.3 Spaltung kotierter Gesellschaften (Teil 1/2) | S. 23 | Gratisaktien bei Spaltung sind steuerbar, soweit nicht zu Lasten von Nennwert oder Ausland-KER; für Gratisaktien aus KER gilt Ziff. 5.1.5. |
+| [c0056](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0056.md) | Ziff. 7.3 Spaltung kotierter Gesellschaften (Teil 2/2) | S. 23 |  |
+| [c0057](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0057.md) | Ziff. 7.4–7.5 Ausgliederung und Konzernübertragung kotierter Gesellschaften | S. 23–24 | Analoge Anwendung der Ziffern 6.5 und 6.6. |
+| [c0058](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0058.md) | Ziff. 8 Zuzug einer juristischen Person aus dem Ausland | S. 24–25 | Beim Zuzug ändert die Qualifikation der übrigen Reserven nicht; bei Immigrations-Quasifusion kann der Teil über der Kapitalerhöhung als KER (bis 24.2.2008) bzw. Ausland-KER ausgewiesen werden. |
+| [c0059](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0059.md) | Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel (Teil 1/3) | S. 25 | KER nach dem 31. Dezember 1996 werden nur bei gesondertem Ausweis in der Handelsbilanz und Meldung jeder Veränderung an die ESTV wie Kapitalrückzahlung behandelt. |
+| [c0060](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0060.md) | Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel (Teil 2/3) | S. 25 |  |
+| [c0061](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0061.md) | Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel (Teil 3/3) | S. 25 |  |
+| [c0062](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0062.md) | Ziff. 9.2 Deklaration für die direkte Bundessteuer (Art. 125 Abs. 3 DBG) | S. 25 | Kapitalgesellschaften weisen den Bestand der Reserven aus Aufgeldern und Zuschüssen am Ende der Steuerperiode gesondert in der Steuererklärung aus. |
+| [c0063](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0063.md) | Ziff. 9.3 a) Meldung Verrechnungssteuer – ordentliches Verfahren, Formular 170 (Teil 1/2) | S. 25–26 | Geschäftsbericht und ggf. Formular 170 sind unaufgefordert innert 30 Tagen einzureichen; Rückzahlungen von KER innert 30 Tagen nach Generalversammlung bzw. Rückzahlung. |
+| [c0064](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0064.md) | Ziff. 9.3 a) Meldung Verrechnungssteuer – ordentliches Verfahren, Formular 170 (Teil 2/2) | S. 25–26 |  |
+| [c0065](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0065.md) | Ziff. 9.3 b) Nachmeldung von KER | S. 26 | Nicht gemeldete KER seit dem 1. Januar 1997 können nachgemeldet werden; Jahresrechnungen sind lückenlos einzureichen und Einlagen zu belegen. |
+| [c0066](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0066.md) | Ziff. 9.3 c) Nachmeldung von Ausland-KER (Teil 1/2) | S. 26–27 | Ausland-KER nach dem 24. Februar 2008 können nachgemeldet werden; Nachmeldung wird nur für kotierte Gesellschaften empfohlen. |
+| [c0067](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0067.md) | Ziff. 9.3 c) Nachmeldung von Ausland-KER (Teil 2/2) | S. 26–27 |  |
+| [c0068](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0068.md) | Ziff. 9.3 d) Rückmeldung der ESTV und Ziff. 10 Inkrafttreten | S. 27–28 | Das Kreisschreiben tritt per 1. Januar 2023 in Kraft und ersetzt die Kreisschreiben Nr. 29, 29a und 29b. |
+| [c0069](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0069.md) | Anhang 1 Beispiele 1–2 zur Transponierung (Ertrag 700 bzw. 630) (Teil 1/2) | S. 28 | Beispiel 1 (100% beherrscht): steuerbarer Ertrag aus Transponierung 700; Beispiel 2 (90%/20%): 630. |
+| [c0070](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0070.md) | Anhang 1 Beispiele 1–2 zur Transponierung (Ertrag 700 bzw. 630) (Teil 2/2) | S. 28 |  |
+| [c0071](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0071.md) | Anhang 1 Beispiel 3 – nicht beherrschte Gesellschaft (keine Transponierung) | S. 29–30 | Beispiel 3: Der Ertrag von 210 ist nicht als Transponierung steuerbar, da A die H AG mit 42,9% nicht beherrscht. |
+| [c0072](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0072.md) | Anhang 2 Alternativer Ausweis eigener Beteiligungsrechte (Teil 1/2) | S. 30–31 | Ausweis eigener Beteiligungsrechte auf mehreren Positionen (gegen KER, Ausland-KER, übrige) ist bei kumulativ erfüllten Voraussetzungen möglich; Beispiel-Eigenkapital Total 250. |
+| [c0073](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0073.md) | Anhang 2 Alternativer Ausweis eigener Beteiligungsrechte (Teil 2/2) | S. 30–31 |  |
+| [c0074](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0074.md) | Anhang 2 Erklärungen zum Ausweis eigener Beteiligungsrechte (Teil 1/2) | S. 31–32 | KER 30 und Ausland-KER 10 im Beispiel; Ausweis nur zulässig, wenn die KER bereits beim Erwerb der eigenen Beteiligungsrechte vorhanden waren. |
+| [c0075](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0075.md) | Anhang 2 Erklärungen zum Ausweis eigener Beteiligungsrechte (Teil 2/2) | S. 31–32 |  |
+| [c0076](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0076.md) | Anhang 3 Fallbeispiele 1–2 – Ausschüttungsregel kotierte X AG (Teil 1/2) | S. 32–33 | Fall 1: Dividende 60 zu Lasten KER, steuerbare Ausschüttung 24 (KER-Rückzahlung an Y AG von 12 ausgenommen); Fall 2: Ausland-KER, keine Verletzung, Rückzahlung von 60 steuerfrei. |
+| [c0077](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0077.md) | Anhang 3 Fallbeispiele 1–2 – Ausschüttungsregel kotierte X AG (Teil 2/2) | S. 32–33 |  |
+| [c0078](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0078.md) | Anhang 3 Fallbeispiel 3 – Teilliquidationsregel (Aktienrückkauf 340) (Teil 1/3) | S. 33–34 | Fall 3: Rückkauf für 340; Teilliquidation im Umfang von 160 nicht steuerbar, KER entsprechend korrigiert. |
+| [c0079](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0079.md) | Anhang 3 Fallbeispiel 3 – Teilliquidationsregel (Aktienrückkauf 340) (Teil 2/3) | S. 33–34 |  |
+| [c0080](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0080.md) | Anhang 3 Fallbeispiel 3 – Teilliquidationsregel (Aktienrückkauf 340) (Teil 3/3) | S. 33–34 |  |
+| [c0081](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0081.md) | Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 1/5) | S. 34–35 | Nettoerhöhung KER 2'000 plus zusätzliche Gutschrift der zurück- und wiedereinbezahlten KER von 11'400; Total KER 13'400. |
+| [c0082](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0082.md) | Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 2/5) | S. 34–35 |  |
+| [c0083](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0083.md) | Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 3/5) | S. 34–35 |  |
+| [c0084](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0084.md) | Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 4/5) | S. 34–35 |  |
+| [c0085](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0085.md) | Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 5/5) | S. 34–35 |  |
+| [c0086](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0086.md) | Anhang 4 Beispiel 2 – kotierte Gesellschaft ohne Wiedereinzahlung KER (Teil 1/2) | S. 35 | Ohne zurückbezahlte und wieder einbezahlte KER keine zusätzliche Gutschrift; Total KER 2'000. |
+| [c0087](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0087.md) | Anhang 4 Beispiel 2 – kotierte Gesellschaft ohne Wiedereinzahlung KER (Teil 2/2) | S. 35 |  |
+| [c0088](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0088.md) | Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 1/4) | S. 36–37 | Nicht kotierte Gesellschaft: zusätzliche Gutschrift 22'800, Total KER 24'800; Umbuchung von 24'800 am Ende des Kapitalbands. |
+| [c0089](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0089.md) | Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 2/4) | S. 36–37 |  |
+| [c0090](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0090.md) | Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 3/4) | S. 36–37 |  |
+| [c0091](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0091.md) | Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 4/4) | S. 36–37 |  |
+| [c0092](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0092.md) | Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 1/3) | S. 37 | Bestätigte KER von CHF 220'700 werden zum Kurs 0.90 in USD 245'222 umgerechnet; Wertdifferenz von USD 115'522 handelsrechtlich dem Gewinnvortrag belastet. |
+| [c0093](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0093.md) | Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 2/3) | S. 37 |  |
+| [c0094](../../../chunks/bund/dauernd/bund-ks-29c/bund-ks-29c__c0094.md) | Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 3/3) | S. 37 |  |

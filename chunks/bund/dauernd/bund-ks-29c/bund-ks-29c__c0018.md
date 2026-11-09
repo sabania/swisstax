@@ -4,26 +4,17 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 18"
-seiten: "5"
+titel: "Ziff. 4.2.3 Rückkauf eigener Beteiligungsrechte (Teil 1/2)"
+ziffer: "4.2.3"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.2 Spezialfälle · S. 11
 
-Für Kapitalgesellschaften und Genossenschaften, die der Verrechnungssteuer gemäss Arti-
-kel 9 Absatz 1 VStG unterliegen, ist die steuerliche Beurteilung der Kapitaleinlagen durch die
-Verrechnungssteuer auch für die direkten Steuern massgeblich.
+4.2.3. Rückkauf eigener Beteiligungsrechte
 
-2.2.   Spezialfälle
-
-2.2.1. Vorteilszuwendungen unter Schwestergesellschaften
-
-Bei einer Vorteilszuwendung unter Schwestergesellschaften erhalten die Beteiligten aus wirt-
-schaftlicher Sicht einen geldwerten Vorteil von der leistenden Gesellschaft, den sie in die be-
-günstigte Gesellschaft einlegen. Unter dem Kapitaleinlageprinzip qualifizieren Vorteilszuwen-
-dungen unter Schwestergesellschaften jedoch nicht als Einlagen in die KER bzw. Ausland-
-KER, da sie nicht direkt durch die Inhaber der Beteiligungsrechte geleistet werden und die
-übertragenen Mehrwerte in der übernehmenden Kapitalgesellschaft oder Genossenschaft
-nur als Aufwertung offengelegt werden können.
-
-2.2.2. Liberierung neuer Beteiligungsrechte durch Tochtergesellschaften
+Werden Beteiligungsrechte, deren Rückkauf bereits zu einer sofortigen oder aufgeschobe-
+nen Besteuerung als Teilliquidation geführt hat, wieder ausgegeben, so qualifiziert der Teil
+des Veräusserungserlöses, der über dem Nennwert liegt und soweit er den übrigen Reser-
+ven belastet werden kann, als KER (vgl. Kreisschreiben Nr. 5a der ESTV vom 1.2.2022, Zif-
+fer 6).

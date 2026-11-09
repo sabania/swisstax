@@ -4,32 +4,22 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 110"
-seiten: "28"
+titel: "Ziff. 6.12 Kapitalabfindungen für wiederkehrende Leistungen (Teil 1/2)"
+ziffer: "6.12"
+seiten: "34-35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.12 Kapitalabfindungen wiederkehrende Leistungen · S. 34–35
 
-<!-- Seite 28 -->
-     Prämien
-     Verwaltungsratshonorare
-     Abgangsentschädigungen
-     Gratifikationen
-     Geldwerte Vorteile aus Mitarbeiterbeteiligungen
-
-    Beispiele mit aperiodischen Leistungen:
-    1. Der Arbeitnehmer S. tritt per 16. März 2022 aus der Unternehmung aus und erhält neben der anteilsmässi-
-    gen Lohnzahlung von CHF 3 500.00, eine Entschädigung für nicht bezogene Ferienguthaben von
-    CHF 1 000.00. Ausserdem erhält er noch eine Abgangsentschädigung in Höhe von CHF 5 000.00. Die
-    Lohnzahlung ist zur Satzbestimmung auf 30 Tage umzurechnen. Die aperiodischen Leistungen (Entschä-
-    digung von nicht bezogenen Ferienguthaben und Abgangsentschädigung) sind nicht umzurechnen.
-
-    Leistungen   steuerbar   satzbestimmend   Berechnung
-
-    Periodische Lohnzahlung   3 500   6 562.50   3'500 / 16 x 30
-
-    Entschädigung für nicht
-    1 000   1 000.00   keine Umrechnung
-    bezogene Ferienguthaben
-
-    Abgangsentschädigung   5 000   5 000.00   keine Umrechnung
+6.12 Kapitalabfindungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte)
+Werden dem Arbeitnehmer durch den Arbeitgeber Kapitalabfindungen für wiederkehrende
+Leistungen ausgerichtet (bspw. nachträgliche Auszahlung von Familienzulagen für mehrere
+Monate), unterliegen diese im Zeitpunkt der Auszahlung der Quellenbesteuerung und zwar
+zusammen mit einer allenfalls im selben Monat ausgerichteten Lohnzahlung. Der Steuersatz
+ergibt sich dabei aus der Summe der Kapitalabfindung für wiederkehrende Leistungen und
+der Lohnzahlung im entsprechenden Monat.
+Die Kapitalabfindung wird im Quellensteuerverfahren nach dem Monatsmodell für die Satz-
+bestimmung nicht auf einen Monat umgerechnet. Es steht dem Arbeitnehmer offen, bis am
+31. März des auf die Fälligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der
+Quellensteuer oder eine nachträgliche ordentliche Veranlagung zu beantragen (vgl. Ziffer 11
+unten).

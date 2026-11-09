@@ -4,25 +4,19 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 56"
-seiten: "13"
+titel: "Ziff. 4.9 Beispiel Härtefallregelung – Alimente CHF 42 000"
+ziffer: "4.9"
+seiten: "18-19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.9 Härtefallregelung · S. 18–19
 
-3.2.8 Abgangsentschädigungen
-Abgangsentschädigungen ohne Vorsorgecharakter gelten als steuerbare Leistungen nach
-Artikel 84 Absatz 2 Buchstabe a DBG. Die Besteuerung hat sich dabei an den Grundsätzen
-nach Artikel 15 OECD-MA anzulehnen.
-Haben Abgangsentschädigungen des Arbeitgebers hingegen Vorsorgecharakter und werden
-sie an Personen mit Ansässigkeit in der Schweiz ausgerichtet, erfolgt die Besteuerung ge-
-sondert im ordentlichen Verfahren, d.h. es ist kein Quellensteuerabzug vorzunehmen.
-Werden Abgangsentschädigungen mit Vorsorgecharakter vom Arbeitgeber an Personen
-ohne Ansässigkeit in der Schweiz ausgerichtet, hat der Arbeitgeber die Abgangsentschädi-
-gung nach den ordentlichen Tarifcodes (A, B, C usw.; vgl. Art. 1 Abs. 1 QStV) der Quellenbe-
-steuerung zu unterwerfen. Dem Steuerpflichtigen bleibt es vorbehalten, bis Ende März des
-auf die Fälligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der Quellen-
-steuer oder eine nachträgliche ordentliche Veranlagung zu beantragen (vgl. Ziffer 11 unten).
-Die Voraussetzungen, unter welchen eine Abgangsentschädigung Vorsorgecharakter hat o-
-der nicht, sind dem Kreisschreiben Nr. 1 der ESTV vom 3. Oktober 2002 über die Abgangs-
-entschädigung resp. Kapitalabfindung des Arbeitgebers zu entnehmen.
+    Beispiel:
+    -   Der nicht kirchensteuerpflichtige Arbeitnehmer U. ist geschieden und bezahlt jeden Monat CHF 1 500.00
+    Unterhalt an seine Ex-Ehefrau sowie je CHF 1 000.00 Alimente für die beiden minderjährigen Kinder
+    (= CHF 2 000.00), die bei der Kindsmutter leben (gemeinsame elterliche Sorge). Sein monatlicher Brutto-
+    lohn beträgt CHF 5 500.00.
+    Der Antrag von U. auf Anwendung der Härtefallregelung wird gutgeheissen. Die jährlichen Unterhaltszah-
+    lungen betragen CHF 42 000.00 (= 12 x CHF 1 500.00 + 12 x 2 x CHF 1 000.00). Pro Kind wird gemäss
+    kantonalem Steuergesetz ein Abzug von CHF 8 000.00 pro Jahr gewährt. Die kantonale Steuerverwaltung
+    bewilligt folglich die Anwendung des Tarifcodes A5N (5 x CHF 8 000.00 = CHF 40 000.00).

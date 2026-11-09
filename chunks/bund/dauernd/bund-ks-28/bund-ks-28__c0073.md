@@ -4,20 +4,23 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 73"
-seiten: "21"
+titel: "Anhang II Art. 6 Abs. 6 Anrechnung von Vorsorgeguthaben und Bezügen"
+ziffer: "Art. 6 Abs. 6"
+seiten: "25-26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 25–26
 
-<!-- Seite 21 -->
-übrigen stillen Reserven unterliegen zusammen mit dem übrigen Einkommen dannzumal der
-ordentlichen Besteuerung.
+Absatz 6
+Alle Vorsorgeguthaben (z.B. auch Guthaben im überobligatorischen Teil, Freizügigkeitsgut-
+haben etc.), inklusive der im Vorjahr und im Liquidationsjahr getätigten Einkäufe, sind an den
+fiktiven Einkauf anzurechnen und entsprechend in Abzug zu bringen. Ebenfalls anzurechnen
+sind jegliche bereits bezogenen Leistungen. Darunter fallen alle ordentlichen Leistungen
+(z.B. Rentenleistungen), die Vorbezüge (z.B. Vorbezug für Wohneigentum) sowie die Bar-
+auszahlungen (z.B. Barauszahlung bei Wechsel von unselbständigen zur selbständigen Er-
+werbstätigkeit). Dies deshalb, weil in diesem Umfang die selbständig erwerbstätige Person
+bereits in den Genuss von steuerprivilegierten Leistungen aus der Vorsorge gekommen ist.
 
-Im Zeitpunkt der Überführung vom Geschäftsvermögen in das Privatvermögen liegt nicht
-zwangsläufig eine definitive Aufgabe der Erwerbstätigkeit vor, weshalb Artikel 37b DBG nicht
-in jedem Fall geltend gemacht werden kann.
-
-Verlangt die steuerpflichtige Person im Rahmen der definitiven Aufgabe der selbständigen
-Erwerbstätigkeit einen Besteuerungsaufschub nach Artikel 18a DBG, findet Artikel 37b DBG
-nur auf die wieder eingebrachten Abschreibungen Anwendung.
+Diese Leistungen und Bezüge sind der Steuerverwaltung in jedem Fall zur Kenntnis zu brin-
+gen. Unter Wohlfahrtsfonds sind Personalfürsorgestiftungen ohne reglementarische Leistun-
+gen zu verstehen.

@@ -4,24 +4,24 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 86"
-seiten: "25"
+titel: "Anhang III Tod eines Gesellschafters – keine Regelung, Nachfolgeklausel (Teil 1/3)"
+ziffer: "Anhang III"
+seiten: "31-32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang III Personengesellschaft · S. 31–32
 
-Absatz 3
-Abgestellt wird auf das AHV-pflichtige ordentliche Einkommen. Obwohl auch der Liquidati-
-onsgewinn AHV-pflichtig ist (dieser wird jedoch gesondert besteuert und ausgewiesen), wür-
-de ein Einbeziehen des Liquidationsgewinns das durchschnittliche Jahreseinkommen verfäl-
-schen, weshalb bei der Berechnung der fiktiven Deckungslücke nur auf das ordentliche Ein-
-kommen abgestellt werden kann.
-Da es grundsätzlich möglich ist, sich bei Vorsorgeeinrichtungen in die maximalen Leistungen
-auf der Grundlage des letzten Lohnes einzukaufen, wird für die auf einen fünfjährigen Durch-
-schnitt abgestellt, um ein möglichst aktuelles Einkommen abzubilden.
+Tod einer an einer Personengesellschaft beteiligten Person und dessen Folgen
+bezüglich Artikel 37b DBG
 
-Absatz 4
-Dauerte die selbständige Erwerbstätigkeit weniger als fünf Jahre, ist die Summe der Er-
-werbseinkommen der vergangenen Jahren nicht durch fünf, sondern durch die effektive An-
-zahl Jahre zu teilen, während welcher einer selbständigen Erwerbstätigkeit nachgegangen
-wurde.
+ MÖGLICHKEITEN   INHALT   ZIVILRECHTLICHE FOLGEN   STEUERRECHTLICHE BEHANDLUNG
+
+ 1. Keine Regelung   1.A) Der Tod eines Gesellschafters ist im   1.A) Die Erben treten als Erbenge-   1.A) Der Erbe bzw. die Erbengemein-
+    Gesellschaftsvertrag nicht geregelt. Es greift   meinschaft in die sich in Liquidation   schaft führt – in ihrer Eigenschaft als
+    grundsätzlich die gesetzliche Regelung, wo-   befindende Gesellschaft ein und wer-   Gesellschafterin (Universalsukzession)
+    nach die Gesellschaft aufgelöst wird und   den am Gesellschaftsvermögen ding-   zusammen mit den überlebenden Ge-
+    noch bis zum Abschluss der Liquidation mit   lich berechtigt. Es gilt der Grundsatz   sellschaftern – die Liquidation der Ge-
+    dem einzigen Zweck der Liquidation weiter   der Universalsukzession.   sellschaft durch = „nicht fortführen“,
+    besteht.   Artikel 37b Absatz 2 DBG findet An-
+    wendung.
+    1.B) Da die Auflösung der Gesellschaft   1.B) Die Erben treten als Erbenge-   1.B) Die Erbengemeinschaft führt die

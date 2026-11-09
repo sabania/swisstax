@@ -1,96 +1,209 @@
 [
 {
 "id": "tg-wl-kurz-2026__c0001",
-"titel": "Kurz-WL TG 2026 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 4, 7, 8, 9 Wertschriften, Vermögensverwaltung, Geldspiele, Liegenschaften",
+"pfad": [
+"Kurzübersicht Wegleitung 2026"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4, 7, 8, 9",
+"stichworte": [
+"Pauschalabzug Vermögensverwaltung",
+"Geldspielgewinne",
+"Lotterie",
+"Eigenmietwert Selbstnutzungsabzug",
+"Unterhaltspauschale Liegenschaft",
+"Einsatzkosten Spielbank"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften",
+"einkommen.lotterie_gewinne",
+"sozialabzug.eigenmietwert",
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Vermögensverwaltungskosten 2.0 ‰ max. Fr. 6 000; Einsatzkosten Geldspiele 5% max. Fr. 5 000 (Kanton) / Fr. 5 400 (Bund); Selbstnutzungsabzug 40% Kanton / 20% Bund; Unterhaltspauschale 10% bzw. 20% (Gebäude älter als 10 Jahre).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "tg-wl-kurz-2026__c0002"
 },
 {
 "id": "tg-wl-kurz-2026__c0002",
-"titel": "Kurz-WL TG 2026 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 10 Berufskosten – Fahrkosten (Ziff. 2.2, 2.3, 2.5)",
+"pfad": [
+"Kurzübersicht Wegleitung 2026",
+"10 Berufskosten"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10 (2.2–2.5)",
+"stichworte": [
+"Fahrkosten",
+"Pendlerabzug",
+"Auto Kilometeransatz",
+"Fahrrad",
+"Motorrad",
+"Maximalabzug Fahrkosten",
+"225 Arbeitstage"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Fahrrad/Kleinmotorrad bis Fr. 700; Motorrad Fr. 0.40/km; Auto Kanton Fr. 0.60/0.50/0.40 je km nach Fahrleistung, Bund Fr. 0.75/km; Maximalabzug Fr. 6 000 Kanton / Fr. 3 300 Bund.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-wl-kurz-2026__c0001",
 "nachher": "tg-wl-kurz-2026__c0003"
 },
 {
 "id": "tg-wl-kurz-2026__c0003",
-"titel": "Kurz-WL TG 2026 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 10 Berufskosten – Verpflegung, Pauschale, Wochenaufenthalt, Nebenerwerb (Ziff. 3–6)",
+"pfad": [
+"Kurzübersicht Wegleitung 2026",
+"10 Berufskosten"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10 (3.1–6)",
+"stichworte": [
+"Verpflegungsmehrkosten",
+"Schichtarbeit",
+"Kantine",
+"Berufsauslagen Pauschale",
+"Wochenaufenthalt",
+"Nebenerwerb Pauschale"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung",
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.wochenaufenthalt",
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Verpflegung Fr. 15/Tag max. Fr. 3 200 (Kantine Fr. 7.50/Tag max. Fr. 1 600); Pauschale 3% des Nettolohns, mind. Fr. 2 000, max. Fr. 4 000; Wochenaufenthalt Fr. 30/Tag max. Fr. 6 400; Nebenerwerb 20%, mind. Fr. 800, max. Fr. 2 400.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-wl-kurz-2026__c0002",
 "nachher": "tg-wl-kurz-2026__c0004"
 },
 {
 "id": "tg-wl-kurz-2026__c0004",
-"titel": "Kurz-WL TG 2026 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 13 Säule 3a und Ziff. 14 Versicherungsprämien und Sparzinsen",
+"pfad": [
+"Kurzübersicht Wegleitung 2026"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13, 14",
+"stichworte": [
+"Säule 3a",
+"3. Säule",
+"Versicherungsprämien",
+"Krankenkasse Prämien",
+"Sparzinsen",
+"Kinderzuschlag"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a",
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Säule 3a max. Fr. 7 258 mit 2. Säule bzw. 20% max. Fr. 36 288 ohne; Versicherungsabzug gemeinsam Fr. 7 000 / Fr. 3 700 (Bund), alleinstehend Fr. 3 500 / Fr. 1 800, pro Kind Fr. 1 000 / Fr. 700.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-wl-kurz-2026__c0003",
 "nachher": "tg-wl-kurz-2026__c0005"
 },
 {
 "id": "tg-wl-kurz-2026__c0005",
-"titel": "Kurz-WL TG 2026 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 15–18 Drittbetreuung, Parteispenden, Weiterbildung, Behinderung, Zweiverdienerabzug",
+"pfad": [
+"Kurzübersicht Wegleitung 2026"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "15–18",
+"stichworte": [
+"Kita",
+"Kinderdrittbetreuung",
+"Parteispenden",
+"Weiterbildung",
+"Hilflosenentschädigung",
+"Zweiverdienerabzug"
+],
+"positionen": [
+"abzug.drittbetreuung",
+"abzug.parteispenden",
+"abzug.weiterbildung",
+"abzug.behinderungskosten",
+"abzug.zweiverdiener"
+],
+"zusammenfassung": "Drittbetreuung 75% max. Fr. 10 100 (Kanton) / Fr. 25 800 (Bund); Parteispenden max. Fr. 10 000 / Fr. 10 600; Weiterbildung max. Fr. 13 000; Behinderung pauschal Fr. 2 500 bis Fr. 7 500; Zweiverdienerabzug nur Bund max. Fr. 14 100.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-wl-kurz-2026__c0004",
 "nachher": "tg-wl-kurz-2026__c0006"
 },
 {
 "id": "tg-wl-kurz-2026__c0006",
-"titel": "Kurz-WL TG 2026 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 23 Zusätzliche Abzüge – Krankheitskosten, Diät, Spenden",
+"pfad": [
+"Kurzübersicht Wegleitung 2026"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "23",
+"stichworte": [
+"Krankheitskosten",
+"Selbstbehalt 5%",
+"Diät Zöliakie",
+"Spenden",
+"freiwillige Zuwendungen"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.spenden"
+],
+"zusammenfassung": "Krankheitskosten über 5% Selbstbehalt; Diät-Pauschale Fr. 2 500; Spenden Kanton max. Fr. 8 000 oder 20% (Selbstbehalt Fr. 200), Bund max. 20%.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-wl-kurz-2026__c0005",
+"nachher": "tg-wl-kurz-2026__c0007"
+},
+{
+"id": "tg-wl-kurz-2026__c0007",
+"titel": "Ziff. 25 und 36 Sozialabzüge Einkommen und Vermögen",
+"pfad": [
+"Kurzübersicht Wegleitung 2026"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "25, 36",
+"stichworte": [
+"Kinderabzug",
+"Unterstützungsabzug",
+"Rentnerabzug",
+"Verheiratetenabzug",
+"Vermögensfreibetrag",
+"Sozialabzug Vermögen"
+],
+"positionen": [
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung",
+"sozialabzug.alter_iv",
+"sozialabzug.verheiratete",
+"vermoegen.sozialabzug"
+],
+"zusammenfassung": "Kinderabzug Kanton Fr. 10 600 / 8 500 / 7 400, Bund Fr. 6 800; unterstützte Person Fr. 2 700 / Fr. 6 800; Rentnerabzug max. Fr. 4 200; Vermögen Fr. 200 000 gemeinsam, Fr. 100 000 alleinstehend, plus Fr. 100 000 je Kind.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-wl-kurz-2026__c0006",
 "nachher": null
 }
 ]

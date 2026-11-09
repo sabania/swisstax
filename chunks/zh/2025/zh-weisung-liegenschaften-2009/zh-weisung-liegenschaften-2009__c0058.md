@@ -4,38 +4,28 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 58"
-seiten: "25"
+titel: "Anhang S. 26 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Meilen"
+ziffer: "10"
+seiten: "26"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 25
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum · S. 26
 
-<!-- Seite 25 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+
 Wohnbauland
 
 Unbebaute Grundstücke
-    Einfamilienhäuser (Ziff. 13)
+    Mehrfamilienhäuser und Stockwerkeigentum (Ziff. 10)
     Anzahl
 Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
 
-Bezirk Dietikon
-Aesch (ZH)   3   670   530   390   –   –   –   –
-Birmensdorf (ZH)   5   580   530   470   410   350   –   –
-Dietikon   5   490   450   400   350   300   –   –
-Geroldswil   5   590   540   480   430   370   –   –
-Oberengstringen   3   540   440   330   –   –   –   –
-Oetwil an der Limmat   3   640   520   390   –   –   –   –
-Schlieren   5   480   440   390   340   290   –   –
-Uitikon   5   920   820   710   600   490   –   –
-Unterengstringen   5   640   580   510   450   380   –   –
-Urdorf   5   610   560   500   440   380   –   –
-Weiningen (ZH)   3   610   500   390   –   –   –   –
-Bezirk Hinwil
-Bäretswil   3   370   290   210   –   –   –   –
-Bubikon   3   370   330   290   –   –   –   –
-Dürnten   5   340   310   280   250   210   –   –
-Fischenthal   2   240   190   –   –   –   –   –
-Gossau (ZH)   5   450   400   350   300   240   –   –
-Grüningen   5   450   410   360   310   260   –   –
-Hinwil   5   440   400   360   320   280   –   –
+Bezirk Meilen
+Erlenbach (ZH)   5   1750   1570   1380   1190   1000   –   –
+Herrliberg   5   1780   1590   1400   1210   1020   –   –
+Hombrechtikon   4   750   650   550   450   –   –   –
+Küsnacht (ZH)   5   1800   1600   1390   1190   980   –   –
+Männedorf   5   1260   1140   1010   880   750   –   –
+Meilen   5   1520   1360   1200   1040   870   –   –
+Oetwil am See   3   720   600   470   –   –   –   –
+Stäfa   5   1300   1180   1050   920   790   –   –

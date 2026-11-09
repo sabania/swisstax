@@ -11,20 +11,20 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 
     ### Antwort
 
-    Grundsätzlich sind Übertragungen in eine andere Vorsorgeeinrichtung gestützt auf Artikel 3 BVV3 möglich und unter gewissen Voraussetzungen steuerneutral. Wir bitten Sie den Sachverhalt in einem Einspracheverfahren zu schildern und belegmässige Nachweise einzureichen.
+    Es kann sein, dass Meldungen nicht zeitgleich eintreffen und demnach Bezüge nicht zusammen veranlagt werden können. Daher erhalten Sie teils zwei oder mehrere Veranlagungen für das gleiche Jahr. Zur Berechnung der Steuer werden sämtliche im gleichen Jahr ausgezahlten Kapitalleistungen aus Vorsorge grundsätzlich zusammengerechnet. Aus diesem Grund werden immer alle Bezüge des gleichen Jahres aufgeführt. Bei der Schlussrechnung werden jedoch allfällig bereits geleistete Zahlungen angerechnet.
 
-Einfache Steuer
+Ort der Besteuerung von Kapitalleistungen
 :   ### Frage
 
-    Was bedeutet "einfache Steuer" und wie viel muss ich effektiv bezahlen?
+    Wo werden Kapitalleistungen besteuert?
 
     ### Antwort
 
-    Für die Berechnung der geschuldeten Staats- und Gemeindesteuern wird die einfache Steuer mit dem Steuerfuss der Wohngemeinde multipliziert. Unser Steuerkalkulator kann Ihnen bei der Berechnung behilflich sein.
+    Kapitalleistungen sind dort steuerbar, wo die steuerpflichtige Person im Zeitpunkt der Fälligkeit der Leistung ihren Wohnsitz hat.
 
-    - [Kalkulator Kapitalleistungen aus Vorsorge](https://sv-kalkulatoren.tg.ch/TG/kalkulatoren/kalkulatoren/calc_02_vors.html)
-
-Mehrere Veranlagungen für das gleiche Jahr
+Steuerberechnung direkte Bundessteuer
 :   ### Frage
 
-    Ich habe mehrere Veranlagungen für das gleiche Jahr erhalten, obwohl ich die Rechnung für eine Kapitalauszahlung bereits beglichen habe. Wieso bekomme ich nun nochmals eine Veranlagung?
+    Warum wird bei der Bundessteuer nur 1/5 berücksichtigt?
+
+    ### Antwort

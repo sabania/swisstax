@@ -4,17 +4,18 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 2/3)"
+titel: "Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 3/3)"
 ziffer: "Anh. III 1a"
 seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 1 Index- und Basketzertifikate auf Aktien · S. 19
 
-Indexes oder Baskets direkt teilzunehmen. Die Investoren gehen damit die gleichen Chancen
-und Risiken ein wie bei direkten Investitionen in die den Zertifikaten zugrunde liegenden Ak-
-tien. Bei gewissen Zertifikaten verspricht der Emittent dem Anleger neben der vom Verlauf
-des Indexes oder Baskets abhängigen Rückzahlung eine zusätzliche Leistung. Dabei handelt
-es sich um Ausgleichszahlungen (in periodischer Form oder als Einmalentschädigung) als
-(teilweisen) Ersatz für die dem Investor im Vergleich mit einer direkten Aktieninvestition ent-
-gehenden Dividenden.
+Auch bei der jüngeren Generation von Index- und Basketzertifikaten entwickelt sich der Kurs
+des Zertifikates exakt mit dem Kurs des Basisinstrumentes (z.B. dem Swiss Market Index),
+allerdings in der entgegengesetzten Richtung: Fällt der Basiswert, gewinnt das Zertifikat;
+steigt der Basiswert, fällt der Kurs des Zertifikates. Der Investor spekuliert auf ein Sinken des
+Basiswertes. Die Chancen und Risiken des Investors sind indessen die gleichen wie bei Zer-
+tifikaten, deren Kursverlauf vollumfänglich dem Kursverlauf der Bezugsgrösse entspricht
+(Spekulation auf ein Ansteigen des Basiswertes). Steuerlich sind die beiden Fälle deshalb
+gleich zu behandeln.

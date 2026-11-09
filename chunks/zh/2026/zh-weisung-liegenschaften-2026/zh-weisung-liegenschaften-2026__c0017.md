@@ -4,27 +4,27 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 17"
-seiten: "8"
+titel: "Ziff. 38–39 Ertragswert Mehrfamilienhäuser – Kapitalisierung des Ertrags"
+ziffer: "38–39"
+seiten: "8-9"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 8
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › V. Mehrfamilien- und Geschäftshäuser › 2. Ertragswert · S. 8–9
 
-<!-- Seite 8 -->
-    4. Besondere Verhältnisse
+    2. Ertragswert
 
-35   Auf Verlangen des Steuerpflichtigen können bei der Berechnung
-    des Verkehrswerts von Einfamilienhäusern sowie Stockwerkeigentum
-    zu Wohnzwecken, vorbehältlich des entsprechenden Nachweises, fol-
-    gende Korrekturen vorgenommen werden:
-    – beim Landwert, soweit sich dieser bei einer Veräusserung nicht in
-    einem entsprechenden Erlös niederschlagen würde und diesem
-    Umstand nicht schon durch Anwendung von Ziff. 18, 19, 26–29
-    Rechnung getragen wurde,
-    – beim Zeitbauwert, wenn dieser wesentlich durch Elemente erhöht
-    wird, die sich bei einer Veräusserung nicht in einem entsprechen-
-    den Erlös niederschlagen würden.
+    Ertragswert von Mehrfamilienhäusern
+38   Zur Ermittlung des Ertragswerts von Mehrfamilienhäusern ist der
+    Ertrag der Liegenschaft zu kapitalisieren.
+39   Der Ertrag bestimmt sich nach der Gesamtheit der von den Mietern
+    geleisteten Entschädigungen. Bei vom Eigentümer und von zu seinem
+    Haushalt gehörenden Personen selbst genutzten Räumen ist die erziel-
+    bare Marktmiete zum Mietertrag hinzuzuzählen. Wurden Mieter vertrag-
+    lich zur Übernahme von üblicherweise vom Eigentümer zu tragenden
+    Unterhaltskosten und Abgaben verpflichtet, so ist der Wert dieser
 
-    V. Mehrfamilien- und Geschäftshäuser
-
-    1. Allgemeine Grundsätze
+Leistungen zum vereinbarten Mietzins hinzuzuzählen. Ausser Betracht
+fallen Vergütungen der Mieter für Heizung, Warmwasser, Treppenhaus-
+reinigung, Empfangsgebühren für Radio und Fernsehen, Gebühren
+für die Kehrichtentsorgung sowie Gebühren für Wasser, Abwasser
+und für die Abwasserreinigung.

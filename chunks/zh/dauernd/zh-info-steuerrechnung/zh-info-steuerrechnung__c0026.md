@@ -20,3 +20,7 @@ Verwenden Sie die Akkordeon-Bedienelemente, um die Sichtbarkeit der jeweiligen P
 - [Merkblatt des kantonalen Steueramtes über die Grundsätze der zeitlichen Bemessung für die natürlichen Personen](https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-49-1.html)
 - [Weisung der Finanzdirektion über das Verfahren bei der Einschätzung von Steuerpflichtigen, die trotz Mahnung keine Steuererklärung eingereicht haben](https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-139-2.html)
 - [Weisung der Finanzdirektion über die nachträgliche ordentliche Veranlagung von quellensteuerpflichtigen Arbeitnehmerinnen und Arbeitnehmer](https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-87-3.html)
+
+## Für dieses Thema zuständig:
+
+- [Steueramt](https://www.zh.ch/de/finanzdirektion/steueramt.html)

@@ -4,27 +4,42 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 73"
-seiten: "24"
+titel: "Anhang 2 Alternativer Ausweis eigener Beteiligungsrechte (Teil 2/2)"
+ziffer: "Anhang 2"
+seiten: "30-31"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 24
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 2 Eigene Beteiligungsrechte · S. 30–31
 
-<!-- Seite 24 -->
-8.   Zuzug einer juristischen Person aus dem Ausland
+       Es liegen steuerlich anerkannte KER gemäss Artikel 5 Absatz 1bis VStG oder Aus-
+    land-KER gemäss Artikel 5 Absatz 1quater Buchstaben a und b VStG vor, welche ver-
+    bucht sind und unter den gesetzlichen oder freien Kapitalreserven ausgewiesen wer-
+    den;
+       im Zeitpunkt des Erwerbs der eigenen Beteiligungsrechte lagen auch tatsächlich Re-
+    serven aus Kapitaleinlagen vor, die betragsmässig mindestens dem Total der eige-
+    nen Beteiligungsrechte zur Verrechnung mit KER oder Ausland-KER entsprechen.
 
-Verlegt eine juristische Person ihren Sitz oder die tatsächliche Verwaltung vom Ausland in
-die Schweiz, ändert sich die Qualifikation der übrigen Reserven auch unter dem Kapitaleinla-
-geprinzip nicht. Die Aufteilung der offenen Kapitaleinlagen in KER und Ausland-KER erfolgt
-gemäss den Grundsätzen nach Ziff. 2.1. hiervor.
+Folgender beispielhafter Ausweis beachtet die handelsrechtlichen Vorschriften und genügt
+den steuerlichen Anforderungen:
 
-Werden dagegen im Rahmen einer grenzüberschreitenden Quasifusion (Immigrations -
-Quasifusion) Beteiligungsrechte an einer ausländischen Kapitalgesellschaft oder Genossen-
-schaft in eine inländische Kapitalgesellschaft oder Genossenschaft eingebracht, qualifiziert
-die gesamte Sacheinlage als offene Kapitaleinlage. Der die Erhöhung des Grund- oder
-Stammkapitals übersteigende Teil dieser offenen Kapitaleinlage kann, wenn die Kapitalein-
-lage in der Zeit zwischen dem 31. Dezember 1996 und dem 24. Februar 2008 erfolgte, in der
-Handelsbilanz als KER und bei Einlagen nach dem 24. Februar 2008 als Ausland-KER aus-
-gewiesen werden. Dabei ist aber für die in der Schweiz ansässigen Inhaber der Beteiligungs-
-rechte die Regelung der Transponierung in Artikel 20a Absatz 1 Buchstabe b DBG zu beach-
-ten (vgl. Ziff. 4.2.5. hiervor).
+ Aktienkapital   20
+
+ Gesetzliche Kapitalreserven
+ - KER   20
+ - Ausland-KER   8
+ - Übrige Kapitalreserven   60   88
+ Freie Kapitalreserven
+ - KER   10
+ - Ausland-KER   2
+ - Übrige Kapitalreserven   100   112
+
+ Gesetzliche Gewinnreserven   30
+
+ Freie Gewinnreserven / kummulierte Verluste   50
+
+ Eigene Beteiligungsrechte
+ - Gegen KER   -30
+ - Gegen Ausland-KER   -10
+ - Übrige   -10   -50
+
+ Total Eigenkapital   250

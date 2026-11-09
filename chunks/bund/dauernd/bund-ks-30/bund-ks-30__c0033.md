@@ -4,16 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 7 Prämienverbilligung mindert den Versicherungsabzug"
-ziffer: "7"
-seiten: "12"
+titel: "Ziff. 8.2 Kinder, für die der Drittbetreuungsabzug möglich ist (bis 14. Altersjahr) (Teil 1/2)"
+ziffer: "8.2"
+seiten: "12-13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 7 Abzug für Versicherungsprämien und Sparkapitalzinsen · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.2 Für welche Kinder · S. 12–13
 
-Werden Steuerpflichtigen in bescheidenen Verhältnissen Prämienverbilligungen gemäss
-Artikel 65 ff. des Bundesgesetzes vom 18. März 1994 über die Krankenversicherung (KVG)
-gewährt, sind diese Ermässigungen bei der Festsetzung des Versicherungs- und Sparzin-
-senabzuges als aufwandmindernd zu berücksichtigen. Dies hat zur Folge, dass nur die tat-
-sächlich von der steuerpflichtigen Person getragenen Prämien, d.h. die eigenen sowie die für
-die von ihm unterhaltenen Personen, in Abzug gebracht werden können.
+8.2   Für welche Kinder können Kinderdrittbetreuungskosten abgezogen
+    werden
+
+Als Kinder, für die ein Kinderdrittbetreuungskostenabzug beansprucht werden kann, gelten
+einerseits die leiblichen Kinder sowie die Adoptivkinder nach Artikel 264 ff. ZGB. Anderer-
+seits fallen bei Ehepaaren auch die nicht gemeinsamen Kinder, die sog. Stiefkinder, darun-
+ter, da gemäss Artikel 299 ZGB jeder Ehegatte dem andern in der Ausübung der elterlichen
+Sorge gegenüber dessen Kindern in angemessener Weise beizustehen und ihn zu vertreten
+hat, wenn es die Umstände erfordern.

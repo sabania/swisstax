@@ -4,23 +4,24 @@ quelle: bund-ssk-ks27-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 27 (MB SZ) – Abschnitt 12"
-seiten: "3"
+titel: "Ziff. 5–6 Verfahren und Übergangsregelungen vor 1.1.2010 (Teil 1/3)"
+ziffer: "5–6"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · S. 3
+> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · 5. Verfahren / 6. Übergangsregelungen · S. 4
 
-4.   Verlustverrechnung im Kanton Schwyz
+5.   Verfahren
 
-4.1   Rechtsprechung / Grundlage
+Die grundstückgewinnsteuerlichen Veranlagungsverfügungen werden in der Regel ohne Berücksich-
+tigung eines allenfalls zu übernehmenden einkommens- resp. gewinnsteuerlichen Ausscheidungs-
+verlusts vorgenommen, jedoch mit einem entsprechenden Vorbehalt zu versehen.
 
-Bei der Verlustverrechnung ist bei Vorliegen von interkantonalen Verhältnissen die vom Bundesge-
-richt in Konkretisierung des verfassungsmässigen Doppelbesteuerungsverbots entwickelte Recht-
-sprechung direkt anwendbar. Die entsprechende Rechtsprechung ist in den letzten Jahren stark in
-Bewegung geraten und beschränkt sich insbesondere nicht mehr nur auf den Liegenschaftenhänd-
-ler. Gemäss dem per 1.1.2010 geänderten § 119 Abs. 4 StG bleiben die weiter gehenden Ver-
-lustverrechnungsmöglichkeiten nach interkantonalem Recht vorbehalten und gelten auch innerkan-
-tonal; mit dieser Anpassung werden nicht mehr nur inner- und ausserkantonale Liegenschaften-
-händler gleichgestellt, sondern generell alle steuerpflichtigen Personen.
-
-4.2 Veranlagungspraxis für Veräusserungen ab 1.01.2010
+Die Verrechnung eines allfälligen einkommens- oder gewinnsteuerlichen Verlusts kann, in Verbin-
+dung mit § 119 Abs. 4 StG auch bei rein innerkantonalen Verhältnissen, im Sinne von § 169 Abs.
+3 StG (Revision auf Grund von interkantonalem oder internationalem Doppelbesteuerungsrecht)
+mittels Revisionsgesuch innert 90 Tagen ab Versand der schwyzerischen Einkommens- resp. Ge-
+winnsteuerveranlagung geltend gemacht werden. Bei interkantonalen Verhältnissen bildet Grundla-
+ge der Verlustverrechnung der in der einkommens- resp. gewinnsteuerlichen Steuerausscheidung
+dem Kanton Schwyz rechtskräftig zugewiesene Verlust; dabei ist der Kanton Schwyz nicht ver-
+pflichtet, die anderen Kantonen zugewiesenen Verluste zu übernehmen.

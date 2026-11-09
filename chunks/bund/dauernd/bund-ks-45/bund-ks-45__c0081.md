@@ -4,19 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 81"
-seiten: "19"
+titel: "Ziff. 6.5 Beispiel 3 – Reinigungskraft im Stundenlohn plus Monatslohn 50 %"
+ziffer: "6.5"
+seiten: "26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.5 Stunden- oder Tageslohn · S. 26
 
-5.3   Verwaltungsratsentschädigungen
-Verwaltungsratsentschädigungen (bspw. Tantiemen, Sitzungsgelder, feste Entschädigungen,
-geldwerte Vorteile aus Mitarbeiterbeteiligungen) sind zusammen mit einer allfälligen Lohn-
-zahlung nach Artikel 83 DBG an der Quelle zu besteuern, sofern das anspruchsberechtigte
-Mitglied des Verwaltungsrats oder der Geschäftsführung in der Schweiz ansässig ist.
-Bei Ansässigkeit von Mitgliedern des Verwaltungsrats im Ausland hat die Quellenbesteue-
-rung der Verwaltungsratsentschädigungen nach Artikel 93 DBG zu erfolgen. Es gilt dabei zu
-beachten, dass Entschädigungen an im Ausland ansässige Verwaltungsräte sowohl gemäss
-Artikel 91 DBG (Lohneinkommen) wie auch gemäss Artikel 93 DBG (Verwaltungsratsent-
-schädigung) an der Quelle steuerpflichtig sein können. Die Steuerpflicht gemäss Artikel 91
+    3. Der Arbeitnehmer G. ist als Reinigungskraft bei der Q. AG im Stundenlohn angestellt. Seine wöchentliche
+    Arbeitszeit beträgt zwischen 16 und 20 Stunden. Im April 2021 arbeitet er während 70 Stunden für die Q.
+    AG. Sein Lohn beträgt CHF 23.00 pro Stunde und wird ihm, nach Auswertung der eingereichten Arbeits-
+    rapporte ausbezahlt. Daneben übt er eine weitere Erwerbstätigkeit zu 50 % im Monatslohn bei der T. AG
+    aus. Dort beträgt sein Lohn CHF 2 400.00 pro Monat. Beide Arbeitgeber haben keine Kenntnis vom Pen-
+    sum beim anderen Arbeitgeber.
+
+    Arbeitgeber   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
+    lohn/Pensum   stimmend   len-
+    steuer
+
+    Q. AG   23.00   1 610   70   180   4 140   7.5 %   120.75
+
+    T. AG   50 %   2 400   -   100 %   4 800   9.5 %   228.00

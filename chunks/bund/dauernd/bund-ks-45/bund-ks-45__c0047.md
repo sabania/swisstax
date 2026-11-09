@@ -4,21 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 47"
-seiten: "11"
+titel: "Ziff. 4.4 Vereinfachtes Abrechnungsverfahren (Tarifcode E)"
+ziffer: "4.4"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.4 Vereinfachtes Abrechnungsverfahren · S. 16
 
-     Vom Arbeitgeber übernommene Beiträge an die Arbeitslosenversicherung, welche
-    nach Gesetz vom Arbeitnehmer geschuldet sind;
-     Alle Beiträge des Arbeitgebers an private Versicherungen des Arbeitnehmers oder die-
-    sem nahestehende Personen (bspw. Krankenversicherung) sowie
-     Die vom Arbeitgeber übernommenen Quellensteuern (Nettolohnvereinbarung).
-Der der Quellensteuer unterliegende Lohnbestandteil, der sich aus der Übernahme der Quel-
-lensteuer durch den Arbeitgeber ergibt, ist nach der Methode der Iteration zu berechnen (all-
-gemeine Beschreibung eines Prozesses des mehrfachen Wiederholens gleicher Berechnun-
-gen zur Annäherung an eine Lösung; siehe dazu das nachfolgende Beispiel).
-Nicht zu den der Quellensteuer unterliegenden Bruttoeinkünften hinzuzurechnen sind, sofern
-sie für alle Arbeitnehmer bzw. in Reglementen definierte Gruppen von Arbeitnehmern einer
-Unternehmung gleichermassen übernommen werden:
+4.4   Vereinfachtes Abrechnungsverfahren (Tarifcode E)
+Arbeitnehmer, deren Bruttoeinkünfte (kleinere Arbeitsentgelte) im Rahmen des vereinfachten
+Abrechnungsverfahrens besteuert werden, werden für diese Einkünfte mit dem Tarifcode E
+an der Quelle besteuert. Dieser Quellensteuerpflicht können auch Arbeitnehmer unterliegen,
+die grundsätzlich im ordentlichen Veranlagungsverfahren besteuert werden. Das Verfahren
+richtet sich nach den Artikeln 21 - 24 QStV.
+Die Grundsätze des vereinfachten Abrechnungsverfahrens sind in Artikel 37a DBG bzw. in
+den Artikeln 2 und 3 BGSA festgehalten.
+Ob die Besteuerung für eine Tätigkeit nach den Bestimmungen des BGSA erfolgt, liegt in der
+Kompetenz des Arbeitgebers. Die Berechtigung zur Abrechnung von Löhnen im vereinfach-
+ten Abrechnungsverfahren wird von den AHV-Ausgleichskassen erteilt.

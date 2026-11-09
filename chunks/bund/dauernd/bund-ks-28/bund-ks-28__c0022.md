@@ -4,21 +4,28 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 22"
-seiten: "5"
+titel: "Anhang I LGBV Art. 1–2 Gegenstand, Geltungsbereich, Liquidationsjahr (Teil 2/2)"
+ziffer: "Art. 1–2"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang I LGBV · S. 7–8
 
-5.1.   Grundsatz
-Der selbständig Erwerbende kann unabhängig davon, ob er einer beruflichen Vorsorgeinrich-
-tung angeschlossen ist oder nicht, einen Antrag auf Besteuerung eines fiktiven Einkaufs stel-
-len. Ist der selbständig Erwerbende einer Einrichtung der beruflichen Vorsorge angeschlos-
-sen, verzichtet er aber ganz oder teilweise auf einen tatsächlichen Einkauf von Beitragsjah-
-ren, so kann er die Besteuerung eines fiktiven Einkaufs nach Abzug des allfällig vorgenom-
-menen tatsächlichen Einkaufes geltend machen. Eine höhere tatsächliche Deckungslücke
-des konkreten Vorsorgeplanes bleibt in diesem Fall für die Berechnung des fiktiven Einkaufs
-unbeachtlich.
+   a.   Einkünfte aus selbstständiger Erwerbstätigkeit und andere Einkünfte, die
+    nicht aus der Liquidation stammen;
+   b.   Liquidationsgewinne, welche die steuerpflichtige Person nach Absatz 1
+    (steuerpflichtige Person) nach der Wiederaufnahme einer selbstständigen
+    Erwerbstätigkeit erzielt.
 
-Die Besteuerung eines fiktiven Einkaufs kann geltend gemacht werden, solange nach dem
-BVG ein Einkauf möglich ist.
+Art. 2   Liquidationsjahr
+Als Liquidationsjahr gilt das Geschäftsjahr, in dem die Liquidation abgeschlossen
+wird.
+
+SR ……
+1   SR 642.11
+2   SR 831.20
+
+2008–2573   1
+
+Verordnung über die Besteuerung der Liquidationsgewinne bei definitiver   AS 2010
+Aufgabe der selbstständigen Erwerbstätigkeit

@@ -4,24 +4,21 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 68"
-seiten: "22"
+titel: "Ziff. 9.3 d) Rückmeldung der ESTV und Ziff. 10 Inkrafttreten"
+ziffer: "9.3 d, 10"
+seiten: "27-28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 10 Inkrafttreten · S. 27–28
 
-<!-- Seite 22 -->
-7.2.   Umwandlung
+d) Rückmeldung der ESTV
 
-7.2.1. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine andere
-    Kapitalgesellschaft oder Genossenschaft
+Die gemeldeten KER bzw. Ausland-KER werden durch die ESTV überprüft. Die ESTV teilt
+anschliessend die zulässigen Bestände an KER und Ausland-KER der einreichenden Gesell-
+schaft oder deren Vertretung mit.
 
-a)   Direkte Bundessteuer (Einkommenssteuer)
 
-Bei einer Umwandlung erzielen beteiligte Privatpersonen in dem Umfang Beteiligungsertrag,
-als ihnen höherer Nennwert, Ausgleichszahlungen oder andere geldwerte Vorteile zu Lasten
-der übrigen Reserven der umgewandelten Gesellschaft oder Genossenschaft zufliessen.
-Stammt das Grund- oder Stammkapital aus KER, gelten die Bestimmungen zu Ziff. 5.1.5.
-hiervor.
+10.   Inkrafttreten
 
-b)   Verrechnungssteuer
+Dieses Kreisschreiben tritt per 1. Januar 2023 in Kraft und ersetzt die bisherigen Kreisschrei-
+ben Nr. 29, 29a und 29b.

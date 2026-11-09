@@ -4,21 +4,20 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 25"
-seiten: "6"
+titel: "Ziff. 4.5 Bescheinigungspflicht (Teil 2/2)"
+ziffer: "4.5"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 25 · 4 Besteuerung auf Ebene der Anleger › 4.5 Bescheinigungspflicht · S. 8
 
-<!-- Seite 6 -->
-4   Besteuerung auf Ebene der Anleger
-4.1   Allgemeines
-Ein vertraglicher Anlagefonds, eine SICAV oder KmGK, welche in ihren Basisdokumenten
-(beispielsweise im Fondsvertrag) eine Ausschüttungsvorschrift von mindestens 70% des
-jährlichen Nettoertrags, inklusive vorgetragener Erträge aus früheren Rechnungsjahren, vor-
-sehen, gilt steuerlich als ausschüttende kollektive Kapitalanlage. Demgegenüber gelten kol-
-lektive Kapitalanlagen als thesaurierend, wenn in den Basisdokumenten keine Ausschüt-
-tungsvorschrift des jährlichen Nettoertrages vorgesehen ist. Als gemischte kollektive Kapital-
-anlagen gelten vertragliche Anlagefonds, SICAV und KmGK, wenn die jährliche Festsetzung
-der Ausschüttungs- bzw. Thesaurierungsquote im Ermessen der Funktionsträger der kol-
-lektiven Kapitalanlage liegt.
+Gestützt auf Artikel 129 Absatz 3 DBG haben die kollektiven Kapitalanlagen den Veranla-
+gungsbehörden über die Aufteilung der Ausschüttung und der Reserven in die beiden Kate-
+gorien „Ertrag aus direktem Grundbesitz“ und „übriger Ertrag“ Auskunft zu geben. Eine Auf-
+teilung der Ausschüttung auf gesonderte Coupons ist – mit Ausnahme für über gesonderten
+Coupon ausgerichtete Kapitalgewinne und Kapitaleinzahlungen (vgl. Art. 5 Abs. 1 Bst. b
+VStG u. Art. 28 Abs. 3 VStV) – nicht nötig.
+
+Die ESTV ermittelt die steuerbaren Werte der Anteile kollektiver Kapitalanlagen aufgrund der
+Meldungen der kollektiven Kapitalanlagen mit direktem Grundbesitz und publiziert diese in
+der Kursliste HB.

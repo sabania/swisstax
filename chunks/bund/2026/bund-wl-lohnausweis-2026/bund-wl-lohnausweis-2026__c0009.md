@@ -4,19 +4,23 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 9"
-seiten: "6"
+titel: "Rz 6–8 Buchstaben C–E – AHV-Nummer, Kalenderjahr, Lohnperiode (Teil 2/2)"
+ziffer: "6–8"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 6
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstaben C–E · S. 7–8
 
-Nachfolgend wird aus Gründen der Übersichtlichkeit auf eine geschlechtsneutrale Formulie   3
-rung verzichtet und davon abgesehen, der Regelung des Lohnausweises zusätzlich die ana
-loge Regelung für das Ausfüllen der Rentenbescheinigung (vgl. insb. Rz 5) beizufügen. Aus
-dem gleichen Grund wird darauf verzichtet, neben den Arbeitnehmern jeweils auch die Pen
-sionierten ausdrücklich zu erwähnen – letztere sind stets mitgemeint. Folglich sind sowohl
-alle geldwerten Vorteile, die dem Pensionierten aus seinem ehemaligen Arbeitsverhältnis
-zukommen, vom damaligen Arbeitgeber zu deklarieren als auch das sogenannte Ruhegehalt
-von den Vorsorgeeinrichtungen auf dem Formular 11 zu bescheinigen.
+In diesen Feldern sind die genauen Ein- und Austrittsdaten des Arbeitnehmers anzugeben.   8
+Die Lohnperiode ist auch dann anzugeben, wenn der Arbeitnehmer das ganze Jahr bei der
+selben Gesellschaft beschäftigt war. Bei Arbeitnehmern mit mehreren kürzeren Arbeitsein
+sätzen innerhalb des Kalenderjahres (v. a. bei Temporärangestellten) genügt es, den Beginn
+des ersten und das Ende des letzten Einsatzes anzugeben. Wenn aus besonderen Gründen
 
-    ESTV   Seite 6 / 25
+    ESTV   Seite 7 / 25
+
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+
+für mehrere Zeitabschnitte Lohnausweise ausgestellt werden, ist in Ziffer 15 aller Lohnaus
+weise («Bemerkungen») die Gesamtzahl der Lohnausweise anzugeben, z. B.: «Einer von
+drei Lohnausweisen» (vgl. Rz 66).

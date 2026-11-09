@@ -4,31 +4,36 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 52"
-seiten: "13"
+titel: "Anhang V Entscheidungsbaum ausländische KKA (Teil 2) (Teil 1/2)"
+ziffer: "Anhang V"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang V Entscheidungsbaum · S. 18
 
-    Aufwand
-    Passivzinsen   Zinsen   300   33   333
-    quotenmässige Aufteilung *)
-    Unterhalt und Reparaturen   objektmässig   450   450
-    Übrige Liegenschaftskosten   objektmässig   400   400
-    Immo.-Verwaltungskosten   objektmässig   250   250
-    Rückzahlungen   objektmässig   150   150
-    Allgemeine Unkosten   sofern der Aufwand gesamthaft   10   1   11
-    der Erfolgsrechnung belastet
-    wird:
-    quotenmässige Aufteilung *)
-    Schätzungs- und Revisions-   sofern der Aufwand gesamthaft   20   2   22
-    kosten   der Erfolgsrechnung belastet
-    wird:
-    quotenmässige Aufteilung *)
-    Zuweisung an Amortisati-   objektmässig; nur im Rahmen   500   500
-    onsfonds   der steuerlich zulässigen Ab-
-    schreibungen abziehbar
-    Zuweisung an Unterhalts-   zulässig sind nur objektmässig   0   0
-    fonds   zugeordnete Rückstellungen für
-    künftige Grossreparaturen
-    Entschädigungen an   sofern der Aufwand gesamthaft   54   6   60
+    Unterliegt die   AkK, welche für CH-Steuerzwecke wie ein FCP resp. eine SICAV besteuert
+    ja   Rückgaberecht   ja   wird:
+    akK im Ausland
+    des Anlegers   UA: Primärmarkt unterliegt
+    einer Aufsicht
+    vorhanden2?   Befreiter Anleger für UA-Zwecke: Ja
+    über kK3?   Einkommens-/Gewinnsteuerzwecke: Transparente Besteuerung
+
+    nein   nein
+
+    ja   AkK, welche für CH-Steuerzwecke wie eine SICAF besteuert wird:
+    UA: Primärmarkt unterliegt
+    SICAF-ähnlich?
+    Befreiter Anleger für UA-Zwecke: Ja
+    Einkommens-/Gewinnsteuerzwecke: Nicht-transparente Besteuerung
+
+    nein   AkK, welche für CH-Steuerzwecke wie eine KmGK besteuert wird:
+    UA: Primärmarkt unterliegt
+    Befreiter Anleger für UA-Zwecke: Ja
+    Einkommens-/Gewinnsteuerzwecke: Transparente Besteuerung
+
+    Ist das Kriterium   nein
+    des Zwecks der   Es liegt keine akK vor: Weitere Abklärungen notwendig
+    kK gegeben4?
+
+    ja

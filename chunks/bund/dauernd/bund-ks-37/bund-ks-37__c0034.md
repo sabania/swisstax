@@ -4,22 +4,21 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 34"
-seiten: "8"
+titel: "Ziff. 7.1 Bescheinigung nach Art. 7/8/9 MBV und Quellensteuer auf dem Schweizer Anteil"
+ziffer: "7.1"
+seiten: "11-12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.1 Allgemeines · S. 11–12
 
-<!-- Seite 8 -->
-    Weil sein übriger Lohn sehr bescheiden ist, wäre C nicht in der Lage, die
-    durch die Mitarbeiterbeteiligung anfallenden Einkommenssteuern zu bezah-
-    len. Aus diesem Grunde beantragt die Newtec AG bei der zuständigen
-    Steuerbehörde, den Verkehrswert zu negieren und statt dessen zu Steuer-
-    zwecken inskünftig auf den Formelwert abzustellen. Dieses Vorgehen wird
-    von den Steuerbehörden akzeptiert, wenn der Arbeitgeber ein unbe-
-    schränktes Kaufrecht hat, die Mitarbeiteraktien zum identisch berechneten
-    Formelwert zurück zu kaufen.
-
-3.3   Ermittlung des steuerbaren Einkommens
-Der Besteuerung unterliegt die positive Differenz zwischen dem Verkehrswert der Mitarbei-
-teraktien und deren Abgabepreis.
+Artikel 7 wie auch Artikel 8 MBV schreiben dem Arbeitgeber vor, welche Angaben er in den
+Fällen der anteilsmässigen Besteuerung nach Artikel 17d DBG zu bescheinigen hat. Anzu-
+merken ist, dass die Artikel 7 und 8 MBV auf Grund des ausdrücklichen Verweises in Arti-
+kel 9 MBV in analoger Weise auch auf weitere Sachverhalte anzuwenden sind, wie beispiels-
+weise, wenn ein Mitarbeitender aus dem Ausland in die Schweiz zuzieht, für kurze Zeit hier
+ansässig ist und noch vor dem Vesting wieder wegzieht oder umgekehrt. Die örtliche Zustän-
+digkeit der Besteuerung richtet sich nach den Artikeln 107 und 105 DBG. Die Bescheinigung
+bei Wegzug eines Mitarbeitenden ist der nach diesen Bestimmungen zuständigen kantona-
+len Behörde zuzustellen. Der Arbeitgeber hat in seiner Eigenschaft als Schuldner der steuer-
+baren Leistung die Quellensteuer jeweils bloss auf dem schweizerischen Anteil abzurech-
+nen.

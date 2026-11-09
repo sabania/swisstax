@@ -4,36 +4,26 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 24"
-seiten: "10"
+titel: "Ziff. 59–60 Eigenmietwert Einfamilienhaus 3,50% / Stockwerkeigentum 4,25%"
+ziffer: "59–60"
+seiten: "11"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 10
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · B. Eigenmietwerte › I. Einfamilienhäuser und Stockwerkeigentum · S. 11
 
-<!-- Seite 10 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+B. Eigenmietwerte
 
-50   Die Zuordnung zur Bauland-Kategorie gemäss Ziff. 15 erfolgt auf-
-    grund der Art der Baute, und nicht wie bei unüberbautem Land nach
-    Massgabe der Zonenordnung.
+I. Einfamilienhäuser und Stockwerkeigentum
 
-    3. Zeitbauwert
-
-51   Der Zeitbauwert entspricht dem Neubauwert abzüglich der dem
-    Alter des Gebäudes entsprechenden Altersentwertung.
-52   Der Neubauwert ist auf 1000% des von der Gebäudeversicherung
-    des Kantons Zürich festgelegten Basiswertes festzusetzen.
-53   Die Altersentwertung wird bei der allgemeinen Neubewertung in
-    der Regel berechnet vom Erstellungsjahr bis zum Kalenderjahr 2009.
-    Sie beträgt bei:
-    normaler Abnützung: 2% pro Jahr bis zum Restwert von 30%,
-    besonders
-    starker Abnützung:   3% pro Jahr bis zum Restwert von 0%.
-54   Der Ansatz für besonders starke Abnützung ist in erster Linie
-    Betrieben der chemischen Industrie und der Schwerindustrie zu ge-
-    währen.
-55   Als Erstellungsjahr des Gebäudes ist in der Regel das Erstellungs-
-    jahr gemäss Gebäudeversicherungsschätzung massgebend. Bei späte-
-    rer umfassender Totalrenovation ist für die Berechnung der Alters-
-    entwertung der Zeitpunkt dieser Investitionen als Erstellungsjahr
-    massgebend.
+    Die Eigenmietwerte von durch den Pflichtigen und von zu seinem 59
+Haushalt gehörenden Personen genutzten Einfamilienhäusern und
+Stockwerkeigentum betragen:
+Für Einfamilienhäuser:   3,50% des Land- und Zeitbauwertes,
+für Stockwerkeigentum: 4,25% des Land- und Zeitbauwertanteils.
+    Übersteigt der Basiswert bzw. Basiswertanteil   60
+– bei Einfamilienhäusern Fr. 120 000,
+– bei Stockwerkeigentum Fr. 40 000,
+so ist bei der Ermittlung des Eigenmietwerts der diese Beträge über-
+steigende Teil bei der Berechnung nur mit 1% zu berücksichtigen. Bei
+dieser Berechnung des Eigenmietwerts kann der Zeitbauwert nicht
+gleichzeitig noch nach Ziff. 35 korrigiert werden.

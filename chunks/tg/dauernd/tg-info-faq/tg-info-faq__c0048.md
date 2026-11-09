@@ -19,3 +19,5 @@ Repartitionswert
     ### Antwort:
 
     Die Schulden und Schuldzinsen werden bei Vorliegen von Nebensteuerdomizilen in anderen Kantonen (Liegenschaften) nach Lage der Aktiven verteilt. Dies bedingt jedoch, dass sämtliche Aktiven gesamtschweizerisch einheitlich bewertet werden. Da aber gerade bei den Liegenschaften die Kantone eigene Bewertungen vornehmen, die im Vergleich zwischen den Kantonen stark voneinander abweichen, muss ein einheitlicher "Bundessteuerwert" = Repartitionswert ermittelt werden. Dieser Repartitionswert stellt einen gesamtschweizerisch einheitlichen Vermögenssteuerwert dar, unabhängig davon, in welchem Kanton sich die Liegenschaft befindet.
+
+    Damit nun die verschiedenen kantonalen Vermögenssteuerwerte auf diesen gesamtschweizerisch identischen Repartitionswert gebracht werden können, sind diese mit einem für jeden Kanton festgelegten Umrechnungsfaktor zu multiplizieren.

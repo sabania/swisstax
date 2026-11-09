@@ -4,25 +4,21 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 9"
-seiten: "3"
+titel: "Ziff. II.2.2 a) Gesuch um Steuerrückerstattung und Bescheinigungen (Teil 2/2)"
+ziffer: "II.2.2 a"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 2 Steuerliche Auswirkungen › 2.2 Rückzahlung des Vorbezuges · S. 4
 
-<!-- Seite 3 -->
-keitsleistung vorbeziehen (absolute Begrenzung). Die gleiche Beschränkung gilt auch für die
-Verpfändung des Vorsorgeguthabens.
+Bei mehreren Vorbezügen erfolgt die Rückerstattung der bezahlten Steuern in der gleichen
+zeitlichen Reihenfolge, wie zuvor die Vorbezüge stattgefunden haben. Eine Wiedereinzah-
+lung führt somit bei mehreren Vorbezügen zur Tilgung des früheren vor dem späteren Vor-
+bezug und dementsprechend auch zur Rückerstattung der auf diesem früheren Vorbezug
+bezahlten Steuern. Bei teilweiser Rückzahlung des vorbezogenen Betrages wird der Steuer-
+    3
+betrag im Verhältnis zum Vorbezug zurückerstattet.
 
-Das entsprechende Gesuch für den Vorbezug kann bis drei Jahre vor Entstehung des An-
-spruchs auf Altersleistungen (vgl. Art. 13 BVG) bei der Vorsorgeeinrichtung geltend gemacht
-werden (Art. 30c Abs. 1 BVG). Es handelt sich bei dieser Bestimmung um relativ zwingen-
-des Recht, d.h. die Vorsorgeeinrichtungen können diese Frist in ihren Reglementen reduzie-
-ren oder sogar ganz aufheben. Dies jedoch nur unter der Bedingung, dass sie jederzeit
-Sicherheit dafür bieten, den von ihnen übernommenen Verpflichtungen nach Artikel 65 Ab-
-    2
-satz 1 BVG nachkommen zu können. Weitere Einschränkungen für den Vorbezug bestehen
-darin, dass pro Bezug mindestens 20'000 Franken beansprucht werden müssen und ein
-Vorbezug nur alle fünf Jahre geltend gemacht werden kann. Dieser Mindestbetrag gilt nicht
-für den Erwerb von Anteilscheinen an Wohnbaugenossenschaften und von ähnlichen Betei-
-ligungen sowie für Ansprüche gegenüber Freizügigkeitseinrichtungen.
+Eine ausländische Steuer, die gegebenenfalls zu bezahlen war (vgl. Ziff. 2.1), kann gestützt
+auf die Massnahmen der Wohneigentumsförderung mit Mitteln der 2. Säule, die internes
+Recht darstellen, nicht in der Schweiz zurückverlangt werden.

@@ -4,24 +4,24 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 34"
-seiten: "8"
+titel: "Ziff. 5.6 Einanlegerfonds und Ziff. 6 Inkrafttreten"
+ziffer: "5.6 / 6"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 25 · 5 Spezialfragen › 5.6 Einanlegerfonds · S. 10
 
-<!-- Seite 8 -->
-Die Wiederanlage der Erträge von thesaurierenden kollektiven Kapitalanlagen gilt direktsteu-
-erlich als Realisation, weshalb es sich empfiehlt, diesen Vorgang erfolgswirksam zu verbu-
-chen. Werden die Erträge nicht verbucht, verwirkt der Anleger seinen Anspruch auf Rücker-
-stattung der Verrechnungssteuer (vgl. Art. 25 Abs. 1 VStG). Dementsprechend empfiehlt sich
-folgende Verbuchung bei einem Ertrag einer kollektiven Kapitalanlage:
+5.6   Einanlegerfonds
+Einanlegerfonds sind für direktsteuerliche Zwecke zulässig, wenn der Anleger ausschliess-
+lich eine öffentlich-rechtliche Körperschaft, eine Vorsorgeeinrichtung mit professioneller Tre-
+sorerie oder eine beaufsichtigte Versicherungseinrichtung ist (Art. 7 Abs. 3 KAG i.V.m. Art.
+10 Abs. 3 KAG und Art. 5 Abs. 4 KKV).
 
-Ertrag von beispielsweise CHF 100
-       Kollektive Kapitalanlage   an   Wertschriftenertrag   CHF 65
-       Verrechnungssteuer   an   Wertschriftenertrag   CHF 35
+In allen anderen Fällen sind für die steuerliche Anerkennung einer kollektiven Kapitalanlage
+mindestens zwei voneinander unabhängige Anlegerinnen und Anleger erforderlich (vgl. Ziff.
+2 hiervor).
 
-Anlegerinnen und Anleger von ausländischen vertraglichen (und damit transparenten) kol-
-lektiven Kapitalanlagen können die Verrechnungssteuer auf Erträgen aus schweizerischen
-Titeln im Fondsvermögen zurückverlangen, sofern sie im Zeitpunkt der Fälligkeit dieser Er-
-träge rückerstattungsberechtigt sind.
+
+6   Inkrafttreten
+Das vorliegende Kreisschreiben tritt mit seiner Publikation in Kraft und ersetzt das Kreis-
+schreiben Nr. 25 vom 5. März 2009.

@@ -4,20 +4,24 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 69"
-seiten: "20"
+titel: "Anhang II Art. 5 Fiktiver Einkauf – Grundsätze und Anspruchsberechtigte (Teil 2/2)"
+ziffer: "Art. 5"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 24
 
-In der Lehre wird allerdings ausgeführt, dass es sich „in der Regel“ um so genannt neue „al-
-te“ Tatsachen handeln müsse (Vallender/Looser, a.a.O., Art. 151 N 7). Diese Formulierung
-lässt darauf schliessen, dass auch neue Tatsachen, die einen bereits abgeschlossenen und
-in der Vergangenheit liegenden Vorgang nachträglich als unzulässig qualifizieren, als Tatsa-
-che anerkannt werden können, welche ein Nachsteuerverfahren rechtfertigen.
+Andererseits ging aus den parlamentarischen Beratungen die Absicht des Gesetzgebers
+hervor, dass der fiktive Einkauf insbesondere jenen gewährt werden soll, die keiner Einrich-
+tung der beruflichen Vorsorge angeschlossen sind. Diese Ungereimtheit ist Anlass dafür, den
+Kreis der Anspruchsberechtigten weiter zu gestalten, als es der Gesetzestext vorgibt. Vorge-
+sehen ist, dass alle selbständig Erwerbenden nach Artikel 1, welche keinen tatsächlichen
+Einkaufsbetrag leisten, die Besteuerung eines fiktiven Einkaufs nach Artikel 8 beantragen
+können. Wer einer Vorsorgeinrichtung angeschlossen ist, muss sich bei der Berechnung des
+fiktiven Einkaufs jedoch alle Vorsorgeguthaben insbesondere auch dieser Vorsorgeeinrich-
+tung anrechnen lassen (siehe Art. 6).
 
-In den letzten Änderungen im DBG hat der Gesetzgeber die Anwendung des Nachsteuerver-
-fahrens jeweils explizit statuiert (vgl. beispielsweise Art. 19 Abs. 2 DBG; Art. 20a Absatz 1
-Bst. b DBG). Daher ist davon auszugehen, dass der Gesetzgeber das Nachsteuerverfahren
-auch in Artikel 37b DBG geregelt hätte, wenn er gewollt hätte, dass ein solches bei der Li-
-quidationsbesteuerung zur Anwendung gelangt.
+Absatz 2
+Bei der Besteuerung nach Artikel 37b DBG handelt es sich um eine Steuerminderung. Die
+dafür notwendigen Grundlagen sind gemäss der allgemeinen Beweisregel durch den Steu-
+erpflichtigen zu dokumentieren und beizubringen.

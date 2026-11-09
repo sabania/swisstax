@@ -4,23 +4,21 @@ quelle: bund-form-da1-2026
 jur: bund
 jahre: [2026]
 typ: formular
-titel: "DA-1 2026 – Abschnitt 5"
+titel: "DA-1 Vergütung auf Konto und Erklärung des Antragstellers"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: formular}}
 ---
-> Bund · Steuerjahr 2026 · DA-1 2026 · S. 2
+> Bund · Steuerjahr 2026 · DA-1 2026 · DA-1 › Vergütung und Erklärung · S. 2
+
+Der Betrag der Anrechnung, falls er nicht oder nicht voll verrechnet wird, ist wie folgt zu vergüten:
+
+    auf mein Postkonto Nr.   auf Bankkonto / IBAN
+
+bei   Postkonto Nr. der Bank
+
 
 Erklärung des Antragstellers
 Der Antragsteller bestätigt die Richtigkeit der in diesem Antrag (Vor- und Rückseite) gemachten Angaben.
 
-Ort und Datum   Unterschrift
 
-Erläuterungen
-1. Dieses Formular DA-1 dient als Antrag auf Anrechnung für die im Jahre 2026 fällig gewordenen Dividenden und Zinsen.
-2. Der Berechtigte hat den Antrag in dem Kanton einzureichen, in dem er am 31. Dezember 2026 seinen Wohnsitz hatte und zwar
-   zusammen mit der Steuererklärung und dem Wertschriftenverzeichnis.
-3. In diesem Ergänzungsblatt sind nur Kapitalanlagen gemäss Anhang zur Verordnung über die Anrechnung ausländischer Quellensteuern
-   https://www.fedlex.admin.ch/eli/cc/2020/29/de#lvl_d4e6/lvl_d4e7 anzugeben, deren Erträge (Dividenden und Zinsen) im Quellenstaat
-   einer begrenzten Steuer unterworfen bleiben. Bitte die Kapitalanlagen nach den Quellenstaaten ordnen und den Staat in
-   Kolonne 3 mit dem unter "Country codes" definierten Alpha-2 Code (Ländercode gemäss internationaler Organisation für Normung,
-   ISO) https://www.iso.org/obp/ui/#searchAbkürzung (Suche in Englisch) bezeichnen.
+Ort und Datum   Unterschrift

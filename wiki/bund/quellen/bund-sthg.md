@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1991/1256_1256_1256/20250101/de> · lokal: [bund-sthg.xml](../../../raw/bund/2025/bund-sthg.xml) · Volltext: [bund-sthg.md](../../../sources/bund/2025/bund-sthg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `52b054e2bfd1aba9…`
 
-## Inhalt (205 Chunks)
+## Inhalt (201 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -30,18 +30,16 @@ generiert: tools/build_index.py
 | [art-6-t2](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-6-t2.md) | Art. 6 StHG – Besteuerung nach dem Aufwand (Teil 2/4) | Art. 6 |  |
 | [art-6-t3](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-6-t3.md) | Art. 6 StHG – Besteuerung nach dem Aufwand (Teil 3/4) | Art. 6 |  |
 | [art-6-t4](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-6-t4.md) | Art. 6 StHG – Besteuerung nach dem Aufwand (Teil 4/4) | Art. 6 |  |
-| [art-7-t1](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t1.md) | Art. 7 StHG – Grundsatz (Teil 1/9) | Art. 7 |  |
-| [art-7-t2](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t2.md) | Art. 7 StHG – Grundsatz (Teil 2/9) | Art. 7 |  |
-| [art-7-t3](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t3.md) | Art. 7 StHG – Grundsatz (Teil 3/9) | Art. 7 |  |
-| [art-7-t4](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t4.md) | Art. 7 StHG – Grundsatz (Teil 4/9) | Art. 7 |  |
-| [art-7-t5](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t5.md) | Art. 7 StHG – Grundsatz (Teil 5/9) | Art. 7 |  |
-| [art-7-t6](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t6.md) | Art. 7 StHG – Grundsatz (Teil 6/9) | Art. 7 |  |
-| [art-7-t7](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t7.md) | Art. 7 StHG – Grundsatz (Teil 7/9) | Art. 7 |  |
-| [art-7-t8](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t8.md) | Art. 7 StHG – Grundsatz (Teil 8/9) | Art. 7 |  |
-| [art-7-t9](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t9.md) | Art. 7 StHG – Grundsatz (Teil 9/9) | Art. 7 |  |
-| [art-7a-t1](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7a-t1.md) | Art. 7a StHG – Besondere Fälle (Teil 1/3) | Art. 7a |  |
-| [art-7a-t2](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7a-t2.md) | Art. 7a StHG – Besondere Fälle (Teil 2/3) | Art. 7a |  |
-| [art-7a-t3](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7a-t3.md) | Art. 7a StHG – Besondere Fälle (Teil 3/3) | Art. 7a |  |
+| [art-7-t1](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t1.md) | Art. 7 StHG – Grundsatz (Teil 1/8) | Art. 7 |  |
+| [art-7-t2](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t2.md) | Art. 7 StHG – Grundsatz (Teil 2/8) | Art. 7 |  |
+| [art-7-t3](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t3.md) | Art. 7 StHG – Grundsatz (Teil 3/8) | Art. 7 |  |
+| [art-7-t4](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t4.md) | Art. 7 StHG – Grundsatz (Teil 4/8) | Art. 7 |  |
+| [art-7-t5](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t5.md) | Art. 7 StHG – Grundsatz (Teil 5/8) | Art. 7 |  |
+| [art-7-t6](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t6.md) | Art. 7 StHG – Grundsatz (Teil 6/8) | Art. 7 |  |
+| [art-7-t7](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t7.md) | Art. 7 StHG – Grundsatz (Teil 7/8) | Art. 7 |  |
+| [art-7-t8](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7-t8.md) | Art. 7 StHG – Grundsatz (Teil 8/8) | Art. 7 |  |
+| [art-7a-t1](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7a-t1.md) | Art. 7a StHG – Besondere Fälle (Teil 1/2) | Art. 7a |  |
+| [art-7a-t2](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7a-t2.md) | Art. 7a StHG – Besondere Fälle (Teil 2/2) | Art. 7a |  |
 | [art-7b-t1](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7b-t1.md) | Art. 7b StHG – Kapitaleinlagenprinzip (Teil 1/3) | Art. 7b |  |
 | [art-7b-t2](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7b-t2.md) | Art. 7b StHG – Kapitaleinlagenprinzip (Teil 2/3) | Art. 7b |  |
 | [art-7b-t3](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-7b-t3.md) | Art. 7b StHG – Kapitaleinlagenprinzip (Teil 3/3) | Art. 7b |  |
@@ -114,10 +112,9 @@ generiert: tools/build_index.py
 | [art-26](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-26.md) | Art. 26 StHG – Gewinn von Vereinen, Stiftungen und kollektiven Kapitalanlagen | Art. 26 |  |
 | [art-26a](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-26a.md) | Art. 26a StHG – Gewinne von juristischen Personen mit ideellen Zwecken | Art. 26a |  |
 | [art-27](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-27.md) | Art. 27 StHG – Allgemeines | Art. 27 |  |
-| [art-28-t1](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-28-t1.md) | Art. 28 StHG – Besondere Fälle (Teil 1/4) | Art. 28 |  |
-| [art-28-t2](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-28-t2.md) | Art. 28 StHG – Besondere Fälle (Teil 2/4) | Art. 28 |  |
-| [art-28-t3](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-28-t3.md) | Art. 28 StHG – Besondere Fälle (Teil 3/4) | Art. 28 |  |
-| [art-28-t4](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-28-t4.md) | Art. 28 StHG – Besondere Fälle (Teil 4/4) | Art. 28 |  |
+| [art-28-t1](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-28-t1.md) | Art. 28 StHG – Besondere Fälle (Teil 1/3) | Art. 28 |  |
+| [art-28-t2](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-28-t2.md) | Art. 28 StHG – Besondere Fälle (Teil 2/3) | Art. 28 |  |
+| [art-28-t3](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-28-t3.md) | Art. 28 StHG – Besondere Fälle (Teil 3/3) | Art. 28 |  |
 | [art-29](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-29.md) | Art. 29 StHG – Steuerobjekt; im Allgemeinen | Art. 29 |  |
 | [art-29a](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-29a.md) | Art. 29a StHG – Steuerobjekt; verdecktes Eigenkapital | Art. 29a |  |
 | [art-30](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-30.md) | Art. 30 StHG – Steuerberechnung | Art. 30 |  |
@@ -147,8 +144,7 @@ generiert: tools/build_index.py
 | [art-42](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-42.md) | Art. 42 StHG – Verfahrenspflichten des Steuerpflichtigen | Art. 42 |  |
 | [art-43](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-43.md) | Art. 43 StHG – Bescheinigungspflicht Dritter | Art. 43 |  |
 | [art-44](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-44.md) | Art. 44 StHG – Auskunftspflicht Dritter | Art. 44 |  |
-| [art-45-t1](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-45-t1.md) | Art. 45 StHG – Meldepflicht Dritter (Teil 1/2) | Art. 45 |  |
-| [art-45-t2](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-45-t2.md) | Art. 45 StHG – Meldepflicht Dritter (Teil 2/2) | Art. 45 |  |
+| [art-45](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-45.md) | Art. 45 StHG – Meldepflicht Dritter | Art. 45 |  |
 | [art-46](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-46.md) | Art. 46 StHG – Veranlagung | Art. 46 |  |
 | [art-47](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-47.md) | Art. 47 StHG – Verjährung | Art. 47 |  |
 | [art-48](../../../chunks/bund/2025/bund-sthg/bund-sthg__art-48.md) | Art. 48 StHG – Einsprache | Art. 48 |  |

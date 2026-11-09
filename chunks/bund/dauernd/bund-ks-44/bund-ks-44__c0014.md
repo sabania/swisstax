@@ -4,23 +4,22 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 14"
-seiten: "4"
+titel: "Ziff. 3.3.2 Siebenfacher Mietzins oder Mietwert (Bst. b)"
+ziffer: "3.3.2"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.3 Mindestwerte › 3.3.2 Art. 14 Abs. 3 Bst. b DBG · S. 5
 
-<!-- Seite 4 -->
-    c. für die übrigen steuerpflichtigen Personen: dem Dreifachen des jährlichen Pensionsprei-
-    ses für Unterkunft und Verpflegung am Ort des Aufenthalts nach Artikel 3 DBG;
-    d. der Summe der Bruttoerträge:
-    1. der Einkünfte aus dem in der Schweiz gelegenen unbeweglichen Vermögen,
-    2. der Einkünfte aus der in der Schweiz gelegenen Fahrnis,
-    3. der Einkünfte aus dem in der Schweiz angelegten beweglichen Kapitalvermögen,
-    einschliesslich der grundpfändlich gesicherten Forderungen,
-    4. der Einkünfte aus den in der Schweiz verwerteten Urheberrechten, Patenten und
-    ähnlichen Rechten,
-    5. der Ruhegehälter, Renten und Pensionen, die aus schweizerischen Quellen fliessen,
-    6. der Einkünfte, für die die steuerpflichtige Person aufgrund eines von der Schweiz ab-
-    geschlossenen Abkommens zur Vermeidung der Doppelbesteuerung gänzlich
-    oder teilweise Entlastung von ausländischen Steuern beansprucht.
+3.3.2   Artikel 14 Absatz 3 Buchstabe b DBG
+Die Summe dieser tatsächlichen jährlichen Aufwendungen beträgt für steuerpflichtige Personen
+mit eigenem Haushalt mindestens das Siebenfache des Mietzinses oder des Mietwerts. Dabei
+ist zu beachten:
+
+Als jährlicher Mietzins gilt die wirkliche, für ein volles Jahr bezahlte Miete ohne Heizungskosten.
+Steht die gemietete Wohnung oder das gemietete Haus im Eigentum einer der steuerpflichtigen
+Person nahestehenden natürlichen oder juristischen Person, so ist der Betrag in Anrechnung zu
+bringen, den ein unabhängiger Dritter bezahlen müsste. Hat die steuerpflichtige Person in der
+Schweiz mehrere Liegenschaften zu ihrer Verfügung, so ist dieser Berechnung der höchste
+Mietzins bzw. Mietwert zugrunde zu legen. Zur Festsetzung des Lebensaufwandes sind auch
+die Mietzinsen bzw. die Mietwerte der übrigen Liegenschaften zu berücksichtigen.

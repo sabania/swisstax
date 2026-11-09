@@ -4,19 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 13"
-seiten: "3"
+titel: "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Dreimonatsgrenze und Rechtsfolge (Teil 2/2)"
+ziffer: "2.2.3"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.2 Schuldner der steuerbaren Leistung · S. 7
 
-<!-- Seite 3 -->
-9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell ........................................ 59
-9.3.2 Quellensteuerablieferung bei Kantonen mit Monatsmodell ......................................... 60
-9.3.3 Quellensteuerabrechnung bei Kantonen mit Jahresmodell ......................................... 60
-9.3.4 Quellensteuerablieferung bei Kantonen mit Jahresmodell .......................................... 60
-9.4   Abrechnungskorrekturen ......................................................................................... 60
-9.5   Anspruchsberechtigter Kanton ............................................................................... 61
-9.6   Verletzung von Verfahrenspflichten ........................................................................ 62
-10   Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers ..................... 63
-10.1 Rechte des quellensteuerpflichtigen Arbeitnehmers ............................................. 63
+prüft. Steht von Anfang an fest, dass die Entsendung mehr als drei Monate dauert, besteht
+die Quellensteuerpflicht in der Schweiz ab dem ersten Arbeitstag. Wird eine Entsendung von
+weniger als drei Monaten vereinbart und ergibt sich erst nachträglich eine Verlängerung auf
+mehr als drei Monate, beginnt auch hier die Quellensteuerpflicht rückwirkend ab dem 1. Ar-
+beitstag in der Schweiz. Hierbei ist nicht auf die in der Schweiz erbrachten Arbeitstage abzu-
+stellen, sondern auf die vereinbarte Entsendedauer.
+Wird ein Arbeitnehmer von einem ausländischen Arbeitgeber in die Schweiz entsandt, ist so-
+mit bei Vorliegen einer faktischen Arbeitgeberschaft – und dies trotz allfällig fortgeführter
+Lohnzahlung aus dem Ausland – eine Quellensteuerpflicht in der Schweiz gegeben (vgl.
+Art. 4 Abs. 2 Bst. b QStV) und der faktische Arbeitgeber mit Sitz in der Schweiz qualifiziert
+als Schuldner der steuerbaren Leistung.

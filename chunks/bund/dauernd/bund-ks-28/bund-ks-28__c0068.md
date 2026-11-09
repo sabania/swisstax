@@ -4,18 +4,24 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 68"
-seiten: "20"
+titel: "Anhang II Art. 5 Fiktiver Einkauf – Grundsätze und Anspruchsberechtigte (Teil 1/2)"
+ziffer: "Art. 5"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 24
 
-<!-- Seite 20 -->
-Zeitpunkt der Veranlagung vorhanden waren, der Steuerbehörde jedoch erst im Nachhinein
-bekannt wurden (vgl. Klaus A. Vallender/Martin E. Looser, in: Martin Zweifel/Peter Athanas
-[Hrsg.], Kommentar zum Schweizerischen Steuerrecht, Bd. I/2b, Art. 151 DBG N 1 und 7).
-Bei der Beantwortung der Frage, ob neue Tatsachen oder Beweismittel schon im Zeitpunkt
-der Veranlagung vorlagen, ist der Aktenstand in diesem Zeitpunkt massgeblich (BGE
-2C.21/2008 vom 10. Juni 2008 E. 2.1; 2A.502/2005 vom 2. Februar 2006 E. 2, in: StR
-61/2006 442, S. 444 mit Hinweis). Solche „neuen“ Tatsachen bestehen in diesen Fällen
-nicht, weshalb ein Nachsteuerverfahren nach Artikel 151 DBG nicht möglich ist.
+2.3   Fiktiver Einkauf
+Artikel 5   Grundsätze
+
+Absatz 1
+Im Rahmen der parlamentarischen Beratungen wurde die Meinung vertreten, dass der fiktive
+Einkauf (nach Art. 6) nur jenen gewährt werden soll, die keiner zweiten Säule angeschlossen
+sind. Wie bereits unter Ziffer 1.3 ausgeführt, kann ein Einkaufsbedarf nur berechnet werden,
+wenn ein Anschluss an einen Vorsorgeplan der zweiten Säule vorhanden ist. Die Zulässig-
+keit eines Einkaufs können somit nur jene Personen nachweisen, die einer Einrichtung der
+beruflichen Vorsorge angeschlossen sind. Wird der Gesetzestext nach dem Wortlaut so eng
+ausgelegt, müsste man daher zum Schluss kommen, dass nur jenen selbständig erwerbstä-
+tigen Personen ein fiktiver Einkauf zusteht, welche bereits einer Einrichtung der beruflichen
+Vorsorge angeschlossen sind, da nur sie eine „Zulässigkeit eines Einkaufs“ nachweisen
+können.

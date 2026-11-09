@@ -4,31 +4,28 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 96"
-seiten: "24"
+titel: "Ziff. 6.7 Beispiel 2 – Lohn mit Bonus Vorjahr, Ausscheidung"
+ziffer: "6.7"
+seiten: "31"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 24
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.7 Ausscheidung ausländischer Arbeitstage · S. 31
 
-    6. Zwei Arbeitsverhältnisse beim gleichen Schuldner der steuerbaren Leistung in der Schweiz:
-    Der Arbeitnehmer S. ist bei der A. AG, Aarau, zu 80 % als Sachbearbeiter und zu 20 % als Hauswart an-
-    gestellt. Das satzbestimmende Einkommen wird durch Addition der beiden Bruttolöhne ermittelt. S. erzielt
-    folgende Lohneinkommen:
+    2. Arbeitnehmer B. ist internationaler Wochenaufenthalter und erhält im April 2021 einen Bruttolohn in der
+    Höhe von CHF 10 000.00 sowie einen Bonus für das Vorjahr in der Höhe von CHF 30 000.00. Im Monat
+    April hat er an 4 Tagen in Grossbritannien gearbeitet. Im Vorjahr hat Arbeitnehmer B. an insgesamt 200
+    von Total 240 Arbeitstagen in der Schweiz gearbeitet.
 
-    Tätigkeiten   Pensum   Bruttolohn   satzbestimmend
+    Berechnung steuerbarer Bruttolohn April 2021:
+    Total an Arbeitstagen:   20 Tage
+    Arbeitstage Schweiz:   20 Tage – 4 Tage = 16 Tage
+    Massgebendes Ausscheidungsverhältnis:   16 CH-Arbeitstage zum Total von 20 Arbeitstagen
+    Steuerbares Einkommen:   CHF 10 000.00 / 20 x 16 = CHF 8 000.00
 
-    Sachbearbeiter   80 %   4 400   5 300
-
-    Hauswart   20 %   900   5 300
-
-    7. Ein Arbeitsverhältnis in der Schweiz und ein Arbeitsverhältnis im Ausland (Gesamtpensum 70 %):
-    Der Arbeitnehmer Z. ist bei der R. AG, Bern (= Arbeitsort), und bei der H. AG, Stuttgart (= Arbeitsort), an-
-    gestellt. Das Arbeitspensum beim ausländischen Arbeitgeber ist der R. AG, Bern, bekannt. Z. erzielt fol-
-    gende Lohneinkommen:
-
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    R. AG (CH)   50 %   4 500   6 300
-
-    H. AG (D) 1   20 %   n.a.   n.a.
-    1 Steuerpflichtig in Deutschland
+    Berechnung steuerbarer Bonus Vorjahr:
+    Total Arbeitstage Vorjahr:   240 Tage
+    Arbeitstage Schweiz Vorjahr:   240 Tage – 40 Tage = 200 Tage
+    Massgebendes Ausscheidungsverhältnis:   200 CH-Arbeitstage zum Total von 240 Arbeitstagen
+    Steuerbares Einkommen:   CHF 30 000.00 / 240 x 200 = CHF 25 000.00
+    Total steuerbar April 2021:   CHF 33 000.00 (CHF 8 000 + CHF 25 000)
+    Satzbestimmendes Einkommen April 2021:   CHF 40 000.00 (CHF 10 000 + CHF 30 000)

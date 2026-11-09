@@ -4,19 +4,23 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 13"
-seiten: "4"
+titel: "Ziff. II.2.3 a) Rückzahlungsfrist und Einkauf bei Vorsorgelücken (Art. 60d BVV 2)"
+ziffer: "II.2.3 a"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 2 Steuerliche Auswirkungen › 2.3 Einkauf von Beitragsjahren · S. 6
 
-Für die Rückerstattung der Steuern ist ein schriftliches Gesuch an diejenige Steuerbehörde
-zu richten, die seinerzeit den Steuerbetrag erhoben hat. Dem Gesuch ist je eine Bescheini-
-gung beizulegen über:
-    -   die Rückzahlung, wobei die Vorsorgeeinrichtung hiefür das offizielle Formular der
-    ESTV (Formular WEF) zu verwenden hat (Art. 7 Abs. 3 WEFV); die ESTV stellt dem
-    Steuerpflichtigen eine Kopie dieser Bescheinigung für die Rückforderung zu;
-    -   das im Wohneigentum investierte Vorsorgekapital (gestützt auf einen Registerauszug
-    der ESTV);
-    -   den an Bund, Kanton und Gemeinde entrichteten Steuerbetrag (Art. 14 Abs. 3
-    WEFV).
+Gemäss Artikel 30d Absatz 3 Buchstabe a BVG ist eine WEF-Rückzahlung bis drei Jahre
+vor Entstehung des Anspruchs auf Altersleistungen zulässig. Es handelt sich hierbei um eine
+relativ zwingende Bestimmung, welche die Vorsorgeeinrichtungen zu Gunsten der versicher-
+ten Personen verkürzen oder ganz aufheben können. Dies unter der Bedingung, dass sie
+bezüglich Erfüllung ihrer nach Artikel 65 Absatz 1 BVG übernommenen Pflichten jederzeit
+    4
+Sicherheit bieten. Personen, die gestützt auf eine solche reglementarische Bestimmung
+ihren WEF-Vorbezug nicht mehr zurückzahlen können, sollen nach Artikel 60d der Verord-
+nung über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge (BVV 2; SR
+831.441.1) trotzdem noch die Möglichkeit haben, Lücken in ihrer Vorsorge zu schliessen.
+Reglementarisch vorgesehene freiwillige Einkäufe sind im Umfang der übrigen Vorsorge
+lücken möglich. In diesen Fällen gilt die Beschränkung des Einkaufs nach Artikel 79b
+Absatz 3 Satz 1 BVG.

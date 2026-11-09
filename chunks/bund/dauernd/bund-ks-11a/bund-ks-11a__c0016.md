@@ -4,20 +4,23 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 16"
-seiten: "4"
+titel: "Ziff. 4.1 Person mit Behinderung – Definition"
+ziffer: "4.1"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.1 Person mit Behinderung · S. 6
 
-3.2.2   Kosten für Heilbehandlungen
-Die Kosten besonderer Heilbehandlungen wie beispielsweise Massagen, Bestrahlungen, Heil
-bäder, Physio-therapie, Ergotherapie, Ernährungsberatung und Ernährungstherapie, Logopä
-die, Psychotherapie gelten als abzugsfähig, sofern sie ärztlich verordnet sind und von diplomier
-ten Personen durchgeführt werden.
-Eine ärztliche Verordnung im Sinne der Praxis setzt eine vorgängige konkrete Anordnung einer
-Ärztin oder eines Arztes zur Initiierung einer bestimmten Heilmassnahme voraus (vgl. Urteil des
-Bundesgerichts 2C_103/2009 vom 10. Juli 2009 E. 3.1). Eine allgemeine, zeitlich unbe
-schränkte Empfehlung wird dabei nach der bundesgerichtlichen Rechtsprechung nicht als ärztli
-che Verordnung einer Heilmassnahme qualifiziert (vgl. Urteil des Bundesgerichts 2C_258/2010
-vom 23. Mai 2011 E. 4.4.2).
+4   Behinderungsbedingte Kosten
+
+4.1   Person mit Behinderung
+Ein Mensch mit Behinderung ist eine Person, der eine voraussichtlich dauernde körperliche,
+geistige oder psychische Beeinträchtigung es erschwert oder verunmöglicht, alltägliche Verrich
+tungen vorzunehmen, soziale Kontakte zu pflegen, sich fortzubewegen, sich aus- und weiterzu
+bilden oder eine Erwerbstätigkeit auszuüben (vgl. hierzu auch Art. 2 Abs. 1 BehiG und Ziff. 2
+hiervor). Die Beeinträchtigung ist dauernd, wenn sie bereits während mindestens eines Jahres
+die Ausübung der genannten Tätigkeiten verunmöglicht oder erschwert hat oder voraussichtlich
+während mindestens eines Jahres verunmöglichen oder erschweren wird. Die Einschränkung
+der alltäglichen Verrichtungen, des sozialen Lebens, der Aus- und Weiterbildung oder der Er
+werbstätigkeit muss ihre Ursache in der körperlichen, geistigen oder psychischen Beeinträchti
+gung haben (kausaler Zusammenhang).

@@ -1,416 +1,616 @@
 [
 {
 "id": "bund-ks-22a__c0001",
-"titel": "KS 22a – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Gegenstand – Teilbesteuerung (Unternehmenssteuerreformgesetz II / STAF)",
+"pfad": [
+"1 Gegenstand"
+],
+"seiten": [
+2
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Teilbesteuerung",
+"70 Prozent",
+"Beteiligung",
+"Dividende",
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen",
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Art. 20 Abs. 1bis DBG (UStR II) führte die Teilbesteuerung ein; die STAF hob den Umfang auf 70 Prozent an.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-22a__c0002"
 },
 {
 "id": "bund-ks-22a__c0002",
-"titel": "KS 22a – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Gegenstand – Wortlaut Art. 20 Abs. 1bis DBG und Schuldzinsen Art. 33 DBG",
+"pfad": [
+"1 Gegenstand"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Teilbesteuerung",
+"70 Prozent",
+"Beteiligung",
+"Dividende",
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen",
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Teilbesteuerung zu 70 Prozent bei Beteiligung von mindestens 10 % des Grund- oder Stammkapitals; private Schuldzinsen im Umfang des Ertrags und weiterer 50'000 Franken, Geschäftsschuldzinsen voll.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0001",
 "nachher": "bund-ks-22a__c0003"
 },
 {
 "id": "bund-ks-22a__c0003",
-"titel": "KS 22a – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2.1 Subjektive Voraussetzungen der Teilbesteuerung",
+"pfad": [
+"2 Teilbesteuerung",
+"2.1"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1",
+"stichworte": [
+"Teilbesteuerung",
+"70 Prozent",
+"Beteiligung",
+"Dividende",
+"natürliche Personen"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen"
+],
+"zusammenfassung": "Teilbesteuerung steht natürlichen Personen zu, die in der Schweiz persönlich oder wirtschaftlich zugehörig steuerpflichtig sind.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0002",
 "nachher": "bund-ks-22a__c0004"
 },
 {
 "id": "bund-ks-22a__c0004",
-"titel": "KS 22a – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2.2.1 Beteiligungsrechte – was gilt und was nicht (Aktien, GmbH, PS; nicht Genussscheine, SICAV)",
+"pfad": [
+"2 Teilbesteuerung",
+"2.2 Objektive Voraussetzungen",
+"2.2.1"
+],
 "seiten": [
-1
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2.1",
+"stichworte": [
+"Teilbesteuerung",
+"70 Prozent",
+"Beteiligung",
+"Dividende",
+"Aktien",
+"GmbH Stammanteile",
+"Partizipationsschein",
+"Genussschein",
+"SICAV"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen"
+],
+"zusammenfassung": "Beteiligungsrechte: Aktien, GmbH-Stammanteile, Genossenschaftsanteile, Partizipationsscheine, SICAF-Anteile; keine bei Genussscheinen, Obligationen, Darlehen, hybriden Instrumenten, SICAV.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0003",
 "nachher": "bund-ks-22a__c0005"
 },
 {
 "id": "bund-ks-22a__c0005",
-"titel": "KS 22a – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2.2.2 Erforderliches Ausmass der Beteiligung – mindestens 10 % und Zusammenrechnung",
+"pfad": [
+"2 Teilbesteuerung",
+"2.2 Objektive Voraussetzungen",
+"2.2.2"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2.2",
+"stichworte": [
+"Teilbesteuerung",
+"70 Prozent",
+"Beteiligung",
+"Dividende",
+"Beteiligungsquote 10 %",
+"Zusammenrechnung Ehegatten",
+"Erbengemeinschaft"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen"
+],
+"zusammenfassung": "Mindestens 10 Prozent am Grund- oder Stammkapital; Beteiligungen von gemeinsam veranlagten Ehegatten und Kindern werden zusammengerechnet, bei Erbengemeinschaften und indirekten Beteiligungen nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0004",
 "nachher": "bund-ks-22a__c0006"
 },
 {
 "id": "bund-ks-22a__c0006",
-"titel": "KS 22a – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 2.2.2 Zusammenrechnung privater/geschäftlicher Beteiligungen; Zeitpunkt der Quote",
+"pfad": [
+"2 Teilbesteuerung",
+"2.2 Objektive Voraussetzungen",
+"2.2.2"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2.2",
+"stichworte": [
+"Teilbesteuerung",
+"70 Prozent",
+"Beteiligung",
+"Dividende",
+"Beteiligungsquote 10 %",
+"Zusammenrechnung Ehegatten",
+"Erbengemeinschaft"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen"
+],
+"zusammenfassung": "Private und geschäftliche Beteiligungen werden für die Quote zusammengerechnet, nicht jedoch die Erträge; die Quote muss bei Realisation (Fälligkeit der Dividende) erfüllt sein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0005",
 "nachher": "bund-ks-22a__c0007"
 },
 {
 "id": "bund-ks-22a__c0007",
-"titel": "KS 22a – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Einkünfte aus Beteiligungen – teilbesteuerte Erträge",
+"pfad": [
+"2 Teilbesteuerung",
+"2.2 Objektive Voraussetzungen",
+"2.2.3"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2.3",
+"stichworte": [
+"Teilbesteuerung",
+"70 Prozent",
+"Beteiligung",
+"Dividende",
+"Gratisaktien",
+"verdeckte Gewinnausschüttung",
+"Liquidationsüberschuss"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen"
+],
+"zusammenfassung": "Teilbesteuert werden ordentliche und ausserordentliche Gewinnausschüttungen, Gratisaktien, Gratisnennwerterhöhungen und verdeckte Gewinnausschüttungen bei erfolgter Aufrechnung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0006",
 "nachher": "bund-ks-22a__c0008"
 },
 {
 "id": "bund-ks-22a__c0008",
-"titel": "KS 22a – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Verdeckte Gewinnausschüttungen – Teilbesteuerung bei Aufrechnung",
+"pfad": [
+"2 Teilbesteuerung",
+"2.2 Objektive Voraussetzungen",
+"2.2.3"
+],
 "seiten": [
-2
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2.3",
+"stichworte": [
+"Teilbesteuerung",
+"70 Prozent",
+"Beteiligung",
+"Dividende",
+"Gratisaktien",
+"verdeckte Gewinnausschüttung",
+"Liquidationsüberschuss"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen"
+],
+"zusammenfassung": "Verdeckte Gewinnausschüttungen werden teilbesteuert, sofern bei der leistenden Gesellschaft eine Gewinnaufrechnung erfolgt ist; bei ausländischen Gesellschaften unter Bedingungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0007",
 "nachher": "bund-ks-22a__c0009"
 },
 {
 "id": "bund-ks-22a__c0009",
-"titel": "KS 22a – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 2.2.3 Keine Einkünfte aus Beteiligungsrechten; Ziff. 2.3 Umqualifikation in Erwerbseinkommen",
+"pfad": [
+"2 Teilbesteuerung",
+"2.2.3 / 2.3"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2.3 / 2.3",
+"stichworte": [
+"Teilbesteuerung",
+"70 Prozent",
+"Beteiligung",
+"Dividende",
+"Securities Lending",
+"Umqualifikation",
+"AHV Erwerbseinkommen"
+],
+"positionen": [
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen"
+],
+"zusammenfassung": "Nicht teilbesteuert sind geschäftsmässig begründeter Aufwand der Gesellschaft und Securities-Lending-Zahlungen; Umqualifikation in Erwerbseinkommen nur bei Korrektur beider Veranlagungen im offenen Verfahren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0008",
 "nachher": "bund-ks-22a__c0010"
 },
 {
 "id": "bund-ks-22a__c0010",
-"titel": "KS 22a – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 3.1 Maximal zulässiger Schuldzinsenabzug – Grundbetrag 50'000 Franken",
+"pfad": [
+"3 Beschränkung des Schuldzinsenabzugs",
+"3.1"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Bruttoertrag",
+"Hypothekarzins",
+"Privatvermögen"
+],
+"positionen": [
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Maximaler Abzug = steuerbare Erträge aus Privatvermögen plus Grundbetrag von 50'000 Franken (Ehepaare und Kinder gesamthaft); ohne Erträge bis 50'000 Franken abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0009",
 "nachher": "bund-ks-22a__c0011"
 },
 {
 "id": "bund-ks-22a__c0011",
-"titel": "KS 22a – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 3.1 Bruttoerträge – bewegliches und unbewegliches Vermögen, Teilbesteuerung nur zu 70 %",
+"pfad": [
+"3 Beschränkung des Schuldzinsenabzugs",
+"3.1"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Bruttoertrag",
+"Nebenkosten",
+"Liegenschaftsertrag",
+"Vermögensverwaltungskosten"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Erträge werden brutto vor Gewinnungskosten bemessen; teilbesteuerte Beteiligungserträge zählen nur zu 70 %; Nebenkosten im Mietzins sind abzuziehen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0010",
 "nachher": "bund-ks-22a__c0012"
 },
 {
 "id": "bund-ks-22a__c0012",
-"titel": "KS 22a – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 3.1 Bruttoertrag aus unbeweglichem Vermögen – Unterhaltskosten kürzen Grenze nicht",
+"pfad": [
+"3 Beschränkung des Schuldzinsenabzugs",
+"3.1"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Bruttoertrag",
+"Nebenkosten",
+"Liegenschaftsertrag",
+"Vermögensverwaltungskosten"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"einkommen.beteiligungen_qualifiziert"
+],
+"zusammenfassung": "Erträge aus Liegenschaften bemessen sich brutto vor Gewinnungskosten; Liegenschaftsunterhaltskosten kürzen den maximalen Schuldzinsenabzug nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0011",
 "nachher": "bund-ks-22a__c0013"
 },
 {
 "id": "bund-ks-22a__c0013",
-"titel": "KS 22a – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 3.1 Teilweise Steuerpflicht, Auslandliegenschaften, aperiodische Erträge",
+"pfad": [
+"3 Beschränkung des Schuldzinsenabzugs",
+"3.1"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Auslandliegenschaft",
+"internationale Ausscheidung",
+"Einmalprämie"
+],
+"positionen": [
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Bei teilweiser Steuerpflicht gilt die Beschränkung für steuerbares und satzbestimmendes Einkommen; aperiodische Erträge fallen im Fälligkeitsjahr voll in die Berechnung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0012",
 "nachher": "bund-ks-22a__c0014"
 },
 {
 "id": "bund-ks-22a__c0014",
-"titel": "KS 22a – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 3.2 Abgrenzung private und geschäftliche Schuldzinsen",
+"pfad": [
+"3 Beschränkung des Schuldzinsenabzugs",
+"3.2"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"geschäftliche Schuldzinsen",
+"proportionale Aufteilung",
+"Mittelverwendung"
+],
+"positionen": [
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Abgrenzung nach nachgewiesener Mittelverwendung, sonst proportional nach Verkehrswerten der Aktiven.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0013",
 "nachher": "bund-ks-22a__c0015"
 },
 {
 "id": "bund-ks-22a__c0015",
-"titel": "KS 22a – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 3.3 Kosten ohne Schuldzinscharakter – Leasing, Baurechtszins, Baukreditzinsen",
+"pfad": [
+"3 Beschränkung des Schuldzinsenabzugs",
+"3.3"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.3",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Leasing",
+"Baurechtszins",
+"Baukreditzinsen"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Nicht als Schuldzinsen abziehbar: Leasingraten für private Güter, Baurechtszinsen für Eigenheim, Baukreditzinsen bis Bezugsbereitschaft.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0014",
 "nachher": "bund-ks-22a__c0016"
 },
 {
 "id": "bund-ks-22a__c0016",
-"titel": "KS 22a – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 3.3 Fremdfinanzierte Kapitalversicherungen und Darlehen von Gesellschaften an Beteiligte",
+"pfad": [
+"3 Beschränkung des Schuldzinsenabzugs",
+"3.3"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.3",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Steuerumgehung",
+"Kapitalversicherung Einmalprämie",
+"Aktionärsdarlehen"
+],
+"positionen": [
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Zinsen auf fremdfinanzierte Einmalprämien-Versicherungen bei Steuerumgehung und übersetzte Zinsen auf Gesellschaftsdarlehen sind nicht abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0015",
 "nachher": "bund-ks-22a__c0017"
 },
 {
 "id": "bund-ks-22a__c0017",
-"titel": "KS 22a – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 4 Inkrafttreten – ab 1. Januar 2020",
+"pfad": [
+"4 Inkrafttreten"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4",
+"stichworte": [
+"Inkrafttreten",
+"Steuerperiode 2020",
+"KS 22"
+],
+"positionen": [],
+"zusammenfassung": "Das Kreisschreiben gilt per 1. Januar 2020 ab Steuerperiode 2020; für Sachverhalte bis 31. Dezember 2019 gilt das KS Nr. 22.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0016",
 "nachher": "bund-ks-22a__c0018"
 },
 {
 "id": "bund-ks-22a__c0018",
-"titel": "KS 22a – Abschnitt 18",
-"pfad": [],
+"titel": "Anhang Beispiel 1 – Negative Liegenschaftsrechnung: maximaler Schuldzinsenabzug 140'000",
+"pfad": [
+"Anhang Beispiele",
+"Beispiel 1"
+],
 "seiten": [
-5
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Bsp. 1",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Beispiel",
+"negative Liegenschaftsrechnung"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"einkommen.liegenschaften.mietertrag"
+],
+"zusammenfassung": "Liegenschaftsbruttoertrag 90'000 plus Grundbetrag 50'000 ergibt maximalen Abzug 140'000; die Schuldzinsen von 60'000 werden voll abgezogen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0017",
 "nachher": "bund-ks-22a__c0019"
 },
 {
 "id": "bund-ks-22a__c0019",
-"titel": "KS 22a – Abschnitt 19",
-"pfad": [],
+"titel": "Anhang Beispiel 2 – Schuldzinsenabzug bei teilweiser Steuerpflicht (Auslandgrundstücke)",
+"pfad": [
+"Anhang Beispiele",
+"Beispiel 2"
+],
 "seiten": [
-5
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Bsp. 2",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Beispiel",
+"Auslandliegenschaft",
+"satzbestimmendes Einkommen"
+],
+"positionen": [
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Maximal abzugsfähig sind Liegenschaftsertrag 800 plus Grundbetrag 50 (in 1'000), verteilt nach Lage der Aktiven; Reineinkommen satzbestimmend 650.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0018",
 "nachher": "bund-ks-22a__c0020"
 },
 {
 "id": "bund-ks-22a__c0020",
-"titel": "KS 22a – Abschnitt 20",
-"pfad": [],
+"titel": "Anhang Beispiel 3 – Obligation mit überwiegender Einmalverzinsung",
+"pfad": [
+"Anhang Beispiele",
+"Beispiel 3"
+],
 "seiten": [
-5
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Bsp. 3",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Beispiel",
+"Einmalverzinsung",
+"Zerobond"
+],
+"positionen": [
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Maximaler Schuldzinsenabzug 2001-2009: 50'000; im Jahr 2010: 1'050'000 (Einmalverzinsung 1'000'000 plus Grundbetrag 50'000).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0019",
 "nachher": "bund-ks-22a__c0021"
 },
 {
 "id": "bund-ks-22a__c0021",
-"titel": "KS 22a – Abschnitt 21",
-"pfad": [],
+"titel": "Anhang Beispiel 4 – Abgrenzung private/geschäftliche Schuldzinsen ohne Nachweis",
+"pfad": [
+"Anhang Beispiele",
+"Beispiel 4"
+],
 "seiten": [
-5
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "Bsp. 4",
+"stichworte": [
+"Schuldzinsenabzug",
+"Schuldzinsen",
+"50000 Grundbetrag",
+"Beispiel",
+"proportionale Aufteilung",
+"gewillkürtes Geschäftsvermögen"
+],
+"positionen": [
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Von Schuldzinsen 400'000 entfallen 80 % (320'000) auf die Beteiligung im Geschäftsvermögen und 20 % (80'000) auf das Privatvermögen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-22a__c0020",
-"nachher": "bund-ks-22a__c0022"
-},
-{
-"id": "bund-ks-22a__c0022",
-"titel": "KS 22a – Abschnitt 22",
-"pfad": [],
-"seiten": [
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-22a__c0021",
-"nachher": "bund-ks-22a__c0023"
-},
-{
-"id": "bund-ks-22a__c0023",
-"titel": "KS 22a – Abschnitt 23",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-22a__c0022",
-"nachher": "bund-ks-22a__c0024"
-},
-{
-"id": "bund-ks-22a__c0024",
-"titel": "KS 22a – Abschnitt 24",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-22a__c0023",
-"nachher": "bund-ks-22a__c0025"
-},
-{
-"id": "bund-ks-22a__c0025",
-"titel": "KS 22a – Abschnitt 25",
-"pfad": [],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-22a__c0024",
-"nachher": "bund-ks-22a__c0026"
-},
-{
-"id": "bund-ks-22a__c0026",
-"titel": "KS 22a – Abschnitt 26",
-"pfad": [],
-"seiten": [
-8
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-22a__c0025",
 "nachher": null
 }
 ]

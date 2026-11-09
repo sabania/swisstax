@@ -712,7 +712,7 @@
 },
 {
 "id": "bund-ks-30__c0027",
-"titel": "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 1/3)",
+"titel": "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 1/2)",
 "pfad": [
 "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
 ],
@@ -741,7 +741,7 @@
 },
 {
 "id": "bund-ks-30__c0028",
-"titel": "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 2/3)",
+"titel": "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 2/2)",
 "pfad": [
 "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
 ],
@@ -770,36 +770,7 @@
 },
 {
 "id": "bund-ks-30__c0029",
-"titel": "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 3/3)",
-"pfad": [
-"7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
-],
-"seiten": [
-11,
-12
-],
-"artikel": null,
-"ziffer": "7",
-"stichworte": [
-"Versicherungsabzug",
-"Krankenkassenprämien",
-"Sparzinsen",
-"Prämienabzug",
-"ohne 2. Säule",
-"ohne Säule 3a",
-"Rentner"
-],
-"positionen": [
-"abzug.versicherungspraemien"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0028",
-"nachher": "bund-ks-30__c0030"
-},
-{
-"id": "bund-ks-30__c0030",
-"titel": "Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 1/3)",
+"titel": "Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 1/2)",
 "pfad": [
 "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
 ],
@@ -821,65 +792,38 @@
 ],
 "zusammenfassung": "Der Versicherungsabzug für das Kind ist an den Kinderabzug gekoppelt: bei gemeinsamer Sorge ohne Unterhaltsbeiträge je der halbe Abzug, bei volljährigem Kind in Ausbildung der unterhaltsleistende Elternteil.",
 "chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-30__c0028",
+"nachher": "bund-ks-30__c0030"
+},
+{
+"id": "bund-ks-30__c0030",
+"titel": "Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 2/2)",
+"pfad": [
+"7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
+],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": "7",
+"stichworte": [
+"Versicherungsabzug Kind",
+"Kopplung Kinderabzug",
+"getrennte Eltern",
+"volljähriges Kind",
+"halber Abzug"
+],
+"positionen": [
+"abzug.versicherungspraemien",
+"sozialabzug.kinder"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-30__c0029",
 "nachher": "bund-ks-30__c0031"
 },
 {
 "id": "bund-ks-30__c0031",
-"titel": "Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 2/3)",
-"pfad": [
-"7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
-],
-"seiten": [
-12
-],
-"artikel": null,
-"ziffer": "7",
-"stichworte": [
-"Versicherungsabzug Kind",
-"Kopplung Kinderabzug",
-"getrennte Eltern",
-"volljähriges Kind",
-"halber Abzug"
-],
-"positionen": [
-"abzug.versicherungspraemien",
-"sozialabzug.kinder"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0030",
-"nachher": "bund-ks-30__c0032"
-},
-{
-"id": "bund-ks-30__c0032",
-"titel": "Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 3/3)",
-"pfad": [
-"7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
-],
-"seiten": [
-12
-],
-"artikel": null,
-"ziffer": "7",
-"stichworte": [
-"Versicherungsabzug Kind",
-"Kopplung Kinderabzug",
-"getrennte Eltern",
-"volljähriges Kind",
-"halber Abzug"
-],
-"positionen": [
-"abzug.versicherungspraemien",
-"sozialabzug.kinder"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0031",
-"nachher": "bund-ks-30__c0033"
-},
-{
-"id": "bund-ks-30__c0033",
 "titel": "Ziff. 7 Prämienverbilligung mindert den Versicherungsabzug",
 "pfad": [
 "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
@@ -901,11 +845,11 @@
 ],
 "zusammenfassung": "Erhaltene Prämienverbilligungen nach Art. 65 ff. KVG sind aufwandmindernd zu berücksichtigen; abziehbar sind nur die tatsächlich selbst getragenen Prämien.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0032",
-"nachher": "bund-ks-30__c0034"
+"vorher": "bund-ks-30__c0030",
+"nachher": "bund-ks-30__c0032"
 },
 {
-"id": "bund-ks-30__c0034",
+"id": "bund-ks-30__c0032",
 "titel": "Ziff. 8.1 Kinderdrittbetreuungskostenabzug – Allgemeines",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -929,11 +873,11 @@
 ],
 "zusammenfassung": "Seit Steuerjahr 2011 ist bei der direkten Bundessteuer ein Abzug für Kinderdrittbetreuungskosten möglich, als anorganischer Abzug auf einen Maximalbetrag pro Kind und Jahr beschränkt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0033",
-"nachher": "bund-ks-30__c0035"
+"vorher": "bund-ks-30__c0031",
+"nachher": "bund-ks-30__c0033"
 },
 {
-"id": "bund-ks-30__c0035",
+"id": "bund-ks-30__c0033",
 "titel": "Ziff. 8.2 Kinder, für die der Drittbetreuungsabzug möglich ist (bis 14. Altersjahr) (Teil 1/2)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -958,11 +902,11 @@
 ],
 "zusammenfassung": "Abzug nur für Kinder, die das 14. Altersjahr noch nicht vollendet haben, und nur für Steuerpflichtige im gleichen Haushalt, die für den Unterhalt sorgen; auch für Stief- und Pflegekinder.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0034",
-"nachher": "bund-ks-30__c0036"
+"vorher": "bund-ks-30__c0032",
+"nachher": "bund-ks-30__c0034"
 },
 {
-"id": "bund-ks-30__c0036",
+"id": "bund-ks-30__c0034",
 "titel": "Ziff. 8.2 Kinder, für die der Drittbetreuungsabzug möglich ist (bis 14. Altersjahr) (Teil 2/2)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -987,11 +931,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0035",
-"nachher": "bund-ks-30__c0037"
+"vorher": "bund-ks-30__c0033",
+"nachher": "bund-ks-30__c0035"
 },
 {
-"id": "bund-ks-30__c0037",
+"id": "bund-ks-30__c0035",
 "titel": "Ziff. 8.3 Erwerbstätigkeit und Ausbildung als Voraussetzung (Teil 1/2)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1015,11 +959,11 @@
 ],
 "zusammenfassung": "Abzug nur, wenn die Eigenbetreuung wegen Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit mit Betreuungsunfähigkeit nicht möglich war; Kurse zur Wiedereingliederung gelten als Erwerbstätigkeit, Freizeitkurse nicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0036",
-"nachher": "bund-ks-30__c0038"
+"vorher": "bund-ks-30__c0034",
+"nachher": "bund-ks-30__c0036"
 },
 {
-"id": "bund-ks-30__c0038",
+"id": "bund-ks-30__c0036",
 "titel": "Ziff. 8.3 Erwerbstätigkeit und Ausbildung als Voraussetzung (Teil 2/2)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1043,11 +987,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0037",
-"nachher": "bund-ks-30__c0039"
+"vorher": "bund-ks-30__c0035",
+"nachher": "bund-ks-30__c0037"
 },
 {
-"id": "bund-ks-30__c0039",
+"id": "bund-ks-30__c0037",
 "titel": "Ziff. 8.3 Erwerbsunfähigkeit (Art. 7 ATSG)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1069,11 +1013,11 @@
 ],
 "zusammenfassung": "Erwerbsunfähigkeit richtet sich nach ATSG; zusätzlich muss die steuerpflichtige Person aufgrund der Beeinträchtigung die Kinderbetreuung nicht selber wahrnehmen können.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0038",
-"nachher": "bund-ks-30__c0040"
+"vorher": "bund-ks-30__c0036",
+"nachher": "bund-ks-30__c0038"
 },
 {
-"id": "bund-ks-30__c0040",
+"id": "bund-ks-30__c0038",
 "titel": "Ziff. 8.3 Behinderungsbedingte Drittbetreuung – Maximum CHF 10'100",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1098,11 +1042,11 @@
 ],
 "zusammenfassung": "Kinderdrittbetreuungskosten bis maximal 10'100 Franken werden über den Drittbetreuungsabzug berücksichtigt; als behinderungsbedingte Kosten (Art. 33 Abs. 1 Bst. hbis DBG) nur der übersteigende Teil.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0039",
-"nachher": "bund-ks-30__c0041"
+"vorher": "bund-ks-30__c0037",
+"nachher": "bund-ks-30__c0039"
 },
 {
-"id": "bund-ks-30__c0041",
+"id": "bund-ks-30__c0039",
 "titel": "Ziff. 8.4.1–8.4.2 Anspruchsberechtigung – Allgemeines, verheiratete Paare",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1125,11 +1069,11 @@
 ],
 "zusammenfassung": "Ehepaare können die nachgewiesenen Kosten bis zum Maximalbetrag abziehen, wenn beide gleichzeitig erwerbstätig, in Ausbildung oder erwerbs- und betreuungsunfähig sind.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0040",
-"nachher": "bund-ks-30__c0042"
+"vorher": "bund-ks-30__c0038",
+"nachher": "bund-ks-30__c0040"
 },
 {
-"id": "bund-ks-30__c0042",
+"id": "bund-ks-30__c0040",
 "titel": "Ziff. 8.4.3 Konkubinatseltern – Aufteilung CHF 5'050 je Elternteil, Maximum CHF 10'100",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1155,11 +1099,11 @@
 ],
 "zusammenfassung": "Bei gemeinsamer elterlicher Sorge kann jeder unverheiratete Elternteil maximal 5'050 Franken abziehen; übersteigen die Kosten beider zusammen 10'100 Franken, werden sie im Verhältnis gekürzt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0041",
-"nachher": "bund-ks-30__c0043"
+"vorher": "bund-ks-30__c0039",
+"nachher": "bund-ks-30__c0041"
 },
 {
-"id": "bund-ks-30__c0043",
+"id": "bund-ks-30__c0041",
 "titel": "Ziff. 8.4.3 Beispiel Kinderdrittbetreuungskosten (6'000 / 9'000 / Max. 10'100)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1183,11 +1127,11 @@
 ],
 "zusammenfassung": "Beispiel: Kosten Elternteil 1 6'000 und Elternteil 2 9'000 (Total 15'000), Maximalbetrag 10'100: Abzug 4'040 bzw. 6'060, total 10'100.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0042",
-"nachher": "bund-ks-30__c0044"
+"vorher": "bund-ks-30__c0040",
+"nachher": "bund-ks-30__c0042"
 },
 {
-"id": "bund-ks-30__c0044",
+"id": "bund-ks-30__c0042",
 "titel": "Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten (Teil 1/2)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1210,11 +1154,11 @@
 ],
 "zusammenfassung": "Bei getrennten oder geschiedenen Eltern zieht grundsätzlich der mit dem Kind lebende Elternteil ab; bei alternierender Obhut je max. 5'050 Franken für Kosten während seiner Obhutszeit.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0043",
-"nachher": "bund-ks-30__c0045"
+"vorher": "bund-ks-30__c0041",
+"nachher": "bund-ks-30__c0043"
 },
 {
-"id": "bund-ks-30__c0045",
+"id": "bund-ks-30__c0043",
 "titel": "Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten (Teil 2/2)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1237,11 +1181,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0044",
-"nachher": "bund-ks-30__c0046"
+"vorher": "bund-ks-30__c0042",
+"nachher": "bund-ks-30__c0044"
 },
 {
-"id": "bund-ks-30__c0046",
+"id": "bund-ks-30__c0044",
 "titel": "Ziff. 8.5 Abzugsfähige Kosten – Krippe, Tagesmutter, Internat",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1266,11 +1210,11 @@
 ],
 "zusammenfassung": "Abziehbar sind nachgewiesene Kosten für die Betreuung während der tatsächlichen Arbeits-/Ausbildungszeit (Krippen, Horte, Tagesmütter); Verpflegung und Unterhalt sind nicht abziehbare Lebenshaltungskosten.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0045",
-"nachher": "bund-ks-30__c0047"
+"vorher": "bund-ks-30__c0043",
+"nachher": "bund-ks-30__c0045"
 },
 {
-"id": "bund-ks-30__c0047",
+"id": "bund-ks-30__c0045",
 "titel": "Ziff. 8.5 Nicht abzugsfähig – Haushaltshilfe, Schulgeld, Babysitting, Freizeit",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1294,11 +1238,11 @@
 ],
 "zusammenfassung": "Nicht abzugsfähig sind Eigenbetreuung, Schulgelder, Babysitting am Abend und Freizeitbetreuung; bei Haushaltshilfe und Internat nur der Betreuungsanteil.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0046",
-"nachher": "bund-ks-30__c0048"
+"vorher": "bund-ks-30__c0044",
+"nachher": "bund-ks-30__c0046"
 },
 {
-"id": "bund-ks-30__c0048",
+"id": "bund-ks-30__c0046",
 "titel": "Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten (Teil 1/3)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1323,11 +1267,11 @@
 ],
 "zusammenfassung": "Die steuerpflichtige Person muss Kosten, betreuende Personen und den Grund der Drittbetreuung belegen; bei Selbständigen sind die Kosten auf dem Privatkonto und nicht in der Geschäftsbuchhaltung zu verbuchen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0047",
-"nachher": "bund-ks-30__c0049"
+"vorher": "bund-ks-30__c0045",
+"nachher": "bund-ks-30__c0047"
 },
 {
-"id": "bund-ks-30__c0049",
+"id": "bund-ks-30__c0047",
 "titel": "Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten (Teil 2/3)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1352,11 +1296,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0048",
-"nachher": "bund-ks-30__c0050"
+"vorher": "bund-ks-30__c0046",
+"nachher": "bund-ks-30__c0048"
 },
 {
-"id": "bund-ks-30__c0050",
+"id": "bund-ks-30__c0048",
 "titel": "Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten (Teil 3/3)",
 "pfad": [
 "8 Kinderdrittbetreuungskostenabzug",
@@ -1381,11 +1325,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0049",
-"nachher": "bund-ks-30__c0051"
+"vorher": "bund-ks-30__c0047",
+"nachher": "bund-ks-30__c0049"
 },
 {
-"id": "bund-ks-30__c0051",
+"id": "bund-ks-30__c0049",
 "titel": "Ziff. 9.1 Zweiverdienerabzug – Voraussetzungen und Betrag (8'100 bis 13'400)",
 "pfad": [
 "9 Zweiverdienerabzug",
@@ -1409,11 +1353,11 @@
 ],
 "zusammenfassung": "Vom niedrigeren Erwerbseinkommen werden 50 Prozent abgezogen, mindestens 8'100 und höchstens 13'400 Franken; Voraussetzung: ungetrennte Ehe und beide erzielen Erwerbseinkommen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0050",
-"nachher": "bund-ks-30__c0052"
+"vorher": "bund-ks-30__c0048",
+"nachher": "bund-ks-30__c0050"
 },
 {
-"id": "bund-ks-30__c0052",
+"id": "bund-ks-30__c0050",
 "titel": "Ziff. 9.1 Zweiverdienerabzug bei Mitarbeit im Betrieb des Ehegatten",
 "pfad": [
 "9 Zweiverdienerabzug",
@@ -1436,11 +1380,11 @@
 ],
 "zusammenfassung": "Der Abzug wird auch bei erheblicher Mitarbeit im Beruf oder Geschäft des Ehegatten gewährt, wenn sie regelmässig und beträchtlich ist und einer Drittperson mindestens ein Lohn in Höhe des Abzuges zu zahlen wäre.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0051",
-"nachher": "bund-ks-30__c0053"
+"vorher": "bund-ks-30__c0049",
+"nachher": "bund-ks-30__c0051"
 },
 {
-"id": "bund-ks-30__c0053",
+"id": "bund-ks-30__c0051",
 "titel": "Ziff. 9.2 Definition Erwerbseinkommen für den Zweiverdienerabzug (Teil 1/2)",
 "pfad": [
 "9 Zweiverdienerabzug",
@@ -1464,11 +1408,11 @@
 ],
 "zusammenfassung": "Erwerbseinkommen ist Bruttolohn abzüglich Gewinnungskosten, AHV/IV/EO/ALV, 2. Säule, Säule 3a und NBU; Erwerbsausfallentschädigungen sind gleichgestellt, Renten und Vermögensertrag nicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0052",
-"nachher": "bund-ks-30__c0054"
+"vorher": "bund-ks-30__c0050",
+"nachher": "bund-ks-30__c0052"
 },
 {
-"id": "bund-ks-30__c0054",
+"id": "bund-ks-30__c0052",
 "titel": "Ziff. 9.2 Definition Erwerbseinkommen für den Zweiverdienerabzug (Teil 2/2)",
 "pfad": [
 "9 Zweiverdienerabzug",
@@ -1492,11 +1436,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0053",
-"nachher": "bund-ks-30__c0055"
+"vorher": "bund-ks-30__c0051",
+"nachher": "bund-ks-30__c0053"
 },
 {
-"id": "bund-ks-30__c0055",
+"id": "bund-ks-30__c0053",
 "titel": "Ziff. 9.3 Mitarbeit im Beruf oder Betrieb – hälftige Zurechnung",
 "pfad": [
 "9 Zweiverdienerabzug",
@@ -1518,11 +1462,11 @@
 ],
 "zusammenfassung": "Bei erheblicher Mitarbeit wird jedem Ehegatten grundsätzlich die Hälfte des gemeinsamen Erwerbseinkommens zugerechnet; der Prozentabzug wird auf dem niedrigeren Erwerbseinkommen berechnet.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0054",
-"nachher": "bund-ks-30__c0056"
+"vorher": "bund-ks-30__c0052",
+"nachher": "bund-ks-30__c0054"
 },
 {
-"id": "bund-ks-30__c0056",
+"id": "bund-ks-30__c0054",
 "titel": "Ziff. 9.3 Gemeinsam selbständig erwerbende Ehepaare – Berechnung (Teil 1/2)",
 "pfad": [
 "9 Zweiverdienerabzug",
@@ -1546,11 +1490,11 @@
 ],
 "zusammenfassung": "Bei gemeinsam Selbständigerwerbenden wird das Einkommen nach Abzug der 3a-Prämien und Vorsorgebeiträge hälftig aufgeteilt; Abzug 50 Prozent, mind. 8'100, höchstens 13'400 Franken; bei Verlust kein Abzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0055",
-"nachher": "bund-ks-30__c0057"
+"vorher": "bund-ks-30__c0053",
+"nachher": "bund-ks-30__c0055"
 },
 {
-"id": "bund-ks-30__c0057",
+"id": "bund-ks-30__c0055",
 "titel": "Ziff. 9.3 Gemeinsam selbständig erwerbende Ehepaare – Berechnung (Teil 2/2)",
 "pfad": [
 "9 Zweiverdienerabzug",
@@ -1574,11 +1518,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0056",
-"nachher": "bund-ks-30__c0058"
+"vorher": "bund-ks-30__c0054",
+"nachher": "bund-ks-30__c0056"
 },
 {
-"id": "bund-ks-30__c0058",
+"id": "bund-ks-30__c0056",
 "titel": "Ziff. 9.4 Berechnung des Zweiverdienerabzugs (Schwellen 8'100 / 16'200 / 26'800)",
 "pfad": [
 "9 Zweiverdienerabzug",
@@ -1602,11 +1546,11 @@
 ],
 "zusammenfassung": "Unter 8'100 nur das Zweiteinkommen; zwischen 8'100 und 16'200 gilt 8'100; über 16'200 die Hälfte; ab 26'800 Netto-Zweiteinkommen ist der Maximalabzug von 13'400 erreicht; Teilzeit kürzt nicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0057",
-"nachher": "bund-ks-30__c0059"
+"vorher": "bund-ks-30__c0055",
+"nachher": "bund-ks-30__c0057"
 },
 {
-"id": "bund-ks-30__c0059",
+"id": "bund-ks-30__c0057",
 "titel": "Ziff. 10.1 Kinderabzug – Grundsatz, Stichtag, Unterhalt (Teil 1/2)",
 "pfad": [
 "10 Kinderabzug",
@@ -1630,11 +1574,11 @@
 ],
 "zusammenfassung": "Ein ganzer Kinderabzug pro Kind für minderjährige oder in Ausbildung stehende Kinder bei Kindesverhältnis und Unterhaltsleistung; Stichtag Ende Steuerperiode; Pflegeeltern erhalten keinen Kinderabzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0058",
-"nachher": "bund-ks-30__c0060"
+"vorher": "bund-ks-30__c0056",
+"nachher": "bund-ks-30__c0058"
 },
 {
-"id": "bund-ks-30__c0060",
+"id": "bund-ks-30__c0058",
 "titel": "Ziff. 10.1 Kinderabzug – Grundsatz, Stichtag, Unterhalt (Teil 2/2)",
 "pfad": [
 "10 Kinderabzug",
@@ -1658,11 +1602,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0059",
-"nachher": "bund-ks-30__c0061"
+"vorher": "bund-ks-30__c0057",
+"nachher": "bund-ks-30__c0059"
 },
 {
-"id": "bund-ks-30__c0061",
+"id": "bund-ks-30__c0059",
 "titel": "Ziff. 10.1 Anteilsmässiger Kinderabzug bei beschränkter Steuerpflicht; Fn. 2 Einkommensbegriffe",
 "pfad": [
 "10 Kinderabzug",
@@ -1687,11 +1631,11 @@
 ],
 "zusammenfassung": "Bei beschränkter Steuerpflicht oder nicht steuerbarem Auslandeinkommen wird der Kinderabzug im Verhältnis von schweizerischem Reineinkommen zum gesamten Reineinkommen gewährt; Fussnote erläutert Brutto-/Netto-/Reineinkommen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0060",
-"nachher": "bund-ks-30__c0062"
+"vorher": "bund-ks-30__c0058",
+"nachher": "bund-ks-30__c0060"
 },
 {
-"id": "bund-ks-30__c0062",
+"id": "bund-ks-30__c0060",
 "titel": "Ziff. 10.2 Kinderabzug für minderjährige Kinder – getrennte Eltern (Teil 1/2)",
 "pfad": [
 "10 Kinderabzug",
@@ -1714,11 +1658,11 @@
 ],
 "zusammenfassung": "Bei getrennten Eltern mit gemeinsamer Sorge kann jeder den halben Kinderabzug beanspruchen, sofern keine Unterhaltsbeiträge abgezogen werden; wird das Kind im Jahr volljährig ohne Ausbildung, entfällt der Abzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0061",
-"nachher": "bund-ks-30__c0063"
+"vorher": "bund-ks-30__c0059",
+"nachher": "bund-ks-30__c0061"
 },
 {
-"id": "bund-ks-30__c0063",
+"id": "bund-ks-30__c0061",
 "titel": "Ziff. 10.2 Kinderabzug für minderjährige Kinder – getrennte Eltern (Teil 2/2)",
 "pfad": [
 "10 Kinderabzug",
@@ -1741,11 +1685,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0062",
-"nachher": "bund-ks-30__c0064"
+"vorher": "bund-ks-30__c0060",
+"nachher": "bund-ks-30__c0062"
 },
 {
-"id": "bund-ks-30__c0064",
+"id": "bund-ks-30__c0062",
 "titel": "Ziff. 10.3 Kinderabzug für volljährige Kinder in Ausbildung – Voraussetzungen (Teil 1/2)",
 "pfad": [
 "10 Kinderabzug",
@@ -1769,11 +1713,11 @@
 ],
 "zusammenfassung": "Der Kinderabzug für volljährige Kinder in Ausbildung setzt Beiträge mindestens in Höhe des Sozialabzugs voraus und dass das Kind tatsächlich auf den Unterhalt angewiesen ist, nicht bei selbständigem Lebensunterhalt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0063",
-"nachher": "bund-ks-30__c0065"
+"vorher": "bund-ks-30__c0061",
+"nachher": "bund-ks-30__c0063"
 },
 {
-"id": "bund-ks-30__c0065",
+"id": "bund-ks-30__c0063",
 "titel": "Ziff. 10.3 Kinderabzug für volljährige Kinder in Ausbildung – Voraussetzungen (Teil 2/2)",
 "pfad": [
 "10 Kinderabzug",
@@ -1797,11 +1741,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0064",
-"nachher": "bund-ks-30__c0066"
+"vorher": "bund-ks-30__c0062",
+"nachher": "bund-ks-30__c0064"
 },
 {
-"id": "bund-ks-30__c0066",
+"id": "bund-ks-30__c0064",
 "titel": "Ziff. 10.3 Erstausbildung, Zweitausbildung, Unterbruch, Weiterbildung",
 "pfad": [
 "10 Kinderabzug",
@@ -1826,12 +1770,12 @@
 ],
 "zusammenfassung": "Unter Ausbildung ist die berufliche Erstausbildung zu verstehen; Zweitausbildung bei sachlichen Gründen, vorübergehender Unterbruch unschädlich, Weiterbildung und reine Auslandaufenthalte begründen keinen Abzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0065",
-"nachher": "bund-ks-30__c0067"
+"vorher": "bund-ks-30__c0063",
+"nachher": "bund-ks-30__c0065"
 },
 {
-"id": "bund-ks-30__c0067",
-"titel": "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 1/3)",
+"id": "bund-ks-30__c0065",
+"titel": "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 1/2)",
 "pfad": [
 "11 Unterstützungsabzug"
 ],
@@ -1853,12 +1797,12 @@
 ],
 "zusammenfassung": "Unterstützungsleistungen an erwerbsunfähige oder beschränkt erwerbsfähige Personen sind abziehbar, wenn sie mindestens den Betrag des Unterstützungsabzugs erreichen, unentgeltlich erfolgen und die Person objektiv bedürftig ist.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0066",
-"nachher": "bund-ks-30__c0068"
+"vorher": "bund-ks-30__c0064",
+"nachher": "bund-ks-30__c0066"
 },
 {
-"id": "bund-ks-30__c0068",
-"titel": "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 2/3)",
+"id": "bund-ks-30__c0066",
+"titel": "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 2/2)",
 "pfad": [
 "11 Unterstützungsabzug"
 ],
@@ -1880,38 +1824,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0067",
-"nachher": "bund-ks-30__c0069"
+"vorher": "bund-ks-30__c0065",
+"nachher": "bund-ks-30__c0067"
 },
 {
-"id": "bund-ks-30__c0069",
-"titel": "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 3/3)",
-"pfad": [
-"11 Unterstützungsabzug"
-],
-"seiten": [
-21
-],
-"artikel": null,
-"ziffer": "11",
-"stichworte": [
-"Unterstützungsabzug",
-"unterstützte Person",
-"Eltern unterstützen",
-"Unterstützungsbedürftigkeit",
-"unentgeltlich",
-"Art. 35 Abs. 1 Bst. b DBG"
-],
-"positionen": [
-"sozialabzug.unterstuetzung"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0068",
-"nachher": "bund-ks-30__c0070"
-},
-{
-"id": "bund-ks-30__c0070",
+"id": "bund-ks-30__c0067",
 "titel": "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 1/3)",
 "pfad": [
 "11 Unterstützungsabzug"
@@ -1937,11 +1854,11 @@
 ],
 "zusammenfassung": "Kein Abzug für den gemeinsam veranlagten Ehegatten und nicht neben dem Kinderabzug derselben leistenden Person; bei getrennten Eltern können Kinderabzug und Unterstützungsabzug auf die Elternteile verteilt werden.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0069",
-"nachher": "bund-ks-30__c0071"
+"vorher": "bund-ks-30__c0066",
+"nachher": "bund-ks-30__c0068"
 },
 {
-"id": "bund-ks-30__c0071",
+"id": "bund-ks-30__c0068",
 "titel": "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 2/3)",
 "pfad": [
 "11 Unterstützungsabzug"
@@ -1967,11 +1884,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0070",
-"nachher": "bund-ks-30__c0072"
+"vorher": "bund-ks-30__c0067",
+"nachher": "bund-ks-30__c0069"
 },
 {
-"id": "bund-ks-30__c0072",
+"id": "bund-ks-30__c0069",
 "titel": "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 3/3)",
 "pfad": [
 "11 Unterstützungsabzug"
@@ -1997,11 +1914,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0071",
-"nachher": "bund-ks-30__c0073"
+"vorher": "bund-ks-30__c0068",
+"nachher": "bund-ks-30__c0070"
 },
 {
-"id": "bund-ks-30__c0073",
+"id": "bund-ks-30__c0070",
 "titel": "Ziff. 12 Verheiratetenabzug",
 "pfad": [
 "12 Verheiratetenabzug"
@@ -2023,11 +1940,11 @@
 ],
 "zusammenfassung": "Seit 1. Januar 2008 fixer Sozialabzug pro Ehepaar bei ungetrennter Ehe am Stichtag; bei beschränkter Steuerpflicht anteilsmässig nach Verhältnis des schweizerischen zum gesamten Reineinkommen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0072",
-"nachher": "bund-ks-30__c0074"
+"vorher": "bund-ks-30__c0069",
+"nachher": "bund-ks-30__c0071"
 },
 {
-"id": "bund-ks-30__c0074",
+"id": "bund-ks-30__c0071",
 "titel": "Ziff. 13.1 Tarife – Grundsatz und Kapitalleistungen aus Vorsorge",
 "pfad": [
 "13 Tarife",
@@ -2052,11 +1969,11 @@
 ],
 "zusammenfassung": "Drei Tarife nach Art. 36 DBG; Kapitalleistungen aus Vorsorge werden zu einem Fünftel der ordentlichen Tarife besteuert, der Abzug vom Steuerbetrag pro Kind gilt dort nicht.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0073",
-"nachher": "bund-ks-30__c0075"
+"vorher": "bund-ks-30__c0070",
+"nachher": "bund-ks-30__c0072"
 },
 {
-"id": "bund-ks-30__c0075",
+"id": "bund-ks-30__c0072",
 "titel": "Ziff. 13.2–13.3 Grundtarif und Verheiratetentarif – Anwendungsbereich",
 "pfad": [
 "13 Tarife",
@@ -2077,11 +1994,11 @@
 "positionen": null,
 "zusammenfassung": "Der Grundtarif ist Auffangtarif (Ledige, Verwitwete, Getrennte, Konkubinatspaare ohne Kinder); der Verheiratetentarif gilt für ungetrennt Verheiratete ohne Kinder oder unterstützungsbedürftige Personen im Haushalt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0074",
-"nachher": "bund-ks-30__c0076"
+"vorher": "bund-ks-30__c0071",
+"nachher": "bund-ks-30__c0073"
 },
 {
-"id": "bund-ks-30__c0076",
+"id": "bund-ks-30__c0073",
 "titel": "Ziff. 13.4.1 Elterntarif – Aufbau (Abzug CHF 251 pro Kind)",
 "pfad": [
 "13 Tarife",
@@ -2106,11 +2023,11 @@
 ],
 "zusammenfassung": "Der Elterntarif besteht aus dem Verheiratetentarif und einem Abzug vom Steuerbetrag von maximal 251 Franken pro Kind oder unterstützungsbedürftiger Person; er ist ein Tarif und kein Sozialabzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0075",
-"nachher": "bund-ks-30__c0077"
+"vorher": "bund-ks-30__c0072",
+"nachher": "bund-ks-30__c0074"
 },
 {
-"id": "bund-ks-30__c0077",
+"id": "bund-ks-30__c0074",
 "titel": "Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder (Teil 1/3)",
 "pfad": [
 "13 Tarife",
@@ -2136,11 +2053,11 @@
 ],
 "zusammenfassung": "Elterntarif nur bei Zusammenleben im gleichen Haushalt und Bestreiten des Unterhalts zur Hauptsache; er wird nur einer Person zugewiesen; bei volljährigen Kindern nur bei Wohnsitz bei den Eltern (Wochenaufenthalt genügt).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0076",
-"nachher": "bund-ks-30__c0078"
+"vorher": "bund-ks-30__c0073",
+"nachher": "bund-ks-30__c0075"
 },
 {
-"id": "bund-ks-30__c0078",
+"id": "bund-ks-30__c0075",
 "titel": "Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder (Teil 2/3)",
 "pfad": [
 "13 Tarife",
@@ -2166,11 +2083,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0077",
-"nachher": "bund-ks-30__c0079"
+"vorher": "bund-ks-30__c0074",
+"nachher": "bund-ks-30__c0076"
 },
 {
-"id": "bund-ks-30__c0079",
+"id": "bund-ks-30__c0076",
 "titel": "Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder (Teil 3/3)",
 "pfad": [
 "13 Tarife",
@@ -2196,11 +2113,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0078",
-"nachher": "bund-ks-30__c0080"
+"vorher": "bund-ks-30__c0075",
+"nachher": "bund-ks-30__c0077"
 },
 {
-"id": "bund-ks-30__c0080",
+"id": "bund-ks-30__c0077",
 "titel": "Ziff. 13.4.2 Elterntarif bei minderjährigen Kindern – Grundsatz",
 "pfad": [
 "13 Tarife",
@@ -2225,11 +2142,11 @@
 ],
 "zusammenfassung": "Den Elterntarif erhält bei minderjährigen Kindern der Elternteil, der mehr als die Hälfte der Unterhaltskosten übernimmt; bei geltend gemachten Unterhaltszahlungen der Empfänger.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0079",
-"nachher": "bund-ks-30__c0081"
+"vorher": "bund-ks-30__c0076",
+"nachher": "bund-ks-30__c0078"
 },
 {
-"id": "bund-ks-30__c0081",
+"id": "bund-ks-30__c0078",
 "titel": "Ziff. 13.4.2 Elterntarif – Ehepaare und getrennt lebende Eltern mit minderjährigem Kind",
 "pfad": [
 "13 Tarife",
@@ -2254,11 +2171,11 @@
 ],
 "zusammenfassung": "Bei gemeinsamer Sorge erhält der Empfänger der Unterhaltszahlungen den Elterntarif; ohne Zahlungen der Elternteil, der mit dem Kind lebt, bei alternierender Obhut der mit dem höheren Reineinkommen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0080",
-"nachher": "bund-ks-30__c0082"
+"vorher": "bund-ks-30__c0077",
+"nachher": "bund-ks-30__c0079"
 },
 {
-"id": "bund-ks-30__c0082",
+"id": "bund-ks-30__c0079",
 "titel": "Ziff. 13.4.2 Elterntarif – Konkubinatseltern mit minderjährigem Kind",
 "pfad": [
 "13 Tarife",
@@ -2282,11 +2199,11 @@
 ],
 "zusammenfassung": "Konkubinatseltern: ohne gemeinsame Sorge erhält der Elternteil mit Sorge den Elterntarif; bei gemeinsamer Sorge der Unterhaltsempfänger, sonst der Elternteil mit dem höheren Einkommen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0081",
-"nachher": "bund-ks-30__c0083"
+"vorher": "bund-ks-30__c0078",
+"nachher": "bund-ks-30__c0080"
 },
 {
-"id": "bund-ks-30__c0083",
+"id": "bund-ks-30__c0080",
 "titel": "Ziff. 13.4.3 Elterntarif bei volljährigen Kindern in Ausbildung – Voraussetzungen",
 "pfad": [
 "13 Tarife",
@@ -2309,11 +2226,11 @@
 ],
 "zusammenfassung": "Der Elterntarif wird in Analogie zum Kinderabzug nur gewährt, wenn das volljährige Kind in Erstausbildung tatsächlich auf den Unterhalt angewiesen ist und der Anspruchsteller hauptsächlich dafür aufkommt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0082",
-"nachher": "bund-ks-30__c0084"
+"vorher": "bund-ks-30__c0079",
+"nachher": "bund-ks-30__c0081"
 },
 {
-"id": "bund-ks-30__c0084",
+"id": "bund-ks-30__c0081",
 "titel": "Ziff. 13.4.3 Elterntarif – Ehepaare, getrennte und unverheiratete Eltern mit volljährigem Kind (Teil 1/2)",
 "pfad": [
 "13 Tarife",
@@ -2339,11 +2256,11 @@
 ],
 "zusammenfassung": "Bei getrennten Eltern erhält der mit dem Kind zusammenlebende Elternteil den Elterntarif; bei Konkubinatseltern der Elternteil mit höheren Leistungen, der andere ggf. den Unterstützungsabzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0083",
-"nachher": "bund-ks-30__c0085"
+"vorher": "bund-ks-30__c0080",
+"nachher": "bund-ks-30__c0082"
 },
 {
-"id": "bund-ks-30__c0085",
+"id": "bund-ks-30__c0082",
 "titel": "Ziff. 13.4.3 Elterntarif – Ehepaare, getrennte und unverheiratete Eltern mit volljährigem Kind (Teil 2/2)",
 "pfad": [
 "13 Tarife",
@@ -2369,11 +2286,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0084",
-"nachher": "bund-ks-30__c0086"
+"vorher": "bund-ks-30__c0081",
+"nachher": "bund-ks-30__c0083"
 },
 {
-"id": "bund-ks-30__c0086",
+"id": "bund-ks-30__c0083",
 "titel": "Ziff. 13.4.4–13.4.5 Elterntarif bei unterstützungsbedürftigen Personen; Stichtagsprinzip",
 "pfad": [
 "13 Tarife",
@@ -2395,11 +2312,11 @@
 ],
 "zusammenfassung": "Der Elterntarif gilt auch bei Zusammenleben mit unterstützungsbedürftigen Personen, wenn die Voraussetzungen des Unterstützungsabzugs erfüllt sind; massgebend ist das Stichtagsprinzip am Ende der Steuerperiode.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0085",
-"nachher": "bund-ks-30__c0087"
+"vorher": "bund-ks-30__c0082",
+"nachher": "bund-ks-30__c0084"
 },
 {
-"id": "bund-ks-30__c0087",
+"id": "bund-ks-30__c0084",
 "titel": "Ziff. 13.4.6 Unterjährige Steuerpflicht – Beispiel Zuzug aus dem Ausland",
 "pfad": [
 "13 Tarife",
@@ -2422,11 +2339,11 @@
 "positionen": null,
 "zusammenfassung": "Der Abzug von 251 Franken je Kind wird anteilsmässig nach Verhältnis des steuerbaren zum satzbestimmenden Einkommen gewährt; Beispiel: 146'000 / 250'000, Abzug 293.15, geschuldete Steuer 10'894.85.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0086",
-"nachher": "bund-ks-30__c0088"
+"vorher": "bund-ks-30__c0083",
+"nachher": "bund-ks-30__c0085"
 },
 {
-"id": "bund-ks-30__c0088",
+"id": "bund-ks-30__c0085",
 "titel": "Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus (Teil 1/2)",
 "pfad": [
 "13 Tarife",
@@ -2449,11 +2366,11 @@
 "positionen": null,
 "zusammenfassung": "Bei teilweiser Steuerpflicht ermässigt sich der Steuerbetrag nur um den anteiligen Abzug von 251 Franken je Kind; Beispiel: 20'000 / 250'000, Abzug 40.15, geschuldete Steuer 1'492.45.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0087",
-"nachher": "bund-ks-30__c0089"
+"vorher": "bund-ks-30__c0084",
+"nachher": "bund-ks-30__c0086"
 },
 {
-"id": "bund-ks-30__c0089",
+"id": "bund-ks-30__c0086",
 "titel": "Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus (Teil 2/2)",
 "pfad": [
 "13 Tarife",
@@ -2476,11 +2393,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0088",
-"nachher": "bund-ks-30__c0090"
+"vorher": "bund-ks-30__c0085",
+"nachher": "bund-ks-30__c0087"
 },
 {
-"id": "bund-ks-30__c0090",
+"id": "bund-ks-30__c0087",
 "titel": "Ziff. 13.4.8–13.4.9 Aufwandbesteuerung und Quellensteuer – Elterntarif",
 "pfad": [
 "13 Tarife",
@@ -2501,11 +2418,11 @@
 "positionen": null,
 "zusammenfassung": "Bei Besteuerung nach dem Aufwand kommt der Elterntarif nicht zur Anwendung; bei der Quellensteuer ist der Elterntarif als Abzug vom Steuerbetrag in die Tarife eingerechnet.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0089",
-"nachher": "bund-ks-30__c0091"
+"vorher": "bund-ks-30__c0086",
+"nachher": "bund-ks-30__c0088"
 },
 {
-"id": "bund-ks-30__c0091",
+"id": "bund-ks-30__c0088",
 "titel": "Ziff. 13.4.10 Pauschale Steueranrechnung und Elterntarif – Beispiel (Teil 1/2)",
 "pfad": [
 "13 Tarife",
@@ -2528,11 +2445,11 @@
 "positionen": null,
 "zusammenfassung": "Der Steuersatz Bund für die pauschale Steueranrechnung ist nach Abzug von 251 Franken je Kind zu berechnen (Beispiel 1.466 %); fällt keine Bundessteuer an, ist die Anrechnung auf zwei Drittel der nicht rückforderbaren Quellensteuern begrenzt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0090",
-"nachher": "bund-ks-30__c0092"
+"vorher": "bund-ks-30__c0087",
+"nachher": "bund-ks-30__c0089"
 },
 {
-"id": "bund-ks-30__c0092",
+"id": "bund-ks-30__c0089",
 "titel": "Ziff. 13.4.10 Pauschale Steueranrechnung und Elterntarif – Beispiel (Teil 2/2)",
 "pfad": [
 "13 Tarife",
@@ -2555,11 +2472,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0091",
-"nachher": "bund-ks-30__c0093"
+"vorher": "bund-ks-30__c0088",
+"nachher": "bund-ks-30__c0090"
 },
 {
-"id": "bund-ks-30__c0093",
+"id": "bund-ks-30__c0090",
 "titel": "Ziff. 13.4.11 Kapitalleistungen (Art. 38) und fiktive Einkäufe (Art. 37b) – Tarif",
 "pfad": [
 "13 Tarife",
@@ -2585,11 +2502,11 @@
 ],
 "zusammenfassung": "Kapitalleistungen aus Vorsorge werden mit voller Jahressteuer zu einem Fünftel der Tarife nach Art. 36 DBG besteuert; Alleinerziehende und Verheiratete mit Kindern zum Verheiratetentarif, ohne Abzug pro Kind.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0092",
-"nachher": "bund-ks-30__c0094"
+"vorher": "bund-ks-30__c0089",
+"nachher": "bund-ks-30__c0091"
 },
 {
-"id": "bund-ks-30__c0094",
+"id": "bund-ks-30__c0091",
 "titel": "Ziff. 13.4.12 Übriger Liquidationsgewinn (Art. 37b DBG)",
 "pfad": [
 "13 Tarife",
@@ -2613,11 +2530,11 @@
 ],
 "zusammenfassung": "Bei Geschäftsaufgabe nach dem 55. Altersjahr oder wegen Invalidität gilt für die stillen Reserven der letzten zwei Geschäftsjahre ein Satz von einem Fünftel, mindestens 2 Prozent; kein Elterntarif-Abzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0093",
-"nachher": "bund-ks-30__c0095"
+"vorher": "bund-ks-30__c0090",
+"nachher": "bund-ks-30__c0092"
 },
 {
-"id": "bund-ks-30__c0095",
+"id": "bund-ks-30__c0092",
 "titel": "Ziff. 14 Einleitung; 14.1.1 Nachehelicher Unterhalt – zivilrechtliche Aspekte (Teil 1/2)",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2640,11 +2557,11 @@
 ],
 "zusammenfassung": "Nachehelicher Unterhalt erfolgt grundsätzlich als Rente (Art. 125/126 ZGB); bei Getrenntleben richtet sich die Unterhaltspflicht nach Art. 163 ff. und 176 ZGB.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0094",
-"nachher": "bund-ks-30__c0096"
+"vorher": "bund-ks-30__c0091",
+"nachher": "bund-ks-30__c0093"
 },
 {
-"id": "bund-ks-30__c0096",
+"id": "bund-ks-30__c0093",
 "titel": "Ziff. 14 Einleitung; 14.1.1 Nachehelicher Unterhalt – zivilrechtliche Aspekte (Teil 2/2)",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2667,11 +2584,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0095",
-"nachher": "bund-ks-30__c0097"
+"vorher": "bund-ks-30__c0092",
+"nachher": "bund-ks-30__c0094"
 },
 {
-"id": "bund-ks-30__c0097",
+"id": "bund-ks-30__c0094",
 "titel": "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 1/2)",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2697,11 +2614,11 @@
 ],
 "zusammenfassung": "Unterhaltsbeiträge an den geschiedenen oder getrennt lebenden Ehegatten sind beim Leistenden abziehbar und beim Empfänger steuerbar; als Kapitalleistung gezahlt sind sie weder abziehbar noch steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0096",
-"nachher": "bund-ks-30__c0098"
+"vorher": "bund-ks-30__c0093",
+"nachher": "bund-ks-30__c0095"
 },
 {
-"id": "bund-ks-30__c0098",
+"id": "bund-ks-30__c0095",
 "titel": "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 2/2)",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2727,11 +2644,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0097",
-"nachher": "bund-ks-30__c0099"
+"vorher": "bund-ks-30__c0094",
+"nachher": "bund-ks-30__c0096"
 },
 {
-"id": "bund-ks-30__c0099",
+"id": "bund-ks-30__c0096",
 "titel": "Ziff. 14.1.2 Güterrechtliche Leistungen, Leibrenten (40 %) und andere Unterstützungspflichten",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2755,11 +2672,11 @@
 ],
 "zusammenfassung": "Güterrechtliche Leistungen sind steuerfrei und nicht abziehbar; Leibrenten werden beim Empfänger zu 40 % besteuert und beim Schuldner zu 40 % abgezogen; Leistungen an Verwandte (Art. 328 ZGB) sind nicht abzugsfähig.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0098",
-"nachher": "bund-ks-30__c0100"
+"vorher": "bund-ks-30__c0095",
+"nachher": "bund-ks-30__c0097"
 },
 {
-"id": "bund-ks-30__c0100",
+"id": "bund-ks-30__c0097",
 "titel": "Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge) (Teil 1/3)",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2783,11 +2700,11 @@
 ],
 "zusammenfassung": "Die gemeinsame elterliche Sorge besteht bei verheirateten Eltern fort, kann unverheirateten Eltern übertragen werden (Art. 298a ZGB) und bei Scheidung auf gemeinsamen Antrag belassen werden (Art. 133 Abs. 3 ZGB).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0099",
-"nachher": "bund-ks-30__c0101"
+"vorher": "bund-ks-30__c0096",
+"nachher": "bund-ks-30__c0098"
 },
 {
-"id": "bund-ks-30__c0101",
+"id": "bund-ks-30__c0098",
 "titel": "Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge) (Teil 2/3)",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2811,11 +2728,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0100",
-"nachher": "bund-ks-30__c0102"
+"vorher": "bund-ks-30__c0097",
+"nachher": "bund-ks-30__c0099"
 },
 {
-"id": "bund-ks-30__c0102",
+"id": "bund-ks-30__c0099",
 "titel": "Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge) (Teil 3/3)",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2839,11 +2756,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0101",
-"nachher": "bund-ks-30__c0103"
+"vorher": "bund-ks-30__c0098",
+"nachher": "bund-ks-30__c0100"
 },
 {
-"id": "bund-ks-30__c0103",
+"id": "bund-ks-30__c0100",
 "titel": "Ziff. 14.2.2 Kinderalimente – Besteuerung beim Empfänger, Abzug beim Leistenden",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2867,11 +2784,11 @@
 ],
 "zusammenfassung": "Unterhaltsbeiträge für minderjährige Kinder sind vom Empfänger voll zu versteuern und vom Leistenden voll abziehbar, aber nur familienrechtlich geschuldete (nicht freiwillige) und effektiv bezahlte.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0102",
-"nachher": "bund-ks-30__c0104"
+"vorher": "bund-ks-30__c0099",
+"nachher": "bund-ks-30__c0101"
 },
 {
-"id": "bund-ks-30__c0104",
+"id": "bund-ks-30__c0101",
 "titel": "Ziff. 14.2.2 Indirekte Zahlungen, Kapitalleistung und Unterhalt volljähriger Kinder",
 "pfad": [
 "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -2896,11 +2813,11 @@
 ],
 "zusammenfassung": "Unterhaltsbeiträge an das volljährige Kind in Ausbildung sind steuerfrei (Art. 24 Bst. e DBG) und beim Leistenden nicht abziehbar (Art. 34 Bst. a DBG); Kapitalleistungen sind weder abziehbar noch steuerbar.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0103",
-"nachher": "bund-ks-30__c0105"
+"vorher": "bund-ks-30__c0100",
+"nachher": "bund-ks-30__c0102"
 },
 {
-"id": "bund-ks-30__c0105",
+"id": "bund-ks-30__c0102",
 "titel": "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt",
 "pfad": [
 "14 Familienkonstellationen",
@@ -2925,11 +2842,11 @@
 ],
 "zusammenfassung": "Der Elternteil mit Sorge und Unterhaltsempfang erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 bei alternierender Obhut (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0104",
-"nachher": "bund-ks-30__c0106"
+"vorher": "bund-ks-30__c0101",
+"nachher": "bund-ks-30__c0103"
 },
 {
-"id": "bund-ks-30__c0106",
+"id": "bund-ks-30__c0103",
 "titel": "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt – Abzüge",
 "pfad": [
 "14 Familienkonstellationen",
@@ -2955,11 +2872,11 @@
 ],
 "zusammenfassung": "Abzüge: Der Elternteil mit Sorge und Unterhaltsempfang erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 bei alternierender Obhut (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0105",
-"nachher": "bund-ks-30__c0107"
+"vorher": "bund-ks-30__c0102",
+"nachher": "bund-ks-30__c0104"
 },
 {
-"id": "bund-ks-30__c0107",
+"id": "bund-ks-30__c0104",
 "titel": "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -2980,11 +2897,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Der Elternteil mit Sorge und Unterhaltsempfang erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 bei alternierender Obhut (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0106",
-"nachher": "bund-ks-30__c0108"
+"vorher": "bund-ks-30__c0103",
+"nachher": "bund-ks-30__c0105"
 },
 {
-"id": "bund-ks-30__c0108",
+"id": "bund-ks-30__c0105",
 "titel": "Ziff. 14.4 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3009,11 +2926,11 @@
 ],
 "zusammenfassung": "Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug; Elterntarif für den Elternteil, der mit dem Kind lebt bzw. bei alternierender Obhut hauptsächlich aufkommt (in der Regel höheres Einkommen); Drittbetreuung je max. 5'050 (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0107",
-"nachher": "bund-ks-30__c0109"
+"vorher": "bund-ks-30__c0104",
+"nachher": "bund-ks-30__c0106"
 },
 {
-"id": "bund-ks-30__c0109",
+"id": "bund-ks-30__c0106",
 "titel": "Ziff. 14.4 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3034,11 +2951,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug; Elterntarif für den Elternteil, der mit dem Kind lebt bzw. bei alternierender Obhut hauptsächlich aufkommt (in der Regel höheres Einkommen); Drittbetreuung je max. 5'050 (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0108",
-"nachher": "bund-ks-30__c0110"
+"vorher": "bund-ks-30__c0105",
+"nachher": "bund-ks-30__c0107"
 },
 {
-"id": "bund-ks-30__c0110",
+"id": "bund-ks-30__c0107",
 "titel": "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3063,11 +2980,11 @@
 ],
 "zusammenfassung": "Der Unterhaltsempfänger versteuert die Alimente, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0109",
-"nachher": "bund-ks-30__c0111"
+"vorher": "bund-ks-30__c0106",
+"nachher": "bund-ks-30__c0108"
 },
 {
-"id": "bund-ks-30__c0111",
+"id": "bund-ks-30__c0108",
 "titel": "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3091,11 +3008,11 @@
 ],
 "zusammenfassung": "Abzüge: Der Unterhaltsempfänger versteuert die Alimente, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0110",
-"nachher": "bund-ks-30__c0112"
+"vorher": "bund-ks-30__c0107",
+"nachher": "bund-ks-30__c0109"
 },
 {
-"id": "bund-ks-30__c0112",
+"id": "bund-ks-30__c0109",
 "titel": "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3116,11 +3033,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Der Unterhaltsempfänger versteuert die Alimente, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0111",
-"nachher": "bund-ks-30__c0113"
+"vorher": "bund-ks-30__c0108",
+"nachher": "bund-ks-30__c0110"
 },
 {
-"id": "bund-ks-30__c0113",
+"id": "bund-ks-30__c0110",
 "titel": "Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3144,11 +3061,11 @@
 ],
 "zusammenfassung": "Der Elternteil mit elterlicher Sorge erhält Kinderabzug, Versicherungsabzug, Drittbetreuungsabzug und Elterntarif, der andere Grundtarif; aus Billigkeit ggf. der unterhaltende Elternteil, wenn der Sorgeberechtigte keine Einkünfte hat.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0112",
-"nachher": "bund-ks-30__c0114"
+"vorher": "bund-ks-30__c0109",
+"nachher": "bund-ks-30__c0111"
 },
 {
-"id": "bund-ks-30__c0114",
+"id": "bund-ks-30__c0111",
 "titel": "Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3168,11 +3085,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Der Elternteil mit elterlicher Sorge erhält Kinderabzug, Versicherungsabzug, Drittbetreuungsabzug und Elterntarif, der andere Grundtarif; aus Billigkeit ggf. der unterhaltende Elternteil, wenn der Sorgeberechtigte keine Einkünfte hat.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0113",
-"nachher": "bund-ks-30__c0115"
+"vorher": "bund-ks-30__c0110",
+"nachher": "bund-ks-30__c0112"
 },
 {
-"id": "bund-ks-30__c0115",
+"id": "bund-ks-30__c0112",
 "titel": "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3197,11 +3114,11 @@
 ],
 "zusammenfassung": "Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100); der Zahlende wird zum Grundtarif besteuert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0114",
-"nachher": "bund-ks-30__c0116"
+"vorher": "bund-ks-30__c0111",
+"nachher": "bund-ks-30__c0113"
 },
 {
-"id": "bund-ks-30__c0116",
+"id": "bund-ks-30__c0113",
 "titel": "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3225,11 +3142,11 @@
 ],
 "zusammenfassung": "Abzüge: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100); der Zahlende wird zum Grundtarif besteuert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0115",
-"nachher": "bund-ks-30__c0117"
+"vorher": "bund-ks-30__c0112",
+"nachher": "bund-ks-30__c0114"
 },
 {
-"id": "bund-ks-30__c0117",
+"id": "bund-ks-30__c0114",
 "titel": "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3249,11 +3166,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100); der Zahlende wird zum Grundtarif besteuert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0116",
-"nachher": "bund-ks-30__c0118"
+"vorher": "bund-ks-30__c0113",
+"nachher": "bund-ks-30__c0115"
 },
 {
-"id": "bund-ks-30__c0118",
+"id": "bund-ks-30__c0115",
 "titel": "Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3277,11 +3194,11 @@
 ],
 "zusammenfassung": "Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug und kann max. 5'050 Drittbetreuung abziehen; Elterntarif für den Elternteil, der hauptsächlich aufkommt (in der Regel mit höherem Einkommen).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0117",
-"nachher": "bund-ks-30__c0119"
+"vorher": "bund-ks-30__c0114",
+"nachher": "bund-ks-30__c0116"
 },
 {
-"id": "bund-ks-30__c0119",
+"id": "bund-ks-30__c0116",
 "titel": "Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3301,11 +3218,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug und kann max. 5'050 Drittbetreuung abziehen; Elterntarif für den Elternteil, der hauptsächlich aufkommt (in der Regel mit höherem Einkommen).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0118",
-"nachher": "bund-ks-30__c0120"
+"vorher": "bund-ks-30__c0115",
+"nachher": "bund-ks-30__c0117"
 },
 {
-"id": "bund-ks-30__c0120",
+"id": "bund-ks-30__c0117",
 "titel": "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3329,11 +3246,11 @@
 ],
 "zusammenfassung": "Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif, der Zahlende Grundtarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0119",
-"nachher": "bund-ks-30__c0121"
+"vorher": "bund-ks-30__c0116",
+"nachher": "bund-ks-30__c0118"
 },
 {
-"id": "bund-ks-30__c0121",
+"id": "bund-ks-30__c0118",
 "titel": "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3358,11 +3275,11 @@
 ],
 "zusammenfassung": "Abzüge: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif, der Zahlende Grundtarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0120",
-"nachher": "bund-ks-30__c0122"
+"vorher": "bund-ks-30__c0117",
+"nachher": "bund-ks-30__c0119"
 },
 {
-"id": "bund-ks-30__c0122",
+"id": "bund-ks-30__c0119",
 "titel": "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3382,11 +3299,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif, der Zahlende Grundtarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0121",
-"nachher": "bund-ks-30__c0123"
+"vorher": "bund-ks-30__c0118",
+"nachher": "bund-ks-30__c0120"
 },
 {
-"id": "bund-ks-30__c0123",
+"id": "bund-ks-30__c0120",
 "titel": "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3411,11 +3328,11 @@
 ],
 "zusammenfassung": "Unterhaltsbeiträge an das volljährige Kind sind steuerfrei und nicht abziehbar; der leistende Elternteil (bei beiden: höhere Leistung) erhält den Kinderabzug, der andere ggf. den Unterstützungsabzug; Elterntarif für den Elternteil, bei dem das Kind lebt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0122",
-"nachher": "bund-ks-30__c0124"
+"vorher": "bund-ks-30__c0119",
+"nachher": "bund-ks-30__c0121"
 },
 {
-"id": "bund-ks-30__c0124",
+"id": "bund-ks-30__c0121",
 "titel": "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen – Abzüge",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3440,11 +3357,11 @@
 ],
 "zusammenfassung": "Abzüge: Unterhaltsbeiträge an das volljährige Kind sind steuerfrei und nicht abziehbar; der leistende Elternteil (bei beiden: höhere Leistung) erhält den Kinderabzug, der andere ggf. den Unterstützungsabzug; Elterntarif für den Elternteil, bei dem das Kind lebt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0123",
-"nachher": "bund-ks-30__c0125"
+"vorher": "bund-ks-30__c0120",
+"nachher": "bund-ks-30__c0122"
 },
 {
-"id": "bund-ks-30__c0125",
+"id": "bund-ks-30__c0122",
 "titel": "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3464,11 +3381,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Unterhaltsbeiträge an das volljährige Kind sind steuerfrei und nicht abziehbar; der leistende Elternteil (bei beiden: höhere Leistung) erhält den Kinderabzug, der andere ggf. den Unterstützungsabzug; Elterntarif für den Elternteil, bei dem das Kind lebt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0124",
-"nachher": "bund-ks-30__c0126"
+"vorher": "bund-ks-30__c0121",
+"nachher": "bund-ks-30__c0123"
 },
 {
-"id": "bund-ks-30__c0126",
+"id": "bund-ks-30__c0123",
 "titel": "Ziff. 14.11 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, keine Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3494,12 +3411,12 @@
 ],
 "zusammenfassung": "Der Elternteil, bei dem das Kind lebt und dessen Unterhalt er zur Hauptsache bestreitet, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der andere Elternteil Grundtarif.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0125",
-"nachher": "bund-ks-30__c0127"
+"vorher": "bund-ks-30__c0122",
+"nachher": "bund-ks-30__c0124"
 },
 {
-"id": "bund-ks-30__c0127",
-"titel": "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 1/3)",
+"id": "bund-ks-30__c0124",
+"titel": "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 1/2)",
 "pfad": [
 "14 Familienkonstellationen",
 "14.12"
@@ -3522,12 +3439,12 @@
 ],
 "zusammenfassung": "Bei Wohnsitzverlegung des Kindes werden beide Elternteile zum Grundtarif besteuert; Kinderabzug für den Leistenden mit höheren Leistungen, der andere ggf. Unterstützungsabzug.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0126",
-"nachher": "bund-ks-30__c0128"
+"vorher": "bund-ks-30__c0123",
+"nachher": "bund-ks-30__c0125"
 },
 {
-"id": "bund-ks-30__c0128",
-"titel": "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 2/3)",
+"id": "bund-ks-30__c0125",
+"titel": "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 2/2)",
 "pfad": [
 "14 Familienkonstellationen",
 "14.12"
@@ -3550,39 +3467,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0127",
-"nachher": "bund-ks-30__c0129"
+"vorher": "bund-ks-30__c0124",
+"nachher": "bund-ks-30__c0126"
 },
 {
-"id": "bund-ks-30__c0129",
-"titel": "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 3/3)",
-"pfad": [
-"14 Familienkonstellationen",
-"14.12"
-],
-"seiten": [
-38
-],
-"artikel": null,
-"ziffer": "14.12",
-"stichworte": [
-"volljähriges Kind eigener Wohnsitz",
-"Wohnsitz verlegt",
-"Kinderabzug",
-"Grundtarif",
-"Versicherungsabzug Nachweis"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0128",
-"nachher": "bund-ks-30__c0130"
-},
-{
-"id": "bund-ks-30__c0130",
+"id": "bund-ks-30__c0126",
 "titel": "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3606,11 +3495,11 @@
 ],
 "zusammenfassung": "Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Elterntarif und den Versicherungsabzug für das Kind; der andere Elternteil wird zum Grundtarif besteuert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0129",
-"nachher": "bund-ks-30__c0131"
+"vorher": "bund-ks-30__c0125",
+"nachher": "bund-ks-30__c0127"
 },
 {
-"id": "bund-ks-30__c0131",
+"id": "bund-ks-30__c0127",
 "titel": "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Abzüge",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3635,11 +3524,11 @@
 ],
 "zusammenfassung": "Abzüge: Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Elterntarif und den Versicherungsabzug für das Kind; der andere Elternteil wird zum Grundtarif besteuert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0130",
-"nachher": "bund-ks-30__c0132"
+"vorher": "bund-ks-30__c0126",
+"nachher": "bund-ks-30__c0128"
 },
 {
-"id": "bund-ks-30__c0132",
+"id": "bund-ks-30__c0128",
 "titel": "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3659,11 +3548,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Elterntarif und den Versicherungsabzug für das Kind; der andere Elternteil wird zum Grundtarif besteuert.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0131",
-"nachher": "bund-ks-30__c0133"
+"vorher": "bund-ks-30__c0127",
+"nachher": "bund-ks-30__c0129"
 },
 {
-"id": "bund-ks-30__c0133",
+"id": "bund-ks-30__c0129",
 "titel": "Ziff. 14.14 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, keine Unterhaltszahlungen",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3687,11 +3576,11 @@
 ],
 "zusammenfassung": "Der Elternteil mit den höheren finanziellen Leistungen (in der Regel höheres Einkommen) erhält Kinderabzug, Versicherungsabzug und Elterntarif; der andere Grundtarif.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0132",
-"nachher": "bund-ks-30__c0134"
+"vorher": "bund-ks-30__c0128",
+"nachher": "bund-ks-30__c0130"
 },
 {
-"id": "bund-ks-30__c0134",
+"id": "bund-ks-30__c0130",
 "titel": "Ziff. 14.14 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, keine Unterhaltszahlungen – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3711,11 +3600,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Der Elternteil mit den höheren finanziellen Leistungen (in der Regel höheres Einkommen) erhält Kinderabzug, Versicherungsabzug und Elterntarif; der andere Grundtarif.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0133",
-"nachher": "bund-ks-30__c0135"
+"vorher": "bund-ks-30__c0129",
+"nachher": "bund-ks-30__c0131"
 },
 {
-"id": "bund-ks-30__c0135",
+"id": "bund-ks-30__c0131",
 "titel": "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16)",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3739,11 +3628,11 @@
 ],
 "zusammenfassung": "Bei volljährigem Kind mit eigenem Wohnsitz werden beide Elternteile zum Grundtarif besteuert; bei nicht gemeinsamem Kind gelten die Regeln der Ziff. 14.3, 14.4, 14.5, 14.10, 14.11 und 14.12 aus Sicht des jeweiligen Elternteils.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0134",
-"nachher": "bund-ks-30__c0136"
+"vorher": "bund-ks-30__c0130",
+"nachher": "bund-ks-30__c0132"
 },
 {
-"id": "bund-ks-30__c0136",
+"id": "bund-ks-30__c0132",
 "titel": "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Abzüge",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3768,11 +3657,11 @@
 ],
 "zusammenfassung": "Abzüge: Bei volljährigem Kind mit eigenem Wohnsitz werden beide Elternteile zum Grundtarif besteuert; bei nicht gemeinsamem Kind gelten die Regeln der Ziff. 14.3, 14.4, 14.5, 14.10, 14.11 und 14.12 aus Sicht des jeweiligen Elternteils.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0135",
-"nachher": "bund-ks-30__c0137"
+"vorher": "bund-ks-30__c0131",
+"nachher": "bund-ks-30__c0133"
 },
 {
-"id": "bund-ks-30__c0137",
+"id": "bund-ks-30__c0133",
 "titel": "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Tarife",
 "pfad": [
 "14 Familienkonstellationen",
@@ -3792,11 +3681,11 @@
 "positionen": [],
 "zusammenfassung": "Tarifzuteilung: Bei volljährigem Kind mit eigenem Wohnsitz werden beide Elternteile zum Grundtarif besteuert; bei nicht gemeinsamem Kind gelten die Regeln der Ziff. 14.3, 14.4, 14.5, 14.10, 14.11 und 14.12 aus Sicht des jeweiligen Elternteils.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0136",
-"nachher": "bund-ks-30__c0138"
+"vorher": "bund-ks-30__c0132",
+"nachher": "bund-ks-30__c0134"
 },
 {
-"id": "bund-ks-30__c0138",
+"id": "bund-ks-30__c0134",
 "titel": "Ziff. 15.1 Verfahrensrechtliche Stellung der Ehegatten – Grundsatz",
 "pfad": [
 "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -3819,11 +3708,11 @@
 ],
 "zusammenfassung": "Zusammen veranlagte Ehegatten üben ihre Verfahrensrechte und -pflichten gemeinsam aus (Art. 113 Abs. 1 DBG); rechtzeitige Handlungen nur eines Ehegatten wirken auch für den anderen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0137",
-"nachher": "bund-ks-30__c0139"
+"vorher": "bund-ks-30__c0133",
+"nachher": "bund-ks-30__c0135"
 },
 {
-"id": "bund-ks-30__c0139",
+"id": "bund-ks-30__c0135",
 "titel": "Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung (Teil 1/2)",
 "pfad": [
 "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -3847,11 +3736,11 @@
 ],
 "zusammenfassung": "Die Ehegatten unterschreiben die Steuererklärung gemeinsam; fehlt eine Unterschrift, wird nach erfolgloser Aufforderung eine Vertretung vermutet; wer nicht einverstanden ist, muss innert Frist eine separate Steuererklärung einreichen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0138",
-"nachher": "bund-ks-30__c0140"
+"vorher": "bund-ks-30__c0134",
+"nachher": "bund-ks-30__c0136"
 },
 {
-"id": "bund-ks-30__c0140",
+"id": "bund-ks-30__c0136",
 "titel": "Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung (Teil 2/2)",
 "pfad": [
 "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -3875,11 +3764,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0139",
-"nachher": "bund-ks-30__c0141"
+"vorher": "bund-ks-30__c0135",
+"nachher": "bund-ks-30__c0137"
 },
 {
-"id": "bund-ks-30__c0141",
+"id": "bund-ks-30__c0137",
 "titel": "Ziff. 15.3 Rechtsmittel und andere Eingaben",
 "pfad": [
 "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -3902,11 +3791,11 @@
 ],
 "zusammenfassung": "Rechtsmittel und Eingaben gelten als rechtzeitig, wenn nur ein Ehegatte innert Frist gehandelt hat (Art. 113 Abs. 3 DBG); eine Aufforderung zur Doppelunterschrift ist nicht nötig.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0140",
-"nachher": "bund-ks-30__c0142"
+"vorher": "bund-ks-30__c0136",
+"nachher": "bund-ks-30__c0138"
 },
 {
-"id": "bund-ks-30__c0142",
+"id": "bund-ks-30__c0138",
 "titel": "Ziff. 15.4–15.5 Mitteilungen und Vertretung der Ehegatten",
 "pfad": [
 "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -3929,11 +3818,11 @@
 ],
 "zusammenfassung": "Behördliche Mitteilungen gehen an zusammen veranlagte Ehegatten gemeinsam (Art. 113 Abs. 4 DBG), bei Trennung an jeden gesondert (Art. 117 Abs. 4 DBG); vertragliche Vertretung nach Art. 117 DBG.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0141",
-"nachher": "bund-ks-30__c0143"
+"vorher": "bund-ks-30__c0137",
+"nachher": "bund-ks-30__c0139"
 },
 {
-"id": "bund-ks-30__c0143",
+"id": "bund-ks-30__c0139",
 "titel": "Ziff. 15.6 Akteneinsichtsrecht der Ehegatten",
 "pfad": [
 "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -3956,11 +3845,11 @@
 ],
 "zusammenfassung": "Beide Ehegatten dürfen alle gemeinsamen Steuerakten einsehen (Art. 114 Abs. 2 DBG); ab Trennung ist die Einsicht in die Akten des anderen nicht mehr möglich.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0142",
-"nachher": "bund-ks-30__c0144"
+"vorher": "bund-ks-30__c0138",
+"nachher": "bund-ks-30__c0140"
 },
 {
-"id": "bund-ks-30__c0144",
+"id": "bund-ks-30__c0140",
 "titel": "Ziff. 15.7 Verfahrensrechtliche Stellung des überlebenden Ehegatten",
 "pfad": [
 "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -3982,11 +3871,11 @@
 ],
 "zusammenfassung": "Der überlebende Ehegatte tritt als Erbe in die Verfahrensrechte und -pflichten des Verstorbenen ein und ist für das gesamte eheliche Einkommen mitwirkungspflichtig.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0143",
-"nachher": "bund-ks-30__c0145"
+"vorher": "bund-ks-30__c0139",
+"nachher": "bund-ks-30__c0141"
 },
 {
-"id": "bund-ks-30__c0145",
+"id": "bund-ks-30__c0141",
 "titel": "Ziff. 16.1 Steuerstrafrecht – Verletzung von Verfahrenspflichten",
 "pfad": [
 "16 Steuerstrafrecht der Ehegatten",
@@ -4009,11 +3898,11 @@
 ],
 "zusammenfassung": "Jeder Ehegatte macht sich nur nach seinem persönlichen Verschulden strafbar (Art. 174 DBG); die Ehegemeinschaft als solche kann nicht gebüsst werden.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0144",
-"nachher": "bund-ks-30__c0146"
+"vorher": "bund-ks-30__c0140",
+"nachher": "bund-ks-30__c0142"
 },
 {
-"id": "bund-ks-30__c0146",
+"id": "bund-ks-30__c0142",
 "titel": "Ziff. 16.2 Steuerhinterziehung der Ehegatten – Wegfall der Schuldvermutung (Teil 1/2)",
 "pfad": [
 "16 Steuerstrafrecht der Ehegatten",
@@ -4035,11 +3924,11 @@
 "positionen": null,
 "zusammenfassung": "Mit Wirkung ab 1. Januar 2008 wurde die gesetzliche Schuldvermutung zulasten des Ehegatten (Art. 180 Abs. 2 DBG alt) gestrichen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0145",
-"nachher": "bund-ks-30__c0147"
+"vorher": "bund-ks-30__c0141",
+"nachher": "bund-ks-30__c0143"
 },
 {
-"id": "bund-ks-30__c0147",
+"id": "bund-ks-30__c0143",
 "titel": "Ziff. 16.2 Steuerhinterziehung der Ehegatten – Wegfall der Schuldvermutung (Teil 2/2)",
 "pfad": [
 "16 Steuerstrafrecht der Ehegatten",
@@ -4061,11 +3950,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0146",
-"nachher": "bund-ks-30__c0148"
+"vorher": "bund-ks-30__c0142",
+"nachher": "bund-ks-30__c0144"
 },
 {
-"id": "bund-ks-30__c0148",
+"id": "bund-ks-30__c0144",
 "titel": "Ziff. 16.2 Busse nur für eigene Steuerfaktoren; Teilnahme (Art. 177 DBG)",
 "pfad": [
 "16 Steuerstrafrecht der Ehegatten",
@@ -4087,11 +3976,11 @@
 "positionen": null,
 "zusammenfassung": "Jeder Ehegatte kann nur für die Hinterziehung seiner eigenen Steuerfaktoren gebüsst werden; die Unterzeichnung der gemeinsamen Steuererklärung ist für sich keine Teilnahme an der Hinterziehung des Partners.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0147",
-"nachher": "bund-ks-30__c0149"
+"vorher": "bund-ks-30__c0143",
+"nachher": "bund-ks-30__c0145"
 },
 {
-"id": "bund-ks-30__c0149",
+"id": "bund-ks-30__c0145",
 "titel": "Ziff. 17 Inkrafttreten und ersetzte Kreisschreiben",
 "pfad": [
 "17 Inkrafttreten"
@@ -4112,11 +4001,11 @@
 "positionen": null,
 "zusammenfassung": "Das Kreisschreiben gilt für die Steuerperiode 2011 und tritt am 1. Januar 2011 in Kraft; es ersetzt die Kreisschreiben Nr. 7, 13 und 14.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0148",
-"nachher": "bund-ks-30__c0150"
+"vorher": "bund-ks-30__c0144",
+"nachher": "bund-ks-30__c0146"
 },
 {
-"id": "bund-ks-30__c0150",
+"id": "bund-ks-30__c0146",
 "titel": "Beilage 1 Übersicht über die Familienkonstellationen (Entscheidungsbaum) (Teil 1/2)",
 "pfad": [
 "Beilagen",
@@ -4141,11 +4030,11 @@
 ],
 "zusammenfassung": "Grafische Übersicht, welche Ziffer (14.3–14.16) für welche Konstellation gilt (minderjährige und volljährige Kinder, 1 oder 2 Haushalte, mit/ohne Unterhaltszahlungen, mit/ohne gemeinsame Sorge).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0149",
-"nachher": "bund-ks-30__c0151"
+"vorher": "bund-ks-30__c0145",
+"nachher": "bund-ks-30__c0147"
 },
 {
-"id": "bund-ks-30__c0151",
+"id": "bund-ks-30__c0147",
 "titel": "Beilage 1 Übersicht über die Familienkonstellationen (Entscheidungsbaum) (Teil 2/2)",
 "pfad": [
 "Beilagen",
@@ -4170,11 +4059,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0150",
-"nachher": "bund-ks-30__c0152"
+"vorher": "bund-ks-30__c0146",
+"nachher": "bund-ks-30__c0148"
 },
 {
-"id": "bund-ks-30__c0152",
+"id": "bund-ks-30__c0148",
 "titel": "Beilage 2 Seite 1/13 Normalfall Ehepaar mit minderjährigem Kind",
 "pfad": [
 "Beilagen",
@@ -4199,12 +4088,12 @@
 ],
 "zusammenfassung": "Ehepaar in ungetrennter Ehe mit minderjährigem Kind: Kinderabzug, Versicherungsabzug und Drittbetreuungskosten von der gemeinsamen Bemessungsgrundlage, gemeinsame Veranlagung mit Elterntarif.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0151",
-"nachher": "bund-ks-30__c0153"
+"vorher": "bund-ks-30__c0147",
+"nachher": "bund-ks-30__c0149"
 },
 {
-"id": "bund-ks-30__c0153",
-"titel": "Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt (Teil 1/3)",
+"id": "bund-ks-30__c0149",
+"titel": "Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt (Teil 1/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4229,12 +4118,12 @@
 ],
 "zusammenfassung": "Zuteilung bei 14.3: Alimenten-Empfänger versteuert, Zahlender zieht ab; Kinderabzug und Versicherungsabzug beim Empfänger; Drittbetreuung je max. 5'050 bei alternierender Obhut, Total 10'100; Elterntarif beim Elternteil mit Sorge.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0152",
-"nachher": "bund-ks-30__c0154"
+"vorher": "bund-ks-30__c0148",
+"nachher": "bund-ks-30__c0150"
 },
 {
-"id": "bund-ks-30__c0154",
-"titel": "Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt (Teil 2/3)",
+"id": "bund-ks-30__c0150",
+"titel": "Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt (Teil 2/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4259,42 +4148,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0153",
-"nachher": "bund-ks-30__c0155"
+"vorher": "bund-ks-30__c0149",
+"nachher": "bund-ks-30__c0151"
 },
 {
-"id": "bund-ks-30__c0155",
-"titel": "Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt (Teil 3/3)",
-"pfad": [
-"Beilagen",
-"Beilage 2 Tabelle Familienkonstellationen"
-],
-"seiten": [
-47
-],
-"artikel": null,
-"ziffer": "Beilage 2, S. 2/13",
-"stichworte": [
-"Ziff. 14.3",
-"Tabelle Zuteilung Abzüge",
-"Unterhaltsempfänger",
-"5'050",
-"10'100"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.drittbetreuung",
-"abzug.versicherungspraemien",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0154",
-"nachher": "bund-ks-30__c0156"
-},
-{
-"id": "bund-ks-30__c0156",
-"titel": "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 1/3)",
+"id": "bund-ks-30__c0151",
+"titel": "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 1/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4318,12 +4177,12 @@
 ],
 "zusammenfassung": "Zuteilung bei 14.4: halber Kinder- und Versicherungsabzug je Elternteil; Drittbetreuung je max. 5'050 (Total 10'100); Elterntarif für den Elternteil, der zur Hauptsache aufkommt.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0155",
-"nachher": "bund-ks-30__c0157"
+"vorher": "bund-ks-30__c0150",
+"nachher": "bund-ks-30__c0152"
 },
 {
-"id": "bund-ks-30__c0157",
-"titel": "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 2/3)",
+"id": "bund-ks-30__c0152",
+"titel": "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 2/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4347,40 +4206,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0156",
-"nachher": "bund-ks-30__c0158"
+"vorher": "bund-ks-30__c0151",
+"nachher": "bund-ks-30__c0153"
 },
 {
-"id": "bund-ks-30__c0158",
-"titel": "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 3/3)",
-"pfad": [
-"Beilagen",
-"Beilage 2 Tabelle Familienkonstellationen"
-],
-"seiten": [
-48
-],
-"artikel": null,
-"ziffer": "Beilage 2, S. 3/13",
-"stichworte": [
-"Ziff. 14.4",
-"halber Kinderabzug",
-"alternierende Obhut",
-"Elterntarif"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.drittbetreuung",
-"abzug.versicherungspraemien",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0157",
-"nachher": "bund-ks-30__c0159"
-},
-{
-"id": "bund-ks-30__c0159",
+"id": "bund-ks-30__c0153",
 "titel": "Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6 (Teil 1/3)",
 "pfad": [
 "Beilagen",
@@ -4405,11 +4235,11 @@
 ],
 "zusammenfassung": "Zuteilung bei 14.5 (gemeinsame Sorge, mit Unterhalt: Empfänger erhält Abzüge und Elterntarif) und 14.6 (Konkubinat, ohne gemeinsame Sorge, ohne Unterhalt: Elternteil mit Sorge erhält Abzüge und Elterntarif).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0158",
-"nachher": "bund-ks-30__c0160"
+"vorher": "bund-ks-30__c0152",
+"nachher": "bund-ks-30__c0154"
 },
 {
-"id": "bund-ks-30__c0160",
+"id": "bund-ks-30__c0154",
 "titel": "Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6 (Teil 2/3)",
 "pfad": [
 "Beilagen",
@@ -4434,11 +4264,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0159",
-"nachher": "bund-ks-30__c0161"
+"vorher": "bund-ks-30__c0153",
+"nachher": "bund-ks-30__c0155"
 },
 {
-"id": "bund-ks-30__c0161",
+"id": "bund-ks-30__c0155",
 "titel": "Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6 (Teil 3/3)",
 "pfad": [
 "Beilagen",
@@ -4463,12 +4293,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0160",
-"nachher": "bund-ks-30__c0162"
+"vorher": "bund-ks-30__c0154",
+"nachher": "bund-ks-30__c0156"
 },
 {
-"id": "bund-ks-30__c0162",
-"titel": "Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt (Teil 1/3)",
+"id": "bund-ks-30__c0156",
+"titel": "Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt (Teil 1/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4492,12 +4322,12 @@
 ],
 "zusammenfassung": "Zuteilung bei 14.7: Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; Drittbetreuung je max. 5'050 (Total 10'100); Zahlender Grundtarif.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0161",
-"nachher": "bund-ks-30__c0163"
+"vorher": "bund-ks-30__c0155",
+"nachher": "bund-ks-30__c0157"
 },
 {
-"id": "bund-ks-30__c0163",
-"titel": "Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt (Teil 2/3)",
+"id": "bund-ks-30__c0157",
+"titel": "Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt (Teil 2/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4521,41 +4351,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0162",
-"nachher": "bund-ks-30__c0164"
+"vorher": "bund-ks-30__c0156",
+"nachher": "bund-ks-30__c0158"
 },
 {
-"id": "bund-ks-30__c0164",
-"titel": "Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt (Teil 3/3)",
-"pfad": [
-"Beilagen",
-"Beilage 2 Tabelle Familienkonstellationen"
-],
-"seiten": [
-50
-],
-"artikel": null,
-"ziffer": "Beilage 2, S. 5/13",
-"stichworte": [
-"Ziff. 14.7",
-"Konkubinat",
-"Unterhaltsempfänger",
-"5'050"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.drittbetreuung",
-"abzug.versicherungspraemien",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0163",
-"nachher": "bund-ks-30__c0165"
-},
-{
-"id": "bund-ks-30__c0165",
-"titel": "Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt (Teil 1/3)",
+"id": "bund-ks-30__c0158",
+"titel": "Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt (Teil 1/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4579,12 +4380,12 @@
 ],
 "zusammenfassung": "Zuteilung bei 14.8: halber Kinder- und Versicherungsabzug je Elternteil, Drittbetreuung je max. 5'050 (Total 10'100); Elterntarif für den hauptsächlich aufkommenden Elternteil (höheres Einkommen).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0164",
-"nachher": "bund-ks-30__c0166"
+"vorher": "bund-ks-30__c0157",
+"nachher": "bund-ks-30__c0159"
 },
 {
-"id": "bund-ks-30__c0166",
-"titel": "Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt (Teil 2/3)",
+"id": "bund-ks-30__c0159",
+"titel": "Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt (Teil 2/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4608,41 +4409,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0165",
-"nachher": "bund-ks-30__c0167"
+"vorher": "bund-ks-30__c0158",
+"nachher": "bund-ks-30__c0160"
 },
 {
-"id": "bund-ks-30__c0167",
-"titel": "Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt (Teil 3/3)",
-"pfad": [
-"Beilagen",
-"Beilage 2 Tabelle Familienkonstellationen"
-],
-"seiten": [
-51
-],
-"artikel": null,
-"ziffer": "Beilage 2, S. 6/13",
-"stichworte": [
-"Ziff. 14.8",
-"Konkubinat",
-"halber Kinderabzug",
-"höheres Einkommen"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.drittbetreuung",
-"abzug.versicherungspraemien",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0166",
-"nachher": "bund-ks-30__c0168"
-},
-{
-"id": "bund-ks-30__c0168",
-"titel": "Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt (Teil 1/3)",
+"id": "bund-ks-30__c0160",
+"titel": "Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt (Teil 1/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4666,12 +4438,12 @@
 ],
 "zusammenfassung": "Zuteilung bei 14.9: Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; Drittbetreuung je max. 5'050 (Total 10'100); Zahlender Grundtarif.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0167",
-"nachher": "bund-ks-30__c0169"
+"vorher": "bund-ks-30__c0159",
+"nachher": "bund-ks-30__c0161"
 },
 {
-"id": "bund-ks-30__c0169",
-"titel": "Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt (Teil 2/3)",
+"id": "bund-ks-30__c0161",
+"titel": "Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt (Teil 2/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4695,41 +4467,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0168",
-"nachher": "bund-ks-30__c0170"
+"vorher": "bund-ks-30__c0160",
+"nachher": "bund-ks-30__c0162"
 },
 {
-"id": "bund-ks-30__c0170",
-"titel": "Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt (Teil 3/3)",
-"pfad": [
-"Beilagen",
-"Beilage 2 Tabelle Familienkonstellationen"
-],
-"seiten": [
-52
-],
-"artikel": null,
-"ziffer": "Beilage 2, S. 7/13",
-"stichworte": [
-"Ziff. 14.9",
-"Konkubinat",
-"Unterhaltsempfänger",
-"5'050"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.drittbetreuung",
-"abzug.versicherungspraemien",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0169",
-"nachher": "bund-ks-30__c0171"
-},
-{
-"id": "bund-ks-30__c0171",
-"titel": "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 1/4)",
+"id": "bund-ks-30__c0162",
+"titel": "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 1/3)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4754,12 +4497,12 @@
 ],
 "zusammenfassung": "Bei volljährigem Kind in Erstausbildung nur bei fehlendem selbständigem Einkommen Abzüge; Elterntarif nur bei Wohnsitz bei den Eltern; 14.10: Leistender erhält Kinderabzug, Elternteil mit Kind-Wohnsitz den Elterntarif.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0170",
-"nachher": "bund-ks-30__c0172"
+"vorher": "bund-ks-30__c0161",
+"nachher": "bund-ks-30__c0163"
 },
 {
-"id": "bund-ks-30__c0172",
-"titel": "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 2/4)",
+"id": "bund-ks-30__c0163",
+"titel": "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 2/3)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4784,12 +4527,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0171",
-"nachher": "bund-ks-30__c0173"
+"vorher": "bund-ks-30__c0162",
+"nachher": "bund-ks-30__c0164"
 },
 {
-"id": "bund-ks-30__c0173",
-"titel": "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 3/4)",
+"id": "bund-ks-30__c0164",
+"titel": "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 3/3)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4814,42 +4557,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0172",
-"nachher": "bund-ks-30__c0174"
+"vorher": "bund-ks-30__c0163",
+"nachher": "bund-ks-30__c0165"
 },
 {
-"id": "bund-ks-30__c0174",
-"titel": "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 4/4)",
-"pfad": [
-"Beilagen",
-"Beilage 2 Tabelle Familienkonstellationen"
-],
-"seiten": [
-53
-],
-"artikel": null,
-"ziffer": "Beilage 2, S. 8/13",
-"stichworte": [
-"volljähriges Kind",
-"Ziff. 14.10",
-"Erstausbildung",
-"selbständiger Lebensunterhalt",
-"Unterstützungsabzug"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.drittbetreuung",
-"abzug.versicherungspraemien",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0173",
-"nachher": "bund-ks-30__c0175"
-},
-{
-"id": "bund-ks-30__c0175",
-"titel": "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 1/3)",
+"id": "bund-ks-30__c0165",
+"titel": "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 1/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4873,12 +4586,12 @@
 ],
 "zusammenfassung": "14.11: Elternteil, bei dem das Kind lebt, erhält Kinderabzug, Versicherungsabzug und Elterntarif; 14.12 (Kind mit eigenem Wohnsitz): beide Elternteile Grundtarif.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0174",
-"nachher": "bund-ks-30__c0176"
+"vorher": "bund-ks-30__c0164",
+"nachher": "bund-ks-30__c0166"
 },
 {
-"id": "bund-ks-30__c0176",
-"titel": "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 2/3)",
+"id": "bund-ks-30__c0166",
+"titel": "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 2/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4902,41 +4615,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0175",
-"nachher": "bund-ks-30__c0177"
+"vorher": "bund-ks-30__c0165",
+"nachher": "bund-ks-30__c0167"
 },
 {
-"id": "bund-ks-30__c0177",
-"titel": "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 3/3)",
-"pfad": [
-"Beilagen",
-"Beilage 2 Tabelle Familienkonstellationen"
-],
-"seiten": [
-54
-],
-"artikel": null,
-"ziffer": "Beilage 2, S. 9/13",
-"stichworte": [
-"Ziff. 14.11",
-"Ziff. 14.12",
-"Wohnsitz Kind",
-"Grundtarif beide"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.drittbetreuung",
-"abzug.versicherungspraemien",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0176",
-"nachher": "bund-ks-30__c0178"
-},
-{
-"id": "bund-ks-30__c0178",
-"titel": "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 1/4)",
+"id": "bund-ks-30__c0167",
+"titel": "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 1/3)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4960,12 +4644,12 @@
 ],
 "zusammenfassung": "14.13: Kinderabzugsberechtigter erhält Elterntarif, der andere Grundtarif; 14.14 (keine Unterhaltszahlungen): Elternteil mit höheren finanziellen Leistungen (höheres Einkommen) erhält Abzüge und Elterntarif.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0177",
-"nachher": "bund-ks-30__c0179"
+"vorher": "bund-ks-30__c0166",
+"nachher": "bund-ks-30__c0168"
 },
 {
-"id": "bund-ks-30__c0179",
-"titel": "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 2/4)",
+"id": "bund-ks-30__c0168",
+"titel": "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 2/3)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -4989,12 +4673,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0178",
-"nachher": "bund-ks-30__c0180"
+"vorher": "bund-ks-30__c0167",
+"nachher": "bund-ks-30__c0169"
 },
 {
-"id": "bund-ks-30__c0180",
-"titel": "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 3/4)",
+"id": "bund-ks-30__c0169",
+"titel": "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 3/3)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -5018,41 +4702,12 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0179",
-"nachher": "bund-ks-30__c0181"
+"vorher": "bund-ks-30__c0168",
+"nachher": "bund-ks-30__c0170"
 },
 {
-"id": "bund-ks-30__c0181",
-"titel": "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 4/4)",
-"pfad": [
-"Beilagen",
-"Beilage 2 Tabelle Familienkonstellationen"
-],
-"seiten": [
-55
-],
-"artikel": null,
-"ziffer": "Beilage 2, S. 10/13",
-"stichworte": [
-"Ziff. 14.13",
-"Ziff. 14.14",
-"Konkubinat",
-"volljährig"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.drittbetreuung",
-"abzug.versicherungspraemien",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0180",
-"nachher": "bund-ks-30__c0182"
-},
-{
-"id": "bund-ks-30__c0182",
-"titel": "Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16 (Teil 1/3)",
+"id": "bund-ks-30__c0170",
+"titel": "Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16 (Teil 1/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -5076,12 +4731,12 @@
 ],
 "zusammenfassung": "14.15 (Kind mit eigenem Wohnsitz): beide Elternteile Grundtarif; 14.16: für nicht gemeinsame Kinder gelten die Regeln der Fälle 14.3–14.5 und 14.10–14.12.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0181",
-"nachher": "bund-ks-30__c0183"
+"vorher": "bund-ks-30__c0169",
+"nachher": "bund-ks-30__c0171"
 },
 {
-"id": "bund-ks-30__c0183",
-"titel": "Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16 (Teil 2/3)",
+"id": "bund-ks-30__c0171",
+"titel": "Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16 (Teil 2/2)",
 "pfad": [
 "Beilagen",
 "Beilage 2 Tabelle Familienkonstellationen"
@@ -5105,40 +4760,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0182",
-"nachher": "bund-ks-30__c0184"
+"vorher": "bund-ks-30__c0170",
+"nachher": "bund-ks-30__c0172"
 },
 {
-"id": "bund-ks-30__c0184",
-"titel": "Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16 (Teil 3/3)",
-"pfad": [
-"Beilagen",
-"Beilage 2 Tabelle Familienkonstellationen"
-],
-"seiten": [
-56
-],
-"artikel": null,
-"ziffer": "Beilage 2, S. 11/13",
-"stichworte": [
-"Ziff. 14.15",
-"Ziff. 14.16",
-"Konkubinat ohne gemeinsames Kind",
-"Grundtarif beide"
-],
-"positionen": [
-"sozialabzug.kinder",
-"abzug.drittbetreuung",
-"abzug.versicherungspraemien",
-"abzug.unterhaltsbeitraege"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0183",
-"nachher": "bund-ks-30__c0185"
-},
-{
-"id": "bund-ks-30__c0185",
+"id": "bund-ks-30__c0172",
 "titel": "Beilage 2 Seite 12/13 Stichtag, unterjährige und beschränkte Steuerpflicht (Teil 1/2)",
 "pfad": [
 "Beilagen",
@@ -5164,11 +4790,11 @@
 ],
 "zusammenfassung": "Stichtag ist der 31.12. bzw. das Ende der Steuerpflicht; bei unterjähriger oder beschränkter Steuerpflicht pro rata temporis bzw. anteilige Reduktion des Steuerbetrags im Verhältnis steuerbares zu satzbestimmendem Einkommen.",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0184",
-"nachher": "bund-ks-30__c0186"
+"vorher": "bund-ks-30__c0171",
+"nachher": "bund-ks-30__c0173"
 },
 {
-"id": "bund-ks-30__c0186",
+"id": "bund-ks-30__c0173",
 "titel": "Beilage 2 Seite 12/13 Stichtag, unterjährige und beschränkte Steuerpflicht (Teil 2/2)",
 "pfad": [
 "Beilagen",
@@ -5194,11 +4820,11 @@
 ],
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0185",
-"nachher": "bund-ks-30__c0187"
+"vorher": "bund-ks-30__c0172",
+"nachher": "bund-ks-30__c0174"
 },
 {
-"id": "bund-ks-30__c0187",
+"id": "bund-ks-30__c0174",
 "titel": "Beilage 2 Seite 13/13 Fussnoten: Beispiel Drittbetreuung und Systematik DBG",
 "pfad": [
 "Beilagen",
@@ -5224,7 +4850,7 @@
 ],
 "zusammenfassung": "Beispiel Drittbetreuung (6'000 / 9'000, Max. 10'100: 4'040 + 6'060) und Systematik der Einkommensbegriffe (Brutto-, Netto-, Reineinkommen, steuerbares Einkommen).",
 "chunking": "semantisch (Agent-Plan)",
-"vorher": "bund-ks-30__c0186",
+"vorher": "bund-ks-30__c0173",
 "nachher": null
 }
 ]

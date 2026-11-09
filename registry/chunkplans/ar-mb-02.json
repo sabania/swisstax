@@ -1,0 +1,85 @@
+{
+ "id": "ar-mb-02",
+ "hinweise": [
+  "Kontaktblock Seite 1 im ersten Chunk belassen."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Merkblatt 02 Kinderabzug – Ziff. 1 Grundvoraussetzungen",
+   "pfad": [
+    "1. Grundvoraussetzungen"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Kinderabzug",
+    "Voraussetzungen",
+    "Erstausbildung",
+    "Unterhaltspflicht",
+    "minderjährig",
+    "Art. 35 lit. c StG"
+   ],
+   "positionen": [
+    "sozialabzug.kinder"
+   ],
+   "zusammenfassung": "Kumulativ: Kindesverhältnis und Unterhaltspflicht, minderjährig oder Erstausbildung (max. 26. Altersjahr), hauptsächlicher Unterhalt, kein Abzug für Unterhaltsbeiträge."
+  },
+  {
+   "start": 49,
+   "titel": "Ziff. 2 Höhe des Kinderabzugs (Fr. 5'000 / 7'000 / 11'000)",
+   "pfad": [
+    "2. Höhe des Kinderabzuges"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "Kinderabzug Höhe",
+    "Kind unter 4 Jahren",
+    "Kind bis 15 Jahre",
+    "volljähriges Kind Ausbildung",
+    "Lehrling Student"
+   ],
+   "positionen": [
+    "sozialabzug.kinder"
+   ],
+   "zusammenfassung": "Fr. 5'000 bis 4. Altersjahr, Fr. 7'000 bis 15. Altersjahr, Fr. 11'000 danach bis Volljährigkeit und für volljährige Kinder in Ausbildung bis 26."
+  },
+  {
+   "start": 61,
+   "titel": "Ziff. 3 Häufige Fragen – volljährige Kinder, Stichtagsprinzip",
+   "pfad": [
+    "3. Häufige Fragen"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "volljähriges Kind Einkünfte",
+    "Fr. 18'000",
+    "Reinvermögen Fr. 250'000",
+    "Stichtagsprinzip",
+    "Sozialabzug"
+   ],
+   "positionen": [
+    "sozialabzug.kinder"
+   ],
+   "zusammenfassung": "Kinderabzug entfällt bei Einkünften des Kindes über Fr. 18'000 (davon Fr. 6'000 frei verfügbar) oder Reinvermögen über Fr. 250'000; Stichtagsprinzip am Periodenende."
+  },
+  {
+   "start": 84,
+   "titel": "Ausbildungskosten Kinder – im Kinderabzug abgegolten",
+   "pfad": [
+    "3. Häufige Fragen",
+    "Ausbildungskosten Kinder"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "Ausbildungskosten Kinder",
+    "Schulgeld",
+    "Lebenshaltungskosten",
+    "abschliessend pauschal"
+   ],
+   "positionen": [
+    "sozialabzug.kinder"
+   ],
+   "zusammenfassung": "Lebenshaltungs- und Ausbildungskosten sind pauschal und abschliessend im Kinderabzug berücksichtigt; Schulgelder nicht abziehbar."
+  }
+ ]
+}

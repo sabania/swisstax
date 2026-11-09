@@ -4,20 +4,20 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 38"
-seiten: "9"
+titel: "Ziff. 5.2.1 Kosten minderjähriger oder in Ausbildung stehender Kinder"
+ziffer: "5.2.1"
+seiten: "11-12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 11a · 5 Abzugsfähige Kosten › 5.2 Kosten der unterhaltenen Person · S. 11–12
 
-schliesslich öffentliche Verkehrsmittel benützt hätte, dies nun aber behinderungsbedingt nicht
-tun kann. In diesem Fall sind die im Vergleich zur Benützung öffentlicher Verkehrsmittel entste
-henden Mehrkosten der Benutzung eines Motorfahrzeugs abzugsfähig (vgl. StRK ZH vom
-18. Juni 2003 [Zürcher Steuerpraxis ZStP 2004, 213 f.]).
-Mehrkosten für Taxifahrten sind nur abzugsfähig, wenn mit ärztlicher Bescheinigung belegt ist,
-dass die Benützung öffentlicher Verkehrsmittel, eines Fahrdienstes für Personen mit Behinde
-rung oder eines privaten Motorfahrzeuges nicht möglich oder nicht zumutbar ist.
-Kosten der Fahrt zum Arbeitsplatz sind nur in dem Umfang als behinderungsbedingte Kosten
-abzugsfähig, in welchem sie den Gewinnungskostenabzug übersteigen (vgl. bspw. Urteil der
-damaligen Steuerrekurskommission des Kantons Zürich vom 18. Juni 2003 [Zürcher Steuerpra
-xis ZStP 2004, 214]). Vermag eine Person mit Behinderung glaubhaft zu machen, dass sie be
+5.2   Kosten der unterhaltenen Person
+
+5.2.1   Minderjährige oder in Ausbildung stehende Kinder
+Abgezogen werden können die krankheits- und unfallbedingten sowie die behinderungsbeding
+ten Kosten von minderjährigen oder in der beruflichen Ausbildung stehenden Kindern, für deren
+Unterhalt die steuerpflichtige Person sorgt. Diese Kosten können zusätzlich zum Kinderabzug
+gemäss Artikel 35 Absatz 1 Buchstabe a DBG geltend gemacht werden.
+Keine unterhaltenen Personen im Sinne von Artikel 33 Absatz 1 Buchstabe h und hbis DBG sind
+Kinder, für welche die steuerpflichtige Person Unterhaltsbeiträge gestützt auf Artikel 33 Ab
+satz 1 Buchstabe c DBG zum Abzug bringt.

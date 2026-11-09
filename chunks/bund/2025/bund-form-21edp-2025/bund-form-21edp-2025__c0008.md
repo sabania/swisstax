@@ -4,13 +4,12 @@ quelle: bund-form-21edp-2025
 jur: bund
 jahre: [2025]
 typ: formular
-titel: "Formular 21 EDP 2025 – Abschnitt 8"
+titel: "Fussnoten 1–3 zu Formular 21 EDP (Lohnausweis, erstes Vorsorgeverhältnis, Eigenverantwortung)"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · S. 2
+> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · Fussnoten · S. 2
 
-<!-- Seite 2 -->
 1 Bei Arbeitnehmern/Arbeitnehmerinnen sind alle vom Lohn abgezogenen Beiträge durch den/die Arbeitgeber/in im Lohn-
 
 

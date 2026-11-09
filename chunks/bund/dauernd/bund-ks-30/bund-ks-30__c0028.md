@@ -4,7 +4,7 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 2/3)"
+titel: "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 2/2)"
 ziffer: "7"
 seiten: "11-12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
@@ -20,3 +20,7 @@ pflichtige, die keine Beiträge an die berufliche Vorsorge oder an die gebundene
 leisten bzw. leisten können, benachteiligt werden. Dies trifft insbesondere auf AHV-Rentner
 oder Nichterwerbstätige zu, die höheren Versicherungskosten oder einem höheren Vorsor-
 gebedarf unterliegen als Steuerpflichtige mit Beiträgen an die Säule 2 und 3a.
+
+Die Abzüge erhöhen sich zudem um einen bestimmten Betrag für jedes Kind und für jede
+unterstützungsbedürftige Person, für die ein Kinderabzug oder ein Unterstützungsabzug
+nach Artikel 35 Absatz 1 Buchstabe a bzw. b DBG geltend gemacht werden kann.

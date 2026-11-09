@@ -4,21 +4,20 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 22"
-seiten: "10"
+titel: "Rz 22–25 Ziffer 2.2 – Kostenübernahme, effektive Erfassung, Feld F (Teil 2/2)"
+ziffer: "2.2 / 22–25"
+seiten: "10-11"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 10
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2.2 Privatanteil Geschäftsfahrzeug · S. 10–11
 
-<!-- Seite 10 -->
-Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+rechnet, dass die Anzahl der privat gefahrenen Kilometer (inklusive Arbeitsweg) mit dem ent
+sprechenden Kilometeransatz multipliziert wird (z. B. 8’500 Privatkilometer x 75 Rappen =
+CHF 6’375).
 
-cherweise zu bezahlende bzw. der üblicherweise ausgehandelte Wert. Weitere vom Arbeit
-geber nicht selbst bewertbare Gehaltsnebenleistungen sind unter Ziffer 14 des Lohnauswei
-ses anzugeben.
+In Fällen, in denen der Privatgebrauch erheblich eingeschränkt ist, z. B. durch fest instal   24
+lierte Vorrichtungen für den Transport von Werkzeugen ist keine Aufrechnung für den Privat
+anteil des Geschäftsfahrzeugs vorzunehmen.
 
-Ist der Arbeitnehmer verpflichtet, einen Teil dieser Auslagen selber zu bezahlen bzw. dem
-Arbeitgeber zurückzuerstatten, ist lediglich der vom Arbeitgeber übernommene Differenzbe
-trag einzutragen.
-
-Verpflegung und Unterkunft (Zimmer)   Ziffer 2.1
+In allen Fällen ist im Lohnausweis grundsätzlich das Feld F (unentgeltliche Beförderung zwi   25
+schen Wohn- und Arbeitsort) anzukreuzen (vgl. Rz 9).

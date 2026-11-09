@@ -1,63 +1,107 @@
 [
 {
 "id": "ar-tarif-np__c0001",
-"titel": "Tarif NP AR ab 2024 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Einkommenssteuertarif 2024 (Art. 39 StG) – Verheirateten- und Alleinstehendentarif (Teil 1/3)",
+"pfad": [
+"1. Einkommenssteuer"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Einkommenssteuertarif",
+"Steuertarif AR",
+"Grundtarif",
+"Verheiratetentarif",
+"Alleinstehendentarif",
+"kalte Progression"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Stufentarif von 0,00 % (erste Fr. 16'700 Verheiratete, Fr. 8'300 Alleinstehende) bis 2,60 % des steuerbaren Einkommens über Fr. 417'200 bzw. Fr. 260'800; Restbeträge unter Fr. 100.– fallen ausser Betracht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "ar-tarif-np__c0002"
 },
 {
 "id": "ar-tarif-np__c0002",
-"titel": "Tarif NP AR ab 2024 – Abschnitt 2",
-"pfad": [],
+"titel": "Einkommenssteuertarif 2024 (Art. 39 StG) – Verheirateten- und Alleinstehendentarif (Teil 2/3)",
+"pfad": [
+"1. Einkommenssteuer"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Einkommenssteuertarif",
+"Steuertarif AR",
+"Grundtarif",
+"Verheiratetentarif",
+"Alleinstehendentarif",
+"kalte Progression"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-tarif-np__c0001",
 "nachher": "ar-tarif-np__c0003"
 },
 {
 "id": "ar-tarif-np__c0003",
-"titel": "Tarif NP AR ab 2024 – Abschnitt 3",
-"pfad": [],
+"titel": "Einkommenssteuertarif 2024 (Art. 39 StG) – Verheirateten- und Alleinstehendentarif (Teil 3/3)",
+"pfad": [
+"1. Einkommenssteuer"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Einkommenssteuertarif",
+"Steuertarif AR",
+"Grundtarif",
+"Verheiratetentarif",
+"Alleinstehendentarif",
+"kalte Progression"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-tarif-np__c0002",
 "nachher": "ar-tarif-np__c0004"
 },
 {
 "id": "ar-tarif-np__c0004",
-"titel": "Tarif NP AR ab 2024 – Abschnitt 4",
-"pfad": [],
+"titel": "Vermögenssteuertarif (Art. 52 StG) – 0,50 / 0,55 Promille",
+"pfad": [
+"2. Vermögenssteuer"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Vermögenssteuer",
+"Vermögenssteuertarif",
+"Promille",
+"Fr. 250 000"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Einfache Steuer 0,50 Promille bis Fr. 250 000, 0,55 Promille darüber; Restbeträge unter Fr. 1000.– fallen ausser Betracht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-tarif-np__c0003",
 "nachher": null
 }

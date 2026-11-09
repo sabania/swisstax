@@ -4,18 +4,25 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten (Teil 2/3)"
-ziffer: "8.6"
-seiten: "16-17"
+titel: "Ziff. 9.1 Zweiverdienerabzug – Voraussetzungen und Betrag (8'100 bis 13'400)"
+ziffer: "9.1"
+seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.6 Nachweispflicht · S. 16–17
+> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.1 Voraussetzungen · S. 17
 
-Zudem haben die Steuerpflichtigen jeweils den Grund für die Drittbetreuung der Kinder an-
-zugeben. Für die veranlagende Behörde muss ersichtlich sein, ob die Beanspruchung des
-Kinderdrittbetreuungskostenabzuges tatsächlich gerechtfertigt ist. Den steuerpflichtigen El-
-tern obliegt somit die Pflicht aufzuführen, aus welchem der im Gesetz vorgesehenen Gründe
-(Erwerbstätigkeit, Erwerbsunfähigkeit, Ausbildung) sie die Betreuung der Kinder nicht selber
-wahrnehmen konnten. Neben den Kinderdrittbetreuungskosten hat der Steuerpflichtige zu-
-dem auch die Erwerbsunfähigkeit oder die Ausbildung unaufgefordert nachzuweisen, falls
-einer dieser Gründe geltend gemacht wird.
+9   Zweiverdienerabzug
+
+
+9.1   Voraussetzungen
+
+Gemäss dem am 1. Januar 2008 in Kraft getretenen Zweiverdienerabzug (Art. 33 Abs. 2
+DBG) ist vom niedrigeren Erwerbseinkommen der beiden Ehegatten ein Abzug von 50 Pro-
+zent mit einem Mindestansatz von 8’100 Franken und einem Maximalbetrag von 13'400
+Franken zuzulassen. Der Mindestansatz führt dazu, dass auch Ehepaare mit kleineren
+Zweiterwerbseinkommen im Vergleich zum bisherigen Recht trotz Neugestaltung des Zwei-
+verdienerabzugs als Prozentabzug nicht zusätzlich belastet werden. Der Abzug ist an die
+folgenden Voraussetzungen geknüpft:
+
+       die Ehegatten müssen in rechtlich und tatsächlich ungetrennter Ehe leben
+       beide Ehegatten müssen ein Erwerbseinkommen erzielen.

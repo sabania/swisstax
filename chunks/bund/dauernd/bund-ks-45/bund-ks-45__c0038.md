@@ -4,20 +4,26 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 38"
-seiten: "9"
+titel: "Ziff. 3.2.8 Abgangsentschädigungen"
+ziffer: "3.2.8"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.2 Steuerbare Leistungen · S. 13
 
-3.1.2 Arbeitnehmer mit Ansässigkeit im Ausland
-Unabhängig von der Staatsangehörigkeit oder der aufenthaltsrechtlichen Bewilligung ist ein
-Arbeitnehmer (Grenzgänger, Wochen- oder Kurzaufenthalter) mit Ansässigkeit im Ausland
-für seine Lohn- und Ersatzeinkünfte, die ihm von einem Leistungsschuldner mit Wohnsitz,
-Sitz, tatsächlicher Verwaltung, Betriebsstätte oder fester Einrichtung in der Schweiz ausge-
-richtet werden, quellensteuerpflichtig (vgl. Art. 91 Abs. 1 DBG). Das bedeutet, dass ein Ar-
-beitnehmer mit Ansässigkeit im Ausland auch bei Besitz der Schweizer Staatsangehörigkeit
-oder der Niederlassungsbewilligung der Quellensteuerpflicht unterstellt ist. Vorbehalten blei-
-ben anderslautende Bestimmungen im massgebenden DBA.
-Arbeitnehmer ohne Ansässigkeit in der Schweiz, die für Arbeiten im internationalen Verkehr
-an Bord eines Schiffes, eines Luftfahrzeuges oder bei einem Transport auf der Strasse Lohn
+3.2.8 Abgangsentschädigungen
+Abgangsentschädigungen ohne Vorsorgecharakter gelten als steuerbare Leistungen nach
+Artikel 84 Absatz 2 Buchstabe a DBG. Die Besteuerung hat sich dabei an den Grundsätzen
+nach Artikel 15 OECD-MA anzulehnen.
+Haben Abgangsentschädigungen des Arbeitgebers hingegen Vorsorgecharakter und werden
+sie an Personen mit Ansässigkeit in der Schweiz ausgerichtet, erfolgt die Besteuerung ge-
+sondert im ordentlichen Verfahren, d.h. es ist kein Quellensteuerabzug vorzunehmen.
+Werden Abgangsentschädigungen mit Vorsorgecharakter vom Arbeitgeber an Personen
+ohne Ansässigkeit in der Schweiz ausgerichtet, hat der Arbeitgeber die Abgangsentschädi-
+gung nach den ordentlichen Tarifcodes (A, B, C usw.; vgl. Art. 1 Abs. 1 QStV) der Quellenbe-
+steuerung zu unterwerfen. Dem Steuerpflichtigen bleibt es vorbehalten, bis Ende März des
+auf die Fälligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der Quellen-
+steuer oder eine nachträgliche ordentliche Veranlagung zu beantragen (vgl. Ziffer 11 unten).
+Die Voraussetzungen, unter welchen eine Abgangsentschädigung Vorsorgecharakter hat o-
+der nicht, sind dem Kreisschreiben Nr. 1 der ESTV vom 3. Oktober 2002 über die Abgangs-
+entschädigung resp. Kapitalabfindung des Arbeitgebers zu entnehmen.

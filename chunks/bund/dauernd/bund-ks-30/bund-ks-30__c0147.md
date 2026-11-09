@@ -4,17 +4,45 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 16.2 Steuerhinterziehung der Ehegatten – Wegfall der Schuldvermutung (Teil 2/2)"
-ziffer: "16.2"
-seiten: "42-43"
+titel: "Beilage 1 Übersicht über die Familienkonstellationen (Entscheidungsbaum) (Teil 2/2)"
+ziffer: "Beilage 1"
+seiten: "44-45"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 16 Steuerstrafrecht der Ehegatten › 16.2 Steuerhinterziehung · S. 42–43
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 1 Familienkonstellationen · S. 44–45
 
-Diese Schuldvermutung mit Exkulpationsbeweis stand nicht in Einklang mit der in Artikel 6
-§ 2 der Konvention vom 4. November 1950 zum Schutze der Menschenrechte und Grund-
-freiheiten (Europäische Menschenrechtskonvention; EMRK) verankerten Unschuldsvermu-
-tung, da die Beweislastverteilung offensichtlich in Widerspruch mit dem strafrechtlichen
-Grundsatz „in dubio pro reo“ stand. Um die ehegattenspezifischen Strafbestimmungen des
-DBG und des StHG in Einklang mit der EMRK zu bringen, beschlossen die Eidg. Räte die
-Streichung der gesetzlich statuierten Schuldvermutung.
+Familienkonstellationen II: Volljährige Kinder in 1. Ausbildung
+
+ 14.10./14.11./14.12.
+    Mit
+    Unterhalts-   14.10./14.12.
+ A) Getrennte, geschiedene
+    zahlungen
+    oder unverheiratete
+    Paare mit Kindern
+
+ 2 Haushalte   Ohne
+    Unterhalts-   14.11.
+    zahlungen
+    Mit
+    Unterhalts- 14.13./14.15.
+    zahlungen
+    14.13./14.14./14.15.
+    Gemeinsame Kinder
+
+  14.13./14.14./14.15./14.16.
+    Ohne
+    Unterhalts-   14.14.
+ B) Konkubinatspaare mit   zahlungen
+    Kindern
+
+ 1 Haushalt   Mit
+    Unterhalts-
+    zahlungen
+    = A)
+    14.16.
+    Keine gemeinsamen Kinder
+
+    Ohne
+    Unterhalts-   = A)
+    zahlungen

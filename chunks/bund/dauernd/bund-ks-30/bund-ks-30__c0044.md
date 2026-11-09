@@ -4,22 +4,29 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten (Teil 1/2)"
-ziffer: "8.4.3"
-seiten: "15"
+titel: "Ziff. 8.5 Abzugsfähige Kosten – Krippe, Tagesmutter, Internat"
+ziffer: "8.5"
+seiten: "15-16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.5 Abzugsfähige Kosten · S. 15–16
 
-Besteht keine gemeinsame elterliche Sorge über das gemeinsame Kind, ist zu unterschei-
-den, ob Unterhaltszahlungen für das Kind geltend gemacht werden oder nicht. Werden Un-
-terhaltszahlungen geleistet, kommt die Regelung zum Tragen, die bei Eltern mit gemeinsa-
-mem Sorgerecht gilt. Werden keine Unterhaltszahlungen geltend gemacht, kann nur der El-
-ternteil mit der elterlichen Sorge die von ihm nachgewiesenen Kosten der Kinderdrittbetreu-
-ung in Abzug bringen.
+8.5   Abzugsfähige Kosten
 
-Bei Paaren mit nicht gemeinsamen Kindern kann der Abzug nur von dem Partner bean-
-sprucht werden, der Elternteil ist und die elterliche Sorge innehat.
+Der Abzug entspricht den nachgewiesenen Kosten für die Kinderbetreuung durch Dritte bis
+zum gesetzlichen Höchstbetrag. Es können nur diejenigen Kosten geltend gemacht werden,
+die ausschliesslich für die Betreuung der Kinder während der tatsächlichen Arbeits- oder
 
-8.4.4   Getrennte, geschiedene oder unverheiratete Eltern (zwei Haushalte)
-    mit gemeinsamen Kindern
+Ausbildungszeit oder der tatsächlichen Dauer der Erwerbsunfähigkeit mit gleichzeitiger Be-
+treuungsunfähigkeit der steuerpflichtigen Person anfallen.
+
+Abziehbar sind beispielsweise Taggelder für private und öffentliche Organisationen wie Kin-
+derkrippen oder Kinderhorte. Als abziehbare Kinderdrittbetreuungskosten kommen auch
+Vergütungen an Personen, welche die Betreuung von Kindern haupt- oder nebenberuflich
+ausüben, wie etwa Tagesmütter oder Tagesfamilien, in Frage. Fallen im Rahmen der Drittbe-
+treuung auch Kosten für die Verpflegung oder für anderen Unterhalt der Kinder an, so sind
+diese als Lebenshaltungskosten zu qualifizieren und können nicht in Abzug gebracht wer-
+den. Solche Kosten würden auch entstehen, wenn die Kinder nicht durch Dritte betreut wür-
+den.
+
+Kosten für die Betreuung durch die Eltern selbst sind nicht abzugsfähig.

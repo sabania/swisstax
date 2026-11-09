@@ -4,24 +4,20 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 57"
-seiten: "14"
+titel: "Ziff. 8.1.1 Bescheinigung als Beilage zum Lohnausweis"
+ziffer: "8.1.1"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1 Arbeitgeber › 8.1.1 Allgemeines · S. 19
 
-„Importierte“ Mitarbeiterbeteiligungen, die nach schweizerischem Recht im Zeitpunkt der Ab-
-gabe besteuert werden (vgl. Ziff. 2.3.1.1.1 und 2.3.1.1.2, sowie Ziff. 4.1 hievor), können in
-der Schweiz steuerfrei realisiert werden. Die Besteuerung von Erwerbseinkünften infolge vor-
-zeitigen Wegfalls der Sperrfrist bleibt vorbehalten.
-
-7.3.2.1   „Import“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel
-Das Erwerbseinkommen von „importierten“ Mitarbeiterbeteiligungen, die nach schweizeri-
-schem Recht im Zeitpunkt der Realisation besteuert werden, wird – unter Progressionsvor-
-behalt – nur anteilsmässig besteuert, sofern zwischen dem Zeitpunkt der Abgabe und der
-Realisation der Mitarbeiterbeteiligung ein Ansässigkeitswechsel erfolgt ist. Der in der
-Schweiz steuerbare geldwerte Vorteil berechnet sich dabei wie folgt (Art. 17d DBG):
-
-Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage in der Schweiz innerhalb der Vestingperiode
-
-    Anzahl Tage der Vestingperiode
+Die Bescheinigung dient insbesondere dazu, die Berechnungsgrundlagen für die im Lohn-
+ausweis ausgewiesene geldwerte Leistung rechnerisch nachvollziehbar offen zu legen. Ge-
+mäss Artikel 129 Absatz 1 Buchstabe d DBG müssen Arbeitgeber den Veranlagungsbehör-
+den für jede Steuerperiode eine Bescheinigung einreichen, in welcher sie ihren Angestellten
+Mitarbeiterbeteiligungen einräumen. Ferner hat der Arbeitgeber die Bescheinigung dem Mit-
+arbeitenden als Beilage zum Lohnausweis abzugeben bzw. der Quellensteuerabrechnung
+beizulegen (vgl. Art. 10 MBV). Vorbehalten bleiben hiervon abweichende kantonale Regelun-
+gen. Eine direkte Zustellung an die kantonale Steuerbehörde des Wohnsitzkantons des Mit-
+arbeitenden ist aber immer dann notwendig, wenn der geldwerte Vorteil aus Mitarbeiterbetei-
+ligungen nach Beendigung des Arbeitsverhältnisses realisiert wird (vgl. Art. 15 MBV).

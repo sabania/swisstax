@@ -4,18 +4,16 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 2 Gesetzliche Grundlagen – Wortlaut Art. 33 DBG, BehiG (Teil 2/2)"
+ziffer: "2"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 11a · 2 Gesetzliche Grundlagen · S. 3
 
-Inhaltsverzeichnis
-1   Einleitung ................................................................................................................ 3
-2   Gesetzliche Grundlagen ......................................................................................... 3
-3   Krankheits- und Unfallkosten ................................................................................ 3
-3.1   Begriffe der Krankheits- und Unfallkosten ........................................................... 3
-3.2   Kategorien ............................................................................................................... 4
-3.2.1   Kosten für Zahnbehandlungen .................................................................................. 4
-3.2.2   Kosten für Heilbehandlungen .................................................................................... 4
-3.2.3   Kosten für Kuraufenthalte ......................................................................................... 4
+    son, der es eine voraussichtlich dauernde körperliche, geistige oder psychische Beeinträchti
+    gung erschwert oder verunmöglicht, alltägliche Verrichtungen vorzunehmen, soziale Kontakte
+    zu pflegen, sich fortzubewegen, sich aus- und weiterzubilden oder eine Erwerbstätigkeit aus
+    zuüben.
+Im Gegensatz zu den Krankheits- und Unfallkosten ist bei den behinderungsbedingten Kosten
+kein Selbstbehalt zu berücksichtigen.

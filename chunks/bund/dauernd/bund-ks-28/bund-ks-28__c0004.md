@@ -4,17 +4,31 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 4"
-seiten: "1"
+titel: "Ziff. 2.1 Beendigung selbständige Erwerbstätigkeit – Grundsatz"
+ziffer: "2.1"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Kreisschreiben · S. 3
 
-2.4.3.   Verhältnis zu Artikel 18a Absatz 3 DBG................................................................4
-3.   Liquidation...........................................................................................................4
-4.   Einkauf in eine Vorsorgeeinrichtung ................................................................5
-5.   Fiktiver Einkauf ...................................................................................................5
-5.1.   Grundsatz ............................................................................................................5
-5.2.   Anrechenbare Beitragsjahre ..............................................................................5
-5.3.   Massgebendes Einkommen ...............................................................................5
-5.4.   Besteuerung des fiktiven Einkaufs ...................................................................5
+2.   Beendigung der selbständigen Erwerbstätigkeit
+
+2.1.   Grundsatz
+Der Liquidationsgewinn aus der Aufgabe der selbständigen Erwerbstätigkeit wird gemäss
+Artikel 37b DBG und LGBV besteuert, wenn die steuerpflichtige Person das 55. Altersjahr
+erreicht hat oder infolge Invalidität unfähig geworden ist, ihre selbständige Erwerbstätigkeit
+weiter auszuüben. Dies betrifft sowohl Einzelunternehmen als auch Beteiligungen an Perso-
+nengesellschaften.
+
+Die Besteuerung gemäss Artikel 37b DBG kommt nach dem Wortlaut des Gesetzes nur
+dann zur Anwendung, wenn die selbständige Erwerbstätigkeit definitiv aufgegeben wird. Eine
+geringfügige selbständige Erwerbstätigkeit ohne feste Einrichtungen und ohne Personal soll
+jedoch auch nach der Anwendung von Artikel 37b DBG möglich sein, sofern das mutmassli-
+che jährliche Nettoeinkommen aus dieser Tätigkeit inskünftig nicht höher als der Betrag (Ein-
+trittschwelle) nach Artikel 2 Absatz 1 des Bundesgesetzes vom 25. Juni 1982 über die beruf-
+    2
+liche Alters-, Hinterlassenen- und Invalidenvorsorge (BVG) ist.
+
+Wurde einmal ein Liquidationsgewinn nach Artikel 37b DBG besteuert, so ist bei einer späte-
+ren Aufnahme einer selbständigen Erwerbstätigkeit Artikel 37b DBG für den Liquidationsge-
+winn aus dieser Tätigkeit nicht mehr anwendbar.

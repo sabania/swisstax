@@ -1,0 +1,66 @@
+{
+ "id": "sg-stb-aenderungen-2026",
+ "hinweise": [
+  "Seite 1: Tabelle mit mehrzeiligen Zellen, Spalten Titel/Änderung teils vermischt."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "15. Nachtrag Steuerbuch SG – Änderungen StB 006 bis 039",
+   "pfad": [
+    "Änderungen Steuerbuch Stand 1.1.2026"
+   ],
+   "stichworte": [
+    "Nachtrag Steuerbuch",
+    "Kilometeransatz",
+    "Spesenvergütungen",
+    "Fahrt zum Arbeitsort",
+    "Kantonssteuerfuss",
+    "Wohnrecht",
+    "Miteigentum"
+   ],
+   "positionen": [
+    "abzug.berufskosten.fahrkosten"
+   ],
+   "zusammenfassung": "Neue/geänderte Weisungen ab 01.01.2026: Kantonssteuerfuss, Kilometeransatz (StB 030 Nr. 1, StB 039 Nr. 3), Liegenschaften im Miteigentum (StB 034 Nr. 2)."
+  },
+  {
+   "start": 49,
+   "titel": "Änderungen StB 044 – Verwaltungskosten, Liegenschaftsunterhalt, Denkmalpflege",
+   "pfad": [
+    "Änderungen Steuerbuch Stand 1.1.2026"
+   ],
+   "stichworte": [
+    "Liegenschaftsunterhalt",
+    "wirtschaftlicher Neubau",
+    "Ersatzneubau",
+    "Denkmalpflege",
+    "Pauschalabzug Liegenschaften",
+    "Verwaltungskosten"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "StB 044 Nr. 1–8 ab 01.01.2026 aktualisiert; Abschaffung der Praxis zum wirtschaftlichen Neubau."
+  },
+  {
+   "start": 71,
+   "titel": "Änderungen StB 132, 212, 214 – Ersatzbeschaffung, Ausgleichs- und Verzugszinsen",
+   "pfad": [
+    "Änderungen Steuerbuch Stand 1.1.2026"
+   ],
+   "stichworte": [
+    "Ersatzbeschaffung Eigenheim",
+    "Steueraufschub",
+    "Ausgleichszinsen",
+    "Verzugszinsen",
+    "Zinssätze"
+   ],
+   "positionen": [
+    "verfahren.bezug"
+   ],
+   "zusammenfassung": "StB 132 Nr. 6 (gültig ab 01.05.2025), StB 212 Nr. 1 Ausgleichszinsen und StB 214 Nr. 1 Verzugszinsen (01.01.2026)."
+  }
+ ]
+}

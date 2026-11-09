@@ -1,0 +1,31 @@
+{
+ "id": "bund-form-8-2025",
+ "hinweise": [
+  "Einseitiges Formular; Feldraster/Tabellenkopf teils zerrissen (Spalten Währung, Beteiligungsquote, Bezeichnung, Bruttoertrag stehen in einer Zeile)."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 8 – Qualifizierte Beteiligungen im Privatvermögen 2025 (Teilbesteuerung 70%)",
+   "pfad": [
+    "Formular 8",
+    "Ermittlung des Abzugs DBSt"
+   ],
+   "ziffer": "15.8",
+   "stichworte": [
+    "qualifizierte Beteiligung",
+    "Teilbesteuerung",
+    "Dividenden",
+    "Formular 8",
+    "70%",
+    "Abzug 30%",
+    "Ziff. 15.8"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen"
+   ],
+   "zusammenfassung": "Erträge aus qualifizierten Beteiligungen werden zu 70% besteuert (Art. 20 Abs. 1bis DBG); Abzug 30% vom Total Bruttoertrag, zu übertragen in die Steuererklärung Seite 3, Ziff. 15.8."
+  }
+ ]
+}

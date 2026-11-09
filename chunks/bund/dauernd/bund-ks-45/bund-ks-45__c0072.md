@@ -4,17 +4,42 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 72"
-seiten: "17"
+titel: "Ziff. 6.4 Beispiele 1–3 – zwei Arbeitsverhältnisse in der Schweiz"
+ziffer: "6.4"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.4 Satzbestimmendes Einkommen Teilzeit · S. 23
 
-    Beispiele zur Tarifanwendung:
-    -   Tarifcode B:
-    Der Arbeitnehmer T. lebt in der Schweiz, der Ehegatte ist nicht erwerbstätig. Der Arbeitgeber erhält den
-    Zulagenentscheid über die Gewährung von zwei vollen Kinderzulagen. Gestützt darauf ist der Tarifcode
-    B2 anwendbar.
-    Der Arbeitnehmer R. ist als internationaler Wochenaufenthalter in der Schweiz erwerbstätig, der Ehegatte
-    ist nicht erwerbstätig. Er legt dem Arbeitgeber die Geburtsurkunden seiner zwei minderjährigen Kinder vor.
-    Der Tarifcode B2 ist anwendbar.
+    Beispiele:
+    1. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 100 %):
+    Arbeitnehmer Z. ist bei der F. AG, Bern, und bei der K. AG, Thun, angestellt und erzielt folgende Lohnein-
+    kommen:
+
+    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
+
+    F. AG (CH)   50 %   4 500   9 000
+
+    K. AG (CH)   50 %   4 000   8 000
+
+
+    2. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 90 %):
+    Arbeitnehmer Z. ist bei der M. AG, Bern, und bei der T. AG, Thun, angestellt und erzielt folgende Lohnein-
+    kommen (beiden Arbeitgebern ist das jeweils andere Pensum nicht bekannt):
+
+    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
+
+    M. AG (CH)   50 %   4 500   9 000
+
+    T. AG (CH)   40 %   4 400   11 000
+
+
+    3. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 90 %):
+    Arbeitnehmer Z. ist bei der M. AG, Bern, und bei der T. AG, Thun, angestellt und erzielt folgende Lohnein-
+    kommen (beiden Arbeitgebern ist das jeweils andere Pensum bekannt):
+
+    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
+
+    M. AG (CH)   50 %   4 500   8 100
+
+    T. AG (CH)   40 %   4 400   9 900

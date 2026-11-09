@@ -4,30 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.4.1–8.4.2 Anspruchsberechtigung – Allgemeines, verheiratete Paare"
-ziffer: "8.4.1"
-seiten: "14"
+titel: "Ziff. 8.4.3 Beispiel Kinderdrittbetreuungskosten (6'000 / 9'000 / Max. 10'100)"
+ziffer: "8.4.3"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung › 8.4.3 · S. 15
 
-8.4   Anspruchsberechtigung
+Beispiel: Kinderdrittbetreuungskosten
 
-8.4.1   Allgemeines
+Elternteil 1   6’000
+Elternteil 2   9’000
+Total   15’000
 
-Abzugsberechtigt sind steuerpflichtige Personen, die einerseits für den Unterhalt der Kinder
-sorgen und andererseits mit ihnen im gleichen Haushalt leben. Grundsätzlich sind damit die
-Eltern bzw. der alleinerziehende Elternteil gemeint. Lebt ein Kind jedoch nicht bei seinen
-Eltern, sondern beispielsweise bei einer verwandten Person (Tante, Onkel, Grossmutter etc.)
-oder einer Drittperson, welche an die Stelle der Eltern tritt und für das Kind sorgt (Pflege-
-kind), soll diese den Abzug ebenfalls geltend machen können, wenn die übrigen Vorausset-
-zungen erfüllt sind.
+Maximalbetrag   10’100
 
+Veranlagung
 
-8.4.2   Verheiratete Paare mit Kindern
+Elternteil 1   10'100 x 6'000   4’040
+    15’000
 
-Ehepaare, die in rechtlich und tatsächlich ungetrennter Ehe leben, können die Kinderdrittbe-
-treuungskosten geltend machen, wenn beide gleichzeitig einer Erwerbstätigkeit nachgehen
-bzw. in Ausbildung stehen oder erwerbsunfähig und zugleich betreuungsunfähig sind. Die
-nachgewiesenen Kosten für die Kinderdrittbetreuung werden bis zum Maximalbetrag von der
-gemeinsamen Bemessungsgrundlage abgezogen.
+Elternteil 2   10'100 x 9'000   6’060
+    15’000
+
+Total insgesamt   10’100

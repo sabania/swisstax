@@ -4,20 +4,26 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 13"
-seiten: "3"
+titel: "Ziff. 3.3.3–3.3.4 Wechsel OR zu KAG, Überleitung, Spartenrechnung, Deklarationspflicht"
+ziffer: "3.3.3 / 3.3.4"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 25 · 3 Grundsätze der Besteuerung › 3.3 › 3.3.3–3.3.4 · S. 5
 
-Die SICAF gemäss Artikel 110 ff. KAG dagegen sind nicht transparente kollektive Kapitalan-
-lagen und stellen als juristische Personen eigene Steuersubjekte dar. Sie werden nach Arti-
-kel 49 Absatz 2 DBG wie Kapitalgesellschaften besteuert.
+Bei einem Wechsel von der Jahresrechnung nach OR zu einer solchen nach KAG findet eine
+steuersystematische Realisierung mit entsprechender Besteuerung der Wertveränderungen
+statt.
 
-Ebenfalls ausgenommen vom Prinzip der transparenten Besteuerung sind kollektive Kapital-
-anlagen mit direktem Grundbesitz. Diese werden nach Artikel 10 Absatz 2 DBG in Verbin-
-dung mit Artikel 49 Absatz 2 DBG besteuert. Nachfolgend wird unterschieden zwischen kol-
-lektiven Kapitalanlagen ohne und solchen mit direktem Grundbesitz (vgl. Ziff. 3.2 und 3.3).
+Erfolgt die Buchführung nicht nach dem Standard in welchem die Jahresrechnung (KAG oder
+OR) präsentiert wird, muss eine nachvollziehbare Überleitung vorliegen, welche zusammen
+mit der Steuererklärung einzureichen ist. Es ist nicht Voraussetzung, dass die nach OR er-
+stellte Jahresrechnung durch eine Revisionsstelle geprüft wird.
 
-Ausländische kollektive Kapitalanlagen sind steuerlich den schweizerischen kollektiven Kapi-
-talanlagen gleichzustellen (vgl. Gleichstellungsregeln im Anhang IV).
+Zur Ermittlung des steuerbaren Reingewinns einer kollektiven Kapitalanlage mit direktem
+Grundbesitz ist eine Spartenrechnung zu erstellen (vgl. Beispiel im Anhang II).
+
+3.3.4   Deklarationspflicht
+Die Fondsleitung ist verpflichtet, der Veranlagungsbehörde für jede Steuerperiode eine Be-
+scheinigung über alle Verhältnisse einzureichen, die für die Besteuerung des direkten Grund-
+besitzes und dessen Erträge massgeblich sind (vgl. Art. 129 Abs. 3 DBG).

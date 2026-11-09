@@ -4,21 +4,19 @@ quelle: bund-ks-41
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 41 – Abschnitt 5"
-seiten: "1"
+titel: "Ziff. 2.1 Barauszahlung hebt Vorsorgeschutz auf"
+ziffer: "2.1"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 41 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 41 · 2. Freizügigkeit › 2.1 Zweck und Inhalt · S. 2–3
 
-1. Allgemeines und Inkrafttreten
+Bei Barauszahlung der Austrittsleistung durch die Vorsorgeeinrichtung bzw. Freizügigkeits-
+einrichtung wird der Vorsorgeschutz aufgehoben. Daher kann der Barauszahlungsbetrag
+später nicht mehr auf ein (neues oder bestehendes) Freizügigkeitskonto oder eine Freizügig-
+keitspolice eingebracht werden, es sei denn, es besteht eine Rückzahlungsverpflichtung ge-
 
-Im vorliegenden Kreisschreiben werden steuerliche Fragen im Zusammenhang mit dem
-Bundesgesetz vom 17. Dezember 1993 über die Freizügigkeit in der beruflichen Alters-, Hin-
-terlassenen- und Invalidenvorsorge (Freizügigkeitsgesetz, [FZG]; SR 831.42) und der ent-
-sprechenden Ausführungsverordnung (Verordnung vom 3. Oktober 1994 über die Freizügig-
-
-    Eidgenössische Steuerverwaltung ESTV
-    Eigerstrasse 65
-    3003 Bern
-    www.estv.admin.ch
-1-041-D-2014-d
+mäss Artikel 30d des Bundesgesetzes vom 25. Juni 1982 über die berufliche Alters-, Hinter-
+lassenen- und Invalidenvorsorge (BVG; SR 831.40) und der Verordnung vom 3. Oktober
+1994 über die Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge (WEFV; SR
+831.411).

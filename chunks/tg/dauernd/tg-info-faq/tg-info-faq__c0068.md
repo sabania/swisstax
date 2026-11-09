@@ -9,10 +9,22 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
-    Gegen den Veranlagungsentscheid können Sie innert 30 Tagen nach Zustellung bei der Veranlagungsbehörde schriftlich Einsprache erheben. Sie müssen im Einspracheschreiben noch keine Begründung aufführen, es sei denn, es handelt sich um eine Ermessensveranlagung.
+    - [StP 164 Nr. 1 "Einspracheverfahren"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-164-nr-1-einspracheverfahren&version=latest)
 
-    Das Einspracheverfahren ist in der Regel mündlich und kostenlos. Auf Antrag der steuerpflichtigen Person oder der Veranlagungsbehörde kann es schriftlich durchgeführt werden. Im Einspracheverfahren können alle Sachverhalte der Steuerveranlagung nochmals aufgegriffen werden. Dieses Recht steht sowohl der steuerpflichtige Person als auch der Steuerbehörde zu.
+Erhalt Veranlagungsverfügung
+:   ### Frage:
 
-    Nach Anhörung der steuerpflichtigen Person fällt die Steuerbehörde einen Entscheid, welcher eine Begründung sowie Rechtsmittel enthält. Gegen Einspracheentscheide kann innert 30 Tagen nach der Zustellung Rekurs erhoben werden.
+    Ich habe die Veranlagungsverfügung erhalten. Was sollte ich damit tun?
 
-    Detaillierte Informationen finden Sie in der Thurgauer Steuerpraxis unter:
+    ### Antwort:
+
+    Es empfiehlt sich, die Veranlagungsverfügung zu prüfen. Sie müssen allfällige Fehler innerhalb von 30 Tagen der Steuerverwaltung melden (Einsprache). Nach Ablauf dieser Frist ist keine Korrektur mehr möglich.
+
+Fristenwiederherstellung
+:   ### Frage:
+
+    Ich habe die Einsprachefrist verpasst, weil ich im Ausland in den Ferien weilte. Wird deswegen eine Fristwiederherstellung gewährt?
+
+    ### Antwort:
+
+    Eine versäumte Frist kann auf begründetes Gesuch hin wieder hergestellt werden, wenn die steuerpflichtige Person kein Verschulden trifft. Solche Gesuche sind innert 30 Tagen seit Wegfall des Verhinderungsgrundes einzureichen.

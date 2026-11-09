@@ -4,21 +4,25 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 112"
+titel: "Anhang S. 44 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)"
+ziffer: "14, 15, 49"
 seiten: "44"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 44
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49) · S. 44
 
-<!-- Seite 44 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
-
-Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten
-
-    Unbebaute Grundstücke   Bebaute
-    Grundstücke
-    Geschäftshäuser   Industrie- und   Industrie- und
-    (Ziff. 14)   Gewerbebauten   Gewerbebauten
-    (Ziff. 15)   (Ziff. 15 und 49)
-    Anzahl   1   LK 3   1   LK 3   1   LK 3
-Gemeinde   Klassen   LK 1   LK 2   2   LK 4   LK 1   LK 2   2   LK 4   LK 1   LK 2   2   LK 4
+Dinhard   1   420   –   –   290   –   –   260   –   –
+Elgg
+– Elgg   1   340   –   –   250   –   –   230   –   –
+ (ehemalige Gemeinde)
+– Hofstetten (ZH)   1   280   –   –   140   –   –   130   –   –
+ (ehemalige Gemeinde)
+Ellikon an der Thur   1   340   –   –   250   –   –   230   –   –
+Elsau   1   420   –   –   290   –   –   260   –   –
+Hagenbuch   1   340   –   –   250   –   –   230   –   –
+Hettlingen   1   420   –   –   290   –   –   260   –   –
+Neftenbach   1   420   –   –   290   –   –   260   –   –
+Pfungen   1   420   –   –   290   –   –   260   –   –
+Rickenbach (ZH)   1   420   –   –   290   –   –   260   –   –
+Schlatt (ZH)   1   280   –   –   140   –   –   130   –   –
+Seuzach   1   420   –   –   290   –   –   260   –   –

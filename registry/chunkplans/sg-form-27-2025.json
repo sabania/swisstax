@@ -1,0 +1,120 @@
+{
+"id": "sg-form-27-2025",
+"hinweise": [
+"Seite 1: Randtitel (linke Spalte) neben Text, teils zerrissen (z.B. Zeilen 29-35, 55-63)."
+],
+"chunks": [
+{
+"start": 21,
+"titel": "Merkblatt 27 – Steuerpflicht Nebensteuerdomizil Liegenschaft/Geschäftsbetrieb",
+"pfad": [
+"Steuerpflicht"
+],
+"stichworte": [
+"Nebensteuerdomizil",
+"Liegenschaft ausserkantonal",
+"Betriebsstätte",
+"beschränkte Steuerpflicht",
+"Wohnsitz Ausland"
+],
+"positionen": [
+"personalien"
+],
+"zusammenfassung": "Liegenschaft oder Geschäftsbetrieb begründet am Ort der Sache ein Nebensteuerdomizil; Steuerpflicht für die gesamte Periode, Wert im Verhältnis zur Dauer vermindert."
+},
+{
+"start": 53,
+"titel": "Steuererklärung – Wohnsitz in anderem Kanton oder im Ausland, Formular 7",
+"pfad": [
+"Steuererklärung"
+],
+"stichworte": [
+"Steuererklärung Kopie",
+"E-Tax SG",
+"Formular 7",
+"Formular 7 Z",
+"Liegenschaft Ausland",
+"Finanzbescheid"
+],
+"positionen": [
+"verfahren.einreichung",
+"einkommen.liegenschaften.mietertrag"
+],
+"zusammenfassung": "Bei Wohnsitz in anderem Kanton genügt eine Kopie der Steuererklärung des Wohnsitzkantons; bei Wohnsitz im Ausland ist die vollständige St.Galler Steuererklärung mit Formular 7 pro Liegenschaft einzureichen."
+},
+{
+"start": 87,
+"titel": "Bemessungsgrundlagen – Stichtag, unterjährige Steuerpflicht, Umrechnung",
+"pfad": [
+"Bemessungsgrundlagen"
+],
+"stichworte": [
+"unterjährig",
+"Umrechnung",
+"satzbestimmendes Einkommen",
+"Gratifikation",
+"regelmässig fliessende Einkünfte"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Vermögen per 31. Dezember bzw. Ende der Steuerpflicht; regelmässige Einkünfte werden auf zwölf Monate umgerechnet, unregelmässige (Gratifikationen, Boni) nicht."
+},
+{
+"start": 108,
+"titel": "Steuerausscheidung – Aufteilung von Einkommen und Vermögen",
+"pfad": [
+"Steuerausscheidung"
+],
+"stichworte": [
+"Steuerausscheidung",
+"interkantonal",
+"Doppelbesteuerungsabkommen",
+"Schuldzinsen",
+"weltweites Einkommen"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"schulden.privat"
+],
+"zusammenfassung": "Die Steuerausscheidung teilt Gesamteinkommen und -vermögen auf die beteiligten Kantone und Staaten auf; st.gallische Grundstücke und Geschäftsgewinne besteuert SG ausschliesslich."
+},
+{
+"start": 117,
+"titel": "Steuerausscheidung – Steuersatz, Schulden und Schuldzinsen, Deklarationspflicht",
+"pfad": [
+"Steuerausscheidung"
+],
+"stichworte": [
+"Steuerausscheidung",
+"interkantonal",
+"Doppelbesteuerungsabkommen",
+"Schuldzinsen",
+"weltweites Einkommen"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"schulden.privat"
+],
+"zusammenfassung": "Für den Steuersatz ist das gesamte weltweite Einkommen und Vermögen massgebend; Schulden und Schuldzinsen werden proportional nach Lage der Gesamtaktiven zugewiesen."
+},
+{
+"start": 130,
+"titel": "Eigenmietwert ausländischer Liegenschaften; Auskünfte",
+"pfad": [
+"Eigenmietwert",
+"Auskünfte"
+],
+"stichworte": [
+"Eigenmietwert Ausland",
+"Marktmiete",
+"Ferienhaus Ausland",
+"Gemeindesteueramt"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Eigenmietwerte ausländischer Liegenschaften sind zu deklarieren (erzielbare Marktmiete), auch wenn im Ausland nicht besteuert."
+}
+]
+}

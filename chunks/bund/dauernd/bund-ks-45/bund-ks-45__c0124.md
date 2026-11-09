@@ -4,25 +4,27 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 124"
-seiten: "31"
+titel: "Ziff. 7.3.1 Umrechnung auf 360 Tage – periodische und aperiodische Leistungen"
+ziffer: "7.3.1"
+seiten: "40"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 31
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.1 Allgemeines · S. 40
 
-6.8   Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses
-Entschädigungen, welche dem Arbeitnehmer vom Arbeitgeber vor Antritt des Arbeitsverhält-
-nisses ausgerichtet werden (bspw. Sign-on-Bonus), fallen nach schweizerischem Recht un-
-ter die Bestimmung von Artikel 17 DBG.
-Für in der Schweiz ansässige quellensteuerpflichtige Personen ist daher die Quellensteuer
-auf der gesamten Leistung nach den persönlichen Verhältnissen im Zeitpunkt der Ausrich-
-tung der Leistung zu berechnen.
-Erhält eine im Ausland ansässige Person eine derartige Leistung, ist darauf die Quellen-
-steuer zu erheben. Die Leistung knüpft an ein in der Schweiz steuerpflichtiges Arbeitsverhält-
-nis an, weshalb die Grundsätze von Artikel 15 OECD-MA zu beachten sind. Auch in diesem
-Fall sind die Verhältnisse im Zeitpunkt der Ausrichtung der Leistung für den Quellensteuer-
-abzug massgebend.
-Es steht der quellensteuerpflichtigen Person, welche nicht der obligatorischen nachträglichen
-Veranlagung untersteht (vgl. Art. 89 DBG), offen, bis am 31. März des auf die Leistung fol-
-genden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträgliche ordent-
-liche Veranlagung zu beantragen (vgl. Ziffer 11 unten).
+Bei mehreren Teilzeitbeschäftigungen (vgl. Ziffer 7.3.2 unten), bei Tätigkeiten im Stunden-
+oder Tageslohn (vgl. Ziffer 7.3.3 unten) oder bei unterjährigen Arbeitsverhältnissen (vgl. Zif-
+fer 7.3.4 unten) ist eine Umrechnung des satzbestimmenden Jahreseinkommens auf 360
+Tage erforderlich. In diesem Zusammenhang dürfen, wenn die Bemessungsgrundlage so-
+wohl periodische als auch aperiodische Leistungen enthält, nur die periodischen Leistungen
+für die Festsetzung des satzbestimmenden Jahreseinkommens umgerechnet werden.
+Folgende aperiodische Leistungen bilden nicht Bestandteil des umzurechnenden Bruttomo-
+natslohns (die nachfolgende Aufzählung ist nicht abschliessend):
+     Überzeitentschädigungen
+     Entschädigungen von nicht bezogenen Ferienguthaben
+     Dienstalterszulagen
+     Bonuszahlungen
+     Prämien
+     Verwaltungsratshonorare
+     Abgangsentschädigungen
+     Gratifikationen
+     Geldwerte Vorteile aus Mitarbeiterbeteiligungen

@@ -1,0 +1,254 @@
+{
+ "id": "bund-ks-43",
+ "hinweise": [
+  "Text sauber extrahiert; Inhaltsverzeichnis mit Punktlinien."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "titel": "KS 43 – Preise, Ehrengaben, Auszeichnungen, Stipendien, Förderbeiträge: Titel",
+   "pfad": [
+    "Kreisschreiben 43"
+   ],
+   "stichworte": [
+    "Kreisschreiben 43",
+    "Stipendien",
+    "Preise Ehrengaben",
+    "Förderbeiträge"
+   ],
+   "positionen": [
+    "einkommen.uebrige",
+    "info.steuerfreie_leistungen"
+   ],
+   "zusammenfassung": "ESTV-Kreisschreiben Nr. 43 vom 26. Februar 2018 zur steuerlichen Behandlung von Preisen, Ehrengaben, Auszeichnungen, Stipendien und Förderbeiträgen im Kultur-, Sport- und Wissenschaftsbereich."
+  },
+  {
+   "start": 40,
+   "skip": true,
+   "titel": "Inhaltsverzeichnis"
+  },
+  {
+   "start": 54,
+   "titel": "Ziff. 1 Gegenstand des Kreisschreibens",
+   "pfad": [
+    "1 Gegenstand"
+   ],
+   "stichworte": [
+    "Stipendium",
+    "Preis",
+    "Förderbeitrag",
+    "Schenkung oder Einkommen"
+   ],
+   "positionen": [
+    "einkommen.uebrige",
+    "info.steuerfreie_leistungen"
+   ],
+   "zusammenfassung": "Preise, Stipendien und Förderbeiträge können steuerfreie Schenkungen oder Unterstützungen, aber auch steuerbare Einkünfte sein; Abgrenzung im Einzelfall anhand von Kriterien.",
+   "ziffer": "1"
+  },
+  {
+   "start": 67,
+   "titel": "Ziff. 2 Rechtliche Grundlagen – Gesamtreineinkommen, Art. 16 und 24 DBG",
+   "pfad": [
+    "2 Rechtliche Grundlagen"
+   ],
+   "stichworte": [
+    "Art. 16 DBG",
+    "Art. 24 DBG",
+    "restriktive Auslegung",
+    "Gesamtreineinkommensbesteuerung"
+   ],
+   "positionen": [
+    "einkommen.uebrige",
+    "info.steuerfreie_leistungen"
+   ],
+   "zusammenfassung": "Nach Art. 16 Abs. 1 DBG sind alle Einkünfte steuerbar; ausgenommen sind Schenkungen und Unterstützungen (Art. 24 Bst. a und d DBG), die restriktiv ausgelegt werden.",
+   "ziffer": "2"
+  },
+  {
+   "start": 79,
+   "titel": "Ziff. 2 Schenkung und Unterstützung – Begriffe, Bescheinigung der Stiftungen",
+   "pfad": [
+    "2 Rechtliche Grundlagen"
+   ],
+   "stichworte": [
+    "Schenkung",
+    "Unterstützung",
+    "bedürftige Person",
+    "Schenkungssteuer",
+    "Stiftung Bescheinigung"
+   ],
+   "positionen": [
+    "info.steuerfreie_leistungen",
+    "info.schenkungen_erbschaften"
+   ],
+   "zusammenfassung": "Schenkung ist unentgeltliche Zuwendung ohne Gegenleistung, bei der DBSt befreit; Unterstützung ist unentgeltliche Leistung mit Unterstützungsabsicht an bedürftige Person; Stiftungen müssen Leistungen bescheinigen (Art. 129 DBG).",
+   "ziffer": "2"
+  },
+  {
+   "start": 102,
+   "titel": "Ziff. 3 Abgrenzungskriterien – Preise, Stipendien: drei kumulative Kriterien",
+   "pfad": [
+    "3 Abgrenzungskriterien"
+   ],
+   "stichworte": [
+    "Bedürftigkeit",
+    "Unterstützungsabsicht",
+    "Unentgeltlichkeit",
+    "Stipendium steuerfrei",
+    "kumulativ"
+   ],
+   "positionen": [
+    "info.steuerfreie_leistungen",
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Preise gelten als Schenkung ohne Gegenleistung; Stipendien und Förderbeiträge sind nur steuerfrei, wenn Bedürftigkeit, Unterstützungsabsicht und Unentgeltlichkeit kumulativ erfüllt sind.",
+   "ziffer": "3"
+  },
+  {
+   "start": 124,
+   "titel": "Ziff. 3 Bedürftigkeit und Existenzminimum (Art. 9 und 11 ELG)",
+   "pfad": [
+    "3 Abgrenzungskriterien",
+    "Bedürftigkeit"
+   ],
+   "stichworte": [
+    "Bedürftigkeit",
+    "Existenzminimum ELG",
+    "lebensnotwendiger Bedarf",
+    "Stipendium über Bedarf"
+   ],
+   "positionen": [
+    "info.steuerfreie_leistungen",
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Bedürftig ist, wessen Einkommen unter dem nach Art. 9 und 11 ELG berechneten Existenzminimum liegt; nur der lebensnotwendige Bedarf bleibt steuerfrei, der darüber liegende Betrag ist steuerbar.",
+   "ziffer": "3"
+  },
+  {
+   "start": 138,
+   "titel": "Ziff. 3 Unentgeltlichkeit und Ergebnis der Prüfung",
+   "pfad": [
+    "3 Abgrenzungskriterien",
+    "Unentgeltlichkeit"
+   ],
+   "stichworte": [
+    "Gegenleistung",
+    "Studie Forschungsarbeit",
+    "Entlöhnung im Nachhinein",
+    "steuerbar Art. 16 DBG"
+   ],
+   "positionen": [
+    "info.steuerfreie_leistungen",
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Eine Leistung mit Gegenleistung oder als nachträgliche Entlöhnung ist nicht unentgeltlich; ist ein Kriterium nicht erfüllt, ist sie nach Art. 16 Abs. 1 DBG steuerbar, sofern keine Schenkung.",
+   "ziffer": "3"
+  },
+  {
+   "start": 153,
+   "titel": "Ziff. 4 Steuerbare Leistungen – Bewertung, Zufluss, Abzüge",
+   "pfad": [
+    "4 Steuerbare Leistungen"
+   ],
+   "stichworte": [
+    "Nominalwert",
+    "Naturalgaben Marktwert",
+    "Zuflussprinzip",
+    "fester Rechtsanspruch",
+    "Gewinnungskosten"
+   ],
+   "positionen": [
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Steuerbare Leistungen werden in Geld zum Nominalwert, Naturalgaben zum Marktwert besteuert, im Jahr des Zuflusses (fester Rechtsanspruch); übliche Gewinnungskosten sind abziehbar.",
+   "ziffer": "4"
+  },
+  {
+   "start": 171,
+   "titel": "Ziff. 5 Inkrafttreten und ersetzte Kreisschreiben",
+   "pfad": [
+    "5 Inkrafttreten"
+   ],
+   "stichworte": [
+    "Inkrafttreten",
+    "Kreisschreiben Nr. 15",
+    "Kreisschreiben Nr. 8",
+    "Nationalfonds"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Das Kreisschreiben tritt mit Publikation in Kraft und ersetzt die Kreisschreiben Nr. 15 (1953) und Nr. 8 (1971).",
+   "ziffer": "5"
+  },
+  {
+   "start": 179,
+   "titel": "Anhang Beispiel 1 – Stipendium CHF 1'500 / 3'000 monatlich (Bedürftigkeit)",
+   "pfad": [
+    "Anhang: Beispiele"
+   ],
+   "stichworte": [
+    "Beispiel Stipendium",
+    "Student",
+    "Existenzminimum CHF 2'200",
+    "CHF 800 steuerbar"
+   ],
+   "positionen": [
+    "info.steuerfreie_leistungen",
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Stipendium von monatlich CHF 1'500 bei Existenzminimum von CHF 2'200 ist steuerfrei; bei CHF 3'000 sind die CHF 800 über dem Existenzminimum steuerbar.",
+   "ziffer": "Beispiel 1"
+  },
+  {
+   "start": 203,
+   "titel": "Anhang Beispiel 2 – Förderbeitrag Sport CHF 5'000 mit Gegenleistung",
+   "pfad": [
+    "Anhang: Beispiele"
+   ],
+   "stichworte": [
+    "Beispiel Förderbeitrag Sport",
+    "Nachwuchsathletin",
+    "Gegenleistung Stiftung"
+   ],
+   "positionen": [
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Förderbeitrag von CHF 5'000 für vier Jahre ist steuerbar, weil er nur teilweise bedarfsabhängig ist und eine Gegenleistung verlangt wird.",
+   "ziffer": "Beispiel 2"
+  },
+  {
+   "start": 217,
+   "titel": "Anhang Beispiel 3 – Gehalt Doktorand (CHF 1'960 monatlich)",
+   "pfad": [
+    "Anhang: Beispiele"
+   ],
+   "stichworte": [
+    "Beispiel Doktorand",
+    "Gehalt Universität",
+    "unselbständige Erwerbstätigkeit"
+   ],
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ],
+   "zusammenfassung": "Das von der Universität bezahlte Gehalt von CHF 1'960 monatlich ist steuerbares Einkommen aus unselbständiger Erwerbstätigkeit (Art. 17 Abs. 1 DBG).",
+   "ziffer": "Beispiel 3"
+  },
+  {
+   "start": 225,
+   "titel": "Anhang Beispiel 4 – Forschungsstipendium CHF 42'000 mit Berichtspflicht",
+   "pfad": [
+    "Anhang: Beispiele"
+   ],
+   "stichworte": [
+    "Beispiel Forschungsstipendium",
+    "Berichterstattung",
+    "Weiterbildung Ausland"
+   ],
+   "positionen": [
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Das Stipendium von CHF 42'000 ist steuerbar, weil die regelmässige Berichterstattung als Gegenleistung gilt.",
+   "ziffer": "Beispiel 4"
+  }
+ ]
+}

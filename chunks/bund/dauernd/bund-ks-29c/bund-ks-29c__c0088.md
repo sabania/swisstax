@@ -4,34 +4,28 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 88"
-seiten: "30"
+titel: "Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 1/4)"
+ziffer: "Anhang 4"
+seiten: "36-37"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 30
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 4 Kapitalband · S. 36–37
 
-       Es liegen steuerlich anerkannte KER gemäss Artikel 5 Absatz 1bis VStG oder Aus-
-    land-KER gemäss Artikel 5 Absatz 1quater Buchstaben a und b VStG vor, welche ver-
-    bucht sind und unter den gesetzlichen oder freien Kapitalreserven ausgewiesen wer-
-    den;
-       im Zeitpunkt des Erwerbs der eigenen Beteiligungsrechte lagen auch tatsächlich Re-
-    serven aus Kapitaleinlagen vor, die betragsmässig mindestens dem Total der eige-
-    nen Beteiligungsrechte zur Verrechnung mit KER oder Ausland-KER entsprechen.
+Total Rückzahlungen von Reserven an die Aktionäre   -22'800.00
+Nettoerhöhung KER aus Kapitalband gemäss Artikel 20 Absatz 8 DBG bzw. Artikel 5 Absatz 1 septies VStG   2'000.00   2'000.00
 
-Folgender beispielhafter Ausweis beachtet die handelsrechtlichen Vorschriften und genügt
-den steuerlichen Anforderungen:
+Zusätzliche Gutschrift gemäss Ziffer 3.1. des KS 29c
+Total Rückzahlungen KER innerhalb des Kapitalbands an die Aktionäte   11'500.00
+Total Rückzahlungen übrige Reserven innerhalb des Kapitalbands an die Aktionäre, welche nicht über die
+3. Eine nicht börsenkotierte Gesellschaft zeigt folgende Eigenkapitalbewegungen
+zweite Handelslinie erfolgen   11'300.00
+    innerhalb
+Total zusätzliche Gutschrift   22'800.00 22'800.00
+    ihres Kapitalbands über zwei Jahre aufgrund von Kapitalerhöhungen   und -herabsetzun-
+    gen:
+Total KER   24'800.00
 
- Aktienkapital   20
+    Bestand   Jahr N+1   Bestand   Jahr N+2   Bestand   Bereinigung   Bestand
+    Erhöhung Herabsetzung   Herabsetzung   bereinigt
 
- Gesetzliche Kapitalreserven
- - KER   20
- - Ausland-KER   8
- - Übrige Kapitalreserven   60   88
- Freie Kapitalreserven
- - KER   10
- - Ausland-KER   2
- - Übrige Kapitalreserven   100   112
-
- Gesetzliche Gewinnreserven   30
-
- Freie Gewinnreserven / kummulierte Verluste   50
+Aktienkapital   20'000.00   2'000.00   -1'000.00   21'000.00   -1'000.00   20'000.00   20'000.00

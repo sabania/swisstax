@@ -4,18 +4,19 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 213"
-seiten: "56"
+titel: "Ziff. 11.4 Berechnung der 90-Prozent-Schwelle"
+ziffer: "11.4"
+seiten: "66"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 56
+> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.4 NOV auf Antrag bei Ansässigkeit im Ausland · S. 66
 
-8.4   Wechsel von einem Kanton mit Jahresmodell zu einem anderen Kanton mit Jah-
-    resmodell
-Der Schuldner der steuerbaren Leistung rechnet die Quellensteuern ab dem Folgemonat des
-Kantonswechsels ausschliesslich mit dem anspruchsberechtigten Kanton nach dessen Tarif
-ab.
-Vor oder nach dem Kantonswechsel erfolgte Einmalzahlungen (bspw. Boni, 13. Monatsgeh-
-alt, Einkommen aus Mitarbeiterbeteiligungen) oder Änderungen des Einkommens haben kei-
-nen Einfluss auf die Ermittlung des satzbestimmenden Jahreseinkommens im anderen Kan-
-ton. Die Abrechnungen sind wie bei einem unterjährigen Ein- bzw. Austritt vorzunehmen.
+Zum weltweiten Einkommen werden auch die Bruttoeinkünfte des in rechtlich und tatsächlich
+ungetrennter Ehe lebenden Ehegatten hinzugerechnet. Ob die Voraussetzungen der Quasi-
+Ansässigkeit erfüllt sind, wird durch die zuständige Steuerbehörde im Veranlagungsverfah-
+ren, d.h. nach Einreichen der vollständig ausgefüllten Steuererklärung, geprüft. Zur Feststel-
+lung, ob die Schwelle von 90 Prozent erreicht ist, ermittelt die zuständige Steuerbehörde zu-
+erst das weltweite, gemäss den Artikeln 16 – 18 und 20 – 23 DBG steuerpflichtige Gesamt-
+einkommen der steuerpflichtigen Person (sowie des allfälligen Einkommens des anderen
+Ehegatten). Anschliessend wird das nach den internationalen Zuteilungsregeln in der
+Schweiz steuerbare Einkommen ins Verhältnis zu den weltweiten Einkünften gesetzt.

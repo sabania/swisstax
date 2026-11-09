@@ -4,33 +4,13 @@ quelle: ar-mb-03-anhang
 jur: ar
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB AR 03-anhang – Abschnitt 9"
+titel: "Ziff. 4.1 Wärmecontracting, Klimaanlage und Lüftung"
+ziffer: "4.1"
 seiten: "3"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 3
+> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 4 Heizung, Energiegewinnung › 4.1 Heizungs- und Lüftungsinstallationen › Contracting · S. 3
 
- 3.4 Aufzug, Lift
-  - Neueinbau   1/1
-  - Reparatur, Serviceabonnement, gleichwertiger Ersatz   1/1
-
-  4   Heizung, Energiegewinnung und -nutzung
-
- 4.1 Heizungs- und Lüftungsinstallationen
-    (bei gleichem beheizten Raumvolumen)
-  - periodische Wartungsarbeiten
-    a) Feuerungskontrolle/Kaminfeger   1/1
-    b) Serviceabonnement für Heizungsanlagen   1/1
-    c) (Tank)Revisionen   1/1
-  - Änderung/Umnutzung Tankraum (inkl. entfernen Öltank)   1/1
-  - Entfernung Öltank bei gleichzeitigem Ersatz durch Heizung mit   1/1   E
-    erneuerbarer Energie (ohne Kosten Umnutzung Tankraum)
-  - Heizungssystem
-    a) Reparatur, Ersatz einzelner Komponenten (Brenner, Tank,   1/1
-    Steuerungssysteme etc.)
-    b) vollständiger Ersatz durch Heizungssystem mit erneuerbarer   1/1   E
-    Energie
-    c) Umstellung Heizkörper auf Bodenheizung   1/1   E
   - Wärmecontracting/Energiecontracting
     a) Amortisationsraten (erstmalige Anschaffung/Neubau)   1/1
     b) Amortisationsraten bei Ersatz bestehender Heizungsanlage   1/1
@@ -42,3 +22,6 @@ qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
     a) erstmalige Anschaffung   1/1
     b) gleichwertiger Ersatz (exkl. Erweiterungen)   1/1
     c) Abonnement (Service)   1/1
+
+
+21.11.2024   Seite 3 von 7

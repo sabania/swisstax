@@ -4,19 +4,18 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 36"
-seiten: "12"
+titel: "Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 2/4)"
+ziffer: "6.2.4"
+seiten: "16-17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.2 Fusion · S. 16–17
 
-Für Beteiligungsübertragungen nach dem 31. Dezember 1996 bis zum 31. Dezember 2010
-gelten die gleichen Grundsätze wie für Übertragungen nach dem 31. Dezember 2010. Somit
-qualifiziert der Ausweis des gesamten über dem Nennwert zuzüglich der KER im Zeitpunkt
-der Übertragung liegenden Mehrwertes als übrige Reserve.
+Ein allfälliges Fusionsagio stellt nur in dem Umfang eine ausweisbare KER bzw. Ausland-
+KER dar, soweit es dem liberierten Grund- oder Stammkapital und den bestehenden KER
+bzw. Ausland-KER der übernommenen Muttergesellschaft entspricht, und soweit das libe-
+rierte Grund- oder Stammkapital und die bestehenden KER bzw. Ausland-KER der Mutterge-
+sellschaft das bereits bestehende liberierte Grund- oder Stammkapital und die KER bzw.
+Ausland-KER der Tochtergesellschaft übersteigen.
 
-Für Erlöse aus Beteiligungsübertragungen zwischen dem 31. Dezember 2006 und dem
-31. Dezember 2019, die nicht als Ertrag aus beweglichem Vermögen gemäss während die-
-sem Zeitraum geltenden Artikel 20a Absatz 1 Buchstabe b DBG qualifizieren, kann der ge-
-samte über dem Nennwert liegende Mehrwert den KER bzw. Ausland-KER gutgeschrieben
-werden.
+b)   Verrechnungssteuer

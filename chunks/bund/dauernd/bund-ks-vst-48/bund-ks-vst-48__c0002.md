@@ -4,24 +4,34 @@ quelle: bund-ks-vst-48
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 48 – Abschnitt 2"
-seiten: "1"
+titel: "Ziff. 1–2 Allgemeines und gesetzliche Bestimmungen (Art. 23, 70d VStG) (Teil 2/2)"
+ziffer: "1–2"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 48 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS VST 48 · 1 Allgemeines / 2 Gesetzliche Bestimmungen · S. 2
 
-<!-- Seite 1 -->
-    Eidgenössisches Finanzdepartement EFD
-    Eidgenössische Steuerverwaltung ESTV
-    Hauptabteilung Direkte Bundessteuer,
-    Verrechnungssteuer, Stempelabgaben
+2   Gesetzliche Bestimmungen
 
-Verrechnungssteuer
+Die am 1. Januar 2019 in Kraft getretenen Artikel 23 und 70d VStG über die Verwirkung des
+Anspruchs auf Rückerstattung der Verrrechnungssteuer lauten wie folgt:
 
-Bern, 4. Dezember 2019
+Artikel 23
+1
+  Wer mit der Verrechnungssteuer belastete Einkünfte oder Vermögen, woraus solche Einkünfte
+fliessen, entgegen gesetzlicher Vorschrift der zuständigen Steuerbehörde nicht angibt, verwirkt
+den Anspruch auf Rückerstattung der von diesen Einkünften abgezogenen Verrechnungs-
+steuer.
+2
+ Die Verwirkung tritt nicht ein, wenn die Einkünfte oder Vermögen in der Steuererklärung
+fahrlässig nicht angegeben wurden und in einem noch nicht rechtskräftig abgeschlossenen
+Veranlagungs-, Revisions- oder Nachsteuerverfahren:
 
-Kreisschreiben Nr. 48
+    a.   nachträglich angegeben werden; oder
+    b.   von der Steuerbehörde aus eigener Feststellung zu den Einkünften oder Vermögen
+    hinzugerechnet werden.
 
-Verwirkung des Anspruchs von natürlichen Personen auf Rückerstattung
-der Verrechnungssteuer gemäss Artikel 23 VStG in der Fassung vom
-28. September 2018
+Artikel 70d
+Artikel 23 Absatz 2 gilt für Ansprüche, die seit dem 1. Januar 2014 entstanden sind, sofern über
+den Anspruch auf Rückerstattung der Verrechnungssteuer noch nicht rechtskräftig entschieden
+worden ist.

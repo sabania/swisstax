@@ -4,13 +4,15 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 15"
-seiten: "4"
+titel: "Ziff. 5.6 Einkäufe in die Säule 3a – Voraussetzungen (ab 2025/2026)"
+ziffer: "5.6"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 4
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.6 Einkäufe in die Säule 3a · S. 6
 
-Die Einrichtung der gebundenen Vorsorge kann in ihrem Reglement vorsehen, dass sie die
-Leistung an eine begünstigte Person kürzt oder verweigert, wenn sie Kenntnis davon erlangt,
-dass diese den Tod des Vorsorgenehmers vorsätzlich herbeigeführt hat. Die frei gewordene
-Leistung fällt den nächsten Begünstigten nach Artikel 2 BVV 3 zu (vgl. Art. 2a BVV 3).
+5.6. Einkäufe in die Säule 3a
+Mit Inkrafttreten der Artikel 7a und 7b BVV3 per 1. Januar 2025 wurde die Möglichkeit einge-
+führt, dass Personen, die in bestimmten Jahren keine Beiträge oder nur Teilbeiträge an die
+Säule 3a geleistet haben, die daraus resultierenden Fehlbeträge auch nachträglich in Form
+von Einkäufen einzahlen können.

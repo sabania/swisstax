@@ -4,21 +4,31 @@ quelle: bund-ks-14
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 14 – Abschnitt 21"
-seiten: "5"
+titel: "Ziff. 6 Geltungsbereich und Inkrafttreten (1. Januar 2007, Rückwirkung ab Steuerjahr 2001)"
+ziffer: "6"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 14 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 14 · 6 Geltungsbereich / Inkrafttreten · S. 7
 
-Sofern der Verkäufer in seiner Eigenschaft als Beteiligter von einer beabsichtigten Fusion
-zwischen der Zielgesellschaft und der Käuferin wusste, liegt durch den Verkauf ebenfalls
-eine Mitwirkung bei der Substanzentnahme vor. Gemäss Bundesgericht spielt der Umstand,
-dass der Verkäufer keine Kenntnis von der Fusion hatte, allerdings dann keine Rolle für die
-Beurteilung der Mitwirkung, sofern der Verkäufer damit rechnen musste, dass die mit seiner
-Mitwirkung der verkauften Gesellschaft entzogenen Mittel dieser nicht wieder zugeführt wür-
-den (ASA 66, 146, Erw. 5c, bb).
+6.   Geltungsbereich / Inkrafttreten
 
-Die Mitwirkung kann auch bei einer finanzstarken Käufergesellschaft erfüllt sein. Der Hinweis
-der Verkaufspartei auf die starke Finanzkraft der Käuferin bzw. des Konzerns, dem die Käu-
-fergesellschaft angehört, vermag nicht zu belegen, er habe nicht mit dem Gebrauch dieser
-Mittel für den Erwerb der Aktien rechnen können (ASA 66, 146 Erw. 5c, bb).
+Dieses Kreisschreiben gilt für Verkäufe von qualifizierenden Beteiligungen gemäss Arti-
+kel 20a Absatz 1 Buchstabe a DBG durch in der Schweiz unbeschränkt steuerpflichtige na-
+türliche Personen aus deren Privatvermögen. Es ist hingegen nicht anwendbar für den Be-
+reich der Verrechnungssteuer.
+
+Dieses Kreisschreiben tritt am 1. Januar 2007 in Kraft, es ist gemäss Artikel 205b DBG an-
+wendbar für alle nicht rechtskräftigen Veranlagungen von Erträgen, welche im Steuerjahr
+2001 und später realisiert wurden. Der Erlass der Rückwirkungsbestimmung erfolgte unter
+dem System der Gegenwartsbemessung, weshalb als Steuerjahr 2001 das Kalenderjahr
+2001 zu verstehen ist.
+
+Die Praxis der ESTV gemäss Entwurf Kreisschreiben Nr. 7 vom 14. Februar 2005 gilt für alle
+Aktienverkäufe, welche bis und mit dem Steuerjahr 2000 vorgenommen worden sind.
+
+Soweit nach der bisherigen Rechtsprechung und Praxis für Verkäufe bis und mit
+31. Dezember 2006 ein Vermögensertrag aus indirekter Teilliquidation besteuert und infolge
+eines Verkäuferdarlehens ein sogenannter Revers über einen Aufschub der Besteuerung
+gewährt wurde, ist für die vom Revers erfassten Kaufpreisanteile das neue Recht anwend-
+bar, soweit die entsprechenden Veranlagungen noch nicht rechtskräftig sind.

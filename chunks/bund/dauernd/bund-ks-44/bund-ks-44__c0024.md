@@ -4,22 +4,22 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 24"
-seiten: "6"
+titel: "Ziff. 5.1 Inanspruchnahme DBA ohne Antrag – Nachentrichtung Quellensteuer"
+ziffer: "5.1"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 44 · 5 Verfahren › 5.1 Ordentliche Aufwandbesteuerung · S. 7
 
-<!-- Seite 6 -->
-Aus ausländischen Quellen: Es sind die Einkünfte, für die die steuerpflichtige Person aufgrund
-eines von der Schweiz abgeschlossenen Abkommens zur Vermeidung der Doppelbesteuerung
-gänzlich oder teilweise Entlastung von ausländischen Steuern beansprucht, heranzuziehen.
-Dazu ist Folgendes anzumerken:
-Für den Einbezug ausländischer Einkünfte genügt es, dass dafür irgendwelche Steuern des
-Quellenstaates (sowohl solche, die an der Quelle, als auch jene, die im ordentlichen Verfahren
-erhoben werden) kraft Abkommens gänzlich oder teilweise entfallen. Dies trifft auch dann zu,
-wenn der ausländische Staat gestützt auf ein mit der Schweiz abgeschlossenes Abkommen bei
-beschränkter Steuerpflicht beispielsweise auf die Besteuerung eines Ruhegehalts im Veranla-
-gungsverfahren verzichtet.
-Als Einkünfte, für die die steuerpflichtige Person kraft eines Doppelbesteuerungsabkommens
-gänzliche oder teilweise Befreiung, Anrechnung oder Rückerstattung von ausländischen Steu-
+Ein Doppelbesteuerungsabkommen wird auch dann in Anspruch genommen, wenn dazu keine
+amtliche Bescheinigung bzw. kein besonderer Antrag, sondern nur – wie vielfach bei Bezug von
+Lizenzgebühren, Pensionen und Ruhegehältern, die ungekürzt zufliessen – die Angabe einer
+schweizerischen Adresse an den ausländischen Schuldner notwendig ist. Entscheidend ist nicht
+die Frage, ob die begünstigte Person sich um die Erlangung von Abkommensvorteilen bemüht
+hat, sondern lediglich die Tatsache, dass sie kraft eines Doppelbesteuerungsabkommens von
+ausländischen Steuern entlastet worden ist. Verzichtet eine steuerpflichtige Person nachträglich
+auf Abkommensvorteile, die ihr bereits zugekommen sind, so hat sie eine im Ausland nicht ab-
+gezogene Quellensteuer spontan nachzuentrichten. Die Bestimmungen des Bundesratsbe-
+schlusses vom 14. Dezember 1962 betreffend Massnahmen gegen die ungerechtfertigte Inan-
+spruchnahme von Doppelbesteuerungsabkommen des Bundes (SR 672.202) bleiben vorbehal-
+ten.

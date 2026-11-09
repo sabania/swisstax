@@ -4,23 +4,23 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 19"
-seiten: "4"
+titel: "Ziff. 4.2 Privatvermögen – Liquidation einer kollektiven Kapitalanlage (Teil 1/2)"
+ziffer: "4.2"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 25 · 4 Besteuerung auf Ebene der Anleger › 4.2 Anlagen im Privatvermögen · S. 7
 
-3.3.3   Ermittlung des steuerbaren Gewinns
-Kollektive Kapitalanlagen mit direktem Grundbesitz nach Artikel 58 KAG werden gemäss Ar-
-tikel 49 Absatz 2 DBG den übrigen juristischen Personen gleichgestellt und als solche be-
-steuert. Somit sind für die Gewinnermittlung die Artikel 58 – 67 DBG massgebend.
+Die Liquidation eines vertraglichen Anlagefonds, einer SICAV oder einer KmGK hat den Re-
+geln in Artikel 96 KAG zu folgen. Artikel 97 Absatz 2 KAG räumt den Anlegerinnen und Anle-
+gern einen Anspruch auf den verhältnismässigen Anteil des Liquidationserlöses ein. Die
+Rückzahlung der Kapitaleinzahlungen und dieerzielten Kapitalgewinne sind für die Anlegerin-
+nen und Anleger im Privatvermögen steuerfrei. Der Einkommenssteuer unterliegen die mit
+dem Liquidationsergebnis anteilsmässig verteilten Vermögenserträge, die nicht bereits ver-
+steuert wurden. Wird eine kollektive Kapitalanlage mit direktem Grundbesitz aufgelöst, unter-
+liegen die den Anlegerinnen und Anlegern ausgeschütteten Erträge nicht der Einkommens-
+steuer, soweit diese aus direktem Grundbesitz stammen.
 
-Der steuerbare Reingewinn berechnet sich gemäss Artikel 58 Absatz 1 Buchstabe a DBG
-basierend auf der handelsrechtliche Erfolgsrechnung nach OR. Dem Grundsatz der Massge-
-blichkeit folgend, stellen die Steuerbehörden bei der Gewinnermittlung auf die Jahresrech-
-nung gemäss Artikel 958 Absatz 2 OR ab. In Bezug auf die Buchführung gelten die allgemei-
-nen Vorschriften des OR, insbesondere Artikel 957a ff. Die bisherige Praxis bezüglich der
-Einkäufe in laufende Nettoerträge aus Immobilien bzw. Rücknahme von Anteilen der Anlege-
-rinnen und Anleger wird beibehalten. Einkäufe werden wie bisher als Ertragspositionen be-
-steuert und folglich dem Ertrag aus direktem Grundbesitz gleichgestellt. Rückzahlungen an
-die Anlegerinnen und Anleger können als Aufwandposition geltend gemacht werden.
+Bei der Liquidation einer SICAF unterliegt der Liquidationsüberschuss (Differenz zwischen
+Rückgabepreis und dem anteiligen Nennwert) gemäss Artikel 20 Absatz 1 Buchstabe c DBG
+der Einkommenssteuer.

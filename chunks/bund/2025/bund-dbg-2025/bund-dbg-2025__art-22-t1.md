@@ -4,7 +4,7 @@ quelle: bund-dbg-2025
 jur: bund
 jahre: [2025]
 typ: gesetz
-titel: "Art. 22 DBG (Teil 1/4)"
+titel: "Art. 22 DBG (Teil 1/3)"
 artikel: "Art. 22"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---

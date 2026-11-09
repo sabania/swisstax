@@ -4,26 +4,27 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 146"
-seiten: "38"
+titel: "Ziff. 7.4 Beispiel 6 – Geburt eines Kindes und Aufgabe der Erwerbstätigkeit des Ehegatten (Teil 1/2)"
+ziffer: "7.4"
+seiten: "47"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 38
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 47
 
-    Gleichbleibender Lohn während 12 Monaten und halbjährliche Auszahlung des 13. Monatslohns im
-    Juni und Dezember:
-    3. Ein lediger Steuerpflichtiger ohne Kinder ist mit einem Beschäftigungsgrad von 100 % vom 1. Januar bis
-    am 31. Dezember 2021 in der Schweiz erwerbstätig. Für diese Tätigkeit erhält er ein Jahresbruttoeinkom-
-    men von CHF 65 000.00 (12 x CHF 5 000 + jeweils hälftiger 13. Monatslohn im Juni und im Dezember).
-    Das monatliche Bruttoeinkommen von CHF 5 000.00 wird mit dem Tarifcode A0 und zum satzbestimmen-
-    den Jahreseinkommen von CHF 65 000.00 besteuert. Damit ist im Dezember keine Korrektur erforderlich.
+    Geburt eines Kindes mit anschliessender Aufgabe der Erwerbtätigkeit des anderen Ehegatten wäh-
+    rend des Kalenderjahres:
+    6. Ein Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Am 15. August 2021 kommt das
+    Kind des Ehepaars zur Welt. Der Steuerpflichtige übt eine unselbstständige Erwerbstätigkeit mit einem
+    Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 78 000.00 (CHF 6 000 x 13). Die Kinderzula-
+    gen werden ab August 2021 ausbezahlt.
+    Seine Ehegattin gibt ihre Erwerbstätigkeit am 15. Oktober 2021 auf.
 
-    Monat   Jan.   …   Mai   Jun.   Jul.   …   Nov.   Dez.   Besteuerung
+    Monat   Jan.   …   Juli   Aug.   Sep.   Okt.   Nov.   Dez.   Besteuerung
 
-    Bruttolohn   5 000   5 000   7 500   5 000   5 000   7 500   65 000
+    Bruttolohn   6 000   6 000   6 000   6 000   6 000   6 000   12 000   78 000.00
 
-    Tarifcode   A0   A0   A0   A0   A0   A0   A0
+    Familienzulagen   200   200   200   200   200   1 000.00
 
-    Steuersatz (%)   10,41   10,4   10,4   10,4   10,4   10,4   10,4
+    Tarifcode   C0   C0   C0   C1   C1   B1   B1
 
-    Quellensteuer   520   520   780   520   520   780   6 760
+    Steuersatz (%)   12,01   12,0   12,12   9,84   9,8   4,15   4,1

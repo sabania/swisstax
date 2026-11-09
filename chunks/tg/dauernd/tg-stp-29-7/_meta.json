@@ -68,10 +68,10 @@
 },
 {
 "id": "tg-stp-29-7__c0005",
-"titel": "3. Abzüge für einzelne Berufsgruppen",
+"titel": "4. Abzug der effektiven Berufskosten",
 "pfad": [
 "StP 29 Nr. 7: Übrige Berufskosten",
-"3. Abzüge für einzelne Berufsgruppen"
+"4. Abzug der effektiven Berufskosten"
 ],
 "seiten": [],
 "artikel": null,
@@ -85,10 +85,11 @@
 },
 {
 "id": "tg-stp-29-7__c0006",
-"titel": "4. Abzug der effektiven Berufskosten",
+"titel": "Ältere Versionen",
 "pfad": [
 "StP 29 Nr. 7: Übrige Berufskosten",
-"4. Abzug der effektiven Berufskosten"
+"4. Abzug der effektiven Berufskosten",
+"Ältere Versionen"
 ],
 "seiten": [],
 "artikel": null,
@@ -116,24 +117,6 @@
 "zusammenfassung": null,
 "chunking": "überschriften",
 "vorher": "tg-stp-29-7__c0006",
-"nachher": "tg-stp-29-7__c0008"
-},
-{
-"id": "tg-stp-29-7__c0008",
-"titel": "Ältere Versionen",
-"pfad": [
-"StP 29 Nr. 7: Übrige Berufskosten",
-"4. Abzug der effektiven Berufskosten",
-"Ältere Versionen"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "tg-stp-29-7__c0007",
 "nachher": null
 }
 ]

@@ -4,29 +4,34 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 168"
-seiten: "44"
+titel: "Ziff. 7.5.4 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden (Jahresmodell)"
+ziffer: "7.5.4"
+seiten: "53"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 44
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.4 Ersatzeinkünfte über Arbeitgeber · S. 53
 
-    Beginn / Ende der Erwerbstätigkeit während eines Monat mit Bonuszahlung:
-    - Ein lediger Arbeitnehmer übt seine Erwerbstätigkeit beim gleichen Arbeitgeber vom 16. Januar bis zum
-    10. Februar und anschliessend vom 21. Februar bis zum 18. März aus. Für den Monat Januar erhält er
-    einen Bruttolohn von CHF 5 000.00. Für den Februar beträgt der Bruttolohn CHF 6 000.00. Schliesslich
-    bezahlt ihm sein Arbeitgeber für den Monat März einen Bruttolohn von CHF 3 000.00 sowie einen Bonus
-    von CHF 2 000.00.
+7.5.4 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden
+Auf Ersatzeinkünften (Taggelder), welche von der Versicherung an den Arbeitgeber ausbe-
+zahlt werden, sind von der Versicherung keine Quellensteuern abzurechnen. Der Arbeitge-
+ber nimmt den Quellensteuerabzug auf der von ihm geschuldeten Bruttoentschädigung an
+den Arbeitnehmer vor und wendet darauf den massgebenden Tarifcode bzw. Steuersatz an.
 
-    Monat   Jan.   Feb.   März   Apr.   …   Dez.   Besteuerung
-    Anzahl
-    15   20   18
-    Arbeitstage
-    Bruttolohn   5 000   6 000   3 000
+    Beispiel:
+    - Der Arbeitgeber schuldet dem Arbeitnehmer T. im März 2021 einen Bruttomonatslohn von CHF 4 500.00
+    sowie ein Unfalltaggeld (Ersatzeinkunft) über CHF 1 000.00, welches die Versicherung an den Arbeitgeber
+    überweist.
 
-    Bonus   2 000
+    Monat   Januar   Februar   März   April   … Dezember   Besteuerung
 
-    Tarifcode   A0   A0   A0
+    Bruttolohn   5 500   5 500   4 500   5 500   5 500   65 000
 
-    Steuersatz (%)   16,91   16,32   14,64
+    Unfalltaggeld   1 000   1 000
 
-    Quellensteuer   845   978   730   2 553
+    Tarifcode   A0   A0   A0   A0   A0   A0
+
+    Steuersatz (%)   10,51   10,5   10,5   10,5   10,5   10,5
+
+    Quellensteuer   577.50   577.50   577.50   577.50   577.50   6 930
+
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 66 000.00 (CHF 5 500 x 12)

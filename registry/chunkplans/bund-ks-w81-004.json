@@ -1,0 +1,83 @@
+{
+ "id": "bund-ks-w81-004",
+ "hinweise": [
+  "Seite 1: Silbentrennung mit Zeilenumbruch mitten im Wort; Fussnoten 1-3 am Seitenende."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "titel": "KS Nr. 4 Lidlohn (Art. 334 ZGB) – Steuerbarkeit als Arbeitseinkommen",
+   "pfad": [
+    "Lidlohn",
+    "Steuerbarkeit"
+   ],
+   "stichworte": [
+    "Lidlohn",
+    "Art. 334 ZGB",
+    "mündige Kinder Eltern Betrieb",
+    "Arbeitseinkommen",
+    "Landwirtschaft Hofübernahme",
+    "Art. 17 DBG"
+   ],
+   "positionen": [
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Lidlohn nach Art. 334 ZGB ist obligationenrechtlicher Anspruch und grundsätzlich steuerbares Arbeitseinkommen (Art. 17 Abs. 1 DBG); Rückerstattung zugewendeter Einkünfte ist nicht steuerbar."
+  },
+  {
+   "start": 59,
+   "titel": "Lidlohn – Satzbestimmung: Division durch Anzahl Arbeitsjahre",
+   "pfad": [
+    "Lidlohn",
+    "Satzbestimmung"
+   ],
+   "stichworte": [
+    "Lidlohn Steuersatz",
+    "Arbeitsjahre",
+    "Progression",
+    "Satzbestimmung"
+   ],
+   "positionen": [
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Für den Steuersatz wird der Lidlohn stets durch die Anzahl Arbeitsjahre geteilt und nur in diesem Umfang dem übrigen Einkommen zugerechnet; Fussnoten zu Rechtsgrundlagen."
+  },
+  {
+   "start": 80,
+   "skip": true,
+   "titel": "Adressblock ESTV"
+  },
+  {
+   "start": 87,
+   "titel": "Anwendung ab 21. Periode, Beilage Berechnungsbeispiel",
+   "pfad": [
+    "Lidlohn",
+    "Schluss"
+   ],
+   "stichworte": [
+    "Anwendung",
+    "SSK",
+    "Beilage"
+   ],
+   "zusammenfassung": "Vorgehen nach den Richtlinien ab 21. Periode im Einvernehmen mit der Konferenz staatlicher Steuerbeamter."
+  },
+  {
+   "start": 102,
+   "titel": "Berechnungsbeispiel Lidlohn CHF 60'000 über 20 Jahre – Steuersatz 0.397 %",
+   "pfad": [
+    "Lidlohn",
+    "Beispiel"
+   ],
+   "stichworte": [
+    "Lidlohn Beispiel",
+    "Berechnung",
+    "CHF 60'000",
+    "Steuer 412.88"
+   ],
+   "positionen": [
+    "einkommen.uebrige"
+   ],
+   "zusammenfassung": "Lidlohn CHF 60'000 / 20 = CHF 3'000, plus übriges Einkommen CHF 44'000 = CHF 47'000 für Satz 0.397 %; Steuer auf CHF 104'000 = CHF 412.88."
+  }
+ ]
+}

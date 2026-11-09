@@ -4,21 +4,29 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 23"
-seiten: "5"
+titel: "Beispiel Ziff. 3.4.1 – Vorzeitige Pensionierung, Wegfall Sperrfrist (470.50 Franken) (Teil 1/2)"
+ziffer: "3.4.1"
+seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 37 · 3.4 Besondere Fälle › 3.4.1 Vorzeitiger Wegfall der Sperrfrist › Beispiel · S. 8–9
 
-2.3.2 Unechte Mitarbeiterbeteiligungen
-Als unechte Mitarbeiterbeteiligungen gelten eigenkapital- bzw. aktienkursbezogene Anreiz-
-systeme, welche dem Mitarbeitenden im Ergebnis keine Beteiligung am Eigenkapital des Ar-
-beitgebers, sondern in der Regel nur eine Geldleistung in Aussicht stellen, welche sich an
-der Wertentwicklung des Basistitels bestimmt. Weil diese Instrumente dem Mitarbeitenden
-regelmässig keine weiteren Rechte wie Stimm- und Dividendenrechte einräumen, gelten die
-unechten Mitarbeiterbeteiligungen bis zu ihrer Realisation steuerlich als blosse Anwartschaf-
-ten.
+    Beispiel:
+    Mitarbeiter A hat am 15. März 2010 eine für 10 Jahre gesperrte Mitarbeiter-
 
-Als häufigste Formen unechter Mitarbeiterbeteiligungen gelten die sog. Phantom Stocks
-(synthetische Aktien) und die sog. Stock Appreciation Rights (synthetische Optionen) sowie
-Formen von Co-Investments.
+    aktie unentgeltlich zugeteilt erhalten. Am 30. September 2013 geht Mitar-
+    beiter A vorzeitig in Pension. Entsprechend dem Beteiligungsplan fällt bei
+    diesem Ereignis eine noch bestehende Sperrfrist vorzeitig weg. Damit wird
+    per 30. September 2013 die grundsätzlich noch bis zum 15. März 2020 ge-
+    sperrte Mitarbeiteraktie sofort frei verfügbar. Anders ausgedrückt wird in
+    diesem Zeitpunkt die noch für 6,46 Jahre (n) gesperrte Aktie in eine unge-
+    sperrte Aktie umgewandelt. Beträgt der (volle) Börsenkurs am 30. Septem-
+    ber 2013 beispielsweise Fr 1’500.00 pro Aktie (x), dann beträgt der – unter
+    Berücksichtigung der noch ausstehenden 6,46 Sperrfristjahre – reduzierte
+    Verkehrswert in Anwendung von Artikel 17b Absatz 2 DBG lediglich 68,632
+    Prozent (100 : 1,06 6,46) des vollen Verkehrswerts, d.h. 1'029.50 Franken.
+    Diese Differenz zwischen dem vollen Verkehrswert (1'500) und dem redu-
+    zierten Verkehrswert (1'029.50) stellt das im Zeitpunkt des vorzeitigen
+    Wegfalls der Sperrfrist zu bescheinigende steuerbare Erwerbseinkommen
+    von 470.50 Franken dar. Mathematisch entspricht diese Berechnung der
+    Formel (x – x : 1,06 n), bzw. (1'500 – 1'500 : 1,06 6,46).

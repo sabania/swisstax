@@ -1,208 +1,382 @@
 [
 {
 "id": "sg-form-32-2025__c0001",
-"titel": "Formular 32 SG 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Merkblatt 32 Direkte Bundessteuer 2025 – Allgemeines, Berechnung",
+"pfad": [
+"Allgemeines"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"direkte Bundessteuer",
+"Steuererklärung SG",
+"Bundessteuer Tarif",
+"Einkommen 2025"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Die St.Galler Steuererklärung dient auch der Veranlagung der direkten Bundessteuer; Steuerbetrag nach Bundestarif (Tarifauszug Rückseite).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-form-32-2025__c0002"
 },
 {
 "id": "sg-form-32-2025__c0002",
-"titel": "Formular 32 SG 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Unterschiedliche Abzüge SG/Bund – Fahrkosten und Pauschale Berufskosten (Ziff. 10)",
+"pfad": [
+"Unterschiedliche Abzüge"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10.1 / 10.2",
+"stichworte": [
+"Fahrkosten",
+"Pendlerabzug",
+"Berufskostenpauschale",
+"Bund vs. Kanton",
+"übrige Berufskosten"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Fahrkosten max. Fr. 8'000 (SG) bzw. Fr. 3'300 (Bund); Pauschale übrige Berufskosten SG Fr. 700 + 10% max. Fr. 2'400, Bund 3% min. Fr. 2'000 max. Fr. 4'000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0001",
 "nachher": "sg-form-32-2025__c0003"
 },
 {
 "id": "sg-form-32-2025__c0003",
-"titel": "Formular 32 SG 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Unterschiedliche Abzüge SG/Bund – Versicherungsprämien und Sparzinsen (Ziff. 14)",
+"pfad": [
+"Unterschiedliche Abzüge"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14",
+"stichworte": [
+"Versicherungsabzug",
+"Krankenkassenprämien",
+"Sparzinsen",
+"Säule 3a",
+"Kinder"
+],
+"positionen": [
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Verheiratete max. Fr. 6'800 (SG) / Fr. 3'700 (Bund), Alleinstehende Fr. 3'400 / Fr. 1'800; Zuschläge ohne Vorsorgebeiträge und pro Kind (Fr. 1'100 / Fr. 700).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0002",
 "nachher": "sg-form-32-2025__c0004"
 },
 {
 "id": "sg-form-32-2025__c0004",
-"titel": "Formular 32 SG 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Unterschiedliche Abzüge SG/Bund – Geldspiele, Parteispenden, Weiterbildung (Ziff. 16)",
+"pfad": [
+"Unterschiedliche Abzüge"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "16.1 / 16.4",
+"stichworte": [
+"Geldspiele",
+"Lotterie",
+"Parteispenden",
+"Weiterbildung",
+"Einsatzkosten"
+],
+"positionen": [
+"abzug.parteispenden",
+"abzug.weiterbildung",
+"einkommen.lotterie_gewinne"
+],
+"zusammenfassung": "Einsatzkosten Geldspiele 5% max. Fr. 5'400, Online-Spiele max. Fr. 26'700/26'800; Parteispenden Bund max. Fr. 10'700 bzw. Fr. 21'400; Weiterbildung max. Fr. 13'000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0003",
 "nachher": "sg-form-32-2025__c0005"
 },
 {
 "id": "sg-form-32-2025__c0005",
-"titel": "Formular 32 SG 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Unterschiedliche Abzüge SG/Bund – Zweiverdienerabzug, Krankheitskosten (Ziff. 17, 21.1)",
+"pfad": [
+"Unterschiedliche Abzüge"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "17 / 21.1",
+"stichworte": [
+"Zweiverdienerabzug",
+"Doppelverdiener",
+"Krankheitskosten",
+"Selbstbehalt",
+"Arztkosten"
+],
+"positionen": [
+"abzug.zweiverdiener",
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Zweiverdienerabzug Bund 50% des niedrigeren Einkommens, min. Fr. 8'600, max. Fr. 14'100 (SG Fr. 500); Selbstbehalt Krankheitskosten SG 2%, Bund 5% der Nettoeinkünfte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0004",
 "nachher": "sg-form-32-2025__c0006"
 },
 {
 "id": "sg-form-32-2025__c0006",
-"titel": "Formular 32 SG 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "Unterschiedliche Abzüge SG/Bund – Kinderabzüge, Unterstützung, Verheiratete (Ziff. 23)",
+"pfad": [
+"Unterschiedliche Abzüge"
+],
 "seiten": [
-2
+1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "23.1 – 23.4",
+"stichworte": [
+"Kinderabzug",
+"Ausbildungskosten",
+"Unterstützungsabzug",
+"Verheiratetenabzug",
+"Abzug vom Steuerbetrag"
+],
+"positionen": [
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung",
+"sozialabzug.verheiratete"
+],
+"zusammenfassung": "Kinderabzug SG Fr. 7'600 (Vorschule) bzw. Fr. 10'800, Bund einheitlich Fr. 6'800 pro Kind; Verheiratetenabzug Bund Fr. 2'800; Steuerbetragsermässigung pro Kind max. Fr. 263.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0005",
 "nachher": "sg-form-32-2025__c0007"
 },
 {
 "id": "sg-form-32-2025__c0007",
-"titel": "Formular 32 SG 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "Bundestarif 2025 natürliche Personen – Titel und Erläuterung",
+"pfad": [
+"Tarif direkte Bundessteuer 2025"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Bundessteuertarif",
+"Tarif 2025",
+"Kapitalleistungen Vorsorge",
+"ESTV Tarif"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "ESTV-Tarif 2025 für die direkte Bundessteuer; gilt ab 2025 auch für Kapitalleistungen aus Vorsorge.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0006",
 "nachher": "sg-form-32-2025__c0008"
 },
 {
 "id": "sg-form-32-2025__c0008",
-"titel": "Formular 32 SG 2025 – Abschnitt 8",
-"pfad": [],
+"titel": "Bundestarif 2025 – Tabelle Alleinstehende / Verheiratete (18'500 bis 950'000) (Teil 1/6)",
+"pfad": [
+"Tarif direkte Bundessteuer 2025",
+"Tabelle"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuertabelle",
+"Alleinstehende",
+"Verheiratete",
+"Einelternfamilien",
+"11.5 %",
+"Höchstsatz"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Tarifstufen von CHF 18'500 bis 950'000; für höhere steuerbare Einkünfte beträgt die Jahressteuer einheitlich 11.5 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0007",
 "nachher": "sg-form-32-2025__c0009"
 },
 {
 "id": "sg-form-32-2025__c0009",
-"titel": "Formular 32 SG 2025 – Abschnitt 9",
-"pfad": [],
+"titel": "Bundestarif 2025 – Tabelle Alleinstehende / Verheiratete (18'500 bis 950'000) (Teil 2/6)",
+"pfad": [
+"Tarif direkte Bundessteuer 2025",
+"Tabelle"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuertabelle",
+"Alleinstehende",
+"Verheiratete",
+"Einelternfamilien",
+"11.5 %",
+"Höchstsatz"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0008",
 "nachher": "sg-form-32-2025__c0010"
 },
 {
 "id": "sg-form-32-2025__c0010",
-"titel": "Formular 32 SG 2025 – Abschnitt 10",
-"pfad": [],
+"titel": "Bundestarif 2025 – Tabelle Alleinstehende / Verheiratete (18'500 bis 950'000) (Teil 3/6)",
+"pfad": [
+"Tarif direkte Bundessteuer 2025",
+"Tabelle"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuertabelle",
+"Alleinstehende",
+"Verheiratete",
+"Einelternfamilien",
+"11.5 %",
+"Höchstsatz"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0009",
 "nachher": "sg-form-32-2025__c0011"
 },
 {
 "id": "sg-form-32-2025__c0011",
-"titel": "Formular 32 SG 2025 – Abschnitt 11",
-"pfad": [],
+"titel": "Bundestarif 2025 – Tabelle Alleinstehende / Verheiratete (18'500 bis 950'000) (Teil 4/6)",
+"pfad": [
+"Tarif direkte Bundessteuer 2025",
+"Tabelle"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuertabelle",
+"Alleinstehende",
+"Verheiratete",
+"Einelternfamilien",
+"11.5 %",
+"Höchstsatz"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0010",
 "nachher": "sg-form-32-2025__c0012"
 },
 {
 "id": "sg-form-32-2025__c0012",
-"titel": "Formular 32 SG 2025 – Abschnitt 12",
-"pfad": [],
+"titel": "Bundestarif 2025 – Tabelle Alleinstehende / Verheiratete (18'500 bis 950'000) (Teil 5/6)",
+"pfad": [
+"Tarif direkte Bundessteuer 2025",
+"Tabelle"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuertabelle",
+"Alleinstehende",
+"Verheiratete",
+"Einelternfamilien",
+"11.5 %",
+"Höchstsatz"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0011",
 "nachher": "sg-form-32-2025__c0013"
 },
 {
 "id": "sg-form-32-2025__c0013",
-"titel": "Formular 32 SG 2025 – Abschnitt 13",
-"pfad": [],
+"titel": "Bundestarif 2025 – Tabelle Alleinstehende / Verheiratete (18'500 bis 950'000) (Teil 6/6)",
+"pfad": [
+"Tarif direkte Bundessteuer 2025",
+"Tabelle"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuertabelle",
+"Alleinstehende",
+"Verheiratete",
+"Einelternfamilien",
+"11.5 %",
+"Höchstsatz"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-form-32-2025__c0012",
+"nachher": "sg-form-32-2025__c0014"
+},
+{
+"id": "sg-form-32-2025__c0014",
+"titel": "Bundestarif 2025 – Fussnoten (Rundung, Ermässigung 263 Franken pro Kind)",
+"pfad": [
+"Tarif direkte Bundessteuer 2025",
+"Fussnoten"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Fussnoten Tarif",
+"Rundung",
+"Kinderermässigung",
+"263 Franken"
+],
+"positionen": [
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Restbeträge unter CHF 100 fallen ausser Betracht; Steuerbetrag ermässigt sich um 263 Franken pro Kind oder unterstützungsbedürftige Person.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-32-2025__c0013",
 "nachher": null
 }
 ]

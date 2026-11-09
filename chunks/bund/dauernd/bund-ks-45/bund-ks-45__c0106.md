@@ -4,27 +4,25 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 106"
-seiten: "27"
+titel: "Ziff. 6.9 Beispiele 4–5 – Gre-3 und Lohnfortzahlung bei Freistellung (Italien)"
+ziffer: "6.9"
+seiten: "33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 27
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.9 Leistungen bei/nach Beendigung · S. 33
 
-<!-- Seite 27 -->
-    6. Der Arbeitnehmer N. arbeitet bei der K. AG. Er ist im Stundenlohn angestellt und verdient CHF 35.00 pro
-    Stunde. Im Juli 2021 rechnet der Arbeitnehmer für 2 Wochen 75 Arbeitsstunden ab und für die verblei-
-    bende Zeit im Monat Juli 2021 erhält er ein vom Arbeitgeber ausbezahltes Krankentaggeld über Total
-    CHF 2 000.00. Im Weiteren wird ihm für 6 Monate eine Familienzulage über CHF 1 200.00 ausbezahlt.
-    Diese Familienzulage setzt sich zusammen aus der ordentlichen Familienzulage für den Monat Juli 2021
-    sowie einer Nachzahlung von fünf Monaten für die Monate Februar – Juni 2021.
+    4. Spezialfall Grenzgänger aus Deutschland mit Formular Gre-3:
+    Hätte Arbeitnehmer W. (vgl. vorangehendes Beispiel) im Jahr 2021 mittels Formular Gre-3 mehr als 55
+    Nichtrückkehrtage für die Periode von Januar bis November deklariert (60 / 12 x 11), wären allenfalls im
+    Ausland erbrachte Arbeitstage analog dem vorstehenden Beispiel (Besteuerung einer Bonuszahlung an
+    einen in Österreich ansässigen Arbeitnehmer) auszuscheiden.
 
-    Abrechnung   Stunden-   Lohn   Stunden   Faktor   steuerbar   satzbe-
-    lohn   stimmend
 
-    Lohn   35   2 625   75   180   2 625   6 300
-
-    Taggeld   2 000   2 000   -
-
-    Familienzulage   1 200   1 200   1 200
-
-    Total   5 825   7 500
+    5. Besteuerung von Lohnfortzahlungen unter gekündigtem Arbeitsverhältnis:
+    Dem Arbeitnehmer Z. mit Ansässigkeit in Italien wird am 24. September 2021 per 31. Dezember 2021 ge-
+    kündigt. Er wird für die verbleibenden Monate Oktober, November und Dezember 2021 freigestellt. Wäh-
+    rend seiner Freistellung erhält Z unverändert seinen monatlichen Bruttolohn von CHF 7000. In der voran-
+    gehenden 12-monatigen Referenzperiode wurden 60 Arbeitstage ins Ausland (= 180 schweizerische Ar-
+    beitstage) ausgeschieden. Demgemäss ergibt sich ein steuerbarer Bruttolohn für die Monate Oktober bis
+    Dezember 2021 von je CHF 5 250.00 (CHF 7 000.00 / 240 Arbeitstage x 180 schweizerische Arbeitstage),
+    der zum Satz von CHF 7 000.00 an der Quelle zu besteuern ist.

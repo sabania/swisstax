@@ -1,0 +1,50 @@
+{
+ "id": "bund-form-13-2025",
+ "hinweise": [
+  "Mehrspaltiges Layout, Texte rechts auf S.2 (Quellensteuern) vermischt; Formular für juristische Personen."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Teil I Kapitalanlagen mit Verrechnungssteuer (Formular 13, jur. Personen)",
+   "pfad": [
+    "I. Kapitalanlagen mit Verrechnungssteuer"
+   ],
+   "stichworte": [
+    "Wertschriftenverzeichnis",
+    "Verrechnungssteuer",
+    "Bankguthaben",
+    "Obligationen",
+    "Aktien",
+    "Formular 25"
+   ],
+   "positionen": [
+    "einkommen.wertschriften",
+    "vermoegen.wertschriften_guthaben",
+    "verrechnungssteuer.rueckerstattung"
+   ],
+   "zusammenfassung": "Verzeichnis inländischer Post- und Bankguthaben, Obligationen und Beteiligungen mit Buchwert, Steuerwert und Bruttoertrag; Rückerstattung separat mit Formular 25.",
+   "ziffer": "I"
+  },
+  {
+   "start": 54,
+   "titel": "Teil II Kapitalanlagen ohne Verrechnungssteuer, ausländische Quellensteuern",
+   "pfad": [
+    "II. Kapitalanlagen ohne Verrechnungssteuer"
+   ],
+   "stichworte": [
+    "Hypothekarforderungen",
+    "ausländische Wertschriften",
+    "Quellensteuer Anrechnung",
+    "Formular DA-2",
+    "Formular DA-3"
+   ],
+   "positionen": [
+    "einkommen.wertschriften",
+    "vermoegen.wertschriften_guthaben"
+   ],
+   "zusammenfassung": "Inländische Hypothekarforderungen, Darlehen und ausländische Anlagen; Anrechnung ausländischer Quellensteuern über Formular DA-2 bzw. DA-3.",
+   "ziffer": "II"
+  }
+ ]
+}

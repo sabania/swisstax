@@ -1,1312 +1,2434 @@
 [
 {
 "id": "zh-weisung-liegenschaften-2026__c0001",
-"titel": "Weisung 2026 ZH – Abschnitt 1",
+"titel": "Weisung 2026 ZH – Titel, Ermächtigung, Geltung ab Steuerperiode 2026",
 "pfad": [],
-"seiten": [],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Weisung 2026",
+"Regierungsrat Zürich",
+"Liegenschaften",
+"Eigenmietwert",
+"Vermögenssteuerwert",
+"LS 631.32"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Weisung des Regierungsrates vom 28. August 2024 über die Bewertung von Liegenschaften und die Festsetzung der Eigenmietwerte ab Steuerperiode 2026.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "zh-weisung-liegenschaften-2026__c0002"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0002",
-"titel": "Weisung 2026 ZH – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1–3 Landwirtschaftliche Liegenschaften – Ertragswert",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"I. Landwirtschaftliche Liegenschaften"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–3",
+"stichworte": [
+"Landwirtschaft",
+"Ertragswert",
+"BGBB",
+"bäuerliches Heimwesen",
+"Forstwirtschaft"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwirtschaftlich oder forstwirtschaftlich beworbene Liegenschaften werden mit den erforderlichen Gebäuden zum Ertragswert nach BGBB bewertet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0001",
 "nachher": "zh-weisung-liegenschaften-2026__c0003"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0003",
-"titel": "Weisung 2026 ZH – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 4–6 Unüberbautes Land – Allgemeines und Bauland-Kategorien (Teil 1/2)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"1.–2. Allgemeines, Bauland-Kategorien"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4–6",
+"stichworte": [
+"Bauland",
+"Verkehrswert",
+"Zonenordnung",
+"Mehrfamilienhaus",
+"Einfamilienhaus",
+"Geschäftshaus"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Unüberbautes Land wird nach Zonenordnung Bauland-Kategorien zugeordnet (Mehrfamilienhäuser/Stockwerkeigentum, Einfamilienhäuser, Geschäftshäuser, industrielle/gewerbliche Bauten).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0002",
 "nachher": "zh-weisung-liegenschaften-2026__c0004"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0004",
-"titel": "Weisung 2026 ZH – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 4–6 Unüberbautes Land – Allgemeines und Bauland-Kategorien (Teil 2/2)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"1.–2. Allgemeines, Bauland-Kategorien"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4–6",
+"stichworte": [
+"Bauland",
+"Verkehrswert",
+"Zonenordnung",
+"Mehrfamilienhaus",
+"Einfamilienhaus",
+"Geschäftshaus"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0003",
 "nachher": "zh-weisung-liegenschaften-2026__c0005"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0005",
-"titel": "Weisung 2026 ZH – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 7–9 Festlegung der steuerlich massgebenden Landwerte",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"3. Festlegung der Landwerte"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7–9",
+"stichworte": [
+"Landwerte",
+"Sachverständige",
+"Finanzdirektion",
+"Vergleichshandänderungen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Die steuerlich massgebenden Landwerte werden von Sachverständigen der Finanzdirektion ermittelt und stehen im Anhang zur Weisung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0004",
 "nachher": "zh-weisung-liegenschaften-2026__c0006"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0006",
-"titel": "Weisung 2026 ZH – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 10–15 Landwerte nach Bauland-Kategorie (Lageklassen)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"3. Festlegung der Landwerte"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10–15",
+"stichworte": [
+"Lageklassen",
+"Preisbandbreite",
+"Zentrum-Peripherie-Modell",
+"Gemeindetyp",
+"Landwert Einfamilienhaus"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Pro Gemeinde wird eine Preisbandbreite und je Lageklasse ein Landwert festgelegt; Geschäftshäuser und industrielle Bauten über ein Zentrum-Peripherie-Modell.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0005",
 "nachher": "zh-weisung-liegenschaften-2026__c0007"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0007",
-"titel": "Weisung 2026 ZH – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 16–18 Kiesland, anderes Land, besondere Verhältnisse",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"II. Unüberbautes Land",
+"4.–6."
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "16–18",
+"stichworte": [
+"Kiesland",
+"Campingplatz",
+"Lärmimmissionen",
+"Baubeschränkungen",
+"Reduktion Landwert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Kiesland und anderes unüberbautes Land werden zum Verkehrswert besteuert; bei wesentlich tieferem tatsächlichem Landwert (Lärm, Baubeschränkungen) Reduktion nach Nachweis.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0006",
 "nachher": "zh-weisung-liegenschaften-2026__c0008"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0008",
-"titel": "Weisung 2026 ZH – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 19 Grenzfälle landwirtschaftlich beworbenes Land",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"III. Grenzfälle"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "19",
+"stichworte": [
+"Grenzfall",
+"Umschwung",
+"Pünten",
+"Vermögensnachbesteuerung",
+"Ertragswert auf Begehren"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Bei Grenzfällen erfolgt auf Begehren die Bewertung zum Ertragswert, wenn der Pflichtige die Vermögensnachbesteuerung unterschriftlich anerkennt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0007",
 "nachher": "zh-weisung-liegenschaften-2026__c0009"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0009",
-"titel": "Weisung 2026 ZH – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 20–22 Einfamilienhäuser und Stockwerkeigentum – Grundsätze (Landwert + Zeitbauwert)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "20–22",
+"stichworte": [
+"Einfamilienhaus",
+"Stockwerkeigentum",
+"Landwert plus Zeitbauwert",
+"Hochhaus",
+"Wertquote",
+"Formelwert 70 %"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Verkehrswert Einfamilienhaus = Landwert + Zeitbauwert; bei Hochhaus-Stockwerkeigentum (mehr als acht Stockwerke) individuelle Schätzung, Formelwert massgebend bei 70 % bis 100 % des Schätzwerts.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0008",
 "nachher": "zh-weisung-liegenschaften-2026__c0010"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0010",
-"titel": "Weisung 2026 ZH – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 23–25 Landwert bei Einfamilienhaus und Stockwerkeigentum",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"2. Landwert"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "23–25",
+"stichworte": [
+"Landwert",
+"Zuordnung nach Art der Baute",
+"ausserhalb Bauzone",
+"Lageklasse"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert nach Bauland-Kategorie gemäss Art der Baute (nicht Zonenordnung); Land ausserhalb der Bauzone wird ebenfalls einer Lageklasse zugeordnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0009",
 "nachher": "zh-weisung-liegenschaften-2026__c0011"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0011",
-"titel": "Weisung 2026 ZH – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 26–27 Anrechenbare Grundstücksfläche Einfamilienhäuser (400 m2 / 800 m2)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"2. Landwert"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "26–27",
+"stichworte": [
+"Umschwung",
+"Grundstücksfläche",
+"400 m2",
+"800 m2",
+"Basiswert Fr. 30 000",
+"Fr. 120 000"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Einfamilienhäuser: anrechenbare Fläche bis Basiswert Fr. 30 000 höchstens 400 m2, über Fr. 120 000 höchstens 800 m2 zuzüglich 100 m2 pro volle Fr. 30 000 Basiswert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0010",
 "nachher": "zh-weisung-liegenschaften-2026__c0012"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0012",
-"titel": "Weisung 2026 ZH – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 28 Anrechenbare Grundstücksfläche Stockwerkeigentum (100 m2 / 200 m2)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"2. Landwert"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "28",
+"stichworte": [
+"Stockwerkeigentum",
+"Grundstücksfläche",
+"100 m2",
+"200 m2",
+"Basiswert Fr. 10 000",
+"Fr. 40 000"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Stockwerkeigentum: bis Basiswert Fr. 10 000 höchstens 100 m2, über Fr. 40 000 höchstens 200 m2 zuzüglich 30 m2 pro volle Fr. 10 000 Basiswert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0011",
 "nachher": "zh-weisung-liegenschaften-2026__c0013"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0013",
-"titel": "Weisung 2026 ZH – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 29 Übersteigende Landflächenanteile (30 % / 5 % des Landwerts)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"2. Landwert"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "29",
+"stichworte": [
+"Landflächenanteil",
+"1200 m2",
+"30 % Landwert",
+"5 % Landwert",
+"Umschwung"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Übersteigende Flächenanteile: Einfamilienhäuser bis 1200 m2 zu 30 %, darüber zu 5 % des Landwerts; Stockwerkeigentum bis 200 m2 zu 30 %, darüber zu 5 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0012",
 "nachher": "zh-weisung-liegenschaften-2026__c0014"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0014",
-"titel": "Weisung 2026 ZH – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 30–34 Zeitbauwert (Neubauwert 1120 %, Altersentwertung 1 % pro Jahr, max. 40 %)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"3. Zeitbauwert"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "30–34",
+"stichworte": [
+"Zeitbauwert",
+"Neubauwert",
+"Basiswert Gebäudeversicherung",
+"Altersentwertung",
+"Totalrenovation",
+"1120 %"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Neubauwert = 1120 % des Basiswerts der Gebäudeversicherung; Altersentwertung 1 % pro Jahr des Neubauwerts, höchstens 40 %, berechnet bis Kalenderjahr 2026.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0013",
 "nachher": "zh-weisung-liegenschaften-2026__c0015"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0015",
-"titel": "Weisung 2026 ZH – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 35 Besondere Verhältnisse bei Einfamilienhäusern und Stockwerkeigentum",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"IV. Einfamilienhäuser und Stockwerkeigentum",
+"4. Besondere Verhältnisse"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "35",
+"stichworte": [
+"Korrektur Landwert",
+"Korrektur Zeitbauwert",
+"Nachweis",
+"Veräusserungserlös"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Auf Verlangen und gegen Nachweis Korrekturen beim Landwert oder Zeitbauwert, soweit sie sich bei einer Veräusserung nicht im Erlös niederschlagen würden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0014",
 "nachher": "zh-weisung-liegenschaften-2026__c0016"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0016",
-"titel": "Weisung 2026 ZH – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 36–37 Mehrfamilien- und Geschäftshäuser – Ertragswert, Abgrenzung",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"V. Mehrfamilien- und Geschäftshäuser",
+"1. Allgemeine Grundsätze"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "36–37",
+"stichworte": [
+"Mehrfamilienhaus",
+"Geschäftshaus",
+"Ertragswert",
+"mehr als zwei Wohneinheiten",
+"Zweifamilienhaus"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Mehrfamilien- und Geschäftshäuser (mehr als zwei Wohneinheiten) werden zum Ertragswert bewertet; Zweifamilienhäuser ohne Stockwerkeigentum wie Einfamilienhäuser.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0015",
 "nachher": "zh-weisung-liegenschaften-2026__c0017"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0017",
-"titel": "Weisung 2026 ZH – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 38–39 Ertragswert Mehrfamilienhäuser – Kapitalisierung des Ertrags",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"V. Mehrfamilien- und Geschäftshäuser",
+"2. Ertragswert"
+],
 "seiten": [
-8
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "38–39",
+"stichworte": [
+"Ertragswert",
+"Mietertrag",
+"Marktmiete",
+"Kapitalisierung",
+"Eigennutzung"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.mietertrag"
+],
+"zusammenfassung": "Ertragswert = kapitalisierter Ertrag aus Mieterentschädigungen; bei Eigennutzung ist die erzielbare Marktmiete hinzuzuzählen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0016",
 "nachher": "zh-weisung-liegenschaften-2026__c0018"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0018",
-"titel": "Weisung 2026 ZH – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 40–42 Vorzugsmieten und Kapitalisierungssätze (Anhang)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"V. Mehrfamilien- und Geschäftshäuser",
+"2. Ertragswert"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "40–42",
+"stichworte": [
+"Kapitalisierungssatz",
+"Vorzugsmiete",
+"Leerstand",
+"Zinssituation"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Bei nicht oder teilweise vermieteten Objekten ist der erzielbare Ertrag einzubeziehen; die Kapitalisierungssätze stehen im Anhang.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0017",
 "nachher": "zh-weisung-liegenschaften-2026__c0019"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0019",
-"titel": "Weisung 2026 ZH – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 43–44 Ertragswert Geschäftshäuser",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"V. Mehrfamilien- und Geschäftshäuser",
+"2. Ertragswert"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "43–44",
+"stichworte": [
+"Geschäftshaus",
+"Kapitalisierungssatz",
+"Ertragswert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Geschäftshäuser: Ertrag kapitalisieren mit den Kapitalisierungssätzen für Mehrfamilienhäuser (Ziff. 41, 42).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0018",
 "nachher": "zh-weisung-liegenschaften-2026__c0020"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0020",
-"titel": "Weisung 2026 ZH – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 45–48 Industrielle oder gewerbliche Liegenschaften – Grundsätze",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"VI. Industrielle oder gewerbliche Liegenschaften",
+"1. Allgemeine Grundsätze"
+],
 "seiten": [
-9
+9,
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "45–48",
+"stichworte": [
+"industriell",
+"gewerblich",
+"Lagerhaus",
+"Industriegelände",
+"Landreserve"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Verkehrswert industrieller/gewerblicher Bauten = Landwert + Zeitbauwert; Industriegelände wird zusammen mit den Anlagen bewertet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0019",
 "nachher": "zh-weisung-liegenschaften-2026__c0021"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0021",
-"titel": "Weisung 2026 ZH – Abschnitt 21",
-"pfad": [],
+"titel": "Ziff. 49–50 Landwert industrielle oder gewerbliche Bauten",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"VI. Industrielle oder gewerbliche Liegenschaften",
+"2. Landwert"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "49–50",
+"stichworte": [
+"Landwert",
+"Bauland-Kategorie Industrie",
+"Art der Baute"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert nach Bauland-Kategorie für industrielle/gewerbliche Bauten gemäss Art der Baute.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0020",
 "nachher": "zh-weisung-liegenschaften-2026__c0022"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0022",
-"titel": "Weisung 2026 ZH – Abschnitt 22",
-"pfad": [],
+"titel": "Ziff. 51–55 Zeitbauwert industriell (Altersentwertung 2 % / 3 % pro Jahr)",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"VI. Industrielle oder gewerbliche Liegenschaften",
+"3. Zeitbauwert"
+],
 "seiten": [
 10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "51–55",
+"stichworte": [
+"Altersentwertung",
+"Abnützung",
+"Restwert 30 %",
+"Schwerindustrie",
+"Neubauwert 1120 %"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Altersentwertung bei normaler Abnützung 2 % pro Jahr bis Restwert 30 %, bei besonders starker Abnützung 3 % pro Jahr bis Restwert 0 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0021",
 "nachher": "zh-weisung-liegenschaften-2026__c0023"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0023",
-"titel": "Weisung 2026 ZH – Abschnitt 23",
-"pfad": [],
+"titel": "Ziff. 56–58 Neue Gebäudeteile, Bürohäuser, Personalwohnungen",
+"pfad": [
+"A. Vermögenssteuerwerte",
+"VI. Industrielle oder gewerbliche Liegenschaften",
+"4.–6."
+],
 "seiten": [
-10
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "56–58",
+"stichworte": [
+"Anbau",
+"Aufbau",
+"Bürohaus",
+"Personalwohnhaus",
+"Fabrikareal"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Neu hinzugekommene Gebäudeteile werden nach der Erhöhung des Basiswerts bewertet; Bürohäuser im Fabrikareal werden mit den Fabrikgebäuden bewertet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0022",
 "nachher": "zh-weisung-liegenschaften-2026__c0024"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0024",
-"titel": "Weisung 2026 ZH – Abschnitt 24",
-"pfad": [],
+"titel": "Ziff. 59 Eigenmietwert Einfamilienhäuser und Stockwerkeigentum – Ableitungssätze",
+"pfad": [
+"B. Eigenmietwerte",
+"I. Einfamilienhäuser und Stockwerkeigentum"
+],
 "seiten": [
 11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "59",
+"stichworte": [
+"Eigenmietwert",
+"Ableitungssatz",
+"Hochhaus",
+"Zweifamilienhaus",
+"60 % bis 70 % Schätzwert"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Eigenmietwert = Ableitungssatz (Anhang) mal Land- und Zeitbauwert; bei Hochhaus-Stockwerkeigentum gilt der Formelwert bei 60 % bis 70 % des individuellen Schätzwerts.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0023",
 "nachher": "zh-weisung-liegenschaften-2026__c0025"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0025",
-"titel": "Weisung 2026 ZH – Abschnitt 25",
-"pfad": [],
+"titel": "Ziff. 60–60a Eigenmietwert – Basiswert über Fr. 120 000 / 40 000, Landwertanteile 0,2 %",
+"pfad": [
+"B. Eigenmietwerte",
+"I. Einfamilienhäuser und Stockwerkeigentum"
+],
 "seiten": [
-11
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "60–60a",
+"stichworte": [
+"Basiswert",
+"Fr. 120 000",
+"Fr. 40 000",
+"1 %",
+"Ableitungssatz 0,2 %"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Der Basiswert über Fr. 120 000 (Einfamilienhaus) bzw. Fr. 40 000 (Stockwerkeigentum) zählt nur mit 1 %; Landwertanteile nach Ziff. 29 nur mit 0,2 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0024",
 "nachher": "zh-weisung-liegenschaften-2026__c0026"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0026",
-"titel": "Weisung 2026 ZH – Abschnitt 26",
-"pfad": [],
+"titel": "Ziff. 61–62 Eigenmietwert – Korrekturen und Einschlag bei Minderbenutzung",
+"pfad": [
+"B. Eigenmietwerte",
+"I. Einfamilienhäuser und Stockwerkeigentum"
+],
 "seiten": [
 12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "61–62",
+"stichworte": [
+"Einschlag",
+"Wegzug der Kinder",
+"Minderbenutzung",
+"Korrektur Eigenmietwert",
+"Nachweis"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"sozialabzug.eigenmietwert"
+],
+"zusammenfassung": "Auf Verlangen Korrekturen gegen Nachweis; angemessener Einschlag auf dem Eigenmietwert bei verminderter Nutzung (z.B. Wegzug der Kinder).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0025",
 "nachher": "zh-weisung-liegenschaften-2026__c0027"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0027",
-"titel": "Weisung 2026 ZH – Abschnitt 27",
-"pfad": [],
+"titel": "Ziff. 63–67 Eigenmietwert Wohnungen in Mehrfamilienhäusern (Einschlag 30 %)",
+"pfad": [
+"B. Eigenmietwerte",
+"II. Wohnungen in Mehrfamilienhäusern ohne Stockwerkeigentum"
+],
 "seiten": [
-12
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "63–67",
+"stichworte": [
+"Mietwert",
+"Vergleichsmiete",
+"Einschlag 30 %",
+"Eigennutzung Wohnung"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Mietwert durch Vergleich mit Mieten gleicher Objekte; von den Ausgangswerten wird ein Einschlag von 30 % abgezogen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0026",
 "nachher": "zh-weisung-liegenschaften-2026__c0028"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0028",
-"titel": "Weisung 2026 ZH – Abschnitt 28",
-"pfad": [],
+"titel": "Ziff. 68–70 Wohnungen in Geschäftshäusern und eigene Geschäftsräume",
+"pfad": [
+"B. Eigenmietwerte",
+"III.–IV. Wohnungen in Geschäftshäusern, Geschäftsräume"
+],
 "seiten": [
-12
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "68–70",
+"stichworte": [
+"Geschäftsräume",
+"Eigennutzung",
+"Mietwert",
+"Geschäftshaus Wohnung"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Eigengenutzte Geschäftsräume werden mit dem Mietzins bei Vermietung an Dritte angerechnet; Wohnungen in Geschäftshäusern sinngemäss Ziff. 63 ff.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0027",
 "nachher": "zh-weisung-liegenschaften-2026__c0029"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0029",
-"titel": "Weisung 2026 ZH – Abschnitt 29",
-"pfad": [],
+"titel": "Ziff. 71 Mietwert Geschäftsräume in Prozenten des Umsatzes (Branchenansätze)",
+"pfad": [
+"B. Eigenmietwerte",
+"IV. Geschäftsräume"
+],
 "seiten": [
-13
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "71",
+"stichworte": [
+"Branche",
+"Mietwert in % des Umsatzes",
+"Restaurant 9,0 %",
+"Arztpraxis 10,0 %",
+"Detailhandel 3,0 %"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Übliche Ansätze nach Branche in Prozenten des Umsatzes, z.B. Lebensmittel 3,0 %, Restaurant 9,0 %, Wohnen/Haushalt 13,0 %, Zahnarztpraxen 12,0 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0028",
 "nachher": "zh-weisung-liegenschaften-2026__c0030"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0030",
-"titel": "Weisung 2026 ZH – Abschnitt 30",
-"pfad": [],
+"titel": "Ziff. 72–74 Einheitssatz pro m2 und andere Liegenschaften und Räume",
+"pfad": [
+"B. Eigenmietwerte",
+"IV.–V. Geschäftsräume, andere Liegenschaften"
+],
 "seiten": [
-13
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "72–74",
+"stichworte": [
+"Einheitssatz Quadratmeter",
+"Scheune",
+"Garage",
+"Reithalle",
+"Mietwert Einzelfall"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Mietwerte nach Einheitssatz pro m2 Nutzfläche bzw. nach den Verhältnissen des Einzelfalls für andere Liegenschaften (Scheunen, Garagen, Hallen).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0029",
 "nachher": "zh-weisung-liegenschaften-2026__c0031"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0031",
-"titel": "Weisung 2026 ZH – Abschnitt 31",
-"pfad": [],
+"titel": "Ziff. 75–77 Baurechtsnehmer – Vermögenssteuerwert und Eigenmietwert",
+"pfad": [
+"C. Liegenschaften im Baurecht",
+"I. Baurechtsnehmer"
+],
 "seiten": [
-14
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "75–77",
+"stichworte": [
+"Baurecht",
+"Baurechtsnehmer",
+"Baurechtszins",
+"Kapitalisierung minus 2 Prozentpunkte"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Baurechtsnehmer: Zeitbauwert bzw. Ertragswert abzüglich kapitalisierte Baurechtszinsen (Sätze nach Ziff. 42 vermindert um 2 Prozentpunkte).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0030",
 "nachher": "zh-weisung-liegenschaften-2026__c0032"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0032",
-"titel": "Weisung 2026 ZH – Abschnitt 32",
-"pfad": [],
+"titel": "Ziff. 78 Baurechtsgeber – Vermögenssteuerwert",
+"pfad": [
+"C. Liegenschaften im Baurecht",
+"II. Baurechtsgeber"
+],
 "seiten": [
-14
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "78",
+"stichworte": [
+"Baurechtsgeber",
+"Baurechtszins",
+"kapitalisiert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Für den Baurechtsgeber bilden die kapitalisierten Baurechtszinsen den Vermögenssteuerwert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0031",
 "nachher": "zh-weisung-liegenschaften-2026__c0033"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0033",
-"titel": "Weisung 2026 ZH – Abschnitt 33",
-"pfad": [],
+"titel": "Ziff. 79–80 Individuelle Schätzung des Vermögenssteuerwerts – Voraussetzung und Grundlagen",
+"pfad": [
+"D. Individuelle Schätzung",
+"I. Vermögenssteuerwert"
+],
 "seiten": [
-15
+15,
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "79–80",
+"stichworte": [
+"individuelle Schätzung",
+"über 100 % Verkehrswert",
+"unter 70 %",
+"Kaufpreis",
+"Privatgutachten"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Individuelle Schätzung, wenn der Formelwert über 100 % oder unter 70 % des Verkehrswerts liegt; Grundlagen: Kaufpreis, Anlagewert, Privatgutachten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0032",
 "nachher": "zh-weisung-liegenschaften-2026__c0034"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0034",
-"titel": "Weisung 2026 ZH – Abschnitt 34",
-"pfad": [],
+"titel": "Ziff. 81–82 Individuelle Schätzung – Verfahren, Festsetzung auf 70 % / 90 % des Verkehrswerts",
+"pfad": [
+"D. Individuelle Schätzung",
+"I. Vermögenssteuerwert"
+],
 "seiten": [
-15
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "81–82",
+"stichworte": [
+"hedonische Methode",
+"amtliches Gutachten",
+"Mitwirkungspflicht",
+"70 % Verkehrswert",
+"90 % Verkehrswert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Vermögenssteuerwert wird auf 70 % des Verkehrswerts festgesetzt, wenn der Formelwert unter 70 % liegt, auf 90 %, wenn er über 100 % liegt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0033",
 "nachher": "zh-weisung-liegenschaften-2026__c0035"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0035",
-"titel": "Weisung 2026 ZH – Abschnitt 35",
-"pfad": [],
+"titel": "Ziff. 83–84 Individuelle Schätzung des Eigenmietwerts – Voraussetzung und Grundlagen",
+"pfad": [
+"D. Individuelle Schätzung",
+"II. Eigenmietwert"
+],
 "seiten": [
 16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "83–84",
+"stichworte": [
+"Marktmiete",
+"über 70 % Marktmiete",
+"unter 60 %",
+"Vergleichsmieten",
+"Privatgutachten"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Individuelle Schätzung, wenn der Formelwert über 70 % oder unter 60 % der Marktmiete liegt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0034",
 "nachher": "zh-weisung-liegenschaften-2026__c0036"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0036",
-"titel": "Weisung 2026 ZH – Abschnitt 36",
-"pfad": [],
+"titel": "Ziff. 85–86 Individuelle Schätzung Eigenmietwert – Verfahren, Festsetzung auf 60 % / 70 % der Marktmiete",
+"pfad": [
+"D. Individuelle Schätzung",
+"II. Eigenmietwert"
+],
 "seiten": [
-16
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "85–86",
+"stichworte": [
+"hedonische Methode",
+"Marktmietwert",
+"60 % Marktmiete",
+"70 % Marktmiete",
+"Mitwirkungspflicht"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Eigenmietwert wird auf 60 % der Marktmiete festgelegt, wenn der Formelwert darunter liegt, auf 70 %, wenn er darüber liegt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0035",
 "nachher": "zh-weisung-liegenschaften-2026__c0037"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0037",
-"titel": "Weisung 2026 ZH – Abschnitt 37",
-"pfad": [],
+"titel": "Ziff. 87–89 Neufestsetzung: allgemeine und ausserordentliche Neubewertung",
+"pfad": [
+"E. Neufestsetzung",
+"I. Einfamilienhäuser, Stockwerkeigentum, industrielle Liegenschaften"
+],
 "seiten": [
 17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "87–89",
+"stichworte": [
+"Neubewertung 2026",
+"ausserordentliche Neubewertung",
+"Handänderung",
+"Totalrenovation",
+"Neubau",
+"Abbruch"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Allgemeine Neubewertung für die Steuerperiode 2026; ausserordentliche Neufestsetzung bei Neubau, Totalrenovation, Abbruch und entgeltlicher Handänderung unter Dritten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0036",
 "nachher": "zh-weisung-liegenschaften-2026__c0038"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0038",
-"titel": "Weisung 2026 ZH – Abschnitt 38",
-"pfad": [],
+"titel": "Ziff. 90–91 Ausserordentliche Neubewertung – Massgebende Werte, Bauten im Bau (60 %)",
+"pfad": [
+"E. Neufestsetzung",
+"I. Einfamilienhäuser, Stockwerkeigentum, industrielle Liegenschaften"
+],
 "seiten": [
-17
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "90–91",
+"stichworte": [
+"Bau begriffen",
+"60 % der Baukosten",
+"Neubewertung"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "In Bau begriffene Bauten werden mit 60 % der investierten Baukosten zum Vermögenssteuerwert hinzugezählt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0037",
 "nachher": "zh-weisung-liegenschaften-2026__c0039"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0039",
-"titel": "Weisung 2026 ZH – Abschnitt 39",
-"pfad": [],
+"titel": "Ziff. 92–94 Mehrfamilien- und Geschäftshäuser jährlich neu, Inkrafttreten",
+"pfad": [
+"E. Neufestsetzung",
+"II. Mehrfamilien- und Geschäftshäuser",
+"F. Inkrafttreten"
+],
 "seiten": [
 18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "92–94",
+"stichworte": [
+"jährliche Neufestsetzung",
+"Inkrafttreten",
+"Steuerperiode 2026"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Werte von Mehrfamilien- und Geschäftshäusern werden ab 2026 in jeder Steuerperiode neu festgelegt; die Weisung gilt ab Steuerperiode 2026.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0038",
 "nachher": "zh-weisung-liegenschaften-2026__c0040"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0040",
-"titel": "Weisung 2026 ZH – Abschnitt 40",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Affoltern",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
-19
+20
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Affoltern"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Affoltern; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0039",
 "nachher": "zh-weisung-liegenschaften-2026__c0041"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0041",
-"titel": "Weisung 2026 ZH – Abschnitt 41",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Andelfingen",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
 20
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Andelfingen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Andelfingen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0040",
 "nachher": "zh-weisung-liegenschaften-2026__c0042"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0042",
-"titel": "Weisung 2026 ZH – Abschnitt 42",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Bülach (Teil 1/2)",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
-20
+21
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Bülach"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Bülach; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0041",
 "nachher": "zh-weisung-liegenschaften-2026__c0043"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0043",
-"titel": "Weisung 2026 ZH – Abschnitt 43",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Bülach (Teil 2/2)",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
-20
+21
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Bülach"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0042",
 "nachher": "zh-weisung-liegenschaften-2026__c0044"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0044",
-"titel": "Weisung 2026 ZH – Abschnitt 44",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Dielsdorf (Teil 1/2)",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
 21
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Dielsdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Dielsdorf; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0043",
 "nachher": "zh-weisung-liegenschaften-2026__c0045"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0045",
-"titel": "Weisung 2026 ZH – Abschnitt 45",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Dielsdorf (Teil 2/2)",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
 21
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Dielsdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0044",
 "nachher": "zh-weisung-liegenschaften-2026__c0046"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0046",
-"titel": "Weisung 2026 ZH – Abschnitt 46",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Dietikon",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
-21
+22
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Dietikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Dietikon; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0045",
 "nachher": "zh-weisung-liegenschaften-2026__c0047"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0047",
-"titel": "Weisung 2026 ZH – Abschnitt 47",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Hinwil",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
 22
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Hinwil"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Hinwil; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0046",
 "nachher": "zh-weisung-liegenschaften-2026__c0048"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0048",
-"titel": "Weisung 2026 ZH – Abschnitt 48",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Horgen",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
 22
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Horgen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Horgen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0047",
 "nachher": "zh-weisung-liegenschaften-2026__c0049"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0049",
-"titel": "Weisung 2026 ZH – Abschnitt 49",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Meilen",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
-22
+23
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Meilen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Meilen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0048",
 "nachher": "zh-weisung-liegenschaften-2026__c0050"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0050",
-"titel": "Weisung 2026 ZH – Abschnitt 50",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Pfäffikon",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
 23
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Pfäffikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Pfäffikon; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0049",
 "nachher": "zh-weisung-liegenschaften-2026__c0051"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0051",
-"titel": "Weisung 2026 ZH – Abschnitt 51",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Uster",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
+],
 "seiten": [
 23
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Uster"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Uster; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0050",
 "nachher": "zh-weisung-liegenschaften-2026__c0052"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0052",
-"titel": "Weisung 2026 ZH – Abschnitt 52",
-"pfad": [],
-"seiten": [
-23
+"titel": "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Winterthur und Zürich",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Einfamilienhäuser"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-weisung-liegenschaften-2026__c0051",
-"nachher": "zh-weisung-liegenschaften-2026__c0053"
-},
-{
-"id": "zh-weisung-liegenschaften-2026__c0053",
-"titel": "Weisung 2026 ZH – Abschnitt 53",
-"pfad": [],
 "seiten": [
 24
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Einfamilienhaus",
+"Lageklasse",
+"Bauland",
+"Gemeinde",
+"Bezirk Winterthur"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse (LK) und Gemeinde für Einfamilienhäuser, Bezirk Winterthur und Zürich; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-weisung-liegenschaften-2026__c0051",
+"nachher": "zh-weisung-liegenschaften-2026__c0053"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0053",
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Affoltern",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Affoltern"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Affoltern; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0052",
 "nachher": "zh-weisung-liegenschaften-2026__c0054"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0054",
-"titel": "Weisung 2026 ZH – Abschnitt 54",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Andelfingen",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
 25
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Andelfingen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Andelfingen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0053",
 "nachher": "zh-weisung-liegenschaften-2026__c0055"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0055",
-"titel": "Weisung 2026 ZH – Abschnitt 55",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Bülach (Teil 1/2)",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
-25
+26
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Bülach"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Bülach; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0054",
 "nachher": "zh-weisung-liegenschaften-2026__c0056"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0056",
-"titel": "Weisung 2026 ZH – Abschnitt 56",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Bülach (Teil 2/2)",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
-25
+26
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Bülach"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0055",
 "nachher": "zh-weisung-liegenschaften-2026__c0057"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0057",
-"titel": "Weisung 2026 ZH – Abschnitt 57",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Dielsdorf (Teil 1/2)",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
 26
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Dielsdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Dielsdorf; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0056",
 "nachher": "zh-weisung-liegenschaften-2026__c0058"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0058",
-"titel": "Weisung 2026 ZH – Abschnitt 58",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Dielsdorf (Teil 2/2)",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
 26
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Dielsdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0057",
 "nachher": "zh-weisung-liegenschaften-2026__c0059"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0059",
-"titel": "Weisung 2026 ZH – Abschnitt 59",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Dietikon",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
-26
+27
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Dietikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Dietikon; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0058",
 "nachher": "zh-weisung-liegenschaften-2026__c0060"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0060",
-"titel": "Weisung 2026 ZH – Abschnitt 60",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Hinwil",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
 27
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Hinwil"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Hinwil; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0059",
 "nachher": "zh-weisung-liegenschaften-2026__c0061"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0061",
-"titel": "Weisung 2026 ZH – Abschnitt 61",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Horgen",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
 27
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Horgen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Horgen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0060",
 "nachher": "zh-weisung-liegenschaften-2026__c0062"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0062",
-"titel": "Weisung 2026 ZH – Abschnitt 62",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Meilen",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
-27
+28
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Meilen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Meilen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0061",
 "nachher": "zh-weisung-liegenschaften-2026__c0063"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0063",
-"titel": "Weisung 2026 ZH – Abschnitt 63",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Pfäffikon",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
 28
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Pfäffikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Pfäffikon; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0062",
 "nachher": "zh-weisung-liegenschaften-2026__c0064"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0064",
-"titel": "Weisung 2026 ZH – Abschnitt 64",
-"pfad": [],
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Uster",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
+],
 "seiten": [
 28
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Uster"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Uster; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0063",
 "nachher": "zh-weisung-liegenschaften-2026__c0065"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0065",
-"titel": "Weisung 2026 ZH – Abschnitt 65",
-"pfad": [],
-"seiten": [
-28
+"titel": "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 23) – Bezirk Winterthur und Zürich",
+"pfad": [
+"Anhang",
+"Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-weisung-liegenschaften-2026__c0064",
-"nachher": "zh-weisung-liegenschaften-2026__c0066"
-},
-{
-"id": "zh-weisung-liegenschaften-2026__c0066",
-"titel": "Weisung 2026 ZH – Abschnitt 66",
-"pfad": [],
 "seiten": [
 29
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Stockwerkeigentum",
+"Mehrfamilienhaus",
+"Lageklasse",
+"Gemeinde",
+"Bezirk Winterthur"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwert pro m2 je Lageklasse und Gemeinde für Mehrfamilienhäuser und Stockwerkeigentum, Bezirk Winterthur und Zürich; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-weisung-liegenschaften-2026__c0064",
+"nachher": "zh-weisung-liegenschaften-2026__c0066"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0066",
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Affoltern",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Affoltern"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Affoltern; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0065",
 "nachher": "zh-weisung-liegenschaften-2026__c0067"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0067",
-"titel": "Weisung 2026 ZH – Abschnitt 67",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Andelfingen",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
 30
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Andelfingen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Andelfingen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0066",
 "nachher": "zh-weisung-liegenschaften-2026__c0068"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0068",
-"titel": "Weisung 2026 ZH – Abschnitt 68",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Bülach",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
-30
+31
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Bülach"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Bülach; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0067",
 "nachher": "zh-weisung-liegenschaften-2026__c0069"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0069",
-"titel": "Weisung 2026 ZH – Abschnitt 69",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Dielsdorf",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
 31
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Dielsdorf"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Dielsdorf; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0068",
 "nachher": "zh-weisung-liegenschaften-2026__c0070"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0070",
-"titel": "Weisung 2026 ZH – Abschnitt 70",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Dietikon",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
-31
+32
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Dietikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Dietikon; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0069",
 "nachher": "zh-weisung-liegenschaften-2026__c0071"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0071",
-"titel": "Weisung 2026 ZH – Abschnitt 71",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Hinwil",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
-31
+32
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Hinwil"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Hinwil; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0070",
 "nachher": "zh-weisung-liegenschaften-2026__c0072"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0072",
-"titel": "Weisung 2026 ZH – Abschnitt 72",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Horgen",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
 32
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Horgen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Horgen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0071",
 "nachher": "zh-weisung-liegenschaften-2026__c0073"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0073",
-"titel": "Weisung 2026 ZH – Abschnitt 73",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Meilen",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
-32
+33
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Meilen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Meilen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0072",
 "nachher": "zh-weisung-liegenschaften-2026__c0074"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0074",
-"titel": "Weisung 2026 ZH – Abschnitt 74",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Pfäffikon",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
 33
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Pfäffikon"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Pfäffikon; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0073",
 "nachher": "zh-weisung-liegenschaften-2026__c0075"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0075",
-"titel": "Weisung 2026 ZH – Abschnitt 75",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Uster",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
 33
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Uster"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Uster; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0074",
 "nachher": "zh-weisung-liegenschaften-2026__c0076"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0076",
-"titel": "Weisung 2026 ZH – Abschnitt 76",
-"pfad": [],
+"titel": "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Winterthur und Zürich",
+"pfad": [
+"Anhang",
+"Landwerte Geschäftshäuser/Industrie"
+],
 "seiten": [
 34
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Landwert",
+"Geschäftshaus",
+"Industrie",
+"Gewerbe",
+"Gemeinde",
+"Bezirk Winterthur"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Landwerte für Bauland Geschäftshäuser sowie industrielle und gewerbliche Bauten je Gemeinde, Bezirk Winterthur und Zürich; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0075",
 "nachher": "zh-weisung-liegenschaften-2026__c0077"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0077",
-"titel": "Weisung 2026 ZH – Abschnitt 77",
-"pfad": [],
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Affoltern",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
 "seiten": [
 35
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Affoltern"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Affoltern; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0076",
 "nachher": "zh-weisung-liegenschaften-2026__c0078"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0078",
-"titel": "Weisung 2026 ZH – Abschnitt 78",
-"pfad": [],
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Andelfingen",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
 "seiten": [
-36
+35
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Andelfingen"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Andelfingen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0077",
 "nachher": "zh-weisung-liegenschaften-2026__c0079"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0079",
-"titel": "Weisung 2026 ZH – Abschnitt 79",
-"pfad": [],
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Bülach",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
 "seiten": [
 36
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Bülach"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Bülach; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0078",
 "nachher": "zh-weisung-liegenschaften-2026__c0080"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0080",
-"titel": "Weisung 2026 ZH – Abschnitt 80",
-"pfad": [],
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Dielsdorf",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
 "seiten": [
-37
+36
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Dielsdorf"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Dielsdorf; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0079",
 "nachher": "zh-weisung-liegenschaften-2026__c0081"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0081",
-"titel": "Weisung 2026 ZH – Abschnitt 81",
-"pfad": [],
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Dietikon",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
 "seiten": [
-38
+37
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Dietikon"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Dietikon; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-weisung-liegenschaften-2026__c0080",
 "nachher": "zh-weisung-liegenschaften-2026__c0082"
 },
 {
 "id": "zh-weisung-liegenschaften-2026__c0082",
-"titel": "Weisung 2026 ZH – Abschnitt 82",
-"pfad": [],
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Hinwil",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Hinwil"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Hinwil; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-weisung-liegenschaften-2026__c0081",
+"nachher": "zh-weisung-liegenschaften-2026__c0083"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0083",
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Horgen",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Horgen"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Horgen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-weisung-liegenschaften-2026__c0082",
+"nachher": "zh-weisung-liegenschaften-2026__c0084"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0084",
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Meilen",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Meilen"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Meilen; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-weisung-liegenschaften-2026__c0083",
+"nachher": "zh-weisung-liegenschaften-2026__c0085"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0085",
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Pfäffikon",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Pfäffikon"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Pfäffikon; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-weisung-liegenschaften-2026__c0084",
+"nachher": "zh-weisung-liegenschaften-2026__c0086"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0086",
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Uster",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Uster"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Uster; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-weisung-liegenschaften-2026__c0085",
+"nachher": "zh-weisung-liegenschaften-2026__c0087"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0087",
+"titel": "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43, 59) – Bezirk Winterthur und Zürich",
+"pfad": [
+"Anhang",
+"Ableitungssätze Eigenmietwert und Kapitalisierungssätze"
+],
 "seiten": [
 39
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-weisung-liegenschaften-2026__c0081",
+"stichworte": [
+"Ableitungssatz",
+"Eigenmietwert",
+"Kapitalisierungssatz",
+"Mehrfamilienhaus",
+"Gemeinde",
+"Bezirk Winterthur"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Ableitungssätze Eigenmietwert (EFH, Stockwerkeigentum) und Kapitalisierungssätze Mehrfamilien-/Geschäftshäuser je Gemeinde in %, Bezirk Winterthur und Zürich; Tabellenwerte im Text.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-weisung-liegenschaften-2026__c0086",
 "nachher": null
 }
 ]

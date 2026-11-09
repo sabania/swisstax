@@ -4,22 +4,34 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 21"
-seiten: "5"
+titel: "Anhang I LGBV Art. 1–2 Gegenstand, Geltungsbereich, Liquidationsjahr (Teil 1/2)"
+ziffer: "Art. 1–2"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang I LGBV · S. 7–8
 
-<!-- Seite 5 -->
-bereits in Rechtskraft erwachsen, so wird sie bei der Anwendung von Artikel 37b DBG nach
-Artikel 147 ff. DBG revidiert.
+    Anhang I
+Verordnung
+über die Besteuerung der Liquidationsgewinne
+bei definitiver Aufgabe der selbstständigen
+Erwerbstätigkeit
+(LGBV)
 
-4.   Einkauf in eine Vorsorgeeinrichtung
+vom 17. Februar 2010
 
-Beim Einkauf in eine Vorsorgeeinrichtung im Liquidationsjahr und im Vorjahr (Art. 4 LGBV)
-wird der einbezahlte Betrag bei der Berechnung des steuerbaren Einkommens der Steuerpe-
-riode in erster Linie vom übrigen, nicht gesondert besteuerten Einkommen in Abzug ge-
-bracht. Kann dabei nicht der gesamte Einkaufbetrag angerechnet werden, so reduziert die-
-ser Überhang den Liquidationsgewinn.
+Der Schweizerische Bundesrat,
+gestützt auf die Artikel 37b und 199 des Bundesgesetzes vom 14. Dezember 19901
+über die direkte Bundessteuer (DBG),
+verordnet:
 
-5.   Fiktiver Einkauf
+1. Abschnitt: Allgemeine Bestimmungen
+
+Art. 1   Gegenstand und Geltungsbereich
+1 Diese Verordnung regelt die Besteuerung von Liquidationsgewinnen einer steuer-
+pflichtigen Person bei definitiver Aufgabe der selbstständigen Erwerbstätigkeit:
+   a.   nach dem vollendeten 55. Altersjahr; oder
+   b.   infolge Invalidität.
+2 Der Eintritt der Invalidität bestimmt sich nach Artikel 4 Absatz 2 des Bundesgeset-
+zes vom 19. Juni 19592 über die Invalidenversicherung.
+3 Die Verordnung gilt nicht für:

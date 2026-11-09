@@ -4,23 +4,29 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 67"
-seiten: "16"
+titel: "Ziff. 10 Inkrafttreten (1. Januar 2013) und Geltungsbereich"
+ziffer: "10"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 37 · 10 Inkrafttreten, Aufhebungen und Übergangsrecht · S. 21
 
-Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage* Schweiz innerhalb der Vestingperiode
+10   Inkrafttreten, Aufhebungen und Übergangsrecht
+Dieses Kreisschreiben tritt auf den 1. Januar 2013 in Kraft. Gleichzeitig werden das Kreis-
+schreiben Nr. 5 der ESTV vom 30. April 1997 über die Besteuerung von Mitarbeiteraktien
+und Mitarbeiteroptionen und das Rundschreiben vom 6. Mai 2003 der ESTV über die Be-
+steuerung von Mitarbeiteroptionen mit Vesting-Klauseln aufgehoben.
 
-    Anzahl Tage der Vestingperiode
+Das vorliegende Kreisschreiben gilt für:
 
-* allenfalls unter Berücksichtigung von Drittstaattagen
+    -   sämtliche nach dem 1. Januar 2013 abgegebenen Mitarbeiterbeteiligungen;
 
-Generell vorbehalten bleiben Bestimmungen in den DBA oder weiteren Abkommen mit ande-
-ren Staaten, die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa
-Art. 15a DBA Deutschland über die Besteuerung von Grenzgängern).
+    -   sämtliche vor dem 1. Januar 2013 abgegebenen Mitarbeiterbeteiligungen, bei denen
+    auch nach bisherigem Recht der geldwerte Vorteil erst bei Realisation (nach dem
+    1. Januar 2013) der Einkommensbesteuerung unterliegt sowie
 
-Zur Veranschaulichung dient das Fallbeispiel 5 im Anhang II dieses Kreisschreibens.
-
-7.3.4 Überblick zur Quellenbesteuerung von geldwerten Vorteilen aus Mitarbeiterbe-
-    teiligungen, die erst bei Realisierung steuerbar sind
+    -   sämtliche vor dem 1. Januar 2013 abgegebenen Mitarbeiterbeteiligungen, die nach
+    bisherigem Recht im Zeitpunkt der Abgabe oder beim Rechtserwerb (Vesting) hätten
+    besteuert werden müssen, aus irgendwelchen Gründen jedoch nicht besteuert wur-
+    den, sofern die Veranlagungsverjährung noch nicht eingetreten ist und kein Nach-
+    steuergrund gemäss Artikel 151 DBG vorliegt.

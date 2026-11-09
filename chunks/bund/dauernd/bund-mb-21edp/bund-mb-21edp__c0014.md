@@ -4,23 +4,28 @@ quelle: bund-mb-21edp
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB 21 EDP – Abschnitt 14"
-seiten: "4"
+titel: "Ziff. 3 Rz 28–29 Einkäufe Säule 3a – Jahresbeitragslücke"
+ziffer: "28–29"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 4
+> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 3: Einkäufe Säule 3a · S. 5
 
-    Feld k: Ordentliche und obligatorische Erhöhungsbeiträge
-23   Anzugeben sind sowohl die vom Versicherten entrichteten (bei Arbeitnehmern nicht vom
-    Lohn abgezogene) ordentliche Beiträge (vgl. Rz 19) wie auch die obligatorischen Bei
-    träge bei Lohnerhöhungen.
+    Ziffer 3: Einkäufe in anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)
+28   In der Ziffer 3 sind Einkäufe in die Säule 3a zu bescheinigen. Erfolgen im gleichen Kalen
+    derjahr Einkäufe für unterschiedliche Steuerjahre, ist für jedes Steuerjahr eine separate
+    Zeile zu erstellen.
 
-    Ziffer 2: Beiträge für anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)
+    Die Jahresbeitragslücke, die durch einen Einkauf geschlossen werden kann, ergibt sich
+    aus der Differenz zwischen dem maximal für die steuerpflichtige Person möglichen Säule
+    3a Beitrag des betreffenden Steuerjahres und dem effektiv einbezahlten Beitrag. Der Ein-
+    kauf muss nicht zwingend in dieselbe Vorsorgepolice oder Vorsorgevereinbarung erfol-
+    gen, in die im betreffenden Steuerjahr die ordentlichen Beiträge einbezahlt wurden.
 
-24   Alle vom Arbeitgeber für seinen Arbeitnehmer erbrachten Beiträge an anerkannte For
-    men der gebundenen Selbstvorsorge (Säule 3a) stellen Einkommen dar. Es ist dabei un
-    erheblich, ob sie dem Arbeitnehmer vom Lohn abgezogen und anschliessend einbezahlt
-    worden sind oder ob sie vom Arbeitgeber direkt zu Gunsten des Arbeitnehmers einbe
-    zahlt worden sind. Diese Beiträge dürfen vom Arbeitgeber im Lohnausweis nicht abgezo
-    gen werden, sondern sind unter Ziffer 7 des Lohnausweises zu deklarieren. Diese Bei
-    träge sind ausnahmslos vom Vorsorgeträger mit dem Formular 21 zu bescheinigen.
+    Es ist nicht möglich, die Jahresbeitragslücke auf mehrere Policen oder mehrere Versi-
+    cherungsverträge aufzuteilen, zumal für den Ausgleich einer Beitragslücke eines be-
+    stimmten Jahres nicht mehr als ein Einkauf zulässig ist. Mit einem Einkauf können
+    hingegen mehrere Jahresbeitragslücken ausgeglichen werden.
+
+29   Soweit der Arbeitgeber für die versicherte Person Einkäufe in die Säule 3a vornimmt, gel
+    ten die Ausführungen in Rz 24.

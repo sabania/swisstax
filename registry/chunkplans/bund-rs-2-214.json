@@ -1,0 +1,96 @@
+{
+ "id": "bund-rs-2-214",
+ "hinweise": [
+  "Tabelle Seite 3: Zeile Vereinigte Arabische Emirate ist umbrochen."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "skip": true,
+   "titel": "Kopf und Adressblock"
+  },
+  {
+   "start": 40,
+   "titel": "Einleitung – geldwerte Leistungen, Verrechnungssteuer 35 %, Formular 102",
+   "pfad": [
+    "Einleitung"
+   ],
+   "stichworte": [
+    "geldwerte Leistung",
+    "Verrechnungssteuer 35 %",
+    "Formular 102",
+    "Darlehen Beteiligte",
+    "Fremdwährung",
+    "Zinssätze 2025"
+   ],
+   "zusammenfassung": "Unverzinste oder ungenügend verzinste Vorschüsse/Darlehen an Beteiligte sind geldwerte Leistungen und unterliegen der Verrechnungssteuer von 35 %, Deklaration mit Formular 102 innert 30 Tagen nach Fälligkeit.",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 69,
+   "titel": "Ziff. 1 Anwendung – Vorschüsse oder Darlehen an Beteiligte",
+   "pfad": [
+    "Anwendung der Zinssätze",
+    "1 Vorschüsse an Beteiligte"
+   ],
+   "stichworte": [
+    "Darlehen an Beteiligte",
+    "Mindestzins Schweizer Franken",
+    "Zuschlag ½ %",
+    "Fremdkapitalzinssatz"
+   ],
+   "zusammenfassung": "Bei Darlehen an Beteiligte gilt mindestens der CHF-Zinssatz; bei verzinslichen Verpflichtungen Fremdkapitalzins plus Zuschlag von ½ %, mindestens die Tabellensätze.",
+   "ziffer": "1"
+  },
+  {
+   "start": 90,
+   "titel": "Ziff. 2 Anwendung – Vorschüsse oder Darlehen von Beteiligten (safe haven)",
+   "pfad": [
+    "Anwendung der Zinssätze",
+    "2 Vorschüsse von Beteiligten"
+   ],
+   "stichworte": [
+    "safe haven",
+    "Spread Betriebskredite",
+    "CHF 1 Mio.",
+    "verdecktes Eigenkapital",
+    "KS 6a"
+   ],
+   "zusammenfassung": "Die Zinssätze gelten als «safe haven»; Spread für Betriebskredite bis CHF 1 Mio. 2.50 % bzw. 2.00 %, ab CHF 1 Mio. 0.75 % bzw. 0.50 %.",
+   "ziffer": "2"
+  },
+  {
+   "start": 113,
+   "titel": "Ziff. 3 Bewertung von Unternehmen",
+   "pfad": [
+    "Anwendung der Zinssätze",
+    "3 Bewertung"
+   ],
+   "stichworte": [
+    "Kapitalisierungssatz",
+    "Unternehmensbewertung",
+    "KS 28 SSK",
+    "Rz 60"
+   ],
+   "zusammenfassung": "Für Kapitalisierungssätze wird auf Rz 60 des SSK-Kreisschreibens Nr. 28 verwiesen.",
+   "ziffer": "3"
+  },
+  {
+   "start": 120,
+   "titel": "Tabelle Steuerlich anerkannte Zinssätze Fremdwährungen 2020–2025",
+   "pfad": [
+    "Zinssatztabelle"
+   ],
+   "stichworte": [
+    "Zinssatz EUR",
+    "Zinssatz USD",
+    "GBP",
+    "JPY",
+    "Richtwerte Fremdwährung"
+   ],
+   "zusammenfassung": "Tabelle der Zinssätze 2025 u. a. EUR 2.50, USD 4.25, GBP 4.50, JPY 1.25, AUD 4.50, CAD 3.25 (Vorjahre 2020–2024 ebenfalls aufgeführt)."
+  }
+ ]
+}

@@ -4,18 +4,22 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 22"
-seiten: "7"
+titel: "Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 2/4)"
+ziffer: "4.2.5"
+seiten: "11-13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.2 Spezialfälle · S. 11–13
 
-Soweit die Einlagen und Aufgelder, die während eines Kapitalbands nach den Artikeln
-653s ff. OR geleistet werden, die Rückzahlungen von Reserven im Rahmen dieses Kapital-
-bands übersteigen, werden diese den KER bzw. Ausland-KER gutgeschrieben (Nettobe-
-trachtung gemäss Artikel 20 Absatz 8 DBG bzw. Artikel 5 Absatz 1septies VStG). Zusätzlich
-gutgeschrieben werden die innerhalb des gleichen Kapitalbands zurückbezahlten KER bzw.
-Ausland-KER sowie die nicht über eine zweite Handelslinie zurückbezahlten übrigen Reser-
-ven, welche durch die Anteilsinhaber wieder einbezahlt wurden (Beispiel 4 im Anhang).
+bei der Annahme eines öffentlichen Kaufangebots gemäss Artikel 125 ff. des Bundesgeset-
+zes vom 19. Juni 2015 über die Finanzmarktinfrastrukturen und das Marktverhalten im Effek-
+ten- und Derivatehandel (Finanzmarktinfrastrukturgesetz, FinfraG; SR 958.1) nicht gegeben.
+Wirtschaftlich stellt eine solche Übertragung keine Veräusserung, sondern eine Vermögen-
+sumschichtung dar. Dieser als Transponierung bezeichnete Tatbestand führt dazu, dass der
+den Nennwert zuzüglich den anteiligen KER bzw. Ausland-KER übersteigende Erlös als Er-
+trag aus beweglichem Vermögen qualifiziert.
 
-3.2.   Übrige Reserven
+Wird die Beteiligung zu einem Wert übertragen, welcher den Nennwert zuzüglich der anteili-
+gen KER bzw. Ausland-KER übersteigt, und wird dieser Mehrwert dem Nominalkapital
+und/oder den Reserven der übernehmenden Kapitalgesellschaft oder Genossenschaft gut-
+geschrieben, ergeben sich je nach der Verbuchung unterschiedliche Steuerfolgen:

@@ -4,25 +4,31 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 71"
-seiten: "23"
+titel: "Anhang 1 Beispiel 3 – nicht beherrschte Gesellschaft (keine Transponierung)"
+ziffer: "Anhang 1"
+seiten: "29-30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 1 Transponierung · S. 29–30
 
-<!-- Seite 23 -->
-7.3.   Spaltung
+3. Einbringung in eine nicht beherrschte Gesellschaft
 
-a)   Direkte Bundessteuer (Einkommenssteuer)
+A ist zu 30% an der A AG beteiligt. Er bringt die Beteiligung an der A AG zum Verkehrswert
+von 300 in die H AG ein. Durch die Einlage wird das Aktienkapital der H AG auf 175 erhöht.
+Der Rest von 225 wird als Agioeinlage eingebucht, welche als KER ausgewiesen wird. Die
+Gesellschaften weisen vor der Übertragung folgende Werte auf:
 
-Die bei einer Spaltung den Inhabern der gesellschaftlichen Beteiligungsrechte an der über-
-nehmenden Gesellschaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unter-
-liegen nach Artikel 20 Absatz 1 Buchstabe c DBG der Einkommenssteuer, soweit sie nicht zu
-Lasten des Nennwerts der Beteiligungsrechte oder der Ausland-KER der übertragenden Ge-
-sellschaft erfolgen. Für Gratisaktien und Gratisnennwerterhöhungen aus KER gelten die
-Bestimmungen gemäss Ziff. 5.1.5. hiervor.
+    Nominalkapital   KER   übrige   Verkehrs-
+    Reserven   wert
 
-Erfolgt die Spaltung nicht gewinnsteuerneutral, liegt eine Vorteilszuwendung unter Schwes-
-tergesellschaften (vgl. Ziff. 2.2.1. hiervor) vor.
+ A AG   100   200   500   1000
+ H AG   100   50   150   400
 
-b)   Verrechnungssteuer
+ Zunahme Nominalkapital und KER H AG   300
+ ./. Nominalkapital und KER A AG vor Einbringung   –90
+ Ertrag aus Transponierung   210
+
+
+Bei A können die 210 nicht als steuerbarer Ertrag aus Transponierung gemäss Artikel 20a
+Absatz 1 Buchstabe b DBG besteuert werden, da er die H AG durch seine Beteiligung von
+42,9% am Grundkapital nicht beherrscht.

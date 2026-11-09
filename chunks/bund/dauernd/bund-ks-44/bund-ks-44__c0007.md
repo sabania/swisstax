@@ -4,25 +4,20 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 7"
-seiten: "2"
+titel: "Ziff. 2.5 Beginn des Rechts auf Aufwandbesteuerung"
+ziffer: "2.5"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 44 · 2 Subjektive Voraussetzungen › 2.5 Beginn des Rechts · S. 3
 
-2 Subjektive Voraussetzungen für die Aufwandbesteuerung
-
-2.1   Rechtsgrundlage
-Nach Artikel 14 Absatz 1 DBG in der Fassung vom 28. September 2012 haben natürliche Per-
-sonen das Recht, anstelle der Einkommenssteuer eine Steuer nach dem Aufwand zu entrich-
-ten, wenn sie:
-    a. nicht das Schweizer Bürgerrecht haben;
-    b. erstmals oder nach mindestens zehnjähriger Unterbrechung unbeschränkt steuerpflich-
-    tig sind; und
-    c. in der Schweiz keine Erwerbstätigkeit ausüben.
-Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, müssen beide die Voraus-
-setzungen nach Artikel 14 Absatz 1 DBG erfüllen (vgl. Art. 14 Abs. 2 DBG).
-Nach Artikel 205d DBG gilt für natürliche Personen, die am 1. Januar 2016 nach dem Aufwand
-besteuert wurden, während fünf Jahren, das heisst bis am 31. Dezember 2020, weiterhin das
-alte Recht, mithin Artikel 14 DBG in der Fassung vom 14. Dezember 1990. Ab 1. Januar 2021
-ist der Artikel 14 DBG in der Fassung vom 28. September 2012 ausnahmslos gültig.
+2.5   Beginn des Rechts auf Aufwandbesteuerung
+Das Recht auf die Besteuerung nach dem Aufwand entsteht – sofern die obgenannten Voraus-
+setzungen dafür erfüllt sind – bei Beginn der Steuerpflicht. Das gilt sowohl für Personen, die in
+der Schweiz Wohnsitz begründen, als auch für solche, die hier Aufenthalt nehmen (vgl. Art. 8
+DBG). Die der Steuerperiode vorangehende Aufenthaltsdauer zählt bei der Berechnung dieser
+Frist mit. Auch wird ein Aufenthalt an verschiedenen Orten zusammengerechnet, und ein vo-
+rübergehendes Verlassen des Landes wird nicht als Unterbrechung des Aufenthalts gewertet
+(vgl. Art. 3 Abs. 3 DBG).
+Wer nach einer Besteuerung nach dem Aufwand auf diese Besteuerungsart verzichtet und or-
+dentlich besteuert wird, kann in der Regel nicht wieder nach dem Aufwand besteuert werden.

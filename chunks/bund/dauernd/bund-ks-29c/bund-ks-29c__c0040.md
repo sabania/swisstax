@@ -4,18 +4,28 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 40"
-seiten: "13"
+titel: "Ziff. 6.3.1 Umwandlung Kapitalgesellschaft in andere Kapitalgesellschaft"
+ziffer: "6.3.1"
+seiten: "17-18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.3 Umwandlung · S. 17–18
 
-       bei fusionsähnlichen Zusammenschlüssen durch Einbringen von Beteiligungs- und
-    Mitgliedschaftsrechten einer ausländischen Kapitalgesellschaft oder Genossenschaft
-    in eine inländische Kapitalgesellschaft oder Genossenschaft oder durch grenzüber-
-    schreitende Übertragung auf eine inländische Tochtergesellschaft nach dem 24. Feb-
-    ruar 2008 entstanden sind;
-       im Zeitpunkt einer grenzüberschreitenden Fusion oder Umstrukturierung nach dem
-    24. Februar 2008 bereits in einer ausländischen Kapitalgesellschaft oder Genossen-
-    schaft vorhanden waren und die Kapitaleinlagen gemäss den allgemeinen Grundsät-
-    zen nach dem 31. Dezember 1996 geleistet wurden.
+6.3.   Umwandlung
+
+6.3.1. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine andere
+    Kapitalgesellschaft oder Genossenschaft
+
+a)   Direkte Bundessteuer (Einkommenssteuer)
+
+Bei einer Umwandlung erzielen beteiligte Privatpersonen in dem Umfang Vermögensertrag,
+als ihnen höherer Nennwert, Ausgleichszahlungen oder andere geldwerte Vorteile zu Lasten
+der übrigen Reserven der umgewandelten Gesellschaft oder Genossenschaft zufliessen.
+
+b)   Verrechnungssteuer
+
+Die bei einer Umwandlung den Inhabern der Beteiligungsrechte oder diesen nahestehenden
+Dritten zukommenden Ausgleichszahlungen, Gratisaktien, Gratisnennwerterhöhungen und
+sonstigen Erträge unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungs-
+steuer, sofern sie zu Lasten der übrigen Reserven einer inländischen Kapitalgesells chaft
+oder Genossenschaft erfolgen.

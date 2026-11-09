@@ -4,29 +4,31 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 64"
-seiten: "27"
+titel: "Anhang S. 28 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Winterthur"
+ziffer: "10"
+seiten: "28"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 27
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum · S. 28
 
-  (ehemalige Gemeinde)
-– Kyburg   2   260   190   –   –   –   –   –
-  (ehemalige Gemeinde)
-Lindau   5   430   390   350   310   260   –   –
-Pfäffikon   5   430   400   360   320   280   –   –
-Russikon   5   460   410   360   310   260   –   –
-Weisslingen   3   320   280   240   –   –   –   –
-Wila   5   320   290   250   210   170   –   –
-Wildberg   5   330   310   280   250   220   –   –
-Bezirk Uster
-Dübendorf   4   560   480   410   330   –   –   –
-Egg   3   560   490   420   –   –   –   –
-Fällanden   5   520   470   420   370   320   –   –
-Greifensee   4   560   490   420   350   –   –   –
-Maur   5   680   620   550   480   410   –   –
-Mönchaltorf   4   420   360   300   240   –   –   –
-Schwerzenbach   5   490   440   390   340   280   –   –
-Uster   5   500   460   410   360   310   –   –
-Volketswil   5   430   400   360   330   290   –   –
-Wangen-Brüttisellen   5   520   480   430   380   330   –   –
+    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+
+Wohnbauland
+
+Unbebaute Grundstücke
+    Mehrfamilienhäuser und Stockwerkeigentum (Ziff. 10)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+
+Bezirk Winterthur
+Altikon   3   470   410   350   –   –   –   –
+Brütten   3   750   670   590   –   –   –   –
+Dägerlen   3   490   400   300   –   –   –   –
+Dättlikon   5   650   610   570   530   480   –   –
+Dinhard   3   650   510   370   –   –   –   –
+Elgg
+– Elgg   5   650   590   520   460   390   –   –
+ (ehemalige Gemeinde)
+– Hofstetten (ZH)   3   370   320   270   –   –   –   –
+ (ehemalige Gemeinde)
+Ellikon an der Thur   3   500   400   290   –   –   –   –

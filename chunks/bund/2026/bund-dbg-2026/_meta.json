@@ -95,7 +95,7 @@
 },
 {
 "id": "bund-dbg-2026__art-5-t1",
-"titel": "Art. 5 DBG – Andere steuerbare Werte (Teil 1/3)",
+"titel": "Art. 5 DBG – Andere steuerbare Werte (Teil 1/2)",
 "pfad": [
 "Zweiter Teil: Besteuerung der natürlichen Personen",
 "Erster Titel: Steuerpflicht",
@@ -115,7 +115,7 @@
 },
 {
 "id": "bund-dbg-2026__art-5-t2",
-"titel": "Art. 5 DBG – Andere steuerbare Werte (Teil 2/3)",
+"titel": "Art. 5 DBG – Andere steuerbare Werte (Teil 2/2)",
 "pfad": [
 "Zweiter Teil: Besteuerung der natürlichen Personen",
 "Erster Titel: Steuerpflicht",
@@ -131,31 +131,11 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-dbg-2026__art-5-t1",
-"nachher": "bund-dbg-2026__art-5-t3"
-},
-{
-"id": "bund-dbg-2026__art-5-t3",
-"titel": "Art. 5 DBG – Andere steuerbare Werte (Teil 3/3)",
-"pfad": [
-"Zweiter Teil: Besteuerung der natürlichen Personen",
-"Erster Titel: Steuerpflicht",
-"1. Kapitel: Steuerliche Zugehörigkeit",
-"2. Abschnitt: Wirtschaftliche Zugehörigkeit",
-"Art. 5 Andere steuerbare Werte"
-],
-"seiten": [],
-"artikel": "Art. 5",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-5-t2",
 "nachher": "bund-dbg-2026__art-6-t1"
 },
 {
 "id": "bund-dbg-2026__art-6-t1",
-"titel": "Art. 6 DBG (Teil 1/3)",
+"titel": "Art. 6 DBG (Teil 1/2)",
 "pfad": [
 "Zweiter Teil: Besteuerung der natürlichen Personen",
 "Erster Titel: Steuerpflicht",
@@ -170,12 +150,12 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-5-t3",
+"vorher": "bund-dbg-2026__art-5-t2",
 "nachher": "bund-dbg-2026__art-6-t2"
 },
 {
 "id": "bund-dbg-2026__art-6-t2",
-"titel": "Art. 6 DBG (Teil 2/3)",
+"titel": "Art. 6 DBG (Teil 2/2)",
 "pfad": [
 "Zweiter Teil: Besteuerung der natürlichen Personen",
 "Erster Titel: Steuerpflicht",
@@ -191,26 +171,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-dbg-2026__art-6-t1",
-"nachher": "bund-dbg-2026__art-6-t3"
-},
-{
-"id": "bund-dbg-2026__art-6-t3",
-"titel": "Art. 6 DBG (Teil 3/3)",
-"pfad": [
-"Zweiter Teil: Besteuerung der natürlichen Personen",
-"Erster Titel: Steuerpflicht",
-"1. Kapitel: Steuerliche Zugehörigkeit",
-"3. Abschnitt: Umfang der Steuerpflicht",
-"Art. 6"
-],
-"seiten": [],
-"artikel": "Art. 6",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-6-t2",
 "nachher": "bund-dbg-2026__art-7"
 },
 {
@@ -230,7 +190,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-6-t3",
+"vorher": "bund-dbg-2026__art-6-t2",
 "nachher": "bund-dbg-2026__art-8"
 },
 {
@@ -802,7 +762,7 @@
 },
 {
 "id": "bund-dbg-2026__art-20a-t1",
-"titel": "Art. 20a DBG – Besondere Fälle (Teil 1/3)",
+"titel": "Art. 20a DBG – Besondere Fälle (Teil 1/2)",
 "pfad": [
 "Zweiter Teil: Besteuerung der natürlichen Personen",
 "Zweiter Titel: Einkommenssteuer",
@@ -822,7 +782,7 @@
 },
 {
 "id": "bund-dbg-2026__art-20a-t2",
-"titel": "Art. 20a DBG – Besondere Fälle (Teil 2/3)",
+"titel": "Art. 20a DBG – Besondere Fälle (Teil 2/2)",
 "pfad": [
 "Zweiter Teil: Besteuerung der natürlichen Personen",
 "Zweiter Titel: Einkommenssteuer",
@@ -838,26 +798,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-dbg-2026__art-20a-t1",
-"nachher": "bund-dbg-2026__art-20a-t3"
-},
-{
-"id": "bund-dbg-2026__art-20a-t3",
-"titel": "Art. 20a DBG – Besondere Fälle (Teil 3/3)",
-"pfad": [
-"Zweiter Teil: Besteuerung der natürlichen Personen",
-"Zweiter Titel: Einkommenssteuer",
-"1. Kapitel: Steuerbare Einkünfte",
-"4. Abschnitt: Bewegliches Vermögen",
-"Art. 20a Besondere Fälle"
-],
-"seiten": [],
-"artikel": "Art. 20a",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-20a-t2",
 "nachher": "bund-dbg-2026__art-21"
 },
 {
@@ -877,12 +817,12 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-20a-t3",
+"vorher": "bund-dbg-2026__art-20a-t2",
 "nachher": "bund-dbg-2026__art-22-t1"
 },
 {
 "id": "bund-dbg-2026__art-22-t1",
-"titel": "Art. 22 DBG (Teil 1/4)",
+"titel": "Art. 22 DBG (Teil 1/3)",
 "pfad": [
 "Zweiter Teil: Besteuerung der natürlichen Personen",
 "Zweiter Titel: Einkommenssteuer",
@@ -902,7 +842,7 @@
 },
 {
 "id": "bund-dbg-2026__art-22-t2",
-"titel": "Art. 22 DBG (Teil 2/4)",
+"titel": "Art. 22 DBG (Teil 2/3)",
 "pfad": [
 "Zweiter Teil: Besteuerung der natürlichen Personen",
 "Zweiter Titel: Einkommenssteuer",
@@ -922,7 +862,7 @@
 },
 {
 "id": "bund-dbg-2026__art-22-t3",
-"titel": "Art. 22 DBG (Teil 3/4)",
+"titel": "Art. 22 DBG (Teil 3/3)",
 "pfad": [
 "Zweiter Teil: Besteuerung der natürlichen Personen",
 "Zweiter Titel: Einkommenssteuer",
@@ -938,26 +878,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-dbg-2026__art-22-t2",
-"nachher": "bund-dbg-2026__art-22-t4"
-},
-{
-"id": "bund-dbg-2026__art-22-t4",
-"titel": "Art. 22 DBG (Teil 4/4)",
-"pfad": [
-"Zweiter Teil: Besteuerung der natürlichen Personen",
-"Zweiter Titel: Einkommenssteuer",
-"1. Kapitel: Steuerbare Einkünfte",
-"6. Abschnitt: Einkünfte aus Vorsorge",
-"Art. 22"
-],
-"seiten": [],
-"artikel": "Art. 22",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-22-t3",
 "nachher": "bund-dbg-2026__art-23"
 },
 {
@@ -977,7 +897,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-22-t4",
+"vorher": "bund-dbg-2026__art-22-t3",
 "nachher": "bund-dbg-2026__art-24-t1"
 },
 {
@@ -3153,7 +3073,7 @@
 },
 {
 "id": "bund-dbg-2026__art-107-t1",
-"titel": "Art. 107 DBG – Bei Quellensteuern (Teil 1/3)",
+"titel": "Art. 107 DBG – Bei Quellensteuern (Teil 1/2)",
 "pfad": [
 "Fünfter Teil: Verfahrensrecht",
 "Erster Titel: Steuerbehörden",
@@ -3173,7 +3093,7 @@
 },
 {
 "id": "bund-dbg-2026__art-107-t2",
-"titel": "Art. 107 DBG – Bei Quellensteuern (Teil 2/3)",
+"titel": "Art. 107 DBG – Bei Quellensteuern (Teil 2/2)",
 "pfad": [
 "Fünfter Teil: Verfahrensrecht",
 "Erster Titel: Steuerbehörden",
@@ -3189,26 +3109,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-dbg-2026__art-107-t1",
-"nachher": "bund-dbg-2026__art-107-t3"
-},
-{
-"id": "bund-dbg-2026__art-107-t3",
-"titel": "Art. 107 DBG – Bei Quellensteuern (Teil 3/3)",
-"pfad": [
-"Fünfter Teil: Verfahrensrecht",
-"Erster Titel: Steuerbehörden",
-"2. Kapitel: Kantonale Behörden",
-"2. Abschnitt: Örtliche Zuständigkeit",
-"Art. 107 Bei Quellensteuern"
-],
-"seiten": [],
-"artikel": "Art. 107",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-107-t2",
 "nachher": "bund-dbg-2026__art-108"
 },
 {
@@ -3228,7 +3128,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-107-t3",
+"vorher": "bund-dbg-2026__art-107-t2",
 "nachher": "bund-dbg-2026__art-109"
 },
 {
@@ -3309,7 +3209,7 @@
 },
 {
 "id": "bund-dbg-2026__art-112a-t1",
-"titel": "Art. 112a DBG – Datenbearbeitung (Teil 1/3)",
+"titel": "Art. 112a DBG – Datenbearbeitung (Teil 1/2)",
 "pfad": [
 "Fünfter Teil: Verfahrensrecht",
 "Zweiter Titel: Allgemeine Verfahrensgrundsätze",
@@ -3328,7 +3228,7 @@
 },
 {
 "id": "bund-dbg-2026__art-112a-t2",
-"titel": "Art. 112a DBG – Datenbearbeitung (Teil 2/3)",
+"titel": "Art. 112a DBG – Datenbearbeitung (Teil 2/2)",
 "pfad": [
 "Fünfter Teil: Verfahrensrecht",
 "Zweiter Titel: Allgemeine Verfahrensgrundsätze",
@@ -3343,25 +3243,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-dbg-2026__art-112a-t1",
-"nachher": "bund-dbg-2026__art-112a-t3"
-},
-{
-"id": "bund-dbg-2026__art-112a-t3",
-"titel": "Art. 112a DBG – Datenbearbeitung (Teil 3/3)",
-"pfad": [
-"Fünfter Teil: Verfahrensrecht",
-"Zweiter Titel: Allgemeine Verfahrensgrundsätze",
-"1. Kapitel: Amtspflichten",
-"Art. 112a Datenbearbeitung"
-],
-"seiten": [],
-"artikel": "Art. 112a",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-112a-t2",
 "nachher": "bund-dbg-2026__art-113"
 },
 {
@@ -3380,7 +3261,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-112a-t3",
+"vorher": "bund-dbg-2026__art-112a-t2",
 "nachher": "bund-dbg-2026__art-114"
 },
 {
@@ -5631,7 +5512,7 @@
 },
 {
 "id": "bund-dbg-2026__art-207a-t1",
-"titel": "Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 1/3)",
+"titel": "Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 1/2)",
 "pfad": [
 "Achter Teil: Schlussbestimmungen",
 "Vierter Titel: Übergangsbestimmungen",
@@ -5650,7 +5531,7 @@
 },
 {
 "id": "bund-dbg-2026__art-207a-t2",
-"titel": "Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 2/3)",
+"titel": "Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 2/2)",
 "pfad": [
 "Achter Teil: Schlussbestimmungen",
 "Vierter Titel: Übergangsbestimmungen",
@@ -5665,25 +5546,6 @@
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
 "vorher": "bund-dbg-2026__art-207a-t1",
-"nachher": "bund-dbg-2026__art-207a-t3"
-},
-{
-"id": "bund-dbg-2026__art-207a-t3",
-"titel": "Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 3/3)",
-"pfad": [
-"Achter Teil: Schlussbestimmungen",
-"Vierter Titel: Übergangsbestimmungen",
-"2. Kapitel: Juristische Personen",
-"Art. 207a Übergangsbestimmung zur Änderung vom 10. Oktober 1997"
-],
-"seiten": [],
-"artikel": "Art. 207a",
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-207a-t2",
 "nachher": "bund-dbg-2026__art-207b"
 },
 {
@@ -5702,7 +5564,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "gesetz (Artikel)",
-"vorher": "bund-dbg-2026__art-207a-t3",
+"vorher": "bund-dbg-2026__art-207a-t2",
 "nachher": "bund-dbg-2026__art-208-220"
 },
 {

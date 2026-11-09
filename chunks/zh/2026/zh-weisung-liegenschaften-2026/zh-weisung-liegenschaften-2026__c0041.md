@@ -4,32 +4,30 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 41"
+titel: "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Andelfingen"
 seiten: "20"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 20
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Einfamilienhäuser · S. 20
 
-<!-- Seite 20 -->
-Landwerte Wohnbauland
-    Einfamilienhäuser (Ziff. 13 und 23)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7   LS 8   LK 9
-
-Bezirk Affoltern
-Aeugst am Albis   6   1600   1470   1350   1220   1090   960   –   –   –
-Affoltern am Albis   5   1410   1290   1180   1060   950   –   –   –   –
-Bonstetten   3   1380   1200   1030   –   –   –   –   –   –
-Hausen am Albis   5   1220   1110   1000   890   780   –   –   –   –
-Hedingen   5   1230   1140   1050   960   870   –   –   –   –
-Kappel am Albis   3   1060   920   780   –   –   –   –   –   –
-Knonau   4   1330   1220   1120   1020   –   –   –   –   –
-Maschwanden   2   560   470   –   –   –   –   –   –   –
-Mettmenstetten   6   1470   1350   1240   1120   1010   890   –   –   –
-Obfelden   4   1320   1170   1020   880   –   –   –   –   –
-Ottenbach   3   1060   930   790   –   –   –   –   –   –
-Rifferswil   4   960   850   730   620   –   –   –   –   –
-Stallikon   3   1200   1050   910   –   –   –   –   –   –
-Wettswil am Albis   3   1580   1370   1170   –   –   –   –   –   –
 Bezirk Andelfingen
 Andelfingen   6   710   630   550   470   390   310   –   –   –
+Benken   5   420   390   350   310   270   –   –   –   –
+Berg am Irchel   3   470   430   400   –   –   –   –   –   –
+Buch am Irchel   2   450   360   –   –   –   –   –   –   –
+Dachsen   3   720   630   540   –   –   –   –   –   –
+Dorf   3   720   640   570   –   –   –   –   –   –
+Feuerthalen   5   530   490   460   420   390   –   –   –   –
+Flaach   5   530   480   440   400   350   –   –   –   –
+Flurlingen   3   740   670   600   –   –   –   –   –   –
+Henggart   3   830   770   710   –   –   –   –   –   –
+Kleinandelfingen   5   610   560   520   470   430   –   –   –   –
+Laufen-Uhwiesen   5   610   560   510   460   420   –   –   –   –
+Marthalen   3   580   500   420   –   –   –   –   –   –
+Ossingen   4   600   540   470   410   –   –   –   –   –
+Rheinau   3   360   320   290   –   –   –   –   –   –
+Stammheim   4   410   330   250   180   –   –   –   –   –
+Thalheim an der Thur   3   530   460   390   –   –   –   –   –   –
+Trüllikon   5   520   460   410   360   300   –   –   –   –
+Truttikon   5   550   490   440   390   330   –   –   –   –
+Volken   3   540   500   460   –   –   –   –   –   –

@@ -4,23 +4,27 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 14"
-seiten: "4"
+titel: "Ziff. 4.3.2 Vordergrund-Kriterium Einsatz erheblicher fremder Mittel (Schuldzinsen)"
+ziffer: "4.3.2"
+seiten: "5-6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.3.2 › Im Vordergrund · S. 5–6
 
-Wertschriften im Sinne dieses Kreisschreibens sind Wertpapiere sowie nicht verurkundete
-Rechte mit gleicher Funktion (Wertrechte). Zu den Wertschriften gehören einmal jene
-Wertpapiere im zivilrechtlichen Sinn, die entweder volle Mitgliedschaftsrechte (z.B. Aktien,
-Anteile von Genossenschaften) oder bloss beteiligungsrechtliche Vermögensrechte (z.B.
-Partizipationsscheine, Genussscheine, Anteile an kollektiven Kapitalanlagen) verkörpern
-sowie Forderungsrechte (Obligationen). Sodann umfassen die Wertschriften im Sinn dieses
-Kreisschreibens auch bloss buchmässig registrierte Mitgliedschafts- und Forderungsrechte.
-Schliesslich zählen zu den Wertschriften auch Futures und die Derivate, deren Wert von
-einem bestimmten Basiswert (Aktien, Obligationen, Devisen, Edelmetalle, Rohwaren,
-Indizes, usw.) abgeleitet wird. Zu den derivativen Finanzinstrumenten zählen insbesondere
-Optionen und Swaps.
+-   Einsatz erheblicher fremder Mittel zur Finanzierung der Geschäfte
 
-4.3   Abgrenzung der selbständigen Erwerbstätigkeit mit Wertschriften
-    zur privaten Vermögensverwaltung
+    Der Einsatz von erheblichen Fremdmitteln in der privaten Vermögensverwaltung ist
+    eher atypisch. Normalerweise wird bei der gewöhnlichen Anlage von privatem Ver-
+    mögen darauf geachtet, dass die Erträge den Aufwand übersteigen (ASA 69, 788). Ist
+    aber eine Fremdfinanzierung vorhanden, trägt die steuerpflichtige Person ein erhöhtes
+    Risiko, welches ein Indiz für eine selbständige Erwerbstätigkeit darstellt. Sofern die
+    Schuldzinsen und Spesen nicht durch periodische Einkünfte gedeckt werden können,
+    sondern mittels Veräusserungsgewinnen beglichen werden müssen, kann von einer
+    privaten Vermögensverwaltung nicht mehr die Rede sein (ASA 69, 788).
+
+    Der Umstand, dass die steuerpflichtige Person auf die Geltendmachung des Schuldzin-
+    sen- und Schuldenabzugs verzichtet, hat nicht automatisch zur Folge, dass die durch
+    fremde Mittel finanzierten Wertschriften als Privatvermögen qualifiziert werden. Viel-
+    mehr ist im Einklang mit der einschlägigen Rechtsprechung auf Grund der Gesamtheit
+    der Umstände des Einzelfalls zu beurteilen, ob die Wertschriften dem Privat- oder
+    Geschäftsvermögen zuzuordnen sind.

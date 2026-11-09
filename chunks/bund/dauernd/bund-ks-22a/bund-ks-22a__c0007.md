@@ -4,23 +4,25 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 7"
-seiten: "2"
+titel: "Ziff. 2.2.3 Einkünfte aus Beteiligungen – teilbesteuerte Erträge"
+ziffer: "2.2.3"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 22a · 2 Teilbesteuerung › 2.2 Objektive Voraussetzungen › 2.2.3 · S. 3
 
-Mit dem Bundesgesetz vom 28. September 2018 über die Steuerreform und AHV-
-Finanzierung wurde der Umfang der Teilbesteuerung der Einkünfte aus Beteiligungen des
-Privatvermögens auf 70 Prozent angehoben:
-1bis
-   Dividenden, Gewinnanteile, Liquidationsüberschüsse und geldwerte Vorteile aus Aktien,
-Anteilen an Gesellschaften mit beschränkter Haftung, Genossenschaftsanteilen und Partizi
-pationsscheinen (einschliesslich Gratisaktien, Gratisnennwerterhöhungen u. dgl.) sind im
-Umfang von 70 Prozent steuerbar, wenn diese Beteiligungsrechte mindestens 10 Prozent
-des Grund- oder Stammkapitals einer Kapitalgesellschaft oder Genossenschaft darstellen.
+2.2.3. Einkünfte aus Beteiligungen
 
-Private Schuldzinsen sind nach Artikel 33 Absatz 1 Buchstabe a DBG im Umfang des Ertra
-ges aus beweglichem und unbeweglichem Vermögen (Art. 20 und 21 DBG) und weiterer
-50‘000 Franken abziehbar. Zinsen auf Geschäftsschulden sind weiterhin vollumfänglich ab
-ziehbar (Art. 27 Abs. 2 Bst. d DBG).
+Für die Teilbesteuerung qualifizieren insbesondere folgende Einkünfte aus Beteiligungsrech
+ten:
+
+•   Ordentliche Gewinnausschüttungen wie z.B. Dividenden, Gewinnanteile auf Stammein
+    lagen, Zinsen auf Genossenschaftsanteilen;
+•   ausserordentliche Gewinnausschüttungen wie z.B. Anteile am Ergebnis einer direkten
+    oder indirekten Teil- oder Totalliquidation (Art. 20 Abs. 1 Bst. c und 20a Abs. 1 Bst. a
+    DBG), Vermögenserträge aus Transponierung (Art. 20a Abs. 1 Bst. b DBG);
+•   Ausschüttungen auf Partizipationsscheinen;
+•   Ausschüttungen auf Genussscheinen, sofern die Beteiligungsquote mit Beteiligungsrech
+    ten der gleichen Gesellschaft erreicht wird;
+•   Gratisaktien und Gratisnennwerterhöhungen;
+•   alle übrigen offenen Gewinnausschüttungen;

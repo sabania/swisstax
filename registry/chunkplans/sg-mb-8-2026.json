@@ -1,0 +1,166 @@
+{
+"id": "sg-mb-8-2026",
+"hinweise": [
+"Seite 4: Zeile 154-185 Randtitel (Ziffern) und Text teils vermischt (Ziff. 4.1 / 10 / 13.1 / 16.x)."
+],
+"chunks": [
+{
+"start": 16,
+"titel": "Merkblatt 8 Unterjährige Steuerpflicht 2026 – Allgemeines, E-Tax",
+"pfad": [
+"Allgemeine Hinweise"
+],
+"ziffer": "1–2",
+"stichworte": [
+"unterjährige Steuerpflicht",
+"Wegzug Ausland",
+"Tod",
+"E-Tax SG",
+"Merkblatt 8"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Merkblatt erläutert Besonderheiten der Veranlagung bei Steuerpflicht von weniger als einem Jahr (Wegzug ins Ausland, Tod); E-Tax SG erkennt unterjährige Pflicht automatisch."
+},
+{
+"start": 53,
+"titel": "Ziff. 3–4 Beendigung der Steuerpflicht, unterjährige Veranlagung",
+"pfad": [
+"Beendigung der Steuerpflicht"
+],
+"ziffer": "3–4",
+"stichworte": [
+"Wegzug Ausland",
+"Todesfall",
+"überlebender Partner",
+"zwei Steuerpflichten",
+"unterjährige Veranlagung"
+],
+"positionen": [
+"personalien",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Steuerpflicht endet bei Wegzug ins Ausland oder per Todestag; überlebender Partner begründet ab Folgetag neue Steuerpflicht; deklariert werden nur effektiv zugeflossene Einkünfte."
+},
+{
+"start": 73,
+"titel": "Ziff. 5–6 Satzbestimmendes Einkommen, Erträge aus beweglichem Vermögen",
+"pfad": [
+"Berechnung"
+],
+"ziffer": "5–6",
+"stichworte": [
+"satzbestimmendes Einkommen",
+"Jahreseinkommen",
+"Verrechnungssteuer",
+"Wegzug",
+"Marchzinsen"
+],
+"positionen": [
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Steuersatz richtet sich nach dem auf ein Jahr umgerechneten Einkommen (von Amtes wegen); nur tatsächlich zugeflossene Vermögenserträge sind zu deklarieren."
+},
+{
+"start": 93,
+"titel": "Ziff. 7 Pauschalierte Abzüge – Kürzung nach Dauer, Beispiel Kinderabzug",
+"pfad": [
+"Pauschalierte Abzüge"
+],
+"ziffer": "7",
+"stichworte": [
+"Pauschalabzug",
+"pro rata",
+"Kinderabzug",
+"Kürzung",
+"360 Tage"
+],
+"positionen": [
+"sozialabzug.kinder",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Pauschal- und Maximalabzüge werden nach Dauer der Steuerpflicht gekürzt; Beispiel Kinderabzug Fr. 10'800 ÷ 360 × 180 Tage = Fr. 5'400."
+},
+{
+"start": 113,
+"titel": "Ziff. 8 Berechnung der Einkommenssteuer – Beispiel Splittingtarif",
+"pfad": [
+"Berechnung der Einkommenssteuer"
+],
+"ziffer": "8",
+"stichworte": [
+"Einkommenssteuer",
+"Steuerberechnung",
+"Splittingtarif",
+"Steuerfuss 270%"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Beispiel: effektives Einkommen Fr. 36'000, satzbestimmend Fr. 72'000, einfache Steuer 3.9556% = Fr. 1'424.00, bei Steuerfuss 270% Fr. 3'844.80."
+},
+{
+"start": 133,
+"titel": "Ziff. 9–10 Stichtag Vermögen, Berechnung Vermögenssteuer",
+"pfad": [
+"Vermögenssteuer"
+],
+"ziffer": "9–10",
+"stichworte": [
+"Vermögenssteuer",
+"Stichtag",
+"1,7 Promille",
+"Wegzug"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"berechnung.total"
+],
+"zusammenfassung": "Vermögen per Wegzugs-/Todestag; einfache Vermögenssteuer 1,7 Promille, bei Fr. 200'000 Fr. 340, bei 180 Tagen Fr. 170, mit Steuerfuss 270% Fr. 459."
+},
+{
+"start": 153,
+"titel": "Ziff. 11 Änderungen gegenüber 2025 – Geldspielgewinne, Fahrkosten, Säule-3a-Einkauf",
+"pfad": [
+"Änderungen gegenüber 2025"
+],
+"ziffer": "4.1 / 10 / 13.1",
+"stichworte": [
+"Geldspiele",
+"Kilometeransatz 75 Rappen",
+"Säule 3a Einkauf",
+"Nachzahlung 3a",
+"Freibetrag Lotterie"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a_einkauf",
+"abzug.berufskosten.fahrkosten",
+"einkommen.lotterie_gewinne"
+],
+"zusammenfassung": "Gewinne steuerbar > Fr. 1'070'900 (Verkaufsförderung > Fr. 1'100); Auto 75 Rappen/km; Säule-3a-Einkauf bis zehn Jahre rückwirkend, ab Steuererklärung 2026."
+},
+{
+"start": 174,
+"titel": "Ziff. 11 Änderungen 2026 – Einsatzkosten Online-Spiele, Kinderbetreuung, Ausbildungskosten",
+"pfad": [
+"Änderungen gegenüber 2025"
+],
+"ziffer": "16.1 / 16.2 / 16.3 / 23.3",
+"stichworte": [
+"Kinderbetreuung",
+"Drittbetreuung",
+"Kita",
+"Ausbildungskosten Kind",
+"Online-Spiele"
+],
+"positionen": [
+"abzug.drittbetreuung",
+"sozialabzug.kinder",
+"abzug.parteispenden"
+],
+"zusammenfassung": "Neu max. Fr. 26'800 für Einsatzkosten Online-Spiele und Kinderbetreuung pro Kind; Ausbildungskosten pro Kind neu max. Fr. 13'800."
+}
+]
+}

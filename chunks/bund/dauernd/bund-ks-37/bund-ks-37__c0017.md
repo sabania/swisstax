@@ -4,26 +4,25 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 17"
-seiten: "4"
+titel: "Ziff. 3.2.2 Nicht börsenkotierte Mitarbeiteraktien – Formelwert"
+ziffer: "3.2.2"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 37 · 3 Besteuerung von Mitarbeiteraktien › 3.2 Verkehrswert › 3.2.2 Nicht börsenkotierte Mitarbeiteraktien · S. 7
 
-<!-- Seite 4 -->
-2.3   Mitarbeiterbeteiligungen
-Ist das Beteiligungsrecht auf das ehemalige, das aktuelle oder das künftige Arbeitsverhältnis
-mit dem Arbeitgeber zurückzuführen, dann qualifiziert es entweder als echte oder unechte
-Mitarbeiterbeteiligung.
+3.2.2 Nicht börsenkotierte Mitarbeiteraktien
+Bei nicht an einer Börse kotierten Mitarbeiteraktien fehlt es in der Regel an einem Verkehrs-
+wert. Daher gilt als massgeblicher Wert grundsätzlich der nach einer für den entsprechenden
+Arbeitgeber tauglichen und anerkannten Methode ermittelte Formelwert. Dabei kann die Be-
+rechnung des entsprechenden Werts im Zeitpunkt der Zuteilung den Regelungen gemäss
+dem Kreisschreiben Nr. 28 der Schweizerischen Steuerkonferenz von 28. August 2008
+(Wegleitung zur Bewertung von Wertpapieren ohne Kurswert für die Vermögenssteuer) fol-
+gen. Die einmal gewählte Berechnungsmethode muss für den entsprechenden Mitarbeiter-
+beteiligungsplan zwingend beibehalten werden.
 
-Wird die Beteiligung dem Mitarbeitenden nicht durch den Arbeitgeber, sondern durch eine
-natürliche Person (z.B. aus dem Eigenbestand eines Aktionärs) abgegeben, handelt es sich
-zwar nicht um eine Mitarbeiterbeteiligung nach Artikel 17a DBG im engeren Sinne. Es recht-
-fertigt sich aber, für die Bemessung des geldwerten Vorteils die Bestimmungen für Mitarbei-
-terbeteiligungen sinngemäss anzuwenden.
 
-2.3.1 Echte Mitarbeiterbeteiligungen
-Echte Mitarbeiterbeteiligungen beteiligen den Mitarbeitenden im Ergebnis am Eigenkapital
-des Arbeitgebers. Die Beteiligung kann dabei direkt mittels Einräumung von Beteiligungspa-
-pieren erfolgen oder indirekt mittels Einräumung von Optionen oder Anwartschaften zum Be-
-zug von Beteiligungspapieren.
+Wird der Formelwert nur einmal pro Jahr berechnet, gilt er nur dann als steuerlich massge-
+bender Wert, wenn die Abgabe der Mitarbeiteraktien innert sechs Monaten nach dem betref-
+fenden Bewertungsstichtag erfolgt. Andernfalls ist der Formelwert des kommenden Bewer-
+tungsstichtags angemessen zu berücksichtigen.

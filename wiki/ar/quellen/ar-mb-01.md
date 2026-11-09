@@ -12,10 +12,8 @@ generiert: tools/build_index.py
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/01_Kosten_der_Fahrt_zum_Arbeitsort__ab_2020_.pdf> · lokal: [ar-mb-01.pdf](../../../raw/ar/dauernd/ar-mb-01.pdf) · Volltext: [ar-mb-01.md](../../../sources/ar/dauernd/ar-mb-01.md)
 - **Abgerufen:** 2026-11-09 · sha256 `225151d00c165178…`
 
-## Inhalt (3 Chunks)
+## Inhalt (1 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/ar/dauernd/ar-mb-01/ar-mb-01__c0001.md) | MB AR 01 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/ar/dauernd/ar-mb-01/ar-mb-01__c0002.md) | MB AR 01 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/ar/dauernd/ar-mb-01/ar-mb-01__c0003.md) | MB AR 01 – Abschnitt 3 | S. 1 |  |
+| [c0001](../../../chunks/ar/dauernd/ar-mb-01/ar-mb-01__c0001.md) | Merkblatt 01 – Fahrkosten privates Fahrzeug, Höchstbetrag und Unzumutbarkeit ÖV | S. 1 | Kosten privater Fahrzeuge bis Höchstbetrag Fr. 6‘000 abziehbar, wenn kein ÖV verfügbar oder zumutbar (z.B. über 15 Minuten Fussmarsch, Mehraufwand 60 Minuten pro Tag). |

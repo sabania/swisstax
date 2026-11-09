@@ -4,7 +4,7 @@ quelle: bund-dbg-2026
 jur: bund
 jahre: [2026]
 typ: gesetz
-titel: "Art. 6 DBG (Teil 1/3)"
+titel: "Art. 6 DBG (Teil 1/2)"
 artikel: "Art. 6"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---

@@ -4,20 +4,16 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 42"
-seiten: "10"
+titel: "Ziff. 4.1 Tarifanwendung – fehlende Angaben, Mehrfachtätigkeit, Sondertarife E, G, Q (Teil 2/2)"
+ziffer: "4.1"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.1 Allgemeines · S. 15
 
-somit insbesondere auch Taggelder (IV, UV, ALV, KVG etc.), Teil-Invaliditätsrenten (IV, UV,
-berufliche Vorsorge etc.), Mutterschaftsentschädigungen und Ersatzleistungen haftpflichtiger
-Dritter. Ob im Einzelfall ein Quellensteuerabzug vorzunehmen ist, ist dem jeweils gültigen
-«Merkblatt der ESTV über die Quellenbesteuerung von Ersatzeinkünften» zu entnehmen.
-Andere Einkünfte (bspw. Wertschriften- oder Liegenschaftserträge) unterliegen nicht der
-Quellensteuer, sondern werden (nachträglich) im ordentlichen Verfahren veranlagt (vgl.
-Art. 4 Abs. 1 bzw. Art. 89 Abs. 1 Bst. b sowie Art. 99b DBG).
-Hat der Leistungsschuldner seinen Sitz im Ausland, unterliegen die von ihm ausgerichteten
-und in der Schweiz steuerpflichtigen Lohnbestandteile in der Regel der ordentlichen Veranla-
-gung. Eine Quellenbesteuerung hat nur zu erfolgen, wenn diese Leistungen von einer Be-
-triebsstätte oder festen Einrichtung in der Schweiz getragen werden, oder wenn ein Perso-
+und des Tarifcodes G (Ersatzeinkünfte, die direkt von Versicherer an die quellensteuerpflich-
+tige Person ausbezahlt werden) bzw. des Tarifcodes Q (Grenzgänger nach dem Abkommen
+vom 11. August 1971 zwischen der Schweizerischen Eidgenossenschaft und der Bundesre-
+publik Deutschland zur Vermeidung der Doppelbesteuerung auf dem Gebiete der Steuern
+vom Einkommen und vom Vermögen [DBA-D; SR 0.672.913.62], welche die Voraussetzun-
+gen für den Tarifcode G erfüllen).

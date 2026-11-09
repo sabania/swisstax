@@ -4,23 +4,31 @@ quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
 jahre: [2025]
 typ: praxis
-titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 18"
-seiten: "6"
+titel: "H Schenkungssteuer – Pflicht, Einreichung, Befreiungen (Fr. 5'000)"
+ziffer: "H"
+seiten: "6-7"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 6
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · H. Schenkungssteuer · S. 6–7
 
-<!-- Seite 6 -->
-F. Rückerstattung der eidgenössischen Verrechnungssteuer
-Natürliche Personen beantragen die Rückerstattung der Verrechnungssteuer zusammen mit der
-Steuererklärung (Formular Wertschriften- und Guthabenverzeichnis mit Verrechnungsantrag).
-Der Anspruch auf Rückerstattung erlischt, wenn er nicht innert dreier Jahre nach Ablauf des
-Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt wird.
-Juristische Personen sowie Kollektiv- und Kommanditgesellschaften verlangen die
-Rückerstattung der Verrechnungssteuer bei der eidgenössischen Steuerverwaltung in Bern, wo
-besondere Formulare erhältlich sind.
+H. Schenkungssteuer
+Natürliche und juristische Personen, die Schenkungen erhalten, schulden eine
+Schenkungssteuer. Als Schenkung gelten alle unentgeltlichen Zuwendungen, mit Einschluss von
+Vorbezügen auf Anrechnung an den Erbteil.
+Die Steuerpflicht im Kanton Zürich ist gegeben, wenn die Schenkerin oder der Schenker im
+Kanton Wohnsitz hat oder eine im Kanton Zürich gelegene Liegenschaft Gegenstand der
+Schenkung ist.
+Steuererklärungen für die Schenkungssteuer sind bei der Abteilung Nachlass des Kantonalen
+Steueramtes Zürich oder unter www.zh.ch/steueramt zu beziehen und innert drei Monaten nach
+Vollzug der Schenkung dieser Amtsstelle einzureichen.
+Von der Einreichung einer besonderen Schenkungssteuererklärung kann nur abgesehen werden:
+•   bei Schenkungen an die Ehegattin oder den Ehegatten oder an die nach dem
+    Partnerschaftsgesetz des Bundes eingetragenen Partnerinnen oder Partner;
+•   bei Schenkungen an einen Nachkommen;
+•   bei Gelegenheitsgeschenken, die den Wert von je Fr. 5'000.- nicht übersteigen.
+Bei solchen Zuwendungen fällt keine Erbschafts- oder Schenkungssteuer an.
 
-G. Rückerstattung oder Anrechnung ausländischer
-Quellensteuern
+Zürcher Steuerbuch   Nr. 133.1
 
-I. Zusätzlicher Steuerrückbehalt USA
+
+Kantonales Steueramt Zürich

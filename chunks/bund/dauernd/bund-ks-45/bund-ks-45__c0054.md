@@ -4,17 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 54"
-seiten: "13"
+titel: "Ziff. 4.7 Beispiele Tarifcode H (Alleinerziehende, Konkubinat)"
+ziffer: "4.7"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.7 Kinderabzüge · S. 18
 
-3.2.6 Geschäftsfahrzeuge
-Wird dem Arbeitnehmer unentgeltlich und uneingeschränkt ein Geschäftsfahrzeug zum pri-
-vaten Gebrauch zur Verfügung gestellt, ist der massgebende Bruttomonatslohn gemäss
-Randziffer 21 der «Wegleitung zum Ausfüllen des Lohnausweises» zu erhöhen. Aus der Be-
-grenzung des Fahrkostenabzuges gemäss dem Bundesgesetz vom 21. Juni 2013 über die
-Finanzierung und den Ausbau der Eisenbahninfrastruktur (FABI; vgl. AS 2015 S. 651 bzw.
-Art. 26 Abs. 1 Bst. a DBG) ergeben sich für die Berechnung der geschuldeten Quellensteu-
-ern keine weiteren Aufrechnungen zum der Quellensteuer unterliegenden Bruttolohn.
+    -   Tarifcode H:
+    Der Arbeitnehmer W. lebt in der Schweiz im gemeinsamen Haushalt mit seinem minderjährigen Kind und
+    seiner Konkubinatspartnerin. Beide Elternteile haben die elterliche Sorge. Die Konkubinatspartnerin ist mit
+    einem geringeren Bruttoverdienst ebenfalls in der Schweiz erwerbstätig. Der Arbeitnehmer W. kommt zur
+    Hauptsache für den Unterhalt des Kindes auf und ist demnach gemäss Tarifcode H1 zu besteuern. Die
+    Konkubinatspartnerin ist mit dem Tarifcode A0 zu besteuern.
+    Der Arbeitnehmer U. lebt in der Schweiz. Sein minderjähriges Kind und die getrennt lebende Mutter des
+    Kindes leben in Deutschland. Da das Kind nicht im gleichen Haushalt wie der Arbeitnehmer U. lebt, ist
+    nicht der Tarifcode H1 anwendbar, sondern der Tarifcode A0.
+    Der Arbeitnehmer T. lebt zusammen mit seinem minderjährigen Kind und der Konkubinatspartnerin in
+    Deutschland. Er ist in der Schweiz erwerbstätig und kehrt jeweils an den Wochenenden nach Deutschland
+    zurück. Er legt dem Arbeitgeber eine Vaterschaftsanerkennung sowie eine Bestätigung der deutschen
+    Wohngemeinde über den gemeinsamen Haushalt vor. Da die Konkubinatspartnerin nicht erwerbstätig ist,
+    kommt der Tarifcode H1 zur Anwendung.

@@ -4,17 +4,17 @@ quelle: bund-mb-21edp
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB 21 EDP – Abschnitt 8"
-seiten: "2"
+titel: "Ziff. 1 Rz 13–15 Lohnausweis-Leistungen und WEF-Rückzahlung (Teil 2/2)"
+ziffer: "13–15"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 2
+> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 1: 2. Säule · S. 3
 
-12   Bei Arbeitnehmern sind grundsätzlich alle vom Lohn abgezogenen Beiträge an die beruf
-    liche Vorsorge vom Arbeitgeber im Lohnausweis aufzuführen und dürfen deshalb vom
-    Vorsorgeträger nicht mit dem Formular 21 bescheinigt werden. Dies bedeutet gleichzei
-    tig, dass alle vom Arbeitnehmer aus eigenen Mitteln aufgebrachten, aber ihm nicht vom
-    Lohn abgezogenen Beiträge nur im Formular 21 angegeben werden dürfen, nicht aber im
-    Lohnausweis (Art. 81 Abs. 3 BVG). Zu diesen Beiträgen gehören beispielsweise Einkäufe
-    oder Wiedereinkäufe infolge Scheidung, welche vom Vorsorgenehmer selbst an den Vor
-    sorgeträger überwiesen werden.
+14   Die Wegleitung zum Ausfüllen des Lohnausweises kann auf der Homepage der Eidge
+    nössischen Steuerverwaltung heruntergeladen werden.
+
+15   Die Rückzahlung eines Vorbezugs für Wohneigentum (WEF-Vorbezug) ist nicht als Vor
+    sorgebeitrag mit dem Formular 21 zu bescheinigen, sondern auf dem unteren Teil des
+    WEF-Formulars der Eidgenössischen Steuerverwaltung unter „Rückzahlung an die Vor
+    sorgeeinrichtung/Versicherungseinrichtung“ zu melden.

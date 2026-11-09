@@ -1,0 +1,84 @@
+{
+ "id": "bund-mb-n2",
+ "hinweise": [
+  "Tabelle Seite 1 mit Spalten Erwachsene/Kinder einzeilig extrahiert, Kopfzeile mehrzeilig; Werte lesbar."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "MB N2/2007 – Bewertung Verpflegung und Unterkunft (Marktwert), Ansätze pro Person",
+   "pfad": [
+    "Bewertung Verpflegung und Unterkunft"
+   ],
+   "stichworte": [
+    "Naturalbezüge",
+    "Verpflegung",
+    "Unterkunft",
+    "Kost und Logis",
+    "Marktwert",
+    "Lohnausweis Naturalleistung"
+   ],
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ],
+   "zusammenfassung": "Verpflegung und Unterkunft sind zum Marktwert zu bewerten; ab 2007 gelten die Pauschalansätze pro Person (Tag/Monat/Jahr)."
+  },
+  {
+   "start": 43,
+   "titel": "Ansatztabelle Erwachsene und Kinder – Frühstück bis Volle Verpflegung und Unterkunft",
+   "pfad": [
+    "Bewertung Verpflegung und Unterkunft",
+    "Ansätze"
+   ],
+   "stichworte": [
+    "Naturalbezüge Ansätze",
+    "Volle Verpflegung",
+    "Frühstück",
+    "Mittagessen",
+    "Abendessen",
+    "Kinder"
+   ],
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ],
+   "zusammenfassung": "Erwachsene: volle Verpflegung CHF 21.50/Tag, 645.–/Monat, 7 740.–/Jahr; Unterkunft 11.50/345.–/4 140.–; Verpflegung und Unterkunft 33.–/990.–/11 880.–; Kinderansätze nach Alter gestaffelt."
+  },
+  {
+   "start": 64,
+   "titel": "Bekleidung, Wohnung und weitere Arbeitgeberleistungen",
+   "pfad": [
+    "Zuschläge"
+   ],
+   "stichworte": [
+    "Bekleidung",
+    "Wohnung",
+    "Wohnungseinrichtung",
+    "Heizung Beleuchtung",
+    "Reinigung",
+    "ortsüblicher Mietzins"
+   ],
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ],
+   "zusammenfassung": "Bekleidung zusätzlich CHF 80.–/Monat (960.–/Jahr); bei Wohnung ortsüblicher Mietzins, Einrichtung CHF 70.–/Monat, Heizung/Beleuchtung 60.–, Reinigung 10.–; Kinder halbe Ansätze."
+  },
+  {
+   "start": 74,
+   "titel": "Fussnoten 1–3 – Gastgewerbe, Alter der Kinder, Kinderrabatt ab 4 Kindern",
+   "pfad": [
+    "Fussnoten"
+   ],
+   "stichworte": [
+    "Fussnoten",
+    "Gastgewerbe MB N1",
+    "Familien mehr als 3 Kinder",
+    "Abzug 10 % 20 % 30 %",
+    "Mehrfachbelegung Zimmer"
+   ],
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ],
+   "zusammenfassung": "Alter der Kinder zu Beginn des Bemessungsjahres; bei 4 Kindern 10 %, 5 Kindern 20 %, 6 und mehr 30 % Abzug vom Totalwert der Kinderansätze."
+  }
+ ]
+}

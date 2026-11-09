@@ -4,20 +4,24 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 16"
-seiten: "4"
+titel: "Ziff. 3.3 Fremdfinanzierte Kapitalversicherungen und Darlehen von Gesellschaften an Beteiligte"
+ziffer: "3.3"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.3 · S. 5
 
-Auch die Erträge aus unbeweglichem Vermögen (Art. 21 DBG) bemessen sich brutto, d.h.
-im Umfang der gesamten steuerbaren Einkünfte vor Abzug der darauf entfallenden Gewin
-nungskosten und Schuldzinsen. Liegenschaftsunterhaltskosten und diesen gleichgestellte
-Aufwendungen (Art. 32 Abs. 2 - 4 DBG) kürzen den Umfang des maximal zulässigen
-Schuldzinsenabzuges daher nicht. Im Mietzins enthaltene Zahlungen für Nebenkosten sind
-für die Berechnung des Bruttoertrages in Abzug zu bringen.
+Bei fremdfinanzierten Kapitalversicherungen mit Einmalprämie, die der Vorsorge dienen
+(Art. 20 Abs. 1 Bst. a DBG), gilt nach wie vor der Vorbehalt der Steuerumgehung (vgl. Zu
+sammenstellung in Züger, Marina, Steuerliche Missbräuche nach Inkrafttreten der 1. BVG-
+Revision, in: ASA 75 (2006/07) S. 542, Fussnote 150; Kreisschreiben der ESTV Nr. 24 vom
+30.6.1995 der Steuerperiode 1995/96, Ziff. II.5). Liegt eine Steuerumgehung vor, stellen die
+se Zinsen nicht abzugsfähige Anlagekosten dar (Art. 34 Bst. d DBG).
 
-Die Beschränkung des Abzuges privater Schuldzinsen gilt bei teilweiser Steuerpflicht sowohl
-bei der Festsetzung des steuerbaren wie des satzbestimmenden Einkommens. Dabei fallen
-für die Festsetzung des satzbestimmenden (weltweiten) Einkommens (Art. 7 Abs. 1 DBG)
-auch die Erträge aus Grundstücken im Ausland in die Berechnung des maximal zulässigen
+Zinsen für Darlehen, die eine Kapitalgesellschaft einer an ihrem Kapital massgeblich beteilig
+ten oder ihr sonstwie nahestehenden natürlichen Person zu Bedingungen gewährt, die er
+heblich von den im Geschäftsverkehr unter Dritten üblichen Bedingungen abweichen, sind
+insoweit nicht abzugsfähig, als die Zinsen das übliche Mass übersteigen (Art. 33 Abs. 1
+Bst. a DBG). Darunter fallen verdeckte Kapitaleinlagen durch übersetzte Zinssätze sowie
+Zinsen auf Darlehen, soweit diese Darlehen steuerlich als verdeckte Gewinnausschüttungen
+erfasst wurden.

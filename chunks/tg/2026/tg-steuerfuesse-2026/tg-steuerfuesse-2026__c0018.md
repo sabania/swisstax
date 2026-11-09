@@ -4,11 +4,11 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 18"
+titel: "Höchste und tiefste Steuerkraft 2025 – Warth-Weiningen 5'922 Franken; Bezirke"
 seiten: "5"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 5
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Steuerkraft · S. 5
 
 Höchste Steuerkraft weiterhin in Warth-Weiningen   Steuerkraft pro Einwohnerin oder Einwohner
     Kanton Thurgau und Bezirke, 2025, in Franken
@@ -25,3 +25,8 @@ te. Die zweithöchste Steuerkraft hatte mit 5’342 Franken neu die
 Gemeinde Gottlieben. Durch einen erneuten Anstieg von 22 %   Münchwilen   2'247
 verdrängte sie Bottighofen auf Platz 3 (4’783 Franken). Eine ho-
 he Steuerkraft von über 3’400 Franken wiesen zudem Salenstein,   Arbon   2'301
+
+Horn und Ermatingen auf.
+    Weinfelden   2'170
+Am anderen Ende der Rangliste befand sich Schönholzerswilen
+mit 1’682 Franken pro Einwohnerin oder Einwohner.   0   1000   2000

@@ -4,14 +4,24 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 59"
-seiten: "14"
+titel: "Ziff. 8.1.2 Bescheinigung bei Mitarbeiteraktien (Art. 4 MBV)"
+ziffer: "8.1.2"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1 Arbeitgeber › 8.1.2 Bescheinigung bei Mitarbeiteraktien · S. 19
 
-Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage* in der Schweiz innerhalb der Vestingperiode
+8.1.2 Bescheinigungen bei Mitarbeiteraktien (Art. 4 MBV)
+Bei Mitarbeiteraktien muss die Bescheinigung für die Steuerperiode erstellt werden, in wel-
+cher der Mitarbeitende die Mitarbeiteraktien erwirbt. Sie muss die Angaben nach Artikel 4
+MBV enthalten.
 
-    Anzahl Tage der Vestingperiode
+Wird bei nicht börsenkotierten Mitarbeiteraktien ein Verkehrswert ausgewiesen, dann muss
+auf der Bescheinigung vermerkt sein, aus welcher Transaktion sich dieser Verkehrswert ab-
+leitet. Wird demgegenüber ein Formelwert ausgewiesen, muss auf der Bescheinigung die
+angewandte Bewertungsformel angegeben werden.
 
-* allenfalls unter Berücksichtigung von Drittstaattagen
+Ausnahmsweise drängt sich bei Mitarbeiteraktien eine weitere Bescheinigung auf. Das ist
+namentlich dann der Fall, wenn sich während der Haltedauer der Aktien ein einkommens-
+steuerlich relevanter Sachverhalt ereignet. Solche Anwendungsfälle werden nachfolgend
+dargestellt.

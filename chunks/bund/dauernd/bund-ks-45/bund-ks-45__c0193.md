@@ -4,26 +4,30 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 193"
-seiten: "51"
+titel: "Ziff. 9.3.2–9.3.4 Ablieferung (Monatsmodell) sowie Abrechnung und Ablieferung (Jahresmodell)"
+ziffer: "9.3.2"
+seiten: "60"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 51
+> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.3 Abrechnung und Ablieferung · S. 60
 
-<!-- Seite 51 -->
-7.5.2 Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses
-Entschädigungen, welche dem Arbeitnehmer vom Arbeitgeber vor Antritt des Arbeitsverhält-
-nisses ausgerichtet werden (bspw. Sign-on-Bonus), fallen nach schweizerischem Recht un-
-ter die Bestimmung von Artikel 17 DBG.
-Für in der Schweiz ansässige quellensteuerpflichtige Personen ist daher die Quellensteuer
-auf der gesamten Leistung nach den Verhältnissen im Zeitpunkt der Ausrichtung der Leis-
-tung zu berechnen.
-Erhält eine im Ausland ansässige Person eine derartige Leistung, ist darauf die Quellen-
-steuer zu erheben. Die Leistung knüpft an ein in der Schweiz steuerpflichtiges Arbeitsverhält-
-nis an, weshalb die Grundsätze von Artikel 15 OECD-MA zu beachten sind. Auch in diesem
-Fall sind die Verhältnisse im Zeitpunkt der Ausrichtung der Leistung für den Quellensteuer-
-abzug massgebend.
-Es steht der quellensteuerpflichtigen Person, welche nicht einer obligatorischen nachträgli-
-chen Veranlagung unterliegt (Art. 89 DBG), offen, bis am 31. März des auf die Leistung fol-
-genden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträgliche ordent-
-liche Veranlagung zu beantragen (vgl. Ziffer 11 unten).
+9.3.2 Quellensteuerablieferung bei Kantonen mit Monatsmodell
+Die Ablieferung der durch den Schuldner der steuerbaren Leistung abgezogenen Quellen-
+steuer an die zuständige kantonale Steuerbehörde hat aufgrund der Rechnungsstellung die-
+ses Kantons zu erfolgen.
+
+9.3.3 Quellensteuerabrechnung bei Kantonen mit Jahresmodell
+Die Quellensteuerabrechnung bei Kantonen mit Jahresmodell erfolgt nach den gleichen
+Grundsätzen wie bei Kantonen mit Monatsmodell (vgl. Ziffer 9.3.1 oben), wobei die Abrech-
+nung immer innert 30 Tagen bei der zuständigen Steuerbehörde eingereicht werden muss.
+Ergänzend dazu kann es notwendig sein, dass der Schuldner der steuerbaren Leistung am
+Ende des Kalenderjahres bzw. am Ende des Arbeitsverhältnisses die endgültige Steuerbe-
+lastung der quellensteuerpflichtigen Person unter Berücksichtigung des gesamten Jahresein-
+kommens sowie allfälliger Änderungen der beruflichen oder familiären Situation neu berech-
+net (vgl. Ziffer 7.2 oben).
+
+
+9.3.4 Quellensteuerablieferung bei Kantonen mit Jahresmodell
+Die Ablieferung der durch den Schuldner der steuerbaren Leistung abgezogenen Quellen-
+steuer an die zuständige kantonale Steuerbehörde hat innerhalb von 30 Tagen seit Fälligkeit
+der Leistung zu erfolgen.

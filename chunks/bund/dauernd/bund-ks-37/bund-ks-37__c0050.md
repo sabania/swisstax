@@ -4,22 +4,21 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 50"
-seiten: "12"
+titel: "Ziff. 7.3.3.2 Arbeitgeberwechsel ins Ausland – anteilsmässige Quellenbesteuerung (Teil 2/2)"
+ziffer: "7.3.3.2"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3.3 Export › 7.3.3.2 Ohne Ansässigkeitswechsel · S. 16
 
-<!-- Seite 12 -->
-Als Arbeitstage im Sinne von Artikel 7 und 8 MBV gilt der Zeitraum, in welchem zwischen ei-
-nem Mitarbeitenden und seinem Arbeitgeber ein Arbeitsvertragsverhältnis besteht. Die in
-diese Zeitspanne fallenden Ferien, Wochenenden, gesetzlichen Feiertage und sonstigen Ab-
-wesenheiten (Reisetage, Krankheit, Militärdienst, Mutterschaftsurlaub etc.) werden dabei
-nicht in Abzug gebracht.
+Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage* Schweiz innerhalb der Vestingperiode
 
-Generell vorbehalten bleiben Bestimmungen in DBA oder weiteren Abkommen mit anderen
-Staaten, die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa Art.
-15a DBA Deutschland über die Besteuerung von Grenzgängern).
+    Anzahl Tage der Vestingperiode
 
- 7.2 Quellenbesteuerung von Mitarbeiteraktien und freien börsenkotierten
-    Mitarbeiteroptionen
+* allenfalls unter Berücksichtigung von Drittstaattagen
+
+Generell vorbehalten bleiben Bestimmungen in den DBA oder weiteren Abkommen mit ande-
+ren Staaten, die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa
+Art. 15a DBA Deutschland über die Besteuerung von Grenzgängern).
+
+Zur Veranschaulichung dient das Fallbeispiel 5 im Anhang II dieses Kreisschreibens.

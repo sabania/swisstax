@@ -4,29 +4,26 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 8"
-seiten: "4"
+titel: "Ziff. 19 Grenzfälle landwirtschaftlich beworbenes Land"
+ziffer: "19"
+seiten: "4-5"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 4
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › III. Grenzfälle · S. 4–5
 
-<!-- Seite 4 -->
-    Bauland für industrielle und gewerbliche Bauten
-15   Es ist gemäss Ziff. 14 vorzugehen.
+    III. Grenzfälle
 
-    4. Kiesland
+19   Ist fraglich, ob eine Landparzelle als landwirtschaftlich beworben
+    betrachtet werden kann, z.B. bei Restgrundstücken aus dem früheren
+    Landwirtschaftsbetrieb des Pflichtigen, bei über einen angemessenen
+    Umschwung von Wohnhäusern, insbesondere von Einfamilienhäusern
+    und Ferienhäusern, hinausgehenden Landflächen grösseren Ausmasses,
 
-16   Kiesland, das ausgebeutet wird oder zur unmittelbaren Ausbeutung
-    erworben wurde, wird bis zur Wiederherstellung der landwirtschaft-
-    lichen Nutzung zum Verkehrswert besteuert. Als Verkehrswert gilt der
-    Preis, der im betreffenden Gebiet für unausgebeutetes bzw. teilweise
-    oder ganz ausgebeutetes Kiesland bezahlt wird.
-
-    5. Anderes unüberbautes, nicht landwirtschaftlich beworbenes Land
-
-17   Anderes unüberbautes, auf längere Sicht nicht landwirtschaftlich
-    beworbenes Land, wie Lagerplätze, Campingplätze usw., wird zum
-    Verkehrswert besteuert. Soweit das Land in der Bauzone liegt, sind
-    Ziff. 7 ff. sinngemäss anwendbar.
-
-    6. Besondere Verhältnisse
+Parkanlagen, ausgeschiedenen Gartenparzellen (Pünten) und land-
+wirtschaftlichen Charakter aufweisenden Landreserven von Industrie-
+und Gewerbebetrieben, so wird auf Begehren des Pflichtigen die Bewer-
+tung zum Ertragswert vorgenommen, sofern dieser nach Orientierung
+über die Vermögensnachbesteuerung durch unterschriftliche Protokoll-
+erklärung die Bewertung und für den Fall der Veräusserung, Über-
+bauung oder Belastung mit Eigentumsbeschränkungen auch die Ver-
+mögensnachbesteuerung anerkennt.

@@ -4,14 +4,22 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 23"
-seiten: "7"
+titel: "Ziff. 4.2.5 Transponierung (Art. 20a Abs. 1 Bst. b DBG) (Teil 3/4)"
+ziffer: "4.2.5"
+seiten: "11-13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.2 Spezialfälle · S. 11–13
 
-Die laufenden und thesaurierten Gewinne, verdeckte Kapitaleinlagen sowie offene Kapital-
-einlagen, welche nicht direkt von den Beteiligungsinhabern stammen, gelten steuerlich als
-übrige Reserven. Gleiches gilt für offene Kapitaleinlagen, die in der Handelsbilanz nicht ge-
-sondert ausgewiesen wurden. Eine Umqualifikation von übrigen Reserven in KER bzw. Aus-
-land-KER ist unzulässig und wird steuerlich nicht anerkannt.
+       Wird der Mehrwert dem Nominalkapital und/oder den KER bzw. Ausland-KER gutge-
+    schrieben, ist beim Einleger die Zunahme des Nominalkapitals und der KER bzw.
+    Ausland-KER als Ertrag aus beweglichem Vermögen nach Artikel 20a Absatz 1
+    Buchstabe b DBG in Verbindung mit Artikel 20 Absatz 3 DBG steuerbar. Betreffend
+    die Berechnung des steuerbaren Ertrages siehe Beispiele im Anhang dieses Kreis-
+    schreibens.
+
+       Wird der Mehrwert den übrigen Reserven gutgeschrieben, bleibt die latente Aus-
+    schüttungslast erhalten und die Übertragung ist steuerneutral.
+
+Für sämtliche Beteiligungsübertragungen vor dem 1. Januar 1997 qualifiziert der Ausweis
+des gesamten über dem Nennwert liegenden Mehrwertes als übrige Reserve.

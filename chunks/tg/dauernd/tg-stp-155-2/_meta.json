@@ -67,10 +67,10 @@
 },
 {
 "id": "tg-stp-155-2__c0005",
-"titel": "2. Fristerstreckungsgesuche juristische Personen",
+"titel": "3. Entscheid",
 "pfad": [
 "StP 155 Nr. 2: Fristerstreckung zur Einreichung der Steuererklärung",
-"2. Fristerstreckungsgesuche juristische Personen"
+"3. Entscheid"
 ],
 "seiten": [],
 "artikel": null,
@@ -84,10 +84,10 @@
 },
 {
 "id": "tg-stp-155-2__c0006",
-"titel": "3. Entscheid",
+"titel": "4. Fristversäumnis",
 "pfad": [
 "StP 155 Nr. 2: Fristerstreckung zur Einreichung der Steuererklärung",
-"3. Entscheid"
+"4. Fristversäumnis"
 ],
 "seiten": [],
 "artikel": null,
@@ -101,10 +101,11 @@
 },
 {
 "id": "tg-stp-155-2__c0007",
-"titel": "4. Fristversäumnis",
+"titel": "Ältere Versionen",
 "pfad": [
 "StP 155 Nr. 2: Fristerstreckung zur Einreichung der Steuererklärung",
-"4. Fristversäumnis"
+"4. Fristversäumnis",
+"Ältere Versionen"
 ],
 "seiten": [],
 "artikel": null,
@@ -132,24 +133,6 @@
 "zusammenfassung": null,
 "chunking": "überschriften",
 "vorher": "tg-stp-155-2__c0007",
-"nachher": "tg-stp-155-2__c0009"
-},
-{
-"id": "tg-stp-155-2__c0009",
-"titel": "Ältere Versionen",
-"pfad": [
-"StP 155 Nr. 2: Fristerstreckung zur Einreichung der Steuererklärung",
-"4. Fristversäumnis",
-"Ältere Versionen"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "tg-stp-155-2__c0008",
 "nachher": null
 }
 ]

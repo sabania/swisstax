@@ -4,17 +4,33 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 1 Neue Bestimmungen Art. 20 Abs. 8 DBG und Art. 5 Abs. 1septies VStG (Kapitalband)"
+ziffer: "1"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 1 Gegenstand · S. 4–5
 
-3.1.   Reserven aus Kapitaleinlagen........................................................................ 7
-3.2.   Übrige Reserven................................................................................................. 7
-4.   Ausschüttungen / Rückzahlungen allgemein ............................................ 8
-4.1.   Grundsätze .......................................................................................................... 8
-4.2.   Spezialfälle.........................................................................................................11
-4.2.1.   Gratisaktien und Gratisnennwerterhöhungen................................................11
-4.2.2.   Direkte Teilliquidation ........................................................................................11
-4.2.3.   Rückkauf eigener Beteiligungsrechte .............................................................11
+Neu wurden damit einhergehend folgende Gesetzesbestimmungen in DBG und VStG aufge-
+nommen:
+
+DBG
+
+Art. 20
+[…]
+8
+ Absatz 3 gilt für Einlagen und Aufgelder, die während eines Kapitalbands nach den Artikeln
+653s ff. des Obligationenrechts (OR) geleistet werden, nur soweit sie die Rückzahlungen von
+Reserven im Rahmen dieses Kapitalbands übersteigen.
+
+
+VStG
+
+Art. 5
+[…]
+
+    Absatz 1bis gilt für Einlagen und Aufgelder, die während eines Kapitalbands nach den
+1septies
+
+Artikeln 653s ff. des OR geleistet werden, nur soweit sie die Rückzahlungen von Reserven
+im Rahmen dieses Kapitalbands übersteigen.

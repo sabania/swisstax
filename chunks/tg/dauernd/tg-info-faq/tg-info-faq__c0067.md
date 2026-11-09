@@ -9,15 +9,10 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
-    Unabhängig davon, ob ein Revisionsgrund vorliegt, ist eine Revision in jedem Fall ausgeschlossen, wenn die steuerpflichtige Person als Revisionsgrund vorbringt, was bei der ihr zumutbaren Sorgfalt bereits im ordentlichen Verfahren hätte geltend gemacht werden können. So qualifiziert beispielsweise die Falschdeklaration der steuerpflichtigen Person als Revisionsausschlussgrund. Ebenfalls ausgeschlossen ist eine Revision, wenn ein Umstand angeführt wird, der im Anschluss an einen rechtsmittelfähigen Entscheid mittels Rechtsmittel hätte vorgebracht werden können.
+    Gegen den Veranlagungsentscheid können Sie innert 30 Tagen nach Zustellung bei der Veranlagungsbehörde schriftlich Einsprache erheben. Sie müssen im Einspracheschreiben noch keine Begründung aufführen, es sei denn, es handelt sich um eine Ermessensveranlagung.
 
-    Detaillierte Ausführungen zum Revisionsverfahren finden Sie in der Thurgauer Steuerpraxis in Weisung:
+    Das Einspracheverfahren ist in der Regel mündlich und kostenlos. Auf Antrag der steuerpflichtigen Person oder der Veranlagungsbehörde kann es schriftlich durchgeführt werden. Im Einspracheverfahren können alle Sachverhalte der Steuerveranlagung nochmals aufgegriffen werden. Dieses Recht steht sowohl der steuerpflichtige Person als auch der Steuerbehörde zu.
 
-    - [StP 179a Nr. 1 "Revisionsverfahren"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-179a-nr-1-revisionsverfahren&version=latest)
+    Nach Anhörung der steuerpflichtigen Person fällt die Steuerbehörde einen Entscheid, welcher eine Begründung sowie Rechtsmittel enthält. Gegen Einspracheentscheide kann innert 30 Tagen nach der Zustellung Rekurs erhoben werden.
 
-Einsprachverfahren
-:   ### Frage:
-
-    Ich bin mit einigen Punkten der Steuerveranlagung nicht einverstanden. Was kann ich tun?
-
-    ### Antwort:
+    Detaillierte Informationen finden Sie in der Thurgauer Steuerpraxis unter:

@@ -4,23 +4,18 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 25"
-seiten: "6"
+titel: "Ziff. 6.1 Besteuerung der Kapitalleistungen (Fünftel-Tarif, Verrechnungssteuer)"
+ziffer: "6.1"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 6
+> Bund · Steuerjahr 2026 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.1 Grundsätze · S. 9
 
-   •   Im Jahr, in dem der Einkauf erfolgt (Einkaufsjahr), ist die steuerpflichtige Person zur
-    Beitragsleistung in die gebundene Selbstvorsorge berechtigt und hat den für sie zu-
-    lässigen Maximalbeitrag an die Säule 3a geleistet (vgl. Ziffer 5.4 und 5.5).
-   •   In den zehn dem Einkauf vorangehenden Jahren hat die steuerpflichtige Person nicht
-    alle für sie maximal zulässigen Beiträge einbezahlt, wobei dies erst für Beitragslücken
-    ab dem Steuerjahr 2025 gilt. Soweit die steuerpflichtige Person in früheren Jahren
-    nicht die maximal zulässigen Beiträge einbezahlt hat, kann sie hierfür keinen Einkauf
-    vornehmen.
-   •   In den von den Einkäufen betroffenen Jahren war die steuerpflichtige Person zur
-    Leistung von Säule 3a-Beiträgen berechtigt (vgl. Ziffer 3).
-   •   Die steuerpflichtige Person hat noch keine Altersleistung aus der Säule 3a bezogen
-    (vgl. Ziffer 6.1,); sämtliche Bezüge, welche ab fünf Jahren vor Erreichen des Refe-
-    renzalters erfolgen, werden als Bezug einer Altersleistung qualifiziert (vgl. Ziffer
-    6.2.a).
+Kapitalleistungen aus anerkannten Formen der gebundenen Selbstvorsorge werden gemäss
+Artikel 22 Absatz 1 in Verbindung mit Artikel 38 DBG gesondert besteuert. Sie unterliegen
+einer vollen Jahressteuer, die zu einem Fünftel der Tarife nach Artikel 36 DBG berechnet
+wird. Bei Auflösung des Vorsorgeverhältnisses entsteht die Verrechnungssteuerforderung,
+welche durch Entrichtung oder Meldung erfüllt werden kann (vgl. Art. 7, 11, 12 und 19 des
+Bundesgesetzes vom 13. Oktober 1965 über die Verrechnungssteuer [VStG; SR 642.21]).
+Die Erträge der Guthaben unterliegen fortan der Verrechnungssteuer nach Artikel 4 Absatz 1
+Buchstabe d VStG.

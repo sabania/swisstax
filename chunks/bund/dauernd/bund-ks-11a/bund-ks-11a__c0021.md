@@ -4,19 +4,17 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 21"
-seiten: "5"
+titel: "Ziff. 4.2 Begriff der behinderungsbedingten Kosten (Teil 3/3)"
+ziffer: "4.2"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.2 Begriff · S. 7–8
 
-3.2.7   Pflegekosten in Alters- und Pflegeheimen
-Altersgebrechen gelten erst ab einem bestimmten Grad als Behinderung (vgl. Ziff. 4.1 d). Bei
-Bewohnerinnen und Bewohnern von Alters- und Pflegeheimen mit einem Pflegebedarf bis 60
-Minuten pro Tag (vgl. Art. 7a der Verordnung des EDI vom 29. September 1995 über Leistun
-gen in der obligatorischen Krankenpflegeversicherung [KLV; SR 832.112.31) wird davon ausge
-gangen, dass sie ohne medizinische Indikation betreffend Pflegebedarf aufgrund einer Behinde
-rung im Heim wohnen. In diesem Fall stellen die Heimkosten grundsätzlich Lebenshaltungskos
-ten dar und sind nicht abzugsfähig. Separat in Rechnung gestellte Pflegekosten sind jedoch als
-Krankheitskosten abziehbar. Betreffend Pflegeheimkosten bei Behinderung wird auf Ziffer 4.3.4
-hiernach verwiesen.
+1 Ein Pflegeaufwand von täglich mindestens 61 Minuten wird jeweils mit den Pflegestufen 4-12 erreicht (vgl. Messung
+
+  des Pflegebedarfs in Artikel 7a der Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversi
+  cherung [Krankenpflege-Leistungsverordnung, KLV; SR 832.112.31]). Diese Pflegestufen sind in den Pflegebe
+  darfsermittlungsinstrumenten BESA (= BewohnerInnen-Einstufungs- und Abrechnungssystem), RAI-NH Schweiz (=
+  Resident Assessment Instrument Nursing Home), interRAI LTCF CH (= Long-Term Care Facilities Schweiz) sowie
+  PLAISIR abgebildet.

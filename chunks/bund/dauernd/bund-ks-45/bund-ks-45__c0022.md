@@ -4,14 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 22"
-seiten: "5"
+titel: "Ziff. 3.1.2 Arbeitnehmer mit Ansässigkeit im Ausland (Teil 1/2)"
+ziffer: "3.1.2"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.1 Grundsätze · S. 9
 
-ist die Auslegung der Verhältnisse nach schweizerischem Recht entscheidend. Die vorste-
-henden Kriterien finden auch Anwendung auf im Ausland geschlossene Vertragsverhältnisse
-unabhängig davon, wie diese nach dem jeweiligen ausländischen Recht beurteilt werden.
-Für Erläuterungen zu den quellensteuerpflichtigen Arbeitnehmern wird auf Ziffer 3.1 unten
-verwiesen.
+3.1.2 Arbeitnehmer mit Ansässigkeit im Ausland
+Unabhängig von der Staatsangehörigkeit oder der aufenthaltsrechtlichen Bewilligung ist ein
+Arbeitnehmer (Grenzgänger, Wochen- oder Kurzaufenthalter) mit Ansässigkeit im Ausland
+für seine Lohn- und Ersatzeinkünfte, die ihm von einem Leistungsschuldner mit Wohnsitz,
+Sitz, tatsächlicher Verwaltung, Betriebsstätte oder fester Einrichtung in der Schweiz ausge-
+richtet werden, quellensteuerpflichtig (vgl. Art. 91 Abs. 1 DBG). Das bedeutet, dass ein Ar-
+beitnehmer mit Ansässigkeit im Ausland auch bei Besitz der Schweizer Staatsangehörigkeit
+oder der Niederlassungsbewilligung der Quellensteuerpflicht unterstellt ist. Vorbehalten blei-
+ben anderslautende Bestimmungen im massgebenden DBA.
+Arbeitnehmer ohne Ansässigkeit in der Schweiz, die für Arbeiten im internationalen Verkehr
+an Bord eines Schiffes, eines Luftfahrzeuges oder bei einem Transport auf der Strasse Lohn

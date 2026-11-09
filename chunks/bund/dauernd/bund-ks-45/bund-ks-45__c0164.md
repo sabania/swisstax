@@ -4,20 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 164"
-seiten: "43"
+titel: "Ziff. 7.5.3 Lohnfortzahlung bei Freistellung (Ansässigkeit im Ausland)"
+ziffer: "7.5.3"
+seiten: "51-52"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 43
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.3 Leistungen bei/nach Beendigung · S. 51–52
 
-Mit diesen pauschalen Ermittlungen des satzbestimmenden Einkommens werden sowohl die
-Fälle mit mehreren Erwerbstätigkeiten als auch diejenigen mit Ein- und Austritten während
-des Jahres abgedeckt.
-Der Quellensteuerabzug ist jeweils im Zeitpunkt der Lohnzahlung vorzunehmen. Ferien- und
-Feiertagszuschläge sind im Zeitpunkt der Abrechnung und Auszahlung des Stunden- oder
-Tageslohns steuerpflichtig. Die Ablieferung der durch den Schuldner der steuerbaren Leis-
-tung bezogenen Quellensteuern erfolgt jedoch monatlich (vgl. Ziffern 9.3.3 und 9.3.4 unten).
-Ist der Arbeitnehmer mit dem bei ihm vorgenommenen Quellensteuerabzug nicht einverstan-
-den, kann er bei der zuständigen Steuerbehörde bis zum 31. März des auf die Fälligkeit der
+Lohnfortzahlungen an einen im Ausland ansässigen Arbeitnehmer, der nach erfolgter Kündi-
+gung freigestellt wird, sind – da diese auf einem weiterhin gültigen Arbeitsvertrag sowie einer
+in der Schweiz ausgeübten Tätigkeit beruhen – quellensteuerpflichtig (vgl. Art. 91 DBG). Die
+
+Quellenbesteuerung hat dabei auf einem reduzierten Bruttolohn (unter Progressionsvorbe-
+halt) zu erfolgen, sofern die Arbeit ohne die Freistellung mutmasslich im Ausland geleistet
+worden wäre. Wäre die Arbeit mutmasslich als Grenzgänger im Sinne von Artikel 15a des
+DBA mit Deutschland geleistet worden sind die entsprechenden Tarife anwendbar.
+Es steht dem (ehemaligen) Arbeitnehmer offen, bis am 31. März des auf die Fälligkeit der
 Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträg-
-liche ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten).
+lich ordentliche Veranlagung zu verlangen (vgl. Ziffer 11 unten).

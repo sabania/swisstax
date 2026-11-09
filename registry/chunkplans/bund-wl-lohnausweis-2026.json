@@ -1,0 +1,828 @@
+{
+ "id": "bund-wl-lohnausweis-2026",
+ "hinweise": [
+  "Seite 8-9: Fussnote zu Rz 9 steht mitten im Text (Seite 8) und Randziffer-Nummern stehen teils am Zeilenende oder separat (S. 7, 15).",
+  "Seite 22-25: Anhang mit zweispaltiger Adresstabelle, Spalten vermischt (als skip markiert).",
+  "Wortumbrüche mit Trennstrichen ohne Bindestrich (z. B. «Mitar beitende») durch pdftotext."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "skip": true,
+   "titel": "Deckblatt und Formularhinweis"
+  },
+  {
+   "start": 54,
+   "titel": "Vorwort zur Wegleitung Lohnausweis",
+   "pfad": [
+    "Vorwort"
+   ],
+   "stichworte": [
+    "Lohnausweis",
+    "SSK",
+    "Wegleitung",
+    "FAQ",
+    "Änderungen Randziffern"
+   ],
+   "zusammenfassung": "Die Wegleitung wurde von der erweiterten Arbeitsgruppe Lohnausweis der SSK erstellt und wird jährlich überarbeitet; Änderungen sind mit schwarzem Balken markiert."
+  },
+  {
+   "start": 75,
+   "skip": true,
+   "titel": "Inhaltsverzeichnis"
+  },
+  {
+   "start": 99,
+   "titel": "Allgemeines – Abkürzungen, FAQ, eLohnausweis",
+   "pfad": [
+    "Allgemeines"
+   ],
+   "stichworte": [
+    "Abkürzungen",
+    "FAQ",
+    "eLohnausweis",
+    "SSK"
+   ],
+   "zusammenfassung": "Abkürzungsverzeichnis sowie Hinweise auf FAQ und eLohnausweis SSK."
+  },
+  {
+   "start": 136,
+   "titel": "Rz 1–3 Vorinformationen – Formular 11, Pflicht zur Ausstellung",
+   "pfad": [
+    "Vorinformationen"
+   ],
+   "stichworte": [
+    "Formular 11",
+    "Lohnausweis Pflicht",
+    "Rentenbescheinigung",
+    "geldwerte Vorteile",
+    "Arbeitgeber"
+   ],
+   "zusammenfassung": "Das Formular 11 dient als Lohnausweis, VR-Bescheinigung, Rentenbescheinigung BVG und ALV-Bescheinigung; jeder Arbeitgeber muss jedem Arbeitnehmenden einen Lohnausweis ausstellen.",
+   "ziffer": "1–3",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 170,
+   "titel": "Rz 4–5 Buchstabe A/B – Lohnausweis oder Rentenbescheinigung",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Buchstabe A/B"
+   ],
+   "stichworte": [
+    "Lohnausweis",
+    "Rentenbescheinigung",
+    "Verwaltungsrat",
+    "Arbeitslosenentschädigung",
+    "Formular 565",
+    "Formular 563"
+   ],
+   "zusammenfassung": "Buchstabe A für Leistungen aus Arbeitsverhältnis inkl. VR und ALV-Ersatzeinkommen, Buchstabe B für Renten; Kapitalleistungen nur mit Formular 563.",
+   "ziffer": "4–5",
+   "positionen": [
+    "einkommen.vorsorge.renten",
+    "einkommen.ersatz.taggelder"
+   ]
+  },
+  {
+   "start": 195,
+   "titel": "Rz 6–8 Buchstaben C–E – AHV-Nummer, Kalenderjahr, Lohnperiode",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Buchstaben C–E"
+   ],
+   "stichworte": [
+    "AHV-Nummer",
+    "Geburtsdatum",
+    "Kalenderjahr",
+    "Lohnperiode",
+    "mehrere Lohnausweise",
+    "Eintritt Austritt"
+   ],
+   "zusammenfassung": "13-stellige AHV-Nummer, Kalenderjahr und genaue Ein-/Austrittsdaten sind anzugeben; mehrere Lohnausweise werden in Ziffer 15 vermerkt.",
+   "ziffer": "6–8",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 236,
+   "titel": "Rz 9 Buchstabe F – Unentgeltliche Beförderung Wohn-/Arbeitsort",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Buchstabe F"
+   ],
+   "stichworte": [
+    "Feld F",
+    "Geschäftsfahrzeug",
+    "Generalabonnement",
+    "GA",
+    "Arbeitsweg",
+    "Pendlerabzug",
+    "Autopauschale"
+   ],
+   "zusammenfassung": "Feld F ist anzukreuzen, wenn dem Arbeitnehmer keine Arbeitswegkosten entstehen, z. B. bei Geschäftsfahrzeug (mindestens 75 Rappen pro km) oder geschäftlich notwendigem GA; Halbtaxabo muss nicht bescheinigt werden.",
+   "ziffer": "9",
+   "positionen": [
+    "abzug.berufskosten.fahrkosten"
+   ]
+  },
+  {
+   "start": 248,
+   "titel": "Rz 9 Buchstabe F (Teil 2) – Autopauschale, Generalabonnement, Halbtax",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Buchstabe F"
+   ],
+   "stichworte": [
+    "Autopauschale",
+    "Generalabonnement",
+    "GA Marktwert",
+    "Halbtaxabo",
+    "Feld F nicht ankreuzen"
+   ],
+   "zusammenfassung": "Autopauschalen und geschäftlich notwendige GA begründen Feld F; ohne geschäftliche Notwendigkeit ist das GA zum Marktwert in Ziffer 2.3 zu deklarieren; Halbtaxabo muss nicht bescheinigt werden.",
+   "ziffer": "9",
+   "positionen": [
+    "abzug.berufskosten.fahrkosten"
+   ]
+  },
+  {
+   "start": 260,
+   "titel": "Rz 10 Buchstabe G – Kantinenverpflegung / Lunch-Checks",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Buchstabe G"
+   ],
+   "stichworte": [
+    "Feld G",
+    "Lunch-Checks",
+    "Kantine",
+    "Personalrestaurant",
+    "Mittagessen",
+    "Verpflegung"
+   ],
+   "zusammenfassung": "Feld G ist bei Lunch-Checks, verbilligter Kantine oder bei 40–60 % auswärtiger Tätigkeit anzukreuzen; bei mehr als 60 % Vermerk «Mittagessen durch Arbeitgeber bezahlt» in Ziffer 15.",
+   "ziffer": "10",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 287,
+   "titel": "Rz 11–12 Buchstaben H–I – Name, Adresse, Unterschrift",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Buchstaben H–I"
+   ],
+   "stichworte": [
+    "Adresse",
+    "Unterschrift",
+    "Lohnausweis ausfüllen",
+    "Ort Datum"
+   ],
+   "zusammenfassung": "Aktuelle Wohnadresse des Arbeitnehmers; Ort, Datum, Arbeitgeber und Kontaktperson angeben, bei vollautomatisierter Erstellung keine Unterschrift nötig.",
+   "ziffer": "11–12"
+  },
+  {
+   "start": 305,
+   "titel": "Rz 13–16 Ziffer 1 Lohn – ordentliches Salär, Taggelder, Zulagen, Provisionen",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 1 Lohn"
+   ],
+   "stichworte": [
+    "Lohn",
+    "Salär",
+    "Zulagen",
+    "Kinderzulagen",
+    "Provisionen",
+    "Taggelder",
+    "13. Monatslohn"
+   ],
+   "zusammenfassung": "In Ziffer 1 sind sämtliche Leistungen des Arbeitgebers anzugeben, soweit nicht in Ziffer 2–7 aufgeführt, inkl. Taggelder, Zulagen und Provisionen.",
+   "ziffer": "1 / 13–16",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 323,
+   "titel": "Rz 17–18 Ziffer 1 – Arbeitswegvergütungen, Verpflegungsbeiträge, Lunch-Checks",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 1 Lohn"
+   ],
+   "stichworte": [
+    "Arbeitsweg Vergütung",
+    "Mittagszulage",
+    "Lunch-Checks",
+    "CHF 180 pro Monat",
+    "Verpflegungsbeitrag"
+   ],
+   "zusammenfassung": "Lunch-Checks sind bis zur AHV-Limite (Stand 1.1.2022: CHF 180 pro Monat) mit Kreuz in Feld G zu deklarieren, darüber hinaus zum Lohn zu addieren.",
+   "ziffer": "1 / 17–18",
+   "positionen": [
+    "abzug.berufskosten.fahrkosten",
+    "abzug.berufskosten.verpflegung"
+   ]
+  },
+  {
+   "start": 334,
+   "titel": "Rz 19 Ziffer 2 Gehaltsnebenleistungen – Bewertung zum Marktwert",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 2 Gehaltsnebenleistungen"
+   ],
+   "stichworte": [
+    "Fringe Benefits",
+    "Gehaltsnebenleistungen",
+    "Marktwert",
+    "Verkehrswert"
+   ],
+   "zusammenfassung": "Gehaltsnebenleistungen werden grundsätzlich zum Marktwert bewertet; bei Teilzahlung durch den Arbeitnehmer wird nur der Differenzbetrag eingetragen.",
+   "ziffer": "2 / 19",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 357,
+   "titel": "Rz 20 Ziffer 2.1 Verpflegung und Unterkunft",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 2.1"
+   ],
+   "stichworte": [
+    "Verpflegung",
+    "Unterkunft",
+    "Zimmer",
+    "Merkblatt N2",
+    "Wohnung Marktwert"
+   ],
+   "zusammenfassung": "Unentgeltliche Verpflegung und Unterkunft sind nach Merkblatt N2 zu bewerten; bei Wohnung gilt der Marktwert in Ziffer 2.3.",
+   "ziffer": "2.1 / 20",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 371,
+   "titel": "Rz 21 Ziffer 2.2 Privatanteil Geschäftsfahrzeug – Pauschale 0,9 % pro Monat",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 2.2 Privatanteil Geschäftsfahrzeug"
+   ],
+   "stichworte": [
+    "Geschäftsfahrzeug",
+    "Privatanteil",
+    "Firmenwagen",
+    "0,9 %",
+    "Leasing",
+    "Mietfahrzeug"
+   ],
+   "zusammenfassung": "Privatanteil pro Monat 0,9 % des Kaufpreises (exkl. MWST), mindestens CHF 150 pro Monat bei Kaufpreis unter CHF 16'667; Beispiel Kaufpreis CHF 43'000 ergibt CHF 4'644 (12 x CHF 387).",
+   "ziffer": "2.2 / 21",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 392,
+   "titel": "Rz 22–25 Ziffer 2.2 – Kostenübernahme, effektive Erfassung, Feld F",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 2.2 Privatanteil Geschäftsfahrzeug"
+   ],
+   "stichworte": [
+    "Bordbuch",
+    "Privatkilometer",
+    "75 Rappen",
+    "Firmenwagen Kosten",
+    "Aufrechnung",
+    "Feld F"
+   ],
+   "zusammenfassung": "Bei effektiver Erfassung mit Bordbuch werden Privatkilometer (inkl. Arbeitsweg) mit dem Kilometeransatz multipliziert (8'500 km x 75 Rappen = CHF 6'375); bei erheblich eingeschränktem Privatgebrauch keine Aufrechnung.",
+   "ziffer": "2.2 / 22–25",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 422,
+   "titel": "Rz 26 Ziffer 2.3 Andere Gehaltsnebenleistungen",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 2.3"
+   ],
+   "stichworte": [
+    "Mietwohnung",
+    "Expatriates",
+    "ExpaV",
+    "Naturalgeschenke",
+    "Personalvergünstigung"
+   ],
+   "zusammenfassung": "Andere vom Arbeitgeber bewertbare Nebenleistungen sind mit Art und Marktwert einzutragen; bei unentgeltlicher Wohnung der ortsübliche Mietzins.",
+   "ziffer": "2.3 / 26",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 441,
+   "titel": "Rz 27 Ziffer 3 Unregelmässige Leistungen – Bonus, Umzugsentschädigung",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 3"
+   ],
+   "stichworte": [
+    "Bonus",
+    "Gratifikation",
+    "Dienstaltersgeschenk",
+    "Treueprämie",
+    "Umzugsentschädigung",
+    "Abgangsentschädigung"
+   ],
+   "zusammenfassung": "Unregelmässige Leistungen wie Boni, Antritts-/Austrittsentschädigungen, Treueprämien und Umzugsentschädigungen gehören in Ziffer 3; ein 13./14. Monatslohn gehört in Ziffer 1.",
+   "ziffer": "3 / 27",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 477,
+   "titel": "Rz 28 Ziffer 4 Kapitalleistungen",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 4"
+   ],
+   "stichworte": [
+    "Kapitalleistung",
+    "Abgangsentschädigung Vorsorgecharakter",
+    "Lohnnachzahlung",
+    "Formular 563"
+   ],
+   "zusammenfassung": "Kapitalleistungen mit Vorsorgecharakter und Lohnnachzahlungen stehen in Ziffer 4; Kapitalleistungen von Vorsorgeeinrichtungen nur mit Formular 563.",
+   "ziffer": "4 / 28",
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge"
+   ]
+  },
+  {
+   "start": 493,
+   "titel": "Rz 29 Ziffer 5 Beteiligungsrechte gemäss Beiblatt",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 5"
+   ],
+   "stichworte": [
+    "Mitarbeiterbeteiligung",
+    "Aktien",
+    "Optionen",
+    "Beiblatt",
+    "KS 37",
+    "MBV"
+   ],
+   "zusammenfassung": "Erwerbseinkommen aus Mitarbeiterbeteiligungen (Differenz Verkehrswert und Erwerbspreis) ist in Ziffer 5 mit Beiblatt auszuweisen.",
+   "ziffer": "5 / 29",
+   "positionen": [
+    "einkommen.uebrige"
+   ]
+  },
+  {
+   "start": 527,
+   "titel": "Rz 30 Ziffer 6 Verwaltungsratsentschädigungen",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 6"
+   ],
+   "stichworte": [
+    "Verwaltungsrat",
+    "VR-Honorar",
+    "Sitzungsgelder",
+    "Tantiemen",
+    "Stiftungsrat"
+   ],
+   "zusammenfassung": "Ziffer 6 enthält VR-Entschädigungen, Sitzungsgelder und Tantiemen als Lohn für unselbstständige Tätigkeit.",
+   "ziffer": "6 / 30",
+   "positionen": [
+    "einkommen.unselbstaendig.nebenerwerb",
+    "einkommen.unselbstaendig.vr_honorare"
+   ]
+  },
+  {
+   "start": 540,
+   "titel": "Rz 31–35 Ziffer 7 Andere Leistungen – Trinkgelder, Taggelder, ALV, EO",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 7 Andere Leistungen"
+   ],
+   "stichworte": [
+    "Trinkgelder",
+    "Taggelder",
+    "Arbeitslosenversicherung",
+    "Kurzarbeit",
+    "EO",
+    "Mutterschaft"
+   ],
+   "zusammenfassung": "Ziffer 7 erfasst weitere Leistungen: Trinkgelder (nur bei wesentlichem Lohnteil), Taggelder, ALV- und EO-Leistungen via Arbeitgeber.",
+   "ziffer": "7 / 31–35",
+   "positionen": [
+    "einkommen.ersatz.taggelder",
+    "einkommen.uebrige"
+   ]
+  },
+  {
+   "start": 557,
+   "titel": "Rz 36–37 Ziffer 7 – Übernommene PK-Beiträge, Versicherungsbeiträge Säule 3b",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 7 Andere Leistungen"
+   ],
+   "stichworte": [
+    "Pensionskasse Arbeitgeberübernahme",
+    "Krankenkasse Arbeitgeber",
+    "Säule 3b",
+    "Kaderversicherung",
+    "UVG"
+   ],
+   "zusammenfassung": "Vom Arbeitgeber übernommene Arbeitnehmerbeiträge an die 2. Säule und Beiträge an Krankenkassen/Säule 3b sind zu deklarieren; nicht UVG und Kollektivtaggeld.",
+   "ziffer": "7 / 36–37",
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf",
+    "abzug.versicherungspraemien"
+   ]
+  },
+  {
+   "start": 569,
+   "titel": "Rz 38 Ziffer 7 – Arbeitgeberbeiträge an Säule 3a",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 7 Andere Leistungen"
+   ],
+   "stichworte": [
+    "Säule 3a",
+    "gebundene Selbstvorsorge",
+    "Formular 21 EDP",
+    "Bankstiftung"
+   ],
+   "zusammenfassung": "Vom Arbeitgeber erbrachte Säule-3a-Beiträge sind zu deklarieren, dürfen im Lohnausweis nicht abgezogen werden und werden separat mit Formular 21 EDP bescheinigt.",
+   "ziffer": "7 / 38",
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ]
+  },
+  {
+   "start": 582,
+   "titel": "Rz 39–42 Ziffer 7 (Quellensteuer, Schulgelder), Ziffer 8 Bruttolohn, Ziffer 9 AHV/IV/EO/ALV/NBUV",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffern 7–9"
+   ],
+   "stichworte": [
+    "Bruttolohn",
+    "AHV-Beiträge",
+    "ALV",
+    "NBUV",
+    "Schulgelder",
+    "Quellensteuer übernommen",
+    "Krankentaggeld"
+   ],
+   "zusammenfassung": "Ziffer 8 ist das Total der Ziffern 1–7; in Ziffer 9 wird der Arbeitnehmeranteil AHV/IV/EO/ALV/NBUV abgezogen, Krankentaggeld- und UVG-Zusatzprämien nicht.",
+   "ziffer": "7–9 / 39–42",
+   "positionen": [
+    "berechnung.total",
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 606,
+   "titel": "Rz 43 Ziffer 10 Berufliche Vorsorge (2. Säule)",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 10"
+   ],
+   "stichworte": [
+    "Pensionskasse",
+    "2. Säule",
+    "BVG",
+    "Arbeitnehmerbeitrag",
+    "Säule 2a 2b"
+   ],
+   "zusammenfassung": "In Ziffer 10 sind die im Bruttolohn enthaltenen, vom Lohn abgezogenen Beiträge an steuerbefreite Einrichtungen der 2. Säule anzugeben.",
+   "ziffer": "10 / 43",
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ]
+  },
+  {
+   "start": 618,
+   "titel": "Rz 44–46 Ziffer 10.1/10.2 Ordentliche Beiträge und Einkauf in die 2. Säule",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 10.1/10.2"
+   ],
+   "stichworte": [
+    "PK-Einkauf",
+    "Einkauf Pensionskasse",
+    "Wiedereinkauf Scheidung",
+    "Formular 21 EDP",
+    "ordentliche Beiträge"
+   ],
+   "zusammenfassung": "Einkäufe, die vom Lohn abgezogen wurden, gehören in Ziffer 10.2; selbst entrichtete Einkäufe bescheinigt die Vorsorgeeinrichtung mit Formular 21 EDP.",
+   "ziffer": "10.1–10.2 / 44–46",
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ]
+  },
+  {
+   "start": 647,
+   "titel": "Rz 47–48 Ziffer 11 Nettolohn/Rente und Ziffer 12 Quellensteuerabzug",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffern 11–12"
+   ],
+   "stichworte": [
+    "Nettolohn",
+    "Quellensteuer",
+    "Grenzgänger",
+    "Steuererklärung Nettolohn",
+    "Kurzaufenthalter"
+   ],
+   "zusammenfassung": "Nettolohn = Bruttolohn (Ziffer 8) minus Abzüge Ziffer 9 und 10; in Ziffer 12 steht der Quellensteuerabzug bei Ausländern ohne Niederlassungsbewilligung.",
+   "ziffer": "11–12 / 47–48",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb",
+    "berechnung.total"
+   ]
+  },
+  {
+   "start": 668,
+   "titel": "Rz 49–51 Ziffer 13 Spesenvergütungen – Abgrenzung und Arten",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 13 Spesen"
+   ],
+   "stichworte": [
+    "Spesen",
+    "Spesenersatz",
+    "Wegvergütung",
+    "Pauschalspesen",
+    "Spesenreglement",
+    "Berufsauslagen"
+   ],
+   "zusammenfassung": "Spesenvergütungen sind nicht Teil des Bruttolohns; Entschädigungen für Auslagen vor/nach der Arbeitstätigkeit (z. B. Wegvergütungen) sind keine Spesen und zum Lohn zu addieren.",
+   "ziffer": "13 / 49–51",
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ]
+  },
+  {
+   "start": 700,
+   "titel": "Rz 52 Ziffer 13.1 Effektive Spesen – Verzicht auf Deklaration (Kreuz 13.1.1)",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 13.1"
+   ],
+   "stichworte": [
+    "effektive Spesen",
+    "CHF 35 Mittagessen",
+    "CHF 30 Pauschale Hauptmahlzeit",
+    "75 Rappen pro km",
+    "Tagespauschale CHF 20",
+    "Kundeneinladung"
+   ],
+   "zusammenfassung": "Kein Betrag nötig (Kreuz in 13.1.1), wenn Übernachtung gegen Beleg, Mahlzeit max. CHF 35 bzw. Pauschale max. CHF 30, Privatfahrzeug max. 75 Rappen/km und Kleinspesen max. CHF 20 pro Tag.",
+   "ziffer": "13.1 / 52",
+   "positionen": [
+    "abzug.berufskosten.verpflegung",
+    "abzug.berufskosten.uebrige"
+   ]
+  },
+  {
+   "start": 719,
+   "titel": "Rz 52 Ziffer 13.1 (Schluss) – Voraussetzung Reisetätigkeit, Kreuz in 13.1.1",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 13.1"
+   ],
+   "stichworte": [
+    "Reisetätigkeit",
+    "Kreuz 13.1.1",
+    "effektive Spesen"
+   ],
+   "zusammenfassung": "Voraussetzung für die Pauschalen ist eine tatsächliche Reisetätigkeit; bei Einhaltung aller Vorgaben genügt ein Kreuz im Feld zu Ziffer 13.1.1.",
+   "ziffer": "13.1 / 52"
+  },
+  {
+   "start": 727,
+   "titel": "Rz 53–54 Ziffer 13.1.1/13.1.2 Effektive Reise- und übrige Spesen, Homeoffice",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 13.1.1/13.1.2"
+   ],
+   "stichworte": [
+    "Reisespesen",
+    "Homeoffice Entschädigung",
+    "Co-Working",
+    "externer Arbeitsplatz",
+    "Expatriates",
+    "Übernachtung"
+   ],
+   "zusammenfassung": "Nicht erfüllte Vorgaben verlangen betragsmässige Angabe der Spesen; Entschädigungen für externen Arbeitsplatz sind mit Vermerk «Spesen für externen Arbeitsplatz» aufzuführen.",
+   "ziffer": "13.1.1–13.1.2 / 53–54",
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ]
+  },
+  {
+   "start": 762,
+   "titel": "Rz 55–58 Ziffer 13.2 Pauschalspesen – Repräsentation, Auto, übrige",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 13.2 Pauschalspesen"
+   ],
+   "stichworte": [
+    "Pauschalspesen",
+    "Repräsentationsspesen",
+    "Autospesen",
+    "Kleinspesen CHF 50",
+    "Homeoffice Pauschale"
+   ],
+   "zusammenfassung": "Pauschale Spesen sind stets betragsmässig anzugeben und müssen ungefähr den effektiven Auslagen entsprechen; Expatriate-Pauschalen gehören in Ziffer 2.3.",
+   "ziffer": "13.2 / 55–58",
+   "positionen": [
+    "abzug.berufskosten.uebrige",
+    "abzug.berufskosten.fahrkosten"
+   ]
+  },
+  {
+   "start": 797,
+   "titel": "Rz 59–60 Genehmigtes Spesenreglement",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 13 Spesenreglement"
+   ],
+   "stichworte": [
+    "Spesenreglement",
+    "Genehmigung Sitzkanton",
+    "Mustervorlage SSK",
+    "Ziffer 15 Vermerk"
+   ],
+   "zusammenfassung": "Bei genehmigtem Spesenreglement (Mustervorlagen vom 1. Februar 2024, gültig ab 1. Mai 2024) sind nur die Pauschalspesen anzugeben und in Ziffer 15 ist die Genehmigung zu vermerken.",
+   "ziffer": "13 / 59–60"
+  },
+  {
+   "start": 821,
+   "titel": "Rz 61–62 Ziffer 13.3 Weiterbildungsbeiträge, Ziffer 14 Weitere Gehaltsnebenleistungen",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffern 13.3 und 14"
+   ],
+   "stichworte": [
+    "Weiterbildung Arbeitgeber",
+    "Umschulung",
+    "Personalrabatt",
+    "CHF 2'500 geringfügig",
+    "Vorzugspreis"
+   ],
+   "zusammenfassung": "Arbeitgeberbeiträge an berufsorientierte Weiterbildung sind in 13.3 anzugeben (nicht bei Zahlung direkt an Dritte); Hinweis in Ziffer 14 entfällt bei geringfügigen Vergünstigungen bis CHF 2'500.",
+   "ziffer": "13.3 / 14 / 61–62",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 850,
+   "titel": "Rz 63 Ziffer 15 Bemerkungen – allgemein",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 15 Bemerkungen"
+   ],
+   "stichworte": [
+    "Bemerkungen",
+    "Kinderzulagen",
+    "Schichttage",
+    "Krankenkassenbeiträge"
+   ],
+   "zusammenfassung": "In Ziffer 15 sind erforderliche Zusatzangaben zu machen; freiwillig können z. B. Kinderzulagen, Schichttage und Krankenkassenbeiträge ausgewiesen werden.",
+   "ziffer": "15 / 63",
+   "positionen": [
+    "einkommen.ersatz.familienzulagen"
+   ]
+  },
+  {
+   "start": 866,
+   "titel": "Rz 64–65a Ziffer 15 – Erwerbsausfall, ALV, Spesenreglement, Expatriate",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 15 Bemerkungen"
+   ],
+   "stichworte": [
+    "Erwerbsausfallentschädigung",
+    "Arbeitslosenversicherung",
+    "Spesenreglement Vermerk",
+    "Expatriateruling"
+   ],
+   "zusammenfassung": "In Ziffer 15 sind u. a. Anzahl Tage mit nicht durch den Arbeitgeber ausbezahlten Erwerbsausfallentschädigungen sowie Vermerke zu Spesenreglement und Expatriateruling anzubringen.",
+   "ziffer": "15 / 64–65a",
+   "positionen": [
+    "einkommen.ersatz.taggelder"
+   ]
+  },
+  {
+   "start": 884,
+   "titel": "Rz 66–71 Ziffer 15 – mehrere Lohnausweise, Rektifikat, Teilzeit, Beteiligungen, Umzugskosten",
+   "pfad": [
+    "I Notwendige Angaben",
+    "Ziffer 15 Bemerkungen"
+   ],
+   "stichworte": [
+    "Rektifikat",
+    "Teilzeitbeschäftigung",
+    "mehrere Lohnausweise",
+    "Umzugskosten",
+    "Mitarbeiterbeteiligung Vermerk"
+   ],
+   "zusammenfassung": "Vorgeschriebene Vermerke: «Einer von ... Lohnausweisen», «Dieser Lohnausweis ersetzt den Lohnausweis vom ...», Teilzeit, Verkehrswert genehmigt sowie Umzugskosten bei Zwang.",
+   "ziffer": "15 / 66–71"
+  },
+  {
+   "start": 918,
+   "titel": "Rz 72 Nicht zu deklarierende Leistungen – Pauschalen und Limiten (Teil 1)",
+   "pfad": [
+    "II Nicht zu deklarierende Leistungen"
+   ],
+   "stichworte": [
+    "Halbtaxabo",
+    "Naturalgeschenke CHF 600",
+    "Vergünstigungen 20 %",
+    "Vereinsbeiträge CHF 1'000",
+    "Mobiltelefon Privatnutzung"
+   ],
+   "zusammenfassung": "Nicht deklariert werden u. a. Halbtax, Vergünstigungen bis 20 %/CHF 600 jährlich, Naturalgeschenke bis CHF 600 und Vereinsbeiträge bis CHF 1'000.",
+   "ziffer": "72",
+   "positionen": [
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 938,
+   "titel": "Rz 72 Nicht zu deklarierende Leistungen (Teil 2) – Anlässe, Krippe, Parkplatz",
+   "pfad": [
+    "II Nicht zu deklarierende Leistungen"
+   ],
+   "stichworte": [
+    "Zutrittskarten CHF 600",
+    "Kinderkrippe Arbeitgeber",
+    "Gratis-Parkplatz",
+    "Vorsorgeuntersuchung",
+    "Flugmeilen",
+    "Fachverbände"
+   ],
+   "zusammenfassung": "Weiter nicht zu deklarieren: Zutrittskarten bis CHF 600, Krippenbeiträge (sofern nicht nur bestimmten Arbeitnehmern), Gratis-Parkplatz, Vorsorgeuntersuchungen, Flugmeilen.",
+   "ziffer": "72",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 962,
+   "titel": "Rz 73–74 Pflichtverletzung und Adressaten des Lohnausweises",
+   "pfad": [
+    "III Pflichtverletzung",
+    "IV Adressaten"
+   ],
+   "stichworte": [
+    "Strafe",
+    "Haftung",
+    "Art. 127 DBG",
+    "Zustellung Steuerverwaltung",
+    "Kantone Lohnausweis"
+   ],
+   "zusammenfassung": "Falsches oder fehlendes Ausfüllen kann strafbar bzw. haftbar machen; mehrere Kantone verlangen ein Exemplar direkt an die Steuerverwaltung.",
+   "ziffer": "73–74"
+  },
+  {
+   "start": 976,
+   "titel": "Rz 75 Bestelladressen Lohnausweisformular und Wegleitung",
+   "pfad": [
+    "V Bestelladressen"
+   ],
+   "stichworte": [
+    "eLohnausweis",
+    "Formular bestellen",
+    "BBL"
+   ],
+   "zusammenfassung": "Lohnausweisformular und Wegleitung sind bei SSK/ESTV als PDF erhältlich; Auskünfte erteilen die kantonalen Steuerbehörden.",
+   "ziffer": "75"
+  },
+  {
+   "start": 1006,
+   "skip": true,
+   "titel": "Anhang – Adressen kantonale Steuerbehörden"
+  }
+ ]
+}

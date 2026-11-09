@@ -1,0 +1,1990 @@
+kanton: tg
+jahr: 2025
+formular: Steuererklärung 2025 TG (Formular 1, Staats-, Gemeinde- und direkte Bundessteuer) + Hilfsblätter Formular 2 (Wertschriftenverzeichnis), 4.1 (Schuldenverzeichnis), 4.2 (Berufsauslagen), 5.1 (Krankheitskosten/behinderungsbedingte
+  Kosten), 5.2 (Versicherungsprämien), 6 (Zuwendungen), 7 (Liegenschaften), 8 (Liegenschaftsunterhalt)
+positionen:
+- ziffer: Seite 1 Personalien
+  abschnitt: Personalien
+  bezeichnung: Personalien, Berufs- und Familienverhältnisse (Stand 31.12.2025)
+  key: personalien
+  belege: []
+  feld: 'Formular 1 Seite 1: Name, Geburtsdatum, Zivilstand, Beruf, Arbeitgeber, Ergänzungsleistungen'
+  regel: 'Massgebend sind die Verhältnisse am 31.12.2025 bzw. am Ende der Steuerpflicht (Stichtag). Gemeinsam besteuerte Personen: Person 1 und Person 2 in allen Formularen und Hilfsblättern durchgehend
+    gleich zuordnen. Bei unterjähriger Steuerpflicht (Zuzug/Wegzug Ausland, Tod) Dauer von/bis oben links auf Seite 1 eintragen.'
+  quellen:
+  - chunk: tg-form-01-2025__c0002
+    zitat: Personalien, Berufs- und Familienverhältnisse am 31. Dezember 2025 oder am Ende der Steuerpflicht
+  - chunk: tg-wl-2025__c0045
+    zitat: Achten Sie bitte darauf, in den Formularen unter Person 1 bzw. Person 2 durchgehend die Angaben
+  status: extrahiert
+- ziffer: Seite 1 Kinder
+  abschnitt: Personalien
+  bezeichnung: Kinder (minderjährig, in Ausbildung oder erwerbsunfähig), Unterhalt wird bestritten; Zusatzangaben bei getrennt besteuerten Eltern
+  key: personalien
+  belege: []
+  feld: 'Formular 1 Seite 1: Vorname/Name, Geburtsdatum, im Haushalt, Schule/Lehrfirma, Ausbildungsende, Unterhaltsbeiträge, Sorgerecht, Obhut'
+  regel: 'Genaues Geburtsdatum angeben. Kinder mit Jahrgang 2005 und älter in Ausbildung: Ausbildungsstätte/Lehrfirma und voraussichtliches Ende der Ausbildung. Bei nicht gemeinsam besteuerten Eltern (getrennt,
+    geschieden, Konkubinat mit gemeinsamen Kindern) Checkboxen Unterhaltsbeiträge/gemeinsames Sorgerecht/alternierende Obhut ausfüllen – sie steuern die Zuteilung von Kinderabzug, Versicherungsabzug, Vermögensfreibetrag
+    und Tarif.'
+  quellen:
+  - chunk: tg-form-01-2025__c0003
+    zitat: Minderjährige, in beruflicher Ausbildung stehende oder erwerbsunfähige Kinder, deren Unterhalt Sie bestreiten
+  - chunk: tg-wl-2025__c0045
+    zitat: Für Kinder mit Jahrgang 2005 und älter, welche sich in Ausbildung befinden, geben Sie bitte
+  status: extrahiert
+- ziffer: Seite 1 Unterstützte Personen
+  abschnitt: Personalien
+  bezeichnung: Erwerbsunfähige und unterstützungsbedürftige Personen (Unterstützungsbetrag ≥ Fr. 12'000 Kanton / Fr. 6'800 Bund)
+  key: personalien
+  belege: []
+  feld: 'Formular 1 Seite 1: Vorname/Name, Geburtsdatum, im Haushalt, Adresse, Unterstützungsbetrag'
+  regel: 'Nur Personen ohne Kinder-/Ehegattenstatus. Formular nennt Mindestbeitrag Fr. 12''000 (Kanton) bzw. Fr. 6''800 (Bund); Wegleitung kantonal: nachweislich mindestens 50% des betreibungsrechtlichen
+    Existenzminimums, Unterstützungsbedürftigkeit durch Bestätigung der Wohnsitzgemeinde belegen. Abzug siehe Ziff. 25.2.'
+  quellen:
+  - chunk: tg-form-01-2025__c0004
+    zitat: mindestens Fr. 12 000.– (Kanton) bzw. Fr. 6 800.– (Bund) unterstützen
+  - chunk: tg-wl-2025__c0114
+    zitat: lichen Existenzminimums der betreffenden erwerbsunfähigen und unterstützungsbedür
+  status: extrahiert
+  bemerkung: Formulartext (Fr. 12'000 Kanton) und Wegleitung (mind. 50% des betreibungsrechtlichen Existenzminimums, Steuerpraxis) nennen unterschiedliche Kriterien; kein Widerspruch im Betrag des Abzugs,
+    aber Mindestbeitrag in der Praxis nachprüfen.
+- ziffer: Seite 1 Auszahlungskonto
+  abschnitt: Personalien
+  bezeichnung: Auszahlungskonto für Steuerrückzahlungen und Rückerstattung Verrechnungssteuer (IBAN)
+  key: verrechnungssteuer.rueckerstattung
+  belege: []
+  feld: 'Formular 1 Seite 1: Kontoinhaber/in, IBAN, Bank/Post'
+  regel: Konto nur bei Erstantrag oder Kontoänderung ausfüllen (IBAN, Bank oder Post). Kontoänderungen nach Einreichung der Steuererklärung möglichst vermeiden (Verzögerung der Rückerstattung).
+  quellen:
+  - chunk: tg-form-01-2025__c0005
+    zitat: Alle Rückerstattungen der Verrechnungssteuer sowie allfälliger Steuerrückzahlungen erfolgen auf
+  - chunk: tg-wl-2025__c0168
+    zitat: Um Verzögerungen bei der
+  status: extrahiert
+- ziffer: '1.1'
+  abschnitt: Einkünfte
+  bezeichnung: Haupterwerb unselbständig (Code 100 Person 1 / 101 Person 2)
+  key: einkommen.unselbstaendig.haupterwerb
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Ziff. 11 Nettolohn; Pauschalspesen (Ziff. 13.2) in die Vorspalte «Pauschalspesen»
+  regel: 'Nettolohn gemäss Lohnausweis Ziff. 11 einsetzen (Brutto Ziff. 8 abzüglich AHV/IV/EO/ALV Ziff. 9 und BVG Ziff. 10). Pauschalspesen separat in der Vorspalte. Naturalbezüge/Trinkgelder, falls nicht
+    im Lohnausweis, ergänzen. Alle Lohnausweise einreichen. Lohnausweis-Hinweise: Feld F (unentgeltliche Beförderung Wohn-/Arbeitsort, z.B. Geschäftsfahrzeug) angekreuzt = kein Fahrkostenabzug (Form. 4.2
+    Ziff. 2); Feld G (Kantinenverpflegung/Lunch-Checks) = nur halber Verpflegungsabzug (Form. 4.2 Ziff. 3.2); Ziff. 10.2 (Einkauf BVG) ist bereits im Nettolohn abgezogen und nicht nochmals in Ziff. 15.2
+    geltend zu machen; Ziff. 13.3 (Arbeitgeberbeiträge an Weiterbildung) mindert den Abzug Ziff. 16; Ziff. 15 Bemerkungen: Anzahl Schichttage (Beleg für Verpflegungsabzug), Teilzeit, Rektifikat, mehrere
+    Lohnausweise.'
+  quellen:
+  - chunk: tg-form-01-2025__c0006
+    zitat: 1.1 Haupterwerbstätigkeit   Person 1   100
+  - chunk: tg-wl-2025__c0049
+    zitat: In die Steuererklärung ist der in Ziffer 11 des Lohnausweises aufgeführte Nettolohn einzusetzen.
+  - chunk: bund-wl-lohnausweis-2026__c0038
+    zitat: In diesem Feld ist der für die Steuererklärung massgebende Nettolohn anzugeben.
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
+    Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
+- ziffer: '1.2'
+  abschnitt: Einkünfte
+  bezeichnung: Nebenerwerb unselbständig (Code 104 Person 1 / 105 Person 2), inkl. VR-/Behördenentschädigungen
+  key: einkommen.unselbstaendig.nebenerwerb
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Ziff. 11 Nettolohn des Nebenerwerbs
+  regel: 'Sämtliches Einkommen aus unselbständigem Nebenerwerb ohne Freigrenze deklarieren (auch Sitzungsgelder, VR-Honorare, Tantiemen). Feuerwehrsold: Kernaufgaben steuerfrei bis Fr. 5''000 (Staat) bzw.
+    Fr. 5''300 (Bund); über dem Freibetrag steuerbar; in der Steuererklärung die kantonal steuerbaren Einkünfte deklarieren, Bund korrigiert die Steuerverwaltung von Amtes wegen. Berufsauslagen Nebenerwerb:
+    Form. 4.2 Ziff. 6.'
+  werte_keys:
+  - steuerfrei.feuerwehrsold
+  bund: Feuerwehrsold-Freibetrag Bund Fr. 5'300 (Kanton Fr. 5'000).
+  quellen:
+  - chunk: tg-form-01-2025__c0006
+    zitat: 1.2 Nebenerwerbstätigkeit   Person 1   104
+  - chunk: tg-wl-2025__c0051
+    zitat: Daher ist sämtliches Einkommen aus einer unselbständigen Nebenerwerbstätigkeit
+  - chunk: tg-wl-2025__c0052
+    zitat: Fr. 5'000 bei der Staats- und Gemeindesteuer;
+  status: extrahiert
+- ziffer: '1.3'
+  abschnitt: Einkünfte
+  bezeichnung: Im vereinfachten Abrechnungsverfahren bereits versteuerter Bruttolohn (Code 106 / 107)
+  key: einkommen.vereinfachtes_verfahren
+  belege: []
+  feld: Bescheinigung der AHV-Ausgleichskasse (Bruttolohnsumme)
+  regel: 'Nur Information (Vorkolonne): im vereinfachten Verfahren bereits versteuerte Löhne werden weder als steuerbares noch als satzbestimmendes Einkommen berücksichtigt und fliessen nicht ins Zwischentotal
+    Ziff. 6. Bescheinigung beilegen.'
+  quellen:
+  - chunk: tg-form-01-2025__c0006
+    zitat: 1.3 Im vereinfachten Abrechnungsverfahren bereits versteuerter Bruttolohn
+  - chunk: tg-wl-2025__c0053
+    zitat: Löhne werden nicht in die Berechnung des Zwischentotals unter Ziffer 6 miteinbezogen.
+  status: extrahiert
+- ziffer: '2.1'
+  abschnitt: Einkünfte
+  bezeichnung: Selbständige Erwerbstätigkeit Haupterwerb (Code 112 Person 1 / 113 Person 2)
+  key: einkommen.selbstaendig
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Bilanz und Erfolgsrechnung bzw. Aufstellung Einnahmen/Ausgaben/Aktiven/Passiven; ggf. Formular 14 (Fragebogen Selbständigerwerbende)
+  regel: Reingewinn nach geschäftsmässig begründeten Kosten (negativer Betrag mit Vorzeichen). Persönliche 2.-Säule-Beiträge nur im Umfang Arbeitgeberanteil im Geschäftsergebnis; Privatanteil und alle Säule-3a-Beiträge
+    nur in Ziff. 13 bzw. 15.2. Direkt ausbezahlte Familienzulagen nicht hier, sondern Ziff. 3.4. Liquidationsgewinne (ab 55 / Invalidität) siehe Ziff. 23.3. Teilbesteuerung Beteiligungen im Geschäftsvermögen
+    (Kanton 60% / Bund 70%) über Formular 14.
+  bund: Teilbesteuerung Beteiligungen Geschäftsvermögen beim Bund 70% (Kanton 60%); Steuerverwaltung nimmt Bundeskorrektur von Amtes wegen vor.
+  quellen:
+  - chunk: tg-form-01-2025__c0006
+    zitat: 2.1 Haupterwerbstätigkeit   Person 1   112
+  - chunk: tg-wl-2025__c0058
+    zitat: Deklarieren Sie hier aus Industrie, Handel, Gewerbe, freien Berufen sowie Land- und Forstwirtschaft
+  - chunk: tg-wl-2025__c0061
+    zitat: sondern sind ausschliesslich in Ziffer 13 bzw. 15.2 der
+  status: extrahiert
+- ziffer: '2.2'
+  abschnitt: Einkünfte
+  bezeichnung: Selbständige Erwerbstätigkeit Nebenerwerb (Code 116 Person 1 / 117 Person 2)
+  key: einkommen.selbstaendig
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Aufstellung Einnahmen/Ausgaben des Nebenerwerbs
+  regel: Nettoeinkommen aus selbständigem Nebenerwerb (z.B. Provisionen, Gutachterhonorare, Privatunterricht). Ausführungen zu Ziff. 2.1 gelten sinngemäss.
+  quellen:
+  - chunk: tg-form-01-2025__c0006
+    zitat: 2.2 Nebenerwerbstätigkeit   Person 1
+  - chunk: tg-wl-2025__c0074
+    zitat: Deklarieren Sie hier ein Netto-Einkommen aus einer selbständigen Nebenerwerbstätigkeit
+  status: extrahiert
+- ziffer: '3.1'
+  abschnitt: Einkünfte
+  bezeichnung: AHV-/IV-Renten (Code 130 Person 1 / 131 Person 2)
+  key: einkommen.sozialversicherung.ahv_iv
+  belege:
+  - rentenbescheinigung-ahv-iv
+  feld: Rentenbescheinigung AHV/IV (Jahresbetrag brutto)
+  regel: '100% steuerbar (Kanton und Bund). Steuerfrei und nicht anzugeben: Ergänzungsleistungen AHV/IV, Sozialhilfe, Genugtuungszahlungen. Beim Bezug von EL Kreuz auf Seite 1 setzen.'
+  quellen:
+  - chunk: tg-form-01-2025__c0007
+    zitat: 3.1 AHV-/IV-Renten   Person 1   130
+  - chunk: tg-wl-2025__c0076
+    zitat: Renten der AHV/IV sind sowohl bei den Staats- und Gemeindesteuern als auch bei der direkten
+  - chunk: tg-wl-2025__c0076
+    zitat: Ergänzungsleistungen der AHV und IV;
+  status: extrahiert
+- ziffer: '3.2'
+  abschnitt: Einkünfte
+  bezeichnung: Renten/Pensionen (2. Säule, SUVA, Säule 3a, 3b, Leibrenten) mit steuerbarem Bruttobetrag und Prozent (Code 132 Person 1 / 133 Person 2)
+  key: einkommen.vorsorge.renten
+  belege:
+  - rentenbescheinigung-vorsorge
+  - bescheinigung-saeule3a
+  feld: 'Rentenbescheinigung der Vorsorgeeinrichtung/Versicherung: steuerbarer Bruttobetrag und Prozentsatz'
+  regel: 'Bruttobetrag und steuerbaren Prozentsatz angeben. Renten aus beruflicher Vorsorge, gebundener Selbstvorsorge und Invaliditätsrenten (3b) zu 100%; Übergangsrecht 80% nur bei Rentenbeginn vor 1.1.1987
+    bzw. 1.1.1987–1.1.2002 mit Vorsorgeverhältnis per 31.12.1984/1986 und mind. 20% Eigenbeiträgen. Leibrenten: steuerbar im Ertragsanteil gemäss Bescheinigung, Überschussleistungen pauschal 70%. Bei mehr
+    als zwei Renten Aufstellung beilegen.'
+  quellen:
+  - chunk: tg-form-01-2025__c0007
+    zitat: 3.2 Renten/Pensionen   Steuerbar Bruttobetrag / Fr.   in Prozent
+  - chunk: tg-wl-2025__c0077
+    zitat: Grundsätzlich sind Renten aus beruflicher Vorsorge, aus gebundener Selbstvorsorge sowie
+  - chunk: tg-wl-2025__c0078
+    zitat: Überschussleistungen sind pauschal zu 70% steuerbar.
+  status: extrahiert
+- ziffer: '3.3'
+  abschnitt: Einkünfte
+  bezeichnung: Erwerbsausfallentschädigungen (Taggelder Kranken-/Unfall-/IV/ALV, Mutterschaft, EO) (Code 136 Person 1 / 137 Person 2)
+  key: einkommen.ersatz.taggelder
+  belege:
+  - taggeldbescheinigung
+  - lohnausweis
+  feld: Bescheinigung der Versicherung/Ausgleichskasse/ALV; Lohnausweis Ziff. 15 (Anzahl Tage mit Erwerbsausfallentschädigung)
+  regel: 'Nur soweit nicht bereits im Lohnausweis enthalten (sonst Doppelerfassung mit Ziff. 1). Taggelder ALV, SUVA, Kranken-/Unfall-/IV-Versicherung, Mutterschaftsentschädigung, EO-Entschädigungen direkt
+    von der Ausgleichskasse. Steuerfrei und nicht anzugeben: Sold Militär/Zivilschutz/Feuerwehr, Taschengeld Zivildienst. Bescheinigung beilegen. Lohnausweis Ziff. 15 muss die Anzahl Tage nennen, wenn die
+    Entschädigung nicht über den Arbeitgeber lief.'
+  quellen:
+  - chunk: tg-form-01-2025__c0007
+    zitat: 3.3 Erwerbsausfallentschädigungen
+  - chunk: tg-wl-2025__c0079
+    zitat: Diese Entschädigungen sind insoweit anzugeben, als sie im Lohnausweis von den Arbeitgebenden
+  - chunk: bund-wl-lohnausweis-2026__c0052
+    zitat: 'Anzahl der Tage mit Erwerbsausfallentschädigungen: Diese sind stets anzugeben,'
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
+    Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
+- ziffer: '3.4'
+  abschnitt: Einkünfte
+  bezeichnung: Von Ausgleichskassen direkt ausbezahlte Familien-, Kinder- und Haushaltszulagen (Code 140)
+  key: einkommen.ersatz.familienzulagen
+  belege: []
+  feld: Bescheinigung der Familienausgleichskasse (Kinder-, Haushalts-, Ausbildungs-, Geburts-, Adoptionszulagen)
+  regel: Nur direkt von der Ausgleichskasse ausbezahlte Zulagen an Selbständigerwerbende, Nichterwerbstätige und Landwirtschaft; Zulagen im Lohnausweis stecken bereits im Nettolohn (Ziff. 1). Nicht unter
+    Ziff. 2 deklarieren.
+  quellen:
+  - chunk: tg-form-01-2025__c0007
+    zitat: 3.4 Von Ausgleichskassen direkt ausbezahlte Familien-, Kinder- und Haushaltszulagen   140
+  - chunk: tg-wl-2025__c0080
+    zitat: Deklarieren Sie hier von der Ausgleichskasse direkt ausbezahlte Familien- und Haushaltszulagen.
+  status: extrahiert
+- ziffer: '4'
+  abschnitt: Einkünfte
+  bezeichnung: Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 2, Code 150)
+  key: einkommen.wertschriften
+  belege:
+  - steuerauszug-bank
+  - kontoauszug-zinsausweis
+  - depotauszug
+  - dividenden-ausland-quellensteuer
+  - krypto-auszug
+  - lotteriegewinn
+  feld: Formular 2 (Wertschriftenverzeichnis) Total steuerbarer Ertrag Ziff. 9 (Code 150)
+  regel: 'Erst Formular 2 ausfüllen, dann Total steuerbarer Ertrag übertragen (Bruttoerträge Spalten 8+9 abzüglich Geschäftsanteil, Vermögensverwaltungskosten und pauschale Einsatzkosten Geldspiele). Steuerauszug
+    der Bank einreichen, wenn Titel nur als Total deklariert werden. Lotteriegewinne: einzelne Gewinne ≤ Fr. 1''000 steuerfrei (Bund Fr. 1''100), sobald ein Einzelgewinn die Grenze übersteigt gesamter Gewinn
+    steuerbar; Grossspiele/Online-Spielbank steuerfrei bis Fr. 1''000''000 (Bund Fr. 1''070''400). Ausländische Erträge: Nettobetrag zuzüglich anrechenbarer Quellensteuer; Formular DA-1.'
+  werte_keys:
+  - steuerfrei.kleingewinn
+  - steuerfrei.grossspielgewinn
+  bund: Steuerfreigrenze Lotterien/Geschicklichkeitsspiele Bund Fr. 1'100 (Kanton Fr. 1'000); Grossspiele Bund Fr. 1'070'400 (Kanton Fr. 1'000'000); Bundeskorrektur von Amtes wegen.
+  quellen:
+  - chunk: tg-form-01-2025__c0008
+    zitat: 4. Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen   Formular 2 150
+  - chunk: tg-wl-2025__c0163
+    zitat: Das Total der steuerbaren Erträge in Ziffer 9 errechnen Sie, indem Sie vom Zwischentotal in Ziffer
+  - chunk: tg-wl-2025__c0146
+    zitat: Einzelne solche Gewinne bis zu einem Betrag von Fr. 1 000 sind hin
+  status: extrahiert
+- ziffer: '5.1'
+  abschnitt: Einkünfte
+  bezeichnung: Unterhaltsbeiträge von Ehegatte/Partner bei Trennung/Scheidung (Name und Adresse Zahler/in) (Code 160)
+  key: einkommen.unterhaltsbeitraege
+  belege:
+  - unterhaltszahlungen-alimente
+  feld: Scheidungs-/Trennungsurteil bzw. Vereinbarung; Zahlungsnachweise
+  regel: 'Periodische Unterhaltsbeiträge für sich selbst steuerbar; ebenso Mietwertanteil aus Überlassung eines Liegenschaftsanteils. Name/Adresse der zahlenden Person in der Zeile unter 5.1 angeben. Gegenstück:
+    Abzug beim Zahler Ziff. 12.1.'
+  quellen:
+  - chunk: tg-form-01-2025__c0008
+    zitat: 5.1 Unterhaltsbeiträge von Ehefrau/-mann bzw. Partnerin/Partner bei Trennung/Scheidung
+  - chunk: tg-wl-2025__c0081
+    zitat: Steuerbar sind periodische Unterhaltsbeiträge der Ehefrau oder des Ehemanns bzw. der
+  status: extrahiert
+- ziffer: '5.2'
+  abschnitt: Einkünfte
+  bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (inkl. Kinderzulagen) (Name und Adresse Zahler/in) (Code 162)
+  key: einkommen.unterhaltsbeitraege
+  belege:
+  - unterhaltszahlungen-alimente
+  feld: Urteil/Vereinbarung; Zahlungsnachweise; ggf. Alimentenbevorschussung
+  regel: Für Kinder unter eigener elterlicher Sorge steuerbar; bei unregelmässigen Zahlungen die tatsächlich im Jahr 2025 überwiesenen Beträge. Alimentenbevorschussung durch die Gemeinde vermerken. Ab Folgemonat
+    der Volljährigkeit nicht mehr steuerbar. Wer die Alimente versteuert, erhält den Kinderabzug (Ziff. 25.1).
+  quellen:
+  - chunk: tg-form-01-2025__c0008
+    zitat: 5.2 Unterhaltsbeiträge für minderjährige Kinder (Name, Adresse Zahler/in)   162
+  - chunk: tg-wl-2025__c0081
+    zitat: Periodische Unterhaltsbeiträge (inklusive Kinderzulagen), die Sie für die unter Ihrer elterlichen
+  - chunk: tg-wl-2025__c0081
+    zitat: Ab dem Folgemonat der Volljährigkeit des Kindes sind die
+  status: extrahiert
+- ziffer: '5.3'
+  abschnitt: Einkünfte
+  bezeichnung: Ertrag aus unverteilten Erbschaften (Formular 3) (Code 164)
+  key: einkommen.erbschaften_unverteilt
+  belege:
+  - erbschaft-schenkung
+  feld: Aufstellung der Erbengemeinschaft/Nachlassverwalter (Ertrag, Erbquote); Vermögensanteil Ziff. 30.5
+  regel: Erträge nach Erbquote zurechnen; Steuerpflicht beginnt am Tag nach dem Todestag. VSt-belastete Erträge im Umfang der Erbquote in Spalte A von Formular 2, nicht belastete in Spalte B. Rückerstattung
+    im Wohnsitzkanton.
+  quellen:
+  - chunk: tg-form-01-2025__c0008
+    zitat: 5.3 Ertrag aus unverteilten Erbschaften   Formular 3 164
+  - chunk: tg-wl-2025__c0082
+    zitat: Einkünfte aus unverteilten Erbschaften werden den erbenden Personen entsprechend ihrer
+  status: extrahiert
+- ziffer: '5.4'
+  abschnitt: Einkünfte
+  bezeichnung: Weitere Einkünfte (Urheberrechte, Lizenzen, Patente, Wohnrecht, Nutzniessung, Lidlohn, Entschädigungen) (Code 168)
+  key: einkommen.uebrige
+  belege: []
+  feld: Verträge/Aufstellung; nähere Bezeichnung auf dem Formular
+  regel: 'Hier: Urheber-/Autorenrechte, Lizenzen, Patente, Nutzniessung, unentgeltliches Wohnrecht (bewertet mit der Miete einer entsprechenden Wohnung), Lidlöhne, Entschädigungen für Konkurrenzverbot/Verzicht
+    auf Rechte, Untervermietung netto. Gewinne aus Geldspielen gehören in Ziff. 4, nicht hierher.'
+  quellen:
+  - chunk: tg-form-01-2025__c0008
+    zitat: 5.4 Weitere Einkünfte (z.B. Urheberrechte, Lizenzen, Patente, Wohnrecht usw.)
+  - chunk: tg-wl-2025__c0083
+    zitat: In Ziffer 5.4 deklarieren Sie Einkünfte aus Urheber- und Autorenrechten, Lizenzen, Patenten
+  status: extrahiert
+- ziffer: '5.5'
+  abschnitt: Einkünfte
+  bezeichnung: Kapitalabfindung für wiederkehrende Leistungen für … Jahre (Code 170)
+  key: einkommen.kapitalabfindung_wiederkehrend
+  belege: []
+  feld: Bescheinigung über die Kapitalabfindung (Rentenrückkauf, Lidlohn u.ä.)
+  regel: 'Zeitraum (Jahre) angeben, für den die Abfindung ausgerichtet wird; Besteuerung zum Satz, der sich bei entsprechender jährlicher Leistung ergäbe (bei Lebenszeit-Renten Umrechnung nach Rentenwerttabelle).
+    Nicht hier, sondern Seite 4 unten: Kapitalleistungen aus Vorsorge.'
+  quellen:
+  - chunk: tg-form-01-2025__c0008
+    zitat: 5.5 Kapitalabfindung für wiederkehrende Leistungen für
+  - chunk: tg-wl-2025__c0084
+    zitat: Anstelle von wiederkehrenden Leistungen ausbezahlte Kapitalabfindungen (z.B. Rentenrückkauf,
+  status: extrahiert
+- ziffer: '6'
+  abschnitt: Einkünfte
+  bezeichnung: Zwischentotal der Einkünfte (Code 175)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile (Summe Ziff. 1.1–5.5 ohne 1.3)
+  regel: Summe der Einkünfte Ziff. 1 bis 5.5; vereinfacht abgerechnete Löhne (Ziff. 1.3) nicht einbeziehen. Ohne Liegenschaften direkt in Ziff. 20 übertragen, sonst über Ziff. 7/8/9.
+  quellen:
+  - chunk: tg-form-01-2025__c0008
+    zitat: 6. Zwischentotal der Einkünfte   175
+  - chunk: tg-wl-2025__c0085
+    zitat: Andernfalls übertragen Sie zuerst den Betrag von Ziffer 6.1 in Ziffer 6.2 der Steuererklärung.
+  status: extrahiert
+  bemerkung: Die Wegleitung 2025 beschreibt Ziff. 6.1/6.2 (ältere Formularstruktur mit Geschäftsfahrzeug-Einkommen); das Formular 2025 hat nur Ziff. 6 (Code 175) und Ziff. 7 (Übertrag von Ziff. 6).
+- ziffer: '7'
+  abschnitt: Einkünfte
+  bezeichnung: Übertrag von Ziffer 6 (Staatssteuer / Bundessteuer)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile (Übertrag Ziff. 6)
+  regel: Übertrag des Zwischentotals Ziff. 6 in die beiden Spalten Staatssteuer und Bundessteuer, falls Liegenschaftseinkünfte (Ziff. 8) anfallen.
+  quellen:
+  - chunk: tg-form-01-2025__c0009
+    zitat: 7. Übertrag von Ziffer 6
+  status: extrahiert
+- ziffer: '8.1'
+  abschnitt: Einkünfte
+  bezeichnung: Einkünfte aus Liegenschaften (Formular 7, Code 180; Staat und Bund getrennt)
+  key: einkommen.liegenschaften.eigenmietwert
+  belege:
+  - liegenschaft-schaetzung-eigenmietwert
+  - liegenschaft-mietertraege
+  - liegenschaft-unterhaltsrechnungen
+  - liegenschaft-nebenkosten-gebaeudeversicherung
+  feld: Formular 7 Total Nettoerfolge (Code 180), je Spalte Staatssteuer/Bundessteuer
+  regel: 'Zuerst Formular 7 (und bei effektivem Unterhalt Formular 8) ausfüllen. Netto = Eigenmietwert (indexiert, nach Selbstnutzungsabzug) bzw. Mietzinsen abzüglich Unterhalts-/Betriebskosten (Pauschale
+    oder effektiv); negativer Nettoerfolg mit Vorzeichen. Selbstnutzungsabzug nur für am Wohnsitz dauernd selbstbewohntes Eigentum: Kanton 40%, Bund 20%.'
+  werte_keys:
+  - liegenschaft.eigenmietwert_abzug
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  bund: Selbstnutzungsabzug Bund 20% (Kanton 40%) – deshalb unterschiedliche Nettoerfolge je Spalte.
+  quellen:
+  - chunk: tg-form-01-2025__c0009
+    zitat: 8.1 Einkünfte aus Liegenschaften   Formular 7 180
+  - chunk: tg-wl-2025__c0225
+    zitat: nutzung kantonal einen Abzug von 40% und beim Bund von 20% vornehmen
+  - chunk: tg-wl-2025__c0238
+    zitat: 10% für Gebäude, die am Ende der Steuerperiode bis zu zehn Jahre alt sind;
+  status: extrahiert
+- ziffer: '9'
+  abschnitt: Einkünfte
+  bezeichnung: Total der Einkünfte, zu übertragen auf Seite 3 Ziffer 20 (Code 198; Staat/Bund)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile (Ziff. 7 + Ziff. 8)
+  regel: Ziff. 7 plus Ziff. 8.1, je Spalte Staatssteuer/Bundessteuer; Übertrag in Ziff. 20.
+  quellen:
+  - chunk: tg-form-01-2025__c0009
+    zitat: 9. Total der Einkünfte, zu übertragen auf Seite 3, Ziffer 20   198
+  status: extrahiert
+- ziffer: '10.1'
+  abschnitt: Abzüge
+  bezeichnung: Berufsauslagen bei unselbständiger Erwerbstätigkeit Person 1 (Formular 4.2 Ziff. 7, Code 240; Staat/Bund)
+  key: berechnung.total
+  belege:
+  - lohnausweis
+  - oev-abo
+  - fahrzeugausweis-arbeitsweg
+  - spesenreglement
+  feld: Formular 4.2 Ziff. 7 Total der abzugsfähigen Berufsauslagen (Code 240)
+  regel: 'Total aus Formular 4.2 (Fahrkosten, Verpflegung, übrige Berufskosten, Wochenaufenthalt, Nebenerwerb) übertragen, je Spalte Staat/Bund (Fahrkostenmaximum und Km-Ansätze unterscheiden sich). Nicht
+    vom Arbeitgeber übernommene Kosten abziehen. Lohnausweis prüfen: Feld F angekreuzt = keine Fahrkosten; Feld G = nur halbe Verpflegung.'
+  quellen:
+  - chunk: tg-form-01-2025__c0010
+    zitat: 10.1 Person 1   Formular 4.2 240
+  - chunk: tg-wl-2025__c0196
+    zitat: Tragen Sie in diese Ziffer die Summe der Berufsauslagen gemäss den Ziffern 2 bis 7 ein.
+  status: extrahiert
+- ziffer: '10.2'
+  abschnitt: Abzüge
+  bezeichnung: Berufsauslagen bei unselbständiger Erwerbstätigkeit Person 2 (Formular 4.3 Ziff. 7, Code 280; Staat/Bund)
+  key: berechnung.total
+  belege:
+  - lohnausweis
+  - oev-abo
+  - fahrzeugausweis-arbeitsweg
+  - spesenreglement
+  feld: Formular 4.2 Rückseite (Person 2, im Formular als «4.3» bezeichnet) Ziff. 7 (Code 280)
+  regel: Wie Ziff. 10.1 für Person 2 (Rückseite des Formulars 4.2, Codes 246–280).
+  quellen:
+  - chunk: tg-form-01-2025__c0010
+    zitat: 10.2 Person 2   Formular 4.3 280
+  - chunk: tg-form-04-2-2025__c0010
+    zitat: 7.   Total der abzugsfähigen Berufsauslagen   280
+  status: extrahiert
+- ziffer: '11'
+  abschnitt: Abzüge
+  bezeichnung: Schuldzinsen (Formular 4.1, Code 290)
+  key: abzug.schuldzinsen
+  belege:
+  - kredit-darlehen-schuldzinsen
+  - hypothekarbestaetigung
+  feld: Formular 4.1 Ziff. C Total Schuldzinsen (Code 290)
+  regel: Nur im Jahr 2025 fällig gewordene Schuldzinsen (keine Ratazinsen); mit der Schlussrechnung belastete Ausgleichszinsen ebenfalls abziehbar. Private Schuldzinsen höchstens im Umfang der deklarierten
+    Erträge aus beweglichem und unbeweglichem Vermögen plus Fr. 50'000. Keine Amortisationen, Bau-/Landkreditzinsen (Anlagekosten), Leasingzinsen; Baurechtszinsen nur bei Fremdvermietung. WEF-Zusatzverbilligungen
+    mindern die Schuldzinsen. Geschäftsschuldzinsen nur, wenn nicht schon in Ziff. 2 abgezogen.
+  quellen:
+  - chunk: tg-form-01-2025__c0010
+    zitat: 11.   Schuldzinsen   Formular 4.1 290
+  - chunk: tg-wl-2025__c0173
+    zitat: Sie können private Schuldzinsen höchstens im Umfang der deklarierten Erträge aus beweglichem
+  - chunk: tg-wl-2025__c0173
+    zitat: und unbeweglichem Vermögen und weiterer Fr. 50 000 in Abzug bringen.
+  status: extrahiert
+- ziffer: '12.1'
+  abschnitt: Abzüge
+  bezeichnung: Unterhaltsbeiträge an Ehegatte/Partner bei Trennung/Scheidung (Empfänger/in, Adresse) (Code 300)
+  key: abzug.unterhaltsbeitraege
+  belege:
+  - unterhaltszahlungen-alimente
+  feld: Zahlungsnachweise; Kopie Scheidungs-/Trennungsurteil bei erstmaliger Deklaration
+  regel: 'Tatsächlich bezahlte periodische Beiträge; Name/Adresse der empfangenden Person angeben, sonst kein Abzug. Mietwertanteil aus Überlassung eines Liegenschaftsanteils zählt ebenfalls. Gegenstück
+    bei der empfangenden Person: Ziff. 5.1.'
+  quellen:
+  - chunk: tg-form-01-2025__c0010
+    zitat: 12.1 Unterhaltsbeiträge an Ehefrau/-mann bzw. Partnerin/Partner
+  - chunk: tg-wl-2025__c0087
+    zitat: Die Abzüge für Unterhaltsbeiträge und Rentenleistungen werden nur gewährt, wenn Zahlungs
+  status: extrahiert
+- ziffer: '12.2'
+  abschnitt: Abzüge
+  bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (Code 302)
+  key: abzug.unterhaltsbeitraege
+  belege:
+  - unterhaltszahlungen-alimente
+  feld: Zahlungsnachweise an den anderen Elternteil; Urteil/Vereinbarung
+  regel: Dem anderen Elternteil für die unter dessen Sorge stehenden Kinder überwiesene Beiträge (inkl. Kinderzulagen), längstens bis und mit dem Monat der Mündigkeit. Wer abzieht, hat keinen Anspruch auf
+    den Kinderabzug (Ziff. 25.1).
+  quellen:
+  - chunk: tg-form-01-2025__c0010
+    zitat: 12.2 Unterhaltsbeiträge für minderjährige Kinder   302
+  - chunk: tg-wl-2025__c0088
+    zitat: träge können längstens bis und mit dem Monat der Mündigkeit des Kindes abgezogen werden.
+  status: extrahiert
+- ziffer: '12.3'
+  abschnitt: Abzüge
+  bezeichnung: Rentenleistungen (Code 304)
+  key: abzug.unterhaltsbeitraege
+  belege:
+  - unterhaltszahlungen-alimente
+  feld: Rentenvertrag; Beiblatt mit Name/Adresse des Empfängers
+  regel: Bezahlte Leibrenten sind zu 40% abziehbar; Umfang der Leistungen auf Beiblatt mit Name und Adresse des Empfängers angeben.
+  quellen:
+  - chunk: tg-form-01-2025__c0010
+    zitat: 12.3 Rentenleistungen   304
+  - chunk: tg-wl-2025__c0088
+    zitat: Im Jahr 2025 bezahlte Leibrenten können zu 40% vom Einkommen abgezogen werden.
+  status: extrahiert
+- ziffer: '13.1'
+  abschnitt: Abzüge
+  bezeichnung: Beiträge an Säule 3a Person 1, Anschluss 2. Säule (PK) ja/nein (Code 314)
+  key: abzug.vorsorge.saeule3a
+  belege:
+  - bescheinigung-saeule3a
+  feld: Bescheinigung der Vorsorgeeinrichtung (Bank-/Versicherungsstiftung) über Einzahlungen 2025
+  regel: 'Max. Fr. 7''258 mit Pensionskassenanschluss; ohne 2. Säule 20% des Erwerbseinkommens, max. Fr. 36''288. Feld «Anschluss 2. Säule (PK)» ankreuzen. Voraussetzung: AHV-pflichtige Erwerbstätigkeit
+    im Jahr, Vorsorgevertrag lautet auf die erwerbstätige Person, Erwerbseinkommen ausgewiesen. Höchstbeträge sind zugleich Einzahlungslimiten. Bescheinigung einreichen. Einkauf in Säule 3a erst ab 2026.'
+  werte_keys:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  bund: Gleiche Höchstbeträge bei der direkten Bundessteuer.
+  quellen:
+  - chunk: tg-form-01-2025__c0010
+    zitat: 13.1 Person 1   Anschluss 2. Säule (PK) m ja   314
+  - chunk: tg-wl-2025__c0090
+    zitat: Vorsorge (2. Säule) angehören   Fr. 7'258
+  - chunk: tg-stp-34-27__c0005
+    zitat: Fr. 7’258 | Fr. 36’288
+  status: extrahiert
+- ziffer: '13.2'
+  abschnitt: Abzüge
+  bezeichnung: Beiträge an Säule 3a Person 2, Anschluss 2. Säule (PK) ja/nein (Code 315)
+  key: abzug.vorsorge.saeule3a
+  belege:
+  - bescheinigung-saeule3a
+  feld: Bescheinigung der Vorsorgeeinrichtung für Person 2
+  regel: Wie Ziff. 13.1 für Person 2; jede erwerbstätige Person hat einen eigenen Abzug (Vorsorgenehmer).
+  werte_keys:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  quellen:
+  - chunk: tg-form-01-2025__c0010
+    zitat: 13.2 Person 2   Anschluss 2. Säule (PK) m ja   315
+  - chunk: tg-wl-2025__c0089
+    zitat: Bei gemeinsam besteuerten Personen (Ehe
+  status: extrahiert
+- ziffer: '14'
+  abschnitt: Abzüge
+  bezeichnung: Versicherungsprämien und Zinsen von Sparkapitalien (Formular 5.2, Code 330; Staat/Bund)
+  key: abzug.versicherungspraemien
+  belege:
+  - krankenkasse-praemien
+  - kontoauszug-zinsausweis
+  - versicherung-rueckkaufswert
+  feld: 'Formular 5.2 Abschnitt C (Code 330): tieferer Betrag von «A5» (bezahlte Prämien/Sparzinsen) und «B4» (Maximalabzug), getrennt Staat/Bund'
+  regel: 'Abzug = niedrigerer Betrag aus tatsächlichen Prämien+Sparzinsen und Maximum. Maximum Kanton: Fr. 7''000 gemeinsam besteuert / Fr. 3''500 übrige, + Fr. 1''000 je Kind/unterstützte Person. Maximum
+    Bund: Fr. 3''700 / Fr. 1''800 (ohne Beiträge an Säule 2/3a: Fr. 5''550 / Fr. 2''700, nicht kumulierbar), + Fr. 700 je Kind/unterstützte Person. Krankenkassenprämien netto nach Prämienverbilligung (IPV,
+    inkl. EL-Prämienverbilligung) deklarieren; ohne Deklaration der KK-Prämien kann der Abzug verweigert werden.'
+  werte_keys:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.kind
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  bund: 'Bund: Fr. 3''700 / Fr. 1''800 (+ Fr. 700 je Kind); ohne Säule 2/3a Fr. 5''550 / Fr. 2''700 (StP 34 Nr. 27 Ziff. 2.2, ab 2025).'
+  quellen:
+  - chunk: tg-form-01-2025__c0010
+    zitat: 14.   Versicherungsprämien und Zinsen von Sparkapitalien   Formular 5 330
+  - chunk: tg-form-05-2-2025__c0003
+    zitat: '1. Staatssteuer: der niedrigere Betrag von «A5» oder «B4 Staat»   330'
+  - chunk: tg-wl-2025__c0212
+    zitat: für gemeinsam besteuerte Personen   Fr. 7'000   Fr. 3'700
+  - chunk: tg-stp-34-27__c0002
+    zitat: Fr. 7’000 | Fr. 6’200
+  status: extrahiert
+- ziffer: '15.1'
+  abschnitt: Abzüge
+  bezeichnung: AHV-Beiträge für nichterwerbstätige Personen (Code 342)
+  key: abzug.ahv_nichterwerbstaetige
+  belege:
+  - ahv-beitragsverfuegung-nichterwerbstaetige
+  feld: AHV-Beitragsverfügung/Rechnung Ausgleichskasse
+  regel: In der Regel nur AHV/IV/EO- und FAK-Beiträge Nichterwerbstätiger. Beiträge Unselbständiger sind schon im Nettolohn berücksichtigt, solche Selbständiger im Reingewinn (Ziff. 2) – nicht nochmals
+    abziehen.
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 15.1 AHV-Beiträge für nichterwerbstätige Personen   342
+  - chunk: tg-wl-2025__c0093
+    zitat: Unter dieser Ziffer können in der Regel nur Beiträge an die AHV/IV/EO sowie FAK-Beiträge von
+  status: extrahiert
+- ziffer: '15.2'
+  abschnitt: Abzüge
+  bezeichnung: Beiträge an Einrichtungen der beruflichen Vorsorge Person 1 / Person 2 (Code 343 / 344)
+  key: abzug.vorsorge.saeule2_einkauf
+  belege:
+  - bescheinigung-pk-einkauf
+  - lohnausweis
+  feld: Bescheinigung der Vorsorgeeinrichtung (Formular 21 EDP) für selbst bezahlte, nicht vom Lohn abgezogene Einkäufe; Lohnausweis Ziff. 10.2 nur zur Kontrolle
+  regel: 'Nur soweit nicht im Lohnausweis abgezogen: Lohnausweis Ziff. 10.1 (ordentliche Beiträge) und Ziff. 10.2 (Einkäufe) sind bereits im Nettolohn (Ziff. 11) berücksichtigt und dürfen hier NICHT nochmals
+    abgezogen werden. Selbst entrichtete Einkäufe (Überweisung direkt an die PK) mit Bescheinigung der Vorsorgeeinrichtung. Selbständigerwerbende: nur Privatanteil (Arbeitgeberanteil bereits in Ziff. 2;
+    ohne Personal gilt die Hälfte als Arbeitgeberanteil).'
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 15.2 Beiträge an Einrichtungen der beruflichen Vorsorge
+  - chunk: tg-wl-2025__c0093
+    zitat: Die ordentlichen Beiträge sind in der Regel bereits vom Bruttolohn abgezogen
+  - chunk: bund-wl-lohnausweis-2026__c0037
+    zitat: Vom Arbeitnehmer selber entrichtete, d. h. nicht vom Lohn abgezogene Einkaufsbeiträge an
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
+    Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
+- ziffer: '15.3'
+  abschnitt: Abzüge
+  bezeichnung: Kosten für die Drittbetreuung von Kindern unter 14 Jahren (Code 345; Staat/Bund)
+  key: abzug.drittbetreuung
+  belege:
+  - kinderbetreuung-rechnungen
+  feld: Rechnungen/Bestätigungen Kita, Tagesmutter, Hort; Nachweis Erwerbstätigkeit/Ausbildung der Eltern
+  regel: 'Kumulativ: Kind unter 14, im Haushalt des unterhaltenden Elternteils, Kosten kausal wegen Erwerbstätigkeit/Ausbildung/Erwerbsunfähigkeit. Nur echte Betreuungskosten: ohne Gegenbeweis werden 75%
+    der Rechnung anerkannt (100% bei nachgewiesen reinen Betreuungskosten). Maximum pro Kind: Kanton Fr. 10''100; Bund Fr. 25''800. Tagesschule/Internat: pauschal Fr. 800 pro Jahr und Kind (StP 34 Nr. 24).
+    Getrennte Eltern: Abzug beim Elternteil im gleichen Haushalt; bei alternierender Obhut je max. die Hälfte des Maximalbetrags.'
+  werte_keys:
+  - drittbetreuung.max
+  - drittbetreuung.altersgrenze
+  bund: Bund max. Fr. 25'800 pro Kind (Kanton Fr. 10'100).
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 15.3 Kosten für die Drittbetreuung von Kindern unter 14 Jahren   345
+  - chunk: tg-wl-2025__c0096
+    zitat: Pro Kind können Sie kantonal die nachgewiesenen echten Kosten für die Drittbetreuung in Abzug
+  - chunk: tg-stp-34-27__c0007
+    zitat: 2025 | Fr. 10’100 | Fr. 25’800
+  - chunk: tg-wl-2025__c0096
+    zitat: bringen, maximal jedoch Fr. 10'100.
+  - chunk: tg-wl-2025__c0097
+    zitat: Bei der direkten Bundessteuer können maximal Fr. 25'800 der nachgewiesenen echten Kosten
+  - chunk: tg-wl-2025__c0097
+    zitat: bis höchstens zur Hälfte der gesetzlichen Maximalbeträge (50% von Fr. 25'500)
+  - chunk: tg-stp-34-24__c0010
+    zitat: kann unter dem Titel Betreuungskosten ein Abzug von Fr. 800 pro Jahr und Kind geltend gemacht werden
+  status: strittig
+  bemerkung: 'Bund-Maximum 2025: Kurzübersicht WL (S. 4), WL Ziff. 15.3 Satz ''maximal Fr. 25''800'' und StP 34 Nr. 27 Ziff. 4 nennen Fr. 25''800; die Erläuterung zur alternierenden Obhut in der WL (wl
+    c0102/c0103) rechnet dagegen mit ''50% von Fr. 25''500'' (Wert 2024 laut StP 34 Nr. 27). Vermutlich Redaktionsversehen der WL; Fachperson bestätigt. Kanton Fr. 10''100 unstrittig.'
+- ziffer: '15.4'
+  abschnitt: Abzüge
+  bezeichnung: Weitere Abzüge (nähere Bezeichnung) (Code 346)
+  key: abzug.uebrige
+  belege:
+  - privatrechnungen-alltag
+  feld: Aufstellung/Belege zum jeweiligen Abzug; Prämien NBU, AHV/IV/EO/FAK-Beiträge Erwerbstätiger
+  regel: 'Begründen und belegen. Beispiele: Prämien obligatorische Nichtberufsunfallversicherung (NBUV) oder AHV/IV/EO/FAK-Beiträge Erwerbstätiger, soweit nicht bereits in Ziff. 1/2 berücksichtigt. NICHT
+    hier: Prämien UVG-versicherter Nichterwerbstätiger (→ Ziff. 14), Vermögensverwaltungskosten (→ Formular 2), Einsatzkosten für nicht steuerbare Geldspielgewinne (nicht abziehbar).'
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: '15.4 Weitere Abzüge:   346'
+  - chunk: tg-wl-2025__c0099
+    zitat: Unter dieser Ziffer geltend gemachte Abzüge sind zu begründen und zu belegen.
+  status: extrahiert
+- ziffer: '15.5'
+  abschnitt: Abzüge
+  bezeichnung: Mitgliederbeiträge und Zuwendungen an politische Parteien (Formular 6, Code 347)
+  key: abzug.parteispenden
+  belege:
+  - parteispende
+  feld: Formular 6 Spalte «politische Parteien», Total (Code 347); Quittung ab Fr. 1'000 pro Zuwendung
+  regel: 'Voraussetzung: Partei im Parteienregister eingetragen und in einem kantonalen Parlament vertreten oder bei letzten Wahlen mind. 3% Stimmenanteil. Maximum Kanton Fr. 10''000, Bund Fr. 10''600.
+    Pauschalvermerke «Spenden an diverse Organisationen» werden nicht anerkannt.'
+  werte_keys:
+  - parteispenden.max
+  bund: Bund max. Fr. 10'600 (Kanton Fr. 10'000).
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 15.5 Mitgliederbeiträge und Zuwendungen an politische Parteien   Formular 6 347
+  - chunk: tg-form-06-2025__c0002
+    zitat: 'Staatssteuer: max. Fr. 10 000.– Bundessteuer: max. Fr. 10 600.–'
+  - chunk: tg-stp-34-27__c0008
+    zitat: 2025 | Fr. 10’000 | Fr. 10’600
+  status: extrahiert
+- ziffer: '15.6'
+  abschnitt: Abzüge
+  bezeichnung: Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 2 Hilfsblatt, Code 341; Staat/Bund)
+  key: abzug.teilbesteuerung_beteiligungen
+  belege:
+  - steuerauszug-bank
+  - dividenden-ausland-quellensteuer
+  feld: Formular 2 letzte Seite «Hilfsblatt qualifizierte Beteiligungen im Privatvermögen» Ziff. 3
+  regel: 'Für Beteiligungen ≥ 10% am Grund-/Stammkapital im Privatvermögen: Teilbesteuerungsabzug Kanton 40% (steuerbar 60%), Bund 30% (steuerbar 70%) vom Total der Beteiligungserträge. Antrag jedes Jahr
+    über das Hilfsblatt stellen, Nachweis der Voraussetzungen durch die steuerpflichtige Person (sonst 100%). Erträge selbst weiterhin in Spalte 8/9 des Wertschriftenverzeichnisses.'
+  bund: Teilbesteuerungsabzug Bund 30% (Kanton 40%).
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 15.6 Teilbesteuerungsabzug Beteiligungen im Privatvermögen   Formular 2 341
+  - chunk: tg-form-02-2025__c0008
+    zitat: 3. Teilbesteuerungsabzug (Staatssteuer 40% / Bundessteuer 30%)
+  - chunk: tg-wl-2025__c0166
+    zitat: besteuerungsabzugs   3 einzusetzende Teilbesteuerungsabzug beträgt 40% bei den Staats- und Gemeindesteuern und
+  status: extrahiert
+- ziffer: '16.1'
+  abschnitt: Abzüge
+  bezeichnung: Berufsorientierte Aus- und Weiterbildungskosten Person 1 (Code 348)
+  key: abzug.weiterbildung
+  belege:
+  - weiterbildung-rechnungen
+  - lohnausweis
+  feld: Kursrechnungen/Zahlungsnachweise mit Aufstellung; Lohnausweis Ziff. 13.3 (Arbeitgeberbeiträge)
+  regel: 'Selbst getragene berufsorientierte Aus- und Weiterbildungskosten bis max. Fr. 13''000 pro Person (Kanton und Bund). Ausgenommen: Kosten bis zum Abschluss der Erstausbildung (Berufslehre/Sekundarstufe
+    II); ohne Sek-II-Abschluss erst ab vollendetem 20. Lebensjahr. Nicht an Erwerbstätigkeit im Jahr gebunden. Kostenbeteiligungen Dritter (Arbeitgeber, Bund, Verbände) abziehen; Arbeitgeberbeiträge an
+    die Weiterbildung, die dem Arbeitnehmer vergütet wurden, stehen im Lohnausweis Ziff. 13.3 (direkt an das Bildungsinstitut bezahlte Beträge werden dort nicht bescheinigt, mindern aber ebenfalls die eigenen
+    Kosten). PC/Notebook/Smartphone etc. nur bei spezifischem Lehrgangsbezug mit ca. 50% Privatanteil. Liebhaberei/Selbstentfaltung nicht abziehbar.'
+  werte_keys:
+  - weiterbildung.max
+  bund: Maximum Fr. 13'000 auch beim Bund.
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 16.1 Person 1   348
+  - chunk: tg-wl-2025__c0102
+    zitat: maximal Fr. 13'000 pro Person beschränkt.
+  - chunk: tg-wl-2025__c0102
+    zitat: Kostenbeteiligungen Dritter (z.B. Arbeitgebende, Bund, Branchenverbände etc.) mindern die ab
+  - chunk: bund-wl-lohnausweis-2026__c0048
+    zitat: In diesem Feld sind alle effektiven Vergütungen des Arbeitgebers für berufsorientierte Aus-
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
+    Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
+- ziffer: '16.2'
+  abschnitt: Abzüge
+  bezeichnung: Berufsorientierte Aus- und Weiterbildungskosten Person 2 (Code 349)
+  key: abzug.weiterbildung
+  belege:
+  - weiterbildung-rechnungen
+  - lohnausweis
+  feld: Kursrechnungen/Zahlungsnachweise für Person 2; Lohnausweis Ziff. 13.3
+  regel: Wie Ziff. 16.1 für Person 2 (Maximum Fr. 13'000 pro Person).
+  werte_keys:
+  - weiterbildung.max
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 16.2 Person 2   349
+  - chunk: tg-wl-2025__c0102
+    zitat: Der Abzug ist sowohl bei den Staats- und Gemeindesteuern als auch bei der direkten Bundessteuer
+  status: extrahiert
+- ziffer: '17'
+  abschnitt: Abzüge
+  bezeichnung: Behinderungsbedingte Kosten (Formular 5.1 Abschnitt C, Code 350)
+  key: abzug.behinderungskosten
+  belege:
+  - arzt-zahnarzt-rechnungen
+  - krankenkasse-leistungen
+  - privatrechnungen-alltag
+  feld: 'Formular 5.1 Abschnitt C: Aufwendungen (A) abzüglich Vergütungen Dritter (B)'
+  regel: 'Selbst getragene behinderungsbedingte Kosten vollständig abziehbar (ohne Selbstbehalt), alternativ jährliche Pauschalen: gehörlos Fr. 2''500, Dialyse Fr. 2''500, Hilflosenentschädigung leicht
+    Fr. 2''500 / mittel Fr. 5''000 / schwer Fr. 7''500. Vergütungen Dritter (Krankenkasse, IV-Hilfsmittel, Hilflosenentschädigung, Pflegefinanzierung) und Anteil Lebenshaltungskosten (bei Heim i.d.R. Fr.
+    2''000/Monat) abziehen. Krankheits- und Unfallkosten gehören auch bei Behinderten in Ziff. 23.1 (mit Selbstbehalt).'
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 17.   Behinderungsbedingte Kosten   Formular 5 350
+  - chunk: tg-form-05-1-2025__c0003
+    zitat: Abzugsfähige behinderungsbedingte Kosten   350
+  - chunk: tg-wl-2025__c0202
+    zitat: – Bezügerinnen/Bezüger einer Hilflosenentschädigung mittleren Grades   Fr. 5'000
+  status: extrahiert
+- ziffer: '18'
+  abschnitt: Abzüge
+  bezeichnung: Zweiverdienerabzug (Code 356) – nur direkte Bundessteuer
+  key: abzug.zweiverdiener
+  belege: []
+  feld: Berechnung aus Erwerbseinkommen beider Personen (Nettolohn bzw. Reingewinn abzüglich Berufsauslagen, Säule 2 und 3a)
+  regel: 'Nur Bundesspalte: 50% des niedrigeren Erwerbseinkommens der gemeinsam besteuerten Personen, mindestens Fr. 8''600 und höchstens Fr. 14''100 (2025). Liegt das niedrigere Erwerbseinkommen unter
+    Fr. 8''600, kann nur dieser Betrag abgezogen werden. Erwerbseinkommen = Einkünfte nach Berufsauslagen sowie Beiträgen Säule 2/3a; Erwerbsausfallentschädigungen zählen mit; im vereinfachten Verfahren
+    versteuerte Löhne zählen nicht. Kanton: kein Zweiverdienerabzug.'
+  werte_keys:
+  - zweiverdiener.satz
+  - zweiverdiener.min
+  - zweiverdiener.max
+  bund: 'Nur Bund: 50% des niedrigeren Erwerbseinkommens, min. Fr. 8''600, max. Fr. 14''100 (2025); Kanton kein Abzug.'
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 18.   Zweiverdienerabzug   356
+  - chunk: tg-wl-2025__c0104
+    zitat: Bei den Staats- und Gemeindesteuern besteht keinen solcher Abzug.
+  - chunk: tg-stp-34-27__c0009
+    zitat: '- mindestens | Fr. 8’600 | Fr. 8’500'
+  - chunk: tg-stp-34-25__c0001
+    zitat: Im Gesetz über die Staats- und Gemeindesteuern des Kantons Thurgau ist kein Zweiverdienerabzug vorgesehen.
+  status: extrahiert
+- ziffer: '19'
+  abschnitt: Abzüge
+  bezeichnung: Total Abzüge, zu übertragen in Ziffer 21 (Code 360; Staat/Bund)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile (Summe Ziff. 10–18)
+  regel: Summe der Abzüge Ziff. 10 bis 18, je Spalte Staatssteuer/Bundessteuer; Übertrag in Ziff. 21.
+  quellen:
+  - chunk: tg-form-01-2025__c0011
+    zitat: 19.   Total Abzüge, zu übertragen in Ziffer 21   360
+  status: extrahiert
+- ziffer: '20'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Total der Einkünfte, Übertrag von Seite 2 (Ziffer 6 oder 9)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile (Übertrag Ziff. 6 bzw. 9)
+  regel: Ohne Liegenschaften Ziff. 6, mit Liegenschaften Ziff. 9 übertragen; Vorzeichen bei negativem Betrag.
+  quellen:
+  - chunk: tg-form-01-2025__c0012
+    zitat: 20.   Total der Einkünfte, Übertrag von Seite 2 (Ziffer 6 oder 9)
+  status: extrahiert
+- ziffer: '21'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Total der Abzüge, Übertrag von Ziffer 19
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile (Übertrag Ziff. 19)
+  regel: Übertrag Total Abzüge Ziff. 19, je Spalte Staat/Bund.
+  quellen:
+  - chunk: tg-form-01-2025__c0012
+    zitat: 21.   Total der Abzüge, Übertrag von Ziffer 19
+  status: extrahiert
+- ziffer: '22'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Nettoeinkommen (Code 362; Staat/Bund)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile (Ziff. 20 minus Ziff. 21)
+  regel: 'Basis für den Selbstbehalt Krankheitskosten (5%) und das Maximum der Zuwendungen (20%): Staats- und Bundesspalte getrennt verwenden.'
+  quellen:
+  - chunk: tg-form-01-2025__c0012
+    zitat: 22.   Nettoeinkommen   362
+  - chunk: tg-wl-2025__c0206
+    zitat: ziehen Sie einen Selbstbehalt von 5% des Nettoeinkommens gemäss Ziffer 22 der Steuererklä
+  status: extrahiert
+- ziffer: '23.1'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Krankheits- und Unfallkosten (Formular 5.1 Abschnitt D, Code 364; Staat/Bund)
+  key: abzug.krankheitskosten
+  belege:
+  - arzt-zahnarzt-rechnungen
+  - krankenkasse-leistungen
+  feld: 'Formular 5.1 Abschnitt D: (A Aufwendungen – B Vergütungen) abzüglich 5% Selbstbehalt von Ziff. 22'
+  regel: 'Selbst getragene Kosten über 5% des Nettoeinkommens (Ziff. 22; Staat und Bund je mit eigener Spalte) für sich und Personen mit Kinder-/Unterstützungsabzug. Vergütungen der Krankenkasse/Versicherungen/Hilflosenentschädigung
+    und Anteil Lebenshaltungskosten abziehen. Nicht abziehbar: Krankenkassenprämien, Fahrkosten zum Arzt (ausser dauernde Pflegebedürftigkeit), Fitness/Schönheitsbehandlungen, nicht ärztlich verordnete
+    Akupunktur/Prävention. Diät-Pauschale Fr. 2''500 bei lebensnotwendiger Diät (z.B. Zöliakie, nicht Diabetes), ausgeschlossen bei Leistungen Dritter. Belege zusammenstellen und einreichen.'
+  werte_keys:
+  - krankheitskosten.selbstbehalt_satz
+  bund: Selbstbehalt 5% des Bundes-Nettoeinkommens (rechte Spalte Ziff. 22).
+  quellen:
+  - chunk: tg-form-01-2025__c0012
+    zitat: 23.1 Krankheits- und Unfallkosten   Formular 5 364
+  - chunk: tg-form-05-1-2025__c0004
+    zitat: abzüglich Selbstbehalt (5% von Ziffer 22 der Steuererklärung)
+  - chunk: tg-wl-2025__c0197
+    zitat: Soweit Sie die Kosten selber tragen und diese 5% des Nettoeinkommens (Ziffer 22) übersteigen,
+  - chunk: tg-wl-2025__c0198
+    zitat: labzug ist in jedem Fall mangels selbst getragenen Mehrkosten ausgeschlossen, wenn Leistungen
+  status: extrahiert
+- ziffer: '23.2'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Freiwillige Zuwendungen (Formular 6, Code 366; Staat/Bund)
+  key: abzug.spenden
+  belege:
+  - spendenbestaetigung
+  feld: Formular 6 Spalte «gemeinnützige oder öffentliche Zwecke» (Code 366); Bestätigung ab Fr. 1'000 pro Zuwendung
+  regel: 'Zuwendungen an in der Schweiz ansässige steuerbefreite Institutionen (öffentliche/gemeinnützige Zwecke; Liste der Steuerverwaltung). Kanton: Selbstbehalt Fr. 200 (nur der übersteigende Betrag),
+    max. Fr. 8''000 bei Nettoeinkommen bis Fr. 40''000, sonst max. 20% des Nettoeinkommens (Ziff. 22). Bund: ab Gesamtbetrag Fr. 100, ohne Selbstbehalt, max. 20% des Nettoeinkommens. Nicht abziehbar: religiöse,
+    wohltätige, kulturelle, gesellige, sportliche Zwecke, Auslandssitz, ehrenamtliche Arbeit; keine Sammelvermerke.'
+  werte_keys:
+  - spenden.min
+  - spenden.max_satz
+  bund: 'Bund: Mindestbetrag Fr. 100 (Gesamtbetrag), ohne Selbstbehalt, max. 20% des Nettoeinkommens; Kanton: Selbstbehalt Fr. 200, max. Fr. 8''000 bzw. 20%.'
+  quellen:
+  - chunk: tg-form-01-2025__c0012
+    zitat: 23.2 Freiwillige Zuwendungen   Formular 6 366
+  - chunk: tg-form-06-2025__c0002
+    zitat: 'Nettoeinkommen (gem. Ziff. 22) über Fr. 40000.–: max. 20% vom Nettoeinkommen   366'
+  - chunk: tg-wl-2025__c0218
+    zitat: Soweit die freiwilligen Zuwendungen gesamthaft Fr. 200 übersteigen, können Sie kantonal bei ei
+  status: extrahiert
+- ziffer: '23.3'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Separat zu besteuernde Liquidationsgewinne (Code 368; Staat/Bund)
+  key: abzug.uebrige
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Berechnung Liquidationsgewinn (Formular 14a), Geschäftsabschlüsse der letzten zwei Jahre
+  regel: 'Bei definitiver Geschäftsaufgabe nach vollendetem 55. Altersjahr oder wegen Invalidität: in den letzten zwei Geschäftsjahren realisierte stille Reserven werden getrennt privilegiert besteuert;
+    hier den in Ziff. 2.1/2.2 enthaltenen Liquidationsgewinn von den ordentlichen Einkünften abziehen.'
+  quellen:
+  - chunk: tg-form-01-2025__c0012
+    zitat: 23.3 Separat zu besteuernde Liquidationsgewinne   368
+  - chunk: tg-wl-2025__c0106
+    zitat: Erfüllen Sie die entsprechenden Voraussetzungen, können Sie die im Geschäftsergebnis in den
+  status: extrahiert
+- ziffer: '24'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Reineinkommen (Ziffer 22 abzüglich Ziffern 23.1 bis 23.3) (Code 372)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile
+  regel: Ziff. 22 minus Ziff. 23.1–23.3, je Spalte Staat/Bund. Das Reineinkommen (Staat) ist satzbestimmend für den Abzug Ziff. 25.3.
+  quellen:
+  - chunk: tg-form-01-2025__c0012
+    zitat: 24.   Reineinkommen (Ziffer 22 abzüglich Ziffern 23.1 bis 23.3)   372
+  status: extrahiert
+- ziffer: 25.1 a) Jg. 2000–2005
+  abschnitt: Einkommensberechnung
+  bezeichnung: Kinderabzug für jedes Kind in Ausbildung mit Jahrgang 2000–2005 (Code 380; Staat Fr. 10'600 / Bund Fr. 6'800)
+  key: sozialabzug.kinder
+  belege: []
+  feld: 'Formular 1 Seite 1 (Kinder: Geburtsdatum, Ausbildung); Anzahl Kinder'
+  regel: 'Pro Kind in Ausbildung (Stichtag 31.12.2025): Kanton Fr. 10''600, Bund Fr. 6''800. Nur eigene Kinder (nicht Pflege-/Stiefkinder); kein Abzug, wenn das volljährige Kind ein Einkommen für den selbständigen
+    Lebensunterhalt erzielt. Zuteilung bei getrennt besteuerten Eltern nach Alimenten/Sorgerecht/Obhut; Kanton und Bund haben unterschiedliche Regeln (Kanton hälftig nur bei gemeinsamem Sorgerecht UND alternierender
+    Obhut ohne Alimente).'
+  werte_keys:
+  - sozialabzug.kind_ausbildung_auswaerts
+  - sozialabzug.kind
+  bund: Bund Fr. 6'800 pro Kind (alle Jahrgänge).
+  quellen:
+  - chunk: tg-form-01-2025__c0013
+    zitat: 25.1 a) für jedes Kind in Ausbildung mit Jahrg. 2000 – 2005   Fr. 10 600   Fr. 6800   380
+  - chunk: tg-stp-36-1__c0006
+    zitat: pro Kind | Fr. 7’400 | Fr. 7’300
+  - chunk: tg-wl-2025__c0108
+    zitat: Erzielt ein volljähriges Kind, obwohl es eine Ausbildung absolviert, ein Einkommen, das einen selb
+  status: extrahiert
+- ziffer: 25.1 a) Jg. 2006–2009
+  abschnitt: Einkommensberechnung
+  bezeichnung: Kinderabzug für jedes Kind in Ausbildung mit Jahrgang 2006–2009 (Code 382; Staat Fr. 8'500 / Bund Fr. 6'800)
+  key: sozialabzug.kinder
+  belege: []
+  feld: 'Formular 1 Seite 1 (Kinder: Geburtsdatum, Ausbildung)'
+  regel: 'Kinder ab vollendetem 16. Altersjahr in Ausbildung: Kanton Fr. 8''500, Bund Fr. 6''800. Zuteilungs- und Stichtagsregeln wie bei Code 380.'
+  werte_keys:
+  - sozialabzug.kind_ausbildung
+  bund: Bund Fr. 6'800.
+  quellen:
+  - chunk: tg-form-01-2025__c0013
+    zitat: mit Jahrg. 2006 – 2009   Fr. 8 500   Fr. 6800   382
+  - chunk: tg-stp-36-1__c0006
+    zitat: Fr. 8’500 | Fr. 8’300
+  status: extrahiert
+- ziffer: 25.1 b)
+  abschnitt: Einkommensberechnung
+  bezeichnung: Kinderabzug für jedes übrige Kind (Code 384; Staat Fr. 7'400 / Bund Fr. 6'800)
+  key: sozialabzug.kinder
+  belege: []
+  feld: 'Formular 1 Seite 1 (Kinder: Geburtsdatum)'
+  regel: 'Alle übrigen (nicht selbständig besteuerten, minderjährigen oder erwerbsunfähigen) Kinder: Kanton Fr. 7''400, Bund Fr. 6''800. Kinder mit Alimentenbezug (Ziff. 5.2): Abzug beim empfangenden Elternteil.
+    Zusätzlich: Steuergutschrift Ziff. 28.1 und Versicherungs-/Vermögensfreibetrag je Kind.'
+  werte_keys:
+  - sozialabzug.kind
+  bund: Bund Fr. 6'800.
+  quellen:
+  - chunk: tg-form-01-2025__c0013
+    zitat: b) für jedes übrige Kind   Fr. 7 400   Fr. 6800   384
+  - chunk: tg-wl-2025__c0009
+    zitat: für jedes übrige Kind   Fr. 7'400   Fr. 6'800
+  status: extrahiert
+- ziffer: '25.2'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Unterstützungsabzug für jede unterstützte Person (Code 386; Staat Fr. 2'700 / Bund Fr. 6'800)
+  key: sozialabzug.unterstuetzung
+  belege: []
+  feld: Formular 1 Seite 1 (Erwerbsunfähige und unterstützungsbedürftige Personen); Bestätigung der Wohnsitzgemeinde/Fürsorgebehörde
+  regel: 'Kanton Fr. 2''700, wenn zur Hauptsache für den Unterhalt einer erwerbsunfähigen, unterstützungsbedürftigen Person aufgekommen wird (Praxis: mind. 50% des betreibungsrechtlichen Existenzminimums).
+    Bund Fr. 6''800 bei nachgewiesenem Beitrag von mind. Fr. 6''800. Nicht für Ehegatte oder Kinder mit Kinderabzug/Unterhaltsabzug.'
+  werte_keys:
+  - sozialabzug.unterstuetzung
+  bund: Bund Fr. 6'800 (Kanton Fr. 2'700).
+  quellen:
+  - chunk: tg-form-01-2025__c0013
+    zitat: 25.2 für jede unterstützte Person   Fr. 2 700   Fr. 6800   386
+  - chunk: tg-stp-36-1__c0006
+    zitat: Für jede unterstützte Person | Fr. 2’700 | Fr. 2’700
+  - chunk: tg-wl-2025__c0114
+    zitat: dürftigen Person auf, können Sie kantonal Fr. 2 700 abziehen.
+  status: extrahiert
+- ziffer: '25.3'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Abzug für Personen mit AHV-Altersrenten sowie erwerbsunfähige oder verwitwete Personen (Code 388; nur Staat)
+  key: sozialabzug.alter_iv
+  belege:
+  - rentenbescheinigung-ahv-iv
+  feld: Reineinkommen Ziff. 24 (Staat); Rentenbescheinigung AHV/IV
+  regel: 'Nur Staats-/Gemeindesteuer: max. Fr. 4''200, abnehmend nach satzbestimmendem Reineinkommen Ziff. 24 (Alleinstehende voll bis Fr. 17''899, Ehepaare bis Fr. 25''299; je volle Fr. 1''000 Mehreinkommen
+    Reduktion um Fr. 200; kein Abzug ab Fr. 37''900 bzw. Fr. 45''300). Tabelle in der Wegleitung (S. 25).'
+  werte_keys:
+  - sozialabzug.alter_iv
+  bund: 'Bund: kein Abzug.'
+  quellen:
+  - chunk: tg-form-01-2025__c0013
+    zitat: 25.3 für Personen mit AHV-Altersrenten sowie erwerbsunfähige oder verwitwete Personen   388
+  - chunk: tg-wl-2025__c0116
+    zitat: bis   17'899   bis   25'299   4'200
+  - chunk: tg-vakp__par-1
+    zitat: beträgt das Reineinkommen mehr als Fr. 16'900, bei Steuerpflichtigen in ungetrennter Ehe mehr als Fr. 24'300, ermässigt sich der Abzug je Fr. 1'000 Mehreinkommen um Fr. 200
+  status: extrahiert
+  bemerkung: 'Wegleitungstabelle: Zeile ''36''900–37''689'' ist offensichtlich ein Druckfehler für 37''899 (Gesetz/VAKP: Reduktion in 1''000er-Schritten bis 0 bei 37''900 bzw. 45''300); Tabelle vor Anwendung
+    gegen WL S. 25 prüfen.'
+- ziffer: '25.4'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Abzug für gemeinsam besteuerte Personen (Code 390; nur Bund Fr. 2'800)
+  key: sozialabzug.verheiratete
+  belege: []
+  feld: Rechenzeile (Zivilstand)
+  regel: 'Nur direkte Bundessteuer: Fr. 2''800 für gemeinsam besteuerte Eheleute/Partner; bei Staats- und Gemeindesteuern kein solcher Abzug.'
+  werte_keys:
+  - sozialabzug.verheiratete
+  bund: 'Nur Bund: Fr. 2''800; Kanton kein Abzug.'
+  quellen:
+  - chunk: tg-form-01-2025__c0013
+    zitat: 25.4 für gemeinsam besteuerte Personen   390
+  - chunk: tg-wl-2025__c0118
+    zitat: Gemeinsam besteuerten Eheleute bzw. Partnerinnen und Partner einer eingetragenen Partner
+  - chunk: tg-stp-36-1__c0008
+    zitat: für gemeinsam steuerpflichtige Personen | Fr. 2’800
+  status: extrahiert
+- ziffer: '26'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Steuerbares Einkommen (Ziffer 24 abzüglich Ziffern 25.1 bis 25.4) (Code 398)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile
+  regel: Reineinkommen Ziff. 24 minus Sozialabzüge Ziff. 25.1–25.4, je Spalte Staat/Bund.
+  quellen:
+  - chunk: tg-form-01-2025__c0013
+    zitat: 26.   STEUERBARES EINKOMMEN (Ziffer 24 abzüglich Ziffern 25.1 bis 25.4)   398
+  status: extrahiert
+- ziffer: '28.1'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Steuergutschrift Kanton für minderjährige Kinder (Anzahl Kinder)
+  key: sozialabzug.kinder
+  belege: []
+  feld: Anzahl minderjährige Kinder mit Kinderabzug (Formular 1 Seite 1)
+  regel: 'Kein Abzug vom Einkommen, sondern Steuergutschrift mit der Schlussrechnung: max. Fr. 100 je minderjähriges Kind mit Kinderabzug; keine Auszahlung über den Steuerbetrag hinaus. Nur Anzahl eintragen.'
+  quellen:
+  - chunk: tg-form-01-2025__c0013
+    zitat: '28.1 Kanton: Steuergutschrift für minderjährige Kinder   Anzahl Kinder'
+  - chunk: tg-wl-2025__c0118
+    zitat: gutschrift von maximal Fr. 100.
+  status: extrahiert
+- ziffer: '28.2'
+  abschnitt: Einkommensberechnung
+  bezeichnung: 'Bund: Ermässigung Steuerbetrag für Kinder und unterstützungsbedürftige Personen (Anzahl Personen)'
+  key: sozialabzug.kinder
+  belege: []
+  feld: Anzahl Kinder/unterstützte Personen im gleichen Haushalt (Elterntarif)
+  regel: 'Kein Einkommensabzug: Abzug vom Steuerbetrag Fr. 263 pro Kind bzw. unterstützte Person (Elterntarif), für Personen, die mit Kindern/unterstützungsbedürftigen Personen im gleichen Haushalt leben
+    und deren Unterhalt zur Hauptsache bestreiten. Nur Anzahl eintragen.'
+  werte_keys:
+  - steuerbetrag.abzug_kind
+  bund: 'Nur Bund: Fr. 263 pro Kind/unterstützte Person vom Steuerbetrag.'
+  quellen:
+  - chunk: tg-form-01-2025__c0013
+    zitat: '28.2 Bund: Ermässigung Steuerbetrag für Kinder und unterstützungsbedürftige Personen   Anzahl Personen'
+  - chunk: tg-wl-2025__c0119
+    zitat: Fr. 263 pro Kind und/oder pro unterstützte Person vom Steuerbetrag geltend machen.
+  - chunk: tg-stp-36-1__c0007
+    zitat: Ermässigung Steuerbetrag pro Kind\* | Fr. 263 | Fr. 259
+  status: extrahiert
+- ziffer: '30.1'
+  abschnitt: Vermögen
+  bezeichnung: Wertschriften und Guthaben (Formular 2, Code 410)
+  key: vermoegen.wertschriften_guthaben
+  belege:
+  - steuerauszug-bank
+  - depotauszug
+  - kontoauszug-zinsausweis
+  - krypto-auszug
+  feld: Formular 2 Ziff. 9 Total Steuerwert (Code 410); Bank-/Postauszüge per 31.12.2025
+  regel: 'Steuerwert per 31.12.2025 (kotiert: Börsenkurs Ende Dezember bzw. Kursliste ESTV; nicht kotiert: Verkehrswert). Ansprüche gegen PK, Freizügigkeitskonten und Säule 3a bis zur Fälligkeit steuerfrei
+    – nicht deklarieren. Vermögen und Erträge von Kindern unter elterlicher Sorge (Jahrgang 2008 und jünger) mitdeklarieren.'
+  quellen:
+  - chunk: tg-form-01-2025__c0014
+    zitat: 30.1 Wertschriften und Guthaben   Formular 2 410
+  - chunk: tg-wl-2025__c0143
+    zitat: Für in der Schweiz kotierte Wertpapiere gilt der Börsenkurs Ende des Monats Dezember 2025.
+  status: extrahiert
+- ziffer: '30.2'
+  abschnitt: Vermögen
+  bezeichnung: Bargeld, Gold und andere Edelmetalle (Code 412)
+  key: vermoegen.bargeld_edelmetalle
+  belege: []
+  feld: Bestandesaufnahme per 31.12.2025; Kursliste ESTV
+  regel: Inländisches Bargeld mit Bestand; ausländisches Bargeld, Gold und Edelmetalle zum Verkehrswert per 31.12.2025 (amtliche Kursliste).
+  quellen:
+  - chunk: tg-form-01-2025__c0014
+    zitat: 30.2 Bargeld, Gold und andere Edelmetalle   412
+  - chunk: tg-wl-2025__c0122
+    zitat: Inländisches Bargeld ist mit dem Bestand per 31. Dezember 2025 aufzuführen.
+  status: extrahiert
+- ziffer: '30.3'
+  abschnitt: Vermögen
+  bezeichnung: Lebens- und Rentenversicherungen, Rückkaufswert inkl. Überschussguthaben (Code 420)
+  key: vermoegen.lebensversicherungen
+  belege:
+  - versicherung-rueckkaufswert
+  feld: Steuerwertbescheinigung des Versicherers per 31.12.2025
+  regel: Steuerwert = Rückkaufswert inkl. Überschuss-/Gewinnanteile; auch Rentenversicherungen während der Rentenlaufzeit. Pro Police Gesellschaft, Abschluss-/Ablaufjahr, Versicherungssumme und Steuerwert
+    erfassen; Bescheinigung beilegen.
+  quellen:
+  - chunk: tg-form-01-2025__c0014
+    zitat: Total Steuerwert Lebens- und Rentenversicherungen   420
+  - chunk: tg-wl-2025__c0122
+    zitat: Kapital- und Rentenversicherungen unterliegen mit ihrem Steuerwert (Rückkaufswert inkl. Über
+  status: extrahiert
+- ziffer: '30.4'
+  abschnitt: Vermögen
+  bezeichnung: Motorfahrzeuge (Marke, Kaufpreis, Anschaffungsjahr) (Code 422)
+  key: vermoegen.fahrzeuge
+  belege:
+  - fahrzeugausweis-arbeitsweg
+  feld: Fahrzeugausweis/Kaufvertrag (Kaufpreis, Anschaffungsjahr)
+  regel: 'Verkehrswert per 31.12.2025: Kaufpreis abzüglich 20% pro Jahr seit Erwerb; vor mehr als 5 Jahren gekaufte Fahrzeuge pro memoria Fr. 1.–. Geleaste Fahrzeuge nicht deklarieren. Oldtimer/Liebhaberfahrzeuge
+    zum Verkehrswert unter Ziff. 30.6.'
+  quellen:
+  - chunk: tg-form-01-2025__c0014
+    zitat: Total Steuerwert der Motorfahrzeuge   422
+  - chunk: tg-wl-2025__c0123
+    zitat: Für die Ermittlung des Verkehrswerts kann pro Jahr seit Erwerb eine Wertvermin
+  status: extrahiert
+- ziffer: '30.5'
+  abschnitt: Vermögen
+  bezeichnung: Anteile an unverteilten Erbschaften (Formular 3) (Code 424)
+  key: vermoegen.erbschaften_beteiligungen
+  belege:
+  - erbschaft-schenkung
+  feld: Inventar/Aufstellung der Erbengemeinschaft
+  regel: Anteil am Vermögen nach Erbquote; Ertragsanteil in Ziff. 5.3. Bei Erbanfall ≥ Fr. 50'000 während der Steuerperiode wird das hinzugekommene Vermögen ab Erbanfall (nicht für das ganze Jahr) besteuert.
+  quellen:
+  - chunk: tg-form-01-2025__c0014
+    zitat: 30.5 Anteile an unverteilten Erbschaften   Formular 3 424
+  - chunk: tg-wl-2025__c0123
+    zitat: Die Anteile an unverteilten Erbschaften und Nutzniessungen werden den einzelnen erbenden oder
+  status: extrahiert
+- ziffer: '30.6'
+  abschnitt: Vermögen
+  bezeichnung: Übrige Vermögenswerte, nähere Bezeichnung (Code 426)
+  key: vermoegen.uebrige
+  belege: []
+  feld: Aufstellung zum Verkehrswert per 31.12.2025
+  regel: 'Wohnwagen, Wohnmobile, Oldtimer, Boote, Flugzeuge, Reitpferde, Kunst/Schmuck, Sammlungen, immaterielle Güter: genau bezeichnen, Verkehrswert per 31.12. Hausrat ist steuerfrei.'
+  quellen:
+  - chunk: tg-form-01-2025__c0014
+    zitat: '30.6 Übrige Vermögenswerte, nähere Bezeichnung:   426'
+  - chunk: tg-wl-2025__c0123
+    zitat: Unter die übrigen Vermögenswerte fallen z.B. Wohnwagen, Wohnmobile, Oldtimer, Liebhaberfahr
+  status: extrahiert
+- ziffer: '31'
+  abschnitt: Vermögen
+  bezeichnung: Liegenschaften (Formular 7, Code 430)
+  key: vermoegen.liegenschaften
+  belege:
+  - liegenschaft-schaetzung-eigenmietwert
+  feld: Formular 7 Total Steuerwerte (Code 430); Liegenschaftensteuerrechnung / amtliche Schätzung
+  regel: 'Rechtskräftiger amtlicher Verkehrswert am Ende der Steuerperiode (landwirtschaftliche Liegenschaften: Ertragswert). Ausserkantonale/ausländische Liegenschaften zum dortigen Steuerwert; Anpassung
+    (Repartitionswert) durch die Veranlagungsbehörde. Unfertige Bauten: noch nicht geschätzte Investitionen angemessen berücksichtigen.'
+  quellen:
+  - chunk: tg-form-01-2025__c0015
+    zitat: 31.   Liegenschaften   Formular 7 430
+  - chunk: tg-wl-2025__c0239
+    zitat: Für nichtlandwirtschaftliche Liegenschaften geben Sie den am Ende der Steuerperiode bzw. der
+  status: extrahiert
+- ziffer: '32.1'
+  abschnitt: Vermögen
+  bezeichnung: Geschäftskapital in Kollektiv- und Kommanditgesellschaft (Code 440)
+  key: vermoegen.erbschaften_beteiligungen
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Bescheinigung der Gesellschaft über den Vermögensanteil
+  regel: Anteil am Vermögen der Gesellschaft gemäss Bescheinigung der Gesellschaft; die Gesellschaft wird nicht als Einheit besteuert.
+  quellen:
+  - chunk: tg-form-01-2025__c0015
+    zitat: 32.1 Geschäftskapital in Kollektiv- und Kommanditgesellschaft   440
+  - chunk: tg-wl-2025__c0124
+    zitat: Kollektiv- und Kommanditgesellschaften werden nicht als Einheit besteuert.
+  status: extrahiert
+- ziffer: 32.2–32.5
+  abschnitt: Vermögen
+  bezeichnung: 'Betriebsvermögen Einzelfirma: Bankkonti/Wertschriften/Guthaben, Vorräte, Viehhabe, Anlagevermögen ohne Grundeigentum'
+  key: vermoegen.erbschaften_beteiligungen
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Bilanz bzw. unterzeichnete Aufstellung Aktiven/Passiven
+  regel: Wertschriften zum bilanzierten Wert; Debitoren mit vollen Forderungsbeträgen; Vorräte zu Anschaffungs-/Herstellungskosten oder tieferem Marktpreis; Anlagevermögen zum Verkehrswert. Liegenschaften
+    in Ziff. 31 (nicht hier). Unterzeichnete Bilanz/Erfolgsrechnung beilegen.
+  quellen:
+  - chunk: tg-form-01-2025__c0015
+    zitat: 32.5 Anlagevermögen ohne Grundeigentum (Fahrzeuge, Maschinen/Mobiliar usw.)
+  - chunk: tg-wl-2025__c0125
+    zitat: Setzen Sie das Anlagevermögen wie Maschinen, Werkzeuge, Mobilien oder Fahrzeuge mit dem
+  status: extrahiert
+- ziffer: '32.6'
+  abschnitt: Vermögen
+  bezeichnung: Total Geschäftsvermögen (Ziffern 32.2 bis 32.5) oder lt. Bilanz (Code 442)
+  key: vermoegen.erbschaften_beteiligungen
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Rechenzeile / Bilanz
+  regel: Summe 32.2–32.5 oder Eigenkapital gemäss Bilanz. Die Steuerverwaltung meldet das arbeitende Eigenkapital der Ausgleichskasse.
+  quellen:
+  - chunk: tg-form-01-2025__c0015
+    zitat: 32.6 Total Geschäftsvermögen (Ziffern 32.2 bis 32.5) oder lt. Bilanz   Fr.   442
+  status: extrahiert
+- ziffer: '33'
+  abschnitt: Vermögen
+  bezeichnung: Total der Vermögenswerte (Ziffern 30.1 bis 32.6) (Code 464)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile
+  regel: Summe Ziff. 30.1 bis 32.6 (nur Staats- und Gemeindesteuer; das Vermögen wird nur kantonal besteuert).
+  quellen:
+  - chunk: tg-form-01-2025__c0015
+    zitat: 33.   Total der Vermögenswerte (Ziffern 30.1 bis 32.6)   464
+  - chunk: tg-wl-2025__c0120
+    zitat: Das Vermögen wird nur kantonal besteuert.
+  status: extrahiert
+- ziffer: '34'
+  abschnitt: Vermögen
+  bezeichnung: Schulden (Formular 4.1, Code 466)
+  key: schulden.privat
+  belege:
+  - hypothekarbestaetigung
+  - kredit-darlehen-schuldzinsen
+  - leasingvertrag
+  feld: Formular 4.1 Ziff. C Total Privat- und Geschäftsschulden (Code 466); Bank-/Gläubigerbestätigungen per 31.12.2025
+  regel: 'Schuldenverzeichnis mit Gläubiger (genaue Adresse), Zinssatz, Schuld am 31.12. und fälligen Schuldzinsen. Rentenverpflichtungen mit Barwert, wenn gegen Entgelt zugesichert. Totale: Schulden →
+    Ziff. 34, Schuldzinsen → Ziff. 11.'
+  quellen:
+  - chunk: tg-form-01-2025__c0015
+    zitat: 34.   Schulden   Formular 4.1 466
+  - chunk: tg-wl-2025__c0127
+    zitat: Deklarieren Sie Schulden, füllen Sie das Formular 4.1
+  status: extrahiert
+- ziffer: '35'
+  abschnitt: Vermögen
+  bezeichnung: Reinvermögen (Ziffer 33 abzüglich Ziffer 34) (Code 468)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile
+  regel: Ziff. 33 minus Ziff. 34.
+  quellen:
+  - chunk: tg-form-01-2025__c0015
+    zitat: 35.   Reinvermögen (Ziffer 33 abzüglich Ziffer 34)   468
+  status: extrahiert
+- ziffer: '36.1'
+  abschnitt: Vermögen
+  bezeichnung: Steuerfreier Abzug für gemeinsam besteuerte Personen Fr. 200'000 (Code 470)
+  key: vermoegen.sozialabzug
+  belege: []
+  feld: Zivilstand (Stichtag 31.12.2025)
+  regel: Fr. 200'000 für gemeinsam besteuerte Personen (Stichtag 31.12.2025 bzw. Ende der Steuerpflicht).
+  werte_keys:
+  - vermoegen.freibetrag_verheiratet
+  quellen:
+  - chunk: tg-form-01-2025__c0016
+    zitat: 36.1 Abzug für gemeinsam besteuerte Personen (Eheleute / Partnerinnen oder Partner)   Fr. 200000   470
+  - chunk: tg-wl-2025__c0128
+    zitat: – gemeinsam besteuerte Personen   Fr. 200'000
+  status: extrahiert
+- ziffer: '36.2'
+  abschnitt: Vermögen
+  bezeichnung: Steuerfreier Abzug für alleinstehende Personen Fr. 100'000 (Code 472)
+  key: vermoegen.sozialabzug
+  belege: []
+  feld: Zivilstand (Stichtag 31.12.2025)
+  regel: Fr. 100'000 für ledige, getrenntlebende, geschiedene oder verwitwete Personen.
+  werte_keys:
+  - vermoegen.freibetrag_alleinstehend
+  quellen:
+  - chunk: tg-form-01-2025__c0016
+    zitat: 36.2 Abzug für alleinstehende Personen   Fr. 100000   472
+  - chunk: tg-wl-2025__c0128
+    zitat: – ledige, getrenntlebende, geschiedene oder verwitwete Personen   Fr. 100'000
+  status: extrahiert
+- ziffer: '36.3'
+  abschnitt: Vermögen
+  bezeichnung: Steuerfreier Abzug für jedes nicht selbständig besteuerte Kind, Jahrgang 2008 und jünger, Fr. 100'000 (Code 474)
+  key: vermoegen.sozialabzug
+  belege: []
+  feld: 'Formular 1 Seite 1 (Kinder: Geburtsdatum)'
+  regel: Fr. 100'000 pro Kind (Jahrgang 2008 und jünger). Im Mündigkeitsjahr werden Kinder selbständig besteuert – dann kein Freibetrag der Eltern. Bei getrennt besteuerten Eltern erhält ihn der Elternteil
+    mit Kinderabzug; hälftige Teilung nur bei gemeinsamem Sorgerecht, alternierender Obhut und ohne Alimente.
+  werte_keys:
+  - vermoegen.freibetrag_kind
+  quellen:
+  - chunk: tg-form-01-2025__c0016
+    zitat: 36.3 Abzug für jedes nicht selbständig besteuerte Kind (Jahrgang 2008 und jüngere)   Fr. 100000   474
+  - chunk: tg-wl-2025__c0128
+    zitat: – für jedes nicht selbständig besteuerte Kind (Jahrgang 2008 und jünger)   Fr. 100'000
+  status: extrahiert
+- ziffer: '37'
+  abschnitt: Vermögen
+  bezeichnung: Steuerbares Vermögen gesamt (Ziffer 35 abzüglich Ziffern 36.1 bis 36.3) (Code 498)
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile
+  regel: Ziff. 35 minus Ziff. 36.1–36.3.
+  quellen:
+  - chunk: tg-form-01-2025__c0016
+    zitat: 37.   STEUERBARES VERMÖGEN GESAMT (Ziffer 35 abzüglich Ziffern 36.1 bis 36.3)   498
+  status: extrahiert
+- ziffer: Seite 4 Schenkungen
+  abschnitt: Weitere Angaben
+  bezeichnung: Schenkungen und erbrechtliche Vermögensanfälle (erhalten/ausgerichtet 2025)
+  key: info.schenkungen_erbschaften
+  belege:
+  - erbschaft-schenkung
+  feld: 'Formular 1 Seite 4: Datum, Wert, Name/Adresse/Verwandtschaftsgrad; bei mehreren Hilfsblätter ''jahresunabhängige Formulare'''
+  regel: Alle 2025 getätigten oder empfangenen Schenkungen, Erbvorbezüge, Erbschaften und Beteiligungen an Erbengemeinschaften mit Datum, Betrag, Geber/Empfänger (inkl. Adresse) und Verwandtschaftsgrad
+    angeben. Bei Erbanfall ≥ Fr. 50'000 Vermögensgewichtung ab Erbanfall.
+  quellen:
+  - chunk: tg-form-01-2025__c0017
+    zitat: Schenkungen und erbrechtliche Vermögensanfälle
+  - chunk: tg-wl-2025__c0129
+    zitat: Führen Sie sämtliche im Jahre 2025 getätigten oder empfangenen Schenkungen und Erbvorbezüge
+  status: extrahiert
+- ziffer: Seite 4 Kapitalleistungen
+  abschnitt: Weitere Angaben
+  bezeichnung: Kapitalleistungen aus Vorsorge 2025 (Auszahlungsdatum, Quelle, Betrag)
+  key: einkommen.kapitalleistung_vorsorge
+  belege:
+  - kapitalleistung-vorsorge
+  feld: Bescheinigung der Vorsorgeeinrichtung (Formular 563); Seite 4 unten der Steuererklärung
+  regel: 'Nicht in Ziff. 5.5, sondern Seite 4 unten: Quelle ankreuzen (AHV/IV, Säule 2, Freizügigkeit, Säule 3a, Kapital bei Tod/bleibenden Nachteilen). Separat zu 100% besteuert zum einheitlichen Satz
+    der einfachen Steuer: 2.0% gemeinsam besteuerte, 2.4% Alleinstehende (mal Steuerfuss). Mehrere Leistungen: Aufstellung einreichen. Genugtuung bleibt steuerfrei.'
+  bund: 'Bund: 1/5 des ordentlichen Tarifs (Tarif Alleinstehende bzw. Verheiratete); kein Elterntarif.'
+  quellen:
+  - chunk: tg-form-01-2025__c0018
+    zitat: Kapitalleistungen aus Vorsorge 2025
+  - chunk: tg-wl-2025__c0131
+    zitat: tung, bei gemeinsam besteuerten Personen zu einem einheitlichen Satz von 2% besteuert.
+  - chunk: tg-wl-2025__c0131
+    zitat: Bei Alleinstehenden beträgt der einheitliche Satz für die einfache Steuer 2,4%.
+  status: extrahiert
+- ziffer: Seite 4 Selbstanzeige
+  abschnitt: Weitere Angaben
+  bezeichnung: Antrag auf erstmalige straflose Selbstanzeige (Steuerperioden)
+  key: verfahren.einreichung
+  belege: []
+  feld: 'Formular 1 Seite 4: Checkbox + Perioden; unterzeichneter Antrag mit Aufstellung der nicht versteuerten Werte'
+  regel: 'Nur bei erstmaliger Selbstanzeige: Feld ankreuzen und Antrag mit Sachverhalt, umfassender Aufstellung der unversteuerten Einkommens-/Vermögenswerte und Belegen beilegen; Nachsteuer maximal 10
+    Jahre. Entscheid der Steuerverwaltung (Rechtsdienst) folgt separat.'
+  quellen:
+  - chunk: tg-form-01-2025__c0018
+    zitat: Antrag auf erstmalige straflose Selbstanzeige
+  - chunk: tg-wl-2025__c0135
+    zitat: Wollen Sie eine erstmalige straflose Selbstanzeige vornehmen, können Sie in der Steuererklärung
+  status: extrahiert
+- ziffer: Seite 4 Bemerkungen/Unterschrift
+  abschnitt: Weitere Angaben
+  bezeichnung: Bemerkungen, Unterschrift, Einreichung und Fristen
+  key: verfahren.einreichung
+  belege:
+  - lohnausweis
+  - vorjahresveranlagung
+  feld: Formular 1 Seite 4 Bemerkungszeilen/Unterschrift; Einreichungsdatum auf dem Formular; Quittung bei eFisc-Übermittlung
+  regel: 'Unterschrift beider Personen (auch bei Vollmacht). Einreichung beim Gemeindesteueramt bis zum aufgedruckten Datum; bei elektronischer Übermittlung gilt die Erklärung erst mit der unterzeichneten
+    Quittung (zusammen mit dem Original-Hauptformular) als eingereicht. Immer beizulegen: sämtliche Lohnausweise, Steuerauszüge, Rechnungen Liegenschaftsunterhalt und Zuwendungsbestätigungen ab Fr. 1''000,
+    3a-Bescheinigungen. Fristerstreckung: Gesuch an das Gemeindesteueramt; Private erstmals bis 30.9. (Folgegesuch begründet bis 30.11.); gewerbsmässige Treuhänder/Steuerberater für Mandanten bis 31.12.
+    des Deklarationsjahres; Arbeitsüberlastung ist kein Grund.'
+  quellen:
+  - chunk: tg-form-01-2025__c0018
+    zitat: Diese Steuererklärung ist vollständig und wahrheitsgetreu ausgefüllt
+  - chunk: tg-wl-2025__c0036
+    zitat: Bei elektronischer Datenübermittlung gilt die Steuererklärung erst als einge
+  - chunk: tg-stp-155-2__c0002
+    zitat: gewerbsmässig Steuererklärungen ausfüllen, können
+  - chunk: tg-stp-155-2__c0002
+    zitat: längstens bis zum 31. Dezember des Deklarationsjahres
+  - chunk: tg-wl-2025__c0036
+    zitat: – Bestätigungen von freiwilligen Zuwendungen ab einem Betrag von Fr. 1'000;
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 1.2
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: Geschäftsfahrzeug zur Verfügung für die Fahrt zur Arbeitsstätte (ja/nein, von–bis)
+  key: abzug.berufskosten.fahrkosten
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Feld F (unentgeltliche Beförderung Wohn-/Arbeitsort) und Ziff. 2.2 (Privatanteil Geschäftsfahrzeug)
+  regel: Steht ein Geschäftsfahrzeug für den Arbeitsweg kostenlos zur Verfügung, ist kein Fahrkostenabzug möglich (Privatanteil 0.9% pro Monat im Lohn enthält den Arbeitsweg, daher keine Aufrechnung). Lohnausweis
+    Feld F angekreuzt = keine Fahrkosten (Ziff. 2.1–2.5) geltend machen; gilt ebenso bei Sammeltransport oder vergüteten effektiven Autokilometern von Aussendienstmitarbeitern; Vergütungen des Arbeitswegs
+    in Lohnausweis Ziff. 2.3 sind kein Feld-F-Fall. Zeitraum von–bis angeben, falls nur zeitweise.
+  quellen:
+  - chunk: tg-form-04-2-2025__c0001
+    zitat: 1.2 Steht Ihnen für die Fahrt zur Arbeitsstätte
+  - chunk: tg-wl-2025__c0176
+    zitat: Da der geldwerte Vorteil für den Arbeitsweg somit be
+  - chunk: bund-wl-lohnausweis-2026__c0022
+    zitat: In allen Fällen ist im Lohnausweis grundsätzlich das Feld F (unentgeltliche Beförderung zwi
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
+    Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
+- ziffer: Form. 4.2 Ziff. 2.1
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Abonnementskosten öffentliche Verkehrsmittel (Code 206; Person 2: 246)'
+  key: abzug.berufskosten.fahrkosten
+  belege:
+  - oev-abo
+  feld: ÖV-Abonnement/Beleg über tatsächliche Kosten
+  regel: Tatsächlich entstandene, nachgewiesene Abonnementskosten (Staat und Bund gleich). Nur wenn Feld F im Lohnausweis nicht angekreuzt ist; vom Arbeitgeber vergütete Kosten (Lohnausweis Ziff. 2.3) nicht
+    abziehbar. Beachtenswerte Entfernung ab ca. 1 km. Fahrkostenbeschränkung gilt für alle Fahrkosten zusammen (inkl. Wochenaufenthalt).
+  werte_keys:
+  - berufskosten.fahrkosten.max
+  quellen:
+  - chunk: tg-form-04-2-2025__c0002
+    zitat: 2.1 Abonnementskosten für öffentliche Verkehrsmittel   206
+  - chunk: tg-wl-2025__c0177
+    zitat: Bei Benützung öffentlicher Verkehrsmittel (Bahn, Tram, Autobus) können Sie die tatsächlich ent
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 2.2
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Fahrrad, Motorfahrrad, Kleinmotorrad bis 50 cm3, pauschal (Code 210; Person 2: 250)'
+  key: abzug.berufskosten.fahrkosten
+  belege: []
+  feld: Keine Belege nötig (Pauschale)
+  regel: Pauschal bis Fr. 700 pro Jahr (Fahrrad, Motorfahrrad, Kleinmotorrad bis 45 km/h mit gelbem Kontrollschild).
+  werte_keys:
+  - berufskosten.fahrkosten.velo_pauschale
+  quellen:
+  - chunk: tg-form-04-2-2025__c0002
+    zitat: 2.2 Fahrrad, Kleinmotorrad bis 50 cm3 pauschal Fr. 700.–   210
+  - chunk: tg-stp-29-2__c0002
+    zitat: können im Jahr bis zu **Fr. 700** abgezogen werden
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 2.3
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Kosten für privates Motorfahrzeug (Auto / Motorrad über 50 cm3), km pro Tag × Anzahl Tage (Code 211; Person 2: 251; Staat und Bund getrennt)'
+  key: abzug.berufskosten.fahrkosten
+  belege:
+  - fahrzeugausweis-arbeitsweg
+  feld: Distanz Wohnadresse–Standort Fahrzeug am Arbeitsort/P+Rail; Jahreskilometer
+  regel: 'Nur in begründeten Ausnahmefällen (ÖV unzumutbar, z.B. Zeitersparnis über 1 Stunde pro Arbeitstag), sonst nur Kosten des ÖV-Abonnements. Kanton Auto gestaffelt: bis 3''000 km Fr. 0.60, 3''001–5''000
+    km Fr. 0.50, über 5''000 km Fr. 0.40 (inkl. Parkgebühren); Motorrad ab 45 km/h Fr. 0.40. Bund Auto einheitlich Fr. 0.70/km. In der Regel max. 225 Arbeitstage bei 100%-Pensum. Kanton und Bund separat
+    berechnen, da unterschiedliche Spalten. Heimkehr am Mittag: Fahrkosten höchstens bis Höhe des Verpflegungsabzugs und dann kein zusätzlicher Verpflegungsabzug.'
+  werte_keys:
+  - berufskosten.fahrkosten.auto_km
+  - berufskosten.fahrkosten.motorrad_km
+  - berufskosten.fahrkosten.arbeitstage
+  bund: 'Bund: Auto einheitlich Fr. 0.70/km (Kanton gestaffelt 0.60/0.50/0.40).'
+  quellen:
+  - chunk: tg-form-04-2-2025__c0002
+    zitat: Total Kosten für den Arbeitsweg mit dem Motorfahrzeug   km pro Jahr 211
+  - chunk: tg-wl-2025__c0003
+    zitat: über 5'000 km   Fr. 0.40 pro Fahrkilometer
+  - chunk: tg-wl-2025__c0180
+    zitat: Bei der direkten Bundessteuer beträgt der Ansatz einheitlich Fr. -.70 pro gefahrenen Kilometer.
+  - chunk: tg-stp-29-2__c0004
+    zitat: 'Für Autos gelten, je nach jährlich gefahrener Kilometerzahl, für die Staats- und Gemeindesteuern die folgenden Ansätze:'
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 2.4
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Total effektive Fahrkosten (Ziffern 2.1–2.3) (Code 212; Person 2: 252)'
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile
+  regel: Summe 2.1 bis 2.3 (inkl. Fahrkosten Wochenaufenthalt gemäss Ziff. 5), separat je Spalte Staat/Bund.
+  quellen:
+  - chunk: tg-form-04-2-2025__c0002
+    zitat: 2.4 Total effektive Fahrkosten (Ziffern 2.1 – 2.3)   212
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 2.5
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Total abzugsfähige Fahrkosten, Staat max. Fr. 6''000 / Bund max. Fr. 3''300 (Code 213; Person 2: 253)'
+  key: abzug.berufskosten.fahrkosten
+  belege: []
+  feld: Rechenzeile (Ziff. 2.4 begrenzt auf Maximum)
+  regel: 'Staat: min(Ziff. 2.4; Fr. 6''000), Bund: min(Ziff. 2.4; Fr. 3''300). Maximum wird bei unterjähriger Steuerpflicht/Erwerbsdauer oder Teilzeit nicht gekürzt. Beispiel WL: 12''150 km → Kanton Fr.
+    5''660, Bund effektiv Fr. 8''505 → Fr. 3''300.'
+  werte_keys:
+  - berufskosten.fahrkosten.max
+  bund: Bund max. Fr. 3'300 (Kanton Fr. 6'000).
+  quellen:
+  - chunk: tg-form-04-2-2025__c0002
+    zitat: Total abzugsfähige Fahrkosten (Übertrag von Ziffer 2.4, aber Staat max. Fr. 6000.– / Bund max. Fr. 3300.–)   213
+  - chunk: tg-stp-29-2__c0006
+    zitat: 'Bei der direkten Bundessteuer beträgt der Maximalabzug:'
+  - chunk: tg-stg__par-29
+    zitat: bis zu einem Maximalbetrag von Fr. 6'000
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 3.1
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Mehrkosten auswärtige Verpflegung ohne Verbilligung oder bei Schicht-/Nachtarbeit, Fr. 15 pro Tag, max. Fr. 3''200 (Code 214; Person 2: 254)'
+  key: abzug.berufskosten.verpflegung
+  belege:
+  - lohnausweis
+  - spesenreglement
+  feld: Lohnausweis (Feld G nicht angekreuzt; Ziff. 15 Anzahl Schichttage; Spesenreglement/Ziff. 13.2); Arbeitgeberbescheinigung Schichttage
+  regel: 'Fr. 15 pro auswärtige Hauptmahlzeit (i.d.R. Mittagessen), bei ständiger Verpflegung max. Fr. 3''200/Jahr, bei Teilzeit/Nebenberuf und unterjährig entsprechend gekürzt. Voraussetzung: Heimkehr
+    am Mittag unzumutbar (grosse Entfernung oder sehr kurze Pause). Schicht-/Nachtarbeit: gleicher Abzug pro ausgewiesenem Tag mit mind. 8 Stunden durchgehender Schicht-/Nachtarbeit; Anzahl Schichttage
+    in das Feld eintragen und belegen (Lohnausweis Ziff. 15 oder Arbeitgeberbescheinigung). Kein Abzug, wenn Mahlzeit unter Fr. 10 zu stehen kommt oder wenn Fahrkosten für Heimkehr am Mittag geltend gemacht
+    werden. Lohnausweis Feld G angekreuzt → Ziff. 3.2 statt 3.1. Nicht kumulierbar mit Wochenaufenthalt (Ziff. 5.2) für denselben Zeitraum.'
+  werte_keys:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  - berufskosten.schichtarbeit.tag
+  bund: Gleiche Ansätze beim Bund.
+  quellen:
+  - chunk: tg-form-04-2-2025__c0003
+    zitat: pro ausgewiesenem Schichttag, pro Arbeitstag Fr. 15.– / max. Fr. 3200.– pro Jahr   214
+  - chunk: tg-wl-2025__c0183
+    zitat: Der Pauschalabzug beträgt Fr. 15 für jede auswärtige Hauptmahlzeit (in der Regel nur für Mittag
+  - chunk: tg-wl-2025__c0184
+    zitat: Für jeden ausgewiesenen Tag mit durchgehender, mindestens achtstündiger Schicht- oder
+  - chunk: bund-wl-lohnausweis-2026__c0051
+    zitat: die Anzahl im Kalenderjahr geleisteter Schichttage
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
+    Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
+- ziffer: Form. 4.2 Ziff. 3.2
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Mehrkosten auswärtige Verpflegung mit Verbilligung durch Arbeitgeber/Kantine, Fr. 7.50 pro Tag, max. Fr. 1''600 (Code 216; Person 2: 256)'
+  key: abzug.berufskosten.verpflegung
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Feld G (Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten)
+  regel: 'Wenn der Arbeitgeber Mahlzeiten verbilligt (Barbeiträge, Gutscheine/Lunch-Checks) oder eine Kantine/Personalrestaurant zur Verfügung steht und trotzdem Mehrkosten entstehen: nur halber Abzug,
+    Fr. 7.50/Tag, max. Fr. 1''600/Jahr. Lohnausweis Feld G angekreuzt ist das Signal (auch wenn nicht bekannt ist, ob die Kantine genutzt wird). Trägt der Arbeitgeber die Kosten des Mittagessens vollständig
+    (z.B. Vermerk «Mittagessen durch Arbeitgeber bezahlt» in Lohnausweis Ziff. 15), entstehen keine Mehrkosten – kein Verpflegungsabzug (Folgerung aus WL: kein Abzug für vom Arbeitgeber übernommene Kosten).
+    Teilzeit/Nebenberuf: angemessen kürzen.'
+  werte_keys:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  quellen:
+  - chunk: tg-form-04-2-2025__c0003
+    zitat: 3.2 mit Verbilligung durch Arbeitgeber/in oder Kantine,
+  - chunk: tg-wl-2025__c0185
+    zitat: Nur der halbe Abzug (Fr. 7.50 im Tag, Fr. 1'600 im Jahr) ist zulässig, wenn Hauptmahlzeiten von
+  - chunk: bund-wl-lohnausweis-2026__c0012
+    zitat: Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten   Buchstabe G
+    jahr_ok: true
+  - chunk: bund-wl-lohnausweis-2026__c0012
+    zitat: Dieses Feld ist auch anzukreuzen bei Arbeitnehmern, die 40 % - 60 % der Arbeitszeit aus
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
+    Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft.
+- ziffer: Form. 4.2 Ziff. 4
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Übrige für die Ausübung des Berufes erforderliche Kosten: 3% vom Nettolohn, min. Fr. 2''000, max. Fr. 4''000, oder effektiv (Code 220; Person 2: 260)'
+  key: abzug.berufskosten.uebrige
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Ziff. 11 Nettolohn (Basis Pauschale); bei effektiven Kosten separate Aufstellung mit Belegen
+  regel: Pauschale 3% des Nettolohns (Lohnausweis Ziff. 11), mindestens Fr. 2'000, höchstens Fr. 4'000 (Kanton und Bund); bei unterjähriger Erwerbstätigkeit anteilmässig gekürzt. Alternativ nachgewiesene
+    effektive Kosten gemäss Aufstellung – nicht kumulierbar mit der Pauschale. Deckt Berufswerkzeug, Fachliteratur, Kleider/Schuhverschleiss, Schwerarbeit, Berufsverbands-/Gewerkschaftsbeiträge. Erhaltene
+    Spesenvergütungen mindern effektive Kosten.
+  werte_keys:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.min
+  - berufskosten.uebrige.max
+  bund: Gleiche Pauschale beim Bund (3%, Fr. 2'000–4'000).
+  quellen:
+  - chunk: tg-form-04-2-2025__c0004
+    zitat: 3% vom Nettolohn, mindestens jedoch Fr. 2000.– und höchstens Fr. 4000.–
+  - chunk: tg-wl-2025__c0187
+    zitat: Pauschalabzug von 3% vom Nettolohn gemäss Ziffer 11 des Lohnausweises
+  - chunk: tg-wl-2025__c0187
+    zitat: Anstelle der Pauschale können Sie die notwendigen tatsächlichen Aufwendungen nachweisen.
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 5.1
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Wochenaufenthalt: Unterkunft, ortsübliche Auslagen für ein Zimmer (Code 226; Person 2: 266)'
+  key: abzug.berufskosten.wochenaufenthalt
+  belege: []
+  feld: Mietvertrag/Mietzinsbeleg auswärtige Unterkunft
+  regel: 'Nur ein Zimmer (keine Wohnung) gilt als notwendig; bei kleiner Wohnung bis 3½ Zimmer Jahresmietzins : (Zimmerzahl + 1). Voraussetzung: regelmässige Heimkehr am Wochenende an den steuerlichen Wohnsitz.
+    Fahrkosten der Heimkehr gehören unter Ziff. 2.1–2.3 (mit Fahrkostenbeschränkung).'
+  werte_keys:
+  - berufskosten.wochenaufenthalt.unterkunft
+  quellen:
+  - chunk: tg-form-04-2-2025__c0004
+    zitat: 5.1 Unterkunft ortsübliche Auslagen für ein Zimmer   226
+  - chunk: tg-wl-2025__c0189
+    zitat: wendigen Mehrkosten der Unterkunft können Sie daher nur die ortsüblichen Auslagen für ein
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 5.2
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Wochenaufenthalt: Verpflegung, Fr. 30 pro Arbeitstag / max. Fr. 6''400, mit Verbilligung Fr. 22.50 / max. Fr. 4''800 (Code 230; Person 2: 270)'
+  key: abzug.berufskosten.wochenaufenthalt
+  belege:
+  - lohnausweis
+  feld: Lohnausweis (Feld G bei verbilligtem Mittagessen)
+  regel: Fr. 15 pro Hauptmahlzeit = Fr. 30/Tag, ganzjährig max. Fr. 6'400; bei Verbilligung des Mittagessens durch den Arbeitgeber (Feld G) nur halber Abzug für diese Mahlzeit = Fr. 22.50/Tag bzw. Fr. 4'800/Jahr.
+    Nicht kumulierbar mit Ziff. 3 für denselben Zeitraum.
+  werte_keys:
+  - berufskosten.wochenaufenthalt.verpflegung_jahr
+  quellen:
+  - chunk: tg-form-04-2-2025__c0004
+    zitat: bei Verbilligung pro Arbeitstag Fr. 22.50 / im Jahr Fr. 4800.–
+  - chunk: tg-wl-2025__c0190
+    zitat: benden) und trotzdem Mehrkosten entstehen, wird für diese Mahlzeit nur der halbe Abzug (Fr. 7.50)
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 6
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Auslagen bei Nebenbeschäftigung: 20% vom Nettolohn, min. Fr. 800, max. Fr. 2''400, oder effektiv (Code 232; Person 2: 272)'
+  key: abzug.berufskosten.nebenerwerb
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Ziff. 11 des Nebenerwerbs; bei effektiven Kosten Aufstellung
+  regel: 'Pauschal 20% der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2''400 (Kanton und Bund), höchstens bis zur Höhe des Nebenerwerbseinkommens; deckt Fahrt-, Verpflegungs- und übrige Berufskosten
+    (keine Kumulation mit effektiven Kosten). Behördenmitglieder (Exekutive Gemeinde/Schul-/Kirchgemeinde, volksgewählt, nebenamtlich): 50% der Entschädigungen, min. Fr. 2''000, max. Fr. 4''000. Haupterwerb
+    kann auch mehrere Teilzeitanstellungen umfassen.'
+  werte_keys:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  bund: Gleiche Pauschale beim Bund.
+  quellen:
+  - chunk: tg-form-04-2-2025__c0005
+    zitat: 20% vom Nettolohn, mindestens Fr. 800.– und höchstens Fr. 2400.–
+  - chunk: tg-wl-2025__c0191
+    zitat: werden. Der Abzug beträgt 20% der Nettoeinkünfte, mindestens aber Fr. 800 und höchstens
+  - chunk: tg-wl-2025__c0194
+    zitat: Der Pauschalabzug beträgt 50% von den insgesamt ausgerichteten Behördenentschädigungen
+  status: extrahiert
+- ziffer: Form. 4.2 Ziff. 7
+  abschnitt: Hilfsblatt Berufskosten
+  bezeichnung: 'Total der abzugsfähigen Berufsauslagen (Code 240; Person 2: 280) → Steuererklärung Ziff. 10.1 / 10.2'
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile
+  regel: Summe Ziff. 2.5 bis 6; Übertrag in Ziff. 10.1 (Person 1) bzw. 10.2 (Person 2), Spalten Staat/Bund getrennt.
+  quellen:
+  - chunk: tg-form-04-2-2025__c0005
+    zitat: 7.   Total der abzugsfähigen Berufsauslagen   240
+  status: extrahiert
+- ziffer: Form. 5.2 A.1–A.4
+  abschnitt: Hilfsblatt Versicherungsprämien
+  bezeichnung: 'Selbst getragene Prämien: private Krankenversicherung (netto nach Prämienverbilligung), private Unfallversicherung, Lebens-/Rentenversicherungen, erhaltene Sparzinsen'
+  key: abzug.versicherungspraemien
+  belege:
+  - krankenkasse-praemien
+  - hausrat-haftpflicht-police
+  - versicherung-rueckkaufswert
+  - kontoauszug-zinsausweis
+  feld: Jahresbestätigung Krankenkasse (Prämie abzüglich IPV), Prämienrechnungen Unfall/Leben/Rente, Zinsausweise Banken (Formular 2)
+  regel: 'Ziff. 1: Nettoprämie = Krankenkassenprämie abzüglich in der Steuerperiode erhaltener Prämienverbilligungen (inkl. EL-Prämienverbilligung und Nachzahlungen früherer Jahre); Deklaration der KK-Prämien
+    ist Voraussetzung des Abzugs. Ziff. 2: private Unfallversicherung (ohne NBUV → Ziff. 15.4). Ziff. 3: private Lebens-/Rentenversicherungen. Ziff. 4: im Jahr 2025 erhaltene Zinsen von Sparkapitalien (Bank/Post,
+    Obligationen, Hypothekar-/Darlehensguthaben, gemäss Formular 2).'
+  quellen:
+  - chunk: tg-form-05-2-2025__c0001
+    zitat: 1. private Krankenversicherung (netto, nach Abzug Prämienverbilligung gemäss Bestätigung Versicherung)
+  - chunk: tg-wl-2025__c0210
+    zitat: Tragen Sie in Ziffer 1 die selber bezahlten Einlagen, Prämien und Beiträge für die private Kran
+  status: extrahiert
+- ziffer: Form. 5.2 A.5–A.6
+  abschnitt: Hilfsblatt Versicherungsprämien
+  bezeichnung: Krankentaggeldversicherung gemäss Lohnausweis; Total selbst getragene Versicherungsprämien und Sparzinsen (Code 324, Feld «A5»)
+  key: abzug.versicherungspraemien
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Ziff. 15 (Hinweis Krankentaggeld-Beiträge)
+  regel: 'Zusätzlich die dem Arbeitnehmer belasteten Krankentaggeld-Beiträge gemäss Lohnausweis eintragen (Lohnausweis weist sie ggf. in Ziff. 15 aus). Total ergibt «A5»/Code 324. Hinweis: Das Formular
+    2025 hat Zeilen 1–6 (Total in Zeile 6), die Wegleitung beschreibt noch das alte Schema 1–5/''A7''.'
+  quellen:
+  - chunk: tg-form-05-2-2025__c0001
+    zitat: 5. Krankentaggeldversicherung gemäss Lohnausweis
+  - chunk: tg-form-05-2-2025__c0001
+    zitat: 6. Total selbst getragene Versicherungsprämien und Sparzinsen   324
+  - chunk: bund-wl-lohnausweis-2026__c0034
+    zitat: Arbeitnehmern belastete Beiträge an Krankentaggeldversicherungen sowie Prä
+    jahr_ok: true
+  status: extrahiert
+  bemerkung: 'Lohnausweis-Regeln (Feld F/G, Ziff. 10.2, 13.3, 15) stammen aus der ESTV-Wegleitung zum Lohnausweis, gültig ab 01.01.2026 (bund-wl-lohnausweis-2026, jahr_ok); eine Fassung für 2025 liegt im
+    Wiki nicht vor, der Lohnausweis ist ein ESTV-Formular und in diesen Punkten für TG 2025 inhaltlich massgebend, aber Fassung 2026 – Fachperson prüft. Zusätzlich: Zeilennummerierung Formular 5.2 (2025)
+    vs. Wegleitung abweichend.'
+- ziffer: Form. 5.2 B
+  abschnitt: Hilfsblatt Versicherungsprämien
+  bezeichnung: Maximaler Abzug für Versicherungsprämien und Sparzinsen (Code 328; Feld «B4» Staat/Bund)
+  key: abzug.versicherungspraemien
+  belege: []
+  feld: Rechenzeile (Zivilstand, Anzahl Kinder/unterstützte Personen, Beiträge Säule 2/3a)
+  regel: 'Staat: Fr. 7''000 gemeinsam besteuert / Fr. 3''500 übrige; Bund: Fr. 3''700 / Fr. 1''800 oder ohne Beiträge Säule 2/3a Fr. 5''550 / Fr. 2''700 (nur Bund); pro Kind und unterstützungsbedürftige
+    Person mit Kinder-/Unterstützungsabzug zusätzlich Fr. 1''000 (Staat) bzw. Fr. 700 (Bund). Zuteilung bei getrennt besteuerten Eltern wie Kinderabzug (Kanton) bzw. nach Sorgerecht/Alimenten (Bund).'
+  werte_keys:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.kind
+  bund: 'Bund: 3''700 / 1''800 / ohne 2./3a 5''550 / 2''700 / Kind 700.'
+  quellen:
+  - chunk: tg-form-05-2-2025__c0002
+    zitat: 1. für gemeinsam besteuerte Personen (Eheleute / Partnerinnen oder Partner)   7000   3700
+  - chunk: tg-form-05-2-2025__c0002
+    zitat: 3. für jedes Kind und für jede unterstützungsbedürftige Person, für die ein Kinder- oder
+  - chunk: tg-wl-2025__c0007
+    zitat: Fr. 3'500   Fr. 1'800
+  status: extrahiert
+- ziffer: Form. 5.2 C
+  abschnitt: Hilfsblatt Versicherungsprämien
+  bezeichnung: 'Berechnung zulässiger Abzug: niedrigerer Betrag aus «A5» und «B4» (Code 330; Staat/Bund)'
+  key: abzug.versicherungspraemien
+  belege: []
+  feld: Rechenzeile
+  regel: 'Staat: min(A5; B4 Staat), Bund: min(A5; B4 Bund); Übertrag in Ziff. 14.'
+  quellen:
+  - chunk: tg-form-05-2-2025__c0003
+    zitat: '2. Bundessteuer: der niedrigere Betrag von «A5» oder «B4 Bund»   330'
+  status: extrahiert
+- ziffer: Form. 5.1 A
+  abschnitt: Hilfsblatt Krankheitskosten
+  bezeichnung: 'Aufwendungen: Selbstbehalt/Franchise, Arzt, Zahnarzt, Pflegepersonal, Spital/Heim, Therapien/Kur, Prothesen; getrennt Krankheits-/Unfallkosten und behinderungsbedingte Kosten'
+  key: abzug.krankheitskosten
+  belege:
+  - arzt-zahnarzt-rechnungen
+  - krankenkasse-leistungen
+  feld: Rechnungen und Kostenzusammenstellung der Krankenkasse (Selbstbehalt/Franchise); ärztliche Verordnung für Therapien/Kuren
+  regel: 'Nur selbst getragene Kosten; Belege geordnet beilegen. Ärztlich verordnete Therapien/Kuren: Kopie der Verordnung beilegen. Zahnarztkosten, Brillen, Apparate, Kuren abziehbar; nicht: Krankenkassenprämien,
+    Fahrkosten zum Arzt (ausser dauernde Pflegebedürftigkeit), nicht verordnete Akupunktur, Prävention, Schönheit/Fitness, unentgeltliche Pflege durch Dritte. Kosten für Behinderung in die zweite Spalte.'
+  quellen:
+  - chunk: tg-form-05-1-2025__c0001
+    zitat: 1. Selbstbehalt / Franchise gemäss detaillierter Kostenzusammenstellung der Krankenkasse
+  - chunk: tg-wl-2025__c0205
+    zitat: Tragen Sie auf der Vorderseite von Formular 5 unter A die Aufwendungen, aufgeteilt in „Krankheits
+  status: extrahiert
+- ziffer: Form. 5.1 B
+  abschnitt: Hilfsblatt Krankheitskosten
+  bezeichnung: Vergütungen Dritter und Anteil Lebenshaltungskosten (Krankenkasse, Versicherungen, Hilflosenentschädigung, Lebenshaltungskosten)
+  key: abzug.krankheitskosten
+  belege:
+  - krankenkasse-leistungen
+  feld: Leistungsabrechnungen Krankenkasse/Versicherung; Bescheide IV/AHV/SUVA (Hilfsmittel, Hilflosenentschädigung)
+  regel: 'Von den Aufwendungen abziehen: Krankenkassen-/Versicherungsleistungen (inkl. Pflegefinanzierung), Hilflosenentschädigung AHV/IV/SUVA, Beiträge an Hilfsmittel und ein Anteil Lebenshaltungskosten
+    (z.B. Ernährung/Unterkunft bei Kur oder Heim).'
+  quellen:
+  - chunk: tg-form-05-1-2025__c0002
+    zitat: 3. Hilflosenentschädigung AHV/IV/SUVA
+  - chunk: tg-wl-2025__c0203
+    zitat: Die von Krankenkassen, Versicherungen oder Dritten vergüteten Kosten, Beiträge der AHV, IV, MV
+  status: extrahiert
+- ziffer: Form. 5.1 C
+  abschnitt: Hilfsblatt Krankheitskosten
+  bezeichnung: Berechnung behinderungsbedingte Kosten (A–B) (Code 350) → Ziff. 17
+  key: abzug.behinderungskosten
+  belege: []
+  feld: Rechenzeile
+  regel: Total Aufwendungen behinderungsbedingte Kosten (A) minus Vergütungen (B); Übertrag Ziff. 17. Alternativ Pauschalen (Fr. 2'500/5'000/7'500).
+  quellen:
+  - chunk: tg-form-05-1-2025__c0003
+    zitat: Abzugsfähige behinderungsbedingte Kosten   350
+  - chunk: tg-wl-2025__c0205
+    zitat: vom Total A das Total B ab. Die so ermittelten abzugsfähigen behinderungsbedingten Kosten über
+  status: extrahiert
+- ziffer: Form. 5.1 D
+  abschnitt: Hilfsblatt Krankheitskosten
+  bezeichnung: 'Berechnung Krankheits- und Unfallkosten: (A–B) abzüglich 5% Selbstbehalt von Ziff. 22 (Code 364; Staat/Bund) → Ziff. 23.1'
+  key: abzug.krankheitskosten
+  belege: []
+  feld: Rechenzeile (Nettoeinkommen Ziff. 22 je Spalte)
+  regel: 'Total Aufwendungen minus Vergütungen minus 5% des Nettoeinkommens Ziff. 22 – Staat mit linker, Bund mit rechter Spalte von Ziff. 22 (Beispiel WL: Netto 40''000 → 2''000; Bund 44''000 → 2''200).'
+  werte_keys:
+  - krankheitskosten.selbstbehalt_satz
+  quellen:
+  - chunk: tg-form-05-1-2025__c0004
+    zitat: Abzugsfähige Krankheits- und Unfallkosten   364
+  - chunk: tg-wl-2025__c0206
+    zitat: dasjenige für die direkte Bundessteuer aus der rechten Spalte.
+  status: extrahiert
+- ziffer: Form. 4.1 A
+  abschnitt: Hilfsblatt Schulden
+  bezeichnung: 'Privatschulden: Gläubiger/in mit Adresse, Zinssatz, Schuld am 31.12.2025, fällige Schuldzinsen (Codes 455 / 286)'
+  key: schulden.privat
+  belege:
+  - hypothekarbestaetigung
+  - kredit-darlehen-schuldzinsen
+  - kreditkartenabrechnung
+  feld: Bank-/Gläubigerbestätigung per 31.12.2025 (Schuld, Zinssatz, im Jahr fällig gewordene Zinsen)
+  regel: 'Gläubiger mit genauer Adresse und Zinssatz sind unerlässlich. Nur 2025 fällig gewordene Zinsen (keine Ratazinsen); Amortisationen, Bau-/Landkreditzinsen und Leasingzinsen sind keine abziehbaren
+    Schuldzinsen. WEF-Zusatzverbilligung als Zinsminderung. Totale: Schulden Code 455, Zinsen Code 286.'
+  quellen:
+  - chunk: tg-form-04-1-2025__c0001
+    zitat: Total Privatschulden   455   286
+  - chunk: tg-wl-2025__c0171
+    zitat: Unerlässlich ist insbesondere die Angabe der Gläubigerin bzw. des Gläubigers
+  status: extrahiert
+- ziffer: Form. 4.1 B
+  abschnitt: Hilfsblatt Schulden
+  bezeichnung: Geschäftsschulden und zugehörige Schuldzinsen (Codes 460 / 288)
+  key: schulden.privat
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Bilanz / Schuldenaufstellung Geschäft
+  regel: 'Geschäftsschuldzinsen hier nur, wenn nicht bereits im Einkommen Ziff. 2 abgezogen. Totale: Schulden Code 460, Zinsen Code 288.'
+  quellen:
+  - chunk: tg-form-04-1-2025__c0001
+    zitat: Total Geschäftsschulden   460   288
+  - chunk: tg-wl-2025__c0173
+    zitat: Tragen Sie Schuldzinsen aus selbständiger Erwerbstätigkeit hier nur ein, sofern Sie diese nicht
+  status: extrahiert
+- ziffer: Form. 4.1 C
+  abschnitt: Hilfsblatt Schulden
+  bezeichnung: Zusammenzug Privat- und Geschäftsschulden (Code 466) und Schuldzinsen (Code 290)
+  key: schulden.privat
+  belege: []
+  feld: Rechenzeile
+  regel: Total Schulden (Code 466) → Steuererklärung Ziff. 34 (Seite 4); Total Schuldzinsen (Code 290) → Ziff. 11 (Seite 3).
+  quellen:
+  - chunk: tg-form-04-1-2025__c0002
+    zitat: Total Privat- und Geschäftsschulden   466   290
+  status: extrahiert
+- ziffer: Form. 2 Spalten 7–9
+  abschnitt: Hilfsblatt Wertschriftenverzeichnis
+  bezeichnung: 'Detailverzeichnis Wertschriften und Guthaben: Steuerwert 31.12. (Spalte 7), Bruttoertrag mit Verrechnungssteuerabzug (Spalte 8, A), ohne (Spalte 9, B)'
+  key: einkommen.wertschriften
+  belege:
+  - steuerauszug-bank
+  - depotauszug
+  - kontoauszug-zinsausweis
+  - dividenden-ausland-quellensteuer
+  - krypto-auszug
+  feld: Steuerauszug/Depotverzeichnis der Bank; Zins- und Kapitalbescheinigungen (Bruttozins, Verrechnungssteuer, Kontostand 31.12.); E-Steuerauszug
+  regel: 'Je Titel/Konto: Bezeichnung mit Valoren-/ISIN-Nr., Steuerwert per 31.12.2025 (Spalte 7), Bruttoertrag. Spalte 8 (A): Erträge MIT Verrechnungssteuerabzug (CH-Dividenden/Zinsen, Bankkonti über Fr.
+    200 Bruttozins oder mehrere Gutschriften, Lotterietreffer über Fr. 1''000 usw.; Franken und Rappen). Spalte 9 (B): Erträge OHNE Verrechnungssteuer (Konti ≤ Fr. 200, ausländische Wertschriften, Darlehen/Hypotheken).
+    Codes für Geschäftsvermögen (02), Nutzniessung (01), qualifizierte Beteiligung (05/06), Erbschaft/Schenkung (03/04). Ausländische Erträge: netto + anrechenbare Quellensteuer; DA-1 für Anrechnung/USA-Rückbehalt.
+    Zugang/Abgang mit Datum. Kinder unter elterlicher Sorge (Jahrgang 2008 und jünger) mitdeklarieren.'
+  quellen:
+  - chunk: tg-form-02-2025__c0006
+    zitat: Detailverzeichnis Wertschriften und Guthaben
+  - chunk: tg-wl-2025__c0153
+    zitat: In der Spalte 9 „Erträge ohne Verrechnungssteuerabzug“ aufzuführen sind auch Erträge inländi
+  - chunk: tg-wl-2025__c0153
+    zitat: Bank- und Postkonti aller Art, deren Bruttozins im Kalenderjahr Fr. 200 nicht übersteigt und
+  status: extrahiert
+- ziffer: Form. 2 Ziff. 10
+  abschnitt: Hilfsblatt Wertschriftenverzeichnis
+  bezeichnung: 'Verrechnungssteueranspruch: 35% von Bruttoertrag Total A (Rückerstattungsantrag)'
+  key: verrechnungssteuer.rueckerstattung
+  belege:
+  - steuerauszug-bank
+  feld: Formular 2 Ziff. 10; Unterschrift Rückerstattungsantrag; Auszahlungskonto Formular 1 Seite 1
+  regel: 35% des Totals der Erträge Spalte 8 (Zwischentotal I). Rückerstattung nur bei Wohnsitz im Kanton TG am 31.12.2025 und vollständiger Deklaration der Erträge; unter Vorbehalt des Rückforderungsrechts
+    der ESTV. Erträge unverteilter Erbschaften nach Erbquote in Spalte A (mit VSt) bzw. B. Wertschriftenverzeichnis zu unterzeichnen.
+  quellen:
+  - chunk: tg-form-02-2025__c0006
+    zitat: '10. Verrechnungssteueranspruch: 35% von Bruttoertrag Total A'
+  - chunk: tg-wl-2025__c0167
+    zitat: Vom Total I der Bruttoerträge 2025
+  status: extrahiert
+- ziffer: Form. 2 Vermögensverwaltungskosten (Code 148)
+  abschnitt: Hilfsblatt Wertschriftenverzeichnis
+  bezeichnung: Vermögensverwaltungskosten (Code 148; im Formular als Ziffer 17 bzw. Wegleitung Ziffer 7)
+  key: abzug.verwaltungskosten_wertschriften
+  belege:
+  - depotauszug
+  feld: Depotgebührenausweis der Bank; bei Nachweis höherer Kosten Belege
+  regel: Pauschal 2 Promille des Steuerwerts der durch Dritte verwalteten Wertschriften des Privatvermögens, max. Fr. 6'000; Darlehen, Bankguthaben und nicht kotierte qualifizierte Beteiligungen zählen
+    nicht zur Bemessung. Nachweis höherer Kosten vorbehalten. Nur Depotgebühren/Verwaltung – nicht Kontoführung, Anlageberatung, Kommissionen/Spesen An-/Verkauf, Tresormiete.
+  quellen:
+  - chunk: tg-form-02-2025__c0006
+    zitat: 17. Vermögensverwaltungskosten   Code 148
+  - chunk: tg-wl-2025__c0159
+    zitat: Der Pauschalabzug beträgt maximal Fr. 6'000.
+  status: extrahiert
+  bemerkung: Zifferbezeichnung im Formular 2 (2025) in der PDF-Extraktion unklar ('17.'); Wegleitung nennt 'Ziffer 7' – Code 148 ist massgebend.
+- ziffer: Form. 2 Einsatzkosten Geldspiele (Code 145)
+  abschnitt: Hilfsblatt Wertschriftenverzeichnis
+  bezeichnung: Einsatzkosten für steuerbare Gewinne aus Geldspielen (Code 145; im Formular Ziffer 18 bzw. Wegleitung Ziffer 8/9)
+  key: einkommen.wertschriften
+  belege:
+  - lotteriegewinn
+  feld: Gewinnbescheinigung / Auszahlungsbelege
+  regel: 'Pauschal 5% pro steuerbarem Gewinn, max. Fr. 5''000 je Gewinn (Staat; Bund Fr. 5''400 – Korrektur von Amtes wegen); effektive Einsatzkosten nicht möglich. Online-Spielbank: abgebuchte Spieleinsätze,
+    max. Fr. 25''000 (Bund Fr. 26''800). In der Steuererklärung Staatsmaximum deklarieren. Einsatzkosten für nicht steuerbare Gewinne nicht abziehbar.'
+  bund: 'Bund: Pauschale max. Fr. 5''400 (Online-Spielbank Fr. 26''800); Kanton Fr. 5''000 / Fr. 25''000.'
+  quellen:
+  - chunk: tg-form-02-2025__c0006
+    zitat: 18. Einsatzkosten und Spieleinsätze für steuerbare Gewinne aus Geldspielen
+  - chunk: tg-wl-2025__c0161
+    zitat: Formulars geltend machen. Von jedem einzelnen steuerbaren Gewinn können pauschal fünf Pro
+  status: extrahiert
+  bemerkung: Ziffernbezeichnung im Formular 2 in der PDF-Extraktion unklar; Wegleitung nennt Ziffer 8 bzw. 9. Code 145 massgebend.
+- ziffer: Form. 2 Hilfsblatt qualifizierte Beteiligungen
+  abschnitt: Hilfsblatt Wertschriftenverzeichnis
+  bezeichnung: 'Hilfsblatt qualifizierte Beteiligungen im Privatvermögen: Name/Sitz, Beteiligungsquote (ab 10%), Beteiligungsertrag; Teilbesteuerungsabzug Staat 40% / Bund 30%'
+  key: abzug.teilbesteuerung_beteiligungen
+  belege:
+  - steuerauszug-bank
+  feld: Dividendenabrechnung/Bescheinigung; Nachweis Beteiligungsquote ≥ 10%
+  regel: 'Pro Gesellschaft Name/Sitz, Quote und im Jahr 2025 erzielten Beteiligungsertrag eintragen; Total Ziff. 2 × 40% (Staat) bzw. 30% (Bund) = Abzug Ziff. 3 → Steuererklärung Ziff. 15.6. Antrag jährlich
+    nötig. Beteiligungen im Geschäftsvermögen: Formular 14.'
+  quellen:
+  - chunk: tg-form-02-2025__c0008
+    zitat: Hilfsblatt qualifizierte Beteiligungen im Privatvermögen
+  - chunk: tg-wl-2025__c0166
+    zitat: Der Antrag auf die Durchführung des Teilbesteuerungsverfahrens für Erträge aus Beteiligungen im
+  status: extrahiert
+- ziffer: Form. 7 Steuerwert / Mietwert
+  abschnitt: Hilfsblatt Liegenschaften
+  bezeichnung: 'Angaben zur Liegenschaft: Steuerwert; Mietwert selbstgenutzt, Selbstnutzungsabzug, steuerbarer Eigenmietwert (Staatssteuer / Bundessteuer)'
+  key: einkommen.liegenschaften.eigenmietwert
+  belege:
+  - liegenschaft-schaetzung-eigenmietwert
+  feld: 'Liegenschaftensteuerrechnung (Januar des Folgejahres: Steuerwert, indexierter Mietwert) / Schätzungsverfügung'
+  regel: 'Pro Liegenschaft: Gemeinde, Kanton, Art, Baujahr, Anteile, Amtsnummer, Steuerwert. Mietwert aus Selbstnutzung gemäss rechtskräftiger Schätzung, bereinigt mit dem Mietwertindex der Steuerperiode
+    (aus Liegenschaftensteuerrechnung). Selbstnutzungsabzug nur am Wohnsitz dauernd selbstbewohnt: 40% Kanton / 20% Bund; kein Abzug bei Zweit-/Ferienwohnungen, landwirtschaftlich geschätzten oder unentgeltlich/unterpreislich
+    an Nahestehende überlassenen Liegenschaften (100% steuerbar). Wohnsitz am Liegenschaftsort ausserkantonal: ausserkantonale Steuerwerte, Repartition durch Veranlagungsbehörde.'
+  werte_keys:
+  - liegenschaft.eigenmietwert_abzug
+  bund: Selbstnutzungsabzug Bund 20% (Kanton 40%).
+  quellen:
+  - chunk: tg-form-07-2025__c0002
+    zitat: Mietwert selbstgenutzt
+  - chunk: tg-wl-2025__c0224
+    zitat: Bei selbstgenutzten Liegenschaften ist der per Ende Steuerperiode rechtskräftig eröffnete Miet
+  - chunk: tg-wl-2025__c0225
+    zitat: Für am Wohnsitz selbstgenutzte eigene Liegenschaften können Sie vom Mietwert aus Selbst
+  status: extrahiert
+- ziffer: Form. 7 Mieterträge
+  abschnitt: Hilfsblatt Liegenschaften
+  bezeichnung: Miet- und Pachtzinsen sowie weitere Erträge, Bruttoertrag
+  key: einkommen.liegenschaften.mietertrag
+  belege:
+  - liegenschaft-mietertraege
+  - liegenschaft-nebenkosten-gebaeudeversicherung
+  feld: Mietverträge, Mietzinsabrechnung, Nebenkostenabrechnung; Einspeisevergütung Photovoltaik
+  regel: Sämtliche Miet-/Pachtzinseinnahmen, Naturalleistungen, Baurechtszinsen, Einspeisevergütungen PV (bei Eigenbedarfsanlagen steuerfrei, soweit die Vergütung den Strombezug nicht übersteigt), Mietzinsreduktion
+    für Hauswarte. Nebenkostenzahlungen der Mieter nicht steuerbar, soweit sie die tatsächlichen Aufwendungen nicht übersteigen.
+  quellen:
+  - chunk: tg-form-07-2025__c0002
+    zitat: Miet- und Pachtzinsen
+  - chunk: tg-wl-2025__c0222
+    zitat: Steuerbar sind sämtliche Miet- und Pachtzinseinnahmen, welche die steuerpflichtige Person aus
+  status: extrahiert
+- ziffer: Form. 7 Unterhalt
+  abschnitt: Hilfsblatt Liegenschaften
+  bezeichnung: 'Unterhalts-/Betriebskosten: Pauschal oder Effektiv (Formular 8)'
+  key: abzug.liegenschaft.unterhalt
+  belege:
+  - liegenschaft-unterhaltsrechnungen
+  - liegenschaft-nebenkosten-gebaeudeversicherung
+  feld: Rechnungen (Kopien ab Fr. 1'000 einreichen); Formular 8 je Liegenschaft; Merkblatt Liegenschaftsunterhalt
+  regel: 'Pro Steuerperiode und Liegenschaft Wahl zwischen Pauschale und effektiven Kosten. Pauschale: 10% für Gebäude bis 10 Jahre, 20% bei älteren Gebäuden (Alter am Ende der Steuerperiode), berechnet
+    auf Mietertrag bzw. Mietwert/steuerbaren Eigenmietwert. Keine Pauschale bei Geschäftsvermögen, vorwiegend geschäftlich von Dritten genutzten, unüberbauten oder Baurechts-Grundstücken. Nicht kumulierbar
+    mit übertragbaren Energie-/Rückbaukosten (dann alles effektiv).'
+  werte_keys:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  quellen:
+  - chunk: tg-form-07-2025__c0002
+    zitat: Unterhalts-/Betriebskosten
+  - chunk: tg-wl-2025__c0238
+    zitat: 'Die Pauschale beträgt:'
+  - chunk: tg-wl-2025__c0238
+    zitat: 20% für Gebäude, die am Ende der Steuerperiode älter als zehn Jahre sind.
+  status: extrahiert
+- ziffer: Form. 7 Totale
+  abschnitt: Hilfsblatt Liegenschaften
+  bezeichnung: Totale Steuerwerte (Code 430) und Nettoerfolge (Code 180) Staat/Bund
+  key: berechnung.total
+  belege: []
+  feld: Rechenzeile
+  regel: Total Steuerwerte → Steuererklärung Ziff. 31 (Seite 4); Total Nettoerfolge → Ziff. 8 (Seite 2), Spalten Staat und Bund getrennt.
+  quellen:
+  - chunk: tg-form-07-2025__c0003
+    zitat: Total Steuerwerte   430   Total Nettoerfolge   180
+  status: extrahiert
+- ziffer: Form. 8
+  abschnitt: Hilfsblatt Liegenschaften
+  bezeichnung: 'Angaben zu Unterhalts- und Betriebskosten (je Liegenschaft): Rechnungsdatum, Rechnungsteller, Arbeit, Zahlungsbetrag, Anlagekosten/Mehrwert, abzugsfähige Kosten; Energiespar-/Umweltschutz-/Rückbaukosten;
+    übertragbare Kosten'
+  key: abzug.liegenschaft.energie_umwelt
+  belege:
+  - liegenschaft-unterhaltsrechnungen
+  feld: Rechnungen mit Detailangaben; Hilfsblatt übertragbare Kosten (StP 34 Nr. 2); bei Stockwerkeigentum Abrechnung der Gemeinschaft
+  regel: 'Pro Liegenschaft ein Formular 8; Einzelbeträge ab Fr. 1''000 mit Rechnungskopie belegen. Wertvermehrende Investitionen, Neubau/Umbau, Ersatzbauten, Behebung konstruktiver Mängel, Fahrnis nicht
+    abziehbar (Anteil in Spalte Anlagekosten/Mehrwert). Energiespar-/Umweltschutzmassnahmen und Rückbaukosten für Ersatzneubau abziehbar; Förderbeiträge mindern die Kosten. Überschiessende Kosten (negatives
+    Reineinkommen) auf die nächsten zwei Steuerperioden übertragbar (2025: Kosten aus 2023/2024 geltend machen; Rest in 2026 und 2027). Zeitliche Abgrenzung nach Rechnungsstellung oder Bezahlung, Wahl beibehalten.'
+  quellen:
+  - chunk: tg-form-08-2025__c0001
+    zitat: 1. Füllen Sie bitte pro Liegenschaft ein Formular aus.
+  - chunk: tg-wl-2025__c0234
+    zitat: Für Einzelbeträge ab Fr. 1'000 legen Sie der Steuererklärung bitte die Rechnungskopien (inkl. der
+  - chunk: tg-wl-2025__c0235
+    zitat: nicht mit dem Reineinkommen verrechneten Kosten auf die beiden nachfolgenden Steuerperioden
+  status: extrahiert
+- ziffer: Form. 6 gemeinnützig
+  abschnitt: Hilfsblatt Zuwendungen
+  bezeichnung: Zuwendungen für gemeinnützige oder öffentliche Zwecke (Name und Sitz der Institution) → Berechnung abzugsfähige freiwillige Zuwendungen (Code 366)
+  key: abzug.spenden
+  belege:
+  - spendenbestaetigung
+  feld: Spendenbestätigungen (ab Fr. 1'000 pro Zuwendung einreichen)
+  regel: 'Einzeln mit Name und Sitz der empfangenden Institution aufführen. Berechnung: Total minus Selbstbehalt Fr. 200 (Staat) bzw. ohne Selbstbehalt (Bund, ab Gesamtbetrag Fr. 100); Staat max. Fr. 8''000
+    bei Nettoeinkommen bis Fr. 40''000, sonst max. 20% des Nettoeinkommens; Bund max. 20%. Übertrag Ziff. 23.2.'
+  werte_keys:
+  - spenden.min
+  - spenden.max_satz
+  bund: 'Bund: kein Selbstbehalt, max. 20%.'
+  quellen:
+  - chunk: tg-form-06-2025__c0002
+    zitat: abzüglich Selbstbehalt (Staats- und Gemeindesteuern)   –   200.–
+  - chunk: tg-wl-2025__c0220
+    zitat: Deklaration   Führen Sie die freiwilligen Zuwendungen und/oder die Mitgliederbeiträge und Zuwendungen an po
+  status: extrahiert
+- ziffer: Form. 6 Parteien
+  abschnitt: Hilfsblatt Zuwendungen
+  bezeichnung: Mitgliederbeiträge und Zuwendungen an politische Parteien (Code 347) → Ziff. 15.5
+  key: abzug.parteispenden
+  belege:
+  - parteispende
+  feld: Quittungen/Bescheinigungen der Partei (ab Fr. 1'000 pro Zuwendung einreichen)
+  regel: Spalte «politische Parteien»; Maximum Staat Fr. 10'000, Bund Fr. 10'600; Übertrag Ziff. 15.5.
+  werte_keys:
+  - parteispenden.max
+  quellen:
+  - chunk: tg-form-06-2025__c0002
+    zitat: Total Mitgliederbeiträge und Zuwendungen an politische Parteien (Übertrag von Buchstabe B)   347
+  status: extrahiert

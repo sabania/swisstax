@@ -4,22 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 222"
-seiten: "59"
+titel: "Ziff. 13 Inkrafttreten, Übergangsrecht und Anhänge"
+ziffer: "13"
+seiten: "69"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 59
+> Bund · Steuerjahr 2025/2026 · KS 45 · 13 Inkrafttreten, Aufhebungen und Übergangsrecht · S. 69
 
-    4. Einmaliger Personalverleih vom 22.08.2021 bis 14.10.221: Weder Eintritt noch Austritt in September-
-    Abrechnung
-    5. Fortdauernder mehrmaliger Personalverleih an einen oder mehrere Einsatzbetriebe ab 04.09.2021:
-    Eintritt, aber noch kein Austritt in September-Abrechnung
-    6. Mehrmaliger Personalverleih an einen oder mehrere Einsatzbetriebe vom 13.08.2021 bis 26.09.2021:
-    Kein Eintritt, aber Austritt in September-Abrechnung
-    7. Mehrmaliger Personalverleih an einen oder mehrere Einsatzbetriebe vom 13.08.2021 bis 10.10.2021:
-    Weder Eintritt noch Austritt in September-Abrechnung
-    8. Mehrmaliger Personalverleih an einen oder mehrere Einsatzbetriebe vom 03.09.2021 bis 29.09.2021:
-    Eintritt und Austritt in September-Abrechnung
-    Fall   Sachverhalt   Sachverhalt   Sachverhalt   QSt-Abrechnung
-    August 2021   September 2021   Oktober 2021   September 2021
-    Eintritt   Eintritt   Austritt   Austritt   Eintritt   Austritt
+13   Inkrafttreten, Aufhebungen und Übergangsrecht
+
+Dieses Kreisschreiben tritt auf den 1. Januar 2021 in Kraft und gilt für sämtliche ab diesem
+Zeitpunkt fällig werdenden steuerbaren Leistungen.
+Nachträgliche ordentliche Veranlagungen sowie Neuberechnungen der Quellensteuer (vgl.
+Ziffer 11 oben) werden daher erstmals für die Steuerperiode 2021 nach neuem Recht bzw.
+nach den Vorgaben dieses Kreisschreibens durchgeführt.
+Altrechtliche Vorbescheide (Rulings), die dem Inhalt dieses Kreisschreibens nicht entspre-
+chen, entfalten ab der Steuerperiode 2021 keine Wirkung mehr.
+
+
+    Anhang I: Musterformulare (Anmeldung, Mutation, Abrechnung, Anträge NOV)
+    Anhang II: Übersicht NOV
+    Anhang III: Übersicht der Kantone mit Monatsmodell und Jahresmodell

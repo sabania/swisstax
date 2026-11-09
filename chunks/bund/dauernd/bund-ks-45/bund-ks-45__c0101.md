@@ -4,28 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 101"
-seiten: "25"
+titel: "Ziff. 6.9 Lohnfortzahlung bei Freistellung – Ansässigkeit im Ausland"
+ziffer: "6.9"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.9 Leistungen bei/nach Beendigung · S. 32
 
-    Beispiele:
-    1. Der Arbeitnehmer E. ist bei der Personalverleiherin O. AG angestellt. Vom 1. bis 31. März 2021 hat er
-    Einsätze bei verschiedenen Betrieben. Pro Stunde erhält er, je nach Tätigkeit im Einsatzbetrieb, vom Per-
-    sonalverleiher einen Lohn zwischen CHF 32.00 und CHF 40.00. Im gesamten Monat arbeitet er während
-    152 Stunden. Der Lohn wird ihm, nach Einreichung der Arbeitsrapporte, wöchentlich ausbezahlt.
-
-    Woche   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
-    lohn   stimmend   len-
-    steuer
-
-    1. Woche   32   1 024   32   180   5 760   11.1 %   113.65
-
-    2. Woche   35   1 330   38   180   6 300   12.0 %   159.60
-
-    3. Woche   33   1 485   45   180   5 940   11.4 %   169.30
-
-    4. Woche   40   1 480   37   180   7 200   13.5 %   199.80
-
-    Total   5 319   152   180   6 299   642.35
+Lohnfortzahlungen an einen im Ausland ansässigen Arbeitnehmer, der nach erfolgter Kündi-
+gung freigestellt wird, sind – da diese auf einem weiterhin gültigen Arbeitsvertrag sowie einer
+in der Schweiz ausgeübten Tätigkeit beruhen – an der Quelle zu besteuern (vgl. Art. 91
+DBG). Die Quellenbesteuerung hat dabei auf einem reduzierten Bruttolohn (unter Progressi-
+onsvorbehalt) zu erfolgen, sofern die Arbeit ohne die Freistellung mutmasslich im Ausland
+geleistet worden wäre. Wäre die Arbeit mutmasslich als Grenzgänger im Sinne von Arti-
+kel 15a des DBA mit Deutschland geleistet worden, sind die entsprechenden Tarife anwend-
+bar.
+Es steht dem (ehemaligen) Arbeitnehmer offen, bis am 31. März des auf die Fälligkeit der
+Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträg-
+liche ordentliche Veranlagung zu verlangen (vgl. Ziffer 11 unten).

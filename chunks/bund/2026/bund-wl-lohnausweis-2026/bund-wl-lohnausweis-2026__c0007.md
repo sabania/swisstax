@@ -4,21 +4,19 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 7"
-seiten: "6"
+titel: "Rz 4–5 Buchstabe A/B – Lohnausweis oder Rentenbescheinigung (Teil 2/2)"
+ziffer: "4–5"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 6
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstabe A/B · S. 7
 
-<!-- Seite 6 -->
-Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
-
-Vorinformationen
-Das Formular «Lohnausweis/Rentenbescheinigung» (Formular 11) ist als Lohnausweis so   1
-wie als Bescheinigung für Entschädigungen von Verwaltungsräten zu verwenden. Zudem
-kann es zur Bescheinigung von Renten der zweiten Säule (BVG) sowie zur Bescheinigung
-von Leistungen der Arbeitslosenversicherung (ALV) eingesetzt werden (vgl. Rz 5). Für das
-Ausfüllen des Formulars ist diese Wegleitung verbindlich. Weitere Informationen finden Sie
-auf der Internetseite der Schweizerischen Steuerkonferenz (www.ssk-csi.ch), wo unter an
-derem auch die eingangs erwähnten Antworten zu häufig gestellten Fragen (FAQ) publiziert
-sind.
+Dieses Feld ist anzukreuzen, wenn die bescheinigten Leistungen auf einem Rentenanspruch   5
+beruhen. Bei der erstmaligen Ausrichtung einer Rente ist der Eidgenössischen Steuerver
+waltung (ESTV), Abteilung Erhebung der Hauptabteilung Direkte Bundessteuer, Verrech
+nungssteuer und Stempelabgaben (DVS), 3003 Bern (Tel. 058 462 71 50), mit dem Formular
+565 «Rentenmeldung (2. Säule / 3. Säule)» eine Meldung zu erstatten. Den Rentenempfän
+gern ist unabhängig von der Meldung an die ESTV jährlich eine Rentenbescheinigung auf
+dem Formular 11 oder auf dem versicherungseigenen Formular auszustellen.
+Für die Bescheinigung von Kapitalleistungen ist von den Versicherern nur das Formular 563
+«Meldung über Kapitalleistung (2. Säule / 3. Säule) zu verwenden.

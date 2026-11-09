@@ -4,20 +4,23 @@ quelle: bund-ks-41
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 41 – Abschnitt 13"
-seiten: "3"
+titel: "Ziff. 2.2.4 Art. 204 DBG (80 Prozent), Bezug in Tranchen, Sperrfrist (Teil 1/2)"
+ziffer: "2.2.4"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 41 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 41 · 2.2 Steuerliche Auswirkungen › 2.2.4 Auszahlung › Besonderheiten · S. 4–5
 
-In diesem Zusammenhang ist darauf hinzuweisen, dass ein Einkauf ausschliesslich bei einer
-Vorsorgeeinrichtung möglich ist, da diese ihre Leistungen in einem Vorsorgeplan festhält
-(Art. 9 Abs. 2 FZG; Art 79b Abs. 1 BVG). Bei einem Freizügigkeitskonto oder einer Freizü-
-gigkeitspolice wird kein Vorsorgeplan berechnet. Das Freizügigkeitskonto oder die Freizügig-
-keitspolice dient lediglich der Erhaltung des Vorsorgeschutzes (Art. 10 FZV). Systembedingt
-ergibt sich daher weder bei einem Freizügigkeitskonto noch bei einer Freizügigkeitspolice ein
-Einkaufsbedarf, weshalb ein faktischer Einkauf in eine Freizügigkeitseinrichtung steuerrecht-
-lich nicht geltend gemacht werden kann.
+Sowohl im Rahmen der ordentlichen Besteuerung wie bei der Besteuerung an der Quelle ist
+die Vorschrift von Artikel 204 DBG anwendbar. Demnach werden Renten, die bis und mit
+dem 31. Dezember 2001 zu laufen begannen oder fällig wurden und auf einem Vorsorgever-
+hältnis beruhen, welches am 31. Dezember 1986 bereits bestand, im Regelfall nur im Um-
+fang von 80 Prozent zur Besteuerung herangezogen.
 
-2.2.3   Einkauf von Beitragsjahren nach Wiederaufnahme einer Erwerbstätig-
-    keit im Rentenalter
+Dabei ist zu beachten, dass ein Bezug "in Tranchen" (Teilkapitalbezug) steuerlich unbeacht-
+lich ist. Tritt ein entsprechender Vorsorgefall oder Barauszahlungstatbestand (mit Baraus-
+zahlungsbegehren) ein, wird steuerlich stets über das ganze Vorsorgeguthaben abgerech-
+net. Ausnahmen, in welchen nur der ausgerichtete (Teil-)Betrag zur Besteuerung kommt,
+sind ausschliesslich im Rahmen des Vorbezugs für die Wohneigentumsförderung sowie bei
+Anwendbarkeit von Artikel 25f FZG bei definitivem Verlassen der Schweiz (vgl. dazu auch
+Rundschreiben Quellensteuer der ESTV vom 18. November 2009) möglich.

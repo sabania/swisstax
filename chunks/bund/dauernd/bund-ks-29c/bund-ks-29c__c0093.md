@@ -4,35 +4,16 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 93"
-seiten: "32"
+titel: "Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 2/3)"
+ziffer: "Anhang 5"
+seiten: "37"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 32
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 5 Währungswechsel · S. 37
 
-Steuerfolgen:
-Verletzung der Rückzahlungsregel, jedoch nicht in Bezug auf KER-Rückzahlung an die Y AG
-von 12 (gemäss Art. 5 Abs. 1quater Bst. c VStG). Steuerbare Ausschüttung von 24 (gemäss
-Art. 5 Abs. 1ter VStG; Art. 20 Abs. 4 DBG). Das Eigenkapital der Gesellschaft zeigt nach Kor-
-rektur folgendes Bild:
-
- Handelsbilanz / Eigenkapital   Bestand   Ausschüt-   Be-   Korrekturen   Be-
-    tung   stand   stand
-
- Aktienkapital   1000   1000   1000
- Kapitalreserven
- - KER bestätigt   800   -60   740   24   764
- - übrige   400   400   400
- Gewinnreserven   4000   4000   -24   3976
- Gewinn/Gewinnvortrag   800   800   800
-
- Total Eigenkapital   7000   6940   6940
-
-2. Fallbeispiel
-
-Gleicher Sachverhalt wie 1. Fallbeispiel. Die bestätigten KER der X AG qualifizieren als Aus-
-land-KER.
-
-Steuerfolgen:
-Keine Verletzung der Rückzahlungsregel; Die Rückzahlung von 60 bleibt steuerfrei (gemäss
-Art. 5 Abs. 1quater Bst. a und b VStG; Art. 20 Abs. 5 Bst. a und b DBG).
+Die Kapitaleinlage am 1. Juli 1998 wurde der Gesellschaft in Schweizer Franken bestätigt,
+da Reserven aus Kapitaleinlagen steuerlich gleich behandelt werden wie Grund- und
+Stammkapital. Die Umrechnung erfolgte dabei gemäss Praxis zum historischen Kurs. Die
+Rückzahlung am 1. Juli 2019 erfolgte zum damaligen Transaktionskurs von 0.99. Die Kapi-
+talgesellschaft weist somit in ihren Büchern in funktionaler Währung KER im Umfang von
+USD 130’000 aus. Demgegenüber stehen bestätigte KER von CHF 220'700.

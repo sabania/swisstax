@@ -9,18 +9,22 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Kapitalleistungen aus Vorsorge
 
-    Zusätzlich hält § 39 Abs. 1 StG fest, dass Kapitalleistungen stets einer vollen Jahressteuer für das Kalenderjahr, in dem sie zugeflossen sind, unterliegen. Eine Leistung wird als "zugeflossen" betrachtet, wenn der Steuerpflichtige einen festen und durchsetzbaren Rechtsanspruch erworben hat und in der Lage ist, über die Leistung wirtschaftlich frei zu verfügen. Normalerweise tritt dieser Fall zum Zeitpunkt der Fälligkeit der Leistung ein.
+    ### Antwort
 
-Deklaration Kapitalleistungen in Steuererklärung
+    Grundsätzlich sind Übertragungen in eine andere Vorsorgeeinrichtung gestützt auf Artikel 3 BVV3 möglich und unter gewissen Voraussetzungen steuerneutral. Wir bitten Sie den Sachverhalt in einem Einspracheverfahren zu schildern und belegmässige Nachweise einzureichen.
+
+Einfache Steuer
 :   ### Frage
 
-    Müssen Kapitalbezüge in der Steuererklärung deklariert werden?
+    Was bedeutet "einfache Steuer" und wie viel muss ich effektiv bezahlen?
 
     ### Antwort
 
-    Neben der Deklaration des ausbezahlten Guthabens im Wertschriften- und Guthabenverzeichnis bitten wir Sie die Kapitalleistungen zu Informationszwecken auf der Seite 4 des Hauptformulars "Steuererklärung" unten zu deklarieren.
+    Für die Berechnung der geschuldeten Staats- und Gemeindesteuern wird die einfache Steuer mit dem Steuerfuss der Wohngemeinde multipliziert. Unser Steuerkalkulator kann Ihnen bei der Berechnung behilflich sein.
 
-Einbringung Kapitalleistung in andere Säule 3a
+    - [Kalkulator Kapitalleistungen aus Vorsorge](https://sv-kalkulatoren.tg.ch/TG/kalkulatoren/kalkulatoren/calc_02_vors.html)
+
+Mehrere Veranlagungen für das gleiche Jahr
 :   ### Frage
 
-    Ich habe meine Säule 3a nicht bezogen, sondern in eine andere Säule 3a eingebracht. Wie muss ich vorgehen?
+    Ich habe mehrere Veranlagungen für das gleiche Jahr erhalten, obwohl ich die Rechnung für eine Kapitalauszahlung bereits beglichen habe. Wieso bekomme ich nun nochmals eine Veranlagung?

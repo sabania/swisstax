@@ -4,16 +4,33 @@ quelle: bund-bsv-masszahlen-2025-2026
 jur: bund
 jahre: [2025, 2026]
 typ: info
-titel: "BSV Masszahlen 25/26 – Abschnitt 13"
+titel: "BSV Zeitreihen – Lohndaten gemäss BVG 1985–2026 und BVG-Mindestzinssatz (Teil 3/3)"
+ziffer: "2–3"
 seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · S. 3
+> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Zeitreihen › Lohndaten und Mindestzinssatz · S. 3
 
-    2011-2012   20'880   24'360   83'520   3'480   59'160
-    2013-2014   21'060   24'570   84'240   3'510   59'670
-    2015-2018   21'150   24'675   84'600   3'525   59'925
-    2019-2020   21'330   24'885   85'320   3'555   60'435
-    2021-2022   21'510   25'095   86'040   3'585   60'945
-    2023-2024   22’050   25’725   88’200   3’675   62’475
-    2025-2026   22’680   26’460   90’720   3’780   64’260
+    Zurück
+
+3.   BVG-Mindestzinssatz in Prozent (Zeitreihe)
+
+    Jahr   BVG-
+    Mindestzinssatz
+    (in Prozent)
+
+    1985-2002   4,00
+    2003   3,25
+    2004   2,25
+    2005-2007   2,50
+    2008   2,75
+    2009-2011   2,00
+    2012-2013   1,50
+    2014-2015   1,75
+    2016   1,25
+    2017-2023   1,00
+    2024-2026   1,25
+
+    Zurück
+
+    © 2026 by BSV/MAS/Math/Marie-Claude Sommer/Bern-CH   3

@@ -4,7 +4,7 @@ quelle: bund-dbg-2025
 jur: bund
 jahre: [2025]
 typ: gesetz
-titel: "Art. 107 DBG – Bei Quellensteuern (Teil 1/3)"
+titel: "Art. 107 DBG – Bei Quellensteuern (Teil 1/2)"
 artikel: "Art. 107"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---

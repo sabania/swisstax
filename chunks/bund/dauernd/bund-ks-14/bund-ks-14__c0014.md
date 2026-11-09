@@ -4,23 +4,23 @@ quelle: bund-ks-14
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 14 – Abschnitt 14"
-seiten: "4"
+titel: "Ziff. 4.7 Aktive Mitwirkung (Verkäuferdarlehen, Verrechnung, Sicherheiten)"
+ziffer: "4.7"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 14 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 14 · 4 Abgrenzungsfragen › 4.7 Mitwirkung · S. 5
 
-<!-- Seite 4 -->
-ne Verluste kompensiert sind. Darüber hinausgehende Ausschüttungen sind qualifizierende
-Substanzausschüttungen.
-
-4.6.2. Handelsrechtlich ausschüttungsfähige Reserven
-
-Die handelsrechtlich ausschüttungsfähigen Reserven bestimmen sich nach dem Bestand
-des in der letzten, vor dem jeweiligen Verkaufszeitpunkt liegenden, handelsrechtskonformen
-Bilanz der Zielgesellschaft ausgewiesenen Eigenkapitals unter Abzug des Aktien- oder
-Stammkapitals sowie des maximal möglichen Umfanges der gesetzlichen Reserven gemäss
-Bundesgesetz vom 30. März 1911 über das Obligationenrecht (Art. 671, 671a, 671b; 805;
-860 OR) respektive gemäss analogen Bestimmungen im ausländischen Recht.
-
-4.6.3. Nichtbetriebsnotwendige Substanz
+ASA 60, 537 Erw. 6b; 59, 717, Erw. 5d). Das Zusammenwirken zwischen Verkäufer und
+Käufergesellschaft kann aktiv erfolgen, z.B. durch:
+   -   Gewährung eines Darlehens des Verkäufers an die Käuferin;
+   -   Verrechnung einer Schuld des Verkäufers gegenüber der Zielgesellschaft mit dem
+    Kaufpreis;
+   -   Sicherheitsleistungen der Zielgesellschaft für Darlehen Dritter an die Käuferin im
+    Zeitpunkt des Verkaufs;
+   -   Hinterlegung der veräusserten Beteiligungsrechte durch den Verkäufer als Sicherheit
+    für eine Fremdfinanzierung des Kaufpreises;
+   -   Verpflichtung des Verkäufers, Aktiven der Zielgesellschaft in flüssige Form zu brin-
+    gen;
+   -   Einräumung der Verfügungsgewalt über die Aktiven der Zielgesellschaft an den Käu-
+    fer vor Bezahlung des Kaufpreises.

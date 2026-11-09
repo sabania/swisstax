@@ -1,256 +1,411 @@
 [
 {
 "id": "sg-stb-39-9__c0001",
-"titel": "StB 39 Nr. 9 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Rechtsgrundlagen – Berufskosten, Pauschale übrige Berufskosten",
+"pfad": [
+"1. Rechtsgrundlagen"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Berufskosten",
+"übrige Berufskosten",
+"Pauschale",
+"Art. 39 StG",
+"Art. 21 StV",
+"Arbeitszimmer"
+],
+"positionen": [
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Übrige notwendige Berufskosten: Fr. 700.-- zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2'400.--, höherer Nachweis vorbehalten (Art. 21 StV).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-stb-39-9__c0002"
 },
 {
 "id": "sg-stb-39-9__c0002",
-"titel": "StB 39 Nr. 9 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Zusatzabzug Nebenerwerb – 20 %, min. Fr. 800, max. Fr. 2'400",
+"pfad": [
+"1. Rechtsgrundlagen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Nebenerwerb",
+"Nebenerwerbsabzug",
+"20 Prozent",
+"Pauschale",
+"Art. 22 StV",
+"Berufskostenverordnung"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Für unselbständigen Nebenerwerb sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar; höherer Nachweis vorbehalten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0001",
 "nachher": "sg-stb-39-9__c0003"
 },
 {
 "id": "sg-stb-39-9__c0003",
-"titel": "StB 39 Nr. 9 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2 Zweck des Abzugs bei unselbständiger Nebenerwerbstätigkeit",
+"pfad": [
+"2. Zweck des Abzugs"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Zweck",
+"Gewinnungskosten",
+"Selbständigerwerbende",
+"widerlegbare Pauschale",
+"Art. 40 StG"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Selbständige ziehen Berufskosten als geschäftsmässigen Aufwand ab; bei Unselbständigen gelten teilweise Pauschalen (Art. 39 StG, Art. 18–21 StV).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0002",
 "nachher": "sg-stb-39-9__c0004"
 },
 {
 "id": "sg-stb-39-9__c0004",
-"titel": "StB 39 Nr. 9 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2 Zusätzliche Abzugspauschale für Nebenerwerb – restriktive Auslegung",
+"pfad": [
+"2. Zweck des Abzugs"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Nebenerwerb",
+"Zusatzpauschale",
+"restriktive Auslegung",
+"Haupterwerb",
+"Verordnungsebene"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Die zusätzliche Pauschale fängt diverse kleinere Auslagen auf, ist aber nicht extensiv auszulegen; Nebenerwerb setzt eine Haupterwerbstätigkeit voraus.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0003",
 "nachher": "sg-stb-39-9__c0005"
 },
 {
 "id": "sg-stb-39-9__c0005",
-"titel": "StB 39 Nr. 9 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3 Haupterwerb – Begriff, Mindestquote zwei Drittel (Teil 1/2)",
+"pfad": [
+"3. Haupterwerb"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Haupterwerb",
+"Teilzeit",
+"zwei Drittel",
+"Arbeitspensum",
+"Normalpensum",
+"Nebenjob"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb",
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Haupterwerb liegt vor, wenn der Aufwand im Verhältnis zum Nebenerwerb wenigstens zwei Drittel einer 100-prozentigen Arbeitszeit entspricht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0004",
 "nachher": "sg-stb-39-9__c0006"
 },
 {
 "id": "sg-stb-39-9__c0006",
-"titel": "StB 39 Nr. 9 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 3 Haupterwerb – Begriff, Mindestquote zwei Drittel (Teil 2/2)",
+"pfad": [
+"3. Haupterwerb"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3",
+"stichworte": [
+"Haupterwerb",
+"Teilzeit",
+"zwei Drittel",
+"Arbeitspensum",
+"Normalpensum",
+"Nebenjob"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb",
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0005",
 "nachher": "sg-stb-39-9__c0007"
 },
 {
 "id": "sg-stb-39-9__c0007",
-"titel": "StB 39 Nr. 9 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 3 Haupterwerb – mehrere Anstellungen und Teilzeitstellen zusammenzählen",
+"pfad": [
+"3. Haupterwerb"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"mehrere Anstellungen",
+"Teilzeitstellen",
+"Lehrer",
+"Hauswart",
+"Mindestquote"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Mehrere Anstellungsverhältnisse (z.B. Lehrer an verschiedenen Schulen) ergeben gesamthaft nur einen Haupterwerb; Teilzeitstellen werden bis über zwei Drittel zusammengezählt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0006",
 "nachher": "sg-stb-39-9__c0008"
 },
 {
 "id": "sg-stb-39-9__c0008",
-"titel": "StB 39 Nr. 9 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 3 Haupterwerb – enger beruflicher Zusammenhang, Einkünfte ex officio, Einzelbeschäftigung",
+"pfad": [
+"3. Haupterwerb"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"ex officio",
+"Verwaltungsrat",
+"Behördenmitglied",
+"Gemeindepräsident",
+"Rentner mit Teilpensum",
+"eine Beschäftigung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.unselbstaendig.vr_honorare"
+],
+"zusammenfassung": "Einkünfte aus Tätigkeiten im engen beruflichen Zusammenhang und Amtsfunktionen gehören zum Haupterwerb; wer nur eine Beschäftigung hat, übt immer Haupterwerb aus.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0007",
 "nachher": "sg-stb-39-9__c0009"
 },
 {
 "id": "sg-stb-39-9__c0009",
-"titel": "StB 39 Nr. 9 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 4 Nebenerwerb – Begriff und Abgrenzung (anderer Arbeitgeber, Überstunden)",
+"pfad": [
+"4. Nebenerwerb"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4",
+"stichworte": [
+"Nebenerwerb",
+"Nebenjob",
+"anderer Arbeitgeber",
+"Überstunden",
+"Arbeitsort",
+"Zweitjob"
+],
+"positionen": [
+"einkommen.unselbstaendig.nebenerwerb",
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Nebenerwerb ist eine von der Haupttätigkeit unabhängige Tätigkeit, meist bei anderem Arbeitgeber, an anderem Ort und ausserhalb der Arbeitszeit; Überstunden für den Hauptarbeitgeber sind kein Nebenerwerb.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0008",
 "nachher": "sg-stb-39-9__c0010"
 },
 {
 "id": "sg-stb-39-9__c0010",
-"titel": "StB 39 Nr. 9 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 4 Nebenerwerb nur unselbständig – untergeordnete Bedeutung",
+"pfad": [
+"4. Nebenerwerb"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4",
+"stichworte": [
+"selbständiger Nebenerwerb",
+"Buchführung",
+"Art. 169 StG",
+"untergeordnete Bedeutung",
+"mehrere Nebenerwerbe"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Nebenerwerb im Sinn des Abzugs ist ausschliesslich unselbständig; bei Selbständigkeit ist der geschäftsmässig begründete Aufwand uneingeschränkt abziehbar (Art. 40 ff. StG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0009",
 "nachher": "sg-stb-39-9__c0011"
 },
 {
 "id": "sg-stb-39-9__c0011",
-"titel": "StB 39 Nr. 9 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 5 Abzugsregelung – Pauschale 20 %, min. Fr. 800, max. Fr. 2'400",
+"pfad": [
+"5. Abzugsregelung"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5",
+"stichworte": [
+"Pauschalabzug",
+"20 Prozent",
+"Fr. 800",
+"Fr. 2'400",
+"Nachweis effektive Kosten",
+"Art. 22 StV"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Pauschale nach DBG: 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.--; Nachweis höherer effektiver Kosten bleibt vorbehalten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0010",
 "nachher": "sg-stb-39-9__c0012"
 },
 {
 "id": "sg-stb-39-9__c0012",
-"titel": "StB 39 Nr. 9 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 5 Mindestbetrag, Liebhaberei, Berechnung aus Summe aller Nebenerwerbe",
+"pfad": [
+"5. Abzugsregelung"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5",
+"stichworte": [
+"Nebenerwerbseinkünfte unter Fr. 800",
+"Liebhaberei",
+"Pauschale oder effektiv",
+"mehrere Nebenerwerbe"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Von Nebenerwerbseinkünften unter Fr. 800.-- ist höchstens ein Pauschalabzug in gleicher Höhe zulässig; die 20% werden aus der Summe aller Nebenerwerbseinkünfte berechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0011",
 "nachher": "sg-stb-39-9__c0013"
 },
 {
 "id": "sg-stb-39-9__c0013",
-"titel": "StB 39 Nr. 9 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 5 Pauschale gilt Fahrkosten und Verpflegung mit ab",
+"pfad": [
+"5. Abzugsregelung"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5",
+"stichworte": [
+"Fahrkosten",
+"auswärtige Verpflegung",
+"abgegolten",
+"kein Zusatzabzug"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb",
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Die Nebenerwerbspauschale schliesst Fahrkosten und Mehrkosten der auswärtigen Verpflegung ein; ein zusätzlicher Abzug kommt nicht in Betracht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0012",
 "nachher": "sg-stb-39-9__c0014"
 },
 {
 "id": "sg-stb-39-9__c0014",
-"titel": "StB 39 Nr. 9 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 5 Spesenvergütungen im Nebenerwerb – Lohnausweis, Spesenreglement",
+"pfad": [
+"5. Abzugsregelung"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5",
+"stichworte": [
+"Spesen",
+"Spesenvergütung",
+"Lohnausweis",
+"Spesenreglement",
+"Auslagenersatz",
+"Rz. 52"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb",
+"einkommen.unselbstaendig.nebenerwerb"
+],
+"zusammenfassung": "Spesenvergütungen des Arbeitgebers im Nebenerwerb sind grundsätzlich steuerbares Erwerbseinkommen, von dem die Pauschale abgezogen werden kann; Ausnahme bei genehmigtem Spesenreglement oder effektiven Spesen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-9__c0013",
 "nachher": "sg-stb-39-9__c0015"
 },
 {
 "id": "sg-stb-39-9__c0015",
-"titel": "StB 39 Nr. 9 – Abschnitt 15",
-"pfad": [],
-"seiten": [
-3
+"titel": "Ziff. 5–6 Effektive Kosten (Fahrt, Verpflegung) und nebenamtliche Behördentätigkeit",
+"pfad": [
+"5. Abzugsregelung",
+"6. Nebenamtliche Behördentätigkeit"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-9__c0014",
-"nachher": "sg-stb-39-9__c0016"
-},
-{
-"id": "sg-stb-39-9__c0016",
-"titel": "StB 39 Nr. 9 – Abschnitt 16",
-"pfad": [],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-9__c0015",
+"ziffer": "5–6",
+"stichworte": [
+"effektive Kosten",
+"Behördenmitglied",
+"nebenamtlich",
+"Art. 22 Abs. 2 StV",
+"StB 39 Nr. 4"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb",
+"einkommen.unselbstaendig.vr_honorare"
+],
+"zusammenfassung": "Bei effektiven Kosten gelten für Fahrt und Verpflegung die Pauschalansätze nach Art. 18 und 19 StV; der Behördenabzug kann zusätzlich zum Nebenerwerbsabzug geltend gemacht werden.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-stb-39-9__c0014",
 "nachher": null
 }
 ]

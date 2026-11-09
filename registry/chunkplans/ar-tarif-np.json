@@ -1,0 +1,46 @@
+{
+ "id": "ar-tarif-np",
+ "hinweise": [
+  "Tarifspalten (Verheirateten- und Alleinstehendentarif) nebeneinander in einer Zeile extrahiert; Zuordnung links/rechts lesbar."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Einkommenssteuertarif 2024 (Art. 39 StG) – Verheirateten- und Alleinstehendentarif",
+   "pfad": [
+    "1. Einkommenssteuer"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Einkommenssteuertarif",
+    "Steuertarif AR",
+    "Grundtarif",
+    "Verheiratetentarif",
+    "Alleinstehendentarif",
+    "kalte Progression"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Stufentarif von 0,00 % (erste Fr. 16'700 Verheiratete, Fr. 8'300 Alleinstehende) bis 2,60 % des steuerbaren Einkommens über Fr. 417'200 bzw. Fr. 260'800; Restbeträge unter Fr. 100.– fallen ausser Betracht."
+  },
+  {
+   "start": 66,
+   "titel": "Vermögenssteuertarif (Art. 52 StG) – 0,50 / 0,55 Promille",
+   "pfad": [
+    "2. Vermögenssteuer"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "Vermögenssteuer",
+    "Vermögenssteuertarif",
+    "Promille",
+    "Fr. 250 000"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Einfache Steuer 0,50 Promille bis Fr. 250 000, 0,55 Promille darüber; Restbeträge unter Fr. 1000.– fallen ausser Betracht."
+  }
+ ]
+}

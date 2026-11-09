@@ -4,27 +4,18 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 184"
-seiten: "49"
+titel: "Ziff. 9.1 Pflichten und Haftung des Schuldners der steuerbaren Leistung (Teil 2/2)"
+ziffer: "9.1"
+seiten: "58"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 49
+> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.1 Allgemeines · S. 58
 
-<!-- Seite 49 -->
-    Änderung des Zivilstands mit anschliessender Anpassung des Lohns während des Kalenderjahres:
-    9. Ein Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Er übt eine unselbstständige Er-
-    werbstätigkeit mit einem Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 78 000.00
-    (CHF 6 000 x 13).
-    Die Ehegattin ist ebenfalls erwerbstätig.
-    Das Kind des Ehepaars wird im September des Jahres 2021 volljährig. Die Familienzulagen werden daher
-    bis im September 2021 bezahlt.
-
-    Monat   Januar   … September   Oktober   November   Dezember   Besteuerung
-
-    Bruttolohn   6 000   6 000   6 000   6 000   12 000   78 000.00
-
-    Familienzulagen   200   200   1 800.00
-
-    Tarifcode   C1   C1   C0   C0   C0
-
-    Steuersatz (%)   10,01   10,0   12,22   12,2   12,2
+Leistung, den Quellensteuerabzug korrekt vorzunehmen, indem er sich auf unkorrekte Anga-
+ben der steuerpflichtigen Person stützt, kann der Schuldner der steuerbaren Leistung zu ei-
+ner Nachzahlung der geschuldeten Quellensteuer verpflichtet werden. Dies selbst dann,
+wenn das Arbeitsverhältnis zwischen der quellensteuerpflichtigen Person und dem Schuld-
+ner der steuerbaren Leistung nicht mehr besteht (vgl. auch «Décision du Court de droit admi-
+nistratif et public du Tribunal cantonal du Canton de Vaud FI.2015.0033 du 8 mars 2016»).
+Der Rückgriff des Schuldners der steuerbaren Leistung auf die quellensteuerpflichtige Per-
+son bleibt vorbehalten (vgl. Art. 138 Abs. 1 DBG).

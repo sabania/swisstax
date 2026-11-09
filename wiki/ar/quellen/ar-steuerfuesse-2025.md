@@ -12,11 +12,14 @@ generiert: tools/build_index.py
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Steuerfuesse_2025.pdf> · lokal: [ar-steuerfuesse-2025.pdf](../../../raw/ar/2025/ar-steuerfuesse-2025.pdf) · Volltext: [ar-steuerfuesse-2025.md](../../../sources/ar/2025/ar-steuerfuesse-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `f8481fe52d5eafd9…`
 
-## Inhalt (4 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Seite 1: Tabellenlayout mit mehrzeiligen Gemeindezeilen (Mehrfach-Kirchgemeinden), Spalten teils vermischt.
+
+## Inhalt (3 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/ar/2025/ar-steuerfuesse-2025/ar-steuerfuesse-2025__c0001.md) | Steuerfüsse AR 2025 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/ar/2025/ar-steuerfuesse-2025/ar-steuerfuesse-2025__c0002.md) | Steuerfüsse AR 2025 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/ar/2025/ar-steuerfuesse-2025/ar-steuerfuesse-2025__c0003.md) | Steuerfüsse AR 2025 – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/ar/2025/ar-steuerfuesse-2025/ar-steuerfuesse-2025__c0004.md) | Steuerfüsse AR 2025 – Abschnitt 4 | S. 1 |  |
+| [c0001](../../../chunks/ar/2025/ar-steuerfuesse-2025/ar-steuerfuesse-2025__c0001.md) | Steuerfüsse 2025 AR – Kantonsfuss und Gemeinden Bühler bis Lutzenberg | S. 1 | Kantonaler Steuerfuss 3.30 Einheiten; Gemeinde-, Kirchgemeinde- und Gesamtsteuerfüsse (z.B. Bühler 3.70, Herisau 4.10, Hundwil 4.30). |
+| [c0002](../../../chunks/ar/2025/ar-steuerfuesse-2025/ar-steuerfuesse-2025__c0002.md) | Steuerfüsse 2025 AR – Gemeinden Rehetobel bis Wolfhalden | S. 1 | Steuerfüsse je Gemeinde und Kirchgemeinde, u.a. Teufen 2.60, Trogen 4.50, Wolfhalden 3.80 Einheiten. |
+| [c0003](../../../chunks/ar/2025/ar-steuerfuesse-2025/ar-steuerfuesse-2025__c0003.md) | Hinweis Separaterhebungen und Entwicklung der Steuerfüsse 2024–2025 | S. 1 | Ansätze enthalten Separaterhebungen; Übersicht der Veränderungen 2024–2025 (Staatssteuer unverändert, Stand 08.01.2025). |

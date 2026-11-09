@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1966/371_385_384/20250101/de> · lokal: [bund-vstg.xml](../../../raw/bund/2025/bund-vstg.xml) · Volltext: [bund-vstg.md](../../../sources/bund/2025/bund-vstg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `afdc571c7fd9783e…`
 
-## Inhalt (97 Chunks)
+## Inhalt (96 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -95,9 +95,8 @@ generiert: tools/build_index.py
 | [art-59](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-59.md) | Art. 59 VStG | Art. 59 |  |
 | [art-60](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-60.md) | Art. 60 VStG | Art. 60 |  |
 | [art-61](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-61.md) | Art. 61 VStG | Art. 61 |  |
-| [art-62-t1](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-62-t1.md) | Art. 62 VStG (Teil 1/3) | Art. 62 |  |
-| [art-62-t2](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-62-t2.md) | Art. 62 VStG (Teil 2/3) | Art. 62 |  |
-| [art-62-t3](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-62-t3.md) | Art. 62 VStG (Teil 3/3) | Art. 62 |  |
+| [art-62-t1](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-62-t1.md) | Art. 62 VStG (Teil 1/2) | Art. 62 |  |
+| [art-62-t2](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-62-t2.md) | Art. 62 VStG (Teil 2/2) | Art. 62 |  |
 | [art-63](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-63.md) | Art. 63 VStG | Art. 63 |  |
 | [art-64](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-64.md) | Art. 64 VStG | Art. 64 |  |
 | [art-65-66](../../../chunks/bund/2025/bund-vstg/bund-vstg__art-65-66.md) | Art. 65 und 66 VStG | Art. 65 und 66 |  |

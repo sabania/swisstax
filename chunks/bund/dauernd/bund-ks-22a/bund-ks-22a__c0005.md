@@ -4,15 +4,24 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 5"
-seiten: "1"
+titel: "Ziff. 2.2.2 Erforderliches Ausmass der Beteiligung – mindestens 10 % und Zusammenrechnung"
+ziffer: "2.2.2"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 22a · 2 Teilbesteuerung › 2.2 Objektive Voraussetzungen › 2.2.2 · S. 3
 
-Anhang: Beispiele 1 - 4
+2.2.2. Erforderliches Ausmass der Beteiligung
 
-    Eidgenössische Steuerverwaltung ESTV
-    Eigerstrasse 65
-    3003 Bern
-1-022a-D-2020-d   www.estv.admin.ch
+Für die Teilbesteuerung kommen nur Beteiligungsrechte in Betracht, die mindestens 10 Pro
+zent am Grund- oder Stammkapital einer Kapitalgesellschaft oder Genossenschaft ausma
+chen (Eigentum oder Nutzniessung).
+
+Die sich im Besitz von Ehegatten, eingetragener Partnerinnen und Partnern sowie Kindern
+unter elterlicher Sorge, die zusammen veranlagt werden, befindenden Beteiligungsrechte
+werden zusammengerechnet.
+
+Hält eine steuerpflichtige Person Beteiligungen am Grund- oder Stammkapital einer Kapital
+gesellschaft oder Genossenschaft sowohl im Privat- als auch im Geschäftsvermögen, wer
+den diese für die Ermittlung der erforderlichen Quote zusammengerechnet. Die Erträge aus
+diesen Beteiligungen werden jedoch nicht zusammengerechnet.

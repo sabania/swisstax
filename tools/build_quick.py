@@ -286,8 +286,25 @@ def write_index(W, Z):
     (Q / "index.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 
+def write_themen_index():
+    th = yaml.safe_load((ROOT / "registry" / "themen.yaml").read_text(encoding="utf-8"))["themen"]
+    d = ROOT / "wiki" / "themen"
+    d.mkdir(parents=True, exist_ok=True)
+    L = [fm({"typ": "index", "titel": "Themen (Querschnitt)", "jur": "multi", "generiert": f"tools/build_quick.py ({today()})"}),
+         "# Themen – Querschnitt über Bund und Kantone", "",
+         "Jede Themenseite: Checkliste, Rechtsgrundlagen, Werte je Jurisdiktion/Jahr, Formularpositionen, Sonderfälle, Quellen. "
+         "Zahlen stammen aus `data/` (siehe [Quick-Access](../../quick/index.md)).", "",
+         "| Thema | Positionen | Eckwerte |", "|---|---|---|"]
+    for slug, t in th.items():
+        exists = (d / f"{slug}.md").exists()
+        link = f"[{t['titel']}]({slug}.md)" if exists else f"{t['titel']} *(in Arbeit)*"
+        L.append(f"| {link} | {', '.join(f'`{p}`' for p in t.get('positionen') or [])} | {len(t.get('werte') or [])} |")
+    (d / "index.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+
+
 def main():
     Q.mkdir(exist_ok=True)
+    write_themen_index()
     W, Z = werte_files(), zuordnung_files()
     B = {"belege": []}
     for bp in [DATA / "belege.yaml"] + sorted(DATA.glob("belege-teil*.yaml")):

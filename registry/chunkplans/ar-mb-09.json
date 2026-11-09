@@ -1,0 +1,79 @@
+{
+ "id": "ar-mb-09",
+ "hinweise": [
+  "Aufzählungszeichen teils als Sonderzeichen extrahiert; Inhalt lesbar."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Merkblatt 09 Teilpensionierung – Voraussetzungen (Art. 13a BVG)",
+   "pfad": [
+    "Voraussetzungen"
+   ],
+   "stichworte": [
+    "Teilpensionierung",
+    "Teilpensionierung Kapitalbezug",
+    "Pensionskasse",
+    "Pensionierung",
+    "Beschäftigungsgrad 20 %",
+    "AHV 21"
+   ],
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Beschäftigungsgrad und Lohn müssen um mindestens 20 % reduziert werden, Schritte im Abstand von mindestens einem Jahr (365 Tage), Teilbezug mindestens 20 % der Altersleistung."
+  },
+  {
+   "start": 54,
+   "titel": "Kapitalbezug in höchstens drei Schritten; Zusammenrechnung ab dem vierten Bezug",
+   "pfad": [
+    "Kapitalbezug"
+   ],
+   "stichworte": [
+    "drei Kapitalbezüge",
+    "Art. 13a BVG",
+    "Zusammenrechnung Steuersatz",
+    "Freizügigkeitskonto",
+    "reglementarisch"
+   ],
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Kapitalbezug höchstens in drei Schritten (alle Bezüge aus beruflicher Vorsorge); mehr als drei Bezüge werden für den Steuersatz zusammengerechnet."
+  },
+  {
+   "start": 63,
+   "titel": "Beispiel 1 Teilpensionierung – 80 %, 40 %, Pensionierung",
+   "pfad": [
+    "Beispiele"
+   ],
+   "stichworte": [
+    "Beispiel Teilpensionierung",
+    "Kapitalbezug Altersguthaben",
+    "vierter Kapitalbezug",
+    "Rente statt Kapital"
+   ],
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Alter 63: 80 % mit 20 % Kapitalbezug; Alter 64: 40 % mit 40 %; Alter 65: Pensionierung mit 40 %."
+  },
+  {
+   "start": 72,
+   "titel": "Beispiel 2 Teilpensionierung – drei Schritte, vierter Bezug zusammengezählt",
+   "pfad": [
+    "Beispiele"
+   ],
+   "stichworte": [
+    "Beispiel Teilpensionierung",
+    "Kapitalbezug Altersguthaben",
+    "vierter Kapitalbezug",
+    "Rente statt Kapital"
+   ],
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Drei Kapitalbezüge zu je 20 % (Alter 63–65); bei einem vierten Bezug werden Bezüge drei und vier für die Steuerberechnung zusammengezählt."
+  }
+ ]
+}

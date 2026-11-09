@@ -4,19 +4,28 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 74"
-seiten: "21"
+titel: "Anhang II Art. 7 Nachträglicher Anschluss an eine Vorsorgeeinrichtung"
+ziffer: "Art. 7"
+seiten: "26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 26
 
-Finden jedoch sowohl die Überführung einer Liegenschaft als auch deren Veräusserung in-
-nerhalb der „Liquidationsperiode“ (Vorjahr und Liquidationsjahr) statt, so werden diese bei-
-den Vorgänge als Liquidationstätigkeit betrachtet und alle stillen Reserven, das heisst die
-wieder eingebrachten Abschreibungen und der Wertzuwachsgewinn, bilden Teil des Liquida-
-tionsgewinnes, auf welchen Artikel 37b DBG Anwendung findet. Ein Aufschub nach Artikel
-18a Absatz 1 DBG ist allerdings auch in diesen Fällen möglich.
+Artikel 7   Nachträglicher Anschluss an eine Vorsorgeeinrichtung
 
-Es sind folgende Fälle auseinander zu halten:
+Die privilegierte Besteuerung wird infolge definitiver Aufgabe der Erwerbstätigkeit gewährt.
+Ist die Aufgabe der Erwerbstätigkeit nicht definitiv, besteht kein Anspruch auf die privilegierte
+Besteuerung. Es kann jedoch vorkommen, dass eine als definitiv geplante Aufgabe der Er-
+werbstätigkeit sich im Nachhinein als nicht definitiv herausstellt. Ist die Liquidationsveranla-
+gung bei Aufnahme einer neuen selbständigen Erwerbstätigkeit rechtskräftig, kann – sofern
+es sich nicht um eine Steuerumgehung handelt - nicht mehr darauf zurückgekommen wer-
+den. Wenn nun erneut eine selbständige oder unselbständige Erwerbstätigkeit aufgenom-
+men und im Anschluss daran ein Einkauf in eine Einrichtung der beruflichen Vorsorge getä-
+tigt wird, so stellt sich die Frage, wie dieser Einkauf steuerrechtlich zu behandeln ist. Da die
+steuerpflichtige Person ihren Einkaufsbedarf bereits fiktiv erfüllt und steuerrechtlich geltend
+gemacht hat, ist von der effektiven Einkaufslücke der bereits geltend gemachte fiktive Ein-
+kauf in Abzug zu bringen. Die verbleibende Differenz ist steuerlich zum Abzug zuzulassen.
 
-1. Ohne Aufschub:
+Der fiktive Einkauf ist in diesem Fall wie eine Freizügigkeitsleistung zu behandeln, welche
+nach Artikel 60a Absatz 3 der Verordnung über die berufliche Alters-, Hinterlassenen- und
+Invalidenvorsorge (BVV 2; SR 831.441.1) einzubringen wäre.

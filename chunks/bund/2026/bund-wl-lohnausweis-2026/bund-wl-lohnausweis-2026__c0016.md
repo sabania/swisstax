@@ -4,25 +4,19 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 16"
-seiten: "8"
+titel: "Rz 17–18 Ziffer 1 – Arbeitswegvergütungen, Verpflegungsbeiträge, Lunch-Checks"
+ziffer: "1 / 17–18"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 8
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 1 Lohn · S. 9
 
-Die Vergütung eines Halbtaxabonnements muss nicht bescheinigt werden.
-
-Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten   Buchstabe G
-
-Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer Lunch-Checks (vgl. Rz 18) abgege   10
-ben werden. Ein Hinweis ist auch dann anzubringen, wenn der Arbeitgeber dem Arbeitneh
-mer die Möglichkeit einräumt, das Mittag- oder Abendessen verbilligt in einem Personalres
-taurant einzunehmen. Dies gilt auch dann, wenn nicht bekannt ist, ob der Arbeitnehmer da
-von tatsächlich Gebrauch macht.
-
-Dieses Feld ist auch anzukreuzen bei Arbeitnehmern, die 40 % - 60 % der Arbeitszeit aus
-serhalb ihrer üblichen Arbeitsstätte tätig sind und deshalb eine Mittagessensentschädigung
-erhalten. Bei Arbeitnehmern, die mehr als 60 % der Arbeitszeit ausserhalb ihrer üblichen
-Arbeitsstätte tätig sind und deshalb eine Mittagessensentschädigung erhalten, ist im Lohn
-ausweis ausschliesslich unter Ziffer 15 folgender Hinweis anzubringen: «Mittagessen durch
-Arbeitgeber bezahlt».
+•   Vergütungen für den Arbeitsweg: Werden dem Arbeitnehmer die Arbeitswegkosten   17
+    bezahlt, so wird der Betrag als Berufskostenentschädigung in Ziffer 2.3 deklariert. In die
+    sem Fall ist kein Kreuz im Feld F zu setzen;
+•   alle Barbeiträge an die auswärtige Verpflegung am Arbeitsort (z. B. Mittagszulagen).   18
+    Die Abgabe von Lunch-Checks ist gemäss der Wegleitung über den massgebenden
+    Lohn, vgl. RZ 3007, bis zur von der AHV festgelegten Limite (Stand 1.1.2022: CHF 180
+    pro Monat) mit einem Kreuz im Feld G des Lohnausweises zu deklarieren. Darüberhin
+    ausgehende Beiträge sind zusätzlich zum Lohn im Sinne von Ziffer 1 des Lohnausweises
+    zu addieren. Bei Kantinenverpflegung vgl. Feld G des Lohnausweises (Rz 10).

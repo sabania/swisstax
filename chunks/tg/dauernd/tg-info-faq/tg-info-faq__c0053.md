@@ -9,22 +9,15 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
 
-## Steuerpflicht / Bemessung
+    Für die Zeit von Januar bis September (Todestag) haben Sie somit eine Steuererklärung auszufüllen, welche sowohl Ihr als auch das Einkommen und Vermögen Ihrer Frau aufführt.
 
-Mündigkeit: Beginn der selbständigen Veranlagung
+    Für die Zeit bis zum Jahresende ist eine zweite Steuererklärung auszufüllen, welches das in dieser Zeit von Ihnen erzielte Einkommen und das Vermögen am Jahresende enthält.
+
+Tod: Deklaration Zinserträge, Dividenden und Schuldzinsen
 :   ### Frage:
 
-    Ich bin 18-jährig geworden aber noch in Ausbildung bzw. noch im Studium. Muss ich trotzdem eine Steuererklärung ausfüllen?
+    Muss ich beim Ausfüllen der Steuererklärung einer verstorbenen Person Rata- und Marchzinsen berechnen (etwa bei Sparkontozinsen oder Schuldzinsen).
 
     ### Antwort:
 
-    Ab der Steuerperiode, in welcher das 18. Altersjahr vollendet worden ist, besteht die Pflicht zur Einreichung einer Steuererklärung. Dies gilt auch dann, wenn kein Lohn erzielt worden ist oder der Lohn noch so gering war, dass keine Steuern bezahlt werden müssen.
-
-Tod der gemeinsam besteuerten Ehefrau
-:   ### Frage:
-
-    Meine Frau ist im letzten September verstorben. Was bedeutet ihr Tod für die Steuererklärung?
-
-    ### Antwort:
-
-    Beim Tod einer gemeinsam besteuerten Person (Ehefrau/Ehemann, Partnerin/Partner in eingetragener Partnerschaft) entstehen zwei unterjährige Steuerpflichten. Bis zum Todesdatum erfolgt eine gemeinsame Besteuerung. Danach tritt die überlebende Person neu in die Steuerpflicht ein.
+    Deklarieren Sie die Höhe des Vermögens zum Zeitpunkt des Todesfalls. Einkünfte und Abzüge sind nach dem Fälligkeitsprinzip zu erfassen. Bei den Wertschriften- und Guthaben sowie bei den Schulden sind somit nur in der Zeit vom 1.1. bis zum Todesdatum fällige Zinserträge, Dividenden und Schuldzinsen zu erfassen (keine March- und Ratazinsen).

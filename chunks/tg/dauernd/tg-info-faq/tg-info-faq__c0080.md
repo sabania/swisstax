@@ -9,8 +9,13 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
 
-    Bei der Gegenwartsbemessung fallen Bemessungs- und Steuerperiode zusammen, während die Veranlagung frühestens im darauffolgenden Jahr stattfindet. Im laufenden Steuerjahr werden demnach die Steuern zunächst einmal provisorisch bezogen. Die provisorische Steuerrechnung wird nach Massgabe des mutmasslich geschuldeten Steuerbetrages ausgestellt. Dabei können insbesondere die letzte Veranlagung oder die letzte Steuererklärung berücksichtigt werden.
+    - [StP 188 Nr. 1 "provisorischer Steuerbezug"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-188-nr-1-provisorischer-steuerbezug&version=latest)
 
-    Bei höherem steuerbaren Einkommen im Vergleich zu den Vorjahren empfiehlt es sich, bei seinem Gemeindesteueramt eine entsprechend angepasste provisorische Steuerrechnung zu verlangen. So kann verhindert werden, dass nach Zustellung der definitiven Schlussrechnung innert der Zahlungsfrist von 30 Tagen eine hohe Nachzahlung leisten muss und ein Ausgleichszinsensaldo zu seinen Lasten entsteht.
+Schlussrechnung
+:   ### Frage:
 
-    Detaillierte Ausführungen finden Sie in der Steuerpraxis in Weisung:
+    Worauf basiert die Schlussrechnung?
+
+    ### Antwort:
+
+    Die Schlussrechnung (definitive Rechnung) der Staats- und Gemeindesteuern setzt immer eine rechtskräftige Steuerveranlagung voraus und basiert auf den rechtskräftig festgesetzten Steuerfaktoren (Einkommen und Vermögen). Die provisorische Steuerrechnung der entsprechenden Steuerperiode wird mit der Schlussrechnung bereinigt. Die Schlussrechnung wird der steuerpflichtigen Person nach Rechtskraft der definitiven Steuerveranlagung zugestellt.

@@ -4,22 +4,16 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 2/3)"
+titel: "Ziff. 7 Prämienverbilligung mindert den Versicherungsabzug"
 ziffer: "7"
 seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 30 · 7 Abzug für Versicherungsprämien und Sparkapitalzinsen · S. 12
 
-       Bei Eltern, die gemeinsam veranlagt werden, wird der Versicherungs- und Sparzin-
-    senabzug für Kinder vom Gesamteinkommen der Ehegatten abgezogen.
-       Bei nicht gemeinsam besteuerten Elternteilen kann für das minderjährige Kind in der
-    Regel derjenige Elternteil den Versicherungs- und Sparzinsenabzug geltend machen,
-    der mit dem Kind zusammen wohnt und die Unterhaltszahlungen für das Kind erhält.
-    Haben die Eltern die elterliche Sorge gemeinsam inne und werden keine Unterhalts-
-    beiträge nach Artikel 33 Absatz 1 Buchstabe c DBG geltend gemacht, kann jeder El-
-    ternteil den halben Abzug beanspruchen.
-       Beim volljährigen Kind in Ausbildung kann der Elternteil den Versicherungs- und
-    Sparzinsenabzug geltend machen, der die Unterhaltszahlungen an das Kind leistet.
-    Fliessen keine Unterhaltszahlungen an das Kind, kann der Elternteil, der mit dem
-    Kind zusammen wohnt, den Abzug geltend machen.
+Werden Steuerpflichtigen in bescheidenen Verhältnissen Prämienverbilligungen gemäss
+Artikel 65 ff. des Bundesgesetzes vom 18. März 1994 über die Krankenversicherung (KVG)
+gewährt, sind diese Ermässigungen bei der Festsetzung des Versicherungs- und Sparzin-
+senabzuges als aufwandmindernd zu berücksichtigen. Dies hat zur Folge, dass nur die tat-
+sächlich von der steuerpflichtigen Person getragenen Prämien, d.h. die eigenen sowie die für
+die von ihm unterhaltenen Personen, in Abzug gebracht werden können.

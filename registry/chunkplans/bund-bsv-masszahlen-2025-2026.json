@@ -1,0 +1,161 @@
+{
+ "id": "bund-bsv-masszahlen-2025-2026",
+ "hinweise": [
+  "Seite 1: Tabelle mit Zeitreihen 2025/2026 mehrspaltig extrahiert (Werte per Stichtag, teils 4 Spalten für Männer/Frauen); lesbar aber Spaltenzuordnung teilweise unklar.",
+  "Seite 4: Tabelle Teuerungsanpassung mit Zeilenumbrüchen bei 2019-2022; Hinweis-Sternchen.",
+  "Typografische Apostrophe in Seite 3 (’) statt '."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "BSV Masszahlen 2025/2026 – Kopf, BVG-Referenzalter, AHV-Rente, Lohndaten",
+   "pfad": [
+    "Wichtige Masszahlen berufliche Vorsorge",
+    "1–2 AHV-Rente und Lohndaten"
+   ],
+   "ziffer": "1–2",
+   "stichworte": [
+    "BVG-Referenzalter",
+    "AHV-Maximalrente",
+    "Koordinationsabzug",
+    "Eintrittsschwelle",
+    "koordinierter Lohn",
+    "Pensionskasse"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf",
+    "einkommen.sozialversicherung.ahv_iv"
+   ],
+   "zusammenfassung": "AHV-Altersrente min. 15'120, max. 30'240; Eintrittsschwelle 22'680, Koordinationsabzug 26'460, max. versicherter Lohn 90'720, koordinierter Lohn 3'780 bis 64'260 (2025 und 2026)."
+  },
+  {
+   "start": 46,
+   "titel": "BSV Masszahlen – BVG-Altersguthaben, Mindestzins, Umwandlungssatz, Renten, Barauszahlung",
+   "pfad": [
+    "Wichtige Masszahlen berufliche Vorsorge",
+    "3–5 Altersguthaben, Renten, Barauszahlung"
+   ],
+   "ziffer": "3–5",
+   "stichworte": [
+    "BVG-Mindestzinssatz",
+    "Umwandlungssatz 6,8%",
+    "Altersguthaben",
+    "Witwenrente",
+    "Barauszahlung",
+    "Pensionskasse"
+   ],
+   "positionen": [
+    "einkommen.vorsorge.renten"
+   ],
+   "zusammenfassung": "BVG-Mindestzinssatz 1,25%, Mindestumwandlungssatz 6,8%, Grenzbetrag des Altersguthabens für Barauszahlung 22'200."
+  },
+  {
+   "start": 69,
+   "titel": "BSV Masszahlen – Teuerungsanpassung, Sicherheitsfonds, arbeitslose Personen, Säule 3a Grenzbeträge",
+   "pfad": [
+    "Wichtige Masszahlen berufliche Vorsorge",
+    "6–9 Teuerung, Sicherheitsfonds, Säule 3a"
+   ],
+   "ziffer": "6–9",
+   "stichworte": [
+    "Säule 3a Grenzbetrag 7'258",
+    "Säule 3a 36'288",
+    "kleine Säule 3a",
+    "grosse Säule 3a",
+    "Sicherheitsfonds",
+    "Taggeld Arbeitslose"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Steuerfreier Grenzbetrag Säule 3a: 7'258 bei Unterstellung unter die 2. Säule, 36'288 ohne Unterstellung (2025 und 2026); max. Grenzlohn Sicherheitsfonds 136'080."
+  },
+  {
+   "start": 91,
+   "titel": "BSV Masszahlen – Erläuterungen und Rechtsgrundlagen (Ziff. 1–5)",
+   "pfad": [
+    "Erläuterungen zu den Masszahlen",
+    "Ziff. 1–5"
+   ],
+   "ziffer": "1–5",
+   "stichworte": [
+    "Erläuterungen BVG",
+    "Altersguthaben",
+    "Frauen Jahrgang 1961 Referenzalter",
+    "Kapitalabfindung",
+    "AHV 21",
+    "Eintrittsschwelle 3/4"
+   ],
+   "positionen": [
+    "einkommen.vorsorge.renten"
+   ],
+   "zusammenfassung": "Eintrittsschwelle entspricht 3/4, Koordinationsabzug 7/8 der max. AHV-Rente; Versicherte können ein Viertel des Altersguthabens als Kapital verlangen; Referenzalter Frauen steigt jährlich um 3 Monate."
+  },
+  {
+   "start": 133,
+   "titel": "BSV Masszahlen – Erläuterungen Ziff. 6–9 (Teuerung, Sicherheitsfonds, Säule 3a)",
+   "pfad": [
+    "Erläuterungen zu den Masszahlen",
+    "Ziff. 6–9"
+   ],
+   "ziffer": "6–9",
+   "stichworte": [
+    "Risikorenten Teuerung",
+    "Sicherheitsfonds",
+    "Tageslohn Arbeitslose",
+    "Art. 7 BVV3",
+    "gebundene Vorsorge"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Maximalbeträge der Säule 3a gemäss Art. 7 Abs. 1 BVV3; Tagesgrenzbeträge Arbeitslose = Jahresbeträge geteilt durch 260,4."
+  },
+  {
+   "start": 156,
+   "titel": "BSV Zeitreihen – Lohndaten gemäss BVG 1985–2026 und BVG-Mindestzinssatz",
+   "pfad": [
+    "Zeitreihen",
+    "Lohndaten und Mindestzinssatz"
+   ],
+   "ziffer": "2–3",
+   "stichworte": [
+    "Zeitreihe Koordinationsabzug",
+    "Mindestzinssatz Verlauf",
+    "Eintrittsschwelle historisch",
+    "koordinierter Lohn"
+   ],
+   "zusammenfassung": "Zeitreihe Lohndaten 2025-2026: 22'680 / 26'460 / 90'720 / 3'780 / 64'260; BVG-Mindestzinssatz 2024-2026: 1,25 Prozent."
+  },
+  {
+   "start": 209,
+   "titel": "BSV Zeitreihe – Teuerungsanpassung der BVG-Risikorenten 1985–2026",
+   "pfad": [
+    "Zeitreihen",
+    "Teuerungsanpassung Risikorenten"
+   ],
+   "ziffer": "6",
+   "stichworte": [
+    "Teuerungsanpassung Risikorenten",
+    "BVG Rente Anpassung",
+    "Preisindex"
+   ],
+   "zusammenfassung": "Teuerungsanpassung BVG-Risikorenten 2025: 5,8 % nach 3 Jahren, 2,5 % nach 2 Jahren, 0,8 % nach 1 Jahr; 2026: 2,7 %."
+  },
+  {
+   "start": 268,
+   "titel": "BSV Anpassung der BVG-Risikorenten am 1. Januar 2023 (Sätze nach Rentenbeginn)",
+   "pfad": [
+    "Zeitreihen",
+    "Anpassung 1.1.2023"
+   ],
+   "ziffer": "6",
+   "stichworte": [
+    "Anpassungssatz 2023",
+    "Risikorenten",
+    "Rentenbeginn"
+   ],
+   "zusammenfassung": "Anpassungssätze per 1.1.2023 je nach Jahr der ersten Rentenauszahlung (z.B. 1985-2005: 2.8, 2017: 4.2)."
+  }
+ ]
+}

@@ -1,127 +1,215 @@
 [
 {
 "id": "bund-form-21edp-2025__c0001",
-"titel": "Formular 21 EDP 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Formular 21 EDP – Kopf, Vorsorgeeinrichtung und versicherte Person (Felder a–c)",
+"pfad": [
+"Bescheinigung über Vorsorgebeiträge",
+"Kopfdaten"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Bescheinigung Säule 3a",
+"Formular 21 EDP",
+"Art. 81 Abs. 3 BVG",
+"Art. 8 BVV 3",
+"AHV-Nummer",
+"Vorsorgeeinrichtung"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Von der versicherten Person der Steuererklärung beizulegende Bescheinigung nach Art. 81 Abs. 3 BVG und Art. 8 BVV 3 mit Angaben zu Einrichtung, AHV-Nummer und Geburtsdatum.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-form-21edp-2025__c0002"
 },
 {
 "id": "bund-form-21edp-2025__c0002",
-"titel": "Formular 21 EDP 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Beiträge an Einrichtungen der beruflichen Vorsorge 2. Säule (Felder d–k) (Teil 1/2)",
+"pfad": [
+"Bescheinigung über Vorsorgebeiträge",
+"1. Beiträge 2. Säule"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"2. Säule",
+"Pensionskasse",
+"freiwillige Einkaufsbeiträge",
+"Selbstständigerwerbende",
+"Arbeitgeberbeiträge",
+"BVG-Beiträge"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Beiträge an die 2. Säule als Selbstständigerwerbende/r oder Arbeitnehmer/in, Beginn des Vorsorgeverhältnisses, Fälligkeit und freiwillige Einkaufsbeiträge; nur ganze Franken.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-21edp-2025__c0001",
 "nachher": "bund-form-21edp-2025__c0003"
 },
 {
 "id": "bund-form-21edp-2025__c0003",
-"titel": "Formular 21 EDP 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1 Beiträge an Einrichtungen der beruflichen Vorsorge 2. Säule (Felder d–k) (Teil 2/2)",
+"pfad": [
+"Bescheinigung über Vorsorgebeiträge",
+"1. Beiträge 2. Säule"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"2. Säule",
+"Pensionskasse",
+"freiwillige Einkaufsbeiträge",
+"Selbstständigerwerbende",
+"Arbeitgeberbeiträge",
+"BVG-Beiträge"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-21edp-2025__c0002",
 "nachher": "bund-form-21edp-2025__c0004"
 },
 {
 "id": "bund-form-21edp-2025__c0004",
-"titel": "Formular 21 EDP 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2 Beiträge Säule 3a (Felder l–q)",
+"pfad": [
+"Bescheinigung über Vorsorgebeiträge",
+"2. Beiträge Säule 3a"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2",
+"stichworte": [
+"Säule 3a",
+"gebundene Selbstvorsorge",
+"Vorsorgepolice",
+"Bankstiftung",
+"Total Beiträge 3a"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Beiträge an anerkannte Formen der gebundenen Selbstvorsorge (Policen bei Versicherungen, Vereinbarungen bei Bankstiftungen) mit Total Beiträge an die Säule 3a (Feld q).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-21edp-2025__c0003",
 "nachher": "bund-form-21edp-2025__c0005"
 },
 {
 "id": "bund-form-21edp-2025__c0005",
-"titel": "Formular 21 EDP 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3 Einkäufe in die Säule 3a (Felder r–x) und Übertragungshinweis (Teil 1/2)",
+"pfad": [
+"Bescheinigung über Vorsorgebeiträge",
+"3. Einkäufe Säule 3a"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Einkauf Säule 3a",
+"Einkaufsbeiträge",
+"nachträgliche Einzahlung",
+"Steuerperiode",
+"bereits geleistete Beiträge"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a_einkauf"
+],
+"zusammenfassung": "Einkäufe in die Säule 3a mit Steuerperiode, bereits geleisteten Beiträgen, Einkaufsdatum und Höhe; Total Einkaufsbeiträge (Feld x); Beiträge in die Steuererklärung zu übertragen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-21edp-2025__c0004",
 "nachher": "bund-form-21edp-2025__c0006"
 },
 {
 "id": "bund-form-21edp-2025__c0006",
-"titel": "Formular 21 EDP 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 3 Einkäufe in die Säule 3a (Felder r–x) und Übertragungshinweis (Teil 2/2)",
+"pfad": [
+"Bescheinigung über Vorsorgebeiträge",
+"3. Einkäufe Säule 3a"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3",
+"stichworte": [
+"Einkauf Säule 3a",
+"Einkaufsbeiträge",
+"nachträgliche Einzahlung",
+"Steuerperiode",
+"bereits geleistete Beiträge"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a_einkauf"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-21edp-2025__c0005",
 "nachher": "bund-form-21edp-2025__c0007"
 },
 {
 "id": "bund-form-21edp-2025__c0007",
-"titel": "Formular 21 EDP 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "Bemerkungen, Ort/Datum, Bestätigung der Einrichtung",
+"pfad": [
+"Bescheinigung über Vorsorgebeiträge",
+"Abschluss"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Bemerkungen",
+"Beglaubigung",
+"Formular 605.040.42"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Feld für Bemerkungen, Ort und Datum sowie Bestätigung der Richtigkeit durch die Einrichtung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-21edp-2025__c0006",
 "nachher": "bund-form-21edp-2025__c0008"
 },
 {
 "id": "bund-form-21edp-2025__c0008",
-"titel": "Formular 21 EDP 2025 – Abschnitt 8",
-"pfad": [],
+"titel": "Fussnoten 1–3 zu Formular 21 EDP (Lohnausweis, erstes Vorsorgeverhältnis, Eigenverantwortung)",
+"pfad": [
+"Fussnoten"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Fussnoten",
+"Lohnausweis",
+"Arbeitnehmer",
+"Eigenverantwortung",
+"Vorsorgeverhältnis"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Bei Arbeitnehmern sind vom Lohn abgezogene Beiträge im Lohnausweis zu bescheinigen und hier nicht aufzuführen; Angaben zu bereits geleisteten Beiträgen unter Verantwortung der versicherten Person.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-21edp-2025__c0007",
 "nachher": null
 }

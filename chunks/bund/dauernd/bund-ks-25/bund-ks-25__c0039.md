@@ -4,23 +4,35 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 39"
-seiten: "9"
+titel: "Anhang I Abkürzungsverzeichnis (Teil 1/2)"
+ziffer: "Anhang I"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang I Abkürzungen · S. 12
 
-Obwohl das KAG die Immobilienfonds den offenen kollektiven Kapitalanlagen vorbehält, kön-
-nen die KmGK ihre Mittel zur Verfolgung eines Bau- oder Immobilienprojektes auch in Lie-
-genschaften anlegen. In einem solchen Fall sind sie als Steuersubjekt zu behandeln.
-
-5.3   Umstrukturierungen
-5.3.1   Ebene der Kollektiven Kapitalanlage
-Gemäss Artikel 95 KAG sind folgende Umstrukturierungen von offenen kollektiven Kapitalan-
-lagen zulässig:
-       die Vereinigung durch Übertragung der Vermögenswerte und Verbindlichkeiten (Art.
-    95 Abs. 1 Bst. a KAG);
-       die Umwandlung in eine andere Rechtsform einer kollektiven Kapitalanlage (Art. 95
-    Abs. 1 Bst. b KAG);
-       für die SICAV: die Vermögensübertragung nach den Artikeln 69-77 FusG6 (Art. 95
-    Abs. 1 Bst. c KAG).
+Abkürzungen:
+Abs.   Absatz
+akK   ausländische kollektive Kapitalanlage
+Art.   Artikel
+Bst.   Buchstabe(n)
+bzw.   beziehungsweise
+DBG   Bundesgesetz vom 14. Dezember 1990 über die direkte Bundessteuer
+    (SR 642.11)
+d.h.   das heisst
+ESTV   Eidgenössische Steuerverwaltung
+FINMA Eidgenössische Finanzmarktaufsicht
+FusG   Bundesgesetz vom 3. Oktober 2003 über Fusion, Spaltung, Umwandlung und Ver-
+    mögensübertragung (SR 221.301)
+inkl.   inklusive
+KAG   Bundesgesetz vom 23. Juni 2006 über die kollektiven Kapitalanlagen (SR 951.31)
+KmGK Kommanditgesellschaft für kollektive Kapitalanlagen
+KKV   Verordnung vom 22. November 2006 über die kollektiven Kapitalanlagen
+    (SR 951.311)
+KS   Kreisschreiben
+LP   Limited Partnership
+NAV   Net Asset Value (Nettoanlagevermögen) einer kollektiven Kapitalanlage
+Nr.   Nummer
+OR   Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen
+    Zivilgesetzbuches [Fünfter Teil: Obligationenrecht] (SR 220)
+resp.   respektive

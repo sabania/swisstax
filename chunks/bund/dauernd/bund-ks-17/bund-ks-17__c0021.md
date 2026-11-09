@@ -4,18 +4,19 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 21"
-seiten: "6"
+titel: "Ziff. II.5.1 Pflichten gegenüber dem Vorsorgenehmer – Bescheinigung"
+ziffer: "II.5.1"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 5 Pflichten der Vorsorgeeinrichtungen · S. 8
 
-Die nach einem Vorbezug entstandene Verminderung der Risikodeckung bei Tod und Invali-
-dität kann mit einer Zusatzversicherung ausgeglichen werden, welche die Vorsorgeeinrich-
-tung selber anbietet oder vermittelt (Art. 30c Abs. 4 BVG). Eine solche Zusatzversicherung
-kann bei einer Versicherungsgesellschaft als gebundene Selbstvorsorge (Säule 3a) oder im
-Rahmen der freien Vorsorge (Säule 3b) abgeschlossen werden. Aus steuerlicher Sicht han-
-delt es sich aber bei der Zusatzversicherung immer, d.h. auch bei Abschluss mit der Vorsor-
-geeinrichtung selber, um individuelle Vorsorge. Die steuerliche Abzugsfähigkeit für die ent-
+5.   Pflichten der Vorsorgeeinrichtungen
 
-    Vgl. BGE 2A.509/2003 vom 18. Mai 2004, Erw. 5.1
+
+5.1. Gegenüber dem Vorsorgenehmer
+
+Die Vorsorgeeinrichtung hat dem Vorsorgenehmer die Rückzahlung des Vorbezuges auf
+dem von der Eidg. Steuerverwaltung (ESTV) herausgegebenen Formular WEF zu beschei-
+nigen (Art. 7 Abs. 3 WEFV). Diese Meldung erfolgt in der Regel in Form eines Briefes unter
+Beilage einer Kopie der WEF-Meldung an die ESTV.

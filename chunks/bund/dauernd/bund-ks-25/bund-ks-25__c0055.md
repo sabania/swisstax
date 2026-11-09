@@ -4,30 +4,30 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 55"
-seiten: "14"
+titel: "Anhang VI–VIII Musterreporting Dachfonds und Einzelfonds"
+ziffer: "Anhang VI–VIII"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhänge VI–VIII · S. 19
 
-<!-- Seite 14 -->
-    Gesamtaktiven gemäss der konsolidierten Vermögensrechnung (vgl. Art. 90 KAG)
-    abgestellt.
+Anhang VI
+Musterreporting inländische Dachfonds (MS Excel 2013)
 
-Steuerbare Einkünfte aus Anteilen an kollektiven Kapitalanlagen mit direktem Grundbesitz:
+Musterreporting inländische Dachfonds (MS Excel 2007)
 
-Einkünfte aus Anteilen von kollektiven Kapitalanlagen mit direktem Grundbesitz sind steuer-
-bar, soweit die Gesamterträge der kollektiven Kapitalanlage die Erträge aus direktem Grund-
-besitz übersteigen. Die Ausschüttungen und die Reserven sind daher aufgrund ihrer Her-
-kunft in folgende zwei Kategorien aufzuteilen:
-    a) Versteuerter Vermögensertrag inklusive Kapital- und Aufwertungsgewinne aus direk-
-    tem Grundbesitz.
-    b) Vermögensertrag aus indirektem Grundbesitz, übrigem Vermögen sowie Ertrag aus
-    der Auflösung von vor dem 1. Januar 1995 gebildeten Rückstellungen auf direktem
-    Grundbesitz (i.d.R. Unterhalts- und Amortisationsfonds).
+Entspricht dem Anhang VII des KS Nr. 24 vom 20. November 2017
 
-Gebühren, welche die der Verrechnungssteuer unterliegenden Erträge betreffen, dürfen die-
-sen belastet werden. Die Belastung darf jeweils höchstens 1.5% (Betriebsaufwandquote =
-Total Expense Ratio / TERREF) des Gesamtfondvermögens dieser Anlagen betragen. Liegt
-der Totalbetrag der Gebühren unter der Grenze von 1.5%, so ist nur der geringere Betrag
-abzugsfähig.
+
+Anhang VII
+Musterreporting ausländische Dachfonds (MS Excel 2013)
+
+Musterreporting ausländische Dachfonds (MS Excel 2017)
+
+Entspricht dem Anhang VIII des KS Nr. 24 vom 20. November 2017
+
+
+Anhang VIII
+Musterreporting für Einzelfonds (MS Excel 2013)
+
+Entspricht dem Anhang des KS Nr. 24 vom 20. November 2017

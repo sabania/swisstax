@@ -4,14 +4,23 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 63"
-seiten: "15"
+titel: "Ziff. 8.1.3.2 Bescheinigung bei Zuzug/Wegzug – voller Betrag im Lohnausweis"
+ziffer: "8.1.3.2"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1 Arbeitgeber › 8.1.3 Bescheinigung Optionen, Anwartschaften, unechte Beteiligungen · S. 20
 
-Die anfallenden Steuern sind als Quellensteuer – diese wird auch als erweiterte Quellen-
-steuer bezeichnet – durch den (ehemaligen) schweizerischen Arbeitgeber abzuführen. Diese
-Verpflichtung gilt insbesondere auch dann, wenn der geldwerte Vorteil von einer ausländi-
-schen Konzerngesellschaft ausgerichtet wird. Der Quellensteuerabrechnung ist die Beschei-
-nigung über die Mitarbeiterbeteiligung beizulegen (vgl. Art. 10 MBV).
+Im internationalen Verhältnis ist es unter Umständen möglich, dass diese Mitarbeiterbeteili-
+gungsformen nur anteilsmässig besteuert werden. Sind die entsprechenden Voraussetzun-
+gen als Folge eines Zuzugs in die Schweiz (vgl. Ziff. 7.3.2.1) erfüllt, stellt der Arbeitgeber
+dem Mitarbeitenden im Zeitpunkt der Realisation des geldwerten Vorteils eine Bescheinigung
+aus, welche die Vorgaben von Artikel 7 MBV erfüllt. Dabei ist zu beachten, dass in den Lohn-
+ausweis stets die volle geldwerte Leistung einfliessen muss. Der auf das Ausland entfallende
+Anteil kann der Mitarbeitende erst in seiner Steuererklärung als „im Ausland steuerbare Ein-
+künfte“ in Abzug bringen.
+
+Sind die entsprechenden Voraussetzungen als Folge eines Wegzugs aus der Schweiz (vgl.
+Ziff. 7.3.3.1) erfüllt, ist die Bescheinigung entsprechend den Vorgaben von Artikel 8 MBV der
+Quellensteuerabrechnung beizulegen. Eine eigenständige, isolierte Meldung der Realisation
+an die kantonale Steuerbehörde ist nicht notwendig.

@@ -9,18 +9,28 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
 
-    Die nach dem Tod der Erblasserin/des Erblassers fälligen Zinsen sind nicht in deren/dessen Steuererklärung, sondern in der Steuererklärung der Erbinnen und Erben (anteilsmässig nach Erbquote) zu deklarieren.
-
-Wohnsitzverlegung
+Zivilstandsänderung: Heirat
 :   ### Frage:
 
-    Ich werde am 1.5.2026 meinen Wohnsitz von Frauenfeld nach Winterthur verlegen. Ab wann werde ich in Winterthur steuerpflichtig sein?
+    Wir haben am 9. Oktboer 2025 geheiratet. Werden wir ab Heiratsdatum gemeinsam besteuert?
 
     ### Antwort:
 
-    Bei Wohnsitzverlegung in einen anderen Kanton oder in eine andere Thurgauer Gemeinde ist der Wohnsitz am Ende der Steuerperiode massgebend für die Steuerpflicht. Die Steuerpflicht in Winterthur beginnt somit rückwirkend am 1. Januar 2026.
+    Bei Heirat werden die Eheleute für die ganze Steuerperiode gemeinsam besteuert.
 
-    Weitere Informationen zur Wohnsitzverlegung finden Sie unter:
+    Für die gesamte Steuerperiode 2025 sind sie bereits gemeinsam steuerpflichtig.
 
-    - [Wegzug/Beendigung Steuerpflicht](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/wegzug-beendigung-steuerpflicht.html/3515)
-    - [Zuzug/Beginn Steuerpflicht](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/zuzug-beginn-steuerpflicht.html/3514)
+    Weitere Informationen über die steuerrechtliche Wirkung einer Ehe finden Sie unter:
+
+    - [Änderung Zivilstand](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/zivilstandsaenderung.html/3495)
+
+Zivilstandsänderung: Trennung Ehe
+:   ### Frage:
+
+    Wir haben uns am 1. März 2026 getrennt und haben zwei gemeinsame minderjährige Kinder. Für Ehefrau und die beiden Kindern sind Unterhaltsbeiträge von je Fr. 1'000 festgelegt worden.
+
+    Wie erfolgt die Besteuerung im 2026?
+
+    ### Antwort:
+
+    Bei Scheidung, rechtlicher oder tatsächlicher Trennung erfolgt für die ganze Steuerperiode eine getrennte Steuerveranlagung der beiden Eheleute.

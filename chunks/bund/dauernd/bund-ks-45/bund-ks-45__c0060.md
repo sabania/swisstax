@@ -4,23 +4,27 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 60"
-seiten: "15"
+titel: "Ziff. 5.3 Verwaltungsratsentschädigungen"
+ziffer: "5.3"
+seiten: "19-20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 45 · 5 Abgrenzungen › 5.3 Verwaltungsratsentschädigungen · S. 19–20
 
-Fehlt eine Tarifeinstufung zum Zeitpunkt der Lohnzahlung, bestimmt der Schuldner der steu-
-erbaren Leistung den anwendbaren Tarifcode aufgrund der ihm zur Verfügung stehenden
-Angaben des Arbeitnehmers.
-Weist sich der Arbeitnehmer über die persönlichen Verhältnisse nicht zuverlässig aus, wen-
-det der Schuldner der steuerbaren Leistung nachstehende Tarife an:
-     Für Ledige sowie für Arbeitnehmer mit unbestimmtem Zivilstand den Tarifcode A, ohne
-    Kinder und mit Kirchensteuer (A0Y);
-     Für verheiratete Arbeitnehmer den Tarifcode C, ohne Kinder und mit Kirchensteuer
-    (C0Y).
-Geht eine Person mehreren Erwerbstätigkeiten nach, sind die einzelnen Einkünfte mit dem
-ordentlichen Quellensteuertarif zu besteuern (Umrechnung für das satzbestimmende Ein-
-kommen; vgl. Ziffer 6.4 unten für die Berechnung nach dem Monatsmodell bzw. die Zif-
-fer 7.3.2 unten für die Berechnung nach dem Jahresmodell).
-Vorbehalten bleibt die Anwendung des Tarifcodes E (vereinfachtes Abrechnungsverfahren)
+5.3   Verwaltungsratsentschädigungen
+Verwaltungsratsentschädigungen (bspw. Tantiemen, Sitzungsgelder, feste Entschädigungen,
+geldwerte Vorteile aus Mitarbeiterbeteiligungen) sind zusammen mit einer allfälligen Lohn-
+zahlung nach Artikel 83 DBG an der Quelle zu besteuern, sofern das anspruchsberechtigte
+Mitglied des Verwaltungsrats oder der Geschäftsführung in der Schweiz ansässig ist.
+Bei Ansässigkeit von Mitgliedern des Verwaltungsrats im Ausland hat die Quellenbesteue-
+rung der Verwaltungsratsentschädigungen nach Artikel 93 DBG zu erfolgen. Es gilt dabei zu
+beachten, dass Entschädigungen an im Ausland ansässige Verwaltungsräte sowohl gemäss
+Artikel 91 DBG (Lohneinkommen) wie auch gemäss Artikel 93 DBG (Verwaltungsratsent-
+schädigung) an der Quelle steuerpflichtig sein können. Die Steuerpflicht gemäss Artikel 91
+
+DBG ist gegeben, wenn die Entschädigungen für operative Tätigkeiten (bspw. Führungsauf-
+gaben) ausgerichtet werden. Nur Vergütungen für Aufsichtsfunktionen sind gemäss Artikel
+93 DBG der Quellenbesteuerung zu unterwerfen. Schuldet eine quellensteuerpflichtige Per-
+son gleichzeitig eine Quellensteuer nach Artikel 91 DBG (Lohn) wie auch nach Artikel 93
+DBG (Verwaltungsratsentschädigung), so hat dies keine Korrektur des satzbestimmenden
+Einkommens beim Lohneinkommen zur Folge.

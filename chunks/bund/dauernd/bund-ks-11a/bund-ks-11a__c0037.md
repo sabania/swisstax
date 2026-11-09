@@ -4,20 +4,23 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 37"
-seiten: "9"
+titel: "Ziff. 5.1 Hilflosenentschädigung, Kapitalleistungen, Genugtuung"
+ziffer: "5.1"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 11a · 5 Abzugsfähige Kosten › 5.1 Selbstgetragene Kosten · S. 11
 
-4.3.6   Transport- und Fahrzeugkosten
-Durch die Behinderung verursachte Kosten für den Transport zur Ärztin oder zum Arzt, zu The
-rapien, zu Tagesstätten etc. können abgezogen werden. Zum Abzug zugelassen sind dabei die
-Kosten öffentlicher Verkehrsmittel oder eines Fahrdienstes für Personen mit Behinderung. Ist
-deren Benützung nicht möglich oder nicht zumutbar, können die Kosten für die Benutzung eines
-privaten Motorfahrzeugs abgezogen werden (Kilometerentschädigung gemäss Anhang zur Ver
-ordnung des EFD vom 10. Februar 1993 über den Abzug der Berufskosten unselbständig Er
-werbstätiger bei der direkten Bundessteuer [Berufskostenverordnung; SR 642.118.1]).
-Kosten für übrige Transporte (insbesondere für Freizeitfahrten) sind in der Regel nicht als be
-hinderungsbedingte Kosten abzugsfähig. Ein Abzug ist ausnahmsweise dann zulässig, wenn
-die Person mit Behinderung glaubhaft machen kann, dass sie ohne ihre Behinderung aus
+Hilflosenentschädigungen sowie Intensivpflegezuschläge werden zweckgebunden für die Ab
+geltung von Assistenz- und Transportkosten ausgerichtet und sind bei den effektiv angefallenen
+behinderungsbedingten Kosten anzurechnen, da in diesem Umfang die Kosten nicht selbst ge
+tragen werden.
+Kapitalleistungen für künftige invaliditäts- und behinderungsbedingte Kosten sind anzurechnen,
+soweit sie nicht der Einkommenssteuer unterliegen. Ein Abzug für behinderungsbedingte Kos
+ten entfällt daher so lange, bis die steuerpflichtige Person den Nachweis erbringt, dass die tat
+sächlich entstandenen behinderungsbedingten Kosten die Höhe dieser ausgerichteten Kapital
+leistung übersteigen.
+Genugtuungsleistungen tragen der persönlichen und nicht der materiellen Beeinträchtigung
+Rechnung. Sie können daher nicht an die behinderungsbedingten Kosten angerechnet werden.
+Den Genugtuungsleistungen gleichzustellen sind Integritätsentschädigungen (vgl. Art. 24
+Bst. g DBG).

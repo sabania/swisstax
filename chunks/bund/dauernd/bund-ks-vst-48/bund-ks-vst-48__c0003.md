@@ -4,18 +4,22 @@ quelle: bund-ks-vst-48
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 48 – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 3.1 Deklarationspflicht – Grundsatz und Ausnahme (Fahrlässigkeit, Verfahren) (Teil 1/4)"
+ziffer: "3.1"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 48 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS VST 48 · 3 Voraussetzungen der Rückerstattung › 3.1 Deklarationspflicht · S. 2–3
 
-Inhaltsverzeichnis
-1   Allgemeines ............................................................................................................ 2
-2   Gesetzliche Bestimmungen ................................................................................... 2
-3   Voraussetzungen der Rückerstattung .................................................................. 2
-3.1   Deklarationspflicht nach Artikel 23 VStG .............................................................. 2
-3.1.1   Grundsatz ................................................................................................................. 2
-3.1.2   Ausnahme ................................................................................................................ 3
-3.2   Überprüfungs- und Auskunftspflichten ................................................................ 3
-3.3   Hinweis zum Untergang des Rückerstattungsanspruchs infolge Zeitablaufs
+3   Voraussetzungen der Rückerstattung
+
+3.1   Deklarationspflicht nach Artikel 23 VStG
+
+3.1.1   Grundsatz
+Deklariert die steuerpflichtige Person die mit der Verrechnungssteuer belasteten Einkünfte so-
+wie das Vermögen, woraus solche Einkünfte fliessen, mit der Steuererklärung, welche für die
+Steuerperiode der Fälligkeit der steuerbaren Leistung bei der zuständigen Steuerbehörde ein-
+zureichen ist, so ist die Deklarationspflicht erfüllt (vgl. Art. 23 Abs. 1 VStG). Sofern die weiteren
+
+Voraussetzungen gemäss Artikel 21 ff. VStG erfüllt sind, besteht ein Anspruch auf die Rücker-
+stattung der Verrechnungssteuer.

@@ -4,7 +4,7 @@ quelle: bund-vstg
 jur: bund
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 62 VStG (Teil 2/3)"
+titel: "Art. 62 VStG (Teil 2/2)"
 artikel: "Art. 62"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
 ---
@@ -16,3 +16,5 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
 - f. der Pflicht zur ordnungsgemässen Führung und Aufbewahrung der Geschäftsbücher, Register und Belege zuwiderhandelt, oder
 - g. die ordnungsgemässe Durchführung einer Buchprüfung oder andern amtlichen Kontrolle erschwert, behindert oder verunmöglicht,
 wird, sofern nicht eine der Strafbestimmungen der Artikel 14–16 des Verwaltungsstrafrechtsgesetzes vom 22. März 1974 zutrifft, mit Busse bis zu 20 000 Franken bestraft.
+
+**Abs. 2** Bei einer Widerhandlung im Sinne von Absatz 1 Buchstabe g bleibt die Strafverfolgung nach Artikel 285 des Strafgesetzbuches vorbehalten.

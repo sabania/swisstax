@@ -4,18 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 91"
-seiten: "22"
+titel: "Ziff. 6.6 Beispiel 6 – jährliche Auszahlung 13. Monatslohn, Austritt 15. Dezember 2021"
+ziffer: "6.6"
+seiten: "29"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.6 Untermonatige Ein- und Austritte · S. 29
 
-keit bekannt, ist für das satzbestimmende Einkommen jedes Arbeitsverhältnis auf ein
-100 Prozent-Pensum umzurechnen. Im Übrigen sind die Bestimmungen der Arbeitsverträge
-zu berücksichtigen. Dieselbe Vorgehensweise gilt auch für Personen, welche eine der Tätig-
-keiten im Stunden- oder im Tageslohn ausüben, aber einen ordentlichen Monatslohn bezie-
-hen (siehe dazu auch Ziffer 6.5 unten). Für die Bestimmung des Arbeitspensums ist in die-
-sen Fällen auf die betriebsüblichen Arbeitsstunden abzustellen. Bei Ersatzeinkünften ist der
-Arbeitsunfähigkeits- oder Invaliditätsgrad massgebend.
-Kann das Arbeitspensum einer Erwerbstätigkeit nicht bestimmt werden (bspw. für eine pau-
-schalentschädigte nebenamtliche Hauswartstelle), kann der Schuldner der steuerbaren Leis-
+    6. Jährliche Auszahlung des 13. Monatslohns (Dezember) gemäss Arbeitsvertrag:
+    Der Arbeitnehmer V. tritt per 15. Dezember 2021 aus der Unternehmung aus und erhält neben der anteils-
+    mässigen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbarten 13. Monatslohn ausbezahlt
+    (pro rata für die Zeit vom 1. Januar 2021 – 15. Dezember 2021). Die Lohnzahlung ist zur Satzbestimmung
+    auf 30 Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezogen auf die Periode, für wel-
+    che er bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage pro Jahr).
+
+    Leistungen   steuerbar   satzbestimmend   Berechnung
+
+    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
+
+    13. Monatslohn   5 750   6 000   5 750 / 345 x 360
+
+    Total   8 750   12 000

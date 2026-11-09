@@ -4,29 +4,26 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 50"
-seiten: "22"
+titel: "Anhang S. 23 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Dielsdorf"
+ziffer: "13"
+seiten: "23"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 22
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser · S. 23
 
-Wasterkingen   3   410   340   270   –   –   –   –
-Wil (ZH)   3   640   500   360   –   –   –   –
-Winkel   3   890   730   560   –   –   –   –
+Höri   3   280   240   190   –   –   –   –
+Hüntwangen   5   340   320   300   280   250   –   –
+Kloten   5   550   500   440   390   330   –   –
+Lufingen   3   540   420   300   –   –   –   –
+Nürensdorf   5   530   480   430   380   330   –   –
+Oberembrach   3   450   370   280   –   –   –   –
+Opfikon   4   520   450   380   310   –   –   –
+Rafz   4   400   350   310   260   –   –   –
+Rorbas   3   340   310   280   –   –   –   –
+Wallisellen   5   580   530   480   430   380   –   –
+Wasterkingen   3   240   200   160   –   –   –   –
+Wil (ZH)   3   390   310   220   –   –   –   –
+Winkel   3   530   440   340   –   –   –   –
 Bezirk Dielsdorf
-Bachs   3   650   530   410   –   –   –   –
-Boppelsen   3   790   710   630   –   –   –   –
-Buchs (ZH)   5   780   720   660   600   530   –   –
-Dällikon   5   800   740   670   600   530   –   –
-Dänikon   3   600   510   410   –   –   –   –
-Dielsdorf   5   780   700   610   530   440   –   –
-Hüttikon   2   670   510   –   –   –   –   –
-Neerach   5   970   870   760   650   540   –   –
-Niederglatt   3   740   620   500   –   –   –   –
-Niederhasli   5   700   650   600   550   500   –   –
-Niederweningen   5   720   650   580   510   440   –   –
-Oberglatt   5   730   670   610   550   490   –   –
-Oberweningen   5   710   650   590   530   470   –   –
-Otelfingen   5   790   730   660   590   520   –   –
-Regensberg   3   920   800   680   –   –   –   –
-Regensdorf   5   890   810   720   640   550   –   –
+Bachs   3   390   320   250   –   –   –   –
+Boppelsen   3   480   430   380   –   –   –   –

@@ -4,29 +4,21 @@ quelle: bund-ssk-ks22-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 22 (MB SZ) – Abschnitt 10"
+titel: "Rz 11 Beispiel ab Steuerperiode 2019 (Faktoren 125 % / 155 %) (Teil 2/2)"
+ziffer: "11"
 seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · S. 4
+> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 3. Beispiele › 3.2 Ab Steuerperiode 2019 · S. 4
 
-<!-- Seite 4 -->
-    3.2 Ab Steuerperiode 2019
+    Veranlagung Kanton Tessin1   686‘000 / 155 x 55   500‘000 / 155 x 55   186‘000 / 155 x 55
+    Faktor B >100 % -> Abrechnung   -243‘420   -177‘420   -66‘000
+    Satzbestimmender Wert Kanton Tessin   442‘580   322‘580   120'000
+    1) Da der Repartitionswert des Wohnsitzkantons Schwyz mehr als 100 % beträgt, erfolgt eine Korrektur durch Abrechnung
+    2) Der Repartitionswert wird auf den Wert zurückgerechnet, den die Liegenschaft im veranlagenden Kanton hätte, da jeder
+    Kanton berechtigt ist, die Bewertung zur Ermittlung des satzbestimmenden Vermögens nach seinen Richtlinien vorzunehmen
 
-11   Die satzbestimmenden Liegenschaftswerte berechnen sich wie folgt:
-    Total   Kanton   Kanton
-    Schwyz   Tessin
-    Liegenschaft im Kanton Schwyz (kantonaler Steuerwert)   400'000   400'000
-    Liegenschaft im Kanton Tessin (kantonaler Steuerwert)   120'000   120'000
-    Repartitionsfaktor   125 %   155 %
-    Repartitionswert = Steuerwert x Repartitionsfaktor   686‘000   500‘000   186‘000
-    (massgeblich für die Verteilung der Schulden und Schuldzinsen)
-
-    Rückrechnung auf kantonale Werte der veranlagenden Kantone
-    (Differenz Repartitionswert zu Steuerwertschätzung)
-    Berechnung: Repartitionswert / Repartitionsfaktor x Differenz zu 100 %
-    (aus Sicht der veranlagenden Kantone)
-
-    Veranlagung Kanton Schwyz1   686‘000 / 125 x 25   500‘000 / 125 x 25   186‘000 / 125 x 25
-    Faktor A >100 % -> Abrechnung   -137‘200   -100‘000   -37‘200
-    Satzbestimmender Wert Kanton Schwyz   548‘800   400'000   148‘800
+    Die Repartitionsfaktoren betragen für den Kanton Schwyz 125 % und für den Kanton Tes-
+    sin 155 %4. Zur Ermittlung des für den jeweiligen Kanton massgebenden satzbestimmen-
+    den Vermögens bewertet der Kanton Schwyz die im Kanton Tessin gelegene Liegenschaft
+    mit CHF 148 800, der Kanton Tessin diejenige des Kantons Schwyz mit CHF 322 580.

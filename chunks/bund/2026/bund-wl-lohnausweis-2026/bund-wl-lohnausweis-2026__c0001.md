@@ -4,45 +4,29 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 1"
-seiten: "1-2"
+titel: "Vorwort zur Wegleitung Lohnausweis"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 1–2
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · Vorwort · S. 3
 
-# Wegleitung zum Ausfüllen des Lohnausweises (gültig ab 01.01.2026)
-
-> Bund · Wegleitung · Quelle: <https://www.estv.admin.ch/dam/de/sd-web/afP1GDFr8gE3/dbst-form-lohna-wegleitung-2026-de.pdf>
-
-<!-- Seite 1 -->
-    Wegleitung
-
-
-    zum Ausfüllen des
-    Lohnausweises bzw.
-    der Rentenbescheinigung
-    (Formular 11)
-
-
-    Gültig ab: 1. Januar 2026
-
-
-    Herausgeber
-Schweizerische Steuerkonferenz (SSK) www.ssk-csi.ch
-Eidgenössische Steuerverwaltung (ESTV) www.estv.admin.ch
-
-
-Bestell-Nr. Formular   605.040.18
-Bestell-Nr. Wegleitung 605.040.18.1d
-
-
-    Eidgenössische Steuerverwaltung ESTV
-
-<!-- Seite 2 -->
 Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
 
 
-Formular Lohnausweis/Rentenbescheinigung
+Vorwort
+Die vorliegende Wegleitung wurde von der erweiterten Arbeitsgruppe Lohnausweis der
+Schweizerischen Steuerkonferenz (SSK) erstellt. In der Arbeitsgruppe vertreten sind Mitar
+beitende der kantonalen Steuerbehörden, der Eidgenössischen Steuerverwaltung sowie Ver
+treter der Wirtschaftsverbände. Die Wegleitung wird jeweils jährlich überarbeitet und nach
+Genehmigung aller in der Arbeitsgruppe einsitzenden Parteien verabschiedet. Ergänzend
+dazu besteht das Dokument der FAQ (frequently asked questions), welches jeweils aufgrund
+von Gesetzesänderungen oder Praxisanpassungen von der Arbeitsgruppe Lohnausweis der
+SSK überarbeitet wird.
+
+Randziffern, bei welchen Änderungen zur letztjährigen Wegleitung vorgenommen wurden,
+sind jeweils mit einem schwarzen Balken neben der entsprechenden Randziffer gekenn
+zeichnet. Damit können die jeweiligen Änderungen im Vergleich zur Vorversion einfach nach
+vollzogen werden.
 
 
-    ESTV   Seite 2 / 25
+    ESTV   Seite 3 / 25

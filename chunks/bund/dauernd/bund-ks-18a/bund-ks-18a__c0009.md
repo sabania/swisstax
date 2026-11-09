@@ -4,26 +4,25 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 9"
-seiten: "3"
+titel: "Ziff. 5.1 Begrenzung inkl. Risikoversicherung; Unterbruch der Erwerbstätigkeit; Prämienbefreiung"
+ziffer: "5.1"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 3
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.1 Allgemeines · S. 4
 
-<!-- Seite 3 -->
-1.   Rechtliche Grundlagen
-Das schweizerische Vorsorgesystem beruht gemäss Artikel 111 Absatz 1 der Bundesverfas-
-sung vom 18. April 1999 (BV; SR 101) auf drei Säulen, nämlich der eidgenössischen Alters-,
-Hinterlassenen- und Invalidenversicherung, der beruflichen Vorsorge und der Selbstvor-
-sorge. Die gebundene Selbstvorsorge – auch Säule 3a genannt – ist Teil der dritten Säule
-und sieht die Möglichkeit vor, ein individuelles Vorsorgeguthaben aufzubauen und dabei von
-Steuervorteilen zu profitieren. Gestützt auf Artikel 82 des Bundesgesetzes über die berufli-
-che Alters-, Hinterlassenen- und Invalidenvorsorge (BVG; SR 831.40) können Arbeitnehmer
-und Selbständigerwerbende Beiträge für weitere, ausschliesslich und unwiderruflich der be-
-ruflichen Vorsorge dienende, anerkannte Vorsorgeformen abziehen. Diese Vorsorgeformen
-werden als Säule 3a bezeichnet. Im Rahmen seiner Kompetenz nach Artikel 82 BVG hat der
-Bundesrat die Verordnung über die steuerliche Abzugsberechtigung für Beiträge an aner-
-kannte Vorsorgeformen vom 13. November 1985 [BVV 3; SR 831.461.3]) erlassen. Als aner-
-kannte Vorsorgeformen gelten die gebundene Vorsorgeversicherung bei Versicherungsein-
-richtungen sowie die gebundene Vorsorgevereinbarung mit Bankstiftungen (Art. 1 Abs. 1
-[BVV 3).
+Die Begrenzung nach Artikel 7 BVV 3 umfasst auch allfällige Beiträge an eine ergänzende
+Risiko-Vorsorgeversicherung oder Zuschläge für unterjährige Ratenzahlungen (Art. 1 Abs. 3
+Satz 2 BVV 3).
+
+Jeglicher Abzug setzt die Erwerbstätigkeit des Steuerpflichtigen voraus. Bei vorübergehen-
+dem Unterbruch der Erwerbstätigkeit (Militärdienst, Arbeitslosigkeit, Krankheit usw.) bleibt
+die Abzugsberechtigung erhalten, soweit ein AHV-pflichtiges Erwerbsersatzeinkommen er-
+zielt wird. Bei Aufgabe der Erwerbstätigkeit entfällt die Möglichkeit der Beitragsleistungen,
+selbst wenn das für die Ausrichtung von Altersleistungen vorgesehene Terminalter noch
+nicht erreicht ist (z.B. bei vorzeitiger Pensionierung, bei Aufgabe der Erwerbstätigkeit infolge
+Mutterschaft, 100%-iger Invalidität und fehlender Resterwerbsfähigkeit).
+Erbringt eine Vorsorgeversicherung eine Leistung aus einer Prämienbefreiung, so stellt diese
+beim Vorsorgenehmer kein Einkommen dar, da der Vorsorgenehmer gar nicht über die ent-
+sprechenden Mittel verfügen kann. Solche Beiträge kann der Vorsorgenehmer sodann auch
+nicht steuerlich zum Abzug bringen (vgl. Ziffer 6.2.).

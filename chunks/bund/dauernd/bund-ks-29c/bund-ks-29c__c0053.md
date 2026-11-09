@@ -4,27 +4,24 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 53"
-seiten: "17"
+titel: "Ziff. 7.2 Umwandlung kotierter Gesellschaften (7.2.1–7.2.5) (Teil 1/2)"
+ziffer: "7.2"
+seiten: "22-23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 7 Umstrukturierungen kotierter Gesellschaften › 7.2 Umwandlung · S. 22–23
 
-Werden im Rahmen einer Quasifusion Beteiligungsrechte in eine Kapitalgesellschaft oder
-Genossenschaft eingebracht, qualifiziert die gesamte Sacheinlage als offene Kapitaleinlage.
-Der die Erhöhung des Grund- oder Stammkapitals übersteigende Teil dieser offenen Kapital-
-einlage kann in der Handelsbilanz als KER bzw. Ausland-KER ausgewiesen werden. Dabei
-ist aber die Regelung der Transponierung in Artikel 20a Absatz 1 Buchstabe b DBG zu be-
-achten (vgl. Ziff. 4.2.5. hiervor).
+7.2.   Umwandlung
+
+7.2.1. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine andere
+    Kapitalgesellschaft oder Genossenschaft
+
+a)   Direkte Bundessteuer (Einkommenssteuer)
+
+Bei einer Umwandlung erzielen beteiligte Privatpersonen in dem Umfang Beteiligungsertrag,
+als ihnen höherer Nennwert, Ausgleichszahlungen oder andere geldwerte Vorteile zu Lasten
+der übrigen Reserven der umgewandelten Gesellschaft oder Genossenschaft zufliessen.
+Stammt das Grund- oder Stammkapital aus KER, gelten die Bestimmungen zu Ziff. 5.1.5.
+hiervor.
 
 b)   Verrechnungssteuer
-
-Mit Ausnahme der Transponierung ergeben sich die gleichen Steuerfolgen wie bei der direk-
-ten Bundessteuer. Erfolgt die Einbringung einer Beteiligung an einer inländischen Kapitalge-
-sellschaft oder Genossenschaft durch einen Aktionär mit Sitz/Wohnsitz im Ausland ist der
-Vorgang unter dem Aspekt von Artikel 21 Absatz 2 VStG (Steuerumgehung) zu prüfen.
-
-6.3.   Umwandlung
-
-6.3.1. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine andere
-    Kapitalgesellschaft oder Genossenschaft

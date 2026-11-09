@@ -4,27 +4,22 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 161"
-seiten: "42"
+titel: "Ziff. 7.5.3 Leistungen bei Beendigung – fällige Ansprüche (Jahresmodell)"
+ziffer: "7.5.3"
+seiten: "51"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 42
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.3 Leistungen bei/nach Beendigung · S. 51
 
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 104 000.00 (CHF 4 000 x 13 / 50 %).
-
-    Teilzeit-Tätigkeiten (70 % - 20 %):
-    3. Ein lediger Steuerpflichtiger übt zwei unselbstständige Erwerbstätigkeiten in der Schweiz aus (Gesamtpen-
-    sum: 90 %). Er teilt den beiden Arbeitgebern den Gesamtbeschäftigungsgrad nicht mit:
-       70 % beim Arbeitgeber 1 für einen Bruttojahreslohn von CHF 24 000.00 (CHF 2 000 x 12)
-       20 % beim Arbeitgeber 2 für einen Bruttojahreslohn von CHF 6 000.00 (CHF 500 x 12)
-
-    Arbeitgeber 1
-
-    Monat   Januar   …   November   Dezember   Besteuerung
-    Bruttolohn   2 000   2 000   2 000   24 000
-    Tarifcode   A0   A0   A0   A0
-    Steuersatz (%)   3,91   3,9   3,9   3,9
-    Quellensteuer   78   78   78   936
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 34 285.70 (CHF 24'000 / 70 %).
-
-    Arbeitgeber 2
+7.5.3 Quellensteuerberechnung bei Leistungen bei bzw. nach Beendigung des Arbeitsver-
+    hältnisses
+Wird das Arbeitsverhältnis beendet, unterliegen Leistungen, die bereits auf diesen Zeitpunkt
+hin fällig geworden sind, dem Arbeitnehmer aber erst später ausbezahlt werden (Überzeit-
+guthaben, nicht bezogene Ferienguthaben usw.) zusammen mit den Bruttoeinkünften des
+letzten Arbeitsmonats der Quellenbesteuerung, d.h. der Quellensteuerabzug ist auf dem Ge-
+samtbetrag der ausgerichteten Leistungen zu berechnen. Der anzuwendende Tarifcode ent-
+spricht demjenigen, welcher im Zeitpunkt der letzten Lohnzahlung massgebend war. Allfäl-
+lige für den entsprechenden Monat bereits abgezogene Quellensteuern sind an die gesam-
+ten für diesen Monat geschuldeten Quellensteuern anzurechnen. Die Quellensteuer auf die-
+sen Leistungen ist im gleichen Kanton geschuldet, wie die auf der letzten Lohnzahlung in Ab-
+zug gebrachten Quellensteuern.

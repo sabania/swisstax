@@ -4,20 +4,16 @@ quelle: sg-wl-kurz-2025
 jur: sg
 jahre: [2025]
 typ: wegleitung
-titel: "Kurz-WL SG 2025 – Abschnitt 3"
+titel: "Ziff. 10.1 Berufskosten Fahrt zur Arbeit – Velo Fr. 700, Auto 70 Rappen/km, max. Fr. 8'000"
+ziffer: "10.1"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: wegleitung}}
 ---
-> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · S. 1
+> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 10. Berufskosten › 10.1 Fahrt zur Arbeit · S. 1
 
+10.   Berufskosten 1.2   Bei Benützung eines Fahrrades oder Kleinmotorrades   bis Fr.   700   23
+    unselbständig
+    Erwerbender 1.3   Bei Benützung eines Motorfahrzeuges in begründeten Fällen   23
+    70 Rappen je Fahrkilometer
+    Arbeitstage   in der Regel   max.   220   24
     Fahrt zur Arbeit   Gesamtkosten (öffentl. Verkehrsmittel, Fahrrad, Motorfahrzeug)   max. Fr.   8’000   23
-10.2 Mehrkosten   2.1   Abzug für Mehrkosten der Verpflegung Fr. 15 pro Tag   max. Fr.   3’200   24
-    Verpflegung   2.2   Kantinen, Vergünstigung durch Arbeitgeber Fr. 7.50 pro Tag   max. Fr.   1’600
-    2.3   Bei Schicht- oder Nachtarbeit Fr. 15 pro Tag   max. Fr.   3’200
-10.3 Pauschalabzug 3.1   Pauschalabzug Fr. 700 zuzüglich 10% des Nettolohnes, höchstens   Fr.   2’400   24
-10.4 Wochenauf-   4.1   Tatsächliche Kosten auswärtiges Zimmer je nach Arbeitsort   max. Fr.   500   25
-    enthalt   pro Monat   bis Fr.   800
-    4.2   Für die auswärtige Verpflegung Fr. 30 im Tag   max. Fr.   6’400
-    Bei Vergünstigung durch den Arbeitgeber Fr. 22.50 im Tag   max. Fr.   4’800
-10.5 Nebenerwerb   5.   Pauschalabzug 20% des Nettolohnes   mind. Fr. 800 max. Fr.   2’400   25
-13.1 Säule 3a   Erwerbstätige mit 2. Säule   max. Fr. 7’258   26

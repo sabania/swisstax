@@ -1,17 +1,29 @@
 [
 {
 "id": "bund-form-10-2025__c0001",
-"titel": "Formular 10 2025 – Abschnitt 1",
-"pfad": [],
+"titel": "Formular 10 Aus- und Weiterbildungskosten 2025 – Abzug max. CHF 13 000, Ziff. 15.2",
+"pfad": [
+"Formular 10"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "15.2",
+"stichworte": [
+"Weiterbildung",
+"Ausbildungskosten",
+"Weiterbildungsabzug",
+"Kurskosten",
+"Arbeitgeberbeitrag",
+"Selbstgetragene Kosten",
+"CHF 13 000"
+],
+"positionen": [
+"abzug.weiterbildung"
+],
+"zusammenfassung": "Kosten abzüglich Arbeitgeberbeitrag ergeben die selbstgetragenen Kosten; zulässiger Abzug max. je CHF 13 000, zu übertragen in die Steuererklärung Seite 3, Ziffer 15.2.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": null
 }

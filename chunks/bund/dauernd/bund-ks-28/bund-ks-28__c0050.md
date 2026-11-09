@@ -4,25 +4,19 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 50"
-seiten: "16"
+titel: "Anhang II Ziff. 1.3 Auslegung von Art. 37b DBG (Teil 2/3)"
+ziffer: "1.3"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 18
 
-<!-- Seite 16 -->
-Von einer steuerlichen Privilegierung des Liquidationsgewinns im Hinblick darauf, dass im
-Liquidationsgewinn auch Teile der beruflichen Vorsoge enthalten seien, hatte der Bundesrat
-ausdrücklich abgesehen. Er hatte dazu ausgeführt: „Dem Anliegen nach einer Erleichterung
-und Verbesserung der Möglichkeit beruflicher Vorsorge der Selbständigerwerbenden wurde
-… effektiv durch die erste Revision des Gesetzes über die berufliche Vorsorge Rechnung
-getragen. Die neu eingefügte Bestimmung von Artikel 4 Absatz 3 BVG verschafft Selbstän-
-digerwerbenden die Möglichkeit, sich ausschliesslich bei einer Einrichtung der weitergehen-
-den Vorsorge zu versichern, insbesondere bei einer Einrichtung, die nicht im Register für die
-berufliche Vorsorge eingetragen ist, sofern diese über einen Vorsorgeplan verfügt und nach
-dem Prinzip der Kollektivversicherung betrieben wird. Diese Lösung entspricht den Vorsor-
-gebedürfnissen Selbständigerwerbender und trägt der Tatsache Rechnung, dass das Be-
-triebseinkommen im Lauf der Zeit erheblichen Schwankungen unterliegt. Angesichts dieser
-Entwicklung der rechtlichen Situation braucht das Problem der Besteuerung des Liquidati-
-onsgewinnes lediglich unter dem Blickwinkel der direkten Besteuerung angegangen zu wer-
-den“ 3 .
+Erstens könnten nur jene selbständig erwerbenden Personen einen fiktiven Einkauf geltend
+machen, die bereits einer Pensionskasse angeschlossen sind, da nur sie die Zulässigkeit
+eines Einkaufs nachweisen können. Alle Nichtangeschlossenen haben keine Vorsorgegut-
+haben, welche mittels Einkäufen aufgestockt werden könnten. Mithin können sie auch des-
+sen Zulässigkeit nicht nachweisen. Dass dies der Gesetzgeber gerade nicht gewollt hat,
+kann aus den Materialien geschlossen werden. Diese weisen darauf hin, dass der Gesetz-
+geber jene selbständig erwerbenden Personen, die keiner Vorsorgeeinrichtung angeschlos-
+sen sind, nicht zwingen wollte, sich kurz vor der Pensionierung noch einer Vorsorgeeinrich-
+tung anzuschliessen, um den verpassten Vorsorgeaufbau nachzuholen.

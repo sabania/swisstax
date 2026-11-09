@@ -4,23 +4,23 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 17"
-seiten: "4"
+titel: "Ziff. 6.1 Erbgang – Grundsatz"
+ziffer: "6.1"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Kreisschreiben · S. 6
 
-<!-- Seite 4 -->
-gung geleistet wurden, sind bei der Berechnung des fiktiven Einkaufes als Altersguthaben
-aus beruflicher Vorsorge in Abzug zu bringen (Art. 6 Abs. 6 LGBV).
+6.   Erbgang
+6.1.   Grundsatz
+Im Todesfall geht die selbständige Erwerbstätigkeit des Erblassers durch Universalsukzessi-
+on auf die Erben über. Jeder der Erben oder der Vermächtnisnehmer kann frei entscheiden,
+ob er die bisherige selbständige Erwerbstätigkeit weiterführen will. Wenn direkt im Anschluss
+an den Erbgang die Liquidation vorgenommen wird, können die Erben oder die Vermächt-
+nisnehmer, welche die selbständige Erwerbstätigkeit nicht weiterführen, an Stelle des Erb-
+lassers die Besteuerung nach Artikel 37b DBG geltend machen, sofern der Erblasser im
+Zeitpunkt seines Ablebens die Voraussetzungen gemäss Artikel 1 Absatz 1 LGBV erfüllt hat.
 
-2.4.   Aufschubtatbestände
-2.4.1. Verhältnis zu Artikel 18a Absatz 1 DBG
-Wird eine Liegenschaft aus dem Geschäftsvermögen in das Privatvermögen überführt, so
-darf nach Artikel 18a Absatz 1 DBG auf Antrag hin im Zeitpunkt der Überführung nur die Dif-
-ferenz zwischen den Anlagekosten und dem massgebenden Einkommenssteuerwert (wieder
-eingebrachte Abschreibungen) besteuert werden. Die Besteuerung des Wertzuwachsgewin-
-nes als Einkommen aus selbständiger Erwerbstätigkeit wird bis zur Veräusserung der Lie-
-genschaft aufgeschoben. Diese, im Zeitpunkt der Veräusserung realisierten übrigen stillen
-Reserven, unterliegen zusammen mit dem übrigen Einkommen in jenem Zeitpunkt als Ein-
-kommen aus selbständiger Erwerbstätigkeit der ordentlichen Besteuerung.
+Weder bei der Liquidation durch die Erben oder die Vermächtnisnehmer noch bei der gesetz-
+lichen Überführung in das Privatvermögen können Einkäufe von Beitragsjahren für den Erb-
+lasser oder die Besteuerung eines fiktiven Einkaufs geltend gemacht werden.

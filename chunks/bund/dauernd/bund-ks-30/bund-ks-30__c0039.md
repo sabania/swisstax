@@ -4,23 +4,30 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.3 Erwerbsunfähigkeit (Art. 7 ATSG)"
-ziffer: "8.3"
-seiten: "13"
+titel: "Ziff. 8.4.1–8.4.2 Anspruchsberechtigung – Allgemeines, verheiratete Paare"
+ziffer: "8.4.1"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.3 Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung · S. 14
 
-Die Definition der Erwerbsunfähigkeit richtet sich nach dem Bundesgesetz vom 6. Oktober
-2002 über den Allgemeinen Teil des Sozialversicherungsrechts (ATSG). Als Erwerbsunfä-
-higkeit gilt der durch Beeinträchtigung der körperlichen oder geistigen Gesundheit verursach-
-te und nach zumutbarer Behandlung und Eingliederung verbleibende ganze oder teilweise
-Verlust der Erwerbsmöglichkeiten auf dem in Betracht kommenden ausgeglichenen Arbeits-
-markt. Für die Beurteilung des Vorliegens einer Erwerbsunfähigkeit sind ausschliesslich die
-Folgen der gesundheitlichen Beeinträchtigung zu berücksichtigen. Eine Erwerbsunfähigkeit
-liegt zudem nur vor, wenn sie aus objektiver Sicht nicht überwindbar ist (Art. 7 ATSG). Die
-voraussichtlich bleibende oder längere Zeit dauernde ganze oder teilweise Erwerbsunfähig-
-keit wird als Invalidität definiert (Art. 8 ATSG). Um den Kinderdrittbetreuungskostenabzug
-beanspruchen zu können, muss der Steuerpflichtige jedoch nicht nur erwerbsunfähig, son-
-dern auf Grund seiner Beeinträchtigung auch nicht in der Lage sein, die Betreuung der Kin-
-der selber wahrzunehmen.
+8.4   Anspruchsberechtigung
+
+8.4.1   Allgemeines
+
+Abzugsberechtigt sind steuerpflichtige Personen, die einerseits für den Unterhalt der Kinder
+sorgen und andererseits mit ihnen im gleichen Haushalt leben. Grundsätzlich sind damit die
+Eltern bzw. der alleinerziehende Elternteil gemeint. Lebt ein Kind jedoch nicht bei seinen
+Eltern, sondern beispielsweise bei einer verwandten Person (Tante, Onkel, Grossmutter etc.)
+oder einer Drittperson, welche an die Stelle der Eltern tritt und für das Kind sorgt (Pflege-
+kind), soll diese den Abzug ebenfalls geltend machen können, wenn die übrigen Vorausset-
+zungen erfüllt sind.
+
+
+8.4.2   Verheiratete Paare mit Kindern
+
+Ehepaare, die in rechtlich und tatsächlich ungetrennter Ehe leben, können die Kinderdrittbe-
+treuungskosten geltend machen, wenn beide gleichzeitig einer Erwerbstätigkeit nachgehen
+bzw. in Ausbildung stehen oder erwerbsunfähig und zugleich betreuungsunfähig sind. Die
+nachgewiesenen Kosten für die Kinderdrittbetreuung werden bis zum Maximalbetrag von der
+gemeinsamen Bemessungsgrundlage abgezogen.

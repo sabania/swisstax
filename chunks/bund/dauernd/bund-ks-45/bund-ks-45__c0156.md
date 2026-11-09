@@ -4,21 +4,25 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 156"
-seiten: "41"
+titel: "Ziff. 7.5.1 Beispiel 1 – 5 Arbeitstage in Österreich (Jahresmodell)"
+ziffer: "7.5.1"
+seiten: "50"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 41
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.1 Ausscheidung ausländischer Arbeitstage · S. 50
 
-<!-- Seite 41 -->
-rechnen. Dazu sind die Bestimmungen der Arbeitsverträge zu berücksichtigen. Dieselbe Vor-
-gehensweise gilt auch für Personen, welche eine der Tätigkeiten im Stunden- bzw. Tages-
-lohn ausüben, aber einen ordentlichen Monatslohn beziehen. Für die Bestimmung des Ar-
-beitspensums ist in diesen Fällen auf die betriebsüblichen Arbeitsstunden abzustellen.
-Kann das Arbeitspensum einer Erwerbstätigkeit nicht bestimmt werden (bspw. für eine pau-
-schalentschädigte nebenamtliche Hauswartstelle), kann der Schuldner der steuerbaren Leis-
-tung für die Ermittlung des satzbestimmenden Einkommens den im massgebenden Steuer-
-jahr für die Berechnung des Tarifcodes C zu Grunde gelegten Betrag aufrechnen. Dieser Be-
-trag wird zusammen mit den übrigen Berechnungsgrundlagen (vgl. Art. 85 Abs. 2 DBG) jähr-
-lich von den zuständigen Steuerbehörden veröffentlicht.
-Besteht eine quellensteuerpflichtige Lohnzahlung sowohl aus periodischen wie auch aus
+    Beispiele:
+    1. Arbeitnehmer Z. ist internationaler Wochenaufenthalter in der Schweiz. Sein Arbeitgeber hat den Sitz in
+    Zürich. Z. übt seine Tätigkeit an seinem fixen Arbeitsplatz in Zürich aus. Während des Monats September
+    hat er ausnahmsweise an fünf Tagen in Österreich gearbeitet. Zusätzlich hat er 10 Ferientage bezogen,
+    welche er in Italien verbracht hat. Z. erhält im Monat September einen Bruttolohn von CHF 8‘000.
+    Die für die Ausscheidung massgebenden schweizerischen Arbeitstage ergeben sich aus der Subtraktion
+    von fünf ausländischen Arbeitstagen vom Total von 20 Arbeitstagen pro Monat. Davon ausgehend ist das
+    steuerbare Einkommen wie folgt zu berechnen bzw. das satzbestimmende Einkommen wie folgt festzule-
+    gen:
+
+    Total an Arbeitstagen:   20 Tage
+    Arbeitstage Schweiz:   20 Tage – 5 Tage = 15 Tage
+    massgebendes Ausscheidungsverhältnis:   15 CH-Arbeitstage zum Total von 20 Arbeitstagen
+    Steuerbares Einkommen:   CHF 8 000.00 / 20 x 15 = CHF 6 000.00
+    Satzbestimmendes Einkommen:   CHF 96 000.00 (CHF 8 000 x 12)

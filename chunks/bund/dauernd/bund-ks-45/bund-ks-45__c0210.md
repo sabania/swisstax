@@ -4,27 +4,18 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 210"
-seiten: "55"
+titel: "Ziff. 11.3 Steuererklärung, Bindungswirkung des Antrags und Wegzug aus der Schweiz (Teil 2/2)"
+ziffer: "11.3"
+seiten: "65"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 55
+> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.3 NOV auf Antrag bei Ansässigkeit in der Schweiz · S. 65
 
-    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 95 000.00 [(CHF 5 000 x 13) + CHF 30 000].
-
-    3 = Korrektur für den Quellensteuerabzug des Monats Januar [(CHF 5 000 x 14.4 %) – CHF 520].
-
-    4 = Die Quellensteuer ist im Monat nach dem Kantonswechsel mit dem neuen, zuständigen Kanton nach
-
-    dessen Tarif abzurechnen.
-    5 = A0 mit satzbestimmendem Monatslohn von CHF 5 000.00.
-
-    6 = A0 mit satzbestimmendem Monatslohn von CHF 10 000.00.
-
-8.3   Wechsel von einem Kanton mit Monatsmodell zu einem Kanton mit Jahresmodell
-Der Schuldner der steuerbaren Leistung rechnet die Quellensteuern ab dem Folgemonat des
-Kantonswechsels ausschliesslich mit dem anspruchsberechtigten Kanton (mit Jahresmodell)
-nach dessen Tarif ab.
-Vor dem Kantonswechsel erfolgte Einmalzahlungen (bspw. Boni, 13. Monatsgehalt, Einkom-
-men aus Mitarbeiterbeteiligungen) oder Änderungen des Einkommens haben keinen Einfluss
-auf die Ermittlung des satzbestimmenden Jahreseinkommens für die Zeit, in welcher der
+den beide Eheleute separat bis zum Ende der Quellensteuerpflicht nachträglich ordentlich
+veranlagt (vgl. Art. 9 Abs. 4 QStV).
+Für Personen, welche die Schweiz verlassen, endet die Frist für die Einreichung des Antrags
+im Zeitpunkt der Abmeldung bei der dafür zuständigen Behörde (vgl. Art. 89a Abs. 3 DBG).
+Nicht massgebend ist das Datum des Wegzugs aus der Schweiz. Für das Verfahren ist ins-
+besondere Artikel 126a DBG (notwendige Vertretung) zu berücksichtigen. Meldet sich eine
+Person, welche die Schweiz verlässt, nicht ordnungsgemäss bei der dafür zuständigen Be-
+hörde ab, gilt die Frist als abgelaufen und der Antrag kann nicht mehr gestellt werden.

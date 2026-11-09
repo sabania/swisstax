@@ -4,32 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 209"
-seiten: "55"
+titel: "Ziff. 11.3 Steuererklärung, Bindungswirkung des Antrags und Wegzug aus der Schweiz (Teil 1/2)"
+ziffer: "11.3"
+seiten: "65"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 55
+> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.3 NOV auf Antrag bei Ansässigkeit in der Schweiz · S. 65
 
-    Beispiel:
-    - Ein lediger Steuerpflichtiger arbeitet vom 1. Januar bis 31. Dezember 2021 mit einem Pensum von 100 %
-    beim gleichen Arbeitgeber. Er erzielt einen Bruttojahreslohn inkl. 13. Monatslohn von CHF 65 000.00
-    (CHF 5'000.00 x 12 + CHF 5 000.00) und erhält im Februar 2021 einen Bonus von CHF 30 000.00 ausbe-
-    zahlt. Am 15. August 2021 verlegt er seinen Wohnsitz vom Kanton Tessin in den Kanton Bern.
-
-    Monat   Jan.   Feb.   …   Aug.   Sep.4   …   Dez.   Besteuerung
-
-    Bruttolohn   5 000   5 000   5 000   5 000   10 000   65 000.00
-    Bonus
-    30 000   30 000.00
-    (aperiodisch)
-    Tarifcode   A0   A0   A0   A0   A0
-
-    Steuersatz TI (%)   10,41   14,42   14,4
-
-    Steuersatz BE (%)   10,635   17,016
-
-    Korrektur Januar   0   +2003
-
-    Quellensteuer   520   5 240   720   531.50   1 701   13 375.50
-
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
+Reicht die quellensteuerpflichtige Person den Antrag auf eine nachträgliche ordentliche Ver-
+anlagung form- und fristgerecht ein, wird ihr von der zuständigen Steuerbehörde für das ent-
+sprechende Steuerjahr eine Steuererklärung zugestellt. Wird die Steuererklärung auch nach
+erfolgter Mahnung nicht eingereicht, nimmt die Steuerbehörde die Veranlagung nach pflicht-
+gemässem Ermessen vor. Der quellensteuerpflichtigen Person kann eine Busse wegen Ver-
+letzung der Verfahrenspflichten auferlegt werden (vgl. Art. 174 DBG)
+Ein einmal form- und fristgerecht gestellter Antrag kann nicht zurückgezogen werden. In den
+Folgejahren wird bis zum Ende der Quellensteuerpflicht von Amtes wegen eine nachträgliche
+ordentliche Veranlagung durchgeführt. Der Antrag bezieht sich auch auf den Ehegatten, der
+mit der quellensteuerpflichtigen Person in rechtlich und tatsächlich ungetrennter Ehe lebt. Bei
+einer späteren Scheidung sowie tatsächlicher oder rechtlicher Trennung der Eheleute wer-

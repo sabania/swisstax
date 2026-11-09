@@ -4,24 +4,18 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 32"
-seiten: "8"
+titel: "Anhang II Zusammenfassung der Erläuterungen zur LGBV (Teil 1/3)"
+ziffer: "Zusammenfassung"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 14
 
-Art. 4
-1 Ist die steuerpflichtige Person einer Vorsorgeeinrichtung angeschlossen, so kann
-sie sich im Liquidationsjahr und im Vorjahr im Rahmen der reglementarischen und
-übrigen vorsorgerechtlichen Bestimmungen in die Vorsorgeeinrichtung einkaufen.
-2 Sie kann diese Einkaufsbeträge von den Einkünften abziehen (Art. 33 Abs. 1 Bst. d
-DBG).
-3 Ein Beitragsüberhang reduziert den Liquidationsgewinn.
-
-3. Abschnitt: Fiktiver Einkauf
-
-Art. 5   Grundsätze
-1 Die steuerpflichtige Person kann bei der Steuerbehörde Antrag auf Besteuerung
-eines fiktiven Einkaufs nach Artikel 8 stellen.
-2 Sie muss die notwendigen Belege für die Berechnung des fiktiven Einkaufs nach
-Artikel 6 beibringen.
+Zusammenfassung
+Die vorliegende Verordnung beinhaltet die Umsetzung des mit dem Bundesgesetz über die
+Verbesserung der steuerlichen Rahmenbedingungen für unternehmerische Tätigkeiten und
+Investitionen (Unternehmenssteuerreformgesetz II) angenommenen Artikels 37b des Bun-
+desgesetzes vom 14. Dezember 1990 über die direkte Bundessteuer (DBG), welcher die
+Besteuerung des Liquidationsgewinns regelt. Der Liquidationsgewinn von selbständig erwer-
+benden Personen wird heute gemäss Artikel 18 DBG zusammen mit dem übrigen Einkom-
+men besteuert, was eine progressive Erhöhung der Einkommenssteuer zur Folge hat.

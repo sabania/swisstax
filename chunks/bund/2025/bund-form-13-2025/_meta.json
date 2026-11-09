@@ -1,96 +1,141 @@
 [
 {
 "id": "bund-form-13-2025__c0001",
-"titel": "Formular 13 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Teil I Kapitalanlagen mit Verrechnungssteuer (Formular 13, jur. Personen) (Teil 1/2)",
+"pfad": [
+"I. Kapitalanlagen mit Verrechnungssteuer"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "I",
+"stichworte": [
+"Wertschriftenverzeichnis",
+"Verrechnungssteuer",
+"Bankguthaben",
+"Obligationen",
+"Aktien",
+"Formular 25"
+],
+"positionen": [
+"einkommen.wertschriften",
+"vermoegen.wertschriften_guthaben",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Verzeichnis inländischer Post- und Bankguthaben, Obligationen und Beteiligungen mit Buchwert, Steuerwert und Bruttoertrag; Rückerstattung separat mit Formular 25.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-form-13-2025__c0002"
 },
 {
 "id": "bund-form-13-2025__c0002",
-"titel": "Formular 13 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Teil I Kapitalanlagen mit Verrechnungssteuer (Formular 13, jur. Personen) (Teil 2/2)",
+"pfad": [
+"I. Kapitalanlagen mit Verrechnungssteuer"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "I",
+"stichworte": [
+"Wertschriftenverzeichnis",
+"Verrechnungssteuer",
+"Bankguthaben",
+"Obligationen",
+"Aktien",
+"Formular 25"
+],
+"positionen": [
+"einkommen.wertschriften",
+"vermoegen.wertschriften_guthaben",
+"verrechnungssteuer.rueckerstattung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-13-2025__c0001",
 "nachher": "bund-form-13-2025__c0003"
 },
 {
 "id": "bund-form-13-2025__c0003",
-"titel": "Formular 13 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Teil II Kapitalanlagen ohne Verrechnungssteuer, ausländische Quellensteuern (Teil 1/3)",
+"pfad": [
+"II. Kapitalanlagen ohne Verrechnungssteuer"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "II",
+"stichworte": [
+"Hypothekarforderungen",
+"ausländische Wertschriften",
+"Quellensteuer Anrechnung",
+"Formular DA-2",
+"Formular DA-3"
+],
+"positionen": [
+"einkommen.wertschriften",
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": "Inländische Hypothekarforderungen, Darlehen und ausländische Anlagen; Anrechnung ausländischer Quellensteuern über Formular DA-2 bzw. DA-3.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-13-2025__c0002",
 "nachher": "bund-form-13-2025__c0004"
 },
 {
 "id": "bund-form-13-2025__c0004",
-"titel": "Formular 13 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Teil II Kapitalanlagen ohne Verrechnungssteuer, ausländische Quellensteuern (Teil 2/3)",
+"pfad": [
+"II. Kapitalanlagen ohne Verrechnungssteuer"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "II",
+"stichworte": [
+"Hypothekarforderungen",
+"ausländische Wertschriften",
+"Quellensteuer Anrechnung",
+"Formular DA-2",
+"Formular DA-3"
+],
+"positionen": [
+"einkommen.wertschriften",
+"vermoegen.wertschriften_guthaben"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-13-2025__c0003",
 "nachher": "bund-form-13-2025__c0005"
 },
 {
 "id": "bund-form-13-2025__c0005",
-"titel": "Formular 13 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Teil II Kapitalanlagen ohne Verrechnungssteuer, ausländische Quellensteuern (Teil 3/3)",
+"pfad": [
+"II. Kapitalanlagen ohne Verrechnungssteuer"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "II",
+"stichworte": [
+"Hypothekarforderungen",
+"ausländische Wertschriften",
+"Quellensteuer Anrechnung",
+"Formular DA-2",
+"Formular DA-3"
+],
+"positionen": [
+"einkommen.wertschriften",
+"vermoegen.wertschriften_guthaben"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-form-13-2025__c0004",
-"nachher": "bund-form-13-2025__c0006"
-},
-{
-"id": "bund-form-13-2025__c0006",
-"titel": "Formular 13 2025 – Abschnitt 6",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-form-13-2025__c0005",
 "nachher": null
 }
 ]

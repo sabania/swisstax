@@ -4,17 +4,22 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 4"
-seiten: "1"
+titel: "Ziff. 2.1 Arbeitnehmer – Begriff"
+ziffer: "2.1"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.1 Arbeitnehmer · S. 5
 
-    Arbeitsverhältnis ......................................................................................................... 10
-3.2.3 Vom Arbeitgeber übernommene Leistungsverpflichtungen des Arbeitnehmers .......... 11
-3.2.4 Entschädigung für Berufskosten ................................................................................. 12
-3.2.5 Spesenzahlungen ....................................................................................................... 13
-3.2.6 Geschäftsfahrzeuge.................................................................................................... 13
-3.2.7 Naturalleistungen ........................................................................................................ 13
-3.2.8 Abgangsentschädigungen .......................................................................................... 13
-3.2.9 Beim Personalverleih bzw. bei einer faktischen Arbeitgeberschaft .............................. 13
+2   Begriffe
+2.1   Arbeitnehmer
+Als Arbeitnehmer1 im Sinne dieses Kreisschreibens gelten Personen, die ungeachtet ihres
+Wohnsitzes bzw. ihrer Ansässigkeit im Dienste eines Arbeitgebers mit Sitz in der Schweiz
+stehen (vgl. Art. 319 Abs. 1 des Bundesgesetzes vom 30. März 1911 betreffend die Ergän-
+zung des Schweizerischen Zivilgesetzbuches [Fünfter Teil: Obligationenrecht; OR; SR 220]
+und Art. 17 DBG).
+Massgebend ist dabei, dass die Einkünfte aus dem zugrundeliegenden Rechtsverhältnis als
+Einkommen aus unselbstständiger Erwerbstätigkeit gemäss Artikel 17 Absatz 1 DBG qualifi-
+zieren. Die Bezeichnung des Vertrags durch die Vertragsparteien ist dabei nicht entschei-
+dend, sondern es ist eine Würdigung des Vertragsinhaltes nach der Gesamtheit der Um-
+stände des jeweiligen Einzelfalls und der tatsächlichen Verhältnisse vorzunehmen.

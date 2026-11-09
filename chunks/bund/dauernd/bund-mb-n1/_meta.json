@@ -1,160 +1,216 @@
 [
 {
 "id": "bund-mb-n1__c0001",
-"titel": "MB N1/2007 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Merkblatt N1/2007 – Vorbemerkungen, Warenbezüge Bäckerei, Metzgerei, Restaurant, Tabak (Teil 1/2)",
+"pfad": [
+"Warenbezüge"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Naturalbezug",
+"Eigenverbrauch",
+"Selbständigerwerbende",
+"Bäckerei",
+"Metzgerei",
+"Restaurant Hotel",
+"Tabakwaren"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Pauschalen pro Erwachsener/Jahr: Bäckerei Fr. 3000, Metzgerei Fr. 2760, Restaurants/Hotels Fr. 6480; Tabakwaren zusätzlich CHF 1500–2200 pro rauchende Person.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-mb-n1__c0002"
 },
 {
 "id": "bund-mb-n1__c0002",
-"titel": "MB N1/2007 – Abschnitt 2",
-"pfad": [],
+"titel": "Merkblatt N1/2007 – Vorbemerkungen, Warenbezüge Bäckerei, Metzgerei, Restaurant, Tabak (Teil 2/2)",
+"pfad": [
+"Warenbezüge"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Naturalbezug",
+"Eigenverbrauch",
+"Selbständigerwerbende",
+"Bäckerei",
+"Metzgerei",
+"Restaurant Hotel",
+"Tabakwaren"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-n1__c0001",
 "nachher": "bund-mb-n1__c0003"
 },
 {
 "id": "bund-mb-n1__c0003",
-"titel": "MB N1/2007 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2–3 Mietwert Wohnung, Privatanteil Heizung/Strom; Lebensmittelgeschäfte (Ziff. 1b) (Teil 1/2)",
+"pfad": [
+"Mietwert und Privatanteile"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1b, 2, 3",
+"stichworte": [
+"Mietwert Wohnung",
+"Privatanteil Unkosten",
+"Heizung Strom",
+"Lebensmittelgeschäft",
+"Haushalt"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Lebensmittelgeschäfte Erwachsene Fr. 5280 im Jahr; Privatanteil Heizung/Beleuchtung usw. Fr. 3540 (1 Erwachsener), Zuschlag Fr. 900 pro weiteren Erwachsenen, Fr. 600 pro Kind.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-n1__c0002",
 "nachher": "bund-mb-n1__c0004"
 },
 {
 "id": "bund-mb-n1__c0004",
-"titel": "MB N1/2007 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2–3 Mietwert Wohnung, Privatanteil Heizung/Strom; Lebensmittelgeschäfte (Ziff. 1b) (Teil 2/2)",
+"pfad": [
+"Mietwert und Privatanteile"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1b, 2, 3",
+"stichworte": [
+"Mietwert Wohnung",
+"Privatanteil Unkosten",
+"Heizung Strom",
+"Lebensmittelgeschäft",
+"Haushalt"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-n1__c0003",
 "nachher": "bund-mb-n1__c0005"
 },
 {
 "id": "bund-mb-n1__c0005",
-"titel": "MB N1/2007 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 1c Milchhandlungen, Ziff. 4 Privatanteil an Löhnen, Abzug bei mehr als 3 Kindern (Teil 1/2)",
+"pfad": [
+"Warenbezüge",
+"Privatanteil Löhne"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1c, 4",
+"stichworte": [
+"Milchhandlung",
+"Käserei",
+"Löhne Personal",
+"Kinderansätze",
+"Privatanteil Lohn"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Milchhandlungen Erwachsene Fr. 2460 im Jahr; bei mehr als 3 Kindern Abzug vom Totalwert der Kinderansätze: 10 % (4 Kinder), 20 % (5), 30 % (6 und mehr).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-n1__c0004",
 "nachher": "bund-mb-n1__c0006"
 },
 {
 "id": "bund-mb-n1__c0006",
-"titel": "MB N1/2007 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 1c Milchhandlungen, Ziff. 4 Privatanteil an Löhnen, Abzug bei mehr als 3 Kindern (Teil 2/2)",
+"pfad": [
+"Warenbezüge",
+"Privatanteil Löhne"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1c, 4",
+"stichworte": [
+"Milchhandlung",
+"Käserei",
+"Löhne Personal",
+"Kinderansätze",
+"Privatanteil Lohn"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-n1__c0005",
 "nachher": "bund-mb-n1__c0007"
 },
 {
 "id": "bund-mb-n1__c0007",
-"titel": "MB N1/2007 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 5 Privatanteil an den Autokosten – effektiv oder pauschal",
+"pfad": [
+"Privatanteil Autokosten"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5",
+"stichworte": [
+"Autokosten",
+"Privatanteil Auto",
+"Bordbuch",
+"0,9 % Kaufpreis",
+"Geschäftsfahrzeug"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Pauschal pro Monat 0,9 % des Kaufpreises (exkl. MWST), mindestens CHF 150 (ab 1. Januar 2022; vorher 0,8 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-n1__c0006",
 "nachher": "bund-mb-n1__c0008"
 },
 {
 "id": "bund-mb-n1__c0008",
-"titel": "MB N1/2007 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 6 Selbstkostenabzug für Naturallöhne der Arbeitnehmenden",
+"pfad": [
+"Naturallöhne"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6",
+"stichworte": [
+"Naturallohn",
+"Verpflegung Personal",
+"Gastwirtschaft",
+"Selbstkosten",
+"Unterkunft"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Verpflegung pro Tag: Gastwirtschaftsgewerbe Fr. 16 (Fr. 480 im Monat, Fr. 5760 im Jahr), andere Gewerbe Fr. 17 (Fr. 510, Fr. 6120).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-mb-n1__c0007",
-"nachher": "bund-mb-n1__c0009"
-},
-{
-"id": "bund-mb-n1__c0009",
-"titel": "MB N1/2007 – Abschnitt 9",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-mb-n1__c0008",
-"nachher": "bund-mb-n1__c0010"
-},
-{
-"id": "bund-mb-n1__c0010",
-"titel": "MB N1/2007 – Abschnitt 10",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-mb-n1__c0009",
 "nachher": null
 }
 ]

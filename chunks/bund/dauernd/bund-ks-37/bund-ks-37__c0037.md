@@ -4,16 +4,34 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 37"
-seiten: "8"
+titel: "Ziff. 7.2.2 Quellenbesteuerung – Übersicht Arbeitnehmer (Wohnsitz Schweiz/Ausland)"
+ziffer: "7.2.2"
+seiten: "12-13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.2 Quellenbesteuerung Mitarbeiteraktien › 7.2.2 Quellenbesteuerung · S. 12–13
 
-Das steuerbare Einkommen entspricht der Differenz zwischen dem nicht diskontierten Ver-
-kehrswert der Aktie im Zeitpunkt des Wegfalls der Sperrfrist und dem entsprechend der ver-
-bleibenden Restsperrfrist diskontierten Wert. Angebrochene Restsperrfristjahre sind pro rata
-temporis zu berücksichtigen.
+7.2.2 Quellenbesteuerung
+Im internationalen Verhältnis ist zu berücksichtigen, dass der Empfänger der Mitarbeiterak-
+tien im Zeitpunkt des Erwerbs seine Ansässigkeit entweder in der Schweiz oder im Ausland
+haben kann. In beiden Fällen kann die Besteuerung an der Quelle erfolgen, sofern die Vor-
+aussetzungen der Artikel 83 respektive 91 oder 97 DBG erfüllt sind. Daraus ergeben sich fol-
+gende Möglichkeiten der Besteuerung:
 
-    Beispiel:
-    Mitarbeiter A hat am 15. März 2010 eine für 10 Jahre gesperrte Mitarbeiter-
+  Art der Erwerbstätigkeit   steuerrechtlicher Wohnsitz im Zeitpunkt der Besteuerung
+  im Besteuerungszeit-   Schweiz   Ausland2
+  punkt
+  Ausschliesslich Arbeit-   Fälle von Art. 83 DBG:   Fälle von Art. 91 oder 97
+  nehmer (AN)   Einkünfte aus Mitarbeiterak-   DBG:
+    tien sind zusammen mit dem
+    übrigen Einkommen aus un-   Einkünfte aus Mitarbeiterak-
+    selbstständiger Erwerbstätig-   tien sind zusammen mit dem
+    keit an der Quelle zu besteu-   übrigen Einkommen aus un-
+    ern.   selbstständiger Erwerbstätig-
+    keit an der Quelle zu besteu-
+    ern. Vorbehalten bleibt eine
+    anteilsmässige Besteuerung
+    von Mitarbeiterbeteiligungen,
+    die als Bonus abgegeben
+    werden (sinngemäss Art. 17d
+    DBG)

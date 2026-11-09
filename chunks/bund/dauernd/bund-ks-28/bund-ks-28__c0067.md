@@ -4,19 +4,29 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 67"
-seiten: "19"
+titel: "Anhang II Art. 4 Einkauf in eine Vorsorgeeinrichtung"
+ziffer: "Art. 4"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 24
 
-Ein Nachsteuerverfahren nach den Artikeln 151 - 153 DBG ist in diesen Fällen nicht möglich.
-Mangels eigener Regelung der Nachbesteuerung in Artikel 37b DBG müsste sich eine
-Nachbesteuerung auf die generellen Nachsteuertatbestände von Artikel 151 Absatz 1 DBG
-abstützen. Diese bedingen aber, dass Tatsachen oder Beweismittel zu Tage treten, die der
-Steuerbehörde nicht bekannt waren. Es geht dabei um Fakten oder Beweismittel, die zwar
-erst nach der rechtskräftigen Veranlagung entdeckt werden. Eigentlich handelt es sich um
-neue „alte“ Tatsachen und Beweismittel, da diese Tatsachen oder Beweismittel bereits im
+2.2   Einkauf in eine Vorsorgeeinrichtung
+Artikel 4
 
-5
-    SR 831.20
+Absatz 1 und 2
+Der Gesetzgeber wollte die Selbständigerwerbenden bezüglich der beruflichen Vorsorge den
+Unselbständigerwerbenden weitestgehend gleichstellen. Aus diesem Grund soll auch der
+Selbständigerwerbende, welcher sich freiwillig einer Einrichtung der beruflichen Vorsorge
+angeschlossen hat, den einbezahlten Einkaufsbetrag für die berufliche Vorsorge im Rahmen
+der Liquidation nach dem Grundsatz von Artikel 33 Absatz 1 Buchstabe d DBG in erster Linie
+vom Erwerbseinkommen, das nicht aus der Liquidation stammt, und von den übrigen Ein-
+künften abziehen können.
+
+Gemäss Artikel 79b Absatz 3 des Bundesgesetzes über die berufliche Alters-, Hinterlasse-
+nen- und Invalidenvorsorge (BVG; SR 831.40) dürfen die aus diesen Einkäufen resultieren-
+den Leistungen innerhalb der nächsten drei Jahren nicht in Kapitalform bezogen werden.
+
+Absatz 3
+Ergibt sich aus der Anrechnung nach den Absätzen 1 und 2 ein Überhang, so ist diese Diffe-
+renz vom Liquidationsgewinn abzuziehen.

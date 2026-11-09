@@ -1,112 +1,394 @@
 [
 {
 "id": "sg-wl-kurz-2025__c0001",
-"titel": "Kurz-WL SG 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Kurzübersicht Wegleitung 2025 SG – Ziff. 2 Privatanteile Haushalt (selbständige Tätigkeit)",
+"pfad": [
+"Kurzübersicht",
+"2. Einkünfte aus selbständiger Tätigkeit"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1-2.2",
+"stichworte": [
+"Privatanteil",
+"Haushalt",
+"Selbständigerwerbende",
+"Fr. 3'540",
+"Naturalbezug"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Privatanteile an den Haushalt: 1 Erwachsener Fr. 3'540 im Jahr (Fr. 295 im Monat), Zuschlag je weiterer Erwachsener Fr. 900, pro Kind Fr. 600.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-wl-kurz-2025__c0002"
 },
 {
 "id": "sg-wl-kurz-2025__c0002",
-"titel": "Kurz-WL SG 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 5 Liegenschaften – Eigenmietwert Reduktion 30 %",
+"pfad": [
+"Kurzübersicht",
+"5. Liegenschaften"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5",
+"stichworte": [
+"Eigenmietwert",
+"Eigenheim",
+"selbstbewohnt",
+"Reduktion 30 %"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Der Eigenmietwert des am Wohnsitz dauernd selbstbewohnten Eigenheimes reduziert sich um 30%.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-wl-kurz-2025__c0001",
 "nachher": "sg-wl-kurz-2025__c0003"
 },
 {
 "id": "sg-wl-kurz-2025__c0003",
-"titel": "Kurz-WL SG 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 10.1 Berufskosten Fahrt zur Arbeit – Velo Fr. 700, Auto 70 Rappen/km, max. Fr. 8'000",
+"pfad": [
+"Kurzübersicht",
+"10. Berufskosten",
+"10.1 Fahrt zur Arbeit"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10.1",
+"stichworte": [
+"Pendlerabzug",
+"Arbeitsweg",
+"Velo",
+"Auto",
+"Fahrkilometer",
+"220 Arbeitstage",
+"GA"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Fahrrad/Kleinmotorrad bis Fr. 700, Motorfahrzeug 70 Rappen je Fahrkilometer, in der Regel max. 220 Arbeitstage, Gesamtkosten max. Fr. 8'000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-wl-kurz-2025__c0002",
 "nachher": "sg-wl-kurz-2025__c0004"
 },
 {
 "id": "sg-wl-kurz-2025__c0004",
-"titel": "Kurz-WL SG 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 10.2–10.3 Mehrkosten Verpflegung und Pauschalabzug übrige Berufskosten",
+"pfad": [
+"Kurzübersicht",
+"10. Berufskosten",
+"10.2–10.3"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10.2-10.3",
+"stichworte": [
+"Verpflegung",
+"Kantine",
+"Schichtarbeit",
+"Pauschalabzug",
+"Berufsauslagen",
+"Fr. 15 pro Tag"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Verpflegung Fr. 15 pro Tag max. Fr. 3'200 (Kantine Fr. 7.50, max. Fr. 1'600; Schicht-/Nachtarbeit Fr. 15, max. Fr. 3'200); Pauschalabzug Fr. 700 + 10% des Nettolohnes, höchstens Fr. 2'400.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-wl-kurz-2025__c0003",
 "nachher": "sg-wl-kurz-2025__c0005"
 },
 {
 "id": "sg-wl-kurz-2025__c0005",
-"titel": "Kurz-WL SG 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 10.4–10.5 Wochenaufenthalt und Nebenerwerb",
+"pfad": [
+"Kurzübersicht",
+"10. Berufskosten",
+"10.4–10.5"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10.4-10.5",
+"stichworte": [
+"Wochenaufenthalt",
+"auswärtiges Zimmer",
+"Nebenerwerb",
+"Pauschalabzug 20 %"
+],
+"positionen": [
+"abzug.berufskosten.wochenaufenthalt",
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Wochenaufenthalt: Zimmer max. Fr. 500 pro Monat (bis Fr. 800), Verpflegung Fr. 30 im Tag max. Fr. 6'400 (Fr. 22.50, max. Fr. 4'800); Nebenerwerb 20% des Nettolohnes, mind. Fr. 800, max. Fr. 2'400.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-wl-kurz-2025__c0004",
 "nachher": "sg-wl-kurz-2025__c0006"
 },
 {
 "id": "sg-wl-kurz-2025__c0006",
-"titel": "Kurz-WL SG 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 13.1 Säule 3a – max. Fr. 7'258 bzw. Fr. 36'288",
+"pfad": [
+"Kurzübersicht",
+"13. Vorsorge",
+"13.1 Säule 3a"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13.1",
+"stichworte": [
+"Säule 3a",
+"3. Säule",
+"Maximalbetrag",
+"kleines 3a",
+"grosses 3a"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Erwerbstätige mit 2. Säule max. Fr. 7'258; ohne 2. Säule 20% des Erwerbseinkommens, max. Fr. 36'288.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-wl-kurz-2025__c0005",
 "nachher": "sg-wl-kurz-2025__c0007"
 },
 {
 "id": "sg-wl-kurz-2025__c0007",
-"titel": "Kurz-WL SG 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 14 Versicherungsprämien und Sparzinsen – Abzugsbeträge",
+"pfad": [
+"Kurzübersicht",
+"14. Versicherungsprämien und Sparzinsen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "14",
+"stichworte": [
+"Versicherungsprämien",
+"Krankenkasse",
+"Sparzinsen",
+"Prämienabzug",
+"Fr. 6'800",
+"Fr. 3'400"
+],
+"positionen": [
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Maximaler Abzug gemeinsam Pflichtige Fr. 6'800, Übrige Fr. 3'400; pro Kind zusätzlich bis Fr. 1'100; ohne Beiträge an 2./3. Säule zusätzlich bis Fr. 1'100 bzw. Fr. 500.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-wl-kurz-2025__c0006",
+"nachher": "sg-wl-kurz-2025__c0008"
+},
+{
+"id": "sg-wl-kurz-2025__c0008",
+"titel": "Ziff. 16.1 Vermögensverwaltung und Geldspiele – 2‰ max. Fr. 6'000",
+"pfad": [
+"Kurzübersicht",
+"16. Weitere Abzüge",
+"16.1 Verwaltung und Geldspiele"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "16.1",
+"stichworte": [
+"Verwaltungskosten",
+"Depotgebühren",
+"Geldspiele",
+"Lotteriegewinn",
+"Einsatzkosten",
+"Online-Spiele"
+],
+"positionen": [
+"abzug.verwaltungskosten_wertschriften",
+"einkommen.lotterie_gewinne"
+],
+"zusammenfassung": "Fremdverwaltete Wertschriften 2‰, max. Fr. 6'000; Geldspiele Einsatzkosten 5%, max. Fr. 5'400; Online-Spiele abgebuchte Einsätze max. Fr. 26'700.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-wl-kurz-2025__c0007",
+"nachher": "sg-wl-kurz-2025__c0009"
+},
+{
+"id": "sg-wl-kurz-2025__c0009",
+"titel": "Ziff. 16.2–16.3 Kinderbetreuung und Parteispenden",
+"pfad": [
+"Kurzübersicht",
+"16. Weitere Abzüge",
+"16.2–16.3"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "16.2-16.3",
+"stichworte": [
+"Kita",
+"Kinderbetreuung",
+"Drittbetreuung",
+"Parteispenden",
+"Fr. 26'700"
+],
+"positionen": [
+"abzug.drittbetreuung",
+"abzug.parteispenden"
+],
+"zusammenfassung": "Kinderbetreuung je Kind unter 14 Jahren max. Fr. 26'700; Parteispenden Alleinstehende max. Fr. 10'700, gemeinsam Fr. 21'400.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-wl-kurz-2025__c0008",
+"nachher": "sg-wl-kurz-2025__c0010"
+},
+{
+"id": "sg-wl-kurz-2025__c0010",
+"titel": "Ziff. 16.4 Berufsorientierte Aus- und Weiterbildung – max. Fr. 13'000",
+"pfad": [
+"Kurzübersicht",
+"16. Weitere Abzüge",
+"16.4 Aus-/Weiterbildung"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "16.4",
+"stichworte": [
+"Weiterbildung",
+"Ausbildungskosten",
+"Pauschale Fr. 400",
+"Informatikmittel"
+],
+"positionen": [
+"abzug.weiterbildung"
+],
+"zusammenfassung": "Selbst bezahlte Kosten max. Fr. 13'000, pauschal ohne Nachweis Fr. 400 (nur Kantons- und Gemeindesteuern); Informatikmittel max. 50%.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-wl-kurz-2025__c0009",
+"nachher": "sg-wl-kurz-2025__c0011"
+},
+{
+"id": "sg-wl-kurz-2025__c0011",
+"titel": "Ziff. 17 Zweiverdienerabzug – max. Fr. 500",
+"pfad": [
+"Kurzübersicht",
+"17. Zweiverdienerabzug"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "17",
+"stichworte": [
+"Zweiverdienerabzug",
+"Ehepaar",
+"beide erwerbstätig"
+],
+"positionen": [
+"abzug.zweiverdiener"
+],
+"zusammenfassung": "Zweiverdienerabzug bei gemeinsamer Steuerpflicht und Erwerbstätigkeit beider Personen max. Fr. 500.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-wl-kurz-2025__c0010",
+"nachher": "sg-wl-kurz-2025__c0012"
+},
+{
+"id": "sg-wl-kurz-2025__c0012",
+"titel": "Ziff. 21 Zusätzliche Abzüge – Krankheitskosten, Behinderung, Zuwendungen",
+"pfad": [
+"Kurzübersicht",
+"21. Zusätzliche Abzüge"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "21",
+"stichworte": [
+"Krankheitskosten",
+"Selbstbehalt 2 %",
+"Diät",
+"Hilflosenentschädigung",
+"Pflegeheim",
+"Spenden"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten",
+"abzug.spenden"
+],
+"zusammenfassung": "Krankheitskosten Selbstbehalt 2%, Diät-Pauschale Fr. 2'500; Hilflosenentschädigung leicht Fr. 2'500, mittel Fr. 5'000, schwer Fr. 7'500; Zuwendungen ab Fr. 100, max. 20% des Nettoeinkommens.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-wl-kurz-2025__c0011",
+"nachher": "sg-wl-kurz-2025__c0013"
+},
+{
+"id": "sg-wl-kurz-2025__c0013",
+"titel": "Ziff. 23 Sozialabzüge Einkommen – Kinder Fr. 7'600 / Fr. 10'800, unterstützte Personen",
+"pfad": [
+"Kurzübersicht",
+"23. Sozialabzüge Einkommen"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "23",
+"stichworte": [
+"Kinderabzug",
+"Vorschulalter",
+"Ausbildung",
+"unterstützte Person",
+"Stichtag 31. Dezember"
+],
+"positionen": [
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung"
+],
+"zusammenfassung": "Kind im Vorschulalter Fr. 7'600, in Ausbildung Fr. 10'800; Ausbildungskosten max. Fr. 13'700 (Selbstbehalt Fr. 3'200); unterstützte Person Fr. 6'800 (nur direkte Bundessteuer).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-wl-kurz-2025__c0012",
+"nachher": "sg-wl-kurz-2025__c0014"
+},
+{
+"id": "sg-wl-kurz-2025__c0014",
+"titel": "Ziff. 36 Sozialabzüge Vermögen – Fr. 75'000 / Fr. 150'000 / Kind Fr. 20'000",
+"pfad": [
+"Kurzübersicht",
+"36. Sozialabzüge Vermögen"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "36",
+"stichworte": [
+"Vermögensfreibetrag",
+"Sozialabzug Vermögen",
+"Fr. 75'000",
+"Fr. 150'000"
+],
+"positionen": [
+"vermoegen.sozialabzug"
+],
+"zusammenfassung": "Alleinstehende Fr. 75'000, gemeinsam Steuerpflichtige Fr. 150'000, zusätzlich je minderjähriges Kind Fr. 20'000.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-wl-kurz-2025__c0013",
 "nachher": null
 }
 ]

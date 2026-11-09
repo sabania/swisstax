@@ -4,22 +4,23 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 14"
-seiten: "4"
+titel: "Ziff. 5.5 Begriff Erwerbseinkommen für die Säule 3a"
+ziffer: "5.5"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 4
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.5 Ohne 2. Säule · S. 6
 
-4.   Begünstigte Personen
-Im Erlebensfall ist der Vorsorgenehmer die begünstigte Person. Nach dessen Ableben ist
-Begünstigter der überlebende Ehegatte oder der/die eingetragene Partner/in. Bei Nichtvor-
-handensein eines Ehegatten oder eines eingetragenen Partners / einer eingetragenen Part-
-nerin gelten als Begünstigte die direkten Nachkommen sowie die natürlichen Personen, die
-von der verstorbenen Person in erheblichem Masse unterstützt worden sind, oder die Per-
-son, die mit dieser in den letzten fünf Jahren bis zu ihrem Tod ununterbrochen eine Lebens-
-gemeinschaft geführt hat oder die für den Unterhalt eines oder mehrerer gemeinsamer Kin-
-der aufkommen muss. Die Reihenfolge dieser begünstigten Personen kann vom Vorsorge-
-nehmer geändert und die Ansprüche können näher bezeichnet werden. Erst wenn solche
-Personen nicht vorhanden sind, sind die Eltern, die Geschwister und die übrigen Erben als
-Begünstigte vorgesehen, wobei auch hier die Reihenfolge festgelegt und Ansprüche näher
-bezeichnet werden können (vgl. Art. 2 BVV 3).
+Unter Erwerbseinkommen ist das Einkommen eines Steuerpflichtigen aus selbständiger und
+unselbständiger, haupt- und nebenberuflicher Erwerbstätigkeit gemäss Steuererklärung zu
+verstehen. Bei Einkommen aus unselbständiger Erwerbstätigkeit ist dies der Bruttolohn nach
+Abzug der AHV/IV/EO/ALV-Beiträge, bei Einkommen aus selbständiger Erwerbstätigkeit der
+Saldo der Gewinn- und Verlustrechnung nach Vornahme allfälliger steuerlicher Berichtigun-
+gen (auch hier nach Abzug der persönlichen Beiträge an die AHV/IV/EO, aber ohne Abzug
+irgendwelcher Beiträge an anerkannte Vorsorgeformen). Das Erwerbseinkommen umfasst
+auch allfällige realisierte Wertzuwachsgewinne auf dem Geschäftsvermögen.
+
+Auch bei Selbständigerwerbenden, die ihr Geschäftsjahr per Ende des Kalenderjahres ab-
+schliessen, gilt, dass Beiträge an die Säule 3a bis Ende des Kalenderjahres geleistet werden
+müssen, wenn sie im entsprechenden Steuerjahr zum Abzug gebracht werden wollen (vgl.
+betreffend den massgebenden Zeitpunkt einer Einzahlung Ziffer 5.1).

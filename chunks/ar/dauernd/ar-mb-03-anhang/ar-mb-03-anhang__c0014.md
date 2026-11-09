@@ -4,30 +4,34 @@ quelle: ar-mb-03-anhang
 jur: ar
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB AR 03-anhang – Abschnitt 14"
+titel: "Ziff. 5.1 Böschungssicherung, Sitzplatz, Pergola, Zäune, Drainage, Lärm- und Hochwasserschutz"
+ziffer: "5.1"
 seiten: "5"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 5
+> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 5 Umgebung › 5.1 Gartenunterhalt · S. 5
 
-<!-- Seite 5 -->
-    E = Energiesparmassnahmen   abziehbar   nicht abziehbar
-    Unterhalts-   Anlage-   Lebens-
-    kosten   kosten   haltung
-    - Aufwendungen für Blumen- und Gemüsegarten sowie zur   1/1
-    Gewinnung von Beeren und Baumfrüchten inkl. schneiden und
-    spritzen
-    - Auslagen für Topf- und Zimmerpflanzen sowie Hochbeete   1/1
-    und Pflanzentröge
-    b) Fahrnisgegenstände wie Gartenmöbel, Sonnenschirme etc.   1/1
-    c) Lebhäge (z.B. Thuja) und Sichtschutz
+    - Sanierung und Reparatur   1/1
+    h) Böschungssicherungen (mit Nachweis Expertise/amtliche
+    Auflage)
+    - erstmalige Erstellung bei bestehender Liegenschaft   1/1
     - gleichwertiger Ersatz   1/1
-    - Ersatz Lebhäge durch Sichtschutzwände (z.B. WPC/Holz)   1/1
-    - Ersatz Lebhäge durch hochwertige Häge (z.B. Granitstelen)   1/3   2/3
-    - erstmalige Anschaffung   1/1
-    d) Unterhalt an weiteren Umgebungselementen, sofern in der   1/1
-    Mietwertschätzung enthalten (z.B. Teichanlagen, Gartenhäuser
-    etc.)
-    e) Terrainveränderungen/Gartenumgestaltung   1/1
-    f) erstmaliges Erstellen von Steingärten, Biotopen, Grillplätzen,   1/1
-    Brunnen etc.
+    i) gleichwertiger Ersatz von bestehenden Sitzplatzbelägen   1/1
+    j) Pergola, Laube, Sitzplatzüberdachung
+    - erstmalige Erstellung   1/1
+    - gleichwertiger Ersatz   1/1
+    - Sanierung und Reparatur   1/1
+    k) Zäune/Gartenwege
+    - Neuerstellung   1/1
+    - gleichwertiger Ersatz   1/1
+    l) Sickerleitung/Drainage
+    - Erstellung/Ersatz   1/1
+    m) Lärmschutzmassnahmen
+    - erstmalige Erstellung   1/1
+    - erstmalige Erstellung (amtliche Lärmgrenzwerte   1/1
+    überschritten, abzüglich Beiträge Dritter)
+    - gleichwertiger Ersatz   1/1
+    n) Schutzmassnahmen gegen Hochwasser, Schnee und
+    Starkregen (aufgrund Expertise oder amtlicher Auflage)
+    - erstmalige Erstellung   1/1
+    - gleichwertiger Ersatz   1/1

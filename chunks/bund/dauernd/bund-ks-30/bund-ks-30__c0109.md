@@ -4,17 +4,13 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.4 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife"
-ziffer: "14.4"
-seiten: "33"
+titel: "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife"
+ziffer: "14.5"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.4 · S. 33
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.5 · S. 34
 
-14.4.2   Tarife
-   Befindet sich das Kind nicht in alternierender Obhut, erhält der Elternteil, der mit dem
-    Kind zusammenlebt und zur Hauptsache für dessen Unterhalt aufkommt, den Elterntarif.
-    Der andere Elternteil wird zum Grundtarif besteuert.
-   Bei alternierender Obhut erhält derjenige Elternteil, der zur Hauptsache für den Unterhalt
-    des Kindes aufkommt, den Elterntarif. Dabei ist davon auszugehen, dass dies derjenige
-    mit dem höheren Einkommen ist. Der andere Elternteil wird zum Grundtarif besteuert.
+14.5.3   Tarife
+   Der Elternteil, der die Unterhaltszahlungen erhält, wird zum Elterntarif besteuert.
+   Der Elternteil, der die Unterhaltszahlungen leistet, erhält den Grundtarif besteuert.

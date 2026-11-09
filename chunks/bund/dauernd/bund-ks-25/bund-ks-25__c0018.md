@@ -4,19 +4,19 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 18"
-seiten: "4"
+titel: "Ziff. 4.2 Privatvermögen – Erträge, Kapitalgewinne, Kursliste HB (Teil 2/2)"
+ziffer: "4.2"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 25 · 4 Besteuerung auf Ebene der Anleger › 4.2 Anlagen im Privatvermögen · S. 6
 
-Erträge, die nicht aus direktem Grundbesitz stammen (z.B. Zinsen auf kurzfristigen festver-
-zinslichen Effekten oder auf kurzfristig verfügbaren Mitteln; vgl. Art. 60 KAG), sind von der
-Gewinnsteuer der kollektiven Kapitalanlagen ausgenommen und sind durch die Anlegerin-
-nen und Anleger zu versteuern (vgl. Art. 20 Abs. 1 Bst. e DBG). Bei der SICAF unterliegen
-demgegenüber sämtliche Erträge der Gewinnsteuer. Ausschüttungen unterliegen gemäss
-Artikel 20 Absatz 1 Buchstabe c DBG beim Anleger der Einkommenssteuer.
+Nicht unter Artikel 20 Absatz 1 Buchstabe e DBG fallen die Einkünfte, welche die Anlegerin-
+nen und Anleger aus Beteiligungen an einer SICAF realisieren, da diese als Kapitalgesell-
+schaft besteuert wird. Die Anleger resp. Aktionäre einer SICAF versteuern die entsprechen-
+den Einkünfte nach Artikel 20 Absatz 1 Buchstabe c DBG.
 
-Für die Veranlagung kollektiver Kapitalanlagen mit direktem Grundbesitz in der Schweiz ist
-der Kanton zuständig, in dem sich der Sitz der Fondsleitung, der SICAV oder der KmGK am
-Ende der Steuerperiode befindet (vgl. Art. 105 Abs. 3 DBG).
+Bei Verkauf bzw. Rückgabe von im Privatvermögen gehaltenen Anteilen von vertraglichen
+Anlagefonds, SICAV und KmGK qualifiziert die Differenz zwischen Erwerbspreis und Ver-
+kaufserlös als steuerfreier Kapitalgewinn nach Artikel 16 Absatz 3 DBG oder als steuerlich
+nicht abzugsfähiger Kapitalverlust.

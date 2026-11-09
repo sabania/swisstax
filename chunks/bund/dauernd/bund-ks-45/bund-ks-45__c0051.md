@@ -4,23 +4,27 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 51"
-seiten: "12"
+titel: "Ziff. 4.7 Gewährung von Kinderabzügen"
+ziffer: "4.7"
+seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.7 Kinderabzüge · S. 17
 
-    Der der Quellensteuer unterliegende Lohn (= Bruttolohn + QST) ergibt sich anhand folgender Be-
-    rechnung:
-
-    5 250.00 x 100
-    = 6 019.95
-    87.21 (100 - 12.79)
-
-    3. Schritt
-
-    Die geschuldete QSt kann auf zwei Wegen ermittelt werden:
-
-    6 019.95 x 12.79   = 769.95   oder   6 019.95 – 5 250.00 = 769.95
-
-    100
+4.7   Gewährung von Kinderabzügen
+Der Kinderabzug ergibt sich aus der Anzahl minderjähriger oder in beruflicher bzw. schuli-
+scher Erstausbildung stehender Kinder, für deren Unterhalt der Arbeitnehmer zur Hauptsa-
+che aufkommt (vgl. Art. 35 Abs. 1 DBG).
+Bei minderjährigen Kindern ist die Anzahl der Kinderabzüge gemäss den nachgewiesenen
+Kindesverhältnissen (leibliches Kind, Stief- oder Adoptivkind) festzulegen. Als geeignete Be-
+weismittel gelten insbesondere Geburtsurkunden, Zulagenentscheide, Adoptivurkunden, Fa-
+milienausweise.
+Bei volljährigen Kindern ist zusätzlich ein Nachweis über die Erstausbildung zu erbringen
+(bspw. Immatrikulationsbestätigung, Lehrvertrag, Zulagenentscheide).
+Bei Alleinstehenden mit Kindern muss ergänzend nachgewiesen werden, dass das Kind im
+gleichen Haushalt lebt. Als geeignete Beweismittel gelten insbesondere Ansässigkeitsbe-
+scheinigungen, Niederlassungsausweise, Bescheinigungen der Wohnsitzgemeinde. In die-
+sen Fällen wird im Grundsatz davon ausgegangen, dass derjenige Elternteil, bei welchem
+das volljährige Kind lebt, zur Hauptsache für den Unterhalt des Kindes aufkommt. Bezüglich
+Konkubinatsverhältnissen wird auf die Ausführungen oben verwiesen (vgl. Ziffer 4.3 oben).
+Für weitere Ausführungen zu den Kinderabzügen wird auf das KS 30 ESTV verwiesen.

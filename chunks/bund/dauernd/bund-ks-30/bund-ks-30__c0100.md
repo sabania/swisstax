@@ -4,19 +4,22 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge) (Teil 1/3)"
-ziffer: "14.2.1"
-seiten: "31-32"
+titel: "Ziff. 14.2.2 Kinderalimente – Besteuerung beim Empfänger, Abzug beim Leistenden"
+ziffer: "14.2.2"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.2.1 Zivilrechtliche Aspekte · S. 31–32
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.2.2 Steuerrechtliche Aspekte · S. 32
 
-14.2   Besteuerung der Unterhaltszahlungen für das Kind
+14.2.2   Steuerrechtliche Aspekte
 
-14.2.1   Zivilrechtliche Aspekte
-
-Das ZGB sieht die Möglichkeit vor, einerseits die elterliche Sorge gemeinsam auf unverheira-
-tete Eltern zu übertragen, andererseits aber die gemeinsame Ausübung der elterlichen Sor-
-ge auch nach der Trennung oder Scheidung der Eltern beizubehalten. Die gemeinsame el-
-terliche Sorge trägt dem Umstand Rechnung, dass heutzutage vermehrt beide Eltern in glei-
-cher Weise zur Übernahme der elterlichen Sorge und der Obhut bereit und in der Lage sind.
+Die Unterhaltsbeiträge, die ein Elternteil für die unter seiner elterlichen Sorge stehenden
+Kinder erhält, sind vom Empfänger vollständig zu versteuern (Art. 23 Bst. f DBG). Anderer-
+seits können diese Unterhaltszahlungen vom leistenden Elternteil vollumfänglich in Abzug
+gebracht werden (Art. 33 Abs. 1 Bst. c DBG). Die Abzugsfähigkeit von Unterhaltsbeiträgen
+für minderjährige Kinder gilt indessen nur für familienrechtlich geschuldete Unterhaltsbeiträ-
+ge, jedoch nicht für freiwillig erbrachte Alimente (BGE vom 31.5.19999 i.S. M., NStP 53,
+106). Diese Unterhaltsbeiträge werden in der Regel amtlich oder gerichtlich festgesetzt, sie
+können aber auch vertraglich vereinbart werden. Damit die Unterhaltsbeiträge beim Empfän-
+ger aufgerechnet und beim leistenden in Abzug gebracht werden können, müssen sie effek-
+tiv bezahlt worden sein.

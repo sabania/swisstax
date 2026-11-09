@@ -4,23 +4,41 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 76"
-seiten: "22"
+titel: "Anhang II Art. 9 Bemessung des übrigen Liquidationsgewinns (Teil 1/2)"
+ziffer: "Art. 9"
+seiten: "27"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 27
 
-<!-- Seite 22 -->
-b)   Die Überführung der Liegenschaft vom Geschäftsvermögen ins Privatvermögen erfolgt
-    im Vorjahr (n-1). Die steuerpflichtige Person macht dabei keinen Steueraufschub ge-
-    mäss Artikel 18a DBG geltend. Im Jahr n wird die selbständige Erwerbstätigkeit definitiv
-    aufgegeben und die gesamten stillen Reserven (wieder eingebrachte Abschreibungen
-    und der Wertzuwachsgewinn) werden privilegiert besteuert (u.U. mittels eines Revisi-
-    onsverfahrens für die Veranlagung n-1). Eine spätere Veräusserung der Liegenschaft
-    löst eine allfällige kantonale Grundstückgewinnsteuer, aber keine Einkommenssteuer
-    (steuerfreier privater Kapitalgewinn oder steuerlich unbeachtlicher Kapitalverlust im Jahr
-    n+1 gem. Art. 16 Abs. 3 DBG) aus.
+2.4   Übriger Liquidationsgewinn
+Artikel 9   Bemessung
 
-    Vorjahr   Liquidationsjahr
+  Gesamt-   Liqui-   Separat   Restli-
+  einkom-   dations-   besteu-   cher
+    men   gewinn   er-   steuer-   davon 1/5
+    ter Liq.   barer   satzbestimmend
+    Gew.   Liquida-
+    tions-
+    gewinn
+    Getrennt
+    besteu-
+    Besteuerung
+    erter
+    zu 1/5 des Satzes
+    fiktiver
+    Einkauf
 
-    2010   2011   2012
+    Übriges
+    Eink.   Ordentliche
+    Besteuerung
+
+Als Liquidationsgewinn im Sinne dieser Verordnung gelten die im Vorjahr und im Liquidati-
+onsjahr realisierten stillen Reserven. Ein Teil dieses Liquidationsgewinnes wird privilegiert
+nach Artikel 10 dieser Verordnung besteuert. Um diesen Anteil des Liquidationsgewinns zu
+berechnen, müssen von den realisierten stillen Reserven folgende Beträge abgezogen wer-
+den:
+
+Buchstabe a
+Ein allfälliger Überhang des Einkaufsbeitrages in eine Vorsorgeeinrichtung nach Artikel 4
+nach Abzug von den übrigen Einkünften.

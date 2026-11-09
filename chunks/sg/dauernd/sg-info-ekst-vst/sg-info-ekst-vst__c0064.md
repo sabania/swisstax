@@ -4,11 +4,26 @@ quelle: sg-info-ekst-vst
 jur: sg
 jahre: [2025, 2026]
 typ: info
-titel: "Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:"
+titel: "Kurslisten"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:
+> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Kurslisten
 
-- [Steuerfuss 2005(16 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202005.pdf "Download: Es öffnet sich ein neues Fenster: Steuerfuss 2005")
-- [Steuerfuss 2004(16 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202004.pdf "Download: Es öffnet sich ein neues Fenster: Steuerfuss 2004")
-- [Steuerfuss 2003(17 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202003.pdf "Download: Es öffnet sich ein neues Fenster: Steuerfuss 2003")
+## Kurslisten
+
+Die Eidgenössische Steuerverwaltung (EStV) legt die für die Steuererhebung geltenden Kurse fest, die für die Bewertung der Wertpapiere und Devisen per Ende der Steuerperiode massgebend sind.
+
+Die vollständigen Kurslisten der EStV können auf deren Homepage online unter folgendem Link abgefragt werden:
+
+- [Kurslisten der EStV neues Fenster](https://www.ictax.admin.ch/extern/de.html#/ratelist "Externer Link: Es öffnet sich ein neues Fenster: https://www.ictax.admin.ch/extern/de.html#/ratelist")
+
+**Dies sind zum Beispiel Kurslisten für:**
+
+- in der Schweiz kotierte in- und ausländische Wertpapiere
+- Vor- oder ausserbörslich gehandelte Wertpapiere
+- Anlagefonds (in- und ausländische)
+- Derrivate
+- Optionen
+- Devisen - Banknoten
+- Devisen - Jahresmittelkurse in der Schweiz
+- Goldmünzen und Edelmetalle

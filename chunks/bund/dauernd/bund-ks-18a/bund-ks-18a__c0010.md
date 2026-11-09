@@ -4,23 +4,27 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 10"
-seiten: "3"
+titel: "Ziff. 5.1–5.2 Zeitpunkt der Einzahlung (31. Dezember); Anzahl Vorsorgekonten"
+ziffer: "5.1–5.2"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 3
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.1 Allgemeines / 5.2 Anzahl Konten · S. 5
 
-2.   Prüfung der Vertragsmodelle
-Vertragsmodelle für anerkannte Vorsorgeformen sind von den Vorsorgeträgern vor Ab-
-schluss entsprechender Vorsorgeverträge der Eidgenössischen Steuerverwaltung (ESTV) –
-mit allen erforderlichen Unterlagen elektronisch an die folgende E-Mail-Adresse zur Prüfung
-einzureichen: ruling.dvs@estv.admin.ch. Die ESTV prüft aufgrund der eingereichten Unterla-
-gen (Bankstiftung: SHAB-Auszug, Stiftungsurkunde, Verfügung betreffend Aufsichtsüber-
-nahme durch die Stiftungsaufsicht, Vorsorgereglement, Vorsorgevereinbarung und allfällige
-weitere Reglemente; Versicherungsgesellschaft: Produktebeschrieb, Tarifeingabe an die
-FINMA, Allgemeine und evtl. Besondere Versicherungsbedingungen und Musterpolice) und
-unter Berücksichtigung der Belange der Verrechnungssteuer, ob Form und Inhalt den ge-
-setzlichen Vorschriften entsprechen (Art. 1 Abs. 4 BVV 3). Da die gebundene Selbstvorsorge
-im Sinne von Artikel 82 BVG den Berechtigten nur Anwartschaften vermittelt, haben sich die
-entsprechenden Vorsorgeverträge von den übrigen Versicherungs- und Sparverträgen deut-
-lich zu unterscheiden.
+Damit ein Säule 3a-Beitrag für ein bestimmtes Jahr geleistet und steuerlich in Abzug ge-
+bracht werden kann, muss dieser bis spätestens am 31. Dezember des betreffenden Jahres
+bzw. bei unterjähriger Steuerpflicht bis zum letzten Tag der Steuerpflicht geleistet werden.
+Zeitlich ist auf den Tag der Gutschrift auf dem individuellen Vorsorgekonto bzw. Versiche-
+rungsvertrag der steuerpflichtigen Person abzustellen. Weder die Abbuchung auf dem Bank-
+konto der steuerpflichtigen Person noch die Gutschrift auf dem allgemeinen Bankkonto der
+Säule 3a-Institution reichen aus.
+
+Ordentliche Säule 3a-Beiträge und Einkäufe in die Säule 3a (vgl. Ziff. 5.6) qualifizieren für
+steuerrechtliche Zwecke als allgemeine Abzüge.
+
+5.2. Anzahl von Vorsorge-Konten oder Vorsorge-Policen
+Ein Vorsorgenehmer kann mit mehreren Bankstiftungen oder Versicherungsgesellschaften
+jeweils mehrere Vorsorgeverträge abschliessen. Für jedes Vorsorgekonto bzw. für jede Vor-
+sorgepolice muss ein separater Vorsorgevertrag vorliegen. Die Gesamtsumme der Einzah-
+lungen pro Jahr darf den Maximalbetrag von Artikel 7 Absatz 1 BVV 3 nicht übersteigen (vgl.
+Ziffer 5.3. nachfolgend).

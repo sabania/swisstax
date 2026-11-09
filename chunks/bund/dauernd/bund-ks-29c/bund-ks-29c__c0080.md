@@ -4,28 +4,15 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 80"
-seiten: "26"
+titel: "Anhang 3 Fallbeispiel 3 – Teilliquidationsregel (Aktienrückkauf 340) (Teil 3/3)"
+ziffer: "Anhang 3"
+seiten: "33-34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 3 Fallbeispiele · S. 33–34
 
-Das Formular 170 steht auf der Homepage der ESTV zum Download zur Verfügung
-(www.estv.admin.ch).
-
-b) Nachmeldung von KER
-
-KER vergangener Geschäftsjahre, welche durch Einlagen, Aufgelder oder Zuschüsse seit
-dem 1. Januar 1997 geäufnet und bisher nicht gemeldet wurden, können der ESTV, Haupt-
-abteilung DVS, nachgemeldet werden.
-
-Für sämtliche Geschäftsjahre ab der ersten gemeldeten Einlage sind die Jahresrechnungen
-lückenlos einzureichen und das handelsrechtlich massgebende Eigenkapital detailliert nach-
-zuweisen. Sämtliche Einlagen sind zudem durch sachdienliche Unterlagen (Sacheinlagever-
-träge, Beschlüsse usw.) zu belegen. Aus den eingereichten Belegen müssen alle Angaben
-zum Verständnis der getroffenen Buchungen vorliegen.
-
-Zusätzlich ist ein vollständig ausgefülltes und unterzeichnetes Formular 170 zur Nachmel-
-dung der Bestände der gesonderten Konti bei der Hauptabteilung DVS einzureichen.
-
-c) Nachmeldung von Ausland-KER
+Da die Teilliquidationsregel (vgl. Art. 4a Abs. 4 VStG; Art. 20 Abs. 7 DBG) keine Ausnahmen
+kennt, ändern sich die Steuerfolgen bei einer direkten Teilliquidation auch dann nicht, wenn
+die KER an eine juristische Person, welche zu mindestens 10% am Grund- oder Stammkapi-
+tal der leistenden Gesellschaft beteiligt ist, zurückbezahlt werden oder die Rückzahlung aus
+bestätigten Ausland-KER stammt.

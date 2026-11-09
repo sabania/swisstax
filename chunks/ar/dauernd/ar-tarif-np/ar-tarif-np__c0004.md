@@ -4,13 +4,12 @@ quelle: ar-tarif-np
 jur: ar
 jahre: [2025, 2026]
 typ: tarif
-titel: "Tarif NP AR ab 2024 – Abschnitt 4"
+titel: "Vermögenssteuertarif (Art. 52 StG) – 0,50 / 0,55 Promille"
+ziffer: "2"
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: tarif}}
 ---
-> AR · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · S. 1
-
-*) Anpassung des Steuertarifs gemäss Art. 39a Ausgleich der Folgen der kalten Progression per 01.01.2024
+> AR · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · 2. Vermögenssteuer · S. 1
 
 2. Vermögenssteuer Art. 52 Steuergesetz (bGS 621.11)
 

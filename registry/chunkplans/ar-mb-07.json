@@ -1,0 +1,174 @@
+{
+ "id": "ar-mb-07",
+ "hinweise": [
+  "Beispieltabellen (Seiten 2-3, 6-7) spaltenweise extrahiert, Zeilen teilweise umbrochen; Beträge lesbar.",
+  "Apostrophe in Beträgen als ‘ (typografisch).",
+  "Letzte Seite (Beispiel 5) endet ohne Abschlusszeilen."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Rechtliche Grundlagen Eigenmietwert (Art. 24 StG, Art. 11 StV) – Merkblatt 07",
+   "pfad": [
+    "1. Rechtliche Grundlagen"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Eigenmietwert",
+    "Art. 24 StG AR",
+    "Art. 11 StV",
+    "Abzug 20 Prozent",
+    "Zweitwohnung",
+    "Ferienwohnung"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "sozialabzug.eigenmietwert"
+   ],
+   "zusammenfassung": "Eigenmietwert = Mietwert der letzten amtlichen Schätzung, Zuschlag 2.8 Prozent für wertvermehrende Investitionen, Abzug 20 Prozent bei dauernder Selbstbewohnung am Wohnsitz (nicht bei Zweit- und Ferienwohnungen)."
+  },
+  {
+   "start": 66,
+   "titel": "Ziff. 2 Eigenmietwert bei geschätztem Mietwert – Zuschlag 2.8 % und Abzug 20 %",
+   "pfad": [
+    "2. Bestimmung bei Liegenschaften mit geschätztem Mietwert"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "geschätzter Mietwert",
+    "Zuschlag 2.8 Prozent",
+    "Abzug 20 Prozent",
+    "Formular 7",
+    "Nutzniessung",
+    "Wohnrecht"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "sozialabzug.eigenmietwert"
+   ],
+   "zusammenfassung": "Vom geschätzten Mietwert wird bei dauernd selbstbewohnter Liegenschaft 20 Prozent abgezogen; wertvermehrende Aufwendungen werden mit 2.8 Prozent zugeschlagen; Geltendmachung im Formular 7."
+  },
+  {
+   "start": 83,
+   "titel": "Beispiel 1 Liegenschaft mit geschätztem Mietwert (Anbau, Wohnsitz/Ferienhaus)",
+   "pfad": [
+    "2. Bestimmung bei Liegenschaften mit geschätztem Mietwert",
+    "Beispiele"
+   ],
+   "ziffer": "Beispiel 1",
+   "stichworte": [
+    "Rechenbeispiel Eigenmietwert",
+    "Anbau",
+    "Ferienhaus",
+    "Fr. 16'800",
+    "wertvermehrende Aufwendungen"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Bei geschätztem Mietwert Fr. 16'800 ergibt sich am Wohnsitz Fr. 13'440, nach Anbau (Fr. 100'000 x 2.8%) Fr. 15'680; als Ferienhaus Fr. 16'800 bzw. Fr. 19'600."
+  },
+  {
+   "start": 109,
+   "titel": "Beispiel 2 und 3 gemischt genutzte Liegenschaft; nichtlandwirtschaftliche Gebäude",
+   "pfad": [
+    "2. Bestimmung bei Liegenschaften mit geschätztem Mietwert",
+    "Beispiele"
+   ],
+   "ziffer": "Beispiel 2–3",
+   "stichworte": [
+    "gemischt genutzte Liegenschaft",
+    "vermietete Wohnung",
+    "Mietertrag",
+    "landwirtschaftliches Grundstück",
+    "Garage"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "einkommen.liegenschaften.mietertrag"
+   ],
+   "zusammenfassung": "Beispiel 2: Total steuerbarer Eigenmietwert Fr. 10'320 plus Mietertrag Fr. 18'000 = Fr. 28'320; Beispiel 3: Eigenmietwert Fr. 19'392 plus Pachtzins Fr. 6'000 = Fr. 25'392."
+  },
+  {
+   "start": 157,
+   "titel": "Ziff. 3 Eigenmietwert ohne geschätzten Mietwert – Prozentsätze nach Verkehrswert",
+   "pfad": [
+    "3. Berechnung bei Liegenschaften ohne geschätzten Mietwert"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "Verkehrswert",
+    "Bruttomietwert 5%",
+    "4.5%",
+    "Zuschlag 80% Aufwendungen",
+    "Staffel",
+    "Eigenmietwert Berechnung"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Bruttomietwert: bis Fr. 250'000 5.0%, bis 500'000 4.5%, bis 750'000 4.0%, bis 1'199'999 3.5%, ab Fr. 1'200'000 Zuschlagsmethode; Zuschlag 80% der Aufwendungen für Neu-/Anbauten."
+  },
+  {
+   "start": 179,
+   "titel": "Ziff. 3 Eigenmietwert nach Verkehrswertstufen – Minima/Maxima und Zuschlagsmethode",
+   "pfad": [
+    "3. Berechnung bei Liegenschaften ohne geschätzten Mietwert",
+    "Stufen"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "max. Fr. 11'875",
+    "Fr. 21'250",
+    "Fr. 28'125",
+    "Zuschlagsmethode Fr. 42'000",
+    "1 Prozent Mehrwert"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Bis Fr. 250'000: 5%, max. Fr. 11'875; bis 500'000: 4.5%, Fr. 11'875 bis 21'250; bis 750'000: 4%, Fr. 21'250 bis 28'125; ab Fr. 1'200'000 Grundbetrag Fr. 42'000 plus 1% des Mehrwerts."
+  },
+  {
+   "start": 215,
+   "titel": "Abzüge von 10 % (Schätzungsunsicherheit und Selbstbewohnung) bei berechnetem Eigenmietwert",
+   "pfad": [
+    "3. Berechnung bei Liegenschaften ohne geschätzten Mietwert",
+    "Abzüge"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "Abzug 10 Prozent",
+    "Schätzungsunsicherheit",
+    "selbstbewohnt Wohnsitz",
+    "Formular 7"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "sozialabzug.eigenmietwert"
+   ],
+   "zusammenfassung": "Beim berechneten Eigenmietwert wird ein Abzug von 10 Prozent für Schätzungsunsicherheit und bei Selbstbewohnung am Wohnsitz ein weiterer Abzug von 10% gewährt."
+  },
+  {
+   "start": 230,
+   "titel": "Beispiel 4 und 5 Liegenschaft ohne geschätzten Mietwert (Anbau, Neubau)",
+   "pfad": [
+    "3. Berechnung bei Liegenschaften ohne geschätzten Mietwert",
+    "Beispiele"
+   ],
+   "ziffer": "Beispiel 4–5",
+   "stichworte": [
+    "Rechenbeispiel",
+    "Neubau",
+    "Fr. 378'000 x 4.5%",
+    "Anbau",
+    "Eigenmietwert ohne Schätzung"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Beispiel 4: Verkehrswert Fr. 378'000 x 4.5% ergibt Fr. 13'779 steuerbar am Wohnsitz, nach Anbau Fr. 16'695; Beispiel 5 Neubau: Fr. 468'000 x 4.5% ergibt Fr. 17'059."
+  }
+ ]
+}

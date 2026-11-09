@@ -4,23 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 41"
-seiten: "10"
+titel: "Ziff. 4.1 Tarifanwendung – fehlende Angaben, Mehrfachtätigkeit, Sondertarife E, G, Q (Teil 1/2)"
+ziffer: "4.1"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.1 Allgemeines · S. 15
 
-<!-- Seite 10 -->
-     Naturalleistungen (Unterkunft und Verpflegung, Geschäftsauto);
-     Trinkgelder (sofern diese einen wesentlichen Teil des Lohnes ausmachend; vgl. Rand-
-    ziffer 32 der «Wegleitung zum Ausfüllen des Lohnausweises»);
-     Tantiemen, Sitzungsgelder,
-     Geldwerte Vorteile aus Mitarbeiterbeteiligungen und andere geldwerte Vorteile; sowie
-     Abgangsentschädigungen.
-Weitere Gehaltsnebenleistungen sind gemäss den Randziffern 19 bis 26 der «Wegleitung
-zum Ausfüllen des Lohnausweises» zum Bruttolohn hinzuzurechnen. Nicht der Quellen-
-steuer unterliegen Leistungen des Arbeitgebers, die im Rahmen von Randziffer 72 der
-«Wegleitung zum Ausfüllen des Lohnausweises» ausgerichtet werden.
-Es wird darauf hingewiesen, dass auch Ersatzeinkünfte steuerbar sind, die mit einer gegen-
-wärtigen, allenfalls vorübergehend eingeschränkten oder unterbrochenen, unselbstständigen
-Erwerbstätigkeit in Zusammenhang stehen (vgl. Art. 84 Abs. 2 Bst. b DBG). Steuerbar sind
+Fehlt eine Tarifeinstufung zum Zeitpunkt der Lohnzahlung, bestimmt der Schuldner der steu-
+erbaren Leistung den anwendbaren Tarifcode aufgrund der ihm zur Verfügung stehenden
+Angaben des Arbeitnehmers.
+Weist sich der Arbeitnehmer über die persönlichen Verhältnisse nicht zuverlässig aus, wen-
+det der Schuldner der steuerbaren Leistung nachstehende Tarife an:
+     Für Ledige sowie für Arbeitnehmer mit unbestimmtem Zivilstand den Tarifcode A, ohne
+    Kinder und mit Kirchensteuer (A0Y);
+     Für verheiratete Arbeitnehmer den Tarifcode C, ohne Kinder und mit Kirchensteuer
+    (C0Y).
+Geht eine Person mehreren Erwerbstätigkeiten nach, sind die einzelnen Einkünfte mit dem
+ordentlichen Quellensteuertarif zu besteuern (Umrechnung für das satzbestimmende Ein-
+kommen; vgl. Ziffer 6.4 unten für die Berechnung nach dem Monatsmodell bzw. die Zif-
+fer 7.3.2 unten für die Berechnung nach dem Jahresmodell).
+Vorbehalten bleibt die Anwendung des Tarifcodes E (vereinfachtes Abrechnungsverfahren)

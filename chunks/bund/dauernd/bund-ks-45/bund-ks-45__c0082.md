@@ -4,26 +4,33 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 82"
-seiten: "20"
+titel: "Ziff. 6.5 Beispiele 4–5 – Kurzeinsatz und Abrechnung über mehrere Wochen"
+ziffer: "6.5"
+seiten: "26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.5 Stunden- oder Tageslohn · S. 26
 
-<!-- Seite 20 -->
-DBG ist gegeben, wenn die Entschädigungen für operative Tätigkeiten (bspw. Führungsauf-
-gaben) ausgerichtet werden. Nur Vergütungen für Aufsichtsfunktionen sind gemäss Artikel
-93 DBG der Quellenbesteuerung zu unterwerfen. Schuldet eine quellensteuerpflichtige Per-
-son gleichzeitig eine Quellensteuer nach Artikel 91 DBG (Lohn) wie auch nach Artikel 93
-DBG (Verwaltungsratsentschädigung), so hat dies keine Korrektur des satzbestimmenden
-Einkommens beim Lohneinkommen zur Folge.
+    4. Der Arbeitnehmer H. ist bei der S. AG vom 17. bis zum 28. Juni 2021 im Stundenlohn angestellt. Er arbei-
+    tet in dieser Zeit während 72 Stunden, welche ihm mit brutto CHF 35.00 pro Stunde entschädigt werden.
+    Der gesamte Lohn wird ihm am Ende des Arbeitsverhältnisses ausbezahlt.
 
-    Beispiele:
-    1. Das Verwaltungsratsmitglied R. ist in der Schweiz ansässig und bezieht im Monat März neben den Verwal-
-    tungsratsentschädigungen von CHF 5 000.00 noch einen Bruttolohn von CHF 10 000.00.
-    Die Gesamteinkünfte (= CHF 15 000.00) unterliegen somit nach Artikel 83 DBG der Quellensteuer (ordent-
-    liche Tarifcodes).
-    2. Gleicher Sachverhalt wie vorher mit dem Unterschied, dass das Verwaltungsratsmitglied im Ausland an-
-    sässig ist.
-    Demzufolge unterliegen der Bruttolohn nach Artikel 91 DBG (ordentlicher, progressiver Tarifcode) und das
-    Verwaltungsratshonorar separat nach Artikel 93 DBG (linearer Tarif) der Quellensteuer.
+    Arbeitgeber   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
+    lohn   stimmend   len-
+    steuer
+
+    S. AG   35.00   2 520   72   180   6 300   13.0 %   327.60
+
+
+    5. Der Arbeitnehmer M. arbeitet bei der L. AG. Er ist im Stundenlohn angestellt und verdient CHF 35.00 pro
+    Stunde. Im April 2021 rechnet der Arbeitnehmer für 5 Wochen seine Arbeitsstunden ab und im Monat Mai
+    2021 für 2 Wochen. Auf der im April 2021 eingereichten Abrechnung werden 195 Stunden ausgewiesen
+    und auf der Abrechnung für den Monat Mai 2021 deren 50 Stunden.
+
+    Abrechnung   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
+    lohn   stimmend   len-
+    steuer
+
+    April 2021   35.00   6 825   195   180   6 300   13.0 %   887.25
+
+    Mai 2021   35.00   1 750   50   180   6 300   13.0 %   227.50

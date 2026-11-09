@@ -4,21 +4,28 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 22"
-seiten: "6"
+titel: "Ziff. 5.1 Beurteilungszeitpunkt – Grundsatz"
+ziffer: "5.1"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 36 · 5 Beurteilungszeitpunkt › 5.1 Grundsatz · S. 7
 
-<!-- Seite 6 -->
--   Einsatz von Derivaten
+5.   Beurteilungszeitpunkt
 
-    Ein Handel mit Derivaten kann der Absicherung namentlich des Aktienvermögens
-    dienen. Übersteigt der Einsatz von Derivaten aber die Absicherung von Risiken und
-    wird im Verhältnis zum Gesamtvermögen ein grosses Volumen umgesetzt, so ist der
-    Handel mit Derivaten als spekulativ zu qualifizieren, was auf gewerbsmässiges
-    Vorgehen hindeutet.
+5.1   Grundsatz
 
-Indizien von untergeordneter Bedeutung:
+Die steuerpflichtige Person übt eine über die private Verwaltung hinausgehende selbstän-
+dige Erwerbstätigkeit mit Wertschriften in derjenigen Steuerperiode aus, in welcher die von
+der Rechtsprechung aufgeführten Indizien erfüllt sind. Somit liegt Geschäftsvermögen vor.
 
--   die systematische oder planmässige Art und Weise des Vorgehens
+Ordentlicher Anknüpfungspunkt für die Beurteilung der Frage, ob die steuerpflichtige Person
+eine auf Erwerb gerichtete Tätigkeit ausübt, ist das Vorliegen einer oder mehrerer Veräusse-
+rungen. Erst in diesem Zeitpunkt sind alle Umstände bekannt, die für die Beurteilung
+massgeblich sind.
+
+Mit Blick auf die Unsicherheit und Volatilität der Wertschriftenmärkte ist es in der Praxis
+schwierig, im Voraus die Haltedauer von Wertschriften, den Zeitpunkt und die Anzahl der
+Transaktionen über eine längere Zeitdauer verbindlich festzulegen. Die Steuerbehörden sind
+daher nur in eindeutigen Fällen in der Lage, zur Frage der Gewerbsmässigkeit des
+Wertschriftenhandels verbindliche Rechtsauskünfte abzugeben.

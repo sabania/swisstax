@@ -1,272 +1,424 @@
 [
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0001",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "BSV Masszahlen 2025/2026 – Kopf, BVG-Referenzalter, AHV-Rente, Lohndaten",
+"pfad": [
+"Wichtige Masszahlen berufliche Vorsorge",
+"1–2 AHV-Rente und Lohndaten"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–2",
+"stichworte": [
+"BVG-Referenzalter",
+"AHV-Maximalrente",
+"Koordinationsabzug",
+"Eintrittsschwelle",
+"koordinierter Lohn",
+"Pensionskasse"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf",
+"einkommen.sozialversicherung.ahv_iv"
+],
+"zusammenfassung": "AHV-Altersrente min. 15'120, max. 30'240; Eintrittsschwelle 22'680, Koordinationsabzug 26'460, max. versicherter Lohn 90'720, koordinierter Lohn 3'780 bis 64'260 (2025 und 2026).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-bsv-masszahlen-2025-2026__c0002"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0002",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 2",
-"pfad": [],
+"titel": "BSV Masszahlen – BVG-Altersguthaben, Mindestzins, Umwandlungssatz, Renten, Barauszahlung",
+"pfad": [
+"Wichtige Masszahlen berufliche Vorsorge",
+"3–5 Altersguthaben, Renten, Barauszahlung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3–5",
+"stichworte": [
+"BVG-Mindestzinssatz",
+"Umwandlungssatz 6,8%",
+"Altersguthaben",
+"Witwenrente",
+"Barauszahlung",
+"Pensionskasse"
+],
+"positionen": [
+"einkommen.vorsorge.renten"
+],
+"zusammenfassung": "BVG-Mindestzinssatz 1,25%, Mindestumwandlungssatz 6,8%, Grenzbetrag des Altersguthabens für Barauszahlung 22'200.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0001",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0003"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0003",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 3",
-"pfad": [],
+"titel": "BSV Masszahlen – Teuerungsanpassung, Sicherheitsfonds, arbeitslose Personen, Säule 3a Grenzbeträge",
+"pfad": [
+"Wichtige Masszahlen berufliche Vorsorge",
+"6–9 Teuerung, Sicherheitsfonds, Säule 3a"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6–9",
+"stichworte": [
+"Säule 3a Grenzbetrag 7'258",
+"Säule 3a 36'288",
+"kleine Säule 3a",
+"grosse Säule 3a",
+"Sicherheitsfonds",
+"Taggeld Arbeitslose"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Steuerfreier Grenzbetrag Säule 3a: 7'258 bei Unterstellung unter die 2. Säule, 36'288 ohne Unterstellung (2025 und 2026); max. Grenzlohn Sicherheitsfonds 136'080.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0002",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0004"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0004",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 4",
-"pfad": [],
+"titel": "BSV Masszahlen – Erläuterungen und Rechtsgrundlagen (Ziff. 1–5) (Teil 1/4)",
+"pfad": [
+"Erläuterungen zu den Masszahlen",
+"Ziff. 1–5"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–5",
+"stichworte": [
+"Erläuterungen BVG",
+"Altersguthaben",
+"Frauen Jahrgang 1961 Referenzalter",
+"Kapitalabfindung",
+"AHV 21",
+"Eintrittsschwelle 3/4"
+],
+"positionen": [
+"einkommen.vorsorge.renten"
+],
+"zusammenfassung": "Eintrittsschwelle entspricht 3/4, Koordinationsabzug 7/8 der max. AHV-Rente; Versicherte können ein Viertel des Altersguthabens als Kapital verlangen; Referenzalter Frauen steigt jährlich um 3 Monate.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0003",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0005"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0005",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 5",
-"pfad": [],
+"titel": "BSV Masszahlen – Erläuterungen und Rechtsgrundlagen (Ziff. 1–5) (Teil 2/4)",
+"pfad": [
+"Erläuterungen zu den Masszahlen",
+"Ziff. 1–5"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–5",
+"stichworte": [
+"Erläuterungen BVG",
+"Altersguthaben",
+"Frauen Jahrgang 1961 Referenzalter",
+"Kapitalabfindung",
+"AHV 21",
+"Eintrittsschwelle 3/4"
+],
+"positionen": [
+"einkommen.vorsorge.renten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0004",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0006"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0006",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 6",
-"pfad": [],
+"titel": "BSV Masszahlen – Erläuterungen und Rechtsgrundlagen (Ziff. 1–5) (Teil 3/4)",
+"pfad": [
+"Erläuterungen zu den Masszahlen",
+"Ziff. 1–5"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–5",
+"stichworte": [
+"Erläuterungen BVG",
+"Altersguthaben",
+"Frauen Jahrgang 1961 Referenzalter",
+"Kapitalabfindung",
+"AHV 21",
+"Eintrittsschwelle 3/4"
+],
+"positionen": [
+"einkommen.vorsorge.renten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0005",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0007"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0007",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 7",
-"pfad": [],
+"titel": "BSV Masszahlen – Erläuterungen und Rechtsgrundlagen (Ziff. 1–5) (Teil 4/4)",
+"pfad": [
+"Erläuterungen zu den Masszahlen",
+"Ziff. 1–5"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–5",
+"stichworte": [
+"Erläuterungen BVG",
+"Altersguthaben",
+"Frauen Jahrgang 1961 Referenzalter",
+"Kapitalabfindung",
+"AHV 21",
+"Eintrittsschwelle 3/4"
+],
+"positionen": [
+"einkommen.vorsorge.renten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0006",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0008"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0008",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 8",
-"pfad": [],
+"titel": "BSV Masszahlen – Erläuterungen Ziff. 6–9 (Teuerung, Sicherheitsfonds, Säule 3a) (Teil 1/3)",
+"pfad": [
+"Erläuterungen zu den Masszahlen",
+"Ziff. 6–9"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6–9",
+"stichworte": [
+"Risikorenten Teuerung",
+"Sicherheitsfonds",
+"Tageslohn Arbeitslose",
+"Art. 7 BVV3",
+"gebundene Vorsorge"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Maximalbeträge der Säule 3a gemäss Art. 7 Abs. 1 BVV3; Tagesgrenzbeträge Arbeitslose = Jahresbeträge geteilt durch 260,4.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0007",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0009"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0009",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 9",
-"pfad": [],
+"titel": "BSV Masszahlen – Erläuterungen Ziff. 6–9 (Teuerung, Sicherheitsfonds, Säule 3a) (Teil 2/3)",
+"pfad": [
+"Erläuterungen zu den Masszahlen",
+"Ziff. 6–9"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6–9",
+"stichworte": [
+"Risikorenten Teuerung",
+"Sicherheitsfonds",
+"Tageslohn Arbeitslose",
+"Art. 7 BVV3",
+"gebundene Vorsorge"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0008",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0010"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0010",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 10",
-"pfad": [],
+"titel": "BSV Masszahlen – Erläuterungen Ziff. 6–9 (Teuerung, Sicherheitsfonds, Säule 3a) (Teil 3/3)",
+"pfad": [
+"Erläuterungen zu den Masszahlen",
+"Ziff. 6–9"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6–9",
+"stichworte": [
+"Risikorenten Teuerung",
+"Sicherheitsfonds",
+"Tageslohn Arbeitslose",
+"Art. 7 BVV3",
+"gebundene Vorsorge"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0009",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0011"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0011",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 11",
-"pfad": [],
+"titel": "BSV Zeitreihen – Lohndaten gemäss BVG 1985–2026 und BVG-Mindestzinssatz (Teil 1/3)",
+"pfad": [
+"Zeitreihen",
+"Lohndaten und Mindestzinssatz"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2–3",
+"stichworte": [
+"Zeitreihe Koordinationsabzug",
+"Mindestzinssatz Verlauf",
+"Eintrittsschwelle historisch",
+"koordinierter Lohn"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Zeitreihe Lohndaten 2025-2026: 22'680 / 26'460 / 90'720 / 3'780 / 64'260; BVG-Mindestzinssatz 2024-2026: 1,25 Prozent.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0010",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0012"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0012",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 12",
-"pfad": [],
+"titel": "BSV Zeitreihen – Lohndaten gemäss BVG 1985–2026 und BVG-Mindestzinssatz (Teil 2/3)",
+"pfad": [
+"Zeitreihen",
+"Lohndaten und Mindestzinssatz"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2–3",
+"stichworte": [
+"Zeitreihe Koordinationsabzug",
+"Mindestzinssatz Verlauf",
+"Eintrittsschwelle historisch",
+"koordinierter Lohn"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0011",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0013"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0013",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 13",
-"pfad": [],
+"titel": "BSV Zeitreihen – Lohndaten gemäss BVG 1985–2026 und BVG-Mindestzinssatz (Teil 3/3)",
+"pfad": [
+"Zeitreihen",
+"Lohndaten und Mindestzinssatz"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2–3",
+"stichworte": [
+"Zeitreihe Koordinationsabzug",
+"Mindestzinssatz Verlauf",
+"Eintrittsschwelle historisch",
+"koordinierter Lohn"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0012",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0014"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0014",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 14",
-"pfad": [],
+"titel": "BSV Zeitreihe – Teuerungsanpassung der BVG-Risikorenten 1985–2026 (Teil 1/2)",
+"pfad": [
+"Zeitreihen",
+"Teuerungsanpassung Risikorenten"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6",
+"stichworte": [
+"Teuerungsanpassung Risikorenten",
+"BVG Rente Anpassung",
+"Preisindex"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Teuerungsanpassung BVG-Risikorenten 2025: 5,8 % nach 3 Jahren, 2,5 % nach 2 Jahren, 0,8 % nach 1 Jahr; 2026: 2,7 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0013",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0015"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0015",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 15",
-"pfad": [],
+"titel": "BSV Zeitreihe – Teuerungsanpassung der BVG-Risikorenten 1985–2026 (Teil 2/2)",
+"pfad": [
+"Zeitreihen",
+"Teuerungsanpassung Risikorenten"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6",
+"stichworte": [
+"Teuerungsanpassung Risikorenten",
+"BVG Rente Anpassung",
+"Preisindex"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-bsv-masszahlen-2025-2026__c0014",
 "nachher": "bund-bsv-masszahlen-2025-2026__c0016"
 },
 {
 "id": "bund-bsv-masszahlen-2025-2026__c0016",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 16",
-"pfad": [],
-"seiten": [
-4
+"titel": "BSV Anpassung der BVG-Risikorenten am 1. Januar 2023 (Sätze nach Rentenbeginn)",
+"pfad": [
+"Zeitreihen",
+"Anpassung 1.1.2023"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-bsv-masszahlen-2025-2026__c0015",
-"nachher": "bund-bsv-masszahlen-2025-2026__c0017"
-},
-{
-"id": "bund-bsv-masszahlen-2025-2026__c0017",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 17",
-"pfad": [],
 "seiten": [
 5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "6",
+"stichworte": [
+"Anpassungssatz 2023",
+"Risikorenten",
+"Rentenbeginn"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-bsv-masszahlen-2025-2026__c0016",
+"zusammenfassung": "Anpassungssätze per 1.1.2023 je nach Jahr der ersten Rentenauszahlung (z.B. 1985-2005: 2.8, 2017: 4.2).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-bsv-masszahlen-2025-2026__c0015",
 "nachher": null
 }
 ]

@@ -20,7 +20,7 @@ generiert: tools/build_index.py
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/ar/2026/ar-steuerfuesse-2026/ar-steuerfuesse-2026__c0001.md) | Steuerfüsse AR 2026 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/ar/2026/ar-steuerfuesse-2026/ar-steuerfuesse-2026__c0002.md) | Steuerfüsse AR 2026 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/ar/2026/ar-steuerfuesse-2026/ar-steuerfuesse-2026__c0003.md) | Steuerfüsse AR 2026 – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/ar/2026/ar-steuerfuesse-2026/ar-steuerfuesse-2026__c0004.md) | Steuerfüsse AR 2026 – Abschnitt 4 | S. 1 |  |
+| [c0001](../../../chunks/ar/2026/ar-steuerfuesse-2026/ar-steuerfuesse-2026__c0001.md) | Steuerfüsse 2026 natürliche Personen AR – Kantonaler Steuerfuss 3.30 | S. 1 | Kantonaler Steuerfuss AR 2026 natürliche Personen: 3.30 Einheiten. |
+| [c0002](../../../chunks/ar/2026/ar-steuerfuesse-2026/ar-steuerfuesse-2026__c0002.md) | Steuerfüsse pro Gemeinde und Kirchgemeinde 2026 (Tabelle AR) (Teil 1/2) | S. 1 | Tabelle der Steuerfüsse pro politische Gemeinde und Kirchgemeinde sowie gesamt (z.B. Teufen 2.60 politisch, gesamt 6.35; Herisau 4.10, gesamt 8.00). |
+| [c0003](../../../chunks/ar/2026/ar-steuerfuesse-2026/ar-steuerfuesse-2026__c0003.md) | Steuerfüsse pro Gemeinde und Kirchgemeinde 2026 (Tabelle AR) (Teil 2/2) | S. 1 |  |
+| [c0004](../../../chunks/ar/2026/ar-steuerfuesse-2026/ar-steuerfuesse-2026__c0004.md) | Hinweis Separaterhebungen und Entwicklung der Steuerfüsse 2025–2026 | S. 1 | Ansätze enthalten Separaterhebungen für besondere Zwecke; Entwicklung 2025–2026: Staatssteuer unverändert, bei politischen Gemeinden 15 unverändert, 1 Erhöhung, 2 Senkungen. |

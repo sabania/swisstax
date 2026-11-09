@@ -4,25 +4,14 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.2.2 Indirekte Zahlungen, Kapitalleistung und Unterhalt volljähriger Kinder"
-ziffer: "14.2.2"
-seiten: "32"
+titel: "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt – Tarife"
+ziffer: "14.3"
+seiten: "33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.2.2 Steuerrechtliche Aspekte · S. 32
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.3 · S. 33
 
-Unterhaltsleistungen an den Ehegatten für das minderjährige Kind oder direkt an das volljäh-
-rige Kind erfolgen in der Regel ebenfalls als wiederkehrende direkte Geldleistungen. Sie
-können jedoch auch in der Form von indirekten Zahlungen erbracht werden, wie etwa die
-Übernahme von Schulkosten oder von Krankenkassenprämien. Auch Naturalleistungen sind
-möglich. Werden die Unterhaltsleistungen in Form einer Kapitalleistung ausgerichtet, gilt
-auch hier, dass diese nicht vom steuerbaren Einkommen des Schuldners abgezogen werden
-können. Der Empfänger dieser Leistung muss sie aber auch nicht als Einkommen deklarie-
-ren.
-
-Unterhaltsbeiträge für das volljährige Kind in Ausbildung sind weder vom Kind selbst, noch
-vom Elternteil, bei dem das Kind lebt, zu versteuern. Das Kind erhält steuerfreie "Leistungen
-in Erfüllung familienrechtlicher Verpflichtungen“ (Art. 24 Bst. e DBG). Der leistende Elternteil
-kann die Unterhaltsbeiträge auch nicht mehr von seinem Einkommen absetzen. Diese Leis-
-tungen werden zu ganz gewöhnlichen nicht abziehbaren "Aufwendungen für den Unterhalt
-des Steuerpflichtigen und seiner Familie“ (Art. 34 Bst. a DBG).
+14.3.3   Tarife
+   Der Elternteil mit der elterliche Sorge, der mit dem Kind zusammenlebt und dessen Un-
+    terhalt zur Hauptsache bestreitet, erhält den Elterntarif. Der Elternteil, der die Unterhalts-
+    zahlungen leistet, wird zum Grundtarif besteuert.

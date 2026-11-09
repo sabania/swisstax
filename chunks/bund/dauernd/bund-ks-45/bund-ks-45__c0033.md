@@ -4,22 +4,18 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 33"
-seiten: "8"
+titel: "Ziff. 3.2.3 Hypo-Tax bei entsandten Arbeitnehmern"
+ziffer: "3.2.3"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.2 Steuerbare Leistungen · S. 11
 
-<!-- Seite 8 -->
-Als in der Schweiz ansässig gelten nach schweizerischem Recht Personen, die aufgrund
-persönlicher Zugehörigkeit in der Schweiz eine unbeschränkte Steuerpflicht begründen. Ge-
-mäss Artikel 3 DBG sind natürliche Personen aufgrund persönlicher Zugehörigkeit und damit
-nach Artikel 6 Absatz 1 DBG grundsätzlich unbeschränkt steuerpflichtig, wenn sie ihren steu-
-errechtlichen Wohnsitz in der Schweiz haben oder sie in der Schweiz einen qualifizierten
-Aufenthalt begründen.
-Im internationalen Verhältnis wird die Ansässigkeit in Artikel 4 Absatz 1 OECD-MA definiert.
-Demnach gilt eine Person als in einem Staat ansässig, wenn sie nach dem in diesem Staat
-geltenden Recht dort unbeschränkt steuerpflichtig ist.
-Ist eine natürliche Person sowohl nach unilateralem schweizerischem Recht als auch nach
-internem Recht eines anderen Staates in beiden Vertragsstaaten ansässig (sog. Doppelan-
-sässigkeit), bestimmen die Kriterien von Artikel 4 Absatz 2 OECD-MA, welchem Vertrags-
+Vereinbart der Arbeitgeber mit einem vorübergehend in die Schweiz entsandten Arbeitneh-
+mer, dass dieser durch die unterschiedliche Steuerbelastung zwischen dem ursprünglichen
+Ansässigkeitsstaat und der Schweiz nicht benachteiligt bzw. begünstigt werden soll, so kann
+der Arbeitgeber vorab die im ursprünglichen Ansässigkeitsstaat hypothetisch auf dem Lohn-
+einkommen geschuldete Steuer (sog. Hypo-Tax) vom Bruttolohn in Abzug bringen. Die auf
+diesem reduzierten Bruttolohn geschuldete schweizerische Quellensteuer wird vom Arbeitge-
+ber übernommen. Demzufolge ist die übernommene Quellensteuer nach der Methode der
+Iteration zum der Quellensteuer unterliegenden Bruttolohn hinzuzurechnen.

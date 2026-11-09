@@ -1,336 +1,497 @@
 [
 {
 "id": "ar-mb-03__c0001",
-"titel": "MB AR 03 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Merkblatt 03 AR – Liegenschaftsunterhalt, gültig ab Steuerperiode 2024",
+"pfad": [
+"Merkblatt"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Liegenschaftsunterhalt",
+"Merkblatt AR",
+"Steuerverwaltung Appenzell Ausserrhoden",
+"ab 2024"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Merkblatt der Kantonalen Steuerverwaltung AR vom 30. September 2025, gültig ab Steuerperiode 2024.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "ar-mb-03__c0002"
 },
 {
 "id": "ar-mb-03__c0002",
-"titel": "MB AR 03 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Rechtliche Grundlagen – Art. 34 StG AR Privatvermögen (Teil 1/2)",
+"pfad": [
+"1. Rechtliche Grundlagen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Art. 34 StG",
+"Unterhaltskosten",
+"Energiesparen",
+"Rückbaukosten",
+"Denkmalpflege",
+"Pauschalabzug"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Bei Privatliegenschaften abziehbar sind Unterhalts-, Instandstellungs-, Versicherungs- und Verwaltungskosten; Energie-/Umweltinvestitionen und Rückbaukosten sind in den zwei Folgeperioden übertragbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0001",
 "nachher": "ar-mb-03__c0003"
 },
 {
 "id": "ar-mb-03__c0003",
-"titel": "MB AR 03 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1 Rechtliche Grundlagen – Art. 34 StG AR Privatvermögen (Teil 2/2)",
+"pfad": [
+"1. Rechtliche Grundlagen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1",
+"stichworte": [
+"Art. 34 StG",
+"Unterhaltskosten",
+"Energiesparen",
+"Rückbaukosten",
+"Denkmalpflege",
+"Pauschalabzug"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"abzug.liegenschaft.energie_umwelt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0002",
 "nachher": "ar-mb-03__c0004"
 },
 {
 "id": "ar-mb-03__c0004",
-"titel": "MB AR 03 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 1 Art. 25 StV AR – Pauschalabzug 10 % / 20 %, Wahlrecht",
+"pfad": [
+"1. Rechtliche Grundlagen",
+"Art. 25 StV"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Pauschalabzug",
+"Unterhaltskostenpauschale",
+"Bruttomietertrag 100'000",
+"Gebäudealter 10 Jahre",
+"Wahlrecht effektive Kosten"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Pauschalabzug bei Bruttomietertrag bis Fr. 100'000.--: 10 Prozent bei Gebäuden bis 10 Jahre, 20 Prozent bei älteren Gebäuden; Wahlrecht pro Gebäude und Veranlagungsperiode.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0003",
 "nachher": "ar-mb-03__c0005"
 },
 {
 "id": "ar-mb-03__c0005",
-"titel": "MB AR 03 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2/2.1 Allgemeines zum Liegenschaftsunterhalt – Lebenshaltungskosten (Teil 1/2)",
+"pfad": [
+"2. Allgemeines",
+"2.1 Lebenshaltungskosten"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1",
+"stichworte": [
+"Lebenshaltungskosten",
+"nicht abzugsfähig",
+"Heizöl Strom Wasser",
+"Nebenkosten",
+"Eigenmietwert Zusammenhang"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Abziehbar sind werterhaltende Aufwendungen; Betriebs-/Energiekosten (Heizöl, Strom, Wasser), Gebühren und nicht ausgeführte Bauprojekte sind nicht abzugsfähige Lebenshaltungskosten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0004",
 "nachher": "ar-mb-03__c0006"
 },
 {
 "id": "ar-mb-03__c0006",
-"titel": "MB AR 03 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 2/2.1 Allgemeines zum Liegenschaftsunterhalt – Lebenshaltungskosten (Teil 2/2)",
+"pfad": [
+"2. Allgemeines",
+"2.1 Lebenshaltungskosten"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.1",
+"stichworte": [
+"Lebenshaltungskosten",
+"nicht abzugsfähig",
+"Heizöl Strom Wasser",
+"Nebenkosten",
+"Eigenmietwert Zusammenhang"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0005",
 "nachher": "ar-mb-03__c0007"
 },
 {
 "id": "ar-mb-03__c0007",
-"titel": "MB AR 03 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 2.2 Werterhaltende Aufwendungen – Instandhaltung, Instandstellung",
+"pfad": [
+"2. Allgemeines",
+"2.2 Werterhaltende Aufwendungen"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"werterhaltend",
+"Instandhaltung",
+"Instandstellung",
+"Renovation",
+"Verwaltungskosten",
+"Versicherungsleistungen"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Abziehbar sind Verwaltungskosten Dritter, laufende Instandhaltung, Beseitigung von Abnützung und Instandstellungskosten; Leistungen Dritter sind abzuziehen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0006",
 "nachher": "ar-mb-03__c0008"
 },
 {
 "id": "ar-mb-03__c0008",
-"titel": "MB AR 03 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 2.3 Investitionen und wertvermehrende Aufwendungen",
+"pfad": [
+"2. Allgemeines",
+"2.3 Investitionen und wertvermehrende Aufwendungen"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3",
+"stichworte": [
+"wertvermehrend",
+"Investitionen",
+"Anlagekosten",
+"Grundstückgewinnsteuer",
+"Umbau Ausbau",
+"Richtwerte Tabelle"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Umbauten und Verbesserungen sind nicht abzugsfähig und gelten bei der Grundstückgewinnsteuer als Anlagekosten; Mischaufwendungen werden durch Schätzung aufgeteilt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0007",
 "nachher": "ar-mb-03__c0009"
 },
 {
 "id": "ar-mb-03__c0009",
-"titel": "MB AR 03 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 2.4 Energiesparende und umweltgerechte Massnahmen (Teil 1/2)",
+"pfad": [
+"2. Allgemeines",
+"2.4 Energiesparen und Umweltschutz"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.4",
+"stichworte": [
+"Energiesparen",
+"Photovoltaik",
+"Wärmepumpe",
+"Umweltschutz",
+"Liegenschaftskostenverordnung",
+"Neubau zwei Jahre"
+],
+"positionen": [
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Energiespar- und Umweltschutzinvestitionen in bestehenden Gebäuden sind den Unterhaltskosten gleichgestellt; in Neubauten gelten sie als Anlagekosten (zwei Jahre ab Steuerperiode 2023, bisher fünf).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0008",
 "nachher": "ar-mb-03__c0010"
 },
 {
 "id": "ar-mb-03__c0010",
-"titel": "MB AR 03 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 2.4 Energiesparende und umweltgerechte Massnahmen (Teil 2/2)",
+"pfad": [
+"2. Allgemeines",
+"2.4 Energiesparen und Umweltschutz"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.4",
+"stichworte": [
+"Energiesparen",
+"Photovoltaik",
+"Wärmepumpe",
+"Umweltschutz",
+"Liegenschaftskostenverordnung",
+"Neubau zwei Jahre"
+],
+"positionen": [
+"abzug.liegenschaft.energie_umwelt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0009",
 "nachher": "ar-mb-03__c0011"
 },
 {
 "id": "ar-mb-03__c0011",
-"titel": "MB AR 03 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 2.5 Rückbaukosten im Hinblick auf einen Ersatzneubau (Teil 1/2)",
+"pfad": [
+"2. Allgemeines",
+"2.5 Rückbaukosten"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.5",
+"stichworte": [
+"Rückbaukosten",
+"Ersatzneubau",
+"Abbruch",
+"Demontage",
+"Entsorgung",
+"BKP SN 506 500"
+],
+"positionen": [
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Rückbaukosten sind abziehbar, wenn der Ersatzneubau kumulativ durch dieselbe Person, auf demselben Grundstück, gleichartig genutzt und innert angemessener Frist (i.d.R. zwei Jahre) erfolgt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0010",
 "nachher": "ar-mb-03__c0012"
 },
 {
 "id": "ar-mb-03__c0012",
-"titel": "MB AR 03 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 2.5 Rückbaukosten im Hinblick auf einen Ersatzneubau (Teil 2/2)",
+"pfad": [
+"2. Allgemeines",
+"2.5 Rückbaukosten"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.5",
+"stichworte": [
+"Rückbaukosten",
+"Ersatzneubau",
+"Abbruch",
+"Demontage",
+"Entsorgung",
+"BKP SN 506 500"
+],
+"positionen": [
+"abzug.liegenschaft.energie_umwelt"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0011",
 "nachher": "ar-mb-03__c0013"
 },
 {
 "id": "ar-mb-03__c0013",
-"titel": "MB AR 03 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 2.6 Übertragbare Kosten (Energie, Umwelt, Rückbau)",
+"pfad": [
+"2. Allgemeines",
+"2.6 Übertragbare Kosten"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.6",
+"stichworte": [
+"Übertrag",
+"negatives Reineinkommen",
+"zwei Folgeperioden",
+"Pauschalabzug ausgeschlossen"
+],
+"positionen": [
+"abzug.liegenschaft.energie_umwelt"
+],
+"zusammenfassung": "Nicht berücksichtigte Energie-/Umwelt- und Rückbaukosten sind auf Antrag in den zwei nachfolgenden Steuerperioden abziehbar; dann ist kein Pauschalabzug möglich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0012",
 "nachher": "ar-mb-03__c0014"
 },
 {
 "id": "ar-mb-03__c0014",
-"titel": "MB AR 03 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 2.7 Behebung von Baumängeln und Folgeschäden",
+"pfad": [
+"2. Allgemeines",
+"2.7 Baumängel"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.7",
+"stichworte": [
+"Baumängel",
+"Konstruktionsfehler",
+"verborgene Mängel",
+"Folgeschaden"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Behebung von Konstruktionsfehlern und verborgenen Mängeln ist Investition; Kosten für Folgeschäden sind abzugsfähig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0013",
 "nachher": "ar-mb-03__c0015"
 },
 {
 "id": "ar-mb-03__c0015",
-"titel": "MB AR 03 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 3.1–3.2 Abzugsberechtigte Person und Gartenunterhalt",
+"pfad": [
+"3. Abzug der Kosten"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1–3.2",
+"stichworte": [
+"Eigentümer",
+"Nutzniesser",
+"Gartenunterhalt",
+"Mieter kein Abzug",
+"Grundbucheintrag"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Abzug hat, wer als Eigentümer oder Nutzniesser (Grundbucheintrag) steuerpflichtig ist; Gartenunterhalt ist bei Einfamilienhaus-Eigentümern grundsätzlich abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0014",
 "nachher": "ar-mb-03__c0016"
 },
 {
 "id": "ar-mb-03__c0016",
-"titel": "MB AR 03 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 3.3 Ab wann Liegenschaftskosten abzugsfähig sind",
+"pfad": [
+"3. Abzug der Kosten",
+"3.3 Zeitpunkt"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.3",
+"stichworte": [
+"Nutzen und Gefahr",
+"Hauskauf Renovation",
+"Akonto-Rechnung",
+"Vorauszahlung",
+"Handänderung"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Kosten sind frühestens ab Übergang von Nutzen und Gefahr abziehbar; Akonto-Rechnungen nach Baufortschritt zählen, reine Vorauszahlungen nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0015",
 "nachher": "ar-mb-03__c0017"
 },
 {
 "id": "ar-mb-03__c0017",
-"titel": "MB AR 03 – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 3.4 Pauschalabzug – Voraussetzungen und Wahlrecht",
+"pfad": [
+"3. Abzug der Kosten",
+"3.4 Pauschalabzug"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.4",
+"stichworte": [
+"Pauschalabzug",
+"Bruttoertrag Fr. 100'000",
+"Geschäftsliegenschaft",
+"Wahlrecht",
+"effektive Kosten"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Pauschalabzug nur, wenn der Bruttoertrag aller Privatliegenschaften Fr. 100'000.-- nicht übersteigt; bei Eigenmietwert ist der Nettobetrag massgebend; Geschäftsliegenschaften nur effektive Kosten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0016",
 "nachher": "ar-mb-03__c0018"
 },
 {
 "id": "ar-mb-03__c0018",
-"titel": "MB AR 03 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 4–5 Direkte Bundessteuer und Hinweise zur Richtwerttabelle",
+"pfad": [
+"4. Direkte Bundessteuer",
+"5. Tabelle"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4–5",
+"stichworte": [
+"direkte Bundessteuer",
+"Richtwerte",
+"unverbindlich",
+"Bauteile Ersatz"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Für die direkte Bundessteuer gelten die gleichen Grundsätze; die Richtwerte im Anhang sind unverbindlich und gelten nur für den Ersatz alter Bauteile durch solche mittlerer Qualität.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-03__c0017",
-"nachher": "ar-mb-03__c0019"
-},
-{
-"id": "ar-mb-03__c0019",
-"titel": "MB AR 03 – Abschnitt 19",
-"pfad": [],
-"seiten": [
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-mb-03__c0018",
-"nachher": "ar-mb-03__c0020"
-},
-{
-"id": "ar-mb-03__c0020",
-"titel": "MB AR 03 – Abschnitt 20",
-"pfad": [],
-"seiten": [
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-mb-03__c0019",
-"nachher": "ar-mb-03__c0021"
-},
-{
-"id": "ar-mb-03__c0021",
-"titel": "MB AR 03 – Abschnitt 21",
-"pfad": [],
-"seiten": [
-6
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-mb-03__c0020",
 "nachher": null
 }
 ]

@@ -4,20 +4,17 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 26"
-seiten: "6"
+titel: "Ziff. 5.2 Modifizierte Aufwandbesteuerung (Art. 14 Abs. 5 DBG) (Teil 2/2)"
+ziffer: "5.2"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 44 · 5 Verfahren › 5.2 Modifizierte Aufwandbesteuerung · S. 7–8
 
-scher oder wissenschaftlicher Ausrüstungen oder für die Verbreitung gewerblicher, kaufmänni-
-scher oder wissenschaftlicher Erkenntnisse gezahlt werden.
-Nach Artikel 1 VO Aufwandbesteuerung in der Fassung vom 20. Februar 2013 sind bei der
-Steuerberechnung nach Artikel 14 Absatz 3 Buchstabe d DBG nur folgende Kosten abziehbar:
-- die Unterhaltskosten gemäss der Verordnung vom 24. August 1992 über den Abzug der
-  Kosten von Liegenschaften bei der direkten Bundessteuer (Liegenschaftskostenverordnung;
-  SR 642.116);
-- die Kosten für die gewöhnliche Verwaltung von beweglichem Vermögen, soweit die daraus
-  fliessenden Einkünfte besteuert werden.
-Alle anderen Aufwendungen, insbesondere für Schuldzinsen, Renten und dauernde Lasten,
-können nicht in Abzug gebracht werden.
+sind. Die Steuern auf allen aus diesen Vertragsstaaten stammenden Einkünften sind zusam-
+men mit jenen auf den Einkünften gemäss Artikel 14 Absatz 3 Buchstabe d DBG zum Satz für
+das gesamte Einkommen zu erheben. Das heisst, dass für die Satzbestimmung z. B. auch
+Schuldzinsen in Abzug gebracht werden können, obschon sie die Bemessungsgrundlage nicht
+vermindern. Verzichtet die steuerpflichtige Person auf die ordnungsgemässe Angabe der Ge-
+samtfaktoren, so wird die modifizierte Besteuerung nach dem Aufwand zum Maximalsatz vorge-
+nommen.

@@ -4,38 +4,32 @@ quelle: bund-ssk-ks22-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 22 (MB SZ) – Abschnitt 1"
-seiten: "1"
+titel: "Rz 1–4 Inhalt, Rechtsgrundlagen, Geltungsbereich"
+ziffer: "1–4"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · S. 1
+> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · A–C · S. 2
 
-# Merkblatt SZ zu SSK-KS 22: Interkantonale Steuerausscheidung mit Liegenschaften (Repartitionswerte)
+    A. Inhalt
 
-> Bund · Merkblatt · Quelle: <https://www.sz.ch/public/upload/assets/17656/Merkblatt_Interkantonale_Steuerausscheidung_mit_Liegenschaften_Repartitionswerte.pdf?fp=11>
-
-<!-- Seite 1 -->
-Finanzdepartement   ME-NP-1b
-    Bahnhofstrasse 15
-Steuerverwaltung   Postfach 1232
-    6431 Schwyz
-    Telefon 041 819 23 45
+1   Das vorliegende Merkblatt hat die Bewertung von Grundstücken bei interkantonalen Steu-
+    erausscheidungen mittels Repartitionswerten zum Gegenstand.
 
 
-Merkblatt
+    B. Rechtliche Grundlagen
 
-Interkantonale Steuerausscheidung mit Liegenschaften (Repartitionswerte)
+2   Gemäss § 5 Abs. 1 Bst. b des Steuergesetzes vom 9. Februar 2000 (StG, SRSZ 172.200)
+    sind natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt im Kanton auf
+    Grund wirtschaftlicher Zugehörigkeit steuerpflichtig, wenn sie Eigentum, dingliche Rechte
+    oder diesen wirtschaftlich gleichkommende persönliche Nutzungsrechte an Grundstücken
+    im Kanton haben.
+
+3   Gemäss § 7 Abs. 1 StG erfolgt die Steuerausscheidung für Grundstücke im Verhältnis zu
+    anderen Kantonen nach den Grundsätzen des Bundesrechts über das Verbot der interkan-
+    tonalen Doppelbesteuerung.
 
 
-Inhaltsverzeichnis
-    Randnummer
-A. Inhalt   1
-B. Rechtliche Grundlagen   2–3
-C. Geltungsbereich   4
-D. Repartitionswerte   5–11
-    1. Interkantonale Steuerausscheidung   5–6
-    2. Bewertung der Liegenschaften (Repartition)   7–8
-    3. Beispiele   9–11
-    3.1 Bis und mit Steuerperiode 2018   10
-    3.2 Ab Steuerperiode 2019   11
-E. Gültigkeit und Publikation   12–13
+    C. Geltungsbereich
+
+4   Das Merkblatt findet Anwendung auf nichtlandwirtschaftliche Grundstücke.

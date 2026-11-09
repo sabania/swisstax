@@ -11,3 +11,7 @@ qmd: {metadata: {jur: zh, jahre: [2026], typ: mitteilung}}
 
 - Steuerliche Behandlung von Wahlkampfspenden ([ZStB Nr. 31.4](https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-nr-31-4.html)): Der Praxishinweis erklärt die Steuerfolgen von Wahlkampfspenden bei den Kandidierenden sowie die Abzugsfähigkeit von Wahlkampfspenden bei Privatpersonen wie auch juristischen Personen. Er entspricht der langjährigen Praxis des Steueramtes.
 - Mitteilung des kantonalen Steueramtes über die Anteile der einzelnen Kirchgemeinden an der Kirchensteuer juristischer Personen für die Steuerperioden 2027/2028 ([ZStB Nr. 203.1](https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-203-1.html)): Das kantonale Steueramt hat für die Steuerperioden 2027 und 2028 die den staatlich anerkannten Kirchgemeinden zustehenden Anteile an der Kirchensteuer juristischer Personen festgelegt.
+
+## Für diese Meldung zuständig:
+
+- [Steueramt](https://www.zh.ch/de/finanzdirektion/steueramt.html)

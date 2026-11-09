@@ -4,24 +4,26 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 4–6 Unüberbautes Land – Allgemeines und Bauland-Kategorien (Teil 1/2)"
+ziffer: "4–6"
+seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 1
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 1.–2. Allgemeines, Bauland-Kategorien · S. 2
 
-   Landwirtschaftlich oder forstwirtschaftlich beworbene Liegenschaf- 1
-ten werden mit Einschluss der erforderlichen Gebäude zum Ertrags-
-wert bewertet.
-   Als landwirtschaftlich beworbene Liegenschaften gelten ausser den 2
-bäuerlichen Heimwesen insbesondere Kleinheimwesen sowie Liegen-
-schaften mit den erforderlichen Gebäuden, die Baumschulen, Blumen-
-gärtnereien, Gemüsegärtnereien oder Hühnerfarmen dienen. Auch
-einzelne land- oder forstwirtschaftlich genutzte Grundstücke werden
-zum Ertragswert bewertet.
-    Die Schätzung des Ertragswerts landwirtschaftlicher Liegenschaf- 3
-ten erfolgt nach den Vorschriften des Bundesgesetzes über das bäuer-
-liche Bodenrecht (BGBB, SR 211.412.11) und den dazu erlassenen
-Ausführungsvorschriften. Bei der Bewertung von anderen zum Ertrags-
-wert zu bewertenden Liegenschaften sind diese Normen sinngemäss
-anwendbar.
+    II. Steuerlich massgebende Werte für unüberbautes Land
+
+    1. Allgemeines
+
+4   Bauland, das landwirtschaftlich beworben wird, ist nach Ziff. 1–3
+    zu bewerten. Eine Bewertung zum Verkehrswert gemäss den folgen-
+    den Ziff. greift nur Platz, wenn feststeht, dass das Land unmittelbar
+    vor der Überbauung steht, z.B. wenn bisher landwirtschaftlich be-
+    worbenes Bauland veräussert wird und der neue Eigentümer ein Gesuch
+    um Baubewilligung einreicht.
+5   Der Verkehrswert von Bauland richtet sich im Allgemeinen nach
+    den örtlichen Verhältnissen (Grösse, Entwicklungsfähigkeit der Ge-
+    meinde, Verkehrsverhältnisse) und im Besonderen nach der Lage der
+    Liegenschaft, ihrer Erschliessung und Überbauungsmöglichkeit usw.
+
+    2. Bauland-Kategorien

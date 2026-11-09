@@ -4,28 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang IV Gutachten Ziff. III.3 Anleihensteil während der Laufzeit – Formel (Teil 2/2)"
+titel: "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 1/3)"
 ziffer: "Anh. IV III.3"
-seiten: "34"
+seiten: "34-35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34–35
 
-Bei der angewandten Methode wird der Veränderung des Zinsumfelds dadurch Rech-
-nung getragen, dass der bei Emission für die Abdiskontierung verwendete Zinssatz (i0)
-im Verhältnis der 5-Jahres-Swap-Rate zum Zeitpunkt der Emission (SQ0) zu jener zum
-Zeitpunkt der Handänderung (SQ1) angepasst wird. Für diese Anpassung wird die 5-
-Jahres-Swap-Rate am ersten Tag des entsprechenden Quartals angewendet*.
+In der Theorie bestimmt sich der Wert einer Anleihe während der Laufzeit (im Wesentli-
+chen) aufgrund des risikofreien Zinssatzes für die Restlaufzeit und Währung sowie der
+Bonität des Schuldners. Somit wäre der Wert des Anleihenteils eines kombinierten
+Produkts (zum Verkaufszeitpunkt) durch Abdiskontierung mittels des risikofreien Zins-
+satzes für die entsprechende Währung und Restlaufzeit sowie des aktuellen individuel-
+len Credit Spreads des Schuldners zu ermitteln. Die Umsetzung einer solchen Methode
 
-i1 = i0 * sQ1 / sQ0
+Gutachten - Anhang IV zum Kreisschreiben Nr. 15   6
 
-i1:   Modifizierter Abdiskontierungssatz für die Berechnung des Anleihensteils wäh-
-    rend der Laufzeit
-i0:   Swap-Rate für die entsprechende Währung und Laufzeit zum Emissionszeit-
-    punkt
-sQ0:   5-Jahres-Swap-Rate der entsprechenden Währung im Quartal des Emissions-
-    zeitpunkts
-sQ1:   5-Jahres-Swap-Rate der entsprechenden Währung im entsprechenden Quartal
-    während der Laufzeit
-
-*   vgl. auch Beispiele im Anhang II des KS 15
+wäre aus folgenden Gründen extrem aufwendig und daher letztlich nicht mehr prakti-
+kabel:

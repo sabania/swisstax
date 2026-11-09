@@ -4,26 +4,27 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 58"
-seiten: "19"
+titel: "Ziff. 8 Zuzug einer juristischen Person aus dem Ausland"
+ziffer: "8"
+seiten: "24-25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 8 Zuzug aus dem Ausland · S. 24–25
 
-<!-- Seite 19 -->
-Bei einer indirekten Umwandlung durch Sacheinlagegründung kann der ausgewiesene Akti-
-venüberschuss der Vermögenswerte in der Handelsbilanz der Kapitalgesellschaft oder Ge-
-nossenschaft steuerneutral als KER ausgewiesen werden, soweit er das Grund- oder
-Stammkapital übersteigt.
+8.   Zuzug einer juristischen Person aus dem Ausland
 
-b)   Verrechnungssteuer
+Verlegt eine juristische Person ihren Sitz oder die tatsächliche Verwaltung vom Ausland in
+die Schweiz, ändert sich die Qualifikation der übrigen Reserven auch unter dem Kapitaleinla-
+geprinzip nicht. Die Aufteilung der offenen Kapitaleinlagen in KER und Ausland-KER erfolgt
+gemäss den Grundsätzen nach Ziff. 2.1. hiervor.
 
-Die bei einer Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesellschaft
-oder Genossenschaft ausgegebenen Beteiligungsrechte unterliegen nicht der Verrechnungs-
-steuer, da sie zu Lasten des Aktivenüberschusses einer nicht verrechnungssteuerpflichtigen
-Körperschaft begründet werden.
-
-6.3.5. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine Perso-
-    nenunternehmung
-
-a)   Direkte Bundessteuer (Einkommenssteuer)
+Werden dagegen im Rahmen einer grenzüberschreitenden Quasifusion (Immigrations -
+Quasifusion) Beteiligungsrechte an einer ausländischen Kapitalgesellschaft oder Genossen-
+schaft in eine inländische Kapitalgesellschaft oder Genossenschaft eingebracht, qualifiziert
+die gesamte Sacheinlage als offene Kapitaleinlage. Der die Erhöhung des Grund- oder
+Stammkapitals übersteigende Teil dieser offenen Kapitaleinlage kann, wenn die Kapitalein-
+lage in der Zeit zwischen dem 31. Dezember 1996 und dem 24. Februar 2008 erfolgte, in der
+Handelsbilanz als KER und bei Einlagen nach dem 24. Februar 2008 als Ausland-KER aus-
+gewiesen werden. Dabei ist aber für die in der Schweiz ansässigen Inhaber der Beteiligungs-
+rechte die Regelung der Transponierung in Artikel 20a Absatz 1 Buchstabe b DBG zu beach-
+ten (vgl. Ziff. 4.2.5. hiervor).

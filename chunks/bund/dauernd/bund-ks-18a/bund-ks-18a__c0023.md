@@ -4,23 +4,23 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 23"
-seiten: "6"
+titel: "Ziff. 5.7 Sonderfall g: Wechsel unselbständig/selbständig im Jahr"
+ziffer: "5.7 g"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 6
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 8
 
-<!-- Seite 6 -->
-ergibt. Bei vorübergehendem Unterbruch der Erwerbstätigkeit (Militärdienst, Mutterschaft, Ar-
-beitslosigkeit, Krankheit usw.) bleibt die Abzugsberechtigung erhalten, sofern im entspre-
-chenden Jahr für Erwerbseinkommen und/oder Erwerbsersatzeinkommen AHV/IV-Beiträge
-geleistet worden sind.
-
-Unter Erwerbseinkommen ist das Einkommen eines Steuerpflichtigen aus selbständiger und
-unselbständiger, haupt- und nebenberuflicher Erwerbstätigkeit gemäss Steuererklärung zu
-verstehen. Bei Einkommen aus unselbständiger Erwerbstätigkeit ist dies der Bruttolohn nach
-Abzug der AHV/IV/EO/ALV-Beiträge, bei Einkommen aus selbständiger Erwerbstätigkeit der
-Saldo der Gewinn- und Verlustrechnung nach Vornahme allfälliger steuerlicher Berichtigun-
-gen (auch hier nach Abzug der persönlichen Beiträge an die AHV/IV/EO, aber ohne Abzug
-irgendwelcher Beiträge an anerkannte Vorsorgeformen). Das Erwerbseinkommen umfasst
-auch allfällige realisierte Wertzuwachsgewinne auf dem Geschäftsvermögen.
+g)   Berechnung des Abzuges beim Übergang von einer unselbständigen zu
+    einer selbständigen Erwerbstätigkeit oder umgekehrt
+Während der Zeitspanne der unselbständigen Erwerbstätigkeit mit Anschluss an eine Pensi-
+onskasse kann die steuerpflichtige Person maximal den in Artikel 7 Absatz 1 Buchstabe a
+BVV 3 vorgesehenen Maximalbetrag einbezahlen. Für die Zeitspanne der Selbständigkeit
+ohne Anschluss an eine Pensionskasse kann die steuerpflichtige Person bis zu 20% ihres
+selbständigen Erwerbseinkommens einbezahlen, vorausgesetzt sie hat einen Jahresab-
+schluss für die aktuelle Steuerperiode erstellt. Für das betroffene Jahr können insgesamt or-
+dentliche Beiträge (inkl. allfällige Einzahlung in die kleine Säule 3a) von nicht mehr als der in
+Artikel 7 Absatz 1 Buchstabe b BVV 3 vorgesehene Maximalbetrag (40% des oberen Grenz-
+betrages nach Art. 8 Abs. 1 BVG) einbezahlt werden. Gleich verhält es sich beim Anschluss
+an eine Vorsorgeeinrichtung infolge Aufnahme einer unselbständigen Erwerbstätigkeit wäh-
+rend des Jahres.

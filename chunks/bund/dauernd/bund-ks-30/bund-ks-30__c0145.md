@@ -4,26 +4,29 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 16.1 Steuerstrafrecht – Verletzung von Verfahrenspflichten"
-ziffer: "16.1"
-seiten: "42"
+titel: "Ziff. 17 Inkrafttreten und ersetzte Kreisschreiben"
+ziffer: "17"
+seiten: "43"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 16 Steuerstrafrecht der Ehegatten › 16.1 · S. 42
+> Bund · Steuerjahr 2025/2026 · KS 30 · 17 Inkrafttreten · S. 43
 
-16   Steuerstrafrecht der Ehegatten
+17   Inkrafttreten
+
+Das vorliegende Kreisschreiben gilt für die Steuerperiode 2011 und tritt per 1. Januar 2011 in
+Kraft. Es ersetzt
+
+       das Kreisschreiben Nr. 7 vom 21. Januar 2000 betreffend Familienbesteuerung nach
+    dem Bundesgesetz über die direkte Bundessteuer (DBG); Übertragung der gemein-
+    samen elterlichen Sorge auf unverheiratete Eltern und die gemeinsame Ausübung el-
+    terlichen Sorge durch getrennte oder geschiedene Eltern;
+       das Kreisschreiben Nr. 14 vom 29. Juli 1994 betreffend Familienbesteuerung nach
+    dem Bundesgesetz über die direkte Bundessteuer (DBG);
+       das Kreisschreiben Nr. 13 vom 28. Juli 1994 betreffend Abzug bei Erwerbstätigkeit
+    beider Ehegatten.
 
 
-16.1   Verletzung von Verfahrenspflichten
+Beilagen:
 
-Ehegatten machen sich wie die übrigen Steuerpflichten strafbar, wenn sie die ihnen auferleg-
-ten steuerlichen Verfahrenspflichten trotz Mahnung schuldhaft nicht nachkommen (Art. 174
-DBG). Wegen Verletzung von Verfahrenspflichten macht sich jeder Ehegatte nur nach sei-
-nem persönlichen Verschulden strafbar. Die Ehegemeinschaft als solche kann nicht gebüsst
-werden. Haben beide Ehegatten pflichtwidrig die Mitwirkung verweigert (z.B. Steuererklärung
-nicht eingereicht) oder sich im Verfahren gemeinsam rechtswidrig verhalten, muss grund-
-sätzlich gegen jeden Ehegatten separat eine Steuerbusse ausgesprochen werden, in wel-
-cher das individuelle Verschulden berücksichtigt wird. Wird aber gezielt die Auskunft oder
-Mitwirkung hinsichtlich der Einkommensbestandteile oder sonstiger steuerlich relevanter
-Umstände verweigert, die nur einen der beiden Ehegatten betreffen, ist auch nur dieser Ehe-
-gatte zu büssen.
+1. Übersicht über die Familienkonstellationen
+2. Tabelle zu den verschiedenen Familienkonstellationen

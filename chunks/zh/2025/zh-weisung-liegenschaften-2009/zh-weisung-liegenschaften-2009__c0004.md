@@ -4,28 +4,24 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 4"
+titel: "Ziff. 6 Bauland-Kategorien nach Zonenordnung"
+ziffer: "6"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 2
-
-<!-- Seite 2 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
-
-    II. Steuerlich massgebende Werte für unüberbautes Land
-
-    1. Allgemeines
-
-4   Bauland, das landwirtschaftlich beworben wird, ist nach den
-    Ziff. 1–3 zu bewerten. Eine Bewertung zum Verkehrswert gemäss den
-    folgenden Ziff. greift nur Platz, wenn feststeht, dass das Land unmittel-
-    bar vor der Überbauung steht, wie z. B. wenn bisher landwirtschaftlich
-    beworbenes Bauland veräussert wird und der neue Eigentümer ein
-    Gesuch um Baubewilligung einreicht.
-5   Der Verkehrswert von Bauland richtet sich im Allgemeinen nach
-    den örtlichen Verhältnissen (Grösse, Entwicklungsfähigkeit der Ge-
-    meinde, Verkehrsverhältnisse) und im Besonderen nach der Lage der
-    Liegenschaft, ihrer Erschliessung und Überbauungsmöglichkeit usw.
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 2. Bauland-Kategorien · S. 2
 
     2. Bauland-Kategorien
+
+6   Vorbehältlich der Ziff. 16 und 17 wird unüberbautes, nicht land-
+    wirtschaftlich beworbenes Land aufgrund der Zonenordnung folgen-
+    den Bauland-Kategorien zugeordnet:
+    – Bauland für Mehrfamilienhäuser und Stockwerkeigentum, d. h.
+    Bauland für Wohnbauten, jedoch ohne solches, auf dem vorwie-
+    gend Einfamilienhäuser erstellt werden können,
+    – Bauland für Einfamilienhäuser, d. h. Bauland, auf dem vorwiegend
+    Einfamilienhäuser erstellt werden können,
+    – Bauland für Geschäftshäuser, d. h. Bauland, auf dem vorwiegend
+    zur geschäftlichen Nutzung bestimmte Bauten (Geschäftshäuser
+    im Sinne der Ziff. 37) errichtet werden können,
+    – Bauland für industrielle oder gewerbliche Bauten.

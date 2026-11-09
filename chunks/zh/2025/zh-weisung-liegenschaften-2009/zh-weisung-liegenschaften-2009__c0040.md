@@ -4,25 +4,28 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 40"
-seiten: "17"
+titel: "Anhang S. 20 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Affoltern"
+ziffer: "10"
+seiten: "20"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 17
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum · S. 20
 
-<!-- Seite 17 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-E. Neufestsetzung von Vermögenssteuerwerten und Eigenmietwerten
+    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
 
-I. Einfamilienhäuser und Stockwerkeigentum (zu Wohnzwecken)
-   sowie industrielle oder gewerbliche Liegenschaften
+Wohnbauland
 
-1. Allgemeine Neubewertung
+Unbebaute Grundstücke
+    Mehrfamilienhäuser und Stockwerkeigentum (Ziff. 10)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
 
-   Die Vermögenssteuerwerte und Eigenmietwerte sind für die Steuer- 87
-periode 2009 allgemein nach dieser Weisung neu festzulegen.
-    Unter Vorbehalt der Ziff. 89–91 bleiben die Vermögenssteuerwerte 88
-und Eigenmietwerte bis zu einer späteren allgemeinen Neubewertung
-in den nachfolgenden Steuerperioden unverändert.
-
-2. Ausserordentliche Neubewertung einzelner Liegenschaften
+Bezirk Affoltern
+Aeugst am Albis   5   980   870   750   640   520   –   –
+Affoltern am Albis   5   760   690   610   540   460   –   –
+Bonstetten   3   800   680   550   –   –   –   –
+Hausen am Albis   5   720   650   580   510   440   –   –
+Hedingen   5   790   730   670   610   540   –   –
+Kappsel am Albis   2   580   490   –   –   –   –   –
+Knonau   3   740   600   450   –   –   –   –
+Maschwanden   2   520   420   –   –   –   –   –

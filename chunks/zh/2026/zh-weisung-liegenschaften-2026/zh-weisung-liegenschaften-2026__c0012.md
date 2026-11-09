@@ -4,16 +4,21 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 12"
-seiten: "5"
+titel: "Ziff. 28 Anrechenbare Grundstücksfläche Stockwerkeigentum (100 m2 / 200 m2)"
+ziffer: "28"
+seiten: "6"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 5
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 2. Landwert · S. 6
 
-    Bei der Bewertung von mit einem Einfamilienhaus oder Stockwerk- 23
-eigentum zu Wohnzwecken überbautem Land ist auszugehen von:
-– den Bauland-Kategorien (Bauland für Mehrfamilienhäuser und
-    Stockwerkeigentum bzw. Bauland für Einfamilienhäuser) gemäss
-    Ziff. 10–13,
-– den steuerlich massgebenden Werten, wie sie für entsprechendes
-    Land gelten.
+28 Für Stockwerkeigentum:
+   bis Basiswert Fr. 10 000   effektive Grundstücksfläche,
+    höchstens jedoch 100 m2,
+    Basiswert zwischen Fr. 10 000   effektive Grundstücksfläche,
+    und Fr. 40 000   höchstens jedoch 100 m2
+    + (Basiswert – 10 000)/300,
+    Basiswert über Fr. 40 000   effektive Grundstücksfläche,
+    höchstens jedoch 200 m2 zuzüglich
+    30 m2 pro volle Fr. 10 000 Basiswert
+    (oder Bewertung entsprechend den
+    konkreten Verhältnissen).

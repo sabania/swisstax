@@ -4,25 +4,23 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 108"
-seiten: "27"
+titel: "Ziff. 6.11 Ersatzeinkünfte direkt an Arbeitnehmer (Tarifcode G / Q)"
+ziffer: "6.11"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 27
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.11 Ersatzeinkünfte direkt ausbezahlt · S. 34
 
-       Spezialfälle zur Ermittlung der Anzahl Tage im Ein- oder Austrittsmonat (gleiche Methode wie für die Be-
-    rechnung der Sozialversicherungstage):
-    - Eintritt am 31. März 2023 = 1 Tag
-    - Eintritt am 30. März 2023 = 1 Tag
-    - Eintritt am 29. März 2023 = 2 Tage
-    - Eintritt am 29. Februar 2024 (Schaltjahr) = 1 Tag
-    - Eintritt am 28. Februar 2024 (Schaltjahr) = 1 Tag
-    - Eintritt am 28. Februar 2023 = 1 Tag
-    - Eintritt am 27. Februar 2023 = 4 Tage
-    - Austritt am 31. März 2023 = 30 Tage
-    - Austritt am 30. März 2023 = 30 Tage
-    - Austritt am 29. März 2023 = 29 Tage
-    - Austritt am 29. Februar 2024 (Schaltjahr) = 30 Tage
-    - Austritt am 28. Februar 2024 (Schaltjahr) = 30 Tage
-    - Austritt am 28. Februar 2023 = 30 Tage
-    - Austritt am 27. Februar 2023 = 27 Tage
+6.11 Ersatzeinkünfte, die nicht über den Arbeitgeber ausbezahlt werden
+Ersatzeinkünfte (Taggelder, Renten usw.), welche beispielsweise von einer Versicherung,
+Ausgleichskasse, Arbeitslosenkasse (Leistungserbringer) direkt an den Leistungsempfänger
+(Arbeitnehmer) ausbezahlt werden, sind durch den Leistungserbringer mit dem Tarifcode G
+bzw. für Grenzgänger aus Deutschland mit dem Tarifcode Q an der Quelle zu besteuern (vgl.
+Art. 1 Abs. 1 Bst. g QStV).
+Wird neben dem Ersatzeinkommen weiteres Erwerbseinkommen erzielt, sind das Ersatz-
+und das Erwerbseinkommen für den Steuersatz umzurechnen (vgl. Ziffer 6.4 oben). Bei Er-
+satzeinkünften, die nach Massgabe des versicherten Verdienstes ausgerichtet werden, gilt
+dieser als satzbestimmendes Einkommen.
+Für die Quellenbesteuerung der Ersatzeinkünfte, insbesondere zu deren Definition im inter-
+nationalen Verhältnis, wird auf das jeweils gültige «Merkblatt der ESTV über die Quellenbe-
+steuerung von Ersatzeinkünften» verwiesen.

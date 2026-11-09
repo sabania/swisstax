@@ -4,21 +4,30 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 137"
-seiten: "34"
+titel: "Ziff. 7.3.4 Beispiel – Ein- und Austritt in Monaten mit Bonus (Teil 1/2)"
+ziffer: "7.3.4"
+seiten: "44"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.4 Unterjährige Ein-/Austritte · S. 44
 
-6.12 Kapitalabfindungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte)
-Werden dem Arbeitnehmer durch den Arbeitgeber Kapitalabfindungen für wiederkehrende
-Leistungen ausgerichtet (bspw. nachträgliche Auszahlung von Familienzulagen für mehrere
-Monate), unterliegen diese im Zeitpunkt der Auszahlung der Quellenbesteuerung und zwar
-zusammen mit einer allenfalls im selben Monat ausgerichteten Lohnzahlung. Der Steuersatz
-ergibt sich dabei aus der Summe der Kapitalabfindung für wiederkehrende Leistungen und
-der Lohnzahlung im entsprechenden Monat.
-Die Kapitalabfindung wird im Quellensteuerverfahren nach dem Monatsmodell für die Satz-
-bestimmung nicht auf einen Monat umgerechnet. Es steht dem Arbeitnehmer offen, bis am
-31. März des auf die Fälligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der
-Quellensteuer oder eine nachträgliche ordentliche Veranlagung zu beantragen (vgl. Ziffer 11
-unten).
+    Beginn / Ende der Erwerbstätigkeit während eines Monat mit Bonuszahlung:
+    - Ein lediger Arbeitnehmer übt seine Erwerbstätigkeit beim gleichen Arbeitgeber vom 16. Januar bis zum
+    10. Februar und anschliessend vom 21. Februar bis zum 18. März aus. Für den Monat Januar erhält er
+    einen Bruttolohn von CHF 5 000.00. Für den Februar beträgt der Bruttolohn CHF 6 000.00. Schliesslich
+    bezahlt ihm sein Arbeitgeber für den Monat März einen Bruttolohn von CHF 3 000.00 sowie einen Bonus
+    von CHF 2 000.00.
+
+    Monat   Jan.   Feb.   März   Apr.   …   Dez.   Besteuerung
+    Anzahl
+    15   20   18
+    Arbeitstage
+    Bruttolohn   5 000   6 000   3 000
+
+    Bonus   2 000
+
+    Tarifcode   A0   A0   A0
+
+    Steuersatz (%)   16,91   16,32   14,64
+
+    Quellensteuer   845   978   730   2 553

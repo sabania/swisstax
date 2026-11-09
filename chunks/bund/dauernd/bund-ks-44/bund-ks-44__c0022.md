@@ -4,26 +4,22 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 22"
-seiten: "5"
+titel: "Ziff. 5.1 Ordentliche Aufwandbesteuerung – Steuererklärung und Nachweis"
+ziffer: "5.1"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 44 · 5 Verfahren › 5.1 Ordentliche Aufwandbesteuerung · S. 7
 
-Aus schweizerischen Quellen:
-- der Einkünfte aus dem in der Schweiz gelegenen unbeweglichen Vermögen;
-- der Einkünfte aus der in der Schweiz gelegenen Fahrnis;
-- der Einkünfte aus dem in der Schweiz angelegten beweglichen Kapitalvermögen, ein-
-  schliesslich der grundpfändlich gesicherten Forderungen;
-- der Einkünfte aus den in der Schweiz verwerteten Urheberrechten, Patenten und ähnlichen
-  Rechten;
-- der Ruhegehälter, Renten und Pensionen, die aus schweizerischen Quellen fliessen.
+5 Verfahren bei der Aufwandbesteuerung
 
-Als Einkünfte aus in der Schweiz angelegtem beweglichem Kapitalvermögen gelten diejenigen
-Einkünfte der nach dem Aufwand besteuerten steuerpflichtigen Person, bei denen sich die
-Quelle des Einkommens in der Schweiz befindet. Als aus schweizerischer Quelle stammende
-Einkünfte gelten dabei:
-
-- Forderungspapiere, bei denen der Schuldner seinen Wohnsitz oder Sitz in der Schweiz hat;
-- Beteiligungsrechte, bei denen die entsprechende Kapitalgesellschaft oder Genossenschaft
-  ihren Sitz in der Schweiz hat.
+5.1   Ordentliche Aufwandbesteuerung
+Die steuerpflichtige Person, die Anspruch auf die Besteuerung nach dem Aufwand erhebt, hat
+die dafür vorgesehene besondere Steuererklärung einzureichen sowie den Nachweis zu erbrin-
+gen, dass sie die Voraussetzungen erfüllt.
+Die Veranlagungsbehörde hat sich bei der Besteuerung nach dem Aufwand vor jeder Veranla-
+gung davon zu überzeugen, dass die steuerpflichtige Person die Voraussetzungen dafür erfüllt
+und in diesem Zusammenhang die von ihr verlangten Angaben und Nachweise erbracht hat.
+Die steuerpflichtige Person muss der zuständigen Steuerbehörde unaufgefordert und umge-
+hend alle Unterlagen zustellen, die sich auf den Anspruch oder die Voraussetzungen für die An-
+wendung der Aufwandbesteuerung auswirken können.

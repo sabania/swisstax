@@ -1,0 +1,476 @@
+{
+ "id": "bund-ks-22a",
+ "hinweise": [
+  "Silbentrennung mit Bindestrich/Zeilenumbruch im Fliesstext; Tabellen der Beispiele 1-4 (S. 7-8) teils mit umbrochenen Zeilen, aber lesbar."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt und Inhaltsverzeichnis"
+  },
+  {
+   "start": 66,
+   "titel": "Ziff. 1 Gegenstand – Teilbesteuerung (Unternehmenssteuerreformgesetz II / STAF)",
+   "pfad": [
+    "1 Gegenstand"
+   ],
+   "stichworte": [
+    "Teilbesteuerung",
+    "70 Prozent",
+    "Beteiligung",
+    "Dividende",
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen",
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Art. 20 Abs. 1bis DBG (UStR II) führte die Teilbesteuerung ein; die STAF hob den Umfang auf 70 Prozent an.",
+   "ziffer": "1"
+  },
+  {
+   "start": 74,
+   "titel": "Ziff. 1 Gegenstand – Wortlaut Art. 20 Abs. 1bis DBG und Schuldzinsen Art. 33 DBG",
+   "pfad": [
+    "1 Gegenstand"
+   ],
+   "stichworte": [
+    "Teilbesteuerung",
+    "70 Prozent",
+    "Beteiligung",
+    "Dividende",
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen",
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Teilbesteuerung zu 70 Prozent bei Beteiligung von mindestens 10 % des Grund- oder Stammkapitals; private Schuldzinsen im Umfang des Ertrags und weiterer 50'000 Franken, Geschäftsschuldzinsen voll.",
+   "ziffer": "1"
+  },
+  {
+   "start": 90,
+   "titel": "Ziff. 2.1 Subjektive Voraussetzungen der Teilbesteuerung",
+   "pfad": [
+    "2 Teilbesteuerung",
+    "2.1"
+   ],
+   "stichworte": [
+    "Teilbesteuerung",
+    "70 Prozent",
+    "Beteiligung",
+    "Dividende",
+    "natürliche Personen"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen"
+   ],
+   "zusammenfassung": "Teilbesteuerung steht natürlichen Personen zu, die in der Schweiz persönlich oder wirtschaftlich zugehörig steuerpflichtig sind.",
+   "ziffer": "2.1"
+  },
+  {
+   "start": 98,
+   "titel": "Ziff. 2.2.1 Beteiligungsrechte – was gilt und was nicht (Aktien, GmbH, PS; nicht Genussscheine, SICAV)",
+   "pfad": [
+    "2 Teilbesteuerung",
+    "2.2 Objektive Voraussetzungen",
+    "2.2.1"
+   ],
+   "stichworte": [
+    "Teilbesteuerung",
+    "70 Prozent",
+    "Beteiligung",
+    "Dividende",
+    "Aktien",
+    "GmbH Stammanteile",
+    "Partizipationsschein",
+    "Genussschein",
+    "SICAV"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen"
+   ],
+   "zusammenfassung": "Beteiligungsrechte: Aktien, GmbH-Stammanteile, Genossenschaftsanteile, Partizipationsscheine, SICAF-Anteile; keine bei Genussscheinen, Obligationen, Darlehen, hybriden Instrumenten, SICAV.",
+   "ziffer": "2.2.1"
+  },
+  {
+   "start": 129,
+   "titel": "Ziff. 2.2.2 Erforderliches Ausmass der Beteiligung – mindestens 10 % und Zusammenrechnung",
+   "pfad": [
+    "2 Teilbesteuerung",
+    "2.2 Objektive Voraussetzungen",
+    "2.2.2"
+   ],
+   "stichworte": [
+    "Teilbesteuerung",
+    "70 Prozent",
+    "Beteiligung",
+    "Dividende",
+    "Beteiligungsquote 10 %",
+    "Zusammenrechnung Ehegatten",
+    "Erbengemeinschaft"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen"
+   ],
+   "zusammenfassung": "Mindestens 10 Prozent am Grund- oder Stammkapital; Beteiligungen von gemeinsam veranlagten Ehegatten und Kindern werden zusammengerechnet, bei Erbengemeinschaften und indirekten Beteiligungen nicht.",
+   "ziffer": "2.2.2"
+  },
+  {
+   "start": 144,
+   "titel": "Ziff. 2.2.2 Zusammenrechnung privater/geschäftlicher Beteiligungen; Zeitpunkt der Quote",
+   "pfad": [
+    "2 Teilbesteuerung",
+    "2.2 Objektive Voraussetzungen",
+    "2.2.2"
+   ],
+   "stichworte": [
+    "Teilbesteuerung",
+    "70 Prozent",
+    "Beteiligung",
+    "Dividende",
+    "Beteiligungsquote 10 %",
+    "Zusammenrechnung Ehegatten",
+    "Erbengemeinschaft"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen"
+   ],
+   "zusammenfassung": "Private und geschäftliche Beteiligungen werden für die Quote zusammengerechnet, nicht jedoch die Erträge; die Quote muss bei Realisation (Fälligkeit der Dividende) erfüllt sein.",
+   "ziffer": "2.2.2"
+  },
+  {
+   "start": 157,
+   "titel": "Ziff. 2.2.3 Einkünfte aus Beteiligungen – teilbesteuerte Erträge",
+   "pfad": [
+    "2 Teilbesteuerung",
+    "2.2 Objektive Voraussetzungen",
+    "2.2.3"
+   ],
+   "stichworte": [
+    "Teilbesteuerung",
+    "70 Prozent",
+    "Beteiligung",
+    "Dividende",
+    "Gratisaktien",
+    "verdeckte Gewinnausschüttung",
+    "Liquidationsüberschuss"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen"
+   ],
+   "zusammenfassung": "Teilbesteuert werden ordentliche und ausserordentliche Gewinnausschüttungen, Gratisaktien, Gratisnennwerterhöhungen und verdeckte Gewinnausschüttungen bei erfolgter Aufrechnung.",
+   "ziffer": "2.2.3"
+  },
+  {
+   "start": 172,
+   "titel": "Ziff. 2.2.3 Verdeckte Gewinnausschüttungen – Teilbesteuerung bei Aufrechnung",
+   "pfad": [
+    "2 Teilbesteuerung",
+    "2.2 Objektive Voraussetzungen",
+    "2.2.3"
+   ],
+   "stichworte": [
+    "Teilbesteuerung",
+    "70 Prozent",
+    "Beteiligung",
+    "Dividende",
+    "Gratisaktien",
+    "verdeckte Gewinnausschüttung",
+    "Liquidationsüberschuss"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen"
+   ],
+   "zusammenfassung": "Verdeckte Gewinnausschüttungen werden teilbesteuert, sofern bei der leistenden Gesellschaft eine Gewinnaufrechnung erfolgt ist; bei ausländischen Gesellschaften unter Bedingungen.",
+   "ziffer": "2.2.3"
+  },
+  {
+   "start": 185,
+   "titel": "Ziff. 2.2.3 Keine Einkünfte aus Beteiligungsrechten; Ziff. 2.3 Umqualifikation in Erwerbseinkommen",
+   "pfad": [
+    "2 Teilbesteuerung",
+    "2.2.3 / 2.3"
+   ],
+   "stichworte": [
+    "Teilbesteuerung",
+    "70 Prozent",
+    "Beteiligung",
+    "Dividende",
+    "Securities Lending",
+    "Umqualifikation",
+    "AHV Erwerbseinkommen"
+   ],
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert",
+    "abzug.teilbesteuerung_beteiligungen"
+   ],
+   "zusammenfassung": "Nicht teilbesteuert sind geschäftsmässig begründeter Aufwand der Gesellschaft und Securities-Lending-Zahlungen; Umqualifikation in Erwerbseinkommen nur bei Korrektur beider Veranlagungen im offenen Verfahren.",
+   "ziffer": "2.2.3 / 2.3"
+  },
+  {
+   "start": 199,
+   "titel": "Ziff. 3.1 Maximal zulässiger Schuldzinsenabzug – Grundbetrag 50'000 Franken",
+   "pfad": [
+    "3 Beschränkung des Schuldzinsenabzugs",
+    "3.1"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Bruttoertrag",
+    "Hypothekarzins",
+    "Privatvermögen"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Maximaler Abzug = steuerbare Erträge aus Privatvermögen plus Grundbetrag von 50'000 Franken (Ehepaare und Kinder gesamthaft); ohne Erträge bis 50'000 Franken abziehbar.",
+   "ziffer": "3.1"
+  },
+  {
+   "start": 213,
+   "titel": "Ziff. 3.1 Bruttoerträge – bewegliches und unbewegliches Vermögen, Teilbesteuerung nur zu 70 %",
+   "pfad": [
+    "3 Beschränkung des Schuldzinsenabzugs",
+    "3.1"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Bruttoertrag",
+    "Nebenkosten",
+    "Liegenschaftsertrag",
+    "Vermögensverwaltungskosten"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen",
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Erträge werden brutto vor Gewinnungskosten bemessen; teilbesteuerte Beteiligungserträge zählen nur zu 70 %; Nebenkosten im Mietzins sind abzuziehen.",
+   "ziffer": "3.1"
+  },
+  {
+   "start": 226,
+   "titel": "Ziff. 3.1 Bruttoertrag aus unbeweglichem Vermögen – Unterhaltskosten kürzen Grenze nicht",
+   "pfad": [
+    "3 Beschränkung des Schuldzinsenabzugs",
+    "3.1"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Bruttoertrag",
+    "Nebenkosten",
+    "Liegenschaftsertrag",
+    "Vermögensverwaltungskosten"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen",
+    "einkommen.beteiligungen_qualifiziert"
+   ],
+   "zusammenfassung": "Erträge aus Liegenschaften bemessen sich brutto vor Gewinnungskosten; Liegenschaftsunterhaltskosten kürzen den maximalen Schuldzinsenabzug nicht.",
+   "ziffer": "3.1"
+  },
+  {
+   "start": 233,
+   "titel": "Ziff. 3.1 Teilweise Steuerpflicht, Auslandliegenschaften, aperiodische Erträge",
+   "pfad": [
+    "3 Beschränkung des Schuldzinsenabzugs",
+    "3.1"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Auslandliegenschaft",
+    "internationale Ausscheidung",
+    "Einmalprämie"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Bei teilweiser Steuerpflicht gilt die Beschränkung für steuerbares und satzbestimmendes Einkommen; aperiodische Erträge fallen im Fälligkeitsjahr voll in die Berechnung.",
+   "ziffer": "3.1"
+  },
+  {
+   "start": 250,
+   "titel": "Ziff. 3.2 Abgrenzung private und geschäftliche Schuldzinsen",
+   "pfad": [
+    "3 Beschränkung des Schuldzinsenabzugs",
+    "3.2"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "geschäftliche Schuldzinsen",
+    "proportionale Aufteilung",
+    "Mittelverwendung"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Abgrenzung nach nachgewiesener Mittelverwendung, sonst proportional nach Verkehrswerten der Aktiven.",
+   "ziffer": "3.2"
+  },
+  {
+   "start": 266,
+   "titel": "Ziff. 3.3 Kosten ohne Schuldzinscharakter – Leasing, Baurechtszins, Baukreditzinsen",
+   "pfad": [
+    "3 Beschränkung des Schuldzinsenabzugs",
+    "3.3"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Leasing",
+    "Baurechtszins",
+    "Baukreditzinsen"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen",
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Nicht als Schuldzinsen abziehbar: Leasingraten für private Güter, Baurechtszinsen für Eigenheim, Baukreditzinsen bis Bezugsbereitschaft.",
+   "ziffer": "3.3"
+  },
+  {
+   "start": 280,
+   "titel": "Ziff. 3.3 Fremdfinanzierte Kapitalversicherungen und Darlehen von Gesellschaften an Beteiligte",
+   "pfad": [
+    "3 Beschränkung des Schuldzinsenabzugs",
+    "3.3"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Steuerumgehung",
+    "Kapitalversicherung Einmalprämie",
+    "Aktionärsdarlehen"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Zinsen auf fremdfinanzierte Einmalprämien-Versicherungen bei Steuerumgehung und übersetzte Zinsen auf Gesellschaftsdarlehen sind nicht abziehbar.",
+   "ziffer": "3.3"
+  },
+  {
+   "start": 295,
+   "titel": "Ziff. 4 Inkrafttreten – ab 1. Januar 2020",
+   "pfad": [
+    "4 Inkrafttreten"
+   ],
+   "stichworte": [
+    "Inkrafttreten",
+    "Steuerperiode 2020",
+    "KS 22"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Das Kreisschreiben gilt per 1. Januar 2020 ab Steuerperiode 2020; für Sachverhalte bis 31. Dezember 2019 gilt das KS Nr. 22.",
+   "ziffer": "4"
+  },
+  {
+   "start": 303,
+   "titel": "Anhang Beispiel 1 – Negative Liegenschaftsrechnung: maximaler Schuldzinsenabzug 140'000",
+   "pfad": [
+    "Anhang Beispiele",
+    "Beispiel 1"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Beispiel",
+    "negative Liegenschaftsrechnung"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen",
+    "einkommen.liegenschaften.mietertrag"
+   ],
+   "zusammenfassung": "Liegenschaftsbruttoertrag 90'000 plus Grundbetrag 50'000 ergibt maximalen Abzug 140'000; die Schuldzinsen von 60'000 werden voll abgezogen.",
+   "ziffer": "Bsp. 1"
+  },
+  {
+   "start": 330,
+   "titel": "Anhang Beispiel 2 – Schuldzinsenabzug bei teilweiser Steuerpflicht (Auslandgrundstücke)",
+   "pfad": [
+    "Anhang Beispiele",
+    "Beispiel 2"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Beispiel",
+    "Auslandliegenschaft",
+    "satzbestimmendes Einkommen"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Maximal abzugsfähig sind Liegenschaftsertrag 800 plus Grundbetrag 50 (in 1'000), verteilt nach Lage der Aktiven; Reineinkommen satzbestimmend 650.",
+   "ziffer": "Bsp. 2"
+  },
+  {
+   "start": 369,
+   "titel": "Anhang Beispiel 3 – Obligation mit überwiegender Einmalverzinsung",
+   "pfad": [
+    "Anhang Beispiele",
+    "Beispiel 3"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Beispiel",
+    "Einmalverzinsung",
+    "Zerobond"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Maximaler Schuldzinsenabzug 2001-2009: 50'000; im Jahr 2010: 1'050'000 (Einmalverzinsung 1'000'000 plus Grundbetrag 50'000).",
+   "ziffer": "Bsp. 3"
+  },
+  {
+   "start": 389,
+   "titel": "Anhang Beispiel 4 – Abgrenzung private/geschäftliche Schuldzinsen ohne Nachweis",
+   "pfad": [
+    "Anhang Beispiele",
+    "Beispiel 4"
+   ],
+   "stichworte": [
+    "Schuldzinsenabzug",
+    "Schuldzinsen",
+    "50000 Grundbetrag",
+    "Beispiel",
+    "proportionale Aufteilung",
+    "gewillkürtes Geschäftsvermögen"
+   ],
+   "positionen": [
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Von Schuldzinsen 400'000 entfallen 80 % (320'000) auf die Beteiligung im Geschäftsvermögen und 20 % (80'000) auf das Privatvermögen.",
+   "ziffer": "Bsp. 4"
+  }
+ ]
+}

@@ -4,22 +4,15 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 46"
-seiten: "11"
+titel: "Ziff. 4.3 Tarif für Alleinerziehende (Tarifcodes H, P) (Teil 2/2)"
+ziffer: "4.3"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.3 Alleinerziehende · S. 16
 
-<!-- Seite 11 -->
-3.2.3 Vom Arbeitgeber übernommene Leistungsverpflichtungen des Arbeitnehmers
-Zum der Quellensteuer unterliegenden Bruttolohn gehören ebenfalls:
-     Vom vom Arbeitgeber übernommene Beiträge an die Alters- und Hinterlassenenversi-
-    cherung, Invalidenversicherung und Erwerbsersatzordnung (1. Säule), welche nach
-    Gesetz vom Arbeitnehmer geschuldet sind;
-     Vom Arbeitgeber übernommene, ordentlich laufende Beiträge an Einrichtungen der kol-
-    lektiven beruflichen Vorsorge (2. Säule), die nach Gesetz, Statut oder Reglement vom
-    Arbeitnehmer geschuldet sind, wie auch freiwillige Leistungen des Arbeitgebers zur
-    Deckung von bestehenden oder zukünftigen Deckungslücken;
-     Alle vom Arbeitgeber für seinen Arbeitnehmer oder diesem nahestehende Personen
-    erbrachten Beiträge an anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)
-    oder an alle Formen der freien Vorsorge (Säule 3b);
+Im Zweifelsfall (bspw. bei unklaren Einkommens- oder Konkubinatsverhältnissen) hat vorab
+eine Quellenbesteuerung zum Tarifcode A0 zu erfolgen. Es bleibt der steuerpflichtigen Per-
+son vorbehalten, bis Ende März des auf die Leistung folgenden Steuerjahres eine Neube-
+rechnung der Quellensteuer oder eine nachträgliche ordentliche Veranlagung zu beantragen
+(vgl. Ziffern 10 und 11 unten).

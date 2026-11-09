@@ -4,19 +4,26 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 51"
-seiten: "17"
+titel: "Ziff. 7.1 Fusion kotierter Gesellschaften (7.1.1–7.1.5) (Teil 2/3)"
+ziffer: "7.1"
+seiten: "21-22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 7 Umstrukturierungen kotierter Gesellschaften › 7.1 Fusion · S. 21–22
 
-<!-- Seite 17 -->
-b)   Verrechnungssteuer
+Reserven, die bei einer Umstrukturierung in die übrigen Reserven einer inländischen Kapital-
+gesellschaft oder Genossenschaft übergehen, sind nach Artikel 5 Absatz 1 Buch-
+stabe a VStG von der Verrechnungssteuer ausgenommen. Dabei wird vorausgesetzt, dass
+das übertragene Verrechnungssteuersubstrat erhalten bleibt.
 
-Bei einer Absorption der Muttergesellschaft den Inhabern der Beteiligungsrechte zukom-
-mende höhere Nennwerte, Ausgleichszahlungen oder andere geldwerte Vorteile unterliegen
-nach Artikel 4 Absatz 1 Buchstabe b VStG grundsätzlich der Verrechnungssteuer. Verfügt
-die übernehmende Tochtergesellschaft über höhere KER bzw. Ausland-KER, werden diese
-nach der Absorption der Muttergesellschaft auf die Höhe der bei der Muttergesellschaft vor-
-handenen KER bzw. Ausland-KER reduziert. Nennwertgewinne und der Zuwachs an KER
-bzw. Ausland-KER können mit entsprechenden Verlusten/Abnahmen verrechnet werden.
+Die bei einer Fusion den Inhabern der Beteiligungsrechte oder diesen nahestehenden Dritten
+zukommenden Ausgleichszahlungen, Gratisaktien, Gratisnennwerterhöhungen und sonsti-
+gen Erträge unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer,
+sofern sie zu Lasten der übrigen Reserven einer inländischen Kapitalgesellschaft oder Ge-
+nossenschaft erfolgen. Stammt das Grund- oder Stammkapital aus KER, gelten die Bestim-
+mungen zu Ziff. 5.1.5 hiervor.
+
+Nennwertgewinne und -verluste sowie Gewinne und Verluste von KER bzw. Ausland-KER
+können miteinander und gegenseitig verrechnet werden.
+
+7.1.2. Echte und unechte Fusion verbundener Gesellschaften

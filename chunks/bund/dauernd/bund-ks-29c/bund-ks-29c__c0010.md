@@ -4,21 +4,17 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 10"
-seiten: "3"
+titel: "Ziff. 3.2 Übrige Reserven – keine Umqualifikation in KER"
+ziffer: "3.2"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 3 Reserven › 3.2 Übrige Reserven · S. 7–8
 
-<!-- Seite 3 -->
-7.1.5.   Fusionsähnlicher Zusammenschluss („Quasifusion“) ..................................21
-7.2.   Umwandlung .....................................................................................................22
-7.2.1.   Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine
-    andere Kapitalgesellschaft oder Genossenschaft ........................................22
-7.2.2.   Umwandlung einer Kapitalgesellschaft oder Genossenschaft in einen
-    Verein, in eine Stiftung oder eine übrige juristische Person .......................22
-7.2.3.   Umwandlung eines Vereins, einer Stiftung oder einer übrigen
-    juristischen Person in eine Kapitalgesellschaft oder Genossenschaft ......22
-7.2.4.   Umwandlung eines Instituts des öffentlichen Rechts in eine
-    Kapitalgesellschaft oder in eine Genossenschaft .........................................22
-7.2.5.   Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine
+3.2.   Übrige Reserven
+
+Die laufenden und thesaurierten Gewinne, verdeckte Kapitaleinlagen sowie offene Kapital-
+einlagen, welche nicht direkt von den Beteiligungsinhabern stammen, gelten steuerlich als
+übrige Reserven. Gleiches gilt für offene Kapitaleinlagen, die in der Handelsbilanz nicht ge-
+sondert ausgewiesen wurden. Eine Umqualifikation von übrigen Reserven in KER bzw. Aus-
+land-KER ist unzulässig und wird steuerlich nicht anerkannt.

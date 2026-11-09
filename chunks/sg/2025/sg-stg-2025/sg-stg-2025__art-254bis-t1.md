@@ -4,7 +4,7 @@ quelle: sg-stg-2025
 jur: sg
 jahre: [2025]
 typ: gesetz
-titel: "Art. 254 bis StG SG – b) Straflose Selbstanzeige (Teil 1/3)"
+titel: "Art. 254 bis StG SG – b) Straflose Selbstanzeige (Teil 1/2)"
 artikel: "Art. 254 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---

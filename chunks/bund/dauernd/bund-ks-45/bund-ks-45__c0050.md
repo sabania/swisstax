@@ -4,36 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 50"
-seiten: "12"
+titel: "Ziff. 4.6 Grenzgänger Deutschland – Nichtrückkehrtage (Gre-3)"
+ziffer: "4.6"
+seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.6 Grenzgänger aus Deutschland · S. 17
 
-<!-- Seite 12 -->
-    Beispiel:
-    -   Dem in die Schweiz entsandten Arbeitnehmer Y. wird vom Bruttolohn von CHF 7 000.00 ein Abzug in
-    Höhe von CHF 1 750.00 für hypothetisch im Ansässigkeitsstaat geschuldete Steuern gewährt. Die auf die-
-    sem reduzierten Bruttolohn geschuldete schweizerische Quellensteuer berechnet sich wie folgt (nach der
-    Methode der Iteration):
-
-    1. Schritt
-
-    Bruttolohn   zuzüglich QST   Summe   Steuersatz   QST
-
-    5 250.00   11.43 %   600.08
-
-    5 250.00   600.08   5 850.08   12.49 %   730.67
-
-    5 250.00   730.67   5 980.67   12.62 %   754.76
-
-    5 250.00   754.76   6 004.76   12.79 %   768.01
-
-    5 250.00   768.01   6 018.01   12.79 %   769.70
-
-    usw.   usw.   usw.   usw.
-
-    Die Berechnung ist solange zu wiederholen (Iteration), bis sich der Steuersatz, gerundet auf zwei Nach-
-    kommastellen, nicht mehr verändert.
-
-    2. Schritt
+In Deutschland ansässige Arbeitnehmer, die an mehr als 60 Arbeitstagen im Jahr aus beruf-
+lich bedingten Gründen verhindert sind, an ihren Wohnsitz in Deutschland zurückzukehren
+(sog. Nichtrückkehrtage), gelten nicht als Grenzgänger und sind nach den ordentlichen Quel-
+lensteuertarifen (Tarifcodes A, B, C, E und H) zu besteuern. Diese beruflich bedingten Nicht-
+rückkehrtage sind mittels amtlichem Formular (Gre-3, Bescheinigung des Arbeitgebers über
+die Nichtrückkehr an mehr als 60 Tagen i.S. des Artikel 15a Absatz 2 DBA-D und des Ver-
+handlungsprotokolls vom 18.12.1991) zu bescheinigen. Das Formular ist der zuständigen
+kantonalen Steuerverwaltung einzureichen. Diese, bzw. auf deren Anweisung hin der Arbeit-
+geber, erstellen in Anwendung des massgebenden Tarifs eine Neuberechnung. Zu wenig
+bzw. zu viel abgerechnete Quellensteuern werden nachgefordert bzw. zurückerstattet.

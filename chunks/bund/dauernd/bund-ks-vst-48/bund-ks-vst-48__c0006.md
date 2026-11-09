@@ -4,26 +4,18 @@ quelle: bund-ks-vst-48
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 48 – Abschnitt 6"
-seiten: "2"
+titel: "Ziff. 3.1 Deklarationspflicht – Grundsatz und Ausnahme (Fahrlässigkeit, Verfahren) (Teil 4/4)"
+ziffer: "3.1"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 48 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS VST 48 · 3 Voraussetzungen der Rückerstattung › 3.1 Deklarationspflicht · S. 2–3
 
-<!-- Seite 2 -->
-1   Allgemeines
-
-Am 28. September 2018 verabschiedeten die Eidgenössischen Räte eine Änderung des
-Bundesgesetzes vom 13. Oktober 1965 über die Verrechnungssteuer (VStG; SR 642.21),
-insbesondere betreffend Artikel 23. Diese Änderung des VStG trat rückwirkend auf den
-1. Januar 2019 in Kraft.
-Die in Artikel 23 Absatz 1 VStG erwähnte Deklarationspflicht als Voraussetzung für die
-Rückerstattung der Verrechnungssteuer bleibt unverändert bestehen. Diese Deklarationspflicht
-ergibt sich aus Artikel 124 Absatz 2 und Artikel 125 Absätze 1 und 2 des Bundesgesetzes vom
-14. Dezember 1990 über die direkte Bundessteuer (DBG; SR 642.11).
-Der neu eingefügte Absatz 2 von Artikel 23 VStG hält fest, unter welchen Voraussetzungen die
-Verwirkung des Anspruchs auf Rückerstattung der Verrechnungssteuer nicht eintritt, obwohl die
-antragstellende Person (steuerpflichtige Person) die steuerbaren Einkünfte gemäss Artikel 23
-Absatz 1 VStG nicht deklariert hatte.
-Parallel zu dieser Änderung hat der Gesetzgeber in Artikel 70d VStG eine Übergangs-
-bestimmung eingeführt.
+3.1.2.2 Nicht rechtskräftig abgeschlossenes Veranlagungs-, Revisions- oder Nachsteuerver-
+    fahren
+Die nachträgliche Deklaration oder Aufrechnung der verrechnungssteuerbelasteten Einkünfte
+muss in einem noch nicht rechtskräftig abgeschlossenen Veranlagungs-, Revisions- oder Nach-
+steuerverfahren erfolgen. Diese steuerbaren Einkünfte müssen nicht zwingend Anlass für die
+Korrektur der steuerbaren Faktoren sein. Auch im Rahmen einer straflosen Selbstanzeige
+(Art. 175 Abs. 3 DBG) bleibt der Rückerstattungsanspruch bei solchen nachdeklarierten Ein-
+künften bestehen, sofern deren ursprüngliche Deklaration fahrlässig unterlassen worden ist.

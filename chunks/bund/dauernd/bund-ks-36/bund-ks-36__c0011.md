@@ -4,24 +4,17 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 11"
-seiten: "3"
+titel: "Ziff. 4.3.1 Allgemeine Kriterien der Abgrenzung (Gesamtwürdigung, Indizien) (Teil 3/3)"
+ziffer: "4.3.1"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.3 Abgrenzung › 4.3.1 · S. 4–5
 
-2. Das Transaktionsvolumen (entspricht der Summe aller Kaufpreise und Verkaufserlöse)
-   pro Kalenderjahr beträgt gesamthaft nicht mehr als das Fünffache des Wertschriften- und
-   Guthabenbestands zu Beginn der Steuerperiode.
-
-3. Das Erzielen von Kapitalgewinnen aus Wertschriftengeschäften bildet keine
-   Notwendigkeit, um fehlende oder wegfallende Einkünfte zur Lebenshaltung zu ersetzen.
-   Das ist regelmässig dann der Fall, wenn die realisierten Kapitalgewinne weniger als 50%
-   des Reineinkommens in der Steuerperiode betragen.
-
-4. Die Anlagen sind nicht fremdfinanziert oder die steuerbaren Vermögenserträge aus den
-   Wertschriften (wie z.B. Zinsen, Dividenden, usw.) sind grösser als die anteiligen
-   Schuldzinsen.
-
-5. Der Kauf und Verkauf von Derivaten (insbesondere Optionen) beschränkt sich auf die
-   Absicherung von eigenen Wertschriftenpositionen.
+Umständen auch bereits alleine zur Annahme einer selbständigen Erwerbstätigkeit
+ausreichen kann. Der Umstand, dass einzelne typische Elemente der selbständigen
+Erwerbstätigkeit im Einzelfall fehlen (z.B. die grosse Häufigkeit der Transaktionen oder der
+Einsatz fremder Mittel), kann durch andere Elemente kompensiert werden, die mit
+besonderer Intensität vorliegen (ASA 73, 299). Für die Beurteilung des „nebenberuflichen
+Beteiligungshandels“ hat das Bundesgericht festgehalten, dass die allgemeinen Indizien
+nach wie vor vollumfänglich anzuwenden sind (2C_385/2011, E. 2.2).

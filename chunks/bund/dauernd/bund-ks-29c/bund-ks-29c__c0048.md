@@ -4,30 +4,29 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 48"
-seiten: "16"
+titel: "Ziff. 6.6 Übertragung zwischen inländischen Konzerngesellschaften (Teil 1/2)"
+ziffer: "6.6"
+seiten: "20-21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.6 Konzerngesellschaften · S. 20–21
 
-Übernimmt eine Kapitalgesellschaft oder Genossenschaft mit echter Unterbilanz eine über
-Reserven verfügende Kapitalgesellschaft oder Genossenschaft oder umgekehrt, erlangen
-die Anteilsinhaber eine geldwerte Leistung im Umfang der untergehenden übrigen Reserven.
+6.6.   Übertragung zwischen inländischen Konzerngesellschaften
 
-6.2.3. Absorption einer Tochtergesellschaft („Up-Stream Merger“)
+a)   Direkte Bundessteuer (Einkommenssteuer)
 
-a)   Direkte Bundessteuer (Gewinnsteuer)
+Nicht betroffen.
 
-Entsteht durch die Übernahme von Aktiven und Passiven der übertragenden Gesellschaft ein
-Buchgewinn, so ist dieser Gewinn Bestandteil des steuerbaren Reingewinns. In der aufneh-
-menden Gesellschaft ist dieser Gewinn aus Fusion den übrigen Reserven zuzurechnen (Art.
-61 Abs. 5 DBG).
+b)   Direkte Bundessteuer (Gewinnsteuer)
 
-b)   Verrechnungssteuer
+Erfolgt die steuerneutrale Übertragung zu Lasten der offenen Reserven einer Tochtergesell-
+schaft an die Muttergesellschaft, stellt der erhaltene Aktivenüberschuss einen Beteiligungser-
+trag dar. Falls der Aktivenüberschuss nicht über die Erfolgsrechnung, sondern direkt über die
+Reserven verbucht wird, qualifiziert der Zugang als übrige Reserve.
 
-Analog zur direkten Bundessteuer qualifiziert der ausgewiesene Buchgewinn als übrige Re-
-serve.
+Erfolgt eine steuerneutrale Übertragung zu Lasten der Reserven der übertragenden Gesell-
+schaft, verbucht die übernehmende Schwestergesellschaft den erhaltenen Aktivenüber-
+schuss spiegelbildlich zu Gunsten ihrer Reserven. Dies gilt sowohl für übrige Reserven als
+auch für KER bzw. Ausland-KER.
 
-6.2.4. Absorption der Muttergesellschaft („Reverse Merger“)
-
-a)   Direkte Bundessteuer (Gewinnsteuer)
+c)   Verrechnungssteuer

@@ -4,7 +4,7 @@ quelle: zh-stg-2025
 jur: zh
 jahre: [2025]
 typ: gesetz
-titel: "§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 2/3)"
+titel: "§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 2/2)"
 artikel: "§ 35"
 seiten: "20-21"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
@@ -27,3 +27,9 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
     | 11% für die weiteren Fr. 62 100
     | 12% für die weiteren Fr. 71 600
     | 13% für Einkommensteile über Fr. 365 800 <sup>2bis</sup> Bei nicht gemeinsam besteuerten Eltern, die mit Kindern unte r gemeinsamer elterlicher Sorge zusammenleben und denen der Kinderabzug je zur Hälfte zusteht, hat derjenige Elternteil Anspruch auf den Verheiratetentarif, der aus seinen versteuerten Einkünften den Unter-
+
+ halt des Kindes zur Hauptsache bestreitet.
+
+**Abs. 3** Der Tarif wird nach den Verhältnissen am Ende der Steuerperiode oder der Steuerpflicht festgelegt.
+
+ . . .

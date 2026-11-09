@@ -924,23 +924,6 @@
 },
 {
 "id": "zh-zstb-30-3__c0054",
-"titel": "K. Abgrenzungskatalog",
-"pfad": [
-"ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"K. Abgrenzungskatalog"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-30-3__c0053",
-"nachher": "zh-zstb-30-3__c0055"
-},
-{
-"id": "zh-zstb-30-3__c0055",
 "titel": "L. Inkrafttreten",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
@@ -953,7 +936,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-30-3__c0054",
+"vorher": "zh-zstb-30-3__c0053",
 "nachher": null
 }
 ]

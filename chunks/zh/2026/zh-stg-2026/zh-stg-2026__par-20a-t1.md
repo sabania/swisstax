@@ -4,7 +4,7 @@ quelle: zh-stg-2026
 jur: zh
 jahre: [2026]
 typ: gesetz
-titel: "§ 20a StG ZH – b. Besondere Fälle (Teil 1/3)"
+titel: "§ 20a StG ZH – b. Besondere Fälle (Teil 1/2)"
 artikel: "§ 20a"
 seiten: "11-12"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}

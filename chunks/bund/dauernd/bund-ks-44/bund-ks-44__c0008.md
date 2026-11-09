@@ -4,23 +4,20 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 8"
-seiten: "2"
+titel: "Ziff. 3.1 Rechtsgrundlage – Mindestbemessung Art. 14 Abs. 3 DBG (Teil 1/2)"
+ziffer: "3.1"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.1 Rechtsgrundlage · S. 3–4
 
-2.2   Kein Schweizer Bürgerrecht
-Nur ausländische Staatsangehörige können die Aufwandbesteuerung beantragen.
-Schweizerische Staatsangehörige, die ein weiteres Bürgerrecht besitzen, gelten nicht als Aus-
-länder und erfüllen die Voraussetzungen für eine Aufwandbesteuerung somit nicht.
-Das Recht auf Aufwandbesteuerung erlischt, wenn die steuerpflichtige Person das Schweizer
-Bürgerrecht erwirbt. In diesem Fall ist für die ganze Steuerperiode, in der die Einbürgerung er-
-folgt, die ordentliche Einkommenssteuer zu entrichten.
-Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, können die Aufwandbesteu-
-erung nicht beanspruchen, wenn einer von ihnen das Schweizer Bürgerrecht besitzt (siehe
-dazu Botschaft S. 6034 zu Art. 14 Abs. 2 DBG).
+3 Objektive Voraussetzungen für die Aufwandbesteuerung
 
-2.3   Zuzug in die Schweiz ohne Erwerbstätigkeit
-Ausländische Staatsangehörige, die erstmals oder nach mindestens zehnjähriger Landesabwe-
-senheit in der Schweiz steuerrechtlichen Wohnsitz oder Aufenthalt nach Artikel 3 DBG nehmen,
+3.1   Rechtsgrundlage
+Die Steuer nach dem Aufwand wird gemäss Artikel 14 Absatz 3 DBG nach den jährlichen, in
+der Bemessungsperiode im In- und Ausland entstandenen Lebenshaltungskosten der steuer-
+pflichtigen Person und der von ihr unterhaltenen Personen, mindestens aber nach dem höchs-
+ten der folgenden Beträge bemessen:
+    a. 400 000 Franken;
+    b. für steuerpflichtige Personen mit eigenem Haushalt: dem Siebenfachen des jährlichen
+    Mietzinses oder des Mietwerts nach Artikel 21 Absatz 1 Buchstabe b DBG;

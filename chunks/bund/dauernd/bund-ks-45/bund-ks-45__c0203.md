@@ -4,27 +4,23 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 203"
-seiten: "53"
+titel: "Ziff. 11.1 Nachträgliche ordentliche Veranlagung – Grundsätze und Anrechnung"
+ziffer: "11.1"
+seiten: "64"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 53
+> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.1 Allgemeine Grundsätze · S. 64
 
-    Beispiel:
-    - Der Arbeitnehmer T erhält von der Versicherung ein Krankentaggeld von brutto CHF 1 800.00 für 12 Ka-
-    lendertage (direkt ausbezahlt). Er übt eine Erwerbstätigkeit mit einem Pensum von 60 % bei seinem Ar-
-    beitgeber, der F. AG aus, und erhält dafür einen Bruttojahreslohn von CHF 39 000.00 (CHF 3 000 x 13).
+11   Nachträgliche ordentliche Veranlagung und Neuberechnung der Quellen-
+    steuer
 
-    Monat   Januar   Februar   …   November   Dezember   Besteuerung
-    Bruttolohn   3 000   3 000   3 000   6 000   39 000
-
-    Krankentaggeld   1 8001   1 800   1 800   1 800   21 600
-    Tarifcode Arbeitgeber   A0   A0   A0   A0
-    Tarifcode Versicherung   G   G   G   G
-    Steuersatz Arbeitgeber (%)   10,42   10,4   10,4   10,4
-    Steuersatz Versicherung (%)   5,73   5,7   5,7   5,7
-    1 = Beschäftigungsgrad 40 % (12 x 100 / 30).
-
-    2 = A0 mit satzbestimmendem Jahreslohn von CHF 65 000.00 (CHF 39 000 / 60 %).
-
-    3 = G mit satzbestimmendem Jahreslohn von CHF 54 000.00 (CHF 21 600 / 40 %).
+11.1 Allgemeine Grundsätze bei der nachträglichen ordentlichen Veranlagung
+Bei einer nachträglichen ordentlichen Veranlagung finden die ordentlichen Verfahrensbestim-
+mungen (vgl. Art. 122 ff. DBG) sowie die Steueranlage bzw. der Steuerfuss der anspruchs-
+berechtigten Gemeinde Anwendung. Die geschuldete Einkommenssteuer (auf Bundes-, Kan-
+tons- und Gemeindeebene) und die Vermögenssteuer (auf Kantons- und Gemeindeebene)
+werden aufgrund der ausgefüllten Steuererklärung ermittelt. Das steuerbare Einkommen be-
+misst sich nach den Einkünften des betreffenden Steuerjahres, wobei das gesamte weltweite
+Einkommen (und das Vermögen auf kantonaler Ebene) satzbestimmend berücksichtigt wird.
+Allfällige bereits bezahlte Quellensteuern werden zinslos an die ordentliche Steuer angerech-
+net (vgl. Art. 89 Abs. 6, Art. 89a Abs. 5 sowie Art. 99a Abs. 2 DBG).

@@ -9,22 +9,29 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Kapitalleistungen aus Vorsorge
 
-    Auch bei der Bundessteuer werden Kapitalleistungen gesondert besteuert. Die direkte Bundessteuer beträgt jeweils ein Fünftel der ordentlichen Tarife gemäss Artikel 36 DBG.
-
-Steuersatz bei Staats- und Gemeindesteuern
+Veranlagter Betrag
 :   ### Frage
 
-    Wie ist der Steuersatz bei den Staats- und Gemeindesteuern zu verstehen?
+    Mir ist unklar, wie sich der veranlagte Betrag zusammensetzt.
 
     ### Antwort
 
-    Die einfache Steuer auf Kapitalleistungen aus Vorsorge beträgt für Verheiratete in ungetrennter Ehe einheitlich 2%. Dies gilt ebenfalls für am Ende der Steuerperiode in ungetrennter Partnerschaft lebenden Personen. Unter bestimmten Voraussetzungen kommt dieser Steuersatz auch bei Alleinerziehenden zur Anwendung. Für alle übrigen Steuerpflichtigen beträgt die einfache Steuer einheitlich 2.4%.
+    Die Details der Veranlagung entnehmen Sie bitte der Rückseite.
 
-Tarif bei Scheidung
+Veranlagung für Kapitalleistung
 :   ### Frage
 
-    Ich habe mich im 2026 scheiden lassen. Zu welchem Tarif wird die Kapitalleistung besteuert?
+    Warum habe ich eine Veranlagung für Kapitalleistungen erhalten?
 
     ### Antwort
 
-    Massgebend für den anzuwendenden Steuersatz sind die Verhältnisse am Ende der Steuerperiode oder am Ende der Steuerpflicht.
+    Gemäss einer Meldung der eidgenössischen Steuerverwaltung haben Sie eine Kapitalleistung aus Vorsorge erhalten. Mit der erhaltenen Steuerveranlagung wird grundsätzlich die anfallende Steuerschuld festgesetzt. Kapitalleistungen werden gesondert vom übrigen Einkommen besteuert.
+
+Veranlagung ohne Einzahlungsschein
+:   ### Frage
+
+    Der Veranlagung liegt kein Einzahlungsschein bei.
+
+    ### Antwort
+
+    Die Schlussrechnung mit Einzahlungsschein erhalten Sie nach Ablauf der 30-tägigen Einsprachefrist von den entsprechenden Bezugsstellen.

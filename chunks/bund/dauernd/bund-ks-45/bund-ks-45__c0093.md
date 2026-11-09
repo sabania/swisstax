@@ -4,33 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 93"
-seiten: "23"
+titel: "Ziff. 6.7 Ausscheidung ausländischer Arbeitstage – Ansässige und Monteurklausel"
+ziffer: "6.7"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.7 Ausscheidung ausländischer Arbeitstage · S. 30
 
-    Beispiele:
-    1. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 100 %):
-    Arbeitnehmer Z. ist bei der F. AG, Bern, und bei der K. AG, Thun, angestellt und erzielt folgende Lohnein-
-    kommen:
-
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    F. AG (CH)   50 %   4 500   9 000
-
-    K. AG (CH)   50 %   4 000   8 000
-
-    2. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 90 %):
-    Arbeitnehmer Z. ist bei der M. AG, Bern, und bei der T. AG, Thun, angestellt und erzielt folgende Lohnein-
-    kommen (beiden Arbeitgebern ist das jeweils andere Pensum nicht bekannt):
-
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    M. AG (CH)   50 %   4 500   9 000
-
-    T. AG (CH)   40 %   4 400   11 000
-
-    3. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 90 %):
-    Arbeitnehmer Z. ist bei der M. AG, Bern, und bei der T. AG, Thun, angestellt und erzielt folgende Lohnein-
-    kommen (beiden Arbeitgebern ist das jeweils andere Pensum bekannt):
+6.7   Ausscheidung von im Ausland geleisteten Arbeitstagen
+Quellensteuerpflichtige Personen mit Ansässigkeit in der Schweiz, welche für einen schwei-
+zerischen Arbeitgeber im Ausland Arbeitstage leisten, sind nach internem Recht grundsätz-
+lich auch für das Lohneinkommen dieser ausländischen Arbeitstage in der Schweiz steuer-
+pflichtig. Sind jedoch gemäss anwendbarem DBA die Voraussetzungen der Monteurklausel
+(vgl. Art. 15 OECD-MA) nicht erfüllt, fällt die Steuerbefugnis dem Tätigkeitsstaat zu.
+Bei quellensteuerpflichtigen Personen ohne Ansässigkeit in der Schweiz, die eine unselbst-
+ständige Erwerbstätigkeit bei einem Arbeitgeber mit Sitz oder Betriebsstätte bzw. tatsächli-
+cher Verwaltung in der Schweiz ausüben, kann der Schuldner der steuerbaren Leistung die
+Ausscheidung von im Ausland geleisteten Arbeitstagen gemäss innerstaatlichem Recht wie
+folgt vornehmen:

@@ -1,352 +1,550 @@
 [
 {
 "id": "sg-stb-34-1__c0001",
-"titel": "StB 34 Nr. 1 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Eigenmietwert – Rechtsgrundlagen und Marktwertprinzip (Art. 34 StG)",
+"pfad": [
+"1. Rechtsgrundlagen / Marktwertprinzip"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Eigenmietwert",
+"Marktwert",
+"Art. 34 StG SG",
+"Nutzniessung Wohnrecht",
+"unterjährig Kauf Verkauf"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Der Mietwert selbstgenutzter Grundstücke ist steuerbar (Art. 34 Abs. 1 Bst. b StG) und bemisst sich am Marktwert; bei unterjähriger Eigentumsdauer nur anteilsmässig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-stb-34-1__c0002"
 },
 {
 "id": "sg-stb-34-1__c0002",
-"titel": "StB 34 Nr. 1 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 2/2.1 Ermittlung des Eigenmietwertes – Schätzung GGS und DBSt",
+"pfad": [
+"2. Ermittlung",
+"2.1 Mietwert gemäss Schätzung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1",
+"stichworte": [
+"Grundstückschätzung",
+"GGS",
+"Neuschätzung",
+"Eigenmietwert anfechtbar",
+"direkte Bundessteuer"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Der rechtskräftig geschätzte Mietwert ist im Jahr der Schätzung verbindlich; Neubeurteilung von Amtes wegen nur bei nachgewiesener Sachverhaltsänderung; gleiche Ansätze bei der DBSt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0001",
 "nachher": "sg-stb-34-1__c0003"
 },
 {
 "id": "sg-stb-34-1__c0003",
-"titel": "StB 34 Nr. 1 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2.2 Vorzugsmiete – Aufhebung ab 2024, Steuerumgehung (Hälfte-Grenze)",
+"pfad": [
+"2. Ermittlung",
+"2.2 Vorzugsmiete und Gebrauchsleihe"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"Vorzugsmiete",
+"verbilligte Miete",
+"nahestehende Person",
+"BGE 146 II 97",
+"Steuerumgehung",
+"Vermietung an Kinder"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Ab Steuerperiode 2024 wird die Vorzugsmiete nicht mehr aufgerechnet, ausser bei Steuerumgehung, etwa wenn der Mietzins unter der Hälfte des Marktmietwerts liegt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0002",
 "nachher": "sg-stb-34-1__c0004"
 },
 {
 "id": "sg-stb-34-1__c0004",
-"titel": "StB 34 Nr. 1 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2.2 Unterpreisige Vermietung durch/an Kapitalgesellschaft oder Selbständige",
+"pfad": [
+"2. Ermittlung",
+"2.2 Vorzugsmiete und Gebrauchsleihe"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"Kapitalgesellschaft",
+"Gewinnvorwegnahme",
+"Geschäftsliegenschaft",
+"geldwerte Leistung",
+"Marktwertprinzip"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Vermietet eine Kapitalgesellschaft unterpreislich an eine beteiligte Person, liegt eine Gewinnvorwegnahme vor; bei Geschäftsliegenschaften gilt Art. 31 StG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0003",
 "nachher": "sg-stb-34-1__c0005"
 },
 {
 "id": "sg-stb-34-1__c0005",
-"titel": "StB 34 Nr. 1 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2.2 Gebrauchsleihe – unentgeltliche Überlassung, Nutzniessung/Wohnrecht",
+"pfad": [
+"2. Ermittlung",
+"2.2 Vorzugsmiete und Gebrauchsleihe"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"Gebrauchsleihe",
+"unentgeltliche Überlassung",
+"Wohnrecht",
+"Nutzniessung",
+"Marktmietwert"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Bei Gebrauchsleihe versteuert der Eigentümer den vollen Marktmietwert; ein unentgeltliches Nutzungsrecht liegt nur bei im Grundbuch eingetragener Nutzniessung oder eingetragenem Wohnrecht ohne periodisches Entgelt vor.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0004",
 "nachher": "sg-stb-34-1__c0006"
 },
 {
 "id": "sg-stb-34-1__c0006",
-"titel": "StB 34 Nr. 1 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 2.2 Überlassung an Ehegatten bei Trennung/Scheidung",
+"pfad": [
+"2. Ermittlung",
+"2.2 Vorzugsmiete und Gebrauchsleihe"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"Trennung",
+"Scheidung",
+"Eigenheim Ehegatte",
+"Unterhaltsbeitrag Eigenmietwert",
+"Alimente"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"abzug.unterhaltsbeitraege",
+"einkommen.unterhaltsbeitraege"
+],
+"zusammenfassung": "Überlässt der Eigentümer das Eigenheim dem unterhaltsberechtigten Ehegatten, versteuert er den Eigenmietwert und kann ihn als Unterhaltsbeitrag abziehen; der Berechtigte versteuert einen Unterhaltsbeitrag.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0005",
 "nachher": "sg-stb-34-1__c0007"
 },
 {
 "id": "sg-stb-34-1__c0007",
-"titel": "StB 34 Nr. 1 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 2.3 Baurechtsgrundstück – Mietwert nur des Gebäudes",
+"pfad": [
+"2. Ermittlung",
+"2.3 Baurechtsgrundstück"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3",
+"stichworte": [
+"Baurecht",
+"Baurechtszins",
+"Eigenheim im Baurecht"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Beim Eigenheim im Baurecht wird nur der Mietwert des Gebäudes angerechnet; der Baurechtszins ist im amtlichen Mietwert bereits berücksichtigt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0006",
 "nachher": "sg-stb-34-1__c0008"
 },
 {
 "id": "sg-stb-34-1__c0008",
-"titel": "StB 34 Nr. 1 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 2.4 Herabsetzung des Eigenmietwertes um 30 % bei Selbstbewohnen (Teil 1/3)",
+"pfad": [
+"2. Ermittlung",
+"2.4 Herabsetzung bei Selbstbewohnen"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.4",
+"stichworte": [
+"30 Prozent Reduktion",
+"Selbstnutzung",
+"Zweitwohnung",
+"Ferienwohnung",
+"Miteigentum",
+"Eigenmietwert 70 %"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"sozialabzug.eigenmietwert"
+],
+"zusammenfassung": "Der Mietwert des am Wohnsitz dauernd selbst bewohnten Eigenheims wird um 30 Prozent herabgesetzt (Art. 34 Abs. 3 StG); keine Herabsetzung bei Zweit-/Ferienwohnungen und vermieteten Objekten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0007",
 "nachher": "sg-stb-34-1__c0009"
 },
 {
 "id": "sg-stb-34-1__c0009",
-"titel": "StB 34 Nr. 1 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 2.4 Herabsetzung des Eigenmietwertes um 30 % bei Selbstbewohnen (Teil 2/3)",
+"pfad": [
+"2. Ermittlung",
+"2.4 Herabsetzung bei Selbstbewohnen"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.4",
+"stichworte": [
+"30 Prozent Reduktion",
+"Selbstnutzung",
+"Zweitwohnung",
+"Ferienwohnung",
+"Miteigentum",
+"Eigenmietwert 70 %"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"sozialabzug.eigenmietwert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0008",
 "nachher": "sg-stb-34-1__c0010"
 },
 {
 "id": "sg-stb-34-1__c0010",
-"titel": "StB 34 Nr. 1 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 2.4 Herabsetzung des Eigenmietwertes um 30 % bei Selbstbewohnen (Teil 3/3)",
+"pfad": [
+"2. Ermittlung",
+"2.4 Herabsetzung bei Selbstbewohnen"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.4",
+"stichworte": [
+"30 Prozent Reduktion",
+"Selbstnutzung",
+"Zweitwohnung",
+"Ferienwohnung",
+"Miteigentum",
+"Eigenmietwert 70 %"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"sozialabzug.eigenmietwert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0009",
 "nachher": "sg-stb-34-1__c0011"
 },
 {
 "id": "sg-stb-34-1__c0011",
-"titel": "StB 34 Nr. 1 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 2.5 Unternutzungsabzug – Voraussetzungen (Teil 1/2)",
+"pfad": [
+"2. Ermittlung",
+"2.5 Unternutzungsabzug"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.5",
+"stichworte": [
+"Unternutzung",
+"nicht benutzte Zimmer",
+"Auszug der Kinder",
+"BGE 135 II 416",
+"Raumreserve"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"sozialabzug.eigenmietwert"
+],
+"zusammenfassung": "Der Unternutzungsabzug wird nur auf Antrag und restriktiv gewährt: bei Selbstnutzung am Wohnsitz, tatsächlicher und dauernder Nichtbenutzung von Räumen, ohne Einfluss der steuerpflichtigen Person.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0010",
 "nachher": "sg-stb-34-1__c0012"
 },
 {
 "id": "sg-stb-34-1__c0012",
-"titel": "StB 34 Nr. 1 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 2.5 Unternutzungsabzug – Voraussetzungen (Teil 2/2)",
+"pfad": [
+"2. Ermittlung",
+"2.5 Unternutzungsabzug"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.5",
+"stichworte": [
+"Unternutzung",
+"nicht benutzte Zimmer",
+"Auszug der Kinder",
+"BGE 135 II 416",
+"Raumreserve"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"sozialabzug.eigenmietwert"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0011",
 "nachher": "sg-stb-34-1__c0013"
 },
 {
 "id": "sg-stb-34-1__c0013",
-"titel": "StB 34 Nr. 1 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 2.5 Berechnung Unternutzungsabzug – Formel und Beispiel",
+"pfad": [
+"2. Ermittlung",
+"2.5 Unternutzungsabzug"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.5",
+"stichworte": [
+"Unternutzungsabzug Berechnung",
+"Zimmer + 2",
+"6-Zimmerwohnung",
+"Fr. 2'625"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Abzug = um 30 % reduzierter Eigenmietwert x nicht benutzte Zimmer / (Anzahl Zimmer + 2); Beispiel 6 Zimmer, Mietwert Fr. 30'000, ein Raum ungenutzt: Fr. 2'625.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0012",
 "nachher": "sg-stb-34-1__c0014"
 },
 {
 "id": "sg-stb-34-1__c0014",
-"titel": "StB 34 Nr. 1 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 2.6.1–2.6.2 Härtefallregelung – Allgemeines, selbstbewohntes Eigenheim",
+"pfad": [
+"2. Ermittlung",
+"2.6 Härtefallregelung"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.6.1–2.6.2",
+"stichworte": [
+"Härtefall",
+"Rentner Eigenmietwert",
+"60 % der Marktmiete",
+"nur Kanton und Gemeinde",
+"von Amtes wegen"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"sozialabzug.eigenmietwert"
+],
+"zusammenfassung": "Seit 1. Januar 2016 gibt es bei der Kantons-/Gemeindesteuer einen Härtefallabzug im AHV-Rentenalter; Reduktion unter 60 % der mittleren Marktmiete ausgeschlossen, Prüfung von Amtes wegen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0013",
 "nachher": "sg-stb-34-1__c0015"
 },
 {
 "id": "sg-stb-34-1__c0015",
-"titel": "StB 34 Nr. 1 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 2.6.3 Härtefall – Person im ordentlichen AHV-Rentenalter",
+"pfad": [
+"2. Ermittlung",
+"2.6 Härtefallregelung"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.6.3",
+"stichworte": [
+"Referenzalter",
+"AHV-Alter",
+"Ehepaar eine Person",
+"Rentenbezug unerheblich"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Massgebend ist das Erreichen des AHV-Referenzalters, nicht der Rentenbezug; bei Ehepaaren genügt eine Person, Stand Ende Steuerperiode.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0014",
 "nachher": "sg-stb-34-1__c0016"
 },
 {
 "id": "sg-stb-34-1__c0016",
-"titel": "StB 34 Nr. 1 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 2.6.4 Härtefall – Missverhältnis: 30 % der Bruttoeinkünfte, Vermögen max. Fr. 600'000",
+"pfad": [
+"2. Ermittlung",
+"2.6 Härtefallregelung"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.6.4",
+"stichworte": [
+"Missverhältnis",
+"Bruttoeinkünfte",
+"Vermögen Fr. 600'000",
+"Ergänzungsleistungen",
+"Hilflosenentschädigung"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Missverhältnis, wenn der anrechenbare Mietwert 30 % der Bruttoeinkünfte übersteigt und das steuerbare Vermögen höchstens Fr. 600'000.-- beträgt; Bruttoeinkünfte werden definiert (u.a. plus Ergänzungsleistungen, Hilflosenentschädigungen).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0015",
 "nachher": "sg-stb-34-1__c0017"
 },
 {
 "id": "sg-stb-34-1__c0017",
-"titel": "StB 34 Nr. 1 – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 2.6.5 Berechnung des Härtefalleinschlags – Grundsatz",
+"pfad": [
+"2. Ermittlung",
+"2.6 Härtefallregelung"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.6.5",
+"stichworte": [
+"Härtefalleinschlag",
+"maximal 10 % der Marktmiete",
+"Untergrenze 60 %"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Härtefalleinschlag = positive Differenz zwischen anrechenbarem Eigenmietwert und 30 % der Bruttoeinkünfte, höchstens 10 % der Marktmiete (Untergrenze 60 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0016",
 "nachher": "sg-stb-34-1__c0018"
 },
 {
 "id": "sg-stb-34-1__c0018",
-"titel": "StB 34 Nr. 1 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 2.6.5 Beispiel Härtefalleinschlag (Bruttoeinkünfte Fr. 40'000, Marktmietwert Fr. 24'000)",
+"pfad": [
+"2. Ermittlung",
+"2.6 Härtefallregelung"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.6.5",
+"stichworte": [
+"Beispiel Härtefall",
+"Fr. 2'400",
+"Fr. 4'800",
+"Marktmietwert Fr. 24'000"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Beispiel: Bruttoeinkünfte Fr. 40'000, Marktmietwert Fr. 24'000; Differenzen Fr. 4'800 und Fr. 2'400, Härtefalleinschlag die kleinere Differenz von Fr. 2'400.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0017",
 "nachher": "sg-stb-34-1__c0019"
 },
 {
 "id": "sg-stb-34-1__c0019",
-"titel": "StB 34 Nr. 1 – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 2.7 Verhältnis Unternutzungsabzug / Härtefallregelung",
+"pfad": [
+"2. Ermittlung",
+"2.7 Verhältnis"
+],
 "seiten": [
-5
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.7",
+"stichworte": [
+"Unternutzung und Härtefall",
+"unter 60 % Marktmietwert"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Nur beim Unternutzungsabzug kann der steuerbare Mietwert unter 60 % des Marktmietwerts sinken; in diesem Fall greift der Härtefalleinschlag nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-1__c0018",
 "nachher": "sg-stb-34-1__c0020"
 },
 {
 "id": "sg-stb-34-1__c0020",
-"titel": "StB 34 Nr. 1 – Abschnitt 20",
-"pfad": [],
-"seiten": [
-5
+"titel": "Ziff. 3 Unterhaltskostenpauschale bei Eigenheimen – 20 % des Eigenmietwertes",
+"pfad": [
+"3. Höhe der Unterhaltskostenpauschale"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-34-1__c0019",
-"nachher": "sg-stb-34-1__c0021"
-},
-{
-"id": "sg-stb-34-1__c0021",
-"titel": "StB 34 Nr. 1 – Abschnitt 21",
-"pfad": [],
-"seiten": [
-5
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-34-1__c0020",
-"nachher": "sg-stb-34-1__c0022"
-},
-{
-"id": "sg-stb-34-1__c0022",
-"titel": "StB 34 Nr. 1 – Abschnitt 22",
-"pfad": [],
 "seiten": [
 6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-34-1__c0021",
+"ziffer": "3",
+"stichworte": [
+"Unterhaltskostenpauschale",
+"20 Prozent",
+"Art. 29 StV",
+"Pauschale Eigenheim"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Die Pauschale beträgt bei Eigenheimen 20 % des angerechneten (herabgesetzten) steuerbaren Eigenmietwertes (Art. 29 Abs. 1 StV).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-stb-34-1__c0019",
 "nachher": null
 }
 ]

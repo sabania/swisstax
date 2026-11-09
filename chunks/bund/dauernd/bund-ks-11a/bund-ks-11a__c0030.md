@@ -4,16 +4,16 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 30"
-seiten: "7"
+titel: "Ziff. 4.3.6 Fahrzeugumbau, Pauschale Transport CHF 2'500"
+ziffer: "4.3.6"
+seiten: "9-10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9–10
 
-1 Ein Pflegeaufwand von täglich mindestens 61 Minuten wird jeweils mit den Pflegestufen 4-12 erreicht (vgl. Messung
-
-  des Pflegebedarfs in Artikel 7a der Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversi
-  cherung [Krankenpflege-Leistungsverordnung, KLV; SR 832.112.31]). Diese Pflegestufen sind in den Pflegebe
-  darfsermittlungsinstrumenten BESA (= BewohnerInnen-Einstufungs- und Abrechnungssystem), RAI-NH Schweiz (=
-  Resident Assessment Instrument Nursing Home), interRAI LTCF CH (= Long-Term Care Facilities Schweiz) sowie
-  PLAISIR abgebildet.
+Abzugsfähig sind auch die Kosten einer behinderungsbedingten Abänderung eines (einzigen)
+Fahrzeugs oder von speziellem Zubehör (z.B. Rampen für den Verlad von Rollstühlen).
+Auch Personen, die keine Hilflosenentschädigung beziehen, aber aufgrund ihrer Behinderung
+nachweislich regelmässig (i.d.R. mindestens einmal pro Woche) medizinische Einrichtungen
+(Ärztin oder Arzt, Spital etc.) aufsuchen müssen, können anstelle der effektiven selbstgetrage
+nen Transportkosten einen Pauschalabzug von CHF. 2‘500.- geltend machen.

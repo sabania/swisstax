@@ -9,17 +9,8 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
-    Ein Fristwiederherstellungsgrund wäre gegeben, wenn er überraschend aus persönlichen oder geschäftlichen Gründen ins Ausland hätte verreisen müssen. Ein Auslandaufenthalt zu Ferienzwecken ist kein stichhaltiger Entschuldigungsgrund. Es wird deshalb keine Fristwiederherstellung gewährt.
+    Bei Personen mit beschränkter Steuerpflicht infolge wirtschaftlicher Zugehörigkeit (ohne Wohnsitz im Kanton) ist das Gemeindesteueramt zuständig, in welcher der Grund für die beschränkte Steuerpflicht im Kanton liegt (Liegenschaftsort, Geschäftsort bei selbständiger Erwerbstätigkeit).
 
-    Detailliertere Ausführungen zur Fristerstreckung finden Sie in der Thurgauer Steuerpraxis in Weisung
+    Steuerpflichtige Personen, welche die angesetzte Einreichungsfrist nicht einhalten können, stellen beim zuständigen Gemeindesteueramt schriftlich ein begründetes Gesuch um Fristverlängerung. Die meisten Gemeinden bieten die Möglichkeit, eine Fristverlängerung online über Internet zu beantragen (sogenannte "eFristverlängerung"). Sofern das für Sie zuständige Gemeindesteueramt diesen Service anbietet, finden Sie den Einstieg zur eFristverlängerung auf der Homepage Ihrer Gemeinde.
 
-    - [StP 164 Nr. 2 "Fristwiederherstellung"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-164-nr-2-fristwiederherstellung&version=latest)
-
-Fristverlängerung
-:   ### Frage:
-
-    Es ist mir leider nicht möglich, die Steuererklärung fristgerecht einzureichen. Was kann ich tun?
-
-    ### Antwort:
-
-    Zuständig für die Erteilung von Fristverlängerungen zur Einreichung von Steuererklärungen Natürlicher Personen ist bei Personen mit unbeschränkter Steuerpflicht infolge persönlicher Zugehörigkeit das Gemeindesteueramt der Wohngemeinde.
+    Detaillierte Informationen zur Fristverlängerung finden Sie in der Thurgauer Steuerpraxis in der Weisung:

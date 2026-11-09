@@ -4,20 +4,21 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 6"
+titel: "Ziff. 10–12 Bauland Mehrfamilienhäuser und Stockwerkeigentum – Lageklassen"
+ziffer: "10–12"
 seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 3
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · II. Unüberbautes Land › 3. Landwerte › Mehrfamilienhäuser und Stockwerkeigentum · S. 3
 
-<!-- Seite 3 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-    Dabei ist unter anderem zu berücksichtigen, dass   8
-–   eine ausreichende Zahl von Vergleichshandänderungen in den ein-
-    zelnen Gemeinden fehlt, weshalb die steuerlich massgebenden
-    Landwerte auf indirektem Weg zu ermitteln sind,
-–   die festzulegenden Werte, trotz der nachstehenden Differenzierun-
-    gen, auf eine Vielzahl von Fällen zur Anwendung gelangen, wes-
-    halb Zurückhaltung geboten ist.
-   Im Übrigen hängt die Ermittlung der steuerlich massgebenden 9
-Landwerte von der Bauland-Kategorie ab.
+Bauland für Mehrfamilienhäuser und Stockwerkeigentum
+    Für jede Gemeinde wird eine Preisbandbreite festgelegt.   10
+   Innerhalb einer Gemeinde werden die Grundstücke bestimmten 11
+Lageklassen zugeordnet. Im Rahmen der Preisbandbreite wird für jede
+Lageklasse der steuerlich massgebende Landwert festgelegt.
+    Dabei sind insbesondere zu berücksichtigen:   12
+–   Lage der Gemeinde innerhalb des Kantons,
+–   Vergleichspreise für unüberbaute und überbaute Grundstücke in
+    der Gemeinde,
+–   Lage der Grundstücke innerhalb der Gemeinde,
+–   mittlere Preise für unüberbaute Grundstücke im ganzen Kanton.

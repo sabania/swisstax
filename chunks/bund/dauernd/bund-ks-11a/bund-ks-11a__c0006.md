@@ -4,15 +4,17 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 6"
-seiten: "1"
+titel: "Ziff. 3.1 Bst. a–f Nicht abzugsfähige Lebenshaltungskosten (Teil 2/2)"
+ziffer: "3.1 a–f"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3–4
 
-4.3.6   Transport- und Fahrzeugkosten ................................................................................ 9
-4.3.7   Kosten für Blindenführhunde und Assistenzhunde .................................................. 10
-4.3.8   Kosten für Hilfsmittel, Pflegeartikel und Kleider....................................................... 10
-4.3.9   Wohnkosten............................................................................................................ 10
-4.3.10   Kosten für Privatschulen ......................................................................................... 10
-4.4   Pauschalen bei Hilflosenentschädigungen ........................................................ 10
+    e. ohnehin im Rahmen der privaten Lebenshaltung anfallen würden und durch einen Spital
+    aufenthalt eingespart werden können (z. B. Spitalkostenbeiträge, welche hauptsächlich
+    Verpflegungskosten abdecken);
+    f. für zusätzlichen Komfort anfallen, die nicht medizinisch indiziert sind oder lediglich der Be
+    quemlichkeit dienen (z. B. zusätzliche Hotelleriekosten auf der halbprivaten bzw. privaten
+    Abteilung, Zimmer-Upgrade; vgl. Urteil des Bundesgerichts 2C_404/2020 vom 16. De
+    zember 2020 E. 3.6 und 3.7).

@@ -4,28 +4,25 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 55"
-seiten: "18"
+titel: "Ziff. 7.3 Spaltung kotierter Gesellschaften (Teil 1/2)"
+ziffer: "7.3"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 7 Umstrukturierungen kotierter Gesellschaften › 7.3 Spaltung · S. 23
 
-<!-- Seite 18 -->
-6.3.2. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in einen Verein,
-    in eine Stiftung oder eine übrige juristische Person
+7.3.   Spaltung
 
 a)   Direkte Bundessteuer (Einkommenssteuer)
 
-Die Umwandlung kommt steuerlich einer Liquidation gleich. Der Liquidationsüberschuss
-(Verkehrswert des Aktivenüberschusses abzüglich des Nennwertes und der KER bzw. Aus-
-land-KER) unterliegt bei den bisher beteiligten natürlichen Personen der Einkommenssteuer.
+Die bei einer Spaltung den Inhabern der gesellschaftlichen Beteiligungsrechte an der über-
+nehmenden Gesellschaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unter-
+liegen nach Artikel 20 Absatz 1 Buchstabe c DBG der Einkommenssteuer, soweit sie nicht zu
+Lasten des Nennwerts der Beteiligungsrechte oder der Ausland-KER der übertragenden Ge-
+sellschaft erfolgen. Für Gratisaktien und Gratisnennwerterhöhungen aus KER gelten die
+Bestimmungen gemäss Ziff. 5.1.5. hiervor.
+
+Erfolgt die Spaltung nicht gewinnsteuerneutral, liegt eine Vorteilszuwendung unter Schwes-
+tergesellschaften (vgl. Ziff. 2.2.1. hiervor) vor.
 
 b)   Verrechnungssteuer
-
-Die Umwandlung einer Kapitalgesellschaft oder Genossenschaft in einen Verein, in eine Stif-
-tung oder in eine übrige juristische Person kommt steuerlich einer Liquidation gleich. Auf
-dem Liquidationsüberschuss (Verkehrswert des Aktivenüberschusses abzüglich des Nenn-
-wertes und der KER bzw. Ausland-KER) ist die Verrechnungssteuer geschuldet.
-
-6.3.3. Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Per-
-    son in eine Kapitalgesellschaft oder Genossenschaft

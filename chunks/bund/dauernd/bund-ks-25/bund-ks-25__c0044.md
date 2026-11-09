@@ -4,22 +4,27 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 44"
-seiten: "10"
+titel: "Anhang II Steuerbare Einkünfte aus Anteilen mit direktem Grundbesitz"
+ziffer: "Anhang II"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang II · S. 14
 
-5.6   Einanlegerfonds
-Einanlegerfonds sind für direktsteuerliche Zwecke zulässig, wenn der Anleger ausschliess-
-lich eine öffentlich-rechtliche Körperschaft, eine Vorsorgeeinrichtung mit professioneller Tre-
-sorerie oder eine beaufsichtigte Versicherungseinrichtung ist (Art. 7 Abs. 3 KAG i.V.m. Art.
-10 Abs. 3 KAG und Art. 5 Abs. 4 KKV).
+Steuerbare Einkünfte aus Anteilen an kollektiven Kapitalanlagen mit direktem Grundbesitz:
 
-In allen anderen Fällen sind für die steuerliche Anerkennung einer kollektiven Kapitalanlage
-mindestens zwei voneinander unabhängige Anlegerinnen und Anleger erforderlich (vgl. Ziff.
-2 hiervor).
+Einkünfte aus Anteilen von kollektiven Kapitalanlagen mit direktem Grundbesitz sind steuer-
+bar, soweit die Gesamterträge der kollektiven Kapitalanlage die Erträge aus direktem Grund-
+besitz übersteigen. Die Ausschüttungen und die Reserven sind daher aufgrund ihrer Her-
+kunft in folgende zwei Kategorien aufzuteilen:
+    a) Versteuerter Vermögensertrag inklusive Kapital- und Aufwertungsgewinne aus direk-
+    tem Grundbesitz.
+    b) Vermögensertrag aus indirektem Grundbesitz, übrigem Vermögen sowie Ertrag aus
+    der Auflösung von vor dem 1. Januar 1995 gebildeten Rückstellungen auf direktem
+    Grundbesitz (i.d.R. Unterhalts- und Amortisationsfonds).
 
-6   Inkrafttreten
-Das vorliegende Kreisschreiben tritt mit seiner Publikation in Kraft und ersetzt das Kreis-
-schreiben Nr. 25 vom 5. März 2009.
+Gebühren, welche die der Verrechnungssteuer unterliegenden Erträge betreffen, dürfen die-
+sen belastet werden. Die Belastung darf jeweils höchstens 1.5% (Betriebsaufwandquote =
+Total Expense Ratio / TERREF) des Gesamtfondvermögens dieser Anlagen betragen. Liegt
+der Totalbetrag der Gebühren unter der Grenze von 1.5%, so ist nur der geringere Betrag
+abzugsfähig.

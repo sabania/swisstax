@@ -4,24 +4,25 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 7"
-seiten: "2"
+titel: "Ziff. 2.3 Übertragung Personenunternehmung auf juristische Person (Teil 2/2)"
+ziffer: "2.3"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Kreisschreiben · S. 3–4
 
-<!-- Seite 2 -->
-6.2.2.   Personengesellschaft............................................................................................6
-6.3.   Fortführung der selbständigen Erwerbstätigkeit durch die Erben
-    oder die Vermächtnisnehmer.............................................................................6
-7.   Inkrafttreten .........................................................................................................6
+Erfolgt innerhalb von 5 Jahren nach einer steuerneutralen Übertragung des Betriebes eines
+selbständig Erwerbenden auf eine juristische Person eine Veräusserung zu einem Preis, der
+über dem übertragenen steuerlichen Eigenkapital liegt (Sperrfristverletzung, Art. 19 Abs. 2
+DBG), so ist bei der Abrechnung über die stillen Reserven im Nachsteuerverfahren die Be-
+steuerung nach Artikel 37b DBG vorzunehmen, sofern die Übertragung nach dem Inkrafttre-
+ten von Artikel 37b DBG erfolgte und die Voraussetzungen zur Anwendung dieses Artikels
+im Zeitpunkt der Übertragung erfüllt waren. Einkäufe in die Vorsorge, die seit der Übertra-
 
-Anhang I:   Verordnung über die Besteuerung der Liquidationsgewinne bei definitiver
-    Aufgabe der selbständigen Erwerbstätigkeit (LGBV)
+    2
+    SR 831.40
+    3
+    SR 831.20
 
-Anhang II:   Erläuterungen zur LGBV
-
-Anhang III:   Übersicht über die Folgen beim Tod einer an einer Personengesellschaft
-    beteiligten Person und dessen Folgen bezüglich Artikel 37b DBG
-
-1.   Gegenstand des Kreisschreibens
+gung geleistet wurden, sind bei der Berechnung des fiktiven Einkaufes als Altersguthaben
+aus beruflicher Vorsorge in Abzug zu bringen (Art. 6 Abs. 6 LGBV).

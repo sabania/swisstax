@@ -4,17 +4,22 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 58"
-seiten: "18"
+titel: "Rz 73–74 Pflichtverletzung und Adressaten des Lohnausweises"
+ziffer: "73–74"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 18
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · III Pflichtverletzung › IV Adressaten · S. 21
 
-In dieser Ziffer sind alle zusätzlichen, erforderlichen Angaben zu machen, die nicht in einem   63
-der anderen Felder eingetragen werden. Zudem können freiwillig Angaben gemacht werden,
-die dem Arbeitnehmer und der Steuerbehörde im Veranlagungsverfahren dienlich sein kön
-nen. Zu letzteren gehören zum Beispiel Angaben über die Höhe der im Bruttolohn enthalte
-nen Kinderzulagen, die Anzahl im Kalenderjahr geleisteter Schichttage und die Höhe der im
-Bruttolohn enthaltenen Krankenkassenbeiträge.
+III   Pflichtverletzung
+Wer einen Lohnausweis nicht oder falsch ausfüllt, kann bestraft werden (Art. 127, 174 und   73
+186 DBG, Art. 43, 55 und 59 StHG sowie Art. 251 StGB) und/oder haftbar (Art. 177 DBG,
+Art. 56 StHG) gemacht werden.
 
-    ESTV   Seite 18 / 25
+
+IV   Adressaten des Lohnausweises
+Der Lohnausweis ist für den Arbeitnehmer bestimmt. Einige Kantone, zurzeit die Kantone   74
+Basel-Stadt, Bern, Freiburg, Jura, Neuenburg, Solothurn, Waadt und Wallis, verlangen
+zudem von den Arbeitgebern, dass sie ein Exemplar des Lohnausweises direkt der kantona
+len Steuerverwaltung zustellen. Im Kanton Luzern ist die direkte Zustellung des Lohnauswei
+ses an die Dienststelle Steuern freiwillig.

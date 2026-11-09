@@ -4,24 +4,23 @@ quelle: bund-ks-vst-48
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 48 – Abschnitt 9"
-seiten: "3"
+titel: "Ziff. 4–5 Veranlagung nach pflichtgemässem Ermessen und Meldeverfahren (Teil 1/2)"
+ziffer: "4–5"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 48 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS VST 48 · 4 Veranlagung nach pflichtgemässem Ermessen / 5 Meldeverfahren · S. 4
 
-<!-- Seite 3 -->
-Voraussetzungen gemäss Artikel 21 ff. VStG erfüllt sind, besteht ein Anspruch auf die Rücker-
-stattung der Verrechnungssteuer.
+4   Veranlagung nach pflichtgemässem Ermessen
 
-3.1.2   Ausnahme
-Gemäss Änderung des VStG vom 28. September 2018 gilt die Deklarationspflicht auch dann
-als erfüllt, wenn die der Verrechnungssteuer unterliegenden Einkünfte zwar nicht in der Steuer-
-erklärung (vgl. Ziff. 3.1.1), sondern nachträglich in einem noch nicht rechtskräftig abgeschlosse-
-nen Veranlagungs-, Revisions- oder Nachsteuerverfahren durch die steuerpflichtige Person de-
-klariert oder von der zuständigen Steuerbehörde aus eigener Feststellung zu den Einkünften
-oder zum Vermögen hinzugerechnet werden (Art. 23 Abs. 2 VStG). Voraussetzung dafür ist,
-dass die Deklaration der Steuerfaktoren lediglich fahrlässig unterlassen worden ist (vgl.
-Ziff. 3.1.2.1 hiernach).
-Die Rückerstattung der Verrechnungssteuer wird auch in diesen Fällen nur gewährt, wenn die
-übrigen Voraussetzungen gemäss Artikel 21 ff. VStG allesamt erfüllt sind.
+Kommt die steuerpflichtige Person ihren Verfahrenspflichten nicht nach, indem sie keine Steu-
+ererklärung einreicht oder indem sie ihre Einkünfte nur teilweise deklariert, nimmt die Veranla-
+gungsbehörde die Veranlagung nach pflichtgemässem Ermessen im Sinne von Artikel 130 DBG
+vor. Auch bei einer solchen Veranlagung kann Artikel 23 Absatz 2 VStG zur Anwendung kom-
+men. Die Berücksichtigung von mit der Verrechnungssteuer belasteten Einkünften durch die zu-
+ständige Steuerbehörde, respektive das Einreichen einer das bewegliche Vermögen und des-
+sen Erträge ausweisenden Steuererklärung als Beweismittel im Einspracheverfahren (Art. 132
+Abs. 3 DBG), schliesst somit eine Rückerstattung der Verrechnungssteuer nicht aus, sofern auf
+die Einsprache einzutreten ist und die Voraussetzungen von Ziffer 3 oben erfüllt sind.
+
+5   Meldeverfahren

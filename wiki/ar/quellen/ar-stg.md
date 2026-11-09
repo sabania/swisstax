@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://ar.clex.ch/app/de/texts_of_law/621.11/versions/1634> · lokal: [ar-stg.json](../../../raw/ar/2025/ar-stg.json) · Volltext: [ar-stg.md](../../../sources/ar/2025/ar-stg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `7961b8ef00a75c61…`
 
-## Inhalt (367 Chunks)
+## Inhalt (364 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -246,9 +246,8 @@ generiert: tools/build_index.py
 | [art-172](../../../chunks/ar/2025/ar-stg/ar-stg__art-172.md) | Art. 172 StG AR – 2. Einspracheverfahren | Art. 172 |  |
 | [art-173](../../../chunks/ar/2025/ar-stg/ar-stg__art-173.md) | Art. 173 StG AR – 3. Einspracheentscheid | Art. 173 |  |
 | [art-174](../../../chunks/ar/2025/ar-stg/ar-stg__art-174.md) | Art. 174 StG AR – V. Veranlagungsverjährung | Art. 174 |  |
-| [art-175-t1](../../../chunks/ar/2025/ar-stg/ar-stg__art-175-t1.md) | Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 1/3) | Art. 175 |  |
-| [art-175-t2](../../../chunks/ar/2025/ar-stg/ar-stg__art-175-t2.md) | Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 2/3) | Art. 175 |  |
-| [art-175-t3](../../../chunks/ar/2025/ar-stg/ar-stg__art-175-t3.md) | Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 3/3) | Art. 175 |  |
+| [art-175-t1](../../../chunks/ar/2025/ar-stg/ar-stg__art-175-t1.md) | Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 1/2) | Art. 175 |  |
+| [art-175-t2](../../../chunks/ar/2025/ar-stg/ar-stg__art-175-t2.md) | Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Teil 2/2) | Art. 175 |  |
 | [art-176](../../../chunks/ar/2025/ar-stg/ar-stg__art-176.md) | Art. 176 StG AR – 2. Pflichten der steuerpflichtigen Personen | Art. 176 |  |
 | [art-176a](../../../chunks/ar/2025/ar-stg/ar-stg__art-176a.md) | Art. 176a StG AR – 2a. Notwendige Vertretung | Art. 176a |  |
 | [art-177](../../../chunks/ar/2025/ar-stg/ar-stg__art-177.md) | Art. 177 StG AR – 3. Verfügung | Art. 177 |  |
@@ -320,9 +319,8 @@ generiert: tools/build_index.py
 | [art-234](../../../chunks/ar/2025/ar-stg/ar-stg__art-234.md) | Art. 234 StG AR – Tatbestand | Art. 234 |  |
 | [art-235](../../../chunks/ar/2025/ar-stg/ar-stg__art-235.md) | Art. 235 StG AR – Steuersubjekt und Haftung | Art. 235 |  |
 | [art-236](../../../chunks/ar/2025/ar-stg/ar-stg__art-236.md) | Art. 236 StG AR – Steuerbemessung | Art. 236 |  |
-| [art-237-t1](../../../chunks/ar/2025/ar-stg/ar-stg__art-237-t1.md) | Art. 237 StG AR – Steuerbefreiung (Teil 1/3) | Art. 237 |  |
-| [art-237-t2](../../../chunks/ar/2025/ar-stg/ar-stg__art-237-t2.md) | Art. 237 StG AR – Steuerbefreiung (Teil 2/3) | Art. 237 |  |
-| [art-237-t3](../../../chunks/ar/2025/ar-stg/ar-stg__art-237-t3.md) | Art. 237 StG AR – Steuerbefreiung (Teil 3/3) | Art. 237 |  |
+| [art-237-t1](../../../chunks/ar/2025/ar-stg/ar-stg__art-237-t1.md) | Art. 237 StG AR – Steuerbefreiung (Teil 1/2) | Art. 237 |  |
+| [art-237-t2](../../../chunks/ar/2025/ar-stg/ar-stg__art-237-t2.md) | Art. 237 StG AR – Steuerbefreiung (Teil 2/2) | Art. 237 |  |
 | [art-238](../../../chunks/ar/2025/ar-stg/ar-stg__art-238.md) | Art. 238 StG AR – Steuerberechnung | Art. 238 |  |
 | [art-239](../../../chunks/ar/2025/ar-stg/ar-stg__art-239.md) | Art. 239 StG AR – Steuerpfandrecht | Art. 239 |  |
 | [art-240](../../../chunks/ar/2025/ar-stg/ar-stg__art-240.md) | Art. 240 StG AR – Einsprache und Beschwerde | Art. 240 |  |
@@ -369,9 +367,8 @@ generiert: tools/build_index.py
 | [art-279](../../../chunks/ar/2025/ar-stg/ar-stg__art-279.md) | Art. 279 StG AR – b) ausserordentliche Einkünfte | Art. 279 |  |
 | [art-280](../../../chunks/ar/2025/ar-stg/ar-stg__art-280.md) | Art. 280 StG AR – c) Steuerberechnung | Art. 280 |  |
 | [art-281](../../../chunks/ar/2025/ar-stg/ar-stg__art-281.md) | Art. 281 StG AR – d) ausserordentliche Aufwendungen | Art. 281 |  |
-| [art-282-t1](../../../chunks/ar/2025/ar-stg/ar-stg__art-282-t1.md) | Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 1/3) | Art. 282 |  |
-| [art-282-t2](../../../chunks/ar/2025/ar-stg/ar-stg__art-282-t2.md) | Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 2/3) | Art. 282 |  |
-| [art-282-t3](../../../chunks/ar/2025/ar-stg/ar-stg__art-282-t3.md) | Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 3/3) | Art. 282 |  |
+| [art-282-t1](../../../chunks/ar/2025/ar-stg/ar-stg__art-282-t1.md) | Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 1/2) | Art. 282 |  |
+| [art-282-t2](../../../chunks/ar/2025/ar-stg/ar-stg__art-282-t2.md) | Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 2/2) | Art. 282 |  |
 | [art-283-t1](../../../chunks/ar/2025/ar-stg/ar-stg__art-283-t1.md) | Art. 283 StG AR – 6. Kapitalgewinne bei gemischten Beteiligungsgesellschaften (Teil 1/2) | Art. 283 |  |
 | [art-283-t2](../../../chunks/ar/2025/ar-stg/ar-stg__art-283-t2.md) | Art. 283 StG AR – 6. Kapitalgewinne bei gemischten Beteiligungsgesellschaften (Teil 2/2) | Art. 283 |  |
 | [art-284](../../../chunks/ar/2025/ar-stg/ar-stg__art-284.md) | Art. 284 StG AR – 7. Handänderungssteuer | Art. 284 |  |

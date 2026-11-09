@@ -4,13 +4,17 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 6"
-seiten: "1"
+titel: "Ziff. 2 Bildungssystem – Sekundarstufe II (Forts.) und Tertiärstufe (Teil 2/2)"
+ziffer: "2"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 42 · 2 Bildungssystem · S. 3–4
 
-    Eidgenössische Steuerverwaltung ESTV
-    Eigerstrasse 65
-    3003 Bern
-    www.estv.admin.ch
+im Rahmen der Hochschulen: Die höhere Berufsbildung umfasst die eidgenössischen Berufsprü-
+fungen, eidgenössische höhere Fachprüfungen sowie die höheren Fachschulen (HF). Zu den
+Hochschulen zählen die universitären Hochschulen (kantonale universitäre Hochschulen sowie
+Eidgenössische Technische Hochschulen [ETH]), die Fachhochschulen (FH), einschliesslich
+Kunst- und Musikhochschulen, sowie die Pädagogischen Hochschulen (PH).
+Graphischer Überblick über das schweizerische Bildungswesen (vgl. auch Schweizer Medien-
+institut für Bildung und Kultur; http://bildungssystem.educa.ch/de ):

@@ -4,28 +4,24 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 88"
-seiten: "26"
+titel: "Anhang III Tod eines Gesellschafters – keine Regelung, Nachfolgeklausel (Teil 3/3)"
+ziffer: "Anhang III"
+seiten: "31-32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang III Personengesellschaft · S. 31–32
 
-<!-- Seite 26 -->
-Diese Leistungen und Bezüge sind der Steuerverwaltung in jedem Fall zur Kenntnis zu brin-
-gen. Unter Wohlfahrtsfonds sind Personalfürsorgestiftungen ohne reglementarische Leistun-
-gen zu verstehen.
-
-Artikel 7   Nachträglicher Anschluss an eine Vorsorgeeinrichtung
-
-Die privilegierte Besteuerung wird infolge definitiver Aufgabe der Erwerbstätigkeit gewährt.
-Ist die Aufgabe der Erwerbstätigkeit nicht definitiv, besteht kein Anspruch auf die privilegierte
-Besteuerung. Es kann jedoch vorkommen, dass eine als definitiv geplante Aufgabe der Er-
-werbstätigkeit sich im Nachhinein als nicht definitiv herausstellt. Ist die Liquidationsveranla-
-gung bei Aufnahme einer neuen selbständigen Erwerbstätigkeit rechtskräftig, kann – sofern
-es sich nicht um eine Steuerumgehung handelt - nicht mehr darauf zurückgekommen wer-
-den. Wenn nun erneut eine selbständige oder unselbständige Erwerbstätigkeit aufgenom-
-men und im Anschluss daran ein Einkauf in eine Einrichtung der beruflichen Vorsorge getä-
-tigt wird, so stellt sich die Frage, wie dieser Einkauf steuerrechtlich zu behandeln ist. Da die
-steuerpflichtige Person ihren Einkaufsbedarf bereits fiktiv erfüllt und steuerrechtlich geltend
-gemacht hat, ist von der effektiven Einkaufslücke der bereits geltend gemachte fiktive Ein-
-kauf in Abzug zu bringen. Die verbleibende Differenz ist steuerlich zum Abzug zuzulassen.
+ 2. Nachfolgeklausel   2.A) Es kann vorgängig vereinbart werden,   2.A) Die Erbengemeinschaft tritt an-   2.A) Die Erbengemeinschaft führt die
+    dass die Gesellschaft mit allen Erben (einfa-   stelle des Erblassers in die Gesell-   Gesellschaft fort = „Fortführung“, Ar-
+    che Nachfolgeklausel), oder mit bestimmten   schaft ein.   tikel 37b Absatz 2 DBG findet keine
+    Erben (qualifizierte Nachfolgeklausel) fortbe-   Anwendung
+    stehen soll. Damit wird die Gesellschaft
+    durch den Tod eines Gesellschafters nicht
+    aufgelöst. In beiden Fällen wird aufgrund der
+    Nachfolgeklausel beim Tod des Gesellschaf-
+    ters durch Universalsukzession seine Er-
+    bengemeinschaft Mitglied der Gesellschaft,
+    nicht die einzelnen Erben. Diese wird be-
+    rechtigt und verpflichtet, die Gesellschaft
+    fortzusetzen (BGE 95 II 551).
+    Anhang III

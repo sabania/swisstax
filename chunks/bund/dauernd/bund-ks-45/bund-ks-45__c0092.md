@@ -4,25 +4,25 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 92"
-seiten: "23"
+titel: "Ziff. 6.6 Beispiel 7 – jährliche Auszahlung 13. Monatslohn, Ein- und Austritt im Jahr"
+ziffer: "6.6"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.6 Untermonatige Ein- und Austritte · S. 30
 
-<!-- Seite 23 -->
-tung für die Ermittlung des satzbestimmenden Einkommens den im massgebenden Steuer-
-jahr für die Berechnung des Tarifcodes C zu Grunde gelegten Betrag aufrechnen. Dieser Be-
-trag wird zusammen mit den übrigen Berechnungsgrundlagen (vgl. Art. 85 Abs. 2 DBG) jähr-
-lich von den zuständigen Steuerbehörden veröffentlicht.
-Besteht eine der Quellensteuer unterliegende Lohnzahlung sowohl aus periodischen wie
-auch aus aperiodischen Lohnbestandteilen (vgl. Ziffer 6.6 unten), sind einzig die periodi-
-schen Lohnbestandteile für die Satzbestimmung umzurechnen.
-Bei Aufnahme einer weiteren Erwerbstätigkeit ist die Umrechnung ab dem Folgemonat vor-
-zunehmen. Entsprechend ist bei Beendigung einer weiteren Erwerbstätigkeit ab dem Folge-
-monat keine Umrechnung mehr vorzunehmen.
-Die Umrechnung hat zu unterbleiben, wenn die einzigen zusätzlich erzielten Arbeitseinkom-
-men nach dem Tarifcode E besteuert werden.
-Der Arbeitnehmer kann bei der zuständigen Steuerbehörde bis am 31. März des auf die Fäl-
-ligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine
-nachträgliche ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten).
+    7. Jährliche Auszahlung des 13. Monatslohns (Dezember) gemäss Arbeitsvertrag:
+    Der Arbeitnehmer V. tritt per 1. April 2021 in die Unternehmung ein und tritt per 15. Oktober 2021 wieder
+    aus und erhält neben der anteilsmässigen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbar-
+    ten 13. Monatslohn ausbezahlt (pro rata für die Zeit vom 1. April 2021 – 15. Oktober 2021). Die Lohnzah-
+    lung ist zur Satzbestimmung auf 30 Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezo-
+    gen auf die Periode, für welche er bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage
+    pro Jahr).
+
+    Leistungen   steuerbar   satzbestimmend   Berechnung
+
+    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
+
+    13. Monatslohn   3 250   6 000   3 250 / 195 x 360
+
+    Total   6 250   12 000

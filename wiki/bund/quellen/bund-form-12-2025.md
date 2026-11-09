@@ -12,10 +12,14 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/YWTRg69NFR9O/dbst-form-2025-de.zip> · lokal: [bund-form-12-2025.pdf](../../../raw/bund/2025/bund-form-12-2025.pdf) · Volltext: [bund-form-12-2025.md](../../../sources/bund/2025/bund-form-12-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `85da529b147e19e9…`
 
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Seite 1: leeres Raster mit Zeilen 01–16; Seite 2: Erläuterungen zweispaltig, Sätze zwischen Spalten vermischt.
+
 ## Inhalt (3 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/bund/2025/bund-form-12-2025/bund-form-12-2025__c0001.md) | Formular 12 2025 – Abschnitt 1 | S. 1 |  |
-| [c0002](../../../chunks/bund/2025/bund-form-12-2025/bund-form-12-2025__c0002.md) | Formular 12 2025 – Abschnitt 2 | S. 2 |  |
-| [c0003](../../../chunks/bund/2025/bund-form-12-2025/bund-form-12-2025__c0003.md) | Formular 12 2025 – Abschnitt 3 | S. 2 |  |
+| [c0001](../../../chunks/bund/2025/bund-form-12-2025/bund-form-12-2025__c0001.md) | Formular 12 Seite 1 – Bescheinigung Bezüge Verwaltungsmitglieder 2025 | S. 1 | Verzeichnis der Mitglieder der Verwaltung mit Bezügen 2025 gemäss Ziffer 11 des Lohnausweises; Beilage Lohnausweise Form. 11. |
+| [c0002](../../../chunks/bund/2025/bund-form-12-2025/bund-form-12-2025__c0002.md) | Formular 12 Seite 2 – Erläuterungen Lohnausweis und Einreichung (Teil 1/2) | S. 2 | Juristische Personen müssen nach Art. 129 Abs. 1 lit. a DBG für jedes Mitglied einen Lohnausweis (Form. 11) ausstellen und Formular 12 einreichen. |
+| [c0003](../../../chunks/bund/2025/bund-form-12-2025/bund-form-12-2025__c0003.md) | Formular 12 Seite 2 – Erläuterungen Lohnausweis und Einreichung (Teil 2/2) | S. 2 |  |

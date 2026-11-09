@@ -1,144 +1,199 @@
 [
 {
 "id": "sg-steuerfuesse-2026__c0001",
-"titel": "Steuerfüsse SG 2026 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Steuerfüsse SG 2026 – Bemerkungen: Kantonssteuer 105 %, Zeichenerklärung",
+"pfad": [
+"Steuerfüsse 2026",
+"Bemerkungen"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Kantonssteuer 105 Prozent",
+"christkatholisch 24 Prozent",
+"Zentralsteuer",
+"St. Gallen"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Steuerfuss in Prozent der einfachen Steuer; Kantonssteuer 105 Prozent; christkatholische Kirchgemeinde 24 Prozent im ganzen Kanton.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-steuerfuesse-2026__c0002"
 },
 {
 "id": "sg-steuerfuesse-2026__c0002",
-"titel": "Steuerfüsse SG 2026 – Abschnitt 2",
-"pfad": [],
+"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 1 (St. Gallen, Wittenbach bis St. Margrethen)",
+"pfad": [
+"Steuerfüsse 2026",
+"Tabelle Seite 1"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss St. Gallen",
+"Gesamtsteuerfuss",
+"Goldach",
+"Rorschach",
+"Wittenbach",
+"Grundsteuersatz"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "St. Gallen politischer Steuerfuss 138 %, Gesamtsteuerfuss katholisch 269 %, evangelisch 268 %; Mörschwil 67 % (188/199).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2026__c0001",
 "nachher": "sg-steuerfuesse-2026__c0003"
 },
 {
 "id": "sg-steuerfuesse-2026__c0003",
-"titel": "Steuerfüsse SG 2026 – Abschnitt 3",
-"pfad": [],
+"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 2 (Au bis Walenstadt) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026",
+"Tabelle Seite 2"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss Altstätten",
+"Buchs",
+"Wartau",
+"Mels",
+"Bad Ragaz",
+"Heerbrugg",
+"Sargans"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Tabelle der Steuerfüsse Au bis Walenstadt, z.B. Balgach 61 % (183/191), Wartau 145 % (274/278).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2026__c0002",
 "nachher": "sg-steuerfuesse-2026__c0004"
 },
 {
 "id": "sg-steuerfuesse-2026__c0004",
-"titel": "Steuerfüsse SG 2026 – Abschnitt 4",
-"pfad": [],
+"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 2 (Au bis Walenstadt) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026",
+"Tabelle Seite 2"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss Altstätten",
+"Buchs",
+"Wartau",
+"Mels",
+"Bad Ragaz",
+"Heerbrugg",
+"Sargans"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2026__c0003",
 "nachher": "sg-steuerfuesse-2026__c0005"
 },
 {
 "id": "sg-steuerfuesse-2026__c0005",
-"titel": "Steuerfüsse SG 2026 – Abschnitt 5",
-"pfad": [],
+"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 3 (Quarten bis Mosnang) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026",
+"Tabelle Seite 3"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss Rapperswil-Jona",
+"Uznach",
+"Wattwil",
+"Ebnat-Kappel",
+"Lütisburg",
+"Gommiswald"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Tabelle der Steuerfüsse Quarten bis Mosnang, z.B. Rapperswil-Jona 74 % (198/199), Lütisburg 155 % (284/288).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2026__c0004",
 "nachher": "sg-steuerfuesse-2026__c0006"
 },
 {
 "id": "sg-steuerfuesse-2026__c0006",
-"titel": "Steuerfüsse SG 2026 – Abschnitt 6",
-"pfad": [],
+"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 3 (Quarten bis Mosnang) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026",
+"Tabelle Seite 3"
+],
 "seiten": [
 3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss Rapperswil-Jona",
+"Uznach",
+"Wattwil",
+"Ebnat-Kappel",
+"Lütisburg",
+"Gommiswald"
+],
+"positionen": [
+"berechnung.total"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2026__c0005",
 "nachher": "sg-steuerfuesse-2026__c0007"
 },
 {
 "id": "sg-steuerfuesse-2026__c0007",
-"titel": "Steuerfüsse SG 2026 – Abschnitt 7",
-"pfad": [],
+"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 4 (Kirchberg bis Gaiserwald) und Stand",
+"pfad": [
+"Steuerfüsse 2026",
+"Tabelle Seite 4"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss Wil",
+"Gossau",
+"Uzwil",
+"Flawil",
+"Degersheim",
+"Gaiserwald"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Tabelle der Steuerfüsse Kirchberg bis Gaiserwald, z.B. Zuzwil 77 % (203/205), Degersheim 138 % (268/271); Stand 30.9.2026.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2026__c0006",
-"nachher": "sg-steuerfuesse-2026__c0008"
-},
-{
-"id": "sg-steuerfuesse-2026__c0008",
-"titel": "Steuerfüsse SG 2026 – Abschnitt 8",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-steuerfuesse-2026__c0007",
-"nachher": "sg-steuerfuesse-2026__c0009"
-},
-{
-"id": "sg-steuerfuesse-2026__c0009",
-"titel": "Steuerfüsse SG 2026 – Abschnitt 9",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-steuerfuesse-2026__c0008",
 "nachher": null
 }
 ]

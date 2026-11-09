@@ -4,23 +4,26 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 11"
-seiten: "3"
+titel: "Ziff. II.2.2 c) Keine WEF-Rückzahlung mit bereits gebundenen Mitteln"
+ziffer: "II.2.2 c"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 2 Steuerliche Auswirkungen › 2.2 Rückzahlung des Vorbezuges · S. 4–5
 
-Die Besteuerung an der Quelle erfolgt aufgrund der entsprechenden Bestimmungen der
-Quellensteuerverordnung (QStV; SR 642.118.2). Gemäss Artikel 11 dieser Verordnung wird
-die vorbezogene Vorsorgeleistung ungeachtet staatsvertraglicher Regelung stets der Quel-
-lensteuer unterstellt. Besteht ein Doppelbesteuerungsabkommen mit dem entsprechenden
-Wohnsitzstaat des Empfängers, steht die Besteuerungskompetenz in der Regel dem Wohn-
-sitzstaat zu. Der Quellensteuerabzug ist in diesen Fällen nicht definitiv und wird unter gewis-
-sen Bedingungen wieder zurückerstattet (wenn der Nachweis erbracht wird, dass die zu-
-ständige ausländische Steuerbehörde von der Kapitalleistung Kenntnis hat). In Ziffer 3 des
-Anhanges zur Quellensteuerverordnung sind die massgebenden Quellensteuersätze festge-
-legt, welche in die kantonalen Quellensteuertarife integriert sind.
+c)   Keine WEF-Rückzahlung mit Mitteln, die bereits für die Vorsorge gebun-
+    den sind
 
-2.2. Rückzahlung des Vorbezuges
+Eine Rückzahlung des Vorbezuges für Wohneigentumsförderung ist nicht möglich mit Mit-
+teln, die bereits für die Vorsorge gebunden sind wie z.B. der anlässlich einer Scheidung er-
+haltene Anteil an der Austrittsleistung, frei werdendes Vorsorgeguthaben bei einer Reduktion
+des Beschäftigungsgrades oder bereits bestehende Freizügigkeitsguthaben. Der für das
 
-    Vgl. BGE 2A.509/2003 vom 18. Mai 2004, Erw. 4.2.1 / Mitteilung über die berufliche Vorsorge Nr. 78, Ziffer 465
+3
+ Vgl. Anwendungsfall A.3.2.1 des Loseblattwerks Vorsorge und Steuern der Schweizerischen Steuerkonferenz,
+Cosmos Verlag, Stand: Frühling 2006
+
+Wohneigentum investierte Betrag muss aus Mitteln, die noch nicht zu Vorsorgezwecken
+gebunden sind, zurückbezahlt werden. Aufgrund der Zweckgebundenheit der Mittel in der
+Säule 3a ist eine vorzeitige Ausrichtung im Sinne einer Direktüberweisung in die 2. Säule
+zum Zweck der Rückzahlung eines WEF-Vorbezuges nicht möglich.

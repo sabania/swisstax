@@ -4,23 +4,25 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 26"
-seiten: "6"
+titel: "Anhang I LGBV Art. 6 Abs. 3–6 Einkommen, Höchstgrenze, Abzüge (Teil 2/2)"
+ziffer: "Art. 6 Abs. 3–6"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang I LGBV · S. 9
 
-<!-- Seite 6 -->
-6.   Erbgang
-6.1.   Grundsatz
-Im Todesfall geht die selbständige Erwerbstätigkeit des Erblassers durch Universalsukzessi-
-on auf die Erben über. Jeder der Erben oder der Vermächtnisnehmer kann frei entscheiden,
-ob er die bisherige selbständige Erwerbstätigkeit weiterführen will. Wenn direkt im Anschluss
-an den Erbgang die Liquidation vorgenommen wird, können die Erben oder die Vermächt-
-nisnehmer, welche die selbständige Erwerbstätigkeit nicht weiterführen, an Stelle des Erb-
-lassers die Besteuerung nach Artikel 37b DBG geltend machen, sofern der Erblasser im
-Zeitpunkt seines Ablebens die Voraussetzungen gemäss Artikel 1 Absatz 1 LGBV erfüllt hat.
-
-Weder bei der Liquidation durch die Erben oder die Vermächtnisnehmer noch bei der gesetz-
-lichen Überführung in das Privatvermögen können Einkäufe von Beitragsjahren für den Erb-
-lasser oder die Besteuerung eines fiktiven Einkaufs geltend gemacht werden.
+    a.   Altersguthaben aus beruflicher Vorsorge, insbesondere:
+    1. Guthaben bei Vorsorgeeinrichtungen und Freizügigkeitseinrichtungen;
+    2. Guthaben der Säule 3a nach Artikel 60a Absatz 2 der Verordnung vom
+    18. April 19844 über die berufliche Alters-, Hinterlassenen- und Invali-
+    denvorsorge;
+    b.   Vorbezüge nach Artikel 3 der Verordnung vom 13. November 19855 über
+    die steuerliche Abzugsberechtigung für Beiträge an anerkannte Vorsorge-
+    formen;
+    c.   Vorbezüge nach Artikel 30c BVG und Artikel 331e des Obligationenrechts6
+    sowie Pfandverwertungen nach Artikel 331d Absatz 6 des Obligationen-
+    rechts;
+    d.   Barauszahlungen von Vorsorgeeinrichtungen, Freizügigkeitseinrichtungen
+    und Säule-3a-Einrichtungen sowie von Wohlfahrtsfonds;
+    e.   Invaliden- und Altersleistungen von Vorsorgeeinrichtungen, Freizügigkeits-
+    einrichtungen und Säule-3a-Einrichtungen sowie von Wohlfahrtsfonds.

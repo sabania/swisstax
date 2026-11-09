@@ -4,25 +4,27 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 66"
-seiten: "21"
+titel: "Ziff. 9.3 c) Nachmeldung von Ausland-KER (Teil 1/2)"
+ziffer: "9.3 c"
+seiten: "26-27"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.3 Meldung Verrechnungssteuer · S. 26–27
 
-Reserven, die bei einer Umstrukturierung in die übrigen Reserven einer inländischen Kapital-
-gesellschaft oder Genossenschaft übergehen, sind nach Artikel 5 Absatz 1 Buch-
-stabe a VStG von der Verrechnungssteuer ausgenommen. Dabei wird vorausgesetzt, dass
-das übertragene Verrechnungssteuersubstrat erhalten bleibt.
+c) Nachmeldung von Ausland-KER
 
-Die bei einer Fusion den Inhabern der Beteiligungsrechte oder diesen nahestehenden Dritten
-zukommenden Ausgleichszahlungen, Gratisaktien, Gratisnennwerterhöhungen und sonsti-
-gen Erträge unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer,
-sofern sie zu Lasten der übrigen Reserven einer inländischen Kapitalgesellschaft oder Ge-
-nossenschaft erfolgen. Stammt das Grund- oder Stammkapital aus KER, gelten die Bestim-
-mungen zu Ziff. 5.1.5 hiervor.
+Ausland-KER vergangener Geschäftsjahre, welche nach dem 24. Februar 2008 geäufnet
+und bisher nicht als solche gemeldet wurden, können der ESTV, Hauptabteilung DVS, nach-
+gemeldet werden.
 
-Nennwertgewinne und -verluste sowie Gewinne und Verluste von KER bzw. Ausland-KER
-können miteinander und gegenseitig verrechnet werden.
+Erfolgt die Nachmeldung zusammen mit einer Nachmeldung der KER gemäss Buchstabe b
+hiervor sind die gleichen Nachweise zu erbringen.
 
-7.1.2. Echte und unechte Fusion verbundener Gesellschaften
+Erfolgt die Nachmeldung zwecks Aufteilung bereits durch die ESTV bestätigter KER in KER
+und Ausland-KER sind sachdienliche Unterlagen (Sacheinlageverträge, Bilanzen usw.) ein-
+zureichen, die die Einlagen aus dem Ausland belegen. Wurden in der Zeit nach dem
+24. Februar 2008 KER zurückbezahlt, vermindern diese zuerst den Bestand an KER und erst
+in zweiter Linie den Bestand an Ausland-KER.
+
+Zusätzlich ist ein vollständig ausgefülltes und unterzeichnetes Formular 170 zur Nachmel-
+dung der Bestände der gesonderten Konti bei der Hauptabteilung DVS einzureichen.

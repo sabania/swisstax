@@ -4,22 +4,23 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 34"
-seiten: "12"
+titel: "Ziff. 6.2.3 Absorption der Tochtergesellschaft (Up-Stream Merger)"
+ziffer: "6.2.3"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.2 Fusion · S. 16
 
-<!-- Seite 12 -->
-bei der Annahme eines öffentlichen Kaufangebots gemäss Artikel 125 ff. des Bundesgeset-
-zes vom 19. Juni 2015 über die Finanzmarktinfrastrukturen und das Marktverhalten im Effek-
-ten- und Derivatehandel (Finanzmarktinfrastrukturgesetz, FinfraG; SR 958.1) nicht gegeben.
-Wirtschaftlich stellt eine solche Übertragung keine Veräusserung, sondern eine Vermögen-
-sumschichtung dar. Dieser als Transponierung bezeichnete Tatbestand führt dazu, dass der
-den Nennwert zuzüglich den anteiligen KER bzw. Ausland-KER übersteigende Erlös als Er-
-trag aus beweglichem Vermögen qualifiziert.
+6.2.3. Absorption einer Tochtergesellschaft („Up-Stream Merger“)
 
-Wird die Beteiligung zu einem Wert übertragen, welcher den Nennwert zuzüglich der anteili-
-gen KER bzw. Ausland-KER übersteigt, und wird dieser Mehrwert dem Nominalkapital
-und/oder den Reserven der übernehmenden Kapitalgesellschaft oder Genossenschaft gut-
-geschrieben, ergeben sich je nach der Verbuchung unterschiedliche Steuerfolgen:
+a)   Direkte Bundessteuer (Gewinnsteuer)
+
+Entsteht durch die Übernahme von Aktiven und Passiven der übertragenden Gesellschaft ein
+Buchgewinn, so ist dieser Gewinn Bestandteil des steuerbaren Reingewinns. In der aufneh-
+menden Gesellschaft ist dieser Gewinn aus Fusion den übrigen Reserven zuzurechnen (Art.
+61 Abs. 5 DBG).
+
+b)   Verrechnungssteuer
+
+Analog zur direkten Bundessteuer qualifiziert der ausgewiesene Buchgewinn als übrige Re-
+serve.

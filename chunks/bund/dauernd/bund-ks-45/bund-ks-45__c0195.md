@@ -4,20 +4,23 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 195"
-seiten: "51"
+titel: "Ziff. 9.4 Nachforderung und Rückerstattung zu viel/zu wenig abgezogener Quellensteuer"
+ziffer: "9.4"
+seiten: "60-61"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 51
+> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.4 Abrechnungskorrekturen · S. 60–61
 
-Bei Leistungen, auf die der Rechtsanspruch erst nach Beendigung des Arbeitsverhältnisses
-entstanden ist (bspw. nachträglich von der Geschäftsleitung beschlossene Bonuszahlungen
-bzw. Abgangsentschädigungen oder nachträglich durchgesetzte Lohnforderungen), muss
-der Quellensteuerabzug separat berechnet werden. Massgebend für die Bestimmung des
-anwendbaren Tarifcodes sind die Verhältnisse im Zeitpunkt der Auszahlung dieser Leistung.
-Die Berechnung des satzbestimmenden Einkommens berechnet sich aus der Summe des
-letzten vom Schuldner der steuerbaren Leistung ausgerichteten und auf ein Jahr umgerech-
-neten Bruttomonatslohns, welcher der schweizerischen Quellensteuer unterliegt zuzüglich
-der nachträglich ausgerichteten Leistung. Vorbehalten bleibt die Quellenbesteuerung von
-Vergütungen, die für Zeiträume bezahlt werden, auf welche DBA Einschränkungen vorsehen
-(vgl. Ziffer 7.5.1 oben). Wird die Leistung im Jahr der Beendigung des Arbeitsverhältnisses
+Hat der Schuldner der steuerbaren Leistung den Steuerabzug nicht oder nur ungenügend
+vorgenommen, verpflichtet ihn die Steuerbehörde zur Zahlung der nicht einbehaltenen
+Steuer. Der Schuldner der steuerbaren Leistung kann die zu wenig abgezogenen Quellen-
+steuern beim quellensteuerpflichtigen Arbeitnehmer nachfordern (vgl. Art. 138 Abs. 1 DBG).
+Können zu wenig abgezogene Quellensteuern nicht beim Schuldner der steuerbaren Leis-
+tung nachgefordert werden, bleibt die direkte Nachforderung beim quellensteuerpflichtigen
+Arbeitnehmer durch die zuständige Steuerbehörde vorbehalten (vgl. Art. 138 Abs. 3 DBG).
+
+Hat der Schuldner der steuerbaren Leistung zu viel Quellensteuern abgezogen, muss er die
+Differenz dem quellensteuerpflichtigen Arbeitnehmer zurückerstatten (vgl. Art. 138 Abs. 2
+DBG). Wurde über die zu viel bezogenen Quellensteuern bereits mit der zuständigen Steuer-
+behörde abgerechnet, kann diese den Differenzbetrag direkt der steuerpflichtigen Person
+zinslos zurückerstatten (vgl. Art. 7 QStV).

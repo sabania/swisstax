@@ -84,7 +84,7 @@
 },
 {
 "id": "ar-form-07-2025__c0004",
-"titel": "Formular 7 Rückseite – Deklaration tatsächlicher Unterhalts- und Verwaltungskosten (C2) (Teil 1/3)",
+"titel": "Formular 7 Rückseite – Deklaration tatsächlicher Unterhalts- und Verwaltungskosten (C2) (Teil 1/2)",
 "pfad": [
 "Formular 7 Liegenschaften",
 "C. Tatsächliche Kosten"
@@ -112,7 +112,7 @@
 },
 {
 "id": "ar-form-07-2025__c0005",
-"titel": "Formular 7 Rückseite – Deklaration tatsächlicher Unterhalts- und Verwaltungskosten (C2) (Teil 2/3)",
+"titel": "Formular 7 Rückseite – Deklaration tatsächlicher Unterhalts- und Verwaltungskosten (C2) (Teil 2/2)",
 "pfad": [
 "Formular 7 Liegenschaften",
 "C. Tatsächliche Kosten"
@@ -136,34 +136,6 @@
 "zusammenfassung": null,
 "chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-form-07-2025__c0004",
-"nachher": "ar-form-07-2025__c0006"
-},
-{
-"id": "ar-form-07-2025__c0006",
-"titel": "Formular 7 Rückseite – Deklaration tatsächlicher Unterhalts- und Verwaltungskosten (C2) (Teil 3/3)",
-"pfad": [
-"Formular 7 Liegenschaften",
-"C. Tatsächliche Kosten"
-],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": "C2",
-"stichworte": [
-"Rechnungskopien ab Fr. 5000",
-"Anlagekosten",
-"Förderbeiträge Energie",
-"effektive Unterhaltskosten",
-"Liegenschaftsrechnungen"
-],
-"positionen": [
-"abzug.liegenschaft.unterhalt",
-"abzug.liegenschaft.energie_umwelt"
-],
-"zusammenfassung": null,
-"chunking": "semantisch (Agent-Plan)",
-"vorher": "ar-form-07-2025__c0005",
 "nachher": null
 }
 ]

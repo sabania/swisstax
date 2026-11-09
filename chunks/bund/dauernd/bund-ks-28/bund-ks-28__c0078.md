@@ -4,32 +4,18 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 78"
-seiten: "23"
+titel: "Anhang II Art. 10 Besteuerung – ein Fünftel, Mindestsatz 2 Prozent"
+ziffer: "Art. 10"
+seiten: "28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 28
 
-<!-- Seite 23 -->
-    Vorjahr   Liquidationsjahr
+Artikel 10   Besteuerung
 
-    2011   2012   2013
-
-    Fall 3
-    PV
-    2011 LS wird ins PV   PV   Dritte
-    überführt mit Auf-
-    Differenz
-    schub gem.
-    Verkaufspreis
-    Art. 18a DBG
-    Aufschub Art.   ./. Anlagekos-
-    18a DBG   ten = steuer-
-    2013 LS wird an   Art. 37b DBG   bares Ein-
-    Dritte veräussert
-    kommen aus
-    wieder eingebrach-
-    selbständiger
-    te Abschreibungen
-    Erwerbstätig-
-    keit
+Ein Fünftel des Liquidationsgewinnes, der nach Vornahme der Abzüge gemäss Artikel 9 ver-
+bleibt, bestimmt den anwendbaren Steuersatz nach Artikel 214 DBG. Die starke Progression
+des Tarifs der direkten Bundessteuer kann dazu führen, dass bei geringen Liquidationsge-
+winnen keine Besteuerung mehr anfallen würde. Da Artikel 37b DBG jedoch nur eine Privile-
+gierung, aber keine Steuerbefreiung sein soll, sorgt der Minimalsatz von 2 Prozent dafür,
+dass beim Liquidationsgewinn immer eine Steuer anfällt.

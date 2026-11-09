@@ -4,17 +4,17 @@ quelle: bund-ssk-ks22-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 22 (MB SZ) – Abschnitt 7"
-seiten: "3"
+titel: "Rz 10 Beispiel bis Steuerperiode 2018 (Faktoren 80 % / 115 %) (Teil 2/3)"
+ziffer: "10"
+seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · S. 3
+> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 3. Beispiele › 3.1 Bis und mit Steuerperiode 2018 · S. 3–4
 
-    Rückrechnung auf kantonale Werte der veranlagenden Kantone
-    (Differenz Repartitionswert zu Steuerwertschätzung)
-    Berechnung: Repartitionswert / Repartitionsfaktor x Differenz zu 100 %
-    (aus Sicht der veranlagenden Kantone)
-
-    Veranlagung Kanton Schwyz1   458'000 / 80 x 20   320'000 / 80 x 20   138'000 / 80 x 20
-    Faktor A <100 % -> Zurechnung   114'500   80'000   34'500
-    Satzbestimmender Wert Kanton Schwyz   572'500   400'0002   172'500
+    Veranlagung Kanton Tessin1   458'000 / 115 x 15   320'000 / 115 x 15   138'000 / 115 x 15
+    Faktor B >100 % -> Abrechnung   -59'739   -41'739   -18'000
+    Satzbestimmender Wert Kanton Tessin   398'261   278'261   120'0002
+    1) Bei einem Repartitionsfaktor des Wohnsitzkantons weniger als 100 % erfolgt die Wertanpassung in allen Liegenschafts-
+    kantonen durch Zurechnung, bei einem Repartitionsfaktor von mehr als 100 % durch Abrechnung
+    2) Der Repartitionswert wird auf den Wert zurückgerechnet, den die Liegenschaft im veranlagenden Kanton hätte, da jeder
+    Kanton berechtigt ist, die Bewertung zur Ermittlung des satzbestimmenden Vermögens nach seinen Richtlinien vorzunehmen

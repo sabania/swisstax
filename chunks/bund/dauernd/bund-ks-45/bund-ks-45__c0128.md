@@ -4,32 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 128"
-seiten: "32"
+titel: "Ziff. 7.3.2 Offenlegungspflicht, Pensum nicht bestimmbar, Folgemonat, Tarifcode E (Teil 2/3)"
+ziffer: "7.3.2"
+seiten: "40-41"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 32
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.2 Teilzeit-Erwerbstätigkeiten · S. 40–41
 
-    Beispiele:
-    1. Besteuerung nachträglich ausbezahlter Ferienguthaben:
-    Der Arbeitnehmer Z. tritt per 30. September 2021 aus der Unternehmung R. aus. Die steuerbare Leistung
-    im September 2021 beläuft sich auf CHF 5 500.00 und der Quellensteuerabzug auf CHF 649.55. Der Ar-
-    beitgeber hat die entsprechende Quellensteuerabrechnung fristgerecht vorgenommen. In der Folge erhält
-    der Arbeitnehmer Z. im November 2021 eine nachträgliche Zahlung für nicht bezogene Ferienguthaben
-    über CHF 500. Die im November 2021 geschuldeten Quellensteuern sind wie folgt zu berechnen:
-
-    Leistungen   abzurechnen Sept. 2021   abzurechnen Nov. 2021
-
-    Bruttolohn   5 500   5 500
-
-    Ferienguthaben   500
-
-    Total   5 500   6 000
-
-    Quellensteuern gesamt auf CHF 6 000   757.20
-
-    Quellensteuern bezahlt im September 2021   - 649.55
-
-    Quellensteuern geschuldet im November 2021
-    107.65
-    (Anrechnung der Quellensteuer September 2021)
+rechnen. Dazu sind die Bestimmungen der Arbeitsverträge zu berücksichtigen. Dieselbe Vor-
+gehensweise gilt auch für Personen, welche eine der Tätigkeiten im Stunden- bzw. Tages-
+lohn ausüben, aber einen ordentlichen Monatslohn beziehen. Für die Bestimmung des Ar-
+beitspensums ist in diesen Fällen auf die betriebsüblichen Arbeitsstunden abzustellen.
+Kann das Arbeitspensum einer Erwerbstätigkeit nicht bestimmt werden (bspw. für eine pau-
+schalentschädigte nebenamtliche Hauswartstelle), kann der Schuldner der steuerbaren Leis-
+tung für die Ermittlung des satzbestimmenden Einkommens den im massgebenden Steuer-
+jahr für die Berechnung des Tarifcodes C zu Grunde gelegten Betrag aufrechnen. Dieser Be-
+trag wird zusammen mit den übrigen Berechnungsgrundlagen (vgl. Art. 85 Abs. 2 DBG) jähr-
+lich von den zuständigen Steuerbehörden veröffentlicht.
+Besteht eine quellensteuerpflichtige Lohnzahlung sowohl aus periodischen wie auch aus

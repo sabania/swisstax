@@ -4,25 +4,26 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 1/4)"
-ziffer: "Beilage 2, S. 8/13"
-seiten: "53"
+titel: "Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16 (Teil 2/2)"
+ziffer: "Beilage 2, S. 11/13"
+seiten: "56"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 53
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 56
 
-Beilage 2
+   terhaltszahlungen.   gen können vom leis-   Unterhaltszahlungen,   und erfüllen die Voraus-
+   Kind hat eigenen Wohn-   tenden Elternteil nicht   kann der Elternteil mit   setzungen von Art.
+   sitz.   mehr in Abzug gebracht   dem höheren Einkom-   35Abs. 1 Bst. a bzw.
+    werden.   men den Kinderabzug   Bst. b DBG, können
+    geltend machen. Der   beide den Abzug gel-
+    andere Elternteil kann   tend machen.
+    den Unterstützungsab-
+    zug geltend machen, so-
+    fern seine Leistungen
+    mindestens in der Höhe
+    des Abzuges erfolgen.
 
-Tabelle zu den verschiedenen Familienkonstellationen
-Besteuerung der Unterhaltsleistungen sowie Zuteilung der verschiedenen Abzüge und Tarife nach DBG
-    Seite 8/13
+   14.16. Konkubinat
+   ohne gemeinsames Kind   Für die getrennt lebenden Elternteile gelten je nach Konstellation die Regeln der Fälle 14.3. – 14.5. und 14.10.-14.12..
 
-    Unterhaltszahlungen für   Zusätzlicher Versiche-
-    Kinderbetreuungskosten-
-    das Kind   Kinderabzug   rungs- und Sparzinsen-
-   Familienkonstellationen   abzug nur bis zum voll-   Tarif
-    (Art. 23 Bst. f, 24 Bst. e,   (Art. 35 Abs. 1 Bst. a   abzug für das Kind
-   (Kapitel im KS)   endeten 14. Altersjahr   (Art. 36 DBG)
-    33 Abs. 1 Bst. c, 34 Bst. a   DBG)   (Art. 33 Abs. 1bis Bst. b
-    (Art. 33 Abs. 3 DBG)
-    DBG)   DBG)
+1-030-D-2010-Beilage-2-d-2014.doc

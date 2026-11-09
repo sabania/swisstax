@@ -1,1283 +1,1623 @@
 [
 {
 "id": "bund-wl-lohnausweis-2026__c0001",
-"titel": "WL Lohnausweis 2026 – Abschnitt 1",
-"pfad": [],
-"seiten": [
-1,
-2
+"titel": "Vorwort zur Wegleitung Lohnausweis",
+"pfad": [
+"Vorwort"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": null,
-"nachher": "bund-wl-lohnausweis-2026__c0002"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0002",
-"titel": "WL Lohnausweis 2026 – Abschnitt 2",
-"pfad": [],
 "seiten": [
 3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
+"stichworte": [
+"Lohnausweis",
+"SSK",
+"Wegleitung",
+"FAQ",
+"Änderungen Randziffern"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Die Wegleitung wurde von der erweiterten Arbeitsgruppe Lohnausweis der SSK erstellt und wird jährlich überarbeitet; Änderungen sind mit schwarzem Balken markiert.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "bund-wl-lohnausweis-2026__c0002"
+},
+{
+"id": "bund-wl-lohnausweis-2026__c0002",
+"titel": "Allgemeines – Abkürzungen, FAQ, eLohnausweis",
+"pfad": [
+"Allgemeines"
+],
+"seiten": [
+5,
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Abkürzungen",
+"FAQ",
+"eLohnausweis",
+"SSK"
+],
+"positionen": null,
+"zusammenfassung": "Abkürzungsverzeichnis sowie Hinweise auf FAQ und eLohnausweis SSK.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0001",
 "nachher": "bund-wl-lohnausweis-2026__c0003"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0003",
-"titel": "WL Lohnausweis 2026 – Abschnitt 3",
-"pfad": [],
+"titel": "Rz 1–3 Vorinformationen – Formular 11, Pflicht zur Ausstellung (Teil 1/3)",
+"pfad": [
+"Vorinformationen"
+],
 "seiten": [
-4
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–3",
+"stichworte": [
+"Formular 11",
+"Lohnausweis Pflicht",
+"Rentenbescheinigung",
+"geldwerte Vorteile",
+"Arbeitgeber"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Das Formular 11 dient als Lohnausweis, VR-Bescheinigung, Rentenbescheinigung BVG und ALV-Bescheinigung; jeder Arbeitgeber muss jedem Arbeitnehmenden einen Lohnausweis ausstellen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0002",
 "nachher": "bund-wl-lohnausweis-2026__c0004"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0004",
-"titel": "WL Lohnausweis 2026 – Abschnitt 4",
-"pfad": [],
+"titel": "Rz 1–3 Vorinformationen – Formular 11, Pflicht zur Ausstellung (Teil 2/3)",
+"pfad": [
+"Vorinformationen"
+],
 "seiten": [
-4
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–3",
+"stichworte": [
+"Formular 11",
+"Lohnausweis Pflicht",
+"Rentenbescheinigung",
+"geldwerte Vorteile",
+"Arbeitgeber"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0003",
 "nachher": "bund-wl-lohnausweis-2026__c0005"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0005",
-"titel": "WL Lohnausweis 2026 – Abschnitt 5",
-"pfad": [],
+"titel": "Rz 1–3 Vorinformationen – Formular 11, Pflicht zur Ausstellung (Teil 3/3)",
+"pfad": [
+"Vorinformationen"
+],
 "seiten": [
-4
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–3",
+"stichworte": [
+"Formular 11",
+"Lohnausweis Pflicht",
+"Rentenbescheinigung",
+"geldwerte Vorteile",
+"Arbeitgeber"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0004",
 "nachher": "bund-wl-lohnausweis-2026__c0006"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0006",
-"titel": "WL Lohnausweis 2026 – Abschnitt 6",
-"pfad": [],
+"titel": "Rz 4–5 Buchstabe A/B – Lohnausweis oder Rentenbescheinigung (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Buchstabe A/B"
+],
 "seiten": [
-5
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4–5",
+"stichworte": [
+"Lohnausweis",
+"Rentenbescheinigung",
+"Verwaltungsrat",
+"Arbeitslosenentschädigung",
+"Formular 565",
+"Formular 563"
+],
+"positionen": [
+"einkommen.vorsorge.renten",
+"einkommen.ersatz.taggelder"
+],
+"zusammenfassung": "Buchstabe A für Leistungen aus Arbeitsverhältnis inkl. VR und ALV-Ersatzeinkommen, Buchstabe B für Renten; Kapitalleistungen nur mit Formular 563.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0005",
 "nachher": "bund-wl-lohnausweis-2026__c0007"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0007",
-"titel": "WL Lohnausweis 2026 – Abschnitt 7",
-"pfad": [],
+"titel": "Rz 4–5 Buchstabe A/B – Lohnausweis oder Rentenbescheinigung (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Buchstabe A/B"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4–5",
+"stichworte": [
+"Lohnausweis",
+"Rentenbescheinigung",
+"Verwaltungsrat",
+"Arbeitslosenentschädigung",
+"Formular 565",
+"Formular 563"
+],
+"positionen": [
+"einkommen.vorsorge.renten",
+"einkommen.ersatz.taggelder"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0006",
 "nachher": "bund-wl-lohnausweis-2026__c0008"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0008",
-"titel": "WL Lohnausweis 2026 – Abschnitt 8",
-"pfad": [],
+"titel": "Rz 6–8 Buchstaben C–E – AHV-Nummer, Kalenderjahr, Lohnperiode (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Buchstaben C–E"
+],
 "seiten": [
-6
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6–8",
+"stichworte": [
+"AHV-Nummer",
+"Geburtsdatum",
+"Kalenderjahr",
+"Lohnperiode",
+"mehrere Lohnausweise",
+"Eintritt Austritt"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "13-stellige AHV-Nummer, Kalenderjahr und genaue Ein-/Austrittsdaten sind anzugeben; mehrere Lohnausweise werden in Ziffer 15 vermerkt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0007",
 "nachher": "bund-wl-lohnausweis-2026__c0009"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0009",
-"titel": "WL Lohnausweis 2026 – Abschnitt 9",
-"pfad": [],
+"titel": "Rz 6–8 Buchstaben C–E – AHV-Nummer, Kalenderjahr, Lohnperiode (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Buchstaben C–E"
+],
 "seiten": [
-6
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "6–8",
+"stichworte": [
+"AHV-Nummer",
+"Geburtsdatum",
+"Kalenderjahr",
+"Lohnperiode",
+"mehrere Lohnausweise",
+"Eintritt Austritt"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0008",
 "nachher": "bund-wl-lohnausweis-2026__c0010"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0010",
-"titel": "WL Lohnausweis 2026 – Abschnitt 10",
-"pfad": [],
+"titel": "Rz 9 Buchstabe F – Unentgeltliche Beförderung Wohn-/Arbeitsort",
+"pfad": [
+"I Notwendige Angaben",
+"Buchstabe F"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9",
+"stichworte": [
+"Feld F",
+"Geschäftsfahrzeug",
+"Generalabonnement",
+"GA",
+"Arbeitsweg",
+"Pendlerabzug",
+"Autopauschale"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Feld F ist anzukreuzen, wenn dem Arbeitnehmer keine Arbeitswegkosten entstehen, z. B. bei Geschäftsfahrzeug (mindestens 75 Rappen pro km) oder geschäftlich notwendigem GA; Halbtaxabo muss nicht bescheinigt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0009",
 "nachher": "bund-wl-lohnausweis-2026__c0011"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0011",
-"titel": "WL Lohnausweis 2026 – Abschnitt 11",
-"pfad": [],
+"titel": "Rz 9 Buchstabe F (Teil 2) – Autopauschale, Generalabonnement, Halbtax",
+"pfad": [
+"I Notwendige Angaben",
+"Buchstabe F"
+],
 "seiten": [
-7
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9",
+"stichworte": [
+"Autopauschale",
+"Generalabonnement",
+"GA Marktwert",
+"Halbtaxabo",
+"Feld F nicht ankreuzen"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Autopauschalen und geschäftlich notwendige GA begründen Feld F; ohne geschäftliche Notwendigkeit ist das GA zum Marktwert in Ziffer 2.3 zu deklarieren; Halbtaxabo muss nicht bescheinigt werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0010",
 "nachher": "bund-wl-lohnausweis-2026__c0012"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0012",
-"titel": "WL Lohnausweis 2026 – Abschnitt 12",
-"pfad": [],
+"titel": "Rz 10 Buchstabe G – Kantinenverpflegung / Lunch-Checks (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Buchstabe G"
+],
 "seiten": [
-7
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Feld G",
+"Lunch-Checks",
+"Kantine",
+"Personalrestaurant",
+"Mittagessen",
+"Verpflegung"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Feld G ist bei Lunch-Checks, verbilligter Kantine oder bei 40–60 % auswärtiger Tätigkeit anzukreuzen; bei mehr als 60 % Vermerk «Mittagessen durch Arbeitgeber bezahlt» in Ziffer 15.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0011",
 "nachher": "bund-wl-lohnausweis-2026__c0013"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0013",
-"titel": "WL Lohnausweis 2026 – Abschnitt 13",
-"pfad": [],
+"titel": "Rz 10 Buchstabe G – Kantinenverpflegung / Lunch-Checks (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Buchstabe G"
+],
 "seiten": [
-7
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10",
+"stichworte": [
+"Feld G",
+"Lunch-Checks",
+"Kantine",
+"Personalrestaurant",
+"Mittagessen",
+"Verpflegung"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0012",
 "nachher": "bund-wl-lohnausweis-2026__c0014"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0014",
-"titel": "WL Lohnausweis 2026 – Abschnitt 14",
-"pfad": [],
+"titel": "Rz 11–12 Buchstaben H–I – Name, Adresse, Unterschrift",
+"pfad": [
+"I Notwendige Angaben",
+"Buchstaben H–I"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "11–12",
+"stichworte": [
+"Adresse",
+"Unterschrift",
+"Lohnausweis ausfüllen",
+"Ort Datum"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Aktuelle Wohnadresse des Arbeitnehmers; Ort, Datum, Arbeitgeber und Kontaktperson angeben, bei vollautomatisierter Erstellung keine Unterschrift nötig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0013",
 "nachher": "bund-wl-lohnausweis-2026__c0015"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0015",
-"titel": "WL Lohnausweis 2026 – Abschnitt 15",
-"pfad": [],
+"titel": "Rz 13–16 Ziffer 1 Lohn – ordentliches Salär, Taggelder, Zulagen, Provisionen",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 1 Lohn"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1 / 13–16",
+"stichworte": [
+"Lohn",
+"Salär",
+"Zulagen",
+"Kinderzulagen",
+"Provisionen",
+"Taggelder",
+"13. Monatslohn"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "In Ziffer 1 sind sämtliche Leistungen des Arbeitgebers anzugeben, soweit nicht in Ziffer 2–7 aufgeführt, inkl. Taggelder, Zulagen und Provisionen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0014",
 "nachher": "bund-wl-lohnausweis-2026__c0016"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0016",
-"titel": "WL Lohnausweis 2026 – Abschnitt 16",
-"pfad": [],
+"titel": "Rz 17–18 Ziffer 1 – Arbeitswegvergütungen, Verpflegungsbeiträge, Lunch-Checks",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 1 Lohn"
+],
 "seiten": [
-8
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1 / 17–18",
+"stichworte": [
+"Arbeitsweg Vergütung",
+"Mittagszulage",
+"Lunch-Checks",
+"CHF 180 pro Monat",
+"Verpflegungsbeitrag"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Lunch-Checks sind bis zur AHV-Limite (Stand 1.1.2022: CHF 180 pro Monat) mit Kreuz in Feld G zu deklarieren, darüber hinaus zum Lohn zu addieren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0015",
 "nachher": "bund-wl-lohnausweis-2026__c0017"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0017",
-"titel": "WL Lohnausweis 2026 – Abschnitt 17",
-"pfad": [],
+"titel": "Rz 19 Ziffer 2 Gehaltsnebenleistungen – Bewertung zum Marktwert",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 2 Gehaltsnebenleistungen"
+],
 "seiten": [
-8
+9,
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2 / 19",
+"stichworte": [
+"Fringe Benefits",
+"Gehaltsnebenleistungen",
+"Marktwert",
+"Verkehrswert"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Gehaltsnebenleistungen werden grundsätzlich zum Marktwert bewertet; bei Teilzahlung durch den Arbeitnehmer wird nur der Differenzbetrag eingetragen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0016",
 "nachher": "bund-wl-lohnausweis-2026__c0018"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0018",
-"titel": "WL Lohnausweis 2026 – Abschnitt 18",
-"pfad": [],
+"titel": "Rz 20 Ziffer 2.1 Verpflegung und Unterkunft",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 2.1"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1 / 20",
+"stichworte": [
+"Verpflegung",
+"Unterkunft",
+"Zimmer",
+"Merkblatt N2",
+"Wohnung Marktwert"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Unentgeltliche Verpflegung und Unterkunft sind nach Merkblatt N2 zu bewerten; bei Wohnung gilt der Marktwert in Ziffer 2.3.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0017",
 "nachher": "bund-wl-lohnausweis-2026__c0019"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0019",
-"titel": "WL Lohnausweis 2026 – Abschnitt 19",
-"pfad": [],
+"titel": "Rz 21 Ziffer 2.2 Privatanteil Geschäftsfahrzeug – Pauschale 0,9 % pro Monat (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 2.2 Privatanteil Geschäftsfahrzeug"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2 / 21",
+"stichworte": [
+"Geschäftsfahrzeug",
+"Privatanteil",
+"Firmenwagen",
+"0,9 %",
+"Leasing",
+"Mietfahrzeug"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Privatanteil pro Monat 0,9 % des Kaufpreises (exkl. MWST), mindestens CHF 150 pro Monat bei Kaufpreis unter CHF 16'667; Beispiel Kaufpreis CHF 43'000 ergibt CHF 4'644 (12 x CHF 387).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0018",
 "nachher": "bund-wl-lohnausweis-2026__c0020"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0020",
-"titel": "WL Lohnausweis 2026 – Abschnitt 20",
-"pfad": [],
+"titel": "Rz 21 Ziffer 2.2 Privatanteil Geschäftsfahrzeug – Pauschale 0,9 % pro Monat (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 2.2 Privatanteil Geschäftsfahrzeug"
+],
 "seiten": [
-9
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.2 / 21",
+"stichworte": [
+"Geschäftsfahrzeug",
+"Privatanteil",
+"Firmenwagen",
+"0,9 %",
+"Leasing",
+"Mietfahrzeug"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0019",
 "nachher": "bund-wl-lohnausweis-2026__c0021"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0021",
-"titel": "WL Lohnausweis 2026 – Abschnitt 21",
-"pfad": [],
+"titel": "Rz 22–25 Ziffer 2.2 – Kostenübernahme, effektive Erfassung, Feld F (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 2.2 Privatanteil Geschäftsfahrzeug"
+],
 "seiten": [
-9
+10,
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2 / 22–25",
+"stichworte": [
+"Bordbuch",
+"Privatkilometer",
+"75 Rappen",
+"Firmenwagen Kosten",
+"Aufrechnung",
+"Feld F"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Bei effektiver Erfassung mit Bordbuch werden Privatkilometer (inkl. Arbeitsweg) mit dem Kilometeransatz multipliziert (8'500 km x 75 Rappen = CHF 6'375); bei erheblich eingeschränktem Privatgebrauch keine Aufrechnung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0020",
 "nachher": "bund-wl-lohnausweis-2026__c0022"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0022",
-"titel": "WL Lohnausweis 2026 – Abschnitt 22",
-"pfad": [],
+"titel": "Rz 22–25 Ziffer 2.2 – Kostenübernahme, effektive Erfassung, Feld F (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 2.2 Privatanteil Geschäftsfahrzeug"
+],
 "seiten": [
-10
+10,
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "2.2 / 22–25",
+"stichworte": [
+"Bordbuch",
+"Privatkilometer",
+"75 Rappen",
+"Firmenwagen Kosten",
+"Aufrechnung",
+"Feld F"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0021",
 "nachher": "bund-wl-lohnausweis-2026__c0023"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0023",
-"titel": "WL Lohnausweis 2026 – Abschnitt 23",
-"pfad": [],
+"titel": "Rz 26 Ziffer 2.3 Andere Gehaltsnebenleistungen",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 2.3"
+],
 "seiten": [
-10
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3 / 26",
+"stichworte": [
+"Mietwohnung",
+"Expatriates",
+"ExpaV",
+"Naturalgeschenke",
+"Personalvergünstigung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Andere vom Arbeitgeber bewertbare Nebenleistungen sind mit Art und Marktwert einzutragen; bei unentgeltlicher Wohnung der ortsübliche Mietzins.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0022",
 "nachher": "bund-wl-lohnausweis-2026__c0024"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0024",
-"titel": "WL Lohnausweis 2026 – Abschnitt 24",
-"pfad": [],
+"titel": "Rz 27 Ziffer 3 Unregelmässige Leistungen – Bonus, Umzugsentschädigung (Teil 1/3)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 3"
+],
 "seiten": [
-10
+11,
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3 / 27",
+"stichworte": [
+"Bonus",
+"Gratifikation",
+"Dienstaltersgeschenk",
+"Treueprämie",
+"Umzugsentschädigung",
+"Abgangsentschädigung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Unregelmässige Leistungen wie Boni, Antritts-/Austrittsentschädigungen, Treueprämien und Umzugsentschädigungen gehören in Ziffer 3; ein 13./14. Monatslohn gehört in Ziffer 1.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0023",
 "nachher": "bund-wl-lohnausweis-2026__c0025"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0025",
-"titel": "WL Lohnausweis 2026 – Abschnitt 25",
-"pfad": [],
+"titel": "Rz 27 Ziffer 3 Unregelmässige Leistungen – Bonus, Umzugsentschädigung (Teil 2/3)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 3"
+],
 "seiten": [
-10
+11,
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3 / 27",
+"stichworte": [
+"Bonus",
+"Gratifikation",
+"Dienstaltersgeschenk",
+"Treueprämie",
+"Umzugsentschädigung",
+"Abgangsentschädigung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0024",
 "nachher": "bund-wl-lohnausweis-2026__c0026"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0026",
-"titel": "WL Lohnausweis 2026 – Abschnitt 26",
-"pfad": [],
+"titel": "Rz 27 Ziffer 3 Unregelmässige Leistungen – Bonus, Umzugsentschädigung (Teil 3/3)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 3"
+],
 "seiten": [
-10
+11,
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3 / 27",
+"stichworte": [
+"Bonus",
+"Gratifikation",
+"Dienstaltersgeschenk",
+"Treueprämie",
+"Umzugsentschädigung",
+"Abgangsentschädigung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0025",
 "nachher": "bund-wl-lohnausweis-2026__c0027"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0027",
-"titel": "WL Lohnausweis 2026 – Abschnitt 27",
-"pfad": [],
+"titel": "Rz 28 Ziffer 4 Kapitalleistungen",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 4"
+],
 "seiten": [
-11
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4 / 28",
+"stichworte": [
+"Kapitalleistung",
+"Abgangsentschädigung Vorsorgecharakter",
+"Lohnnachzahlung",
+"Formular 563"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Kapitalleistungen mit Vorsorgecharakter und Lohnnachzahlungen stehen in Ziffer 4; Kapitalleistungen von Vorsorgeeinrichtungen nur mit Formular 563.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0026",
 "nachher": "bund-wl-lohnausweis-2026__c0028"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0028",
-"titel": "WL Lohnausweis 2026 – Abschnitt 28",
-"pfad": [],
+"titel": "Rz 29 Ziffer 5 Beteiligungsrechte gemäss Beiblatt (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 5"
+],
 "seiten": [
-11
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5 / 29",
+"stichworte": [
+"Mitarbeiterbeteiligung",
+"Aktien",
+"Optionen",
+"Beiblatt",
+"KS 37",
+"MBV"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Erwerbseinkommen aus Mitarbeiterbeteiligungen (Differenz Verkehrswert und Erwerbspreis) ist in Ziffer 5 mit Beiblatt auszuweisen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0027",
 "nachher": "bund-wl-lohnausweis-2026__c0029"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0029",
-"titel": "WL Lohnausweis 2026 – Abschnitt 29",
-"pfad": [],
+"titel": "Rz 29 Ziffer 5 Beteiligungsrechte gemäss Beiblatt (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 5"
+],
 "seiten": [
-11
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "5 / 29",
+"stichworte": [
+"Mitarbeiterbeteiligung",
+"Aktien",
+"Optionen",
+"Beiblatt",
+"KS 37",
+"MBV"
+],
+"positionen": [
+"einkommen.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0028",
 "nachher": "bund-wl-lohnausweis-2026__c0030"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0030",
-"titel": "WL Lohnausweis 2026 – Abschnitt 30",
-"pfad": [],
+"titel": "Rz 30 Ziffer 6 Verwaltungsratsentschädigungen",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 6"
+],
 "seiten": [
-11
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "6 / 30",
+"stichworte": [
+"Verwaltungsrat",
+"VR-Honorar",
+"Sitzungsgelder",
+"Tantiemen",
+"Stiftungsrat"
+],
+"positionen": [
+"einkommen.unselbstaendig.nebenerwerb",
+"einkommen.unselbstaendig.vr_honorare"
+],
+"zusammenfassung": "Ziffer 6 enthält VR-Entschädigungen, Sitzungsgelder und Tantiemen als Lohn für unselbstständige Tätigkeit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0029",
 "nachher": "bund-wl-lohnausweis-2026__c0031"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0031",
-"titel": "WL Lohnausweis 2026 – Abschnitt 31",
-"pfad": [],
+"titel": "Rz 31–35 Ziffer 7 Andere Leistungen – Trinkgelder, Taggelder, ALV, EO",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 7 Andere Leistungen"
+],
 "seiten": [
-11
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7 / 31–35",
+"stichworte": [
+"Trinkgelder",
+"Taggelder",
+"Arbeitslosenversicherung",
+"Kurzarbeit",
+"EO",
+"Mutterschaft"
+],
+"positionen": [
+"einkommen.ersatz.taggelder",
+"einkommen.uebrige"
+],
+"zusammenfassung": "Ziffer 7 erfasst weitere Leistungen: Trinkgelder (nur bei wesentlichem Lohnteil), Taggelder, ALV- und EO-Leistungen via Arbeitgeber.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0030",
 "nachher": "bund-wl-lohnausweis-2026__c0032"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0032",
-"titel": "WL Lohnausweis 2026 – Abschnitt 32",
-"pfad": [],
+"titel": "Rz 36–37 Ziffer 7 – Übernommene PK-Beiträge, Versicherungsbeiträge Säule 3b",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 7 Andere Leistungen"
+],
 "seiten": [
-11
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7 / 36–37",
+"stichworte": [
+"Pensionskasse Arbeitgeberübernahme",
+"Krankenkasse Arbeitgeber",
+"Säule 3b",
+"Kaderversicherung",
+"UVG"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf",
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Vom Arbeitgeber übernommene Arbeitnehmerbeiträge an die 2. Säule und Beiträge an Krankenkassen/Säule 3b sind zu deklarieren; nicht UVG und Kollektivtaggeld.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0031",
 "nachher": "bund-wl-lohnausweis-2026__c0033"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0033",
-"titel": "WL Lohnausweis 2026 – Abschnitt 33",
-"pfad": [],
+"titel": "Rz 38 Ziffer 7 – Arbeitgeberbeiträge an Säule 3a",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 7 Andere Leistungen"
+],
 "seiten": [
-12
+13,
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7 / 38",
+"stichworte": [
+"Säule 3a",
+"gebundene Selbstvorsorge",
+"Formular 21 EDP",
+"Bankstiftung"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a"
+],
+"zusammenfassung": "Vom Arbeitgeber erbrachte Säule-3a-Beiträge sind zu deklarieren, dürfen im Lohnausweis nicht abgezogen werden und werden separat mit Formular 21 EDP bescheinigt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0032",
 "nachher": "bund-wl-lohnausweis-2026__c0034"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0034",
-"titel": "WL Lohnausweis 2026 – Abschnitt 34",
-"pfad": [],
+"titel": "Rz 39–42 Ziffer 7 (Quellensteuer, Schulgelder), Ziffer 8 Bruttolohn, Ziffer 9 AHV/IV/EO/ALV/NBUV",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffern 7–9"
+],
 "seiten": [
-12
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7–9 / 39–42",
+"stichworte": [
+"Bruttolohn",
+"AHV-Beiträge",
+"ALV",
+"NBUV",
+"Schulgelder",
+"Quellensteuer übernommen",
+"Krankentaggeld"
+],
+"positionen": [
+"berechnung.total",
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Ziffer 8 ist das Total der Ziffern 1–7; in Ziffer 9 wird der Arbeitnehmeranteil AHV/IV/EO/ALV/NBUV abgezogen, Krankentaggeld- und UVG-Zusatzprämien nicht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0033",
 "nachher": "bund-wl-lohnausweis-2026__c0035"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0035",
-"titel": "WL Lohnausweis 2026 – Abschnitt 35",
-"pfad": [],
+"titel": "Rz 43 Ziffer 10 Berufliche Vorsorge (2. Säule)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 10"
+],
 "seiten": [
-12
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10 / 43",
+"stichworte": [
+"Pensionskasse",
+"2. Säule",
+"BVG",
+"Arbeitnehmerbeitrag",
+"Säule 2a 2b"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "In Ziffer 10 sind die im Bruttolohn enthaltenen, vom Lohn abgezogenen Beiträge an steuerbefreite Einrichtungen der 2. Säule anzugeben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0034",
 "nachher": "bund-wl-lohnausweis-2026__c0036"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0036",
-"titel": "WL Lohnausweis 2026 – Abschnitt 36",
-"pfad": [],
+"titel": "Rz 44–46 Ziffer 10.1/10.2 Ordentliche Beiträge und Einkauf in die 2. Säule (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 10.1/10.2"
+],
 "seiten": [
-13
+14,
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10.1–10.2 / 44–46",
+"stichworte": [
+"PK-Einkauf",
+"Einkauf Pensionskasse",
+"Wiedereinkauf Scheidung",
+"Formular 21 EDP",
+"ordentliche Beiträge"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Einkäufe, die vom Lohn abgezogen wurden, gehören in Ziffer 10.2; selbst entrichtete Einkäufe bescheinigt die Vorsorgeeinrichtung mit Formular 21 EDP.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0035",
 "nachher": "bund-wl-lohnausweis-2026__c0037"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0037",
-"titel": "WL Lohnausweis 2026 – Abschnitt 37",
-"pfad": [],
+"titel": "Rz 44–46 Ziffer 10.1/10.2 Ordentliche Beiträge und Einkauf in die 2. Säule (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 10.1/10.2"
+],
 "seiten": [
-13
+14,
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10.1–10.2 / 44–46",
+"stichworte": [
+"PK-Einkauf",
+"Einkauf Pensionskasse",
+"Wiedereinkauf Scheidung",
+"Formular 21 EDP",
+"ordentliche Beiträge"
+],
+"positionen": [
+"abzug.vorsorge.saeule2_einkauf"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0036",
 "nachher": "bund-wl-lohnausweis-2026__c0038"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0038",
-"titel": "WL Lohnausweis 2026 – Abschnitt 38",
-"pfad": [],
+"titel": "Rz 47–48 Ziffer 11 Nettolohn/Rente und Ziffer 12 Quellensteuerabzug",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffern 11–12"
+],
 "seiten": [
-13
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "11–12 / 47–48",
+"stichworte": [
+"Nettolohn",
+"Quellensteuer",
+"Grenzgänger",
+"Steuererklärung Nettolohn",
+"Kurzaufenthalter"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"berechnung.total"
+],
+"zusammenfassung": "Nettolohn = Bruttolohn (Ziffer 8) minus Abzüge Ziffer 9 und 10; in Ziffer 12 steht der Quellensteuerabzug bei Ausländern ohne Niederlassungsbewilligung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0037",
 "nachher": "bund-wl-lohnausweis-2026__c0039"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0039",
-"titel": "WL Lohnausweis 2026 – Abschnitt 39",
-"pfad": [],
+"titel": "Rz 49–51 Ziffer 13 Spesenvergütungen – Abgrenzung und Arten (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 13 Spesen"
+],
 "seiten": [
-13
+15,
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13 / 49–51",
+"stichworte": [
+"Spesen",
+"Spesenersatz",
+"Wegvergütung",
+"Pauschalspesen",
+"Spesenreglement",
+"Berufsauslagen"
+],
+"positionen": [
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Spesenvergütungen sind nicht Teil des Bruttolohns; Entschädigungen für Auslagen vor/nach der Arbeitstätigkeit (z. B. Wegvergütungen) sind keine Spesen und zum Lohn zu addieren.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0038",
 "nachher": "bund-wl-lohnausweis-2026__c0040"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0040",
-"titel": "WL Lohnausweis 2026 – Abschnitt 40",
-"pfad": [],
+"titel": "Rz 49–51 Ziffer 13 Spesenvergütungen – Abgrenzung und Arten (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 13 Spesen"
+],
 "seiten": [
-14
+15,
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "13 / 49–51",
+"stichworte": [
+"Spesen",
+"Spesenersatz",
+"Wegvergütung",
+"Pauschalspesen",
+"Spesenreglement",
+"Berufsauslagen"
+],
+"positionen": [
+"abzug.berufskosten.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0039",
 "nachher": "bund-wl-lohnausweis-2026__c0041"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0041",
-"titel": "WL Lohnausweis 2026 – Abschnitt 41",
-"pfad": [],
+"titel": "Rz 52 Ziffer 13.1 Effektive Spesen – Verzicht auf Deklaration (Kreuz 13.1.1)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 13.1"
+],
 "seiten": [
-14
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13.1 / 52",
+"stichworte": [
+"effektive Spesen",
+"CHF 35 Mittagessen",
+"CHF 30 Pauschale Hauptmahlzeit",
+"75 Rappen pro km",
+"Tagespauschale CHF 20",
+"Kundeneinladung"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Kein Betrag nötig (Kreuz in 13.1.1), wenn Übernachtung gegen Beleg, Mahlzeit max. CHF 35 bzw. Pauschale max. CHF 30, Privatfahrzeug max. 75 Rappen/km und Kleinspesen max. CHF 20 pro Tag.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0040",
 "nachher": "bund-wl-lohnausweis-2026__c0042"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0042",
-"titel": "WL Lohnausweis 2026 – Abschnitt 42",
-"pfad": [],
+"titel": "Rz 52 Ziffer 13.1 (Schluss) – Voraussetzung Reisetätigkeit, Kreuz in 13.1.1",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 13.1"
+],
 "seiten": [
-14
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "13.1 / 52",
+"stichworte": [
+"Reisetätigkeit",
+"Kreuz 13.1.1",
+"effektive Spesen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Voraussetzung für die Pauschalen ist eine tatsächliche Reisetätigkeit; bei Einhaltung aller Vorgaben genügt ein Kreuz im Feld zu Ziffer 13.1.1.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0041",
 "nachher": "bund-wl-lohnausweis-2026__c0043"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0043",
-"titel": "WL Lohnausweis 2026 – Abschnitt 43",
-"pfad": [],
+"titel": "Rz 53–54 Ziffer 13.1.1/13.1.2 Effektive Reise- und übrige Spesen, Homeoffice (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 13.1.1/13.1.2"
+],
 "seiten": [
-14
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13.1.1–13.1.2 / 53–54",
+"stichworte": [
+"Reisespesen",
+"Homeoffice Entschädigung",
+"Co-Working",
+"externer Arbeitsplatz",
+"Expatriates",
+"Übernachtung"
+],
+"positionen": [
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Nicht erfüllte Vorgaben verlangen betragsmässige Angabe der Spesen; Entschädigungen für externen Arbeitsplatz sind mit Vermerk «Spesen für externen Arbeitsplatz» aufzuführen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0042",
 "nachher": "bund-wl-lohnausweis-2026__c0044"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0044",
-"titel": "WL Lohnausweis 2026 – Abschnitt 44",
-"pfad": [],
+"titel": "Rz 53–54 Ziffer 13.1.1/13.1.2 Effektive Reise- und übrige Spesen, Homeoffice (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 13.1.1/13.1.2"
+],
 "seiten": [
-15
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "13.1.1–13.1.2 / 53–54",
+"stichworte": [
+"Reisespesen",
+"Homeoffice Entschädigung",
+"Co-Working",
+"externer Arbeitsplatz",
+"Expatriates",
+"Übernachtung"
+],
+"positionen": [
+"abzug.berufskosten.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0043",
 "nachher": "bund-wl-lohnausweis-2026__c0045"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0045",
-"titel": "WL Lohnausweis 2026 – Abschnitt 45",
-"pfad": [],
+"titel": "Rz 55–58 Ziffer 13.2 Pauschalspesen – Repräsentation, Auto, übrige (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 13.2 Pauschalspesen"
+],
 "seiten": [
-15
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13.2 / 55–58",
+"stichworte": [
+"Pauschalspesen",
+"Repräsentationsspesen",
+"Autospesen",
+"Kleinspesen CHF 50",
+"Homeoffice Pauschale"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Pauschale Spesen sind stets betragsmässig anzugeben und müssen ungefähr den effektiven Auslagen entsprechen; Expatriate-Pauschalen gehören in Ziffer 2.3.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0044",
 "nachher": "bund-wl-lohnausweis-2026__c0046"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0046",
-"titel": "WL Lohnausweis 2026 – Abschnitt 46",
-"pfad": [],
+"titel": "Rz 55–58 Ziffer 13.2 Pauschalspesen – Repräsentation, Auto, übrige (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 13.2 Pauschalspesen"
+],
 "seiten": [
-15
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "13.2 / 55–58",
+"stichworte": [
+"Pauschalspesen",
+"Repräsentationsspesen",
+"Autospesen",
+"Kleinspesen CHF 50",
+"Homeoffice Pauschale"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.fahrkosten"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0045",
 "nachher": "bund-wl-lohnausweis-2026__c0047"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0047",
-"titel": "WL Lohnausweis 2026 – Abschnitt 47",
-"pfad": [],
+"titel": "Rz 59–60 Genehmigtes Spesenreglement",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 13 Spesenreglement"
+],
 "seiten": [
-15
+17,
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "13 / 59–60",
+"stichworte": [
+"Spesenreglement",
+"Genehmigung Sitzkanton",
+"Mustervorlage SSK",
+"Ziffer 15 Vermerk"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei genehmigtem Spesenreglement (Mustervorlagen vom 1. Februar 2024, gültig ab 1. Mai 2024) sind nur die Pauschalspesen anzugeben und in Ziffer 15 ist die Genehmigung zu vermerken.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0046",
 "nachher": "bund-wl-lohnausweis-2026__c0048"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0048",
-"titel": "WL Lohnausweis 2026 – Abschnitt 48",
-"pfad": [],
+"titel": "Rz 61–62 Ziffer 13.3 Weiterbildungsbeiträge, Ziffer 14 Weitere Gehaltsnebenleistungen (Teil 1/3)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffern 13.3 und 14"
+],
 "seiten": [
-16
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "13.3 / 14 / 61–62",
+"stichworte": [
+"Weiterbildung Arbeitgeber",
+"Umschulung",
+"Personalrabatt",
+"CHF 2'500 geringfügig",
+"Vorzugspreis"
+],
+"positionen": [
+"abzug.weiterbildung"
+],
+"zusammenfassung": "Arbeitgeberbeiträge an berufsorientierte Weiterbildung sind in 13.3 anzugeben (nicht bei Zahlung direkt an Dritte); Hinweis in Ziffer 14 entfällt bei geringfügigen Vergünstigungen bis CHF 2'500.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0047",
 "nachher": "bund-wl-lohnausweis-2026__c0049"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0049",
-"titel": "WL Lohnausweis 2026 – Abschnitt 49",
-"pfad": [],
+"titel": "Rz 61–62 Ziffer 13.3 Weiterbildungsbeiträge, Ziffer 14 Weitere Gehaltsnebenleistungen (Teil 2/3)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffern 13.3 und 14"
+],
 "seiten": [
-16
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "13.3 / 14 / 61–62",
+"stichworte": [
+"Weiterbildung Arbeitgeber",
+"Umschulung",
+"Personalrabatt",
+"CHF 2'500 geringfügig",
+"Vorzugspreis"
+],
+"positionen": [
+"abzug.weiterbildung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0048",
 "nachher": "bund-wl-lohnausweis-2026__c0050"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0050",
-"titel": "WL Lohnausweis 2026 – Abschnitt 50",
-"pfad": [],
+"titel": "Rz 61–62 Ziffer 13.3 Weiterbildungsbeiträge, Ziffer 14 Weitere Gehaltsnebenleistungen (Teil 3/3)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffern 13.3 und 14"
+],
 "seiten": [
-17
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "13.3 / 14 / 61–62",
+"stichworte": [
+"Weiterbildung Arbeitgeber",
+"Umschulung",
+"Personalrabatt",
+"CHF 2'500 geringfügig",
+"Vorzugspreis"
+],
+"positionen": [
+"abzug.weiterbildung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0049",
 "nachher": "bund-wl-lohnausweis-2026__c0051"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0051",
-"titel": "WL Lohnausweis 2026 – Abschnitt 51",
-"pfad": [],
+"titel": "Rz 63 Ziffer 15 Bemerkungen – allgemein",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 15 Bemerkungen"
+],
 "seiten": [
-17
+18,
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "15 / 63",
+"stichworte": [
+"Bemerkungen",
+"Kinderzulagen",
+"Schichttage",
+"Krankenkassenbeiträge"
+],
+"positionen": [
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "In Ziffer 15 sind erforderliche Zusatzangaben zu machen; freiwillig können z. B. Kinderzulagen, Schichttage und Krankenkassenbeiträge ausgewiesen werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0050",
 "nachher": "bund-wl-lohnausweis-2026__c0052"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0052",
-"titel": "WL Lohnausweis 2026 – Abschnitt 52",
-"pfad": [],
+"titel": "Rz 64–65a Ziffer 15 – Erwerbsausfall, ALV, Spesenreglement, Expatriate (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 15 Bemerkungen"
+],
 "seiten": [
-17
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "15 / 64–65a",
+"stichworte": [
+"Erwerbsausfallentschädigung",
+"Arbeitslosenversicherung",
+"Spesenreglement Vermerk",
+"Expatriateruling"
+],
+"positionen": [
+"einkommen.ersatz.taggelder"
+],
+"zusammenfassung": "In Ziffer 15 sind u. a. Anzahl Tage mit nicht durch den Arbeitgeber ausbezahlten Erwerbsausfallentschädigungen sowie Vermerke zu Spesenreglement und Expatriateruling anzubringen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0051",
 "nachher": "bund-wl-lohnausweis-2026__c0053"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0053",
-"titel": "WL Lohnausweis 2026 – Abschnitt 53",
-"pfad": [],
+"titel": "Rz 64–65a Ziffer 15 – Erwerbsausfall, ALV, Spesenreglement, Expatriate (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 15 Bemerkungen"
+],
 "seiten": [
-17
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "15 / 64–65a",
+"stichworte": [
+"Erwerbsausfallentschädigung",
+"Arbeitslosenversicherung",
+"Spesenreglement Vermerk",
+"Expatriateruling"
+],
+"positionen": [
+"einkommen.ersatz.taggelder"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0052",
 "nachher": "bund-wl-lohnausweis-2026__c0054"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0054",
-"titel": "WL Lohnausweis 2026 – Abschnitt 54",
-"pfad": [],
+"titel": "Rz 66–71 Ziffer 15 – mehrere Lohnausweise, Rektifikat, Teilzeit, Beteiligungen, Umzugskosten (Teil 1/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 15 Bemerkungen"
+],
 "seiten": [
-18
+19,
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "15 / 66–71",
+"stichworte": [
+"Rektifikat",
+"Teilzeitbeschäftigung",
+"mehrere Lohnausweise",
+"Umzugskosten",
+"Mitarbeiterbeteiligung Vermerk"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Vorgeschriebene Vermerke: «Einer von ... Lohnausweisen», «Dieser Lohnausweis ersetzt den Lohnausweis vom ...», Teilzeit, Verkehrswert genehmigt sowie Umzugskosten bei Zwang.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0053",
 "nachher": "bund-wl-lohnausweis-2026__c0055"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0055",
-"titel": "WL Lohnausweis 2026 – Abschnitt 55",
-"pfad": [],
+"titel": "Rz 66–71 Ziffer 15 – mehrere Lohnausweise, Rektifikat, Teilzeit, Beteiligungen, Umzugskosten (Teil 2/2)",
+"pfad": [
+"I Notwendige Angaben",
+"Ziffer 15 Bemerkungen"
+],
 "seiten": [
-18
+19,
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "15 / 66–71",
+"stichworte": [
+"Rektifikat",
+"Teilzeitbeschäftigung",
+"mehrere Lohnausweise",
+"Umzugskosten",
+"Mitarbeiterbeteiligung Vermerk"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0054",
 "nachher": "bund-wl-lohnausweis-2026__c0056"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0056",
-"titel": "WL Lohnausweis 2026 – Abschnitt 56",
-"pfad": [],
+"titel": "Rz 72 Nicht zu deklarierende Leistungen – Pauschalen und Limiten (Teil 1)",
+"pfad": [
+"II Nicht zu deklarierende Leistungen"
+],
 "seiten": [
-18
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "72",
+"stichworte": [
+"Halbtaxabo",
+"Naturalgeschenke CHF 600",
+"Vergünstigungen 20 %",
+"Vereinsbeiträge CHF 1'000",
+"Mobiltelefon Privatnutzung"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Nicht deklariert werden u. a. Halbtax, Vergünstigungen bis 20 %/CHF 600 jährlich, Naturalgeschenke bis CHF 600 und Vereinsbeiträge bis CHF 1'000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0055",
 "nachher": "bund-wl-lohnausweis-2026__c0057"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0057",
-"titel": "WL Lohnausweis 2026 – Abschnitt 57",
-"pfad": [],
+"titel": "Rz 72 Nicht zu deklarierende Leistungen (Teil 2) – Anlässe, Krippe, Parkplatz",
+"pfad": [
+"II Nicht zu deklarierende Leistungen"
+],
 "seiten": [
-18
+20,
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "72",
+"stichworte": [
+"Zutrittskarten CHF 600",
+"Kinderkrippe Arbeitgeber",
+"Gratis-Parkplatz",
+"Vorsorgeuntersuchung",
+"Flugmeilen",
+"Fachverbände"
+],
+"positionen": [
+"abzug.drittbetreuung"
+],
+"zusammenfassung": "Weiter nicht zu deklarieren: Zutrittskarten bis CHF 600, Krippenbeiträge (sofern nicht nur bestimmten Arbeitnehmern), Gratis-Parkplatz, Vorsorgeuntersuchungen, Flugmeilen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0056",
 "nachher": "bund-wl-lohnausweis-2026__c0058"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0058",
-"titel": "WL Lohnausweis 2026 – Abschnitt 58",
-"pfad": [],
+"titel": "Rz 73–74 Pflichtverletzung und Adressaten des Lohnausweises",
+"pfad": [
+"III Pflichtverletzung",
+"IV Adressaten"
+],
 "seiten": [
-18
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "73–74",
+"stichworte": [
+"Strafe",
+"Haftung",
+"Art. 127 DBG",
+"Zustellung Steuerverwaltung",
+"Kantone Lohnausweis"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Falsches oder fehlendes Ausfüllen kann strafbar bzw. haftbar machen; mehrere Kantone verlangen ein Exemplar direkt an die Steuerverwaltung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0057",
 "nachher": "bund-wl-lohnausweis-2026__c0059"
 },
 {
 "id": "bund-wl-lohnausweis-2026__c0059",
-"titel": "WL Lohnausweis 2026 – Abschnitt 59",
-"pfad": [],
+"titel": "Rz 75 Bestelladressen Lohnausweisformular und Wegleitung",
+"pfad": [
+"V Bestelladressen"
+],
 "seiten": [
-19
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "75",
+"stichworte": [
+"eLohnausweis",
+"Formular bestellen",
+"BBL"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Lohnausweisformular und Wegleitung sind bei SSK/ESTV als PDF erhältlich; Auskünfte erteilen die kantonalen Steuerbehörden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-wl-lohnausweis-2026__c0058",
-"nachher": "bund-wl-lohnausweis-2026__c0060"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0060",
-"titel": "WL Lohnausweis 2026 – Abschnitt 60",
-"pfad": [],
-"seiten": [
-19
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0059",
-"nachher": "bund-wl-lohnausweis-2026__c0061"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0061",
-"titel": "WL Lohnausweis 2026 – Abschnitt 61",
-"pfad": [],
-"seiten": [
-19
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0060",
-"nachher": "bund-wl-lohnausweis-2026__c0062"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0062",
-"titel": "WL Lohnausweis 2026 – Abschnitt 62",
-"pfad": [],
-"seiten": [
-19
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0061",
-"nachher": "bund-wl-lohnausweis-2026__c0063"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0063",
-"titel": "WL Lohnausweis 2026 – Abschnitt 63",
-"pfad": [],
-"seiten": [
-20
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0062",
-"nachher": "bund-wl-lohnausweis-2026__c0064"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0064",
-"titel": "WL Lohnausweis 2026 – Abschnitt 64",
-"pfad": [],
-"seiten": [
-20
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0063",
-"nachher": "bund-wl-lohnausweis-2026__c0065"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0065",
-"titel": "WL Lohnausweis 2026 – Abschnitt 65",
-"pfad": [],
-"seiten": [
-20
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0064",
-"nachher": "bund-wl-lohnausweis-2026__c0066"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0066",
-"titel": "WL Lohnausweis 2026 – Abschnitt 66",
-"pfad": [],
-"seiten": [
-20
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0065",
-"nachher": "bund-wl-lohnausweis-2026__c0067"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0067",
-"titel": "WL Lohnausweis 2026 – Abschnitt 67",
-"pfad": [],
-"seiten": [
-21
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0066",
-"nachher": "bund-wl-lohnausweis-2026__c0068"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0068",
-"titel": "WL Lohnausweis 2026 – Abschnitt 68",
-"pfad": [],
-"seiten": [
-21
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0067",
-"nachher": "bund-wl-lohnausweis-2026__c0069"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0069",
-"titel": "WL Lohnausweis 2026 – Abschnitt 69",
-"pfad": [],
-"seiten": [
-21
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0068",
-"nachher": "bund-wl-lohnausweis-2026__c0070"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0070",
-"titel": "WL Lohnausweis 2026 – Abschnitt 70",
-"pfad": [],
-"seiten": [
-22
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0069",
-"nachher": "bund-wl-lohnausweis-2026__c0071"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0071",
-"titel": "WL Lohnausweis 2026 – Abschnitt 71",
-"pfad": [],
-"seiten": [
-22
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0070",
-"nachher": "bund-wl-lohnausweis-2026__c0072"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0072",
-"titel": "WL Lohnausweis 2026 – Abschnitt 72",
-"pfad": [],
-"seiten": [
-22
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0071",
-"nachher": "bund-wl-lohnausweis-2026__c0073"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0073",
-"titel": "WL Lohnausweis 2026 – Abschnitt 73",
-"pfad": [],
-"seiten": [
-23
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0072",
-"nachher": "bund-wl-lohnausweis-2026__c0074"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0074",
-"titel": "WL Lohnausweis 2026 – Abschnitt 74",
-"pfad": [],
-"seiten": [
-23
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0073",
-"nachher": "bund-wl-lohnausweis-2026__c0075"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0075",
-"titel": "WL Lohnausweis 2026 – Abschnitt 75",
-"pfad": [],
-"seiten": [
-23
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0074",
-"nachher": "bund-wl-lohnausweis-2026__c0076"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0076",
-"titel": "WL Lohnausweis 2026 – Abschnitt 76",
-"pfad": [],
-"seiten": [
-23
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0075",
-"nachher": "bund-wl-lohnausweis-2026__c0077"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0077",
-"titel": "WL Lohnausweis 2026 – Abschnitt 77",
-"pfad": [],
-"seiten": [
-24
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0076",
-"nachher": "bund-wl-lohnausweis-2026__c0078"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0078",
-"titel": "WL Lohnausweis 2026 – Abschnitt 78",
-"pfad": [],
-"seiten": [
-24
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0077",
-"nachher": "bund-wl-lohnausweis-2026__c0079"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0079",
-"titel": "WL Lohnausweis 2026 – Abschnitt 79",
-"pfad": [],
-"seiten": [
-24
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0078",
-"nachher": "bund-wl-lohnausweis-2026__c0080"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0080",
-"titel": "WL Lohnausweis 2026 – Abschnitt 80",
-"pfad": [],
-"seiten": [
-25
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0079",
 "nachher": null
 }
 ]

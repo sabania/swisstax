@@ -4,25 +4,18 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 6"
-seiten: "2"
+titel: "Ziff. 2.4 Erfüllung der Voraussetzungen durch beide Ehegatten"
+ziffer: "2.4"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 44 · 2 Subjektive Voraussetzungen › 2.4 Ehegatten · S. 3
 
-<!-- Seite 2 -->
-1 Allgemeines
-
-Am 29. Juni 2011 unterbreitete der Bundesrat dem Parlament die Botschaft über die Besteue-
-rung nach dem Aufwand (nachfolgend: Botschaft; BBl 2011 6021, abrufbar unter folgendem
-Link: https://www.admin.ch/opc/de/federal-gazette/2011/6021.pdf ).
-Am 28. September 2012 verabschiedeten die Eidgenössischen Räte das Bundesgesetz über
-die Besteuerung nach dem Aufwand (BBl 2012 8251) mit den entsprechenden Änderungen des
-Bundesgesetzes vom 14. Dezember 1990 über die direkte Bundessteuer (DBG; SR 642.11) so-
-wie des Bundesgesetzes vom 14. Dezember 1990 über die Harmonisierung der direkten Steu-
-ern der Kantone und Gemeinden (StHG; SR 642.14). Die Referendumsfrist lief am 17. Januar
-2013 unbenutzt ab. Die Änderung des DBG ist per 1. Januar 2016 in Kraft getreten.
-Neben den obgenannten Gesetzesbestimmungen bedingte diese Gesetzesänderung auch den
-Ersatz der bisherigen Verordnung vom 15. März 1993 durch die neue Verordnung vom 20. Feb-
-ruar 2013 über die Besteuerung nach dem Aufwand bei der direkten Bundessteuer (VO Auf-
-wandbesteuerung; SR 642.123), die am 1. Januar 2016 in Kraft trat.
+2.4   Erfüllung der Voraussetzungen durch beide Ehegatten
+Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, müssen beide die Voraus-
+setzungen nach Artikel 14 Absatz 1 DBG erfüllen.
+Hat einer der beiden in rechtlich und tatsächlich ungetrennter Ehe lebenden Ehegatten das
+Schweizer Bürgerrecht oder erwirbt dieses, übt einer der beiden Ehegatten eine Erwerbstätig-
+keit in der Schweiz aus oder nimmt eine Erwerbstätigkeit in der Schweiz auf, so hat dies den
+Verlust des Rechts auf Aufwandbesteuerung für beide Ehegatten zur Folge. In diesem Fall ist
+für die ganze Steuerperiode die ordentliche Steuer vom Einkommen zu entrichten.

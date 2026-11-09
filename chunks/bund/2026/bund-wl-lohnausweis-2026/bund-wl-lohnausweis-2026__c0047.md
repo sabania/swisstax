@@ -4,20 +4,31 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 47"
-seiten: "15"
+titel: "Rz 59–60 Genehmigtes Spesenreglement"
+ziffer: "13 / 59–60"
+seiten: "17-18"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 15
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13 Spesenreglement · S. 17–18
 
-Eine Vergütung von Spesen ist je nach Art der Entschädigung unterschiedlich im Lohnaus   51
-weis zu deklarieren.
-Es wird wie folgt unterschieden:
-•   Effektive Spesenvergütungen anhand von Belegen oder in Form von Einzelfallpauschalen,
-    z. B. CHF 30 pro auswärtiges Abendessen (vgl. Rz 52, 53 und 54);
-•   Pauschale Spesenvergütungen für einen bestimmten Zeitabschnitt, z. B. monatliche Auto-
-    oder Repräsentationsspesen (vgl. Rz 55, 56, 57 und 58);
-•   Spesenvergütungen im Rahmen eines genehmigten Spesenreglementes (vgl. Rz 59 und
-    60).
+Genehmigtes Spesenreglement: Arbeitgeber, welche die Spesen nicht nur effektiv gemäss   59
+Rz. 52 vergüten, können Rechtssicherheit für ihre Mitarbeitenden in einem genehmigten
+Spesenreglement erlangen. Ein Gesuch um Genehmigung eines Spesenreglements kann
+bei der Steuerbehörde des Sitzkantons gestellt werden. Es empfiehlt sich, Spesenregle
+mente inhaltlich nach den Mustervorlagen der Schweizerischen Steuerkonferenz aufzu
+bauen. Die Genehmigung durch den Sitzkanton umfasst sowohl die Festsetzung der effekti
+ven als auch der pauschalen Spesenvergütungen. Im Lohnausweis sind bei Vorliegen eines
 
-    ESTV   Seite 15 / 25
+    ESTV   Seite 17 / 25
+
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+
+
+genehmigten Spesenreglements nur die Pauschalspesen (vgl. Ziffer 13.2 des Lohnauswei
+ses) betragsmässig anzugeben. Vom Sitzkanton genehmigte Spesenreglemente werden von
+den anderen Kantonen ebenfalls anerkannt, sofern die Richtlinien der Mustervorlagen für
+Spesenreglemente vom 1. Februar 2024, gültig ab 1. Mai 2024, eingehalten sind.
+
+Unternehmen mit einem genehmigten Spesenreglement haben im Lohnausweis unter   60
+Ziffer 15 folgenden Vermerk anzubringen: «Spesenreglement durch Kanton XY (Auto
+kennzeichen des Kantons) am ... (Datum) genehmigt. »

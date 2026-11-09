@@ -4,34 +4,26 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 33"
-seiten: "15"
+titel: "Ziff. 79–80 Individuelle Schätzung des Vermögenssteuerwerts – Voraussetzung und Grundlagen"
+ziffer: "79–80"
+seiten: "15-16"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 15
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15–16
 
-<!-- Seite 15 -->
-C. Liegenschaften im Baurecht
+D. Individuelle Schätzung des Verkehrswerts und des Eigenmietwerts
+   von Liegenschaften
 
-I. Baurechtsnehmer
+I. Vermögenssteuerwert
 
-1. Vermögenssteuerwert
+    Führt die schematische, formelmässige Ermittlung zu einem Ver- 79
+mögenssteuerwert, der über 100% des Verkehrswerts oder unter 70%
+desselben liegt, so ist eine individuelle Schätzung des Vermögens-
+steuerwerts vorzunehmen.
 
-   Ist das Baurechtsgrundstück mit einem Einfamilienhaus oder 75
-Stockwerkeigentum zu Wohnzwecken bzw. mit einer industriellen
-oder gewerblichen Baute überbaut, so bildet der gemäss Ziff. 30 ff.
-bzw. 51 ff. ermittelte Zeitbauwert den Vermögenssteuerwert.
-    Ist das Baurechtsgrundstück mit einem Mehrfamilien- oder Ge- 76
-schäftshaus überbaut, bildet die Differenz zwischen kapitalisiertem
-Ertragswert (Ziff. 38 ff. und 43 f.) und kapitalisierten Baurechtszinsen
-den Vermögenssteuerwert. Der Baurechtszins ist in Anwendung der
-Sätze gemäss Ziff. 42, jeweils vermindert um 2 Prozentpunkte, zu kapi-
-talisieren.
-
-2. Eigenmietwert
-
-   Die Eigenmietwerte von Gebäuden, die vom Baurechtsnehmer 77
-und von zu seinem Haushalt gehörenden Personen genutzt werden,
-werden gemäss Ziff. 59 ff. ermittelt.
-
-II. Baurechtsgeber
+80   Bei der individuellen Schätzung des Verkehrswerts ist in einem ers-
+    ten Schritt auf folgende Grundlagen abzustellen:
+    – auf den Kaufpreis der Liegenschaft,
+    – auf den Anlagewert der Liegenschaft,
+    – auf ein nach anerkannten Bewertungsgrundsätzen erstelltes Privat-
+    gutachten.

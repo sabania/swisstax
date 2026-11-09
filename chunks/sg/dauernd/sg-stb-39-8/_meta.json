@@ -1,256 +1,469 @@
 [
 {
 "id": "sg-stb-39-8__c0001",
-"titel": "StB 39 Nr. 8 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1.1 Voraussetzung unselbständige Erwerbstätigkeit; Ehegatten, Arbeitslose (Teil 1/2)",
+"pfad": [
+"1. Voraussetzungen",
+"1.1 Unselbständige Erwerbstätigkeit"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.1",
+"stichworte": [
+"Verpflegungsabzug",
+"unselbständig",
+"Ehegatten",
+"Arbeitslose",
+"Stellensuche",
+"Mitarbeit Ehegatte"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Abzug für auswärtige Verpflegung setzt unselbständige Erwerbstätigkeit und direkten ursächlichen Zusammenhang mit den Mehrkosten voraus; jedem unselbständig erwerbenden Ehegatten steht er zu.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-stb-39-8__c0002"
 },
 {
 "id": "sg-stb-39-8__c0002",
-"titel": "StB 39 Nr. 8 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1.1 Voraussetzung unselbständige Erwerbstätigkeit; Ehegatten, Arbeitslose (Teil 2/2)",
+"pfad": [
+"1. Voraussetzungen",
+"1.1 Unselbständige Erwerbstätigkeit"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1.1",
+"stichworte": [
+"Verpflegungsabzug",
+"unselbständig",
+"Ehegatten",
+"Arbeitslose",
+"Stellensuche",
+"Mitarbeit Ehegatte"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0001",
 "nachher": "sg-stb-39-8__c0003"
 },
 {
 "id": "sg-stb-39-8__c0003",
-"titel": "StB 39 Nr. 8 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1.2 Notwendigkeit der auswärtigen Verpflegung (Art. 19 StV)",
+"pfad": [
+"1. Voraussetzungen",
+"1.2 Notwendigkeit"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"Notwendigkeit",
+"Hauptmahlzeit",
+"grosse Entfernung",
+"kurze Essenspause",
+"Schichtarbeit",
+"Nachtarbeit",
+"Art. 19 StV"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Abzug zulässig, wenn wegen grosser Entfernung oder kurzer Essenspause eine Hauptmahlzeit nicht zu Hause eingenommen werden kann oder bei durchgehender Schicht- oder Nachtarbeit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0002",
 "nachher": "sg-stb-39-8__c0004"
 },
 {
 "id": "sg-stb-39-8__c0004",
-"titel": "StB 39 Nr. 8 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 1.2 Beurteilung der Notwendigkeit – grosszügige Praxis, Mittagspause",
+"pfad": [
+"1. Voraussetzungen",
+"1.2 Notwendigkeit"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"Mittagessen",
+"Mittagspause",
+"Wohnort gleich Arbeitsort",
+"Alleinstehende",
+"grosszügig"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Die Kriterien Entfernung und Essenspause werden grosszügig ausgelegt; verneint nur, wenn der Arbeitsweg sehr kurz ist und die Mittagspause die Einnahme zu Hause zulässt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0003",
 "nachher": "sg-stb-39-8__c0005"
 },
 {
 "id": "sg-stb-39-8__c0005",
-"titel": "StB 39 Nr. 8 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 1.2 Gleitende Arbeitszeit und individuelle Mittagspause",
+"pfad": [
+"1. Voraussetzungen",
+"1.2 Notwendigkeit"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"gleitende Arbeitszeit",
+"Mittagspause eine Stunde",
+"Homeoffice",
+"auswärts essen"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Bei gleitender Arbeitszeit wird eine erhebliche Verlängerung der Mittagspause nicht zugemutet; Mittagspausen von rund einer Stunde sind üblich, das Essen muss aber tatsächlich auswärts eingenommen werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0004",
 "nachher": "sg-stb-39-8__c0006"
 },
 {
 "id": "sg-stb-39-8__c0006",
-"titel": "StB 39 Nr. 8 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 1.2 Schichtarbeit und unregelmässige Arbeitszeit (mind. 8 Stunden)",
+"pfad": [
+"1. Voraussetzungen",
+"1.2 Notwendigkeit"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.2",
+"stichworte": [
+"Schichtarbeit",
+"Nachtarbeit",
+"unregelmässige Arbeitszeit",
+"gestaffelte Arbeitszeit",
+"achtstündig",
+"Art. 19 Abs. 3 StV"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Schichtarbeit ist eine mindestens achtstündige, durchgehende Arbeitszeit; der Abzug für Schicht-/Nachtarbeit kann nicht zusätzlich zum Verpflegungsabzug wegen Entfernung oder kurzer Pause beansprucht werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0005",
 "nachher": "sg-stb-39-8__c0007"
 },
 {
 "id": "sg-stb-39-8__c0007",
-"titel": "StB 39 Nr. 8 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 1.3 Mehrkosten der auswärtigen Verpflegung – Zwischenverpflegung, Bewertungsansätze",
+"pfad": [
+"1. Voraussetzungen",
+"1.3 Mehrkosten"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.3",
+"stichworte": [
+"Mehrkosten",
+"Zwischenverpflegung",
+"Lebenshaltungskosten",
+"Naturalbezüge",
+"Nettoprinzip",
+"Znüni"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Nur Mehrkosten gegenüber Verpflegung zu Hause sind abziehbar; für Zwischenverpflegungen besteht kein Abzug (Lebenshaltungskosten, Art. 47 Bst. a StG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0006",
 "nachher": "sg-stb-39-8__c0008"
 },
 {
 "id": "sg-stb-39-8__c0008",
-"titel": "StB 39 Nr. 8 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 1.4 Tragung der Kosten durch den Steuerpflichtigen",
+"pfad": [
+"1. Voraussetzungen",
+"1.4 Kostentragung"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1.4",
+"stichworte": [
+"Arbeitgeberbeitrag",
+"Kürzung Pauschale",
+"Kostentragung"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Abzug nur, wenn die Kosten selbst getragen wurden; beteiligt sich der Arbeitgeber, wird der Pauschalansatz gekürzt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0007",
 "nachher": "sg-stb-39-8__c0009"
 },
 {
 "id": "sg-stb-39-8__c0009",
-"titel": "StB 39 Nr. 8 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 2.1 Verpflegung bei Wochenaufenthalt – inner-/interkantonal (Art. 20 StV)",
+"pfad": [
+"2. Verpflegung bei Wochenaufenthalt",
+"2.1 Inner- und interkantonale Wochenaufenthalter"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1",
+"stichworte": [
+"Wochenaufenthalt",
+"Wochenaufenthalter",
+"Art. 20 StV",
+"auswärtiger Arbeitsort"
+],
+"positionen": [
+"abzug.berufskosten.wochenaufenthalt",
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Wochenaufenthalter können die Mehrkosten des auswärtigen Aufenthalts inkl. Verpflegung nach den Pauschalansätzen der direkten Bundessteuer abziehen (Art. 20 StV).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0008",
 "nachher": "sg-stb-39-8__c0010"
 },
 {
 "id": "sg-stb-39-8__c0010",
-"titel": "StB 39 Nr. 8 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 2.2 Internationale Wochenaufenthalter – Quellensteuer",
+"pfad": [
+"2. Verpflegung bei Wochenaufenthalt",
+"2.2 Internationale Wochenaufenthalter"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"Quellensteuer",
+"Wochenaufenthalter Ausland",
+"Grenzgänger",
+"Quellensteuertarif"
+],
+"positionen": [
+"abzug.berufskosten.wochenaufenthalt"
+],
+"zusammenfassung": "Berufskostenabzüge inkl. Verpflegung sind in den Quellensteuertarifen pauschaliert eingerechnet; zusätzliche Abzüge sind nicht möglich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0009",
 "nachher": "sg-stb-39-8__c0011"
 },
 {
 "id": "sg-stb-39-8__c0011",
-"titel": "StB 39 Nr. 8 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 3.1 Höhe des Abzugs – Pauschalen, kein Nachweis höherer Kosten",
+"pfad": [
+"3. Höhe des Abzuges",
+"3.1 Allgemeines"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Pauschalansätze",
+"Nachweis höherer Kosten",
+"Art. 39 Abs. 2 StG",
+"Art. 26 Abs. 2 DBG"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Verpflegungsmehrkosten werden nach den DBG-Pauschalen abgezogen; ein Nachweis höherer Kosten ist (anders als bei anderen Berufskosten) nicht möglich.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0010",
 "nachher": "sg-stb-39-8__c0012"
 },
 {
 "id": "sg-stb-39-8__c0012",
-"titel": "StB 39 Nr. 8 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 3.2 Pauschalansätze Verpflegung: Fr. 15 / Fr. 3'200, halb Fr. 7.50 / Fr. 1'600, Wochenaufenthalt Fr. 30 / Fr. 6'400",
+"pfad": [
+"3. Höhe des Abzuges",
+"3.2 Pauschalansätze"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2",
+"stichworte": [
+"Verpflegungspauschale",
+"Fr. 15",
+"Fr. 3'200",
+"Fr. 7.50",
+"Fr. 1'600",
+"Wochenaufenthalt Fr. 6'400",
+"Fr. 4'800"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung",
+"abzug.berufskosten.wochenaufenthalt"
+],
+"zusammenfassung": "Voller Abzug pro Hauptmahlzeit Fr. 15.--, im Jahr Fr. 3'200.--; halber Abzug Fr. 7.50 bzw. Fr. 1'600.--; Wochenaufenthalt voll Fr. 30.-- bzw. Fr. 6'400.--, gekürzt Fr. 22.50 bzw. Fr. 4'800.--.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0011",
 "nachher": "sg-stb-39-8__c0013"
 },
 {
 "id": "sg-stb-39-8__c0013",
-"titel": "StB 39 Nr. 8 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 3.3 Voller Abzug – Regel, nicht kumulierbar mit Wochenaufenthalt",
+"pfad": [
+"3. Höhe des Abzuges",
+"3.3 Voller Abzug"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.3",
+"stichworte": [
+"voller Abzug",
+"Kürzungsgrund",
+"Wochenaufenthalt nicht kumulierbar",
+"Art. 6 Abs. 6 Berufskostenverordnung"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Grundsätzlich wird der volle Abzug gewährt; der Pauschalabzug bei täglicher Heimkehr kann nicht gleichzeitig mit jenem bei Wochenaufenthalt geltend gemacht werden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0012",
 "nachher": "sg-stb-39-8__c0014"
 },
 {
 "id": "sg-stb-39-8__c0014",
-"titel": "StB 39 Nr. 8 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 3.4 Halber/gekürzter Abzug – Kantine, Personalrestaurant, Mensa, Feld G (Teil 1/2)",
+"pfad": [
+"3. Höhe des Abzuges",
+"3.4 Halber/gekürzter Abzug"
+],
 "seiten": [
+3,
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.4",
+"stichworte": [
+"Kantine",
+"Personalrestaurant",
+"Mensa",
+"halber Abzug",
+"Lunch-Checks",
+"Feld G Lohnausweis",
+"Arbeitgeberbeitrag"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Nur der halbe bzw. gekürzte Abzug, wenn ein Personalrestaurant zur Verfügung steht oder der Arbeitgeber die Verpflegung verbilligt (Lohnausweis Feld G); auch bei freiwilligem Verzicht auf die Kantine.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0013",
 "nachher": "sg-stb-39-8__c0015"
 },
 {
 "id": "sg-stb-39-8__c0015",
-"titel": "StB 39 Nr. 8 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 3.4 Halber/gekürzter Abzug – Kantine, Personalrestaurant, Mensa, Feld G (Teil 2/2)",
+"pfad": [
+"3. Höhe des Abzuges",
+"3.4 Halber/gekürzter Abzug"
+],
 "seiten": [
+3,
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.4",
+"stichworte": [
+"Kantine",
+"Personalrestaurant",
+"Mensa",
+"halber Abzug",
+"Lunch-Checks",
+"Feld G Lohnausweis",
+"Arbeitgeberbeitrag"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0014",
 "nachher": "sg-stb-39-8__c0016"
 },
 {
 "id": "sg-stb-39-8__c0016",
-"titel": "StB 39 Nr. 8 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 3.4 Kürzung bei Spesenersatz des Arbeitgebers – Beispiel 44 von 220 Tagen",
+"pfad": [
+"3. Höhe des Abzuges",
+"3.4 Halber/gekürzter Abzug"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.4",
+"stichworte": [
+"Spesenersatz",
+"Fallpauschale",
+"Montage",
+"Kürzung",
+"Fr. 2'560"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Bei vergüteter Verpflegung wird die Pauschale im Verhältnis der Arbeitstage gekürzt: Fr. 3'200.-- x (220 - 44) / 220 = Fr. 2'560.--.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-39-8__c0015",
+"nachher": "sg-stb-39-8__c0017"
+},
+{
+"id": "sg-stb-39-8__c0017",
+"titel": "Ziff. 4 Nachweis der Abzugsberechtigung",
+"pfad": [
+"4. Nachweis"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "4",
+"stichworte": [
+"Nachweis",
+"Beweislast",
+"steuermindernde Tatsachen"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Wer den Abzug geltend macht, hat auf Verlangen die Abzugsberechtigung nachzuweisen (steuermindernde Tatsachen).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-stb-39-8__c0016",
 "nachher": null
 }
 ]

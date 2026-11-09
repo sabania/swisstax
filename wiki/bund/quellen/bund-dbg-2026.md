@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/20260101/de> · lokal: [bund-dbg-2026.xml](../../../raw/bund/2026/bund-dbg-2026.xml) · Volltext: [bund-dbg-2026.md](../../../sources/bund/2026/bund-dbg-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `4a4e5bf16f590071…`
 
-## Inhalt (303 Chunks)
+## Inhalt (296 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -21,12 +21,10 @@ generiert: tools/build_index.py
 | [art-3-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-3-t1.md) | Art. 3 DBG (Teil 1/2) | Art. 3 |  |
 | [art-3-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-3-t2.md) | Art. 3 DBG (Teil 2/2) | Art. 3 |  |
 | [art-4](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-4.md) | Art. 4 DBG – Geschäftsbetriebe, Betriebsstätten und Grundstücke | Art. 4 |  |
-| [art-5-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-5-t1.md) | Art. 5 DBG – Andere steuerbare Werte (Teil 1/3) | Art. 5 |  |
-| [art-5-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-5-t2.md) | Art. 5 DBG – Andere steuerbare Werte (Teil 2/3) | Art. 5 |  |
-| [art-5-t3](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-5-t3.md) | Art. 5 DBG – Andere steuerbare Werte (Teil 3/3) | Art. 5 |  |
-| [art-6-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-6-t1.md) | Art. 6 DBG (Teil 1/3) | Art. 6 |  |
-| [art-6-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-6-t2.md) | Art. 6 DBG (Teil 2/3) | Art. 6 |  |
-| [art-6-t3](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-6-t3.md) | Art. 6 DBG (Teil 3/3) | Art. 6 |  |
+| [art-5-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-5-t1.md) | Art. 5 DBG – Andere steuerbare Werte (Teil 1/2) | Art. 5 |  |
+| [art-5-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-5-t2.md) | Art. 5 DBG – Andere steuerbare Werte (Teil 2/2) | Art. 5 |  |
+| [art-6-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-6-t1.md) | Art. 6 DBG (Teil 1/2) | Art. 6 |  |
+| [art-6-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-6-t2.md) | Art. 6 DBG (Teil 2/2) | Art. 6 |  |
 | [art-7](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-7.md) | Art. 7 DBG | Art. 7 |  |
 | [art-8](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-8.md) | Art. 8 DBG | Art. 8 |  |
 | [art-9](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-9.md) | Art. 9 DBG – Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter elterlicher Sorge | Art. 9 |  |
@@ -57,14 +55,12 @@ generiert: tools/build_index.py
 | [art-20-t4](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-20-t4.md) | Art. 20 DBG – Grundsatz (Teil 4/6) | Art. 20 |  |
 | [art-20-t5](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-20-t5.md) | Art. 20 DBG – Grundsatz (Teil 5/6) | Art. 20 |  |
 | [art-20-t6](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-20-t6.md) | Art. 20 DBG – Grundsatz (Teil 6/6) | Art. 20 |  |
-| [art-20a-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-20a-t1.md) | Art. 20a DBG – Besondere Fälle (Teil 1/3) | Art. 20a |  |
-| [art-20a-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-20a-t2.md) | Art. 20a DBG – Besondere Fälle (Teil 2/3) | Art. 20a |  |
-| [art-20a-t3](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-20a-t3.md) | Art. 20a DBG – Besondere Fälle (Teil 3/3) | Art. 20a |  |
+| [art-20a-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-20a-t1.md) | Art. 20a DBG – Besondere Fälle (Teil 1/2) | Art. 20a |  |
+| [art-20a-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-20a-t2.md) | Art. 20a DBG – Besondere Fälle (Teil 2/2) | Art. 20a |  |
 | [art-21](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-21.md) | Art. 21 DBG | Art. 21 |  |
-| [art-22-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-22-t1.md) | Art. 22 DBG (Teil 1/4) | Art. 22 |  |
-| [art-22-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-22-t2.md) | Art. 22 DBG (Teil 2/4) | Art. 22 |  |
-| [art-22-t3](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-22-t3.md) | Art. 22 DBG (Teil 3/4) | Art. 22 |  |
-| [art-22-t4](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-22-t4.md) | Art. 22 DBG (Teil 4/4) | Art. 22 |  |
+| [art-22-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-22-t1.md) | Art. 22 DBG (Teil 1/3) | Art. 22 |  |
+| [art-22-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-22-t2.md) | Art. 22 DBG (Teil 2/3) | Art. 22 |  |
+| [art-22-t3](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-22-t3.md) | Art. 22 DBG (Teil 3/3) | Art. 22 |  |
 | [art-23](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-23.md) | Art. 23 DBG | Art. 23 |  |
 | [art-24-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-24-t1.md) | Art. 24 DBG (Teil 1/3) | Art. 24 |  |
 | [art-24-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-24-t2.md) | Art. 24 DBG (Teil 2/3) | Art. 24 |  |
@@ -179,17 +175,15 @@ generiert: tools/build_index.py
 | [art-104b](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-104b.md) | Art. 104b DBG – Aufsicht | Art. 104b |  |
 | [art-105](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-105.md) | Art. 105 DBG – Bei persönlicher Zugehörigkeit | Art. 105 |  |
 | [art-106](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-106.md) | Art. 106 DBG – Bei wirtschaftlicher Zugehörigkeit | Art. 106 |  |
-| [art-107-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-107-t1.md) | Art. 107 DBG – Bei Quellensteuern (Teil 1/3) | Art. 107 |  |
-| [art-107-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-107-t2.md) | Art. 107 DBG – Bei Quellensteuern (Teil 2/3) | Art. 107 |  |
-| [art-107-t3](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-107-t3.md) | Art. 107 DBG – Bei Quellensteuern (Teil 3/3) | Art. 107 |  |
+| [art-107-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-107-t1.md) | Art. 107 DBG – Bei Quellensteuern (Teil 1/2) | Art. 107 |  |
+| [art-107-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-107-t2.md) | Art. 107 DBG – Bei Quellensteuern (Teil 2/2) | Art. 107 |  |
 | [art-108](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-108.md) | Art. 108 DBG – Bei ungewisser oder streitiger Zuständigkeit | Art. 108 |  |
 | [art-109](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-109.md) | Art. 109 DBG – Ausstand | Art. 109 |  |
 | [art-110](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-110.md) | Art. 110 DBG – Geheimhaltungspflicht | Art. 110 |  |
 | [art-111](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-111.md) | Art. 111 DBG – Amtshilfe unter Steuerbehörden | Art. 111 |  |
 | [art-112](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-112.md) | Art. 112 DBG – Amtshilfe anderer Behörden | Art. 112 |  |
-| [art-112a-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-112a-t1.md) | Art. 112a DBG – Datenbearbeitung (Teil 1/3) | Art. 112a |  |
-| [art-112a-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-112a-t2.md) | Art. 112a DBG – Datenbearbeitung (Teil 2/3) | Art. 112a |  |
-| [art-112a-t3](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-112a-t3.md) | Art. 112a DBG – Datenbearbeitung (Teil 3/3) | Art. 112a |  |
+| [art-112a-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-112a-t1.md) | Art. 112a DBG – Datenbearbeitung (Teil 1/2) | Art. 112a |  |
+| [art-112a-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-112a-t2.md) | Art. 112a DBG – Datenbearbeitung (Teil 2/2) | Art. 112a |  |
 | [art-113](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-113.md) | Art. 113 DBG | Art. 113 |  |
 | [art-114](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-114.md) | Art. 114 DBG – Akteneinsicht | Art. 114 |  |
 | [art-115](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-115.md) | Art. 115 DBG – Beweisabnahme | Art. 115 |  |
@@ -310,9 +304,8 @@ generiert: tools/build_index.py
 | [art-205f](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-205f.md) | Art. 205f DBG – Übergangsbestimmung zur Änderung vom 26. September 2014 | Art. 205f |  |
 | [art-206](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-206.md) | Art. 206 DBG | Art. 206 |  |
 | [art-207](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-207.md) | Art. 207 DBG – Steuerermässigung bei Liquidation von Immobiliengesellschaften | Art. 207 |  |
-| [art-207a-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-207a-t1.md) | Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 1/3) | Art. 207a |  |
-| [art-207a-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-207a-t2.md) | Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 2/3) | Art. 207a |  |
-| [art-207a-t3](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-207a-t3.md) | Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 3/3) | Art. 207a |  |
+| [art-207a-t1](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-207a-t1.md) | Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 1/2) | Art. 207a |  |
+| [art-207a-t2](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-207a-t2.md) | Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Teil 2/2) | Art. 207a |  |
 | [art-207b](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-207b.md) | Art. 207b DBG – Übergangsbestimmung zur Änderung vom 20. Juni 2014 | Art. 207b |  |
 | [art-208-220](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-208-220.md) | Art. 208–220 DBG | Art. 208–220 |  |
 | [art-220a](../../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-220a.md) | Art. 220a DBG | Art. 220a |  |

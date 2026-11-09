@@ -4,41 +4,26 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 160"
-seiten: "42"
+titel: "Ziff. 7.5.2 Leistungen vor Antritt des Arbeitsverhältnisses (Sign-on-Bonus)"
+ziffer: "7.5.2"
+seiten: "51"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 42
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.2 Leistungen vor Antritt · S. 51
 
-<!-- Seite 42 -->
-    Teilzeit-Tätigkeiten (50 % - 50 %; unterschiedlicher Lohn):
-    2. Ein lediger Steuerpflichtiger übt zwei unselbstständige Erwerbstätigkeiten in der Schweiz aus (Gesamtpen-
-    sum 100 %):
-       50 % beim Arbeitgeber 1 für einen Bruttojahreslohn von CHF 39 000.00 (CHF 3 000 x 13)
-       50 % beim Arbeitgeber 2 für einen Bruttojahreslohn von CHF 52 000.00 (CHF 4 000 x 13)
-
-    Arbeitgeber 1
-
-    Monat   Januar   …   November   Dezember   Besteuerung
-
-    Bruttolohn   3 000   3 000   6 000   39 000
-
-    Tarifcode   A0   A0   A0   A0
-
-    Steuersatz (%)   12,41   12,4   12,4   12,4
-
-    Quellensteuer   372   372   744   4 836
-
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 78 000.00 (CHF 3000 x 13 / 50 %).
-
-    Arbeitgeber 2
-
-    Monat   Januar   …   November   Dezember   Besteuerung
-
-    Bruttolohn   4 000   4 000   8 000   52 000
-
-    Tarifcode   A0   A0   A0   A0
-
-    Steuersatz (%)   15,41   15,4   15,4   15,4
-
-    Quellensteuer   616   616   1 232   8 008
+7.5.2 Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses
+Entschädigungen, welche dem Arbeitnehmer vom Arbeitgeber vor Antritt des Arbeitsverhält-
+nisses ausgerichtet werden (bspw. Sign-on-Bonus), fallen nach schweizerischem Recht un-
+ter die Bestimmung von Artikel 17 DBG.
+Für in der Schweiz ansässige quellensteuerpflichtige Personen ist daher die Quellensteuer
+auf der gesamten Leistung nach den Verhältnissen im Zeitpunkt der Ausrichtung der Leis-
+tung zu berechnen.
+Erhält eine im Ausland ansässige Person eine derartige Leistung, ist darauf die Quellen-
+steuer zu erheben. Die Leistung knüpft an ein in der Schweiz steuerpflichtiges Arbeitsverhält-
+nis an, weshalb die Grundsätze von Artikel 15 OECD-MA zu beachten sind. Auch in diesem
+Fall sind die Verhältnisse im Zeitpunkt der Ausrichtung der Leistung für den Quellensteuer-
+abzug massgebend.
+Es steht der quellensteuerpflichtigen Person, welche nicht einer obligatorischen nachträgli-
+chen Veranlagung unterliegt (Art. 89 DBG), offen, bis am 31. März des auf die Leistung fol-
+genden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträgliche ordent-
+liche Veranlagung zu beantragen (vgl. Ziffer 11 unten).

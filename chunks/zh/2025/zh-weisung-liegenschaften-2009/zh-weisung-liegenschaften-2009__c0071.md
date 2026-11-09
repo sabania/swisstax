@@ -4,31 +4,28 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 71"
-seiten: "30"
+titel: "Anhang S. 31 Landwerte Wohnbauland bebaut Einfamilienhäuser – Affoltern"
+ziffer: "13, 23"
+seiten: "31"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 30
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, Einfamilienhäuser · S. 31
 
-Benken (ZH)   5   370   340   310   280   250   –   –
-Berg am Irchel   3   470   410   350   –   –   –   –
-Buch am Irchel   2   470   370   –   –   –   –   –
-Dachsen   3   430   350   270   –   –   –   –
-Dorf   3   490   410   320   –   –   –   –
-Feuerthalen   5   460   420   370   320   270   –   –
-Flaach   5   400   380   350   320   290   –   –
-Flurlingen   3   550   450   340   –   –   –   –
-Henggart   3   570   470   370   –   –   –   –
-Kleinandelfingen   5   550   500   440   380   320   –   –
-Laufen-Uhwiesen   5   520   470   420   370   310   –   –
-Marthalen   3   490   410   330   –   –   –   –
-Ossingen   4   540   430   320   210   –   –   –
-Rheinau   3   370   310   250   –   –   –   –
-Stammheim
-– Oberstammheim   3   410   360   300   –   –   –   –
- (ehemalige Gemeinde)
-– Unterstammheim   4   410   370   340   300   –   –   –
- (ehemalige Gemeinde)
-– Waltalingen   3   430   350   270   –   –   –   –
- (ehemalige Gemeinde)
-Thalheim an der Thur   3   480   390   290   –   –   –   –
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+Wohnbauland
+
+Bebaute Grundstücke
+    Einfamilienhäuser (Ziff. 13 und 23)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+
+Bezirk Affoltern
+Aeugst am Albis   5   530   470   410   350   280   –   –
+Affoltern am Albis   5   410   370   330   290   250   –   –
+Bonstetten   3   430   360   290   –   –   –   –
+Hausen am Albis   5   390   360   320   280   240   –   –
+Hedingen   5   430   400   360   330   290   –   –
+Kappel am Albis   2   310   270   –   –   –   –   –
+Knonau   3   400   330   250   –   –   –   –
+Maschwanden   2   290   230   –   –   –   –   –
+Mettmenstetten   5   400   370   340   310   280   –   –

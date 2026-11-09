@@ -4,23 +4,26 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 2"
-seiten: "1"
+titel: "Ziff. 2 Gesetzliche Grundlagen – Wortlaut Art. 33 DBG, BehiG (Teil 1/2)"
+ziffer: "2"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 11a · 2 Gesetzliche Grundlagen · S. 3
 
-<!-- Seite 1 -->
-    Eidgenössisches Finanzdepartement EFD
-    Eidgenössische Steuerverwaltung ESTV
-    Hauptabteilung Direkte Bundessteuer,
-    Verrechnungssteuer, Stempelabgaben
+2   Gesetzliche Grundlagen
 
-Direkte Bundessteuer
-
-Bern, 26. Mai 2026
-
-Kreisschreiben Nr. 11a
-
-Abzug von Krankheits- und Unfallkosten sowie von behinderungs-
-bedingten Kosten
+Artikel 33 Absatz 1 Buchstaben h und hbis DBG hat folgenden Wortlaut:
+1
+    Von den Einkünften werden abgezogen:
+    h   die Krankheits- und Unfallkosten des Steuerpflichtigen und der von ihm unterhaltenen
+    Personen, soweit der Steuerpflichtige die Kosten selber trägt und diese 5 Prozent der um
+    die Aufwendungen (Art. 26 – 33) verminderten steuerbaren Einkünfte übersteigen;
+    hbis die behinderungsbedingten Kosten des Steuerpflichtigen oder der von ihm unterhaltenen
+    Personen mit Behinderungen im Sinne des Behindertengleichstellungsgesetzes vom
+    13. Dezember 2002, soweit der Steuerpflichtige die Kosten selber trägt.
+Artikel 2 Absatz 1 des Bundesgesetzes vom 13. Dezember 2002 über die Beseitigung von Be
+nachteiligungen von Menschen mit Behinderungen (BehiG; SR 151.3) umschreibt eine Person
+mit Behinderung wie folgt:
+1
+    In diesem Gesetz bedeutet Mensch mit Behinderungen (Behinderte, Behinderter) eine Per-

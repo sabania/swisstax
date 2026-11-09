@@ -4,21 +4,17 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 17"
-seiten: "6"
+titel: "Ziff. 4.4 Berufsorientierte Aus- und Weiterbildung nach Sek-II-Abschluss (Teil 2/2)"
+ziffer: "4.4"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.4 Berufsorientierte Weiterbildung · S. 7–8
 
-ben) und der Tertiärstufe als auch ausserhalb des formalen Bildungssystems in Abzug gebracht
-werden. Unter formaler Bildung wird gemeinhin die institutionalisierte, kontinuierliche Aus- und
-Weiterbildung in den staatlichen Bildungsinstitutionen (wie Schule, Universität, Institutionen der
-Berufsbildung) verstanden. Sie ist ein strukturierter, hierarchisch gegliederter Prozess und ge-
-kennzeichnet durch klare Lernziele, Lehrpläne, Lernsettings und Zertifizierungen.
-Der Abzug ist bei Altersrentnerinnen und Altersrentnern nur möglich, falls diese eine aktuelle oder
-zukünftige Erwerbstätigkeit glaubhaft machen.
-Die Kosten bis und mit dem ersten Abschluss auf der Sekundarstufe II gelten als Lebenshaltungs-
-kosten und sind nicht abzugsfähig. Ebenso sind sämtliche berufsorientierten Aus- und Weiterbil-
-dungskosten, die vor Vollendung des 20. Lebensjahres anfallen, nicht abzugsfähig, sofern kein
-Abschluss auf Sekundarstufe II vorliegt.
-Beispiele:
+zug bringen zu können, ist es nicht erforderlich, den Abschluss des entsprechenden Bildungs-
+lehrganges auch tatsächlich zu erwerben. Sind die Voraussetzungen der Berufsorientierung er-
+füllt, genügt es, dass der steuerpflichtigen Person Kosten anfallen.
+Als berufsorientierte Aus- und Weiterbildungen gelten dabei insbesondere Kurse, Seminare, Kon-
+gresse und andere Veranstaltungen wissenschaftlicher oder bildender Art, die entweder einen
+direkten Bezug zur aktuellen Berufsausübung haben oder im Hinblick auf eine beabsichtigte zu-
+künftige Berufsausübung besucht werden.

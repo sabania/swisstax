@@ -1,0 +1,108 @@
+{
+ "id": "bund-ssk-ks27-mb-sz",
+ "hinweise": [
+  "Inhaltsverzeichnis auf Seite 1 mit Seitenzahlen; Aufzählungszeichen fehlen (Textextraktion), sonst gut lesbar.",
+  "Thematisch Grundstückgewinnsteuer/Ausscheidungsverluste, überwiegend für Liegenschaftenhändler und juristische Personen relevant."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "skip": true,
+   "titel": "Deckblatt und Inhaltsverzeichnis"
+  },
+  {
+   "start": 51,
+   "titel": "Ziff. 1–2 Einleitung und Anpassung der bundesgerichtlichen Rechtsprechung",
+   "pfad": [
+    "1. Einleitung / 2. Rechtsprechung"
+   ],
+   "ziffer": "1–2",
+   "stichworte": [
+    "Ausscheidungsverluste",
+    "Doppelbesteuerung",
+    "Spezialsteuerdomizil",
+    "Liegenschaftenhändler",
+    "Bundesgericht",
+    "Grundstückgewinn"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Das Bundesgericht verpflichtet den Liegenschaftskanton, Geschäftsverluste aus anderen Kantonen auf Grundstückgewinne anzurechnen (BGer 2P.222/2002, 2P.139/2005)."
+  },
+  {
+   "start": 90,
+   "titel": "Ziff. 3.1 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze natürliche Personen",
+   "pfad": [
+    "3. Kreisschreiben SSK",
+    "3.1 Natürliche Personen"
+   ],
+   "ziffer": "3.1",
+   "stichworte": [
+    "SSK Kreisschreiben 27",
+    "Verlustverrechnung",
+    "Gewinnungskostenüberschuss",
+    "Hauptsteuerdomizil",
+    "Geschäftsvermögen",
+    "Privatvermögen"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Verluste werden zuerst im gleichen Kanton verrechnet, dann vom Hauptsteuerdomizil getragen; Verrechnung mit Grundstückgewinnen des Privatvermögens ist ausgeschlossen, Verlustübernahme ist definitiv."
+  },
+  {
+   "start": 127,
+   "titel": "Ziff. 3.2 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze juristische Personen",
+   "pfad": [
+    "3. Kreisschreiben SSK",
+    "3.2 Juristische Personen"
+   ],
+   "ziffer": "3.2",
+   "stichworte": [
+    "juristische Personen",
+    "Betriebsergebnis",
+    "Quoten",
+    "monistisches System",
+    "wieder eingebrachte Abschreibungen",
+    "Gewinnsteuer"
+   ],
+   "zusammenfassung": "Nicht verrechenbare Verluste schmälern das nach Quoten verteilte Betriebsergebnis; monistische Kantone verrechnen zuerst mit wieder eingebrachten Abschreibungen, dann mit dem Wertzuwachsgewinn."
+  },
+  {
+   "start": 150,
+   "titel": "Ziff. 4 Verlustverrechnung im Kanton Schwyz",
+   "pfad": [
+    "4. Verlustverrechnung im Kanton Schwyz"
+   ],
+   "ziffer": "4",
+   "stichworte": [
+    "Kanton Schwyz",
+    "§ 119 Abs. 4 StG",
+    "Veranlagungspraxis ab 1.1.2010",
+    "Verlustverrechnung",
+    "Grundstückgewinnsteuer"
+   ],
+   "zusammenfassung": "Seit 1.1.2010 können bei der Einkommens- bzw. Gewinnsteuer erzielte Verluste mit Grundstückgewinnen des gleichen Jahres verrechnet werden, für alle steuerpflichtigen Personen."
+  },
+  {
+   "start": 174,
+   "titel": "Ziff. 5–6 Verfahren und Übergangsregelungen vor 1.1.2010",
+   "pfad": [
+    "5. Verfahren / 6. Übergangsregelungen"
+   ],
+   "ziffer": "5–6",
+   "stichworte": [
+    "Revisionsgesuch 90 Tage",
+    "Übergangsregelung",
+    "Steuerperiode 2006",
+    "Vorbehalt",
+    "Veräusserung vor 2010"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Verrechnung kann mit Revisionsgesuch innert 90 Tagen ab Versand der Veranlagung geltend gemacht werden; Übergangsregeln gelten ab Steuerperiode 2006, innerkantonale Betriebe vor 1.1.2010 ausgeschlossen."
+  }
+ ]
+}

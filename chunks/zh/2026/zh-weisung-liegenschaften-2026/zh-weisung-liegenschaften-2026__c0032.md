@@ -4,18 +4,16 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 32"
-seiten: "14"
+titel: "Ziff. 78 Baurechtsgeber – Vermögenssteuerwert"
+ziffer: "78"
+seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 14
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · C. Liegenschaften im Baurecht › II. Baurechtsgeber · S. 15
 
-    V. Andere Liegenschaften und Räume
+II. Baurechtsgeber
 
-73   Der bei eigener Nutzung von anderen Liegenschaften und Räumen
-    wie ehemaligen, nicht mehr landwirtschaftlich genutzten Scheunen, frei-
-    stehenden Garagen, Sport- und Reithallen und dergleichen anzurech-
-    nende Mietwert soll dem Mietzins entsprechen, den der Pflichtige bei
-    Vermietung von einem Dritten erhalten würde.
-74   Die Mietwerte solcher Liegenschaften und Räume sind unter Be-
-    rücksichtigung der Verhältnisse des Einzelfalls zu schätzen.
+    Für den Baurechtsgeber bilden die kapitalisierten Baurechtszinsen 78
+den Vermögenssteuerwert. Der Baurechtszins ist in Anwendung der
+Sätze gemäss Ziff. 42, jeweils vermindert um 2 Prozentpunkte, zu kapi-
+talisieren.

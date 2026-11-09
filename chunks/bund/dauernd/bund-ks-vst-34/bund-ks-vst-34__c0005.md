@@ -4,22 +4,19 @@ quelle: bund-ks-vst-34
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 34 – Abschnitt 5"
+titel: "Ziff. 7 Abrechnungsverfahren (30 Tage)"
+ziffer: "7"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 34 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS VST 34 · Abrechnungsverfahren · S. 2
 
-<!-- Seite 2 -->
-b) Bank oder Sparkasse im Sinne des Verrechnungssteuergesetzes
-Bei Banken oder Sparkassen, die fortgesetzt Gelder gegen Zins entgegennehmen, beginnt
-die Steuerpflicht, sobald der Bestand an Gläubigern die Zahl 100 übersteigt und die
-gesamte Schuldsumme mindestens 5’000'000 Franken beträgt.
-Bei der Ermittlung der Anzahl Gläubiger sind die in- und ausländischen Banken im Sinne der
-an ihrem Sitz geltenden Bankengesetzgebung nicht mitzuzählen.
-Wer zur Bank oder Sparkasse im Sinne des Verrechnungssteuergesetzes wird, darf sich
-nach den Vorschriften des Bankengesetzes nicht als Bank bezeichnen.
-
-5. Anmeldepflicht
-Wer auf Grund der vorstehenden Bestimmungen abgabepflichtig wird, hat sich
-unaufgefordert bei der Eidg. Steuerverwaltung anzumelden (vgl. Art. 38 Abs. 1 VStG)
+7. Abrechnungsverfahren
+Die Steuer auf dem Ertrag von Kundenguthaben bei Banken und Sparkassen ist mit dem
+amtlichen Formular wie folgt abzurechnen und zu entrichten (Art. 19 Abs. 1 und 2 der
+Vollziehungsverordnung vom 19. Dezember 1966 über die Verrechnungssteuer VStV):
+• in einem annäherungsweise ermittelten Betrag innert 30 Tagen nach Ablauf des
+   Geschäftsvierteljahres für die in diesem Zeitraum fällig gewordenen Erträge (Zinsen);
+• im genau ermittelten Betrag innert 30 Tagen nach Ablauf des letzten
+   Geschäftsvierteljahres für die im ganzen Geschäftsjahr fällig gewordenen Erträge
+   (Zinsen), abzüglich der für die ersten drei Quartale abgelieferten Steuern.

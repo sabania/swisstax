@@ -4,25 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 3.7 Negativzinsen auf Bankguthaben – Gewinnungskosten"
-ziffer: "3.7"
-seiten: "12-13"
+titel: "Ziff. 4.1–4.2 Kennzeichnung in Kursliste (IUP), Bankbescheinigung (Teil 1/2)"
+ziffer: "4.1–4.2"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.7 Negativzinsen · S. 12–13
+> Bund · Steuerjahr 2025/2026 · KS 15 · 4 Kennzeichnung in der Kursliste · S. 13
 
-Negativzinsen auf Guthaben im Privatvermögen (verursacht durch die negative Verzinsung
-von Einlagen bei der Schweizerischen Nationalbank) können jedoch gestützt auf Artikel 32
-Absatz1 DBG als Gewinnungskosten zum Abzug gebracht werden. Unter den erwähnten
-Guthaben im Privatvermögen sind Einlagen bei Banken oder Sparkassen zu verstehen
-(Spar-, Einlage-, Depositen- und Kontokorrentguthaben, Lohnkonten sowie Festgelder und
-Callgelder). Bei diesen Guthaben ist der Ausweis von Negativzinsen ohne Weiteres möglich,
-da Höhe, Periode und somit der Betrag des Negativzinses zweifelsfrei feststehen. Dies ist im
-Falle von handelbaren Forderungspapieren (irrelevant, ob IUP oder nicht IUP) nicht möglich,
-
-
-1-015-DVS-2017-d
-
-da die Kursbildung dieser Titel von verschiedenen Einflussfaktoren bestimmt wird und die ge-
-naue Zuordnung des Anteils der zu belastenden Negativzinsen für die individuelle Halte-
-dauer nicht möglich ist.
+4   Kennzeichnung der Obligationen in der Kursliste der ESTV
+    Mitwirkungs- und Auskunftspflicht der Banken bezüglich der ana-
+    lytischen Ermittlung des steuerbaren Ertrags
+4.1   Kennzeichnung der Obligationen sowie der kombinierten Produkte mit über-
+    wiegender Einmalverzinsung
+Die ESTV (Team Wertschriften und Finanzderivate) wird wie bisher alle in- und ausländi-
+schen an Schweizer Börsen kotierten Obligationen sowie die transparenten kombinierten
+Produkte, die sich als ausschliesslich oder überwiegend einmalverzinslich erweisen, in der
+Kursliste mit der Bezeichnung IUP (= intérêt unique prédominant) kennzeichnen. Sie gibt da-
+mit bekannt, dass diese Papiere nach Artikel 20 Absatz 1 Buchstabe b DBG zu besteuern
+sind (grundsätzlich reine Differenzbesteuerung; vorbehältlich Ziffer 4.2. hienach).

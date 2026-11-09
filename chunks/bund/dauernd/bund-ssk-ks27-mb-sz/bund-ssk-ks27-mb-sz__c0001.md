@@ -4,11 +4,20 @@ quelle: bund-ssk-ks27-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 27 (MB SZ) – Abschnitt 1"
+titel: "Ziff. 1–2 Einleitung und Anpassung der bundesgerichtlichen Rechtsprechung (Teil 1/4)"
+ziffer: "1–2"
+seiten: "1-2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ)
+> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · 1. Einleitung / 2. Rechtsprechung · S. 1–2
 
-# Merkblatt SZ zu SSK-KS 27: Anrechnung von Ausscheidungsverlusten
+1.   Einleitung
 
-> Bund · Merkblatt · Quelle: <https://www.sz.ch/public/upload/assets/17553/Merkblatt_Anrechnung_von_Ausscheidungsverlusten.pdf?fp=9>
+Nach den Grundsätzen zur Vermeidung der interkantonalen Doppelbesteuerung muss eine steuer-
+pflichtige Person, die in mehreren Kantonen steuerpflichtig ist, nicht mehr als ihr gesamtes Rein-
+einkommen bzw. ihren gesamten Reingewinn versteuern. Gemäss der ursprünglichen bundesge-
+richtlichen Rechtsprechung trat diese Regel gegenüber dem Grundsatz zurück, dass das Grundei-
+gentum dem Kanton, in dem es liegt, zur ausschliesslichen Besteuerung vorbehalten bleibt. Das
+Schlechterstellungsverbot war in diesem Fall nicht anwendbar. Der Liegenschaftskanton musste
+Verluste, die am Wohnsitz (Hauptsitz) oder in anderen Kantonen angefallen waren, nicht überneh-
+men.

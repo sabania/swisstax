@@ -1,0 +1,115 @@
+{
+ "id": "bund-ks-vst-48",
+ "hinweise": [
+  "Inhaltsverzeichnis mit Punktlinien (Seite 1); Text sonst gut lesbar.",
+  "Kreisschreiben Nr. 48 vom 4.12.2019."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Titel und Inhaltsverzeichnis"
+  },
+  {
+   "start": 63,
+   "titel": "Ziff. 1–2 Allgemeines und gesetzliche Bestimmungen (Art. 23, 70d VStG)",
+   "pfad": [
+    "1 Allgemeines / 2 Gesetzliche Bestimmungen"
+   ],
+   "ziffer": "1–2",
+   "stichworte": [
+    "Verrechnungssteuer Rückerstattung",
+    "Art. 23 VStG",
+    "Verwirkung",
+    "Deklarationspflicht",
+    "fahrlässig nicht deklariert",
+    "Art. 70d VStG"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ],
+   "zusammenfassung": "Seit 1.1.2019 tritt die Verwirkung nach Art. 23 Abs. 2 VStG nicht ein, wenn Einkünfte fahrlässig nicht angegeben wurden und in einem noch nicht rechtskräftigen Verfahren nachdeklariert oder aufgerechnet werden."
+  },
+  {
+   "start": 107,
+   "titel": "Ziff. 3.1 Deklarationspflicht – Grundsatz und Ausnahme (Fahrlässigkeit, Verfahren)",
+   "pfad": [
+    "3 Voraussetzungen der Rückerstattung",
+    "3.1 Deklarationspflicht"
+   ],
+   "ziffer": "3.1",
+   "stichworte": [
+    "Deklarationspflicht",
+    "Fahrlässigkeit",
+    "Nachdeklaration",
+    "Selbstanzeige",
+    "Nachsteuerverfahren",
+    "Steuererklärung Wertschriften"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Deklarationspflicht gilt auch als erfüllt bei fahrlässiger Unterlassung und Nachdeklaration in einem nicht rechtskräftig abgeschlossenen Veranlagungs-, Revisions- oder Nachsteuerverfahren; Rückerstattung bleibt auch bei straflos Selbstanzeige (Art. 175 Abs. 3 DBG)."
+  },
+  {
+   "start": 152,
+   "titel": "Ziff. 3.2–3.3 Überprüfungs- und Auskunftspflichten; Untergang nach Art. 32 VStG (3 Jahre)",
+   "pfad": [
+    "3 Voraussetzungen der Rückerstattung",
+    "3.2–3.3"
+   ],
+   "ziffer": "3.2–3.3",
+   "stichworte": [
+    "Auskunftspflicht Art. 48 VStG",
+    "drei Kalenderjahre",
+    "Verjährung Rückerstattung",
+    "60 Tage Frist",
+    "Rückerstattungsantrag"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Wird innerhalb von drei Kalenderjahren nach Fälligkeit der steuerbaren Leistung kein Rückerstattungsantrag eingereicht, erlischt der Anspruch (Art. 32 Abs. 1 VStG); neue Frist von 60 Tagen bei Beanstandung der ESTV."
+  },
+  {
+   "start": 179,
+   "titel": "Ziff. 4–5 Veranlagung nach pflichtgemässem Ermessen und Meldeverfahren",
+   "pfad": [
+    "4 Veranlagung nach pflichtgemässem Ermessen / 5 Meldeverfahren"
+   ],
+   "ziffer": "4–5",
+   "stichworte": [
+    "Ermessensveranlagung",
+    "Meldeverfahren",
+    "Art. 130 DBG",
+    "Einsprache",
+    "Art. 20 VStG"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ],
+   "zusammenfassung": "Art. 23 Abs. 2 VStG kann auch bei Veranlagung nach pflichtgemässem Ermessen gelten; das Meldeverfahren entbindet nicht von der Deklarationspflicht (Art. 124-126 DBG)."
+  },
+  {
+   "start": 207,
+   "titel": "Ziff. 6–7 Übergangsregelung (ab 1.1.2014) und Inkrafttreten",
+   "pfad": [
+    "6 Übergangsregelung / 7 Inkrafttreten"
+   ],
+   "ziffer": "6–7",
+   "stichworte": [
+    "Übergangsregelung",
+    "Fälligkeit 31. Dezember 2013",
+    "altes Recht",
+    "Kreisschreiben Nr. 40",
+    "Inkrafttreten 1. Januar 2019"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ],
+   "zusammenfassung": "Art. 23 Abs. 2 VStG gilt für Einkünfte mit Fälligkeit nach dem 31. Dezember 2013; für frühere Fälligkeiten gilt altes Recht (KS Nr. 40); Inkrafttreten rückwirkend auf 1. Januar 2019."
+  }
+ ]
+}

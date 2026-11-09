@@ -4,18 +4,16 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 33"
-seiten: "8"
+titel: "Anhang II Zusammenfassung der Erläuterungen zur LGBV (Teil 2/3)"
+ziffer: "Zusammenfassung"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 14
 
-Art. 6   Berechnung des fiktiven Einkaufs
-1 Der Betrag des fiktiven Einkaufs einer steuerpflichtigen Person berechnet sich aus
-dem Altersgutschriftensatz von 15 Prozent, multipliziert mit der Anzahl Jahre nach
-Absatz 2 und dem Einkommen nach den Absätzen 3–5, reduziert um die Abzüge
-nach Absatz 6. Er darf die Höhe des Liquidationsgewinns nicht übersteigen.
-2 Massgebend ist die Anzahl Jahre vom vollendeten 25. Altersjahr bis zum Alter im
-Liquidationsjahr, höchstens jedoch bis zum ordentlichen AHV-Rentenalter.
-
-2
+Artikel 37b DBG sieht vor, dass der Liquidationsgewinn (stille Reserven) getrennt vom übri-
+gen Einkommen privilegiert besteuert wird, wenn die selbständige Erwerbstätigkeit nach dem
+vollendeten 55. Altersjahr oder infolge Invalidität definitiv aufgegeben wird. Ein Fünftel des
+Liquidationsgewinnes soll satzbestimmend sein. Diese privilegierte Liquidationsbesteuerung
+kann unter bestimmten Voraussetzungen auch vom überlebenden Ehegatten, den anderen
+Erben und den Vermächtnisnehmern geltend gemacht werden.

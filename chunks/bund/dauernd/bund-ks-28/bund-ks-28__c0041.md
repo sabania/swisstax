@@ -4,58 +4,21 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 41"
-seiten: "11-13"
+titel: "Anhang II Ziff. 1.2 Beratung Ständerat – Fünftel und Mindestsatz 2 Prozent (Teil 1/2)"
+ziffer: "1.2"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 11–13
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 16
 
-<!-- Seite 11 -->
-Verordnung über die Besteuerung der Liquidationsgewinne bei definitiver   AS 2010
-Aufgabe der selbstständigen Erwerbstätigkeit
-
-
-Art. 12   Fortführung der selbstständigen Erwerbstätigkeit durch die Erben,
-    Erbinnen, Vermächtnisnehmer oder Vermächtnisnehmerinnen
-Führen die Erben, Erbinnen, Vermächtnisnehmer oder Vermächtnisnehmerinnen der
-steuerpflichtigen Person die selbstständige Erwerbstätigkeit fort, so findet diese
-Verordnung nur Anwendung, wenn sie die Voraussetzungen nach Artikel 37b DBG
-selbst erfüllen.
-
-
-6. Abschnitt: Inkrafttreten
-
-Art. 13
-Diese Verordnung tritt am 1. Januar 2011 in Kraft.
-
-
-17. Februar 2010   Im Namen des Schweizerischen Bundesrates
-    Die Bundespräsidentin: Doris Leuthard
-    Die Bundeskanzlerin: Corina Casanova
-
-
-    5
-
-<!-- Seite 12 -->
-Verordnung über die Besteuerung der Liquidationsgewinne bei definitiver   AS 2010
-Aufgabe der selbstständigen Erwerbstätigkeit
-
-
-6
-
-<!-- Seite 13 -->
-    Eidgenössisches Finanzdepartement EFD   Anhang II
-    Eidgenössische Steuerverwaltung ESTV
-    Hauptabteilung Direkte Bundessteuer,
-    Verrechnungssteuer, Stempelabgaben
-
-
-Stabstelle Gesetzgebung, im Januar 2010
-
-
-Verordnung über die Besteuerung der Liqui-
-dationsgewinne bei definitiver Aufgabe der
-selbständigen Erwerbstätigkeit (Art. 37b
-DBG)
-
-Erläuterungen
+1.2   Beratung in den eidgenössischen Räten
+Der Ständerat hatte als Erstrat in der Sommersession 2006 - in Abweichung vom bundesrät-
+lichen Vorschlag - beschlossen, dass die in den letzten zwei Geschäftsjahren realisierten
+stillen Reserven getrennt vom übrigen Einkommen im Sinne von Artikel 38 DBG zu besteu-
+ern seien. Dabei solle ein Fünftel der realisierten stillen Reserven satzbestimmend sein. In
+jedem Fall solle jedoch eine Steuer von 2 Prozent erhoben werden. Gleichzeitig wurde auch
+der entsprechend angepasste Artikel 11 Absatz 5 StHG (dannzumal noch Abs. 4) ange-
+nommen, der für die kantonale Steuer die getrennte Besteuerung der in den letzten zwei
+Geschäftsjahren realisierten stillen Reserven vorsah, jedoch die Festlegung des für die
+Satzbestimmung massgebenden Anteils dem kantonalen Recht überliess. Bei dieser Abän-
+derung bestand vor allem der Wille, die ordentliche Besteuerung des übrigen Einkommens

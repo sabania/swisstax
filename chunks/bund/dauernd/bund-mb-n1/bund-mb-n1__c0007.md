@@ -4,13 +4,22 @@ quelle: bund-mb-n1
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB N1/2007 – Abschnitt 7"
-seiten: "1"
+titel: "Ziff. 5 Privatanteil an den Autokosten – effektiv oder pauschal"
+ziffer: "5"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB N1/2007 · S. 1
+> Bund · Steuerjahr 2025/2026 · MB N1/2007 · Privatanteil Autokosten · S. 2
 
-gungsmittel geführt, so sind die Ansätze für Lebensmittelgeschäfte   * Massgebend ist das Alter der Kinder zu Beginn jedes Geschäftsjahres.
-(Buchstabe b hiervor) anzuwenden.   Bei Familien mit mehr als 3 Kindern sind vom Totalwert der
-Für Käsereien und Sennereien ohne Verkaufsladen gelten in der   Kinderansätze abzuziehen: bei 4 Kindern 10 %, bei 5 Kindern 20%,
-Regel die Hälfte der vorstehenden Ansätze.   bei 6 und mehr Kindern 30%.
+5. Privatanteil an den Autokosten
+
+Der Privatanteil an den Autokosten kann entweder effektiv oder   b) Pauschale Ermittlung
+pauschal ermittelt werden.   Können die gesamten Betriebskosten des zum Teil privat genützten
+    Fahrzeuges und die geschäftlich sowie privat zurückgelegten Kilo
+a) Effektive Ermittlung
+    meter anhand eines Bordbuches nicht nachgewiesen werden, ist
+Können die gesamten Betriebskosten des zum Teil privat genütz   pro Monat 0,9%** des Kaufpreises (exkl. MWST), mindestens aber
+ten Fahrzeuges und die geschäftlich sowie privat zurückgelegten   CHF 150 zu deklarieren.
+Kilometer anhand eines Bordbuches nachgewiesen werden, sind die
+effektiven Kosten proportional auf die geschäftlich und privat zu
+rückgelegten Kilometer aufzuteilen.   ** Gültig ab 1. Januar 2022 (bis 31. Dezember 2021: 0,8 %)

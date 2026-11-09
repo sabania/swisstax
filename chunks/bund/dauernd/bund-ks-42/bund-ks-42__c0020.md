@@ -4,15 +4,21 @@ quelle: bund-ks-42
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 42 – Abschnitt 20"
-seiten: "6"
+titel: "Ziff. 4.5.2 Unterhaltung, Geselligkeit, Sport und Hobby – nicht abzugsfähig (Teil 1/2)"
+ziffer: "4.5.2"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.5 Keine berufsorientierte Weiterbildung · S. 8
 
-4.2   Allgemeiner Abzug
-Der Abzug für die Aus- und Weiterbildungskosten gemäss Artikel 33 Absatz 1 Buchstabe j DBG
-stellt einen allgemeinen Abzug dar, mit dem den tatsächlichen Aufwendungen der steuerpflichti-
-gen Person bis zu einem Gesamtbetrag von höchstens 12 000 Franken Rechnung getragen wird.
-Der Abzug ist kein Pauschalabzug. Bei Ehegatten, die in rechtlich und tatsächlich ungetrennter
-Ehe leben, und bei Personen, die in einer eingetragenen Partnerschaft leben, steht dieser Abzug
+4.5.2   Anlässe im Bereich Unterhaltung, Erlebnis, Geselligkeit, Sport und Hobby
+Anlässe im Bereich Unterhaltung, Vergnügung, Freizeitbeschäftigung, Geselligkeit, Entspan-
+nung, gemeinsame Ausübung einer Tätigkeit, sportliche Betätigung usw. stellen selbst dann
+keine berufsorientierten Aus- und Weiterbildungen im Sinne von Artikel 33 Absatz 1 Buch-
+stabe j DBG dar, wenn sie noch ein (untergeordnetes) Bildungselement enthalten. Als Beispiele
+können genannt werden:
+Kurse, Vorträge, Referate, Seminare, Symposien, Kongresse, Workshops und andere Veranstal-
+tungen mit überwiegendem Hobbycharakter wie Handarbeitskurse, Garten- und Handwerks-
+kurse, Astrologie, Feng-Shui, Weinseminare, Riverrafting, Aktivferien (Malferien, Reitferien, Wan-
+derwochen usw.), geführte Berg-, Ski- oder Biketouren, Aktivitäten zur Förderung des Teamgeis-
+tes, Fallschirmsprünge oder Tauchgänge, Sportkurse (Tennis, Karate, Reiten, Tauchen etc.),

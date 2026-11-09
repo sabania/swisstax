@@ -1,272 +1,381 @@
 [
 {
 "id": "bund-ssk-ks27-mb-sz__c0001",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1–2 Einleitung und Anpassung der bundesgerichtlichen Rechtsprechung (Teil 1/4)",
+"pfad": [
+"1. Einleitung / 2. Rechtsprechung"
+],
+"seiten": [
+1,
+2
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–2",
+"stichworte": [
+"Ausscheidungsverluste",
+"Doppelbesteuerung",
+"Spezialsteuerdomizil",
+"Liegenschaftenhändler",
+"Bundesgericht",
+"Grundstückgewinn"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Das Bundesgericht verpflichtet den Liegenschaftskanton, Geschäftsverluste aus anderen Kantonen auf Grundstückgewinne anzurechnen (BGer 2P.222/2002, 2P.139/2005).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ssk-ks27-mb-sz__c0002"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0002",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1–2 Einleitung und Anpassung der bundesgerichtlichen Rechtsprechung (Teil 2/4)",
+"pfad": [
+"1. Einleitung / 2. Rechtsprechung"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–2",
+"stichworte": [
+"Ausscheidungsverluste",
+"Doppelbesteuerung",
+"Spezialsteuerdomizil",
+"Liegenschaftenhändler",
+"Bundesgericht",
+"Grundstückgewinn"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0001",
 "nachher": "bund-ssk-ks27-mb-sz__c0003"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0003",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 1–2 Einleitung und Anpassung der bundesgerichtlichen Rechtsprechung (Teil 3/4)",
+"pfad": [
+"1. Einleitung / 2. Rechtsprechung"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–2",
+"stichworte": [
+"Ausscheidungsverluste",
+"Doppelbesteuerung",
+"Spezialsteuerdomizil",
+"Liegenschaftenhändler",
+"Bundesgericht",
+"Grundstückgewinn"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0002",
 "nachher": "bund-ssk-ks27-mb-sz__c0004"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0004",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 1–2 Einleitung und Anpassung der bundesgerichtlichen Rechtsprechung (Teil 4/4)",
+"pfad": [
+"1. Einleitung / 2. Rechtsprechung"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1–2",
+"stichworte": [
+"Ausscheidungsverluste",
+"Doppelbesteuerung",
+"Spezialsteuerdomizil",
+"Liegenschaftenhändler",
+"Bundesgericht",
+"Grundstückgewinn"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0003",
 "nachher": "bund-ssk-ks27-mb-sz__c0005"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0005",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3.1 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze natürliche Personen (Teil 1/3)",
+"pfad": [
+"3. Kreisschreiben SSK",
+"3.1 Natürliche Personen"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"SSK Kreisschreiben 27",
+"Verlustverrechnung",
+"Gewinnungskostenüberschuss",
+"Hauptsteuerdomizil",
+"Geschäftsvermögen",
+"Privatvermögen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Verluste werden zuerst im gleichen Kanton verrechnet, dann vom Hauptsteuerdomizil getragen; Verrechnung mit Grundstückgewinnen des Privatvermögens ist ausgeschlossen, Verlustübernahme ist definitiv.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0004",
 "nachher": "bund-ssk-ks27-mb-sz__c0006"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0006",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 3.1 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze natürliche Personen (Teil 2/3)",
+"pfad": [
+"3. Kreisschreiben SSK",
+"3.1 Natürliche Personen"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.1",
+"stichworte": [
+"SSK Kreisschreiben 27",
+"Verlustverrechnung",
+"Gewinnungskostenüberschuss",
+"Hauptsteuerdomizil",
+"Geschäftsvermögen",
+"Privatvermögen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0005",
 "nachher": "bund-ssk-ks27-mb-sz__c0007"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0007",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 3.1 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze natürliche Personen (Teil 3/3)",
+"pfad": [
+"3. Kreisschreiben SSK",
+"3.1 Natürliche Personen"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.1",
+"stichworte": [
+"SSK Kreisschreiben 27",
+"Verlustverrechnung",
+"Gewinnungskostenüberschuss",
+"Hauptsteuerdomizil",
+"Geschäftsvermögen",
+"Privatvermögen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0006",
 "nachher": "bund-ssk-ks27-mb-sz__c0008"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0008",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 3.2 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze juristische Personen (Teil 1/2)",
+"pfad": [
+"3. Kreisschreiben SSK",
+"3.2 Juristische Personen"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.2",
+"stichworte": [
+"juristische Personen",
+"Betriebsergebnis",
+"Quoten",
+"monistisches System",
+"wieder eingebrachte Abschreibungen",
+"Gewinnsteuer"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Nicht verrechenbare Verluste schmälern das nach Quoten verteilte Betriebsergebnis; monistische Kantone verrechnen zuerst mit wieder eingebrachten Abschreibungen, dann mit dem Wertzuwachsgewinn.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0007",
 "nachher": "bund-ssk-ks27-mb-sz__c0009"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0009",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 3.2 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze juristische Personen (Teil 2/2)",
+"pfad": [
+"3. Kreisschreiben SSK",
+"3.2 Juristische Personen"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.2",
+"stichworte": [
+"juristische Personen",
+"Betriebsergebnis",
+"Quoten",
+"monistisches System",
+"wieder eingebrachte Abschreibungen",
+"Gewinnsteuer"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0008",
 "nachher": "bund-ssk-ks27-mb-sz__c0010"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0010",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 4 Verlustverrechnung im Kanton Schwyz (Teil 1/2)",
+"pfad": [
+"4. Verlustverrechnung im Kanton Schwyz"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4",
+"stichworte": [
+"Kanton Schwyz",
+"§ 119 Abs. 4 StG",
+"Veranlagungspraxis ab 1.1.2010",
+"Verlustverrechnung",
+"Grundstückgewinnsteuer"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Seit 1.1.2010 können bei der Einkommens- bzw. Gewinnsteuer erzielte Verluste mit Grundstückgewinnen des gleichen Jahres verrechnet werden, für alle steuerpflichtigen Personen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0009",
 "nachher": "bund-ssk-ks27-mb-sz__c0011"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0011",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 4 Verlustverrechnung im Kanton Schwyz (Teil 2/2)",
+"pfad": [
+"4. Verlustverrechnung im Kanton Schwyz"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "4",
+"stichworte": [
+"Kanton Schwyz",
+"§ 119 Abs. 4 StG",
+"Veranlagungspraxis ab 1.1.2010",
+"Verlustverrechnung",
+"Grundstückgewinnsteuer"
+],
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0010",
 "nachher": "bund-ssk-ks27-mb-sz__c0012"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0012",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 5–6 Verfahren und Übergangsregelungen vor 1.1.2010 (Teil 1/3)",
+"pfad": [
+"5. Verfahren / 6. Übergangsregelungen"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5–6",
+"stichworte": [
+"Revisionsgesuch 90 Tage",
+"Übergangsregelung",
+"Steuerperiode 2006",
+"Vorbehalt",
+"Veräusserung vor 2010"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Verrechnung kann mit Revisionsgesuch innert 90 Tagen ab Versand der Veranlagung geltend gemacht werden; Übergangsregeln gelten ab Steuerperiode 2006, innerkantonale Betriebe vor 1.1.2010 ausgeschlossen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0011",
 "nachher": "bund-ssk-ks27-mb-sz__c0013"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0013",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 5–6 Verfahren und Übergangsregelungen vor 1.1.2010 (Teil 2/3)",
+"pfad": [
+"5. Verfahren / 6. Übergangsregelungen"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "5–6",
+"stichworte": [
+"Revisionsgesuch 90 Tage",
+"Übergangsregelung",
+"Steuerperiode 2006",
+"Vorbehalt",
+"Veräusserung vor 2010"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0012",
 "nachher": "bund-ssk-ks27-mb-sz__c0014"
 },
 {
 "id": "bund-ssk-ks27-mb-sz__c0014",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 5–6 Verfahren und Übergangsregelungen vor 1.1.2010 (Teil 3/3)",
+"pfad": [
+"5. Verfahren / 6. Übergangsregelungen"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "5–6",
+"stichworte": [
+"Revisionsgesuch 90 Tage",
+"Übergangsregelung",
+"Steuerperiode 2006",
+"Vorbehalt",
+"Veräusserung vor 2010"
+],
+"positionen": [
+"verfahren.einreichung"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks27-mb-sz__c0013",
-"nachher": "bund-ssk-ks27-mb-sz__c0015"
-},
-{
-"id": "bund-ssk-ks27-mb-sz__c0015",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 15",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ssk-ks27-mb-sz__c0014",
-"nachher": "bund-ssk-ks27-mb-sz__c0016"
-},
-{
-"id": "bund-ssk-ks27-mb-sz__c0016",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 16",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ssk-ks27-mb-sz__c0015",
-"nachher": "bund-ssk-ks27-mb-sz__c0017"
-},
-{
-"id": "bund-ssk-ks27-mb-sz__c0017",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 17",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ssk-ks27-mb-sz__c0016",
 "nachher": null
 }
 ]

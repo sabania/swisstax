@@ -1,1424 +1,1871 @@
 [
 {
 "id": "bund-ks-37__c0001",
-"titel": "KS 37 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Allgemeines – Gesetz über Mitarbeiterbeteiligungen und MBV",
+"pfad": [
+"1 Allgemeines und Gegenstand"
+],
+"seiten": [
+3
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Mitarbeiterbeteiligungen",
+"Mitarbeiteraktien",
+"MBV",
+"Art. 129 DBG Bescheinigungspflicht",
+"Bundesgesetz 17. Dezember 2010",
+"Mitarbeiterbeteiligungsverordnung"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Das Bundesgesetz vom 17. Dezember 2010 und die Mitarbeiterbeteiligungsverordnung (MBV, SR 642.115.325.1) regeln Besteuerungszeitpunkt, Bemessung und Bescheinigungspflichten bei Mitarbeiterbeteiligungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-37__c0002"
 },
 {
 "id": "bund-ks-37__c0002",
-"titel": "KS 37 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1 Zweck des Kreisschreibens und Version 30. Oktober 2020",
+"pfad": [
+"1 Allgemeines und Gegenstand"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "1",
+"stichworte": [
+"Botschaft 2004",
+"Anhänge I bis IV",
+"Version 2020",
+"Änderungen Balken"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Das Kreisschreiben und die Anhänge I bis IV geben einen Überblick über die steuerlichen Auswirkungen; Änderungen der Version vom 30. Oktober 2020 sind mit einem Balken am linken Rand gekennzeichnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0001",
 "nachher": "bund-ks-37__c0003"
 },
 {
 "id": "bund-ks-37__c0003",
-"titel": "KS 37 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2.1 Begriff Mitarbeitende",
+"pfad": [
+"2 Begriffe",
+"2.1 Mitarbeitende"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.1",
+"stichworte": [
+"Mitarbeitende",
+"Arbeitnehmende",
+"Verwaltungsrat",
+"künftige Angestellte",
+"ehemalige Mitarbeitende",
+"Aktionäre"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Mitarbeitende sind Arbeitnehmende, Mitglieder der Verwaltung oder Geschäftsführung sowie künftige und ehemalige Mitarbeitende; Unternehmer, Beauftragte, Mäkler und reine Aktionäre gelten nicht als Mitarbeitende.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0002",
 "nachher": "bund-ks-37__c0004"
 },
 {
 "id": "bund-ks-37__c0004",
-"titel": "KS 37 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2.2 Begriff Arbeitgeber – faktischer Arbeitgeber",
+"pfad": [
+"2 Begriffe",
+"2.2 Arbeitgeber"
+],
 "seiten": [
-1
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.2",
+"stichworte": [
+"Arbeitgeber",
+"faktischer Arbeitgeber",
+"Entsendung",
+"Muttergesellschaft",
+"Gruppengesellschaft"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Arbeitgeber ist die Gesellschaft, Gruppengesellschaft oder Betriebsstätte, bei der der Mitarbeitende angestellt ist, auch als faktischer Arbeitgeber bei Entsendung und Kostenübernahme durch die schweizerische Muttergesellschaft.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0003",
 "nachher": "bund-ks-37__c0005"
 },
 {
 "id": "bund-ks-37__c0005",
-"titel": "KS 37 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 2.3 / 2.3.1 Mitarbeiterbeteiligungen – echte Beteiligungen",
+"pfad": [
+"2 Begriffe",
+"2.3 Mitarbeiterbeteiligungen",
+"2.3.1 Echte Mitarbeiterbeteiligungen"
+],
 "seiten": [
-1
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3 / 2.3.1",
+"stichworte": [
+"echte Mitarbeiterbeteiligung",
+"unechte Mitarbeiterbeteiligung",
+"Art. 17a DBG",
+"Eigenkapital Arbeitgeber",
+"Aktionär gibt Beteiligung ab"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Echte Mitarbeiterbeteiligungen beteiligen den Mitarbeitenden am Eigenkapital des Arbeitgebers, direkt (Beteiligungspapiere) oder indirekt (Optionen, Anwartschaften); häufigste Formen sind Mitarbeiteraktien und -optionen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0004",
 "nachher": "bund-ks-37__c0006"
 },
 {
 "id": "bund-ks-37__c0006",
-"titel": "KS 37 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 2.3.1.1 Mitarbeiteraktien und freie Mitarbeiteraktien",
+"pfad": [
+"2 Begriffe",
+"2.3.1 Echte Mitarbeiterbeteiligungen",
+"2.3.1.1 Mitarbeiteraktien"
+],
 "seiten": [
-1
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3.1.1 / 2.3.1.1.1",
+"stichworte": [
+"Mitarbeiteraktien",
+"freie Mitarbeiteraktien",
+"Partizipationsscheine",
+"Genossenschaftsanteile",
+"Vorzugsbedingungen"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Mitarbeiteraktien sind Aktien des Arbeitgebers oder nahestehender Gesellschaften, die dem Mitarbeitenden aufgrund des Arbeitsverhältnisses in der Regel zu Vorzugsbedingungen übertragen werden; Partizipationsscheine und Genossenschaftsanteile werden gleich behandelt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0005",
 "nachher": "bund-ks-37__c0007"
 },
 {
 "id": "bund-ks-37__c0007",
-"titel": "KS 37 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 2.3.1.1.2 Gesperrte Mitarbeiteraktien – Sperrfrist",
+"pfad": [
+"2 Begriffe",
+"2.3.1.1 Mitarbeiteraktien",
+"2.3.1.1.2 Gesperrte Mitarbeiteraktien"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3.1.1.2",
+"stichworte": [
+"gesperrte Mitarbeiteraktien",
+"Sperrfrist",
+"closed window period",
+"Beteiligungsreglement",
+"Verfügungssperre"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Gesperrte Mitarbeiteraktien haben eine in der Regel befristete Verfügungssperre; blosse Zeitfenster (closed window period) gelten nicht als Sperrfrist.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0006",
 "nachher": "bund-ks-37__c0008"
 },
 {
 "id": "bund-ks-37__c0008",
-"titel": "KS 37 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 2.3.1.2 Mitarbeiteroptionen – frei, börsenkotiert, gesperrt",
+"pfad": [
+"2 Begriffe",
+"2.3.1 Echte Mitarbeiterbeteiligungen",
+"2.3.1.2 Mitarbeiteroptionen"
+],
 "seiten": [
-2
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3.1.2",
+"stichworte": [
+"Mitarbeiteroptionen",
+"Ausübungspreis",
+"Ausübungsfrist",
+"börsenkotierte Optionen",
+"gesperrte Optionen",
+"Stock Options"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Eine Mitarbeiteroption ist das Recht, ein Beteiligungspapier des Arbeitgebers in einem definierten Zeitraum zu einem bestimmten Preis zu erwerben; börsenkotiert ist sie bei Börsennotierung und liquidem, nicht auf Mitarbeitende beschränktem Handel.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0007",
 "nachher": "bund-ks-37__c0009"
 },
 {
 "id": "bund-ks-37__c0009",
-"titel": "KS 37 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 2.3.1.3 Anwartschaften auf Mitarbeiteraktien (RSU)",
+"pfad": [
+"2 Begriffe",
+"2.3.1 Echte Mitarbeiterbeteiligungen",
+"2.3.1.3 Anwartschaften"
+],
 "seiten": [
-2
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3.1.3",
+"stichworte": [
+"Restricted Stock Units",
+"RSU",
+"Anwartschaften",
+"Aktien unentgeltlich später",
+"Mitarbeiteraktien Zukunft"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Anwartschaften wie Restricted Stock Units stellen den späteren unentgeltlichen oder vergünstigten Aktienerwerb in Aussicht und werden den echten Mitarbeiteroptionen gleichgestellt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0008",
 "nachher": "bund-ks-37__c0010"
 },
 {
 "id": "bund-ks-37__c0010",
-"titel": "KS 37 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 2.3.2 Unechte Mitarbeiterbeteiligungen – Begriff",
+"pfad": [
+"2 Begriffe",
+"2.3.2 Unechte Mitarbeiterbeteiligungen"
+],
 "seiten": [
-2
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3.2",
+"stichworte": [
+"unechte Mitarbeiterbeteiligung",
+"Phantom Stocks",
+"Stock Appreciation Rights",
+"Geldleistung Wertentwicklung",
+"Anwartschaft Steuer"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Unechte Mitarbeiterbeteiligungen sind aktienkursbezogene Anreizsysteme, die nur eine Geldleistung nach der Wertentwicklung des Basistitels in Aussicht stellen und bis zur Realisation steuerlich blosse Anwartschaften sind.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0009",
 "nachher": "bund-ks-37__c0011"
 },
 {
 "id": "bund-ks-37__c0011",
-"titel": "KS 37 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 2.3.2.1–2.3.2.2 Phantom Stocks und Stock Appreciation Rights (SAR)",
+"pfad": [
+"2 Begriffe",
+"2.3.2 Unechte Mitarbeiterbeteiligungen"
+],
 "seiten": [
-2
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3.2.1 / 2.3.2.2",
+"stichworte": [
+"Phantom Stock",
+"synthetische Aktien",
+"Stock Appreciation Right",
+"SAR",
+"synthetische Option",
+"Dividendenzahlungen"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Phantom Stocks spiegeln eine Aktie wertmässig ohne Mitgliedschaftsrechte; Stock Appreciation Rights zahlen den Wertzuwachs eines Basistitels in bar aus, ohne Lieferung von Aktien.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0010",
 "nachher": "bund-ks-37__c0012"
 },
 {
 "id": "bund-ks-37__c0012",
-"titel": "KS 37 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 2.3.2.3 Co-Investments und 2.3.3 Künftige Entwicklungen",
+"pfad": [
+"2 Begriffe",
+"2.3.2 Unechte Mitarbeiterbeteiligungen"
+],
 "seiten": [
-2
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3.2.3 / 2.3.3",
+"stichworte": [
+"Co-Investment",
+"Private Equity",
+"Exit",
+"Börsengang",
+"Art. 16 MBV",
+"Anhang neue Arten"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Co-Investments (v.a. Private Equity) gelten als unechte Beteiligung, wenn sie keine umfassenden Eigentümerrechte einräumen; neue Arten kann die ESTV nach Art. 16 MBV in einem Anhang auflisten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0011",
 "nachher": "bund-ks-37__c0013"
 },
 {
 "id": "bund-ks-37__c0013",
-"titel": "KS 37 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 2.4 Sperrfrist sowie Vesting / Vestingperiode",
+"pfad": [
+"2 Begriffe",
+"2.4 Sperrfrist, Vesting"
+],
 "seiten": [
-3
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.4",
+"stichworte": [
+"Sperrfrist",
+"Vesting",
+"Vestingperiode",
+"aufschiebend bedingt",
+"Beteiligungsplan",
+"abverdienen"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Die Sperrfrist ist eine vertragliche Verfügungssperre; die Vestingperiode ist die Zeitspanne, in der der Mitarbeitende eine Option verdienen muss, bis zum Vesting gilt die Beteiligung als aufschiebend bedingt zugeteilt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0012",
 "nachher": "bund-ks-37__c0014"
 },
 {
 "id": "bund-ks-37__c0014",
-"titel": "KS 37 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 2.5 Realisation und 2.6 Umrechnung von Fremdwährungen",
+"pfad": [
+"2 Begriffe",
+"2.5 Realisation / 2.6 Fremdwährungen"
+],
 "seiten": [
-3
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "2.5 / 2.6",
+"stichworte": [
+"Realisation",
+"Ausübung Option",
+"Fremdwährung Umrechnung",
+"Mittelkurs Geld und Brief",
+"Verkauf Option"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Realisation umfasst Ausübung oder Verkauf von Optionen, Umwandlung von Anwartschaften und Bargeldbezug; Fremdwährungen sind zum Mittel der Geld- und Briefschlusskurse am Tag der Abgabe, des Erwerbs oder der Realisation umzurechnen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0013",
 "nachher": "bund-ks-37__c0015"
 },
 {
 "id": "bund-ks-37__c0015",
-"titel": "KS 37 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 3.1 Besteuerung von Mitarbeiteraktien – Grundsatz (Art. 17b DBG)",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.1 Grundsatz"
+],
 "seiten": [
-3
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Mitarbeiteraktien Besteuerung",
+"geldwerter Vorteil",
+"Zeitpunkt des Rechtserwerbs",
+"Vorzugsbedingungen",
+"Abgabe Besteuerung"
+],
+"positionen": [
+"einkommen.uebrige",
+"einkommen.unselbstaendig.haupterwerb"
+],
+"zusammenfassung": "Bei unentgeltlicher oder vergünstigter Abgabe ist die positive Differenz zwischen Verkehrswert und Abgabepreis Einkommen aus unselbständiger Erwerbstätigkeit, steuerbar bei Abgabe (Rechtserwerb).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0014",
 "nachher": "bund-ks-37__c0016"
 },
 {
 "id": "bund-ks-37__c0016",
-"titel": "KS 37 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 3.2.1 Verkehrswert börsenkotierter Mitarbeiteraktien – Bezugsfristen",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.2 Verkehrswert",
+"3.2.1 Börsenkotierte Mitarbeiteraktien"
+],
 "seiten": [
-3
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.1",
+"stichworte": [
+"Börsenschlusskurs",
+"Bezugsfrist 60 Kalendertage",
+"Annahme der Offerte",
+"Verkehrswert Aktien",
+"Rechtserwerb"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Massgebend ist der Börsenschlusskurs am Tag des Rechtserwerbs; bei Bezugsfristen von mehr als 60 Kalendertagen der Schlusskurs am Tag der Annahme, bei bis zu 60 Kalendertagen der Schlusskurs des ersten Tages der Bezugsfrist.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0015",
 "nachher": "bund-ks-37__c0017"
 },
 {
 "id": "bund-ks-37__c0017",
-"titel": "KS 37 – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 3.2.2 Nicht börsenkotierte Mitarbeiteraktien – Formelwert",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.2 Verkehrswert",
+"3.2.2 Nicht börsenkotierte Mitarbeiteraktien"
+],
 "seiten": [
-4
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.2",
+"stichworte": [
+"Formelwert",
+"nicht kotierte Aktien",
+"Kreisschreiben Nr. 28",
+"Bewertungsstichtag sechs Monate",
+"Startup Aktien"
+],
+"positionen": [
+"einkommen.uebrige",
+"vermoegen.erbschaften_beteiligungen"
+],
+"zusammenfassung": "Bei nicht kotierten Aktien gilt grundsätzlich der nach anerkannter Methode ermittelte Formelwert (z.B. nach KS Nr. 28), der bei nur jährlicher Berechnung nur gilt, wenn die Abgabe innert sechs Monaten nach dem Bewertungsstichtag erfolgt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0016",
 "nachher": "bund-ks-37__c0018"
 },
 {
 "id": "bund-ks-37__c0018",
-"titel": "KS 37 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 3.2.2 Verkehrswert statt Formelwert auf Antrag (Kaufrecht des Arbeitgebers)",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.2 Verkehrswert",
+"3.2.2 Nicht börsenkotierte Mitarbeiteraktien"
+],
 "seiten": [
-4
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.2",
+"stichworte": [
+"Verkehrswert verfügbar",
+"Formelwert Antrag",
+"unbeschränktes Kaufrecht",
+"Rückkauf zum Formelwert"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Ist ausnahmsweise ein Verkehrswert verfügbar, gilt dieser; auf Antrag kann trotzdem der Formelwert gelten, wenn der Arbeitgeber ein unbeschränktes Kaufrecht zum identisch berechneten Formelwert hat.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0017",
 "nachher": "bund-ks-37__c0019"
 },
 {
 "id": "bund-ks-37__c0019",
-"titel": "KS 37 – Abschnitt 19",
-"pfad": [],
+"titel": "Beispiel Newtec AG – Formelwert statt Verkehrswert",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.2.2 Nicht börsenkotierte Mitarbeiteraktien",
+"Beispiel"
+],
 "seiten": [
-4
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2.2",
+"stichworte": [
+"Beispiel Newtec AG",
+"Kapitalerhöhung",
+"Verkehrswert 10 000 Franken",
+"100 000 Franken steuerbar",
+"Formelwert Antrag"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Beispiel: Bei 10 Aktien zu einem Verkehrswert von 10'000 Franken entstünden 100'000 Franken steuerbares Einkommen; die Behörden akzeptieren den Formelwert, wenn der Arbeitgeber ein unbeschränktes Rückkaufsrecht zum Formelwert hat.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0018",
 "nachher": "bund-ks-37__c0020"
 },
 {
 "id": "bund-ks-37__c0020",
-"titel": "KS 37 – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 3.3 Steuerbares Einkommen – Diskontierungstabelle Sperrfrist (6 % pro Sperrjahr)",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.3 Ermittlung des steuerbaren Einkommens"
+],
 "seiten": [
-4
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.3",
+"stichworte": [
+"Sperrfrist Diskont",
+"6 Prozent pro Sperrjahr",
+"Einschlag gesperrte Aktien",
+"Art. 17b Abs. 2 DBG",
+"maximal zehn Sperrjahre",
+"reduzierter Verkehrswert"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Gesperrte Aktien werden mit einem Diskont von 6 % pro Sperrjahr (max. 10 Jahre) bewertet: 1 Jahr 5,660 %, 2 Jahre 11,000 %, 5 Jahre 25,274 %, 10 Jahre 44,161 % Einschlag.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0019",
 "nachher": "bund-ks-37__c0021"
 },
 {
 "id": "bund-ks-37__c0021",
-"titel": "KS 37 – Abschnitt 21",
-"pfad": [],
+"titel": "Ziff. 3.3 Formel reduzierter Verkehrswert und steuerbare Differenz",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.3 Ermittlung des steuerbaren Einkommens"
+],
 "seiten": [
-5
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.3",
+"stichworte": [
+"Formel 100 : 1.06 hoch n",
+"angebrochene Sperrjahre",
+"pro rata temporis",
+"Erwerbspreis",
+"Art. 17b Abs. 1 DBG"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Angebrochene Sperrjahre werden pro rata temporis berücksichtigt; der reduzierte Verkehrswert berechnet sich nach (100 : 1.06^n), die positive Differenz zum tieferen Erwerbspreis ist steuerbares Erwerbseinkommen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0020",
 "nachher": "bund-ks-37__c0022"
 },
 {
 "id": "bund-ks-37__c0022",
-"titel": "KS 37 – Abschnitt 22",
-"pfad": [],
+"titel": "Ziff. 3.4.1 Vorzeitiger Wegfall der Sperrfrist (Art. 11 MBV)",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.4 Besondere Fälle",
+"3.4.1 Vorzeitiger Wegfall der Sperrfrist"
+],
 "seiten": [
-5
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.4.1",
+"stichworte": [
+"vorzeitiger Wegfall Sperrfrist",
+"Pensionierung Sperrfrist",
+"Art. 11 MBV",
+"Restsperrfrist",
+"Freigabe Aktien"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Fällt die Sperrfrist vorzeitig weg, ist die Differenz zwischen dem nicht diskontierten Verkehrswert und dem nach der Restsperrfrist diskontierten Wert steuerbares Erwerbseinkommen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0021",
 "nachher": "bund-ks-37__c0023"
 },
 {
 "id": "bund-ks-37__c0023",
-"titel": "KS 37 – Abschnitt 23",
-"pfad": [],
+"titel": "Beispiel Ziff. 3.4.1 – Vorzeitige Pensionierung, Wegfall Sperrfrist (470.50 Franken) (Teil 1/2)",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.4 Besondere Fälle",
+"3.4.1 Vorzeitiger Wegfall der Sperrfrist",
+"Beispiel"
+],
 "seiten": [
-5
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.4.1",
+"stichworte": [
+"Beispiel Sperrfrist",
+"6,46 Sperrjahre",
+"68,632 Prozent",
+"1500 Franken Börsenkurs",
+"1 029.50 Franken"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Beispiel: Bei Kurs 1'500 Franken und 6,46 Rest-Sperrjahren beträgt der reduzierte Verkehrswert 68,632 % bzw. 1'029.50 Franken, steuerbares Erwerbseinkommen 470.50 Franken.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0022",
 "nachher": "bund-ks-37__c0024"
 },
 {
 "id": "bund-ks-37__c0024",
-"titel": "KS 37 – Abschnitt 24",
-"pfad": [],
+"titel": "Beispiel Ziff. 3.4.1 – Vorzeitige Pensionierung, Wegfall Sperrfrist (470.50 Franken) (Teil 2/2)",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.4 Besondere Fälle",
+"3.4.1 Vorzeitiger Wegfall der Sperrfrist",
+"Beispiel"
+],
 "seiten": [
-5
+8,
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.4.1",
+"stichworte": [
+"Beispiel Sperrfrist",
+"6,46 Sperrjahre",
+"68,632 Prozent",
+"1500 Franken Börsenkurs",
+"1 029.50 Franken"
+],
+"positionen": [
+"einkommen.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0023",
 "nachher": "bund-ks-37__c0025"
 },
 {
 "id": "bund-ks-37__c0025",
-"titel": "KS 37 – Abschnitt 25",
-"pfad": [],
+"titel": "Ziff. 3.4.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV)",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.4 Besondere Fälle",
+"3.4.2 Rückgabe von Mitarbeiteraktien"
+],
 "seiten": [
-5
+9
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.4.2",
+"stichworte": [
+"Rückgabe Mitarbeiteraktien",
+"Kündigung Rückgabe",
+"Gewinnungskosten",
+"Art. 12 MBV",
+"unterpreisliche Rückgabe",
+"Vermögenseinbusse"
+],
+"positionen": [
+"einkommen.uebrige",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Bei Rückgabe unter dem diskontierten Verkehrswert kann die Vermögenseinbusse als Gewinnungskostenabzug geltend gemacht werden; ein höherer Rückgabepreis ist steuerbares Erwerbseinkommen, nicht privater Kapitalgewinn.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0024",
 "nachher": "bund-ks-37__c0026"
 },
 {
 "id": "bund-ks-37__c0026",
-"titel": "KS 37 – Abschnitt 26",
-"pfad": [],
+"titel": "Beispiel Ziff. 3.4.2 – Rückgabe bei Kündigung (Gewinnungskosten 229 Franken) (Teil 1/2)",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.4 Besondere Fälle",
+"3.4.2 Rückgabe von Mitarbeiteraktien",
+"Beispiel"
+],
 "seiten": [
-6
+9,
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.4.2",
+"stichworte": [
+"Beispiel Rückgabe",
+"Rückgabepreis 800 Franken",
+"Gewinnungskosten 229 Franken",
+"reduzierter Verkehrswert 1 029"
+],
+"positionen": [
+"einkommen.uebrige",
+"abzug.uebrige"
+],
+"zusammenfassung": "Beispiel: Rückgabepreis 800 Franken bei reduziertem Verkehrswert von 1'029 Franken (Kurs 1'500, 6,46 Sperrjahre); die Differenz von 229 Franken ist als Gewinnungskosten abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0025",
 "nachher": "bund-ks-37__c0027"
 },
 {
 "id": "bund-ks-37__c0027",
-"titel": "KS 37 – Abschnitt 27",
-"pfad": [],
+"titel": "Beispiel Ziff. 3.4.2 – Rückgabe bei Kündigung (Gewinnungskosten 229 Franken) (Teil 2/2)",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.4 Besondere Fälle",
+"3.4.2 Rückgabe von Mitarbeiteraktien",
+"Beispiel"
+],
 "seiten": [
-6
+9,
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "3.4.2",
+"stichworte": [
+"Beispiel Rückgabe",
+"Rückgabepreis 800 Franken",
+"Gewinnungskosten 229 Franken",
+"reduzierter Verkehrswert 1 029"
+],
+"positionen": [
+"einkommen.uebrige",
+"abzug.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0026",
 "nachher": "bund-ks-37__c0028"
 },
 {
 "id": "bund-ks-37__c0028",
-"titel": "KS 37 – Abschnitt 28",
-"pfad": [],
+"titel": "Ziff. 3.4.3 Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.4 Besondere Fälle",
+"3.4.3 Veräusserung"
+],
 "seiten": [
-6
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.4.3",
+"stichworte": [
+"Kapitalgewinn steuerfrei",
+"Verkauf Mitarbeiteraktien",
+"Art. 16 Abs. 3 DBG",
+"Wechsel Formelwert Verkehrswert",
+"fünfjährige Haltedauer"
+],
+"positionen": [
+"einkommen.uebrige",
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": "Der Verkauf privat gehaltener Mitarbeiteraktien führt zu einem steuerfreien Kapitalgewinn; ein auf Methodenwechsel (Formel- zu Verkehrswert) beruhender Mehrwert ist grundsätzlich Einkommen, ausser das Ereignis tritt nach fünfjähriger Haltedauer ein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0027",
 "nachher": "bund-ks-37__c0029"
 },
 {
 "id": "bund-ks-37__c0029",
-"titel": "KS 37 – Abschnitt 29",
-"pfad": [],
+"titel": "Ziff. 3.4.4 Weitere Sachverhalte – Gründeraktien, Drittkonditionen",
+"pfad": [
+"3 Besteuerung von Mitarbeiteraktien",
+"3.4 Besondere Fälle",
+"3.4.4 Hinweise"
+],
 "seiten": [
-6
+10
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "3.4.4",
+"stichworte": [
+"Gründeraktien",
+"Drittkonditionen",
+"keine Mitarbeiterbeteiligung",
+"Art. 17a DBG"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Bei Gründung erworbene Aktien und zu Drittkonditionen erworbene Beteiligungsrechte sind keine Mitarbeiterbeteiligungen nach Art. 17a DBG (neu ab 1. Januar 2021).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0028",
 "nachher": "bund-ks-37__c0030"
 },
 {
 "id": "bund-ks-37__c0030",
-"titel": "KS 37 – Abschnitt 30",
-"pfad": [],
+"titel": "Ziff. 4 Besteuerung von Mitarbeiteroptionen – freie börsenkotierte und übrige",
+"pfad": [
+"4 Besteuerung von Mitarbeiteroptionen"
+],
 "seiten": [
-7
+10,
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4 / 4.1 / 4.2",
+"stichworte": [
+"Mitarbeiteroptionen Besteuerung",
+"Ausübung Option",
+"Veräusserung Option",
+"Besteuerung bei Abgabe",
+"Art. 17b Abs. 3 DBG",
+"Ausübungsgewinn"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Freie börsenkotierte Optionen werden bei Abgabe besteuert; alle übrigen Optionen bei Veräusserung oder Ausübung, steuerbar ist der gesamte Erlös bzw. Ausübungsgewinn nach Abzug der Gestehungskosten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0029",
 "nachher": "bund-ks-37__c0031"
 },
 {
 "id": "bund-ks-37__c0031",
-"titel": "KS 37 – Abschnitt 31",
-"pfad": [],
+"titel": "Ziff. 5–6 Anwartschaften (RSU) und unechte Mitarbeiterbeteiligungen",
+"pfad": [
+"5 Anwartschaften",
+"6 Unechte Mitarbeiterbeteiligungen"
+],
 "seiten": [
-7
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5 / 6",
+"stichworte": [
+"RSU Besteuerung",
+"Umwandlung in Aktien",
+"Phantom Stocks Besteuerung",
+"Art. 17c DBG",
+"Zufluss",
+"kein Kapitalgewinn"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Anwartschaften werden bei Umwandlung in Aktien nach den Aktienregeln besteuert; geldwerte Vorteile aus unechten Beteiligungen sind bei Zufluss voll als Erwerbseinkommen steuerbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0030",
 "nachher": "bund-ks-37__c0032"
 },
 {
 "id": "bund-ks-37__c0032",
-"titel": "KS 37 – Abschnitt 32",
-"pfad": [],
+"titel": "Ziff. 7.1 Internationales Verhältnis – anteilsmässige Besteuerung (Art. 17d DBG) (Teil 1/2)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.1 Allgemeines"
+],
 "seiten": [
-7
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.1",
+"stichworte": [
+"Zuzug Wegzug",
+"anteilsmässige Besteuerung",
+"Art. 17d DBG",
+"Art. 7 und 8 MBV",
+"Arbeitstage Verteilung",
+"Doppelbesteuerungsabkommen"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Bei Zuzug oder Wegzug zwischen Abgabe und Realisation wird der geldwerte Vorteil nach Arbeitstagen auf die Länder aufgeteilt, in denen der Mitarbeitende seit der Zuteilung bis zum Entstehen des Ausübungsrechts ansässig war.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0031",
 "nachher": "bund-ks-37__c0033"
 },
 {
 "id": "bund-ks-37__c0033",
-"titel": "KS 37 – Abschnitt 33",
-"pfad": [],
+"titel": "Ziff. 7.1 Internationales Verhältnis – anteilsmässige Besteuerung (Art. 17d DBG) (Teil 2/2)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.1 Allgemeines"
+],
 "seiten": [
-7
+11
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.1",
+"stichworte": [
+"Zuzug Wegzug",
+"anteilsmässige Besteuerung",
+"Art. 17d DBG",
+"Art. 7 und 8 MBV",
+"Arbeitstage Verteilung",
+"Doppelbesteuerungsabkommen"
+],
+"positionen": [
+"einkommen.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0032",
 "nachher": "bund-ks-37__c0034"
 },
 {
 "id": "bund-ks-37__c0034",
-"titel": "KS 37 – Abschnitt 34",
-"pfad": [],
+"titel": "Ziff. 7.1 Bescheinigung nach Art. 7/8/9 MBV und Quellensteuer auf dem Schweizer Anteil",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.1 Allgemeines"
+],
 "seiten": [
-8
+11,
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.1",
+"stichworte": [
+"Art. 9 MBV",
+"Bescheinigung Wegzug",
+"Art. 107 und 105 DBG",
+"Quellensteuer Schweizer Anteil",
+"örtliche Zuständigkeit"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Der Arbeitgeber bescheinigt die Angaben nach Art. 7 und 8 MBV und rechnet die Quellensteuer nur auf dem schweizerischen Anteil ab; die Bescheinigung bei Wegzug geht an die zuständige kantonale Behörde.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0033",
 "nachher": "bund-ks-37__c0035"
 },
 {
 "id": "bund-ks-37__c0035",
-"titel": "KS 37 – Abschnitt 35",
-"pfad": [],
+"titel": "Ziff. 7.1 Begriff Arbeitstage und DBA-Vorbehalt",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.1 Allgemeines"
+],
 "seiten": [
-8
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.1",
+"stichworte": [
+"Arbeitstage",
+"Ferien Wochenenden nicht abgezogen",
+"Grenzgänger Deutschland",
+"Art. 15a DBA Deutschland"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Arbeitstage umfassen den Zeitraum des Arbeitsvertrags, wobei Ferien, Wochenenden, Feiertage und sonstige Abwesenheiten nicht abgezogen werden; DBA-Bestimmungen wie Art. 15a DBA Deutschland bleiben vorbehalten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0034",
 "nachher": "bund-ks-37__c0036"
 },
 {
 "id": "bund-ks-37__c0036",
-"titel": "KS 37 – Abschnitt 36",
-"pfad": [],
+"titel": "Ziff. 7.2.1 Quellenbesteuerung Mitarbeiteraktien und freie börsenkotierte Optionen – Allgemeines",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.2 Quellenbesteuerung Mitarbeiteraktien",
+"7.2.1 Allgemeines"
+],
 "seiten": [
-8
+12
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.2.1",
+"stichworte": [
+"Mitarbeiteraktien Erwerb",
+"anteilsmässige Besteuerung ausgeschlossen",
+"Bonus Ausland",
+"freie börsenkotierte Optionen",
+"Diskont 6 Prozent"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Mitarbeiteraktien und freie börsenkotierte Optionen sind immer im Erwerbszeitpunkt steuerbar (Sperrfristdiskont 6 % pro Jahr); eine anteilsmässige Besteuerung ist ausgeschlossen, ausser bei Abgabe als Bonus für Auslandarbeit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0035",
 "nachher": "bund-ks-37__c0037"
 },
 {
 "id": "bund-ks-37__c0037",
-"titel": "KS 37 – Abschnitt 37",
-"pfad": [],
+"titel": "Ziff. 7.2.2 Quellenbesteuerung – Übersicht Arbeitnehmer (Wohnsitz Schweiz/Ausland)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.2 Quellenbesteuerung Mitarbeiteraktien",
+"7.2.2 Quellenbesteuerung"
+],
 "seiten": [
-8
+12,
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.2.2",
+"stichworte": [
+"Quellensteuer Mitarbeiteraktien",
+"Art. 83 DBG",
+"Art. 91 und 97 DBG",
+"Arbeitnehmer Wohnsitz Ausland",
+"Bonus Art. 17d"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Tabelle: Für Arbeitnehmer mit Wohnsitz in der Schweiz gilt Art. 83 DBG, im Ausland Art. 91 oder 97 DBG; Einkünfte aus Mitarbeiteraktien werden zusammen mit dem übrigen Einkommen an der Quelle besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0036",
 "nachher": "bund-ks-37__c0038"
 },
 {
 "id": "bund-ks-37__c0038",
-"titel": "KS 37 – Abschnitt 38",
-"pfad": [],
+"titel": "Ziff. 7.2.2 Quellenbesteuerung – Übersicht Verwaltungsrat",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.2 Quellenbesteuerung Mitarbeiteraktien",
+"7.2.2 Quellenbesteuerung"
+],
 "seiten": [
-9
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.2.2",
+"stichworte": [
+"Verwaltungsrat Quellensteuer",
+"Art. 93 DBG",
+"Mitarbeiteraktien Verwaltungsrat"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Tabelle: Für Verwaltungsräte mit Wohnsitz im Ausland unterliegen erhaltene Mitarbeiteraktien nach Art. 93 DBG der Quellensteuer, bei Wohnsitz in der Schweiz nach Art. 83 DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0037",
 "nachher": "bund-ks-37__c0039"
 },
 {
 "id": "bund-ks-37__c0039",
-"titel": "KS 37 – Abschnitt 39",
-"pfad": [],
+"titel": "Ziff. 7.2.2 Quellenbesteuerung – Übersicht Arbeitnehmer und Verwaltungsrat zugleich",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.2 Quellenbesteuerung Mitarbeiteraktien",
+"7.2.2 Quellenbesteuerung"
+],
 "seiten": [
-9
+13
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.2.2",
+"stichworte": [
+"Arbeitnehmer und Verwaltungsrat",
+"Art der Erwerbstätigkeit",
+"Art. 91 97 93 DBG",
+"Bonus anteilsmässig"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Tabelle: Bei Doppelfunktion ist vorgängig zu bestimmen, für welche Tätigkeit die Aktien ausgegeben werden; danach richtet sich die Besteuerung (Art. 83 bzw. 91/97/93 DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0038",
 "nachher": "bund-ks-37__c0040"
 },
 {
 "id": "bund-ks-37__c0040",
-"titel": "KS 37 – Abschnitt 40",
-"pfad": [],
+"titel": "Ziff. 7.3.1 Gesperrte/nicht kotierte Optionen, Anwartschaften, unechte Beteiligungen – Allgemeines",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3 Gesperrte oder nicht kotierte Optionen u.a.",
+"7.3.1 Allgemeines"
+],
 "seiten": [
-9
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.1",
+"stichworte": [
+"Realisation Besteuerung",
+"gesperrte Optionen",
+"RSU international",
+"unechte Beteiligungen"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Geldwerte Vorteile aus gesperrten oder nicht kotierten Optionen, Anwartschaften und unechten Beteiligungen werden bei Realisation besteuert.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0039",
 "nachher": "bund-ks-37__c0041"
 },
 {
 "id": "bund-ks-37__c0041",
-"titel": "KS 37 – Abschnitt 41",
-"pfad": [],
+"titel": "Ziff. 7.3.2 «Import» von Mitarbeiterbeteiligungen (Art. 7 MBV)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3 Gesperrte oder nicht kotierte Optionen u.a.",
+"7.3.2 Import"
+],
 "seiten": [
-9
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.2",
+"stichworte": [
+"Import Mitarbeiterbeteiligungen",
+"Zuzug in die Schweiz",
+"im Ausland erworben",
+"Art. 7 MBV",
+"steuerfrei realisieren"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Importierte Beteiligungen wurden im Ausland erworben und nach dem Zuzug in der Schweiz realisiert; solche, die schon bei Abgabe besteuert werden, sind in der Schweiz steuerfrei realisierbar.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0040",
 "nachher": "bund-ks-37__c0042"
 },
 {
 "id": "bund-ks-37__c0042",
-"titel": "KS 37 – Abschnitt 42",
-"pfad": [],
+"titel": "Ziff. 7.3.2.1 Import mit Ansässigkeitswechsel – Formel Arbeitstage Vestingperiode",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.2 Import",
+"7.3.2.1 Mit Ansässigkeitswechsel"
+],
 "seiten": [
-10
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.2.1",
+"stichworte": [
+"Ansässigkeitswechsel",
+"Progressionsvorbehalt",
+"Formel Arbeitstage Schweiz Vestingperiode",
+"Quellensteuerverfahren",
+"Fallbeispiele Anhang II"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Bei Ansässigkeitswechsel wird nur anteilsmässig besteuert: Geldwerter Vorteil x Arbeitstage in der Schweiz in der Vestingperiode / Tage der Vestingperiode, unter Progressionsvorbehalt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0041",
 "nachher": "bund-ks-37__c0043"
 },
 {
 "id": "bund-ks-37__c0043",
-"titel": "KS 37 – Abschnitt 43",
-"pfad": [],
+"titel": "Ziff. 7.3.2.2 Import ohne Ansässigkeitswechsel – Anstellung bei Schweizer Arbeitgeber",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.2 Import",
+"7.3.2.2 Ohne Ansässigkeitswechsel"
+],
 "seiten": [
-10
+14
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.2.2",
+"stichworte": [
+"Wohnsitz Ausland Arbeitgeber Schweiz",
+"Drittstaattage",
+"anteilsmässige Besteuerung",
+"Arbeitstage Schweiz Ausland",
+"Progressionsvorbehalt"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Bei unverändertem Wohnsitz im Ausland wird anteilsmässig nach Arbeitstagen Schweiz/Ausland innerhalb der Vestingperiode besteuert, Arbeitstage Schweiz gekürzt um Drittstaattage.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0042",
 "nachher": "bund-ks-37__c0044"
 },
 {
 "id": "bund-ks-37__c0044",
-"titel": "KS 37 – Abschnitt 44",
-"pfad": [],
+"titel": "Ziff. 7.3.2.2 Quellensteuerverfahren bei beschränkter Steuerpflicht",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.2 Import",
+"7.3.2.2 Ohne Ansässigkeitswechsel"
+],
 "seiten": [
-10
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "7.3.2.2",
+"stichworte": [
+"beschränkte Steuerpflicht",
+"Quellensteuerverfahren",
+"Grenzgänger",
+"Art. 15a DBA Deutschland"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Weil der Mitarbeitende nur beschränkt steuerpflichtig ist, erfolgt die Besteuerung im Quellensteuerverfahren; DBA-Bestimmungen wie Art. 15a DBA Deutschland sind zu beachten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0043",
 "nachher": "bund-ks-37__c0045"
 },
 {
 "id": "bund-ks-37__c0045",
-"titel": "KS 37 – Abschnitt 45",
-"pfad": [],
+"titel": "Ziff. 7.3.3 «Export» von Mitarbeiterbeteiligungen (Art. 8 MBV)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.3 Export"
+],
 "seiten": [
-10
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.3",
+"stichworte": [
+"Export Mitarbeiterbeteiligungen",
+"Wegzug ins Ausland",
+"Art. 8 MBV",
+"Quellensteuerabrechnung",
+"Bonus Schweiz"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Exportierte Beteiligungen wurden in der Schweiz zugeteilt und nach Wegzug im Ausland realisiert; die Besteuerung erfolgt immer über das Quellensteuerverfahren mit Bescheinigung nach Art. 8 MBV.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0044",
 "nachher": "bund-ks-37__c0046"
 },
 {
 "id": "bund-ks-37__c0046",
-"titel": "KS 37 – Abschnitt 46",
-"pfad": [],
+"titel": "Ziff. 7.3.3.1 Export mit Ansässigkeitswechsel – erweiterte Quellensteuer Art. 97a DBG (11,5 %)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.3 Export",
+"7.3.3.1 Mit Ansässigkeitswechsel"
+],
 "seiten": [
-11
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.3.1",
+"stichworte": [
+"Art. 97a DBG",
+"erweiterte Quellensteuer",
+"11,5 Prozent",
+"Wegzug Realisation",
+"Formel Arbeitstage"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Bei Wohnsitzverlegung ins Ausland vor Realisation beträgt die Steuer (Anteil direkte Bundessteuer) 11,5 Prozent des in der Schweiz steuerbaren geldwerten Vorteils (Art. 97a Abs. 2 DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0045",
 "nachher": "bund-ks-37__c0047"
 },
 {
 "id": "bund-ks-37__c0047",
-"titel": "KS 37 – Abschnitt 47",
-"pfad": [],
+"titel": "Ziff. 7.3.3.1 Abführung durch Arbeitgeber und Ausnahme gleicher Leistungsschuldner",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.3 Export",
+"7.3.3.1 Mit Ansässigkeitswechsel"
+],
 "seiten": [
-11
+15
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.3.1",
+"stichworte": [
+"Abführung Quellensteuer",
+"ausländische Konzerngesellschaft",
+"gleicher Leistungsschuldner",
+"Art. 13 Abs. 1 MBV",
+"Art. 14 Abs. 1 MBV"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Die Quellensteuer ist vom (ehemaligen) schweizerischen Arbeitgeber abzuführen, auch bei Auszahlung durch eine ausländische Konzerngesellschaft; bleibt der Mitarbeitende beim gleichen Leistungsschuldner, gelten Art. 91, 97, 93 DBG ohne Ausscheidung nach Art. 17d DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0046",
 "nachher": "bund-ks-37__c0048"
 },
 {
 "id": "bund-ks-37__c0048",
-"titel": "KS 37 – Abschnitt 48",
-"pfad": [],
+"titel": "Ziff. 7.3.3.2 Export ohne Ansässigkeitswechsel – Drittstaattage",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.3 Export",
+"7.3.3.2 Ohne Ansässigkeitswechsel"
+],
 "seiten": [
-11
+15,
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.3.2",
+"stichworte": [
+"Drittstaattage",
+"Art. 91 DBG",
+"Art. 97 DBG",
+"Art. 93 DBG",
+"Arbeitsverhältnis Schweiz unverändert"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Bei bereits bei Abgabe im Ausland ansässigen Mitarbeitenden gilt Quellenbesteuerung nach Art. 91, 97 und 93 DBG; bei unverändertem Arbeitsverhältnis in der Schweiz sind nur Drittstaattage auszuscheiden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0047",
 "nachher": "bund-ks-37__c0049"
 },
 {
 "id": "bund-ks-37__c0049",
-"titel": "KS 37 – Abschnitt 49",
-"pfad": [],
+"titel": "Ziff. 7.3.3.2 Arbeitgeberwechsel ins Ausland – anteilsmässige Quellenbesteuerung (Teil 1/2)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.3 Export",
+"7.3.3.2 Ohne Ansässigkeitswechsel"
+],
 "seiten": [
-11
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.3.2",
+"stichworte": [
+"Arbeitgeberwechsel Ausland",
+"anteilsmässige Quellenbesteuerung",
+"Formel Arbeitstage",
+"Fallbeispiel 5 Anhang II"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Bei Arbeitgeberwechsel ins Ausland innerhalb der Vestingperiode wird nach dem Verhältnis der Arbeitstage Schweiz/Ausland anteilsmässig besteuert (Art. 17d DBG sinngemäss), gekürzt um Drittstaattage.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0048",
 "nachher": "bund-ks-37__c0050"
 },
 {
 "id": "bund-ks-37__c0050",
-"titel": "KS 37 – Abschnitt 50",
-"pfad": [],
+"titel": "Ziff. 7.3.3.2 Arbeitgeberwechsel ins Ausland – anteilsmässige Quellenbesteuerung (Teil 2/2)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.3 Export",
+"7.3.3.2 Ohne Ansässigkeitswechsel"
+],
 "seiten": [
-12
+16
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.3.3.2",
+"stichworte": [
+"Arbeitgeberwechsel Ausland",
+"anteilsmässige Quellenbesteuerung",
+"Formel Arbeitstage",
+"Fallbeispiel 5 Anhang II"
+],
+"positionen": [
+"einkommen.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0049",
 "nachher": "bund-ks-37__c0051"
 },
 {
 "id": "bund-ks-37__c0051",
-"titel": "KS 37 – Abschnitt 51",
-"pfad": [],
+"titel": "Ziff. 7.3.4 Überblick Quellenbesteuerung bei Realisation – Arbeitnehmer (Teil 1/2)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.4 Überblick Quellenbesteuerung"
+],
 "seiten": [
-12
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.4",
+"stichworte": [
+"Überblick Quellensteuer",
+"Realisation Mitarbeiterbeteiligung",
+"Art. 84 DBG",
+"Art. 13 MBV",
+"Art. 17d DBG",
+"Arbeitnehmer"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Tabelle: Für Arbeitnehmer gilt bei Wohnsitz Schweiz Art. 83 DBG (anteilsmässig nur, wenn nicht die ganze Zeit in der Schweiz steuerpflichtig), bei Wohnsitz Ausland Art. 91 und 97 DBG ohne anteilsmässige Besteuerung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0050",
 "nachher": "bund-ks-37__c0052"
 },
 {
 "id": "bund-ks-37__c0052",
-"titel": "KS 37 – Abschnitt 52",
-"pfad": [],
+"titel": "Ziff. 7.3.4 Überblick Quellenbesteuerung bei Realisation – Arbeitnehmer (Teil 2/2)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.4 Überblick Quellenbesteuerung"
+],
 "seiten": [
-12
+16,
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7.3.4",
+"stichworte": [
+"Überblick Quellensteuer",
+"Realisation Mitarbeiterbeteiligung",
+"Art. 84 DBG",
+"Art. 13 MBV",
+"Art. 17d DBG",
+"Arbeitnehmer"
+],
+"positionen": [
+"einkommen.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0051",
 "nachher": "bund-ks-37__c0053"
 },
 {
 "id": "bund-ks-37__c0053",
-"titel": "KS 37 – Abschnitt 53",
-"pfad": [],
+"titel": "Ziff. 7.3.4 Überblick Quellenbesteuerung bei Realisation – Verwaltungsrat",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.4 Überblick Quellenbesteuerung"
+],
 "seiten": [
-13
+17
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.4",
+"stichworte": [
+"Verwaltungsrat Realisation",
+"Art. 93 DBG",
+"Art. 14 Abs. 1 MBV",
+"Leistungsschuldner Sitz"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Tabelle: Für Verwaltungsräte mit Wohnsitz im Ausland gilt Art. 93 DBG ohne anteilsmässige Besteuerung, sofern die Abgabe im Zusammenhang mit dem Verwaltungsratsmandat erfolgte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0052",
 "nachher": "bund-ks-37__c0054"
 },
 {
 "id": "bund-ks-37__c0054",
-"titel": "KS 37 – Abschnitt 54",
-"pfad": [],
+"titel": "Ziff. 7.3.4 Überblick Quellenbesteuerung – Arbeitnehmer und Verwaltungsrat zugleich",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.4 Überblick Quellenbesteuerung"
+],
 "seiten": [
-13
+17,
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.4",
+"stichworte": [
+"Arbeitnehmer und Verwaltungsrat",
+"Art. 91 97 93 DBG",
+"Tätigkeitsart bestimmen"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Tabelle: Bei Doppelfunktion ist zu bestimmen, für welche Tätigkeit die Beteiligungen ausgegeben wurden; danach richtet sich die Besteuerung nach Art. 83, 91/97 oder 93 DBG.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0053",
 "nachher": "bund-ks-37__c0055"
 },
 {
 "id": "bund-ks-37__c0055",
-"titel": "KS 37 – Abschnitt 55",
-"pfad": [],
+"titel": "Ziff. 7.3.4 Überblick Quellenbesteuerung – weder Arbeitnehmer noch Verwaltungsrat (Art. 97a DBG)",
+"pfad": [
+"7 Internationales Verhältnis",
+"7.3.4 Überblick Quellenbesteuerung"
+],
 "seiten": [
-13
+18
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7.3.4",
+"stichworte": [
+"ehemaliger Arbeitnehmer",
+"Art. 97a DBG",
+"Art. 83 DBG",
+"Wohnsitz vor Realisierung ins Ausland",
+"Vestingperiode Arbeitstage"
+],
+"positionen": [
+"einkommen.uebrige"
+],
+"zusammenfassung": "Tabelle: Bei Personen, die bei Realisation weder Arbeitnehmer noch Verwaltungsrat sind, erfolgt die Besteuerung durch den seinerzeitigen Leistungsschuldner nach Art. 83 DBG bzw. bei Wegzug nach Art. 97a DBG mit anteilsmässiger Besteuerung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0054",
 "nachher": "bund-ks-37__c0056"
 },
 {
 "id": "bund-ks-37__c0056",
-"titel": "KS 37 – Abschnitt 56",
-"pfad": [],
+"titel": "Ziff. 8.1.1 Mitwirkungspflichten des Arbeitgebers – Bescheinigungspflicht",
+"pfad": [
+"8 Mitwirkungs- und Bescheinigungspflichten",
+"8.1 Arbeitgeber",
+"8.1.1 Allgemeines"
+],
 "seiten": [
-14
+18,
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8.1.1",
+"stichworte": [
+"Bescheinigungspflicht",
+"Art. 129 Abs. 1 Bst. d DBG",
+"Mitarbeiterbeteiligungsplan",
+"Konzerngesellschaft",
+"Bescheinigung Arbeitgeber"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Der Arbeitgeber muss ab 1. Januar 2013 für jede Steuerperiode eine Bescheinigung über die Einräumung und über die steuerlich relevante Realisierung von Mitarbeiterbeteiligungen ausstellen, auch wenn der Plan von einer ausländischen Konzerngesellschaft verwaltet wird.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0055",
 "nachher": "bund-ks-37__c0057"
 },
 {
 "id": "bund-ks-37__c0057",
-"titel": "KS 37 – Abschnitt 57",
-"pfad": [],
+"titel": "Ziff. 8.1.1 Bescheinigung als Beilage zum Lohnausweis",
+"pfad": [
+"8 Mitwirkungs- und Bescheinigungspflichten",
+"8.1 Arbeitgeber",
+"8.1.1 Allgemeines"
+],
 "seiten": [
-14
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8.1.1",
+"stichworte": [
+"Beilage zum Lohnausweis",
+"Quellensteuerabrechnung",
+"Art. 10 MBV",
+"Art. 15 MBV",
+"Realisation nach Beendigung Arbeitsverhältnis"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Die Bescheinigung ist dem Mitarbeitenden als Beilage zum Lohnausweis abzugeben bzw. der Quellensteuerabrechnung beizulegen; bei Realisation nach Beendigung des Arbeitsverhältnisses ist sie direkt an die Steuerbehörde des Wohnsitzkantons zu senden.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0056",
 "nachher": "bund-ks-37__c0058"
 },
 {
 "id": "bund-ks-37__c0058",
-"titel": "KS 37 – Abschnitt 58",
-"pfad": [],
+"titel": "Ziff. 8.1.1 Gestaltung der Bescheinigung, Musterbescheinigungen, Vorbescheid",
+"pfad": [
+"8 Mitwirkungs- und Bescheinigungspflichten",
+"8.1 Arbeitgeber",
+"8.1.1 Allgemeines"
+],
 "seiten": [
-14
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "8.1.1",
+"stichworte": [
+"Musterbescheinigung Anhang III",
+"Art. 17 MBV",
+"Vorbescheid Vermerk",
+"Minimalanforderungen"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Die Arbeitgeber sind in der Gestaltung der Bescheinigung frei, soweit sie die Minimalanforderungen der MBV erfüllt; liegt ein Vorbescheid vor, sind Amtsstelle und Datum zu vermerken.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0057",
 "nachher": "bund-ks-37__c0059"
 },
 {
 "id": "bund-ks-37__c0059",
-"titel": "KS 37 – Abschnitt 59",
-"pfad": [],
+"titel": "Ziff. 8.1.2 Bescheinigung bei Mitarbeiteraktien (Art. 4 MBV)",
+"pfad": [
+"8 Mitwirkungs- und Bescheinigungspflichten",
+"8.1 Arbeitgeber",
+"8.1.2 Bescheinigung bei Mitarbeiteraktien"
+],
 "seiten": [
-14
+19
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8.1.2",
+"stichworte": [
+"Bescheinigung Mitarbeiteraktien",
+"Art. 4 MBV",
+"Formelwert Bewertungsformel",
+"Verkehrswert Transaktion",
+"weitere Bescheinigung"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bei Mitarbeiteraktien ist die Bescheinigung für die Steuerperiode des Erwerbs zu erstellen; bei nicht kotierten Aktien ist die Herleitung des Verkehrswerts bzw. die angewandte Bewertungsformel anzugeben.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0058",
 "nachher": "bund-ks-37__c0060"
 },
 {
 "id": "bund-ks-37__c0060",
-"titel": "KS 37 – Abschnitt 60",
-"pfad": [],
+"titel": "Ziff. 8.1.2.1–8.1.2.2 Bescheinigung bei Freigabe vor Sperrfristablauf und bei Rückgabe",
+"pfad": [
+"8 Mitwirkungs- und Bescheinigungspflichten",
+"8.1 Arbeitgeber",
+"8.1.2 Bescheinigung bei Mitarbeiteraktien"
+],
 "seiten": [
-15
+19,
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8.1.2.1 / 8.1.2.2",
+"stichworte": [
+"Freigabe vor Sperrfristablauf",
+"Rückgabe Mitarbeiteraktien",
+"Art. 11 MBV",
+"Art. 12 MBV",
+"Minuslohn nicht zulässig",
+"Gewinnungskosten"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bei vorzeitiger Freigabe (Art. 11 MBV) und Rückgabe (Art. 12 MBV) ist eine weitere Bescheinigung zu erstellen; ein geldwerter Nachteil bei unterpreislicher Rückgabe darf nicht als Minuslohn in den Lohnausweis einfliessen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0059",
 "nachher": "bund-ks-37__c0061"
 },
 {
 "id": "bund-ks-37__c0061",
-"titel": "KS 37 – Abschnitt 61",
-"pfad": [],
+"titel": "Ziff. 8.1.3.1 Bescheinigung bei freien börsenkotierten Mitarbeiteroptionen (Art. 5 MBV)",
+"pfad": [
+"8 Mitwirkungs- und Bescheinigungspflichten",
+"8.1 Arbeitgeber",
+"8.1.3 Bescheinigung Optionen, Anwartschaften, unechte Beteiligungen"
+],
 "seiten": [
-15
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8.1.3.1",
+"stichworte": [
+"Bescheinigung Optionen",
+"Art. 5 MBV",
+"Repricing",
+"freie börsenkotierte Optionen"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Für freie börsenkotierte Optionen genügt in der Regel eine einzige Bescheinigung für die Steuerperiode des Erwerbs; eine weitere ist nur bei Änderung zugunsten des Mitarbeitenden (z.B. Repricing) nötig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0060",
 "nachher": "bund-ks-37__c0062"
 },
 {
 "id": "bund-ks-37__c0062",
-"titel": "KS 37 – Abschnitt 62",
-"pfad": [],
+"titel": "Ziff. 8.1.3.2 Zwei Bescheinigungen bei übrigen Optionen, Anwartschaften und unechten Beteiligungen",
+"pfad": [
+"8 Mitwirkungs- und Bescheinigungspflichten",
+"8.1 Arbeitgeber",
+"8.1.3 Bescheinigung Optionen, Anwartschaften, unechte Beteiligungen"
+],
 "seiten": [
-15
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8.1.3.2",
+"stichworte": [
+"zwei Bescheinigungen",
+"Abgabe und Realisation",
+"Art. 5 Abs. 2 MBV",
+"übrige Optionen"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Für Optionen, Anwartschaften und unechte Beteiligungen, die bei Realisation besteuert werden, sind stets zwei Bescheinigungen nötig: bei Abgabe und bei Realisation.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0061",
 "nachher": "bund-ks-37__c0063"
 },
 {
 "id": "bund-ks-37__c0063",
-"titel": "KS 37 – Abschnitt 63",
-"pfad": [],
+"titel": "Ziff. 8.1.3.2 Bescheinigung bei Zuzug/Wegzug – voller Betrag im Lohnausweis",
+"pfad": [
+"8 Mitwirkungs- und Bescheinigungspflichten",
+"8.1 Arbeitgeber",
+"8.1.3 Bescheinigung Optionen, Anwartschaften, unechte Beteiligungen"
+],
 "seiten": [
-15
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8.1.3.2",
+"stichworte": [
+"Lohnausweis volle geldwerte Leistung",
+"im Ausland steuerbare Einkünfte",
+"Art. 7 MBV",
+"Art. 8 MBV",
+"Abzug in Steuererklärung"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bei Zuzug fliesst die volle geldwerte Leistung in den Lohnausweis; den auf das Ausland entfallenden Anteil macht der Mitarbeitende in der Steuererklärung als «im Ausland steuerbare Einkünfte» geltend, bei Wegzug ist die Bescheinigung nach Art. 8 MBV der Quellensteuerabrechnung beizulegen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0062",
 "nachher": "bund-ks-37__c0064"
 },
 {
 "id": "bund-ks-37__c0064",
-"titel": "KS 37 – Abschnitt 64",
-"pfad": [],
+"titel": "Ziff. 8.1.4 Weitere Auskünfte und 8.2 Pflichten der Steuerpflichtigen (Wertschriftenverzeichnis)",
+"pfad": [
+"8 Mitwirkungs- und Bescheinigungspflichten",
+"8.1.4 / 8.2 Steuerpflichtige"
+],
 "seiten": [
-15
+20
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "8.1.4 / 8.2",
+"stichworte": [
+"Deklarationspflicht",
+"Wertschriftenverzeichnis",
+"Art. 17 MBV",
+"Bescheinigung einreichen",
+"Mitarbeiterbeteiligungen deklarieren"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Steuerpflichtige müssen erhaltene Mitarbeiterbeteiligungen vollständig deklarieren und die Bescheinigung einreichen; alle echten und unechten Beteiligungen sind im Wertschriften- und Guthabenverzeichnis zu deklarieren, auch wenn die Besteuerung noch nicht ansteht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0063",
 "nachher": "bund-ks-37__c0065"
 },
 {
 "id": "bund-ks-37__c0065",
-"titel": "KS 37 – Abschnitt 65",
-"pfad": [],
+"titel": "Ziff. 9.1–9.2 Vorbescheid (Ruling) – Zweck und Voraussetzungen",
+"pfad": [
+"9 Vorbescheid (Ruling)",
+"9.1 Allgemeines / 9.2 Voraussetzungen"
+],
 "seiten": [
-16
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.1 / 9.2",
+"stichworte": [
+"Ruling",
+"Vorbescheid",
+"Beteiligungsplan",
+"Antrag Steuerbehörde",
+"Rechtssicherheit"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Ein Vorbescheid sichert dem Arbeitgeber und den Mitarbeitenden die steuerlichen Konsequenzen eines Beteiligungsplans zu und bezieht sich nur auf den im Antrag dargestellten Sachverhalt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0064",
 "nachher": "bund-ks-37__c0066"
 },
 {
 "id": "bund-ks-37__c0066",
-"titel": "KS 37 – Abschnitt 66",
-"pfad": [],
+"titel": "Ziff. 9.3 Zuständigkeit für den Vorbescheid",
+"pfad": [
+"9 Vorbescheid (Ruling)",
+"9.3 Zuständigkeit"
+],
 "seiten": [
-16
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "9.3",
+"stichworte": [
+"Sitzkanton Arbeitgeber",
+"ESTV allgemeine Stellungnahme",
+"mehrere Kantone",
+"Vorbescheid Bindung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Zuständig ist die kantonale Steuerbehörde des Sitzkantons des Arbeitgebers; bei Mitarbeitenden in mehreren Kantonen empfiehlt sich zusätzlich die Einreichung bei der ESTV.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0065",
 "nachher": "bund-ks-37__c0067"
 },
 {
 "id": "bund-ks-37__c0067",
-"titel": "KS 37 – Abschnitt 67",
-"pfad": [],
+"titel": "Ziff. 10 Inkrafttreten (1. Januar 2013) und Geltungsbereich",
+"pfad": [
+"10 Inkrafttreten, Aufhebungen und Übergangsrecht"
+],
 "seiten": [
-16
+21
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "10",
+"stichworte": [
+"Inkrafttreten 1. Januar 2013",
+"Kreisschreiben Nr. 5 aufgehoben",
+"vor 2013 abgegebene Beteiligungen",
+"Nachsteuer Art. 151 DBG",
+"Veranlagungsverjährung"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Das Kreisschreiben tritt am 1. Januar 2013 in Kraft und ersetzt das Kreisschreiben Nr. 5 von 1997; es gilt für nach dem 1. Januar 2013 abgegebene Beteiligungen sowie bestimmte früher abgegebene.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-37__c0066",
 "nachher": "bund-ks-37__c0068"
 },
 {
 "id": "bund-ks-37__c0068",
-"titel": "KS 37 – Abschnitt 68",
-"pfad": [],
-"seiten": [
-16
+"titel": "Ziff. 10 Altrechtliche Rulings, Änderungen 2021 und Anhänge I–V",
+"pfad": [
+"10 Inkrafttreten, Aufhebungen und Übergangsrecht"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0067",
-"nachher": "bund-ks-37__c0069"
-},
-{
-"id": "bund-ks-37__c0069",
-"titel": "KS 37 – Abschnitt 69",
-"pfad": [],
 "seiten": [
-17
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0068",
-"nachher": "bund-ks-37__c0070"
-},
-{
-"id": "bund-ks-37__c0070",
-"titel": "KS 37 – Abschnitt 70",
-"pfad": [],
-"seiten": [
-17
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0069",
-"nachher": "bund-ks-37__c0071"
-},
-{
-"id": "bund-ks-37__c0071",
-"titel": "KS 37 – Abschnitt 71",
-"pfad": [],
-"seiten": [
-17
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0070",
-"nachher": "bund-ks-37__c0072"
-},
-{
-"id": "bund-ks-37__c0072",
-"titel": "KS 37 – Abschnitt 72",
-"pfad": [],
-"seiten": [
-18
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0071",
-"nachher": "bund-ks-37__c0073"
-},
-{
-"id": "bund-ks-37__c0073",
-"titel": "KS 37 – Abschnitt 73",
-"pfad": [],
-"seiten": [
-18
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0072",
-"nachher": "bund-ks-37__c0074"
-},
-{
-"id": "bund-ks-37__c0074",
-"titel": "KS 37 – Abschnitt 74",
-"pfad": [],
-"seiten": [
-18
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0073",
-"nachher": "bund-ks-37__c0075"
-},
-{
-"id": "bund-ks-37__c0075",
-"titel": "KS 37 – Abschnitt 75",
-"pfad": [],
-"seiten": [
-18
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0074",
-"nachher": "bund-ks-37__c0076"
-},
-{
-"id": "bund-ks-37__c0076",
-"titel": "KS 37 – Abschnitt 76",
-"pfad": [],
-"seiten": [
-19
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0075",
-"nachher": "bund-ks-37__c0077"
-},
-{
-"id": "bund-ks-37__c0077",
-"titel": "KS 37 – Abschnitt 77",
-"pfad": [],
-"seiten": [
-19
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0076",
-"nachher": "bund-ks-37__c0078"
-},
-{
-"id": "bund-ks-37__c0078",
-"titel": "KS 37 – Abschnitt 78",
-"pfad": [],
-"seiten": [
-19
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0077",
-"nachher": "bund-ks-37__c0079"
-},
-{
-"id": "bund-ks-37__c0079",
-"titel": "KS 37 – Abschnitt 79",
-"pfad": [],
-"seiten": [
-19
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0078",
-"nachher": "bund-ks-37__c0080"
-},
-{
-"id": "bund-ks-37__c0080",
-"titel": "KS 37 – Abschnitt 80",
-"pfad": [],
-"seiten": [
-19
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0079",
-"nachher": "bund-ks-37__c0081"
-},
-{
-"id": "bund-ks-37__c0081",
-"titel": "KS 37 – Abschnitt 81",
-"pfad": [],
-"seiten": [
-20
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0080",
-"nachher": "bund-ks-37__c0082"
-},
-{
-"id": "bund-ks-37__c0082",
-"titel": "KS 37 – Abschnitt 82",
-"pfad": [],
-"seiten": [
-20
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0081",
-"nachher": "bund-ks-37__c0083"
-},
-{
-"id": "bund-ks-37__c0083",
-"titel": "KS 37 – Abschnitt 83",
-"pfad": [],
-"seiten": [
-20
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0082",
-"nachher": "bund-ks-37__c0084"
-},
-{
-"id": "bund-ks-37__c0084",
-"titel": "KS 37 – Abschnitt 84",
-"pfad": [],
-"seiten": [
-20
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0083",
-"nachher": "bund-ks-37__c0085"
-},
-{
-"id": "bund-ks-37__c0085",
-"titel": "KS 37 – Abschnitt 85",
-"pfad": [],
-"seiten": [
-21
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0084",
-"nachher": "bund-ks-37__c0086"
-},
-{
-"id": "bund-ks-37__c0086",
-"titel": "KS 37 – Abschnitt 86",
-"pfad": [],
-"seiten": [
-21
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0085",
-"nachher": "bund-ks-37__c0087"
-},
-{
-"id": "bund-ks-37__c0087",
-"titel": "KS 37 – Abschnitt 87",
-"pfad": [],
-"seiten": [
-21
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0086",
-"nachher": "bund-ks-37__c0088"
-},
-{
-"id": "bund-ks-37__c0088",
-"titel": "KS 37 – Abschnitt 88",
-"pfad": [],
-"seiten": [
-21
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0087",
-"nachher": "bund-ks-37__c0089"
-},
-{
-"id": "bund-ks-37__c0089",
-"titel": "KS 37 – Abschnitt 89",
-"pfad": [],
-"seiten": [
+21,
 22
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "10",
+"stichworte": [
+"altrechtliche Rulings",
+"Änderungen Ziff. 3.2.2 3.4.3 3.4.4",
+"1. Januar 2021",
+"Anhang V elektronische Bescheinigungen",
+"Anhänge"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0088",
+"zusammenfassung": "Altrechtliche Rulings mit Zuteilungs- oder Vestingbesteuerung gelten nur bis Steuerperiode 2012; die Änderungen in Ziff. 3.2.2, 3.4.3 und 3.4.4 gelten ab 1. Januar 2021; Anhänge I–V (Übersicht, Beispiele, Musterbescheinigungen, Fallbeispiele) sind im Text nur als Titel aufgeführt.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-37__c0067",
 "nachher": null
 }
 ]

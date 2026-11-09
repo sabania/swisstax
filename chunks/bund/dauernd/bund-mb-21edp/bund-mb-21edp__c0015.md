@@ -4,17 +4,21 @@ quelle: bund-mb-21edp
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "MB 21 EDP – Abschnitt 15"
-seiten: "4"
+titel: "Rz 30–31 Felder t–u: Steuerperiode und bereits geleistete 3a-Beiträge"
+ziffer: "30–31"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 4
+> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 3: Einkäufe Säule 3a · S. 5
 
-25   Anzugeben sind nur Beiträge für anerkannte Vorsorgeformen im Sinne der BVV 3. Bei
-    träge für andere Vorsorge- und Versicherungsformen dürfen hier nicht bescheinigt wer
-    den. Die Bescheinigung ist von derjenigen Versicherungseinrichtung oder Bankstiftung
-    zu erstellen, welche die Beiträge des Vorsorgenehmers erhalten hat.
+    Feld t: Steuerperiode
+30   Anzugeben ist die Steuerperiode, für welche der Einkauf in die Säule 3a geleistet wurde.
 
-    Feld p: Jahr
-26   Anzugeben ist das entsprechende Kalenderjahr und die vom Vorsorgenehmer in diesem
-    Jahr pro Vorsorgepolice bzw. Vorsorgevereinbarung tatsächlich entrichteten Beiträge.
+
+    Feld u: Bereits geleistete Beiträge
+31   Hier sind die Beiträge einzusetzen, welche die versicherte Person im Jahr, für welches
+    ein Einkauf in die Säule 3a erfolgt, bereits geleistet hat. Zu bescheinigen sind nicht nur
+    die Beiträge, welche an den das Formular 21 ausfüllenden Vorsorgeträger geleistet wur
+    den, sondern sämtliche von der versicherten Person im entsprechenden Jahr einbezahl
+    ten Säule 3a-Beiträge. Der Vorsorgeträger stützt sich dabei auf die Angaben der versi
+    cherten Person.

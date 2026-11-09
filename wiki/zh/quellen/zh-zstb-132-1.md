@@ -13,7 +13,7 @@ generiert: tools/build_index.py
 - **Abgerufen:** 2026-11-09 · sha256 `e9b33079fa959489…`
 - ⚠ **Hinweis:** Verfahrensregel: gilt ab 1.1.2026 (d.h. auch für die 2026 einzureichende Steuererklärung 2025) – Vorgängerfassung siehe zh-zstb-132-1-bis-2025.
 
-## Inhalt (38 Chunks)
+## Inhalt (37 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -34,24 +34,23 @@ generiert: tools/build_index.py
 | [c0015](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0015.md) | I. Zustellung an natürliche Personen |  |  |
 | [c0016](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0016.md) | I. Zustellung an natürliche Personen |  |  |
 | [c0017](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0017.md) | I. Zustellung an natürliche Personen |  |  |
-| [c0018](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0018.md) | I. Zustellung an natürliche Personen |  |  |
-| [c0019](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0019.md) | II. Zustellung an juristische Personen |  |  |
-| [c0020](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0020.md) | III. Beschriftung |  |  |
-| [c0021](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0021.md) | IV. Versand |  |  |
-| [c0022](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0022.md) | V. Fristen (§ 33 StV) |  |  |
-| [c0023](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0023.md) | I. Ordentliche Fristen |  |  |
+| [c0018](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0018.md) | II. Zustellung an juristische Personen |  |  |
+| [c0019](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0019.md) | III. Beschriftung |  |  |
+| [c0020](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0020.md) | IV. Versand |  |  |
+| [c0021](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0021.md) | V. Fristen (§ 33 StV) |  |  |
+| [c0022](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0022.md) | I. Ordentliche Fristen |  |  |
+| [c0023](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0023.md) | II. Fristerstreckung (§ 39 StV, Art. 119 DBG) |  |  |
 | [c0024](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0024.md) | II. Fristerstreckung (§ 39 StV, Art. 119 DBG) |  |  |
 | [c0025](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0025.md) | II. Fristerstreckung (§ 39 StV, Art. 119 DBG) |  |  |
 | [c0026](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0026.md) | II. Fristerstreckung (§ 39 StV, Art. 119 DBG) |  |  |
 | [c0027](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0027.md) | II. Fristerstreckung (§ 39 StV, Art. 119 DBG) |  |  |
-| [c0028](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0028.md) | II. Fristerstreckung (§ 39 StV, Art. 119 DBG) |  |  |
-| [c0029](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0029.md) | III. Nachträgliche ordentliche Veranlagung von Quellensteuerpflichtigen |  |  |
-| [c0030](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0030.md) | IV. Mahnungen (§§ 132 ff., § 234 StG, § 41 StV; Art. 124 - 126, 130, 174 DBG) |  |  |
-| [c0031](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0031.md) | H. Kontrolle bei Eingang (§ 40 StV) |  |  |
-| [c0032](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0032.md) | I. Rücksendung mangelhafter Steuererklärungen und Wertschriftenverzeichnisse (§ 41 StV) |  |  |
-| [c0033](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0033.md) | J. Verfahren bei Nichtabgabe der Steuererklärung (§ 42 Abs. 3 StV) |  |  |
-| [c0034](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0034.md) | K. Ablieferung an das kantonale Steueramt (§ 42 Abs. 1 StV) |  |  |
-| [c0035](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0035.md) | L. Inkrafttreten |  |  |
-| [c0036](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0036.md) | Gültig bis Steuerperiode 2024 |  |  |
-| [c0037](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0037.md) | Gültig bis Steuerperiode 2019 |  |  |
-| [c0038](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0038.md) | Gültig bis Steuerperiode 2016 |  |  |
+| [c0028](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0028.md) | III. Nachträgliche ordentliche Veranlagung von Quellensteuerpflichtigen |  |  |
+| [c0029](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0029.md) | IV. Mahnungen (§§ 132 ff., § 234 StG, § 41 StV; Art. 124 - 126, 130, 174 DBG) |  |  |
+| [c0030](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0030.md) | H. Kontrolle bei Eingang (§ 40 StV) |  |  |
+| [c0031](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0031.md) | I. Rücksendung mangelhafter Steuererklärungen und Wertschriftenverzeichnisse (§ 41 StV) |  |  |
+| [c0032](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0032.md) | J. Verfahren bei Nichtabgabe der Steuererklärung (§ 42 Abs. 3 StV) |  |  |
+| [c0033](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0033.md) | K. Ablieferung an das kantonale Steueramt (§ 42 Abs. 1 StV) |  |  |
+| [c0034](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0034.md) | L. Inkrafttreten |  |  |
+| [c0035](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0035.md) | Gültig bis Steuerperiode 2024 |  |  |
+| [c0036](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0036.md) | Gültig bis Steuerperiode 2019 |  |  |
+| [c0037](../../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0037.md) | Gültig bis Steuerperiode 2016 |  |  |

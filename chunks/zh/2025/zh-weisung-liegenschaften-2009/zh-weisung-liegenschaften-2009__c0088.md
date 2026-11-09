@@ -4,17 +4,13 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 88"
+titel: "Anhang S. 36 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Uster"
+ziffer: "10, 23"
 seiten: "36"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 36
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum · S. 36
 
-– Illnau-Effretikon   5   650   600   540   480   420   –   –
- (ehemalige Gemeinde)
-– Kyburg   2   380   280   –   –   –   –   –
- (ehemalige Gemeinde)
-Lindau   5   640   580   520   460   390   –   –
 Pfäffikon   5   640   590   530   480   420   –   –
 Russikon   5   690   620   540   470   390   –   –
 Weisslingen   3   480   420   360   –   –   –   –

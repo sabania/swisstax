@@ -4,22 +4,21 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14 Einleitung; 14.1.1 Nachehelicher Unterhalt – zivilrechtliche Aspekte (Teil 2/2)"
-ziffer: "14.1.1"
-seiten: "30"
+titel: "Ziff. 14.1.2 Güterrechtliche Leistungen, Leibrenten (40 %) und andere Unterstützungspflichten"
+ziffer: "14.1.2"
+seiten: "31"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1 Unterhaltszahlungen an den Ehegatten · S. 30
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1.2 Steuerrechtliche Aspekte · S. 31
 
-Die Unterhaltspflicht von tatsächlich oder gerichtlich getrennt lebenden Ehegatten beurteilt
-sich nicht nach den scheidungsrechtlichen Bestimmungen über den nachehelichen Unter-
-halt. Anwendbar ist vielmehr Artikel 163 ff. ZGB (Unterhalt der Familie) und Artikel 176 ZGB
-(Regelung des Getrenntlebens). Die Ehegatten sorgen grundsätzlich gemeinsam, ein jeder
-nach seinen Kräften, für den gebührenden Unterhalt der Familie. Sie verständigen sich über
-den Beitrag, den jeder von ihnen leistet, namentlich durch Geldzahlungen, Besorgen des
-Haushaltes, Betreuen der Kinder oder durch Mithilfe im Beruf oder Gewerbe des andern (Art.
-163 Abs. 1 und 2 ZGB). Bei gerichtlicher Trennung geht das Gericht bei der Festsetzung von
-Geldbeträgen des einen Ehegatten an den anderen (Art. 176 Abs. 1 Ziff. 1 ZGB) von diesen
-bisherigen ausdrücklichen oder stillschweigend getroffenen Vereinbarungen der Ehegatten
-aus und passt sie den aktuellen Gegebenheiten an (zur Festsetzung der Unterhaltsbeiträge
-vgl. etwa Basler Kommentar, Zivilgesetzbuch, Bd. 1, 3. Auflage, Basel 2006, S. 1037 ff.).
+Leistungen eines Ehegatten zur Erfüllung güterrechtlicher Forderungen stellen keine Unter-
+haltsbeiträge dar. Diese Leistungen sind gemäss Artikel 24 Buchstabe a DBG beim empfan-
+genden Ehegatten steuerfreie Einkünfte aus "güterrechtlicher Auseinandersetzung" mit der
+Folge, dass sie beim Leistenden auch nicht abziehbar sind. Handelt es sich bei den Leistun-
+gen um Leibrenten, sind diese gemäss Artikel 22 Absatz 3 DBG beim Empfänger zu 40 % zu
+versteuern. Andererseits kann der Leistungsschuldner gestützt auf Artikel 33 Absatz 1 Buch-
+stabe b DBG ebenfalls 40 % der Rente in Abzug bringen.
+
+Anzumerken ist, dass Leistungen in Erfüllung "anderer familienrechtlicher Unterhalts- oder
+Unterstützungspflichten" (so z.B. die Leistungen an Verwandte in auf- und absteigender Linie
+sowie Geschwister; Art. 328 ZGB) nicht abzugsfähig sind (Art. 33 Abs. 1 Bst. c DBG).

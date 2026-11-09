@@ -4,11 +4,15 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 16"
+titel: "Steuerkraft 2025 pro Einwohner steigt um 5 % auf 2'472 Franken (Teil 1/2)"
 seiten: "5"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 5
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Steuerkraft · S. 5
+
+Steuerkraft 2025 steigt um 5 %
+2025 erhöhte sich die Steuerkraft pro Einwohnerin oder Einwohner um 5 %. Warth-Weiningen bleibt die
+Gemeinde mit der höchsten Steuerkraft.
 
 Die Steuerkraft pro Einwohnerin oder Einwohner stieg 2025 um   höchsten Steuerkraft – hat sich 2025 im Vergleich zum Vorjahr
 5 % auf 2’472 Franken. Im Vorjahr war der Zuwachs mit 6 % noch   nochmals verringert. Zum einen stieg die Steuerkraft der Politi-

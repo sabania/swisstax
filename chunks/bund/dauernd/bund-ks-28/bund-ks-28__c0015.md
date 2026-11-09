@@ -4,19 +4,18 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 15"
-seiten: "3"
+titel: "Ziff. 5.3 Fiktiver Einkauf – massgebendes Einkommen"
+ziffer: "5.3"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 28 · einkommen.selbstaendig › einkommen.kapitalleistung_vorsorge · S. 5
 
-2.3.   Übertragung einer Personenunternehmung auf eine juristische Person
-Die gleichzeitige oder nachträgliche Aufnahme einer unselbständigen Erwerbstätigkeit steht
-der privilegierten Besteuerung des Liquidationsgewinnes nicht im Wege. Dies gilt auch für
-den Fall, dass der selbständig Erwerbende seinen Betrieb, den er bisher in der Rechtsform
-einer Personenunternehmung geführt hat, auf eine juristische Person überträgt und in der
-Folge in ein Anstellungsverhältnis mit dieser juristischen Person eintritt. Soweit die Übertra-
-gung nicht steuerneutral erfolgt (Art. 19 Abs. 1 Bst. b DBG) sowie für Vermögenswerte, die
-dabei ins Privatvermögen überführt werden, sind die realisierten stillen Reserven nach Artikel
-37b DBG zu besteuern. Vorbehalten bleibt die Wahl des Steueraufschubes gemäss Artikel
-18a Absatz 1 DBG sowie die Verpachtung nach Artikel 18a Absatz 2 DBG.
+5.3.   Massgebendes Einkommen
+Massgebendes Einkommen für die Berechnung des fiktiven Einkaufs ist das arithmetische
+Mittel der AHV-pflichtigen Erwerbseinkünfte aus selbstständiger Erwerbstätigkeit der letzten
+fünf Geschäftsjahre vor dem Liquidationsjahr. Die im Vorjahr realisierten stillen Reserven
+werden dabei in Abzug gebracht. Weist die steuerpflichtige Person nach, dass sie bis zum
+Liquidationsjahr weniger als fünf Jahre selbständig erwerbend war, so wird das Einkommen
+gestützt auf die tatsächliche Anzahl Jahre der selbständigen Erwerbstätigkeit berechnet (Art.
+6 Abs. 4 LGBV).

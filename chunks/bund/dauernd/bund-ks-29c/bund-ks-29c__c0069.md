@@ -4,28 +4,32 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 69"
-seiten: "22"
+titel: "Anhang 1 Beispiele 1–2 zur Transponierung (Ertrag 700 bzw. 630) (Teil 1/2)"
+ziffer: "Anhang 1"
+seiten: "28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 1 Transponierung · S. 28
 
-Die bei einer Umwandlung den Inhabern der Beteiligungsrechte oder diesen nahestehenden
-Dritten zukommenden Ausgleichszahlungen, Gratisaktien, Gratisnennwerterhöhungen und
-sonstigen Erträge unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungs-
-steuer, sofern sie zu Lasten der übrigen Reserven einer inländischen Kapitalgesellschaft o-
-der Genossenschaft erfolgen. Stammt das Grund- oder Stammkapital aus KER, gelten die
-Bestimmungen zu Ziff. 5.1.5. hiervor.
+Anhang 1: Beispiele zur Transponierung
 
-7.2.2. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in einen Verein,
-    in eine Stiftung oder eine übrige juristische Person
+1. Einbringung in eine vollständig beherrschte Gesellschaft
 
-Analog Ausführungen unter Ziffer 6.3.2. hiervor.
+A ist zu 100% an der A AG sowie der H AG beteiligt. Er bringt die Beteiligung an der A AG
+zum Verkehrswert in die H AG ein. Die Agioeinlage von 1000 weist die H AG nach der Ein-
+lage als KER aus. Die Gesellschaften weisen vor der Übertragung folgende Werte auf:
 
-7.2.3. Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Per-
-    son in eine Kapitalgesellschaft oder Genossenschaft
+    Nominalkapital   KER   übrige   Verkehrs-
+    Reserven   wert
 
-Analog Ausführungen unter Ziffer 6.3.3. hiervor.
+ A AG   100   200   500   1000
+ H AG   100   50   150   400
 
-7.2.4. Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesellschaft
-    oder in eine Genossenschaft
+ Zunahme KER H AG aus Einlage Beteiligung   1000
+ ./. Nominalkapital und KER A AG vor Einbringung   –300
+ steuerbarer Ertrag aus Transponierung   700
+
+A hat einen steuerbaren Ertrag aus Transponierung gemäss Artikel 20a Absatz 1 Buchstabe
+b DBG von 700 zu versteuern.
+
+2. Einbringung in eine mehrheitlich beherrschte Gesellschaft

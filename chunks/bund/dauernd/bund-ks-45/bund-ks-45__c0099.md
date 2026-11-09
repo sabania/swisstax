@@ -4,21 +4,22 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 99"
-seiten: "25"
+titel: "Ziff. 6.9 Leistungen bei Beendigung – fällige Ansprüche (Überzeit, Ferien)"
+ziffer: "6.9"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.9 Leistungen bei/nach Beendigung · S. 32
 
-Fälle mit mehreren Erwerbstätigkeiten als auch diejenigen mit Ein- und Austritten während
-des Monats abgedeckt.
-Der Quellensteuerabzug ist jeweils im Zeitpunkt der Lohnzahlung vorzunehmen. Ferien- und
-Feiertagszuschläge sind im Zeitpunkt der Abrechnung und Auszahlung des Stunden- oder
-Tageslohns steuerpflichtig. Die Ablieferung der durch den Schuldner der steuerbaren Leis-
-tung bezogenen Quellensteuern erfolgt jedoch monatlich (vgl. Ziffern 9.3.1 unten 9.3.2 un-
-ten). Ist ein quellensteuerpflichtiger Arbeitnehmer innerhalb einer Lohnzahlungsperiode zu
-unterschiedlichen Stunden- bzw. Tageslohnansätzen angestellt, ist das satzbestimmende
-Einkommen für die monatliche Quellensteuerabrechnung nach dem gewogenen Mittel zu be-
-rechnen (Total ausbezahlter Stunden- bzw. Tageslohn inkl. Ferien- und Feiertagsentschädi-
-gung / geleistete Stunden bzw. Tage der entsprechenden Lohnzahlungsperiode x 180 Stun-
-den bzw. 21.667 Tage).
+6.9   Quellensteuerberechnung bei Leistungen bei bzw. nach Beendigung des Arbeits-
+    verhältnisses
+Wird das Arbeitsverhältnis beendet, unterliegen Leistungen, die bereits auf diesen Zeitpunkt
+hin fällig geworden sind, dem Arbeitnehmer aber erst später ausbezahlt werden (Überzeit-
+guthaben, nicht bezogene Ferienguthaben usw.), zusammen mit den Bruttoeinkünften des
+letzten Arbeitsmonats der Quellenbesteuerung, d.h. der Quellensteuerabzug ist auf dem Ge-
+samtbetrag der ausgerichteten Leistungen zu berechnen. Der anzuwendende Tarifcode ent-
+spricht demjenigen, welcher im Zeitpunkt der letzten Lohnzahlung massgebend war. Allfäl-
+lige für den entsprechenden Monat bereits abgezogene Quellensteuern sind an die gesam-
+ten für diesen Monat geschuldeten Quellensteuern anzurechnen. Die Quellensteuer auf die-
+sen Leistungen ist im gleichen Kanton geschuldet, wie die auf der letzten Lohnzahlung in Ab-
+zug gebrachten Quellensteuern.

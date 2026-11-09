@@ -4,29 +4,22 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 18"
-seiten: "9"
+titel: "Rz 20 Ziffer 2.1 Verpflegung und Unterkunft"
+ziffer: "2.1 / 20"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 9
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2.1 · S. 10
 
-<!-- Seite 9 -->
-Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+Verpflegung und Unterkunft (Zimmer)   Ziffer 2.1
 
-Name und Adresse   Buchstabe H
-
-In diesem Feld ist die zum Zeitpunkt des Ausfüllens aktuelle und vollständige Wohnadresse   11
-(Name, vollständiger Vorname und Adresse) des Arbeitnehmers anzugeben. Die Grösse des
-Adressfeldes ermöglicht die Verwendung von Briefumschlägen mit Fenster sowohl links als
-auch rechts, wobei auf jeden Fall darauf zu achten ist, dass keinerlei vertrauliche Daten im
-Fenster sichtbar sind.
-
-Unterschrift   Buchstabe I
-
-An dieser Stelle sind Ort und Datum zum Zeitpunkt des Ausfüllens des Lohnausweises, der   12
-Name des Arbeitgebers (genaue Anschrift), die für das Ausfüllen des Lohnausweises zustän
-dige Person sowie deren Telefonnummer anzugeben. Die Lohnausweise sind zu unterzeich
-nen. Bei vollautomatisiert erstellten Lohnausweisen kann auf die Unterschrift verzichtet wer
-den.
-
-Lohn (soweit nicht unter Ziffer 2 bis 7 des Lohnausweises aufzuführen)   Ziffer 1
+Im Feld zu Ziffer 2.1 ist der Wert anzugeben, der dem Arbeitnehmer dadurch zufliesst, dass   20
+er vom Arbeitgeber unentgeltlich Verpflegung und Unterkunft erhält. Die entsprechenden An
+sätze können dem Merkblatt N2 der ESTV entnommen werden. Dieses kann entweder her
+untergeladen oder bei der zuständigen kantonalen Steuerbehörde (vgl. Anhang 1) bestellt
+werden.
+Das Feld ist nicht auszufüllen, wenn dem Arbeitnehmer für die gewährte Verpflegung und
+Unterkunft ein Abzug vom Lohn vorgenommen wird, der mindestens den Ansätzen gemäss
+dem oben erwähnten Merkblatt N2 entspricht. Wird dem Arbeitnehmer nicht nur ein Zimmer,
+sondern eine Wohnung zur Verfügung gestellt, so ist diese mit dem Marktwert unter Ziffer
+2.3 des Lohnausweises betragsmässig anzugeben (vgl. Rz 26).

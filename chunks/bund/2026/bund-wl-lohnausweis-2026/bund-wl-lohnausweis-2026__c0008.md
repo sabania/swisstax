@@ -4,16 +4,31 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 8"
-seiten: "6"
+titel: "Rz 6–8 Buchstaben C–E – AHV-Nummer, Kalenderjahr, Lohnperiode (Teil 1/2)"
+ziffer: "6–8"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 6
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstaben C–E · S. 7–8
 
-Jeder Arbeitgeber ist verpflichtet, jedem Arbeitnehmenden einen Lohnausweis auszustellen.   2
-Darin sind sämtliche Leistungen bzw. geldwerten Vorteile zu deklarieren, die dem Arbeit
-nehmer oder dem Pensionierten im Zusammenhang mit dem bestehenden, respektive ehe
-maligen Arbeitsverhältnis zugeflossen sind. Dieser Grundsatz sowie die nachfolgenden Best
-immungen gelten analog für Vorsorgeeinrichtungen BVG, die eine Rente ausrichten. Sie sind
-verpflichtet, das Formular 11 oder ein diesem, inhaltlich entsprechendes eigenes Formular
-als Rentenbescheinigung auszustellen.
+AHV-Nummer / Geburtsdatum   Buchstabe C
+    6
+AHV-Nummer
+In diesem (linken) Feld ist die 13-stellige AHV Nummer (Sozialversicherungsnummer) anzugeben.
+
+Geburtsdatum
+In diesem (rechten) Feld ist das Geburtsdatum festzuhalten.
+
+Massgebendes Kalenderjahr   Buchstabe D
+
+In diesem Feld ist das Kalenderjahr anzugeben, für das die Lohnzahlungen bescheinigt wer   7
+den. Der Lohnausweis ist jährlich bzw. bei Wegzug oder Todesfall eines Arbeitnehmers so
+fort auszustellen. Er hat sämtliche Leistungen, die dem Arbeitnehmer im entsprechenden
+Kalenderjahr zugeflossen sind, zu umfassen. Eine Aufteilung auf mehrere Einzelausweise ist
+grundsätzlich unzulässig. Wurden indessen aus betrieblichen Gründen einem Arbeitnehmer
+vom selben Arbeitgeber mehrere Lohnausweise (z. B. für Tätigkeiten in verschiedenen Ab
+teilungen oder aufgrund mehrerer Arbeitsverträge innerhalb der gleichen Unternehmung)
+ausgestellt, ist in Ziffer 15 des Lohnausweises («Bemerkungen») die Gesamtzahl der Lohn
+ausweise anzubringen, z. B.: «Einer von zwei Lohnausweisen» (vgl. Rz 66).
+
+Lohnperiode   Buchstabe E

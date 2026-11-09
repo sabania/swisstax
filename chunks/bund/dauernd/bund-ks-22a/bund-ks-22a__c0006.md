@@ -4,17 +4,21 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 6"
-seiten: "2"
+titel: "Ziff. 2.2.2 Zusammenrechnung privater/geschäftlicher Beteiligungen; Zeitpunkt der Quote"
+ziffer: "2.2.2"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 22a · 2 Teilbesteuerung › 2.2 Objektive Voraussetzungen › 2.2.2 · S. 3
 
-<!-- Seite 2 -->
-1.   Gegenstand des Kreisschreibens
+Beteiligungsrechte der gleichen Gesellschaft, die indirekt über eine juristische Person oder
+eine kollektive Kapitalanlage gehalten werden, können dagegen nicht zusammengerechnet
+werden.
 
-Mit dem Bundesgesetz vom 23. März 2007 über die Verbesserung der steuerlichen Rah
-menbedingungen für unternehmerische Tätigkeiten und Investitionen (Unternehmenssteuer
-reformgesetz II) wurde in Artikel 20 Absatz 1bis des Bundesgesetzes vom
-14. Dezember 1990 über die direkte Bundessteuer (DBG) die Teilbesteuerung der Einkünfte
-aus Beteiligungsrechten des Privatvermögens festgelegt.
+Für Erbengemeinschaften erfolgt keine Zusammenrechnung der Beteiligungsrechte.
+
+Die erforderliche Quote muss im Zeitpunkt der Realisation der Einkünfte aus der Beteiligung
+erfüllt sein. Bei Dividenden ist dies der Zeitpunkt der Fälligkeit. Wird beim Verkauf einer Be
+teiligung der Bezug des Beteiligungsertrags dem Verkäufer vorbehalten, wird bei der Be
+rechnung des prozentualen Umfangs der Beteiligung auf die Verhältnisse im Zeitpunkt des
+Verkaufs abgestellt.

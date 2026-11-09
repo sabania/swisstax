@@ -4,17 +4,18 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 4"
-seiten: "1"
+titel: "Ziff. 3.1 Begriff der Krankheits- und Unfallkosten"
+ziffer: "3.1"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3
 
-3.2.4   Kosten für Alternativmedizin ..................................................................................... 5
-3.2.5   Kosten für Medikamente und Heilmittel..................................................................... 5
-3.2.6   Pflegekosten ............................................................................................................. 5
-3.2.7   Pflegekosten in Alters- und Pflegeheimen ................................................................ 5
-3.2.8   Kosten für Fortpflanzungshilfen ................................................................................ 6
-3.2.9   Transportkosten ........................................................................................................ 6
-3.2.10   Besondere Ernährungskosten .................................................................................. 6
-4   Behinderungsbedingte Kosten .............................................................................. 6
+3   Krankheits- und Unfallkosten
+
+3.1   Begriffe der Krankheits- und Unfallkosten
+Zu den Krankheits- und Unfallkosten werden die Ausgaben für medizinische Behandlungen ge
+rechnet, d. h. die Kosten für Massnahmen zur Erhaltung und Wiederherstellung der körperli
+chen oder psychischen Gesundheit, insbesondere die Kosten für ärztliche Behandlungen, Spi
+talaufenthalte, Medikamente, Impfungen, medizinische Apparate, Brillen und Kontaktlinsen, Au
+genlasern, Therapien, Drogenentzugsmassnahmen etc.

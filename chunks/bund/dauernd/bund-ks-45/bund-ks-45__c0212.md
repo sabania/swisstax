@@ -4,20 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 212"
-seiten: "56"
+titel: "Ziff. 11.4 Vergleichbarkeit mit Ansässigen und Vertreter in der Schweiz"
+ziffer: "11.4"
+seiten: "66"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 56
+> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.4 NOV auf Antrag bei Ansässigkeit im Ausland · S. 66
 
-    1 = Im Monatsmodell ist einzig der im entsprechenden Monat ausbezahlte Bruttolohn für die Satzbestim-
-
-    mung massgebend.
-    2 = A0 mit satzbestimmendem Monatseinkommen von CHF 5 000.00.
-
-    3 = A0 mit satzbestimmendem Monatseinkommen von CHF 35 000.00 (CHF 5 000 + CHF 30 000).
-
-    4 = Die Quellensteuer ist im Monat nach dem Kantonswechsel mit dem neuen, zuständigen Kanton nach
-
-    dessen Tarif abzurechnen.
-    5 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
+Des Weiteren kann eine nachträgliche ordentliche Veranlagung beantragt werden, wenn die
+Situation der Person mit derjenigen einer in der Schweiz wohnhaften steuerpflichtigen Per-
+son vergleichbar ist (vgl. Art. 99a Abs. 1 Bst. b DBG). Dies kann insbesondere dann der Fall
+sein, wenn die Person aufgrund niedriger Gesamteinkünfte nach dem Steuerrecht des
+Wohnsitzstaates nicht steuerpflichtig ist und damit die persönliche Situation sowie der Fami-
+lienstand unberücksichtigt bleiben (vgl. Botschaft vom 28. November 2014 zur Revision des
+Bundesgesetzes über die Quellenbesteuerung des Erwerbseinkommens; BBl 2015 657).
+Bezüglich der Antragstellung gelten die Voraussetzungen nach Ziffer 11.3, 2. Absatz oben.
+Zusätzlich muss ein Vertreter in der Schweiz bezeichnet werden (vgl. Art. 136a Abs. 2 DBG,
+Zustelladresse; vgl. Musterformular im Anhang I).

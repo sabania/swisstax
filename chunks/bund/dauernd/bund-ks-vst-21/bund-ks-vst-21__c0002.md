@@ -4,26 +4,18 @@ quelle: bund-ks-vst-21
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 21 – Abschnitt 2"
-seiten: "1"
+titel: "Ziff. 1 Ausgangslage – Short-Verkäufe und Tax-Voucher-System (Teil 2/3)"
+ziffer: "1"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 21 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS VST 21 · 1 Ausgangslage · S. 2
 
-<!-- Seite 1 -->
-    Eidgenössisches Finanzdepartement EFD
+Vor diesem Hintergrund ist sicherzustellen, dass gesamthaft nicht mehr Verrechnungssteuer
+auf für die Rückerstattung verwendbaren Belegen (z.B. Couponabrechnung) ausgewiesen
+wird als an die ESTV abgeliefert wurde.
 
-    Eidgenössische Steuerverwaltung ESTV
-    Hauptabteilung Direkte Bundessteuer,
-    Verrechnungssteuer, Stempelabgaben
-
-Verrechnungssteuer
-
-Bern, 1. April 2008
-
-Kreisschreiben Nr. 21
-
-Belege für die Rückerstattung der Verrechnungssteuer bei Ertragsgutschriften
-ausländischer Banken
-
-Inhaltsverzeichnis
+Bei Schweizer Banken und Schweizer Depotstellen (Clearing Organisationen) geschieht dies
+durch die seit längerem geltende Praxis auf Dividendenersatzzahlungen (sog. manufactured
+dividends), wonach bei Short-Positionen ein zusätzlicher Abzug von 35 Prozent analog zur
+Verrechnungssteuer abzuliefern ist.

@@ -4,27 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14 Einleitung; 14.1.1 Nachehelicher Unterhalt – zivilrechtliche Aspekte (Teil 1/2)"
-ziffer: "14.1.1"
-seiten: "30"
+titel: "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 2/2)"
+ziffer: "14.1.2"
+seiten: "30-31"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1 Unterhaltszahlungen an den Ehegatten · S. 30
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1.2 Steuerrechtliche Aspekte · S. 30–31
 
-14   Besteuerung der unverheiratet zusammenlebenden, geschiedenen
-    oder getrennt lebenden Ehegatten und Eltern
-
-14.1   Besteuerung der Unterhaltszahlungen an den geschiedenen,
-    gerichtlich oder tatsächlich getrennt lebenden Ehegatten
-
-14.1.1   Zivilrechtliche Aspekte
-
-Gemäss Artikel 125 Absatz 1 ZGB besteht Anspruch auf einen angemessenen Beitrag als
-nachehelichen Unterhalt, soweit einem geschiedenen Ehegatten nicht zuzumuten ist, für den
-ihm gebührenden Unterhalt unter Einschluss einer angemessenen Altersvorsorge selbst auf-
-zukommen. Der nacheheliche Unterhalt kann in Form einer Rente oder einer Kapitalabfin-
-dung erfolgen. Gemäss Wortlaut des Gesetzes ist grundsätzlich von einer Unterhaltsrente
-auszugehen. Sieht das Gericht die Voraussetzungen für einen nachehelichen Unterhaltsbei-
-trag als gegeben an, so setzt es nach Artikel 126 Absatz 1 ZGB eine Rente fest und be-
-stimmt den Beginn der Beitragspflicht. Rechtfertigen es besondere Umstände, so kann an-
-stelle einer Rente eine Abfindung festgesetzt werden (Art. 126 Abs. 2 ZGB).
+Unterhaltsleistungen in der Form von Geldleistungen an den getrennt lebenden oder ge-
+schiedenen Ehegatten können sowohl als Renten als auch als Kapitalabfindungen erfolgen.
+In Weiterführung der bisherigen Praxis, die auch vom Bundesgericht gestützt wird (Entscheid
+vom 29. Januar 1999, BGE 125 II 183), darf die Abzugsfähigkeit der periodischen Unterhalts-
+leistungen jedoch nicht auf die Unterhaltsleistungen in Form einer Kapitalleistung ausge-
+dehnt werden. Infolgedessen kann der als Kapitalleistung gezahlte Betrag zum Unterhalt des
+geschiedenen Ehegatten nicht vom steuerbaren Einkommen des Schuldners abgezogen
+werden. Der Empfänger dieser Leistung muss sie im Gegenzug aber auch nicht als Ein-
+kommen deklarieren.

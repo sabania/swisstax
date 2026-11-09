@@ -4,19 +4,18 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 1 Wortlaut Art. 37b DBG Liquidationsgewinne (Teil 2/2)"
+ziffer: "1 (Art. 37b)"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Kreisschreiben · S. 2–3
 
-Inhaltsverzeichnis
-1.   Gegenstand des Kreisschreibens .....................................................................2
-2.   Beendigung der selbständigen Erwerbstätigkeit.............................................3
-2.1.   Grundsatz ............................................................................................................3
-2.2.   Beendigung infolge Invalidität...........................................................................3
-2.3.   Übertragung einer Personenunternehmung auf eine juristische
-    Person ..................................................................................................................3
-2.4.   Aufschubtatbestände .........................................................................................4
-2.4.1.   Verhältnis zu Artikel 18a Absatz 1 DBG................................................................4
-2.4.2.   Verhältnis zu Artikel 18a Absatz 2 DBG................................................................4
+nisnehmer, sofern sie das übernommene Unternehmen nicht fortführen; die steuerliche Ab-
+rechnung erfolgt spätestens fünf Kalenderjahre nach Ablauf des Todesjahres des Erblassers.
+Die Ausführungsbestimmungen zu dieser Regelung sind in der Verordnung über die Besteu-
+erung der Liquidationsgewinne bei definitiver Aufgabe der selbständigen Erwerbstätigkeit
+(LGBV; Anhang I) festgehalten.
+
+    1
+    SR 642.11

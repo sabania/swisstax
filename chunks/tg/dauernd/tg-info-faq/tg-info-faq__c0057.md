@@ -4,15 +4,14 @@ quelle: tg-info-faq
 jur: tg
 jahre: [2025, 2026]
 typ: info
-titel: "Steuerpflicht / Bemessung"
+titel: "Quellensteuer"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
+> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Quellensteuer
 
-    Die ab April 2026 geflossenen Unterhaltsbeiträge sind bei der leistenden Person abzugsfähig und bei der empfangenden Person steuerbar. Die Person, welche die Unterhaltsleistungen für die minderjährigen Kinder in ihrem Haushalt erhält, kann die Kinderabzüge tätigen. Sie wird zum Vollsplitting-Tarif (Staats- und Gemeindesteuern) bzw. zum Elterntarif (direkte Bundessteuer) besteuert.
+## Quellensteuer
 
-    Die leistende Person kann die geleisteten periodischen Unterhaltsbeiträge für die Ehefrau oder den Ehemann sowie für die minderjährigen Kinder in Abzug bringen und wird zum Alleinstehendentarif besteuert.
+Zusammenfassung
+:   In nachfolgendem Dokument sind Antworten zu verschiedenen Fragen rund um die Quellenbesteuerung zusammengefasst:
 
-     Weitere Informationen über die steuerrechtliche Wirkung einer Trennung finden Sie unter:
-
-    - [Änderung Zivilstand](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/zivilstandsaenderung.html/3495)
+    - [FAQ Quellenbesteuerung [284 KB]](https://steuerverwaltung.tg.ch/public/upload/assets/105739/FAQ_Quellenbesteuerung.pdf?fp=1)

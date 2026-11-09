@@ -4,21 +4,24 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 6"
-seiten: "1"
+titel: "Ziff. 2.3.1.1 Mitarbeiteraktien und freie Mitarbeiteraktien"
+ziffer: "2.3.1.1 / 2.3.1.1.1"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 37 · 2 Begriffe › 2.3.1 Echte Mitarbeiterbeteiligungen › 2.3.1.1 Mitarbeiteraktien · S. 4
 
-3.2   Verkehrswert ................................................................................................ 7
-3.2.1   Börsenkotierte Mitarbeiteraktien ..................................................................... 7
+2.3.1.1 Mitarbeiteraktien
+Als Mitarbeiteraktien im Sinne dieses Kreisschreibens gelten Aktien des Arbeitgebers oder
+ihm nahestehender Gesellschaften (vgl. Art. 17a Abs. 1 Bst. a DBG und Art. 1 Abs. 2 Bst. a
+MBV), die dem Mitarbeitenden von seinem Arbeitgeber aufgrund seines Arbeitsverhältnisses
+in der Regel zu Vorzugsbedingungen übertragen werden.
 
-1 Angepasst an das Bundesgesetz über die formelle Bereinigung der zeitlichen Bemessung der direkten Steuern
+Andere Beteiligungspapiere, die den Mitarbeitenden direkt am Gesellschaftskapital beteiligen
+– insbesondere Partizipationsscheine oder Genossenschaftsanteile – werden wie Mitarbei-
+teraktien behandelt. Nachfolgend wird der Einfachheit halber ausschliesslich von Mitarbeiter-
+aktien gesprochen.
 
-bei den natürlichen Personen vom 22. März 2013 (in Kraft seit 1. Januar 2014).
-
-    Eidgenössische Steuerverwaltung ESTV
-    Eigerstrasse 65
-    3003 Bern
-    www.estv.admin.ch
-1- 037-D-2020-d
+ 2.3.1.1.1 Freie Mitarbeiteraktien
+Als freie Mitarbeiteraktien gelten Mitarbeiteraktien, über welche ein Mitarbeitender ohne Ein-
+schränkung verfügen kann.

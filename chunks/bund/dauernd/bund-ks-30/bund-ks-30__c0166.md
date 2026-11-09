@@ -4,21 +4,29 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt (Teil 2/3)"
-ziffer: "Beilage 2, S. 6/13"
-seiten: "51"
+titel: "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 2/2)"
+ziffer: "Beilage 2, S. 9/13"
+seiten: "54"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 51
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 54
 
-   Sorge, keine Unterhalts-   Aufteilung ist von den   gel derjenige mit dem
-   zahlungen   Eltern nachzuweisen. Be-   höheren Einkommen.
-    tragen die geltend gemach-      Der andere Elternteil
-    ten Kosten beider Elterntei-   wird zum Grundtarif
-    le aber zusammen mehr als   besteuert.
-    den Maximalbetrag von
-    CHF 10’100, werden die
-    Abzüge im Verhältnis der
-    nachgewiesenen Kosten auf
-    diesen Maximalbetrag
-    gekürzt. 1)
+     Die Unterhaltszahlun-    Der Unterhaltszahlun-    Der Elternteil, der den   entfällt   Beide Elternteile werden
+   14.12. Getrennte,   gen an das volljährige   gen leistende Elternteil   Kinderabzug geltend   zum Grundtarif besteuert.
+   geschiedene oder unver-   Kind sind bei diesem   kann den Kinderabzug   machen kann.
+   heiratete Eltern (2 Haus-   steuerfrei.   geltend machen.    Leisten beide Elternteile
+   halte) mit volljährigem    Die Unterhaltszahlun-    Leisten beide Elternteile   Unterhaltszahlungen
+   Kind in Erstausbildung,   gen können vom leis-   Unterhaltszahlungen,   und erfüllen die Voraus-
+   mit Unterhaltszahlungen.   tenden Elternteil nicht   kann der Elternteil mit   setzungen von Art. 35
+   Kind hat eigenen Wohn-   mehr in Abzug gebracht   dem höheren Einkom-   Abs. 1 Bst. a bzw. Bst. b
+   sitz.   werden.   men den Kinderabzug   DBG, können beide den
+    geltend machen. Der   Abzug geltend machen.
+    andere Elternteil kann
+    den Unterstützungsab-
+
+    zug geltend machen, so-
+    fern seine Leistungen
+    mindestens in der Höhe
+    des Abzuges erfolgen.
+
+1-030-D-2010-Beilage-2-d-2014.doc

@@ -4,18 +4,24 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang IV Gutachten Ziff. III.4.1 Fazit ohne Handänderung"
-ziffer: "Anh. IV III.4.1"
-seiten: "35"
+titel: "Anhang IV Gutachten Ziff. III.4.2 Fazit mit Handänderung (Teil 2/2)"
+ziffer: "Anh. IV III.4.2"
+seiten: "35-36"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung › 4 Fazit · S. 35
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung › 4 Fazit · S. 35–36
 
-4.   Fazit
-4.1   Ohne Handänderung während der Laufzeit
-Die Ermittlung des Bond Floors mittels der Swap-Rate für die entsprechende Währung
-und Laufzeit führt in der Praxis zu sachgerechten Resultaten.
+Gutachten - Anhang IV zum Kreisschreiben Nr. 15   7
 
-Änderungen des Zinsumfelds und des Credit Ratings des Schuldners haben bei Inves-
-toren, welche das kombinierte Produkt aus Emission erwerben und bis Endverfall hal-
-ten, grundsätzlich keine Auswirkung auf die Höhe des steuerbaren Vermögensertrags.
+Der theoretisch richtige Ansatz, den Wert des Anleihensteils durch Abdiskontierung
+mittels des risikofreien Zinssatzes für die verbleibende Restlaufzeit in der entspre-
+chenden Währung zuzüglich des aktuellen Credit Spread des entsprechenden Schuld-
+ners zu ermitteln, würde wohl zu einer noch genaueren Simulierung des Marktes füh-
+ren. Eine solche Methode wäre allerdings aufgrund des damit verbundenen Aufwands
+nicht umsetzbar.
+
+Zusammenfassend lässt sich festhalten, dass die Methode der modifizierten Differenz-
+besteuerung erfahrungsgemäss die sachgerechte Ermittlung des steuerbaren Vermö-
+gensertrags ermöglicht.
+
+Gutachten - Anhang IV zum Kreisschreiben Nr. 15   8

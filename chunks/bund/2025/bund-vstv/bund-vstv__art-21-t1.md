@@ -4,7 +4,7 @@ quelle: bund-vstv
 jur: bund
 jahre: [2025, 2026]
 typ: verordnung
-titel: "Art. 21 VStV (Teil 1/3)"
+titel: "Art. 21 VStV (Teil 1/2)"
 artikel: "Art. 21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---

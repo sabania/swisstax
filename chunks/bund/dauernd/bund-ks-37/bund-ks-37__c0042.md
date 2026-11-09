@@ -4,23 +4,26 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 42"
-seiten: "10"
+titel: "Ziff. 7.3.2.1 Import mit Ansässigkeitswechsel – Formel Arbeitstage Vestingperiode"
+ziffer: "7.3.2.1"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3.2 Import › 7.3.2.1 Mit Ansässigkeitswechsel · S. 14
 
-<!-- Seite 10 -->
-    Preis von 800 Franken (y) zurückzugeben hat, kann er in der Steuererklä-
-    rung die Differenz von 229 Franken als Gewinnungskosten abziehen. Ma-
-    thematisch entspricht diese Berechnung der Formel (x : 1,06 n – y), bzw.
-    (1'500 : 1,06 6,46 – 800).
+7.3.2.1   „Import“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel
+Das Erwerbseinkommen von „importierten“ Mitarbeiterbeteiligungen, die nach schweizeri-
+schem Recht im Zeitpunkt der Realisation besteuert werden, wird – unter Progressionsvor-
+behalt – nur anteilsmässig besteuert, sofern zwischen dem Zeitpunkt der Abgabe und der
+Realisation der Mitarbeiterbeteiligung ein Ansässigkeitswechsel erfolgt ist. Der in der
+Schweiz steuerbare geldwerte Vorteil berechnet sich dabei wie folgt (Art. 17d DBG):
 
-    Datum   Sperrfrist   (Rest-)   Verkehrs- Rückgabe-   Ein-   Reduzierter
-    Sperrfrist   wert   preis   schlag   Verkehrs-
-    wert
-Zuteilung   15.03.2010   10 Jahre
-Kündigung   30.09.2013   -   6.46 Jahre   1‘500   800   68.637%   1‘029
-    (= 1‘029)
-Da der Rückgabepreis 800 Franken und der reduzierte Verkehrswert 1‘029 Franken betragen, belau-
-fen sich die steuerlich massgebenden Gewinnungskosten auf 229 Franken.
+Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage in der Schweiz innerhalb der Vestingperiode
+
+    Anzahl Tage der Vestingperiode
+
+Die Besteuerung kann dabei im ordentlichen Verfahren oder im Quellensteuerverfahren er-
+folgen und es sind die Bescheinigungen gemäss Artikel 7 MBV beizubringen.
+
+Zur Veranschaulichung dienen die Fallbeispiele 1 und 3 im Anhang II dieses Kreisschrei-
+bens.

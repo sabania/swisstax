@@ -4,26 +4,27 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 21"
-seiten: "5"
+titel: "Ziff. 3.1 / 3.1.1 Quellenbesteuerte Arbeitnehmer mit Ansässigkeit in der Schweiz"
+ziffer: "3.1"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.1 Grundsätze · S. 9
 
-     Unterordnungsverhältnis;
-     Weisungsgebundenheit;
-     Eingliederung in eine fremde Arbeitsorganisation;
-     fehlende unternehmerische Selbstständigkeit in Organisation und Durchführung der Ar-
-    beitstätigkeit;
-     fehlendes unternehmerisches Risiko;
-     Bindung an feste Arbeitszeiten;
-     Zuweisung eines festen Arbeitsplatzes;
-     Arbeitszeitkontrolle;
-     Bereitstellung von Arbeitsgeräten und -material durch den Arbeitgeber;
-     keine sichtbare Teilnahme am Wirtschaftsverkehr.
-Die Aufzählung ist nicht abschliessend. Ebenso müssen für das Vorliegen einer unselbst-
-ständigen Erwerbstätigkeit nicht sämtliche Kriterien kumulativ erfüllt sein.
-Nicht als Arbeitnehmer gelten Unternehmer (vgl. Art. 363 OR), Beauftragte, Mäkler oder Ge-
-neralagenten im Sinne von Artikel 394 ff. OR sowie Aktionäre, die in keinem Arbeitsverhält-
-nis zum Unternehmen stehen.
-Für die Beurteilung, ob eine selbstständige oder unselbstständige Erwerbstätigkeit vorliegt,
+3   Quellenbesteuerte Arbeitnehmer
+
+3.1   Grundsätze
+Der Quellensteuer unterliegen Arbeitnehmer grundsätzlich für Lohneinkommen und Ersatz-
+einkünfte, welche sie bei einem Schuldner der steuerbaren Leistung mit Wohnsitz, Sitz, tat-
+sächlicher Verwaltung, Betriebsstätte oder fester Einrichtung in der Schweiz erzielen. Die
+Quellensteuerpflicht beginnt mit der Aufnahme der unselbstständigen Erwerbstätigkeit (auch
+für Minderjährige; vgl. Art. 9 Abs. 2 zweiter Halbsatz DBG).
+
+3.1.1 Arbeitnehmer mit Ansässigkeit in der Schweiz
+Arbeitnehmer ohne Niederlassungsbewilligung (Ausweis C), die in der Schweiz ansässig
+sind, unterliegen der Quellensteuer für Einkünfte aus ihrer unselbstständigen Erwerbstätig-
+keit. Eheleute, die in ungetrennter Ehe leben, sind nicht quellensteuerpflichtig, wenn eine der
+beiden Personen Schweizer Staatsbürger ist oder die Niederlassungsbewilligung besitzt. Ist
+ein Ehepartner mit Schweizer Bürgerrecht oder Niederlassungsbewilligung mit separatem
+Wohnsitz im Ausland ansässig, unterliegt der in der Schweiz ansässige und tätige Arbeitneh-
+mer weiterhin der Quellensteuer (vgl. Art. 83 DBG).

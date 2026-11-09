@@ -4,33 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 10.3 Erstausbildung, Zweitausbildung, Unterbruch, Weiterbildung"
-ziffer: "10.3"
-seiten: "20-21"
+titel: "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 2/2)"
+ziffer: "11"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 10 Kinderabzug › 10.3 Volljährige Kinder in Ausbildung · S. 20–21
+> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21
 
-Unter Ausbildung ist ein Lehrgang für die berufliche Erstausbildung wie beispielsweise eine
-Lehre oder ein Studium zu verstehen. Diese endet, wenn das Kind das dazugehörende Ab-
-schlussdiplom erworben hat und in der Lage ist, eine angemessene berufliche Tätigkeit aus-
-zuüben.
+Voraussetzung für die Gewährung des Abzugs ist, dass die unterstützte Person aus objekti-
+ven Gründen ihren Lebensunterhalt vorübergehend oder dauernd nicht selber bestreiten
+kann. Dies ist erfüllt, wenn es einer Person unabhängig von ihrem Willen nicht möglich oder
+nur beschränkt möglich ist, selber einer Erwerbstätigkeit nachzugehen. Der Abzug kann
+auch bei Personen gewährt werden, die an sich zwar erwerbsfähig sind, aufgrund ihrer Ar-
+beitslosigkeit oder als alleinerziehende Eltern mit vorschulpflichtigen Kindern aber kein aus-
+reichendes Erwerbseinkommen erzielen und daher unterstützungsbedürftig sind. Keine Un-
+terstützungsbedürftigkeit liegt hingegen vor, wenn die unterstützte Person freiwillig bzw. oh-
+ne zwingenden Grund darauf verzichtet, ein genügendes Einkommen zu erzielen. Die Unter-
+haltsleistungen müssen zudem unentgeltlich sein bzw. ohne Gegenleistung erfolgen. Stehen
+den Unterhaltsleistungen wirtschaftlich messbare Leistungen des Leistungsempfängers ge-
+genüber, wie etwa die Besorgung des Haushaltes, liegen keine Unterhaltsbeiträge im Sinne
+von Artikel 35 Absatz 1 Buchstabe b DBG vor.
 
-Die Gewährung des Kinderabzuges bei einer Zweitausbildung ist möglich, wenn sachliche
-Gründe für die Aufnahme einer Zweitausbildung sprechen, um eine angemessene berufliche
-Tätigkeit ausüben zu können.
-
-Bei einem Unterbruch der beruflichen Ausbildung kann der Kinderabzug weiterhin geltend
-gemachten werden, wenn der Unterbruch nur vorübergehend ist, z.B. um die Militär, Zivil-
-
-oder Zivilschutzdienstpflicht zu erfüllen oder um für die Ausbildung notwendige Prüfungen
-vorzubereiten.
-
-Auslandsaufenthalte, die nicht zur eigentlichen Berufsausbildung gehören und nur darauf
-ausgerichtet sind, die späteren Karrierechancen zu verbessern, gelten nicht als Erstausbil-
-dung. Auch hier gilt das Stichtagsprinzip. Fällt ein solcher Unterbruch auf einen Stichtag,
-kann der Kinderabzug nicht beansprucht werden. Hat das Kind die Ausbildung vor dem
-Stichtag abgeschlossen, wird der Kinderabzug ebenfalls für das entsprechende Steuerjahr
-nicht mehr gewährt.
-
-Bei einer Weiterbildung des volljährigen Kindes wird der Kinderabzug nicht gewährt.
+Die Unterstützungsbedürftigkeit ist ebenfalls stets nach objektiven Gesichtspunkten festzule-
+gen. Diese können jedoch nicht gesamtschweizerisch vereinheitlicht werden, da die Lebens-
+haltungskosten je nach Gegend unterschiedlich hoch sind.

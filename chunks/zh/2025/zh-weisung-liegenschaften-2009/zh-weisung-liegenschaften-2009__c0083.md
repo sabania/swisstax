@@ -4,33 +4,28 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 83"
-seiten: "34"
+titel: "Anhang S. 35 Landwerte Wohnbauland bebaut Einfamilienhäuser – Dietikon"
+ziffer: "13, 23"
+seiten: "35"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 34
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, Einfamilienhäuser · S. 35
 
-Rüti (ZH)   5   590   540   480   420   360   –   –
-Seegräben   4   700   600   490   390   –   –   –
-Wald (ZH)   3   460   380   290   –   –   –   –
-Wetzikon (ZH)   5   720   650   580   510   440   –   –
-Bezirk Horgen
-Adliswil   5   870   790   710   630   550   –   –
-Horgen
-– Hirzel   5   920   830   740   650   550   –   –
- (ehemalige Gemeinde)
-– Horgen   5   1080   960   840   720   600   –   –
- (ehemalige Gemeinde)
-Kilchberg (ZH)   5   1460   1300   1140   980   820   –   –
-Langnau am Albis   5   730   670   610   550   490   –   –
-Oberrieden   5   1280   1150   1010   880   740   –   –
-Richterswil   5   930   840   740   650   550   –   –
-Rüschlikon   3   1290   1130   970   –   –   –   –
-Thalwil   5   1310   1170   1030   890   740   –   –
-Wädenswil
-– Hütten   5   760   680   600   520   430   –   –
- (ehemalige Gemeinde)
-– Schönenberg (ZH)   5   760   700   640   580   520   –   –
- (ehemalige Gemeinde)
-– Wädenswil   5   1000   900   800   700   590   –   –
- (ehemalige Gemeinde)
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+Wohnbauland
+
+Bebaute Grundstücke
+    Einfamilienhäuser (Ziff. 13 und 23)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+
+Bezirk Dietikon
+Aesch (ZH)   3   600   480   350   –   –   –   –
+Birmensdorf (ZH)   5   520   470   420   370   320   –   –
+Dietikon   5   440   400   360   320   270   –   –
+Geroldswil   5   530   490   440   390   340   –   –
+Oberengstringen   3   480   390   300   –   –   –   –
+Oetwil an der Limmat   3   580   470   350   –   –   –   –
+Schlieren   5   430   390   350   310   270   –   –
+Uitikon   5   830   740   640   540   440   –   –
+Unterengstringen   5   580   520   460   400   340   –   –

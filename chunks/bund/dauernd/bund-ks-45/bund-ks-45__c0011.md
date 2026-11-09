@@ -4,18 +4,26 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 11"
-seiten: "2"
+titel: "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Prüfkriterien"
+ziffer: "2.2.3"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.2 Schuldner der steuerbaren Leistung · S. 6
 
-7.5.4 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden ....................................... 53
-7.5.5 Ersatzeinkünfte, die nicht über den Arbeitgeber ausbezahlt werden ........................... 53
-7.5.6 Kapitalleistungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte) ................... 54
-8   Kantonswechsel ....................................................................................................... 55
-8.1   Allgemeines .............................................................................................................. 55
-8.2   Wechsel von einem Kanton mit Jahresmodell zu einem Kanton mit
-    Monatsmodell ........................................................................................................... 55
-8.3   Wechsel von einem Kanton mit Monatsmodell zu einem Kanton mit
-    Jahresmodell ............................................................................................................ 55
+Das Vorliegen einer faktischen Arbeitgeberschaft ist insbesondere anhand folgender Krite-
+rien zu prüfen:
+     Die Leistung des Arbeitnehmers bildet integralen Bestandteil der Geschäftstätigkeit der
+    schweizerischen Unternehmung;
+     Die schweizerische Unternehmung trägt die Verantwortung und das Risiko für die Leis-
+    tung des entsandten Arbeitnehmers (oder die ausländische Gesellschaft trägt eine Ge-
+    währleistungspflicht im Zusammenhang mit dem Arbeitsergebnis);
+     Die schweizerische Unternehmung übt die Weisungshoheit aus;
+     Der entsandte Arbeitnehmer ist in die Betriebsorganisation der schweizerischen Unter-
+    nehmung eingegliedert (Einrichtung, Zurverfügungstellung von Räumlichkeiten und Ar-
+    beitsmitteln, Entscheide über Art und Umfang der täglichen Arbeit des entsandten Ar-
+    beitnehmers usw.);
+     Die schweizerische Unternehmung trägt die Lohnkosten oder müsste die Lohnkosten
+    wirtschaftlich tragen.
+Die Aufzählung ist nicht abschliessend. Ebenso müssen für das Vorliegen einer faktischen
+Arbeitgeberschaft nicht sämtliche Kriterien kumulativ erfüllt sein.

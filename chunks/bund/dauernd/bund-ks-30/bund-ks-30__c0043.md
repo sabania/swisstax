@@ -4,27 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.4.3 Beispiel Kinderdrittbetreuungskosten (6'000 / 9'000 / Max. 10'100)"
+titel: "Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten (Teil 2/2)"
 ziffer: "8.4.3"
 seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung › 8.4.3 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung · S. 15
 
-Beispiel: Kinderdrittbetreuungskosten
+Bei getrennten, geschiedenen oder unverheirateten Eltern kann grundsätzlich derjenige El-
+ternteil, welcher mit dem Kind zusammenlebt und einer Erwerbstätigkeit nachgeht, erwerbs-
+unfähig und gleichzeitig betreuungsunfähig ist oder sich in Ausbildung befindet, die Kinder-
+drittbetreuungskosten in Abzug bringen. Dies ist in der Regel der Elternteil, der die elterliche
+Sorge (allein oder gemeinsam) innehält und die Unterhaltszahlungen für das Kind gemäss
+Artikel 23 Buchstabe f DBG erhält.
 
-Elternteil 1   6’000
-Elternteil 2   9’000
-Total   15’000
+Befindet sich das Kind in alternierender Obhut, kann jeder Elternteil maximal 5'050 Franken
+der nachgewiesenen Kosten für die Kinderdrittbetreuung in Abzug bringen. Es besteht auch
+hier die Möglichkeit, dass die Eltern eine andere Aufteilung beantragen (es gelten für diesen
+Fall ebenfalls die Ausführungen unter Ziff. 8.4.3).
 
-Maximalbetrag   10’100
-
-Veranlagung
-
-Elternteil 1   10'100 x 6'000   4’040
-    15’000
-
-Elternteil 2   10'100 x 9'000   6’060
-    15’000
-
-Total insgesamt   10’100
+Jeder Elternteil kann nur jene Kosten geltend machen, die während der Dauer seiner Obhut-
+spflicht für die Drittbetreuung entstanden sind.

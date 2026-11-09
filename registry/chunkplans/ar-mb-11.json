@@ -1,0 +1,298 @@
+{
+ "id": "ar-mb-11",
+ "hinweise": [
+  "Stand Februar 2016. Seite 1: Adressblock der Steuerverwaltung als Kopf (skip). Text sonst sauber."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "skip": true,
+   "titel": "Kopf mit Adressblock Kantonale Steuerverwaltung AR"
+  },
+  {
+   "start": 34,
+   "titel": "Ziel und Zweck des Steuererlasses – einmalig, keine Gläubigerbevorzugung",
+   "pfad": [
+    "Allgemeines"
+   ],
+   "stichworte": [
+    "Steuererlass",
+    "Erlass",
+    "Opfersymmetrie",
+    "Schuldensanierung",
+    "Gläubiger",
+    "einmalig"
+   ],
+   "zusammenfassung": "Erlass soll die wirtschaftliche Lage langfristig sanieren, einmalig sein und nicht anderen Gläubigern zugutekommen; anteilsmässiger Verzicht nur, wenn alle Gläubiger im gleichen Umfang verzichten.",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 47,
+   "titel": "Gegenstand des Erlassgesuchs – nur definitive, rechtskräftige Steuern",
+   "pfad": [
+    "Allgemeines"
+   ],
+   "stichworte": [
+    "definitive Veranlagung",
+    "provisorische Steuern",
+    "Ratenzahlung",
+    "Zahlungserleichterung",
+    "Abteilung Steuerbezug"
+   ],
+   "zusammenfassung": "Erlassgesuche betreffen nur definitiv veranlagte, rechtskräftige und noch geschuldete Steuern; für provisorische Steuern sind nur Zahlungserleichterungen möglich.",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 53,
+   "titel": "Erlassverfahren ersetzt kein Rechtsmittel; Quellensteuer; Frist und Betreibung",
+   "pfad": [
+    "Allgemeines"
+   ],
+   "stichworte": [
+    "Rechtsmittel",
+    "Revision",
+    "Quellensteuer",
+    "Zahlungsfrist",
+    "Betreibung",
+    "Frist Erlassgesuch"
+   ],
+   "zusammenfassung": "Das Gesuch muss innerhalb der Zahlungsfrist eingereicht werden; nach Einleitung einer Betreibung wird nicht darauf eingetreten.",
+   "positionen": [
+    "verfahren.bezug",
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 64,
+   "titel": "Zuständigkeit der Kantonalen Steuerverwaltung und erfasste Steuerarten",
+   "pfad": [
+    "Zuständigkeit der Kantonalen Steuerverwaltung"
+   ],
+   "stichworte": [
+    "Zuständigkeit",
+    "Steuerverwaltung Herisau",
+    "Staats- und Gemeindesteuern",
+    "direkte Bundessteuer",
+    "Nachsteuern",
+    "Bussen"
+   ],
+   "zusammenfassung": "Zuständig für Staats- und Gemeindesteuern sowie direkte Bundessteuer, u.a. Einkommens-/Vermögenssteuer, Quellensteuer, Grundstückgewinnsteuer, Nachsteuern und Bussen, Zinsen.",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 77,
+   "titel": "Voraussetzungen – Notlage und grosse Härte (Art. 222 StG, Art. 167 ff. DBG)",
+   "pfad": [
+    "Voraussetzungen des Steuererlasses"
+   ],
+   "stichworte": [
+    "Voraussetzungen",
+    "Notlage",
+    "grosse Härte",
+    "Art. 222 StG",
+    "Art. 167 DBG",
+    "Steuererlassverordnung"
+   ],
+   "zusammenfassung": "Die Steuerverwaltung kann Steuern ganz oder teilweise erlassen, wenn eine Notlage besteht und die Zahlung eine grosse Härte bedeuten würde.",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 88,
+   "titel": "Notlage – betreibungsrechtliches Existenzminimum, dauerhafte Notlage",
+   "pfad": [
+    "Voraussetzungen des Steuererlasses"
+   ],
+   "stichworte": [
+    "Notlage",
+    "Existenzminimum",
+    "Missverhältnis",
+    "Leistungsfähigkeit",
+    "Stundung",
+    "Ratenzahlung",
+    "dauerhaft"
+   ],
+   "zusammenfassung": "Notlage: Mittel reichen nicht für das betreibungsrechtliche Existenzminimum oder die Schuld steht in Missverhältnis zur Leistungsfähigkeit; sie muss dauerhaft sein, sonst nur Stundung oder Ratenzahlung.",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 96,
+   "titel": "Beurteilung Notlage; absehbare Tilgung (2–3 bzw. 4–6 Jahre); bereits bezahlte Steuern",
+   "pfad": [
+    "Voraussetzungen des Steuererlasses"
+   ],
+   "stichworte": [
+    "Existenzminimum SchKG",
+    "Art. 93 SchKG",
+    "absehbar zwei bis drei Jahre",
+    "vier bis sechs Jahre",
+    "Nachsteuern",
+    "bereits bezahlt"
+   ],
+   "zusammenfassung": "Kein Erlass, wenn die Schuld mit Zahlungserleichterungen in absehbarer Zeit getilgt werden kann: zwei bis drei Jahre (Normalfall), vier bis sechs Jahre bei Nachsteuern und Bussen; auf bezahlte Steuern kein Erlass.",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 110,
+   "titel": "Ablehnungsgründe – fehlende Opfersymmetrie",
+   "pfad": [
+    "Ablehnungsgründe",
+    "Fehlende Opfersymmetrie"
+   ],
+   "stichworte": [
+    "Opfersymmetrie",
+    "Ablehnung",
+    "Forderungsverzicht",
+    "Sonderopfer",
+    "private Gläubiger"
+   ],
+   "zusammenfassung": "Kein Erlass, wenn weitere Schulden bestehen und die übrigen Gläubiger nicht im gleichen Umfang auf ihre Forderungen verzichten.",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 123,
+   "titel": "Ablehnungsgründe – keine dauerhafte Sanierung, Verletzung Mitwirkungspflichten",
+   "pfad": [
+    "Ablehnungsgründe"
+   ],
+   "stichworte": [
+    "keine Sanierung",
+    "Mitwirkungspflicht",
+    "Steuererklärung nicht eingereicht",
+    "Rechtsmittel verpasst",
+    "Belege"
+   ],
+   "zusammenfassung": "Abgelehnt wird, wenn keine dauerhafte Sanierung möglich ist oder Pflichten im Veranlagungsverfahren schwerwiegend und wiederholt verletzt wurden.",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 140,
+   "titel": "Ablehnungsgründe – keine Rücklagen, freiwilliger Verzicht auf Einkommen/Vermögen",
+   "pfad": [
+    "Ablehnungsgründe"
+   ],
+   "stichworte": [
+    "Rücklagen",
+    "Kapitalleistung Vorsorge",
+    "freiwilliger Verzicht",
+    "übersetzte Lebenshaltungskosten"
+   ],
+   "zusammenfassung": "Kein Erlass ohne Rücklagen trotz verfügbarer Mittel oder bei freiwilligem Verzicht; bei einmaligen Einkünften (z.B. Kapitalleistungen aus Vorsorge) ist die Zahlung aus dem Vermögen zumutbar.",
+   "positionen": [
+    "verfahren.bezug",
+    "einkommen.kapitalleistung_vorsorge"
+   ]
+  },
+  {
+   "start": 151,
+   "titel": "Erlassverfahren – Einreichung: schriftlich, begründet, mit Fragebogen vor Ablauf der Zahlungsfrist",
+   "pfad": [
+    "Erlassverfahren",
+    "Einreichung"
+   ],
+   "stichworte": [
+    "Einreichung",
+    "Erlassgesuch",
+    "Fragebogen",
+    "Adresse Herisau",
+    "Notlage darlegen"
+   ],
+   "zusammenfassung": "Erlassgesuche sind schriftlich und begründet inklusive Fragebogen vor Ablauf der Zahlungsfrist an die Kantonale Steuerverwaltung, Erlasse, 9100 Herisau einzureichen.",
+   "positionen": [
+    "verfahren.einreichung",
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 167,
+   "titel": "Erlassverfahren – Auskunftspflicht, einzureichende Unterlagen, Nachfrist",
+   "pfad": [
+    "Erlassverfahren",
+    "Einreichung"
+   ],
+   "stichworte": [
+    "Unterlagen",
+    "Lohnabrechnungen",
+    "Kontoauszüge",
+    "Sozialhilfe",
+    "Nachfrist",
+    "Schuldenverzeichnis"
+   ],
+   "zusammenfassung": "Gesuchsteller müssen umfassend Auskunft geben und Belege vorlegen; bei fehlenden Beweismitteln wird eine Nachfrist angesetzt, sonst Nichteintreten bzw. Entscheid nach Aktenlage.",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 183,
+   "titel": "Entscheid – gesamte wirtschaftliche Verhältnisse, Vermögen, Verkehrswert",
+   "pfad": [
+    "Erlassverfahren",
+    "Entscheid"
+   ],
+   "stichworte": [
+    "Entscheid",
+    "Verkehrswert",
+    "Vermögensverwertung",
+    "Lebenshaltung",
+    "wirtschaftliche Verhältnisse"
+   ],
+   "zusammenfassung": "Massgebend ist die Situation im Zeitpunkt des Entscheids; bei vorübergehenden Zahlungsschwierigkeiten mit Vermögen wird zuerst Belastung oder Verwertung geprüft (Verkehrswert).",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 197,
+   "titel": "Entscheid – Grundstückgewinnsteuer (Pfandrecht) und Nachsteuern/Bussen strenger",
+   "pfad": [
+    "Erlassverfahren",
+    "Entscheid"
+   ],
+   "stichworte": [
+    "Grundstückgewinnsteuer",
+    "Pfandrecht",
+    "Objektsteuer",
+    "Nachsteuern",
+    "Bussen",
+    "strengerer Massstab"
+   ],
+   "zusammenfassung": "Die Grundstückgewinnsteuer kann nur erlassen werden, wenn kein Pfandrecht mehr besteht; bei Nachsteuern und Bussen gilt ein strengerer Massstab.",
+   "positionen": [
+    "verfahren.bezug"
+   ]
+  },
+  {
+   "start": 205,
+   "titel": "Rechtsmittel – Einsprache innert 30 Tagen",
+   "pfad": [
+    "Rechtsmittel"
+   ],
+   "stichworte": [
+    "Einsprache",
+    "30 Tage",
+    "Rechtsmittelbelehrung",
+    "Erlassentscheid"
+   ],
+   "zusammenfassung": "Gegen den Erlassentscheid kann innert 30 Tagen seit Zustellung bei der Kantonalen Steuerverwaltung Einsprache erhoben werden.",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  }
+ ]
+}

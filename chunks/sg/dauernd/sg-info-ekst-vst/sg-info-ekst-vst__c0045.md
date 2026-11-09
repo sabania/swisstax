@@ -9,7 +9,5 @@ qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
 > SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Formulare
 
-### Formulare
-
-- [Ärztlicher Fragebogen (046\_2)(75 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/046_2_%C3%84rztlicher_Fragebogen_eForm.pdf "Download: Es öffnet sich ein neues Fenster: Ärztlicher Fragebogen (046_2)")
-- [Ausbildungs- und Kinderbetreuungskosten (10)(2063 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/Formular_10_eForm.pdf "Download: Es öffnet sich ein neues Fenster: Ausbildungs- und Kinderbetreuungskosten (10)")
+- [Berechnung Liegenschaftszugehörigkeit Landwirtschaft(102 kB, XLSX)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/Liegenschaftszugeh%C3%B6rigkeit%20Pr%C3%A4ponderanz%20Landwirtschaft.xlsx "Download: Es öffnet sich ein neues Fenster: Berechnung Liegenschaftszugehörigkeit Landwirtschaft")
+- [Erbengemeinschaften (25)(91 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/25_Erbengemeinschaften_eForm.pdf "Download: Es öffnet sich ein neues Fenster: Erbengemeinschaften (25)")

@@ -4,24 +4,17 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Abzüge"
-ziffer: "14.15–14.16"
-seiten: "39-40"
+titel: "Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung (Teil 2/2)"
+ziffer: "15.2"
+seiten: "40-41"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.15–14.16 · S. 39–40
+> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.2 Steuererklärung · S. 40–41
 
-14.15.2   Abzüge
-   Der Elternteil, der die Unterhaltszahlungen leistet, kann den Kinderabzug geltend ma-
-    chen. Leisten beide Elternteile Unterhaltszahlungen, kann der Elternteil mit den höheren
-    finanziellen Leistungen, d.h. in der Regel derjenige mit dem höheren Einkommen, den
-    Kinderabzug geltend machen. Der andere Elternteil kann den Unterstützungsabzug gel-
-    tend machen, sofern seine Leistungen mindestens in der Höhe des Abzuges erfolgen.
-   Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Versiche-
-    rungs- und Sparzinsenabzug für das Kind. Leisten beide Elternteile Unterhaltszahlungen
-    und erfüllen die Voraussetzungen von Artikel 35 Absatz 1 Buchstabe a bzw. Buchstabe b
+Die Regelung, dass die Ehegatten die Steuererklärung gemeinsam zu unterzeichnen haben,
+führt dazu, dass sich die Ehegatten im Veranlagungsverfahren gegenseitig über ihre eigenen
+Steuerfaktoren informieren.
 
-    DBG, können beide den Abzug geltend machen, sofern sie nachweisen können, dass sie
-    auch entsprechende abzugsfähige Versicherungsprämien für das Kind geleistet haben.
-    Wenn dieser Nachweis nur einem Elternteil gelingt, so kann nur dieser den Versiche-
-    rungsabzug für das Kind geltend machen.
+Jeder Ehegatte hat in der Steuererklärung nur die ihm zuzurechnenden Einkommensfaktoren
+zu deklarieren. Dies folgt aus Artikel 180 DBG, wonach jeder Ehegatte nur für die Hinterzie-
+hung der eigenen Steuerfaktoren gebüsst werden kann.

@@ -4,15 +4,25 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 46"
-seiten: "15"
+titel: "Rz 55–58 Ziffer 13.2 Pauschalspesen – Repräsentation, Auto, übrige (Teil 2/2)"
+ziffer: "13.2 / 55–58"
+seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 15
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13.2 Pauschalspesen · S. 17
 
-Keine Spesenvergütungen sind Entschädigungen des Arbeitgebers, welche Auslagen ab   50
-decken, die vor oder nach der eigentlichen Arbeitstätigkeit anfallen. Solche Entschädigungen
-für Berufsauslagen sind beispielsweise Wegvergütungen (vgl. Rz 17) sowie Entschädigun
-gen für die Nutzung privater Lagerräume. Solche Entschädigungen sind stets zum Bruttolohn
-zu addieren (vgl. die Ziffern 1 bis 7 des Lohnausweises) und können allenfalls vom Arbeit
-nehmer in der Steuererklärung als Berufskosten in Abzug gebracht werden.
+In diesem Feld ist ein Pauschalbetrag anzugeben, der einem Arbeitnehmer ausbezahlt   57
+wurde, welcher sein Privatfahrzeug oft geschäftlich verwenden muss (in der Regel mehrere
+tausend Kilometer pro Jahr). Die Spesenpauschale muss ungefähr den effektiven Auslagen
+entsprechen.
+
+Übrige Pauschalspesen   Ziffer 13.2.3
+
+Auf dieser Zeile ist vorab die Art sämtlicher übriger Pauschalspesen, die nicht pauschale   58
+Auto- oder Repräsentationsspesen darstellen (vgl. RZ 56 und 57), anzugeben (z.B. Kosten
+beteiligung an externen Arbeitsplatz wie Homeoffice/Co-working Space). Im Feld ist lediglich
+die Summe der Pauschalspesenvergütungen einzutragen (wie bei mehreren Leistungen vor
+zugehen ist, vgl. Rz 26). In Form einer Pauschale vergütete besondere Berufskosten von
+Expatriates sind nicht unter Ziffer 13.2.3 zu bescheinigen, sondern unter Ziffer 2.3 mit der
+Bemerkung «Pauschalspesen Expatriates» zum Lohn hinzuzurechnen (Art. 2 Abs. 3 Bst. b
+ExpaV).

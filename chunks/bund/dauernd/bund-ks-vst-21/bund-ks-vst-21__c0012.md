@@ -4,20 +4,22 @@ quelle: bund-ks-vst-21
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 21 – Abschnitt 12"
-seiten: "3"
+titel: "Ziff. 5.2 Ausländische Banken – Custody-Kunden und Endkunden"
+ziffer: "5.2"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 21 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS VST 21 · 5 Kontrollrechnungen › 5.2 Ausländische Banken · S. 4
 
-<!-- Seite 3 -->
-2.4   Cum / ex-Transaktion
-Liegt bei einem Short Verkauf der trade date vor dem Ex-Tag, das Settlement jedoch am o-
-der nach dem Ex-Tag, muss der Verkäufer dem Käufer eine Dividendenersatzzahlung leisten
-(manufactured dividend). Gegenüber dem Käufer wird auch in diesem Fall eine Dividenden-
-gutschrift in Höhe von 65 Prozent vorgenommen und auf der Ertragsabrechnung bzw. Ab-
-zugsbescheinigung ein Verrechnungssteuerabzug von 35 Prozent ausgewiesen.
+5.2   Ausländische Banken und Depotstellen
+5.2.1   Custody-Kunden
+Soweit die ausländische Bank Custody-Kunden hat, muss auf deren Depots ebenfalls eine
+Kontrollrechnung (wie Ziffer 5.1.1) durchgeführt werden.
 
-Ohne zusätzliche Massnahmen befinden sich nach solchen cross / ex-Transaktionen aus
-Short-Verkäufen somit Belege über mehr Verrechnungssteuer im Umlauf als effektiv von der
-ausschüttenden Gesellschaft abgeliefert worden ist.
+Das Ergebnis dieser Kontrollrechnung ist dem Kunden – analog der Bestätigung gemäss Zif-
+fer 5.1.2 – in standardisierter Form mitzuteilen.
+
+5.2.2   Endkunden (Kunden, die eine Rückerstattung beantragen)
+Im Rahmen einer Kontrollrechnung sind sämtliche Ertragsgutschriften und übrigen Doku-
+mente gegenüber Kunden, welche zur Rückerstattung der Verrechnungssteuer geeignet
+sind, zu ermitteln.

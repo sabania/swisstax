@@ -4,24 +4,32 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 34"
-seiten: "12"
+titel: "Rz 39–42 Ziffer 7 (Quellensteuer, Schulgelder), Ziffer 8 Bruttolohn, Ziffer 9 AHV/IV/EO/ALV/NBUV"
+ziffer: "7–9 / 39–42"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 12
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffern 7–9 · S. 14
 
-Für Kapitalleistungen, die von Personalvorsorgeeinrichtungen ausgerichtet werden, ist aus
-schliesslich das Formular 563 zu verwenden (Adresse siehe Rz 5). Diese Leistungen sind
-somit nicht im Lohnausweis zu deklarieren.
+•   Vom Arbeitgeber übernommene Quellensteuern oder andere Steuern   39
 
-Beteiligungsrechte gemäss Beiblatt   Ziffer 5
+•   Vom Arbeitgeber für Kinder des Arbeitnehmers bezahlte Schulgelder   40
 
-In diesem Feld ist das Erwerbseinkommen anzugeben, das dem Arbeitnehmer im entspre   29
-chenden Kalenderjahr aus Mitarbeiterbeteiligungen (z. B. Aktien und/oder Optionen usw.)
-zugeflossen ist (vgl. ESTV Kreisschreiben Nr. 37 «Besteuerung von Mitarbeiterbeteiligun
-gen»). Der genaue Betrag ist auch dann anzugeben, wenn die Mitarbeiterbeteiligung von
-einer dem Arbeitgeber nahestehenden Gesellschaft (z. B. der ausländischen Muttergesell
-schaft) eingeräumt wurde. Das Erwerbseinkommen wird auf Grund der Differenz zwischen
-Verkehrswert und Abgabe- bzw. Erwerbspreis berechnet. Falls der Verkehrswert der Mitar
-beiterbeteiligung von der Steuerbehörde genehmigt wurde, ist dies in Ziffer 15 des Lohnaus
-weises zu vermerken (vgl. Rz 68).
+
+Bruttolohn total/Rente   Ziffer 8
+
+In diesem Feld ist das Total der Einkünfte gemäss den Ziffern 1 bis 7 des Lohnausweises   41
+vor Abzug der Sozialversicherungsbeiträge, Quellensteuern usw. anzugeben.
+
+
+Beiträge AHV/IV/EO/ALV/NBUV   Ziffer 9
+
+In diesem Feld ist der gemäss den massgebenden Bestimmungen beim Arbeitnehmer in   42
+Abzug gebrachte Arbeitnehmeranteil für AHV/IV/EO/ALV/NBUV betragsmässig anzugeben.
+Kein Abzug darf gemacht werden für Beiträge, die der Arbeitgeber bezahlt hat (Arbeitgeber
+beiträge). Arbeitnehmern belastete Beiträge an Krankentaggeldversicherungen sowie Prä
+mien für UVG-Zusatzversicherungen sind nicht abzugsfähig; sie dürfen nicht vom Bruttolohn
+abgezogen werden. Solche Beiträge können jedoch in Ziffer 15 ausgewiesen werden.
+
+Analog ist vorzugehen, wenn der Arbeitnehmer in einem vergleichbaren Sozialversiche
+rungssystem (internationale Sozialversicherungsabkommen) des Herkunftslands verbleibt.

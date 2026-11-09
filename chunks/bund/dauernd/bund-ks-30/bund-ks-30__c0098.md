@@ -4,19 +4,16 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 2/2)"
-ziffer: "14.1.2"
-seiten: "30-31"
+titel: "Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge) (Teil 2/3)"
+ziffer: "14.2.1"
+seiten: "31-32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1.2 Steuerrechtliche Aspekte · S. 30–31
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.2.1 Zivilrechtliche Aspekte · S. 31–32
 
-Unterhaltsleistungen in der Form von Geldleistungen an den getrennt lebenden oder ge-
-schiedenen Ehegatten können sowohl als Renten als auch als Kapitalabfindungen erfolgen.
-In Weiterführung der bisherigen Praxis, die auch vom Bundesgericht gestützt wird (Entscheid
-vom 29. Januar 1999, BGE 125 II 183), darf die Abzugsfähigkeit der periodischen Unterhalts-
-leistungen jedoch nicht auf die Unterhaltsleistungen in Form einer Kapitalleistung ausge-
-dehnt werden. Infolgedessen kann der als Kapitalleistung gezahlte Betrag zum Unterhalt des
-geschiedenen Ehegatten nicht vom steuerbaren Einkommen des Schuldners abgezogen
-werden. Der Empfänger dieser Leistung muss sie im Gegenzug aber auch nicht als Ein-
-kommen deklarieren.
+Artikel 298a Absatz 1 ZGB bestimmt, dass die Vormundschaftsbehörde auf gemeinsamen
+Antrag der unverheirateten Eltern hin diesen die elterliche Sorge überträgt, wenn folgende
+Bedingungen erfüllt sind: Die gemeinsame elterliche Sorge muss mit dem Kindeswohl ver-
+einbar sein und die Eltern müssen der Vormundschaftsbehörde eine Vereinbarung zur Ge-
+nehmigung unterbreiten, worin sie sich über ihre Anteile an der Betreuung des Kindes und
+über die Verteilung der Kosten für dessen Unterhalt verständigen.

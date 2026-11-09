@@ -1,0 +1,736 @@
+{
+ "id": "bund-ks-11a",
+ "hinweise": [
+  "Bindestrich-Zeilenumbrüche (Worttrennung ohne Bindestrich) durch alle Seiten, z.B. 'ab\\nzug'.",
+  "Seite 7: Fussnote 1 (Pflegestufen) steht im Fliesstext von Ziff. 4.2.",
+  "Seite 12: Anhang Fragebogen für Ärzte ist im Text nur als Titel vorhanden.",
+  "Hinweis: Dieses KS 11a gelangt gemäss Ziff. 7 erst ab Steuerperiode 2027 zur Anwendung; für 2025/2026 gilt das KS 11."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt und Inhaltsverzeichnis"
+  },
+  {
+   "start": 89,
+   "titel": "Ziff. 1 Einleitung – Art. 33 Abs. 1 Bst. h und hbis DBG",
+   "pfad": [
+    "1 Einleitung"
+   ],
+   "stichworte": [
+    "Krankheitskosten",
+    "Unfallkosten",
+    "behinderungsbedingte Kosten",
+    "Kreisschreiben 11a",
+    "DBG Art. 33"
+   ],
+   "zusammenfassung": "Das Kreisschreiben beschreibt die für die direkte Bundessteuer abzugsberechtigten Krankheits-, Unfall- und behinderungsbedingten Kosten (Art. 33 Abs. 1 Bst. h und hbis DBG).",
+   "ziffer": "1",
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 104,
+   "titel": "Ziff. 2 Gesetzliche Grundlagen – Wortlaut Art. 33 DBG, BehiG",
+   "pfad": [
+    "2 Gesetzliche Grundlagen"
+   ],
+   "stichworte": [
+    "Selbstbehalt 5 Prozent",
+    "Art. 33 Abs. 1 Bst. h DBG",
+    "Behindertengleichstellungsgesetz",
+    "Person mit Behinderung"
+   ],
+   "zusammenfassung": "Krankheits- und Unfallkosten sind abziehbar, soweit sie 5 Prozent der um die Aufwendungen verminderten steuerbaren Einkünfte übersteigen; bei behinderungsbedingten Kosten gilt kein Selbstbehalt.",
+   "ziffer": "2",
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 128,
+   "titel": "Ziff. 3.1 Begriff der Krankheits- und Unfallkosten",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.1 Begriffe"
+   ],
+   "stichworte": [
+    "Arztkosten",
+    "Spital",
+    "Medikamente",
+    "Brillen",
+    "Kontaktlinsen",
+    "Augenlasern",
+    "Therapien"
+   ],
+   "zusammenfassung": "Krankheits- und Unfallkosten sind Ausgaben für Massnahmen zur Erhaltung und Wiederherstellung der Gesundheit (Arzt, Spital, Medikamente, Brillen, Therapien).",
+   "ziffer": "3.1",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 136,
+   "titel": "Ziff. 3.1 Bst. a–f Nicht abzugsfähige Lebenshaltungskosten",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.1 Begriffe"
+   ],
+   "stichworte": [
+    "Prävention",
+    "Fitness-Abo",
+    "Schönheitsbehandlung",
+    "Zimmer-Upgrade",
+    "Halbprivat",
+    "nicht abzugsfähig"
+   ],
+   "zusammenfassung": "Nicht abzugsfähig sind u.a. Aufwendungen über dem üblichen Rahmen, indirekte Kosten, Prävention (Fitness), Schönheitsbehandlungen und Komfortzuschläge (Halbprivat/Privat).",
+   "ziffer": "3.1 a–f",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 159,
+   "titel": "Ziff. 3.1 Krankenkassenprämien sind keine Krankheitskosten",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.1 Begriffe"
+   ],
+   "stichworte": [
+    "Krankenkassenprämien",
+    "Versicherungsabzug",
+    "Art. 33 Abs. 1 Bst. g DBG"
+   ],
+   "zusammenfassung": "Krankenkassenprämien sind keine Krankheitskosten, sondern nur im Rahmen des Versicherungsabzugs (Art. 33 Abs. 1 Bst. g und 1bis DBG) abziehbar.",
+   "ziffer": "3.1",
+   "positionen": [
+    "abzug.versicherungspraemien"
+   ]
+  },
+  {
+   "start": 163,
+   "titel": "Ziff. 3.2.1–3.2.2 Zahnbehandlungen und Heilbehandlungen",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Zahnarzt",
+    "Kieferorthopädie",
+    "Zahnkorrektur",
+    "Dentalhygiene",
+    "Physiotherapie",
+    "Psychotherapie",
+    "ärztliche Verordnung"
+   ],
+   "zusammenfassung": "Zahnbehandlungen (nicht rein kosmetisch) und ärztlich verordnete Heilbehandlungen durch diplomierte Personen sind abzugsfähig; eine allgemeine Empfehlung genügt nicht.",
+   "ziffer": "3.2.1–3.2.2",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 183,
+   "titel": "Ziff. 3.2.3 Kuraufenthalte (CHF 21.50 pro Tag Verpflegung)",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Kur",
+    "Erholungsaufenthalt",
+    "Verpflegungskosten",
+    "Naturalbezüge",
+    "CHF 21.50"
+   ],
+   "zusammenfassung": "Ärztlich verordnete Kuraufenthalte sind abziehbar, soweit sie die eingesparten Verpflegungskosten (derzeit CHF 21.50 pro Tag für eine erwachsene Person) übersteigen.",
+   "ziffer": "3.2.3",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 194,
+   "titel": "Ziff. 3.2.4 Alternativmedizin und Naturheilpraktiker",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Alternativmedizin",
+    "Komplementärmedizin",
+    "Homöopathie",
+    "Akupressur",
+    "TCM",
+    "Naturheilpraktiker",
+    "Osteopathie"
+   ],
+   "zusammenfassung": "Alternativmedizin ist abzugsfähig, wenn sie von einem nach kantonaler Praxis anerkannten Naturheilpraktiker durchgeführt oder ärztlich verordnet wird.",
+   "ziffer": "3.2.4",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 211,
+   "titel": "Ziff. 3.2.5–3.2.6 Medikamente, Heilmittel und Pflegekosten",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Medikamente",
+    "Heilmittel",
+    "Spitex",
+    "Pflege zu Hause",
+    "Haushaltshilfe",
+    "Rezept"
+   ],
+   "zusammenfassung": "Medikamente nur bei ärztlicher (oder naturheilpraktischer) Verordnung; ambulante Pflege zu Hause abziehbar, unentgeltliche Pflege nicht, Haushaltsanteil ist auszuscheiden.",
+   "ziffer": "3.2.5–3.2.6",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 228,
+   "titel": "Ziff. 3.2.7 Pflegekosten in Alters- und Pflegeheimen",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Pflegeheim",
+    "Altersheim",
+    "Heimkosten",
+    "60 Minuten",
+    "Pflegebedarf",
+    "Pflegestufe"
+   ],
+   "zusammenfassung": "Bei Pflegebedarf bis 60 Minuten pro Tag gelten Heimkosten als nicht abzugsfähige Lebenshaltungskosten; separat in Rechnung gestellte Pflegekosten sind abziehbar.",
+   "ziffer": "3.2.7",
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 240,
+   "titel": "Ziff. 3.2.8 Fortpflanzungshilfen",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Kinderwunsch",
+    "künstliche Befruchtung",
+    "In-vitro-Fertilisation",
+    "Insemination",
+    "Eizellen einfrieren",
+    "Hormonbehandlung"
+   ],
+   "zusammenfassung": "Kosten für Fortpflanzungshilfen sind abzugsfähig, wenn krankheitsbedingt, medizinisch indiziert und nach FMedG zulässig.",
+   "ziffer": "3.2.8",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 252,
+   "titel": "Ziff. 3.2.9 Transportkosten zu Arzt und Therapie",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Transportkosten",
+    "Krankenwagen",
+    "Rettungshelikopter",
+    "Fahrt zum Arzt",
+    "Bergungskosten"
+   ],
+   "zusammenfassung": "Transportkosten zum Arzt sind grundsätzlich nicht abzugsfähig; medizinisch notwendige Transport-, Rettungs- und Bergungskosten ausnahmsweise schon.",
+   "ziffer": "3.2.9",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 261,
+   "titel": "Ziff. 3.2.10 Besondere Ernährung – Pauschale CHF 1'500",
+   "pfad": [
+    "3 Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Sonderernährung",
+    "Zöliakie",
+    "Diät",
+    "Pauschale CHF 1'500",
+    "Spezialnahrung"
+   ],
+   "zusammenfassung": "Mehrkosten ärztlich angeordneter, lebensnotwendiger Sonderernährung abziehbar; anstelle der effektiven Kosten Pauschale von jährlich CHF 1'500 pro erkrankter Person.",
+   "ziffer": "3.2.10",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 274,
+   "titel": "Ziff. 4.1 Person mit Behinderung – Definition",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.1 Person mit Behinderung"
+   ],
+   "stichworte": [
+    "Behinderung",
+    "dauernde Beeinträchtigung",
+    "ein Jahr",
+    "kausaler Zusammenhang"
+   ],
+   "zusammenfassung": "Behinderung liegt vor bei voraussichtlich dauernder (mindestens ein Jahr) körperlicher, geistiger oder psychischer Beeinträchtigung mit kausalem Zusammenhang.",
+   "ziffer": "4.1",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 287,
+   "titel": "Ziff. 4.1 Als behindert geltende Personen, Hör- und Sehbehinderung",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.1 Person mit Behinderung"
+   ],
+   "stichworte": [
+    "IV-Rente",
+    "Hilflosenentschädigung",
+    "Hörbehinderung 41 Dezibel",
+    "Sehbehinderung Visus 0.3",
+    "Fragebogen Arzt",
+    "Hilfsmittel"
+   ],
+   "zusammenfassung": "Als behindert gelten u.a. Bezüger von IV-Leistungen, Hilflosenentschädigung, Hilfsmitteln sowie Heim-/Spitex-Personen mit mehr als 60 Minuten Pflegeaufwand; Hörverlust ab 41 Dezibel, Visus unter 0.3.",
+   "ziffer": "4.1 a–d",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 318,
+   "titel": "Ziff. 4.2 Begriff der behinderungsbedingten Kosten",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.2 Begriff"
+   ],
+   "stichworte": [
+    "Lebenshaltungskosten",
+    "Luxusausgaben",
+    "Physiotherapie bei Lähmung",
+    "Abgrenzung Krankheitskosten"
+   ],
+   "zusammenfassung": "Behinderungsbedingt sind notwendige Kosten mit kausalem Zusammenhang, die weder Lebenshaltungs- noch Luxusausgaben sind; Behandlungen wegen der Behinderung sind ohne Selbstbehalt abziehbar.",
+   "ziffer": "4.2",
+   "positionen": [
+    "abzug.behinderungskosten",
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 346,
+   "titel": "Ziff. 4.3.1 Assistenzkosten, Haushaltshilfe",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Assistenz",
+    "Spitex",
+    "Haushaltshilfe",
+    "ärztliche Bescheinigung",
+    "Betreuung",
+    "Überwachung"
+   ],
+   "zusammenfassung": "Selbstgetragene Kosten für Pflege, Betreuung und Begleitung sind abzugsfähig; Haushaltshilfen nur mit ärztlicher Bescheinigung, unentgeltliche Leistungen nicht.",
+   "ziffer": "4.3.1",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 366,
+   "titel": "Ziff. 4.3.1 Dolmetscherkosten Gehörlose – Pauschale CHF 2'500",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Gebärdensprache",
+    "Dolmetscher",
+    "gehörlos 71 Dezibel",
+    "Taubblind",
+    "Pauschale CHF 2'500"
+   ],
+   "zusammenfassung": "Dolmetscherkosten für Gehörlose (ab 71 Dezibel beidseitig) abziehbar; ohne Hilflosenentschädigung Pauschale von CHF 2'500 pro Jahr möglich.",
+   "ziffer": "4.3.1",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 376,
+   "titel": "Ziff. 4.3.2–4.3.3 Kinderbetreuung und Tagesstrukturen",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Kinderbetreuung",
+    "Tagesstätte",
+    "Beschäftigungsstätte",
+    "Tageszentrum",
+    "Verpflegung"
+   ],
+   "zusammenfassung": "Behinderungsbedingte Kinderbetreuung nur mit ärztlicher Bescheinigung und soweit über dem Kinderdrittbetreuungsabzug; Tagesstrukturen abzugsfähig ohne übliche Verpflegung.",
+   "ziffer": "4.3.2–4.3.3",
+   "positionen": [
+    "abzug.behinderungskosten",
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 393,
+   "titel": "Ziff. 4.3.4 Heim- und Entlastungsaufenthalte",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Wohnheim",
+    "Pflegeheim",
+    "Entlastungsaufenthalt",
+    "Ferienheim",
+    "Existenzminimum",
+    "Kürzung Lebenshaltungskosten"
+   ],
+   "zusammenfassung": "Heim- und Entlastungsaufenthalte sind abzugsfähig, gekürzt um die im eigenen Haushalt anfallenden Lebenshaltungskosten (Existenzminimum nach Art. 93 SchKG).",
+   "ziffer": "4.3.4",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 409,
+   "titel": "Ziff. 4.3.5 Heilpädagogische Therapien, Sozialrehabilitation",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "heilpädagogisches Reiten",
+    "Musiktherapie",
+    "Blindenschrift",
+    "Low Vision",
+    "Ableseunterricht"
+   ],
+   "zusammenfassung": "Anerkannte heilpädagogische Therapien und Sozialrehabilitationsmassnahmen bei Hör- und Sehbehinderung sind abzugsfähig.",
+   "ziffer": "4.3.5",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 418,
+   "titel": "Ziff. 4.3.6 Transport- und Fahrzeugkosten – Grundsatz",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Transport",
+    "öffentlicher Verkehr",
+    "Fahrdienst",
+    "Kilometerentschädigung",
+    "Motorfahrzeug",
+    "Behindertenfahrdienst"
+   ],
+   "zusammenfassung": "Behinderungsbedingte Transportkosten mit ÖV oder Fahrdienst abziehbar; nur wenn unzumutbar, Privatfahrzeug nach Kilometerentschädigung.",
+   "ziffer": "4.3.6",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 426,
+   "titel": "Ziff. 4.3.6 Freizeitfahrten, Taxi, Arbeitsweg",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Freizeitfahrten",
+    "Taxi",
+    "Arbeitsweg",
+    "Fahrkosten",
+    "Gewinnungskosten"
+   ],
+   "zusammenfassung": "Freizeitfahrten in der Regel nicht abzugsfähig; Taxi nur mit ärztlicher Bescheinigung; Arbeitsweg nur soweit über dem Berufskostenabzug.",
+   "ziffer": "4.3.6",
+   "positionen": [
+    "abzug.behinderungskosten",
+    "abzug.berufskosten.fahrkosten"
+   ]
+  },
+  {
+   "start": 443,
+   "titel": "Ziff. 4.3.6 Fahrzeugumbau, Pauschale Transport CHF 2'500",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Fahrzeugumbau",
+    "Rampe Rollstuhl",
+    "Pauschalabzug CHF 2'500",
+    "wöchentliche Arztbesuche"
+   ],
+   "zusammenfassung": "Fahrzeugumbau abzugsfähig; wer regelmässig (i.d.R. mindestens einmal pro Woche) medizinische Einrichtungen aufsuchen muss, kann CHF 2'500 pauschal abziehen.",
+   "ziffer": "4.3.6",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 451,
+   "titel": "Ziff. 4.3.7–4.3.8 Assistenzhunde, Hilfsmittel, Pflegeartikel, Kleider",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Blindenführhund",
+    "Assistenzhund",
+    "Hilfsmittel",
+    "Windeln",
+    "Stoma",
+    "Notrufsystem",
+    "Spezialschuhe"
+   ],
+   "zusammenfassung": "Kosten für Blinden-/Assistenzhunde, Hilfsmittel, Pflegeartikel, Notrufsysteme und behinderungsbedingte Mehrkosten bei Kleidern/Schuhen sind abzugsfähig.",
+   "ziffer": "4.3.7–4.3.8",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 473,
+   "titel": "Ziff. 4.3.9–4.3.10 Wohnkosten und Privatschulen",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Treppenlift",
+    "Rollstuhlrampe",
+    "Wohnungsumbau",
+    "Privatschule",
+    "schulpsychologischer Dienst"
+   ],
+   "zusammenfassung": "Behinderungsbedingte Umbauten der Wohnstätte abziehbar; Privatschulkosten nur mit Nachweis der Notwendigkeit durch schulpsychologischen Dienst oder Fachgutachten.",
+   "ziffer": "4.3.9–4.3.10",
+   "positionen": [
+    "abzug.behinderungskosten",
+    "abzug.liegenschaft.unterhalt"
+   ]
+  },
+  {
+   "start": 491,
+   "titel": "Ziff. 4.4 Pauschalen bei Hilflosenentschädigung (CHF 2'500 / 6'000 / 9'500)",
+   "pfad": [
+    "4 Behinderungsbedingte Kosten",
+    "4.4 Pauschalen"
+   ],
+   "stichworte": [
+    "Hilflosenentschädigung",
+    "Pauschalabzug",
+    "leichten Grades",
+    "mittleren Grades",
+    "schweren Grades",
+    "HE"
+   ],
+   "zusammenfassung": "Jährlicher Pauschalabzug: leichte HE CHF 2'500, mittlere HE CHF 6'000, schwere HE CHF 9'500; nicht kumulierbar mit den Pauschalen nach Ziff. 4.3.1 und 4.3.6.",
+   "ziffer": "4.4",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 506,
+   "titel": "Ziff. 5.1 Selbstgetragene Kosten – Anrechnung von Leistungen Dritter",
+   "pfad": [
+    "5 Abzugsfähige Kosten",
+    "5.1 Selbstgetragene Kosten"
+   ],
+   "stichworte": [
+    "Krankenkasse",
+    "Versicherungsleistungen",
+    "selbstgetragen",
+    "Franchise",
+    "Nachweis"
+   ],
+   "zusammenfassung": "Abzugsfähig sind nur die nach Abzug aller Versicherungs- und Drittleistungen (AHV, IV, SUVA, Krankenkasse etc.) verbleibenden Kosten.",
+   "ziffer": "5.1",
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 518,
+   "titel": "Ziff. 5.1 Ergänzungsleistungen und Pauschalen",
+   "pfad": [
+    "5 Abzugsfähige Kosten",
+    "5.1 Selbstgetragene Kosten"
+   ],
+   "stichworte": [
+    "Ergänzungsleistungen",
+    "EL",
+    "Krankheitskostenvergütung",
+    "Pauschalen ausgeschlossen"
+   ],
+   "zusammenfassung": "Jährliche EL gelten nicht als anzurechnende Leistungen; EL zur Vergütung von Krankheits- und Behinderungskosten sind anzurechnen und schliessen die Pauschalen aus.",
+   "ziffer": "5.1",
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten",
+    "info.steuerfreie_leistungen"
+   ]
+  },
+  {
+   "start": 528,
+   "titel": "Ziff. 5.1 Hilflosenentschädigung, Kapitalleistungen, Genugtuung",
+   "pfad": [
+    "5 Abzugsfähige Kosten",
+    "5.1 Selbstgetragene Kosten"
+   ],
+   "stichworte": [
+    "Hilflosenentschädigung",
+    "Intensivpflegezuschlag",
+    "Kapitalleistung",
+    "Genugtuung",
+    "Integritätsentschädigung"
+   ],
+   "zusammenfassung": "HE und Intensivpflegezuschläge sind an Assistenz- und Transportkosten anzurechnen, Kapitalleistungen soweit nicht steuerbar; Genugtuung wird nicht angerechnet.",
+   "ziffer": "5.1",
+   "positionen": [
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 542,
+   "titel": "Ziff. 5.2.1 Kosten minderjähriger oder in Ausbildung stehender Kinder",
+   "pfad": [
+    "5 Abzugsfähige Kosten",
+    "5.2 Kosten der unterhaltenen Person"
+   ],
+   "stichworte": [
+    "Kinder",
+    "Kinderabzug",
+    "Unterhaltsbeiträge",
+    "Kosten Kind"
+   ],
+   "zusammenfassung": "Kosten von Kindern sind zusätzlich zum Kinderabzug abziehbar, nicht aber bei Kindern, für die Unterhaltsbeiträge abgezogen werden.",
+   "ziffer": "5.2.1",
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten",
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 554,
+   "titel": "Ziff. 5.2.2 Übrige unterstützte Personen",
+   "pfad": [
+    "5 Abzugsfähige Kosten",
+    "5.2 Kosten der unterhaltenen Person"
+   ],
+   "stichworte": [
+    "unterstützte Person",
+    "Unterstützungsabzug",
+    "Eltern unterstützen",
+    "Ausland",
+    "geschiedene Ehegatten"
+   ],
+   "zusammenfassung": "Behinderungsbedingte Kosten unterstützter Personen nur soweit über dem Unterstützungsabzug (Art. 35 Abs. 1 Bst. b DBG), nur effektive Kosten.",
+   "ziffer": "5.2.2",
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten",
+    "sozialabzug.unterstuetzung"
+   ]
+  },
+  {
+   "start": 569,
+   "titel": "Ziff. 5.3 Selbstbehalt 5 Prozent",
+   "pfad": [
+    "5 Abzugsfähige Kosten",
+    "5.3 Selbstbehalt"
+   ],
+   "stichworte": [
+    "Selbstbehalt",
+    "5 Prozent",
+    "Nettoeinkommen",
+    "Franchise"
+   ],
+   "zusammenfassung": "Krankheits- und Unfallkosten sind nur abziehbar, soweit sie 5 Prozent der um die Aufwendungen verminderten Einkünfte übersteigen; keine Selbstbehalt bei behinderungsbedingten Kosten.",
+   "ziffer": "5.3",
+   "positionen": [
+    "abzug.krankheitskosten"
+   ]
+  },
+  {
+   "start": 577,
+   "titel": "Ziff. 6 Nachweis – Belege und ärztlicher Fragebogen",
+   "pfad": [
+    "6 Nachweis"
+   ],
+   "stichworte": [
+    "Belege",
+    "ärztliche Bescheinigung",
+    "Rechnungen",
+    "Fragebogen",
+    "Ausland"
+   ],
+   "zusammenfassung": "Kosten sind durch ärztliche Bescheinigungen, Rechnungen und Zahlungsnachweise zu belegen; bei Personen im Ausland hohe Nachweisanforderungen.",
+   "ziffer": "6",
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten",
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 595,
+   "titel": "Ziff. 7 Geltungsbereich und Anhang Fragebogen",
+   "pfad": [
+    "7 Geltungsbereich"
+   ],
+   "stichworte": [
+    "Geltungsbereich",
+    "Steuerperiode 2027",
+    "Kreisschreiben Nr. 11 ersetzt",
+    "Fragebogen für Ärzte"
+   ],
+   "zusammenfassung": "Ersetzt das Kreisschreiben Nr. 11 vom 31. August 2005 und gelangt ab der Steuerperiode 2027 zur Anwendung.",
+   "ziffer": "7",
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten"
+   ]
+  }
+ ]
+}

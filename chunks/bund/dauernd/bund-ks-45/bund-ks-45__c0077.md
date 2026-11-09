@@ -4,18 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 77"
-seiten: "18"
+titel: "Ziff. 6.5 Stunden- und Tageslohn – satzbestimmendes Monatseinkommen"
+ziffer: "6.5"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.5 Stunden- oder Tageslohn · S. 25
 
-    Beispiel:
-    -   Der nicht kirchensteuerpflichtige Arbeitnehmer U. ist geschieden und bezahlt jeden Monat CHF 1 500.00
-    Unterhalt an seine Ex-Ehefrau sowie je CHF 1 000.00 Alimente für die beiden minderjährigen Kinder
-    (= CHF 2 000.00), die bei der Kindsmutter leben (gemeinsame elterliche Sorge). Sein monatlicher Brutto-
-    lohn beträgt CHF 5 500.00.
-    Der Antrag von U. auf Anwendung der Härtefallregelung wird gutgeheissen. Die jährlichen Unterhaltszah-
-    lungen betragen CHF 42 000.00 (= 12 x CHF 1 500.00 + 12 x 2 x CHF 1 000.00). Pro Kind wird gemäss
-    kantonalem Steuergesetz ein Abzug von CHF 8 000.00 pro Jahr gewährt. Die kantonale Steuerverwaltung
-    bewilligt folglich die Anwendung des Tarifcodes A5N (5 x CHF 8 000.00 = CHF 40 000.00).
+6.5   Erwerbstätigkeiten im Stunden- oder im Tageslohn
+Ist ein quellensteuerpflichtiger Arbeitnehmer im Stunden- oder Tageslohn angestellt und wird
+ihm der Lohn nicht in Form einer monatlichen Zahlung ausgerichtet (bspw. wöchentliche
+Lohnzahlung, unregelmässige Zahlungen gemäss eingereichten Stundenabrechnungen), ist
+immer ein satzbestimmendes Monatseinkommen zu ermitteln und zwar bei Anstellungen im
+Stundenlohn durch Umrechnung auf 180 Stunden oder bei Anstellungen im Tageslohn durch
+Umrechnung auf 21,667 Tage. Umzurechnen ist dabei ausschliesslich der vereinbarte, aktu-
+elle Stunden- oder Tageslohn (inkl. Ferien- und Feiertagsentschädigungen sowie weitere
+Entschädigungen, die auf Stunden- oder Tagesbasis ausgerichtet werden). Daneben sind
+einzig noch Kapitalabfindungen für in der Regel wiederkehrende Leistungen – und zwar
+ohne Umrechnung – in das satzbestimmende Lohneinkommen einzurechnen.
+Mit dieser pauschalen Ermittlung des satzbestimmenden Einkommens werden sowohl die
+Fälle mit mehreren Erwerbstätigkeiten als auch diejenigen mit Ein- und Austritten während
+des Monats abgedeckt.

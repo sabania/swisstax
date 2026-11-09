@@ -4,21 +4,31 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 138"
-seiten: "35"
+titel: "Ziff. 7.3.4 Beispiel – Ein- und Austritt in Monaten mit Bonus (Teil 2/2)"
+ziffer: "7.3.4"
+seiten: "44"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 35
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.4 Unterjährige Ein-/Austritte · S. 44
 
-<!-- Seite 35 -->
-    Beispiel:
-    - Kapitalabfindungen für wiederkehrende Leistungen sind zusammen mit dem Bruttolohn, welcher im Monat
-    der Auszahlung der Kapitalabfindung ausgerichtet wird, an der Quelle zu besteuern.
+    Korrektur Januar   -303   -30
+    Korrektur Januar
+    -1875   -187
+    und Februar
+    Total
+    845   948   543   2 336
+    Quellensteuer
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 120 000.00 [(CHF 5 000 / 15) x 360].
 
-    Leistungen   steuerbar   satzbestimmend
+    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 113 142.85 [(CHF 6 000 + CHF 5 000) / 35 x
 
-    Ordentlicher Bruttomonatslohn Mai 2022 (ohne Familienzulage)   4 800   4 800
+    360].
+    3 = Korrektur des Quellensteuerabzugs für die Monate Januar und Februar [(CHF 5 000 x 16.30 %) –
 
-    Nachzahlung Familienzulagen Dezember 2021 bis Mai 2022   1 200   1 200
+    CHF 845].
+    4 = A0 mit satzbestimmendem Jahreseinkommen von CHF 97 094.35 {[(CHF 3 000 + CHF 6 000 +
 
-    Total Bruttolohn Mai 2022   6 000   6 000
+    CHF 5 000) / 53 x 360] + CHF 2 000}.
+    5 = Korrektur des Quellensteuerabzugs für die Monate Januar und Februar [(CHF 5 000 x 14.60 %) –
+
+    CHF 845] + [(CHF 6 000 x 14.60 %) – (CHF 978 – CHF 30)].

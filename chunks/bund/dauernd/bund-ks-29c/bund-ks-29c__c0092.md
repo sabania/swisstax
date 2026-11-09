@@ -4,31 +4,28 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 92"
-seiten: "32"
+titel: "Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 1/3)"
+ziffer: "Anhang 5"
+seiten: "37"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 32
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 5 Währungswechsel · S. 37
 
-<!-- Seite 32 -->
-Anhang 3: Fallbeispiele einer in der Schweiz kotierten Kapitalgesellschaft
+Anhang 5: Beispiel Änderung Aktienkapital in eine für die Geschäftstätigkeit
+wesentliche ausländische Währung
 
-1. Fallbeispiel
+Eine Kapitalgesellschaft mit bisheriger Buchführung in funktionaler Währung USD zeigt am
+Stichtag der Umstellung des Aktienkapitals in USD (1. Januar 2023) folgende Bestände an
+Reserven aus Kapitaleinlagen:
 
-Die X AG hat ihr Domizil in der Schweiz. Sie ist an der SIX Swiss Exchange kotiert. Im Früh-
-jahr 2021 beschliesst die Gesellschaft eine Dividende von 6% aufgrund des Jahresergebnis-
-ses 2020. Die Dividende von 60 wird zu Lasten der KER ausgeschüttet. Die ausländische Y
-AG hält 20% am Grundkapital der X AG. Das Eigenkapital der Gesellschaft zeigt vor Korrek-
-tur folgendes Bild:
+    Datum   Einzlg.   Rückzlg.   Bestand   Kurs   Einzlg.   Rückzlg.   Bestand
 
- Handelsbilanz / Eigenkapital   Bestand   Ausschüt- Bestand
-    tung
+    Werte funktionale Währung USD   Bestätigte KER in CHF
 
- Aktienkapital   1000   1000
- Kapitalreserven
- - KER bestätigt   800   -60   740
- - übrige   400   400
- Gewinnreserven   4000   4000
- Gewinn/Gewinnvortrag   800   800
+ 01.07.1998   200'000   200'000   1.45   290'000   290'000
 
- Total Eigenkapital   7000   6940
+ 01.07.2019   70'000   130'000   0.99   69'300   220'700
+
+ 01.01.2023   245'222   0.90
+
+Erklärungen:

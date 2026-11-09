@@ -4,17 +4,24 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 48"
-seiten: "11"
+titel: "Ziff. 7.3.3.2 Export ohne Ansässigkeitswechsel – Drittstaattage"
+ziffer: "7.3.3.2"
+seiten: "15-16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3.3 Export › 7.3.3.2 Ohne Ansässigkeitswechsel · S. 15–16
 
-Aufgrund verschiedener Doppelbesteuerungsabkommen (DBA) kann die Schweiz in der Re-
-gel nicht den gesamten geldwerten Vorteil aus der Realisation besteuern. Die Besteuerung
-ist vielmehr aufgrund der Arbeitstage auf die Länder zu verteilen, in denen der Mitarbeitende
-seit der Zuteilung der Mitarbeiterbeteiligung bis zum Entstehen des Ausübungsrechts ansäs-
-sig war (Art. 7 und 8 MBV). Keine Rolle spielt dabei, ob ein anderes Land den geldwerten
-Vorteil anteilsmässig besteuert oder nicht. Vielmehr ist entscheidend, welches Land das an-
-teilige Besteuerungsrecht für das Einkommen aus der zugrundeliegenden Erwerbstätigkeit
-besitzt.
+7.3.3.2   „Export“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel
+Die Quellenbesteuerung hat nach den Artikeln 91, 97 und 93 DBG zu erfolgen, wenn der Mit-
+arbeitende bereits bei Abgabe der Mitarbeiterbeteiligungen im Ausland ansässig war und
+
+zwischen dem Zeitpunkt der Abgabe und Realisation der Mitarbeiterbeteiligung kein Ansäs-
+sigkeitswechsel stattgefunden hat.
+
+Bestand das Arbeitsverhältnis während der ganzen Vestingperiode unverändert in der
+Schweiz, so sind einzig allfällige Drittstaattage (d.h. Arbeitstage ausserhalb der Schweiz) von
+der Besteuerung auszuscheiden. Dies trifft vor allem auf die Fälle zu, bei welchen der Steu-
+erpflichtige nach Artikel 91 DBG quellensteuerpflichtig ist. Bei der Besteuerung nach Artikel
+97 DBG sind in der Regel Drittstaattage nur für bestimmte Fallgruppen auszuscheiden (etwa
+Fälle im internationalen Transportgewerbe), währenddem die Quellenbesteuerung gemäss
+Artikel 93 DGB uneingeschränkt vorgenommen werden kann.

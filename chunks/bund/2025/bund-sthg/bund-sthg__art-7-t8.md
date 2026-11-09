@@ -4,7 +4,7 @@ quelle: bund-sthg
 jur: bund
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 7 StHG – Grundsatz (Teil 8/9)"
+titel: "Art. 7 StHG – Grundsatz (Teil 8/8)"
 artikel: "Art. 7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
 ---
@@ -17,3 +17,5 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
 - lbis. die einzelnen Gewinne bis zu einem Betrag von 1 Million Franken oder zu einem nach kantonalem Recht bestimmten höheren Betrag aus der Teilnahme an Grossspielen, die nach dem BGS zugelassen sind, und aus der Online-Teilnahme an Spielbankenspielen, die nach dem BGS zugelassen sind;
 - lter. die Gewinne aus Kleinspielen, die nach dem BGS zugelassen sind;
 - m. die einzelnen Gewinne aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung, die nach Artikel 1 Absatz 2 Buchstaben d und e BGS diesem nicht unterstehen, sofern die nach kantonalem Recht bestimmte Grenze nicht überschritten wird;
+
+- n. Einkünfte aufgrund des Bundesgesetzes vom 19. Juni 2020 über Überbrückungsleistungen für ältere Arbeitslose.

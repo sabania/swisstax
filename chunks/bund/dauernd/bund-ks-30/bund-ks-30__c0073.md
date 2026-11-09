@@ -4,28 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 12 Verheiratetenabzug"
-ziffer: "12"
-seiten: "22"
+titel: "Ziff. 13.4.1 Elterntarif – Aufbau (Abzug CHF 251 pro Kind)"
+ziffer: "13.4.1"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 12 Verheiratetenabzug · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.1 Allgemeines · S. 23
 
-12   Verheiratetenabzug
+13.4   Elterntarif
 
-Seit dem 1. Januar 2008 wird den Ehepaaren ein Verheiratetenabzug gewährt (Art. 35 Abs.
-1 Bst. c DBG). Der Verheiratetenabzug ist als fixer Sozialabzug pro Ehepaar konzipiert und
-berücksichtigt schematisch den Zivilstand der Ehegatten, mit der Folge, dass die Steuerbe-
-lastung von Ehepaaren allgemein etwas gesenkt wird. In Verbindung mit dem erhöhten
-Zweiverdienerabzug wird die verfassungswidrige Mehrbelastung der Zweiverdienerehepaare
-gegenüber den wirtschaftlich gleichgestellten Zweiverdienerkonkubinatspaaren gemildert.
+13.4.1   Allgemeines
 
-Es gilt das Stichtagsprinzip gemäss Artikel 35 Absatz 2 DBG, d.h. der Verheiratetenabzug
-kann von den Ehegatten nur beansprucht werden, wenn sie am Ende der Steuerperiode o-
-der der Steuerpflicht in rechtlich und tatsächlich ungetrennter Ehe leben.
+Steuerpflichtige mit Kindern werden zum Elterntarif besteuert (Art. 36 Abs. 2 bis DBG). Der
+Elterntarif ist der mildeste der drei Tarife. Er besteht aus dem Verheiratetentarif (Basis) und
+einem Abzug vom Steuerbetrag in der Höhe von maximal 251 Franken pro Kind oder unter-
+stützungsbedürftige Person. Dieser Abzug im Elterntarif ist eine direkte Tarifmassnahme und
+kein Sozialabzug.
 
-Ehegatten, die im Sinne von Artikel 4 und 5 DBG in der Schweiz beschränkt steuerpflichtig
-sind, wird der Verheiratetenabzug anteilsmässig gewährt (Art. 35 Abs. 3 DBG). Dies trifft
-auch auf unbeschränkt steuerpflichtige Personen mit nicht steuerbarem Auslandseinkommen
-im Sinne von Artikel 6 Absatz 1 DBG zu. Die Höhe bemisst sich nach dem Verhältnis des in
-der Schweiz steuerbaren Reineinkommens4 zum gesamten Reineinkommen.
+Für die Berechnung des Steuerbetrags nach dem Elterntarif werden die Kinderkosten in ei-
+nem ersten Schritt durch die heute geltenden Kinderabzüge sowie durch den Kinderdrittbe-
+treuungskostenabzug von der Bemessungsgrundlage berücksichtigt. In einem zweiten
+Schritt wird der Tarif für Verheiratete ohne Kinder (Verheiratetentarif) angewendet. Der auf-
+grund des Verheiratetentarifs berechnete Steuerbetrag wird in einem dritten Schritt zusätz-
+lich um maximal 251 Franken pro Kind reduziert. Die Kombination Grundtarif und Abzug vom
+Steuerbetrag ist nicht möglich.

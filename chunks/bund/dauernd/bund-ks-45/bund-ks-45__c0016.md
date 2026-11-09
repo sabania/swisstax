@@ -4,22 +4,16 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 16"
-seiten: "4"
+titel: "Ziff. 2.2.3 Beispiel 3 – Konzern-CIO mit 95 Arbeitstagen in der Schweiz"
+ziffer: "2.2.3"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.2 Schuldner der steuerbaren Leistung · S. 7
 
-<!-- Seite 4 -->
-1   Allgemeines und Gegenstand des Kreisschreibens
-Mit dem Bundesgesetz vom 16. Dezember 2016 über die Revision der Quellenbesteuerung
-des Erwerbseinkommens (vgl. Amtliche Sammlung des Bundesrechts [AS] 2018 S. 1813)
-wurden die Grundlagen für die Quellenbesteuerung des Erwerbseinkommens neu geregelt.
-Diese Bestimmungen treten auf den 1. Januar 2021 in Kraft. In ihrer Gesamtheit zielen die
-teilweise überarbeiteten und teilweise neuen Bestimmungen darauf ab, die ergangene
-Rechtsprechung des Bundesgerichts (BGer), verschiedener kantonaler Gerichte und des Eu-
-ropäischen Gerichtshofs (EuGH) unter dem Aspekt der Kompatibilität mit dem Abkommen
-vom 21. Juni 1999 zwischen der Schweizerischen Eidgenossenschaft einerseits und der Eu-
-ropäischen Gemeinschaft und ihren Mitgliedstaaten andererseits über die Freizügigkeit (FZA;
-SR 0.142.112.681) aufzunehmen. In diesem Zusammenhang wurde auch das Institut der
-„Quasi-Ansässigkeit“ (vgl. Ziffer 11 unten) neu eingeführt.
+    3. G. ist bei der H. AG mit Sitz in Stuttgart (Deutschland; Mutterhaus) als Informatikchef (CIO) angestellt und
+    verantwortlich für die gesamte Informatik im Konzern. In dieser Funktion verbringt er jeweils 95 Arbeitstage
+    pro Jahr bei der schweizerischen Tochtergesellschaft in Solothurn (= ausschliessliche Arbeitsleistungen
+    gemäss Arbeitsvertrag mit dem Mutterhaus).
+
+Zur Steuerbarkeit der Leistungen vgl. Ziffer 3.2.9 unten.

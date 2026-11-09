@@ -4,7 +4,7 @@ quelle: tg-stg
 jur: tg
 jahre: [2025, 2026]
 typ: gesetz
-titel: "§ 75 StG TG – Steuerbefreiung (Teil 1/3)"
+titel: "§ 75 StG TG – Steuerbefreiung (Teil 1/2)"
 artikel: "§ 75"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
 ---

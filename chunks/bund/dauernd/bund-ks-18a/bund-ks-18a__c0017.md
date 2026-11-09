@@ -4,24 +4,29 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 17"
-seiten: "4"
+titel: "Ziff. 5.6 Einkäufe Säule 3a – Umfang (kleiner Abzug), Jahresbeitragslücke, Fristen"
+ziffer: "5.6"
+seiten: "6-7"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 4
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.6 Einkäufe in die Säule 3a · S. 6–7
 
-Die Begrenzung nach Artikel 7 BVV 3 umfasst auch allfällige Beiträge an eine ergänzende
-Risiko-Vorsorgeversicherung oder Zuschläge für unterjährige Ratenzahlungen (Art. 1 Abs. 3
-Satz 2 BVV 3).
+Ein Einkauf in die Säule 3a kann gemäss Artikel 7 Absatz 1 Buchstabe 1 BVV3 pro Steuer-
+jahr maximal im Umfang des «kleinen Abzugs», d.h. im Umfang von höchstes 8 Prozent des
+oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG (vgl. Ziffer 5.4) vorgenommen werden,
+unabhängig davon, ob die steuerpflichtige Person im Zeitpunkt des Einkaufs einer Vorsorge-
+einrichtung der 2. Säule angehört (Art. 7a Abs. 2 BVV3). Mit dem Einkauf können Beitragslü-
+cken von mehreren Jahren ausgeglichen werden (Art. 7a Abs. 3 BVV3).
 
-Jeglicher Abzug setzt die Erwerbstätigkeit des Steuerpflichtigen voraus. Bei vorübergehen-
-dem Unterbruch der Erwerbstätigkeit (Militärdienst, Arbeitslosigkeit, Krankheit usw.) bleibt
-die Abzugsberechtigung erhalten, soweit ein AHV-pflichtiges Erwerbsersatzeinkommen er-
-zielt wird. Bei Aufgabe der Erwerbstätigkeit entfällt die Möglichkeit der Beitragsleistungen,
-selbst wenn das für die Ausrichtung von Altersleistungen vorgesehene Terminalter noch
-nicht erreicht ist (z.B. bei vorzeitiger Pensionierung, bei Aufgabe der Erwerbstätigkeit infolge
-Mutterschaft, 100%-iger Invalidität und fehlender Resterwerbsfähigkeit).
-Erbringt eine Vorsorgeversicherung eine Leistung aus einer Prämienbefreiung, so stellt diese
-beim Vorsorgenehmer kein Einkommen dar, da der Vorsorgenehmer gar nicht über die ent-
-sprechenden Mittel verfügen kann. Solche Beiträge kann der Vorsorgenehmer sodann auch
-nicht steuerlich zum Abzug bringen (vgl. Ziffer 6.2.).
+Die Beitragslücke eines bestimmten Jahres (sog. Jahresbeitragslücke) darf nur durch einen
+einzigen (Jahres-)Einkauf ausgeglichen werden; d.h. es ist nicht zulässig, eine bestimmte
+Jahresbeitragslücke über mehrere Jahre hinweg durch mehrere (Jahres-)Einkäufe auszuglei-
+chen (Art. 7a Abs. 3 BVV3).
+
+Der Einkauf muss nicht zwingend in dieselbe Vorsorgepolice oder Vorsorgevereinbarung er-
+folgen, in die im betreffenden Steuerjahr die ordentlichen Beiträge einbezahlt wurden.
+
+Einkäufe in die Säule 3a können längstens bis fünf Jahre nach Erreichen des Referenzalters
+geleistet werden (Art. 7a Abs. 5 i.V.m. Art. 7 Abs. 3 BVV3). Für Einkäufe nach Erreichen des
+Referenzalters wird vorausgesetzt, dass die steuerpflichtige Person eine Erwerbstätigkeit
+ausübt.

@@ -4,20 +4,22 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 32"
-seiten: "8"
+titel: "Ziff. 6.3 Einkauf in die 2. Säule mit Mitteln der Säule 3a"
+ziffer: "6.3"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 8
+> Bund · Steuerjahr 2026 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.3 Einkauf in die 2. Säule · S. 10
 
-f)   Erwerbstätige, die das Referenzalter überschritten haben
-Leistet der Vorsorgenehmer keine Beiträge mehr in eine Vorsorgeeinrichtung, weil er das
-Referenzalter bereits überschritten hat und Rentenbezüger ist (passive Zugehörigkeit), ist er
-aber weiterhin erwerbstätig, kann er bis fünf Jahre nach Erreichen des Referenzalters bis 20
-Prozent des Erwerbseinkommens, jedoch höchstens 40 Prozent des oberen Grenzbetrages
-nach Artikel 8 Absatz 1 BVG in die Säule 3a einzahlen.
-
-Ist der Vorsorgenehmer jedoch noch aktiv bei einer Vorsorgeeinrichtung versichert (selbst
-wenn keine Beiträge mehr geleistet werden), kann er bis höchstens fünf Jahre nach Errei-
-chen des Referenzalters jährlich bis 8 Prozent des oberen Grenzbetrages nach Artikel 8 Ab-
-satz 1 BVG in die Säule 3a einzahlen.
+6.3. Einkauf in die 2. Säule mit Mitteln der Säule 3a
+Die vorzeitige Ausrichtung der Altersleistung aus der Säule 3a ist bei Auflösung des Vorsor-
+geverhältnisses zulässig, wenn der Vorsorgenehmer die ausgerichtete Leistung für den Ein-
+kauf in eine steuerbefreite Vorsorgeeinrichtung der beruflichen Vorsorge verwendet (vgl.
+Art. 3a Abs. 1 Bst. a BVV 3). Er kann sein Vorsorgekapital nur dann teilweise übertragen,
+wenn er es für den vollständigen Einkauf in eine steuerbefreite Vorsorgeeinrichtung verwen-
+det (vgl. Art. 3a Abs. 2 BVV 3). Die Überweisung des Vorsorgeguthabens muss direkt vom
+Säule-3a-Vorsorgeträger an die Vorsorgeeinrichtung der 2. Säule erfolgen. Eine Übertragung
+ist diesfalls steuerneutral. Das transferierte Guthaben gelangt im Zeitpunkt der Überweisung
+nicht zur Besteuerung; eine Meldung über Kapitalleistungen an die ESTV hat daher nicht zu
+erfolgen. Andererseits kann der so eingebrachte Einkaufsbetrag steuerlich nicht zum Abzug
+gebracht werden, weshalb eine Bescheinigung über Einkaufsbeiträge zu unterbleiben hat.

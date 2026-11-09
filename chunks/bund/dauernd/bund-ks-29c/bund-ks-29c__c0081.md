@@ -4,24 +4,28 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 81"
-seiten: "26"
+titel: "Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 1/5)"
+ziffer: "Anhang 4"
+seiten: "34-35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 4 Kapitalband · S. 34–35
 
-Ausland-KER vergangener Geschäftsjahre, welche nach dem 24. Februar 2008 geäufnet
-und bisher nicht als solche gemeldet wurden, können der ESTV, Hauptabteilung DVS, nach-
-gemeldet werden.
+Anhang 4: Beispiel Rückzahlung und Wiedereinzahlung von KER innerhalb des
+gleichen Kapitalbands
 
-Erfolgt die Nachmeldung zusammen mit einer Nachmeldung der KER gemäss Buchstabe b
-hiervor sind die gleichen Nachweise zu erbringen.
+1. Eine an einer schweizerischen Börse kotierte Gesellschaft zeigt folgende Eigenkapitalbe-
+   wegungen innerhalb ihres Kapitalbands über zwei Jahre (wobei sämtliche Rückkäufe über
+   eine zweite Handelslinie erfolgen):
+    Bestand   Jahr N+1   Bestand   Jahr N+2   Bestand   Bereinigung   Bestand
+    Erhöhung Herabsetzung   Herabsetzung   bereinigt
 
-Erfolgt die Nachmeldung zwecks Aufteilung bereits durch die ESTV bestätigter KER in KER
-und Ausland-KER sind sachdienliche Unterlagen (Sacheinlageverträge, Bilanzen usw.) ein-
-zureichen, die die Einlagen aus dem Ausland belegen. Wurden in der Zeit nach dem
-24. Februar 2008 KER zurückbezahlt, vermindern diese zuerst den Bestand an KER und erst
-in zweiter Linie den Bestand an Ausland-KER.
+ Aktienkapital   20'000.00   2'000.00   -1'000.00   21'000.00   -1'000.00   20'000.00   20'000.00
 
-Zusätzlich ist ein vollständig ausgefülltes und unterzeichnetes Formular 170 zur Nachmel-
-dung der Bestände der gesonderten Konti bei der Hauptabteilung DVS einzureichen.
+ Gesetzliche Reserven
+ - Reserven aus Kapitaleinlagen (KER)   40'000.00   -5'750.00   34'250.00   -5'650.00   28'600.00   13'400.00   42'000.00
+ - übrige Kapitalreserven   160'000.00   24'800.00   184'800.00   184'800.00   -13'400.00   171'400.00
+    -
+ Gesetzliche Gewinnreserven   30'000.00   30'000.00   30'000.00   30'000.00
+    -
+ Freiwillige Gewinnreserven / Verluste   50'000.00   -5'750.00   44'250.00   -5'650.00   38'600.00   38'600.00

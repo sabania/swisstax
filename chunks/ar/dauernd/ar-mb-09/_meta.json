@@ -1,79 +1,131 @@
 [
 {
 "id": "ar-mb-09__c0001",
-"titel": "MB AR 09 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Merkblatt 09 Teilpensionierung – Voraussetzungen (Art. 13a BVG) (Teil 1/2)",
+"pfad": [
+"Voraussetzungen"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Teilpensionierung",
+"Teilpensionierung Kapitalbezug",
+"Pensionskasse",
+"Pensionierung",
+"Beschäftigungsgrad 20 %",
+"AHV 21"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Beschäftigungsgrad und Lohn müssen um mindestens 20 % reduziert werden, Schritte im Abstand von mindestens einem Jahr (365 Tage), Teilbezug mindestens 20 % der Altersleistung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "ar-mb-09__c0002"
 },
 {
 "id": "ar-mb-09__c0002",
-"titel": "MB AR 09 – Abschnitt 2",
-"pfad": [],
+"titel": "Merkblatt 09 Teilpensionierung – Voraussetzungen (Art. 13a BVG) (Teil 2/2)",
+"pfad": [
+"Voraussetzungen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Teilpensionierung",
+"Teilpensionierung Kapitalbezug",
+"Pensionskasse",
+"Pensionierung",
+"Beschäftigungsgrad 20 %",
+"AHV 21"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-09__c0001",
 "nachher": "ar-mb-09__c0003"
 },
 {
 "id": "ar-mb-09__c0003",
-"titel": "MB AR 09 – Abschnitt 3",
-"pfad": [],
+"titel": "Kapitalbezug in höchstens drei Schritten; Zusammenrechnung ab dem vierten Bezug",
+"pfad": [
+"Kapitalbezug"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"drei Kapitalbezüge",
+"Art. 13a BVG",
+"Zusammenrechnung Steuersatz",
+"Freizügigkeitskonto",
+"reglementarisch"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Kapitalbezug höchstens in drei Schritten (alle Bezüge aus beruflicher Vorsorge); mehr als drei Bezüge werden für den Steuersatz zusammengerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-09__c0002",
 "nachher": "ar-mb-09__c0004"
 },
 {
 "id": "ar-mb-09__c0004",
-"titel": "MB AR 09 – Abschnitt 4",
-"pfad": [],
+"titel": "Beispiel 1 Teilpensionierung – 80 %, 40 %, Pensionierung",
+"pfad": [
+"Beispiele"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Beispiel Teilpensionierung",
+"Kapitalbezug Altersguthaben",
+"vierter Kapitalbezug",
+"Rente statt Kapital"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Alter 63: 80 % mit 20 % Kapitalbezug; Alter 64: 40 % mit 40 %; Alter 65: Pensionierung mit 40 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-09__c0003",
 "nachher": "ar-mb-09__c0005"
 },
 {
 "id": "ar-mb-09__c0005",
-"titel": "MB AR 09 – Abschnitt 5",
-"pfad": [],
+"titel": "Beispiel 2 Teilpensionierung – drei Schritte, vierter Bezug zusammengezählt",
+"pfad": [
+"Beispiele"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Beispiel Teilpensionierung",
+"Kapitalbezug Altersguthaben",
+"vierter Kapitalbezug",
+"Rente statt Kapital"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Drei Kapitalbezüge zu je 20 % (Alter 63–65); bei einem vierten Bezug werden Bezüge drei und vier für die Steuerberechnung zusammengezählt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "ar-mb-09__c0004",
 "nachher": null
 }

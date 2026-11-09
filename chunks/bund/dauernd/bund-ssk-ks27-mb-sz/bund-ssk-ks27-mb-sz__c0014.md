@@ -4,24 +4,28 @@ quelle: bund-ssk-ks27-mb-sz
 jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
-titel: "SSK-KS 27 (MB SZ) – Abschnitt 14"
+titel: "Ziff. 5–6 Verfahren und Übergangsregelungen vor 1.1.2010 (Teil 3/3)"
+ziffer: "5–6"
 seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · S. 4
+> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · 5. Verfahren / 6. Übergangsregelungen · S. 4
 
-<!-- Seite 4 -->
-5.   Verfahren
+6.2   Übrige innerkantonale Betriebe und Gesellschaften (nicht gewerbsmässige Liegenschaften-
+    händler)
 
-Die grundstückgewinnsteuerlichen Veranlagungsverfügungen werden in der Regel ohne Berücksich-
-tigung eines allenfalls zu übernehmenden einkommens- resp. gewinnsteuerlichen Ausscheidungs-
-verlusts vorgenommen, jedoch mit einem entsprechenden Vorbehalt zu versehen.
+Das BG führte in seinem Entscheid 2P.222/2002 vom 19.11.2004 zu rein innerkantonalen Ver-
+hältnissen folgendes aus: "Gegen diese Lösung (Anmerkung: Betr. Vermeidung interkantonaler Aus-
+scheidungsverluste) könnte eingewendet werden, sie begünstige die interkantonalen gegenüber den
+kantonalen Unternehmungen; letztere können nämlich in Kantonen mit monistischem System beim
+Grundstückgewinn keinen Abzug für Geschäftsverluste vornehmen, wenn das kantonale Recht das
+nicht vorsieht. Probleme dieser Art lassen sich indessen mit Kollisionsnormen nie ganz vermeiden."
+Daraus folgt, dass Betriebs- und Kapitalgesellschaften mit innerkantonalem Sitz oder Wohnsitz sich
+im innerkantonalen Verhältnis nicht auf die aus dem Verbot der interkantonalen Doppelbesteuerung
+entwickelten Ausscheidungsgrundsätze berufen konnten, da keine solche gegeben ist und eine ent-
+sprechende gesetzliche Bestimmung vor dem 01.01.2010 fehlte; diese Personen können somit die
+bei der Einkommens- resp. Gewinnsteuer erzielten Verluste grundstückgewinnsteuerlich nicht ver-
+rechnen, sofern die entsprechende Veräusserung vor dem 01.01.2010 (Grundbucheintrag) statt-
+fand.
 
-Die Verrechnung eines allfälligen einkommens- oder gewinnsteuerlichen Verlusts kann, in Verbin-
-dung mit § 119 Abs. 4 StG auch bei rein innerkantonalen Verhältnissen, im Sinne von § 169 Abs.
-3 StG (Revision auf Grund von interkantonalem oder internationalem Doppelbesteuerungsrecht)
-mittels Revisionsgesuch innert 90 Tagen ab Versand der schwyzerischen Einkommens- resp. Ge-
-winnsteuerveranlagung geltend gemacht werden. Bei interkantonalen Verhältnissen bildet Grundla-
-ge der Verlustverrechnung der in der einkommens- resp. gewinnsteuerlichen Steuerausscheidung
-dem Kanton Schwyz rechtskräftig zugewiesene Verlust; dabei ist der Kanton Schwyz nicht ver-
-pflichtet, die anderen Kantonen zugewiesenen Verluste zu übernehmen.
+    GGSt-01.2010

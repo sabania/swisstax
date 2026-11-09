@@ -4,24 +4,22 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 114"
-seiten: "29"
+titel: "Ziff. 7.2 Vergütungen für andere Perioden (DBA) und Korrektur am Jahresende"
+ziffer: "7.2"
+seiten: "36"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 29
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.2 Grundsätze · S. 36
 
-    5. Halbjährliche Auszahlung des 13. Monatslohns (Juni / Dezember) gemäss Arbeitsvertrag:
-    Der Arbeitnehmer V. tritt per 1. Februar 2021 in die Unternehmung ein und tritt per 15. Juni 2021 wieder
-    aus und erhält neben der anteilsmässigen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbar-
-    ten 13. Monatslohn ausbezahlt (pro rata für die Zeit vom 1. Februar 2021 – 15. Juni 2021). Die Lohnzah-
-    lung ist zur Satzbestimmung auf 30 Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezo-
-    gen auf die Periode, für welche er bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage
-    pro Jahr).
-
-    Leistungen   steuerbar   satzbestimmend   Berechnung
-
-    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
-
-    13. Monatslohn   2 250   3 000   2 250 / 135 x 180
-
-    Total   5 250   9 000
+Eine Ausnahme bilden Vergütungen, die für zurückliegende oder zukünftige Perioden be-
+zahlt werden (bspw. Boni, Mitarbeiterbeteiligungen), auf die infolge Ansässigkeit oder Ar-
+beitsausübung im Ausland ein DBA anwendbar ist. Sofern das anwendbare DBA für die be-
+treffende Zeit Einschränkungen vorsieht (bspw. Anwendbarkeit der Grenzgängerregelung
+nach Art. 15a DBA-D), sind diese Umstände tariflich zu berücksichtigen.
+Alternativ zur fortlaufenden Berücksichtigung von monatlich veränderten Einkommensver-
+hältnissen, persönlichen Verhältnissen usw. steht es dem Arbeitgeber offen, die erforderli-
+chen Korrekturen beim satzbestimmenden Jahreseinkommen erst am Ende des Kalender-
+jahres (Dezember) bzw. am Ende des Arbeitsverhältnisses vorzunehmen. In diesem Fall
+sind die in den Vormonaten des laufenden Jahres bereits abgezogenen Quellensteuern von
+den am Ende des Kalenderjahres bzw. am Ende des Arbeitsverhältnisses berechneten Quel-
+lensteuern für die gesamte Periode in Abzug zu bringen.

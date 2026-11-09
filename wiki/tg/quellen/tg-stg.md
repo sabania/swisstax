@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.1/versions/2929> · lokal: [tg-stg.json](../../../raw/tg/2025/tg-stg.json) · Volltext: [tg-stg.md](../../../sources/tg/2025/tg-stg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `66edf7323892fa19…`
 
-## Inhalt (322 Chunks)
+## Inhalt (321 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -116,9 +116,8 @@ generiert: tools/build_index.py
 | [par-72](../../../chunks/tg/2025/tg-stg/tg-stg__par-72.md) | § 72 StG TG – Dauer der Steuerpflicht | § 72 |  |
 | [par-73](../../../chunks/tg/2025/tg-stg/tg-stg__par-73.md) | § 73 StG TG – Steuernachfolge | § 73 |  |
 | [par-74](../../../chunks/tg/2025/tg-stg/tg-stg__par-74.md) | § 74 StG TG – Mithaftung | § 74 |  |
-| [par-75-t1](../../../chunks/tg/2025/tg-stg/tg-stg__par-75-t1.md) | § 75 StG TG – Steuerbefreiung (Teil 1/3) | § 75 |  |
-| [par-75-t2](../../../chunks/tg/2025/tg-stg/tg-stg__par-75-t2.md) | § 75 StG TG – Steuerbefreiung (Teil 2/3) | § 75 |  |
-| [par-75-t3](../../../chunks/tg/2025/tg-stg/tg-stg__par-75-t3.md) | § 75 StG TG – Steuerbefreiung (Teil 3/3) | § 75 |  |
+| [par-75-t1](../../../chunks/tg/2025/tg-stg/tg-stg__par-75-t1.md) | § 75 StG TG – Steuerbefreiung (Teil 1/2) | § 75 |  |
+| [par-75-t2](../../../chunks/tg/2025/tg-stg/tg-stg__par-75-t2.md) | § 75 StG TG – Steuerbefreiung (Teil 2/2) | § 75 |  |
 | [par-76](../../../chunks/tg/2025/tg-stg/tg-stg__par-76.md) | § 76 StG TG – Grundsatz | § 76 |  |
 | [par-76a](../../../chunks/tg/2025/tg-stg/tg-stg__par-76a.md) | § 76a StG TG – Patente und vergleichbare Rechte: Begriffe | § 76a |  |
 | [par-76b-t1](../../../chunks/tg/2025/tg-stg/tg-stg__par-76b-t1.md) | § 76b StG TG – Patente und vergleichbare Rechte: Besteuerung (Teil 1/2) | § 76b |  |

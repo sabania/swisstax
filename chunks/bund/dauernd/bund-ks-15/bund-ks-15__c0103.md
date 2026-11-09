@@ -4,30 +4,27 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 10 Aufstockung von Anleihen – Hintergrund"
+titel: "Anhang III Ziff. 10 Praxis ESTV – Toleranzgrenze ein halbes Prozent pro Jahr (Teil 1/2)"
 ziffer: "Anh. III 10"
-seiten: "27-28"
+seiten: "28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 10 Aufstockungen von Anleihen · S. 27–28
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 10 Aufstockungen von Anleihen · S. 28
 
-10   Aufstockungen von inländischen und ausländischen Anleihensob-
-    ligationen
-Per 1. Januar 2001 wurde Artikel 14 Absatz 2 VStV ersatzlos aufgehoben. Diese Bestim-
-mung besagte, dass die Verrechnungssteuer auf Vorausvergütungen, die u.a. bei der Aus-
-gabe von Obligationen abgezogen werden und verteilt auf jedes volle Jahr der vertraglichen
-Mindestlaufzeit nicht mehr als ein halbes Prozent des Nennwertes ausmachen, nicht erho-
-ben wird. Die Streichung dieser Bestimmung erwies sich für Anleihensaufstockungen als
-
-
-1-015-DVS-2017-d / Anhang III
-
-problematisch. Bei Anleihensaufstockungen werden die Eckwerte der Grundanleihe (Zins-
-satz der jährlichen Couponzahlungen, Laufzeit der Anleihe, Rückzahlungsbetrag und Stücke-
-lung) übernommen. Dieses Vorgehen entspricht internationaler Usanz, und so geben alle In-
-formationssysteme wie Bloomberg, Reuters, etc. auch im Falle von aufgestockten Anleihen
-ausschliesslich über die Eckdaten der Grundanleihe Auskunft. Im Rückzahlungszeitpunkt
-kann in der Folge zwischen der zu pari ausgegebenen Grundanleihe und der unter pari emit-
-tierten Aufstockungstranche nicht mehr unterschieden werden. Damit kann die Verrech-
-nungssteuer im Rückzahlungszeitpunkt nicht auf den Gläubiger überwälzt werden, womit
-beim Emittenten eine Aufrechnung ins Hundert erfolgt.
+Die ESTV hat deshalb rückwirkend auf den 1. Januar 2001 für den Bereich der Aufstockun-
+gen folgende Praxis festgelegt:
+    –   Werden inländische Anleihen, die zu oder über pari emittiert und zu pari zurückbe-
+    zahlt werden, aufgestockt und beträgt das Emissionsdisagio der Aufstockungstran-
+    che nicht mehr als ein halbes Prozent pro Jahr der Restlaufzeit (sog. Toleranz-
+    grenze), wird auf die Erhebung der Verrechnungssteuer verzichtet. Diese Praxis gilt
+    in analoger Weise für die direkte Bundessteuer. Bei der Ermittlung der Toleranz-
+    grenze werden nicht nur ganze, sondern auch angebrochene Jahre berücksichtigt,
+    und zwar taggenau. In allen anderen Fällen qualifiziert das gewogene Mittel der
+    Emissionsdisagi von Erstemission und Aufstockung(en) bei Rückzahlung der An-
+    leihe sowohl verrechnungssteuerrechtlich wie auch einkommenssteuerrechtlich als
+    relevanter Ertrag, welcher in der Kursliste der ESTV publiziert wird.
+    –   Für ausländische Anleihen gilt: Aufstockungen von Anleihen, die zu oder über pari
+    emittiert und zu pari zurückbezahlt werden und deren Emissionsdisagi nicht mehr
+    als ein halbes Prozent pro Jahr der Restlaufzeit betragen, profitieren in gleicher
+    Weise von der Steuerfreiheit dieser Emissionsdisagi wie die inländischen Aufsto-
+    ckungen.

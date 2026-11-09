@@ -4,26 +4,33 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 102"
-seiten: "26"
+titel: "Ziff. 6.9 Beispiel 1 – nachträglich ausbezahlte Ferienguthaben"
+ziffer: "6.9"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.9 Leistungen bei/nach Beendigung · S. 32
 
-<!-- Seite 26 -->
-    2. Der Arbeitnehmer F. ist bei der P. AG auf Abruf angestellt. F. hat mit der P. AG eine Bruttotagesentschädi-
-    gung von CHF 190.00 vereinbart. Im Monat Mai 2021 arbeitet er 11 Tage für das Unternehmen. Der Lohn
-    von insgesamt CHF 2 090.00 wird ihm wöchentlich ausbezahlt. Daneben arbeitet F. bei der R. AG im
-    Stundenlohn. Im Monat Mai 2021 verrichtet er während 70 Stunden seine Arbeit und erhält dafür einen
-    Bruttolohn von CHF 22.00 pro Stunde. Die betriebsübliche Arbeitszeit beträgt 42 Stunden pro Woche bzw.
-    182 Stunden pro Monat. Die Auszahlung des Lohns erfolgt am Ende des Monats (Monatslohn).
+    Beispiele:
+    1. Besteuerung nachträglich ausbezahlter Ferienguthaben:
+    Der Arbeitnehmer Z. tritt per 30. September 2021 aus der Unternehmung R. aus. Die steuerbare Leistung
+    im September 2021 beläuft sich auf CHF 5 500.00 und der Quellensteuerabzug auf CHF 649.55. Der Ar-
+    beitgeber hat die entsprechende Quellensteuerabrechnung fristgerecht vorgenommen. In der Folge erhält
+    der Arbeitnehmer Z. im November 2021 eine nachträgliche Zahlung für nicht bezogene Ferienguthaben
+    über CHF 500. Die im November 2021 geschuldeten Quellensteuern sind wie folgt zu berechnen:
 
-    Woche   Tages-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
-    lohn/Pensum   bzw. Tage   stimmend   len-
-    steuer
+    Leistungen   abzurechnen Sept. 2021   abzurechnen Nov. 2021
 
-    P. AG   190.00   2 090   11   21,667   4 117   7.5 %   156.75
+    Bruttolohn   5 500   5 500
 
-    R. AG   38.46 %   1 5401   70   100 %   4 004   7.2 %   110.90
+    Ferienguthaben   500
 
-    1 Bei monatlicher Lohnzahlung muss die Umrechnung aufgrund des Pensums vorgenommen werden, wel-
+    Total   5 500   6 000
+
+    Quellensteuern gesamt auf CHF 6 000   757.20
+
+    Quellensteuern bezahlt im September 2021   - 649.55
+
+    Quellensteuern geschuldet im November 2021
+    107.65
+    (Anrechnung der Quellensteuer September 2021)

@@ -4,17 +4,19 @@ quelle: bund-bsv-masszahlen-2025-2026
 jur: bund
 jahre: [2025, 2026]
 typ: info
-titel: "BSV Masszahlen 25/26 – Abschnitt 9"
-seiten: "2"
+titel: "BSV Masszahlen – Erläuterungen Ziff. 6–9 (Teuerung, Sicherheitsfonds, Säule 3a) (Teil 2/3)"
+ziffer: "6–9"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · S. 2
+> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 6–9 · S. 2–3
 
-  5. Die VE kann anstelle der Rente eine Kapitalabfindung ausrichten, wenn die Alters- oder   37 Abs. 3 BVG
-    Invalidenrente bzw. die Witwen-, Witwer- oder Waisenrente weniger als 10 bzw. 6 oder 2   37 Abs. 2 BVG
-    Prozent der Mindestaltersrente der AHV beträgt. Seit 2005 kann der Versicherte ein Viertel
-    seines Altersguthabens als Kapital verlangen.
-  6. Die obligatorischen Risikorenten müssen bei Männern bis zum Alter 65 und bei Frauen bis   36 Abs. 1 BVG
-    zum Alter 64 der Preisentwicklung angepasst werden. Dies geschieht erstmals
-    üblicherweise nach einer Laufzeit von 3 Jahren zu Beginn des folgenden Kalenderjahres.
-    Die Zeitpunkte der nachfolgenden Anpassungen entsprechen denjenigen der AHV-Renten.
+  7. Der Sicherheitsfonds stellt die über die gesetzlichen Leistungen hinausgehenden   14, 18 SFV
+    reglementarischen Leistungen von zahlungsunfähig gewordenen VE sicher, soweit diese   15 SFV
+    Leistungen auf Vorsorgeverhältnissen beruhen, aber nur bis zu dem maximalen Grenzlohn   16 SFV
+    (www.sfbvg.ch).   56 Abs. 1c, 2 BVG
+  8. Seit dem 1.1.1997 unterstehen Bezüger von Taggeldern der Arbeitslosenversicherung für   2 Abs. 3 BVG
+    die Risiken Tod und Invalidität der obligatorischen Versicherung. Die in den Artikeln 2, 7 und
+    8 BVG festgehaltenen Grenzbeträge müssen in Tagesgrenzbeträge umgerechnet werden.
+    Die Tagesgrenzbeträge erhält man, indem die Jahres-Grenzbeträge durch den Faktor 260,4   40a AVIV
+    oder die monatlichen Grenzbeträge durch den Faktor 21,7 geteilt werden.

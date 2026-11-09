@@ -4,17 +4,20 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 3/3)"
-ziffer: "Anh. III 1a"
-seiten: "19-20"
+titel: "Anhang III Ziff. 1b Dynamische Index- und Basketzertifikate auf Aktien (Teil 1/2)"
+ziffer: "Anh. III 1b"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 1 Index- und Basketzertifikate auf Aktien · S. 19–20
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 1 Index- und Basketzertifikate auf Aktien · S. 20
 
-Die gleiche steuerliche Behandlung gilt bei Einhaltung der gleichen Bedingungen auch für In-
-dex- und Basketzertifikate auf Edelmetalle und Rohstoffe.
+b)   Dynamische Index- und Basketzertifikate auf Aktien
+Auch die dynamischen Index- und Basketzertifikate haben in wirtschaftlicher Hinsicht eine
+Investition in Aktienmärkte oder Aktienkörbe zum Gegenstand. Im Unterschied zu den „klas-
+sischen“ werden die den „dynamischen“ Zertifikaten zugrunde liegenden Werte aktiv bewirt-
+schaftet, indem die Zusammensetzung des bei Emission definierten Indexes oder Baskets
+während der Laufzeit der Papiere geändert werden kann.
 
-1-015-DVS-2017-d / Anhang III
-
-Die Zertifikate stellen weder steuerbare Urkunden im Sinne des Stempelabgaberechts dar,
-noch bilden deren Erträge Gegenstand der Verrechnungssteuer.
+Solche Zertifikate sind einkommenssteuerlich als Instrumente der kollektiven Kapitalanlage
+zu behandeln. Mit Bezug auf die verrechnungssteuerliche und stempelabgaberechtliche Be-
+handlung wird auf Ziffer 3 hienach verwiesen.

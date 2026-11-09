@@ -1,255 +1,478 @@
 [
 {
 "id": "zh-wl-da1-2025__c0001",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Wegleitung DA-1/DA-2/DA-3 2025 – Titel und Allgemeines (DBA-Länder)",
+"pfad": [
+"Allgemeines"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Wertpapiere aus Ländern mit Doppelbesteuerungsabkommen sind in eines der Formulare DA-1, DA-2 oder DA-3 einzutragen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "zh-wl-da1-2025__c0002"
 },
 {
 "id": "zh-wl-da1-2025__c0002",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Formular DA-1 (natürliche Personen) – Länderliste Stand 1.1.2025 (Teil 1/2)",
+"pfad": [
+"Allgemeines",
+"Formular DA-1"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"Länderliste",
+"USA",
+"Deutschland",
+"Frankreich",
+"Italien"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.wertschriften"
+],
+"zusammenfassung": "DA-1 dient der Deklaration von Wertschriften mit Steuerrückbehalt USA und/oder Quellensteuer aus den aufgeführten Ländern.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0001",
 "nachher": "zh-wl-da1-2025__c0003"
 },
 {
 "id": "zh-wl-da1-2025__c0003",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Formular DA-1 (natürliche Personen) – Länderliste Stand 1.1.2025 (Teil 2/2)",
+"pfad": [
+"Allgemeines",
+"Formular DA-1"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"Länderliste",
+"USA",
+"Deutschland",
+"Frankreich",
+"Italien"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.wertschriften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0002",
 "nachher": "zh-wl-da1-2025__c0004"
 },
 {
 "id": "zh-wl-da1-2025__c0004",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Formular DA-2 (juristische Personen) – Länder",
+"pfad": [
+"Allgemeines",
+"Formular DA-2"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-2",
+"juristische Personen",
+"Quellensteuer",
+"Länderliste"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "DA-2 dient der Deklaration quellensteuerbelasteter Erträge juristischer Personen; Länder wie bei DA-1.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0003",
 "nachher": "zh-wl-da1-2025__c0005"
 },
 {
 "id": "zh-wl-da1-2025__c0005",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Formular DA-3 (Lizenz- und Dienstleistungserträge) – Länderliste Stand 1.1.2025",
+"pfad": [
+"Allgemeines",
+"Formular DA-3"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-3",
+"Lizenzerträge",
+"Dienstleistungserträge",
+"Quellensteuer",
+"Länderliste"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.uebrige"
+],
+"zusammenfassung": "DA-3 dient der Deklaration quellensteuerbelasteter Lizenz- und Dienstleistungserträge natürlicher und juristischer Personen aus den aufgeführten Ländern.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0004",
 "nachher": "zh-wl-da1-2025__c0006"
 },
 {
 "id": "zh-wl-da1-2025__c0006",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "Kontoverbindung (IBAN) auf dem Antrag",
+"pfad": [
+"Allgemeines",
+"Kontoverbindung"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"IBAN",
+"Auszahlung",
+"Kontoverbindung"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Auf dem Antrag ist die vollständige IBAN anzugeben und die Person, auf die das Konto lautet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0005",
 "nachher": "zh-wl-da1-2025__c0007"
 },
 {
 "id": "zh-wl-da1-2025__c0007",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "Zuständige Stellen – DA-1 mit Steuererklärung einreichen, DA-2/DA-3 separat",
+"pfad": [
+"Allgemeines",
+"Zuständige Stellen"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"Einreichung",
+"Scan-Center",
+"Beilagen Ertragsabrechnungen",
+"Übertrag Wertschriftenverzeichnis"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
+"zusammenfassung": "DA-1 inkl. Ertragsabrechnungen wird nur der Steuererklärung beigelegt, Totale Seite 3 gehen ins Wertschriftenverzeichnis (Übertrag ab Formular DA-1); DA-2 und DA-3 separat an das Steueramt, Wertschriften.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0006",
 "nachher": "zh-wl-da1-2025__c0008"
 },
 {
 "id": "zh-wl-da1-2025__c0008",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 8",
-"pfad": [],
+"titel": "Deklarationsmöglichkeiten – Online-Steuererklärung und PDF-Vorlagen",
+"pfad": [
+"Allgemeines",
+"Deklarationsmöglichkeiten"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"Online-Steuererklärung",
+"ZHprivateTax",
+"PDF-Vorlage"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
+"zusammenfassung": "DA-1 kann in der Online-Steuererklärung vollständig elektronisch ausgefüllt werden; Formulare DA-1 bis DA-3 auch als beschreibbare PDF unter www.zh.ch/da1-3.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0007",
 "nachher": "zh-wl-da1-2025__c0009"
 },
 {
 "id": "zh-wl-da1-2025__c0009",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 9",
-"pfad": [],
+"titel": "Rückerstattung ausländischer Quellensteuern nach DBA (ESTV-Formulare)",
+"pfad": [
+"Allgemeines",
+"Rückerstattung ausländischer Quellensteuern"
+],
 "seiten": [
-2
+1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"Rückerstattung Quellensteuer",
+"ESTV"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Verschiedene DBA sehen volle oder teilweise Rückerstattung ausländischer Quellensteuern vor; die Formulare bietet die ESTV an.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0008",
 "nachher": "zh-wl-da1-2025__c0010"
 },
 {
 "id": "zh-wl-da1-2025__c0010",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 10",
-"pfad": [],
+"titel": "Anspruch auf Anrechnung – Bruttodeklaration (100 %) der ausländischen Erträge",
+"pfad": [
+"Erläuterungen",
+"Anspruch"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"Bruttodeklaration",
+"Anrechnung abgerechnet"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Anrechnung erst nach Einreichung der Steuererklärung und Bezugsberechnung; ausländische Kapitalerträge müssen brutto (zu 100 %) deklariert werden, sonst kein Anspruch.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0009",
 "nachher": "zh-wl-da1-2025__c0011"
 },
 {
 "id": "zh-wl-da1-2025__c0011",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 11",
-"pfad": [],
+"titel": "DA-1 Dividenden- und Zinserträge natürliche Personen – Antrag, Frist drei Jahre, Wohnsitzkanton",
+"pfad": [
+"Erläuterungen",
+"DA-1"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"Frist drei Jahre",
+"Wohnsitzkanton",
+"Antrag Rückerstattung USA"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.wertschriften"
+],
+"zusammenfassung": "DA-1 ist Antrag auf Anrechnung ausländischer Quellensteuern und Rückerstattung des zusätzlichen Steuerrückbehalts USA; der Anspruch erlischt, wenn er nicht innert drei Jahren nach Ablauf der Steuerperiode geltend gemacht wird.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0010",
 "nachher": "zh-wl-da1-2025__c0012"
 },
 {
 "id": "zh-wl-da1-2025__c0012",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 12",
-"pfad": [],
+"titel": "DA-1 Mindestbetrag CHF 100.– und Erträge ohne Quellensteuer; Maximalbetrag",
+"pfad": [
+"Erläuterungen",
+"DA-1"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"Mindestbetrag 100 Franken",
+"Maximalbetrag",
+"Wertschriftenverzeichnis Rubrik B"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Übersteigen die nicht rückforderbaren ausländischen Steuern insgesamt CHF 100.– nicht, wird keine Anrechnung gewährt; Erträge ohne Quellensteuer gehören ins Wertschriftenverzeichnis Rubrik B; Maximalbetrag ohne Kirchensteuerzuschläge.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0011",
 "nachher": "zh-wl-da1-2025__c0013"
 },
 {
 "id": "zh-wl-da1-2025__c0013",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 13",
-"pfad": [],
+"titel": "DA-1 Steuerrückbehalt USA – Belege, kein Mindestbetrag",
+"pfad": [
+"Erläuterungen",
+"DA-1",
+"Steuerrückbehalt USA"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-1",
+"ausländische Quellensteuer",
+"Anrechnung",
+"Doppelbesteuerungsabkommen",
+"Steuerrückbehalt USA",
+"US-Aktien",
+"Bankbelege",
+"Sammelausweis"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "Für den zusätzlichen Steuerrückbehalt USA sind alle Bankbelege beizulegen; ohne Belege wird abgelehnt; hierfür gilt kein Mindestbetrag von CHF 100.–.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0012",
 "nachher": "zh-wl-da1-2025__c0014"
 },
 {
 "id": "zh-wl-da1-2025__c0014",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 14",
-"pfad": [],
+"titel": "DA-2 Dividenden- und Zinserträge juristische Personen – Antrag und Frist",
+"pfad": [
+"Erläuterungen",
+"DA-2"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-2",
+"juristische Personen",
+"Frist drei Jahre",
+"Mindestbetrag 100 Franken",
+"Quellensteuer Anrechnung"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "DA-2 ist der Antrag juristischer Personen auf Anrechnung ausländischer Quellensteuern; Anspruch erlischt nach drei Jahren, unter CHF 100.– keine Anrechnung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0013",
 "nachher": "zh-wl-da1-2025__c0015"
 },
 {
 "id": "zh-wl-da1-2025__c0015",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 15",
-"pfad": [],
+"titel": "DA-3 Lizenz- und Dienstleistungserträge – Antrag, Frist, Patentbox (Teil 1/2)",
+"pfad": [
+"Erläuterungen",
+"DA-3"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"DA-3",
+"Lizenzerträge",
+"Dienstleistungserträge",
+"Patentbox",
+"Frist drei Jahre",
+"Mindestbetrag 100 Franken"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.uebrige"
+],
+"zusammenfassung": "DA-3 dient der Anrechnung ausländischer Quellensteuern auf Lizenz- und Dienstleistungserträgen; Anspruch erlischt nach drei Jahren, unter CHF 100.– keine Anrechnung; Patentbox-Erträge mit «Ja» kennzeichnen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0014",
 "nachher": "zh-wl-da1-2025__c0016"
 },
 {
 "id": "zh-wl-da1-2025__c0016",
-"titel": "WL DA-1/DA-3 2025 – Abschnitt 16",
-"pfad": [],
+"titel": "DA-3 Lizenz- und Dienstleistungserträge – Antrag, Frist, Patentbox (Teil 2/2)",
+"pfad": [
+"Erläuterungen",
+"DA-3"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"DA-3",
+"Lizenzerträge",
+"Dienstleistungserträge",
+"Patentbox",
+"Frist drei Jahre",
+"Mindestbetrag 100 Franken"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.uebrige"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-wl-da1-2025__c0015",
 "nachher": null
 }

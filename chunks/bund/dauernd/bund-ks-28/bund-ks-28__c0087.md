@@ -4,24 +4,17 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 87"
-seiten: "25"
+titel: "Anhang III Tod eines Gesellschafters – keine Regelung, Nachfolgeklausel (Teil 2/3)"
+ziffer: "Anhang III"
+seiten: "31-32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang III Personengesellschaft · S. 31–32
 
-Absatz 5
-Im Hinblick darauf, dass mittels des fiktiven Einkaufs die selbständig erwerbenden Personen
-den unselbständig erwerbenden Personen vorsorgerechtlich gleichgestellt werden sollen,
-muss die obere Grenze für einen versicherbaren Lohn gemäss BVG auch für den fiktiven
-Einkauf übernommen werden.
-
-Absatz 6
-Alle Vorsorgeguthaben (z.B. auch Guthaben im überobligatorischen Teil, Freizügigkeitsgut-
-haben etc.), inklusive der im Vorjahr und im Liquidationsjahr getätigten Einkäufe, sind an den
-fiktiven Einkauf anzurechnen und entsprechend in Abzug zu bringen. Ebenfalls anzurechnen
-sind jegliche bereits bezogenen Leistungen. Darunter fallen alle ordentlichen Leistungen
-(z.B. Rentenleistungen), die Vorbezüge (z.B. Vorbezug für Wohneigentum) sowie die Bar-
-auszahlungen (z.B. Barauszahlung bei Wechsel von unselbständigen zur selbständigen Er-
-werbstätigkeit). Dies deshalb, weil in diesem Umfang die selbständig erwerbstätige Person
-bereits in den Genuss von steuerprivilegierten Leistungen aus der Vorsorge gekommen ist.
+    nachträglich rückgängig gemacht werden   meinschaft anstelle des Erblassers in   Gesellschaft an Stelle des Erblassers
+    kann, ist es möglich, solange die Liquidation   die sich nicht mehr in Liquidation be-   fort = „Fortführung“, Artikel 37b Ab-
+    nicht abgeschlossen ist, auch nachträglich   findende Gesellschaft ein.   satz 2 DBG findet keine Anwendung
+    mit der Erbengemeinschaft des Verstorbe-
+    nen eine formlos gültige Vereinbarung zu
+    treffen, dass die Gesellschaft mit ihr fortbe-
+    stehen soll (BGE 70 II 56; 29 II 102).

@@ -4,38 +4,33 @@ quelle: zh-weisung-liegenschaften-2009
 jur: zh
 jahre: [2025]
 typ: weisung
-titel: "Weisung 2009 ZH – Abschnitt 79"
+titel: "Anhang S. 33 Landwerte Wohnbauland bebaut Einfamilienhäuser – (Fortsetzung)"
+ziffer: "13, 23"
 seiten: "33"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 33
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, Einfamilienhäuser · S. 33
 
-<!-- Seite 33 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-Wohnbauland
+Buchs (ZH)   5   420   390   350   320   280   –   –
+Dällikon   5   430   400   360   320   280   –   –
+Dänikon   3   330   280   220   –   –   –   –
+Dielsdorf   5   420   380   330   290   240   –   –
+Hüttikon   2   370   280   –   –   –   –   –
+Neerach   5   520   470   410   350   290   –   –
+Niederglatt   3   400   340   270   –   –   –   –
+Niederhasli   5   380   360   330   300   270   –   –
+Niederweningen   5   390   360   320   280   240   –   –
+Oberglatt   5   390   360   330   300   260   –   –
+Oberweningen   5   380   350   320   290   250   –   –
+Otelfingen   5   430   400   360   320   280   –   –
+Regensberg   3   500   440   370   –   –   –   –
+Regensdorf   5   480   440   390   350   300   –   –
+Rümlang   5   400   360   320   280   240   –   –
+Schleinikon   2   380   300   –   –   –   –   –
+Schöfflisdorf   4   370   320   280   230   –   –   –
+Stadel   2   310   250   –   –   –   –   –
+Steinmaur   5   380   350   310   270   230   –   –
+Weiach   3   350   300   260   –   –   –   –
 
-Bebaute Grundstücke
-    Einfamilienhäuser (Ziff. 13 und 23)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
 
-Bezirk Bülach
-Bachenbülach   4   420   370   330   280   –   –   –
-Bassersdorf   5   490   450   400   350   300   –   –
-Bülach   5   450   410   370   330   290   –   –
-Dietlikon   5   500   460   410   360   310   –   –
-Eglisau   5   360   330   290   260   220   –   –
-Embrach   4   380   340   310   270   –   –   –
-Freienstein-Teufen   2   320   260   –   –   –   –   –
-Glattfelden   5   310   290   260   240   210   –   –
-Hochfelden   4   380   340   300   260   –   –   –
-Höri   3   250   210   170   –   –   –   –
-Hüntwangen   5   310   290   270   250   220   –   –
-Kloten   5   490   450   400   350   300   –   –
-Lufingen   3   490   380   270   –   –   –   –
-Nürensdorf   5   480   440   390   350   300   –   –
-Oberembrach   3   410   330   250   –   –   –   –
-Opfikon   4   470   410   340   280   –   –   –
-Rafz   4   360   320   270   230   –   –   –
-Rorbas   3   310   280   250   –   –   –   –
-Wallisellen   5   530   490   440   390   340   –   –
+1. 1. 23 - 119   33

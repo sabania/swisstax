@@ -4,17 +4,17 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 167"
-seiten: "44"
+titel: "Ziff. 7.5.3 Beispiel 2 – Bonus nach Beendigung (Februar 2023) und Variante mit Auslandtagen (Teil 2/2)"
+ziffer: "7.5.3"
+seiten: "52"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 44
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.3 Leistungen bei/nach Beendigung · S. 52
 
-<!-- Seite 44 -->
-31 Tagen und des Monats Februar). Beginnt oder endet das Arbeitsverhältnis während dem
-Jahr, muss folglich der Bruttolohn für die Bestimmung des Steuersatzes auf 360 Tage umge-
-rechnet werden. Dabei werden nur die periodischen Gehaltsbestandteile auf ein Jahr umge-
-rechnet (vgl. Ziffer 7.3.1 oben). Die aperiodischen Lohnbestandteile sind erst nach der Um-
-rechnung der periodischen Lohnbestandteile zu addieren. Diese Regelung gilt auch für An-
-stellungen im Stunden- bzw. Tageslohn, sofern die Lohnzahlungen auf der Basis eines Mo-
-natslohnes erfolgen (vgl. Ziffer 7.3.3 oben).
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 110 000.00 (CHF 80 000 + CHF 30 000).
+
+    Variante zum Beispiel:
+    -   Gleicher Sachverhalt wie in Beispiel 2. Im Jahr 2022 arbeitete der Steuerpflichtige jedoch 120 Tage in der
+    Schweiz und 120 Tage im Ausland.
+    -   Vom Bonus ist in der Schweiz nur der Anteil von CHF 15 000.00 steuerpflichtig (CHF 30 000 / 240 x 120)
+    zum Steuersatz von CHF 110 000.00.

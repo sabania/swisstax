@@ -4,19 +4,20 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang IV Gutachten Ziff. III.3 Credit Spreads nicht berücksichtigt"
+titel: "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 2/3)"
 ziffer: "Anh. IV III.3"
-seiten: "34"
+seiten: "34-35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34–35
 
-Veränderungen des Credit Spreads, d.h. des schuldnerspezifischen Zinszuschlags zum
-risikofreien Zinssatz, werden bei der von der Telekurs und der ESTV angewendeten
-Methode grundsätzlich nicht berücksichtigt. Sofern jedoch der effektive Wert des kom-
-binierten Produktes infolge einer massiven Verschlechterung der Bonität des Emitten-
-ten bzw. einer massiven Erhöhung des Credit Spreads des Emittenten unter den Bond
-Floor bei Emission sinkt, wird nicht mehr auf die berechneten Werte des Anleihensteils,
-sondern auf den effektiven Wert des kombinierten Produkts abgestellt. Damit wird aus-
-serordentlichen Situationen Rechnung getragen und vermieden, dass auf nicht sachge-
-rechte Werte für die Ermittlung des steuerbaren Vermögensertrages abgestellt wird.
+    •   Beim risikofreien Zinssatz handelt es sich im Prinzip um die Zinskurve, welche
+    sich aus Staatspapieren ableitet. Dieser entspricht somit nicht der Swap-Rate,
+    welche bereits einen gewissen Credit Spread beinhaltet. Für nicht "standardi-
+    sierte" Laufzeiten wie beispielsweise 4 Jahre 3 Monate und 12 Tage werden die
+    risikofreien Zinssätze nicht publiziert und müssten daher durch Interpolation
+    täglich ermittelt werden.
+
+    •   Die Credit Spreads der Emittenten müssten ebenfalls täglich nachgeführt wer-
+    den. Dabei wäre zudem zu berücksichtigen, dass für unterschiedliche Restlauf-
+    zeiten unterschiedliche Credit Spreads anzuwenden wären.

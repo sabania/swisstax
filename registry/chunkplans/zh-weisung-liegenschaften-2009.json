@@ -50,13 +50,13 @@
   },
   {
    "start": 64,
-   "titel": "Ziff. 4–6 Unüberbautes Land – Verkehrswert und Bauland-Kategorien",
+   "titel": "Ziff. 4–5 Unüberbautes Land – Verkehrswert, Bauland",
    "pfad": [
     "A. Vermögenssteuerwerte",
     "II. Unüberbautes Land",
     "1.–2. Allgemeines, Bauland-Kategorien"
    ],
-   "ziffer": "4–6",
+   "ziffer": "4–5",
    "stichworte": [
     "Bauland",
     "Verkehrswert",
@@ -69,6 +69,27 @@
     "vermoegen.liegenschaften"
    ],
    "zusammenfassung": "Landwirtschaftlich beworbenes Bauland wird nach Ziff. 1–3 bewertet; sonst wird unüberbautes Land nach Zonenordnung vier Bauland-Kategorien zugeordnet."
+  },
+  {
+   "start": 83,
+   "titel": "Ziff. 6 Bauland-Kategorien nach Zonenordnung",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "II. Unüberbautes Land",
+    "2. Bauland-Kategorien"
+   ],
+   "ziffer": "6",
+   "stichworte": [
+    "Bauland-Kategorien",
+    "Zonenordnung",
+    "Einfamilienhaus",
+    "Geschäftshaus",
+    "Industrie"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Unüberbautes, nicht landwirtschaftliches Land wird vier Kategorien zugeordnet: Mehrfamilienhäuser/Stockwerkeigentum, Einfamilienhäuser, Geschäftshäuser, industrielle/gewerbliche Bauten."
   },
   {
    "start": 99,
@@ -223,13 +244,13 @@
   },
   {
    "start": 243,
-   "titel": "Ziff. 26–29 Anrechenbare Grundstückfläche (Umschwung)",
+   "titel": "Ziff. 26–27 Anrechenbare Grundstückfläche Einfamilienhaus",
    "pfad": [
     "A. Vermögenssteuerwerte",
     "IV. Einfamilienhäuser und Stockwerkeigentum",
     "2. Landwert"
    ],
-   "ziffer": "26–29",
+   "ziffer": "26–27",
    "stichworte": [
     "Grundstücksfläche",
     "Umschwung",
@@ -242,6 +263,27 @@
     "vermoegen.liegenschaften"
    ],
    "zusammenfassung": "Anrechenbare Fläche je Basiswert: Einfamilienhaus höchstens 400 m2 bis Fr. 30 000, bis 800 m2 plus 100 m2 je Fr. 30 000 Basiswert; Mehrfläche zu Fr. 1 je m2."
+  },
+  {
+   "start": 260,
+   "titel": "Ziff. 28–29 Anrechenbare Grundstückfläche Stockwerkeigentum, Mehrfläche",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "IV. Einfamilienhäuser und Stockwerkeigentum",
+    "2. Landwert"
+   ],
+   "ziffer": "28–29",
+   "stichworte": [
+    "Stockwerkeigentum",
+    "Grundstücksfläche",
+    "100 m2",
+    "Fr. 1 je m2",
+    "Basiswert Fr. 10 000"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Stockwerkeigentum: höchstens 100 m2 bis Basiswert Fr. 10 000, bis 200 m2 plus 30 m2 je Fr. 10 000 Basiswert; Mehrfläche zu Fr. 1 je m2."
   },
   {
    "start": 274,
@@ -308,13 +350,13 @@
   },
   {
    "start": 328,
-   "titel": "Ziff. 38–42 Ertragswert Mehrfamilienhäuser – Kapitalisierungssatz 7,05%",
+   "titel": "Ziff. 38–40 Ertragswert Mehrfamilienhäuser – Ertrag",
    "pfad": [
     "A. Vermögenssteuerwerte",
     "V. Mehrfamilien- und Geschäftshäuser",
     "2. Ertragswert"
    ],
-   "ziffer": "38–42",
+   "ziffer": "38–40",
    "stichworte": [
     "Kapitalisierungssatz",
     "7,05%",
@@ -328,6 +370,27 @@
     "einkommen.liegenschaften.mietertrag"
    ],
    "zusammenfassung": "Der Mietertrag wird mit 7,05% kapitalisiert (Basiszinssatz 4,75% plus Zuschlag 2,3%)."
+  },
+  {
+   "start": 348,
+   "titel": "Ziff. 41–42 Kapitalisierungssatz Mehrfamilienhäuser 7,05%",
+   "pfad": [
+    "A. Vermögenssteuerwerte",
+    "V. Mehrfamilien- und Geschäftshäuser",
+    "2. Ertragswert"
+   ],
+   "ziffer": "41–42",
+   "stichworte": [
+    "Kapitalisierungssatz",
+    "7,05%",
+    "Basiszinssatz 4,75%",
+    "Zuschlag 2,3%",
+    "Ertragswert"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Der Kapitalisierungssatz beträgt 7,05% (Basiszinssatz 4,75% plus Zuschlag 2,3%)."
   },
   {
    "start": 363,
@@ -578,12 +641,12 @@
   },
   {
    "start": 617,
-   "titel": "Ziff. 81–82 Hedonische Methode und Steuerwert 70%/90% des Verkehrswerts",
+   "titel": "Ziff. 81 Hedonische Methode Verkehrswert",
    "pfad": [
     "D. Individuelle Schätzung",
     "I. Vermögenssteuerwert"
    ],
-   "ziffer": "81–82",
+   "ziffer": "81",
    "stichworte": [
     "hedonische Methode",
     "amtliches Gutachten",
@@ -597,6 +660,25 @@
     "verfahren.einreichung"
    ],
    "zusammenfassung": "Bei individueller Schätzung wird der Steuerwert auf 70% des Verkehrswerts (Formelwert unter 70%) bzw. 90% (Formelwert über 100%) festgesetzt."
+  },
+  {
+   "start": 633,
+   "titel": "Ziff. 82 Steuerwert 70%/90% des Verkehrswerts bei individueller Schätzung",
+   "pfad": [
+    "D. Individuelle Schätzung",
+    "I. Vermögenssteuerwert"
+   ],
+   "ziffer": "82",
+   "stichworte": [
+    "Vermögenssteuerwert 70%",
+    "Vermögenssteuerwert 90%",
+    "Verkehrswert",
+    "Formelwert"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Der Vermögenssteuerwert wird auf 70% des Verkehrswerts (Formelwert unter 70%) bzw. 90% (Formelwert über 100%) festgesetzt."
   },
   {
    "start": 643,
@@ -620,12 +702,12 @@
   },
   {
    "start": 657,
-   "titel": "Ziff. 85–86 Hedonische Methode Marktmiete – Eigenmietwert 60%/70%",
+   "titel": "Ziff. 85 Hedonische Methode Marktmietwert",
    "pfad": [
     "D. Individuelle Schätzung",
     "II. Eigenmietwert"
    ],
-   "ziffer": "85–86",
+   "ziffer": "85",
    "stichworte": [
     "hedonische Methode",
     "Marktmietwert",
@@ -637,6 +719,25 @@
     "einkommen.liegenschaften.eigenmietwert"
    ],
    "zusammenfassung": "Bei individueller Schätzung wird der Eigenmietwert auf 60% der Marktmiete (Formelwert unter 60%) bzw. 70% (Formelwert über 70%) festgelegt."
+  },
+  {
+   "start": 673,
+   "titel": "Ziff. 86 Eigenmietwert 60%/70% der Marktmiete bei individueller Schätzung",
+   "pfad": [
+    "D. Individuelle Schätzung",
+    "II. Eigenmietwert"
+   ],
+   "ziffer": "86",
+   "stichworte": [
+    "Eigenmietwert 60%",
+    "Eigenmietwert 70%",
+    "Marktmiete",
+    "Formelwert"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Der Eigenmietwert wird auf 60% der Marktmiete (Formelwert unter 60%) bzw. 70% (Formelwert über 70%) festgelegt."
   },
   {
    "start": 680,
@@ -739,7 +840,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 783,
+   "start": 777,
    "titel": "Anhang S. 20 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Andelfingen",
    "pfad": [
     "Anhang",
@@ -752,13 +853,34 @@
     "Lageklasse",
     "Wohnbauland",
     "Andelfingen",
-    "Benken (ZH)",
-    "Berg am Irchel"
+    "Mettmenstetten",
+    "Obfelden"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
+  },
+  {
+   "start": 794,
+   "titel": "Anhang S. 20 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – (Fortsetzung)",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+   ],
+   "ziffer": "10",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Dachsen",
+    "Dorf"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
    "start": 817,
@@ -783,7 +905,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 841,
+   "start": 836,
    "titel": "Anhang S. 21 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Andelfingen",
    "pfad": [
     "Anhang",
@@ -796,13 +918,34 @@
     "Lageklasse",
     "Wohnbauland",
     "Andelfingen",
-    "Benken (ZH)",
-    "Berg am Irchel"
+    "Obfelden",
+    "Ottenbach"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
+  },
+  {
+   "start": 853,
+   "titel": "Anhang S. 21 Landwerte Wohnbauland unbebaut Einfamilienhäuser – (Fortsetzung)",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+   ],
+   "ziffer": "13",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Dorf",
+    "Feuerthalen"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
   },
   {
    "start": 878,
@@ -827,7 +970,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 904,
+   "start": 898,
    "titel": "Anhang S. 22 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Dielsdorf",
    "pfad": [
     "Anhang",
@@ -840,8 +983,8 @@
     "Lageklasse",
     "Wohnbauland",
     "Dielsdorf",
-    "Opfikon",
-    "Rafz"
+    "Höri",
+    "Hüntwangen"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -849,7 +992,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 925,
+   "start": 914,
    "titel": "Anhang S. 22 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – (Fortsetzung)",
    "pfad": [
     "Anhang",
@@ -861,8 +1004,8 @@
     "Landwert",
     "Lageklasse",
     "Wohnbauland",
-    "Otelfingen",
-    "Regensberg"
+    "Buchs (ZH)",
+    "Dällikon"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -892,7 +1035,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 960,
+   "start": 954,
    "titel": "Anhang S. 23 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Dielsdorf",
    "pfad": [
     "Anhang",
@@ -905,8 +1048,8 @@
     "Lageklasse",
     "Wohnbauland",
     "Dielsdorf",
-    "Opfikon",
-    "Rafz"
+    "Höri",
+    "Hüntwangen"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -914,7 +1057,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 981,
+   "start": 970,
    "titel": "Anhang S. 23 Landwerte Wohnbauland unbebaut Einfamilienhäuser – (Fortsetzung)",
    "pfad": [
     "Anhang",
@@ -926,8 +1069,8 @@
     "Landwert",
     "Lageklasse",
     "Wohnbauland",
-    "Otelfingen",
-    "Regensberg"
+    "Buchs (ZH)",
+    "Dällikon"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -957,8 +1100,8 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 1016,
-   "titel": "Anhang S. 24 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Hinwil, Horgen",
+   "start": 1013,
+   "titel": "Anhang S. 24 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Hinwil",
    "pfad": [
     "Anhang",
     "Steuerlich massgebende Landwerte",
@@ -970,14 +1113,35 @@
     "Lageklasse",
     "Wohnbauland",
     "Hinwil",
-    "Horgen",
-    "Bäretswil",
-    "Bubikon"
+    "Unterengstringen",
+    "Urdorf"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
-   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil, Horgen (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
+  },
+  {
+   "start": 1028,
+   "titel": "Anhang S. 24 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Horgen",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+   ],
+   "ziffer": "10",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Horgen",
+    "Adliswil",
+    "Kilchberg (ZH)"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
    "start": 1049,
@@ -1002,8 +1166,8 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 1070,
-   "titel": "Anhang S. 25 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Hinwil, Horgen",
+   "start": 1068,
+   "titel": "Anhang S. 25 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Hinwil",
    "pfad": [
     "Anhang",
     "Steuerlich massgebende Landwerte",
@@ -1015,14 +1179,35 @@
     "Lageklasse",
     "Wohnbauland",
     "Hinwil",
-    "Horgen",
-    "Bäretswil",
-    "Bubikon"
+    "Urdorf",
+    "Weiningen (ZH)"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
-   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil, Horgen (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
+  },
+  {
+   "start": 1082,
+   "titel": "Anhang S. 25 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Horgen",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+   ],
+   "ziffer": "13",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Horgen",
+    "Adliswil",
+    "Kilchberg (ZH)"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
   },
   {
    "start": 1106,
@@ -1047,8 +1232,8 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 1129,
-   "titel": "Anhang S. 26 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Pfäffikon, Uster",
+   "start": 1125,
+   "titel": "Anhang S. 26 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Pfäffikon",
    "pfad": [
     "Anhang",
     "Steuerlich massgebende Landwerte",
@@ -1060,14 +1245,35 @@
     "Lageklasse",
     "Wohnbauland",
     "Pfäffikon",
-    "Uster",
-    "Fehraltorf",
-    "Hittnau"
+    "Uetikon am See",
+    "Zollikon-Berg"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
-   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon, Uster (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
+  },
+  {
+   "start": 1143,
+   "titel": "Anhang S. 26 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Uster",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum"
+   ],
+   "ziffer": "10",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Uster",
+    "Pfäffikon",
+    "Russikon"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Uster (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
    "start": 1160,
@@ -1092,8 +1298,8 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 1182,
-   "titel": "Anhang S. 27 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Pfäffikon, Uster",
+   "start": 1179,
+   "titel": "Anhang S. 27 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Pfäffikon",
    "pfad": [
     "Anhang",
     "Steuerlich massgebende Landwerte",
@@ -1105,14 +1311,35 @@
     "Lageklasse",
     "Wohnbauland",
     "Pfäffikon",
-    "Uster",
-    "Fehraltorf",
-    "Hittnau"
+    "Zollikon-Berg",
+    "Zollikon-Dorf"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
-   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon, Uster (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
+  },
+  {
+   "start": 1197,
+   "titel": "Anhang S. 27 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Uster",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser"
+   ],
+   "ziffer": "13",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Uster",
+    "Russikon",
+    "Weisslingen"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Uster (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
   },
   {
    "start": 1216,
@@ -1137,7 +1364,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 1244,
+   "start": 1238,
    "titel": "Anhang S. 28 Landwerte Wohnbauland unbebaut MFH/Stockwerkeigentum – Zürich",
    "pfad": [
     "Anhang",
@@ -1150,8 +1377,8 @@
     "Lageklasse",
     "Wohnbauland",
     "Zürich",
-    "Schlatt (ZH)",
-    "Seuzach"
+    "Elsau",
+    "Hagenbuch"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1181,7 +1408,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 1284,
+   "start": 1278,
    "titel": "Anhang S. 29 Landwerte Wohnbauland unbebaut Einfamilienhäuser – Zürich",
    "pfad": [
     "Anhang",
@@ -1194,8 +1421,8 @@
     "Lageklasse",
     "Wohnbauland",
     "Zürich",
-    "Schlatt (ZH)",
-    "Seuzach"
+    "Elsau",
+    "Hagenbuch"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1225,7 +1452,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 1325,
+   "start": 1320,
    "titel": "Anhang S. 30 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Andelfingen",
    "pfad": [
     "Anhang",
@@ -1238,13 +1465,34 @@
     "Lageklasse",
     "Wohnbauland",
     "Andelfingen",
-    "Benken (ZH)",
-    "Berg am Irchel"
+    "Obfelden",
+    "Ottenbach"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
+  },
+  {
+   "start": 1337,
+   "titel": "Anhang S. 30 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – (Fortsetzung)",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+   ],
+   "ziffer": "10, 23",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Dorf",
+    "Feuerthalen"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
    "start": 1359,
@@ -1269,7 +1517,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 1383,
+   "start": 1378,
    "titel": "Anhang S. 31 Landwerte Wohnbauland bebaut Einfamilienhäuser – Andelfingen",
    "pfad": [
     "Anhang",
@@ -1282,13 +1530,34 @@
     "Lageklasse",
     "Wohnbauland",
     "Andelfingen",
-    "Benken (ZH)",
-    "Berg am Irchel"
+    "Obfelden",
+    "Ottenbach"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
+  },
+  {
+   "start": 1395,
+   "titel": "Anhang S. 31 Landwerte Wohnbauland bebaut Einfamilienhäuser – (Fortsetzung)",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+   ],
+   "ziffer": "13, 23",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Dorf",
+    "Feuerthalen"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
   },
   {
    "start": 1420,
@@ -1313,7 +1582,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 1446,
+   "start": 1440,
    "titel": "Anhang S. 32 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Dielsdorf",
    "pfad": [
     "Anhang",
@@ -1326,8 +1595,8 @@
     "Lageklasse",
     "Wohnbauland",
     "Dielsdorf",
-    "Opfikon",
-    "Rafz"
+    "Höri",
+    "Hüntwangen"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1335,7 +1604,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 1467,
+   "start": 1456,
    "titel": "Anhang S. 32 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – (Fortsetzung)",
    "pfad": [
     "Anhang",
@@ -1347,8 +1616,8 @@
     "Landwert",
     "Lageklasse",
     "Wohnbauland",
-    "Otelfingen",
-    "Regensberg"
+    "Buchs (ZH)",
+    "Dällikon"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1378,7 +1647,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 1502,
+   "start": 1496,
    "titel": "Anhang S. 33 Landwerte Wohnbauland bebaut Einfamilienhäuser – Dielsdorf",
    "pfad": [
     "Anhang",
@@ -1391,8 +1660,8 @@
     "Lageklasse",
     "Wohnbauland",
     "Dielsdorf",
-    "Opfikon",
-    "Rafz"
+    "Höri",
+    "Hüntwangen"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1400,7 +1669,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 1523,
+   "start": 1512,
    "titel": "Anhang S. 33 Landwerte Wohnbauland bebaut Einfamilienhäuser – (Fortsetzung)",
    "pfad": [
     "Anhang",
@@ -1412,8 +1681,8 @@
     "Landwert",
     "Lageklasse",
     "Wohnbauland",
-    "Otelfingen",
-    "Regensberg"
+    "Buchs (ZH)",
+    "Dällikon"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1443,8 +1712,8 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 1558,
-   "titel": "Anhang S. 34 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Hinwil, Horgen",
+   "start": 1556,
+   "titel": "Anhang S. 34 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Hinwil",
    "pfad": [
     "Anhang",
     "Steuerlich massgebende Landwerte",
@@ -1456,14 +1725,35 @@
     "Lageklasse",
     "Wohnbauland",
     "Hinwil",
-    "Horgen",
-    "Bäretswil",
-    "Bubikon"
+    "Urdorf",
+    "Weiningen (ZH)"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
-   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil, Horgen (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
+  },
+  {
+   "start": 1570,
+   "titel": "Anhang S. 34 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Horgen",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+   ],
+   "ziffer": "10, 23",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Horgen",
+    "Adliswil",
+    "Kilchberg (ZH)"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
    "start": 1591,
@@ -1488,8 +1778,8 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 1612,
-   "titel": "Anhang S. 35 Landwerte Wohnbauland bebaut Einfamilienhäuser – Hinwil, Horgen",
+   "start": 1610,
+   "titel": "Anhang S. 35 Landwerte Wohnbauland bebaut Einfamilienhäuser – Hinwil",
    "pfad": [
     "Anhang",
     "Steuerlich massgebende Landwerte",
@@ -1501,14 +1791,35 @@
     "Lageklasse",
     "Wohnbauland",
     "Hinwil",
-    "Horgen",
-    "Bäretswil",
-    "Bubikon"
+    "Urdorf",
+    "Weiningen (ZH)"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
-   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil, Horgen (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
+  },
+  {
+   "start": 1624,
+   "titel": "Anhang S. 35 Landwerte Wohnbauland bebaut Einfamilienhäuser – Horgen",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+   ],
+   "ziffer": "13, 23",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Horgen",
+    "Adliswil",
+    "Kilchberg (ZH)"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
   },
   {
    "start": 1648,
@@ -1533,8 +1844,8 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 1671,
-   "titel": "Anhang S. 36 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Pfäffikon, Uster",
+   "start": 1667,
+   "titel": "Anhang S. 36 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Pfäffikon",
    "pfad": [
     "Anhang",
     "Steuerlich massgebende Landwerte",
@@ -1546,14 +1857,35 @@
     "Lageklasse",
     "Wohnbauland",
     "Pfäffikon",
-    "Uster",
-    "Fehraltorf",
-    "Hittnau"
+    "Uetikon am See",
+    "Zollikon-Berg"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
-   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon, Uster (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
+  },
+  {
+   "start": 1685,
+   "titel": "Anhang S. 36 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Uster",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum"
+   ],
+   "ziffer": "10, 23",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Uster",
+    "Pfäffikon",
+    "Russikon"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Uster (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
    "start": 1702,
@@ -1578,8 +1910,8 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 1724,
-   "titel": "Anhang S. 37 Landwerte Wohnbauland bebaut Einfamilienhäuser – Pfäffikon, Uster",
+   "start": 1721,
+   "titel": "Anhang S. 37 Landwerte Wohnbauland bebaut Einfamilienhäuser – Pfäffikon",
    "pfad": [
     "Anhang",
     "Steuerlich massgebende Landwerte",
@@ -1591,14 +1923,35 @@
     "Lageklasse",
     "Wohnbauland",
     "Pfäffikon",
-    "Uster",
-    "Fehraltorf",
-    "Hittnau"
+    "Zollikon-Berg",
+    "Zollikon-Dorf"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
-   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon, Uster (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
+  },
+  {
+   "start": 1739,
+   "titel": "Anhang S. 37 Landwerte Wohnbauland bebaut Einfamilienhäuser – Uster",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Wohnbauland, bebaute Grundstücke, Einfamilienhäuser"
+   ],
+   "ziffer": "13, 23",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Wohnbauland",
+    "Uster",
+    "Russikon",
+    "Weisslingen"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Uster (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
   },
   {
    "start": 1758,
@@ -1623,7 +1976,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum)."
   },
   {
-   "start": 1786,
+   "start": 1780,
    "titel": "Anhang S. 38 Landwerte Wohnbauland bebaut MFH/Stockwerkeigentum – Zürich",
    "pfad": [
     "Anhang",
@@ -1636,8 +1989,8 @@
     "Lageklasse",
     "Wohnbauland",
     "Zürich",
-    "Schlatt (ZH)",
-    "Seuzach"
+    "Elsau",
+    "Hagenbuch"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1667,7 +2020,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Wohnbauland, bebaute Grundstücke, Einfamilienhäuser)."
   },
   {
-   "start": 1826,
+   "start": 1820,
    "titel": "Anhang S. 39 Landwerte Wohnbauland bebaut Einfamilienhäuser – Zürich",
    "pfad": [
     "Anhang",
@@ -1680,8 +2033,8 @@
     "Lageklasse",
     "Wohnbauland",
     "Zürich",
-    "Schlatt (ZH)",
-    "Seuzach"
+    "Elsau",
+    "Hagenbuch"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1711,7 +2064,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Affoltern (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
   },
   {
-   "start": 1865,
+   "start": 1860,
    "titel": "Anhang S. 40 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Andelfingen",
    "pfad": [
     "Anhang",
@@ -1724,8 +2077,8 @@
     "Lageklasse",
     "Geschäftshäuser Industrieland",
     "Andelfingen",
-    "Obfelden",
-    "Ottenbach"
+    "Hedingen",
+    "Kappel am Albis"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1733,7 +2086,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Andelfingen (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
   },
   {
-   "start": 1886,
+   "start": 1878,
    "titel": "Anhang S. 40 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
    "pfad": [
     "Anhang",
@@ -1745,8 +2098,29 @@
     "Landwert",
     "Lageklasse",
     "Geschäftshäuser Industrieland",
-    "Henggart",
-    "Kleinandelfingen"
+    "Benken (ZH)",
+    "Berg am Irchel"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
+  },
+  {
+   "start": 1891,
+   "titel": "Anhang S. 40 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+   ],
+   "ziffer": "14, 15, 49",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Geschäftshäuser Industrieland",
+    "Rheinau",
+    "Thalheim an der Thur"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1776,7 +2150,28 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Bülach (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
   },
   {
-   "start": 1927,
+   "start": 1921,
+   "titel": "Anhang S. 41 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+   ],
+   "ziffer": "14, 15, 49",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Geschäftshäuser Industrieland",
+    "Eglisau",
+    "Embrach"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
+  },
+  {
+   "start": 1934,
    "titel": "Anhang S. 41 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Dielsdorf",
    "pfad": [
     "Anhang",
@@ -1789,8 +2184,8 @@
     "Lageklasse",
     "Geschäftshäuser Industrieland",
     "Dielsdorf",
-    "Hüntwangen",
-    "Kloten"
+    "Rorbas",
+    "Wallisellen"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1798,7 +2193,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dielsdorf (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
   },
   {
-   "start": 1946,
+   "start": 1948,
    "titel": "Anhang S. 41 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
    "pfad": [
     "Anhang",
@@ -1810,8 +2205,8 @@
     "Landwert",
     "Lageklasse",
     "Geschäftshäuser Industrieland",
-    "Hüttikon",
-    "Neerach"
+    "Niederglatt",
+    "Niederhasli"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1841,8 +2236,8 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Dietikon (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
   },
   {
-   "start": 1989,
-   "titel": "Anhang S. 42 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Hinwil, Horgen",
+   "start": 1984,
+   "titel": "Anhang S. 42 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Hinwil",
    "pfad": [
     "Anhang",
     "Steuerlich massgebende Landwerte",
@@ -1854,17 +2249,38 @@
     "Lageklasse",
     "Geschäftshäuser Industrieland",
     "Hinwil",
-    "Horgen",
-    "Urdorf",
-    "Weiningen (ZH)"
+    "Oberengstringen",
+    "Oetwil an der Limmat"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
    ],
-   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil, Horgen (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Hinwil (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
   },
   {
-   "start": 2011,
+   "start": 1997,
+   "titel": "Anhang S. 42 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Horgen",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+   ],
+   "ziffer": "14, 15, 49",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Geschäftshäuser Industrieland",
+    "Horgen",
+    "Grüningen",
+    "Hinwil"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Horgen (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
+  },
+  {
+   "start": 2013,
    "titel": "Anhang S. 42 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
    "pfad": [
     "Anhang",
@@ -1876,8 +2292,8 @@
     "Landwert",
     "Lageklasse",
     "Geschäftshäuser Industrieland",
-    "Langnau am Albis",
-    "Oberrieden"
+    "Richterswil",
+    "Rüschlikon"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1907,7 +2323,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Meilen (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
   },
   {
-   "start": 2046,
+   "start": 2041,
    "titel": "Anhang S. 43 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Pfäffikon",
    "pfad": [
     "Anhang",
@@ -1920,8 +2336,8 @@
     "Lageklasse",
     "Geschäftshäuser Industrieland",
     "Pfäffikon",
-    "Zollikon-Berg",
-    "Zollikon-Dorf"
+    "Männedorf",
+    "Meilen"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1929,7 +2345,7 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Pfäffikon (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
   },
   {
-   "start": 2068,
+   "start": 2062,
    "titel": "Anhang S. 43 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Uster",
    "pfad": [
     "Anhang",
@@ -1942,8 +2358,8 @@
     "Lageklasse",
     "Geschäftshäuser Industrieland",
     "Uster",
-    "Dübendorf",
-    "Egg"
+    "Lindau",
+    "Pfäffikon"
    ],
    "positionen": [
     "vermoegen.liegenschaften"
@@ -1973,7 +2389,28 @@
    "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke Winterthur (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
   },
   {
-   "start": 2108,
+   "start": 2101,
+   "titel": "Anhang S. 44 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – (Fortsetzung)",
+   "pfad": [
+    "Anhang",
+    "Steuerlich massgebende Landwerte",
+    "Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49)"
+   ],
+   "ziffer": "14, 15, 49",
+   "stichworte": [
+    "Landwert",
+    "Lageklasse",
+    "Geschäftshäuser Industrieland",
+    "Dinhard",
+    "Ellikon an der Thur"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Steuerlich massgebende Landwerte in Fr. pro m2 je Lageklasse (LK) für die Gemeinden der Bezirke (Fortsetzung) (Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49))."
+  },
+  {
+   "start": 2116,
    "titel": "Anhang S. 44 Landwerte Geschäftshäuser/Industrie – unbebaut und bebaut – Zürich",
    "pfad": [
     "Anhang",
@@ -1986,8 +2423,8 @@
     "Lageklasse",
     "Geschäftshäuser Industrieland",
     "Zürich",
-    "Elsau",
-    "Hagenbuch"
+    "Turbenthal",
+    "Winterthur"
    ],
    "positionen": [
     "vermoegen.liegenschaften"

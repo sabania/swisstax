@@ -4,15 +4,26 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen – Tarife"
-ziffer: "14.10"
-seiten: "36"
+titel: "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 2/2)"
+ziffer: "14.12"
+seiten: "38"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.10 · S. 36
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.12 · S. 38
 
-14.10.3   Tarife
-   Der Elternteil, der mit dem Kind zusammenlebt, kann grundsätzlich den Elterntarif geltend
-    machen. Es kann in der Regel davon ausgegangen werden, dass dieser Elternteil zur
-    Hauptsache für den Unterhalt des Kindes aufkommt.
-   Der Elternteil, der die Unterhaltsbeiträge leistet, wird zum Grundtarif besteuert.
+14.12.2   Abzüge
+   Der Elternteil, der die Unterhaltszahlungen leistet, kann den Kinderabzug geltend ma-
+    chen. Leisten beide Elternteile Unterhaltszahlungen, kann der Elternteil mit den höheren
+    finanziellen Leistungen, d.h. in der Regel derjenige mit dem höheren Einkommen, den
+    Kinderabzug geltend machen. Der andere Elternteil kann den Unterstützungsabzug gel-
+    tend machen, sofern seine Leistungen mindestens in der Höhe des Abzuges erfolgen.
+   Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Versiche-
+    rungs- und Sparzinsenabzug für das Kind. Leisten beide Elternteile Unterhaltszahlungen
+    und erfüllen die Voraussetzungen von Artikel 35 Absatz 1 Buchstabe a bzw. Buchstabe b
+    DBG, können beide den Abzug geltend machen, sofern sie nachweisen können, dass sie
+    auch entsprechende abzugsfähige Versicherungsprämien für das Kind geleistet haben.
+    Wenn dieser Nachweis nur einem Elternteil gelingt, so kann nur dieser den Versiche-
+    rungsabzug für das Kind geltend machen.
+
+14.12.3   Tarife
+   Beide Elternteile werden zum Grundtarif besteuert.

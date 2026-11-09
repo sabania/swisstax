@@ -4,20 +4,18 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 29"
-seiten: "7"
+titel: "Ziff. 6 Verschiedenes – Steuerbescheinigungen und Strafen"
+ziffer: "6"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 44 · 6 Verschiedenes · S. 8
 
-Steuerpflichtige Personen, welche die Steuer nach dem Aufwand entrichten, können von der
-Schweiz abgeschlossene Doppelbesteuerungsabkommen und insbesondere die darin vorgese-
-henen Entlastungen von ausländischen Quellensteuern beanspruchen. Zu diesem Zweck ha-
-ben sie mit der Steuererklärung zu erklären, ob und allenfalls in welchem Umfang sie Abkom-
-mensvorteile geltend gemacht haben oder geltend machen wollen. Die steuerpflichtige Person
-darf nur für solche Einkünfte in den Genuss der Abkommensvorteile kommen, die während der
-Zeit ihrer unbeschränkten Steuerpflicht in der Schweiz fällig geworden sind. Ferner gelten be-
-sondere Voraussetzungen unter den Abkommen mit Belgien, Deutschland, Italien, Norwegen,
-Kanada, Österreich und den USA.
-Ein Doppelbesteuerungsabkommen wird auch dann in Anspruch genommen, wenn dazu keine
-amtliche Bescheinigung bzw. kein besonderer Antrag, sondern nur – wie vielfach bei Bezug von
+6 Verschiedenes
+
+Amtliche Steuerbescheinigungen werden auf Wunsch der steuerpflichtigen Person unter allfälli-
+ger Berücksichtigung des anwendbaren Doppelbesteuerungsabkommens abgegeben.
+Hat die steuerpflichtige Person falsche Angaben gemacht, so ist gegen sie gleich wie bei der
+ordentlichen Einkommenssteuer ein Verfahren wegen vollendeter oder versuchter Steuerhinter-
+ziehung einzuleiten. Die steuerpflichtige Person kann ferner wegen Verletzung von Ordnungs-
+vorschriften bestraft werden.

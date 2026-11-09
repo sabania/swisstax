@@ -4,7 +4,7 @@ quelle: bund-sthg
 jur: bund
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 28 StHG – Besondere Fälle (Teil 2/4)"
+titel: "Art. 28 StHG – Besondere Fälle (Teil 2/3)"
 artikel: "Art. 28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
 ---

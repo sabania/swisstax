@@ -4,21 +4,21 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 28"
-seiten: "7"
+titel: "Ziff. 4.3.6 Freizeitfahrten, Taxi, Arbeitsweg (Teil 1/2)"
+ziffer: "4.3.6"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9
 
-4.2   Begriff der behinderungsbedingten Kosten
-Als behinderungsbedingt gelten die notwendigen Kosten, die als Folge einer Behinderung ge
-mäss Ziffer 4.1 hiervor entstehen (kausaler Zusammenhang) und weder Lebenshaltungs- noch
-Luxusausgaben darstellen. Zu den nicht abziehbaren Lebenshaltungskosten sind die Aufwen
-dungen zu zählen, die zur Befriedigung der persönlichen Bedürfnisse dienen. Darunter fallen
-die üblichen Kosten für Nahrung, Kleidung, Unterkunft, Gesundheitspflege, Freizeit und Vergnü
-gen. Aufwendungen, die den Rahmen üblicher und notwendiger Massnahmen übersteigen, nur
-aus Gründen der persönlichen Annehmlichkeit anfallen oder besonders kostspielig sind (Luxus
-ausgaben) können nicht zum Abzug gebracht werden. Darunter fallen etwa Kosten für eine lu
-xuriöse Unterbringung und Verpflegung, für die Anschaffung eines Renn-Rollstuhls oder für den
-Einbau eines Schwimmbads [vgl. Urteil des Bundesgerichts 2C_450/2020 vom 15. September
-2020 E. 3.4.1]).
+Kosten für übrige Transporte (insbesondere für Freizeitfahrten) sind in der Regel nicht als be
+hinderungsbedingte Kosten abzugsfähig. Ein Abzug ist ausnahmsweise dann zulässig, wenn
+die Person mit Behinderung glaubhaft machen kann, dass sie ohne ihre Behinderung aus
+schliesslich öffentliche Verkehrsmittel benützt hätte, dies nun aber behinderungsbedingt nicht
+tun kann. In diesem Fall sind die im Vergleich zur Benützung öffentlicher Verkehrsmittel entste
+henden Mehrkosten der Benutzung eines Motorfahrzeugs abzugsfähig (vgl. StRK ZH vom
+18. Juni 2003 [Zürcher Steuerpraxis ZStP 2004, 213 f.]).
+Mehrkosten für Taxifahrten sind nur abzugsfähig, wenn mit ärztlicher Bescheinigung belegt ist,
+dass die Benützung öffentlicher Verkehrsmittel, eines Fahrdienstes für Personen mit Behinde
+rung oder eines privaten Motorfahrzeuges nicht möglich oder nicht zumutbar ist.
+Kosten der Fahrt zum Arbeitsplatz sind nur in dem Umfang als behinderungsbedingte Kosten

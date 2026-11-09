@@ -1,194 +1,307 @@
 [
 {
 "id": "bund-ssk-ks22-mb-sz__c0001",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 1",
-"pfad": [],
+"titel": "Rz 1–4 Inhalt, Rechtsgrundlagen, Geltungsbereich",
+"pfad": [
+"A–C"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1–4",
+"stichworte": [
+"Repartitionswerte",
+"interkantonale Steuerausscheidung",
+"Liegenschaften",
+"Kanton Schwyz",
+"wirtschaftliche Zugehörigkeit",
+"Grundstücke"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Merkblatt regelt die Bewertung von Grundstücken bei interkantonalen Steuerausscheidungen mittels Repartitionswerten; gilt für nichtlandwirtschaftliche Grundstücke (§ 5 und § 7 StG SZ).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ssk-ks22-mb-sz__c0002"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0002",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 2",
-"pfad": [],
+"titel": "Rz 5–6 Interkantonale Steuerausscheidung – Grundsätze",
+"pfad": [
+"D. Repartitionswerte",
+"1. Interkantonale Steuerausscheidung"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5–6",
+"stichworte": [
+"Steuerausscheidung",
+"unbedingte Freistellung",
+"Progressionsvorbehalt",
+"objektmässige Ausscheidung",
+"Schuldenverlegung",
+"Schuldzinsen"
+],
+"positionen": [
+"schulden.privat"
+],
+"zusammenfassung": "Einkommen und Vermögen werden objektmässig ausgeschieden, Schulden und Schuldzinsen proportional nach Lage der Gesamtaktiven; unbedingte Freistellung mit Progressionsvorbehalt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0001",
 "nachher": "bund-ssk-ks22-mb-sz__c0003"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0003",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 3",
-"pfad": [],
+"titel": "Rz 7–8 Bewertung der Liegenschaften – Repartitionsfaktor (Teil 1/2)",
+"pfad": [
+"D. Repartitionswerte",
+"2. Bewertung der Liegenschaften (Repartition)"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "7–8",
+"stichworte": [
+"Repartitionsfaktor",
+"Steuerwert",
+"Verkehrswert",
+"SSK Kreisschreiben 22",
+"Umrechnungskoeffizient"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Kantonale Steuerwerte werden mit einem Repartitionsfaktor ausgeglichen; die SSK publiziert die Faktoren im Kreisschreiben Nr. 22 vom 22. März 2018.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0002",
 "nachher": "bund-ssk-ks22-mb-sz__c0004"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0004",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 4",
-"pfad": [],
+"titel": "Rz 7–8 Bewertung der Liegenschaften – Repartitionsfaktor (Teil 2/2)",
+"pfad": [
+"D. Repartitionswerte",
+"2. Bewertung der Liegenschaften (Repartition)"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "7–8",
+"stichworte": [
+"Repartitionsfaktor",
+"Steuerwert",
+"Verkehrswert",
+"SSK Kreisschreiben 22",
+"Umrechnungskoeffizient"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0003",
 "nachher": "bund-ssk-ks22-mb-sz__c0005"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0005",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 5",
-"pfad": [],
+"titel": "Rz 9 Beispiel – Ausgangslage Liegenschaften SZ und TI",
+"pfad": [
+"D. Repartitionswerte",
+"3. Beispiele"
+],
 "seiten": [
 3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "9",
+"stichworte": [
+"Beispiel",
+"Liegenschaft Tessin",
+"Steuerwert",
+"satzbestimmender Wert"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerwerte CHF 400 000 (Schwyz) und CHF 120 000 (Tessin); gesucht sind die satzbestimmenden Liegenschaftswerte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0004",
 "nachher": "bund-ssk-ks22-mb-sz__c0006"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0006",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 6",
-"pfad": [],
+"titel": "Rz 10 Beispiel bis Steuerperiode 2018 (Faktoren 80 % / 115 %) (Teil 1/3)",
+"pfad": [
+"D. Repartitionswerte",
+"3. Beispiele",
+"3.1 Bis und mit Steuerperiode 2018"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "10",
+"stichworte": [
+"Repartitionswert",
+"Zurechnung",
+"Abrechnung",
+"Faktor 80 %",
+"Faktor 115 %",
+"satzbestimmendes Vermögen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Repartitionswert total 458'000; satzbestimmender Wert Kanton Schwyz für die Tessiner Liegenschaft CHF 172 500, Kanton Tessin für die Schwyzer Liegenschaft CHF 278 261.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0005",
 "nachher": "bund-ssk-ks22-mb-sz__c0007"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0007",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 7",
-"pfad": [],
+"titel": "Rz 10 Beispiel bis Steuerperiode 2018 (Faktoren 80 % / 115 %) (Teil 2/3)",
+"pfad": [
+"D. Repartitionswerte",
+"3. Beispiele",
+"3.1 Bis und mit Steuerperiode 2018"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10",
+"stichworte": [
+"Repartitionswert",
+"Zurechnung",
+"Abrechnung",
+"Faktor 80 %",
+"Faktor 115 %",
+"satzbestimmendes Vermögen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0006",
 "nachher": "bund-ssk-ks22-mb-sz__c0008"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0008",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 8",
-"pfad": [],
+"titel": "Rz 10 Beispiel bis Steuerperiode 2018 (Faktoren 80 % / 115 %) (Teil 3/3)",
+"pfad": [
+"D. Repartitionswerte",
+"3. Beispiele",
+"3.1 Bis und mit Steuerperiode 2018"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "10",
+"stichworte": [
+"Repartitionswert",
+"Zurechnung",
+"Abrechnung",
+"Faktor 80 %",
+"Faktor 115 %",
+"satzbestimmendes Vermögen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0007",
 "nachher": "bund-ssk-ks22-mb-sz__c0009"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0009",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 9",
-"pfad": [],
+"titel": "Rz 11 Beispiel ab Steuerperiode 2019 (Faktoren 125 % / 155 %) (Teil 1/2)",
+"pfad": [
+"D. Repartitionswerte",
+"3. Beispiele",
+"3.2 Ab Steuerperiode 2019"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "11",
+"stichworte": [
+"Repartitionswert",
+"Abrechnung",
+"Faktor 125 %",
+"Faktor 155 %",
+"satzbestimmendes Vermögen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Repartitionswert total 686'000; Kanton Schwyz bewertet die Tessiner Liegenschaft mit CHF 148 800, Kanton Tessin die Schwyzer mit CHF 322 580.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0008",
 "nachher": "bund-ssk-ks22-mb-sz__c0010"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0010",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 10",
-"pfad": [],
+"titel": "Rz 11 Beispiel ab Steuerperiode 2019 (Faktoren 125 % / 155 %) (Teil 2/2)",
+"pfad": [
+"D. Repartitionswerte",
+"3. Beispiele",
+"3.2 Ab Steuerperiode 2019"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "11",
+"stichworte": [
+"Repartitionswert",
+"Abrechnung",
+"Faktor 125 %",
+"Faktor 155 %",
+"satzbestimmendes Vermögen"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0009",
 "nachher": "bund-ssk-ks22-mb-sz__c0011"
 },
 {
 "id": "bund-ssk-ks22-mb-sz__c0011",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 11",
-"pfad": [],
+"titel": "Rz 12–13 Gültigkeit und Publikation",
+"pfad": [
+"E. Gültigkeit und Publikation"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
+"ziffer": "12–13",
+"stichworte": [
+"Gültigkeit",
+"Publikation",
+"Merkblatt 18. November 2025"
+],
 "positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"zusammenfassung": "Merkblatt gilt ab sofort (Schwyz, 18. November 2025) und ersetzt das Merkblatt vom 19. Februar 2019.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ssk-ks22-mb-sz__c0010",
-"nachher": "bund-ssk-ks22-mb-sz__c0012"
-},
-{
-"id": "bund-ssk-ks22-mb-sz__c0012",
-"titel": "SSK-KS 22 (MB SZ) – Abschnitt 12",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ssk-ks22-mb-sz__c0011",
 "nachher": null
 }
 ]

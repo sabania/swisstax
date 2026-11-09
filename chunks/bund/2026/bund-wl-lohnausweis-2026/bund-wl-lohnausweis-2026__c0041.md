@@ -4,20 +4,28 @@ quelle: bund-wl-lohnausweis-2026
 jur: bund
 jahre: [2026]
 typ: wegleitung
-titel: "WL Lohnausweis 2026 – Abschnitt 41"
-seiten: "14"
+titel: "Rz 52 Ziffer 13.1 Effektive Spesen – Verzicht auf Deklaration (Kreuz 13.1.1)"
+ziffer: "13.1 / 52"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 14
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13.1 · S. 16
 
-In diesem Feld ist der gemäss den massgebenden Bestimmungen beim Arbeitnehmer in   42
-Abzug gebrachte Arbeitnehmeranteil für AHV/IV/EO/ALV/NBUV betragsmässig anzugeben.
-Kein Abzug darf gemacht werden für Beiträge, die der Arbeitgeber bezahlt hat (Arbeitgeber
-beiträge). Arbeitnehmern belastete Beiträge an Krankentaggeldversicherungen sowie Prä
-mien für UVG-Zusatzversicherungen sind nicht abzugsfähig; sie dürfen nicht vom Bruttolohn
-abgezogen werden. Solche Beiträge können jedoch in Ziffer 15 ausgewiesen werden.
+Effektive Spesen   Ziffer 13.1
 
-Analog ist vorzugehen, wenn der Arbeitnehmer in einem vergleichbaren Sozialversiche
-rungssystem (internationale Sozialversicherungsabkommen) des Herkunftslands verbleibt.
-
-Berufliche Vorsorge (2. Säule)   Ziffer 10
+Alle effektiven Spesenvergütungen, die einem Arbeitnehmer ausgerichtet wurden (inkl.   52
+Spesenauslagen, welche über Unternehmenskreditkarten bezahlt werden), müssen dekla
+riert werden. Keine Deklarationspflicht von Spesenauslagen besteht, wenn folgende Vor
+gaben eingehalten werden:
+Eine Hochrechnung der Einzelfallpauschalen auf die Arbeitstage ist nicht zulässig:
+•   Übernachtungsspesen werden gegen Beleg zurückerstattet;
+•   Die Höhe der effektiven Spesenvergütung für Mittag- oder Abendessen entspricht in der Re
+    gel einem Wert von maximal CHF 35 bzw. die Pauschale für eine Hauptmahlzeit beträgt
+    maximal CHF 30;
+•   Kundeneinladungen usw. werden ordnungsgemäss gegen Originalquittung abgerechnet;
+•   Die Vergütung der Kosten für die Benutzung öffentlicher Transportmittel (Bahn, Flugzeug
+    usw.) erfolgt gegen Beleg;
+•   Für die geschäftliche Benutzung des Privatfahrzeuges werden maximal 75 Rappen pro Kilo
+    meter vergütet;
+•   Kleinspesen werden, soweit möglich, gegen Beleg oder in Form einer Tagespauschale von
+    maximal CHF 20 vergütet.

@@ -4,24 +4,22 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 56"
-seiten: "14"
+titel: "Ziff. 8.1.1 Mitwirkungspflichten des Arbeitgebers – Bescheinigungspflicht"
+ziffer: "8.1.1"
+seiten: "18-19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1 Arbeitgeber › 8.1.1 Allgemeines · S. 18–19
 
-<!-- Seite 14 -->
-  7.3 Besteuerung von gesperrten oder nicht börsenkotierten Mitarbeiteropti-
-    onen, Anwartschaften auf Mitarbeiteraktien sowie unechten Mitarbeiter-
-    beteiligungen im internationalen Verhältnis
+8   Mitwirkungs- und Bescheinigungspflichten
+8.1   Arbeitgeber
+8.1.1 Allgemeines
+Der Arbeitgeber unterliegt ab dem 1. Januar 2013 im Zusammenhang mit Mitarbeiterbeteil-
+gungen einer besonderen Bescheinigungspflicht nach Artikel 129 Absatz 1 Buchstabe d
+DBG. Einzelheiten hat der Bundesrat in der MBV geregelt. Danach hat der Arbeitgeber so-
+wohl für jede Steuerperiode eine Bescheinigung auszustellen, in welcher er dem Mitarbeiten-
 
-7.3.1 Allgemeines
-Geldwerte Vorteile aus gesperrten oder nicht börsenkotierten Mitarbeiteroptionen, aus An-
-wartschaften auf Mitarbeiteraktien sowie aus unechten Mitarbeiterbeteiligungen werden im
-Zeitpunkt ihrer Realisation besteuert (vgl. auch Ziff. 4.2, Ziff. 5 und Ziff. 6 hievor).
-
-7.3.2 „Import“ von Mitarbeiterbeteiligungen (Art. 7 MBV)
-Als „importierte“ Mitarbeiterbeteiligungen gelten Mitarbeiteroptionen, Anwartschaften auf Mit-
-arbeiteraktien oder unechte Mitarbeiterbeteiligungen, die der Mitarbeitende während einer
-Zeit erworben hat, in der er im Ausland ansässig war, und welche er nach seinem Zuzug in
-die Schweiz hier realisiert (vgl. Art. 7 Abs. 1 MBV).
+den Mitarbeiterbeteiligungen einräumt, als auch für jede Steuerperiode in welcher der Mitar-
+beitende Mitarbeiterbeteiligungen einkommenssteuerlich relevant realisiert (vgl. Ziff. 3 bis 6
+hievor). Diese Verpflichtung gilt auch dann, wenn der Mitarbeiterbeteiligungsplan von einer
+ausländischen Konzerngesellschaft oder durch einen Dritten verwaltet wird.

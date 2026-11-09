@@ -4,18 +4,21 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 45"
-seiten: "10"
+titel: "Ziff. 4.3 Tarif für Alleinerziehende (Tarifcodes H, P) (Teil 1/2)"
+ziffer: "4.3"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.3 Alleinerziehende · S. 16
 
-übung im Ausland von der Schweiz freigestellt werden muss (bspw. bei Vorliegen einer fakti-
-schen Arbeitgeberschaft oder wenn die Voraussetzungen der Monteurklausel nicht erfüllt
-sind).
-Bei Arbeitnehmern mit Ansässigkeit im Ausland ist grundsätzlich nur derjenige Teil der Leis-
-tung steuerbar, der auf in der Schweiz erbrachte Arbeitstage entfällt.
-Für die Ermittlung des satzbestimmenden Einkommens sind die weltweiten Bruttoerwerbs-
-einkünfte (inkl. Ersatzeinkünfte) heranzuziehen (vgl. Art. 7 Abs. 1 DBG).
-Zur Berechnung des steuerbaren sowie satzbestimmenden Einkommens wird auf die Ziffern
-6 (Monatsmodell) und 7 (Jahresmodell) unten verwiesen.
+4.3   Tarif für Alleinerziehende (Tarifcodes H bzw. P)
+Der Tarifcode H (bzw. P für Grenzgänger nach dem DBA-D) gilt nach Artikel 36 Absatz 2bis
+DBG für Alleinstehende, welche mit Kindern oder unterhaltspflichtigen Personen im gleichen
+Haushalt zusammenleben und für deren Unterhalt sie zur Hauptsache aufkommen. Im Kon-
+kubinatsverhältnis mit minderjährigen Kindern unter gemeinsamer elterlicher Sorge oder voll-
+jährigen Kindern in Erstausbildung, für deren Unterhalt die Eltern gemeinsam aufkommen,
+wird der Tarifcode H (bzw. P) mit Kinderabzug demjenigen Elternteil gewährt, der das höhere
+Bruttoeinkommen erzielt (vgl. Ziffer 13.4.2 des Kreisschreibens Nr. 30 der ESTV vom 21. De-
+zember 2010 über die Ehepaar- und Familienbesteuerung; KS 30 ESTV). Vorbehalten bleibt
+die je hälftige Berücksichtigung der Kinderabzüge im Rahmen einer Neuberechnung der
+Quellensteuer oder einer nachträglichen ordentlichen Veranlagung (vgl. Ziffer 11 unten).

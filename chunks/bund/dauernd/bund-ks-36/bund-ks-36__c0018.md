@@ -4,24 +4,19 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 18"
-seiten: "5"
+titel: "Ziff. 4.3.2 Untergeordnete Indizien – Berufsnähe, Fachkenntnisse, bevollmächtigte Dritte (Teil 2/2)"
+ziffer: "4.3.2"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.3.2 › Untergeordnete Indizien · S. 6
 
-Mit Entscheid vom 23. Oktober 2009 (2C.868/2008) hält das Bundesgericht an diesen
-Grundsätzen fest. Zusätzlich präzisiert es in diesem Entscheid die Praxis dahingehend, dass
-die Indizien des systematischen und planmässigen Vorgehens sowie des Einsatzes
-spezieller Fachkenntnisse nur noch untergeordnete Bedeutung hätten. Das
-Transaktionsvolumen und die Fremdfinanzierung treten hingegen in den Vordergrund. Diese
-Präzisierung ist auf die Bewirtschaftung von Portfolioanlagen zugeschnitten (2C_766/2010
-und 2C_385/2011).
-
-Sind bei der Bewirtschaftung eines Wertschriftenportefeuilles die Kriterien nach Ziffer 3
-hievor nicht erfüllt, so ist gemäss Bundesgericht die Prüfung einer selbständigen
-Erwerbstätigkeit anhand der folgenden Gewichtung vorzunehmen:
-
-Im Vordergrund stehende Kriterien:
-
--   Höhe des Transaktionsvolumens (Häufigkeit der Geschäfte und kurze Besitzdauer)
+Schliesslich ist es unerheblich, ob die steuerpflichtige Person Wertschriftengeschäfte selbst
+oder über einen bevollmächtigten Dritten (Bank, Treuhänder, usw.) abwickelt (ASA 71,
+627; 69, 652 und 788; 67, 483; 66, 224). Das Verhalten dieser bevollmächtigten Personen,
+welche als Hilfspersonen gelten, wird der steuerpflichtigen Person zugerechnet. Dies wird
+damit begründet, dass sich der Erfolg (oder Misserfolg) der getätigten Geschäfte letztlich in
+der wirtschaftlichen Leistungsfähigkeit der (auftraggebenden) steuerpflichtigen Person
+einstellt (ASA 63, 43). Das Bundesgericht hat den Grundsatz, dass die Handlungen von
+bevollmächtigten Dritten der steuerpflichtigen Person zuzurechnen sind, in der neusten
+Rechtsprechung ausdrücklich bestätigt (2C_868/2008, E. 3.4).

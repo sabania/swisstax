@@ -4,7 +4,7 @@ quelle: ar-stg
 jur: ar
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 237 StG AR – Steuerbefreiung (Teil 1/3)"
+titel: "Art. 237 StG AR – Steuerbefreiung (Teil 1/2)"
 artikel: "Art. 237"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---

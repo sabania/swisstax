@@ -4,24 +4,25 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten (Teil 2/2)"
-ziffer: "8.4.3"
-seiten: "15"
+titel: "Ziff. 8.5 Nicht abzugsfähig – Haushaltshilfe, Schulgeld, Babysitting, Freizeit"
+ziffer: "8.5"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.5 Abzugsfähige Kosten · S. 16
 
-Bei getrennten, geschiedenen oder unverheirateten Eltern kann grundsätzlich derjenige El-
-ternteil, welcher mit dem Kind zusammenlebt und einer Erwerbstätigkeit nachgeht, erwerbs-
-unfähig und gleichzeitig betreuungsunfähig ist oder sich in Ausbildung befindet, die Kinder-
-drittbetreuungskosten in Abzug bringen. Dies ist in der Regel der Elternteil, der die elterliche
-Sorge (allein oder gemeinsam) innehält und die Unterhaltszahlungen für das Kind gemäss
-Artikel 23 Buchstabe f DBG erhält.
+Wird eine Haushaltshilfe angestellt, die sich während der Erwerbstätigkeit der Eltern auch
+um die Kinder kümmert, kann nur dieser Teil der Kosten für die Haushaltshilfe als Kinder-
+drittbetreuungskosten in Abzug gebracht werden, da die übrigen Aufwendungen für die
+Haushaltsarbeiten nicht abzugsfähige Lebenshaltungskosten darstellen.
 
-Befindet sich das Kind in alternierender Obhut, kann jeder Elternteil maximal 5'050 Franken
-der nachgewiesenen Kosten für die Kinderdrittbetreuung in Abzug bringen. Es besteht auch
-hier die Möglichkeit, dass die Eltern eine andere Aufteilung beantragen (es gelten für diesen
-Fall ebenfalls die Ausführungen unter Ziff. 8.4.3).
+Schulgelder sind ebenfalls als nicht abzugsfähige Lebenshaltungskosten zu qualifizieren. Bei
+den Internatskosten gilt es daher zwischen den reinen Schulkosten und den Kosten zu un-
+terscheiden, die für die Betreuung der Kinder in Internaten anfallen. Somit ist von den Inter-
+natskosten ein angemessener Anteil als Kinderdrittbetreuungskosten zu berücksichtigen, der
+bis zum Maximalbetrag des Abzuges geltend gemacht werden kann.
 
-Jeder Elternteil kann nur jene Kosten geltend machen, die während der Dauer seiner Obhut-
-spflicht für die Drittbetreuung entstanden sind.
+Drittbetreuungskosten, die ausserhalb der effektiven Arbeits- oder Ausbildungszeit der Eltern
+angefallen sind wie etwa durch Babysitting am Abend oder für Freizeitaktivitäten, können
+nicht in Abzug gebracht werden. Solche Kosten, die den Eltern infolge Freizeitgestaltung
+entstehen, sind als nichtabzugsfähige Lebenshaltungskosten zu qualifizieren.

@@ -4,21 +4,18 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 56"
-seiten: "17"
+titel: "Anhang II Art. 1 – Nachsteuerverfahren und Steuerumgehung (Teil 2/4)"
+ziffer: "Art. 1"
+seiten: "19-20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 19–20
 
-Gewährung von entgangenen früheren Steuerentlastungen. Den Kleinstunternehmungen,
-von denen es viele gäbe, die ihre für die Altersvorsorge notwendigen Mittel im Betrieb behal-
-ten, solle die Möglichkeit gegeben werden, mit der Liquidation ihre Altersvorsorge steuerbe-
-günstigt zu bestreiten. Der Fokus auf einer Reduktion des Steuertarifs anstelle der Besteue-
-rung eines fiktiv reduzierten Liquidationsgewinns (Lösung des Ständerats) sei sachgerecht,
-weil damit den einschlägigen Bestimmungen für Kapitalleistungen der beruflichen Vorsorge
-der Unselbständigen entsprochen werde. Mit der Lösung des Ständerats würde eine Reich-
-tumssteuer für Liquidationsgewinne eingeführt und für die Verwaltung administrativer Mehr-
-aufwand generiert. Kleinstunternehmen würden bestraft und eine merkwürdige Progressi-
-onskurve würde ins Gesetz übernommen. Aus diesen Gründen beschloss der Nationalrat,
-dass der gesonderte Liquidationsgewinn zu einem Fünftel der Tarife nach Artikel 36 DBG
-besteuert werden solle.
+Zeitpunkt der Veranlagung vorhanden waren, der Steuerbehörde jedoch erst im Nachhinein
+bekannt wurden (vgl. Klaus A. Vallender/Martin E. Looser, in: Martin Zweifel/Peter Athanas
+[Hrsg.], Kommentar zum Schweizerischen Steuerrecht, Bd. I/2b, Art. 151 DBG N 1 und 7).
+Bei der Beantwortung der Frage, ob neue Tatsachen oder Beweismittel schon im Zeitpunkt
+der Veranlagung vorlagen, ist der Aktenstand in diesem Zeitpunkt massgeblich (BGE
+2C.21/2008 vom 10. Juni 2008 E. 2.1; 2A.502/2005 vom 2. Februar 2006 E. 2, in: StR
+61/2006 442, S. 444 mit Hinweis). Solche „neuen“ Tatsachen bestehen in diesen Fällen
+nicht, weshalb ein Nachsteuerverfahren nach Artikel 151 DBG nicht möglich ist.

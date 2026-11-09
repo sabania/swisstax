@@ -4,15 +4,34 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 68"
-seiten: "16"
+titel: "Ziff. 10 Altrechtliche Rulings, Änderungen 2021 und Anhänge I–V"
+ziffer: "10"
+seiten: "21-22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 37 · 10 Inkrafttreten, Aufhebungen und Übergangsrecht · S. 21–22
 
-Im internationalen Verhältnis ist zu berücksichtigen, dass der Empfänger von Mitarbeiterbe-
-teiligungen, welche im Zeitpunkt der Realisation steuerbar sind, dannzumal seine Ansässig-
-keit entweder in der Schweiz oder im Ausland haben kann. In beiden Fällen kann die Besteu-
-erung an der Quelle erfolgen, sofern die Voraussetzungen der Artikel 83 bzw. Artikel 91, 97
-oder 93 sowie des Artikel 97a DBG erfüllt sind. Daraus ergeben sich folgende Möglichkeiten
-zur Besteuerung:
+Altrechtliche Vorbescheide (Rulings), die einem Arbeitgeber und ihren Mitarbeitenden für Mit-
+arbeiteroptionen die Zuteilungs- oder Vestingbesteuerung zusicherten, behalten ihre Gültig-
+keit insoweit die Besteuerung (bei Zuteilung oder Vesting) bis und mit Steuerperiode 2012
+erfolgte; d.h. ab der Steuerperiode 2013 ist bei Mitarbeiteroptionen keine derartige (altrechtli-
+che) Zuteilungs- oder Vestingbesteuerung mehr zulässig.
+
+Altrechtliche Vorbescheide (Rulings), die dem Inhalt dieses Kreisschreibens nicht entspre-
+chen, entfalten ab der Steuerperiode 2013 keine Wirkung mehr.
+
+Die Anpassungen in den Ziffern 3.2.2, 3.4.3 sowie die neue Ziffer 3.4.4 des Kreisschreibens
+in der Version vom 30. Oktober 2020 treten auf den 1. Januar 2021 in Kraft und entfalten ihre
+Wirkung ab diesem Zeitpunkt. Der zusätzliche Anhang V des vorliegenden Kreisschreibens
+findet ebenfalls ab dem 1. Januar 2021 Anwendung.
+
+
+Anhang I: Übersicht über Mitarbeiterbeteiligungen
+
+Anhang II: Beispiele
+
+Anhang III: Musterbescheinigungen in Papierform
+
+Anhang IV: Fallbeispiele zur Quellenbesteuerung
+
+Anhang V: Elektronische Musterbescheinigungen

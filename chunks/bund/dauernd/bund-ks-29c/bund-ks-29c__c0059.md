@@ -4,24 +4,21 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 59"
-seiten: "19"
+titel: "Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel (Teil 1/3)"
+ziffer: "9.1"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.1 Ausweis im Jahresabschluss · S. 25
 
-Bei der Umwandlung findet eine Liquidation der Kapitalgesellschaft oder Genossenschaft
-statt. Der Liquidationsüberschuss (Verkehrswert des Aktivenüberschusses abzüglich des
-Nennwertes und der KER bzw. Ausland-KER) unterliegt bei den bisher beteiligten natürli-
-chen Personen der Einkommenssteuer.
+9.   Ausweis im Jahresabschluss und Meldung von Veränderungen
 
-b)   Verrechnungssteuer
+9.1.   Ausweis im Jahresabschluss
 
-Die Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine Personenunterneh-
-mung kommt steuerlich einer Liquidation gleich. Auf dem Liquidationsüberschuss (Verkehrs-
-wert des Aktivenüberschusses abzüglich des Nennwertes und der KER bzw. Ausland-KER)
-ist die Verrechnungssteuer geschuldet.
-
-6.4.   Spaltung
-
-a)   Direkte Bundessteuer (Einkommenssteuer)
+KER, die nach dem 31. Dezember 1996 geleistet worden sind, werden nach Artikel 5 Ab-
+satz 1bis VStG nur dann wie die Rückzahlung von Grund- oder Stammkapital behandelt,
+wenn sie in der Handelsbilanz in einer oder mehreren gesonderten Positionen in den gesetz-
+lichen oder freien Kapitalreserven ausgewiesen werden und die Kapitalgesellschaft oder Ge-
+nossenschaft der ESTV jede Veränderung auf diesen Positionen meldet. Gleiches gilt für
+Ausland-KER, für welche aufgrund von Artikel 5 Absatz 1quinquies VStG ebenfalls gesonderte
+Positionen zu führen sind.

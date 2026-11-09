@@ -4,18 +4,31 @@ quelle: bund-ks-36
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 36 – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 2.3 Absicht des Gesetzgebers im Stabilisierungsprogramm 1998"
+ziffer: "2.3"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 36 · 2 Rechtliche Grundlagen › 2.3 · S. 2–3
 
-4.1   Grundsatz: Übernahme der unter dem BdBSt entwickelten Praxis
-    für das DBG (BGE vom 2. Dezember 1999)...................................................4
-4.2   Wertschriften ..................................................................................................4
-4.3   Abgrenzung der selbständigen Erwerbstätigkeit mit Wertschriften zur
-    privaten Vermögensverwaltung ....................................................................4
-4.3.1   Allgemeine Kriterien ......................................................................................... 4
-4.3.2   Besonderheiten für Wertschriftenportefeuilles .................................................. 5
-4.4   Bemessungsgrundlage ..................................................................................6
-5.   Beurteilungszeitpunkt ....................................................................................7
+2.3   Absicht des Gesetzgebers im Stabilisierungsprogramm 1998
+
+Die Eidgenössischen Räte haben in den Beratungen des Bundesgesetzes über das
+Stabilisierungsprogramm 1998 2 versucht, den gewerbsmässigen Wertschriftenhandel im
+Gesetz explizit zu regeln. Dieses Vorhaben scheiterte jedoch auf Grund der Komplexität
+dieser Materie. Es wurde daher beschlossen, im Gesetz nichts zu regeln und es beim
+bisherigen Recht (Praxis und Rechtsprechung zum BdBSt) zu belassen. Somit stand der
+"Wille des Gesetzgebers" eindeutig fest.
+
+Aus den Beratungen des Bundesgesetzes über das Stabilisierungsprogramm 1998 geht
+jedoch hervor, dass die Praxis zum gewerbsmässigen Wertschriftenhandel nicht ausgedehnt
+
+
+1
+    SR 642.11
+2
+    AS 1999 2374
+
+werden darf 3. Eine "dynamische" private Vermögensverwaltung soll nach wie vor möglich
+sein 4. Als stärkstes Indiz des gewerbsmässigen Wertschriftenhandels gilt der Einsatz
+fremder Mittel 5.

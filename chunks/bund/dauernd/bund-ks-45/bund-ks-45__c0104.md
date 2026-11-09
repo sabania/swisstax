@@ -4,27 +4,24 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 104"
-seiten: "26"
+titel: "Ziff. 6.9 Beispiel 2 – Bonus nach Austritt, Ansässigkeit in Österreich (Teil 2/2)"
+ziffer: "6.9"
+seiten: "33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.9 Leistungen bei/nach Beendigung · S. 33
 
-    4. Der Arbeitnehmer H. ist bei der S. AG vom 17. bis zum 28. Juni 2021 im Stundenlohn angestellt. Er arbei-
-    tet in dieser Zeit während 72 Stunden, welche ihm mit brutto CHF 35.00 pro Stunde entschädigt werden.
-    Der gesamte Lohn wird ihm am Ende des Arbeitsverhältnisses ausbezahlt.
+    zahlten Bruttolohn. Da Y. im Jahr 2021 (Verdienstperiode) während 66 von insgesamt 220 Arbeitstagen
+    (20 Arbeitstage pro Monat von Januar bis November) im Ausland tätig war, unterliegt der Bonus nur im
+    Umfang von CHF 10 500.00 (CHF 15 000.00 / 220 x 154) zum Satz von CHF 23 000.00 (letzter Monats-
+    lohn CHF 8 000.00 + Bonus CHF 15 000.00) in der Schweiz der Quellensteuer.
 
-    Arbeitgeber   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
-    lohn   stimmend   len-
-    steuer
+    Leistungen   steuerbar   Satz   satzbestimmend
 
-    S. AG   35.00   2 520   72   180   6 300   13.0 %   327.60
+    Bruttolohn (Nov. 2021)   8 000   15,0 %   8 000
 
-    5. Der Arbeitnehmer M. arbeitet bei der L. AG. Er ist im Stundenlohn angestellt und verdient CHF 35.00 pro
-    Stunde. Im April 2021 rechnet der Arbeitnehmer für 5 Wochen seine Arbeitsstunden ab und im Monat Mai
-    2021 für 2 Wochen. Auf der im April 2021 eingereichten Abrechnung werden 195 Stunden ausgewiesen
-    und auf der Abrechnung für den Monat Mai 2021 deren 50 Stunden.
+    Bonus (Apr. 2022)   10 500   27,0 %   23 000
 
-    Abrechnung   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
-    lohn   stimmend   len-
-    steuer
+    Quellensteuern bezahlt November 2021   1 200
+
+    Quellensteuern geschuldet April 2022   2 835

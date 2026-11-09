@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.zh.ch/de/news-uebersicht/mitteilungen/2026/steuern-finanzen/ueberblick-ueber-aenderungen-im-zuercher-steuerbuch-.html> · lokal: [zh-mm-steuerbuch-2026.html](../../../raw/zh/2026/zh-mm-steuerbuch-2026.html) · Volltext: [zh-mm-steuerbuch-2026.md](../../../sources/zh/2026/zh-mm-steuerbuch-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c95a1f1884185e95…`
 
-## Inhalt (9 Chunks)
+## Inhalt (8 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -24,4 +24,3 @@ generiert: tools/build_index.py
 | [c0006](../../../chunks/zh/2026/zh-mm-steuerbuch-2026/zh-mm-steuerbuch-2026__c0006.md) | Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026) |  |  |
 | [c0007](../../../chunks/zh/2026/zh-mm-steuerbuch-2026/zh-mm-steuerbuch-2026__c0007.md) | Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026) |  |  |
 | [c0008](../../../chunks/zh/2026/zh-mm-steuerbuch-2026/zh-mm-steuerbuch-2026__c0008.md) | Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026) |  |  |
-| [c0009](../../../chunks/zh/2026/zh-mm-steuerbuch-2026/zh-mm-steuerbuch-2026__c0009.md) | Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026) |  |  |

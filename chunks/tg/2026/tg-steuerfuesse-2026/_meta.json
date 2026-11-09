@@ -1,465 +1,782 @@
 [
 {
 "id": "tg-steuerfuesse-2026__c0001",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 1",
-"pfad": [],
+"titel": "Titelseite Statistische Mitteilung 3/2026 – Steuerfüsse TG",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG"
+],
+"positionen": [],
+"zusammenfassung": "Die meisten Politischen Gemeinden halten an den Steuerfüssen fest (Steuerfüsse 2026, Steuerkraft 2025).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "tg-steuerfuesse-2026__c0002"
 },
 {
 "id": "tg-steuerfuesse-2026__c0002",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 2",
-"pfad": [],
+"titel": "Überblick 2026 – Durchschnittlicher Gemeindesteuerfuss stabil (72 von 80 unverändert)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Überblick"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Veränderung Steuerfuss"
+],
+"positionen": [],
+"zusammenfassung": "Von den 80 Politischen Gemeinden hielten 2026 72 am Steuerfuss fest, 4 erhöhten, 4 senkten.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0001",
 "nachher": "tg-steuerfuesse-2026__c0003"
 },
 {
 "id": "tg-steuerfuesse-2026__c0003",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 3",
-"pfad": [],
+"titel": "Durchschnittlicher Gemeindesteuerfuss 55.8 % – tiefster/höchster Steuerfuss",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Gemeindesteuerfuss"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Warth-Weiningen",
+"Arbon",
+"Romanshorn",
+"durchschnittlicher Steuerfuss"
+],
+"positionen": [],
+"zusammenfassung": "Der gewichtete Gemeindesteuerfuss beträgt 55.8 % (-0.1 Prozentpunkte); tiefster Warth-Weiningen 34 %, höchster Arbon und Romanshorn je 70 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0002",
 "nachher": "tg-steuerfuesse-2026__c0004"
 },
 {
 "id": "tg-steuerfuesse-2026__c0004",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 4",
-"pfad": [],
+"titel": "Gemeinden mit Steuerfusserhöhung oder -senkung 2026",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Gemeindesteuerfuss"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Erhöhung",
+"Senkung",
+"Hauptwil-Gottshaus",
+"Zihlschlacht-Sitterdorf"
+],
+"positionen": [],
+"zusammenfassung": "Höhere Gemeindesteuerfüsse in 4 Gemeinden (Hauptwil-Gottshaus +5, Warth-Weiningen +4); Senkungen u.a. Zihlschlacht-Sitterdorf -5.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0003",
 "nachher": "tg-steuerfuesse-2026__c0005"
 },
 {
 "id": "tg-steuerfuesse-2026__c0005",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 5",
-"pfad": [],
+"titel": "Schulsteuerfüsse 2026 – gewichteter Durchschnitt 89.4 %",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Schulsteuerfuss"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Schulsteuerfuss",
+"Schulgemeinden"
+],
+"positionen": [],
+"zusammenfassung": "Der gewichtete Schulsteuerfuss stieg 2026 leicht auf 89.4 % (2025: 89.2 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0004",
 "nachher": "tg-steuerfuesse-2026__c0006"
 },
 {
 "id": "tg-steuerfuesse-2026__c0006",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 6",
-"pfad": [],
+"titel": "Tabelle Anzahl Gemeinden mit Steuerfusserhöhungen/-senkungen 2023–2026",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Überblick"
+],
 "seiten": [
-3
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Statistik Erhöhung Senkung"
+],
+"positionen": [],
+"zusammenfassung": "Politische Gemeinden 2026: 4 Senkungen, 72 unverändert, 4 Erhöhungen; Schulgemeinden 2026: 6 Senkungen, 56 unverändert, 10 Erhöhungen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0005",
 "nachher": "tg-steuerfuesse-2026__c0007"
 },
 {
 "id": "tg-steuerfuesse-2026__c0007",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 7",
-"pfad": [],
+"titel": "Karte Gemeindesteuerfüsse der Politischen Gemeinden 2026 (Klassen) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Karte"
+],
 "seiten": [
 3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Steuerfuss Karte",
+"Klassen 30-39 % bis 70-76 %"
+],
+"positionen": [],
+"zusammenfassung": "Kartenbeschriftung: 6 Gemeinden mit 30-39 %, 21 mit 40-49 %, 36 mit 50-59 %, 15 mit 60-69 %, 2 mit 70-76 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0006",
 "nachher": "tg-steuerfuesse-2026__c0008"
 },
 {
 "id": "tg-steuerfuesse-2026__c0008",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 8",
-"pfad": [],
+"titel": "Karte Gemeindesteuerfüsse der Politischen Gemeinden 2026 (Klassen) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Karte"
+],
 "seiten": [
 3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Steuerfuss Karte",
+"Klassen 30-39 % bis 70-76 %"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0007",
 "nachher": "tg-steuerfuesse-2026__c0009"
 },
 {
 "id": "tg-steuerfuesse-2026__c0009",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 9",
-"pfad": [],
+"titel": "Entwicklung der Steuerfüsse seit 2005 – Staatssteuerfuss 109 % seit 2022 (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Entwicklung"
+],
 "seiten": [
 3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Staatssteuerfuss 109 %",
+"Entwicklung 20 Jahre",
+"Streuung"
+],
+"positionen": [],
+"zusammenfassung": "Der Staatssteuerfuss liegt seit 2022 bei 109 %; in der Hälfte der Gemeinden liegt der Gemeindesteuerfuss 2026 zwischen 48 % und 58 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0008",
 "nachher": "tg-steuerfuesse-2026__c0010"
 },
 {
 "id": "tg-steuerfuesse-2026__c0010",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 10",
-"pfad": [],
+"titel": "Entwicklung der Steuerfüsse seit 2005 – Staatssteuerfuss 109 % seit 2022 (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Entwicklung"
+],
 "seiten": [
-4
+3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Staatssteuerfuss 109 %",
+"Entwicklung 20 Jahre",
+"Streuung"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0009",
 "nachher": "tg-steuerfuesse-2026__c0011"
 },
 {
 "id": "tg-steuerfuesse-2026__c0011",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 11",
-"pfad": [],
+"titel": "Veränderung der Gemeindesteuerfüsse gegenüber vor zehn Jahren",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Entwicklung"
+],
 "seiten": [
 4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Mammern",
+"Steckborn",
+"Zehnjahresvergleich"
+],
+"positionen": [],
+"zusammenfassung": "In 52 Gemeinden sind die Steuerfüsse 2026 tiefer als 2016, in 15 höher, in 13 gleich; stärkste Erhöhung Mammern +12, stärkste Senkung Steckborn -16 Prozentpunkte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0010",
 "nachher": "tg-steuerfuesse-2026__c0012"
 },
 {
 "id": "tg-steuerfuesse-2026__c0012",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 12",
-"pfad": [],
+"titel": "Grafik Steuerfüsse und Veränderung zu vor 10 Jahren (Streudiagramm)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Entwicklung"
+],
 "seiten": [
 4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Streudiagramm"
+],
+"positionen": [],
+"zusammenfassung": "Streudiagramm der Gemeindesteuerfüsse 2026 und der Veränderung gegenüber 2016 (nur Gemeindenamen aus Grafik).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0011",
 "nachher": "tg-steuerfuesse-2026__c0013"
 },
 {
 "id": "tg-steuerfuesse-2026__c0013",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 13",
-"pfad": [],
+"titel": "Schulsteuerfüsse und Gesamtsteuerfüsse – Erhöhungen und Senkungen 2026",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Schulsteuerfuss",
+"Gesamtsteuerfuss"
+],
 "seiten": [
 4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Gesamtsteuerfuss",
+"Kirchensteuerfuss",
+"evangelisch katholisch"
+],
+"positionen": [],
+"zusammenfassung": "Von 72 Schulgemeinden senkten 6 und erhöhten 10 den Steuerfuss; Bandbreite 60 % bis 111 %; stärkste Erhöhung der Gesamtsteuerfüsse Bottighofen +8.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0012",
 "nachher": "tg-steuerfuesse-2026__c0014"
 },
 {
 "id": "tg-steuerfuesse-2026__c0014",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 14",
-"pfad": [],
+"titel": "Gesamtsteuerfüsse juristische Personen – Erhöhungen in 24 Gemeinden",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Gesamtsteuerfuss"
+],
 "seiten": [
 4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"juristische Personen",
+"Gesamtsteuerfuss"
+],
+"positionen": [],
+"zusammenfassung": "Bei juristischen Personen stieg der Gesamtsteuerfuss in 24 Gemeinden (Bottighofen +8), in 19 Gemeinden sank er.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0013",
 "nachher": "tg-steuerfuesse-2026__c0015"
 },
 {
 "id": "tg-steuerfuesse-2026__c0015",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 15",
-"pfad": [],
+"titel": "Steuergünstigste Gemeinden und höchste Steuerlast (Gesamtsteuerfuss)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Gesamtsteuerfuss"
+],
 "seiten": [
 5
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"steuergünstigste Gemeinde",
+"Bottighofen",
+"Warth-Weiningen",
+"Arbon"
+],
+"positionen": [],
+"zusammenfassung": "Evangelisch: Bottighofen 221 %, Warth-Weiningen 223 %, Horn 228 %; katholisch Warth-Weiningen 219 %, Horn 224 %; höchste Last Arbon (evang. 304 %, kath. 302 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0014",
 "nachher": "tg-steuerfuesse-2026__c0016"
 },
 {
 "id": "tg-steuerfuesse-2026__c0016",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 16",
-"pfad": [],
+"titel": "Steuerkraft 2025 pro Einwohner steigt um 5 % auf 2'472 Franken (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Steuerkraft"
+],
 "seiten": [
 5
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Steuerkraft",
+"Steuerkraft pro Einwohner"
+],
+"positionen": [],
+"zusammenfassung": "Die Steuerkraft pro Einwohner stieg 2025 um 5 % auf 2'472 Franken; stärkster Anstieg Raperswilen +28 %.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0015",
 "nachher": "tg-steuerfuesse-2026__c0017"
 },
 {
 "id": "tg-steuerfuesse-2026__c0017",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 17",
-"pfad": [],
+"titel": "Steuerkraft 2025 pro Einwohner steigt um 5 % auf 2'472 Franken (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Steuerkraft"
+],
 "seiten": [
 5
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Steuerkraft",
+"Steuerkraft pro Einwohner"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0016",
 "nachher": "tg-steuerfuesse-2026__c0018"
 },
 {
 "id": "tg-steuerfuesse-2026__c0018",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 18",
-"pfad": [],
+"titel": "Höchste und tiefste Steuerkraft 2025 – Warth-Weiningen 5'922 Franken; Bezirke",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Steuerkraft"
+],
 "seiten": [
 5
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Steuerkraft Rangliste",
+"Gottlieben",
+"Schönholzerswilen",
+"Bezirke"
+],
+"positionen": [],
+"zusammenfassung": "Höchste Steuerkraft Warth-Weiningen 5'922, Gottlieben 5'342, Bottighofen 4'783; tiefste Schönholzerswilen 1'682; Bezirk Kreuzlingen 2'888, Frauenfeld 2'719.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0017",
 "nachher": "tg-steuerfuesse-2026__c0019"
 },
 {
 "id": "tg-steuerfuesse-2026__c0019",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 19",
-"pfad": [],
+"titel": "Mittlere Steuerkraft (Median) 2'245 Franken",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Steuerkraft"
+],
 "seiten": [
 5
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Median Steuerkraft",
+"Spannweite"
+],
+"positionen": [],
+"zusammenfassung": "Die mittlere Steuerkraft (Median) betrug 2025 2'245 Franken.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0018",
 "nachher": "tg-steuerfuesse-2026__c0020"
 },
 {
 "id": "tg-steuerfuesse-2026__c0020",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 20",
-"pfad": [],
+"titel": "Steuerkraft über zwanzig Jahre – Streuung der Gemeinden (Grafik)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Steuerkraft"
+],
 "seiten": [
 6
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Steuerkraft Entwicklung",
+"Streuung"
+],
+"positionen": [],
+"zusammenfassung": "Die mittlere Steuerkraft ist in zwanzig Jahren gestiegen; die Spannweite zeigt keine eindeutige Tendenz.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0019",
 "nachher": "tg-steuerfuesse-2026__c0021"
 },
 {
 "id": "tg-steuerfuesse-2026__c0021",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 21",
-"pfad": [],
+"titel": "Karte Steuerkraft pro Einwohner der Politischen Gemeinden 2025 (Klassen) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Karte"
+],
 "seiten": [
 6
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Steuerkraft Karte"
+],
+"positionen": [],
+"zusammenfassung": "Kartenbeschriftung der Steuerkraft in Klassen: unter 1'700, 1'700-1'999, 2'000-2'999, 3'000-3'999, über 4'000 Franken.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0020",
 "nachher": "tg-steuerfuesse-2026__c0022"
 },
 {
 "id": "tg-steuerfuesse-2026__c0022",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 22",
-"pfad": [],
+"titel": "Karte Steuerkraft pro Einwohner der Politischen Gemeinden 2025 (Klassen) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Karte"
+],
 "seiten": [
 6
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Steuerkraft Karte"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0021",
 "nachher": "tg-steuerfuesse-2026__c0023"
 },
 {
 "id": "tg-steuerfuesse-2026__c0023",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 23",
-"pfad": [],
+"titel": "Tabelle Steuerfüsse 2026/Steuerkraft 2025 – Kopf, Kanton, Bezirke Arbon und Frauenfeld (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Tabelle nach Gemeinden"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Staatssteuerfuss 109 %",
+"Schulsteuerfuss",
+"Kirchensteuerfuss",
+"Amriswil",
+"Arbon",
+"Frauenfeld",
+"Kanton Thurgau"
+],
+"positionen": [],
+"zusammenfassung": "Staatssteuerfuss 109 %; Kanton Thurgau gewichtet: Gemeinde 55.8 %, Schule 89.4 %, Gesamtsteuerfuss 274.1 %, Steuerkraft 2'472 Franken.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0022",
 "nachher": "tg-steuerfuesse-2026__c0024"
 },
 {
 "id": "tg-steuerfuesse-2026__c0024",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 24",
-"pfad": [],
+"titel": "Tabelle Steuerfüsse 2026/Steuerkraft 2025 – Kopf, Kanton, Bezirke Arbon und Frauenfeld (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Tabelle nach Gemeinden"
+],
 "seiten": [
 7
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Staatssteuerfuss 109 %",
+"Schulsteuerfuss",
+"Kirchensteuerfuss",
+"Amriswil",
+"Arbon",
+"Frauenfeld",
+"Kanton Thurgau"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0023",
 "nachher": "tg-steuerfuesse-2026__c0025"
 },
 {
 "id": "tg-steuerfuesse-2026__c0025",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 25",
-"pfad": [],
+"titel": "Tabelle Steuerfüsse – Bezirke Münchwilen/Frauenfeld (Fortsetzung) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Tabelle nach Gemeinden"
+],
 "seiten": [
 7
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Aadorf",
+"Frauenfeld",
+"Münchwilen",
+"Sirnach",
+"Steckborn"
+],
+"positionen": [],
+"zusammenfassung": "Steuerfüsse (Gemeinde, Schule, Kirche ev./kath., Gesamt, Steuerkraft) für Bezirk Frauenfeld und Münchwilen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0024",
 "nachher": "tg-steuerfuesse-2026__c0026"
 },
 {
 "id": "tg-steuerfuesse-2026__c0026",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 26",
-"pfad": [],
+"titel": "Tabelle Steuerfüsse – Bezirke Münchwilen/Frauenfeld (Fortsetzung) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Tabelle nach Gemeinden"
+],
 "seiten": [
 7
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Aadorf",
+"Frauenfeld",
+"Münchwilen",
+"Sirnach",
+"Steckborn"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0025",
 "nachher": "tg-steuerfuesse-2026__c0027"
 },
 {
 "id": "tg-steuerfuesse-2026__c0027",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 27",
-"pfad": [],
+"titel": "Tabelle Steuerfüsse – Bezirke Frauenfeld/Kreuzlingen/Weinfelden (Fortsetzung) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Tabelle nach Gemeinden"
+],
 "seiten": [
 7
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Weinfelden",
+"Kreuzlingen",
+"Warth-Weiningen",
+"Bottighofen",
+"Bischofszell"
+],
+"positionen": [],
+"zusammenfassung": "Steuerfüsse für Gemeinden der Bezirke Frauenfeld, Kreuzlingen (Ø 53.7 / 77.3 / 257.3 / 2'888) und Weinfelden (Ø 55.2 / 93.3 / 279.9 / 2'170).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0026",
 "nachher": "tg-steuerfuesse-2026__c0028"
 },
 {
 "id": "tg-steuerfuesse-2026__c0028",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 28",
-"pfad": [],
+"titel": "Tabelle Steuerfüsse – Bezirke Frauenfeld/Kreuzlingen/Weinfelden (Fortsetzung) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Tabelle nach Gemeinden"
+],
 "seiten": [
 7
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Weinfelden",
+"Kreuzlingen",
+"Warth-Weiningen",
+"Bottighofen",
+"Bischofszell"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0027",
 "nachher": "tg-steuerfuesse-2026__c0029"
 },
 {
 "id": "tg-steuerfuesse-2026__c0029",
-"titel": "Steuerfüsse TG 2026 – Abschnitt 29",
-"pfad": [],
+"titel": "Fussnoten zur Tabelle und Hinweis auf Detailtabellen",
+"pfad": [
+"Steuerfüsse 2026, Steuerkraft 2025",
+"Tabelle nach Gemeinden"
+],
 "seiten": [
 7
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Thurgau",
+"Gemeindesteuerfuss",
+"Statistik TG",
+"Fussnoten",
+"Detailtabellen"
+],
+"positionen": [],
+"zusammenfassung": "Fussnoten: Steuerfuss der einwohnerstärksten Ortsteile; Kirchensteuerfüsse evangelisch/katholisch; Steuerfüsse nach Einwohnerzahl gewichtete Durchschnitte.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "tg-steuerfuesse-2026__c0028",
 "nachher": null
 }

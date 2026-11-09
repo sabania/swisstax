@@ -4,29 +4,16 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 62"
-seiten: "20"
+titel: "Ziff. 9.2 Deklaration für die direkte Bundessteuer (Art. 125 Abs. 3 DBG)"
+ziffer: "9.2"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.2 Deklaration DBG · S. 25
 
-<!-- Seite 20 -->
-6.5.   Ausgliederung
+9.2.   Deklaration für die direkte Bundessteuer
 
-a)   Direkte Bundessteuer (Einkommenssteuer)
-
-Nicht betroffen.
-
-b)   Direkte Bundessteuer (Gewinnsteuer)
-
-Der übertragene und ausgewiesene Aktivenüberschuss der Vermögenswerte kann in der
-Handelsbilanz der übernehmenden Kapitalgesellschaft oder Genossenschaft steuerneutral
-als KER, bei Übertragungen aus dem Ausland nach Artikel 5 Absatz 1quater Buchstaben a und
-b VStG als Ausland-KER ausgewiesen und/oder für die Liberierung von Grund- oder Stamm-
-kapital verwendet werden.
-
-Werden infolge Sperrfristverletzung die übertragenen stillen Reserven nach Artikel 61 Ab-
-satz 2 DBG im Nachsteuerverfahren besteuert, kann in der Handelsbilanz der übernehmen-
-den Kapitalgesellschaft oder Genossenschaft keine KER ausgewiesen werden.
-
-c)   Verrechnungssteuer
+Kapitalgesellschaften und Genossenschaften haben nach Artikel 125 Absatz 3 DBG den Be-
+stand der Reserven aus Aufgeldern und Zuschüssen im Sinne von Artikel 20 Absätze 3 -
+7 DBG am Ende der Steuerperiode oder der Steuerpflicht in der Steuererklärung gesondert
+auszuweisen.

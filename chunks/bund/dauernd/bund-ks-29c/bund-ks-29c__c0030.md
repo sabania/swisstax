@@ -4,30 +4,23 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 30"
-seiten: "11"
+titel: "Ziff. 6.1 Übertragung eines Betriebs einer Personenunternehmung auf juristische Person"
+ziffer: "6.1"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.1 Betriebsübertragung · S. 15
 
-<!-- Seite 11 -->
-4.2.   Spezialfälle
+6.   Umstrukturierungen allgemein
 
-4.2.1. Gratisaktien und Gratisnennwerterhöhungen
+6.1.   Übertragung eines Betriebes oder Teilbetriebes einer Personenunterneh-
+    mung auf eine juristische Person
 
-Soweit Gratisaktien oder Gratisnennwerterhöhungen zu Lasten von übrigen Reserven libe-
-riert werden, unterliegen sie der direkten Bundessteuer (Einkommenssteuer) nach Artikel 20
-Absatz 1 Buchstabe c oder 20 Absatz 1bis DBG und der Verrechnungssteuer nach Artikel 4
-Absatz 1 Buchstabe b VStG.
+Der handelsrechtliche Aktivenüberschuss der übertragenen Vermögenswerte (Buchwert-
+übernahme) kann in der Handelsbilanz der übernehmenden Kapitalgesellschaft oder Genos-
+senschaft steuerneutral als KER ausgewiesen werden, soweit er das Grund- oder Stammka-
+pital übersteigt.
 
-Soweit die Liberierung zu Lasten der KER bzw. Ausland-KER erfolgt, unterliegen Gratisak-
-tien oder Gratisnennwerterhöhungen weder der Einkommenssteuer (Art. 20 Abs. 3 DBG)
-noch der Verrechnungssteuer (Art. 5 Abs. 1bis VStG). Der steuerbare Anteil der Liberierung
-ist nach den in Ziffer 4.1. festgehaltenen Grundsätzen zu berechnen.
-
-4.2.2. Direkte Teilliquidation
-
-Der steuerbare Anteil des Liquidationserlöses ist nach den in Ziffer 4.1. festgehaltenen
-Grundsätzen zu berechnen.
-
-4.2.3. Rückkauf eigener Beteiligungsrechte
+Werden infolge Sperrfristverletzung die übertragenen stillen Reserven nach Artikel 19 Ab-
+satz 2 DBG im Nachsteuerverfahren besteuert, kann in der Handelsbilanz der übernehmen-
+den Kapitalgesellschaft oder Genossenschaft keine KER ausgewiesen werden.

@@ -4,18 +4,22 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 8"
-seiten: "2"
+titel: "Ziff. 5.1 Abzugsberechtigung für Beiträge – Allgemeines"
+ziffer: "5.1"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 2
+> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.1 Allgemeines · S. 4
 
-<!-- Seite 2 -->
-7.   Reinvestition der Altersleistung aus einer 2. Säule in eine Vorsorgeform der Säule 3a...... 11
-8.   Bescheinigungspflicht ................................................................................................................. 11
-9.   Folgen unzulässiger Einzahlungen ............................................................................................ 12
-    9.1. Für den Vorsorgenehmer ....................................................................................................... 12
-    9.2. Für Bankstiftungen ................................................................................................................. 12
-10. Anlage in Wertschriften; Verrechnungssteuer-Rückforderung .............................................. 12
-11. Besteuerung bei Leistungen im Todesfall ................................................................................. 13
-12. Inkrafttreten .................................................................................................................................. 13
+5.   Abzugsberechtigung für Beiträge
+5.1. Allgemeines
+Arbeitnehmer und Selbständigerwerbende, welche ein AHV-pflichtiges Erwerbseinkommen
+erzielen, können nach Artikel 33 Absatz 1 Buchstabe e des Bundesgesetzes vom 14. De-
+zember 1990 über die direkte Bundessteuer (DBG; SR 642.11) in Verbindung mit Artikel 7
+BVV 3 ihre Beiträge an anerkannte Vorsorgeformen in begrenztem Umfang steuerlich zum
+Abzug bringen. Diese Beiträge gelten bei selbständig erwerbenden Personen stets als Kos-
+ten der privaten Lebenshaltung und dürfen deshalb der Erfolgsrechnung nicht belastet wer-
+den. Der Umfang der Abzugsberechtigung entspricht zugleich der Höhe der zulässigen Bei-
+träge an diese Vorsorgeformen; die Leistung höherer als der steuerlich abzugsberechtigten
+Beiträge ist nicht möglich. Überschiessende Beiträge unterliegen der Rückerstattungs-
+pflicht(vgl. dazu auch Ziffer 9.1).

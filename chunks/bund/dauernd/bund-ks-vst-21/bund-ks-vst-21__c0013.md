@@ -4,23 +4,25 @@ quelle: bund-ks-vst-21
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS VST 21 – Abschnitt 13"
-seiten: "3"
+titel: "Ziff. 6 Abgabe des Tax-Voucher"
+ziffer: "6"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 21 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS VST 21 · 6 Abgabe des Tax-Voucher · S. 4–5
 
-3   Massnahmen zur Vermeidung der Rückerstattung nicht abgelieferter Verrech-
-    nungssteuer
-3.1   Short Positionen bei inländischen Banken oder Depotstellen
-Wird durch eine Schweizer Bank oder inländische Depotstelle infolge eines Short-Verkaufs
-(eigene oder Kunden-Verkäufe) eine manufactured dividend ins System eingeführt, besteht
-für die Bank oder Depotstelle die Verpflichtung, diese nicht von der ausschüttenden Gesell-
-schaft stammende manufactured dividend zu 100 Prozent zu belasten, in einem der Ver-
-rechnungssteuer gleich kommenden Umfang von 35 Prozent zu kürzen und den entspre-
-chenden Betrag an die ESTV abzuliefern.
-3.2   Short Positionen bei ausländischen Banken oder Depotstellen
-Da durch die ESTV nicht bewirkt werden kann, dass ausländische Stellen auf manufactured
-dividends einen der Verrechnungssteuer entsprechenden Abzug vornehmen, wird zur Ver-
-meidung ungerechtfertigter Steuerrückforderungen das nachfolgend beschriebene Tax-
-Voucher-System eingeführt.
+6 Abgabe des Tax-Voucher
+Der Tax-Voucher umfasst keine Ertragszahlen, sondern lediglich eine Bestätigung, dass bei
+der ausstellenden Bank keine Ertragsabrechnungen ausgestellt wurden, welche die von der
+Depotstelle mitgeteilte Anzahl Gutschriften übersteigen.
+
+Um diese Bestätigung abgeben zu können, muss die ausländische Bank sämtliche von ihr
+erstellten Ertragsgutschriften (Ziffer 5.2.2) und an andere Banken erteilten Bescheinigungen
+(Ziffer 5.2.1) in einer Kontrollrechnung den Mitteilungen ihrer Depotstelle bzw. ihren Depot-
+stellen gegenüberstellen.
+
+Unter Vorbehalt der Lösung gemäss Ziffer 7 darf ein Tax-Voucher nur ausgestellt werden,
+wenn der Gesamtbetrag der zu erstellenden Dividendengutschriften nicht grösser ist als der
+
+Gesamtbetrag der von den vorgelagerten Depotstellen erhaltenen und bescheinigten Divi-
+denden.

@@ -4,7 +4,7 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben (Teil 1/2)"
+titel: "Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben"
 ziffer: "3.2"
 seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
@@ -24,3 +24,8 @@ aus anderen in- oder ausländischen Obligationen mit überwiegender Einmalverzin
 Berücksichtigung solcher Verluste bleibt indessen innerhalb einer Bemessungsperiode auf
 Anwendungsfälle von Artikel 20 Absatz 1 Buchstabe b DBG beschränkt; eine Verrechnung
 mit anderen Erträgen oder Einkommensteilen ist ausgeschlossen.
+
+Verrechnungssteuer und Stempelabgaben
+In Bezug auf die Verrechnungssteuer sowie die Umsatzabgabe kann auf das unter Ziffer 3.1.
+Gesagte verwiesen werden. Zu beachten gilt, dass die Verrechnungssteuer auch bei über-
+wiegend einmalverzinslichen Papieren auf dem Originaldiskont erhoben wird.

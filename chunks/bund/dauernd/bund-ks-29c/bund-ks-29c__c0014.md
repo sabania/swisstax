@@ -4,24 +4,17 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 14"
-seiten: "4"
+titel: "Ziff. 4.1 Steuerfolgen: Einkommens- und Verrechnungssteuer, ausländische Gesellschaften, Anteilsklassen (Teil 2/3)"
+ziffer: "4.1"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.1 Grundsätze · S. 9
 
-Mit Inkrafttreten des Bundesgesetzes über die Steuerreform und die AHV-Finanzierung
-(STAF) per 1. Januar 2020 wurden die steuerfreie Rückzahlung sowie die Verwendung von
-Reserven aus Kapitaleinlagen bei einer direkten Teilliquidation von in der Schweiz kotierten
-juristischen Personen eingeschränkt.
-
-Zudem hat das Parlament am 19. Juni 2020 das Bundesgesetz vom 30. März 1911 betref-
-fend die Ergänzung des Schweizerischen Zivilgesetzbuches über das Obligationenrecht
-(Fünfter Teil: Obligationenrecht, OR; SR 220) verabschiedet. Die neuen gesetzlichen Bestim-
-mungen im OR zum Kapitalband und zur Denominierung des Aktienkapitals sowie die neuen
-steuerrechtlichen Bestimmungen haben Auswirkungen auf das Kapitaleinlageprinzip.
-
-Neu wurden damit einhergehend folgende Gesetzesbestimmungen in DBG und VStG aufge-
-nommen:
-
-DBG
+Die gesetzlichen Bestimmungen im DBG über Rückzahlungen von KER gelten für in- und
+ausländische Gesellschaften. Ohne gesonderten Ausweis der KER in der Handelsbilanz o-
+der einem auf andere Art erbrachten Nachweis über das Vorliegen und die Rückzahlung von
+qualifizierenden Kapitaleinlagen durch die in der Schweiz ansässigen Beteiligungsinhaber
+unterliegen Ausschüttungen von ausländischen Kapitalgesellschaften oder Genossenschaf-
+ten der direkten Bundessteuer (Einkommenssteuer) nach Artikel 20 Absatz 1 Buchstabe c
+oder 20 Absatz 1bis DBG.

@@ -1,0 +1,104 @@
+{
+ "id": "ar-mb-16",
+ "hinweise": [
+  "Layout gut; Beispielrechnungen als Tabellen mit Leerzeichen."
+ ],
+ "chunks": [
+  {
+   "start": 17,
+   "skip": true,
+   "titel": "Titel und Adressblock Steuerverwaltung AR"
+  },
+  {
+   "start": 32,
+   "titel": "Rechtliche Grundlagen Mietwert landwirtschaftliche Liegenschaften",
+   "pfad": [
+    "Rechtliche Grundlagen"
+   ],
+   "stichworte": [
+    "Betriebsleiterwohnung",
+    "Pachtzinsverordnung",
+    "Eigenmietwert Landwirt",
+    "Bundesgericht"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Der Marktwert von Betriebsleiterwohnungen bestimmt sich nach der Pachtzinsverordnung.",
+   "ziffer": "1"
+  },
+  {
+   "start": 46,
+   "titel": "Ziff. 2a Berechnung bei Neuschätzungen nach 1. April 2018",
+   "pfad": [
+    "Berechnung",
+    "Neuschätzung nach 1.4.2018"
+   ],
+   "stichworte": [
+    "Ertragswert 3,05%",
+    "Verpächterlasten 3,6%",
+    "43% Mietwert Gebäude",
+    "Eigenmietwert Bauernhaus"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Verzinsung Ertragswert 3,05% plus Verpächterlasten 3,6% vom Ertragswert und 43% vom Mietwert Gebäude; Beispiel Total 9'488.",
+   "ziffer": "2a"
+  },
+  {
+   "start": 83,
+   "titel": "Ziff. 2b Neuschätzungen nach 1. Februar 2004 (3,5% / 85%)",
+   "pfad": [
+    "Berechnung",
+    "Neuschätzung nach 1.2.2004"
+   ],
+   "stichworte": [
+    "Ertragswert 3,5%",
+    "85% Mietwert Gebäude",
+    "LPG 2004"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Verzinsung Ertragswert 3,5%, Verpächterlasten 85% vom Mietwert Gebäude; Beispiel Total 9'110.",
+   "ziffer": "2b"
+  },
+  {
+   "start": 100,
+   "titel": "Ziff. 2c Neuschätzungen nach 1. Februar 1996 (4% / 68%)",
+   "pfad": [
+    "Berechnung",
+    "Neuschätzung nach 1.2.1996"
+   ],
+   "stichworte": [
+    "Ertragswert 4%",
+    "68% Mietwert Gebäude",
+    "LPG 1996"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Verzinsung Ertragswert 4%, Verpächterlasten 68% vom Mietwert Gebäude; Beispiel Total 8'488.",
+   "ziffer": "2c"
+  },
+  {
+   "start": 125,
+   "titel": "Zweitwohnungen, Verdoppelung des Mietwerts, Betriebsaufgabe",
+   "pfad": [
+    "Berechnung",
+    "Besondere Fälle"
+   ],
+   "stichworte": [
+    "Zweitwohnung Marktmiete",
+    "Verdoppelung Mietwert",
+    "Betriebsaufgabe",
+    "erzielbare Miete"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert"
+   ],
+   "zusammenfassung": "Ab 1. April 2018 nur Betriebsleiterwohnungen nach landwirtschaftlichen Ansätzen; Verdoppelung des Mietwerts bei geänderter Nutzung oder Betriebsaufgabe ohne neue Schätzung."
+  }
+ ]
+}

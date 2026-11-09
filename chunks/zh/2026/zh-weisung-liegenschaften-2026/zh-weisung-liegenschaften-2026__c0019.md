@@ -4,18 +4,15 @@ quelle: zh-weisung-liegenschaften-2026
 jur: zh
 jahre: [2026]
 typ: weisung
-titel: "Weisung 2026 ZH – Abschnitt 19"
-seiten: "8"
+titel: "Ziff. 43–44 Ertragswert Geschäftshäuser"
+ziffer: "43–44"
+seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 8
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › V. Mehrfamilien- und Geschäftshäuser › 2. Ertragswert · S. 9
 
-    Ertragswert von Mehrfamilienhäusern
-38   Zur Ermittlung des Ertragswerts von Mehrfamilienhäusern ist der
-    Ertrag der Liegenschaft zu kapitalisieren.
-39   Der Ertrag bestimmt sich nach der Gesamtheit der von den Mietern
-    geleisteten Entschädigungen. Bei vom Eigentümer und von zu seinem
-    Haushalt gehörenden Personen selbst genutzten Räumen ist die erziel-
-    bare Marktmiete zum Mietertrag hinzuzuzählen. Wurden Mieter vertrag-
-    lich zur Übernahme von üblicherweise vom Eigentümer zu tragenden
-    Unterhaltskosten und Abgaben verpflichtet, so ist der Wert dieser
+Ertragswert von Geschäftshäusern
+   Zur Ermittlung des Ertragswerts ist der Ertrag der Liegenschaft zu 43
+kapitalisieren. Es gelten die Kapitalisierungssätze für Mehrfamilien-
+häuser (Ziff. 41 und 42).
+   Ziff. 39 und 40 gelten sinngemäss.   44

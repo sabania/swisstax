@@ -4,28 +4,27 @@ quelle: bund-ks-17
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 17 – Abschnitt 22"
-seiten: "7"
+titel: "Ziff. II.5.2 Pflichten gegenüber der ESTV – Meldung innert 30 Tagen"
+ziffer: "II.5.2"
+seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 5 Pflichten der Vorsorgeeinrichtungen · S. 8–9
 
-<!-- Seite 7 -->
-sprechenden Prämien richten sich nach den jeweiligen Vorsorgeformen (Art. 33 Abs. 1 Bst.
-e bzw. Bst. g DBG).
+5.2. Gegenüber der ESTV
 
-3.   Verkauf des mit einem WEF-Vorbezug finanzierten Eigenheims
+Die Vorsorgeeinrichtung hat den Vorbezug wie auch die Pfandverwertung sowie die Rück-
+zahlung unaufgefordert innerhalb von 30 Tagen auf dem offiziellen WEF-Formular der Eid-
+genössischen Steuerverwaltung ESTV, Hauptabteilung Direkte Bundessteuer, Verrech-
+nungssteuer, Stempelabgaben, Abteilung Erhebung, Eigerstrasse 65, 3003 Bern zu melden
+(Art. 13 Abs. 1 WEFV). Die Meldung hat auch dann zu erfolgen, wenn die Quellensteuer be-
+reits abgezogen wurde. Die entsprechenden Formulare können direkt bei der Eidgenössi-
+schen Steuerverwaltung ESTV, Hauptabteilung Direkte Bundessteuer, Verrechnungssteuer,
+Stempelabgabe, Abteilung Erhebung, Eigerstrasse 65, 3003 Bern oder im Internet bestellt
+werden.
 
-3.1. Kauf eines neuen Eigenheims innerhalb von zwei Jahren
-
-Verkauft eine versicherte Person ihr Wohneigentum und kauft sie in den zwei darauf folgen-
-den Jahren mit dem Erlös wieder ein Eigenheim, so kann der dem Vorbezug entsprechende
-Verkaufserlös vorübergehend auf ein Freizügigkeitskonto überwiesen werden, auf welchem
-Zinsen generiert werden. Dieses Geld kann innerhalb von zwei Jahren in neues Wohneigen-
-tum investiert werden (Art. 30d Abs. 4 BVG). Die Überweisung auf ein Freizügigkeitskonto
-(„Wartekonto“) zeitigt keine steuerlichen Wirkungen, da keine Rückzahlung des Vorbezugs
-erfolgt. Diese Lösung verhindert die Rückerstattung der bezogenen Steuer bei der Überwei-
-sung auf ein Freizügigkeitskonto gefolgt von einer neuen Besteuerung beim erneuten Kauf
-von Wohneigentum. Bei Reinvestition in ein Eigenheim verlassen jedoch die Zinsen, welche
-noch nie besteuert wurden, den Vorsorgebereich, indem sie vom Freizügigkeitskonto auf
-das Wohneigentum übertragen werden. Diese Zinsen unterliegen als Vorsorgekapital der
+In der Meldung ist der Bruttobetrag anzugeben. Diese Meldung ersetzt jene, welche von der
+Vorsorgeeinrichtung gestützt auf das Verrechnungssteuergesetz (Verrechnungssteuer auf
+Versicherungsleistungen) zu erstatten gewesen wäre. Die im Verrechnungssteuergesetz
+vorgesehene Möglichkeit des Einspruchs gegen die Meldung wird im Falle eines Vorbezuges
+hinfällig.

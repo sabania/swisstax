@@ -4,31 +4,16 @@ quelle: bund-ks-22a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 22a – Abschnitt 12"
-seiten: "3"
+titel: "Ziff. 3.1 Bruttoertrag aus unbeweglichem Vermögen – Unterhaltskosten kürzen Grenze nicht"
+ziffer: "3.1"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.1 · S. 4
 
-2.2.3. Einkünfte aus Beteiligungen
-
-Für die Teilbesteuerung qualifizieren insbesondere folgende Einkünfte aus Beteiligungsrech
-ten:
-
-•   Ordentliche Gewinnausschüttungen wie z.B. Dividenden, Gewinnanteile auf Stammein
-    lagen, Zinsen auf Genossenschaftsanteilen;
-•   ausserordentliche Gewinnausschüttungen wie z.B. Anteile am Ergebnis einer direkten
-    oder indirekten Teil- oder Totalliquidation (Art. 20 Abs. 1 Bst. c und 20a Abs. 1 Bst. a
-    DBG), Vermögenserträge aus Transponierung (Art. 20a Abs. 1 Bst. b DBG);
-•   Ausschüttungen auf Partizipationsscheinen;
-•   Ausschüttungen auf Genussscheinen, sofern die Beteiligungsquote mit Beteiligungsrech
-    ten der gleichen Gesellschaft erreicht wird;
-•   Gratisaktien und Gratisnennwerterhöhungen;
-•   alle übrigen offenen Gewinnausschüttungen;
-•   verdeckte Gewinnausschüttungen an die Inhaber von Beteiligungen (wie Zinsen, Ent
-    schädigungen für materielle und immaterielle Wirtschaftsgüter sowie für Dienstleistun
-    gen, die sich im Licht des Drittvergleichs nicht rechtfertigen lassen), sofern die leistende
-    Kapitalgesellschaft oder Genossenschaft eine entsprechende Gewinnaufrechnung erfah
-    ren hat. Stammt die verdeckte Gewinnausschüttung aus einer ausländischen Kapitalge
-    sellschaft oder Genossenschaft, wird die Teilbesteuerung gewährt, wenn die zuständige
-    schweizerische Steuerbehörde zur Einsicht gelangt, dass sie anstelle der ausländischen
+Auch die Erträge aus unbeweglichem Vermögen (Art. 21 DBG) bemessen sich brutto, d.h.
+im Umfang der gesamten steuerbaren Einkünfte vor Abzug der darauf entfallenden Gewin
+nungskosten und Schuldzinsen. Liegenschaftsunterhaltskosten und diesen gleichgestellte
+Aufwendungen (Art. 32 Abs. 2 - 4 DBG) kürzen den Umfang des maximal zulässigen
+Schuldzinsenabzuges daher nicht. Im Mietzins enthaltene Zahlungen für Nebenkosten sind
+für die Berechnung des Bruttoertrages in Abzug zu bringen.

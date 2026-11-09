@@ -4,24 +4,22 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 42"
-seiten: "14"
+titel: "Ziff. 6.3.3 Umwandlung von Verein/Stiftung in Kapitalgesellschaft (Teil 1/2)"
+ziffer: "6.3.3"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.3 Umwandlung · S. 18
 
-Soweit Gratisaktien oder Gratisnennwerterhöhungen zu Lasten von übrigen Reserven oder
-der Ausland-KER liberiert werden, gelten die allgemeinen Grundsätze (vgl. Ziff. 4.2.1. hier-
-vor). Soweit die Liberierung zu Lasten der KER erfolgt findet die Ausschüttungsregel (vgl.
-Ziff. 5.1. hiervor) und allenfalls die Besteuerung gemäss Regelverletzung (vgl. Ziff. 5.1.2.
-hiervor) Anwendung.
+6.3.3. Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Per-
+    son in eine Kapitalgesellschaft oder Genossenschaft
 
-5.2.   Teilliquidationsregel
+a)   Direkte Bundessteuer (Einkommenssteuer)
 
-Aufgrund von Artikel 20 Absatz 7 DBG und Artikel 4a Absatz 4 VStG haben Publikumsgesell-
-schaften beim Erwerb eigener Beteiligungsrechte zur direkten Teilliquidation oder nach Ab-
-lauf der Haltefristen nach Artikel 4a Absätze 2 und 3 VStG mindestens die Hälfte des Liqui-
-dationsüberschusses den KER oder den Ausland-KER zu belasten, höchstens jedoch im
-Umfang des Totals der KER und der Ausland-KER.
+Bei einer Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Person in
+eine Kapitalgesellschaft oder Genossenschaft erzielen Privatpersonen, die dadurch in den
+Besitz von Beteiligungsrechten an der neuen Kapitalgesellschaft oder Genossenschaft kom-
+men, im Umfang der Differenz zwischen Verkehrswert und Ausgabepreis der Beteiligungs-
+rechte steuerbares Einkommen ( Art. 16 Abs. 1 DBG).
 
-5.2.1. Regelverletzung
+b)   Verrechnungssteuer

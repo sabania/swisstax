@@ -4,16 +4,21 @@ quelle: bund-ks-25
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 25 – Abschnitt 27"
-seiten: "6"
+titel: "Ziff. 5.2 Kommanditgesellschaft für kollektive Kapitalanlagen (KmGK) (Teil 1/2)"
+ziffer: "5.2"
+seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 25 · 5 Spezialfragen › 5.2 KmGK · S. 8–9
 
-Die Erträge aus in- oder ausländischen Grundstücken von in- oder ausländischen kollektiven
-Kapitalanlagen mit direktem Grundbesitz werden auf Stufe der Anlegerinnen und Anleger
-freigestellt. Freigestellte Erträge sind für die Satzbestimmung nicht zu berücksichtigen. Nicht
-freigestellt werden die Erträge aus demjenigen Teil des Fondsvermögens, welcher zur Si-
-cherstellung von Verbindlichkeiten in kurzfristigen festverzinslichen Effekten oder anderen
-kurzfristig verfügbaren Mitteln angelegt wird (vgl. Art. 20 Abs. 1 Bst. e DBG). Diese Freistel-
-lungsregel gilt nicht für Anlegerinnen und Anleger von SICAF mit Direktbesitz.
+5.2   Kommanditgesellschaft für kollektive Kapitalanlagen (KmGK)
+Die KmGK ist eine Personengesellschaft, deren ausschliesslicher Zweck die kollektive Kapi-
+talanlage ist (Art. 98 Abs. 1 KAG). Der Komplementär kann nur eine Aktiengesellschaft mit
+
+Sitz in der Schweiz sein und darf sich wegen des Konkurrenzverbotes nur an einer KmGK
+als Komplementär beteiligen (vgl. Art. 104 KAG). Die KmGK tätigt zur Hauptsache Anlagen
+in Risikokapital, weshalb ihre Anleger (Kommanditäre) im Sinne von Artikel 10 Absatz 3 KAG
+besonders qualifiziert sein müssen. Die KmGK ist somit vor allem ein Anlagevehikel für Ban-
+ken, Effektenhändler, Versicherungseinrichtungen, öffentlich-rechtliche Körperschaften und
+Vorsorgeeinrichtungen mit professioneller Tresorerie sowie für vermögende Privatpersonen,
+die über Finanzanlagen von mindestens CHF 5'000'000.-- verfügen (vgl. Art. 6 Abs. 1 KKV).

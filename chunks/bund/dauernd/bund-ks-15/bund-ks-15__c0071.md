@@ -4,26 +4,23 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Anhang III Ziff. 3 Verrechnungssteuer und Stempelabgaben bei Fondszertifikaten"
+titel: "Anhang III Ziff. 3 Mitteilungspflicht Emittent, Veranlagung nach Ermessen"
 ziffer: "Anh. III 3"
-seiten: "21"
+seiten: "21-22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 3 Zertifikate auf kollektive Kapitalanlagen · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 3 Zertifikate auf kollektive Kapitalanlagen · S. 21–22
 
-Das KAG zählt die Formen der kollektiven Kapitalanlagen abschliessend auf (vgl. Art. 7 bis 9
-KAG). Diese Aufzählung umfasst die strukturierten Produkte grundsätzlich nicht. Da Artikel 4
-Absatz 1 Buchstabe c VStG explizit Bezug auf das KAG nimmt, besteht für die Erhebung der
-Verrechungssteuer auf Erträgen der von einem Inländer ausgegebenen Index- und Basket-
-zertifikate auf kollektive Kapitalanlagen in der Regel keine Rechtsgrundlage. Vorbehalten
-bleiben Fälle von Steuerumgehungen.
+Sofern der in- oder ausländische Emittent oder Vertreiber solcher Index- und Basketzertifi-
+kate der ESTV alljährlich die aggregierten Vermögenserträge und Kapitalgewinne bzw. – ver-
+luste mitteilt und die entsprechenden Jahresrechnungen einreicht, damit die ESTV die Unter-
+scheidung zwischen Vermögenserträgen und Kapitalgewinnen überprüfen und die Betreff-
+nisse in der Kursliste publizieren kann, unterliegen einzig die Vermögenserträge der direkten
+Bundessteuer. Andernfalls erfolgt eine Veranlagung nach Ermessen.
 
-Die gleiche Ausgangslage besteht im Bereich der Stempelabgaben. Der revidierte Artikel 13
-Absatz 2 Buchstabe a StG nimmt ebenfalls direkt Bezug auf das KAG, was zur Folge hat,
-dass die von einem Inländer ausgegebenen Index- und Basketzertifikate auf kollektive Kapi-
-talanlagen keine steuerbaren Urkunden im Sinne des Stempelabgabenrechts darstellen.
 
-Demgegenüber qualifizieren die von einem Ausländer ausgegebenen Basketzertifikate auf
-kollektiven Kapitalanlagen als steuerbare Urkunden, weshalb sowohl Primär- als auch Se-
-kundärmarkttransaktionen gestützt auf Artikel 119 KAG und Artikel 13 Absatz 2 Buchstabe b
-StG Gegenstand der Umsatzabgabe sind.
+1-015-DVS-2017-d / Anhang III
+
+Dies bedeutet, dass der Veranlagung eine marktgerechte Rendite (unter Berücksichtigung
+der Anlageklassen, in welche das Zertifikatsvermögen angelegt ist) auf dem Nettoanlagever-
+mögen (NAV, Net Asset Value) per Abschlussdatum zugrunde gelegt wird.

@@ -4,25 +4,18 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "Ziff. 8.5 Nicht abzugsfähig – Haushaltshilfe, Schulgeld, Babysitting, Freizeit"
-ziffer: "8.5"
-seiten: "16"
+titel: "Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten (Teil 2/3)"
+ziffer: "8.6"
+seiten: "16-17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.5 Abzugsfähige Kosten · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.6 Nachweispflicht · S. 16–17
 
-Wird eine Haushaltshilfe angestellt, die sich während der Erwerbstätigkeit der Eltern auch
-um die Kinder kümmert, kann nur dieser Teil der Kosten für die Haushaltshilfe als Kinder-
-drittbetreuungskosten in Abzug gebracht werden, da die übrigen Aufwendungen für die
-Haushaltsarbeiten nicht abzugsfähige Lebenshaltungskosten darstellen.
-
-Schulgelder sind ebenfalls als nicht abzugsfähige Lebenshaltungskosten zu qualifizieren. Bei
-den Internatskosten gilt es daher zwischen den reinen Schulkosten und den Kosten zu un-
-terscheiden, die für die Betreuung der Kinder in Internaten anfallen. Somit ist von den Inter-
-natskosten ein angemessener Anteil als Kinderdrittbetreuungskosten zu berücksichtigen, der
-bis zum Maximalbetrag des Abzuges geltend gemacht werden kann.
-
-Drittbetreuungskosten, die ausserhalb der effektiven Arbeits- oder Ausbildungszeit der Eltern
-angefallen sind wie etwa durch Babysitting am Abend oder für Freizeitaktivitäten, können
-nicht in Abzug gebracht werden. Solche Kosten, die den Eltern infolge Freizeitgestaltung
-entstehen, sind als nichtabzugsfähige Lebenshaltungskosten zu qualifizieren.
+Zudem haben die Steuerpflichtigen jeweils den Grund für die Drittbetreuung der Kinder an-
+zugeben. Für die veranlagende Behörde muss ersichtlich sein, ob die Beanspruchung des
+Kinderdrittbetreuungskostenabzuges tatsächlich gerechtfertigt ist. Den steuerpflichtigen El-
+tern obliegt somit die Pflicht aufzuführen, aus welchem der im Gesetz vorgesehenen Gründe
+(Erwerbstätigkeit, Erwerbsunfähigkeit, Ausbildung) sie die Betreuung der Kinder nicht selber
+wahrnehmen konnten. Neben den Kinderdrittbetreuungskosten hat der Steuerpflichtige zu-
+dem auch die Erwerbsunfähigkeit oder die Ausbildung unaufgefordert nachzuweisen, falls
+einer dieser Gründe geltend gemacht wird.

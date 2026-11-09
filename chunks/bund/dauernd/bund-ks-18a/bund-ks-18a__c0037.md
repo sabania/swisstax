@@ -4,18 +4,19 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 37"
-seiten: "9"
+titel: "Ziff. 8 Mitteilungspflicht bei Übertragung (zehn Jahre Beiträge und Einkäufe)"
+ziffer: "8"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 9
+> Bund · Steuerjahr 2026 · KS 18a · 8. Bescheinigungspflicht · S. 11
 
-6.2. Vorzeitige Ausrichtung und Übertragung
-a)   Allgemeines
-Die vorzeitige Ausrichtung von Leistungen ist nur in den in Artikel 3 Absatz 2 und 3 BVV 3
-vorgesehenen Ausnahmefällen möglich. Dies gilt auch für Zinsen, Gewinnanteile und der-
-gleichen, die erst zusammen mit den eigentlichen Vorsorgeleistungen ausbezahlt und auch
-nicht mit geschuldeten Beiträgen verrechnet werden dürfen. Die gesamte Leistung unterliegt
-der Besteuerung nach Artikel 22 Absatz 1 in Verbindung mit Artikel 38 DBG. Es spielt keine
-Rolle, ob Beiträge teilweise von der Versicherungseinrichtung infolge einer Prämienbefreiung
-geleistet worden sind. Der Vorsorgenehmer hat die Gesamtleistung zu versteuern.
+Im Falle einer Übertragung eines Säule 3a-Guthabens in eine andere anerkannte Vorsorge-
+form (Art. 3a Abs. 1 Bst. b BVV3) muss die übertragende Einrichtung der neuen Einrichtung
+folgende Beträge mitteilen:
+
+    •   Die ordentlichen Beitragsleistungen, welche die steuerpflichtige Person in den ver-
+    gangenen zehn Jahren in die abtretende Einrichtung entrichtet hat.
+    •   Alle Einkäufe in die Säule 3a, welche die steuerpflichtige Person während der letzten
+    zehn Jahren getätigt hat. Die übertragende Einrichtung muss dabei angeben, welche
+    Jahresbeitragslücken durch die bezeichneten Einkäufe jeweils geschlossen wurden.

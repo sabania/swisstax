@@ -9,18 +9,6 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
 > TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
-    - die Hinterziehung (d.h. Nichtdeklaration usw.) ist keiner Steuerbehörde bekannt;
-    - die Erbinnen und Erben unterstützen die Verwaltung bei der Feststellung der hinterzogenen Vermögens- und Einkommenselemente vorbehaltlos;
-    - sie bemühen sich ernstlich um die Bezahlung der geschuldeten Nachsteuer;
-    - die Erbschaft wird weder amtlich noch konkursamtlich liquidiert.
+    Gegen Einspracheentscheide der Steuerverwaltung Thurgau können Sie innert 30 Tagen nach Zustellung des Entscheids bei der Steuerrekurskommission Rekurs bezüglich der Staats- und Gemeindesteuern bzw. Beschwerde bezüglich die direkte Bundessteuer erheben. Dies kann in einer einzigen Eingabe verbunden werden. Voraussetzung dafür ist, dass die Eingabe die entsprechenden Anträge sowohl für die Staats- und Gemeindesteuern als auch für die direkte Bundessteuer enthält.
 
-    Detailliertere Informationen dazu finden Sie über den folgenden Link:
-
-    - [Vereinfachung der Nachbesteuerung in Erbfällen](https://steuerverwaltung.tg.ch/informationen/lebensbereiche/erbschaft-schenkung/nachbesteuerung-in-erbfaellen.html/2939)
-
-Rekursverfahren
-:   ### Frage:
-
-    Ich bin mit dem Einspracheentscheid zur Steuerveranlagung nicht einverstanden, was kann ich tun?
-
-    ### Antwort:
+    Die Rekursschrift ist innert Frist unter Beilage des angefochtenen Entscheides oder genauer Bezeichnung desselben bei der Rekursinstanz unterzeichnet und im Doppel einzureichen. Der Rekurs muss einen Antrag und eine Begründung enthalten sowie die Beweismittel aufführen. In der Regel wird dafür ein vom Rekurrenten ein angemessener Kostenvorschuss einverlangt. Wird dieser nicht innert Frist bezahlt, wird auf den Rekurs nicht eingetreten.

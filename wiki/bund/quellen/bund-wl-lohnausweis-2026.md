@@ -12,87 +12,72 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/afP1GDFr8gE3/dbst-form-lohna-wegleitung-2026-de.pdf> · lokal: [bund-wl-lohnausweis-2026.pdf](../../../raw/bund/2026/bund-wl-lohnausweis-2026.pdf) · Volltext: [bund-wl-lohnausweis-2026.md](../../../sources/bund/2026/bund-wl-lohnausweis-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `d92b36c0e0f63fd3…`
 
-## Inhalt (80 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Seite 8-9: Fussnote zu Rz 9 steht mitten im Text (Seite 8) und Randziffer-Nummern stehen teils am Zeilenende oder separat (S. 7, 15).
+- Seite 22-25: Anhang mit zweispaltiger Adresstabelle, Spalten vermischt (als skip markiert).
+- Wortumbrüche mit Trennstrichen ohne Bindestrich (z. B. «Mitar beitende») durch pdftotext.
+
+## Inhalt (59 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0001.md) | WL Lohnausweis 2026 – Abschnitt 1 | S. 1–2 |  |
-| [c0002](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0002.md) | WL Lohnausweis 2026 – Abschnitt 2 | S. 3 |  |
-| [c0003](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0003.md) | WL Lohnausweis 2026 – Abschnitt 3 | S. 4 |  |
-| [c0004](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0004.md) | WL Lohnausweis 2026 – Abschnitt 4 | S. 4 |  |
-| [c0005](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0005.md) | WL Lohnausweis 2026 – Abschnitt 5 | S. 4 |  |
-| [c0006](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0006.md) | WL Lohnausweis 2026 – Abschnitt 6 | S. 5 |  |
-| [c0007](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0007.md) | WL Lohnausweis 2026 – Abschnitt 7 | S. 6 |  |
-| [c0008](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0008.md) | WL Lohnausweis 2026 – Abschnitt 8 | S. 6 |  |
-| [c0009](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0009.md) | WL Lohnausweis 2026 – Abschnitt 9 | S. 6 |  |
-| [c0010](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0010.md) | WL Lohnausweis 2026 – Abschnitt 10 | S. 7 |  |
-| [c0011](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0011.md) | WL Lohnausweis 2026 – Abschnitt 11 | S. 7 |  |
-| [c0012](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md) | WL Lohnausweis 2026 – Abschnitt 12 | S. 7 |  |
-| [c0013](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0013.md) | WL Lohnausweis 2026 – Abschnitt 13 | S. 7 |  |
-| [c0014](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0014.md) | WL Lohnausweis 2026 – Abschnitt 14 | S. 8 |  |
-| [c0015](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0015.md) | WL Lohnausweis 2026 – Abschnitt 15 | S. 8 |  |
-| [c0016](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0016.md) | WL Lohnausweis 2026 – Abschnitt 16 | S. 8 |  |
-| [c0017](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0017.md) | WL Lohnausweis 2026 – Abschnitt 17 | S. 8 |  |
-| [c0018](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0018.md) | WL Lohnausweis 2026 – Abschnitt 18 | S. 9 |  |
-| [c0019](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0019.md) | WL Lohnausweis 2026 – Abschnitt 19 | S. 9 |  |
-| [c0020](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0020.md) | WL Lohnausweis 2026 – Abschnitt 20 | S. 9 |  |
-| [c0021](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0021.md) | WL Lohnausweis 2026 – Abschnitt 21 | S. 9 |  |
-| [c0022](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0022.md) | WL Lohnausweis 2026 – Abschnitt 22 | S. 10 |  |
-| [c0023](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0023.md) | WL Lohnausweis 2026 – Abschnitt 23 | S. 10 |  |
-| [c0024](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0024.md) | WL Lohnausweis 2026 – Abschnitt 24 | S. 10 |  |
-| [c0025](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0025.md) | WL Lohnausweis 2026 – Abschnitt 25 | S. 10 |  |
-| [c0026](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0026.md) | WL Lohnausweis 2026 – Abschnitt 26 | S. 10 |  |
-| [c0027](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0027.md) | WL Lohnausweis 2026 – Abschnitt 27 | S. 11 |  |
-| [c0028](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0028.md) | WL Lohnausweis 2026 – Abschnitt 28 | S. 11 |  |
-| [c0029](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0029.md) | WL Lohnausweis 2026 – Abschnitt 29 | S. 11 |  |
-| [c0030](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0030.md) | WL Lohnausweis 2026 – Abschnitt 30 | S. 11 |  |
-| [c0031](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0031.md) | WL Lohnausweis 2026 – Abschnitt 31 | S. 11 |  |
-| [c0032](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0032.md) | WL Lohnausweis 2026 – Abschnitt 32 | S. 11 |  |
-| [c0033](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0033.md) | WL Lohnausweis 2026 – Abschnitt 33 | S. 12 |  |
-| [c0034](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0034.md) | WL Lohnausweis 2026 – Abschnitt 34 | S. 12 |  |
-| [c0035](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0035.md) | WL Lohnausweis 2026 – Abschnitt 35 | S. 12 |  |
-| [c0036](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0036.md) | WL Lohnausweis 2026 – Abschnitt 36 | S. 13 |  |
-| [c0037](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0037.md) | WL Lohnausweis 2026 – Abschnitt 37 | S. 13 |  |
-| [c0038](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0038.md) | WL Lohnausweis 2026 – Abschnitt 38 | S. 13 |  |
-| [c0039](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0039.md) | WL Lohnausweis 2026 – Abschnitt 39 | S. 13 |  |
-| [c0040](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0040.md) | WL Lohnausweis 2026 – Abschnitt 40 | S. 14 |  |
-| [c0041](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0041.md) | WL Lohnausweis 2026 – Abschnitt 41 | S. 14 |  |
-| [c0042](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0042.md) | WL Lohnausweis 2026 – Abschnitt 42 | S. 14 |  |
-| [c0043](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0043.md) | WL Lohnausweis 2026 – Abschnitt 43 | S. 14 |  |
-| [c0044](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0044.md) | WL Lohnausweis 2026 – Abschnitt 44 | S. 15 |  |
-| [c0045](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0045.md) | WL Lohnausweis 2026 – Abschnitt 45 | S. 15 |  |
-| [c0046](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0046.md) | WL Lohnausweis 2026 – Abschnitt 46 | S. 15 |  |
-| [c0047](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0047.md) | WL Lohnausweis 2026 – Abschnitt 47 | S. 15 |  |
-| [c0048](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0048.md) | WL Lohnausweis 2026 – Abschnitt 48 | S. 16 |  |
-| [c0049](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0049.md) | WL Lohnausweis 2026 – Abschnitt 49 | S. 16 |  |
-| [c0050](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0050.md) | WL Lohnausweis 2026 – Abschnitt 50 | S. 17 |  |
-| [c0051](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0051.md) | WL Lohnausweis 2026 – Abschnitt 51 | S. 17 |  |
-| [c0052](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0052.md) | WL Lohnausweis 2026 – Abschnitt 52 | S. 17 |  |
-| [c0053](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0053.md) | WL Lohnausweis 2026 – Abschnitt 53 | S. 17 |  |
-| [c0054](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0054.md) | WL Lohnausweis 2026 – Abschnitt 54 | S. 18 |  |
-| [c0055](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0055.md) | WL Lohnausweis 2026 – Abschnitt 55 | S. 18 |  |
-| [c0056](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0056.md) | WL Lohnausweis 2026 – Abschnitt 56 | S. 18 |  |
-| [c0057](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0057.md) | WL Lohnausweis 2026 – Abschnitt 57 | S. 18 |  |
-| [c0058](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0058.md) | WL Lohnausweis 2026 – Abschnitt 58 | S. 18 |  |
-| [c0059](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0059.md) | WL Lohnausweis 2026 – Abschnitt 59 | S. 19 |  |
-| [c0060](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0060.md) | WL Lohnausweis 2026 – Abschnitt 60 | S. 19 |  |
-| [c0061](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0061.md) | WL Lohnausweis 2026 – Abschnitt 61 | S. 19 |  |
-| [c0062](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0062.md) | WL Lohnausweis 2026 – Abschnitt 62 | S. 19 |  |
-| [c0063](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0063.md) | WL Lohnausweis 2026 – Abschnitt 63 | S. 20 |  |
-| [c0064](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0064.md) | WL Lohnausweis 2026 – Abschnitt 64 | S. 20 |  |
-| [c0065](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0065.md) | WL Lohnausweis 2026 – Abschnitt 65 | S. 20 |  |
-| [c0066](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0066.md) | WL Lohnausweis 2026 – Abschnitt 66 | S. 20 |  |
-| [c0067](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0067.md) | WL Lohnausweis 2026 – Abschnitt 67 | S. 21 |  |
-| [c0068](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0068.md) | WL Lohnausweis 2026 – Abschnitt 68 | S. 21 |  |
-| [c0069](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0069.md) | WL Lohnausweis 2026 – Abschnitt 69 | S. 21 |  |
-| [c0070](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0070.md) | WL Lohnausweis 2026 – Abschnitt 70 | S. 22 |  |
-| [c0071](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0071.md) | WL Lohnausweis 2026 – Abschnitt 71 | S. 22 |  |
-| [c0072](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0072.md) | WL Lohnausweis 2026 – Abschnitt 72 | S. 22 |  |
-| [c0073](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0073.md) | WL Lohnausweis 2026 – Abschnitt 73 | S. 23 |  |
-| [c0074](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0074.md) | WL Lohnausweis 2026 – Abschnitt 74 | S. 23 |  |
-| [c0075](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0075.md) | WL Lohnausweis 2026 – Abschnitt 75 | S. 23 |  |
-| [c0076](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0076.md) | WL Lohnausweis 2026 – Abschnitt 76 | S. 23 |  |
-| [c0077](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0077.md) | WL Lohnausweis 2026 – Abschnitt 77 | S. 24 |  |
-| [c0078](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0078.md) | WL Lohnausweis 2026 – Abschnitt 78 | S. 24 |  |
-| [c0079](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0079.md) | WL Lohnausweis 2026 – Abschnitt 79 | S. 24 |  |
-| [c0080](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0080.md) | WL Lohnausweis 2026 – Abschnitt 80 | S. 25 |  |
+| [c0001](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0001.md) | Vorwort zur Wegleitung Lohnausweis | S. 3 | Die Wegleitung wurde von der erweiterten Arbeitsgruppe Lohnausweis der SSK erstellt und wird jährlich überarbeitet; Änderungen sind mit schwarzem Balken markiert. |
+| [c0002](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0002.md) | Allgemeines – Abkürzungen, FAQ, eLohnausweis | S. 5–6 | Abkürzungsverzeichnis sowie Hinweise auf FAQ und eLohnausweis SSK. |
+| [c0003](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0003.md) | Rz 1–3 Vorinformationen – Formular 11, Pflicht zur Ausstellung (Teil 1/3) | S. 6–7 | Das Formular 11 dient als Lohnausweis, VR-Bescheinigung, Rentenbescheinigung BVG und ALV-Bescheinigung; jeder Arbeitgeber muss jedem Arbeitnehmenden einen Lohnausweis ausstellen. |
+| [c0004](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0004.md) | Rz 1–3 Vorinformationen – Formular 11, Pflicht zur Ausstellung (Teil 2/3) | S. 6–7 |  |
+| [c0005](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0005.md) | Rz 1–3 Vorinformationen – Formular 11, Pflicht zur Ausstellung (Teil 3/3) | S. 6–7 |  |
+| [c0006](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0006.md) | Rz 4–5 Buchstabe A/B – Lohnausweis oder Rentenbescheinigung (Teil 1/2) | S. 7 | Buchstabe A für Leistungen aus Arbeitsverhältnis inkl. VR und ALV-Ersatzeinkommen, Buchstabe B für Renten; Kapitalleistungen nur mit Formular 563. |
+| [c0007](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0007.md) | Rz 4–5 Buchstabe A/B – Lohnausweis oder Rentenbescheinigung (Teil 2/2) | S. 7 |  |
+| [c0008](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0008.md) | Rz 6–8 Buchstaben C–E – AHV-Nummer, Kalenderjahr, Lohnperiode (Teil 1/2) | S. 7–8 | 13-stellige AHV-Nummer, Kalenderjahr und genaue Ein-/Austrittsdaten sind anzugeben; mehrere Lohnausweise werden in Ziffer 15 vermerkt. |
+| [c0009](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0009.md) | Rz 6–8 Buchstaben C–E – AHV-Nummer, Kalenderjahr, Lohnperiode (Teil 2/2) | S. 7–8 |  |
+| [c0010](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0010.md) | Rz 9 Buchstabe F – Unentgeltliche Beförderung Wohn-/Arbeitsort | S. 8 | Feld F ist anzukreuzen, wenn dem Arbeitnehmer keine Arbeitswegkosten entstehen, z. B. bei Geschäftsfahrzeug (mindestens 75 Rappen pro km) oder geschäftlich notwendigem GA; Halbtaxabo muss nicht bescheinigt werden. |
+| [c0011](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0011.md) | Rz 9 Buchstabe F (Teil 2) – Autopauschale, Generalabonnement, Halbtax | S. 8 | Autopauschalen und geschäftlich notwendige GA begründen Feld F; ohne geschäftliche Notwendigkeit ist das GA zum Marktwert in Ziffer 2.3 zu deklarieren; Halbtaxabo muss nicht bescheinigt werden. |
+| [c0012](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md) | Rz 10 Buchstabe G – Kantinenverpflegung / Lunch-Checks (Teil 1/2) | S. 8–9 | Feld G ist bei Lunch-Checks, verbilligter Kantine oder bei 40–60 % auswärtiger Tätigkeit anzukreuzen; bei mehr als 60 % Vermerk «Mittagessen durch Arbeitgeber bezahlt» in Ziffer 15. |
+| [c0013](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0013.md) | Rz 10 Buchstabe G – Kantinenverpflegung / Lunch-Checks (Teil 2/2) | S. 8–9 |  |
+| [c0014](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0014.md) | Rz 11–12 Buchstaben H–I – Name, Adresse, Unterschrift | S. 9 | Aktuelle Wohnadresse des Arbeitnehmers; Ort, Datum, Arbeitgeber und Kontaktperson angeben, bei vollautomatisierter Erstellung keine Unterschrift nötig. |
+| [c0015](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0015.md) | Rz 13–16 Ziffer 1 Lohn – ordentliches Salär, Taggelder, Zulagen, Provisionen | S. 9 | In Ziffer 1 sind sämtliche Leistungen des Arbeitgebers anzugeben, soweit nicht in Ziffer 2–7 aufgeführt, inkl. Taggelder, Zulagen und Provisionen. |
+| [c0016](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0016.md) | Rz 17–18 Ziffer 1 – Arbeitswegvergütungen, Verpflegungsbeiträge, Lunch-Checks | S. 9 | Lunch-Checks sind bis zur AHV-Limite (Stand 1.1.2022: CHF 180 pro Monat) mit Kreuz in Feld G zu deklarieren, darüber hinaus zum Lohn zu addieren. |
+| [c0017](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0017.md) | Rz 19 Ziffer 2 Gehaltsnebenleistungen – Bewertung zum Marktwert | S. 9–10 | Gehaltsnebenleistungen werden grundsätzlich zum Marktwert bewertet; bei Teilzahlung durch den Arbeitnehmer wird nur der Differenzbetrag eingetragen. |
+| [c0018](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0018.md) | Rz 20 Ziffer 2.1 Verpflegung und Unterkunft | S. 10 | Unentgeltliche Verpflegung und Unterkunft sind nach Merkblatt N2 zu bewerten; bei Wohnung gilt der Marktwert in Ziffer 2.3. |
+| [c0019](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0019.md) | Rz 21 Ziffer 2.2 Privatanteil Geschäftsfahrzeug – Pauschale 0,9 % pro Monat (Teil 1/2) | S. 10 | Privatanteil pro Monat 0,9 % des Kaufpreises (exkl. MWST), mindestens CHF 150 pro Monat bei Kaufpreis unter CHF 16'667; Beispiel Kaufpreis CHF 43'000 ergibt CHF 4'644 (12 x CHF 387). |
+| [c0020](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0020.md) | Rz 21 Ziffer 2.2 Privatanteil Geschäftsfahrzeug – Pauschale 0,9 % pro Monat (Teil 2/2) | S. 10 |  |
+| [c0021](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0021.md) | Rz 22–25 Ziffer 2.2 – Kostenübernahme, effektive Erfassung, Feld F (Teil 1/2) | S. 10–11 | Bei effektiver Erfassung mit Bordbuch werden Privatkilometer (inkl. Arbeitsweg) mit dem Kilometeransatz multipliziert (8'500 km x 75 Rappen = CHF 6'375); bei erheblich eingeschränktem Privatgebrauch keine Aufrechnung. |
+| [c0022](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0022.md) | Rz 22–25 Ziffer 2.2 – Kostenübernahme, effektive Erfassung, Feld F (Teil 2/2) | S. 10–11 |  |
+| [c0023](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0023.md) | Rz 26 Ziffer 2.3 Andere Gehaltsnebenleistungen | S. 11 | Andere vom Arbeitgeber bewertbare Nebenleistungen sind mit Art und Marktwert einzutragen; bei unentgeltlicher Wohnung der ortsübliche Mietzins. |
+| [c0024](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0024.md) | Rz 27 Ziffer 3 Unregelmässige Leistungen – Bonus, Umzugsentschädigung (Teil 1/3) | S. 11–12 | Unregelmässige Leistungen wie Boni, Antritts-/Austrittsentschädigungen, Treueprämien und Umzugsentschädigungen gehören in Ziffer 3; ein 13./14. Monatslohn gehört in Ziffer 1. |
+| [c0025](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0025.md) | Rz 27 Ziffer 3 Unregelmässige Leistungen – Bonus, Umzugsentschädigung (Teil 2/3) | S. 11–12 |  |
+| [c0026](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0026.md) | Rz 27 Ziffer 3 Unregelmässige Leistungen – Bonus, Umzugsentschädigung (Teil 3/3) | S. 11–12 |  |
+| [c0027](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0027.md) | Rz 28 Ziffer 4 Kapitalleistungen | S. 12 | Kapitalleistungen mit Vorsorgecharakter und Lohnnachzahlungen stehen in Ziffer 4; Kapitalleistungen von Vorsorgeeinrichtungen nur mit Formular 563. |
+| [c0028](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0028.md) | Rz 29 Ziffer 5 Beteiligungsrechte gemäss Beiblatt (Teil 1/2) | S. 12–13 | Erwerbseinkommen aus Mitarbeiterbeteiligungen (Differenz Verkehrswert und Erwerbspreis) ist in Ziffer 5 mit Beiblatt auszuweisen. |
+| [c0029](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0029.md) | Rz 29 Ziffer 5 Beteiligungsrechte gemäss Beiblatt (Teil 2/2) | S. 12–13 |  |
+| [c0030](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0030.md) | Rz 30 Ziffer 6 Verwaltungsratsentschädigungen | S. 13 | Ziffer 6 enthält VR-Entschädigungen, Sitzungsgelder und Tantiemen als Lohn für unselbstständige Tätigkeit. |
+| [c0031](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0031.md) | Rz 31–35 Ziffer 7 Andere Leistungen – Trinkgelder, Taggelder, ALV, EO | S. 13 | Ziffer 7 erfasst weitere Leistungen: Trinkgelder (nur bei wesentlichem Lohnteil), Taggelder, ALV- und EO-Leistungen via Arbeitgeber. |
+| [c0032](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0032.md) | Rz 36–37 Ziffer 7 – Übernommene PK-Beiträge, Versicherungsbeiträge Säule 3b | S. 13 | Vom Arbeitgeber übernommene Arbeitnehmerbeiträge an die 2. Säule und Beiträge an Krankenkassen/Säule 3b sind zu deklarieren; nicht UVG und Kollektivtaggeld. |
+| [c0033](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0033.md) | Rz 38 Ziffer 7 – Arbeitgeberbeiträge an Säule 3a | S. 13–14 | Vom Arbeitgeber erbrachte Säule-3a-Beiträge sind zu deklarieren, dürfen im Lohnausweis nicht abgezogen werden und werden separat mit Formular 21 EDP bescheinigt. |
+| [c0034](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0034.md) | Rz 39–42 Ziffer 7 (Quellensteuer, Schulgelder), Ziffer 8 Bruttolohn, Ziffer 9 AHV/IV/EO/ALV/NBUV | S. 14 | Ziffer 8 ist das Total der Ziffern 1–7; in Ziffer 9 wird der Arbeitnehmeranteil AHV/IV/EO/ALV/NBUV abgezogen, Krankentaggeld- und UVG-Zusatzprämien nicht. |
+| [c0035](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0035.md) | Rz 43 Ziffer 10 Berufliche Vorsorge (2. Säule) | S. 14 | In Ziffer 10 sind die im Bruttolohn enthaltenen, vom Lohn abgezogenen Beiträge an steuerbefreite Einrichtungen der 2. Säule anzugeben. |
+| [c0036](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0036.md) | Rz 44–46 Ziffer 10.1/10.2 Ordentliche Beiträge und Einkauf in die 2. Säule (Teil 1/2) | S. 14–15 | Einkäufe, die vom Lohn abgezogen wurden, gehören in Ziffer 10.2; selbst entrichtete Einkäufe bescheinigt die Vorsorgeeinrichtung mit Formular 21 EDP. |
+| [c0037](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0037.md) | Rz 44–46 Ziffer 10.1/10.2 Ordentliche Beiträge und Einkauf in die 2. Säule (Teil 2/2) | S. 14–15 |  |
+| [c0038](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0038.md) | Rz 47–48 Ziffer 11 Nettolohn/Rente und Ziffer 12 Quellensteuerabzug | S. 15 | Nettolohn = Bruttolohn (Ziffer 8) minus Abzüge Ziffer 9 und 10; in Ziffer 12 steht der Quellensteuerabzug bei Ausländern ohne Niederlassungsbewilligung. |
+| [c0039](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0039.md) | Rz 49–51 Ziffer 13 Spesenvergütungen – Abgrenzung und Arten (Teil 1/2) | S. 15–16 | Spesenvergütungen sind nicht Teil des Bruttolohns; Entschädigungen für Auslagen vor/nach der Arbeitstätigkeit (z. B. Wegvergütungen) sind keine Spesen und zum Lohn zu addieren. |
+| [c0040](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0040.md) | Rz 49–51 Ziffer 13 Spesenvergütungen – Abgrenzung und Arten (Teil 2/2) | S. 15–16 |  |
+| [c0041](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0041.md) | Rz 52 Ziffer 13.1 Effektive Spesen – Verzicht auf Deklaration (Kreuz 13.1.1) | S. 16 | Kein Betrag nötig (Kreuz in 13.1.1), wenn Übernachtung gegen Beleg, Mahlzeit max. CHF 35 bzw. Pauschale max. CHF 30, Privatfahrzeug max. 75 Rappen/km und Kleinspesen max. CHF 20 pro Tag. |
+| [c0042](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0042.md) | Rz 52 Ziffer 13.1 (Schluss) – Voraussetzung Reisetätigkeit, Kreuz in 13.1.1 | S. 16 | Voraussetzung für die Pauschalen ist eine tatsächliche Reisetätigkeit; bei Einhaltung aller Vorgaben genügt ein Kreuz im Feld zu Ziffer 13.1.1. |
+| [c0043](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0043.md) | Rz 53–54 Ziffer 13.1.1/13.1.2 Effektive Reise- und übrige Spesen, Homeoffice (Teil 1/2) | S. 16–17 | Nicht erfüllte Vorgaben verlangen betragsmässige Angabe der Spesen; Entschädigungen für externen Arbeitsplatz sind mit Vermerk «Spesen für externen Arbeitsplatz» aufzuführen. |
+| [c0044](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0044.md) | Rz 53–54 Ziffer 13.1.1/13.1.2 Effektive Reise- und übrige Spesen, Homeoffice (Teil 2/2) | S. 16–17 |  |
+| [c0045](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0045.md) | Rz 55–58 Ziffer 13.2 Pauschalspesen – Repräsentation, Auto, übrige (Teil 1/2) | S. 17 | Pauschale Spesen sind stets betragsmässig anzugeben und müssen ungefähr den effektiven Auslagen entsprechen; Expatriate-Pauschalen gehören in Ziffer 2.3. |
+| [c0046](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0046.md) | Rz 55–58 Ziffer 13.2 Pauschalspesen – Repräsentation, Auto, übrige (Teil 2/2) | S. 17 |  |
+| [c0047](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0047.md) | Rz 59–60 Genehmigtes Spesenreglement | S. 17–18 | Bei genehmigtem Spesenreglement (Mustervorlagen vom 1. Februar 2024, gültig ab 1. Mai 2024) sind nur die Pauschalspesen anzugeben und in Ziffer 15 ist die Genehmigung zu vermerken. |
+| [c0048](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0048.md) | Rz 61–62 Ziffer 13.3 Weiterbildungsbeiträge, Ziffer 14 Weitere Gehaltsnebenleistungen (Teil 1/3) | S. 18 | Arbeitgeberbeiträge an berufsorientierte Weiterbildung sind in 13.3 anzugeben (nicht bei Zahlung direkt an Dritte); Hinweis in Ziffer 14 entfällt bei geringfügigen Vergünstigungen bis CHF 2'500. |
+| [c0049](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0049.md) | Rz 61–62 Ziffer 13.3 Weiterbildungsbeiträge, Ziffer 14 Weitere Gehaltsnebenleistungen (Teil 2/3) | S. 18 |  |
+| [c0050](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0050.md) | Rz 61–62 Ziffer 13.3 Weiterbildungsbeiträge, Ziffer 14 Weitere Gehaltsnebenleistungen (Teil 3/3) | S. 18 |  |
+| [c0051](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0051.md) | Rz 63 Ziffer 15 Bemerkungen – allgemein | S. 18–19 | In Ziffer 15 sind erforderliche Zusatzangaben zu machen; freiwillig können z. B. Kinderzulagen, Schichttage und Krankenkassenbeiträge ausgewiesen werden. |
+| [c0052](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0052.md) | Rz 64–65a Ziffer 15 – Erwerbsausfall, ALV, Spesenreglement, Expatriate (Teil 1/2) | S. 19 | In Ziffer 15 sind u. a. Anzahl Tage mit nicht durch den Arbeitgeber ausbezahlten Erwerbsausfallentschädigungen sowie Vermerke zu Spesenreglement und Expatriateruling anzubringen. |
+| [c0053](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0053.md) | Rz 64–65a Ziffer 15 – Erwerbsausfall, ALV, Spesenreglement, Expatriate (Teil 2/2) | S. 19 |  |
+| [c0054](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0054.md) | Rz 66–71 Ziffer 15 – mehrere Lohnausweise, Rektifikat, Teilzeit, Beteiligungen, Umzugskosten (Teil 1/2) | S. 19–20 | Vorgeschriebene Vermerke: «Einer von ... Lohnausweisen», «Dieser Lohnausweis ersetzt den Lohnausweis vom ...», Teilzeit, Verkehrswert genehmigt sowie Umzugskosten bei Zwang. |
+| [c0055](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0055.md) | Rz 66–71 Ziffer 15 – mehrere Lohnausweise, Rektifikat, Teilzeit, Beteiligungen, Umzugskosten (Teil 2/2) | S. 19–20 |  |
+| [c0056](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0056.md) | Rz 72 Nicht zu deklarierende Leistungen – Pauschalen und Limiten (Teil 1) | S. 20 | Nicht deklariert werden u. a. Halbtax, Vergünstigungen bis 20 %/CHF 600 jährlich, Naturalgeschenke bis CHF 600 und Vereinsbeiträge bis CHF 1'000. |
+| [c0057](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0057.md) | Rz 72 Nicht zu deklarierende Leistungen (Teil 2) – Anlässe, Krippe, Parkplatz | S. 20–21 | Weiter nicht zu deklarieren: Zutrittskarten bis CHF 600, Krippenbeiträge (sofern nicht nur bestimmten Arbeitnehmern), Gratis-Parkplatz, Vorsorgeuntersuchungen, Flugmeilen. |
+| [c0058](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0058.md) | Rz 73–74 Pflichtverletzung und Adressaten des Lohnausweises | S. 21 | Falsches oder fehlendes Ausfüllen kann strafbar bzw. haftbar machen; mehrere Kantone verlangen ein Exemplar direkt an die Steuerverwaltung. |
+| [c0059](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0059.md) | Rz 75 Bestelladressen Lohnausweisformular und Wegleitung | S. 21 | Lohnausweisformular und Wegleitung sind bei SSK/ESTV als PDF erhältlich; Auskünfte erteilen die kantonalen Steuerbehörden. |

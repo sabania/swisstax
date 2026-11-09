@@ -4,23 +4,24 @@ quelle: bund-ks-37
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 37 – Abschnitt 28"
-seiten: "6"
+titel: "Ziff. 3.4.3 Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien"
+ziffer: "3.4.3"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 37 · 3 Besteuerung von Mitarbeiteraktien › 3.4 Besondere Fälle › 3.4.3 Veräusserung · S. 10
 
-2.5   Realisation
-Wird in diesem Kreisschreiben von Realisation von Mitarbeiterbeteiligungen gesprochen,
-dann deckt dies insbesondere die Ausübung oder den Verkauf von Mitarbeiteroptionen ab,
-ebenso wie die Umwandlung von Anwartschaften in Aktien sowie den Bezug von Bargeld
-aus aktienkursbezogenen Bargeldanreizsystemen (vgl. Anhang I, Übersicht über Mitarbeiter-
-beteiligungen).
-
-2.6   Umrechnung von Fremdwährungen
-Lautet eine Mitarbeiterbeteiligung auf eine ausländische Währung, so sind die jeweils zu be-
-scheinigenden Angaben in Schweizerfranken (nachfolgend Franken) umzurechnen. Der Um-
-rechnung ist das Mittel der Geld- und Briefschlusskurse am Tage der Abgabe, dem Erwerb
-oder der Realisation des geldwerten Vorteils aus der Mitarbeiterbeteiligung zu Grunde zu le-
-gen. In begründeten Fällen und in Absprache mit der zuständigen Steuerbehörde kann von
-dieser Umrechnung abgewichen werden.
+3.4.3 Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien
+Aus der Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien resultiert für die
+Belange der direkten Steuern grundsätzlich ein steuerfreier privater Kapitalgewinn (vgl.
+Art. 16 Abs. 3 DBG) oder ein steuerlich unbeachtlicher Kapitalverlust. Der Umfang des steu-
+erfreien Kapitalgewinns entspricht der Differenz zwischen dem Verkehrswert im Zeitpunkt
+der Abgabe und dem Verkehrswert im Zeitpunkt der Veräusserung bzw. der Differenz zwi-
+schen dem Formelwert im Zeitpunkt der Abgabe und dem nach der gleichen Bewertungsme-
+thode ermittelten Formelwert im Zeitpunkt der Veräusserung. Ein allfälliger Mehrwert, der
+beispielsweise auf eine veränderte Bewertungsmethodik oder auf einen Wechsel vom For-
+mel- zum Verkehrswertprinzip zurückzuführen ist, ist in der Regel als Einkommen im Zeit-
+punkt der Veräusserung zu besteuern. Tritt das den Wechsel vom Formel- zum Verkehrs-
+wertprinzip auslösende Ereignis erst nach Ablauf einer fünfjährigen Haltedauer der jeweiligen
+Mitarbeiteraktien ein, realisiert der Mitarbeitende bei einer nachfolgenden Veräusserung der
+im Privatvermögen gehaltenen Mitarbeiteraktien einen steuerfreien Kapitalgewinn.

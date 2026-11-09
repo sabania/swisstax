@@ -4,7 +4,7 @@ quelle: ar-stg
 jur: ar
 jahre: [2025, 2026]
 typ: gesetz
-titel: "Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 1/3)"
+titel: "Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Teil 1/2)"
 artikel: "Art. 282"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---

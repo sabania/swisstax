@@ -4,14 +4,21 @@ quelle: bund-ks-18a
 jur: bund
 jahre: [2026]
 typ: kreisschreiben
-titel: "KS 18a – Abschnitt 33"
-seiten: "8"
+titel: "Ziff. 6.4 Rückzahlung WEF-Vorbezug der 2. Säule mit Säule-3a-Mitteln"
+ziffer: "6.4"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · S. 8
+> Bund · Steuerjahr 2026 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.4 Rückzahlung WEF-Vorbezug · S. 10
 
-Einkäufe in die Säule 3a nach Erreichen des Referenzalters setzen eine Erwerbstätigkeit vo-
-raus und können längstens bis fünf Jahre nach Erreichen des Referenzalters geleistet wer-
-den (Art. 7a Abs. 5 i.V.m. Art. 7 Abs. 3 BVV3). Zudem ist zu beachten, dass Einkäufe nicht
-mehr zulässig sind, wenn der Vorsorgenehmer einen Bezug einer Altersleistung aus der
-Säule 3a tätigt (Art. 7a Abs. 4 BVV3).
+6.4. Kann ein in der beruflichen Vorsorge getätigter WEF-Vorbezug mit Mitteln
+    der gebundenen Selbstvorsorge zurückbezahlt werden?
+Die in der BVV 3 normierten vorzeitigen Ausrichtungsgründe lassen eine solche steuerneut-
+rale Übertragung nicht zu. Die Rückzahlung eines WEF-Vorbezuges stellt zudem nie einen
+Einkauf im Sinne von Artikel 3a Absatz 1 Buchstabe a BVV 3 dar. Vorsorgerechtlich können
+bereits für die Vorsorge gebundene Mittel nicht zur Behebung einer durch einen WEF-Vorbe-
+zug entstandenen Lücke verwendet werden. Der in das Wohneigentum investierte Betrag
+muss aus Mitteln, die noch nicht zu Vorsorgezwecken gebunden sind, an die Vorsorgeein-
+richtung zurückbezahlt werden. Aufgrund der Zweckgebundenheit der Mittel in der Säule 3a
+ist eine vorzeitige Ausrichtung im Sinne einer Direktüberweisung in die 2. Säule zur Rück-
+zahlung eines WEF-Vorbezuges nicht zulässig.

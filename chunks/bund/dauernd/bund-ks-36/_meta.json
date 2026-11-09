@@ -1,496 +1,696 @@
 [
 {
 "id": "bund-ks-36__c0001",
-"titel": "KS 36 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1 Gegenstand des Kreisschreibens – Abgrenzung Wertschriftenhandel",
+"pfad": [
+"1 Gegenstand"
+],
+"seiten": [
+2
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Quasi-Wertschriftenhandel",
+"Vorprüfung",
+"private Vermögensverwaltung"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Hilfsmittel zur Abgrenzung der selbständigen Erwerbstätigkeit (Quasi-Wertschriftenhandel) von der privaten Vermögensverwaltung; Vorprüfungskriterien in Ziff. 3.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "bund-ks-36__c0002"
 },
 {
 "id": "bund-ks-36__c0002",
-"titel": "KS 36 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 2.1–2.2 Rechtsgrundlagen – Art. 16 Abs. 3 DBG steuerfreie Kapitalgewinne, Art. 18 DBG",
+"pfad": [
+"2 Rechtliche Grundlagen"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.1-2.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Art. 16 DBG",
+"Art. 18 DBG",
+"steuerfreier Kapitalgewinn",
+"Geschäftsvermögen"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Kapitalgewinne auf Privatvermögen sind steuerfrei (Art. 16 Abs. 3 DBG), Kapitalgewinne aus Geschäftsvermögen steuerbar (Art. 18 DBG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0001",
 "nachher": "bund-ks-36__c0003"
 },
 {
 "id": "bund-ks-36__c0003",
-"titel": "KS 36 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2.3 Absicht des Gesetzgebers im Stabilisierungsprogramm 1998",
+"pfad": [
+"2 Rechtliche Grundlagen",
+"2.3"
+],
 "seiten": [
-1
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.3",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Stabilisierungsprogramm 1998",
+"fremde Mittel",
+"Indiz"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Der Gesetzgeber regelte den gewerbsmässigen Wertschriftenhandel nicht; dynamische private Vermögensverwaltung soll möglich bleiben, stärkstes Indiz ist der Einsatz fremder Mittel.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0002",
 "nachher": "bund-ks-36__c0004"
 },
 {
 "id": "bund-ks-36__c0004",
-"titel": "KS 36 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 3 Vorprüfung – Einzelfallbeurteilung und Rechtssicherheit",
+"pfad": [
+"3 Vorprüfung"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Vorprüfung",
+"Einzelfall",
+"Rechtssicherheit"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Ob gewerbsmässiger Wertschriftenhandel vorliegt, ist nach sämtlichen Umständen zu beurteilen; kumulativ erfüllte Kriterien führen sicher zu privater Vermögensverwaltung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0003",
 "nachher": "bund-ks-36__c0005"
 },
 {
 "id": "bund-ks-36__c0005",
-"titel": "KS 36 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3 Vorprüfung – fünf kumulative Kriterien (6 Monate, 5-faches Volumen, 50 %)",
+"pfad": [
+"3 Vorprüfung",
+"Kriterien"
+],
 "seiten": [
-1
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Haltedauer 6 Monate",
+"Transaktionsvolumen fünffach",
+"50 % Reineinkommen",
+"Fremdfinanzierung",
+"Derivate"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Private Vermögensverwaltung gilt bei: Haltedauer mindestens 6 Monate; Volumen höchstens das Fünffache des Bestands; Gewinne unter 50 % des Reineinkommens; keine Fremdfinanzierung oder Erträge grösser als Schuldzinsen; Derivate nur zur Absicherung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0004",
 "nachher": "bund-ks-36__c0006"
 },
 {
 "id": "bund-ks-36__c0006",
-"titel": "KS 36 – Abschnitt 6",
-"pfad": [],
+"titel": "Fussnoten 3–5 (Voten Bundesrat Villiger und Ständerat Gemperli)",
+"pfad": [
+"2 Rechtliche Grundlagen",
+"Fussnoten"
+],
 "seiten": [
-2
+3,
+4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Materialien",
+"Fussnoten",
+"Kapitalgewinnsteuer"
+],
+"positionen": [],
+"zusammenfassung": "Wortlaut der Voten im Ständerat 1999 zur Auslegung des gewerbsmässigen Wertschriftenhandels.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0005",
 "nachher": "bund-ks-36__c0007"
 },
 {
 "id": "bund-ks-36__c0007",
-"titel": "KS 36 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 4.1 Grundsatz – Praxis des BdBSt gilt für das DBG (BGE 2.12.1999)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.1"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.1",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"BdBSt",
+"Bundesgericht",
+"selbständige Erwerbstätigkeit"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Selbständige Erwerbstätigkeit liegt vor, wenn An- und Verkäufe über die schlichte Verwaltung von Privatvermögen hinausgehen und systematisch mit Gewinnabsicht erfolgen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0006",
 "nachher": "bund-ks-36__c0008"
 },
 {
 "id": "bund-ks-36__c0008",
-"titel": "KS 36 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 4.2 Begriff Wertschriften (Aktien, Obligationen, Derivate, Futures)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.2"
+],
 "seiten": [
-2
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Wertschriften Begriff",
+"Derivate",
+"Optionen",
+"Swaps",
+"Krypto"
+],
+"positionen": [],
+"zusammenfassung": "Wertschriften umfassen Wertpapiere, Wertrechte, kollektive Kapitalanlagen sowie Futures und Derivate (Optionen, Swaps).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0007",
 "nachher": "bund-ks-36__c0009"
 },
 {
 "id": "bund-ks-36__c0009",
-"titel": "KS 36 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 4.3.1 Allgemeine Kriterien der Abgrenzung (Gesamtwürdigung, Indizien) (Teil 1/3)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3 Abgrenzung",
+"4.3.1"
+],
 "seiten": [
-2
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3.1",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Gesamtwürdigung",
+"Indizien",
+"zufällig bietende Gelegenheit"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Kapitalgewinne bleiben steuerfrei, solange sie im Rahmen privater Vermögensverwaltung erzielt werden; massgebend ist die Gesamtheit der Umstände, ein einzelnes Indiz kann genügen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0008",
 "nachher": "bund-ks-36__c0010"
 },
 {
 "id": "bund-ks-36__c0010",
-"titel": "KS 36 – Abschnitt 10",
-"pfad": [],
+"titel": "Ziff. 4.3.1 Allgemeine Kriterien der Abgrenzung (Gesamtwürdigung, Indizien) (Teil 2/3)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3 Abgrenzung",
+"4.3.1"
+],
 "seiten": [
-3
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.3.1",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Gesamtwürdigung",
+"Indizien",
+"zufällig bietende Gelegenheit"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0009",
 "nachher": "bund-ks-36__c0011"
 },
 {
 "id": "bund-ks-36__c0011",
-"titel": "KS 36 – Abschnitt 11",
-"pfad": [],
+"titel": "Ziff. 4.3.1 Allgemeine Kriterien der Abgrenzung (Gesamtwürdigung, Indizien) (Teil 3/3)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3 Abgrenzung",
+"4.3.1"
+],
 "seiten": [
-3
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.3.1",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Gesamtwürdigung",
+"Indizien",
+"zufällig bietende Gelegenheit"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0010",
 "nachher": "bund-ks-36__c0012"
 },
 {
 "id": "bund-ks-36__c0012",
-"titel": "KS 36 – Abschnitt 12",
-"pfad": [],
+"titel": "Ziff. 4.3.2 Wertschriftenportefeuilles – Gewichtung der Kriterien (Entscheid 2C_868/2008)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3 Abgrenzung",
+"4.3.2"
+],
 "seiten": [
-3
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Portefeuille",
+"2C_868/2008",
+"Gewichtung"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Bei Portefeuilles stehen Transaktionsvolumen und Fremdfinanzierung im Vordergrund, systematisches Vorgehen und Fachkenntnisse haben untergeordnete Bedeutung.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0011",
 "nachher": "bund-ks-36__c0013"
 },
 {
 "id": "bund-ks-36__c0013",
-"titel": "KS 36 – Abschnitt 13",
-"pfad": [],
+"titel": "Ziff. 4.3.2 Vordergrund-Kriterium Transaktionsvolumen, Häufigkeit, kurze Besitzdauer",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3.2",
+"Im Vordergrund"
+],
 "seiten": [
-4
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Besitzdauer",
+"Häufigkeit",
+"Daytrading"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Kurze Besitzdauer und hohe Häufigkeit deuten auf rasche Gewinnerzielung; unter Umständen kann schon eine einzige Transaktion genügen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0012",
 "nachher": "bund-ks-36__c0014"
 },
 {
 "id": "bund-ks-36__c0014",
-"titel": "KS 36 – Abschnitt 14",
-"pfad": [],
+"titel": "Ziff. 4.3.2 Vordergrund-Kriterium Einsatz erheblicher fremder Mittel (Schuldzinsen)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3.2",
+"Im Vordergrund"
+],
 "seiten": [
-4
+5,
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Fremdfinanzierung",
+"Lombardkredit",
+"Schuldzinsen",
+"Hebel"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Erhebliche Fremdmittel sind atypisch für private Vermögensverwaltung; werden Schuldzinsen nur durch Veräusserungsgewinne gedeckt, liegt keine private Vermögensverwaltung mehr vor.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0013",
 "nachher": "bund-ks-36__c0015"
 },
 {
 "id": "bund-ks-36__c0015",
-"titel": "KS 36 – Abschnitt 15",
-"pfad": [],
+"titel": "Ziff. 4.3.2 Vordergrund-Kriterium Einsatz von Derivaten",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3.2",
+"Im Vordergrund"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Derivate",
+"Optionen",
+"spekulativ",
+"Absicherung"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Derivate zur Absicherung sind unproblematisch; übersteigt der Einsatz die Risikoabsicherung bei grossem Volumen, gilt er als spekulativ und deutet auf Gewerbsmässigkeit.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0014",
 "nachher": "bund-ks-36__c0016"
 },
 {
 "id": "bund-ks-36__c0016",
-"titel": "KS 36 – Abschnitt 16",
-"pfad": [],
+"titel": "Ziff. 4.3.2 Untergeordnete Indizien – systematisches Vorgehen, Wiederanlage der Gewinne",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3.2",
+"Untergeordnete Indizien"
+],
 "seiten": [
-4
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"systematisch planmässig",
+"Wiederanlage Gewinne"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Systematisches oder planmässiges Vorgehen ist ein Indiz von untergeordneter Bedeutung; Wiederanlage der Gewinne in gleichartige Vermögensgegenstände kann Teil planmässigen Vorgehens sein.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0015",
 "nachher": "bund-ks-36__c0017"
 },
 {
 "id": "bund-ks-36__c0017",
-"titel": "KS 36 – Abschnitt 17",
-"pfad": [],
+"titel": "Ziff. 4.3.2 Untergeordnete Indizien – Berufsnähe, Fachkenntnisse, bevollmächtigte Dritte (Teil 1/2)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3.2",
+"Untergeordnete Indizien"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.3.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Fachkenntnisse",
+"Bank Treuhänder",
+"Hilfsperson"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Berufsnähe und Fachkenntnisse begründen allein keine selbständige Erwerbstätigkeit; Handlungen von Banken oder Treuhändern werden der steuerpflichtigen Person zugerechnet.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0016",
 "nachher": "bund-ks-36__c0018"
 },
 {
 "id": "bund-ks-36__c0018",
-"titel": "KS 36 – Abschnitt 18",
-"pfad": [],
+"titel": "Ziff. 4.3.2 Untergeordnete Indizien – Berufsnähe, Fachkenntnisse, bevollmächtigte Dritte (Teil 2/2)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.3.2",
+"Untergeordnete Indizien"
+],
 "seiten": [
-5
+6
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.3.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Fachkenntnisse",
+"Bank Treuhänder",
+"Hilfsperson"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0017",
 "nachher": "bund-ks-36__c0019"
 },
 {
 "id": "bund-ks-36__c0019",
-"titel": "KS 36 – Abschnitt 19",
-"pfad": [],
+"titel": "Ziff. 4.4 Bemessungsgrundlage – Gewinn, Gestehungskosten, Nachweis",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.4 Bemessungsgrundlage"
+],
 "seiten": [
-5
+6,
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.4",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Gestehungskosten",
+"Veräusserungsgewinn",
+"Nachweis"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Gewinn ist die positive Differenz zwischen Veräusserungserlös und Gestehungskosten abzüglich Veräusserungskosten; den Nachweis der Gestehungskosten hat der Steuerpflichtige zu erbringen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0018",
 "nachher": "bund-ks-36__c0020"
 },
 {
 "id": "bund-ks-36__c0020",
-"titel": "KS 36 – Abschnitt 20",
-"pfad": [],
+"titel": "Ziff. 4.4 Abzug geschäftsmässiger Kosten und Verluste (Art. 27 DBG), Aufzeichnungen (Teil 1/2)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.4 Bemessungsgrundlage"
+],
 "seiten": [
-5
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "4.4",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Wertschriftenverluste",
+"Art. 27 DBG",
+"Buchführung",
+"Aufstellungen"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Geschäftsmässig begründete Kosten und verbuchte Verluste sind abziehbar (Art. 27 DBG); ohne kaufmännische Buchhaltung sind Aufstellungen nach Art. 125 Abs. 2 DBG beizubringen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0019",
 "nachher": "bund-ks-36__c0021"
 },
 {
 "id": "bund-ks-36__c0021",
-"titel": "KS 36 – Abschnitt 21",
-"pfad": [],
+"titel": "Ziff. 4.4 Abzug geschäftsmässiger Kosten und Verluste (Art. 27 DBG), Aufzeichnungen (Teil 2/2)",
+"pfad": [
+"4 Selbständige Erwerbstätigkeit",
+"4.4 Bemessungsgrundlage"
+],
 "seiten": [
-5
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "4.4",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Wertschriftenverluste",
+"Art. 27 DBG",
+"Buchführung",
+"Aufstellungen"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0020",
 "nachher": "bund-ks-36__c0022"
 },
 {
 "id": "bund-ks-36__c0022",
-"titel": "KS 36 – Abschnitt 22",
-"pfad": [],
+"titel": "Ziff. 5.1 Beurteilungszeitpunkt – Grundsatz",
+"pfad": [
+"5 Beurteilungszeitpunkt",
+"5.1 Grundsatz"
+],
 "seiten": [
-6
+7
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.1",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Beurteilungszeitpunkt",
+"Veräusserung",
+"Rechtsauskunft"
+],
+"positionen": [
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Massgebend ist die Steuerperiode, in der die Indizien erfüllt sind; Anknüpfungspunkt ist die Veräusserung, verbindliche Auskünfte nur in eindeutigen Fällen.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0021",
 "nachher": "bund-ks-36__c0023"
 },
 {
 "id": "bund-ks-36__c0023",
-"titel": "KS 36 – Abschnitt 23",
-"pfad": [],
+"titel": "Ziff. 5.2 Schuldzinsen – Abzug bis Bruttovermögensertrag + 50'000 Franken",
+"pfad": [
+"5 Beurteilungszeitpunkt",
+"5.2 Schuldzinsen"
+],
 "seiten": [
-6
+7,
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.2",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Schuldzinsen 50000",
+"Art. 33 DBG",
+"Aufrechnung",
+"geschäftliche Schuldzinsen"
+],
+"positionen": [
+"abzug.schuldzinsen",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Private Schuldzinsen sind nur bis zur Höhe des Bruttovermögensertrags und weiterer 50'000 Franken abziehbar, geschäftliche unbeschränkt; Abgrenzung nach nachgewiesener Mittelverwendung, sonst proportional nach Aktiven.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0022",
 "nachher": "bund-ks-36__c0024"
 },
 {
 "id": "bund-ks-36__c0024",
-"titel": "KS 36 – Abschnitt 24",
-"pfad": [],
+"titel": "Ziff. 5.3 Geerbte Wertschriften",
+"pfad": [
+"5 Beurteilungszeitpunkt",
+"5.3"
+],
 "seiten": [
-6
+8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "5.3",
+"stichworte": [
+"Wertschriftenhandel",
+"Kapitalgewinn",
+"Erbschaft",
+"Erben",
+"Erblasser"
+],
+"positionen": [
+"einkommen.selbstaendig",
+"einkommen.erbschaften_unverteilt"
+],
+"zusammenfassung": "Bei geerbten Wertschriften besteht die Qualifikation (Privat- oder Geschäftsvermögen) des Erblassers bei den Erben weiter.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "bund-ks-36__c0023",
 "nachher": "bund-ks-36__c0025"
 },
 {
 "id": "bund-ks-36__c0025",
-"titel": "KS 36 – Abschnitt 25",
-"pfad": [],
-"seiten": [
-6
+"titel": "Ziff. 6 Inkrafttreten",
+"pfad": [
+"6 Inkrafttreten"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0024",
-"nachher": "bund-ks-36__c0026"
-},
-{
-"id": "bund-ks-36__c0026",
-"titel": "KS 36 – Abschnitt 26",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0025",
-"nachher": "bund-ks-36__c0027"
-},
-{
-"id": "bund-ks-36__c0027",
-"titel": "KS 36 – Abschnitt 27",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0026",
-"nachher": "bund-ks-36__c0028"
-},
-{
-"id": "bund-ks-36__c0028",
-"titel": "KS 36 – Abschnitt 28",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0027",
-"nachher": "bund-ks-36__c0029"
-},
-{
-"id": "bund-ks-36__c0029",
-"titel": "KS 36 – Abschnitt 29",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0028",
-"nachher": "bund-ks-36__c0030"
-},
-{
-"id": "bund-ks-36__c0030",
-"titel": "KS 36 – Abschnitt 30",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0029",
-"nachher": "bund-ks-36__c0031"
-},
-{
-"id": "bund-ks-36__c0031",
-"titel": "KS 36 – Abschnitt 31",
-"pfad": [],
 "seiten": [
 8
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0030",
+"ziffer": "6",
+"stichworte": [
+"Inkrafttreten",
+"Publikation ESTV"
+],
+"positionen": [],
+"zusammenfassung": "Das Kreisschreiben gilt ab Publikation auf der ESTV-Website.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-36__c0024",
 "nachher": null
 }
 ]

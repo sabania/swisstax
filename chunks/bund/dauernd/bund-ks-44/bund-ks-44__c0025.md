@@ -4,20 +4,24 @@ quelle: bund-ks-44
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 44 – Abschnitt 25"
-seiten: "6"
+titel: "Ziff. 5.2 Modifizierte Aufwandbesteuerung (Art. 14 Abs. 5 DBG) (Teil 1/2)"
+ziffer: "5.2"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 44 · 5 Verfahren › 5.2 Modifizierte Aufwandbesteuerung · S. 7–8
 
-ern beanspruchen kann, kommen neben Dividenden, Zinsen und Lizenzgebühren auch Er-
-werbseinkünfte, Pensionen und Renten aus allen Staaten in Betracht, mit denen die Schweiz
-ein Doppelbesteuerungsabkommen abgeschlossen hat. Unter dem Bruttobetrag dieser Ein-
-künfte ist der um den nicht rückforderbaren Teil der ausländischen Steuer gekürzte Ertrag zu
-verstehen. Spezielle Regelungen gelten unter den Doppelbesteuerungsabkommen mit Belgien,
-Deutschland, Frankreich, Italien, Norwegen, Kanada, Österreich und den USA.
-Als Lizenzgebühren (Royalties) gelten Vergütungen jeder Art, die für die Benutzung oder für
-das Recht auf Benutzung von Urheberrechten an literarischen, künstlerischen oder wissen-
-schaftlichen Werken (einschliesslich kinematographischer Filme sowie Filme oder Aufzeichnun-
-gen für Radio und Fernsehen), von Patenten, Marken, Mustern oder Modellen, Plänen, Formeln
-oder Verfahren und für die Benutzung oder das Recht auf Benutzung gewerblicher, kaufmänni-
+5.2   Modifizierte Aufwandbesteuerung
+Unter den Doppelbesteuerungsabkommen mit Belgien, Deutschland, Italien, Norwegen, Ka-
+nada, Österreich und den USA können in der Schweiz ansässige natürliche Personen die Ab-
+kommensvorteile nur beanspruchen, wenn sie für alle nach schweizerischem Recht steuerba-
+ren Einkünfte aus diesen Vertragsstaaten den direkten Steuern des Bundes, der Kantone und
+der Gemeinden unterliegen. Im Ergebnis muss daher eine der Aufwandbesteuerung unterwor-
+fene natürliche Person, die aufgrund der erwähnten Doppelbesteuerungsabkommen eine Ent-
+lastung von den Steuern dieser Vertragsstaaten beansprucht, bezüglich aller aus diesen Staa-
+ten stammenden Einkünften so behandelt werden, wie wenn sie ordentlich besteuert würde
+(= sog. modifizierte Aufwandbesteuerung; vgl. Art. 14 Abs. 5 DBG). In die Bemessungsgrund-
+lage sind daher neben den in Artikel 14 Absatz 3 DBG Buchstabe d bezeichneten Einkünften
+auch alle anderen aus diesen betreffenden Vertragsstaaten stammenden Einkünfte einzu-
+schliessen, soweit sie nach dem internen schweizerischen Recht steuerbar und nicht aufgrund
+der anwendbaren Doppelbesteuerungsabkommen von den schweizerischen Steuern befreit

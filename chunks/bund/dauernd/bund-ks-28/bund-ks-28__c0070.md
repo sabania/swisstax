@@ -4,21 +4,25 @@ quelle: bund-ks-28
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 28 – Abschnitt 70"
-seiten: "20"
+titel: "Anhang II Art. 6 Abs. 1–2 Altersgutschriftensatz 15 Prozent, Beitragsjahre (Teil 1/2)"
+ziffer: "Art. 6 Abs. 1–2"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 25
 
-Vorbehalten bleibt natürlich stets die Steuerumgehung, die zu einem Nachsteuerverfahren
-führt. Nach der Rechtsprechung des Bundesgerichts liegt eine Steuerumgehung vor, wenn
-a)   die von den Beteiligten gewählte Rechtsgestaltung als ungewöhnlich, sachwidrig oder
-    absonderlich, jedenfalls den wirtschaftlichen Gegebenheiten völlig unangemessen er-
-    scheint,
-b)   ferner anzunehmen ist, dass diese Wahl missbräuchlich lediglich deshalb getroffen wur-
-    de, um Steuern einzusparen, welche bei sachgemässer Ordnung der Verhältnisse ge-
-    schuldet wären und
-c)   das gewählte Vorgehen tatsächlich zu einer erheblichen Steuerersparnis führen würde,
-    sofern die Steuerbehörde es hinnähme.
+Artikel 6   Berechnung des fiktiven Einkaufs
 
-Artikel 2   Liquidationsjahr
+Absatz 1
+Den Materialien ist zu entnehmen, dass es der Wille des Gesetzgebers war, dass die Be-
+rechnung der fiktiven Deckungslücke der Steuerpraxis bzw. der Verwaltung überlassen wird.
+Dabei soll es sich um einen angemessenen Vorsorgeplan mit Annahme eines durchschnittli-
+chen Beitragsatzes handeln.
+
+Der Altersgutschriftensatz von 15 Prozent entspricht dem obligatorischen Altersgutschriften-
+satz zwischen dem 45. und 54. Altersjahr nach Artikel 16 BVG. Da nicht zum Vornherein
+feststeht, ob jemand wegen Invalidität im 30. Altersjahr oder jemand infolge Pensionierung
+im 65. Altersjahr liquidieren wird, wurde mit 15 Prozent ein guter Mittelwert gewählt. Zusätz-
+lich wurde auf einen Koordinationsabzug verzichtet. Mit den vorliegenden Parametern kann
+der Vorstellung des Gesetzgebers, der sich von der Idee eines angemessenen Plans leiten
+liess, entsprochen werden.

@@ -4,15 +4,19 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 61"
-seiten: "15"
+titel: "Ziff. 5.3 Beispiele Verwaltungsratsentschädigung und Lohn"
+ziffer: "5.3"
+seiten: "20-21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 45 · 5 Abgrenzungen › 5.3 Verwaltungsratsentschädigungen · S. 20–21
 
-und des Tarifcodes G (Ersatzeinkünfte, die direkt von Versicherer an die quellensteuerpflich-
-tige Person ausbezahlt werden) bzw. des Tarifcodes Q (Grenzgänger nach dem Abkommen
-vom 11. August 1971 zwischen der Schweizerischen Eidgenossenschaft und der Bundesre-
-publik Deutschland zur Vermeidung der Doppelbesteuerung auf dem Gebiete der Steuern
-vom Einkommen und vom Vermögen [DBA-D; SR 0.672.913.62], welche die Voraussetzun-
-gen für den Tarifcode G erfüllen).
+    Beispiele:
+    1. Das Verwaltungsratsmitglied R. ist in der Schweiz ansässig und bezieht im Monat März neben den Verwal-
+    tungsratsentschädigungen von CHF 5 000.00 noch einen Bruttolohn von CHF 10 000.00.
+    Die Gesamteinkünfte (= CHF 15 000.00) unterliegen somit nach Artikel 83 DBG der Quellensteuer (ordent-
+    liche Tarifcodes).
+    2. Gleicher Sachverhalt wie vorher mit dem Unterschied, dass das Verwaltungsratsmitglied im Ausland an-
+    sässig ist.
+    Demzufolge unterliegen der Bruttolohn nach Artikel 91 DBG (ordentlicher, progressiver Tarifcode) und das
+    Verwaltungsratshonorar separat nach Artikel 93 DBG (linearer Tarif) der Quellensteuer.

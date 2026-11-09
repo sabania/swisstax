@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://steuerverwaltung.tg.ch/informationen/faq/natuerliche-personen.html/3823> · lokal: [tg-info-faq.html](../../../raw/tg/dauernd/tg-info-faq.html) · Volltext: [tg-info-faq.md](../../../sources/tg/dauernd/tg-info-faq.md)
 - **Abgerufen:** 2026-11-09 · sha256 `72d1298c706132d4…`
 
-## Inhalt (83 Chunks)
+## Inhalt (82 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -64,22 +64,22 @@ generiert: tools/build_index.py
 | [c0046](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0046.md) | Liegenschaften |  |  |
 | [c0047](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0047.md) | Liegenschaften |  |  |
 | [c0048](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0048.md) | Liegenschaften |  |  |
-| [c0049](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0049.md) | Liegenschaften |  |  |
+| [c0049](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0049.md) | Vermögenssteuer |  |  |
 | [c0050](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0050.md) | Vermögenssteuer |  |  |
 | [c0051](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0051.md) | Vermögenssteuer |  |  |
-| [c0052](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0052.md) | Vermögenssteuer |  |  |
+| [c0052](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0052.md) | Steuerpflicht / Bemessung |  |  |
 | [c0053](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0053.md) | Steuerpflicht / Bemessung |  |  |
 | [c0054](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0054.md) | Steuerpflicht / Bemessung |  |  |
 | [c0055](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0055.md) | Steuerpflicht / Bemessung |  |  |
 | [c0056](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0056.md) | Steuerpflicht / Bemessung |  |  |
-| [c0057](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0057.md) | Steuerpflicht / Bemessung |  |  |
-| [c0058](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0058.md) | Quellensteuer |  |  |
+| [c0057](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0057.md) | Quellensteuer |  |  |
+| [c0058](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0058.md) | Kapitalleistungen aus Vorsorge |  |  |
 | [c0059](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0059.md) | Kapitalleistungen aus Vorsorge |  |  |
 | [c0060](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0060.md) | Kapitalleistungen aus Vorsorge |  |  |
 | [c0061](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0061.md) | Kapitalleistungen aus Vorsorge |  |  |
 | [c0062](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0062.md) | Kapitalleistungen aus Vorsorge |  |  |
 | [c0063](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0063.md) | Kapitalleistungen aus Vorsorge |  |  |
-| [c0064](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0064.md) | Kapitalleistungen aus Vorsorge |  |  |
+| [c0064](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0064.md) | Veranlagungsverfahren |  |  |
 | [c0065](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0065.md) | Veranlagungsverfahren |  |  |
 | [c0066](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0066.md) | Veranlagungsverfahren |  |  |
 | [c0067](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0067.md) | Veranlagungsverfahren |  |  |
@@ -91,11 +91,10 @@ generiert: tools/build_index.py
 | [c0073](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0073.md) | Veranlagungsverfahren |  |  |
 | [c0074](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0074.md) | Veranlagungsverfahren |  |  |
 | [c0075](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0075.md) | Veranlagungsverfahren |  |  |
-| [c0076](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0076.md) | Veranlagungsverfahren |  |  |
+| [c0076](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0076.md) | Steuerbezug |  |  |
 | [c0077](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0077.md) | Steuerbezug |  |  |
 | [c0078](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0078.md) | Steuerbezug |  |  |
 | [c0079](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0079.md) | Steuerbezug |  |  |
 | [c0080](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0080.md) | Steuerbezug |  |  |
 | [c0081](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0081.md) | Steuerbezug |  |  |
 | [c0082](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0082.md) | Steuerbezug |  |  |
-| [c0083](../../../chunks/tg/dauernd/tg-info-faq/tg-info-faq__c0083.md) | Steuerbezug |  |  |

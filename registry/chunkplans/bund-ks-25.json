@@ -1,0 +1,701 @@
+{
+ "id": "bund-ks-25",
+ "hinweise": [
+  "Seite 15-18: Anhang III und V (Grafik/Entscheidungsbaum) als Text extrahiert, Spalten und Pfeile vermischt, nur eingeschränkt lesbar.",
+  "Seite 13: Tabelle Spartenrechnung (Anhang II) mit schwer zuordenbaren Spalten.",
+  "Aufzählungszeichen fehlen teilweise (Seite 4, 5)."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt und Inhaltsverzeichnis"
+  },
+  {
+   "start": 82,
+   "titel": "Ziff. 1 Einleitung – KAG, Formen kollektiver Kapitalanlagen",
+   "pfad": [
+    "1 Einleitung"
+   ],
+   "stichworte": [
+    "KAG",
+    "kollektive Kapitalanlagen",
+    "Anlagefonds",
+    "SICAV",
+    "SICAF",
+    "KmGK"
+   ],
+   "zusammenfassung": "Dem KAG unterstellt sind vertragliche Anlagefonds, SICAV, SICAF und KmGK; kollektive Kapitalanlagen mit direktem Grundbesitz sind steuerbefreit, wenn sich nur steuerbefreite Vorsorge- und Sozialversicherungseinrichtungen beteiligen (Art. 56 Bst. j DBG).",
+   "ziffer": "1"
+  },
+  {
+   "start": 98,
+   "titel": "Ziff. 1 Einleitung – Neuerungen des KS Nr. 25",
+   "pfad": [
+    "1 Einleitung"
+   ],
+   "stichworte": [
+    "Massgeblichkeit",
+    "Jahresrechnung",
+    "Einkäufe",
+    "direkter Grundbesitz"
+   ],
+   "zusammenfassung": "Das KS Nr. 25 wurde strukturell angepasst und inhaltlich erweitert und regelt die Besteuerung auf Stufe der kollektiven Kapitalanlage und der Anleger.",
+   "ziffer": "1"
+  },
+  {
+   "start": 115,
+   "titel": "Ziff. 2 Aufsichtsrechtliche Aspekte kollektiver Kapitalanlagen",
+   "pfad": [
+    "2 Aufsichtsrechtliche Aspekte"
+   ],
+   "stichworte": [
+    "Treuhandlösung",
+    "zwei unabhängige Anleger",
+    "Art. 7 KAG",
+    "Einanlegerfonds"
+   ],
+   "zusammenfassung": "Ausserhalb des Einanlegerfonds sind mindestens zwei voneinander unabhängige Anleger erforderlich; die Vorgaben gelten analog für direkte Steuern.",
+   "ziffer": "2"
+  },
+  {
+   "start": 141,
+   "titel": "Ziff. 3.1 Steuerliche Grundlagen – transparente Betrachtung",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.1"
+   ],
+   "stichworte": [
+    "transparente Besteuerung",
+    "Treuhandlösung",
+    "SICAF",
+    "ausländische Fonds",
+    "Art. 10 Abs. 2 DBG"
+   ],
+   "zusammenfassung": "Vertragliche Anlagefonds, SICAV und KmGK sind keine Steuersubjekte; SICAF und KKA mit direktem Grundbesitz werden wie juristische Personen besteuert.",
+   "ziffer": "3.1"
+  },
+  {
+   "start": 165,
+   "titel": "Ziff. 3.2 Besteuerung KKA ohne direkten Grundbesitz",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.2"
+   ],
+   "stichworte": [
+    "Ausschüttungsfonds",
+    "Thesaurierungsfonds",
+    "SICAF Gewinnsteuer 8,5 %",
+    "Beteiligungsabzug"
+   ],
+   "zusammenfassung": "Bei KKA ohne direkten Grundbesitz erfolgt keine Gewinnbesteuerung auf Fondsebene; die SICAF unterliegt zum Satz von 8,5 % der Gewinnsteuer.",
+   "ziffer": "3.2"
+  },
+  {
+   "start": 185,
+   "titel": "Ziff. 3.3.1 Begriff – KKA mit direktem Grundbesitz",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.3 KKA mit direktem Grundbesitz",
+    "3.3.1 Begriff"
+   ],
+   "stichworte": [
+    "Immobilienfonds",
+    "zehn Grundstücke",
+    "KmGK Immobilien",
+    "Art. 58 KAG"
+   ],
+   "zusammenfassung": "Offene KKA mit direktem Grundbesitz haben grundsätzlich mindestens zehn Grundstücke auszuweisen.",
+   "ziffer": "3.3.1",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 197,
+   "titel": "Ziff. 3.3.2 Besteuerung – Gewinnsteuer 4,25 % auf Ertrag aus Grundbesitz",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.3",
+    "3.3.2 Besteuerung"
+   ],
+   "stichworte": [
+    "Gewinnsteuer 4,25 %",
+    "Immobilienfonds Steuer",
+    "SICAF 8,5 %",
+    "Veranlagung Sitzkanton"
+   ],
+   "zusammenfassung": "Fonds mit direktem Grundbesitz in der Schweiz zahlen Gewinnsteuer zum Satz von 4,25 % (SICAF 8,5 %); übrige Erträge sind beim Anleger steuerbar.",
+   "ziffer": "3.3.2",
+   "positionen": [
+    "einkommen.liegenschaften.mietertrag"
+   ]
+  },
+  {
+   "start": 220,
+   "titel": "Ziff. 3.3.3 Ermittlung des steuerbaren Gewinns – Grundsätze",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.3",
+    "3.3.3 Ermittlung steuerbarer Gewinn"
+   ],
+   "stichworte": [
+    "Massgeblichkeit",
+    "Einkäufe laufende Nettoerträge",
+    "Rückzahlungen Aufwand",
+    "Art. 58 DBG"
+   ],
+   "zusammenfassung": "Der steuerbare Reingewinn basiert auf der handelsrechtlichen Erfolgsrechnung; Einkäufe in laufende Nettoerträge gelten als Ertrag aus direktem Grundbesitz.",
+   "ziffer": "3.3.3"
+  },
+  {
+   "start": 235,
+   "titel": "Ziff. 3.3.3 – Zurechnung von Erträgen und Aufwendungen, Rückstellungen",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.3",
+    "3.3.3"
+   ],
+   "stichworte": [
+    "objektmässige Zurechnung",
+    "Aktivzinsen",
+    "Verkehrswert Aufteilung",
+    "Abschreibungen"
+   ],
+   "zusammenfassung": "Erträge und Aufwendungen aus direktem Grundbesitz werden objektmässig zugerechnet, übrige Aufwendungen im Verhältnis der Verkehrswerte.",
+   "ziffer": "3.3.3"
+  },
+  {
+   "start": 258,
+   "titel": "Ziff. 3.3.3 – Jahresrechnung nach KAG oder OR, Wechsel KAG zu OR",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.3",
+    "3.3.3"
+   ],
+   "stichworte": [
+    "Jahresrechnung KAG",
+    "Jahresrechnung OR",
+    "stille Reserven",
+    "Kapitalgewinne nicht realisiert"
+   ],
+   "zusammenfassung": "Die KKA hat das Wahlrecht zwischen Jahresrechnung nach KAG oder OR; bei KAG sind auch nicht realisierte Kapitalgewinne steuerlich zu erfassen.",
+   "ziffer": "3.3.3"
+  },
+  {
+   "start": 277,
+   "titel": "Ziff. 3.3.3–3.3.4 Wechsel OR zu KAG, Überleitung, Spartenrechnung, Deklarationspflicht",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.3",
+    "3.3.3–3.3.4"
+   ],
+   "stichworte": [
+    "Spartenrechnung",
+    "Überleitung",
+    "Deklarationspflicht Fondsleitung",
+    "Art. 129 Abs. 3 DBG"
+   ],
+   "zusammenfassung": "Beim Wechsel von OR zu KAG findet eine steuersystematische Realisierung statt; die Fondsleitung muss pro Steuerperiode eine Bescheinigung einreichen.",
+   "ziffer": "3.3.3 / 3.3.4"
+  },
+  {
+   "start": 294,
+   "titel": "Ziff. 4.1 Anlegerebene – ausschüttende, thesaurierende, gemischte Fonds",
+   "pfad": [
+    "4 Besteuerung auf Ebene der Anleger",
+    "4.1 Allgemeines"
+   ],
+   "stichworte": [
+    "Ausschüttungsfonds 70 %",
+    "Thesaurierungsfonds",
+    "gemischter Fonds",
+    "Geringfügigkeitsvorschrift"
+   ],
+   "zusammenfassung": "Als ausschüttend gilt eine KKA mit Ausschüttungsvorschrift von mindestens 70 % des jährlichen Nettoertrags; ohne Vorschrift gilt sie als thesaurierend.",
+   "ziffer": "4.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 316,
+   "titel": "Ziff. 4.1 Freistellung von Erträgen aus Grundstücken beim Anleger",
+   "pfad": [
+    "4 Besteuerung auf Ebene der Anleger",
+    "4.1 Allgemeines"
+   ],
+   "stichworte": [
+    "Freistellung Grundbesitzerträge",
+    "Satzbestimmung",
+    "Art. 20 Abs. 1 Bst. e DBG",
+    "SICAF Direktbesitz"
+   ],
+   "zusammenfassung": "Erträge aus in- oder ausländischen Grundstücken von KKA mit direktem Grundbesitz sind beim Anleger freigestellt und für die Satzbestimmung nicht zu berücksichtigen.",
+   "ziffer": "4.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 325,
+   "titel": "Ziff. 4.2 Privatvermögen – Erträge, Kapitalgewinne, Kursliste HB",
+   "pfad": [
+    "4 Besteuerung auf Ebene der Anleger",
+    "4.2 Anlagen im Privatvermögen"
+   ],
+   "stichworte": [
+    "Fondsausschüttung",
+    "thesaurierte Erträge",
+    "steuerfreier Kapitalgewinn",
+    "Kapitalverlust",
+    "Kursliste HB",
+    "SICAF Dividende"
+   ],
+   "zusammenfassung": "Im Privatvermögen sind Erträge aus Fondsanteilen steuerbar (Ausschüttungen bei Fälligkeit, thesaurierte Erträge bei Gutschrift), Kapitalgewinne aus Verkauf nach Art. 16 Abs. 3 DBG steuerfrei.",
+   "ziffer": "4.2",
+   "positionen": [
+    "einkommen.wertschriften",
+    "vermoegen.wertschriften_guthaben"
+   ]
+  },
+  {
+   "start": 350,
+   "titel": "Ziff. 4.2 Privatvermögen – Liquidation einer kollektiven Kapitalanlage",
+   "pfad": [
+    "4 Besteuerung auf Ebene der Anleger",
+    "4.2 Anlagen im Privatvermögen"
+   ],
+   "stichworte": [
+    "Liquidation Fonds",
+    "Liquidationserlös",
+    "faktische Liquidation",
+    "ausländische Fonds"
+   ],
+   "zusammenfassung": "Bei Liquidation sind Kapitaleinzahlungen und Kapitalgewinne im Privatvermögen steuerfrei, nicht versteuerte Vermögenserträge unterliegen der Einkommenssteuer.",
+   "ziffer": "4.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 377,
+   "titel": "Ziff. 4.3 Anlagen im Geschäftsvermögen",
+   "pfad": [
+    "4 Besteuerung auf Ebene der Anleger",
+    "4.3 Anlagen im Geschäftsvermögen"
+   ],
+   "stichworte": [
+    "Geschäftsvermögen Fondsanteile",
+    "steuerbarer Kapitalgewinn",
+    "Kapitalverlust abzugsfähig",
+    "Art. 18 Abs. 2 DBG"
+   ],
+   "zusammenfassung": "Im Geschäftsvermögen ist die Differenz zwischen Gewinnsteuerwert und Verkaufserlös steuerbarer Kapitalgewinn, ein Kapitalverlust ist abzugsfähig.",
+   "ziffer": "4.3",
+   "positionen": [
+    "einkommen.selbstaendig"
+   ]
+  },
+  {
+   "start": 397,
+   "titel": "Ziff. 4.4 Rückerstattung der Verrechnungssteuer – Grundsatz",
+   "pfad": [
+    "4 Besteuerung auf Ebene der Anleger",
+    "4.4 Rückerstattung Verrechnungssteuer"
+   ],
+   "stichworte": [
+    "Verrechnungssteuer",
+    "Rückerstattung",
+    "Art. 4 VStG",
+    "Fondsertrag"
+   ],
+   "zusammenfassung": "Erträge von Anteilen an KKA nach KAG unterliegen der Verrechnungssteuer; Anleger haben Anspruch auf Rückerstattung, wenn sie bei Fälligkeit rückerstattungsberechtigt sind.",
+   "ziffer": "4.4",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 409,
+   "titel": "Ziff. 4.4 – Thesaurierung: Verbuchung, Verrechnungssteuer 35 %",
+   "pfad": [
+    "4 Besteuerung auf Ebene der Anleger",
+    "4.4 Rückerstattung Verrechnungssteuer"
+   ],
+   "stichworte": [
+    "Wiederanlage Erträge",
+    "Verbuchung",
+    "Verwirkung Rückerstattung",
+    "Art. 25 VStG",
+    "ausländische Fonds"
+   ],
+   "zusammenfassung": "Die Wiederanlage thesaurierter Erträge gilt als Realisation und ist zu verbuchen, sonst verwirkt der Anleger die Rückerstattung; Beispiel Ertrag CHF 100: CHF 65 Wertschriftenertrag und CHF 35 Verrechnungssteuer.",
+   "ziffer": "4.4",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 426,
+   "titel": "Ziff. 4.5 Bescheinigungspflicht",
+   "pfad": [
+    "4 Besteuerung auf Ebene der Anleger",
+    "4.5 Bescheinigungspflicht"
+   ],
+   "stichworte": [
+    "Bescheinigung thesaurierte Erträge",
+    "Kursliste HB",
+    "Jahresbericht ESTV",
+    "Art. 129 Abs. 3 DBG"
+   ],
+   "zusammenfassung": "KKA müssen den Anlegern alle für die Besteuerung massgeblichen Verhältnisse bescheinigen; thesaurierende KKA melden den thesaurierten Ertrag pro Anteil für die Kursliste HB.",
+   "ziffer": "4.5",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 452,
+   "titel": "Ziff. 5.1 Gewerbsmässiger Wertschriftenhandel",
+   "pfad": [
+    "5 Spezialfragen",
+    "5.1"
+   ],
+   "stichworte": [
+    "Wertschriftenhandel",
+    "gewerbsmässig",
+    "Weisungsrecht"
+   ],
+   "zusammenfassung": "Häufige Wertschriftentransaktionen einer KKA werden den Anlegern nicht als gewerbsmässiger Wertschriftenhandel zugerechnet, wenn sie kein Weisungsrecht haben.",
+   "ziffer": "5.1"
+  },
+  {
+   "start": 461,
+   "titel": "Ziff. 5.2 Kommanditgesellschaft für kollektive Kapitalanlagen (KmGK)",
+   "pfad": [
+    "5 Spezialfragen",
+    "5.2 KmGK"
+   ],
+   "stichworte": [
+    "KmGK",
+    "Komplementär",
+    "qualifizierte Anleger CHF 5'000'000",
+    "Risikokapital"
+   ],
+   "zusammenfassung": "Anleger einer KmGK müssen besonders qualifiziert sein, vermögende Privatpersonen mit Finanzanlagen von mindestens CHF 5'000'000.--; bei Liegenschaftsanlagen ist die KmGK Steuersubjekt.",
+   "ziffer": "5.2"
+  },
+  {
+   "start": 484,
+   "titel": "Ziff. 5.3.1 Umstrukturierungen auf Ebene der kollektiven Kapitalanlage",
+   "pfad": [
+    "5 Spezialfragen",
+    "5.3 Umstrukturierungen",
+    "5.3.1"
+   ],
+   "stichworte": [
+    "Fondsfusion",
+    "Umwandlung",
+    "Vermögensübertragung",
+    "Steuerneutralität",
+    "Art. 61 DBG",
+    "Art. 95 KAG"
+   ],
+   "zusammenfassung": "Umstrukturierungen nach Art. 95 Abs. 1 KAG sind auf Stufe der KKA steuerneutral.",
+   "ziffer": "5.3.1"
+  },
+  {
+   "start": 509,
+   "titel": "Ziff. 5.3.2 Umstrukturierungen auf Ebene der Anleger",
+   "pfad": [
+    "5 Spezialfragen",
+    "5.3 Umstrukturierungen",
+    "5.3.2"
+   ],
+   "stichworte": [
+    "Umtausch Anteile",
+    "Sacheinlage Immobilien",
+    "Verkehrswert",
+    "Geschäftsvermögen"
+   ],
+   "zusammenfassung": "Der Umtausch von Anteilen zu Verkehrswerten hat für Anleger keine Folgen bei den direkten Steuern; Sacheinlagen von Immobilien sind nur zu Verkehrswerten möglich.",
+   "ziffer": "5.3.2"
+  },
+  {
+   "start": 529,
+   "titel": "Ziff. 5.4 Beteiligungsabzug und Teilbesteuerung",
+   "pfad": [
+    "5 Spezialfragen",
+    "5.4"
+   ],
+   "stichworte": [
+    "Beteiligungsabzug",
+    "Teilbesteuerung",
+    "Art. 18b DBG",
+    "Art. 20 Abs. 1bis DBG"
+   ],
+   "zusammenfassung": "Natürliche Personen können für Einkommen aus KKA die Teilbesteuerung nach Art. 18b und 20 Abs. 1bis DBG nicht geltend machen.",
+   "ziffer": "5.4",
+   "positionen": [
+    "einkommen.beteiligungen_qualifiziert"
+   ]
+  },
+  {
+   "start": 538,
+   "titel": "Ziff. 5.5 Sitzverlegung oder Expatriierung von KKA",
+   "pfad": [
+    "5 Spezialfragen",
+    "5.5"
+   ],
+   "stichworte": [
+    "Sitzverlegung",
+    "Expatriierung",
+    "Verrechnungssteuer Rückforderung",
+    "Minusertrag"
+   ],
+   "zusammenfassung": "Die Sitzverlegung hat keine direktsteuerlichen Folgen; zur Rückforderung der Verrechnungssteuer ist der Liquidationserlös zu deklarieren und mit einem Minusertrag zu neutralisieren.",
+   "ziffer": "5.5",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 554,
+   "titel": "Ziff. 5.6 Einanlegerfonds und Ziff. 6 Inkrafttreten",
+   "pfad": [
+    "5 Spezialfragen",
+    "5.6 Einanlegerfonds"
+   ],
+   "stichworte": [
+    "Einanlegerfonds",
+    "Vorsorgeeinrichtung",
+    "Inkrafttreten",
+    "KS 25 vom 5. März 2009"
+   ],
+   "zusammenfassung": "Einanlegerfonds sind nur zulässig bei öffentlich-rechtlicher Körperschaft, Vorsorgeeinrichtung mit professioneller Tresorerie oder beaufsichtigter Versicherungseinrichtung; das KS ersetzt das KS Nr. 25 vom 5. März 2009.",
+   "ziffer": "5.6 / 6"
+  },
+  {
+   "start": 569,
+   "titel": "Anhang I Begriffsbestimmungen (Anlagefonds, Ausschüttungsfonds, offene KKA)",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang I Begriffsbestimmungen"
+   ],
+   "stichworte": [
+    "Begriffe",
+    "Anlagefonds",
+    "Ausschüttungsfonds",
+    "offene KKA",
+    "geschlossene KKA"
+   ],
+   "zusammenfassung": "Definitionen u. a. von Anlagefonds, Anlegern, Anteilen und Ausschüttungsfonds (Ausschüttungsvorschrift von mindestens 70 % des Nettoertrags).",
+   "ziffer": "Anhang I"
+  },
+  {
+   "start": 596,
+   "titel": "Anhang I Begriffsbestimmungen (Effektenfonds, Immobilienfonds, Transparenzprinzip)",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang I Begriffsbestimmungen"
+   ],
+   "stichworte": [
+    "Effektenfonds",
+    "Immobilienfonds",
+    "Thesaurierungsfonds",
+    "Transparenzprinzip",
+    "Treuhandlösung"
+   ],
+   "zusammenfassung": "Definitionen von Effektenfonds, Immobilienfonds, Thesaurierungsfonds sowie Transparenzprinzip und Treuhandlösung.",
+   "ziffer": "Anhang I"
+  },
+  {
+   "start": 617,
+   "titel": "Anhang I Abkürzungsverzeichnis",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang I Abkürzungen"
+   ],
+   "stichworte": [
+    "Abkürzungen",
+    "SICAV",
+    "SICAF",
+    "KmGK",
+    "KAG",
+    "KKV"
+   ],
+   "zusammenfassung": "Abkürzungsverzeichnis zum Kreisschreiben.",
+   "ziffer": "Anhang I"
+  },
+  {
+   "start": 654,
+   "titel": "Anhang II Beispiel Spartenrechnung – Ertrag",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang II Spartenrechnung"
+   ],
+   "stichworte": [
+    "Spartenrechnung",
+    "Mietzinseinnahmen",
+    "Einkäufe",
+    "Immobilienfonds Beispiel"
+   ],
+   "zusammenfassung": "Beispiel (Gesamtaktiven 90 % Grundbesitz): Total Ertrag 6'000 Grundbesitz, 500 übrig, 6'500 Total (in 1'000).",
+   "ziffer": "Anhang II"
+  },
+  {
+   "start": 669,
+   "titel": "Anhang II Beispiel Spartenrechnung – Aufwand und steuerbarer Gewinn",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang II Spartenrechnung"
+   ],
+   "stichworte": [
+    "Aufwand",
+    "Kapitalsteuer",
+    "Gewinnsteuer 15 %",
+    "steuerbarer Gewinn",
+    "quotenmässige Aufteilung"
+   ],
+   "zusammenfassung": "Aufwand vor Steuern 2'176, Gewinn vor Steuern 4'324, nach Kapitalsteuer -176 und Gewinnsteuer -481 (Annahme 15 %) steuerbarer Gewinn 3'209 (in 1'000).",
+   "ziffer": "Anhang II"
+  },
+  {
+   "start": 714,
+   "titel": "Anhang II Steuerbare Einkünfte aus Anteilen mit direktem Grundbesitz",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang II"
+   ],
+   "stichworte": [
+    "Aufteilung Ausschüttung",
+    "Versteuerter Vermögensertrag",
+    "Gebühren 1,5 % TER",
+    "Betriebsaufwandquote"
+   ],
+   "zusammenfassung": "Ausschüttungen sind in versteuerten Ertrag aus direktem Grundbesitz und übrigen Vermögensertrag aufzuteilen; Gebühren dürfen höchstens 1.5 % des Gesamtfondsvermögens belastet werden.",
+   "ziffer": "Anhang II",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 732,
+   "titel": "Anhang III Übersicht Formen kollektiver Kapitalanlagen und ihre Besteuerung",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang III Übersicht"
+   ],
+   "stichworte": [
+    "Übersicht",
+    "Anlagefonds",
+    "SICAV",
+    "KmGK",
+    "SICAF",
+    "4,25 %",
+    "8,5 %"
+   ],
+   "zusammenfassung": "Übersichtstabelle: transparente Besteuerung ohne Grundbesitz; mit direktem Grundbesitz Satz 4.25 % (SICAF 8.5 %).",
+   "ziffer": "Anhang III"
+  },
+  {
+   "start": 769,
+   "titel": "Anhang IV Gleichstellungsregeln ausländische kollektive Kapitalanlagen",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang IV Gleichstellung"
+   ],
+   "stichworte": [
+    "ausländische Fonds",
+    "Gleichstellung",
+    "FINMA Vertriebsbewilligung",
+    "Rückgaberecht NAV"
+   ],
+   "zusammenfassung": "Ausländische KKA werden schweizerischen gleichgestellt bei Vertriebszulassung, anerkannter Aufsicht oder bestimmten offenen/geschlossenen Anlageformen.",
+   "ziffer": "Anhang IV"
+  },
+  {
+   "start": 790,
+   "titel": "Anhang IV Erläuterungen zu den Gleichstellungsregeln",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang IV Gleichstellung"
+   ],
+   "stichworte": [
+    "Lockup fünf Jahre",
+    "Rückgaberecht einmal jährlich",
+    "LP GmbH & Co KG",
+    "Hilfskriterien",
+    "Offering Memorandum"
+   ],
+   "zusammenfassung": "Rückgaberecht zum NAV ist erfüllt bei mindestens einmal jährlichem Rückgaberecht; Lockup bis maximal fünf Jahre ändert nichts.",
+   "ziffer": "Anhang IV"
+  },
+  {
+   "start": 831,
+   "titel": "Anhang V Entscheidungsbaum ausländische KKA (Teil 1)",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang V Entscheidungsbaum"
+   ],
+   "stichworte": [
+    "Entscheidungsbaum",
+    "ausländische kollektive Kapitalanlage",
+    "SICAF-ähnlich",
+    "Umsatzabgabe"
+   ],
+   "zusammenfassung": "Entscheidungsbaum zur Qualifikation ausländischer KKA (FCP/SICAV, SICAF, KmGK) für Schweizer Steuerzwecke.",
+   "ziffer": "Anhang V"
+  },
+  {
+   "start": 869,
+   "titel": "Anhang V Entscheidungsbaum ausländische KKA (Teil 2)",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang V Entscheidungsbaum"
+   ],
+   "stichworte": [
+    "Entscheidungsbaum",
+    "Aufsicht über kollektive Kapitalanlagen",
+    "Zweck der kollektiven Kapitalanlage",
+    "Rückgaberecht"
+   ],
+   "zusammenfassung": "Fortsetzung des Entscheidungsbaums: Aufsicht, Zweckkriterium und Rückgaberecht bestimmen transparente oder nicht-transparente Besteuerung.",
+   "ziffer": "Anhang V"
+  },
+  {
+   "start": 924,
+   "titel": "Anhang V Legende zum Entscheidungsbaum",
+   "pfad": [
+    "7 Anhänge",
+    "Anhang V Entscheidungsbaum"
+   ],
+   "stichworte": [
+    "Legende",
+    "FINMA Liste",
+    "Lockup-Klauseln",
+    "Offering Memorandum"
+   ],
+   "zusammenfassung": "Legende: FINMA-Liste bewilligter Produkte, mindestens einmal jährliches Rückgaberecht zum NAV, Kriterien für das Vorliegen einer KKA.",
+   "ziffer": "Anhang V"
+  },
+  {
+   "start": 942,
+   "titel": "Anhang VI–VIII Musterreporting Dachfonds und Einzelfonds",
+   "pfad": [
+    "7 Anhänge",
+    "Anhänge VI–VIII"
+   ],
+   "stichworte": [
+    "Musterreporting",
+    "Dachfonds",
+    "Einzelfonds",
+    "KS 24"
+   ],
+   "zusammenfassung": "Verweise auf Musterreportings (Excel) gemäss Anhängen des KS Nr. 24 vom 20. November 2017.",
+   "ziffer": "Anhang VI–VIII"
+  }
+ ]
+}

@@ -4,45 +4,19 @@ quelle: tg-steuerfuesse-2026
 jur: tg
 jahre: [2025, 2026]
 typ: steuerfuss
-titel: "Steuerfüsse TG 2026 – Abschnitt 11"
+titel: "Veränderung der Gemeindesteuerfüsse gegenüber vor zehn Jahren"
 seiten: "4"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 4
+> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Entwicklung · S. 4
 
-    Mammern   Gemeindesteuerfuss
-    Tiefer Steuerfuss /   Hoher Steuerfuss /
-    Höher als vor 10 Jahren   Höher als vor 10 Jahren
-    10   Tobel−Tägerschen
-    Hüttlingen
+4   Statistische Mitteilung 3/2026
 
-    Zihlschlacht−Sitterdorf   Aadorf
-    Horn
-    Bottighofen
-    Ermatingen   Frauenfeld
-    0   Tägerwilen
-    Hefenhofen
-    Hauptwil−Gottshaus Amriswil
-    Warth−Weiningen   Münsterlingen
-    Kreuzlingen   Bischofszell   Romanshorn
-    Amlikon−Bissegg
-    Neunforn
-    Fischingen
-    Arbon
-    Langrickenbach
-    Dozwil   Hohentannen
-    −10   Lommis   Pfyn
-    Weinfelden
-    Roggwil   Bürglen   Raperswilen
 
-    Salmsach
-    Steckborn
-    Tiefer Steuerfuss /   Hoher Steuerfuss /
-    −20
-    Tiefer als vor 10 Jahren   Tiefer als vor 10 Jahren
-
-    30   40   50   60   70   80
-    Gemeindesteuerfuss 2026, in %
-
-    Gemeinden mit mehr als 10'000 Einw.   Gemeinden mit weniger als 10'000 Einw.
- Datenquelle: Steuerverwaltung Kanton Thurgau
+ Mehr Senkungen als Erhöhungen in den letzten zehn Jahren
+ Im Vergleich zu vor zehn Jahren sind die Gemeindesteuerfüsse mehrheitlich gesunken: In 52 Politischen Gemeinden waren die Steu-
+ erfüsse 2026 tiefer als 2016. In 15 Politischen Gemeinden sind die Steuerfüsse gestiegen. In den restlichen 13 Gemeinden sind sie
+ gleichgeblieben.
+ Die stärkste Erhöhung im Vergleich zu vor zehn Jahren gab es in Mammern, wo der Gemeindesteuerfuss um 12 Prozentpunkte stieg.
+ Dahinter folgen Tobel-Tägerschen (+10) und Gottlieben (+7). Am meisten von Steuersenkungen profitierte in den letzten 10 Jahren
+ die Bevölkerung von Steckborn (–16 Prozentpunkte), Salmsach (–15) und Bürglen (–14).

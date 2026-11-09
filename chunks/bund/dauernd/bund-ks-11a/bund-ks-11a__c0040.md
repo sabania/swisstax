@@ -4,16 +4,16 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 40"
-seiten: "10"
+titel: "Ziff. 5.3 Selbstbehalt 5 Prozent"
+ziffer: "5.3"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 11a · 5 Abzugsfähige Kosten › 5.3 Selbstbehalt · S. 12
 
-<!-- Seite 10 -->
-4.3.7   Kosten für Blindenführhunde und Assistenzhunde
-Die mit der Anschaffung und Haltung eines Blindenführhundes oder Assistenzhundes gemäss
-der Verordnung des EDI vom 29. November 1976 über die Abgabe von Hilfsmitteln durch die
-Invalidenversicherung (HVI; SR 831.232.51) anfallenden und selbst getragenen Kosten sind
-zum Abzug zugelassen. Nicht abzugsfähig sind jedoch die Kosten, die im Zusammenhang mit
-der Anschaffung und Haltung von anderen Hunden und Haustieren anfallen.
+5.3   Selbstbehalt
+Krankheits- und Unfallkosten können nur abgezogen werden, soweit diese einen Selbstbehalt
+von 5 Prozent der um die Aufwendungen (Art. 26 - 33 DBG) verminderten steuerbaren Ein
+künfte übersteigen. Dies gilt auch für den Pauschalabzug bei besonderer Ernährung gemäss
+Ziffer 3.2.10. Im Gegensatz dazu ist bei den behinderungsbedingten Kosten kein Selbstbehalt
+zu berücksichtigen.

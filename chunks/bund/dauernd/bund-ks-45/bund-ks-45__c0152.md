@@ -4,27 +4,27 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 152"
-seiten: "40"
+titel: "Ziff. 7.4 Beispiel 9 – Kind wird volljährig, Wegfall der Familienzulagen (Teil 1/2)"
+ziffer: "7.4"
+seiten: "49"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 40
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 49
 
-<!-- Seite 40 -->
-Bei mehreren Teilzeitbeschäftigungen (vgl. Ziffer 7.3.2 unten), bei Tätigkeiten im Stunden-
-oder Tageslohn (vgl. Ziffer 7.3.3 unten) oder bei unterjährigen Arbeitsverhältnissen (vgl. Zif-
-fer 7.3.4 unten) ist eine Umrechnung des satzbestimmenden Jahreseinkommens auf 360
-Tage erforderlich. In diesem Zusammenhang dürfen, wenn die Bemessungsgrundlage so-
-wohl periodische als auch aperiodische Leistungen enthält, nur die periodischen Leistungen
-für die Festsetzung des satzbestimmenden Jahreseinkommens umgerechnet werden.
-Folgende aperiodische Leistungen bilden nicht Bestandteil des umzurechnenden Bruttomo-
-natslohns (die nachfolgende Aufzählung ist nicht abschliessend):
-     Überzeitentschädigungen
-     Entschädigungen von nicht bezogenen Ferienguthaben
-     Dienstalterszulagen
-     Bonuszahlungen
-     Prämien
-     Verwaltungsratshonorare
-     Abgangsentschädigungen
-     Gratifikationen
-     Geldwerte Vorteile aus Mitarbeiterbeteiligungen
+    Änderung des Zivilstands mit anschliessender Anpassung des Lohns während des Kalenderjahres:
+    9. Ein Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Er übt eine unselbstständige Er-
+    werbstätigkeit mit einem Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 78 000.00
+    (CHF 6 000 x 13).
+    Die Ehegattin ist ebenfalls erwerbstätig.
+    Das Kind des Ehepaars wird im September des Jahres 2021 volljährig. Die Familienzulagen werden daher
+    bis im September 2021 bezahlt.
+
+    Monat   Januar   … September   Oktober   November   Dezember   Besteuerung
+
+    Bruttolohn   6 000   6 000   6 000   6 000   12 000   78 000.00
+
+    Familienzulagen   200   200   1 800.00
+
+    Tarifcode   C1   C1   C0   C0   C0
+
+    Steuersatz (%)   10,01   10,0   12,22   12,2   12,2

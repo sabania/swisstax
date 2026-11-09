@@ -4,22 +4,17 @@ quelle: bund-ks-29c
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 29c – Abschnitt 67"
-seiten: "21"
+titel: "Ziff. 9.3 c) Nachmeldung von Ausland-KER (Teil 2/2)"
+ziffer: "9.3 c"
+seiten: "26-27"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.3 Meldung Verrechnungssteuer · S. 26–27
 
-Analog Ausführungen unter Ziffer 6.2.2. hiervor.
+Da die Aufteilung in KER und Ausland-KER mit Blick auf die Verrechnungs- und Einkom-
+menssteuern nur für Rückzahlungen aus an schweizerischen Börsen kotierten Gesellschaf-
 
-7.1.3. Absorption einer Tochtergesellschaft („Up-Stream Merger“)
-
-Analog Ausführungen unter Ziffer 6.2.3. hiervor.
-
-7.1.4. Absorption der Muttergesellschaft („Reverse Merger“)
-
-Analog Ausführungen unter Ziffer 6.2.4. hiervor.
-
-7.1.5. Fusionsähnlicher Zusammenschluss („Quasifusion“)
-
-Analog Ausführungen unter Ziffer 6.2.5. hiervor.
+ten relevant ist, wird empfohlen, die Nachmeldung von Ausland-KER nur für diese Gesell-
+schaften vorzunehmen. Beabsichtigt eine bisher nicht kotierte Gesellschaft einen Börsen-
+gang, kann die Aufteilung in KER und Ausland-KER mittels Nachmeldung zu jedem späteren
+Zeitpunkt erfolgen.

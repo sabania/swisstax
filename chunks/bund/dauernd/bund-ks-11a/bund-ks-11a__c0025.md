@@ -4,23 +4,23 @@ quelle: bund-ks-11a
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 11a – Abschnitt 25"
-seiten: "6"
+titel: "Ziff. 4.3.4 Heim- und Entlastungsaufenthalte"
+ziffer: "4.3.4"
+seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8–9
 
-4.1   Person mit Behinderung
-Ein Mensch mit Behinderung ist eine Person, der eine voraussichtlich dauernde körperliche,
-geistige oder psychische Beeinträchtigung es erschwert oder verunmöglicht, alltägliche Verrich
-tungen vorzunehmen, soziale Kontakte zu pflegen, sich fortzubewegen, sich aus- und weiterzu
-bilden oder eine Erwerbstätigkeit auszuüben (vgl. hierzu auch Art. 2 Abs. 1 BehiG und Ziff. 2
-hiervor). Die Beeinträchtigung ist dauernd, wenn sie bereits während mindestens eines Jahres
-die Ausübung der genannten Tätigkeiten verunmöglicht oder erschwert hat oder voraussichtlich
-während mindestens eines Jahres verunmöglichen oder erschweren wird. Die Einschränkung
-der alltäglichen Verrichtungen, des sozialen Lebens, der Aus- und Weiterbildung oder der Er
-werbstätigkeit muss ihre Ursache in der körperlichen, geistigen oder psychischen Beeinträchti
-gung haben (kausaler Zusammenhang).
-Als Personen mit Behinderung gelten in jedem Fall:
-    a. Bezügerinnen und Bezüger von Leistungen gemäss dem Bundesgesetz vom 19. Juni
-    1959 über die Invalidenversicherung (IVG; SR 831.20);
+4.3.4   Kosten für Heim- und Entlastungsaufenthalte
+Die Kosten, Taxen und Gebühren für den Aufenthalt in einem Wohnheim für Personen mit
+
+Behinderung oder in einem Alters- und Pflegeheim sind abzugsfähig. Gleiches gilt für Kosten
+von Entlastungsaufenthalten in solchen Heimen oder in speziellen Ferienheimen für Personen
+mit Behinderung. Diese Kosten sind aber um denjenigen Betrag zu kürzen, der für Lebenshal
+tungskosten im eigenen Haushalt hätte aufgewendet werden müssen. Die Lebenshaltungskos
+ten berechnen sich dabei entweder nach den Richtlinien über die Berechnung des Existenzmi
+nimums gemäss Artikel 93 des Bundesgesetzes vom 11. April 1889 über Schuldbetreibung und
+Konkurs (SchKG; SR 281.1) oder nach entsprechenden kantonalen Richtlinien (vgl. z.B. Ver
+waltungsgericht des Kantons Luzern A 04 60 und A 04 61 vom 3. Januar 2005). Nicht abgezo
+gen werden können die Kosten des Aufenthalts in einem Altersheim, wenn der Heimaufenthalt
+nicht aufgrund einer Behinderung erfolgt (vgl. Ziff. 3.2.7).

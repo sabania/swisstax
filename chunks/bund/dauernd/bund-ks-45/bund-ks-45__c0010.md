@@ -4,18 +4,20 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 10"
-seiten: "2"
+titel: "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Begriff und Kriterien"
+ziffer: "2.2.3"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.2 Schuldner der steuerbaren Leistung · S. 6
 
-7.3.2 Satzbestimmendes Einkommen bei einer oder mehreren Teilzeit-Erwerbstätigkeiten. 40
-7.3.3 Erwerbstätigkeiten im Stunden- oder Tageslohn ......................................................... 43
-7.3.4 Quellensteuerberechnung bei unterjährigen Ein- und Austritten ................................. 43
-7.4 Änderung der persönlichen Verhältnisse während des Kalenderjahres .............. 44
-7.5 Sonderfälle ................................................................................................................ 49
-7.5.1 Ausscheidung von im Ausland geleisteten Arbeitstagen ............................................. 49
-7.5.2 Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses ........... 51
-7.5.3 Quellensteuerberechnung bei Leistungen bei bzw. nach Beendigung des
-    Arbeitsverhältnisses.................................................................................................... 51
+2.2.3 Bei einer faktischen Arbeitgeberschaft
+Eine faktische Arbeitgeberschaft liegt vor, wenn der Arbeitnehmer seine Arbeitsleistungen
+(vorübergehend) nicht dem Arbeitgeber schuldet, mit welchem er den Arbeitsvertrag abge-
+schlossen hat (formeller Arbeitgeber), sondern einer anderen Unternehmung (in der Regel
+einer Konzerngesellschaft; sog. faktischer bzw. wirtschaftlicher Arbeitgeber). Letztere ist ge-
+stützt auf die faktische Arbeitgeberschaft gegenüber dem Arbeitnehmer weisungsbefugt. Die
+Lohnzahlungen werden weiterhin durch den formellen Arbeitgeber mit Sitz im Ausland getä-
+tigt, jedoch dem Einsatzbetrieb mit Sitz in der Schweiz weiterverrechnet bzw. müssten nach
+Verrechnungspreisgrundsätzen weiterverrechnet werden (bspw. Weiterbelastung 1 : 1, Wei-
+terbelastung mit einem mark-up von x Prozent).

@@ -4,24 +4,34 @@ quelle: bund-ks-45
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 45 – Abschnitt 132"
-seiten: "33"
+titel: "Ziff. 7.3.2 Beispiel 3 – 70 %/20 % ohne Mitteilung des Gesamtpensums"
+ziffer: "7.3.2"
+seiten: "42"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 33
+> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.2 Teilzeit-Erwerbstätigkeiten · S. 42
 
-    Leistungen   steuerbar   Satz   satzbestimmend
+    Teilzeit-Tätigkeiten (70 % - 20 %):
+    3. Ein lediger Steuerpflichtiger übt zwei unselbstständige Erwerbstätigkeiten in der Schweiz aus (Gesamtpen-
+    sum: 90 %). Er teilt den beiden Arbeitgebern den Gesamtbeschäftigungsgrad nicht mit:
+       70 % beim Arbeitgeber 1 für einen Bruttojahreslohn von CHF 24 000.00 (CHF 2 000 x 12)
+       20 % beim Arbeitgeber 2 für einen Bruttojahreslohn von CHF 6 000.00 (CHF 500 x 12)
 
-    Bruttolohn (Nov. 2021)   8 000   4,5 %   8 000
+    Arbeitgeber 1
 
-    Bonus (Apr. 2022)   21 000   4,5 %   29 000
+    Monat   Januar   …   November   Dezember   Besteuerung
+    Bruttolohn   2 000   2 000   2 000   24 000
+    Tarifcode   A0   A0   A0   A0
+    Steuersatz (%)   3,91   3,9   3,9   3,9
+    Quellensteuer   78   78   78   936
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 34 285.70 (CHF 24'000 / 70 %).
 
-    Quellensteuern bezahlt November 2021   360
 
-    Quellensteuern geschuldet April 2022   945
+    Arbeitgeber 2
 
-    4. Spezialfall Grenzgänger aus Deutschland mit Formular Gre-3:
-    Hätte Arbeitnehmer W. (vgl. vorangehendes Beispiel) im Jahr 2021 mittels Formular Gre-3 mehr als 55
-    Nichtrückkehrtage für die Periode von Januar bis November deklariert (60 / 12 x 11), wären allenfalls im
-    Ausland erbrachte Arbeitstage analog dem vorstehenden Beispiel (Besteuerung einer Bonuszahlung an
-    einen in Österreich ansässigen Arbeitnehmer) auszuscheiden.
+    Monat   Januar   …   November   Dezember   Besteuerung
+    Bruttolohn   500   500   500   6 000
+    Tarifcode   A0   A0   A0   A0
+    Steuersatz (%)   3,21   3,2   3,2   3,2
+    Quellensteuer   16   16   16   192
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 30 000.00 (CHF 6 000 / 20 %).

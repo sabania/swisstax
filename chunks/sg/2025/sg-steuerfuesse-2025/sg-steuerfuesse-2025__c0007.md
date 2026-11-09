@@ -4,7 +4,7 @@ quelle: sg-steuerfuesse-2025
 jur: sg
 jahre: [2025]
 typ: steuerfuss
-titel: "Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4) (Teil 1/2)"
+titel: "Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4)"
 seiten: "4"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: steuerfuss}}
 ---
@@ -48,3 +48,6 @@ Waldkirch   0.8   122   26   28   253   255
 Gaiserwald   0.8   103   --   --   --   --
   Engelburg   --   103   23   21   231   229
   Abtwil   --   103   21   21   229   229
+
+KANTONALES STEUERAMT
+Abteilung Revision   15.1.2026

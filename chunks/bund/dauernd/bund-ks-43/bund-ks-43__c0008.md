@@ -4,20 +4,23 @@ quelle: bund-ks-43
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 43 – Abschnitt 8"
+titel: "Ziff. 3 Unentgeltlichkeit und Ergebnis der Prüfung"
+ziffer: "3"
 seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 43 · 3 Abgrenzungskriterien › Unentgeltlichkeit · S. 3
 
-Ob eine empfangende Person bedürftig ist (Kriterium 1), hängt von ihrer finanziellen Situation
-ab. Das Vorliegen einer Bedürftigkeit ist dann anzunehmen, wenn die Höhe des Einkommens
-unter dem nach den Artikeln 9 und 11 des Bundesgesetzes vom 6. Oktober 2006 über die Er-
-gänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung (ELG; SR 831.30)
-berechneten Existenzminimum liegt (vgl. BGE 137 II 328 E. 5.2 und Beispiel 1 im Anhang). Die
-Anwendung von Artikel 24 Buchstabe d DBG sollte auf diejenigen Fälle beschränkt werden, in
-denen eine Bedürftigkeit nachgewiesen ist (vgl. BGE 137 II 328 E. 5.2). Daraus folgt, dass Un-
-terstützungsleistungen nur insoweit nicht steuerbar sind, als sie bloss den lebensnotwendigen
-Bedarf decken, während das darüber liegende Einkommen lückenlos steuerlich zu erfassen ist
-(vgl. BGE 137 II 328 E. 5.3 und Variante des Beispiels 1 im Anhang).
-Eine Unterstützung aus öffentlichen oder privaten Mitteln setzt eine Unterstützungsabsicht (Kri-
+Eine Leistung erfolgt dann unentgeltlich (Kriterium 3), wenn die empfangende Person dafür kei-
+ne Gegenleistung erbringen muss. Der wirtschaftliche Wert sowie die Art der Gegenleistung
+sind dabei unerheblich (vgl. Urteil 2C_904/2012 des Bundesgerichts vom 12. Februar 2013
+E. 4.2.6 und Beispiel 2 im Anhang). Auch bei einer Studie oder einer Forschungsarbeit kann es
+sich fallweise um eine Gegenleistung handeln (vgl. Urteil 2C_715/2007 des Bundesgerichts
+vom 28. April 2008 E. 2.3.4, Urteil 2C_78/2014 des Bundesgerichts vom 26. Mai 2014 E. 3.1
+sowie Beispiele 3 und 4 im Anhang). Eine Leistung, welche eine Art Entlöhnung im Nachhinein
+darstellt, ist nicht unentgeltlich (vgl. Urteil 2C_715/2007 des Bundesgerichts vom
+28. April 2008 E. 2.3.4 und Urteil 2C_78/2014 des Bundesgerichts vom 26. Mai 2014 E. 3.1).
+Wenn alle drei obengenannten Kriterien kumulativ erfüllt sind, handelt es sich bei der fraglichen
+Leistung um eine steuerfreie Unterstützungsleistung. Ist mindestens eines der Kriterien nicht er-
+füllt, ist die fragliche Leistung steuerbar nach Artikel 16 Absatz 1 DBG, sofern es sich nicht um
+eine Schenkung handelt.
