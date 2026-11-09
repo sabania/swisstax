@@ -889,9 +889,9 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 ### Form. 2 Vermögensverwaltungskosten (Code 148) · Vermögensverwaltungskosten (Code 148; im Formular als Ziffer 17 bzw. Wegleitung Ziffer 7) ☑️
 - **Rein:** Steuerauszug/Depotverzeichnis → Steuerwert der durch Dritte verwalteten Wertschriften PV (Bemessung) · Depotgebühren-/Verwaltungskostenausweis Bank → effektive Kosten (falls höher)
 - **Rechnen:** Kanton: min(2 Promille × Steuerwert drittverwalteter Wertschriften PV; 6'000) oder höhere nachgewiesene Kosten → Code 148 (Zeile 7), vom Bruttoertrag ab
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Formular 2 überträgt nur ein Total in Ziff. 4: Kantonsspalte nach Abzug Code 148; Bundesspalte siehe «Bund»
 - **Beachten:** Bemessung ohne Darlehen, Bankguthaben und nicht kotierte qualifizierte Beteiligungen (§ 22 Abs. 2 StG)
-- **Beachten:** Nicht abziehbar: Kontoführung, Anlageberatung, Kommissionen/Spesen An-/Verkauf, Tresor-/Schrankfachmiete
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2025-detail.md#form-2-verm-gensverwaltungskosten-code-148-abzug-verwaltungskosten-wertschriften) · [Formular 2 TG 2025 S. 2](../chunks/tg/2025/tg-form-02-2025/tg-form-02-2025__c0006.md)
 
 ### Form. 2 Einsatzkosten Geldspiele (Code 145) · Einsatzkosten für steuerbare Gewinne aus Geldspielen (Code 145; im Formular Ziffer 18 bzw. Wegleitung Ziffer 8/9) ☑️

@@ -736,6 +736,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 - **Rein:** Steuerauszug/Depotauszug Bank → Depot-/Safegebühren, Inkassospesen 2025 · Depotauszug → Wert fremdverwaltete Wertschriften (Basis Pauschale) · Gewinnbestätigung/Formular 2 → steuerbare Lotterie-/Geldspielgewinne (Einsatzkosten)
 - **Rechnen:** tatsächliche Kosten ODER min(2‰ × fremdverwaltete Wertschriften; Fr. 6'000); Einsatzkosten je Gewinn 5% (max. Fr. 5'400), online max. Kanton 26'700 / Bund 26'800
 - **Regel:** Tatsächliche Kosten (Depot-/Safegebühren, Inkassospesen) oder Pauschale 2 Promille des fremdverwalteten Wertschriftenvermögens, höchstens Fr. 6'000. Nicht abzugsfähig: Courtagen, Emissionsabgabe, Anlage-/Steuerberatung, Vermögensverwaltungsmandate. Darlehen und selbstverwaltete Wertschriften (eigene AG) gelten nicht als fremdverwaltet. Einsatzkosten Geldspiele: 5% des Gewinns, max. Fr. 5'400; Online-Spiele abgebuchte Einsätze, max. Fr. 26'700.
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Nicht abziehbar: Courtagen, Ausgabe-/Rücknahmekommissionen, Emissionsabgabe, Anlage-/Steuerberatung, Verwaltungsmandate
 - **Beachten:** Darlehen und selbstverwaltete Wertschriften (z.B. Aktien eigene AG) gelten nicht als fremdverwaltet
 - **Beachten:** Bund: abziehbar nur Depot-/Safegebühren inkl. Inkasso-/Affidavitspesen; keine Entschädigung eigener Bemühungen

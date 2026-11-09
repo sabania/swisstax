@@ -717,7 +717,21 @@ def kombi(W, j, prefix):
             v = kurzwert(r)
             teile.append(v if name in ("", "satz") else f"{name} {v}")
         return ", ".join(teile) if teile else "kein Abzug/Wert"
-    return f"K {eine(j)} | B {eine('bund')}"
+    b = eine("bund")
+    if b == "kein Abzug/Wert":
+        # Bund ohne eigenen Wert, aber der Kantonseintrag nennt den Bundesansatz (z.B. TG «Bund 20 %») → diesen zeigen
+        for (jj, k), r in W.items():
+            if jj == j and (k == prefix or k.startswith(prefix + ".")):
+                m = re.search(r"\(Bund:?\s*([^,;)]+)", str(r.get("text") or ""))
+                if m:
+                    b = f"{m.group(1).strip()} (laut Kantonseintrag, `wert {j} {r['jahr']} {prefix.split('.')[-1]}`)"
+                    break
+        if b == "kein Abzug/Wert":
+            br = [r for (jj, k), r in W.items() if jj == "bund" and (k == prefix or k.startswith(prefix + "."))
+                  and r.get("status") == "na" and "kantonalen verfahren" in norm(r.get("text"))]
+            if br:
+                b = f"kein eigener Bundesansatz – im kantonalen Verfahren festgelegt (`wert {j} {br[0]['jahr']} {prefix.split('.')[-1]}`)"
+    return f"K {eine(j)} | B {b}"
 
 
 def formular(kt, jahr) -> str:
@@ -768,7 +782,11 @@ def formular(kt, jahr) -> str:
             g = re.match(r"(Form\.\s*[\w.]+|Lohnausweis|[^\s]+)", str(p["ziffer"])).group(1)
             gr.setdefault(g, []).append(p)
         for g, ps in gr.items():
-            teile = [re.sub(r"^" + re.escape(g) + r"\s*", "", str(p["ziffer"])) or cut(p.get("bezeichnung"), 70) for p in ps]
+            def teil(p):
+                t = re.sub(r"^" + re.escape(g) + r"\s*", "", str(p["ziffer"])) or cut(p.get("bezeichnung"), 70)
+                c = re.search(r"Code (\d{3,4})", f"{p['ziffer']} {p.get('bezeichnung') or ''}")
+                return f"{t} (Code {c.group(1)})" if c and c.group(1) not in t else t
+            teile = [teil(p) for p in ps]
             out.append(f"- {g} ({cut(ps[0].get('abschnitt'), 60)}): {', '.join(teile)} → `position {j} {jahr} \"{g}\"`")
     out += ["", f"### Standardabzüge nach Haushalt – nicht vergessen (Werte Kanton {NAME[j]} | Bund {jahr})"]
     zif = {}
@@ -815,6 +833,8 @@ def formular(kt, jahr) -> str:
     out += ["- Beträge im Formular in ganzen Franken (Formulare 2025: ZH «CHF ohne Rappen» zh-form-300-2025__c0004, TG «nur in ganzen "
             "Franken» tg-wl-2025__c0031, AR «Fr. (ohne Rappen)» ar-form-06-2025__c0001); Franken und Rappen nur, wo das Formular es "
             "verlangt (Wertschriftenerträge mit Verrechnungssteuer, Verrechnungssteueranspruch). Mit `rechne` genau rechnen, dann runden.",
+            "- Jede Formularziffer mit eigenem Code als eigene Zeile (nicht zusammenfassen), auch Zwischentotale/Überträge und "
+            "Sozialabzüge ohne Steuerfolge (z.B. Vermögens-Kinderabzug bei steuerbarem Vermögen 0); Code nur aus der Zeile der Position.",
             "- Alle Totale mit Ziffer ausweisen und mit `rechne` rechnen (nie im Kopf); steuerbares Einkommen Kanton und Bund auf Plausibilität vergleichen."]
     return "\n".join(out)
 

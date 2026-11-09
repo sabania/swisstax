@@ -871,6 +871,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Rein:** Bank-/Verwaltungsabrechnung, Depotgebühren-Ausweis → effektive Verwaltungs-/Verwahrungskosten · Steuerauszug/Dividendenabrechnung → nicht rückforderbare, nicht anrechenbare ausländische Quellensteuern
 - **Rechnen:** Pauschal min(3‰ × Steuerwert drittverwaltete Wertschriften; 6'000) oder effektiv (voll nachweisen) + nicht rückforderbare ausl. QSt → Code 283
 - **Regel:** Abziehbar sind Kosten der Verwaltung und Verwahrung durch Dritte sowie nicht rückforderbare/anrechenbare ausländische Quellensteuern; nicht abziehbar Erwerbs-/Veräusserungskosten und Aufwendungen für Anschaffung/Wertvermehrung. Bei Verwaltung durch Dritte pauschal 3 Promille des Steuerwerts der verwalteten Wertschriften, maximal CHF 6'000, oder effektiv (Bezahlung und Abzugsfähigkeit voll nachweisen).
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Basis Pauschale: nur Wertschriften im Depot (durch Dritte verwahrt/verwaltet) – ohne Darlehen und Bankguthaben aller Art (ZStB 30.1); Pauschale oder effektiv, nicht beides
 - **Beachten:** Nicht abziehbar: Kosten für Erwerb/Veräusserung von Wertschriften, Anschaffung/Wertvermehrung
 - **Beachten:** Details: Weisung ZStB 30.1 (Kosten Verwaltung Wertschriften Privatvermögen)

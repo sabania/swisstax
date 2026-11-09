@@ -853,9 +853,9 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 ### Form. 2 Ziff. 7 (im Formular-Chunk «17», Code 148) · Vermögensverwaltungskosten (Code 148) ☑️
 - **Rein:** Steuerauszug/Depotauszug Bank → Steuerwert der durch Dritte verwalteten Wertschriften (Basis) · Depotgebührenabrechnung Bank → effektive Kosten (nur bei höherem Nachweis)
 - **Rechnen:** Pauschal: min(2‰ × Steuerwert durch Dritte verwalteter Wertschriften des PV; Fr. 6'000) oder höhere effektive Kosten mit Nachweis → Code 148
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Formular 2 überträgt nur ein Total in Ziff. 4: Kantonsspalte nach Abzug Code 148; Bundesspalte siehe «Bund»
 - **Beachten:** Basis ohne Darlehen, Bankguthaben aller Art, nichtkotierte qualifizierte Beteiligungen (§ 22 Abs. 2 StG)
-- **Beachten:** Nicht abziehbar: Kontoführungsgebühren, Anlageberater, Kommissionen/Spesen An-/Verkauf, Tresor für Schmuck/Bilder
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-2-ziff-7-im-formular-chunk-17-code-148-abzug-verwaltungskosten-wertschriften) · [Formular 2 TG 2026 S. 2](../chunks/tg/2026/tg-form-02-2026/tg-form-02-2026__c0006.md)
 
 ### Form. 2 Ziff. 8 (im Formular-Chunk «18», Code 145) · Einsatzkosten für steuerbare Gewinne aus Geldspielen (Code 145) ☑️

@@ -843,6 +843,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Rein:** Steuerauszug/Wertschriften- und Guthabenverzeichnis (Spalten A + B) → Bemessungsgrundlage Pauschale · Bankbelege Depotgebühren, Inkassospesen, Kontoführungsgebühren → tatsächliche Kosten (Alternative)
 - **Rechnen:** tatsächl. Kosten ODER Pauschale 2‰ × Basis bis 3 Mio. + 1‰ darüber, max. 15'000; Basis = Sp. A+B − Geschäftsvermögen − Darlehen − Selbstverwaltetes/Krypto
 - **Regel:** Kosten der Verwaltung durch Dritte abziehbar (nicht Selbstverwaltung, nicht Anlageberatung/Courtagen). Wahl zwischen tatsächlichen Kosten und widerlegbarer Pauschale: 2 Promille bis Fr. 3 Mio. Wertschriftenvermögen, 1 Promille darüber, max. Fr. 15'000; Bemessungsgrundlage ohne Geschäftsvermögen, Darlehen, selbstverwaltete Titel und Kryptowährungen. Pauschalabzug bei unterjähriger Steuerpflicht anteilig (MB 8/2026).
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Pauschale und tatsächliche Kosten pro Periode nicht kumulierbar; Selbstverwaltung → kein Abzug
 - **Beachten:** Nicht abziehbar: Transaktionskosten, Beratung, aktives Depotmanagement; All-in-Fee je Depot schätzen (ohne 15'000)
 - **Beachten:** Bund: gleiche Abzugsregeln wie Kanton; UJ: Pauschale nach Dauer kürzen

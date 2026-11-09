@@ -377,6 +377,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 ### 16.1 · Verwaltungskosten Wertschriften/Kapitalanlagen (tatsächlich oder Pauschale) ☑️
 - **Rein:** Bank: Gebühren-/Spesenausweis bzw. Steuerauszug → Depot-, Safegebühren, Inkassospesen (effektiv) · Form. 2 Wertschriftenverzeichnis → Total Steuerwerte drittverwaltet (Basis Pauschale)
 - **Rechnen:** effektiv: Σ Depot-/Safegebühren + Inkassospesen; oder Kanton-Pauschale auf Antrag: Bestand ≤ 2 Mio. 3 ‰, max. 6'000; > 2 Mio. 1 ‰, max. 15'000
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Basis Pauschale = Total der Spalte Steuerwerte im Wertschriftenverzeichnis (Form. 2), d.h. auch private Bankkonten, abzüglich nur: Aktien/GmbH-Anteile eigener Unternehmen, privat gewährte Darlehen, geschäftliche Bankkonti (anders als ZH/SG/TG, die Bankguthaben ausnehmen)
 - **Beachten:** Nicht abziehbar: Courtagen, Ausgabe-/Rücknahmekommissionen, Emissionsabgabe, Beratung, Bancomat-/Kreditkartengebühren
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#16-1-abzug-verwaltungskosten-wertschriften) · [WL AR 2025 S. 2](../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0003.md)

@@ -302,9 +302,9 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 ### 16.1 · Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen (Code 220) ☑️
 - **Rein:** Steuerauszug/Wertschriften- und Guthabenverzeichnis (Spalten A + B) → Bemessungsgrundlage Pauschale · Bankbelege Depotgebühren, Inkassospesen, Kontoführungsgebühren → tatsächliche Kosten (Alternative)
 - **Rechnen:** tatsächl. Kosten ODER Pauschale 2‰ × Basis bis 3 Mio. + 1‰ darüber, max. 15'000; Basis = Sp. A+B − Geschäftsvermögen − Darlehen − Selbstverwaltetes/Krypto
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Pauschale und tatsächliche Kosten pro Periode nicht kumulierbar; Selbstverwaltung → kein Abzug
 - **Beachten:** Nicht abziehbar: Transaktionskosten, Beratung, aktives Depotmanagement; All-in-Fee je Depot schätzen (ohne 15'000)
-- **Beachten:** Bund: gleiche Abzugsregeln wie Kanton; UJ: Pauschale nach Dauer kürzen
 - ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#16-1-abzug-verwaltungskosten-wertschriften) · [Formular 1 SG 2026 UJ S. 3](../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0008.md)
 
 ### 16.2 · Kinderbetreuungskosten bei Drittbetreuung gemäss Formular 10 (Code 258) ☑️

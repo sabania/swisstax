@@ -3367,6 +3367,7 @@ positionen:
   - Depotgebührenabrechnung Bank → effektive Kosten (nur bei höherem Nachweis)
   berechnung: 'Pauschal: min(2‰ × Steuerwert durch Dritte verwalteter Wertschriften des PV; Fr. 6''000) oder höhere effektive Kosten mit Nachweis → Code 148'
   beachten:
+  - 'Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale'
   - 'Formular 2 überträgt nur ein Total in Ziff. 4: Kantonsspalte nach Abzug Code 148; Bundesspalte siehe «Bund»'
   - Basis ohne Darlehen, Bankguthaben aller Art, nichtkotierte qualifizierte Beteiligungen (§ 22 Abs. 2 StG)
   - 'Nicht abziehbar: Kontoführungsgebühren, Anlageberater, Kommissionen/Spesen An-/Verkauf, Tresor für Schmuck/Bilder'

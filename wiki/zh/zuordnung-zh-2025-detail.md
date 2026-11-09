@@ -772,6 +772,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Rein:** Depot-/Verwaltungsgebührenabrechnung Bank → effektive Verwaltungs- und Verwahrungskosten · Wertschriftenverzeichnis → Steuerwert der durch Dritte verwalteten Wertschriften
 - **Rechnen:** Pauschal min(3 ‰ × Steuerwert drittverwalteter Wertschriften; 6’000) oder höhere effektive Kosten mit vollem Nachweis (Code 283)
 - **Regel:** Verwaltungs-/Verwahrungskosten durch Dritte abziehbar, nicht aber Erwerbs-/Veräusserungskosten (Courtagen, Stempel). Pauschal 3 ‰ des Steuerwerts der durch Dritte verwalteten Wertschriften, max. CHF 6’000, oder höhere effektive Kosten mit Nachweis.
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Basis Pauschale: nur Wertschriften im Depot (durch Dritte verwahrt/verwaltet) – ohne Darlehen und Bankguthaben aller Art (ZStB 30.1); Pauschale oder effektiv, nicht beides
 - **Beachten:** Nicht abziehbar: Kosten für Erwerb und Veräusserung von Wertschriften
 - **Beachten:** Abziehbar auch: weder rückforderbare noch anrechenbare ausländische Quellensteuern

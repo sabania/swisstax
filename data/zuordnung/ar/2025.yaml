@@ -1367,6 +1367,7 @@ positionen:
   berechnung: 'effektiv: Σ Depot-/Safegebühren + Inkassospesen; oder Kanton-Pauschale auf Antrag: Bestand ≤ 2 Mio. 3 ‰, max. 6''000; > 2 Mio. 1 ‰, max. 15''000'
   bund: 'Keine Bundesspalte: Kantonswert eintragen, die Steuerverwaltung passt die Bundessteuer automatisch an (ar-wl-2025__c0179); belegt sind beim Bund nur effektive Verwahrungskosten (bund-wl-2a-2025__c0056).'
   beachten:
+  - 'Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale'
   - 'Basis Pauschale = Total der Spalte Steuerwerte im Wertschriftenverzeichnis (Form. 2), d.h. auch private Bankkonten, abzüglich nur: Aktien/GmbH-Anteile eigener Unternehmen, privat gewährte Darlehen, geschäftliche Bankkonti (anders als ZH/SG/TG, die Bankguthaben ausnehmen)'
   - 'Nicht abziehbar: Courtagen, Ausgabe-/Rücknahmekommissionen, Emissionsabgabe, Beratung, Bancomat-/Kreditkartengebühren'
 - ziffer: '16.2'

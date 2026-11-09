@@ -3664,6 +3664,7 @@ positionen:
   - Depotgebühren-/Verwaltungskostenausweis Bank → effektive Kosten (falls höher)
   berechnung: 'Kanton: min(2 Promille × Steuerwert drittverwalteter Wertschriften PV; 6''000) oder höhere nachgewiesene Kosten → Code 148 (Zeile 7), vom Bruttoertrag ab'
   beachten:
+  - 'Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale'
   - 'Formular 2 überträgt nur ein Total in Ziff. 4: Kantonsspalte nach Abzug Code 148; Bundesspalte siehe «Bund»'
   - Bemessung ohne Darlehen, Bankguthaben und nicht kotierte qualifizierte Beteiligungen (§ 22 Abs. 2 StG)
   - 'Nicht abziehbar: Kontoführung, Anlageberatung, Kommissionen/Spesen An-/Verkauf, Tresor-/Schrankfachmiete'

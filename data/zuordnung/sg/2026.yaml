@@ -1414,6 +1414,7 @@ positionen:
   - Bankbelege Depotgebühren, Inkassospesen, Kontoführungsgebühren → tatsächliche Kosten (Alternative)
   berechnung: tatsächl. Kosten ODER Pauschale 2‰ × Basis bis 3 Mio. + 1‰ darüber, max. 15'000; Basis = Sp. A+B − Geschäftsvermögen − Darlehen − Selbstverwaltetes/Krypto
   beachten:
+  - 'Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale'
   - Pauschale und tatsächliche Kosten pro Periode nicht kumulierbar; Selbstverwaltung → kein Abzug
   - 'Nicht abziehbar: Transaktionskosten, Beratung, aktives Depotmanagement; All-in-Fee je Depot schätzen (ohne 15''000)'
   - 'Bund: gleiche Abzugsregeln wie Kanton; UJ: Pauschale nach Dauer kürzen'

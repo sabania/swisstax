@@ -2124,6 +2124,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Rein:** Steuerauszug/Depotauszug Bank → Steuerwert der durch Dritte verwalteten Wertschriften (Basis) · Depotgebührenabrechnung Bank → effektive Kosten (nur bei höherem Nachweis)
 - **Rechnen:** Pauschal: min(2‰ × Steuerwert durch Dritte verwalteter Wertschriften des PV; Fr. 6'000) oder höhere effektive Kosten mit Nachweis → Code 148
 - **Regel:** Pauschal 2 Promille des Steuerwerts der durch Dritte verwalteten Wertschriften des Privatvermögens, höchstens Fr. 6'000 (Darlehen, Bankguthaben, nichtkotierte qualifizierte Beteiligungen nicht in der Basis); höherer Nachweis vorbehalten. Abziehbar: Depotgebühren; nicht abziehbar: Kommissionen, Anlageberater, Tresor.
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Formular 2 überträgt nur ein Total in Ziff. 4: Kantonsspalte nach Abzug Code 148; Bundesspalte siehe «Bund»
 - **Beachten:** Basis ohne Darlehen, Bankguthaben aller Art, nichtkotierte qualifizierte Beteiligungen (§ 22 Abs. 2 StG)
 - **Beachten:** Nicht abziehbar: Kontoführungsgebühren, Anlageberater, Kommissionen/Spesen An-/Verkauf, Tresor für Schmuck/Bilder

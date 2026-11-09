@@ -2265,6 +2265,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Rein:** Steuerauszug/Depotverzeichnis → Steuerwert der durch Dritte verwalteten Wertschriften PV (Bemessung) · Depotgebühren-/Verwaltungskostenausweis Bank → effektive Kosten (falls höher)
 - **Rechnen:** Kanton: min(2 Promille × Steuerwert drittverwalteter Wertschriften PV; 6'000) oder höhere nachgewiesene Kosten → Code 148 (Zeile 7), vom Bruttoertrag ab
 - **Regel:** Pauschal 2 Promille des Steuerwerts der durch Dritte verwalteten Wertschriften des Privatvermögens, max. Fr. 6'000; Darlehen, Bankguthaben und nicht kotierte qualifizierte Beteiligungen zählen nicht zur Bemessung. Nachweis höherer Kosten vorbehalten. Nur Depotgebühren/Verwaltung – nicht Kontoführung, Anlageberatung, Kommissionen/Spesen An-/Verkauf, Tresormiete.
+- **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Formular 2 überträgt nur ein Total in Ziff. 4: Kantonsspalte nach Abzug Code 148; Bundesspalte siehe «Bund»
 - **Beachten:** Bemessung ohne Darlehen, Bankguthaben und nicht kotierte qualifizierte Beteiligungen (§ 22 Abs. 2 StG)
 - **Beachten:** Nicht abziehbar: Kontoführung, Anlageberatung, Kommissionen/Spesen An-/Verkauf, Tresor-/Schrankfachmiete
