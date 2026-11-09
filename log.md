@@ -39,3 +39,15 @@ Letzte Einträge: `grep "^## \[" log.md | tail -5`
 ## [2026-11-09] query | Praxistest Runde 2 (q31–q40 + Nachtest q01/q12/q23)
 - 13/13 korrekt, Laufzeit halbiert. Lücke: Steuersätze Kapitalleistungen aus Vorsorge nur im Gesetz → neuer Eckwert
   `tarif.kapitalleistung_vorsorge` (alle Jurisdiktionen/Jahre, mit Zitat).
+
+## [2026-11-09] verify | Zweitprüfung aller extrahierten Einträge
+- 270 Einträge gegen Chunks geprüft (Sonnet), 226 bestätigt, 44 korrigiert (Fundstellen ergänzt, Unbelegtes gestrichen).
+
+## [2026-11-09] aufbau | Zeitmodell, Nachvollziehbarkeit, Kompakt-Wegleitung
+- Registry: zeitbezug/gilt_ab/gilt_bis/ersetzt(_durch) für alle 285 Quellen (Opus, gegengeprüft); quick/gueltigkeit-<jahr>.md;
+  ZH-Fristen 2025 auf ZStB 132.1 ab 2026 umgestellt. tools/impact.py + index/abhaengigkeiten.json; Chunk-Pläne ab Textkörper.
+- 724 Formularpositionen mit rein/berechnung/beachten (3'469 neue Zitate, Zahlen maschinell geprüft) → quick/wegleitung-*.
+
+## [2026-11-09] query | Experimente in echtem OpenClaw 2026.11.2 (Läufe A/B)
+- Retrieval: unicode61 > trigram; angereicherte Kontextzeile MRR 0.28 → 0.36. Agent navigiert v.a. dateibasiert.
+- 64 Fragen (Praxis-, Blind-, Positionstest), unabhängig bewertet: A 61/64, B 63/64 voll richtig, 0 falsch → eval/laeufe/.

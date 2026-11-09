@@ -82,4 +82,26 @@ Fundstellen geprüft und tragend: 40/40 · Kanton/Bund getrennt: 40/40 · richti
 | q39 | richtig | – |
 | q40 | richtig | – |
 
-Protokolle mit vollständigen Antworten: [openclaw-praxistest-A.md](openclaw-praxistest-A.md) · [openclaw-blindtest-A.md](openclaw-blindtest-A.md)
+## Positionstest (p01–p10)
+
+| Urteil | Anzahl |
+|---|---|
+| richtig | 9 |
+| teilweise | 1 |
+
+Fundstellen geprüft und tragend: 10/10 · Kanton/Bund getrennt: 10/10 · richtiges Steuerjahr: 10/10 · Referenz selbst fehlerhaft: 0
+
+| Frage | Urteil | Fehler / Anmerkungen |
+|---|---|---|
+| p01 | richtig | Nebenpunkt in sich widersprüchlich: Die «Annahme» nennt als Alternative zwei Hin- und Rückfahrten (Mittagsheimfahrt), unter «Offen» wird aber eine einzige Fahrt pro Tag gerechnet (CHF 3'542 bzw. Ziff. 11.1 Staat 6'302 / Bund 6'060). Die Rechnung selbst stimmt, die Beschreibung ist unklar; für das Hauptergebnis ohne Bedeutung. |
+| p02 | richtig | – |
+| p03 | richtig | – |
+| p04 | richtig | – |
+| p05 | richtig | – |
+| p06 | richtig | – |
+| p07 | richtig | – |
+| p08 | richtig | – |
+| p09 | teilweise | Behauptung, in Ziff. 17 der AR-Steuererklärung werde der Kantonsbetrag in einer Kantonsspalte und der Bundesbetrag in einer Bundesspalte erfasst, ist durch keine Quelle belegt. Laut WL AR 2025 S. 33 (ar-wl-2025__c0179) nimmt die Steuerverwaltung die nötigen DBSt-Anpassungen automatisch vor. Auch das Wiki (zuordnung-ar-2025-detail, Ziff. 17) nennt keine Bundesspalte. |
+| p10 | richtig | – |
+
+Protokolle mit vollständigen Antworten: [openclaw-praxistest-A.md](openclaw-praxistest-A.md) · [openclaw-blindtest-A.md](openclaw-blindtest-A.md) · [openclaw-positionstest-A.md](openclaw-positionstest-A.md)

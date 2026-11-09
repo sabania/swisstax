@@ -1,5 +1,8 @@
 # Konzept und Aufbau des Steuer-Wikis
 
+> Stand 09.11.2026 · 285 Quellen · 8'876 Chunks · 73 Eckwerte je Jurisdiktion/Jahr · 724 Formularpositionen mit
+> Kompakt-Wegleitung · getestet in OpenClaw 2026.11.2
+
 Dieses Dokument erklärt, **wie** die Wissensbasis aufgebaut ist und **warum** – für Fachpersonen (SB/ML), die sie nutzen
 und pflegen, und für alle, die den OpenClaw-Steuer-Agenten betreiben. Kurzfassung für Agenten: `AGENTS.md`.
 
@@ -99,7 +102,7 @@ Abzugsbeträge (Teuerungsausgleich) und teils Formulare für unterjährige Steue
 Übersicht `reports/abhaengigkeiten.md`; jede Quellenseite `wiki/<jur>/quellen/<id>.md` zeigt «Verwendet in»):
 
 ```bash
-python3 tools/impact.py --quelle zh-zstb-132-1-bis-2025   # 3 Eckwerte, 5 generierte Seiten, 2 Themenseiten betroffen
+python3 tools/impact.py --quelle zh-zstb-132-1           # Fristen-Weisung ZH: 6 Einträge (2025+2026), generierte Seiten, Themenseiten
 python3 tools/impact.py --chunk zh-stg-2025__par-26       # welche Einträge/Seiten zitieren genau diesen Abschnitt
 python3 tools/impact.py --datei data/werte/zh/2025.yaml   # auf welche Quellen stützt sich ein Datenblatt
 python3 tools/impact.py --seite wiki/themen/fahrkosten.md  # worauf stützt sich eine Themenseite
@@ -153,6 +156,16 @@ erklären Zusammenhänge, Sonderfälle und Checklisten; der Chunk ist der Beleg,
   `memory_search` ist die Rückfallebene für Unvorhergesehenes.
 - Konfiguration, Befunde und Testprotokolle: `openclaw/README.md`, `eval/laeufe/`.
 
-## 10. Experimente und Tuning
+## 10. Experimente und Tuning (Ergebnisse)
 
-Siehe `eval/laeufe/experimente.md` (Messwerte, Entscheide).
+Ausführlich: `eval/laeufe/experimente.md`, Protokolle und Bewertungen in `eval/laeufe/`.
+
+| Was wurde getestet | Ergebnis | Entscheid |
+|---|---|---|
+| Wie navigiert der Agent? (Protokolle von 129 echten Turns) | überwiegend Dateien lesen (`read`, `grep`), `memory_search` selten | Quick-Layer und Pfade sind der Haupthebel |
+| Suchkonfiguration (29 Fragen mit Gold-Fundstellen) | Standard-Tokenizer besser als trigram; angereicherte Kontextzeile MRR 0.28 → 0.36 | unicode61; Kontextzeile in `chunk.py` |
+| Lauf A (Baseline) vs. Lauf B (getunt), je 64 Fragen, unabhängig bewertet | A 61/64, B 63/64 voll richtig; 0 falsch; Fundstellen/Kanton-Bund/Jahr 64/64 | Lauf-B-Stand ist Standard |
+| Kompakt-Wegleitung | 89 Zugriffe in B, Detailseiten-Zugriffe −65 %, Lesezugriffe −11 % | erste Station für Positionsfragen |
+
+Blindtests: Fragen und Referenzen wurden von separaten Agenten **nur aus Primärquellen** erstellt (ohne die aufbereiteten
+Daten); in einem Fall (b03) war die Referenz falsch und der Agent hatte mit den indexierten Gesetzesbeträgen recht.

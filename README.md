@@ -104,14 +104,15 @@ Unveränderte Gesetzesfassungen werden nicht dupliziert (eine Konsolidierung = e
 ## Stand (09.11.2026)
 
 - **Quellen:** 285 (Gesetze/Verordnungen als XML/JSON je Artikel, Wegleitungen, Formulare, Merkblätter, Kreis-/Rundschreiben,
-  Steuerbuch/Steuerpraxis) · **Chunks:** 8'876 (Bund 2'890 · ZH 2'136 · SG 1'502 · TG 1'462 · AR 886) · Originale in `raw/`.
-- **Daten:** 10 Werte-Dateien (73 Eckwerte je Jurisdiktion/Jahr), 8 Zuordnungsdateien, 45 Belegtypen – jede Angabe mit
-  wörtlichem Zitat, maschinell geprüft. Status-Übersicht und Arbeitsliste: [`reports/offene-punkte.md`](reports/offene-punkte.md).
-- **Wiki:** 31 Themenseiten, 5 Überblicke, 45 Belegkarten, Detailseiten je Kanton/Jahr, Glossar.
-- **Praxistest** ([`eval/`](eval/)): 40 Treuhänder-Fragen, beantwortet von Agenten nur mit dem Wiki – alle inhaltlich korrekt
-  gegenüber den Soll-Antworten (Review). Erkenntnisse sind in den Quick-Layer eingeflossen.
-- **Lücken:** AR 2026 ohne Formular/Wegleitung (Gerüst, Werte teils strittig); ZH/SG 2026 nur Formular für unterjährige
-  Steuerpflicht; 10 strittige Punkte für die Fachperson. `verifiziert` (✅) setzt nur die Fachperson.
+  Steuerbuch/Steuerpraxis), jede mit Zeitbezug, Gültigkeit und Versionskette · **Chunks:** 8'876 · Originale in `raw/`.
+- **Daten:** 10 Werte-Dateien (73 Eckwerte je Jurisdiktion/Jahr), 8 Zuordnungsdateien (724 Positionen mit Kompakt-Wegleitung
+  rein/berechnung/beachten), 45 Belegtypen – jede Angabe mit wörtlichem, maschinell geprüftem Zitat; alle extrahierten Angaben
+  zweitgeprüft. Arbeitsliste für die Fachperson: [`reports/offene-punkte.md`](reports/offene-punkte.md).
+- **Wiki:** 31 Themenseiten, 5 Überblicke, 45 Belegkarten, Detailseiten mit Zitaten, Gültigkeitsseiten je Jahr, Glossar.
+- **Getestet in OpenClaw 2026.11.2** (echte Agent-Turns, unabhängig bewertet): 63/64 Fragen voll richtig (Praxis-, Blind- und
+  Positionstest), 0 falsch; Fundstellen, Kanton/Bund-Trennung und Steuerjahr 64/64 – siehe [`eval/laeufe/`](eval/laeufe/).
+- **Lücken:** AR 2026 ohne Formular/Wegleitung (Gerüst); ZH/SG 2026 nur Formular für unterjährige Steuerpflicht; 10 strittige
+  Punkte für die Fachperson; Status ✅ «verifiziert» setzt nur die Fachperson.
 
 Quellenbasis: die Wissensdatenbank-Dateien in `_seed/` (Recherche vom 30.10.2026) plus ergänzte Quellen (Fedlex-XML,
 ESTV-Formulare 2025, Vorgängerfassungen ZStB, VKP ZH, KS 11/18). Chronik: [`log.md`](log.md).

@@ -26,6 +26,8 @@ Strenges Mass (nur die exakte Belegstelle zählt) – absolute Werte sind daher 
 | OpenClaw FTS, unicode61 | Stichworte | 0.14 | 0.38 | 0.45 | 0.59 | 0.28 |
 | **OpenClaw FTS, unicode61 + angereicherte Kontextzeile** | Stichworte | **0.24** | **0.41** | **0.52** | **0.59** | **0.36** |
 | OpenClaw FTS, unicode61 + angereicherte Kontextzeile | ganze Frage | 0.14 | 0.41 | 0.41 | 0.59 | 0.28 |
+| OpenClaw FTS, unicode61 + Kontextzeile + Kompakt-Wegleitung/Belegkarten (Stand Lauf B) | Stichworte | 0.21 | 0.41 | 0.45 | 0.55 | 0.33 |
+| OpenClaw FTS, unicode61 + Kontextzeile + Kompakt-Wegleitung/Belegkarten (Stand Lauf B) | ganze Frage | 0.10 | 0.28 | 0.34 | 0.48 | 0.23 |
 | Hybrid mit lokalen Embeddings (`provider: "local"`) | – | nicht getestet: Plugin `@openclaw/llama-cpp-provider` nötig, Installation in der Testumgebung durch die Sicherheitsrichtlinie blockiert | | | | |
 
 Angereicherte Kontextzeile = erste Zeile jedes Chunks nennt Ebene und Kanton ausgeschrieben, z.B.
@@ -33,7 +35,10 @@ Angereicherte Kontextzeile = erste Zeile jedes Chunks nennt Ebene und Kanton aus
 Häufigster Fehler vorher: Treffer aus dem falschen Kanton/Jahr (z.B. «km-Ansatz 2026 direkte Bundessteuer» → TG-Chunks).
 
 **Entscheide:** Tokenizer-Empfehlung von trigram auf Standard (unicode61) geändert; Kontextzeilen in `tools/chunk.py`
-angereichert (alle Chunks neu erzeugt, IDs und Texte unverändert).
+angereichert (alle Chunks neu erzeugt, IDs und Texte unverändert). Die zusätzlichen grossen Quick-Seiten (Kompakt-Wegleitung,
+Belegkarten) senken das strenge Retrieval-Mass leicht (sie konkurrieren im Volltext mit den Chunks; Unterschied ≈ 1–2 Fragen
+von 29, im Rauschbereich) – im Agentenlauf überwiegt ihr Nutzen deutlich (E2). Für reine Suchanwendungen ohne Agent kann man
+`pattern: "chunks/**/*.md"` indexieren.
 
 ## Lauf A – Baseline im echten OpenClaw (unabhängig bewertet)
 
@@ -46,4 +51,33 @@ Daraus abgeleitetes Tuning: Hinweise zu Gebäudealter (Bund: zu Beginn der Steue
 
 ## E2 – Kompakt-Wegleitung und Tuning im Agenten-Lauf (Lauf B)
 
-*(wird nach Lauf B ergänzt)*
+Lauf B = gleiche 64 Fragen, gleiches Modell und Bewertungsverfahren, aber Wiki mit: Zeitmodell, angereicherten Kontextzeilen,
+Kompakt-Wegleitung je Formularposition (`quick/wegleitung-<kt>-<jahr>.md`), Tuning-Hinweisen aus Lauf A, Standard-Tokenizer.
+Bewertung: [bewertung-A.md](bewertung-A.md), [bewertung-B.md](bewertung-B.md).
+
+| Testset | Lauf | n | richtig | teilweise | falsch | Fundstellen ok | Ø Dauer s | Ø Tool-Aufrufe |
+|---|---|---|---|---|---|---|---|---|
+| Praxistest q01–q40 | A | 40 | 38 | 2 | 0 | 40 | 41.5 | 8.8 |
+| Praxistest q01–q40 | B | 40 | 39 | 1 | 0 | 40 | 40.3 | 7.8 |
+| Blindtest b01–b14 | A | 14 | 14 | 0 | 0 | 14 | 36.1 | 7.6 |
+| Blindtest b01–b14 | B | 14 | 14 | 0 | 0 | 14 | 43.0 | 8.4 |
+| Positionstest p01–p10 | A | 10 | 9 | 1 | 0 | 10 | 46.4 | 11.6 |
+| Positionstest p01–p10 | B | 10 | 10 | 0 | 0 | 10 | 49.7 | 11.3 |
+
+- **Genauigkeit:** A 61/64 voll richtig, B 63/64. Alle drei Teilfehler aus A sind in B behoben (Gebäudealter-Regel q32,
+  Bundes-Kinderabzug q38, AR ohne Bundesspalte p09). Einziger Teilfehler in B: q37 – Mietvertrag als «nein (Normalfall)» statt
+  «bedingt» eingestuft (Bedingungen aber genannt). Keine falsche Antwort in beiden Läufen; Fundstellen, Kanton/Bund-Trennung
+  und Steuerjahr in 64/64 korrekt.
+- **Navigation** (Claude-Code-Protokolle aller Turns): In B öffnet der Agent die Kompakt-Wegleitung 89× und braucht deutlich
+  weniger Detailseiten (Zuordnungs-Detail 12× statt 34×) und Chunks (236 statt 289 Zugriffe); Lesezugriffe gesamt −11 %
+  (425 statt 479), Tool-Aufrufe je Praxisfrage 7.8 statt 8.8.
+- **Dauer:** unverändert ~40–50 s je Frage (B lief auf zwei Instanzen parallel; Zeiten daher nur grob vergleichbar).
+
+**Entscheid:** Lauf-B-Konfiguration ist der Standard (install.sh nach `memory/`, Tokenizer unicode61, Kompakt-Wegleitung im
+Quick-Layer und im Snippet/Skill als erste Station für Positionsfragen).
+
+## Grenzen der Experimente
+
+- Ein Modell (Claude über claude-cli); andere Modelle können anders navigieren.
+- Hybrid-/Vektorsuche nicht getestet (lokales Embedding-Plugin in der Testumgebung blockiert, kein Embedding-API-Schlüssel).
+- 64 Fragen sind eine Stichprobe; Fachperson-Verifikation der Werte (Status ✅) steht aus.

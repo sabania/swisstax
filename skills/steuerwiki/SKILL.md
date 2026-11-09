@@ -57,3 +57,6 @@ nicht relevant → bei relevant: Felder gemäss «Was extrahieren» lesen → Zi
 - **2026 = teils provisorisch:** ZH/SG 2026 nur Formular für unterjährige Steuerpflicht, AR 2026 Gerüst ohne Formular
   (siehe `quick/index.md` → Datenstand). Status ⬜ offen heisst: Wert fehlt – nicht aus 2025 übernehmen.
 - **Strittig (⚠️):** beide Quellen nennen und auf die Fachperson verweisen (`reports/offene-punkte.md`).
+- **Triage-Stufen wörtlich übernehmen:** «bedingt» heisst «relevant, wenn die Bedingung zutrifft» – als **bedingt** benennen
+  (mit Bedingung), nicht zu «nein» oder «ja» verkürzen.
+- **Zeitbezug:** Fristen/Verfahren der Erklärung X richten sich nach der Fassung im Jahr X+1 (`quick/gueltigkeit-<jahr>.md`).
