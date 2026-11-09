@@ -812,7 +812,9 @@ def formular(kt, jahr) -> str:
     if vk:
         out.append(f"- Wertschriften in einem Bankdepot → Verwaltungskosten auch ohne Gebührenbeleg prüfen (Pauschale Kanton): {zf(vk[0])} – "
                    f"{cut(vk[0].get('berechnung'), 150)}. Basis (was zählt mit?) und Bundesspalte: `position {j} {jahr} {vk[0]['ziffer'] if not str(vk[0]['ziffer']).startswith('Form') else 'verwaltungskosten'}`.")
-    out += [
+    out += ["- Beträge im Formular in ganzen Franken (Formulare 2025: ZH «CHF ohne Rappen» zh-form-300-2025__c0004, TG «nur in ganzen "
+            "Franken» tg-wl-2025__c0031, AR «Fr. (ohne Rappen)» ar-form-06-2025__c0001); Franken und Rappen nur, wo das Formular es "
+            "verlangt (Wertschriftenerträge mit Verrechnungssteuer, Verrechnungssteueranspruch). Mit `rechne` genau rechnen, dann runden.",
             "- Alle Totale mit Ziffer ausweisen und mit `rechne` rechnen (nie im Kopf); steuerbares Einkommen Kanton und Bund auf Plausibilität vergleichen."]
     return "\n".join(out)
 
