@@ -1,0 +1,68 @@
+{
+ "id": "zh-form-365-2025",
+ "hinweise": [
+  "Seite 1: Spalten/Feldcodes teils vermischt, Randnotiz zur Prämienverbilligung zeilenweise zerrissen."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Ziff. A.1–6 Bezahlte Versicherungsprämien und Sparzinsen (Codes 601–607)",
+   "pfad": [
+    "Form. 365",
+    "A. Bezahlte Prämien"
+   ],
+   "ziffer": "A",
+   "stichworte": [
+    "Krankenkassenprämien",
+    "Unfallversicherung",
+    "Lebensversicherung",
+    "Sparzinsen",
+    "Prämienverbilligung",
+    "IPV"
+   ],
+   "positionen": [
+    "abzug.versicherungspraemien"
+   ],
+   "zusammenfassung": "Erfassung der bezahlten Prämien (Kranken, Unfall, Leben/Rente) und Sparzinsen abzüglich erhaltener Prämienverbilligung (Total A, Code 606)."
+  },
+  {
+   "start": 48,
+   "titel": "Ziff. B.1–3 Maximaler Versicherungsabzug (Codes 611–616)",
+   "pfad": [
+    "Form. 365",
+    "B. Maximaler Abzug"
+   ],
+   "ziffer": "B",
+   "stichworte": [
+    "Versicherungsabzug",
+    "Maximalabzug",
+    "Verheiratete",
+    "Kinderzuschlag",
+    "3. Säule",
+    "2. Säule"
+   ],
+   "positionen": [
+    "abzug.versicherungspraemien"
+   ],
+   "zusammenfassung": "Verheiratete mit 2./3.-Säule-Beiträgen Staat 5’800 / Bund 3’700, ohne 8’700 / 5’550; übrige 2’900 / 1’800 bzw. 4’350 / 2’700; je Kind 1’300 / 700, unterstützungsbedürftige Person 1’300 bzw. 700."
+  },
+  {
+   "start": 69,
+   "titel": "Ziff. C Abzug (Code 270) – niedrigerer Betrag von A oder B",
+   "pfad": [
+    "Form. 365",
+    "C. Abzug"
+   ],
+   "ziffer": "C",
+   "stichworte": [
+    "Abzug Versicherungsprämien",
+    "Übertrag Steuererklärung",
+    "Code 270"
+   ],
+   "positionen": [
+    "abzug.versicherungspraemien"
+   ],
+   "zusammenfassung": "Abzug ist der niedrigere Betrag von (A) oder (B), zu übertragen in die Steuererklärung Seite 3, Ziffer 15."
+  }
+ ]
+}

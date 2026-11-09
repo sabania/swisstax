@@ -1,0 +1,68 @@
+{
+ "id": "ar-form-07z-2025",
+ "hinweise": [
+  "Zahlenreihen der Eingabefelder sind Feldcode-Rauschen (Seite 1); 'Hertrag' = OCR/Fontfehler für Übertrag."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 7Z Zusammenzug aller Liegenschaften – Hinweise und Spalten",
+   "pfad": [
+    "Formular 7Z"
+   ],
+   "stichworte": [
+    "Liegenschaften",
+    "Steuerwert",
+    "Eigenmietwert",
+    "Mietertrag",
+    "Unterhaltskosten",
+    "Pauschalabzug",
+    "mehrere Liegenschaften"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften",
+    "abzug.liegenschaft.unterhalt",
+    "einkommen.liegenschaften.mietertrag"
+   ],
+   "zusammenfassung": "Bei mehr als einer Liegenschaft sind die Ergebnisse je Formular 7 zu übertragen; Spalten Steuerwert 31.12.2025 (A), Erträge (B), Pauschalabzug (C1), tatsächliche Kosten (C2)."
+  },
+  {
+   "start": 43,
+   "titel": "Liegenschaftsliste Nr. 1–25 (leeres Raster)",
+   "pfad": [
+    "Formular 7Z",
+    "Liste"
+   ],
+   "stichworte": [
+    "Liegenschaftsliste",
+    "Grundstücknummer",
+    "Ergänzungsblätter"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Zeilen 1–25 für Gemeinde/Kanton, Grundstücknummer, Steuerwert, Erträge und Unterhaltskosten.",
+   "skip": false
+  },
+  {
+   "start": 77,
+   "titel": "Total – Übertrag Steuererklärung Seite 4 Ziff. 31, Seite 2 Ziff. 5, Seite 3 Ziff. 15",
+   "pfad": [
+    "Formular 7Z",
+    "Total"
+   ],
+   "ziffer": "31 / 5 / 15",
+   "stichworte": [
+    "Total Liegenschaften",
+    "Übertrag Steuererklärung",
+    "Ziffer 31"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften",
+    "einkommen.liegenschaften.mietertrag",
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Totale sind zu übertragen: Steuerwert Seite 4 Ziffer 31, Erträge Seite 2 Ziffer 5, Unterhaltskosten Seite 3 Ziffer 15."
+  }
+ ]
+}

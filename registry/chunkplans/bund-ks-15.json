@@ -1,0 +1,1539 @@
+{
+ "id": "bund-ks-15",
+ "hinweise": [
+  "Anhang I (S. 15): Organigramm als Textfragmente extrahiert, Struktur unlesbar.",
+  "Anhang II (S. 16-18): Rechenbeispiele mit teils zerrissenen Formeln.",
+  "Dollarzeichen in Zusammenfassungen ggf. maskiert."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt Kreisschreiben Nr. 15"
+  },
+  {
+   "start": 41,
+   "skip": true,
+   "titel": "Inhaltsverzeichnis"
+  },
+  {
+   "start": 92,
+   "titel": "Ziff. 1 Einleitung – KS 4 und Transparenz kombinierter Produkte",
+   "pfad": [
+    "1 Einleitung"
+   ],
+   "stichworte": [
+    "Einleitung",
+    "KS 4",
+    "transparente Produkte",
+    "Obligationen",
+    "derivative Finanzinstrumente"
+   ],
+   "zusammenfassung": "Das KS 4 von 1999 regelte die Besteuerung von Obligationen und Derivaten im Privatvermögen und führte transparente/nicht transparente Produkte ein (Art. 20 Abs. 1 Bst. a/b, Art. 16 Abs. 3 DBG).",
+   "ziffer": "1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 127,
+   "titel": "Ziff. 1 Einleitung – KS 15 (2007) und Nachfolge 2017, Gutachten SBVg",
+   "pfad": [
+    "1 Einleitung"
+   ],
+   "stichworte": [
+    "KS 15",
+    "Version 2007",
+    "Emissionsabgabe Fremdkapital",
+    "BFP-Service",
+    "Gutachten Bankiervereinigung"
+   ],
+   "zusammenfassung": "Das KS 15 erläutert die nachträgliche Transparenz kombinierter Produkte; die Fassung 2017 trägt der Abschaffung der Emissionsabgabe auf Fremdkapital Rechnung, das Gutachten (Anhang IV) belegt die Eignung des BFP-Service.",
+   "ziffer": "1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 147,
+   "titel": "Ziff. 2.1.1 Gewöhnliche Obligationen – steuerrechtlicher Begriff",
+   "pfad": [
+    "2 Begriffe",
+    "2.1 Obligationen"
+   ],
+   "stichworte": [
+    "Obligation",
+    "Begriff Obligation",
+    "Schuldanerkennung",
+    "periodische Verzinsung",
+    "garantierte Geldflüsse"
+   ],
+   "zusammenfassung": "Obligationen sind schriftliche, auf feste Beträge lautende Schuldanerkennungen, die in Mehrzahl zu gleichartigen Bedingungen ausgegeben werden; für die Einmalverzinsung zählen nur garantierte Geldflüsse (Barwerte).",
+   "ziffer": "2.1.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 173,
+   "titel": "Ziff. 2.1.2–2.1.3 Diskont-/globalverzinsliche Obligationen, Geldmarktpapiere",
+   "pfad": [
+    "2 Begriffe",
+    "2.1 Obligationen"
+   ],
+   "stichworte": [
+    "Zerobond",
+    "Diskontobligation",
+    "globalverzinsliche Obligation",
+    "Geldmarktpapier",
+    "Emissionsdisagio",
+    "Rückzahlungsagio"
+   ],
+   "zusammenfassung": "Diskontobligationen werden unter pari emittiert, globalverzinsliche über pari zurückgezahlt; Geldmarktpapiere haben eine feste Laufzeit von nicht mehr als zwölf Monaten (Art. 4 Abs. 5 StG).",
+   "ziffer": "2.1.2–2.1.3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 196,
+   "titel": "Ziff. 2.1.4 Obligationen mit überwiegender Einmalverzinsung (IUP)",
+   "pfad": [
+    "2 Begriffe",
+    "2.1 Obligationen"
+   ],
+   "stichworte": [
+    "überwiegende Einmalverzinsung",
+    "IUP",
+    "Zerobond",
+    "Emissionsdisagio",
+    "negative Rendite",
+    "Anleihe"
+   ],
+   "zusammenfassung": "Überwiegende Einmalverzinsung liegt vor, wenn der überwiegende Teil des Nutzungsentgelts auf Emissionsdisagio oder Rückzahlungsagio beruht; Anleihen mit Coupon 0 % oder negativer Rendite zählen nicht dazu.",
+   "ziffer": "2.1.4",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 220,
+   "titel": "Ziff. 2.2.1–2.2.2 Derivative Finanzinstrumente, Termingeschäfte (Futures)",
+   "pfad": [
+    "2 Begriffe",
+    "2.2 Derivative Finanzinstrumente"
+   ],
+   "stichworte": [
+    "Derivate",
+    "Futures",
+    "Termingeschäft",
+    "Forward",
+    "Initial Margin",
+    "Basiswert"
+   ],
+   "zusammenfassung": "Futures sind standardisierte Termingeschäfte ohne Prämie, aber mit Initial Margin von i.d.R. fünf bis zwanzig Prozent des Kontraktwerts.",
+   "ziffer": "2.2.1–2.2.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 253,
+   "titel": "Ziff. 2.2.3 Optionen – Call, Put, Warrants",
+   "pfad": [
+    "2 Begriffe",
+    "2.2 Derivative Finanzinstrumente"
+   ],
+   "stichworte": [
+    "Option",
+    "Call-Option",
+    "Put-Option",
+    "Warrant",
+    "Optionsschein",
+    "Prämie"
+   ],
+   "zusammenfassung": "Der Optionskäufer erwirbt gegen Prämie das Recht (nicht die Pflicht), einen Basiswert zum Ausübungspreis zu kaufen (Call) oder zu verkaufen (Put); Warrants sind verbriefte Optionen.",
+   "ziffer": "2.2.3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 273,
+   "titel": "Ziff. 2.2.3 Low Exercise Price Options (LEPO)",
+   "pfad": [
+    "2 Begriffe",
+    "2.2 Derivative Finanzinstrumente"
+   ],
+   "stichworte": [
+    "LEPO",
+    "Low Exercise Price Option",
+    "Eurex",
+    "vorausfinanziertes Termingeschäft"
+   ],
+   "zusammenfassung": "LEPO sind atypische, im Voraus finanzierte Termingeschäfte auf Namenaktien mit Laufzeit bis zwölf Monate; steuerlich siehe Anhang III Ziff. 4.",
+   "ziffer": "2.2.3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 284,
+   "titel": "Ziff. 2.3.1 Kapitalgarantierte Derivate, nicht klassische Options-/Wandelanleihen",
+   "pfad": [
+    "2 Begriffe",
+    "2.3 Kombinierte Produkte"
+   ],
+   "stichworte": [
+    "kapitalgarantiertes Derivat",
+    "Optionsanleihe",
+    "Wandelanleihe",
+    "CPU",
+    "CPN",
+    "strukturiertes Produkt",
+    "nicht trennbar"
+   ],
+   "zusammenfassung": "Kombinierte Produkte bestehen meist aus Obligation und Option bzw. Wandelrecht; sie können trennbar (drei Valorennummern) oder nicht trennbar sein.",
+   "ziffer": "2.3.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 314,
+   "titel": "Ziff. 2.3.2 Klassische Options- und Wandelanleihen",
+   "pfad": [
+    "2 Begriffe",
+    "2.3 Kombinierte Produkte"
+   ],
+   "stichworte": [
+    "klassische Optionsanleihe",
+    "klassische Wandelanleihe",
+    "pari",
+    "neu geschaffene Beteiligungsrechte"
+   ],
+   "zusammenfassung": "Klassisch sind Options- und Wandelanleihen nur bei Bezugsrecht auf neu geschaffene Beteiligungsrechte des schweizerischen Emittenten, Emission zu pari oder mit Agio und Rückzahlung zu pari.",
+   "ziffer": "2.3.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 324,
+   "titel": "Ziff. 2.3.3.1 Reverse Convertibles ohne Kapitalschutz",
+   "pfad": [
+    "2 Begriffe",
+    "2.3 Kombinierte Produkte",
+    "2.3.3 Reverse Convertibles"
+   ],
+   "stichworte": [
+    "Reverse Convertible",
+    "Put-Option",
+    "Barrier",
+    "Titellieferung",
+    "Aktienlieferung",
+    "strukturiertes Produkt"
+   ],
+   "zusammenfassung": "Der Anleger erwirbt eine Obligation und verkauft eine Put-Option; bei Kurs unter dem Ausübungspreis erhält er den Basiswert statt Rückzahlung.",
+   "ziffer": "2.3.3.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 346,
+   "titel": "Ziff. 2.3.3.2 Reverse Convertibles mit Kapitalschutz",
+   "pfad": [
+    "2 Begriffe",
+    "2.3 Kombinierte Produkte",
+    "2.3.3 Reverse Convertibles"
+   ],
+   "stichworte": [
+    "Reverse Convertible",
+    "Kapitalschutz",
+    "Put-Option",
+    "Optionsprämie"
+   ],
+   "zusammenfassung": "Kapitalschutz entsteht durch eine zusätzliche Put-Option des Anlegers und ist kein Rückzahlungsversprechen im Sinne einer Obligation.",
+   "ziffer": "2.3.3.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 371,
+   "titel": "Ziff. 3.1 Obligationen ohne überwiegende Einmalverzinsung – DBG, Marchzinsen",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.1 Obligationen ohne überwiegende Einmalverzinsung"
+   ],
+   "stichworte": [
+    "Obligationszinsen",
+    "Marchzinsen",
+    "Art. 20 Abs. 1 Bst. a DBG",
+    "Fälligkeitsprinzip",
+    "Coupon",
+    "Vermögensertrag"
+   ],
+   "zusammenfassung": "Periodische Zinsen und Einmalentschädigungen sind steuerbarer Vermögensertrag (Art. 20 Abs. 1 Bst. a DBG); Marchzinsen sind nicht steuerbar.",
+   "ziffer": "3.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 388,
+   "titel": "Ziff. 3.1 Obligationen – Verrechnungssteuer und Stempelabgaben",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.1 Obligationen ohne überwiegende Einmalverzinsung"
+   ],
+   "stichworte": [
+    "Verrechnungssteuer",
+    "Umsatzabgabe",
+    "Konzernanleihe",
+    "Mittelrückfluss",
+    "Art. 4 VStG"
+   ],
+   "zusammenfassung": "Erträge inländischer Obligationen unterliegen der Verrechnungssteuer; ausländische Konzernanleihen mit Rückfluss ins Inland gelten als inländisch; Handel unterliegt der Umsatzabgabe (Art. 13 ff. StG).",
+   "ziffer": "3.1",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 415,
+   "titel": "Ziff. 3.2 Überwiegende Einmalverzinsung – reine Differenzbesteuerung",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.2 Obligationen mit überwiegender Einmalverzinsung"
+   ],
+   "stichworte": [
+    "Differenzbesteuerung",
+    "Art. 20 Abs. 1 Bst. b DBG",
+    "Zerobond",
+    "IUP",
+    "Bankspesen",
+    "Gewinnungskosten",
+    "Kursgewinn"
+   ],
+   "zusammenfassung": "Bei überwiegender Einmalverzinsung ist die Differenz zwischen Anschaffungs- und Verkaufs-/Rückzahlungsbetrag steuerbar (Art. 20 Abs. 1 Bst. b DBG); Bankspesen mindern den Ertrag.",
+   "ziffer": "3.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 435,
+   "titel": "Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.2 Obligationen mit überwiegender Einmalverzinsung"
+   ],
+   "stichworte": [
+    "Verlustverrechnung",
+    "IUP",
+    "Fremdwährung",
+    "Verrechnungssteuer Originaldiskont",
+    "Wechselkurs"
+   ],
+   "zusammenfassung": "Realisierte Verluste dürfen nur mit Gewinnen und periodischen Erträgen aus anderen IUP-Obligationen verrechnet werden, nicht mit anderen Einkommensteilen; die Verrechnungssteuer wird auf dem Originaldiskont erhoben.",
+   "ziffer": "3.2",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 455,
+   "titel": "Ziff. 3.3 Derivative Finanzinstrumente – Kapitalgewinne, Vorausfinanzierung 25 %",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.3 Derivative Finanzinstrumente"
+   ],
+   "stichworte": [
+    "Termingeschäft",
+    "Option",
+    "Kapitalgewinn steuerfrei",
+    "Mini-Future",
+    "Art. 16 Abs. 3 DBG",
+    "Vorausfinanzierung 25 %"
+   ],
+   "zusammenfassung": "Kapitalgewinne aus Futures und Optionen sind im Privatvermögen steuerfrei (Art. 16 Abs. 3 DBG), Verluste unbeachtlich; Grenze der Vorausfinanzierung 25 % des Kontraktwerts.",
+   "ziffer": "3.3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 471,
+   "titel": "Ziff. 3.3 Optionsprämien, Verrechnungssteuer und Stempelabgaben bei Derivaten",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.3 Derivative Finanzinstrumente"
+   ],
+   "stichworte": [
+    "Optionsprämie",
+    "Verrechnungssteuer",
+    "Umsatzabgabe",
+    "Emissionsabgabe",
+    "Stempelgesetz"
+   ],
+   "zusammenfassung": "Optionsprämien sind einkommenssteuerlich nicht relevant; Optionen und Futures sind keine steuerbaren Urkunden, Umsatzabgabe nur bei Lieferung steuerbarer Urkunden (Art. 15 Abs. 2 StG).",
+   "ziffer": "3.3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 487,
+   "titel": "Ziff. 3.4 Kapitalgarantierte Derivate – Kriterien der Transparenz",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.4 Kapitalgarantierte Derivate und nicht klassische Anleihen"
+   ],
+   "stichworte": [
+    "transparentes Produkt",
+    "nicht transparentes Produkt",
+    "Termsheet",
+    "kombiniertes Produkt",
+    "Optionsanleihe"
+   ],
+   "zusammenfassung": "Ein Produkt gilt als transparent, wenn die Komponenten separat gehandelt werden, der Emittent sie im Termsheet berechnet darstellt oder die ESTV sie analytisch nachvollzieht.",
+   "ziffer": "3.4",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 503,
+   "titel": "Ziff. 3.4 Transparenz – Erläuterung zu a) separater Handel und b) Termsheet",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.4 Kapitalgarantierte Derivate und nicht klassische Anleihen"
+   ],
+   "stichworte": [
+    "ex-Option",
+    "Emissionspreis Obligation",
+    "Termsheet",
+    "Single-A-Rating",
+    "Risikozuschlag"
+   ],
+   "zusammenfassung": "Bei separatem Handel gilt der erste Schlusskurs ex-Option als Emissionspreis; beim Termsheet muss die ESTV-Prüfung die Richtigkeit bestätigen.",
+   "ziffer": "3.4",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 519,
+   "titel": "Ziff. 3.4 Analytische Methode (Swapsatz, BFP-Service)",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.4 Kapitalgarantierte Derivate und nicht klassische Anleihen"
+   ],
+   "stichworte": [
+    "analytische Methode",
+    "Swapsatz",
+    "BFP-Service",
+    "Bondfloor",
+    "Diskontierung"
+   ],
+   "zusammenfassung": "Der garantierte Rückzahlungsbetrag wird mit dem mittleren Swapsatz für Währung und Laufzeit bei Emission diskontiert, um den Wert der Obligation zu bestimmen.",
+   "ziffer": "3.4",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 539,
+   "titel": "Ziff. 3.4 Voraussetzungen nachträgliche Transparenz, nicht transparente Produkte",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.4 Kapitalgarantierte Derivate und nicht klassische Anleihen"
+   ],
+   "stichworte": [
+    "Single-A-Rating",
+    "Market Maker",
+    "Börsenkotierung",
+    "Inflationsausgleich",
+    "nicht transparent"
+   ],
+   "zusammenfassung": "Nachträgliche Transparenz setzt mindestens ein Single-A-Rating und Börsenkotierung bzw. liquiden Handel durch einen Market Maker voraus; sonst gilt das Produkt als nicht transparent.",
+   "ziffer": "3.4",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 563,
+   "titel": "Ziff. 3.4.1 Transparente Produkte – Besteuerung Anlage- und Optionsteil",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.4 Kapitalgarantierte Derivate",
+    "3.4.1 Transparente Produkte"
+   ],
+   "stichworte": [
+    "transparente Produkte",
+    "Optionsgewinn steuerfrei",
+    "Obligationenteil",
+    "Einmalverzinsung",
+    "Art. 16 Abs. 3 DBG"
+   ],
+   "zusammenfassung": "Beim transparenten Produkt wird der Obligationenteil als Obligation besteuert, Optionsgewinne und -verluste sind im Privatvermögen steuerlich unbeachtlich.",
+   "ziffer": "3.4.1",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 577,
+   "titel": "Ziff. 3.4.1 Modifizierte Differenzbesteuerung (BFP-Service), Stempelabgaben",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.4 Kapitalgarantierte Derivate",
+    "3.4.1 Transparente Produkte"
+   ],
+   "stichworte": [
+    "modifizierte Differenzbesteuerung",
+    "BFP-Service",
+    "5-jähriger Swapsatz",
+    "Originalzinssatz",
+    "Originaldiskont"
+   ],
+   "zusammenfassung": "Der Originalzinssatz wird vierteljährlich anhand des 5-jährigen Swapsatzes angepasst; die Verrechnungssteuer wird nur auf dem Originaldiskont erhoben (Beispiel Nr. 4).",
+   "ziffer": "3.4.1",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 603,
+   "titel": "Ziff. 3.4.2 Nicht transparente Produkte – reine Differenzbesteuerung",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.4 Kapitalgarantierte Derivate",
+    "3.4.2 Nicht transparente Produkte"
+   ],
+   "stichworte": [
+    "nicht transparente Produkte",
+    "Differenzbesteuerung",
+    "Wandelrecht",
+    "Verrechnungssteuer",
+    "Umsatzabgabe"
+   ],
+   "zusammenfassung": "Bei nicht transparenten Produkten ist alles über das investierte Kapital hinaus Erhaltene steuerbar; bei Handänderung zählt die Differenz zwischen Kauf- und Verkaufspreis des Gesamtinstruments.",
+   "ziffer": "3.4.2",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 623,
+   "titel": "Ziff. 3.5 Klassische Options- und Wandelanleihen – Besteuerung",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.5 Klassische Options- und Wandelanleihen"
+   ],
+   "stichworte": [
+    "klassische Wandelanleihe",
+    "klassische Optionsanleihe",
+    "periodische Zinsen",
+    "Zinsersparnis"
+   ],
+   "zusammenfassung": "Bei klassischen Options-/Wandelanleihen inländischer Emittenten wird die Differenz zwischen Wert ex-Option und Rückzahlungsbetrag nicht erfasst; nur periodische Zinsen sind steuerbar.",
+   "ziffer": "3.5",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 645,
+   "titel": "Ziff. 3.6 Reverse Convertibles – Besteuerung Zinsteil und Optionsprämie",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.6 Reverse Convertibles"
+   ],
+   "stichworte": [
+    "Reverse Convertible",
+    "Optionsprämie steuerfrei",
+    "Zinskomponente",
+    "marktkonforme Verzinsung",
+    "Titellieferung"
+   ],
+   "zusammenfassung": "Reverse Convertibles sind regelmässig transparent: steuerbar ist die marktkonforme Zinskomponente, Optionsprämien bleiben steuerfrei.",
+   "ziffer": "3.6",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 662,
+   "titel": "Ziff. 3.6 Reverse Convertibles – Nennwert, Kapitalschutz, Umsatzabgabe",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.6 Reverse Convertibles"
+   ],
+   "stichworte": [
+    "Nennwert Obligation",
+    "Kapitalschutz",
+    "Spot",
+    "Umsatzabgabe"
+   ],
+   "zusammenfassung": "Nennwert der Obligation ist in der Regel der investierte Betrag, bei Diskontbasis der Spot-Kurs; der Kapitalschutz ist eine zusätzliche Option und kein Nominalwert.",
+   "ziffer": "3.6",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 673,
+   "titel": "Ziff. 3.7 Negativzinsen – kein Schuldzinsenabzug, Kapitalverlust",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.7 Negativzinsen"
+   ],
+   "stichworte": [
+    "Negativzins",
+    "Negativzinsen",
+    "Schuldzinsen",
+    "Art. 33 Abs. 1 Bst. a DBG",
+    "Kapitalverlust",
+    "Prämie"
+   ],
+   "zusammenfassung": "Negativzinsen auf Anlagen sind eine Prämie und qualifizieren als Kapitalverlust; sie sind keine abzugsfähigen Schuldzinsen nach Art. 33 Abs. 1 Bst. a DBG.",
+   "ziffer": "3.7",
+   "positionen": [
+    "einkommen.wertschriften",
+    "abzug.schuldzinsen"
+   ]
+  },
+  {
+   "start": 684,
+   "titel": "Ziff. 3.7 Negativzinsen auf Bankguthaben – Gewinnungskosten",
+   "pfad": [
+    "3 Grundsätze der Besteuerung",
+    "3.7 Negativzinsen"
+   ],
+   "stichworte": [
+    "Negativzins Bankguthaben",
+    "Gewinnungskosten",
+    "Art. 32 Abs. 1 DBG",
+    "Sparkonto",
+    "Kontokorrent",
+    "SNB"
+   ],
+   "zusammenfassung": "Negativzinsen auf Bank- und Sparkassenguthaben im Privatvermögen sind als Gewinnungskosten nach Art. 32 Abs. 1 DBG abziehbar; bei handelbaren Forderungspapieren nicht.",
+   "ziffer": "3.7",
+   "positionen": [
+    "einkommen.wertschriften",
+    "vermoegen.wertschriften_guthaben",
+    "abzug.verwaltungskosten_wertschriften"
+   ]
+  },
+  {
+   "start": 702,
+   "titel": "Ziff. 4.1–4.2 Kennzeichnung in Kursliste (IUP), Bankbescheinigung",
+   "pfad": [
+    "4 Kennzeichnung in der Kursliste"
+   ],
+   "stichworte": [
+    "Kursliste",
+    "IUP",
+    "intérêt unique prédominant",
+    "Börsenabrechnung",
+    "Bondfloor",
+    "Bank Bescheinigung"
+   ],
+   "zusammenfassung": "Die ESTV kennzeichnet überwiegend einmalverzinsliche Papiere in der Kursliste mit IUP; bei modifizierter Differenzbesteuerung bescheinigen die Banken die Tageskurse der Anlageteile.",
+   "ziffer": "4.1–4.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 726,
+   "titel": "Ziff. 4.3 Nicht an Schweizer Börsen kotierte Papiere; Ziff. 5 Spezialfälle",
+   "pfad": [
+    "4 Kennzeichnung in der Kursliste",
+    "5 Spezialfälle"
+   ],
+   "stichworte": [
+    "ausländische Börse",
+    "erster Schlusskurs ex-Option",
+    "Spezialfälle",
+    "Auskunft ESTV"
+   ],
+   "zusammenfassung": "Bei nicht in der Schweiz kotierten Papieren gilt primär der erste Schlusskurs ex-Option an der ausländischen Börse; Spezialfälle werden in Anhang III geführt.",
+   "ziffer": "4.3–5",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 748,
+   "titel": "Ziff. 6 Inkrafttreten (Fälligkeiten ab 1. Januar 2018) und Anhangsverzeichnis",
+   "pfad": [
+    "6 Inkrafttreten"
+   ],
+   "stichworte": [
+    "Inkrafttreten",
+    "1. Januar 2018",
+    "Anhänge"
+   ],
+   "zusammenfassung": "Das KS 15 gilt für Ertragsfälligkeiten ab 1. Januar 2018 und ersetzt das KS 15 vom 7. Februar 2007.",
+   "ziffer": "6"
+  },
+  {
+   "start": 767,
+   "titel": "Anhang I Übersicht Obligationen, Derivate und kombinierte Produkte",
+   "pfad": [
+    "Anhang I"
+   ],
+   "stichworte": [
+    "Übersicht",
+    "Obligationen",
+    "Derivate",
+    "kombinierte Produkte"
+   ],
+   "zusammenfassung": "Schematische Übersicht der Arten von Obligationen, derivativen Finanzinstrumenten und kombinierten Produkten.",
+   "ziffer": "Anhang I"
+  },
+  {
+   "start": 815,
+   "titel": "Anhang II Beispiele Nrn. 1–2 – Gesamtrendite und überwiegende Einmalverzinsung",
+   "pfad": [
+    "Anhang II Beispiele"
+   ],
+   "stichworte": [
+    "Beispiel",
+    "Gesamtrendite 7,5 %",
+    "Diskontobligation",
+    "globalverzinsliche Obligation"
+   ],
+   "zusammenfassung": "Bei 7,5 % Gesamtrendite und Jahreszins Fr. 30.- ist Beispiel 1 (3,8 % des Anlagewerts von Fr. 788.80) nicht, Beispiel 2 (3 % von Fr. 1'000.-) überwiegend einmalverzinslich.",
+   "ziffer": "Nr. 1–2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 844,
+   "titel": "Anhang II Beispiel Nr. 3 – Sachverhalt und Annahmen ($-Obligation)",
+   "pfad": [
+    "Anhang II Beispiele"
+   ],
+   "stichworte": [
+    "Beispiel Fremdwährung",
+    "Dollar-Obligation",
+    "Originalrendite 5 %",
+    "Handänderung"
+   ],
+   "zusammenfassung": "Obligation zu \\$ 826.40 emittiert, nach sieben Jahren zu \\$ 1'000.- zurückbezahlt, Jahreszins \\$ 20.-, Originalrendite 5 %.",
+   "ziffer": "Nr. 3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 875,
+   "titel": "Anhang II Beispiel Nr. 3 – Berechnung steuerbare Einkünfte der Investoren",
+   "pfad": [
+    "Anhang II Beispiele"
+   ],
+   "stichworte": [
+    "Beispiel Berechnung",
+    "Wechselkursverlust",
+    "Zinsniveau",
+    "Differenzbesteuerung"
+   ],
+   "zusammenfassung": "Steuerbare Einkünfte bzw. Verluste je Investor (z.B. erster Investor Szenario a: Sfr. 100.80; zweiter Investor Szenario c: – Sfr. 60.60).",
+   "ziffer": "Nr. 3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 899,
+   "titel": "Anhang II Beispiel Nr. 4 – IUP-Obligation mit Option: Sachverhalt, Bondwerte",
+   "pfad": [
+    "Anhang II Beispiele"
+   ],
+   "stichworte": [
+    "modifizierte Differenzbesteuerung",
+    "IUP-Obligation",
+    "Wandelrecht",
+    "Originalrendite 6 %"
+   ],
+   "zusammenfassung": "Fünfjährige IUP-Obligation (Zins Fr. 20.-, Nennwert Fr. 1'000.-, Originalrendite 6 %, Emissionspreis Fr. 831.50); Barwert bei der ersten Handänderung Fr. 916.55.",
+   "ziffer": "Nr. 4",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 930,
+   "titel": "Anhang II Beispiel Nr. 4 – Steuerbare Einkünfte und Verrechnungssteuer",
+   "pfad": [
+    "Anhang II Beispiele"
+   ],
+   "stichworte": [
+    "steuerbare Einkünfte",
+    "Originaldiskont",
+    "Verrechnungssteuer",
+    "Handänderung"
+   ],
+   "zusammenfassung": "Steuerbar: Fr. 85.05 (erster), Fr. 58.10 (zweiter), Fr. 25.35 (dritter Investor); Verrechnungssteuer auf Coupon Fr. 20.- und Originaldiskont Fr. 168.50.",
+   "ziffer": "Nr. 4",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 951,
+   "titel": "Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS",
+   "pfad": [
+    "Anhang II Beispiele"
+   ],
+   "stichworte": [
+    "Reverse Convertible",
+    "Revexus",
+    "Zinskomponente",
+    "Optionsprämie",
+    "Fr. 800"
+   ],
+   "zusammenfassung": "Von jährlich Fr. 800.- auf Fr. 10'000.- sind Fr. 225.- Zins (steuerbar) und Fr. 575.- Optionsprämie (steuerlich unbeachtlich).",
+   "ziffer": "Nr. 5",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 983,
+   "titel": "Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "1 Index- und Basketzertifikate auf Aktien"
+   ],
+   "stichworte": [
+    "Indexzertifikat",
+    "Basketzertifikat",
+    "Aktienzertifikat",
+    "Short-Zertifikat",
+    "Ausgleichszahlung"
+   ],
+   "zusammenfassung": "Klassische Index-/Basketzertifikate (mindestens fünf Aktientitel) werden als eigene Kategorie behandelt; zugrunde liegende Gewinne und Verluste sind Kapitalgewinne/-verluste.",
+   "ziffer": "Anh. III 1a",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1016,
+   "titel": "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "1 Index- und Basketzertifikate auf Aktien"
+   ],
+   "stichworte": [
+    "Ausgleichszahlung Dividende",
+    "Total Return",
+    "Diskont Agio",
+    "Art. 16 Abs. 3 DBG",
+    "Edelmetallzertifikat"
+   ],
+   "zusammenfassung": "Ausgleichszahlungen sind steuerbarer Vermögensertrag (Art. 20 Abs. 1 Bst. a DBG); Gewinne aus den Basiswerten sind steuerfreie Kapitalgewinne.",
+   "ziffer": "Anh. III 1a",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1047,
+   "titel": "Anhang III Ziff. 1b Dynamische Index- und Basketzertifikate auf Aktien",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "1 Index- und Basketzertifikate auf Aktien"
+   ],
+   "stichworte": [
+    "dynamisches Zertifikat",
+    "kollektive Kapitalanlage",
+    "passive Bewirtschaftung",
+    "Basket"
+   ],
+   "zusammenfassung": "Dynamische Zertifikate gelten als kollektive Kapitalanlagen, ausser sie werden kumulativ nach im Voraus festgelegten objektiven Kriterien passiv bewirtschaftet.",
+   "ziffer": "Anh. III 1b",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1068,
+   "titel": "Anhang III Ziff. 1c Zertifikate auf Aktien ohne feste Laufzeit (open end)",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "1 Index- und Basketzertifikate auf Aktien"
+   ],
+   "stichworte": [
+    "open end Zertifikat",
+    "Kündigungsrecht",
+    "Termingeschäft"
+   ],
+   "zusammenfassung": "Open-end-Zertifikate gelten nur bei jährlichem Kündigungsrecht des Investors als Termingeschäfte.",
+   "ziffer": "Anh. III 1c",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1077,
+   "titel": "Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate)",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "2 Bond-Zertifikate"
+   ],
+   "stichworte": [
+    "Bond-Zertifikat",
+    "Obligationenzertifikat",
+    "Geldmarktpapiere",
+    "Umsatzabgabe"
+   ],
+   "zusammenfassung": "Bond-Zertifikate qualifizieren selber als Obligationen und werden nach KS 15 Ziff. 3.1 ff. besteuert.",
+   "ziffer": "Anh. III 2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1105,
+   "titel": "Anhang III Ziff. 3 Zertifikate auf kollektive Kapitalanlagen – Einkommenssteuer",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "3 Zertifikate auf kollektive Kapitalanlagen"
+   ],
+   "stichworte": [
+    "Fondszertifikat",
+    "thesaurierende Fonds",
+    "Art. 20 Abs. 1 Bst. e DBG",
+    "Kapitalgewinne Fonds",
+    "Net Asset Value"
+   ],
+   "zusammenfassung": "Ausschüttungen und thesaurierte Gewinne unterliegen jährlich der DBSt (Art. 20 Abs. 1 Bst. e DBG), ausser separat ausgewiesene Kapitalgewinne (Art. 16 Abs. 3 DBG).",
+   "ziffer": "Anh. III 3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1131,
+   "titel": "Anhang III Ziff. 3 Verrechnungssteuer und Stempelabgaben bei Fondszertifikaten",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "3 Zertifikate auf kollektive Kapitalanlagen"
+   ],
+   "stichworte": [
+    "KAG",
+    "Verrechnungssteuer",
+    "Umsatzabgabe",
+    "ausländischer Emittent",
+    "steuerbare Urkunde"
+   ],
+   "zusammenfassung": "Inländische Zertifikate auf kollektive Kapitalanlagen sind keine steuerbaren Urkunden; ausländische unterliegen der Umsatzabgabe (Art. 13 Abs. 2 Bst. b StG).",
+   "ziffer": "Anh. III 3",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 1148,
+   "titel": "Anhang III Ziff. 3 Mitteilungspflicht Emittent, Veranlagung nach Ermessen",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "3 Zertifikate auf kollektive Kapitalanlagen"
+   ],
+   "stichworte": [
+    "Veranlagung nach Ermessen",
+    "Kursliste",
+    "marktgerechte Rendite",
+    "NAV"
+   ],
+   "zusammenfassung": "Meldet der Emittent der ESTV jährlich nicht Erträge und Kapitalgewinne, erfolgt die Veranlagung nach Ermessen auf einer marktgerechten Rendite des NAV.",
+   "ziffer": "Anh. III 3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1164,
+   "titel": "Anhang III Ziff. 4a Low Exercise Price Options (LEPO)",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "4 LEPO und Mini-Futures"
+   ],
+   "stichworte": [
+    "LEPO",
+    "Vorausfinanzierung 50 %",
+    "Zinskomponente",
+    "Aktienzertifikat weniger als fünf Aktien",
+    "Unterbeteiligung"
+   ],
+   "zusammenfassung": "LEPO liegen vor, wenn der Ausübungspreis bei Emission unter 50 % des Basiswerts liegt; Zinskomponente bei Laufzeit bis zwölf Monate steuerfrei, bei überjährigen steuerbar.",
+   "ziffer": "Anh. III 4a",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1188,
+   "titel": "Anhang III Ziff. 4b Mini-Futures – Funktionsweise, Hebel",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "4 LEPO und Mini-Futures"
+   ],
+   "stichworte": [
+    "Mini-Future",
+    "Hebel",
+    "Leverage",
+    "Stop-Loss",
+    "Knock-out Produkt",
+    "Mini Long Short"
+   ],
+   "zusammenfassung": "Mini-Futures sind open end, mit Sicherheitsbarriere und fremdfinanziertem Kauf des Basiswerts, was einen Hebel bewirkt.",
+   "ziffer": "Anh. III 4b",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1207,
+   "titel": "Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4)",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "4 LEPO und Mini-Futures"
+   ],
+   "stichworte": [
+    "Mini-Future Hebel 4",
+    "Termingeschäft",
+    "Zinskomponente",
+    "Swaprate LIBOR",
+    "Umsatzabgabe"
+   ],
+   "zusammenfassung": "Bei Hebel von mindestens 4 bei Emission liegt ein echtes Termingeschäft vor; sonst Zinskomponente bei Laufzeit bis zwölf Monate steuerfrei, bei überjährigen steuerbar.",
+   "ziffer": "Anh. III 4b",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1233,
+   "titel": "Anhang III Ziff. 4c Termingeschäfte mit Zinsen als Basiswert",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "4 LEPO und Mini-Futures"
+   ],
+   "stichworte": [
+    "Zins-Termingeschäft",
+    "Vorausfinanzierungsgrad 25 %",
+    "Libor",
+    "Swap-Rate"
+   ],
+   "zusammenfassung": "Bei Laufzeit bis zwölf Monate ist die Zinskomponente erst bei Vorausfinanzierung über 25 % steuerbar; bei über zwölf Monaten immer.",
+   "ziffer": "Anh. III 4c",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1250,
+   "titel": "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "5 Reverse Convertibles"
+   ],
+   "stichworte": [
+    "Diskont-Zertifikat",
+    "Discount Certificate",
+    "Reverse Convertible",
+    "Barausgleich",
+    "Cap"
+   ],
+   "zusammenfassung": "Diskont-Zertifikate ohne garantierte Zahlungen und Laufzeit bis zwölf Monate gelten als atypische Termingeschäfte; Gewinne und Verluste sind auf Zusehen hin steuerfrei.",
+   "ziffer": "Anh. III 5a",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1276,
+   "titel": "Anhang III Ziff. 5a Weitere Optionsstrategien – gleiche Behandlung",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "5 Reverse Convertibles"
+   ],
+   "stichworte": [
+    "Bull-Call-Spread",
+    "bedingter Kapitalschutz",
+    "Stempelabgaben",
+    "Verrechnungssteuer"
+   ],
+   "zusammenfassung": "Zusätzliche Optionsstrategien (Bull-Call-Spread, bedingter Kapitalschutz) ändern die steuerliche Behandlung nicht.",
+   "ziffer": "Anh. III 5a",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1290,
+   "titel": "Anhang III Ziff. 5b Überjährige Barrier Reverse Convertibles",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "5 Reverse Convertibles"
+   ],
+   "stichworte": [
+    "Barrier Reverse Convertible",
+    "Down-and-In-Put",
+    "Kick-In Level",
+    "Certificate Plus",
+    "bedingter Kapitalschutz"
+   ],
+   "zusammenfassung": "Barrier RC mit Down-and-In-Puts (Kick-In z.B. 70 % des Ausübungspreises) gewähren bedingten Kapitalschutz; zu tiefe Barrieren führen zu faktischem Kapitalschutz.",
+   "ziffer": "Anh. III 5b",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1310,
+   "titel": "Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "5 Reverse Convertibles"
+   ],
+   "stichworte": [
+    "Autocall",
+    "Step-up",
+    "Express-Zertifikat",
+    "Callable Yield",
+    "bedingter Coupon",
+    "Beobachtungstag"
+   ],
+   "zusammenfassung": "Step-up-/Autocall-Zertifikate zahlen bei Erreichen des Startniveaus Kapital plus Coupons zurück und haben einen bedingten Kapitalschutz.",
+   "ziffer": "Anh. III 5c",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1343,
+   "titel": "Anhang III Ziff. 5b/5c Steuerliche Behandlung – modifizierte Differenzbesteuerung",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "5 Reverse Convertibles"
+   ],
+   "stichworte": [
+    "bedingte Coupons",
+    "ausschliessliche Einmalverzinsung",
+    "modifizierte Differenzbesteuerung",
+    "maximale Laufzeit"
+   ],
+   "zusammenfassung": "Bei Varianten b) und c) gelten bedingte Coupons als Kapitalgewinne; die Obligation hat ausschliessliche Einmalverzinsung und unterliegt der modifizierten Differenzbesteuerung.",
+   "ziffer": "Anh. III 5b–c",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 1368,
+   "titel": "Anhang III Ziff. 6a Kapitalgarantierte Derivate – Obligationen mit bedingten Coupons",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "6 Kapitalgarantierte Derivate"
+   ],
+   "stichworte": [
+    "kapitalgeschütztes Produkt",
+    "bedingter Coupon",
+    "Mindestverzinsung",
+    "Aktienbasket"
+   ],
+   "zusammenfassung": "Kapitalgeschützte Produkte können jährliche Zahlungen von einem Basiswert abhängig machen, auch mit garantierter Mindestverzinsung.",
+   "ziffer": "Anh. III 6a",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1394,
+   "titel": "Anhang III Ziff. 6a Steuerliche Behandlung bedingter Coupons",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "6 Kapitalgarantierte Derivate"
+   ],
+   "stichworte": [
+    "bedingter Coupon steuerfrei",
+    "garantierte Zahlungen",
+    "Kapitalgewinn",
+    "transparent"
+   ],
+   "zusammenfassung": "Zahlungen aus den Call-Optionen sind steuerfreie Kapitalgewinne, fix garantierte Zahlungen steuerbarer Vermögensertrag; massgebend sind nur garantierte Geldflüsse.",
+   "ziffer": "Anh. III 6a",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1409,
+   "titel": "Anhang III Ziff. 6b Obligationen mit exotischen Optionen (Barrier, Digital)",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "6 Kapitalgarantierte Derivate"
+   ],
+   "stichworte": [
+    "exotische Optionen",
+    "Barrier Option",
+    "Knock-in",
+    "Digital Option",
+    "Binary Option"
+   ],
+   "zusammenfassung": "Kapitalgeschützte Produkte mit exotischen Optionen gelten als transparent; Zahlungen aus der Optionenanlage sind im Privatvermögen steuerlich unbeachtlich.",
+   "ziffer": "Anh. III 6b",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1441,
+   "titel": "Anhang III Ziff. 7 Obligationen mit «Money back»-Optionen",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "7 Money back"
+   ],
+   "stichworte": [
+    "Money back Option",
+    "Optionsanleihe",
+    "Geldanspruch",
+    "Verrechnungssteuer"
+   ],
+   "zusammenfassung": "Wird der Geldanspruch geltend gemacht, ist er bei Ausübung vollumfänglich steuerbarer Zinsertrag (Art. 20 Abs. 1 Bst. a DBG) und verrechnungssteuerpflichtig.",
+   "ziffer": "Anh. III 7",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 1453,
+   "titel": "Anhang III Ziff. 8 Wandelanleihen mit Put-Option zur vorzeitigen Rückzahlung",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "8 Wandelanleihen mit Put-Option"
+   ],
+   "stichworte": [
+    "Wandelanleihe",
+    "Put-Option",
+    "vorzeitige Rückzahlung",
+    "nicht klassisch"
+   ],
+   "zusammenfassung": "Solche Wandelanleihen gelten immer als nicht klassisch; die Put-Option ist für die Einmalverzinsung irrelevant, es gelten Ziff. 3.4 bis 3.4.2.",
+   "ziffer": "Anh. III 8",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1467,
+   "titel": "Anhang III Ziff. 9 Strukturierte Kredit- und Schadenderivate – Funktionsweise",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "9 Kredit- und Schadenderivate"
+   ],
+   "stichworte": [
+    "Credit Linked Notes",
+    "Kreditderivate",
+    "Schadenderivate",
+    "Insurance Linked Securities",
+    "Credit Default Swap"
+   ],
+   "zusammenfassung": "Reine Kredit- und Schadenderivate richten sich nach Ziff. 2.2; strukturierte Produkte kombinieren eine Obligation mit einem Default-Swap.",
+   "ziffer": "Anh. III 9",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1478,
+   "titel": "Anhang III Ziff. 9 Steuerliche Behandlung Credit Linked Notes",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "9 Kredit- und Schadenderivate"
+   ],
+   "stichworte": [
+    "Credit Linked Note",
+    "Risikoprämie",
+    "Obligationenertrag",
+    "Schadenderivat"
+   ],
+   "zusammenfassung": "Bei Credit Linked Notes sind sämtliche Entschädigungen steuerbarer Obligationenertrag; Schadenderivate werden wie Ziff. 3.6 behandelt.",
+   "ziffer": "Anh. III 9",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1499,
+   "titel": "Anhang III Ziff. 10 Aufstockung von Anleihen – Hintergrund",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "10 Aufstockungen von Anleihen"
+   ],
+   "stichworte": [
+    "Aufstockung Anleihe",
+    "Art. 14 Abs. 2 VStV",
+    "Emissionsdisagio",
+    "Verrechnungssteuer Aufrechnung ins Hundert"
+   ],
+   "zusammenfassung": "Seit 1. Januar 2001 ist Art. 14 Abs. 2 VStV aufgehoben, was bei Anleihensaufstockungen eine Aufrechnung ins Hundert bewirken kann.",
+   "ziffer": "Anh. III 10",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 1521,
+   "titel": "Anhang III Ziff. 10 Aufstockungen – Risiko der Steuerumgehung",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "10 Aufstockungen von Anleihen"
+   ],
+   "stichworte": [
+    "Aufstockungstranche",
+    "ausländische Emittenten",
+    "Disagio"
+   ],
+   "zusammenfassung": "Ausländische Emittenten emittieren Aufstockungstranchen mit beträchtlichen Disagi, wodurch die direktsteuerliche Erfassung gefährdet ist.",
+   "ziffer": "Anh. III 10",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 1533,
+   "titel": "Anhang III Ziff. 10 Praxis ESTV – Toleranzgrenze ein halbes Prozent pro Jahr",
+   "pfad": [
+    "Anhang III Spezialfälle",
+    "10 Aufstockungen von Anleihen"
+   ],
+   "stichworte": [
+    "Toleranzgrenze",
+    "halbes Prozent",
+    "Restlaufzeit",
+    "gewogenes Mittel Disagio",
+    "Kursliste"
+   ],
+   "zusammenfassung": "Bei Disagio der Aufstockungstranche bis ein halbes Prozent pro Jahr der Restlaufzeit wird auf Verrechnungssteuer und direkte Bundessteuer verzichtet; sonst gilt das gewogene Mittel der Disagi.",
+   "ziffer": "Anh. III 10",
+   "positionen": [
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung"
+   ]
+  },
+  {
+   "start": 1560,
+   "skip": true,
+   "titel": "Deckblatt, Verfasser und Inhaltsverzeichnis Gutachten SBVg"
+  },
+  {
+   "start": 1600,
+   "titel": "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage",
+   "pfad": [
+    "Anhang IV Gutachten SBVg",
+    "I Ausgangslage"
+   ],
+   "stichworte": [
+    "Bond Floor",
+    "modifizierte Differenzbesteuerung",
+    "Swap-Rate",
+    "Telekurs"
+   ],
+   "zusammenfassung": "Der Bond Floor wird mit der Swap-Rate für Währung und Laufzeit berechnet und während der Laufzeit quartalsweise mit der 5-Jahres-Swap-Rate angepasst.",
+   "ziffer": "Anh. IV I",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1639,
+   "titel": "Anhang IV Gutachten – Entscheid Verwaltungsgericht ZH 2005",
+   "pfad": [
+    "Anhang IV Gutachten SBVg",
+    "I Ausgangslage"
+   ],
+   "stichworte": [
+    "Verwaltungsgericht Zürich",
+    "Sachverständigengutachten",
+    "Berechnungsprogramm"
+   ],
+   "zusammenfassung": "Das Verwaltungsgericht ZH bejahte am 24. August 2005 die modifizierte Differenzbesteuerung, liess die Eignung der Berechnungen aber offen.",
+   "ziffer": "Anh. IV I",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1654,
+   "titel": "Anhang IV Gutachten – Auftrag und Vorbemerkungen",
+   "pfad": [
+    "Anhang IV Gutachten SBVg",
+    "II–III Auftrag, Beurteilung"
+   ],
+   "stichworte": [
+    "Auftrag",
+    "natürliche Personen Privatvermögen",
+    "Anleihensteil"
+   ],
+   "zusammenfassung": "Das Gutachten gilt nur für in der Schweiz ansässige natürliche Personen mit Produkten im Privatvermögen.",
+   "ziffer": "Anh. IV II–III.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1676,
+   "titel": "Anhang IV Gutachten Ziff. III.2 Wert des Anleihensteils bei Emission",
+   "pfad": [
+    "Anhang IV Gutachten SBVg",
+    "III Beurteilung"
+   ],
+   "stichworte": [
+    "Bond Floor Emission",
+    "Swap-Rate",
+    "Credit Spread",
+    "Abdiskontierung"
+   ],
+   "zusammenfassung": "Der Bond Floor wird durch Abdiskontierung des Mindestrückzahlungsbetrags mit der Swap-Rate (AA/AAA) berechnet.",
+   "ziffer": "Anh. IV III.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1692,
+   "titel": "Anhang IV Gutachten Ziff. III.2 Verhältnismässigkeit schuldnerspezifischer Zinssatz",
+   "pfad": [
+    "Anhang III Gutachten SBVg",
+    "III Beurteilung"
+   ],
+   "stichworte": [
+    "Credit Spread",
+    "schuldnerspezifischer Zinssatz",
+    "Verhältnismässigkeit"
+   ],
+   "zusammenfassung": "Der schuldnerspezifische Zinssatz würde nicht zu wesentlich anderen Ergebnissen führen; die Swap-Rate ist vertretbar.",
+   "ziffer": "Anh. IV III.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1715,
+   "titel": "Anhang IV Gutachten Ziff. III.3 Anleihensteil während der Laufzeit – Formel",
+   "pfad": [
+    "Anhang IV Gutachten SBVg",
+    "III Beurteilung"
+   ],
+   "stichworte": [
+    "Formel i1 = i0 * sQ1 / sQ0",
+    "5-Jahres-Swap-Rate",
+    "quartalsweise Anpassung"
+   ],
+   "zusammenfassung": "Der Abdiskontierungssatz wird als i1 = i0 * sQ1 / sQ0 mit der 5-Jahres-Swap-Rate zu Beginn des Quartals angepasst.",
+   "ziffer": "Anh. IV III.3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1743,
+   "titel": "Anhang IV Gutachten Ziff. III.3 Credit Spreads nicht berücksichtigt",
+   "pfad": [
+    "Anhang IV Gutachten SBVg",
+    "III Beurteilung"
+   ],
+   "stichworte": [
+    "Credit Spread",
+    "Bonität Emittent",
+    "effektiver Wert"
+   ],
+   "zusammenfassung": "Veränderungen des Credit Spreads werden grundsätzlich nicht berücksichtigt, ausser bei massiver Bonitätsverschlechterung.",
+   "ziffer": "Anh. IV III.3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1753,
+   "titel": "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode",
+   "pfad": [
+    "Anhang IV Gutachten SBVg",
+    "III Beurteilung"
+   ],
+   "stichworte": [
+    "risikofreier Zinssatz",
+    "Praktikabilität",
+    "Single A"
+   ],
+   "zusammenfassung": "Eine Berechnung mit risikofreiem Zins und individuellem Credit Spread wäre extrem aufwendig; die angewandte Methode ergibt wirklichkeitsnahe Werte.",
+   "ziffer": "Anh. IV III.3",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1790,
+   "titel": "Anhang IV Gutachten Ziff. III.4.1 Fazit ohne Handänderung",
+   "pfad": [
+    "Anhang IV Gutachten SBVg",
+    "III Beurteilung",
+    "4 Fazit"
+   ],
+   "stichworte": [
+    "Fazit",
+    "Halten bis Verfall"
+   ],
+   "zusammenfassung": "Bei Erwerb aus Emission und Halten bis Verfall haben Änderungen von Zinsumfeld und Rating keine Auswirkung auf den steuerbaren Vermögensertrag.",
+   "ziffer": "Anh. IV III.4.1",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 1799,
+   "titel": "Anhang IV Gutachten Ziff. III.4.2 Fazit mit Handänderung",
+   "pfad": [
+    "Anhang IV Gutachten SBVg",
+    "III Beurteilung",
+    "4 Fazit"
+   ],
+   "stichworte": [
+    "Fazit",
+    "Handänderung",
+    "Zuverlässigkeit der Methode"
+   ],
+   "zusammenfassung": "Der Mechanismus berücksichtigt das Zinsumfeld und ermittelt den steuerbaren Vermögensertrag in rechtsgenügender Weise.",
+   "ziffer": "Anh. IV III.4.2",
+   "positionen": [
+    "einkommen.wertschriften"
+   ]
+  }
+ ]
+}

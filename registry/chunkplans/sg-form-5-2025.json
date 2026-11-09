@@ -1,0 +1,89 @@
+{
+ "id": "sg-form-5-2025",
+ "hinweise": [
+  "Seite 1/2: Spalten teils vermischt; 'Hertrag' = Übertrag."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 5 Schuldenverzeichnis – A. Private Schulden (Ziff. 34.1 / 11)",
+   "pfad": [
+    "Formular 5",
+    "Schuldenverzeichnis",
+    "A. Private Schulden"
+   ],
+   "ziffer": "34.1 / 11",
+   "stichworte": [
+    "Schulden",
+    "Schuldzinsen",
+    "Hypothek",
+    "Gläubiger",
+    "Kredit",
+    "Schuldenverzeichnis"
+   ],
+   "positionen": [
+    "schulden.privat",
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Private Schulden per 31. Dezember 2025 und Schuldzinsen 2025; Total in Steuererklärung Seite 4 Ziffer 34.1 und Seite 3 Ziffer 11."
+  },
+  {
+   "start": 46,
+   "titel": "Formular 5 – B. Geschäftsschulden (Ziff. 34.2)",
+   "pfad": [
+    "Formular 5",
+    "Schuldenverzeichnis",
+    "B. Geschäftsschulden"
+   ],
+   "ziffer": "34.2",
+   "stichworte": [
+    "Geschäftsschulden",
+    "Bilanzstichtag",
+    "Geschäftliche Schuldzinsen"
+   ],
+   "positionen": [
+    "schulden.privat"
+   ],
+   "zusammenfassung": "Geschäftsschulden per 31.12.2025 bzw. Bilanzstichtag; geschäftliche Schuldzinsen sind in der Jahresrechnung enthalten und hier nicht aufzuführen."
+  },
+  {
+   "start": 70,
+   "titel": "Formular 5 Rückseite – A. Freiwillige Zuwendungen (Ziff. 21.3)",
+   "pfad": [
+    "Formular 5",
+    "Freiwillige Zuwendungen / Parteispenden",
+    "A. Freiwillige Zuwendung"
+   ],
+   "ziffer": "21.3",
+   "stichworte": [
+    "Spenden",
+    "Zuwendungen",
+    "gemeinnützig",
+    "Spendenliste"
+   ],
+   "positionen": [
+    "abzug.spenden"
+   ],
+   "zusammenfassung": "Datum, Institution und Betrag der Zuwendungen 2025; Total in Steuererklärung Seite 3 Ziffer 21.3; Belege auf Verlangen."
+  },
+  {
+   "start": 98,
+   "titel": "Formular 5 Rückseite – B. Parteispenden (Ziff. 16.3)",
+   "pfad": [
+    "Formular 5",
+    "Freiwillige Zuwendungen / Parteispenden",
+    "B. Parteispenden"
+   ],
+   "ziffer": "16.3",
+   "stichworte": [
+    "Parteispenden",
+    "Partei",
+    "Mitgliederbeitrag"
+   ],
+   "positionen": [
+    "abzug.parteispenden"
+   ],
+   "zusammenfassung": "Datum, Partei und Betrag der Spenden 2025; Total in Steuererklärung Seite 3 Ziffer 16.3."
+  }
+ ]
+}

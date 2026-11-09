@@ -1,0 +1,91 @@
+{
+ "id": "ar-form-07-2025",
+ "hinweise": [
+  "Formularraster: Checkbox-Listen und Randtexte vermischt, Feldziffern (3213211) als Textmüll; Seite 2 ist überwiegend leere Belegtabelle."
+ ],
+ "chunks": [
+  {
+   "start": 20,
+   "titel": "Formular 7 Abschn. A Angaben zur Liegenschaft und Steuerwert",
+   "pfad": [
+    "Formular 7 Liegenschaften",
+    "A. Angaben / Steuerwert"
+   ],
+   "ziffer": "A",
+   "stichworte": [
+    "Liegenschaft",
+    "Steuerwert",
+    "Einfamilienhaus",
+    "Ferienwohnung",
+    "Zugang Wegfall",
+    "Liegenschaft Kauf Verkauf"
+   ],
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Pro Liegenschaft ein Formular; Steuerwert (Verkehrswert gemäss Grundstückschätzung) wird bei einer Liegenschaft in die Steuererklärung Seite 4 Ziffer 31 übertragen."
+  },
+  {
+   "start": 63,
+   "titel": "Formular 7 Abschn. B Erträge – Eigenmietwert (Abzug 20 %) und Fremdnutzung",
+   "pfad": [
+    "Formular 7 Liegenschaften",
+    "B. Erträge"
+   ],
+   "ziffer": "B",
+   "stichworte": [
+    "Eigenmietwert",
+    "Selbstnutzungsabzug 20%",
+    "Mietertrag",
+    "Mietzinsen",
+    "Nebenkosten"
+   ],
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "einkommen.liegenschaften.mietertrag",
+    "sozialabzug.eigenmietwert"
+   ],
+   "zusammenfassung": "Bei dauernd selbstbewohnten Liegenschaften pauschaler Selbstnutzungsabzug von 20% vom Mietwert; Erträge aus Fremdnutzung abzüglich Nebenkosten; Total Erträge a. und b. in die Steuererklärung Seite 2 Ziffer 5."
+  },
+  {
+   "start": 90,
+   "titel": "Formular 7 Abschn. C Unterhalts- und Verwaltungskosten – Pauschalabzug oder tatsächliche Kosten",
+   "pfad": [
+    "Formular 7 Liegenschaften",
+    "C. Unterhalts- und Verwaltungskosten"
+   ],
+   "ziffer": "C",
+   "stichworte": [
+    "Unterhaltskosten",
+    "Pauschalabzug",
+    "Liegenschaftsunterhalt",
+    "Verwaltungskosten"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Pauschalabzug der Erträge (B) gemäss Wegleitung nur für private, ganz oder vorwiegend Wohnzwecken dienende Liegenschaften, oder tatsächliche Kosten; Übertrag in die Steuererklärung Seite 3 Ziffer 15."
+  },
+  {
+   "start": 109,
+   "titel": "Formular 7 Rückseite – Deklaration tatsächlicher Unterhalts- und Verwaltungskosten (C2)",
+   "pfad": [
+    "Formular 7 Liegenschaften",
+    "C. Tatsächliche Kosten"
+   ],
+   "ziffer": "C2",
+   "stichworte": [
+    "Rechnungskopien ab Fr. 5000",
+    "Anlagekosten",
+    "Förderbeiträge Energie",
+    "effektive Unterhaltskosten",
+    "Liegenschaftsrechnungen"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt"
+   ],
+   "zusammenfassung": "Nur auszufüllen bei tatsächlichen Kosten; für Einzelbeträge ab Fr. 5’000 Rechnungskopien beilegen; Versicherungsleistungen und Förderbeiträge der öffentlichen Hand sind abzuziehen; Total (C2) in Steuererklärung Seite 3 Ziffer 15."
+  }
+ ]
+}

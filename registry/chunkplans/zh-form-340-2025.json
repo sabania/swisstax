@@ -1,0 +1,179 @@
+{
+ "id": "zh-form-340-2025",
+ "hinweise": [
+  "S. 4 Beispiel: Layout stark zerstört (Handschrift-Rotationstexte, Erläuterungen zwischen Rasterzeilen vermischt, Ziffern mit Leerzeichen); Zeilen ca. 232-340.",
+  "S. 2/3: leere Raster 2300-xx/2305-xx/2309-xx ohne Aussage (skip).",
+  "Seite 1: Form.-Nr. Fusszeile 'StA Form. 340 (2023) 12.25'."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Seite 1 Wertschriften- und Guthabenverzeichnis 2025 – Bankverbindung, Bestätigung",
+   "pfad": [
+    "Seite 1"
+   ],
+   "stichworte": [
+    "Wertschriftenverzeichnis",
+    "Verrechnungsantrag",
+    "IBAN",
+    "Rückerstattung",
+    "Unterschrift"
+   ],
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Deckblatt Form. 340 mit Verrechnungsantrag: Bankverbindung für Rückerstattungen und Bestätigung, dass auf Kolonne-A-Erträgen die eidg. Verrechnungssteuer abgezogen wurde."
+  },
+  {
+   "start": 57,
+   "titel": "Seite 2 Verzeichnis – Spalten Bezeichnung der Vermögenswerte",
+   "pfad": [
+    "Seite 2",
+    "Spaltenkopf"
+   ],
+   "stichworte": [
+    "Valoren-Nr.",
+    "Nennwert",
+    "Währung",
+    "Code"
+   ],
+   "positionen": [
+    "vermoegen.wertschriften_guthaben"
+   ],
+   "zusammenfassung": "Spaltenköpfe: Originalwährung, Nennwert/Stückzahl, Valoren-Nr., genaue Bezeichnung (Konto inkl. Nummer, UID), Code."
+  },
+  {
+   "start": 63,
+   "skip": true,
+   "titel": "Leeres Raster Zeilen 2300-01 bis 2300-24"
+  },
+  {
+   "start": 112,
+   "titel": "Seite 2 Legende: Gruppen A/B, Verrechnungssteuer 35%, Codes G/N/E/S/Q",
+   "pfad": [
+    "Seite 2",
+    "Legende"
+   ],
+   "stichworte": [
+    "Verrechnungssteuer 35%",
+    "Kontokorrent",
+    "Grossspielgewinne",
+    "ausländische Wertschriften",
+    "Lotterie",
+    "Stockwerkeigentum",
+    "qualifizierte Beteiligung"
+   ],
+   "positionen": [
+    "vermoegen.wertschriften_guthaben",
+    "einkommen.wertschriften",
+    "einkommen.lotterie_gewinne",
+    "einkommen.beteiligungen_qualifiziert",
+    "verrechnungssteuer.rueckerstattung"
+   ],
+   "zusammenfassung": "A: Werte mit Verrechnungssteuerabzug (35%), B: Werte ohne Abzug (u.a. Kundenguthaben bis CHF 200.–, ausländische Wertschriften); Gewinne aus Grossspielen über CHF 1’033’000; Code Q zu übertragen in Steuererklärung Ziff. 4.2 (Code 151)."
+  },
+  {
+   "start": 129,
+   "titel": "Seite 3 Spalten Zugang/Abgang, Steuerwert, Bruttoertrag A/B",
+   "pfad": [
+    "Seite 3",
+    "Spaltenkopf"
+   ],
+   "stichworte": [
+    "Zugang",
+    "Abgang",
+    "Steuerwert 31.12.",
+    "Bruttoertrag",
+    "Verrechnungssteuerabzug"
+   ],
+   "positionen": [
+    "vermoegen.wertschriften_guthaben"
+   ],
+   "zusammenfassung": "Spaltenköpfe: Zugang/Abgang 2025, Steuerwert am 31.12.2025 und Bruttoertrag 2025 in Kolonne A (mit) bzw. B (ohne Verrechnungssteuerabzug), CHF ohne Rappen."
+  },
+  {
+   "start": 138,
+   "skip": true,
+   "titel": "Leeres Raster Zeilen 2305-01 bis 2309-24"
+  },
+  {
+   "start": 186,
+   "titel": "Seite 3 Totale: Übertragungen, Total Steuerwert (400), Bruttoertrag (150), Verrechnungssteueranspruch (540)",
+   "pfad": [
+    "Seite 3",
+    "Totale"
+   ],
+   "stichworte": [
+    "Total Steuerwert",
+    "Bruttoertrag",
+    "Verrechnungssteueranspruch",
+    "35 Prozent",
+    "Beiblatt",
+    "DA-1"
+   ],
+   "positionen": [
+    "vermoegen.wertschriften_guthaben",
+    "einkommen.wertschriften",
+    "verrechnungssteuer.rueckerstattung",
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Total Steuerwert (Code 400) zu übertragen in Steuererklärung Seite 4 Ziff. 30.1; Total Bruttoertrag A+B (150) in Ziff. 4.1; Verrechnungssteueranspruch = 35% von Total Bruttoertrag A (540)."
+  },
+  {
+   "start": 210,
+   "titel": "Seite 4 Ausfüllbeispiel – Kopf und Spaltenbezeichnungen",
+   "pfad": [
+    "Seite 4",
+    "Beispiel"
+   ],
+   "stichworte": [
+    "Beispiel",
+    "Wertschriftenverzeichnis ausfüllen"
+   ],
+   "positionen": [
+    "vermoegen.wertschriften_guthaben"
+   ],
+   "zusammenfassung": "Ausfüllbeispiel zum Verzeichnis mit denselben Spaltenköpfen wie Seiten 2/3."
+  },
+  {
+   "start": 226,
+   "titel": "Seite 4 Beispiel – Konti, Kassaobligationen, Aktien, Depot (Zeilen 2300-01 bis -08)",
+   "pfad": [
+    "Seite 4",
+    "Beispiel"
+   ],
+   "stichworte": [
+    "Sparkonto",
+    "Kassaobligation",
+    "Aktien",
+    "Depot",
+    "Beispiel"
+   ],
+   "positionen": [
+    "vermoegen.wertschriften_guthaben",
+    "einkommen.wertschriften"
+   ],
+   "zusammenfassung": "Beispielzeilen: Sparkonto 6 0 6 0 / 53, Privatkonto 3 3 5 0 / 68, Postkonto 1 9 6 7 / 47, Kassaobligationen, Namenaktien, Anteile, Depot 4 7 6 5 9 / 796."
+  },
+  {
+   "start": 244,
+   "titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende)",
+   "pfad": [
+    "Seite 4",
+    "Beispiel"
+   ],
+   "stichworte": [
+    "Zugang",
+    "Abgang",
+    "Fremdwährung",
+    "Festgeld",
+    "Rundung Steuerwert"
+   ],
+   "positionen": [
+    "vermoegen.wertschriften_guthaben"
+   ],
+   "zusammenfassung": "Beispiele für Zu-/Abgänge im Jahr, Fremdwährungskonten (EUR/USD), Rundung der Steuerwerte auf ganze Franken, Totale (Total Steuerwert 1 3 2 9 0 3, Anspruch 35% 1 3 4 5.0 5); Layout stark vermischt."
+  }
+ ]
+}

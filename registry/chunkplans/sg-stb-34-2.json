@@ -1,0 +1,172 @@
+{
+ "id": "sg-stb-34-2",
+ "hinweise": [],
+ "chunks": [
+  {
+   "start": 17,
+   "titel": "Ziff. 1–2.1 Gegenstand und Vermögenssteuer – Steuerwert",
+   "pfad": [
+    "1 Gegenstand",
+    "2 Vermögenssteuer",
+    "2.1 Steuerwert"
+   ],
+   "stichworte": [
+    "Miteigentum",
+    "Liegenschaft Miteigentum",
+    "Steuerwert Anteil",
+    "Nutzniessung",
+    "Wohnrecht",
+    "Grundbuch Quote"
+   ],
+   "zusammenfassung": "Jeder Miteigentümer versteuert seinen Anteil nach der sachenrechtlichen Quote im Grundbuch (bei hälftigem Miteigentum die Hälfte des Verkehrs- oder Ertragswertes); bei Nutzniessung der Nutzniesser, Wohnrecht gemäss BGer 9C_305/2023 beim Eigentümer.",
+   "ziffer": "1, 2.1",
+   "positionen": [
+    "vermoegen.liegenschaften"
+   ]
+  },
+  {
+   "start": 50,
+   "titel": "Ziff. 2.2 Hypothekarschulden bei Miteigentum – Schuldenabzug",
+   "pfad": [
+    "2 Vermögenssteuer",
+    "2.2 Hypothekarschulden"
+   ],
+   "stichworte": [
+    "Hypothek Miteigentum",
+    "Solidarschuld",
+    "Schuldenabzug",
+    "Hypothekarschuld",
+    "interne Quote",
+    "Art. 62 StG"
+   ],
+   "zusammenfassung": "Haftet ein Miteigentümer allein, kann er die ganze Hypothekarschuld abziehen; bei Solidarhaftung jeder den nach interner Quote tragenden Anteil, bei hälftigem Miteigentum je die Hälfte (Art. 62 StG).",
+   "ziffer": "2.2",
+   "positionen": [
+    "schulden.privat"
+   ]
+  },
+  {
+   "start": 64,
+   "titel": "Ziff. 2.2 Solidarschuldner ohne Eigentum, anwartschaftliche Schulden, Bürgschaft",
+   "pfad": [
+    "2 Vermögenssteuer",
+    "2.2 Hypothekarschulden"
+   ],
+   "stichworte": [
+    "Solidarschuldner",
+    "Darlehen Schenkung",
+    "Bürgschaft",
+    "anwartschaftliche Schulden"
+   ],
+   "zusammenfassung": "Solidarschuldner ohne Eigentum sind abzugsberechtigt, wenn intern eine Übernahme besteht und ein Darlehen oder eine Schenkung ausgewiesen ist; bloss voraussehbare Schulden sind nicht abzugsfähig.",
+   "ziffer": "2.2",
+   "positionen": [
+    "schulden.privat"
+   ]
+  },
+  {
+   "start": 82,
+   "titel": "Ziff. 3.1 Eigenmietwert und Ertrag aus Fremdnutzung bei Miteigentum",
+   "pfad": [
+    "3 Einkommenssteuer",
+    "3.1 Eigenmietwert / Ertrag aus Fremdnutzung"
+   ],
+   "stichworte": [
+    "Eigenmietwert",
+    "Miteigentum",
+    "Mietertrag",
+    "Unentgeltliche Überlassung",
+    "Eheschutz",
+    "Scheidung"
+   ],
+   "zusammenfassung": "Der Eigenmietwert ist von den Miteigentümern im Umfang ihres Anteils zu versteuern, auch bei unentgeltlicher Überlassung an Familienmitglieder.",
+   "ziffer": "3.1",
+   "positionen": [
+    "einkommen.liegenschaften.eigenmietwert",
+    "einkommen.liegenschaften.mietertrag"
+   ]
+  },
+  {
+   "start": 101,
+   "titel": "Ziff. 3.1 Herabsetzung Eigenmietwert um 30 Prozent, Nutzniessung, Gebrauchsleihe",
+   "pfad": [
+    "3 Einkommenssteuer",
+    "3.1 Eigenmietwert / Ertrag aus Fremdnutzung"
+   ],
+   "stichworte": [
+    "Herabsetzung 30 Prozent",
+    "Art. 34 Abs. 3 StG",
+    "Nutzniessung",
+    "Wohnrecht",
+    "Gebrauchsleihe",
+    "Marktmietwert"
+   ],
+   "zusammenfassung": "Der Mietwert des dauernd selbst bewohnten Eigenheims wird um 30 Prozent herabgesetzt (Art. 34 Abs. 3 StG), auch anteilig für Miteigentümer.",
+   "ziffer": "3.1",
+   "positionen": [
+    "sozialabzug.eigenmietwert",
+    "einkommen.liegenschaften.eigenmietwert"
+   ]
+  },
+  {
+   "start": 119,
+   "titel": "Ziff. 3.1 Vorzugsmieten an nahestehende Personen – Aufhebung per 1. Januar 2024",
+   "pfad": [
+    "3 Einkommenssteuer",
+    "3.1 Eigenmietwert / Ertrag aus Fremdnutzung"
+   ],
+   "stichworte": [
+    "Vorzugsmiete",
+    "Mietzins unter Marktmiete",
+    "nahestehende Person",
+    "50 Prozent Marktmietwert",
+    "Steuerumgehung"
+   ],
+   "zusammenfassung": "Seit 1. Januar 2024 wird die Differenz zum Marktmietwert nur noch aufgerechnet, wenn der Mietzins weniger als die Hälfte des Marktmietwertes beträgt.",
+   "ziffer": "3.1",
+   "positionen": [
+    "einkommen.liegenschaften.mietertrag"
+   ]
+  },
+  {
+   "start": 140,
+   "titel": "Ziff. 3.2 Liegenschaftsunterhalt bei Miteigentum – Pauschale 20 %",
+   "pfad": [
+    "3 Einkommenssteuer",
+    "3.2 Liegenschaftsunterhalt"
+   ],
+   "stichworte": [
+    "Liegenschaftsunterhalt",
+    "Unterhaltskosten Miteigentum",
+    "Pauschalabzug 20 Prozent",
+    "Gewinnungskosten",
+    "Darlehen"
+   ],
+   "zusammenfassung": "Unterhaltskosten sind nur im Umfang des Eigentumsanteils abziehbar; der Pauschalabzug beträgt 20% des Bruttomietertrages ohne Nebenkosten oder des angerechneten Eigenmietwerts.",
+   "ziffer": "3.2",
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ]
+  },
+  {
+   "start": 159,
+   "titel": "Ziff. 3.3 Schuldzinsen bei gemeinsamer Schuld (Solidarschuld)",
+   "pfad": [
+    "3 Einkommenssteuer",
+    "3.3 Schuldzinsen"
+   ],
+   "stichworte": [
+    "Schuldzinsen",
+    "Hypothekarzins",
+    "Solidarschuld",
+    "Lastenverteilung",
+    "Darlehen Miteigentümer"
+   ],
+   "zusammenfassung": "Jeder Schuldner zieht die Schuldzinsen auf den nach interner Quote getragenen Anteil ab, sofern die Lastenverteilung klar nachgewiesen ist und keine Missbrauchsabsicht besteht.",
+   "ziffer": "3.3",
+   "positionen": [
+    "abzug.schuldzinsen"
+   ]
+  }
+ ]
+}
