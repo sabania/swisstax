@@ -1,7 +1,7 @@
 kanton: tg
 jahr: 2026
 beschreibung: Einreichepflicht der Belege laut amtlichen Quellen TG 2026 (Wegleitung, Formulare, Gesetz). Erstellt durch Agent (Extraktion + unabhängige Prüfung, 09.11.2026); Status agent-geprueft. Entscheidet
-  in M-Files «Belege eingereicht» vs. «Belege Sonstiges» (data/firma/mfiles.yaml).
+  die Ablagegruppe «Steuerbeleg – einzureichen» vs. «nicht einzureichen» (data/ablage/gruppen.yaml).
 status: agent-geprueft
 allgemein:
 - regel: Steuererklärung samt vorgeschriebenen Beilagen fristgemäss einreichen (§ 155 Abs. 2 StG TG, gilt 2025–2027).

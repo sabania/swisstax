@@ -1,0 +1,27 @@
+# Test Ablage + Ausfüllen (firmenunabhängig; Kategorie zusätzlich nach Adapter consis/M-Files, weil das Testplugin ihn aktiviert).
+# Fiktive Muster-Mandanten. Referenzen aus data/ablage, data/einreichen (Zitate), firmen/consis/ablage.yaml und dem Steuer-Wiki.
+fragen:
+- id: a01
+  frage: "Per E-Mail kommt der «Lohnausweis 2025» der Muster AG für Hans Muster (Kanton Zürich). Ist das steuerrelevant? Welches Steuerjahr, muss er eingereicht werden, wie wird er abgelegt und in welche Position der Steuererklärung gehört der Nettolohn?"
+  soll: "Steuerrelevant ja. Steuerjahr 2025 (Bescheinigungsjahr). Einzureichen (ZH: Lohnausweise beilegen, zh-wl-2025__c0032; § 134 StG). Ablagegruppe «Steuerbeleg – einzureichen» → consis: Klasse StE, Kategorie «Belege eingereicht». Bezeichnung z.B. «Lohnausweis Muster AG». Nettolohn (Lohnausweis Ziff. 11) → ZH 2025 Ziff. 1.1 Haupterwerb, Code 100 (Person 1)."
+- id: a02
+  frage: "Ein Kunde lädt eine Migros-Kassenquittung und eine Swisscom-Handyrechnung hoch. Wie werden sie behandelt?"
+  soll: "Nicht steuerrelevant (private Alltagsrechnungen, kein Wert in der Steuererklärung). Ablagegruppe «Nicht steuerrelevant» – nicht als Steuerbeleg ablegen; Grund nennen (z.B. zur Prüfung markieren oder dem Mandanten zurückmelden). Handyrechnung nur bei nachgewiesener beruflicher Nutzung allenfalls Berufskosten – als Rückfrage."
+- id: a03
+  frage: "Ein Kunde schickt ein Sammel-PDF mit Lohnausweis 2025, Bescheinigung Säule 3a 2025, Prämienübersicht Krankenkasse 2025 und Kita-Rechnungen 2025 (Kanton St. Gallen). Wie werden die Dokumente abgelegt?"
+  soll: "Sammel-PDF trennen: ein Beleg = eine Datei. Steuerjahr 2025. Lohnausweis → einzureichen (consis: Belege eingereicht). Säule 3a → einzureichen (consis: Belege eingereicht). Krankenkassenprämien → SG 2025 nur auf Verlangen (sg-wl-2025__c0073) → nicht einzureichen (consis: Belege Sonstiges). Kita-Rechnungen → SG 2025 nicht einzureichen bzw. auf Verlangen → Belege Sonstiges; steuerrelevant bedingt (nur bei Erwerbstätigkeit/Ausbildung, Kind unter 14)."
+- id: a04
+  frage: "Wie werden (a) eine Bestätigung der Fristerstreckung für die Steuererklärung 2025 und (b) die E-Mail-Antwort eines Kunden auf Rückfragen abgelegt?"
+  soll: "(a) Ablagegruppe «Frist / Fristerstreckung» → consis: Klasse StE, Kategorie «Fristenliste NP». (b) «Korrespondenz Mandant» → consis: Klasse StE, Kategorie «Unterlagen Kunde». Beide werden nicht eingereicht."
+- id: a05
+  frage: "Kanton Zürich, Steuerjahr 2025: Kita-Rechnungen von CHF 14'000 für ein 5-jähriges Kind, beide Eltern erwerbstätig. In welche Position (Ziffer/Code) gehört das, welcher Höchstbetrag gilt beim Kanton und beim Bund, und wie werden die Rechnungen abgelegt?"
+  soll: "ZH 2025 Ziff. 16.6 «Abzug für fremdbetreute Kinder» (Code 376): je Kind unter 14 Jahren nachgewiesene Kosten, höchstens Kanton CHF 25'000 / Bund CHF 25'800 → CHF 14'000 in beiden Spalten (Verpflegung nicht abziehbar). Ablage: ZH 2025 Kinderdrittbetreuungskosten nur auf Verlangen nachzuweisen (zh-zstb-34-1-bis-2025__c0023) → «Steuerbeleg – nicht einzureichen» → consis: Belege Sonstiges."
+- id: a06
+  frage: "Kanton Thurgau, Steuerjahr 2025: Es liegt ein Steuerauszug der Bank vor. Welche Formularpositionen füllt er, und wird er eingereicht (Ablage)?"
+  soll: "TG 2025: Formular 2 (Wertschriftenverzeichnis) → Ziff. 4 Wertschriften- und Zinserträge (Code 150), Ziff. 30.1 Wertschriften und Guthaben (Code 410), Verrechnungssteueranspruch 35 % von Total A. Einreichen bedingt: wenn die Titel nicht einzeln im Formular 2, sondern mit dem Steuerauszug deklariert werden (tg-wl-2025__c0168) → dann «einzureichen» (consis: Belege eingereicht), sonst «nicht einzureichen» (Belege Sonstiges)."
+- id: a07
+  frage: "Kanton Appenzell Ausserrhoden, Steuerjahr 2025: Hypothekarzinsbescheinigung der Bank. Welche Ziffern betrifft sie und wie wird sie abgelegt?"
+  soll: "AR 2025: Formular 5 Teil A (private Schulden 31.12.2025 und Schuldzinsen 2025) → Ziff. 11 Schuldzinsen privat und Ziff. 34.1 Privatschulden (Code 504). Belege zum Schuldenverzeichnis nur auf Verlangen (ar-form-05-2025__c0001) → «Steuerbeleg – nicht einzureichen» → consis: Belege Sonstiges."
+- id: a08
+  frage: "Es kommt ein Kontoauszug des Steueramts St. Gallen zum Steuerkonto (Zahlungen und Saldo der Staats- und Gemeindesteuern). Wie wird er abgelegt?"
+  soll: "Kein Steuerbeleg und kein Bank-Kontoauszug: Ablagegruppe «Kontoauszug des Steueramts (Steuerkonto)» → consis: Klasse «Kontoauszug» (nicht Klasse StE). Kein Wert in der Steuererklärung."

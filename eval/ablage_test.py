@@ -15,10 +15,7 @@ t1 = t3 = 0
 fehl = []
 for c in f:
     out = steuer.ablage(c["text"])
-    ids = re.findall(r"\(`([a-z0-9\-]+)`\)|^\d\. \*\*(.+?)\*\* \(Prozessdokument\)", out, re.M)
-    er = steuer.L()["erkennung"]["prozessdokumente"]
-    name2id = {v["name"]: k for k, v in er.items()}
-    kand = [a or name2id.get(b, b) for a, b in ids]
+    kand = re.findall(r"^\d\. \*\*.+?\*\* \(`([a-z0-9\-]+)`\)", out, re.M)
     # Belegtyp «steuerrechnung» = Prozessdokumente Veranlagung/definitive bzw. provisorische Rechnung (gleiche Klasse)
     if c["soll"] == "steuerrechnung":
         kand = ["steuerrechnung" if k in ("veranlagung", "provisorische-rechnung") else k for k in kand]
@@ -33,8 +30,6 @@ for c in f:
 n = len(f)
 sets = {}
 for c in f:
-    out = steuer.ablage(c["text"])
-    top = re.search(r"^1\. \*\*.*?(?:\(`([a-z0-9\-]+)`\)|\(Prozessdokument\))", out, re.M)
     sets.setdefault(c.get("set", "alle"), [0, 0])
     sets[c.get("set", "alle")][1] += 1
 print(f"{DATEI.name}: " + " · ".join(f"{k} n={v[1]}" for k, v in sets.items()))

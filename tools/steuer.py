@@ -6,17 +6,17 @@ Für Agenten (auch kleine Modelle): EIN Aufruf liefert die kompakte, belegte Ant
   python3 tools/steuer.py wert <kanton|bund> <jahr> <begriff>        Eckwerte/Limiten (+ Bund automatisch)
   python3 tools/steuer.py vergleich <jahr> <begriff>                    alle Kantone + Bund nebeneinander (Vergleich/Rangfolge)
   python3 tools/steuer.py position <kanton> <jahr> <ziffer|begriff>  Formularposition (DrTax/Formular): rein, rechnen, Limite, Belege
-  python3 tools/steuer.py beleg <begriff> [--kanton zh] [--jahr 2025] Belegkarte: relevant?, Positionen, einreichen?, M-Files
-  python3 tools/steuer.py ablage "<Titel/Text des Dokuments>" [--kanton zh] [--jahr 2025]   Schritt 1: Typ, relevant?, Klasse/Kategorie
+  python3 tools/steuer.py beleg <begriff> [--kanton zh] [--jahr 2025] Belegkarte: relevant?, Positionen, einreichen?, Ablage
+  python3 tools/steuer.py ablage "<Titel/Text des Dokuments>" [--kanton zh] [--jahr 2025]   Dokument: Typ, relevant?, Steuerjahr, Ablage
   python3 tools/steuer.py suche "<begriffe>" [--jur zh] [--jahr 2025]   Volltextsuche über alle Chunks (L2)
   python3 tools/steuer.py zeige <chunk-id|pfad> [--abschnitt "11"]     Chunk/Seite anzeigen
-  python3 tools/steuer.py prozess [<schritt>|status|agenten|protokoll|querschnitt]   Firmenprozess (consis)
-  python3 tools/steuer.py mfiles [<begriff>]                           M-Files-Kategorien/Dokumentarten
+  python3 tools/steuer.py kategorien [<begriff>]                       Ablagegruppen (+ Kategorien des Firmen-Adapters)
+  Option --firma <name> bzw. STEUERWIKI_FIRMA: Firmen-Adapter firmen/<name>/ablage.yaml (z.B. consis → M-Files-Kategorien)
 
 Jede Ausgabe nennt Fundstelle (Chunk-ID) und Status. Der Status ☑️ heisst: Fundstelle geprüft, fachliche Abnahme offen.
 """
 from __future__ import annotations
-import argparse, json, re, sqlite3, sys, unicodedata
+import argparse, json, os, re, sqlite3, sys, unicodedata
 from functools import lru_cache
 from pathlib import Path
 
@@ -347,8 +347,10 @@ def position_block(p, voll=True) -> list[str]:
     if p.get("belege"):
         bl = []
         for b in p["belege"]:
-            kat, _ = mfiles_kategorie(b, kt, jahr)
-            bl.append(f"{b} ({cut(beleg_name(b), 50)}) → M-Files: {kat}")
+            gid, _ = ablagegruppe(b, kt, jahr)
+            fk = [firmen_kategorie(g) for g in gid.split("|")]
+            bl.append(f"{b} ({cut(beleg_name(b), 50)}) → Ablage: " + " / ".join(
+                (f.split(": ", 1)[1] if f else gruppe_name(g)) for g, f in zip(gid.split("|"), fk)))
         out.append("- **Belege:** " + " · ".join(bl))
     if p.get("bemerkung") and voll:
         out.append(f"- **Bemerkung:** {cut(p['bemerkung'], 240)}")
@@ -402,7 +404,7 @@ def position(kt, jahr, arg, n=3) -> str:
     return "\n".join(out)
 
 
-# ---------------------------------------------------------------- Einreichen / M-Files
+# ---------------------------------------------------------------- Einreichepflicht / Ablagegruppe
 def einreichen(bid, kt, jahr):
     d = ((L().get("einreichen") or {}).get(kt or "", {}) or {}).get(str(jahr or ""), {})
     for e in d.get("belege") or []:
@@ -411,36 +413,69 @@ def einreichen(bid, kt, jahr):
     return None
 
 
-def mfiles_kategorie(bid, kt=None, jahr=None):
-    """→ (Kategorie-Text, Begründung). Regel: Excel-Zuordnung; «je nach Kanton»/«sofern nicht einzureichen» → Einreichepflicht."""
-    mf = L().get("mfiles") or {}
-    rows = [d for d in mf.get("dokumentarten") or [] if bid in (d.get("belege") or [])]
+def firma() -> str | None:
+    """Aktiver Firmen-Adapter (firmen/<firma>/ablage.yaml): Umgebungsvariable STEUERWIKI_FIRMA oder --firma."""
+    f = os.environ.get("STEUERWIKI_FIRMA", "").strip().lower()
+    return f if f and f in (L().get("firmen") or {}) else None
+
+
+def gruppe_name(gid) -> str:
+    g = next((x for x in L().get("gruppen") or [] if x["id"] == gid), None)
+    return g["name"] if g else gid
+
+
+def firmen_kategorie(gid) -> str | None:
+    f = firma()
+    if not f:
+        return None
+    m = ((L()["firmen"][f].get("gruppen") or {}).get(gid)) or {}
+    if not m:
+        return None
+    t = f"Klasse «{m['klasse']}»" if m.get("klasse") else ""
+    if m.get("kategorie"):
+        t += (" · " if t else "") + f"Kategorie «{m['kategorie']}»"
+    if m.get("beschreibung"):
+        t += f" · Beschreibung {m['beschreibung']}"
+    return f"{L()['firmen'][f].get('system', f)} ({f}): {t}"
+
+
+def ablagegruppe(bid, kt=None, jahr=None):
+    """Belegtyp → (Gruppen-ID oder 'a|b', Begründung). Firmenunabhängig über Relevanz und Einreichepflicht des Kantons/Jahres;
+    ein Firmen-Adapter kann einzelne Belegtypen fest zuordnen (belege_fest)."""
+    f = firma()
+    fest = ((L()["firmen"][f].get("belege_fest") or {}).get(bid)) if f else None
+    if fest:
+        return fest["gruppe"], f"Firmenregel {f}: {fest.get('grund')}"
     b = next((x for x in L()["belege"] if x["id"] == bid), {})
-    if not rows:
-        if b.get("relevanz") == "nein":
-            return "nicht steuerrelevant – nicht als StE-Beleg ablegen", "Belegtyp ohne Steuerwirkung (data/belege)"
-        if bid in ("steuerrechnung", "vorjahresveranlagung"):
-            return "Klasse «Veranlagung + def. Steuerrechnung» bzw. «Prov. Steuerrechnung» (Bereich ST, nicht StE)", "Prozessbeschrieb S. 9/10"
-        return "Belege Sonstiges (Vorschlag, keine Excel-Zeile)", "nicht in der Zuordnungsliste"
-    r = rows[0]
-    nr = f"Excel Nr. {r['nr']}"
-    eing = str(r.get("eingereicht") or "")
-    if r.get("kategorie") == "Belege eingereicht" and eing == "ja":
-        return "Belege eingereicht", f"{nr} ({r['dokumentart']}): wird eingereicht"
-    if eing.startswith("je nach") or r.get("kategorie") == "Belege Sonstiges":
-        e = einreichen(bid, kt, jahr) if kt else None
-        if not kt:
-            return "Belege eingereicht ODER Belege Sonstiges – je nach Einreichepflicht im Kanton", f"{nr}: Kanton/Jahr angeben"
-        if not e or e.get("einreichen") == "unklar":
-            return ("Belege Sonstiges (Einreichepflicht im Kanton nicht belegt → SB fragen)",
-                    f"{nr}; keine belegte Einreichepflicht für {NAME.get(kt, kt)} {jahr}")
-        if e["einreichen"] == "ja":
-            return "Belege eingereicht", f"{nr}; {NAME[kt]} {jahr}: einzureichen ({e.get('chunk')})"
-        if e["einreichen"] == "bedingt":
-            return (f"Belege eingereicht, falls: {cut(e.get('bedingung'), 140)} – sonst Belege Sonstiges",
-                    f"{nr}; {NAME[kt]} {jahr}: bedingt ({e.get('chunk')})")
-        return "Belege Sonstiges", f"{nr}; {NAME[kt]} {jahr}: {e['einreichen'].replace('_', ' ')} ({e.get('chunk') or 'ohne Fundstelle'})"
-    return r.get("kategorie") or "?", nr
+    if b.get("relevanz") == "nein":
+        return "nicht-relevant", "Belegtyp ohne Wert in der Steuererklärung"
+    if bid == "steuerrechnung":
+        return "veranlagung|provisorische-rechnung", "definitive Rechnung → Veranlagung, provisorische Rechnung → provisorische Rechnung"
+    if bid == "vorjahresveranlagung":
+        return "veranlagung", "Veranlagung der Vorperiode (Referenz für die neue Erklärung)"
+    if not (kt and jahr):
+        return "beleg-einzureichen|beleg-aufbewahren", "je nach Einreichepflicht im Kanton – Kanton und Jahr angeben"
+    e = einreichen(bid, kt, jahr)
+    if not e or e.get("einreichen") == "unklar":
+        return "beleg-aufbewahren", f"Einreichepflicht {NAME.get(kt, kt)} {jahr} nicht belegt – im Zweifel prüfen"
+    q = f" ({e['chunk']})" if e.get("chunk") else ""
+    if e["einreichen"] == "ja":
+        return "beleg-einzureichen", f"{NAME[kt]} {jahr}: einzureichen{q}"
+    if e["einreichen"] == "bedingt":
+        return "beleg-einzureichen|beleg-aufbewahren", f"{NAME[kt]} {jahr}: einzureichen, falls {cut(e.get('bedingung'), 140)}{q}"
+    return "beleg-aufbewahren", f"{NAME[kt]} {jahr}: {e['einreichen'].replace('_', ' ')}{q}"
+
+
+def ablage_text(gid, why="") -> str:
+    """Gruppe(n) lesbar + Kategorie des aktiven Firmen-Adapters."""
+    teile = []
+    for g in gid.split("|"):
+        t = f"**{gruppe_name(g)}**"
+        fk = firmen_kategorie(g)
+        if fk:
+            t += f" → {fk}"
+        teile.append(t)
+    return (" ODER ".join(teile)) + (f" · {why}" if why else "")
 
 
 def beleg_match(begriff, n=3):
@@ -485,15 +520,15 @@ def beleg(begriff, kt=None, jahr=None) -> str:
         if e:
             q = f" · Quelle: {e.get('chunk')} «{cut(e.get('zitat'), 120)}»" if e.get("chunk") else ""
             out.append(f"- **Einreichen ({NAME[j]} {jahr}):** {e.get('einreichen')}" + (f" – {cut(e.get('bedingung'), 160)}" if e.get("bedingung") else "") + q)
-        kat, why = mfiles_kategorie(b["id"], j, jahr)
-        out.append(f"- **M-Files (Klasse StE):** Kategorie **{kat}** · {why}")
+        gid, why = ablagegruppe(b["id"], j, jahr)
+        out.append(f"- **Ablage:** {ablage_text(gid, why)}")
         kn = (b.get("kantone") or {}).get(j.upper())
         if kn:
             out.append(f"- **{j.upper()}:** {cut(kn, 300)}")
     else:
-        kat, why = mfiles_kategorie(b["id"])
+        gid, why = ablagegruppe(b["id"])
         out.append(f"- **Positionen (Schlüssel):** {', '.join(b.get('positionen') or []) or '–'}")
-        out.append(f"- **M-Files (Klasse StE):** {kat} · {why}")
+        out.append(f"- **Ablage:** {ablage_text(gid, why)}")
         out.append("- Kanton und Jahr angeben (--kanton zh --jahr 2025) für Ziffern, Einreichepflicht und Kategorie.")
     if b.get("hinweise"):
         out.append("- **Hinweise:** " + " · ".join(cut(sj(x), 200) for x in b["hinweise"][:3]))
@@ -503,7 +538,7 @@ def beleg(begriff, kt=None, jahr=None) -> str:
     return "\n".join(out)
 
 
-# ---------------------------------------------------------------- Schritt 1: Ablage / Triage
+# ---------------------------------------------------------------- Dokument einordnen (Ablage)
 JAHR_RE = [r"steuer(?:jahr|periode)\s*(20\d\d)", r"31\.\s?12\.\s?(20\d\d)", r"31\.\s*dezember\s*(20\d\d)", r"per\s+(?:ende\s+)?(20\d\d)",
            r"01\.01\.(20\d\d)\s*[-–bis ]+\s*31\.12\.(?:20\d\d)", r"(?:jahr|periode)\s*(20\d\d)", r"\b(20[12]\d)\b"]
 
@@ -553,49 +588,49 @@ def ablage(text, kt=None, jahr=None) -> str:
         s = treffer(kw, ntext, ntitel)
         if s > 0:
             kand.append((s, "beleg", bid))
-    for pid, kw in (er.get("prozessdokumente") or {}).items():
+    for pid, kw in (er.get("verfahrensdokumente") or {}).items():
         s = treffer(kw, ntext, ntitel)
         if s > 0:
-            kand.append((s, "prozess", pid))
+            kand.append((s, "verfahren", pid))
     kand.sort(key=lambda x: -x[0])
     y, ywhy = steuerjahr_aus(str(text))
     jahr = str(jahr) if jahr else y
-    out = ["## Schritt 1 · Ablagevorschlag (Heuristik – Dokument selbst prüfen)", ""]
+    out = ["## Ablagevorschlag (Erkennung als Hilfe – Dokument selbst prüfen)", ""]
     if not kand:
-        out += ["- **Kein bekannter Dokumenttyp erkannt.** Vorgehen: Dokument lesen; nicht steuerrelevant (K1/K2) → E-Mail unberührt lassen; "
-                "sonst Prüfkorb (Grund «Dokumenttyp unklar», Vorschlag, Link).", "- Liste der Typen: `steuer beleg <begriff>`, `steuer mfiles`."]
+        out += ["- **Kein bekannter Dokumenttyp erkannt.** Dokument lesen; ist es nicht steuerrelevant → nicht als Steuerbeleg ablegen; "
+                "sonst als unklar zur Prüfung markieren (Grund, Vorschlag).", "- Typen und Gruppen: `beleg <begriff>`, `kategorien`."]
         return "\n".join(out)
     s1 = kand[0][0]
     s2 = kand[1][0] if len(kand) > 1 else 0
     sicher = "hoch" if s1 >= 10 and s1 >= 1.8 * max(s2, 1) else "mittel" if s1 >= 5 and s1 > s2 else "tief"
-    out.append(f"- **Sicherheit Typ:** {sicher} (Punkte {s1:g} vs. {s2:g}) → {'Ablage möglich' if sicher != 'tief' else 'Prüfkorb (Grund, Vorschlag, Link) – oder Dokument genauer lesen'}")
+    out.append(f"- **Sicherheit Typ:** {sicher} (Punkte {s1:g} vs. {s2:g})" + ("" if sicher != "tief" else " → Dokument genauer lesen; bleibt es unklar: zur Prüfung markieren"))
     out.append(f"- **Steuerjahr (Bescheinigungsjahr):** {jahr or '?'} · {ywhy if not kt or y == jahr else 'vorgegeben'}")
     out.append("")
     for i, (s, art, kid) in enumerate(kand[:3]):
         if art == "beleg":
             b = next((x for x in L()["belege"] if x["id"] == kid), {"id": kid, "name": kid})
-            kat, why = mfiles_kategorie(kid, j, jahr) if j else mfiles_kategorie(kid)
+            gid, why = ablagegruppe(kid, j, jahr) if j else ablagegruppe(kid)
             rel = b.get("relevanz")
             out.append(f"{i + 1}. **{b['name']}** (`{kid}`) · Punkte {s:g}")
-            out.append(f"   - steuerrelevant: **{rel}**" + (" → bei «nein»: nicht als StE-Beleg ablegen (K1/K2: E-Mail unberührt lassen)" if rel == "nein" else
-                                                         " → Bedingung prüfen: `steuer beleg " + kid + "`" if rel == "bedingt" else ""))
-            out.append(f"   - M-Files: Klasse **StE** · Kategorie **{kat}** · {why}")
+            out.append(f"   - steuerrelevant: **{rel}**" + (" → nicht als Steuerbeleg ablegen" if rel == "nein" else
+                                                         " → Bedingung prüfen: `beleg " + kid + "`" if rel == "bedingt" else ""))
+            out.append(f"   - Ablage: {ablage_text(gid, why)}")
             out.append(f"   - Beschreibung (Vorschlag): «{cut(b['name'].split('(')[0], 50).strip()} <Aussteller>»")
             if j and jahr:
                 pos = [p for p in L()["positionen"] if p["kt"] == j and p["jahr"] == jahr and kid in (p.get("belege") or [])]
                 if pos:
                     out.append(f"   - Positionen {NAME[j]} {jahr}: " + " · ".join(zf(p) for p in pos[:8]))
         else:
-            d = (er.get("prozessdokumente") or {})[kid]
-            out.append(f"{i + 1}. **{d['name']}** (Prozessdokument) · Punkte {s:g}")
-            out.append(f"   - M-Files: Klasse **{d.get('klasse')}**" + (f" · Kategorie **{d['kategorie']}**" if d.get("kategorie") else "")
-                       + (f" · Beschreibung «{d['beschreibung']}»" if d.get("beschreibung") else ""))
-            out.append(f"   - Weiter: {d.get('weiter')}" + (f" · Steuerjahr: {d['steuerjahr']}" if d.get("steuerjahr") else ""))
-            if d.get("hinweis"):
-                out.append(f"   - Hinweis: {d['hinweis']}")
-            out.append(f"   - Quelle: {d.get('quelle')}")
-    out += ["", "Regeln: ein Beleg = eine Datei (Sammel-PDF trennen) · Dublette nicht nochmals ablegen · Mandant = Name auf dem Dokument "
-            "(Adresse «Nachname Vorname») · unsicher bei Typ, Mandant, Jahr oder Kategorie → Prüfkorb mit Grund und Vorschlag."]
+            d = (er.get("verfahrensdokumente") or {})[kid]
+            g = next((x for x in L().get("gruppen") or [] if x["id"] == d["gruppe"]), {})
+            out.append(f"{i + 1}. **{d['name']}** (`{kid}`) · Punkte {s:g}")
+            out.append(f"   - Ablage: {ablage_text(d['gruppe'])}")
+            if d.get("steuerjahr"):
+                out.append(f"   - Steuerjahr: {d['steuerjahr']}")
+            if g.get("regel"):
+                out.append(f"   - Hinweis: {g['regel']}")
+    out += ["", "Regeln: ein Beleg = eine Datei (Sammel-PDF trennen) · gleiches Dokument nicht doppelt ablegen · Steuerjahr = "
+            "Bescheinigungsjahr · unsicher bei Typ, Person, Jahr oder Kategorie → nicht raten, zur Prüfung markieren (Grund, Vorschlag)."]
     return "\n".join(out)
 
 
@@ -719,83 +754,43 @@ def zeige(ref, abschnitt=None) -> str:
     return t
 
 
-# ---------------------------------------------------------------- Firmenprozess
-def prozess(arg=None) -> str:
-    P = L().get("prozess") or {}
-    if not P:
-        return "Kein Firmenprozess hinterlegt (data/firma/prozess.yaml)."
-    a = str(arg or "").strip().lower()
-    if not a:
-        out = [f"## {P['titel']} (Stand {P['stand']}, Status: {P.get('status')})", "", "**Grundsätze:**"]
-        out += [f"- **{g['titel']}:** {g['text']}" for g in P["grundsaetze"]]
-        out += ["", "**Schritte:**"]
-        out += [f"- {s['nr']} · {s['titel']} · Status {s['status']} · Agent {s.get('agent')}" for s in P["schritte"]]
-        out += ["", "Details: `steuer prozess <1-6|1.12|status|agenten|protokoll|querschnitt>` · Ablage: `steuer ablage` · Kategorien: `steuer mfiles`"]
-        return "\n".join(out)
-    if a.startswith("status"):
-        out = ["## Statusmodell M-Files-Workflow «Steuererklärung nat» (ID 122)", "",
-               "| Status | Bedingung | wer setzt | Pflichtaktion |", "|---|---|---|---|"]
-        out += [f"| {s['name']} | {s['bedingung']} | {s['setzt']} | {s.get('pflicht', '–')} |" for s in P["status"]]
-        out.append("\nKein Rückweg von «zur Kontrolle» nach «in Arbeit (St)»; zurück nach «Offen» nur über «Reset Workflow» (nur Mensch). Quelle: Prozessbeschrieb S. 5.")
-        return "\n".join(out)
-    if a.startswith("agent") or re.fullmatch(r"a\d+", a):
-        ag = [x for x in P["agenten"] if not re.fullmatch(r"a\d+", a) or x["id"].lower() == a]
-        return "\n".join(["## Agenten"] + [f"- {x['id']} {x['name']} · Schritte {x['schritte']} · Auslöser {x['ausloeser']}" for x in ag]
-                         + [f"\n{P.get('agenten_hinweis', '')}"])
-    if a.startswith("protokoll"):
-        s3 = next(s for s in P["schritte"] if s["nr"] == "3")
-        return "## Besprechungsprotokoll (Schritt 3)\n" + "\n".join(f"- **{k}:** {v}" for k, v in s3["protokoll"].items())
-    if a.startswith("quer") or a.startswith("ki-aktion") or a.startswith("aktion"):
-        q = P["querschnitt"]
-        return f"## {q['titel']} (S. {q['seite']})\n" + "\n".join(f"{i}. {x}" for i, x in enumerate(q["ablauf"], 1))
-    m = re.fullmatch(r"(\d)(?:\.(\d+[a-z]?))?", a)
-    if not m:
-        return "Unbekannt. `steuer prozess` zeigt die Übersicht."
-    s = next((x for x in P["schritte"] if x["nr"] == m.group(1)), None)
-    if not s:
-        return f"Schritt {m.group(1)} gibt es nicht (1–6)."
-    if m.group(2):
-        t = [x for x in s["teilschritte"] if a in [y.strip() for y in re.split(r"[–-]", x["nr"])] or x["nr"] == a
-             or (lambda r: r and float(r[0]) <= float(a) <= float(r[1]))(re.findall(r"\d+\.\d+", x["nr"]) if "–" in x["nr"] else None)]
-        if not t:
-            return f"Teilschritt {a} nicht gefunden. `steuer prozess {m.group(1)}`."
-        return "\n".join(f"**{x['nr']} {x['taetigkeit']}** · wer: {x.get('wer')} · System: {x.get('system', '–')}\n{x.get('regel', '')}" for x in t) + \
-            f"\n(Schritt {s['nr']} {s['titel']}, Prozessbeschrieb S. {s['seiten']})"
-    out = [f"## Schritt {s['nr']} · {s['titel']}", f"- Status: {s['status']}", f"- Auslöser: {s['ausloeser']}",
-           f"- Agent: {s['agent']}", f"- Output: {s['output']}"]
-    if s.get("kanaele"):
-        out.append("- Kanäle: " + " · ".join(f"{k} {v}" for k, v in s["kanaele"].items()))
-    out += ["", "| Nr | Tätigkeit | wer | Regel |", "|---|---|---|---|"]
-    out += [f"| {x['nr']} | {x['taetigkeit']} | {x.get('wer', '')} | {x.get('regel', '')} |" for x in s["teilschritte"]]
-    for k in ("pruefkorb", "hinweis", "ablage", "regel"):
-        if s.get(k):
-            out.append(f"\n**{k.capitalize()}:** {s[k]}")
-    out.append(f"\nQuelle: Prozessbeschrieb {P['stand']} S. {', '.join(map(str, s['seiten']))} (firma/quellen/).")
-    return "\n".join(out)
-
-
-def mfiles(begriff=None) -> str:
-    M = L().get("mfiles") or {}
+# ---------------------------------------------------------------- Ablagegruppen / Kategorien
+def kategorien(begriff=None) -> str:
+    """Ablagegruppen (firmenunabhängig) und – falls ein Firmen-Adapter aktiv ist – die Kategorien der Firma."""
+    f = firma()
+    A = L()["firmen"][f] if f else {}
     if not begriff:
-        out = [f"## M-Files Klasse StE – Kategorien (Stand {M.get('stand')}; {M.get('status')})", ""]
-        out += [f"- **{k['kategorie']}** (eingereicht: {k['eingereicht']}; Prozess {k['prozess']}): {cut(k['inhalt'], 220)}" for k in M["kategorien"]]
-        out += ["", f"Regel «je nach Kanton»: {M.get('regel_je_nach_kanton')}", "", "Offene Punkte: " + " · ".join(M.get("offene_punkte") or [])]
+        out = ["## Ablagegruppen" + (f" → {A.get('system')} ({f}, Stand {A.get('stand')}; {A.get('status')})" if f else " (kein Firmen-Adapter aktiv)"), ""]
+        for g in L().get("gruppen") or []:
+            fk = firmen_kategorie(g["id"])
+            out.append(f"- **{g['name']}** (`{g['id']}`): {g['regel']}" + (f" → {fk.split(': ', 1)[1]}" if fk else ""))
+        if f and A.get("offene_punkte"):
+            out += ["", "Offene Punkte Adapter: " + " · ".join(A["offene_punkte"])]
+        if not f:
+            out += ["", "Firmen-Adapter aktivieren: STEUERWIKI_FIRMA=<firma> (firmen/<firma>/ablage.yaml)."]
         return "\n".join(out)
     qt = expand(toks(begriff), begriff)
     sc = []
-    for d in M["dokumentarten"]:
+    for g in L().get("gruppen") or []:
+        s = score(qt, g["name"], g["regel"])
+        if s > 0:
+            sc.append((s, "gruppe", g))
+    for d in A.get("dokumentarten") or []:
         s = score(qt, f"{d['dokumentart']} {d.get('kategorie')}", f"{d.get('beispiele') or ''} {' '.join(d.get('belege') or [])}")
         if s > 0:
-            sc.append((s, d))
+            sc.append((s, "firma", d))
     sc.sort(key=lambda x: -x[0])
     if not sc:
-        return f"Keine Dokumentart zu «{begriff}» in der Zuordnungsliste. `steuer ablage \"{begriff}\"` versuchen."
-    out = [f"## M-Files: Dokumentart «{begriff}»"]
-    for s, d in [x for x in sc if x[0] >= sc[0][0] * 0.6][:4]:
-        out.append(f"- Nr. {d['nr']} **{d['dokumentart']}** → Kategorie **{d.get('kategorie')}** · eingereicht: {d.get('eingereicht', '–')}"
-                   + (f" · Beschreibung «{d['beschreibung_mfiles']}»" if d.get("beschreibung_mfiles") else "")
-                   + (f" · {d['beispiele']}" if d.get("beispiele") else "") + f" · Quelle Zuordnung: {d.get('quelle_zuordnung')}"
-                   + (" · bestätigt" if d.get("bestaetigt") == "ja" else " · noch nicht bestätigt"))
+        return f"Nichts zu «{begriff}». Dokument einordnen: `ablage \"{begriff}\"`."
+    out = [f"## Ablage «{begriff}»"]
+    for s, art, d in [x for x in sc if x[0] >= sc[0][0] * 0.6][:5]:
+        if art == "gruppe":
+            fk = firmen_kategorie(d["id"])
+            out.append(f"- Gruppe **{d['name']}** (`{d['id']}`): {d['regel']}" + (f" → {fk.split(': ', 1)[1]}" if fk else ""))
+        else:
+            out.append(f"- {A.get('system')} ({f}) Liste Nr. {d['nr']} **{d['dokumentart']}** → Kategorie **{d.get('kategorie')}** · eingereicht: "
+                       f"{d.get('eingereicht', '–')}" + (f" · Beschreibung «{d['beschreibung_mfiles']}»" if d.get("beschreibung_mfiles") else "")
+                       + (" · bestätigt" if d.get("bestaetigt") == "ja" else " · noch nicht bestätigt"))
     return "\n".join(out)
 
 
@@ -810,10 +805,12 @@ def main(argv=None):
     a = sp.add_parser("ablage"); a.add_argument("text", nargs="+"); a.add_argument("--kanton"); a.add_argument("--jahr")
     a = sp.add_parser("suche"); a.add_argument("query", nargs="+"); a.add_argument("--jur"); a.add_argument("--jahr"); a.add_argument("--typ"); a.add_argument("-n", type=int, default=8)
     a = sp.add_parser("zeige"); a.add_argument("ref"); a.add_argument("--abschnitt")
-    a = sp.add_parser("prozess"); a.add_argument("arg", nargs="?")
-    a = sp.add_parser("mfiles"); a.add_argument("begriff", nargs="*")
+    a = sp.add_parser("kategorien"); a.add_argument("begriff", nargs="*")
     a = sp.add_parser("index")
+    ap.add_argument("--firma", help="Firmen-Adapter (firmen/<firma>/ablage.yaml), sonst STEUERWIKI_FIRMA")
     x = ap.parse_args(argv)
+    if x.firma:
+        os.environ["STEUERWIKI_FIRMA"] = x.firma
     if x.cmd == "wert":
         print(wert(x.jur, x.jahr, " ".join(x.begriff)))
     elif x.cmd == "vergleich":
@@ -831,10 +828,8 @@ def main(argv=None):
         print(suche(" ".join(x.query), x.jur, x.jahr, x.typ, x.n))
     elif x.cmd == "zeige":
         print(zeige(x.ref, x.abschnitt))
-    elif x.cmd == "prozess":
-        print(prozess(x.arg))
-    elif x.cmd == "mfiles":
-        print(mfiles(" ".join(x.begriff) or None))
+    elif x.cmd == "kategorien":
+        print(kategorien(" ".join(x.begriff) or None))
     elif x.cmd == "index":
         print(f"{baue_fts(force=True)} Chunks indexiert")
     else:

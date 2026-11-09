@@ -1,7 +1,7 @@
 ## Steuer-Wiki (Schweiz, natürliche Personen) – Einstieg
 
-Wissen: Bund + Kantone AR, SG, TG, ZH · Steuerjahre 2025, 2026 · Belege prüfen (steuerrelevant?), in M-Files ablegen (Kategorie),
-Steuererklärung ausfüllen (Positionen wie in DrTax).
+Wissen: Bund + Kantone AR, SG, TG, ZH · Steuerjahre 2025, 2026 · Belege prüfen (steuerrelevant?), ablegen (Ablagegruppe bzw.
+Kategorie der Firmenablage), Steuererklärung ausfüllen (Positionen wie in DrTax/amtlichem Formular).
 Andere Kantone sind nicht abgedeckt → «nicht im Wiki» sagen.
 
 **Schritt 0 – Kanton und Jahr aus der Frage lesen.** Ein Kürzel am Anfang («AR: …», «ZH 2025: …») oder ein Kantonsname ist der
@@ -13,20 +13,20 @@ genau diesem Kanton/Jahr machen (auch `suche` mit `jur`). Nie Werte eines andere
 
 | Aufgabe | Erster Aufruf |
 |---|---|
-| Dokument: steuerrelevant? Typ? M-Files-Kategorie? | `ablage "<titel + text>" --kanton <kt> --jahr <jahr>` |
-| Belegtyp: einreichen?, Kategorie, welche Ziffern | `beleg <stichwort> --kanton <kt> --jahr <jahr>` · Kategorien: `mfiles [<begriff>]` |
+| Dokument: steuerrelevant? Typ? Steuerjahr? Ablage? | `ablage "<titel + text>" --kanton <kt> --jahr <jahr>` |
+| Belegtyp: einreichen?, Ablage, welche Ziffern | `beleg <stichwort> --kanton <kt> --jahr <jahr>` · Ablagegruppen: `kategorien [<begriff>]` |
 | Ausfüllen: Formularziffer / DrTax-Position, rechnen, Bundesspalte | `position <kt> <jahr> <ziffer oder stichwort>` |
 | Zahl, Limite, Pauschale, Frist, Zins (ein Kanton) | `wert <bund\|zh\|sg\|tg\|ar> <jahr> <stichwort>` |
 | Vergleich mehrerer Kantone, «höchster/tiefster» | `vergleich <jahr> <stichwort>` |
-| Alles andere | `suche "<begriffe>" --jur <kt> --jahr <jahr>` → `zeige <chunk-id>` (Firmenprozess: `prozess`) |
+| Alles andere | `suche "<begriffe>" --jur <kt> --jahr <jahr>` → `zeige <chunk-id>` |
 
-Skills: `belege-ablage` (relevant?, Kategorie) · `steuererklaerung-np` (ausfüllen, ganzer Fall) · `steuerwiki` (Fachfragen).
+Skills: `belege-ablage` (relevant?, Ablage) · `steuererklaerung-np` (ausfüllen, ganzer Fall) · `steuerwiki` (Fachfragen).
 
 Regeln:
 1. Jede Zahl mit Fundstelle (Chunk-ID) und Status (✅ verifiziert · ☑️ agent-geprüft = Fundstelle geprüft, Abnahme offen · ⚠️ strittig).
 2. Kanton (Staats-/Gemeindesteuer) und Bund (direkte Bundessteuer) getrennt nennen; wie der Bund im Formular erfasst wird, steht in `position`.
 3. **Nur belegte Aussagen:** was weder die Tool-Ausgabe noch ein geöffneter Chunk sagt, weglassen oder als «nicht geprüft» kennzeichnen –
    besonders Nebenaussagen zum Bund. Ist der Bund gefragt und unklar → `wert bund <jahr> …` bzw. `suche … --jur bund`.
-4. Unsicher → nie schätzen: Pendenz an SB bzw. Prüfkorb. Fachliche Beurteilung bleibt bei SB/ML.
-5. Die KI reicht nie ein und antwortet nie dem Steueramt (nur ML/SB).
+4. Unsicher → nie schätzen: offenen Punkt bzw. «zur Prüfung» ausweisen. Die fachliche Beurteilung bleibt bei der Fachperson.
+5. Die KI reicht keine Steuererklärung ein und antwortet nicht selbst der Steuerbehörde.
 6. Keine Mandantendaten ins Wiki oder in MEMORY.md schreiben.

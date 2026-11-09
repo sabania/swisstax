@@ -1,0 +1,43 @@
+# Vorlage für einen Firmen-Adapter: kopieren nach firmen/<firma>/ablage.yaml und ausfüllen.
+firma: <firmenname>
+system: <DMS, z.B. M-Files, SharePoint, Ordner>
+stand: <datum>
+status: Vorlage
+beschreibung: Je Ablagegruppe die eigene Klasse/Kategorie eintragen. Fehlt eine Gruppe, gibt das Werkzeug den neutralen Gruppennamen aus.
+gruppen:
+  beleg-einzureichen:
+    kategorie: <eigene Kategorie>
+  beleg-aufbewahren:
+    kategorie: <eigene Kategorie>
+  deklaration:
+    kategorie: <eigene Kategorie>
+  deklaration-unterjaehrig:
+    kategorie: <eigene Kategorie>
+  steuerausscheidung:
+    kategorie: <eigene Kategorie>
+  uebermittlung:
+    kategorie: <eigene Kategorie>
+  frist:
+    kategorie: <eigene Kategorie>
+  korrespondenz-mandant:
+    kategorie: <eigene Kategorie>
+  veranlagung:
+    kategorie: <eigene Kategorie>
+  provisorische-rechnung:
+    kategorie: <eigene Kategorie>
+  steuerkonto:
+    kategorie: <eigene Kategorie>
+  auflage:
+    kategorie: <eigene Kategorie>
+  rechtsmittel:
+    kategorie: <eigene Kategorie>
+  andere-steuerart:
+    kategorie: <eigene Kategorie>
+  juristische-person:
+    kategorie: <eigene Kategorie>
+  nicht-relevant:
+    kategorie: <eigene Kategorie>
+belege_fest:
+  <beleg-id>:
+    gruppe: beleg-einzureichen
+    grund: <interne Regel, z.B. immer einreichen>

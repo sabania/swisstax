@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Baut das installierbare Plugin «steuerwiki» (Claude-Plugin-Format; läuft in OpenClaw und Claude Code).
 
-  python3 tools/build_plugin.py [--out dist/steuerwiki-plugin] [--tgz]
+  python3 tools/build_plugin.py [--out dist/steuerwiki-plugin] [--tgz] [--firma consis]
 
-Inhalt: Skills (L1), MCP-Server mit den Tools wert/position/beleg/ablage/suche/zeige/prozess/mfiles (Zugriff auf L1/L2),
+Inhalt: Skills (L1), MCP-Server mit den Tools ablage/beleg/kategorien/position/wert/vergleich/suche/zeige (Zugriff auf L1/L2),
 Wissensindex (index/lookup.json, index/fts.sqlite mit allen Chunks), Quick- und Wiki-Seiten (für `zeige`).
 Nicht enthalten (bleiben im Repository/ZIP): raw/ (Original-PDFs), sources/, chunks/ als Einzeldateien, data/, tools zur Pflege.
 Laufzeit: nur Python 3 (Standardbibliothek).
@@ -24,6 +24,7 @@ def main():
     ap.add_argument("--out", default=str(ROOT / "dist" / "steuerwiki-plugin"))
     ap.add_argument("--tgz", action="store_true")
     ap.add_argument("--version", default="1.0.0")
+    ap.add_argument("--firma", help="Firmen-Adapter aktivieren (firmen/<firma>/ablage.yaml), z.B. consis")
     a = ap.parse_args()
     out = Path(a.out)
     subprocess.run([sys.executable, str(ROOT / "tools" / "build_lookup.py")], check=True)
@@ -33,13 +34,17 @@ def main():
     (out / ".claude-plugin" / "plugin.json").write_text(json.dumps({
         "name": "steuerwiki",
         "version": a.version,
-        "description": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; Steuerjahre 2025/2026): Belege prüfen, in M-Files ablegen, "
+        "description": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; Steuerjahre 2025/2026): Belege prüfen und ablegen, "
                        "Steuererklärung ausfüllen (DrTax-Positionen) – Skills und Lookup-Tools mit Fundstellen.",
         "author": {"name": "Steuer-Wiki"},
         "keywords": ["steuern", "schweiz", "steuererklaerung", "m-files", "drtax"],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
-    (out / ".mcp.json").write_text(json.dumps({"mcpServers": {"steuerwiki": {
-        "command": "python3", "args": ["${CLAUDE_PLUGIN_ROOT}/tools/mcp_server.py"]}}}, indent=2), encoding="utf-8")
+    srv = {"command": "python3", "args": ["${CLAUDE_PLUGIN_ROOT}/tools/mcp_server.py"]}
+    if a.firma:
+        if not (ROOT / "firmen" / a.firma / "ablage.yaml").exists():
+            raise SystemExit(f"Firmen-Adapter firmen/{a.firma}/ablage.yaml fehlt")
+        srv["env"] = {"STEUERWIKI_FIRMA": a.firma}
+    (out / ".mcp.json").write_text(json.dumps({"mcpServers": {"steuerwiki": srv}}, indent=2), encoding="utf-8")
     for s in SKILLS:
         shutil.copytree(ROOT / "skills" / s, out / "skills" / s)
     (out / "tools").mkdir()
@@ -48,18 +53,19 @@ def main():
     (out / "index").mkdir()
     for f in ("lookup.json", "fts.sqlite"):
         shutil.copy2(ROOT / "index" / f, out / "index" / f)
-    for d in ("quick", "wiki"):
-        shutil.copytree(ROOT / d, out / d)
+    for d in ("quick", "wiki", "firmen"):
+        shutil.copytree(ROOT / d, out / d, ignore=shutil.ignore_patterns("quellen"))
     for f in ("AGENTS.md", "KONZEPT.md"):
         shutil.copy2(ROOT / f, out / f)
     shutil.copy2(ROOT / "openclaw" / "AGENTS.workspace-snippet.md", out / "AGENTS.workspace-snippet.md")
     (out / "README.md").write_text(f"""# Plugin «steuerwiki» {a.version}
 
-Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; 2025/2026) + Firmenprozess Steuererklärung NP (consis).
+Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; 2025/2026): Belege prüfen (steuerrelevant?), ablegen (Ablagegruppe/Kategorie), Steuererklärung ausfüllen.
 
 - **Skills** (werden bei Bedarf geladen): {', '.join(SKILLS)}
-- **Tools** (MCP-Server `steuerwiki`, in OpenClaw `steuerwiki__<name>`): wert, position, beleg, ablage, suche, zeige, prozess, mfiles
-- **Wissen:** index/lookup.json (Eckwerte, Positionen, Belege, Einreichepflicht, M-Files, Prozess), index/fts.sqlite (Volltext aller
+- **Tools** (MCP-Server `steuerwiki`, in OpenClaw `steuerwiki__<name>`): ablage, beleg, kategorien, position, wert, vergleich, suche, zeige
+- **Firmen-Adapter:** {a.firma or 'keiner (neutrale Ablagegruppen)'} – siehe firmen/README.md
+- **Wissen:** index/lookup.json (Eckwerte, Positionen, Belege, Einreichepflicht, Ablagegruppen, Adapter), index/fts.sqlite (Volltext aller
   Quellen-Chunks), quick/ und wiki/ (Seiten für `zeige`). Originale und Volltexte: Repository/ZIP.
 - Voraussetzung: `python3` (nur Standardbibliothek) auf dem Gateway-Host.
 

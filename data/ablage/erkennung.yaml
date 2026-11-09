@@ -1,8 +1,8 @@
-# Erkennung von Dokumenten für Schritt 1 (Triage): Stichworte je Dokumenttyp.
+# Erkennung eingegangener Dokumente (firmenunabhängig): Stichworte je Belegtyp und je Verfahrensdokument.
 # Heuristik für tools/steuer.py ablage – die Entscheidung trifft der Agent nach Lesen des Dokuments.
-# stark = typische Titel/Begriffe (hohes Gewicht), schwach = Hinweise (tiefes Gewicht), nicht = spricht dagegen.
-# Belegtypen (beleg: <id>) übernehmen Relevanz/Positionen aus data/belege-teil*.yaml; Kategorie nach Regel in data/firma/mfiles.yaml.
-# Prozessdokumente (ohne beleg) haben Klasse/Kategorie/Weiterleitung direkt aus dem Prozessbeschrieb.
+# stark = typische Titel/Begriffe (5 Punkte, im Titel 8), schwach = Hinweise (1), nicht = Gegenindiz (−5). DE/FR/IT, OCR-tolerant.
+# Belegtypen (Schlüssel = Beleg-ID aus data/belege-teil*.yaml) übernehmen Relevanz/Positionen von dort; Ablagegruppe nach Einreichepflicht.
+# Verfahrensdokumente (Steuerbehörde, Deklaration, Korrespondenz) haben eine feste Ablagegruppe (data/ablage/gruppen.yaml).
 belegtypen:
   lohnausweis:
     stark:
@@ -619,9 +619,10 @@ belegtypen:
     - treuhand
     - beratung
     - honorar
-prozessdokumente:
+verfahrensdokumente:
   veranlagung:
     name: Veranlagungsverfügung / Einschätzungsentscheid / definitive Steuerrechnung (Bund, Kanton/Gemeinde, Kapitalleistung)
+    gruppe: veranlagung
     stark:
     - veranlagungsverfuegung
     - einschaetzungsentscheid
@@ -651,13 +652,10 @@ prozessdokumente:
     - grundstueckgewinn
     - grundstueckgewinnsteuer
     - kontoauszug
-    klasse: Veranlagung + def. Steuerrechnung
-    kategorie: null
-    weiter: Schritt 5 (Kontrolle Veranlagung)
     steuerjahr: Steuerperiode, für welche veranlagt wird (nicht das Ausstellungsjahr)
-    quelle: steuerprozess-np-2026-10-27 S. 9, S. 23
   provisorische-rechnung:
     name: Provisorische Steuerrechnung (Bund, Kanton/Gemeinde)
+    gruppe: provisorische-rechnung
     stark:
     - provisorische steuerrechnung
     - provisorische rechnung
@@ -675,13 +673,10 @@ prozessdokumente:
     - steuerbezug
     - faellig
     - einzahlungsschein
-    klasse: Prov. Steuerrechnung
-    kategorie: null
-    weiter: Schritt 6 (provisorische Rechnung)
     steuerjahr: Steuerjahr der provisorischen Rechnung
-    quelle: steuerprozess-np-2026-10-27 S. 9, S. 24
   auflage-nachfrage:
     name: Auflage / Nachfrage / Buchprüfung des Steueramts
+    gruppe: auflage
     stark:
     - auflage
     - auflage zur steuererklaerung
@@ -700,12 +695,9 @@ prozessdokumente:
     - frist
     - steueramt
     - unterlagen nachreichen
-    klasse: Auflage/Buchprüfung
-    kategorie: null
-    weiter: Schritt 5 (5.4 E-Mail an SB mit Frist und Dokument-Link)
-    quelle: steuerprozess-np-2026-10-27 S. 20–23
   einsprache-rekurs:
     name: Einsprache / Einspracheentscheid / Rekurs
+    gruppe: rechtsmittel
     stark:
     - einsprache
     - einspracheentscheid
@@ -716,12 +708,9 @@ prozessdokumente:
     schwach:
     - rechtsmittel
     - steuerrekursgericht
-    klasse: Einsprache/Rekurs
-    kategorie: null
-    weiter: Schritt 5 (nur ML / Steuerexperte)
-    quelle: steuerprozess-np-2026-10-27 S. 23
   kontoauszug-steueramt:
     name: Kontoauszug des Steueramts (Steuerkonto, Zahlungen, Saldo) – nicht Bank-Kontoauszug
+    gruppe: steuerkonto
     stark:
     - kontoauszug steuern
     - steuerkonto
@@ -735,12 +724,9 @@ prozessdokumente:
     - saldo zu ihren gunsten
     - verzugszins
     - vergütungszins
-    klasse: Kontoauszug
-    kategorie: null
-    weiter: Schritt 5 (Zahlung nur Indiz über Kontoauszug)
-    quelle: steuerprozess-np-2026-10-27 S. 22–23
   steuererklaerung-formular:
     name: Steuererklärung / Hauptformular (leer vom Steueramt oder ausgefüllt vom Kunden)
+    gruppe: deklaration
     stark:
     - hauptformular
     - formular 300
@@ -765,13 +751,9 @@ prozessdokumente:
     - zur steuererklaerung
     - juristische personen
     - honorar
-    klasse: StE
-    kategorie: Deklaration
-    beschreibung: Hauptformular
-    weiter: 1.16 Prozessobjekt nachführen
-    quelle: mfiles-kategorien-ste-2026-11-05 Nr. 23
   fristerstreckung:
     name: Fristerstreckungsgesuch / Bestätigung Fristerstreckung
+    gruppe: frist
     stark:
     - fristerstreckung
     - fristverlaengerung
@@ -784,31 +766,21 @@ prozessdokumente:
     schwach:
     - frist
     - gesuch
-    klasse: StE
-    kategorie: Fristenliste NP
-    weiter: nur Fristenkontrolle (keine Belegablage)
-    quelle: mfiles-kategorien-ste-2026-11-05 Nr. 2
   uebermittlungsquittung:
-    name: Übermittlungsquittung Online-Übermittlung (DrTax)
+    name: Übermittlungs-/Eingangsquittung der eingereichten Steuererklärung
+    gruppe: uebermittlung
     stark:
     - uebermittlungsquittung
     - uebermittlungsbestaetigung
     - quittung online-uebermittlung
     - eingangsbestaetigung
     schwach:
-    - dr. tax
-    - drtax
     - uebermittlung
-    klasse: StE
-    kategorie: Übermittlungsbestätigung
-    beschreibung: Übermittlungsquittung
-    weiter: 4.8
-    quelle: mfiles-kategorien-ste-2026-11-05 Nr. 1
   freigabequittung:
-    name: Unterzeichnete Freigabequittung (DeepSign oder Papier)
+    name: Freigabe-/Unterschriftsquittung zur (elektronisch eingereichten) Steuererklärung
+    gruppe: deklaration
     stark:
     - freigabequittung
-    - deepsign
     - freigabe steuererklaerung
     - unterschrieben zurueck
     - zum unterschreiben
@@ -816,14 +788,9 @@ prozessdokumente:
     schwach:
     - unterschrift
     - freigabe
-    klasse: StE
-    kategorie: Deklaration
-    beschreibung: Freigabequittung
-    weiter: 4.6 (Freigabe vorhanden → Einreichung durch ML/SB)
-    hinweis: 'Excel: «Offen: Deklaration oder Unterlagen Kunde?»'
-    quelle: mfiles-kategorien-ste-2026-11-05 Nr. 26
   kundenantwort:
     name: Antworten/Bestätigungen/Checklisten des Kunden, Kundenfreigabe per E-Mail
+    gruppe: korrespondenz-mandant
     stark:
     - checkliste
     - fragebogen
@@ -837,12 +804,9 @@ prozessdokumente:
     schwach:
     - wie besprochen
     - gerne bestaetige ich
-    klasse: StE
-    kategorie: Unterlagen Kunde
-    weiter: 1.16–1.17 Kundenpendenzen abgleichen
-    quelle: mfiles-kategorien-ste-2026-11-05 Nr. 28–31
   steuerausscheidung:
     name: Steuerausscheidung (mehrere Steuerdomizile)
+    gruppe: steuerausscheidung
     stark:
     - steuerausscheidung
     - interkantonale ausscheidung
@@ -850,12 +814,9 @@ prozessdokumente:
     schwach:
     - nebensteuerdomizil
     - liegenschaftskanton
-    klasse: StE
-    kategorie: Steuerausscheidung
-    weiter: 2.6 Prüfpunkt Steuerausscheidung
-    quelle: mfiles-kategorien-ste-2026-11-05 Nr. 22
   unterjaehrige-deklaration:
     name: Unterjährige Deklaration (Tod, Wegzug ins Ausland, Zuzug aus dem Ausland)
+    gruppe: deklaration-unterjaehrig
     stark:
     - unterjaehrig
     - steuerpflicht waehrend
@@ -865,12 +826,9 @@ prozessdokumente:
     schwach:
     - teilperiode
     - unterjaehrige
-    klasse: StE
-    kategorie: Deklaration unterjährig
-    weiter: 1.16
-    quelle: mfiles-kategorien-ste-2026-11-05 Nr. 27
   grundstueckgewinn-erbschaft-schenkung-steuer:
     name: Grundstückgewinnsteuer-, Erbschafts- oder Schenkungssteuer-Verfahren (Steuererklärung/Veranlagung)
+    gruppe: andere-steuerart
     stark:
     - grundstueckgewinnsteuer
     - grundstueckgewinn
@@ -886,12 +844,9 @@ prozessdokumente:
     schwach:
     - veraeusserung
     - grundstueck
-    klasse: eigene Klasse (nicht StE)
-    kategorie: null
-    weiter: Meldung an ML (Schritt 1.14)
-    quelle: steuerprozess-np-2026-10-27 S. 10
   juristische-person:
     name: Unterlagen einer juristischen Person (AG, GmbH, Verein, Stiftung)
+    gruppe: juristische-person
     stark:
     - juristische personen
     - kapitalgesellschaften
@@ -906,7 +861,3 @@ prozessdokumente:
     - che-
     - statuten
     - gmbh
-    klasse: Prüfkorb
-    kategorie: null
-    weiter: Prüfkorb (1.10, nicht Teil des Prozesses NP)
-    quelle: steuerprozess-np-2026-10-27 S. 10

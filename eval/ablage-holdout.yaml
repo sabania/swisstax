@@ -1,5 +1,5 @@
 # Unabhängiges Holdout-Set Dokumenterkennung (Schritt 1): von zwei separaten Agenten erzeugt, ohne Kenntnis der
-# Erkennungsstichworte (data/firma/erkennung.yaml) – 09.11.2026. Fiktive, anonyme Fälle. Auswertung: python3 eval/ablage_test.py eval/ablage-holdout.yaml
+# Erkennungsstichworte (data/ablage/erkennung.yaml) – 09.11.2026. Fiktive, anonyme Fälle. Auswertung: python3 eval/ablage_test.py eval/ablage-holdout.yaml
 faelle:
 - text: 'Lohnausweis – Certificat de salaire – Certificato di salario | Formular 11 | Jahr 2025, von 01.01. bis 31.12. | Arbeitgeber: Beispiel AG, Bahnhofstrasse 12, 8001 Zürich | Arbeitnehmer: Muster Hans
     | 1. Lohn 96''500 | 8. Bruttolohn total | 9. Beiträge AHV/IV/EO/ALV/NBUV'

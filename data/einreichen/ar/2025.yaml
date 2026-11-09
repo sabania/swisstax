@@ -1,7 +1,7 @@
 kanton: ar
 jahr: 2025
 beschreibung: Einreichepflicht der Belege laut amtlichen Quellen AR 2025 (Wegleitung, Formulare, Gesetz). Erstellt durch Agent (Extraktion + unabhängige Prüfung, 09.11.2026); Status agent-geprueft. Entscheidet
-  in M-Files «Belege eingereicht» vs. «Belege Sonstiges» (data/firma/mfiles.yaml).
+  die Ablagegruppe «Steuerbeleg – einzureichen» vs. «nicht einzureichen» (data/ablage/gruppen.yaml).
 status: agent-geprueft
 allgemein:
 - regel: Steuererklärung samt den vorgeschriebenen Beilagen fristgemäss einreichen (Gesetz).

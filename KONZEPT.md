@@ -179,12 +179,12 @@ Aufruf, und L1 liefert in einem Aufruf das, wofür der Agent früher 5–10 Date
 
 | Befehl | liefert |
 |---|---|
-| `wert <jur> <jahr> <stichwort>` | Eckwerte mit Zitat, Chunk, Status; bei Kantonen automatisch der Bundeswert |
-| `position <kt> <jahr> <ziffer\|stichwort>` | Formularposition (= DrTax-Position): Rein, Rechnen, Regel, Limite Kanton/Bund, Beachten, Belege mit M-Files-Kategorie |
-| `beleg <stichwort> --kanton --jahr` | Belegkarte: relevant?, Werte entnehmen, Ziffern, Einreichepflicht (Zitat), M-Files-Kategorie |
-| `ablage "<titel/text>" --kanton --jahr` | Schritt 1: Dokumenttyp (Top 3), Steuerjahr, Klasse/Kategorie/Beschreibung, Weiterleitung, Sicherheit |
+| `ablage "<titel/text>" --kanton --jahr` | Dokument: Typ (Top 3), steuerrelevant, Steuerjahr, Ablagegruppe (+ Kategorie des Firmen-Adapters), Sicherheit |
+| `beleg <stichwort> --kanton --jahr` | Belegkarte: relevant?, Werte entnehmen, Ziffern, Einreichepflicht (Zitat), Ablage |
+| `kategorien [begriff]` | Ablagegruppen und – mit Adapter – die Kategorien der Firmenablage |
+| `position <kt> <jahr> <ziffer\|stichwort>` | Formularposition (= DrTax-Position): Rein, Rechnen, Regel, Limite Kanton/Bund, Bundesspalte, Beachten, Belege |
+| `wert <jur> <jahr> <stichwort>` / `vergleich <jahr> <stichwort>` | Eckwerte mit Zitat, Chunk, Status (Kanton + Bund) / alle Jurisdiktionen nebeneinander |
 | `suche "<begriffe>" --jur --jahr` / `zeige <chunk\|pfad>` | Volltext (SQLite FTS5, unicode61) über alle 8'925 Chunks / Wortlaut |
-| `prozess [schritt\|status\|…]` / `mfiles [begriff]` | Firmenprozess und M-Files-Zuordnung |
 
 Das Werkzeug ist deterministisch (gleiche Frage → gleiche Antwort), braucht nur Python 3 und liest die vorab gebaute
 `index/lookup.json` (`tools/build_lookup.py`). Es gibt es als CLI (`python3 tools/steuer.py …`) und als MCP-Server
@@ -196,24 +196,24 @@ direkt laden. Installation: `openclaw plugins install <ordner> --force --accept-
 Workspace-`AGENTS.md`. Das Plugin enthält Skills, Werkzeug, Index, Quick- und Wiki-Seiten (≈ 7 MB als .tgz); Originale,
 Volltexte und Pflege-Tools bleiben im Repository.
 
-## 9b. Firmenprozess (consis): Steuererklärung NP mit M-Files und DrTax
+## 9b. Ablage eingegangener Dokumente – firmenunabhängig, mit Firmen-Adapter
 
-- **Quellen:** `firma/quellen/` (Prozessbeschrieb 27.10.2026, M-Files-Zuordnungsliste 05.11.2026; sha256 im README).
-- **Daten:** `data/firma/prozess.yaml` (Grundsätze, Rollen, Statusmodell, Schritte 1–6 mit Teilschritten, Querschnitt, Agenten),
-  `data/firma/mfiles.yaml` (11 Kategorien, 32 Dokumentarten, verknüpft mit den 45 Belegtypen), `data/firma/erkennung.yaml`
-  (Stichworte je Dokumenttyp inkl. Prozessdokumenten wie Veranlagung, provisorische Rechnung), `data/einreichen/<kt>/<jahr>.yaml`
-  (Einreichepflicht je Belegtyp laut Wegleitung, mit Zitat – entscheidet «Belege eingereicht» vs. «Belege Sonstiges»),
-  `firma/konfiguration.yaml` (Personen, Schwellen – einzige Stelle mit Namen).
-- **Seiten:** `wiki/firma/prozess-np.md`, `wiki/firma/mfiles-ablage.md`, `quick/ablage-<kt>-<jahr>.md` (Beleg → relevant →
-  Kategorie → einreichen → Ziffern).
-- **Skills:** `belege-ablage` (steuerrelevant?, Typ, Steuerjahr, M-Files-Kategorie), `steuererklaerung-np` (ausfüllen: Positionen,
-  Limiten, Pauschalen). Der Gesamtprozess (Status, Post, Fristenliste, Veranlagung) ist nur Nachschlagewissen (L2, `prozess`), kein Skill –
-  Schwerpunkt sind Relevanz, Kategorie und Ausfüllen.
-- **Widersprüche/offen** (in `data/firma/mfiles.yaml` → `offene_punkte`): Kategorien «Belege WSVZ/Liegenschaften/Scan 1. Seite»
-  nur im Prozessbeschrieb; Zuordnungsliste noch nicht bestätigt; Freigabequittung (Deklaration oder Unterlagen Kunde?);
-  Schrittnummern der Agententabelle ≠ Schritttabelle; kein Zweig für nicht relevante Portal-/Scan-Dokumente.
-- «DrTax-Position» = Ziffer/Code des amtlichen Formulars, das DrTax abbildet (Feldnamen der DrTax-Masken sind nicht im Wiki;
-  die Schnittstelle ist laut Prozessbeschrieb noch offen).
+Das Wiki kennt **keine firmeninternen Abläufe**. Es beantwortet für jedes Dokument: steuerrelevant? → Belegtyp → Steuerjahr →
+Einreichepflicht im Kanton → **Ablagegruppe** – und hilft beim Ausfüllen (Positionen, Limiten, Pauschalen).
+
+- `data/ablage/gruppen.yaml`: 16 neutrale Ablagegruppen (Steuerbeleg einzureichen / nicht einzureichen, Steuererklärung, Veranlagung,
+  provisorische Rechnung, Steuerkonto, Auflage, Rechtsmittel, Frist, Übermittlung, Korrespondenz Mandant, andere Steuerart,
+  juristische Person, nicht relevant …).
+- `data/ablage/erkennung.yaml`: Stichworte je Belegtyp und Verfahrensdokument (DE/FR/IT, OCR-tolerant) für `steuer ablage`.
+- `data/einreichen/<kt>/<jahr>.yaml`: Einreichepflicht der 45 Belegtypen laut Wegleitung/Formular/Gesetz, mit Zitat (Lint prüft) –
+  entscheidet «einzureichen» vs. «nicht einzureichen».
+- **Firmen-Adapter** `firmen/<firma>/ablage.yaml`: übersetzt Gruppen in die eigene Ablage (z.B. consis: M-Files Klasse/Kategorie
+  aus der Zuordnungsliste) und kann einzelne Belegtypen fest zuordnen; aktiviert mit `--firma` bzw. `STEUERWIKI_FIRMA`
+  (Plugin: `build_plugin.py --firma consis`). Ohne Adapter erscheinen die neutralen Gruppennamen. Vorlage: `firmen/vorlage/`.
+- Seiten: `wiki/ablage/ablage.md`, `quick/ablage-<kt>-<jahr>.md` (Beleg → relevant → einreichen → Gruppe → Ziffern).
+- Skills: `belege-ablage` (relevant?, Typ, Steuerjahr, Ablage), `steuererklaerung-np` (ausfüllen).
+- «DrTax-Position» = Ziffer/Code des amtlichen Formulars, das die Steuersoftware abbildet; Feldnamen einzelner Softwaremasken
+  sind nicht im Wiki.
 
 ## 10. Experimente und Tuning (Ergebnisse)
 

@@ -26,16 +26,16 @@ TOOLS = [
      "inputSchema": {"type": "object", "properties": {"jahr": S, "begriff": S}, "required": ["jahr", "begriff"]}},
     {"name": "position", "fn": lambda a: steuer.position(a["kanton"], a["jahr"], a["ziffer_oder_begriff"]),
      "description": "Formularposition (wie in DrTax/amtlichem Formular) eines Kantons: welche Belege rein, wie rechnen, Limite Kanton/Bund, "
-                    "Beachten, Belege mit M-Files-Kategorie, Fundstelle. Mit Ziffer (z.B. 11.1, 16.2) oder Stichwort (z.B. Kinderbetreuung).",
+                    "Beachten, Belege mit Ablage, Fundstelle. Mit Ziffer (z.B. 11.1, 16.2) oder Stichwort (z.B. Kinderbetreuung).",
      "inputSchema": {"type": "object", "properties": {"kanton": {**S, "description": "zh, sg, tg oder ar"}, "jahr": S,
                                                       "ziffer_oder_begriff": S}, "required": ["kanton", "jahr", "ziffer_oder_begriff"]}},
     {"name": "beleg", "fn": lambda a: steuer.beleg(a["begriff"], a.get("kanton"), a.get("jahr")),
      "description": "Belegkarte zu einem Dokumenttyp (z.B. Lohnausweis, Steuerauszug, Kita-Rechnung): steuerrelevant?, Werte entnehmen, "
-                    "Formularziffern im Kanton/Jahr, Einreichepflicht, M-Files-Kategorie.",
+                    "Formularziffern im Kanton/Jahr, Einreichepflicht (mit Zitat), Ablagegruppe/Kategorie.",
      "inputSchema": {"type": "object", "properties": {"begriff": S, "kanton": S, "jahr": S}, "required": ["begriff"]}},
     {"name": "ablage", "fn": lambda a: steuer.ablage(a["text"], a.get("kanton"), a.get("jahr")),
-     "description": "Schritt 1 Eingang: Titel/Text eines eingegangenen Dokuments einordnen → Dokumenttyp (Top 3), steuerrelevant?, Steuerjahr, "
-                    "M-Files Klasse/Kategorie/Beschreibung, Weiterleitung (Schritt 5/6), Sicherheit (tief → Prüfkorb).",
+     "description": "Eingegangenes Dokument einordnen (Titel/Text): Dokumenttyp (Top 3), steuerrelevant?, Steuerjahr, Ablagegruppe "
+                    "und Kategorie der Firmenablage, Sicherheit der Erkennung.",
      "inputSchema": {"type": "object", "properties": {"text": {**S, "description": "Titel und/oder (OCR-)Text des Dokuments"},
                                                       "kanton": S, "jahr": S}, "required": ["text"]}},
     {"name": "suche", "fn": lambda a: steuer.suche(a["query"], a.get("jur"), a.get("jahr"), a.get("typ"), int(a.get("n") or 8)),
@@ -47,12 +47,9 @@ TOOLS = [
      "description": "Zeigt einen Chunk (ID wie zh-wl-2025__c0065) im Wortlaut oder eine Wiki-Seite (Pfad wie quick/werte-zh-2025.md), "
                     "optional nur einen Abschnitt.",
      "inputSchema": {"type": "object", "properties": {"ref": S, "abschnitt": S}, "required": ["ref"]}},
-    {"name": "prozess", "fn": lambda a: steuer.prozess(a.get("arg")),
-     "description": "Firmenprozess Steuererklärung NP (consis): Übersicht, Schritt 1–6, Teilschritt (z.B. 1.12), status, agenten, protokoll, "
-                    "querschnitt. Grenzen der KI und Zuständigkeiten.",
-     "inputSchema": {"type": "object", "properties": {"arg": S}}},
-    {"name": "mfiles", "fn": lambda a: steuer.mfiles(a.get("begriff")),
-     "description": "M-Files Klasse StE: Kategorienliste (ohne Begriff) oder Zuordnung Dokumentart → Kategorie (mit Begriff).",
+    {"name": "kategorien", "fn": lambda a: steuer.kategorien(a.get("begriff")),
+     "description": "Ablagegruppen (Steuerbeleg einzureichen / nicht einzureichen, Steuererklärung, Veranlagung, provisorische Rechnung, "
+                    "Korrespondenz Mandant …) und – falls konfiguriert – die Kategorien der Firmenablage (z.B. M-Files). Mit Begriff: passende Gruppe/Kategorie.",
      "inputSchema": {"type": "object", "properties": {"begriff": S}}},
 ]
 BY = {t["name"]: t for t in TOOLS}
@@ -78,8 +75,8 @@ def main():
                 "protocolVersion": par.get("protocolVersion") or "2025-06-18",
                 "capabilities": {"tools": {"listChanged": False}},
                 "serverInfo": {"name": "steuerwiki", "version": "1.0.0"},
-                "instructions": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; 2025/2026). Für Zahlen zuerst wert, für Formularziffern "
-                                "position, für Dokumente beleg/ablage, sonst suche → zeige. Immer Kanton und Steuerjahr angeben."}})
+                "instructions": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; 2025/2026). Dokumente: ablage/beleg/kategorien; Ausfüllen: "
+                                "position/wert/vergleich; sonst suche → zeige. Immer Kanton und Steuerjahr angeben."}})
         elif meth == "tools/list":
             send({"jsonrpc": "2.0", "id": i, "result": {"tools": [{k: t[k] for k in ("name", "description", "inputSchema")} for t in TOOLS]}})
         elif meth == "tools/call":

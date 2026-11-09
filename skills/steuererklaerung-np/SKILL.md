@@ -6,7 +6,7 @@ description: Steuererklärung natürliche Person ausfüllen (AR/SG/TG/ZH + Bund)
 # Steuererklärung ausfüllen (Positionen in DrTax / amtliches Formular)
 
 Werkzeug: `steuerwiki__position`, `__wert`, `__beleg`, `__vergleich` (ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
-Ergebnis: Werte je Position mit Beleg-Referenz und Fundstelle. Fachliche Verantwortung: SB/ML.
+Ergebnis: Werte je Position mit Beleg-Referenz und Fundstelle. Fachliche Verantwortung: Fachperson.
 
 ## 1. Rahmen
 Kanton (Wohnsitz 31.12.), Steuerjahr, Zivilstand, Kinder (Alter 31.12., Ausbildung), Erwerb je Person, Liegenschaften.
@@ -24,7 +24,7 @@ Fehlendes als «fehlender Beleg» ausweisen; fehlende Belege blockieren die übr
 
 ## 3. Kontrolle
 - Vermögen Vorjahr + Einkommen − Verbrauch ≈ Vermögen aktuell; ungeklärte Differenz als Hinweis.
-  Veränderung ≥ ± CHF 20'000 Einkommen oder ≥ ± CHF 50'000 Vermögen = wesentlich → begründen.
+  Grosse Veränderungen gegenüber dem Vorjahr (Einkommen, Vermögen) begründen oder als Rückfrage ausweisen.
 - Bruttoertrag ↔ Verrechnungssteuer 35 %; Schuldzinsen ↔ Schulden; Kinder: Alimente vs. Kinderabzug (nicht beides).
 - Prüfpunkte: ausländische Quellensteuer (DA-1), Steuerausscheidung (andere Kantone/Liegenschaften).
 
@@ -32,7 +32,7 @@ Fehlendes als «fehlender Beleg» ausweisen; fehlende Belege blockieren die übr
 ```
 Mandant: <Kürzel> · Kanton: <kt> · Steuerjahr: <jahr> · Formular: <aus position>
 | Ziffer | Code | Position | Kanton | Bund | Beleg (Referenz) | Regel/Limite | Fundstelle | Status |
-Fehlende Belege: …   Werte prüfen: …   Hinweise SB/ML (Annahmen, strittig, Ermessen): …
+Fehlende Belege: …   Werte prüfen: …   Hinweise Fachperson (Annahmen, strittig, Ermessen): …
 ```
 
 ## Fallen (aus den Tests)
@@ -43,7 +43,7 @@ Fehlende Belege: …   Werte prüfen: …   Hinweise SB/ML (Annahmen, strittig, 
 - Person 2 hat in Hilfsblättern eigene Codes; Überträge aus Hilfsblättern ins Hauptformular (Ziffer aus `position`).
 - AR/SG/TG-Kinderabzüge je Altersstufe; Bund ≠ Kanton bei Fahrkosten, Versicherung, Kinder, Drittbetreuung, Weiterbildung.
 - Spenden Bund: Freigrenze CHF 100 – erreicht das Total 100, ist der ganze Betrag abziehbar.
-- Status ⬜ offen / ⚠️ strittig → in «Hinweise SB/ML», nie Werte aus einem anderen Jahr/Kanton.
+- Status ⬜ offen / ⚠️ strittig → in «Hinweise Fachperson», nie Werte aus einem anderen Jahr/Kanton.
 
 Nicht abgedeckt (nur Hinweise, Fachperson): Buchhaltung Selbständigerwerb, Erbschafts-/Schenkungs-/Grundstückgewinnsteuer,
 juristische Personen, internationale Doppelbesteuerung im Detail.
