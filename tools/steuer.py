@@ -786,6 +786,7 @@ def formular(kt, jahr) -> str:
             out.append(f"- **{titel}:** " + " · ".join(teile))
     out.append(f"Werte mit Fundstelle: `wert {j} {jahr} <stichwort>`. Status/Abnahme je Wert dort.")
     out += ["", "### Ausfüllregeln",
+            "- Lohn: Nettolohn = Lohnausweis Ziff. 11 (nicht Bruttolohn Ziff. 8); Person 1 und Person 2 je in ihre eigene Ziffer/Code.",
             "- Pauschale oder effektive Kosten: je Position und je Ebene (Kanton | Bund) die günstigere zulässige Variante "
             "(Regel/Rechnen der Position beachten, z.B. «Pauschale ohne Nachweis» nur Kanton).",
             "- Unklarer Sachverhalt (z.B. Heimkehr über Mittag, Arbeitstage): Standardfall erfassen, Annahme offenlegen, Alternative mit "

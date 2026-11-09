@@ -78,3 +78,8 @@ Offen für Fachperson: reports/entscheidungsvorlage-strittig.md Nr. 11 (Einreich
 ## [2026-11-09] query | Haiku-Läufe H5–H7 und Werkzeugtest
 Werkzeugtest eval/werkzeug_test.py: echte Fehlgriffe 46/46 (+3 Rechner), Holdout 2 (270, frisch) 72 % → 98 %.
 Haiku H5/H6: Positionen 10/10, Ablage 8/8, Dokumente 40/40, ganze Fälle 96–99/109, Praxis 31–36/40. Details eval/laeufe/experimente.md (E4).
+
+## [2026-11-09] query | Endstand Haiku: Kürzeltest H8, Fälle H9–H12
+Kantonskürzel 19/22; ganze Fälle 94–100/109 über fünf Läufe (Streuung durch je einen Grundfehler mit Folgefehlern).
+Korrekturen: Tarif-Nullstufen nicht abziehen, Werte je Abzug zusammengefasst, Bund-Eigenmietwert, «halber Abzug» Verpflegung,
+Ausfüllregel Nettolohn. Pakete: dist/steuerwiki-plugin.tgz, dist/steuerwiki-ch-2025-2026.zip.

@@ -123,6 +123,16 @@ Bundesquellen, obwohl die Werkzeugausgabe auf TG verweist – Grenze des kleinen
 **H9 – Fälle ZH und TG nach den Korrekturen aus H7:** TG 24/25 «einreichbar nach Kontrolle» (Bund-Selbstnutzungsabzug jetzt
 richtig; fehlt nur das formale Zwischentotal Ziff. 6), ZH 28/29 (einzig: Tarif-Nullstufe 159'000 vom Vermögen abgezogen →
 Hinweis «kein Abzug im Formular» direkt am Eckwert ergänzt).
+**H10–H12 – Endstand ganze Fälle:** ZH-Einzelläufe nach weiteren Gerüst-Korrekturen (Tarif-Nullstufe nicht abziehen, Werte je
+Abzug zusammengefasst): Vermögen jetzt richtig. Endlauf H12 (alle 4 Fälle): **94/109** – TG 24/25 (einreichbar), AR 30/31,
+ZH 23/29, SG 17/24. Je Fall ein Grundfehler mit Folgefehlern: SG Bruttolohn statt Nettolohn (Daten korrekt, Modellfehler),
+ZH Verpflegung beim Bund doppelt halbiert (Datentext «halber Abzug» danach präzisiert), AR Person 2 unter Ziff. 10.1 statt 10.2.
+Danach Ausfüllregel «Nettolohn = Lohnausweis Ziff. 11; Person 1/2 je eigene Ziffer» ergänzt (nicht mehr gemessen).
+
+**Gesamtbild ganze Fälle mit Haiku:** 78 (H4) → 94–100/109 in fünf Läufen (H5 96, H6 99, H7 100, H12 94). Die Streuung kommt
+davon, dass Haiku pro Lauf an wechselnden Stellen einen Grundfehler macht, der sich durch die Totale zieht; AR und TG sind
+meist «einreichbar nach Kontrolle». Für komplette Erklärungen bleibt die Kontrolle durch die Fachperson nötig (Plausibilität
+Kanton/Bund, Totale); ein grösseres Modell (Lauf B/E3) lag bei 109/109 nach Tuning.
 Bewertungen: `bewertung-haiku-H5.md`, `-H6.md`, `-H7.md`; Protokolle `haiku-H5-*.md` bis `haiku-H7-*.md`.
 
 Lesart: Mit Plugin arbeitet Haiku rund 25 % schneller und mit halb so vielen Aufrufen wie mit Dateisuche (H0). Ab H5 sind
