@@ -35,6 +35,23 @@ openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     
 - Update: neu bauen, `openclaw plugins install … --force --accept-capabilities` erneut ausführen, dann `openclaw skills list`
   (baut den Skill-Index `<state>/plugin-skills/` neu auf; sonst beim nächsten Sessionstart). Neue Sitzungen sehen den Stand.
 
+## Modellwahl (gemessen mit dem Plugin, unabhängig bewertet)
+
+| Aufgabe | Haiku (schnell, günstig) | Sonnet | Empfehlung |
+|---|---|---|---|
+| Eingehende Dokumente einordnen (Typ, relevant, Steuerjahr, einreichen, Kategorie) | 40/40 | – | Haiku |
+| Ablage + Ausfüllen einzelner Belege | 8/8 | 8/8 | Haiku |
+| Positionsfragen (wo eintragen, wie rechnen) | 8–10/10 | 9/10 | beide |
+| Fachfragen (Praxistest, 40) | 31–36 (Streuung) | **39/40** | Sonnet |
+| Ganze Steuererklärung (4 Fälle, 109 Positionen) | 94–108 je Lauf (zuletzt 108 und 107) | 105/110 (ZH, SG, TG fehlerfrei; AR mit zusätzlicher zulässiger Pauschale) | Sonnet; Haiku mit Kontrolle |
+
+- **Empfehlung:** Sonnet als Modell des Steuer-Agenten (`agents.defaults.model`), wenn Fachfragen und ganze Erklärungen
+  bearbeitet werden. Haiku genügt für Belegeingang und Ablage (hohe Mengen, ~25 % schneller) – als eigener Agent mit eigenem
+  Workspace (OpenClaw: ein Modell je Agent-State bzw. `agents.ownership: "explicit"` für mehrere Agenten).
+- Grenze Haiku: Kantonskürzel in Fragen wie «TG: … (Kanton vs. Bund)?» werden teils übergangen; Sonnet beantwortet sie richtig.
+- Jede Ausfüllhilfe bleibt eine Vorlage für die Fachperson (Kontrolle der Totale Kanton/Bund); strittige Punkte nennt der Agent
+  ausdrücklich (`reports/entscheidungsvorlage-strittig.md`).
+
 ## Alternative: Workspace-Installation (Dateien + memory_search)
 
 Das Werkzeug funktioniert auch hier per exec: `python3 steuerwiki/tools/steuer.py <befehl> …`.

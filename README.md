@@ -128,6 +128,8 @@ Unveränderte Gesetzesfassungen werden nicht dupliziert (eine Konsolidierung = e
   Ablage 8/8, 40 eingehende Dokumente 40/40, ganze Steuerfälle 96–100/109 Positionen (Start: 78), Praxisfragen 31–36/40
   (Streuung); ~25 % schneller und halb so viele Werkzeugaufrufe wie mit Dateisuche. Werkzeug-Wortsuche (`eval/werkzeug_test.py`):
   frisch erzeugte Eingaben 72 % → 98 % Treffer.
+- **Sonnet mit Plugin:** Fachfragen 39/40, Ablage 8/8, ganze Steuerfälle ZH/SG/TG fehlerfrei – empfohlenes Modell für
+  Fachfragen und komplette Erklärungen; Haiku für Belegeingang/Ablage (Modellwahl: [`openclaw/README.md`](openclaw/README.md)).
 - **Abnahme durch die Fachperson (ausstehend):** priorisierte Checklisten `reports/abnahme-checkliste-2025.md` / `-2026.md`
   (Wert, Chunk-Link, Zitat; Häkchen → `tools/abnahme.py uebernehmen`), Entscheidungsvorlage zu den 11 strittigen Punkten
   `reports/entscheidungsvorlage-strittig.md` (je Quellen, Rang, Empfehlung). Status ✅ setzt nur die Fachperson.

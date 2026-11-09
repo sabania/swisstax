@@ -373,10 +373,11 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Beleg → Feld:** Unterhaltsvereinbarung / Scheidungsurteil / Zahlungsnachweis Alimente (bezahlte und erhaltene Unterhaltsbeiträge) → Scheidungs-/Trennungsurteil, Alimenten-Bevorschussung; Zahlungen bis und mit Monat des 18. Geburtstags
 - **Rein:** Scheidungsurteil / Unterhaltsvertrag → Kinderunterhalt je Kind · Zahlungsbelege bzw. Abrechnung Alimentenbevorschussung → Beträge bis Monat des 18. Geburtstags
 - **Rechnen:** Σ je Kind: erhaltene Alimente + Bevorschussungen bis und mit Monat, in dem das Kind 18 wird → Code 161; Kanton = Bund
-- **Regel:** Kinderalimente nur bis und mit dem Monat der Volljährigkeit deklarieren; Alimentenbevorschussungen gleichgestellt. Spätere Zahlungen nicht mehr als Einkommen.
+- **Regel:** Kinderalimente versteuert der empfangende Elternteil (nicht das Kind), bis und mit dem Monat der Volljährigkeit; Alimentenbevorschussungen gleichgestellt. Spätere Zahlungen nicht mehr als Einkommen.
 - **Beachten:** Zahlungen nach dem Monat des 18. Geburtstags nicht mehr als Einkommen deklarieren.
 - **Beachten:** Gilt auch für ledige Steuerpflichtige; Gegenstück beim Zahler: Abzug Ziff. 13.2 (Code 255).
 - **Quellen:**
+  - [WL ZH 2025 S. 12](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0057.md) `zh-wl-2025__c0057` – «Ehegatten oder ledige Steuerpflichtige für Kinder erhalten, sind bis und mit dem Monat, in dem das Kind das 18. Altersjahr erreicht, als Einkommen in die Steuererklärung einzutragen.»
   - [Formular 300 ZH 2025 S. 2](../../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0006.md) `zh-form-300-2025__c0006` – «5.2 Unterhaltsbeiträge für minderjährige Kinder (bis zum Monat der Volljährigkeit)»
   - [WL ZH 2025 S. 12](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0057.md) `zh-wl-2025__c0057` – «Den Alimenten gleichgestellt sind Alimentenbevorschussungen.»
   - [WL ZH 2025 S. 12](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0057.md) `zh-wl-2025__c0057` – «Ehegatten oder ledige Steuerpflichtige für Kinder erhalten»

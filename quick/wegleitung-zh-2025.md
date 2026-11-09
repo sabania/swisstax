@@ -143,7 +143,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Rechnen:** Σ je Kind: erhaltene Alimente + Bevorschussungen bis und mit Monat, in dem das Kind 18 wird → Code 161; Kanton = Bund
 - **Beachten:** Zahlungen nach dem Monat des 18. Geburtstags nicht mehr als Einkommen deklarieren.
 - **Beachten:** Gilt auch für ledige Steuerpflichtige; Gegenstück beim Zahler: Abzug Ziff. 13.2 (Code 255).
-- ↗ [Detail](../wiki/zh/zuordnung-zh-2025-detail.md#5-2-einkommen-unterhaltsbeitraege) · [Formular 300 ZH 2025 S. 2](../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0006.md)
+- ↗ [Detail](../wiki/zh/zuordnung-zh-2025-detail.md#5-2-einkommen-unterhaltsbeitraege) · [WL ZH 2025 S. 12](../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0057.md)
 
 ### 5.3 · Ertrag aus Geschäfts- und Korporationsanteilen / unverteilten Erbschaften (Code 162) ☑️
 - **Rein:** Abrechnung Geschäfts-/Korporationsanteil → Ertrag und Beteiligungsquote · Erbschaft: Erbbescheinigung/Aufstellung Erbengemeinschaft → Erbquote, Erträge ab Folgetag des Todestags

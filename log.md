@@ -83,3 +83,8 @@ Haiku H5/H6: Positionen 10/10, Ablage 8/8, Dokumente 40/40, ganze Fälle 96–99
 Kantonskürzel 19/22; ganze Fälle 94–100/109 über fünf Läufe (Streuung durch je einen Grundfehler mit Folgefehlern).
 Korrekturen: Tarif-Nullstufen nicht abziehen, Werte je Abzug zusammengefasst, Bund-Eigenmietwert, «halber Abzug» Verpflegung,
 Ausfüllregel Nettolohn. Pakete: dist/steuerwiki-plugin.tgz, dist/steuerwiki-ch-2025-2026.zip.
+
+## [2026-11-09] query | Endmessung Haiku H13 und Sonnet S1 mit Plugin
+Haiku: ganze Fälle 108/109 und 107/109. Sonnet: Praxis 39/40, Blind 13/14, Positionen 9/10, Ablage 8/8, Fälle ZH/SG/TG fehlerfrei.
+Daten: ZH Fristerstreckung nach Fristablauf, Kinderalimente (Empfänger versteuert), Unterhalt ZH «bis Entscheid beilegen» (Nr. 11).
+Modellempfehlung in openclaw/README.md; BOOTSTRAP.md im Agent-Workspace entfernen.

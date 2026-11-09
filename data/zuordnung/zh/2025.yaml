@@ -609,8 +609,10 @@ positionen:
   belege:
   - unterhaltszahlungen-alimente
   feld: Scheidungs-/Trennungsurteil, Alimenten-Bevorschussung; Zahlungen bis und mit Monat des 18. Geburtstags
-  regel: Kinderalimente nur bis und mit dem Monat der Volljährigkeit deklarieren; Alimentenbevorschussungen gleichgestellt. Spätere Zahlungen nicht mehr als Einkommen.
+  regel: 'Kinderalimente versteuert der empfangende Elternteil (nicht das Kind), bis und mit dem Monat der Volljährigkeit; Alimentenbevorschussungen gleichgestellt. Spätere Zahlungen nicht mehr als Einkommen.'
   quellen:
+  - chunk: zh-wl-2025__c0057
+    zitat: Ehegatten oder ledige Steuerpflichtige für Kinder erhalten, sind bis und mit dem Monat, in dem das Kind das 18. Altersjahr erreicht, als Einkommen in die Steuererklärung einzutragen.
   - chunk: zh-form-300-2025__c0006
     zitat: 5.2 Unterhaltsbeiträge für minderjährige Kinder (bis zum Monat der Volljährigkeit)
   - chunk: zh-wl-2025__c0057

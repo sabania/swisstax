@@ -228,6 +228,7 @@ Ausführlich: `eval/laeufe/experimente.md`, Protokolle und Bewertungen in `eval/
 | Kompakt-Wegleitung | 89 Zugriffe in B, Detailseiten-Zugriffe −65 %, Lesezugriffe −11 % | erste Station für Positionsfragen |
 | Ende-zu-Ende: 4 vollständige Steuererklärungen 2025 (109 Positionen) | 103/109 korrekt; SG/TG/AR fehlerfrei, ZH eine Ermessensannahme | Regel «unklarer Sachverhalt» im Fall-Skill |
 | Schwaches Modell (Haiku) mit Plugin, H0 (Dateien) → H4 → H5 (E4) | Positionen 10/10, Ablage 8/8, Dokumente 40/40, ganze Fälle 78 → 96/109; Praxisfragen 31–35/40 (Streuung); ~25 % schneller, halb so viele Aufrufe | Werkzeug robust gegen Alltagswörter/Komposita/Ziffern, `formular`-Gerüst, Kategorie-Regel im Einstieg |
+| Sonnet mit demselben Plugin (S1) | Praxis 39/40, Blind 13/14, Positionen 9/10, Ablage 8/8, ganze Fälle ZH/SG/TG fehlerfrei (AR: zusätzliche zulässige Pauschale) | Sonnet für Fachfragen und ganze Erklärungen, Haiku für Belegeingang/Ablage |
 | Werkzeug-Wortsuche (`eval/werkzeug_test.py`) | echte Fehlgriffe 11/46 → 46/46; frischer Holdout 72 % → 95–98 % | Holdouts nur messen, Regeln allgemein halten |
 
 Blindtests: Fragen und Referenzen wurden von separaten Agenten **nur aus Primärquellen** erstellt (ohne die aufbereiteten

@@ -138,7 +138,14 @@ richtig, q13 («TG: … (Kanton vs. Bund)?») bleibt bei Haiku falsch (Rückfrag
 **S1 – Sonnet mit demselben Plugin:** ganze Fälle 105/110 – ZH 29/29, SG 24/24, TG 25/25 (je «einreichbar nach Kontrolle»),
 AR 27/32: Sonnet machte eine zulässige Vermögensverwaltungspauschale geltend, die der Musterlösung fehlte (Prüfer: Musterlösung
 unvollständig; Abweichung nur in deren Berechnung). Positionen 9/10, Blindtest 13/14 (b06 wie Haiku: Fristerstreckung nach
-Fristablauf → danach in den Daten ergänzt).
+Fristablauf → danach in den Daten ergänzt), **Praxistest 39/40** (38 richtig + 1 korrekt «nicht im Wiki»; 1 teilweise: wer
+Kinderalimente versteuert → danach in der Position präzisiert), Ablage + Ausfüllen 8/8. q13 («TG: … (Kanton vs. Bund)») richtig.
+Artefakt: Sonnet hängte teils die Erststart-Frage aus `BOOTSTRAP.md` an («Wie möchtest du mich nennen?») → Datei im Workspace
+des Steuer-Agenten entfernen (openclaw/README.md).
+
+**Modellwahl:** Sonnet + Plugin erreicht in allen Testsätzen Bestwerte (Fachfragen 39/40, ganze Erklärungen ohne Grundfehler);
+Haiku + Plugin ist für Belegeingang/Ablage gleich gut und schneller, bei Fachfragen und ganzen Erklärungen aber mit Streuung.
+Empfehlung in `openclaw/README.md` («Modellwahl»).
 
 **Gesamtbild ganze Fälle mit Haiku:** 78 (H4) → 94–100/109 in fünf Läufen (H5 96, H6 99, H7 100, H12 94). Die Streuung kommt
 davon, dass Haiku pro Lauf an wechselnden Stellen einen Grundfehler macht, der sich durch die Totale zieht; AR und TG sind
