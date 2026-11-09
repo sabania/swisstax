@@ -20,6 +20,10 @@ openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     
 - Das Plugin bringt 4 Skills (`steuerwiki`, `steuerprozess-eingang`, `steuererklaerung-np`, `steuerprozess-ablauf`) und den
   MCP-Server `steuerwiki` mit den Tools `steuerwiki__wert`, `__position`, `__beleg`, `__ablage`, `__suche`, `__zeige`,
   `__prozess`, `__mfiles`. Voraussetzung: `python3` auf dem Gateway-Host (nur Standardbibliothek).
+- **Kein `tools.fs.workspaceOnly` für diesen Agenten setzen.** OpenClaw legt Plugin-Skills unter `<state>/plugin-skills/` ab und
+  der Agent liest sie mit dem OpenClaw-Tool `read`; `workspaceOnly: true` sperrt genau diesen Pfad («Path escapes sandbox root»),
+  die Skills wären dann nicht nutzbar (getestet 2026.11.2). Isolation stattdessen über einen eigenen Betriebssystem-Benutzer bzw.
+  die OpenClaw-Sandbox des Gateways.
 - `memory_search`/Indexierung sind für das Plugin nicht nötig (eigene Volltextsuche `suche`). Wer zusätzlich `memory_search`
   über das Wiki will, installiert parallel den Workspace-Weg unten.
 - Format: Claude-Plugin (`.claude-plugin/plugin.json`, `.mcp.json`, `skills/`). Ein reines `plugin.json` (Agent-Plugins-Format)
@@ -59,7 +63,7 @@ Das Werkzeug funktioniert auch hier per exec: `python3 steuerwiki/tools/steuer.p
     entries: {
       steuer: {
         workspace: "~/.openclaw/workspace-steuer",
-        tools: { fs: { workspaceOnly: true } },
+        // tools: { fs: { workspaceOnly: true } },  // nur bei reiner Workspace-Installation möglich; mit Plugin weglassen (Skills!)
         memory: { search: { query: { maxResults: 10, minScore: 0.3 } } },
         // model: "anthropic/claude-sonnet-5-5",   // oder anderes Modell; siehe «Modell» unten
       },

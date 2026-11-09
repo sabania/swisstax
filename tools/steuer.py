@@ -12,7 +12,6 @@ Für Agenten (auch kleine Modelle): EIN Aufruf liefert die kompakte, belegte Ant
   python3 tools/steuer.py zeige <chunk-id|pfad> [--abschnitt "11"]     Chunk/Seite anzeigen
   python3 tools/steuer.py prozess [<schritt>|status|agenten|protokoll|querschnitt]   Firmenprozess (consis)
   python3 tools/steuer.py mfiles [<begriff>]                           M-Files-Kategorien/Dokumentarten
-  python3 tools/steuer.py anleitung [<skill>]                          Skill-Anleitung als Text (wenn Dateien gesperrt sind)
 
 Jede Ausgabe nennt Fundstelle (Chunk-ID) und Status. Der Status ☑️ heisst: Fundstelle geprüft, fachliche Abnahme offen.
 """
@@ -802,20 +801,6 @@ def mfiles(begriff=None) -> str:
     return "\n".join(out)
 
 
-def anleitung(name=None) -> str:
-    """Skill-Inhalt (SKILL.md) als Text – für Agenten, die Skill-Dateien wegen Dateisperren (workspaceOnly) nicht lesen dürfen."""
-    sk = ROOT / "skills"
-    namen = sorted(p.name for p in sk.iterdir() if (p / "SKILL.md").exists()) if sk.exists() else []
-    n = norm(name or "").replace(" ", "-")
-    treffer = [x for x in namen if x == n] or [x for x in namen if n and n in x]
-    if not treffer:
-        return "Anleitungen (Skills): " + ", ".join(namen) + ". Aufruf: anleitung <name>."
-    t = (sk / treffer[0] / "SKILL.md").read_text(encoding="utf-8")
-    if t.startswith("---"):
-        t = t.split("---", 2)[2].lstrip()
-    return t
-
-
 # ---------------------------------------------------------------- CLI
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="steuer", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -829,7 +814,6 @@ def main(argv=None):
     a = sp.add_parser("zeige"); a.add_argument("ref"); a.add_argument("--abschnitt")
     a = sp.add_parser("prozess"); a.add_argument("arg", nargs="?")
     a = sp.add_parser("mfiles"); a.add_argument("begriff", nargs="*")
-    a = sp.add_parser("anleitung"); a.add_argument("name", nargs="?")
     a = sp.add_parser("index")
     x = ap.parse_args(argv)
     if x.cmd == "wert":
@@ -853,8 +837,6 @@ def main(argv=None):
         print(prozess(x.arg))
     elif x.cmd == "mfiles":
         print(mfiles(" ".join(x.begriff) or None))
-    elif x.cmd == "anleitung":
-        print(anleitung(x.name))
     elif x.cmd == "index":
         print(f"{baue_fts(force=True)} Chunks indexiert")
     else:

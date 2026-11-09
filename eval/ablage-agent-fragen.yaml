@@ -1,0 +1,201 @@
+# Agententest Dokumenterkennung (Schritt 1) aus eval/ablage-holdout3.yaml – fiktive Fälle
+fragen:
+- id: d01
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «E-Mail von Muster Hans: «Grüezi, anbei wie gewünscht mein Lohnausweis 2025 von der Beispiel AG in Zürich. Die Spesenpauschale ist ja auf dem Formular
+    drauf.» Anhang: LA_2025_Muster.pdf (Formular 11, Lohnausweis zur Steuererklärung)» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie,
+    Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: lohnausweis (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d02
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «Portal-Upload von Muster Anna (Rorschach): Bescheinigung über Vorsorgebeiträge 2025, Beispiel Vorsorgestiftung 3a der Musterbank, gebundene Selbstvorsorge,
+    einbezahlte Beiträge CHF 5''000.00, Formular 21 EDP.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der
+    nächste Schritt?'
+  soll: 'Dokumenttyp: bescheinigung-saeule3a (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d03
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «Upload Mandantenportal, Muster Hans, Frauenfeld: «eSteuerauszug 2025 Beispielbank Thurgau» – Verzeichnis der Konten und Wertschriften per 31.12.2025
+    mit Barcode, Zusammenfassung Verrechnungssteuer A/B, 14 Seiten.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und
+    was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: steuerauszug-bank (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d04
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «E-Mail Muster Anna, Herisau: «Hier noch das Schreiben der Bank zu unserem Haus, das Sie letztes Jahr auch hatten.» Anhang: Zinsbestätigung 2025,
+    Festhypothek Nr. 1234.56, Saldo per 31.12.2025, belastete Hypothekarzinsen 01.01.–31.12.2025.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse,
+    Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: hypothekarbestaetigung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d05
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «Portal-Upload Familie Muster, Weinfelden: Beispiel Krankenversicherung AG – Prämienbestätigung 2025 für Steuerzwecke, Grundversicherung KVG und
+    Zusatzversicherungen VVG, abzüglich Prämienverbilligung, je versicherte Person.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie,
+    Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: krankenkasse-praemien (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d06
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «Foto per Handy hochgeladen von Muster Hans (Wil SG): Rechnung Zahnarztpraxis Dr. Beispiel, Behandlung März–Mai 2025, Wurzelbehandlung und Krone
+    Zahn 36, Total CHF 2''480.–, Vermerk «nicht kassenpflichtig».» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was
+    ist der nächste Schritt?'
+  soll: 'Dokumenttyp: arzt-zahnarzt-rechnungen (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d07
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «E-Mail Muster Anna, Kreuzlingen: «Die Kita-Rechnungen fürs ganze Jahr habe ich zusammengefasst.» Anhang: Jahresübersicht 2025 Kita Sonnenschein
+    Beispiel GmbH, Betreuung Muster Lea, 3 Tage/Woche, Elternbeitrag total CHF 14''600.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie,
+    Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: kinderbetreuung-rechnungen (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d08
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «Portal-Upload Muster Hans, Teufen AR: Spendenbestätigung 2025 der Stiftung Beispielhilfe Schweiz (gemeinnützig, steuerbefreit) – «Wir danken Ihnen
+    für Ihre Zuwendungen von total CHF 600 im Jahr 2025.»» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der
+    nächste Schritt?'
+  soll: 'Dokumenttyp: spendenbestaetigung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d09
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «E-Mail Muster Anna, Uster: «Ich habe mir das Freizügigkeitsgeld auszahlen lassen, weil wir eine Wohnung gekauft haben.» Anhang: Beispiel Freizügigkeitsstiftung
+    – Auszahlungsbestätigung Vorbezug WEF, Kapitalleistung CHF 80''000, Meldung an die ESTV erfolgt.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse,
+    Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: kapitalleistung-vorsorge (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d10
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «Weitergeleitet von Muster Hans, Gossau SG: «Heute im Briefkasten, können Sie das bitte kontrollieren?» Anhang: Kantonales Steueramt St. Gallen,
+    Veranlagungsverfügung Steuerperiode 2025, Staats- und Gemeindesteuer sowie direkte Bundessteuer, mit Rechtsmittelbelehrung.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird
+    es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: veranlagung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d11
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «E-Mail Gemeindesteueramt Beispielhausen ZH an die Treuhand: Bestätigung Ihres Gesuchs – die Frist zur Einreichung der Steuererklärung 2025 für
+    Muster Hans und Anna wird bis 30.09.2026 erstreckt.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der
+    nächste Schritt?'
+  soll: 'Dokumenttyp: fristerstreckung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d12
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «Scan vom Mandanten hochgeladen, Muster Anna (Speicher): Kantonale Steuerverwaltung Appenzell Ausserrhoden – Auflage zur Steuererklärung 2025.
+    Bitte reichen Sie innert 30 Tagen Belege zu den geltend gemachten Weiterbildungskosten und den Fahrkosten ein.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files
+    abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: auflage-nachfrage (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d13
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «E-Mail Muster Anna, Buchs SG: «Zu Ihren Fragen: Wir haben 2025 nichts geerbt, kein Auto gekauft, und unser Sohn macht seit August die Lehre bei
+    der Beispiel AG. Die 3a-Bescheinigung reiche ich noch nach. Liebe Grüsse»» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr)
+    und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: kundenantwort (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d14
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «Portal-Upload Muster Hans, Winterthur: Freigabequittung zur elektronisch eingereichten Steuererklärung 2025, Kanton Zürich, unterschrieben von
+    beiden Ehegatten, mit Freigabecode und Datum.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste
+    Schritt?'
+  soll: 'Dokumenttyp: freigabequittung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d15
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «Systemmeldung Steuersoftware: Übermittlungsbestätigung – Die Steuererklärung 2025 von Muster Hans, Arbon TG, wurde erfolgreich an die Steuerverwaltung
+    des Kantons Thurgau übermittelt. Eingangsnummer TG-2026-0815, Zeitstempel 14.03.2026 10:42.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse,
+    Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: uebermittlungsquittung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d16
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «E-Mail Muster Hans, Heiden: «Ich hab noch etwas Bitcoin und Ether, hier der Export.» Anhang: Beispiel Exchange AG – Annual Statement 2025, Bestand
+    per 31.12.2025: 0.42 BTC, 3.1 ETH, Wallet-Adresse, Transaktionsliste.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr)
+    und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: krypto-auszug (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d17
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «Portal-Upload Muster Anna, Amriswil: Verfügung der Schätzungsbehörde – Neuschätzung Einfamilienhaus Parzelle Nr. 1234, neuer Steuerwert und Eigenmietwert,
+    gültig ab Steuerperiode 2026, mit Rekursmöglichkeit.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der
+    nächste Schritt?'
+  soll: 'Dokumenttyp: liegenschaft-schaetzung-eigenmietwert (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d18
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «E-Mail Muster Hans, Herisau: «Weiss nicht ob ihr das braucht, schicke mal alles.» Anhang: Beispiel Telecom AG, Rechnung Oktober 2025, Mobile-Abo
+    und Internet privat, CHF 89.90.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: privatrechnungen-alltag (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d19
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «Portal-Upload Muster Anna, Dietikon: Beispiel Versicherungen AG – Police Hausrat- und Privathaftpflichtversicherung, Versicherungssumme Hausrat
+    CHF 100''000, Jahresprämie 2026 CHF 412.–, Vertragsbeginn 01.01.2026.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr)
+    und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: hausrat-haftpflicht-police (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d20
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «E-Mail Muster Hans, Rapperswil-Jona: «Noch die Autoversicherung, falls nötig.» Anhang: Beispiel Assurance AG – Prämienrechnung 2026, Motorfahrzeug-Haftpflicht
+    und Teilkasko, Kontrollschild SG 12345, Fälligkeit 01.01.2026.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was
+    ist der nächste Schritt?'
+  soll: 'Dokumenttyp: motorfahrzeug-versicherung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d21
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «Kantonales Steueramt Zürich, 8090 Zürich | Herr und Frau Muster Hans und Anna, Musterweg 5, 8000 Zürich | Einschätzungsentscheid Staats- und Gemeindesteuern
+    2025 / Veranlagungsverfügung direkte Bundessteuer 2025: steuerbares Einkommen Kanton CHF 98''400, Bund CHF 101''200. Abweichungen von der Deklaration siehe Beilage. Einsprache innert 30 Tagen.» – Schritt
+    1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: veranlagung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d22
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «Stadt St. Gallen, Steueramt | Herr Muster Hans, Dorfstrasse 12, 9000 St. Gallen | Provisorische Rechnung Staats- und Gemeindesteuern 2026, berechnet
+    auf Basis der letzten Veranlagung: Total CHF 7''850.00, fällig 30.09.2026. Die definitive Abrechnung folgt nach der Veranlagung 2026.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant,
+    wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: provisorische-rechnung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d23
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «Kantonale Steuerverwaltung Thurgau, Frauenfeld | Frau Muster Anna, Seeweg 3, 8590 Romanshorn | Steuererklärung 2025 – Auflage: Zur Prüfung Ihrer
+    Deklaration reichen Sie uns bis 15.12.2026 die Belege zu den Liegenschaftsunterhaltskosten sowie den Nachweis der Weiterbildungskosten ein. Ohne Antwort erfolgt eine Ermessensveranlagung.» – Schritt
+    1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: auflage-nachfrage (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d24
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «Kantonale Steuerverwaltung Appenzell Ausserrhoden, Herisau | Herr Muster Hans, Hauptgasse 7, 9100 Herisau | Kontoauszug Steuerkonto per 31.10.2026
+    – Steuerperiode 2025, Staats- und Gemeindesteuern: Soll CHF 9''210.00, Zahlungen CHF 8''000.00, Vergütungszins CHF 12.40, offener Saldo CHF 1''197.60.» – Schritt 1: Welcher Dokumenttyp ist das, ist
+    es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: kontoauszug-steueramt (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d25
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «Beispiel Bank AG, Musterstrasse 10, 8001 Zürich | Herr Muster Hans | Steuerauszug 2025 (eSteuerauszug mit Barcode): Wertschriften- und Guthabenverzeichnis
+    per 31.12.2025, Steuerwert total CHF 186''300.00, Bruttoerträge mit Verrechnungssteuer CHF 1''240.00, VSt-Anspruch CHF 434.00. Bitte der Steuererklärung beilegen.» – Schritt 1: Welcher Dokumenttyp ist
+    das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: steuerauszug-bank (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d26
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «Banque Exemple SA, Genève | Monsieur Muster Hans, 9000 St-Gall | Relevé de dépôt au 31.12.2025 – positions: 120 actions nom. Beispiel AG, 50 parts
+    fonds obligataire CHF; valeur de marché totale CHF 64''380.00. Ce relevé ne remplace pas le relevé fiscal.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt
+    (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: depotauszug (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d27
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «Musterbank Genossenschaft, 8500 Frauenfeld | Herr und Frau Muster Hans und Anna | Zinsbestätigung 2025 Festhypothek Nr. 4711, Objekt Rebenweg
+    4, Weinfelden: Schuld per 31.12.2025 CHF 520''000.00, belastete Hypothekarzinsen 01.01.–31.12.2025 CHF 7''540.00. Zur Vorlage bei der Steuerbehörde.» – Schritt 1: Welcher Dokumenttyp ist das, ist es
+    steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: hypothekarbestaetigung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d28
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «Vorsorgestiftung Sparen 3 der Beispiel Bank AG | Frau Muster Anna, 9100 Herisau | Bescheinigung über Vorsorgebeiträge 2025 (gebundene Vorsorge
+    Säule 3a, Form. 21 EDP): einbezahlte Beiträge vom 01.01.–31.12.2025 CHF 6''000.00.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie,
+    Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: bescheinigung-saeule3a (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d29
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «Banca Esempio SA, Lugano | Signor Muster Hans, 8400 Winterthur | Conteggio dividendo del 14.05.2025 – 200 az. Example Corp. (USA): dividendo lordo
+    USD 180.00, ritenuta alla fonte USA 15% USD 27.00, accredito netto USD 153.00. Modulo DA-1 disponibile su richiesta.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in
+    M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: dividenden-ausland-quellensteuer (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d30
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «Beispiel Kredit AG, 9001 St. Gallen | Herr Muster Hans, Rosenbergstrasse 9, 9000 St. Gallen | Privatkredit Vertrag Nr. PK-2210 – Zinsbescheinigung
+    2025: Restschuld per 31.12.2025 CHF 18''400.00, bezahlte Schuldzinsen 2025 CHF 1''322.50.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie,
+    Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: kredit-darlehen-schuldzinsen (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d31
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «Regionalbank Beispiel, 8280 Kreuzlingen | Frau Muster Anna | Zins- und Saldobestätigung Sparkonto per 31.12.2025: Saldo CHF 42''115.30, Bruttozins
+    2025 CHF 210.00, Verrechnungssteuer 35% CHF 73.50. Jahresabschluss Privatkonto beiliegend.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse,
+    Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: kontoauszug-zinsausweis (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d32
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «Ausgleichskasse Appenzell Ausserrhoden, Herisau | Herr Muster Hans, 9053 Teufen | Rentenbescheinigung für die Steuererklärung 2025: ordentliche
+    Altersrente AHV, ausbezahlt 01.01.–31.12.2025 total CHF 29''400.00 (monatlich CHF 2''450.00).» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse,
+    Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: rentenbescheinigung-ahv-iv (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d33
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «SVA Zürich, Ausgleichskasse | Frau Muster Anna, 8700 Küsnacht | Beitragsverfügung 2025 für Nichterwerbstätige: massgebendes Vermögen CHF 1''250''000
+    und Renteneinkommen; AHV/IV/EO-Jahresbeitrag CHF 3''180.00 zuzüglich Verwaltungskosten, zahlbar in vier Akontoraten.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in
+    M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: ahv-beitragsverfuegung-nichterwerbstaetige (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d34
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «Sozialversicherungsanstalt des Kantons St. Gallen, EL-Stelle | Frau Muster Anna, 9500 Wil | Verfügung Ergänzungsleistungen zur AHV ab 01.01.2025:
+    jährliche EL CHF 14''220.00, monatlich CHF 1''185.00; Vergütung von Krankheitskosten separat. Berechnungsblatt beiliegend.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird
+    es in M-Files abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: ergaenzungsleistungen (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d35
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «Kanton Thurgau, Liegenschaftenschätzung | Herr und Frau Muster, Rebenweg 4, 8570 Weinfelden | Mitteilung Neuschätzung Einfamilienhaus Parz. 1234:
+    Steuerwert CHF 640''000, Eigenmietwert CHF 21''300 ab Steuerperiode 2026. Einsprachefrist 30 Tage ab Zustellung.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files
+    abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: liegenschaft-schaetzung-eigenmietwert (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d36
+  frage: 'Neuer Eingang (Kanton ZH, Steuererklärung 2025): «Arbeitslosenkasse des Kantons Zürich | Herr Muster Hans, 8050 Zürich | Bescheinigung für die Steuererklärung 2025: ausbezahlte Arbeitslosenentschädigung
+    01.03.–30.09.2025 brutto CHF 31''560.40, abzüglich AHV/IV/EO-Beiträge und NBU-Prämie.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse, Kategorie,
+    Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: taggeldbescheinigung (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht ZH 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d37
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «Muster Krankenversicherung AG | Familie Muster Hans und Anna, 9100 Herisau | Prämienbestätigung 2025: Grundversicherung KVG CHF 8''964.00, Zusatzversicherungen
+    VVG CHF 1''296.00, abzüglich Prämienverbilligung CHF 1''200.00; bezahlte Prämien total CHF 9''060.00.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt
+    (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: krankenkasse-praemien (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d38
+  frage: 'Neuer Eingang (Kanton SG, Steuererklärung 2025): «Exemple SA, Lausanne | Certificat de salaire 2025 (formulaire 11) – Monsieur Muster Hans, 9000 St-Gall, période 01.01.–31.12.2025: salaire brut
+    CHF 96''500, cotisations AVS/AI/APG/AC CHF 6''128, prévoyance professionnelle CHF 5''820, salaire net CHF 84''552.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files
+    abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: lohnausweis (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht SG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d39
+  frage: 'Neuer Eingang (Kanton TG, Steuererklärung 2025): «Pensionskasse Beispiel AG | Herr Muster Hans, 8590 Romanshorn | Abrechnung Kapitalauszahlung infolge Pensionierung per 31.08.2025: ausbezahltes
+    Altersguthaben CHF 412''000.00, Valuta 02.09.2025. Die Meldung an die Eidg. Steuerverwaltung erfolgt durch uns.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files
+    abgelegt (Klasse, Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: kapitalleistung-vorsorge (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht TG 2025 (data/einreichen) bzw. Prozessbeschrieb.'
+- id: d40
+  frage: 'Neuer Eingang (Kanton AR, Steuererklärung 2025): «Lotteriegesellschaft Beispiel AG | Frau Muster Anna, 9043 Trogen | Gewinnbestätigung Lotto, Ziehung vom 18.10.2025: Gewinn Rang 3, Betrag CHF
+    48''000.00, ausbezahlt am 05.11.2025 auf Ihr Konto. Bitte für Ihre Unterlagen aufbewahren.» – Schritt 1: Welcher Dokumenttyp ist das, ist es steuerrelevant, wie wird es in M-Files abgelegt (Klasse,
+    Kategorie, Steuerjahr) und was ist der nächste Schritt?'
+  soll: 'Dokumenttyp: lotteriegewinn (Holdout-Referenz). Kategorie/Klasse gemäss data/firma/mfiles.yaml, Einreichepflicht AR 2025 (data/einreichen) bzw. Prozessbeschrieb.'

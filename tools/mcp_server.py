@@ -51,11 +51,6 @@ TOOLS = [
      "description": "Firmenprozess Steuererklärung NP (consis): Übersicht, Schritt 1–6, Teilschritt (z.B. 1.12), status, agenten, protokoll, "
                     "querschnitt. Grenzen der KI und Zuständigkeiten.",
      "inputSchema": {"type": "object", "properties": {"arg": S}}},
-    {"name": "anleitung", "fn": lambda a: steuer.anleitung(a.get("name")),
-     "description": "Liefert die Schritt-für-Schritt-Anleitung eines Skills als Text: steuerwiki (Fachfragen), steuerprozess-eingang "
-                    "(Schritt 1), steuererklaerung-np (Schritt 2 Erfassung), steuerprozess-ablauf (Status, Schritte 3-6). Verwenden, wenn "
-                    "ein Skill gebraucht wird oder die Skill-Datei nicht gelesen werden kann.",
-     "inputSchema": {"type": "object", "properties": {"name": S}}},
     {"name": "mfiles", "fn": lambda a: steuer.mfiles(a.get("begriff")),
      "description": "M-Files Klasse StE: Kategorienliste (ohne Begriff) oder Zuordnung Dokumentart → Kategorie (mit Begriff).",
      "inputSchema": {"type": "object", "properties": {"begriff": S}}},

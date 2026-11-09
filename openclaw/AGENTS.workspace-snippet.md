@@ -20,9 +20,9 @@ genau diesem Kanton/Jahr machen (auch `suche` mit `jur`). Nie Werte eines andere
 | Prozess: Status, wer darf was, Schritt 1–6 | `prozess [<schritt>\|status]` · M-Files: `mfiles [<begriff>]` |
 | Alles andere | `suche "<begriffe>" --jur <kt> --jahr <jahr>` → `zeige <chunk-id>` |
 
-Anleitungen (Skills; Inhalt mit `anleitung <name>` abrufen, falls die Skill-Datei nicht lesbar ist): `steuerwiki` (Fachfragen) ·
-`steuerprozess-eingang` (Schritt 1: Dokumente erkennen, ablegen) · `steuererklaerung-np` (Schritt 2: Erfassung DrTax, ganzer Fall) ·
-`steuerprozess-ablauf` (Status, Schritte 3–6, Grenzen der KI). Bei Prozessaufgaben die passende Anleitung zuerst holen.
+Skills (Anleitungen je Aufgabe): `steuerwiki` (Fachfragen) · `steuerprozess-eingang` (Schritt 1: Dokumente erkennen, ablegen) ·
+`steuererklaerung-np` (Schritt 2: Erfassung DrTax, ganzer Fall) · `steuerprozess-ablauf` (Status, Schritte 3–6, Grenzen der KI).
+Bei Prozessaufgaben zuerst den passenden Skill lesen.
 
 Regeln:
 1. Jede Zahl mit Fundstelle (Chunk-ID) und Status (✅ verifiziert · ☑️ agent-geprüft = Fundstelle geprüft, Abnahme offen · ⚠️ strittig).
