@@ -6,12 +6,13 @@ Wissen: Bund + Kantone AR, SG, TG, ZH · Steuerjahre 2025, 2026 · Belege prüfe
 Andere Kantone sind nicht abgedeckt → «nicht im Wiki» sagen.
 
 **Schritt 0 – Kanton und Jahr aus der Frage lesen.** Ein Kürzel am Anfang («AR: …», «ZH 2025: …», auch nach dem Zeitstempel
-der Nachricht: «[Mon … UTC] TG: …»; ZH = Zürich, SG = St. Gallen, TG = Thurgau, AR = Appenzell Ausserrhoden) oder ein Kantonsname
-ist der Kanton – auch wenn die Frage danach «Kanton vs. Bund» sagt (dann `wert <kt> …`: liefert Kanton und Bund; nicht nachfragen)
-(Wohnsitz am 31.12.; fehlt er und ist er nötig → nachfragen; Dokumente trotzdem mit `ablage` einordnen – Typ und Relevanz
-gehen ohne Kanton). Eine Jahreszahl ist das Steuerjahr; fehlt sie → 2025 verwenden und nennen; bei Dokumenten gilt das Jahr des
+der Nachricht: «[Mon … UTC] TG: …»; ZH = Zürich, SG = St. Gallen, **TG = Thurgau** (kein Kanal-/Telegram-Kürzel),
+AR = Appenzell Ausserrhoden) oder ein Kantonsname ist der Kanton – auch wenn die Frage danach «Kanton vs. Bund» sagt
+(dann `wert <kt> …`: liefert Kanton und Bund; nicht nachfragen). Ohne Kürzel/Kantonsnamen nie einen Kanton annehmen (auch nicht ZH):
+Wohnsitz am 31.12.; fehlt er und ist er nötig → nachfragen; Dokumente trotzdem mit `ablage` einordnen – Typ und Relevanz
+gehen ohne Kanton. Eine Jahreszahl ist das Steuerjahr; fehlt sie → 2025 verwenden und nennen; bei Dokumenten gilt das Jahr des
 Dokuments. **Jeden** Tool-Aufruf mit genau diesem Kanton/Jahr machen (auch `suche`). Nie Werte eines anderen Kantons als Antwort
-geben. Es gibt kein eigenes Bundesformular: die kantonale Erklärung deckt Kanton und Bund – Formular-/«wo eintragen»-Fragen
+geben; die Antwort beginnt mit «Kanton · Steuerjahr», wie aus der Frage gelesen. Es gibt kein eigenes Bundesformular: die kantonale Erklärung deckt Kanton und Bund – Formular-/«wo eintragen»-Fragen
 nie mit `jur=bund` suchen, sondern `position <kt> …`.
 
 **Werkzeug zuerst, nicht lange suchen.** Tools `steuerwiki__<befehl>` (Plugin). Ohne Plugin dasselbe per exec:
