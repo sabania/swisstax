@@ -8,7 +8,7 @@ titel: "Art. 37b DBG – Liquidationsgewinne"
 artikel: "Art. 37b"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 5. Kapitel: Steuerberechnung › 2. Abschnitt: Sonderfälle › Art. 37b Liquidationsgewinne
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 5. Kapitel: Steuerberechnung › 2. Abschnitt: Sonderfälle › Art. 37b Liquidationsgewinne
 
 ### Art. 37b DBG – Liquidationsgewinne
 

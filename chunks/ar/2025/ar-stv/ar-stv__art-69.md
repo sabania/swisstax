@@ -8,7 +8,7 @@ titel: "Art. 69 StV AR – Wirtschaftliche Handänderung (Art. 234 Abs. 1 StG)"
 artikel: "Art. 69"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Zweiter Teil: Steuern der Gemeinden und von Körperschaften › Art. 69 Wirtschaftliche Handänderung (Art. 234 Abs. 1 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Zweiter Teil: Steuern der Gemeinden und von Körperschaften › Art. 69 Wirtschaftliche Handänderung (Art. 234 Abs. 1 StG)
 
 ### Art. 69 StV AR – Wirtschaftliche Handänderung (Art. 234 Abs. 1 StG)
 

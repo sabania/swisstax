@@ -8,7 +8,7 @@ titel: "Art. 112 ter StG SG – b) auf Antrag"
 artikel: "Art. 112 ter"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 112 ter b) auf Antrag
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 112 ter b) auf Antrag
 
 ### Art. 112 ter StG SG – b) auf Antrag
 

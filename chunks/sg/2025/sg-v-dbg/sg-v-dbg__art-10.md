@@ -8,7 +8,7 @@ titel: "Art. 10 V DBG SG – Bezug"
 artikel: "Art. 10"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 10 Bezug
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 10 Bezug
 
 ### Art. 10 V DBG SG – Bezug
 

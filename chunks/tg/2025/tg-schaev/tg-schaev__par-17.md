@@ -8,7 +8,7 @@ titel: "§ 17 SchäV TG – Industriebauten"
 artikel: "§ 17"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 17 Industriebauten
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 17 Industriebauten
 
 ### § 17 SchäV TG – Industriebauten
 

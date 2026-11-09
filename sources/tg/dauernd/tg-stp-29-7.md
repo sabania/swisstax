@@ -6,12 +6,14 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-29-nr-7-ubrige-fur-die-ausubung-des-berufes-erforderliche-kosten
 raw: raw/tg/dauernd/tg-stp-29-7.html
 sha256: 16eaa5cd1e4ba366b8181884681ba95111fca49b52acf9ffc18c271a0808c1b7
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
 ---
 # StP 29 Nr. 7: Übrige Berufskosten
 

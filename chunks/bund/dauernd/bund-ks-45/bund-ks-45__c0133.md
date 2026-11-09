@@ -2,14 +2,14 @@
 id: bund-ks-45__c0133
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.3.3 Stunden- und Tageslohn – Umrechnung auf 2 160 Stunden / 260 Tage"
 ziffer: "7.3.3"
 seiten: "43"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.3 Stunden- oder Tageslohn · S. 43
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.3 Stunden- oder Tageslohn · S. 43
 
 7.3.3 Erwerbstätigkeiten im Stunden- oder Tageslohn
 Ist ein quellensteuerpflichtiger Arbeitnehmer im Stunden- oder Tageslohn angestellt und wird

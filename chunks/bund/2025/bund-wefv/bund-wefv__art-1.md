@@ -2,13 +2,13 @@
 id: bund-wefv__art-1
 quelle: bund-wefv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 1 WEFV – Zulässige Verwendungszwecke"
 artikel: "Art. 1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · WEFV · 1. Kapitel: Allgemeine Bestimmungen › Art. 1 Zulässige Verwendungszwecke
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · WEFV · 1. Kapitel: Allgemeine Bestimmungen › Art. 1 Zulässige Verwendungszwecke
 
 ### Art. 1 WEFV – Zulässige Verwendungszwecke
 

@@ -8,7 +8,7 @@ titel: "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Winte
 seiten: "24"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Einfamilienhäuser · S. 24
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Einfamilienhäuser · S. 24
 
 Landwerte Wohnbauland
     Einfamilienhäuser (Ziff. 13 und 23)

@@ -9,7 +9,7 @@ ziffer: "10 / 43"
 seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 10 · S. 14
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 10 · S. 14
 
 Berufliche Vorsorge (2. Säule)   Ziffer 10
 

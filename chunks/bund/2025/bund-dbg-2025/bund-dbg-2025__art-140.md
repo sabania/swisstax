@@ -8,7 +8,7 @@ titel: "Art. 140 DBG – Voraussetzungen für die Beschwerde des Steuerpflichtig
 artikel: "Art. 140"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 140 Voraussetzungen für die Beschwerde des Steuerpflichtigen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 140 Voraussetzungen für die Beschwerde des Steuerpflichtigen
 
 ### Art. 140 DBG – Voraussetzungen für die Beschwerde des Steuerpflichtigen
 

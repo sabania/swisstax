@@ -9,7 +9,7 @@ ziffer: "6"
 seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Zeitreihen › Anpassung 1.1.2023 · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Zeitreihen › Anpassung 1.1.2023 · S. 5
 
     Anpassung der BVG-Risikorenten an die Teuerung
     am 1. Januar 2023

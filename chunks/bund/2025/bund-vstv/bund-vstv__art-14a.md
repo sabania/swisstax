@@ -2,13 +2,13 @@
 id: bund-vstv__art-14a
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 14a VStV"
 artikel: "Art. 14a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · I. Gegenstand der Steuer › 1a. Guthaben im Konzern › Art. 14a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · I. Gegenstand der Steuer › 1a. Guthaben im Konzern › Art. 14a
 
 ### Art. 14a VStV
 

@@ -9,7 +9,7 @@ ziffer: "5.1"
 seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.1 Allgemeines · S. 3–4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.1 Allgemeines · S. 3–4
 
 5.   Abzugsberechtigung für Beiträge
 

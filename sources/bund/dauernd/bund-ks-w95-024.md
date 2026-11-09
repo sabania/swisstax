@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '1995-06-30'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/Fd7ZiKQ5C3fY/dbst-ks-w95-024-de.pdf
@@ -14,6 +15,8 @@ sha256: 8ad1e77230e05b0ca0af3f2351ad74471a02f8816eb0004f05593559b428a9b0
 abgerufen: '2026-11-09'
 seiten: 6
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '1995-01-01'
 ---
 # ESTV-Kreisschreiben Nr. w95-024: Kapitalversicherungen mit Einmalprämie
 

@@ -8,7 +8,7 @@ titel: "Art. 6 QStV – Bezugsprovision"
 artikel: "Art. 6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 6 Bezugsprovision
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 6 Bezugsprovision
 
 ### Art. 6 QStV – Bezugsprovision
 

@@ -8,7 +8,7 @@ titel: "Art. 317 StG SG – Ausgleich der Folgen der kalten Progression"
 artikel: "Art. 317"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 317 Ausgleich der Folgen der kalten Progression
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 317 Ausgleich der Folgen der kalten Progression
 
 ### Art. 317 StG SG – Ausgleich der Folgen der kalten Progression
 

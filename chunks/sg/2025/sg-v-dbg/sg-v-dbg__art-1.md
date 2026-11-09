@@ -8,7 +8,7 @@ titel: "Art. 1 V DBG SG – Behörden"
 artikel: "Art. 1"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · I. Organisation › Art. 1 Behörden
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · I. Organisation › Art. 1 Behörden
 
 ### Art. 1 V DBG SG – Behörden
 

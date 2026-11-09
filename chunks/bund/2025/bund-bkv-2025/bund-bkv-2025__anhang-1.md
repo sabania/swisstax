@@ -8,7 +8,7 @@ titel: "Anhang BKV"
 artikel: "Anhang"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Anhang
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Anhang
 
 ### Anhang BKV
 

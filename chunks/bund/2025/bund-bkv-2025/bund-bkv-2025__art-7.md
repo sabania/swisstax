@@ -8,7 +8,7 @@ titel: "Art. 7 BKV – Übrige Berufskosten"
 artikel: "Art. 7"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 7 Übrige Berufskosten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 7 Übrige Berufskosten
 
 ### Art. 7 BKV – Übrige Berufskosten
 

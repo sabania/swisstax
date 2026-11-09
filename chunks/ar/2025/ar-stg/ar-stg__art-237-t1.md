@@ -8,7 +8,7 @@ titel: "Art. 237 StG AR – Steuerbefreiung (Teil 1/2)"
 artikel: "Art. 237"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 3. Handänderungssteuer › Art. 237 Steuerbefreiung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 3. Handänderungssteuer › Art. 237 Steuerbefreiung
 
 ### Art. 237 StG AR – Steuerbefreiung
 

@@ -2,14 +2,14 @@
 id: bund-ks-30__c0145
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 17 Inkrafttreten und ersetzte Kreisschreiben"
 ziffer: "17"
 seiten: "43"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 17 Inkrafttreten · S. 43
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 17 Inkrafttreten · S. 43
 
 17   Inkrafttreten
 

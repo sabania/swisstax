@@ -8,7 +8,7 @@ titel: "Art. 121 DBG – Bezugsverjährung"
 artikel: "Art. 121"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 5. Kapitel: Verjährung › Art. 121 Bezugsverjährung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 5. Kapitel: Verjährung › Art. 121 Bezugsverjährung
 
 ### Art. 121 DBG – Bezugsverjährung
 

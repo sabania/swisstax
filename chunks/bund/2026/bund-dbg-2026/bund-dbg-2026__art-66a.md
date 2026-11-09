@@ -8,7 +8,7 @@ titel: "Art. 66a DBG – Gewinne von juristischen Personen mit ideellen Zwecken"
 artikel: "Art. 66a"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 66a Gewinne von juristischen Personen mit ideellen Zwecken
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 66a Gewinne von juristischen Personen mit ideellen Zwecken
 
 ### Art. 66a DBG – Gewinne von juristischen Personen mit ideellen Zwecken
 

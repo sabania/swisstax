@@ -8,7 +8,7 @@ titel: "Art. 58 StG AR – I. Begriff der juristischen Person"
 artikel: "Art. 58"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 58 I. Begriff der juristischen Person
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 58 I. Begriff der juristischen Person
 
 ### Art. 58 StG AR – I. Begriff der juristischen Person
 

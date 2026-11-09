@@ -8,7 +8,7 @@ titel: "§ 54b StV TG – Wechsel der Steuerpflicht"
 artikel: "§ 54b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 9. Gemeindesteuern › § 54b Wechsel der Steuerpflicht
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 9. Gemeindesteuern › § 54b Wechsel der Steuerpflicht
 
 ### § 54b StV TG – Wechsel der Steuerpflicht
 

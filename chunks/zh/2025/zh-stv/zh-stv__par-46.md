@@ -9,7 +9,7 @@ artikel: "§ 46"
 seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Allgemeine Bestimmungen › § 46 StV ZH – 1. Zuständigkeiten · S. 9
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Allgemeine Bestimmungen › § 46 StV ZH – 1. Zuständigkeiten · S. 9
 
 ### § 46 StV ZH – 1. Zuständigkeiten
 

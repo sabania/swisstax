@@ -5,12 +5,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Titel und Kopfblock ESTV"
   },
   {
-   "start": 41,
+   "start": 24,
    "titel": "Einleitung und Ziff. 1 Begriff der Kundenguthaben",
    "pfad": [
     "Begriff Kundenguthaben"
@@ -31,7 +31,7 @@
    "ziffer": "1"
   },
   {
-   "start": 52,
+   "start": 35,
    "titel": "Ziff. 2–3 Begriff Bank/Sparkasse und Inländerbegriff",
    "pfad": [
     "Begriffe"
@@ -49,7 +49,7 @@
    "ziffer": "2–3"
   },
   {
-   "start": 63,
+   "start": 46,
    "titel": "Ziff. 4 Beginn der Steuerpflicht (über 100 Gläubiger, CHF 5'000'000)",
    "pfad": [
     "Beginn der Steuerpflicht"
@@ -67,7 +67,7 @@
    "ziffer": "4"
   },
   {
-   "start": 88,
+   "start": 71,
    "titel": "Ziff. 5–6 Anmeldepflicht und Steuererhebung",
    "pfad": [
     "Anmeldepflicht / Steuererhebung"
@@ -84,7 +84,7 @@
    "ziffer": "5–6"
   },
   {
-   "start": 98,
+   "start": 81,
    "titel": "Ziff. 7 Abrechnungsverfahren (30 Tage)",
    "pfad": [
     "Abrechnungsverfahren"
@@ -103,7 +103,7 @@
    "ziffer": "7"
   },
   {
-   "start": 108,
+   "start": 91,
    "titel": "Ziff. 8–9 Geldmarktpapiere und Inkrafttreten",
    "pfad": [
     "Geldmarktpapiere / Inkrafttreten"
@@ -120,5 +120,7 @@
    "zusammenfassung": "Verweis auf Merkblatt S-02.130.1; das Kreisschreiben ersetzt das Merkblatt S-02.122.2 vom April 1999.",
    "ziffer": "8–9"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

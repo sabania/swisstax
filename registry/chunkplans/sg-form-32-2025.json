@@ -1,181 +1,183 @@
 {
-"id": "sg-form-32-2025",
-"hinweise": [
-"Seite 1: Vergleichstabelle SG/Bund mit Spalten teils verschoben (Zeilen 44-93); Seite 2: Bundestarif mehrspaltig, Zuordnung der Zeilen/Spalten Alleinstehende vs. Verheiratete und der Satz-Werte nur aus Position erkennbar, Zahlen vermischt (Zeilen 123-194)."
-],
-"chunks": [
-{
-"start": 16,
-"titel": "Merkblatt 32 Direkte Bundessteuer 2025 – Allgemeines, Berechnung",
-"pfad": [
-"Allgemeines"
-],
-"stichworte": [
-"direkte Bundessteuer",
-"Steuererklärung SG",
-"Bundessteuer Tarif",
-"Einkommen 2025"
-],
-"positionen": [
-"verfahren.einreichung"
-],
-"zusammenfassung": "Die St.Galler Steuererklärung dient auch der Veranlagung der direkten Bundessteuer; Steuerbetrag nach Bundestarif (Tarifauszug Rückseite)."
-},
-{
-"start": 40,
-"titel": "Unterschiedliche Abzüge SG/Bund – Fahrkosten und Pauschale Berufskosten (Ziff. 10)",
-"pfad": [
-"Unterschiedliche Abzüge"
-],
-"ziffer": "10.1 / 10.2",
-"stichworte": [
-"Fahrkosten",
-"Pendlerabzug",
-"Berufskostenpauschale",
-"Bund vs. Kanton",
-"übrige Berufskosten"
-],
-"positionen": [
-"abzug.berufskosten.fahrkosten",
-"abzug.berufskosten.uebrige"
-],
-"zusammenfassung": "Fahrkosten max. Fr. 8'000 (SG) bzw. Fr. 3'300 (Bund); Pauschale übrige Berufskosten SG Fr. 700 + 10% max. Fr. 2'400, Bund 3% min. Fr. 2'000 max. Fr. 4'000."
-},
-{
-"start": 53,
-"titel": "Unterschiedliche Abzüge SG/Bund – Versicherungsprämien und Sparzinsen (Ziff. 14)",
-"pfad": [
-"Unterschiedliche Abzüge"
-],
-"ziffer": "14",
-"stichworte": [
-"Versicherungsabzug",
-"Krankenkassenprämien",
-"Sparzinsen",
-"Säule 3a",
-"Kinder"
-],
-"positionen": [
-"abzug.versicherungspraemien"
-],
-"zusammenfassung": "Verheiratete max. Fr. 6'800 (SG) / Fr. 3'700 (Bund), Alleinstehende Fr. 3'400 / Fr. 1'800; Zuschläge ohne Vorsorgebeiträge und pro Kind (Fr. 1'100 / Fr. 700)."
-},
-{
-"start": 63,
-"titel": "Unterschiedliche Abzüge SG/Bund – Geldspiele, Parteispenden, Weiterbildung (Ziff. 16)",
-"pfad": [
-"Unterschiedliche Abzüge"
-],
-"ziffer": "16.1 / 16.4",
-"stichworte": [
-"Geldspiele",
-"Lotterie",
-"Parteispenden",
-"Weiterbildung",
-"Einsatzkosten"
-],
-"positionen": [
-"abzug.parteispenden",
-"abzug.weiterbildung",
-"einkommen.lotterie_gewinne"
-],
-"zusammenfassung": "Einsatzkosten Geldspiele 5% max. Fr. 5'400, Online-Spiele max. Fr. 26'700/26'800; Parteispenden Bund max. Fr. 10'700 bzw. Fr. 21'400; Weiterbildung max. Fr. 13'000."
-},
-{
-"start": 74,
-"titel": "Unterschiedliche Abzüge SG/Bund – Zweiverdienerabzug, Krankheitskosten (Ziff. 17, 21.1)",
-"pfad": [
-"Unterschiedliche Abzüge"
-],
-"ziffer": "17 / 21.1",
-"stichworte": [
-"Zweiverdienerabzug",
-"Doppelverdiener",
-"Krankheitskosten",
-"Selbstbehalt",
-"Arztkosten"
-],
-"positionen": [
-"abzug.zweiverdiener",
-"abzug.krankheitskosten"
-],
-"zusammenfassung": "Zweiverdienerabzug Bund 50% des niedrigeren Einkommens, min. Fr. 8'600, max. Fr. 14'100 (SG Fr. 500); Selbstbehalt Krankheitskosten SG 2%, Bund 5% der Nettoeinkünfte."
-},
-{
-"start": 80,
-"titel": "Unterschiedliche Abzüge SG/Bund – Kinderabzüge, Unterstützung, Verheiratete (Ziff. 23)",
-"pfad": [
-"Unterschiedliche Abzüge"
-],
-"ziffer": "23.1 – 23.4",
-"stichworte": [
-"Kinderabzug",
-"Ausbildungskosten",
-"Unterstützungsabzug",
-"Verheiratetenabzug",
-"Abzug vom Steuerbetrag"
-],
-"positionen": [
-"sozialabzug.kinder",
-"sozialabzug.unterstuetzung",
-"sozialabzug.verheiratete"
-],
-"zusammenfassung": "Kinderabzug SG Fr. 7'600 (Vorschule) bzw. Fr. 10'800, Bund einheitlich Fr. 6'800 pro Kind; Verheiratetenabzug Bund Fr. 2'800; Steuerbetragsermässigung pro Kind max. Fr. 263."
-},
-{
-"start": 95,
-"titel": "Bundestarif 2025 natürliche Personen – Titel und Erläuterung",
-"pfad": [
-"Tarif direkte Bundessteuer 2025"
-],
-"stichworte": [
-"Bundessteuertarif",
-"Tarif 2025",
-"Kapitalleistungen Vorsorge",
-"ESTV Tarif"
-],
-"positionen": [
-"berechnung.total"
-],
-"zusammenfassung": "ESTV-Tarif 2025 für die direkte Bundessteuer; gilt ab 2025 auch für Kapitalleistungen aus Vorsorge."
-},
-{
-"start": 111,
-"titel": "Bundestarif 2025 – Tabelle Alleinstehende / Verheiratete (18'500 bis 950'000)",
-"pfad": [
-"Tarif direkte Bundessteuer 2025",
-"Tabelle"
-],
-"stichworte": [
-"Steuertabelle",
-"Alleinstehende",
-"Verheiratete",
-"Einelternfamilien",
-"11.5 %",
-"Höchstsatz"
-],
-"positionen": [
-"berechnung.total"
-],
-"zusammenfassung": "Tarifstufen von CHF 18'500 bis 950'000; für höhere steuerbare Einkünfte beträgt die Jahressteuer einheitlich 11.5 %."
-},
-{
-"start": 196,
-"titel": "Bundestarif 2025 – Fussnoten (Rundung, Ermässigung 263 Franken pro Kind)",
-"pfad": [
-"Tarif direkte Bundessteuer 2025",
-"Fussnoten"
-],
-"stichworte": [
-"Fussnoten Tarif",
-"Rundung",
-"Kinderermässigung",
-"263 Franken"
-],
-"positionen": [
-"sozialabzug.kinder"
-],
-"zusammenfassung": "Restbeträge unter CHF 100 fallen ausser Betracht; Steuerbetrag ermässigt sich um 263 Franken pro Kind oder unterstützungsbedürftige Person."
-}
-]
+ "id": "sg-form-32-2025",
+ "hinweise": [
+  "Seite 1: Vergleichstabelle SG/Bund mit Spalten teils verschoben (Zeilen 44-93); Seite 2: Bundestarif mehrspaltig, Zuordnung der Zeilen/Spalten Alleinstehende vs. Verheiratete und der Satz-Werte nur aus Position erkennbar, Zahlen vermischt (Zeilen 123-194)."
+ ],
+ "chunks": [
+  {
+   "start": 1,
+   "titel": "Merkblatt 32 Direkte Bundessteuer 2025 – Allgemeines, Berechnung",
+   "pfad": [
+    "Allgemeines"
+   ],
+   "stichworte": [
+    "direkte Bundessteuer",
+    "Steuererklärung SG",
+    "Bundessteuer Tarif",
+    "Einkommen 2025"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Die St.Galler Steuererklärung dient auch der Veranlagung der direkten Bundessteuer; Steuerbetrag nach Bundestarif (Tarifauszug Rückseite)."
+  },
+  {
+   "start": 25,
+   "titel": "Unterschiedliche Abzüge SG/Bund – Fahrkosten und Pauschale Berufskosten (Ziff. 10)",
+   "pfad": [
+    "Unterschiedliche Abzüge"
+   ],
+   "ziffer": "10.1 / 10.2",
+   "stichworte": [
+    "Fahrkosten",
+    "Pendlerabzug",
+    "Berufskostenpauschale",
+    "Bund vs. Kanton",
+    "übrige Berufskosten"
+   ],
+   "positionen": [
+    "abzug.berufskosten.fahrkosten",
+    "abzug.berufskosten.uebrige"
+   ],
+   "zusammenfassung": "Fahrkosten max. Fr. 8'000 (SG) bzw. Fr. 3'300 (Bund); Pauschale übrige Berufskosten SG Fr. 700 + 10% max. Fr. 2'400, Bund 3% min. Fr. 2'000 max. Fr. 4'000."
+  },
+  {
+   "start": 38,
+   "titel": "Unterschiedliche Abzüge SG/Bund – Versicherungsprämien und Sparzinsen (Ziff. 14)",
+   "pfad": [
+    "Unterschiedliche Abzüge"
+   ],
+   "ziffer": "14",
+   "stichworte": [
+    "Versicherungsabzug",
+    "Krankenkassenprämien",
+    "Sparzinsen",
+    "Säule 3a",
+    "Kinder"
+   ],
+   "positionen": [
+    "abzug.versicherungspraemien"
+   ],
+   "zusammenfassung": "Verheiratete max. Fr. 6'800 (SG) / Fr. 3'700 (Bund), Alleinstehende Fr. 3'400 / Fr. 1'800; Zuschläge ohne Vorsorgebeiträge und pro Kind (Fr. 1'100 / Fr. 700)."
+  },
+  {
+   "start": 48,
+   "titel": "Unterschiedliche Abzüge SG/Bund – Geldspiele, Parteispenden, Weiterbildung (Ziff. 16)",
+   "pfad": [
+    "Unterschiedliche Abzüge"
+   ],
+   "ziffer": "16.1 / 16.4",
+   "stichworte": [
+    "Geldspiele",
+    "Lotterie",
+    "Parteispenden",
+    "Weiterbildung",
+    "Einsatzkosten"
+   ],
+   "positionen": [
+    "abzug.parteispenden",
+    "abzug.weiterbildung",
+    "einkommen.lotterie_gewinne"
+   ],
+   "zusammenfassung": "Einsatzkosten Geldspiele 5% max. Fr. 5'400, Online-Spiele max. Fr. 26'700/26'800; Parteispenden Bund max. Fr. 10'700 bzw. Fr. 21'400; Weiterbildung max. Fr. 13'000."
+  },
+  {
+   "start": 59,
+   "titel": "Unterschiedliche Abzüge SG/Bund – Zweiverdienerabzug, Krankheitskosten (Ziff. 17, 21.1)",
+   "pfad": [
+    "Unterschiedliche Abzüge"
+   ],
+   "ziffer": "17 / 21.1",
+   "stichworte": [
+    "Zweiverdienerabzug",
+    "Doppelverdiener",
+    "Krankheitskosten",
+    "Selbstbehalt",
+    "Arztkosten"
+   ],
+   "positionen": [
+    "abzug.zweiverdiener",
+    "abzug.krankheitskosten"
+   ],
+   "zusammenfassung": "Zweiverdienerabzug Bund 50% des niedrigeren Einkommens, min. Fr. 8'600, max. Fr. 14'100 (SG Fr. 500); Selbstbehalt Krankheitskosten SG 2%, Bund 5% der Nettoeinkünfte."
+  },
+  {
+   "start": 65,
+   "titel": "Unterschiedliche Abzüge SG/Bund – Kinderabzüge, Unterstützung, Verheiratete (Ziff. 23)",
+   "pfad": [
+    "Unterschiedliche Abzüge"
+   ],
+   "ziffer": "23.1 – 23.4",
+   "stichworte": [
+    "Kinderabzug",
+    "Ausbildungskosten",
+    "Unterstützungsabzug",
+    "Verheiratetenabzug",
+    "Abzug vom Steuerbetrag"
+   ],
+   "positionen": [
+    "sozialabzug.kinder",
+    "sozialabzug.unterstuetzung",
+    "sozialabzug.verheiratete"
+   ],
+   "zusammenfassung": "Kinderabzug SG Fr. 7'600 (Vorschule) bzw. Fr. 10'800, Bund einheitlich Fr. 6'800 pro Kind; Verheiratetenabzug Bund Fr. 2'800; Steuerbetragsermässigung pro Kind max. Fr. 263."
+  },
+  {
+   "start": 80,
+   "titel": "Bundestarif 2025 natürliche Personen – Titel und Erläuterung",
+   "pfad": [
+    "Tarif direkte Bundessteuer 2025"
+   ],
+   "stichworte": [
+    "Bundessteuertarif",
+    "Tarif 2025",
+    "Kapitalleistungen Vorsorge",
+    "ESTV Tarif"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "ESTV-Tarif 2025 für die direkte Bundessteuer; gilt ab 2025 auch für Kapitalleistungen aus Vorsorge."
+  },
+  {
+   "start": 96,
+   "titel": "Bundestarif 2025 – Tabelle Alleinstehende / Verheiratete (18'500 bis 950'000)",
+   "pfad": [
+    "Tarif direkte Bundessteuer 2025",
+    "Tabelle"
+   ],
+   "stichworte": [
+    "Steuertabelle",
+    "Alleinstehende",
+    "Verheiratete",
+    "Einelternfamilien",
+    "11.5 %",
+    "Höchstsatz"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Tarifstufen von CHF 18'500 bis 950'000; für höhere steuerbare Einkünfte beträgt die Jahressteuer einheitlich 11.5 %."
+  },
+  {
+   "start": 181,
+   "titel": "Bundestarif 2025 – Fussnoten (Rundung, Ermässigung 263 Franken pro Kind)",
+   "pfad": [
+    "Tarif direkte Bundessteuer 2025",
+    "Fussnoten"
+   ],
+   "stichworte": [
+    "Fussnoten Tarif",
+    "Rundung",
+    "Kinderermässigung",
+    "263 Franken"
+   ],
+   "positionen": [
+    "sozialabzug.kinder"
+   ],
+   "zusammenfassung": "Restbeträge unter CHF 100 fallen ausser Betracht; Steuerbetrag ermässigt sich um 263 Franken pro Kind oder unterstützungsbedürftige Person."
+  }
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

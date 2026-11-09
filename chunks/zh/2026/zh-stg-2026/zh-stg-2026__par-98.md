@@ -9,7 +9,7 @@ artikel: "§ 98"
 seiten: "47"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 98 StG ZH – V. Empfänger von Vorsorgeleistungen aus öffentlich-rechtlichem Arbeitsverhältnis · S. 47
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 98 StG ZH – V. Empfänger von Vorsorgeleistungen aus öffentlich-rechtlichem Arbeitsverhältnis · S. 47
 
 ### § 98 StG ZH – V. Empfänger von Vorsorgeleistungen aus öffentlich-rechtlichem Arbeitsverhältnis
 

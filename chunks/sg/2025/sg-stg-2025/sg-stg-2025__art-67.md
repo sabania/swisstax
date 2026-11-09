@@ -8,7 +8,7 @@ titel: "Art. 67 StG SG – Bemessungsperiode"
 artikel: "Art. 67"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › IV. Zeitliche Bemessung › Art. 67 Bemessungsperiode
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › IV. Zeitliche Bemessung › Art. 67 Bemessungsperiode
 
 ### Art. 67 StG SG – Bemessungsperiode
 

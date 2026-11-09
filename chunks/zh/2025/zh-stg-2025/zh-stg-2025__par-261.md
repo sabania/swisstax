@@ -9,7 +9,7 @@ artikel: "§ 261"
 seiten: "89"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › B. Steuervergehen › § 261 StG ZH – I. Steuerbetrug · S. 89
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › B. Steuervergehen › § 261 StG ZH – I. Steuerbetrug · S. 89
 
 ### § 261 StG ZH – I. Steuerbetrug
 

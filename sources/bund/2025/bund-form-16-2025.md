@@ -12,6 +12,9 @@ sha256: dd95dd365b9b583e22107aee6f97d80c2a3f0130451bb41cc1685a7cd4ab123a
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # ESTV Formular 16: Einkünfte aus Liegenschaften 2025
 

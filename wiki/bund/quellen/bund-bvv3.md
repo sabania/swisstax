@@ -2,15 +2,41 @@
 typ: quelle
 id: bund-bvv3
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Verordnung über die steuerliche Abzugsberechtigung für Beiträge an anerkannte Vorsorgeformen (BVV 3, SR 831.461.3) – Fassung gültig ab 01.01.2025"
 generiert: tools/build_index.py
 ---
 # BVV 3: Verordnung über die steuerliche Abzugsberechtigung für Beiträge an anerkannte Vorsorgeformen (BVV 3, SR 831.461.3) – Fassung gültig ab 01.01.2025
 
-- **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-01-01
+- **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2025-01-01
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1985/1778_1778_1778/20250101/de> · lokal: [bund-bvv3.xml](../../../raw/bund/2025/bund-bvv3.xml) · Volltext: [bund-bvv3.md](../../../sources/bund/2025/bund-bvv3.md)
 - **Abgerufen:** 2026-11-09 · sha256 `a1da3a3eecfed845…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2027-05-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 18 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-bvv3`).
+
+- `data/werte/ar/2025.yaml#28:saeule3a.satz_ohne_2saeule` (agent-geprueft)
+- `data/werte/ar/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/ar/2026.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/ar/2026.yaml#28:saeule3a.satz_ohne_2saeule` (agent-geprueft)
+- `data/werte/ar/2026.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/werte/bund/2025.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/bund/2025.yaml#28:saeule3a.satz_ohne_2saeule` (agent-geprueft)
+- `data/werte/bund/2025.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/werte/bund/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/bund/2026.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/bund/2026.yaml#28:saeule3a.satz_ohne_2saeule` (agent-geprueft)
+- `data/werte/bund/2026.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/werte/sg/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/sg/2026.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/sg/2026.yaml#28:saeule3a.satz_ohne_2saeule` (agent-geprueft)
+- `data/werte/tg/2025.yaml#28:saeule3a.satz_ohne_2saeule` (agent-geprueft)
+- `data/werte/zh/2025.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#29:abzug.vorsorge.saeule3a@13.1` (agent-geprueft)
+- [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)
+- [wiki/themen/saeule-3a.md](../../themen/saeule-3a.md)
 
 ## Inhalt (20 Chunks)
 

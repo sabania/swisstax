@@ -2,13 +2,13 @@
 id: bund-vstg__art-50
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 50 VStG"
 artikel: "Art. 50"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · 1. Allgemeine Bestimmungen › c. Überprüfung › Art. 50
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · 1. Allgemeine Bestimmungen › c. Überprüfung › Art. 50
 
 ### Art. 50 VStG
 

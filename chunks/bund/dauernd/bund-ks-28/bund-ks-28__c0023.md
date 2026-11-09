@@ -2,14 +2,14 @@
 id: bund-ks-28__c0023
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang I LGBV Art. 3–4 Verhältnis Art. 18a DBG; Einkauf Vorsorgeeinrichtung"
 ziffer: "Art. 3–4"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang I LGBV · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang I LGBV · S. 8
 
 Art. 3   Verhältnis zu Artikel 18a DBG
 1 Wird die Besteuerung von stillen Reserven als Einkommen aus selbstständiger

@@ -8,7 +8,7 @@ titel: "Art. 101 StG AR – IV. Steuertarif auf Ersatzeinkünften"
 artikel: "Art. 101"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 101 IV. Steuertarif auf Ersatzeinkünften
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 101 IV. Steuertarif auf Ersatzeinkünften
 
 ### Art. 101 StG AR – IV. Steuertarif auf Ersatzeinkünften
 

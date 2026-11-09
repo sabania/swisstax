@@ -11,6 +11,17 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.sg.ch/steuern-finanzen/steuern/steuern-bezahlen.html> · lokal: [sg-info-steuern-bezahlen.html](../../../raw/sg/dauernd/sg-info-steuern-bezahlen.html) · Volltext: [sg-info-steuern-bezahlen.md](../../../sources/sg/dauernd/sg-info-steuern-bezahlen.md)
 - **Abgerufen:** 2026-11-09 · sha256 `68955de22557580d…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-info-steuern-bezahlen`).
+
+- `data/werte/sg/2025.yaml#68:bezug.provisorisch` (agent-geprueft)
+- `data/werte/sg/2026.yaml#68:bezug.provisorisch` (agent-geprueft)
+- [wiki/bund/bund-ueberblick.md](../../bund/bund-ueberblick.md)
+- [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
+- [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 
 ## Inhalt (13 Chunks)
 

@@ -8,7 +8,7 @@ titel: "Art. 5 VKP – Besteuerung nach dem Aufwand"
 artikel: "Art. 5"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · VKP · Art. 5 Besteuerung nach dem Aufwand
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · VKP · Art. 5 Besteuerung nach dem Aufwand
 
 ### Art. 5 VKP – Besteuerung nach dem Aufwand
 

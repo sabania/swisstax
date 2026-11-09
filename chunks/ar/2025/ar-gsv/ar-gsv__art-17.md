@@ -8,7 +8,7 @@ titel: "Art. 17 GSV AR – Vorbereitung der Schätzung"
 artikel: "Art. 17"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 17 Vorbereitung der Schätzung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 17 Vorbereitung der Schätzung
 
 ### Art. 17 GSV AR – Vorbereitung der Schätzung
 

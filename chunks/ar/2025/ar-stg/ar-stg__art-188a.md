@@ -8,7 +8,7 @@ titel: "Art. 188a StG AR – Bundesgericht"
 artikel: "Art. 188a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › E. Beschwerdeverfahren › Art. 188a Bundesgericht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › E. Beschwerdeverfahren › Art. 188a Bundesgericht
 
 ### Art. 188a StG AR – Bundesgericht
 

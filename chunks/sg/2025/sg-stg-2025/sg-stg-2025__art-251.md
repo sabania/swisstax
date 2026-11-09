@@ -8,7 +8,7 @@ titel: "Art. 251 StG SG – d) Verheimlichung oder Beiseiteschaffung von Nachlas
 artikel: "Art. 251"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 251 d) Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren 1. Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 251 d) Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren 1. Grundsatz
 
 ### Art. 251 StG SG – d) Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren 1. Grundsatz
 

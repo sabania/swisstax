@@ -8,7 +8,7 @@ titel: "Art. 2 QStV – Fälligkeit und Berechnung der Quellensteuer"
 artikel: "Art. 2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 2 Fälligkeit und Berechnung der Quellensteuer
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 2 Fälligkeit und Berechnung der Quellensteuer
 
 ### Art. 2 QStV – Fälligkeit und Berechnung der Quellensteuer
 

@@ -9,7 +9,7 @@ artikel: "§ 280"
 seiten: "93"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 280 StG ZH – 9. Einsprache- und Rechtsmittelverfahren · S. 93
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 280 StG ZH – 9. Einsprache- und Rechtsmittelverfahren · S. 93
 
 ### § 280 StG ZH – 9. Einsprache- und Rechtsmittelverfahren
 

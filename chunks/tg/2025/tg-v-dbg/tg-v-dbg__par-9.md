@@ -8,7 +8,7 @@ titel: "§ 9 V DBG TG – Kosten des Rechtsmittelverfahrens"
 artikel: "§ 9"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 2. Verfahren › § 9 Kosten des Rechtsmittelverfahrens
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 2. Verfahren › § 9 Kosten des Rechtsmittelverfahrens
 
 ### § 9 V DBG TG – Kosten des Rechtsmittelverfahrens
 

@@ -13,6 +13,7 @@ sha256: 387b0d60749e2d77294cd20ac81da9b6d0ce6fb3e05ae5bdf440146c468a07a1
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
 ---
 # Krankheits- und Unfallkosten (Form. 370)
 

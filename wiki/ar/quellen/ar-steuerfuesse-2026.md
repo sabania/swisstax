@@ -11,6 +11,15 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Steuerfüsse · **gilt für Steuerjahre:** 2026
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2026/Steuerfuesse_2026.pdf> · lokal: [ar-steuerfuesse-2026.pdf](../../../raw/ar/2026/ar-steuerfuesse-2026.pdf) · Volltext: [ar-steuerfuesse-2026.md](../../../sources/ar/2026/ar-steuerfuesse-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `34b9d573d5d57ce3…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-steuerfuesse-2026`).
+
+- `data/werte/ar/2026.yaml#58:tarif.steuerfuss_kanton` (agent-geprueft)
+- [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

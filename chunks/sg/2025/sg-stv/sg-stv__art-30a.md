@@ -8,7 +8,7 @@ titel: "Art. 30a StV SG – Liquidationsgewinne (Art. 52bis StG)"
 artikel: "Art. 30a"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 30a Liquidationsgewinne (Art. 52bis StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 30a Liquidationsgewinne (Art. 52bis StG)
 
 ### Art. 30a StV SG – Liquidationsgewinne (Art. 52bis StG)
 

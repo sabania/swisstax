@@ -8,7 +8,7 @@ titel: "Art. 199 StG SG – Nachsteuer a) Grundsatz"
 artikel: "Art. 199"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 199 Nachsteuer a) Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 199 Nachsteuer a) Grundsatz
 
 ### Art. 199 StG SG – Nachsteuer a) Grundsatz
 

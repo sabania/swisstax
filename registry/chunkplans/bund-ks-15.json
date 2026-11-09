@@ -7,17 +7,17 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt Kreisschreiben Nr. 15"
   },
   {
-   "start": 41,
+   "start": 24,
    "skip": true,
    "titel": "Inhaltsverzeichnis"
   },
   {
-   "start": 92,
+   "start": 75,
    "titel": "Ziff. 1 Einleitung – KS 4 und Transparenz kombinierter Produkte",
    "pfad": [
     "1 Einleitung"
@@ -36,7 +36,7 @@
    ]
   },
   {
-   "start": 127,
+   "start": 110,
    "titel": "Ziff. 1 Einleitung – KS 15 (2007) und Nachfolge 2017, Gutachten SBVg",
    "pfad": [
     "1 Einleitung"
@@ -55,7 +55,7 @@
    ]
   },
   {
-   "start": 147,
+   "start": 130,
    "titel": "Ziff. 2.1.1 Gewöhnliche Obligationen – steuerrechtlicher Begriff",
    "pfad": [
     "2 Begriffe",
@@ -75,7 +75,7 @@
    ]
   },
   {
-   "start": 173,
+   "start": 156,
    "titel": "Ziff. 2.1.2–2.1.3 Diskont-/globalverzinsliche Obligationen, Geldmarktpapiere",
    "pfad": [
     "2 Begriffe",
@@ -96,7 +96,7 @@
    ]
   },
   {
-   "start": 196,
+   "start": 179,
    "titel": "Ziff. 2.1.4 Obligationen mit überwiegender Einmalverzinsung (IUP)",
    "pfad": [
     "2 Begriffe",
@@ -117,7 +117,7 @@
    ]
   },
   {
-   "start": 220,
+   "start": 203,
    "titel": "Ziff. 2.2.1–2.2.2 Derivative Finanzinstrumente, Termingeschäfte (Futures)",
    "pfad": [
     "2 Begriffe",
@@ -138,7 +138,7 @@
    ]
   },
   {
-   "start": 253,
+   "start": 236,
    "titel": "Ziff. 2.2.3 Optionen – Call, Put, Warrants",
    "pfad": [
     "2 Begriffe",
@@ -159,7 +159,7 @@
    ]
   },
   {
-   "start": 273,
+   "start": 256,
    "titel": "Ziff. 2.2.3 Low Exercise Price Options (LEPO)",
    "pfad": [
     "2 Begriffe",
@@ -178,7 +178,7 @@
    ]
   },
   {
-   "start": 284,
+   "start": 267,
    "titel": "Ziff. 2.3.1 Kapitalgarantierte Derivate, nicht klassische Options-/Wandelanleihen",
    "pfad": [
     "2 Begriffe",
@@ -200,7 +200,7 @@
    ]
   },
   {
-   "start": 314,
+   "start": 297,
    "titel": "Ziff. 2.3.2 Klassische Options- und Wandelanleihen",
    "pfad": [
     "2 Begriffe",
@@ -219,7 +219,7 @@
    ]
   },
   {
-   "start": 324,
+   "start": 307,
    "titel": "Ziff. 2.3.3.1 Reverse Convertibles ohne Kapitalschutz",
    "pfad": [
     "2 Begriffe",
@@ -241,7 +241,7 @@
    ]
   },
   {
-   "start": 346,
+   "start": 329,
    "titel": "Ziff. 2.3.3.2 Reverse Convertibles mit Kapitalschutz",
    "pfad": [
     "2 Begriffe",
@@ -261,7 +261,7 @@
    ]
   },
   {
-   "start": 371,
+   "start": 354,
    "titel": "Ziff. 3.1 Obligationen ohne überwiegende Einmalverzinsung – DBG, Marchzinsen",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -282,7 +282,7 @@
    ]
   },
   {
-   "start": 388,
+   "start": 371,
    "titel": "Ziff. 3.1 Obligationen – Verrechnungssteuer und Stempelabgaben",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -303,7 +303,7 @@
    ]
   },
   {
-   "start": 415,
+   "start": 398,
    "titel": "Ziff. 3.2 Überwiegende Einmalverzinsung – reine Differenzbesteuerung",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -325,7 +325,7 @@
    ]
   },
   {
-   "start": 435,
+   "start": 418,
    "titel": "Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -346,7 +346,7 @@
    ]
   },
   {
-   "start": 455,
+   "start": 438,
    "titel": "Ziff. 3.3 Derivative Finanzinstrumente – Kapitalgewinne, Vorausfinanzierung 25 %",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -367,7 +367,7 @@
    ]
   },
   {
-   "start": 471,
+   "start": 454,
    "titel": "Ziff. 3.3 Optionsprämien, Verrechnungssteuer und Stempelabgaben bei Derivaten",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -387,7 +387,7 @@
    ]
   },
   {
-   "start": 487,
+   "start": 470,
    "titel": "Ziff. 3.4 Kapitalgarantierte Derivate – Kriterien der Transparenz",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -407,7 +407,7 @@
    ]
   },
   {
-   "start": 503,
+   "start": 486,
    "titel": "Ziff. 3.4 Transparenz – Erläuterung zu a) separater Handel und b) Termsheet",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -427,7 +427,7 @@
    ]
   },
   {
-   "start": 519,
+   "start": 502,
    "titel": "Ziff. 3.4 Analytische Methode (Swapsatz, BFP-Service)",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -447,7 +447,7 @@
    ]
   },
   {
-   "start": 539,
+   "start": 522,
    "titel": "Ziff. 3.4 Voraussetzungen nachträgliche Transparenz, nicht transparente Produkte",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -467,7 +467,7 @@
    ]
   },
   {
-   "start": 563,
+   "start": 546,
    "titel": "Ziff. 3.4.1 Transparente Produkte – Besteuerung Anlage- und Optionsteil",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -489,7 +489,7 @@
    ]
   },
   {
-   "start": 577,
+   "start": 560,
    "titel": "Ziff. 3.4.1 Modifizierte Differenzbesteuerung (BFP-Service), Stempelabgaben",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -511,7 +511,7 @@
    ]
   },
   {
-   "start": 600,
+   "start": 583,
    "titel": "Ziff. 3.4.1 Stempelabgaben; Ziff. 3.4.2 Nicht transparente Produkte",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -533,7 +533,7 @@
    ]
   },
   {
-   "start": 623,
+   "start": 606,
    "titel": "Ziff. 3.5 Klassische Options- und Wandelanleihen – Besteuerung",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -553,7 +553,7 @@
    ]
   },
   {
-   "start": 645,
+   "start": 628,
    "titel": "Ziff. 3.6 Reverse Convertibles – Besteuerung Zinsteil und Optionsprämie",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -574,7 +574,7 @@
    ]
   },
   {
-   "start": 662,
+   "start": 645,
    "titel": "Ziff. 3.6 Reverse Convertibles – Nennwert, Kapitalschutz, Umsatzabgabe",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -593,7 +593,7 @@
    ]
   },
   {
-   "start": 673,
+   "start": 656,
    "titel": "Ziff. 3.7 Negativzinsen – kein Schuldzinsenabzug, Kapitalverlust",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -615,7 +615,7 @@
    ]
   },
   {
-   "start": 684,
+   "start": 667,
    "titel": "Ziff. 3.7 Negativzinsen auf Bankguthaben – Gewinnungskosten",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -638,7 +638,7 @@
    ]
   },
   {
-   "start": 702,
+   "start": 685,
    "titel": "Ziff. 4.1–4.2 Kennzeichnung in Kursliste (IUP), Bankbescheinigung",
    "pfad": [
     "4 Kennzeichnung in der Kursliste"
@@ -658,7 +658,7 @@
    ]
   },
   {
-   "start": 726,
+   "start": 709,
    "titel": "Ziff. 4.3 Nicht an Schweizer Börsen kotierte Papiere; Ziff. 5 Spezialfälle",
    "pfad": [
     "4 Kennzeichnung in der Kursliste",
@@ -677,7 +677,7 @@
    ]
   },
   {
-   "start": 748,
+   "start": 731,
    "titel": "Ziff. 6 Inkrafttreten (Fälligkeiten ab 1. Januar 2018) und Anhangsverzeichnis",
    "pfad": [
     "6 Inkrafttreten"
@@ -691,7 +691,7 @@
    "ziffer": "6"
   },
   {
-   "start": 767,
+   "start": 750,
    "titel": "Anhang I Übersicht Obligationen, Derivate und kombinierte Produkte",
    "pfad": [
     "Anhang I"
@@ -706,7 +706,7 @@
    "ziffer": "Anhang I"
   },
   {
-   "start": 815,
+   "start": 798,
    "titel": "Anhang II Beispiele Nrn. 1–2 – Gesamtrendite und überwiegende Einmalverzinsung",
    "pfad": [
     "Anhang II Beispiele"
@@ -724,7 +724,7 @@
    ]
   },
   {
-   "start": 844,
+   "start": 827,
    "titel": "Anhang II Beispiel Nr. 3 – Sachverhalt und Annahmen ($-Obligation)",
    "pfad": [
     "Anhang II Beispiele"
@@ -742,7 +742,7 @@
    ]
   },
   {
-   "start": 875,
+   "start": 858,
    "titel": "Anhang II Beispiel Nr. 3 – Berechnung steuerbare Einkünfte der Investoren",
    "pfad": [
     "Anhang II Beispiele"
@@ -760,7 +760,7 @@
    ]
   },
   {
-   "start": 899,
+   "start": 882,
    "titel": "Anhang II Beispiel Nr. 4 – IUP-Obligation mit Option: Sachverhalt, Bondwerte",
    "pfad": [
     "Anhang II Beispiele"
@@ -778,7 +778,7 @@
    ]
   },
   {
-   "start": 930,
+   "start": 913,
    "titel": "Anhang II Beispiel Nr. 4 – Steuerbare Einkünfte und Verrechnungssteuer",
    "pfad": [
     "Anhang II Beispiele"
@@ -797,7 +797,7 @@
    ]
   },
   {
-   "start": 951,
+   "start": 934,
    "titel": "Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS",
    "pfad": [
     "Anhang II Beispiele"
@@ -816,7 +816,7 @@
    ]
   },
   {
-   "start": 983,
+   "start": 966,
    "titel": "Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -836,7 +836,7 @@
    ]
   },
   {
-   "start": 1016,
+   "start": 999,
    "titel": "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -856,7 +856,7 @@
    ]
   },
   {
-   "start": 1047,
+   "start": 1030,
    "titel": "Anhang III Ziff. 1b Dynamische Index- und Basketzertifikate auf Aktien",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -875,7 +875,7 @@
    ]
   },
   {
-   "start": 1068,
+   "start": 1051,
    "titel": "Anhang III Ziff. 1c Zertifikate auf Aktien ohne feste Laufzeit (open end)",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -893,7 +893,7 @@
    ]
   },
   {
-   "start": 1077,
+   "start": 1060,
    "titel": "Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate)",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -912,7 +912,7 @@
    ]
   },
   {
-   "start": 1105,
+   "start": 1088,
    "titel": "Anhang III Ziff. 3 Zertifikate auf kollektive Kapitalanlagen – Einkommenssteuer",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -932,7 +932,7 @@
    ]
   },
   {
-   "start": 1131,
+   "start": 1114,
    "titel": "Anhang III Ziff. 3 Verrechnungssteuer und Stempelabgaben bei Fondszertifikaten",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -953,7 +953,7 @@
    ]
   },
   {
-   "start": 1148,
+   "start": 1131,
    "titel": "Anhang III Ziff. 3 Mitteilungspflicht Emittent, Veranlagung nach Ermessen",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -972,7 +972,7 @@
    ]
   },
   {
-   "start": 1164,
+   "start": 1147,
    "titel": "Anhang III Ziff. 4a Low Exercise Price Options (LEPO)",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -992,7 +992,7 @@
    ]
   },
   {
-   "start": 1188,
+   "start": 1171,
    "titel": "Anhang III Ziff. 4b Mini-Futures – Funktionsweise, Hebel",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1013,7 +1013,7 @@
    ]
   },
   {
-   "start": 1207,
+   "start": 1190,
    "titel": "Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4)",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1033,7 +1033,7 @@
    ]
   },
   {
-   "start": 1233,
+   "start": 1216,
    "titel": "Anhang III Ziff. 4c Termingeschäfte mit Zinsen als Basiswert",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1052,7 +1052,7 @@
    ]
   },
   {
-   "start": 1250,
+   "start": 1233,
    "titel": "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1072,7 +1072,7 @@
    ]
   },
   {
-   "start": 1276,
+   "start": 1259,
    "titel": "Anhang III Ziff. 5a Weitere Optionsstrategien – gleiche Behandlung",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1091,7 +1091,7 @@
    ]
   },
   {
-   "start": 1290,
+   "start": 1273,
    "titel": "Anhang III Ziff. 5b Überjährige Barrier Reverse Convertibles",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1111,7 +1111,7 @@
    ]
   },
   {
-   "start": 1310,
+   "start": 1293,
    "titel": "Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1132,7 +1132,7 @@
    ]
   },
   {
-   "start": 1343,
+   "start": 1326,
    "titel": "Anhang III Ziff. 5b/5c Steuerliche Behandlung – modifizierte Differenzbesteuerung",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1152,7 +1152,7 @@
    ]
   },
   {
-   "start": 1368,
+   "start": 1351,
    "titel": "Anhang III Ziff. 6a Kapitalgarantierte Derivate – Obligationen mit bedingten Coupons",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1171,7 +1171,7 @@
    ]
   },
   {
-   "start": 1391,
+   "start": 1374,
    "titel": "Anhang III Ziff. 6a Steuerliche Behandlung bedingter Coupons",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1190,7 +1190,7 @@
    ]
   },
   {
-   "start": 1409,
+   "start": 1392,
    "titel": "Anhang III Ziff. 6b Obligationen mit exotischen Optionen (Barrier, Digital)",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1210,7 +1210,7 @@
    ]
   },
   {
-   "start": 1441,
+   "start": 1424,
    "titel": "Anhang III Ziff. 7 Obligationen mit «Money back»-Optionen",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1230,7 +1230,7 @@
    ]
   },
   {
-   "start": 1453,
+   "start": 1436,
    "titel": "Anhang III Ziff. 8 Wandelanleihen mit Put-Option zur vorzeitigen Rückzahlung",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1249,7 +1249,7 @@
    ]
   },
   {
-   "start": 1467,
+   "start": 1450,
    "titel": "Anhang III Ziff. 9 Strukturierte Kredit- und Schadenderivate – Funktionsweise",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1269,7 +1269,7 @@
    ]
   },
   {
-   "start": 1478,
+   "start": 1461,
    "titel": "Anhang III Ziff. 9 Steuerliche Behandlung Credit Linked Notes",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1288,7 +1288,7 @@
    ]
   },
   {
-   "start": 1499,
+   "start": 1482,
    "titel": "Anhang III Ziff. 10 Aufstockung von Anleihen – Hintergrund",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1308,7 +1308,7 @@
    ]
   },
   {
-   "start": 1521,
+   "start": 1504,
    "titel": "Anhang III Ziff. 10 Aufstockungen – Risiko der Steuerumgehung",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1327,7 +1327,7 @@
    ]
   },
   {
-   "start": 1533,
+   "start": 1516,
    "titel": "Anhang III Ziff. 10 Praxis ESTV – Toleranzgrenze ein halbes Prozent pro Jahr",
    "pfad": [
     "Anhang III Spezialfälle",
@@ -1348,12 +1348,12 @@
    ]
   },
   {
-   "start": 1560,
+   "start": 1543,
    "skip": true,
    "titel": "Deckblatt, Verfasser und Inhaltsverzeichnis Gutachten SBVg"
   },
   {
-   "start": 1600,
+   "start": 1583,
    "titel": "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage",
    "pfad": [
     "Anhang IV Gutachten SBVg",
@@ -1372,7 +1372,7 @@
    ]
   },
   {
-   "start": 1639,
+   "start": 1622,
    "titel": "Anhang IV Gutachten – Entscheid Verwaltungsgericht ZH 2005",
    "pfad": [
     "Anhang IV Gutachten SBVg",
@@ -1390,7 +1390,7 @@
    ]
   },
   {
-   "start": 1654,
+   "start": 1637,
    "titel": "Anhang IV Gutachten – Auftrag und Vorbemerkungen",
    "pfad": [
     "Anhang IV Gutachten SBVg",
@@ -1408,7 +1408,7 @@
    ]
   },
   {
-   "start": 1676,
+   "start": 1659,
    "titel": "Anhang IV Gutachten Ziff. III.2 Wert des Anleihensteils bei Emission",
    "pfad": [
     "Anhang IV Gutachten SBVg",
@@ -1427,7 +1427,7 @@
    ]
   },
   {
-   "start": 1692,
+   "start": 1675,
    "titel": "Anhang IV Gutachten Ziff. III.2 Verhältnismässigkeit schuldnerspezifischer Zinssatz",
    "pfad": [
     "Anhang III Gutachten SBVg",
@@ -1445,7 +1445,7 @@
    ]
   },
   {
-   "start": 1715,
+   "start": 1698,
    "titel": "Anhang IV Gutachten Ziff. III.3 Anleihensteil während der Laufzeit – Formel",
    "pfad": [
     "Anhang IV Gutachten SBVg",
@@ -1463,7 +1463,7 @@
    ]
   },
   {
-   "start": 1743,
+   "start": 1726,
    "titel": "Anhang IV Gutachten Ziff. III.3 Credit Spreads nicht berücksichtigt",
    "pfad": [
     "Anhang IV Gutachten SBVg",
@@ -1481,7 +1481,7 @@
    ]
   },
   {
-   "start": 1753,
+   "start": 1736,
    "titel": "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode",
    "pfad": [
     "Anhang IV Gutachten SBVg",
@@ -1499,7 +1499,7 @@
    ]
   },
   {
-   "start": 1790,
+   "start": 1773,
    "titel": "Anhang IV Gutachten Ziff. III.4.1 Fazit ohne Handänderung",
    "pfad": [
     "Anhang IV Gutachten SBVg",
@@ -1517,7 +1517,7 @@
    ]
   },
   {
-   "start": 1799,
+   "start": 1782,
    "titel": "Anhang IV Gutachten Ziff. III.4.2 Fazit mit Handänderung",
    "pfad": [
     "Anhang IV Gutachten SBVg",
@@ -1535,5 +1535,7 @@
     "einkommen.wertschriften"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

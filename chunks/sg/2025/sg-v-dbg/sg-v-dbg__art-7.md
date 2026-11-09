@@ -8,7 +8,7 @@ titel: "Art. 7 V DBG SG – Beschwerde"
 artikel: "Art. 7"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 7 Beschwerde
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 7 Beschwerde
 
 ### Art. 7 V DBG SG – Beschwerde
 

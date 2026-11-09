@@ -8,7 +8,7 @@ titel: "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Pfä
 seiten: "33"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Geschäftshäuser/Industrie · S. 33
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Geschäftshäuser/Industrie · S. 33
 
 Bezirk Pfäffikon
 Bauma   1   360   –   –   –   250   –   –   –

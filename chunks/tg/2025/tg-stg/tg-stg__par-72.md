@@ -2,13 +2,13 @@
 id: tg-stg__par-72
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 72 StG TG – Dauer der Steuerpflicht"
 artikel: "§ 72"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.3. Steuern der juristischen Personen › 1.3.1. Steuerpflicht › § 72 Dauer der Steuerpflicht
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.3. Steuern der juristischen Personen › 1.3.1. Steuerpflicht › § 72 Dauer der Steuerpflicht
 
 ### § 72 StG TG – Dauer der Steuerpflicht
 

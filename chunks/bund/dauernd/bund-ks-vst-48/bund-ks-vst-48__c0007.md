@@ -2,14 +2,14 @@
 id: bund-ks-vst-48__c0007
 quelle: bund-ks-vst-48
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.2–3.3 Überprüfungs- und Auskunftspflichten; Untergang nach Art. 32 VStG (3 Jahre) (Teil 1/2)"
 ziffer: "3.2–3.3"
 seiten: "3-4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 48 · 3 Voraussetzungen der Rückerstattung › 3.2–3.3 · S. 3–4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS VST 48 · 3 Voraussetzungen der Rückerstattung › 3.2–3.3 · S. 3–4
 
 3.2   Überprüfungs- und Auskunftspflichten
 Ergibt sich aus den Akten der zuständigen Steuerbehörde, dass die mit der Verrechnungs-

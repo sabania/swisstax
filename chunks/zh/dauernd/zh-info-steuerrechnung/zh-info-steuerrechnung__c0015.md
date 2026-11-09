@@ -7,7 +7,7 @@ typ: info
 titel: "Ordnungsbusse"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Direkte Bundessteuer › Ordnungsbusse
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Direkte Bundessteuer › Ordnungsbusse
 
 ### Ordnungsbusse
 

@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2025-12-22'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/yQgKmvu80LEr/dbst-ks-2025-1-018a-dv-de.pdf
@@ -14,6 +15,9 @@ sha256: 92fe449505e22c8478568d09cb325b99c5d2ead2e13c28073b02e953e4fd92a9
 abgerufen: '2026-11-09'
 seiten: 13
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2026-01-01'
+ersetzt: bund-ks-18
 ---
 # ESTV-Kreisschreiben Nr. 18a: Säule 3a: Beiträge und Leistungen (ab 01.01.2026)
 

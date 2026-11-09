@@ -9,7 +9,7 @@ ziffer: "13"
 seiten: "27"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser · S. 27
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, Einfamilienhäuser · S. 27
 
 Russikon   5   460   410   360   310   260   –   –
 Weisslingen   3   320   280   240   –   –   –   –

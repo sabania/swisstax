@@ -9,7 +9,7 @@ ziffer: "7–9 / 39–42"
 seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffern 7–9 · S. 14
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffern 7–9 · S. 14
 
 •   Vom Arbeitgeber übernommene Quellensteuern oder andere Steuern   39
 

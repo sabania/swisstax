@@ -8,7 +8,7 @@ titel: "Art. 279 StG AR – b) ausserordentliche Einkünfte"
 artikel: "Art. 279"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 279 b) ausserordentliche Einkünfte
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 279 b) ausserordentliche Einkünfte
 
 ### Art. 279 StG AR – b) ausserordentliche Einkünfte
 

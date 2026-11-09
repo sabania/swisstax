@@ -9,7 +9,7 @@ artikel: "§ 113"
 seiten: "53"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 113 StG ZH – II. Zusammensetzung und Wahl · S. 53
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 113 StG ZH – II. Zusammensetzung und Wahl · S. 53
 
 ### § 113 StG ZH – II. Zusammensetzung und Wahl
 

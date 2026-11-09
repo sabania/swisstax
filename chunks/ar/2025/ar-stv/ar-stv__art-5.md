@@ -8,7 +8,7 @@ titel: "Art. 5 StV AR – Rechtliche und tatsächliche Trennung der Ehe (Art. 10
 artikel: "Art. 5"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › A. Steuerpflicht › Art. 5 Rechtliche und tatsächliche Trennung der Ehe (Art. 10 Abs. 1 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › A. Steuerpflicht › Art. 5 Rechtliche und tatsächliche Trennung der Ehe (Art. 10 Abs. 1 StG)
 
 ### Art. 5 StV AR – Rechtliche und tatsächliche Trennung der Ehe (Art. 10 Abs. 1 StG)
 

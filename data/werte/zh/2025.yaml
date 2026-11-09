@@ -516,8 +516,10 @@ werte:
     zitat: kann in Ausnahmefällen ein Einschlag gewährt werden
   - chunk: zh-zstb-21-3-bis-2025__c0001
     zitat: Diese Weisung wurde per 24. Mai 2023 aufgehoben.
+    jahr_ok: true
   status: agent-geprueft
-  bemerkung: Weisung 2009 gilt bis Steuerjahr 2025; ab 2026 Weisung 2026 (nicht Teil dieser Datei).
+  bemerkung: Weisung 2009 gilt bis Steuerjahr 2025; ab 2026 Weisung 2026 (nicht Teil dieser Datei). Zitat zh-zstb-21-3-bis-2025 (aufgehobene Härtefall-Weisung) belegt nur, dass diese Weisung für 2025 nicht
+    mehr gilt (jahr_ok).
 - key: sozialabzug.kind
   wert: 9300
   einheit: CHF
@@ -731,10 +733,11 @@ werte:
   quellen:
   - chunk: zh-wl-2025__c0017
     zitat: Die Steuererklärung ist bis am 31. März 2026 einzureichen.
-  - chunk: zh-zstb-132-1-bis-2025__c0019
+  - chunk: zh-zstb-132-1__c0022
     zitat: bis 31. März des der Steuerperiode folgenden Kalenderjahres
   status: agent-geprueft
-  bemerkung: Datum 31.3.2026 laut WL ZH 2025; Fassung ZStB 132.1 bis 31.12.2025.
+  bemerkung: 'Datum 31.3.2026 laut WL ZH 2025; Fassung ZStB 132.1 bis 31.12.2025. Zeitmodell: Für die Einreichung/Fristerstreckung der Erklärung 2025 im Jahr 2026 gilt die Verfahrensfassung ZStB 132.1 ab
+    1.1.2026 (zh-zstb-132-1); die Fassung «bis 31.12.2025» ist gleichlautend, betrifft aber das Verfahren 2025.'
 - key: verfahren.fristerstreckung
   wert: null
   einheit: Text
@@ -744,16 +747,17 @@ werte:
   gilt_fuer: kanton
   rechtsgrundlage: § 39 StV; ZStB 132.1 Ziff. G.II
   quellen:
-  - chunk: zh-zstb-132-1-bis-2025__c0021
+  - chunk: zh-zstb-132-1__c0024
     zitat: längstens bis 30. November des der Steuerperiode folgenden Kalenderjahres
-  - chunk: zh-zstb-132-1-bis-2025__c0023
-    zitat: als vom Gemeindesteueramt stillschweigend bewilligt
-  - chunk: zh-zstb-132-1-bis-2025__c0021
+  - chunk: zh-zstb-132-1__c0026
+    zitat: erstmalige Fristerstreckungsgesuche gelten ohne gegenteiligen schriftlichen Entscheid als stillschweigend bewilligt
+  - chunk: zh-zstb-132-1__c0025
     zitat: starke berufliche Inanspruchnahme der Vertreterin oder des Vertreters
   - chunk: zh-wl-2025__c0017
     zitat: Mahnfristen sind nicht erstreckbar.
   status: agent-geprueft
-  bemerkung: 'Kosten der Fristerstreckung: in den Quellen nicht genannt. Fassung ZStB 132.1 gültig bis 31.12.2025 (ab 2026 neue Fassung).'
+  bemerkung: 'Kosten der Fristerstreckung: in den Quellen nicht genannt. Fassung ZStB 132.1 gültig bis 31.12.2025 (ab 2026 neue Fassung). Zeitmodell: Für die Einreichung/Fristerstreckung der Erklärung 2025
+    im Jahr 2026 gilt die Verfahrensfassung ZStB 132.1 ab 1.1.2026 (zh-zstb-132-1); die Fassung «bis 31.12.2025» ist gleichlautend, betrifft aber das Verfahren 2025.'
 - key: verfahren.abgabeweg
   wert: null
   einheit: Text
@@ -762,7 +766,7 @@ werte:
   gilt_fuer: kanton
   rechtsgrundlage: V elektr. Einreichung (LS 631.121) § 1 Abs. 3; ZStB 132.1 Ziff. G.I.1
   quellen:
-  - chunk: zh-zstb-132-1-bis-2025__c0019
+  - chunk: zh-zstb-132-1__c0022
     zitat: online oder dem Scan-Center einzureichen
   - chunk: zh-v-einreichung__par-1
     zitat: Die Steuererklärung kann auch in Papierform eingereicht werden.
@@ -770,7 +774,8 @@ werte:
     zitat: Beilagen zur Steuererklärung sind in Papierform einzureichen.
   status: agent-geprueft
   bemerkung: 'korrigiert durch Prüfung: ursprüngliches Zitat stammte aus ZStB 133.1 (Aufforderung 2026, Steuerpflicht-Ende im Jahr 2026, 30-Tage-Frist) und belegte die ordentliche Einreichung 2025 nicht;
-    ersetzt durch ZStB 132.1 (bis 2025). Unterschriftsregel bei Online-Einreichung nicht verifiziert.'
+    ersetzt durch ZStB 132.1 (bis 2025). Unterschriftsregel bei Online-Einreichung nicht verifiziert. Zeitmodell: Für die Einreichung/Fristerstreckung der Erklärung 2025 im Jahr 2026 gilt die Verfahrensfassung
+    ZStB 132.1 ab 1.1.2026 (zh-zstb-132-1); die Fassung «bis 31.12.2025» ist gleichlautend, betrifft aber das Verfahren 2025.'
 - key: verfahren.beilagen_schwellen
   wert: null
   gilt_fuer: kanton
@@ -833,18 +838,19 @@ werte:
   status: agent-geprueft
   bemerkung: 'ergänzt durch Prüfung: Satz 2025 = 1 % (WL ZH 2025 c0022); Satz 2026 = 0,75 % (c0024), hier nicht massgebend. Siehe bezug.verguetungszins.'
 - key: tarif.kapitalleistung_vorsorge
-  kurz: "Satz für 1/20 der Leistung, einf. Staatssteuer mind. 2 %"
+  kurz: Satz für 1/20 der Leistung, einf. Staatssteuer mind. 2 %
   wert: null
   einheit: Text
-  text: "Kapitalleistungen aus Vorsorge (§ 22) gesondert zum Satz, der sich bei einer jährlichen Leistung von einem Zwanzigstel der Kapitalleistung ergäbe (Rentensatz 1/20); einfache Staatssteuer mindestens 2 % (Mindestsatz); stets volle Jahressteuer; keine Sozialabzüge nach § 34."
+  text: Kapitalleistungen aus Vorsorge (§ 22) gesondert zum Satz, der sich bei einer jährlichen Leistung von einem Zwanzigstel der Kapitalleistung ergäbe (Rentensatz 1/20); einfache Staatssteuer mindestens
+    2 % (Mindestsatz); stets volle Jahressteuer; keine Sozialabzüge nach § 34.
   gilt_fuer: kanton
-  rechtsgrundlage: "§ 37 StG ZH"
+  rechtsgrundlage: § 37 StG ZH
   quellen:
   - chunk: zh-stg-2025__par-37
-    zitat: "eine jährliche Leistung von einem Zwanzigstel der Kapitalleistung ausgerichtet würde"
+    zitat: eine jährliche Leistung von einem Zwanzigstel der Kapitalleistung ausgerichtet würde
   - chunk: zh-stg-2025__par-37
-    zitat: "mindestens 2 Prozent. Es wird stets eine volle Jahressteuer erhoben."
+    zitat: mindestens 2 Prozent. Es wird stets eine volle Jahressteuer erhoben.
   - chunk: zh-stg-2025__par-37
-    zitat: "Die Sozialabzüge gemäss § 34 werden nicht gewährt."
+    zitat: Die Sozialabzüge gemäss § 34 werden nicht gewährt.
   status: agent-geprueft
-  bemerkung: "Einfache Staatssteuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen."
+  bemerkung: Einfache Staatssteuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen.

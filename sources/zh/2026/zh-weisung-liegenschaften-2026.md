@@ -13,6 +13,9 @@ sha256: 68bcf4cf70b1afcfd04cc2790907a6f95d5f9611b85dfecdafe93fa3f045e260
 abgerufen: '2026-11-09'
 seiten: 39
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: zh-weisung-liegenschaften-2009
 ---
 # Weisung 2026 über die Bewertung von Liegenschaften und die Festsetzung der Eigenmietwerte (LS 631.32)
 

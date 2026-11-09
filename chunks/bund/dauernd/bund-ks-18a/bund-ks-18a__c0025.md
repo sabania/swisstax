@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0025
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.1 Besteuerung der Kapitalleistungen (Fünftel-Tarif, Verrechnungssteuer)"
 ziffer: "6.1"
 seiten: "9"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.1 Grundsätze · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.1 Grundsätze · S. 9
 
 Kapitalleistungen aus anerkannten Formen der gebundenen Selbstvorsorge werden gemäss
 Artikel 22 Absatz 1 in Verbindung mit Artikel 38 DBG gesondert besteuert. Sie unterliegen

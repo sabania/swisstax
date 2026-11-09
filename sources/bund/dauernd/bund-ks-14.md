@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2007-11-06'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/NtERF6Msi9fu/dbst-ks-2007-1-014-d-de.pdf
@@ -14,6 +15,8 @@ sha256: a3fc9b5baa41c6a6c5448e52d07992ae11dee6c0dc6d5fec4fb1d90d740a1fed
 abgerufen: '2026-11-09'
 seiten: 7
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2007-01-01'
 ---
 # ESTV-Kreisschreiben Nr. 14: Indirekte Teilliquidation
 

@@ -2,14 +2,14 @@
 id: bund-ks-42__c0027
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.7.3 Rückvergütung selbst getragener Kosten durch Arbeitgeber (Teil 1/2)"
 ziffer: "4.7.3"
 seiten: "10-11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.7 Vom Arbeitgeber bezahlte Kosten · S. 10–11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 4 Steuerliche Behandlung › 4.7 Vom Arbeitgeber bezahlte Kosten · S. 10–11
 
 4.7.3   Vergütung von ursprünglich vom Arbeitnehmer getragenen berufsorientierten Aus- und
     Weiterbildungskosten durch den Arbeitgeber

@@ -9,7 +9,7 @@ artikel: "§ 224a"
 seiten: "80"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 224a StG ZH – 7. Anrechnung von Geschäftsverlusten · S. 80
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 224a StG ZH – 7. Anrechnung von Geschäftsverlusten · S. 80
 
 ### § 224a StG ZH – 7. Anrechnung von Geschäftsverlusten
 

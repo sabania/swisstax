@@ -9,7 +9,7 @@ ziffer: "6.3–6.4"
 seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.3–6.4 · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.3–6.4 · S. 9
 
 6.4. Kann ein in der beruflichen Vorsorge getätigter WEF-Vorbezug mit Mitteln
     der gebundenen Selbstvorsorge zurückbezahlt werden?

@@ -9,7 +9,7 @@ artikel: "§ 4"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › B. Ablauf der elektronischen Einreichung der Steuererklärung › § 4 V elektr. Einreichung ZH – Zugang zu den Applikationen · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › B. Ablauf der elektronischen Einreichung der Steuererklärung › § 4 V elektr. Einreichung ZH – Zugang zu den Applikationen · S. 2
 
 ### § 4 V elektr. Einreichung ZH – Zugang zu den Applikationen
 

@@ -9,7 +9,7 @@ artikel: "§ 109b"
 seiten: "51"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 109b StG ZH – 2. Kantonales Steuerregister · S. 51
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 109b StG ZH – 2. Kantonales Steuerregister · S. 51
 
 ### § 109b StG ZH – 2. Kantonales Steuerregister
 

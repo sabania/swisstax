@@ -2,13 +2,13 @@
 id: bund-sthg__art-26a
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 26a StHG – Gewinne von juristischen Personen mit ideellen Zwecken"
 artikel: "Art. 26a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · 2. Kapitel: Gewinnsteuer › 1. Abschnitt: Steuerobjekt › Art. 26a Gewinne von juristischen Personen mit ideellen Zwecken
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · 2. Kapitel: Gewinnsteuer › 1. Abschnitt: Steuerobjekt › Art. 26a Gewinne von juristischen Personen mit ideellen Zwecken
 
 ### Art. 26a StHG – Gewinne von juristischen Personen mit ideellen Zwecken
 

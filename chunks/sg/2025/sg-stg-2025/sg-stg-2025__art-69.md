@@ -8,7 +8,7 @@ titel: "Art. 69 StG SG – Begründung und Auflösung der Ehe"
 artikel: "Art. 69"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › IV. Zeitliche Bemessung › Art. 69 Begründung und Auflösung der Ehe
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › IV. Zeitliche Bemessung › Art. 69 Begründung und Auflösung der Ehe
 
 ### Art. 69 StG SG – Begründung und Auflösung der Ehe
 

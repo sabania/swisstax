@@ -9,7 +9,7 @@ artikel: "§ 36"
 seiten: "21"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 36 StG ZH – 2. Sonderfälle a. Kapitalabfindungen für wiederkehrende Leistungen · S. 21
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 36 StG ZH – 2. Sonderfälle a. Kapitalabfindungen für wiederkehrende Leistungen · S. 21
 
 ### § 36 StG ZH – 2. Sonderfälle a. Kapitalabfindungen für wiederkehrende Leistungen
 

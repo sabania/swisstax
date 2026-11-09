@@ -7,7 +7,7 @@ typ: info
 titel: "Für Zahlungen aus dem Ausland:"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: info}}
 ---
-> AR · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug › Für Zahlungen aus dem Ausland:
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug › Für Zahlungen aus dem Ausland:
 
 Bei der direkten Bundessteuer kommt der sogenannte Elterntarif zur Anwendung. Er gilt für Personen, die mit Kindern oder unterstützungsbedürftigen Personen im gleichen Haushalt zusammenleben und deren Unterhalt zur Hauptsache bestreiten. Der Elterntarif besteht darin, dass die Steuer zum Tarif für verheiratete Personen ermittelt wird und die geschuldete Steuer um maximal nachfolgenden Betrag für die jeweilige Steuerperiode pro Kind oder unterstützungsbedürftige Person reduziert wird.
 

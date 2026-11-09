@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0035
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8 Bescheinigungspflicht der Vorsorgeträger (Einkäufe)"
 ziffer: "8"
 seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 8. Bescheinigungspflicht · S. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 8. Bescheinigungspflicht · S. 11
 
 8.   Bescheinigungspflicht
 Versicherungseinrichtungen und Bankstiftungen haben gemäss Artikel 8 BVV 3 und Arti-

@@ -8,7 +8,7 @@ titel: "Art. 204 StG SG – Inventarpflicht"
 artikel: "Art. 204"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 204 Inventarpflicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 204 Inventarpflicht
 
 ### Art. 204 StG SG – Inventarpflicht
 

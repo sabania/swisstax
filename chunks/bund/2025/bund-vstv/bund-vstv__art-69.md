@@ -2,13 +2,13 @@
 id: bund-vstv__art-69
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 69 VStV"
 artikel: "Art. 69"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · II. Verfahren › 2. … › Art. 69
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · II. Verfahren › 2. … › Art. 69
 
 ### Art. 69 VStV
 

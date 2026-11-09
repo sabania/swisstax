@@ -8,7 +8,7 @@ titel: "Art. 201 StG SG – c) Verfahren"
 artikel: "Art. 201"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 201 c) Verfahren
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 201 c) Verfahren
 
 ### Art. 201 StG SG – c) Verfahren
 

@@ -8,7 +8,7 @@ titel: "Art. 217 StG SG – Bezugsverjährung"
 artikel: "Art. 217"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 217 Bezugsverjährung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 217 Bezugsverjährung
 
 ### Art. 217 StG SG – Bezugsverjährung
 

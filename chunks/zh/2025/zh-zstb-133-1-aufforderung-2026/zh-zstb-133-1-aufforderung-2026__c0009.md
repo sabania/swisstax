@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0009
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "A.III.2–3 NOV Steuerperiode 2026 (Wegzug) und Auskünfte"
 ziffer: "A.III.2-3"
 seiten: "3"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › III. Nachträgliche ordentliche Veranlagung › 2.–3. · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › III. Nachträgliche ordentliche Veranlagung › 2.–3. · S. 3
 
 2. Nachträgliche ordentliche Veranlagung für die Steuerperiode 2026 (Steuererklärung 2026)
 

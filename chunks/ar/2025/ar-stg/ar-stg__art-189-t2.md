@@ -8,7 +8,7 @@ titel: "Art. 189 StG AR – I. Revision 1. Voraussetzungen (Teil 2/2)"
 artikel: "Art. 189"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 189 I. Revision 1. Voraussetzungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 189 I. Revision 1. Voraussetzungen
 
 ### Art. 189 StG AR – I. Revision 1. Voraussetzungen (Fortsetzung)
 

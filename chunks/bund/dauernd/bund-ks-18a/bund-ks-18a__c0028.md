@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0028
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.2 a Teilbezug innerhalb fünf Jahre vor Referenzalter"
 ziffer: "6.2 a"
 seiten: "9"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung und Übertragung · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung und Übertragung · S. 9
 
 Verlangt ein Vorsorgenehmer innerhalb der fünf Jahre vor Erreichen des Referenzalters,
 dass ihm sein Vorsorgekapital ausbezahlt wird, beendet er damit den Aufbau seiner Vor-

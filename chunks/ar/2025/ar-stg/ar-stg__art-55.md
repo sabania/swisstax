@@ -8,7 +8,7 @@ titel: "Art. 55 StG AR – Bemessung des Vermögens"
 artikel: "Art. 55"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › D. Zeitliche Bemessung › Art. 55 Bemessung des Vermögens
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › D. Zeitliche Bemessung › Art. 55 Bemessung des Vermögens
 
 ### Art. 55 StG AR – Bemessung des Vermögens
 

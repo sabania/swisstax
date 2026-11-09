@@ -8,7 +8,7 @@ titel: "Art. 178 StG AR – 4. Ablieferung"
 artikel: "Art. 178"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 178 4. Ablieferung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 178 4. Ablieferung
 
 ### Art. 178 StG AR – 4. Ablieferung
 

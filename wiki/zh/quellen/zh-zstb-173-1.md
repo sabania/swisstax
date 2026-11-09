@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-173-1.html> · lokal: [zh-zstb-173-1.html](../../../raw/zh/dauernd/zh-zstb-173-1.html) · Volltext: [zh-zstb-173-1.md](../../../sources/zh/dauernd/zh-zstb-173-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c12eef4f273bc61c…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2008-12-09 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-173-1`).
+
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (53 Chunks)
 

@@ -8,7 +8,7 @@ titel: "Art. 20 StG SG – Familienbesteuerung"
 artikel: "Art. 20"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 20 Familienbesteuerung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 20 Familienbesteuerung
 
 ### Art. 20 StG SG – Familienbesteuerung
 

@@ -8,7 +8,7 @@ titel: "Art. 99 StG AR – III. Steuertarif auf Erwerbseinkünften 1. Grundlage"
 artikel: "Art. 99"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 99 III. Steuertarif auf Erwerbseinkünften 1. Grundlage
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 99 III. Steuertarif auf Erwerbseinkünften 1. Grundlage
 
 ### Art. 99 StG AR – III. Steuertarif auf Erwerbseinkünften 1. Grundlage
 

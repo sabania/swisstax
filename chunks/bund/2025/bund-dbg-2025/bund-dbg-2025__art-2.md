@@ -8,7 +8,7 @@ titel: "Art. 2 DBG – Steuererhebung"
 artikel: "Art. 2"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Teil: Allgemeine Bestimmungen › Art. 2 Steuererhebung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Teil: Allgemeine Bestimmungen › Art. 2 Steuererhebung
 
 ### Art. 2 DBG – Steuererhebung
 

@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2026 · **Stand:** 2026-01-01
 - **Original:** <https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-os/erlass-631_1-80-273.html> · lokal: [zh-vkp-2026.html](../../../raw/zh/2026/zh-vkp-2026.html) · Volltext: [zh-vkp-2026.md](../../../sources/zh/2026/zh-vkp-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `d239b98abeaa65c9…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis offen · ersetzt `zh-vkp-2024-zstb`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-vkp-2026`).
+
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (2 Chunks)
 

@@ -8,7 +8,7 @@ titel: "Art. 162 DBG – Provisorischer und definitiver Bezug"
 artikel: "Art. 162"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 3. Kapitel: Steuerbezug › Art. 162 Provisorischer und definitiver Bezug
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 3. Kapitel: Steuerbezug › Art. 162 Provisorischer und definitiver Bezug
 
 ### Art. 162 DBG – Provisorischer und definitiver Bezug
 

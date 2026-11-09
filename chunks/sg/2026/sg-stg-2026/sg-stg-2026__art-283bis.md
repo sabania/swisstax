@@ -8,7 +8,7 @@ titel: "Art. 283 bis StG SG – 2. Grundlage für die Berechnung"
 artikel: "Art. 283 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 283 bis 2. Grundlage für die Berechnung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 283 bis 2. Grundlage für die Berechnung
 
 ### Art. 283 bis StG SG – 2. Grundlage für die Berechnung
 

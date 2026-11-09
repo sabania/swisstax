@@ -2,14 +2,14 @@
 id: bund-ks-25__c0050
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang IV Erläuterungen zu den Gleichstellungsregeln (Teil 3/3)"
 ziffer: "Anhang IV"
 seiten: "16-17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang IV Gleichstellung · S. 16–17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 7 Anhänge › Anhang IV Gleichstellung · S. 16–17
 
 Zu Ziffern 3 und 4: Das Vorliegen folgender Hilfskriterien weist daraufhin, dass es sich um
 eine kollektive Kapitalanlage handelt:

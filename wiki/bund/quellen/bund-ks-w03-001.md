@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-w03-001
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. w03-001: Abgangsentschädigung / Kapitalabfindung Arbeitgeber"
 generiert: tools/build_index.py
 ---
 # KS W03-001: ESTV-Kreisschreiben Nr. w03-001: Abgangsentschädigung / Kapitalabfindung Arbeitgeber
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2002-10-03
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2002-10-03
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/HDKOHBk6rvRZ/dbst-ks-w03-001-de.pdf> · lokal: [bund-ks-w03-001.pdf](../../../raw/bund/dauernd/bund-ks-w03-001.pdf) · Volltext: [bund-ks-w03-001.md](../../../sources/bund/dauernd/bund-ks-w03-001.md)
 - **Abgerufen:** 2026-11-09 · sha256 `2511eba406699de9…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2003-01-01 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

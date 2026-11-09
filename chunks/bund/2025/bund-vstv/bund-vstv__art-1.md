@@ -2,13 +2,13 @@
 id: bund-vstv__art-1
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 1 VStV"
 artikel: "Art. 1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · Erster Abschnitt: Allgemeine Bestimmungen › I. Eidgenössische Steuerverwaltung › Art. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · Erster Abschnitt: Allgemeine Bestimmungen › I. Eidgenössische Steuerverwaltung › Art. 1
 
 ### Art. 1 VStV
 

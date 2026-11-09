@@ -8,7 +8,7 @@ titel: "Art. 95 DBG – Empfänger von Vorsorgeleistungen aus öffentlich-rechtl
 artikel: "Art. 95"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 95 Empfänger von Vorsorgeleistungen aus öffentlich-rechtlichem Arbeitsverhältnis
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 95 Empfänger von Vorsorgeleistungen aus öffentlich-rechtlichem Arbeitsverhältnis
 
 ### Art. 95 DBG – Empfänger von Vorsorgeleistungen aus öffentlich-rechtlichem Arbeitsverhältnis
 

@@ -8,7 +8,7 @@ titel: "Art. 36 StG AR – 6. Abzüge in Abhängigkeit der Einkünfte"
 artikel: "Art. 36"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 36 6. Abzüge in Abhängigkeit der Einkünfte
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 36 6. Abzüge in Abhängigkeit der Einkünfte
 
 ### Art. 36 StG AR – 6. Abzüge in Abhängigkeit der Einkünfte
 

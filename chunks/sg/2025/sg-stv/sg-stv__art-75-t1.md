@@ -8,7 +8,7 @@ titel: "Art. 75 StV SG – e) Entschädigung (Teil 1/2)"
 artikel: "Art. 75"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 75 e) Entschädigung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 75 e) Entschädigung
 
 ### Art. 75 StV SG – e) Entschädigung
 

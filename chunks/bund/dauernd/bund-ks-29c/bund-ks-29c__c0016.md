@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0016
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.1 Einlagen während Kapitalband erst nach dessen Ende als KER bestätigt"
 ziffer: "4.1"
 seiten: "10"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.1 Grundsätze · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 4 Ausschüttungen › 4.1 Grundsätze · S. 10
 
 Einlagen in die Reserven aus Kapitaleinlagen, die während eines Kapitalbands nach den Ar-
 tikeln 653s ff. OR geleistet werden, können aufgrund der Nettobetrachtung erst nach Beendi-

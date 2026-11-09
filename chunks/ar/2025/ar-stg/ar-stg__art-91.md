@@ -8,7 +8,7 @@ titel: "Art. 91 StG AR – III. Verteilung"
 artikel: "Art. 91"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › C. Kapitalsteuer › Art. 91 III. Verteilung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › C. Kapitalsteuer › Art. 91 III. Verteilung
 
 ### Art. 91 StG AR – III. Verteilung
 

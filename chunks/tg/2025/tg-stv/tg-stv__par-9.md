@@ -8,7 +8,7 @@ titel: "§ 9 StV TG – Pauschalierung der Unterhaltskosten von Liegenschaften"
 artikel: "§ 9"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 9 Pauschalierung der Unterhaltskosten von Liegenschaften
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 9 Pauschalierung der Unterhaltskosten von Liegenschaften
 
 ### § 9 StV TG – Pauschalierung der Unterhaltskosten von Liegenschaften
 

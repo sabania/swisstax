@@ -9,7 +9,7 @@ artikel: "§ 17b"
 seiten: "7"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 17b StG ZH – c. Einkünfte aus echten Mitarbeiterbeteiligungen · S. 7
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 17b StG ZH – c. Einkünfte aus echten Mitarbeiterbeteiligungen · S. 7
 
 ### § 17b StG ZH – c. Einkünfte aus echten Mitarbeiterbeteiligungen
 

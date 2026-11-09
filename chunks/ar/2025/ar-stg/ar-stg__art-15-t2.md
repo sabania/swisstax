@@ -8,7 +8,7 @@ titel: "Art. 15 StG AR – X. Haftung (Teil 2/2)"
 artikel: "Art. 15"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 15 X. Haftung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 15 X. Haftung
 
 ### Art. 15 StG AR – X. Haftung (Fortsetzung)
 

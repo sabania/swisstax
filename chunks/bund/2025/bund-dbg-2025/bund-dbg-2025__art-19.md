@@ -8,7 +8,7 @@ titel: "Art. 19 DBG – Umstrukturierungen"
 artikel: "Art. 19"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 19 Umstrukturierungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 19 Umstrukturierungen
 
 ### Art. 19 DBG – Umstrukturierungen
 

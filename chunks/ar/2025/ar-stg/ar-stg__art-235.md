@@ -8,7 +8,7 @@ titel: "Art. 235 StG AR – Steuersubjekt und Haftung"
 artikel: "Art. 235"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 3. Handänderungssteuer › Art. 235 Steuersubjekt und Haftung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 3. Handänderungssteuer › Art. 235 Steuersubjekt und Haftung
 
 ### Art. 235 StG AR – Steuersubjekt und Haftung
 

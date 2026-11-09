@@ -8,7 +8,7 @@ titel: "Art. 5 StV SG – c) Anteile thurgauischer Schulgemeinden"
 artikel: "Art. 5"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 5 c) Anteile thurgauischer Schulgemeinden
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 5 c) Anteile thurgauischer Schulgemeinden
 
 ### Art. 5 StV SG – c) Anteile thurgauischer Schulgemeinden
 

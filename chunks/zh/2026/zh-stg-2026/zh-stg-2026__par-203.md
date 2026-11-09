@@ -9,7 +9,7 @@ artikel: "§ 203"
 seiten: "75"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Besondere Bestimmungen › § 203 StG ZH – c. Besteuerung juristischer Personen durch mehrere Kirchgemeinden · S. 75
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Besondere Bestimmungen › § 203 StG ZH – c. Besteuerung juristischer Personen durch mehrere Kirchgemeinden · S. 75
 
 ### § 203 StG ZH – c. Besteuerung juristischer Personen durch mehrere Kirchgemeinden
 

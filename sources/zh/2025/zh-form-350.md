@@ -13,6 +13,7 @@ sha256: 15310365b1733d10116e695201a071ce7ced1c47362eb11c8b7b798b7e95a27f
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
 ---
 # Liegenschaftenverzeichnis (Form. 350)
 

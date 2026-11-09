@@ -8,7 +8,7 @@ titel: "Art. 204 DBG – Renten und Kapitalabfindungen aus Einrichtungen der ber
 artikel: "Art. 204"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 204 Renten und Kapitalabfindungen aus Einrichtungen der beruflichen Vorsorge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 204 Renten und Kapitalabfindungen aus Einrichtungen der beruflichen Vorsorge
 
 ### Art. 204 DBG – Renten und Kapitalabfindungen aus Einrichtungen der beruflichen Vorsorge
 

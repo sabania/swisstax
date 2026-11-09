@@ -8,7 +8,7 @@ titel: "Art. 126a DBG – Notwendige Vertretung"
 artikel: "Art. 126a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 2. Abschnitt: Pflichten des Steuerpflichtigen › Art. 126a Notwendige Vertretung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 2. Abschnitt: Pflichten des Steuerpflichtigen › Art. 126a Notwendige Vertretung
 
 ### Art. 126a DBG – Notwendige Vertretung
 

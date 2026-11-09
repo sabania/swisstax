@@ -9,7 +9,7 @@ ziffer: "92–94"
 seiten: "18"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · E. Neufestsetzung › II. Mehrfamilien- und Geschäftshäuser › F. Inkrafttreten · S. 18
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · E. Neufestsetzung › II. Mehrfamilien- und Geschäftshäuser › F. Inkrafttreten · S. 18
 
     II. Mehrfamilien- und Geschäftshäuser
 

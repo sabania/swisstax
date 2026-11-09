@@ -11,6 +11,36 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Wegleitung · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/oQ0wWcDmCJTS/2a-2026-de.pdf> · lokal: [bund-wl-2a-2026.pdf](../../../raw/bund/2026/bund-wl-2a-2026.pdf) · Volltext: [bund-wl-2a-2026.md](../../../sources/bund/2026/bund-wl-2a-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `767c0f82265a9858…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31 · ersetzt `bund-wl-2a-2025`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 18 Daten-Einträgen und 6 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-wl-2a-2026`).
+
+- `data/werte/ar/2026.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/ar/2026.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/werte/ar/2026.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/bund/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/werte/bund/2026.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
+- `data/werte/bund/2026.yaml#14:berufskosten.uebrige.min` (agent-geprueft)
+- `data/werte/bund/2026.yaml#15:berufskosten.uebrige.max` (agent-geprueft)
+- `data/werte/bund/2026.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/bund/2026.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/bund/2026.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/werte/bund/2026.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- `data/werte/bund/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/bund/2026.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/bund/2026.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/werte/bund/2026.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/sg/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/sg/2026.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#30:abzug.vorsorge.saeule3a_einkauf@13.1 (Einkauf)` (agent-geprueft)
+- [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)
+- [wiki/themen/saeule-3a.md](../../themen/saeule-3a.md)
+- [wiki/themen/selbstaendige-naturalbezuege.md](../../themen/selbstaendige-naturalbezuege.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

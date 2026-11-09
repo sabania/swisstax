@@ -9,7 +9,7 @@ artikel: "§ 5"
 seiten: "2-3"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 5 StG ZH – III. Umfang der Steuerpflicht · S. 2–3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 5 StG ZH – III. Umfang der Steuerpflicht · S. 2–3
 
 ### § 5 StG ZH – III. Umfang der Steuerpflicht (Fortsetzung)
 

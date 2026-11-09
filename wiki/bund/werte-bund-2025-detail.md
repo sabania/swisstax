@@ -429,6 +429,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 - **Wert:** 10 % (Pauschalabzug Unterhaltskosten: 10 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, Gebäude bis 10 Jahre alt (zu Beginn der Steuerperiode); Wahlrecht je Periode und Liegenschaft)
 - **Schlüssel:** `liegenschaft.pauschale_neu` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 32 Abs. 4 DBG; Art. 5 Abs. 2 lit. a LKV
+- **Bemerkung:** Massgebend ist das Gebäudealter zu Beginn der Steuerperiode (1.1.2025): bis zehn Jahre alt → 10 %, mehr als zehn Jahre → 20 % (Baujahr/Bezug im Grenzfall genau prüfen).
 - **Quellen:**
   - [LKV Art. 5](../../chunks/bund/2025/bund-lkv/bund-lkv__art-5.md) `bund-lkv__art-5` – «wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags»
 
@@ -438,6 +439,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 - **Wert:** 20 % (Pauschalabzug: 20 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, Gebäude über 10 Jahre alt)
 - **Schlüssel:** `liegenschaft.pauschale_alt` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 5 Abs. 2 lit. b LKV
+- **Bemerkung:** Massgebend ist das Gebäudealter zu Beginn der Steuerperiode (1.1.2025): bis zehn Jahre alt → 10 %, mehr als zehn Jahre → 20 % (Baujahr/Bezug im Grenzfall genau prüfen).
 - **Quellen:**
   - [LKV Art. 5](../../chunks/bund/2025/bund-lkv/bund-lkv__art-5.md) `bund-lkv__art-5` – «wenn das Gebäude zu Beginn der Steuerperiode mehr als zehn Jahre alt ist: 20 Prozent des Brutto-Mietertrags»
 
@@ -457,6 +459,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 - **Wert:** CHF 6'800 (Kinderabzug pro minderjähriges oder in Ausbildung stehendes Kind; bei getrennter Besteuerung hälftig, wenn gemeinsame elterliche Sorge und keine Unterhaltsbeiträge)
 - **Schlüssel:** `sozialabzug.kind` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 35 Abs. 1 lit. a DBG
+- **Bemerkung:** Zusätzlich zum Kinderabzug vom Einkommen: Abzug vom Steuerbetrag je Kind (Eckwert steuerbetrag.abzug_kind, Art. 36 Abs. 2bis DBG) – beide Abzüge gelten, nicht verwechseln.
 - **Quellen:**
   - [DBG Art. 35](../../chunks/bund/2025/bund-dbg-2025/bund-dbg-2025__art-35.md) `bund-dbg-2025__art-35` – «6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind»
   - [RS 2-210 S. 2](../../chunks/bund/2025/bund-rs-2-210/bund-rs-2-210__c0007.md) `bund-rs-2-210__c0007` – «Kinderabzug (Art. 35 Abs. 1 Bst. a DBG) 6’700 6’800»

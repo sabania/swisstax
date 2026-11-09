@@ -8,7 +8,7 @@ titel: "Art. 143 StG AR – V. Steuerbemessung 1. Bewertung a) Grundsatz"
 artikel: "Art. 143"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 143 V. Steuerbemessung 1. Bewertung a) Grundsatz
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 143 V. Steuerbemessung 1. Bewertung a) Grundsatz
 
 ### Art. 143 StG AR – V. Steuerbemessung 1. Bewertung a) Grundsatz
 

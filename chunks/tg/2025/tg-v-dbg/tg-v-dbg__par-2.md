@@ -8,7 +8,7 @@ titel: "§ 2 V DBG TG – Departement"
 artikel: "§ 2"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 2 Departement
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 2 Departement
 
 ### § 2 V DBG TG – Departement
 

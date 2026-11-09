@@ -8,7 +8,7 @@ titel: "§ 11 V DBG TG – Wechsel der zeitlichen Bemessung für die natürliche
 artikel: "§ 11"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 3. Schlussbestimmungen › § 11 Wechsel der zeitlichen Bemessung für die natürlichen Personen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 3. Schlussbestimmungen › § 11 Wechsel der zeitlichen Bemessung für die natürlichen Personen
 
 ### § 11 V DBG TG – Wechsel der zeitlichen Bemessung für die natürlichen Personen
 

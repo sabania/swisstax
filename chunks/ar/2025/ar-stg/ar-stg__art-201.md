@@ -8,7 +8,7 @@ titel: "Art. 201 StG AR – 3. Auskunfts- und Bescheinigungspflichten"
 artikel: "Art. 201"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › G. Inventar › Art. 201 3. Auskunfts- und Bescheinigungspflichten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › G. Inventar › Art. 201 3. Auskunfts- und Bescheinigungspflichten
 
 ### Art. 201 StG AR – 3. Auskunfts- und Bescheinigungspflichten
 

@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Merkblatt 09 Teilpensionierung – Voraussetzungen (Art. 13a BVG)",
    "pfad": [
     "Voraussetzungen"
@@ -24,7 +24,7 @@
    "zusammenfassung": "Beschäftigungsgrad und Lohn müssen um mindestens 20 % reduziert werden, Schritte im Abstand von mindestens einem Jahr (365 Tage), Teilbezug mindestens 20 % der Altersleistung."
   },
   {
-   "start": 54,
+   "start": 38,
    "titel": "Kapitalbezug in höchstens drei Schritten; Zusammenrechnung ab dem vierten Bezug",
    "pfad": [
     "Kapitalbezug"
@@ -42,7 +42,7 @@
    "zusammenfassung": "Kapitalbezug höchstens in drei Schritten (alle Bezüge aus beruflicher Vorsorge); mehr als drei Bezüge werden für den Steuersatz zusammengerechnet."
   },
   {
-   "start": 63,
+   "start": 47,
    "titel": "Beispiel 1 Teilpensionierung – 80 %, 40 %, Pensionierung",
    "pfad": [
     "Beispiele"
@@ -59,7 +59,7 @@
    "zusammenfassung": "Alter 63: 80 % mit 20 % Kapitalbezug; Alter 64: 40 % mit 40 %; Alter 65: Pensionierung mit 40 %."
   },
   {
-   "start": 72,
+   "start": 56,
    "titel": "Beispiel 2 Teilpensionierung – drei Schritte, vierter Bezug zusammengezählt",
    "pfad": [
     "Beispiele"
@@ -75,5 +75,7 @@
    ],
    "zusammenfassung": "Drei Kapitalbezüge zu je 20 % (Alter 63–65); bei einem vierten Bezug werden Bezüge drei und vier für die Steuerberechnung zusammengezählt."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

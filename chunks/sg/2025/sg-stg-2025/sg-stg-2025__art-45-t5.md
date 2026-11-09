@@ -8,7 +8,7 @@ titel: "Art. 45 StG SG – Allgemeine Abzüge 1. Von der Höhe des Einkommens un
 artikel: "Art. 45"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 45 Allgemeine Abzüge 1. Von der Höhe des Einkommens unabhängige Abzüge
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 45 Allgemeine Abzüge 1. Von der Höhe des Einkommens unabhängige Abzüge
 
 ### Art. 45 StG SG – Allgemeine Abzüge 1. Von der Höhe des Einkommens unabhängige Abzüge (Fortsetzung)
 

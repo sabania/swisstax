@@ -7,7 +7,7 @@ typ: info
 titel: "Deklaration der neuen Werte"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: info}}
 ---
-> ZH · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Ablauf der Neubewertung › Deklaration der neuen Werte
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Ablauf der Neubewertung › Deklaration der neuen Werte
 
 ### Deklaration der neuen Werte
 

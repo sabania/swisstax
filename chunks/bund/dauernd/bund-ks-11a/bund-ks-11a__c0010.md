@@ -9,7 +9,7 @@ ziffer: "3.2.4"
 seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5
 
 3.2.4   Kosten für Alternativmedizin
 Neben den traditionellen Heilbehandlungen gelten auch die Behandlungen der Alternativmedi

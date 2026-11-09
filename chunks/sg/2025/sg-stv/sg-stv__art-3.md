@@ -8,7 +8,7 @@ titel: "Art. 3 StV SG – Ausscheidung der Gemeindeanteile (Art. 8 StG) a) Aussc
 artikel: "Art. 3"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 3 Ausscheidung der Gemeindeanteile (Art. 8 StG) a) Ausscheidungsregeln
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 3 Ausscheidung der Gemeindeanteile (Art. 8 StG) a) Ausscheidungsregeln
 
 ### Art. 3 StV SG – Ausscheidung der Gemeindeanteile (Art. 8 StG) a) Ausscheidungsregeln
 

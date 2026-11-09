@@ -9,7 +9,7 @@ ziffer: "§ 24"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 24 · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 24 · S. 1
 
 # Verordnung über den Ausgleich der kalten Progression bei der Einkommens- und Vermögenssteuer ab 1. Januar 2026 (ZStB 48.1)
 

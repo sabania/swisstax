@@ -8,7 +8,7 @@ titel: "Art. 10 StV SG – Steuerbares Einkommen a) Bewertung der Naturalbezüge
 artikel: "Art. 10"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 10 Steuerbares Einkommen a) Bewertung der Naturalbezüge (Art. 29 Abs. 2 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 10 Steuerbares Einkommen a) Bewertung der Naturalbezüge (Art. 29 Abs. 2 StG)
 
 ### Art. 10 StV SG – Steuerbares Einkommen a) Bewertung der Naturalbezüge (Art. 29 Abs. 2 StG)
 

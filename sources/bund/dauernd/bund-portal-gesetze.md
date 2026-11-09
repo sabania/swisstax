@@ -6,12 +6,14 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: portal
 quelle_url: https://www.estv.admin.ch/de/gesetze-und-verordnungen-direkte-bundessteuer
 raw: raw/bund/dauernd/bund-portal-gesetze.html
 sha256: f8e2d11f8bd37081d237b197687323fa7e1095cc0d9eb44914cd62b65039e9fc
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # ESTV Gesetze und Verordnungen DBST
 

@@ -2,13 +2,13 @@
 id: tg-steuerfuesse-2026__c0005
 quelle: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 typ: steuerfuss
 titel: "Schulsteuerfüsse 2026 – gewichteter Durchschnitt 89.4 %"
 seiten: "2"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
+qmd: {metadata: {jur: tg, jahre: [2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Schulsteuerfuss · S. 2
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Schulsteuerfuss · S. 2
 
 Münsterlingen und Wagenhausen erhöhten den Gemeindesteu-   Mehr Erhöhungen als Senkungen bei den
 erfuss um je 3 Prozentpunkte.   Schulsteuerfüssen

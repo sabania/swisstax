@@ -2,13 +2,13 @@
 id: bund-vstg__art-34
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 34 VStG"
 artikel: "Art. 34"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · I. Organisation › 1. ESTV › Art. 34
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · I. Organisation › 1. ESTV › Art. 34
 
 ### Art. 34 VStG
 

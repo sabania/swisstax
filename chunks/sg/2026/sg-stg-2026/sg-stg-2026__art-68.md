@@ -8,7 +8,7 @@ titel: "Art. 68 StG SG – Bemessung des Vermögens"
 artikel: "Art. 68"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › IV. Zeitliche Bemessung › Art. 68 Bemessung des Vermögens
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › IV. Zeitliche Bemessung › Art. 68 Bemessung des Vermögens
 
 ### Art. 68 StG SG – Bemessung des Vermögens
 

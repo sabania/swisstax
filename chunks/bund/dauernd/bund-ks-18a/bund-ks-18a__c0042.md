@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0042
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 11 Besteuerung bei Leistungen im Todesfall; Ziff. 12 Inkrafttreten (1. Januar 2026)"
 ziffer: "11–12"
 seiten: "13"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 11. Todesfall / 12. Inkrafttreten · S. 13
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 11. Todesfall / 12. Inkrafttreten · S. 13
 
 11. Besteuerung bei Leistungen im Todesfall
 Säule 3a-Guthaben gehören grundsätzlich nicht zur Erbmasse des Erblassers. Die Begüns-

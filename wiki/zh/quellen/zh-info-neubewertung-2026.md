@@ -11,6 +11,15 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/steuern-natuerliche-personen/liegenschaftenneubewertung-2026.html> · lokal: [zh-info-neubewertung-2026.html](../../../raw/zh/2026/zh-info-neubewertung-2026.html) · Volltext: [zh-info-neubewertung-2026.md](../../../sources/zh/2026/zh-info-neubewertung-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `266b8c7b8a4abec2…`
+- **Gültigkeit:** Zeitbezug info (Information) · gilt ab 2026-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-info-neubewertung-2026`).
+
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
+- [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (25 Chunks)
 

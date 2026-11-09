@@ -8,7 +8,7 @@ titel: "Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 199
 artikel: "Art. 207a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 207a Übergangsbestimmung zur Änderung vom 10. Oktober 1997
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 207a Übergangsbestimmung zur Änderung vom 10. Oktober 1997
 
 ### Art. 207a DBG – Übergangsbestimmung zur Änderung vom 10. Oktober 1997 (Fortsetzung)
 

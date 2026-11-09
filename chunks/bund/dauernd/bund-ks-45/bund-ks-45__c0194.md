@@ -2,14 +2,14 @@
 id: bund-ks-45__c0194
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 9.4 Abrechnungskorrekturen durch den Schuldner (bis 31. März)"
 ziffer: "9.4"
 seiten: "60"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.4 Abrechnungskorrekturen · S. 60
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.4 Abrechnungskorrekturen · S. 60
 
 9.4   Abrechnungskorrekturen
 Unterlaufen dem Schuldner der steuerbaren Leistung bei der Festlegung des der Quellen-

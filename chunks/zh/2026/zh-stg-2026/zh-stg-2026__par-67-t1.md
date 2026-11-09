@@ -9,7 +9,7 @@ artikel: "§ 67"
 seiten: "37-38"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 67 StG ZH – k.[^93] Umstrukturierungen · S. 37–38
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 67 StG ZH – k.[^93] Umstrukturierungen · S. 37–38
 
 ### § 67 StG ZH – k.[^93] Umstrukturierungen
 

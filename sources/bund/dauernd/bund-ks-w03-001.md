@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2002-10-03'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/HDKOHBk6rvRZ/dbst-ks-w03-001-de.pdf
@@ -14,6 +15,8 @@ sha256: 2511eba406699de91766c7bad21cb0278b79c0ebb065a08b5e8fb189443b4a33
 abgerufen: '2026-11-09'
 seiten: 8
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2003-01-01'
 ---
 # ESTV-Kreisschreiben Nr. w03-001: Abgangsentschädigung / Kapitalabfindung Arbeitgeber
 

@@ -9,7 +9,7 @@ artikel: "§ 107"
 seiten: "49"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 107 StG ZH – II. Zuständigkeit zur Einschätzung · S. 49
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 107 StG ZH – II. Zuständigkeit zur Einschätzung · S. 49
 
 ### § 107 StG ZH – II. Zuständigkeit zur Einschätzung
 

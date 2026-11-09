@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/08_Einkauf_in_Pensionskasse__alle_Jahre_.pdf
 raw: raw/ar/dauernd/ar-mb-08.pdf
@@ -13,6 +14,7 @@ sha256: 23f154cbac9035b6ae387c5ecc109ee2f80bed56e91a87601de48fc5ed031653
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
 ---
 # Merkblatt 08: Einkauf in die Pensionskasse
 

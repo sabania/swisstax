@@ -12,6 +12,10 @@ sha256: aff1db2d971a1ba74aba7b17730f4653e2a917ec7c40fc29fdee17a482683964
 abgerufen: '2026-11-09'
 seiten: 10
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: bund-wl-2a-2026
 ---
 # ESTV Wegleitung 2a zur Steuererklärung natürliche Personen 2025 (DBST)
 

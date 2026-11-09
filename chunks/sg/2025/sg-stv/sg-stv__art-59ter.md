@@ -8,7 +8,7 @@ titel: "Art. 59 ter StV SG – Wechsel von der ordentlichen Veranlagung zum Quel
 artikel: "Art. 59 ter"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 59 ter Wechsel von der ordentlichen Veranlagung zum Quellensteuerabzug (Art. 113 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 59 ter Wechsel von der ordentlichen Veranlagung zum Quellensteuerabzug (Art. 113 StG)
 
 ### Art. 59 ter StV SG – Wechsel von der ordentlichen Veranlagung zum Quellensteuerabzug (Art. 113 StG)
 

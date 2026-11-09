@@ -8,7 +8,7 @@ titel: "§ 8 StV TG – Liegenschaftenaufwand nach Erwerb"
 artikel: "§ 8"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 8 Liegenschaftenaufwand nach Erwerb
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 8 Liegenschaftenaufwand nach Erwerb
 
 ### § 8 StV TG – Liegenschaftenaufwand nach Erwerb
 

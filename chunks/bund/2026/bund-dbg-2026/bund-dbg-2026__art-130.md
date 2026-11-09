@@ -8,7 +8,7 @@ titel: "Art. 130 DBG – Durchführung"
 artikel: "Art. 130"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 3. Kapitel: Veranlagung › Art. 130 Durchführung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 3. Kapitel: Veranlagung › Art. 130 Durchführung
 
 ### Art. 130 DBG – Durchführung
 

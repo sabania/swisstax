@@ -9,7 +9,7 @@ ziffer: "6.2 b–c"
 seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung · S. 8–9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung · S. 8–9
 
 WEFV. Bei solchen Vorbezügen unterliegt im Zeitpunkt der Auszahlung stets nur der ausge-
 richtete Teilbezug der Besteuerung nach Artikel 22 Absatz 1 in Verbindung mit Artikel

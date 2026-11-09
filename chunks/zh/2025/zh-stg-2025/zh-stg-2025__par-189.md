@@ -9,7 +9,7 @@ artikel: "§ 189"
 seiten: "73"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 189 StG ZH – 3. Bestand und Umfang der Steuerpflicht a. Im Allgemeinen · S. 73
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 189 StG ZH – 3. Bestand und Umfang der Steuerpflicht a. Im Allgemeinen · S. 73
 
 ### § 189 StG ZH – 3. Bestand und Umfang der Steuerpflicht a. Im Allgemeinen
 

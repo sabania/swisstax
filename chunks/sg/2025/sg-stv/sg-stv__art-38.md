@@ -8,7 +8,7 @@ titel: "Art. 38 StV SG – Ausnahmen von der Steuerpflicht (Art. 80 Abs. 1 Bst. 
 artikel: "Art. 38"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 38 Ausnahmen von der Steuerpflicht (Art. 80 Abs. 1 Bst. g StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 38 Ausnahmen von der Steuerpflicht (Art. 80 Abs. 1 Bst. g StG)
 
 ### Art. 38 StV SG – Ausnahmen von der Steuerpflicht (Art. 80 Abs. 1 Bst. g StG)
 

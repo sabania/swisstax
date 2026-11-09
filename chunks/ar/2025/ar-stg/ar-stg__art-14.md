@@ -8,7 +8,7 @@ titel: "Art. 14 StG AR – IX. Steuernachfolge"
 artikel: "Art. 14"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 14 IX. Steuernachfolge
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 14 IX. Steuernachfolge
 
 ### Art. 14 StG AR – IX. Steuernachfolge
 

@@ -9,7 +9,7 @@ artikel: "§ 248"
 seiten: "86"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 248 StG ZH – f. Untersuchung · S. 86
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 248 StG ZH – f. Untersuchung · S. 86
 
 ### § 248 StG ZH – f. Untersuchung
 

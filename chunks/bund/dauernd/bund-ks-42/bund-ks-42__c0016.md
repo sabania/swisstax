@@ -2,14 +2,14 @@
 id: bund-ks-42__c0016
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.4 Berufsorientierte Aus- und Weiterbildung nach Sek-II-Abschluss (Teil 1/2)"
 ziffer: "4.4"
 seiten: "7-8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.4 Berufsorientierte Weiterbildung · S. 7–8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 4 Steuerliche Behandlung › 4.4 Berufsorientierte Weiterbildung · S. 7–8
 
 4.4   Berufsorientierte Aus- und Weiterbildung nach Abschluss auf Sekundarstufe II
 Berufsorientierte Aus- und Weiterbildung beinhaltet, durch organisiertes Lernen bestehende be-

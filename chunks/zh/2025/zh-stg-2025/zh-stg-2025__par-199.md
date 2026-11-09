@@ -9,7 +9,7 @@ artikel: "§ 199"
 seiten: "74"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Besondere Bestimmungen › § 199 StG ZH – I. Personalsteuer 1. Steuerpflicht · S. 74
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Besondere Bestimmungen › § 199 StG ZH – I. Personalsteuer 1. Steuerpflicht · S. 74
 
 ### § 199 StG ZH – I. Personalsteuer 1. Steuerpflicht
 

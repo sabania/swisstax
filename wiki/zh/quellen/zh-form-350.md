@@ -11,6 +11,17 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Formular · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/jahrunabhaengig/est-formulare/350%20Liegensch%20ZH%202025%20HA%20DEF.pdf> · lokal: [zh-form-350.pdf](../../../raw/zh/2025/zh-form-350.pdf) · Volltext: [zh-form-350.md](../../../sources/zh/2025/zh-form-350.md)
 - **Abgerufen:** 2026-11-09 · sha256 `15310365b1733d10…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 4 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-350`).
+
+- `data/zuordnung/zh/2025.yaml#20:einkommen.liegenschaften.mietertrag@6` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#97:vermoegen.liegenschaften@Form. 350 Seite 1` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#98:einkommen.liegenschaften.eigenmietwert@Form. 350 Seite 2 Spalte Eigenmietwert` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#99:abzug.liegenschaft.unterhalt@Form. 350 Seite 2 Spalte Unterhalts- und Verwaltungskosten` (agent-geprueft)
+- [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

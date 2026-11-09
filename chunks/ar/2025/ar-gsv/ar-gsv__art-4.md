@@ -8,7 +8,7 @@ titel: "Art. 4 GSV AR – Grundlagen der Schätzung"
 artikel: "Art. 4"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 4 Grundlagen der Schätzung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 4 Grundlagen der Schätzung
 
 ### Art. 4 GSV AR – Grundlagen der Schätzung
 

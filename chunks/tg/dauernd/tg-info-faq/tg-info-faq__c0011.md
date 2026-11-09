@@ -7,7 +7,7 @@ typ: info
 titel: "Einkommen"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Einkommen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Einkommen
 
     Führen Sie eine Buchhaltung nach kaufmännischen Grundsätzen, reichen Sie die unterzeichnete Bilanz und Erfolgsrechnung des in der betreffenden Steuerperiode abgeschlossenen Geschäftsjahrs ein. Bitte reichen Sie ebenfalls das Kontoblatt "Privatkonto" (mit Privateinlagen und -entnahmen) sowie eine Abschreibungstabelle oder die Detailkonti des Anlagevermögens ein.
 

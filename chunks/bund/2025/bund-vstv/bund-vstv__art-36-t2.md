@@ -2,13 +2,13 @@
 id: bund-vstv__art-36-t2
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 36 VStV (Teil 2/2)"
 artikel: "Art. 36"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · 3. Domizilerklärung › a. Ausstellung › Art. 36
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · 3. Domizilerklärung › a. Ausstellung › Art. 36
 
 ### Art. 36 VStV (Fortsetzung)
 

@@ -9,7 +9,7 @@ ziffer: "4 / 28"
 seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 4 · S. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 4 · S. 12
 
 Kapitalleistungen   Ziffer 4
 

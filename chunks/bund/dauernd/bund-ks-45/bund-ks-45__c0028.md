@@ -2,14 +2,14 @@
 id: bund-ks-45__c0028
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.2.2 Beschränkt steuerbare Einkünfte – schweizerische Arbeitstage (Teil 1/2)"
 ziffer: "3.2.2"
 seiten: "10"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.2 Steuerbare Leistungen · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 3 Quellenbesteuerte Arbeitnehmer › 3.2 Steuerbare Leistungen · S. 10
 
 3.2.2 In der Schweiz beschränkt der Quellensteuer unterliegende Einkünfte aus Arbeitsver-
     hältnis

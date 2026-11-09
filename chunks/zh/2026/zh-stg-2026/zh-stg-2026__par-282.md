@@ -9,7 +9,7 @@ artikel: "§ 282"
 seiten: "93"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 282 StG ZH · S. 93
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 282 StG ZH · S. 93
 
 ### § 282 StG ZH
 

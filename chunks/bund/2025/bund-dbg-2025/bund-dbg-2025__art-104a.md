@@ -8,7 +8,7 @@ titel: "Art. 104a DBG – Elektronische Verfahren"
 artikel: "Art. 104a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Kantonale Behörden › 1. Abschnitt: Organisation, elektronische Verfahren und Aufsicht › Art. 104a Elektronische Verfahren
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Kantonale Behörden › 1. Abschnitt: Organisation, elektronische Verfahren und Aufsicht › Art. 104a Elektronische Verfahren
 
 ### Art. 104a DBG – Elektronische Verfahren
 

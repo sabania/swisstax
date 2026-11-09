@@ -9,7 +9,7 @@ artikel: "§ 32"
 seiten: "19"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 32 StG ZH – b. Von der Höhe des Einkommens abhängige Abzüge · S. 19
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 32 StG ZH – b. Von der Höhe des Einkommens abhängige Abzüge · S. 19
 
 ### § 32 StG ZH – b. Von der Höhe des Einkommens abhängige Abzüge
 

@@ -9,7 +9,7 @@ artikel: "§ 90"
 seiten: "43-44"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 90 StG ZH – 2. Ausgestaltung · S. 43–44
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 90 StG ZH – 2. Ausgestaltung · S. 43–44
 
 ### § 90 StG ZH – 2. Ausgestaltung
 

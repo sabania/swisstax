@@ -8,7 +8,7 @@ titel: "§ 34 StV TG – Revisionstabelle"
 artikel: "§ 34"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 6. Steuerbehörden › § 34 Revisionstabelle
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 6. Steuerbehörden › § 34 Revisionstabelle
 
 ### § 34 StV TG – Revisionstabelle
 

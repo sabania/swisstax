@@ -2,14 +2,14 @@
 id: bund-ks-25__c0055
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang VI–VIII Musterreporting Dachfonds und Einzelfonds"
 ziffer: "Anhang VI–VIII"
 seiten: "19"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhänge VI–VIII · S. 19
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 7 Anhänge › Anhänge VI–VIII · S. 19
 
 Anhang VI
 Musterreporting inländische Dachfonds (MS Excel 2013)

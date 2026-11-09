@@ -8,7 +8,7 @@ titel: "Art. 64 StV SG – Internationale Verhältnisse (Art. 128 StG) a) Rücke
 artikel: "Art. 64"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen › Art. 64 Internationale Verhältnisse (Art. 128 StG) a) Rückerstattung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen › Art. 64 Internationale Verhältnisse (Art. 128 StG) a) Rückerstattung
 
 ### Art. 64 StV SG – Internationale Verhältnisse (Art. 128 StG) a) Rückerstattung
 

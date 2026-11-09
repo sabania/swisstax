@@ -2,13 +2,13 @@
 id: bund-vstv__art-68
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 68 VStV"
 artikel: "Art. 68"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · II. Verfahren › 1. Antrag › Art. 68
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · II. Verfahren › 1. Antrag › Art. 68
 
 ### Art. 68 VStV
 

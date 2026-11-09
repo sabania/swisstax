@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0044
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.3.4 Umwandlung eines Instituts des öffentlichen Rechts"
 ziffer: "6.3.4"
 seiten: "18-19"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.3 Umwandlung · S. 18–19
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.3 Umwandlung · S. 18–19
 
 6.3.4. Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesellschaft
     oder in eine Genossenschaft

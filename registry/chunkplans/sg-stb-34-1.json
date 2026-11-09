@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Ziff. 1 Eigenmietwert – Rechtsgrundlagen und Marktwertprinzip (Art. 34 StG)",
    "pfad": [
     "1. Rechtsgrundlagen / Marktwertprinzip"
@@ -24,7 +24,7 @@
    "ziffer": "1"
   },
   {
-   "start": 38,
+   "start": 22,
    "titel": "Ziff. 2/2.1 Ermittlung des Eigenmietwertes – Schätzung GGS und DBSt",
    "pfad": [
     "2. Ermittlung",
@@ -44,7 +44,7 @@
    "ziffer": "2.1"
   },
   {
-   "start": 54,
+   "start": 38,
    "titel": "Ziff. 2.2 Vorzugsmiete – Aufhebung ab 2024, Steuerumgehung (Hälfte-Grenze)",
    "pfad": [
     "2. Ermittlung",
@@ -65,7 +65,7 @@
    "ziffer": "2.2"
   },
   {
-   "start": 71,
+   "start": 55,
    "titel": "Ziff. 2.2 Unterpreisige Vermietung durch/an Kapitalgesellschaft oder Selbständige",
    "pfad": [
     "2. Ermittlung",
@@ -85,7 +85,7 @@
    "ziffer": "2.2"
   },
   {
-   "start": 88,
+   "start": 72,
    "titel": "Ziff. 2.2 Gebrauchsleihe – unentgeltliche Überlassung, Nutzniessung/Wohnrecht",
    "pfad": [
     "2. Ermittlung",
@@ -105,7 +105,7 @@
    "ziffer": "2.2"
   },
   {
-   "start": 98,
+   "start": 82,
    "titel": "Ziff. 2.2 Überlassung an Ehegatten bei Trennung/Scheidung",
    "pfad": [
     "2. Ermittlung",
@@ -127,7 +127,7 @@
    "ziffer": "2.2"
   },
   {
-   "start": 111,
+   "start": 95,
    "titel": "Ziff. 2.3 Baurechtsgrundstück – Mietwert nur des Gebäudes",
    "pfad": [
     "2. Ermittlung",
@@ -145,7 +145,7 @@
    "ziffer": "2.3"
   },
   {
-   "start": 120,
+   "start": 104,
    "titel": "Ziff. 2.4 Herabsetzung des Eigenmietwertes um 30 % bei Selbstbewohnen",
    "pfad": [
     "2. Ermittlung",
@@ -167,7 +167,7 @@
    "ziffer": "2.4"
   },
   {
-   "start": 151,
+   "start": 135,
    "titel": "Ziff. 2.5 Unternutzungsabzug – Voraussetzungen",
    "pfad": [
     "2. Ermittlung",
@@ -188,7 +188,7 @@
    "ziffer": "2.5"
   },
   {
-   "start": 183,
+   "start": 167,
    "titel": "Ziff. 2.5 Berechnung Unternutzungsabzug – Formel und Beispiel",
    "pfad": [
     "2. Ermittlung",
@@ -207,7 +207,7 @@
    "ziffer": "2.5"
   },
   {
-   "start": 193,
+   "start": 177,
    "titel": "Ziff. 2.6.1–2.6.2 Härtefallregelung – Allgemeines, selbstbewohntes Eigenheim",
    "pfad": [
     "2. Ermittlung",
@@ -228,7 +228,7 @@
    "ziffer": "2.6.1–2.6.2"
   },
   {
-   "start": 212,
+   "start": 196,
    "titel": "Ziff. 2.6.3 Härtefall – Person im ordentlichen AHV-Rentenalter",
    "pfad": [
     "2. Ermittlung",
@@ -247,7 +247,7 @@
    "ziffer": "2.6.3"
   },
   {
-   "start": 221,
+   "start": 205,
    "titel": "Ziff. 2.6.4 Härtefall – Missverhältnis: 30 % der Bruttoeinkünfte, Vermögen max. Fr. 600'000",
    "pfad": [
     "2. Ermittlung",
@@ -267,7 +267,7 @@
    "ziffer": "2.6.4"
   },
   {
-   "start": 246,
+   "start": 230,
    "titel": "Ziff. 2.6.5 Berechnung des Härtefalleinschlags – Grundsatz",
    "pfad": [
     "2. Ermittlung",
@@ -285,7 +285,7 @@
    "ziffer": "2.6.5"
   },
   {
-   "start": 255,
+   "start": 239,
    "titel": "Ziff. 2.6.5 Beispiel Härtefalleinschlag (Bruttoeinkünfte Fr. 40'000, Marktmietwert Fr. 24'000)",
    "pfad": [
     "2. Ermittlung",
@@ -304,7 +304,7 @@
    "ziffer": "2.6.5"
   },
   {
-   "start": 285,
+   "start": 269,
    "titel": "Ziff. 2.7 Verhältnis Unternutzungsabzug / Härtefallregelung",
    "pfad": [
     "2. Ermittlung",
@@ -321,7 +321,7 @@
    "ziffer": "2.7"
   },
   {
-   "start": 300,
+   "start": 284,
    "titel": "Ziff. 3 Unterhaltskostenpauschale bei Eigenheimen – 20 % des Eigenmietwertes",
    "pfad": [
     "3. Höhe der Unterhaltskostenpauschale"
@@ -339,5 +339,7 @@
    "zusammenfassung": "Die Pauschale beträgt bei Eigenheimen 20 % des angerechneten (herabgesetzten) steuerbaren Eigenmietwertes (Art. 29 Abs. 1 StV).",
    "ziffer": "3"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

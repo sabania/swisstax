@@ -8,7 +8,7 @@ titel: "§ 21 SchäV TG – Ermittlung des Ertragswertes"
 artikel: "§ 21"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 3. Schätzung land- und forstwirtschaftlicher Grundstücke › § 21 Ermittlung des Ertragswertes
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 3. Schätzung land- und forstwirtschaftlicher Grundstücke › § 21 Ermittlung des Ertragswertes
 
 ### § 21 SchäV TG – Ermittlung des Ertragswertes
 

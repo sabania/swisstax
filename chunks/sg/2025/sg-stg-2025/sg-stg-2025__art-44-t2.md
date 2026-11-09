@@ -8,7 +8,7 @@ titel: "Art. 44 StG SG – d) Privatvermögen (Teil 2/2)"
 artikel: "Art. 44"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 44 d) Privatvermögen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 44 d) Privatvermögen
 
 ### Art. 44 StG SG – d) Privatvermögen (Fortsetzung)
 

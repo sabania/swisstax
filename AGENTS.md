@@ -12,6 +12,11 @@ Die fachliche Beurteilung bleibt bei der Fachperson. Diese Datei ist das Regelwe
 2. **Jurisdiktion × Steuerjahr sind fest.** Steuerjahr = Steuerperiode (die Wegleitung 2025 erscheint 2026). Werte nie
    von einem Jahr oder Kanton auf ein anderes übertragen. Fehlt ein Wert für das Jahr: sagen, dass er fehlt, und den
    Vorjahreswert höchstens ausdrücklich als «Vorjahr, nicht bestätigt» nennen.
+2a. **Zeitbezug beachten** (Registry-Feld `zeitbezug`, Übersicht `quick/gueltigkeit-<jahr>.md`): Für Steuerjahr X gilt
+   materiell die Fassung der Periode X (Wegleitung/Formular X, Gesetz in Kraft für X); **Verfahren** (Einreichefrist,
+   Fristerstreckung, Mahnung, Gebühren, Rechtsmittel) richtet sich nach der Fassung im Zeitpunkt der Handlung, also meist X+1;
+   **Zinsen/Bezug** nach dem Kalenderjahr der Zahlung; **Stichtagswerte** per 31.12.X; **Praxis** (KS, Merkblätter) gilt ab
+   ihrem Datum bzw. Anwendungsbeginn. «Überholt» ist immer relativ zum Steuerjahr – ältere Fassungen bleiben für frühere Jahre gültig.
 3. **Staats-/Gemeindesteuer ≠ direkte Bundessteuer.** Natürliche Personen reichen eine kantonale Steuererklärung ein,
    die beide Ebenen abdeckt; Abzüge unterscheiden sich oft (Spalten «Kanton» und «Bund» beachten).
 4. **Status respektieren:** `verifiziert` (Fachperson) > `agent-geprueft` > `extrahiert` > `offen`; `strittig` heisst
@@ -74,6 +79,14 @@ thema | ueberblick | quelle | quellenkatalog | antwort | beleg | werte-detail | 
 `status` (entwurf | stabil | veraltet), `generiert` (Tool/Agent, Datum), optional `verifiziert` (Kürzel, Datum).
 Dateinamen: kebab-case, ASCII (ae/oe/ue), global eindeutig (`werte-zh-2025.md`), **nie** mit Datumspräfix `YYYY-MM-DD`
 (OpenClaw behandelt solche Dateien als Tagesnotizen mit Zeitverfall).
+
+## 6a. Nachvollziehbarkeit
+
+Hierarchie: Quelle (`registry/sources.yaml`) → Chunk (`chunks/<jur>/<jahr>/<quelle>/<id>.md`) → Daten-Eintrag
+(`data/…yaml#<index>:<key>@<ziffer>`) → Seite (generiert: `quick/`, `wiki/<jur>/*-detail.md`, `wiki/belege/`; hand: `wiki/themen/`,
+Überblicke). Vor jeder Änderung: `python3 tools/impact.py --quelle <id>` bzw. `--chunk <id>` zeigt alle betroffenen Einträge
+und Seiten; jede Quellenseite `wiki/<jur>/quellen/<id>.md` listet «Verwendet in». Neue Fassungen nie überschreiben, sondern
+als eigene Quelle mit `gilt_ab` und `ersetzt: <alte id>` erfassen. Ausführlich: `KONZEPT.md`.
 
 ## 7. Operationen (Pflege)
 

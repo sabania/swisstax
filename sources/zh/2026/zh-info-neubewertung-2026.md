@@ -11,6 +11,8 @@ raw: raw/zh/2026/zh-info-neubewertung-2026.html
 sha256: 266b8c7b8a4abec2056c04d269eede45d9ade3c9c8b1f656a3d302620b9b200f
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
+gilt_ab: '2026-01-01'
 ---
 # Liegenschaftenneubewertung 2026
 

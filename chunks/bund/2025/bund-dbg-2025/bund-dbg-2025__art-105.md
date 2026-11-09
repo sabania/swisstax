@@ -8,7 +8,7 @@ titel: "Art. 105 DBG – Bei persönlicher Zugehörigkeit"
 artikel: "Art. 105"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Kantonale Behörden › 2. Abschnitt: Örtliche Zuständigkeit › Art. 105 Bei persönlicher Zugehörigkeit
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Kantonale Behörden › 2. Abschnitt: Örtliche Zuständigkeit › Art. 105 Bei persönlicher Zugehörigkeit
 
 ### Art. 105 DBG – Bei persönlicher Zugehörigkeit
 

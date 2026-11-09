@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 5 S. 1 A – Private Schulden und Schuldzinsen (Ziff. 34.1 / 11)",
    "pfad": [
     "Schuldenverzeichnis",
@@ -27,7 +27,7 @@
    "zusammenfassung": "Private Schulden per 31. Dezember 2025 und Schuldzinsen 2025; Übertrag in Seite 4 Ziffer 34.1 bzw. Seite 3 Ziffer 11."
   },
   {
-   "start": 61,
+   "start": 46,
    "titel": "Formular 5 S. 1 B – Geschäftsschulden (Ziff. 34.2)",
    "pfad": [
     "Schuldenverzeichnis",
@@ -46,7 +46,7 @@
    "zusammenfassung": "Geschäftsschulden per 31. Dezember 2025 bzw. Bilanzstichtag; Schuldzinsen sind in der Jahresrechnung enthalten; Übertrag Seite 4 Ziffer 34.2."
   },
   {
-   "start": 87,
+   "start": 72,
    "titel": "Formular 5 S. 2 A – Freiwillige Zuwendungen (Code 550, Ziff. 21.3)",
    "pfad": [
     "Freiwillige Zuwendungen / Parteispenden",
@@ -66,7 +66,7 @@
    "zusammenfassung": "Liste der Zuwendungen 2025 mit Total (Code 550); Übertrag in Seite 3 Ziffer 21.3."
   },
   {
-   "start": 129,
+   "start": 114,
    "titel": "Formular 5 S. 2 B – Parteispenden (Code 555, Ziff. 16.3)",
    "pfad": [
     "Freiwillige Zuwendungen / Parteispenden",
@@ -84,5 +84,7 @@
    ],
    "zusammenfassung": "Liste der Parteispenden 2025 mit Total (Code 555); Übertrag in Seite 3 Ziffer 16.3."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

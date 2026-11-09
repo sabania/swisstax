@@ -8,7 +8,7 @@ titel: "Art. 316 bis StG SG – Rückwirkung neuen Rechts"
 artikel: "Art. 316 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 316 bis Rückwirkung neuen Rechts
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 316 bis Rückwirkung neuen Rechts
 
 ### Art. 316 bis StG SG – Rückwirkung neuen Rechts
 

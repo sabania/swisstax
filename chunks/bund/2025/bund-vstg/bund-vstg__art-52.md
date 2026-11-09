@@ -2,13 +2,13 @@
 id: bund-vstg__art-52
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 52 VStG"
 artikel: "Art. 52"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · 3. Rückerstattung durch den Kanton › a. Entscheid des Verrechnungssteueramtes › Art. 52
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · 3. Rückerstattung durch den Kanton › a. Entscheid des Verrechnungssteueramtes › Art. 52
 
 ### Art. 52 VStG
 

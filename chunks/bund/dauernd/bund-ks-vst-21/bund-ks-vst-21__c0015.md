@@ -2,14 +2,14 @@
 id: bund-ks-vst-21__c0015
 quelle: bund-ks-vst-21
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang 1 Textvorgabe Tax-Voucher"
 ziffer: "Anhang 1"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 21 · Anhang 1 · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS VST 21 · Anhang 1 · S. 6
 
 9   Anhang 1:   Textvorgabe Tax-Voucher
 

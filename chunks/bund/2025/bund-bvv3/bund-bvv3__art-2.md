@@ -2,13 +2,13 @@
 id: bund-bvv3__art-2
 quelle: bund-bvv3
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 2 BVV 3 – Begünstigte Personen"
 artikel: "Art. 2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 2 Begünstigte Personen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 2 Begünstigte Personen
 
 ### Art. 2 BVV 3 – Begünstigte Personen
 

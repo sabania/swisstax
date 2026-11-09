@@ -9,7 +9,7 @@ ziffer: "1-5"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · DA-1 2025 · DA-1 › Erläuterungen · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · DA-1 2025 · DA-1 › Erläuterungen · S. 2
 
 4. Wenn die nicht rückforderbaren ausländischen Steuern (Kol. 8) insgesamt den Betrag von 100 Franken nicht übersteigen, so wird
    keine Anrechnung gewährt. In diesem Fall sind die Erträge zu dem um die nicht rückforderbare ausländische Steuer gekürzten

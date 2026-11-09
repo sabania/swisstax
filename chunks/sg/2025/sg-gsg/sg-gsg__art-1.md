@@ -2,13 +2,13 @@
 id: sg-gsg__art-1
 quelle: sg-gsg
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 1 GGS SG – Geltungsbereich"
 artikel: "Art. 1"
-qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: sg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025/2026 · GGS SG · I. Allgemeine Bestimmungen › Art. 1 Geltungsbereich
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · GGS SG · I. Allgemeine Bestimmungen › Art. 1 Geltungsbereich
 
 ### Art. 1 GGS SG – Geltungsbereich
 

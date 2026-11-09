@@ -11,6 +11,16 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-07-01
 - **Original:** <https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_121-2011_10_18-2013_01_01-129.html> · lokal: [zh-v-einreichung.pdf](../../../raw/zh/2025/zh-v-einreichung.pdf) · Volltext: [zh-v-einreichung.md](../../../sources/zh/2025/zh-v-einreichung.md)
 - **Abgerufen:** 2026-11-09 · sha256 `329de1102a713269…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2025-07-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-v-einreichung`).
+
+- `data/werte/zh/2025.yaml#66:verfahren.abgabeweg` (agent-geprueft)
+- `data/werte/zh/2026.yaml#66:verfahren.abgabeweg` (agent-geprueft)
+- [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (14 Chunks)
 

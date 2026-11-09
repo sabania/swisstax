@@ -2,13 +2,13 @@
 id: tg-stg__par-162
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 162 StG TG – Ermessensveranlagung"
 artikel: "§ 162"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.7.2. Veranlagung von Einkommens- und Vermögenssteuer sowie von Gewinn- und Kapitalsteuer › 1.7.2.4. Veranlagung › § 162 Ermessensveranlagung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.7.2. Veranlagung von Einkommens- und Vermögenssteuer sowie von Gewinn- und Kapitalsteuer › 1.7.2.4. Veranlagung › § 162 Ermessensveranlagung
 
 ### § 162 StG TG – Ermessensveranlagung
 

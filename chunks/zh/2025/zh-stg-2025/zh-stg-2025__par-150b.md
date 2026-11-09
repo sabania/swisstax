@@ -9,7 +9,7 @@ artikel: "§ 150b"
 seiten: "64"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 150b StG ZH – 6. Gerichtsgebühr · S. 64
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 150b StG ZH – 6. Gerichtsgebühr · S. 64
 
 ### § 150b StG ZH – 6. Gerichtsgebühr
 

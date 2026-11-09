@@ -9,7 +9,7 @@ artikel: "§ 111"
 seiten: "52"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 111 StG ZH – 2. Aufsichtsbeschwerde · S. 52
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 111 StG ZH – 2. Aufsichtsbeschwerde · S. 52
 
 ### § 111 StG ZH – 2. Aufsichtsbeschwerde
 

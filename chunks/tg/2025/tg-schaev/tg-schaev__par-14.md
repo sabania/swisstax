@@ -8,7 +8,7 @@ titel: "§ 14 SchäV TG – Realwert"
 artikel: "§ 14"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 14 Realwert
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 14 Realwert
 
 ### § 14 SchäV TG – Realwert
 

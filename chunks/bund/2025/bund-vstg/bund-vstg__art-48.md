@@ -2,13 +2,13 @@
 id: bund-vstg__art-48
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 48 VStG"
 artikel: "Art. 48"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · 1. Allgemeine Bestimmungen › a. Pflichten des Antragstellers › Art. 48
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · 1. Allgemeine Bestimmungen › a. Pflichten des Antragstellers › Art. 48
 
 ### Art. 48 VStG
 

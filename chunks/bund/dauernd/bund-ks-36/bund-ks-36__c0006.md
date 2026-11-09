@@ -2,13 +2,13 @@
 id: bund-ks-36__c0006
 quelle: bund-ks-36
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Fussnoten 3–5 (Voten Bundesrat Villiger und Ständerat Gemperli)"
 seiten: "3-4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · 2 Rechtliche Grundlagen › Fussnoten · S. 3–4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 36 · 2 Rechtliche Grundlagen › Fussnoten · S. 3–4
 
 3
   Votum Villiger, Bundesrat, Amtliches Bulletin, Ständerat 10.3.1999, S. 140: "... Es sind im

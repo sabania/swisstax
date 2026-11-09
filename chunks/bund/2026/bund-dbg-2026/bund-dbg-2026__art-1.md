@@ -8,7 +8,7 @@ titel: "Art. 1 DBG – Gegenstand des Gesetzes"
 artikel: "Art. 1"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Teil: Allgemeine Bestimmungen › Art. 1 Gegenstand des Gesetzes
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Teil: Allgemeine Bestimmungen › Art. 1 Gegenstand des Gesetzes
 
 ### Art. 1 DBG – Gegenstand des Gesetzes
 

@@ -8,7 +8,7 @@ titel: "Art. 196 DBG – Abrechnung mit dem Bund"
 artikel: "Art. 196"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Siebenter Teil: Abrechnung zwischen Bund und Kantonen › Art. 196 Abrechnung mit dem Bund
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Siebenter Teil: Abrechnung zwischen Bund und Kantonen › Art. 196 Abrechnung mit dem Bund
 
 ### Art. 196 DBG – Abrechnung mit dem Bund
 

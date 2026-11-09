@@ -8,7 +8,7 @@ titel: "Art. 33 StV SG – Ausländische juristische Personen, Handelsgesellscha
 artikel: "Art. 33"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 33 Ausländische juristische Personen, Handelsgesellschaften und Personengesamtheiten (Art. 70 Abs. 3 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 33 Ausländische juristische Personen, Handelsgesellschaften und Personengesamtheiten (Art. 70 Abs. 3 StG)
 
 ### Art. 33 StV SG – Ausländische juristische Personen, Handelsgesellschaften und Personengesamtheiten (Art. 70 Abs. 3 StG)
 

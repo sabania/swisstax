@@ -8,7 +8,7 @@ titel: "Art. 16 StV AR – Mehrkosten für Verpflegung (Art. 29 Abs. 1 lit. b St
 artikel: "Art. 16"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 16 Mehrkosten für Verpflegung (Art. 29 Abs. 1 lit. b StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 16 Mehrkosten für Verpflegung (Art. 29 Abs. 1 lit. b StG)
 
 ### Art. 16 StV AR – Mehrkosten für Verpflegung (Art. 29 Abs. 1 lit. b StG)
 

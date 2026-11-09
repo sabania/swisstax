@@ -8,7 +8,7 @@ titel: "Art. 316 bis StG SG – Rückwirkung neuen Rechts"
 artikel: "Art. 316 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 316 bis Rückwirkung neuen Rechts
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 316 bis Rückwirkung neuen Rechts
 
 ### Art. 316 bis StG SG – Rückwirkung neuen Rechts
 

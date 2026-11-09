@@ -2,13 +2,13 @@
 id: bund-vstg__art-27
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 27 VStG"
 artikel: "Art. 27"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · II. Berechtigte › 4. Ausländische Inhaber von Anteilen an kollektiven Kapitalanlagen › Art. 27
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · II. Berechtigte › 4. Ausländische Inhaber von Anteilen an kollektiven Kapitalanlagen › Art. 27
 
 ### Art. 27 VStG
 

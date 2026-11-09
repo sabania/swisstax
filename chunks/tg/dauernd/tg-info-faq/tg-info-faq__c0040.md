@@ -7,7 +7,7 @@ typ: info
 titel: "Liegenschaften"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
 
     Zwar werden Liegenschaften am Ort der gelegenen Sache besteuert. Der Wert der Liegenschaft im Ausland muss in Ihrer Steuererklärung angegeben werden, weil er für die Berechnung des Steuersatzes und für die internationale Steuerausscheidung (Zuweisung von Schulden, Schuldzinsen und Sozialabzügen) berücksichtigt wird.
 

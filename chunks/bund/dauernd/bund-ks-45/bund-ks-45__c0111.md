@@ -2,14 +2,14 @@
 id: bund-ks-45__c0111
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.12 Kapitalabfindungen für wiederkehrende Leistungen (Teil 2/2)"
 ziffer: "6.12"
 seiten: "34-35"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.12 Kapitalabfindungen wiederkehrende Leistungen · S. 34–35
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.12 Kapitalabfindungen wiederkehrende Leistungen · S. 34–35
 
     Beispiel:
     - Kapitalabfindungen für wiederkehrende Leistungen sind zusammen mit dem Bruttolohn, welcher im Monat

@@ -2,13 +2,13 @@
 id: bund-vstg__art-18
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 18 VStG"
 artikel: "Art. 18"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · 6. Untergang der Steuerforderung › b. Erlass › Art. 18
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · 6. Untergang der Steuerforderung › b. Erlass › Art. 18
 
 ### Art. 18 VStG
 

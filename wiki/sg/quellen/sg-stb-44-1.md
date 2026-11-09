@@ -2,15 +2,23 @@
 typ: quelle
 id: sg-stb-44-1
 jur: sg
-jahre: [2025, 2026]
+jahre: [2026, 2027]
 titel: "StB 44 Nr. 1 Verwaltungskosten bewegliches Privatvermögen"
 generiert: tools/build_index.py
 ---
 # StB 44 Nr. 1: StB 44 Nr. 1 Verwaltungskosten bewegliches Privatvermögen
 
-- **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2026, 2027
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/044_1.pdf.ocFile/044_1.pdf> · lokal: [sg-stb-44-1.pdf](../../../raw/sg/dauernd/sg-stb-44-1.pdf) · Volltext: [sg-stb-44-1.md](../../../sources/sg/dauernd/sg-stb-44-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `5277877fe8e9a9b7…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2026-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-44-1`).
+
+- `data/zuordnung/sg/2026.yaml#34:abzug.verwaltungskosten_wertschriften@16.1` (agent-geprueft)
+- [wiki/themen/wertschriften-verrechnungssteuer.md](../../themen/wertschriften-verrechnungssteuer.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

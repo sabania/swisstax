@@ -8,7 +8,7 @@ titel: "Art. 99 StV SG – Vollzugsbeginn"
 artikel: "Art. 99"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 99 Vollzugsbeginn
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 99 Vollzugsbeginn
 
 ### Art. 99 StV SG – Vollzugsbeginn
 

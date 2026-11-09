@@ -2,13 +2,13 @@
 id: bund-sthg__art-53a
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 53a StHG – Vereinfachte Nachbesteuerung von Erben"
 artikel: "Art. 53a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Fünfter Titel: Verfahrensrecht › 3. Kapitel: Änderungen rechtskräftiger Verfügungen und Entscheide › Art. 53a Vereinfachte Nachbesteuerung von Erben
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Fünfter Titel: Verfahrensrecht › 3. Kapitel: Änderungen rechtskräftiger Verfügungen und Entscheide › Art. 53a Vereinfachte Nachbesteuerung von Erben
 
 ### Art. 53a StHG – Vereinfachte Nachbesteuerung von Erben
 

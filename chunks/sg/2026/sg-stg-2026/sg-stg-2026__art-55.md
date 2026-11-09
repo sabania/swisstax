@@ -8,7 +8,7 @@ titel: "Art. 55 StG SG – b) Bewegliches Vermögen 1. Geschäftsvermögen"
 artikel: "Art. 55"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 55 b) Bewegliches Vermögen 1. Geschäftsvermögen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 55 b) Bewegliches Vermögen 1. Geschäftsvermögen
 
 ### Art. 55 StG SG – b) Bewegliches Vermögen 1. Geschäftsvermögen
 

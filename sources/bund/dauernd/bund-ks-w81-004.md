@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '1980-04-30'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/iLX-3P3qULks/dbst-ks-w81-004-de.pdf
@@ -14,6 +15,8 @@ sha256: ed27210410088eb07b2e546a811c650fbd50898910683391fb9ed3eb338f7559
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '1980-04-30'
 ---
 # ESTV-Kreisschreiben Nr. w81-004: Lidlohn
 

@@ -2,13 +2,13 @@
 id: bund-vstv__art-30
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 30 VStV"
 artikel: "Art. 30"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · I. Gegenstand der Steuer › 3. Fondsleitung und Depotbank › Art. 30
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · I. Gegenstand der Steuer › 3. Fondsleitung und Depotbank › Art. 30
 
 ### Art. 30 VStV
 

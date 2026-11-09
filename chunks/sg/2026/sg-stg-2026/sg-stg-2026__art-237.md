@@ -8,7 +8,7 @@ titel: "Art. 237 StG SG – Gegenstand und Steueranspruch"
 artikel: "Art. 237"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Dritter Abschnitt: Grundsteuer › Art. 237 Gegenstand und Steueranspruch
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Dritter Abschnitt: Grundsteuer › Art. 237 Gegenstand und Steueranspruch
 
 ### Art. 237 StG SG – Gegenstand und Steueranspruch
 

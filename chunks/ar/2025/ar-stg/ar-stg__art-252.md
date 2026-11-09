@@ -8,7 +8,7 @@ titel: "Art. 252 StG AR – 3. Untersuchung und Strafverfügung a) Eröffnung de
 artikel: "Art. 252"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 252 3. Untersuchung und Strafverfügung a) Eröffnung der Untersuchung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 252 3. Untersuchung und Strafverfügung a) Eröffnung der Untersuchung
 
 ### Art. 252 StG AR – 3. Untersuchung und Strafverfügung a) Eröffnung der Untersuchung
 

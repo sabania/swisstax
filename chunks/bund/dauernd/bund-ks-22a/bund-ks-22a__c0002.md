@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0002
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Gegenstand – Wortlaut Art. 20 Abs. 1bis DBG und Schuldzinsen Art. 33 DBG"
 ziffer: "1"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · 1 Gegenstand · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · 1 Gegenstand · S. 2
 
 Mit dem Bundesgesetz vom 28. September 2018 über die Steuerreform und AHV-
 Finanzierung wurde der Umfang der Teilbesteuerung der Einkünfte aus Beteiligungen des

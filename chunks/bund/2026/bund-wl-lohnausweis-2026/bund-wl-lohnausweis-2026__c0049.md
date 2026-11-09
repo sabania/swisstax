@@ -9,7 +9,7 @@ ziffer: "13.3 / 14 / 61–62"
 seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffern 13.3 und 14 · S. 18
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffern 13.3 und 14 · S. 18
 
 Auf diesen Zeilen sind die Gehaltsnebenleistungen des Arbeitgebers aufzuführen (ohne An   62
 gabe des Betrags), die dieser nicht selbst bewerten kann und deshalb nicht unter Ziffer 2

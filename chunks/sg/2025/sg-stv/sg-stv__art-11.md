@@ -8,7 +8,7 @@ titel: "Art. 11 StV SG – b) Einkünfte aus selbständiger Erwerbstätigkeit 1.
 artikel: "Art. 11"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 11 b) Einkünfte aus selbständiger Erwerbstätigkeit 1. Kapitalgewinne (Art. 31 Abs. 2 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 11 b) Einkünfte aus selbständiger Erwerbstätigkeit 1. Kapitalgewinne (Art. 31 Abs. 2 StG)
 
 ### Art. 11 StV SG – b) Einkünfte aus selbständiger Erwerbstätigkeit 1. Kapitalgewinne (Art. 31 Abs. 2 StG)
 

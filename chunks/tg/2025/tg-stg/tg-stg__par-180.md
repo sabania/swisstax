@@ -2,13 +2,13 @@
 id: tg-stg__par-180
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 180 StG TG – Pflicht zur Inventaraufnahme"
 artikel: "§ 180"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1. Teil: Staatssteuern › 1.9. Inventar › § 180 Pflicht zur Inventaraufnahme
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1. Teil: Staatssteuern › 1.9. Inventar › § 180 Pflicht zur Inventaraufnahme
 
 ### § 180 StG TG – Pflicht zur Inventaraufnahme
 

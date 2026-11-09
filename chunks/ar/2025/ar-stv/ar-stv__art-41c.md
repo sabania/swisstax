@@ -8,7 +8,7 @@ titel: "Art. 41c StV AR – Sofortabschreibungen (Art. 73 Abs. 1 lit. a StG)"
 artikel: "Art. 41c"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 41c Sofortabschreibungen (Art. 73 Abs. 1 lit. a StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 41c Sofortabschreibungen (Art. 73 Abs. 1 lit. a StG)
 
 ### Art. 41c StV AR – Sofortabschreibungen (Art. 73 Abs. 1 lit. a StG)
 

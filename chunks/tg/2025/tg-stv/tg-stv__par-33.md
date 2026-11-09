@@ -8,7 +8,7 @@ titel: "§ 33 StV TG – Kontrolle des Steuerbezugs, Revision"
 artikel: "§ 33"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 6. Steuerbehörden › § 33 Kontrolle des Steuerbezugs, Revision
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 6. Steuerbehörden › § 33 Kontrolle des Steuerbezugs, Revision
 
 ### § 33 StV TG – Kontrolle des Steuerbezugs, Revision
 

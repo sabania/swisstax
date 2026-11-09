@@ -2,13 +2,13 @@
 id: bund-vstg__art-70c
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 70c VStG"
 artikel: "Art. 70c"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · B. Übergangsrecht › V. Übergangsbestimmungen zur Änderung vom 30. September 2016 › Art. 70c
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · B. Übergangsrecht › V. Übergangsbestimmungen zur Änderung vom 30. September 2016 › Art. 70c
 
 ### Art. 70c VStG
 

@@ -8,7 +8,7 @@ titel: "Art. 250 StG SG – c) Mitwirkung Dritter"
 artikel: "Art. 250"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 250 c) Mitwirkung Dritter
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 250 c) Mitwirkung Dritter
 
 ### Art. 250 StG SG – c) Mitwirkung Dritter
 

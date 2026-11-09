@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 2,
    "titel": "Titel, Ingress und § 24 Steuerfreie Einkünfte (Feuerwehrsold, Geldspielgewinne)",
    "pfad": [
     "Änderung Steuergesetz",
@@ -28,7 +28,7 @@
    "zusammenfassung": "Ab 1.1.2024 beträgt der steuerfreie Sold der Milizfeuerwehrleute Fr. 8300 jährlich und die steuerfreie Grenze für einzelne Geldspielgewinne Fr. 1 033 000."
   },
   {
-   "start": 51,
+   "start": 36,
    "titel": "§ 26 Berufskosten – Fahrten Wohn-/Arbeitsstätte (Höchstbetrag)",
    "pfad": [
     "Änderung Steuergesetz",
@@ -48,7 +48,7 @@
    "zusammenfassung": "Abzug für Fahrten zwischen Wohn- und Arbeitsstätte bis höchstens Fr. 5200."
   },
   {
-   "start": 61,
+   "start": 46,
    "titel": "§ 31 Abs. 1 lit. h Parteispenden – Höchstbeträge",
    "pfad": [
     "Änderung Steuergesetz",
@@ -67,7 +67,7 @@
    "zusammenfassung": "Mitgliederbeiträge und Zuwendungen an politische Parteien bis Fr. 20 600 (ungetrennte Ehe) bzw. Fr. 10 300 (übrige)."
   },
   {
-   "start": 80,
+   "start": 65,
    "titel": "§ 31 Abs. 1 lit. j, k Drittbetreuung und Weiterbildung – Höchstbeträge",
    "pfad": [
     "Änderung Steuergesetz",
@@ -89,7 +89,7 @@
    "zusammenfassung": "Drittbetreuung höchstens Fr. 10 400 je Kind unter 14 Jahren; berufsorientierte Aus- und Weiterbildung bis Fr. 12 400."
   },
   {
-   "start": 94,
+   "start": 79,
    "titel": "§ 31 Abs. 2, 3 Zweiverdienerabzug und Einsatzkosten Geldspielgewinne",
    "pfad": [
     "Änderung Steuergesetz",
@@ -110,7 +110,7 @@
    "zusammenfassung": "Zweiverdienerabzug Fr. 6100; Einsatzkosten Geldspielgewinne 5 %, höchstens Fr. 5200, online Spielbank höchstens Fr. 25 800."
   },
   {
-   "start": 114,
+   "start": 99,
    "titel": "§ 34 Sozialabzüge – Kinderabzug und Unterstützungsabzug",
    "pfad": [
     "Änderung Steuergesetz",
@@ -131,7 +131,7 @@
    "zusammenfassung": "Kinderabzug je Fr. 9300, Unterstützungsabzug je Fr. 2800."
   },
   {
-   "start": 137,
+   "start": 122,
    "titel": "§ 35 Abs. 1 Einkommenssteuertarif – Grundtarif",
    "pfad": [
     "Änderung Steuergesetz",
@@ -151,7 +151,7 @@
    "zusammenfassung": "Grundtarif: 0 % für die ersten Fr. 6 900 bis 13 % für Einkommensteile über Fr. 263 300."
   },
   {
-   "start": 160,
+   "start": 145,
    "titel": "§ 35 Abs. 2 Einkommenssteuertarif – Verheiratetentarif",
    "pfad": [
     "Änderung Steuergesetz",
@@ -171,7 +171,7 @@
    "zusammenfassung": "Verheiratetentarif: 0 % für die ersten Fr. 13 900 bis 13 % für Einkommensteile über Fr. 365 800."
   },
   {
-   "start": 180,
+   "start": 165,
    "titel": "§ 47 Abs. 1 Vermögenssteuertarif – Grundtarif",
    "pfad": [
     "Änderung Steuergesetz",
@@ -190,7 +190,7 @@
    "zusammenfassung": "Vermögenssteuer Grundtarif: 0 ‰ für die ersten Fr. 80 000 bis 3 ‰ für Vermögensteile über Fr. 3 262 000."
   },
   {
-   "start": 188,
+   "start": 173,
    "titel": "§ 47 Abs. 2 Vermögenssteuertarif – Verheiratetentarif",
    "pfad": [
     "Änderung Steuergesetz",
@@ -209,7 +209,7 @@
    "zusammenfassung": "Vermögenssteuer Verheiratetentarif: 0 ‰ für die ersten Fr. 159 000 bis 3 ‰ für Vermögensteile über Fr. 3 342 000."
   },
   {
-   "start": 209,
+   "start": 194,
    "titel": "Unterschrift, Rechtskraft und Inkrafttreten (1. Januar 2024)",
    "pfad": [
     "Inkrafttreten"
@@ -223,5 +223,7 @@
    "positionen": [],
    "zusammenfassung": "Die Verordnung ist rechtskräftig und tritt am 1. Januar 2024 in Kraft (ABl 2023-07-21)."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

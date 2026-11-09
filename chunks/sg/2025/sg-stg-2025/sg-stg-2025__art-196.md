@@ -8,7 +8,7 @@ titel: "Art. 196 StG SG – Beschwerde"
 artikel: "Art. 196"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › V. Rekurs und Beschwerde › Art. 196 Beschwerde
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › V. Rekurs und Beschwerde › Art. 196 Beschwerde
 
 ### Art. 196 StG SG – Beschwerde
 

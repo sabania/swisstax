@@ -14,6 +14,8 @@ sha256: 2aa2cdd689c592f97866e10794980db4caa67729de200c26ee9f5d4123e53dc7
 abgerufen: '2026-11-09'
 einheiten: 19
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: verfahren
+gilt_ab: '2016-01-01'
 ---
 # Verordnung zur Durchführung des DBG AR (bGS 625.11) – Version gültig ab 01.01.2016
 

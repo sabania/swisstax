@@ -8,7 +8,7 @@ titel: "Art. 11 BKV – Schlussbestimmungen"
 artikel: "Art. 11"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 11 Schlussbestimmungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 11 Schlussbestimmungen
 
 ### Art. 11 BKV – Schlussbestimmungen
 

@@ -2,14 +2,14 @@
 id: bund-ks-30__c0081
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 13.4.3 Elterntarif – Ehepaare, getrennte und unverheiratete Eltern mit volljährigem Kind (Teil 1/2)"
 ziffer: "13.4.3"
 seiten: "25-26"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.3 Volljährige Kinder in Ausbildung · S. 25–26
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.3 Volljährige Kinder in Ausbildung · S. 25–26
 
 Ehepaare mit volljährigem Kind in Ausbildung
 

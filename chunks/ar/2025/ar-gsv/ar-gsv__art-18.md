@@ -8,7 +8,7 @@ titel: "Art. 18 GSV AR – Durchführung der Schätzung"
 artikel: "Art. 18"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 18 Durchführung der Schätzung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 18 Durchführung der Schätzung
 
 ### Art. 18 GSV AR – Durchführung der Schätzung
 

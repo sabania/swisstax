@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 10 – Kinderbetreuungskosten: Abzugsvoraussetzungen und Kostenliste",
    "pfad": [
     "Kinderbetreuungskosten"
@@ -25,7 +25,7 @@
    "zusammenfassung": "Nachgewiesene Drittbetreuungskosten pro Kind unter 14 Jahren abziehbar, höchstens Fr. 25’000.–, bei Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit."
   },
   {
-   "start": 54,
+   "start": 39,
    "titel": "Formular 10 – Zusammenzug und Total (Übertrag Ziffer 16.2)",
    "pfad": [
     "Kinderbetreuungskosten",
@@ -44,5 +44,7 @@
    ],
    "zusammenfassung": "Zweite Kostenliste, Zusammenzug und Total der Kinderbetreuungskosten (exkl. Verpflegung), zu übertragen in die Steuererklärung Seite 3 Ziffer 16.2."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

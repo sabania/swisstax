@@ -8,7 +8,7 @@ titel: "Art. 178 DBG – Verheimlichung oder Beiseiteschaffung von Nachlasswerte
 artikel: "Art. 178"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 178 Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 178 Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren
 
 ### Art. 178 DBG – Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren
 

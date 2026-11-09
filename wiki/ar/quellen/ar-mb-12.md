@@ -2,15 +2,16 @@
 typ: quelle
 id: ar-mb-12
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 12: Nachsteuerverfahren – Kostenverrechnung"
 generiert: tools/build_index.py
 ---
 # MB AR 12: Merkblatt 12: Nachsteuerverfahren – Kostenverrechnung
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/12_Nachsteuerverfahren_-_Kostenverrechnung__alle_Jahre_.pdf> · lokal: [ar-mb-12.pdf](../../../raw/ar/dauernd/ar-mb-12.pdf) · Volltext: [ar-mb-12.md](../../../sources/ar/dauernd/ar-mb-12.md)
 - **Abgerufen:** 2026-11-09 · sha256 `2e346eb525cc108b…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab ? bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

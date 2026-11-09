@@ -13,6 +13,8 @@ sha256: 38b5a3b588aa0d5aa0f71514d596df98d5a48af696328a4ba88701e6d805d537
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2024-01-01'
 ---
 # Steuergesetz AR – Anhang 1: Ausgleich der kalten Progression (indexierte Beträge, per 1.1.2024)
 

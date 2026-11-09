@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0033
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.4 Rückzahlung WEF-Vorbezug der 2. Säule mit Säule-3a-Mitteln"
 ziffer: "6.4"
 seiten: "10"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.4 Rückzahlung WEF-Vorbezug · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.4 Rückzahlung WEF-Vorbezug · S. 10
 
 6.4. Kann ein in der beruflichen Vorsorge getätigter WEF-Vorbezug mit Mitteln
     der gebundenen Selbstvorsorge zurückbezahlt werden?

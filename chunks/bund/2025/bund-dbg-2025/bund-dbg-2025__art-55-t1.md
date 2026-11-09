@@ -8,7 +8,7 @@ titel: "Art. 55 DBG (Teil 1/2)"
 artikel: "Art. 55"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 4. Kapitel: Mithaftung › Art. 55
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 4. Kapitel: Mithaftung › Art. 55
 
 ### Art. 55 DBG
 

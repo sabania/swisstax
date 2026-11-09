@@ -9,7 +9,7 @@ artikel: "§ 76"
 seiten: "41"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 76 StG ZH – 6. Vereine, Stiftungen und übrige juristische Personen · S. 41
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 76 StG ZH – 6. Vereine, Stiftungen und übrige juristische Personen · S. 41
 
 ### § 76 StG ZH – 6. Vereine, Stiftungen und übrige juristische Personen
 

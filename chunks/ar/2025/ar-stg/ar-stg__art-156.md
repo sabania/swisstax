@@ -8,7 +8,7 @@ titel: "Art. 156 StG AR – Verfahrensrechtliche Stellung der Ehegatten"
 artikel: "Art. 156"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 156 Verfahrensrechtliche Stellung der Ehegatten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 156 Verfahrensrechtliche Stellung der Ehegatten
 
 ### Art. 156 StG AR – Verfahrensrechtliche Stellung der Ehegatten
 

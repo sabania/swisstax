@@ -7,12 +7,12 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt"
   },
   {
-   "start": 34,
+   "start": 19,
    "titel": "Personalien, Berufs- und Familienverhältnisse; Einkommen minderjähriger Kinder (Beginn)",
    "pfad": [
     "Allgemeine Erläuterungen",
@@ -32,7 +32,7 @@
    "zusammenfassung": "Massgebend sind die Verhältnisse am 31. Dezember 2026; Ehegatten in ungetrennter Ehe sind gemeinsam steuerpflichtig, das Erwerbseinkommen minderjähriger Kinder (unter 18) wird selbständig besteuert, das übrige Einkommen den Eltern zugerechnet."
   },
   {
-   "start": 46,
+   "start": 31,
    "titel": "Eingetragene Partnerschaft; Ersatzeinkommen und Waisenrenten minderjähriger Kinder",
    "pfad": [
     "Allgemeine Erläuterungen",
@@ -52,7 +52,7 @@
    "zusammenfassung": "Eingetragene Partner sind Ehegatten gleichgestellt; Ersatzeinkommen des Kindes aus eigener Erwerbstätigkeit wird beim Kind besteuert, Waisenrenten sind vom Inhaber der elterlichen Gewalt zu versteuern."
   },
   {
-   "start": 54,
+   "start": 39,
    "titel": "Kinder (Kinderabzug); Erwerbsunfähige Personen (ab 6 800 Fr. Unterhalt); Ziff. 1 Beginn",
    "pfad": [
     "Allgemeine Erläuterungen",
@@ -74,7 +74,7 @@
    "zusammenfassung": "Für minderjährige oder in Ausbildung stehende Kinder kann ein Kinderabzug geltend gemacht werden (nicht bei bezahlten Unterhaltsbeiträgen an minderjährige Kinder); Unterstützung erwerbsunfähiger Personen ab 6 800 Fr. pro Jahr ist aufzuführen; in Ziff. 1 ist der Nettolohn gemäss Lohnausweis zu übertragen."
   },
   {
-   "start": 68,
+   "start": 53,
    "titel": "Ziff. 1 Gesamter Lohn inkl. Nebenbezüge (Zulagen, Naturalbezüge, VR-Honorare, Boni)",
    "pfad": [
     "Einkünfte",
@@ -98,7 +98,7 @@
    "zusammenfassung": "Anzugeben ist der gesamte Lohn einschliesslich aller Nebenbezüge wie Familien- und Kinderzulagen, Naturalbezüge, Provisionen, Sitzungsgelder, Mitarbeiterbeteiligungen, Prämien, Gratifikationen, Trinkgelder, VR-Honorare und Tantiemen."
   },
   {
-   "start": 75,
+   "start": 60,
    "titel": "Ziff. 1 Nachweis Unterstützungsbedürftigkeit; Nebenerwerb, Mietzinsreduktion; Beginn Massgebendes Einkommen",
    "pfad": [
     "Einkünfte",
@@ -119,7 +119,7 @@
    "zusammenfassung": "Jedes Einkommen aus Nebenerwerbstätigkeit (z.B. Provisionen, Behördenentschädigungen, Gutachten, Privatunterricht, Hauswartarbeit) ist anzugeben; eine Mietzinsreduktion als Arbeitsentgelt gilt als Einkommen; für den Unterstützungsabzug ist die Unterstützungsbedürftigkeit nachzuweisen."
   },
   {
-   "start": 85,
+   "start": 70,
    "titel": "Spesenentschädigungen; Massgebendes Einkommen 2026, Teilperiode der Steuerpflicht",
    "pfad": [
     "Allgemeine Erläuterungen",
@@ -139,7 +139,7 @@
    "zusammenfassung": "Spesenentschädigungen sind steuerbar, soweit sie nicht berufsnotwendige Auslagen ersetzen; für 2026 ist das tatsächliche Einkommen massgebend, bei Teilperiode erfolgt die Satzbestimmung auf 12 Monate umgerechnet."
   },
   {
-   "start": 97,
+   "start": 82,
    "titel": "Bewertung des Naturallohns (Verpflegung 645 Fr./Monat, Unterkunft 345 Fr./Monat)",
    "pfad": [
     "Einkünfte",
@@ -158,7 +158,7 @@
    "zusammenfassung": "Ansätze Naturallohn: volle Verpflegung 645 Fr. pro Monat bzw. 7 740 Fr. pro Jahr, Unterkunft 345 Fr. bzw. 4 140 Fr., volle Verpflegung und Unterkunft 990 Fr. bzw. 11 880 Fr.; Selbständige: Geschäftsjahr 2026."
   },
   {
-   "start": 107,
+   "start": 92,
    "titel": "Naturallohn Verpflegung und Unterkunft (990 Fr./11 880 Fr.); anteilige Abzüge bei Teilperiode",
    "pfad": [
     "Allgemeine Erläuterungen",
@@ -177,7 +177,7 @@
    "zusammenfassung": "Volle Verpflegung und Unterkunft: 990 Fr. pro Monat, 11 880 Fr. pro Jahr; die Abzüge Ziff. 14, 16 und 23 werden bei nur teilweiser Steuerpflicht anteilsmässig gewährt, für die Satzbestimmung nicht gekürzt."
   },
   {
-   "start": 121,
+   "start": 106,
    "titel": "Ziff. 2 Selbständige Erwerbstätigkeit: Allgemeines, Aufzeichnungs- und Aufbewahrungspflicht, Privatanteil Haushalt",
    "pfad": [
     "Einkünfte",
@@ -197,7 +197,7 @@
    "zusammenfassung": "Selbständigerwerbende legen der Steuererklärung Bilanz und Erfolgsrechnung bei (Belege 10 Jahre aufbewahren); Privatanteil für Heizung, Strom, Telefon usw. bei Haushalt mit 1 Erwachsenen 3 540 Fr. pro Jahr (295 Fr. pro Monat)."
   },
   {
-   "start": 139,
+   "start": 124,
    "titel": "Ziff. 2 Zuschläge Privatanteil, Fragebogen 15/15a, Vorsorgebeiträge nur Arbeitgeberanteil",
    "pfad": [
     "Einkünfte",
@@ -218,7 +218,7 @@
    "zusammenfassung": "Zuschlag Privatanteil 900 Fr. pro weiteren Erwachsenen und 600 Fr. pro Kind pro Jahr; Beiträge an Säule 2 nur im Ausmass des Arbeitgeberanteils, Säule-3a-Beiträge nur in Ziff. 13."
   },
   {
-   "start": 151,
+   "start": 136,
    "titel": "Ziff. 2 Ausscheidung Kapitalerträge des Geschäftsvermögens; Abschreibungen/Rückstellungen",
    "pfad": [
     "Einkünfte",
@@ -239,7 +239,7 @@
    "zusammenfassung": "Erträge des Geschäftsvermögens sind im Wertschriftenverzeichnis mit G zu bezeichnen und auf Ziff. 4 zu übertragen; in Ziff. 2 abgezogen werden nur die im Geschäftsjahr verbuchten Kapitalerträge."
   },
   {
-   "start": 168,
+   "start": 153,
    "titel": "Ziff. 2 Kapitalgewinne auf Geschäftsvermögen; Präponderanzmethode",
    "pfad": [
     "Einkünfte",
@@ -258,7 +258,7 @@
    "zusammenfassung": "Kapitalgewinne aus Veräusserung, Verwertung oder Aufwertung von Geschäftsvermögen sind steuerbar; Geschäftsvermögen ist nach der Präponderanzmethode, was ganz oder vorwiegend der selbständigen Erwerbstätigkeit dient."
   },
   {
-   "start": 178,
+   "start": 163,
    "titel": "Ziff. 2 Einkommenssteuerwert; Kapitalgewinne zusammen mit übrigem Einkommen; Nicht abziehbare Kosten",
    "pfad": [
     "Einkünfte",
@@ -277,7 +277,7 @@
    "zusammenfassung": "Nicht abziehbar sind u.a. Zinsen auf eigenes Kapital, Anschaffungs- und Verbesserungsaufwand, Schuldentilgung, Einkommens- und Vermögenssteuern und Privatauslagen; Kapitalgewinne auf Geschäftsvermögen werden zusammen mit dem übrigen Einkommen besteuert."
   },
   {
-   "start": 189,
+   "start": 174,
    "titel": "Ziff. 2 Nicht abziehbare Aufwendungen, Naturalbezüge, Landwirtschaft, Gewerbsmässige Tätigkeit",
    "pfad": [
     "Einkünfte",
@@ -296,7 +296,7 @@
    "zusammenfassung": "Gewinne aus gewerbsmässigem Liegenschafts-, Wertschriften-, Devisen- und Edelmetallhandel sind steuerbar, Verluste abziehbar; für die Landwirtschaft gilt der Fragebogen 18."
   },
   {
-   "start": 204,
+   "start": 189,
    "titel": "Ziff. 2 Landwirtschaft; Gewerbsmässige Tätigkeit; Verluste der sieben Vorjahre (2019–2025)",
    "pfad": [
     "Einkünfte",
@@ -315,7 +315,7 @@
    "zusammenfassung": "Selbständigerwerbende können Verluste der sieben vorangegangenen Geschäftsjahre (2019–2025) abziehen, soweit noch nicht berücksichtigt."
   },
   {
-   "start": 220,
+   "start": 205,
    "titel": "Ziff. 3 Kapitalleistungen aus Vorsorge (Hinweis); Ziff. 3.1 AHV/IV-Renten; Leibrenten Berechnung",
    "pfad": [
     "Einkünfte",
@@ -336,7 +336,7 @@
    "zusammenfassung": "AHV/IV-Renten sind zu 100 % steuerbar (Auszahlungsbeleg Dezember 2026 beilegen); Kostenbeiträge der IV für Eingliederung und Ergänzungsleistungen sind steuerfrei; private Leibrenten werden nach dem ESTV-Satz besteuert."
   },
   {
-   "start": 238,
+   "start": 223,
    "titel": "Ziff. 3.3 / 3.4 Erwerbsausfallentschädigungen sowie Kinder- und Familienzulagen; Beginn Ziff. 3.2",
    "pfad": [
     "Einkünfte",
@@ -357,7 +357,7 @@
    "zusammenfassung": "Erwerbsausfallentschädigungen (Militär, Zivilschutz, Mutterschaft, ALV, Kranken- und Unfalltaggelder) und von der Ausgleichskasse direkt ausbezahlte Familienzulagen sind anzugeben, soweit nicht im Lohnausweis enthalten."
   },
   {
-   "start": 249,
+   "start": 234,
    "titel": "Ziff. 3.2 Renten und Pensionen (60 % / 80 % / 100 %); Beginn Ziff. 4 Wertschriftenertrag",
    "pfad": [
     "Einkünfte",
@@ -378,7 +378,7 @@
    "zusammenfassung": "Berufliche Renten, die vor dem 1. Januar 1987 (bzw. 2002 bei Vorsorgeverhältnis vor 1987) zu laufen begannen, sind zu 60 % (nur eigene Leistungen) oder 80 % (mindestens 20 % eigene Leistungen) steuerbar, sonst zu 100 %."
   },
   {
-   "start": 261,
+   "start": 246,
    "titel": "Ziff. 4 Wertschriftenertrag: Zinsen, Gewinnanteile, Gratisaktien, Verrechnungssteuer",
    "pfad": [
     "Einkünfte",
@@ -399,7 +399,7 @@
    "zusammenfassung": "Als Wertschriftenertrag sind alle erhaltenen Zinsen und Gewinnanteile (auch Gratisaktien, Liquidationsüberschüsse, Einmalverzinsung) im Wertschriftenverzeichnis aufzuführen; verrechnungssteuerbelastete Einkommen sind immer anzugeben."
   },
   {
-   "start": 276,
+   "start": 261,
    "titel": "Ziff. 3.2 Renten aus Säule 3a (100 %); Ziff. 4 Verrechnungssteuer-Hinweis; Beginn qualifizierte Beteiligungen",
    "pfad": [
     "Einkünfte",
@@ -418,7 +418,7 @@
    "zusammenfassung": "Leistungen aus der gebundenen Selbstvorsorge (Renten aus Säule 3a) werden zu 100 % besteuert; mit dem Abzug der Verrechnungssteuer ist die Pflicht zur Entrichtung der Einkommenssteuer nicht erfüllt, verrechnungssteuerbelastete Einkommen sind immer anzugeben."
   },
   {
-   "start": 292,
+   "start": 277,
    "titel": "Ziff. 4 Qualifizierte Beteiligungen (ab 10 %, Teilbesteuerung 70 %); Renten der Militärversicherung, übrige Renten",
    "pfad": [
     "Einkünfte",
@@ -441,7 +441,7 @@
    "zusammenfassung": "Beteiligungen von mindestens 10 % sind qualifiziert; im Privatvermögen sind sie zu 70 % steuerbar, der Abzug von 30 % wird mit Formular 8 geltend gemacht und in Ziff. 15.8 eingetragen; Renten der Militärversicherung sind in der Regel zu 100 % steuerbar."
   },
   {
-   "start": 306,
+   "start": 291,
    "titel": "Qualifizierte Beteiligungen im Geschäftsvermögen (70 %, Spartenrechnung); ausländische Sozialversicherungsrenten",
    "pfad": [
     "Einkünfte",
@@ -462,7 +462,7 @@
    "zusammenfassung": "Im Geschäftsvermögen sind qualifizierte Beteiligungen und Veräusserungsgewinne nach Abzug des zurechenbaren Aufwands zu 70 % steuerbar (Spartenrechnung gemäss KS 23a)."
   },
   {
-   "start": 320,
+   "start": 305,
    "titel": "Teilbesteuerung bei Veräusserung (12 Monate Haltedauer); Leibrenten und Verpfründung (Steuerbescheinigung)",
    "pfad": [
     "Einkünfte",
@@ -482,7 +482,7 @@
    "zusammenfassung": "Teilbesteuerung auf Veräusserungsgewinnen wird nur gewährt, wenn die Beteiligungsrechte mindestens zwölf Monate im Eigentum waren; bei inländischen Leibrenten steht der steuerbare Ertragsanteil in der Steuerbescheinigung des Versicherers."
   },
   {
-   "start": 337,
+   "start": 322,
    "titel": "Negativzinsen; Einkünfte aus Vermietung/Nutzung beweglicher Sachen und Rechte",
    "pfad": [
     "Einkünfte",
@@ -503,7 +503,7 @@
    "zusammenfassung": "Negativzinsen sind keine Schuldzinsen, sondern als Vermögensverwaltungskosten abziehbar (nicht zusätzlich zum Pauschalabzug, effektive Kosten deklarieren); Einkommen aus Vermietung beweglicher Sachen oder Rechten ist zu deklarieren."
   },
   {
-   "start": 347,
+   "start": 332,
    "titel": "Spielbanken- und Lotteriegewinne (ab 1 071 000 Fr.); Steuerfreie Einkünfte",
    "pfad": [
     "Einkünfte",
@@ -526,7 +526,7 @@
    "zusammenfassung": "Gewinne aus Online- und Grossspielen sind ab 1 071 000 Fr. einkommenssteuerpflichtig, Einsätze bei Onlinespielen höchstens bis 26 800 Fr. abziehbar; steuerfrei sind u.a. Erbschaften, Schenkungen und Unterstützungen."
   },
   {
-   "start": 360,
+   "start": 345,
    "titel": "Grossspiele-Einsätze (5 %, max. 5 400 Fr.), Kleinspiele, Verkaufsförderung (1 100 Fr.); Ziff. 5 Allgemeines",
    "pfad": [
     "Einkünfte",
@@ -548,7 +548,7 @@
    "zusammenfassung": "Bei Grossspielen können Einsätze bis 5 %, maximal 5 400 Fr. abgezogen werden; Kleinspiele sind steuerfrei, Gewinne aus Verkaufsförderung ab 1 100 Fr. steuerbar; steuerfrei sind u.a. Militärsold, Genugtuungen und Ergänzungsleistungen."
   },
   {
-   "start": 373,
+   "start": 358,
    "titel": "Ziff. 5.5 Kapitalabfindungen für wiederkehrende Leistungen; Ziff. 5.1/5.2 Unterhaltsbeiträge; Ziff. 8 Intro",
    "pfad": [
     "Einkünfte",
@@ -568,7 +568,7 @@
    "zusammenfassung": "Erhaltene Alimente für sich und für unmündige Kinder sind steuerbar; Kapitalabfindungen für wiederkehrende Leistungen werden wie diese zusammen mit dem übrigen Einkommen, allenfalls zum Satz einer jährlichen Leistung, besteuert."
   },
   {
-   "start": 390,
+   "start": 375,
    "titel": "Unterhaltsbeiträge als Kapitalabfindung, Naturalleistungen; Ziff. 8 Liegenschaften Formular 16",
    "pfad": [
     "Einkünfte",
@@ -588,7 +588,7 @@
    "zusammenfassung": "Alimente in Form einer Kapitalabfindung sind beim Empfänger nicht steuerbar und beim Leistenden nicht abziehbar; wer nur ein Einfamilienhaus oder eine Eigentumswohnung besitzt, füllt die Ziffern 8.1–8.3 aus, sonst Formular 16."
   },
   {
-   "start": 405,
+   "start": 390,
    "titel": "Ziff. 5.3 Unverteilte Erbschaften, Burgernutzen; Ziff. 5.4 Weitere Einkünfte; Mietwert selbstbenutzter Liegenschaften",
    "pfad": [
     "Einkünfte",
@@ -610,7 +610,7 @@
    "zusammenfassung": "Erträge aus unverteilten Erbschaften sind mit Aufstellung zu deklarieren; als weitere Einkünfte gelten u.a. Nettoeinkommen aus Untervermietung und nicht ausgewiesene Trinkgelder; der Eigenmietwert wird von der kantonalen Steuerverwaltung eröffnet."
   },
   {
-   "start": 418,
+   "start": 403,
    "titel": "Eigenmietwert: Zusatzausstattungen, Unternutzungsabzug (Voraussetzungen)",
    "pfad": [
     "Einkünfte",
@@ -630,7 +630,7 @@
    "zusammenfassung": "Ein Abzug vom Mietwert wegen Unternutzung ist nur möglich, wenn Räume dauernd nicht benutzt werden (Nachweis durch die steuerpflichtige Person); bei nicht berücksichtigten Zusatz-Ausstattungen sind auch die Kosten nicht abziehbar."
   },
   {
-   "start": 431,
+   "start": 416,
    "titel": "Ziff. 8 Unternutzung – keine Abzüge bei gelegentlicher Nutzung; Beginn Mietzinse und Energiespar-Investitionen",
    "pfad": [
     "Einkünfte",
@@ -650,7 +650,7 @@
    "zusammenfassung": "Kein Unternutzungsabzug bei nur gelegentlich genutzten Räumen, für Räume ausgezogener Kinder und für Ferienhäuser/Zweitwohnungen."
   },
   {
-   "start": 439,
+   "start": 424,
    "titel": "Ziff. 8 Brutto-Mietertrag; Investitionen für Energiesparen und Umweltschutz (Gebäudehülle, Wärmepumpe, PV)",
    "pfad": [
     "Einkünfte",
@@ -672,7 +672,7 @@
    "zusammenfassung": "Abziehbar sind u.a. Massnahmen an der Gebäudehülle, Ersatz des Wärmeerzeugers, Wärmepumpen und Photovoltaikanlagen auf bestehenden Gebäuden; zum Brutto-Mietertrag gehören die Mietzinseinnahmen inkl. Reduktion für Hauswart."
   },
   {
-   "start": 447,
+   "start": 432,
    "titel": "Ziff. 8 Möblierte Ferienwohnung (4/5 bzw. 2/3), Andere Erträge, Rückbaukosten",
    "pfad": [
     "Einkünfte",
@@ -693,7 +693,7 @@
    "zusammenfassung": "Bei möblierten Ferienwohnungen sind in der Regel nur 4/5 der Bruttoeinnahmen einzusetzen (2/3 inkl. Wäsche); abzugsfähig sind auch Rückbaukosten für Ersatzneubauten (nicht Altlastensanierung, Aushub, Planung)."
   },
   {
-   "start": 464,
+   "start": 449,
    "titel": "Ziff. 8 Andere Erträge (WEG-Verbilligung, Baurechtszins, Nutzungsrechte, Wald); Energie-Investitionen im Detail",
    "pfad": [
     "Einkünfte",
@@ -714,7 +714,7 @@
    "zusammenfassung": "Nicht vollständig abziehbare Energiespar- und Rückbaukosten können bei negativem Reineinkommen auf maximal die folgenden zwei Steuerperioden übertragen werden; Baurechtszinsen und Nutzungsrechte sind als andere Erträge anzugeben."
   },
   {
-   "start": 484,
+   "start": 469,
    "titel": "Ziff. 8 Subventionierte Investitionen; Mietwert eigener Geschäftsräume; Nicht abziehbare Kosten",
    "pfad": [
     "Einkünfte",
@@ -734,7 +734,7 @@
    "zusammenfassung": "Bei subventionierten Investitionen ist nur der selbst getragene Teil abziehbar; nicht abziehbar sind einmalige Grundeigentümerbeiträge (Strassen-, Kanalisations-, Anschlussgebühren) sowie Heizungs- und Warmwasserkosten."
   },
   {
-   "start": 504,
+   "start": 489,
    "titel": "Ziff. 8 Abziehbare Kosten: Pauschalabzug 10 % / 20 % oder tatsächliche Kosten",
    "pfad": [
     "Einkünfte",
@@ -753,7 +753,7 @@
    "zusammenfassung": "Anstelle der tatsächlichen Kosten kann ein Pauschalabzug von 10 % (Gebäude bis 10 Jahre alt) bzw. 20 % (älter als 10 Jahre) vom Brutto-Mietertrag/-Mietwert geltend gemacht werden; Wahl in jeder Steuerperiode und für jede Liegenschaft."
   },
   {
-   "start": 513,
+   "start": 498,
    "titel": "Ziff. 8 Tatsächliche Kosten: Unterhalt, Erneuerungsfonds, Betriebskosten; Wahlrecht Pauschale",
    "pfad": [
     "Einkünfte",
@@ -773,7 +773,7 @@
    "zusammenfassung": "Abziehbar sind Reparaturen und Renovationen (nicht wertvermehrend), Einlagen in den Erneuerungsfonds und wiederkehrende Betriebskosten; ein Pauschalabzug ist ausgeschlossen für Geschäftsvermögen oder vorwiegend geschäftlich genutzte Liegenschaften."
   },
   {
-   "start": 525,
+   "start": 510,
    "titel": "Ziff. 8 Versicherungsprämien, Verwaltungskosten der Liegenschaft; Beginn Wohnrecht/Nutzniessung",
    "pfad": [
     "Einkünfte",
@@ -792,7 +792,7 @@
    "zusammenfassung": "Abziehbar sind Sachversicherungsprämien (Brand, Wasser, Glas, Haftpflicht) und Verwaltungskosten (Porto, Inserate, Verwalter), nicht die eigene Arbeit; Nutzniesser deklarieren die Einkünfte und haben die Abzüge für Unterhalt und Schuldzinsen."
   },
   {
-   "start": 535,
+   "start": 520,
    "titel": "Ziff. 8 Einkünfte aus wohnrechts- oder nutzniessungsbelasteten Liegenschaften",
    "pfad": [
     "Einkünfte",
@@ -811,7 +811,7 @@
    "zusammenfassung": "Die wohnrechtsberechtigte Person gibt den Mietwert an, der Eigentümer kann Unterhaltskosten und Schuldzinsen weiterhin abziehen; Einkünfte aus Wohnrecht und Nutzniessung sind zu 100 % steuerbar."
   },
   {
-   "start": 546,
+   "start": 531,
    "titel": "Ausgabenüberschuss Liegenschaften; Ziff. 10 Berufskosten Allgemeines; Schicht-/Nachtarbeit (15 Fr./3 200 Fr.)",
    "pfad": [
     "Abzüge",
@@ -831,7 +831,7 @@
    "zusammenfassung": "Für jeden Tag mit durchgehender Schicht- oder Nachtarbeit sind 15 Fr., bei ganzjähriger Schicht-/Nachtarbeit 3 200 Fr. pro Jahr abziehbar (nicht zusätzlich zum Wochenaufenthalt); Berufskosten werden auf Formular 9 detailliert."
   },
   {
-   "start": 566,
+   "start": 551,
    "titel": "Ziff. 10 Übrige Berufskosten: Pauschale 3 % (min. 2 000 Fr., max. 4 000 Fr.)",
    "pfad": [
     "Abzüge",
@@ -851,7 +851,7 @@
    "zusammenfassung": "Der Pauschalabzug übrige Berufskosten beträgt 3 % des Nettolohnes, mindestens 2 000 Fr., maximal 4 000 Fr. im Jahr und umfasst Berufswerkzeuge, EDV, Fachliteratur, Berufskleider und das private Arbeitszimmer."
   },
   {
-   "start": 581,
+   "start": 566,
    "titel": "Ziff. 10 Tatsächliche Berufskosten: EDV-Privatanteil, Arbeitszimmer, Berufsbekleidung; Fahrkosten (Beginn)",
    "pfad": [
     "Abzüge",
@@ -871,7 +871,7 @@
    "zusammenfassung": "Bei effektiven Berufskosten sind EDV-Kosten um einen Privatanteil (i.d.R. 25–50 %) zu kürzen; ein Arbeitszimmer ist abziehbar, wenn es hauptsächlich und regelmässig für die Berufsarbeit benötigt wird; Berufsbekleidung nur bei besonderem Verschleiss."
   },
   {
-   "start": 591,
+   "start": 576,
    "titel": "Ziff. 10 Fahrkosten: max. 3 300 Fr., Velo/Mofa 700 Fr., Auto-/Motorradkilometer",
    "pfad": [
     "Abzüge",
@@ -892,7 +892,7 @@
    "zusammenfassung": "Abziehbar sind die Fahrkosten Wohn-/Arbeitsort bis maximal 3 300 Fr. pro Jahr: öffentliche Verkehrsmittel effektiv, 700 Fr. Pauschale für Velo/Motorfahrrad/Motorrad mit gelbem Schild."
   },
   {
-   "start": 610,
+   "start": 595,
    "titel": "Ziff. 10 Autokilometer (40 Rp. Motorrad / 75 Rp. Auto) und Verpflegung bei Wochenaufenthalt (30 Fr./Tag)",
    "pfad": [
     "Abzüge",
@@ -914,7 +914,7 @@
    "zusammenfassung": "Ohne zumutbares öffentliches Verkehrsmittel sind bis 40 Rp. pro km (Motorrad weiss) bzw. 75 Rp. (Auto) abziehbar; Wochenaufenthalt: 15 Fr. je Hauptmahlzeit, 30 Fr. im Tag, 6 400 Fr. im Jahr, bei verbilligtem Mittagessen 22.50 Fr. im Tag und 4 800 Fr. im Jahr."
   },
   {
-   "start": 630,
+   "start": 615,
    "titel": "Ziff. 10 Auswärtige Verpflegung (15 Fr./Mahlzeit, 3 200 Fr./Jahr); Wochenaufenthalt Heimkehr; Nebenerwerb 20 %",
    "pfad": [
     "Abzüge",
@@ -935,7 +935,7 @@
    "zusammenfassung": "Pauschale 15 Fr. je auswärtige Hauptmahlzeit (i.d.R. nur Mittagessen), bei ständiger auswärtiger Verpflegung 3 200 Fr. im Jahr; bei Kantine/Gutscheinen nur der halbe Abzug (7.50 Fr., 1 600 Fr.)."
   },
   {
-   "start": 644,
+   "start": 629,
    "titel": "Ziff. 10 Kein Abzug bei Verpflegung unter 10 Fr.; Nebenerwerb 20 % (800–2 400 Fr.); Feuerwehrsold",
    "pfad": [
     "Abzüge",
@@ -955,7 +955,7 @@
    "zusammenfassung": "Für Nebenerwerb kann ein Pauschalabzug von 20 % der Nebeneinkünfte, mindestens 800 Fr. bzw. maximal 2 400 Fr. geltend gemacht werden; kein Verpflegungsabzug, wenn die Hauptmahlzeiten maximal 10 Fr. kosten."
   },
   {
-   "start": 657,
+   "start": 642,
    "titel": "Feuerwehrsold (steuerfrei bis 5 400 Fr.); Ziff. 13 Säule 3a – Abzugsberechtigung",
    "pfad": [
     "Abzüge",
@@ -975,7 +975,7 @@
    "zusammenfassung": "Der Sold von Milizfeuerwehrleuten für Kernaufgaben ist bis maximal 5 400 Fr. steuerfrei; für höheren oder übrigen Sold gilt der Nebenerwerbsabzug von 20 % (min. 800 Fr., max. 2 400 Fr.)."
   },
   {
-   "start": 676,
+   "start": 661,
    "titel": "Ziff. 11 Schuldzinsen (Ertrag + 50 000 Fr.); Ziff. 13 Säule 3a – Höchstabzüge 7 258 Fr. / 36 288 Fr.",
    "pfad": [
     "Abzüge",
@@ -997,7 +997,7 @@
    "zusammenfassung": "Private Schuldzinsen sind im Umfang des Vermögensertrags plus 50 000 Fr. abziehbar (Teilbesteuerungs-Beteiligungen zu 70 %); Säule 3a: mit 2. Säule höchstens 7 258 Fr., ohne 2. Säule 20 % des Erwerbseinkommens, maximal 36 288 Fr., nur im Jahr 2026 tatsächlich einbezahlt und mit Bescheinigung."
   },
   {
-   "start": 691,
+   "start": 676,
    "titel": "Ziff. 11 Baukreditzinsen; Ziff. 12.1/12.2 Unterhaltsbeiträge; Ziff. 13 Säule 3a Einkäufe (Voraussetzungen)",
    "pfad": [
     "Abzüge",
@@ -1018,7 +1018,7 @@
    "zusammenfassung": "Alimente an geschiedene/getrennte Ehegatten und für Kinder unter elterlicher Sorge sind abziehbar; Baukreditzinsen gelten als Anlagekosten und sind nicht abziehbar; Säule-3a-Einkäufe sind ab Steuerperiode 2026 für Lücken ab 1.1.2025 möglich."
   },
   {
-   "start": 708,
+   "start": 693,
    "titel": "Ziff. 12 Kapitalabfindung/Naturalleistungen; Ziff. 13 Einkauf Säule 3a: Höchstbetrag 7 258 Fr.",
    "pfad": [
     "Abzüge",
@@ -1038,7 +1038,7 @@
    "zusammenfassung": "Als Einkauf geleistete Beiträge dürfen höchstens der Summe der Beitragslücken der zehn Vorjahre (frühestens ab 1.1.2025), in jedem Fall aber 7 258 Fr. entsprechen; Alimente als Kapitalabfindung sind nicht abziehbar."
   },
   {
-   "start": 717,
+   "start": 702,
    "titel": "Ziff. 13 Einkauf Säule 3a: eine Jahresbeitragslücke nur durch einen Einkauf",
    "pfad": [
     "Abzüge",
@@ -1056,7 +1056,7 @@
    "zusammenfassung": "Eine bestimmte Jahresbeitragslücke darf nur durch einen einzigen Einkauf ausgeglichen werden, nicht über mehrere Jahre durch mehrere Einkäufe."
   },
   {
-   "start": 726,
+   "start": 711,
    "titel": "Ziff. 12.3 Rentenleistungen (Leibrenten); Ziff. 14 Versicherungsprämien – Höchstbeträge 3 700 / 1 800 Fr.",
    "pfad": [
     "Abzüge",
@@ -1077,7 +1077,7 @@
    "zusammenfassung": "Prämien für Kranken-, Unfall-, Lebens- und Rentenversicherungen sowie Sparzinsen sind bis 3 700 Fr. (Ehepaare) bzw. 1 800 Fr. (übrige) abziehbar, wenn Beiträge an die 2. Säule oder Säule 3a geleistet wurden."
   },
   {
-   "start": 745,
+   "start": 730,
    "titel": "Ziff. 14 Versicherungsabzug ohne Vorsorgebeiträge (5 550 / 2 700 Fr.), Zuschlag 700 Fr. pro Kind; Ziff. 12.3",
    "pfad": [
     "Abzüge",
@@ -1098,7 +1098,7 @@
    "zusammenfassung": "Ohne Beiträge an 2. Säule/Säule 3a betragen die Höchstabzüge 5 550 Fr. (Ehepaare) bzw. 2 700 Fr. (übrige), jeweils plus 700 Fr. pro Kind oder unterstützungsbedürftige Person mit Abzug."
   },
   {
-   "start": 759,
+   "start": 744,
    "titel": "Ziff. 14 «Übrige Steuerpflichtige»; Ziff. 13 Säule 3a Abzugsvoraussetzungen (Beginn)",
    "pfad": [
     "Abzüge",
@@ -1118,7 +1118,7 @@
    "zusammenfassung": "Als übrige Steuerpflichtige gelten Verwitwete, Geschiedene, Getrennte und Ledige (auch Einelternfamilien); massgebend sind die Verhältnisse am Ende des Steuerjahres."
   },
   {
-   "start": 773,
+   "start": 758,
    "titel": "Ziff. 15 Weitere Abzüge: AHV-Beiträge Nichterwerbstätiger, Weiterbildung (max. 13 000 Fr.); Zweiverdienerabzug Minimum",
    "pfad": [
     "Abzüge",
@@ -1139,7 +1139,7 @@
    "zusammenfassung": "Selbst getragene berufsorientierte Aus- und Weiterbildungs- und Umschulungskosten sind bis maximal 13 000 Fr. pro Jahr abziehbar; AHV/IV/EO-Beiträge Nichterwerbstätiger sind abziehbar, nicht aber Arbeitgeberbeiträge für privates Dienstpersonal."
   },
   {
-   "start": 783,
+   "start": 768,
    "titel": "Ziff. 15 Voraussetzungen Weiterbildung (Sek. II / 20. Lebensjahr); Zweiverdiener bei Mitarbeit",
    "pfad": [
     "Abzüge",
@@ -1159,7 +1159,7 @@
    "zusammenfassung": "Weiterbildungskosten sind abziehbar, wenn ein erster Abschluss auf Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist (Formular 10); liegt das gekürzte Erwerbseinkommen unter 8 600 Fr., kann nur dieser tiefere Betrag abgezogen werden."
   },
   {
-   "start": 790,
+   "start": 775,
    "titel": "Ziff. 15 Parteispenden (max. 10 600 Fr.); Beginn Ziff. 21 Zusätzliche Abzüge",
    "pfad": [
     "Abzüge",
@@ -1178,7 +1178,7 @@
    "zusammenfassung": "Mitgliederbeiträge und Zuwendungen an politische Parteien sind bis zum Gesamtbetrag von 10 600 Fr. abziehbar; Belege sind beizufügen."
   },
   {
-   "start": 799,
+   "start": 784,
    "titel": "Behinderungsbedingte Kosten; Kinderdrittbetreuung (max. 25 800 Fr. pro Kind bis 14 Jahre); Ziff. 21.1 Krankheitskosten",
    "pfad": [
     "Abzüge",
@@ -1200,7 +1200,7 @@
    "zusammenfassung": "Nachgewiesene Drittbetreuungskosten sind bis höchstens 25 800 Fr. pro Kind (bis 14 Jahre, gleicher Haushalt) abziehbar; Krankheits- und Unfallkosten nur soweit sie 5 % des Nettoeinkommens übersteigen."
   },
   {
-   "start": 815,
+   "start": 800,
    "titel": "Kinderdrittbetreuung – Voraussetzungen und Ausschlüsse; Ziff. 21.2 Gemeinnützige Zuwendungen (mind. 100 Fr., max. 20 %)",
    "pfad": [
     "Abzüge",
@@ -1222,7 +1222,7 @@
    "zusammenfassung": "Drittbetreuungskosten ausserhalb der Arbeits- oder Ausbildungszeit sowie Verpflegung und Unterkunft sind nicht abziehbar; freiwillige Zuwendungen an steuerbefreite juristische Personen in der Schweiz müssen mindestens 100 Fr. erreichen und dürfen 20 % des Nettoeinkommens nicht übersteigen."
   },
   {
-   "start": 825,
+   "start": 810,
    "titel": "Vermögensverwaltungskosten (Depotspesen, Safegebühren) – abziehbare Kosten",
    "pfad": [
     "Abzüge",
@@ -1241,7 +1241,7 @@
    "zusammenfassung": "Abziehbar sind nur Kosten der Verwahrung in offenen Depots (Depotspesen) und Schrankfächern (Safegebühren) sowie notwendige Auslagen wie Inkasso- und Affidavitspesen."
   },
   {
-   "start": 832,
+   "start": 817,
    "titel": "Nicht abzugsfähige Vermögensverwaltungskosten; Zweiverdienerabzug (50 %, 8 600–14 100 Fr.); Ziff. 23 Verheiratetenabzug 2 800 Fr.",
    "pfad": [
     "Abzüge",
@@ -1263,7 +1263,7 @@
    "zusammenfassung": "Zweiverdienerabzug: 50 % des niedrigeren Erwerbseinkommens, mindestens 8 600 Fr., höchstens 14 100 Fr.; Verheiratetenabzug 2 800 Fr. für Ehepaare in ungetrennter Ehe; Steuerberatungs- und Kaufspesen sind keine abziehbaren Verwaltungskosten."
   },
   {
-   "start": 849,
+   "start": 834,
    "titel": "Ziff. 16 Erwerbseinkommen für den Zweiverdienerabzug; Ziff. 23 Nicht abziehbare Kosten",
    "pfad": [
     "Abzüge",
@@ -1283,7 +1283,7 @@
    "zusammenfassung": "Erwerbseinkommen für den Zweiverdienerabzug ist bei Unselbständigen der Bruttolohn abzüglich Berufskosten, AHV/IV/EO/ALV/NBUV und Beiträgen an Säule 2/3a; nicht abziehbar sind Lebenshaltungskosten, Amortisationen, Anschaffungskosten und Steuern."
   },
   {
-   "start": 862,
+   "start": 847,
    "titel": "Ziff. 16 Schluss (Saldo Gewinn- und Verlustrechnung); Ziff. 24 Steuerbares Einkommen, Steuerberechnung",
    "pfad": [
     "Abzüge",
@@ -1302,7 +1302,7 @@
    "zusammenfassung": "Bei selbständiger Erwerbstätigkeit entspricht das Erwerbseinkommen dem Saldo der Gewinn- und Verlustrechnung nach Abzug der Beiträge an Säule 2 und 3a; die Steuerberechnung für 2026 ergibt sich aus der Tabelle auf Seite 10."
   },
   {
-   "start": 874,
+   "start": 859,
    "titel": "Ziff. 24 Tarife (Grund-, Verheirateten-, Elterntarif mit 263 Fr. Abzug); Straffolgen Fristversäumnis",
    "pfad": [
     "Abzüge",
@@ -1322,7 +1322,7 @@
    "zusammenfassung": "Tarife: Grundtarif für Alleinstehende ohne Kinder, Verheiratetentarif, Elterntarif mit Abzug vom Steuerbetrag von 263 Fr. pro Kind oder unterstützungsbedürftige Person; bei Nichteinreichung der Steuererklärung Busse bis 10 000 Fr."
   },
   {
-   "start": 889,
+   "start": 874,
    "titel": "Elterntarif (263 Fr.); Straffolgen: Steuerhinterziehung (Busse bis dreifache Steuer)",
    "pfad": [
     "Abzüge",
@@ -1342,7 +1342,7 @@
    "zusammenfassung": "Der Elterntarif besteht aus dem Verheiratetentarif und einem Abzug vom Steuerbetrag von 263 Fr. pro Kind; bei Steuerhinterziehung sind die hinterzogene Steuer samt Zins nachzuentrichten und eine Busse bis zum Dreifachen zu bezahlen."
   },
   {
-   "start": 897,
+   "start": 882,
    "titel": "Ziff. 27 Eigenkapital Selbständigerwerbender; BGSA vereinfachtes Abrechnungsverfahren; Straffolgen Teilnahme/Urkunden",
    "pfad": [
     "Abzüge",
@@ -1362,7 +1362,7 @@
    "zusammenfassung": "Selbständigerwerbende übertragen das Eigenkapital aus Fragebogen 15 bzw. 15a in Ziff. 27; im vereinfachten Abrechnungsverfahren (BGSA) abgerechnete Bruttoeinkünfte sind zu deklarieren (kein Einfluss auf die Steuerberechnung)."
   },
   {
-   "start": 913,
+   "start": 898,
    "titel": "Straffolgen (Anstiftung bis 50 000 Fr., Urkundenfälschung bis 30 000 Fr.); Schlussbemerkungen (Unterschrift); Kapitalabfindungen",
    "pfad": [
     "Schlussbestimmungen",
@@ -1382,7 +1382,7 @@
    "zusammenfassung": "Anstiftung oder Gehilfenschaft zur Steuerhinterziehung wird mit Busse bis 50 000 Fr., Urkundenfälschung mit Gefängnis oder Busse bis 30 000 Fr. bestraft; die Steuererklärung ist persönlich zu unterzeichnen (Ehegatten gemeinsam)."
   },
   {
-   "start": 930,
+   "start": 915,
    "titel": "Kapitalabfindungen bei Beendigung des Arbeitsverhältnisses (Fünftel-Tarif)",
    "pfad": [
     "Kapitalabfindungen und Kapitalleistungen"
@@ -1401,7 +1401,7 @@
    "zusammenfassung": "Kapitalabfindungen mit Vorsorgecharakter werden gesondert zu einem Fünftel der Tarife 2026 besteuert (ohne Sozialabzüge); ohne Vorsorgecharakter (z.B. Abgangsentschädigungen) zusammen mit dem übrigen Einkommen."
   },
   {
-   "start": 948,
+   "start": 933,
    "titel": "Kapitalleistungen aus Vorsorge (AHV/IV, 2. Säule, Säule 3a) und Zahlungen bei Tod (Fünftel-Tarif)",
    "pfad": [
     "Kapitalabfindungen und Kapitalleistungen"
@@ -1420,7 +1420,7 @@
    "zusammenfassung": "Kapitalleistungen aus AHV/IV, beruflicher Vorsorge und Säule 3a sowie Zahlungen bei Tod und für bleibende Nachteile werden getrennt vom übrigen Einkommen zu einem Fünftel der Tarife 2026 (Grund- und Verheiratetentarif) besteuert, ohne Sozialabzüge."
   },
   {
-   "start": 967,
+   "start": 952,
    "titel": "Tarif DBST 2026 – Kopf und Spaltenerklärung (Hinweis: gilt ab 2026 auch für Kapitalleistungen aus Vorsorge)",
    "pfad": [
     "Tarif 2026"
@@ -1437,7 +1437,7 @@
    "zusammenfassung": "Tabelle zur Berechnung der direkten Bundessteuer natürlicher Personen 2026; diese Tarife gelten ab 2026 auch für Kapitalleistungen aus Vorsorge."
   },
   {
-   "start": 986,
+   "start": 971,
    "titel": "Tarif DBST 2026 – Tabelle Teil 1 (Alleinstehende ab 18 500 Fr.)",
    "pfad": [
     "Tarif 2026"
@@ -1455,7 +1455,7 @@
    "zusammenfassung": "Tarifzeilen der direkten Bundessteuer 2026, beginnend bei 18 500 Fr. steuerbarem Einkommen (Alleinstehende) mit Zeilen der zweiten Tarifhälfte ab 82 100 Fr."
   },
   {
-   "start": 997,
+   "start": 982,
    "titel": "Tarif DBST 2026 – Tabelle Teil 2",
    "pfad": [
     "Tarif 2026"
@@ -1472,7 +1472,7 @@
    "zusammenfassung": "Tarifzeilen der direkten Bundessteuer 2026 für Alleinstehende und Verheiratete, jeweils mit Steuer für 1 Jahr und Satz pro weitere 100 Fr."
   },
   {
-   "start": 1021,
+   "start": 1006,
    "titel": "Tarif DBST 2026 – Tabelle Teil 3",
    "pfad": [
     "Tarif 2026"
@@ -1488,7 +1488,7 @@
    "zusammenfassung": "Tarifzeilen der direkten Bundessteuer 2026 im mittleren Einkommensbereich für Alleinstehende und Verheiratete."
   },
   {
-   "start": 1043,
+   "start": 1028,
    "titel": "Tarif DBST 2026 – Tabelle Teil 4",
    "pfad": [
     "Tarif 2026"
@@ -1504,7 +1504,7 @@
    "zusammenfassung": "Tarifzeilen der direkten Bundessteuer 2026 im oberen Einkommensbereich (ab ca. 150 000 Fr. bis 650 000 Fr.)."
   },
   {
-   "start": 1057,
+   "start": 1042,
    "titel": "Tarif DBST 2026 – Tabelle Teil 5 (Höchstsatz 11.5 %)",
    "pfad": [
     "Tarif 2026"
@@ -1521,7 +1521,7 @@
    "zusammenfassung": "Für höhere steuerbare Einkünfte beträgt die Jahressteuer einheitlich 11.5 %; letzte Tabellenzeilen bei 941 200 bis 950 000 Fr."
   },
   {
-   "start": 1069,
+   "start": 1054,
    "titel": "Tarif DBST 2026 – Fussnoten (Rundung, Abzug 263 Fr. pro Kind)",
    "pfad": [
     "Tarif 2026"
@@ -1537,5 +1537,7 @@
    ],
    "zusammenfassung": "Restbeträge unter 100 Fr. fallen ausser Betracht, die Jahressteuer wird auf 5 Rp. abgerundet; der Steuerbetrag ermässigt sich um 263 Fr. für jedes Kind oder jede unterstützungsbedürftige Person."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

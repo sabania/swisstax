@@ -9,7 +9,7 @@ artikel: "§ 64"
 seiten: "12"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Erster Abschnitt: Allgemeine Gemeindesteuern › § 64 StV ZH – 1. Verweisung auf den ersten Teil · S. 12
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Erster Abschnitt: Allgemeine Gemeindesteuern › § 64 StV ZH – 1. Verweisung auf den ersten Teil · S. 12
 
 ### § 64 StV ZH – 1. Verweisung auf den ersten Teil
 

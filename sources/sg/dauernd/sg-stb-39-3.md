@@ -13,6 +13,8 @@ sha256: 17f5ee43bc3de2d1631920caea9044a4ef8e7b1115f09647ccd7a07efe859d70
 abgerufen: '2026-11-09'
 seiten: 6
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2026-01-01'
 ---
 # StB 39 Nr. 3 Fahrt zum Arbeitsort
 

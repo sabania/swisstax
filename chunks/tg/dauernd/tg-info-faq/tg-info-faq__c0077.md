@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerbezug"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
 
     - [StP 189 Nr. 1 "Ausgleichszinsen"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-189-nr-1-ausgleichszinsen&version=latest)
 

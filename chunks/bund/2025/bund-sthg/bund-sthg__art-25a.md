@@ -2,13 +2,13 @@
 id: bund-sthg__art-25a
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 25a StHG – Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand"
 artikel: "Art. 25a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · 2. Kapitel: Gewinnsteuer › 1. Abschnitt: Steuerobjekt › Art. 25a Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · 2. Kapitel: Gewinnsteuer › 1. Abschnitt: Steuerobjekt › Art. 25a Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand
 
 ### Art. 25a StHG – Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand
 

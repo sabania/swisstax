@@ -9,7 +9,7 @@ ziffer: "§ 47 Abs. 2"
 seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 47 · S. 4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 47 · S. 4
 
     2 Für Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe
 

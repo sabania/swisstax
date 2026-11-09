@@ -13,6 +13,8 @@ sha256: 279df3ec159fde0039f36aec6241134fa0eba6d91ea031947c8df1301b41070f
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2016-01-01'
 ---
 # StB 39 Nr. 9 Nebenerwerbskosten
 

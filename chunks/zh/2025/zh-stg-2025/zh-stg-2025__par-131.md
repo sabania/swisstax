@@ -9,7 +9,7 @@ artikel: "§ 131"
 seiten: "58"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 131 StG ZH – 2. Bezugsverjährung · S. 58
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 131 StG ZH – 2. Bezugsverjährung · S. 58
 
 ### § 131 StG ZH – 2. Bezugsverjährung
 

@@ -8,7 +8,7 @@ titel: "Art. 217 StG AR – XIII. Einsprache und Beschwerde"
 artikel: "Art. 217"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 217 XIII. Einsprache und Beschwerde
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 217 XIII. Einsprache und Beschwerde
 
 ### Art. 217 StG AR – XIII. Einsprache und Beschwerde
 

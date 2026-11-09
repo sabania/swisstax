@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Geldwerte Leistungen bei Vorschüssen/Darlehen an Beteiligte – Verrechnungssteuer 35 % (2025)",
    "pfad": [
     "Einleitung"
@@ -21,7 +21,7 @@
    "zusammenfassung": "Unverzinste oder ungenügend verzinste Vorschüsse an Beteiligte sind geldwerte Leistungen mit Verrechnungssteuer von 35 %, zu deklarieren mit Formular 102 innert 30 Tagen."
   },
   {
-   "start": 54,
+   "start": 38,
    "titel": "Massgebende Zinssätze ab 1. Januar 2025 (Hinweis auf Safe-Haven-Sätze)",
    "pfad": [
     "Einleitung"
@@ -35,7 +35,7 @@
    "zusammenfassung": "Die ESTV stellt seit 1. Januar 2025 auf die nachfolgenden Zinssätze für Vorschüsse und Darlehen in CHF ab."
   },
   {
-   "start": 68,
+   "start": 52,
    "titel": "Ziff. 1 Vorschüsse an Beteiligte – Mindestzinssatz 2025",
    "pfad": [
     "Zinssätze",
@@ -51,7 +51,7 @@
    "zusammenfassung": "Mindestzinssatz 1 % bei Finanzierung aus Eigenkapital bzw. Selbstkosten zuzüglich ¼ – ½ %, mindestens 1 %."
   },
   {
-   "start": 76,
+   "start": 60,
    "titel": "Ziff. 2.1 Vorschüsse von Beteiligten – Liegenschaftskredite, Höchstzinssätze 2025",
    "pfad": [
     "Zinssätze",
@@ -69,7 +69,7 @@
    "zusammenfassung": "Erste Hypothek (2/3 Verkehrswert) 1 ¼ % bzw. 1¾ %, Rest 2 % bzw. 2½ %; Fremdfinanzierung bis 70 % bzw. 80 % des Verkehrswerts."
   },
   {
-   "start": 91,
+   "start": 75,
    "titel": "Ziff. 2.2 Betriebskredite von Beteiligten – Höchstzinssätze 2025, safe haven",
    "pfad": [
     "Zinssätze",
@@ -87,7 +87,7 @@
    "zusammenfassung": "Betriebskredite bis CHF 1 Mio.: 3½ % bzw. 3 %; ab CHF 1 Mio.: 1¾ % bzw. 1½ %; Limiten aller Beteiligten zusammenzählen."
   },
   {
-   "start": 108,
+   "start": 92,
    "titel": "Fussnoten – Zuschlag Selbstkosten, verdecktes Eigenkapital (KS 6a)",
    "pfad": [
     "Zinssätze",
@@ -101,7 +101,7 @@
    "zusammenfassung": "Zuschlag ½ % bis CHF 10 Mio., ¼ % darüber; verdecktes Eigenkapital gemäss Kreisschreiben Nr. 6a beachten."
   },
   {
-   "start": 120,
+   "start": 104,
    "titel": "Ziff. 3 Bewertung von Unternehmen – Verweis KS 28 SSK",
    "pfad": [
     "Zinssätze",
@@ -117,9 +117,11 @@
    "zusammenfassung": "Kapitalisierungssätze: Verweis auf Randziffer 10 des SSK-Kreisschreibens Nr. 28."
   },
   {
-   "start": 129,
+   "start": 113,
    "skip": true,
    "titel": "Kontaktpersonen und Unterschrift"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

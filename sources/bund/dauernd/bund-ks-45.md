@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2019-06-12'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/I3YyTvU3ThVA/dbst-ks-2019-1-045-d-de.pdf
@@ -14,6 +15,8 @@ sha256: 0957867cee51f98c90c3ed3d44dda5db600c380a8a584c867253fec198fe3114
 abgerufen: '2026-11-09'
 seiten: 69
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2021-01-01'
 ---
 # ESTV-Kreisschreiben Nr. 45: Quellenbesteuerung des Erwerbseinkommens
 

@@ -9,7 +9,7 @@ artikel: "§ 47"
 seiten: "24-25"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 47 StG ZH – VIII.[^70] Steuertarif · S. 24–25
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 47 StG ZH – VIII.[^70] Steuertarif · S. 24–25
 
 ### § 47 StG ZH – VIII.[^70] Steuertarif
 

@@ -8,7 +8,7 @@ titel: "Art. 33 StV AR – Steuerfreies Vermögen (Art. 50 StG)"
 artikel: "Art. 33"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 33 Steuerfreies Vermögen (Art. 50 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 33 Steuerfreies Vermögen (Art. 50 StG)
 
 ### Art. 33 StV AR – Steuerfreies Vermögen (Art. 50 StG)
 

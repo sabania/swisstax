@@ -9,7 +9,7 @@ artikel: "§ 101a"
 seiten: "47"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 101a StG ZH – IX. Nachträgliche ordentliche Veranlagung auf Antrag · S. 47
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 101a StG ZH – IX. Nachträgliche ordentliche Veranlagung auf Antrag · S. 47
 
 ### § 101a StG ZH – IX. Nachträgliche ordentliche Veranlagung auf Antrag
 

@@ -9,7 +9,7 @@ artikel: "§ 246"
 seiten: "85"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 246 StG ZH – d. Dolmetscher · S. 85
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 246 StG ZH – d. Dolmetscher · S. 85
 
 ### § 246 StG ZH – d. Dolmetscher
 

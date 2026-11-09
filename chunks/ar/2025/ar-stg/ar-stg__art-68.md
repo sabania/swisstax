@@ -8,7 +8,7 @@ titel: "Art. 68 StG AR – I. Steuerobjekt"
 artikel: "Art. 68"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 68 I. Steuerobjekt
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 68 I. Steuerobjekt
 
 ### Art. 68 StG AR – I. Steuerobjekt
 

@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0091
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang 4 Beispiel 3 – nicht kotierte Gesellschaft (Total KER 24'800) (Teil 4/4)"
 ziffer: "Anhang 4"
 seiten: "36-37"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 4 Kapitalband · S. 36–37
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › Anhang 4 Kapitalband · S. 36–37
 
 Da während des Kapitalbands KER in der Höhe von 11'500 an die Aktionäre zurückbezahlt
 und durch diese wieder einbezahlt werden, können auch sie zusätzlich gutgeschrieben wer-

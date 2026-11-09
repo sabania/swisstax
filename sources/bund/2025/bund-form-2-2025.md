@@ -12,6 +12,10 @@ sha256: a2334ea179a181362c3224ebf8ace2910040c3188e3c87457ff20aea6e6d83eb
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: bund-form-2-2026
 ---
 # ESTV Formular 2: Steuererklärung natürliche Personen 2025 (Muster)
 

@@ -8,7 +8,7 @@ titel: "§ 10 StV TG – Ausschluss der Pauschalierung"
 artikel: "§ 10"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 10 Ausschluss der Pauschalierung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 10 Ausschluss der Pauschalierung
 
 ### § 10 StV TG – Ausschluss der Pauschalierung
 

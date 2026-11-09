@@ -8,7 +8,7 @@ titel: "§ 4a StV TG – Vereinfachtes Abrechnungsverfahren"
 artikel: "§ 4a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 4a Vereinfachtes Abrechnungsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 4a Vereinfachtes Abrechnungsverfahren
 
 ### § 4a StV TG – Vereinfachtes Abrechnungsverfahren
 

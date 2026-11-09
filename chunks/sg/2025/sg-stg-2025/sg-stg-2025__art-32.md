@@ -8,7 +8,7 @@ titel: "Art. 32 StG SG – 2. Aufschub der Besteuerung stiller Reserven 2.1 Umst
 artikel: "Art. 32"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 32 2. Aufschub der Besteuerung stiller Reserven 2.1 Umstrukturierungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 32 2. Aufschub der Besteuerung stiller Reserven 2.1 Umstrukturierungen
 
 ### Art. 32 StG SG – 2. Aufschub der Besteuerung stiller Reserven 2.1 Umstrukturierungen
 

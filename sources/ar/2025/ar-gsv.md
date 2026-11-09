@@ -14,6 +14,8 @@ sha256: 1f4be6724bd68fbc7d4893dbfa4cb11811353bb71ea7ca5c9659ee4d844f303a
 abgerufen: '2026-11-09'
 einheiten: 30
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2023-01-01'
 ---
 # Verordnung über die amtlichen Grundstückschätzungen AR (bGS 621.21) – Version gültig ab 01.01.2023
 

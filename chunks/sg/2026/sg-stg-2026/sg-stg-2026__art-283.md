@@ -8,7 +8,7 @@ titel: "Art. 283 StG SG – d) Ergänzende Vermögenssteuer 1. Beginn für die B
 artikel: "Art. 283"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 283 d) Ergänzende Vermögenssteuer 1. Beginn für die Berechnung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 283 d) Ergänzende Vermögenssteuer 1. Beginn für die Berechnung
 
 ### Art. 283 StG SG – d) Ergänzende Vermögenssteuer 1. Beginn für die Berechnung
 

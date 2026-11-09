@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0011
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.3 Oberer Grenzbetrag (8 % / 40 %)"
 ziffer: "5.3"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.3 Oberer Grenzbetrag · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.3 Oberer Grenzbetrag · S. 5
 
 5.3. Oberer Grenzbetrag
 Nach Artikel 7 Absatz 1 BVV 3 sind Beiträge an anerkannte Vorsorgeformen bis jährlich

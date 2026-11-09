@@ -12,6 +12,8 @@ raw: raw/zh/dauernd/zh-zstb-172-1.html
 sha256: b5d9c49830686f8c3206ec1b0eed92ea2baa7b806ad97c9a485f2d1a60928457
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: verfahren
+gilt_ab: '2020-09-11'
 ---
 # ZStB 172.1: Bezug Staats- und Gemeindesteuern
 

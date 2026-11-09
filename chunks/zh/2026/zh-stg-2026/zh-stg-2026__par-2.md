@@ -9,7 +9,7 @@ artikel: "§ 2"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › Erster Abschnitt: Allgemeine Bestimmungen › § 2 StG ZH – II. Steuerfuss · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › Erster Abschnitt: Allgemeine Bestimmungen › § 2 StG ZH – II. Steuerfuss · S. 1
 
 ### § 2 StG ZH – II. Steuerfuss
 

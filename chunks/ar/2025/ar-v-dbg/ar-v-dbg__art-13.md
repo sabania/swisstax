@@ -8,7 +8,7 @@ titel: "Art. 13 V DBG AR – Zeitpunkte (Art. 161 Abs. 1 DBG)"
 artikel: "Art. 13"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · V. Steuerbezug und Steuersicherung › Art. 13 Zeitpunkte (Art. 161 Abs. 1 DBG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · V. Steuerbezug und Steuersicherung › Art. 13 Zeitpunkte (Art. 161 Abs. 1 DBG)
 
 ### Art. 13 V DBG AR – Zeitpunkte (Art. 161 Abs. 1 DBG)
 

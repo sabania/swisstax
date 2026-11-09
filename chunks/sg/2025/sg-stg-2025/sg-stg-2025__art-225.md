@@ -8,7 +8,7 @@ titel: "Art. 225 StG SG – Sicherstellung"
 artikel: "Art. 225"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › II. Sicherung der Steuer › Art. 225 Sicherstellung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › II. Sicherung der Steuer › Art. 225 Sicherstellung
 
 ### Art. 225 StG SG – Sicherstellung
 

@@ -13,6 +13,8 @@ sha256: 297e82fbb9da0fce484fa7c5a5c1eced2bbe391d490e97ea3af1c1e5fb481a8c
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2021-01-01'
 ---
 # StB 39 Nr. 1 Arbeitszimmer
 

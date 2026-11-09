@@ -9,7 +9,7 @@ artikel: "§ 37"
 seiten: "21"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 37 StG ZH – b. Kapitalleistungen aus Vorsorge · S. 21
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 37 StG ZH – b. Kapitalleistungen aus Vorsorge · S. 21
 
 ### § 37 StG ZH – b. Kapitalleistungen aus Vorsorge
 

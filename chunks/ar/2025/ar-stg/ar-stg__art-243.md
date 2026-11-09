@@ -8,7 +8,7 @@ titel: "Art. 243 StG AR – II. Steuerhinterziehung 1. Vollendetes Delikt"
 artikel: "Art. 243"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 243 II. Steuerhinterziehung 1. Vollendetes Delikt
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 243 II. Steuerhinterziehung 1. Vollendetes Delikt
 
 ### Art. 243 StG AR – II. Steuerhinterziehung 1. Vollendetes Delikt
 

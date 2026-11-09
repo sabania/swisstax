@@ -2,15 +2,24 @@
 typ: quelle
 id: ar-mb-07
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 07: Festsetzung der Mietwerte von selbstgenutzten Liegenschaften (Fassung 17.6.2025)"
 generiert: tools/build_index.py
 ---
 # MB AR 07: Merkblatt 07: Festsetzung der Mietwerte von selbstgenutzten Liegenschaften (Fassung 17.6.2025)
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/07_Festsetzung_der_Mietwerte_von_selbstgenutzten_Liegenschaften_ab2020.pdf> · lokal: [ar-mb-07.pdf](../../../raw/ar/dauernd/ar-mb-07.pdf) · Volltext: [ar-mb-07.md](../../../sources/ar/dauernd/ar-mb-07.md)
 - **Abgerufen:** 2026-11-09 · sha256 `bee8a946610ac48d…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-06-17 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-07`).
+
+- `data/werte/ar/2026.yaml#42:liegenschaft.eigenmietwert_abzug` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#94:einkommen.liegenschaften.eigenmietwert@Form. 7 Abschn. B a` (agent-geprueft)
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

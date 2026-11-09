@@ -6,12 +6,14 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: portal
 quelle_url: https://www.estv.admin.ch/de/merkblaetter-direkte-bundessteuer
 raw: raw/bund/dauernd/bund-portal-mb.html
 sha256: 71b337de8c5dd584fb91cd9d5ab4210afe71f544010a7b63a7a59d601145f022
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Merkblätter DBST (Übersicht)
 

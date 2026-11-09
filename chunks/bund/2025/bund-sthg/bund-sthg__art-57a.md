@@ -2,13 +2,13 @@
 id: bund-sthg__art-57a
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 57a StHG – Eröffnung des Strafverfahrens wegen Steuerhinterziehung"
 artikel: "Art. 57a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Sechster Titel: Steuerstrafrecht › 1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 57a Eröffnung des Strafverfahrens wegen Steuerhinterziehung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Sechster Titel: Steuerstrafrecht › 1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 57a Eröffnung des Strafverfahrens wegen Steuerhinterziehung
 
 ### Art. 57a StHG – Eröffnung des Strafverfahrens wegen Steuerhinterziehung
 

@@ -8,7 +8,7 @@ titel: "Steuerfüsse SG 2026 – Gemeinden Seite 2 (Au bis Walenstadt) (Teil 2/2
 seiten: "2"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 2 · S. 2
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 2 · S. 2
 
 Sevelen   0.8   118   20   24   243   247
 Wartau   0.7   145   24   28   274   278

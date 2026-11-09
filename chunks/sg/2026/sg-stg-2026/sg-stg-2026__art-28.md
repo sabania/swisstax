@@ -8,7 +8,7 @@ titel: "Art. 28 StG SG – Steuerliche Vorrechte"
 artikel: "Art. 28"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 28 Steuerliche Vorrechte
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 28 Steuerliche Vorrechte
 
 ### Art. 28 StG SG – Steuerliche Vorrechte
 

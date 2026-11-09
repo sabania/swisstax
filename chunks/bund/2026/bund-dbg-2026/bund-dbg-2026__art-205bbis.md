@@ -8,7 +8,7 @@ titel: "Art. 205bbis DBG – Übergangsbestimmung zur Änderung vom 20. März 20
 artikel: "Art. 205bbis"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205bbis Übergangsbestimmung zur Änderung vom 20. März 2008
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205bbis Übergangsbestimmung zur Änderung vom 20. März 2008
 
 ### Art. 205bbis DBG – Übergangsbestimmung zur Änderung vom 20. März 2008
 

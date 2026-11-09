@@ -8,7 +8,7 @@ titel: "Art. 249 StG AR – III. Juristische Personen 1. Allgemeines"
 artikel: "Art. 249"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 249 III. Juristische Personen 1. Allgemeines
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 249 III. Juristische Personen 1. Allgemeines
 
 ### Art. 249 StG AR – III. Juristische Personen 1. Allgemeines
 

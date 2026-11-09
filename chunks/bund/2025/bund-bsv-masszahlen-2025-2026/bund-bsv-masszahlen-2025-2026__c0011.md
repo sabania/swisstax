@@ -9,7 +9,7 @@ ziffer: "2–3"
 seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Zeitreihen › Lohndaten und Mindestzinssatz · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Zeitreihen › Lohndaten und Mindestzinssatz · S. 3
 
 2.   Lohndaten gemäss BVG in Franken (Zeitreihe)
 

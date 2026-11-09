@@ -8,7 +8,7 @@ titel: "Art. 79 StG SG – Haftung (Teil 1/2)"
 artikel: "Art. 79"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 79 Haftung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 79 Haftung
 
 ### Art. 79 StG SG – Haftung
 

@@ -2,14 +2,14 @@
 id: bund-ks-25__c0005
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.1 Steuerliche Grundlagen – transparente Betrachtung (Teil 2/2)"
 ziffer: "3.1"
 seiten: "3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 3 Grundsätze der Besteuerung › 3.1 · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 3 Grundsätze der Besteuerung › 3.1 · S. 3
 
 Ebenfalls ausgenommen vom Prinzip der transparenten Besteuerung sind kollektive Kapital-
 anlagen mit direktem Grundbesitz. Diese werden nach Artikel 10 Absatz 2 DBG in Verbin-

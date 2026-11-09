@@ -8,7 +8,7 @@ titel: "Art. 136 StG AR – 2. Schenkungssteuer"
 artikel: "Art. 136"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 136 2. Schenkungssteuer
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 136 2. Schenkungssteuer
 
 ### Art. 136 StG AR – 2. Schenkungssteuer
 

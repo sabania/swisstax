@@ -2,13 +2,13 @@
 id: bund-vstv__art-12
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 12 VStV"
 artikel: "Art. 12"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · Erster Abschnitt: Allgemeine Bestimmungen › V. Rückvergütung der nicht geschuldeten Steuer › Art. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · Erster Abschnitt: Allgemeine Bestimmungen › V. Rückvergütung der nicht geschuldeten Steuer › Art. 12
 
 ### Art. 12 VStV
 

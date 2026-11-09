@@ -8,7 +8,7 @@ titel: "Art. 131 StG SG – Veräusserungen a) Steuerbegründende Veräusserunge
 artikel: "Art. 131"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 131 Veräusserungen a) Steuerbegründende Veräusserungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 131 Veräusserungen a) Steuerbegründende Veräusserungen
 
 ### Art. 131 StG SG – Veräusserungen a) Steuerbegründende Veräusserungen
 

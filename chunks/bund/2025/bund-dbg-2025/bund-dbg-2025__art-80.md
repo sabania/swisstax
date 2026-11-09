@@ -8,7 +8,7 @@ titel: "Art. 80 DBG – Bemessung des Reingewinns"
 artikel: "Art. 80"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Vierter Titel: Zeitliche Bemessung › Art. 80 Bemessung des Reingewinns
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Vierter Titel: Zeitliche Bemessung › Art. 80 Bemessung des Reingewinns
 
 ### Art. 80 DBG – Bemessung des Reingewinns
 

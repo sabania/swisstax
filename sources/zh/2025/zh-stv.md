@@ -7,13 +7,15 @@ jahre:
 - 2025
 - 2026
 typ: verordnung
-stand: 1.4.20 - 108
+stand: '2020-02-01'
 quelle_url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_11-1998_04_01-1999_01_01-108.html
 raw: raw/zh/2025/zh-stv.pdf
 sha256: 9d1d75d9a1c07d78aa84796991a4c83bf58c5c94f86ab3437935f7ffcc09c7de
 abgerufen: '2026-11-09'
 einheiten: 79
 konvertierung: ZH-Lex-PDF -> Markdown je § (tools/zhlex.py, pdfplumber, Randtitel/Endnoten heuristisch)
+zeitbezug: verfahren
+gilt_ab: '2020-02-01'
 ---
 # Verordnung zum Steuergesetz ZH (LS 631.11) – Nachtrag 108
 

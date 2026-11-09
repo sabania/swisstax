@@ -9,7 +9,7 @@ artikel: "§ 64b"
 seiten: "32-33"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung · S. 32–33
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung · S. 32–33
 
 ### § 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung (Fortsetzung)
 

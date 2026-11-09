@@ -8,7 +8,7 @@ titel: "Art. 79 StG AR – b) Kapitalgewinne auf Beteiligungen (Teil 1/2)"
 artikel: "Art. 79"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 79 b) Kapitalgewinne auf Beteiligungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 79 b) Kapitalgewinne auf Beteiligungen
 
 ### Art. 79 StG AR – b) Kapitalgewinne auf Beteiligungen
 

@@ -9,7 +9,7 @@ artikel: "§ 1"
 seiten: "95"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 1 StG ZH – Kapitalrückzahlungen für Gratisaktien · S. 95
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 1 StG ZH – Kapitalrückzahlungen für Gratisaktien · S. 95
 
 ### § 1 StG ZH – Kapitalrückzahlungen für Gratisaktien
 

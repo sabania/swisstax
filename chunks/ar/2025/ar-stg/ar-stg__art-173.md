@@ -8,7 +8,7 @@ titel: "Art. 173 StG AR – 3. Einspracheentscheid"
 artikel: "Art. 173"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 173 3. Einspracheentscheid
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 173 3. Einspracheentscheid
 
 ### Art. 173 StG AR – 3. Einspracheentscheid
 

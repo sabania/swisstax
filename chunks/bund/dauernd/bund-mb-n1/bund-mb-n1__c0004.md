@@ -2,14 +2,14 @@
 id: bund-mb-n1__c0004
 quelle: bund-mb-n1
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 2–3 Mietwert Wohnung, Privatanteil Heizung/Strom; Lebensmittelgeschäfte (Ziff. 1b) (Teil 2/2)"
 ziffer: "1b, 2, 3"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB N1/2007 · Mietwert und Privatanteile · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB N1/2007 · Mietwert und Privatanteile · S. 1
 
   Erwachsene   Kinder im Alter von ... Jahren *
     bis 6   über 6–13   über 13– 18   Für Heizung, elektrischen Strom, Gas, Reinigungsmaterial, Wäsche-

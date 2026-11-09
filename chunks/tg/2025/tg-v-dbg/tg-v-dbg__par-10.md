@@ -8,7 +8,7 @@ titel: "§ 10 V DBG TG – Erlass"
 artikel: "§ 10"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 2. Verfahren › § 10 Erlass
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 2. Verfahren › § 10 Erlass
 
 ### § 10 V DBG TG – Erlass
 

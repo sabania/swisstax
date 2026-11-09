@@ -12,6 +12,7 @@ raw: raw/ar/dauernd/ar-info-grundstueckschaetzung.html
 sha256: 91f6ab8a0b9a0adddf67092835cb63082bafc705b558329d4efcd92b3cfb645e
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Grundstückschätzungsbehörde
 

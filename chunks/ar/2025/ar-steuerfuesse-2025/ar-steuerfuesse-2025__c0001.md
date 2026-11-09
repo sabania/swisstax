@@ -8,7 +8,7 @@ titel: "Steuerfüsse 2025 AR – Kantonsfuss und Gemeinden Bühler bis Lutzenber
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2025], typ: steuerfuss}}
 ---
-> AR · Steuerjahr 2025 · Steuerfüsse AR 2025 · Steuerfüsse natürliche Personen · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2025 · Steuerfüsse AR 2025 · Steuerfüsse natürliche Personen · S. 1
 
     Kantonaler Steuerfuss: 3.30 Einheiten
 

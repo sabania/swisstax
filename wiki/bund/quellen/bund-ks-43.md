@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-43
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 43: Preise, Ehrengaben, Stipendien, Förderbeiträge"
 generiert: tools/build_index.py
 ---
 # KS 43: ESTV-Kreisschreiben Nr. 43: Preise, Ehrengaben, Stipendien, Förderbeiträge
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2018-02-26
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2018-02-26
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/9jH59-8M4UeL/dbst-ks-2018-1-043-d-de.pdf> · lokal: [bund-ks-43.pdf](../../../raw/bund/dauernd/bund-ks-43.pdf) · Volltext: [bund-ks-43.md](../../../sources/bund/dauernd/bund-ks-43.md)
 - **Abgerufen:** 2026-11-09 · sha256 `8da9c3f371893d43…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2018-02-26 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

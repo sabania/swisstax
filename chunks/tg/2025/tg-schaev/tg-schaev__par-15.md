@@ -8,7 +8,7 @@ titel: "§ 15 SchäV TG – Gewichtung"
 artikel: "§ 15"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 15 Gewichtung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 15 Gewichtung
 
 ### § 15 SchäV TG – Gewichtung
 

@@ -8,7 +8,7 @@ titel: "Art. 124 StG SG – Bezugsprovision"
 artikel: "Art. 124"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 124 Bezugsprovision
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 124 Bezugsprovision
 
 ### Art. 124 StG SG – Bezugsprovision
 

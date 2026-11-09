@@ -8,7 +8,7 @@ titel: "Art. 234 StG AR – Tatbestand"
 artikel: "Art. 234"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 3. Handänderungssteuer › Art. 234 Tatbestand
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 3. Handänderungssteuer › Art. 234 Tatbestand
 
 ### Art. 234 StG AR – Tatbestand
 

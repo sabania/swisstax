@@ -9,7 +9,7 @@ artikel: "§ 164"
 seiten: "67"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 164 StG ZH – II. Gegenstand · S. 67
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 164 StG ZH – II. Gegenstand · S. 67
 
 ### § 164 StG ZH – II. Gegenstand
 

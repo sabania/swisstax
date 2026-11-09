@@ -8,7 +8,7 @@ titel: "Art. 2 BKV – Ehegatten"
 artikel: "Art. 2"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 2 Ehegatten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 2 Ehegatten
 
 ### Art. 2 BKV – Ehegatten
 

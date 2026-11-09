@@ -8,7 +8,7 @@ titel: "Art. 19 V DBG AR – Inkrafttreten"
 artikel: "Art. 19"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · VIII. Schlussbestimmungen › Art. 19 Inkrafttreten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · VIII. Schlussbestimmungen › Art. 19 Inkrafttreten
 
 ### Art. 19 V DBG AR – Inkrafttreten
 

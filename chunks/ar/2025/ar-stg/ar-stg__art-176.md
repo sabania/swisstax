@@ -8,7 +8,7 @@ titel: "Art. 176 StG AR – 2. Pflichten der steuerpflichtigen Personen"
 artikel: "Art. 176"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 176 2. Pflichten der steuerpflichtigen Personen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 176 2. Pflichten der steuerpflichtigen Personen
 
 ### Art. 176 StG AR – 2. Pflichten der steuerpflichtigen Personen
 

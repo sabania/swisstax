@@ -7,7 +7,7 @@ typ: info
 titel: "Informationen zur vorläufigen Rechung Staats- und Gemeindesteuern:"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: info}}
 ---
-> AR · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug › Informationen zur vorläufigen Rechung Staats- und Gemeindesteuern:
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug › Informationen zur vorläufigen Rechung Staats- und Gemeindesteuern:
 
 ### Informationen zur vorläufigen Rechung Staats- und Gemeindesteuern:
 

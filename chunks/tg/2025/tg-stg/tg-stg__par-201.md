@@ -2,13 +2,13 @@
 id: tg-stg__par-201
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 201 StG TG – Mitwirkungs- und Veranlagungsentschädigung"
 artikel: "§ 201"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.10. Bezug und Sicherung der Steuer › 1.10.5. Entschädigungen, Ablieferung und Aufteilung * › § 201 Mitwirkungs- und Veranlagungsentschädigung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.10. Bezug und Sicherung der Steuer › 1.10.5. Entschädigungen, Ablieferung und Aufteilung * › § 201 Mitwirkungs- und Veranlagungsentschädigung
 
 ### § 201 StG TG – Mitwirkungs- und Veranlagungsentschädigung
 

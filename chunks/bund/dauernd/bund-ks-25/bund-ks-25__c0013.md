@@ -2,14 +2,14 @@
 id: bund-ks-25__c0013
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.3.3–3.3.4 Wechsel OR zu KAG, Überleitung, Spartenrechnung, Deklarationspflicht"
 ziffer: "3.3.3 / 3.3.4"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 3 Grundsätze der Besteuerung › 3.3 › 3.3.3–3.3.4 · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 3 Grundsätze der Besteuerung › 3.3 › 3.3.3–3.3.4 · S. 5
 
 Bei einem Wechsel von der Jahresrechnung nach OR zu einer solchen nach KAG findet eine
 steuersystematische Realisierung mit entsprechender Besteuerung der Wertveränderungen

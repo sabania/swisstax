@@ -7,7 +7,7 @@ typ: info
 titel: "Zuständigkeiten"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Nachsteuern und Steuerstrafen › Zuständigkeiten
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Nachsteuern und Steuerstrafen › Zuständigkeiten
 
 ## Nachsteuern und Steuerstrafen
 

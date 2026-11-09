@@ -9,7 +9,7 @@ artikel: "§ 37b"
 seiten: "22"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 37b StG ZH – VII. Liquidationsgewinne · S. 22
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 37b StG ZH – VII. Liquidationsgewinne · S. 22
 
 ### § 37b StG ZH – VII. Liquidationsgewinne
 

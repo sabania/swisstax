@@ -8,7 +8,7 @@ titel: "Art. 15 StV SG – e) Unterhaltsbeiträge bei Scheidung oder Trennung (A
 artikel: "Art. 15"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 15 e) Unterhaltsbeiträge bei Scheidung oder Trennung (Art. 36 Bst. f StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 15 e) Unterhaltsbeiträge bei Scheidung oder Trennung (Art. 36 Bst. f StG)
 
 ### Art. 15 StV SG – e) Unterhaltsbeiträge bei Scheidung oder Trennung (Art. 36 Bst. f StG)
 

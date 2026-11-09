@@ -8,7 +8,7 @@ titel: "§ 11a StV TG – Krankheits- und Unfallkosten"
 artikel: "§ 11a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 11a Krankheits- und Unfallkosten
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 11a Krankheits- und Unfallkosten
 
 ### § 11a StV TG – Krankheits- und Unfallkosten
 

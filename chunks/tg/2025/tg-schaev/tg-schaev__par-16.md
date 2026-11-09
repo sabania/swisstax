@@ -8,7 +8,7 @@ titel: "§ 16 SchäV TG – Geschäftshäuser und Gewerbebetriebe"
 artikel: "§ 16"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 16 Geschäftshäuser und Gewerbebetriebe
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 16 Geschäftshäuser und Gewerbebetriebe
 
 ### § 16 SchäV TG – Geschäftshäuser und Gewerbebetriebe
 

@@ -8,7 +8,7 @@ titel: "Art. 36 StG SG – g) Übrige Einkünfte"
 artikel: "Art. 36"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 36 g) Übrige Einkünfte
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 36 g) Übrige Einkünfte
 
 ### Art. 36 StG SG – g) Übrige Einkünfte
 

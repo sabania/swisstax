@@ -7,7 +7,7 @@ typ: info
 titel: "Spezialsteuern"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG Steuern bezahlen · Steuern bezahlen (Rechnungen, Zinsen) › Spezialsteuern
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · SG Steuern bezahlen · Steuern bezahlen (Rechnungen, Zinsen) › Spezialsteuern
 
 - [Fragebogen Stundungsgesuch neues Fenster](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/weitere-steuerarten/steuern-bezahlen/Fragebogen%20Stundungsgesuch.xlsx) ausfüllen
 - Konkreten Zahlungsvorschlag unterbreiten (Seite 2 des Fragebogens)

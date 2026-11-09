@@ -9,7 +9,7 @@ artikel: "§ 76"
 seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Dritter Teil: Steuerstrafrecht › § 76 StV ZH – 2. Strafanzeige wegen Steuervergehen · S. 14
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Dritter Teil: Steuerstrafrecht › § 76 StV ZH – 2. Strafanzeige wegen Steuervergehen · S. 14
 
 ### § 76 StV ZH – 2. Strafanzeige wegen Steuervergehen
 

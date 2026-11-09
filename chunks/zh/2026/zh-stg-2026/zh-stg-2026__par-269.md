@@ -9,7 +9,7 @@ artikel: "§ 269"
 seiten: "90"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 269 StG ZH – 2. Steuerjahre bis und mit 1999 · S. 90
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 269 StG ZH – 2. Steuerjahre bis und mit 1999 · S. 90
 
 ### § 269 StG ZH – 2. Steuerjahre bis und mit 1999
 

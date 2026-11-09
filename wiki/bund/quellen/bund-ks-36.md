@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-36
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 36: Gewerbsmässiger Wertschriftenhandel"
 generiert: tools/build_index.py
 ---
 # KS 36: ESTV-Kreisschreiben Nr. 36: Gewerbsmässiger Wertschriftenhandel
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2012-07-27
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2012-07-27
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/oOz28af293pZ/dbst-ks-2012-1-036-d-de.pdf> · lokal: [bund-ks-36.pdf](../../../raw/bund/dauernd/bund-ks-36.pdf) · Volltext: [bund-ks-36.md](../../../sources/bund/dauernd/bund-ks-36.md)
 - **Abgerufen:** 2026-11-09 · sha256 `9f1d4a9d70a7049c…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2012-07-27 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

@@ -9,7 +9,7 @@ artikel: "§ 114"
 seiten: "53"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 114 StG ZH – IV. Besetzung · S. 53
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 114 StG ZH – IV. Besetzung · S. 53
 
 ### § 114 StG ZH – IV. Besetzung
 

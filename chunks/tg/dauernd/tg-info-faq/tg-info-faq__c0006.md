@@ -7,7 +7,7 @@ typ: info
 titel: "Einkommen"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Einkommen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Einkommen
 
     Gehören zu den Einkünften IV-Nachzahlungen, wird die Einkommenssteuer unter Berücksichtigung der übrigen Einkünfte zu dem Steuersatz berechnet, der sich ergäbe, wenn anstelle der einmaligen Leistung eine entsprechende jährliche Leistung ausgerichtet würde, was die Steuerprogression bricht.
 

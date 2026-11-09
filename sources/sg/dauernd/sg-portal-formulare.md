@@ -12,6 +12,7 @@ raw: raw/sg/dauernd/sg-portal-formulare.html
 sha256: c1dd90014bffc88ad6813d97db9dfc41dec42fb0c4d6e2c43ae34417f34cde7b
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Formulare und Wegleitungen (Übersicht)
 

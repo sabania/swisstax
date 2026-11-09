@@ -8,7 +8,7 @@ titel: "Art. 160a StG AR – Elektronisches Verfahren"
 artikel: "Art. 160a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 160a Elektronisches Verfahren
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 160a Elektronisches Verfahren
 
 ### Art. 160a StG AR – Elektronisches Verfahren
 

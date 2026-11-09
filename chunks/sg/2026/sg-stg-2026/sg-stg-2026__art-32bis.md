@@ -8,7 +8,7 @@ titel: "Art. 32 bis StG SG – 2.2 Weitere Tatbestände"
 artikel: "Art. 32 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 32 bis 2.2 Weitere Tatbestände
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 32 bis 2.2 Weitere Tatbestände
 
 ### Art. 32 bis StG SG – 2.2 Weitere Tatbestände
 

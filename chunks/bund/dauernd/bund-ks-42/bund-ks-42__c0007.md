@@ -2,14 +2,14 @@
 id: bund-ks-42__c0007
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3 Schematischer Überblick über die Abzugsfähigkeit (Tabelle)"
 ziffer: "3"
 seiten: "4-5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 3 Überblick Abzugsfähigkeit · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 3 Überblick Abzugsfähigkeit · S. 4–5
 
 3   Schematischer Überblick über die Abzugsfähigkeit (Grundzüge)
 

@@ -4,8 +4,8 @@ titel: StB 44 Nr. 1 Verwaltungskosten bewegliches Privatvermögen
 kurz: StB 44 Nr. 1
 jurisdiktion: sg
 jahre:
-- 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/044_1.pdf.ocFile/044_1.pdf
 raw: raw/sg/dauernd/sg-stb-44-1.pdf
@@ -13,6 +13,8 @@ sha256: 5277877fe8e9a9b7137b393a2b2b57c475671b56abdb071fad30ef78a9ce07c3
 abgerufen: '2026-11-09'
 seiten: 8
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2026-01-01'
 ---
 # StB 44 Nr. 1 Verwaltungskosten bewegliches Privatvermögen
 

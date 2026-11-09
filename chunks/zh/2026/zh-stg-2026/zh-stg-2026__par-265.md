@@ -9,7 +9,7 @@ artikel: "§ 265"
 seiten: "90"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 265 StG ZH – I. Ausführungsbestimmungen · S. 90
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 265 StG ZH – I. Ausführungsbestimmungen · S. 90
 
 ### § 265 StG ZH – I. Ausführungsbestimmungen
 

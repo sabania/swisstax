@@ -8,7 +8,7 @@ titel: "Art. 5 VKP – Aufhebung eines anderen Erlasses"
 artikel: "Art. 5"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2026 · VKP · Art. 5 Aufhebung eines anderen Erlasses
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2026 · VKP · Art. 5 Aufhebung eines anderen Erlasses
 
 ### Art. 5 VKP – Aufhebung eines anderen Erlasses
 

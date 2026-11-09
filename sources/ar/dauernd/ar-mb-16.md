@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/16_Ermittlung_des_Mietwertes_beilandwirtschaftlichenLiegenschaften.pdf
 raw: raw/ar/dauernd/ar-mb-16.pdf
@@ -13,6 +14,8 @@ sha256: a05d3d046d928daad09571e6981c0a9d73c96d41869bc6f4c8a946eca27929ac
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2020-08-13'
 ---
 # Merkblatt 16: Ermittlung des Mietwertes bei landwirtschaftlichen Liegenschaften
 

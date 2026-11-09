@@ -2,14 +2,14 @@
 id: bund-ks-37__c0013
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.4 Sperrfrist sowie Vesting / Vestingperiode"
 ziffer: "2.4"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 2 Begriffe › 2.4 Sperrfrist, Vesting · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 2 Begriffe › 2.4 Sperrfrist, Vesting · S. 6
 
 2.4   Sperrfrist sowie Vesting / Vestingperiode
 Unter einer Sperrfrist ist eine in der Regel zeitlich befristete Verfügungssperre auf vertragli-

@@ -1,108 +1,110 @@
 {
-"id": "sg-steuerfuesse-2026",
-"hinweise": [
-"Seiten 2-4: Fussnotenziffern (Zeichenerklärung 1-4) stehen als separate Zeilen über der Gemeinde; Zuordnung nur aus Position erkennbar. Zeilen 97-98 und 101-102 etc. enthalten Ziffer-Zeilen."
-],
-"chunks": [
-{
-"start": 16,
-"titel": "Steuerfüsse SG 2026 – Bemerkungen: Kantonssteuer 105 %, Zeichenerklärung",
-"pfad": [
-"Steuerfüsse 2026",
-"Bemerkungen"
-],
-"stichworte": [
-"Steuerfuss",
-"Kantonssteuer 105 Prozent",
-"christkatholisch 24 Prozent",
-"Zentralsteuer",
-"St. Gallen"
-],
-"positionen": [
-"berechnung.total"
-],
-"zusammenfassung": "Steuerfuss in Prozent der einfachen Steuer; Kantonssteuer 105 Prozent; christkatholische Kirchgemeinde 24 Prozent im ganzen Kanton."
-},
-{
-"start": 45,
-"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 1 (St. Gallen, Wittenbach bis St. Margrethen)",
-"pfad": [
-"Steuerfüsse 2026",
-"Tabelle Seite 1"
-],
-"stichworte": [
-"Steuerfuss St. Gallen",
-"Gesamtsteuerfuss",
-"Goldach",
-"Rorschach",
-"Wittenbach",
-"Grundsteuersatz"
-],
-"positionen": [
-"berechnung.total"
-],
-"zusammenfassung": "St. Gallen politischer Steuerfuss 138 %, Gesamtsteuerfuss katholisch 269 %, evangelisch 268 %; Mörschwil 67 % (188/199)."
-},
-{
-"start": 78,
-"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 2 (Au bis Walenstadt)",
-"pfad": [
-"Steuerfüsse 2026",
-"Tabelle Seite 2"
-],
-"stichworte": [
-"Steuerfuss Altstätten",
-"Buchs",
-"Wartau",
-"Mels",
-"Bad Ragaz",
-"Heerbrugg",
-"Sargans"
-],
-"positionen": [
-"berechnung.total"
-],
-"zusammenfassung": "Tabelle der Steuerfüsse Au bis Walenstadt, z.B. Balgach 61 % (183/191), Wartau 145 % (274/278)."
-},
-{
-"start": 128,
-"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 3 (Quarten bis Mosnang)",
-"pfad": [
-"Steuerfüsse 2026",
-"Tabelle Seite 3"
-],
-"stichworte": [
-"Steuerfuss Rapperswil-Jona",
-"Uznach",
-"Wattwil",
-"Ebnat-Kappel",
-"Lütisburg",
-"Gommiswald"
-],
-"positionen": [
-"berechnung.total"
-],
-"zusammenfassung": "Tabelle der Steuerfüsse Quarten bis Mosnang, z.B. Rapperswil-Jona 74 % (198/199), Lütisburg 155 % (284/288)."
-},
-{
-"start": 177,
-"titel": "Steuerfüsse SG 2026 – Gemeinden Seite 4 (Kirchberg bis Gaiserwald) und Stand",
-"pfad": [
-"Steuerfüsse 2026",
-"Tabelle Seite 4"
-],
-"stichworte": [
-"Steuerfuss Wil",
-"Gossau",
-"Uzwil",
-"Flawil",
-"Degersheim",
-"Gaiserwald"
-],
-"positionen": [
-"berechnung.total"
-],
-"zusammenfassung": "Tabelle der Steuerfüsse Kirchberg bis Gaiserwald, z.B. Zuzwil 77 % (203/205), Degersheim 138 % (268/271); Stand 30.9.2026."
-}
-]
+ "id": "sg-steuerfuesse-2026",
+ "hinweise": [
+  "Seiten 2-4: Fussnotenziffern (Zeichenerklärung 1-4) stehen als separate Zeilen über der Gemeinde; Zuordnung nur aus Position erkennbar. Zeilen 97-98 und 101-102 etc. enthalten Ziffer-Zeilen."
+ ],
+ "chunks": [
+  {
+   "start": 1,
+   "titel": "Steuerfüsse SG 2026 – Bemerkungen: Kantonssteuer 105 %, Zeichenerklärung",
+   "pfad": [
+    "Steuerfüsse 2026",
+    "Bemerkungen"
+   ],
+   "stichworte": [
+    "Steuerfuss",
+    "Kantonssteuer 105 Prozent",
+    "christkatholisch 24 Prozent",
+    "Zentralsteuer",
+    "St. Gallen"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Steuerfuss in Prozent der einfachen Steuer; Kantonssteuer 105 Prozent; christkatholische Kirchgemeinde 24 Prozent im ganzen Kanton."
+  },
+  {
+   "start": 30,
+   "titel": "Steuerfüsse SG 2026 – Gemeinden Seite 1 (St. Gallen, Wittenbach bis St. Margrethen)",
+   "pfad": [
+    "Steuerfüsse 2026",
+    "Tabelle Seite 1"
+   ],
+   "stichworte": [
+    "Steuerfuss St. Gallen",
+    "Gesamtsteuerfuss",
+    "Goldach",
+    "Rorschach",
+    "Wittenbach",
+    "Grundsteuersatz"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "St. Gallen politischer Steuerfuss 138 %, Gesamtsteuerfuss katholisch 269 %, evangelisch 268 %; Mörschwil 67 % (188/199)."
+  },
+  {
+   "start": 63,
+   "titel": "Steuerfüsse SG 2026 – Gemeinden Seite 2 (Au bis Walenstadt)",
+   "pfad": [
+    "Steuerfüsse 2026",
+    "Tabelle Seite 2"
+   ],
+   "stichworte": [
+    "Steuerfuss Altstätten",
+    "Buchs",
+    "Wartau",
+    "Mels",
+    "Bad Ragaz",
+    "Heerbrugg",
+    "Sargans"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Tabelle der Steuerfüsse Au bis Walenstadt, z.B. Balgach 61 % (183/191), Wartau 145 % (274/278)."
+  },
+  {
+   "start": 113,
+   "titel": "Steuerfüsse SG 2026 – Gemeinden Seite 3 (Quarten bis Mosnang)",
+   "pfad": [
+    "Steuerfüsse 2026",
+    "Tabelle Seite 3"
+   ],
+   "stichworte": [
+    "Steuerfuss Rapperswil-Jona",
+    "Uznach",
+    "Wattwil",
+    "Ebnat-Kappel",
+    "Lütisburg",
+    "Gommiswald"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Tabelle der Steuerfüsse Quarten bis Mosnang, z.B. Rapperswil-Jona 74 % (198/199), Lütisburg 155 % (284/288)."
+  },
+  {
+   "start": 162,
+   "titel": "Steuerfüsse SG 2026 – Gemeinden Seite 4 (Kirchberg bis Gaiserwald) und Stand",
+   "pfad": [
+    "Steuerfüsse 2026",
+    "Tabelle Seite 4"
+   ],
+   "stichworte": [
+    "Steuerfuss Wil",
+    "Gossau",
+    "Uzwil",
+    "Flawil",
+    "Degersheim",
+    "Gaiserwald"
+   ],
+   "positionen": [
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Tabelle der Steuerfüsse Kirchberg bis Gaiserwald, z.B. Zuzwil 77 % (203/205), Degersheim 138 % (268/271); Stand 30.9.2026."
+  }
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

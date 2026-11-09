@@ -2,14 +2,14 @@
 id: bund-ks-17__c0012
 quelle: bund-ks-17
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. II.2.3 a) Einkauf nach WEF-Vorbezug – Sperre und Dreijahresfrist"
 ziffer: "II.2.3 a"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 2 Steuerliche Auswirkungen › 2.3 Einkauf von Beitragsjahren · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 17 · II 2. Säule › 2 Steuerliche Auswirkungen › 2.3 Einkauf von Beitragsjahren · S. 6
 
 2.3.   Einkauf von Beitragsjahren
 

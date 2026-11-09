@@ -8,7 +8,7 @@ titel: "Art. 61b DBG – Besteuerung stiller Reserven am Ende der Steuerpflicht"
 artikel: "Art. 61b"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 61b Besteuerung stiller Reserven am Ende der Steuerpflicht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 61b Besteuerung stiller Reserven am Ende der Steuerpflicht
 
 ### Art. 61b DBG – Besteuerung stiller Reserven am Ende der Steuerpflicht
 

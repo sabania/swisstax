@@ -8,7 +8,7 @@ titel: "Art. 22 bis StG SG – c) Kollektive Kapitalanlagen"
 artikel: "Art. 22 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 22 bis c) Kollektive Kapitalanlagen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 22 bis c) Kollektive Kapitalanlagen
 
 ### Art. 22 bis StG SG – c) Kollektive Kapitalanlagen
 

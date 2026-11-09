@@ -8,7 +8,7 @@ titel: "Art. 42 StG AR – I. Steuerobjekt"
 artikel: "Art. 42"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 42 I. Steuerobjekt
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 42 I. Steuerobjekt
 
 ### Art. 42 StG AR – I. Steuerobjekt
 

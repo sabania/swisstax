@@ -8,7 +8,7 @@ titel: "Art. 79 DBG – Steuerperiode"
 artikel: "Art. 79"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Vierter Titel: Zeitliche Bemessung › Art. 79 Steuerperiode
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Vierter Titel: Zeitliche Bemessung › Art. 79 Steuerperiode
 
 ### Art. 79 DBG – Steuerperiode
 

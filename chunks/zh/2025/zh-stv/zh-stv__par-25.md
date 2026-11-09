@@ -9,7 +9,7 @@ artikel: "§ 25"
 seiten: "5"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › E. Verfahrenskosten in Verwaltungsverfahren › § 25 StV ZH – 9. Kostenerlass wegen Bedürftigkeit · S. 5
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › E. Verfahrenskosten in Verwaltungsverfahren › § 25 StV ZH – 9. Kostenerlass wegen Bedürftigkeit · S. 5
 
 ### § 25 StV ZH – 9. Kostenerlass wegen Bedürftigkeit
 

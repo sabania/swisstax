@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 4.1 A/B Privat- und Geschäftsschulden (Codes 455/286, 460/288)",
    "pfad": [
     "Schuldenverzeichnis",
@@ -29,7 +29,7 @@
    "zusammenfassung": "Privatschulden (Codes 455/286) und Geschäftsschulden (460/288) mit Gläubiger, Schuld am 31. Dezember, Zinssatz und fälligen Schuldzinsen."
   },
   {
-   "start": 62,
+   "start": 47,
    "titel": "Formular 4.1 C Zusammenzug Schulden (Codes 466/290) – Übertrag Ziff. 34 / Ziff. 11",
    "pfad": [
     "Schuldenverzeichnis",
@@ -49,5 +49,7 @@
    ],
    "zusammenfassung": "Total Privat- und Geschäftsschulden (Code 466) und fällige Schuldzinsen 2025 (Code 290), Übertrag in Steuererklärung Seite 4 Ziffer 34 bzw. Seite 3 Ziffer 11."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

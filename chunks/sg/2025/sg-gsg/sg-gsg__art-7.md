@@ -2,13 +2,13 @@
 id: sg-gsg__art-7
 quelle: sg-gsg
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 7 GGS SG – Mitwirkung des Eigentümers"
 artikel: "Art. 7"
-qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: sg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025/2026 · GGS SG · II. Durchführung › Art. 7 Mitwirkung des Eigentümers
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · GGS SG · II. Durchführung › Art. 7 Mitwirkung des Eigentümers
 
 ### Art. 7 GGS SG – Mitwirkung des Eigentümers
 

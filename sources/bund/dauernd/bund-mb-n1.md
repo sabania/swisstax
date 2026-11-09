@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/GZQy304UTaia/dbst-mb-n1-2007-de.pdf
 raw: raw/bund/dauernd/bund-mb-n1.pdf
@@ -13,6 +14,8 @@ sha256: 8089d88d76e2b2514a1087b18d69ebf2e0b7dca555e91fd6252261f6675bee7e
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2022-01-01'
 ---
 # Merkblatt N1/2007: Naturalbezüge Selbständigerwerbende
 

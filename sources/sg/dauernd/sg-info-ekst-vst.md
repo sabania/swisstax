@@ -6,12 +6,14 @@ jurisdiktion: sg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: info
 quelle_url: https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html
 raw: raw/sg/dauernd/sg-info-ekst-vst.html
 sha256: c081baf763cca83175fa1bf33c8385253c328a7670bccaa4d8aee738ab1cdda5
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 

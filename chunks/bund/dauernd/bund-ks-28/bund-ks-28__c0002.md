@@ -2,14 +2,14 @@
 id: bund-ks-28__c0002
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Wortlaut Art. 37b DBG Liquidationsgewinne (Teil 1/2)"
 ziffer: "1 (Art. 37b)"
 seiten: "2-3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Kreisschreiben · S. 2–3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Kreisschreiben · S. 2–3
 
 Art. 37b   Liquidationsgewinne
 1

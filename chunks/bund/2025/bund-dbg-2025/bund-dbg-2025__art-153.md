@@ -8,7 +8,7 @@ titel: "Art. 153 DBG – Verfahren"
 artikel: "Art. 153"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 3. Kapitel: Nachsteuern › Art. 153 Verfahren
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 3. Kapitel: Nachsteuern › Art. 153 Verfahren
 
 ### Art. 153 DBG – Verfahren
 

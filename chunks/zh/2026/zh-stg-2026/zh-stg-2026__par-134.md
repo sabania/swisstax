@@ -9,7 +9,7 @@ artikel: "§ 134"
 seiten: "58-59"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 134 StG ZH – b. Beilagen zur Steuererklärung · S. 58–59
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 134 StG ZH – b. Beilagen zur Steuererklärung · S. 58–59
 
 ### § 134 StG ZH – b. Beilagen zur Steuererklärung
 

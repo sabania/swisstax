@@ -8,7 +8,7 @@ titel: "Art. 256 StG SG – b) Bussenverfügung"
 artikel: "Art. 256"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 256 b) Bussenverfügung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 256 b) Bussenverfügung
 
 ### Art. 256 StG SG – b) Bussenverfügung
 

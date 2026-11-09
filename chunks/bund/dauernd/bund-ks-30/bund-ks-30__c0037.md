@@ -2,14 +2,14 @@
 id: bund-ks-30__c0037
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8.3 Erwerbsunfähigkeit (Art. 7 ATSG)"
 ziffer: "8.3"
 seiten: "13"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.3 Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit · S. 13
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.3 Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit · S. 13
 
 Die Definition der Erwerbsunfähigkeit richtet sich nach dem Bundesgesetz vom 6. Oktober
 2002 über den Allgemeinen Teil des Sozialversicherungsrechts (ATSG). Als Erwerbsunfä-

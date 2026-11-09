@@ -8,7 +8,7 @@ titel: "Art. 3 DBG (Teil 1/2)"
 artikel: "Art. 3"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerliche Zugehörigkeit › 1. Abschnitt: Persönliche Zugehörigkeit › Art. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerliche Zugehörigkeit › 1. Abschnitt: Persönliche Zugehörigkeit › Art. 3
 
 ### Art. 3 DBG
 

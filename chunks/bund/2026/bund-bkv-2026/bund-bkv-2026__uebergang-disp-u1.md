@@ -2,13 +2,13 @@
 id: bund-bkv-2026__uebergang-disp-u1
 quelle: bund-bkv-2026
 jur: bund
-jahre: [2026]
+jahre: [2026, 2027]
 typ: verordnung
 titel: "Übergangsbestimmung zur Änderung vom 3. November 2006 BKV"
 artikel: "Übergangsbestimmung zur Änderung vom 3. November 2006"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2026 · BKV · Übergangsbestimmung zur Änderung vom 3. November 2006
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2026/2027 · BKV · Übergangsbestimmung zur Änderung vom 3. November 2006
 
 ### Übergangsbestimmung zur Änderung vom 3. November 2006 BKV
 

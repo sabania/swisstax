@@ -9,7 +9,7 @@ artikel: "§ 113a"
 seiten: "53"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 113a StG ZH – III. Unvereinbarkeit; Offenlegung von Interessenbindungen · S. 53
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 113a StG ZH – III. Unvereinbarkeit; Offenlegung von Interessenbindungen · S. 53
 
 ### § 113a StG ZH – III. Unvereinbarkeit; Offenlegung von Interessenbindungen
 

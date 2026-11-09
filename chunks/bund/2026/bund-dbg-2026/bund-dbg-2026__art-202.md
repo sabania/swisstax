@@ -8,7 +8,7 @@ titel: "Art. 202 DBG – Änderung des MVG"
 artikel: "Art. 202"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Teil: Schlussbestimmungen › Dritter Titel: Aufhebung und Änderung bisherigen Rechts › Art. 202 Änderung des MVG
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Teil: Schlussbestimmungen › Dritter Titel: Aufhebung und Änderung bisherigen Rechts › Art. 202 Änderung des MVG
 
 ### Art. 202 DBG – Änderung des MVG
 

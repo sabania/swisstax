@@ -8,7 +8,7 @@ titel: "Art. 99 DBG – Abgegoltene Steuer"
 artikel: "Art. 99"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 99 Abgegoltene Steuer
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 99 Abgegoltene Steuer
 
 ### Art. 99 DBG – Abgegoltene Steuer
 

@@ -8,7 +8,7 @@ titel: "Art. 202 StG AR – IV. Behörden"
 artikel: "Art. 202"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › G. Inventar › Art. 202 IV. Behörden
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › G. Inventar › Art. 202 IV. Behörden
 
 ### Art. 202 StG AR – IV. Behörden
 

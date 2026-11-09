@@ -8,7 +8,7 @@ titel: "Art. 122 bis StG SG – Der Quellensteuerpflicht unterliegende Personen"
 artikel: "Art. 122 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › (2.3.2 bis .) IIbis. Natürliche Personen mit kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit * › Art. 122 bis Der Quellensteuerpflicht unterliegende Personen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › (2.3.2 bis .) IIbis. Natürliche Personen mit kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit * › Art. 122 bis Der Quellensteuerpflicht unterliegende Personen
 
 ### Art. 122 bis StG SG – Der Quellensteuerpflicht unterliegende Personen
 

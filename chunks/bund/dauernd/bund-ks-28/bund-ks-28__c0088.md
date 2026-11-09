@@ -2,14 +2,14 @@
 id: bund-ks-28__c0088
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Tod eines Gesellschafters – keine Regelung, Nachfolgeklausel (Teil 3/3)"
 ziffer: "Anhang III"
 seiten: "31-32"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang III Personengesellschaft · S. 31–32
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang III Personengesellschaft · S. 31–32
 
  2. Nachfolgeklausel   2.A) Es kann vorgängig vereinbart werden,   2.A) Die Erbengemeinschaft tritt an-   2.A) Die Erbengemeinschaft führt die
     dass die Gesellschaft mit allen Erben (einfa-   stelle des Erblassers in die Gesell-   Gesellschaft fort = „Fortführung“, Ar-

@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/02_Kinderabzug_ab_2020.pdf
 raw: raw/ar/dauernd/ar-mb-02.pdf
@@ -13,6 +14,8 @@ sha256: 8a48257f1e4c51d255810cb0e54d6040a19d48a0a8cf19f8abfccbd32fd9176d
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2026-08-18'
 ---
 # Merkblatt 02: Kinderabzug (Fassung 25.9.2025)
 

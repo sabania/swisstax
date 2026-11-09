@@ -9,7 +9,7 @@ ziffer: "4.3.4"
 seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8–9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8–9
 
 4.3.4   Kosten für Heim- und Entlastungsaufenthalte
 Die Kosten, Taxen und Gebühren für den Aufenthalt in einem Wohnheim für Personen mit

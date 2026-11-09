@@ -8,7 +8,7 @@ titel: "Art. 264 StG SG – Gerichtliche Beurteilung durch die Verwaltungsrekurs
 artikel: "Art. 264"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 264 Gerichtliche Beurteilung durch die Verwaltungsrekurskommission a) Einsprache
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 264 Gerichtliche Beurteilung durch die Verwaltungsrekurskommission a) Einsprache
 
 ### Art. 264 StG SG – Gerichtliche Beurteilung durch die Verwaltungsrekurskommission a) Einsprache
 

@@ -9,7 +9,7 @@ artikel: "§ 185"
 seiten: "72"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Steuererlass › § 185 StG ZH – 2. Rekurs · S. 72
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Steuererlass › § 185 StG ZH – 2. Rekurs · S. 72
 
 ### § 185 StG ZH – 2. Rekurs
 

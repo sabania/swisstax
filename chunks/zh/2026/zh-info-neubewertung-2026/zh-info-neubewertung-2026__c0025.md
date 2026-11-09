@@ -7,7 +7,7 @@ typ: info
 titel: "Abschaffung Eigenmietwert – Übergangsregelung"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: info}}
 ---
-> ZH · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Abschaffung Eigenmietwert – Übergangsregelung
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Abschaffung Eigenmietwert – Übergangsregelung
 
 - Für Liegenschaften mit Erstellungsjahr vor 31.12.2025 sind keine neuen Eigenmietwerte festzusetzen und es gelten weiterhin die bisherigen Eigenmietwerte gemäss Weisung 2009.
 - Für Liegenschaften mit Erstellungsjahr ab 1.1.2026 sind die Eigenmietwerte gemäss Weisung 2026 zu ermitteln. Auf den so ermittelten Werten ist ein Pauschalabzug von 10% vorzunehmen.

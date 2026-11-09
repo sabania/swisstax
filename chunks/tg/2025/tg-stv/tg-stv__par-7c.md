@@ -8,7 +8,7 @@ titel: "§ 7c StV TG – Auf die beiden nachfolgenden Steuerperioden übertragba
 artikel: "§ 7c"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 7c Auf die beiden nachfolgenden Steuerperioden übertragbare Kosten
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 7c Auf die beiden nachfolgenden Steuerperioden übertragbare Kosten
 
 ### § 7c StV TG – Auf die beiden nachfolgenden Steuerperioden übertragbare Kosten
 

@@ -2,13 +2,13 @@
 id: tg-steuerfuesse-2026__c0020
 quelle: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 typ: steuerfuss
 titel: "Steuerkraft über zwanzig Jahre – Streuung der Gemeinden (Grafik)"
 seiten: "6"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
+qmd: {metadata: {jur: tg, jahre: [2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Steuerkraft · S. 6
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Steuerkraft · S. 6
 
 6   Statistische Mitteilung 3/2026
 

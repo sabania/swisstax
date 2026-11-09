@@ -2,13 +2,13 @@
 id: bund-vstv__art-55-t1
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 55 VStV (Teil 1/2)"
 artikel: "Art. 55"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · I. Berechtigte › 5. Personenver- einigungen und Vermögensmassen ohne Rechts- persönlichkeit › Art. 55
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · I. Berechtigte › 5. Personenver- einigungen und Vermögensmassen ohne Rechts- persönlichkeit › Art. 55
 
 ### Art. 55 VStV
 

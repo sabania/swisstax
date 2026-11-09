@@ -8,7 +8,7 @@ titel: "Art. 207 DBG – Steuerermässigung bei Liquidation von Immobiliengesell
 artikel: "Art. 207"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 207 Steuerermässigung bei Liquidation von Immobiliengesellschaften
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 207 Steuerermässigung bei Liquidation von Immobiliengesellschaften
 
 ### Art. 207 DBG – Steuerermässigung bei Liquidation von Immobiliengesellschaften
 

@@ -8,7 +8,7 @@ titel: "Art. 133 DBG – Fristen"
 artikel: "Art. 133"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 4. Kapitel: Einsprache › Art. 133 Fristen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 4. Kapitel: Einsprache › Art. 133 Fristen
 
 ### Art. 133 DBG – Fristen
 

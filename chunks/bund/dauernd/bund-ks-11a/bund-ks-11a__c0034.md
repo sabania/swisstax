@@ -9,7 +9,7 @@ ziffer: "4.4"
 seiten: "10-11"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.4 Pauschalen · S. 10–11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.4 Pauschalen · S. 10–11
 
 4.4   Pauschalen bei Hilflosenentschädigungen
 Personen mit Behinderung, welche nachfolgende Hilflosenentschädigungen beziehen, können

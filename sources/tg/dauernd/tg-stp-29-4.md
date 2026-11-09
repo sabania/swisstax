@@ -6,12 +6,15 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-29-nr-4-mehrkosten-der-verpflegung
 raw: raw/tg/dauernd/tg-stp-29-4.html
 sha256: 75e4c74391333e399974ac0793214f7f559e80be3c1e7e5eb23fd347869a0a73
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2021-07-01'
 ---
 # StP 29 Nr. 4: Mehrkosten der Verpflegung
 

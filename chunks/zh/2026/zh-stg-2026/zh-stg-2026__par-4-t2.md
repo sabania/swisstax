@@ -9,7 +9,7 @@ artikel: "§ 4"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 4 StG ZH – II. Wirtschaftliche Zugehörigkeit · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 4 StG ZH – II. Wirtschaftliche Zugehörigkeit · S. 2
 
 ### § 4 StG ZH – II. Wirtschaftliche Zugehörigkeit (Fortsetzung)
 

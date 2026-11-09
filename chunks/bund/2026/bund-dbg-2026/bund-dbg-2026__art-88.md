@@ -8,7 +8,7 @@ titel: "Art. 88 DBG – Pflichten des Schuldners der steuerbaren Leistung"
 artikel: "Art. 88"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 88 Pflichten des Schuldners der steuerbaren Leistung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 88 Pflichten des Schuldners der steuerbaren Leistung
 
 ### Art. 88 DBG – Pflichten des Schuldners der steuerbaren Leistung
 

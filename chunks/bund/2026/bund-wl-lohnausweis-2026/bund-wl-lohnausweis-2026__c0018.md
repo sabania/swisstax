@@ -9,7 +9,7 @@ ziffer: "2.1 / 20"
 seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2.1 · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2.1 · S. 10
 
 Verpflegung und Unterkunft (Zimmer)   Ziffer 2.1
 

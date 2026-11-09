@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-ssk-ks27-mb-sz
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt SZ zu SSK-KS 27: Anrechnung von Ausscheidungsverlusten"
 generiert: tools/build_index.py
 ---
 # SSK-KS 27 (MB SZ): Merkblatt SZ zu SSK-KS 27: Anrechnung von Ausscheidungsverlusten
 
-- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://www.sz.ch/public/upload/assets/17553/Merkblatt_Anrechnung_von_Ausscheidungsverlusten.pdf?fp=9> · lokal: [bund-ssk-ks27-mb-sz.pdf](../../../raw/bund/dauernd/bund-ssk-ks27-mb-sz.pdf) · Volltext: [bund-ssk-ks27-mb-sz.md](../../../sources/bund/dauernd/bund-ssk-ks27-mb-sz.md)
 - **Abgerufen:** 2026-11-09 · sha256 `161515dbbf408737…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2010-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ssk-ks27-mb-sz`).
+
+- [wiki/themen/interkantonale-ausscheidung.md](../../themen/interkantonale-ausscheidung.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

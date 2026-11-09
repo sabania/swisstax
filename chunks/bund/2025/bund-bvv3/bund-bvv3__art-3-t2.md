@@ -2,13 +2,13 @@
 id: bund-bvv3__art-3-t2
 quelle: bund-bvv3
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 3 BVV 3 – Ausrichtung der Leistungen (Teil 2/2)"
 artikel: "Art. 3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 3 Ausrichtung der Leistungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 3 Ausrichtung der Leistungen
 
 ### Art. 3 BVV 3 – Ausrichtung der Leistungen (Fortsetzung)
 

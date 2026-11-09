@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2024-01-01
 - **Original:** <https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.12/versions/2724> · lokal: [tg-schaev.json](../../../raw/tg/2025/tg-schaev.json) · Volltext: [tg-schaev.md](../../../sources/tg/2025/tg-schaev.md)
 - **Abgerufen:** 2026-11-09 · sha256 `ea49ce4bfdc90acd…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2024-01-01 bis offen
 
 ## Inhalt (27 Chunks)
 

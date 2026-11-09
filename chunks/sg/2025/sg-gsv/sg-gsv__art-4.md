@@ -8,7 +8,7 @@ titel: "Art. 4 VGS SG – Fachdienst für Grundstückschätzung"
 artikel: "Art. 4"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · II. Organisation › Art. 4 Fachdienst für Grundstückschätzung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · II. Organisation › Art. 4 Fachdienst für Grundstückschätzung
 
 ### Art. 4 VGS SG – Fachdienst für Grundstückschätzung
 

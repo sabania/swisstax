@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0009
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.2.3 Keine Einkünfte aus Beteiligungsrechten; Ziff. 2.3 Umqualifikation in Erwerbseinkommen"
 ziffer: "2.2.3 / 2.3"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · 2 Teilbesteuerung › 2.2.3 / 2.3 · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · 2 Teilbesteuerung › 2.2.3 / 2.3 · S. 4
 
 Keine Einkünfte aus Beteiligungsrechten sind insbesondere:
 

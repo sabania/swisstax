@@ -2,14 +2,14 @@
 id: bund-ks-28__c0011
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3 Liquidation – Liquidationsjahr und Abschluss"
 ziffer: "3"
 seiten: "4-5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Kreisschreiben · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Kreisschreiben · S. 4–5
 
 3.   Liquidation
 

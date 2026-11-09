@@ -8,7 +8,7 @@ titel: "Art. 6 GSV AR – Neuschätzung von Amtes wegen"
 artikel: "Art. 6"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 6 Neuschätzung von Amtes wegen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 6 Neuschätzung von Amtes wegen
 
 ### Art. 6 GSV AR – Neuschätzung von Amtes wegen
 

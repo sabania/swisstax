@@ -9,7 +9,7 @@ artikel: "§ 53"
 seiten: "27"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › E. Zeitliche Bemessung › § 53 StG ZH – V. Steuerfüsse · S. 27
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › E. Zeitliche Bemessung › § 53 StG ZH – V. Steuerfüsse · S. 27
 
 ### § 53 StG ZH – V. Steuerfüsse
 

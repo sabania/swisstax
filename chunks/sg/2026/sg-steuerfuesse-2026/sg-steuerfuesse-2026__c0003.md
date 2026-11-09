@@ -8,7 +8,7 @@ titel: "Steuerfüsse SG 2026 – Gemeinden Seite 2 (Au bis Walenstadt) (Teil 1/2
 seiten: "2"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 2 · S. 2
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 2 · S. 2
 
 Gemeinde   Politische Gemeinde   Kirchgemeinde   Steuerfuss
 

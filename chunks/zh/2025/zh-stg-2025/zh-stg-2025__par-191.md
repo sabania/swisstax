@@ -9,7 +9,7 @@ artikel: "§ 191"
 seiten: "73"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 191 StG ZH – c. Bei Steuerpflicht in mehreren Gemeinden · S. 73
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 191 StG ZH – c. Bei Steuerpflicht in mehreren Gemeinden · S. 73
 
 ### § 191 StG ZH – c. Bei Steuerpflicht in mehreren Gemeinden
 

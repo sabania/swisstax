@@ -8,7 +8,7 @@ titel: "§ 21a SchäV TG – Verkehrswert"
 artikel: "§ 21a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 3. Schätzung land- und forstwirtschaftlicher Grundstücke › § 21a Verkehrswert
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 3. Schätzung land- und forstwirtschaftlicher Grundstücke › § 21a Verkehrswert
 
 ### § 21a SchäV TG – Verkehrswert
 

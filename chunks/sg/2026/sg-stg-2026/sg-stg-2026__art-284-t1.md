@@ -8,7 +8,7 @@ titel: "Art. 284 StG SG – e) Kapitalgewinne bei gemischten Beteiligungsgesells
 artikel: "Art. 284"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 284 e) Kapitalgewinne bei gemischten Beteiligungsgesellschaften
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 284 e) Kapitalgewinne bei gemischten Beteiligungsgesellschaften
 
 ### Art. 284 StG SG – e) Kapitalgewinne bei gemischten Beteiligungsgesellschaften
 

@@ -8,7 +8,7 @@ titel: "Art. 148 DBG – Frist"
 artikel: "Art. 148"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 1. Kapitel: Revision › Art. 148 Frist
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 1. Kapitel: Revision › Art. 148 Frist
 
 ### Art. 148 DBG – Frist
 

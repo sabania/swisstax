@@ -9,7 +9,7 @@ artikel: "§ 40"
 seiten: "23"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 40 StG ZH – IV.[^70] Landwirtschaftliche Grundstücke · S. 23
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 40 StG ZH – IV.[^70] Landwirtschaftliche Grundstücke · S. 23
 
 ### § 40 StG ZH – IV.[^70] Landwirtschaftliche Grundstücke
 

@@ -8,7 +8,7 @@ titel: "Art. 29 StG SG – Steuerbare Einkünfte a) Allgemeines"
 artikel: "Art. 29"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 29 Steuerbare Einkünfte a) Allgemeines
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 29 Steuerbare Einkünfte a) Allgemeines
 
 ### Art. 29 StG SG – Steuerbare Einkünfte a) Allgemeines
 

@@ -9,7 +9,7 @@ ziffer: "5.2.2"
 seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 5 Abzugsfähige Kosten › 5.2 Kosten der unterhaltenen Person · S. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 5 Abzugsfähige Kosten › 5.2 Kosten der unterhaltenen Person · S. 12
 
 5.2.2   Übrige unterstützte Personen
 Abgezogen werden können auch die Kosten von weiteren von der steuerpflichtigen Person un

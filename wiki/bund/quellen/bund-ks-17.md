@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-ks-17
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 17: Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge"
 generiert: tools/build_index.py
 ---
 # KS 17: ESTV-Kreisschreiben Nr. 17: Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2007-10-03
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2007-10-03
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/JdJbK10G0lJN/dbst-ks-2007-1-017-d-de.pdf> · lokal: [bund-ks-17.pdf](../../../raw/bund/dauernd/bund-ks-17.pdf) · Volltext: [bund-ks-17.md](../../../sources/bund/dauernd/bund-ks-17.md)
 - **Abgerufen:** 2026-11-09 · sha256 `4168d3612b608447…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2007-10-03 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-17`).
+
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

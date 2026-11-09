@@ -8,7 +8,7 @@ titel: "Art. 222a StG AR – Ablehnungsgründe"
 artikel: "Art. 222a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 222a Ablehnungsgründe
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 222a Ablehnungsgründe
 
 ### Art. 222a StG AR – Ablehnungsgründe
 

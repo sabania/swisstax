@@ -6,7 +6,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular DA-1 2026 – Kopf, Personalien und Antrag auf Anrechnung ausländischer Quellensteuern",
    "pfad": [
     "DA-1",
@@ -27,7 +27,7 @@
    "zusammenfassung": "Ergänzungsblatt zum Wertschriftenverzeichnis 2026: Antrag auf Anrechnung ausländischer Quellensteuern für ausländische Dividenden und Zinsen (Fälligkeiten 2026)."
   },
   {
-   "start": 42,
+   "start": 27,
    "titel": "DA-1 Kapitalanlagen und Erträge (Kolonnen 1–8), Totalzeile und Übertrag ins Wertschriftenverzeichnis",
    "pfad": [
     "DA-1",
@@ -49,7 +49,7 @@
    "zusammenfassung": "Kapitalanlagen mit Steuerwert am 31. Dezember 2026, Bruttoertrag und nicht rückforderbarer ausländischer Steuer; Totale in die Kolonnen des Wertschriftenverzeichnisses zu übertragen."
   },
   {
-   "start": 80,
+   "start": 65,
    "titel": "DA-1 Entscheid und Buchungsanweisung (leer lassen)",
    "pfad": [
     "DA-1",
@@ -63,7 +63,7 @@
    "zusammenfassung": "Amtlicher Teil für Entscheid und Buchung der bewilligten Anrechnung (Bund, Kanton und Gemeinde); vom Antragsteller leer zu lassen."
   },
   {
-   "start": 90,
+   "start": 75,
    "titel": "DA-1 Seite 2 Fragen 1–4 – Besteuerung in der Schweiz, Pauschalsteuer, satzbestimmendes Einkommen, Schuldzinsen",
    "pfad": [
     "DA-1",
@@ -83,7 +83,7 @@
    "zusammenfassung": "Angaben zur Unterstellung unter direkte Bundessteuer und Kantonssteuern, Besteuerung nach dem Aufwand (Art. 14 DBG), satzbestimmendes Einkommen 2026 und bezahlte Schuldzinsen."
   },
   {
-   "start": 117,
+   "start": 102,
    "titel": "DA-1 Vergütung auf Konto und Erklärung des Antragstellers",
    "pfad": [
     "DA-1",
@@ -98,7 +98,7 @@
    "zusammenfassung": "Nicht verrechneter Anrechnungsbetrag wird auf Post- oder Bankkonto (IBAN) vergütet; Antragsteller bestätigt die Richtigkeit durch Unterschrift."
   },
   {
-   "start": 131,
+   "start": 116,
    "titel": "DA-1 Erläuterungen 1–5 – Einreichung, Bagatellgrenze Fr. 100, Lizenzgebühren DA-3",
    "pfad": [
     "DA-1",
@@ -118,5 +118,7 @@
    ],
    "zusammenfassung": "Antrag im Wohnsitzkanton am 31.12.2026 mit Steuererklärung einreichen; übersteigen die nicht rückforderbaren Steuern insgesamt Fr. 100 nicht, wird keine Anrechnung gewährt; Lizenzgebühren auf Formular DA-3."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

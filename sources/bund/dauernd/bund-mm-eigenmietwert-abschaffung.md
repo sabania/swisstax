@@ -3,15 +3,15 @@ id: bund-mm-eigenmietwert-abschaffung
 titel: 'Medienmitteilung Bundesrat: Abschaffung Eigenmietwert per 01.01.2029'
 kurz: MM Eigenmietwert
 jurisdiktion: bund
-jahre:
-- 2025
-- 2026
+jahre: []
 typ: mitteilung
 quelle_url: https://www.admin.ch/de/newnsb/yGTqBPowRqyVh0zPokW-q
 raw: raw/bund/dauernd/bund-mm-eigenmietwert-abschaffung.html
 sha256: 65b125a652730d03ca3e518aad273ea555f5ad1380fa6b6c9fe4f8b7137e76e0
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
+gilt_ab: '2029-01-01'
 ---
 # Medienmitteilung Bundesrat: Abschaffung Eigenmietwert per 01.01.2029
 

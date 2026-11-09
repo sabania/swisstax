@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0041
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 10 Anlage in Wertschriften; Rückerstattung der Verrechnungssteuer"
 ziffer: "10"
 seiten: "12"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 10. Anlage in Wertschriften · S. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 10. Anlage in Wertschriften · S. 12
 
 10. Anlage in Wertschriften; Rückerstattung der Verrechnungssteuer
 Sofern zugunsten der Vorsorgenehmer individuelle Wertschriftendepots eröffnet worden

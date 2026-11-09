@@ -8,7 +8,7 @@ titel: "Art. 145 StG SG – Steuerfreie Vermögensübergänge a) An juristische 
 artikel: "Art. 145"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 145 Steuerfreie Vermögensübergänge a) An juristische Personen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 145 Steuerfreie Vermögensübergänge a) An juristische Personen
 
 ### Art. 145 StG SG – Steuerfreie Vermögensübergänge a) An juristische Personen
 

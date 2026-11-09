@@ -9,7 +9,7 @@ ziffer: "6–7"
 seiten: "11-12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 6. Nachweis › 7. Geltungsbereich · S. 11–12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 6. Nachweis › 7. Geltungsbereich · S. 11–12
 
 6.   Nachweis
 

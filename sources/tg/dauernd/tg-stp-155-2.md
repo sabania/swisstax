@@ -6,12 +6,14 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2025-10/stp-155-nr-2-fristerstreckung-zur-einreichung-der-
 raw: raw/tg/dauernd/tg-stp-155-2.html
 sha256: b07829dc1352fd57645c1f33f708ca6854c20367f6e08c44a3047cb0e52c7c78
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: verfahren
 ---
 # StP 155 Nr. 2: Fristerstreckung zur Einreichung der Steuererklärung
 

@@ -9,7 +9,7 @@ artikel: "§ 170"
 seiten: "69"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 170 StG ZH – I. Gesuch · S. 69
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 170 StG ZH – I. Gesuch · S. 69
 
 ### § 170 StG ZH – I. Gesuch
 

@@ -12,6 +12,7 @@ raw: raw/tg/dauernd/tg-stp-36-1.html
 sha256: 6fe995beea61696de9327ea7e5cb956c0ead47359f8345f2cd07163efe3520b6
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
 ---
 # StP 36 Nr. 1: Sozialabzüge
 

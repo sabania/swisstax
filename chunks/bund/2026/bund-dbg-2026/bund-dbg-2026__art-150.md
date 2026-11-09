@@ -8,7 +8,7 @@ titel: "Art. 150 DBG"
 artikel: "Art. 150"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 2. Kapitel: Berichtigung von Rechnungsfehlern und Schreibversehen › Art. 150
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 2. Kapitel: Berichtigung von Rechnungsfehlern und Schreibversehen › Art. 150
 
 ### Art. 150 DBG
 

@@ -8,7 +8,7 @@ titel: "Art. 184 bis StG SG – 1bis. Pflichten der AHV-Ausgleichskasse bei Quel
 artikel: "Art. 184 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 184 bis 1bis. Pflichten der AHV-Ausgleichskasse bei Quellensteuern auf kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 184 bis 1bis. Pflichten der AHV-Ausgleichskasse bei Quellensteuern auf kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit
 
 ### Art. 184 bis StG SG – 1bis. Pflichten der AHV-Ausgleichskasse bei Quellensteuern auf kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit
 

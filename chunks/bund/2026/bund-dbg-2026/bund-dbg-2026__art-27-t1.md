@@ -8,7 +8,7 @@ titel: "Art. 27 DBG – Allgemeines (Teil 1/2)"
 artikel: "Art. 27"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 27 Allgemeines
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 27 Allgemeines
 
 ### Art. 27 DBG – Allgemeines
 

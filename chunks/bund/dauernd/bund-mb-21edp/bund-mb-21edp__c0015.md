@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0015
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Rz 30–31 Felder t–u: Steuerperiode und bereits geleistete 3a-Beiträge"
 ziffer: "30–31"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 3: Einkäufe Säule 3a · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Erläuterungen › Ziffer 3: Einkäufe Säule 3a · S. 5
 
     Feld t: Steuerperiode
 30   Anzugeben ist die Steuerperiode, für welche der Einkauf in die Säule 3a geleistet wurde.

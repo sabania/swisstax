@@ -2,13 +2,13 @@
 id: bund-wefv__art-5
 quelle: bund-wefv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 5 WEFV – Mindestbetrag und Begrenzung"
 artikel: "Art. 5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · WEFV · 2. Kapitel: Modalitäten › 1. Abschnitt: Vorbezug › Art. 5 Mindestbetrag und Begrenzung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · WEFV · 2. Kapitel: Modalitäten › 1. Abschnitt: Vorbezug › Art. 5 Mindestbetrag und Begrenzung
 
 ### Art. 5 WEFV – Mindestbetrag und Begrenzung
 

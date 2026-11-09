@@ -4,13 +4,17 @@ titel: Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026)
 kurz: MM ZStB 20.01.2026
 jurisdiktion: zh
 jahre:
+- 2025
 - 2026
+- 2027
 typ: mitteilung
 quelle_url: https://www.zh.ch/de/news-uebersicht/mitteilungen/2026/steuern-finanzen/ueberblick-ueber-aenderungen-im-zuercher-steuerbuch-.html
 raw: raw/zh/2026/zh-mm-steuerbuch-2026.html
 sha256: c95a1f1884185e952b2b1b1840224edb59f12df66f751ccc080eceafb78ed2da
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
+gilt_ab: '2026-01-20'
 ---
 # Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026)
 

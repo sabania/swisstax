@@ -12,6 +12,9 @@ raw: raw/zh/dauernd/zh-zstb-139-2.html
 sha256: 6e39d0e4a60d23fff540d31337dec5a90facd72a2768263609a5d7c4814bb297
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: verfahren
+gilt_ab: '2025-07-01'
+ersetzt: zh-zstb-139-2-bis-2025-06
 ---
 # ZStB 139.2: Einschätzung ohne Steuererklärung trotz Mahnung
 

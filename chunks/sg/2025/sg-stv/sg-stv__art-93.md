@@ -8,7 +8,7 @@ titel: "Art. 93 StV SG – Verfahren, Strafanzeige (Art. 255 ff. und 274 StG)"
 artikel: "Art. 93"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · VIERTER TEIL: STEUERSTRAFRECHT › Art. 93 Verfahren, Strafanzeige (Art. 255 ff. und 274 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · VIERTER TEIL: STEUERSTRAFRECHT › Art. 93 Verfahren, Strafanzeige (Art. 255 ff. und 274 StG)
 
 ### Art. 93 StV SG – Verfahren, Strafanzeige (Art. 255 ff. und 274 StG)
 

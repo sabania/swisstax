@@ -2,14 +2,14 @@
 id: bund-ks-45__c0096
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.7 Beispiel 2 – Lohn mit Bonus Vorjahr, Ausscheidung"
 ziffer: "6.7"
 seiten: "31"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.7 Ausscheidung ausländischer Arbeitstage · S. 31
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.7 Ausscheidung ausländischer Arbeitstage · S. 31
 
     2. Arbeitnehmer B. ist internationaler Wochenaufenthalter und erhält im April 2021 einen Bruttolohn in der
     Höhe von CHF 10 000.00 sowie einen Bonus für das Vorjahr in der Höhe von CHF 30 000.00. Im Monat

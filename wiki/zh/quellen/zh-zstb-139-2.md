@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-139-2.html> · lokal: [zh-zstb-139-2.html](../../../raw/zh/dauernd/zh-zstb-139-2.html) · Volltext: [zh-zstb-139-2.md](../../../sources/zh/dauernd/zh-zstb-139-2.md)
 - **Abgerufen:** 2026-11-09 · sha256 `6e39d0e4a60d23ff…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2025-07-01 bis offen · ersetzt `zh-zstb-139-2-bis-2025-06`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-139-2`).
+
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (11 Chunks)
 

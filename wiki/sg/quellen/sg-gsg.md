@@ -2,15 +2,16 @@
 typ: quelle
 id: sg-gsg
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Gesetz über die Durchführung der Grundstückschätzung SG (sGS 814.1) – Version gültig ab 01.01.2001"
 generiert: tools/build_index.py
 ---
 # GGS SG: Gesetz über die Durchführung der Grundstückschätzung SG (sGS 814.1) – Version gültig ab 01.01.2001
 
-- **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Gesetz · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2001-01-01
+- **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Gesetz · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2001-01-01
 - **Original:** <https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/814.1/versions/332> · lokal: [sg-gsg.json](../../../raw/sg/2025/sg-gsg.json) · Volltext: [sg-gsg.md](../../../sources/sg/2025/sg-gsg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `1467d580508fcf2b…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2001-01-01 bis offen
 
 ## Inhalt (20 Chunks)
 

@@ -2,14 +2,14 @@
 id: bund-ks-45__c0049
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.6 Grenzgänger aus Deutschland – Tarife L, M, N, P und Ansässigkeitsbescheinigung"
 ziffer: "4.6"
 seiten: "16-17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.6 Grenzgänger aus Deutschland · S. 16–17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.6 Grenzgänger aus Deutschland · S. 16–17
 
 4.6   Tarife für Grenzgänger aus Deutschland (Tarifcodes L, M, N und P)
 Die Tarifcodes L, M, N und P für Grenzgänger aus Deutschland gelangen ohne Rücksicht

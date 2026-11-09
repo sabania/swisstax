@@ -2,14 +2,14 @@
 id: bund-ks-28__c0040
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Ziff. 1.1 (Forts.) Verzicht auf Privilegierung wegen Vorsorge (Teil 2/2)"
 ziffer: "1.1"
 seiten: "16"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 16
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 16
 
 „Kommt es … zu einem Liquidationsgewinn infolge Aufgabe der selbständigen Erwerbstätig-
 keit oder infolge einer Betriebsübergabe, so fordern die interessierten Wirtschaftskreise und

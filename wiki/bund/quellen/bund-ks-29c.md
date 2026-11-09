@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 29c: Kapitaleinlageprinzip"
 generiert: tools/build_index.py
 ---
 # KS 29c: ESTV-Kreisschreiben Nr. 29c: Kapitaleinlageprinzip
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2022-12-23
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2022-12-23
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/h36nmhxQYuz5/dbst-ks-2022-1-029c-dvs-de.pdf> · lokal: [bund-ks-29c.pdf](../../../raw/bund/dauernd/bund-ks-29c.pdf) · Volltext: [bund-ks-29c.md](../../../sources/bund/dauernd/bund-ks-29c.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c0b160d7ebf862cd…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2023-01-01 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

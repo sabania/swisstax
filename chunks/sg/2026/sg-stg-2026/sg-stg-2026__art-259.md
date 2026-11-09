@@ -8,7 +8,7 @@ titel: "Art. 259 StG SG – 3. Untersuchung"
 artikel: "Art. 259"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 259 3. Untersuchung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 259 3. Untersuchung
 
 ### Art. 259 StG SG – 3. Untersuchung
 

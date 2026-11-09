@@ -7,7 +7,7 @@ typ: info
 titel: "Allgemeine und Sozialabzüge"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Allgemeine und Sozialabzüge
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Allgemeine und Sozialabzüge
 
     Die Steuerverwaltung Thurgau führt ein Verzeichnis von Institutionen, welches Auskunft darüber gibt, an welche Institutionen freiwillige Zuwendungen abzugsfähig sind. Freiwillige Zuwendungen an im Verzeichnis nicht aufgeführte Institutionen werden in der Regel nicht zum Abzug zugelassen.
 

@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2010-11-03'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/geU4pmmZRFPX/dbst-ks-2010-1-028-d-de.pdf
@@ -14,6 +15,8 @@ sha256: 65a00487181abc13b9533a02eb7179acf2f547d613397233cf83b3f5aa17f9bb
 abgerufen: '2026-11-09'
 seiten: 32
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2011-01-01'
 ---
 # ESTV-Kreisschreiben Nr. 28: Liquidationsgewinne bei Aufgabe der selbständigen Erwerbstätigkeit
 

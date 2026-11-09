@@ -8,7 +8,7 @@ titel: "§ 4 StV TG – Feuerwehrsold"
 artikel: "§ 4"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 4 Feuerwehrsold
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 4 Feuerwehrsold
 
 ### § 4 StV TG – Feuerwehrsold
 

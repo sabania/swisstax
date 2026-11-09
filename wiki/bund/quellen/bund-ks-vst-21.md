@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-vst-21
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben VST Nr. 21: Rückerstattungsbelege ausländischer Banken"
 generiert: tools/build_index.py
 ---
 # KS VST 21: ESTV-Kreisschreiben VST Nr. 21: Rückerstattungsbelege ausländischer Banken
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2008-04-01
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2008-04-01
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/a9rZJBTchLio/dbst-ks-2008-1-021-v-de.pdf> · lokal: [bund-ks-vst-21.pdf](../../../raw/bund/dauernd/bund-ks-vst-21.pdf) · Volltext: [bund-ks-vst-21.md](../../../sources/bund/dauernd/bund-ks-vst-21.md)
 - **Abgerufen:** 2026-11-09 · sha256 `97dffa2db6578366…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2008-04-01 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

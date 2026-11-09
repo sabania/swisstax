@@ -9,7 +9,7 @@ artikel: "§ 43"
 seiten: "23-24"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 43 StG ZH – 3. Steuerberechnung · S. 23–24
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 43 StG ZH – 3. Steuerberechnung · S. 23–24
 
 ### § 43 StG ZH – 3. Steuerberechnung
 

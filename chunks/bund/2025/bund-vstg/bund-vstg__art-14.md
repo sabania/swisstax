@@ -2,13 +2,13 @@
 id: bund-vstg__art-14
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 14 VStG"
 artikel: "Art. 14"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · III. Steuerentrichtung › 3. Überwälzung › Art. 14
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · III. Steuerentrichtung › 3. Überwälzung › Art. 14
 
 ### Art. 14 VStG
 

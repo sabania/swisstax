@@ -8,7 +8,7 @@ titel: "Art. 167 StG SG – c) Vertragliche Vertretung"
 artikel: "Art. 167"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 167 c) Vertragliche Vertretung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 167 c) Vertragliche Vertretung
 
 ### Art. 167 StG SG – c) Vertragliche Vertretung
 

@@ -8,7 +8,7 @@ titel: "Art. 238 StG SG – Steuersubjekt"
 artikel: "Art. 238"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Dritter Abschnitt: Grundsteuer › Art. 238 Steuersubjekt
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Dritter Abschnitt: Grundsteuer › Art. 238 Steuersubjekt
 
 ### Art. 238 StG SG – Steuersubjekt
 

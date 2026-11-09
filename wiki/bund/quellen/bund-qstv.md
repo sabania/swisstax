@@ -11,7 +11,14 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-01-10
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/2018/274/20250110/de> · lokal: [bund-qstv.xml](../../../raw/bund/2025/bund-qstv.xml) · Volltext: [bund-qstv.md](../../../sources/bund/2025/bund-qstv.md)
 - **Abgerufen:** 2026-11-09 · sha256 `8a65fe09b79a1844…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-10 bis 2026-12-31
 - ⚠ **Hinweis:** Fassung ab 10.01.2025 (die Fassung 01.–09.01.2025 ist nicht separat erfasst)
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-qstv`).
+
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
 
 ## Inhalt (36 Chunks)
 

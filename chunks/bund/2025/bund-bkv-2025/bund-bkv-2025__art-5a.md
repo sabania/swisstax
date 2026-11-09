@@ -8,7 +8,7 @@ titel: "Art. 5a BKV – Fahrkosten bei der unentgeltlichen privaten Nutzung von 
 artikel: "Art. 5a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 5a Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 5a Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
 
 ### Art. 5a BKV – Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
 

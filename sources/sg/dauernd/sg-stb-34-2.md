@@ -13,6 +13,8 @@ sha256: ae0c8fdc4076e64e2fda2b0c503ccce7881f6d6e5c3bb73aa9e5a1a0ae7babaa
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2025-01-01'
 ---
 # StB 34 Nr. 2 Liegenschaften im Miteigentum
 

@@ -2,14 +2,14 @@
 id: bund-ks-41__c0001
 quelle: bund-ks-41
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Allgemeines und Inkrafttreten (ersetzt KS Nr. 22)"
 ziffer: "1"
 seiten: "1-2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 41 · 1. Allgemeines und Inkrafttreten · S. 1–2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 41 · 1. Allgemeines und Inkrafttreten · S. 1–2
 
 1. Allgemeines und Inkrafttreten
 

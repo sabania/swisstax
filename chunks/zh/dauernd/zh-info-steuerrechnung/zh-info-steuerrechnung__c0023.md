@@ -7,7 +7,7 @@ typ: info
 titel: "Zinssätze"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Zahlung der Steuerrechnung › Zinssätze
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Zahlung der Steuerrechnung › Zinssätze
 
 ### Zinssätze
 

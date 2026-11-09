@@ -8,7 +8,7 @@ titel: "Art. 205c DBG"
 artikel: "Art. 205c"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205c
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205c
 
 ### Art. 205c DBG
 

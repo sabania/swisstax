@@ -9,7 +9,7 @@ artikel: "§ 272"
 seiten: "91"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 272 StG ZH – 5. Beiträge an Einrichtungen der beruflichen Vorsorge für den Einkauf von Beitragsjahren · S. 91
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 272 StG ZH – 5. Beiträge an Einrichtungen der beruflichen Vorsorge für den Einkauf von Beitragsjahren · S. 91
 
 ### § 272 StG ZH – 5. Beiträge an Einrichtungen der beruflichen Vorsorge für den Einkauf von Beitragsjahren
 

@@ -2,14 +2,14 @@
 id: bund-ks-37__c0014
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.5 Realisation und 2.6 Umrechnung von Fremdwährungen"
 ziffer: "2.5 / 2.6"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 2 Begriffe › 2.5 Realisation / 2.6 Fremdwährungen · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 2 Begriffe › 2.5 Realisation / 2.6 Fremdwährungen · S. 6
 
 2.5   Realisation
 Wird in diesem Kreisschreiben von Realisation von Mitarbeiterbeteiligungen gesprochen,

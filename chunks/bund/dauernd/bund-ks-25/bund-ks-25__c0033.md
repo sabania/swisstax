@@ -2,14 +2,14 @@
 id: bund-ks-25__c0033
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.5 Sitzverlegung oder Expatriierung von KKA"
 ziffer: "5.5"
 seiten: "10"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 5 Spezialfragen › 5.5 · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 5 Spezialfragen › 5.5 · S. 10
 
 5.5   Sitzverlegung oder Expatriierung von kollektiven Kapitalanlagen
 Die Sitzverlegung hat im Unterschied zur Verrechnungssteuer keine direktsteuerlichen Fol-

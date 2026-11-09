@@ -2,14 +2,14 @@
 id: bund-ks-37__c0037
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.2.2 Quellenbesteuerung – Übersicht Arbeitnehmer (Wohnsitz Schweiz/Ausland)"
 ziffer: "7.2.2"
 seiten: "12-13"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.2 Quellenbesteuerung Mitarbeiteraktien › 7.2.2 Quellenbesteuerung · S. 12–13
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 7 Internationales Verhältnis › 7.2 Quellenbesteuerung Mitarbeiteraktien › 7.2.2 Quellenbesteuerung · S. 12–13
 
 7.2.2 Quellenbesteuerung
 Im internationalen Verhältnis ist zu berücksichtigen, dass der Empfänger der Mitarbeiterak-

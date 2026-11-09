@@ -11,6 +11,15 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2026 · **Stand:** 2026-01-01
 - **Original:** <https://sg.lexwork.naz.ch/de/dta/811.12.pdf> · lokal: [sg-vkp.pdf](../../../raw/sg/2026/sg-vkp.pdf) · Volltext: [sg-vkp.md](../../../sources/sg/2026/sg-vkp.md)
 - **Abgerufen:** 2026-11-09 · sha256 `9b3974653efbdb72…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-vkp`).
+
+- `data/werte/sg/2026.yaml#59:tarif.steuerfrei_alleinstehend` (agent-geprueft)
+- [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

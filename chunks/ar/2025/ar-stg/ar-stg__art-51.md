@@ -8,7 +8,7 @@ titel: "Art. 51 StG AR – V. Steuerberechnung 1. Steuerfreie Beträge"
 artikel: "Art. 51"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 51 V. Steuerberechnung 1. Steuerfreie Beträge
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 51 V. Steuerberechnung 1. Steuerfreie Beträge
 
 ### Art. 51 StG AR – V. Steuerberechnung 1. Steuerfreie Beträge
 

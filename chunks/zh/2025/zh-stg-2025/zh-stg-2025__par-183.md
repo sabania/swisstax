@@ -9,7 +9,7 @@ artikel: "§ 183"
 seiten: "72"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Steuererlass › § 183 StG ZH – I. Voraussetzungen · S. 72
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Steuererlass › § 183 StG ZH – I. Voraussetzungen · S. 72
 
 ### § 183 StG ZH – I. Voraussetzungen
 

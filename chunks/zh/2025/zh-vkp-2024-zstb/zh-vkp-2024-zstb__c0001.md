@@ -9,7 +9,7 @@ ziffer: "§ 24"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 24 · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 24 · S. 1
 
 > Kanton Zürich (ZH) · Verordnung · Quelle: <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-48-1/zstb-nr-48-1_gueltig-ab-01-01-2024.pdf>
 

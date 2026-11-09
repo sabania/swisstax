@@ -9,7 +9,7 @@ artikel: "§ 64d"
 seiten: "34"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 64d StG ZH – e. Besteuerung stiller Reserven am Ende der Steuerpflicht · S. 34
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 64d StG ZH – e. Besteuerung stiller Reserven am Ende der Steuerpflicht · S. 34
 
 ### § 64d StG ZH – e. Besteuerung stiller Reserven am Ende der Steuerpflicht
 

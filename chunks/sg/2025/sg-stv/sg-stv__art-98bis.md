@@ -8,7 +8,7 @@ titel: "Art. 98 bis StV SG – b) altrechtliche Schätzungswerte"
 artikel: "Art. 98 bis"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 98 bis b) altrechtliche Schätzungswerte
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 98 bis b) altrechtliche Schätzungswerte
 
 ### Art. 98 bis StV SG – b) altrechtliche Schätzungswerte
 

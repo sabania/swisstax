@@ -8,7 +8,7 @@ titel: "§ 23 StV TG – Nachträgliche ordentliche Veranlagung"
 artikel: "§ 23"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 4. Quellensteuer für natürliche und juristische Personen › 4.1. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › § 23 Nachträgliche ordentliche Veranlagung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 4. Quellensteuer für natürliche und juristische Personen › 4.1. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › § 23 Nachträgliche ordentliche Veranlagung
 
 ### § 23 StV TG – Nachträgliche ordentliche Veranlagung
 

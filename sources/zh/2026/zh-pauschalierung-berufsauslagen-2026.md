@@ -12,6 +12,9 @@ sha256: 18826cf23d25a9abc44384bc99f876f44baa37e6aaa4d18fc26f89e5675ed112
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: zh-pauschalierung-berufsauslagen-2025
 ---
 # Verfügung über die Pauschalierung der Berufsauslagen (LS 631.33) – Nachtrag 131, ab Steuerjahr 2026
 

@@ -8,7 +8,7 @@ titel: "Art. 8 VKP – Aufhebung eines anderen Erlasses"
 artikel: "Art. 8"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · VKP · Art. 8 Aufhebung eines anderen Erlasses
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · VKP · Art. 8 Aufhebung eines anderen Erlasses
 
 ### Art. 8 VKP – Aufhebung eines anderen Erlasses
 

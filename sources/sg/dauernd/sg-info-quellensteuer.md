@@ -12,6 +12,7 @@ raw: raw/sg/dauernd/sg-info-quellensteuer.html
 sha256: 65c4a8120a8b05a461979d6845eb2b79ede3a9d350db8215169c4fc3ae4bf3cf
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Quellensteuer
 

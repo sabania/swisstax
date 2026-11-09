@@ -2,13 +2,13 @@
 id: bund-vstg__art-42
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 42 VStG"
 artikel: "Art. 42"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · I. Steuererhebung › 5. Einsprache › Art. 42
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · I. Steuererhebung › 5. Einsprache › Art. 42
 
 ### Art. 42 VStG
 

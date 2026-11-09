@@ -9,7 +9,7 @@ ziffer: "10, 23"
 seiten: "36"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum · S. 36
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, bebaute Grundstücke, MFH/Stockwerkeigentum · S. 36
 
 Uetikon am See   4   1270   1080   900   710   –   –   –
 Zollikon-Berg   4   n.v.   1110   1010   900   790   –   –

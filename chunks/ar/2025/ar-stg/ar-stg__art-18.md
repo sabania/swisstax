@@ -8,7 +8,7 @@ titel: "Art. 18 StG AR – XIII. Steuerbefreiung"
 artikel: "Art. 18"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 18 XIII. Steuerbefreiung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 18 XIII. Steuerbefreiung
 
 ### Art. 18 StG AR – XIII. Steuerbefreiung
 

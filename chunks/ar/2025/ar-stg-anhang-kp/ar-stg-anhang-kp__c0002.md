@@ -9,7 +9,7 @@ ziffer: "Anhang 1"
 seiten: "1-2"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR Anhang 1 · Anhang 1 › Ausgleich kalte Progression · S. 1–2
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR Anhang 1 · Anhang 1 › Ausgleich kalte Progression · S. 1–2
 
 Art. 39 Abs. 1 lit. b Ziff. 1   8'300
 Art. 39 Abs. 1 lit. b Ziff. 2   1'600

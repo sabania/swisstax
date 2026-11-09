@@ -8,7 +8,7 @@ titel: "Art. 13 StV SG – c) Einkünfte aus beweglichem Vermögen (Art. 33 StG)
 artikel: "Art. 13"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 13 c) Einkünfte aus beweglichem Vermögen (Art. 33 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 13 c) Einkünfte aus beweglichem Vermögen (Art. 33 StG)
 
 ### Art. 13 StV SG – c) Einkünfte aus beweglichem Vermögen (Art. 33 StG)
 

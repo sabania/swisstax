@@ -8,7 +8,7 @@ titel: "Art. 2 V DBG AR – Die Kantonale Steuerverwaltung"
 artikel: "Art. 2"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 2 Die Kantonale Steuerverwaltung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 2 Die Kantonale Steuerverwaltung
 
 ### Art. 2 V DBG AR – Die Kantonale Steuerverwaltung
 

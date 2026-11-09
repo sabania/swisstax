@@ -2,13 +2,13 @@
 id: bund-vstg__art-41
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 41 VStG"
 artikel: "Art. 41"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · I. Steuererhebung › 4. Entscheide der ESTV › Art. 41
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · I. Steuererhebung › 4. Entscheide der ESTV › Art. 41
 
 ### Art. 41 VStG
 

@@ -9,7 +9,7 @@ artikel: "§ 79"
 seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Vierter Teil: Schlussbestimmungen › Zweiter Abschnitt: Übergangsbestimmungen › § 79 StV ZH – 1. Übergangsrecht · S. 15
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Vierter Teil: Schlussbestimmungen › Zweiter Abschnitt: Übergangsbestimmungen › § 79 StV ZH – 1. Übergangsrecht · S. 15
 
 ### § 79 StV ZH – 1. Übergangsrecht
 

@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-ks-41
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 41: Freizügigkeit in der beruflichen Vorsorge"
 generiert: tools/build_index.py
 ---
 # KS 41: ESTV-Kreisschreiben Nr. 41: Freizügigkeit in der beruflichen Vorsorge
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2014-09-18
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2014-09-18
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/g8RvLPzErEeG/dbst-ks-2014-1-041-d-de.pdf> · lokal: [bund-ks-41.pdf](../../../raw/bund/dauernd/bund-ks-41.pdf) · Volltext: [bund-ks-41.md](../../../sources/bund/dauernd/bund-ks-41.md)
 - **Abgerufen:** 2026-11-09 · sha256 `15158e1d5cd3da3c…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2014-09-18 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-41`).
+
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

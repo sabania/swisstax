@@ -8,7 +8,7 @@ titel: "Art. 47 StG SG – f) Nicht abziehbare Kosten und Aufwendungen"
 artikel: "Art. 47"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 47 f) Nicht abziehbare Kosten und Aufwendungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 47 f) Nicht abziehbare Kosten und Aufwendungen
 
 ### Art. 47 StG SG – f) Nicht abziehbare Kosten und Aufwendungen
 

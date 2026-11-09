@@ -9,7 +9,7 @@ artikel: "§ 55"
 seiten: "27"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 55 StG ZH – II. Steuerliche Zugehörigkeit 1. Persönliche Zugehörigkeit · S. 27
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 55 StG ZH – II. Steuerliche Zugehörigkeit 1. Persönliche Zugehörigkeit · S. 27
 
 ### § 55 StG ZH – II. Steuerliche Zugehörigkeit 1. Persönliche Zugehörigkeit
 

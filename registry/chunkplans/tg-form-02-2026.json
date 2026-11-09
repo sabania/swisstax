@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 2 TG 2026 – Kopf und Angaben zum Wohnsitz im Ausland",
    "pfad": [
     "Formular 2",
@@ -25,7 +25,7 @@
    "zusammenfassung": "Bei Tod einer gemeinsam besteuerten Person ist je ein Verzeichnis bis Todestag und ab Todestag einzureichen; Frage zum Wohnsitz im Ausland 2026."
   },
   {
-   "start": 50,
+   "start": 35,
    "titel": "Zweck des Verzeichnisses und Formular DA-1 (ausländische Quellensteuern, USA)",
    "pfad": [
     "Formular 2",
@@ -48,7 +48,7 @@
    "zusammenfassung": "Das Verzeichnis dient der Ermittlung des Wertschriftenvermögens per 31. Dezember 2026, der fälligen Erträge, der Verrechnungssteuer-Rückerstattung und des Teilbesteuerungsverfahrens; ausländische Quellensteuern über Formular DA-1."
   },
   {
-   "start": 60,
+   "start": 45,
    "titel": "Unterschrift und Rückerstattung Verrechnungssteuer – Voraussetzungen",
    "pfad": [
     "Formular 2",
@@ -69,7 +69,7 @@
    "zusammenfassung": "Rückerstattung nur für Personen mit Wohnsitz im Kanton Thurgau am 31. Dezember und ordnungsgemässer Deklaration der Erträge (Art. 23 Verrechnungssteuergesetz)."
   },
   {
-   "start": 80,
+   "start": 65,
    "titel": "Detailverzeichnis Wertschriften und Guthaben – Spalten und Codes 01–06",
    "pfad": [
     "Formular 2",
@@ -94,7 +94,7 @@
    "zusammenfassung": "Spalten 1–9 für Bezeichnung, Zuordnungscodes 01–06, Steuerwert am 31.12.2026 und Bruttoertrag mit (A) und ohne (B) Verrechnungssteuerabzug."
   },
   {
-   "start": 109,
+   "start": 94,
    "titel": "Ziff. 11–18, 9, 10 Zwischentotale, Kosten und Verrechnungssteueranspruch (Codes 148, 149, 145, 410, 150)",
    "pfad": [
     "Formular 2",
@@ -119,7 +119,7 @@
    "zusammenfassung": "Ziffer 9 Total Steuerwert und Ertrag, zu übertragen in Steuererklärung Seite 4 Ziffer 30.1 bzw. Seite 2 Ziffer 4; Ziffer 10 Verrechnungssteueranspruch 35 % von Bruttoertrag Total A."
   },
   {
-   "start": 143,
+   "start": 128,
    "titel": "Beiblatt Detailverzeichnis Wertschriften und Guthaben (Seite 3)",
    "pfad": [
     "Formular 2",
@@ -139,7 +139,7 @@
    "zusammenfassung": "Weiteres Detailverzeichnis; Summen werden auf Seite 2, Spalten 7, 8 und 9 übertragen."
   },
   {
-   "start": 179,
+   "start": 164,
    "titel": "Hilfsblatt qualifizierte Beteiligungen im Privatvermögen – Teilbesteuerungsabzug (Staatssteuer 40 %, Bundessteuer 30 %)",
    "pfad": [
     "Formular 2",
@@ -160,5 +160,7 @@
    ],
    "zusammenfassung": "Teilbesteuerungsabzug 40 % bei der Staatssteuer und 30 % bei der Bundessteuer für Beteiligungen ab 10 %; Übertrag in Steuererklärung Seite 3 Ziffer 15.6."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

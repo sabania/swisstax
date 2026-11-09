@@ -2,14 +2,14 @@
 id: bund-ks-45__c0135
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.3.3 Beispiel – Stundenlohn CHF 35, Jahreseinkommen CHF 75 600"
 ziffer: "7.3.3"
 seiten: "43"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.3 Stunden- oder Tageslohn · S. 43
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.3 Stunden- oder Tageslohn · S. 43
 
     Stundenlohn:
     -   Ein lediger Arbeitnehmer übt seine Tätigkeit vom 1. Januar bis zum 31. Dezember des Jahres 2021 aus.

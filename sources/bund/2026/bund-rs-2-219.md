@@ -13,6 +13,10 @@ sha256: fd0869b79c5f98635934db7799b3711f88b21aa1fe8d916208fdc4d72968c7de
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
+ersetzt: bund-rs-2-214
 ---
 # Rundschreiben 2-219: Zinssätze Fremdwährungen 2026
 

@@ -7,7 +7,7 @@ typ: info
 titel: "Berufsauslagen"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Berufsauslagen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Berufsauslagen
 
     - Die Arbeitnehmerin/der Arbeitnehmer muss einen wesentlichen Teil der beruflichen Arbeiten zu Hause erledigen, weil der Arbeitgeber das notwendige oder geeignete Arbeitszimmer nicht zur Verfügung stellt oder weil dessen Benützung nicht möglich oder zumutbar ist;
     - Die Arbeitnehmerin/der Arbeitnehmer muss über einen besonderen Raum verfügen, welcher ausschliesslich oder doch zumindest vorwiegend diesem Zwecke dient und insoweit nicht zu privaten Zwecken benützt werden kann;

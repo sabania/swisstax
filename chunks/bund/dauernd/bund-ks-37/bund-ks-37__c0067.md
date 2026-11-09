@@ -2,14 +2,14 @@
 id: bund-ks-37__c0067
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 10 Inkrafttreten (1. Januar 2013) und Geltungsbereich"
 ziffer: "10"
 seiten: "21"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 10 Inkrafttreten, Aufhebungen und Übergangsrecht · S. 21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 10 Inkrafttreten, Aufhebungen und Übergangsrecht · S. 21
 
 10   Inkrafttreten, Aufhebungen und Übergangsrecht
 Dieses Kreisschreiben tritt auf den 1. Januar 2013 in Kraft. Gleichzeitig werden das Kreis-

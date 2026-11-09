@@ -8,7 +8,7 @@ titel: "§ 4 V DBG TG – Veranlagungsbehörde"
 artikel: "§ 4"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 4 Veranlagungsbehörde
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 4 Veranlagungsbehörde
 
 ### § 4 V DBG TG – Veranlagungsbehörde
 

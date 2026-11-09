@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0011
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.1 Bruttoerträge – bewegliches und unbewegliches Vermögen, Teilbesteuerung nur zu 70 %"
 ziffer: "3.1"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.1 · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.1 · S. 4
 
 Die Erträge aus beweglichem Vermögen (Art. 20 DBG) bemessen sich brutto, d.h. im Um
 fang der gesamten steuerbaren Einkünfte vor Abzug der darauf entfallenden Gewinnungs

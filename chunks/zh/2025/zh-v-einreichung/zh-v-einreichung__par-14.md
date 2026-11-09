@@ -9,7 +9,7 @@ artikel: "§ 14"
 seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › D. Schlussbestimmungen › § 14 V elektr. Einreichung ZH · S. 4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › D. Schlussbestimmungen › § 14 V elektr. Einreichung ZH · S. 4
 
 ### § 14 V elektr. Einreichung ZH
 

@@ -8,7 +8,7 @@ titel: "Art. 83 bis StG SG – 2bis. Patente und vergleichbare Rechte: Begriffe"
 artikel: "Art. 83 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 bis 2bis. Patente und vergleichbare Rechte: Begriffe
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 bis 2bis. Patente und vergleichbare Rechte: Begriffe
 
 ### Art. 83 bis StG SG – 2bis. Patente und vergleichbare Rechte: Begriffe
 

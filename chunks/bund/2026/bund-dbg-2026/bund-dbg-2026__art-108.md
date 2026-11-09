@@ -8,7 +8,7 @@ titel: "Art. 108 DBG – Bei ungewisser oder streitiger Zuständigkeit"
 artikel: "Art. 108"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 2. Kapitel: Kantonale Behörden › 2. Abschnitt: Örtliche Zuständigkeit › Art. 108 Bei ungewisser oder streitiger Zuständigkeit
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 2. Kapitel: Kantonale Behörden › 2. Abschnitt: Örtliche Zuständigkeit › Art. 108 Bei ungewisser oder streitiger Zuständigkeit
 
 ### Art. 108 DBG – Bei ungewisser oder streitiger Zuständigkeit
 

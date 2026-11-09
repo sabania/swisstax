@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/WgoQKXnb7PCr/dbst-ks-2008-1-018-dv-de.pdf> · lokal: [bund-ks-18.pdf](../../../raw/bund/dauernd/bund-ks-18.pdf) · Volltext: [bund-ks-18.md](../../../sources/bund/dauernd/bund-ks-18.md)
 - **Abgerufen:** 2026-11-09 · sha256 `90799b89c9672444…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2008-07-17 bis 2025-12-31 · ersetzt durch `bund-ks-18a`
 - ⚠ **Hinweis:** ab 1.1.2026 durch KS 18a ersetzt
 
 ## Hinweise zur Quelle (aus dem Chunking)

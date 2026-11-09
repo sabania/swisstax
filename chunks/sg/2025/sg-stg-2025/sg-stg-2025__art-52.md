@@ -8,7 +8,7 @@ titel: "Art. 52 StG SG – 3. Kapitalabfindungen mit Vorsorgecharakter"
 artikel: "Art. 52"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 52 3. Kapitalabfindungen mit Vorsorgecharakter
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 52 3. Kapitalabfindungen mit Vorsorgecharakter
 
 ### Art. 52 StG SG – 3. Kapitalabfindungen mit Vorsorgecharakter
 

@@ -8,7 +8,7 @@ titel: "Art. 5 V DBG AR – Organisation, Verfahren und Bezug"
 artikel: "Art. 5"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 5 Organisation, Verfahren und Bezug
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 5 Organisation, Verfahren und Bezug
 
 ### Art. 5 V DBG AR – Organisation, Verfahren und Bezug
 

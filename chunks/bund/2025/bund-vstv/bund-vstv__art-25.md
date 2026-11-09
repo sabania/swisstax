@@ -2,13 +2,13 @@
 id: bund-vstv__art-25
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 25 VStV"
 artikel: "Art. 25"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · III. Meldung statt Steuerentrichtung › 3. Gesuch; Bewilligung › Art. 25
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · III. Meldung statt Steuerentrichtung › 3. Gesuch; Bewilligung › Art. 25
 
 ### Art. 25 VStV
 

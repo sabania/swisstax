@@ -9,7 +9,7 @@ artikel: "§ 2"
 seiten: "96"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 2 StG ZH – Sondersteuer · S. 96
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 2 StG ZH – Sondersteuer · S. 96
 
 ### § 2 StG ZH – Sondersteuer
 

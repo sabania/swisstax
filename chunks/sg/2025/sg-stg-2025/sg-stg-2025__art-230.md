@@ -8,7 +8,7 @@ titel: "Art. 230 StG SG – Einsprache"
 artikel: "Art. 230"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Erster Abschnitt: Allgemeine Bestimmungen › Art. 230 Einsprache
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Erster Abschnitt: Allgemeine Bestimmungen › Art. 230 Einsprache
 
 ### Art. 230 StG SG – Einsprache
 

@@ -8,7 +8,7 @@ titel: "Art. 8 StV SG – Rechtliche und tatsächliche Trennung der Ehe (Art. 20
 artikel: "Art. 8"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 8 Rechtliche und tatsächliche Trennung der Ehe (Art. 20 Abs. 1 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 8 Rechtliche und tatsächliche Trennung der Ehe (Art. 20 Abs. 1 StG)
 
 ### Art. 8 StV SG – Rechtliche und tatsächliche Trennung der Ehe (Art. 20 Abs. 1 StG)
 

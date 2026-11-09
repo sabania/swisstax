@@ -12,6 +12,10 @@ sha256: 57465eef4a960231dc637971e1b18457f6ab12665ca2501c0b9b9de382be046b
 abgerufen: '2026-11-09'
 seiten: 44
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2009-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: zh-weisung-liegenschaften-2026
 ---
 # Weisung 2009 über die Bewertung von Liegenschaften (ZStB 21.1, gültig bis 31.12.2025)
 

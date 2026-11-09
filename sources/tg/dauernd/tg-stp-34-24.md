@@ -6,12 +6,16 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-24-drittbetreuungskosten
 raw: raw/tg/dauernd/tg-stp-34-24.html
 sha256: e9f8af5c56c0d265dcb1341eecdb403177aad30bb506e4d555c42d4d58f9e6f8
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2026-08-11'
+ersetzt: tg-stp-34-24-bis-2025
 ---
 # StP 34 Nr. 24: Drittbetreuungskosten
 

@@ -2,13 +2,13 @@
 id: bund-bkv-2026__art-5
 quelle: bund-bkv-2026
 jur: bund
-jahre: [2026]
+jahre: [2026, 2027]
 typ: verordnung
 titel: "Art. 5 BKV – Fahrkosten"
 artikel: "Art. 5"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2026 · BKV · Art. 5 Fahrkosten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2026/2027 · BKV · Art. 5 Fahrkosten
 
 ### Art. 5 BKV – Fahrkosten
 

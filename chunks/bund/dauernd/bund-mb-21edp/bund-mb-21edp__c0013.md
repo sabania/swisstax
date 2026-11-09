@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0013
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 2 Rz 26–27 Felder p–q: Jahr und Total Beiträge Säule 3a"
 ziffer: "26–27"
 seiten: "4-5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 2: Säule 3a · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Erläuterungen › Ziffer 2: Säule 3a · S. 4–5
 
     Feld p: Jahr
 26   Anzugeben ist das entsprechende Kalenderjahr und die vom Vorsorgenehmer in diesem

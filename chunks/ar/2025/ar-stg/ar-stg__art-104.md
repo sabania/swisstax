@@ -8,7 +8,7 @@ titel: "Art. 104 StG AR – 2. Auf Antrag"
 artikel: "Art. 104"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 104 2. Auf Antrag
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 104 2. Auf Antrag
 
 ### Art. 104 StG AR – 2. Auf Antrag
 

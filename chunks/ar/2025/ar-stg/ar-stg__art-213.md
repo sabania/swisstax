@@ -8,7 +8,7 @@ titel: "Art. 213 StG AR – 2. An geschiedene oder getrennt lebende Ehegatten"
 artikel: "Art. 213"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 213 2. An geschiedene oder getrennt lebende Ehegatten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 213 2. An geschiedene oder getrennt lebende Ehegatten
 
 ### Art. 213 StG AR – 2. An geschiedene oder getrennt lebende Ehegatten
 

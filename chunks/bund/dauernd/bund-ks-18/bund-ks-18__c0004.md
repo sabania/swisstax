@@ -9,7 +9,7 @@ ziffer: "3–4"
 seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 3. Kreis der Vorsorgenehmer · S. 2–3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 3. Kreis der Vorsorgenehmer · S. 2–3
 
 gen). Ab Vollendung des 69. Altersjahrs (Frauen) bzw. 70. Altersjahrs (Männer) besteht kei-
 ne Abzugsberechtigung mehr, auch wenn weiterhin ein AHV/IV-pflichtiges Einkommen erzielt

@@ -9,7 +9,7 @@ ziffer: "I/3"
 seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · LS 631.33 (bis 2025) · Verfügung Finanzdirektion › I. Pauschalen › 3. Weitere Berufsauslagen · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · LS 631.33 (bis 2025) · Verfügung Finanzdirektion › I. Pauschalen › 3. Weitere Berufsauslagen · S. 3
 
 3. Für weitere Berufsauslagen wie Berufskleider,
    Berufswerkzeuge (einschliesslich EDV-Hard-

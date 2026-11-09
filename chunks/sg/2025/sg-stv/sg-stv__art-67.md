@@ -8,7 +8,7 @@ titel: "Art. 67 StV SG – Inkonvenienzentschädigungen (Art. 135 Abs. 3 StG)"
 artikel: "Art. 67"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 67 Inkonvenienzentschädigungen (Art. 135 Abs. 3 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 67 Inkonvenienzentschädigungen (Art. 135 Abs. 3 StG)
 
 ### Art. 67 StV SG – Inkonvenienzentschädigungen (Art. 135 Abs. 3 StG)
 

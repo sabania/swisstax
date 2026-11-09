@@ -3,7 +3,7 @@
  "hinweise": [],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Arbeitszimmer – Abzug nur mit Nachweis, nicht kumulierbar mit Pauschale",
    "pfad": [
     "Art. 39 Abs. 1 Bst. c StG",
@@ -24,7 +24,7 @@
    "zusammenfassung": "Arbeitszimmerkosten gelten grundsätzlich als mit der Pauschale der übrigen Berufsauslagen abgegolten; eine Kumulation von Pauschale und effektiven Kosten ist nicht möglich, bei höheren Kosten müssen sämtliche tatsächlichen Aufwendungen nachgewiesen werden."
   },
   {
-   "start": 43,
+   "start": 27,
    "titel": "Arbeitszimmer – berufliche Notwendigkeit",
    "pfad": [
     "Art. 39 Abs. 1 Bst. c StG",
@@ -44,7 +44,7 @@
    "zusammenfassung": "Die berufliche Notwendigkeit ist gegeben, wenn ein wesentlicher Teil der Berufsarbeiten zu Hause erledigt werden muss, der Arbeitgeber kein geeignetes Arbeitszimmer zur Verfügung stellt und ein spezifisch eingerichteter Arbeitsplatz tatsächlich ausgeschieden ist."
   },
   {
-   "start": 55,
+   "start": 39,
    "titel": "Arbeitszimmer – drei kumulative Voraussetzungen (ca. 40 % der Arbeitszeit)",
    "pfad": [
     "Art. 39 Abs. 1 Bst. c StG",
@@ -64,7 +64,7 @@
    "zusammenfassung": "Kumulativ erforderlich: wesentlicher Teil der Arbeit (ca. 40% der gesamten Arbeitszeit) ausserhalb des Arbeitsorts, Angewiesensein auf einen ruhigen spezifisch eingerichteten Arbeitsplatz und tatsächlich ausgeschiedener besonderer Arbeitsplatz."
   },
   {
-   "start": 69,
+   "start": 53,
    "titel": "Arbeitszimmer – Abzug verweigert bei Arbeitszimmer des Arbeitgebers; Abend-/Wochenendarbeit",
    "pfad": [
     "Art. 39 Abs. 1 Bst. c StG",
@@ -84,7 +84,7 @@
    "zusammenfassung": "Der Abzug wird verweigert, wenn der Arbeitgeber ein Arbeitszimmer zur Verfügung stellt; Berufsarbeiten am Abend und an Wochenenden vermögen die Notwendigkeit eines Arbeitszimmers nicht darzutun."
   },
   {
-   "start": 81,
+   "start": 65,
    "titel": "Arbeitszimmer – Berechnung des Abzugs (Eigenheim/Mietobjekt, Zimmer + 2)",
    "pfad": [
     "2. Berechnung des Abzugs"
@@ -105,7 +105,7 @@
    "zusammenfassung": "Abzugsfähig ist der Anteil an Miete, Beleuchtung, Heizung und Reinigung, berechnet als Gesamtkosten geteilt durch (Anzahl Zimmer + 2); beim Eigenheim Eigenmietwert abzüglich 30% plus 10% Nebenkosten, bei Teilzeitarbeit anteilsmässig gekürzt."
   },
   {
-   "start": 111,
+   "start": 95,
    "titel": "Arbeitszimmer – Direkte Bundessteuer",
    "pfad": [
     "3. Direkte Bundessteuer"
@@ -123,5 +123,7 @@
    ],
    "zusammenfassung": "Beim Bund fallen Arbeitszimmerkosten gemäss Art. 26 Abs. 1 Bst. c DBG unter die übrigen Berufsauslagen (Pauschale), Abzugsvoraussetzungen und Berechnung sind gleich wie im kantonalen Recht."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

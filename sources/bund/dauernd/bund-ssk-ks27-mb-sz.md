@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://www.sz.ch/public/upload/assets/17553/Merkblatt_Anrechnung_von_Ausscheidungsverlusten.pdf?fp=9
 raw: raw/bund/dauernd/bund-ssk-ks27-mb-sz.pdf
@@ -13,6 +14,8 @@ sha256: 161515dbbf4087372b2a7999b7405a13641a82d1a7fc811ed768b4e2335f36b7
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2010-01-01'
 ---
 # Merkblatt SZ zu SSK-KS 27: Anrechnung von Ausscheidungsverlusten
 

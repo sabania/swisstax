@@ -8,7 +8,7 @@ titel: "Art. 242 StG AR – I. Verletzung von Verfahrenspflichten"
 artikel: "Art. 242"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 242 I. Verletzung von Verfahrenspflichten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 242 I. Verletzung von Verfahrenspflichten
 
 ### Art. 242 StG AR – I. Verletzung von Verfahrenspflichten
 

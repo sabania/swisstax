@@ -8,7 +8,7 @@ titel: "Art. 73 StV AR – Ausserordentliche Einkünfte (Art. 279 Abs. 2 StG) a)
 artikel: "Art. 73"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 73 Ausserordentliche Einkünfte (Art. 279 Abs. 2 StG) a) Im Allgemeinen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 73 Ausserordentliche Einkünfte (Art. 279 Abs. 2 StG) a) Im Allgemeinen
 
 ### Art. 73 StV AR – Ausserordentliche Einkünfte (Art. 279 Abs. 2 StG) a) Im Allgemeinen
 

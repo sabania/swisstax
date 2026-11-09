@@ -8,7 +8,7 @@ titel: "Steuerfüsse pro Gemeinde und Kirchgemeinde 2026 (Tabelle AR) (Teil 1/2)
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2026], typ: steuerfuss}}
 ---
-> AR · Steuerjahr 2026 · Steuerfüsse AR 2026 · Steuerfüsse 2026 › Tabelle nach Gemeinde · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse AR 2026 · Steuerfüsse 2026 › Tabelle nach Gemeinde · S. 1
 
     Kantonaler Steuerfuss: 3.30 Einheiten
 

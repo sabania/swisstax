@@ -9,7 +9,7 @@ ziffer: "§ 35 Abs. 1"
 seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 35 · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 35 · S. 3
 
     § 35. 1 Die Einkommenssteuer beträgt (Grundtarif):   V. Steuer-
     0% für die ersten   Fr. 7 000   berechnung

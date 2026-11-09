@@ -2,13 +2,13 @@
 id: bund-vstv__art-9
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 9 VStV"
 artikel: "Art. 9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · 2. Sicherstellung › a. Durch Ausländer beherrschte Gesellschaften › Art. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · 2. Sicherstellung › a. Durch Ausländer beherrschte Gesellschaften › Art. 9
 
 ### Art. 9 VStV
 

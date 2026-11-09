@@ -2,14 +2,14 @@
 id: bund-ks-17__c0020
 quelle: bund-ks-17
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. II.4 Verpfändung von Vorsorgeguthaben und Pfandverwertung"
 ziffer: "II.4"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 4 Verpfändung von Vorsorgeguthaben · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 17 · II 2. Säule › 4 Verpfändung von Vorsorgeguthaben · S. 8
 
 4.   Steuerliche Auswirkungen der Verpfändung von Vorsorgeguthaben
 

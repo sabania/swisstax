@@ -8,7 +8,7 @@ titel: "Art. 135 DBG – Entscheid"
 artikel: "Art. 135"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 4. Kapitel: Einsprache › Art. 135 Entscheid
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 4. Kapitel: Einsprache › Art. 135 Entscheid
 
 ### Art. 135 DBG – Entscheid
 

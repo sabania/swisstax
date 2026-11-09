@@ -8,7 +8,7 @@ titel: "Art. 58 StG SG – 2. Ausnahme für land- und forstwirtschaftliche Grund
 artikel: "Art. 58"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 58 2. Ausnahme für land- und forstwirtschaftliche Grundstücke
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 58 2. Ausnahme für land- und forstwirtschaftliche Grundstücke
 
 ### Art. 58 StG SG – 2. Ausnahme für land- und forstwirtschaftliche Grundstücke
 

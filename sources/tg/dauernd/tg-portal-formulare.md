@@ -12,6 +12,7 @@ raw: raw/tg/dauernd/tg-portal-formulare.html
 sha256: 04c403de438747dbafc93a03e9ae0e4084116e30c85e2a6478da567d83975d21
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Formulare natürliche Personen
 

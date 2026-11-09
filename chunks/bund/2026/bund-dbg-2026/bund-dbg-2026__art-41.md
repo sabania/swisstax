@@ -8,7 +8,7 @@ titel: "Art. 41 DBG – Bemessung des Einkommens"
 artikel: "Art. 41"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Zweiter Teil: Besteuerung der natürlichen Personen › Dritter Titel: Zeitliche Bemessung › Art. 41 Bemessung des Einkommens
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Zweiter Teil: Besteuerung der natürlichen Personen › Dritter Titel: Zeitliche Bemessung › Art. 41 Bemessung des Einkommens
 
 ### Art. 41 DBG – Bemessung des Einkommens
 

@@ -2,13 +2,13 @@
 id: bund-vstg__art-54
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 54 VStG"
 artikel: "Art. 54"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · 3. Rückerstattung durch den Kanton › c. Beschwerde an die kantonale Rekurskommission › Art. 54
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · 3. Rückerstattung durch den Kanton › c. Beschwerde an die kantonale Rekurskommission › Art. 54
 
 ### Art. 54 VStG
 

@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0039
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 9.1 Säule-3a-Police: Risikoprämie; Verzicht auf Rückforderung"
 ziffer: "9.1"
 seiten: "12"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 9. Folgen unzulässiger Einzahlungen › 9.1 Für den Vorsorgenehmer · S. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 9. Folgen unzulässiger Einzahlungen › 9.1 Für den Vorsorgenehmer · S. 12
 
 Bei Säule-3a-Versicherungspolicen kann jedoch nur der Sparteil an der Gesamtprämie zu-
 rückerstattet werden. Die Prämie für eine Risikoversicherung kann nicht mehr zurückbezahlt

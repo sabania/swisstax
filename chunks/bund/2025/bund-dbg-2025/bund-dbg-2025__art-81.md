@@ -8,7 +8,7 @@ titel: "Art. 81 DBG"
 artikel: "Art. 81"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Vierter Titel: Zeitliche Bemessung › Art. 81
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Vierter Titel: Zeitliche Bemessung › Art. 81
 
 ### Art. 81 DBG
 

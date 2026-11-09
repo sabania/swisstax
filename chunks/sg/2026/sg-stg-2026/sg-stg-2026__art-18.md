@@ -8,7 +8,7 @@ titel: "Art. 18 StG SG – Steuerberechnung bei anteiliger Steuerpflicht"
 artikel: "Art. 18"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 18 Steuerberechnung bei anteiliger Steuerpflicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 18 Steuerberechnung bei anteiliger Steuerpflicht
 
 ### Art. 18 StG SG – Steuerberechnung bei anteiliger Steuerpflicht
 

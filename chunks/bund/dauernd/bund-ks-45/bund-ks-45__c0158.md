@@ -2,14 +2,14 @@
 id: bund-ks-45__c0158
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.5.1 Korrektur am Jahresende, Kalendarium und nachträgliche Neuberechnung (Teil 1/2)"
 ziffer: "7.5.1"
 seiten: "50"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.1 Ausscheidung ausländischer Arbeitstage · S. 50
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.1 Ausscheidung ausländischer Arbeitstage · S. 50
 
 Alternativ zur monatlichen Ausscheidung des Einkommens aus ausländischen Arbeitstagen
 steht es dem Arbeitgeber offen, die erforderlichen Korrekturen erst am Ende des Kalender-

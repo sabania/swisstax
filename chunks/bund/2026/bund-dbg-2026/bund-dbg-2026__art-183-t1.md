@@ -8,7 +8,7 @@ titel: "Art. 183 DBG – Bei Steuerhinterziehungen (Teil 1/2)"
 artikel: "Art. 183"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 4. Kapitel: Verfahren › Art. 183 Bei Steuerhinterziehungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 4. Kapitel: Verfahren › Art. 183 Bei Steuerhinterziehungen
 
 ### Art. 183 DBG – Bei Steuerhinterziehungen
 

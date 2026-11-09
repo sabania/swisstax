@@ -9,7 +9,7 @@ ziffer: "5.6 f–g"
 seiten: "6-7"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.6 Sonderfälle · S. 6–7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.6 Sonderfälle · S. 6–7
 
 g)   Berechnung des Abzuges beim Übergang von einer unselbständigen zu
     einer selbständigen Erwerbstätigkeit oder umgekehrt

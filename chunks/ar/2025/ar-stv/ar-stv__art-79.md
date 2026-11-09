@@ -8,7 +8,7 @@ titel: "Art. 79 StV AR – Übernahme des Steuerbezuges (Art. 285 lit. e StG)"
 artikel: "Art. 79"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 79 Übernahme des Steuerbezuges (Art. 285 lit. e StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 79 Übernahme des Steuerbezuges (Art. 285 lit. e StG)
 
 ### Art. 79 StV AR – Übernahme des Steuerbezuges (Art. 285 lit. e StG)
 

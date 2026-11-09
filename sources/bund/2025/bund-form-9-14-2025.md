@@ -12,6 +12,9 @@ sha256: ebb8395e3e280c75f5b5008374095952d77de359eb3a453b5efb7b68ec3e0f5c
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # ESTV Formular: Berufskosten 2025
 

@@ -2,14 +2,14 @@
 id: bund-ks-44__c0001
 quelle: bund-ks-44
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Allgemeines – Aufwandbesteuerung seit 1.1.2016"
 ziffer: "1"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · 1 Allgemeines · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 44 · 1 Allgemeines · S. 2
 
 1 Allgemeines
 

@@ -8,7 +8,7 @@ titel: "Art. 30 DBG – Ersatzbeschaffungen"
 artikel: "Art. 30"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 30 Ersatzbeschaffungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 30 Ersatzbeschaffungen
 
 ### Art. 30 DBG – Ersatzbeschaffungen
 

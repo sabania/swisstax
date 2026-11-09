@@ -9,7 +9,7 @@ ziffer: "3"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › 3. Einkäufe Säule 3a · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › 3. Einkäufe Säule 3a · S. 1
 
 3. Einkäufe in anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)
    Rachats pour des formes reconnues de prévoyance individuelle liée (pilier 3a)

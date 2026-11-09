@@ -9,7 +9,7 @@ artikel: "§ 163"
 seiten: "67"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 163 StG ZH – I. Inventarpflicht · S. 67
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 163 StG ZH – I. Inventarpflicht · S. 67
 
 ### § 163 StG ZH – I. Inventarpflicht
 

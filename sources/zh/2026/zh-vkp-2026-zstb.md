@@ -13,6 +13,9 @@ sha256: 58e955e924c96e9d0901da75b737b3b2777aa4013c0b1bbc6df66f20fa4b626d
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: zh-vkp-2024-zstb
 ---
 # Verordnung über den Ausgleich der kalten Progression bei der Einkommens- und Vermögenssteuer ab 1. Januar 2026 (ZStB 48.1)
 

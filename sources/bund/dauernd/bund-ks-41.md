@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2014-09-18'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/g8RvLPzErEeG/dbst-ks-2014-1-041-d-de.pdf
@@ -14,6 +15,8 @@ sha256: 15158e1d5cd3da3c1e704156d70b81245e01e53fbe59f601edd48884014707eb
 abgerufen: '2026-11-09'
 seiten: 5
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2014-09-18'
 ---
 # ESTV-Kreisschreiben Nr. 41: Freizügigkeit in der beruflichen Vorsorge
 

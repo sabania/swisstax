@@ -7,7 +7,7 @@ typ: info
 titel: "Spezialsteuern"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG Steuern bezahlen · Steuern bezahlen (Rechnungen, Zinsen) › Spezialsteuern
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · SG Steuern bezahlen · Steuern bezahlen (Rechnungen, Zinsen) › Spezialsteuern
 
 Was ist zu tun?
 

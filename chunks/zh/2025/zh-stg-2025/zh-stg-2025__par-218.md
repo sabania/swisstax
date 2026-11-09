@@ -9,7 +9,7 @@ artikel: "§ 218"
 seiten: "78"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 218 StG ZH – III. Steuerbefreiung · S. 78
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 218 StG ZH – III. Steuerbefreiung · S. 78
 
 ### § 218 StG ZH – III. Steuerbefreiung
 

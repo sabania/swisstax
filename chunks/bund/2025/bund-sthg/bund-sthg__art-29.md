@@ -2,13 +2,13 @@
 id: bund-sthg__art-29
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 29 StHG – Steuerobjekt; im Allgemeinen"
 artikel: "Art. 29"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Dritter Titel: Steuern der juristischen Personen › 3. Kapitel: Kapitalsteuer › Art. 29 Steuerobjekt; im Allgemeinen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Dritter Titel: Steuern der juristischen Personen › 3. Kapitel: Kapitalsteuer › Art. 29 Steuerobjekt; im Allgemeinen
 
 ### Art. 29 StHG – Steuerobjekt; im Allgemeinen
 

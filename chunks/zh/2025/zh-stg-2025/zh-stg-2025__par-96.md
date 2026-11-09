@@ -9,7 +9,7 @@ artikel: "§ 96"
 seiten: "46"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 96 StG ZH – III. Verwaltungsräte · S. 46
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 96 StG ZH – III. Verwaltungsräte · S. 46
 
 ### § 96 StG ZH – III. Verwaltungsräte
 

@@ -8,7 +8,7 @@ titel: "Art. 2 StG SG – b) Politische Gemeinden"
 artikel: "Art. 2"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 2 b) Politische Gemeinden
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 2 b) Politische Gemeinden
 
 ### Art. 2 StG SG – b) Politische Gemeinden
 

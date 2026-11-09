@@ -8,7 +8,7 @@ titel: "Art. 169 StG AR – 2. Ermessensveranlagung"
 artikel: "Art. 169"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 169 2. Ermessensveranlagung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 169 2. Ermessensveranlagung
 
 ### Art. 169 StG AR – 2. Ermessensveranlagung
 

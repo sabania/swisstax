@@ -8,7 +8,7 @@ titel: "Art. 13 VGS SG – Staat"
 artikel: "Art. 13"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · IV. Kosten › Art. 13 Staat
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · IV. Kosten › Art. 13 Staat
 
 ### Art. 13 VGS SG – Staat
 

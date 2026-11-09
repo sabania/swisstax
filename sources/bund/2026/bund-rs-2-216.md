@@ -13,6 +13,10 @@ sha256: e87db19d6e5c9d6ad5d1e05db7dbfbecb5994eba52056a41ebb0fabcd679eef7
 abgerufen: '2026-11-09'
 seiten: 13
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
+ersetzt: bund-rs-2-211
 ---
 # Rundschreiben 2-216: Quellensteuertarife 2026
 

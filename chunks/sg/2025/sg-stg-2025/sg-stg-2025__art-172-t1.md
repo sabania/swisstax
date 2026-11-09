@@ -8,7 +8,7 @@ titel: "Art. 172 StG SG – Verfahrenspflichten Dritter a) Bescheinigungspflicht
 artikel: "Art. 172"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 172 Verfahrenspflichten Dritter a) Bescheinigungspflicht Dritter
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 172 Verfahrenspflichten Dritter a) Bescheinigungspflicht Dritter
 
 ### Art. 172 StG SG – Verfahrenspflichten Dritter a) Bescheinigungspflicht Dritter
 

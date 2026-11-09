@@ -6,12 +6,15 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-25-zweiverdienerabzug
 raw: raw/tg/dauernd/tg-stp-34-25.html
 sha256: 1912205a35fd39e1c0743bbb9ca5db683e1adf5cc96302c1879259732b5e2ec0
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2025-01-01'
 ---
 # StP 34 Nr. 25: Zweiverdienerabzug
 

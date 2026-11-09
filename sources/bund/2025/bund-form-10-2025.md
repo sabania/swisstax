@@ -12,6 +12,9 @@ sha256: 93e6851faf4f3154782da2039d5e7064fa6d87c9afc46bcfbffb3fb33d29639f
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # ESTV Formular 10: Aus- und Weiterbildungskosten 2025
 

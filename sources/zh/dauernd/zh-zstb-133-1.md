@@ -11,6 +11,10 @@ raw: raw/zh/dauernd/zh-zstb-133-1.html
 sha256: 9f64cf65adc4c4bbffe2fcc8d7bc95218867d29b7145838a67d8eb2fc773f856
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: verfahren
+gilt_ab: '2027-01-01'
+gilt_bis: '2027-12-31'
+ersetzt: zh-zstb-133-1-aufforderung-2026
 ---
 # ZStB 133.1: Aufforderung zur Einreichung
 

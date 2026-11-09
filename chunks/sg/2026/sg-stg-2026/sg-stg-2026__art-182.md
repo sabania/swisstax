@@ -8,7 +8,7 @@ titel: "Art. 182 StG SG – c) Entscheid"
 artikel: "Art. 182"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 182 c) Entscheid
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 182 c) Entscheid
 
 ### Art. 182 StG SG – c) Entscheid
 

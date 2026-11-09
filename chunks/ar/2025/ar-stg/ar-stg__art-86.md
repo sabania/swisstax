@@ -8,7 +8,7 @@ titel: "Art. 86 StG AR – I. Steuerobjekt 1. Gegenstand"
 artikel: "Art. 86"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › C. Kapitalsteuer › Art. 86 I. Steuerobjekt 1. Gegenstand
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › C. Kapitalsteuer › Art. 86 I. Steuerobjekt 1. Gegenstand
 
 ### Art. 86 StG AR – I. Steuerobjekt 1. Gegenstand
 

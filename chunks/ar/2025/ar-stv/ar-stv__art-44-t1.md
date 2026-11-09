@@ -8,7 +8,7 @@ titel: "Art. 44 StV AR – Tarifarten (Art. 99 Abs. 1, 101, 107 StG) (Teil 1/3)"
 artikel: "Art. 44"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › A. Arbeitnehmerinnen und Arbeitnehmer * › Art. 44 Tarifarten (Art. 99 Abs. 1, 101, 107 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › A. Arbeitnehmerinnen und Arbeitnehmer * › Art. 44 Tarifarten (Art. 99 Abs. 1, 101, 107 StG)
 
 ### Art. 44 StV AR – Tarifarten (Art. 99 Abs. 1, 101, 107 StG)
 

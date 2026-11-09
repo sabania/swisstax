@@ -2,14 +2,14 @@
 id: bund-ks-17__c0002
 quelle: bund-ks-17
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. II.1 Zweck und Inhalt – Eigenbedarf, Objekt, Verwendung"
 ziffer: "II.1"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 1 Zweck und Inhalt · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 17 · II 2. Säule › 1 Zweck und Inhalt · S. 2
 
 II.   Wohneigentumsförderung mit Mitteln der 2. Säule
 

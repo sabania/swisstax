@@ -8,7 +8,7 @@ titel: "§ 46c StV TG – Steuergutschriften und Schlussrechnungen"
 artikel: "§ 46c"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.2. Steuerbezug › § 46c Steuergutschriften und Schlussrechnungen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.2. Steuerbezug › § 46c Steuergutschriften und Schlussrechnungen
 
 ### § 46c StV TG – Steuergutschriften und Schlussrechnungen
 

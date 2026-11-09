@@ -8,7 +8,7 @@ titel: "§ 50 StV TG – Verfahren bei Stundung und Erlass"
 artikel: "§ 50"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.3. Stundung und Erlass › § 50 Verfahren bei Stundung und Erlass
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.3. Stundung und Erlass › § 50 Verfahren bei Stundung und Erlass
 
 ### § 50 StV TG – Verfahren bei Stundung und Erlass
 

@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0017
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4 Inkrafttreten – ab 1. Januar 2020"
 ziffer: "4"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · 4 Inkrafttreten · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · 4 Inkrafttreten · S. 6
 
 4.   Inkrafttreten
 

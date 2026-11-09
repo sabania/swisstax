@@ -8,7 +8,7 @@ titel: "Art. 3 BKV – Festlegung der Pauschalansätze und des Abzugs für die B
 artikel: "Art. 3"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 3 Festlegung der Pauschalansätze und des Abzugs für die Benützung eines privaten Fahrzeugs
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 3 Festlegung der Pauschalansätze und des Abzugs für die Benützung eines privaten Fahrzeugs
 
 ### Art. 3 BKV – Festlegung der Pauschalansätze und des Abzugs für die Benützung eines privaten Fahrzeugs
 

@@ -8,7 +8,7 @@ titel: "Art. 165 DBG – Zwangsvollstreckung"
 artikel: "Art. 165"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 3. Kapitel: Steuerbezug › Art. 165 Zwangsvollstreckung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 3. Kapitel: Steuerbezug › Art. 165 Zwangsvollstreckung
 
 ### Art. 165 DBG – Zwangsvollstreckung
 

@@ -8,7 +8,7 @@ titel: "Art. 52 StV AR – Ersatzbeschaffung (Art. 124 lit. d–f StG)"
 artikel: "Art. 52"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Erster Teil: Staatssteuern › 4. Grundstückgewinnsteuer › Art. 52 Ersatzbeschaffung (Art. 124 lit. d–f StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Erster Teil: Staatssteuern › 4. Grundstückgewinnsteuer › Art. 52 Ersatzbeschaffung (Art. 124 lit. d–f StG)
 
 ### Art. 52 StV AR – Ersatzbeschaffung (Art. 124 lit. d–f StG)
 

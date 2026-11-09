@@ -8,7 +8,7 @@ titel: "Art. 78 StV AR – Ermittlung der ausschüttbaren Reserven (Art. 282 Abs
 artikel: "Art. 78"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 78 Ermittlung der ausschüttbaren Reserven (Art. 282 Abs. 3 und 4 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 78 Ermittlung der ausschüttbaren Reserven (Art. 282 Abs. 3 und 4 StG)
 
 ### Art. 78 StV AR – Ermittlung der ausschüttbaren Reserven (Art. 282 Abs. 3 und 4 StG)
 

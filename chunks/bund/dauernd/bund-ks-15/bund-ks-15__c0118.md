@@ -2,14 +2,14 @@
 id: bund-ks-15__c0118
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang IV Gutachten Ziff. III.4.1 Fazit ohne Handänderung"
 ziffer: "Anh. IV III.4.1"
 seiten: "35"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung › 4 Fazit · S. 35
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung › 4 Fazit · S. 35
 
 4.   Fazit
 4.1   Ohne Handänderung während der Laufzeit

@@ -9,7 +9,7 @@ ziffer: "4.3.6"
 seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8–9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8–9
 
 Fahrten zum Arbeitsplatz sind als Gewinnungskosten und nicht als behinderungsbedingte
 Kosten abzugsfähig (vgl. StRK ZH vom 18. Juni 2003 [Zürcher Steuerpraxis ZStP 2004,

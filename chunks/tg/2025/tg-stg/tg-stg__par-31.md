@@ -2,13 +2,13 @@
 id: tg-stg__par-31
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 31 StG TG – Ersatzbeschaffung"
 artikel: "§ 31"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.2.2. Einkommenssteuer › 1.2.2.3. Ermittlung des Reineinkommens › § 31 Ersatzbeschaffung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.2.2. Einkommenssteuer › 1.2.2.3. Ermittlung des Reineinkommens › § 31 Ersatzbeschaffung
 
 ### § 31 StG TG – Ersatzbeschaffung
 

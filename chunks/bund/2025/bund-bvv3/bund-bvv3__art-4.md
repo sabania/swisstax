@@ -2,13 +2,13 @@
 id: bund-bvv3__art-4
 quelle: bund-bvv3
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 4 BVV 3 – Abtretung, Verpfändung und Verrechnung"
 artikel: "Art. 4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 4 Abtretung, Verpfändung und Verrechnung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 4 Abtretung, Verpfändung und Verrechnung
 
 ### Art. 4 BVV 3 – Abtretung, Verpfändung und Verrechnung
 

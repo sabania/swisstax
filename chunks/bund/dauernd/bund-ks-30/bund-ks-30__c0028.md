@@ -2,14 +2,14 @@
 id: bund-ks-30__c0028
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 2/2)"
 ziffer: "7"
 seiten: "11-12"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 7 Abzug für Versicherungsprämien und Sparkapitalzinsen · S. 11–12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 7 Abzug für Versicherungsprämien und Sparkapitalzinsen · S. 11–12
 
 Für Steuerpflichtige, die weder Beiträge an die berufliche Vorsorge noch solche an die ge-
 bundene Selbstvorsorge ausweisen, erhöhen sich nach Artikel 33 Absatz 1bis DBG die Ab-

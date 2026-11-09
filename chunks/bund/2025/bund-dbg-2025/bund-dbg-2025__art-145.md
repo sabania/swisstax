@@ -8,7 +8,7 @@ titel: "Art. 145 DBG"
 artikel: "Art. 145"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 2. Kapitel: Vor einer weiteren kantonalen Beschwerdeinstanz › Art. 145
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 2. Kapitel: Vor einer weiteren kantonalen Beschwerdeinstanz › Art. 145
 
 ### Art. 145 DBG
 

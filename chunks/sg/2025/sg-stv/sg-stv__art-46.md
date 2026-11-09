@@ -8,7 +8,7 @@ titel: "Art. 46 StV SG – 3. Buchgewinne oder -verluste"
 artikel: "Art. 46"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 46 3. Buchgewinne oder -verluste
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 46 3. Buchgewinne oder -verluste
 
 ### Art. 46 StV SG – 3. Buchgewinne oder -verluste
 

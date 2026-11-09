@@ -9,7 +9,7 @@ ziffer: "90–91"
 seiten: "18"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · E. Neufestsetzung › I. Einfamilienhäuser, Stockwerkeigentum, industrielle Liegenschaften · S. 18
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · E. Neufestsetzung › I. Einfamilienhäuser, Stockwerkeigentum, industrielle Liegenschaften · S. 18
 
 90   Massgebend für ausserordentliche Neubewertungen sind die Land-
     werte gemäss Ziff. 23 und 24 sowie 49 und 50, der neue Basiswert, das

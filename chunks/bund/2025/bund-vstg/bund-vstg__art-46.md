@@ -2,13 +2,13 @@
 id: bund-vstg__art-46
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 46 VStG"
 artikel: "Art. 46"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · 7. Zwangsvollstreckung › b. Übergang der Rückgriffsansprüche › Art. 46
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · 7. Zwangsvollstreckung › b. Übergang der Rückgriffsansprüche › Art. 46
 
 ### Art. 46 VStG
 

@@ -8,7 +8,7 @@ titel: "Art. 7 StG SG – Zuschläge a) Zuschläge zur Staatssteuer"
 artikel: "Art. 7"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 7 Zuschläge a) Zuschläge zur Staatssteuer
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 7 Zuschläge a) Zuschläge zur Staatssteuer
 
 ### Art. 7 StG SG – Zuschläge a) Zuschläge zur Staatssteuer
 

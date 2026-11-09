@@ -2,13 +2,13 @@
 id: bund-sthg__art-59-t1
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 59 StHG – Steuerbetrug (Teil 1/2)"
 artikel: "Art. 59"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Sechster Titel: Steuerstrafrecht › 2. Kapitel: Steuervergehen › Art. 59 Steuerbetrug
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Sechster Titel: Steuerstrafrecht › 2. Kapitel: Steuervergehen › Art. 59 Steuerbetrug
 
 ### Art. 59 StHG – Steuerbetrug
 

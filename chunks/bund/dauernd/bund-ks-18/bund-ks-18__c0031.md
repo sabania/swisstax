@@ -9,7 +9,7 @@ ziffer: "9"
 seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 9. Folgen unzulässiger Einzahlungen · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 9. Folgen unzulässiger Einzahlungen · S. 10
 
 Auf Vorsorgekonten und in Vorsorgeversicherungen können nicht höhere Beiträge einbezahlt
 werden, als ein Abzug gemäss Artikel 7 Absatz 1 BVV 3 zulässig ist. Bei der Beschränkung

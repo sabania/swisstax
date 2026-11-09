@@ -8,7 +8,7 @@ titel: "Art. 15 StG SG – Umfang der Steuerpflicht"
 artikel: "Art. 15"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 15 Umfang der Steuerpflicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 15 Umfang der Steuerpflicht
 
 ### Art. 15 StG SG – Umfang der Steuerpflicht
 

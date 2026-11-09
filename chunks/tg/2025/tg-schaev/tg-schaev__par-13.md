@@ -8,7 +8,7 @@ titel: "§ 13 SchäV TG – Ertragswert"
 artikel: "§ 13"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 13 Ertragswert
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 13 Ertragswert
 
 ### § 13 SchäV TG – Ertragswert
 

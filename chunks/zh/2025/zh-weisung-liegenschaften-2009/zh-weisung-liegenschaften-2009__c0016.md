@@ -9,7 +9,7 @@ ziffer: "36–37"
 seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › V. Mehrfamilien- und Geschäftshäuser › 1. Allgemeine Grundsätze · S. 8
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › V. Mehrfamilien- und Geschäftshäuser › 1. Allgemeine Grundsätze · S. 8
 
     V. Mehrfamilien- und Geschäftshäuser
 

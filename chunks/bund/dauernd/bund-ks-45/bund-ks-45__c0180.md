@@ -2,14 +2,14 @@
 id: bund-ks-45__c0180
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8.4 Wechsel von Jahresmodell zu Jahresmodell"
 ziffer: "8.4"
 seiten: "56"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 8 Kantonswechsel › 8.4 Jahresmodell zu Jahresmodell · S. 56
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 8 Kantonswechsel › 8.4 Jahresmodell zu Jahresmodell · S. 56
 
 8.4   Wechsel von einem Kanton mit Jahresmodell zu einem anderen Kanton mit Jah-
     resmodell

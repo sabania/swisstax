@@ -8,7 +8,7 @@ titel: "Art. 4 StG SG – d) Ortsgemeinden und Korporationen"
 artikel: "Art. 4"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 4 d) Ortsgemeinden und Korporationen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 4 d) Ortsgemeinden und Korporationen
 
 ### Art. 4 StG SG – d) Ortsgemeinden und Korporationen
 

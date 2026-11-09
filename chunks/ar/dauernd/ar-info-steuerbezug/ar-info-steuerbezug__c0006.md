@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerbezug"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: info}}
 ---
-> AR · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug
 
 Wir bitten Sie, die versandten Einzahlungsscheine zu benützen. Neue Einzahlungsscheine können Sie bei uns telefonisch, schriftlich oder per Mail bestellen.Falls Sie über keine Einzahlungsscheine verfügen, können **ausnahmsweise** Einzahlungen mit einem neutralen Einzahlungsschein vorgenommen werden. Bitte vermerken Sie bei jeder Einzahlung die **PID** oder das Geburtsdatum, die **Steuerart** (Staats- und Gemeindesteuern oder direkte Bundessteuer) und das **Steuerjahr** für das Sie einzahlen.
 

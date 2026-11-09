@@ -8,7 +8,7 @@ titel: "Art. 34 StG SG – e) Unbewegliches Vermögen"
 artikel: "Art. 34"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 34 e) Unbewegliches Vermögen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 34 e) Unbewegliches Vermögen
 
 ### Art. 34 StG SG – e) Unbewegliches Vermögen
 

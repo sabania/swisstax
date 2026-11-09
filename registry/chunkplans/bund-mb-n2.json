@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "MB N2/2007 – Bewertung Verpflegung und Unterkunft (Marktwert), Ansätze pro Person",
    "pfad": [
     "Bewertung Verpflegung und Unterkunft"
@@ -24,7 +24,7 @@
    "zusammenfassung": "Verpflegung und Unterkunft sind zum Marktwert zu bewerten; ab 2007 gelten die Pauschalansätze pro Person (Tag/Monat/Jahr)."
   },
   {
-   "start": 43,
+   "start": 27,
    "titel": "Ansatztabelle Erwachsene und Kinder – Frühstück bis Volle Verpflegung und Unterkunft",
    "pfad": [
     "Bewertung Verpflegung und Unterkunft",
@@ -44,7 +44,7 @@
    "zusammenfassung": "Erwachsene: volle Verpflegung CHF 21.50/Tag, 645.–/Monat, 7 740.–/Jahr; Unterkunft 11.50/345.–/4 140.–; Verpflegung und Unterkunft 33.–/990.–/11 880.–; Kinderansätze nach Alter gestaffelt."
   },
   {
-   "start": 64,
+   "start": 48,
    "titel": "Bekleidung, Wohnung und weitere Arbeitgeberleistungen",
    "pfad": [
     "Zuschläge"
@@ -63,7 +63,7 @@
    "zusammenfassung": "Bekleidung zusätzlich CHF 80.–/Monat (960.–/Jahr); bei Wohnung ortsüblicher Mietzins, Einrichtung CHF 70.–/Monat, Heizung/Beleuchtung 60.–, Reinigung 10.–; Kinder halbe Ansätze."
   },
   {
-   "start": 74,
+   "start": 58,
    "titel": "Fussnoten 1–3 – Gastgewerbe, Alter der Kinder, Kinderrabatt ab 4 Kindern",
    "pfad": [
     "Fussnoten"
@@ -80,5 +80,7 @@
    ],
    "zusammenfassung": "Alter der Kinder zu Beginn des Bemessungsjahres; bei 4 Kindern 10 %, 5 Kindern 20 %, 6 und mehr 30 % Abzug vom Totalwert der Kinderansätze."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

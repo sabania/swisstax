@@ -12,6 +12,7 @@ raw: raw/bund/dauernd/bund-info-ictax.html
 sha256: 1c5a9ffe77720dce70975ceb4e5d3ee9d6a2980f094f58d9b87584229621e7a4
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Kurslisten ICTax (Info)
 

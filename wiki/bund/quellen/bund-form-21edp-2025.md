@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Formular · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/YWTRg69NFR9O/dbst-form-2025-de.zip> · lokal: [bund-form-21edp-2025.pdf](../../../raw/bund/2025/bund-form-21edp-2025.pdf) · Volltext: [bund-form-21edp-2025.md](../../../sources/bund/2025/bund-form-21edp-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `61152c0bff8d1010…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab ? bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

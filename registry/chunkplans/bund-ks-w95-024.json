@@ -6,7 +6,7 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "titel": "Kreisschreiben Nr. 24 – Einleitung, Art. 20 Abs. 1 Bst. a DBG und Art. 205a DBG",
    "pfad": [
     "I. Allgemeines"
@@ -27,7 +27,7 @@
    "zusammenfassung": "Wortlaut von Art. 20 Abs. 1 Bst. a DBG: Erträge aus rückkaufsfähigen Kapitalversicherungen mit Einmalprämie sind steuerfrei bei Auszahlung ab vollendetem 60. Altersjahr und mindestens fünfjährigem Vertragsverhältnis; Übergangsbestimmung Art. 205a für Verträge vor 1.1.1994."
   },
   {
-   "start": 72,
+   "start": 55,
    "titel": "Ziff. II.1 Rückkaufsfähige Kapitalversicherung – Begriff und Vorsorgezweck",
    "pfad": [
     "II. Artikel 20 Absatz 1 Buchstabe a",
@@ -49,7 +49,7 @@
    "zusammenfassung": "Rückkaufsfähige Kapitalversicherungen mit Einmalprämie sind im Erlebensfall und bei Rückkauf steuerbar, soweit sie nicht der Vorsorge dienen; zwei Kategorien (a) Vorsorge steuerfrei, (b) andere besteuert."
   },
   {
-   "start": 115,
+   "start": 98,
    "titel": "Ziff. II.1.a Kapitalversicherungen mit Einmalprämie, die der Vorsorge dienen – Voraussetzungen",
    "pfad": [
     "II. Artikel 20 Absatz 1 Buchstabe a",
@@ -71,7 +71,7 @@
    "zusammenfassung": "Auszahlung nach vollendetem 60. Altersjahr und mindestens fünf Jahren Vertragsdauer (kumulativ) ist steuerfrei, sofern angemessener Versicherungsschutz für Erlebens- und Todesfall besteht."
   },
   {
-   "start": 139,
+   "start": 122,
    "titel": "Ziff. II.1.b Kapitalversicherungen mit Einmalprämie, die nicht der Vorsorge dienen",
    "pfad": [
     "II. Artikel 20 Absatz 1 Buchstabe a",
@@ -93,7 +93,7 @@
    "zusammenfassung": "Erlebensfallversicherungen mit Rückgewähr, Versicherungen auf festen Termin und Open-end-Versicherungen gelten als verkappte Anlagegeschäfte und werden bei Auszahlung besteuert."
   },
   {
-   "start": 184,
+   "start": 167,
    "titel": "Ziff. II.2–3 Versicherte Person und Einmalprämie",
    "pfad": [
     "II. Artikel 20 Absatz 1 Buchstabe a",
@@ -114,7 +114,7 @@
    "zusammenfassung": "Versicherungsnehmer muss zugleich versicherte Person sein (Ausnahme: Ehegatten bei gemeinsamer Veranlagung); Einlagen ohne planmässige periodische Prämien gelten als Einmalprämien."
   },
   {
-   "start": 214,
+   "start": 197,
    "titel": "Ziff. II.4–5 Besteuerung der Erträge und Steuerumgehung (Fremdfinanzierung)",
    "pfad": [
     "II. Artikel 20 Absatz 1 Buchstabe a",
@@ -136,7 +136,7 @@
    "zusammenfassung": "Steuerbar ist die Differenz zwischen Einmalprämie und ausbezahlter Leistung inkl. Überschussanteilen, ohne Rentensatz (Art. 37) oder Kapitalleistungssatz (Art. 38 DBG); bei Fremdfinanzierung kann der Schuldzinsenabzug wegen Steuerumgehung verweigert werden."
   },
   {
-   "start": 246,
+   "start": 229,
    "titel": "Ziff. III–V Art. 205a DBG Übergangsregelung, Aufhebung, Auskunftsstelle",
    "pfad": [
     "III. Artikel 205a DBG / IV. Aufhebung / V. Auskunftsstelle"
@@ -153,5 +153,7 @@
    ],
    "zusammenfassung": "Bei vor dem 1.1.1994 abgeschlossenen Verträgen genügt für die Steuerfreiheit eine der Voraussetzungen: fünfjährige Vertragsdauer oder vollendetes 60. Altersjahr; das KS vom 21. Juni 1982 wird aufgehoben."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

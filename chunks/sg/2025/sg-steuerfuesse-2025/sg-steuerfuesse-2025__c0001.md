@@ -8,7 +8,7 @@ titel: "Bemerkungen und Zeichenerklärung – Kantonssteuer 105 %, christkatholi
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2025 · Steuerfüsse SG 2025 · Steuerfüsse 2025 › Bemerkungen · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2025 · Steuerfüsse SG 2025 · Steuerfüsse 2025 › Bemerkungen · S. 1
 
 # Steuerfüsse Kanton und Gemeinden 2025
 

@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-43-nr-3-verkehrswert-liegenschaften> · lokal: [tg-stp-43-3.html](../../../raw/tg/dauernd/tg-stp-43-3.html) · Volltext: [tg-stp-43-3.md](../../../sources/tg/dauernd/tg-stp-43-3.md)
 - **Abgerufen:** 2026-11-09 · sha256 `12fe57c78425212f…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab ? bis offen
 
 ## Inhalt (7 Chunks)
 

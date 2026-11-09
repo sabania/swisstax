@@ -8,7 +8,7 @@ titel: "Art. 61a DBG – Aufdeckung stiller Reserven bei Beginn der Steuerpflich
 artikel: "Art. 61a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 61a Aufdeckung stiller Reserven bei Beginn der Steuerpflicht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 61a Aufdeckung stiller Reserven bei Beginn der Steuerpflicht
 
 ### Art. 61a DBG – Aufdeckung stiller Reserven bei Beginn der Steuerpflicht
 

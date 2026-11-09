@@ -8,7 +8,7 @@ titel: "Art. 195 StG SG – b) Entscheid"
 artikel: "Art. 195"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › V. Rekurs und Beschwerde › Art. 195 b) Entscheid
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › V. Rekurs und Beschwerde › Art. 195 b) Entscheid
 
 ### Art. 195 StG SG – b) Entscheid
 

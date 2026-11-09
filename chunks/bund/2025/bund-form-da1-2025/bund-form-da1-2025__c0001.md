@@ -8,7 +8,7 @@ titel: "Formular DA-1 2025 – Kopf, Personalien und Antrag auf Anrechnung ausl�
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · DA-1 2025 · DA-1 › Kopf · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · DA-1 2025 · DA-1 › Kopf · S. 1
 
 # DA-1 Anrechnung ausländischer Quellensteuern 2025
 

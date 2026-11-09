@@ -8,7 +8,7 @@ titel: "Art. 76 StV AR – Revision (Art. 281 StG)"
 artikel: "Art. 76"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 76 Revision (Art. 281 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 76 Revision (Art. 281 StG)
 
 ### Art. 76 StV AR – Revision (Art. 281 StG)
 

@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerfüsse"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Steuerfüsse · Aktuelle Gemeindesteuerfüsse › Steuerfüsse
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Steuerfüsse · Aktuelle Gemeindesteuerfüsse › Steuerfüsse
 
 ## Steuerfüsse
 

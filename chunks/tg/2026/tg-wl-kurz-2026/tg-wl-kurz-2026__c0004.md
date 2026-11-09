@@ -9,7 +9,7 @@ ziffer: "13, 14"
 seiten: "1"
 qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
-> TG · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 · S. 1
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 · S. 1
 
 13.   Säule 3a   Erwerbstätige Personen mit 2. Säule (Pensionskasse)   max. Fr.   7 258
     Erwerbstätige Personen ohne 2. Säule: 20% des Erwerbseinkommens max. Fr. 36 288

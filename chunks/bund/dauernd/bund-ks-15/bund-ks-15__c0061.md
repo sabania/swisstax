@@ -2,14 +2,14 @@
 id: bund-ks-15__c0061
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 2/3)"
 ziffer: "Anh. III 1a"
 seiten: "19-20"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 1 Index- und Basketzertifikate auf Aktien · S. 19–20
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 1 Index- und Basketzertifikate auf Aktien · S. 19–20
 
 (Art. 16 Abs. 3 DBG). Allfällige Ausgleichszahlungen stellen steuerbaren Vermögensertrag
 gemäss Artikel 20 Absatz 1 Buchstabe a DBG dar, dies ungeachtet dessen, ob es sich bei

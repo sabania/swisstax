@@ -8,7 +8,7 @@ titel: "Art. 26 QStV – Änderung eines anderen Erlasses"
 artikel: "Art. 26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 5. Abschnitt: Schlussbestimmungen › Art. 26 Änderung eines anderen Erlasses
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 5. Abschnitt: Schlussbestimmungen › Art. 26 Änderung eines anderen Erlasses
 
 ### Art. 26 QStV – Änderung eines anderen Erlasses
 

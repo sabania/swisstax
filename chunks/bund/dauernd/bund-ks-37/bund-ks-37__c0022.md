@@ -2,14 +2,14 @@
 id: bund-ks-37__c0022
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.4.1 Vorzeitiger Wegfall der Sperrfrist (Art. 11 MBV)"
 ziffer: "3.4.1"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 3 Besteuerung von Mitarbeiteraktien › 3.4 Besondere Fälle › 3.4.1 Vorzeitiger Wegfall der Sperrfrist · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 3 Besteuerung von Mitarbeiteraktien › 3.4 Besondere Fälle › 3.4.1 Vorzeitiger Wegfall der Sperrfrist · S. 8
 
 3.4   Besondere Fälle
 3.4.1 Vorzeitiger Wegfall der Sperrfrist (Art. 11 MBV)

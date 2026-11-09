@@ -2,15 +2,24 @@
 typ: quelle
 id: sg-stb-aenderungen-2026
 jur: sg
-jahre: [2026]
+jahre: [2025, 2026]
 titel: "Liste geänderter und neuer Weisungen, Stand 1.1.2026"
 generiert: tools/build_index.py
 ---
 # StB SG Änderungen 2026: Liste geänderter und neuer Weisungen, Stand 1.1.2026
 
-- **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2026
+- **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.sg.ch/steuern-finanzen/steuern/steuerbuch/_jcr_content/Par/sgch_downloadlist_co/DownloadListPar/sgch_download.ocFile/Liste%20ge%C3%A4nderte%20und%20neue%20Weisungen%20Stand%2001.01.2026.pdf> · lokal: [sg-stb-aenderungen-2026.pdf](../../../raw/sg/2026/sg-stb-aenderungen-2026.pdf) · Volltext: [sg-stb-aenderungen-2026.md](../../../sources/sg/2026/sg-stb-aenderungen-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `fb4424b05c6109fe…`
+- **Gültigkeit:** Zeitbezug info (Information) · gilt ab 2026-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-aenderungen-2026`).
+
+- [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
+- [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
+- [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

@@ -8,7 +8,7 @@ titel: "Art. 60 StG AR – 2. Wirtschaftliche Zugehörigkeit"
 artikel: "Art. 60"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 60 2. Wirtschaftliche Zugehörigkeit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 60 2. Wirtschaftliche Zugehörigkeit
 
 ### Art. 60 StG AR – 2. Wirtschaftliche Zugehörigkeit
 

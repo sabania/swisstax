@@ -9,7 +9,7 @@ ziffer: "10.1"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: wegleitung}}
 ---
-> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 10. Berufskosten › 10.1 Fahrt zur Arbeit · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 10. Berufskosten › 10.1 Fahrt zur Arbeit · S. 1
 
 10.   Berufskosten 1.2   Bei Benützung eines Fahrrades oder Kleinmotorrades   bis Fr.   700   23
     unselbständig

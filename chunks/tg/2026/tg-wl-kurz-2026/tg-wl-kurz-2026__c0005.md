@@ -9,7 +9,7 @@ ziffer: "15–18"
 seiten: "1"
 qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
-> TG · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 · S. 1
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 · S. 1
 
 15.   Weitere Abzüge   15.3 Kosten für Drittbetreuung von Kinder unter 14 Jahren, pro Kind   Kanton   Bund
     in der Regel 75% der Kosten, maximal aber   Fr. 10 100 Fr. 25 800

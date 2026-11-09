@@ -8,7 +8,7 @@ titel: "Art. 125 DBG – Beilagen zur Steuererklärung (Teil 1/2)"
 artikel: "Art. 125"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 2. Abschnitt: Pflichten des Steuerpflichtigen › Art. 125 Beilagen zur Steuererklärung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 2. Abschnitt: Pflichten des Steuerpflichtigen › Art. 125 Beilagen zur Steuererklärung
 
 ### Art. 125 DBG – Beilagen zur Steuererklärung
 

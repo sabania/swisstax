@@ -9,7 +9,7 @@ artikel: "§ 39a"
 seiten: "23"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 39a StG ZH – III. Mitarbeiterbeteiligungen · S. 23
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 39a StG ZH – III. Mitarbeiterbeteiligungen · S. 23
 
 ### § 39a StG ZH – III. Mitarbeiterbeteiligungen
 

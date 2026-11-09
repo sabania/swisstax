@@ -2,14 +2,14 @@
 id: bund-ks-15__c0001
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Einleitung – KS 4 und Transparenz kombinierter Produkte (Teil 1/3)"
 ziffer: "1"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 1 Einleitung · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · 1 Einleitung · S. 2
 
 1   Einleitung
 Im Kreisschreiben Nr. 4 vom 12. April 1999 (KS 4) und den Anhängen I, II, und III hat die

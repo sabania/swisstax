@@ -8,7 +8,7 @@ titel: "Art. 52 StG AR – 2. Steuersatz"
 artikel: "Art. 52"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 52 2. Steuersatz
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 52 2. Steuersatz
 
 ### Art. 52 StG AR – 2. Steuersatz
 

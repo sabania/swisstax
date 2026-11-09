@@ -8,7 +8,7 @@ titel: "Art. 20a DBG – Besondere Fälle (Teil 2/2)"
 artikel: "Art. 20a"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerbare Einkünfte › 4. Abschnitt: Bewegliches Vermögen › Art. 20a Besondere Fälle
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerbare Einkünfte › 4. Abschnitt: Bewegliches Vermögen › Art. 20a Besondere Fälle
 
 ### Art. 20a DBG – Besondere Fälle (Fortsetzung)
 

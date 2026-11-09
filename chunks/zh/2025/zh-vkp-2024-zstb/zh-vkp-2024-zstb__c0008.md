@@ -9,7 +9,7 @@ ziffer: "§ 35 Abs. 1"
 seiten: "3-4"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 35 · S. 3–4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 35 · S. 3–4
 
     § 35. 1 Die Einkommenssteuer beträgt (Grundtarif):   V. Steuer-
     berechnung

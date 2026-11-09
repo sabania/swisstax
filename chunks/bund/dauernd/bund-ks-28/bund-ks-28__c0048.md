@@ -2,14 +2,14 @@
 id: bund-ks-28__c0048
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Wortlaut Art. 37b DBG (vom Parlament verabschiedet)"
 ziffer: "Art. 37b"
 seiten: "18"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 18
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 18
 
 Der vom Parlament verabschiedete Artikel zur Liquidationsbesteuerung lautete schliesslich
 wie folgt:

@@ -9,7 +9,7 @@ artikel: "§ 64a"
 seiten: "31-32"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 64a StG ZH – b. Patente und vergleichbare Rechte: Begriffe · S. 31–32
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 64a StG ZH – b. Patente und vergleichbare Rechte: Begriffe · S. 31–32
 
 ### § 64a StG ZH – b. Patente und vergleichbare Rechte: Begriffe
 

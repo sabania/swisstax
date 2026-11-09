@@ -8,7 +8,7 @@ titel: "Art. 34 StV AR – Selbständige Erwerbstätigkeit (Art. 53 und 54 StG) 
 artikel: "Art. 34"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › D. Zeitliche Bemessung › Art. 34 Selbständige Erwerbstätigkeit (Art. 53 und 54 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › D. Zeitliche Bemessung › Art. 34 Selbständige Erwerbstätigkeit (Art. 53 und 54 StG)
 
 ### Art. 34 StV AR – Selbständige Erwerbstätigkeit (Art. 53 und 54 StG)
 

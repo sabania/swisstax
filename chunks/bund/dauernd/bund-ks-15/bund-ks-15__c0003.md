@@ -2,14 +2,14 @@
 id: bund-ks-15__c0003
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Einleitung – KS 4 und Transparenz kombinierter Produkte (Teil 3/3)"
 ziffer: "1"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 1 Einleitung · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · 1 Einleitung · S. 2
 
 Im Unterschied zu heute stand zum Zeitpunkt der Publikation des KS 4 weder der Bond-
 FloorPricing-Service der SIX Financial Information AG (hienach BFP-Service) als Hilfsmittel

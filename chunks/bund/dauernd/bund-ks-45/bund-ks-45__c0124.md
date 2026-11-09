@@ -2,14 +2,14 @@
 id: bund-ks-45__c0124
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.3.1 Umrechnung auf 360 Tage – periodische und aperiodische Leistungen"
 ziffer: "7.3.1"
 seiten: "40"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.1 Allgemeines · S. 40
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.1 Allgemeines · S. 40
 
 Bei mehreren Teilzeitbeschäftigungen (vgl. Ziffer 7.3.2 unten), bei Tätigkeiten im Stunden-
 oder Tageslohn (vgl. Ziffer 7.3.3 unten) oder bei unterjährigen Arbeitsverhältnissen (vgl. Zif-

@@ -9,7 +9,7 @@ artikel: "§ 56"
 seiten: "27"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 56 StG ZH – 2. Wirtschaftliche Zugehörigkeit · S. 27
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 56 StG ZH – 2. Wirtschaftliche Zugehörigkeit · S. 27
 
 ### § 56 StG ZH – 2. Wirtschaftliche Zugehörigkeit
 

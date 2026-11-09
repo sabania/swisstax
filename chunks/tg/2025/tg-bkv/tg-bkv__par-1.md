@@ -8,7 +8,7 @@ titel: "§ 1 BKV TG – Fahrt zur Arbeitsstätte"
 artikel: "§ 1"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 1 Fahrt zur Arbeitsstätte
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 1 Fahrt zur Arbeitsstätte
 
 ### § 1 BKV TG – Fahrt zur Arbeitsstätte
 

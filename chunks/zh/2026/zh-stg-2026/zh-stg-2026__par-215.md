@@ -9,7 +9,7 @@ artikel: "§ 215"
 seiten: "76"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 215 StG ZH – VII. Verjährung · S. 76
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 215 StG ZH – VII. Verjährung · S. 76
 
 ### § 215 StG ZH – VII. Verjährung
 

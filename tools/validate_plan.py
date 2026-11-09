@@ -7,7 +7,9 @@ Plan-Format:
     "stichworte": ["Lohnausweis", "Nettolohn"], "positionen": ["einkommen.unselbstaendig.haupterwerb"],
     "zusammenfassung": "…"},
    {"start": 40, "skip": true, "titel": "Inhaltsverzeichnis"} , ...]}
-- start = 1-basierte Zeilennummer in sources/<jur>/<jahr>/<id>.md (vollständige Datei inkl. Frontmatter)
+- start = 1-basierte Zeilennummer im TEXTKÖRPER von sources/<jur>/<jahr>/<id>.md (Zeile 1 = erste Zeile nach der
+  Frontmatter); Plan-Feld "basis": "koerper". So bleiben Pläne gültig, wenn sich Metadaten in der Frontmatter ändern.
+  (Ältere Pläne ohne "basis" zählen ab Dateianfang.)
 - Starts streng aufsteigend; ein Chunk reicht bis zur Zeile vor dem nächsten Start.
 
   python3 tools/validate_plan.py <id> [--preview]
@@ -23,7 +25,7 @@ def main():
     plan = json.loads((ROOT / "registry" / "chunkplans" / f"{pid}.json").read_text(encoding="utf-8"))
     full = source_path(e).read_text(encoding="utf-8").splitlines()
     errs, warn = [], []
-    starts = [c.get("start") for c in plan.get("chunks", [])]
+    starts = ch.plan_starts(plan, full) if all(isinstance(c.get("start"), int) for c in plan.get("chunks", [])) else [c.get("start") for c in plan.get("chunks", [])]
     if not starts:
         errs.append("keine chunks")
     body_start = next((i + 2 for i, l in enumerate(full[1:], 1) if l == "---"), 1)

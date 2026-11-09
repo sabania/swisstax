@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-ssk-ks22-mb-sz
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt SZ zu SSK-KS 22: Interkantonale Steuerausscheidung mit Liegenschaften (Repartitionswerte)"
 generiert: tools/build_index.py
 ---
 # SSK-KS 22 (MB SZ): Merkblatt SZ zu SSK-KS 22: Interkantonale Steuerausscheidung mit Liegenschaften (Repartitionswerte)
 
-- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://www.sz.ch/public/upload/assets/17656/Merkblatt_Interkantonale_Steuerausscheidung_mit_Liegenschaften_Repartitionswerte.pdf?fp=11> · lokal: [bund-ssk-ks22-mb-sz.pdf](../../../raw/bund/dauernd/bund-ssk-ks22-mb-sz.pdf) · Volltext: [bund-ssk-ks22-mb-sz.md](../../../sources/bund/dauernd/bund-ssk-ks22-mb-sz.md)
 - **Abgerufen:** 2026-11-09 · sha256 `42efcb6f906ddbbf…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-11-18 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ssk-ks22-mb-sz`).
+
+- [wiki/themen/interkantonale-ausscheidung.md](../../themen/interkantonale-ausscheidung.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

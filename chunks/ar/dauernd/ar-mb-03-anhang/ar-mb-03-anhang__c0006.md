@@ -2,14 +2,14 @@
 id: ar-mb-03-anhang__c0006
 quelle: ar-mb-03-anhang
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 3.1–3.2 Küche und Sanitäre Installationen"
 ziffer: "3.1-3.2"
 seiten: "2"
-qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: ar, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 3 Installationen › 3.1 Kücheneinrichtungen › 3.2 Sanitäre Installationen · S. 2
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Merkblatt · Steuerjahr 2025/2026/2027 · MB AR 03-anhang · 3 Installationen › 3.1 Kücheneinrichtungen › 3.2 Sanitäre Installationen · S. 2
 
   3   Installationen
 

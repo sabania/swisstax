@@ -9,7 +9,7 @@ ziffer: "10–12"
 seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · II. Unüberbautes Land › 3. Landwerte › Mehrfamilienhäuser und Stockwerkeigentum · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · II. Unüberbautes Land › 3. Landwerte › Mehrfamilienhäuser und Stockwerkeigentum · S. 3
 
 Bauland für Mehrfamilienhäuser und Stockwerkeigentum
     Für jede Gemeinde wird eine Preisbandbreite festgelegt.   10

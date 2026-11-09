@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-34-2.html> · lokal: [zh-zstb-34-2.html](../../../raw/zh/dauernd/zh-zstb-34-2.html) · Volltext: [zh-zstb-34-2.md](../../../sources/zh/dauernd/zh-zstb-34-2.md)
 - **Abgerufen:** 2026-11-09 · sha256 `d845bd1b80b8ec66…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2019-01-01 bis offen
 
 ## Inhalt (2 Chunks)
 

@@ -9,7 +9,7 @@ artikel: "§ 15"
 seiten: "6"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 15 StG ZH – XI.[^78] Steuererleichterungen für Unternehmen · S. 6
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 15 StG ZH – XI.[^78] Steuererleichterungen für Unternehmen · S. 6
 
 ### § 15 StG ZH – XI.[^78] Steuererleichterungen für Unternehmen
 

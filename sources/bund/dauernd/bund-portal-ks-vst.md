@@ -6,12 +6,14 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: portal
 quelle_url: https://www.estv.admin.ch/de/kreisschreiben-verrechnungssteuer
 raw: raw/bund/dauernd/bund-portal-ks-vst.html
 sha256: 6c87a01f53e5d39553737da9acb7c0247a97be8de2c54a564e8388ed740a625f
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Kreisschreiben Verrechnungssteuer (Übersicht)
 

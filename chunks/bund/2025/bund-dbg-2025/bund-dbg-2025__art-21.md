@@ -8,7 +8,7 @@ titel: "Art. 21 DBG"
 artikel: "Art. 21"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 5. Abschnitt: Unbewegliches Vermögen › Art. 21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 5. Abschnitt: Unbewegliches Vermögen › Art. 21
 
 ### Art. 21 DBG
 

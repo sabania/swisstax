@@ -12,6 +12,7 @@ raw: raw/ar/dauernd/ar-info-steuerberechnung.html
 sha256: bcaddcf48cb9919fb8453dcf73b4fd42c15f8441a2833c0f9b93771d242b299a
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Steuerberechnungen und Steuerfüsse natürliche Personen
 

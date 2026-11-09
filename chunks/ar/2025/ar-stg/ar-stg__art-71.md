@@ -8,7 +8,7 @@ titel: "Art. 71 StG AR – 3. Erfolgsneutrale Vorgänge"
 artikel: "Art. 71"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 71 3. Erfolgsneutrale Vorgänge
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 71 3. Erfolgsneutrale Vorgänge
 
 ### Art. 71 StG AR – 3. Erfolgsneutrale Vorgänge
 

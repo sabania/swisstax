@@ -2,15 +2,26 @@
 typ: quelle
 id: ar-mb-15
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 15: Berufskostenpauschale für Behördentätigkeit (ab 2024)"
 generiert: tools/build_index.py
 ---
 # MB AR 15: Merkblatt 15: Berufskostenpauschale für Behördentätigkeit (ab 2024)
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/15_Berufskostenpauschale_fuer_Behoerdentaetigkeit__ab_2024_.pdf> · lokal: [ar-mb-15.pdf](../../../raw/ar/dauernd/ar-mb-15.pdf) · Volltext: [ar-mb-15.md](../../../sources/ar/dauernd/ar-mb-15.md)
 - **Abgerufen:** 2026-11-09 · sha256 `eb4c82669d3000c4…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2024-02-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 4 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-15`).
+
+- `data/werte/ar/2026.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/ar/2026.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#3:einkommen.unselbstaendig.vr_honorare@1.3` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#79:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

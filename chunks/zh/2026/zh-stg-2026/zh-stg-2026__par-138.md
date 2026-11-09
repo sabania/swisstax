@@ -9,7 +9,7 @@ artikel: "§ 138"
 seiten: "60"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 138 StG ZH – II. Einschätzung 1. Vorbereitung · S. 60
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 138 StG ZH – II. Einschätzung 1. Vorbereitung · S. 60
 
 ### § 138 StG ZH – II. Einschätzung 1. Vorbereitung
 

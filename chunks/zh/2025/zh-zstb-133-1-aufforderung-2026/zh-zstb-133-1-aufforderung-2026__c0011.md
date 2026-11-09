@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0011
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "B.I Juristische Personen – Steuererklärung 2025 (Pflicht, Formulare, Frist 30. September 2026) (Teil 2/2)"
 ziffer: "B.I"
 seiten: "4"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · B. Juristische Personen › I. Steuererklärung 2025 · S. 4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · B. Juristische Personen › I. Steuererklärung 2025 · S. 4
 
 2. Zustellung der Formulare
 

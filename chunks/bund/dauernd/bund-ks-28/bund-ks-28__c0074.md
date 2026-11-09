@@ -2,14 +2,14 @@
 id: bund-ks-28__c0074
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Art. 7 Nachträglicher Anschluss an eine Vorsorgeeinrichtung"
 ziffer: "Art. 7"
 seiten: "26"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 26
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 26
 
 Artikel 7   Nachträglicher Anschluss an eine Vorsorgeeinrichtung
 

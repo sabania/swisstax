@@ -8,7 +8,7 @@ titel: "Art. 270 StG AR – Veruntreuung von Quellensteuern"
 artikel: "Art. 270"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 3. Steuervergehen › Art. 270 Veruntreuung von Quellensteuern
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 3. Steuervergehen › Art. 270 Veruntreuung von Quellensteuern
 
 ### Art. 270 StG AR – Veruntreuung von Quellensteuern
 

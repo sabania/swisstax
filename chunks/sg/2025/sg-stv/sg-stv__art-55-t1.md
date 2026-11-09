@@ -8,7 +8,7 @@ titel: "Art. 55 StV SG – Steuerabzug a) Tarifarten (Art. 107 StG) (Teil 1/4)"
 artikel: "Art. 55"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 55 Steuerabzug a) Tarifarten (Art. 107 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 55 Steuerabzug a) Tarifarten (Art. 107 StG)
 
 ### Art. 55 StV SG – Steuerabzug a) Tarifarten (Art. 107 StG)
 

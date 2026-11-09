@@ -8,7 +8,7 @@ titel: "Art. 205f DBG – Übergangsbestimmung zur Änderung vom 26. September 2
 artikel: "Art. 205f"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205f Übergangsbestimmung zur Änderung vom 26. September 2014
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205f Übergangsbestimmung zur Änderung vom 26. September 2014
 
 ### Art. 205f DBG – Übergangsbestimmung zur Änderung vom 26. September 2014
 

@@ -9,7 +9,7 @@ artikel: "§ 12"
 seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › D. Fristen › § 12 StV ZH – 1. Berechnung einer Frist · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › D. Fristen › § 12 StV ZH – 1. Berechnung einer Frist · S. 3
 
 ### § 12 StV ZH – 1. Berechnung einer Frist
 

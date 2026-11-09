@@ -8,7 +8,7 @@ titel: "Art. 224 StG SG – Stundung und Erlass"
 artikel: "Art. 224"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 224 Stundung und Erlass
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 224 Stundung und Erlass
 
 ### Art. 224 StG SG – Stundung und Erlass
 

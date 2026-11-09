@@ -8,7 +8,7 @@ titel: "Art. 190 StG AR – 2. Verwirkung und Verjährung"
 artikel: "Art. 190"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 190 2. Verwirkung und Verjährung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 190 2. Verwirkung und Verjährung
 
 ### Art. 190 StG AR – 2. Verwirkung und Verjährung
 

@@ -12,6 +12,8 @@ raw: raw/sg/dauernd/sg-info-etax.html
 sha256: 1b582c2bb2aef11171c7c28dfde714f766a0c06b5f2aa6967736946ce7338f45
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: verfahren
+gilt_ab: '2026-01-01'
 ---
 # Elektronische Steuererklärung (E-Tax NP)
 

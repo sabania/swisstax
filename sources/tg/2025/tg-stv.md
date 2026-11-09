@@ -14,6 +14,8 @@ sha256: 2dddb5ebef541f070606dafdc1d167da6a11bb31526e46a867b1d5557d7f7c4c
 abgerufen: '2026-11-09'
 einheiten: 113
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
 ---
 # Verordnung zum Gesetz über die Staats- und Gemeindesteuern TG (RB 640.11) – Version gültig ab 01.01.2025
 

@@ -8,7 +8,7 @@ titel: "Art. 184a StG AR – 3a. Verfahrenspflichten bei Wegfall der Ermässigun
 artikel: "Art. 184a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 184a 3a. Verfahrenspflichten bei Wegfall der Ermässigung der Erbschafts- oder Schenkungssteuer bei der Unternehmensnachfolge
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 184a 3a. Verfahrenspflichten bei Wegfall der Ermässigung der Erbschafts- oder Schenkungssteuer bei der Unternehmensnachfolge
 
 ### Art. 184a StG AR – 3a. Verfahrenspflichten bei Wegfall der Ermässigung der Erbschafts- oder Schenkungssteuer bei der Unternehmensnachfolge
 

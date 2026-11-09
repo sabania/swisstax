@@ -8,7 +8,7 @@ titel: "Art. 102 DBG – Organisation"
 artikel: "Art. 102"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Steuerbehörden › 1. Kapitel: Eidgenössische Behörden › Art. 102 Organisation
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Steuerbehörden › 1. Kapitel: Eidgenössische Behörden › Art. 102 Organisation
 
 ### Art. 102 DBG – Organisation
 

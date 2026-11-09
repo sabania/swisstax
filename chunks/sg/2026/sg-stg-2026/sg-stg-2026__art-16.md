@@ -8,7 +8,7 @@ titel: "Art. 16 StG SG – Steuerausscheidung"
 artikel: "Art. 16"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 16 Steuerausscheidung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 16 Steuerausscheidung
 
 ### Art. 16 StG SG – Steuerausscheidung
 

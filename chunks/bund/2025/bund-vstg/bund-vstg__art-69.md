@@ -2,13 +2,13 @@
 id: bund-vstg__art-69
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 69 VStG"
 artikel: "Art. 69"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · B. Übergangsrecht › I. Für Ausländer › Art. 69
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · B. Übergangsrecht › I. Für Ausländer › Art. 69
 
 ### Art. 69 VStG
 

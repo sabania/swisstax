@@ -2,14 +2,14 @@
 id: bund-ks-42__c0031
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.8 Leistungen des neuen Arbeitgebers bei Stellenantritt"
 ziffer: "4.8"
 seiten: "11-12"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.8 Neuer Arbeitgeber · S. 11–12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 4 Steuerliche Behandlung › 4.8 Neuer Arbeitgeber · S. 11–12
 
 4.8   Leistungen des neuen Arbeitgebers bei Stellenantritt für bereits geleistete be-
     rufsorientierte Aus- und Weiterbildungskosten

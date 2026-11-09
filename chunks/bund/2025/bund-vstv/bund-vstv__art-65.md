@@ -2,13 +2,13 @@
 id: bund-vstv__art-65
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 65 VStV"
 artikel: "Art. 65"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · III. Abschlagsrückerstattungen › 1. Voraussetzungen und Verfahren › Art. 65
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · III. Abschlagsrückerstattungen › 1. Voraussetzungen und Verfahren › Art. 65
 
 ### Art. 65 VStV
 

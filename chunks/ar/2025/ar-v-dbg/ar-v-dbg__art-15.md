@@ -8,7 +8,7 @@ titel: "Art. 15 V DBG AR – Löschung einer Firma im Handelsregister (Art. 171 
 artikel: "Art. 15"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · V. Steuerbezug und Steuersicherung › Art. 15 Löschung einer Firma im Handelsregister (Art. 171 DBG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · V. Steuerbezug und Steuersicherung › Art. 15 Löschung einer Firma im Handelsregister (Art. 171 DBG)
 
 ### Art. 15 V DBG AR – Löschung einer Firma im Handelsregister (Art. 171 DBG)
 

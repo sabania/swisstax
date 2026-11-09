@@ -1,10 +1,150 @@
-{"id":"ar-mb-06","hinweise":["Bussenschema im Anhang (Seite 3) einzeilig extrahiert; Spalten lesbar. Kontaktblock Seite 1/3 als Kopf."],"chunks":[
-{"start":17,"titel":"Merkblatt 06 – Kopf und Ziff. 1 Verletzung von Verfahrenspflichten (Art. 242 StG)","pfad":["1. Verletzung von Verfahrenspflichten"],"ziffer":"1","stichworte":["Verfahrenspflichten","Steuererklärung nicht eingereicht","Mitwirkungspflicht","Busse","Art. 242 StG","Inventarverfahren"],"positionen":["verfahren.einreichung"],"zusammenfassung":"Verfahrenspflichten nach Art. 242 StG: Einreichung der Steuererklärung samt Beilagen, Mitwirkungs-, Bescheinigungs- und Meldepflichten, Pflichten im Inventarverfahren; gültig ab Steuerperiode 2025."},
-{"start":53,"titel":"Ziff. 2 Ordnungsbussenschema – Busse bis Fr. 1'000, schwere Fälle bis Fr. 10'000","pfad":["2. Ordnungsbussenschema"],"ziffer":"2","stichworte":["Ordnungsbusse","Mahnung","Fr. 1'000","Fr. 10'000","Rückfall","Bussenschema"],"positionen":["verfahren.einreichung"],"zusammenfassung":"Wer trotz Mahnung eine Pflicht verletzt, wird mit Busse bis Fr. 1'000, in schweren Fällen oder im Rückfall bis Fr. 10'000 bestraft; Festsetzung nach Schema im Anhang."},
-{"start":62,"titel":"Ziff. 3.1–3.2 Grundsätze der Bussenbemessung – Verschulden, Reduktion und Erhöhung","pfad":["3. Grundsätze der Bussenbemessung","3.1–3.2"],"ziffer":"3.1","stichworte":["Verschulden","Bussenbemessung","steuerbares Einkommen","Reduktion","grobes Verschulden","renitent"],"zusammenfassung":"Busse richtet sich nach Verschulden, persönlichen Verhältnissen und steuerbarem Einkommen (Vorperiode); bei leichtem Verschulden Reduktion, bei grobem Verschulden Erhöhung im Rahmen des Maximums."},
-{"start":87,"titel":"Ziff. 3.3–3.4 Teilweise Steuerpflicht und gemeinsam steuerpflichtige Ehegatten","pfad":["3. Grundsätze der Bussenbemessung","3.3–3.4"],"ziffer":"3.3","stichworte":["Ehegatten","gemeinsame Busse","Steuerausscheidung","teilweise Steuerpflicht","satzbestimmendes Einkommen"],"zusammenfassung":"Bei wirtschaftlicher Zugehörigkeit nach Gesamteinkommen, Busse auf untere Hälfte des Strafrahmens begrenzbar; Ehegatten erhalten eine gemeinsame Busse nach dem gemeinsamen steuerbaren Einkommen."},
-{"start":97,"titel":"Ziff. 4 Bussenbemessung in Spezialfällen (Dritte, Quellensteuer, Grundstückgewinn, Inventar)","pfad":["4. Bussenbemessung in Spezialfällen"],"ziffer":"4","stichworte":["Drittpersonen","Quellensteuer","Grundstückgewinnsteuer","Inventarverfahren","Erbschaftssteuer","Mindestbusse Fr. 200"],"zusammenfassung":"Busse bei Drittpersonen mindestens Fr. 200; bei Quellensteuer, Grundstückgewinnsteuer und Inventarverfahren sinngemäss nach Bussenschema."},
-{"start":119,"titel":"Ziff. 5 Direkte Bundessteuer – Ordnungsbussen nach Art. 174 DBG","pfad":["5. Direkte Bundessteuer"],"ziffer":"5","stichworte":["direkte Bundessteuer","Art. 174 DBG","Ordnungsbusse Bund","gleich hoch wie kantonale Busse"],"zusammenfassung":"Weisung gilt auch für Ordnungsbussen nach Art. 174 DBG; die Bundessteuerbusse wird gleich hoch wie die kantonale Busse festgesetzt."},
-{"start":142,"titel":"Anhang Bussenschema natürliche Personen (nach steuerbarem Einkommen)","pfad":["Anhang","Natürliche Personen"],"stichworte":["Bussenschema","natürliche Personen","1. Verletzung","Wiederholung","Busse Fr. 100 bis 4'000"],"positionen":["verfahren.einreichung"],"zusammenfassung":"Busse für natürliche Personen: z.B. bis Fr. 10'000 Einkommen 100 (1. Verletzung), über Fr. 100'000 800–1'000; weitere Verletzungen bis 2'000 bis 10'000."},
-{"start":156,"titel":"Anhang Bussenschema juristische Personen und Wiederholungsfall","pfad":["Anhang","Juristische Personen"],"stichworte":["Bussenschema juristische Personen","steuerbarer Gewinn","Verdoppelung Wiederholung"],"zusammenfassung":"Busse für juristische Personen nach steuerbarem Gewinn, z.B. über Fr. 100'000 1. Verletzung 1'000–1'300; im Wiederholungsfall wird die frühere Busse verdoppelt."}
-]}
+{
+ "id": "ar-mb-06",
+ "hinweise": [
+  "Bussenschema im Anhang (Seite 3) einzeilig extrahiert; Spalten lesbar. Kontaktblock Seite 1/3 als Kopf."
+ ],
+ "chunks": [
+  {
+   "start": 1,
+   "titel": "Merkblatt 06 – Kopf und Ziff. 1 Verletzung von Verfahrenspflichten (Art. 242 StG)",
+   "pfad": [
+    "1. Verletzung von Verfahrenspflichten"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Verfahrenspflichten",
+    "Steuererklärung nicht eingereicht",
+    "Mitwirkungspflicht",
+    "Busse",
+    "Art. 242 StG",
+    "Inventarverfahren"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Verfahrenspflichten nach Art. 242 StG: Einreichung der Steuererklärung samt Beilagen, Mitwirkungs-, Bescheinigungs- und Meldepflichten, Pflichten im Inventarverfahren; gültig ab Steuerperiode 2025."
+  },
+  {
+   "start": 37,
+   "titel": "Ziff. 2 Ordnungsbussenschema – Busse bis Fr. 1'000, schwere Fälle bis Fr. 10'000",
+   "pfad": [
+    "2. Ordnungsbussenschema"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "Ordnungsbusse",
+    "Mahnung",
+    "Fr. 1'000",
+    "Fr. 10'000",
+    "Rückfall",
+    "Bussenschema"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Wer trotz Mahnung eine Pflicht verletzt, wird mit Busse bis Fr. 1'000, in schweren Fällen oder im Rückfall bis Fr. 10'000 bestraft; Festsetzung nach Schema im Anhang."
+  },
+  {
+   "start": 46,
+   "titel": "Ziff. 3.1–3.2 Grundsätze der Bussenbemessung – Verschulden, Reduktion und Erhöhung",
+   "pfad": [
+    "3. Grundsätze der Bussenbemessung",
+    "3.1–3.2"
+   ],
+   "ziffer": "3.1",
+   "stichworte": [
+    "Verschulden",
+    "Bussenbemessung",
+    "steuerbares Einkommen",
+    "Reduktion",
+    "grobes Verschulden",
+    "renitent"
+   ],
+   "zusammenfassung": "Busse richtet sich nach Verschulden, persönlichen Verhältnissen und steuerbarem Einkommen (Vorperiode); bei leichtem Verschulden Reduktion, bei grobem Verschulden Erhöhung im Rahmen des Maximums."
+  },
+  {
+   "start": 71,
+   "titel": "Ziff. 3.3–3.4 Teilweise Steuerpflicht und gemeinsam steuerpflichtige Ehegatten",
+   "pfad": [
+    "3. Grundsätze der Bussenbemessung",
+    "3.3–3.4"
+   ],
+   "ziffer": "3.3",
+   "stichworte": [
+    "Ehegatten",
+    "gemeinsame Busse",
+    "Steuerausscheidung",
+    "teilweise Steuerpflicht",
+    "satzbestimmendes Einkommen"
+   ],
+   "zusammenfassung": "Bei wirtschaftlicher Zugehörigkeit nach Gesamteinkommen, Busse auf untere Hälfte des Strafrahmens begrenzbar; Ehegatten erhalten eine gemeinsame Busse nach dem gemeinsamen steuerbaren Einkommen."
+  },
+  {
+   "start": 81,
+   "titel": "Ziff. 4 Bussenbemessung in Spezialfällen (Dritte, Quellensteuer, Grundstückgewinn, Inventar)",
+   "pfad": [
+    "4. Bussenbemessung in Spezialfällen"
+   ],
+   "ziffer": "4",
+   "stichworte": [
+    "Drittpersonen",
+    "Quellensteuer",
+    "Grundstückgewinnsteuer",
+    "Inventarverfahren",
+    "Erbschaftssteuer",
+    "Mindestbusse Fr. 200"
+   ],
+   "zusammenfassung": "Busse bei Drittpersonen mindestens Fr. 200; bei Quellensteuer, Grundstückgewinnsteuer und Inventarverfahren sinngemäss nach Bussenschema."
+  },
+  {
+   "start": 103,
+   "titel": "Ziff. 5 Direkte Bundessteuer – Ordnungsbussen nach Art. 174 DBG",
+   "pfad": [
+    "5. Direkte Bundessteuer"
+   ],
+   "ziffer": "5",
+   "stichworte": [
+    "direkte Bundessteuer",
+    "Art. 174 DBG",
+    "Ordnungsbusse Bund",
+    "gleich hoch wie kantonale Busse"
+   ],
+   "zusammenfassung": "Weisung gilt auch für Ordnungsbussen nach Art. 174 DBG; die Bundessteuerbusse wird gleich hoch wie die kantonale Busse festgesetzt."
+  },
+  {
+   "start": 126,
+   "titel": "Anhang Bussenschema natürliche Personen (nach steuerbarem Einkommen)",
+   "pfad": [
+    "Anhang",
+    "Natürliche Personen"
+   ],
+   "stichworte": [
+    "Bussenschema",
+    "natürliche Personen",
+    "1. Verletzung",
+    "Wiederholung",
+    "Busse Fr. 100 bis 4'000"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Busse für natürliche Personen: z.B. bis Fr. 10'000 Einkommen 100 (1. Verletzung), über Fr. 100'000 800–1'000; weitere Verletzungen bis 2'000 bis 10'000."
+  },
+  {
+   "start": 140,
+   "titel": "Anhang Bussenschema juristische Personen und Wiederholungsfall",
+   "pfad": [
+    "Anhang",
+    "Juristische Personen"
+   ],
+   "stichworte": [
+    "Bussenschema juristische Personen",
+    "steuerbarer Gewinn",
+    "Verdoppelung Wiederholung"
+   ],
+   "zusammenfassung": "Busse für juristische Personen nach steuerbarem Gewinn, z.B. über Fr. 100'000 1. Verletzung 1'000–1'300; im Wiederholungsfall wird die frühere Busse verdoppelt."
+  }
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
+}

@@ -8,7 +8,7 @@ titel: "Art. 280 StG SG – Übergangsbestimmungen a) Leistungen aus beruflicher
 artikel: "Art. 280"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 280 Übergangsbestimmungen a) Leistungen aus beruflicher Vorsorge und aus obligatorischer Unfallversicherung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 280 Übergangsbestimmungen a) Leistungen aus beruflicher Vorsorge und aus obligatorischer Unfallversicherung
 
 ### Art. 280 StG SG – Übergangsbestimmungen a) Leistungen aus beruflicher Vorsorge und aus obligatorischer Unfallversicherung
 

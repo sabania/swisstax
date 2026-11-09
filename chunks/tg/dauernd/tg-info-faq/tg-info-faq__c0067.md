@@ -7,7 +7,7 @@ typ: info
 titel: "Veranlagungsverfahren"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
     Gegen den Veranlagungsentscheid können Sie innert 30 Tagen nach Zustellung bei der Veranlagungsbehörde schriftlich Einsprache erheben. Sie müssen im Einspracheschreiben noch keine Begründung aufführen, es sei denn, es handelt sich um eine Ermessensveranlagung.
 

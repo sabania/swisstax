@@ -8,7 +8,7 @@ titel: "Art. 54 StG SG – Bewertung a) Grundsatz"
 artikel: "Art. 54"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 54 Bewertung a) Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 54 Bewertung a) Grundsatz
 
 ### Art. 54 StG SG – Bewertung a) Grundsatz
 

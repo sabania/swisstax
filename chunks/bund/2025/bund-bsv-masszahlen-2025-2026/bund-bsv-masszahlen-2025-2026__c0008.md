@@ -9,7 +9,7 @@ ziffer: "6–9"
 seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 6–9 · S. 2–3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 6–9 · S. 2–3
 
   6. Die obligatorischen Risikorenten müssen bei Männern bis zum Alter 65 und bei Frauen bis   36 Abs. 1 BVG
     zum Alter 64 der Preisentwicklung angepasst werden. Dies geschieht erstmals

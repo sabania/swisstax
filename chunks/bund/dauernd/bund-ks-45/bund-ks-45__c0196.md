@@ -2,14 +2,14 @@
 id: bund-ks-45__c0196
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 9.5 Anspruchsberechtigter Kanton – Zuständigkeitsregeln"
 ziffer: "9.5"
 seiten: "61"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.5 Anspruchsberechtigter Kanton · S. 61
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.5 Anspruchsberechtigter Kanton · S. 61
 
 9.5   Anspruchsberechtigter Kanton
 Der Schuldner der steuerbaren Leistung hat für Fälligkeiten ab dem 1. Januar 2021 die Quel-

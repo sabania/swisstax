@@ -2,12 +2,12 @@
 id: bund-mm-saeule3a-einkauf__c0001
 quelle: bund-mm-saeule3a-einkauf
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: mitteilung
 titel: "Medienmitteilung Bundesrat: Einkäufe in die Säule 3a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: mitteilung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: mitteilung}}
 ---
-> Bund · Steuerjahr 2025/2026 · MM 3a-Einkäufe · Medienmitteilung Bundesrat: Einkäufe in die Säule 3a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Mitteilung · Steuerjahr 2025/2026/2027 · MM 3a-Einkäufe · Medienmitteilung Bundesrat: Einkäufe in die Säule 3a
 
 # Medienmitteilung Bundesrat: Einkäufe in die Säule 3a
 

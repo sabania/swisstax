@@ -8,7 +8,7 @@ titel: "Art. 57 StG SG – c) Unbewegliches Vermögen 1. Grundsatz"
 artikel: "Art. 57"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 57 c) Unbewegliches Vermögen 1. Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 57 c) Unbewegliches Vermögen 1. Grundsatz
 
 ### Art. 57 StG SG – c) Unbewegliches Vermögen 1. Grundsatz
 

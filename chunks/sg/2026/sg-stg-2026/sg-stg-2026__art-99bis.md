@@ -8,7 +8,7 @@ titel: "Art. 99 bis StG SG – Steuerberechnung"
 artikel: "Art. 99 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › (2.2.3 bis .) IIIbis. Mindeststeuer * › Art. 99 bis Steuerberechnung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › (2.2.3 bis .) IIIbis. Mindeststeuer * › Art. 99 bis Steuerberechnung
 
 ### Art. 99 bis StG SG – Steuerberechnung
 

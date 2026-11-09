@@ -3,12 +3,12 @@
  "hinweise": [],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "skip": true,
    "titel": "Titel und Adressblock"
   },
   {
-   "start": 40,
+   "start": 24,
    "titel": "Merkblatt 01 – Fahrkosten privates Fahrzeug, Höchstbetrag und Unzumutbarkeit ÖV",
    "pfad": [
     "Fahrt zum Arbeitsort"
@@ -29,5 +29,7 @@
    ],
    "zusammenfassung": "Kosten privater Fahrzeuge bis Höchstbetrag Fr. 6‘000 abziehbar, wenn kein ÖV verfügbar oder zumutbar (z.B. über 15 Minuten Fussmarsch, Mehraufwand 60 Minuten pro Tag)."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

@@ -2,14 +2,14 @@
 id: bund-ks-30__c0026
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.2.5 Haftung bei getrennten Eltern und Haftung der Kinder"
 ziffer: "6.2.5"
 seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 6 Haftung und Mithaftung › 6.2.5 · S. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 6 Haftung und Mithaftung › 6.2.5 · S. 11
 
 Für künftige Steuerschulden haftet hingegen nur derjenige Elternteil, dem die elterliche Sor-
 ge zusteht, da diesem das Einkommen des Kindes - mit Ausnahme des Erwerbseinkom-

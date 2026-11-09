@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Rundschreiben · **gilt für Steuerjahre:** 2026 · **Stand:** 2025-10-28
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/mljRXo4VcR0p/2-216-D-2025-d.pdf> · lokal: [bund-rs-2-216.pdf](../../../raw/bund/2026/bund-rs-2-216.pdf) · Volltext: [bund-rs-2-216.md](../../../sources/bund/2026/bund-rs-2-216.md)
 - **Abgerufen:** 2026-11-09 · sha256 `e87db19d6e5c9d6a…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31 · ersetzt `bund-rs-2-211`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-rs-2-216`).
+
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

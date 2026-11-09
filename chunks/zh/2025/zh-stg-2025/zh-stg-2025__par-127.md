@@ -9,7 +9,7 @@ artikel: "§ 127"
 seiten: "57"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 127 StG ZH – 4. Vertragliche Vertretung · S. 57
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 127 StG ZH – 4. Vertragliche Vertretung · S. 57
 
 ### § 127 StG ZH – 4. Vertragliche Vertretung
 

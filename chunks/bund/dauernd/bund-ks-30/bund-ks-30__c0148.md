@@ -2,14 +2,14 @@
 id: bund-ks-30__c0148
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Beilage 2 Seite 1/13 Normalfall Ehepaar mit minderjährigem Kind"
 ziffer: "Beilage 2, S. 1/13"
 seiten: "46"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 46
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 46
 
 Beilage 2
 

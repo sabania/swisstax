@@ -8,7 +8,7 @@ titel: "Art. 5 StG AR – II. Wirtschaftliche Zugehörigkeit (Teil 2/2)"
 artikel: "Art. 5"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 5 II. Wirtschaftliche Zugehörigkeit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 5 II. Wirtschaftliche Zugehörigkeit
 
 ### Art. 5 StG AR – II. Wirtschaftliche Zugehörigkeit (Fortsetzung)
 

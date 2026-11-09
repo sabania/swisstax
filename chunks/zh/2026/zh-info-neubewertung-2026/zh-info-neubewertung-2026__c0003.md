@@ -7,7 +7,7 @@ typ: info
 titel: "Ziel der Neubewertung"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: info}}
 ---
-> ZH · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Ziel der Neubewertung
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Ziel der Neubewertung
 
 ## Ziel der Neubewertung
 

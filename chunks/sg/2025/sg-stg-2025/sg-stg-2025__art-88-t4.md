@@ -8,7 +8,7 @@ titel: "Art. 88 StG SG – 7. Umstrukturierungen (Teil 4/4)"
 artikel: "Art. 88"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 88 7. Umstrukturierungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 88 7. Umstrukturierungen
 
 ### Art. 88 StG SG – 7. Umstrukturierungen (Fortsetzung)
 

@@ -2,14 +2,14 @@
 id: bund-ks-45__c0173
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.5.6 Beispiel – Nachzahlung Familienzulagen CHF 4 400 (Tarifcode H1) (Teil 2/2)"
 ziffer: "7.5.6"
 seiten: "54"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.6 Kapitalleistungen wiederkehrende Leistungen · S. 54
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.6 Kapitalleistungen wiederkehrende Leistungen · S. 54
 
     Quellensteuer   56   56   1713   79.80   79.80   155.80   1 077.20
     Korrektur

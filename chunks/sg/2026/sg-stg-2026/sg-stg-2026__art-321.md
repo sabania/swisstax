@@ -8,7 +8,7 @@ titel: "Art. 321 StG SG – Übergangsbestimmung des XII. Nachtrags vom 4. Augus
 artikel: "Art. 321"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 321 Übergangsbestimmung des XII. Nachtrags vom 4. August 2015
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 321 Übergangsbestimmung des XII. Nachtrags vom 4. August 2015
 
 ### Art. 321 StG SG – Übergangsbestimmung des XII. Nachtrags vom 4. August 2015
 

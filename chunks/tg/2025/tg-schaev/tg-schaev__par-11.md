@@ -8,7 +8,7 @@ titel: "§ 11 SchäV TG – Verfahren"
 artikel: "§ 11"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 1. Allgemeine Bestimmungen › § 11 Verfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 1. Allgemeine Bestimmungen › § 11 Verfahren
 
 ### § 11 SchäV TG – Verfahren
 

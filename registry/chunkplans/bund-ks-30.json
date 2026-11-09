@@ -9,17 +9,17 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt"
   },
   {
-   "start": 42,
+   "start": 25,
    "skip": true,
    "titel": "Inhaltsverzeichnis"
   },
   {
-   "start": 210,
+   "start": 193,
    "titel": "Einleitung; Ziff. 1.1 Einheit der Familie – Gemeinschaftsbesteuerung",
    "pfad": [
     "1 Einheit der Familie / Zusammenveranlagung",
@@ -40,7 +40,7 @@
    ]
   },
   {
-   "start": 246,
+   "start": 229,
    "titel": "Ziff. 1.2 Beginn und Ende der Gemeinschaftsbesteuerung",
    "pfad": [
     "1 Einheit der Familie / Zusammenveranlagung",
@@ -61,7 +61,7 @@
    ]
   },
   {
-   "start": 258,
+   "start": 241,
    "titel": "Ziff. 1.3 Faktische Trennung – Voraussetzungen getrennter Veranlagung",
    "pfad": [
     "1 Einheit der Familie / Zusammenveranlagung",
@@ -81,7 +81,7 @@
    ]
   },
   {
-   "start": 279,
+   "start": 262,
    "titel": "Ziff. 1.3 Zwei Wohnsitze trotz ungetrennter Ehe – Veranlagungsort",
    "pfad": [
     "1 Einheit der Familie / Zusammenveranlagung",
@@ -102,7 +102,7 @@
    ]
   },
   {
-   "start": 300,
+   "start": 283,
    "titel": "Ziff. 2.1 Ausländischer Wohnsitz eines Ehegatten",
    "pfad": [
     "2 Internationale Verhältnisse",
@@ -123,7 +123,7 @@
    ]
   },
   {
-   "start": 312,
+   "start": 295,
    "titel": "Ziff. 2.1 Satzbestimmung mit Einkommen des im Ausland wohnenden Ehegatten",
    "pfad": [
     "2 Internationale Verhältnisse",
@@ -143,7 +143,7 @@
    ]
   },
   {
-   "start": 337,
+   "start": 320,
    "titel": "Ziff. 2.2 Beschränkte Steuerpflicht eines Ehegatten",
    "pfad": [
     "2 Internationale Verhältnisse",
@@ -163,7 +163,7 @@
    ]
   },
   {
-   "start": 348,
+   "start": 331,
    "titel": "Ziff. 3 Minderjährige Kinder – Zurechnung des Kindereinkommens",
    "pfad": [
     "3 Besteuerung der minderjährigen Kinder"
@@ -184,7 +184,7 @@
    ]
   },
   {
-   "start": 371,
+   "start": 354,
    "titel": "Ziff. 3 Zurechnung bei getrennten Eltern – Obhut und alternierende Obhut",
    "pfad": [
     "3 Besteuerung der minderjährigen Kinder"
@@ -204,7 +204,7 @@
    ]
   },
   {
-   "start": 383,
+   "start": 366,
    "titel": "Ziff. 3 Erwerbs- und Ersatzeinkommen des Kindes, selbständige Veranlagung",
    "pfad": [
     "3 Besteuerung der minderjährigen Kinder"
@@ -225,7 +225,7 @@
    ]
   },
   {
-   "start": 407,
+   "start": 390,
    "titel": "Ziff. 4 Eingetragene Partnerschaft – Gleichstellung mit Ehepaaren",
    "pfad": [
     "4 Eingetragene Partnerinnen oder Partner"
@@ -244,7 +244,7 @@
    ]
   },
   {
-   "start": 423,
+   "start": 406,
    "titel": "Ziff. 4 Unterhaltsleistungen und Steuernachfolge bei eingetragener Partnerschaft",
    "pfad": [
     "4 Eingetragene Partnerinnen oder Partner"
@@ -263,7 +263,7 @@
    ]
   },
   {
-   "start": 440,
+   "start": 423,
    "titel": "Ziff. 5 Steuernachfolge des überlebenden Ehegatten – Erbenhaftung",
    "pfad": [
     "5 Steuernachfolge des überlebenden Ehegatten"
@@ -283,7 +283,7 @@
    ]
   },
   {
-   "start": 468,
+   "start": 451,
    "titel": "Ziff. 6.1–6.2.1 Solidarhaftung der Ehegatten und Wegfall bei Zahlungsunfähigkeit",
    "pfad": [
     "6 Haftung und Mithaftung",
@@ -301,7 +301,7 @@
    "ziffer": "6.1"
   },
   {
-   "start": 502,
+   "start": 485,
    "titel": "Ziff. 6.2.2–6.2.3 Wegfall der Solidarhaftung bei Trennung und Tod",
    "pfad": [
     "6 Haftung und Mithaftung",
@@ -318,7 +318,7 @@
    "ziffer": "6.2.2"
   },
   {
-   "start": 522,
+   "start": 505,
    "titel": "Ziff. 6.2.4 Anteilsmässige Haftung der Ehegatten",
    "pfad": [
     "6 Haftung und Mithaftung",
@@ -334,7 +334,7 @@
    "ziffer": "6.2.4"
   },
   {
-   "start": 540,
+   "start": 523,
    "titel": "Ziff. 6.2.5 Haftung für die Steuer auf dem Kindereinkommen",
    "pfad": [
     "6 Haftung und Mithaftung",
@@ -353,7 +353,7 @@
    ]
   },
   {
-   "start": 558,
+   "start": 541,
    "titel": "Ziff. 6.2.5 Haftung bei getrennten Eltern und Haftung der Kinder",
    "pfad": [
     "6 Haftung und Mithaftung",
@@ -373,7 +373,7 @@
    ]
   },
   {
-   "start": 576,
+   "start": 559,
    "titel": "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren",
    "pfad": [
     "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
@@ -394,7 +394,7 @@
    ]
   },
   {
-   "start": 603,
+   "start": 586,
    "titel": "Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung",
    "pfad": [
     "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
@@ -414,7 +414,7 @@
    ]
   },
   {
-   "start": 624,
+   "start": 607,
    "titel": "Ziff. 7 Prämienverbilligung mindert den Versicherungsabzug",
    "pfad": [
     "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
@@ -433,7 +433,7 @@
    ]
   },
   {
-   "start": 632,
+   "start": 615,
    "titel": "Ziff. 8.1 Kinderdrittbetreuungskostenabzug – Allgemeines",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -454,7 +454,7 @@
    ]
   },
   {
-   "start": 647,
+   "start": 630,
    "titel": "Ziff. 8.2 Kinder, für die der Drittbetreuungsabzug möglich ist (bis 14. Altersjahr)",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -475,7 +475,7 @@
    ]
   },
   {
-   "start": 674,
+   "start": 657,
    "titel": "Ziff. 8.3 Erwerbstätigkeit und Ausbildung als Voraussetzung",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -496,7 +496,7 @@
    ]
   },
   {
-   "start": 695,
+   "start": 678,
    "titel": "Ziff. 8.3 Erwerbsunfähigkeit (Art. 7 ATSG)",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -515,7 +515,7 @@
    ]
   },
   {
-   "start": 709,
+   "start": 692,
    "titel": "Ziff. 8.3 Behinderungsbedingte Drittbetreuung – Maximum CHF 10'100",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -536,7 +536,7 @@
    ]
   },
   {
-   "start": 726,
+   "start": 709,
    "titel": "Ziff. 8.4.1–8.4.2 Anspruchsberechtigung – Allgemeines, verheiratete Paare",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -556,7 +556,7 @@
    ]
   },
   {
-   "start": 748,
+   "start": 731,
    "titel": "Ziff. 8.4.3 Konkubinatseltern – Aufteilung CHF 5'050 je Elternteil, Maximum CHF 10'100",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -578,7 +578,7 @@
    ]
   },
   {
-   "start": 765,
+   "start": 748,
    "titel": "Ziff. 8.4.3 Beispiel Kinderdrittbetreuungskosten (6'000 / 9'000 / Max. 10'100)",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -599,7 +599,7 @@
    ]
   },
   {
-   "start": 783,
+   "start": 766,
    "titel": "Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -619,7 +619,7 @@
    ]
   },
   {
-   "start": 813,
+   "start": 796,
    "titel": "Ziff. 8.5 Abzugsfähige Kosten – Krippe, Tagesmutter, Internat",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -640,7 +640,7 @@
    ]
   },
   {
-   "start": 834,
+   "start": 817,
    "titel": "Ziff. 8.5 Nicht abzugsfähig – Haushaltshilfe, Schulgeld, Babysitting, Freizeit",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -661,7 +661,7 @@
    ]
   },
   {
-   "start": 851,
+   "start": 834,
    "titel": "Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten",
    "pfad": [
     "8 Kinderdrittbetreuungskostenabzug",
@@ -682,7 +682,7 @@
    ]
   },
   {
-   "start": 877,
+   "start": 860,
    "titel": "Ziff. 9.1 Zweiverdienerabzug – Voraussetzungen und Betrag (8'100 bis 13'400)",
    "pfad": [
     "9 Zweiverdienerabzug",
@@ -703,7 +703,7 @@
    ]
   },
   {
-   "start": 893,
+   "start": 876,
    "titel": "Ziff. 9.1 Zweiverdienerabzug bei Mitarbeit im Betrieb des Ehegatten",
    "pfad": [
     "9 Zweiverdienerabzug",
@@ -723,7 +723,7 @@
    ]
   },
   {
-   "start": 909,
+   "start": 892,
    "titel": "Ziff. 9.2 Definition Erwerbseinkommen für den Zweiverdienerabzug",
    "pfad": [
     "9 Zweiverdienerabzug",
@@ -743,7 +743,7 @@
    ]
   },
   {
-   "start": 935,
+   "start": 918,
    "titel": "Ziff. 9.3 Mitarbeit im Beruf oder Betrieb – hälftige Zurechnung",
    "pfad": [
     "9 Zweiverdienerabzug",
@@ -762,7 +762,7 @@
    ]
   },
   {
-   "start": 948,
+   "start": 931,
    "titel": "Ziff. 9.3 Gemeinsam selbständig erwerbende Ehepaare – Berechnung",
    "pfad": [
     "9 Zweiverdienerabzug",
@@ -783,7 +783,7 @@
    ]
   },
   {
-   "start": 968,
+   "start": 951,
    "titel": "Ziff. 9.4 Berechnung des Zweiverdienerabzugs (Schwellen 8'100 / 16'200 / 26'800)",
    "pfad": [
     "9 Zweiverdienerabzug",
@@ -803,7 +803,7 @@
    ]
   },
   {
-   "start": 984,
+   "start": 967,
    "titel": "Ziff. 10.1 Kinderabzug – Grundsatz, Stichtag, Unterhalt",
    "pfad": [
     "10 Kinderabzug",
@@ -824,7 +824,7 @@
    ]
   },
   {
-   "start": 1010,
+   "start": 993,
    "titel": "Ziff. 10.1 Anteilsmässiger Kinderabzug bei beschränkter Steuerpflicht; Fn. 2 Einkommensbegriffe",
    "pfad": [
     "10 Kinderabzug",
@@ -845,7 +845,7 @@
    ]
   },
   {
-   "start": 1036,
+   "start": 1019,
    "titel": "Ziff. 10.2 Kinderabzug für minderjährige Kinder – getrennte Eltern",
    "pfad": [
     "10 Kinderabzug",
@@ -865,7 +865,7 @@
    ]
   },
   {
-   "start": 1058,
+   "start": 1041,
    "titel": "Ziff. 10.3 Kinderabzug für volljährige Kinder in Ausbildung – Voraussetzungen",
    "pfad": [
     "10 Kinderabzug",
@@ -886,7 +886,7 @@
    ]
   },
   {
-   "start": 1078,
+   "start": 1061,
    "titel": "Ziff. 10.3 Erstausbildung, Zweitausbildung, Unterbruch, Weiterbildung",
    "pfad": [
     "10 Kinderabzug",
@@ -907,7 +907,7 @@
    ]
   },
   {
-   "start": 1104,
+   "start": 1087,
    "titel": "Ziff. 11 Unterstützungsabzug – Voraussetzungen",
    "pfad": [
     "11 Unterstützungsabzug"
@@ -927,7 +927,7 @@
    ]
   },
   {
-   "start": 1132,
+   "start": 1115,
    "titel": "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern",
    "pfad": [
     "11 Unterstützungsabzug"
@@ -949,7 +949,7 @@
    ]
   },
   {
-   "start": 1165,
+   "start": 1148,
    "titel": "Ziff. 12 Verheiratetenabzug",
    "pfad": [
     "12 Verheiratetenabzug"
@@ -968,7 +968,7 @@
    ]
   },
   {
-   "start": 1185,
+   "start": 1168,
    "titel": "Ziff. 13.1 Tarife – Grundsatz und Kapitalleistungen aus Vorsorge",
    "pfad": [
     "13 Tarife",
@@ -989,7 +989,7 @@
    ]
   },
   {
-   "start": 1211,
+   "start": 1194,
    "titel": "Ziff. 13.2–13.3 Grundtarif und Verheiratetentarif – Anwendungsbereich",
    "pfad": [
     "13 Tarife",
@@ -1006,7 +1006,7 @@
    "ziffer": "13.2"
   },
   {
-   "start": 1237,
+   "start": 1220,
    "titel": "Ziff. 13.4.1 Elterntarif – Aufbau (Abzug CHF 251 pro Kind)",
    "pfad": [
     "13 Tarife",
@@ -1028,7 +1028,7 @@
    ]
   },
   {
-   "start": 1255,
+   "start": 1238,
    "titel": "Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder",
    "pfad": [
     "13 Tarife",
@@ -1050,7 +1050,7 @@
    ]
   },
   {
-   "start": 1287,
+   "start": 1270,
    "titel": "Ziff. 13.4.2 Elterntarif bei minderjährigen Kindern – Grundsatz",
    "pfad": [
     "13 Tarife",
@@ -1072,7 +1072,7 @@
    ]
   },
   {
-   "start": 1302,
+   "start": 1285,
    "titel": "Ziff. 13.4.2 Elterntarif – Ehepaare und getrennt lebende Eltern mit minderjährigem Kind",
    "pfad": [
     "13 Tarife",
@@ -1093,7 +1093,7 @@
    ]
   },
   {
-   "start": 1326,
+   "start": 1309,
    "titel": "Ziff. 13.4.2 Elterntarif – Konkubinatseltern mit minderjährigem Kind",
    "pfad": [
     "13 Tarife",
@@ -1114,7 +1114,7 @@
    ]
   },
   {
-   "start": 1343,
+   "start": 1326,
    "titel": "Ziff. 13.4.3 Elterntarif bei volljährigen Kindern in Ausbildung – Voraussetzungen",
    "pfad": [
     "13 Tarife",
@@ -1134,7 +1134,7 @@
    ]
   },
   {
-   "start": 1358,
+   "start": 1341,
    "titel": "Ziff. 13.4.3 Elterntarif – Ehepaare, getrennte und unverheiratete Eltern mit volljährigem Kind",
    "pfad": [
     "13 Tarife",
@@ -1156,7 +1156,7 @@
    ]
   },
   {
-   "start": 1390,
+   "start": 1373,
    "titel": "Ziff. 13.4.4–13.4.5 Elterntarif bei unterstützungsbedürftigen Personen; Stichtagsprinzip",
    "pfad": [
     "13 Tarife",
@@ -1175,7 +1175,7 @@
    ]
   },
   {
-   "start": 1409,
+   "start": 1392,
    "titel": "Ziff. 13.4.6 Unterjährige Steuerpflicht – Beispiel Zuzug aus dem Ausland",
    "pfad": [
     "13 Tarife",
@@ -1193,7 +1193,7 @@
    "ziffer": "13.4.6"
   },
   {
-   "start": 1440,
+   "start": 1423,
    "titel": "Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus",
    "pfad": [
     "13 Tarife",
@@ -1211,7 +1211,7 @@
    "ziffer": "13.4.7"
   },
   {
-   "start": 1481,
+   "start": 1464,
    "titel": "Ziff. 13.4.8–13.4.9 Aufwandbesteuerung und Quellensteuer – Elterntarif",
    "pfad": [
     "13 Tarife",
@@ -1228,7 +1228,7 @@
    "ziffer": "13.4.8"
   },
   {
-   "start": 1499,
+   "start": 1482,
    "titel": "Ziff. 13.4.10 Pauschale Steueranrechnung und Elterntarif – Beispiel",
    "pfad": [
     "13 Tarife",
@@ -1246,7 +1246,7 @@
    "ziffer": "13.4.10"
   },
   {
-   "start": 1541,
+   "start": 1524,
    "titel": "Ziff. 13.4.11 Kapitalleistungen (Art. 38) und fiktive Einkäufe (Art. 37b) – Tarif",
    "pfad": [
     "13 Tarife",
@@ -1268,7 +1268,7 @@
    ]
   },
   {
-   "start": 1560,
+   "start": 1543,
    "titel": "Ziff. 13.4.12 Übriger Liquidationsgewinn (Art. 37b DBG)",
    "pfad": [
     "13 Tarife",
@@ -1289,7 +1289,7 @@
    ]
   },
   {
-   "start": 1575,
+   "start": 1558,
    "titel": "Ziff. 14 Einleitung; 14.1.1 Nachehelicher Unterhalt – zivilrechtliche Aspekte",
    "pfad": [
     "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -1309,7 +1309,7 @@
    ]
   },
   {
-   "start": 1608,
+   "start": 1591,
    "titel": "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen",
    "pfad": [
     "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -1331,7 +1331,7 @@
    ]
   },
   {
-   "start": 1633,
+   "start": 1616,
    "titel": "Ziff. 14.1.2 Güterrechtliche Leistungen, Leibrenten (40 %) und andere Unterstützungspflichten",
    "pfad": [
     "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -1352,7 +1352,7 @@
    ]
   },
   {
-   "start": 1646,
+   "start": 1629,
    "titel": "Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge)",
    "pfad": [
     "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -1372,7 +1372,7 @@
    ]
   },
   {
-   "start": 1676,
+   "start": 1659,
    "titel": "Ziff. 14.2.2 Kinderalimente – Besteuerung beim Empfänger, Abzug beim Leistenden",
    "pfad": [
     "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -1393,7 +1393,7 @@
    ]
   },
   {
-   "start": 1689,
+   "start": 1672,
    "titel": "Ziff. 14.2.2 Indirekte Zahlungen, Kapitalleistung und Unterhalt volljähriger Kinder",
    "pfad": [
     "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
@@ -1415,7 +1415,7 @@
    ]
   },
   {
-   "start": 1706,
+   "start": 1689,
    "titel": "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1437,7 +1437,7 @@
    ]
   },
   {
-   "start": 1715,
+   "start": 1698,
    "titel": "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt – Abzüge",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1459,7 +1459,7 @@
    ]
   },
   {
-   "start": 1731,
+   "start": 1714,
    "titel": "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1477,7 +1477,7 @@
    "positionen": []
   },
   {
-   "start": 1737,
+   "start": 1720,
    "titel": "Ziff. 14.4 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1499,7 +1499,7 @@
    ]
   },
   {
-   "start": 1758,
+   "start": 1741,
    "titel": "Ziff. 14.4 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1517,7 +1517,7 @@
    "positionen": []
   },
   {
-   "start": 1766,
+   "start": 1749,
    "titel": "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1538,7 +1538,7 @@
    ]
   },
   {
-   "start": 1781,
+   "start": 1764,
    "titel": "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1559,7 +1559,7 @@
    ]
   },
   {
-   "start": 1793,
+   "start": 1776,
    "titel": "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1577,7 +1577,7 @@
    "positionen": []
   },
   {
-   "start": 1798,
+   "start": 1781,
    "titel": "Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1598,7 +1598,7 @@
    ]
   },
   {
-   "start": 1815,
+   "start": 1798,
    "titel": "Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1615,7 +1615,7 @@
    "positionen": []
   },
   {
-   "start": 1824,
+   "start": 1807,
    "titel": "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1636,7 +1636,7 @@
    ]
   },
   {
-   "start": 1838,
+   "start": 1821,
    "titel": "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1657,7 +1657,7 @@
    ]
   },
   {
-   "start": 1848,
+   "start": 1831,
    "titel": "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1674,7 +1674,7 @@
    "positionen": []
   },
   {
-   "start": 1853,
+   "start": 1836,
    "titel": "Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1695,7 +1695,7 @@
    ]
   },
   {
-   "start": 1871,
+   "start": 1854,
    "titel": "Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1712,7 +1712,7 @@
    "positionen": []
   },
   {
-   "start": 1878,
+   "start": 1861,
    "titel": "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1733,7 +1733,7 @@
    ]
   },
   {
-   "start": 1891,
+   "start": 1874,
    "titel": "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1754,7 +1754,7 @@
    ]
   },
   {
-   "start": 1902,
+   "start": 1885,
    "titel": "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1771,7 +1771,7 @@
    "positionen": []
   },
   {
-   "start": 1907,
+   "start": 1890,
    "titel": "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1793,7 +1793,7 @@
    ]
   },
   {
-   "start": 1922,
+   "start": 1905,
    "titel": "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen – Abzüge",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1815,7 +1815,7 @@
    ]
   },
   {
-   "start": 1936,
+   "start": 1919,
    "titel": "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1832,7 +1832,7 @@
    "positionen": []
   },
   {
-   "start": 1942,
+   "start": 1925,
    "titel": "Ziff. 14.11 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, keine Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1853,7 +1853,7 @@
    ]
   },
   {
-   "start": 1961,
+   "start": 1944,
    "titel": "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1874,7 +1874,7 @@
    ]
   },
   {
-   "start": 1993,
+   "start": 1976,
    "titel": "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1895,7 +1895,7 @@
    ]
   },
   {
-   "start": 2006,
+   "start": 1989,
    "titel": "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Abzüge",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1916,7 +1916,7 @@
    ]
   },
   {
-   "start": 2022,
+   "start": 2005,
    "titel": "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1933,7 +1933,7 @@
    "positionen": []
   },
   {
-   "start": 2027,
+   "start": 2010,
    "titel": "Ziff. 14.14 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, keine Unterhaltszahlungen",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1954,7 +1954,7 @@
    ]
   },
   {
-   "start": 2040,
+   "start": 2023,
    "titel": "Ziff. 14.14 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, keine Unterhaltszahlungen – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1971,7 +1971,7 @@
    "positionen": []
   },
   {
-   "start": 2046,
+   "start": 2029,
    "titel": "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16)",
    "pfad": [
     "14 Familienkonstellationen",
@@ -1992,7 +1992,7 @@
    ]
   },
   {
-   "start": 2059,
+   "start": 2042,
    "titel": "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Abzüge",
    "pfad": [
     "14 Familienkonstellationen",
@@ -2013,7 +2013,7 @@
    ]
   },
   {
-   "start": 2075,
+   "start": 2058,
    "titel": "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Tarife",
    "pfad": [
     "14 Familienkonstellationen",
@@ -2030,7 +2030,7 @@
    "positionen": []
   },
   {
-   "start": 2087,
+   "start": 2070,
    "titel": "Ziff. 15.1 Verfahrensrechtliche Stellung der Ehegatten – Grundsatz",
    "pfad": [
     "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -2050,7 +2050,7 @@
    ]
   },
   {
-   "start": 2105,
+   "start": 2088,
    "titel": "Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung",
    "pfad": [
     "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -2070,7 +2070,7 @@
    ]
   },
   {
-   "start": 2130,
+   "start": 2113,
    "titel": "Ziff. 15.3 Rechtsmittel und andere Eingaben",
    "pfad": [
     "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -2090,7 +2090,7 @@
    ]
   },
   {
-   "start": 2149,
+   "start": 2132,
    "titel": "Ziff. 15.4–15.5 Mitteilungen und Vertretung der Ehegatten",
    "pfad": [
     "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -2110,7 +2110,7 @@
    ]
   },
   {
-   "start": 2168,
+   "start": 2151,
    "titel": "Ziff. 15.6 Akteneinsichtsrecht der Ehegatten",
    "pfad": [
     "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -2129,7 +2129,7 @@
    ]
   },
   {
-   "start": 2189,
+   "start": 2172,
    "titel": "Ziff. 15.7 Verfahrensrechtliche Stellung des überlebenden Ehegatten",
    "pfad": [
     "15 Verfahrensrechtliche Stellung der Ehegatten",
@@ -2148,7 +2148,7 @@
    ]
   },
   {
-   "start": 2202,
+   "start": 2185,
    "titel": "Ziff. 16.1 Steuerstrafrecht – Verletzung von Verfahrenspflichten",
    "pfad": [
     "16 Steuerstrafrecht der Ehegatten",
@@ -2168,7 +2168,7 @@
    ]
   },
   {
-   "start": 2220,
+   "start": 2203,
    "titel": "Ziff. 16.2 Steuerhinterziehung der Ehegatten – Wegfall der Schuldvermutung",
    "pfad": [
     "16 Steuerstrafrecht der Ehegatten",
@@ -2185,7 +2185,7 @@
    "ziffer": "16.2"
   },
   {
-   "start": 2244,
+   "start": 2227,
    "titel": "Ziff. 16.2 Busse nur für eigene Steuerfaktoren; Teilnahme (Art. 177 DBG)",
    "pfad": [
     "16 Steuerstrafrecht der Ehegatten",
@@ -2203,7 +2203,7 @@
    "ziffer": "16.2"
   },
   {
-   "start": 2260,
+   "start": 2243,
    "titel": "Ziff. 17 Inkrafttreten und ersetzte Kreisschreiben",
    "pfad": [
     "17 Inkrafttreten"
@@ -2220,7 +2220,7 @@
    "ziffer": "17"
   },
   {
-   "start": 2280,
+   "start": 2263,
    "titel": "Beilage 1 Übersicht über die Familienkonstellationen (Entscheidungsbaum)",
    "pfad": [
     "Beilagen",
@@ -2241,7 +2241,7 @@
    ]
   },
   {
-   "start": 2369,
+   "start": 2352,
    "titel": "Beilage 2 Seite 1/13 Normalfall Ehepaar mit minderjährigem Kind",
    "pfad": [
     "Beilagen",
@@ -2263,7 +2263,7 @@
    ]
   },
   {
-   "start": 2397,
+   "start": 2380,
    "titel": "Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt",
    "pfad": [
     "Beilagen",
@@ -2286,7 +2286,7 @@
    ]
   },
   {
-   "start": 2443,
+   "start": 2426,
    "titel": "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen",
    "pfad": [
     "Beilagen",
@@ -2308,7 +2308,7 @@
    ]
   },
   {
-   "start": 2489,
+   "start": 2472,
    "titel": "Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6",
    "pfad": [
     "Beilagen",
@@ -2330,7 +2330,7 @@
    ]
   },
   {
-   "start": 2542,
+   "start": 2525,
    "titel": "Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt",
    "pfad": [
     "Beilagen",
@@ -2352,7 +2352,7 @@
    ]
   },
   {
-   "start": 2581,
+   "start": 2564,
    "titel": "Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt",
    "pfad": [
     "Beilagen",
@@ -2374,7 +2374,7 @@
    ]
   },
   {
-   "start": 2620,
+   "start": 2603,
    "titel": "Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt",
    "pfad": [
     "Beilagen",
@@ -2396,7 +2396,7 @@
    ]
   },
   {
-   "start": 2659,
+   "start": 2642,
    "titel": "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10",
    "pfad": [
     "Beilagen",
@@ -2419,7 +2419,7 @@
    ]
   },
   {
-   "start": 2712,
+   "start": 2695,
    "titel": "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind",
    "pfad": [
     "Beilagen",
@@ -2441,7 +2441,7 @@
    ]
   },
   {
-   "start": 2760,
+   "start": 2743,
    "titel": "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern",
    "pfad": [
     "Beilagen",
@@ -2463,7 +2463,7 @@
    ]
   },
   {
-   "start": 2817,
+   "start": 2800,
    "titel": "Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16",
    "pfad": [
     "Beilagen",
@@ -2485,7 +2485,7 @@
    ]
   },
   {
-   "start": 2857,
+   "start": 2840,
    "titel": "Beilage 2 Seite 12/13 Stichtag, unterjährige und beschränkte Steuerpflicht",
    "pfad": [
     "Beilagen",
@@ -2508,7 +2508,7 @@
    ]
   },
   {
-   "start": 2897,
+   "start": 2880,
    "titel": "Beilage 2 Seite 13/13 Fussnoten: Beispiel Drittbetreuung und Systematik DBG",
    "pfad": [
     "Beilagen",
@@ -2530,5 +2530,7 @@
     "abzug.unterhaltsbeitraege"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

@@ -8,7 +8,7 @@ titel: "Art. 258 StG SG – 2. Verteidigung und Übersetzung"
 artikel: "Art. 258"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 258 2. Verteidigung und Übersetzung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 258 2. Verteidigung und Übersetzung
 
 ### Art. 258 StG SG – 2. Verteidigung und Übersetzung
 

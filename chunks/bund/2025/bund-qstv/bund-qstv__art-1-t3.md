@@ -8,7 +8,7 @@ titel: "Art. 1 QStV – Anwendbare Quellensteuertarife (Teil 3/5)"
 artikel: "Art. 1"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 1 Anwendbare Quellensteuertarife
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 1 Anwendbare Quellensteuertarife
 
 ### Art. 1 QStV – Anwendbare Quellensteuertarife (Fortsetzung)
 

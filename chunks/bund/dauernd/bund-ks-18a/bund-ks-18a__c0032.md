@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0032
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.3 Einkauf in die 2. Säule mit Mitteln der Säule 3a"
 ziffer: "6.3"
 seiten: "10"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.3 Einkauf in die 2. Säule · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.3 Einkauf in die 2. Säule · S. 10
 
 6.3. Einkauf in die 2. Säule mit Mitteln der Säule 3a
 Die vorzeitige Ausrichtung der Altersleistung aus der Säule 3a ist bei Auflösung des Vorsor-

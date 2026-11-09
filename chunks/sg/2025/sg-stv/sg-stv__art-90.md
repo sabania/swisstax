@@ -8,7 +8,7 @@ titel: "Art. 90 StV SG – b) Ausscheidungsmethode"
 artikel: "Art. 90"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · DRITTER TEIL: GEMEINDESTEUERN › Art. 90 b) Ausscheidungsmethode
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · DRITTER TEIL: GEMEINDESTEUERN › Art. 90 b) Ausscheidungsmethode
 
 ### Art. 90 StV SG – b) Ausscheidungsmethode
 

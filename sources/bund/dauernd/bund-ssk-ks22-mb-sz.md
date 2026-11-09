@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://www.sz.ch/public/upload/assets/17656/Merkblatt_Interkantonale_Steuerausscheidung_mit_Liegenschaften_Repartitionswerte.pdf?fp=11
 raw: raw/bund/dauernd/bund-ssk-ks22-mb-sz.pdf
@@ -13,6 +14,8 @@ sha256: 42efcb6f906ddbbfd134d170d3454d5aeba89d770cf94b36db13583b1fcafc61
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2025-11-18'
 ---
 # Merkblatt SZ zu SSK-KS 22: Interkantonale Steuerausscheidung mit Liegenschaften (Repartitionswerte)
 

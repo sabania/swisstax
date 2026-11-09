@@ -8,7 +8,7 @@ titel: "Art. 21 GSV AR – Datenverwaltung"
 artikel: "Art. 21"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 21 Datenverwaltung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 21 Datenverwaltung
 
 ### Art. 21 GSV AR – Datenverwaltung
 

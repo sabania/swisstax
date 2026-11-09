@@ -8,7 +8,7 @@ titel: "Art. 3 VKP – Allgemeine Abzüge (Teil 1/4)"
 artikel: "Art. 3"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · VKP · Art. 3 Allgemeine Abzüge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · VKP · Art. 3 Allgemeine Abzüge
 
 ### Art. 3 VKP – Allgemeine Abzüge
 

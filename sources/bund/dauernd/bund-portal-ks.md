@@ -6,12 +6,14 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: portal
 quelle_url: https://www.estv.admin.ch/de/kreisschreiben-direkten-bundessteuer
 raw: raw/bund/dauernd/bund-portal-ks.html
 sha256: 882eb073cd913ef6e4bd08a6c1785f0ab7c7979a8a1a440065e1051545b25439
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Kreisschreiben DBST (Übersicht)
 

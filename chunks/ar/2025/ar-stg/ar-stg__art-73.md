@@ -8,7 +8,7 @@ titel: "Art. 73 StG AR – 5. Abschreibungen, Rückstellungen und Wertberichtigu
 artikel: "Art. 73"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 73 5. Abschreibungen, Rückstellungen und Wertberichtigungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 73 5. Abschreibungen, Rückstellungen und Wertberichtigungen
 
 ### Art. 73 StG AR – 5. Abschreibungen, Rückstellungen und Wertberichtigungen
 

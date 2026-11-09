@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0020
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.7 Sonderfall d: Quellensteuerpflichtige"
 ziffer: "5.7 d"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 7
 
 d)   Steuerpflichtige, die der Quellensteuer unterliegen
 Bei der Tarifberechnung der Quellensteuer werden individuelle Abzüge – wie z.B. Einzahlun-

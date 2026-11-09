@@ -2,14 +2,14 @@
 id: ar-mb-03-anhang__c0014
 quelle: ar-mb-03-anhang
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 5.1 Böschungssicherung, Sitzplatz, Pergola, Zäune, Drainage, Lärm- und Hochwasserschutz"
 ziffer: "5.1"
 seiten: "5"
-qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: ar, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 5 Umgebung › 5.1 Gartenunterhalt · S. 5
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Merkblatt · Steuerjahr 2025/2026/2027 · MB AR 03-anhang · 5 Umgebung › 5.1 Gartenunterhalt · S. 5
 
     - Sanierung und Reparatur   1/1
     h) Böschungssicherungen (mit Nachweis Expertise/amtliche

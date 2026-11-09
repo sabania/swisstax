@@ -8,7 +8,7 @@ titel: "Art. 50 StV AR – Bezugsprovision (Art. 116 StG)"
 artikel: "Art. 50"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › C. Gemeinsame Bestimmungen * › Art. 50 Bezugsprovision (Art. 116 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › C. Gemeinsame Bestimmungen * › Art. 50 Bezugsprovision (Art. 116 StG)
 
 ### Art. 50 StV AR – Bezugsprovision (Art. 116 StG)
 

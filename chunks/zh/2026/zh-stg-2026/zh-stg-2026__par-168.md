@@ -9,7 +9,7 @@ artikel: "§ 168"
 seiten: "68"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 168 StG ZH – VI. Mitteilung · S. 68
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 168 StG ZH – VI. Mitteilung · S. 68
 
 ### § 168 StG ZH – VI. Mitteilung
 

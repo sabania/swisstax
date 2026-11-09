@@ -8,7 +8,7 @@ titel: "Unterschrift, Rechtskraft und Inkrafttreten (1. Januar 2024)"
 seiten: "5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Inkrafttreten · S. 5
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Inkrafttreten · S. 5
 
     Finanzdirektion
     Ernst Stocker

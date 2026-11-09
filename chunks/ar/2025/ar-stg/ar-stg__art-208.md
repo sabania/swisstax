@@ -8,7 +8,7 @@ titel: "Art. 208 StG AR – VI. Zahlungsfrist und Verzugszins"
 artikel: "Art. 208"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 208 VI. Zahlungsfrist und Verzugszins
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 208 VI. Zahlungsfrist und Verzugszins
 
 ### Art. 208 StG AR – VI. Zahlungsfrist und Verzugszins
 

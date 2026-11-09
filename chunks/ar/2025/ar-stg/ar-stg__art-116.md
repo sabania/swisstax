@@ -8,7 +8,7 @@ titel: "Art. 116 StG AR – II. Bezugsprovision"
 artikel: "Art. 116"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen › Art. 116 II. Bezugsprovision
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen › Art. 116 II. Bezugsprovision
 
 ### Art. 116 StG AR – II. Bezugsprovision
 

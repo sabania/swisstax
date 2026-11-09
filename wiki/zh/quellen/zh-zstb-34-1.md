@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-34-1.html> · lokal: [zh-zstb-34-1.html](../../../raw/zh/dauernd/zh-zstb-34-1.html) · Volltext: [zh-zstb-34-1.md](../../../sources/zh/dauernd/zh-zstb-34-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `01e1b94b93a42b57…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2026-01-01 bis offen · ersetzt `zh-zstb-34-1-bis-2025`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-34-1`).
+
+- [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
 
 ## Inhalt (34 Chunks)
 

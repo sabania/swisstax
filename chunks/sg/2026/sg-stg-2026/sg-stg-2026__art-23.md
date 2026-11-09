@@ -8,7 +8,7 @@ titel: "Art. 23 StG SG – Vermögen mit unklaren Anspruchsverhältnissen"
 artikel: "Art. 23"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 23 Vermögen mit unklaren Anspruchsverhältnissen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 23 Vermögen mit unklaren Anspruchsverhältnissen
 
 ### Art. 23 StG SG – Vermögen mit unklaren Anspruchsverhältnissen
 

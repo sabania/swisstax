@@ -8,7 +8,7 @@ titel: "Art. 80 StG SG – Ausnahmen von der Steuerpflicht (Teil 4/4)"
 artikel: "Art. 80"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 80 Ausnahmen von der Steuerpflicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 80 Ausnahmen von der Steuerpflicht
 
 ### Art. 80 StG SG – Ausnahmen von der Steuerpflicht (Fortsetzung)
 

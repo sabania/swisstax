@@ -7,7 +7,7 @@ typ: info
 titel: "Allgemeine und Sozialabzüge"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Allgemeine und Sozialabzüge
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Allgemeine und Sozialabzüge
 
     Nein, abzugsfähig sind nur die berufsorientierte Aus- und Weiterbildungskosten einschliesslich der Umschulungskosten bis maximal Fr. 13'000 pro steuerpflichtige Person (Ansatz Steuerperiode 2025) . Weiterhin nicht abzugsfähig sind hingegen  Kosten für Bildungslehrgänge, die der Liebhaberei oder der Selbstentfaltung dienen. Ein Bildungslehrgang wird als Liebhaberei angesehen, wenn er zu keiner beruflichen Qualifikation führt und auch nicht berufsorientiert ist.
 

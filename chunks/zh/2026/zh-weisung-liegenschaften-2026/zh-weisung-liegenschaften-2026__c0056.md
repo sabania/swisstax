@@ -8,7 +8,7 @@ titel: "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 2
 seiten: "26"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum · S. 26
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum · S. 26
 
 Opfikon   5   2650   2420   2210   1980   1770   –   –   –   –
 Rafz   5   1660   1510   1380   1240   1090   –   –   –   –

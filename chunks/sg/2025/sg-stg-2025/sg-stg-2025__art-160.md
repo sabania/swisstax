@@ -8,7 +8,7 @@ titel: "Art. 160 StG SG – Gemeindesteueramt"
 artikel: "Art. 160"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › I. Steuerbehörden › Art. 160 Gemeindesteueramt
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › I. Steuerbehörden › Art. 160 Gemeindesteueramt
 
 ### Art. 160 StG SG – Gemeindesteueramt
 

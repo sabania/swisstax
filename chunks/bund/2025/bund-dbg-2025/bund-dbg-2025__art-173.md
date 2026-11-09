@@ -8,7 +8,7 @@ titel: "Art. 173 DBG – Sicherstellung der für die Vermittlungstätigkeit an G
 artikel: "Art. 173"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 173 Sicherstellung der für die Vermittlungstätigkeit an Grundstücken geschuldeten Steuern
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 173 Sicherstellung der für die Vermittlungstätigkeit an Grundstücken geschuldeten Steuern
 
 ### Art. 173 DBG – Sicherstellung der für die Vermittlungstätigkeit an Grundstücken geschuldeten Steuern
 

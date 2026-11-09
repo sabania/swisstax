@@ -8,7 +8,7 @@ titel: "Art. 226 StG SG – Arrest"
 artikel: "Art. 226"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › II. Sicherung der Steuer › Art. 226 Arrest
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › II. Sicherung der Steuer › Art. 226 Arrest
 
 ### Art. 226 StG SG – Arrest
 

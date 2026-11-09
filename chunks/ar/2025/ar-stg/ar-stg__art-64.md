@@ -8,7 +8,7 @@ titel: "Art. 64 StG AR – VI. Beginn und Ende der Steuerpflicht"
 artikel: "Art. 64"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 64 VI. Beginn und Ende der Steuerpflicht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 64 VI. Beginn und Ende der Steuerpflicht
 
 ### Art. 64 StG AR – VI. Beginn und Ende der Steuerpflicht
 

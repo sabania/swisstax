@@ -2,13 +2,13 @@
 id: bund-mb-n2__c0004
 quelle: bund-mb-n2
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Fussnoten 1–3 – Gastgewerbe, Alter der Kinder, Kinderrabatt ab 4 Kindern"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB N2/2007 · Fussnoten · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB N2/2007 · Fussnoten · S. 1
 
 1
     Für Direktorinnen und Direktoren sowie Gerantinnen und Geranten von Betrieben des Gastgewerbes sowie deren Angehörige gel-

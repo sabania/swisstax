@@ -2,14 +2,14 @@
 id: bund-ks-15__c0113
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang IV Gutachten Ziff. III.3 Anleihensteil während der Laufzeit – Formel (Teil 2/2)"
 ziffer: "Anh. IV III.3"
 seiten: "34"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34
 
 Bei der angewandten Methode wird der Veränderung des Zinsumfelds dadurch Rech-
 nung getragen, dass der bei Emission für die Abdiskontierung verwendete Zinssatz (i0)

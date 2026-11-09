@@ -14,6 +14,9 @@ sha256: 2159e8c76ebfa525832cbf089c6eca1f7e872c062fd603327412fb1dd508398d
 abgerufen: '2026-11-09'
 einheiten: 26
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: verfahren
+gilt_ab: '2017-01-01'
+gilt_bis: '2026-12-31'
 ---
 # Verordnung über die Durchführung der Grundstückschätzung SG (sGS 814.11) – Version gültig ab 01.01.2017
 

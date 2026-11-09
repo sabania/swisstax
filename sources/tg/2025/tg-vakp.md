@@ -14,6 +14,8 @@ sha256: ab85e0aa7ade0c08a3f363c070e110951ce25d07ad6eb653019c1e255dcbda5c
 abgerufen: '2026-11-09'
 einheiten: 3
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
 ---
 # Verordnung über den Ausgleich der kalten Progression TG (RB 640.13) – Version gültig ab 01.01.2025
 

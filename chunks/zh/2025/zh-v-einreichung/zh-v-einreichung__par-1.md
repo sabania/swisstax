@@ -9,7 +9,7 @@ artikel: "§ 1"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › § 1 V elektr. Einreichung ZH – Applikationen zur elektronischen Einreichung der Steuererklärung · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › § 1 V elektr. Einreichung ZH – Applikationen zur elektronischen Einreichung der Steuererklärung · S. 1
 
 ### § 1 V elektr. Einreichung ZH – Applikationen zur elektronischen Einreichung der Steuererklärung
 

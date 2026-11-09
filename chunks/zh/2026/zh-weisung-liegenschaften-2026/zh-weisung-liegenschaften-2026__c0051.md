@@ -8,7 +8,7 @@ titel: "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Uster
 seiten: "23"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Einfamilienhäuser · S. 23
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Einfamilienhäuser · S. 23
 
 Bezirk Uster
 Dübendorf   4   1520   1370   1220   1070   –   –   –   –   –

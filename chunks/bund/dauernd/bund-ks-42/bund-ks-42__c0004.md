@@ -2,14 +2,14 @@
 id: bund-ks-42__c0004
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2 Bildungssystem in der Schweiz – Primarstufe bis Sekundarstufe II (Teil 2/2)"
 ziffer: "2"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 2 Bildungssystem · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 2 Bildungssystem · S. 2
 
 (neuntes bis elftes Schuljahr). Die Sekundarstufe I vermittelt eine grundlegende Allgemeinbildung
 und bereitet auf die berufliche Grundbildung oder auf den Übertritt an allgemeinbildende Schulen

@@ -12,6 +12,7 @@ raw: raw/tg/dauernd/tg-portal-stp.html
 sha256: be7bef91e86110ae39cd0c772b0235a3059230998ac4b780df694606ca58a326
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Thurgauer Steuerpraxis – Information
 

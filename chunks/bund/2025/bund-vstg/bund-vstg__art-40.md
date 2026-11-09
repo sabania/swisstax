@@ -2,13 +2,13 @@
 id: bund-vstg__art-40
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 40 VStG"
 artikel: "Art. 40"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · I. Steuererhebung › 3. Überprüfung › Art. 40
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · I. Steuererhebung › 3. Überprüfung › Art. 40
 
 ### Art. 40 VStG
 

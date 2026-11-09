@@ -8,7 +8,7 @@ titel: "Art. 80 StV AR – Archivierung (Art. 285 Abs. 3 StG)"
 artikel: "Art. 80"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 80 Archivierung (Art. 285 Abs. 3 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 80 Archivierung (Art. 285 Abs. 3 StG)
 
 ### Art. 80 StV AR – Archivierung (Art. 285 Abs. 3 StG)
 

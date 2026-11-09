@@ -9,7 +9,7 @@ artikel: "§ 42"
 seiten: "23-24"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 42 StG ZH – 2. Aufschub der Besteuerung · S. 23–24
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Vermögenssteuer › § 42 StG ZH – 2. Aufschub der Besteuerung · S. 23–24
 
 ### § 42 StG ZH – 2. Aufschub der Besteuerung
 

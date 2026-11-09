@@ -11,6 +11,34 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Weisung · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/634DD7A2FF652108C1258A8C00281D29/$File/631.33_3.10.23_123.pdf> · lokal: [zh-pauschalierung-berufsauslagen-2025.pdf](../../../raw/zh/2025/zh-pauschalierung-berufsauslagen-2025.pdf) · Volltext: [zh-pauschalierung-berufsauslagen-2025.md](../../../sources/zh/2025/zh-pauschalierung-berufsauslagen-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `8450e5bd9ddd2d0b…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2024-01-01 bis 2025-12-31 · ersetzt durch `zh-pauschalierung-berufsauslagen-2026`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 19 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-pauschalierung-berufsauslagen-2025`).
+
+- `data/werte/zh/2025.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
+- `data/werte/zh/2025.yaml#14:berufskosten.uebrige.min` (agent-geprueft)
+- `data/werte/zh/2025.yaml#15:berufskosten.uebrige.max` (agent-geprueft)
+- `data/werte/zh/2025.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/zh/2025.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/zh/2025.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/werte/zh/2025.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- `data/werte/zh/2025.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/zh/2025.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/zh/2025.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/zh/2025.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
+- `data/werte/zh/2025.yaml#6:berufskosten.verpflegung.jahr` (agent-geprueft)
+- `data/werte/zh/2025.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
+- `data/werte/zh/2025.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
+- `data/werte/zh/2025.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#111:abzug.berufskosten.fahrkosten@Lohnausweis Feld F` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#22:berechnung.total@11.1 / 11.2` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#77:abzug.berufskosten.verpflegung@Form. 360 Ziff. 2.1 (verbilligt)` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#80:abzug.berufskosten.uebrige@Form. 360 Ziff. 3` (agent-geprueft)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

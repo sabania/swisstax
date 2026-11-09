@@ -2,12 +2,12 @@
 id: sg-info-ekst-vst__c0054
 quelle: sg-info-ekst-vst
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: info
 titel: "Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen"
-qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
+qmd: {metadata: {jur: sg, jahre: [2025, 2026, 2027], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026/2027 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen
 
 ### Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen
 

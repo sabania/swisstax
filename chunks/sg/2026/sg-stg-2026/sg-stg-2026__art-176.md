@@ -8,7 +8,7 @@ titel: "Art. 176 StG SG – Veranlagung a) Durchführung"
 artikel: "Art. 176"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 176 Veranlagung a) Durchführung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 176 Veranlagung a) Durchführung
 
 ### Art. 176 StG SG – Veranlagung a) Durchführung
 

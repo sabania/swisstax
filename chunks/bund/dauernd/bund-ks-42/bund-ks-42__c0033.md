@@ -2,14 +2,14 @@
 id: bund-ks-42__c0033
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5 Quellensteuerpflichtige Personen – nachträgliche Korrektur"
 ziffer: "5"
 seiten: "12"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 5 Quellensteuerpflichtige · S. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 5 Quellensteuerpflichtige · S. 12
 
 5   Quellensteuerpflichtige Personen
 

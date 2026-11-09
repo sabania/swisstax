@@ -9,7 +9,7 @@ artikel: "§ 16"
 seiten: "6-7"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 16 StG ZH – I. Steuerbare Einkünfte 1. Allgemeines · S. 6–7
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 16 StG ZH – I. Steuerbare Einkünfte 1. Allgemeines · S. 6–7
 
 ### § 16 StG ZH – I. Steuerbare Einkünfte 1. Allgemeines
 

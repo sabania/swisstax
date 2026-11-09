@@ -6,12 +6,15 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-23-nr-1-ertrage-aus-unbeweglichem-vermogen
 raw: raw/tg/dauernd/tg-stp-23-1.html
 sha256: 1a4b080dea44abbcdd44b9c8a88d39cf88254f5753023bd8b312febd4b78c7f4
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2025-10-01'
 ---
 # StP 23 Nr. 1: Erträge aus unbeweglichem Vermögen (Eigenmietwert)
 

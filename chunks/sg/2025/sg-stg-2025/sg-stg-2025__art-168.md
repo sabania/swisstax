@@ -8,7 +8,7 @@ titel: "Art. 168 StG SG – Verfahrenspflichten des Steuerpflichtigen a) Steuere
 artikel: "Art. 168"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 168 Verfahrenspflichten des Steuerpflichtigen a) Steuererklärung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 168 Verfahrenspflichten des Steuerpflichtigen a) Steuererklärung
 
 ### Art. 168 StG SG – Verfahrenspflichten des Steuerpflichtigen a) Steuererklärung
 

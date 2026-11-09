@@ -11,6 +11,24 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_8.pdf.ocFile/039_8.pdf> · lokal: [sg-stb-39-8.pdf](../../../raw/sg/dauernd/sg-stb-39-8.pdf) · Volltext: [sg-stb-39-8.md](../../../sources/sg/dauernd/sg-stb-39-8.md)
 - **Abgerufen:** 2026-11-09 · sha256 `e38545b3e4df8a66…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2021-07-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 11 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-8`).
+
+- `data/werte/sg/2026.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
+- `data/werte/sg/2026.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
+- `data/werte/sg/2026.yaml#6:berufskosten.verpflegung.jahr` (agent-geprueft)
+- `data/werte/sg/2026.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
+- `data/werte/sg/2026.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
+- `data/werte/sg/2026.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#24:berechnung.total@10.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#70:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#71:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#72:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#79:abzug.berufskosten.verpflegung@Lohnausweis Feld G` (agent-geprueft)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

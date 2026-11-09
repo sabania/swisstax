@@ -9,7 +9,7 @@ artikel: "§ 173"
 seiten: "69"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerbezug › § 173 StG ZH – II. Periodische Steuern 1. Provisorische Rechnung und Schlussrechnung · S. 69
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerbezug › § 173 StG ZH – II. Periodische Steuern 1. Provisorische Rechnung und Schlussrechnung · S. 69
 
 ### § 173 StG ZH – II. Periodische Steuern 1. Provisorische Rechnung und Schlussrechnung
 

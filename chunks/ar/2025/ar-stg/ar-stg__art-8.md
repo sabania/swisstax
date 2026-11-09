@@ -8,7 +8,7 @@ titel: "Art. 8 StG AR – V. Steuerberechnung bei anteiliger Steuerpflicht"
 artikel: "Art. 8"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 8 V. Steuerberechnung bei anteiliger Steuerpflicht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 8 V. Steuerberechnung bei anteiliger Steuerpflicht
 
 ### Art. 8 StG AR – V. Steuerberechnung bei anteiliger Steuerpflicht
 

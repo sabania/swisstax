@@ -9,7 +9,7 @@ ziffer: "10–11"
 seiten: "10-11"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 10. Anlage in Wertschriften › 11. Inkrafttreten · S. 10–11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 10. Anlage in Wertschriften › 11. Inkrafttreten · S. 10–11
 
 Der Vorstand der Schweizerischen Steuerkonferenz (SSK) hat das vorliegende Kreisschrei-
 ben genehmigt und empfiehlt den Kantonen, die darin festgehaltenen Regelungen in analo-

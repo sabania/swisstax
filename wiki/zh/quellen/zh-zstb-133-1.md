@@ -11,7 +11,18 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-133-1.html> · lokal: [zh-zstb-133-1.html](../../../raw/zh/dauernd/zh-zstb-133-1.html) · Volltext: [zh-zstb-133-1.md](../../../sources/zh/dauernd/zh-zstb-133-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `9f64cf65adc4c4bb…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2027-01-01 bis 2027-12-31 · ersetzt `zh-zstb-133-1-aufforderung-2026`
 - ⚠ **Hinweis:** Aktuelle Fassung = Aufforderung 2027 (betrifft Steuererklärung 2026). Für Steuererklärung 2025 siehe zh-zstb-133-1-aufforderung-2026.
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-133-1`).
+
+- `data/werte/zh/2026.yaml#64:verfahren.einreichefrist` (agent-geprueft)
+- `data/werte/zh/2026.yaml#66:verfahren.abgabeweg` (agent-geprueft)
+- [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (33 Chunks)
 

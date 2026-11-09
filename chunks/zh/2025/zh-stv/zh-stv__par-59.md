@@ -9,7 +9,7 @@ artikel: "§ 59"
 seiten: "11"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › Fünfter Abschnitt: Das Inventar › § 59 StV ZH – 2. Bewilligungspflicht für Verfügungen über das zu inventierende Vermögen · S. 11
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › Fünfter Abschnitt: Das Inventar › § 59 StV ZH – 2. Bewilligungspflicht für Verfügungen über das zu inventierende Vermögen · S. 11
 
 ### § 59 StV ZH – 2. Bewilligungspflicht für Verfügungen über das zu inventierende Vermögen
 

@@ -2,13 +2,13 @@
 id: tg-steuerfuesse-2026__c0011
 quelle: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 typ: steuerfuss
 titel: "Veränderung der Gemeindesteuerfüsse gegenüber vor zehn Jahren"
 seiten: "4"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
+qmd: {metadata: {jur: tg, jahre: [2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Entwicklung · S. 4
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Entwicklung · S. 4
 
 4   Statistische Mitteilung 3/2026
 

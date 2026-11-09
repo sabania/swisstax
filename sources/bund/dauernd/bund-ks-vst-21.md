@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2008-04-01'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/a9rZJBTchLio/dbst-ks-2008-1-021-v-de.pdf
@@ -14,6 +15,8 @@ sha256: 97dffa2db657836695c5eaadcf14f43451fec25aac90e7537abda92e62b4a7e5
 abgerufen: '2026-11-09'
 seiten: 7
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2008-04-01'
 ---
 # ESTV-Kreisschreiben VST Nr. 21: Rückerstattungsbelege ausländischer Banken
 

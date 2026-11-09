@@ -8,7 +8,7 @@ titel: "Art. 152 StG SG – b) Abzüge"
 artikel: "Art. 152"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 152 b) Abzüge
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 152 b) Abzüge
 
 ### Art. 152 StG SG – b) Abzüge
 

@@ -8,7 +8,7 @@ titel: "Art. 41a StV AR – Eintritt Patentbox mit Verrechnung (Art. 69a Abs. 4 
 artikel: "Art. 41a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 41a Eintritt Patentbox mit Verrechnung (Art. 69a Abs. 4 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 41a Eintritt Patentbox mit Verrechnung (Art. 69a Abs. 4 StG)
 
 ### Art. 41a StV AR – Eintritt Patentbox mit Verrechnung (Art. 69a Abs. 4 StG)
 

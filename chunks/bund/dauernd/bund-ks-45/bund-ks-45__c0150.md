@@ -2,14 +2,14 @@
 id: bund-ks-45__c0150
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.4 Beispiel 8 – Heirat und Lohnerhöhung im Verlauf des Jahres (Teil 1/2)"
 ziffer: "7.4"
 seiten: "48"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 48
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 48
 
     Änderung des Zivilstands mit anschliessender Anpassung des Lohns während des Kalenderjahres:
     8. Ein lediger Steuerpflichtiger heiratet im April 2021. Er übt eine unselbstständige Erwerbstätigkeit mit einem

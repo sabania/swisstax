@@ -13,6 +13,10 @@ sha256: 4c90a4ed7a92f032026c317dff3b11f99271e41c270520183f7dcda4b1d748b3
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2027-01-01'
+gilt_bis: '2027-12-31'
+ersetzt: bund-rs-2-215
 ---
 # Rundschreiben 2-220: kalte Progression und Zinssätze 2027
 

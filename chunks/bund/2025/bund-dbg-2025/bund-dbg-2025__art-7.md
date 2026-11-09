@@ -8,7 +8,7 @@ titel: "Art. 7 DBG"
 artikel: "Art. 7"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerliche Zugehörigkeit › 4. Abschnitt: Steuerberechnung bei teilweiser Steuerpflicht › Art. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerliche Zugehörigkeit › 4. Abschnitt: Steuerberechnung bei teilweiser Steuerpflicht › Art. 7
 
 ### Art. 7 DBG
 

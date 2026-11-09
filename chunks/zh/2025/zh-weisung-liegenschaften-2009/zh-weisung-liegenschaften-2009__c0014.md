@@ -9,7 +9,7 @@ ziffer: "30–34"
 seiten: "7"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 3. Zeitbauwert · S. 7
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 3. Zeitbauwert · S. 7
 
 Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
 3. Zeitbauwert

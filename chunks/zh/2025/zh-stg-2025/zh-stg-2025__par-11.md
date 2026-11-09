@@ -9,7 +9,7 @@ artikel: "§ 11"
 seiten: "5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 11 StG ZH – VIII. Steuernachfolge · S. 5
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 11 StG ZH – VIII. Steuernachfolge · S. 5
 
 ### § 11 StG ZH – VIII. Steuernachfolge
 

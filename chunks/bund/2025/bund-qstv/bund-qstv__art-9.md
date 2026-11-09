@@ -8,7 +8,7 @@ titel: "Art. 9 QStV – Obligatorischenachträgliche ordentliche Veranlagung"
 artikel: "Art. 9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 2. Abschnitt: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 9 Obligatorischenachträgliche ordentliche Veranlagung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 2. Abschnitt: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 9 Obligatorischenachträgliche ordentliche Veranlagung
 
 ### Art. 9 QStV – Obligatorischenachträgliche ordentliche Veranlagung
 

@@ -2,13 +2,13 @@
 id: bund-vstg__art-47
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 47 VStG"
 artikel: "Art. 47"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · 7. Zwangsvollstreckung › c. Sicherstellung › Art. 47
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · 7. Zwangsvollstreckung › c. Sicherstellung › Art. 47
 
 ### Art. 47 VStG
 

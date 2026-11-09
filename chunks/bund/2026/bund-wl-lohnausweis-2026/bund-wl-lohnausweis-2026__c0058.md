@@ -9,7 +9,7 @@ ziffer: "73–74"
 seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · III Pflichtverletzung › IV Adressaten · S. 21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · III Pflichtverletzung › IV Adressaten · S. 21
 
 III   Pflichtverletzung
 Wer einen Lohnausweis nicht oder falsch ausfüllt, kann bestraft werden (Art. 127, 174 und   73

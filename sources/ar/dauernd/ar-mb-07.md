@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/07_Festsetzung_der_Mietwerte_von_selbstgenutzten_Liegenschaften_ab2020.pdf
 raw: raw/ar/dauernd/ar-mb-07.pdf
@@ -13,6 +14,8 @@ sha256: bee8a946610ac48d0b7f40145404f2e23f321220b2a47bf0c42d4f0a7f86f40c
 abgerufen: '2026-11-09'
 seiten: 7
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2025-06-17'
 ---
 # Merkblatt 07: Festsetzung der Mietwerte von selbstgenutzten Liegenschaften (Fassung 17.6.2025)
 

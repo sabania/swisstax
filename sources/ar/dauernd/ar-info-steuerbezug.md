@@ -12,6 +12,7 @@ raw: raw/ar/dauernd/ar-info-steuerbezug.html
 sha256: c181b0368b0434a3f8abb86d6fb34f890d4d5fc8b562a0aaec9fcb1a9b47a35e
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: verfahren
 ---
 # Steuerbezug (vorläufige Rechnung, Zinsen, Raten)
 

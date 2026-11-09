@@ -8,7 +8,7 @@ titel: "Art. 43 StV SG – e) Verluste (Art. 86 Abs. 2 StG)"
 artikel: "Art. 43"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 43 e) Verluste (Art. 86 Abs. 2 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 43 e) Verluste (Art. 86 Abs. 2 StG)
 
 ### Art. 43 StV SG – e) Verluste (Art. 86 Abs. 2 StG)
 

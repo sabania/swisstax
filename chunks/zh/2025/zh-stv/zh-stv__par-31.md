@@ -9,7 +9,7 @@ artikel: "§ 31"
 seiten: "6"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Die Anlage der Register und Akten › § 31 StV ZH – 3. Informationsaustausch · S. 6
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Die Anlage der Register und Akten › § 31 StV ZH – 3. Informationsaustausch · S. 6
 
 ### § 31 StV ZH – 3. Informationsaustausch
 

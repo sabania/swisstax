@@ -2,14 +2,14 @@
 id: bund-ks-15__c0106
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 2/3)"
 ziffer: "Anh. IV I"
 seiten: "32"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › I Ausgangslage · S. 32
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang IV Gutachten SBVg › I Ausgangslage · S. 32
 
 Die Anwendung der modifizierten Differenzbesteuerung setzt voraus, dass das kombi-
 nierte Produkt (für steuerliche Zwecke) transparent gemacht wird. Dies geschieht, in-

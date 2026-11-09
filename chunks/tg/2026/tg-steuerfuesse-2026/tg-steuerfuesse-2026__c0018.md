@@ -2,13 +2,13 @@
 id: tg-steuerfuesse-2026__c0018
 quelle: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 typ: steuerfuss
 titel: "Höchste und tiefste Steuerkraft 2025 – Warth-Weiningen 5'922 Franken; Bezirke"
 seiten: "5"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
+qmd: {metadata: {jur: tg, jahre: [2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Steuerkraft · S. 5
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Steuerkraft · S. 5
 
 Höchste Steuerkraft weiterhin in Warth-Weiningen   Steuerkraft pro Einwohnerin oder Einwohner
     Kanton Thurgau und Bezirke, 2025, in Franken

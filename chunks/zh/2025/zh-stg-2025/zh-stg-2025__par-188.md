@@ -9,7 +9,7 @@ artikel: "§ 188"
 seiten: "73"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 188 StG ZH – 2. Steuerfuss · S. 73
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 188 StG ZH – 2. Steuerfuss · S. 73
 
 ### § 188 StG ZH – 2. Steuerfuss
 

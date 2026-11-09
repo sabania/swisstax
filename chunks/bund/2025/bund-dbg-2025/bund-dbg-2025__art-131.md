@@ -8,7 +8,7 @@ titel: "Art. 131 DBG – Eröffnung"
 artikel: "Art. 131"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 3. Kapitel: Veranlagung › Art. 131 Eröffnung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 3. Kapitel: Veranlagung › Art. 131 Eröffnung
 
 ### Art. 131 DBG – Eröffnung
 

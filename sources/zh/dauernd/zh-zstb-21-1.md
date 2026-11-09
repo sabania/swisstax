@@ -11,6 +11,9 @@ raw: raw/zh/dauernd/zh-zstb-21-1.html
 sha256: 4965544ee585630fd9b582b73b47b57a3205833042a54b58143377e0f97706c4
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: zh-weisung-liegenschaften-2009
 ---
 # ZStB 21.1: Liegenschaftenbewertung / Eigenmietwerte (Weisung 2026)
 

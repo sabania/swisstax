@@ -8,7 +8,7 @@ titel: "Art. 205b DBG – Dringende Anpassungen bei der Unternehmensbesteuerung;
 artikel: "Art. 205b"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205b Dringende Anpassungen bei der Unternehmensbesteuerung; Rückwirkung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205b Dringende Anpassungen bei der Unternehmensbesteuerung; Rückwirkung
 
 ### Art. 205b DBG – Dringende Anpassungen bei der Unternehmensbesteuerung; Rückwirkung
 

@@ -8,7 +8,7 @@ titel: "Art. 139 StG SG – 4. Anlagekosten in besonderen Fällen"
 artikel: "Art. 139"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 139 4. Anlagekosten in besonderen Fällen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 139 4. Anlagekosten in besonderen Fällen
 
 ### Art. 139 StG SG – 4. Anlagekosten in besonderen Fällen
 

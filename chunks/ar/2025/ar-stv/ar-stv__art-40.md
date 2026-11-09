@@ -8,7 +8,7 @@ titel: "Art. 40 StV AR – Ausnahmen von der Steuerpflicht (Art. 66 StG)"
 artikel: "Art. 40"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 40 Ausnahmen von der Steuerpflicht (Art. 66 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 40 Ausnahmen von der Steuerpflicht (Art. 66 StG)
 
 ### Art. 40 StV AR – Ausnahmen von der Steuerpflicht (Art. 66 StG)
 

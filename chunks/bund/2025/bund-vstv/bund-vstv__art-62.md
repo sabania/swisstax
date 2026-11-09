@@ -2,13 +2,13 @@
 id: bund-vstv__art-62
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 62 VStV"
 artikel: "Art. 62"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · II. Besondere Verhältnisse › 6. Termingeschäft an oder ausserhalb der Börse › Art. 62
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · II. Besondere Verhältnisse › 6. Termingeschäft an oder ausserhalb der Börse › Art. 62
 
 ### Art. 62 VStV
 

@@ -2,14 +2,14 @@
 id: bund-ks-45__c0041
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.1 Tarifanwendung – fehlende Angaben, Mehrfachtätigkeit, Sondertarife E, G, Q (Teil 1/2)"
 ziffer: "4.1"
 seiten: "15"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.1 Allgemeines · S. 15
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.1 Allgemeines · S. 15
 
 Fehlt eine Tarifeinstufung zum Zeitpunkt der Lohnzahlung, bestimmt der Schuldner der steu-
 erbaren Leistung den anwendbaren Tarifcode aufgrund der ihm zur Verfügung stehenden

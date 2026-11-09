@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/steuern-natuerliche-personen/steuerrechnung-natuerliche-personen.html> · lokal: [zh-info-steuerrechnung.html](../../../raw/zh/dauernd/zh-info-steuerrechnung.html) · Volltext: [zh-info-steuerrechnung.md](../../../sources/zh/dauernd/zh-info-steuerrechnung.md)
 - **Abgerufen:** 2026-11-09 · sha256 `d7747cdfc3aa39ab…`
+- **Gültigkeit:** Zeitbezug info (Information) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-info-steuerrechnung`).
+
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (26 Chunks)
 

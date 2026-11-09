@@ -8,7 +8,7 @@ titel: "Art. 25 DBG"
 artikel: "Art. 25"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 1. Abschnitt: Grundsatz › Art. 25
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 1. Abschnitt: Grundsatz › Art. 25
 
 ### Art. 25 DBG
 

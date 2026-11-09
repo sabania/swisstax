@@ -8,7 +8,7 @@ titel: "Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten d
 artikel: "Art. 175"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 175 I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 175 I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung
 
 ### Art. 175 StG AR – I. Bei der Erhebung der Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung
 

@@ -8,7 +8,7 @@ titel: "Art. 96 DBG – Empfänger von privatrechtlichen Vorsorgeleistungen"
 artikel: "Art. 96"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 96 Empfänger von privatrechtlichen Vorsorgeleistungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 96 Empfänger von privatrechtlichen Vorsorgeleistungen
 
 ### Art. 96 DBG – Empfänger von privatrechtlichen Vorsorgeleistungen
 

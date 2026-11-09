@@ -8,7 +8,7 @@ titel: "Art. 46 StG SG – 2. Von der Höhe des Einkommens abhängige Abzüge"
 artikel: "Art. 46"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 46 2. Von der Höhe des Einkommens abhängige Abzüge
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 46 2. Von der Höhe des Einkommens abhängige Abzüge
 
 ### Art. 46 StG SG – 2. Von der Höhe des Einkommens abhängige Abzüge
 

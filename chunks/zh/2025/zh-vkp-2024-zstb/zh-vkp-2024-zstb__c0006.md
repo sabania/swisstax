@@ -9,7 +9,7 @@ ziffer: "§ 31 Abs. 2, 3"
 seiten: "2-3"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 31 · S. 2–3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 31 · S. 2–3
 
     2 Leben Ehegatten in rechtlich und tatsächlich ungetrennter Ehe,
 

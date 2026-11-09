@@ -8,7 +8,7 @@ titel: "Art. 39 StG AR – V. Steuerberechnung 1. Steuertarife (Teil 2/2)"
 artikel: "Art. 39"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 39 V. Steuerberechnung 1. Steuertarife
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 39 V. Steuerberechnung 1. Steuertarife
 
 ### Art. 39 StG AR – V. Steuerberechnung 1. Steuertarife (Fortsetzung)
 

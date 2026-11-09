@@ -11,6 +11,17 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Formular · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_2_NP_2025_HA.pdf> · lokal: [sg-form-2-2025.pdf](../../../raw/sg/2025/sg-form-2-2025.pdf) · Volltext: [sg-form-2-2025.md](../../../sources/sg/2025/sg-form-2-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `521411f6f8cb33f0…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 4 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-2-2025`).
+
+- `data/zuordnung/sg/2025.yaml#10:einkommen.wertschriften@4.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#65:einkommen.wertschriften@Form. 2 Spalte A/B` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#66:verrechnungssteuer.rueckerstattung@Form. 2 Code 999` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#67:info.schenkungen_erbschaften@Form. 2 Code 960-963` (agent-geprueft)
+- [wiki/themen/wertschriften-verrechnungssteuer.md](../../themen/wertschriften-verrechnungssteuer.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

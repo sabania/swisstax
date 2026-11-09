@@ -8,7 +8,7 @@ titel: "Art. 147b StG AR – 4. Wegfall der Ermässigung"
 artikel: "Art. 147b"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 147b 4. Wegfall der Ermässigung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 147b 4. Wegfall der Ermässigung
 
 ### Art. 147b StG AR – 4. Wegfall der Ermässigung
 

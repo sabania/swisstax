@@ -2,15 +2,23 @@
 typ: quelle
 id: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 42: Berufsorientierte Aus- und Weiterbildungskosten"
 generiert: tools/build_index.py
 ---
 # KS 42: ESTV-Kreisschreiben Nr. 42: Berufsorientierte Aus- und Weiterbildungskosten
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2017-11-30
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2017-11-30
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/i9TZSnch31KO/dbst-ks-2017-1-042-d-de.pdf> · lokal: [bund-ks-42.pdf](../../../raw/bund/dauernd/bund-ks-42.pdf) · Volltext: [bund-ks-42.md](../../../sources/bund/dauernd/bund-ks-42.md)
 - **Abgerufen:** 2026-11-09 · sha256 `adfeb165cd591db7…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2017-11-30 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-42`).
+
+- `data/belege-teil2.yaml#8:weiterbildung-rechnungen` (agent-geprueft)
+- [wiki/themen/weiterbildung.md](../../themen/weiterbildung.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

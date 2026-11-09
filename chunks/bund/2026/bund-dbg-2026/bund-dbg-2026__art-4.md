@@ -8,7 +8,7 @@ titel: "Art. 4 DBG – Geschäftsbetriebe, Betriebsstätten und Grundstücke"
 artikel: "Art. 4"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerliche Zugehörigkeit › 2. Abschnitt: Wirtschaftliche Zugehörigkeit › Art. 4 Geschäftsbetriebe, Betriebsstätten und Grundstücke
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerliche Zugehörigkeit › 2. Abschnitt: Wirtschaftliche Zugehörigkeit › Art. 4 Geschäftsbetriebe, Betriebsstätten und Grundstücke
 
 ### Art. 4 DBG – Geschäftsbetriebe, Betriebsstätten und Grundstücke
 

@@ -2,13 +2,13 @@
 id: tg-stg__par-38a
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 38a StG TG – Vereinfachtes Abrechnungsverfahren"
 artikel: "§ 38a"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.2.2. Einkommenssteuer › 1.2.2.5. Steuerberechnung › § 38a Vereinfachtes Abrechnungsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.2.2. Einkommenssteuer › 1.2.2.5. Steuerberechnung › § 38a Vereinfachtes Abrechnungsverfahren
 
 ### § 38a StG TG – Vereinfachtes Abrechnungsverfahren
 

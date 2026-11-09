@@ -2,13 +2,13 @@
 id: bund-sthg__art-72q
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 72q StHG"
 artikel: "Art. 72q"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Achter Titel: Schlussbestimmungen › 1. Kapitel: Durchführung durch die Kantone › Art. 72q
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Achter Titel: Schlussbestimmungen › 1. Kapitel: Durchführung durch die Kantone › Art. 72q
 
 ### Art. 72q StHG
 

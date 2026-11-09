@@ -2,15 +2,26 @@
 typ: quelle
 id: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 titel: "Steuerfüsse 2026, Steuerkraft 2025 (Statistik TG)"
 generiert: tools/build_index.py
 ---
 # Steuerfüsse TG 2026: Steuerfüsse 2026, Steuerkraft 2025 (Statistik TG)
 
-- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Steuerfüsse · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Steuerfüsse · **gilt für Steuerjahre:** 2026
 - **Original:** <https://statistik.tg.ch/public/upload/assets/190145/2026_Nr_3_Steuerf%C3%BCsse_2026_Steuerkraft_2025.pdf?fp=1> · lokal: [tg-steuerfuesse-2026.pdf](../../../raw/tg/2026/tg-steuerfuesse-2026.pdf) · Volltext: [tg-steuerfuesse-2026.md](../../../sources/tg/2026/tg-steuerfuesse-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `2f243c63006d4f2c…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-steuerfuesse-2026`).
+
+- `data/werte/tg/2025.yaml#58:tarif.steuerfuss_kanton` (agent-geprueft)
+- `data/werte/tg/2026.yaml#58:tarif.steuerfuss_kanton` (agent-geprueft)
+- [wiki/tg/tg-ueberblick.md](../tg-ueberblick.md)
+- [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

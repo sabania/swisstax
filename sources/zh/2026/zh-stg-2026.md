@@ -6,13 +6,16 @@ jurisdiktion: zh
 jahre:
 - 2026
 typ: gesetz
-stand: 1.4.26 - 132
+stand: '2026-03-26'
 quelle_url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_1-1997_06_08-1999_01_01-132.html
 raw: raw/zh/2026/zh-stg-2026.pdf
 sha256: 7b1ed7b46ed0c4801993857424480805e493127835f54f430285c286ee4cb6d7
 abgerufen: '2026-11-09'
 einheiten: 324
 konvertierung: ZH-Lex-PDF -> Markdown je § (tools/zhlex.py, pdfplumber, Randtitel/Endnoten heuristisch)
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: zh-stg-2025
 ---
 # Steuergesetz ZH (LS 631.1) – Nachtrag 132, Stand 1.4.2026
 

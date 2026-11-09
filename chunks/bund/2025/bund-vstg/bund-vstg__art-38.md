@@ -2,13 +2,13 @@
 id: bund-vstg__art-38
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 38 VStG"
 artikel: "Art. 38"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · I. Steuererhebung › 1. Anmeldung als Steuerpflichtiger; Selbstveranlagung › Art. 38
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · I. Steuererhebung › 1. Anmeldung als Steuerpflichtiger; Selbstveranlagung › Art. 38
 
 ### Art. 38 VStG
 

@@ -6,12 +6,15 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-2-nr-7-steuerausscheidung-interkantonale-repartitionswerte
 raw: raw/tg/dauernd/tg-stp-2-7.html
 sha256: cf929eac0ee8ee489e4ef7cc04ecbfa4b34c93af0d5fb1f92232a11a743d43a2
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2026-08-11'
 ---
 # StP 2 Nr. 7: Interkantonale Repartitionswerte
 

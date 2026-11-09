@@ -9,7 +9,7 @@ ziffer: "82"
 seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15
 
    Wird der Verkehrswert aufgrund einer individuellen Schätzung 82
 ermittelt, ist der Vermögenssteuerwert

@@ -8,7 +8,7 @@ titel: "§ 5a V DBG TG – Beschwerdeberechtigung"
 artikel: "§ 5a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 5a Beschwerdeberechtigung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 5a Beschwerdeberechtigung
 
 ### § 5a V DBG TG – Beschwerdeberechtigung
 

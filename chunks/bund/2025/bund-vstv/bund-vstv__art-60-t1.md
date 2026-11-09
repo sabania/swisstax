@@ -2,13 +2,13 @@
 id: bund-vstv__art-60-t1
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 60 VStV (Teil 1/3)"
 artikel: "Art. 60"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · II. Besondere Verhältnisse › 4. Mehrheit von Anspruchsberechtigten (Investment- Klub, Geldspiele, Lotterien und Geschicklichkeitsspiele zur Verkaufsförderung, Versicherungsleistung) › Art. 60
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · II. Besondere Verhältnisse › 4. Mehrheit von Anspruchsberechtigten (Investment- Klub, Geldspiele, Lotterien und Geschicklichkeitsspiele zur Verkaufsförderung, Versicherungsleistung) › Art. 60
 
 ### Art. 60 VStV
 

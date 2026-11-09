@@ -2,15 +2,24 @@
 typ: quelle
 id: ar-mb-01
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 01: Kosten der Fahrt zum Arbeitsort (ab 2020)"
 generiert: tools/build_index.py
 ---
 # MB AR 01: Merkblatt 01: Kosten der Fahrt zum Arbeitsort (ab 2020)
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/01_Kosten_der_Fahrt_zum_Arbeitsort__ab_2020_.pdf> · lokal: [ar-mb-01.pdf](../../../raw/ar/dauernd/ar-mb-01.pdf) · Volltext: [ar-mb-01.md](../../../sources/ar/dauernd/ar-mb-01.md)
 - **Abgerufen:** 2026-11-09 · sha256 `225151d00c165178…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2020-04-30 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-01`).
+
+- `data/werte/ar/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#73:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.3` (agent-geprueft)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 
 ## Inhalt (1 Chunks)
 

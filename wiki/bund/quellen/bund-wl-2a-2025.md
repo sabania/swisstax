@@ -11,6 +11,50 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Wegleitung · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/YWTRg69NFR9O/dbst-form-2025-de.zip> · lokal: [bund-wl-2a-2025.pdf](../../../raw/bund/2025/bund-wl-2a-2025.pdf) · Volltext: [bund-wl-2a-2025.md](../../../sources/bund/2025/bund-wl-2a-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `aff1db2d971a1ba7…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31 · ersetzt durch `bund-wl-2a-2026`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 29 Daten-Einträgen und 9 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-wl-2a-2025`).
+
+- `data/belege-teil2.yaml#5:liegenschaft-mietertraege` (agent-geprueft)
+- `data/belege-teil3.yaml#14:steuerberatungskosten` (agent-geprueft)
+- `data/belege-teil3.yaml#7:ahv-beitragsverfuegung-nichterwerbstaetige` (agent-geprueft)
+- `data/werte/ar/2025.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
+- `data/werte/bund/2025.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
+- `data/werte/bund/2025.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/bund/2025.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/bund/2025.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- `data/werte/bund/2025.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/bund/2025.yaml#20:weiterbildung.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#23:versicherung.alleinstehend` (agent-geprueft)
+- `data/werte/bund/2025.yaml#24:versicherung.alleinstehend_ohne_vorsorge` (agent-geprueft)
+- `data/werte/bund/2025.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/bund/2025.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/bund/2025.yaml#28:saeule3a.satz_ohne_2saeule` (agent-geprueft)
+- `data/werte/bund/2025.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/bund/2025.yaml#30:zweiverdiener.satz` (agent-geprueft)
+- `data/werte/bund/2025.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
+- `data/werte/bund/2025.yaml#37:spenden.max_satz` (agent-geprueft)
+- `data/werte/bund/2025.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/bund/2025.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
+- `data/werte/bund/2025.yaml#61:tarif.hoechstsatz_ab_alleinstehend` (agent-geprueft)
+- `data/werte/bund/2025.yaml#62:tarif.hoechstsatz_ab_verheiratet` (agent-geprueft)
+- `data/werte/bund/2025.yaml#6:berufskosten.verpflegung.jahr` (agent-geprueft)
+- `data/werte/bund/2025.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#96:abzug.liegenschaft.unterhalt@Form. 7 Abschn. C` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#98:abzug.drittbetreuung@Form. 10` (agent-geprueft)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/selbstaendige-naturalbezuege.md](../../themen/selbstaendige-naturalbezuege.md)
+- [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
+- [wiki/themen/unterhaltsbeitraege.md](../../themen/unterhaltsbeitraege.md)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
+- [wiki/themen/versicherungspraemien.md](../../themen/versicherungspraemien.md)
+- [wiki/themen/weiterbildung.md](../../themen/weiterbildung.md)
+- [wiki/themen/zweiverdienerabzug.md](../../themen/zweiverdienerabzug.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

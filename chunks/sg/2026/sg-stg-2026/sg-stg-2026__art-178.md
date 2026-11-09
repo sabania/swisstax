@@ -8,7 +8,7 @@ titel: "Art. 178 StG SG – c) Eröffnung 1. Veranlagung"
 artikel: "Art. 178"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 178 c) Eröffnung 1. Veranlagung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 178 c) Eröffnung 1. Veranlagung
 
 ### Art. 178 StG SG – c) Eröffnung 1. Veranlagung
 

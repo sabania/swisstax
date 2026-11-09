@@ -3,8 +3,7 @@ id: zh-zstb-132-1-bis-2025
 titel: 'ZStB 132.1: Steuererklärungsverfahren – Fassung gültig bis 31.12.2025'
 kurz: ZStB 132.1 (bis 2025)
 jurisdiktion: zh
-jahre:
-- 2025
+jahre: []
 typ: praxis
 quelle_url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-132-1/zstb-nr-132-1-gueltig-bis-31_12_2025.pdf
 raw: raw/zh/2025/zh-zstb-132-1-bis-2025.pdf
@@ -12,6 +11,10 @@ sha256: c896180e7db5581605640faa70ace6c1066874e671ab7a616da3f9b6e62133da
 abgerufen: '2026-11-09'
 seiten: 10
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: verfahren
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: zh-zstb-132-1
 ---
 # ZStB 132.1: Steuererklärungsverfahren – Fassung gültig bis 31.12.2025
 

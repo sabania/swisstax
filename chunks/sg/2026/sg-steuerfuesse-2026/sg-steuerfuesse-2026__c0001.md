@@ -8,7 +8,7 @@ titel: "Steuerfüsse SG 2026 – Bemerkungen: Kantonssteuer 105 %, Zeichenerklä
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Bemerkungen · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Bemerkungen · S. 1
 
 # Steuerfüsse Kanton und Gemeinden 2026
 

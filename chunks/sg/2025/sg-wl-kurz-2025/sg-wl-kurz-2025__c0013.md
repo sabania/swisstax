@@ -9,7 +9,7 @@ ziffer: "23"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: wegleitung}}
 ---
-> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 23. Sozialabzüge Einkommen · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 23. Sozialabzüge Einkommen · S. 1
 
 23.   Sozialabzüge 23.1   Für jedes Kind im Vorschulalter   Fr. 7’600   31
     Einkommen   23.2   Für jedes Kind in schulischer oder beruflicher Ausbildung   Fr. 10’800

@@ -8,7 +8,7 @@ titel: "Steuerfüsse SG 2026 – Gemeinden Seite 1 (St. Gallen, Wittenbach bis S
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 1 · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 1 · S. 1
 
 Gemeinde   Politische Gemeinde   Kirchgemeinde   Steuerfuss
     Kanton und Gemeinden

@@ -7,7 +7,7 @@ typ: mitteilung
 titel: "Beilagen"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: mitteilung}}
 ---
-> Bund · Steuerjahr 2027 · ESTV-MM 2027 · EFD passt Steuertarife und -abzüge an Teuerung an › Beilagen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Mitteilung · Steuerjahr 2027 · ESTV-MM 2027 · EFD passt Steuertarife und -abzüge an Teuerung an › Beilagen
 
 ## Beilagen
 

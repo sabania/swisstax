@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0093
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 2/3)"
 ziffer: "Anhang 5"
 seiten: "37"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 5 Währungswechsel · S. 37
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › Anhang 5 Währungswechsel · S. 37
 
 Die Kapitaleinlage am 1. Juli 1998 wurde der Gesellschaft in Schweizer Franken bestätigt,
 da Reserven aus Kapitaleinlagen steuerlich gleich behandelt werden wie Grund- und

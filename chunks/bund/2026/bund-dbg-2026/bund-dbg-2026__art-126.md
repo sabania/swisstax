@@ -8,7 +8,7 @@ titel: "Art. 126 DBG – Weitere Mitwirkungspflichten"
 artikel: "Art. 126"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 2. Kapitel: Verfahrenspflichten › 2. Abschnitt: Pflichten des Steuerpflichtigen › Art. 126 Weitere Mitwirkungspflichten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 2. Kapitel: Verfahrenspflichten › 2. Abschnitt: Pflichten des Steuerpflichtigen › Art. 126 Weitere Mitwirkungspflichten
 
 ### Art. 126 DBG – Weitere Mitwirkungspflichten
 

@@ -8,7 +8,7 @@ titel: "Art. 212 StG AR – X. Steuerrückerstattungen 1. An ungetrennt lebende 
 artikel: "Art. 212"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 212 X. Steuerrückerstattungen 1. An ungetrennt lebende Ehegatten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 212 X. Steuerrückerstattungen 1. An ungetrennt lebende Ehegatten
 
 ### Art. 212 StG AR – X. Steuerrückerstattungen 1. An ungetrennt lebende Ehegatten
 

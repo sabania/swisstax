@@ -8,7 +8,7 @@ titel: "Art. 12 GSV AR – Ertragswert landwirtschaftlicher Grundstücke"
 artikel: "Art. 12"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 12 Ertragswert landwirtschaftlicher Grundstücke
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 12 Ertragswert landwirtschaftlicher Grundstücke
 
 ### Art. 12 GSV AR – Ertragswert landwirtschaftlicher Grundstücke
 

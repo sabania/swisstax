@@ -12,6 +12,10 @@ sha256: 90f55d4ef1d303cf9d5e0955fb63535002a4a11906123e3cf70185a78854a3d6
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
+ersetzt: bund-form-da1-2025
 ---
 # DA-1 Anrechnung ausländischer Quellensteuern 2026
 

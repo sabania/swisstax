@@ -9,7 +9,7 @@ artikel: "§ 175"
 seiten: "70"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerbezug › § 175 StG ZH – III. Nicht periodische Steuern · S. 70
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerbezug › § 175 StG ZH – III. Nicht periodische Steuern · S. 70
 
 ### § 175 StG ZH – III. Nicht periodische Steuern
 

@@ -8,7 +8,7 @@ titel: "Art. 185 StG SG – 2. Pflichten des Steuerpflichtigen"
 artikel: "Art. 185"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 185 2. Pflichten des Steuerpflichtigen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 185 2. Pflichten des Steuerpflichtigen
 
 ### Art. 185 StG SG – 2. Pflichten des Steuerpflichtigen
 

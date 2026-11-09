@@ -8,7 +8,7 @@ titel: "Art. 1 V DBG AR – Organe"
 artikel: "Art. 1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 1 Organe
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 1 Organe
 
 ### Art. 1 V DBG AR – Organe
 

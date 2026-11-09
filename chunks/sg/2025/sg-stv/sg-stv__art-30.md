@@ -8,7 +8,7 @@ titel: "Art. 30 StV SG – Sozialabzüge beim Einkommen (Art. 48 Abs. 1 Bst. a S
 artikel: "Art. 30"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 30 Sozialabzüge beim Einkommen (Art. 48 Abs. 1 Bst. a StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 30 Sozialabzüge beim Einkommen (Art. 48 Abs. 1 Bst. a StG)
 
 ### Art. 30 StV SG – Sozialabzüge beim Einkommen (Art. 48 Abs. 1 Bst. a StG)
 

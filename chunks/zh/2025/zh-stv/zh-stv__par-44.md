@@ -9,7 +9,7 @@ artikel: "§ 44"
 seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › C. Einschätzungsverfahren › § 44 StV ZH – 1. Einschätzungsvorschlag und -entscheid · S. 8
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › C. Einschätzungsverfahren › § 44 StV ZH – 1. Einschätzungsvorschlag und -entscheid · S. 8
 
 ### § 44 StV ZH – 1. Einschätzungsvorschlag und -entscheid
 

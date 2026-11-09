@@ -8,7 +8,7 @@ titel: "Art. 31 DBG – Verluste"
 artikel: "Art. 31"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 31 Verluste
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 31 Verluste
 
 ### Art. 31 DBG – Verluste
 

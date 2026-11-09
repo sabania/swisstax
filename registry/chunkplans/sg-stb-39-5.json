@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Ziff. 1–2 Wochenaufenthalt – Wohnsitz und notwendiger Wochenaufenthalt",
    "pfad": [
     "Wochenaufenthalt",
@@ -25,7 +25,7 @@
    "zusammenfassung": "Wohnsitz bei Wochenaufenthalt am Familienort; notwendig nur, wenn tägliche Rückkehr nicht zumutbar ist, sonst Wohnsitzverlegung an den Arbeitsort."
   },
   {
-   "start": 58,
+   "start": 42,
    "titel": "Ziff. 3.1 Wochenaufenthalt – Auswärtige Verpflegung, Pauschalen",
    "pfad": [
     "Wochenaufenthalt",
@@ -47,7 +47,7 @@
    "zusammenfassung": "Voller Abzug Fr. 30.00 pro Tag bzw. Fr. 6'400.00 pro Jahr, reduziert Fr. 22.50 bzw. Fr. 4'800.00 bei verbilligter Mahlzeit oder Kantine."
   },
   {
-   "start": 87,
+   "start": 71,
    "titel": "Ziff. 3.2 Wochenaufenthalt – Auswärtige Unterkunft (Zimmer bis Fr. 800/500)",
    "pfad": [
     "Wochenaufenthalt",
@@ -67,7 +67,7 @@
    "zusammenfassung": "Monatsmieten bis Fr. 800.-- in Zürich, Bern, Basel, Lausanne, Genf und grösseren Kurorten, sonst bis Fr. 500.-- anerkannt."
   },
   {
-   "start": 98,
+   "start": 82,
    "titel": "Ziff. 3.3 Wochenaufenthalt – Fahrkosten",
    "pfad": [
     "Wochenaufenthalt",
@@ -86,5 +86,7 @@
    ],
    "zusammenfassung": "Wöchentliche Fahrt Familien-/Arbeitsort nach den Regeln StB 39 Nr. 3; zusätzliche Fahrkosten nur im Agglomerationsbereich."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

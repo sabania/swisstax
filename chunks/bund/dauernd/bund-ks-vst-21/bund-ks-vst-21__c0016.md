@@ -2,14 +2,14 @@
 id: bund-ks-vst-21__c0016
 quelle: bund-ks-vst-21
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang 2 Textvorgabe Bestätigungen unter Banken/Depotstellen"
 ziffer: "Anhang 2"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 21 · Anhang 2 · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS VST 21 · Anhang 2 · S. 7
 
 10 Anhang 2: Textvorgabe Bestätigungen unter Banken / Depotstellen
 

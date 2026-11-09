@@ -9,7 +9,7 @@ ziffer: "4.1 a–d"
 seiten: "6-7"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.1 Person mit Behinderung · S. 6–7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.1 Person mit Behinderung · S. 6–7
 
 Als Personen mit Behinderung gelten in jedem Fall:
     a. Bezügerinnen und Bezüger von Leistungen gemäss dem Bundesgesetz vom 19. Juni

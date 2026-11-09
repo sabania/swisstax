@@ -2,14 +2,14 @@
 id: bund-ks-28__c0073
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Art. 6 Abs. 6 Anrechnung von Vorsorgeguthaben und Bezügen"
 ziffer: "Art. 6 Abs. 6"
 seiten: "25-26"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 25–26
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 25–26
 
 Absatz 6
 Alle Vorsorgeguthaben (z.B. auch Guthaben im überobligatorischen Teil, Freizügigkeitsgut-

@@ -8,7 +8,7 @@ titel: "Art. 11 DBG – Ausländische Handelsgesellschaften und andere ausländi
 artikel: "Art. 11"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 11 Ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten ohne juristische Persönlichkeit
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 11 Ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten ohne juristische Persönlichkeit
 
 ### Art. 11 DBG – Ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten ohne juristische Persönlichkeit
 

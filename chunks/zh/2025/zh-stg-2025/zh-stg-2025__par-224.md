@@ -9,7 +9,7 @@ artikel: "§ 224"
 seiten: "79-80"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 224 StG ZH – 6. Teilveräusserung · S. 79–80
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 224 StG ZH – 6. Teilveräusserung · S. 79–80
 
 ### § 224 StG ZH – 6. Teilveräusserung
 

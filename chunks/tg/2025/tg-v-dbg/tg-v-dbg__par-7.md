@@ -8,7 +8,7 @@ titel: "§ 7 V DBG TG – Mitwirkung der Gemeinden"
 artikel: "§ 7"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 7 Mitwirkung der Gemeinden
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 7 Mitwirkung der Gemeinden
 
 ### § 7 V DBG TG – Mitwirkung der Gemeinden
 

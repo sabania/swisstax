@@ -2,14 +2,14 @@
 id: bund-ks-28__c0054
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Art. 1 Abs. 3 Ausnahmen – nur einmal, nur stille Reserven"
 ziffer: "Art. 1 Abs. 3"
 seiten: "19"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 19
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 19
 
 Absatz 3
 Buchstabe a

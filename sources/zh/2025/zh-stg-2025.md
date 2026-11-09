@@ -6,13 +6,17 @@ jurisdiktion: zh
 jahre:
 - 2025
 typ: gesetz
-stand: 1.1.25 - 127
+stand: '2025-01-01'
 quelle_url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_1-1997_06_08-1999_01_01-127.html
 raw: raw/zh/2025/zh-stg-2025.pdf
 sha256: bb07dc6cb57e8f6d16a5a9da53a72c374e8bb7c700b7e090a66f875a6cc9eca7
 abgerufen: '2026-11-09'
 einheiten: 324
 konvertierung: ZH-Lex-PDF -> Markdown je § (tools/zhlex.py, pdfplumber, Randtitel/Endnoten heuristisch)
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: zh-stg-2026
 ---
 # Steuergesetz ZH (LS 631.1) – Nachtrag 127, Stand 1.1.2025
 

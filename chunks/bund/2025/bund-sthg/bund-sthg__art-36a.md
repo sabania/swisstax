@@ -2,13 +2,13 @@
 id: bund-sthg__art-36a
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 36a StHG – Abgegoltene Steuer"
 artikel: "Art. 36a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Vierter Titel: Quellensteuern für natürliche und juristische Personen › 2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 36a Abgegoltene Steuer
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Vierter Titel: Quellensteuern für natürliche und juristische Personen › 2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 36a Abgegoltene Steuer
 
 ### Art. 36a StHG – Abgegoltene Steuer
 

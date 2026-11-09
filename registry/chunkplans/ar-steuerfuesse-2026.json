@@ -1,5 +1,61 @@
-{"id":"ar-steuerfuesse-2026","hinweise":["Seite 1: Tabellenspalten teils vermischt (Gemeinden mit mehreren Kirchgemeinden, z.B. Thal-Lutzenberg, Heiden, Teufen als Zeilenfortsetzungen); Zuordnung Gemeinde/Kirchgemeinde nur aus Zeilenposition erkennbar."],"chunks":[
-{"start":16,"titel":"Steuerfüsse 2026 natürliche Personen AR – Kantonaler Steuerfuss 3.30","pfad":["Steuerfüsse 2026"],"stichworte":["Steuerfuss","Kanton Appenzell Ausserrhoden","Staatssteuer","Einheiten","Steuerverwaltung AR"],"zusammenfassung":"Kantonaler Steuerfuss AR 2026 natürliche Personen: 3.30 Einheiten."},
-{"start":32,"titel":"Steuerfüsse pro Gemeinde und Kirchgemeinde 2026 (Tabelle AR)","pfad":["Steuerfüsse 2026","Tabelle nach Gemeinde"],"stichworte":["Steuerfuss Gemeinde","Kirchensteuer","Herisau","Teufen","Bühler","Gais","Speicher","Trogen","Gesamtsteuerfuss"],"zusammenfassung":"Tabelle der Steuerfüsse pro politische Gemeinde und Kirchgemeinde sowie gesamt (z.B. Teufen 2.60 politisch, gesamt 6.35; Herisau 4.10, gesamt 8.00)."},
-{"start":68,"titel":"Hinweis Separaterhebungen und Entwicklung der Steuerfüsse 2025–2026","pfad":["Steuerfüsse 2026","Entwicklung"],"stichworte":["Steuerfussentwicklung","Erhöhung","Senkung","Separaterhebung","Kirchgemeinden"],"zusammenfassung":"Ansätze enthalten Separaterhebungen für besondere Zwecke; Entwicklung 2025–2026: Staatssteuer unverändert, bei politischen Gemeinden 15 unverändert, 1 Erhöhung, 2 Senkungen."}
-]}
+{
+ "id": "ar-steuerfuesse-2026",
+ "hinweise": [
+  "Seite 1: Tabellenspalten teils vermischt (Gemeinden mit mehreren Kirchgemeinden, z.B. Thal-Lutzenberg, Heiden, Teufen als Zeilenfortsetzungen); Zuordnung Gemeinde/Kirchgemeinde nur aus Zeilenposition erkennbar."
+ ],
+ "chunks": [
+  {
+   "start": 1,
+   "titel": "Steuerfüsse 2026 natürliche Personen AR – Kantonaler Steuerfuss 3.30",
+   "pfad": [
+    "Steuerfüsse 2026"
+   ],
+   "stichworte": [
+    "Steuerfuss",
+    "Kanton Appenzell Ausserrhoden",
+    "Staatssteuer",
+    "Einheiten",
+    "Steuerverwaltung AR"
+   ],
+   "zusammenfassung": "Kantonaler Steuerfuss AR 2026 natürliche Personen: 3.30 Einheiten."
+  },
+  {
+   "start": 17,
+   "titel": "Steuerfüsse pro Gemeinde und Kirchgemeinde 2026 (Tabelle AR)",
+   "pfad": [
+    "Steuerfüsse 2026",
+    "Tabelle nach Gemeinde"
+   ],
+   "stichworte": [
+    "Steuerfuss Gemeinde",
+    "Kirchensteuer",
+    "Herisau",
+    "Teufen",
+    "Bühler",
+    "Gais",
+    "Speicher",
+    "Trogen",
+    "Gesamtsteuerfuss"
+   ],
+   "zusammenfassung": "Tabelle der Steuerfüsse pro politische Gemeinde und Kirchgemeinde sowie gesamt (z.B. Teufen 2.60 politisch, gesamt 6.35; Herisau 4.10, gesamt 8.00)."
+  },
+  {
+   "start": 53,
+   "titel": "Hinweis Separaterhebungen und Entwicklung der Steuerfüsse 2025–2026",
+   "pfad": [
+    "Steuerfüsse 2026",
+    "Entwicklung"
+   ],
+   "stichworte": [
+    "Steuerfussentwicklung",
+    "Erhöhung",
+    "Senkung",
+    "Separaterhebung",
+    "Kirchgemeinden"
+   ],
+   "zusammenfassung": "Ansätze enthalten Separaterhebungen für besondere Zwecke; Entwicklung 2025–2026: Staatssteuer unverändert, bei politischen Gemeinden 15 unverändert, 1 Erhöhung, 2 Senkungen."
+  }
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
+}

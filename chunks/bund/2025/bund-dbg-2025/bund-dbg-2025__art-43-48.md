@@ -8,7 +8,7 @@ titel: "Art. 43–48 DBG"
 artikel: "Art. 43–48"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Teil: Besteuerung der natürlichen Personen › Dritter Titel: Zeitliche Bemessung › Art. 43–48
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Teil: Besteuerung der natürlichen Personen › Dritter Titel: Zeitliche Bemessung › Art. 43–48
 
 ### Art. 43–48 DBG
 

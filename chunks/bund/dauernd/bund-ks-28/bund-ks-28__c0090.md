@@ -2,14 +2,14 @@
 id: bund-ks-28__c0090
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Nachfolgeklausel 2.B, Fortsetzungs- und Eintrittsklausel (Teil 2/3)"
 ziffer: "Anhang III"
 seiten: "32"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang III Personengesellschaft · S. 32
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang III Personengesellschaft · S. 32
 
 3. Fortsetzungsklausel   Im Gesellschaftsvertrag vereinbaren die Ge-   Damit scheidet der Erblasser im Zeit-   Der Erblasser realisiert den Liquidati-
     sellschafter, dass beim Tod eines Gesell-   punkt des Todes aus der Gesell-   onsgewinn. Hat er im Zeitpunkt seines

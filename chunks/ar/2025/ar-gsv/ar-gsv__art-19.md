@@ -8,7 +8,7 @@ titel: "Art. 19 GSV AR – Mitwirkung der Grundeigentümer"
 artikel: "Art. 19"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 19 Mitwirkung der Grundeigentümer
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 19 Mitwirkung der Grundeigentümer
 
 ### Art. 19 GSV AR – Mitwirkung der Grundeigentümer
 

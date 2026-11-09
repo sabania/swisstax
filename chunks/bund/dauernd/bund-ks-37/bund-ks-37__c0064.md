@@ -2,14 +2,14 @@
 id: bund-ks-37__c0064
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8.1.4 Weitere Auskünfte und 8.2 Pflichten der Steuerpflichtigen (Wertschriftenverzeichnis)"
 ziffer: "8.1.4 / 8.2"
 seiten: "20"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1.4 / 8.2 Steuerpflichtige · S. 20
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1.4 / 8.2 Steuerpflichtige · S. 20
 
 8.1.4 Weitere Auskünfte (Art. 17 MBV)
 Der Arbeitgeber ist verpflichtet, jederzeit weitere Angaben zu der abgegebenen Mitarbeiter-

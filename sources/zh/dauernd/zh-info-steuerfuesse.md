@@ -12,6 +12,7 @@ raw: raw/zh/dauernd/zh-info-steuerfuesse.html
 sha256: ac92d465f1396dd8a6a10c23df177647575e35050a960eb15a002cab03f020cc
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Aktuelle Gemeindesteuerfüsse
 

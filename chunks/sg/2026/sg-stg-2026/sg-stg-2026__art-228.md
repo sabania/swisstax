@@ -8,7 +8,7 @@ titel: "Art. 228 StG SG – Veranlagungs- und Bezugsstellen"
 artikel: "Art. 228"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Erster Abschnitt: Allgemeine Bestimmungen › Art. 228 Veranlagungs- und Bezugsstellen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Erster Abschnitt: Allgemeine Bestimmungen › Art. 228 Veranlagungs- und Bezugsstellen
 
 ### Art. 228 StG SG – Veranlagungs- und Bezugsstellen
 

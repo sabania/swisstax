@@ -8,7 +8,7 @@ titel: "Formular 21 EDP – Kopf, Vorsorgeeinrichtung und versicherte Person (Fe
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › Kopfdaten · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › Kopfdaten · S. 1
 
 # ESTV Formular 21 EDP: Bescheinigung über Vorsorgebeiträge (Säule 3a) 2025
 

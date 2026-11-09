@@ -8,7 +8,7 @@ titel: "Art. 170 DBG – Arrest"
 artikel: "Art. 170"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 170 Arrest
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 170 Arrest
 
 ### Art. 170 DBG – Arrest
 

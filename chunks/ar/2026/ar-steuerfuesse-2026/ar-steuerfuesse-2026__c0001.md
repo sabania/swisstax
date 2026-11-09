@@ -8,7 +8,7 @@ titel: "Steuerfüsse 2026 natürliche Personen AR – Kantonaler Steuerfuss 3.30
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2026], typ: steuerfuss}}
 ---
-> AR · Steuerjahr 2026 · Steuerfüsse AR 2026 · Steuerfüsse 2026 · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse AR 2026 · Steuerfüsse 2026 · S. 1
 
 # Steuerfüsse 2026 (Stand 28.4.2026)
 

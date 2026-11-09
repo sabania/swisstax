@@ -6,7 +6,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 1 SG 2025: Kopf – Dauer der Steuerpflicht, Rückfragen, Vertretung",
    "pfad": [
     "Seite 1",
@@ -25,7 +25,7 @@
    ]
   },
   {
-   "start": 43,
+   "start": 28,
    "titel": "Ziff. 1 Personalien, Berufs- und Familienverhältnisse, Kinder",
    "pfad": [
     "Seite 1",
@@ -47,7 +47,7 @@
    ]
   },
   {
-   "start": 66,
+   "start": 51,
    "titel": "Rückzahlungen – Auszahlungskonto für Steuerrückzahlungen (IBAN)",
    "pfad": [
     "Seite 1",
@@ -65,7 +65,7 @@
    ]
   },
   {
-   "start": 83,
+   "start": 68,
    "titel": "Ziff. 1–2 Einkünfte aus Erwerbstätigkeit: unselbständig, VR-Honorare, selbständig (Codes 100–122)",
    "pfad": [
     "Seite 2",
@@ -90,7 +90,7 @@
    ]
   },
   {
-   "start": 120,
+   "start": 105,
    "titel": "Ziff. 3 Einkünfte aus Sozial- und anderen Versicherungen (Codes 126–142)",
    "pfad": [
     "Seite 2",
@@ -115,7 +115,7 @@
    ]
   },
   {
-   "start": 139,
+   "start": 124,
    "titel": "Ziff. 4–7 Bewegliches Vermögen, Liegenschaften, weitere Einkünfte, Total (Codes 146–168)",
    "pfad": [
     "Seite 2",
@@ -147,7 +147,7 @@
    ]
   },
   {
-   "start": 165,
+   "start": 150,
    "titel": "Ziff. 8 Ergänzende Angaben: vereinfachte Abrechnung, Ergänzungsleistungen, Hilflosenentschädigung (290–292)",
    "pfad": [
     "Seite 2",
@@ -168,7 +168,7 @@
    ]
   },
   {
-   "start": 172,
+   "start": 157,
    "titel": "Ziff. 10–13 Abzüge: Berufskosten, Schuldzinsen, Unterhalt, Vorsorgebeiträge (Codes 200–500)",
    "pfad": [
     "Seite 3",
@@ -194,7 +194,7 @@
    ]
   },
   {
-   "start": 201,
+   "start": 186,
    "titel": "Ziff. 14–18 Versicherungsprämien, Liegenschaftsunterhalt, weitere Abzüge, Zweiverdienerabzug, Total (Codes 600–230)",
    "pfad": [
     "Seite 3",
@@ -225,7 +225,7 @@
    ]
   },
   {
-   "start": 221,
+   "start": 206,
    "titel": "Ziff. 20–22 Einkommensberechnung: Krankheitskosten (Selbstbehalt 2 %), Behinderung, Zuwendungen, Reineinkommen",
    "pfad": [
     "Seite 3",
@@ -248,7 +248,7 @@
    ]
   },
   {
-   "start": 240,
+   "start": 225,
    "titel": "Ziff. 23–24 Sozialabzüge: Kinderabzug Fr. 7’600 / Fr. 10’800, unterstützte Personen, steuerbares Einkommen (Codes 252–268)",
    "pfad": [
     "Seite 3",
@@ -271,7 +271,7 @@
    ]
   },
   {
-   "start": 251,
+   "start": 236,
    "titel": "Ziff. 30–31 Vermögen: Wertschriften, Edelmetalle, Versicherungen, Fahrzeuge, Liegenschaften (Codes 300–710)",
    "pfad": [
     "Seite 4",
@@ -298,7 +298,7 @@
    ]
   },
   {
-   "start": 284,
+   "start": 269,
    "titel": "Ziff. 32–37 Betriebsvermögen, Schulden, Reinvermögen, Sozialabzüge Vermögen (Fr. 75’000 / 150’000 / 20’000)",
    "pfad": [
     "Seite 4",
@@ -323,7 +323,7 @@
    ]
   },
   {
-   "start": 306,
+   "start": 291,
    "titel": "Ziff. 40–41 Kapitalleistungen aus Vorsorge, Beilagen und Unterschrift",
    "pfad": [
     "Seite 4",
@@ -344,5 +344,7 @@
     "verfahren.einreichung"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

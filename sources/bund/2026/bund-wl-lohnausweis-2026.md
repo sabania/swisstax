@@ -12,6 +12,8 @@ sha256: d92b36c0e0f63fd32a0c8e761438d3cc61cb209a854fa9dd0c131450a5a10e8b
 abgerufen: '2026-11-09'
 seiten: 25
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
 ---
 # Wegleitung zum Ausfüllen des Lohnausweises (gültig ab 01.01.2026)
 

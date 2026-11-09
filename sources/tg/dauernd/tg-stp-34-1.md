@@ -6,12 +6,15 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-1-liegenschaftsunterhalt
 raw: raw/tg/dauernd/tg-stp-34-1.html
 sha256: 6976db124d32c4e6cc21ecb9892871726ca04832b2b7c577b291129452ed06fa
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2024-07-01'
 ---
 # StP 34 Nr. 1: Liegenschaftsunterhalt
 

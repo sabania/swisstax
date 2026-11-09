@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0015
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "D Folgen der Nichteinreichung – Ermessenseinschätzung, Busse bis Fr. 1'000/10'000"
 ziffer: "D"
 seiten: "5"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · D. Folgen der Nichteinreichung · S. 5
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · D. Folgen der Nichteinreichung · S. 5
 
 D. Folgen der Nichteinreichung der Steuererklärung
 

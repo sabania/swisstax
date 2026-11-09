@@ -8,7 +8,7 @@ titel: "Art. 41a StG AR – Liquidationsgewinne mit Vorsorgecharakter"
 artikel: "Art. 41a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 41a Liquidationsgewinne mit Vorsorgecharakter
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 41a Liquidationsgewinne mit Vorsorgecharakter
 
 ### Art. 41a StG AR – Liquidationsgewinne mit Vorsorgecharakter
 

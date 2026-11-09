@@ -8,7 +8,7 @@ titel: "Art. 19 StG AR – I. Steuerbare Einkünfte 1. Allgemeines"
 artikel: "Art. 19"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 19 I. Steuerbare Einkünfte 1. Allgemeines
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 19 I. Steuerbare Einkünfte 1. Allgemeines
 
 ### Art. 19 StG AR – I. Steuerbare Einkünfte 1. Allgemeines
 

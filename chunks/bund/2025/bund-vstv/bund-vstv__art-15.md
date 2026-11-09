@@ -2,13 +2,13 @@
 id: bund-vstv__art-15
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 15 VStV"
 artikel: "Art. 15"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · I. Gegenstand der Steuer › 2. Begriff der Obligationen und Serientitel › Art. 15
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · I. Gegenstand der Steuer › 2. Begriff der Obligationen und Serientitel › Art. 15
 
 ### Art. 15 VStV
 

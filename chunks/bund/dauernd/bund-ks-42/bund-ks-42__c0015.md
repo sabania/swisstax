@@ -2,14 +2,14 @@
 id: bund-ks-42__c0015
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.3 Obergrenze des Abzuges – 12 000 Franken pro Steuerperiode"
 ziffer: "4.3"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.3 Obergrenze · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 4 Steuerliche Behandlung › 4.3 Obergrenze · S. 7
 
 4.3   Obergrenze des Abzuges
 Der zulässige Abzug ist auf einen Gesamtbetrag von höchstens 12 000 Franken pro Steuerperi-

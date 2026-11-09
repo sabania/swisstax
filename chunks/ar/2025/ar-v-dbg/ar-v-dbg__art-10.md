@@ -8,7 +8,7 @@ titel: "Art. 10 V DBG AR – Allgemeines"
 artikel: "Art. 10"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · III. Beschwerde › Art. 10 Allgemeines
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · III. Beschwerde › Art. 10 Allgemeines
 
 ### Art. 10 V DBG AR – Allgemeines
 

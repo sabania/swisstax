@@ -9,7 +9,7 @@ ziffer: "4–5"
 seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstabe A/B · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstabe A/B · S. 7
 
 I   Notwendige Angaben
 Verwendung des Formulars 11 als Lohnausweis   Buchstabe A

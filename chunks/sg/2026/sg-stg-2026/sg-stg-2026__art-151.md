@@ -8,7 +8,7 @@ titel: "Art. 151 StG SG – 2. Besondere Fälle"
 artikel: "Art. 151"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 151 2. Besondere Fälle
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 151 2. Besondere Fälle
 
 ### Art. 151 StG SG – 2. Besondere Fälle
 

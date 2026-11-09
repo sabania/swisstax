@@ -7,7 +7,7 @@ typ: info
 titel: "Kapitalleistungen aus Vorsorge"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Kapitalleistungen aus Vorsorge
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Kapitalleistungen aus Vorsorge
 
     Zusätzlich hält § 39 Abs. 1 StG fest, dass Kapitalleistungen stets einer vollen Jahressteuer für das Kalenderjahr, in dem sie zugeflossen sind, unterliegen. Eine Leistung wird als "zugeflossen" betrachtet, wenn der Steuerpflichtige einen festen und durchsetzbaren Rechtsanspruch erworben hat und in der Lage ist, über die Leistung wirtschaftlich frei zu verfügen. Normalerweise tritt dieser Fall zum Zeitpunkt der Fälligkeit der Leistung ein.
 

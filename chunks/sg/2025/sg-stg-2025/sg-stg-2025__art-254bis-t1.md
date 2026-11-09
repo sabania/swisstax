@@ -8,7 +8,7 @@ titel: "Art. 254 bis StG SG – b) Straflose Selbstanzeige (Teil 1/2)"
 artikel: "Art. 254 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 254 bis b) Straflose Selbstanzeige
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 254 bis b) Straflose Selbstanzeige
 
 ### Art. 254 bis StG SG – b) Straflose Selbstanzeige
 

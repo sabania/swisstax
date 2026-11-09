@@ -8,7 +8,7 @@ titel: "Art. 77 StV AR – Ermittlung der Quote (Art. 282 Abs. 4 StG)"
 artikel: "Art. 77"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 77 Ermittlung der Quote (Art. 282 Abs. 4 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 77 Ermittlung der Quote (Art. 282 Abs. 4 StG)
 
 ### Art. 77 StV AR – Ermittlung der Quote (Art. 282 Abs. 4 StG)
 

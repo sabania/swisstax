@@ -12,6 +12,7 @@ raw: raw/ar/dauernd/ar-info-faq.html
 sha256: 6b2d468d69b83d6634dd7d97442aaed5ce33891ea1004ee24f12b659755dd79e
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Häufige Fragen / FAQ
 

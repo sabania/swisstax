@@ -5,12 +5,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 91,
+   "start": 74,
    "titel": "Ziff. 1 Rechtliche Grundlagen der Säule 3a",
    "pfad": [
     "1. Rechtliche Grundlagen"
@@ -29,7 +29,7 @@
    "zusammenfassung": "Die gebundene Selbstvorsorge (Säule 3a) beruht auf Art. 82 BVG und BVV 3; anerkannte Vorsorgeformen sind gebundene Vorsorgeversicherung und gebundene Vorsorgevereinbarung mit Bankstiftung."
   },
   {
-   "start": 110,
+   "start": 93,
    "titel": "Ziff. 2 Prüfung der Vertragsmodelle durch die ESTV",
    "pfad": [
     "2. Prüfung der Vertragsmodelle"
@@ -48,7 +48,7 @@
    "zusammenfassung": "Vertragsmodelle sind der ESTV vor Abschluss zur Prüfung einzureichen; ohne Genehmigung ist der Abzug der Vorsorgebeiträge zu verweigern."
   },
   {
-   "start": 125,
+   "start": 108,
    "titel": "Ziff. 2 Genehmigte Bezeichnung «gebundene Vorsorge» – sonst kein Abzug",
    "pfad": [
     "2. Prüfung der Vertragsmodelle"
@@ -66,7 +66,7 @@
    "zusammenfassung": "Die Bezeichnungen «gebundene Vorsorgeversicherung» und «gebundene Vorsorgevereinbarung» dürfen nur für von der ESTV genehmigte Modelle verwendet werden, sonst ist der Abzug zu verweigern."
   },
   {
-   "start": 131,
+   "start": 114,
    "titel": "Ziff. 3 Kreis der Vorsorgenehmer (AHV-pflichtiges Einkommen, Grenzgänger)",
    "pfad": [
     "3. Kreis der Vorsorgenehmer"
@@ -85,7 +85,7 @@
    "zusammenfassung": "Vorsorgeverträge der Säule 3a können nur Personen mit AHV-pflichtigem Erwerbs- oder Erwerbsersatzeinkommen abschliessen, auch Grenzgänger mit Wohnsitz im Ausland."
   },
   {
-   "start": 139,
+   "start": 122,
    "titel": "Ziff. 3 Erwerbstätigkeit über das Referenzalter hinaus; Freibetrag; jährlicher Nachweis",
    "pfad": [
     "3. Kreis der Vorsorgenehmer"
@@ -104,7 +104,7 @@
    "zusammenfassung": "Abzug bis höchstens fünf Jahre nach Erreichen des Referenzalters, auch bei Einkommen unter dem AHV-Freibetrag (im Publikationszeitpunkt CHF 16'800 pro Arbeitgeber); der Nachweis der Erwerbstätigkeit ist jährlich zu erbringen."
   },
   {
-   "start": 156,
+   "start": 139,
    "titel": "Ziff. 4 Begünstigte Personen",
    "pfad": [
     "4. Begünstigte Personen"
@@ -123,7 +123,7 @@
    "zusammenfassung": "Im Erlebensfall ist der Vorsorgenehmer begünstigt, danach Ehegatte/eingetragener Partner, dann direkte Nachkommen und weitere in Art. 2 BVV 3 genannte Personen."
   },
   {
-   "start": 170,
+   "start": 153,
    "titel": "Ziff. 4 Kürzung der Leistung bei vorsätzlicher Herbeiführung des Todes",
    "pfad": [
     "4. Begünstigte Personen"
@@ -140,7 +140,7 @@
    "zusammenfassung": "Die Vorsorgeeinrichtung kann die Leistung kürzen oder verweigern, wenn der Begünstigte den Tod vorsätzlich herbeigeführt hat; sie fällt dann den nächsten Begünstigten zu."
   },
   {
-   "start": 176,
+   "start": 159,
    "titel": "Ziff. 5.1 Abzugsberechtigung für Beiträge – Allgemeines",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -161,7 +161,7 @@
    "zusammenfassung": "Beiträge sind nach Art. 33 Abs. 1 Bst. e DBG i.V.m. Art. 7 BVV 3 nur in begrenztem Umfang abziehbar und setzen Erwerbstätigkeit voraus; überschiessende Beiträge unterliegen der Rückerstattungspflicht."
   },
   {
-   "start": 189,
+   "start": 172,
    "titel": "Ziff. 5.1 Begrenzung inkl. Risikoversicherung; Unterbruch der Erwerbstätigkeit; Prämienbefreiung",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -182,7 +182,7 @@
    "zusammenfassung": "Die Begrenzung nach Art. 7 BVV 3 umfasst auch Beiträge an eine ergänzende Risikoversicherung; bei vorübergehendem Unterbruch (Militär, Arbeitslosigkeit, Krankheit) bleibt die Abzugsberechtigung bestehen, bei Aufgabe der Erwerbstätigkeit entfällt sie."
   },
   {
-   "start": 205,
+   "start": 188,
    "titel": "Ziff. 5.1–5.2 Zeitpunkt der Einzahlung (31. Dezember); Anzahl Vorsorgekonten",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -202,7 +202,7 @@
    "zusammenfassung": "Der Beitrag muss bis spätestens 31. Dezember auf dem individuellen Vorsorgekonto gutgeschrieben sein; mehrere Konten sind möglich, die Gesamtsumme darf den Maximalbetrag nach Art. 7 Abs. 1 BVV 3 nicht übersteigen."
   },
   {
-   "start": 224,
+   "start": 207,
    "titel": "Ziff. 5.3 Oberer Grenzbetrag (8 % / 40 %)",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -222,7 +222,7 @@
    "zusammenfassung": "Abziehbar sind jährlich 8 Prozent (Bst. a) bzw. 40 Prozent (Bst. b) des oberen Grenzbetrages nach Art. 8 Abs. 1 BVG."
   },
   {
-   "start": 235,
+   "start": 218,
    "titel": "Ziff. 5.4 Abzug für in der 2. Säule Versicherte (kleine Säule 3a, 8 %)",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -242,7 +242,7 @@
    "zusammenfassung": "Mit Anschluss an die 2. Säule sind die tatsächlich geleisteten Beiträge bis 8 Prozent des oberen Grenzbetrages abziehbar; beide erwerbstätigen Ehegatten können den Abzug je für sich geltend machen."
   },
   {
-   "start": 251,
+   "start": 234,
    "titel": "Ziff. 5.5 Abzug ohne 2. Säule (grosse Säule 3a, 20 % / max. 40 %)",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -263,7 +263,7 @@
    "zusammenfassung": "Nicht in der 2. Säule Versicherte können bis 20 Prozent des Erwerbseinkommens, höchstens 40 Prozent des oberen Grenzbetrages abziehen; bei Verlust aus Erwerbstätigkeit kein Abzug."
   },
   {
-   "start": 268,
+   "start": 251,
    "titel": "Ziff. 5.5 Begriff Erwerbseinkommen für die Säule 3a",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -283,7 +283,7 @@
    "zusammenfassung": "Erwerbseinkommen ist bei Unselbständigen der Bruttolohn nach Abzug der AHV/IV/EO/ALV-Beiträge, bei Selbständigen der Saldo der Gewinn- und Verlustrechnung nach Abzug der AHV-Beiträge, aber ohne Abzug von Vorsorgebeiträgen."
   },
   {
-   "start": 282,
+   "start": 265,
    "titel": "Ziff. 5.6 Einkäufe in die Säule 3a – Voraussetzungen (ab 2025/2026)",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -305,7 +305,7 @@
    "zusammenfassung": "Seit 1. Januar 2025 (Art. 7a/7b BVV 3) können Beitragslücken ab Steuerjahr 2025 durch Einkäufe nachgezahlt werden, wenn der Maximalbeitrag im Einkaufsjahr geleistet wurde und noch keine Altersleistung aus der Säule 3a bezogen wurde."
   },
   {
-   "start": 288,
+   "start": 271,
    "titel": "Ziff. 5.6 Einkäufe Säule 3a – kumulative Voraussetzungen",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -324,7 +324,7 @@
    "zusammenfassung": "Voraussetzungen kumulativ: im Einkaufsjahr Maximalbeitrag geleistet, in den zehn Vorjahren Lücken (erst ab Steuerjahr 2025), in den betroffenen Jahren Beitragsberechtigung und noch keine Altersleistung aus der Säule 3a bezogen."
   },
   {
-   "start": 306,
+   "start": 289,
    "titel": "Ziff. 5.6 Einkäufe Säule 3a – Umfang (kleiner Abzug), Jahresbeitragslücke, Fristen",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -344,7 +344,7 @@
    "zusammenfassung": "Der Einkauf ist pro Steuerjahr höchstens im Umfang des kleinen Abzugs (8 Prozent des oberen Grenzbetrags) möglich; jede Jahresbeitragslücke darf nur durch einen einzigen Einkauf ausgeglichen werden, längstens bis fünf Jahre nach Referenzalter."
   },
   {
-   "start": 327,
+   "start": 310,
    "titel": "Ziff. 5.7 Sonderfall a: Mitarbeit im Beruf oder Betrieb des Ehegatten",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -363,7 +363,7 @@
    "zusammenfassung": "Bei Mitarbeit im Beruf oder Betrieb des Ehegatten wird die eheliche Beistandspflicht vermutet; ein Abzug setzt ein darüber hinausgehendes Arbeitsverhältnis mit AHV/IV-Abrechnung auf den Namen des mithelfenden Ehegatten voraus."
   },
   {
-   "start": 337,
+   "start": 320,
    "titel": "Ziff. 5.7 Sonderfälle b–c: Selbständige mit 2.-Säule-Nebenverdienst; IV-Bezüger",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -382,7 +382,7 @@
    "zusammenfassung": "Selbständigerwerbende mit 2.-Säule-Nebenverdienst können nur den kleinen Abzug (Art. 7 Abs. 1 Bst. a BVV 3) geltend machen, ausser sie lassen sich von der obligatorischen Versicherung freistellen; IV-Bezüger mit AHV-pflichtigem Resterwerbseinkommen können eine Säule 3a bilden."
   },
   {
-   "start": 353,
+   "start": 336,
    "titel": "Ziff. 5.7 Sonderfall d: Quellensteuerpflichtige",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -401,7 +401,7 @@
    "zusammenfassung": "Quellenbesteuerte mit Wohnsitz in der Schweiz können bis 31. März des Folgejahres schriftlich eine nachträgliche ordentliche Veranlagung beantragen, um Säule-3a-Einzahlungen abzuziehen."
   },
   {
-   "start": 370,
+   "start": 353,
    "titel": "Ziff. 5.7 Sonderfall e: Einzahlung bei Beendigung der Erwerbstätigkeit",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -420,7 +420,7 @@
    "zusammenfassung": "Im Jahr der Beendigung der Erwerbstätigkeit kann der volle Beitrag geleistet werden, die Einzahlung muss aber erfolgen, solange die Person noch erwerbstätig ist."
   },
   {
-   "start": 379,
+   "start": 362,
    "titel": "Ziff. 5.7 Sonderfall f: Erwerbstätige nach Erreichen des Referenzalters",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -441,7 +441,7 @@
    "zusammenfassung": "Nach dem Referenzalter erwerbstätige Rentenbezüger können bis fünf Jahre danach 20 Prozent des Erwerbseinkommens, höchstens 40 Prozent des oberen Grenzbetrags einzahlen; bei aktiver Versicherung in der Vorsorgeeinrichtung 8 Prozent."
   },
   {
-   "start": 397,
+   "start": 380,
    "titel": "Ziff. 5.7 Sonderfall g: Wechsel unselbständig/selbständig im Jahr",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -460,7 +460,7 @@
    "zusammenfassung": "Beim Wechsel zwischen unselbständiger und selbständiger Erwerbstätigkeit sind ordentliche Beiträge insgesamt auf den Maximalbetrag von 40% des oberen Grenzbetrages begrenzt; bis zu 20% des selbständigen Einkommens setzt einen Jahresabschluss voraus."
   },
   {
-   "start": 412,
+   "start": 395,
    "titel": "Ziff. 6.1 Grundsätze der Ausrichtung (frühestens 5 Jahre vor Referenzalter)",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -481,7 +481,7 @@
    "zusammenfassung": "Altersleistungen dürfen frühestens fünf Jahre vor dem Referenzalter ausgerichtet werden; spätestens fünf Jahre nach Referenzalter bzw. mit Ende der Erwerbstätigkeit (vor dem 70. Altersjahr) müssen die Konten aufgelöst und besteuert werden."
   },
   {
-   "start": 433,
+   "start": 416,
    "titel": "Ziff. 6.1 Besteuerung der Kapitalleistungen (Fünftel-Tarif, Verrechnungssteuer)",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -502,7 +502,7 @@
    "zusammenfassung": "Kapitalleistungen aus der Säule 3a werden nach Art. 22 Abs. 1 i.V.m. Art. 38 DBG gesondert besteuert, mit voller Jahressteuer zu einem Fünftel der Tarife nach Art. 36 DBG."
   },
   {
-   "start": 442,
+   "start": 425,
    "titel": "Ziff. 6.2 a Vorzeitige Ausrichtung – Allgemeines",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -521,7 +521,7 @@
    "zusammenfassung": "Die vorzeitige Ausrichtung ist nur in den Ausnahmefällen nach Art. 3 Abs. 2 und 3 BVV 3 möglich; die gesamte Leistung unterliegt der Besteuerung nach Art. 22 Abs. 1 i.V.m. Art. 38 DBG."
   },
   {
-   "start": 452,
+   "start": 435,
    "titel": "Ziff. 6.2 a Übertragung in andere Vorsorgeform (Art. 3a Abs. 1 Bst. b BVV 3)",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -541,7 +541,7 @@
    "zusammenfassung": "Die Übertragung in eine andere anerkannte Vorsorgeform setzt die vollständige Auflösung des bisherigen Kontos voraus; ein Splitting bestehender Guthaben ist nicht möglich und es ist keine Steuerbescheinigung auszustellen."
   },
   {
-   "start": 463,
+   "start": 446,
    "titel": "Ziff. 6.2 a Teilbezug innerhalb fünf Jahre vor Referenzalter",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -562,7 +562,7 @@
    "zusammenfassung": "Mit dem ersten (Teil-)Bezug innerhalb der fünf Jahre vor dem Referenzalter wird das gesamte Guthaben des betroffenen Kontos einkommenssteuerlich erfasst; das Konto ist zu saldieren."
   },
   {
-   "start": 479,
+   "start": 462,
    "titel": "Ziff. 6.2 b Vorbezug Wohneigentumsförderung (WEF) – Zweck und Häufigkeit",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -583,7 +583,7 @@
    "zusammenfassung": "Die Altersleistung aus der Säule 3a kann für Erwerb, Beteiligung an Wohneigentum zum Eigenbedarf und Hypothekaramortisation vorbezogen werden; ein Vorbezug kann alle fünf Jahre geltend gemacht werden."
   },
   {
-   "start": 485,
+   "start": 468,
    "titel": "Ziff. 6.2 b WEF – keine Rückzahlung, Verpfändung, Besteuerung, Ehegatten als Eigentümer",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -603,7 +603,7 @@
    "zusammenfassung": "Eine Rückzahlung des WEF-Vorbezugs ist in der Säule 3a nicht möglich; im Zeitpunkt der Auszahlung wird nur der ausgerichtete Teilbezug besteuert, beide Ehegatten müssen im Grundbuch eingetragene Eigentümer sein."
   },
   {
-   "start": 498,
+   "start": 481,
    "titel": "Ziff. 6.2 b WEF-Vorbezug – Altersgrenze; Ziff. 6.2 c Barauszahlung bei Selbständigkeit",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -622,7 +622,7 @@
    "zusammenfassung": "Die Barauszahlung bei Aufnahme einer selbständigen Erwerbstätigkeit ist nur innerhalb eines Jahres seit der Aufnahme möglich und betrifft das gesamte Vorsorgeguthaben."
   },
   {
-   "start": 513,
+   "start": 496,
    "titel": "Ziff. 6.3 Einkauf in die 2. Säule mit Mitteln der Säule 3a",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -642,7 +642,7 @@
    "zusammenfassung": "Die Übertragung von Säule 3a-Mitteln für den vollständigen Einkauf in eine steuerbefreite Vorsorgeeinrichtung ist steuerneutral; der Einkaufsbetrag kann nicht zusätzlich abgezogen werden."
   },
   {
-   "start": 526,
+   "start": 509,
    "titel": "Ziff. 6.4 Rückzahlung WEF-Vorbezug der 2. Säule mit Säule-3a-Mitteln",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -660,7 +660,7 @@
    "zusammenfassung": "Ein WEF-Vorbezug aus der beruflichen Vorsorge kann nicht steuerneutral mit Mitteln der Säule 3a zurückbezahlt werden."
   },
   {
-   "start": 538,
+   "start": 521,
    "titel": "Ziff. 7 Reinvestition der Altersleistung aus der 2. Säule in die Säule 3a",
    "pfad": [
     "7. Reinvestition der Altersleistung"
@@ -679,7 +679,7 @@
    "zusammenfassung": "Leistungen aus der 2. Säule oder Freizügigkeit können nicht direkt in die Säule 3a übertragen werden; Beiträge sind nur bis zum Maximalbetrag und im Umfang eines Säule-3a-Einkaufs abziehbar."
   },
   {
-   "start": 548,
+   "start": 531,
    "titel": "Ziff. 8 Bescheinigungspflicht der Vorsorgeträger (Einkäufe)",
    "pfad": [
     "8. Bescheinigungspflicht"
@@ -698,7 +698,7 @@
    "zusammenfassung": "Versicherungseinrichtungen und Bankstiftungen müssen Beiträge und Leistungen bescheinigen; bei Einkäufen sind zusätzlich Datum, Höhe, ausgeglichene Beitragslücken-Jahre und bereits geleistete Beiträge anzugeben."
   },
   {
-   "start": 565,
+   "start": 548,
    "titel": "Ziff. 8 Meldung der Leistungen an die ESTV; Bemerkungen bei Prämienbefreiung/Rückzahlung",
    "pfad": [
     "8. Bescheinigungspflicht"
@@ -717,7 +717,7 @@
    "zusammenfassung": "Ausgerichtete Leistungen sind der ESTV mit Formular 563 «Meldung über Kapitalleistungen» bzw. 565 «Rentenmeldung» zu melden; Prämienbefreiung und Rückzahlungen zu viel einbezahlter Beiträge sind unter «Bemerkungen» anzugeben."
   },
   {
-   "start": 578,
+   "start": 561,
    "titel": "Ziff. 8 Mitteilungspflicht bei Übertragung (zehn Jahre Beiträge und Einkäufe)",
    "pfad": [
     "8. Bescheinigungspflicht"
@@ -736,7 +736,7 @@
    "zusammenfassung": "Bei Übertragung muss die abtretende Einrichtung der neuen die ordentlichen Beiträge und Einkäufe der letzten zehn Jahre mitteilen."
   },
   {
-   "start": 588,
+   "start": 571,
    "titel": "Ziff. 9.1 Folgen unzulässiger Einzahlungen – Rückerstattung",
    "pfad": [
     "9. Folgen unzulässiger Einzahlungen",
@@ -756,7 +756,7 @@
    "zusammenfassung": "Bei überhöhten Einzahlungen wird der Steuerpflichtige aufgefordert, sich den Überschussbetrag (nominell, ohne Zins) zurückerstatten zu lassen."
   },
   {
-   "start": 602,
+   "start": 585,
    "titel": "Ziff. 9.1 Säule-3a-Police: Risikoprämie; Verzicht auf Rückforderung",
    "pfad": [
     "9. Folgen unzulässiger Einzahlungen",
@@ -777,7 +777,7 @@
    "zusammenfassung": "Bei Policen kann nur der Sparteil zurückerstattet werden; wird auf die Rückforderung verzichtet, wird bei späterer Auszahlung das gesamte Guthaben besteuert."
   },
   {
-   "start": 617,
+   "start": 600,
    "titel": "Ziff. 9.2 Folgen für Bankstiftungen",
    "pfad": [
     "9. Folgen unzulässiger Einzahlungen",
@@ -795,7 +795,7 @@
    "zusammenfassung": "Bankstiftungen, die zu hohe Beiträge entgegennehmen, können den Anspruch auf Steuerbefreiung verlieren."
   },
   {
-   "start": 625,
+   "start": 608,
    "titel": "Ziff. 10 Anlage in Wertschriften; Rückerstattung der Verrechnungssteuer",
    "pfad": [
     "10. Anlage in Wertschriften"
@@ -813,7 +813,7 @@
    "zusammenfassung": "Bei individuellen Wertschriftendepots hat die Bankstiftung, nicht der Vorsorgenehmer, Anspruch auf Rückerstattung der Verrechnungssteuer."
   },
   {
-   "start": 638,
+   "start": 621,
    "titel": "Ziff. 11 Besteuerung bei Leistungen im Todesfall; Ziff. 12 Inkrafttreten (1. Januar 2026)",
    "pfad": [
     "11. Todesfall / 12. Inkrafttreten"
@@ -832,5 +832,7 @@
    ],
    "zusammenfassung": "Säule-3a-Guthaben gehören nicht zur Erbmasse, die Auszahlung an Begünstigte unterliegt stets der Einkommenssteuer; das Kreisschreiben gilt ab 1. Januar 2026 und ersetzt das Kreisschreiben Nr. 18 vom 17. Juli 2008."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

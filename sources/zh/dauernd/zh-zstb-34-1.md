@@ -11,6 +11,9 @@ raw: raw/zh/dauernd/zh-zstb-34-1.html
 sha256: 01e1b94b93a42b57d44dcbf4b8062a7ed6651d7af1ab7daf6977109967978fb8
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2026-01-01'
+ersetzt: zh-zstb-34-1-bis-2025
 ---
 # ZStB 34.1: Sozialabzüge und Steuertarife (ab 2026)
 

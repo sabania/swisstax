@@ -5,13 +5,13 @@ kurz: TG WL-Archiv
 jurisdiktion: tg
 jahre:
 - 2025
-- 2026
 typ: portal
 quelle_url: https://steuerverwaltung.tg.ch/hilfsmittel/wegleitungen.html/2942
 raw: raw/tg/dauernd/tg-portal-wl-archiv.html
 sha256: b6c191072a2581bde0d53b3d3d801bb85bcb7ad3afbf6c1e9c23821ef4ef988a
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Archiv der Wegleitungen 2002–2025
 

@@ -8,6 +8,6 @@ titel: "Art. 276 StG SG"
 artikel: "Art. 276"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 276
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 276
 
 ### Art. 276 StG SG

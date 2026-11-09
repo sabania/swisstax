@@ -8,7 +8,7 @@ titel: "Art. 34 DBG"
 artikel: "Art. 34"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 6. Abschnitt: Nicht abziehbare Kosten und Aufwendungen › Art. 34
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 6. Abschnitt: Nicht abziehbare Kosten und Aufwendungen › Art. 34
 
 ### Art. 34 DBG
 

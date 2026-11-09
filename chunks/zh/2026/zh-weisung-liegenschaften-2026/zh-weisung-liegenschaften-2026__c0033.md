@@ -9,7 +9,7 @@ ziffer: "79–80"
 seiten: "15-16"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15–16
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15–16
 
 D. Individuelle Schätzung des Verkehrswerts und des Eigenmietwerts
    von Liegenschaften

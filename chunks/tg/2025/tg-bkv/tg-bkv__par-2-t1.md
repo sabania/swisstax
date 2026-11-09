@@ -8,7 +8,7 @@ titel: "§ 2 BKV TG – Auswärtige Verpflegung (Teil 1/2)"
 artikel: "§ 2"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 2 Auswärtige Verpflegung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 2 Auswärtige Verpflegung
 
 ### § 2 BKV TG – Auswärtige Verpflegung
 

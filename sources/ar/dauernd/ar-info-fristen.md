@@ -12,6 +12,7 @@ raw: raw/ar/dauernd/ar-info-fristen.html
 sha256: 48d738ce60c0f4c8659da84a173958a4e37e7fe887f590276b18caa577964658
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Steuererklärungen und Fristverlängerungen
 

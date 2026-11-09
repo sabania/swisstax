@@ -8,7 +8,7 @@ titel: "Art. 90 StG SG – b) Gemischte Beteiligungsgesellschaften 1. Grundsatz 
 artikel: "Art. 90"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 90 b) Gemischte Beteiligungsgesellschaften 1. Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 90 b) Gemischte Beteiligungsgesellschaften 1. Grundsatz
 
 ### Art. 90 StG SG – b) Gemischte Beteiligungsgesellschaften 1. Grundsatz (Fortsetzung)
 

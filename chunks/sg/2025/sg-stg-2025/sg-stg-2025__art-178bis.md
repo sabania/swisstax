@@ -8,7 +8,7 @@ titel: "Art. 178 bis StG SG – 2. Grundstückwerte"
 artikel: "Art. 178 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 178 bis 2. Grundstückwerte
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 178 bis 2. Grundstückwerte
 
 ### Art. 178 bis StG SG – 2. Grundstückwerte
 

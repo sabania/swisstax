@@ -8,7 +8,7 @@ titel: "§ 16 StV TG – Bemessung des Einkommens bei selbständiger Erwerbstät
 artikel: "§ 16"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.4. Zeitliche Bemessung * › § 16 Bemessung des Einkommens bei selbständiger Erwerbstätigkeit
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.4. Zeitliche Bemessung * › § 16 Bemessung des Einkommens bei selbständiger Erwerbstätigkeit
 
 ### § 16 StV TG – Bemessung des Einkommens bei selbständiger Erwerbstätigkeit
 

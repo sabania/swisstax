@@ -7,7 +7,7 @@ typ: info
 titel: "Neubauwert Indexierung"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: info}}
 ---
-> ZH · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Was ist neu? › Neubauwert Indexierung
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Was ist neu? › Neubauwert Indexierung
 
 #### Neubauwert Indexierung
 

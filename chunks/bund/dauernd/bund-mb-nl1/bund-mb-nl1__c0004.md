@@ -2,14 +2,14 @@
 id: bund-mb-nl1__c0004
 quelle: bund-mb-nl1
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 2–3 Mietwert Wohnung, Privatanteil Heizung/Beleuchtung und Ziff. 7 Naturallohnabzug"
 ziffer: "2, 3, 7"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB NL1/2007 · Merkblatt NL1 › Ziff. 2, 3, 7 · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB NL1/2007 · Merkblatt NL1 › Ziff. 2, 3, 7 · S. 1
 
 privaten Zwecken dienen, ist ein angemessener Anteil an diesen Gemein
  schaftsräumen (wie Wohnräume, Küche, Bad, WC) mitzuberücksichtigen.   7. Naturallohnabzug beim Arbeitgeber

@@ -2,14 +2,14 @@
 id: bund-ssk-ks27-mb-sz__c0004
 quelle: bund-ssk-ks27-mb-sz
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 1–2 Einleitung und Anpassung der bundesgerichtlichen Rechtsprechung (Teil 4/4)"
 ziffer: "1–2"
 seiten: "1-2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · 1. Einleitung / 2. Rechtsprechung · S. 1–2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · SSK-KS 27 (MB SZ) · 1. Einleitung / 2. Rechtsprechung · S. 1–2
 
    Verrechnung von Erträgen aus einer in einem Nebensteuerdomizilkanton gelegenen Kapitalan-
     lageliegenschaft mit im Hauptsteuerdomizilkanton entstandenen Geschäftsverlusten: Der Lie-

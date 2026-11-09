@@ -9,7 +9,7 @@ artikel: "§ 241"
 seiten: "83"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 241 StG ZH – III. Juristische Personen 1. Allgemein[^61] · S. 83
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 241 StG ZH – III. Juristische Personen 1. Allgemein[^61] · S. 83
 
 ### § 241 StG ZH – III. Juristische Personen 1. Allgemein[^61]
 

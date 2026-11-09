@@ -2,14 +2,14 @@
 id: bund-ssk-ks22-mb-sz__c0005
 quelle: bund-ssk-ks22-mb-sz
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Rz 9 Beispiel – Ausgangslage Liegenschaften SZ und TI"
 ziffer: "9"
 seiten: "3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 3. Beispiele · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 3. Beispiele · S. 3
 
     3. Beispiele
 

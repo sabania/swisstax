@@ -11,7 +11,22 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-48-1/zstb-nr-48-1_gueltig-ab-01-01-2024.pdf> · lokal: [zh-vkp-2024-zstb.pdf](../../../raw/zh/2025/zh-vkp-2024-zstb.pdf) · Volltext: [zh-vkp-2024-zstb.md](../../../sources/zh/2025/zh-vkp-2024-zstb.md)
 - **Abgerufen:** 2026-11-09 · sha256 `308a0536410d5f79…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2024-01-01 bis 2025-12-31 · ersetzt durch `zh-vkp-2026-zstb`
 - ⚠ **Hinweis:** gilt für Steuerperioden 2024 und 2025
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 8 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-vkp-2024-zstb`).
+
+- `data/belege-teil2.yaml#10:parteispende` (agent-geprueft)
+- `data/werte/zh/2025.yaml#43:sozialabzug.kind` (agent-geprueft)
+- `data/werte/zh/2025.yaml#52:vermoegen.freibetrag_alleinstehend` (agent-geprueft)
+- `data/werte/zh/2025.yaml#53:vermoegen.freibetrag_verheiratet` (agent-geprueft)
+- `data/werte/zh/2025.yaml#59:tarif.steuerfrei_alleinstehend` (agent-geprueft)
+- `data/werte/zh/2025.yaml#60:tarif.steuerfrei_verheiratet` (agent-geprueft)
+- `data/werte/zh/2025.yaml#61:tarif.hoechstsatz_ab_alleinstehend` (agent-geprueft)
+- `data/werte/zh/2025.yaml#62:tarif.hoechstsatz_ab_verheiratet` (agent-geprueft)
+- [wiki/themen/vermoegen-bewertung.md](../../themen/vermoegen-bewertung.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

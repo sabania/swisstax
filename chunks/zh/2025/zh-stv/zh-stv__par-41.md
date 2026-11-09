@@ -9,7 +9,7 @@ artikel: "§ 41"
 seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 41 StV ZH – 6. Mahnverfahren · S. 8
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 41 StV ZH – 6. Mahnverfahren · S. 8
 
 ### § 41 StV ZH – 6. Mahnverfahren
 

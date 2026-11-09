@@ -11,6 +11,16 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Formular · **gilt für Steuerjahre:** 2025
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Formulare/Formular_07Z_Zusammenstellung_aller_Liegenschaften.pdf> · lokal: [ar-form-07z-2025.pdf](../../../raw/ar/2025/ar-form-07z-2025.pdf) · Volltext: [ar-form-07z-2025.md](../../../sources/ar/2025/ar-form-07z-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `b2073b96750c782a…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 4 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-form-07z-2025`).
+
+- `data/zuordnung/ar/2025.yaml#14:einkommen.liegenschaften.eigenmietwert@5` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#32:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#93:vermoegen.liegenschaften@Form. 7 Abschn. A` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#97:vermoegen.liegenschaften@Form. 7Z` (agent-geprueft)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

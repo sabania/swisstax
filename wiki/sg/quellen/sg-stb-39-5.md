@@ -11,6 +11,17 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_5.pdf.ocFile/039_5.pdf> · lokal: [sg-stb-39-5.pdf](../../../raw/sg/dauernd/sg-stb-39-5.pdf) · Volltext: [sg-stb-39-5.md](../../../sources/sg/dauernd/sg-stb-39-5.md)
 - **Abgerufen:** 2026-11-09 · sha256 `95b29b88c383821a…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2021-07-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 4 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-5`).
+
+- `data/werte/sg/2025.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
+- `data/werte/sg/2026.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#75:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#76:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.2` (agent-geprueft)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

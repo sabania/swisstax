@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-14
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 14: Indirekte Teilliquidation"
 generiert: tools/build_index.py
 ---
 # KS 14: ESTV-Kreisschreiben Nr. 14: Indirekte Teilliquidation
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2007-11-06
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2007-11-06
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/NtERF6Msi9fu/dbst-ks-2007-1-014-d-de.pdf> · lokal: [bund-ks-14.pdf](../../../raw/bund/dauernd/bund-ks-14.pdf) · Volltext: [bund-ks-14.md](../../../sources/bund/dauernd/bund-ks-14.md)
 - **Abgerufen:** 2026-11-09 · sha256 `a3fc9b5baa41c6a6…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2007-01-01 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

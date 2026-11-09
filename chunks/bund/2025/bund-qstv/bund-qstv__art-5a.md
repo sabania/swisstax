@@ -8,7 +8,7 @@ titel: "Art. 5a QStV – Bescheinigung bei unterjähriger Beendigung des Arbeits
 artikel: "Art. 5a"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 5a Bescheinigung bei unterjähriger Beendigung des Arbeitsverhältnisses für in Frankreich wohnhafte Arbeitnehmerinnen und Arbeitnehmer
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 5a Bescheinigung bei unterjähriger Beendigung des Arbeitsverhältnisses für in Frankreich wohnhafte Arbeitnehmerinnen und Arbeitnehmer
 
 ### Art. 5a QStV – Bescheinigung bei unterjähriger Beendigung des Arbeitsverhältnisses für in Frankreich wohnhafte Arbeitnehmerinnen und Arbeitnehmer
 

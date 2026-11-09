@@ -8,7 +8,7 @@ titel: "Art. 24 QStV – Überweisung der Quellensteuer an die Steuerbehörden"
 artikel: "Art. 24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 4. Abschnitt: Vereinfachtes Abrechnungsverfahren › Art. 24 Überweisung der Quellensteuer an die Steuerbehörden
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 4. Abschnitt: Vereinfachtes Abrechnungsverfahren › Art. 24 Überweisung der Quellensteuer an die Steuerbehörden
 
 ### Art. 24 QStV – Überweisung der Quellensteuer an die Steuerbehörden
 

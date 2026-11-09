@@ -8,7 +8,7 @@ titel: "Hinweis Separaterhebungen und Entwicklung der Steuerfüsse 2025–2026"
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2026], typ: steuerfuss}}
 ---
-> AR · Steuerjahr 2026 · Steuerfüsse AR 2026 · Steuerfüsse 2026 › Entwicklung · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse AR 2026 · Steuerfüsse 2026 › Entwicklung · S. 1
 
     In diesen Ansätzen sind allfällige Separaterhebungen der politischen Gemeinden und der Kirchgemeinden für
     besondere Zwecke enthalten.

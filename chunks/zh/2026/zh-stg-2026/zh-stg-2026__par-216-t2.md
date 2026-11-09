@@ -9,7 +9,7 @@ artikel: "§ 216"
 seiten: "76-77"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 216 StG ZH – I. Steuertatbestand · S. 76–77
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 216 StG ZH – I. Steuertatbestand · S. 76–77
 
 ### § 216 StG ZH – I. Steuertatbestand (Fortsetzung)
 

@@ -2,13 +2,13 @@
 id: bund-vstg__art-49
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 49 VStG"
 artikel: "Art. 49"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · 1. Allgemeine Bestimmungen › b. Pflichten Dritter › Art. 49
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · 1. Allgemeine Bestimmungen › b. Pflichten Dritter › Art. 49
 
 ### Art. 49 VStG
 

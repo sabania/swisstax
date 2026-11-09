@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2016-01-01
 - **Original:** <https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/815.1/versions/1998> · lokal: [sg-v-dbg.json](../../../raw/sg/2025/sg-v-dbg.json) · Volltext: [sg-v-dbg.md](../../../sources/sg/2025/sg-v-dbg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `7deb3079633dec4b…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2016-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-v-dbg`).
+
+- [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
 
 ## Inhalt (17 Chunks)
 

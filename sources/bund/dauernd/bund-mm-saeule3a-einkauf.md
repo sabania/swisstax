@@ -6,12 +6,15 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: mitteilung
 quelle_url: https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-103044.html
 raw: raw/bund/dauernd/bund-mm-saeule3a-einkauf.html
 sha256: 4d9cd67697d6e4ba10e03b30fa06c2bcce843857796bd8493393ed1332625cb9
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
+gilt_ab: '2025-01-01'
 ---
 # Medienmitteilung Bundesrat: Einkäufe in die Säule 3a
 

@@ -2,16 +2,26 @@
 typ: quelle
 id: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 18a: Säule 3a: Beiträge und Leistungen (ab 01.01.2026)"
 generiert: tools/build_index.py
 ---
 # KS 18a: ESTV-Kreisschreiben Nr. 18a: Säule 3a: Beiträge und Leistungen (ab 01.01.2026)
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2026 · **Stand:** 2025-12-22
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2025-12-22
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/yQgKmvu80LEr/dbst-ks-2025-1-018a-dv-de.pdf> · lokal: [bund-ks-18a.pdf](../../../raw/bund/dauernd/bund-ks-18a.pdf) · Volltext: [bund-ks-18a.md](../../../sources/bund/dauernd/bund-ks-18a.md)
 - **Abgerufen:** 2026-11-09 · sha256 `92fe449505e22c84…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2026-01-01 bis offen · ersetzt `bund-ks-18`
 - ⚠ **Hinweis:** ersetzt KS 18 ab 1.1.2026; für Steuerjahr 2025 gilt KS 18 (bund-ks-18)
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-18a`).
+
+- `data/werte/ar/2026.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/werte/bund/2026.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
+- [wiki/themen/saeule-3a.md](../../themen/saeule-3a.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

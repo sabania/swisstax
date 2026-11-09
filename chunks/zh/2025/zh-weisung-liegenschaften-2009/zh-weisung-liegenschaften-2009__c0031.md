@@ -9,7 +9,7 @@ ziffer: "81"
 seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15
 
     Ist aufgrund vorstehender Grundlagen keine gesicherte Indivi- 81
 dualschätzung möglich, so kann das kantonale Steueramt in einem

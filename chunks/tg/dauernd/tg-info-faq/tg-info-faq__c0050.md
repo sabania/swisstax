@@ -7,7 +7,7 @@ typ: info
 titel: "Vermögenssteuer"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vermögenssteuer
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vermögenssteuer
 
     Sofern sich eine Liegenschaft im Nachlass befindet, sind die Vermögens- und Ertragsanteile daran separat im Formular 7 "Angaben bei Liegenschaftsbesitz" zu deklarieren. Allfällige Hypothekar- und Schuldzinsanteile auf der betreffenden Liegenschaft sind diesfalls separat im Formular 4 "Schuldenverzeichnis" aufzuführen.
 

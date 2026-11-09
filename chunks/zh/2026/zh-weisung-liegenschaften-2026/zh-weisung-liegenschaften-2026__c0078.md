@@ -8,7 +8,7 @@ titel: "Ableitungssätze Eigenmietwert und Kapitalisierungssätze (Ziff. 42, 43,
 seiten: "35"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Ableitungssätze Eigenmietwert und Kapitalisierungssätze · S. 35
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Ableitungssätze Eigenmietwert und Kapitalisierungssätze · S. 35
 
 Bezirk Andelfingen
 Andelfingen   2,9   3,6   5,5

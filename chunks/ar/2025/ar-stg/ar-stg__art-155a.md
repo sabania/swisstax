@@ -8,7 +8,7 @@ titel: "Art. 155a StG AR – Versichertennummer der AHV"
 artikel: "Art. 155a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 155a Versichertennummer der AHV
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 155a Versichertennummer der AHV
 
 ### Art. 155a StG AR – Versichertennummer der AHV
 

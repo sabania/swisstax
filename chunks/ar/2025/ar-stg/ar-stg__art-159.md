@@ -8,7 +8,7 @@ titel: "Art. 159 StG AR – Vertragliche Vertretung"
 artikel: "Art. 159"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 159 Vertragliche Vertretung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 159 Vertragliche Vertretung
 
 ### Art. 159 StG AR – Vertragliche Vertretung
 

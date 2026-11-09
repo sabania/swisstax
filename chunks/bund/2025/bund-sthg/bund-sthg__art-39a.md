@@ -2,13 +2,13 @@
 id: bund-sthg__art-39a
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 39a StHG – Datenbearbeitung"
 artikel: "Art. 39a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Fünfter Titel: Verfahrensrecht › 1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren › Art. 39a Datenbearbeitung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Fünfter Titel: Verfahrensrecht › 1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren › Art. 39a Datenbearbeitung
 
 ### Art. 39a StHG – Datenbearbeitung
 

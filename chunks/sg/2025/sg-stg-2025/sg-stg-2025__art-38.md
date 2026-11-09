@@ -8,7 +8,7 @@ titel: "Art. 38 StG SG – Ermittlung des Reineinkommens a) Grundsatz"
 artikel: "Art. 38"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 38 Ermittlung des Reineinkommens a) Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 38 Ermittlung des Reineinkommens a) Grundsatz
 
 ### Art. 38 StG SG – Ermittlung des Reineinkommens a) Grundsatz
 

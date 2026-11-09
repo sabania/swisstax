@@ -2,14 +2,14 @@
 id: bund-ks-37__c0008
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.3.1.2 Mitarbeiteroptionen – frei, börsenkotiert, gesperrt"
 ziffer: "2.3.1.2"
 seiten: "4-5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 2 Begriffe › 2.3.1 Echte Mitarbeiterbeteiligungen › 2.3.1.2 Mitarbeiteroptionen · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 2 Begriffe › 2.3.1 Echte Mitarbeiterbeteiligungen › 2.3.1.2 Mitarbeiteroptionen · S. 4–5
 
 2.3.1.2 Mitarbeiteroptionen
 Eine Mitarbeiteroption ist das einem Mitarbeitenden aufgrund seines ehemaligen, aktuellen

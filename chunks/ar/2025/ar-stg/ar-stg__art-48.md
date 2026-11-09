@@ -8,7 +8,7 @@ titel: "Art. 48 StG AR – b) Landwirtschaftliche Grundstücke"
 artikel: "Art. 48"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 48 b) Landwirtschaftliche Grundstücke
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 48 b) Landwirtschaftliche Grundstücke
 
 ### Art. 48 StG AR – b) Landwirtschaftliche Grundstücke
 

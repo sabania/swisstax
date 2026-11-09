@@ -9,7 +9,7 @@ ziffer: "9"
 seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 9. Folgen unzulässiger Einzahlungen · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 9. Folgen unzulässiger Einzahlungen · S. 10
 
 Wurden durch die Versicherungseinrichtung Leistungen infolge einer Prämienbefreiung er-
 bracht, so ist in der Rubrik „Bemerkungen“ ein Hinweis anzubringen und der entsprechende

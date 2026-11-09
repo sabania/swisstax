@@ -9,7 +9,7 @@ artikel: "§ 54"
 seiten: "27"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 54 StG ZH – I. Begriff der juristischen Person · S. 27
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 54 StG ZH – I. Begriff der juristischen Person · S. 27
 
 ### § 54 StG ZH – I. Begriff der juristischen Person
 

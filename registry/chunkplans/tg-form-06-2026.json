@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 6 – Hinweis, Belegpflicht ab Fr. 1000.–",
    "pfad": [
     "Formular 6",
@@ -26,7 +26,7 @@
    "zusammenfassung": "Ab Fr. 1000.– pro Zuwendung ist Quittung oder Bescheinigung mit der Steuererklärung einzureichen; darunter kann nachträglich verlangt werden."
   },
   {
-   "start": 42,
+   "start": 27,
    "titel": "Liste Zuwendungen 2026 (Ziff. 1–16, Übertrag A, Total B)",
    "pfad": [
     "Formular 6",
@@ -46,7 +46,7 @@
    "zusammenfassung": "Erfassung der Institutionen bzw. Parteien (Name, Sitz, Adresse), getrennt nach gemeinnützigen/öffentlichen Zwecken und politischen Parteien, mit Total B."
   },
   {
-   "start": 84,
+   "start": 69,
    "titel": "Parteispenden Code 347 und Berechnung Abzug freiwillige Zuwendungen Code 366",
    "pfad": [
     "Formular 6",
@@ -69,9 +69,11 @@
    "zusammenfassung": "Parteien: Staatssteuer max. Fr. 10 000.–, Bundessteuer max. Fr. 10 600.– (Ziff. 15.5); Spenden: Selbstbehalt Fr. 200.– Staatssteuer, max. Fr. 8000.– bis Nettoeinkommen Fr. 40000.–, darüber max. 20% (Ziff. 23.2)."
   },
   {
-   "start": 114,
+   "start": 99,
    "skip": true,
    "titel": "Seite 2 Fortsetzungsliste Ziff. 17–60 (leeres Raster)"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

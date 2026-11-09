@@ -8,7 +8,7 @@ titel: "Art. 62 StG SG – Schuldenabzug"
 artikel: "Art. 62"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 62 Schuldenabzug
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 62 Schuldenabzug
 
 ### Art. 62 StG SG – Schuldenabzug
 

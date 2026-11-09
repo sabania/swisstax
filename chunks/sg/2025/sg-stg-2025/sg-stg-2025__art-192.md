@@ -8,7 +8,7 @@ titel: "Art. 192 StG SG – 2. Verfahrenspflichten"
 artikel: "Art. 192"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 192 2. Verfahrenspflichten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 192 2. Verfahrenspflichten
 
 ### Art. 192 StG SG – 2. Verfahrenspflichten
 

@@ -2,14 +2,14 @@
 id: bund-ks-37__c0025
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.4.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV)"
 ziffer: "3.4.2"
 seiten: "9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 3 Besteuerung von Mitarbeiteraktien › 3.4 Besondere Fälle › 3.4.2 Rückgabe von Mitarbeiteraktien · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 3 Besteuerung von Mitarbeiteraktien › 3.4 Besondere Fälle › 3.4.2 Rückgabe von Mitarbeiteraktien · S. 9
 
 3.4.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV)
 Muss ein Mitarbeitender bei Beendigung des Arbeitsverhältnisses aufgrund einer reglemen-

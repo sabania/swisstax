@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: verordnung
 stand: '2025-01-01'
 quelle_url: https://www.fedlex.admin.ch/eli/cc/1966/1585_1641_1624/20250101/de
@@ -14,6 +15,8 @@ sha256: 6c61ccdcfea3674d222a97352ec28ce83a8ef83a89751065c1d208e7df170642
 abgerufen: '2026-11-09'
 einheiten: 82
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
 ---
 # Verrechnungssteuerverordnung (VStV, SR 642.211) – Fassung gültig ab 01.01.2025
 

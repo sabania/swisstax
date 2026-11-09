@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0028
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.1.4–5.1.5 Ausnahmen von der Ausschüttungsregel; Gratisaktien"
 ziffer: "5.1.4–5.1.5"
 seiten: "14"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 5 Kotierte Gesellschaften › 5.1 Ausschüttungsregel · S. 14
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 5 Kotierte Gesellschaften › 5.1 Ausschüttungsregel · S. 14
 
 5.1.4. Ausnahmen
 

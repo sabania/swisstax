@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Teil I Kapitalanlagen mit Verrechnungssteuer (Formular 13, jur. Personen)",
    "pfad": [
     "I. Kapitalanlagen mit Verrechnungssteuer"
@@ -27,7 +27,7 @@
    "ziffer": "I"
   },
   {
-   "start": 54,
+   "start": 39,
    "titel": "Teil II Kapitalanlagen ohne Verrechnungssteuer, ausländische Quellensteuern",
    "pfad": [
     "II. Kapitalanlagen ohne Verrechnungssteuer"
@@ -46,5 +46,7 @@
    "zusammenfassung": "Inländische Hypothekarforderungen, Darlehen und ausländische Anlagen; Anrechnung ausländischer Quellensteuern über Formular DA-2 bzw. DA-3.",
    "ziffer": "II"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

@@ -8,7 +8,7 @@ titel: "Art. 56 StV SG – b) Ausgestaltung (Art. 108 Abs. 1 und 2 StG)"
 artikel: "Art. 56"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 56 b) Ausgestaltung (Art. 108 Abs. 1 und 2 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 56 b) Ausgestaltung (Art. 108 Abs. 1 und 2 StG)
 
 ### Art. 56 StV SG – b) Ausgestaltung (Art. 108 Abs. 1 und 2 StG)
 

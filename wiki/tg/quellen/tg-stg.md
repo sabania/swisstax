@@ -2,15 +2,91 @@
 typ: quelle
 id: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Gesetz über die Staats- und Gemeindesteuern TG (RB 640.1) – Version gültig ab 01.01.2025"
 generiert: tools/build_index.py
 ---
 # StG TG: Gesetz über die Staats- und Gemeindesteuern TG (RB 640.1) – Version gültig ab 01.01.2025
 
-- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Gesetz · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-01-01
+- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Gesetz · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2025-01-01
 - **Original:** <https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.1/versions/2929> · lokal: [tg-stg.json](../../../raw/tg/2025/tg-stg.json) · Volltext: [tg-stg.md](../../../sources/tg/2025/tg-stg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `66edf7323892fa19…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2028-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 59 Daten-Einträgen und 29 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stg`).
+
+- `data/belege-teil1.yaml#0:lohnausweis` (agent-geprueft)
+- `data/belege-teil1.yaml#11:versicherung-rueckkaufswert` (agent-geprueft)
+- `data/belege-teil2.yaml#4:liegenschaft-schaetzung-eigenmietwert` (agent-geprueft)
+- `data/belege-teil3.yaml#1:erbschaft-schenkung` (agent-geprueft)
+- `data/werte/tg/2025.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/werte/tg/2025.yaml#20:weiterbildung.max` (agent-geprueft)
+- `data/werte/tg/2025.yaml#21:versicherung.verheiratet` (agent-geprueft)
+- `data/werte/tg/2025.yaml#23:versicherung.alleinstehend` (agent-geprueft)
+- `data/werte/tg/2025.yaml#25:versicherung.kind` (agent-geprueft)
+- `data/werte/tg/2025.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/tg/2025.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/tg/2025.yaml#33:drittbetreuung.max` (agent-geprueft)
+- `data/werte/tg/2025.yaml#34:drittbetreuung.altersgrenze` (agent-geprueft)
+- `data/werte/tg/2025.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
+- `data/werte/tg/2025.yaml#36:spenden.min` (agent-geprueft)
+- `data/werte/tg/2025.yaml#37:spenden.max_satz` (agent-geprueft)
+- `data/werte/tg/2025.yaml#38:parteispenden.max` (agent-geprueft)
+- `data/werte/tg/2025.yaml#42:liegenschaft.eigenmietwert_abzug` (agent-geprueft)
+- `data/werte/tg/2025.yaml#43:sozialabzug.kind` (agent-geprueft)
+- `data/werte/tg/2025.yaml#46:sozialabzug.kind_ausbildung` (agent-geprueft)
+- `data/werte/tg/2025.yaml#47:sozialabzug.kind_ausbildung_auswaerts` (agent-geprueft)
+- `data/werte/tg/2025.yaml#48:sozialabzug.unterstuetzung` (agent-geprueft)
+- `data/werte/tg/2025.yaml#50:sozialabzug.alter_iv` (agent-geprueft)
+- `data/werte/tg/2025.yaml#52:vermoegen.freibetrag_alleinstehend` (agent-geprueft)
+- `data/werte/tg/2025.yaml#53:vermoegen.freibetrag_verheiratet` (agent-geprueft)
+- `data/werte/tg/2025.yaml#54:vermoegen.freibetrag_kind` (agent-geprueft)
+- `data/werte/tg/2025.yaml#55:steuerfrei.feuerwehrsold` (agent-geprueft)
+- `data/werte/tg/2025.yaml#56:steuerfrei.grossspielgewinn` (agent-geprueft)
+- `data/werte/tg/2025.yaml#57:steuerfrei.kleingewinn` (agent-geprueft)
+- `data/werte/tg/2025.yaml#58:tarif.steuerfuss_kanton` (agent-geprueft)
+- `data/werte/tg/2025.yaml#69:bezug.verzugszins` (offen)
+- `data/werte/tg/2025.yaml#72:tarif.kapitalleistung_vorsorge` (agent-geprueft)
+- `data/werte/tg/2026.yaml#20:weiterbildung.max` (agent-geprueft)
+- `data/werte/tg/2026.yaml#21:versicherung.verheiratet` (agent-geprueft)
+- `data/werte/tg/2026.yaml#23:versicherung.alleinstehend` (agent-geprueft)
+- `data/werte/tg/2026.yaml#25:versicherung.kind` (agent-geprueft)
+- `data/werte/tg/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/tg/2026.yaml#33:drittbetreuung.max` (agent-geprueft)
+- `data/werte/tg/2026.yaml#34:drittbetreuung.altersgrenze` (agent-geprueft)
+- `data/werte/tg/2026.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
+- … 19 weitere
+- [wiki/tg/tg-ueberblick.md](../tg-ueberblick.md)
+- [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
+- [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
+- [wiki/themen/erwerbsersatz-taggelder.md](../../themen/erwerbsersatz-taggelder.md)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
+- [wiki/themen/interkantonale-ausscheidung.md](../../themen/interkantonale-ausscheidung.md)
+- [wiki/themen/kinder-sozialabzuege.md](../../themen/kinder-sozialabzuege.md)
+- [wiki/themen/kinderdrittbetreuung.md](../../themen/kinderdrittbetreuung.md)
+- [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
+- [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
+- [wiki/themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md](../../themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md)
+- [wiki/themen/mitarbeiterbeteiligungen.md](../../themen/mitarbeiterbeteiligungen.md)
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
+- [wiki/themen/renten-kapitalleistungen.md](../../themen/renten-kapitalleistungen.md)
+- [wiki/themen/saeule-3a.md](../../themen/saeule-3a.md)
+- [wiki/themen/schuldzinsen-schulden.md](../../themen/schuldzinsen-schulden.md)
+- [wiki/themen/selbstaendige-naturalbezuege.md](../../themen/selbstaendige-naturalbezuege.md)
+- [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
+- [wiki/themen/unterhaltsbeitraege.md](../../themen/unterhaltsbeitraege.md)
+- [wiki/themen/vermoegen-bewertung.md](../../themen/vermoegen-bewertung.md)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
+- [wiki/themen/versicherungspraemien.md](../../themen/versicherungspraemien.md)
+- [wiki/themen/weiterbildung.md](../../themen/weiterbildung.md)
+- [wiki/themen/wertschriften-verrechnungssteuer.md](../../themen/wertschriften-verrechnungssteuer.md)
 
 ## Inhalt (321 Chunks)
 

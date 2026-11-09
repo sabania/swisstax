@@ -9,7 +9,7 @@ artikel: "§ 202"
 seiten: "74"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Besondere Bestimmungen › § 202 StG ZH – b. Besteuerung konfessionell gemischter Ehen · S. 74
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Besondere Bestimmungen › § 202 StG ZH – b. Besteuerung konfessionell gemischter Ehen · S. 74
 
 ### § 202 StG ZH – b. Besteuerung konfessionell gemischter Ehen
 

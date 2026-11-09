@@ -6,12 +6,12 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 51,
+   "start": 35,
    "titel": "Ziff. 1–2 Einleitung und Anpassung der bundesgerichtlichen Rechtsprechung",
    "pfad": [
     "1. Einleitung / 2. Rechtsprechung"
@@ -31,7 +31,7 @@
    "zusammenfassung": "Das Bundesgericht verpflichtet den Liegenschaftskanton, Geschäftsverluste aus anderen Kantonen auf Grundstückgewinne anzurechnen (BGer 2P.222/2002, 2P.139/2005)."
   },
   {
-   "start": 90,
+   "start": 74,
    "titel": "Ziff. 3.1 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze natürliche Personen",
    "pfad": [
     "3. Kreisschreiben SSK",
@@ -52,7 +52,7 @@
    "zusammenfassung": "Verluste werden zuerst im gleichen Kanton verrechnet, dann vom Hauptsteuerdomizil getragen; Verrechnung mit Grundstückgewinnen des Privatvermögens ist ausgeschlossen, Verlustübernahme ist definitiv."
   },
   {
-   "start": 127,
+   "start": 111,
    "titel": "Ziff. 3.2 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze juristische Personen",
    "pfad": [
     "3. Kreisschreiben SSK",
@@ -70,7 +70,7 @@
    "zusammenfassung": "Nicht verrechenbare Verluste schmälern das nach Quoten verteilte Betriebsergebnis; monistische Kantone verrechnen zuerst mit wieder eingebrachten Abschreibungen, dann mit dem Wertzuwachsgewinn."
   },
   {
-   "start": 150,
+   "start": 134,
    "titel": "Ziff. 4 Verlustverrechnung im Kanton Schwyz",
    "pfad": [
     "4. Verlustverrechnung im Kanton Schwyz"
@@ -86,7 +86,7 @@
    "zusammenfassung": "Seit 1.1.2010 können bei der Einkommens- bzw. Gewinnsteuer erzielte Verluste mit Grundstückgewinnen des gleichen Jahres verrechnet werden, für alle steuerpflichtigen Personen."
   },
   {
-   "start": 174,
+   "start": 158,
    "titel": "Ziff. 5–6 Verfahren und Übergangsregelungen vor 1.1.2010",
    "pfad": [
     "5. Verfahren / 6. Übergangsregelungen"
@@ -104,5 +104,7 @@
    ],
    "zusammenfassung": "Verrechnung kann mit Revisionsgesuch innert 90 Tagen ab Versand der Veranlagung geltend gemacht werden; Übergangsregeln gelten ab Steuerperiode 2006, innerkantonale Betriebe vor 1.1.2010 ausgeschlossen."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

@@ -2,14 +2,14 @@
 id: bund-ks-30__c0090
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 13.4.11 Kapitalleistungen (Art. 38) und fiktive Einkäufe (Art. 37b) – Tarif"
 ziffer: "13.4.11"
 seiten: "29-30"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.11 Kapitalleistungen · S. 29–30
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.11 Kapitalleistungen · S. 29–30
 
 13.4.11   Kapitalleistungen nach Artikel 38 und fiktive Einkäufe nach Artikel
     37b DBG

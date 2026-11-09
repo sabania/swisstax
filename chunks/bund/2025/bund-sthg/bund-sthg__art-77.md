@@ -2,13 +2,13 @@
 id: bund-sthg__art-77
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 77 StHG – Reingewinnsteuer"
 artikel: "Art. 77"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Achter Titel: Schlussbestimmungen › 3. Kapitel: Übergangsbestimmungen › Art. 77 Reingewinnsteuer
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Achter Titel: Schlussbestimmungen › 3. Kapitel: Übergangsbestimmungen › Art. 77 Reingewinnsteuer
 
 ### Art. 77 StHG – Reingewinnsteuer
 

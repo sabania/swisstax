@@ -8,7 +8,7 @@ titel: "Art. 319 StG SG – Vollzugsbeginn"
 artikel: "Art. 319"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 319 Vollzugsbeginn
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 319 Vollzugsbeginn
 
 ### Art. 319 StG SG – Vollzugsbeginn
 

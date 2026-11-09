@@ -8,7 +8,7 @@ titel: "Art. 273 StG AR – I. Änderung bisherigen Rechts"
 artikel: "Art. 273"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 273 I. Änderung bisherigen Rechts
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 273 I. Änderung bisherigen Rechts
 
 ### Art. 273 StG AR – I. Änderung bisherigen Rechts
 

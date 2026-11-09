@@ -8,7 +8,7 @@ titel: "Art. 97a DBG – Empfänger von Mitarbeiterbeteiligungen"
 artikel: "Art. 97a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 97a Empfänger von Mitarbeiterbeteiligungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 97a Empfänger von Mitarbeiterbeteiligungen
 
 ### Art. 97a DBG – Empfänger von Mitarbeiterbeteiligungen
 

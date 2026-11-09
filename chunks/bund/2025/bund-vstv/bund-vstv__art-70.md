@@ -2,13 +2,13 @@
 id: bund-vstv__art-70
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 70 VStV"
 artikel: "Art. 70"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · Dritter Titel: Schlussbestimmung › Inkrafttreten › Art. 70
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · Dritter Titel: Schlussbestimmung › Inkrafttreten › Art. 70
 
 ### Art. 70 VStV
 

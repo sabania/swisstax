@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0009
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Rz 16–18 Felder d–f: Datum, als Selbständigerwerbende/r, als Arbeitnehmer/in"
 ziffer: "16–18"
 seiten: "3-4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 1: 2. Säule · S. 3–4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Erläuterungen › Ziffer 1: 2. Säule · S. 3–4
 
     Feld d: Datum
 16   Einzusetzen ist das genaue Datum der Einzahlung. Bei mehreren Einzahlungen ist jede

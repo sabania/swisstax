@@ -9,7 +9,7 @@ ziffer: "1"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › 1. Beiträge 2. Säule · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › 1. Beiträge 2. Säule · S. 1
 
     e Als Selbstständigerwerbende/r
     En qualité d‘indépendant

@@ -8,7 +8,7 @@ titel: "Art. 247 StG SG – Verletzung von Verfahrenspflichten"
 artikel: "Art. 247"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 247 Verletzung von Verfahrenspflichten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 247 Verletzung von Verfahrenspflichten
 
 ### Art. 247 StG SG – Verletzung von Verfahrenspflichten
 

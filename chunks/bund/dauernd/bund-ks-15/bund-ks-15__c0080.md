@@ -2,14 +2,14 @@
 id: bund-ks-15__c0080
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 1/2)"
 ziffer: "Anh. III 5a"
 seiten: "23-24"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 23–24
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 23–24
 
 5   Spezialfälle im Bereich der Reverse Convertibles
 a)   Reverse Convertibles auf Aktien, Edelmetalle und Rohstoffe ohne garantierte

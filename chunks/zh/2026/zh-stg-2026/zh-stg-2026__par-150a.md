@@ -9,7 +9,7 @@ artikel: "§ 150a"
 seiten: "63-64"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 150a StG ZH – 5. Vereinfachtes Verfahren · S. 63–64
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 150a StG ZH – 5. Vereinfachtes Verfahren · S. 63–64
 
 ### § 150a StG ZH – 5. Vereinfachtes Verfahren
 

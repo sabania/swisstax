@@ -12,6 +12,7 @@ raw: raw/zh/dauernd/zh-portal-treuhaender.html
 sha256: 1e6ae27cc805da52e86281a099311667a943967b05e8454409415d1dbbc6fca8
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Steuerberater & Vertreter
 

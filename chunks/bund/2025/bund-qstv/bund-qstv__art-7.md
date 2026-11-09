@@ -8,7 +8,7 @@ titel: "Art. 7 QStV – Rückerstattung"
 artikel: "Art. 7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 7 Rückerstattung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 7 Rückerstattung
 
 ### Art. 7 QStV – Rückerstattung
 

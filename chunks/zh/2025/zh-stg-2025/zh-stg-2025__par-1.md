@@ -9,7 +9,7 @@ artikel: "§ 1"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › Erster Abschnitt: Allgemeine Bestimmungen › § 1 StG ZH – I. Steuerarten · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › Erster Abschnitt: Allgemeine Bestimmungen › § 1 StG ZH – I. Steuerarten · S. 1
 
 ### § 1 StG ZH – I. Steuerarten
 

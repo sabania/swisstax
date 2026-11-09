@@ -2,14 +2,14 @@
 id: bund-ks-25__c0022
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.4 Rückerstattung der Verrechnungssteuer – Grundsatz"
 ziffer: "4.4"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 4 Besteuerung auf Ebene der Anleger › 4.4 Rückerstattung Verrechnungssteuer · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 4 Besteuerung auf Ebene der Anleger › 4.4 Rückerstattung Verrechnungssteuer · S. 7
 
 4.4   Rückerstattung der Verrechnungssteuer
 Gemäss Artikel 4 Absatz 1 Buchstabe c des Bundesgesetzes über die Verrechnungssteuer

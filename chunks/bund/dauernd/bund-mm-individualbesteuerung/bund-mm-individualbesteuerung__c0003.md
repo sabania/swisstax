@@ -2,12 +2,12 @@
 id: bund-mm-individualbesteuerung__c0003
 quelle: bund-mm-individualbesteuerung
 jur: bund
-jahre: [2025, 2026]
+jahre: []
 typ: mitteilung
 titel: "Individualbesteuerung tritt 2032 in Kraft"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: mitteilung}}
+qmd: {metadata: {jur: bund, jahre: [], typ: mitteilung}}
 ---
-> Bund · Steuerjahr 2025/2026 · MM Individualbesteuerung · Individualbesteuerung tritt 2032 in Kraft
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Mitteilung · MM Individualbesteuerung · Individualbesteuerung tritt 2032 in Kraft
 
 Die Einführung der Individualbesteuerung betrifft alle steuerpflichtigen Personen, die Kantone, die Gemeinden und den Bund. Die Kantone müssen ihre Steuergesetze anpassen. Dazu gehören insbesondere die Überprüfung und gegebenenfalls die Neugestaltung der Tarife und der Sozialabzüge. Auch kantonale Volksabstimmungen können nötig werden.
 

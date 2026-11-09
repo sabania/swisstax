@@ -9,7 +9,7 @@ artikel: "§ 36"
 seiten: "7"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 36 StV ZH – d. Scheidung oder Trennung · S. 7
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 36 StV ZH – d. Scheidung oder Trennung · S. 7
 
 ### § 36 StV ZH – d. Scheidung oder Trennung
 

@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2017-10-03'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/2H5NhZhB6Evl/dbst-ks-2007-1-015-dvs-de.pdf
@@ -14,6 +15,8 @@ sha256: 3f92875c2159c6895915db47968640b01e4ebe16b6cb207539d1145740668a97
 abgerufen: '2026-11-09'
 seiten: 36
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2018-01-01'
 ---
 # ESTV-Kreisschreiben Nr. 15: Obligationen und derivative Finanzinstrumente
 

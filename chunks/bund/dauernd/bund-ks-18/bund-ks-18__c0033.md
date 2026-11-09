@@ -9,7 +9,7 @@ ziffer: "10–11"
 seiten: "10-11"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 10. Anlage in Wertschriften › 11. Inkrafttreten · S. 10–11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 10. Anlage in Wertschriften › 11. Inkrafttreten · S. 10–11
 
 10. Anlage in Wertschriften; Verrechnungssteuer-Rückforderung
 

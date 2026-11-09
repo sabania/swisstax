@@ -8,7 +8,7 @@ titel: "Art. 208 StG SG – c) Sicherung der Inventaraufnahme"
 artikel: "Art. 208"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 208 c) Sicherung der Inventaraufnahme
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 208 c) Sicherung der Inventaraufnahme
 
 ### Art. 208 StG SG – c) Sicherung der Inventaraufnahme
 

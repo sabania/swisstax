@@ -2,12 +2,12 @@
 id: bund-mm-eigenmietwert-abschaffung__c0002
 quelle: bund-mm-eigenmietwert-abschaffung
 jur: bund
-jahre: [2025, 2026]
+jahre: []
 typ: mitteilung
 titel: "Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: mitteilung}}
+qmd: {metadata: {jur: bund, jahre: [], typ: mitteilung}}
 ---
-> Bund · Steuerjahr 2025/2026 · MM Eigenmietwert · Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Mitteilung · MM Eigenmietwert · Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft
 
 # Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft
 

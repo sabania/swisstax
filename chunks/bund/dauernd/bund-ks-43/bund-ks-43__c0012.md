@@ -2,14 +2,14 @@
 id: bund-ks-43__c0012
 quelle: bund-ks-43
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang Beispiel 1 – Stipendium CHF 1'500 / 3'000 monatlich (Bedürftigkeit) (Teil 2/2)"
 ziffer: "Beispiel 1"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · Anhang: Beispiele · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 43 · Anhang: Beispiele · S. 5
 
 gesamte Stipendium angewiesen, um seine Lebenshaltungskosten zu bestreiten. Das Stipendi-
 um übersteigt den lebensnotwendigen Bedarf nicht und ist deshalb gemäss Artikel 24 Buchsta-

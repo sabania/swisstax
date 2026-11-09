@@ -9,7 +9,7 @@ ziffer: "4.1"
 seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.1 Person mit Behinderung · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.1 Person mit Behinderung · S. 6
 
 4   Behinderungsbedingte Kosten
 

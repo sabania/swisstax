@@ -8,7 +8,7 @@ titel: "Art. 86 und 87 DBG"
 artikel: "Art. 86 und 87"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 86 und 87
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 86 und 87
 
 ### Art. 86 und 87 DBG
 

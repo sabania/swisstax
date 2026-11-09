@@ -8,7 +8,7 @@ titel: "Art. 163 bis StG SG – b) Datenbearbeitung"
 artikel: "Art. 163 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 163 bis b) Datenbearbeitung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 163 bis b) Datenbearbeitung
 
 ### Art. 163 bis StG SG – b) Datenbearbeitung
 

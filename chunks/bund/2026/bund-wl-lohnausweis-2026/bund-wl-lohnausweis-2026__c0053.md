@@ -9,7 +9,7 @@ ziffer: "15 / 64–65a"
 seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 15 Bemerkungen · S. 19
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 15 Bemerkungen · S. 19
 
     beitgebers genehmigt (vgl. Rz 59), ist folgende Bemerkung anzubringen: «Spesenregle
     ment durch Kanton XY (Autokennzeichen des Kantons) am ... (Datum) genehmigt». In

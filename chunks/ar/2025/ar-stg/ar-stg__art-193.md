@@ -8,7 +8,7 @@ titel: "Art. 193 StG AR – III. Nachsteuer 1. Ordentliche Nachbesteuerung"
 artikel: "Art. 193"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 193 III. Nachsteuer 1. Ordentliche Nachbesteuerung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 193 III. Nachsteuer 1. Ordentliche Nachbesteuerung
 
 ### Art. 193 StG AR – III. Nachsteuer 1. Ordentliche Nachbesteuerung
 

@@ -9,7 +9,7 @@ ziffer: "I/4"
 seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · LS 631.33 (ab 2026) · Verfügung Finanzdirektion › I. Pauschalen › 4. Nebenbeschäftigung · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · LS 631.33 (ab 2026) · Verfügung Finanzdirektion › I. Pauschalen › 4. Nebenbeschäftigung · S. 3
 
 4. Für Auslagen infolge Ausübung einer Neben-
    beschäftigung in unselbstständiger Stellung . . 20% der Ein-

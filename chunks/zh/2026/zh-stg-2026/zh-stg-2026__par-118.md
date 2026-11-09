@@ -9,7 +9,7 @@ artikel: "§ 118"
 seiten: "54"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 118 StG ZH – VIII. Verordnungen · S. 54
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 118 StG ZH – VIII. Verordnungen · S. 54
 
 ### § 118 StG ZH – VIII. Verordnungen
 

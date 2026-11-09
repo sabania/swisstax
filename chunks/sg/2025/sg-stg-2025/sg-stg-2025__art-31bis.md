@@ -8,7 +8,7 @@ titel: "Art. 31 bis StG SG – 1bis. Teilbesteuerung der Einkünfte aus Beteilig
 artikel: "Art. 31 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 31 bis 1bis. Teilbesteuerung der Einkünfte aus Beteiligungen im Geschäftsvermögen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 31 bis 1bis. Teilbesteuerung der Einkünfte aus Beteiligungen im Geschäftsvermögen
 
 ### Art. 31 bis StG SG – 1bis. Teilbesteuerung der Einkünfte aus Beteiligungen im Geschäftsvermögen
 

@@ -14,6 +14,9 @@ sha256: 8a65fe09b79a1844f819eb1f29ee58504287d3978af53a270016992993c8efc7
 abgerufen: '2026-11-09'
 einheiten: 29
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-10'
+gilt_bis: '2026-12-31'
 ---
 # Quellensteuerverordnung (QStV, SR 642.118.2) – Fassung gültig ab 10.01.2025
 

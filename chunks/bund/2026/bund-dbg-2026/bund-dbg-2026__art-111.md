@@ -8,7 +8,7 @@ titel: "Art. 111 DBG – Amtshilfe unter Steuerbehörden"
 artikel: "Art. 111"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 1. Kapitel: Amtspflichten › Art. 111 Amtshilfe unter Steuerbehörden
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 1. Kapitel: Amtspflichten › Art. 111 Amtshilfe unter Steuerbehörden
 
 ### Art. 111 DBG – Amtshilfe unter Steuerbehörden
 

@@ -8,7 +8,7 @@ titel: "Art. 95 StG AR – Steuersätze"
 artikel: "Art. 95"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › D. Zeitliche Bemessung › Art. 95 Steuersätze
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › D. Zeitliche Bemessung › Art. 95 Steuersätze
 
 ### Art. 95 StG AR – Steuersätze
 

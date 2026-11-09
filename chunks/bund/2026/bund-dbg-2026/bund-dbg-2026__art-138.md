@@ -8,7 +8,7 @@ titel: "Art. 138 DBG – Nachforderung und Rückerstattung"
 artikel: "Art. 138"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Fünfter Teil: Verfahrensrecht › Vierter Titel: Verfahren bei der Erhebung der Quellensteuer › Art. 138 Nachforderung und Rückerstattung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Fünfter Teil: Verfahrensrecht › Vierter Titel: Verfahren bei der Erhebung der Quellensteuer › Art. 138 Nachforderung und Rückerstattung
 
 ### Art. 138 DBG – Nachforderung und Rückerstattung
 

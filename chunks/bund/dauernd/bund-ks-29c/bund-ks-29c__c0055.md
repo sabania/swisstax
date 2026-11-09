@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0055
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.3 Spaltung kotierter Gesellschaften (Teil 1/2)"
 ziffer: "7.3"
 seiten: "23"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 7 Umstrukturierungen kotierter Gesellschaften › 7.3 Spaltung · S. 23
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 7 Umstrukturierungen kotierter Gesellschaften › 7.3 Spaltung · S. 23
 
 7.3.   Spaltung
 

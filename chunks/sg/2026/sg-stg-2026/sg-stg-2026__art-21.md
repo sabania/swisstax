@@ -8,7 +8,7 @@ titel: "Art. 21 StG SG – Personengemeinschaften a) Einfache Gesellschaften, Ko
 artikel: "Art. 21"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 21 Personengemeinschaften a) Einfache Gesellschaften, Kollektiv- und Kommanditgesellschaften; ausländische Handelsgesellschaften und andere Personengemeinschaften
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 21 Personengemeinschaften a) Einfache Gesellschaften, Kollektiv- und Kommanditgesellschaften; ausländische Handelsgesellschaften und andere Personengemeinschaften
 
 ### Art. 21 StG SG – Personengemeinschaften a) Einfache Gesellschaften, Kollektiv- und Kommanditgesellschaften; ausländische Handelsgesellschaften und andere Personengemeinschaften
 

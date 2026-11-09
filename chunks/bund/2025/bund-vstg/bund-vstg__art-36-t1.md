@@ -2,13 +2,13 @@
 id: bund-vstg__art-36-t1
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 36 VStG (Teil 1/2)"
 artikel: "Art. 36"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · A. Behörden › II. Amtshilfe › Art. 36
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · A. Behörden › II. Amtshilfe › Art. 36
 
 ### Art. 36 VStG
 

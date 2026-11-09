@@ -8,7 +8,7 @@ titel: "Art. 184 DBG"
 artikel: "Art. 184"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 5. Kapitel: Verjährung der Strafverfolgung › Art. 184
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 5. Kapitel: Verjährung der Strafverfolgung › Art. 184
 
 ### Art. 184 DBG
 

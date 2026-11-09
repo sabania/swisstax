@@ -2,13 +2,13 @@
 id: bund-vstg__art-73
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 73 VStG"
 artikel: "Art. 73"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · Fünfter Abschnitt: Schluss- und Übergangsbestimmungen › E. Vollzug › Art. 73
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · Fünfter Abschnitt: Schluss- und Übergangsbestimmungen › E. Vollzug › Art. 73
 
 ### Art. 73 VStG
 

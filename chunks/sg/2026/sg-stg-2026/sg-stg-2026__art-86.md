@@ -8,7 +8,7 @@ titel: "Art. 86 StG SG – 5. Verluste"
 artikel: "Art. 86"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 86 5. Verluste
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 86 5. Verluste
 
 ### Art. 86 StG SG – 5. Verluste
 

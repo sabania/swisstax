@@ -8,7 +8,7 @@ titel: "Art. 180 DBG – Steuerhinterziehung von Ehegatten"
 artikel: "Art. 180"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 180 Steuerhinterziehung von Ehegatten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 180 Steuerhinterziehung von Ehegatten
 
 ### Art. 180 DBG – Steuerhinterziehung von Ehegatten
 

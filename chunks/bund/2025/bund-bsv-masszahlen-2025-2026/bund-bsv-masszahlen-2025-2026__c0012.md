@@ -9,7 +9,7 @@ ziffer: "2–3"
 seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Zeitreihen › Lohndaten und Mindestzinssatz · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Zeitreihen › Lohndaten und Mindestzinssatz · S. 3
 
     2011-2012   20'880   24'360   83'520   3'480   59'160
     2013-2014   21'060   24'570   84'240   3'510   59'670

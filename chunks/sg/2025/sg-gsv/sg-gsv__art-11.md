@@ -8,7 +8,7 @@ titel: "Art. 11 VGS SG – Amtsgeheimnis"
 artikel: "Art. 11"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 11 Amtsgeheimnis
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 11 Amtsgeheimnis
 
 ### Art. 11 VGS SG – Amtsgeheimnis
 

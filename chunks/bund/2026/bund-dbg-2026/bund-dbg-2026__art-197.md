@@ -8,7 +8,7 @@ titel: "Art. 197 DBG – Verteilung der kantonalen Anteile"
 artikel: "Art. 197"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Siebenter Teil: Abrechnung zwischen Bund und Kantonen › Art. 197 Verteilung der kantonalen Anteile
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Siebenter Teil: Abrechnung zwischen Bund und Kantonen › Art. 197 Verteilung der kantonalen Anteile
 
 ### Art. 197 DBG – Verteilung der kantonalen Anteile
 

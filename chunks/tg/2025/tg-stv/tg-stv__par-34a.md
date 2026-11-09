@@ -8,7 +8,7 @@ titel: "§ 34a StV TG – Körperschaftsabrechnung"
 artikel: "§ 34a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 6. Steuerbehörden › § 34a Körperschaftsabrechnung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 6. Steuerbehörden › § 34a Körperschaftsabrechnung
 
 ### § 34a StV TG – Körperschaftsabrechnung
 

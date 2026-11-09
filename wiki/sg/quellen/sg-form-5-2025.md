@@ -11,6 +11,21 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Formular · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_5_NP_2025_HA.pdf> · lokal: [sg-form-5-2025.pdf](../../../raw/sg/2025/sg-form-5-2025.pdf) · Volltext: [sg-form-5-2025.md](../../../sources/sg/2025/sg-form-5-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `087826bbd9ed1119…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 7 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-5-2025`).
+
+- `data/zuordnung/sg/2025.yaml#24:abzug.schuldzinsen@11` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#34:abzug.parteispenden@16.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#59:schulden.privat@34.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#84:schulden.privat@Form. 5 Teil A` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#85:schulden.privat@Form. 5 Teil B` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#86:abzug.spenden@Form. 5 Rückseite Teil A` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#87:abzug.parteispenden@Form. 5 Rückseite Teil B` (agent-geprueft)
+- [wiki/themen/schuldzinsen-schulden.md](../../themen/schuldzinsen-schulden.md)
+- [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

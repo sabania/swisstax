@@ -9,7 +9,7 @@ artikel: "§ 238"
 seiten: "82-83"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 238 StG ZH – 4. Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren · S. 82–83
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 238 StG ZH – 4. Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren · S. 82–83
 
 ### § 238 StG ZH – 4. Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren
 

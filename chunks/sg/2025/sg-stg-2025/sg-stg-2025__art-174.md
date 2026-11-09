@@ -8,7 +8,7 @@ titel: "Art. 174 StG SG – c) Meldepflicht Dritter"
 artikel: "Art. 174"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 174 c) Meldepflicht Dritter
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 174 c) Meldepflicht Dritter
 
 ### Art. 174 StG SG – c) Meldepflicht Dritter
 

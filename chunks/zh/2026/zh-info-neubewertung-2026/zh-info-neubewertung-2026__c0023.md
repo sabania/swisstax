@@ -7,7 +7,7 @@ typ: info
 titel: "Baurechtsgeber"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: info}}
 ---
-> ZH · Steuerjahr 2026 · ZH Neubewertung 2026 · Methode der Bewertung › Zeitbauwert › Baurechtsgeber
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2026 · ZH Neubewertung 2026 · Methode der Bewertung › Zeitbauwert › Baurechtsgeber
 
 #### Baurechtsgeber
 

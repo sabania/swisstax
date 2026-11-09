@@ -2,13 +2,13 @@
 id: tg-steuerfuesse-2026__c0013
 quelle: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 typ: steuerfuss
 titel: "Schulsteuerfüsse und Gesamtsteuerfüsse – Erhöhungen und Senkungen 2026"
 seiten: "4"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
+qmd: {metadata: {jur: tg, jahre: [2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Schulsteuerfuss › Gesamtsteuerfuss · S. 4
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Schulsteuerfuss › Gesamtsteuerfuss · S. 4
 
 Von den 72 Schulgemeinden1 senkten 2026 6 ihren Steuerfuss.   Bei den Gemeinden mit einer Steuerfussanpassung gab es et-
 Das sind deutlich weniger Senkungen als zwischen 2005 und   was mehr Erhöhungen als Senkungen: Für die evangelische Be-

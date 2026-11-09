@@ -8,7 +8,7 @@ titel: "§ 22 SchäV TG – Anwendung bisherigen Rechtes"
 artikel: "§ 22"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 4. Übergangs- und Schlussbestimmungen › § 22 Anwendung bisherigen Rechtes
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 4. Übergangs- und Schlussbestimmungen › § 22 Anwendung bisherigen Rechtes
 
 ### § 22 SchäV TG – Anwendung bisherigen Rechtes
 

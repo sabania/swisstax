@@ -9,7 +9,7 @@ ziffer: "3–5"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Wichtige Masszahlen berufliche Vorsorge › 3–5 Altersguthaben, Renten, Barauszahlung · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Wichtige Masszahlen berufliche Vorsorge › 3–5 Altersguthaben, Renten, Barauszahlung · S. 1
 
   3. BVG-Altersguthaben (AGH)
     BVG-Mindestzinssatz (Zeitreihe)   1,25%   1,25%

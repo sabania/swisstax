@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0010
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.1–5.2 Zeitpunkt der Einzahlung (31. Dezember); Anzahl Vorsorgekonten"
 ziffer: "5.1–5.2"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.1 Allgemeines / 5.2 Anzahl Konten · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.1 Allgemeines / 5.2 Anzahl Konten · S. 5
 
 Damit ein Säule 3a-Beitrag für ein bestimmtes Jahr geleistet und steuerlich in Abzug ge-
 bracht werden kann, muss dieser bis spätestens am 31. Dezember des betreffenden Jahres

@@ -8,7 +8,7 @@ titel: "Art. 199 DBG"
 artikel: "Art. 199"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Teil: Schlussbestimmungen › Erster Titel: Ausführungsbestimmungen › Art. 199
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Teil: Schlussbestimmungen › Erster Titel: Ausführungsbestimmungen › Art. 199
 
 ### Art. 199 DBG
 

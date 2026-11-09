@@ -8,7 +8,7 @@ titel: "Art. 14 VGS SG – Politische Gemeinde"
 artikel: "Art. 14"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · IV. Kosten › Art. 14 Politische Gemeinde
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · IV. Kosten › Art. 14 Politische Gemeinde
 
 ### Art. 14 VGS SG – Politische Gemeinde
 

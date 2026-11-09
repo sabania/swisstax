@@ -8,7 +8,7 @@ titel: "Art. 112 bis StG SG – Nachträgliche ordentliche Veranlagung a) obliga
 artikel: "Art. 112 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 112 bis Nachträgliche ordentliche Veranlagung a) obligatorische
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 112 bis Nachträgliche ordentliche Veranlagung a) obligatorische
 
 ### Art. 112 bis StG SG – Nachträgliche ordentliche Veranlagung a) obligatorische
 

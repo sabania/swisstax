@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Teil A Angaben zur Liegenschaft / Steuerwert (Übertrag Seite 4 Ziff. 31)",
    "pfad": [
     "Vorderseite",
@@ -26,7 +26,7 @@
    "ziffer": "A"
   },
   {
-   "start": 59,
+   "start": 44,
    "titel": "Teil B Erträge: Eigenmietwert (Abzug 30%) und Fremdnutzung (Ziff. 5)",
    "pfad": [
     "Vorderseite",
@@ -48,7 +48,7 @@
    "ziffer": "B"
   },
   {
-   "start": 89,
+   "start": 74,
    "titel": "Teil C Unterhalts- und Verwaltungskosten: Pauschalabzug 20% (Ziff. 15)",
    "pfad": [
     "Vorderseite",
@@ -67,7 +67,7 @@
    "ziffer": "C"
   },
   {
-   "start": 103,
+   "start": 88,
    "titel": "Rückseite: Tatsächliche Unterhalts- und Verwaltungskosten (C2)",
    "pfad": [
     "Rückseite",
@@ -87,5 +87,7 @@
    "zusammenfassung": "Nur selbst bezahlte Kosten abzugsfähig; Förderbeiträge und Versicherungsleistungen sind abzuziehen; Total C2 Übertrag Seite 3 Ziffer 15.",
    "ziffer": "C2"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

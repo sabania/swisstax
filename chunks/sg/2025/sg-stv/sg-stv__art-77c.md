@@ -8,7 +8,7 @@ titel: "Art. 77c StV SG – c) Datenschutz"
 artikel: "Art. 77c"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 77c c) Datenschutz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 77c c) Datenschutz
 
 ### Art. 77c StV SG – c) Datenschutz
 

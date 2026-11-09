@@ -9,7 +9,7 @@ ziffer: "20–22"
 seiten: "5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 1. Allgemeine Grundsätze · S. 5
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 1. Allgemeine Grundsätze · S. 5
 
 IV. Einfamilienhäuser und Stockwerkeigentum zu Wohnzwecken
 

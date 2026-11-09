@@ -8,7 +8,7 @@ titel: "Landwerte Geschäftshäuser/Industrie (Ziff. 14, 15, 49) – Bezirk Ande
 seiten: "30"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Geschäftshäuser/Industrie · S. 30
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Geschäftshäuser/Industrie · S. 30
 
 Bezirk Andelfingen
 Andelfingen   1   440   –   –   –   290   –   –   –

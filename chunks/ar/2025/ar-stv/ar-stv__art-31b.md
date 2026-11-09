@@ -8,7 +8,7 @@ titel: "Art. 31b StV AR – Amtlicher Verkehrswert (Art. 47 StG)"
 artikel: "Art. 31b"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 31b Amtlicher Verkehrswert (Art. 47 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 31b Amtlicher Verkehrswert (Art. 47 StG)
 
 ### Art. 31b StV AR – Amtlicher Verkehrswert (Art. 47 StG)
 

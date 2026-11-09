@@ -9,7 +9,7 @@ artikel: "§ 198"
 seiten: "74"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 198 StG ZH – 2. Im Ausscheidungsverfahren · S. 74
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 198 StG ZH – 2. Im Ausscheidungsverfahren · S. 74
 
 ### § 198 StG ZH – 2. Im Ausscheidungsverfahren
 

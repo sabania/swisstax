@@ -2,13 +2,13 @@
 id: tg-steuerfuesse-2026__c0024
 quelle: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 typ: steuerfuss
 titel: "Tabelle Steuerfüsse 2026/Steuerkraft 2025 – Kopf, Kanton, Bezirke Arbon und Frauenfeld (Teil 2/2)"
 seiten: "7"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
+qmd: {metadata: {jur: tg, jahre: [2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Tabelle nach Gemeinden · S. 7
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Tabelle nach Gemeinden · S. 7
 
 Dozwil   39   84   23 / 23   255.0   2’159   Lengwil   54   83   26 / 15   267.5   1’986
 Egnach   55   95   20 / 20   279.0   2’350   Münsterlingen   40   87   9 / 14   247.4   2’955

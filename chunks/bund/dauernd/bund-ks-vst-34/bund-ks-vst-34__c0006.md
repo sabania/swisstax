@@ -2,14 +2,14 @@
 id: bund-ks-vst-34__c0006
 quelle: bund-ks-vst-34
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8–9 Geldmarktpapiere und Inkrafttreten"
 ziffer: "8–9"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 34 · Geldmarktpapiere / Inkrafttreten · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS VST 34 · Geldmarktpapiere / Inkrafttreten · S. 2
 
 8. Geldmarktpapiere und Buchforderungen
 Bezüglich der Geldmarktpapiere und Buchforderungen verweisen wir auf das Merkblatt

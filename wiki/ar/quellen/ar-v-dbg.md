@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2016-01-01
 - **Original:** <https://ar.clex.ch/app/de/texts_of_law/625.11/versions/1010> · lokal: [ar-v-dbg.json](../../../raw/ar/2025/ar-v-dbg.json) · Volltext: [ar-v-dbg.md](../../../sources/ar/2025/ar-v-dbg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `2aa2cdd689c592f9…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2016-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-v-dbg`).
+
+- [wiki/ar/ar-ueberblick.md](../ar-ueberblick.md)
 
 ## Inhalt (19 Chunks)
 

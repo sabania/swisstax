@@ -8,7 +8,7 @@ titel: "Art. 161 DBG (Teil 1/2)"
 artikel: "Art. 161"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 2. Kapitel: Fälligkeit der Steuer › Art. 161
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 2. Kapitel: Fälligkeit der Steuer › Art. 161
 
 ### Art. 161 DBG
 

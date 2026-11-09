@@ -8,7 +8,7 @@ titel: "Art. 6 BKV – Mehrkosten für Verpflegung (Teil 2/2)"
 artikel: "Art. 6"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 6 Mehrkosten für Verpflegung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 6 Mehrkosten für Verpflegung
 
 ### Art. 6 BKV – Mehrkosten für Verpflegung (Fortsetzung)
 

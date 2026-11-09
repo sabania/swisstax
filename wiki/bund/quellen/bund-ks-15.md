@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 15: Obligationen und derivative Finanzinstrumente"
 generiert: tools/build_index.py
 ---
 # KS 15: ESTV-Kreisschreiben Nr. 15: Obligationen und derivative Finanzinstrumente
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2017-10-03
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2017-10-03
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/2H5NhZhB6Evl/dbst-ks-2007-1-015-dvs-de.pdf> · lokal: [bund-ks-15.pdf](../../../raw/bund/dauernd/bund-ks-15.pdf) · Volltext: [bund-ks-15.md](../../../sources/bund/dauernd/bund-ks-15.md)
 - **Abgerufen:** 2026-11-09 · sha256 `3f92875c2159c689…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2018-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-15`).
+
+- [wiki/themen/schuldzinsen-schulden.md](../../themen/schuldzinsen-schulden.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

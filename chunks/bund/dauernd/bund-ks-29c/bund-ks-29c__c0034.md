@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0034
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.2.3 Absorption der Tochtergesellschaft (Up-Stream Merger)"
 ziffer: "6.2.3"
 seiten: "16"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.2 Fusion · S. 16
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.2 Fusion · S. 16
 
 6.2.3. Absorption einer Tochtergesellschaft („Up-Stream Merger“)
 

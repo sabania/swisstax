@@ -9,7 +9,7 @@ ziffer: "7 / 36–37"
 seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 7 Andere Leistungen · S. 13
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 7 Andere Leistungen · S. 13
 
 •   Vom Arbeitgeber übernommene Beiträge an Einrichtungen der kollektiven berufli   36
     chen Vorsorge (2. Säule, inkl. Kaderversicherungen), die nach Gesetz, Statut oder Reg

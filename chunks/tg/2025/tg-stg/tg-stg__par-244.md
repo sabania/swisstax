@@ -2,13 +2,13 @@
 id: tg-stg__par-244
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 244 StG TG – Massgebender Einkommenssteuerwert bei Systemwechsel"
 artikel: "§ 244"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 3. Übergangs- und Schlussbestimmungen › § 244 Massgebender Einkommenssteuerwert bei Systemwechsel
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 3. Übergangs- und Schlussbestimmungen › § 244 Massgebender Einkommenssteuerwert bei Systemwechsel
 
 ### § 244 StG TG – Massgebender Einkommenssteuerwert bei Systemwechsel
 

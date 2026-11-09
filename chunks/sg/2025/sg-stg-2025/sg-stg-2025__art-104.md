@@ -8,7 +8,7 @@ titel: "Art. 104 StG SG – Bemessung des Eigenkapitals"
 artikel: "Art. 104"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › V. Zeitliche Bemessung › Art. 104 Bemessung des Eigenkapitals
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › V. Zeitliche Bemessung › Art. 104 Bemessung des Eigenkapitals
 
 ### Art. 104 StG SG – Bemessung des Eigenkapitals
 

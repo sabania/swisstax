@@ -9,7 +9,7 @@ ziffer: "1"
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: tarif}}
 ---
-> AR · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · 1. Einkommenssteuer · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Tarif · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · 1. Einkommenssteuer · S. 1
 
 # Steuertarif natürliche Personen ab 2024
 

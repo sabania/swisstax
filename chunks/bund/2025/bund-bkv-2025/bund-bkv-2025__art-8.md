@@ -8,7 +8,7 @@ titel: "Art. 8 BKV"
 artikel: "Art. 8"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 8
 
 ### Art. 8 BKV
 

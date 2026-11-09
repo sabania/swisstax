@@ -9,7 +9,7 @@ artikel: "§ 147"
 seiten: "62-63"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 147 StG ZH – I. Rekursverfahren 1. Frist und Voraussetzungen · S. 62–63
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 147 StG ZH – I. Rekursverfahren 1. Frist und Voraussetzungen · S. 62–63
 
 ### § 147 StG ZH – I. Rekursverfahren 1. Frist und Voraussetzungen
 

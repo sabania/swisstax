@@ -8,7 +8,7 @@ titel: "Art. 32 StG AR – c) Ersatzbeschaffungen"
 artikel: "Art. 32"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 32 c) Ersatzbeschaffungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 32 c) Ersatzbeschaffungen
 
 ### Art. 32 StG AR – c) Ersatzbeschaffungen
 

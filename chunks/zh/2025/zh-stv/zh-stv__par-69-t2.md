@@ -9,7 +9,7 @@ artikel: "§ 69"
 seiten: "13"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 69 StV ZH – 3. Pflicht zur Information über das gesetzliche Grundpfandrecht · S. 13
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 69 StV ZH – 3. Pflicht zur Information über das gesetzliche Grundpfandrecht · S. 13
 
 ### § 69 StV ZH – 3. Pflicht zur Information über das gesetzliche Grundpfandrecht (Fortsetzung)
 

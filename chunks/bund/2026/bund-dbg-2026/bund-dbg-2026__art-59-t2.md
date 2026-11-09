@@ -8,7 +8,7 @@ titel: "Art. 59 DBG – Geschäftsmässig begründeter Aufwand (Teil 2/2)"
 artikel: "Art. 59"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 59 Geschäftsmässig begründeter Aufwand
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 59 Geschäftsmässig begründeter Aufwand
 
 ### Art. 59 DBG – Geschäftsmässig begründeter Aufwand (Fortsetzung)
 

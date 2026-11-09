@@ -11,6 +11,14 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Mitteilung · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.zh.ch/de/news-uebersicht/mitteilungen/2026/steuern-finanzen/weisung-ueber-sozialabzuege-und-steuertarife-und-weitere-publika.html> · lokal: [zh-mm-sozialabzuege-2026.html](../../../raw/zh/2026/zh-mm-sozialabzuege-2026.html) · Volltext: [zh-mm-sozialabzuege-2026.md](../../../sources/zh/2026/zh-mm-sozialabzuege-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `e86da842a4ad6f5e…`
+- **Gültigkeit:** Zeitbezug info (Information) · gilt ab 2026-04-15 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-mm-sozialabzuege-2026`).
+
+- [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (4 Chunks)
 

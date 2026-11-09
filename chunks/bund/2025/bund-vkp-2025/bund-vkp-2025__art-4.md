@@ -8,7 +8,7 @@ titel: "Art. 4 VKP – Sozialabzüge"
 artikel: "Art. 4"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · VKP · Art. 4 Sozialabzüge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · VKP · Art. 4 Sozialabzüge
 
 ### Art. 4 VKP – Sozialabzüge
 

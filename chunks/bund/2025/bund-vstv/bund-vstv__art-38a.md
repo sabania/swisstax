@@ -2,13 +2,13 @@
 id: bund-vstv__art-38a
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 38a VStV"
 artikel: "Art. 38a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · C. Steuer auf dem Ertrag von Anteilen an kollektiven Kapitalanlagen › V. Meldung statt Steuerentrichtung › Art. 38a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · C. Steuer auf dem Ertrag von Anteilen an kollektiven Kapitalanlagen › V. Meldung statt Steuerentrichtung › Art. 38a
 
 ### Art. 38a VStV
 

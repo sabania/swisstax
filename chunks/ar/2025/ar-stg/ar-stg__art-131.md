@@ -8,7 +8,7 @@ titel: "Art. 131 StG AR – d) Spezialfälle"
 artikel: "Art. 131"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 131 d) Spezialfälle
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 131 d) Spezialfälle
 
 ### Art. 131 StG AR – d) Spezialfälle
 

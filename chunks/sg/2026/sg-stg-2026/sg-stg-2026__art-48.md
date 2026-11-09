@@ -8,7 +8,7 @@ titel: "Art. 48 StG SG – g) Sozialabzüge"
 artikel: "Art. 48"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 48 g) Sozialabzüge
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 48 g) Sozialabzüge
 
 ### Art. 48 StG SG – g) Sozialabzüge
 

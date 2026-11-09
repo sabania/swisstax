@@ -8,7 +8,7 @@ titel: "Art. 239 StG SG – Steuerbemessung"
 artikel: "Art. 239"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Dritter Abschnitt: Grundsteuer › Art. 239 Steuerbemessung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Dritter Abschnitt: Grundsteuer › Art. 239 Steuerbemessung
 
 ### Art. 239 StG SG – Steuerbemessung
 

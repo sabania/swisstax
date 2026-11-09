@@ -6,12 +6,15 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-27-allgemeine-abzuge-ansatze
 raw: raw/tg/dauernd/tg-stp-34-27.html
 sha256: 2b1195a2ed5f52f95208ae5482192fa27b95c5fb303729253bff411efd94d5ea
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2025-01-01'
 ---
 # StP 34 Nr. 27: Allgemeine Abzüge – Ansätze
 

@@ -11,6 +11,8 @@ raw: raw/zh/2026/zh-mm-sozialabzuege-2026.html
 sha256: e86da842a4ad6f5e16906c789df198d1bce27b72832ae29c707b21cd191e11ef
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
+gilt_ab: '2026-04-15'
 ---
 # Weisung über Sozialabzüge und Steuertarife (Mitteilung 15.04.2026)
 

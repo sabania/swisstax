@@ -8,7 +8,7 @@ titel: "Art. 8 V DBG AR – Veranlagung der natürlichen Personen; einjährige S
 artikel: "Art. 8"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · II. Ordentliches Veranlagungsverfahren › Art. 8 Veranlagung der natürlichen Personen; einjährige Steuerperiode (Art. 41 DBG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · II. Ordentliches Veranlagungsverfahren › Art. 8 Veranlagung der natürlichen Personen; einjährige Steuerperiode (Art. 41 DBG)
 
 ### Art. 8 V DBG AR – Veranlagung der natürlichen Personen; einjährige Steuerperiode (Art. 41 DBG)
 

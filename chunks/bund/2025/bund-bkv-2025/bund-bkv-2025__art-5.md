@@ -8,7 +8,7 @@ titel: "Art. 5 BKV – Fahrkosten"
 artikel: "Art. 5"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 5 Fahrkosten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 5 Fahrkosten
 
 ### Art. 5 BKV – Fahrkosten
 

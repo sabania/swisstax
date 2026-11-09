@@ -2,15 +2,28 @@
 typ: quelle
 id: ar-mb-02
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 02: Kinderabzug (Fassung 25.9.2025)"
 generiert: tools/build_index.py
 ---
 # MB AR 02: Merkblatt 02: Kinderabzug (Fassung 25.9.2025)
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/02_Kinderabzug_ab_2020.pdf> · lokal: [ar-mb-02.pdf](../../../raw/ar/dauernd/ar-mb-02.pdf) · Volltext: [ar-mb-02.md](../../../sources/ar/dauernd/ar-mb-02.md)
 - **Abgerufen:** 2026-11-09 · sha256 `8a48257f1e4c51d2…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2026-08-18 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 4 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-02`).
+
+- `data/werte/ar/2026.yaml#44:sozialabzug.kind_vorschule` (strittig)
+- `data/werte/ar/2026.yaml#45:sozialabzug.kind_schule` (strittig)
+- `data/werte/ar/2026.yaml#46:sozialabzug.kind_ausbildung` (strittig)
+- `data/zuordnung/ar/2025.yaml#48:sozialabzug.kinder@23.3` (agent-geprueft)
+- [wiki/ar/ar-ueberblick.md](../ar-ueberblick.md)
+- [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
+- [wiki/themen/kinder-sozialabzuege.md](../../themen/kinder-sozialabzuege.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

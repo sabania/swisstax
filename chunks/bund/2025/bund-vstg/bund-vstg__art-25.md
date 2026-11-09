@@ -2,13 +2,13 @@
 id: bund-vstg__art-25
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 25 VStG"
 artikel: "Art. 25"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · 2. Juristische Personen, Geschäftsbetriebe u. dgl. › b. Verwirkung › Art. 25
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · 2. Juristische Personen, Geschäftsbetriebe u. dgl. › b. Verwirkung › Art. 25
 
 ### Art. 25 VStG
 

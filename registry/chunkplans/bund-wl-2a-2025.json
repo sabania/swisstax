@@ -7,12 +7,12 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "skip": true,
    "titel": "Titel und Deckblatt"
   },
   {
-   "start": 34,
+   "start": 19,
    "titel": "Personalien, Familienverhältnisse, Kinderabzug; Einkommen minderjähriger Kinder",
    "pfad": [
     "Personalien, Berufs- und Familienverhältnisse"
@@ -32,7 +32,7 @@
    "zusammenfassung": "Massgebend sind die Verhältnisse am 31.12.2025; Kinderabzug für minderjährige oder in Ausbildung stehende Kinder, kein Abzug bei bezahlten Unterhaltsbeiträgen (Ziff. 12.2); Erwerbseinkommen des Kindes wird selbständig besteuert."
   },
   {
-   "start": 61,
+   "start": 46,
    "titel": "Erwerbsunfähige Personen (6 800 Fr.) und Ziff. 1 Unselbständige Erwerbstätigkeit",
    "pfad": [
     "Personalien, Berufs- und Familienverhältnisse",
@@ -58,7 +58,7 @@
    "zusammenfassung": "Wer mit mindestens 6 800 Fr. pro Jahr eine erwerbsunfähige Person unterstützt, führt sie auf; Nettolohn gemäss Lohnausweis ist zu übertragen, ebenso Nebeneinkünfte."
   },
   {
-   "start": 86,
+   "start": 71,
    "titel": "Massgebendes Einkommen, Teilperiode; Ziff. 1 Spesen und Naturallohn (645/345/990 Fr.)",
    "pfad": [
     "Allgemeine Erläuterungen",
@@ -80,7 +80,7 @@
    "zusammenfassung": "Bei Teilperiode werden Einkünfte auf 12 Monate umgerechnet für den Satz; Naturallohn: volle Verpflegung 645 Fr./Monat (7 740 Fr./Jahr), Unterkunft 345 Fr. (4 140 Fr.), beides 990 Fr. (11 880 Fr.)."
   },
   {
-   "start": 122,
+   "start": 107,
    "titel": "Ziff. 2 Selbständige Erwerbstätigkeit – Aufbewahrung, Naturalbezüge, Privatanteil",
    "pfad": [
     "Hinweise",
@@ -102,7 +102,7 @@
    "zusammenfassung": "Jahresrechnung beilegen, Belege 10 Jahre aufbewahren; Privatanteil Haushalt 3 540 Fr. pro Jahr für 1 Erwachsenen, Zuschlag 900 Fr. je weiterer Erwachsener, 600 Fr. je Kind."
   },
   {
-   "start": 151,
+   "start": 136,
    "titel": "Ziff. 2 Selbständige – Ermittlung, Vorsorgebeiträge nur Arbeitgeberanteil, Kapitalerträge",
    "pfad": [
     "Hinweise",
@@ -126,7 +126,7 @@
    "zusammenfassung": "Beiträge an 2. Säule/3a dürfen nur im Umfang des Arbeitgeberanteils unter Ziff. 2 abgezogen werden, der Rest in Ziff. 15.3 bzw. 13; Erträge des Geschäftsvermögens im Wertschriftenverzeichnis mit G bezeichnen."
   },
   {
-   "start": 189,
+   "start": 174,
    "titel": "Ziff. 2 Selbständige – nicht abziehbare Kosten, Kapitalgewinne, Landwirtschaft, Verluste",
    "pfad": [
     "Hinweise",
@@ -148,7 +148,7 @@
    "zusammenfassung": "Nicht abziehbar sind u.a. Zinsen auf Eigenkapital, Privatauslagen und Steuern; Kapitalgewinne auf Geschäftsvermögen werden mit dem übrigen Einkommen besteuert (Präponderanzmethode)."
   },
   {
-   "start": 221,
+   "start": 206,
    "titel": "Verluste Selbständige; Ziff. 3 Sozialversicherungen: AHV/IV-Renten, Renten, Erwerbsausfall",
    "pfad": [
     "Hinweise",
@@ -174,7 +174,7 @@
    "zusammenfassung": "Verluste der sieben Vorjahre (2018–2024) abziehbar; AHV/IV-Renten zu 100 % steuerbar; Erwerbsausfallentschädigungen und Familienzulagen nur soweit nicht im Lohnausweis."
   },
   {
-   "start": 261,
+   "start": 246,
    "titel": "Ziff. 3.2 Renten (60 %/80 %/100 %), Säule 3a; Ziff. 4 Wertschriftenertrag",
    "pfad": [
     "Hinweise",
@@ -199,7 +199,7 @@
    "zusammenfassung": "Renten aus beruflicher Vorsorge vor 1987/2002 zu 60 %, 80 % oder 100 % steuerbar; Leistungen aus Säule 3a zu 100 %; Erträge aus Wertschriften sind im Wertschriftenverzeichnis aufzuführen."
   },
   {
-   "start": 292,
+   "start": 277,
    "titel": "Ziff. 4 Qualifizierte Beteiligungen (70 %); Militärversicherung, übrige Renten, Leibrenten",
    "pfad": [
     "Hinweise",
@@ -223,7 +223,7 @@
    "zusammenfassung": "Beteiligungen ab 10 % im Privatvermögen zu 70 % steuerbar (Abzug 30 % via Formular 8, Ziff. 15.8); Veräusserungsgewinne nur bei mindestens zwölf Monaten Haltedauer."
   },
   {
-   "start": 338,
+   "start": 323,
    "titel": "Negativzinsen, Spiel-/Lotteriegewinne (1 070 400 Fr.), steuerfreie Einkünfte",
    "pfad": [
     "Hinweise",
@@ -249,7 +249,7 @@
    "zusammenfassung": "Gewinne aus Online- und Grossspielen sind ab 1 070 400 Fr. steuerbar (Einsatzabzug max. 26 800 Fr. bzw. 5 %, max. 5 400 Fr.); Kleinspiele und Erbschaften steuerfrei; Gratiswettbewerbe ab 1 100 Fr."
   },
   {
-   "start": 373,
+   "start": 358,
    "titel": "Ziff. 5.1/5.2 Unterhaltsbeiträge, 5.5 Kapitalabfindungen; Ziff. 8 Liegenschaften (Einleitung)",
    "pfad": [
     "Hinweise",
@@ -274,7 +274,7 @@
    "zusammenfassung": "Erhaltene Alimente für sich und Kinder sind steuerbar; über die Mündigkeit hinaus entfällt die Steuerpflicht; als Kapitalabfindung erbrachte Unterhaltsbeiträge sind nicht steuerbar."
   },
   {
-   "start": 407,
+   "start": 392,
    "titel": "Ziff. 5.3/5.4 Weitere Einkünfte; Ziff. 8 Mietwert selbstbenutzter Liegenschaften, Unternutzung",
    "pfad": [
     "Hinweise",
@@ -299,7 +299,7 @@
    "zusammenfassung": "Eigenmietwert ist der Betrag, den man für ein gleichartiges Objekt zahlen müsste; Unternutzungsabzug nur bei dauernd nicht benutzten Räumen."
   },
   {
-   "start": 432,
+   "start": 417,
    "titel": "Ziff. 8 Unternutzung (Ausnahmen), Mietzinse, Ferienwohnung (4/5), Energiesparinvestitionen",
    "pfad": [
     "Hinweise",
@@ -324,7 +324,7 @@
    "zusammenfassung": "Kein Unternutzungsabzug für gelegentlich genutzte Räume und Ferienhäuser; bei möblierten Ferienwohnungen 4/5 der Bruttoeinnahmen (2/3 bei Wäsche); Energiespar- und Umweltinvestitionen abziehbar."
   },
   {
-   "start": 464,
+   "start": 449,
    "titel": "Ziff. 8 Andere Erträge, Baurechtszinsen, Rückbau/Energie, nicht abziehbare Kosten",
    "pfad": [
     "Hinweise",
@@ -348,7 +348,7 @@
    "zusammenfassung": "Nicht gedeckte Energie-/Rückbaukosten sind bei negativem Reineinkommen auf zwei Folgeperioden übertragbar; einmalige Anschlussbeiträge und Heizbetriebskosten nicht abziehbar."
   },
   {
-   "start": 504,
+   "start": 489,
    "titel": "Ziff. 8 Abziehbare Kosten: tatsächlich oder Pauschalabzug 10 %/20 %; Wohnrecht",
    "pfad": [
     "Hinweise",
@@ -372,7 +372,7 @@
    "zusammenfassung": "Pauschalabzug 10 % vom Brutto-Mietertrag/-wert bei Gebäude bis 10 Jahre, 20 % bei älteren; Wahl zwischen tatsächlichen Kosten und Pauschale pro Periode und Liegenschaft."
   },
   {
-   "start": 547,
+   "start": 532,
    "titel": "Ausgabenüberschuss Liegenschaften; Ziff. 10 Berufskosten: Schichtarbeit, übrige Berufskosten (3 %)",
    "pfad": [
     "Hinweise",
@@ -396,7 +396,7 @@
    "zusammenfassung": "Schicht-/Nachtarbeit 15 Fr. pro Tag bzw. 3 200 Fr. im Jahr; Pauschale übrige Berufskosten 3 % des Nettolohns, mindestens 2 000 Fr., maximal 4 000 Fr."
   },
   {
-   "start": 591,
+   "start": 576,
    "titel": "Ziff. 10 Fahrkosten (3 200 Fr.), Velo 700 Fr., Wochenaufenthalt",
    "pfad": [
     "Hinweise",
@@ -422,7 +422,7 @@
    "zusammenfassung": "Fahrkosten bis maximal 3 200 Fr. jährlich; Velo/Mofa 700 Fr. pauschal; Privatauto/Motorrad ohne ÖV bis 70 Rp. (Auto) bzw. 40 Rp. (Motorrad weiss) pro km."
   },
   {
-   "start": 630,
+   "start": 615,
    "titel": "Ziff. 10 Auswärtige Verpflegung (15 Fr.), Wochenaufenthalt (6 400 Fr.), Nebenerwerb 20 %",
    "pfad": [
     "Hinweise",
@@ -446,7 +446,7 @@
    "zusammenfassung": "Verpflegung 15 Fr. pro Hauptmahlzeit, 3 200 Fr. pro Jahr (halb bei Kantine); Wochenaufenthalt 6 400 Fr. (4 800 Fr. bei Verbilligung); Nebenerwerb 20 %, mindestens 800 Fr., maximal 2 400 Fr."
   },
   {
-   "start": 658,
+   "start": 643,
    "titel": "Feuerwehrsold (5 300 Fr.); Ziff. 11 Schuldzinsen; Ziff. 13 Säule 3a (7 258 / 36 288 Fr.)",
    "pfad": [
     "Hinweise",
@@ -471,7 +471,7 @@
    "zusammenfassung": "Feuerwehrsold bis 5 300 Fr. steuerfrei; private Schuldzinsen im Umfang des Vermögensertrags plus 50 000 Fr.; Säule 3a: mit 2. Säule 7 258 Fr., ohne 20 % des Erwerbseinkommens, höchstens 36 288 Fr."
   },
   {
-   "start": 691,
+   "start": 676,
    "titel": "Ziff. 12 Unterhaltsbeiträge; Ziff. 14 Versicherungsprämien (3 700/1 800/5 550/2 700 Fr.)",
    "pfad": [
     "Hinweise",
@@ -496,7 +496,7 @@
    "zusammenfassung": "Versicherungsabzug mit Vorsorge: 3 700 Fr. Ehepaare/1 800 Fr. übrige; ohne Vorsorge: 5 550 Fr./2 700 Fr.; plus 700 Fr. je Kind oder unterstützte Person; Alimente an Ex-Partner und für Kinder abziehbar."
   },
   {
-   "start": 728,
+   "start": 713,
    "titel": "Ziff. 12.3 Renten; Ziff. 15 Weitere Abzüge: Weiterbildung 13 000, Parteispenden 10 600, Drittbetreuung 25 800",
    "pfad": [
     "Hinweise",
@@ -524,7 +524,7 @@
    "zusammenfassung": "Weiterbildung bis 13 000 Fr. pro Jahr; Parteien bis 10 600 Fr.; Drittbetreuung nachgewiesen bis höchstens 25 800 Fr. pro Kind (bis 14 Jahre); behinderungsbedingte Kosten selbst getragen."
   },
   {
-   "start": 769,
+   "start": 754,
    "titel": "Drittbetreuung (Fortsetzung), Wertschriftenverwaltung; Ziff. 21.2 Spenden; Ziff. 23 Sozialabzüge (2 800 Fr.)",
    "pfad": [
     "Hinweise",
@@ -551,7 +551,7 @@
    "zusammenfassung": "Spenden ab 100 Fr. bis 20 % des Nettoeinkommens abziehbar; Verheiratetenabzug 2 800 Fr.; nur Depotspesen und Safegebühren als Wertschriftenverwaltung; kein Abzug für Beratung oder Steuerberatung."
   },
   {
-   "start": 802,
+   "start": 787,
    "titel": "Ziff. 16 Zweiverdienerabzug (min. 8 600 / max. 14 100 Fr.); nicht abziehbare Kosten; Ziff. 24 Tarife",
    "pfad": [
     "Hinweise",
@@ -574,7 +574,7 @@
    "zusammenfassung": "Zweiverdienerabzug 50 % des niedrigeren Erwerbseinkommens, mindestens 8 600 Fr., höchstens 14 100 Fr."
   },
   {
-   "start": 832,
+   "start": 817,
    "titel": "Ziff. 16 (Schluss); Tarife Grund-/Verheirateten-/Elterntarif (263 Fr.); Ziff. 27 Eigenkapital",
    "pfad": [
     "Hinweise",
@@ -597,7 +597,7 @@
    "zusammenfassung": "Elterntarif = Verheiratetentarif mit Abzug vom Steuerbetrag von 263 Fr. pro Kind oder unterstützungsbedürftiger Person; Grundtarif für Alleinstehende ohne Kinder."
   },
   {
-   "start": 859,
+   "start": 844,
    "titel": "Ziff. 21.1 Krankheitskosten (5 %); BGSA; Schlussbemerkungen; Kapitalabfindungen (Einleitung)",
    "pfad": [
     "Hinweise",
@@ -621,7 +621,7 @@
    "zusammenfassung": "Krankheits- und Unfallkosten abziehbar, soweit sie 5 % des Nettoeinkommens übersteigen; Steuererklärung ist persönlich zu unterzeichnen, Ehegatten gemeinsam."
   },
   {
-   "start": 888,
+   "start": 873,
    "titel": "Kapitalabfindungen bei Beendigung des Arbeitsverhältnisses (Fünftel-Tarif)",
    "pfad": [
     "Kapitalabfindungen und Kapitalleistungen"
@@ -640,7 +640,7 @@
    "zusammenfassung": "Abfindungen mit Vorsorgecharakter werden gesondert zu einem Fünftel der Tarife 2025 besteuert; ohne Vorsorgecharakter mit dem übrigen Einkommen."
   },
   {
-   "start": 907,
+   "start": 892,
    "titel": "Kapitalleistungen aus Vorsorge; Zahlungen bei Tod und für bleibende Nachteile",
    "pfad": [
     "Kapitalabfindungen und Kapitalleistungen"
@@ -659,7 +659,7 @@
    "zusammenfassung": "Kapitalleistungen aus AHV/IV, 2. Säule und Säule 3a werden getrennt zu einem Fünftel der Tarife 2025 besteuert, ohne Sozialabzüge."
   },
   {
-   "start": 923,
+   "start": 908,
    "titel": "Straffolgen bei Widerhandlungen (Bussen bis 10 000 / 30 000 / 50 000 Fr.)",
    "pfad": [
     "Straffolgen"
@@ -677,7 +677,7 @@
    "zusammenfassung": "Busse bis 10 000 Fr. bei verweigerter Einreichung; Hinterziehung: Nachzahlung plus Busse bis zum Dreifachen; Anstiftung/Gehilfen bis 50 000 Fr.; Urkundenfälschung bis 30 000 Fr."
   },
   {
-   "start": 950,
+   "start": 935,
    "titel": "Tarif DBST 2025 – Tabelle (Teil 1: Kopf und Zeilen bis ca. 55 000 Fr.)",
    "pfad": [
     "Tarife 2025"
@@ -695,7 +695,7 @@
    "zusammenfassung": "Tabelle zur Berechnung der direkten Bundessteuer natürlicher Personen 2025, gilt auch für Kapitalleistungen aus Vorsorge."
   },
   {
-   "start": 1011,
+   "start": 996,
    "titel": "Tarif DBST 2025 – Tabelle (Teil 2: Zeilen ab ca. 42 000 Fr., Höchstsatz 11.5 %)",
    "pfad": [
     "Tarife 2025"
@@ -712,7 +712,7 @@
    "zusammenfassung": "Für höhere steuerbare Einkünfte beträgt die Jahressteuer einheitlich 11.5 %."
   },
   {
-   "start": 1051,
+   "start": 1036,
    "titel": "Tarif DBST 2025 – Fussnoten (Rundung, Abzug 263 Fr. pro Kind)",
    "pfad": [
     "Tarife 2025"
@@ -728,5 +728,7 @@
    ],
    "zusammenfassung": "Restbeträge unter 100 Fr. fallen ausser Betracht; der Steuerbetrag ermässigt sich um 263 Franken pro Kind oder unterstützungsbedürftige Person."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

@@ -2,14 +2,14 @@
 id: bund-ks-25__c0038
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang I Begriffsbestimmungen (Effektenfonds, Immobilienfonds, Transparenzprinzip) (Teil 2/2)"
 ziffer: "Anhang I"
 seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang I Begriffsbestimmungen · S. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 7 Anhänge › Anhang I Begriffsbestimmungen · S. 11
 
 Transparenzprinzip: Vermögenserträge und Kapitalgewinne werden für die Belange der di-
 rekten Steuern nicht auf Stufe der kollektiven Kapitalanlagen besteuert, sondern auf Stufe

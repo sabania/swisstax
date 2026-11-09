@@ -13,6 +13,10 @@ sha256: caadf62b33c111d00cf70a15be8752de757563c38b274a94077a3564e43cd1c0
 abgerufen: '2026-11-09'
 einheiten: 6
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
+ersetzt: bund-vkp-2025
 ---
 # Verordnung über den Ausgleich der kalten Progression (VKP, SR 642.119.2) – Fassung gültig ab 01.01.2026
 

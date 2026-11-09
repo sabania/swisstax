@@ -11,6 +11,10 @@ raw: raw/bund/2027/bund-mm-kalte-progression-2027.html
 sha256: c556a9323d16ca99dca5452e6c59e669eb1a78e7a5f0293efac293feb4bf9034
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
+gilt_ab: '2027-01-01'
+gilt_bis: '2027-12-31'
+ersetzt: bund-mm-2025-09-11-kalte-progression-2026
 ---
 # Medienmitteilung: Ausgleich kalte Progression 2027
 

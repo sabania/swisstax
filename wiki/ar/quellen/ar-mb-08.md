@@ -2,15 +2,24 @@
 typ: quelle
 id: ar-mb-08
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 08: Einkauf in die Pensionskasse"
 generiert: tools/build_index.py
 ---
 # MB AR 08: Merkblatt 08: Einkauf in die Pensionskasse
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/08_Einkauf_in_Pensionskasse__alle_Jahre_.pdf> · lokal: [ar-mb-08.pdf](../../../raw/ar/dauernd/ar-mb-08.pdf) · Volltext: [ar-mb-08.md](../../../sources/ar/dauernd/ar-mb-08.md)
 - **Abgerufen:** 2026-11-09 · sha256 `23f154cbac9035b6…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-08`).
+
+- `data/zuordnung/ar/2025.yaml#30:abzug.vorsorge.saeule2_einkauf@13.2` (strittig)
+- `data/zuordnung/ar/2025.yaml#70:einkommen.kapitalleistung_vorsorge@40-41` (agent-geprueft)
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

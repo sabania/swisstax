@@ -9,7 +9,7 @@ artikel: "§ 213"
 seiten: "76"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 213 StG ZH – 2. Beschwerde an das Verwaltungsgericht · S. 76
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 213 StG ZH – 2. Beschwerde an das Verwaltungsgericht · S. 76
 
 ### § 213 StG ZH – 2. Beschwerde an das Verwaltungsgericht
 

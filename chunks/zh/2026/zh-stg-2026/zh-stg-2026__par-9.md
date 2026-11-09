@@ -9,7 +9,7 @@ artikel: "§ 9"
 seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 9 StG ZH – 2. Erbengemeinschaften · S. 4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 9 StG ZH – 2. Erbengemeinschaften · S. 4
 
 ### § 9 StG ZH – 2. Erbengemeinschaften
 

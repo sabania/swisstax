@@ -8,7 +8,7 @@ titel: "Art. 158 StG SG – Kantonales Steueramt"
 artikel: "Art. 158"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › I. Steuerbehörden › Art. 158 Kantonales Steueramt
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › I. Steuerbehörden › Art. 158 Kantonales Steueramt
 
 ### Art. 158 StG SG – Kantonales Steueramt
 

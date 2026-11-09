@@ -9,7 +9,7 @@ artikel: "§ 95"
 seiten: "46"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 95 StG ZH – II. Künstler, Sportler und Referenten · S. 46
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 95 StG ZH – II. Künstler, Sportler und Referenten · S. 46
 
 ### § 95 StG ZH – II. Künstler, Sportler und Referenten
 

@@ -2,14 +2,14 @@
 id: bund-ks-vst-34__c0004
 quelle: bund-ks-vst-34
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5–6 Anmeldepflicht und Steuererhebung"
 ziffer: "5–6"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 34 · Anmeldepflicht / Steuererhebung · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS VST 34 · Anmeldepflicht / Steuererhebung · S. 2
 
 5. Anmeldepflicht
 Wer auf Grund der vorstehenden Bestimmungen abgabepflichtig wird, hat sich

@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 5 Schuldenverzeichnis – A. Private Schulden (Ziff. 34.1 / 11)",
    "pfad": [
     "Formular 5",
@@ -28,7 +28,7 @@
    "zusammenfassung": "Private Schulden per 31. Dezember 2025 und Schuldzinsen 2025; Total in Steuererklärung Seite 4 Ziffer 34.1 und Seite 3 Ziffer 11."
   },
   {
-   "start": 46,
+   "start": 31,
    "titel": "Formular 5 – B. Geschäftsschulden (Ziff. 34.2)",
    "pfad": [
     "Formular 5",
@@ -47,7 +47,7 @@
    "zusammenfassung": "Geschäftsschulden per 31.12.2025 bzw. Bilanzstichtag; geschäftliche Schuldzinsen sind in der Jahresrechnung enthalten und hier nicht aufzuführen."
   },
   {
-   "start": 70,
+   "start": 55,
    "titel": "Formular 5 Rückseite – A. Freiwillige Zuwendungen (Ziff. 21.3)",
    "pfad": [
     "Formular 5",
@@ -67,7 +67,7 @@
    "zusammenfassung": "Datum, Institution und Betrag der Zuwendungen 2025; Total in Steuererklärung Seite 3 Ziffer 21.3; Belege auf Verlangen."
   },
   {
-   "start": 98,
+   "start": 83,
    "titel": "Formular 5 Rückseite – B. Parteispenden (Ziff. 16.3)",
    "pfad": [
     "Formular 5",
@@ -85,5 +85,7 @@
    ],
    "zusammenfassung": "Datum, Partei und Betrag der Spenden 2025; Total in Steuererklärung Seite 3 Ziffer 16.3."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

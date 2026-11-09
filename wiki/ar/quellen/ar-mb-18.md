@@ -2,15 +2,24 @@
 typ: quelle
 id: ar-mb-18
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 18: Erhebung von Gebühren (ab 1.9.2025)"
 generiert: tools/build_index.py
 ---
 # MB AR 18: Merkblatt 18: Erhebung von Gebühren (ab 1.9.2025)
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/18_Erhebung_von_Gebuehren__ab_2025_.pdf> · lokal: [ar-mb-18.pdf](../../../raw/ar/dauernd/ar-mb-18.pdf) · Volltext: [ar-mb-18.md](../../../sources/ar/dauernd/ar-mb-18.md)
 - **Abgerufen:** 2026-11-09 · sha256 `2130dd72d9954620…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2025-09-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-18`).
+
+- `data/werte/ar/2026.yaml#65:verfahren.fristerstreckung` (agent-geprueft)
+- [wiki/ar/ar-ueberblick.md](../ar-ueberblick.md)
+- [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

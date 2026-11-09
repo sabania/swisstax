@@ -2,14 +2,14 @@
 id: bund-ks-15__c0086
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise (Teil 2/3)"
 ziffer: "Anh. III 5c"
 seiten: "24-25"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 24–25
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 24–25
 
 Aktienindex (bzw. mehrere Aktienindizes), wobei der Indexstand bei Emission als Startniveau
 definiert wird. Der Emittent legt dann für die gesamte Laufzeit i.d.R. jährliche Beobachtungs-

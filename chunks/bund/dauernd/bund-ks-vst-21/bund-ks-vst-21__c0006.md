@@ -2,14 +2,14 @@
 id: bund-ks-vst-21__c0006
 quelle: bund-ks-vst-21
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3 Massnahmen gegen Rückerstattung nicht abgelieferter Verrechnungssteuer"
 ziffer: "3"
 seiten: "3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 21 · 3 Massnahmen · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS VST 21 · 3 Massnahmen · S. 3
 
 3   Massnahmen zur Vermeidung der Rückerstattung nicht abgelieferter Verrech-
     nungssteuer

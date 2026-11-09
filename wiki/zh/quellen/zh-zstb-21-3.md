@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-21-3.html> · lokal: [zh-zstb-21-3.html](../../../raw/zh/dauernd/zh-zstb-21-3.html) · Volltext: [zh-zstb-21-3.md](../../../sources/zh/dauernd/zh-zstb-21-3.md)
 - **Abgerufen:** 2026-11-09 · sha256 `3799a1b29918a064…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis offen · ersetzt `zh-zstb-21-3-bis-2025`
 
 ## Inhalt (1 Chunks)
 

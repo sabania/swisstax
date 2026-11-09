@@ -8,7 +8,7 @@ titel: "Art. 222 StG AR – I. Voraussetzungen"
 artikel: "Art. 222"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 222 I. Voraussetzungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 222 I. Voraussetzungen
 
 ### Art. 222 StG AR – I. Voraussetzungen
 

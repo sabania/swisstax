@@ -2,14 +2,14 @@
 id: bund-ks-28__c0063
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Art. 3 Fall 2 – Überführung Vorjahr ohne Aufschub, Verkauf später"
 ziffer: "Art. 3 Fall 2"
 seiten: "22"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 22
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 22
 
 b)   Die Überführung der Liegenschaft vom Geschäftsvermögen ins Privatvermögen erfolgt
     im Vorjahr (n-1). Die steuerpflichtige Person macht dabei keinen Steueraufschub ge-

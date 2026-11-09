@@ -8,7 +8,7 @@ titel: "Art. 195 StG AR – 3. Kosten und Haftung"
 artikel: "Art. 195"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 195 3. Kosten und Haftung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 195 3. Kosten und Haftung
 
 ### Art. 195 StG AR – 3. Kosten und Haftung
 

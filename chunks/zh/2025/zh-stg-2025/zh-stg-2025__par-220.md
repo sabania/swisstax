@@ -9,7 +9,7 @@ artikel: "§ 220"
 seiten: "78-79"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 220 StG ZH – 2. Erwerbspreis · S. 78–79
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 220 StG ZH – 2. Erwerbspreis · S. 78–79
 
 ### § 220 StG ZH – 2. Erwerbspreis
 

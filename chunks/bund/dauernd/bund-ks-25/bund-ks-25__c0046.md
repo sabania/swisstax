@@ -2,14 +2,14 @@
 id: bund-ks-25__c0046
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Übersicht Formen kollektiver Kapitalanlagen und ihre Besteuerung (Teil 2/2)"
 ziffer: "Anhang III"
 seiten: "15"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang III Übersicht · S. 15
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 7 Anhänge › Anhang III Übersicht · S. 15
 
     8.5% (Art. 68 DBG)
     schen Personen gleich-   schen Personen gleich-   Personen gleichgestellt

@@ -8,7 +8,7 @@ titel: "Art. 18 QStV – Im Ausland wohnhafte Empfängerinnen und Empfänger von
 artikel: "Art. 18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 18 Im Ausland wohnhafte Empfängerinnen und Empfänger von Renten aus Vorsorge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 18 Im Ausland wohnhafte Empfängerinnen und Empfänger von Renten aus Vorsorge
 
 ### Art. 18 QStV – Im Ausland wohnhafte Empfängerinnen und Empfänger von Renten aus Vorsorge
 

@@ -2,14 +2,14 @@
 id: bund-ks-15__c0041
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.7 Negativzinsen auf Bankguthaben – Gewinnungskosten"
 ziffer: "3.7"
 seiten: "12-13"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.7 Negativzinsen · S. 12–13
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · 3 Grundsätze der Besteuerung › 3.7 Negativzinsen · S. 12–13
 
 Negativzinsen auf Guthaben im Privatvermögen (verursacht durch die negative Verzinsung
 von Einlagen bei der Schweizerischen Nationalbank) können jedoch gestützt auf Artikel 32

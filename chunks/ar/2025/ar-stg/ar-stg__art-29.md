@@ -8,7 +8,7 @@ titel: "Art. 29 StG AR – 2. Unselbständige Erwerbstätigkeit"
 artikel: "Art. 29"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 29 2. Unselbständige Erwerbstätigkeit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 29 2. Unselbständige Erwerbstätigkeit
 
 ### Art. 29 StG AR – 2. Unselbständige Erwerbstätigkeit
 

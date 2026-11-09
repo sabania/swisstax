@@ -8,7 +8,7 @@ titel: "Art. 144 StG AR – b) Spezialfälle"
 artikel: "Art. 144"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 144 b) Spezialfälle
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 144 b) Spezialfälle
 
 ### Art. 144 StG AR – b) Spezialfälle
 

@@ -2,15 +2,30 @@
 typ: quelle
 id: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 30: Ehepaar- und Familienbesteuerung"
 generiert: tools/build_index.py
 ---
 # KS 30: ESTV-Kreisschreiben Nr. 30: Ehepaar- und Familienbesteuerung
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2010-12-21
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2010-12-21
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/2YuHXYYJMbn9/dbst-ks-2010-1-030-d-de.pdf> · lokal: [bund-ks-30.pdf](../../../raw/bund/dauernd/bund-ks-30.pdf) · Volltext: [bund-ks-30.md](../../../sources/bund/dauernd/bund-ks-30.md)
 - **Abgerufen:** 2026-11-09 · sha256 `50e37ecde4d8cf45…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2011-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 5 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-30`).
+
+- `data/belege-teil1.yaml#12:krankenkasse-praemien` (agent-geprueft)
+- `data/belege-teil2.yaml#11:unterhaltszahlungen-alimente` (agent-geprueft)
+- `data/belege-teil2.yaml#7:kinderbetreuung-rechnungen` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#48:sozialabzug.kinder@23.3` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#49:sozialabzug.unterstuetzung@23.4` (agent-geprueft)
+- [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
+- [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
+- [wiki/themen/unterhaltsbeitraege.md](../../themen/unterhaltsbeitraege.md)
+- [wiki/themen/versicherungspraemien.md](../../themen/versicherungspraemien.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

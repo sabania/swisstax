@@ -2,14 +2,14 @@
 id: bund-mb-nl1__c0001
 quelle: bund-mb-nl1
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Merkblatt NL 1/2007 Naturalbezüge Land-/Forstwirtschaft – Einleitung und Ziff. 5 Autokosten-Privatanteil"
 ziffer: "5"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB NL1/2007 · Merkblatt NL1 › Einleitung / Ziff. 5 · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB NL1/2007 · Merkblatt NL1 › Einleitung / Ziff. 5 · S. 1
 
 # Merkblatt NL1/2007: Privatanteile Land- und Forstwirtschaft
 

@@ -9,7 +9,7 @@ artikel: "§ 277"
 seiten: "92"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 277 StG ZH – b. Provisorische Rechnung · S. 92
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 277 StG ZH – b. Provisorische Rechnung · S. 92
 
 ### § 277 StG ZH – b. Provisorische Rechnung
 

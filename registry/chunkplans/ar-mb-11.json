@@ -5,12 +5,12 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "skip": true,
    "titel": "Kopf mit Adressblock Kantonale Steuerverwaltung AR"
   },
   {
-   "start": 34,
+   "start": 18,
    "titel": "Ziel und Zweck des Steuererlasses – einmalig, keine Gläubigerbevorzugung",
    "pfad": [
     "Allgemeines"
@@ -29,7 +29,7 @@
    ]
   },
   {
-   "start": 47,
+   "start": 31,
    "titel": "Gegenstand des Erlassgesuchs – nur definitive, rechtskräftige Steuern",
    "pfad": [
     "Allgemeines"
@@ -47,7 +47,7 @@
    ]
   },
   {
-   "start": 53,
+   "start": 37,
    "titel": "Erlassverfahren ersetzt kein Rechtsmittel; Quellensteuer; Frist und Betreibung",
    "pfad": [
     "Allgemeines"
@@ -67,7 +67,7 @@
    ]
   },
   {
-   "start": 64,
+   "start": 48,
    "titel": "Zuständigkeit der Kantonalen Steuerverwaltung und erfasste Steuerarten",
    "pfad": [
     "Zuständigkeit der Kantonalen Steuerverwaltung"
@@ -86,7 +86,7 @@
    ]
   },
   {
-   "start": 77,
+   "start": 61,
    "titel": "Voraussetzungen – Notlage und grosse Härte (Art. 222 StG, Art. 167 ff. DBG)",
    "pfad": [
     "Voraussetzungen des Steuererlasses"
@@ -105,7 +105,7 @@
    ]
   },
   {
-   "start": 88,
+   "start": 72,
    "titel": "Notlage – betreibungsrechtliches Existenzminimum, dauerhafte Notlage",
    "pfad": [
     "Voraussetzungen des Steuererlasses"
@@ -125,7 +125,7 @@
    ]
   },
   {
-   "start": 96,
+   "start": 80,
    "titel": "Beurteilung Notlage; absehbare Tilgung (2–3 bzw. 4–6 Jahre); bereits bezahlte Steuern",
    "pfad": [
     "Voraussetzungen des Steuererlasses"
@@ -144,7 +144,7 @@
    ]
   },
   {
-   "start": 110,
+   "start": 94,
    "titel": "Ablehnungsgründe – fehlende Opfersymmetrie",
    "pfad": [
     "Ablehnungsgründe",
@@ -163,7 +163,7 @@
    ]
   },
   {
-   "start": 123,
+   "start": 107,
    "titel": "Ablehnungsgründe – keine dauerhafte Sanierung, Verletzung Mitwirkungspflichten",
    "pfad": [
     "Ablehnungsgründe"
@@ -181,7 +181,7 @@
    ]
   },
   {
-   "start": 140,
+   "start": 124,
    "titel": "Ablehnungsgründe – keine Rücklagen, freiwilliger Verzicht auf Einkommen/Vermögen",
    "pfad": [
     "Ablehnungsgründe"
@@ -199,7 +199,7 @@
    ]
   },
   {
-   "start": 151,
+   "start": 135,
    "titel": "Erlassverfahren – Einreichung: schriftlich, begründet, mit Fragebogen vor Ablauf der Zahlungsfrist",
    "pfad": [
     "Erlassverfahren",
@@ -219,7 +219,7 @@
    ]
   },
   {
-   "start": 167,
+   "start": 151,
    "titel": "Erlassverfahren – Auskunftspflicht, einzureichende Unterlagen, Nachfrist",
    "pfad": [
     "Erlassverfahren",
@@ -239,7 +239,7 @@
    ]
   },
   {
-   "start": 183,
+   "start": 167,
    "titel": "Entscheid – gesamte wirtschaftliche Verhältnisse, Vermögen, Verkehrswert",
    "pfad": [
     "Erlassverfahren",
@@ -258,7 +258,7 @@
    ]
   },
   {
-   "start": 197,
+   "start": 181,
    "titel": "Entscheid – Grundstückgewinnsteuer (Pfandrecht) und Nachsteuern/Bussen strenger",
    "pfad": [
     "Erlassverfahren",
@@ -278,7 +278,7 @@
    ]
   },
   {
-   "start": 205,
+   "start": 189,
    "titel": "Rechtsmittel – Einsprache innert 30 Tagen",
    "pfad": [
     "Rechtsmittel"
@@ -294,5 +294,7 @@
     "verfahren.einreichung"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

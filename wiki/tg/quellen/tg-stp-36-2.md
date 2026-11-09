@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-36-nr-2-kinder-und-ausbildungsabzuge> · lokal: [tg-stp-36-2.html](../../../raw/tg/dauernd/tg-stp-36-2.html) · Volltext: [tg-stp-36-2.md](../../../sources/tg/dauernd/tg-stp-36-2.md)
 - **Abgerufen:** 2026-11-09 · sha256 `7d511fb976554493…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-36-2`).
+
+- [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
 
 ## Inhalt (7 Chunks)
 

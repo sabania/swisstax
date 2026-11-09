@@ -8,7 +8,7 @@ titel: "Art. 76 StG AR – 8. Gewinne von Vereinen, Stiftungen und kollektiven K
 artikel: "Art. 76"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 76 8. Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 76 8. Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen
 
 ### Art. 76 StG AR – 8. Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen
 

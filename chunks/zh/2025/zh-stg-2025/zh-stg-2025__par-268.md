@@ -9,7 +9,7 @@ artikel: "§ 268"
 seiten: "90"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 268 StG ZH – IV. Übergangsbestimmungen 1. Aufhebung bisherigen Rechts · S. 90
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 268 StG ZH – IV. Übergangsbestimmungen 1. Aufhebung bisherigen Rechts · S. 90
 
 ### § 268 StG ZH – IV. Übergangsbestimmungen 1. Aufhebung bisherigen Rechts
 

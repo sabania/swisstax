@@ -8,7 +8,7 @@ titel: "Art. 59a StV AR – Verfahrensgebühren (Art. 161 ff. StG)"
 artikel: "Art. 59a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 6. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 59a Verfahrensgebühren (Art. 161 ff. StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 6. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 59a Verfahrensgebühren (Art. 161 ff. StG)
 
 ### Art. 59a StV AR – Verfahrensgebühren (Art. 161 ff. StG)
 

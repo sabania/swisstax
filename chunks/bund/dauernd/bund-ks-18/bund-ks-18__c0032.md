@@ -9,7 +9,7 @@ ziffer: "9"
 seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 9. Folgen unzulässiger Einzahlungen · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 9. Folgen unzulässiger Einzahlungen · S. 10
 
 Bei Säule-3a-Versicherungspolicen kann jedoch nur der Sparteil an der Gesamtprämie zu-
 rückerstattet werden. Die Prämie für eine Risikoversicherung kann nicht mehr zurückbezahlt

@@ -8,7 +8,7 @@ titel: "Art. 113 StG SG – Wechsel zwischen Quellensteuerabzug und ordentlicher
 artikel: "Art. 113"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 113 Wechsel zwischen Quellensteuerabzug und ordentlicher Veranlagung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 113 Wechsel zwischen Quellensteuerabzug und ordentlicher Veranlagung
 
 ### Art. 113 StG SG – Wechsel zwischen Quellensteuerabzug und ordentlicher Veranlagung
 

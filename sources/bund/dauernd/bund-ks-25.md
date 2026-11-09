@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2018-02-23'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/SpVjatWbOwlX/dbst-ks-2018-1-025-d-de.pdf
@@ -14,6 +15,8 @@ sha256: d3f4f397692ef85ad25c593ff085e20e81a308de18af05c394be7703a86f9a8b
 abgerufen: '2026-11-09'
 seiten: 19
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2018-02-23'
 ---
 # ESTV-Kreisschreiben Nr. 25: Kollektive Kapitalanlagen
 

@@ -8,7 +8,7 @@ titel: "Art. 192 DBG – Untersuchungsmassnahmen gegen am Verfahren nicht beteil
 artikel: "Art. 192"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 192 Untersuchungsmassnahmen gegen am Verfahren nicht beteiligte Dritte
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 192 Untersuchungsmassnahmen gegen am Verfahren nicht beteiligte Dritte
 
 ### Art. 192 DBG – Untersuchungsmassnahmen gegen am Verfahren nicht beteiligte Dritte
 

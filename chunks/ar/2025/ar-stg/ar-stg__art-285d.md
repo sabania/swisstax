@@ -8,7 +8,7 @@ titel: "Art. 285d StG AR – 12. Anpassung an die Allgemeinen Bestimmungen des S
 artikel: "Art. 285d"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285d 12. Anpassung an die Allgemeinen Bestimmungen des StGB
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285d 12. Anpassung an die Allgemeinen Bestimmungen des StGB
 
 ### Art. 285d StG AR – 12. Anpassung an die Allgemeinen Bestimmungen des StGB
 

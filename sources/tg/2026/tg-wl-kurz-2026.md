@@ -12,6 +12,9 @@ sha256: a30737e2250c89aa0140df0cc97dce2394a167ca0020b68214f5cdcbea01232f
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
 ---
 # Kurzübersicht Wegleitung 2026
 

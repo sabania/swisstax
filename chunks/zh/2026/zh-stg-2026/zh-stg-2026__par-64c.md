@@ -9,7 +9,7 @@ artikel: "§ 64c"
 seiten: "33-34"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 64c StG ZH – d. Aufdeckung stiller Reserven bei Beginn der Steuerpflicht · S. 33–34
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 64c StG ZH – d. Aufdeckung stiller Reserven bei Beginn der Steuerpflicht · S. 33–34
 
 ### § 64c StG ZH – d. Aufdeckung stiller Reserven bei Beginn der Steuerpflicht
 

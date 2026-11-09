@@ -8,7 +8,7 @@ titel: "Art. 20 GSV AR – Eröffnung des Schätzungsergebnisses"
 artikel: "Art. 20"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 20 Eröffnung des Schätzungsergebnisses
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · IV. Verfahren und Datenverwaltung › Art. 20 Eröffnung des Schätzungsergebnisses
 
 ### Art. 20 GSV AR – Eröffnung des Schätzungsergebnisses
 

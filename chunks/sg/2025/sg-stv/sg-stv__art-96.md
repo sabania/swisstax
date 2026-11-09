@@ -8,7 +8,7 @@ titel: "Art. 96 StV SG – Aufhebung bisherigen Rechts"
 artikel: "Art. 96"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 96 Aufhebung bisherigen Rechts
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 96 Aufhebung bisherigen Rechts
 
 ### Art. 96 StV SG – Aufhebung bisherigen Rechts
 

@@ -9,7 +9,7 @@ ziffer: "3.2.9"
 seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 6
 
 3.2.9   Transportkosten
 Transportkosten zur Ärztin oder zum Arzt, zu Therapien etc. stehen mit der Behandlung einer

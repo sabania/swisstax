@@ -2,15 +2,16 @@
 typ: quelle
 id: ar-mb-16
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 16: Ermittlung des Mietwertes bei landwirtschaftlichen Liegenschaften"
 generiert: tools/build_index.py
 ---
 # MB AR 16: Merkblatt 16: Ermittlung des Mietwertes bei landwirtschaftlichen Liegenschaften
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/16_Ermittlung_des_Mietwertes_beilandwirtschaftlichenLiegenschaften.pdf> · lokal: [ar-mb-16.pdf](../../../raw/ar/dauernd/ar-mb-16.pdf) · Volltext: [ar-mb-16.md](../../../sources/ar/dauernd/ar-mb-16.md)
 - **Abgerufen:** 2026-11-09 · sha256 `a05d3d046d928daa…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2020-08-13 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

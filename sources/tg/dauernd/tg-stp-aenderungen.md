@@ -12,6 +12,7 @@ raw: raw/tg/dauernd/tg-stp-aenderungen.html
 sha256: 4ec980dc6f80f625ccfeb642f93b2c219ee07b12802b1be8b409b76dffa51da0
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Änderungen der Steuerpraxis
 

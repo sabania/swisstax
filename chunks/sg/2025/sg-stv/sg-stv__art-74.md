@@ -8,7 +8,7 @@ titel: "Art. 74 StV SG – d) Amtsverkehr"
 artikel: "Art. 74"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 74 d) Amtsverkehr
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 74 d) Amtsverkehr
 
 ### Art. 74 StV SG – d) Amtsverkehr
 

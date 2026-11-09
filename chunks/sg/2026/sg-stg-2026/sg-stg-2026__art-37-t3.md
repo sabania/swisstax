@@ -8,7 +8,7 @@ titel: "Art. 37 StG SG – h) Steuerfreie Einkünfte (Teil 3/3)"
 artikel: "Art. 37"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 37 h) Steuerfreie Einkünfte
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 37 h) Steuerfreie Einkünfte
 
 ### Art. 37 StG SG – h) Steuerfreie Einkünfte (Fortsetzung)
 

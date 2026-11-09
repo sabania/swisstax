@@ -9,7 +9,7 @@ ziffer: "21"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: wegleitung}}
 ---
-> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 21. Zusätzliche Abzüge · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 21. Zusätzliche Abzüge · S. 1
 
 21.   Zusätzliche   21.1   Krankheits- und Unfallkosten, Selbstbehalt vom Nettoeinkommen   2%   29
     Abzüge   Pauschalabzug lebensnotwendige Diät (z.B. Zöliakie, nicht aber Diabetes)   Fr.   2’500

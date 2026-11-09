@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 stand: '2025-07-29'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/bwQT3vUiDRc1/dbst-mb-21edp-2025-de.pdf
@@ -14,6 +15,8 @@ sha256: df3961460e44fb8ac8093cbe67d487252907f35387521c3c3047e80991082720
 abgerufen: '2026-11-09'
 seiten: 6
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2025-07-29'
 ---
 # Merkblatt zur Bescheinigung über Vorsorgebeiträge (Formular 21 EDP)
 

@@ -8,7 +8,7 @@ titel: "Art. 162 StG AR – 2. Beilagen zur Steuererklärung"
 artikel: "Art. 162"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 162 2. Beilagen zur Steuererklärung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 162 2. Beilagen zur Steuererklärung
 
 ### Art. 162 StG AR – 2. Beilagen zur Steuererklärung
 

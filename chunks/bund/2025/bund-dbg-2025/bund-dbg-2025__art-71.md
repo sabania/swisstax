@@ -8,7 +8,7 @@ titel: "Art. 71 DBG"
 artikel: "Art. 71"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Steuerberechnung › 3. Abschnitt: Vereine, Stiftungen und übrige juristische Personen › Art. 71
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Steuerberechnung › 3. Abschnitt: Vereine, Stiftungen und übrige juristische Personen › Art. 71
 
 ### Art. 71 DBG
 

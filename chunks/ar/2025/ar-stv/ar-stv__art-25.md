@@ -8,7 +8,7 @@ titel: "Art. 25 StV AR – Unterhaltskosten bei Liegenschaften des Privatvermög
 artikel: "Art. 25"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 25 Unterhaltskosten bei Liegenschaften des Privatvermögens (Art. 34 Abs. 5 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 25 Unterhaltskosten bei Liegenschaften des Privatvermögens (Art. 34 Abs. 5 StG)
 
 ### Art. 25 StV AR – Unterhaltskosten bei Liegenschaften des Privatvermögens (Art. 34 Abs. 5 StG)
 

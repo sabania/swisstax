@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0077
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang 3 Fallbeispiele 1–2 – Ausschüttungsregel kotierte X AG (Teil 2/2)"
 ziffer: "Anhang 3"
 seiten: "32-33"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 3 Fallbeispiele · S. 32–33
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › Anhang 3 Fallbeispiele · S. 32–33
 
 Steuerfolgen:
 Verletzung der Rückzahlungsregel, jedoch nicht in Bezug auf KER-Rückzahlung an die Y AG

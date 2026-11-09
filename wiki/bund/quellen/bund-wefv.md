@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-wefv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Verordnung über die Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge (WEFV, SR 831.411) – Fassung gültig ab 01.10.2017"
 generiert: tools/build_index.py
 ---
 # WEFV: Verordnung über die Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge (WEFV, SR 831.411) – Fassung gültig ab 01.10.2017
 
-- **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2017-10-01
+- **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2017-10-01
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1994/2379_2379_2379/20171001/de> · lokal: [bund-wefv.xml](../../../raw/bund/2025/bund-wefv.xml) · Volltext: [bund-wefv.md](../../../sources/bund/2025/bund-wefv.md)
 - **Abgerufen:** 2026-11-09 · sha256 `777a5b9267e79612…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2017-10-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-wefv`).
+
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
 
 ## Inhalt (25 Chunks)
 

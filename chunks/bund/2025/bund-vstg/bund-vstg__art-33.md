@@ -2,13 +2,13 @@
 id: bund-vstg__art-33
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 33 VStG"
 artikel: "Art. 33"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · Zweiter Abschnitt: Steuerrückerstattung › B. Rückerstattung der Steuer auf Versicherungsleistungen › Art. 33
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · Zweiter Abschnitt: Steuerrückerstattung › B. Rückerstattung der Steuer auf Versicherungsleistungen › Art. 33
 
 ### Art. 33 VStG
 

@@ -6,7 +6,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Rundschreiben 2-210 – Kopf, Ziff. 1 Berufskostenpauschalen und Naturalbezüge 2025",
    "pfad": [
     "1 Berufskostenpauschalen und Naturalbezüge 2025"
@@ -27,7 +27,7 @@
    "zusammenfassung": "Maximalabzug der Fahrkosten steigt für 2025 von CHF 3'200 auf CHF 3'300; übrige Berufskostenpauschalen und Naturalbezug-Ansätze unverändert."
   },
   {
-   "start": 61,
+   "start": 45,
    "titel": "Ziff. 2 Ausgleich kalte Progression 2025 – Index und Verordnung",
    "pfad": [
     "2 Ausgleich der Folgen der kalten Progression 2025"
@@ -46,7 +46,7 @@
    "zusammenfassung": "Index per 30. Juni 2024: 170.3 Punkte, +1.31 Prozent gegenüber 168.1 (30. Juni 2023); angepasste Tarife und Abzüge gelten ab 1. Januar 2025."
   },
   {
-   "start": 89,
+   "start": 73,
    "titel": "Abzüge und Beträge DBG Steuerjahr 2025 – Tabelle Versicherungsprämien, Sozialabzüge, Zweiverdiener",
    "pfad": [
     "2 Ausgleich der Folgen der kalten Progression 2025",
@@ -74,7 +74,7 @@
    "zusammenfassung": "Steuerjahr 2025: Versicherungsabzug Verheiratete 3'700 (mit Säule 2/3a) bzw. 5'550, übrige 1'800 bzw. 2'700, Kind 700; Kinderabzug und Unterstützungsabzug je 6'800, Verheiratetenabzug 2'800, Zweiverdienerabzug 8'600–14'100, Drittbetreuung max. 25'800, Weiterbildung 13'000, Parteispenden 10'600, Abzug vom Steuerbetrag pro Kind 263."
   },
   {
-   "start": 139,
+   "start": 123,
    "titel": "Tarif 2025 Art. 36 Abs. 1 DBG – Alleinstehende (Grundtarif)",
    "pfad": [
     "Tarif 2025 (Art. 36 DBG)",
@@ -94,7 +94,7 @@
    "zusammenfassung": "Tarif 2025 Alleinstehende: bis 15'200 Franken 0; ab 793'400 Franken 91'241.00 plus 11.50 pro weitere 100 Franken."
   },
   {
-   "start": 169,
+   "start": 153,
    "titel": "Tarif 2025 Art. 36 Abs. 2–3 DBG – Verheiratete, Kinderabzug vom Steuerbetrag",
    "pfad": [
     "Tarif 2025 (Art. 36 DBG)",
@@ -114,5 +114,7 @@
    ],
    "zusammenfassung": "Tarif 2025 Ehepaare: bis 29'700 Franken 0; ab 940'900 Franken 108'203.50 plus 11.50 pro 100 Franken; Steuerbetrag ermässigt sich um 263 Franken pro Kind; Beträge unter 25 Franken werden nicht erhoben."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

@@ -2,14 +2,14 @@
 id: bund-ks-43__c0011
 quelle: bund-ks-43
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang Beispiel 1 – Stipendium CHF 1'500 / 3'000 monatlich (Bedürftigkeit) (Teil 1/2)"
 ziffer: "Beispiel 1"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · Anhang: Beispiele · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 43 · Anhang: Beispiele · S. 5
 
 Anhang: Beispiele
 

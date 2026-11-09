@@ -2,14 +2,14 @@
 id: bund-ks-28__c0031
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang I LGBV Art. 12–13 Fortführung durch Erben; Inkrafttreten"
 ziffer: "Art. 12–13"
 seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang I LGBV · S. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang I LGBV · S. 11
 
 Art. 12   Fortführung der selbstständigen Erwerbstätigkeit durch die Erben,
     Erbinnen, Vermächtnisnehmer oder Vermächtnisnehmerinnen

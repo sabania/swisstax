@@ -8,7 +8,7 @@ titel: "Art. 23 StG AR – 4. Bewegliches Vermögen (Teil 1/3)"
 artikel: "Art. 23"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 23 4. Bewegliches Vermögen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 23 4. Bewegliches Vermögen
 
 ### Art. 23 StG AR – 4. Bewegliches Vermögen
 

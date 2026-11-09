@@ -8,7 +8,7 @@ titel: "Art. 172 DBG – Eintrag im Grundbuch"
 artikel: "Art. 172"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 172 Eintrag im Grundbuch
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 172 Eintrag im Grundbuch
 
 ### Art. 172 DBG – Eintrag im Grundbuch
 

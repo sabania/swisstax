@@ -9,7 +9,7 @@ artikel: "§ 3"
 seiten: "1-2"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 3 StG ZH – I. Persönliche Zugehörigkeit · S. 1–2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 3 StG ZH – I. Persönliche Zugehörigkeit · S. 1–2
 
 ### § 3 StG ZH – I. Persönliche Zugehörigkeit
 

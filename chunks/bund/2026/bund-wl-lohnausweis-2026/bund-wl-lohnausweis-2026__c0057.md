@@ -9,7 +9,7 @@ ziffer: "72"
 seiten: "20-21"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · II Nicht zu deklarierende Leistungen · S. 20–21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · II Nicht zu deklarierende Leistungen · S. 20–21
 
 •   Branchenübliche Rabatte auf Waren, die zum Verzehr und Eigenbedarf bestimmt sind
     (vgl. Rz 62);

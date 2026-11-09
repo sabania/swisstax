@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 7 Liegenschaftenbesitz – Kopf und Spaltenaufbau",
    "pfad": [
     "Formular 7"
@@ -22,7 +22,7 @@
    ]
   },
   {
-   "start": 39,
+   "start": 24,
    "titel": "Formular 7 Liegenschaften 1–3 – Angaben, Eigenmietwert, Erträge, Kosten",
    "pfad": [
     "Formular 7"
@@ -44,7 +44,7 @@
    ]
   },
   {
-   "start": 74,
+   "start": 59,
    "titel": "Formular 7 Seite 1 Totale (Codes 430, 180) und Übertrag",
    "pfad": [
     "Formular 7"
@@ -64,7 +64,7 @@
    "ziffer": "430, 180"
   },
   {
-   "start": 87,
+   "start": 72,
    "titel": "Formular 7 Liegenschaften 4–5 (Seite 2)",
    "pfad": [
     "Formular 7"
@@ -86,7 +86,7 @@
    ]
   },
   {
-   "start": 119,
+   "start": 104,
    "titel": "Formular 7 Liegenschaften 6–7 (Seite 2)",
    "pfad": [
     "Formular 7"
@@ -108,7 +108,7 @@
    ]
   },
   {
-   "start": 142,
+   "start": 127,
    "titel": "Formular 7 Seite 2 Übertrag weiterer Beiblätter und Totale",
    "pfad": [
     "Formular 7"
@@ -125,5 +125,7 @@
     "vermoegen.liegenschaften"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

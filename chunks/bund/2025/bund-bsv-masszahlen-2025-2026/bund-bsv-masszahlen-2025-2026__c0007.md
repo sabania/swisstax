@@ -9,7 +9,7 @@ ziffer: "1–5"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 1–5 · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 1–5 · S. 2
 
   5. Die VE kann anstelle der Rente eine Kapitalabfindung ausrichten, wenn die Alters- oder   37 Abs. 3 BVG
     Invalidenrente bzw. die Witwen-, Witwer- oder Waisenrente weniger als 10 bzw. 6 oder 2   37 Abs. 2 BVG

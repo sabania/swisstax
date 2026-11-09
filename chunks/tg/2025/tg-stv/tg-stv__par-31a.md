@@ -8,7 +8,7 @@ titel: "§ 31a StV TG – Überführung Grundstück ins Geschäftsvermögen"
 artikel: "§ 31a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 31a Überführung Grundstück ins Geschäftsvermögen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 31a Überführung Grundstück ins Geschäftsvermögen
 
 ### § 31a StV TG – Überführung Grundstück ins Geschäftsvermögen
 

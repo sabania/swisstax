@@ -8,7 +8,7 @@ titel: "§ 6 BKV TG – Ausnahmen"
 artikel: "§ 6"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · BKV TG · 2. Allgemeine Bestimmungen › § 6 Ausnahmen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · BKV TG · 2. Allgemeine Bestimmungen › § 6 Ausnahmen
 
 ### § 6 BKV TG – Ausnahmen
 

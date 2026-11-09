@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 6 S. 1 Schritt 1 A – Bezahlte Versicherungsprämien und Sparzinsen (Code 600)",
    "pfad": [
     "Versicherungsprämien und Sparzinsen",
@@ -26,7 +26,7 @@
    "zusammenfassung": "Deklaration der tatsächlichen Prämien (Kranken, Unfall, Leben/Rente), Sparzinsen abzüglich Prämienverbilligungen ergibt Total A (Code 600)."
   },
   {
-   "start": 57,
+   "start": 42,
    "titel": "Formular 6 S. 1 Schritte 2–3 B/C – Maximalabzug und Abzug (Pauschalen 5'400/2'700/1'000)",
    "pfad": [
     "Versicherungsprämien und Sparzinsen",
@@ -47,7 +47,7 @@
    "zusammenfassung": "Höchstens abzugsfähig Fr. 5’400 gemeinsam, Fr. 2’700 alleinstehend, zusätzlich Fr. 1’000 je Kind; der niedrigere Betrag von A und B ist in Seite 3 Ziffer 14 zu übertragen."
   },
   {
-   "start": 79,
+   "start": 64,
    "titel": "Formular 6 S. 2 – Krankheits- und Unfallkosten (Übertrag Ziff. 21.1)",
    "pfad": [
     "Krankheits-, Unfall- und behinderungsbedingte Kosten",
@@ -68,7 +68,7 @@
    "zusammenfassung": "Aufstellung der Arzt-/Zahnarzt-/Spitalrechnungen abzüglich Beiträge Dritter; Total in Seite 3 Ziffer 21.1 (Vorkolonne) zu übertragen."
   },
   {
-   "start": 118,
+   "start": 103,
    "titel": "Formular 6 S. 2 – Behinderungsbedingte Kosten (Übertrag Ziff. 21.2)",
    "pfad": [
     "Krankheits-, Unfall- und behinderungsbedingte Kosten",
@@ -86,5 +86,7 @@
    ],
    "zusammenfassung": "Behinderungsbedingte Kosten werden aufgelistet; Total in Seite 3 Ziffer 21.2 zu übertragen."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

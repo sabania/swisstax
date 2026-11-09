@@ -8,7 +8,7 @@ titel: "Art. 232 StG SG – Steuererhebung"
 artikel: "Art. 232"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Zweiter Abschnitt: Einkommens- und Vermögenssteuern › Art. 232 Steuererhebung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Zweiter Abschnitt: Einkommens- und Vermögenssteuern › Art. 232 Steuererhebung
 
 ### Art. 232 StG SG – Steuererhebung
 

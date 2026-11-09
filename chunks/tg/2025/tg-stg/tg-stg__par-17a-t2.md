@@ -2,13 +2,13 @@
 id: tg-stg__par-17a-t2
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 17a StG TG – Besteuerung nach dem Aufwand (Teil 2/3)"
 artikel: "§ 17a"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.2 Steuern der natürlichen Personen › 1.2.1. Steuerpflicht › § 17a Besteuerung nach dem Aufwand
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.2 Steuern der natürlichen Personen › 1.2.1. Steuerpflicht › § 17a Besteuerung nach dem Aufwand
 
 ### § 17a StG TG – Besteuerung nach dem Aufwand (Fortsetzung)
 

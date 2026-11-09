@@ -9,7 +9,7 @@ artikel: "§ 109c"
 seiten: "51-52"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112] · S. 51–52
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112] · S. 51–52
 
 ### § 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112]
 

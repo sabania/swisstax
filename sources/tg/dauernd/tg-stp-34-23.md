@@ -6,12 +6,15 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-23-freiwillige-zuwendungen
 raw: raw/tg/dauernd/tg-stp-34-23.html
 sha256: 5fc14ff06e80602463835365d1c9979fe70d0d6eb806eae5bd1a3b6ec6844e54
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2025-10-01'
 ---
 # StP 34 Nr. 23: Freiwillige Zuwendungen
 

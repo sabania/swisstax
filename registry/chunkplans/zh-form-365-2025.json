@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Ziff. A.1–6 Bezahlte Versicherungsprämien und Sparzinsen (Codes 601–607)",
    "pfad": [
     "Form. 365",
@@ -26,7 +26,7 @@
    "zusammenfassung": "Erfassung der bezahlten Prämien (Kranken, Unfall, Leben/Rente) und Sparzinsen abzüglich erhaltener Prämienverbilligung (Total A, Code 606)."
   },
   {
-   "start": 48,
+   "start": 33,
    "titel": "Ziff. B.1–3 Maximaler Versicherungsabzug (Codes 611–616)",
    "pfad": [
     "Form. 365",
@@ -47,7 +47,7 @@
    "zusammenfassung": "Verheiratete mit 2./3.-Säule-Beiträgen Staat 5’800 / Bund 3’700, ohne 8’700 / 5’550; übrige 2’900 / 1’800 bzw. 4’350 / 2’700; je Kind 1’300 / 700, unterstützungsbedürftige Person 1’300 bzw. 700."
   },
   {
-   "start": 69,
+   "start": 54,
    "titel": "Ziff. C Abzug (Code 270) – niedrigerer Betrag von A oder B",
    "pfad": [
     "Form. 365",
@@ -64,5 +64,7 @@
    ],
    "zusammenfassung": "Abzug ist der niedrigere Betrag von (A) oder (B), zu übertragen in die Steuererklärung Seite 3, Ziffer 15."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

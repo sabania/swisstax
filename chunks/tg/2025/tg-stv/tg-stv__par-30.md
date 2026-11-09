@@ -8,7 +8,7 @@ titel: "§ 30 StV TG – Berechnung der Eigentumsdauer"
 artikel: "§ 30"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 30 Berechnung der Eigentumsdauer
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 30 Berechnung der Eigentumsdauer
 
 ### § 30 StV TG – Berechnung der Eigentumsdauer
 

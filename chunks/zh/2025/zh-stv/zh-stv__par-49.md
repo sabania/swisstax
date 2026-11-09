@@ -9,7 +9,7 @@ artikel: "§ 49"
 seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Periodische Steuern › § 49 StV ZH – 1. Verfalltag · S. 9
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Periodische Steuern › § 49 StV ZH – 1. Verfalltag · S. 9
 
 ### § 49 StV ZH – 1. Verfalltag
 

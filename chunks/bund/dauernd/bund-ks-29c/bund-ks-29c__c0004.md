@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0004
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.1 Kapitaleinlagen – Grundsätze, KER und Ausland-KER, Währungsumrechnung (Teil 1/2)"
 ziffer: "2.1"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 2 Kapitaleinlagen › 2.1 Grundsätze · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 2 Kapitaleinlagen › 2.1 Grundsätze · S. 5
 
 2.   Kapitaleinlagen
 

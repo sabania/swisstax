@@ -8,7 +8,7 @@ titel: "Art. 37 StV SG – Steuernachfolge (Art. 78 StG)"
 artikel: "Art. 37"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 37 Steuernachfolge (Art. 78 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 37 Steuernachfolge (Art. 78 StG)
 
 ### Art. 37 StV SG – Steuernachfolge (Art. 78 StG)
 

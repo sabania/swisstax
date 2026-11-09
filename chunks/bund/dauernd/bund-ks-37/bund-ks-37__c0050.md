@@ -2,14 +2,14 @@
 id: bund-ks-37__c0050
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.3.3.2 Arbeitgeberwechsel ins Ausland – anteilsmässige Quellenbesteuerung (Teil 2/2)"
 ziffer: "7.3.3.2"
 seiten: "16"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3.3 Export › 7.3.3.2 Ohne Ansässigkeitswechsel · S. 16
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 7 Internationales Verhältnis › 7.3.3 Export › 7.3.3.2 Ohne Ansässigkeitswechsel · S. 16
 
 Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage* Schweiz innerhalb der Vestingperiode
 

@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/03_Merkblatt_steuerliche_Behandlung_des_Liegenschaftsunterhaltes__ab_2024_.pdf
 raw: raw/ar/dauernd/ar-mb-03.pdf
@@ -13,6 +14,8 @@ sha256: 0e07eb68ddc5cb8be425504a91330e07d66867a3fa26b4e96ecc7eaceec45503
 abgerufen: '2026-11-09'
 seiten: 6
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2025-09-30'
 ---
 # Merkblatt 03: Steuerliche Behandlung des Liegenschaftsunterhalts (ab 2024)
 

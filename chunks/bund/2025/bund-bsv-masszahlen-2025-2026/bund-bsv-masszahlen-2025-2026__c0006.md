@@ -9,7 +9,7 @@ ziffer: "1–5"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 1–5 · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 1–5 · S. 2
 
   4. Die Altersrente wird in Prozent (Umwandlungssatz) des Altersguthabens berechnet, das der   14 BVG
     Versicherte bei Erreichen des Rentenalters erworben hat. Minimale bzw. Maximale   62c BVV2 und

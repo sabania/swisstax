@@ -8,7 +8,7 @@ titel: "Art. 9 V DBG AR – Einsprache (Art. 132 DBG)"
 artikel: "Art. 9"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · II. Ordentliches Veranlagungsverfahren › Art. 9 Einsprache (Art. 132 DBG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · II. Ordentliches Veranlagungsverfahren › Art. 9 Einsprache (Art. 132 DBG)
 
 ### Art. 9 V DBG AR – Einsprache (Art. 132 DBG)
 

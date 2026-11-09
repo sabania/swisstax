@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Wegleitung · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Kurzuebersicht_Wegleitung_NP_2025.pdf> · lokal: [sg-wl-kurz-2025.pdf](../../../raw/sg/2025/sg-wl-kurz-2025.pdf) · Volltext: [sg-wl-kurz-2025.md](../../../sources/sg/2025/sg-wl-kurz-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `668a69fcaddcd2a5…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

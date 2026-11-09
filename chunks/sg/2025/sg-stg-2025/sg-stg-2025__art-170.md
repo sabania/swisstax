@@ -8,7 +8,7 @@ titel: "Art. 170 StG SG – c) Weitere Mitwirkungspflichten des Steuerpflichtige
 artikel: "Art. 170"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 170 c) Weitere Mitwirkungspflichten des Steuerpflichtigen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 170 c) Weitere Mitwirkungspflichten des Steuerpflichtigen
 
 ### Art. 170 StG SG – c) Weitere Mitwirkungspflichten des Steuerpflichtigen
 

@@ -2,13 +2,13 @@
 id: bund-vstg__art-28
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 28 VStG"
 artikel: "Art. 28"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · II. Berechtigte › 5. Ausländische Staaten, internationale Organisationen, Diplomaten u. dgl. › Art. 28
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · II. Berechtigte › 5. Ausländische Staaten, internationale Organisationen, Diplomaten u. dgl. › Art. 28
 
 ### Art. 28 VStG
 

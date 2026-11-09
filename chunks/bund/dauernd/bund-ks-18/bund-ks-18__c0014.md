@@ -9,7 +9,7 @@ ziffer: "5.6 a–b"
 seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.6 Sonderfälle · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.6 Sonderfälle · S. 5
 
 b)   Selbständigerwerbender mit der 2. Säule unterliegendem Nebenverdienst
 Ein Selbständigerwerbender, der einer unselbständigen Nebenerwerbstätigkeit nachgeht und

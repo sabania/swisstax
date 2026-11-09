@@ -8,7 +8,7 @@ titel: "Art. 43 StV AR – Interkommunale Steuerausscheidung (Art. 85 und 91, 96
 artikel: "Art. 43"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 43 Interkommunale Steuerausscheidung (Art. 85 und 91, 96 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 43 Interkommunale Steuerausscheidung (Art. 85 und 91, 96 StG)
 
 ### Art. 43 StV AR – Interkommunale Steuerausscheidung (Art. 85 und 91, 96 StG)
 

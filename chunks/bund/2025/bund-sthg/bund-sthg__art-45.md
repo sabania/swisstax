@@ -2,13 +2,13 @@
 id: bund-sthg__art-45
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 45 StHG – Meldepflicht Dritter"
 artikel: "Art. 45"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Fünfter Titel: Verfahrensrecht › 1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren › Art. 45 Meldepflicht Dritter
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Fünfter Titel: Verfahrensrecht › 1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren › Art. 45 Meldepflicht Dritter
 
 ### Art. 45 StHG – Meldepflicht Dritter
 

@@ -9,7 +9,7 @@ ziffer: "10"
 seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstabe G · S. 8–9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstabe G · S. 8–9
 
 Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten   Buchstabe G
 

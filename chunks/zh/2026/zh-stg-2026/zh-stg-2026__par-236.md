@@ -9,7 +9,7 @@ artikel: "§ 236"
 seiten: "82"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 236 StG ZH – 2. Versuchte Steuerhinterziehung · S. 82
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 236 StG ZH – 2. Versuchte Steuerhinterziehung · S. 82
 
 ### § 236 StG ZH – 2. Versuchte Steuerhinterziehung
 

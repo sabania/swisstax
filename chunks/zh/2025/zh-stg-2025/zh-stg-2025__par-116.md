@@ -9,7 +9,7 @@ artikel: "§ 116"
 seiten: "54"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 116 StG ZH – VI. Unabhängigkeit und Aufsicht · S. 54
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 116 StG ZH – VI. Unabhängigkeit und Aufsicht · S. 54
 
 ### § 116 StG ZH – VI. Unabhängigkeit und Aufsicht
 

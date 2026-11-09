@@ -8,7 +8,7 @@ titel: "Art. 16 GSV AR – Aufgaben der Leitung"
 artikel: "Art. 16"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · III. Organisation › Art. 16 Aufgaben der Leitung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · III. Organisation › Art. 16 Aufgaben der Leitung
 
 ### Art. 16 GSV AR – Aufgaben der Leitung
 

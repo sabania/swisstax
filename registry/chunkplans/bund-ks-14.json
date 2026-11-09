@@ -5,12 +5,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt (Kopf, Datum, Titel)"
   },
   {
-   "start": 42,
+   "start": 25,
    "titel": "Ziff. 1–2 Einleitung und Systematik der indirekten Teilliquidation (Art. 20a Abs. 1 Bst. a DBG)",
    "pfad": [
     "1 Einleitung / 2 Systematik"
@@ -31,7 +31,7 @@
    "ziffer": "1-2"
   },
   {
-   "start": 61,
+   "start": 44,
    "titel": "Ziff. 3 Tatbestandselemente – Verkauf, 20 %-Beteiligung, Systemwechsel, 5 Jahre, Ausschüttung, Mitwirkung",
    "pfad": [
     "3 Tatbestandselemente"
@@ -55,7 +55,7 @@
    "ziffer": "3"
   },
   {
-   "start": 99,
+   "start": 82,
    "titel": "Ziff. 4.1–4.2 Verkauf und qualifizierende Beteiligung (mindestens 20 %, gestaffelte Verkäufe)",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -77,7 +77,7 @@
    "ziffer": "4.1-4.2"
   },
   {
-   "start": 119,
+   "start": 102,
    "titel": "Ziff. 4.2 Gemeinsamer Verkauf durch mehrere Personen",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -98,7 +98,7 @@
    "ziffer": "4.2"
   },
   {
-   "start": 136,
+   "start": 119,
    "titel": "Ziff. 4.3–4.4 Systemwechsel und Ausschüttungsfrist von 5 Jahren",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -120,7 +120,7 @@
    "ziffer": "4.3-4.4"
   },
   {
-   "start": 153,
+   "start": 136,
    "titel": "Ziff. 4.5 Ausschüttung – Dividenden, verdeckte Gewinnausschüttung, geldwerte Vorteile",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -144,7 +144,7 @@
    "ziffer": "4.5"
   },
   {
-   "start": 172,
+   "start": 155,
    "titel": "Ziff. 4.6.1 Grundlage: handelsrechtlicher Einzelabschluss der Zielgesellschaft",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -166,7 +166,7 @@
    "ziffer": "4.6.1-4.6.2"
   },
   {
-   "start": 185,
+   "start": 168,
    "titel": "Ziff. 4.6.1 Ordentliche Dividenden sind keine Substanzausschüttung",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -186,7 +186,7 @@
    "ziffer": "4.6.1-4.6.2"
   },
   {
-   "start": 194,
+   "start": 177,
    "titel": "Ziff. 4.6.2 Handelsrechtlich ausschüttungsfähige Reserven",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -206,7 +206,7 @@
    "ziffer": "4.6.1-4.6.2"
   },
   {
-   "start": 203,
+   "start": 186,
    "titel": "Ziff. 4.6.3 Nichtbetriebsnotwendige Substanz – Beurteilung",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -229,7 +229,7 @@
    "ziffer": "4.6.3-4.6.4"
   },
   {
-   "start": 216,
+   "start": 199,
    "titel": "Ziff. 4.6.4 Bewertung der nichtbetriebsnotwendigen Substanz",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -250,7 +250,7 @@
    "ziffer": "4.6.3-4.6.4"
   },
   {
-   "start": 225,
+   "start": 208,
    "titel": "Ziff. 4.7 Mitwirkung – Voraussetzungen (Art. 20a Abs. 2 DBG)",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -272,7 +272,7 @@
    "ziffer": "4.7"
   },
   {
-   "start": 242,
+   "start": 225,
    "titel": "Ziff. 4.7 Mitwirkung – objektive Beurteilung des Zusammenwirkens",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -292,7 +292,7 @@
    "ziffer": "4.7"
   },
   {
-   "start": 247,
+   "start": 230,
    "titel": "Ziff. 4.7 Aktive Mitwirkung (Verkäuferdarlehen, Verrechnung, Sicherheiten)",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -315,7 +315,7 @@
    "ziffer": "4.7"
   },
   {
-   "start": 262,
+   "start": 245,
    "titel": "Ziff. 4.7 Passive Mitwirkung (ungenügende Mittel der Käuferin, Fusion)",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -336,7 +336,7 @@
    "ziffer": "4.7"
   },
   {
-   "start": 280,
+   "start": 263,
    "titel": "Ziff. 4.7 Mitwirkung auch bei finanzstarker Käufergesellschaft",
    "pfad": [
     "4 Abgrenzungsfragen",
@@ -356,7 +356,7 @@
    "ziffer": "4.7"
   },
   {
-   "start": 285,
+   "start": 268,
    "titel": "Ziff. 5.1.1 Umfang des steuerbaren Vermögensertrags (kleinste der vier Grössen)",
    "pfad": [
     "5 Steuerfolgen und Verfahren",
@@ -380,7 +380,7 @@
    "ziffer": "5.1"
   },
   {
-   "start": 303,
+   "start": 286,
    "titel": "Ziff. 5.1.2 Periodengerechte Zuordnung und Nachsteuerverfahren",
    "pfad": [
     "5 Steuerfolgen und Verfahren",
@@ -402,7 +402,7 @@
    "ziffer": "5.1"
   },
   {
-   "start": 312,
+   "start": 295,
    "titel": "Ziff. 5.2 Rechtsverbindliche Auskünfte – Zuständigkeit und Gegenstand",
    "pfad": [
     "5 Steuerfolgen und Verfahren",
@@ -424,7 +424,7 @@
    "ziffer": "5.2"
   },
   {
-   "start": 329,
+   "start": 312,
    "titel": "Ziff. 5.2 Auskunft vor dem Verkauf – Ausschluss einer indirekten Teilliquidation",
    "pfad": [
     "5 Steuerfolgen und Verfahren",
@@ -444,7 +444,7 @@
    "ziffer": "5.2"
   },
   {
-   "start": 340,
+   "start": 323,
    "titel": "Ziff. 6 Geltungsbereich und Inkrafttreten (1. Januar 2007, Rückwirkung ab Steuerjahr 2001)",
    "pfad": [
     "6 Geltungsbereich / Inkrafttreten"
@@ -462,5 +462,7 @@
    "zusammenfassung": "Gilt für Verkäufe durch unbeschränkt steuerpflichtige natürliche Personen aus dem Privatvermögen; in Kraft am 1. Januar 2007, anwendbar auf nicht rechtskräftige Veranlagungen ab Steuerjahr 2001; nicht anwendbar auf die Verrechnungssteuer.",
    "ziffer": "6"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

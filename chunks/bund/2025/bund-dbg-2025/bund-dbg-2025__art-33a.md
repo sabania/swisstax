@@ -8,7 +8,7 @@ titel: "Art. 33a DBG – Freiwillige Leistungen"
 artikel: "Art. 33a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 5. Abschnitt: Allgemeine Abzüge › Art. 33a Freiwillige Leistungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 5. Abschnitt: Allgemeine Abzüge › Art. 33a Freiwillige Leistungen
 
 ### Art. 33a DBG – Freiwillige Leistungen
 

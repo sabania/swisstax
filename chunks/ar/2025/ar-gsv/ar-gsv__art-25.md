@@ -8,7 +8,7 @@ titel: "Art. 25 GSV AR – Rekurs und Beschwerde"
 artikel: "Art. 25"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · VI. Rechtsmittel › Art. 25 Rekurs und Beschwerde
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · VI. Rechtsmittel › Art. 25 Rekurs und Beschwerde
 
 ### Art. 25 GSV AR – Rekurs und Beschwerde
 

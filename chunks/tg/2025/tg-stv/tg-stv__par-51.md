@@ -8,7 +8,7 @@ titel: "§ 51 StV TG – Gesetzliches Pfandrecht"
 artikel: "§ 51"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.4. Steuersicherung › § 51 Gesetzliches Pfandrecht
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.4. Steuersicherung › § 51 Gesetzliches Pfandrecht
 
 ### § 51 StV TG – Gesetzliches Pfandrecht
 

@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Ziff. 1 Allgemeine Angaben Berufskosten 2025",
    "pfad": [
     "Berufskosten",
@@ -24,7 +24,7 @@
    "ziffer": "1"
   },
   {
-   "start": 41,
+   "start": 26,
    "titel": "Ziff. 2 Fahrkosten Wohn-/Arbeitsort (Auto CHF –.70/km, max. CHF 3300.–)",
    "pfad": [
     "Berufskosten",
@@ -45,7 +45,7 @@
    "ziffer": "2"
   },
   {
-   "start": 50,
+   "start": 35,
    "titel": "Ziff. 3 Mehrkosten der Verpflegung (CHF 7.50 / 15.–)",
    "pfad": [
     "Berufskosten",
@@ -65,7 +65,7 @@
    "ziffer": "3"
   },
   {
-   "start": 59,
+   "start": 44,
    "titel": "Ziff. 4–5 Übrige Berufskosten und Wochenaufenthalt",
    "pfad": [
     "Berufskosten",
@@ -85,7 +85,7 @@
    "ziffer": "4–5"
   },
   {
-   "start": 66,
+   "start": 51,
    "titel": "Ziff. 6–8 Nebenerwerb, Feuerwehrsold, Total Berufskosten",
    "pfad": [
     "Berufskosten",
@@ -105,7 +105,7 @@
    "ziffer": "6–8"
   },
   {
-   "start": 72,
+   "start": 57,
    "titel": "Ziff. 9 Begründung Benützung privates Motorfahrzeug",
    "pfad": [
     "Berufskosten",
@@ -124,7 +124,7 @@
    "ziffer": "9"
   },
   {
-   "start": 83,
+   "start": 68,
    "titel": "Schuldenverzeichnis 2025 (Übertrag Seite 4 Ziff. 29 / Seite 3 Ziff. 11)",
    "pfad": [
     "Schuldenverzeichnis"
@@ -143,5 +143,7 @@
    "zusammenfassung": "Schulden per 31. Dezember 2025 und Schuldzinsen; Total in Steuererklärung Seite 4 Ziffer 29 bzw. Seite 3 Ziffer 11.",
    "ziffer": "29 / 11"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

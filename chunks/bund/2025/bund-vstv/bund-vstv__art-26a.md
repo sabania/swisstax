@@ -2,13 +2,13 @@
 id: bund-vstv__art-26a
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 26a VStV"
 artikel: "Art. 26a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · III. Meldung statt Steuerentrichtung › 5. Meldung statt Steuerentrichtung für Di- videnden im Konzernverhältnis › Art. 26a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · III. Meldung statt Steuerentrichtung › 5. Meldung statt Steuerentrichtung für Di- videnden im Konzernverhältnis › Art. 26a
 
 ### Art. 26a VStV
 

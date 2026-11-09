@@ -12,6 +12,7 @@ raw: raw/sg/dauernd/sg-info-steuern-bezahlen.html
 sha256: 68955de22557580d9610a1ccc59684276e2ce6729611206470d036afa2558416
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: verfahren
 ---
 # Steuern bezahlen (Rechnungen, Zinsen)
 

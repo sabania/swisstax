@@ -9,7 +9,7 @@ ziffer: "1"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › 1. Beiträge 2. Säule · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › 1. Beiträge 2. Säule · S. 1
 
 Wir bestätigen, von der genannten versicherten Person erhalten zu haben – Nous confirmons avoir reçu de l‘assuré précité – Attestiamo di aver ricevuto dall‘assicurato indicato:
 1. Beiträge an Einrichtungen der beruflichen Vorsorge (2. Säule) 1   Überall nur ganze Franken angeben

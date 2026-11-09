@@ -8,7 +8,7 @@ titel: "§ 21 StV TG – Kapitalsteuer für Kapitalgesellschaften und Genossensc
 artikel: "§ 21"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 3. Steuern der juristischen Personen › § 21 Kapitalsteuer für Kapitalgesellschaften und Genossenschaften
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 3. Steuern der juristischen Personen › § 21 Kapitalsteuer für Kapitalgesellschaften und Genossenschaften
 
 ### § 21 StV TG – Kapitalsteuer für Kapitalgesellschaften und Genossenschaften
 

@@ -9,7 +9,7 @@ artikel: "§ 1"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › Erster Abschnitt: Besteuerung nach dem Aufwand › § 1 StV ZH · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › Erster Abschnitt: Besteuerung nach dem Aufwand › § 1 StV ZH · S. 1
 
 ### § 1 StV ZH
 

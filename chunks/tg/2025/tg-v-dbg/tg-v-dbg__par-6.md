@@ -8,7 +8,7 @@ titel: "§ 6 V DBG TG – Notariat"
 artikel: "§ 6"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 6 Notariat
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 6 Notariat
 
 ### § 6 V DBG TG – Notariat
 

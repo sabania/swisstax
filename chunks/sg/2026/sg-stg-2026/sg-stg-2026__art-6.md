@@ -8,7 +8,7 @@ titel: "Art. 6 StG SG – Steuerfuss"
 artikel: "Art. 6"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 6 Steuerfuss
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 6 Steuerfuss
 
 ### Art. 6 StG SG – Steuerfuss
 

@@ -11,6 +11,14 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025 · **Stand:** 2025-01-01
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/2024/479/20250101/de> · lokal: [bund-vkp-2025.xml](../../../raw/bund/2025/bund-vkp-2025.xml) · Volltext: [bund-vkp-2025.md](../../../sources/bund/2025/bund-vkp-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `5d00b93bafcac962…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31 · ersetzt durch `bund-vkp-2026`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-vkp-2025`).
+
+- `data/werte/bund/2025.yaml#31:zweiverdiener.min` (agent-geprueft)
+- `data/werte/bund/2025.yaml#32:zweiverdiener.max` (agent-geprueft)
 
 ## Inhalt (15 Chunks)
 

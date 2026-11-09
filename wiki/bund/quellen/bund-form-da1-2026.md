@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Formular · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/7wgt6k2rHn4B/DA-1-2026-de.pdf> · lokal: [bund-form-da1-2026.pdf](../../../raw/bund/2026/bund-form-da1-2026.pdf) · Volltext: [bund-form-da1-2026.md](../../../sources/bund/2026/bund-form-da1-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `90f55d4ef1d303cf…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31 · ersetzt `bund-form-da1-2025`
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

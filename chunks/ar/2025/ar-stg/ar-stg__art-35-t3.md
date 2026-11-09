@@ -8,7 +8,7 @@ titel: "Art. 35 StG AR – 5. Allgemeine Abzüge (Teil 3/5)"
 artikel: "Art. 35"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 35 5. Allgemeine Abzüge
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 35 5. Allgemeine Abzüge
 
 ### Art. 35 StG AR – 5. Allgemeine Abzüge (Fortsetzung)
 

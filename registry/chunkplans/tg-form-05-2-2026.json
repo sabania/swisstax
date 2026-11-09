@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 5.2 Teil A – Versicherungsprämien und Sparzinsen (Code 324, A5)",
    "pfad": [
     "Formular 5.2 Versicherungsprämien",
@@ -27,7 +27,7 @@
    "zusammenfassung": "Erfassung der selbst getragenen Prämien (Kranken netto nach Prämienverbilligung, Unfall, Leben/Rente, Sparzinsen, Krankentaggeld) mit Total Code 324 (A5)."
   },
   {
-   "start": 50,
+   "start": 35,
    "titel": "Formular 5.2 Teil B – Maximaler Abzug Staats-/Bundessteuer (Code 328)",
    "pfad": [
     "Formular 5.2 Versicherungsprämien",
@@ -49,7 +49,7 @@
    "zusammenfassung": "Maximalabzug Staat/Bund: Gemeinsam Besteuerte 7000/3700 (ohne Säule 2/3a 5550), Alleinstehende 3500/1800 (ohne 2700), je Kind/unterstützte Person 1000/700; Total Code 328 (B4)."
   },
   {
-   "start": 67,
+   "start": 52,
    "titel": "Formular 5.2 Teil C – Zulässige Abzüge (Code 330, Übertrag Ziff. 14)",
    "pfad": [
     "Formular 5.2 Versicherungsprämien",
@@ -68,5 +68,7 @@
    ],
    "zusammenfassung": "Zulässig ist der niedrigere Betrag von A5 oder B4 (Staat bzw. Bund), Code 330; Übertrag in Steuererklärung Seite 3, Ziffer 14."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

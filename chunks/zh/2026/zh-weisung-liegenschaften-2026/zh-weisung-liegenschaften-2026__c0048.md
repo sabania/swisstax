@@ -8,7 +8,7 @@ titel: "Landwerte Wohnbauland Einfamilienhäuser (Ziff. 13, 23) – Bezirk Horge
 seiten: "22"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Einfamilienhäuser · S. 22
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Einfamilienhäuser · S. 22
 
 Bezirk Horgen
 Adliswil   5   1750   1610   1480   1340   1210   –   –   –   –

@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Merkblatt 02 Kinderabzug – Ziff. 1 Grundvoraussetzungen",
    "pfad": [
     "1. Grundvoraussetzungen"
@@ -25,7 +25,7 @@
    "zusammenfassung": "Kumulativ: Kindesverhältnis und Unterhaltspflicht, minderjährig oder Erstausbildung (max. 26. Altersjahr), hauptsächlicher Unterhalt, kein Abzug für Unterhaltsbeiträge."
   },
   {
-   "start": 49,
+   "start": 33,
    "titel": "Ziff. 2 Höhe des Kinderabzugs (Fr. 5'000 / 7'000 / 11'000)",
    "pfad": [
     "2. Höhe des Kinderabzuges"
@@ -44,7 +44,7 @@
    "zusammenfassung": "Fr. 5'000 bis 4. Altersjahr, Fr. 7'000 bis 15. Altersjahr, Fr. 11'000 danach bis Volljährigkeit und für volljährige Kinder in Ausbildung bis 26."
   },
   {
-   "start": 61,
+   "start": 45,
    "titel": "Ziff. 3 Häufige Fragen – volljährige Kinder, Stichtagsprinzip",
    "pfad": [
     "3. Häufige Fragen"
@@ -63,7 +63,7 @@
    "zusammenfassung": "Kinderabzug entfällt bei Einkünften des Kindes über Fr. 18'000 (davon Fr. 6'000 frei verfügbar) oder Reinvermögen über Fr. 250'000; Stichtagsprinzip am Periodenende."
   },
   {
-   "start": 84,
+   "start": 68,
    "titel": "Ausbildungskosten Kinder – im Kinderabzug abgegolten",
    "pfad": [
     "3. Häufige Fragen",
@@ -81,5 +81,7 @@
    ],
    "zusammenfassung": "Lebenshaltungs- und Ausbildungskosten sind pauschal und abschliessend im Kinderabzug berücksichtigt; Schulgelder nicht abziehbar."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

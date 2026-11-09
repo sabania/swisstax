@@ -46,7 +46,8 @@ def main():
                     "id": fm.get("id"), "quelle_id": e["id"], "jurisdiktion": e["jurisdiktion"], "jahre": e.get("jahre"),
                     "typ": e["typ"], "dokument": e["titel"], "kurz": e.get("kurz"), "titel": fm.get("titel"),
                     "pfad": m.get("pfad"), "artikel": m.get("artikel"), "ziffer": m.get("ziffer"), "seiten": seiten,
-                    "stand": e.get("stand"), "gilt_ab": e.get("gilt_ab"),
+                    "stand": e.get("stand"), "gilt_ab": e.get("gilt_ab"), "gilt_bis": e.get("gilt_bis"),
+                    "zeitbezug": e.get("zeitbezug"), "quelle_sha256": (e.get("sha256") or "")[:16],
                     "quelle_url": e["url"] + (f"#page={seiten[0]}" if seiten and e.get("format") == "pdf" and not e.get("zip_member") else ""),
                     "datei": str(f.relative_to(ROOT)), "quelle_md": str(source_path(e).relative_to(ROOT)),
                     "raw": str(raw_path(e).relative_to(ROOT)), "stichworte": m.get("stichworte"),
@@ -92,6 +93,10 @@ def main():
                 L.append(f"| {TYP_LABEL.get(e['typ'], e['typ'])} | {e.get('kurz') or ''} | [{titel}]({e['url']}){hint} | {jahre} | {vt} | {ck} | {rw} |")
             L.append("")
         (base / f"{jur}-quellen.md").write_text("\n".join(L), encoding="utf-8")
+    # Abhängigkeiten (Quelle → Chunk → Daten-Eintrag → Seite), siehe tools/impact.py
+    import impact
+    G = impact.build()
+    impact.write_report(G)
     # Quellenseiten (LLM-Wiki «source summary»): Inhaltsverzeichnis je Quelle aus den Chunk-Metadaten
     nq = 0
     for e in reg:
@@ -111,8 +116,24 @@ def main():
              f"**gilt für Steuerjahre:** {', '.join(map(str, e.get('jahre') or [])) or '–'}" + (f" · **Stand:** {e['stand']}" if e.get("stand") else ""),
              f"- **Original:** <{e['url']}> · lokal: [{raw_path(e).name}]({rel(raw_path(e), qd)}) · Volltext: [{source_path(e).name}]({rel(source_path(e), qd)})",
              f"- **Abgerufen:** {e.get('abgerufen', '–')} · sha256 `{(e.get('sha256') or '')[:16]}…`"]
+        zb = {"steuerperiode": "materiell für die genannten Steuerjahre", "verfahren": "Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)",
+              "stichtag": "Werte per Stichtag", "dauernd": "Praxis bis zum Ersatz", "info": "Information"}.get(e.get("zeitbezug") or "", "")
+        L.append(f"- **Gültigkeit:** Zeitbezug {e.get('zeitbezug') or '–'}" + (f" ({zb})" if zb else "") +
+                 f" · gilt ab {e.get('gilt_ab') or '?'} bis {e.get('gilt_bis') or 'offen'}" +
+                 (f" · ersetzt `{e['ersetzt']}`" if e.get("ersetzt") else "") + (f" · ersetzt durch `{e['ersetzt_durch']}`" if e.get("ersetzt_durch") else ""))
         if e.get("hinweis"):
             L.append(f"- ⚠ **Hinweis:** {e['hinweis']}")
+        gq = G["quellen"].get(e["id"]) or {}
+        if gq.get("eintraege") or gq.get("seiten_hand"):
+            L += ["", "## Verwendet in (Änderungsauswirkung)", "",
+                  f"Zitiert in {len(gq['eintraege'])} Daten-Einträgen und {len(gq['seiten_hand'])} handgeschriebenen Seiten "
+                  f"(`python3 tools/impact.py --quelle {e['id']}`).", ""]
+            for r in gq["eintraege"][:40]:
+                L.append(f"- `{r}` ({G['eintraege'][r]['status']})")
+            if len(gq["eintraege"]) > 40:
+                L.append(f"- … {len(gq['eintraege']) - 40} weitere")
+            for sp in gq["seiten_hand"]:
+                L.append(f"- [{sp}]({rel(ROOT / sp, qd)})")
         if hinweise:
             L += ["", "## Hinweise zur Quelle (aus dem Chunking)", ""] + [f"- {h}" for h in hinweise]
         L += ["", f"## Inhalt ({len(metas)} Chunks)", "", "| Chunk | Titel | Seiten/Artikel | Kurzfassung |", "|---|---|---|---|"]

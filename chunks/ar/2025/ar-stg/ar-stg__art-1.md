@@ -8,7 +8,7 @@ titel: "Art. 1 StG AR – Steuerarten"
 artikel: "Art. 1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 1. Allgemeine Bestimmungen › Art. 1 Steuerarten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 1. Allgemeine Bestimmungen › Art. 1 Steuerarten
 
 ### Art. 1 StG AR – Steuerarten
 

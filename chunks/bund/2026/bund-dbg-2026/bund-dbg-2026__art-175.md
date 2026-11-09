@@ -8,7 +8,7 @@ titel: "Art. 175 DBG – Vollendete Steuerhinterziehung"
 artikel: "Art. 175"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 175 Vollendete Steuerhinterziehung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 175 Vollendete Steuerhinterziehung
 
 ### Art. 175 DBG – Vollendete Steuerhinterziehung
 

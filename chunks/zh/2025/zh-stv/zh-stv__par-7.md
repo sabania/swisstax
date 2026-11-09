@@ -9,7 +9,7 @@ artikel: "§ 7"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Beweismittel › § 7 StV ZH – 2. Beizug von Sachverständigen · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Beweismittel › § 7 StV ZH – 2. Beizug von Sachverständigen · S. 2
 
 ### § 7 StV ZH – 2. Beizug von Sachverständigen
 

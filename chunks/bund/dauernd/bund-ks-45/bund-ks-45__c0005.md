@@ -2,14 +2,14 @@
 id: bund-ks-45__c0005
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.1 Arbeitnehmer – Abgrenzungskriterien selbstständig/unselbstständig (Teil 1/2)"
 ziffer: "2.1"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 2 Begriffe › 2.1 Arbeitnehmer · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 2 Begriffe › 2.1 Arbeitnehmer · S. 5
 
 Für die Prüfung, ob eine unselbstständige Erwerbstätigkeit vorliegt, sind die allgemeinen Ab-
 grenzungskriterien zu prüfen, namentlich:

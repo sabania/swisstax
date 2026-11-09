@@ -9,7 +9,7 @@ ziffer: "7 / 38"
 seiten: "13-14"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 7 Andere Leistungen · S. 13–14
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 7 Andere Leistungen · S. 13–14
 
 •   Alle vom Arbeitgeber für seinen Arbeitnehmer erbrachten Beiträge an anerkannte   38
     Formen der gebundenen Selbstvorsorge (Säule 3a). Dies gilt unabhängig davon,

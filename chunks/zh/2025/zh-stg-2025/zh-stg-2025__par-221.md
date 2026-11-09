@@ -9,7 +9,7 @@ artikel: "§ 221"
 seiten: "79"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 221 StG ZH – 3. Aufwendungen · S. 79
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 221 StG ZH – 3. Aufwendungen · S. 79
 
 ### § 221 StG ZH – 3. Aufwendungen
 

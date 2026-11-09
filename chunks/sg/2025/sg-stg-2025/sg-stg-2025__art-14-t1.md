@@ -8,7 +8,7 @@ titel: "Art. 14 StG SG – Wirtschaftliche Zugehörigkeit (Teil 1/2)"
 artikel: "Art. 14"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 14 Wirtschaftliche Zugehörigkeit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 14 Wirtschaftliche Zugehörigkeit
 
 ### Art. 14 StG SG – Wirtschaftliche Zugehörigkeit
 

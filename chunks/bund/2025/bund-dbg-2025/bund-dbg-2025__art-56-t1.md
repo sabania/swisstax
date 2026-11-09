@@ -8,7 +8,7 @@ titel: "Art. 56 DBG (Teil 1/3)"
 artikel: "Art. 56"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 5. Kapitel: Ausnahmen von der Steuerpflicht › Art. 56
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 5. Kapitel: Ausnahmen von der Steuerpflicht › Art. 56
 
 ### Art. 56 DBG
 

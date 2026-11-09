@@ -2,14 +2,14 @@
 id: bund-mb-n1__c0006
 quelle: bund-mb-n1
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 1c Milchhandlungen, Ziff. 4 Privatanteil an Löhnen, Abzug bei mehr als 3 Kindern (Teil 2/2)"
 ziffer: "1c, 4"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB N1/2007 · Warenbezüge › Privatanteil Löhne · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB N1/2007 · Warenbezüge › Privatanteil Löhne · S. 1
 
 gungsmittel geführt, so sind die Ansätze für Lebensmittelgeschäfte   * Massgebend ist das Alter der Kinder zu Beginn jedes Geschäftsjahres.
 (Buchstabe b hiervor) anzuwenden.   Bei Familien mit mehr als 3 Kindern sind vom Totalwert der

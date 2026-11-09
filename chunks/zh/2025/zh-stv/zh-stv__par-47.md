@@ -9,7 +9,7 @@ artikel: "§ 47"
 seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Allgemeine Bestimmungen › § 47 StV ZH – 2. Bezugsregister · S. 9
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Allgemeine Bestimmungen › § 47 StV ZH – 2. Bezugsregister · S. 9
 
 ### § 47 StV ZH – 2. Bezugsregister
 

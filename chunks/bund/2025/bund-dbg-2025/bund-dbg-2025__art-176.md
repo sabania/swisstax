@@ -8,7 +8,7 @@ titel: "Art. 176 DBG – Versuchte Steuerhinterziehung"
 artikel: "Art. 176"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 176 Versuchte Steuerhinterziehung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 176 Versuchte Steuerhinterziehung
 
 ### Art. 176 DBG – Versuchte Steuerhinterziehung
 

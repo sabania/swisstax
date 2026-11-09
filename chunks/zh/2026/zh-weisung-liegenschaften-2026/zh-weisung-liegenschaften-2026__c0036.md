@@ -9,7 +9,7 @@ ziffer: "85–86"
 seiten: "16-17"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · D. Individuelle Schätzung › II. Eigenmietwert · S. 16–17
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · D. Individuelle Schätzung › II. Eigenmietwert · S. 16–17
 
 85   Ist aufgrund vorstehender Grundlagen keine gesicherte Individual-
     schätzung möglich, ist der Marktmietwert vom kantonalen Steueramt

@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 25: Kollektive Kapitalanlagen"
 generiert: tools/build_index.py
 ---
 # KS 25: ESTV-Kreisschreiben Nr. 25: Kollektive Kapitalanlagen
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2018-02-23
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2018-02-23
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/SpVjatWbOwlX/dbst-ks-2018-1-025-d-de.pdf> · lokal: [bund-ks-25.pdf](../../../raw/bund/dauernd/bund-ks-25.pdf) · Volltext: [bund-ks-25.md](../../../sources/bund/dauernd/bund-ks-25.md)
 - **Abgerufen:** 2026-11-09 · sha256 `d3f4f397692ef85a…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2018-02-23 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

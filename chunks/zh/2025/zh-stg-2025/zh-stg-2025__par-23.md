@@ -9,7 +9,7 @@ artikel: "§ 23"
 seiten: "13"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 23 StG ZH – 7. Übrige Einkünfte · S. 13
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 23 StG ZH – 7. Übrige Einkünfte · S. 13
 
 ### § 23 StG ZH – 7. Übrige Einkünfte
 

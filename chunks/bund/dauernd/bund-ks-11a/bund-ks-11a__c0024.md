@@ -9,7 +9,7 @@ ziffer: "4.3.2–4.3.3"
 seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8
 
 4.3.2   Kosten für Kinderbetreuung
 Kosten der aufgrund einer Behinderung notwendigen Hilfe bei der Kinderbetreuung eigener Kin

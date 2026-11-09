@@ -8,7 +8,7 @@ titel: "Art. 219 StG SG – b) An geschiedene oder getrennt lebende Ehegatten"
 artikel: "Art. 219"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 219 b) An geschiedene oder getrennt lebende Ehegatten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 219 b) An geschiedene oder getrennt lebende Ehegatten
 
 ### Art. 219 StG SG – b) An geschiedene oder getrennt lebende Ehegatten
 

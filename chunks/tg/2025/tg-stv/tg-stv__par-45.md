@@ -8,7 +8,7 @@ titel: "§ 45 StV TG – Nachsteuern"
 artikel: "§ 45"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.1. Fälligkeit › § 45 Nachsteuern
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.1. Fälligkeit › § 45 Nachsteuern
 
 ### § 45 StV TG – Nachsteuern
 

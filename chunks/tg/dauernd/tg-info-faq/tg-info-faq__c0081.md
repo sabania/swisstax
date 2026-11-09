@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerbezug"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
 
     Mit der Schlussrechnung werden Ausgleichszinsen zu Gunsten und zu Lasten der Steuerpflichtigen berechnet. Bisher erfolgte Ratenzahlungen aufgrund der provisorischen Steuerrechnung werden an die veranlagte Steuer angerechnet. Zuviel bezahlte Beträge werden zurückerstattet und Fehlbeträge in Rechnung gestellt. Für die Schlussrechnung gilt eine Zahlungsfrist von 30 Tagen. Wird die Schlussrechnung nach dieser Frist bezahlt, werden Verzugszinsen berechnet.
 

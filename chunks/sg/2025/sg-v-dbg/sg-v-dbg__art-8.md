@@ -8,7 +8,7 @@ titel: "Art. 8 V DBG SG – Quellensteuern"
 artikel: "Art. 8"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 8 Quellensteuern
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 8 Quellensteuern
 
 ### Art. 8 V DBG SG – Quellensteuern
 

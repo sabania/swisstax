@@ -2,14 +2,14 @@
 id: bund-ks-44__c0014
 quelle: bund-ks-44
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.3.2 Siebenfacher Mietzins oder Mietwert (Bst. b)"
 ziffer: "3.3.2"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.3 Mindestwerte › 3.3.2 Art. 14 Abs. 3 Bst. b DBG · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 44 · 3 Objektive Voraussetzungen › 3.3 Mindestwerte › 3.3.2 Art. 14 Abs. 3 Bst. b DBG · S. 5
 
 3.3.2   Artikel 14 Absatz 3 Buchstabe b DBG
 Die Summe dieser tatsächlichen jährlichen Aufwendungen beträgt für steuerpflichtige Personen

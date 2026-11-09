@@ -8,7 +8,7 @@ titel: "Art. 154 DBG"
 artikel: "Art. 154"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Siebenter Titel: Inventar › 1. Kapitel: Inventarpflicht › Art. 154
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Siebenter Titel: Inventar › 1. Kapitel: Inventarpflicht › Art. 154
 
 ### Art. 154 DBG
 

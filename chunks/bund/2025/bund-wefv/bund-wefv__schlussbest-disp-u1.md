@@ -2,13 +2,13 @@
 id: bund-wefv__schlussbest-disp-u1
 quelle: bund-wefv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Schlussbestimmung der Änderung vom 27. Oktober 2004 WEFV"
 artikel: "Schlussbestimmung der Änderung vom 27. Oktober 2004"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · WEFV · Schlussbestimmung der Änderung vom 27. Oktober 2004
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · WEFV · Schlussbestimmung der Änderung vom 27. Oktober 2004
 
 ### Schlussbestimmung der Änderung vom 27. Oktober 2004 WEFV
 

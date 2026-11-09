@@ -8,7 +8,7 @@ titel: "Art. 25 StG SG – Haftung (Teil 2/2)"
 artikel: "Art. 25"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 25 Haftung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 25 Haftung
 
 ### Art. 25 StG SG – Haftung (Fortsetzung)
 

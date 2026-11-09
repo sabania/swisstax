@@ -9,7 +9,7 @@ ziffer: "4.1"
 seiten: "6-7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.1 Behinderte Person · S. 6–7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.1 Behinderte Person · S. 6–7
 
 a) Bezüger von Leistungen gemäss dem Bundesgesetz über die Invalidenversicherung (IVG)
    vom 19. Juni 19594;

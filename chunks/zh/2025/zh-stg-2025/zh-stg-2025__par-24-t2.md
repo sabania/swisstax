@@ -9,7 +9,7 @@ artikel: "§ 24"
 seiten: "13-14"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 24 StG ZH – II. Steuerfreie Einkünfte · S. 13–14
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 24 StG ZH – II. Steuerfreie Einkünfte · S. 13–14
 
 ### § 24 StG ZH – II. Steuerfreie Einkünfte (Fortsetzung)
 

@@ -8,7 +8,7 @@ titel: "Art. 130 StG SG – Gegenstand"
 artikel: "Art. 130"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 130 Gegenstand
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 130 Gegenstand
 
 ### Art. 130 StG SG – Gegenstand
 

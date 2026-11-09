@@ -8,7 +8,7 @@ titel: "Art. 89 StG SG – Steuerberechnung a) Steuersatz"
 artikel: "Art. 89"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 89 Steuerberechnung a) Steuersatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 89 Steuerberechnung a) Steuersatz
 
 ### Art. 89 StG SG – Steuerberechnung a) Steuersatz
 

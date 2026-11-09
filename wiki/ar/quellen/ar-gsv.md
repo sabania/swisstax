@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2023-01-01
 - **Original:** <https://ar.clex.ch/app/de/texts_of_law/621.21/versions/1447> · lokal: [ar-gsv.json](../../../raw/ar/2025/ar-gsv.json) · Volltext: [ar-gsv.md](../../../sources/ar/2025/ar-gsv.md)
 - **Abgerufen:** 2026-11-09 · sha256 `1f4be6724bd68fbc…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2023-01-01 bis offen
 
 ## Inhalt (30 Chunks)
 

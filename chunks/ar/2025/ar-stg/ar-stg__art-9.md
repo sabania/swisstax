@@ -8,7 +8,7 @@ titel: "Art. 9 StG AR – VI. Beginn und Ende der Steuerpflicht"
 artikel: "Art. 9"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 9 VI. Beginn und Ende der Steuerpflicht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 9 VI. Beginn und Ende der Steuerpflicht
 
 ### Art. 9 StG AR – VI. Beginn und Ende der Steuerpflicht
 

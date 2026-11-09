@@ -8,7 +8,7 @@ titel: "Art. 91 DBG – Der Quellensteuer unterworfene Arbeitnehmer (Teil 1/2)"
 artikel: "Art. 91"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 91 Der Quellensteuer unterworfene Arbeitnehmer
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 91 Der Quellensteuer unterworfene Arbeitnehmer
 
 ### Art. 91 DBG – Der Quellensteuer unterworfene Arbeitnehmer
 

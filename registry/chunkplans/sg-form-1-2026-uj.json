@@ -6,7 +6,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Kopf Formular 1 SG 2026 – Dauer, Kontakt, Rückfragen",
    "pfad": [
     "Seite 1",
@@ -25,7 +25,7 @@
    "zusammenfassung": "Formular 1 für natürliche Personen (Kantons-, Gemeinde- und direkte Bundessteuer 2026) mit Dauer bei nicht ganzjähriger Steuerpflicht und Vertretungshinweis."
   },
   {
-   "start": 43,
+   "start": 28,
    "titel": "Personalien, Berufs- und Familienverhältnisse, Kinder, Rückzahlungskonto",
    "pfad": [
     "Seite 1",
@@ -47,7 +47,7 @@
    "zusammenfassung": "Personalien Person 1/2 per 31.12.2026 bzw. Ende der Steuerpflicht, Erwerbsart, Kinder und Konto für Steuerrückzahlungen."
   },
   {
-   "start": 83,
+   "start": 68,
    "titel": "Ziff. 1–2 Einkünfte aus Erwerbstätigkeit: unselbständig, VR-Honorare, selbständig (Codes 100–122)",
    "pfad": [
     "Einkünfte",
@@ -72,7 +72,7 @@
    "zusammenfassung": "Ziff. 1.1 Haupterwerb (100/102), 1.2 Nebenerwerb (104/106), 1.3 Sitzungsgelder/VR-Honorare (108/110), 2.1 selbständig (112/114), 2.2 Gesellschaften (120/122)."
   },
   {
-   "start": 120,
+   "start": 105,
    "titel": "Ziff. 3 Einkünfte aus Sozial- und anderen Versicherungen (Codes 126–142)",
    "pfad": [
     "Einkünfte",
@@ -97,7 +97,7 @@
    "zusammenfassung": "Ziff. 3.1 AHV/IV-Renten zu 100% (126/128), 3.2 Renten/Pensionen mit steuerbarem Prozentsatz (130/132), 3.3 Erwerbsausfall (134/136), 3.4 ALV-Taggelder (138/140), 3.5 Familienzulagen (142)."
   },
   {
-   "start": 139,
+   "start": 124,
    "titel": "Ziff. 4–7 Bewegliches Vermögen, Liegenschaften, weitere Einkünfte, Total (Codes 146–168)",
    "pfad": [
     "Einkünfte",
@@ -128,7 +128,7 @@
    "zusammenfassung": "Ziff. 4.1 Wertschriften (146), 4.2/4.3 Beteiligungen ab 10 Prozent (147/149), 4.4 Teilbesteuerungsabzug 30 Prozent (150), 5 Liegenschaften (712), 6 weitere Einkünfte (154–164), 7 Total (168)."
   },
   {
-   "start": 165,
+   "start": 150,
    "titel": "Ziff. 8 Ergänzende Angaben: vereinfachte Abrechnung, Ergänzungsleistungen, Hilflosenentschädigung",
    "pfad": [
     "Einkünfte",
@@ -148,7 +148,7 @@
    "zusammenfassung": "Ziff. 8 nicht im Total der Einkünfte: 8.1 vereinfacht abgerechnete Einkünfte (290), 8.2 Ergänzungs-/Überbrückungsleistungen (291), 8.3 Hilflosenentschädigungen (292)."
   },
   {
-   "start": 172,
+   "start": 157,
    "titel": "Ziff. 10–13 Abzüge: Berufskosten, Schuldzinsen, Unterhalt, Vorsorgebeiträge (Codes 200–500)",
    "pfad": [
     "Abzüge",
@@ -175,7 +175,7 @@
    "zusammenfassung": "Ziff. 10 Berufskosten (438/488), 11 Schuldzinsen (500), 12 Unterhaltsbeiträge/Renten (200/202/204), 13 Säule 3a ordentlich (208/210) und Einkauf (212/214), Säule 2 inkl. Einkauf (218/219)."
   },
   {
-   "start": 205,
+   "start": 190,
    "titel": "Ziff. 14–18 Versicherungsprämien, Liegenschaftsunterhalt, weitere Abzüge, Zweiverdienerabzug",
    "pfad": [
     "Abzüge",
@@ -206,7 +206,7 @@
    "zusammenfassung": "Ziff. 14 Versicherungen/Sparzinsen (600), 15 Liegenschaftskosten (716), 16.1 Verwaltungskosten (220), 16.2 Drittbetreuung (258), 16.3 Parteispenden (555), 16.4 Weiterbildung (223/224), 17 Zweiverdiener (226), 18 Total (230)."
   },
   {
-   "start": 226,
+   "start": 211,
    "titel": "Ziff. 20–22 Einkommensberechnung: Krankheitskosten, Behinderung, Zuwendungen, Reineinkommen",
    "pfad": [
     "Einkommensberechnung"
@@ -229,7 +229,7 @@
    "zusammenfassung": "Ziff. 20 Nettoeinkommen (234), 21.1 Krankheits-/Unfallkosten abzüglich Selbstbehalt 2% des Nettoeinkommens (650/238/240), 21.2 Behinderung (235), 21.3 Zuwendungen mind. Fr.100, max. 20% (244), 22 Reineinkommen (248)."
   },
   {
-   "start": 243,
+   "start": 228,
    "titel": "Ziff. 23–24 Sozialabzüge Kinder, unterstützte Personen, steuerbares Einkommen (Codes 252–268)",
    "pfad": [
     "Einkommensberechnung",
@@ -250,7 +250,7 @@
    "zusammenfassung": "Ziff. 23.1 Kinderabzug noch nicht schulpflichtig Fr. 7’600 (252), 23.2 Schule/Ausbildung Fr. 10’800 (254), 23.3 Ausbildungskosten (256), 23.4 unterstützte Personen nur Bund (264), 24 steuerbares Einkommen (268)."
   },
   {
-   "start": 255,
+   "start": 240,
    "titel": "Ziff. 30–32 Vermögen: Wertschriften, Versicherungen, Fahrzeuge, Liegenschaften, Betriebsvermögen (Codes 300–318)",
    "pfad": [
     "Vermögen",
@@ -278,7 +278,7 @@
    "zusammenfassung": "Steuerwerte per 31.12.2026 bzw. Ende der Steuerpflicht: 30.1 Wertschriften (300), 30.2 Bargeld (302), 30.3 Versicherungen (304), 30.4 Fahrzeuge (306), 30.5 Erbschaften (308), 30.6 Übrige (310), 31 Liegenschaften (710), 32 Betrieb (314–318)."
   },
   {
-   "start": 294,
+   "start": 279,
    "titel": "Ziff. 33–37 Total Vermögenswerte, Schulden, Reinvermögen, Sozialabzüge Vermögen (Codes 322–338)",
    "pfad": [
     "Vermögen",
@@ -302,7 +302,7 @@
    "zusammenfassung": "Ziff. 33 Total (322), 34 Schulden privat (504)/Geschäft (506), 35 Reinvermögen (326), 36 Sozialabzüge: alleinstehend Fr. 75’000, gemeinsam Fr. 150’000, je Kind Fr. 20’000; 37 steuerbares Vermögen (338)."
   },
   {
-   "start": 310,
+   "start": 295,
    "titel": "Ziff. 40–41 Kapitalleistungen aus Vorsorge, Beilagen, Unterschrift",
    "pfad": [
     "Ergänzende Angaben"
@@ -321,5 +321,7 @@
    ],
    "zusammenfassung": "Ziff. 40.1 Kapitalleistungen Säule 3a, 40.2 berufliche Vorsorge, 40.3 übrige, 41 Total (950); Beilagenliste und Unterschrift."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

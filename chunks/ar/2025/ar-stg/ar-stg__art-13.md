@@ -8,7 +8,7 @@ titel: "Art. 13 StG AR – 3. Unbestimmte Anspruchsverhältnisse"
 artikel: "Art. 13"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 13 3. Unbestimmte Anspruchsverhältnisse
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 13 3. Unbestimmte Anspruchsverhältnisse
 
 ### Art. 13 StG AR – 3. Unbestimmte Anspruchsverhältnisse
 

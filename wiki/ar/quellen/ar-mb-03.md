@@ -2,15 +2,28 @@
 typ: quelle
 id: ar-mb-03
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 03: Steuerliche Behandlung des Liegenschaftsunterhalts (ab 2024)"
 generiert: tools/build_index.py
 ---
 # MB AR 03: Merkblatt 03: Steuerliche Behandlung des Liegenschaftsunterhalts (ab 2024)
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/03_Merkblatt_steuerliche_Behandlung_des_Liegenschaftsunterhaltes__ab_2024_.pdf> · lokal: [ar-mb-03.pdf](../../../raw/ar/dauernd/ar-mb-03.pdf) · Volltext: [ar-mb-03.md](../../../sources/ar/dauernd/ar-mb-03.md)
 - **Abgerufen:** 2026-11-09 · sha256 `0e07eb68ddc5cb8b…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-09-30 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 5 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-03`).
+
+- `data/werte/ar/2025.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
+- `data/werte/ar/2025.yaml#41:liegenschaft.pauschale_alt` (agent-geprueft)
+- `data/werte/ar/2026.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
+- `data/werte/ar/2026.yaml#41:liegenschaft.pauschale_alt` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#96:abzug.liegenschaft.unterhalt@Form. 7 Abschn. C` (agent-geprueft)
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
+- [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

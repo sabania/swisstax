@@ -9,7 +9,7 @@ artikel: "§ 141"
 seiten: "61"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 141 StG ZH – 2. Einspracheverfahren · S. 61
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 141 StG ZH – 2. Einspracheverfahren · S. 61
 
 ### § 141 StG ZH – 2. Einspracheverfahren
 

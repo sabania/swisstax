@@ -2,14 +2,14 @@
 id: bund-ks-15__c0073
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 4a Low Exercise Price Options (LEPO) (Teil 2/2)"
 ziffer: "Anh. III 4a"
 seiten: "22"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 22
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 22
 
 Aus verwaltungs- und verfahrensökonomischen Gründen werden die Zinskomponenten von
 LEPO mit Laufzeiten von nicht mehr als zwölf Monaten auf Zusehen hin steuerfrei belassen.

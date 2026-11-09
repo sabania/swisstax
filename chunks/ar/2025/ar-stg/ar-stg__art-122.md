@@ -8,7 +8,7 @@ titel: "Art. 122 StG AR – I. Gegenstand"
 artikel: "Art. 122"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 122 I. Gegenstand
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 122 I. Gegenstand
 
 ### Art. 122 StG AR – I. Gegenstand
 

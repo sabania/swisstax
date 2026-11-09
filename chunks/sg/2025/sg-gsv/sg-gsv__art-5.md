@@ -8,7 +8,7 @@ titel: "Art. 5 VGS SG – Schätzer"
 artikel: "Art. 5"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · II. Organisation › Art. 5 Schätzer
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · II. Organisation › Art. 5 Schätzer
 
 ### Art. 5 VGS SG – Schätzer
 

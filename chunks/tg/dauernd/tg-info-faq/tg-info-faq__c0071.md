@@ -7,7 +7,7 @@ typ: info
 titel: "Veranlagungsverfahren"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
     - [StP 155 Nr. 2 "Fristerstreckung zur Einreichung der Steuererklärung"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-155-nr-2-fristerstreckung-einreichung-steuererklaerung&version=latest)
 

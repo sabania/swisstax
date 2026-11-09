@@ -8,7 +8,7 @@ titel: "§ 1 VAKP TG – Sozialabzüge"
 artikel: "§ 1"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · VAKP TG · § 1 Sozialabzüge
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VAKP TG · § 1 Sozialabzüge
 
 ### § 1 VAKP TG – Sozialabzüge
 

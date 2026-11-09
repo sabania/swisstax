@@ -2,14 +2,14 @@
 id: bund-ks-30__c0059
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 10.1 Anteilsmässiger Kinderabzug bei beschränkter Steuerpflicht; Fn. 2 Einkommensbegriffe"
 ziffer: "10.1"
 seiten: "19-20"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 10 Kinderabzug › 10.1 Grundsatz · S. 19–20
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 10 Kinderabzug › 10.1 Grundsatz · S. 19–20
 
 Personen mit Kindern, die im Sinne von Artikel 4 und 5 DBG in der Schweiz beschränkt
 steuerpflichtig sind, wird der Kinderabzug anteilsmässig gewährt (Art. 35 Abs. 3 DBG). Dies

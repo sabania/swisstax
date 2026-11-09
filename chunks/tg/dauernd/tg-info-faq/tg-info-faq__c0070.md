@@ -7,7 +7,7 @@ typ: info
 titel: "Veranlagungsverfahren"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
     Bei Personen mit beschränkter Steuerpflicht infolge wirtschaftlicher Zugehörigkeit (ohne Wohnsitz im Kanton) ist das Gemeindesteueramt zuständig, in welcher der Grund für die beschränkte Steuerpflicht im Kanton liegt (Liegenschaftsort, Geschäftsort bei selbständiger Erwerbstätigkeit).
 

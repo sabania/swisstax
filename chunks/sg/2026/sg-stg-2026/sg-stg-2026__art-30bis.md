@@ -8,7 +8,7 @@ titel: "Art. 30 bis StG SG – 2. Einkünfte aus echten Mitarbeiterbeteiligungen
 artikel: "Art. 30 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 30 bis 2. Einkünfte aus echten Mitarbeiterbeteiligungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 30 bis 2. Einkünfte aus echten Mitarbeiterbeteiligungen
 
 ### Art. 30 bis StG SG – 2. Einkünfte aus echten Mitarbeiterbeteiligungen
 

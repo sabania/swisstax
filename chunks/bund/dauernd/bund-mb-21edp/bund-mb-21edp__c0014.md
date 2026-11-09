@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0014
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 3 Rz 28–29 Einkäufe Säule 3a – Jahresbeitragslücke"
 ziffer: "28–29"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 3: Einkäufe Säule 3a · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Erläuterungen › Ziffer 3: Einkäufe Säule 3a · S. 5
 
     Ziffer 3: Einkäufe in anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)
 28   In der Ziffer 3 sind Einkäufe in die Säule 3a zu bescheinigen. Erfolgen im gleichen Kalen

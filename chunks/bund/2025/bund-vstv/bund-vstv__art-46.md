@@ -2,13 +2,13 @@
 id: bund-vstv__art-46
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 46 VStV"
 artikel: "Art. 46"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · Vierter Abschnitt: Steuer auf Versicherungsleistungen › II. Anmeldung als Steuerpflichtiger › Art. 46
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · Vierter Abschnitt: Steuer auf Versicherungsleistungen › II. Anmeldung als Steuerpflichtiger › Art. 46
 
 ### Art. 46 VStV
 

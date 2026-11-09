@@ -9,7 +9,7 @@ ziffer: "56–58"
 seiten: "10-11"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › VI. Industrielle oder gewerbliche Liegenschaften › 4.–6. · S. 10–11
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › VI. Industrielle oder gewerbliche Liegenschaften › 4.–6. · S. 10–11
 
     4. Neu hinzugekommene Gebäudeteile
 

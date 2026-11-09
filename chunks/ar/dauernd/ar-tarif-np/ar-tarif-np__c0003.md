@@ -9,7 +9,7 @@ ziffer: "1"
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: tarif}}
 ---
-> AR · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · 1. Einkommenssteuer · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Tarif · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · 1. Einkommenssteuer · S. 1
 
    6   1,90 Prozent für die weiteren   15'600   6   2,20 Prozent für die weiteren   14'600
    7   2,20 Prozent für die weiteren   15'600   7   2,40 Prozent für die weiteren   12'500

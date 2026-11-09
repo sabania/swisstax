@@ -8,7 +8,7 @@ titel: "Art. 87 StV SG – Ratenzahlung und Rückerstattung ohne Schlussrechnung
 artikel: "Art. 87"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Siebter Abschnitt: Steuerbezug › Art. 87 Ratenzahlung und Rückerstattung ohne Schlussrechnung (Art. 214 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Siebter Abschnitt: Steuerbezug › Art. 87 Ratenzahlung und Rückerstattung ohne Schlussrechnung (Art. 214 StG)
 
 ### Art. 87 StV SG – Ratenzahlung und Rückerstattung ohne Schlussrechnung (Art. 214 StG)
 

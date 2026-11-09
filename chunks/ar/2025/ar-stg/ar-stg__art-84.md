@@ -8,7 +8,7 @@ titel: "Art. 84 StG AR – 7. Kollektive Kapitalanlagen"
 artikel: "Art. 84"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 84 7. Kollektive Kapitalanlagen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 84 7. Kollektive Kapitalanlagen
 
 ### Art. 84 StG AR – 7. Kollektive Kapitalanlagen
 

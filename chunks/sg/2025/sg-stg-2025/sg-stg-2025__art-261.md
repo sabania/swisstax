@@ -8,7 +8,7 @@ titel: "Art. 261 StG SG – 5. Abschluss der Untersuchung"
 artikel: "Art. 261"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 261 5. Abschluss der Untersuchung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 261 5. Abschluss der Untersuchung
 
 ### Art. 261 StG SG – 5. Abschluss der Untersuchung
 

@@ -8,7 +8,7 @@ titel: "Art. 33 StG AR – d) Verluste"
 artikel: "Art. 33"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 33 d) Verluste
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 33 d) Verluste
 
 ### Art. 33 StG AR – d) Verluste
 

@@ -2,14 +2,14 @@
 id: bund-ssk-ks22-mb-sz__c0011
 quelle: bund-ssk-ks22-mb-sz
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Rz 12–13 Gültigkeit und Publikation"
 ziffer: "12–13"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · E. Gültigkeit und Publikation · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · SSK-KS 22 (MB SZ) · E. Gültigkeit und Publikation · S. 4
 
     E. Gültigkeit und Publikation
 

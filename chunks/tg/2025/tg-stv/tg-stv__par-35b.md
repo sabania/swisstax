@@ -8,7 +8,7 @@ titel: "§ 35b StV TG – Geheimhaltung von beigezogenen Dritten"
 artikel: "§ 35b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 35b Geheimhaltung von beigezogenen Dritten
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 35b Geheimhaltung von beigezogenen Dritten
 
 ### § 35b StV TG – Geheimhaltung von beigezogenen Dritten
 

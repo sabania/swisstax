@@ -2,13 +2,13 @@
 id: tg-stg__par-216
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 216 StG TG – Steuerbetrug Quellensteuern"
 artikel: "§ 216"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.11.2. Steuerstrafverfahren › 1.11.2.3. Steuervergehen › § 216 Steuerbetrug Quellensteuern
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.11.2. Steuerstrafverfahren › 1.11.2.3. Steuervergehen › § 216 Steuerbetrug Quellensteuern
 
 ### § 216 StG TG – Steuerbetrug Quellensteuern
 

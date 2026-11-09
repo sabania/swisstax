@@ -2,15 +2,23 @@
 typ: quelle
 id: ar-mb-06
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 06: Bemessung von Bussen bei Verletzung von Verfahrenspflichten (ab 2025)"
 generiert: tools/build_index.py
 ---
 # MB AR 06: Merkblatt 06: Bemessung von Bussen bei Verletzung von Verfahrenspflichten (ab 2025)
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/06_Bemessung_von_Bussen_bei_Verletzung_von_Verfahrenspflichten_ab_2025.docx.pdf> · lokal: [ar-mb-06.pdf](../../../raw/ar/dauernd/ar-mb-06.pdf) · Volltext: [ar-mb-06.md](../../../sources/ar/dauernd/ar-mb-06.md)
 - **Abgerufen:** 2026-11-09 · sha256 `99570601d93f8e93…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-12-17 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-06`).
+
+- [wiki/ar/ar-ueberblick.md](../ar-ueberblick.md)
+- [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

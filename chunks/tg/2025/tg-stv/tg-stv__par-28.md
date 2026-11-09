@@ -8,7 +8,7 @@ titel: "§ 28 StV TG – Kosten des Erwerbs und der Veräusserung"
 artikel: "§ 28"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 28 Kosten des Erwerbs und der Veräusserung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 28 Kosten des Erwerbs und der Veräusserung
 
 ### § 28 StV TG – Kosten des Erwerbs und der Veräusserung
 

@@ -2,13 +2,13 @@
 id: tg-stg__par-211
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 211 StG TG – Verheimlichen oder Beiseiteschaffen von Nachlasswerten im Inventarverfahren"
 artikel: "§ 211"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.11.2. Steuerstrafverfahren › 1.11.2.2. Steuerhinterziehung › § 211 Verheimlichen oder Beiseiteschaffen von Nachlasswerten im Inventarverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.11.2. Steuerstrafverfahren › 1.11.2.2. Steuerhinterziehung › § 211 Verheimlichen oder Beiseiteschaffen von Nachlasswerten im Inventarverfahren
 
 ### § 211 StG TG – Verheimlichen oder Beiseiteschaffen von Nachlasswerten im Inventarverfahren
 

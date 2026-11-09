@@ -11,7 +11,21 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2005-08-31
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/aVpMnA7YXyaD/dbst-ks-2005-1-011-d-de.pdf> · lokal: [bund-ks-11.pdf](../../../raw/bund/dauernd/bund-ks-11.pdf) · Volltext: [bund-ks-11.md](../../../sources/bund/dauernd/bund-ks-11.md)
 - **Abgerufen:** 2026-11-09 · sha256 `f6471011095a9ee1…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2005-01-01 bis 2026-12-31 · ersetzt durch `bund-ks-11a`
 - ⚠ **Hinweis:** wird ab Steuerperiode 2027 durch KS 11a ersetzt
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 7 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-11`).
+
+- `data/belege-teil1.yaml#14:arzt-zahnarzt-rechnungen` (agent-geprueft)
+- `data/werte/bund/2025.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
+- `data/werte/bund/2026.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#21:info.steuerfreie_leistungen@8.2` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#22:info.steuerfreie_leistungen@8.3` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#91:abzug.krankheitskosten@Form. 6 S. 2` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#92:abzug.behinderungskosten@Form. 6 S. 2 (behinderungsbedingt)` (agent-geprueft)
+- [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

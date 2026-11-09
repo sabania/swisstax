@@ -8,7 +8,7 @@ titel: "Art. 33 bis StG SG – 2. Besondere Fälle (Teil 1/2)"
 artikel: "Art. 33 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 33 bis 2. Besondere Fälle
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 33 bis 2. Besondere Fälle
 
 ### Art. 33 bis StG SG – 2. Besondere Fälle
 

@@ -9,7 +9,7 @@ artikel: "§ 43"
 seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 43 StV ZH – 8. Einschätzungen durch das Gemeindesteueramt · S. 8
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 43 StV ZH – 8. Einschätzungen durch das Gemeindesteueramt · S. 8
 
 ### § 43 StV ZH – 8. Einschätzungen durch das Gemeindesteueramt
 

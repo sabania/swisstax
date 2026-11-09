@@ -120,7 +120,7 @@ def main():
             elif norm(z) not in norm(c["text"]):
                 errs.append(f"{where}: Zitat nicht wörtlich in {cid}: «{z[:90]}»")
             src = reg.get(c["quelle_id"], {})
-            if jahr and src.get("jahre") and int(jahr) not in src["jahre"] and not q.get("jahr_ok"):
+            if jahr and src and "jahre" in src and int(jahr) not in (src.get("jahre") or []) and not q.get("jahr_ok"):
                 warns.append(f"{where}: Quelle {c['quelle_id']} gilt für {src['jahre']} (Datei {jahr}) – falls bewusst: jahr_ok: true + Begründung in bemerkung")
     print(f"{p.name}: {len(rows)} Einträge, {len(errs)} Fehler, {len(warns)} Warnungen")
     for x in errs:

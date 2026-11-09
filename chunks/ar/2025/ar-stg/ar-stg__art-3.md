@@ -8,7 +8,7 @@ titel: "Art. 3 StG AR – Steuerfuss"
 artikel: "Art. 3"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 1. Allgemeine Bestimmungen › Art. 3 Steuerfuss
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 1. Allgemeine Bestimmungen › Art. 3 Steuerfuss
 
 ### Art. 3 StG AR – Steuerfuss
 

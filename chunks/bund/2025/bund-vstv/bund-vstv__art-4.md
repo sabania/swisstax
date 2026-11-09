@@ -2,13 +2,13 @@
 id: bund-vstv__art-4
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 4 VStV"
 artikel: "Art. 4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · II. Mitwirkung des Steuerpflichtigen › 3. Leistung in ausländischer Währung › Art. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · II. Mitwirkung des Steuerpflichtigen › 3. Leistung in ausländischer Währung › Art. 4
 
 ### Art. 4 VStV
 

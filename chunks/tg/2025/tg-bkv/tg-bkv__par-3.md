@@ -8,7 +8,7 @@ titel: "§ 3 BKV TG – Schicht- und Nachtarbeit"
 artikel: "§ 3"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 3 Schicht- und Nachtarbeit
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 3 Schicht- und Nachtarbeit
 
 ### § 3 BKV TG – Schicht- und Nachtarbeit
 

@@ -8,7 +8,7 @@ titel: "Art. 6 VKP – Steuerfreie Einkünfte"
 artikel: "Art. 6"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · VKP · Art. 6 Steuerfreie Einkünfte
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · VKP · Art. 6 Steuerfreie Einkünfte
 
 ### Art. 6 VKP – Steuerfreie Einkünfte
 

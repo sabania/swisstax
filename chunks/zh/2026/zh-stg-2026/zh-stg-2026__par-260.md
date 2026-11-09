@@ -9,7 +9,7 @@ artikel: "§ 260"
 seiten: "88"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 260 StG ZH – VI. Bezug und Erlass von Bussen · S. 88
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 260 StG ZH – VI. Bezug und Erlass von Bussen · S. 88
 
 ### § 260 StG ZH – VI. Bezug und Erlass von Bussen
 

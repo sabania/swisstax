@@ -9,7 +9,7 @@ ziffer: "I/1"
 seiten: "1-2"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · LS 631.33 (ab 2026) · Verfügung Finanzdirektion › I. Pauschalen › 1. Fahrten · S. 1–2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · LS 631.33 (ab 2026) · Verfügung Finanzdirektion › I. Pauschalen › 1. Fahrten · S. 1–2
 
 Die Kosten für das private Motorfahrzeug können nur ausnahmsweise
 geltend gemacht werden:

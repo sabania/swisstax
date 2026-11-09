@@ -8,7 +8,7 @@ titel: "Art. 164 StG SG – Verfahrensrechtliche Stellung der Ehegatten bei den 
 artikel: "Art. 164"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 164 Verfahrensrechtliche Stellung der Ehegatten bei den Einkommens- und Vermögenssteuern
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 164 Verfahrensrechtliche Stellung der Ehegatten bei den Einkommens- und Vermögenssteuern
 
 ### Art. 164 StG SG – Verfahrensrechtliche Stellung der Ehegatten bei den Einkommens- und Vermögenssteuern
 

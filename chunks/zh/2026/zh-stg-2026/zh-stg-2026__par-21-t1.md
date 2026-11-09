@@ -9,7 +9,7 @@ artikel: "§ 21"
 seiten: "12-13"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 21 StG ZH – 5. Unbewegliches Vermögen · S. 12–13
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 21 StG ZH – 5. Unbewegliches Vermögen · S. 12–13
 
 ### § 21 StG ZH – 5. Unbewegliches Vermögen
 

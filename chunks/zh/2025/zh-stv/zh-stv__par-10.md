@@ -9,7 +9,7 @@ artikel: "§ 10"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › C. Form und Zustellung von Verfügungen und Entscheiden › § 10 StV ZH – 3. Zustellung bei Vertretung · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › C. Form und Zustellung von Verfügungen und Entscheiden › § 10 StV ZH – 3. Zustellung bei Vertretung · S. 2
 
 ### § 10 StV ZH – 3. Zustellung bei Vertretung
 

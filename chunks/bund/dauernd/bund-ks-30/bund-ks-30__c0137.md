@@ -2,14 +2,14 @@
 id: bund-ks-30__c0137
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 15.3 Rechtsmittel und andere Eingaben"
 ziffer: "15.3"
 seiten: "41"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.3 Rechtsmittel · S. 41
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.3 Rechtsmittel · S. 41
 
 15.3   Rechtsmittel und andere Eingaben
 

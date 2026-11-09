@@ -76,12 +76,13 @@ def check_integrity(reg):
             continue
         plan = _j.loads(pp.read_text(encoding="utf-8"))
         full = source_path(e).read_text(encoding="utf-8").splitlines()
-        starts = [c["start"] for c in plan["chunks"]] + [len(full) + 1]
+        import chunk as _ch
+        starts = _ch.plan_starts(plan, full) + [len(full) + 1]
         src = []
         for i, c in enumerate(plan["chunks"]):
             if c.get("skip"):
                 continue
-            src += [l for l in full[c["start"] - 1:starts[i + 1] - 1] if not l.startswith("<!-- Seite ")]
+            src += [l for l in full[starts[i] - 1:starts[i + 1] - 1] if not l.startswith("<!-- Seite ")]
         want = re.sub(r"\s+", "", "".join(src))
         got = []
         for f in sorted(d.glob("*.md")):
@@ -141,7 +142,7 @@ def check_data(reg, cidx):
                     elif norm(zitat) not in norm(c["text"]):
                         errors.append(f"D1 {where}: Zitat nicht im Chunk {cid} gefunden: «{zitat[:80]}»")
                     src = regby.get(c["quelle_id"], {})
-                    if jahr and src.get("jahre") and int(jahr) not in src["jahre"] and not q.get("jahr_ok"):
+                    if jahr and src and "jahre" in src and int(jahr) not in (src.get("jahre") or []) and not q.get("jahr_ok"):
                         warnings.append(f"D1 {where}: Jahres-Wache – Quelle {c['quelle_id']} gilt für {src['jahre']}, Wert für {jahr}")
     return stats
 

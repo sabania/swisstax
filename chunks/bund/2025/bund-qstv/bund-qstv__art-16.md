@@ -8,7 +8,7 @@ titel: "Art. 16 QStV – Künstlerinnen und Künstler, Sportlerinnen und Sportle
 artikel: "Art. 16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 16 Künstlerinnen und Künstler, Sportlerinnen und Sportler, Referentinnen und Referenten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 16 Künstlerinnen und Künstler, Sportlerinnen und Sportler, Referentinnen und Referenten
 
 ### Art. 16 QStV – Künstlerinnen und Künstler, Sportlerinnen und Sportler, Referentinnen und Referenten
 

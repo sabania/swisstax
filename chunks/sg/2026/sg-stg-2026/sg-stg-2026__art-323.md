@@ -8,7 +8,7 @@ titel: "Art. 323 StG SG – Übergangsbestimmung des XV. Nachtrags vom 24. April
 artikel: "Art. 323"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 323 Übergangsbestimmung des XV. Nachtrags vom 24. April 2019
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 323 Übergangsbestimmung des XV. Nachtrags vom 24. April 2019
 
 ### Art. 323 StG SG – Übergangsbestimmung des XV. Nachtrags vom 24. April 2019
 

@@ -8,7 +8,7 @@ titel: "Art. 203 DBG – Änderung des AHVG"
 artikel: "Art. 203"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Achter Teil: Schlussbestimmungen › Dritter Titel: Aufhebung und Änderung bisherigen Rechts › Art. 203 Änderung des AHVG
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Achter Teil: Schlussbestimmungen › Dritter Titel: Aufhebung und Änderung bisherigen Rechts › Art. 203 Änderung des AHVG
 
 ### Art. 203 DBG – Änderung des AHVG
 

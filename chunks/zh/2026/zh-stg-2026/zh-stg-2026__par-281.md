@@ -9,7 +9,7 @@ artikel: "§ 281"
 seiten: "93"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 281 StG ZH – 10. Steuerbezug · S. 93
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 281 StG ZH – 10. Steuerbezug · S. 93
 
 ### § 281 StG ZH – 10. Steuerbezug
 

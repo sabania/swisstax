@@ -8,7 +8,7 @@ titel: "Art. 267 StG SG – d) Hauptverhandlung"
 artikel: "Art. 267"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 267 d) Hauptverhandlung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 267 d) Hauptverhandlung
 
 ### Art. 267 StG SG – d) Hauptverhandlung
 

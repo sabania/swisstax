@@ -8,7 +8,7 @@ titel: "Art. 107 StG SG – Steuerabzug auf Erwerbseinkünften a) Grundlage"
 artikel: "Art. 107"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 107 Steuerabzug auf Erwerbseinkünften a) Grundlage
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 107 Steuerabzug auf Erwerbseinkünften a) Grundlage
 
 ### Art. 107 StG SG – Steuerabzug auf Erwerbseinkünften a) Grundlage
 

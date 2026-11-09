@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0059
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 9.1 Ausweis im Jahresabschluss – gesonderte Positionen, Nachmeldung, Währungswechsel (Teil 1/3)"
 ziffer: "9.1"
 seiten: "25"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.1 Ausweis im Jahresabschluss · S. 25
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 9 Ausweis und Meldung › 9.1 Ausweis im Jahresabschluss · S. 25
 
 9.   Ausweis im Jahresabschluss und Meldung von Veränderungen
 

@@ -8,7 +8,7 @@ titel: "Art. 79 bis StV SG – Besondere Verfügung über die Grundstückwerte"
 artikel: "Art. 79 bis"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 79 bis Besondere Verfügung über die Grundstückwerte
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 79 bis Besondere Verfügung über die Grundstückwerte
 
 ### Art. 79 bis StV SG – Besondere Verfügung über die Grundstückwerte
 

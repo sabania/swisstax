@@ -8,7 +8,7 @@ titel: "Art. 17 StV AR – Auswärtiger Wochenaufenthalt (Art. 29 Abs. 1 lit. b 
 artikel: "Art. 17"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 17 Auswärtiger Wochenaufenthalt (Art. 29 Abs. 1 lit. b StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 17 Auswärtiger Wochenaufenthalt (Art. 29 Abs. 1 lit. b StG)
 
 ### Art. 17 StV AR – Auswärtiger Wochenaufenthalt (Art. 29 Abs. 1 lit. b StG)
 

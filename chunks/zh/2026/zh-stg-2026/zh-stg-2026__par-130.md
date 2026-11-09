@@ -9,7 +9,7 @@ artikel: "§ 130"
 seiten: "57"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 130 StG ZH – V. Verjährung 1. Veranlagungsverjährung · S. 57
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 130 StG ZH – V. Verjährung 1. Veranlagungsverjährung · S. 57
 
 ### § 130 StG ZH – V. Verjährung 1. Veranlagungsverjährung
 

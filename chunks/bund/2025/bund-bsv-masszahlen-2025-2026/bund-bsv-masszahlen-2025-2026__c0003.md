@@ -9,7 +9,7 @@ ziffer: "6–9"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Wichtige Masszahlen berufliche Vorsorge › 6–9 Teuerung, Sicherheitsfonds, Säule 3a · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Wichtige Masszahlen berufliche Vorsorge › 6–9 Teuerung, Sicherheitsfonds, Säule 3a · S. 1
 
   6. Teuerungsanpassung BVG-Risikorenten vor dem Referenzalter (Zeitreihe)
     erstmals nach einer Laufzeit von 3 Jahren   5,8%   2,7%

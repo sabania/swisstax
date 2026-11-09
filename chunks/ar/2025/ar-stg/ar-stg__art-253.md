@@ -8,7 +8,7 @@ titel: "Art. 253 StG AR – b) Verteidigung"
 artikel: "Art. 253"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 253 b) Verteidigung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 253 b) Verteidigung
 
 ### Art. 253 StG AR – b) Verteidigung
 

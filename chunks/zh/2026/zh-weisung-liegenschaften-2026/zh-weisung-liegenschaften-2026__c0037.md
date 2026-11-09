@@ -9,7 +9,7 @@ ziffer: "87–89"
 seiten: "17"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · E. Neufestsetzung › I. Einfamilienhäuser, Stockwerkeigentum, industrielle Liegenschaften · S. 17
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · E. Neufestsetzung › I. Einfamilienhäuser, Stockwerkeigentum, industrielle Liegenschaften · S. 17
 
 E. Neufestsetzung von Vermögenssteuerwerten und Eigenmietwerten
 

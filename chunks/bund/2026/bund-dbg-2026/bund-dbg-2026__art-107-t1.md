@@ -8,7 +8,7 @@ titel: "Art. 107 DBG – Bei Quellensteuern (Teil 1/2)"
 artikel: "Art. 107"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 2. Kapitel: Kantonale Behörden › 2. Abschnitt: Örtliche Zuständigkeit › Art. 107 Bei Quellensteuern
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 2. Kapitel: Kantonale Behörden › 2. Abschnitt: Örtliche Zuständigkeit › Art. 107 Bei Quellensteuern
 
 ### Art. 107 DBG – Bei Quellensteuern
 

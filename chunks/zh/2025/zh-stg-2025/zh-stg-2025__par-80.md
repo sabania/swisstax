@@ -9,7 +9,7 @@ artikel: "§ 80"
 seiten: "41"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Kapitalsteuer › § 80 StG ZH – b. Verdecktes Eigenkapital · S. 41
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Kapitalsteuer › § 80 StG ZH – b. Verdecktes Eigenkapital · S. 41
 
 ### § 80 StG ZH – b. Verdecktes Eigenkapital
 

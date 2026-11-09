@@ -6,7 +6,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "A. Einleitende Bemerkungen – Pflicht zur Steuererklärung, Geltungsbereich",
    "pfad": [
     "A. Einleitende Bemerkungen"
@@ -25,7 +25,7 @@
    ]
   },
   {
-   "start": 53,
+   "start": 38,
    "titel": "B. Steuerpflicht – Einreichungspflicht und Ausnahmen (Quellensteuer)",
    "pfad": [
     "B. Steuerpflicht"
@@ -44,7 +44,7 @@
    ]
   },
   {
-   "start": 71,
+   "start": 56,
    "titel": "C.–D. Durchführung (Gemeindesteuerämter) und Publikation der Aufforderung",
    "pfad": [
     "C. Durchführung",
@@ -63,7 +63,7 @@
    ]
   },
   {
-   "start": 100,
+   "start": 85,
    "titel": "E.I Formularverzeichnis natürliche Personen – Lohnausweis, Steuererklärung 300/303, Wegleitung, Hilfsblätter A",
    "pfad": [
     "E. Formularverzeichnis",
@@ -84,7 +84,7 @@
    ]
   },
   {
-   "start": 127,
+   "start": 112,
    "titel": "E.I Formularverzeichnis – Landwirtschaft 330–332",
    "pfad": [
     "E. Formularverzeichnis",
@@ -100,7 +100,7 @@
    "ziffer": "E.I"
   },
   {
-   "start": 136,
+   "start": 121,
    "titel": "E.I Formularverzeichnis – Wertschriftenverzeichnis 340, Liegenschaften 350, Schulden 355, Berufsauslagen 360, Versicherungen 365–370",
    "pfad": [
     "E. Formularverzeichnis",
@@ -126,7 +126,7 @@
    ]
   },
   {
-   "start": 161,
+   "start": 146,
    "titel": "E.I Formularverzeichnis – Inventar, Todesfall, Erbschaft, DA-1/DA-3",
    "pfad": [
     "E. Formularverzeichnis",
@@ -147,7 +147,7 @@
    ]
   },
   {
-   "start": 175,
+   "start": 160,
    "titel": "E.II Formularverzeichnis juristische Personen – 12, 431, 434, 438, 500–520",
    "pfad": [
     "E. Formularverzeichnis",
@@ -164,7 +164,7 @@
    "ziffer": "E.II"
   },
   {
-   "start": 208,
+   "start": 193,
    "titel": "E.II Formularverzeichnis juristische Personen – 530–570 (STAF, Beteiligungsabzug), R 25",
    "pfad": [
     "E. Formularverzeichnis",
@@ -181,7 +181,7 @@
    "ziffer": "E.II"
   },
   {
-   "start": 232,
+   "start": 217,
    "titel": "F.I.1 Ordentliches Verfahren – vollständiger Formularsatz (Wohnsitz im Kanton, Quellensteuerpflichtige)",
    "pfad": [
     "F. Vorbereitung des Versandes",
@@ -201,7 +201,7 @@
    ]
   },
   {
-   "start": 262,
+   "start": 247,
    "titel": "F.I.1 b)–d) Zusatzformulare Liegenschaften, Selbständigerwerbende, Landwirte, ausserkantonal Wohnhafte",
    "pfad": [
     "F. Vorbereitung des Versandes",
@@ -221,7 +221,7 @@
    ]
   },
   {
-   "start": 299,
+   "start": 284,
    "titel": "F.I.2 Reduzierter Formularsatz (Steuererklärungssoftware)",
    "pfad": [
     "F. Vorbereitung des Versandes",
@@ -240,7 +240,7 @@
    ]
   },
   {
-   "start": 314,
+   "start": 299,
    "titel": "F.I.3–4 Zugangsdaten ZHprivateTax online und nachträgliche ordentliche Veranlagung",
    "pfad": [
     "F. Vorbereitung des Versandes",
@@ -260,7 +260,7 @@
    ]
   },
   {
-   "start": 331,
+   "start": 316,
    "titel": "F.II–III Zustellung an juristische Personen und Beschriftung (Ehepaare, eingetragene Partnerschaft)",
    "pfad": [
     "F. Vorbereitung des Versandes",
@@ -277,7 +277,7 @@
    "ziffer": "F.II / F.III"
   },
   {
-   "start": 352,
+   "start": 337,
    "titel": "F.IV–V Versand (Retourcouvert) und Frist der Formularzustellung (Ende Januar)",
    "pfad": [
     "F. Vorbereitung des Versandes",
@@ -293,7 +293,7 @@
    "ziffer": "F.IV / F.V"
   },
   {
-   "start": 367,
+   "start": 352,
    "titel": "F.VI Heirat, Trennung, Scheidung, Tod im Kalenderjahr – gemeinsame bzw. getrennte Besteuerung",
    "pfad": [
     "F. Vorbereitung des Versandes",
@@ -313,7 +313,7 @@
    ]
   },
   {
-   "start": 385,
+   "start": 370,
    "titel": "G.I–II.1 Ordentliche Einreichungsfristen (31. März / 30. September) und Fristerstreckung von Amtes wegen",
    "pfad": [
     "G. Einreichungsfristen und Fristerstreckungen"
@@ -332,7 +332,7 @@
    ]
   },
   {
-   "start": 413,
+   "start": 398,
    "titel": "G.II.2 a) Fristerstreckungsgesuche – Allgemeines und Wiederherstellung",
    "pfad": [
     "G. Einreichungsfristen",
@@ -353,7 +353,7 @@
    ]
   },
   {
-   "start": 433,
+   "start": 418,
    "titel": "G.II.2 b) Fristerstreckung längstens bis 30. November – ausserordentliche Gründe",
    "pfad": [
     "G. Einreichungsfristen",
@@ -374,7 +374,7 @@
    ]
   },
   {
-   "start": 447,
+   "start": 432,
    "titel": "G.II.2 c) Verrechnungssteuer – Rückerstattungsanspruch erlischt nach drei Jahren",
    "pfad": [
     "G. Einreichungsfristen",
@@ -394,7 +394,7 @@
    ]
   },
   {
-   "start": 456,
+   "start": 441,
    "titel": "G.II.2 d)–e) Entscheid über Fristerstreckung, stillschweigende Bewilligung, andere Kantone",
    "pfad": [
     "G. Einreichungsfristen",
@@ -415,7 +415,7 @@
    ]
   },
   {
-   "start": 476,
+   "start": 461,
    "titel": "G.III Nachträgliche ordentliche Veranlagung von Quellensteuerpflichtigen (ab Fr. 120'000.-)",
    "pfad": [
     "G. Einreichungsfristen",
@@ -435,7 +435,7 @@
    ]
   },
   {
-   "start": 491,
+   "start": 476,
    "titel": "G.IV.1–2 Mahnungen – Allgemeines und Zeitpunkt (20 Tage vorab)",
    "pfad": [
     "G. Einreichungsfristen",
@@ -455,7 +455,7 @@
    ]
   },
   {
-   "start": 504,
+   "start": 489,
    "titel": "G.IV.3–5 Mahnung – Androhung (Ermessenseinschätzung, Ordnungsbusse), Mahnfrist 10 Tage, A-Post Plus",
    "pfad": [
     "G. Einreichungsfristen",
@@ -475,7 +475,7 @@
    ]
   },
   {
-   "start": 524,
+   "start": 509,
    "titel": "H.–I. Kontrolle bei Eingang und Rücksendung mangelhafter Steuererklärungen",
    "pfad": [
     "H. Kontrolle bei Eingang",
@@ -495,7 +495,7 @@
    ]
   },
   {
-   "start": 545,
+   "start": 530,
    "titel": "J.–K. Verfahren bei Nichtabgabe und Ablieferung an das kantonale Steueramt",
    "pfad": [
     "J. Nichtabgabe",
@@ -515,7 +515,7 @@
    ]
   },
   {
-   "start": 559,
+   "start": 544,
    "titel": "L. Inkrafttreten – Weisung vom 10. Juli 2024, gültig ab 1. Januar 2025",
    "pfad": [
     "L. Inkrafttreten"
@@ -529,5 +529,7 @@
    "zusammenfassung": "Die Weisung tritt am 1. Januar 2025 in Kraft, gilt erstmals für das Steuererklärungsverfahren 2025 (Steuerperiode 2024) und ersetzt die Weisung vom 30. September 2020.",
    "ziffer": "L"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

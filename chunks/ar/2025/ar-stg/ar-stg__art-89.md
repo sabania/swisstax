@@ -8,7 +8,7 @@ titel: "Art. 89 StG AR – 3. Vereine, Stiftungen, übrige juristische Personen 
 artikel: "Art. 89"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › C. Kapitalsteuer › Art. 89 3. Vereine, Stiftungen, übrige juristische Personen und kollektive Kapitalanlagen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › C. Kapitalsteuer › Art. 89 3. Vereine, Stiftungen, übrige juristische Personen und kollektive Kapitalanlagen
 
 ### Art. 89 StG AR – 3. Vereine, Stiftungen, übrige juristische Personen und kollektive Kapitalanlagen
 

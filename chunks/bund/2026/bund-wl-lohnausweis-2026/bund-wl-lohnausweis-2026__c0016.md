@@ -9,7 +9,7 @@ ziffer: "1 / 17–18"
 seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 1 Lohn · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 1 Lohn · S. 9
 
 •   Vergütungen für den Arbeitsweg: Werden dem Arbeitnehmer die Arbeitswegkosten   17
     bezahlt, so wird der Betrag als Berufskostenentschädigung in Ziffer 2.3 deklariert. In die

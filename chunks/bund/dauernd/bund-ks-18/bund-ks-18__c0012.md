@@ -9,7 +9,7 @@ ziffer: "5.5"
 seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.5 Ohne 2. Säule · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.5 Ohne 2. Säule · S. 5
 
 Auch bei Selbständigerwerbenden, die ihr Geschäftsjahr per Ende des Kalenderjahres ab-
 schliessen, gilt, dass Beiträge an die Säule 3a bis Ende des Kalenderjahres geleistet werden

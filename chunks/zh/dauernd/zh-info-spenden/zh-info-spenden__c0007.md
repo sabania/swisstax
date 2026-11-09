@@ -7,7 +7,7 @@ typ: info
 titel: "Was Sie abziehen können"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Spenden · Spenden an gemeinnützige Organisationen › Abzug von Spenden an steuerbefreite Organisationen › Was Sie abziehen können
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Spenden · Spenden an gemeinnützige Organisationen › Abzug von Spenden an steuerbefreite Organisationen › Was Sie abziehen können
 
 ### Was Sie abziehen können
 

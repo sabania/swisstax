@@ -8,7 +8,7 @@ titel: "Art. 11 GSV AR – Ertragswert allgemeiner Grundstücke"
 artikel: "Art. 11"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 11 Ertragswert allgemeiner Grundstücke
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 11 Ertragswert allgemeiner Grundstücke
 
 ### Art. 11 GSV AR – Ertragswert allgemeiner Grundstücke
 

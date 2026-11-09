@@ -8,7 +8,7 @@ titel: "Art. 67 StV AR – Voraussetzungen (Art. 222 StG)"
 artikel: "Art. 67"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 7. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 67 Voraussetzungen (Art. 222 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 7. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 67 Voraussetzungen (Art. 222 StG)
 
 ### Art. 67 StV AR – Voraussetzungen (Art. 222 StG)
 

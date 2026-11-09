@@ -9,7 +9,7 @@ artikel: "§ 284"
 seiten: "94"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 284 StG ZH – VI. Änderung bisherigen Rechts · S. 94
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 284 StG ZH – VI. Änderung bisherigen Rechts · S. 94
 
 ### § 284 StG ZH – VI. Änderung bisherigen Rechts
 

@@ -12,6 +12,7 @@ raw: raw/zh/dauernd/zh-portal-steuererklaerung.html
 sha256: 52a9c19f16089c7c1112281baba3cb06c1bf553278886d1916baf42eb522c9e4
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Übersicht Steuererklärung Privatpersonen
 

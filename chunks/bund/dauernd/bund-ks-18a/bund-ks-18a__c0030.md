@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0030
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.2 b WEF – keine Rückzahlung, Verpfändung, Besteuerung, Ehegatten als Eigentümer"
 ziffer: "6.2 b"
 seiten: "10"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung und Übertragung · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung und Übertragung · S. 10
 
 Rückzahlung, wie sie beim Vorbezug in der zweiten Säule vorgesehen ist, ist dagegen in der
 Säule 3a nicht möglich. Im Übrigen kann der Versicherte den Anspruch auf Vorsorgeleistun-

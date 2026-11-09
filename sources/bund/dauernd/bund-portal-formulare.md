@@ -12,6 +12,7 @@ raw: raw/bund/dauernd/bund-portal-formulare.html
 sha256: 96994d9860c6231c5b1836f6e284f212f91ce847ebb73b33eb4dcb43669992fe
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Formulare und Wegleitungen DBST (Übersicht)
 

@@ -9,7 +9,7 @@ ziffer: "§ 34"
 seiten: "2-3"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 34 · S. 2–3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 34 · S. 2–3
 
 IV. Sozialabzüge   § 34. 1 Vom Reineinkommen werden für die Steuerberechnung
     abgezogen:

@@ -8,7 +8,7 @@ titel: "§ 12 SchäV TG – Verkehrswert"
 artikel: "§ 12"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 12 Verkehrswert
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 12 Verkehrswert
 
 ### § 12 SchäV TG – Verkehrswert
 

@@ -4,13 +4,18 @@ titel: 'ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung'
 kurz: ZStB 132.1
 jurisdiktion: zh
 jahre:
+- 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-132-1.html
 raw: raw/zh/dauernd/zh-zstb-132-1.html
 sha256: e9b33079fa959489e68350aa1425fd3d88ed1af138b513b01fc25459b633349a
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: verfahren
+gilt_ab: '2026-01-01'
+ersetzt: zh-zstb-132-1-bis-2025
 ---
 # ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung
 

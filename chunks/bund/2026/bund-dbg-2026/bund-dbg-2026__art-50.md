@@ -8,7 +8,7 @@ titel: "Art. 50 DBG – Persönliche Zugehörigkeit"
 artikel: "Art. 50"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 2. Kapitel: Steuerliche Zugehörigkeit › Art. 50 Persönliche Zugehörigkeit
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 2. Kapitel: Steuerliche Zugehörigkeit › Art. 50 Persönliche Zugehörigkeit
 
 ### Art. 50 DBG – Persönliche Zugehörigkeit
 

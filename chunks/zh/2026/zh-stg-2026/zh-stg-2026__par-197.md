@@ -9,7 +9,7 @@ artikel: "§ 197"
 seiten: "74"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 197 StG ZH – III. Steuerbezug und Steuererlass 1. Im Allgemeinen · S. 74
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 197 StG ZH – III. Steuerbezug und Steuererlass 1. Im Allgemeinen · S. 74
 
 ### § 197 StG ZH – III. Steuerbezug und Steuererlass 1. Im Allgemeinen
 

@@ -8,7 +8,7 @@ titel: "Art. 141 DBG – Voraussetzungen für die Beschwerde der Aufsichtsbehör
 artikel: "Art. 141"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 141 Voraussetzungen für die Beschwerde der Aufsichtsbehörden
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 141 Voraussetzungen für die Beschwerde der Aufsichtsbehörden
 
 ### Art. 141 DBG – Voraussetzungen für die Beschwerde der Aufsichtsbehörden
 

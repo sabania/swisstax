@@ -8,7 +8,7 @@ titel: "Art. 152 StG AR – Grundstückschätzungsbehörde"
 artikel: "Art. 152"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › A. Steuerverwaltungsbehörden: Organisation › Art. 152 Grundstückschätzungsbehörde
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › A. Steuerverwaltungsbehörden: Organisation › Art. 152 Grundstückschätzungsbehörde
 
 ### Art. 152 StG AR – Grundstückschätzungsbehörde
 

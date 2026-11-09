@@ -1,171 +1,173 @@
 {
-"id": "zh-zstb-139-2-bis-2025-06",
-"hinweise": [
-"Seiten 1,3,5: Kopfzeilen mit Fontcodes (wΩêÅÜÉê=píÉìÉêÄìÅÜ) verunstaltet; Randziffern stehen am Zeilenende statt links; Seite 6 leer."
-],
-"chunks": [
-{
-"start": 16,
-"titel": "Weisung Einschätzung ohne Steuererklärung – Titel, A.I. Aufgaben Gemeindesteueramt (Rz 1–3)",
-"pfad": [
-"A. Verfahren",
-"I. Einschätzung durch das kantonale Steueramt"
-],
-"ziffer": "Rz 1–3",
-"stichworte": [
-"Ermessenseinschätzung",
-"Fehlblatt",
-"Steuererklärung nicht eingereicht",
-"Mahnung",
-"Gemeindesteueramt"
-],
-"positionen": [
-"verfahren.einreichung"
-],
-"zusammenfassung": "Bei fehlender oder offensichtlich unrichtiger Steuererklärung trotz Mahnung erstellt das Gemeindesteueramt ein Fehlblatt (StA Form. 109) mit Antrag auf Ermessenseinschätzung (§ 139 Abs. 2 StG, Art. 130 Abs. 2 DBG)."
-},
-{
-"start": 49,
-"titel": "Rz 4–6 Aufgaben der Divisionen – Ermessenseinschätzung, Bussenverfahren",
-"pfad": [
-"A. Verfahren",
-"I. Einschätzung durch das kantonale Steueramt"
-],
-"ziffer": "Rz 4–6",
-"stichworte": [
-"Division",
-"Busse",
-"Verfahrenspflichten",
-"Art. 174 DBG",
-"Ermessenseinschätzung"
-],
-"positionen": [
-"verfahren.einreichung"
-],
-"zusammenfassung": "Divisionen sind für die Ermessenseinschätzung zuständig und beantragen Bussen wegen Verletzung von Verfahrenspflichten (Art. 174 DBG)."
-},
-{
-"start": 68,
-"titel": "Rz 7–12 Ermessenseinschätzung durch Gemeinden – Zuständigkeit, Staats- und Bundessteuer",
-"pfad": [
-"A. Verfahren",
-"II. Ermessenseinschätzungen durch die Gemeinden"
-],
-"ziffer": "Rz 7–12",
-"stichworte": [
-"Gemeinde Einschätzung",
-"Form. 49",
-"Bundessteuer Veranlagung",
-"Unselbständigerwerbende",
-"Sichtverfahren"
-],
-"positionen": [
-"verfahren.einreichung"
-],
-"zusammenfassung": "Gemeinden können Ermessenseinschätzungen für unselbständig Erwerbende vornehmen (StA Form. 49 im Doppel); die direkte Bundessteuer wird gleichzeitig veranlagt."
-},
-{
-"start": 92,
-"titel": "Rz 13–15 Zustellung der Einschätzungsentscheide, Einsprache",
-"pfad": [
-"A. Verfahren",
-"II. Ermessenseinschätzungen durch die Gemeinden"
-],
-"ziffer": "Rz 13–15",
-"stichworte": [
-"Zustellung",
-"eingeschrieben",
-"Einsprache",
-"Annahme verweigert",
-"Einschätzungsentscheid"
-],
-"positionen": [
-"verfahren.einreichung",
-"verfahren.bezug"
-],
-"zusammenfassung": "Entscheide werden eingeschrieben oder gegen Empfangsschein zugestellt; bei Annahmeverweigerung wird trotzdem eine Steuerrechnung zugestellt; Einsprache geht ans kantonale Steueramt."
-},
-{
-"start": 116,
-"titel": "Rz 16–21 Ablieferung der Unterlagen, Meldung Bundessteuer, Bussen, fehlerhafte Zustellung",
-"pfad": [
-"A. Verfahren",
-"II. Ermessenseinschätzungen durch die Gemeinden"
-],
-"ziffer": "Rz 16–21",
-"stichworte": [
-"Ablieferung Akten",
-"Scan-Center",
-"Bussenverfahren",
-"Sonderbeitrag",
-"Dienstabteilung Bundessteuer"
-],
-"positionen": [
-"verfahren.einreichung"
-],
-"zusammenfassung": "Doppel der Entscheide an das Scan-Center; Bussenanträge an die Dienstabteilung Bundessteuer; bei fehlerhafter Zustellung entfällt der Sonderbeitrag."
-},
-{
-"start": 153,
-"titel": "B. Grundsätze der ermessensweisen Festsetzung von Einkommen und Vermögen (Rz 22–24)",
-"pfad": [
-"B. Grundsätze der Ermessenseinschätzung"
-],
-"ziffer": "Rz 22–24",
-"stichworte": [
-"Ermessen",
-"Schätzung Einkommen",
-"Lebensaufwand",
-"Vermögensneubildung",
-"§ 139 Abs. 2 StG"
-],
-"positionen": [
-"verfahren.einreichung"
-],
-"zusammenfassung": "Einkommen ist so zu schätzen, dass der Pflichtige von der Nichtabgabe nicht profitiert; Vermögen nur bei früherer Veranlagung oder vermuteter Neubildung."
-},
-{
-"start": 168,
-"titel": "C. Nachträgliche Steuererklärungen – Rz 25–27 (innerhalb Einsprachefrist)",
-"pfad": [
-"C. Nachträgliche Steuererklärungen"
-],
-"ziffer": "Rz 25–28",
-"stichworte": [
-"nachträgliche Steuererklärung",
-"Einsprachefrist",
-"Einsprache",
-"Vermerk",
-"verspätet eingereicht"
-],
-"positionen": [
-"verfahren.einreichung"
-],
-"zusammenfassung": "Wird die Steuererklärung innerhalb der Einsprachefrist nachgereicht, gilt sie als Einsprache und geht mit dem Doppel des Entscheids ans kantonale Steueramt."
-},
-{
-"start": 179,
-"titel": "C. Nachträgliche Steuererklärungen – Rz 28 (nach Fristablauf), Schluss der Weisung",
-"pfad": [
-"C. Nachträgliche Steuererklärungen"
-],
-"ziffer": "Rz 25–28",
-"stichworte": [
-"nachträgliche Steuererklärung",
-"Einsprachefrist",
-"Einsprache",
-"Vermerk",
-"verspätet eingereicht"
-],
-"positionen": [
-"verfahren.einreichung"
-],
-"zusammenfassung": "Nach Ablauf der Einsprachefrist: Vermerk «Einsprache?» und Weiterleitung; Weisung der Finanzdirektion vom 17. Februar 2006."
-},
-{
-"start": 199,
-"skip": true,
-"titel": "Leere Seite 6"
-}
-]
+ "id": "zh-zstb-139-2-bis-2025-06",
+ "hinweise": [
+  "Seiten 1,3,5: Kopfzeilen mit Fontcodes (wΩêÅÜÉê=píÉìÉêÄìÅÜ) verunstaltet; Randziffern stehen am Zeilenende statt links; Seite 6 leer."
+ ],
+ "chunks": [
+  {
+   "start": 1,
+   "titel": "Weisung Einschätzung ohne Steuererklärung – Titel, A.I. Aufgaben Gemeindesteueramt (Rz 1–3)",
+   "pfad": [
+    "A. Verfahren",
+    "I. Einschätzung durch das kantonale Steueramt"
+   ],
+   "ziffer": "Rz 1–3",
+   "stichworte": [
+    "Ermessenseinschätzung",
+    "Fehlblatt",
+    "Steuererklärung nicht eingereicht",
+    "Mahnung",
+    "Gemeindesteueramt"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Bei fehlender oder offensichtlich unrichtiger Steuererklärung trotz Mahnung erstellt das Gemeindesteueramt ein Fehlblatt (StA Form. 109) mit Antrag auf Ermessenseinschätzung (§ 139 Abs. 2 StG, Art. 130 Abs. 2 DBG)."
+  },
+  {
+   "start": 34,
+   "titel": "Rz 4–6 Aufgaben der Divisionen – Ermessenseinschätzung, Bussenverfahren",
+   "pfad": [
+    "A. Verfahren",
+    "I. Einschätzung durch das kantonale Steueramt"
+   ],
+   "ziffer": "Rz 4–6",
+   "stichworte": [
+    "Division",
+    "Busse",
+    "Verfahrenspflichten",
+    "Art. 174 DBG",
+    "Ermessenseinschätzung"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Divisionen sind für die Ermessenseinschätzung zuständig und beantragen Bussen wegen Verletzung von Verfahrenspflichten (Art. 174 DBG)."
+  },
+  {
+   "start": 53,
+   "titel": "Rz 7–12 Ermessenseinschätzung durch Gemeinden – Zuständigkeit, Staats- und Bundessteuer",
+   "pfad": [
+    "A. Verfahren",
+    "II. Ermessenseinschätzungen durch die Gemeinden"
+   ],
+   "ziffer": "Rz 7–12",
+   "stichworte": [
+    "Gemeinde Einschätzung",
+    "Form. 49",
+    "Bundessteuer Veranlagung",
+    "Unselbständigerwerbende",
+    "Sichtverfahren"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Gemeinden können Ermessenseinschätzungen für unselbständig Erwerbende vornehmen (StA Form. 49 im Doppel); die direkte Bundessteuer wird gleichzeitig veranlagt."
+  },
+  {
+   "start": 77,
+   "titel": "Rz 13–15 Zustellung der Einschätzungsentscheide, Einsprache",
+   "pfad": [
+    "A. Verfahren",
+    "II. Ermessenseinschätzungen durch die Gemeinden"
+   ],
+   "ziffer": "Rz 13–15",
+   "stichworte": [
+    "Zustellung",
+    "eingeschrieben",
+    "Einsprache",
+    "Annahme verweigert",
+    "Einschätzungsentscheid"
+   ],
+   "positionen": [
+    "verfahren.einreichung",
+    "verfahren.bezug"
+   ],
+   "zusammenfassung": "Entscheide werden eingeschrieben oder gegen Empfangsschein zugestellt; bei Annahmeverweigerung wird trotzdem eine Steuerrechnung zugestellt; Einsprache geht ans kantonale Steueramt."
+  },
+  {
+   "start": 101,
+   "titel": "Rz 16–21 Ablieferung der Unterlagen, Meldung Bundessteuer, Bussen, fehlerhafte Zustellung",
+   "pfad": [
+    "A. Verfahren",
+    "II. Ermessenseinschätzungen durch die Gemeinden"
+   ],
+   "ziffer": "Rz 16–21",
+   "stichworte": [
+    "Ablieferung Akten",
+    "Scan-Center",
+    "Bussenverfahren",
+    "Sonderbeitrag",
+    "Dienstabteilung Bundessteuer"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Doppel der Entscheide an das Scan-Center; Bussenanträge an die Dienstabteilung Bundessteuer; bei fehlerhafter Zustellung entfällt der Sonderbeitrag."
+  },
+  {
+   "start": 138,
+   "titel": "B. Grundsätze der ermessensweisen Festsetzung von Einkommen und Vermögen (Rz 22–24)",
+   "pfad": [
+    "B. Grundsätze der Ermessenseinschätzung"
+   ],
+   "ziffer": "Rz 22–24",
+   "stichworte": [
+    "Ermessen",
+    "Schätzung Einkommen",
+    "Lebensaufwand",
+    "Vermögensneubildung",
+    "§ 139 Abs. 2 StG"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Einkommen ist so zu schätzen, dass der Pflichtige von der Nichtabgabe nicht profitiert; Vermögen nur bei früherer Veranlagung oder vermuteter Neubildung."
+  },
+  {
+   "start": 153,
+   "titel": "C. Nachträgliche Steuererklärungen – Rz 25–27 (innerhalb Einsprachefrist)",
+   "pfad": [
+    "C. Nachträgliche Steuererklärungen"
+   ],
+   "ziffer": "Rz 25–28",
+   "stichworte": [
+    "nachträgliche Steuererklärung",
+    "Einsprachefrist",
+    "Einsprache",
+    "Vermerk",
+    "verspätet eingereicht"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Wird die Steuererklärung innerhalb der Einsprachefrist nachgereicht, gilt sie als Einsprache und geht mit dem Doppel des Entscheids ans kantonale Steueramt."
+  },
+  {
+   "start": 164,
+   "titel": "C. Nachträgliche Steuererklärungen – Rz 28 (nach Fristablauf), Schluss der Weisung",
+   "pfad": [
+    "C. Nachträgliche Steuererklärungen"
+   ],
+   "ziffer": "Rz 25–28",
+   "stichworte": [
+    "nachträgliche Steuererklärung",
+    "Einsprachefrist",
+    "Einsprache",
+    "Vermerk",
+    "verspätet eingereicht"
+   ],
+   "positionen": [
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Nach Ablauf der Einsprachefrist: Vermerk «Einsprache?» und Weiterleitung; Weisung der Finanzdirektion vom 17. Februar 2006."
+  },
+  {
+   "start": 184,
+   "skip": true,
+   "titel": "Leere Seite 6"
+  }
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

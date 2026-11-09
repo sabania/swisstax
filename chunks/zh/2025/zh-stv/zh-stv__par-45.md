@@ -9,7 +9,7 @@ artikel: "§ 45"
 seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › C. Einschätzungsverfahren › § 45 StV ZH – 2. Erledigung der Einsprachen · S. 9
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › C. Einschätzungsverfahren › § 45 StV ZH – 2. Erledigung der Einsprachen · S. 9
 
 ### § 45 StV ZH – 2. Erledigung der Einsprachen
 

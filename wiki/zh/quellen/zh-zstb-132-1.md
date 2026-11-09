@@ -2,16 +2,29 @@
 typ: quelle
 id: zh-zstb-132-1
 jur: zh
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 titel: "ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung"
 generiert: tools/build_index.py
 ---
 # ZStB 132.1: ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung
 
-- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2026
+- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-132-1.html> · lokal: [zh-zstb-132-1.html](../../../raw/zh/dauernd/zh-zstb-132-1.html) · Volltext: [zh-zstb-132-1.md](../../../sources/zh/dauernd/zh-zstb-132-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `e9b33079fa959489…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2026-01-01 bis offen · ersetzt `zh-zstb-132-1-bis-2025`
 - ⚠ **Hinweis:** Verfahrensregel: gilt ab 1.1.2026 (d.h. auch für die 2026 einzureichende Steuererklärung 2025) – Vorgängerfassung siehe zh-zstb-132-1-bis-2025.
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 5 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-132-1`).
+
+- `data/werte/zh/2025.yaml#64:verfahren.einreichefrist` (agent-geprueft)
+- `data/werte/zh/2025.yaml#65:verfahren.fristerstreckung` (agent-geprueft)
+- `data/werte/zh/2025.yaml#66:verfahren.abgabeweg` (agent-geprueft)
+- `data/werte/zh/2026.yaml#64:verfahren.einreichefrist` (agent-geprueft)
+- `data/werte/zh/2026.yaml#65:verfahren.fristerstreckung` (agent-geprueft)
+- [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (37 Chunks)
 

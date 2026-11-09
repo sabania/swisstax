@@ -9,7 +9,7 @@ artikel: "§ 166"
 seiten: "68"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 166 StG ZH – IV. Mitwirkungspflichten · S. 68
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 166 StG ZH – IV. Mitwirkungspflichten · S. 68
 
 ### § 166 StG ZH – IV. Mitwirkungspflichten
 

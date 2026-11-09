@@ -9,7 +9,7 @@ ziffer: "13–15"
 seiten: "3-4"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 3. Landwerte · S. 3–4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 3. Landwerte · S. 3–4
 
 Bauland für Einfamilienhäuser
    Der Landwert beträgt 60% der gemäss Ziff. 10–12 ermittelten 13

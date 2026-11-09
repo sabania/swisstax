@@ -9,7 +9,7 @@ artikel: "§ 71"
 seiten: "39"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 71 StG ZH – II. Steuerberechnung 1. Kapitalgesellschaften und Genossenschaften · S. 39
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 71 StG ZH – II. Steuerberechnung 1. Kapitalgesellschaften und Genossenschaften · S. 39
 
 ### § 71 StG ZH – II. Steuerberechnung 1. Kapitalgesellschaften und Genossenschaften
 

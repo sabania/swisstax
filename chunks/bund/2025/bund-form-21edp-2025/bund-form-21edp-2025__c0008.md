@@ -8,7 +8,7 @@ titel: "Fussnoten 1–3 zu Formular 21 EDP (Lohnausweis, erstes Vorsorgeverhält
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · Fussnoten · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · Formular 21 EDP 2025 · Fussnoten · S. 2
 
 1 Bei Arbeitnehmern/Arbeitnehmerinnen sind alle vom Lohn abgezogenen Beiträge durch den/die Arbeitgeber/in im Lohn-
 

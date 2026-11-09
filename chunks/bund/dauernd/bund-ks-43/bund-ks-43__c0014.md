@@ -2,14 +2,14 @@
 id: bund-ks-43__c0014
 quelle: bund-ks-43
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang Beispiel 3 – Gehalt Doktorand (CHF 1'960 monatlich)"
 ziffer: "Beispiel 3"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · Anhang: Beispiele · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 43 · Anhang: Beispiele · S. 5
 
 Beispiel 3: Besteuerung eines Förderbeitrages im Wissenschaftsbereich
 Sachverhalt: Der Doktorand C forscht zu 50 Prozent an der Universität Zürich. Die Universität

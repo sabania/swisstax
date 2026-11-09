@@ -8,7 +8,7 @@ titel: "Art. 17 QStV – Hypothekargläubigerinnen und Hypothekargläubiger"
 artikel: "Art. 17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 17 Hypothekargläubigerinnen und Hypothekargläubiger
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 17 Hypothekargläubigerinnen und Hypothekargläubiger
 
 ### Art. 17 QStV – Hypothekargläubigerinnen und Hypothekargläubiger
 

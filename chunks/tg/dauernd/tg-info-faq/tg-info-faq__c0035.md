@@ -7,7 +7,7 @@ typ: info
 titel: "Vorsorge 2. und 3. Säule"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
 
     - [StP 34 Nr. 15 "Beiträge an die gebundene Selbstvorsorge (Säule 3a)"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-34-nr-15-beitrage-saeule-3a&version=latest)
     - [StP 34 Nr. 16 "Abzugsberechtigte Beiträge an die gebundene Selbstvorsorge"](https://steuerpraxis.tg.ch/steuerpraxis?contextKey=stp-34-nr-16-abzugsberechtigte-beitraege-saeule-3a&version=latest)

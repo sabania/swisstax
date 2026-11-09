@@ -8,7 +8,7 @@ titel: "Art. 198 StG SG – Berichtigung"
 artikel: "Art. 198"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 198 Berichtigung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 198 Berichtigung
 
 ### Art. 198 StG SG – Berichtigung
 

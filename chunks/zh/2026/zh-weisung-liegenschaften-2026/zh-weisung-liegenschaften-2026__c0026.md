@@ -9,7 +9,7 @@ ziffer: "61–62"
 seiten: "12"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › I. Einfamilienhäuser und Stockwerkeigentum · S. 12
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › I. Einfamilienhäuser und Stockwerkeigentum · S. 12
 
  61   Auf Verlangen des Steuerpflichtigen werden bei der Berechnung
     des Eigenmietwerts, vorbehältlich des entsprechenden Nachweises,

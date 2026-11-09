@@ -2,15 +2,22 @@
 typ: quelle
 id: ar-mb-11
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 11: Steuererlass"
 generiert: tools/build_index.py
 ---
 # MB AR 11: Merkblatt 11: Steuererlass
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/11_Steuererlass__alle_Jahre_.pdf> · lokal: [ar-mb-11.pdf](../../../raw/ar/dauernd/ar-mb-11.pdf) · Volltext: [ar-mb-11.md](../../../sources/ar/dauernd/ar-mb-11.md)
 - **Abgerufen:** 2026-11-09 · sha256 `6213779d4a585ee6…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-11`).
+
+- [wiki/ar/ar-ueberblick.md](../ar-ueberblick.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

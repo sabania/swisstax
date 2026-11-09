@@ -2,14 +2,14 @@
 id: bund-ks-45__c0201
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 10.1 Zusätzliche Abzüge, Antrag auf nachträgliche ordentliche Veranlagung oder Neuberechnung"
 ziffer: "10.1"
 seiten: "63"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers › 10.1 Rechte · S. 63
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers › 10.1 Rechte · S. 63
 
 Will ein nicht der obligatorischen nachträglichen Veranlagung unterliegender Arbeitnehmer
 zusätzliche, im Quellensteuertarif gar nicht oder bloss pauschal berücksichtigte Abzüge gel-

@@ -8,7 +8,7 @@ titel: "Art. 142 StG AR – c) Steueranspruch"
 artikel: "Art. 142"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 142 c) Steueranspruch
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 142 c) Steueranspruch
 
 ### Art. 142 StG AR – c) Steueranspruch
 

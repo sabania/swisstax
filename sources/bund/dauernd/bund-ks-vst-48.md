@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2019-12-04'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/Rzn0Ij6R9WFM/dbst-ks-2019-1-048-v-de.pdf
@@ -14,6 +15,8 @@ sha256: 764a96d0cabb5f2baffbaecd48b9694246305c62f5e2af44bd1a5d2da6f4c324
 abgerufen: '2026-11-09'
 seiten: 5
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2019-01-01'
 ---
 # ESTV-Kreisschreiben VST Nr. 48: Verwirkung des Rückerstattungsanspruchs (Art. 23 VStG)
 

@@ -9,7 +9,7 @@ artikel: "§ 2"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Allgemeine Bestimmungen › § 2 StV ZH – 1. Fehlende Unterschrift · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Allgemeine Bestimmungen › § 2 StV ZH – 1. Fehlende Unterschrift · S. 1
 
 ### § 2 StV ZH – 1. Fehlende Unterschrift
 

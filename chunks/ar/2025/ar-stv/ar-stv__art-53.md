@@ -8,7 +8,7 @@ titel: "Art. 53 StV AR – Gemischte Schenkung (Art. 136 StG)"
 artikel: "Art. 53"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Erster Teil: Staatssteuern › 5. Erbschafts- und Schenkungssteuer › Art. 53 Gemischte Schenkung (Art. 136 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Erster Teil: Staatssteuern › 5. Erbschafts- und Schenkungssteuer › Art. 53 Gemischte Schenkung (Art. 136 StG)
 
 ### Art. 53 StV AR – Gemischte Schenkung (Art. 136 StG)
 

@@ -8,7 +8,7 @@ titel: "Art. 18 StV SG – Berufskosten bei unselbständiger Erwerbstätigkeit a
 artikel: "Art. 18"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 18 Berufskosten bei unselbständiger Erwerbstätigkeit a) Fahrkosten (Art. 39 Abs. 1 Bst. a und Abs. 2 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 18 Berufskosten bei unselbständiger Erwerbstätigkeit a) Fahrkosten (Art. 39 Abs. 1 Bst. a und Abs. 2 StG)
 
 ### Art. 18 StV SG – Berufskosten bei unselbständiger Erwerbstätigkeit a) Fahrkosten (Art. 39 Abs. 1 Bst. a und Abs. 2 StG)
 

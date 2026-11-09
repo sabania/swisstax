@@ -8,7 +8,7 @@ titel: "Art. 263 StG SG – Verjährung der Strafverfolgung"
 artikel: "Art. 263"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 263 Verjährung der Strafverfolgung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 263 Verjährung der Strafverfolgung
 
 ### Art. 263 StG SG – Verjährung der Strafverfolgung
 

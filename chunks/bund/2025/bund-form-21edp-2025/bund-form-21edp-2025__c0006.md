@@ -9,7 +9,7 @@ ziffer: "3"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › 3. Einkäufe Säule 3a · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › 3. Einkäufe Säule 3a · S. 1
 
 x Total Einkaufsbeiträge in die Säule 3a – Total des rachats au pilier 3a – Totale acquisti al pilastro 3a   0
 

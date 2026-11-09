@@ -16,8 +16,8 @@ blindtest:
     - id: b03
       typ: zahl
       frage: "Kanton Appenzell Ausserrhoden, Steuerjahr 2025: Welchen Kinderabzug können Eltern für ein 3-jähriges, ein 10-jähriges und ein 16-jähriges (noch minderjähriges) Kind geltend machen?"
-      soll: "AR (Kantonssteuer) 2025: 3-jähriges Kind (bis Vollendung des 4. Altersjahrs) Fr. 5'000; 10-jähriges Kind (nach Vollendung des 4. bis Vollendung des 15. Altersjahrs) Fr. 7'000; 16-jähriges Kind (nach Vollendung des 15. Altersjahrs bis Volljährigkeit) Fr. 11'000. Gleiche Beträge gelten für volljährige Kinder in Ausbildung bis zum 26. Altersjahr."
-      fundstellen: [ar-mb-02__c0002]
+      soll: "AR (Kantonssteuer) 2025, indexierte Beträge gemäss Anhang 1 StG (bestätigt durch WL AR 2025 Ziff. 23): 3-jähriges Kind (bis Vollendung des 4. Altersjahrs) Fr. 5'300; 10-jähriges Kind (nach Vollendung des 4. bis Vollendung des 15. Altersjahrs) Fr. 7'400; 16-jähriges Kind (nach Vollendung des 15. Altersjahrs bis Volljährigkeit) Fr. 11'600. Gleiche Beträge für volljährige Kinder in Ausbildung bis zum 26. Altersjahr. (Korrigiert nach Bewertung Lauf A: die ursprüngliche Referenz nannte die nicht indexierten Merkblatt-Beträge 5'000/7'000/11'000.)"
+      fundstellen: [ar-stg-anhang-kp__c0001, ar-wl-2025__c0005, ar-mb-02__c0002]
       zitat: "Fr. 7'000   für jedes Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person nach"
     - id: b04
       typ: zahl

@@ -2,14 +2,14 @@
 id: bund-ks-15__c0026
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben"
 ziffer: "3.2"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.2 Obligationen mit überwiegender Einmalverzinsung · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · 3 Grundsätze der Besteuerung › 3.2 Obligationen mit überwiegender Einmalverzinsung · S. 8
 
 Die steuerliche Behandlung von allfälligen negativen Differenzen zwischen Anschaffungs-
 und Veräusserungs- oder Rückzahlungsbeträgen ist gesetzlich nicht geregelt. Diese Situa-

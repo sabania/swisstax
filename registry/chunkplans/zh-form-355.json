@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Schuldenverzeichnis Form. 355 – Privatschulden und Schuldzinsen (Codes 3200/3201)",
    "pfad": [
     "Schuldenverzeichnis"
@@ -25,5 +25,7 @@
    ],
    "zusammenfassung": "Privatschulden inkl. Grundpfandschulden per 31. Dezember und Schuldzinsen; Total Schulden zu Seite 4 Ziffer 34, Schuldzinsen zu Seite 3 Ziffer 12 der Steuererklärung."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

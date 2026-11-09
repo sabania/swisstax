@@ -8,7 +8,7 @@ titel: "Art. 153 StG SG – Steuerberechnung a) Steuerfreie Beträge"
 artikel: "Art. 153"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 153 Steuerberechnung a) Steuerfreie Beträge
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 153 Steuerberechnung a) Steuerfreie Beträge
 
 ### Art. 153 StG SG – Steuerberechnung a) Steuerfreie Beträge
 

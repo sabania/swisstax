@@ -8,7 +8,7 @@ titel: "Art. 144 DBG – Kosten"
 artikel: "Art. 144"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 144 Kosten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 144 Kosten
 
 ### Art. 144 DBG – Kosten
 

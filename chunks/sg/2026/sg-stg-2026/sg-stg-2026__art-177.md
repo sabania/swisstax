@@ -8,7 +8,7 @@ titel: "Art. 177 StG SG – b) Ermessensveranlagung"
 artikel: "Art. 177"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 177 b) Ermessensveranlagung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 177 b) Ermessensveranlagung
 
 ### Art. 177 StG SG – b) Ermessensveranlagung
 

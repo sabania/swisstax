@@ -2,14 +2,14 @@
 id: bund-ks-42__c0024
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.7 Vom Arbeitgeber bezahlte Weiterbildung – Art. 17 Abs. 1bis DBG"
 ziffer: "4.7"
 seiten: "9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.7 Vom Arbeitgeber bezahlte Kosten · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 4 Steuerliche Behandlung › 4.7 Vom Arbeitgeber bezahlte Kosten · S. 9
 
 4.7   Vom Arbeitgeber bezahlte berufsorientierte Aus- und Weiterbildungskosten
 Grundsätzlich stellen geldwerte Vorteile, welche vom Arbeitgeber an den Arbeitnehmer fliessen,

@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-vst-48
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben VST Nr. 48: Verwirkung des Rückerstattungsanspruchs (Art. 23 VStG)"
 generiert: tools/build_index.py
 ---
 # KS VST 48: ESTV-Kreisschreiben VST Nr. 48: Verwirkung des Rückerstattungsanspruchs (Art. 23 VStG)
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2019-12-04
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2019-12-04
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/Rzn0Ij6R9WFM/dbst-ks-2019-1-048-v-de.pdf> · lokal: [bund-ks-vst-48.pdf](../../../raw/bund/dauernd/bund-ks-vst-48.pdf) · Volltext: [bund-ks-vst-48.md](../../../sources/bund/dauernd/bund-ks-vst-48.md)
 - **Abgerufen:** 2026-11-09 · sha256 `764a96d0cabb5f2b…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2019-01-01 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

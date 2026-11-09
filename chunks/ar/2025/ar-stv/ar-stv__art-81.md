@@ -8,7 +8,7 @@ titel: "Art. 81 StV AR – Inkrafttreten"
 artikel: "Art. 81"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 81 Inkrafttreten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 81 Inkrafttreten
 
 ### Art. 81 StV AR – Inkrafttreten
 

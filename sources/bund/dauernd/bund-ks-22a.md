@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2020-01-31'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/FeGNLMYSgFGL/dbst-ks-2020-1-022a-d-de.pdf
@@ -14,6 +15,8 @@ sha256: 3aac9fe5dc87a3919cfae8cca84959817c074f081b7c7ec4dbe8a9c44c7c9463
 abgerufen: '2026-11-09'
 seiten: 8
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2020-01-01'
 ---
 # ESTV-Kreisschreiben Nr. 22a: Teilbesteuerung Beteiligungserträge im Privatvermögen, Schuldzinsen
 

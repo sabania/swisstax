@@ -8,7 +8,7 @@ titel: "Art. 318 StG SG – Verordnung"
 artikel: "Art. 318"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 318 Verordnung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 318 Verordnung
 
 ### Art. 318 StG SG – Verordnung
 

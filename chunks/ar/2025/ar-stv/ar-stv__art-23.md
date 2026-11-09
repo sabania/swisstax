@@ -8,7 +8,7 @@ titel: "Art. 23 StV AR – Ersatzbeschaffung (Art. 32 StG)"
 artikel: "Art. 23"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 23 Ersatzbeschaffung (Art. 32 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 23 Ersatzbeschaffung (Art. 32 StG)
 
 ### Art. 23 StV AR – Ersatzbeschaffung (Art. 32 StG)
 

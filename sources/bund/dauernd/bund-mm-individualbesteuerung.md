@@ -3,15 +3,15 @@ id: bund-mm-individualbesteuerung
 titel: 'Medienmitteilung Bundesrat: Individualbesteuerung per 01.01.2032'
 kurz: MM Individualbesteuerung
 jurisdiktion: bund
-jahre:
-- 2025
-- 2026
+jahre: []
 typ: mitteilung
 quelle_url: https://www.admin.ch/de/newnsb/khPH1Sn08Zr6iGZYe4tsB
 raw: raw/bund/dauernd/bund-mm-individualbesteuerung.html
 sha256: 74b6d063ce8425074f2907c03738c0e3bcb6da754b6eff98722450a7a0f9903f
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
+gilt_ab: '2032-01-01'
 ---
 # Medienmitteilung Bundesrat: Individualbesteuerung per 01.01.2032
 

@@ -8,7 +8,7 @@ titel: "§ 19 SchäV TG – Unüberbautes Land"
 artikel: "§ 19"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 19 Unüberbautes Land
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 2. Schätzung nichtlandwirtschaftlicher Grundstücke › § 19 Unüberbautes Land
 
 ### § 19 SchäV TG – Unüberbautes Land
 

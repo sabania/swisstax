@@ -8,7 +8,7 @@ titel: "Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3) (Teil 1/2)"
 seiten: "3"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2025 · Steuerfüsse SG 2025 · Steuerfüsse 2025 › Tabelle Gemeinden · S. 3
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2025 · Steuerfüsse SG 2025 · Steuerfüsse 2025 › Tabelle Gemeinden · S. 3
 
 Gemeinde   Politische Gemeinde   Kirchgemeinde   Steuerfuss
 

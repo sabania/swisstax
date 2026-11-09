@@ -8,7 +8,7 @@ titel: "Art. 102 StG SG – Steuerperiode"
 artikel: "Art. 102"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › V. Zeitliche Bemessung › Art. 102 Steuerperiode
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › V. Zeitliche Bemessung › Art. 102 Steuerperiode
 
 ### Art. 102 StG SG – Steuerperiode
 

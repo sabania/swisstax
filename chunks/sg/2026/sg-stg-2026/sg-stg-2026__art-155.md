@@ -8,7 +8,7 @@ titel: "Art. 155 StG SG – c) Ermässigung bei Unternehmensnachfolge 1. Grundsa
 artikel: "Art. 155"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 155 c) Ermässigung bei Unternehmensnachfolge 1. Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 155 c) Ermässigung bei Unternehmensnachfolge 1. Grundsatz
 
 ### Art. 155 StG SG – c) Ermässigung bei Unternehmensnachfolge 1. Grundsatz
 

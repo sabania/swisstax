@@ -9,7 +9,7 @@ ziffer: "1–3"
 seiten: "6-7"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · Vorinformationen · S. 6–7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · Vorinformationen · S. 6–7
 
 Jeder Arbeitgeber ist verpflichtet, jedem Arbeitnehmenden einen Lohnausweis auszustellen.   2
 Darin sind sämtliche Leistungen bzw. geldwerten Vorteile zu deklarieren, die dem Arbeit

@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Rundschreiben · **gilt für Steuerjahre:** 2026 · **Stand:** 2026-01-30
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/04KIslBDT-PZ/2-219-DV-2026-d.pdf> · lokal: [bund-rs-2-219.pdf](../../../raw/bund/2026/bund-rs-2-219.pdf) · Volltext: [bund-rs-2-219.md](../../../sources/bund/2026/bund-rs-2-219.md)
 - **Abgerufen:** 2026-11-09 · sha256 `fd0869b79c5f9863…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31 · ersetzt `bund-rs-2-214`
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

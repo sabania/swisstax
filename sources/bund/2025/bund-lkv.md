@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: verordnung
 stand: '2020-01-01'
 quelle_url: https://www.fedlex.admin.ch/eli/cc/2018/212/20200101/de
@@ -14,6 +15,8 @@ sha256: 256fc1e23aa10367a3a674153a8a713e43bee1646f6aa54120c26f2be5f96dcb
 abgerufen: '2026-11-09'
 einheiten: 7
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2020-01-01'
 ---
 # Liegenschaftskostenverordnung (SR 642.116) – Fassung gültig ab 01.01.2020
 

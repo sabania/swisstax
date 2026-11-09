@@ -9,6 +9,6 @@ ziffer: "17"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: wegleitung}}
 ---
-> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 17. Zweiverdienerabzug · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 17. Zweiverdienerabzug · S. 1
 
 17.   Zweiverdienerabzug bei gemeinsamer Steuerpflicht, bei Erwerbstätigkeit beider Personen   max. Fr.   500   29

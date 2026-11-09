@@ -2,13 +2,13 @@
 id: sg-gsg__art-2
 quelle: sg-gsg
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 2 GGS SG – Schätzungsobjekte"
 artikel: "Art. 2"
-qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: sg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025/2026 · GGS SG · I. Allgemeine Bestimmungen › Art. 2 Schätzungsobjekte
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · GGS SG · I. Allgemeine Bestimmungen › Art. 2 Schätzungsobjekte
 
 ### Art. 2 GGS SG – Schätzungsobjekte
 

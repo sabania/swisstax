@@ -9,7 +9,7 @@ ziffer: "I/1 a–c"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · LS 631.33 (ab 2026) · Verfügung Finanzdirektion › I. Pauschalen › 1. Fahrten · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · LS 631.33 (ab 2026) · Verfügung Finanzdirektion › I. Pauschalen › 1. Fahrten · S. 1
 
 # Verfügung über die Pauschalierung der Berufsauslagen (LS 631.33) – Nachtrag 131, ab Steuerjahr 2026
 

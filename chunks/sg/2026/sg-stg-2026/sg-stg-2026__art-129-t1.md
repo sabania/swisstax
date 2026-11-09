@@ -8,7 +8,7 @@ titel: "Art. 129 StG SG – Gemeindeanteile (Teil 1/2)"
 artikel: "Art. 129"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 129 Gemeindeanteile
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 129 Gemeindeanteile
 
 ### Art. 129 StG SG – Gemeindeanteile
 

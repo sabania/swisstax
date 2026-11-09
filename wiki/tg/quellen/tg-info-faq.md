@@ -11,6 +11,19 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://steuerverwaltung.tg.ch/informationen/faq/natuerliche-personen.html/3823> · lokal: [tg-info-faq.html](../../../raw/tg/dauernd/tg-info-faq.html) · Volltext: [tg-info-faq.md](../../../sources/tg/dauernd/tg-info-faq.md)
 - **Abgerufen:** 2026-11-09 · sha256 `72d1298c706132d4…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 3 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-info-faq`).
+
+- `data/belege-teil1.yaml#14:arzt-zahnarzt-rechnungen` (agent-geprueft)
+- `data/belege-teil1.yaml#5:bescheinigung-pk-einkauf` (agent-geprueft)
+- `data/werte/tg/2025.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- [wiki/tg/tg-ueberblick.md](../tg-ueberblick.md)
+- [wiki/themen/interkantonale-ausscheidung.md](../../themen/interkantonale-ausscheidung.md)
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 
 ## Inhalt (82 Chunks)
 

@@ -2,13 +2,13 @@
 id: tg-stg__par-26-t2
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 26 StG TG – Steuerfreie Einkünfte (Teil 2/3)"
 artikel: "§ 26"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.2.2. Einkommenssteuer › 1.2.2.2. Steuerfreie Einkünfte › § 26 Steuerfreie Einkünfte
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.2.2. Einkommenssteuer › 1.2.2.2. Steuerfreie Einkünfte › § 26 Steuerfreie Einkünfte
 
 ### § 26 StG TG – Steuerfreie Einkünfte (Fortsetzung)
 

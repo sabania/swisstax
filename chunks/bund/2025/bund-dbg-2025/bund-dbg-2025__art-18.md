@@ -8,7 +8,7 @@ titel: "Art. 18 DBG – Grundsatz"
 artikel: "Art. 18"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 18 Grundsatz
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 18 Grundsatz
 
 ### Art. 18 DBG – Grundsatz
 

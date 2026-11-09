@@ -8,7 +8,7 @@ titel: "Art. 64 DBG – Ersatzbeschaffungen (Teil 2/2)"
 artikel: "Art. 64"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 64 Ersatzbeschaffungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 64 Ersatzbeschaffungen
 
 ### Art. 64 DBG – Ersatzbeschaffungen (Fortsetzung)
 

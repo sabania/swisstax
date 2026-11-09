@@ -8,7 +8,7 @@ titel: "Art. 41b StV AR – Entlastungsbegrenzung (Art. 70b StG)"
 artikel: "Art. 41b"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 41b Entlastungsbegrenzung (Art. 70b StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 41b Entlastungsbegrenzung (Art. 70b StG)
 
 ### Art. 41b StV AR – Entlastungsbegrenzung (Art. 70b StG)
 

@@ -8,7 +8,7 @@ titel: "Art. 59 StG AR – II. Steuerliche Zugehörigkeit 1. Persönliche Zugeh�
 artikel: "Art. 59"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 59 II. Steuerliche Zugehörigkeit 1. Persönliche Zugehörigkeit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 59 II. Steuerliche Zugehörigkeit 1. Persönliche Zugehörigkeit
 
 ### Art. 59 StG AR – II. Steuerliche Zugehörigkeit 1. Persönliche Zugehörigkeit
 

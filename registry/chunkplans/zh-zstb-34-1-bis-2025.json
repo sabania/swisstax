@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "ZStB 34.1 Rz 1–3 Vorbemerkungen – Sozialabzüge und Steuertarife (ab 2015)",
    "pfad": [
     "A. Vorbemerkungen"
@@ -22,7 +22,7 @@
    "zusammenfassung": "Weisung der Finanzdirektion ZH vom 7. April 2015 regelt Sozialabzüge (§ 34 StG), Einkommens- und Vermögenssteuertarif und Kinderdrittbetreuungsabzug (§ 31 Abs. 1 lit. j StG)."
   },
   {
-   "start": 51,
+   "start": 36,
    "titel": "ZStB 34.1 Rz 4–5 Kinderabzug – Grundsatz",
    "pfad": [
     "B. Kinderabzug, Unterstützungs- und Drittbetreuungsabzug",
@@ -44,7 +44,7 @@
    ]
   },
   {
-   "start": 75,
+   "start": 60,
    "titel": "ZStB 34.1 Rz 6–8 Kinderabzug – minderjährige Kinder, berufliche Erstausbildung",
    "pfad": [
     "B. Kinderabzug …",
@@ -65,7 +65,7 @@
    ]
   },
   {
-   "start": 98,
+   "start": 83,
    "titel": "ZStB 34.1 Rz 9–12 Kinderabzug – Ausbildung, Unterbruch, Angewiesenheit",
    "pfad": [
     "B. Kinderabzug …",
@@ -87,7 +87,7 @@
    ]
   },
   {
-   "start": 130,
+   "start": 115,
    "titel": "ZStB 34.1 Rz 13–15 Kinderabzug – Verheiratete und Verwitwete",
    "pfad": [
     "B. Kinderabzug …",
@@ -108,7 +108,7 @@
    ]
   },
   {
-   "start": 156,
+   "start": 141,
    "titel": "ZStB 34.1 Rz 16–19 Kinderabzug – getrennte/geschiedene/ledige Eltern, minderjährige Kinder",
    "pfad": [
     "B. Kinderabzug …",
@@ -132,7 +132,7 @@
    ]
   },
   {
-   "start": 192,
+   "start": 177,
    "titel": "ZStB 34.1 Rz 20–23 Kinderabzug – volljährige Kinder in Erstausbildung bei getrennten Eltern",
    "pfad": [
     "B. Kinderabzug …",
@@ -156,7 +156,7 @@
    ]
   },
   {
-   "start": 236,
+   "start": 221,
    "titel": "ZStB 34.1 Rz 24–26 Kinderabzug – Eintritt der Mündigkeit während der Steuerperiode",
    "pfad": [
     "B. Kinderabzug …",
@@ -178,7 +178,7 @@
    ]
   },
   {
-   "start": 253,
+   "start": 238,
    "titel": "ZStB 34.1 Rz 27–30 Unterstützungsabzug – Grundsatz, Erwerbsunfähigkeit",
    "pfad": [
     "B. …",
@@ -199,7 +199,7 @@
    ]
   },
   {
-   "start": 287,
+   "start": 272,
    "titel": "ZStB 34.1 Rz 31–34 Unterstützungsabzug – Bedürftigkeit (Fr. 15 000 / Fr. 22 000)",
    "pfad": [
     "B. …",
@@ -222,7 +222,7 @@
    ]
   },
   {
-   "start": 314,
+   "start": 299,
    "titel": "ZStB 34.1 Rz 35–38 Unterstützungsabzug – Form, Umfang und Nachweis",
    "pfad": [
     "B. …",
@@ -244,7 +244,7 @@
    ]
   },
   {
-   "start": 348,
+   "start": 333,
    "titel": "ZStB 34.1 Rz 39–41 Unterstützungsabzug – Berechtigte und Konkurrenz",
    "pfad": [
     "B. …",
@@ -263,7 +263,7 @@
    ]
   },
   {
-   "start": 369,
+   "start": 354,
    "titel": "ZStB 34.1 Rz 42–44 Kinderdrittbetreuungskostenabzug – Grundsatz, Kinder, Kosten",
    "pfad": [
     "B. …",
@@ -285,7 +285,7 @@
    ]
   },
   {
-   "start": 419,
+   "start": 404,
    "titel": "ZStB 34.1 Rz 45–48 Drittbetreuungsabzug – Höhe, Beilagen, Abzugsberechtigte",
    "pfad": [
     "B. …",
@@ -305,7 +305,7 @@
    ]
   },
   {
-   "start": 450,
+   "start": 435,
    "titel": "ZStB 34.1 Rz 49–51 Drittbetreuungsabzug – Verheiratete, getrennte und unverheiratete Eltern",
    "pfad": [
     "B. …",
@@ -325,7 +325,7 @@
    ]
   },
   {
-   "start": 486,
+   "start": 471,
    "titel": "ZStB 34.1 Rz 52–55 Steuertarife – Grundsatz (Verheiratetentarif / Grundtarif)",
    "pfad": [
     "C. Steuertarife",
@@ -343,7 +343,7 @@
    "zusammenfassung": "Verheiratetentarif gilt für in ungetrennter Ehe Lebende und für Alleinstehende mit Kindern mit Kinderabzug; sonst Grundtarif; Verhältnisse am Ende der Steuerperiode."
   },
   {
-   "start": 518,
+   "start": 503,
    "titel": "ZStB 34.1 Rz 56–59 Tarife – Alleinstehende, Verheiratete, Partnerschaft, Konkubinat",
    "pfad": [
     "C. Steuertarife",
@@ -361,7 +361,7 @@
    "zusammenfassung": "Alleinstehende nach Grundtarif, Ehegatten in ungetrennter Ehe nach Verheiratetentarif; eingetragene Partner wie Ehegatten, Konkubinat stets als Alleinstehende."
   },
   {
-   "start": 557,
+   "start": 542,
    "titel": "ZStB 34.1 Rz 60–62 Tarife – Eltern mit Kindern (Verheiratetentarif)",
    "pfad": [
     "C. Steuertarife",
@@ -379,7 +379,7 @@
    "zusammenfassung": "Alleinstehende mit minderjährigen Kindern (Kinderabzug) oder volljährigen in Erstausbildung zahlen nach Verheiratetentarif; bei hälftigem Kinderabzug erhält ihn der Elternteil, der den Unterhalt zur Hauptsache bestreitet."
   },
   {
-   "start": 605,
+   "start": 590,
    "titel": "ZStB 34.1 Rz 63–64 Heirat, Scheidung und Trennung – Tarif",
    "pfad": [
     "C. Steuertarife",
@@ -396,9 +396,11 @@
    "zusammenfassung": "Bei Heirat gemeinsame Besteuerung für die ganze Steuerperiode, bei Scheidung oder Trennung getrennte Besteuerung für die ganze Steuerperiode."
   },
   {
-   "start": 622,
+   "start": 607,
    "skip": true,
    "titel": "Leere Seiten 14–16"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

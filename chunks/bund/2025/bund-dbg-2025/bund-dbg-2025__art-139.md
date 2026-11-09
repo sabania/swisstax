@@ -8,7 +8,7 @@ titel: "Art. 139 DBG – Rechtsmittel"
 artikel: "Art. 139"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Fünfter Teil: Verfahrensrecht › Vierter Titel: Verfahren bei der Erhebung der Quellensteuer › Art. 139 Rechtsmittel
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Fünfter Teil: Verfahrensrecht › Vierter Titel: Verfahren bei der Erhebung der Quellensteuer › Art. 139 Rechtsmittel
 
 ### Art. 139 DBG – Rechtsmittel
 

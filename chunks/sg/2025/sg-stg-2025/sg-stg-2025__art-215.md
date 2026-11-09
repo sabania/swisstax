@@ -8,7 +8,7 @@ titel: "Art. 215 StG SG – Verzicht wegen Geringfügigkeit"
 artikel: "Art. 215"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 215 Verzicht wegen Geringfügigkeit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 215 Verzicht wegen Geringfügigkeit
 
 ### Art. 215 StG SG – Verzicht wegen Geringfügigkeit
 

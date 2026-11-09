@@ -9,7 +9,7 @@ ziffer: "5.1"
 seiten: "10-11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 5. Abzugsfähige Kosten › 5.1 Selbst getragene Kosten · S. 10–11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 5. Abzugsfähige Kosten › 5.1 Selbst getragene Kosten · S. 10–11
 
 Kapitalleistungen für künftige invaliditäts- und behinderungsbedingte Kosten sind anzurech-
 nen, soweit sie nicht der Einkommenssteuer unterliegen. Ein Abzug für behinderungsbeding-

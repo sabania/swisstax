@@ -8,7 +8,7 @@ titel: "Art. 24 StG AR – 5. Unbewegliches Vermögen"
 artikel: "Art. 24"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 24 5. Unbewegliches Vermögen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 24 5. Unbewegliches Vermögen
 
 ### Art. 24 StG AR – 5. Unbewegliches Vermögen
 

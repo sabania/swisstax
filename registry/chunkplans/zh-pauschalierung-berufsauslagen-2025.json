@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Ingress und Ziff. I/1 Fahrten Wohn-/Arbeitsstätte – ÖV, Velo, Motorrad, Auto (ab 2024)",
    "pfad": [
     "Verfügung Finanzdirektion",
@@ -27,7 +27,7 @@
    "zusammenfassung": "Ohne Nachweis abziehbar: bei ÖV die notwendigen Abonnementskosten, bei Fahrrad/Motorfahrrad/Motorrad mit gelbem Kontrollschild im Jahr Fr. 700, bei Motorrad oder Auto die Abonnementskosten des öffentlichen Verkehrsmittels."
   },
   {
-   "start": 48,
+   "start": 33,
    "titel": "Ziff. I/1 Ausnahmen – Abzug Kosten privates Motorfahrzeug",
    "pfad": [
     "Verfügung Finanzdirektion",
@@ -48,7 +48,7 @@
    "zusammenfassung": "Kosten des privaten Motorfahrzeugs nur ausnahmsweise: öV fehlt (Haltestelle mindestens 1 km entfernt), Zeitersparnis über einer Stunde, Benützung auf Verlangen des Arbeitgebers oder Krankheit/Gebrechlichkeit."
   },
   {
-   "start": 71,
+   "start": 56,
    "titel": "Ziff. I/1 Kilometeransätze und Höchstbeträge Fahrkosten",
    "pfad": [
     "Verfügung Finanzdirektion",
@@ -70,7 +70,7 @@
    "zusammenfassung": "Motorrad mit weissem Kontrollschild 40 Rp., Auto 70 Rp. pro Fahrkilometer; Fahrten über Mittag höchstens Fr. 3200 im Jahr, Fahrkosten inkl. Wochenaufenthalt höchstens Fr. 5200 im Jahr; bei Geschäftsfahrzeug-Pauschale kein Fahrkostenabzug."
   },
   {
-   "start": 87,
+   "start": 72,
    "titel": "Ziff. I/2 Mehrkosten der Verpflegung – auswärtige Verpflegung, Schicht-/Nachtarbeit",
    "pfad": [
     "Verfügung Finanzdirektion",
@@ -92,7 +92,7 @@
    "zusammenfassung": "Auswärtige Verpflegung: Fr. 15 pro Arbeitstag bzw. Fr. 3200 im Jahr, bei Verbilligung durch den Arbeitgeber Fr. 7.50 pro Arbeitstag bzw. Fr. 1600 im Jahr; Schicht-/Nachtarbeit Fr. 15 pro Schichttag bzw. Fr. 3200 im Jahr; nicht kumulierbar."
   },
   {
-   "start": 120,
+   "start": 105,
    "titel": "Ziff. I/3 Übrige Berufsauslagen – Pauschale 3 % des Nettolohns",
    "pfad": [
     "Verfügung Finanzdirektion",
@@ -115,7 +115,7 @@
    "zusammenfassung": "Weitere Berufsauslagen pauschal 3 % des Nettolohns, mindestens Fr. 2000 und höchstens Fr. 4000; Nettolohn = Bruttolohn nach Abzug AHV/IV/EO/ALV, Beiträge an Personalvorsorge und obligatorische Nichtberufsunfallversicherung."
   },
   {
-   "start": 135,
+   "start": 120,
    "titel": "Ziff. I/4 Nebenbeschäftigung – Pauschale 20 %",
    "pfad": [
     "Verfügung Finanzdirektion",
@@ -135,7 +135,7 @@
    "zusammenfassung": "Auslagen für unselbständige Nebenbeschäftigung: 20 % der Einkünfte, mindestens Fr. 800 und höchstens Fr. 2400."
   },
   {
-   "start": 143,
+   "start": 128,
    "titel": "Ziff. II–V Ehegatten, Arbeitgebervergütung, Nachweis höherer Kosten, Geltung",
    "pfad": [
     "Verfügung Finanzdirektion",
@@ -153,5 +153,7 @@
    ],
    "zusammenfassung": "Bei erwerbstätigen Ehegatten Abzüge je Ehegatte; vom Arbeitgeber vergütete Auslagen nicht abziehbar; höhere Kosten als Pauschalen Ziff. I/3 und 4 nur bei vollem Nachweis; gilt ab Steuerperiode 2024."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

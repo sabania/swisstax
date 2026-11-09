@@ -9,7 +9,7 @@ artikel: "§ 148"
 seiten: "63"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 148 StG ZH – 2. Verfahren · S. 63
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 148 StG ZH – 2. Verfahren · S. 63
 
 ### § 148 StG ZH – 2. Verfahren
 

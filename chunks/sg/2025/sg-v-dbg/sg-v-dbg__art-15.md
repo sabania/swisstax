@@ -8,7 +8,7 @@ titel: "Art. 15 V DBG SG – Aufhebung bisherigen Rechts"
 artikel: "Art. 15"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · (IV.) Schlussbestimmungen › Art. 15 Aufhebung bisherigen Rechts
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · (IV.) Schlussbestimmungen › Art. 15 Aufhebung bisherigen Rechts
 
 ### Art. 15 V DBG SG – Aufhebung bisherigen Rechts
 

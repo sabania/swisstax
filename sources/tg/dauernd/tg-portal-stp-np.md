@@ -12,6 +12,7 @@ raw: raw/tg/dauernd/tg-portal-stp-np.html
 sha256: f225d9da374bf0996b66f543c2c40f68329416692ddd6d9c986002be1a1640a6
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Thurgauer Steuerpraxis – Kapitel natürliche Personen
 

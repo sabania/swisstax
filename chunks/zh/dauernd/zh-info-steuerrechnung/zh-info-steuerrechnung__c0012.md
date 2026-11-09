@@ -7,7 +7,7 @@ typ: info
 titel: "Provisorische Steuerrechnung"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Direkte Bundessteuer › Provisorische Steuerrechnung
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Direkte Bundessteuer › Provisorische Steuerrechnung
 
 ## Direkte Bundessteuer
 

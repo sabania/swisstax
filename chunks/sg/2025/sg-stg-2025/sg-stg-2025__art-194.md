@@ -8,7 +8,7 @@ titel: "Art. 194 StG SG – Rekurs a) Voraussetzungen"
 artikel: "Art. 194"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › V. Rekurs und Beschwerde › Art. 194 Rekurs a) Voraussetzungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › V. Rekurs und Beschwerde › Art. 194 Rekurs a) Voraussetzungen
 
 ### Art. 194 StG SG – Rekurs a) Voraussetzungen
 

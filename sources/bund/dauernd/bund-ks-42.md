@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2017-11-30'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/i9TZSnch31KO/dbst-ks-2017-1-042-d-de.pdf
@@ -14,6 +15,8 @@ sha256: adfeb165cd591db77539debc69d1fe4454c71ebb915f2060d5cf480284de1be2
 abgerufen: '2026-11-09'
 seiten: 12
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2017-11-30'
 ---
 # ESTV-Kreisschreiben Nr. 42: Berufsorientierte Aus- und Weiterbildungskosten
 

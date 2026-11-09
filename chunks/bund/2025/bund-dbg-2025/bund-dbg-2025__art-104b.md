@@ -8,7 +8,7 @@ titel: "Art. 104b DBG – Aufsicht"
 artikel: "Art. 104b"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Kantonale Behörden › 1. Abschnitt: Organisation, elektronische Verfahren und Aufsicht › Art. 104b Aufsicht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Kantonale Behörden › 1. Abschnitt: Organisation, elektronische Verfahren und Aufsicht › Art. 104b Aufsicht
 
 ### Art. 104b DBG – Aufsicht
 

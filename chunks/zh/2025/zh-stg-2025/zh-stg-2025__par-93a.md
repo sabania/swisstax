@@ -9,7 +9,7 @@ artikel: "§ 93a"
 seiten: "45"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 93a StG ZH – 2. Nachträgliche ordentliche Veranlagung auf Antrag · S. 45
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 93a StG ZH – 2. Nachträgliche ordentliche Veranlagung auf Antrag · S. 45
 
 ### § 93a StG ZH – 2. Nachträgliche ordentliche Veranlagung auf Antrag
 

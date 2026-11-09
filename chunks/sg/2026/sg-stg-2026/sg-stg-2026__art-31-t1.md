@@ -8,7 +8,7 @@ titel: "Art. 31 StG SG – c) Selbständige Erwerbstätigkeit 1. Allgemeines (Te
 artikel: "Art. 31"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 31 c) Selbständige Erwerbstätigkeit 1. Allgemeines
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 31 c) Selbständige Erwerbstätigkeit 1. Allgemeines
 
 ### Art. 31 StG SG – c) Selbständige Erwerbstätigkeit 1. Allgemeines
 

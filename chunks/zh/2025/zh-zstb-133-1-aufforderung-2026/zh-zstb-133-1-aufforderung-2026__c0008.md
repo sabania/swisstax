@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0008
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "A.III.1 Nachträgliche ordentliche Veranlagung Quellensteuerpflichtige (Fr. 120'000) (Teil 3/3)"
 ziffer: "A.III.1"
 seiten: "3"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › III. Nachträgliche ordentliche Veranlagung › 1. Steuerperiode 2025 · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › III. Nachträgliche ordentliche Veranlagung › 1. Steuerperiode 2025 · S. 3
 
 b) Zustellung der Formulare
 

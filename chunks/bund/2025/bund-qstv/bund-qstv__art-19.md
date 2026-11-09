@@ -8,7 +8,7 @@ titel: "Art. 19 QStV – Im Ausland wohnhafte Empfängerinnen und Empfänger von
 artikel: "Art. 19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 19 Im Ausland wohnhafte Empfängerinnen und Empfänger von Kapitalleistungen aus Vorsorge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 19 Im Ausland wohnhafte Empfängerinnen und Empfänger von Kapitalleistungen aus Vorsorge
 
 ### Art. 19 QStV – Im Ausland wohnhafte Empfängerinnen und Empfänger von Kapitalleistungen aus Vorsorge
 

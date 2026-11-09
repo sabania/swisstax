@@ -7,7 +7,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Ziff. 1 Allgemeines – Steuerbarkeit von Behördenentschädigungen (gültig ab 2024)",
    "pfad": [
     "1. Allgemeines"
@@ -28,7 +28,7 @@
    "zusammenfassung": "Merkblatt vom 1. Februar 2024, gültig ab Steuerperiode 2024: Entschädigungen an nebenamtliche Behördenmitglieder (Sitzungsgelder, Taggelder, Tagespauschalen, Pauschalspesen, Naturalleistungen) sind als Einkommen steuerbar, ausgenommen Spesenentschädigungen nach tatsächlichen Auslagen."
   },
   {
-   "start": 47,
+   "start": 31,
    "titel": "Ziff. 2 Direkte Bundessteuer – Pauschalabzug Nebenerwerb 20 %, min. Fr. 800, max. Fr. 2'400",
    "pfad": [
     "2. Direkte Bundessteuer"
@@ -47,7 +47,7 @@
    "zusammenfassung": "Bei der direkten Bundessteuer kann für gelegentlichen Nebenerwerb ein Pauschalabzug von 20% der Nettoeinkünfte, mindestens Fr. 800, maximal Fr. 2'400 geltend gemacht werden (Verweis auf die Berufskostenverordnung EFD)."
   },
   {
-   "start": 54,
+   "start": 38,
    "titel": "Ziff. 3 Staats- und Gemeindesteuer – Behördenabzug bis Fr. 2'600",
    "pfad": [
     "3. Staats- und Gemeindesteuer"
@@ -67,7 +67,7 @@
    "zusammenfassung": "Für die Staats- und Gemeindesteuer werden nebenamtlichen Behördenmitgliedern gemäss Art. 29 Abs. 1 lit. c StG i.V.m. Art. 19 Abs. 2 StV zusätzlich pauschal bis Fr. 2'600.- abgezogen (Behördenabzug); damit sind sämtliche Unkosten abgegolten, der Nachweis höherer effektiver Kosten bleibt vorbehalten (Art. 19 Abs. 3 StV)."
   },
   {
-   "start": 63,
+   "start": 47,
    "titel": "Ziff. 4 Definition nebenamtliches Behördenmitglied – qualifizierende Behörden",
    "pfad": [
     "4. Definition eines nebenamtlichen Behördenmitgliedes"
@@ -89,7 +89,7 @@
    "zusammenfassung": "Zum Behördenabzug qualifizieren vom Volk gewählte Behörden, von Gemeinderäten, Regierung oder Kantonsrat eingesetzte Kommissionen, Gerichtskommissionen und von Kirchenmitgliedern gewählte Behörden; nicht qualifizieren Mitglieder, die von Amtes wegen oder in engem Zusammenhang mit ihrer beruflichen Tätigkeit Einsitz nehmen."
   },
   {
-   "start": 80,
+   "start": 64,
    "titel": "Ziff. 4 Definition – Behördenmitglieder und Tätigkeiten ohne Anspruch auf Behördenabzug",
    "pfad": [
     "4. Definition eines nebenamtlichen Behördenmitgliedes"
@@ -111,7 +111,7 @@
    "zusammenfassung": "Keinen Anspruch auf den Behördenabzug haben Angestellte der öffentlichen Verwaltung und Landeskirchen, beauftragte Personen (z.B. Gutachter), Mitarbeitende von Institutionen mit staatlichem Leistungsauftrag (Spitäler, Spitex, Stiftungen usw.), Tätigkeiten bei Verbänden, gemeinnützigen Institutionen und Freizeitvereinen sowie alle Behördenmitglieder mit arbeitsrechtlichem Verhältnis zur Behörde."
   },
   {
-   "start": 91,
+   "start": 75,
    "titel": "Ziff. 5 Abgrenzung Haupt- oder Nebenerwerb – Grenze Behördenentschädigung Fr. 54'000",
    "pfad": [
     "5. Abgrenzung Haupt- oder Nebenerwerb"
@@ -132,7 +132,7 @@
    "zusammenfassung": "Als Nebenerwerb gilt nach Ausserrhoder Praxis eine zeitlich und finanziell untergeordnete Tätigkeit neben einem Hauptberuf für einen anderen Arbeitgeber; bei einer Behördenentschädigung von höchstens Fr. 54'000 (inkl. Pauschalspesen) liegt Nebenerwerb vor und der Behördenabzug kann gewährt werden, bei über Fr. 54'000 wird er nicht akzeptiert."
   },
   {
-   "start": 109,
+   "start": 93,
    "titel": "Ziff. 5 Abgrenzung – Begründung: Behördeneinkünfte über Fr. 54'000 mit Haupterwerbscharakter",
    "pfad": [
     "5. Abgrenzung Haupt- oder Nebenerwerb"
@@ -151,7 +151,7 @@
    "zusammenfassung": "Behördeneinkünfte über Fr. 54'000 haben Haupterwerbscharakter, auch wenn daneben eine andere bezahlte Tätigkeit, Erziehungs-/Betreuungsaufgabe oder ein Rentnerdasein mit grösserer zeitlicher Beanspruchung besteht; sie dienen in erster Linie dem Lebensunterhalt und sollen nicht mit besonderen Gewinnungskostenpauschalen entlastet werden."
   },
   {
-   "start": 118,
+   "start": 102,
    "titel": "Berechnungsbeispiele – Pauschalabzug Nebenerwerb und Behördenabzug kombiniert",
    "pfad": [
     "5. Berechnungsbeispiele"
@@ -171,7 +171,7 @@
    "zusammenfassung": "Tabelle mit Berechnungsbeispielen zum Zusammenspiel von Pauschalabzug (20% des gesamten Nebenerwerbs, mind. 800) und Behördenabzug (max. 2600, abzüglich des bereits im Pauschalabzug enthaltenen Anteils), z.B. Nebenerwerb 4400 davon behördlich 3400: Pauschalabzug 880 + Behördenabzug 2600 = Total 3480; Nebenerwerb 15400: 2400 + 2600 = 5000."
   },
   {
-   "start": 149,
+   "start": 133,
    "titel": "Ziff. 6–7 Ausserkantonale Behördentätigkeit und frühere Steuerperioden",
    "pfad": [
     "6. Ausserkantonale Behördentätigkeit",
@@ -190,5 +190,7 @@
    ],
    "zusammenfassung": "Das Merkblatt gilt auch für ausserkantonale nebenamtliche Behördentätigkeit; für frühere Steuerperioden gelten das Merkblatt 2020 und die Weisung der Staatssteuerkommission."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

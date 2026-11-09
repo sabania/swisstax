@@ -8,7 +8,7 @@ titel: "Art. 123 StG AR – II. Veräusserungen 1. Steuerbegründende Veräusser
 artikel: "Art. 123"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 123 II. Veräusserungen 1. Steuerbegründende Veräusserungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 123 II. Veräusserungen 1. Steuerbegründende Veräusserungen
 
 ### Art. 123 StG AR – II. Veräusserungen 1. Steuerbegründende Veräusserungen
 

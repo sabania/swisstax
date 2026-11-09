@@ -12,6 +12,8 @@ raw: raw/zh/dauernd/zh-zstb-34-2.html
 sha256: d845bd1b80b8ec6647d74c489b822c800432777c2053832309880b2b2615d48a
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2019-01-01'
 ---
 # ZStB 34.2: Sozialabzüge bei Familien
 

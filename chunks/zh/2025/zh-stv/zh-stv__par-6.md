@@ -9,7 +9,7 @@ artikel: "§ 6"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Beweismittel › § 6 StV ZH – 1. Einvernahme von Zeugen · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Beweismittel › § 6 StV ZH – 1. Einvernahme von Zeugen · S. 2
 
 ### § 6 StV ZH – 1. Einvernahme von Zeugen
 

@@ -8,7 +8,7 @@ titel: "§ 1d StV TG – Anwendbare Tarife; Satzbestimmung"
 artikel: "§ 1d"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.1. Besteuerung nach dem Aufwand * › § 1d Anwendbare Tarife; Satzbestimmung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.1. Besteuerung nach dem Aufwand * › § 1d Anwendbare Tarife; Satzbestimmung
 
 ### § 1d StV TG – Anwendbare Tarife; Satzbestimmung
 

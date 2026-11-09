@@ -8,7 +8,7 @@ titel: "Art. 103 StG AR – VI. Nachträgliche ordentliche Veranlagung 1. Obliga
 artikel: "Art. 103"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 103 VI. Nachträgliche ordentliche Veranlagung 1. Obligatorisch
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 103 VI. Nachträgliche ordentliche Veranlagung 1. Obligatorisch
 
 ### Art. 103 StG AR – VI. Nachträgliche ordentliche Veranlagung 1. Obligatorisch
 

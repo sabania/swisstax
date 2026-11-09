@@ -12,6 +12,8 @@ raw: raw/zh/dauernd/zh-zstb-173-1.html
 sha256: c12eef4f273bc61c09f2fce60c9a18cc75dbea97f376e2844679adeaa3572c2f
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: verfahren
+gilt_ab: '2008-12-09'
 ---
 # ZStB 173.1: Ausstellung von Steuerrechnungen
 

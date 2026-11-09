@@ -7,7 +7,7 @@ typ: info
 titel: "Allgemeine und Sozialabzüge"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Allgemeine und Sozialabzüge
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Allgemeine und Sozialabzüge
 
     Die nachgewiesenen Kosten für die Drittbetreuung von Kindern können bis zu einem gesetzlich festgelegten Höchstbetrag pro Kind und Jahr abgezogen werden, sofern:
 

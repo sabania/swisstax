@@ -8,7 +8,7 @@ titel: "Art. 15 QStV – Nachträgliche ordentliche Veranlagung von Amtes wegen"
 artikel: "Art. 15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 15 Nachträgliche ordentliche Veranlagung von Amtes wegen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 3. Abschnitt: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 15 Nachträgliche ordentliche Veranlagung von Amtes wegen
 
 ### Art. 15 QStV – Nachträgliche ordentliche Veranlagung von Amtes wegen
 

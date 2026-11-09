@@ -9,7 +9,7 @@ ziffer: "25, 36"
 seiten: "1"
 qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
-> TG · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 · S. 1
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 · S. 1
 
 25.   Sozialabzüge   Stichtag 31. Dezember   Kanton   Bund
     Einkommen   25.1 für jedes Kind in Ausbildung mit Jahrgang 2001–2006   Fr. 10 600 Fr.   6 800

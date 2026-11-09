@@ -8,7 +8,7 @@ titel: "Art. 10 StV AR – Gewillkürtes Geschäftsvermögen (Art. 21 Abs. 2 StG
 artikel: "Art. 10"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 10 Gewillkürtes Geschäftsvermögen (Art. 21 Abs. 2 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 10 Gewillkürtes Geschäftsvermögen (Art. 21 Abs. 2 StG)
 
 ### Art. 10 StV AR – Gewillkürtes Geschäftsvermögen (Art. 21 Abs. 2 StG)
 

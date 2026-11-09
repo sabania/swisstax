@@ -8,7 +8,7 @@ titel: "Art. 4 QStV – Ordentliche Veranlagung bei Vergütungen aus dem Ausland
 artikel: "Art. 4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 4 Ordentliche Veranlagung bei Vergütungen aus dem Ausland
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 4 Ordentliche Veranlagung bei Vergütungen aus dem Ausland
 
 ### Art. 4 QStV – Ordentliche Veranlagung bei Vergütungen aus dem Ausland
 

@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0008
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.1 Reserven aus Kapitaleinlagen – steuerneutrale Gutschrift, Kapitalband (Teil 1/2)"
 ziffer: "3.1"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 3 Reserven › 3.1 Reserven aus Kapitaleinlagen · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 3 Reserven › 3.1 Reserven aus Kapitaleinlagen · S. 7
 
 3.   Reserven
 

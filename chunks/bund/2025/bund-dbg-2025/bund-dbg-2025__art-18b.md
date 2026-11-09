@@ -8,7 +8,7 @@ titel: "Art. 18b DBG – Teilbesteuerung der Einkünfte aus Beteiligungen des Ge
 artikel: "Art. 18b"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 18b Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 18b Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens
 
 ### Art. 18b DBG – Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens
 

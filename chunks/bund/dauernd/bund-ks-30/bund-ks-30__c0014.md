@@ -2,14 +2,14 @@
 id: bund-ks-30__c0014
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3 Zurechnung bei getrennten Eltern – Obhut und alternierende Obhut"
 ziffer: "3"
 seiten: "7-8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 3 Besteuerung der minderjährigen Kinder · S. 7–8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 3 Besteuerung der minderjährigen Kinder · S. 7–8
 
 Werden die Eltern eines Kindes nicht gemeinsam veranlagt und übt nur ein Elternteil die el-
 terliche Sorge aus, werden Einkommen und Vermögen des Kindes diesem Elternteil zuge-

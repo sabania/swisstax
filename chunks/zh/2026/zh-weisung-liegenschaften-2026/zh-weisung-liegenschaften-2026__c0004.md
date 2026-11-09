@@ -9,7 +9,7 @@ ziffer: "4–6"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 1.–2. Allgemeines, Bauland-Kategorien · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 1.–2. Allgemeines, Bauland-Kategorien · S. 2
 
 6   Vorbehältlich Ziff. 16 und 17 wird unüberbautes, nicht landwirt-
     schaftlich beworbenes Land aufgrund der Zonenordnung folgenden

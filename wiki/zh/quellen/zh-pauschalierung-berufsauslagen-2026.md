@@ -11,6 +11,32 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Weisung · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/51990C81724C3FB1C1258D64004D7357/$File/631.33_26.9.25_131.pdf> · lokal: [zh-pauschalierung-berufsauslagen-2026.pdf](../../../raw/zh/2026/zh-pauschalierung-berufsauslagen-2026.pdf) · Volltext: [zh-pauschalierung-berufsauslagen-2026.md](../../../sources/zh/2026/zh-pauschalierung-berufsauslagen-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `18826cf23d25a9ab…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis offen · ersetzt `zh-pauschalierung-berufsauslagen-2025`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 16 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-pauschalierung-berufsauslagen-2026`).
+
+- `data/werte/zh/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/werte/zh/2026.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
+- `data/werte/zh/2026.yaml#14:berufskosten.uebrige.min` (agent-geprueft)
+- `data/werte/zh/2026.yaml#15:berufskosten.uebrige.max` (agent-geprueft)
+- `data/werte/zh/2026.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/zh/2026.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/zh/2026.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/werte/zh/2026.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- `data/werte/zh/2026.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/zh/2026.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/zh/2026.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/zh/2026.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
+- `data/werte/zh/2026.yaml#6:berufskosten.verpflegung.jahr` (agent-geprueft)
+- `data/werte/zh/2026.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
+- `data/werte/zh/2026.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
+- `data/werte/zh/2026.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerpflicht / Bemessung"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
 
     Die ab April 2026 geflossenen Unterhaltsbeiträge sind bei der leistenden Person abzugsfähig und bei der empfangenden Person steuerbar. Die Person, welche die Unterhaltsleistungen für die minderjährigen Kinder in ihrem Haushalt erhält, kann die Kinderabzüge tätigen. Sie wird zum Vollsplitting-Tarif (Staats- und Gemeindesteuern) bzw. zum Elterntarif (direkte Bundessteuer) besteuert.
 

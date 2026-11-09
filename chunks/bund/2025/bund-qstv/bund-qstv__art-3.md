@@ -8,7 +8,7 @@ titel: "Art. 3 QStV – Ersatzeinkünfte"
 artikel: "Art. 3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 3 Ersatzeinkünfte
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 3 Ersatzeinkünfte
 
 ### Art. 3 QStV – Ersatzeinkünfte
 

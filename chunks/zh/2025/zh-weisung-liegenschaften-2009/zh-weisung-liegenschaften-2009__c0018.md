@@ -9,7 +9,7 @@ ziffer: "41–42"
 seiten: "8-9"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › V. Mehrfamilien- und Geschäftshäuser › 2. Ertragswert · S. 8–9
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › V. Mehrfamilien- und Geschäftshäuser › 2. Ertragswert · S. 8–9
 
 41   Der Kapitalisierungssatz wurde durch Sachverständige, die von der
     Finanzdirektion beauftragt wurden, ermittelt. Er setzt sich aus dem

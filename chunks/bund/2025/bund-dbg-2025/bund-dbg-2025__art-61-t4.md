@@ -8,7 +8,7 @@ titel: "Art. 61 DBG – Umstrukturierungen (Teil 4/4)"
 artikel: "Art. 61"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 61 Umstrukturierungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 61 Umstrukturierungen
 
 ### Art. 61 DBG – Umstrukturierungen (Fortsetzung)
 

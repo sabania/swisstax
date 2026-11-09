@@ -8,7 +8,7 @@ titel: "Art. 85 StV SG – c) Entschädigung (Art. 209 Abs. 3 StG)"
 artikel: "Art. 85"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 85 c) Entschädigung (Art. 209 Abs. 3 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 85 c) Entschädigung (Art. 209 Abs. 3 StG)
 
 ### Art. 85 StV SG – c) Entschädigung (Art. 209 Abs. 3 StG)
 

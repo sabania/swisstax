@@ -8,7 +8,7 @@ titel: "Art. 53 StG SG – Steuerbares Vermögen"
 artikel: "Art. 53"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 53 Steuerbares Vermögen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 53 Steuerbares Vermögen
 
 ### Art. 53 StG SG – Steuerbares Vermögen
 

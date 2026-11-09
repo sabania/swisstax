@@ -8,7 +8,7 @@ titel: "Art. 10 DBG – Erbengemeinschaften, Gesellschaften und kollektive Kapit
 artikel: "Art. 10"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 10 Erbengemeinschaften, Gesellschaften und kollektive Kapitalanlagen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 10 Erbengemeinschaften, Gesellschaften und kollektive Kapitalanlagen
 
 ### Art. 10 DBG – Erbengemeinschaften, Gesellschaften und kollektive Kapitalanlagen
 

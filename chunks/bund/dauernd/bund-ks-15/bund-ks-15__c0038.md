@@ -2,14 +2,14 @@
 id: bund-ks-15__c0038
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.6 Reverse Convertibles – Besteuerung Zinsteil und Optionsprämie"
 ziffer: "3.6"
 seiten: "12"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.6 Reverse Convertibles · S. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · 3 Grundsätze der Besteuerung › 3.6 Reverse Convertibles · S. 12
 
 3.6   Produkte mit Geld- oder Titellieferungen (Reverse Convertibles)
 

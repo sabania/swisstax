@@ -2,13 +2,13 @@
 id: bund-sthg__art-60
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 60 StHG – Verjährung der Strafverfolgung"
 artikel: "Art. 60"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Sechster Titel: Steuerstrafrecht › 2. Kapitel: Steuervergehen › Art. 60 Verjährung der Strafverfolgung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Sechster Titel: Steuerstrafrecht › 2. Kapitel: Steuervergehen › Art. 60 Verjährung der Strafverfolgung
 
 ### Art. 60 StHG – Verjährung der Strafverfolgung
 

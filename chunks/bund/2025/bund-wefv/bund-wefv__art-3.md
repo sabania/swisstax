@@ -2,13 +2,13 @@
 id: bund-wefv__art-3
 quelle: bund-wefv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 3 WEFV – Beteiligungen"
 artikel: "Art. 3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · WEFV · 1. Kapitel: Allgemeine Bestimmungen › Art. 3 Beteiligungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · WEFV · 1. Kapitel: Allgemeine Bestimmungen › Art. 3 Beteiligungen
 
 ### Art. 3 WEFV – Beteiligungen
 

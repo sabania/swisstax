@@ -8,7 +8,7 @@ titel: "§ 31b StV TG – Umstrukturierung land- oder forstwirtschaftliche Betri
 artikel: "§ 31b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 31b Umstrukturierung land- oder forstwirtschaftliche Betriebe
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 31b Umstrukturierung land- oder forstwirtschaftliche Betriebe
 
 ### § 31b StV TG – Umstrukturierung land- oder forstwirtschaftliche Betriebe
 

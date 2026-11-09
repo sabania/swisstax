@@ -8,7 +8,7 @@ titel: "Art. 53 StG AR – Steuerperiode"
 artikel: "Art. 53"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › D. Zeitliche Bemessung › Art. 53 Steuerperiode
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › D. Zeitliche Bemessung › Art. 53 Steuerperiode
 
 ### Art. 53 StG AR – Steuerperiode
 

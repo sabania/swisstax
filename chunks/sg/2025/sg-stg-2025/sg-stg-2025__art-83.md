@@ -8,7 +8,7 @@ titel: "Art. 83 StG SG – 2. Erfolgsneutrale Vorgänge"
 artikel: "Art. 83"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 2. Erfolgsneutrale Vorgänge
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 2. Erfolgsneutrale Vorgänge
 
 ### Art. 83 StG SG – 2. Erfolgsneutrale Vorgänge
 

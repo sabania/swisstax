@@ -13,6 +13,10 @@ sha256: b51b0222ed979c94828167010f6be03245a7b8f042e89d7d03a72f9ad48cd9b2
 abgerufen: '2026-11-09'
 einheiten: 14
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2023-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: bund-bkv-2026
 ---
 # Berufskostenverordnung EFD (SR 642.118.1) – Fassung gültig ab 01.01.2023
 

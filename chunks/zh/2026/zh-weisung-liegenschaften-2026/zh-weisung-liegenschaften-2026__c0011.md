@@ -9,7 +9,7 @@ ziffer: "26–27"
 seiten: "6"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 2. Landwert · S. 6
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 2. Landwert · S. 6
 
 26   Übersteigt die Landfläche einen angemessenen Umschwung, ist
     bei der Berechnung des Vermögenssteuerwerts eine vom Basiswert

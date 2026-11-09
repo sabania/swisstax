@@ -8,7 +8,7 @@ titel: "Art. 4 V DBG AR – Das Obergericht"
 artikel: "Art. 4"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 4 Das Obergericht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 4 Das Obergericht
 
 ### Art. 4 V DBG AR – Das Obergericht
 

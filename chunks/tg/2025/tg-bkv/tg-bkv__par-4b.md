@@ -8,7 +8,7 @@ titel: "§ 4b BKV TG – Nebenerwerb"
 artikel: "§ 4b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 4b Nebenerwerb
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 4b Nebenerwerb
 
 ### § 4b BKV TG – Nebenerwerb
 

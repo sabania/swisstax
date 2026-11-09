@@ -8,7 +8,7 @@ titel: "Art. 103 StG SG – Bemessung des Reingewinns"
 artikel: "Art. 103"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › V. Zeitliche Bemessung › Art. 103 Bemessung des Reingewinns
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › V. Zeitliche Bemessung › Art. 103 Bemessung des Reingewinns
 
 ### Art. 103 StG SG – Bemessung des Reingewinns
 

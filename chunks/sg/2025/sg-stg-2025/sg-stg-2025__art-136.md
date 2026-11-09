@@ -8,7 +8,7 @@ titel: "Art. 136 StG SG – c) Anlagekosten 1. Erwerbspreis"
 artikel: "Art. 136"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 136 c) Anlagekosten 1. Erwerbspreis
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 136 c) Anlagekosten 1. Erwerbspreis
 
 ### Art. 136 StG SG – c) Anlagekosten 1. Erwerbspreis
 

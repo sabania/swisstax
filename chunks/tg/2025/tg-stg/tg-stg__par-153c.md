@@ -2,13 +2,13 @@
 id: tg-stg__par-153c
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 153c StG TG – Beweiskraft"
 artikel: "§ 153c"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1. Teil: Staatssteuern › 1.7.1 bis Elektronische Erfassung und Aufbewahrung › § 153c Beweiskraft
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1. Teil: Staatssteuern › 1.7.1 bis Elektronische Erfassung und Aufbewahrung › § 153c Beweiskraft
 
 ### § 153c StG TG – Beweiskraft
 

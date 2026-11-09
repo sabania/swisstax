@@ -8,7 +8,7 @@ titel: "Art. 22 StG AR – b) Umstrukturierungen"
 artikel: "Art. 22"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 22 b) Umstrukturierungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 22 b) Umstrukturierungen
 
 ### Art. 22 StG AR – b) Umstrukturierungen
 

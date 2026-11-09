@@ -2,14 +2,14 @@
 id: ar-mb-03-anhang__c0001
 quelle: ar-mb-03-anhang
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 1.1 Dach – Abziehbarkeit Unterhalt/Anlagekosten"
 ziffer: "1.1"
 seiten: "1"
-qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: ar, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 1 Gebäude aussen › 1.1 Dach · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Merkblatt · Steuerjahr 2025/2026/2027 · MB AR 03-anhang · 1 Gebäude aussen › 1.1 Dach · S. 1
 
 # Merkblatt 03-anhang: Anhang zum Merkblatt Liegenschaftsunterhalt (ab 2024)
 

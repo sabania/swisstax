@@ -9,7 +9,7 @@ artikel: "§ 125"
 seiten: "56"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 125 StG ZH – 2. Beweisabnahme · S. 56
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 125 StG ZH – 2. Beweisabnahme · S. 56
 
 ### § 125 StG ZH – 2. Beweisabnahme
 

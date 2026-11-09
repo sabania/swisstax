@@ -9,7 +9,7 @@ artikel: "§ 24"
 seiten: "5"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › E. Verfahrenskosten in Verwaltungsverfahren › § 24 StV ZH – 8. Vorschuss · S. 5
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › E. Verfahrenskosten in Verwaltungsverfahren › § 24 StV ZH – 8. Vorschuss · S. 5
 
 ### § 24 StV ZH – 8. Vorschuss
 

@@ -2,14 +2,14 @@
 id: bund-mb-n1__c0007
 quelle: bund-mb-n1
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 5 Privatanteil an den Autokosten – effektiv oder pauschal"
 ziffer: "5"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB N1/2007 · Privatanteil Autokosten · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB N1/2007 · Privatanteil Autokosten · S. 2
 
 5. Privatanteil an den Autokosten
 

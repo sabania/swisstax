@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-mb-nl1
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt NL1/2007: Privatanteile Land- und Forstwirtschaft"
 generiert: tools/build_index.py
 ---
 # MB NL1/2007: Merkblatt NL1/2007: Privatanteile Land- und Forstwirtschaft
 
-- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/Y8n2gVgxB3Zn/dbst-mb-nl1-2007-de.pdf> · lokal: [bund-mb-nl1.pdf](../../../raw/bund/dauernd/bund-mb-nl1.pdf) · Volltext: [bund-mb-nl1.md](../../../sources/bund/dauernd/bund-mb-nl1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `50ebc73d44ed2491…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2022-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-mb-nl1`).
+
+- [wiki/themen/selbstaendige-naturalbezuege.md](../../themen/selbstaendige-naturalbezuege.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

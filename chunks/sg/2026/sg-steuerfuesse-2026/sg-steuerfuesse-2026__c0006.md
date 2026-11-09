@@ -8,7 +8,7 @@ titel: "Steuerfüsse SG 2026 – Gemeinden Seite 3 (Quarten bis Mosnang) (Teil 2
 seiten: "3"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 3 · S. 3
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 3 · S. 3
 
   Krinau   --   129   24   28   258   262
 Lichtensteig   0.8   129   24   28   258   262

@@ -8,7 +8,7 @@ titel: "Art. 29 DBG – Rückstellungen"
 artikel: "Art. 29"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 29 Rückstellungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 29 Rückstellungen
 
 ### Art. 29 DBG – Rückstellungen
 

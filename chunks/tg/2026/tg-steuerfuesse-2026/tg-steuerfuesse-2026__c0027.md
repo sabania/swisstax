@@ -2,13 +2,13 @@
 id: tg-steuerfuesse-2026__c0027
 quelle: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 typ: steuerfuss
 titel: "Tabelle Steuerfüsse – Bezirke Frauenfeld/Kreuzlingen/Weinfelden (Fortsetzung) (Teil 1/2)"
 seiten: "7"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
+qmd: {metadata: {jur: tg, jahre: [2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Tabelle nach Gemeinden · S. 7
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Tabelle nach Gemeinden · S. 7
 
 Hüttlingen   60   95   30 / 22   291.8   2’137   Bezirk Weinfelden³   55.2   93.3   279.9   2’170
 Hüttwilen   48   89   24 / 16   267.4   3’159   Affeltrangen   53   98   26 / 24   285.1   2’112

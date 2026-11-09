@@ -9,7 +9,7 @@ ziffer: "4.3.6"
 seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9
 
 Kosten für übrige Transporte (insbesondere für Freizeitfahrten) sind in der Regel nicht als be
 hinderungsbedingte Kosten abzugsfähig. Ein Abzug ist ausnahmsweise dann zulässig, wenn

@@ -9,7 +9,7 @@ artikel: "§ 63"
 seiten: "12"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › Fünfter Abschnitt: Das Inventar › § 63 StV ZH – 6. Inventare der Kindes- und Erwachsenenschutzbehörden oder der Gerichte · S. 12
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › Fünfter Abschnitt: Das Inventar › § 63 StV ZH – 6. Inventare der Kindes- und Erwachsenenschutzbehörden oder der Gerichte · S. 12
 
 ### § 63 StV ZH – 6. Inventare der Kindes- und Erwachsenenschutzbehörden oder der Gerichte
 

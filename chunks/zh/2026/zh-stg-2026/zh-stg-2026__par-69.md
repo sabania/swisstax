@@ -9,7 +9,7 @@ artikel: "§ 69"
 seiten: "38-39"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 69 StG ZH – m.[^93] Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen · S. 38–39
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 69 StG ZH – m.[^93] Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen · S. 38–39
 
 ### § 69 StG ZH – m.[^93] Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen
 

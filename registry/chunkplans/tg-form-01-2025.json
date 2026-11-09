@@ -7,7 +7,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Seite 1 Kopf – Steuererklärung 2025 TG, Formularversand, unterjährige Dauer",
    "pfad": [
     "Seite 1",
@@ -26,7 +26,7 @@
    "zusammenfassung": "Deckblatt Formular 1 TG 2025: Einreichung beim Gemeindesteueramt, Versandinstruktion und Dauer bei unterjähriger Steuerpflicht."
   },
   {
-   "start": 53,
+   "start": 38,
    "titel": "Seite 1 Personalien, Berufs- und Familienverhältnisse (Stand 31.12.2025)",
    "pfad": [
     "Seite 1",
@@ -46,7 +46,7 @@
    "zusammenfassung": "Personalien Person 1/2: Name, Geburtsdatum, Zivilstand, Beruf, Arbeitgeber, Bezug von Ergänzungsleistungen zur AHV/IV."
   },
   {
-   "start": 64,
+   "start": 49,
    "titel": "Seite 1 Kinder in Ausbildung, Unterhalt, Sorgerecht und Obhut",
    "pfad": [
     "Seite 1",
@@ -67,7 +67,7 @@
    "zusammenfassung": "Minderjährige oder in Ausbildung stehende Kinder mit Haushalt, Ausbildungsende, Unterhaltsbeiträge des anderen Elternteils, Sorgerecht und Obhut."
   },
   {
-   "start": 79,
+   "start": 64,
    "titel": "Seite 1 Erwerbsunfähige und unterstützungsbedürftige Personen",
    "pfad": [
     "Seite 1",
@@ -86,7 +86,7 @@
    "zusammenfassung": "Unterstützte Personen mit jährlichem Beitrag von mindestens Fr. 12 000.– (Kanton) bzw. Fr. 6 800.– (Bund)."
   },
   {
-   "start": 89,
+   "start": 74,
    "titel": "Seite 1 Steuerrückzahlungen, Auszahlungskonto, elektronische Übermittlung",
    "pfad": [
     "Seite 1",
@@ -106,7 +106,7 @@
    "zusammenfassung": "Rückerstattungen der Verrechnungssteuer und Steuerrückzahlungen erfolgen auf das bezeichnete Konto; Feld Veranlagungshinweise nicht auszufüllen."
   },
   {
-   "start": 116,
+   "start": 101,
    "titel": "Ziff. 1–2 Einkünfte aus unselbständiger und selbständiger Erwerbstätigkeit (Codes 100–117)",
    "pfad": [
     "Einkünfte",
@@ -131,7 +131,7 @@
    "zusammenfassung": "Ziff. 1.1 Haupterwerb (Code 100/101), 1.2 Nebenerwerb (104/105), 1.3 vereinfachtes Abrechnungsverfahren (106/107), 2.1/2.2 selbständig (112/113, 116/117)."
   },
   {
-   "start": 146,
+   "start": 131,
    "titel": "Ziff. 3 Sozialversicherungen, Renten, Erwerbsausfall, Familienzulagen (Codes 130–140)",
    "pfad": [
     "Einkünfte",
@@ -156,7 +156,7 @@
    "zusammenfassung": "Ziff. 3.1 AHV/IV-Renten (130/131), 3.2 Renten/Pensionen mit steuerbarem Prozentsatz (132/133), 3.3 Erwerbsausfallentschädigungen (136/137), 3.4 Familienzulagen der Ausgleichskasse (140)."
   },
   {
-   "start": 165,
+   "start": 150,
    "titel": "Ziff. 4–6 Wertschriftenertrag, übrige Einkünfte, Zwischentotal (Codes 150–175)",
    "pfad": [
     "Einkünfte",
@@ -185,7 +185,7 @@
    "zusammenfassung": "Ziff. 4 Wertschriften/Zinserträge/Geldspielgewinne (Formular 2, Code 150), Ziff. 5.1–5.5 übrige Einkünfte (160–170), Ziff. 6 Zwischentotal (175)."
   },
   {
-   "start": 184,
+   "start": 169,
    "titel": "Ziff. 7–9 Übertrag, Einkünfte aus Liegenschaften, Total der Einkünfte (Codes 180/198)",
    "pfad": [
     "Einkünfte",
@@ -207,7 +207,7 @@
    "zusammenfassung": "Ziff. 8.1 Einkünfte aus Liegenschaften (Formular 7, Code 180); Ziff. 9 Total der Einkünfte (Code 198) zu übertragen auf Seite 3 Ziffer 20."
   },
   {
-   "start": 204,
+   "start": 189,
    "titel": "Ziff. 10–14 Abzüge: Berufsauslagen, Schuldzinsen, Unterhalt, Säule 3a, Versicherungen (Codes 240–330)",
    "pfad": [
     "Abzüge",
@@ -233,7 +233,7 @@
    "zusammenfassung": "Ziff. 10 Berufsauslagen (240/280), 11 Schuldzinsen (290), 12 Unterhaltsbeiträge/Renten (300/302/304), 13 Säule 3a (314/315), 14 Versicherungsprämien (330)."
   },
   {
-   "start": 228,
+   "start": 213,
    "titel": "Ziff. 15–19 Weitere Abzüge, Weiterbildung, Behinderung, Zweiverdienerabzug (Codes 341–360)",
    "pfad": [
     "Abzüge",
@@ -265,7 +265,7 @@
    "zusammenfassung": "Ziff. 15 weitere Abzüge (342–347, 341), 16 Aus-/Weiterbildung (348/349), 17 Behinderungskosten (350), 18 Zweiverdienerabzug (356), 19 Total Abzüge (360); Drittbetreuung Kinder unter 14 Jahren."
   },
   {
-   "start": 254,
+   "start": 239,
    "titel": "Ziff. 20–24 Einkommensberechnung: Nettoeinkommen, zusätzliche Abzüge, Reineinkommen (Codes 362–372)",
    "pfad": [
     "Einkommensberechnung"
@@ -286,7 +286,7 @@
    "zusammenfassung": "Ziff. 22 Nettoeinkommen (362), 23.1 Krankheits-/Unfallkosten (364), 23.2 freiwillige Zuwendungen (366), 23.3 Liquidationsgewinne (368), 24 Reineinkommen (372)."
   },
   {
-   "start": 269,
+   "start": 254,
    "titel": "Ziff. 25–28 Sozialabzüge, steuerbares Einkommen, Steuergutschrift Kinder (Codes 380–398)",
    "pfad": [
     "Einkommensberechnung",
@@ -311,7 +311,7 @@
    "zusammenfassung": "Sozialabzüge: Kind in Ausbildung Jahrg. 2000 – 2005 Fr. 10 600, Jahrg. 2006 – 2009 Fr. 8 500, übriges Kind Fr. 7 400 (Bund je Fr. 6800), unterstützte Person Fr. 2 700; Ziff. 26 steuerbares Einkommen (398)."
   },
   {
-   "start": 292,
+   "start": 277,
    "titel": "Ziff. 30 Bewegliches Vermögen: Wertschriften, Bargeld, Versicherungen, Fahrzeuge (Codes 410–426)",
    "pfad": [
     "Vermögen",
@@ -338,7 +338,7 @@
    "zusammenfassung": "Steuerwerte per 31.12.2025: 30.1 Wertschriften/Guthaben (410), 30.2 Bargeld/Edelmetalle (412), 30.3 Lebens-/Rentenversicherungen (420), 30.4 Motorfahrzeuge (422), 30.5 Erbschaften (424), 30.6 Übrige (426)."
   },
   {
-   "start": 317,
+   "start": 302,
    "titel": "Ziff. 31–35 Liegenschaften, Betriebsvermögen, Schulden, Reinvermögen (Codes 430–468)",
    "pfad": [
     "Vermögen",
@@ -362,7 +362,7 @@
    "zusammenfassung": "Ziff. 31 Liegenschaften (Formular 7, 430), 32 Betriebsvermögen Selbständiger (440/442), 33 Total Vermögenswerte (464), 34 Schulden (466), 35 Reinvermögen (468)."
   },
   {
-   "start": 339,
+   "start": 324,
    "titel": "Ziff. 36–37 Steuerfreie Beträge Vermögen und steuerbares Vermögen (Codes 470–498)",
    "pfad": [
     "Vermögen",
@@ -383,7 +383,7 @@
    "zusammenfassung": "Steuerfreie Beträge: gemeinsam besteuerte Fr. 200000, alleinstehend Fr. 100000, je Kind (Jahrgang 2008 und jüngere) Fr. 100000; Ziff. 37 steuerbares Vermögen (498)."
   },
   {
-   "start": 349,
+   "start": 334,
    "titel": "Schenkungen und erbrechtliche Vermögensanfälle",
    "pfad": [
     "Seite 4",
@@ -402,7 +402,7 @@
    "zusammenfassung": "Angaben zu 2025 erhaltenen oder ausgerichteten Schenkungen, Erbvorbezügen und Erbschaften mit Wert, Name und Verwandtschaftsgrad."
   },
   {
-   "start": 361,
+   "start": 346,
    "titel": "Kapitalleistungen aus Vorsorge, Selbstanzeige, Bemerkungen, Unterschrift",
    "pfad": [
     "Seite 4",
@@ -422,5 +422,7 @@
    ],
    "zusammenfassung": "Kapitalleistungen aus Vorsorge 2025 (AHV/IV, Säule 2, Freizügigkeit, Säule 3a); Antrag erstmalige straflose Selbstanzeige; Unterschrift der Steuererklärung."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

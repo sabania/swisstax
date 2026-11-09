@@ -2,13 +2,13 @@
 id: bund-vstg__art-36a
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 36a VStG"
 artikel: "Art. 36a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · A. Behörden › IIa. Datenbearbeitung › Art. 36a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · A. Behörden › IIa. Datenbearbeitung › Art. 36a
 
 ### Art. 36a VStG
 

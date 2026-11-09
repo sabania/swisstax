@@ -12,6 +12,9 @@ sha256: 7c9d4403f2a98a9af63ef39e2dad09b9090e51269f488035131f6df188310c13
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Formular 1: Steuererklärung 2025 (Hauptformular)
 

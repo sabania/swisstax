@@ -8,7 +8,7 @@ titel: "Art. 38 StG AR – IV. Sozialabzüge (Teil 2/2)"
 artikel: "Art. 38"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 38 IV. Sozialabzüge
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 38 IV. Sozialabzüge
 
 ### Art. 38 StG AR – IV. Sozialabzüge (Fortsetzung)
 

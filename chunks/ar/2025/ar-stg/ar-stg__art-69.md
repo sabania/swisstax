@@ -8,7 +8,7 @@ titel: "Art. 69 StG AR – II. Berechnung des Reingewinnes 1. Allgemeines"
 artikel: "Art. 69"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 69 II. Berechnung des Reingewinnes 1. Allgemeines
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 69 II. Berechnung des Reingewinnes 1. Allgemeines
 
 ### Art. 69 StG AR – II. Berechnung des Reingewinnes 1. Allgemeines
 

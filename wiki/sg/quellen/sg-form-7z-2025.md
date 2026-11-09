@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Formular · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_7Z_NP_2025_HA.pdf> · lokal: [sg-form-7z-2025.pdf](../../../raw/sg/2025/sg-form-7z-2025.pdf) · Volltext: [sg-form-7z-2025.md](../../../sources/sg/2025/sg-form-7z-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `a6510b13efe43d4f…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-7z-2025`).
+
+- `data/zuordnung/sg/2025.yaml#96:berechnung.total@Form. 7Z` (agent-geprueft)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

@@ -13,6 +13,10 @@ sha256: 71827642f161d5f47e7e4b65f4b3c6c52f638b08373df0f67b6f3f88d8d9d310
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
+ersetzt: bund-rs-2-213
 ---
 # Rundschreiben 2-218: Zinssätze Darlehen CHF 2026
 

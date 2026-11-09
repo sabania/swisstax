@@ -2,14 +2,14 @@
 id: bund-ks-vst-48__c0002
 quelle: bund-ks-vst-48
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1–2 Allgemeines und gesetzliche Bestimmungen (Art. 23, 70d VStG) (Teil 2/2)"
 ziffer: "1–2"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 48 · 1 Allgemeines / 2 Gesetzliche Bestimmungen · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS VST 48 · 1 Allgemeines / 2 Gesetzliche Bestimmungen · S. 2
 
 2   Gesetzliche Bestimmungen
 

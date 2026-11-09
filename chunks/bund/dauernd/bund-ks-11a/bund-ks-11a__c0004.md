@@ -9,7 +9,7 @@ ziffer: "3.1"
 seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3
 
 3   Krankheits- und Unfallkosten
 

@@ -8,7 +8,7 @@ titel: "§ 9a V DBG TG – Mahn- und Inkassogebühren"
 artikel: "§ 9a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 2. Verfahren › § 9a Mahn- und Inkassogebühren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 2. Verfahren › § 9a Mahn- und Inkassogebühren
 
 ### § 9a V DBG TG – Mahn- und Inkassogebühren
 

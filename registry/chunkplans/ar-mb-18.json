@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Merkblatt 18 Erhebung von Gebühren – Gebührenansätze KGV (ab 1.9.2025)",
    "pfad": [
     "Gebührenansätze"
@@ -24,7 +24,7 @@
    "zusammenfassung": "Nachforschungen Fr. 10–200, Legalisationen Fr. 10–30, Auszüge Fr. 10 pro Seite, Auskünfte Fr. 60 pro Stunde, Fristverlängerung (Wiederholung) und 2. Mahnung je Fr. 25, Kopien Fr. 1."
   },
   {
-   "start": 59,
+   "start": 43,
    "titel": "Gebührenpflicht der Steuerverwaltung – Ausnahme Veranlagungs- und Einspracheverfahren",
    "pfad": [
     "Gebührenpflicht"
@@ -41,5 +41,7 @@
    ],
    "zusammenfassung": "Im ordentlichen Veranlagungs- und Einspracheverfahren nur bei schuldhafter Verletzung der Mitwirkungspflichten Gebühr; übrige Dienstleistungen (Bestätigungen, Rulings, Kopien) gebührenpflichtig."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

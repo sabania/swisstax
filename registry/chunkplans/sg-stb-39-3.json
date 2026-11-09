@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Ziff. 1 Rechtslage Fahrkostenabzug – Maximalabzug Fr. 8'000 ab 2025",
    "pfad": [
     "1. Übersicht Rechtslage"
@@ -25,7 +25,7 @@
    "zusammenfassung": "Seit 1.1.2025 beträgt der maximale Fahrkostenabzug Fr. 8'000.--; zuvor war er an den GA-Preis (2020: zuzüglich Fr. 600.--) gekoppelt; seit 1.1.2022 umfasst die Geschäftsfahrzeug-Pauschale auch den Arbeitsweg."
   },
   {
-   "start": 47,
+   "start": 31,
    "titel": "Ziff. 2.1–2.2.1 Öffentliches Verkehrsmittel, Fahrrad, Motorfahrrad, Kleinmotorrad",
    "pfad": [
     "2. Regelung im Allgemeinen",
@@ -47,7 +47,7 @@
    "zusammenfassung": "Kosten des öffentlichen Verkehrsmittels gelten als notwendig; Abzug für Fahrrad/Motorfahrrad/Kleinmotorrad (max. 50 cm3) nur, wenn zu Fuss bzw. zur nächsten Haltestelle mehr als 10 Minuten nötig sind."
   },
   {
-   "start": 67,
+   "start": 51,
    "titel": "Ziff. 2.2.2 Privatauto und Motorrad – Zumutbarkeit des öffentlichen Verkehrs",
    "pfad": [
     "2. Regelung im Allgemeinen",
@@ -69,7 +69,7 @@
    "zusammenfassung": "Autokosten nur abziehbar, wenn kein öffentliches Verkehrsmittel zur Verfügung steht oder zumutbar ist, u.a. bei Gesundheit, mehr als 10 Fussminuten zur Haltestelle, Mehraufwand über 60 Minuten pro Tag, Präsenzpflicht."
   },
   {
-   "start": 97,
+   "start": 81,
    "titel": "Ziff. 2.2.2 Nachweis Dienstfahrten und Arbeitgeberbescheinigung",
    "pfad": [
     "2. Regelung im Allgemeinen",
@@ -90,7 +90,7 @@
    "zusammenfassung": "Wird der Autoabzug mit Dienstfahrten begründet, ist deren Ausmass nachzuweisen; fehlende Autospesen des Arbeitgebers sind ein Indiz gegen geschäftliche Nutzung, Arbeitgeberbescheinigung und Spesenabrechnungen werden verlangt."
   },
   {
-   "start": 110,
+   "start": 94,
    "titel": "Ziff. 2.3 Autokosten bei unselbständig und selbständig Erwerbstätigen",
    "pfad": [
     "2. Regelung im Allgemeinen",
@@ -110,7 +110,7 @@
    "zusammenfassung": "Fahrzeug im Geschäftsvermögen: kein Arbeitswegabzug unter unselbständiger Erwerbstätigkeit; Fahrzeug im Privatvermögen: Abzug für unselbständige Tätigkeit zu gewähren."
   },
   {
-   "start": 128,
+   "start": 112,
    "titel": "Ziff. 2.4 Fahrt zum Wochenaufenthalt",
    "pfad": [
     "2. Regelung im Allgemeinen",
@@ -131,7 +131,7 @@
    "zusammenfassung": "Für Wochenaufenthalter gilt die Weisung sachgemäss; in der Regel nur Kosten des öffentlichen Verkehrsmittels, Wohnstätte unter der Woche muss am oder nahe beim Arbeitsort liegen."
   },
   {
-   "start": 149,
+   "start": 133,
    "titel": "Ziff. 2.5–2.6 Pauschalbeträge (Fr. 700 Velo, 75 Rappen/km) und Parkplatzgebühren",
    "pfad": [
     "2. Regelung im Allgemeinen",
@@ -152,7 +152,7 @@
    "zusammenfassung": "Pauschalen bei privatem Verkehrsmittel: Fr. 700.-- im Jahr für Fahrrad/Motorfahrrad/Kleinmotorrad, 75 Rappen je Fahrkilometer für Motorräder und Autos; Parkplatzgebühren bei Nachweis abziehbar."
   },
   {
-   "start": 165,
+   "start": 149,
    "titel": "Ziff. 2.7 Anzahl Arbeitstage (220) und Homeoffice",
    "pfad": [
     "2. Regelung im Allgemeinen",
@@ -172,7 +172,7 @@
    "zusammenfassung": "Berechnung mit 220 Arbeitstagen pro Jahr (Vollzeit); für Homeoffice-Tage und Tage ohne Arbeitsleistung keine Fahrkosten, Abo-Kosten müssen aber nicht um Homeoffice-Tage gekürzt werden."
   },
   {
-   "start": 176,
+   "start": 160,
    "titel": "Ziff. 3 Begrenzung Fahrkostenabzug – Maximalabzüge 2016–2026 (SG Fr. 8'000, DBST Fr. 3'300)",
    "pfad": [
     "3. Begrenzung des Fahrkostenabzugs"
@@ -192,7 +192,7 @@
    "zusammenfassung": "Maximalabzug 2025 und 2026: Kanton/Gemeinde Fr. 8'000.--, direkte Bundessteuer Fr. 3'300.--; kein Pauschalbetrag, bei Teilzeit oder unterjähriger Steuerpflicht nicht gekürzt, bei Haupt- und Nebenerwerb insgesamt."
   },
   {
-   "start": 210,
+   "start": 194,
    "titel": "Ziff. 4.1 Vom Arbeitgeber übernommene Fahrkosten – Aufrechnung Lohnausweis Ziff. 2.3",
    "pfad": [
     "4. Vom Arbeitgebenden übernommene Fahrkosten",
@@ -213,7 +213,7 @@
    "zusammenfassung": "Übersteigt die Kostenübernahme des Arbeitgebers die abzugsfähigen Fahrkosten, liegt steuerbares Einkommen vor; Entschädigung in Ziff. 2.3 Lohnausweis, kein Kreuz im Feld F, Abzug im Formular 4 bis zum Maximalbetrag."
   },
   {
-   "start": 231,
+   "start": 215,
    "titel": "Ziff. 4.1 Beispiel 1 GA 2. Klasse vom Arbeitgeber (Fr. 1'970 geldwerter Vorteil)",
    "pfad": [
     "4. Vom Arbeitgebenden übernommene Fahrkosten",
@@ -233,7 +233,7 @@
    "zusammenfassung": "Beispiel: GA 2. Klasse Fr. 3'995.-- im Bruttolohn, abzüglich Streckenabo Fr. 2'025.-- im Formular 4, ergibt steuerbaren geldwerten Vorteil Fr. 1'970.--."
   },
   {
-   "start": 249,
+   "start": 233,
    "titel": "Ziff. 4.2 / 4.2.1 Geschäftsfahrzeug – pauschale Fahrkostenberechnung (0,9% pro Monat, 10,8% pro Jahr)",
    "pfad": [
     "4. Vom Arbeitgebenden übernommene Fahrkosten",
@@ -256,7 +256,7 @@
    "zusammenfassung": "Pauschal 0,9% des Kaufpreises (exkl. MWST, inkl. Sonderausstattung) pro Monat bzw. 10,8% pro Jahr, mindestens Fr. 150.-- pro Monat, in Ziff. 2.2 des Lohnausweises."
   },
   {
-   "start": 273,
+   "start": 257,
    "titel": "Ziff. 4.2.1 Leasingfahrzeuge und Wegfall des Fahrkostenabzugs bei Pauschale",
    "pfad": [
     "4. Vom Arbeitgebenden übernommene Fahrkosten",
@@ -276,7 +276,7 @@
    "zusammenfassung": "Bei Leasing gilt der Barkaufpreis (exkl. MWST); wird die Pauschale beansprucht, entfallen die Aufrechnung für den Arbeitsweg und der Fahrkostenabzug."
   },
   {
-   "start": 285,
+   "start": 269,
    "titel": "Ziff. 4.2.1 Beispiel 2 Geschäftsfahrzeug Fr. 50'000 (Privatanteil Fr. 5'400)",
    "pfad": [
     "4. Vom Arbeitgebenden übernommene Fahrkosten",
@@ -295,7 +295,7 @@
    "zusammenfassung": "Beispiel: Kaufpreis Fr. 50'000.-- x 10,8% = Fr. 5'400.-- im Lohnausweis Ziff. 2.2; damit ist auch der Fahrkostenabzug abgegolten."
   },
   {
-   "start": 297,
+   "start": 281,
    "titel": "Ziff. 4.2.2 Effektive Erfassung der Privatnutzung (Fr. --.75 pro km ab 2026)",
    "pfad": [
     "4. Vom Arbeitgebenden übernommene Fahrkosten",
@@ -314,5 +314,7 @@
    ],
    "zusammenfassung": "Mit Fahrtenheft: private Kilometer (inkl. Arbeitsweg) x Fr. --.75 ab Steuerperiode 2026 (Fr. --.70 für 2025), zusätzlich beschränkter Fahrkostenabzug möglich."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

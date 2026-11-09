@@ -8,7 +8,7 @@ titel: "Art. 137 DBG – Verfügung"
 artikel: "Art. 137"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Fünfter Teil: Verfahrensrecht › Vierter Titel: Verfahren bei der Erhebung der Quellensteuer › Art. 137 Verfügung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Fünfter Teil: Verfahrensrecht › Vierter Titel: Verfahren bei der Erhebung der Quellensteuer › Art. 137 Verfügung
 
 ### Art. 137 DBG – Verfügung
 

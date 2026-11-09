@@ -8,7 +8,7 @@ titel: "Weisung 2009 Liegenschaftsbewertung ZH – Kopf und Ingress"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Weisung 2009 · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · Weisung 2009 · S. 1
 
 # Weisung 2009 über die Bewertung von Liegenschaften (ZStB 21.1, gültig bis 31.12.2025)
 

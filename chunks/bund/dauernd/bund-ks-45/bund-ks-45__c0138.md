@@ -2,14 +2,14 @@
 id: bund-ks-45__c0138
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.3.4 Beispiel – Ein- und Austritt in Monaten mit Bonus (Teil 2/2)"
 ziffer: "7.3.4"
 seiten: "44"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.4 Unterjährige Ein-/Austritte · S. 44
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.3 Satzbestimmendes Jahreseinkommen › 7.3.4 Unterjährige Ein-/Austritte · S. 44
 
     Korrektur Januar   -303   -30
     Korrektur Januar

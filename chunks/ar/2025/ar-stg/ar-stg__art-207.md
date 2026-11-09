@@ -8,7 +8,7 @@ titel: "Art. 207 StG AR – V. Sonderregel für Erbschaftssteuern"
 artikel: "Art. 207"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 207 V. Sonderregel für Erbschaftssteuern
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 207 V. Sonderregel für Erbschaftssteuern
 
 ### Art. 207 StG AR – V. Sonderregel für Erbschaftssteuern
 

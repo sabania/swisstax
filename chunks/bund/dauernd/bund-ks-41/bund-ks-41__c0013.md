@@ -2,14 +2,14 @@
 id: bund-ks-41__c0013
 quelle: bund-ks-41
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.2.4 Art. 204 DBG (80 Prozent), Bezug in Tranchen, Sperrfrist (Teil 1/2)"
 ziffer: "2.2.4"
 seiten: "4-5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 41 · 2.2 Steuerliche Auswirkungen › 2.2.4 Auszahlung › Besonderheiten · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 41 · 2.2 Steuerliche Auswirkungen › 2.2.4 Auszahlung › Besonderheiten · S. 4–5
 
 Sowohl im Rahmen der ordentlichen Besteuerung wie bei der Besteuerung an der Quelle ist
 die Vorschrift von Artikel 204 DBG anwendbar. Demnach werden Renten, die bis und mit

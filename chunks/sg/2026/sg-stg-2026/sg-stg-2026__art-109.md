@@ -8,7 +8,7 @@ titel: "Art. 109 StG SG – Steuerabzug auf Ersatzeinkünften"
 artikel: "Art. 109"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 109 Steuerabzug auf Ersatzeinkünften
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 109 Steuerabzug auf Ersatzeinkünften
 
 ### Art. 109 StG SG – Steuerabzug auf Ersatzeinkünften
 

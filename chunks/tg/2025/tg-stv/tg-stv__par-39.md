@@ -8,7 +8,7 @@ titel: "§ 39 StV TG – Nichterscheinen zur Einspracheverhandlung"
 artikel: "§ 39"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 39 Nichterscheinen zur Einspracheverhandlung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 39 Nichterscheinen zur Einspracheverhandlung
 
 ### § 39 StV TG – Nichterscheinen zur Einspracheverhandlung
 

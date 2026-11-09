@@ -12,6 +12,9 @@ sha256: 4cfc3b00ba80a6ed4d3ce03b86f62d06b8a272003581095d84d5d430d42c708b
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
 ---
 # Formular 1: Steuererklärung 2026 für unterjährige Steuerpflicht
 

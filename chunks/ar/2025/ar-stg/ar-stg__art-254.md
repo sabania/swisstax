@@ -8,7 +8,7 @@ titel: "Art. 254 StG AR – c) Übersetzung"
 artikel: "Art. 254"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 254 c) Übersetzung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 254 c) Übersetzung
 
 ### Art. 254 StG AR – c) Übersetzung
 

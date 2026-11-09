@@ -2,13 +2,13 @@
 id: bund-vstv__art-7
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 7 VStV"
 artikel: "Art. 7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · III. Steuererhebungsverfahren › 2. Buchprüfung › Art. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · III. Steuererhebungsverfahren › 2. Buchprüfung › Art. 7
 
 ### Art. 7 VStV
 

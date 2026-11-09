@@ -7,7 +7,7 @@ typ: info
 titel: "Kontoauszug und Zahlungsbestätigung"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Kontoauszug und Zahlungsbestätigung
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Kontoauszug und Zahlungsbestätigung
 
 ## Kontoauszug und Zahlungsbestätigung
 

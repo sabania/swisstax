@@ -7,7 +7,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 2 2026: Kopf – Zustelladresse, Vertreter, Einsendefrist",
    "pfad": [
     "Kopf"
@@ -26,7 +26,7 @@
    ]
   },
   {
-   "start": 48,
+   "start": 33,
    "titel": "Ziff. 1 Personalien, Kinder und unterstützte Personen (Mindestbeitrag CHF 6800)",
    "pfad": [
     "Seite 1",
@@ -49,7 +49,7 @@
    ]
   },
   {
-   "start": 85,
+   "start": 70,
    "titel": "Ziff. 1–2 Einkünfte aus unselbständiger und selbständiger Erwerbstätigkeit",
    "pfad": [
     "Seite 2",
@@ -72,7 +72,7 @@
    ]
   },
   {
-   "start": 100,
+   "start": 85,
    "titel": "Ziff. 3 Einkünfte aus Sozial- und anderen Versicherungen (AHV/IV, Renten, Taggelder, Familienzulagen)",
    "pfad": [
     "Seite 2",
@@ -97,7 +97,7 @@
    ]
   },
   {
-   "start": 111,
+   "start": 96,
    "titel": "Ziff. 4–5 Wertschriftenertrag, Lotteriegewinne, Unterhaltsbeiträge, übrige Einkünfte",
    "pfad": [
     "Seite 2",
@@ -124,7 +124,7 @@
    ]
   },
   {
-   "start": 121,
+   "start": 106,
    "titel": "Ziff. 6–9 Zwischentotal, Einkünfte aus Liegenschaften (Eigenmietwert), Total der Einkünfte",
    "pfad": [
     "Seite 2",
@@ -148,7 +148,7 @@
    ]
   },
   {
-   "start": 142,
+   "start": 127,
    "titel": "Ziff. 10–13 Abzüge: Berufskosten, Schuldzinsen, Unterhaltsbeiträge, Säule 3a (inkl. Einkauf ab 2026)",
    "pfad": [
     "Seite 3",
@@ -173,7 +173,7 @@
    ]
   },
   {
-   "start": 161,
+   "start": 146,
    "titel": "Ziff. 14 Versicherungsprämien und Zinsen von Sparkapitalien – Abzugsmaxima",
    "pfad": [
     "Seite 3",
@@ -195,7 +195,7 @@
    ]
   },
   {
-   "start": 167,
+   "start": 152,
    "titel": "Ziff. 15–17 Weitere Abzüge, Zweiverdienerabzug (CHF 8 600–14 100), Total Abzüge",
    "pfad": [
     "Seite 3",
@@ -226,7 +226,7 @@
    ]
   },
   {
-   "start": 180,
+   "start": 165,
    "titel": "Ziff. 18–24 Einkommensberechnung, Sozialabzüge (Kinder CHF 6 800, Verheiratete CHF 2 800), BGSA",
    "pfad": [
     "Seite 3",
@@ -255,7 +255,7 @@
    ]
   },
   {
-   "start": 200,
+   "start": 185,
    "titel": "Ziff. 25 Bewegliches Vermögen: Wertschriften, Edelmetalle, Versicherungen, Fahrzeuge",
    "pfad": [
     "Seite 4",
@@ -282,7 +282,7 @@
    ]
   },
   {
-   "start": 223,
+   "start": 208,
    "titel": "Ziff. 26–30 Liegenschaften, Selbständigerwerbende, Total Vermögenswerte, Schulden, Reinvermögen",
    "pfad": [
     "Seite 4",
@@ -305,7 +305,7 @@
    ]
   },
   {
-   "start": 234,
+   "start": 219,
    "titel": "Schenkungen, Erbvorbezüge, Erbschaften sowie Angaben zu Kapitalleistungen aus Vorsorge",
    "pfad": [
     "Seite 4",
@@ -326,7 +326,7 @@
    ]
   },
   {
-   "start": 251,
+   "start": 236,
    "titel": "Bemerkungen, Erklärung der Vollständigkeit und Unterschrift",
    "pfad": [
     "Seite 4",
@@ -343,5 +343,7 @@
     "verfahren.einreichung"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0008
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.2.3 Verdeckte Gewinnausschüttungen – Teilbesteuerung bei Aufrechnung"
 ziffer: "2.2.3"
 seiten: "3-4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · 2 Teilbesteuerung › 2.2 Objektive Voraussetzungen › 2.2.3 · S. 3–4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · 2 Teilbesteuerung › 2.2 Objektive Voraussetzungen › 2.2.3 · S. 3–4
 
 •   verdeckte Gewinnausschüttungen an die Inhaber von Beteiligungen (wie Zinsen, Ent
     schädigungen für materielle und immaterielle Wirtschaftsgüter sowie für Dienstleistun

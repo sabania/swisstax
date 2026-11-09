@@ -9,7 +9,7 @@ artikel: "§ 81a"
 seiten: "41"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Kapitalsteuer › § 81a StG ZH – 4. Ermässigung · S. 41
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Kapitalsteuer › § 81a StG ZH – 4. Ermässigung · S. 41
 
 ### § 81a StG ZH – 4. Ermässigung
 

@@ -2,14 +2,14 @@
 id: bund-ks-45__c0074
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.4 Beispiele 5–6 – Stundenlohn und gleicher Schuldner"
 ziffer: "6.4"
 seiten: "24"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.4 Satzbestimmendes Einkommen Teilzeit · S. 24
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.4 Satzbestimmendes Einkommen Teilzeit · S. 24
 
     5. Zwei Arbeitsverhältnisse in der Schweiz (1 Arbeitspensum 60 % sowie 1 Arbeitsverhältnis im Stundenlohn;
     CHF 30.00 pro Stunde):

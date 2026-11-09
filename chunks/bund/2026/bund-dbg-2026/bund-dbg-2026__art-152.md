@@ -8,7 +8,7 @@ titel: "Art. 152 DBG – Verwirkung"
 artikel: "Art. 152"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 3. Kapitel: Nachsteuern › Art. 152 Verwirkung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 3. Kapitel: Nachsteuern › Art. 152 Verwirkung
 
 ### Art. 152 DBG – Verwirkung
 

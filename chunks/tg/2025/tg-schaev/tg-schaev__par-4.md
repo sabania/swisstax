@@ -8,7 +8,7 @@ titel: "§ 4 SchäV TG – Neuschätzung auf Antrag"
 artikel: "§ 4"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 1. Allgemeine Bestimmungen › § 4 Neuschätzung auf Antrag
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 1. Allgemeine Bestimmungen › § 4 Neuschätzung auf Antrag
 
 ### § 4 SchäV TG – Neuschätzung auf Antrag
 

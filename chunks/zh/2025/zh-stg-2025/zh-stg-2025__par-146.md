@@ -9,7 +9,7 @@ artikel: "§ 146"
 seiten: "62"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › E. Verfahren bei der Erhebung der Quellensteuer › § 146 StG ZH – IV. Einsprache · S. 62
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › E. Verfahren bei der Erhebung der Quellensteuer › § 146 StG ZH – IV. Einsprache · S. 62
 
 ### § 146 StG ZH – IV. Einsprache
 

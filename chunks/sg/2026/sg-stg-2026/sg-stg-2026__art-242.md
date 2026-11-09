@@ -8,7 +8,7 @@ titel: "Art. 242 StG SG – Steuersubjekt"
 artikel: "Art. 242"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 242 Steuersubjekt
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 242 Steuersubjekt
 
 ### Art. 242 StG SG – Steuersubjekt
 

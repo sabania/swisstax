@@ -13,6 +13,10 @@ sha256: 0915aca45132ce5f53cfe637e7d8dbe43cb506cc008dac6e85ca99d5874cb9db
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2025-01-01'
+gilt_bis: '2026-12-31'
+ersetzt_durch: zh-zstb-31-1
 ---
 # ZStB 31.1: Säule 3a – Fassung gültig bis 31.12.2026
 

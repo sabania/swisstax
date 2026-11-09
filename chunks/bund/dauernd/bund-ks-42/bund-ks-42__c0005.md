@@ -2,14 +2,14 @@
 id: bund-ks-42__c0005
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2 Bildungssystem – Sekundarstufe II (Forts.) und Tertiärstufe (Teil 1/2)"
 ziffer: "2"
 seiten: "3-4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 2 Bildungssystem · S. 3–4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 2 Bildungssystem · S. 3–4
 
 Ausbildungsgänge. Allgemeinbildende Ausbildungsgänge bieten die gymnasialen Maturitäts-
 schulen (Gymnasien) und Fachmittelschulen (FMS) an. Die berufliche Grundbildung kann in Lehr-

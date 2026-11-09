@@ -2,13 +2,13 @@
 id: sg-gsg__art-11
 quelle: sg-gsg
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 11 GGS SG – Gebäudeversicherungsanstalt"
 artikel: "Art. 11"
-qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: sg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025/2026 · GGS SG · III. Kosten › Art. 11 Gebäudeversicherungsanstalt
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · GGS SG · III. Kosten › Art. 11 Gebäudeversicherungsanstalt
 
 ### Art. 11 GGS SG – Gebäudeversicherungsanstalt
 

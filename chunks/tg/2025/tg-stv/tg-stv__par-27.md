@@ -8,7 +8,7 @@ titel: "§ 27 StV TG – Wirtschaftliche Handänderung"
 artikel: "§ 27"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 27 Wirtschaftliche Handänderung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 27 Wirtschaftliche Handänderung
 
 ### § 27 StV TG – Wirtschaftliche Handänderung
 

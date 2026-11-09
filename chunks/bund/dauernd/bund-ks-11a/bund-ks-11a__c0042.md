@@ -9,7 +9,7 @@ ziffer: "7"
 seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 7 Geltungsbereich · S. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 7 Geltungsbereich · S. 12
 
 7   Geltungsbereich
 

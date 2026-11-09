@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0016
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.3 Fremdfinanzierte Kapitalversicherungen und Darlehen von Gesellschaften an Beteiligte"
 ziffer: "3.3"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.3 · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.3 · S. 5
 
 Bei fremdfinanzierten Kapitalversicherungen mit Einmalprämie, die der Vorsorge dienen
 (Art. 20 Abs. 1 Bst. a DBG), gilt nach wie vor der Vorbehalt der Steuerumgehung (vgl. Zu

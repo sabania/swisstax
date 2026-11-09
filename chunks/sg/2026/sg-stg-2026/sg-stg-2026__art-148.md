@@ -8,7 +8,7 @@ titel: "Art. 148 StG SG – b) Steuersubjekt"
 artikel: "Art. 148"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 148 b) Steuersubjekt
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 148 b) Steuersubjekt
 
 ### Art. 148 StG SG – b) Steuersubjekt
 

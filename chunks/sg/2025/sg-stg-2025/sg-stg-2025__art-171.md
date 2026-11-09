@@ -8,7 +8,7 @@ titel: "Art. 171 StG SG – d) Aufbewahrungspflichten"
 artikel: "Art. 171"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 171 d) Aufbewahrungspflichten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 171 d) Aufbewahrungspflichten
 
 ### Art. 171 StG SG – d) Aufbewahrungspflichten
 

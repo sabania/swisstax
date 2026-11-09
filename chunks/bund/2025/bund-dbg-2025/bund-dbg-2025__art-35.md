@@ -8,7 +8,7 @@ titel: "Art. 35 DBG"
 artikel: "Art. 35"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Titel: Einkommenssteuer › 4. Kapitel: Sozialabzüge › Art. 35
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Titel: Einkommenssteuer › 4. Kapitel: Sozialabzüge › Art. 35
 
 ### Art. 35 DBG
 

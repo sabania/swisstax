@@ -12,6 +12,9 @@ sha256: 24e6961b0eeb29fc7408f33d931f7f044a160b39d52e1cd64c03db39182098eb
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # ESTV Formular 13: Verzeichnis der Wertschriften und sonstigen Kapitalanlagen 2025
 

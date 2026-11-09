@@ -6,12 +6,14 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: portal
 quelle_url: https://www.estv.admin.ch/de/rundschreiben-direkten-bundessteuer
 raw: raw/bund/dauernd/bund-portal-rs.html
 sha256: 6667b1bbf696f164d3351e3deb31b3d67d0bbca3480b0b48ebf8c93d4f51dd1b
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Rundschreiben DBST (Übersicht)
 

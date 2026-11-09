@@ -8,7 +8,7 @@ titel: "Art. 122a StG SG – Nachträgliche ordentliche Veranlagung a) auf Antra
 artikel: "Art. 122a"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › II. Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz * › Art. 122a Nachträgliche ordentliche Veranlagung a) auf Antrag
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › II. Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz * › Art. 122a Nachträgliche ordentliche Veranlagung a) auf Antrag
 
 ### Art. 122a StG SG – Nachträgliche ordentliche Veranlagung a) auf Antrag
 

@@ -2,14 +2,14 @@
 id: bund-ks-45__c0070
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.4 Offenlegungspflicht, Pensum nicht bekannt, 100-Prozent-Umrechnung"
 ziffer: "6.4"
 seiten: "22-23"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.4 Satzbestimmendes Einkommen Teilzeit · S. 22–23
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.4 Satzbestimmendes Einkommen Teilzeit · S. 22–23
 
 Der teilzeitbeschäftige Arbeitnehmer muss seinem Arbeitgeber bzw. seinen Arbeitgebern be-
 kannt geben, ob er einer oder weiteren (unselbstständigen oder selbstständigen) Erwerbstä-

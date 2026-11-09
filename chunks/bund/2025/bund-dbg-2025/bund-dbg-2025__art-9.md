@@ -8,7 +8,7 @@ titel: "Art. 9 DBG – Ehegatten; eingetragene Partnerinnen oder Partner; Kinder
 artikel: "Art. 9"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 9 Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter elterlicher Sorge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 9 Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter elterlicher Sorge
 
 ### Art. 9 DBG – Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter elterlicher Sorge
 

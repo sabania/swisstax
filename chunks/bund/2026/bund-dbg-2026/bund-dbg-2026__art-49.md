@@ -8,7 +8,7 @@ titel: "Art. 49 DBG"
 artikel: "Art. 49"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 1. Kapitel: Begriff der juristischen Personen › Art. 49
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 1. Kapitel: Begriff der juristischen Personen › Art. 49
 
 ### Art. 49 DBG
 

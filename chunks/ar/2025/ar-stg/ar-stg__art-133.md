@@ -8,7 +8,7 @@ titel: "Art. 133 StG AR – V. Steuertarif"
 artikel: "Art. 133"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 133 V. Steuertarif
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 133 V. Steuertarif
 
 ### Art. 133 StG AR – V. Steuertarif
 

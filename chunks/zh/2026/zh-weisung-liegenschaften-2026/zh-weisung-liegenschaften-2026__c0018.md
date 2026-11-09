@@ -9,7 +9,7 @@ ziffer: "40–42"
 seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › V. Mehrfamilien- und Geschäftshäuser › 2. Ertragswert · S. 9
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › V. Mehrfamilien- und Geschäftshäuser › 2. Ertragswert · S. 9
 
     Bei nicht, nur teilweise vermieteten Objekten oder bei offenkun- 40
 dig zu Vorzugsbedingungen vermieteten Objekten ist der erzielbare

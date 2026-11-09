@@ -2,13 +2,13 @@
 id: bund-vstv__art-35
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 35 VStV"
 artikel: "Art. 35"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · IV. Nichterhebung der Steuer gegen Domizilerklärung › 2. Befristung › Art. 35
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · IV. Nichterhebung der Steuer gegen Domizilerklärung › 2. Befristung › Art. 35
 
 ### Art. 35 VStV
 

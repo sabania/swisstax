@@ -9,7 +9,7 @@ ziffer: "1–5"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 1–5 · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 1–5 · S. 2
 
     vorhergehenden Einrichtungen überwiesen wurden, sowie aus den Zinsen (Mindestzinssatz).   12 BVV2
     Die hier ausgewiesenen Werte sind Maximalwerte, da das Altersguthaben per 31. Dezember   13 Abs. 1 BVG

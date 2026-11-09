@@ -2,13 +2,13 @@
 id: bund-ks-43__c0001
 quelle: bund-ks-43
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "KS 43 – Preise, Ehrengaben, Auszeichnungen, Stipendien, Förderbeiträge: Titel"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · Kreisschreiben 43 · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 43 · Kreisschreiben 43 · S. 1
 
 # ESTV-Kreisschreiben Nr. 43: Preise, Ehrengaben, Stipendien, Förderbeiträge
 

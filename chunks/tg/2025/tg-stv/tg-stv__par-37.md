@@ -8,7 +8,7 @@ titel: "§ 37 StV TG – Weisungsrecht"
 artikel: "§ 37"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 37 Weisungsrecht
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 37 Weisungsrecht
 
 ### § 37 StV TG – Weisungsrecht
 

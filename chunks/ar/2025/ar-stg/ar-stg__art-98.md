@@ -8,7 +8,7 @@ titel: "Art. 98 StG AR – II. Steuerbare Leistungen"
 artikel: "Art. 98"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 98 II. Steuerbare Leistungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 98 II. Steuerbare Leistungen
 
 ### Art. 98 StG AR – II. Steuerbare Leistungen
 

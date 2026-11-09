@@ -2,14 +2,14 @@
 id: bund-ks-30__c0049
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 9.1 Zweiverdienerabzug – Voraussetzungen und Betrag (8'100 bis 13'400)"
 ziffer: "9.1"
 seiten: "17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.1 Voraussetzungen · S. 17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 9 Zweiverdienerabzug › 9.1 Voraussetzungen · S. 17
 
 9   Zweiverdienerabzug
 

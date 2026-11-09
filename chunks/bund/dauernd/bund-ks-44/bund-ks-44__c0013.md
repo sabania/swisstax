@@ -2,14 +2,14 @@
 id: bund-ks-44__c0013
 quelle: bund-ks-44
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.3 Mindestwerte und Kontrollrechnung – Ziff. 3.3.1 Mindestbetrag 400 000 Franken"
 ziffer: "3.3 / 3.3.1"
 seiten: "4-5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.3 Mindestwerte und Kontrollrechnung · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 44 · 3 Objektive Voraussetzungen › 3.3 Mindestwerte und Kontrollrechnung · S. 4–5
 
 3.3   Mindestwerte und Kontrollrechnung
 Als Bemessungsgrundlage ist der höchste der Beträge nach den Buchstaben a-d von Artikel 14

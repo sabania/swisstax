@@ -8,7 +8,7 @@ titel: "Art. 266 StG AR – f) Erscheinungspflicht der angeschuldigten Person"
 artikel: "Art. 266"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 266 f) Erscheinungspflicht der angeschuldigten Person
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 266 f) Erscheinungspflicht der angeschuldigten Person
 
 ### Art. 266 StG AR – f) Erscheinungspflicht der angeschuldigten Person
 

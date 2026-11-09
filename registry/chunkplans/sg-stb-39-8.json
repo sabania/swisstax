@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Ziff. 1.1 Voraussetzung unselbständige Erwerbstätigkeit; Ehegatten, Arbeitslose",
    "pfad": [
     "1. Voraussetzungen",
@@ -26,7 +26,7 @@
    ]
   },
   {
-   "start": 45,
+   "start": 29,
    "titel": "Ziff. 1.2 Notwendigkeit der auswärtigen Verpflegung (Art. 19 StV)",
    "pfad": [
     "1. Voraussetzungen",
@@ -48,7 +48,7 @@
    ]
   },
   {
-   "start": 60,
+   "start": 44,
    "titel": "Ziff. 1.2 Beurteilung der Notwendigkeit – grosszügige Praxis, Mittagspause",
    "pfad": [
     "1. Voraussetzungen",
@@ -68,7 +68,7 @@
    ]
   },
   {
-   "start": 71,
+   "start": 55,
    "titel": "Ziff. 1.2 Gleitende Arbeitszeit und individuelle Mittagspause",
    "pfad": [
     "1. Voraussetzungen",
@@ -87,7 +87,7 @@
    ]
   },
   {
-   "start": 85,
+   "start": 69,
    "titel": "Ziff. 1.2 Schichtarbeit und unregelmässige Arbeitszeit (mind. 8 Stunden)",
    "pfad": [
     "1. Voraussetzungen",
@@ -108,7 +108,7 @@
    ]
   },
   {
-   "start": 100,
+   "start": 84,
    "titel": "Ziff. 1.3 Mehrkosten der auswärtigen Verpflegung – Zwischenverpflegung, Bewertungsansätze",
    "pfad": [
     "1. Voraussetzungen",
@@ -129,7 +129,7 @@
    ]
   },
   {
-   "start": 119,
+   "start": 103,
    "titel": "Ziff. 1.4 Tragung der Kosten durch den Steuerpflichtigen",
    "pfad": [
     "1. Voraussetzungen",
@@ -147,7 +147,7 @@
    ]
   },
   {
-   "start": 126,
+   "start": 110,
    "titel": "Ziff. 2.1 Verpflegung bei Wochenaufenthalt – inner-/interkantonal (Art. 20 StV)",
    "pfad": [
     "2. Verpflegung bei Wochenaufenthalt",
@@ -167,7 +167,7 @@
    ]
   },
   {
-   "start": 140,
+   "start": 124,
    "titel": "Ziff. 2.2 Internationale Wochenaufenthalter – Quellensteuer",
    "pfad": [
     "2. Verpflegung bei Wochenaufenthalt",
@@ -186,7 +186,7 @@
    ]
   },
   {
-   "start": 149,
+   "start": 133,
    "titel": "Ziff. 3.1 Höhe des Abzugs – Pauschalen, kein Nachweis höherer Kosten",
    "pfad": [
     "3. Höhe des Abzuges",
@@ -205,7 +205,7 @@
    ]
   },
   {
-   "start": 161,
+   "start": 145,
    "titel": "Ziff. 3.2 Pauschalansätze Verpflegung: Fr. 15 / Fr. 3'200, halb Fr. 7.50 / Fr. 1'600, Wochenaufenthalt Fr. 30 / Fr. 6'400",
    "pfad": [
     "3. Höhe des Abzuges",
@@ -228,7 +228,7 @@
    ]
   },
   {
-   "start": 184,
+   "start": 168,
    "titel": "Ziff. 3.3 Voller Abzug – Regel, nicht kumulierbar mit Wochenaufenthalt",
    "pfad": [
     "3. Höhe des Abzuges",
@@ -247,7 +247,7 @@
    ]
   },
   {
-   "start": 191,
+   "start": 175,
    "titel": "Ziff. 3.4 Halber/gekürzter Abzug – Kantine, Personalrestaurant, Mensa, Feld G",
    "pfad": [
     "3. Höhe des Abzuges",
@@ -269,7 +269,7 @@
    ]
   },
   {
-   "start": 217,
+   "start": 201,
    "titel": "Ziff. 3.4 Kürzung bei Spesenersatz des Arbeitgebers – Beispiel 44 von 220 Tagen",
    "pfad": [
     "3. Höhe des Abzuges",
@@ -289,7 +289,7 @@
    ]
   },
   {
-   "start": 228,
+   "start": 212,
    "titel": "Ziff. 4 Nachweis der Abzugsberechtigung",
    "pfad": [
     "4. Nachweis"
@@ -305,5 +305,7 @@
     "abzug.berufskosten.verpflegung"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

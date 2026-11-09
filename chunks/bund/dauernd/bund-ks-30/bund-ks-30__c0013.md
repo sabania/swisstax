@@ -2,14 +2,14 @@
 id: bund-ks-30__c0013
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3 Minderjährige Kinder – Zurechnung des Kindereinkommens (Teil 2/2)"
 ziffer: "3"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 3 Besteuerung der minderjährigen Kinder · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 3 Besteuerung der minderjährigen Kinder · S. 7
 
 Das minderjährige Kind ist Steuersubjekt und hat damit die Voraussetzungen der subjektiven
 Steuerpflicht in der Schweiz selber zu erfüllen, es wird aber in seinen Rechten und Pflichten

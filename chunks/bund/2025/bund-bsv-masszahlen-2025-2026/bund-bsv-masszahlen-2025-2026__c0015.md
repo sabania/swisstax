@@ -9,7 +9,7 @@ ziffer: "6"
 seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Zeitreihen › Teuerungsanpassung Risikorenten · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Zeitreihen › Teuerungsanpassung Risikorenten · S. 4
 
     * Die nachfolgende Anpassung der BVG-Risikorenten geschieht gleichzeitig mit der An-
     passung der AHV-Renten, welche in diesem Jahr nicht stattgefunden hat.

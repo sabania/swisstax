@@ -9,7 +9,7 @@ ziffer: "5.6 c–e"
 seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.6 Sonderfälle · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.6 Sonderfälle · S. 6
 
 c)   IV-Bezüger
 Vorsorgenehmer, die zwar eine Invalidenrente der eidgenössischen Invalidenversicherung

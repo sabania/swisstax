@@ -9,7 +9,7 @@ artikel: "§ 25"
 seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 25 StG ZH – III. Ermittlung des Reineinkommens 1. Grundsatz · S. 14
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 25 StG ZH – III. Ermittlung des Reineinkommens 1. Grundsatz · S. 14
 
 ### § 25 StG ZH – III. Ermittlung des Reineinkommens 1. Grundsatz
 

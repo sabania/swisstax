@@ -2,13 +2,13 @@
 id: bund-bvv3__art-3a
 quelle: bund-bvv3
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 3a BVV 3 – Übertragung von Vorsorgekapital in Vorsorgeeinrichtungen oder in andere anerkannte Vorsorgeformen"
 artikel: "Art. 3a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 3a Übertragung von Vorsorgekapital in Vorsorgeeinrichtungen oder in andere anerkannte Vorsorgeformen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 3a Übertragung von Vorsorgekapital in Vorsorgeeinrichtungen oder in andere anerkannte Vorsorgeformen
 
 ### Art. 3a BVV 3 – Übertragung von Vorsorgekapital in Vorsorgeeinrichtungen oder in andere anerkannte Vorsorgeformen
 

@@ -2,14 +2,14 @@
 id: bund-ks-44__c0027
 quelle: bund-ks-44
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.2 Pauschale Steueranrechnung bei modifizierter Aufwandbesteuerung"
 ziffer: "5.2"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · 5 Verfahren › 5.2 Modifizierte Aufwandbesteuerung · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 44 · 5 Verfahren › 5.2 Modifizierte Aufwandbesteuerung · S. 8
 
 Personen, die anstelle der ordentlichen Einkommenssteuern eine Steuer nach dem Aufwand
 entrichten, haben grundsätzlich keinen Anspruch auf die pauschale Anrechnung der im Ausland

@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 16 – Angaben über die Liegenschaft (A, B, C)",
    "pfad": [
     "Einkünfte aus Liegenschaften"
@@ -24,7 +24,7 @@
    "zusammenfassung": "Lage, Art, Gebäudealter, Bodenfläche, Brandversicherungswert und kantonaler Steuerwert je Liegenschaft."
   },
   {
-   "start": 56,
+   "start": 41,
    "titel": "Formular 16 – Ertrag, Unterhaltskosten, Nettoertrag (Übertrag Seite 2 Ziffer 8.4)",
    "pfad": [
     "Einkünfte aus Liegenschaften",
@@ -47,5 +47,7 @@
    ],
    "zusammenfassung": "Total Rohertrag abzüglich tatsächlicher Kosten oder Pauschalabzug ergibt Nettoertrag; Nettoertrag sämtlicher Liegenschaften zu übertragen in die Steuererklärung, Seite 2, Ziffer 8.4."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

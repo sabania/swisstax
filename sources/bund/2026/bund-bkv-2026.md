@@ -5,6 +5,7 @@ kurz: BKV
 jurisdiktion: bund
 jahre:
 - 2026
+- 2027
 typ: verordnung
 stand: '2026-01-01'
 quelle_url: https://www.fedlex.admin.ch/eli/cc/1993/1363_1363_1363/20260101/de
@@ -13,6 +14,9 @@ sha256: a11ebd81f790b6f2d9fa28734894b87cdd7b10870af946831780e4c637c2df08
 abgerufen: '2026-11-09'
 einheiten: 14
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: bund-bkv-2025
 ---
 # Berufskostenverordnung EFD (SR 642.118.1) – Fassung gültig ab 01.01.2026
 

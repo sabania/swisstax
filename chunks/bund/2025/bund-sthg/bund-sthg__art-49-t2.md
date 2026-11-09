@@ -2,13 +2,13 @@
 id: bund-sthg__art-49-t2
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 49 StHG – Verfahren bei Erhebung der Quellensteuer (Teil 2/2)"
 artikel: "Art. 49"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Fünfter Titel: Verfahrensrecht › 1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren › Art. 49 Verfahren bei Erhebung der Quellensteuer
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Fünfter Titel: Verfahrensrecht › 1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren › Art. 49 Verfahren bei Erhebung der Quellensteuer
 
 ### Art. 49 StHG – Verfahren bei Erhebung der Quellensteuer (Fortsetzung)
 

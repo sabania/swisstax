@@ -2,13 +2,13 @@
 id: bund-vstv__art-47-t1
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 47 VStV (Teil 1/2)"
 artikel: "Art. 47"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · III. Meldung statt Steuerentrichtung › 1. Meldung › Art. 47
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · III. Meldung statt Steuerentrichtung › 1. Meldung › Art. 47
 
 ### Art. 47 VStV
 

@@ -8,7 +8,7 @@ titel: "Art. 194 DBG – Antrag auf Weiterverfolgung"
 artikel: "Art. 194"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 194 Antrag auf Weiterverfolgung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 194 Antrag auf Weiterverfolgung
 
 ### Art. 194 DBG – Antrag auf Weiterverfolgung
 

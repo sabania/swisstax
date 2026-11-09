@@ -8,7 +8,7 @@ titel: "Art. 166 DBG – Zahlungserleichterungen"
 artikel: "Art. 166"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 3. Kapitel: Steuerbezug › Art. 166 Zahlungserleichterungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 3. Kapitel: Steuerbezug › Art. 166 Zahlungserleichterungen
 
 ### Art. 166 DBG – Zahlungserleichterungen
 

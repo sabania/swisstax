@@ -9,7 +9,7 @@ artikel: "§ 267"
 seiten: "90"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 267 StG ZH – III. Mitwirkung kantonaler Behörden · S. 90
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 267 StG ZH – III. Mitwirkung kantonaler Behörden · S. 90
 
 ### § 267 StG ZH – III. Mitwirkung kantonaler Behörden
 

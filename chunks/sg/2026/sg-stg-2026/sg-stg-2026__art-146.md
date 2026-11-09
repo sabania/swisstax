@@ -8,7 +8,7 @@ titel: "Art. 146 StG SG – b) An natürliche Personen"
 artikel: "Art. 146"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 146 b) An natürliche Personen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 146 b) An natürliche Personen
 
 ### Art. 146 StG SG – b) An natürliche Personen
 

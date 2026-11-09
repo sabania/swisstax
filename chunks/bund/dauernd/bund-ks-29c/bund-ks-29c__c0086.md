@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0086
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang 4 Beispiel 2 – kotierte Gesellschaft ohne Wiedereinzahlung KER (Teil 1/2)"
 ziffer: "Anhang 4"
 seiten: "35"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 4 Kapitalband · S. 35
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › Anhang 4 Kapitalband · S. 35
 
 2. Eine an einer schweizerischen Börse kotierte Gesellschaft zeigt folgende Eigenkapitalbe-
    wegungen innerhalb ihres Kapitalbands über zwei Jahre (wobei sämtliche Rückkäufe über

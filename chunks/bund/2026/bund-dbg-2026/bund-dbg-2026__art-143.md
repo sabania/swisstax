@@ -8,7 +8,7 @@ titel: "Art. 143 DBG – Entscheid"
 artikel: "Art. 143"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 143 Entscheid
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 143 Entscheid
 
 ### Art. 143 DBG – Entscheid
 

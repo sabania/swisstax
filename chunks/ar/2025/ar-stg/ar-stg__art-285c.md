@@ -8,7 +8,7 @@ titel: "Art. 285c StG AR – 11. Gratisaktien, Gratisnennwerterhöhungen und der
 artikel: "Art. 285c"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285c 11. Gratisaktien, Gratisnennwerterhöhungen und dergleichen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285c 11. Gratisaktien, Gratisnennwerterhöhungen und dergleichen
 
 ### Art. 285c StG AR – 11. Gratisaktien, Gratisnennwerterhöhungen und dergleichen
 

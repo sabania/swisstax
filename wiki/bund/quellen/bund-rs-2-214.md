@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Rundschreiben · **gilt für Steuerjahre:** 2025 · **Stand:** 2025-01-28
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/c1HjrX6SP5Z9/dbst-rs-2-214-dv-2025-de.pdf> · lokal: [bund-rs-2-214.pdf](../../../raw/bund/2025/bund-rs-2-214.pdf) · Volltext: [bund-rs-2-214.md](../../../sources/bund/2025/bund-rs-2-214.md)
 - **Abgerufen:** 2026-11-09 · sha256 `f5f1c765dde654fb…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31 · ersetzt durch `bund-rs-2-219`
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

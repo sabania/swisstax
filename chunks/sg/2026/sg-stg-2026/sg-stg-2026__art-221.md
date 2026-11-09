@@ -8,7 +8,7 @@ titel: "Art. 221 StG SG – Ausführungsbestimmungen"
 artikel: "Art. 221"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 221 Ausführungsbestimmungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 221 Ausführungsbestimmungen
 
 ### Art. 221 StG SG – Ausführungsbestimmungen
 

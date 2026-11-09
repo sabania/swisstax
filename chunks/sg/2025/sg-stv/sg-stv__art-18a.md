@@ -8,7 +8,7 @@ titel: "Art. 18a StV SG – abis) Fahrkosten bei der unentgeltlichen privaten Nu
 artikel: "Art. 18a"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 18a abis) Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 18a abis) Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
 
 ### Art. 18a StV SG – abis) Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
 

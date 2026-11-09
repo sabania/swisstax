@@ -8,7 +8,7 @@ titel: "Art. 72 StG SG – b) Wirtschaftliche Zugehörigkeit"
 artikel: "Art. 72"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 72 b) Wirtschaftliche Zugehörigkeit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 72 b) Wirtschaftliche Zugehörigkeit
 
 ### Art. 72 StG SG – b) Wirtschaftliche Zugehörigkeit
 

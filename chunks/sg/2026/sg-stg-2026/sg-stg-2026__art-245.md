@@ -8,7 +8,7 @@ titel: "Art. 245 StG SG – Berechnung"
 artikel: "Art. 245"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 245 Berechnung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 245 Berechnung
 
 ### Art. 245 StG SG – Berechnung
 

@@ -2,13 +2,13 @@
 id: bund-sthg__art-24d
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 24d StHG – Besteuerung stiller Reserven am Ende der Steuerpflicht"
 artikel: "Art. 24d"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · 2. Kapitel: Gewinnsteuer › 1. Abschnitt: Steuerobjekt › Art. 24d Besteuerung stiller Reserven am Ende der Steuerpflicht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · 2. Kapitel: Gewinnsteuer › 1. Abschnitt: Steuerobjekt › Art. 24d Besteuerung stiller Reserven am Ende der Steuerpflicht
 
 ### Art. 24d StHG – Besteuerung stiller Reserven am Ende der Steuerpflicht
 

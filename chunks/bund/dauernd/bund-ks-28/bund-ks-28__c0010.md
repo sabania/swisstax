@@ -2,14 +2,14 @@
 id: bund-ks-28__c0010
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.4.2–2.4.3 Verhältnis zu Art. 18a Abs. 2 und 3 DBG (Verpachtung, Erben)"
 ziffer: "2.4.2–2.4.3"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Kreisschreiben · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Kreisschreiben · S. 4
 
 2.4.2. Verhältnis zu Artikel 18a Absatz 2 DBG
 Verzichtet die steuerpflichtige Person im Zeitpunkt einer Verpachtung nach Artikel 18a Ab-

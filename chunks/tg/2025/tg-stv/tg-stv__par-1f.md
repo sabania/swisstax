@@ -8,7 +8,7 @@ titel: "§ 1f StV TG – Widerruf des Steuerstatus"
 artikel: "§ 1f"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.1. Besteuerung nach dem Aufwand * › § 1f Widerruf des Steuerstatus
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.1. Besteuerung nach dem Aufwand * › § 1f Widerruf des Steuerstatus
 
 ### § 1f StV TG – Widerruf des Steuerstatus
 

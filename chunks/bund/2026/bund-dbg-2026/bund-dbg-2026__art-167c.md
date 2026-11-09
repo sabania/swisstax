@@ -8,7 +8,7 @@ titel: "Art. 167c DBG – Inhalt des Erlassgesuchs"
 artikel: "Art. 167c"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 4. Kapitel: Erlass der Steuer › Art. 167c Inhalt des Erlassgesuchs
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 4. Kapitel: Erlass der Steuer › Art. 167c Inhalt des Erlassgesuchs
 
 ### Art. 167c DBG – Inhalt des Erlassgesuchs
 

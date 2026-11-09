@@ -8,7 +8,7 @@ titel: "Art. 193 DBG – Abschluss der Untersuchung"
 artikel: "Art. 193"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 193 Abschluss der Untersuchung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 193 Abschluss der Untersuchung
 
 ### Art. 193 DBG – Abschluss der Untersuchung
 

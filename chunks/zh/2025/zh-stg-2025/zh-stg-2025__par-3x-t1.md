@@ -9,7 +9,7 @@ artikel: "§ 3"
 seiten: "96"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 3 StG ZH – Unterstützung besonders betroffener Gemeinden · S. 96
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 3 StG ZH – Unterstützung besonders betroffener Gemeinden · S. 96
 
 ### § 3 StG ZH – Unterstützung besonders betroffener Gemeinden
 

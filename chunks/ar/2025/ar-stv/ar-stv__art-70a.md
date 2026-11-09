@@ -8,7 +8,7 @@ titel: "Art. 70a StV AR – Pfandrecht (Art. 239 StG)"
 artikel: "Art. 70a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Zweiter Teil: Steuern der Gemeinden und von Körperschaften › Art. 70a Pfandrecht (Art. 239 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Zweiter Teil: Steuern der Gemeinden und von Körperschaften › Art. 70a Pfandrecht (Art. 239 StG)
 
 ### Art. 70a StV AR – Pfandrecht (Art. 239 StG)
 

@@ -9,7 +9,7 @@ artikel: "§ 176"
 seiten: "70"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerbezug › § 176 StG ZH – IV. Zuständigkeit des Regierungsrates · S. 70
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerbezug › § 176 StG ZH – IV. Zuständigkeit des Regierungsrates · S. 70
 
 ### § 176 StG ZH – IV. Zuständigkeit des Regierungsrates
 

@@ -8,7 +8,7 @@ titel: "Art. 19 StV SG – b) Mehrkosten für Verpflegung (Art. 39 Abs. 1 Bst. b
 artikel: "Art. 19"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 19 b) Mehrkosten für Verpflegung (Art. 39 Abs. 1 Bst. b StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 19 b) Mehrkosten für Verpflegung (Art. 39 Abs. 1 Bst. b StG)
 
 ### Art. 19 StV SG – b) Mehrkosten für Verpflegung (Art. 39 Abs. 1 Bst. b StG)
 

@@ -9,7 +9,7 @@ ziffer: "10"
 seiten: "24"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum · S. 24
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum · S. 24
 
 Unterengstringen   5   1070   960   850   740   630   –   –
 Urdorf   5   1010   920   830   740   640   –   –

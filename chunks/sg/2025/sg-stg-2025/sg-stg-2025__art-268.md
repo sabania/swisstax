@@ -8,7 +8,7 @@ titel: "Art. 268 StG SG – e) Erscheinungspflicht des Angeschuldigten"
 artikel: "Art. 268"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 268 e) Erscheinungspflicht des Angeschuldigten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 268 e) Erscheinungspflicht des Angeschuldigten
 
 ### Art. 268 StG SG – e) Erscheinungspflicht des Angeschuldigten
 

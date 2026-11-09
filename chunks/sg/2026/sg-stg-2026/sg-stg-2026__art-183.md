@@ -8,7 +8,7 @@ titel: "Art. 183 StG SG – Veranlagungsverjährung"
 artikel: "Art. 183"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 183 Veranlagungsverjährung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 183 Veranlagungsverjährung
 
 ### Art. 183 StG SG – Veranlagungsverjährung
 

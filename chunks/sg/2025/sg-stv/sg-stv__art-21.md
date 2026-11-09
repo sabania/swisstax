@@ -8,7 +8,7 @@ titel: "Art. 21 StV SG – d) Übrige Berufskosten (Art. 39 Abs. 1 Bst. c StG)"
 artikel: "Art. 21"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 21 d) Übrige Berufskosten (Art. 39 Abs. 1 Bst. c StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 21 d) Übrige Berufskosten (Art. 39 Abs. 1 Bst. c StG)
 
 ### Art. 21 StV SG – d) Übrige Berufskosten (Art. 39 Abs. 1 Bst. c StG)
 

@@ -2,14 +2,14 @@
 id: bund-ks-42__c0022
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.6 Abzugsmöglichkeiten für Arbeitgeber und Selbständigerwerbende (Teil 1/2)"
 ziffer: "4.6"
 seiten: "8-9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.6 Arbeitgeber und Selbständige · S. 8–9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 4 Steuerliche Behandlung › 4.6 Arbeitgeber und Selbständige · S. 8–9
 
 4.6   Abzugsmöglichkeiten für Arbeitgeber und selbständig Erwerbstätige
 Arbeitgeber können nach Artikel 27 Absatz 2 Buchstabe e DBG bzw. Artikel 59 Absatz 1 Buch-

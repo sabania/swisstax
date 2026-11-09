@@ -2,14 +2,14 @@
 id: bund-ssk-ks27-mb-sz__c0012
 quelle: bund-ssk-ks27-mb-sz
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 5–6 Verfahren und Übergangsregelungen vor 1.1.2010 (Teil 1/3)"
 ziffer: "5–6"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · 5. Verfahren / 6. Übergangsregelungen · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · SSK-KS 27 (MB SZ) · 5. Verfahren / 6. Übergangsregelungen · S. 4
 
 5.   Verfahren
 

@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerbezug"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: info}}
 ---
-> AR · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug
 
 # Steuerbezug
 

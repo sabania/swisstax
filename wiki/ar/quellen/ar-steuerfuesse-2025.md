@@ -11,6 +11,16 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Steuerfüsse · **gilt für Steuerjahre:** 2025
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Steuerfuesse_2025.pdf> · lokal: [ar-steuerfuesse-2025.pdf](../../../raw/ar/2025/ar-steuerfuesse-2025.pdf) · Volltext: [ar-steuerfuesse-2025.md](../../../sources/ar/2025/ar-steuerfuesse-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `f8481fe52d5eafd9…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-steuerfuesse-2025`).
+
+- `data/werte/ar/2025.yaml#58:tarif.steuerfuss_kanton` (agent-geprueft)
+- [wiki/ar/ar-ueberblick.md](../ar-ueberblick.md)
+- [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

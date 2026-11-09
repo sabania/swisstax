@@ -8,7 +8,7 @@ titel: "Art. 169 StG SG – b) Beilagen zur Steuererklärung"
 artikel: "Art. 169"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 169 b) Beilagen zur Steuererklärung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 169 b) Beilagen zur Steuererklärung
 
 ### Art. 169 StG SG – b) Beilagen zur Steuererklärung
 

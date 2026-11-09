@@ -11,7 +11,14 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Rundschreiben · **gilt für Steuerjahre:** 2025 · **Stand:** 2024-10-29
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/WdewvKdcIgyy/dbst-rs-2-211-d-2024-de.pdf> · lokal: [bund-rs-2-211.pdf](../../../raw/bund/2025/bund-rs-2-211.pdf) · Volltext: [bund-rs-2-211.md](../../../sources/bund/2025/bund-rs-2-211.md)
 - **Abgerufen:** 2026-11-09 · sha256 `ef8180ef2d7aba97…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31 · ersetzt durch `bund-rs-2-216`
 - ⚠ **Hinweis:** 870 Seiten, grösstenteils Tariftabellen; nur Textteil gechunkt
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-rs-2-211`).
+
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

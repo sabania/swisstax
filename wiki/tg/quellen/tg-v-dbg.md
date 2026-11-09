@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2016-01-01
 - **Original:** <https://www.rechtsbuch.tg.ch/app/de/texts_of_law/642.11/versions/2356> · lokal: [tg-v-dbg.json](../../../raw/tg/2025/tg-v-dbg.json) · Volltext: [tg-v-dbg.md](../../../sources/tg/2025/tg-v-dbg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `29a406f853a0afd5…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2016-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-v-dbg`).
+
+- [wiki/tg/tg-ueberblick.md](../tg-ueberblick.md)
 
 ## Inhalt (14 Chunks)
 

@@ -8,7 +8,7 @@ titel: "Art. 163 ter StG SG – Elektronischer Datenaustausch"
 artikel: "Art. 163 ter"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 163 ter Elektronischer Datenaustausch
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 163 ter Elektronischer Datenaustausch
 
 ### Art. 163 ter StG SG – Elektronischer Datenaustausch
 

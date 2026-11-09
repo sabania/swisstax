@@ -2,14 +2,14 @@
 id: bund-ks-45__c0189
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 9.2 Beispiele Personalverleih – Meldung von Ein- und Austritten (Teil 2/3)"
 ziffer: "9.2"
 seiten: "59"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.2 Anmeldung und Mutationen · S. 59
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 9 Pflichten des Schuldners der steuerbaren Leistung › 9.2 Anmeldung und Mutationen · S. 59
 
     4. Einmaliger Personalverleih vom 22.08.2021 bis 14.10.221: Weder Eintritt noch Austritt in September-
     Abrechnung

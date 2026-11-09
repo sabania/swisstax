@@ -2,13 +2,13 @@
 id: tg-stg__par-34-t3
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 34 StG TG – Allgemeine Abzüge (Teil 3/6)"
 artikel: "§ 34"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.2.2. Einkommenssteuer › 1.2.2.3. Ermittlung des Reineinkommens › § 34 Allgemeine Abzüge
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.2.2. Einkommenssteuer › 1.2.2.3. Ermittlung des Reineinkommens › § 34 Allgemeine Abzüge
 
 ### § 34 StG TG – Allgemeine Abzüge (Fortsetzung)
 

@@ -12,17 +12,17 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Auskünfte/Kontakt"
   },
   {
-   "start": 65,
+   "start": 50,
    "skip": true,
    "titel": "Inhaltsverzeichnis"
   },
   {
-   "start": 122,
+   "start": 107,
    "titel": "Kurzübersicht – Ziff. 2 Privatanteile, Ziff. 5 Eigenmietwert, Ziff. 10.1 Fahrkosten",
    "pfad": [
     "Kurzübersicht Wegleitung 2025"
@@ -44,7 +44,7 @@
    "zusammenfassung": "Privatanteile Haushalt Fr. 3'540 pro Jahr (Zuschlag Fr. 900 je weiterer Erwachsener, Fr. 600 je Kind); Eigenmietwert Erstwohnung um 30% reduziert; Fahrrad bis Fr. 700, Auto 70 Rappen je km, max. Fr. 8'000, 220 Arbeitstage."
   },
   {
-   "start": 142,
+   "start": 127,
    "titel": "Kurzübersicht – Ziff. 10.2–10.5 Verpflegung, Pauschale, Wochenaufenthalt, Nebenerwerb",
    "pfad": [
     "Kurzübersicht Wegleitung 2025"
@@ -67,7 +67,7 @@
    "zusammenfassung": "Verpflegung Fr. 15 pro Tag (max. Fr. 3'200), Kantine Fr. 7.50 (max. Fr. 1'600); Pauschale Fr. 700 + 10% des Nettolohnes, max. Fr. 2'400; Wochenaufenthalt Zimmer max. Fr. 500 bis 800 pro Monat, Verpflegung Fr. 30 pro Tag (max. Fr. 6'400); Nebenerwerb 20%, mind. Fr. 800, max. Fr. 2'400."
   },
   {
-   "start": 151,
+   "start": 136,
    "titel": "Kurzübersicht – Ziff. 13.1 Säule 3a und Ziff. 14 Versicherungsprämien",
    "pfad": [
     "Kurzübersicht Wegleitung 2025"
@@ -88,7 +88,7 @@
    "zusammenfassung": "Säule 3a max. Fr. 7'258 mit 2. Säule, 20% des Erwerbseinkommens max. Fr. 36'288 ohne 2. Säule; Versicherungsabzug gemeinsam Fr. 6'800, übrige Fr. 3'400, pro Kind bis Fr. 1'100."
   },
   {
-   "start": 157,
+   "start": 142,
    "titel": "Kurzübersicht – Ziff. 16–17 Weitere Abzüge und Zweiverdienerabzug",
    "pfad": [
     "Kurzübersicht Wegleitung 2025"
@@ -112,7 +112,7 @@
    "zusammenfassung": "Verwaltung 2‰ max. Fr. 6'000; Kinderbetreuung max. Fr. 26'700 je Kind unter 14; Parteispenden Fr. 10'700 / Fr. 21'400; Weiterbildung max. Fr. 13'000 oder pauschal Fr. 400; Zweiverdienerabzug max. Fr. 500."
   },
   {
-   "start": 170,
+   "start": 155,
    "titel": "Kurzübersicht – Ziff. 21 Zusätzliche Abzüge (Krankheit, Behinderung, Zuwendungen)",
    "pfad": [
     "Kurzübersicht Wegleitung 2025"
@@ -133,7 +133,7 @@
    "zusammenfassung": "Krankheitskosten über 2% Selbstbehalt, Diätpauschale Fr. 2'500; Pflegeheim Fr. 2'000 pro Monat nicht abzugsfähig; Hilflosenentschädigung Pauschalen Fr. 2'500/5'000/7'500; Zuwendungen ab Fr. 100, max. 20% des Nettoeinkommens."
   },
   {
-   "start": 180,
+   "start": 165,
    "titel": "Kurzübersicht – Ziff. 23 Sozialabzüge Einkommen und Ziff. 36 Sozialabzüge Vermögen",
    "pfad": [
     "Kurzübersicht Wegleitung 2025"
@@ -154,7 +154,7 @@
    "zusammenfassung": "Kinderabzug Fr. 7'600 (Vorschulalter) bzw. Fr. 10'800 (Ausbildung); Ausbildungskosten max. Fr. 13'700 nach Selbstbehalt Fr. 3'200; Unterstützungsabzug Fr. 6'800 (nur Bund); Vermögen Fr. 75'000 / Fr. 150'000 + Fr. 20'000 je Kind."
   },
   {
-   "start": 194,
+   "start": 179,
    "titel": "Bedeutung der Steuererklärung 2025 – Wer muss eine Steuererklärung einreichen",
    "pfad": [
     "Bedeutung der Steuererklärung"
@@ -172,7 +172,7 @@
    "zusammenfassung": "Steuererklärung 2025 dient der Kantons-/Gemeindesteuer und direkten Bundessteuer; einzureichen bei Wohnsitz oder Liegenschaften/Geschäftsbetrieben im Kanton SG am 31. Dezember 2025."
   },
   {
-   "start": 214,
+   "start": 199,
    "titel": "Elektronische Steuererklärung E-Tax SG – Vorteile",
    "pfad": [
     "Bedeutung der Steuererklärung",
@@ -191,7 +191,7 @@
    "zusammenfassung": "E-Tax SG ermöglicht ab Steuerperiode 2025 das Ausfüllen und vollständig digitale Einreichen inkl. Belege über eine geschützte Verbindung, auch mit mobilen Geräten; Vorjahresdaten können importiert werden."
   },
   {
-   "start": 235,
+   "start": 220,
    "titel": "E-Tax SG – unterjährige Erklärung, frühere Perioden, Nutzen der elektronischen Einreichung",
    "pfad": [
     "Bedeutung der Steuererklärung",
@@ -209,7 +209,7 @@
    "zusammenfassung": "Unterjährige Steuererklärungen 2026 sind mit E-Tax SG möglich; Steuererklärungen 2021 bis 2024 können weiterhin mit den bisherigen Desktoplösungen ausgefüllt werden; elektronische Einreichung führt zu reduzierter Formularzustellung."
   },
   {
-   "start": 256,
+   "start": 241,
    "titel": "Allgemeine Hinweise zur Wegleitung",
    "pfad": [
     "Allgemeine Hinweise"
@@ -227,7 +227,7 @@
    "zusammenfassung": "Die Ziffern der Wegleitung entsprechen den Ziffern der Steuererklärung; bei offenen Fragen Gemeindesteueramt oder Kantonales Steueramt kontaktieren."
   },
   {
-   "start": 272,
+   "start": 257,
    "titel": "Auszufüllende Formulare und Formularbezug",
    "pfad": [
     "Allgemeine Hinweise",
@@ -246,7 +246,7 @@
    "zusammenfassung": "Auszufüllen sind das Steuererklärungsformular (Formular 1) und das Wertschriften- und Guthabenverzeichnis (Formular 2); weitere Formulare (Berufskosten, Schulden, Zuwendungen, Versicherungen, Krankheitskosten, Liegenschaften) nur bei Bedarf."
   },
   {
-   "start": 292,
+   "start": 277,
    "titel": "Einreichung der Steuererklärung und weiterer Unterlagen",
    "pfad": [
     "Allgemeine Hinweise",
@@ -266,7 +266,7 @@
    "zusammenfassung": "Mit Formular 1 und 2 sind die im Einzelfall benötigten Formulare, Bescheinigungen und ausdrücklich verlangten Belege einzureichen."
   },
   {
-   "start": 304,
+   "start": 289,
    "titel": "Belege: nur benötigte Unterlagen einreichen, übrige aufbewahren",
    "pfad": [
     "Allgemeine Hinweise",
@@ -284,7 +284,7 @@
    "zusammenfassung": "Eingereicht werden nur die tatsächlich benötigten Unterlagen (nur in Kopie); übrige Belege bis zur rechtskräftigen Veranlagung bereithalten, sonst kann der Abzug verweigert werden."
   },
   {
-   "start": 317,
+   "start": 302,
    "titel": "Zweckmässiges Vorgehen beim Ausfüllen (3 Schritte)",
    "pfad": [
     "Allgemeine Hinweise",
@@ -303,7 +303,7 @@
    "zusammenfassung": "Vorgehen: 1. Unterlagen beschaffen (Lohnausweis, Bankbescheinigungen, Belege, Versicherungsbescheinigungen), 2. Wertschriftenverzeichnis und weitere Formulare ausfüllen, 3. Ergebnisse in die Steuererklärung übertragen."
   },
   {
-   "start": 341,
+   "start": 326,
    "titel": "Steuerpflicht und Unterschrift (Ehepaare, Minderjährige, alleinstehend)",
    "pfad": [
     "Allgemeine Hinweise",
@@ -324,7 +324,7 @@
    "zusammenfassung": "Steuererklärung ist persönlich zu unterzeichnen; Ehepaare/eingetragene Partner werden gemeinsam besteuert und unterzeichnen beide; minderjährige Kinder werden mit dem Inhaber des Sorgerechts besteuert, ausser für Erwerbseinkommen."
   },
   {
-   "start": 359,
+   "start": 344,
    "titel": "Vertretung im Veranlagungsverfahren (Formular 31) und Zustelladresse bei Wegzug",
    "pfad": [
     "Allgemeine Hinweise",
@@ -344,7 +344,7 @@
    "zusammenfassung": "Vertretung durch Dritte nur mit schriftlicher Vollmacht (Formular 31); persönliche Unterzeichnung und Auskunftserteilung sind nicht delegierbar; bei Wegzug ins Ausland ist eine Zustelladresse in der Schweiz nötig."
   },
   {
-   "start": 373,
+   "start": 358,
    "titel": "Einreichefrist, Fristverlängerung und Rückerstattung Verrechnungssteuer",
    "pfad": [
     "Allgemeine Hinweise",
@@ -363,7 +363,7 @@
    "zusammenfassung": "Gesuch um Fristverlängerung vor Ablauf der Einreichefrist elektronisch über www.steuern.sg.ch; Verrechnungssteuer wird im Formular 2 geltend gemacht und in der Schlussrechnung 2025 gutgeschrieben."
   },
   {
-   "start": 399,
+   "start": 384,
    "titel": "Folgen unkorrekter Steuererklärung und richtiges Ausfüllen",
    "pfad": [
     "Allgemeine Hinweise",
@@ -381,7 +381,7 @@
    "zusammenfassung": "Missachtung der Mitwirkungspflichten kann Ermessensveranlagung und Steuerstrafen zur Folge haben; Formulare mit Name und Registernummer versehen, Auswahlfelder ankreuzen, blauer oder schwarzer Stift."
   },
   {
-   "start": 423,
+   "start": 408,
    "titel": "Ausfüllen mit elektronischen Hilfsmitteln (E-Tax SG, private Programme)",
    "pfad": [
     "Allgemeine Hinweise",
@@ -399,7 +399,7 @@
    "zusammenfassung": "Private Computerprogramme sind vom Kantonalen Steueramt nicht geprüft; ausgedruckte Formulare müssen den Originalen entsprechen, schwarz auf weiss, mit Name und Registernummer, datiert und unterzeichnet."
   },
   {
-   "start": 447,
+   "start": 432,
    "titel": "Einreichen der elektronisch ausgefüllten Steuererklärung (eFiling mit Belegen)",
    "pfad": [
     "Allgemeine Hinweise",
@@ -417,7 +417,7 @@
    "zusammenfassung": "Mit E-Tax SG kann die Steuererklärung samt Belegen vollständig digital eingereicht werden; das Unterzeichnen der Quittung und der Gang zur Post entfallen."
   },
   {
-   "start": 462,
+   "start": 447,
    "titel": "Elektronische Einreichung ohne Beleg-Upload – Freigabequittung",
    "pfad": [
     "Allgemeine Hinweise",
@@ -434,7 +434,7 @@
    "zusammenfassung": "Ohne Beleg-Upload werden nur die Werte elektronisch übermittelt; Belege und die unterzeichnete Freigabequittung sind per Post dem Gemeindesteueramt einzureichen; ein Ausdrucken und postalisches Einreichen von E-Tax-Erklärungen ist nicht möglich."
   },
   {
-   "start": 473,
+   "start": 458,
    "titel": "Grundsätze der Besteuerung",
    "pfad": [
     "Grundsätze der Besteuerung"
@@ -448,7 +448,7 @@
    "zusammenfassung": "Besteuert wird das Einkommen des Kalenderjahres 2025; für die Vermögenssteuer ist der Stand am Ende des Kalenderjahres oder der Steuerpflicht massgebend."
   },
   {
-   "start": 484,
+   "start": 469,
    "titel": "Formular 1 – Titelseite (Steuerperiode, Rückfragen, Stichtag Personalien)",
    "pfad": [
     "Grundsätze der Besteuerung",
@@ -469,7 +469,7 @@
    "zusammenfassung": "Abbildung Formular 1 mit Steuerperiode 2025, Dauer bei nicht ganzjähriger Steuerpflicht, Rückfragen-Kontakt und Hinweis auf schriftliche Vollmacht (Layout vermischt)."
   },
   {
-   "start": 511,
+   "start": 496,
    "titel": "Formular 1 – Personalien, Berufs- und Familienverhältnisse (Raster)",
    "pfad": [
     "Grundsätze der Besteuerung",
@@ -490,7 +490,7 @@
    "zusammenfassung": "Raster für Name, Geburtsdatum, Zivilstand, Beruf, Erwerbsart, Kinder (Schule/Ausbildung) und Auszahlungskonto; bei Aufnahme oder Aufgabe einer Erwerbstätigkeit ist das tatsächlich erzielte Einkommen zu deklarieren."
   },
   {
-   "start": 558,
+   "start": 543,
    "titel": "Selbständige Erwerbstätigkeit, Schenkung/Erbschaft im Laufe des Jahres",
    "pfad": [
     "Beginn und Ende der Steuerpflicht",
@@ -511,7 +511,7 @@
    "zusammenfassung": "Bei selbständiger Tätigkeit massgebend sind die Geschäftsabschlüsse der Steuerperiode; bei Erbschaft ab Fr. 50'000 wird der Vermögenszuwachs von Amtes wegen zeitlich gewichtet."
   },
   {
-   "start": 572,
+   "start": 557,
    "titel": "Beginn der Steuerpflicht in SG – Zuzug aus einem anderen Kanton",
    "pfad": [
     "Beginn und Ende der Steuerpflicht",
@@ -530,7 +530,7 @@
    "zusammenfassung": "Wer 2025 aus einem anderen Kanton zugezogen ist und am 31. Dezember 2025 in SG wohnte, ist für das ganze Jahr in SG steuerpflichtig und deklariert das ganze Jahreseinkommen."
   },
   {
-   "start": 584,
+   "start": 569,
    "titel": "Beginn der Steuerpflicht in SG – Zuzug aus dem Ausland (unterjährige Veranlagung)",
    "pfad": [
     "Beginn und Ende der Steuerpflicht",
@@ -548,7 +548,7 @@
    "zusammenfassung": "Bei Zuzug aus dem Ausland ist das ab Zuzug erzielte Einkommen zu deklarieren; regelmässige Einkünfte werden zur Satzbestimmung auf zwölf Monate umgerechnet, Boni und Gratifikationen nicht; Vermögenssteuer nach Dauer der Steuerpflicht."
   },
   {
-   "start": 600,
+   "start": 585,
    "titel": "Beendigung der Steuerpflicht in SG (Wegzug ins Ausland, Tod 2026)",
    "pfad": [
     "Beginn und Ende der Steuerpflicht",
@@ -566,7 +566,7 @@
    "zusammenfassung": "Bei Wegzug ins Ausland oder Tod im Jahr 2026 dient die Wegleitung für die letzte Steuererklärung mit unterjähriger Veranlagung; Abweichungen im Merkblatt 8."
   },
   {
-   "start": 616,
+   "start": 601,
    "titel": "Tod, Heirat, Trennung oder Scheidung in der Steuerperiode 2025",
    "pfad": [
     "Beginn und Ende der Steuerpflicht",
@@ -586,7 +586,7 @@
    "zusammenfassung": "Bis zum Todestag gemeinsame Besteuerung, danach selbständige Veranlagung des Überlebenden; bei Heirat gemeinsame, bei Trennung oder Scheidung getrennte Besteuerung für die ganze Steuerperiode."
   },
   {
-   "start": 642,
+   "start": 627,
    "titel": "Personalien, Berufs- und Familienverhältnisse – Titelseite und Rückfragen",
    "pfad": [
     "Personalien, Berufs- und Familienverhältnisse"
@@ -604,7 +604,7 @@
    "zusammenfassung": "Auf der Titelseite ist die Dauer der Steuerpflicht einzutragen, falls nicht ganzjährig, sowie die Person für Rückfragen; eine E-Mail-Adresse bedeutet Rückfragen per E-Mail."
   },
   {
-   "start": 656,
+   "start": 641,
    "titel": "Personalien aus dem Einwohneramt, Korrekturen und Meldepflicht",
    "pfad": [
     "Personalien, Berufs- und Familienverhältnisse"
@@ -621,7 +621,7 @@
    "zusammenfassung": "Eingedruckte Personalien stammen vom Einwohneramt; Korrekturen sind auf der Steuererklärung vorzunehmen und zusätzlich dem Einwohneramt zu melden."
   },
   {
-   "start": 666,
+   "start": 651,
    "titel": "Beruf und Kinder, für deren Unterhalt Sie zur Hauptsache aufkommen",
    "pfad": [
     "Personalien, Berufs- und Familienverhältnisse",
@@ -641,7 +641,7 @@
    "zusammenfassung": "Aufzuführen sind nur Kinder, für die ein Abzug nach Ziff. 23.1 oder 23.2 geltend gemacht wird, mit Vorname, Familienname, Geburtsdatum und bei Berufsausbildung Schule oder Lehrfirma."
   },
   {
-   "start": 690,
+   "start": 675,
    "titel": "Rückzahlungen – IBAN-Nummer für Steuerrückzahlungen",
    "pfad": [
     "Personalien, Berufs- und Familienverhältnisse",
@@ -659,7 +659,7 @@
    "zusammenfassung": "Für Steuerrückzahlungen ist die Angabe der IBAN-Nummer zwingend; ein vorgemerktes Auszahlungskonto ist zu überprüfen und allenfalls zu korrigieren."
   },
   {
-   "start": 700,
+   "start": 685,
    "titel": "Einkommen – Was gilt als Einkommen (Allgemeine Erläuterungen)",
    "pfad": [
     "Einkommen",
@@ -679,7 +679,7 @@
    "zusammenfassung": "Steuerbar ist das gesamte in- und ausländische Einkommen inkl. Renten, Pensionen, Taggelder, Kapitalabfindungen und Ertrag aus Nutzniessungsvermögen; Minderjährige werden für Erwerbseinkommen selbständig besteuert."
   },
   {
-   "start": 718,
+   "start": 703,
    "titel": "Einkünfte aus Online-Plattformaktivitäten (NEU)",
    "pfad": [
     "Einkommen",
@@ -700,7 +700,7 @@
    "zusammenfassung": "Einkünfte aus Handels-, Vermietungs-, Dienstleistungs-, Crowdfunding- und Social-Media-Plattformen sind steuerbar (selbständig oder unselbständig); bei selbständiger Tätigkeit sind geschäftliche Ausgaben abziehbar; auch ausländische Plattformeinkünfte sind anzugeben."
   },
   {
-   "start": 733,
+   "start": 718,
    "titel": "Ziff. 1 Unselbständige Erwerbstätigkeit – steuerbare Leistungen des Arbeitgebers",
    "pfad": [
     "Einkommen",
@@ -721,7 +721,7 @@
    "zusammenfassung": "Zu den Einkünften zählen Lohn, Familienzulagen, Provisionen, Zulagen, Sitzungsgelder, Jubiläumsgeschenke, Treueprämien, Gratifikationen, Trinkgelder, VR-Honorare und Tantiemen; Lohnausweis pro Arbeitgeber lückenlos belegen."
   },
   {
-   "start": 751,
+   "start": 736,
    "titel": "Ziff. 1 – Naturalleistungen (Verpflegung, Unterkunft) und nicht steuerbare Weiterbildung",
    "pfad": [
     "Einkommen",
@@ -741,7 +741,7 @@
    "zusammenfassung": "Naturalleistungen sind mit dem Wert anzurechnen, den der Steuerpflichtige für den Kauf aufwenden müsste (Merkblatt N2/2007); vom Arbeitgeber getragene Aus- und Weiterbildungskosten sind nicht steuerbar."
   },
   {
-   "start": 765,
+   "start": 750,
    "titel": "Spesenentschädigungen und vereinfachtes Verfahren (Hinweis)",
    "pfad": [
     "Einkommen",
@@ -763,7 +763,7 @@
    "zusammenfassung": "Spesenentschädigungen sind steuerbar, soweit sie nicht Ersatz berufsnotwendiger Barauslagen sind; Pauschalspesen müssen im Lohnausweis aufgeführt werden."
   },
   {
-   "start": 780,
+   "start": 765,
    "titel": "Ziff. 1.1 und 1.2 Nettolohn Haupterwerb – Einsetzen und Berufskosten",
    "pfad": [
     "Einkommen",
@@ -784,7 +784,7 @@
    "zusammenfassung": "Einzusetzen ist der Nettolohn gemäss Lohnausweis (Bruttolohn abzüglich AHV, IV, EO, ALV, NBUV und ordentliche Beiträge 2. Säule); nicht im Lohnausweis enthaltene Familienzulagen unter Ziff. 3.5."
   },
   {
-   "start": 790,
+   "start": 775,
    "titel": "Ziff. 1.2 Nebenerwerb – Begriff und Beispiele",
    "pfad": [
     "Einkommen",
@@ -804,7 +804,7 @@
    "zusammenfassung": "Nebenerwerb ist eine Tätigkeit neben dem Haupterwerb für einen anderen Arbeitgeber; alle Einkünfte (Provisionen, Honorare, Lehrtätigkeit, Hauswartung usw.) anzugeben, Mietzinsreduktion als Einkommen."
   },
   {
-   "start": 802,
+   "start": 787,
    "titel": "Ziff. 1.3 Sitzungsgelder, Verwaltungsratshonorare und Tantiemen",
    "pfad": [
     "Einkommen",
@@ -824,7 +824,7 @@
    "zusammenfassung": "Sitzungs- und Taggelder, VR-Honorare und Tantiemen sind unter Ziff. 1.3 anzugeben, soweit nicht bereits bei den übrigen Erwerbseinkünften deklariert."
   },
   {
-   "start": 810,
+   "start": 795,
    "titel": "Ziff. 2.1–2.2 Selbständige Erwerbstätigkeit – Umfang der Einkünfte",
    "pfad": [
     "Einkommen",
@@ -845,7 +845,7 @@
    "zusammenfassung": "Einkünfte aus Industrie, Handel, Gewerbe, Online-Plattformaktivitäten, Landwirtschaft und freien Berufen nach den im Kalenderjahr 2025 abgeschlossenen Bilanzen; Beteiligungen an Kollektiv- und Kommanditgesellschaften gemäss Formular 11 unter Ziff. 2.2."
   },
   {
-   "start": 825,
+   "start": 810,
    "titel": "Ziff. 2 – Buchführung, Formular 15a, Aufbewahrung, Beteiligungen ab 10%",
    "pfad": [
     "Einkommen",
@@ -865,7 +865,7 @@
    "zusammenfassung": "Wer nicht buchführungspflichtig ist, führt Buch über Einnahmen, Ausgaben und Vermögenslage (Formular 15a); Belege sind zehn Jahre aufzubewahren; Dividenden aus Beteiligungen von mindestens 10% separat unter Ziff. 4.3."
   },
   {
-   "start": 839,
+   "start": 824,
    "titel": "Ziff. 2 – Kapitalgewinne aus Geschäftsvermögen",
    "pfad": [
     "Einkommen",
@@ -885,7 +885,7 @@
    "zusammenfassung": "Kapitalgewinne aus Veräusserung, Verwertung oder buchmässiger Aufwertung von Geschäftsvermögen zählen zu den Einkünften; bei Geschäftsaufgabe zusammen mit den ordentlichen Einkünften der letzten Jahresrechnung besteuert."
   },
   {
-   "start": 853,
+   "start": 838,
    "titel": "Ziff. 2 – Bewertung der Naturalbezüge (Waren, Mietwert Geschäftshaus)",
    "pfad": [
     "Einkommen",
@@ -905,7 +905,7 @@
    "zusammenfassung": "Warenbezüge sind mit dem Betrag anzurechnen, den ein Dritter bezahlen müsste (Merkblatt N1/2007); Mietwert der Wohnung im eigenen Haus nach ortsüblichen Mietzinsen."
   },
   {
-   "start": 867,
+   "start": 852,
    "titel": "Ziff. 2 – Privatanteil an Unkosten (Heizung, Strom, Kommunikation) und Löhne/Autokosten",
    "pfad": [
     "Einkommen",
@@ -925,7 +925,7 @@
    "zusammenfassung": "Privatanteil pro Jahr: Haushalt mit 1 Erwachsenen Fr. 3'540, Zuschlag pro weiteren Erwachsenen Fr. 900, pro Kind Fr. 600 (im Monat Fr. 295 / 75 / 50); privater Teil der Löhne und Autokosten ebenfalls anrechnen."
   },
   {
-   "start": 881,
+   "start": 866,
    "titel": "Ziff. 2/3.3 Erwerbsausfallentschädigung (EO), Familienzulagen bei Selbständigen",
    "pfad": [
     "Einkommen",
@@ -946,7 +946,7 @@
    "zusammenfassung": "Netto ausbezahlte Erwerbsausfallentschädigungen sind unter Ziff. 3.3 zu deklarieren; Familienausgleichskassen-Leistungen unter Ziff. 3.5."
   },
   {
-   "start": 891,
+   "start": 876,
    "titel": "Ziff. 2 – Liquidationsgewinn: Voraussetzungen und Besteuerung",
    "pfad": [
     "Einkommen",
@@ -968,7 +968,7 @@
    "zusammenfassung": "Bei definitiver Aufgabe nach dem vollendeten 55. Altersjahr oder wegen Invalidität werden die in den letzten zwei Geschäftsjahren realisierten stillen Reserven getrennt vom übrigen Einkommen besteuert; Einkaufsbeiträge an die Vorsorge sind abziehbar."
   },
   {
-   "start": 910,
+   "start": 895,
    "titel": "Ziff. 2 – Liquidationsgewinn: Steuersatz und Deklaration",
    "pfad": [
     "Einkommen",
@@ -988,7 +988,7 @@
    "zusammenfassung": "Der Liquidationsgewinn wird mit separater Jahressteuer zu reduziertem Satz wie Kapitalabfindungen besteuert; sonst mit dem ordentlichen Jahresergebnis; Liquidationsgewinne sind in einer separaten Beilage auszuweisen."
   },
   {
-   "start": 923,
+   "start": 908,
    "titel": "Ziff. 2 – Abzugsfähige Gewinnungskosten",
    "pfad": [
     "Einkommen",
@@ -1009,7 +1009,7 @@
    "zusammenfassung": "Abzugsfähig sind alle zur Erzielung des Einkommens notwendigen Aufwendungen: Betriebsunkosten, Unterhalt, Fremdkapitalzinsen, Löhne, Mietzinsen, AHV/IV/EO/ALV- und Familienausgleichskassen-Beiträge."
   },
   {
-   "start": 933,
+   "start": 918,
    "titel": "Ziff. 2 – Vorsorgebeiträge Selbständiger und nicht abziehbare Aufwendungen",
    "pfad": [
     "Einkommen",
@@ -1031,7 +1031,7 @@
    "zusammenfassung": "Beiträge des Selbständigerwerbenden an die eigene Vorsorge nur im Ausmass des Arbeitgeberanteils (ohne Personal die Hälfte) abziehbar; Einkäufe 2. Säule und Beiträge Säule 3a nur in Ziff. 13; nicht abziehbar: Eigenlohn, Eigenkapitalzinsen, Steuern, Haushaltungskosten, private Versicherungen."
   },
   {
-   "start": 951,
+   "start": 936,
    "titel": "Ziff. 2 – Abschreibungen, Rückstellungen und Ersatzbeschaffung",
    "pfad": [
     "Einkommen",
@@ -1051,7 +1051,7 @@
    "zusammenfassung": "Geschäftsmässig begründete Abschreibungen und Rückstellungen sind abzugsfähig; Ersatzbeschaffung in der Regel innert drei Jahren steuerneutral."
   },
   {
-   "start": 961,
+   "start": 946,
    "titel": "Ziff. 3.1 AHV- und IV-Renten",
    "pfad": [
     "Einkommen",
@@ -1071,7 +1071,7 @@
    "zusammenfassung": "Ordentliche und ausserordentliche AHV- und IV-Renten sind voll zu deklarieren, nicht aber Ergänzungsleistungen."
   },
   {
-   "start": 970,
+   "start": 955,
    "titel": "Ziff. 3.2 Renten und Pensionen – Steuerbarkeit",
    "pfad": [
     "Einkommen",
@@ -1093,7 +1093,7 @@
    "zusammenfassung": "Steuerbar sind alle Renten und Pensionen aus der beruflichen Vorsorge (2. Säule) inkl. Ruhegehälter sowie Renten aus Versicherungsverträgen (Unfall, Haftpflicht, Säule 3a, 3b) und letztwilligen Verfügungen."
   },
   {
-   "start": 979,
+   "start": 964,
    "titel": "Ziff. 3.2 Steuerbarer Umfang der Renten (100% / 80%), Vorkolonne",
    "pfad": [
     "Einkommen",
@@ -1113,7 +1113,7 @@
    "zusammenfassung": "Renten der 2. Säule 80% steuerbar bei Rentenbeginn vor dem 1. Januar 2002, Vorsorgeverhältnis vor 1. Januar 1985 und mindestens 20% Eigenbeiträgen, sonst 100%; Renten Säule 3a und reine Risikoversicherungen 100%."
   },
   {
-   "start": 995,
+   "start": 980,
    "titel": "Ziff. 3.2 Leibrenten (NEU flexibilisierter Ertragsanteil) und Militärversicherung",
    "pfad": [
     "Einkommen",
@@ -1133,7 +1133,7 @@
    "zusammenfassung": "Der steuerbare Ertragsanteil von Leibrenten ist neu flexibilisiert: Versicherer bescheinigen ihn bei VVG-Leibrenten, sonst Berechnung nach Durchschnittsrendite zehnjähriger Bundesobligationen (ESTV); Militärversicherungsleistungen mit Verfügung beilegen."
   },
   {
-   "start": 1008,
+   "start": 993,
    "titel": "Ziff. 3.3–3.4 Taggelder aus IV, Kranken-, Unfall- und Arbeitslosenversicherung",
    "pfad": [
     "Einkommen",
@@ -1154,7 +1154,7 @@
    "zusammenfassung": "Taggelder aus Invaliden-, Kranken- und Unfallversicherung sowie ALV-Taggelder sind voll zu deklarieren, soweit nicht im Lohnausweis enthalten; Bescheinigung beilegen."
   },
   {
-   "start": 1030,
+   "start": 1015,
    "titel": "Ziff. 3.5 Familienzulagen (Kinder- und Ausbildungszulagen)",
    "pfad": [
     "Einkommen",
@@ -1173,7 +1173,7 @@
    "zusammenfassung": "Direkt von Ausgleichskassen ausbezahlte Familienzulagen, die nicht im Lohnausweis enthalten sind, sind unter Ziff. 3.5 zu deklarieren."
   },
   {
-   "start": 1039,
+   "start": 1024,
    "titel": "Ziff. 4 Einkünfte aus Wertschriften und Guthaben – Grundsatz",
    "pfad": [
     "Einkommen",
@@ -1194,7 +1194,7 @@
    "zusammenfassung": "Sämtliche Erträge aus beweglichem Privatvermögen sind steuerbar (Geld- und Naturalleistungen); Erträge aus beweglichem Geschäftsvermögen gehören unter Ziff. 2."
   },
   {
-   "start": 1049,
+   "start": 1034,
    "titel": "Ziff. 4.1 Steuerbare Erträge: Zinsen, Kapitalversicherungen, Obligationen, Dividenden",
    "pfad": [
     "Einkommen",
@@ -1215,7 +1215,7 @@
    "zusammenfassung": "Steuerbar sind Zinsen und Gewinnanteile aus Guthaben, Erträge aus rückkaufsfähigen Kapitalversicherungen mit Einmalprämie (nicht Vorsorge: Auszahlung ab 60, Vertrag mind. 5 Jahre, abgeschlossen vor Alter 66), Einmalverzinsung und Dividenden; Details im Formular 2."
   },
   {
-   "start": 1067,
+   "start": 1052,
    "titel": "Ziff. 4.1 Lotterie- und Geldspielgewinne – Steuerbarkeit",
    "pfad": [
     "Einkommen",
@@ -1237,7 +1237,7 @@
    "zusammenfassung": "Steuerbar sind Gewinne aus Online-Spielbankenspielen und Grossspielen soweit > Fr. 1'069'800 sowie Lotterien zur Verkaufsförderung wenn > Fr. 1'100; Gratisteilnahme- und ausländische Spiele voll steuerbar."
   },
   {
-   "start": 1077,
+   "start": 1062,
    "titel": "Ziff. 4.2 Erträge aus qualifizierten Beteiligungen (Privatvermögen, Teilbesteuerung 70%)",
    "pfad": [
     "Einkommen",
@@ -1258,7 +1258,7 @@
    "zusammenfassung": "Ausgeschüttete Gewinne werden bei einer Beteiligung von wenigstens 10% mit 70% besteuert; 100% der Erträge deklarieren, die Reduktion von 30% in Ziff. 4.4 berechnen; Code BP."
   },
   {
-   "start": 1096,
+   "start": 1081,
    "titel": "Ziff. 4.3 Erträge aus Beteiligungen des Geschäftsvermögens (Code BG)",
    "pfad": [
     "Einkommen",
@@ -1279,7 +1279,7 @@
    "zusammenfassung": "Erträge aus Beteiligungen des Geschäftsvermögens (Code BG) werden unter Ziff. 4.3 deklariert und im Wertschriftenverzeichnis abgezogen, um Doppelerfassung zu vermeiden; Teilbesteuerung 70%."
   },
   {
-   "start": 1108,
+   "start": 1093,
    "titel": "Ziff. 5 Einkünfte aus Liegenschaften (Hinweis)",
    "pfad": [
     "Einkommen",
@@ -1300,7 +1300,7 @@
    "zusammenfassung": "Einkünfte aus Liegenschaften des Privatvermögens (Eigengebrauch, Vermietung, Nutzungsrechte) sind anzugeben; Grundstückgewinne unterliegen separat der Grundstückgewinnsteuer."
   },
   {
-   "start": 1120,
+   "start": 1105,
    "titel": "Ziff. 6.1–6.2 Erhaltene Unterhaltsbeiträge und Einkünfte aus unverteilten Erbschaften",
    "pfad": [
     "Einkommen",
@@ -1323,7 +1323,7 @@
    "zusammenfassung": "Periodische Unterhaltsbeiträge (Alimente) für sich und Kinderunterhaltsbeiträge sind beim Empfänger steuerbar und getrennt aufzuführen; Einkünfte aus unverteilten Erbschaften werden anteilig bei den Berechtigten besteuert."
   },
   {
-   "start": 1139,
+   "start": 1124,
    "titel": "Ziff. 6.3 Übrige Einkünfte (Provisionen, Lizenzen, Förderbeiträge, Photovoltaik)",
    "pfad": [
     "Einkommen",
@@ -1345,7 +1345,7 @@
    "zusammenfassung": "Übrige Einkünfte: Provisionen, Trinkgelder, Mitarbeiterbeteiligungen, Urheberrechte, Lizenzen, Förderbeiträge (z.B. E-Fahrzeuge, E-Bikes), Stromerträge über dem Eigenverbrauch und IV-Assistenzbeiträge."
   },
   {
-   "start": 1149,
+   "start": 1134,
    "titel": "Ziff. 6.4 Kapitalabfindungen für wiederkehrende Leistungen",
    "pfad": [
     "Einkommen",
@@ -1365,7 +1365,7 @@
    "zusammenfassung": "Kapitalabfindungen für wiederkehrende Leistungen sind mit Betrag und Jahreszahl einzusetzen; besteuert zum Satz einer entsprechenden jährlichen Leistung."
   },
   {
-   "start": 1158,
+   "start": 1143,
    "titel": "Ziff. 8.1 Vereinfacht abgerechnete Erwerbseinkünfte (Schwarzarbeitsgesetz)",
    "pfad": [
     "Einkommen",
@@ -1386,7 +1386,7 @@
    "zusammenfassung": "Beim vereinfachten Abrechnungsverfahren sind mit einem Quellensteuerabzug von 5% alle Steuern abgegolten; Bruttolohn nur zur Information, Bestätigung der Ausgleichskasse beilegen; nicht für Steuersatz berücksichtigt."
   },
   {
-   "start": 1173,
+   "start": 1158,
    "titel": "Ziff. 8.2–8.3 Ergänzungsleistungen und Hilflosenentschädigungen (Information)",
    "pfad": [
     "Einkommen",
@@ -1405,7 +1405,7 @@
    "zusammenfassung": "Ergänzungsleistungen (inkl. Überbrückungsleistungen für ältere Arbeitslose) und Hilflosenentschädigungen sind steuerfrei; anzurechnen sind EL zur Vergütung von Krankheits- und Behinderungskosten."
   },
   {
-   "start": 1181,
+   "start": 1166,
    "titel": "Abzüge vom Einkommen – Übersicht Formulare und Belege",
    "pfad": [
     "Abzüge vom Einkommen"
@@ -1425,7 +1425,7 @@
    "zusammenfassung": "Übersicht der Abzüge mit besonderen Formularen: Ziff. 10 Formular 4, 11 Formular 5, 14 Formular 6, 15 Formular 7, 16.2 Formular 10, 16.3 Formular 5, 21.1/2 Formular 6, 21.3 Formular 5, 23.3 Formular 10."
   },
   {
-   "start": 1221,
+   "start": 1206,
    "titel": "Ziff. 10 Berufskosten bei unselbständiger Erwerbstätigkeit – Grundsatz",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1445,7 +1445,7 @@
    "zusammenfassung": "Berufskosten stehen jedem unselbständig erwerbstätigen Partner individuell zu; an Home-Office-Tagen und Tagen ohne Arbeitsleistung grundsätzlich keine Fahrkosten und keine Verpflegungsmehrkosten."
   },
   {
-   "start": 1240,
+   "start": 1225,
    "titel": "Ziff. 10.1 Fahrkosten – Maximalabzug Fr. 8'000 und Sammeltransport/GA des Arbeitgebers",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1467,7 +1467,7 @@
    "zusammenfassung": "Maximalabzug für Fahrten zwischen Wohn- und Arbeitsort (Ziff. 1.1–1.3) Fr. 8'000; bei Sammeltransport oder vom Arbeitgeber getragenem GA muss Feld F im Lohnausweis angekreuzt sein, kein Abzug."
   },
   {
-   "start": 1249,
+   "start": 1234,
    "titel": "Ziff. 10.1 Fahrkosten – Geschäftsfahrzeug mit Privatanteil (0,9% pro Monat) und Bordbuch",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1487,7 +1487,7 @@
    "zusammenfassung": "Bei Geschäftsfahrzeug mit Privatanteil von 0,9% pro Monat (10,8% pro Jahr) des Kaufpreises ohne MWST kann kein Fahrkostenabzug geltend gemacht werden; bei effektiver Abrechnung mit Bordbuch Abzug effektiver Arbeitswegkosten bis zum Maximalabzug."
   },
   {
-   "start": 1263,
+   "start": 1248,
    "titel": "Ziff. 10.1.1–1.3 Fahrkosten – öffentliche Verkehrsmittel, Velo, Motorfahrzeug (70 Rp/km)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1509,7 +1509,7 @@
    "zusammenfassung": "Öffentliche Verkehrsmittel tatsächliche Kosten; Fahrrad/Kleinmotorrad bis Fr. 700 im Jahr; Motorfahrzeug in begründeten Fällen 70 Rappen je Fahrkilometer, in der Regel höchstens 220 Arbeitstage."
   },
   {
-   "start": 1276,
+   "start": 1261,
    "titel": "Ziff. 10.2.1–2.2 Mehrkosten für auswärtige Verpflegung (Fr. 15 / Kantine Fr. 7.50)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1530,7 +1530,7 @@
    "zusammenfassung": "Fr. 15 für jede auswärtige Hauptmahlzeit, bei regelmässiger auswärtiger Verpflegung Fr. 3'200 im Jahr; bei Kantine oder Verbilligung halber Abzug (Fr. 7.50 im Tag, Fr. 1'600 im Jahr)."
   },
   {
-   "start": 1297,
+   "start": 1282,
    "titel": "Ziff. 10.2.3 Schicht- und Nachtarbeit",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1550,7 +1550,7 @@
    "zusammenfassung": "Bei Schicht- und Nachtarbeit mit mindestens achtstündiger Tätigkeit Fr. 15 je Schichttag, bei ganzjähriger Schichtarbeit Fr. 3'200; nicht kumulierbar mit Verpflegungsabzug nach Ziff. 2.1/2.2."
   },
   {
-   "start": 1306,
+   "start": 1291,
    "titel": "Ziff. 10.3 Übrige Berufskosten – Pauschale Fr. 700 + 10%, max. Fr. 2'400",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1571,7 +1571,7 @@
    "zusammenfassung": "Pauschale von Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2'400; höhere Kosten gegen Nachweis auf Beiblatt zu Formular 4."
   },
   {
-   "start": 1323,
+   "start": 1308,
    "titel": "Ziff. 10.4 Mehrkosten bei auswärtigem Wochenaufenthalt",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1591,7 +1591,7 @@
    "zusammenfassung": "Zimmer je nach Arbeitsort Fr. 500 bis Fr. 800 pro Monat; Verpflegung Fr. 30 im Tag bzw. Fr. 6'400 im Jahr, bei Verbilligung Fr. 22.50 im Tag bzw. Fr. 4'800."
   },
   {
-   "start": 1343,
+   "start": 1328,
    "titel": "Ziff. 10.5 Kosten bei unselbständigem Nebenerwerb",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1611,7 +1611,7 @@
    "zusammenfassung": "Pauschalabzug von 20% der Einkünfte aus dem Nebenerwerb, wenigstens Fr. 800, höchstens Fr. 2'400 im Jahr; bei Nettolohn bis Fr. 800 Abzug bis zur Höhe des Nettolohns."
   },
   {
-   "start": 1359,
+   "start": 1344,
    "titel": "Ziff. 11 Schuldzinsen",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1632,7 +1632,7 @@
    "zusammenfassung": "Private Schuldzinsen sind nur im Umfang der Erträge aus Wertschriften/Guthaben (Ziff. 4) und Liegenschaften (Ziff. 5) zuzüglich Fr. 50'000 abziehbar; Amortisationen, Baukreditzinsen und Leasing nicht."
   },
   {
-   "start": 1382,
+   "start": 1367,
    "titel": "Ziff. 12 Unterhaltsbeiträge und Rentenleistungen (Abzug)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1653,7 +1653,7 @@
    "zusammenfassung": "Unterhaltsbeiträge an geschiedenen/getrennten Partner (12.1) und für Kinder (12.2, je Kind separat) abziehbar, dann entfällt der Kinderabzug; Beiträge an volljährige Kinder nicht abziehbar."
   },
   {
-   "start": 1407,
+   "start": 1392,
    "titel": "Ziff. 13.1 Beiträge an die Säule 3a (max. Fr. 7'258 / Fr. 36'288)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1675,7 +1675,7 @@
    "zusammenfassung": "Mit 2. Säule maximal Fr. 7'258, ohne 2. Säule höchstens 20% des Erwerbseinkommens, maximal Fr. 36'288; nur im Jahr 2025 tatsächlich bezahlte Beiträge, Bescheinigung beilegen."
   },
   {
-   "start": 1426,
+   "start": 1411,
    "titel": "Ziff. 13.2 Beiträge und Einkäufe 2. Säule",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1696,7 +1696,7 @@
    "zusammenfassung": "Gesetzliche/reglementarische Beiträge und Einkäufe in die 2. Säule sind abziehbar (Bescheinigung samt Einkaufsberechnung beilegen); gewöhnliche Beiträge sind bereits im Nettolohn berücksichtigt, kein nochmaliger Abzug."
   },
   {
-   "start": 1441,
+   "start": 1426,
    "titel": "Ziff. 14 Versicherungsprämien und Sparzinsen – Voraussetzungen und Formular 6",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1717,7 +1717,7 @@
    "zusammenfassung": "Abzugsfähig sind bezahlte Prämien für Kranken-, Unfall-, Lebens- und Rentenversicherungen sowie Sparzinsen in begrenztem Umfang, abzüglich Prämienverbilligung; Mobiliar-, Motorfahrzeug- und Haftpflichtversicherungen sind ausgeschlossen."
   },
   {
-   "start": 1452,
+   "start": 1437,
    "titel": "Ziff. 14 Abzugsbeträge Versicherungsprämien (Fr. 6'800 / Fr. 3'400, Kinder, ohne Vorsorgebeiträge)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1737,7 +1737,7 @@
    "zusammenfassung": "Höchstens Fr. 6'800 für gemeinsam Steuerpflichtige und Fr. 3'400 für Alleinstehende, je Kind (mit Kinderabzug) zusätzlich bis Fr. 1'100; ohne Beiträge an 2. Säule/3a zusätzlich bis Fr. 1'100 bzw. Fr. 500."
   },
   {
-   "start": 1472,
+   "start": 1457,
    "titel": "Ziff. 15 Unterhalts- und Verwaltungskosten für Liegenschaften (Hinweis)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1756,7 +1756,7 @@
    "zusammenfassung": "Tatsächliche Unterhalts- und Verwaltungskosten oder Pauschalabzug (bei Wohnliegenschaften) werden im Formular 7 ermittelt und in Ziff. 15 übertragen."
   },
   {
-   "start": 1489,
+   "start": 1474,
    "titel": "Ziff. 16.1 Vermögensverwaltungskosten (Pauschale 2‰) und Einsatzkosten Geldspiele",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1776,7 +1776,7 @@
    "zusammenfassung": "Jahrespauschale 2‰ des fremdverwalteten Wertschriftenvermögens, höchstens Fr. 6'000, oder tatsächliche Kosten; von Geldspielgewinnen 5% (max. Fr. 5'400), bei Online-Spielen Einsätze max. Fr. 26'700."
   },
   {
-   "start": 1500,
+   "start": 1485,
    "titel": "Ziff. 16.1 Nicht abzugsfähige Vermögenskosten",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1796,7 +1796,7 @@
    "zusammenfassung": "Nicht abzugsfähig sind Kosten für Erwerb und Anlegen von Vermögenswerten, Umschichtungen, Emissionsabgabe, Schuldbriefe, Treuhandanlagen sowie Finanz-, Anlage-, Erbschafts-, Vorsorge- und Steuerberatung und Vermögensverwaltungsmandate."
   },
   {
-   "start": 1515,
+   "start": 1500,
    "titel": "Ziff. 16.2 Kinderbetreuungsabzug (max. Fr. 26'700 je Kind unter 14)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1817,7 +1817,7 @@
    "zusammenfassung": "Abzug höchstens Fr. 26'700 für jedes Kind unter 14 Jahren im gleichen Haushalt; Verpflegungskosten nicht abziehbar (pauschal Fr. 8 pro Tag gekürzt, wenn nicht separat ausgewiesen)."
   },
   {
-   "start": 1533,
+   "start": 1518,
    "titel": "Ziff. 16.3 Parteispenden (Fr. 10'700 / Fr. 21'400)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1836,7 +1836,7 @@
    "zusammenfassung": "Parteispenden maximal Fr. 10'700 (Alleinstehende, Verwitwete, getrennt Lebende) bzw. Fr. 21'400 (Ehepaare, eingetragene Partnerschaften)."
   },
   {
-   "start": 1545,
+   "start": 1530,
    "titel": "Ziff. 16.4 Aus- und Weiterbildungskosten – Voraussetzungen (max. Fr. 13'000)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1857,7 +1857,7 @@
    "zusammenfassung": "Selbst bezahlte berufsorientierte Aus-, Weiterbildungs- und Umschulungskosten von maximal Fr. 13'000 pro Kalenderjahr und Person, wenn ein erster Sek-II-Abschluss vorliegt oder das 20. Lebensjahr vollendet ist."
   },
   {
-   "start": 1554,
+   "start": 1539,
    "titel": "Ziff. 16.4 Pauschale Fr. 400, Übersicht abzugsfähige Bildung, Informatikmittel",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1876,7 +1876,7 @@
    "zusammenfassung": "Pauschal Fr. 400 ohne Nachweis nur für Kantons- und Gemeindesteuern (hauptberuflich Unselbständige); Bund nur effektive Kosten; Informatikmittel nur bei zwingender Anschaffung, bei privater Nutzbarkeit nur 50%."
   },
   {
-   "start": 1584,
+   "start": 1569,
    "titel": "Ziff. 16.5 Übrige Abzüge und Ziff. 17 Zweiverdienerabzug",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1897,7 +1897,7 @@
    "zusammenfassung": "Gemeinsam Steuerpflichtige mit beidseitiger Erwerbstätigkeit können Fr. 500 abziehen (gleich bei erheblicher Mitarbeit im Geschäft des anderen); als übrige Abzüge gelten z.B. AHV-Beiträge Nichterwerbstätiger."
   },
   {
-   "start": 1595,
+   "start": 1580,
    "titel": "Ziff. 21.1 Krankheits- und Unfallkosten (Selbstbehalt 2%)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1918,7 +1918,7 @@
    "zusammenfassung": "Abzugsfähig sind Krankheits- und Unfallkosten (inkl. Pauschale), soweit sie 2% des Nettoeinkommens (Ziff. 20) übersteigen; Diätpauschale Fr. 2'500 bei lebensnotwendiger Diät (z.B. Zöliakie, nicht Diabetes)."
   },
   {
-   "start": 1615,
+   "start": 1600,
    "titel": "Ziff. 21.2 Behinderungsbedingte Kosten – Alters-/Pflegeheim",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1939,7 +1939,7 @@
    "zusammenfassung": "Bei dauerhaftem Heimaufenthalt (ab Pflegestufe 4 oder 21 BESA-Punkten) gelten Fr. 2'000 pro Monat als nicht abzugsberechtigte Lebenshaltungskosten, überschiessende Kosten sind abziehbar; kein Selbstbehalt."
   },
   {
-   "start": 1627,
+   "start": 1612,
    "titel": "Ziff. 21.2 Pauschalabzug für Bezüger einer Hilflosenentschädigung",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1957,7 +1957,7 @@
    "zusammenfassung": "Pauschalabzug pro Jahr: Hilflosenentschädigung leichten Grades Fr. 2'500, mittleren Grades Fr. 5'000, schweren Grades Fr. 7'500; Verfügung der Hilflosenentschädigung einreichen."
   },
   {
-   "start": 1637,
+   "start": 1622,
    "titel": "Ziff. 21.2 Pauschale für Gehörlose und Dialysepatienten",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1976,7 +1976,7 @@
    "zusammenfassung": "Gehörlose (nicht Schwerhörige) und Nierenkranke in Dialyse können auch ohne Hilflosenentschädigung eine Pauschale von Fr. 2'500 geltend machen; ärztliche Bescheinigung bei erstmaliger Geltendmachung."
   },
   {
-   "start": 1652,
+   "start": 1637,
    "titel": "Ziff. 21.3 Freiwillige Zuwendungen (ab Fr. 100, max. 20%)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -1996,7 +1996,7 @@
    "zusammenfassung": "Abzug möglich, wenn die Leistungen im Steuerjahr gesamthaft Fr. 100 erreichen, insgesamt höchstens 20% des Nettoeinkommens; Zuwendungen für Kultuszwecke nicht abziehbar."
   },
   {
-   "start": 1672,
+   "start": 1657,
    "titel": "Ziff. 23 Sozialabzüge – Stichtag und anteilige Gewährung",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -2017,7 +2017,7 @@
    "zusammenfassung": "Massgebend sind die Verhältnisse am 31. Dezember 2025 bzw. am Ende der Steuerpflicht; bei Teilperiode werden Sozialabzüge anteilig gewährt, für den Steuersatz vollständig berücksichtigt."
   },
   {
-   "start": 1680,
+   "start": 1665,
    "titel": "Ziff. 23.1–23.2 Kinderabzug (Fr. 7'600 / Fr. 10'800)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -2037,7 +2037,7 @@
    "zusammenfassung": "Kinderabzug Fr. 7'600 für Kinder unter elterlicher Sorge oder Obhut, die noch nicht schulpflichtig sind, Fr. 10'800 für Kinder in schulischer oder beruflicher Ausbildung (auch volljährig); entfällt bei Abzug von Unterhaltsbeiträgen nach Ziff. 12.2."
   },
   {
-   "start": 1691,
+   "start": 1676,
    "titel": "Ziff. 23.3 Abzug Ausbildungskosten Kinder (Selbstbehalt Fr. 3'200, max. Fr. 13'700)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -2057,7 +2057,7 @@
    "zusammenfassung": "Nach Abzug eines Selbstbehaltes von Fr. 3'200 und der Stipendien können effektive, notwendige und selbst getragene Ausbildungskosten bis maximal Fr. 13'700 abgezogen werden (Formular 10), wenn der Abzug nach Ziff. 23.2 möglich ist."
   },
   {
-   "start": 1708,
+   "start": 1693,
    "titel": "Ziff. 23.4 Unterstützungsabzug (nur direkte Bundessteuer)",
    "pfad": [
     "Abzüge vom Einkommen",
@@ -2076,7 +2076,7 @@
    "zusammenfassung": "Abzug von Fr. 6'800 je unterstützte Person, wenn mindestens Fr. 6'800 an den Unterhalt beigetragen wird; gilt nur für die direkte Bundessteuer."
   },
   {
-   "start": 1718,
+   "start": 1703,
    "titel": "Vermögen – Allgemeines (steuerbares Vermögen, 2. Säule und 3a steuerfrei)",
    "pfad": [
     "Vermögen"
@@ -2094,7 +2094,7 @@
    "zusammenfassung": "Der Vermögenssteuer unterliegt das gesamte in- und ausländische Vermögen am 31. Dezember 2025; Ansprüche aus 2. Säule und Säule 3a sind bis zur Fälligkeit steuerfreies Vermögen."
   },
   {
-   "start": 1734,
+   "start": 1719,
    "titel": "Ziff. 30 / 30.1 Bewegliches Vermögen – Hausrat steuerfrei, Wertschriften",
    "pfad": [
     "Vermögen",
@@ -2115,7 +2115,7 @@
    "zusammenfassung": "Hausrat und persönliche Gebrauchsgegenstände sind steuerfrei; Motorfahrzeuge, Boote, Reitpferde und Kunstsammlungen sowie überdurchschnittliche Sammlungen sind unter Ziff. 30.6 zu deklarieren."
   },
   {
-   "start": 1759,
+   "start": 1744,
    "titel": "Ziff. 30.2–30.3 Bargeld, Edelmetalle, Lebens- und Rentenversicherungen",
    "pfad": [
     "Vermögen",
@@ -2137,7 +2137,7 @@
    "zusammenfassung": "Bargeld, Gold und Edelmetalle zum Verkehrswert; Lebens- und Rentenversicherungen mit Rückkaufswert (inkl. Überschussanteil) sind vermögenssteuerpflichtig, reine Risikoversicherungen nicht."
   },
   {
-   "start": 1773,
+   "start": 1758,
    "titel": "Ziff. 30.4–30.5 Motorfahrzeuge (20% Wertverminderung) und Anteile an unverteilten Erbschaften",
    "pfad": [
     "Vermögen",
@@ -2159,7 +2159,7 @@
    "zusammenfassung": "Wertverminderung bei Motorfahrzeugen 20% pro Jahr seit Erwerb vom Anschaffungswert; Anteil an unverteilter Erbschaft ab Todestag deklarationspflichtig, auch wenn die Anteile noch nicht feststehen."
   },
   {
-   "start": 1796,
+   "start": 1781,
    "titel": "Ziff. 30.6 Übrige Vermögenswerte (Boote, Pferde, Kunst, Sammlungen)",
    "pfad": [
     "Vermögen",
@@ -2179,7 +2179,7 @@
    "zusammenfassung": "Übrige Vermögenswerte wie Boote, Reitpferde, Kunst- und Schmuckgegenstände, Sammlungen sind zum mutmasslichen Verkehrswert zu deklarieren."
   },
   {
-   "start": 1805,
+   "start": 1790,
    "titel": "Ziff. 31 Liegenschaften (Vermögen)",
    "pfad": [
     "Vermögen",
@@ -2199,7 +2199,7 @@
    "zusammenfassung": "Alle Liegenschaften und im Grundbuch eingetragene selbständige und dauernde Rechte unterliegen der Vermögenssteuer; Werte aus Formular 7 in Ziff. 31 übertragen."
   },
   {
-   "start": 1817,
+   "start": 1802,
    "titel": "Ziff. 32 Betriebsvermögen – Begriff und Betriebsanlagen",
    "pfad": [
     "Vermögen",
@@ -2219,7 +2219,7 @@
    "zusammenfassung": "Bewegliches Betriebsvermögen umfasst Betriebsanlagen, Waren und Vorräte, Betriebsguthaben und übriges Betriebsvermögen; Betriebsanlagen zum Anschaffungswert abzüglich Entwertung (Buchwert bzw. Einkommenssteuerwert)."
   },
   {
-   "start": 1828,
+   "start": 1813,
    "titel": "Ziff. 32 Waren/Vorräte, Betriebsguthaben, übriges Betriebsvermögen",
    "pfad": [
     "Vermögen",
@@ -2238,7 +2238,7 @@
    "zusammenfassung": "Waren zu Anschaffungs-/Herstellungskosten oder tieferem Marktwert; für unsichere Forderungen ist ein Delkredere zulässig; Wertschriften des Geschäftsvermögens im Formular 2 mit «G»."
   },
   {
-   "start": 1847,
+   "start": 1832,
    "titel": "Ziff. 32.1–32.3 Geschäftsvermögen Gesellschaften, Geschäftsaktiven, Landwirtschaft",
    "pfad": [
     "Vermögen",
@@ -2257,7 +2257,7 @@
    "zusammenfassung": "Geschäftsaktiven aus der letzten Schlussbilanz, Buchwert der Liegenschaften abzurechnen (Erfassung zum amtlichen Verkehrswert unter Ziff. 31); Betriebsschulden im Formular 5."
   },
   {
-   "start": 1869,
+   "start": 1854,
    "titel": "Ziff. 34 Schulden",
    "pfad": [
     "Vermögen",
@@ -2277,7 +2277,7 @@
    "zusammenfassung": "Nachgewiesene Schulden mit alleiniger Haftung sind voll abziehbar, Solidar- und Bürgschaftsschulden nur soweit selbst zu tragen."
   },
   {
-   "start": 1875,
+   "start": 1860,
    "titel": "Ziff. 36 Sozialabzüge Vermögen (Fr. 75'000 / Fr. 150'000 / Fr. 20'000 je Kind)",
    "pfad": [
     "Vermögen",
@@ -2296,7 +2296,7 @@
    "zusammenfassung": "Vom Reinvermögen: Fr. 75'000 Alleinstehende, Fr. 150'000 gemeinsam Steuerpflichtige, zusätzlich Fr. 20'000 je minderjähriges Kind."
   },
   {
-   "start": 1884,
+   "start": 1869,
    "titel": "Ziff. 40 Kapitalleistungen aus Vorsorge (Information)",
    "pfad": [
     "Ergänzende Angaben",
@@ -2315,7 +2315,7 @@
    "zusammenfassung": "Kapitalleistungen aus Säule 3a, 2. Säule und übrige mit Vorsorgecharakter werden gesondert vom übrigen Einkommen mit einer separaten Jahressteuer besteuert; die Deklaration dient der Information."
   },
   {
-   "start": 1895,
+   "start": 1880,
    "titel": "Wertschriften- und Guthabenverzeichnis (Formular 2) – Zweck und Allgemeines",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2337,7 +2337,7 @@
    "zusammenfassung": "Formular 2 dient der Feststellung des Wertschriftenvermögens, der Ermittlung der Erträge (Ziff. 4), des Verrechnungssteueranspruchs und der Deklaration von Erbschaften und Schenkungen; immer einzureichen."
   },
   {
-   "start": 1923,
+   "start": 1908,
    "titel": "Formular 2 – Angabe des Wertschriften- und Kapitalvermögens (inkl. Krypto)",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2358,7 +2358,7 @@
    "zusammenfassung": "Anzugeben ist das gesamte Wertschriften- und Kapitalvermögen inkl. Kryptowährungen und Nutzniessungsvermögen per 31. Dezember; bei Bestandesveränderungen Datum und Bankbelege."
   },
   {
-   "start": 1941,
+   "start": 1926,
    "titel": "Formular 2 – Beilagen: Steuerauszüge und eigene Verzeichnisse",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2378,7 +2378,7 @@
    "zusammenfassung": "Totalisierte Werte eigener Verzeichnisse in Formular 2 übertragen; Steuerauszüge sind bei Papiereinreichung immer komplett beizulegen."
   },
   {
-   "start": 1954,
+   "start": 1939,
    "titel": "Formular 2 – Beilagen: Festgelder, nichtkotierte Titel, Mitarbeiteraktien",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2397,7 +2397,7 @@
    "zusammenfassung": "Für in- und ausländische Festgeld- und Treuhandanlagen, vorzeitig zurückbezahlte Obligationen und ausländische nichtkotierte Titel sind Bescheinigungen der Finanzinstitute beizulegen; bei Erwerb/Veräusserung nichtkotierter Papiere die Verträge; bei Mitarbeiteraktien die Arbeitgeberbescheinigung."
   },
   {
-   "start": 1968,
+   "start": 1953,
    "titel": "Formular 2 – Verrechnungssteueranspruch (35%)",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2416,7 +2416,7 @@
    "zusammenfassung": "Der Verrechnungssteuersatz für Fälligkeiten 2025 beträgt 35%; der Anspruch auf Rückerstattung ergibt sich aus dem Ertrag in Abschnitt A."
   },
   {
-   "start": 1981,
+   "start": 1966,
    "titel": "Formular 2 – Verrechnungssteuer auf Erträgen unverteilter Erbschaften und Verwirkungsfrist",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2436,7 +2436,7 @@
    "zusammenfassung": "Verrechnungssteueransprüche aus unverteilten Erbschaften macht jeder Erbe quotal geltend; der Anspruch erlischt, wenn nicht innert drei Jahren nach Ablauf des Fälligkeitsjahres gestellt (Fälligkeiten 2025 bis Ende 2028)."
   },
   {
-   "start": 1994,
+   "start": 1979,
    "titel": "Formular 2 – Verwirkung bei Nichtangabe von Einkünften und Vermögen",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2455,7 +2455,7 @@
    "zusammenfassung": "Wer verrechnungssteuerbelastete Einkünfte oder Vermögen nicht angibt, verwirkt den Rückerstattungsanspruch; keine Verwirkung bei fahrlässiger Nichtangabe, wenn nachträglich in einem noch nicht rechtskräftigen Verfahren angegeben."
   },
   {
-   "start": 2008,
+   "start": 1993,
    "titel": "Formular 2 – Bewertung der Wertschriften: kotierte Papiere",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2475,7 +2475,7 @@
    "zusammenfassung": "Für an einer schweizerischen Börse kotierte Wertpapiere gilt der offizielle Jahresendkurs 2025 gemäss Kursliste der ESTV als Steuerwert."
   },
   {
-   "start": 2018,
+   "start": 2003,
    "titel": "Formular 2 – Bewertung nichtkotierter Wertpapiere (innerer Wert, Pauschalabzug 30%)",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2495,7 +2495,7 @@
    "zusammenfassung": "Nichtkotierte Wertpapiere werden nach dem inneren Wert bewertet; der Pauschalabzug für Minderheitsaktionäre (Beteiligung bis max. 50%) beträgt 30%."
   },
   {
-   "start": 2035,
+   "start": 2020,
    "titel": "Formular 2 – Fremdwährungen und Wertberichtigung bestrittener Forderungen",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2515,7 +2515,7 @@
    "zusammenfassung": "Fremdwährungen werden zum Devisenkurs für Wertschriften (Jahresendkurs) umgerechnet; bei bestrittenen oder unsicheren Forderungen ist ein Abzug entsprechend der Verlustwahrscheinlichkeit mit Nachweis möglich."
   },
   {
-   "start": 2045,
+   "start": 2030,
    "titel": "Formular 2 – Deklaration der Erträge a)–b) Bankzinsen bis Fr. 200, Mieterkautionskonto",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2537,7 +2537,7 @@
    "zusammenfassung": "Bruttozinsen von Kundenguthaben sind bis und mit Fr. 200 je Kalenderjahr verrechnungssteuerfrei (Abschnitt B); selbst errechnete Zinsen dürfen nicht eingetragen werden; Zinsen von Mieterkautionskonti gibt der Mieter an."
   },
   {
-   "start": 2059,
+   "start": 2044,
    "titel": "Formular 2 – Deklaration der Erträge c)–f) Erneuerungsfonds, Bruch-/Marchzinsen, Dividenden",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2558,7 +2558,7 @@
    "zusammenfassung": "Anteile am Erneuerungsfonds von Stockwerkeigentum nicht deklarieren; Bruchzinsen sind einkommens- und verrechnungssteuerpflichtig, Marchzinsen aus Titelverkäufen nicht (ausser IUP); bei Dividenden gilt der Beschluss der Generalversammlung."
   },
   {
-   "start": 2075,
+   "start": 2060,
    "titel": "Formular 2 – Deklaration der Erträge g)–i) Obligationen, Fonds, Kapitalversicherungen",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2580,7 +2580,7 @@
    "zusammenfassung": "Bei globalverzinslichen Obligationen, Discount- und Zero-Bonds ist der gesamte Vermögensertrag bei Verfall zu deklarieren; Erträge von Thesaurierungsfonds sind steuerbar; Erträge aus Kapitalversicherungen mit Einmalprämie steuerbar, sofern nicht der Vorsorge dienend."
   },
   {
-   "start": 2093,
+   "start": 2078,
    "titel": "Formular 2 – Deklaration der Erträge j)–k) Geldspielgewinne und Naturalpreise",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2600,7 +2600,7 @@
    "zusammenfassung": "Steuerbar sind einzelne Gewinne aus Grossspielen soweit > Fr. 1'069'800 und Lotterien zur Verkaufsförderung > Fr. 1'100; Naturalpreise: Reisen 50% des Katalogpreises, Autos/Velos 75%; Einsatzkosten 5% max. Fr. 5'400."
   },
   {
-   "start": 2110,
+   "start": 2095,
    "titel": "Formular 2 – Spalte A: Erträge mit Verrechnungssteuer",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2620,7 +2620,7 @@
    "zusammenfassung": "In Spalte A gehören Erträge der Verrechnungssteuer unterliegender Vermögenswerte, u.a. Kundenguthaben mit Bruttozins über Fr. 200, inländische Aktien/Obligationen, Kassenobligationen und Anteile an inländischen kollektiven Kapitalanlagen."
   },
   {
-   "start": 2122,
+   "start": 2107,
    "titel": "Formular 2 – Musterbeispiel: erfasste Vermögenswerte (Konten, Aktien, Darlehen)",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2641,7 +2641,7 @@
    "zusammenfassung": "Musterformular mit Postkonto, Privatkonto, Eurokonto, Namenaktien Netto SA (Steuerwert Fr. 300'000, Ertrag Fr. 6'000), Beteiligungen (Code BP/BG), Kassenobligation und Mieterkautionskonto (Beträge fiktiv)."
   },
   {
-   "start": 2167,
+   "start": 2152,
    "titel": "Formular 2 – Musterbeispiel: Codes, Totale und Verrechnungssteueranspruch",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2662,7 +2662,7 @@
    "zusammenfassung": "Codes: G Geschäftsvermögen, N Nutzniessung, E Erbschaft, S Schenkung, BP Privatbeteiligung ≥10%, BG Geschäftsbeteiligung ≥10%; Total Steuerwert Fr. 753'660, Erträge A Fr. 21'178, Verrechnungssteueranspruch 35% = Fr. 7'412.30."
   },
   {
-   "start": 2198,
+   "start": 2183,
    "titel": "Formular 2 – Spalte B: Erträge ohne Verrechnungssteuer",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2682,7 +2682,7 @@
    "zusammenfassung": "In Spalte B gehören Kundenguthaben mit Bruttozins bis Fr. 200, inländische Darlehen und Hypothekarforderungen, ausländische Wertschriften und Guthaben, nicht verfügbare Prämiendepots sowie Bargewinne aus ausländischen Spielen und Naturalpreise."
   },
   {
-   "start": 2215,
+   "start": 2200,
    "titel": "Gratisaktien, Gratis-Nennwerterhöhungen und Kapitaleinlagereserven",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2701,7 +2701,7 @@
    "zusammenfassung": "Gratisaktien und Gratis-Nennwerterhöhungen aus Reserven sind steuerbar; geprüfte Ausschüttungen aus Kapitaleinlagereserven sind einkommenssteuerfrei; verrechnungssteuerbelastete Gratisaktien in Spalte A, Meldeverfahren in Spalte B."
   },
   {
-   "start": 2233,
+   "start": 2218,
    "titel": "Formular 2 – Wertschriften des Geschäftsvermögens (Codes G/BG)",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2722,7 +2722,7 @@
    "zusammenfassung": "Wertschriften des Geschäftsvermögens sind mit «G» bzw. «BG» (Beteiligung ab 10%) zu bezeichnen; massgebend für die Vermögensbesteuerung ist der Einkommenssteuerwert, verbuchte Erträge sind am Ende abzurechnen."
   },
   {
-   "start": 2253,
+   "start": 2238,
    "titel": "Formular 2 – Erbschaft und Schenkung (Codes E/S)",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2743,7 +2743,7 @@
    "zusammenfassung": "Aus Erbschaft oder Schenkung erworbene Titel sind mit «E» bzw. «S» zu bezeichnen; deklariert werden die seit Erwerb zugeflossenen Erträge; quotale Erträge unverteilter Erbschaften unter Ziff. 6.2, Vermögenswerte unter Ziff. 30.5."
   },
   {
-   "start": 2266,
+   "start": 2251,
    "titel": "Ausländische Wertschriften – Bruttoertrag und DBA-Entlastung",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2763,7 +2763,7 @@
    "zusammenfassung": "Steuerlich massgebend ist der Bruttoertrag in Schweizer Franken vor Abzug von Quellensteuern; bei Bestehen eines DBA können ausländische Quellensteuern durch Entlastung im Quellenstaat oder Anrechnung am Wohnsitz geltend gemacht werden."
   },
   {
-   "start": 2283,
+   "start": 2268,
    "titel": "Ausländische Quellensteuern – Rückerstattungsverfahren im Ausland",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2784,7 +2784,7 @@
    "zusammenfassung": "Rückforderungsanträge gegenüber dem Ausland sind nach Ablauf des Kalenderjahres mit dem vorgesehenen Formular und einer Bestätigung des Kantonalen Steueramtes einzureichen; Formulare auf www.estv.admin.ch."
   },
   {
-   "start": 2297,
+   "start": 2282,
    "titel": "Ausländische Quellensteuern – Formular DA-1 und Schwelle Fr. 100",
    "pfad": [
     "Wertschriften- und Guthabenverzeichnis",
@@ -2805,7 +2805,7 @@
    "zusammenfassung": "Erträge mit Anrechnung ausländischer Quellensteuern sind im Formular DA-1 aufzuführen; übersteigen die nicht rückforderbaren Steuern Fr. 100 nicht, wird keine Anrechnung gewährt und sie sind als Vermögensverwaltungskosten abziehbar."
   },
   {
-   "start": 2312,
+   "start": 2297,
    "titel": "Liegenschaften – Formulare 7 und 7Z, Grundsätze",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften"
@@ -2824,7 +2824,7 @@
    "zusammenfassung": "Pro Liegenschaft ist ein separates Formular 7 zu verwenden; bei nur einer Liegenschaft werden die Ergebnisse direkt in die Steuererklärung übertragen."
   },
   {
-   "start": 2325,
+   "start": 2310,
    "titel": "Formular 7 – Musterbeispiel: Kopf und Fallbeschreibung",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -2847,7 +2847,7 @@
    "zusammenfassung": "Muster Ehepaar Gallusser: Eigenheim in St.Gallen (Liegenschaft Nr. 1) und sechs weitere Liegenschaften; Beispiel Nr. 3 ist ein vermietetes Wohn- und Geschäftshaus in Gossau."
   },
   {
-   "start": 2340,
+   "start": 2325,
    "titel": "Formular 7 – Muster A. Angaben zur Liegenschaft / Steuerwert",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -2867,7 +2867,7 @@
    "zusammenfassung": "Raster für Art der Liegenschaft, Lage, Grundstücknummer, Anteile, Nutzung und Steuerwert (Muster Fr. 1'230'000); Übertrag in Steuererklärung Seite 4 Ziff. 31 bzw. Formular 7Z."
   },
   {
-   "start": 2374,
+   "start": 2359,
    "titel": "Formular 7 – Muster B. Erträge (Eigenmietwert, Fremdnutzung)",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -2888,7 +2888,7 @@
    "zusammenfassung": "Erträge: Eigenmietwert abzüglich 30% (nur für am Wohnort dauernd selbstbewohnte Liegenschaft), Unternutzungsabzug; Fremdnutzung abzüglich Nebenkosten; Muster Total Erträge Fr. 113'478; Übertrag Seite 2 Ziff. 5."
   },
   {
-   "start": 2404,
+   "start": 2389,
    "titel": "Formular 7 – Muster C. Unterhalts- und Verwaltungskosten (Pauschalabzug 20%)",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -2907,7 +2907,7 @@
    "zusammenfassung": "Pauschalabzug 20% der Erträge (B) nur für private Liegenschaften, die ganz oder vorwiegend Wohnzwecken dienen, oder tatsächliche Kosten; Übertrag in Steuererklärung Seite 3 Ziff. 15 bzw. Formular 7Z."
   },
   {
-   "start": 2422,
+   "start": 2407,
    "titel": "Formular 7Z – Regeln bei mehreren Liegenschaften",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -2928,7 +2928,7 @@
    "zusammenfassung": "Bei mehr als einer Liegenschaft ist pro Liegenschaft ein Formular 7 auszufüllen und die Totale sind auf das Formular 7Z zu übertragen, in der Reihenfolge der Liegenschaften-Nummern."
   },
   {
-   "start": 2445,
+   "start": 2430,
    "titel": "Formular 7Z – Muster Zusammenzug aller Liegenschaften (Tabelle)",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -2949,7 +2949,7 @@
    "zusammenfassung": "Muster mit sieben Liegenschaften: Total Steuerwert Fr. 3'196'000, Erträge Fr. 210'899, Unterhalt Fr. 55'816; Übertrag in Seite 4 Ziff. 31, Seite 2 Ziff. 5, Seite 3 Ziff. 15 (Tabelle teils zerrissen)."
   },
   {
-   "start": 2498,
+   "start": 2483,
    "titel": "Formular 7 A. Angaben zur Liegenschaft und Steuerwert",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -2969,7 +2969,7 @@
    "zusammenfassung": "Steuerwert nach rechtskräftiger Verkehrs- oder Ertragswertschätzung; bei Neu- und Anbauten ohne Schätzung Zuschlag von 80% der Baukosten (40% bei Ertragswertschätzung)."
   },
   {
-   "start": 2522,
+   "start": 2507,
    "titel": "Formular 7 B.a Eigenmietwert – 30% Reduktion und Unternutzungsabzug (Formel)",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -2992,7 +2992,7 @@
    "zusammenfassung": "Eigenmietwert der am Wohnsitz dauernd selbstbewohnten Erstwohnung wird um 30% herabgesetzt; Unternutzungsabzug nach Formel (reduzierter Eigenmietwert × nicht benutzte Zimmer / (Anzahl Zimmer + 2)) nur bei dauernder, überprüfbarer Nichtbenützung."
   },
   {
-   "start": 2546,
+   "start": 2531,
    "titel": "Formular 7 B.a Härtefallabzug beim Eigenmietwert (AHV-Alter)",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3013,7 +3013,7 @@
    "zusammenfassung": "Härtefallabzug von Amtes wegen für Personen im AHV-Rentenalter, wenn der steuerbare Eigenmietwert 30% der Bruttoeinkünfte übersteigt; maximal 10% des Brutto-Eigenmietwertes; kein Abzug bei steuerbarem Vermögen über Fr. 600'000."
   },
   {
-   "start": 2555,
+   "start": 2540,
    "titel": "Formular 7 B.b Mietertrag und Leistungen Dritter",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3035,7 +3035,7 @@
    "zusammenfassung": "Steuerbar sind Miet- und Pachtzinsen ohne Nebenkosten (inkl. Mietzinsreduktion Hauswart), Zinszuschüsse, Subventionen und Versicherungsleistungen; Erträge aus Stromerzeugung über dem Eigenverbrauch unter Ziff. 6.3."
   },
   {
-   "start": 2571,
+   "start": 2556,
    "titel": "Formular 7 B.b Möblierte Wohnung (Einschlag 20%) und Liegenschaftenrechnung",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3054,7 +3054,7 @@
    "zusammenfassung": "Bei möblierter Wohnung ist der Anteil für die Abnützung der Einrichtung nicht steuerbar (Einschlag in der Regel 20%); bei separater Liegenschaftenrechnung kann das Total der Erträge direkt eingesetzt werden (Rechnung beilegen)."
   },
   {
-   "start": 2580,
+   "start": 2565,
    "titel": "Formular 7 C. Unterhalts- und Verwaltungskosten – Pauschalabzug 20% oder tatsächliche Kosten",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3074,7 +3074,7 @@
    "zusammenfassung": "Pauschale von 20% des steuerlich massgebenden Mietertrages oder Eigenmietwertes (alle Aufwendungen inkl. Energiespar-/Umweltinvestitionen und Denkmalpflege) oder tatsächliche Kosten nach Rechnungsdatum."
   },
   {
-   "start": 2605,
+   "start": 2590,
    "titel": "Tatsächliche Unterhaltskosten 1)–3) Instandhaltung, Instandstellung, Ersatzbeschaffung",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3095,7 +3095,7 @@
    "zusammenfassung": "Abziehbar sind Reparaturen, Renovationen (Dach, Fassade) und Ersatzbeschaffung liegenschaftlicher Einrichtungen; wertvermehrende Aufwendungen sind nicht abziehbar."
   },
   {
-   "start": 2630,
+   "start": 2615,
    "titel": "Tatsächliche Kosten 4) Betriebs- und Verwaltungskosten bei Eigengebrauch",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3117,7 +3117,7 @@
    "zusammenfassung": "Bei Eigengebrauch abziehbar sind Grundsteuer, Wartungsarbeiten und Prämien für Brand-, Wasserschaden-, Glas- und Gebäudehaftpflichtversicherung; nicht abziehbar Wasser, Gas, Strom, Heizung, Abwasser- und Kehrichtgebühren."
   },
   {
-   "start": 2652,
+   "start": 2637,
    "titel": "Tatsächliche Kosten 4) Betriebs- und Verwaltungskosten bei Vermietung und Verpachtung",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3137,7 +3137,7 @@
    "zusammenfassung": "Bei Vermietung und Verpachtung sind alle Aufwendungen des Eigentümers abziehbar, soweit nicht auf den Mieter überwälzt: Heizung, Warmwasser, Reinigung, Wasserzinsen, Gewässerschutz, Kehricht, Grundsteuer, Sachversicherungen."
   },
   {
-   "start": 2663,
+   "start": 2648,
    "titel": "Tatsächliche Kosten 5)–6) Denkmalpflege und Energiespar-/Umweltschutzinvestitionen",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3160,7 +3160,7 @@
    "zusammenfassung": "Kosten denkmalpflegerischer Arbeiten (abzüglich Subventionen) sowie Investitionen für Energiesparen und Umweltschutz sind den abziehbaren Unterhaltskosten gleichgestellt (StB 44 Nr. 7 und Nr. 5)."
   },
   {
-   "start": 2679,
+   "start": 2664,
    "titel": "Tatsächliche Kosten 7) Rückbaukosten im Hinblick auf einen Ersatzneubau",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3181,7 +3181,7 @@
    "zusammenfassung": "Abziehbar sind Demontage-, Abbruch-, Abtransport- und Entsorgungskosten vor einem Ersatzneubau mit gleichartiger Nutzung (aufgegliederte Abrechnung einreichen); nicht abzugsfähig Altlastensanierung, Geländeverschiebungen, Rodungen, Planierung, Aushub."
   },
   {
-   "start": 2690,
+   "start": 2675,
    "titel": "Vortrag von Energiespar-/Umwelt- und Rückbaukosten auf Folgejahre (Formular 7RE)",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3202,7 +3202,7 @@
    "zusammenfassung": "Nicht ausgeschöpfte Energiespar-, Umweltschutz- und Rückbaukosten können maximal auf die nächsten zwei Jahre als effektiver Unterhalt vorgetragen werden; Hilfsformular 7RE."
   },
   {
-   "start": 2699,
+   "start": 2684,
    "titel": "Stockwerkeigentum und separate Liegenschaftenrechnung (Feld C2)",
    "pfad": [
     "Ausfüllen der Formulare Liegenschaften",
@@ -3220,7 +3220,7 @@
    "zusammenfassung": "Bei Stockwerkeigentum sind eigene und anteilige Unterhaltskosten abziehbar (abzüglich Heiz-, Warmwasser- und Stromkosten); Einlagen in den Erneuerungsfonds werden unter Bedingungen anerkannt; bei Liegenschaftenrechnung Total im Feld «C2»."
   },
   {
-   "start": 2712,
+   "start": 2697,
    "titel": "Strafbestimmungen – verspätete Einreichung (Busse mind. Fr. 250)",
    "pfad": [
     "Strafbestimmungen"
@@ -3238,7 +3238,7 @@
    "zusammenfassung": "Nicht fristgemässe Einreichung trotz Mahnung wird mit Busse in der Regel mindestens Fr. 250 bestraft; die Ermessensveranlagung gilt nicht als Strafe."
   },
   {
-   "start": 2723,
+   "start": 2708,
    "titel": "Strafbestimmungen – Steuerhinterziehung und Steuerbetrug",
    "pfad": [
     "Strafbestimmungen"
@@ -3256,7 +3256,7 @@
    "zusammenfassung": "Vollendete Steuerhinterziehung wird in der Regel mit dem Einfachen der hinterzogenen Steuer gebüsst, versuchte mit zwei Dritteln; Steuerbetrug (gefälschte Urkunden) mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe, bedingte Strafe mit Busse bis Fr. 10'000 verbindbar."
   },
   {
-   "start": 2738,
+   "start": 2723,
    "titel": "Straflose Selbstanzeige",
    "pfad": [
     "Straflose Selbstanzeige"
@@ -3273,7 +3273,7 @@
    "zusammenfassung": "Straffrei ist eine erstmalige Selbstanzeige nur ein einziges Mal, wenn man sich um Festsetzung und Bezahlung der Nachsteuern bemüht; klar kennzeichnen («Selbstanzeige, bisher nicht versteuert»)."
   },
   {
-   "start": 2751,
+   "start": 2736,
    "titel": "Direkte Bundessteuer – Hinweis",
    "pfad": [
     "Direkte Bundessteuer"
@@ -3286,7 +3286,7 @@
    "zusammenfassung": "Die Steuererklärung 2025 dient gleichzeitig der Veranlagung der direkten Bundessteuer, die keine Vermögenssteuer kennt; Abweichungen werden von der Steuerbehörde automatisch angepasst."
   },
   {
-   "start": 2763,
+   "start": 2748,
    "titel": "Steuerbezug – Gemeinde, vorläufige und definitive Rechnung (Gegenwartsbemessung)",
    "pfad": [
     "Steuerbezug"
@@ -3304,7 +3304,7 @@
    "zusammenfassung": "Die politische Gemeinde bezieht Kantons-, Gemeinde- und direkte Bundessteuer; ab 2026 werden die Steuern 2025 definitiv und 2026 vorläufig in Rechnung gestellt."
   },
   {
-   "start": 2776,
+   "start": 2761,
    "titel": "Ausgleichszins (0,75%) und Verfalltag 31. Juli",
    "pfad": [
     "Steuerbezug"
@@ -3321,7 +3321,7 @@
    "zusammenfassung": "Positive und negative Ausgleichszinsen überbrücken die Verzögerung zwischen vorläufiger Rechnung und Schlussrechnung; Verfalltag bei ganzjähriger Steuerpflicht 31. Juli; Zinssatz im Jahr 2025 0,75%."
   },
   {
-   "start": 2793,
+   "start": 2778,
    "titel": "Definitive Rechnung 2025 – Zahlungsfrist, Verzugszins, Stundung",
    "pfad": [
     "Steuerbezug",
@@ -3340,7 +3340,7 @@
    "zusammenfassung": "Zahlungsfrist für die Schlussrechnung 30 Tage, danach Verzugszinspflicht; Gesuche um Stundung oder Erlass schriftlich und begründet innerhalb der Zahlungsfrist beim Gemeindesteueramt."
   },
   {
-   "start": 2807,
+   "start": 2792,
    "titel": "Steuertarife – Vollsplitting, einfache Steuer, Gesamtsteuerfuss",
    "pfad": [
     "Steuertarife"
@@ -3359,7 +3359,7 @@
    "zusammenfassung": "Einheitlicher Tarif für Alleinstehende und Verheiratete mit Vollsplitting; Vermögen einfache Steuer einheitlich 1,7‰; einfache Steuer wird mit dem jährlich festgelegten Gesamtsteuerfuss multipliziert."
   },
   {
-   "start": 2829,
+   "start": 2814,
    "titel": "Steuertarife – Berechnungsbeispiel Ehepaar X",
    "pfad": [
     "Steuertarife"
@@ -3375,5 +3375,7 @@
    ],
    "zusammenfassung": "Beispiel Ehepaar X: steuerbares Einkommen Fr. 80'000, einfache Steuer Fr. 3'516, bei 270% = Fr. 9'493; Vermögen Fr. 400'000, Fr. 680 × 270% = Fr. 1'836; Total Fr. 11'329."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

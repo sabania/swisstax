@@ -9,7 +9,7 @@ artikel: "§ 70"
 seiten: "13"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 70 StV ZH – 4. Steuererklärungsformular für die Grundstückgewinnsteuer · S. 13
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 70 StV ZH – 4. Steuererklärungsformular für die Grundstückgewinnsteuer · S. 13
 
 ### § 70 StV ZH – 4. Steuererklärungsformular für die Grundstückgewinnsteuer
 

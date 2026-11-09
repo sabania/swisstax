@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0012
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "B.II–III Juristische Personen – Steuererklärung 2026, Sitzverlegung (Teil 1/2)"
 ziffer: "B.II-III"
 seiten: "4-5"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · B. Juristische Personen › II.–III. · S. 4–5
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · B. Juristische Personen › II.–III. · S. 4–5
 
 II. Steuererklärung 2026 für Staats- und Gemeindesteuern sowie direkte
 Bundessteuer

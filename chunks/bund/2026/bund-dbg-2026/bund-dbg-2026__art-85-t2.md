@@ -8,7 +8,7 @@ titel: "Art. 85 DBG – Quellensteuerabzug (Teil 2/2)"
 artikel: "Art. 85"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 85 Quellensteuerabzug
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 85 Quellensteuerabzug
 
 ### Art. 85 DBG – Quellensteuerabzug (Fortsetzung)
 

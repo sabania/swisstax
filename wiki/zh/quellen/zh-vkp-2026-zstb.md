@@ -11,6 +11,28 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2026 · **Stand:** 2025-06-30
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-48-1/zstb-nr-48-1.pdf> · lokal: [zh-vkp-2026-zstb.pdf](../../../raw/zh/2026/zh-vkp-2026-zstb.pdf) · Volltext: [zh-vkp-2026-zstb.md](../../../sources/zh/2026/zh-vkp-2026-zstb.md)
 - **Abgerufen:** 2026-11-09 · sha256 `58e955e924c96e9d…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis offen · ersetzt `zh-vkp-2024-zstb`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 11 Daten-Einträgen und 5 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-vkp-2026-zstb`).
+
+- `data/werte/zh/2026.yaml#20:weiterbildung.max` (agent-geprueft)
+- `data/werte/zh/2026.yaml#33:drittbetreuung.max` (agent-geprueft)
+- `data/werte/zh/2026.yaml#38:parteispenden.max` (agent-geprueft)
+- `data/werte/zh/2026.yaml#43:sozialabzug.kind` (agent-geprueft)
+- `data/werte/zh/2026.yaml#52:vermoegen.freibetrag_alleinstehend` (agent-geprueft)
+- `data/werte/zh/2026.yaml#53:vermoegen.freibetrag_verheiratet` (agent-geprueft)
+- `data/werte/zh/2026.yaml#55:steuerfrei.feuerwehrsold` (agent-geprueft)
+- `data/werte/zh/2026.yaml#59:tarif.steuerfrei_alleinstehend` (agent-geprueft)
+- `data/werte/zh/2026.yaml#60:tarif.steuerfrei_verheiratet` (agent-geprueft)
+- `data/werte/zh/2026.yaml#61:tarif.hoechstsatz_ab_alleinstehend` (agent-geprueft)
+- `data/werte/zh/2026.yaml#62:tarif.hoechstsatz_ab_verheiratet` (agent-geprueft)
+- [wiki/themen/kinder-sozialabzuege.md](../../themen/kinder-sozialabzuege.md)
+- [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)
+- [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
+- [wiki/themen/vermoegen-bewertung.md](../../themen/vermoegen-bewertung.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

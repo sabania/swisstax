@@ -8,7 +8,7 @@ titel: "Art. 65 StV SG – b) Verzicht auf Steuerabzug"
 artikel: "Art. 65"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen › Art. 65 b) Verzicht auf Steuerabzug
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen › Art. 65 b) Verzicht auf Steuerabzug
 
 ### Art. 65 StV SG – b) Verzicht auf Steuerabzug
 

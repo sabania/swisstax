@@ -8,7 +8,7 @@ titel: "Art. 109 bis StG SG – Steuerabzug auf rückvergüteten AHV-Beiträgen"
 artikel: "Art. 109 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 109 bis Steuerabzug auf rückvergüteten AHV-Beiträgen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 109 bis Steuerabzug auf rückvergüteten AHV-Beiträgen
 
 ### Art. 109 bis StG SG – Steuerabzug auf rückvergüteten AHV-Beiträgen
 

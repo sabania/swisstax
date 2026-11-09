@@ -2,14 +2,14 @@
 id: bund-ks-15__c0048
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Beispiel Nr. 3 – Sachverhalt und Annahmen ($-Obligation) (Teil 1/2)"
 ziffer: "Nr. 3"
 seiten: "16-17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang II Beispiele · S. 16–17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang II Beispiele · S. 16–17
 
 Nr. 3
 

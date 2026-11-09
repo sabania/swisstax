@@ -8,7 +8,7 @@ titel: "Art. 38 DBG – Kapitalleistungen aus Vorsorge"
 artikel: "Art. 38"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 5. Kapitel: Steuerberechnung › 2. Abschnitt: Sonderfälle › Art. 38 Kapitalleistungen aus Vorsorge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 5. Kapitel: Steuerberechnung › 2. Abschnitt: Sonderfälle › Art. 38 Kapitalleistungen aus Vorsorge
 
 ### Art. 38 DBG – Kapitalleistungen aus Vorsorge
 

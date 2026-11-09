@@ -8,7 +8,7 @@ titel: "Art. 150 StG AR – Kantonale Steuerverwaltung"
 artikel: "Art. 150"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › A. Steuerverwaltungsbehörden: Organisation › Art. 150 Kantonale Steuerverwaltung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › A. Steuerverwaltungsbehörden: Organisation › Art. 150 Kantonale Steuerverwaltung
 
 ### Art. 150 StG AR – Kantonale Steuerverwaltung
 

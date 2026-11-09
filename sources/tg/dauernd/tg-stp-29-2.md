@@ -6,12 +6,15 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-29-nr-2-fahrkosten-zwischen-wohn-und-arbeitsstatte
 raw: raw/tg/dauernd/tg-stp-29-2.html
 sha256: 0fba2e319f970d7c1efa1d4f364416674c3f43a47af6c82eab1c9ecda9df4fcf
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2025-01-01'
 ---
 # StP 29 Nr. 2: Fahrkosten zwischen Wohn- und Arbeitsstätte
 

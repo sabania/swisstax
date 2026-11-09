@@ -2,15 +2,44 @@
 typ: quelle
 id: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Steuerharmonisierungsgesetz (StHG, SR 642.14) – Fassung gültig ab 01.01.2025"
 generiert: tools/build_index.py
 ---
 # StHG: Steuerharmonisierungsgesetz (StHG, SR 642.14) – Fassung gültig ab 01.01.2025
 
-- **Jurisdiktion:** Bund · **Typ:** Gesetz · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-01-01
+- **Jurisdiktion:** Bund · **Typ:** Gesetz · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2025-01-01
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1991/1256_1256_1256/20250101/de> · lokal: [bund-sthg.xml](../../../raw/bund/2025/bund-sthg.xml) · Volltext: [bund-sthg.md](../../../sources/bund/2025/bund-sthg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `52b054e2bfd1aba9…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2027-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 22 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-sthg`).
+
+- `data/zuordnung/zh/2025.yaml#7:einkommen.vorsorge.uebrige_renten@3.2 (Leibrenten)` (strittig)
+- [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
+- [wiki/themen/interkantonale-ausscheidung.md](../../themen/interkantonale-ausscheidung.md)
+- [wiki/themen/kinderdrittbetreuung.md](../../themen/kinderdrittbetreuung.md)
+- [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
+- [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
+- [wiki/themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md](../../themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md)
+- [wiki/themen/mitarbeiterbeteiligungen.md](../../themen/mitarbeiterbeteiligungen.md)
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
+- [wiki/themen/renten-kapitalleistungen.md](../../themen/renten-kapitalleistungen.md)
+- [wiki/themen/schuldzinsen-schulden.md](../../themen/schuldzinsen-schulden.md)
+- [wiki/themen/selbstaendige-naturalbezuege.md](../../themen/selbstaendige-naturalbezuege.md)
+- [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
+- [wiki/themen/unterhaltsbeitraege.md](../../themen/unterhaltsbeitraege.md)
+- [wiki/themen/vermoegen-bewertung.md](../../themen/vermoegen-bewertung.md)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
+- [wiki/themen/versicherungspraemien.md](../../themen/versicherungspraemien.md)
+- [wiki/themen/weiterbildung.md](../../themen/weiterbildung.md)
 
 ## Inhalt (201 Chunks)
 

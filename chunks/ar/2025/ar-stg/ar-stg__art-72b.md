@@ -8,7 +8,7 @@ titel: "Art. 72b StG AR – Besteuerung stiller Reserven am Ende der Steuerpflic
 artikel: "Art. 72b"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 72b Besteuerung stiller Reserven am Ende der Steuerpflicht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 72b Besteuerung stiller Reserven am Ende der Steuerpflicht
 
 ### Art. 72b StG AR – Besteuerung stiller Reserven am Ende der Steuerpflicht
 

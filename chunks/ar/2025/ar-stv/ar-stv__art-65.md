@@ -8,7 +8,7 @@ titel: "Art. 65 StV AR – Hinweispflichten (Art. 221 StG)"
 artikel: "Art. 65"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 7. Steuerbezug, Steuersicherung und Steuererlass › B. Steuersicherung › Art. 65 Hinweispflichten (Art. 221 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 7. Steuerbezug, Steuersicherung und Steuererlass › B. Steuersicherung › Art. 65 Hinweispflichten (Art. 221 StG)
 
 ### Art. 65 StV AR – Hinweispflichten (Art. 221 StG)
 

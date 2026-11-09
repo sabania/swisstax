@@ -8,7 +8,7 @@ titel: "Art. 169 DBG – Sicherstellung"
 artikel: "Art. 169"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 169 Sicherstellung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 169 Sicherstellung
 
 ### Art. 169 DBG – Sicherstellung
 

@@ -9,7 +9,7 @@ artikel: "§ 154"
 seiten: "65"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 154 StG ZH – III. Beschwerde an das Bundesgericht · S. 65
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 154 StG ZH – III. Beschwerde an das Bundesgericht · S. 65
 
 ### § 154 StG ZH – III. Beschwerde an das Bundesgericht
 

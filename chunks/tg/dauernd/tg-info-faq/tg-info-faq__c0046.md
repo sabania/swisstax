@@ -7,7 +7,7 @@ typ: info
 titel: "Liegenschaften"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
 
     Für Grundstücke im Privatvermögen ist das Formular 7 "Angaben zu Liegenschaften" auszufüllen. Für die Besteuerung massgebend sind grundsätzlich der Steuerwert und Mietwert gemäss rechtskräftiger Schätzung. Falls Ihnen diese Werte nicht bekannt sind, können Sie bei der Steuerverwaltung Thurgau, Ressort Liegenschaftenschätzung die aktuellen Werte anfragen.
 

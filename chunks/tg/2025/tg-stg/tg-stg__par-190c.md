@@ -2,13 +2,13 @@
 id: tg-stg__par-190c
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 190c StG TG – Steuerrückerstattung an geschiedene oder getrennt lebende Ehegatten"
 artikel: "§ 190c"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.10. Bezug und Sicherung der Steuer › 1.10.2. Steuerbezug › § 190c Steuerrückerstattung an geschiedene oder getrennt lebende Ehegatten
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.10. Bezug und Sicherung der Steuer › 1.10.2. Steuerbezug › § 190c Steuerrückerstattung an geschiedene oder getrennt lebende Ehegatten
 
 ### § 190c StG TG – Steuerrückerstattung an geschiedene oder getrennt lebende Ehegatten
 

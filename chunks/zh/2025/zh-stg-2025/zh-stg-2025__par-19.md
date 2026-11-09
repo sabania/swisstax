@@ -9,7 +9,7 @@ artikel: "§ 19"
 seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 19 StG ZH – d.[^93] Umstrukturierungen · S. 9
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 19 StG ZH – d.[^93] Umstrukturierungen · S. 9
 
 ### § 19 StG ZH – d.[^93] Umstrukturierungen
 

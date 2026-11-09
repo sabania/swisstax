@@ -2,14 +2,14 @@
 id: bund-ks-vst-21__c0003
 quelle: bund-ks-vst-21
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Ausgangslage – Short-Verkäufe und Tax-Voucher-System (Teil 3/3)"
 ziffer: "1"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 21 · 1 Ausgangslage · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS VST 21 · 1 Ausgangslage · S. 2
 
 Um auch ausländische Banken und Depotstellen einzubinden, wird für die Rückerstattung
 der Verrechnungssteuer mit Bezug auf ausländische Banken und Depotstellen ein Tax-

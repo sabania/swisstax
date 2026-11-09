@@ -2,13 +2,13 @@
 id: bund-sthg__art-14
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 14 StHG – Bewertung"
 artikel: "Art. 14"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Zweiter Titel: Steuern der natürlichen Personen › 4. Kapitel: Vermögenssteuer › Art. 14 Bewertung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Zweiter Titel: Steuern der natürlichen Personen › 4. Kapitel: Vermögenssteuer › Art. 14 Bewertung
 
 ### Art. 14 StHG – Bewertung
 

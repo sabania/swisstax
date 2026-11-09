@@ -9,7 +9,7 @@ artikel: "§ 153"
 seiten: "64"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 153 StG ZH – II. Beschwerdeverfahren vor Verwaltungsgericht · S. 64
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › F. Rekurs- und Beschwerdeverfahren › § 153 StG ZH – II. Beschwerdeverfahren vor Verwaltungsgericht · S. 64
 
 ### § 153 StG ZH – II. Beschwerdeverfahren vor Verwaltungsgericht
 

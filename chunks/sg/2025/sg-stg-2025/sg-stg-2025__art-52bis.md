@@ -8,7 +8,7 @@ titel: "Art. 52 bis StG SG – 4. Liquidationsgewinne mit Vorsorgecharakter"
 artikel: "Art. 52 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 52 bis 4. Liquidationsgewinne mit Vorsorgecharakter
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 52 bis 4. Liquidationsgewinne mit Vorsorgecharakter
 
 ### Art. 52 bis StG SG – 4. Liquidationsgewinne mit Vorsorgecharakter
 

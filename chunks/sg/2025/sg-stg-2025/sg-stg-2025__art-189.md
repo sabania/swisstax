@@ -8,7 +8,7 @@ titel: "Art. 189 StG SG – 6. Einsprache"
 artikel: "Art. 189"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 189 6. Einsprache
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 189 6. Einsprache
 
 ### Art. 189 StG SG – 6. Einsprache
 

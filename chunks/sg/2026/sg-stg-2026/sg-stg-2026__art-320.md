@@ -8,7 +8,7 @@ titel: "Art. 320 StG SG – Übergangsbestimmung des X. Nachtrags vom 5. August 
 artikel: "Art. 320"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 320 Übergangsbestimmung des X. Nachtrags vom 5. August 2014
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 320 Übergangsbestimmung des X. Nachtrags vom 5. August 2014
 
 ### Art. 320 StG SG – Übergangsbestimmung des X. Nachtrags vom 5. August 2014
 

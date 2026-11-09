@@ -8,7 +8,7 @@ titel: "Art. 66 StV SG – Ersatzbeschaffung (Art. 132 Abs. 1 Bst. d, e und f St
 artikel: "Art. 66"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 66 Ersatzbeschaffung (Art. 132 Abs. 1 Bst. d, e und f StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 66 Ersatzbeschaffung (Art. 132 Abs. 1 Bst. d, e und f StG)
 
 ### Art. 66 StV SG – Ersatzbeschaffung (Art. 132 Abs. 1 Bst. d, e und f StG)
 

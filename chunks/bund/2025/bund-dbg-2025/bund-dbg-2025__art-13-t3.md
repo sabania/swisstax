@@ -8,7 +8,7 @@ titel: "Art. 13 DBG – Haftung und Mithaftung für die Steuer (Teil 3/3)"
 artikel: "Art. 13"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 13 Haftung und Mithaftung für die Steuer
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 13 Haftung und Mithaftung für die Steuer
 
 ### Art. 13 DBG – Haftung und Mithaftung für die Steuer (Fortsetzung)
 

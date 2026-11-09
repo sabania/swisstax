@@ -2,14 +2,14 @@
 id: bund-ks-17__c0011
 quelle: bund-ks-17
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. II.2.2 c) Keine WEF-Rückzahlung mit bereits gebundenen Mitteln"
 ziffer: "II.2.2 c"
 seiten: "4-5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 2 Steuerliche Auswirkungen › 2.2 Rückzahlung des Vorbezuges · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 17 · II 2. Säule › 2 Steuerliche Auswirkungen › 2.2 Rückzahlung des Vorbezuges · S. 4–5
 
 c)   Keine WEF-Rückzahlung mit Mitteln, die bereits für die Vorsorge gebun-
     den sind

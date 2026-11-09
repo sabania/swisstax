@@ -8,7 +8,7 @@ titel: "Art. 124 DBG – Steuererklärung"
 artikel: "Art. 124"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 2. Abschnitt: Pflichten des Steuerpflichtigen › Art. 124 Steuererklärung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 2. Abschnitt: Pflichten des Steuerpflichtigen › Art. 124 Steuererklärung
 
 ### Art. 124 DBG – Steuererklärung
 

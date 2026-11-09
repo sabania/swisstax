@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Wegleitung · **gilt für Steuerjahre:** 2026
 - **Original:** <https://steuerverwaltung.tg.ch/public/upload/assets/183683/FW26_Form_01b_Kurzuebersicht_Wegleitung.pdf?fp=1766146560018> · lokal: [tg-wl-kurz-2026.pdf](../../../raw/tg/2026/tg-wl-kurz-2026.pdf) · Volltext: [tg-wl-kurz-2026.md](../../../sources/tg/2026/tg-wl-kurz-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `a30737e2250c89aa…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

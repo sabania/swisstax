@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerbezug"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
 
     Detailliertere Ausführungen finden Sie in der Thurgauer Steuerpraxis in Weisung:
 

@@ -8,7 +8,7 @@ titel: "§ 35a StV TG – Verfahren"
 artikel: "§ 35a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 35a Verfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 35a Verfahren
 
 ### § 35a StV TG – Verfahren
 

@@ -2,13 +2,13 @@
 id: bund-vstg__art-7
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 7 VStG"
 artikel: "Art. 7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · III. Versicherungsleistungen › 1. Regel › Art. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · III. Versicherungsleistungen › 1. Regel › Art. 7
 
 ### Art. 7 VStG
 

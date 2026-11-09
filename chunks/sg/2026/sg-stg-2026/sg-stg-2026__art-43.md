@@ -8,7 +8,7 @@ titel: "Art. 43 StG SG – 4. Ersatzbeschaffungen"
 artikel: "Art. 43"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 43 4. Ersatzbeschaffungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 43 4. Ersatzbeschaffungen
 
 ### Art. 43 StG SG – 4. Ersatzbeschaffungen
 

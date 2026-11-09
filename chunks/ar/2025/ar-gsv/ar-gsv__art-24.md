@@ -8,7 +8,7 @@ titel: "Art. 24 GSV AR – Einsprache"
 artikel: "Art. 24"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · VI. Rechtsmittel › Art. 24 Einsprache
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · VI. Rechtsmittel › Art. 24 Einsprache
 
 ### Art. 24 GSV AR – Einsprache
 

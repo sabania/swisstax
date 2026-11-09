@@ -8,7 +8,7 @@ titel: "Art. 133 StG SG – Steuersubjekt und Steueranspruch"
 artikel: "Art. 133"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 133 Steuersubjekt und Steueranspruch
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 133 Steuersubjekt und Steueranspruch
 
 ### Art. 133 StG SG – Steuersubjekt und Steueranspruch
 

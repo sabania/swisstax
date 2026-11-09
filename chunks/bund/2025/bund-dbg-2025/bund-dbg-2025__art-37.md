@@ -8,7 +8,7 @@ titel: "Art. 37 DBG – Kapitalabfindungen für wiederkehrende Leistungen"
 artikel: "Art. 37"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 5. Kapitel: Steuerberechnung › 2. Abschnitt: Sonderfälle › Art. 37 Kapitalabfindungen für wiederkehrende Leistungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 5. Kapitel: Steuerberechnung › 2. Abschnitt: Sonderfälle › Art. 37 Kapitalabfindungen für wiederkehrende Leistungen
 
 ### Art. 37 DBG – Kapitalabfindungen für wiederkehrende Leistungen
 

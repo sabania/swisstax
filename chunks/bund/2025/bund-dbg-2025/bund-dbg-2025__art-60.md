@@ -8,7 +8,7 @@ titel: "Art. 60 DBG – Erfolgsneutrale Vorgänge"
 artikel: "Art. 60"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 60 Erfolgsneutrale Vorgänge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 60 Erfolgsneutrale Vorgänge
 
 ### Art. 60 DBG – Erfolgsneutrale Vorgänge
 

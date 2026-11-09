@@ -8,7 +8,7 @@ titel: "Art. 7 GSV AR – Neuschätzung auf Antrag"
 artikel: "Art. 7"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 7 Neuschätzung auf Antrag
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 7 Neuschätzung auf Antrag
 
 ### Art. 7 GSV AR – Neuschätzung auf Antrag
 

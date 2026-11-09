@@ -12,6 +12,7 @@ raw: raw/tg/dauernd/tg-stp-43-3.html
 sha256: 12fe57c78425212fa489e07a24a1899cd4104c49ed8507f2b0488a627c381147
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
 ---
 # StP 43 Nr. 3: Verkehrswert Liegenschaften
 

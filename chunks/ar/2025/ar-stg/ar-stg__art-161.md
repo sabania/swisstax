@@ -8,7 +8,7 @@ titel: "Art. 161 StG AR – I. Verfahrenspflichten der steuerpflichtigen Persone
 artikel: "Art. 161"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 161 I. Verfahrenspflichten der steuerpflichtigen Personen 1. Steuererklärung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 161 I. Verfahrenspflichten der steuerpflichtigen Personen 1. Steuererklärung
 
 ### Art. 161 StG AR – I. Verfahrenspflichten der steuerpflichtigen Personen 1. Steuererklärung
 

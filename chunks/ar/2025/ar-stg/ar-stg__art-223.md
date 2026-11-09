@@ -8,7 +8,7 @@ titel: "Art. 223 StG AR – II. Verfahren 1. Inhalt des Erlassgesuchs"
 artikel: "Art. 223"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 223 II. Verfahren 1. Inhalt des Erlassgesuchs
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 223 II. Verfahren 1. Inhalt des Erlassgesuchs
 
 ### Art. 223 StG AR – II. Verfahren 1. Inhalt des Erlassgesuchs
 

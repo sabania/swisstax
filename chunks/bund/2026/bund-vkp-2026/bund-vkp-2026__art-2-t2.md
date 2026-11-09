@@ -8,7 +8,7 @@ titel: "Art. 2 VKP – Tarife (Teil 2/3)"
 artikel: "Art. 2"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2026 · VKP · Art. 2 Tarife
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2026 · VKP · Art. 2 Tarife
 
 ### Art. 2 VKP – Tarife (Fortsetzung)
 

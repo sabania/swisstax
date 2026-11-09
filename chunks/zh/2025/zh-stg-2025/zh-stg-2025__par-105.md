@@ -9,7 +9,7 @@ artikel: "§ 105"
 seiten: "49"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Örtliche Zuständigkeit › § 105 StG ZH · S. 49
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Örtliche Zuständigkeit › § 105 StG ZH · S. 49
 
 ### § 105 StG ZH
 

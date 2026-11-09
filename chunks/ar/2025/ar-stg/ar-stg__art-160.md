@@ -8,7 +8,7 @@ titel: "Art. 160 StG AR – Zwingende Vertretung"
 artikel: "Art. 160"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 160 Zwingende Vertretung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 160 Zwingende Vertretung
 
 ### Art. 160 StG AR – Zwingende Vertretung
 

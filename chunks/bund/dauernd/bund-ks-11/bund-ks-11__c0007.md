@@ -9,7 +9,7 @@ ziffer: "3.2.6–3.2.7"
 seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 3. Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 3. Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5
 
 3.2.6   Pflegekosten
 

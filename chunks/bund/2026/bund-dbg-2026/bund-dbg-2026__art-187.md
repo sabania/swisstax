@@ -8,7 +8,7 @@ titel: "Art. 187 DBG – Veruntreuung von Quellensteuern"
 artikel: "Art. 187"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Sechster Teil: Steuerstrafrecht › Zweiter Titel: Steuervergehen › Art. 187 Veruntreuung von Quellensteuern
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Sechster Teil: Steuerstrafrecht › Zweiter Titel: Steuervergehen › Art. 187 Veruntreuung von Quellensteuern
 
 ### Art. 187 DBG – Veruntreuung von Quellensteuern
 

@@ -2,13 +2,13 @@
 id: bund-sthg__art-58
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 58 StHG – Verjährung der Strafverfolgung"
 artikel: "Art. 58"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Sechster Titel: Steuerstrafrecht › 1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 58 Verjährung der Strafverfolgung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Sechster Titel: Steuerstrafrecht › 1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 58 Verjährung der Strafverfolgung
 
 ### Art. 58 StHG – Verjährung der Strafverfolgung
 

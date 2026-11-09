@@ -8,7 +8,7 @@ titel: "Art. 24 StG SG – Steuernachfolge"
 artikel: "Art. 24"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 24 Steuernachfolge
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 24 Steuernachfolge
 
 ### Art. 24 StG SG – Steuernachfolge
 

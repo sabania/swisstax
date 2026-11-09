@@ -8,7 +8,7 @@ titel: "Art. 142 StG SG – Gegenstand a) Allgemeines 1. Erbschaftssteuer"
 artikel: "Art. 142"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 142 Gegenstand a) Allgemeines 1. Erbschaftssteuer
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 142 Gegenstand a) Allgemeines 1. Erbschaftssteuer
 
 ### Art. 142 StG SG – Gegenstand a) Allgemeines 1. Erbschaftssteuer
 

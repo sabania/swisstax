@@ -8,7 +8,7 @@ titel: "Steuerfüsse SG 2026 – Gemeinden Seite 4 (Kirchberg bis Gaiserwald) un
 seiten: "4"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 4 · S. 4
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse SG 2026 · Steuerfüsse 2026 › Tabelle Seite 4 · S. 4
 
 Gemeinde   Politische Gemeinde   Kirchgemeinde   Steuerfuss
 

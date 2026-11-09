@@ -7,7 +7,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Seite 1 Kopf – Steuererklärung 2025 Kanton Zürich",
    "pfad": [
     "Seite 1",
@@ -26,7 +26,7 @@
    "zusammenfassung": "Titelblatt Form. 300: Staats-, Gemeinde- und direkte Bundessteuer; Vertreter/in-Vollmacht, Einreichung beim Scancenter."
   },
   {
-   "start": 33,
+   "start": 18,
    "titel": "Seite 1 Personalien (Stand 31.12.2025), Pensionskassenbeiträge",
    "pfad": [
     "Seite 1",
@@ -45,7 +45,7 @@
    "zusammenfassung": "Personalien Person 1/2, Zivilstand, Beruf, ordentliche Beiträge an die Pensionskasse (2. Säule); eingetragene Partnerschaft wird wie Ehe behandelt."
   },
   {
-   "start": 52,
+   "start": 37,
    "titel": "Seite 1 Kinder und unterstützte Personen",
    "pfad": [
     "Seite 1",
@@ -67,7 +67,7 @@
    "zusammenfassung": "Kinder Jahrgänge 2008-2025 oder in Erstausbildung (im/ausserhalb Haushalt) und unterstützte Personen ab Staatssteuer CHF 2’800 bzw. Bundessteuer CHF 6‘800."
   },
   {
-   "start": 83,
+   "start": 68,
    "titel": "Ziff. 1–2 Einkünfte aus unselbständiger und selbständiger Erwerbstätigkeit (Codes 100–123)",
    "pfad": [
     "Einkünfte",
@@ -92,7 +92,7 @@
    "zusammenfassung": "Ziff. 1.1 Haupterwerb (100/101), 1.2 Nebenerwerb (102/103), 2.1/2.2 selbständig mit Hilfsblatt A/B/G (120–123); Randhinweise zu Verwaltungsratshonoraren und Liquidationsgewinnen."
   },
   {
-   "start": 110,
+   "start": 95,
    "titel": "Ziff. 3 Sozialversicherungen: AHV/IV, Renten, Erwerbsausfall, Familienzulagen (Codes 130–143)",
    "pfad": [
     "Einkünfte",
@@ -119,7 +119,7 @@
    "zusammenfassung": "Ziff. 3.1 AHV/IV-Renten (130/131), 3.2 Renten/Pensionen mit Prozenten (134–137), 3.3 ALV-Entschädigungen (140/141), 3.4 Familienzulagen, Taggelder, EO (142/143)."
   },
   {
-   "start": 139,
+   "start": 124,
    "titel": "Ziff. 4–7 Wertschriftenertrag, übrige Einkünfte, Liegenschaften, Total (Codes 150–199)",
    "pfad": [
     "Einkünfte",
@@ -148,7 +148,7 @@
    "zusammenfassung": "Ziff. 4.1 Wertschriftenertrag (150), 4.2 qualifizierte Beteiligungen (151), 5.1–5.5 übrige Einkünfte (160–164), 6 Nettoertrag Liegenschaften (188), 7 Total (199)."
   },
   {
-   "start": 161,
+   "start": 146,
    "titel": "Ziff. 11–13 Abzüge: Berufsauslagen, Schuldzinsen, Unterhaltsbeiträge, Renten (Codes 220–256)",
    "pfad": [
     "Abzüge",
@@ -170,7 +170,7 @@
    "zusammenfassung": "Ziff. 11 Berufsauslagen (220/240), 12 Schuldzinsen (250), 13.1–13.3 Unterhaltsbeiträge und Rentenleistungen (254/255/256)."
   },
   {
-   "start": 176,
+   "start": 161,
    "titel": "Ziff. 14–18 Säule 3a, Versicherungsprämien, weitere Abzüge, Sonderabzug (Codes 260–299)",
    "pfad": [
     "Abzüge",
@@ -202,7 +202,7 @@
    "zusammenfassung": "Ziff. 14 Säule 3a (260/261), 15 Versicherungsprämien (270), 16 weitere Abzüge (280–284, 292, 376; Fremdbetreuung Jahrg. 2011-2025 max. 25’000 / 25’800), 17 Sonderabzug Doppelverdiener (290), 18 Total (299)."
   },
   {
-   "start": 192,
+   "start": 177,
    "titel": "Ziff. 19–23 Einkommensberechnung: Nettoeinkommen, Krankheitskosten, Zuwendungen, Reineinkommen",
    "pfad": [
     "Einkommensberechnung"
@@ -223,7 +223,7 @@
    "zusammenfassung": "Ziff. 21 Nettoeinkommen (310), 22.1 Krankheits- und Unfallkosten (320), 22.2 gemeinnützige Zuwendungen (324), 23 Reineinkommen (350)."
   },
   {
-   "start": 205,
+   "start": 190,
    "titel": "Ziff. 24–27 Sozialabzüge und steuerbares Einkommen (Codes 365–398)",
    "pfad": [
     "Einkommensberechnung",
@@ -246,7 +246,7 @@
    "zusammenfassung": "Ziff. 24.1 Kinderabzug Staatssteuer 9’300 / Bund 6‘800 (370/372), 24.2 unterstützte Personen 2‘800 / 6‘800 (374), 24.3 Ehegatten Bund 2‘800 (365); Ziff. 25 steuerbares Einkommen (390), 27 im Kanton Zürich (398)."
   },
   {
-   "start": 226,
+   "start": 211,
    "titel": "Ziff. 30 Bewegliches Vermögen (Codes 400–416)",
    "pfad": [
     "Vermögen",
@@ -272,7 +272,7 @@
    "zusammenfassung": "Steuerwerte per 31.12.2025: 30.1 Wertschriften (400), 30.2 Bargeld/Edelmetalle (404), 30.3 Lebens-/Rentenversicherungen (406), 30.4 Motorfahrzeuge (412), 30.5 Geschäftsanteile (414), 30.6 Übrige (416)."
   },
   {
-   "start": 245,
+   "start": 230,
    "titel": "Ziff. 31–37 Liegenschaften, Eigenkapital, Schulden, steuerbares Vermögen (Codes 421–498)",
    "pfad": [
     "Vermögen",
@@ -296,7 +296,7 @@
    "zusammenfassung": "Ziff. 31.1 Liegenschaften zum Verkehrswert (421), 31.2 Ertragswert (422), 32 Eigenkapital Selbständiger (430), 33 Total (460), 34 Schulden (470), 35 steuerbares Vermögen (490), 37 im Kanton Zürich (498)."
   },
   {
-   "start": 268,
+   "start": 253,
    "titel": "Ziff. 40 Kapitalleistungen aus Vorsorge (Code 510)",
    "pfad": [
     "Ergänzende Angaben"
@@ -315,7 +315,7 @@
    "zusammenfassung": "Kapitalleistungen aus AHV/IV, 2. Säule, Freizügigkeitskonto, Säule 3a oder infolge Tod/bleibender Nachteile mit Auszahlungsdatum (Code 510)."
   },
   {
-   "start": 277,
+   "start": 262,
    "titel": "Ziff. 50 Schenkungen, Erbvorbezüge, Erbschaften; Unterschrift",
    "pfad": [
     "Ergänzende Angaben"
@@ -334,5 +334,7 @@
    ],
    "zusammenfassung": "Ziff. 50.1 erhalten (Code 516) und 50.2 ausgerichtet (Code 519) im Jahr 2025; Bestätigung der Vollständigkeit und Unterschrift."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

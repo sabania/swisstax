@@ -8,7 +8,7 @@ titel: "Art. 63 StG SG – Steuerfreies Vermögen"
 artikel: "Art. 63"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 63 Steuerfreies Vermögen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 63 Steuerfreies Vermögen
 
 ### Art. 63 StG SG – Steuerfreies Vermögen
 

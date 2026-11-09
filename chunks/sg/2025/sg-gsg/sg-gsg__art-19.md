@@ -2,13 +2,13 @@
 id: sg-gsg__art-19
 quelle: sg-gsg
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 19 GGS SG – Übergangsbestimmung"
 artikel: "Art. 19"
-qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: sg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025/2026 · GGS SG · IV. Schlussbestimmungen › Art. 19 Übergangsbestimmung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · GGS SG · IV. Schlussbestimmungen › Art. 19 Übergangsbestimmung
 
 ### Art. 19 GGS SG – Übergangsbestimmung
 

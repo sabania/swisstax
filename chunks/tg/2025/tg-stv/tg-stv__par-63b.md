@@ -8,7 +8,7 @@ titel: "§ 63b StV TG – Alleinerziehende"
 artikel: "§ 63b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 11. Übergangs- und Schlussbestimmungen * › § 63b Alleinerziehende
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 11. Übergangs- und Schlussbestimmungen * › § 63b Alleinerziehende
 
 ### § 63b StV TG – Alleinerziehende
 

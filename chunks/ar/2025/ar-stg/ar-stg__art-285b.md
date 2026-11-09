@@ -8,7 +8,7 @@ titel: "Art. 285b StG AR – 10. Vereinfachung der Nachbesteuerung in Erbfällen
 artikel: "Art. 285b"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285b 10. Vereinfachung der Nachbesteuerung in Erbfällen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285b 10. Vereinfachung der Nachbesteuerung in Erbfällen
 
 ### Art. 285b StG AR – 10. Vereinfachung der Nachbesteuerung in Erbfällen
 

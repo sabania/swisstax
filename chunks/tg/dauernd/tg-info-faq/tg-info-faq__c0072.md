@@ -7,7 +7,7 @@ typ: info
 titel: "Veranlagungsverfahren"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
     - die Hinterziehung (d.h. Nichtdeklaration usw.) ist keiner Steuerbehörde bekannt;
     - die Erbinnen und Erben unterstützen die Verwaltung bei der Feststellung der hinterzogenen Vermögens- und Einkommenselemente vorbehaltlos;

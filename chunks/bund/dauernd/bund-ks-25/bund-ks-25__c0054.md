@@ -2,14 +2,14 @@
 id: bund-ks-25__c0054
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang V Legende zum Entscheidungsbaum"
 ziffer: "Anhang V"
 seiten: "18"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang V Entscheidungsbaum · S. 18
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 7 Anhänge › Anhang V Entscheidungsbaum · S. 18
 
 Legende:
  1 Siehe die Liste der ausländischen kollektiven Kapitalanlagen, deren Vertrieb in oder von der Schweiz aus genehmigt wurde, unter:

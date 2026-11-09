@@ -9,7 +9,7 @@ artikel: "§ 223"
 seiten: "79"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 223 StG ZH – 5. Gesamtveräusserung · S. 79
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 223 StG ZH – 5. Gesamtveräusserung · S. 79
 
 ### § 223 StG ZH – 5. Gesamtveräusserung
 

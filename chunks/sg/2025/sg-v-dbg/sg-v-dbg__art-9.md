@@ -8,7 +8,7 @@ titel: "Art. 9 V DBG SG – Bezugsbehörde"
 artikel: "Art. 9"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 9 Bezugsbehörde
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 9 Bezugsbehörde
 
 ### Art. 9 V DBG SG – Bezugsbehörde
 

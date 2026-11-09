@@ -9,7 +9,7 @@ ziffer: "1-4"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: formular}}
 ---
-> Bund · Steuerjahr 2026 · DA-1 2026 · DA-1 › Besteuerung in der Schweiz · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2026 · DA-1 2026 · DA-1 › Besteuerung in der Schweiz · S. 2
 
 DA-1 Besteuerung in der Schweiz   ja   nein
     (zutreffendes Feld ankreuzen)

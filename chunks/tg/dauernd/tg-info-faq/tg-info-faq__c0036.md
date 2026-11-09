@@ -7,7 +7,7 @@ typ: info
 titel: "Vorsorge 2. und 3. Säule"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
 
     Ja, quellenbesteuerte Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz können eine nachträgliche ordentliche Veranlagung beantragen. Dies ist insbesondere dann der Fall, wenn sie zusätzliche nicht im Quellensteuertarif enthaltene Abzüge geltend machen wollen (wie Alimente, Krankheits- und Unfallkosten, Einzahlungen in Säule 3a, usw.).
 

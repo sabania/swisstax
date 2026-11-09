@@ -8,7 +8,7 @@ titel: "Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum (Ziff. 12, 2
 seiten: "26"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum · S. 26
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · Anhang › Landwerte Wohnbauland Mehrfamilienhäuser/Stockwerkeigentum · S. 26
 
 Regensdorf   5   2530   2340   2170   2000   1800   –   –   –   –
 Rümlang   6   2230   2070   1880   1720   1550   1380   –   –   –

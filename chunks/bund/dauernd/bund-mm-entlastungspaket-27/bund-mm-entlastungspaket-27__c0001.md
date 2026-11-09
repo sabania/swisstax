@@ -2,12 +2,12 @@
 id: bund-mm-entlastungspaket-27__c0001
 quelle: bund-mm-entlastungspaket-27
 jur: bund
-jahre: [2025, 2026]
+jahre: []
 typ: mitteilung
 titel: "Parlament: Entlastungspaket 27 (Kapitalleistungen Vorsorge) – unsicher"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: mitteilung}}
+qmd: {metadata: {jur: bund, jahre: [], typ: mitteilung}}
 ---
-> Bund · Steuerjahr 2025/2026 · Parlament EP27 · Parlament: Entlastungspaket 27 (Kapitalleistungen Vorsorge) – unsicher
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Mitteilung · Parlament EP27 · Parlament: Entlastungspaket 27 (Kapitalleistungen Vorsorge) – unsicher
 
 # Parlament: Entlastungspaket 27 (Kapitalleistungen Vorsorge) – unsicher
 

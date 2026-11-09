@@ -8,7 +8,7 @@ titel: "Art. 157 DBG – Mitwirkungspflichten"
 artikel: "Art. 157"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Siebenter Titel: Inventar › 3. Kapitel: Verfahren › Art. 157 Mitwirkungspflichten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Siebenter Titel: Inventar › 3. Kapitel: Verfahren › Art. 157 Mitwirkungspflichten
 
 ### Art. 157 DBG – Mitwirkungspflichten
 

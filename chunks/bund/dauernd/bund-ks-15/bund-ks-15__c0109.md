@@ -2,14 +2,14 @@
 id: bund-ks-15__c0109
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang IV Gutachten – Auftrag und Vorbemerkungen"
 ziffer: "Anh. IV II–III.1"
 seiten: "33"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › II–III Auftrag, Beurteilung · S. 33
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang IV Gutachten SBVg › II–III Auftrag, Beurteilung · S. 33
 
 II.   Auftrag
 Die Schweizerische Bankiervereinigung ist von der Eidgenössischen Steuerverwaltung

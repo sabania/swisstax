@@ -8,7 +8,7 @@ titel: "§ 46b StV TG – Steuergutschriften für minderjährige Kinder"
 artikel: "§ 46b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.2. Steuerbezug › § 46b Steuergutschriften für minderjährige Kinder
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.2. Steuerbezug › § 46b Steuergutschriften für minderjährige Kinder
 
 ### § 46b StV TG – Steuergutschriften für minderjährige Kinder
 

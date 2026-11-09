@@ -8,7 +8,7 @@ titel: "Art. 202 StG SG – d) Kosten und Haftung"
 artikel: "Art. 202"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 202 d) Kosten und Haftung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 202 d) Kosten und Haftung
 
 ### Art. 202 StG SG – d) Kosten und Haftung
 

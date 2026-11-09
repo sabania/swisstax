@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-34-1/zstb-nr-34-1_gueltig-bis-31_12_2025.pdf> · lokal: [zh-zstb-34-1-bis-2025.pdf](../../../raw/zh/2025/zh-zstb-34-1-bis-2025.pdf) · Volltext: [zh-zstb-34-1-bis-2025.md](../../../sources/zh/2025/zh-zstb-34-1-bis-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `b7212ce95a9fcba9…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2015-01-01 bis 2025-12-31 · ersetzt durch `zh-zstb-34-1`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-34-1-bis-2025`).
+
+- [wiki/themen/unterhaltsbeitraege.md](../../themen/unterhaltsbeitraege.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

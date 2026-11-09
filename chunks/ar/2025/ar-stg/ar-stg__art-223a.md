@@ -8,7 +8,7 @@ titel: "Art. 223a StG AR – 2. Verfahrensrechte und Verfahrenspflichten der ges
 artikel: "Art. 223a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 223a 2. Verfahrensrechte und Verfahrenspflichten der gesuchstellenden Person
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › C. Steuererlass › Art. 223a 2. Verfahrensrechte und Verfahrenspflichten der gesuchstellenden Person
 
 ### Art. 223a StG AR – 2. Verfahrensrechte und Verfahrenspflichten der gesuchstellenden Person
 

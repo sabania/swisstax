@@ -9,7 +9,7 @@ ziffer: "4–5"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 1.–2. Allgemeines, Bauland-Kategorien · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 1.–2. Allgemeines, Bauland-Kategorien · S. 2
 
     631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
 

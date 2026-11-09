@@ -8,7 +8,7 @@ titel: "Art. 10 StG AR – VII. Familienbesteuerung"
 artikel: "Art. 10"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 10 VII. Familienbesteuerung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 10 VII. Familienbesteuerung
 
 ### Art. 10 StG AR – VII. Familienbesteuerung
 

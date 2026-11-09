@@ -8,7 +8,7 @@ titel: "Art. 137 StG SG – 2. Aufwendungen"
 artikel: "Art. 137"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 137 2. Aufwendungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 137 2. Aufwendungen
 
 ### Art. 137 StG SG – 2. Aufwendungen
 

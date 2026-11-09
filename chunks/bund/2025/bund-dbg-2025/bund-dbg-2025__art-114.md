@@ -8,7 +8,7 @@ titel: "Art. 114 DBG – Akteneinsicht"
 artikel: "Art. 114"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 3. Kapitel: Verfahrensrechte des Steuerpflichtigen › Art. 114 Akteneinsicht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 3. Kapitel: Verfahrensrechte des Steuerpflichtigen › Art. 114 Akteneinsicht
 
 ### Art. 114 DBG – Akteneinsicht
 

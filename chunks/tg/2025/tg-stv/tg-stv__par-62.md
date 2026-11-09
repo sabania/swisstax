@@ -8,7 +8,7 @@ titel: "§ 62 StV TG – Steuerbefreiung"
 artikel: "§ 62"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 11. Übergangs- und Schlussbestimmungen * › § 62 Steuerbefreiung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 11. Übergangs- und Schlussbestimmungen * › § 62 Steuerbefreiung
 
 ### § 62 StV TG – Steuerbefreiung
 

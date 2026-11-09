@@ -8,7 +8,7 @@ titel: "Art. 83 DBG – Der Quellensteuer unterworfene Arbeitnehmer"
 artikel: "Art. 83"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 83 Der Quellensteuer unterworfene Arbeitnehmer
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 83 Der Quellensteuer unterworfene Arbeitnehmer
 
 ### Art. 83 DBG – Der Quellensteuer unterworfene Arbeitnehmer
 

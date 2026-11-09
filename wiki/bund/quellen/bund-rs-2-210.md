@@ -11,6 +11,41 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Rundschreiben · **gilt für Steuerjahre:** 2025 · **Stand:** 2024-08-22
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/zkUbFt0fCQiy/dbst-rs-2-210-d-2024-de.pdf> · lokal: [bund-rs-2-210.pdf](../../../raw/bund/2025/bund-rs-2-210.pdf) · Volltext: [bund-rs-2-210.md](../../../sources/bund/2025/bund-rs-2-210.md)
 - **Abgerufen:** 2026-11-09 · sha256 `f0e26f3310523a72…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31 · ersetzt durch `bund-rs-2-215`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 21 Daten-Einträgen und 8 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-rs-2-210`).
+
+- `data/werte/bund/2025.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#20:weiterbildung.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#21:versicherung.verheiratet` (agent-geprueft)
+- `data/werte/bund/2025.yaml#22:versicherung.verheiratet_ohne_vorsorge` (agent-geprueft)
+- `data/werte/bund/2025.yaml#24:versicherung.alleinstehend_ohne_vorsorge` (agent-geprueft)
+- `data/werte/bund/2025.yaml#25:versicherung.kind` (agent-geprueft)
+- `data/werte/bund/2025.yaml#31:zweiverdiener.min` (agent-geprueft)
+- `data/werte/bund/2025.yaml#32:zweiverdiener.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#33:drittbetreuung.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#38:parteispenden.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#43:sozialabzug.kind` (agent-geprueft)
+- `data/werte/bund/2025.yaml#48:sozialabzug.unterstuetzung` (agent-geprueft)
+- `data/werte/bund/2025.yaml#49:sozialabzug.verheiratete` (agent-geprueft)
+- `data/werte/bund/2025.yaml#51:steuerbetrag.abzug_kind` (agent-geprueft)
+- `data/werte/bund/2025.yaml#55:steuerfrei.feuerwehrsold` (agent-geprueft)
+- `data/werte/bund/2025.yaml#56:steuerfrei.grossspielgewinn` (agent-geprueft)
+- `data/werte/bund/2025.yaml#59:tarif.steuerfrei_alleinstehend` (agent-geprueft)
+- `data/werte/bund/2025.yaml#60:tarif.steuerfrei_verheiratet` (agent-geprueft)
+- `data/werte/bund/2025.yaml#61:tarif.hoechstsatz_ab_alleinstehend` (agent-geprueft)
+- `data/werte/bund/2025.yaml#62:tarif.hoechstsatz_ab_verheiratet` (agent-geprueft)
+- `data/werte/bund/2025.yaml#63:tarif.mindeststeuer` (agent-geprueft)
+- [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/kinder-sozialabzuege.md](../../themen/kinder-sozialabzuege.md)
+- [wiki/themen/kinderdrittbetreuung.md](../../themen/kinderdrittbetreuung.md)
+- [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
+- [wiki/themen/versicherungspraemien.md](../../themen/versicherungspraemien.md)
+- [wiki/themen/zweiverdienerabzug.md](../../themen/zweiverdienerabzug.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

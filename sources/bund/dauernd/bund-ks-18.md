@@ -12,6 +12,10 @@ sha256: 90799b89c9672444b9e9c75dd6c75faff92526cdf265457437cd8edbe62f40e5
 abgerufen: '2026-11-09'
 seiten: 11
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2008-07-17'
+gilt_bis: '2025-12-31'
+ersetzt_durch: bund-ks-18a
 ---
 # ESTV-Kreisschreiben Nr. 18: Steuerliche Behandlung von Vorsorgebeiträgen und -leistungen der Säule 3a (2008; gilt bis Steuerperiode 2025)
 

@@ -11,6 +11,10 @@ raw: raw/bund/2026/bund-mm-2025-09-11-kalte-progression-2026.html
 sha256: deebb4b6b06c68974f490780acb65d5e1ee344a10d1ee8176a77603c35d4e9d3
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
+ersetzt_durch: bund-mm-kalte-progression-2027
 ---
 # EFD passt Steuertarife an Teuerung an (Steuerjahr 2026; Auto 0.75/km)
 

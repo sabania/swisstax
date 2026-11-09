@@ -9,7 +9,7 @@ artikel: "§ 212"
 seiten: "76"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 212 StG ZH – VI. Rechtsmittel 1. Rekurs · S. 76
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 212 StG ZH – VI. Rechtsmittel 1. Rekurs · S. 76
 
 ### § 212 StG ZH – VI. Rechtsmittel 1. Rekurs
 

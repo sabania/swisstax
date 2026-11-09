@@ -8,7 +8,7 @@ titel: "Art. 122 DBG"
 artikel: "Art. 122"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 1. Kapitel: Vorbereitung der Veranlagung › Art. 122
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 1. Kapitel: Vorbereitung der Veranlagung › Art. 122
 
 ### Art. 122 DBG
 

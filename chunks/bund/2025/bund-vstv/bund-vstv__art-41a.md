@@ -2,13 +2,13 @@
 id: bund-vstv__art-41a
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 41a VStV"
 artikel: "Art. 41a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · 1. Gewinne aus Geldspielen › b. Naturalgewinne › Art. 41a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · 1. Gewinne aus Geldspielen › b. Naturalgewinne › Art. 41a
 
 ### Art. 41a VStV
 

@@ -9,7 +9,7 @@ artikel: "§ 219"
 seiten: "78"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 219 StG ZH – IV. Steuerobjekt 1. Grundstückgewinn · S. 78
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 219 StG ZH – IV. Steuerobjekt 1. Grundstückgewinn · S. 78
 
 ### § 219 StG ZH – IV. Steuerobjekt 1. Grundstückgewinn (Fortsetzung)
 

@@ -9,7 +9,7 @@ artikel: "§ 68"
 seiten: "13"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 68 StV ZH – 2. Haftung des gesetzlichen Pfandrechts · S. 13
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 68 StV ZH – 2. Haftung des gesetzlichen Pfandrechts · S. 13
 
 ### § 68 StV ZH – 2. Haftung des gesetzlichen Pfandrechts
 

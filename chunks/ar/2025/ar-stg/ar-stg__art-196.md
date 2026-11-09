@@ -8,7 +8,7 @@ titel: "Art. 196 StG AR – 4. Verwirkung"
 artikel: "Art. 196"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 196 4. Verwirkung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 196 4. Verwirkung
 
 ### Art. 196 StG AR – 4. Verwirkung
 

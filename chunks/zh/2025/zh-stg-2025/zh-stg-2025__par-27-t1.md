@@ -9,7 +9,7 @@ artikel: "§ 27"
 seiten: "15-16"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 27 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Allgemeines · S. 15–16
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 27 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Allgemeines · S. 15–16
 
 ### § 27 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Allgemeines
 

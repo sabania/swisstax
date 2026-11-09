@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerpflicht / Bemessung"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
 
     Für die Zeit von Januar bis September (Todestag) haben Sie somit eine Steuererklärung auszufüllen, welche sowohl Ihr als auch das Einkommen und Vermögen Ihrer Frau aufführt.
 

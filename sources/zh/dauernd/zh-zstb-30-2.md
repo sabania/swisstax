@@ -12,6 +12,8 @@ raw: raw/zh/dauernd/zh-zstb-30-2.html
 sha256: 2be08c43b0cf76a63bc46513b9845e66e227bea0c84f015055086a6403461081
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2002-01-01'
 ---
 # ZStB 30.2: Pauschalierung Unterhalts- und Verwaltungskosten Liegenschaften
 

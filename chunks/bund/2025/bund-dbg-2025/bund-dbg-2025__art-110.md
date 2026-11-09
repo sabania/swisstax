@@ -8,7 +8,7 @@ titel: "Art. 110 DBG – Geheimhaltungspflicht"
 artikel: "Art. 110"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 1. Kapitel: Amtspflichten › Art. 110 Geheimhaltungspflicht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 1. Kapitel: Amtspflichten › Art. 110 Geheimhaltungspflicht
 
 ### Art. 110 DBG – Geheimhaltungspflicht
 

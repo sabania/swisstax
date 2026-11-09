@@ -9,7 +9,7 @@ artikel: "§ 262"
 seiten: "89"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › B. Steuervergehen › § 262 StG ZH – II. Veruntreuung von Quellensteuern · S. 89
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › B. Steuervergehen › § 262 StG ZH – II. Veruntreuung von Quellensteuern · S. 89
 
 ### § 262 StG ZH – II. Veruntreuung von Quellensteuern
 

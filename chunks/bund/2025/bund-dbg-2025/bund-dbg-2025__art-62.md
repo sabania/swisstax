@@ -8,7 +8,7 @@ titel: "Art. 62 DBG – Abschreibungen"
 artikel: "Art. 62"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 62 Abschreibungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 62 Abschreibungen
 
 ### Art. 62 DBG – Abschreibungen
 

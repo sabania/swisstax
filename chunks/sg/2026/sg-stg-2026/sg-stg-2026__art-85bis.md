@@ -8,7 +8,7 @@ titel: "Art. 85 bis StG SG – 4bis. Zusätzlicher Abzug von Forschungs- und Ent
 artikel: "Art. 85 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 85 bis 4bis. Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 85 bis 4bis. Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand
 
 ### Art. 85 bis StG SG – 4bis. Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand
 

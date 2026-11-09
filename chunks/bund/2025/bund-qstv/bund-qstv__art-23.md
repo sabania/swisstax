@@ -8,7 +8,7 @@ titel: "Art. 23 QStV – Ablieferung der Quellensteuer durch den Arbeitgeber"
 artikel: "Art. 23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 4. Abschnitt: Vereinfachtes Abrechnungsverfahren › Art. 23 Ablieferung der Quellensteuer durch den Arbeitgeber
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 4. Abschnitt: Vereinfachtes Abrechnungsverfahren › Art. 23 Ablieferung der Quellensteuer durch den Arbeitgeber
 
 ### Art. 23 QStV – Ablieferung der Quellensteuer durch den Arbeitgeber
 

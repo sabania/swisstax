@@ -5,12 +5,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 73,
+   "start": 56,
    "titel": "Ziff. 1 Gegenstand des Kreisschreibens – Abgrenzung Wertschriftenhandel",
    "pfad": [
     "1 Gegenstand"
@@ -29,7 +29,7 @@
    "ziffer": "1"
   },
   {
-   "start": 88,
+   "start": 71,
    "titel": "Ziff. 2.1–2.2 Rechtsgrundlagen – Art. 16 Abs. 3 DBG steuerfreie Kapitalgewinne, Art. 18 DBG",
    "pfad": [
     "2 Rechtliche Grundlagen"
@@ -50,7 +50,7 @@
    "ziffer": "2.1-2.2"
   },
   {
-   "start": 112,
+   "start": 95,
    "titel": "Ziff. 2.3 Absicht des Gesetzgebers im Stabilisierungsprogramm 1998",
    "pfad": [
     "2 Rechtliche Grundlagen",
@@ -70,7 +70,7 @@
    "ziffer": "2.3"
   },
   {
-   "start": 136,
+   "start": 119,
    "titel": "Ziff. 3 Vorprüfung – Einzelfallbeurteilung und Rechtssicherheit",
    "pfad": [
     "3 Vorprüfung"
@@ -89,7 +89,7 @@
    "ziffer": "3"
   },
   {
-   "start": 151,
+   "start": 134,
    "titel": "Ziff. 3 Vorprüfung – fünf kumulative Kriterien (6 Monate, 5-faches Volumen, 50 %)",
    "pfad": [
     "3 Vorprüfung",
@@ -112,7 +112,7 @@
    "ziffer": "3"
   },
   {
-   "start": 174,
+   "start": 157,
    "titel": "Fussnoten 3–5 (Voten Bundesrat Villiger und Ständerat Gemperli)",
    "pfad": [
     "2 Rechtliche Grundlagen",
@@ -129,7 +129,7 @@
    "zusammenfassung": "Wortlaut der Voten im Ständerat 1999 zur Auslegung des gewerbsmässigen Wertschriftenhandels."
   },
   {
-   "start": 191,
+   "start": 174,
    "titel": "Ziff. 4.1 Grundsatz – Praxis des BdBSt gilt für das DBG (BGE 2.12.1999)",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -149,7 +149,7 @@
    "ziffer": "4.1"
   },
   {
-   "start": 209,
+   "start": 192,
    "titel": "Ziff. 4.2 Begriff Wertschriften (Aktien, Obligationen, Derivate, Futures)",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -169,7 +169,7 @@
    "ziffer": "4.2"
   },
   {
-   "start": 224,
+   "start": 207,
    "titel": "Ziff. 4.3.1 Allgemeine Kriterien der Abgrenzung (Gesamtwürdigung, Indizien)",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -190,7 +190,7 @@
    "ziffer": "4.3.1"
   },
   {
-   "start": 258,
+   "start": 241,
    "titel": "Ziff. 4.3.2 Wertschriftenportefeuilles – Gewichtung der Kriterien (Entscheid 2C_868/2008)",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -211,7 +211,7 @@
    "ziffer": "4.3.2"
   },
   {
-   "start": 272,
+   "start": 255,
    "titel": "Ziff. 4.3.2 Vordergrund-Kriterium Transaktionsvolumen, Häufigkeit, kurze Besitzdauer",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -232,7 +232,7 @@
    "ziffer": "4.3.2"
   },
   {
-   "start": 288,
+   "start": 271,
    "titel": "Ziff. 4.3.2 Vordergrund-Kriterium Einsatz erheblicher fremder Mittel (Schuldzinsen)",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -255,7 +255,7 @@
    "ziffer": "4.3.2"
   },
   {
-   "start": 307,
+   "start": 290,
    "titel": "Ziff. 4.3.2 Vordergrund-Kriterium Einsatz von Derivaten",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -277,7 +277,7 @@
    "ziffer": "4.3.2"
   },
   {
-   "start": 315,
+   "start": 298,
    "titel": "Ziff. 4.3.2 Untergeordnete Indizien – systematisches Vorgehen, Wiederanlage der Gewinne",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -297,7 +297,7 @@
    "ziffer": "4.3.2"
   },
   {
-   "start": 333,
+   "start": 316,
    "titel": "Ziff. 4.3.2 Untergeordnete Indizien – Berufsnähe, Fachkenntnisse, bevollmächtigte Dritte",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -318,7 +318,7 @@
    "ziffer": "4.3.2"
   },
   {
-   "start": 358,
+   "start": 341,
    "titel": "Ziff. 4.4 Bemessungsgrundlage – Gewinn, Gestehungskosten, Nachweis",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -338,7 +338,7 @@
    "ziffer": "4.4"
   },
   {
-   "start": 367,
+   "start": 350,
    "titel": "Ziff. 4.4 Abzug geschäftsmässiger Kosten und Verluste (Art. 27 DBG), Aufzeichnungen",
    "pfad": [
     "4 Selbständige Erwerbstätigkeit",
@@ -359,7 +359,7 @@
    "ziffer": "4.4"
   },
   {
-   "start": 387,
+   "start": 370,
    "titel": "Ziff. 5.1 Beurteilungszeitpunkt – Grundsatz",
    "pfad": [
     "5 Beurteilungszeitpunkt",
@@ -379,7 +379,7 @@
    "ziffer": "5.1"
   },
   {
-   "start": 407,
+   "start": 390,
    "titel": "Ziff. 5.2 Schuldzinsen – Abzug bis Bruttovermögensertrag + 50'000 Franken",
    "pfad": [
     "5 Beurteilungszeitpunkt",
@@ -401,7 +401,7 @@
    "ziffer": "5.2"
   },
   {
-   "start": 427,
+   "start": 410,
    "titel": "Ziff. 5.3 Geerbte Wertschriften",
    "pfad": [
     "5 Beurteilungszeitpunkt",
@@ -422,7 +422,7 @@
    "ziffer": "5.3"
   },
   {
-   "start": 434,
+   "start": 417,
    "titel": "Ziff. 6 Inkrafttreten",
    "pfad": [
     "6 Inkrafttreten"
@@ -435,5 +435,7 @@
    "zusammenfassung": "Das Kreisschreiben gilt ab Publikation auf der ESTV-Website.",
    "ziffer": "6"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

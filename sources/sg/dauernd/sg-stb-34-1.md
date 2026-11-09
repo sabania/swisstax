@@ -13,6 +13,8 @@ sha256: 84144c55cc45b725eea48df8bae76a8aea708fd3aa178824ff06951b8f054d30
 abgerufen: '2026-11-09'
 seiten: 6
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2025-01-01'
 ---
 # StB 34 Nr. 1 Eigenmietwert
 

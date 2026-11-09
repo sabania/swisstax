@@ -2,13 +2,13 @@
 id: bund-sthg__art-12-t3
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 12 StHG (Teil 3/4)"
 artikel: "Art. 12"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Zweiter Titel: Steuern der natürlichen Personen › 3. Kapitel: Grundstückgewinnsteuer › Art. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Zweiter Titel: Steuern der natürlichen Personen › 3. Kapitel: Grundstückgewinnsteuer › Art. 12
 
 ### Art. 12 StHG (Fortsetzung)
 

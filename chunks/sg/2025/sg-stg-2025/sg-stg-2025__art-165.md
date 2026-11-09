@@ -8,7 +8,7 @@ titel: "Art. 165 StG SG – Verfahrensrechte des Steuerpflichtigen a) Akteneinsi
 artikel: "Art. 165"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 165 Verfahrensrechte des Steuerpflichtigen a) Akteneinsicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 165 Verfahrensrechte des Steuerpflichtigen a) Akteneinsicht
 
 ### Art. 165 StG SG – Verfahrensrechte des Steuerpflichtigen a) Akteneinsicht
 

@@ -8,7 +8,7 @@ titel: "Art. 17d DBG – Anteilsmässige Besteuerung"
 artikel: "Art. 17d"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 2. Abschnitt: Unselbständige Erwerbstätigkeit › Art. 17d Anteilsmässige Besteuerung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 2. Abschnitt: Unselbständige Erwerbstätigkeit › Art. 17d Anteilsmässige Besteuerung
 
 ### Art. 17d DBG – Anteilsmässige Besteuerung
 

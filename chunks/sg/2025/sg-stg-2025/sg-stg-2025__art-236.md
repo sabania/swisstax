@@ -8,7 +8,7 @@ titel: "Art. 236 StG SG – Steuerbezug"
 artikel: "Art. 236"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Zweiter Abschnitt: Einkommens- und Vermögenssteuern › Art. 236 Steuerbezug
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Zweiter Abschnitt: Einkommens- und Vermögenssteuern › Art. 236 Steuerbezug
 
 ### Art. 236 StG SG – Steuerbezug
 

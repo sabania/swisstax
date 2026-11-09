@@ -9,7 +9,7 @@ artikel: "§ 4"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 4 StG ZH – II. Wirtschaftliche Zugehörigkeit · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 4 StG ZH – II. Wirtschaftliche Zugehörigkeit · S. 2
 
 ### § 4 StG ZH – II. Wirtschaftliche Zugehörigkeit
 

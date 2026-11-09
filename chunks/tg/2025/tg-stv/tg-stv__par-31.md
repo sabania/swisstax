@@ -8,7 +8,7 @@ titel: "§ 31 StV TG – Härtefall"
 artikel: "§ 31"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 31 Härtefall
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 5. Steuern vom Grundeigentum › § 31 Härtefall
 
 ### § 31 StV TG – Härtefall
 

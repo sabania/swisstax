@@ -9,7 +9,7 @@ artikel: "§ 18"
 seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 18 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Grundsatz · S. 8
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 18 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Grundsatz · S. 8
 
 ### § 18 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Grundsatz
 

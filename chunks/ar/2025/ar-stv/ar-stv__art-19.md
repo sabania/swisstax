@@ -8,7 +8,7 @@ titel: "Art. 19 StV AR – Unselbständige Nebenerwerbstätigkeit (Art. 29 Abs. 
 artikel: "Art. 19"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 19 Unselbständige Nebenerwerbstätigkeit (Art. 29 Abs. 1 lit. a–c StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 19 Unselbständige Nebenerwerbstätigkeit (Art. 29 Abs. 1 lit. a–c StG)
 
 ### Art. 19 StV AR – Unselbständige Nebenerwerbstätigkeit (Art. 29 Abs. 1 lit. a–c StG)
 

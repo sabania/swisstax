@@ -8,7 +8,7 @@ titel: "Art. 39a StG AR – 1a. Ausgleich der Folgen der kalten Progression"
 artikel: "Art. 39a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 39a 1a. Ausgleich der Folgen der kalten Progression
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 39a 1a. Ausgleich der Folgen der kalten Progression
 
 ### Art. 39a StG AR – 1a. Ausgleich der Folgen der kalten Progression
 

@@ -8,7 +8,7 @@ titel: "Art. 3 V DBG SG – Gemeindesteuerämter"
 artikel: "Art. 3"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · I. Organisation › Art. 3 Gemeindesteuerämter
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · I. Organisation › Art. 3 Gemeindesteuerämter
 
 ### Art. 3 V DBG SG – Gemeindesteuerämter
 

@@ -8,7 +8,7 @@ titel: "Art. 143 StG SG – 2. Schenkungssteuer"
 artikel: "Art. 143"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 143 2. Schenkungssteuer
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 143 2. Schenkungssteuer
 
 ### Art. 143 StG SG – 2. Schenkungssteuer
 

@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0005
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "A.II Steuererklärung 2026 bei Ende der Steuerpflicht (Wegzug, Tod)"
 ziffer: "A.II"
 seiten: "2-3"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › II. Steuererklärung 2026 · S. 2–3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › II. Steuererklärung 2026 · S. 2–3
 
 II. Steuererklärung 2026 für Staats- und Gemeindesteuern sowie direkte
 Bundessteuer

@@ -8,7 +8,7 @@ titel: "§ 32 StV TG – Bezugsbehörde"
 artikel: "§ 32"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 6. Steuerbehörden › § 32 Bezugsbehörde
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 6. Steuerbehörden › § 32 Bezugsbehörde
 
 ### § 32 StV TG – Bezugsbehörde
 

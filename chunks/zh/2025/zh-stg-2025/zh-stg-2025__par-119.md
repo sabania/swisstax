@@ -9,7 +9,7 @@ artikel: "§ 119"
 seiten: "54"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 119 StG ZH – I. Amtspflichten 1. Ausstand · S. 54
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 119 StG ZH – I. Amtspflichten 1. Ausstand · S. 54
 
 ### § 119 StG ZH – I. Amtspflichten 1. Ausstand
 

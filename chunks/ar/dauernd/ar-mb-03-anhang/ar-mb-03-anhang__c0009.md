@@ -2,14 +2,14 @@
 id: ar-mb-03-anhang__c0009
 quelle: ar-mb-03-anhang
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 4.1 Wärmecontracting, Klimaanlage und Lüftung"
 ziffer: "4.1"
 seiten: "3"
-qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: ar, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · 4 Heizung, Energiegewinnung › 4.1 Heizungs- und Lüftungsinstallationen › Contracting · S. 3
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Merkblatt · Steuerjahr 2025/2026/2027 · MB AR 03-anhang · 4 Heizung, Energiegewinnung › 4.1 Heizungs- und Lüftungsinstallationen › Contracting · S. 3
 
   - Wärmecontracting/Energiecontracting
     a) Amortisationsraten (erstmalige Anschaffung/Neubau)   1/1

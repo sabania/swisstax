@@ -8,7 +8,7 @@ titel: "Art. 30c StV AR – Vereinfachtes Abrechnungsverfahren (Art. 39b StG)"
 artikel: "Art. 30c"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 30c Vereinfachtes Abrechnungsverfahren (Art. 39b StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 30c Vereinfachtes Abrechnungsverfahren (Art. 39b StG)
 
 ### Art. 30c StV AR – Vereinfachtes Abrechnungsverfahren (Art. 39b StG)
 

@@ -8,7 +8,7 @@ titel: "Art. 5 StG SG – Steuereinheit"
 artikel: "Art. 5"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 5 Steuereinheit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 5 Steuereinheit
 
 ### Art. 5 StG SG – Steuereinheit
 

@@ -11,6 +11,18 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-01-01
 - **Original:** <https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.13/versions/2842> · lokal: [tg-vakp.json](../../../raw/tg/2025/tg-vakp.json) · Volltext: [tg-vakp.md](../../../sources/tg/2025/tg-vakp.md)
 - **Abgerufen:** 2026-11-09 · sha256 `ab85e0aa7ade0c08…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 4 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-vakp`).
+
+- `data/werte/tg/2025.yaml#43:sozialabzug.kind` (agent-geprueft)
+- `data/werte/tg/2025.yaml#48:sozialabzug.unterstuetzung` (agent-geprueft)
+- `data/werte/tg/2025.yaml#50:sozialabzug.alter_iv` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#54:sozialabzug.alter_iv@25.3` (agent-geprueft)
+- [wiki/themen/kinder-sozialabzuege.md](../../themen/kinder-sozialabzuege.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
 
 ## Inhalt (3 Chunks)
 

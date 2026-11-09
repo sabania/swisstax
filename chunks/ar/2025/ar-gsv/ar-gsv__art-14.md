@@ -8,7 +8,7 @@ titel: "Art. 14 GSV AR – Departement Finanzen"
 artikel: "Art. 14"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · III. Organisation › Art. 14 Departement Finanzen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · III. Organisation › Art. 14 Departement Finanzen
 
 ### Art. 14 GSV AR – Departement Finanzen
 

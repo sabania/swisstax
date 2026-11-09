@@ -8,7 +8,7 @@ titel: "Art. 167 StG AR – 3. Meldepflichten"
 artikel: "Art. 167"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 167 3. Meldepflichten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 167 3. Meldepflichten
 
 ### Art. 167 StG AR – 3. Meldepflichten
 

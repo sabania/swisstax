@@ -8,7 +8,7 @@ titel: "Art. 147 DBG – Gründe"
 artikel: "Art. 147"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 1. Kapitel: Revision › Art. 147 Gründe
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 1. Kapitel: Revision › Art. 147 Gründe
 
 ### Art. 147 DBG – Gründe
 

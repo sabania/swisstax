@@ -8,7 +8,7 @@ titel: "Art. 58 DBG – Allgemeines (Teil 2/2)"
 artikel: "Art. 58"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 58 Allgemeines
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 58 Allgemeines
 
 ### Art. 58 DBG – Allgemeines (Fortsetzung)
 

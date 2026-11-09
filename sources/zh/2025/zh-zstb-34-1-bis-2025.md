@@ -12,6 +12,10 @@ sha256: b7212ce95a9fcba9276c920f6851c3eb83d93293d39a3a042d96579351aeca2b
 abgerufen: '2026-11-09'
 seiten: 16
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2015-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: zh-zstb-34-1
 ---
 # ZStB 34.1: Sozialabzüge und Steuertarife – Fassung gültig bis 31.12.2025
 

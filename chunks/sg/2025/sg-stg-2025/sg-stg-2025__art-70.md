@@ -8,7 +8,7 @@ titel: "Art. 70 StG SG – Steuersubjekt"
 artikel: "Art. 70"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 70 Steuersubjekt
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 70 Steuersubjekt
 
 ### Art. 70 StG SG – Steuersubjekt
 

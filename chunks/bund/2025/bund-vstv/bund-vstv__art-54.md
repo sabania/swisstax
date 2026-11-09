@@ -2,13 +2,13 @@
 id: bund-vstv__art-54
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 54 VStV"
 artikel: "Art. 54"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · I. Berechtigte › 4. Sparvereine und Betriebssparkassen › Art. 54
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · I. Berechtigte › 4. Sparvereine und Betriebssparkassen › Art. 54
 
 ### Art. 54 VStV
 

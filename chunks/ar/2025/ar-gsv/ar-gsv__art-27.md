@@ -8,7 +8,7 @@ titel: "Art. 27 GSV AR – Verfahrenskosten"
 artikel: "Art. 27"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · VII. Kosten › Art. 27 Verfahrenskosten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · VII. Kosten › Art. 27 Verfahrenskosten
 
 ### Art. 27 GSV AR – Verfahrenskosten
 

@@ -13,6 +13,10 @@ sha256: 4a4e5bf16f590071ba5f5f74609cd8633dced0dae656cd433a4e7d14332f43ec
 abgerufen: '2026-11-09'
 einheiten: 241
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
+ersetzt: bund-dbg-2025
 ---
 # Bundesgesetz über die direkte Bundessteuer (DBG, SR 642.11) – Fassung gültig ab 01.01.2026
 

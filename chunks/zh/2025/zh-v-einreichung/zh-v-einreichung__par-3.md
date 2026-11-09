@@ -9,7 +9,7 @@ artikel: "§ 3"
 seiten: "1-2"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › § 3 V elektr. Einreichung ZH – Datenschutz und Informationssicherheit · S. 1–2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › § 3 V elektr. Einreichung ZH – Datenschutz und Informationssicherheit · S. 1–2
 
 ### § 3 V elektr. Einreichung ZH – Datenschutz und Informationssicherheit
 

@@ -8,7 +8,7 @@ titel: "§ 39b StV TG – Gebühren für Fristerstreckungen und Mahnungen im Dek
 artikel: "§ 39b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 39b Gebühren für Fristerstreckungen und Mahnungen im Deklarationsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 39b Gebühren für Fristerstreckungen und Mahnungen im Deklarationsverfahren
 
 ### § 39b StV TG – Gebühren für Fristerstreckungen und Mahnungen im Deklarationsverfahren
 

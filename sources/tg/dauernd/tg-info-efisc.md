@@ -12,6 +12,7 @@ raw: raw/tg/dauernd/tg-info-efisc.html
 sha256: 069847f36a0d3b56eb40c5d792af7bd95b8c8bdd2c220392c4260a584b87f597
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Software eFisc
 

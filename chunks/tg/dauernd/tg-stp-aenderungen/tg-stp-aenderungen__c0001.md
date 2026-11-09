@@ -7,7 +7,7 @@ typ: info
 titel: "Änderungen der Steuerpraxis"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · StP TG Änderungen · Änderungen der Steuerpraxis
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · StP TG Änderungen · Änderungen der Steuerpraxis
 
 # Änderungen der Steuerpraxis
 

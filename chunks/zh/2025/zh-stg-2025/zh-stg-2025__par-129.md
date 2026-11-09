@@ -9,7 +9,7 @@ artikel: "§ 129"
 seiten: "57"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 129 StG ZH – IV. Fristen · S. 57
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 129 StG ZH – IV. Fristen · S. 57
 
 ### § 129 StG ZH – IV. Fristen
 

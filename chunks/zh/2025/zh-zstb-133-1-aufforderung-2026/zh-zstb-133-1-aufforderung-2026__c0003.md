@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0003
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "A.I.1 Pflicht zur Abgabe Steuererklärung 2025 (natürliche Personen)"
 ziffer: "A.I.1"
 seiten: "1"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › I. Steuererklärung 2025 › 1. Pflicht zur Abgabe · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › I. Steuererklärung 2025 › 1. Pflicht zur Abgabe · S. 1
 
 A. Natürliche Personen
 

@@ -9,7 +9,7 @@ artikel: "§ 79"
 seiten: "41"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Kapitalsteuer › § 79 StG ZH – 2. Kapitalgesellschaften und Genossenschaften a. Allgemeines · S. 41
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Kapitalsteuer › § 79 StG ZH – 2. Kapitalgesellschaften und Genossenschaften a. Allgemeines · S. 41
 
 ### § 79 StG ZH – 2. Kapitalgesellschaften und Genossenschaften a. Allgemeines
 

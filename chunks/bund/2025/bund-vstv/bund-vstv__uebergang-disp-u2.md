@@ -2,13 +2,13 @@
 id: bund-vstv__uebergang-disp-u2
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Übergangsbestimmung zur Änderung vom 15. Oktober 2008 VStV"
 artikel: "Übergangsbestimmung zur Änderung vom 15. Oktober 2008"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · Übergangsbestimmung zur Änderung vom 15. Oktober 2008
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · Übergangsbestimmung zur Änderung vom 15. Oktober 2008
 
 ### Übergangsbestimmung zur Änderung vom 15. Oktober 2008 VStV
 

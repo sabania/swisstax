@@ -2,13 +2,13 @@
 id: tg-steuerfuesse-2026__c0021
 quelle: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 typ: steuerfuss
 titel: "Karte Steuerkraft pro Einwohner der Politischen Gemeinden 2025 (Klassen) (Teil 1/2)"
 seiten: "6"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
+qmd: {metadata: {jur: tg, jahre: [2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Karte · S. 6
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Karte · S. 6
 
 Steuerkraft pro Einwohnerin oder Einwohner der Politischen Gemeinden
 Kanton Thurgau, 2025, in Franken

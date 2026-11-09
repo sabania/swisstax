@@ -8,7 +8,7 @@ titel: "Art. 71 StV AR – Geschäftsvermögen (Art. 21 Abs. 2 StG)"
 artikel: "Art. 71"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 71 Geschäftsvermögen (Art. 21 Abs. 2 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 71 Geschäftsvermögen (Art. 21 Abs. 2 StG)
 
 ### Art. 71 StV AR – Geschäftsvermögen (Art. 21 Abs. 2 StG)
 

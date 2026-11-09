@@ -9,7 +9,7 @@ artikel: "§ 278"
 seiten: "92-93"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 278 StG ZH – c. Ausserordentliche Einkünfte · S. 92–93
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 278 StG ZH – c. Ausserordentliche Einkünfte · S. 92–93
 
 ### § 278 StG ZH – c. Ausserordentliche Einkünfte
 

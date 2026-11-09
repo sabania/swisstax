@@ -9,7 +9,7 @@ ziffer: "10–15"
 seiten: "3-4"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 3. Festlegung der Landwerte · S. 3–4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › II. Unüberbautes Land › 3. Festlegung der Landwerte · S. 3–4
 
 Bauland für Mehrfamilienhäuser und Stockwerkeigentum
     Für jede Gemeinde wird eine Preisbandbreite festgelegt.   10

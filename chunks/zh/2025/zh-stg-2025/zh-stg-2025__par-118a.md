@@ -9,7 +9,7 @@ artikel: "§ 118a"
 seiten: "54"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 118a StG ZH – IX. Geschäftsordnung · S. 54
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuerrekursgericht › § 118a StG ZH – IX. Geschäftsordnung · S. 54
 
 ### § 118a StG ZH – IX. Geschäftsordnung
 

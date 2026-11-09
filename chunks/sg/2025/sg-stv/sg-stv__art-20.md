@@ -8,7 +8,7 @@ titel: "Art. 20 StV SG – c) Auswärtiger Wochenaufenthalt (Art. 39 Abs. 1 Bst.
 artikel: "Art. 20"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 20 c) Auswärtiger Wochenaufenthalt (Art. 39 Abs. 1 Bst. b und c StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 20 c) Auswärtiger Wochenaufenthalt (Art. 39 Abs. 1 Bst. b und c StG)
 
 ### Art. 20 StV SG – c) Auswärtiger Wochenaufenthalt (Art. 39 Abs. 1 Bst. b und c StG)
 

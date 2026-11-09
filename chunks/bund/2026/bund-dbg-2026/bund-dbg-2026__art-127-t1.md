@@ -8,7 +8,7 @@ titel: "Art. 127 DBG (Teil 1/2)"
 artikel: "Art. 127"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 2. Kapitel: Verfahrenspflichten › 3. Abschnitt: Bescheinigungspflicht Dritter › Art. 127
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 2. Kapitel: Verfahrenspflichten › 3. Abschnitt: Bescheinigungspflicht Dritter › Art. 127
 
 ### Art. 127 DBG
 

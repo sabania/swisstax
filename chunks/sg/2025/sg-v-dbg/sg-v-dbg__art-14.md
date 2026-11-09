@@ -8,7 +8,7 @@ titel: "Art. 14 V DBG SG – Eintragung im Grundbuch"
 artikel: "Art. 14"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 14 Eintragung im Grundbuch
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 14 Eintragung im Grundbuch
 
 ### Art. 14 V DBG SG – Eintragung im Grundbuch
 

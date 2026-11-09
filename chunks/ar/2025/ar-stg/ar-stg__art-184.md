@@ -8,7 +8,7 @@ titel: "Art. 184 StG AR – 3. Verfahrenspflichten bei Schenkungen"
 artikel: "Art. 184"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 184 3. Verfahrenspflichten bei Schenkungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 184 3. Verfahrenspflichten bei Schenkungen
 
 ### Art. 184 StG AR – 3. Verfahrenspflichten bei Schenkungen
 

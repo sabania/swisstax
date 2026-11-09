@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/034_2.pdf.ocFile/034_2.pdf> · lokal: [sg-stb-34-2.pdf](../../../raw/sg/dauernd/sg-stb-34-2.pdf) · Volltext: [sg-stb-34-2.md](../../../sources/sg/dauernd/sg-stb-34-2.md)
 - **Abgerufen:** 2026-11-09 · sha256 `ae0c8fdc4076e64e…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-34-2`).
+
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
 
 ## Inhalt (9 Chunks)
 

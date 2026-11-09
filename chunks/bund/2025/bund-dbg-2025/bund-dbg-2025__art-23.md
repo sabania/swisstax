@@ -8,7 +8,7 @@ titel: "Art. 23 DBG"
 artikel: "Art. 23"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 7. Abschnitt: Übrige Einkünfte › Art. 23
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 7. Abschnitt: Übrige Einkünfte › Art. 23
 
 ### Art. 23 DBG
 

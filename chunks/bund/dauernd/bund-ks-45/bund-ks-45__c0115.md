@@ -2,14 +2,14 @@
 id: bund-ks-45__c0115
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.2 Die vier Schritte zur Berechnung des monatlichen Quellensteuerabzugs"
 ziffer: "7.2"
 seiten: "37"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.2 Grundsätze · S. 37
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.2 Grundsätze · S. 37
 
 Für die Berechnung des monatlichen Quellensteuerabzugs, sind die nachfolgenden vier
 Schritte durchzuführen:

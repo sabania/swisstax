@@ -1,15 +1,271 @@
-{"id":"sg-stb-44-1","hinweise":["Anhang-Tabelle (S. 4-8) im pdftotext-Layout: Spalten Typ-ID/Kategorie/Typ/Definition/Abzugsfähig Kanton vermischt, Zeilen aber erkennbar; Fussnote * zu Typ-ID 19 läuft über Seitenumbruch S. 5/6"],"chunks":[
-{"start":17,"titel":"Ziff. 1 Grundsatz Abzug Verwaltungskosten bewegliches Privatvermögen","pfad":["1. Grundsatz"],"ziffer":"1","stichworte":["Vermögensverwaltungskosten","Verwaltungskosten Wertschriften","Art. 44 Abs. 1 StG","Anlagekosten nicht abzugsfähig","Bankgebühren"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Kosten der Verwaltung durch Dritte sind vom Ertrag des beweglichen Privatvermögens abziehbar (Art. 44 Abs. 1 StG); Erwerbs-, Erhaltungs-, Umschichtungs- und Verkaufskosten nicht."},
-{"start":33,"titel":"Ziff. 2 Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten – Begriff","pfad":["2. Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten"],"ziffer":"2","stichworte":["allgemeine Verwaltung","Grundsatz der Notwendigkeit","Bank Vermögensverwalter","Anlagekosten","Lebenshaltungskosten"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Abzugsfähig ist nur die Vergütung an Dritte für die allgemeine Verwaltung (inkl. MWST), die zur Bewirtschaftung notwendig ist; Detailübersicht im Anhang."},
-{"start":51,"titel":"Ziff. 2 Verwaltung durch Willensvollstrecker, Beistand, Erbschaftsverwalter","pfad":["2. Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten","Willensvollstrecker/Beistand"],"ziffer":"2","stichworte":["Willensvollstrecker","Beistand","Vorsorgeauftrag","Erbschaftsverwalter","Beistandschaft Entschädigung","Art. 404 ZGB"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Kosten von Willensvollstrecker, Beauftragtem, Beistand und Erbschaftsverwalter sind abzugsfähig, soweit blosse Verwahrung und Verwaltung; Anlage- und Rechtsberatung nicht."},
-{"start":67,"titel":"Ziff. 2 Verbeiständete behinderte Person 60/40 und Selbstverwaltung","pfad":["2. Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten","Pauschale Aufteilung / Selbstverwaltung"],"ziffer":"2","stichworte":["verbeiständete Person","60% Vermögensverwaltung","40% behinderungsbedingte Kosten","Selbstverwaltung kein Abzug","Behinderung"],"positionen":["abzug.verwaltungskosten_wertschriften","abzug.behinderungskosten"],"zusammenfassung":"Behinderte verbeiständete Person: pauschal 60% der Entschädigung als Vermögensverwaltungskosten und 40% als behinderungsbedingte Kosten; bei Selbstverwaltung kein Abzug."},
-{"start":80,"titel":"Ziff. 3 / 3.1 Abzugsformen und Abzugspauschale (2 Promille, max. Fr. 15'000)","pfad":["3. Abzugsformen","3.1 Abzugspauschale"],"ziffer":"3.1","stichworte":["Pauschale Vermögensverwaltung","2 Promille","1 Promille","Fr. 15'000","Wertschriftenvermögen","Pauschalabzug"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Pauschale 2 Promille bis Fr. 3 Mio. Wertschriftenvermögen und 1 Promille darüber, max. Fr. 15'000.--; Wahl zwischen Pauschale und tatsächlichen Kosten, keine Kumulation."},
-{"start":105,"titel":"Ziff. 3.1 Beispiel Berechnung der Abzugspauschale","pfad":["3. Abzugsformen","3.1 Abzugspauschale","Beispiel"],"ziffer":"3.1","stichworte":["Beispiel Pauschale","Bemessungsgrundlage","Kryptowährungen","Darlehen","Edelmetalle"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Beispiel: Bemessungsgrundlage Fr. 150'000.00 x 2 Promille ergibt abzugsfähige Pauschale Fr. 300.00; Krypto, Beteiligung, Darlehen und Edelmetalle nicht relevant."},
-{"start":119,"titel":"Ziff. 3.2 Abzug der tatsächlichen Kosten, All-in-Gebühr","pfad":["3. Abzugsformen","3.2 Abzug der tatsächlichen Kosten"],"ziffer":"3.2","stichworte":["tatsächliche Kosten","All-in Fee","Paketgebühr","Schätzung","Nachweis","Depot"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Höhere Kosten sind nachzuweisen; bei All-in-Gebühr werden abzugsfähige Kosten pro Depot nach pflichtgemässem Ermessen geschätzt, ohne Begrenzung auf Fr. 15'000.--, höchstens die tatsächliche Gebühr."},
-{"start":146,"titel":"Ziff. 4 Direkte Bundessteuer – gleiche Abzugsregeln","pfad":["4. Direkte Bundessteuer"],"ziffer":"4","stichworte":["direkte Bundessteuer","Art. 32 Abs. 1 DBG","Verwaltungskosten Bund"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Art. 32 Abs. 1 DBG erlaubt den Abzug der Verwaltung durch Dritte; es gelten dieselben Regeln wie im kantonalen Recht."},
-{"start":157,"titel":"Anhang SSK-Aufstellung Typ-ID 1–10 (Anlagekosten, Dienstleistungen)","pfad":["Anhang","Typ-ID 1–10"],"ziffer":"1-10","stichworte":["eSteuerauszug","Stempelabgaben","Transaktionskosten","Beratungskosten","Steuererklärung Kosten","Steuerverzeichnisse Banken"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"SSK-Aufstellung: Typ-ID 1–9 nicht abzugsfähig, Typ-ID 10 Kosten für Steuerverzeichnisse von Banken abzugsfähig."},
-{"start":209,"titel":"Anhang Typ-ID 11–19 (Dienstleistungen, All-in Fee)","pfad":["Anhang","Typ-ID 11–19"],"ziffer":"11-19","stichworte":["Provisionen","Vermögensverwaltung aktives Depotmanagement","Affidavitspesen","Abgezogene Quellensteuer","All-in Fee"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Typ-ID 11–16 nicht abzugsfähig, 17 (nicht rückforderbare Quellensteuer) und 18 (Affidavitspesen) abzugsfähig, 19 All-in Fee nein* (zu schätzen, Ziff. 3.2)."},
-{"start":268,"titel":"Anhang Typ-ID 20–29 (Depot-, Konto-, Inkassogebühren, Negativzinsen)","pfad":["Anhang","Typ-ID 20–29"],"ziffer":"20-29","stichworte":["Depotgebühren","Kontoführungsgebühren","Inkassospesen","Negativzinsen","Auslieferung Edelmetalle","eigene Bemühungen"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Abzugsfähig: Typ-ID 20–25 und 29 (u.a. Depot-, Kontoführungsgebühren, Negativzinsen); nicht: 26 eigene Bemühungen, 27 Managementgebühren, 28 Metallkontokommissionen."},
-{"start":315,"titel":"Anhang Typ-ID 30–40 (Pauschalgebühren, Porto, Tresorfach, Sonstige)","pfad":["Anhang","Typ-ID 30–40"],"ziffer":"30-40","stichworte":["Pauschalgebühren","Porto Versandkosten","Tresorfachgebühren","Kartengebühren","performanceorientierte Honorare"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Abzugsfähig: Typ-ID 33 Porto/Versand, 34 Saldierungsspesen, 35 Tresorfachgebühren; Pauschalgebühren (31) nein* mit Schätzung; übrige nein."},
-{"start":361,"titel":"Anhang Typ-ID 41–43 und 99 (Kreditgebühren, Sonstige)","pfad":["Anhang","Typ-ID 41–99"],"ziffer":"41-99","stichworte":["Kreditgebühren","Nichtkündigungsabzug","Zessionskommission","unqualifizierte Begriffe"],"positionen":["abzug.verwaltungskosten_wertschriften"],"zusammenfassung":"Typ-ID 41, 42, 43 und 99 (Kreditkommissionen, Nichtkündigungsabzug, Zessionskommission, Sonstige) sind nicht abzugsfähig."}
-]}
+{
+ "id": "sg-stb-44-1",
+ "hinweise": [
+  "Anhang-Tabelle (S. 4-8) im pdftotext-Layout: Spalten Typ-ID/Kategorie/Typ/Definition/Abzugsfähig Kanton vermischt, Zeilen aber erkennbar; Fussnote * zu Typ-ID 19 läuft über Seitenumbruch S. 5/6"
+ ],
+ "chunks": [
+  {
+   "start": 1,
+   "titel": "Ziff. 1 Grundsatz Abzug Verwaltungskosten bewegliches Privatvermögen",
+   "pfad": [
+    "1. Grundsatz"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Vermögensverwaltungskosten",
+    "Verwaltungskosten Wertschriften",
+    "Art. 44 Abs. 1 StG",
+    "Anlagekosten nicht abzugsfähig",
+    "Bankgebühren"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Kosten der Verwaltung durch Dritte sind vom Ertrag des beweglichen Privatvermögens abziehbar (Art. 44 Abs. 1 StG); Erwerbs-, Erhaltungs-, Umschichtungs- und Verkaufskosten nicht."
+  },
+  {
+   "start": 17,
+   "titel": "Ziff. 2 Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten – Begriff",
+   "pfad": [
+    "2. Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "allgemeine Verwaltung",
+    "Grundsatz der Notwendigkeit",
+    "Bank Vermögensverwalter",
+    "Anlagekosten",
+    "Lebenshaltungskosten"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Abzugsfähig ist nur die Vergütung an Dritte für die allgemeine Verwaltung (inkl. MWST), die zur Bewirtschaftung notwendig ist; Detailübersicht im Anhang."
+  },
+  {
+   "start": 35,
+   "titel": "Ziff. 2 Verwaltung durch Willensvollstrecker, Beistand, Erbschaftsverwalter",
+   "pfad": [
+    "2. Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten",
+    "Willensvollstrecker/Beistand"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "Willensvollstrecker",
+    "Beistand",
+    "Vorsorgeauftrag",
+    "Erbschaftsverwalter",
+    "Beistandschaft Entschädigung",
+    "Art. 404 ZGB"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Kosten von Willensvollstrecker, Beauftragtem, Beistand und Erbschaftsverwalter sind abzugsfähig, soweit blosse Verwahrung und Verwaltung; Anlage- und Rechtsberatung nicht."
+  },
+  {
+   "start": 51,
+   "titel": "Ziff. 2 Verbeiständete behinderte Person 60/40 und Selbstverwaltung",
+   "pfad": [
+    "2. Abzugsfähige und nicht abzugsfähige Vermögensverwaltungskosten",
+    "Pauschale Aufteilung / Selbstverwaltung"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "verbeiständete Person",
+    "60% Vermögensverwaltung",
+    "40% behinderungsbedingte Kosten",
+    "Selbstverwaltung kein Abzug",
+    "Behinderung"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften",
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Behinderte verbeiständete Person: pauschal 60% der Entschädigung als Vermögensverwaltungskosten und 40% als behinderungsbedingte Kosten; bei Selbstverwaltung kein Abzug."
+  },
+  {
+   "start": 64,
+   "titel": "Ziff. 3 / 3.1 Abzugsformen und Abzugspauschale (2 Promille, max. Fr. 15'000)",
+   "pfad": [
+    "3. Abzugsformen",
+    "3.1 Abzugspauschale"
+   ],
+   "ziffer": "3.1",
+   "stichworte": [
+    "Pauschale Vermögensverwaltung",
+    "2 Promille",
+    "1 Promille",
+    "Fr. 15'000",
+    "Wertschriftenvermögen",
+    "Pauschalabzug"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Pauschale 2 Promille bis Fr. 3 Mio. Wertschriftenvermögen und 1 Promille darüber, max. Fr. 15'000.--; Wahl zwischen Pauschale und tatsächlichen Kosten, keine Kumulation."
+  },
+  {
+   "start": 89,
+   "titel": "Ziff. 3.1 Beispiel Berechnung der Abzugspauschale",
+   "pfad": [
+    "3. Abzugsformen",
+    "3.1 Abzugspauschale",
+    "Beispiel"
+   ],
+   "ziffer": "3.1",
+   "stichworte": [
+    "Beispiel Pauschale",
+    "Bemessungsgrundlage",
+    "Kryptowährungen",
+    "Darlehen",
+    "Edelmetalle"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Beispiel: Bemessungsgrundlage Fr. 150'000.00 x 2 Promille ergibt abzugsfähige Pauschale Fr. 300.00; Krypto, Beteiligung, Darlehen und Edelmetalle nicht relevant."
+  },
+  {
+   "start": 103,
+   "titel": "Ziff. 3.2 Abzug der tatsächlichen Kosten, All-in-Gebühr",
+   "pfad": [
+    "3. Abzugsformen",
+    "3.2 Abzug der tatsächlichen Kosten"
+   ],
+   "ziffer": "3.2",
+   "stichworte": [
+    "tatsächliche Kosten",
+    "All-in Fee",
+    "Paketgebühr",
+    "Schätzung",
+    "Nachweis",
+    "Depot"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Höhere Kosten sind nachzuweisen; bei All-in-Gebühr werden abzugsfähige Kosten pro Depot nach pflichtgemässem Ermessen geschätzt, ohne Begrenzung auf Fr. 15'000.--, höchstens die tatsächliche Gebühr."
+  },
+  {
+   "start": 130,
+   "titel": "Ziff. 4 Direkte Bundessteuer – gleiche Abzugsregeln",
+   "pfad": [
+    "4. Direkte Bundessteuer"
+   ],
+   "ziffer": "4",
+   "stichworte": [
+    "direkte Bundessteuer",
+    "Art. 32 Abs. 1 DBG",
+    "Verwaltungskosten Bund"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Art. 32 Abs. 1 DBG erlaubt den Abzug der Verwaltung durch Dritte; es gelten dieselben Regeln wie im kantonalen Recht."
+  },
+  {
+   "start": 141,
+   "titel": "Anhang SSK-Aufstellung Typ-ID 1–10 (Anlagekosten, Dienstleistungen)",
+   "pfad": [
+    "Anhang",
+    "Typ-ID 1–10"
+   ],
+   "ziffer": "1-10",
+   "stichworte": [
+    "eSteuerauszug",
+    "Stempelabgaben",
+    "Transaktionskosten",
+    "Beratungskosten",
+    "Steuererklärung Kosten",
+    "Steuerverzeichnisse Banken"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "SSK-Aufstellung: Typ-ID 1–9 nicht abzugsfähig, Typ-ID 10 Kosten für Steuerverzeichnisse von Banken abzugsfähig."
+  },
+  {
+   "start": 193,
+   "titel": "Anhang Typ-ID 11–19 (Dienstleistungen, All-in Fee)",
+   "pfad": [
+    "Anhang",
+    "Typ-ID 11–19"
+   ],
+   "ziffer": "11-19",
+   "stichworte": [
+    "Provisionen",
+    "Vermögensverwaltung aktives Depotmanagement",
+    "Affidavitspesen",
+    "Abgezogene Quellensteuer",
+    "All-in Fee"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Typ-ID 11–16 nicht abzugsfähig, 17 (nicht rückforderbare Quellensteuer) und 18 (Affidavitspesen) abzugsfähig, 19 All-in Fee nein* (zu schätzen, Ziff. 3.2)."
+  },
+  {
+   "start": 252,
+   "titel": "Anhang Typ-ID 20–29 (Depot-, Konto-, Inkassogebühren, Negativzinsen)",
+   "pfad": [
+    "Anhang",
+    "Typ-ID 20–29"
+   ],
+   "ziffer": "20-29",
+   "stichworte": [
+    "Depotgebühren",
+    "Kontoführungsgebühren",
+    "Inkassospesen",
+    "Negativzinsen",
+    "Auslieferung Edelmetalle",
+    "eigene Bemühungen"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Abzugsfähig: Typ-ID 20–25 und 29 (u.a. Depot-, Kontoführungsgebühren, Negativzinsen); nicht: 26 eigene Bemühungen, 27 Managementgebühren, 28 Metallkontokommissionen."
+  },
+  {
+   "start": 299,
+   "titel": "Anhang Typ-ID 30–40 (Pauschalgebühren, Porto, Tresorfach, Sonstige)",
+   "pfad": [
+    "Anhang",
+    "Typ-ID 30–40"
+   ],
+   "ziffer": "30-40",
+   "stichworte": [
+    "Pauschalgebühren",
+    "Porto Versandkosten",
+    "Tresorfachgebühren",
+    "Kartengebühren",
+    "performanceorientierte Honorare"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Abzugsfähig: Typ-ID 33 Porto/Versand, 34 Saldierungsspesen, 35 Tresorfachgebühren; Pauschalgebühren (31) nein* mit Schätzung; übrige nein."
+  },
+  {
+   "start": 345,
+   "titel": "Anhang Typ-ID 41–43 und 99 (Kreditgebühren, Sonstige)",
+   "pfad": [
+    "Anhang",
+    "Typ-ID 41–99"
+   ],
+   "ziffer": "41-99",
+   "stichworte": [
+    "Kreditgebühren",
+    "Nichtkündigungsabzug",
+    "Zessionskommission",
+    "unqualifizierte Begriffe"
+   ],
+   "positionen": [
+    "abzug.verwaltungskosten_wertschriften"
+   ],
+   "zusammenfassung": "Typ-ID 41, 42, 43 und 99 (Kreditkommissionen, Nichtkündigungsabzug, Zessionskommission, Sonstige) sind nicht abzugsfähig."
+  }
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
+}

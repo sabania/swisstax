@@ -12,6 +12,9 @@ sha256: 5a3777b270c8aceb1cb512152422987d76826cf6dde80c417043240b31006b0d
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Formular 7: Liegenschaften 2025
 

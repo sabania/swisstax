@@ -8,7 +8,7 @@ titel: "Art. 24 DBG (Teil 3/3)"
 artikel: "Art. 24"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Titel: Einkommenssteuer › 2. Kapitel: Steuerfreie Einkünfte › Art. 24
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Titel: Einkommenssteuer › 2. Kapitel: Steuerfreie Einkünfte › Art. 24
 
 ### Art. 24 DBG (Fortsetzung)
 

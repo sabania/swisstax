@@ -7,7 +7,7 @@ typ: info
 titel: "Vorsorge 2. und 3. Säule"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
 
     Ich war bis Ende März 2026 unselbständig erwerbend (mit Anschluss an PK). Seit April 2026 bin ich selbständig erwerbend. Wie viel kann ich im 2026 in die Säule 3a einzahlen?
 

@@ -8,7 +8,7 @@ titel: "Art. 193 StG SG – 3. Vertretung"
 artikel: "Art. 193"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 193 3. Vertretung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 193 3. Vertretung
 
 ### Art. 193 StG SG – 3. Vertretung
 

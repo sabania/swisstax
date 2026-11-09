@@ -9,7 +9,7 @@ artikel: "§ 34"
 seiten: "7"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 34 StV ZH – b. Volljährigkeit[^13] · S. 7
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 34 StV ZH – b. Volljährigkeit[^13] · S. 7
 
 ### § 34 StV ZH – b. Volljährigkeit[^13]
 

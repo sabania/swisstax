@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/12_Nachsteuerverfahren_-_Kostenverrechnung__alle_Jahre_.pdf
 raw: raw/ar/dauernd/ar-mb-12.pdf
@@ -13,6 +14,7 @@ sha256: 2e346eb525cc108b721826126ab500592980b14441f93505df4c15210a5a04a9
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: verfahren
 ---
 # Merkblatt 12: Nachsteuerverfahren – Kostenverrechnung
 

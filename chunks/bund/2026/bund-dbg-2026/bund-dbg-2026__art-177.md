@@ -8,7 +8,7 @@ titel: "Art. 177 DBG – Anstiftung, Gehilfenschaft, Mitwirkung"
 artikel: "Art. 177"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 177 Anstiftung, Gehilfenschaft, Mitwirkung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 2. Kapitel: Steuerhinterziehung › Art. 177 Anstiftung, Gehilfenschaft, Mitwirkung
 
 ### Art. 177 DBG – Anstiftung, Gehilfenschaft, Mitwirkung
 

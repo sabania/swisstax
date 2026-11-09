@@ -7,7 +7,7 @@ typ: mitteilung
 titel: "Medienmitteilung: Ausgleich kalte Progression 2027"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: mitteilung}}
 ---
-> Bund · Steuerjahr 2027 · ESTV-MM 2027 · Medienmitteilung: Ausgleich kalte Progression 2027
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Mitteilung · Steuerjahr 2027 · ESTV-MM 2027 · Medienmitteilung: Ausgleich kalte Progression 2027
 
 # Medienmitteilung: Ausgleich kalte Progression 2027
 

@@ -8,7 +8,7 @@ titel: "Art. 42 DBG – Veranlagung bei Begründung und Auflösung der Ehe"
 artikel: "Art. 42"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Teil: Besteuerung der natürlichen Personen › Dritter Titel: Zeitliche Bemessung › Art. 42 Veranlagung bei Begründung und Auflösung der Ehe
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Teil: Besteuerung der natürlichen Personen › Dritter Titel: Zeitliche Bemessung › Art. 42 Veranlagung bei Begründung und Auflösung der Ehe
 
 ### Art. 42 DBG – Veranlagung bei Begründung und Auflösung der Ehe
 

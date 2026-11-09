@@ -8,7 +8,7 @@ titel: "Art. 14 V DBG AR – Eintrag im Grundbuch (Art. 172 DBG)"
 artikel: "Art. 14"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · V. Steuerbezug und Steuersicherung › Art. 14 Eintrag im Grundbuch (Art. 172 DBG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · V. Steuerbezug und Steuersicherung › Art. 14 Eintrag im Grundbuch (Art. 172 DBG)
 
 ### Art. 14 V DBG AR – Eintrag im Grundbuch (Art. 172 DBG)
 

@@ -9,7 +9,7 @@ artikel: "§ 137"
 seiten: "60"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 137 StG ZH – 4. Auskunftspflicht Dritter · S. 60
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 137 StG ZH – 4. Auskunftspflicht Dritter · S. 60
 
 ### § 137 StG ZH – 4. Auskunftspflicht Dritter
 

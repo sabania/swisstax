@@ -9,7 +9,7 @@ artikel: "§ 160"
 seiten: "66"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › G. Änderung rechtskräftiger Entscheide › § 160 StG ZH – III. Nachsteuer 1. Ordentliche Nachsteuer[^62] · S. 66
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › G. Änderung rechtskräftiger Entscheide › § 160 StG ZH – III. Nachsteuer 1. Ordentliche Nachsteuer[^62] · S. 66
 
 ### § 160 StG ZH – III. Nachsteuer 1. Ordentliche Nachsteuer[^62]
 

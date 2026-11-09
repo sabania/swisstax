@@ -8,7 +8,7 @@ titel: "§ 23 SchäV TG – Wirksamkeit"
 artikel: "§ 23"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 4. Übergangs- und Schlussbestimmungen › § 23 Wirksamkeit
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 4. Übergangs- und Schlussbestimmungen › § 23 Wirksamkeit
 
 ### § 23 SchäV TG – Wirksamkeit
 

@@ -2,15 +2,23 @@
 typ: quelle
 id: zh-zstb-132-1-bis-2025
 jur: zh
-jahre: [2025]
+jahre: []
 titel: "ZStB 132.1: Steuererklärungsverfahren – Fassung gültig bis 31.12.2025"
 generiert: tools/build_index.py
 ---
 # ZStB 132.1 (bis 2025): ZStB 132.1: Steuererklärungsverfahren – Fassung gültig bis 31.12.2025
 
-- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025
+- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** –
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-132-1/zstb-nr-132-1-gueltig-bis-31_12_2025.pdf> · lokal: [zh-zstb-132-1-bis-2025.pdf](../../../raw/zh/2025/zh-zstb-132-1-bis-2025.pdf) · Volltext: [zh-zstb-132-1-bis-2025.md](../../../sources/zh/2025/zh-zstb-132-1-bis-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c896180e7db55816…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2025-01-01 bis 2025-12-31 · ersetzt durch `zh-zstb-132-1`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-132-1-bis-2025`).
+
+- [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

@@ -8,7 +8,7 @@ titel: "Art. 11 StG AR – VIII. Besteuerung von Personengemeinschaften 1. Perso
 artikel: "Art. 11"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 11 VIII. Besteuerung von Personengemeinschaften 1. Personengesellschaften, ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 11 VIII. Besteuerung von Personengemeinschaften 1. Personengesellschaften, ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten
 
 ### Art. 11 StG AR – VIII. Besteuerung von Personengemeinschaften 1. Personengesellschaften, ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten
 

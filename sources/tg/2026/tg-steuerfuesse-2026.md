@@ -4,7 +4,6 @@ titel: Steuerfüsse 2026, Steuerkraft 2025 (Statistik TG)
 kurz: Steuerfüsse TG 2026
 jurisdiktion: tg
 jahre:
-- 2025
 - 2026
 typ: steuerfuss
 quelle_url: https://statistik.tg.ch/public/upload/assets/190145/2026_Nr_3_Steuerf%C3%BCsse_2026_Steuerkraft_2025.pdf?fp=1
@@ -13,6 +12,9 @@ sha256: 2f243c63006d4f2c70f8e5d8eb0094d084209cd7e85993f5cbb6b6cb493977fc
 abgerufen: '2026-11-09'
 seiten: 7
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
 ---
 # Steuerfüsse 2026, Steuerkraft 2025 (Statistik TG)
 

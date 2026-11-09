@@ -8,7 +8,7 @@ titel: "§ 5 StV TG – Liquidationsgewinne"
 artikel: "§ 5"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 5 Liquidationsgewinne
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 5 Liquidationsgewinne
 
 ### § 5 StV TG – Liquidationsgewinne
 

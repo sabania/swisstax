@@ -9,7 +9,7 @@ ziffer: "13 / 59–60"
 seiten: "17-18"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13 Spesenreglement · S. 17–18
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13 Spesenreglement · S. 17–18
 
 Genehmigtes Spesenreglement: Arbeitgeber, welche die Spesen nicht nur effektiv gemäss   59
 Rz. 52 vergüten, können Rechtssicherheit für ihre Mitarbeitenden in einem genehmigten

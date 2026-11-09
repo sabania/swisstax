@@ -9,7 +9,7 @@ ziffer: "§ 31 Abs. 1 lit. j, k"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 31 · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 31 · S. 2
 
     j.   die nachgewiesenen Kosten, jedoch höchstens Fr. 10 400, für die
     Drittbetreuung jedes Kindes, das das 14. Altersjahr noch nicht

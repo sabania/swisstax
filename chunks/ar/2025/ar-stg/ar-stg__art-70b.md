@@ -8,7 +8,7 @@ titel: "Art. 70b StG AR – Entlastungsbegrenzung"
 artikel: "Art. 70b"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 70b Entlastungsbegrenzung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 70b Entlastungsbegrenzung
 
 ### Art. 70b StG AR – Entlastungsbegrenzung
 

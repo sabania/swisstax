@@ -2,13 +2,13 @@
 id: bund-bvv3__art-1
 quelle: bund-bvv3
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 1 BVV 3 – Vorsorgeformen"
 artikel: "Art. 1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 1 Vorsorgeformen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · BVV 3 · 1. Abschnitt: Anerkannte Vorsorgeformen › Art. 1 Vorsorgeformen
 
 ### Art. 1 BVV 3 – Vorsorgeformen
 

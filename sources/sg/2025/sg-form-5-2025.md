@@ -12,6 +12,9 @@ sha256: 087826bbd9ed1119e999d4d805baaec93e1e9f0da04eee71274a64ccd5df2093
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Formular 5: Schulden, freiwillige Zuwendungen, Parteispenden 2025
 

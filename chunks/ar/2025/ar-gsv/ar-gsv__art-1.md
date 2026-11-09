@@ -8,7 +8,7 @@ titel: "Art. 1 GSV AR – Geltungsbereich und Zweck"
 artikel: "Art. 1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 1 Geltungsbereich und Zweck
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 1 Geltungsbereich und Zweck
 
 ### Art. 1 GSV AR – Geltungsbereich und Zweck
 

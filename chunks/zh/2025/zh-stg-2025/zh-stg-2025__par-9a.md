@@ -9,7 +9,7 @@ artikel: "§ 9a"
 seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 9a StG ZH – 3. Kollektive Kapitalanlagen · S. 4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 9a StG ZH – 3. Kollektive Kapitalanlagen · S. 4
 
 ### § 9a StG ZH – 3. Kollektive Kapitalanlagen
 

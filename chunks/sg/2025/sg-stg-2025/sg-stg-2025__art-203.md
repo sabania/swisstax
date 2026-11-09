@@ -8,7 +8,7 @@ titel: "Art. 203 StG SG – e) Verwirkung"
 artikel: "Art. 203"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 203 e) Verwirkung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 203 e) Verwirkung
 
 ### Art. 203 StG SG – e) Verwirkung
 

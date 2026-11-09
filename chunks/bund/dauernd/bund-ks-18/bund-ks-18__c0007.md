@@ -9,7 +9,7 @@ ziffer: "5.2–5.3"
 seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.2–5.3 · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.2–5.3 · S. 4
 
 5.2. Vielzahl von Vorsorge-Konten oder Vorsorge-Policen
 

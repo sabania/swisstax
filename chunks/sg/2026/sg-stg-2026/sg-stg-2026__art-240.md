@@ -8,7 +8,7 @@ titel: "Art. 240 StG SG – Berechnung"
 artikel: "Art. 240"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Dritter Abschnitt: Grundsteuer › Art. 240 Berechnung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Dritter Abschnitt: Grundsteuer › Art. 240 Berechnung
 
 ### Art. 240 StG SG – Berechnung
 

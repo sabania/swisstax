@@ -7,7 +7,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 0,
    "titel": "Ziff. 1 Quellensteuertarife 2026 – kalte Progression, VKP, Indexstand",
    "pfad": [
     "Rundschreiben",
@@ -26,7 +26,7 @@
    "ziffer": "1"
   },
   {
-   "start": 74,
+   "start": 58,
    "titel": "Ziff. 1 (Forts.) Angepasste Abzüge – BVG 6,50 %, Medianlohn CHF 70'500",
    "pfad": [
     "Rundschreiben",
@@ -45,7 +45,7 @@
    "ziffer": "1"
   },
   {
-   "start": 95,
+   "start": 79,
    "titel": "Ziff. 2 Quellenbesteuerung von Kapitalleistungen aus Vorsorge – kein Ausgleich",
    "pfad": [
     "Rundschreiben",
@@ -64,7 +64,7 @@
    "ziffer": "2"
   },
   {
-   "start": 101,
+   "start": 85,
    "titel": "Ziff. 3 Tarif G Ersatzeinkünfte – kein Ausgleich; Fussnote Medianwert",
    "pfad": [
     "Rundschreiben",
@@ -85,7 +85,7 @@
    "ziffer": "3"
   },
   {
-   "start": 132,
+   "start": 116,
    "titel": "Beilagenverzeichnis zum Rundschreiben 2-216",
    "pfad": [
     "Rundschreiben",
@@ -102,7 +102,7 @@
    "zusammenfassung": "Verzeichnis der sechs Beilagen (VKP, Grundlagen, Erläuterungen Tarifcode C, Tarife, QStV, Tabelle Kapitalleistungen)."
   },
   {
-   "start": 146,
+   "start": 130,
    "titel": "Beilage 1 VKP Art. 1–2 Abs. 1 – Bundessteuertarif Alleinstehende 2026",
    "pfad": [
     "Beilage 1 VKP",
@@ -122,7 +122,7 @@
    "ziffer": "Art. 1–2 Abs. 1"
   },
   {
-   "start": 204,
+   "start": 188,
    "titel": "Beilage 1 VKP Art. 2 Abs. 2 – Bundessteuertarif Verheiratete 2026",
    "pfad": [
     "Beilage 1 VKP",
@@ -142,7 +142,7 @@
    "ziffer": "Art. 2 Abs. 2"
   },
   {
-   "start": 247,
+   "start": 231,
    "titel": "Beilage 1 VKP Art. 3–6 – Aufwandbesteuerung, Feuerwehrsold, Grossspielgewinne",
    "pfad": [
     "Beilage 1 VKP",
@@ -162,7 +162,7 @@
    "ziffer": "Art. 3–6"
   },
   {
-   "start": 274,
+   "start": 258,
    "titel": "Beilage 2 Grundlagen Quellensteuertarife 2026 – Tarifcodes und allgemeine Abzüge",
    "pfad": [
     "Beilage 2",
@@ -180,7 +180,7 @@
    "zusammenfassung": "AHV/IV/EO 5.30 %; ALV bis CHF 148'200 1.10 % max. CHF 1'630.20; NBUV bis CHF 148'200 1.00 % max. CHF 1'482.00; Beiträge 2. Säule 6.50 %."
   },
   {
-   "start": 297,
+   "start": 281,
    "titel": "Beilage 2 – Versicherungsprämien, Berufskosten, Zweiverdienerabzug",
    "pfad": [
     "Beilage 2",
@@ -203,7 +203,7 @@
    "zusammenfassung": "Versicherungsprämien Alleinstehende 3.00 % max. CHF 1'800, Verheiratete 5.00 % max. CHF 3'700, pro Kind CHF 700; Fahrkosten CHF 800; Verpflegung CHF 3'200; Pauschalabzug 3.00 % min. 2'000 max. 4'000; Zweiverdienerabzug 50 % min. CHF 8'600 max. CHF 14'100."
   },
   {
-   "start": 321,
+   "start": 305,
    "titel": "Beilage 2 – Sozialabzüge, Familienentlastung, Medianwert",
    "pfad": [
     "Beilage 2",
@@ -223,7 +223,7 @@
    "zusammenfassung": "Kinderabzug CHF 6'800 pro Kind; Ehepaarabzug CHF 2'800; Abzug vom Steuerbetrag DBSt pro Kind CHF 263; Medianwert CHF 5'875 pro Monat bzw. CHF 70'500 pro Jahr."
   },
   {
-   "start": 341,
+   "start": 325,
    "titel": "Beilage 2 – Erläuterungen und Hinweise (Grenzgänger, Tarifcodes D, E, G)",
    "pfad": [
     "Beilage 2",
@@ -240,7 +240,7 @@
    "zusammenfassung": "Tarife L, M, N, P gelten für Grenzgänger DE, R, S, T, U für Grenzgänger IT; Tarifcode D 1 % und E 0.5 % für die DBSt."
   },
   {
-   "start": 352,
+   "start": 336,
    "titel": "Beilage 3 Tarifcode C Zweiverdienerehepaare – Erläuterungen 2026",
    "pfad": [
     "Beilage 3",
@@ -260,7 +260,7 @@
    "ziffer": "Beilage 3"
   },
   {
-   "start": 401,
+   "start": 385,
    "titel": "Beilage 5 QStV Änderung vom 22. August 2024 (Deckblatt)",
    "pfad": [
     "Beilage 5",
@@ -275,7 +275,7 @@
    "zusammenfassung": "Änderung des Anhangs der Quellensteuerverordnung, in Kraft seit 1. Januar 2025."
   },
   {
-   "start": 437,
+   "start": 421,
    "titel": "Beilage 5 Anhang QStV Ziff. 2 – Tarif G Ersatzeinkünfte",
    "pfad": [
     "Beilage 5",
@@ -294,7 +294,7 @@
    "ziffer": "Ziff. 2"
   },
   {
-   "start": 465,
+   "start": 449,
    "titel": "Beilage 5 Anhang QStV Ziff. 3a – Kapitalleistungen Alleinstehende",
    "pfad": [
     "Beilage 5",
@@ -314,7 +314,7 @@
    "ziffer": "Ziff. 3a"
   },
   {
-   "start": 481,
+   "start": 465,
    "titel": "Beilage 5 Anhang QStV Ziff. 3b – Kapitalleistungen Verheiratete",
    "pfad": [
     "Beilage 5",
@@ -334,7 +334,7 @@
    "ziffer": "Ziff. 3b"
   },
   {
-   "start": 493,
+   "start": 477,
    "titel": "Beilage 6 Ziff. 1.1 Tabelle Kapitalleistungen Alleinstehende bis CHF 150'000",
    "pfad": [
     "Beilage 6",
@@ -354,7 +354,7 @@
    "ziffer": "Ziff. 1.1"
   },
   {
-   "start": 548,
+   "start": 532,
    "titel": "Beilage 6 Ziff. 1.2–1.3 Alleinstehende über CHF 150'000",
    "pfad": [
     "Beilage 6",
@@ -373,7 +373,7 @@
    "ziffer": "Ziff. 1.2–1.3"
   },
   {
-   "start": 561,
+   "start": 545,
    "titel": "Beilage 6 Ziff. 2.1 Tabelle Kapitalleistungen Verheiratete bis CHF 150'000",
    "pfad": [
     "Beilage 6",
@@ -391,7 +391,7 @@
    "ziffer": "Ziff. 2.1"
   },
   {
-   "start": 607,
+   "start": 591,
    "titel": "Beilage 6 Ziff. 2.2–2.3 Verheiratete über CHF 150'000 und Hinweis",
    "pfad": [
     "Beilage 6",
@@ -409,5 +409,7 @@
    "zusammenfassung": "CHF 1'087.50 auf den ersten CHF 150'000 plus 2.60 % (bis CHF 900'000); darüber CHF 20'587.50 plus 2.30 %; kantonale und kommunale Steuern kommen hinzu.",
    "ziffer": "Ziff. 2.2–2.3"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

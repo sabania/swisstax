@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Ziff. 1 Rechtsgrundlagen – Berufskosten, Pauschale übrige Berufskosten",
    "pfad": [
     "1. Rechtsgrundlagen"
@@ -25,7 +25,7 @@
    ]
   },
   {
-   "start": 39,
+   "start": 23,
    "titel": "Ziff. 1 Zusatzabzug Nebenerwerb – 20 %, min. Fr. 800, max. Fr. 2'400",
    "pfad": [
     "1. Rechtsgrundlagen"
@@ -45,7 +45,7 @@
    ]
   },
   {
-   "start": 47,
+   "start": 31,
    "titel": "Ziff. 2 Zweck des Abzugs bei unselbständiger Nebenerwerbstätigkeit",
    "pfad": [
     "2. Zweck des Abzugs"
@@ -64,7 +64,7 @@
    ]
   },
   {
-   "start": 57,
+   "start": 41,
    "titel": "Ziff. 2 Zusätzliche Abzugspauschale für Nebenerwerb – restriktive Auslegung",
    "pfad": [
     "2. Zweck des Abzugs"
@@ -83,7 +83,7 @@
    ]
   },
   {
-   "start": 72,
+   "start": 56,
    "titel": "Ziff. 3 Haupterwerb – Begriff, Mindestquote zwei Drittel",
    "pfad": [
     "3. Haupterwerb"
@@ -104,7 +104,7 @@
    ]
   },
   {
-   "start": 93,
+   "start": 77,
    "titel": "Ziff. 3 Haupterwerb – mehrere Anstellungen und Teilzeitstellen zusammenzählen",
    "pfad": [
     "3. Haupterwerb"
@@ -124,7 +124,7 @@
    ]
   },
   {
-   "start": 101,
+   "start": 85,
    "titel": "Ziff. 3 Haupterwerb – enger beruflicher Zusammenhang, Einkünfte ex officio, Einzelbeschäftigung",
    "pfad": [
     "3. Haupterwerb"
@@ -145,7 +145,7 @@
    ]
   },
   {
-   "start": 115,
+   "start": 99,
    "titel": "Ziff. 4 Nebenerwerb – Begriff und Abgrenzung (anderer Arbeitgeber, Überstunden)",
    "pfad": [
     "4. Nebenerwerb"
@@ -166,7 +166,7 @@
    ]
   },
   {
-   "start": 133,
+   "start": 117,
    "titel": "Ziff. 4 Nebenerwerb nur unselbständig – untergeordnete Bedeutung",
    "pfad": [
     "4. Nebenerwerb"
@@ -186,7 +186,7 @@
    ]
   },
   {
-   "start": 145,
+   "start": 129,
    "titel": "Ziff. 5 Abzugsregelung – Pauschale 20 %, min. Fr. 800, max. Fr. 2'400",
    "pfad": [
     "5. Abzugsregelung"
@@ -206,7 +206,7 @@
    ]
   },
   {
-   "start": 153,
+   "start": 137,
    "titel": "Ziff. 5 Mindestbetrag, Liebhaberei, Berechnung aus Summe aller Nebenerwerbe",
    "pfad": [
     "5. Abzugsregelung"
@@ -224,7 +224,7 @@
    ]
   },
   {
-   "start": 165,
+   "start": 149,
    "titel": "Ziff. 5 Pauschale gilt Fahrkosten und Verpflegung mit ab",
    "pfad": [
     "5. Abzugsregelung"
@@ -244,7 +244,7 @@
    ]
   },
   {
-   "start": 171,
+   "start": 155,
    "titel": "Ziff. 5 Spesenvergütungen im Nebenerwerb – Lohnausweis, Spesenreglement",
    "pfad": [
     "5. Abzugsregelung"
@@ -265,7 +265,7 @@
    ]
   },
   {
-   "start": 191,
+   "start": 175,
    "titel": "Ziff. 5–6 Effektive Kosten (Fahrt, Verpflegung) und nebenamtliche Behördentätigkeit",
    "pfad": [
     "5. Abzugsregelung",
@@ -285,5 +285,7 @@
     "einkommen.unselbstaendig.vr_honorare"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

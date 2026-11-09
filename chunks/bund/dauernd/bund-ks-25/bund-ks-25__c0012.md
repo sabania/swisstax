@@ -2,14 +2,14 @@
 id: bund-ks-25__c0012
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.3.3 – Jahresrechnung nach KAG oder OR, Wechsel KAG zu OR"
 ziffer: "3.3.3"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 3 Grundsätze der Besteuerung › 3.3 › 3.3.3 · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 3 Grundsätze der Besteuerung › 3.3 › 3.3.3 · S. 5
 
 Die kollektive Kapitalanlage hat das Wahlrecht zwischen der Einreichung einer Jahresrech-
 nung nach KAG oder nach OR. Die eingereichte Jahresrechnung ist für Steuerzwecke mass-

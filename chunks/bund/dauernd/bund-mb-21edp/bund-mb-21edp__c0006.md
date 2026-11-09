@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0006
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 1 Rz 11–12 Beiträge an die 2. Säule – Abgrenzung zum Lohnausweis"
 ziffer: "11–12"
 seiten: "2-3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 1: 2. Säule · S. 2–3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Erläuterungen › Ziffer 1: 2. Säule · S. 2–3
 
     Ziffer 1: Beiträge an Einrichtungen der beruflichen Vorsorge (2. Säule)
 11   Anzugeben sind die vom versicherten Arbeitnehmer oder Selbständigerwerbenden nach

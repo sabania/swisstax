@@ -9,7 +9,7 @@ ziffer: "87–88"
 seiten: "17"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · E. Neufestsetzung › I. Einfamilienhäuser, Stockwerkeigentum, Industrie › 1. Allgemeine Neubewertung · S. 17
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · E. Neufestsetzung › I. Einfamilienhäuser, Stockwerkeigentum, Industrie › 1. Allgemeine Neubewertung · S. 17
 
 Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
 E. Neufestsetzung von Vermögenssteuerwerten und Eigenmietwerten

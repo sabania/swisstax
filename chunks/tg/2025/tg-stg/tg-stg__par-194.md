@@ -2,13 +2,13 @@
 id: tg-stg__par-194
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 194 StG TG – Erlass"
 artikel: "§ 194"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.10. Bezug und Sicherung der Steuer › 1.10.3. Stundung und Erlass › § 194 Erlass
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.10. Bezug und Sicherung der Steuer › 1.10.3. Stundung und Erlass › § 194 Erlass
 
 ### § 194 StG TG – Erlass
 

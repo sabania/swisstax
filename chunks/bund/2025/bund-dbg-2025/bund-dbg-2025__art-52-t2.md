@@ -8,7 +8,7 @@ titel: "Art. 52 DBG – Umfang der Steuerpflicht (Teil 2/2)"
 artikel: "Art. 52"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 2. Kapitel: Steuerliche Zugehörigkeit › Art. 52 Umfang der Steuerpflicht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 2. Kapitel: Steuerliche Zugehörigkeit › Art. 52 Umfang der Steuerpflicht
 
 ### Art. 52 DBG – Umfang der Steuerpflicht (Fortsetzung)
 

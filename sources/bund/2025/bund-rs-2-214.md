@@ -13,6 +13,10 @@ sha256: f5f1c765dde654fb88116c004d95387a5b3d134725ab1032a4332cba349b9bae
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: bund-rs-2-219
 ---
 # Rundschreiben 2-214: Zinssätze Fremdwährungen 2025
 

@@ -2,14 +2,14 @@
 id: bund-ks-15__c0096
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 7 Obligationen mit «Money back»-Optionen"
 ziffer: "Anh. III 7"
 seiten: "26-27"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 7 Money back · S. 26–27
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 7 Money back · S. 26–27
 
 7   Obligationen mit “Money back” Optionen
 Optionsanleihen, bei denen die Option nicht nur auf den Bezug des Basiswertes lautet, son-

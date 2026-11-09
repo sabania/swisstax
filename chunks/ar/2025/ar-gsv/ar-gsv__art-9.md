@@ -8,7 +8,7 @@ titel: "Art. 9 GSV AR – Verkehrswert"
 artikel: "Art. 9"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 9 Verkehrswert
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 9 Verkehrswert
 
 ### Art. 9 GSV AR – Verkehrswert
 

@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/18_Erhebung_von_Gebuehren__ab_2025_.pdf
 raw: raw/ar/dauernd/ar-mb-18.pdf
@@ -13,6 +14,8 @@ sha256: 2130dd72d99546205fe7bd3b3c985539aa81211a16ee890733e16e7cc57d7ec6
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: verfahren
+gilt_ab: '2025-09-01'
 ---
 # Merkblatt 18: Erhebung von Gebühren (ab 1.9.2025)
 

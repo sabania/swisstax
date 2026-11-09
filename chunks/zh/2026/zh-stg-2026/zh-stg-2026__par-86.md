@@ -9,7 +9,7 @@ artikel: "§ 86"
 seiten: "42"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Zeitliche Bemessung › § 86 StG ZH – IV. Tarife und Steuerfüsse · S. 42
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Zeitliche Bemessung › § 86 StG ZH – IV. Tarife und Steuerfüsse · S. 42
 
 ### § 86 StG ZH – IV. Tarife und Steuerfüsse
 

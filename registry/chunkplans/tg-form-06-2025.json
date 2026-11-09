@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 6 TG S. 1 – Hinweis zum Ausfüllen und Zuwendungsliste 1–16",
    "pfad": [
     "Freiwillige Zuwendungen sowie Mitgliederbeiträge und Zuwendungen an politische Parteien",
@@ -27,7 +27,7 @@
    "zusammenfassung": "Ab Fr. 1000.– pro Zuwendung Quittung oder Bescheinigung beilegen; Liste der Institutionen/Parteien Nr. 1–16 mit Übertrag von Beiblättern."
   },
   {
-   "start": 84,
+   "start": 69,
    "titel": "Formular 6 TG – Parteispenden (Code 347, Ziff. 15.5) und Berechnung Zuwendungen (Code 366, Ziff. 23.2)",
    "pfad": [
     "Freiwillige Zuwendungen",
@@ -48,7 +48,7 @@
    "zusammenfassung": "Parteien: Staatssteuer max. Fr. 10 000.–, Bundessteuer max. Fr. 10 600.–; Zuwendungen: Selbstbehalt Fr. 200.– (Staat), max. Fr. 8000.– bis Nettoeinkommen Fr. 40000.–, darüber 20% des Nettoeinkommens; Bund max. 20%."
   },
   {
-   "start": 115,
+   "start": 100,
    "titel": "Formular 6 TG S. 2 – Zuwendungsliste 17–60",
    "pfad": [
     "Zuwendungen 2025",
@@ -64,5 +64,7 @@
    ],
    "zusammenfassung": "Fortsetzung der Liste der Institutionen/Parteien Nr. 17–60 mit Übertrag aus Beiblättern und auf die Vorderseite."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

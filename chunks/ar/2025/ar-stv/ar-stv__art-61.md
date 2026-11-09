@@ -8,7 +8,7 @@ titel: "Art. 61 StV AR – Vorläufige Steuerrechnung (Art. 204 Abs. 2 StG)"
 artikel: "Art. 61"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 7. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 61 Vorläufige Steuerrechnung (Art. 204 Abs. 2 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 7. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 61 Vorläufige Steuerrechnung (Art. 204 Abs. 2 StG)
 
 ### Art. 61 StV AR – Vorläufige Steuerrechnung (Art. 204 Abs. 2 StG)
 

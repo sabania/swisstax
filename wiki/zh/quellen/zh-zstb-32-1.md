@@ -11,6 +11,14 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-32-1.html> · lokal: [zh-zstb-32-1.html](../../../raw/zh/dauernd/zh-zstb-32-1.html) · Volltext: [zh-zstb-32-1.md](../../../sources/zh/dauernd/zh-zstb-32-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `4c96fa9cfd2265f5…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2013-01-01 bis 2026-12-31 · ersetzt durch `bund-ks-11a`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-32-1`).
+
+- `data/werte/zh/2025.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
+- [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)
 
 ## Inhalt (18 Chunks)
 

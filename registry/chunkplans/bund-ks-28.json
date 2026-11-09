@@ -9,12 +9,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 88,
+   "start": 71,
    "titel": "Ziff. 1 Gegenstand – Liquidationsgewinne USTR II, Art. 37b DBG",
    "pfad": [
     "KS 28",
@@ -35,7 +35,7 @@
    "ziffer": "1"
   },
   {
-   "start": 98,
+   "start": 81,
    "titel": "Ziff. 1 Wortlaut Art. 37b DBG Liquidationsgewinne",
    "pfad": [
     "KS 28",
@@ -56,7 +56,7 @@
    "ziffer": "1 (Art. 37b)"
   },
   {
-   "start": 123,
+   "start": 106,
    "titel": "Ziff. 2.1 Beendigung selbständige Erwerbstätigkeit – Grundsatz",
    "pfad": [
     "KS 28",
@@ -77,7 +77,7 @@
    "ziffer": "2.1"
   },
   {
-   "start": 145,
+   "start": 128,
    "titel": "Ziff. 2.2 Beendigung infolge Invalidität",
    "pfad": [
     "KS 28",
@@ -98,7 +98,7 @@
    "ziffer": "2.2"
   },
   {
-   "start": 159,
+   "start": 142,
    "titel": "Ziff. 2.3 Übertragung Personenunternehmung auf juristische Person",
    "pfad": [
     "KS 28",
@@ -119,7 +119,7 @@
    "ziffer": "2.3"
   },
   {
-   "start": 188,
+   "start": 171,
    "titel": "Ziff. 2.4.1 Verhältnis zu Art. 18a Abs. 1 DBG (Überführung Liegenschaft)",
    "pfad": [
     "einkommen.selbstaendig",
@@ -140,7 +140,7 @@
    "ziffer": "2.4.1"
   },
   {
-   "start": 208,
+   "start": 191,
    "titel": "Ziff. 2.4.2–2.4.3 Verhältnis zu Art. 18a Abs. 2 und 3 DBG (Verpachtung, Erben)",
    "pfad": [
     "KS 28",
@@ -160,7 +160,7 @@
    "ziffer": "2.4.2–2.4.3"
   },
   {
-   "start": 224,
+   "start": 207,
    "titel": "Ziff. 3 Liquidation – Liquidationsjahr und Abschluss",
    "pfad": [
     "KS 28",
@@ -181,7 +181,7 @@
    "ziffer": "3"
   },
   {
-   "start": 244,
+   "start": 227,
    "titel": "Ziff. 4 Einkauf in eine Vorsorgeeinrichtung",
    "pfad": [
     "einkommen.selbstaendig",
@@ -201,7 +201,7 @@
    "ziffer": "4"
   },
   {
-   "start": 253,
+   "start": 236,
    "titel": "Ziff. 5.1 Fiktiver Einkauf – Grundsatz",
    "pfad": [
     "einkommen.selbstaendig",
@@ -221,7 +221,7 @@
    "ziffer": "5.1"
   },
   {
-   "start": 268,
+   "start": 251,
    "titel": "Ziff. 5.2 Fiktiver Einkauf – anrechenbare Beitragsjahre",
    "pfad": [
     "einkommen.selbstaendig",
@@ -240,7 +240,7 @@
    "ziffer": "5.2"
   },
   {
-   "start": 277,
+   "start": 260,
    "titel": "Ziff. 5.3 Fiktiver Einkauf – massgebendes Einkommen",
    "pfad": [
     "einkommen.selbstaendig",
@@ -259,7 +259,7 @@
    "ziffer": "5.3"
   },
   {
-   "start": 286,
+   "start": 269,
    "titel": "Ziff. 5.4–5.5 Besteuerung fiktiver Einkauf; spätere Einkäufe",
    "pfad": [
     "einkommen.kapitalleistung_vorsorge",
@@ -279,7 +279,7 @@
    "ziffer": "5.4–5.5"
   },
   {
-   "start": 296,
+   "start": 279,
    "titel": "Ziff. 6.1 Erbgang – Grundsatz",
    "pfad": [
     "KS 28",
@@ -299,7 +299,7 @@
    "ziffer": "6.1"
   },
   {
-   "start": 311,
+   "start": 294,
    "titel": "Ziff. 6.2 Liquidation durch Erben – Einzelunternehmung und Personengesellschaft",
    "pfad": [
     "KS 28",
@@ -318,7 +318,7 @@
    "ziffer": "6.2"
   },
   {
-   "start": 329,
+   "start": 312,
    "titel": "Ziff. 6.3–7 Fortführung durch Erben; Inkrafttreten",
    "pfad": [
     "KS 28",
@@ -338,7 +338,7 @@
    "ziffer": "6.3–7"
   },
   {
-   "start": 352,
+   "start": 335,
    "titel": "Anhang I LGBV Art. 1–2 Gegenstand, Geltungsbereich, Liquidationsjahr",
    "pfad": [
     "KS 28",
@@ -358,7 +358,7 @@
    "ziffer": "Art. 1–2"
   },
   {
-   "start": 403,
+   "start": 386,
    "titel": "Anhang I LGBV Art. 3–4 Verhältnis Art. 18a DBG; Einkauf Vorsorgeeinrichtung",
    "pfad": [
     "KS 28",
@@ -378,7 +378,7 @@
    "ziffer": "Art. 3–4"
   },
   {
-   "start": 425,
+   "start": 408,
    "titel": "Anhang I LGBV Art. 5–6 Abs. 1–2 Fiktiver Einkauf – Grundsätze, Berechnung",
    "pfad": [
     "KS 28",
@@ -398,7 +398,7 @@
    "ziffer": "Art. 5–6"
   },
   {
-   "start": 444,
+   "start": 427,
    "titel": "Anhang I LGBV Art. 6 Abs. 3–6 Einkommen, Höchstgrenze, Abzüge",
    "pfad": [
     "KS 28",
@@ -420,7 +420,7 @@
    "ziffer": "Art. 6 Abs. 3–6"
   },
   {
-   "start": 477,
+   "start": 460,
    "titel": "Anhang I LGBV Art. 7–8 Nachträglicher Anschluss; Besteuerung fiktiver Einkauf",
    "pfad": [
     "KS 28",
@@ -438,7 +438,7 @@
    "ziffer": "Art. 7–8"
   },
   {
-   "start": 492,
+   "start": 475,
    "titel": "Anhang I LGBV Art. 9–10 Übriger Liquidationsgewinn, Besteuerung",
    "pfad": [
     "KS 28",
@@ -458,7 +458,7 @@
    "ziffer": "Art. 9–10"
   },
   {
-   "start": 515,
+   "start": 498,
    "titel": "Anhang I LGBV Art. 11 Liquidation durch Erben",
    "pfad": [
     "KS 28",
@@ -477,7 +477,7 @@
    "ziffer": "Art. 11"
   },
   {
-   "start": 545,
+   "start": 528,
    "titel": "Anhang I LGBV Art. 12–13 Fortführung durch Erben; Inkrafttreten",
    "pfad": [
     "KS 28",
@@ -495,12 +495,12 @@
    "ziffer": "Art. 12–13"
   },
   {
-   "start": 566,
+   "start": 549,
    "skip": true,
    "titel": "Leerseite und Deckblatt Anhang II Erläuterungen"
   },
   {
-   "start": 590,
+   "start": 573,
    "titel": "Anhang II Zusammenfassung der Erläuterungen zur LGBV",
    "pfad": [
     "KS 28",
@@ -519,7 +519,7 @@
    "ziffer": "Zusammenfassung"
   },
   {
-   "start": 619,
+   "start": 602,
    "titel": "Anhang II Ziff. 1 Einleitung – Unternehmenssteuerreform II",
    "pfad": [
     "KS 28",
@@ -539,7 +539,7 @@
    "ziffer": "1"
   },
   {
-   "start": 651,
+   "start": 634,
    "titel": "Anhang II Ziff. 1.1 Vorschlag des Bundesrates (ein Achtel satzbestimmend)",
    "pfad": [
     "KS 28",
@@ -558,7 +558,7 @@
    "ziffer": "1.1"
   },
   {
-   "start": 677,
+   "start": 660,
    "titel": "Anhang II Ziff. 1.1 (Forts.) Verzicht auf Privilegierung wegen Vorsorge",
    "pfad": [
     "KS 28",
@@ -577,7 +577,7 @@
    "ziffer": "1.1"
   },
   {
-   "start": 708,
+   "start": 691,
    "titel": "Anhang II Ziff. 1.2 Beratung Ständerat – Fünftel und Mindestsatz 2 Prozent",
    "pfad": [
     "KS 28",
@@ -596,7 +596,7 @@
    "ziffer": "1.2"
   },
   {
-   "start": 733,
+   "start": 716,
    "titel": "Anhang II Ziff. 1.2 Nationalrat – Streichung Mindestsatz, Fünftel des Tarifs",
    "pfad": [
     "KS 28",
@@ -615,7 +615,7 @@
    "ziffer": "1.2"
   },
   {
-   "start": 769,
+   "start": 752,
    "titel": "Anhang II Ziff. 1.2 Einigung – Einkaufsbeiträge und fiktiver Einkauf",
    "pfad": [
     "KS 28",
@@ -634,7 +634,7 @@
    "ziffer": "1.2"
   },
   {
-   "start": 790,
+   "start": 773,
    "titel": "Anhang II Wortlaut Art. 37b DBG (vom Parlament verabschiedet)",
    "pfad": [
     "KS 28",
@@ -653,7 +653,7 @@
    "ziffer": "Art. 37b"
   },
   {
-   "start": 812,
+   "start": 795,
    "titel": "Anhang II Ziff. 1.3 Auslegung von Art. 37b DBG",
    "pfad": [
     "KS 28",
@@ -673,7 +673,7 @@
    "ziffer": "1.3"
   },
   {
-   "start": 838,
+   "start": 821,
    "titel": "Anhang II Art. 1 Abs. 1–2 Gegenstand: definitive Aufgabe, Invalidität",
    "pfad": [
     "KS 28",
@@ -692,7 +692,7 @@
    "ziffer": "Art. 1 Abs. 1–2"
   },
   {
-   "start": 863,
+   "start": 846,
    "titel": "Anhang II Art. 1 Abs. 3 Ausnahmen – nur einmal, nur stille Reserven",
    "pfad": [
     "KS 28",
@@ -711,7 +711,7 @@
    "ziffer": "Art. 1 Abs. 3"
   },
   {
-   "start": 882,
+   "start": 865,
    "titel": "Anhang II Art. 1 – Nachsteuerverfahren und Steuerumgehung",
    "pfad": [
     "KS 28",
@@ -731,7 +731,7 @@
    "ziffer": "Art. 1"
   },
   {
-   "start": 927,
+   "start": 910,
    "titel": "Anhang II Art. 2 Liquidationsjahr",
    "pfad": [
     "KS 28",
@@ -749,7 +749,7 @@
    "ziffer": "Art. 2"
   },
   {
-   "start": 941,
+   "start": 924,
    "titel": "Anhang II Art. 3 Verhältnis zu Art. 18a DBG – Grundsätze",
    "pfad": [
     "KS 28",
@@ -770,7 +770,7 @@
    "ziffer": "Art. 3"
   },
   {
-   "start": 969,
+   "start": 952,
    "titel": "Anhang II Art. 3 Fall 1 – Überführung Vorjahr ohne Aufschub, Verkauf Liquidationsjahr",
    "pfad": [
     "KS 28",
@@ -790,7 +790,7 @@
    "ziffer": "Art. 3 Fall 1"
   },
   {
-   "start": 1002,
+   "start": 985,
    "titel": "Anhang II Art. 3 Fall 2 – Überführung Vorjahr ohne Aufschub, Verkauf später",
    "pfad": [
     "KS 28",
@@ -810,7 +810,7 @@
    "ziffer": "Art. 3 Fall 2"
   },
   {
-   "start": 1033,
+   "start": 1016,
    "titel": "Anhang II Art. 3 Fall 3 – Überführung mit Aufschub, Verkauf nach Liquidationsjahr",
    "pfad": [
     "KS 28",
@@ -830,7 +830,7 @@
    "ziffer": "Art. 3 Fall 3"
   },
   {
-   "start": 1068,
+   "start": 1051,
    "titel": "Anhang II Art. 3 Fall 4 – Überführung vor Vorjahr mit Aufschub, Verkauf im Liquidationsjahr",
    "pfad": [
     "KS 28",
@@ -849,7 +849,7 @@
    "ziffer": "Art. 3 Fall 4"
   },
   {
-   "start": 1109,
+   "start": 1092,
    "titel": "Anhang II Art. 4 Einkauf in eine Vorsorgeeinrichtung",
    "pfad": [
     "KS 28",
@@ -869,7 +869,7 @@
    "ziffer": "Art. 4"
   },
   {
-   "start": 1130,
+   "start": 1113,
    "titel": "Anhang II Art. 5 Fiktiver Einkauf – Grundsätze und Anspruchsberechtigte",
    "pfad": [
     "KS 28",
@@ -888,7 +888,7 @@
    "ziffer": "Art. 5"
   },
   {
-   "start": 1160,
+   "start": 1143,
    "titel": "Anhang II Art. 6 Abs. 1–2 Altersgutschriftensatz 15 Prozent, Beitragsjahre",
    "pfad": [
     "KS 28",
@@ -909,7 +909,7 @@
    "ziffer": "Art. 6 Abs. 1–2"
   },
   {
-   "start": 1187,
+   "start": 1170,
    "titel": "Anhang II Art. 6 Abs. 3–5 Durchschnittseinkommen, Höchstgrenze",
    "pfad": [
     "KS 28",
@@ -929,7 +929,7 @@
    "ziffer": "Art. 6 Abs. 3–5"
   },
   {
-   "start": 1209,
+   "start": 1192,
    "titel": "Anhang II Art. 6 Abs. 6 Anrechnung von Vorsorgeguthaben und Bezügen",
    "pfad": [
     "KS 28",
@@ -950,7 +950,7 @@
    "ziffer": "Art. 6 Abs. 6"
   },
   {
-   "start": 1224,
+   "start": 1207,
    "titel": "Anhang II Art. 7 Nachträglicher Anschluss an eine Vorsorgeeinrichtung",
    "pfad": [
     "KS 28",
@@ -970,7 +970,7 @@
    "ziffer": "Art. 7"
   },
   {
-   "start": 1243,
+   "start": 1226,
    "titel": "Anhang II Art. 8 Besteuerung des fiktiven Einkaufs (Vorsorgetarif, Zusammenrechnung)",
    "pfad": [
     "KS 28",
@@ -990,7 +990,7 @@
    "ziffer": "Art. 8"
   },
   {
-   "start": 1262,
+   "start": 1245,
    "titel": "Anhang II Art. 9 Bemessung des übrigen Liquidationsgewinns",
    "pfad": [
     "KS 28",
@@ -1010,7 +1010,7 @@
    "ziffer": "Art. 9"
   },
   {
-   "start": 1316,
+   "start": 1299,
    "titel": "Anhang II Art. 10 Besteuerung – ein Fünftel, Mindestsatz 2 Prozent",
    "pfad": [
     "KS 28",
@@ -1029,7 +1029,7 @@
    "ziffer": "Art. 10"
   },
   {
-   "start": 1326,
+   "start": 1309,
    "titel": "Anhang II Art. 11 Abs. 1–3 Liquidation durch Erben",
    "pfad": [
     "KS 28",
@@ -1048,7 +1048,7 @@
    "ziffer": "Art. 11 Abs. 1–3"
   },
   {
-   "start": 1350,
+   "start": 1333,
    "titel": "Anhang II Art. 11 Abs. 4 Kein fiktiver Einkauf für Erben",
    "pfad": [
     "KS 28",
@@ -1067,7 +1067,7 @@
    "ziffer": "Art. 11 Abs. 4"
   },
   {
-   "start": 1387,
+   "start": 1370,
    "titel": "Anhang II Art. 12–13 Fortführung durch Erben; Inkrafttreten",
    "pfad": [
     "KS 28",
@@ -1086,7 +1086,7 @@
    "ziffer": "Art. 12–13"
   },
   {
-   "start": 1422,
+   "start": 1405,
    "titel": "Anhang III Tod eines Gesellschafters – keine Regelung, Nachfolgeklausel",
    "pfad": [
     "KS 28",
@@ -1106,7 +1106,7 @@
    "ziffer": "Anhang III"
   },
   {
-   "start": 1460,
+   "start": 1443,
    "titel": "Anhang III Nachfolgeklausel 2.B, Fortsetzungs- und Eintrittsklausel",
    "pfad": [
     "KS 28",
@@ -1125,5 +1125,7 @@
    "zusammenfassung": "Bei Fortsetzungs- oder nicht angenommener Eintrittsklausel realisiert der Erblasser den Liquidationsgewinn (Art. 37b Abs. 1 DBG), ein fiktiver Einkauf ist nicht möglich.",
    "ziffer": "Anhang III"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

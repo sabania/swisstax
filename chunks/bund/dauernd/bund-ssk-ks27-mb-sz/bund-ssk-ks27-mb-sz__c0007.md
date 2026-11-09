@@ -2,14 +2,14 @@
 id: bund-ssk-ks27-mb-sz__c0007
 quelle: bund-ssk-ks27-mb-sz
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 3.1 SSK-Kreisschreiben Nr. 27 – Ausscheidungsgrundsätze natürliche Personen (Teil 3/3)"
 ziffer: "3.1"
 seiten: "2-3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · 3. Kreisschreiben SSK › 3.1 Natürliche Personen · S. 2–3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · SSK-KS 27 (MB SZ) · 3. Kreisschreiben SSK › 3.1 Natürliche Personen · S. 2–3
 
     werden im Verhältnis der in den betroffenen Kantonen steuerbaren Reineinkommen verlegt.
    In den Liegenschaftskantonen erfolgt die Verrechnung mit Grundstückgewinnen des Geschäfts-

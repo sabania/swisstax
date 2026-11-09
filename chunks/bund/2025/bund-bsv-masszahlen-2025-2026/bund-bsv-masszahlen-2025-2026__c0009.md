@@ -9,7 +9,7 @@ ziffer: "6–9"
 seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 6–9 · S. 2–3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 6–9 · S. 2–3
 
   7. Der Sicherheitsfonds stellt die über die gesetzlichen Leistungen hinausgehenden   14, 18 SFV
     reglementarischen Leistungen von zahlungsunfähig gewordenen VE sicher, soweit diese   15 SFV

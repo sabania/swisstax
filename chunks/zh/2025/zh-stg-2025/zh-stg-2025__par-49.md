@@ -9,7 +9,7 @@ artikel: "§ 49"
 seiten: "25"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › E. Zeitliche Bemessung › § 49 StG ZH – I. Steuerperiode · S. 25
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › E. Zeitliche Bemessung › § 49 StG ZH – I. Steuerperiode · S. 25
 
 ### § 49 StG ZH – I. Steuerperiode
 

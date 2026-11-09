@@ -12,6 +12,7 @@ raw: raw/sg/dauernd/sg-info-fristverlaengerung.html
 sha256: 0d38180b6efed36a22e968ce5635d5746ee351a32ddd7be3d8fcacc630e8293a
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: verfahren
 ---
 # Fristverlängerung Privatpersonen
 

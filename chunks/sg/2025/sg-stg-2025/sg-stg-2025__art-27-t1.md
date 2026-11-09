@@ -8,7 +8,7 @@ titel: "Art. 27 StG SG – b) Bemessung und Berechnung (Teil 1/3)"
 artikel: "Art. 27"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 27 b) Bemessung und Berechnung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 27 b) Bemessung und Berechnung
 
 ### Art. 27 StG SG – b) Bemessung und Berechnung
 

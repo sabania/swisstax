@@ -12,6 +12,9 @@ sha256: b2073b96750c782a708b3b7cfd5e06ae05d3ad0576cc9cce094f713c51b5bbe1
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Formular 7Z: Zusammenstellung aller Liegenschaften 2025
 

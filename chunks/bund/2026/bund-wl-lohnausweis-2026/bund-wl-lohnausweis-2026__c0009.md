@@ -9,7 +9,7 @@ ziffer: "6–8"
 seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstaben C–E · S. 7–8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstaben C–E · S. 7–8
 
 In diesen Feldern sind die genauen Ein- und Austrittsdaten des Arbeitnehmers anzugeben.   8
 Die Lohnperiode ist auch dann anzugeben, wenn der Arbeitnehmer das ganze Jahr bei der

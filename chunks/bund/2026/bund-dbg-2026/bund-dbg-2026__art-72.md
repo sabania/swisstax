@@ -8,7 +8,7 @@ titel: "Art. 72 DBG"
 artikel: "Art. 72"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 2. Kapitel: Steuerberechnung › 4. Abschnitt: Kollektive Kapitalanlagen › Art. 72
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 2. Kapitel: Steuerberechnung › 4. Abschnitt: Kollektive Kapitalanlagen › Art. 72
 
 ### Art. 72 DBG
 

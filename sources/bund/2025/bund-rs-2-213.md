@@ -13,6 +13,10 @@ sha256: 5d0beb29fe1167b55750e44d8372f759dfe58c99fb8ebeec2a205f4a5292bbd8
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: bund-rs-2-218
 ---
 # Rundschreiben 2-213: Zinssätze Darlehen CHF 2025
 

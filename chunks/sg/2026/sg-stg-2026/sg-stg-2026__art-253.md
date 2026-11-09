@@ -8,7 +8,7 @@ titel: "Art. 253 StG SG – f) Steuerhinterziehung von Ehegatten"
 artikel: "Art. 253"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 253 f) Steuerhinterziehung von Ehegatten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 253 f) Steuerhinterziehung von Ehegatten
 
 ### Art. 253 StG SG – f) Steuerhinterziehung von Ehegatten
 

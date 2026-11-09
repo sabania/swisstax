@@ -9,7 +9,7 @@ artikel: "§ 140"
 seiten: "60-61"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 140 StG ZH – III. Einsprache 1. Frist und Voraussetzungen · S. 60–61
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 140 StG ZH – III. Einsprache 1. Frist und Voraussetzungen · S. 60–61
 
 ### § 140 StG ZH – III. Einsprache 1. Frist und Voraussetzungen
 

@@ -12,6 +12,9 @@ sha256: 30711442ba806237d90f0de1bde3319e240c7624de5ff9d9f919a4eab3fb582d
 abgerufen: '2026-11-09'
 seiten: 40
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
 ---
 # Wegleitung 2026 (nur unterjährige Steuerpflicht)
 

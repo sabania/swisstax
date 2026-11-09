@@ -9,7 +9,7 @@ artikel: "§ 50"
 seiten: "26"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › E. Zeitliche Bemessung › § 50 StG ZH – II. Bemessungsperiode · S. 26
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › E. Zeitliche Bemessung › § 50 StG ZH – II. Bemessungsperiode · S. 26
 
 ### § 50 StG ZH – II. Bemessungsperiode
 

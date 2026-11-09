@@ -8,7 +8,7 @@ titel: "Art. 31a StV AR – Bewertung von Mitarbeiterbeteiligungen (Art. 46a StG
 artikel: "Art. 31a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 31a Bewertung von Mitarbeiterbeteiligungen (Art. 46a StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 31a Bewertung von Mitarbeiterbeteiligungen (Art. 46a StG)
 
 ### Art. 31a StV AR – Bewertung von Mitarbeiterbeteiligungen (Art. 46a StG)
 

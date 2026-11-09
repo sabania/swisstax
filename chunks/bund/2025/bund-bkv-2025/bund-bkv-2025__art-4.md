@@ -8,7 +8,7 @@ titel: "Art. 4 BKV – Nachweis höherer Kosten bei Pauschalansätzen"
 artikel: "Art. 4"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 4 Nachweis höherer Kosten bei Pauschalansätzen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 4 Nachweis höherer Kosten bei Pauschalansätzen
 
 ### Art. 4 BKV – Nachweis höherer Kosten bei Pauschalansätzen
 

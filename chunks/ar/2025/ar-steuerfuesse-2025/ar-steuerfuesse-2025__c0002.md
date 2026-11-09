@@ -8,7 +8,7 @@ titel: "Steuerfüsse 2025 AR – Gemeinden Rehetobel bis Wolfhalden"
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2025], typ: steuerfuss}}
 ---
-> AR · Steuerjahr 2025 · Steuerfüsse AR 2025 · Steuerfüsse natürliche Personen · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2025 · Steuerfüsse AR 2025 · Steuerfüsse natürliche Personen · S. 1
 
 Rehetobel   4.20 Rehetobel   0.70 Rehetobel   0.45   8.20   7.95   7.50
 Reute   3.50 Reute-Oberegg   0.75 Oberegg-Reute   0.57   7.55   7.37   6.80

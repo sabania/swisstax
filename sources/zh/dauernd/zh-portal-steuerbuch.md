@@ -12,6 +12,7 @@ raw: raw/zh/dauernd/zh-portal-steuerbuch.html
 sha256: f571bf183dacc8beb32996097892e8cacf428ce67862ddc0c3b2daec29cd2afc
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Zürcher Steuerbuch (Übersicht)
 

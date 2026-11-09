@@ -8,7 +8,7 @@ titel: "§ 50a StV TG – Erlass"
 artikel: "§ 50a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.3. Stundung und Erlass › § 50a Erlass
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.3. Stundung und Erlass › § 50a Erlass
 
 ### § 50a StV TG – Erlass
 

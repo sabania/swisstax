@@ -13,6 +13,8 @@ sha256: 9b3974653efbdb7296668232ce727988430978dba2503df507f3d2fd953b4dc5
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
 ---
 # Verordnung über den Ausgleich der kalten Progression (sGS 811.12)
 

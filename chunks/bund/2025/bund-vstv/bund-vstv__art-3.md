@@ -2,13 +2,13 @@
 id: bund-vstv__art-3
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 3 VStV"
 artikel: "Art. 3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · II. Mitwirkung des Steuerpflichtigen › 2. Abrechnung und Bescheinigung über den Steuerabzug › Art. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · II. Mitwirkung des Steuerpflichtigen › 2. Abrechnung und Bescheinigung über den Steuerabzug › Art. 3
 
 ### Art. 3 VStV
 

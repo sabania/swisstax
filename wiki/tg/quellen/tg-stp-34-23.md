@@ -2,16 +2,25 @@
 typ: quelle
 id: tg-stp-34-23
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "StP 34 Nr. 23: Freiwillige Zuwendungen"
 generiert: tools/build_index.py
 ---
 # StP 34 Nr. 23: StP 34 Nr. 23: Freiwillige Zuwendungen
 
-- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-23-freiwillige-zuwendungen> · lokal: [tg-stp-34-23.html](../../../raw/tg/dauernd/tg-stp-34-23.html) · Volltext: [tg-stp-34-23.md](../../../sources/tg/dauernd/tg-stp-34-23.md)
 - **Abgerufen:** 2026-11-09 · sha256 `5fc14ff06e806024…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-10-01 bis offen
 - ⚠ **Hinweis:** Fassung geändert per 01.10.2025 (Ausgabe 2026-09); ältere Versionen als PDF auf der Seite verlinkt
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-34-23`).
+
+- `data/werte/tg/2025.yaml#36:spenden.min` (agent-geprueft)
+- `data/werte/tg/2025.yaml#37:spenden.max_satz` (agent-geprueft)
+- [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)
 
 ## Inhalt (13 Chunks)
 

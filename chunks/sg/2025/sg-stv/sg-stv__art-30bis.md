@@ -8,7 +8,7 @@ titel: "Art. 30 bis StV SG – Verkehrs- und Ertragswert (Art. 57 Abs. 1 und Art
 artikel: "Art. 30 bis"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 30 bis Verkehrs- und Ertragswert (Art. 57 Abs. 1 und Art. 58 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 30 bis Verkehrs- und Ertragswert (Art. 57 Abs. 1 und Art. 58 StG)
 
 ### Art. 30 bis StV SG – Verkehrs- und Ertragswert (Art. 57 Abs. 1 und Art. 58 StG)
 

@@ -2,13 +2,13 @@
 id: bund-vstg__art-58-t1
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 58 VStG (Teil 1/2)"
 artikel: "Art. 58"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · C. Abrechnung zwischen Bund und Kantonen › II. Folgen der Kürzung › Art. 58
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · C. Abrechnung zwischen Bund und Kantonen › II. Folgen der Kürzung › Art. 58
 
 ### Art. 58 VStG
 

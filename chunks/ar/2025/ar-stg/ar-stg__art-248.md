@@ -8,7 +8,7 @@ titel: "Art. 248 StG AR – 6. Steuerhinterziehung von Ehegatten"
 artikel: "Art. 248"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 248 6. Steuerhinterziehung von Ehegatten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 248 6. Steuerhinterziehung von Ehegatten
 
 ### Art. 248 StG AR – 6. Steuerhinterziehung von Ehegatten
 

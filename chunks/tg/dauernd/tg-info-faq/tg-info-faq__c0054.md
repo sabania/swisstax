@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerpflicht / Bemessung"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerpflicht / Bemessung
 
     Die nach dem Tod der Erblasserin/des Erblassers fälligen Zinsen sind nicht in deren/dessen Steuererklärung, sondern in der Steuererklärung der Erbinnen und Erben (anteilsmässig nach Erbquote) zu deklarieren.
 

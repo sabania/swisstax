@@ -2,12 +2,12 @@
 id: sg-info-ekst-vst__c0049
 quelle: sg-info-ekst-vst
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: info
 titel: "Merkblätter"
-qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
+qmd: {metadata: {jur: sg, jahre: [2025, 2026, 2027], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Merkblätter
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026/2027 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Merkblätter
 
 ### Merkblätter
 

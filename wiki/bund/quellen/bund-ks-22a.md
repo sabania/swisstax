@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 22a: Teilbesteuerung Beteiligungserträge im Privatvermögen, Schuldzinsen"
 generiert: tools/build_index.py
 ---
 # KS 22a: ESTV-Kreisschreiben Nr. 22a: Teilbesteuerung Beteiligungserträge im Privatvermögen, Schuldzinsen
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2020-01-31
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2020-01-31
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/FeGNLMYSgFGL/dbst-ks-2020-1-022a-d-de.pdf> · lokal: [bund-ks-22a.pdf](../../../raw/bund/dauernd/bund-ks-22a.pdf) · Volltext: [bund-ks-22a.md](../../../sources/bund/dauernd/bund-ks-22a.md)
 - **Abgerufen:** 2026-11-09 · sha256 `3aac9fe5dc87a391…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2020-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-22a`).
+
+- [wiki/themen/schuldzinsen-schulden.md](../../themen/schuldzinsen-schulden.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

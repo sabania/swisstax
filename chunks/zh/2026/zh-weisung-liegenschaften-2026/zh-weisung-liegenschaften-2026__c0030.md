@@ -9,7 +9,7 @@ ziffer: "72–74"
 seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › IV.–V. Geschäftsräume, andere Liegenschaften · S. 14
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › IV.–V. Geschäftsräume, andere Liegenschaften · S. 14
 
 72   Für Räume, die übungsgemäss nach einem Einheitssatz pro Qua-
     dratmeter Nutzfläche (ohne Treppenhäuser und WC) vermietet wer-

@@ -9,7 +9,7 @@ artikel: "§ 30"
 seiten: "6"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Die Anlage der Register und Akten › § 30 StV ZH – 2. Taxationsregister · S. 6
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Die Anlage der Register und Akten › § 30 StV ZH – 2. Taxationsregister · S. 6
 
 ### § 30 StV ZH – 2. Taxationsregister
 

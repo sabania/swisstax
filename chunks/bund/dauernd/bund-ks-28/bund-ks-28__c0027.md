@@ -2,14 +2,14 @@
 id: bund-ks-28__c0027
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang I LGBV Art. 7–8 Nachträglicher Anschluss; Besteuerung fiktiver Einkauf"
 ziffer: "Art. 7–8"
 seiten: "9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang I LGBV · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang I LGBV · S. 9
 
 Art. 7   Nachträglicher Anschluss an eine Vorsorgeeinrichtung
 Der geltend gemachte fiktive Einkauf wird steuerrechtlich an einen späteren Einkauf

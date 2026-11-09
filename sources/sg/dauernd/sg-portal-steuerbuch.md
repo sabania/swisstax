@@ -12,6 +12,7 @@ raw: raw/sg/dauernd/sg-portal-steuerbuch.html
 sha256: 2e69f1859156a1558d6b3024b3023babab083364f82cf592624e0dc3b9368bb8
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # St. Galler Steuerbuch (Übersicht)
 

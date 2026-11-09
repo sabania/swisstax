@@ -8,7 +8,7 @@ titel: "Art. 3 V DBG AR – Die Gemeindebehörden"
 artikel: "Art. 3"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 3 Die Gemeindebehörden
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG AR · I. Behörden › Art. 3 Die Gemeindebehörden
 
 ### Art. 3 V DBG AR – Die Gemeindebehörden
 

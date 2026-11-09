@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2012-07-27'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/oOz28af293pZ/dbst-ks-2012-1-036-d-de.pdf
@@ -14,6 +15,8 @@ sha256: 9f1d4a9d70a7049cbb9d91050fd1e1d538d8f6f0accddde8574c1008e6773841
 abgerufen: '2026-11-09'
 seiten: 8
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2012-07-27'
 ---
 # ESTV-Kreisschreiben Nr. 36: Gewerbsmässiger Wertschriftenhandel
 

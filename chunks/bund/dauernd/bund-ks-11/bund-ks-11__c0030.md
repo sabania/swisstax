@@ -9,7 +9,7 @@ ziffer: "5.3"
 seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 5. Abzugsfähige Kosten › 5.3 Selbstbehalt · S. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 5. Abzugsfähige Kosten › 5.3 Selbstbehalt · S. 11
 
 5.3   Selbstbehalt
 

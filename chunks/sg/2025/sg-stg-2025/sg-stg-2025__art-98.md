@@ -8,7 +8,7 @@ titel: "Art. 98 StG SG – c) Übrige juristische Personen und kollektive Kapita
 artikel: "Art. 98"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › III. Kapitalsteuer › Art. 98 c) Übrige juristische Personen und kollektive Kapitalanlagen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › III. Kapitalsteuer › Art. 98 c) Übrige juristische Personen und kollektive Kapitalanlagen
 
 ### Art. 98 StG SG – c) Übrige juristische Personen und kollektive Kapitalanlagen
 

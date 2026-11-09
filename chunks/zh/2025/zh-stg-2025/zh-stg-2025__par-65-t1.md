@@ -9,7 +9,7 @@ artikel: "§ 65"
 seiten: "34-35"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 65 StG ZH – f. Geschäftsmdeätsesri gA buefgwraünnd- <sup>93</sup> · S. 34–35
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 65 StG ZH – f. Geschäftsmdeätsesri gA buefgwraünnd- <sup>93</sup> · S. 34–35
 
 ### § 65 StG ZH – f. Geschäftsmdeätsesri gA buefgwraünnd- <sup>93</sup>
 

@@ -9,7 +9,7 @@ artikel: "§ 80"
 seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Vierter Teil: Schlussbestimmungen › Zweiter Abschnitt: Übergangsbestimmungen › § 80 StV ZH – 2. Inkrafttreten · S. 15
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Vierter Teil: Schlussbestimmungen › Zweiter Abschnitt: Übergangsbestimmungen › § 80 StV ZH – 2. Inkrafttreten · S. 15
 
 ### § 80 StV ZH – 2. Inkrafttreten
 

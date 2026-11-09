@@ -8,7 +8,7 @@ titel: "Art. 15 VGS SG – Gebühren"
 artikel: "Art. 15"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · IV. Kosten › Art. 15 Gebühren
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · IV. Kosten › Art. 15 Gebühren
 
 ### Art. 15 VGS SG – Gebühren
 

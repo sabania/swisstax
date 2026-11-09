@@ -9,7 +9,7 @@ artikel: "§ 1"
 seiten: "94-95"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 1 StG ZH – Bisherige Mitglieder der Steuerrekurskommissionen · S. 94–95
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 1 StG ZH – Bisherige Mitglieder der Steuerrekurskommissionen · S. 94–95
 
 ### § 1 StG ZH – Bisherige Mitglieder der Steuerrekurskommissionen
 

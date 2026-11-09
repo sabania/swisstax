@@ -7,7 +7,7 @@ typ: mitteilung
 titel: "Beilagen"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: mitteilung}}
 ---
-> Bund · Steuerjahr 2026 · ESTV-MM 11.09.2025 · EFD passt Steuertarife an Teuerung an › Beilagen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Mitteilung · Steuerjahr 2026 · ESTV-MM 11.09.2025 · EFD passt Steuertarife an Teuerung an › Beilagen
 
 ## Beilagen
 

@@ -8,7 +8,7 @@ titel: "Art. 12 StG AR – 2. Erbengemeinschaften"
 artikel: "Art. 12"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 12 2. Erbengemeinschaften
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › A. Die Steuerpflicht › Art. 12 2. Erbengemeinschaften
 
 ### Art. 12 StG AR – 2. Erbengemeinschaften
 

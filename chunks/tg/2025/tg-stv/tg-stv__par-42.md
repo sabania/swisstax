@@ -8,7 +8,7 @@ titel: "§ 42 StV TG – Quellensteuer"
 artikel: "§ 42"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.1. Fälligkeit › § 42 Quellensteuer
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.1. Fälligkeit › § 42 Quellensteuer
 
 ### § 42 StV TG – Quellensteuer
 

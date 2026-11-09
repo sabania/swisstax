@@ -2,13 +2,13 @@
 id: bund-lkv__art-1
 quelle: bund-lkv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 1 LKV – Dem Energiesparen und dem Umweltschutz dienende Investitionen"
 artikel: "Art. 1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · LKV · Art. 1 Dem Energiesparen und dem Umweltschutz dienende Investitionen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · LKV · Art. 1 Dem Energiesparen und dem Umweltschutz dienende Investitionen
 
 ### Art. 1 LKV – Dem Energiesparen und dem Umweltschutz dienende Investitionen
 

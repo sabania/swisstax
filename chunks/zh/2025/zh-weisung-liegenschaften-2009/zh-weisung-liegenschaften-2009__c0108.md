@@ -9,7 +9,7 @@ ziffer: "14, 15, 49"
 seiten: "43"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49) · S. 43
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten (Ziff. 14, 15, 49) · S. 43
 
 Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
 Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten

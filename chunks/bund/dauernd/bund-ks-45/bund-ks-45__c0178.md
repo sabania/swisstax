@@ -2,14 +2,14 @@
 id: bund-ks-45__c0178
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8.3 Beispiel – Wechsel Bern (Monatsmodell) nach Tessin (Jahresmodell) (Teil 1/2)"
 ziffer: "8.3"
 seiten: "56"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 8 Kantonswechsel › 8.3 Monatsmodell zu Jahresmodell · S. 56
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 8 Kantonswechsel › 8.3 Monatsmodell zu Jahresmodell · S. 56
 
     Beispiel:
     - Ein lediger Steuerpflichtiger arbeitet vom 1. Januar bis 31. Dezember 2021 mit einem Pensum von 100 %

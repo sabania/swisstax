@@ -2,13 +2,13 @@
 id: bund-vstg__art-3
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 3 VStG"
 artikel: "Art. 3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · Einleitung › C. Verhältnis zum kantonalen Recht › Art. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · Einleitung › C. Verhältnis zum kantonalen Recht › Art. 3
 
 ### Art. 3 VStG
 

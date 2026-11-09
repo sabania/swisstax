@@ -8,7 +8,7 @@ titel: "Art. 216 StG SG – Betreibung"
 artikel: "Art. 216"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 216 Betreibung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 216 Betreibung
 
 ### Art. 216 StG SG – Betreibung
 

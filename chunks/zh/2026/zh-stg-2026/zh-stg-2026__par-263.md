@@ -9,7 +9,7 @@ artikel: "§ 263"
 seiten: "89"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › B. Steuervergehen › § 263 StG ZH – III. Verfahren · S. 89
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › B. Steuervergehen › § 263 StG ZH – III. Verfahren · S. 89
 
 ### § 263 StG ZH – III. Verfahren
 

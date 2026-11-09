@@ -8,7 +8,7 @@ titel: "Art. 89a DBG – Nachträgliche ordentliche Veranlagung auf Antrag"
 artikel: "Art. 89a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 89a Nachträgliche ordentliche Veranlagung auf Antrag
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 89a Nachträgliche ordentliche Veranlagung auf Antrag
 
 ### Art. 89a DBG – Nachträgliche ordentliche Veranlagung auf Antrag
 

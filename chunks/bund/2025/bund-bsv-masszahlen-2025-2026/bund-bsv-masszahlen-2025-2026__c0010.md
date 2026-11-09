@@ -9,7 +9,7 @@ ziffer: "6–9"
 seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 6–9 · S. 2–3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 6–9 · S. 2–3
 
   9. Maximalbeträge gemäss der Verordnung über die steuerliche Abzugsberechtigung für   7 Abs. 1 BVV3
     Beiträge an anerkannte Vorsorgeformen: Gebundene Vorsorgeversicherungen bei

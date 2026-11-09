@@ -8,7 +8,7 @@ titel: "Art. 10 GSV AR – Realwert"
 artikel: "Art. 10"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 10 Realwert
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 10 Realwert
 
 ### Art. 10 GSV AR – Realwert
 

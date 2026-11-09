@@ -7,7 +7,7 @@ typ: info
 titel: "Steuerbezug"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Steuerbezug
 
     Bei der Gegenwartsbemessung fallen Bemessungs- und Steuerperiode zusammen, während die Veranlagung frühestens im darauffolgenden Jahr stattfindet. Im laufenden Steuerjahr werden demnach die Steuern zunächst einmal provisorisch bezogen. Die provisorische Steuerrechnung wird nach Massgabe des mutmasslich geschuldeten Steuerbetrages ausgestellt. Dabei können insbesondere die letzte Veranlagung oder die letzte Steuererklärung berücksichtigt werden.
 

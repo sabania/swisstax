@@ -9,7 +9,7 @@ artikel: "§ 252"
 seiten: "87"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 252 StG ZH – 2. Gerichtliche Beurteilung durch das Verwaltungsgericht a. Begehren um gerichtliche Beurteilung · S. 87
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 252 StG ZH – 2. Gerichtliche Beurteilung durch das Verwaltungsgericht a. Begehren um gerichtliche Beurteilung · S. 87
 
 ### § 252 StG ZH – 2. Gerichtliche Beurteilung durch das Verwaltungsgericht a. Begehren um gerichtliche Beurteilung
 

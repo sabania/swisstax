@@ -9,7 +9,7 @@ artikel: "§ 109"
 seiten: "50"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 109 StG ZH – 2. Bei Quellensteuern · S. 50
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 109 StG ZH – 2. Bei Quellensteuern · S. 50
 
 ### § 109 StG ZH – 2. Bei Quellensteuern
 

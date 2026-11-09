@@ -7,7 +7,7 @@ typ: info
 titel: "Liegenschaften"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
 
     - [Merkblatt Liegenschaftenunterhalt](https://steuerverwaltung.tg.ch/hilfsmittel/formulare.html/10797/product/395)
 

@@ -8,7 +8,7 @@ titel: "Art. 121 StG AR – VI. Gemeindeanteile (Teil 1/2)"
 artikel: "Art. 121"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen › Art. 121 VI. Gemeindeanteile
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen › Art. 121 VI. Gemeindeanteile
 
 ### Art. 121 StG AR – VI. Gemeindeanteile
 

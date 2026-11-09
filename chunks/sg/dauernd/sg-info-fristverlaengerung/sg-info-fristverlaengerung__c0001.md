@@ -7,7 +7,7 @@ typ: info
 titel: "Fristverlängerung Privatpersonen"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG Fristverlängerung · Fristverlängerung Privatpersonen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · SG Fristverlängerung · Fristverlängerung Privatpersonen
 
 # Fristverlängerung Privatpersonen
 

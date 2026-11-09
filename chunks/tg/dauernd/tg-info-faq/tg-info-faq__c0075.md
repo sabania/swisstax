@@ -7,7 +7,7 @@ typ: info
 titel: "Veranlagungsverfahren"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
     Die erstmalige Selbstanzeige einer Steuerhinterziehung führt zu keiner Busse, wenn die Steuerverwaltung vor der Selbstanzeige noch keine Kenntnis von der Hinterziehung hatte und Sie die Steuerverwaltung bei der Festsetzung der Nachsteuer vorbehaltlos unterstützen.
 

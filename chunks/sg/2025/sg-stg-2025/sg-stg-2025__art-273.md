@@ -8,7 +8,7 @@ titel: "Art. 273 StG SG – Veruntreuung von Quellensteuern"
 artikel: "Art. 273"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · VIERTER TEIL: STEUERSTRAFRECHT › Zweiter Abschnitt: Steuervergehen › Art. 273 Veruntreuung von Quellensteuern
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · VIERTER TEIL: STEUERSTRAFRECHT › Zweiter Abschnitt: Steuervergehen › Art. 273 Veruntreuung von Quellensteuern
 
 ### Art. 273 StG SG – Veruntreuung von Quellensteuern
 

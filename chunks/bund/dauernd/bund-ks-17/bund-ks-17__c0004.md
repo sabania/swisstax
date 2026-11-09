@@ -2,14 +2,14 @@
 id: bund-ks-17__c0004
 quelle: bund-ks-17
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. II.1 Gesuchsfrist, Mindestbetrag 20'000 Franken, alle fünf Jahre"
 ziffer: "II.1"
 seiten: "3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 1 Zweck und Inhalt · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 17 · II 2. Säule › 1 Zweck und Inhalt · S. 3
 
 Das entsprechende Gesuch für den Vorbezug kann bis drei Jahre vor Entstehung des An-
 spruchs auf Altersleistungen (vgl. Art. 13 BVG) bei der Vorsorgeeinrichtung geltend gemacht

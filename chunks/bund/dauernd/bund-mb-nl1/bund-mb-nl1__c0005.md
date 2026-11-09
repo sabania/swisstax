@@ -2,14 +2,14 @@
 id: bund-mb-nl1__c0005
 quelle: bund-mb-nl1
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 4 Privatanteil an den Löhnen des Geschäftspersonals"
 ziffer: "4"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB NL1/2007 · Merkblatt NL1 › Ziff. 4 · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB NL1/2007 · Merkblatt NL1 › Ziff. 4 · S. 1
 
 4.	 Privatanteil an den Löhnen des Geschäftspersonals
 Arbeiten Betriebsangestellte zum Teil für die privaten Bedürfnisse des

@@ -8,7 +8,7 @@ titel: "Art. 69a StG AR – Patente und vergleichbare Rechte"
 artikel: "Art. 69a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 69a Patente und vergleichbare Rechte
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 69a Patente und vergleichbare Rechte
 
 ### Art. 69a StG AR – Patente und vergleichbare Rechte
 

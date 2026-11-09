@@ -9,7 +9,7 @@ artikel: "§ 182"
 seiten: "71"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuersicherung › § 182 StG ZH – II. Arrest · S. 71
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Steuersicherung › § 182 StG ZH – II. Arrest · S. 71
 
 ### § 182 StG ZH – II. Arrest
 

@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0004
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "A.I.2–4 Heirat, Trennung, Zustellung Formulare und Frist 31. März 2026"
 ziffer: "A.I.2-4"
 seiten: "2"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › I. Steuererklärung 2025 › 2.–4. · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · A. Natürliche Personen › I. Steuererklärung 2025 › 2.–4. · S. 2
 
 Zürcher Steuerbuch   Nr. 133.1
 

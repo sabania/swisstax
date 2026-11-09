@@ -9,7 +9,7 @@ ziffer: "13.2 / 55–58"
 seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13.2 Pauschalspesen · S. 17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13.2 Pauschalspesen · S. 17
 
 In diesem Feld ist ein Pauschalbetrag anzugeben, der einem Arbeitnehmer ausbezahlt   57
 wurde, welcher sein Privatfahrzeug oft geschäftlich verwenden muss (in der Regel mehrere

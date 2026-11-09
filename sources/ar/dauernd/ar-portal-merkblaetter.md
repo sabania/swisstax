@@ -12,6 +12,7 @@ raw: raw/ar/dauernd/ar-portal-merkblaetter.html
 sha256: bad9b97cbcfda7a5e6dccc8263b79ad98468628d89f1ee121b1e7c578af8113c
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Übersicht Gesetze, Weisungen, Merkblätter
 

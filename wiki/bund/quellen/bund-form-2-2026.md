@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Formular · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/MuA2sLicRePu/02-2026-de.pdf> · lokal: [bund-form-2-2026.pdf](../../../raw/bund/2026/bund-form-2-2026.pdf) · Volltext: [bund-form-2-2026.md](../../../sources/bund/2026/bund-form-2-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `37b0eabf3920bd6c…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31 · ersetzt `bund-form-2-2025`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-form-2-2026`).
+
+- [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

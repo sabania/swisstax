@@ -9,7 +9,7 @@ ziffer: "49–50"
 seiten: "9-10"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › VI. Industrielle oder gewerbliche Liegenschaften › 2. Landwert · S. 9–10
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › VI. Industrielle oder gewerbliche Liegenschaften › 2. Landwert · S. 9–10
 
 2. Landwert
 

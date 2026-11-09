@@ -8,7 +8,7 @@ titel: "Art. 153a DBG – Vereinfachte Nachbesteuerung von Erben"
 artikel: "Art. 153a"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 3. Kapitel: Nachsteuern › Art. 153a Vereinfachte Nachbesteuerung von Erben
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 3. Kapitel: Nachsteuern › Art. 153a Vereinfachte Nachbesteuerung von Erben
 
 ### Art. 153a DBG – Vereinfachte Nachbesteuerung von Erben
 

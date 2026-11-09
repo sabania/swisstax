@@ -9,7 +9,7 @@ ziffer: "35"
 seiten: "7-8"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 4. Besondere Verhältnisse · S. 7–8
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 4. Besondere Verhältnisse · S. 7–8
 
 4. Besondere Verhältnisse
 

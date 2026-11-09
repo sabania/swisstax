@@ -8,7 +8,7 @@ titel: "Art. 83a StG AR – 6a. Gewinne von juristischen Personen mit ideellen Z
 artikel: "Art. 83a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 83a 6a. Gewinne von juristischen Personen mit ideellen Zwecken
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 83a 6a. Gewinne von juristischen Personen mit ideellen Zwecken
 
 ### Art. 83a StG AR – 6a. Gewinne von juristischen Personen mit ideellen Zwecken
 

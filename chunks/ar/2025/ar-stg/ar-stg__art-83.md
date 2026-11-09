@@ -8,7 +8,7 @@ titel: "Art. 83 StG AR – 6. Vereine, Stiftungen und übrige juristische Person
 artikel: "Art. 83"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 83 6. Vereine, Stiftungen und übrige juristische Personen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 83 6. Vereine, Stiftungen und übrige juristische Personen
 
 ### Art. 83 StG AR – 6. Vereine, Stiftungen und übrige juristische Personen
 

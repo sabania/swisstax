@@ -2,14 +2,14 @@
 id: bund-ks-28__c0047
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Ziff. 1.2 Einigung – Einkaufsbeiträge und fiktiver Einkauf (Teil 2/2)"
 ziffer: "1.2"
 seiten: "17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 17
 
 4
     Votum BR Merz: „ […] Diese Weiterentwicklung ist eigentlich eine weitere Präzisierung. Sie besteht darin, dass die Fälle zu

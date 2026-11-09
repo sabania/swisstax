@@ -8,7 +8,7 @@ titel: "Art. 119 DBG"
 artikel: "Art. 119"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 4. Kapitel: Fristen › Art. 119
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 4. Kapitel: Fristen › Art. 119
 
 ### Art. 119 DBG
 

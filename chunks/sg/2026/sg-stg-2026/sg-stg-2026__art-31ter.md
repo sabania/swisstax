@@ -8,7 +8,7 @@ titel: "Art. 31 ter StG SG – 1ter. Einkommen aus Patenten und vergleichbaren R
 artikel: "Art. 31 ter"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 31 ter 1ter. Einkommen aus Patenten und vergleichbaren Rechten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 31 ter 1ter. Einkommen aus Patenten und vergleichbaren Rechten
 
 ### Art. 31 ter StG SG – 1ter. Einkommen aus Patenten und vergleichbaren Rechten
 

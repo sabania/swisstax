@@ -11,6 +11,16 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Formular · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/jahrunabhaengig/est-formulare/355_schulden_zh_2020_def.pdf> · lokal: [zh-form-355.pdf](../../../raw/zh/2025/zh-form-355.pdf) · Volltext: [zh-form-355.md](../../../sources/zh/2025/zh-form-355.md)
 - **Abgerufen:** 2026-11-09 · sha256 `8de09c14f6b3a91b…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 3 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-355`).
+
+- `data/zuordnung/zh/2025.yaml#64:schulden.privat@34` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#95:schulden.privat@Form. 355 Spalte Schuld` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#96:abzug.schuldzinsen@Form. 355 Spalte Schuldzinsen` (agent-geprueft)
+- [wiki/themen/schuldzinsen-schulden.md](../../themen/schuldzinsen-schulden.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

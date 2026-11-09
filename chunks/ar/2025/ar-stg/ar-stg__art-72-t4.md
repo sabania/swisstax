@@ -8,7 +8,7 @@ titel: "Art. 72 StG AR – 4. Umstrukturierungen (Teil 4/4)"
 artikel: "Art. 72"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 72 4. Umstrukturierungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 72 4. Umstrukturierungen
 
 ### Art. 72 StG AR – 4. Umstrukturierungen (Fortsetzung)
 

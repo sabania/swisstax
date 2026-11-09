@@ -9,7 +9,7 @@ artikel: "§ 110"
 seiten: "52"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 110 StG ZH – V. Aufsicht[^42] 1. Aufsichtsbehörde · S. 52
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 110 StG ZH – V. Aufsicht[^42] 1. Aufsichtsbehörde · S. 52
 
 ### § 110 StG ZH – V. Aufsicht[^42] 1. Aufsichtsbehörde
 

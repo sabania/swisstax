@@ -9,7 +9,7 @@ artikel: "§ 259"
 seiten: "88"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 259 StG ZH – 4. Anfechtung der Kostenauflage · S. 88
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 259 StG ZH – 4. Anfechtung der Kostenauflage · S. 88
 
 ### § 259 StG ZH – 4. Anfechtung der Kostenauflage
 

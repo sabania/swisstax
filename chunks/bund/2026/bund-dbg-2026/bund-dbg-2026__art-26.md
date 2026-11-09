@@ -8,7 +8,7 @@ titel: "Art. 26 DBG"
 artikel: "Art. 26"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 2. Abschnitt: Unselbständige Erwerbstätigkeit › Art. 26
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 2. Abschnitt: Unselbständige Erwerbstätigkeit › Art. 26
 
 ### Art. 26 DBG
 

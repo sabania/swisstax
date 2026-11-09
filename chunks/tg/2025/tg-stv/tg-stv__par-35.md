@@ -8,7 +8,7 @@ titel: "§ 35 StV TG – Öffnung der Steuerakten"
 artikel: "§ 35"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 35 Öffnung der Steuerakten
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 35 Öffnung der Steuerakten
 
 ### § 35 StV TG – Öffnung der Steuerakten
 

@@ -8,7 +8,7 @@ titel: "Art. 249 StG SG – b) Versuchte Steuerhinterziehung"
 artikel: "Art. 249"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 249 b) Versuchte Steuerhinterziehung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 249 b) Versuchte Steuerhinterziehung
 
 ### Art. 249 StG SG – b) Versuchte Steuerhinterziehung
 

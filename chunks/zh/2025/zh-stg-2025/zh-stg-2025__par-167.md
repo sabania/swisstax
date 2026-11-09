@@ -9,7 +9,7 @@ artikel: "§ 167"
 seiten: "68"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 167 StG ZH – V. Auskunfts- und Bescheinigungspflicht · S. 68
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 167 StG ZH – V. Auskunfts- und Bescheinigungspflicht · S. 68
 
 ### § 167 StG ZH – V. Auskunfts- und Bescheinigungspflicht
 

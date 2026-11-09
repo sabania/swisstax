@@ -8,7 +8,7 @@ titel: "Art. 117 bis StG SG – Empfänger von Mitarbeiterbeteiligungen"
 artikel: "Art. 117 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › II. Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz * › Art. 117 bis Empfänger von Mitarbeiterbeteiligungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › II. Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz * › Art. 117 bis Empfänger von Mitarbeiterbeteiligungen
 
 ### Art. 117 bis StG SG – Empfänger von Mitarbeiterbeteiligungen
 

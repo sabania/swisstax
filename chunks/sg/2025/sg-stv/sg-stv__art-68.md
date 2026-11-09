@@ -8,7 +8,7 @@ titel: "Art. 68 StV SG – Minderwertentschädigung (Art. 138 StG)"
 artikel: "Art. 68"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 68 Minderwertentschädigung (Art. 138 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 68 Minderwertentschädigung (Art. 138 StG)
 
 ### Art. 68 StV SG – Minderwertentschädigung (Art. 138 StG)
 

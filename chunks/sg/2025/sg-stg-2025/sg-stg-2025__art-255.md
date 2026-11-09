@@ -8,7 +8,7 @@ titel: "Art. 255 StG SG – Verfahren vor den Steuerbehörden a) Zuständigkeit"
 artikel: "Art. 255"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 255 Verfahren vor den Steuerbehörden a) Zuständigkeit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 255 Verfahren vor den Steuerbehörden a) Zuständigkeit
 
 ### Art. 255 StG SG – Verfahren vor den Steuerbehörden a) Zuständigkeit
 

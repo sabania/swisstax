@@ -12,6 +12,7 @@ raw: raw/sg/dauernd/sg-portal-steuern.html
 sha256: b5576976a88b8c1c5e35a718ce561a9c5d093d057623c80b005a7e3506ab4f5c
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Übersichtsseite Steuern
 

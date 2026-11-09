@@ -2,14 +2,14 @@
 id: bund-ks-28__c0006
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.3 Übertragung Personenunternehmung auf juristische Person (Teil 1/2)"
 ziffer: "2.3"
 seiten: "3-4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Kreisschreiben · S. 3–4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Kreisschreiben · S. 3–4
 
 2.3.   Übertragung einer Personenunternehmung auf eine juristische Person
 Die gleichzeitige oder nachträgliche Aufnahme einer unselbständigen Erwerbstätigkeit steht

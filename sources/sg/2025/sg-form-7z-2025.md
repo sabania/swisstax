@@ -12,6 +12,9 @@ sha256: a6510b13efe43d4ff788ed223d8f80d95bd1dfa978ae0909ce359215374ca0c7
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Formular 7Z: Zusammenzug Liegenschaften 2025
 

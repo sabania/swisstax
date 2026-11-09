@@ -9,7 +9,7 @@ ziffer: "1"
 seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 1. Ausgangslage · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 1. Ausgangslage · S. 3
 
 1.   Ausgangslage
 

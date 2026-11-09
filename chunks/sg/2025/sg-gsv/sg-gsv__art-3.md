@@ -8,7 +8,7 @@ titel: "Art. 3 VGS SG – Gebäudeversicherung"
 artikel: "Art. 3"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · II. Organisation › Art. 3 Gebäudeversicherung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · II. Organisation › Art. 3 Gebäudeversicherung
 
 ### Art. 3 VGS SG – Gebäudeversicherung
 

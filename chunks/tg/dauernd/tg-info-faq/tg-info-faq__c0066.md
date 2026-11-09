@@ -7,7 +7,7 @@ typ: info
 titel: "Veranlagungsverfahren"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
     Unabhängig davon, ob ein Revisionsgrund vorliegt, ist eine Revision in jedem Fall ausgeschlossen, wenn die steuerpflichtige Person als Revisionsgrund vorbringt, was bei der ihr zumutbaren Sorgfalt bereits im ordentlichen Verfahren hätte geltend gemacht werden können. So qualifiziert beispielsweise die Falschdeklaration der steuerpflichtigen Person als Revisionsausschlussgrund. Ebenfalls ausgeschlossen ist eine Revision, wenn ein Umstand angeführt wird, der im Anschluss an einen rechtsmittelfähigen Entscheid mittels Rechtsmittel hätte vorgebracht werden können.
 

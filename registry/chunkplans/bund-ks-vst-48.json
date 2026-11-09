@@ -6,12 +6,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Titel und Inhaltsverzeichnis"
   },
   {
-   "start": 63,
+   "start": 46,
    "titel": "Ziff. 1–2 Allgemeines und gesetzliche Bestimmungen (Art. 23, 70d VStG)",
    "pfad": [
     "1 Allgemeines / 2 Gesetzliche Bestimmungen"
@@ -31,7 +31,7 @@
    "zusammenfassung": "Seit 1.1.2019 tritt die Verwirkung nach Art. 23 Abs. 2 VStG nicht ein, wenn Einkünfte fahrlässig nicht angegeben wurden und in einem noch nicht rechtskräftigen Verfahren nachdeklariert oder aufgerechnet werden."
   },
   {
-   "start": 107,
+   "start": 90,
    "titel": "Ziff. 3.1 Deklarationspflicht – Grundsatz und Ausnahme (Fahrlässigkeit, Verfahren)",
    "pfad": [
     "3 Voraussetzungen der Rückerstattung",
@@ -53,7 +53,7 @@
    "zusammenfassung": "Deklarationspflicht gilt auch als erfüllt bei fahrlässiger Unterlassung und Nachdeklaration in einem nicht rechtskräftig abgeschlossenen Veranlagungs-, Revisions- oder Nachsteuerverfahren; Rückerstattung bleibt auch bei straflos Selbstanzeige (Art. 175 Abs. 3 DBG)."
   },
   {
-   "start": 152,
+   "start": 135,
    "titel": "Ziff. 3.2–3.3 Überprüfungs- und Auskunftspflichten; Untergang nach Art. 32 VStG (3 Jahre)",
    "pfad": [
     "3 Voraussetzungen der Rückerstattung",
@@ -74,7 +74,7 @@
    "zusammenfassung": "Wird innerhalb von drei Kalenderjahren nach Fälligkeit der steuerbaren Leistung kein Rückerstattungsantrag eingereicht, erlischt der Anspruch (Art. 32 Abs. 1 VStG); neue Frist von 60 Tagen bei Beanstandung der ESTV."
   },
   {
-   "start": 179,
+   "start": 162,
    "titel": "Ziff. 4–5 Veranlagung nach pflichtgemässem Ermessen und Meldeverfahren",
    "pfad": [
     "4 Veranlagung nach pflichtgemässem Ermessen / 5 Meldeverfahren"
@@ -93,7 +93,7 @@
    "zusammenfassung": "Art. 23 Abs. 2 VStG kann auch bei Veranlagung nach pflichtgemässem Ermessen gelten; das Meldeverfahren entbindet nicht von der Deklarationspflicht (Art. 124-126 DBG)."
   },
   {
-   "start": 207,
+   "start": 190,
    "titel": "Ziff. 6–7 Übergangsregelung (ab 1.1.2014) und Inkrafttreten",
    "pfad": [
     "6 Übergangsregelung / 7 Inkrafttreten"
@@ -111,5 +111,7 @@
    ],
    "zusammenfassung": "Art. 23 Abs. 2 VStG gilt für Einkünfte mit Fälligkeit nach dem 31. Dezember 2013; für frühere Fälligkeiten gilt altes Recht (KS Nr. 40); Inkrafttreten rückwirkend auf 1. Januar 2019."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

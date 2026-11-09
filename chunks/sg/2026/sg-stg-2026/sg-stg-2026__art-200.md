@@ -8,7 +8,7 @@ titel: "Art. 200 StG SG – b) Besondere Fälle"
 artikel: "Art. 200"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 200 b) Besondere Fälle
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 200 b) Besondere Fälle
 
 ### Art. 200 StG SG – b) Besondere Fälle
 

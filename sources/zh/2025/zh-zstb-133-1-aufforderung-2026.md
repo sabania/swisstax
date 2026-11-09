@@ -5,6 +5,7 @@ kurz: ZStB 133.1 (Aufforderung 2026)
 jurisdiktion: zh
 jahre:
 - 2025
+- 2026
 typ: praxis
 quelle_url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-133-1/ZStB-Nr-133-1_Aufforderung-2026.pdf
 raw: raw/zh/2025/zh-zstb-133-1-aufforderung-2026.pdf
@@ -12,6 +13,10 @@ sha256: eeefffcc7585722a57cd8f350378daec9c01792ef1046436e2708cad331512e4
 abgerufen: '2026-11-09'
 seiten: 7
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: verfahren
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
+ersetzt_durch: zh-zstb-133-1
 ---
 # ZStB 133.1: Aufforderung zur Einreichung 2026 (Steuererklärung 2025)
 

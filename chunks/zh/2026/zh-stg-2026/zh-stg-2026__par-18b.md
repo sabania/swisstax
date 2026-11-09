@@ -9,7 +9,7 @@ artikel: "§ 18b"
 seiten: "8-9"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 18b StG ZH – c. Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens · S. 8–9
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 18b StG ZH – c. Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens · S. 8–9
 
 ### § 18b StG ZH – c. Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens
 

@@ -9,7 +9,7 @@ ziffer: "2 / 19"
 seiten: "9-10"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2 Gehaltsnebenleistungen · S. 9–10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2 Gehaltsnebenleistungen · S. 9–10
 
 Gehaltsnebenleistungen   Ziffer 2
 

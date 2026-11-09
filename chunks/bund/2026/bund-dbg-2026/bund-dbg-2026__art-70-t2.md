@@ -8,7 +8,7 @@ titel: "Art. 70 DBG – Nettoertrag aus Beteiligungen (Teil 2/3)"
 artikel: "Art. 70"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 2. Kapitel: Steuerberechnung › 2. Abschnitt: Gesellschaften mit Beteiligungen › Art. 70 Nettoertrag aus Beteiligungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 2. Kapitel: Steuerberechnung › 2. Abschnitt: Gesellschaften mit Beteiligungen › Art. 70 Nettoertrag aus Beteiligungen
 
 ### Art. 70 DBG – Nettoertrag aus Beteiligungen (Fortsetzung)
 

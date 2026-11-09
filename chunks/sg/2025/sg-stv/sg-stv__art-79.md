@@ -8,7 +8,7 @@ titel: "Art. 79 StV SG – Zustellungsempfänger (Art. 167 Abs. 2 StG)"
 artikel: "Art. 79"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 79 Zustellungsempfänger (Art. 167 Abs. 2 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 79 Zustellungsempfänger (Art. 167 Abs. 2 StG)
 
 ### Art. 79 StV SG – Zustellungsempfänger (Art. 167 Abs. 2 StG)
 

@@ -8,7 +8,7 @@ titel: "Art. 123 DBG"
 artikel: "Art. 123"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 1. Abschnitt: Aufgaben der Veranlagungsbehörden › Art. 123
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 1. Abschnitt: Aufgaben der Veranlagungsbehörden › Art. 123
 
 ### Art. 123 DBG
 

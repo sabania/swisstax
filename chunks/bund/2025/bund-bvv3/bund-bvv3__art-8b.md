@@ -2,13 +2,13 @@
 id: bund-bvv3__art-8b
 quelle: bund-bvv3
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 8b BVV 3 – Mitteilung der Vorsorgeangaben"
 artikel: "Art. 8b"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · BVV 3 · 2a. Abschnitt: Aufbewahrung der Unterlagen und Mitteilung von Vorsorgeangaben › Art. 8b Mitteilung der Vorsorgeangaben
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · BVV 3 · 2a. Abschnitt: Aufbewahrung der Unterlagen und Mitteilung von Vorsorgeangaben › Art. 8b Mitteilung der Vorsorgeangaben
 
 ### Art. 8b BVV 3 – Mitteilung der Vorsorgeangaben
 

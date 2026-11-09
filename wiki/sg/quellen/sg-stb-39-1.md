@@ -11,6 +11,15 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_1.pdf.ocFile/039_1.pdf> · lokal: [sg-stb-39-1.pdf](../../../raw/sg/dauernd/sg-stb-39-1.pdf) · Volltext: [sg-stb-39-1.md](../../../sources/sg/dauernd/sg-stb-39-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `297e82fbb9da0fce…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2021-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-1`).
+
+- `data/werte/sg/2025.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- `data/werte/sg/2026.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 
 ## Inhalt (6 Chunks)
 

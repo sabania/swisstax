@@ -12,6 +12,9 @@ sha256: d682fcf7f50d82d8b1c8bf089a9494912250b94e0716732abc5c560025190ae8
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Formular 6: Versicherungsprämien, Krankheits- und Unfallkosten 2025
 

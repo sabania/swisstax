@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Verrechnungssteuerverordnung (VStV, SR 642.211) – Fassung gültig ab 01.01.2025"
 generiert: tools/build_index.py
 ---
 # VStV: Verrechnungssteuerverordnung (VStV, SR 642.211) – Fassung gültig ab 01.01.2025
 
-- **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-01-01
+- **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2025-01-01
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1966/1585_1641_1624/20250101/de> · lokal: [bund-vstv.xml](../../../raw/bund/2025/bund-vstv.xml) · Volltext: [bund-vstv.md](../../../sources/bund/2025/bund-vstv.md)
 - **Abgerufen:** 2026-11-09 · sha256 `6c61ccdcfea3674d…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis offen
 
 ## Inhalt (93 Chunks)
 

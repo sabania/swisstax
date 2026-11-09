@@ -8,7 +8,7 @@ titel: "§ 1a BKV TG – Fahrkosten bei der unentgeltlichen privaten Nutzung von
 artikel: "§ 1a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 1a Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 1a Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
 
 ### § 1a BKV TG – Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
 

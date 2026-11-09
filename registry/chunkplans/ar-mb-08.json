@@ -1,6 +1,90 @@
-{"id":"ar-mb-08","hinweise":["Layout sauber. Stand des Merkblatts: Oktober 2007 (Einkäufe ab 1.1.2006); Kapitalbezugssperre 3 Jahre."],"chunks":[
-{"start":17,"titel":"Ziff. 1 Allgemeines – Abzug Einkauf (Art. 35 lit. d StG), Sperrfrist 3 Jahre Kapitalbezug","pfad":["1. Allgemeines"],"ziffer":"1","stichworte":["Pensionskasse Einkauf","Einkauf Beitragsjahre","Art. 35 StG","Art. 79b BVG","WEF Vorbezug","Sperrfrist 3 Jahre"],"positionen":["abzug.vorsorge.saeule2_einkauf"],"zusammenfassung":"Einkäufe sind nach Art. 35 lit. d StG abziehbar; Leistungen aus Einkäufen ab 1.1.2006 dürfen innert drei Jahren nicht als Kapital bezogen werden; Einkauf erst nach Rückzahlung der WEF-Vorbezüge."},
-{"start":45,"titel":"Ziff. 2 Sinn und Zweck des Einkaufs – Vermögensumschichtung und Steuerersparnis","pfad":["2. Sinn und Zweck eines Einkaufs"],"ziffer":"2","stichworte":["Vermögensumschichtung","Steuerumgehung","Kapitalbezug nach Einkauf","Rente","Steuerersparnis"],"positionen":["abzug.vorsorge.saeule2_einkauf","einkommen.kapitalleistung_vorsorge"],"zusammenfassung":"Grosse Einzahlungen mit kurzfristigem Kapitalbezug verbessern den Vorsorgeschutz nicht und gelten als ungewöhnlich und sachwidrig."},
-{"start":63,"titel":"Ziff. 3 Rechtliche Beurteilung – Voraussetzungen blosser Vermögensumschichtung","pfad":["3. Rechtliche Beurteilung"],"ziffer":"3","stichworte":["Steuerumgehung","Einkauf 3 Jahre vor Kapitalbezug","Vermögensumschichtung","selbständige Erwerbstätigkeit"],"positionen":["abzug.vorsorge.saeule2_einkauf"],"zusammenfassung":"Vermögensumschichtung gilt als erfüllt, wenn Einkaufsleistungen innerhalb der letzten 3 Jahre vor Bezug einer Kapitalleistung erbracht werden."},
-{"start":90,"titel":"Ziff. 3 Rechtsfolgen – Abzug verweigert, Rentenbezug unproblematisch, Anwendung ab 1.1.2006","pfad":["3. Rechtliche Beurteilung","Rechtsfolgen"],"ziffer":"3","stichworte":["Abzug verweigert","Einkaufssumme Vermögen","Rentenbezug","Kapitalleistung Abzug","Einkauf ab 2006"],"positionen":["abzug.vorsorge.saeule2_einkauf","einkommen.kapitalleistung_vorsorge","vermoegen.uebrige"],"zusammenfassung":"Bei Steuerumgehung kein Einkommensabzug, Einkaufssumme bleibt Vermögen und wird bei der Kapitalleistung abgezogen; bei Rentenbezug keine Beanstandung; gilt für Einkäufe ab 1.1.2006."}
-]}
+{
+ "id": "ar-mb-08",
+ "hinweise": [
+  "Layout sauber. Stand des Merkblatts: Oktober 2007 (Einkäufe ab 1.1.2006); Kapitalbezugssperre 3 Jahre."
+ ],
+ "chunks": [
+  {
+   "start": 1,
+   "titel": "Ziff. 1 Allgemeines – Abzug Einkauf (Art. 35 lit. d StG), Sperrfrist 3 Jahre Kapitalbezug",
+   "pfad": [
+    "1. Allgemeines"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "Pensionskasse Einkauf",
+    "Einkauf Beitragsjahre",
+    "Art. 35 StG",
+    "Art. 79b BVG",
+    "WEF Vorbezug",
+    "Sperrfrist 3 Jahre"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Einkäufe sind nach Art. 35 lit. d StG abziehbar; Leistungen aus Einkäufen ab 1.1.2006 dürfen innert drei Jahren nicht als Kapital bezogen werden; Einkauf erst nach Rückzahlung der WEF-Vorbezüge."
+  },
+  {
+   "start": 29,
+   "titel": "Ziff. 2 Sinn und Zweck des Einkaufs – Vermögensumschichtung und Steuerersparnis",
+   "pfad": [
+    "2. Sinn und Zweck eines Einkaufs"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "Vermögensumschichtung",
+    "Steuerumgehung",
+    "Kapitalbezug nach Einkauf",
+    "Rente",
+    "Steuerersparnis"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Grosse Einzahlungen mit kurzfristigem Kapitalbezug verbessern den Vorsorgeschutz nicht und gelten als ungewöhnlich und sachwidrig."
+  },
+  {
+   "start": 47,
+   "titel": "Ziff. 3 Rechtliche Beurteilung – Voraussetzungen blosser Vermögensumschichtung",
+   "pfad": [
+    "3. Rechtliche Beurteilung"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "Steuerumgehung",
+    "Einkauf 3 Jahre vor Kapitalbezug",
+    "Vermögensumschichtung",
+    "selbständige Erwerbstätigkeit"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Vermögensumschichtung gilt als erfüllt, wenn Einkaufsleistungen innerhalb der letzten 3 Jahre vor Bezug einer Kapitalleistung erbracht werden."
+  },
+  {
+   "start": 74,
+   "titel": "Ziff. 3 Rechtsfolgen – Abzug verweigert, Rentenbezug unproblematisch, Anwendung ab 1.1.2006",
+   "pfad": [
+    "3. Rechtliche Beurteilung",
+    "Rechtsfolgen"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "Abzug verweigert",
+    "Einkaufssumme Vermögen",
+    "Rentenbezug",
+    "Kapitalleistung Abzug",
+    "Einkauf ab 2006"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf",
+    "einkommen.kapitalleistung_vorsorge",
+    "vermoegen.uebrige"
+   ],
+   "zusammenfassung": "Bei Steuerumgehung kein Einkommensabzug, Einkaufssumme bleibt Vermögen und wird bei der Kapitalleistung abgezogen; bei Rentenbezug keine Beanstandung; gilt für Einkäufe ab 1.1.2006."
+  }
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
+}

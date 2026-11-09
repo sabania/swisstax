@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: gesetz
 stand: '2025-01-01'
 quelle_url: https://www.fedlex.admin.ch/eli/cc/1991/1256_1256_1256/20250101/de
@@ -14,6 +15,9 @@ sha256: 52b054e2bfd1aba92629091f430addc25dc71271a1062d78e4feaee6f4ab1106
 abgerufen: '2026-11-09'
 einheiten: 137
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2027-12-31'
 ---
 # Steuerharmonisierungsgesetz (StHG, SR 642.14) – Fassung gültig ab 01.01.2025
 

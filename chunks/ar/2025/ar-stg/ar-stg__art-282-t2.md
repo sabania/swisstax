@@ -8,7 +8,7 @@ titel: "Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanto
 artikel: "Art. 282"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 282 5. Beteiligungen an Gesellschaften mit Sitz im Kanton
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 282 5. Beteiligungen an Gesellschaften mit Sitz im Kanton
 
 ### Art. 282 StG AR – 5. Beteiligungen an Gesellschaften mit Sitz im Kanton (Fortsetzung)
 

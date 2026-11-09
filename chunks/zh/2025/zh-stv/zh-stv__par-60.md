@@ -9,7 +9,7 @@ artikel: "§ 60"
 seiten: "12"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › Fünfter Abschnitt: Das Inventar › § 60 StV ZH – 3. Siegelung · S. 12
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › Fünfter Abschnitt: Das Inventar › § 60 StV ZH – 3. Siegelung · S. 12
 
 ### § 60 StV ZH – 3. Siegelung
 

@@ -9,7 +9,7 @@ ziffer: "7 / 31–35"
 seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 7 Andere Leistungen · S. 13
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 7 Andere Leistungen · S. 13
 
 Andere Leistungen   Ziffer 7
 

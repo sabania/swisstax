@@ -8,7 +8,7 @@ titel: "Art. 75 StV AR – Verluste (Art. 279 StG)"
 artikel: "Art. 75"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 75 Verluste (Art. 279 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 75 Verluste (Art. 279 StG)
 
 ### Art. 75 StV AR – Verluste (Art. 279 StG)
 

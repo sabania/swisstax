@@ -8,7 +8,7 @@ titel: "Art. 285e StG AR – 13. Sondersteuer auf aufgedeckten stillen Reserven"
 artikel: "Art. 285e"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285e 13. Sondersteuer auf aufgedeckten stillen Reserven
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285e 13. Sondersteuer auf aufgedeckten stillen Reserven
 
 ### Art. 285e StG AR – 13. Sondersteuer auf aufgedeckten stillen Reserven
 

@@ -8,7 +8,7 @@ titel: "Art. 21 QStV – Anwendbares Recht"
 artikel: "Art. 21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 4. Abschnitt: Vereinfachtes Abrechnungsverfahren › Art. 21 Anwendbares Recht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 4. Abschnitt: Vereinfachtes Abrechnungsverfahren › Art. 21 Anwendbares Recht
 
 ### Art. 21 QStV – Anwendbares Recht
 

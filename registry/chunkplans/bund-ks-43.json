@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "titel": "KS 43 – Preise, Ehrengaben, Auszeichnungen, Stipendien, Förderbeiträge: Titel",
    "pfad": [
     "Kreisschreiben 43"
@@ -23,12 +23,12 @@
    "zusammenfassung": "ESTV-Kreisschreiben Nr. 43 vom 26. Februar 2018 zur steuerlichen Behandlung von Preisen, Ehrengaben, Auszeichnungen, Stipendien und Förderbeiträgen im Kultur-, Sport- und Wissenschaftsbereich."
   },
   {
-   "start": 40,
+   "start": 23,
    "skip": true,
    "titel": "Inhaltsverzeichnis"
   },
   {
-   "start": 54,
+   "start": 37,
    "titel": "Ziff. 1 Gegenstand des Kreisschreibens",
    "pfad": [
     "1 Gegenstand"
@@ -47,7 +47,7 @@
    "ziffer": "1"
   },
   {
-   "start": 67,
+   "start": 50,
    "titel": "Ziff. 2 Rechtliche Grundlagen – Gesamtreineinkommen, Art. 16 und 24 DBG",
    "pfad": [
     "2 Rechtliche Grundlagen"
@@ -66,7 +66,7 @@
    "ziffer": "2"
   },
   {
-   "start": 79,
+   "start": 62,
    "titel": "Ziff. 2 Schenkung und Unterstützung – Begriffe, Bescheinigung der Stiftungen",
    "pfad": [
     "2 Rechtliche Grundlagen"
@@ -86,7 +86,7 @@
    "ziffer": "2"
   },
   {
-   "start": 102,
+   "start": 85,
    "titel": "Ziff. 3 Abgrenzungskriterien – Preise, Stipendien: drei kumulative Kriterien",
    "pfad": [
     "3 Abgrenzungskriterien"
@@ -106,7 +106,7 @@
    "ziffer": "3"
   },
   {
-   "start": 124,
+   "start": 107,
    "titel": "Ziff. 3 Bedürftigkeit und Existenzminimum (Art. 9 und 11 ELG)",
    "pfad": [
     "3 Abgrenzungskriterien",
@@ -126,7 +126,7 @@
    "ziffer": "3"
   },
   {
-   "start": 138,
+   "start": 121,
    "titel": "Ziff. 3 Unentgeltlichkeit und Ergebnis der Prüfung",
    "pfad": [
     "3 Abgrenzungskriterien",
@@ -146,7 +146,7 @@
    "ziffer": "3"
   },
   {
-   "start": 153,
+   "start": 136,
    "titel": "Ziff. 4 Steuerbare Leistungen – Bewertung, Zufluss, Abzüge",
    "pfad": [
     "4 Steuerbare Leistungen"
@@ -165,7 +165,7 @@
    "ziffer": "4"
   },
   {
-   "start": 171,
+   "start": 154,
    "titel": "Ziff. 5 Inkrafttreten und ersetzte Kreisschreiben",
    "pfad": [
     "5 Inkrafttreten"
@@ -181,7 +181,7 @@
    "ziffer": "5"
   },
   {
-   "start": 179,
+   "start": 162,
    "titel": "Anhang Beispiel 1 – Stipendium CHF 1'500 / 3'000 monatlich (Bedürftigkeit)",
    "pfad": [
     "Anhang: Beispiele"
@@ -200,7 +200,7 @@
    "ziffer": "Beispiel 1"
   },
   {
-   "start": 203,
+   "start": 186,
    "titel": "Anhang Beispiel 2 – Förderbeitrag Sport CHF 5'000 mit Gegenleistung",
    "pfad": [
     "Anhang: Beispiele"
@@ -217,7 +217,7 @@
    "ziffer": "Beispiel 2"
   },
   {
-   "start": 217,
+   "start": 200,
    "titel": "Anhang Beispiel 3 – Gehalt Doktorand (CHF 1'960 monatlich)",
    "pfad": [
     "Anhang: Beispiele"
@@ -234,7 +234,7 @@
    "ziffer": "Beispiel 3"
   },
   {
-   "start": 225,
+   "start": 208,
    "titel": "Anhang Beispiel 4 – Forschungsstipendium CHF 42'000 mit Berichtspflicht",
    "pfad": [
     "Anhang: Beispiele"
@@ -250,5 +250,7 @@
    "zusammenfassung": "Das Stipendium von CHF 42'000 ist steuerbar, weil die regelmässige Berichterstattung als Gegenleistung gilt.",
    "ziffer": "Beispiel 4"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

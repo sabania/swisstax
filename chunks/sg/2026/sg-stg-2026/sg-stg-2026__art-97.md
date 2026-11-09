@@ -8,7 +8,7 @@ titel: "Art. 97 StG SG – b) Kapitalgesellschaften und Genossenschaften"
 artikel: "Art. 97"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › III. Kapitalsteuer › Art. 97 b) Kapitalgesellschaften und Genossenschaften
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › III. Kapitalsteuer › Art. 97 b) Kapitalgesellschaften und Genossenschaften
 
 ### Art. 97 StG SG – b) Kapitalgesellschaften und Genossenschaften
 

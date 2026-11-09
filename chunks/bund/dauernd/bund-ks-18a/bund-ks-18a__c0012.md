@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0012
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.4 Abzug für in der 2. Säule Versicherte (kleine Säule 3a, 8 %)"
 ziffer: "5.4"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.4 Mit 2. Säule · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.4 Mit 2. Säule · S. 5
 
 5.4. Abzug für Steuerpflichtige, die einer Einrichtung der beruflichen Vorsorge
     (2. Säule) angehören

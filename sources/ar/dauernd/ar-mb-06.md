@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/06_Bemessung_von_Bussen_bei_Verletzung_von_Verfahrenspflichten_ab_2025.docx.pdf
 raw: raw/ar/dauernd/ar-mb-06.pdf
@@ -13,6 +14,8 @@ sha256: 99570601d93f8e93b88ebabb41c50816b38ad879aa991c14a05f88e6140fd07c
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2025-12-17'
 ---
 # Merkblatt 06: Bemessung von Bussen bei Verletzung von Verfahrenspflichten (ab 2025)
 

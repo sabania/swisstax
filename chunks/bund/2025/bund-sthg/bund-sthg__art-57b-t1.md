@@ -2,13 +2,13 @@
 id: bund-sthg__art-57b-t1
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 57b StHG – Selbstanzeige juristischer Personen (Teil 1/3)"
 artikel: "Art. 57b"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Sechster Titel: Steuerstrafrecht › 1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 57b Selbstanzeige juristischer Personen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Sechster Titel: Steuerstrafrecht › 1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 57b Selbstanzeige juristischer Personen
 
 ### Art. 57b StHG – Selbstanzeige juristischer Personen
 

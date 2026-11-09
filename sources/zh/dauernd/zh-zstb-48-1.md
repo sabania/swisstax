@@ -4,14 +4,17 @@ titel: 'ZStB 48.1: Verordnung über den Ausgleich der kalten Progression (Übers
 kurz: ZStB 48.1
 jurisdiktion: zh
 jahre:
-- 2025
 - 2026
+- 2027
 typ: praxis
 quelle_url: https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-48-1.html
 raw: raw/zh/dauernd/zh-zstb-48-1.html
 sha256: e341ceb63dccf2c1fd69e7c936bfe4e09b6b41987c35134e9009dbb78bb2355d
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: zh-vkp-2024-zstb
 ---
 # ZStB 48.1: Verordnung über den Ausgleich der kalten Progression (Übersichtsseite)
 

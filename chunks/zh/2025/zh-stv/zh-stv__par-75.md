@@ -9,7 +9,7 @@ artikel: "§ 75"
 seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Dritter Teil: Steuerstrafrecht › § 75 StV ZH – 1. Bezug der Bussen · S. 14
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Dritter Teil: Steuerstrafrecht › § 75 StV ZH – 1. Bezug der Bussen · S. 14
 
 ### § 75 StV ZH – 1. Bezug der Bussen
 

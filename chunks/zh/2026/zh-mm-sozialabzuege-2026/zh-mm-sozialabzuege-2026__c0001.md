@@ -7,7 +7,7 @@ typ: mitteilung
 titel: "Weisung über Sozialabzüge und Steuertarife (Mitteilung 15.04.2026)"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: mitteilung}}
 ---
-> ZH · Steuerjahr 2026 · MM 15.04.2026 · Weisung über Sozialabzüge und Steuertarife (Mitteilung 15.04.2026)
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Mitteilung · Steuerjahr 2026 · MM 15.04.2026 · Weisung über Sozialabzüge und Steuertarife (Mitteilung 15.04.2026)
 
 # Weisung über Sozialabzüge und Steuertarife (Mitteilung 15.04.2026)
 

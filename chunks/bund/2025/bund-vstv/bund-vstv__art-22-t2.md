@@ -2,13 +2,13 @@
 id: bund-vstv__art-22-t2
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 22 VStV (Teil 2/2)"
 artikel: "Art. 22"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · 1. Aktiengesellschaften und Gesellschaften mit beschränkter Haftung › b. Auflösung; Sitzverlegung ins Ausland › Art. 22
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · 1. Aktiengesellschaften und Gesellschaften mit beschränkter Haftung › b. Auflösung; Sitzverlegung ins Ausland › Art. 22
 
 ### Art. 22 VStV (Fortsetzung)
 

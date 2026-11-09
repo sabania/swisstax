@@ -8,7 +8,7 @@ titel: "Art. 83 quater StG SG – 2quater. Aufdeckung stiller Reserven bei Begin
 artikel: "Art. 83 quater"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 quater 2quater. Aufdeckung stiller Reserven bei Beginn der Steuerpflicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 quater 2quater. Aufdeckung stiller Reserven bei Beginn der Steuerpflicht
 
 ### Art. 83 quater StG SG – 2quater. Aufdeckung stiller Reserven bei Beginn der Steuerpflicht
 

@@ -8,7 +8,7 @@ titel: "Art. 20 DBG – Grundsatz (Teil 3/6)"
 artikel: "Art. 20"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 4. Abschnitt: Bewegliches Vermögen › Art. 20 Grundsatz
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 4. Abschnitt: Bewegliches Vermögen › Art. 20 Grundsatz
 
 ### Art. 20 DBG – Grundsatz (Fortsetzung)
 

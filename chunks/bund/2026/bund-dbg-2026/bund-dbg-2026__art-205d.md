@@ -8,7 +8,7 @@ titel: "Art. 205d DBG – Übergangsbestimmung zur Änderung vom 28. September 2
 artikel: "Art. 205d"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205d Übergangsbestimmung zur Änderung vom 28. September 2012
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205d Übergangsbestimmung zur Änderung vom 28. September 2012
 
 ### Art. 205d DBG – Übergangsbestimmung zur Änderung vom 28. September 2012
 

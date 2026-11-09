@@ -8,7 +8,7 @@ titel: "Art. 277 StG AR – 3. Lebensversicherungen"
 artikel: "Art. 277"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 277 3. Lebensversicherungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 277 3. Lebensversicherungen
 
 ### Art. 277 StG AR – 3. Lebensversicherungen
 

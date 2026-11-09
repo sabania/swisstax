@@ -8,7 +8,7 @@ titel: "Art. 187 StG SG – 4. Ablieferung"
 artikel: "Art. 187"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 187 4. Ablieferung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 187 4. Ablieferung
 
 ### Art. 187 StG SG – 4. Ablieferung
 

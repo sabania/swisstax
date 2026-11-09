@@ -9,7 +9,7 @@ ziffer: "2.2 / 22–25"
 seiten: "10-11"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2.2 Privatanteil Geschäftsfahrzeug · S. 10–11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2.2 Privatanteil Geschäftsfahrzeug · S. 10–11
 
 Übernimmt der Arbeitnehmer beträchtliche Kosten (z. B. sämtliche Kosten für Unterhalt,   22
 Versicherungen, Benzin und Reparaturen; die Übernahme ausschliesslich der Benzinkosten

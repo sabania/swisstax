@@ -8,7 +8,7 @@ titel: "Art. 103 DBG – Aufsicht"
 artikel: "Art. 103"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Steuerbehörden › 1. Kapitel: Eidgenössische Behörden › Art. 103 Aufsicht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Steuerbehörden › 1. Kapitel: Eidgenössische Behörden › Art. 103 Aufsicht
 
 ### Art. 103 DBG – Aufsicht
 

@@ -8,7 +8,7 @@ titel: "Art. 1 StV SG – Als öffentlich-rechtliche Körperschaft anerkannte Re
 artikel: "Art. 1"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 1 Als öffentlich-rechtliche Körperschaft anerkannte Religionsgemeinschaften (Art. 3 StG) a) Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 1 Als öffentlich-rechtliche Körperschaft anerkannte Religionsgemeinschaften (Art. 3 StG) a) Grundsatz
 
 ### Art. 1 StV SG – Als öffentlich-rechtliche Körperschaft anerkannte Religionsgemeinschaften (Art. 3 StG) a) Grundsatz
 

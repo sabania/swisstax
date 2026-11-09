@@ -8,7 +8,7 @@ titel: "Art. 89 StV SG – Steuerausscheidung für Einkommens- und Vermögensste
 artikel: "Art. 89"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · DRITTER TEIL: GEMEINDESTEUERN › Art. 89 Steuerausscheidung für Einkommens- und Vermögenssteuern (Art. 234 und 235 StG) a) Ausscheidungsregeln
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · DRITTER TEIL: GEMEINDESTEUERN › Art. 89 Steuerausscheidung für Einkommens- und Vermögenssteuern (Art. 234 und 235 StG) a) Ausscheidungsregeln
 
 ### Art. 89 StV SG – Steuerausscheidung für Einkommens- und Vermögenssteuern (Art. 234 und 235 StG) a) Ausscheidungsregeln
 

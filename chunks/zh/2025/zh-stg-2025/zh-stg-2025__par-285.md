@@ -9,7 +9,7 @@ artikel: "§ 285"
 seiten: "94"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 285 StG ZH – VII. Inkrafttreten des neuen Gesetzes · S. 94
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 285 StG ZH – VII. Inkrafttreten des neuen Gesetzes · S. 94
 
 ### § 285 StG ZH – VII. Inkrafttreten des neuen Gesetzes
 

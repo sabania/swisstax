@@ -8,7 +8,7 @@ titel: "Art. 201 DBG – Aufhebung des BdBSt"
 artikel: "Art. 201"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Teil: Schlussbestimmungen › Dritter Titel: Aufhebung und Änderung bisherigen Rechts › Art. 201 Aufhebung des BdBSt
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Teil: Schlussbestimmungen › Dritter Titel: Aufhebung und Änderung bisherigen Rechts › Art. 201 Aufhebung des BdBSt
 
 ### Art. 201 DBG – Aufhebung des BdBSt
 

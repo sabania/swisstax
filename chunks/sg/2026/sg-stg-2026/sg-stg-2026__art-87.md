@@ -8,7 +8,7 @@ titel: "Art. 87 StG SG – 6. Ersatzbeschaffungen"
 artikel: "Art. 87"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 87 6. Ersatzbeschaffungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 87 6. Ersatzbeschaffungen
 
 ### Art. 87 StG SG – 6. Ersatzbeschaffungen
 

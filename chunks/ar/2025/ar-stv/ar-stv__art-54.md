@@ -8,7 +8,7 @@ titel: "Art. 54 StV AR – Schenkungen unter Lebenspartnern (Art. 147 Abs. 2 StG
 artikel: "Art. 54"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Erster Teil: Staatssteuern › 5. Erbschafts- und Schenkungssteuer › Art. 54 Schenkungen unter Lebenspartnern (Art. 147 Abs. 2 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Erster Teil: Staatssteuern › 5. Erbschafts- und Schenkungssteuer › Art. 54 Schenkungen unter Lebenspartnern (Art. 147 Abs. 2 StG)
 
 ### Art. 54 StV AR – Schenkungen unter Lebenspartnern (Art. 147 Abs. 2 StG)
 

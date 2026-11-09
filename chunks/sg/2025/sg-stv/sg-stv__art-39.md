@@ -8,7 +8,7 @@ titel: "Art. 39 StV SG – Berechnung des Reingewinns a) Leistungen zwischen nah
 artikel: "Art. 39"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 39 Berechnung des Reingewinns a) Leistungen zwischen nahestehenden Personen (Art. 82 Abs. 1 Bst. b Ziff. 5 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 39 Berechnung des Reingewinns a) Leistungen zwischen nahestehenden Personen (Art. 82 Abs. 1 Bst. b Ziff. 5 StG)
 
 ### Art. 39 StV SG – Berechnung des Reingewinns a) Leistungen zwischen nahestehenden Personen (Art. 82 Abs. 1 Bst. b Ziff. 5 StG)
 

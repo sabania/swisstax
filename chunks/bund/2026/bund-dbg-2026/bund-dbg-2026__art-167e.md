@@ -8,7 +8,7 @@ titel: "Art. 167e DBG – Untersuchungsmittel der Erlassbehörde"
 artikel: "Art. 167e"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 4. Kapitel: Erlass der Steuer › Art. 167e Untersuchungsmittel der Erlassbehörde
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 4. Kapitel: Erlass der Steuer › Art. 167e Untersuchungsmittel der Erlassbehörde
 
 ### Art. 167e DBG – Untersuchungsmittel der Erlassbehörde
 

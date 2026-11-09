@@ -8,7 +8,7 @@ titel: "§ 7 StV TG – Unterhaltskosten von Liegenschaften"
 artikel: "§ 7"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 7 Unterhaltskosten von Liegenschaften
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 7 Unterhaltskosten von Liegenschaften
 
 ### § 7 StV TG – Unterhaltskosten von Liegenschaften
 

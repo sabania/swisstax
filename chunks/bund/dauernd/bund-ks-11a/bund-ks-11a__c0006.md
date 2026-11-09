@@ -9,7 +9,7 @@ ziffer: "3.1 a–f"
 seiten: "3-4"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3–4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3–4
 
     e. ohnehin im Rahmen der privaten Lebenshaltung anfallen würden und durch einen Spital
     aufenthalt eingespart werden können (z. B. Spitalkostenbeiträge, welche hauptsächlich

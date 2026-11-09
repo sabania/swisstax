@@ -11,6 +11,15 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2020-02-01
 - **Original:** <https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_11-1998_04_01-1999_01_01-108.html> · lokal: [zh-stv.pdf](../../../raw/zh/2025/zh-stv.pdf) · Volltext: [zh-stv.md](../../../sources/zh/2025/zh-stv.md)
 - **Abgerufen:** 2026-11-09 · sha256 `9d1d75d9a1c07d78…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2020-02-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-stv`).
+
+- `data/werte/zh/2026.yaml#68:bezug.provisorisch` (agent-geprueft)
+- [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (80 Chunks)
 

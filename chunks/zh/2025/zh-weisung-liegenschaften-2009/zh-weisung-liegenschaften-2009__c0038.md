@@ -9,7 +9,7 @@ ziffer: "92–94"
 seiten: "18"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · E. Neufestsetzung › II. Mehrfamilien- und Geschäftshäuser; F. Inkrafttreten · S. 18
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · E. Neufestsetzung › II. Mehrfamilien- und Geschäftshäuser; F. Inkrafttreten · S. 18
 
     631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
 

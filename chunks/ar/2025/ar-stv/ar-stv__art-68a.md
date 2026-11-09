@@ -8,7 +8,7 @@ titel: "Art. 68a StV AR – Interkommunale Steuerausscheidung (Art. 231 StG)"
 artikel: "Art. 68a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Zweiter Teil: Steuern der Gemeinden und von Körperschaften › Art. 68a Interkommunale Steuerausscheidung (Art. 231 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Zweiter Teil: Steuern der Gemeinden und von Körperschaften › Art. 68a Interkommunale Steuerausscheidung (Art. 231 StG)
 
 ### Art. 68a StV AR – Interkommunale Steuerausscheidung (Art. 231 StG)
 

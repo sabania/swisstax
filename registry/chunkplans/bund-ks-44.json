@@ -5,12 +5,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 67,
+   "start": 50,
    "titel": "Ziff. 1 Allgemeines – Aufwandbesteuerung seit 1.1.2016",
    "pfad": [
     "1 Allgemeines"
@@ -27,7 +27,7 @@
    "ziffer": "1"
   },
   {
-   "start": 85,
+   "start": 68,
    "titel": "Ziff. 2.1 Rechtsgrundlage – Voraussetzungen Art. 14 Abs. 1 DBG",
    "pfad": [
     "2 Subjektive Voraussetzungen",
@@ -45,7 +45,7 @@
    "ziffer": "2.1"
   },
   {
-   "start": 102,
+   "start": 85,
    "titel": "Ziff. 2.2 Kein Schweizer Bürgerrecht",
    "pfad": [
     "2 Subjektive Voraussetzungen",
@@ -61,7 +61,7 @@
    "ziffer": "2.2"
   },
   {
-   "start": 113,
+   "start": 96,
    "titel": "Ziff. 2.3 Zuzug ohne Erwerbstätigkeit – Rückkehr und Erwerbstätigkeit",
    "pfad": [
     "2 Subjektive Voraussetzungen",
@@ -79,7 +79,7 @@
    "ziffer": "2.3"
   },
   {
-   "start": 129,
+   "start": 112,
    "titel": "Ziff. 2.3 Diplomaten und Beamte internationaler Organisationen",
    "pfad": [
     "2 Subjektive Voraussetzungen",
@@ -96,7 +96,7 @@
    "ziffer": "2.3"
   },
   {
-   "start": 136,
+   "start": 119,
    "titel": "Ziff. 2.4 Erfüllung der Voraussetzungen durch beide Ehegatten",
    "pfad": [
     "2 Subjektive Voraussetzungen",
@@ -112,7 +112,7 @@
    "ziffer": "2.4"
   },
   {
-   "start": 145,
+   "start": 128,
    "titel": "Ziff. 2.5 Beginn des Rechts auf Aufwandbesteuerung",
    "pfad": [
     "2 Subjektive Voraussetzungen",
@@ -129,7 +129,7 @@
    "ziffer": "2.5"
   },
   {
-   "start": 157,
+   "start": 140,
    "titel": "Ziff. 3.1 Rechtsgrundlage – Mindestbemessung Art. 14 Abs. 3 DBG",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -150,7 +150,7 @@
    ]
   },
   {
-   "start": 183,
+   "start": 166,
    "titel": "Ziff. 3.2 Weltweiter Aufwand – Prinzip",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -167,7 +167,7 @@
    "ziffer": "3.2"
   },
   {
-   "start": 190,
+   "start": 173,
    "titel": "Ziff. 3.2 Lebenshaltungskosten – Aufzählung",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -186,7 +186,7 @@
    "ziffer": "3.2"
   },
   {
-   "start": 206,
+   "start": 189,
    "titel": "Ziff. 3.2 Ordentlicher Tarif und kein Abzug vom steuerbaren Betrag",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -202,7 +202,7 @@
    "ziffer": "3.2"
   },
   {
-   "start": 215,
+   "start": 198,
    "titel": "Ziff. 3.3 Mindestwerte und Kontrollrechnung – Ziff. 3.3.1 Mindestbetrag 400 000 Franken",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -219,7 +219,7 @@
    "ziffer": "3.3 / 3.3.1"
   },
   {
-   "start": 226,
+   "start": 209,
    "titel": "Ziff. 3.3.2 Siebenfacher Mietzins oder Mietwert (Bst. b)",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -240,7 +240,7 @@
    ]
   },
   {
-   "start": 239,
+   "start": 222,
    "titel": "Ziff. 3.3.3 Dreifacher Pensionspreis (Bst. c)",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -257,7 +257,7 @@
    "ziffer": "3.3.3"
   },
   {
-   "start": 246,
+   "start": 229,
    "titel": "Ziff. 3.3.4 Kontrollrechnung (Bst. d) – Einkünfte aus schweizerischen Quellen",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -276,7 +276,7 @@
    "ziffer": "3.3.4"
   },
   {
-   "start": 270,
+   "start": 253,
    "titel": "Ziff. 3.3.4 Kontrollrechnung – Einkünfte aus ausländischen Quellen (DBA-Entlastung)",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -294,7 +294,7 @@
    "ziffer": "3.3.4"
   },
   {
-   "start": 289,
+   "start": 272,
    "titel": "Ziff. 3.3.4 Begriff Lizenzgebühren (Royalties)",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -312,7 +312,7 @@
    "ziffer": "3.3.4"
   },
   {
-   "start": 296,
+   "start": 279,
    "titel": "Ziff. 3.3.4 Abziehbare Kosten bei der Kontrollrechnung (Art. 1 VO Aufwandbesteuerung)",
    "pfad": [
     "3 Objektive Voraussetzungen",
@@ -335,7 +335,7 @@
    ]
   },
   {
-   "start": 307,
+   "start": 290,
    "titel": "Ziff. 4 Sozialabzüge, anwendbarer Tarif, Satzbestimmung",
    "pfad": [
     "4 Sozialabzüge, anwendbarer Tarif, Satzbestimmung"
@@ -351,7 +351,7 @@
    "ziffer": "4"
   },
   {
-   "start": 319,
+   "start": 302,
    "titel": "Ziff. 5.1 Ordentliche Aufwandbesteuerung – Steuererklärung und Nachweis",
    "pfad": [
     "5 Verfahren",
@@ -371,7 +371,7 @@
    ]
   },
   {
-   "start": 331,
+   "start": 314,
    "titel": "Ziff. 5.1 Doppelbesteuerungsabkommen – Abkommensvorteile deklarieren",
    "pfad": [
     "5 Verfahren",
@@ -388,7 +388,7 @@
    "ziffer": "5.1"
   },
   {
-   "start": 343,
+   "start": 326,
    "titel": "Ziff. 5.1 Inanspruchnahme DBA ohne Antrag – Nachentrichtung Quellensteuer",
    "pfad": [
     "5 Verfahren",
@@ -405,7 +405,7 @@
    "ziffer": "5.1"
   },
   {
-   "start": 356,
+   "start": 339,
    "titel": "Ziff. 5.2 Modifizierte Aufwandbesteuerung (Art. 14 Abs. 5 DBG)",
    "pfad": [
     "5 Verfahren",
@@ -422,7 +422,7 @@
    "ziffer": "5.2"
   },
   {
-   "start": 379,
+   "start": 362,
    "titel": "Ziff. 5.2 Pauschale Steueranrechnung bei modifizierter Aufwandbesteuerung",
    "pfad": [
     "5 Verfahren",
@@ -439,7 +439,7 @@
    "ziffer": "5.2"
   },
   {
-   "start": 395,
+   "start": 378,
    "titel": "Ziff. 5.2 Vorgehen bei Veranlagung: höchstes Ergebnis nach Art. 14 Abs. 3 und 5 DBG",
    "pfad": [
     "5 Verfahren",
@@ -455,7 +455,7 @@
    "ziffer": "5.2"
   },
   {
-   "start": 404,
+   "start": 387,
    "titel": "Ziff. 6 Verschiedenes – Steuerbescheinigungen und Strafen",
    "pfad": [
     "6 Verschiedenes"
@@ -470,7 +470,7 @@
    "ziffer": "6"
   },
   {
-   "start": 414,
+   "start": 397,
    "titel": "Ziff. 7 Inkrafttreten und Übergangsregelung",
    "pfad": [
     "7 Inkrafttreten und Übergangsregelung"
@@ -484,5 +484,7 @@
    "zusammenfassung": "Das Kreisschreiben ersetzt Nr. 9 vom 3. Dezember 1993 und gilt ab Steuerperiode 2016; für am 1. Januar 2016 bereits Aufwandbesteuerte gilt altes Recht bis 31. Dezember 2020.",
    "ziffer": "7"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

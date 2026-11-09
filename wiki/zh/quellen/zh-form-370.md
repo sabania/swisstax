@@ -11,6 +11,25 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Formular · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/jahrunabhaengig/est-formulare/370_krankheit_zh_2020_def.pdf> · lokal: [zh-form-370.pdf](../../../raw/zh/2025/zh-form-370.pdf) · Volltext: [zh-form-370.md](../../../sources/zh/2025/zh-form-370.md)
 - **Abgerufen:** 2026-11-09 · sha256 `387b0d60749e2d77…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 12 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-370`).
+
+- `data/belege-teil1.yaml#13:krankenkasse-leistungen` (agent-geprueft)
+- `data/belege-teil1.yaml#14:arzt-zahnarzt-rechnungen` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#102:abzug.krankheitskosten@Form. 370 S.1 Teil A Ziff. 1` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#103:abzug.krankheitskosten@Form. 370 S.1 Teil A Ziff. 2–3` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#104:abzug.krankheitskosten@Form. 370 S.1 Teil A Ziff. 4–7` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#105:abzug.krankheitskosten@Form. 370 S.1 Teil B` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#106:abzug.krankheitskosten@Form. 370 S.1 Teil C/D` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#107:abzug.krankheitskosten@Form. 370 S.1 Teil E` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#108:abzug.behinderungskosten@Form. 370 S.2 Teil A/B` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#109:abzug.behinderungskosten@Form. 370 S.2 Teil C/D` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#34:abzug.behinderungskosten@16.4` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#44:abzug.krankheitskosten@22.1` (agent-geprueft)
+- [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

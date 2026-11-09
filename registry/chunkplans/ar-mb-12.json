@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Merkblatt 12 Nachsteuerverfahren – Gebühr 10 % (Art. 195 StG)",
    "pfad": [
     "Kostenverrechnung"
@@ -24,7 +24,7 @@
    "zusammenfassung": "Gebühr 10 % des Nachsteuerbetrags, abgerundet auf Fr. 100.–; Minimum Fr. 100.–, Maximum Fr. 5'000.–."
   },
   {
-   "start": 44,
+   "start": 28,
    "titel": "Gebührentabelle Nachsteuerbetrag – bis Fr. 9'999",
    "pfad": [
     "Kostenverrechnung",
@@ -41,7 +41,7 @@
    "zusammenfassung": "Bis Fr. 1'999 Fr. 100; ab Fr. 2'000 Fr. 200, je weitere Fr. 1'000 Nachsteuerbetrag Fr. 100 mehr."
   },
   {
-   "start": 54,
+   "start": 38,
    "titel": "Gebührentabelle Nachsteuerbetrag – ab Fr. 10'000 bis Fr. 50'000",
    "pfad": [
     "Kostenverrechnung",
@@ -58,7 +58,7 @@
    "zusammenfassung": "Ab Fr. 10'000 Fr. 1'000; ab Fr. 48'000 Fr. 4'800; ab Fr. 50'000 Fr. 5'000 (Maximum)."
   },
   {
-   "start": 63,
+   "start": 47,
    "titel": "Bemessung innerhalb Gebührenrahmen (Art. 20 VPRG)",
    "pfad": [
     "Kostenverrechnung",
@@ -76,7 +76,7 @@
    "zusammenfassung": "Gebühr nach Zeitaufwand, Bedeutung, Interesse und wirtschaftlicher Leistungsfähigkeit innerhalb des Gebührenrahmens."
   },
   {
-   "start": 67,
+   "start": 51,
    "titel": "Ermässigung oder Zuschlag max. +/- 50 % – Obergrenze Fr. 5'000.–",
    "pfad": [
     "Kostenverrechnung",
@@ -93,5 +93,7 @@
    ],
    "zusammenfassung": "Ermässigung oder Zuschlag von maximal +/- 50 % je nach Aufwand, Leistungsfähigkeit und Bedeutung; Obergrenze Fr. 5'000.– darf nicht überschritten werden."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

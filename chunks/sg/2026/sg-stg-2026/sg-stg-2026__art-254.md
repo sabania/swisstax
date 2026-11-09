@@ -8,7 +8,7 @@ titel: "Art. 254 StG SG – Juristische Personen a) Strafbarkeit"
 artikel: "Art. 254"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 254 Juristische Personen a) Strafbarkeit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 254 Juristische Personen a) Strafbarkeit
 
 ### Art. 254 StG SG – Juristische Personen a) Strafbarkeit
 

@@ -8,7 +8,7 @@ titel: "Art. 239 StG AR – Steuerpfandrecht"
 artikel: "Art. 239"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 3. Handänderungssteuer › Art. 239 Steuerpfandrecht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 3. Handänderungssteuer › Art. 239 Steuerpfandrecht
 
 ### Art. 239 StG AR – Steuerpfandrecht
 

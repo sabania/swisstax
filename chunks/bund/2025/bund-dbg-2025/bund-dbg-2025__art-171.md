@@ -8,7 +8,7 @@ titel: "Art. 171 DBG – Löschung im Handelsregister"
 artikel: "Art. 171"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 171 Löschung im Handelsregister
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 6. Kapitel: Steuersicherung › Art. 171 Löschung im Handelsregister
 
 ### Art. 171 DBG – Löschung im Handelsregister
 

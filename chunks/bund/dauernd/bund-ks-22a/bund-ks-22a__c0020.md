@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0020
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang Beispiel 3 – Obligation mit überwiegender Einmalverzinsung"
 ziffer: "Bsp. 3"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · Anhang Beispiele › Beispiel 3 · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · Anhang Beispiele › Beispiel 3 · S. 8
 
 Nr. 3: Obligationen mit überwiegender Einmalverzinsung
 

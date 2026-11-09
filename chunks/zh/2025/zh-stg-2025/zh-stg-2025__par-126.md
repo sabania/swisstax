@@ -9,7 +9,7 @@ artikel: "§ 126"
 seiten: "56"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 126 StG ZH – 3. Mitteilung von Entscheiden · S. 56
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 126 StG ZH – 3. Mitteilung von Entscheiden · S. 56
 
 ### § 126 StG ZH – 3. Mitteilung von Entscheiden
 

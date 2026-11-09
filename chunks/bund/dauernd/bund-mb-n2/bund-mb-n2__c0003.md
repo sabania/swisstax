@@ -2,13 +2,13 @@
 id: bund-mb-n2__c0003
 quelle: bund-mb-n2
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Bekleidung, Wohnung und weitere Arbeitgeberleistungen"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB N2/2007 · Zuschläge · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB N2/2007 · Zuschläge · S. 1
 
 Bekleidung: Kommt der/die Arbeitgeber/in weitgehend auch für Kleider, Leibwäsche und Schuhe sowie für deren Unterhalt und Reini-
 gung auf, so sind hierfür zusätzlich CHF 80.– im Monat /CHF 960.– im Jahr anzurechnen.

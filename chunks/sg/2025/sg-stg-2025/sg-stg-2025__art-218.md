@@ -8,7 +8,7 @@ titel: "Art. 218 StG SG – Steuerrückerstattung a) An ungetrennt lebende Ehega
 artikel: "Art. 218"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 218 Steuerrückerstattung a) An ungetrennt lebende Ehegatten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 218 Steuerrückerstattung a) An ungetrennt lebende Ehegatten
 
 ### Art. 218 StG SG – Steuerrückerstattung a) An ungetrennt lebende Ehegatten
 

@@ -3,7 +3,7 @@
  "hinweise": [],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Ziff. 1–2.1 Gegenstand und Vermögenssteuer – Steuerwert",
    "pfad": [
     "1 Gegenstand",
@@ -25,7 +25,7 @@
    ]
   },
   {
-   "start": 50,
+   "start": 34,
    "titel": "Ziff. 2.2 Hypothekarschulden bei Miteigentum – Schuldenabzug",
    "pfad": [
     "2 Vermögenssteuer",
@@ -46,7 +46,7 @@
    ]
   },
   {
-   "start": 64,
+   "start": 48,
    "titel": "Ziff. 2.2 Solidarschuldner ohne Eigentum, anwartschaftliche Schulden, Bürgschaft",
    "pfad": [
     "2 Vermögenssteuer",
@@ -65,7 +65,7 @@
    ]
   },
   {
-   "start": 82,
+   "start": 66,
    "titel": "Ziff. 3.1 Eigenmietwert und Ertrag aus Fremdnutzung bei Miteigentum",
    "pfad": [
     "3 Einkommenssteuer",
@@ -87,7 +87,7 @@
    ]
   },
   {
-   "start": 101,
+   "start": 85,
    "titel": "Ziff. 3.1 Herabsetzung Eigenmietwert um 30 Prozent, Nutzniessung, Gebrauchsleihe",
    "pfad": [
     "3 Einkommenssteuer",
@@ -109,7 +109,7 @@
    ]
   },
   {
-   "start": 119,
+   "start": 103,
    "titel": "Ziff. 3.1 Vorzugsmieten an nahestehende Personen – Aufhebung per 1. Januar 2024",
    "pfad": [
     "3 Einkommenssteuer",
@@ -129,7 +129,7 @@
    ]
   },
   {
-   "start": 140,
+   "start": 124,
    "titel": "Ziff. 3.2 Liegenschaftsunterhalt bei Miteigentum – Pauschale 20 %",
    "pfad": [
     "3 Einkommenssteuer",
@@ -149,7 +149,7 @@
    ]
   },
   {
-   "start": 159,
+   "start": 143,
    "titel": "Ziff. 3.3 Schuldzinsen bei gemeinsamer Schuld (Solidarschuld)",
    "pfad": [
     "3 Einkommenssteuer",
@@ -168,5 +168,7 @@
     "abzug.schuldzinsen"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

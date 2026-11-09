@@ -2,13 +2,13 @@
 id: bund-sthg__art-24a
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 24a StHG – Patente und vergleichbare Rechte: Begriffe"
 artikel: "Art. 24a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · 2. Kapitel: Gewinnsteuer › 1. Abschnitt: Steuerobjekt › Art. 24a Patente und vergleichbare Rechte: Begriffe
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · 2. Kapitel: Gewinnsteuer › 1. Abschnitt: Steuerobjekt › Art. 24a Patente und vergleichbare Rechte: Begriffe
 
 ### Art. 24a StHG – Patente und vergleichbare Rechte: Begriffe
 

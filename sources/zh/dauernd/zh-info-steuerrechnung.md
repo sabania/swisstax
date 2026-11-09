@@ -12,6 +12,7 @@ raw: raw/zh/dauernd/zh-info-steuerrechnung.html
 sha256: d7747cdfc3aa39abc1750e091fd174cd9c6d0c3a7fac0a199a4c4a5286145bc0
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Steuerrechnung Privatpersonen
 

@@ -9,7 +9,7 @@ artikel: "§ 73"
 seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 73 StV ZH – 6. Mitteilungspflicht der Grundsteuerbehörden[^9] · S. 14
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 73 StV ZH – 6. Mitteilungspflicht der Grundsteuerbehörden[^9] · S. 14
 
 ### § 73 StV ZH – 6. Mitteilungspflicht der Grundsteuerbehörden[^9]
 

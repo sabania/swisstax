@@ -8,7 +8,7 @@ titel: "Art. 12 QStV – Wechsel von der Quellenbesteuerung zur ordentlichen Bes
 artikel: "Art. 12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 2. Abschnitt: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 12 Wechsel von der Quellenbesteuerung zur ordentlichen Besteuerung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 2. Abschnitt: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 12 Wechsel von der Quellenbesteuerung zur ordentlichen Besteuerung
 
 ### Art. 12 QStV – Wechsel von der Quellenbesteuerung zur ordentlichen Besteuerung
 

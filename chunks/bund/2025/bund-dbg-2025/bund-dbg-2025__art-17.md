@@ -8,7 +8,7 @@ titel: "Art. 17 DBG – Grundsatz"
 artikel: "Art. 17"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 2. Abschnitt: Unselbständige Erwerbstätigkeit › Art. 17 Grundsatz
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 2. Abschnitt: Unselbständige Erwerbstätigkeit › Art. 17 Grundsatz
 
 ### Art. 17 DBG – Grundsatz
 

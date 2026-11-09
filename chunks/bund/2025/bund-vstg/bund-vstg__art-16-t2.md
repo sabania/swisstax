@@ -2,13 +2,13 @@
 id: bund-vstg__art-16-t2
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 16 VStG (Teil 2/2)"
 artikel: "Art. 16"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · III. Steuerentrichtung › 5. Fälligkeit; Verzugszins › Art. 16
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · III. Steuerentrichtung › 5. Fälligkeit; Verzugszins › Art. 16
 
 ### Art. 16 VStG (Fortsetzung)
 

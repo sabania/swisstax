@@ -8,7 +8,7 @@ titel: "Art. 74 StG AR – 6. Ersatzbeschaffung"
 artikel: "Art. 74"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 74 6. Ersatzbeschaffung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 74 6. Ersatzbeschaffung
 
 ### Art. 74 StG AR – 6. Ersatzbeschaffung
 

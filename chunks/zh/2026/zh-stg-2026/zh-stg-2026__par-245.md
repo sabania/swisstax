@@ -9,7 +9,7 @@ artikel: "§ 245"
 seiten: "85"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 245 StG ZH – c. Verteidigung · S. 85
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 245 StG ZH – c. Verteidigung · S. 85
 
 ### § 245 StG ZH – c. Verteidigung
 

@@ -9,7 +9,7 @@ artikel: "§ 62"
 seiten: "30"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 62 StG ZH – VI. Steuererleichterungen für Unternehmen · S. 30
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 62 StG ZH – VI. Steuererleichterungen für Unternehmen · S. 30
 
 ### § 62 StG ZH – VI. Steuererleichterungen für Unternehmen
 

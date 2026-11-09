@@ -8,6 +8,6 @@ titel: "Art. 18 VGS SG"
 artikel: "Art. 18"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · V. Schlussbestimmungen › Art. 18
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · V. Schlussbestimmungen › Art. 18
 
 ### Art. 18 VGS SG

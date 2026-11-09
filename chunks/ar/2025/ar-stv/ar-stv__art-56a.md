@@ -8,7 +8,7 @@ titel: "Art. 56a StV AR – eSteuern (Art. 160a StG)"
 artikel: "Art. 56a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 6. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 56a eSteuern (Art. 160a StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 6. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 56a eSteuern (Art. 160a StG)
 
 ### Art. 56a StV AR – eSteuern (Art. 160a StG)
 

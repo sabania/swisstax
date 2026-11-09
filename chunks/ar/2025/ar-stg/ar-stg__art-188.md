@@ -8,7 +8,7 @@ titel: "Art. 188 StG AR – Voraussetzungen"
 artikel: "Art. 188"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › E. Beschwerdeverfahren › Art. 188 Voraussetzungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › E. Beschwerdeverfahren › Art. 188 Voraussetzungen
 
 ### Art. 188 StG AR – Voraussetzungen
 

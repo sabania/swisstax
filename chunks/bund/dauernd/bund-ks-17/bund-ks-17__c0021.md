@@ -2,14 +2,14 @@
 id: bund-ks-17__c0021
 quelle: bund-ks-17
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. II.5.1 Pflichten gegenüber dem Vorsorgenehmer – Bescheinigung"
 ziffer: "II.5.1"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 5 Pflichten der Vorsorgeeinrichtungen · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 17 · II 2. Säule › 5 Pflichten der Vorsorgeeinrichtungen · S. 8
 
 5.   Pflichten der Vorsorgeeinrichtungen
 

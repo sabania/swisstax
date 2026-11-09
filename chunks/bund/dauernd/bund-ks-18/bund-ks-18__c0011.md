@@ -9,7 +9,7 @@ ziffer: "5.5"
 seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.5 Ohne 2. Säule · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 5. Abzugsberechtigung für Beiträge › 5.5 Ohne 2. Säule · S. 5
 
 Unter Erwerbseinkommen ist die Gesamtheit des Einkommens eines Steuerpflichtigen aus
 selbständiger und unselbständiger, haupt- und nebenberuflicher Erwerbstätigkeit gemäss

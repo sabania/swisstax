@@ -8,7 +8,7 @@ titel: "§ 12a StV TG – Gemeinsame elterliche Sorge bei getrennt besteuerten P
 artikel: "§ 12a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 12a Gemeinsame elterliche Sorge bei getrennt besteuerten Pflichtigen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 12a Gemeinsame elterliche Sorge bei getrennt besteuerten Pflichtigen
 
 ### § 12a StV TG – Gemeinsame elterliche Sorge bei getrennt besteuerten Pflichtigen
 

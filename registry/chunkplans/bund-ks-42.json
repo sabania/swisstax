@@ -7,12 +7,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 75,
+   "start": 58,
    "titel": "Ziff. 1 Gesetzliche Grundlage und Gegenstand – Abzug bis 12 000 Franken",
    "pfad": [
     "1 Gesetzliche Grundlage"
@@ -32,7 +32,7 @@
    ]
   },
   {
-   "start": 91,
+   "start": 74,
    "titel": "Ziff. 1 Inkrafttreten 1.1.2016 und geänderte DBG-Bestimmungen",
    "pfad": [
     "1 Gesetzliche Grundlage"
@@ -51,7 +51,7 @@
    ]
   },
   {
-   "start": 104,
+   "start": 87,
    "titel": "Ziff. 2 Bildungssystem in der Schweiz – Primarstufe bis Sekundarstufe II",
    "pfad": [
     "2 Bildungssystem"
@@ -71,7 +71,7 @@
    ]
   },
   {
-   "start": 126,
+   "start": 109,
    "titel": "Ziff. 2 Bildungssystem – Sekundarstufe II (Forts.) und Tertiärstufe",
    "pfad": [
     "2 Bildungssystem"
@@ -91,7 +91,7 @@
    ]
   },
   {
-   "start": 147,
+   "start": 130,
    "titel": "Ziff. 3 Schematischer Überblick über die Abzugsfähigkeit (Tabelle)",
    "pfad": [
     "3 Überblick Abzugsfähigkeit"
@@ -111,7 +111,7 @@
    ]
   },
   {
-   "start": 199,
+   "start": 182,
    "titel": "Ziff. 4.1 Allgemeines – Wortlaut Art. 33 Abs. 1 Bst. j DBG",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -130,7 +130,7 @@
    ]
   },
   {
-   "start": 215,
+   "start": 198,
    "titel": "Ziff. 4.1 Allgemeines – Voraussetzungen, Altersrentner, Lebenshaltungskosten",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -150,7 +150,7 @@
    ]
   },
   {
-   "start": 237,
+   "start": 220,
    "titel": "Ziff. 4.1 Beispiele (Automechaniker, Studentin, KV-Lehre Sprachaufenthalt)",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -171,7 +171,7 @@
    ]
   },
   {
-   "start": 259,
+   "start": 242,
    "titel": "Ziff. 4.2 Allgemeiner Abzug – kein Pauschalabzug, pro Ehegatte",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -191,7 +191,7 @@
    ]
   },
   {
-   "start": 280,
+   "start": 263,
    "titel": "Ziff. 4.3 Obergrenze des Abzuges – 12 000 Franken pro Steuerperiode",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -211,7 +211,7 @@
    ]
   },
   {
-   "start": 297,
+   "start": 280,
    "titel": "Ziff. 4.4 Berufsorientierte Aus- und Weiterbildung nach Sek-II-Abschluss",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -231,7 +231,7 @@
    ]
   },
   {
-   "start": 317,
+   "start": 300,
    "titel": "Ziff. 4.5 Keine berufsorientierte Weiterbildung – Beratung, Coaching (4.5.1)",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -252,7 +252,7 @@
    ]
   },
   {
-   "start": 340,
+   "start": 323,
    "titel": "Ziff. 4.5.2 Unterhaltung, Geselligkeit, Sport und Hobby – nicht abzugsfähig",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -274,7 +274,7 @@
    ]
   },
   {
-   "start": 357,
+   "start": 340,
    "titel": "Ziff. 4.6 Abzugsmöglichkeiten für Arbeitgeber und Selbständigerwerbende",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -295,7 +295,7 @@
    ]
   },
   {
-   "start": 384,
+   "start": 367,
    "titel": "Ziff. 4.7 Vom Arbeitgeber bezahlte Weiterbildung – Art. 17 Abs. 1bis DBG",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -316,7 +316,7 @@
    ]
   },
   {
-   "start": 401,
+   "start": 384,
    "titel": "Ziff. 4.7.1 Zahlungen des Arbeitgebers an Arbeitnehmer oder Bildungsinstitut",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -335,7 +335,7 @@
    ]
   },
   {
-   "start": 411,
+   "start": 394,
    "titel": "Ziff. 4.7.2 Rückzahlung vom Arbeitgeber getragener Kosten durch Arbeitnehmer",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -354,7 +354,7 @@
    ]
   },
   {
-   "start": 424,
+   "start": 407,
    "titel": "Ziff. 4.7.3 Rückvergütung selbst getragener Kosten durch Arbeitgeber",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -374,7 +374,7 @@
    ]
   },
   {
-   "start": 445,
+   "start": 428,
    "titel": "Ziff. 4.7.3 Beispiele 1–3 Rückvergütung (30 000 / 27 000 / 20 000)",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -394,7 +394,7 @@
    ]
   },
   {
-   "start": 495,
+   "start": 478,
    "titel": "Ziff. 4.8 Leistungen des neuen Arbeitgebers bei Stellenantritt",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -413,7 +413,7 @@
    ]
   },
   {
-   "start": 506,
+   "start": 489,
    "titel": "Ziff. 4.9 SBFI-Beiträge für Vorbereitungskurse eidg. Prüfungen",
    "pfad": [
     "4 Steuerliche Behandlung",
@@ -431,7 +431,7 @@
    ]
   },
   {
-   "start": 517,
+   "start": 500,
    "titel": "Ziff. 5 Quellensteuerpflichtige Personen – nachträgliche Korrektur",
    "pfad": [
     "5 Quellensteuerpflichtige"
@@ -450,5 +450,7 @@
     "verfahren.einreichung"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

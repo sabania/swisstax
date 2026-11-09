@@ -11,6 +11,21 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Formular · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_7_NP_2025_HA.pdf> · lokal: [sg-form-7-2025.pdf](../../../raw/sg/2025/sg-form-7-2025.pdf) · Volltext: [sg-form-7-2025.md](../../../sources/sg/2025/sg-form-7-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `5a3777b270c8aceb…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 8 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-7-2025`).
+
+- `data/werte/sg/2025.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#14:einkommen.liegenschaften.eigenmietwert@5` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#31:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#55:vermoegen.liegenschaften@31` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#92:vermoegen.liegenschaften@Form. 7 Abschnitt A` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#93:einkommen.liegenschaften.eigenmietwert@Form. 7 Abschnitt B.a` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#94:einkommen.liegenschaften.mietertrag@Form. 7 Abschnitt B.b` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#95:abzug.liegenschaft.unterhalt@Form. 7 Abschnitt C` (agent-geprueft)
+- [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

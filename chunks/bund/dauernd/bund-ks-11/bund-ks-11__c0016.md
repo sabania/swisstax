@@ -9,7 +9,7 @@ ziffer: "4.3.1–4.3.3"
 seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 7–8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 7–8
 
 Als behinderungsbedingte Kosten gelten die Aufenthaltskosten in speziellen Tagesstrukturen
 für behinderte Menschen (Beschäftigungsstätten, Tageszentren etc.). Nicht zum Abzug zu-

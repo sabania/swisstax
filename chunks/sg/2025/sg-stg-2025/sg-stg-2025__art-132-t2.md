@@ -8,7 +8,7 @@ titel: "Art. 132 StG SG – b) Steueraufschiebende Veräusserungen (Teil 2/2)"
 artikel: "Art. 132"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 132 b) Steueraufschiebende Veräusserungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 132 b) Steueraufschiebende Veräusserungen
 
 ### Art. 132 StG SG – b) Steueraufschiebende Veräusserungen (Fortsetzung)
 

@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Verrechnungssteuergesetz (VStG, SR 642.21) – Fassung gültig ab 01.01.2025"
 generiert: tools/build_index.py
 ---
 # VStG: Verrechnungssteuergesetz (VStG, SR 642.21) – Fassung gültig ab 01.01.2025
 
-- **Jurisdiktion:** Bund · **Typ:** Gesetz · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-01-01
+- **Jurisdiktion:** Bund · **Typ:** Gesetz · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2025-01-01
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1966/371_385_384/20250101/de> · lokal: [bund-vstg.xml](../../../raw/bund/2025/bund-vstg.xml) · Volltext: [bund-vstg.md](../../../sources/bund/2025/bund-vstg.md)
 - **Abgerufen:** 2026-11-09 · sha256 `afdc571c7fd9783e…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-vstg`).
+
+- [wiki/themen/wertschriften-verrechnungssteuer.md](../../themen/wertschriften-verrechnungssteuer.md)
 
 ## Inhalt (96 Chunks)
 

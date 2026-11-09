@@ -8,7 +8,7 @@ titel: "Art. 61 StG AR – III. Umfang der Steuerpflicht"
 artikel: "Art. 61"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 61 III. Umfang der Steuerpflicht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › A. Steuerpflicht › Art. 61 III. Umfang der Steuerpflicht
 
 ### Art. 61 StG AR – III. Umfang der Steuerpflicht
 

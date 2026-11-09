@@ -8,7 +8,7 @@ titel: "Art. 155 DBG"
 artikel: "Art. 155"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Siebenter Titel: Inventar › 2. Kapitel: Gegenstand › Art. 155
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Siebenter Titel: Inventar › 2. Kapitel: Gegenstand › Art. 155
 
 ### Art. 155 DBG
 

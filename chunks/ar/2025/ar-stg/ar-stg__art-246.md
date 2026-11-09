@@ -8,7 +8,7 @@ titel: "Art. 246 StG AR – 4. Verheimlichen oder Beiseiteschaffen von Nachlassw
 artikel: "Art. 246"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 246 4. Verheimlichen oder Beiseiteschaffen von Nachlasswerten im Inventarverfahren
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 246 4. Verheimlichen oder Beiseiteschaffen von Nachlasswerten im Inventarverfahren
 
 ### Art. 246 StG AR – 4. Verheimlichen oder Beiseiteschaffen von Nachlasswerten im Inventarverfahren
 

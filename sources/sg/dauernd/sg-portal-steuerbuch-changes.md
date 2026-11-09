@@ -12,6 +12,7 @@ raw: raw/sg/dauernd/sg-portal-steuerbuch-changes.html
 sha256: 9413eff83b40d0587394c91bccaf9c42ebdff9ea6cb346f22698da25e94b2cd2
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # St. Galler Steuerbuch – Änderungen
 

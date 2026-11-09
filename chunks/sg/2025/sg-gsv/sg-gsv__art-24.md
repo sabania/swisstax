@@ -8,6 +8,6 @@ titel: "Art. 24 VGS SG"
 artikel: "Art. 24"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · V. Schlussbestimmungen › Art. 24
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · V. Schlussbestimmungen › Art. 24
 
 ### Art. 24 VGS SG

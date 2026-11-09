@@ -8,7 +8,7 @@ titel: "Art. 281 StG SG – b) Kapitalversicherungen mit Einmalprämie"
 artikel: "Art. 281"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 281 b) Kapitalversicherungen mit Einmalprämie
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 281 b) Kapitalversicherungen mit Einmalprämie
 
 ### Art. 281 StG SG – b) Kapitalversicherungen mit Einmalprämie
 

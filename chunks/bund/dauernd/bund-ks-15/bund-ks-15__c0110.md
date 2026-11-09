@@ -2,14 +2,14 @@
 id: bund-ks-15__c0110
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang IV Gutachten Ziff. III.2 Wert des Anleihensteils bei Emission"
 ziffer: "Anh. IV III.2"
 seiten: "33"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 33
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 33
 
 2.   Bestimmung des Wertes des Anleihensteils im Zeitpunkt der Emission
 Der Bond Floor zum Emissionszeitpunkt wird berechnet, indem der Mindestrückzah-

@@ -9,7 +9,7 @@ ziffer: "4.2"
 seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.2 Begriff · S. 7–8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.2 Begriff · S. 7–8
 
 Krankheits- und Unfallkosten im Sinne von Ziffer 3 hiervor können auch von einer Person mit
 Behinderung nur insoweit abgezogen werden, als sie den in Artikel 33 Absatz 1 Buchstabe h

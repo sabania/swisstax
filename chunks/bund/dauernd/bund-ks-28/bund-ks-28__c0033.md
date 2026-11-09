@@ -2,14 +2,14 @@
 id: bund-ks-28__c0033
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Zusammenfassung der Erläuterungen zur LGBV (Teil 2/3)"
 ziffer: "Zusammenfassung"
 seiten: "14"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 14
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 14
 
 Artikel 37b DBG sieht vor, dass der Liquidationsgewinn (stille Reserven) getrennt vom übri-
 gen Einkommen privilegiert besteuert wird, wenn die selbständige Erwerbstätigkeit nach dem

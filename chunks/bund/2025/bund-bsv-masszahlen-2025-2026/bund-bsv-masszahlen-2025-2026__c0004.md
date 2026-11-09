@@ -9,7 +9,7 @@ ziffer: "1–5"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 1–5 · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Erläuterungen zu den Masszahlen › Ziff. 1–5 · S. 2
 
 Wichtige Masszahlen im Bereich der beruflichen Vorsorge
 Die jährlichen Angaben seit 1985 sind auf der BSV-Homepage

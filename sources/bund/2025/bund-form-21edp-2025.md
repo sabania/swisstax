@@ -12,6 +12,7 @@ sha256: 61152c0bff8d10106789058984eaf542054e24b7a7fceef9267199a99a1eeae8
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
 ---
 # ESTV Formular 21 EDP: Bescheinigung über Vorsorgebeiträge (Säule 3a) 2025
 

@@ -2,13 +2,13 @@
 id: bund-vstg__art-39
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 39 VStG"
 artikel: "Art. 39"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · I. Steuererhebung › 2. Auskunftspflicht › Art. 39
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · I. Steuererhebung › 2. Auskunftspflicht › Art. 39
 
 ### Art. 39 VStG
 

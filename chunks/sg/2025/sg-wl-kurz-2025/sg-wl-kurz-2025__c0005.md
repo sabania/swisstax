@@ -9,7 +9,7 @@ ziffer: "10.4-10.5"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: wegleitung}}
 ---
-> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 10. Berufskosten › 10.4–10.5 · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 10. Berufskosten › 10.4–10.5 · S. 1
 
 10.4 Wochenauf-   4.1   Tatsächliche Kosten auswärtiges Zimmer je nach Arbeitsort   max. Fr.   500   25
     enthalt   pro Monat   bis Fr.   800

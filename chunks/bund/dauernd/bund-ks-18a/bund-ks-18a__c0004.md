@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0004
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3 Kreis der Vorsorgenehmer (AHV-pflichtiges Einkommen, Grenzgänger)"
 ziffer: "3"
 seiten: "3"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 3. Kreis der Vorsorgenehmer · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 3. Kreis der Vorsorgenehmer · S. 3
 
 3.   Kreis der Vorsorgenehmer
 Vorsorgeverträge für anerkannte Formen der gebundenen Selbstvorsorge können nur von

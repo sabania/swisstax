@@ -8,7 +8,7 @@ titel: "§ 58 StV TG – Kirchensteuern juristischer Personen"
 artikel: "§ 58"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 9. Gemeindesteuern › § 58 Kirchensteuern juristischer Personen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 9. Gemeindesteuern › § 58 Kirchensteuern juristischer Personen
 
 ### § 58 StV TG – Kirchensteuern juristischer Personen
 

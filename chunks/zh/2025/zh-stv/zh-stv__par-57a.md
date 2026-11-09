@@ -9,7 +9,7 @@ artikel: "§ 57a"
 seiten: "11"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › E. Vereinfachtes Abrechnungsverfahren für kleine Arbeitsentgelte › § 57a StV ZH – Verteilung der Steuern · S. 11
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › E. Vereinfachtes Abrechnungsverfahren für kleine Arbeitsentgelte › § 57a StV ZH – Verteilung der Steuern · S. 11
 
 ### § 57a StV ZH – Verteilung der Steuern
 

@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/01_Kosten_der_Fahrt_zum_Arbeitsort__ab_2020_.pdf
 raw: raw/ar/dauernd/ar-mb-01.pdf
@@ -13,6 +14,8 @@ sha256: 225151d00c165178a313e024884d6f76203c0afc7f9d7bf6b1ab8ffd00251d73
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2020-04-30'
 ---
 # Merkblatt 01: Kosten der Fahrt zum Arbeitsort (ab 2020)
 

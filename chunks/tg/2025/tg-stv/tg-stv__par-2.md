@@ -8,7 +8,7 @@ titel: "§ 2 StV TG – Mietwert"
 artikel: "§ 2"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 2 Mietwert
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 2 Mietwert
 
 ### § 2 StV TG – Mietwert
 

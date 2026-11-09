@@ -2,13 +2,13 @@
 id: bund-sthg__art-78
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 78 StHG – Arrest"
 artikel: "Art. 78"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Achter Titel: Schlussbestimmungen › 3. Kapitel: Übergangsbestimmungen › Art. 78 Arrest
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Achter Titel: Schlussbestimmungen › 3. Kapitel: Übergangsbestimmungen › Art. 78 Arrest
 
 ### Art. 78 StHG – Arrest
 

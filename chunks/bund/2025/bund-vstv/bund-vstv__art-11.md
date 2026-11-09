@@ -2,13 +2,13 @@
 id: bund-vstv__art-11
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 11 VStV"
 artikel: "Art. 11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · IV. Bezug und Sicherung der Steuer › 3. Löschung im Handelsregister › Art. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · IV. Bezug und Sicherung der Steuer › 3. Löschung im Handelsregister › Art. 11
 
 ### Art. 11 VStV
 

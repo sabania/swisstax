@@ -8,7 +8,7 @@ titel: "Art. 250 StG AR – I. Verfahren vor den Steuerbehörden 1. Zuständigke
 artikel: "Art. 250"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 250 I. Verfahren vor den Steuerbehörden 1. Zuständigkeit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 250 I. Verfahren vor den Steuerbehörden 1. Zuständigkeit
 
 ### Art. 250 StG AR – I. Verfahren vor den Steuerbehörden 1. Zuständigkeit
 

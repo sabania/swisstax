@@ -8,7 +8,7 @@ titel: "Art. 11 StV AR – Mietwert von Grundstücken (Art. 24 Abs. 2 StG)"
 artikel: "Art. 11"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 11 Mietwert von Grundstücken (Art. 24 Abs. 2 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 11 Mietwert von Grundstücken (Art. 24 Abs. 2 StG)
 
 ### Art. 11 StV AR – Mietwert von Grundstücken (Art. 24 Abs. 2 StG)
 

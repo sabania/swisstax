@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0017
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Rz 34 Die Richtigkeit bezeugt – Bestätigung durch den Vorsorgeträger"
 ziffer: "34"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Die Richtigkeit bezeugt · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Die Richtigkeit bezeugt · S. 6
 
     Die Richtigkeit bezeugt
 34   Die Richtigkeit der Bescheinigung ist vom Verantwortlichen, mit dem Vorsorgenehmer in

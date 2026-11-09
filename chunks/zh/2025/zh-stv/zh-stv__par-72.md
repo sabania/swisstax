@@ -9,7 +9,7 @@ artikel: "§ 72"
 seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 72 StV ZH · S. 14
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 72 StV ZH · S. 14
 
 ### § 72 StV ZH
 

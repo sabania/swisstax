@@ -9,7 +9,7 @@ ziffer: "4.3.4–4.3.5"
 seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8
 
 4.3.4   Kosten für Heim- und Entlastungsaufenthalte
 

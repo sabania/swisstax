@@ -8,7 +8,7 @@ titel: "Art. 18 StV AR – Übrige Berufskosten (Art. 29 Abs. 1 lit. c StG)"
 artikel: "Art. 18"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 18 Übrige Berufskosten (Art. 29 Abs. 1 lit. c StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 18 Übrige Berufskosten (Art. 29 Abs. 1 lit. c StG)
 
 ### Art. 18 StV AR – Übrige Berufskosten (Art. 29 Abs. 1 lit. c StG)
 

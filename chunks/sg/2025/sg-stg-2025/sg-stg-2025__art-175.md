@@ -8,7 +8,7 @@ titel: "Art. 175 StG SG – d) Pflichten der kollektiven Kapitalanlagen"
 artikel: "Art. 175"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 175 d) Pflichten der kollektiven Kapitalanlagen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 175 d) Pflichten der kollektiven Kapitalanlagen
 
 ### Art. 175 StG SG – d) Pflichten der kollektiven Kapitalanlagen
 

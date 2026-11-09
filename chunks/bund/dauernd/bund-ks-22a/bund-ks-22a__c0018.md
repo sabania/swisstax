@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0018
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang Beispiel 1 – Negative Liegenschaftsrechnung: maximaler Schuldzinsenabzug 140'000"
 ziffer: "Bsp. 1"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · Anhang Beispiele › Beispiel 1 · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · Anhang Beispiele › Beispiel 1 · S. 7
 
 Anhang zum Kreisschreiben Nr. 22a vom 31. Januar 2020
 

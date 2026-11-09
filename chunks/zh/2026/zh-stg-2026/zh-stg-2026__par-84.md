@@ -9,7 +9,7 @@ artikel: "§ 84"
 seiten: "42"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Zeitliche Bemessung › § 84 StG ZH – II. Bemessung des Reingewinns · S. 42
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Zeitliche Bemessung › § 84 StG ZH – II. Bemessung des Reingewinns · S. 42
 
 ### § 84 StG ZH – II. Bemessung des Reingewinns
 

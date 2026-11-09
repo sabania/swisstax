@@ -2,13 +2,13 @@
 id: bund-vstg__art-20
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 20 VStG"
 artikel: "Art. 20"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · IV. Meldung statt Steuerentrichtung › 2. Bei Kapitalerträgen › Art. 20
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · IV. Meldung statt Steuerentrichtung › 2. Bei Kapitalerträgen › Art. 20
 
 ### Art. 20 VStG
 

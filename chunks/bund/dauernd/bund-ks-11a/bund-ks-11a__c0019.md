@@ -9,7 +9,7 @@ ziffer: "4.2"
 seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.2 Begriff · S. 7–8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.2 Begriff · S. 7–8
 
 4.2   Begriff der behinderungsbedingten Kosten
 Als behinderungsbedingt gelten die notwendigen Kosten, die als Folge einer Behinderung ge

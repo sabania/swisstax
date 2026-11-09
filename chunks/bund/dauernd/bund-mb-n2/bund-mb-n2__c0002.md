@@ -2,13 +2,13 @@
 id: bund-mb-n2__c0002
 quelle: bund-mb-n2
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ansatztabelle Erwachsene und Kinder – Frühstück bis Volle Verpflegung und Unterkunft"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB N2/2007 · Bewertung Verpflegung und Unterkunft › Ansätze · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB N2/2007 · Bewertung Verpflegung und Unterkunft › Ansätze · S. 1
 
     Erwachsene 1   Kinder 2
     bis 6jährig   über 6jährig   über 13jährig

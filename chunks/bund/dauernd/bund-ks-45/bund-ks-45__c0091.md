@@ -2,14 +2,14 @@
 id: bund-ks-45__c0091
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.6 Beispiel 6 – jährliche Auszahlung 13. Monatslohn, Austritt 15. Dezember 2021"
 ziffer: "6.6"
 seiten: "29"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.6 Untermonatige Ein- und Austritte · S. 29
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.6 Untermonatige Ein- und Austritte · S. 29
 
     6. Jährliche Auszahlung des 13. Monatslohns (Dezember) gemäss Arbeitsvertrag:
     Der Arbeitnehmer V. tritt per 15. Dezember 2021 aus der Unternehmung aus und erhält neben der anteils-

@@ -2,14 +2,14 @@
 id: bund-ks-42__c0010
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.1 Allgemeines – Voraussetzungen, Altersrentner, Lebenshaltungskosten (Teil 2/2)"
 ziffer: "4.1"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.1 Allgemeines · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 4 Steuerliche Behandlung › 4.1 Allgemeines · S. 6
 
 ben) und der Tertiärstufe als auch ausserhalb des formalen Bildungssystems in Abzug gebracht
 werden. Unter formaler Bildung wird gemeinhin die institutionalisierte, kontinuierliche Aus- und

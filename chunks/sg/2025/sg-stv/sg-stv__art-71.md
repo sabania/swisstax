@@ -8,7 +8,7 @@ titel: "Art. 71 StV SG – Gemeindesteueramt (Art. 160 StG) a) Vorbereitung und 
 artikel: "Art. 71"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 71 Gemeindesteueramt (Art. 160 StG) a) Vorbereitung und Vollzug von Veranlagungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 71 Gemeindesteueramt (Art. 160 StG) a) Vorbereitung und Vollzug von Veranlagungen
 
 ### Art. 71 StV SG – Gemeindesteueramt (Art. 160 StG) a) Vorbereitung und Vollzug von Veranlagungen
 

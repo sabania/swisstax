@@ -2,14 +2,14 @@
 id: bund-ks-15__c0092
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 6a Steuerliche Behandlung bedingter Coupons"
 ziffer: "Anh. III 6a"
 seiten: "25-26"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 6 Kapitalgarantierte Derivate · S. 25–26
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 6 Kapitalgarantierte Derivate · S. 25–26
 
 1-015-DVS-2017-d / Anhang III
 

@@ -8,7 +8,7 @@ titel: "Art. 285a StG AR – 9. Gewinnsteuer, Steuerberechnung bei Kapitalgesell
 artikel: "Art. 285a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285a 9. Gewinnsteuer, Steuerberechnung bei Kapitalgesellschaften und Genossenschaften
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285a 9. Gewinnsteuer, Steuerberechnung bei Kapitalgesellschaften und Genossenschaften
 
 ### Art. 285a StG AR – 9. Gewinnsteuer, Steuerberechnung bei Kapitalgesellschaften und Genossenschaften
 

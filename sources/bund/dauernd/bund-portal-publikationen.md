@@ -6,12 +6,14 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: portal
 quelle_url: https://www.estv.admin.ch/de/publikationen-direkte-bundessteuer
 raw: raw/bund/dauernd/bund-portal-publikationen.html
 sha256: d9c7d95a94291166972e356b825110c3ee175b590c551393c1d82d1fa82b39ef
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Publikationen DBST (Übersicht)
 

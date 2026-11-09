@@ -9,7 +9,7 @@ ziffer: "§ 24"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 24 · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 24 · S. 1
 
 Die Finanzdirektion,
 gestützt auf § 48 des Steuergesetzes vom 8. Juni 1997 (StG)1,

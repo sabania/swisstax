@@ -8,7 +8,7 @@ titel: "Art. 27 StV AR – b) Renten und Unterhaltsleistungen (Art. 35 lit. b un
 artikel: "Art. 27"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 27 b) Renten und Unterhaltsleistungen (Art. 35 lit. b und c StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 27 b) Renten und Unterhaltsleistungen (Art. 35 lit. b und c StG)
 
 ### Art. 27 StV AR – b) Renten und Unterhaltsleistungen (Art. 35 lit. b und c StG)
 

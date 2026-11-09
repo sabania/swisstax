@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 28: Liquidationsgewinne bei Aufgabe der selbständigen Erwerbstätigkeit"
 generiert: tools/build_index.py
 ---
 # KS 28: ESTV-Kreisschreiben Nr. 28: Liquidationsgewinne bei Aufgabe der selbständigen Erwerbstätigkeit
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2010-11-03
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2010-11-03
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/geU4pmmZRFPX/dbst-ks-2010-1-028-d-de.pdf> · lokal: [bund-ks-28.pdf](../../../raw/bund/dauernd/bund-ks-28.pdf) · Volltext: [bund-ks-28.md](../../../sources/bund/dauernd/bund-ks-28.md)
 - **Abgerufen:** 2026-11-09 · sha256 `65a00487181abc13…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2011-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-28`).
+
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

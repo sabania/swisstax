@@ -8,7 +8,7 @@ titel: "Art. 22 StG SG – b) Erbengemeinschaften"
 artikel: "Art. 22"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 22 b) Erbengemeinschaften
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 22 b) Erbengemeinschaften
 
 ### Art. 22 StG SG – b) Erbengemeinschaften
 

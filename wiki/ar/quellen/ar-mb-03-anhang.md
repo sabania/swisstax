@@ -2,15 +2,16 @@
 typ: quelle
 id: ar-mb-03-anhang
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 03-anhang: Anhang zum Merkblatt Liegenschaftsunterhalt (ab 2024)"
 generiert: tools/build_index.py
 ---
 # MB AR 03-anhang: Merkblatt 03-anhang: Anhang zum Merkblatt Liegenschaftsunterhalt (ab 2024)
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/03__2__Anhang_zum_Merkblatt_Liegenschaftenunterhalt__ab_2024_.pdf> · lokal: [ar-mb-03-anhang.pdf](../../../raw/ar/dauernd/ar-mb-03-anhang.pdf) · Volltext: [ar-mb-03-anhang.md](../../../sources/ar/dauernd/ar-mb-03-anhang.md)
 - **Abgerufen:** 2026-11-09 · sha256 `35e078f44ce7d442…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2024-11-21 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

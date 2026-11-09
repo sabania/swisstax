@@ -9,7 +9,7 @@ artikel: "§ 31"
 seiten: "17-18"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge · S. 17–18
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge · S. 17–18
 
 ### § 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge
 

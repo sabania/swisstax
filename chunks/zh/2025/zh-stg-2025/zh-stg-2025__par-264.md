@@ -9,7 +9,7 @@ artikel: "§ 264"
 seiten: "89"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › B. Steuervergehen › § 264 StG ZH – IV. Verjährung der Strafverfolgung · S. 89
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › B. Steuervergehen › § 264 StG ZH – IV. Verjährung der Strafverfolgung · S. 89
 
 ### § 264 StG ZH – IV. Verjährung der Strafverfolgung
 

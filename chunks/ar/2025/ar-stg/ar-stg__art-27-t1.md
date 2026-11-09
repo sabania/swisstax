@@ -8,7 +8,7 @@ titel: "Art. 27 StG AR – II. Steuerfreie Einkünfte (Teil 1/3)"
 artikel: "Art. 27"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 27 II. Steuerfreie Einkünfte
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 27 II. Steuerfreie Einkünfte
 
 ### Art. 27 StG AR – II. Steuerfreie Einkünfte
 

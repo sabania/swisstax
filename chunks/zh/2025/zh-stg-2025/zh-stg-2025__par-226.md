@@ -9,7 +9,7 @@ artikel: "§ 226"
 seiten: "81"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 226 StG ZH – VI. Steuererklärung · S. 81
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Grundstückgewinnsteuer › § 226 StG ZH – VI. Steuererklärung · S. 81
 
 ### § 226 StG ZH – VI. Steuererklärung
 

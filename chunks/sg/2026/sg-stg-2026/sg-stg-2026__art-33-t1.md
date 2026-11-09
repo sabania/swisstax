@@ -8,7 +8,7 @@ titel: "Art. 33 StG SG – d) Bewegliches Vermögen 1. Grundsatz (Teil 1/6)"
 artikel: "Art. 33"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 33 d) Bewegliches Vermögen 1. Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 33 d) Bewegliches Vermögen 1. Grundsatz
 
 ### Art. 33 StG SG – d) Bewegliches Vermögen 1. Grundsatz
 

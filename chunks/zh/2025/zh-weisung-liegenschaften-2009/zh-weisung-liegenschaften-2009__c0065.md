@@ -9,7 +9,7 @@ ziffer: "10"
 seiten: "28"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum · S. 28
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · Anhang › Steuerlich massgebende Landwerte › Wohnbauland, unbebaute Grundstücke, MFH/Stockwerkeigentum · S. 28
 
 Elsau   5   680   610   530   460   380   –   –
 Hagenbuch   5   570   510   450   390   330   –   –

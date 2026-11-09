@@ -8,7 +8,7 @@ titel: "Art. 77 StG SG – Beginn und Ende der Steuerpflicht"
 artikel: "Art. 77"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 77 Beginn und Ende der Steuerpflicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › I. Steuerpflicht › Art. 77 Beginn und Ende der Steuerpflicht
 
 ### Art. 77 StG SG – Beginn und Ende der Steuerpflicht
 

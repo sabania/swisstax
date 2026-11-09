@@ -7,7 +7,7 @@ typ: info
 titel: "FAQ natürliche Personen"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · FAQ natürliche Personen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · FAQ natürliche Personen
 
 # FAQ natürliche Personen
 

@@ -8,7 +8,7 @@ titel: "Art. 26 StV AR – Allgemeine Abzüge (Art. 35 lit. a StG) a) Schuldzins
 artikel: "Art. 26"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 26 Allgemeine Abzüge (Art. 35 lit. a StG) a) Schuldzinsen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 26 Allgemeine Abzüge (Art. 35 lit. a StG) a) Schuldzinsen
 
 ### Art. 26 StV AR – Allgemeine Abzüge (Art. 35 lit. a StG) a) Schuldzinsen
 

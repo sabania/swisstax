@@ -9,7 +9,7 @@ ziffer: "§ 31 Abs. 1 lit. j, k"
 seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 31 · S. 2
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 31 · S. 2
 
     j.   die nachgewiesenen Kosten, jedoch höchstens Fr. 25 300, für die
     Drittbetreuung jedes Kindes, welches das 14. Altersjahr noch nicht

@@ -8,7 +8,7 @@ titel: "§ 26 StV TG – Abrechnungsperiode, Ablieferung"
 artikel: "§ 26"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 4. Quellensteuer für natürliche und juristische Personen › 4.3. Allgemeine Bestimmungen * › § 26 Abrechnungsperiode, Ablieferung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 4. Quellensteuer für natürliche und juristische Personen › 4.3. Allgemeine Bestimmungen * › § 26 Abrechnungsperiode, Ablieferung
 
 ### § 26 StV TG – Abrechnungsperiode, Ablieferung
 

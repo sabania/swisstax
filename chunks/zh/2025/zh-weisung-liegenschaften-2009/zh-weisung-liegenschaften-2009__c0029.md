@@ -9,7 +9,7 @@ ziffer: "75–78"
 seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · C. Liegenschaften im Baurecht › I.–II. Baurechtsnehmer, Baurechtsgeber · S. 14
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · C. Liegenschaften im Baurecht › I.–II. Baurechtsnehmer, Baurechtsgeber · S. 14
 
     C. Liegenschaften im Baurecht
 

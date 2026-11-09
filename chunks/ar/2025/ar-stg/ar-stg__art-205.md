@@ -8,7 +8,7 @@ titel: "Art. 205 StG AR – III. Schlussrechnung"
 artikel: "Art. 205"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 205 III. Schlussrechnung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 205 III. Schlussrechnung
 
 ### Art. 205 StG AR – III. Schlussrechnung
 

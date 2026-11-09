@@ -2,15 +2,23 @@
 typ: quelle
 id: tg-stp-29-4
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "StP 29 Nr. 4: Mehrkosten der Verpflegung"
 generiert: tools/build_index.py
 ---
 # StP 29 Nr. 4: StP 29 Nr. 4: Mehrkosten der Verpflegung
 
-- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-29-nr-4-mehrkosten-der-verpflegung> · lokal: [tg-stp-29-4.html](../../../raw/tg/dauernd/tg-stp-29-4.html) · Volltext: [tg-stp-29-4.md](../../../sources/tg/dauernd/tg-stp-29-4.md)
 - **Abgerufen:** 2026-11-09 · sha256 `75e4c74391333e39…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2021-07-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-29-4`).
+
+- `data/werte/tg/2025.yaml#6:berufskosten.verpflegung.jahr` (agent-geprueft)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 
 ## Inhalt (10 Chunks)
 

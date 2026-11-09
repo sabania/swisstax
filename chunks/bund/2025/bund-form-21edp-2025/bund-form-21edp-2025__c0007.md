@@ -8,7 +8,7 @@ titel: "Bemerkungen, Ort/Datum, Bestätigung der Einrichtung"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › Abschluss · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · Formular 21 EDP 2025 · Bescheinigung über Vorsorgebeiträge › Abschluss · S. 1
 
 Bemerkungen – Observations – Osservazioni
 

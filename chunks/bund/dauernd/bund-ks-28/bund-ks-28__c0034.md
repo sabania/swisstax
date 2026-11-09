@@ -2,14 +2,14 @@
 id: bund-ks-28__c0034
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Zusammenfassung der Erläuterungen zur LGBV (Teil 3/3)"
 ziffer: "Zusammenfassung"
 seiten: "14"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 14
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 14
 
 Es besteht für die steuerpflichtige Person ferner die Möglichkeit, ein dem Einkauf in die be-
 rufliche Vorsorge entsprechender fiktiver Einkauf (maximal im Umfang des Liquidationsge-

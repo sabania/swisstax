@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-30-3.html> · lokal: [zh-zstb-30-3.html](../../../raw/zh/dauernd/zh-zstb-30-3.html) · Volltext: [zh-zstb-30-3.md](../../../sources/zh/dauernd/zh-zstb-30-3.md)
 - **Abgerufen:** 2026-11-09 · sha256 `33d3a3ba2031df48…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2020-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-30-3`).
+
+- `data/belege-teil2.yaml#3:liegenschaft-unterhaltsrechnungen` (agent-geprueft)
 
 ## Inhalt (54 Chunks)
 

@@ -9,7 +9,7 @@ artikel: "§ 210"
 seiten: "76"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 210 StG ZH – 2. Entscheid · S. 76
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 210 StG ZH – 2. Entscheid · S. 76
 
 ### § 210 StG ZH – 2. Entscheid
 

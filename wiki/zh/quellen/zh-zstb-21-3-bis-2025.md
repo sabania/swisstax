@@ -2,15 +2,23 @@
 typ: quelle
 id: zh-zstb-21-3-bis-2025
 jur: zh
-jahre: [2025]
+jahre: []
 titel: "ZStB 21.3: Härtefalleinschlag Eigenmietwert – aufgehobene Fassung (bis 2025)"
 generiert: tools/build_index.py
 ---
 # ZStB 21.3 (aufgehoben): ZStB 21.3: Härtefalleinschlag Eigenmietwert – aufgehobene Fassung (bis 2025)
 
-- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025
+- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** –
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-21-3/zstb-nr-21-3_weisung_aufgehoben.pdf> · lokal: [zh-zstb-21-3-bis-2025.pdf](../../../raw/zh/2025/zh-zstb-21-3-bis-2025.pdf) · Volltext: [zh-zstb-21-3-bis-2025.md](../../../sources/zh/2025/zh-zstb-21-3-bis-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c185fce0fa5a4745…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 1999-01-01 bis 2023-05-23 · ersetzt durch `zh-zstb-21-3`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-21-3-bis-2025`).
+
+- `data/werte/zh/2025.yaml#42:liegenschaft.eigenmietwert_abzug` (agent-geprueft)
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

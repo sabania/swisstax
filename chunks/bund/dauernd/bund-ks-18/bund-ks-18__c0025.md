@@ -9,7 +9,7 @@ ziffer: "6.2 b–c"
 seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung · S. 8–9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung · S. 8–9
 
 Eine Ausrichtung unter dem Titel „Wohneigentumsförderung“ ist nur bis zu dem in Artikel 3
 Absatz 1 BVV 3 festgelegten Alter möglich. Überschreitet der Versicherte dieses Alter, kann

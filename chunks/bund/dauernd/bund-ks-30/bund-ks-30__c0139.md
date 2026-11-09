@@ -2,14 +2,14 @@
 id: bund-ks-30__c0139
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 15.6 Akteneinsichtsrecht der Ehegatten"
 ziffer: "15.6"
 seiten: "41-42"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.6 Akteneinsichtsrecht · S. 41–42
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.6 Akteneinsichtsrecht · S. 41–42
 
 15.6   Akteneinsichtsrecht
 

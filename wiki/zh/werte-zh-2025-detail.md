@@ -442,7 +442,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 - **Wert:** Kein prozentualer Pauschal-Einschlag: Eigenmietwert nach Weisung 2009 (ZStB 21.1), Formelwert wird auf 60–70 % der Marktmiete begrenzt; Einschlag nur ausnahmsweise bei tatsächlicher Unternutzung (ZStB 21.2). Der frühere Härtefalleinschlag (ZStB 21.3) ist aufgehoben.
 - **Schlüssel:** `liegenschaft.eigenmietwert_abzug` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Weisung 2009 (ZStB 21.1) Ziff. 83–86; WL ZH 2025 Liegenschaftenverzeichnis
-- **Bemerkung:** Weisung 2009 gilt bis Steuerjahr 2025; ab 2026 Weisung 2026 (nicht Teil dieser Datei).
+- **Bemerkung:** Weisung 2009 gilt bis Steuerjahr 2025; ab 2026 Weisung 2026 (nicht Teil dieser Datei). Zitat zh-zstb-21-3-bis-2025 (aufgehobene Härtefall-Weisung) belegt nur, dass diese Weisung für 2025 nicht mehr gilt (jahr_ok).
 - **Quellen:**
   - [Weisung 2009 ZH S. 16](../../chunks/zh/2025/zh-weisung-liegenschaften-2009/zh-weisung-liegenschaften-2009__c0033.md) `zh-weisung-liegenschaften-2009__c0033` – «über 70% der Marktmiete oder unter 60% derselben liegt»
   - [Weisung 2009 ZH S. 16](../../chunks/zh/2025/zh-weisung-liegenschaften-2009/zh-weisung-liegenschaften-2009__c0035.md) `zh-weisung-liegenschaften-2009__c0035` – «auf 60% des Marktmietwerts festzulegen, wenn der Formelwert»
@@ -665,10 +665,10 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 - **Wert:** Steuererklärung 2025 (natürliche Personen) bis 31. März 2026 einreichen (online oder Scan-Center).
 - **Schlüssel:** `verfahren.einreichefrist` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 133 StG ZH; ZStB 132.1 Ziff. G
-- **Bemerkung:** Datum 31.3.2026 laut WL ZH 2025; Fassung ZStB 132.1 bis 31.12.2025.
+- **Bemerkung:** Datum 31.3.2026 laut WL ZH 2025; Fassung ZStB 132.1 bis 31.12.2025. Zeitmodell: Für die Einreichung/Fristerstreckung der Erklärung 2025 im Jahr 2026 gilt die Verfahrensfassung ZStB 132.1 ab 1.1.2026 (zh-zstb-132-1); die Fassung «bis 31.12.2025» ist gleichlautend, betrifft aber das Verfahren 2025.
 - **Quellen:**
   - [WL ZH 2025 S. 7](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0017.md) `zh-wl-2025__c0017` – «Die Steuererklärung ist bis am 31. März 2026 einzureichen.»
-  - [ZStB 132.1 (bis 2025) S. 7](../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0019.md) `zh-zstb-132-1-bis-2025__c0019` – «bis 31. März des der Steuerperiode folgenden Kalenderjahres»
+  - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0022.md) `zh-zstb-132-1__c0022` – «bis 31. März des der Steuerperiode folgenden Kalenderjahres»
 
 <a id="verfahren-fristerstreckung"></a>
 ### Fristerstreckung – Regel (Private / Treuhänder), Kosten
@@ -676,11 +676,11 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 - **Wert:** Gesuch vor Fristablauf beim Gemeindesteueramt; rechtzeitige Gesuche werden entsprechend dem Gesuch bewilligt, längstens bis 30. November des Folgejahres; erstes Gesuch gilt ohne gegenteiligen Entscheid als stillschweigend bewilligt; darüber hinaus nur aus ausserordentlichen Gründen (berufliche Belastung des Vertreters genügt nicht). Von Amtes wegen bis 30. September für Selbständige und Ausserkantonale. Mahnfristen nicht erstreckbar. Abgelaufene Fristen können nicht erstreckt werden.
 - **Schlüssel:** `verfahren.fristerstreckung` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 39 StV; ZStB 132.1 Ziff. G.II
-- **Bemerkung:** Kosten der Fristerstreckung: in den Quellen nicht genannt. Fassung ZStB 132.1 gültig bis 31.12.2025 (ab 2026 neue Fassung).
+- **Bemerkung:** Kosten der Fristerstreckung: in den Quellen nicht genannt. Fassung ZStB 132.1 gültig bis 31.12.2025 (ab 2026 neue Fassung). Zeitmodell: Für die Einreichung/Fristerstreckung der Erklärung 2025 im Jahr 2026 gilt die Verfahrensfassung ZStB 132.1 ab 1.1.2026 (zh-zstb-132-1); die Fassung «bis 31.12.2025» ist gleichlautend, betrifft aber das Verfahren 2025.
 - **Quellen:**
-  - [ZStB 132.1 (bis 2025) S. 8](../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0021.md) `zh-zstb-132-1-bis-2025__c0021` – «längstens bis 30. November des der Steuerperiode folgenden Kalenderjahres»
-  - [ZStB 132.1 (bis 2025) S. 8](../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0023.md) `zh-zstb-132-1-bis-2025__c0023` – «als vom Gemeindesteueramt stillschweigend bewilligt»
-  - [ZStB 132.1 (bis 2025) S. 8](../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0021.md) `zh-zstb-132-1-bis-2025__c0021` – «starke berufliche Inanspruchnahme der Vertreterin oder des Vertreters»
+  - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0024.md) `zh-zstb-132-1__c0024` – «längstens bis 30. November des der Steuerperiode folgenden Kalenderjahres»
+  - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0026.md) `zh-zstb-132-1__c0026` – «erstmalige Fristerstreckungsgesuche gelten ohne gegenteiligen schriftlichen Entscheid als stillschweigend bewilligt»
+  - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0025.md) `zh-zstb-132-1__c0025` – «starke berufliche Inanspruchnahme der Vertreterin oder des Vertreters»
   - [WL ZH 2025 S. 7](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0017.md) `zh-wl-2025__c0017` – «Mahnfristen sind nicht erstreckbar.»
 
 <a id="verfahren-abgabeweg"></a>
@@ -689,9 +689,9 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 - **Wert:** Steuererklärung natürlicher Personen online oder beim Scan-Center einreichen; auch Papierform zulässig (elektronische Einreichung über Applikation des kantonalen Steueramts); Beilagen in Papierform (keine CD/DVD).
 - **Schlüssel:** `verfahren.abgabeweg` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** V elektr. Einreichung (LS 631.121) § 1 Abs. 3; ZStB 132.1 Ziff. G.I.1
-- **Bemerkung:** korrigiert durch Prüfung: ursprüngliches Zitat stammte aus ZStB 133.1 (Aufforderung 2026, Steuerpflicht-Ende im Jahr 2026, 30-Tage-Frist) und belegte die ordentliche Einreichung 2025 nicht; ersetzt durch ZStB 132.1 (bis 2025). Unterschriftsregel bei Online-Einreichung nicht verifiziert.
+- **Bemerkung:** korrigiert durch Prüfung: ursprüngliches Zitat stammte aus ZStB 133.1 (Aufforderung 2026, Steuerpflicht-Ende im Jahr 2026, 30-Tage-Frist) und belegte die ordentliche Einreichung 2025 nicht; ersetzt durch ZStB 132.1 (bis 2025). Unterschriftsregel bei Online-Einreichung nicht verifiziert. Zeitmodell: Für die Einreichung/Fristerstreckung der Erklärung 2025 im Jahr 2026 gilt die Verfahrensfassung ZStB 132.1 ab 1.1.2026 (zh-zstb-132-1); die Fassung «bis 31.12.2025» ist gleichlautend, betrifft aber das Verfahren 2025.
 - **Quellen:**
-  - [ZStB 132.1 (bis 2025) S. 7](../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0019.md) `zh-zstb-132-1-bis-2025__c0019` – «online oder dem Scan-Center einzureichen»
+  - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0022.md) `zh-zstb-132-1__c0022` – «online oder dem Scan-Center einzureichen»
   - [V elektr. Einreichung ZH § 1](../../chunks/zh/2025/zh-v-einreichung/zh-v-einreichung__par-1.md) `zh-v-einreichung__par-1` – «Die Steuererklärung kann auch in Papierform eingereicht werden.»
   - [WL ZH 2025 S. 31](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0201.md) `zh-wl-2025__c0201` – «Beilagen zur Steuererklärung sind in Papierform einzureichen.»
 

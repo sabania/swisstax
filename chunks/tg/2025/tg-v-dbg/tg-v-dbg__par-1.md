@@ -8,7 +8,7 @@ titel: "§ 1 V DBG TG – Organe"
 artikel: "§ 1"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 1 Organe
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 1 Organe
 
 ### § 1 V DBG TG – Organe
 

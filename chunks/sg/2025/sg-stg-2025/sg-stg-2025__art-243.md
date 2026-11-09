@@ -8,7 +8,7 @@ titel: "Art. 243 StG SG – Steuerbemessung"
 artikel: "Art. 243"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 243 Steuerbemessung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 243 Steuerbemessung
 
 ### Art. 243 StG SG – Steuerbemessung
 

@@ -8,7 +8,7 @@ titel: "Art. 77 StG AR – III. Steuerberechnung 1. Kapitalgesellschaften und Ge
 artikel: "Art. 77"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 77 III. Steuerberechnung 1. Kapitalgesellschaften und Genossenschaften
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 77 III. Steuerberechnung 1. Kapitalgesellschaften und Genossenschaften
 
 ### Art. 77 StG AR – III. Steuerberechnung 1. Kapitalgesellschaften und Genossenschaften
 

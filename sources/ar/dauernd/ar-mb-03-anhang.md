@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/03__2__Anhang_zum_Merkblatt_Liegenschaftenunterhalt__ab_2024_.pdf
 raw: raw/ar/dauernd/ar-mb-03-anhang.pdf
@@ -13,6 +14,8 @@ sha256: 35e078f44ce7d4423f86a1e88c3fdf989f7f75cc974138d669b5d881123ea29a
 abgerufen: '2026-11-09'
 seiten: 7
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2024-11-21'
 ---
 # Merkblatt 03-anhang: Anhang zum Merkblatt Liegenschaftsunterhalt (ab 2024)
 

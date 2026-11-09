@@ -9,7 +9,7 @@ artikel: "§ 28"
 seiten: "16"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 28 StG ZH – b. Ersatzbeschaffungen · S. 16
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 28 StG ZH – b. Ersatzbeschaffungen · S. 16
 
 ### § 28 StG ZH – b. Ersatzbeschaffungen
 

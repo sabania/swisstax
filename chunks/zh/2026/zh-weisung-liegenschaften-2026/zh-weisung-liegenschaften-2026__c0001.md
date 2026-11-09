@@ -8,7 +8,7 @@ titel: "Weisung 2026 ZH – Titel, Ermächtigung, Geltung ab Steuerperiode 2026"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · S. 1
 
 # Weisung 2026 über die Bewertung von Liegenschaften und die Festsetzung der Eigenmietwerte (LS 631.32)
 

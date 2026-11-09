@@ -8,7 +8,7 @@ titel: "Art. 114 StG SG – Vergütungen aus dem Ausland"
 artikel: "Art. 114"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 114 Vergütungen aus dem Ausland
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › I. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 114 Vergütungen aus dem Ausland
 
 ### Art. 114 StG SG – Vergütungen aus dem Ausland
 

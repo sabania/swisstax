@@ -8,7 +8,7 @@ titel: "Art. 17c DBG – Einkünfte aus unechten Mitarbeiterbeteiligungen"
 artikel: "Art. 17c"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 2. Abschnitt: Unselbständige Erwerbstätigkeit › Art. 17c Einkünfte aus unechten Mitarbeiterbeteiligungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerbare Einkünfte › 2. Abschnitt: Unselbständige Erwerbstätigkeit › Art. 17c Einkünfte aus unechten Mitarbeiterbeteiligungen
 
 ### Art. 17c DBG – Einkünfte aus unechten Mitarbeiterbeteiligungen
 

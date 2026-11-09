@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 7Z Zusammenzug aller Liegenschaften – Hinweise und Spalten",
    "pfad": [
     "Formular 7Z"
@@ -27,7 +27,7 @@
    "zusammenfassung": "Bei mehr als einer Liegenschaft sind die Ergebnisse je Formular 7 zu übertragen; Spalten Steuerwert 31.12.2025 (A), Erträge (B), Pauschalabzug (C1), tatsächliche Kosten (C2)."
   },
   {
-   "start": 43,
+   "start": 28,
    "titel": "Liegenschaftsliste Nr. 1–25 (leeres Raster)",
    "pfad": [
     "Formular 7Z",
@@ -45,7 +45,7 @@
    "skip": false
   },
   {
-   "start": 77,
+   "start": 62,
    "titel": "Total – Übertrag Steuererklärung Seite 4 Ziff. 31, Seite 2 Ziff. 5, Seite 3 Ziff. 15",
    "pfad": [
     "Formular 7Z",
@@ -64,5 +64,7 @@
    ],
    "zusammenfassung": "Totale sind zu übertragen: Steuerwert Seite 4 Ziffer 31, Erträge Seite 2 Ziffer 5, Unterhaltskosten Seite 3 Ziffer 15."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

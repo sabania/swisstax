@@ -8,7 +8,7 @@ titel: "§ 20 SchäV TG – Ertragswert"
 artikel: "§ 20"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 3. Schätzung land- und forstwirtschaftlicher Grundstücke › § 20 Ertragswert
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 3. Schätzung land- und forstwirtschaftlicher Grundstücke › § 20 Ertragswert
 
 ### § 20 SchäV TG – Ertragswert
 

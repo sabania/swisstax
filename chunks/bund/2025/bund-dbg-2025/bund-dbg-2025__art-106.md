@@ -8,7 +8,7 @@ titel: "Art. 106 DBG – Bei wirtschaftlicher Zugehörigkeit"
 artikel: "Art. 106"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Kantonale Behörden › 2. Abschnitt: Örtliche Zuständigkeit › Art. 106 Bei wirtschaftlicher Zugehörigkeit
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Kantonale Behörden › 2. Abschnitt: Örtliche Zuständigkeit › Art. 106 Bei wirtschaftlicher Zugehörigkeit
 
 ### Art. 106 DBG – Bei wirtschaftlicher Zugehörigkeit
 

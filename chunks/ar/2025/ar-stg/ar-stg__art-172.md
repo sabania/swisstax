@@ -8,7 +8,7 @@ titel: "Art. 172 StG AR – 2. Einspracheverfahren"
 artikel: "Art. 172"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 172 2. Einspracheverfahren
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 172 2. Einspracheverfahren
 
 ### Art. 172 StG AR – 2. Einspracheverfahren
 

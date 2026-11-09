@@ -9,7 +9,7 @@ ziffer: "5.2"
 seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 5. Abzugsfähige Kosten › 5.2 Unterhaltene Personen · S. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 5. Abzugsfähige Kosten › 5.2 Unterhaltene Personen · S. 11
 
 Abgezogen werden können auch die Kosten von weiteren von der steuerpflichtigen Person
 unterhaltenen Personen. Als unterhaltene Person gilt jede unterstützungsbedürftige Person,

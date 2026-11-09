@@ -9,7 +9,7 @@ ziffer: "3.2.5–3.2.6"
 seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5
 
 3.2.5   Kosten für Medikamente und Heilmittel
 Die Kosten für Medikamente und Heilmittel sind nur abzugsfähig, wenn sie von einer Ärztin, ei

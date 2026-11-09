@@ -8,7 +8,7 @@ titel: "Art. 156 StG SG – 2. Wegfall der Ermässigung"
 artikel: "Art. 156"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 156 2. Wegfall der Ermässigung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 156 2. Wegfall der Ermässigung
 
 ### Art. 156 StG SG – 2. Wegfall der Ermässigung
 

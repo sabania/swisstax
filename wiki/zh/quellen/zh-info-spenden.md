@@ -11,6 +11,18 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/steuern-natuerliche-personen/spenden-an-gemeinnuetzige-organisationen.html> · lokal: [zh-info-spenden.html](../../../raw/zh/dauernd/zh-info-spenden.html) · Volltext: [zh-info-spenden.md](../../../sources/zh/dauernd/zh-info-spenden.md)
 - **Abgerufen:** 2026-11-09 · sha256 `6b921026c59904f8…`
+- **Gültigkeit:** Zeitbezug info (Information) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 5 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-info-spenden`).
+
+- `data/belege-teil2.yaml#9:spendenbestaetigung` (agent-geprueft)
+- `data/werte/zh/2025.yaml#36:spenden.min` (agent-geprueft)
+- `data/werte/zh/2025.yaml#37:spenden.max_satz` (agent-geprueft)
+- `data/werte/zh/2026.yaml#36:spenden.min` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#45:abzug.spenden@22.2` (agent-geprueft)
+- [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)
 
 ## Inhalt (8 Chunks)
 

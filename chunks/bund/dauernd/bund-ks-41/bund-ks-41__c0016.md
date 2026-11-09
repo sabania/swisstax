@@ -2,14 +2,14 @@
 id: bund-ks-41__c0016
 quelle: bund-ks-41
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.2.6 Aufnahme selbständiger Erwerbstätigkeit und Investitionen im Betrieb (Teil 1/2)"
 ziffer: "2.2.6"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 41 · 2.2 Steuerliche Auswirkungen › 2.2.6 Selbständige Erwerbstätigkeit · S. 5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 41 · 2.2 Steuerliche Auswirkungen › 2.2.6 Selbständige Erwerbstätigkeit · S. 5
 
 2.2.6   Aufnahme einer selbständigen Erwerbstätigkeit und Investitionen in
     den eigenen Betrieb

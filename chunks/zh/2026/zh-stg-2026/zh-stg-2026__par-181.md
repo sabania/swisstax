@@ -9,7 +9,7 @@ artikel: "§ 181"
 seiten: "71"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Steuersicherung › § 181 StG ZH – I. Sicherstellung · S. 71
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Steuersicherung › § 181 StG ZH – I. Sicherstellung · S. 71
 
 ### § 181 StG ZH – I. Sicherstellung
 

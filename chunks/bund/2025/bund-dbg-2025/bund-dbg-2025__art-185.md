@@ -8,7 +8,7 @@ titel: "Art. 185 DBG"
 artikel: "Art. 185"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 6. Kapitel: Bezug und Verjährung der Bussen und Kosten › Art. 185
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 6. Kapitel: Bezug und Verjährung der Bussen und Kosten › Art. 185
 
 ### Art. 185 DBG
 

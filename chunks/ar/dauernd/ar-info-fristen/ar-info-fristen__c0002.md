@@ -7,7 +7,7 @@ typ: info
 titel: "Steuererklärung für juristische Personen"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: info}}
 ---
-> AR · Steuerjahr 2025/2026 · AR Fristverlängerung · Steuererklärungen / Fristverlängerungen › Steuererklärung für juristische Personen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · AR Fristverlängerung · Steuererklärungen / Fristverlängerungen › Steuererklärung für juristische Personen
 
 ### Fristverlängerung
 

@@ -7,7 +7,7 @@ typ: info
 titel: "Liegenschaften"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
 
     Aufgrund bundesgerichtlicher Rechtsprechung muss der Kanton Thurgau die geschätzten Marktwerte, als Grundlage für die Besteuerung, daher jährlich indexieren. Mit der Indexierung werden die Schwankungen im Liegenschaftenmarkt berücksichtigt, d.h. es wird verglichen, wie sich der Liegenschaftenmarkt zwischen dem Schätzungsjahr und der zu bemessenden Steuerperiode verändert hat. Die Marktmietwertindexe werden jährlich vom Regierungsrat auf der Grundlage von Markterhebungen festgelegt.
 

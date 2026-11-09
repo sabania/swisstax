@@ -8,7 +8,7 @@ titel: "§ 46 StV TG – Zahlungsfrist"
 artikel: "§ 46"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.1. Fälligkeit › § 46 Zahlungsfrist
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.1. Fälligkeit › § 46 Zahlungsfrist
 
 ### § 46 StV TG – Zahlungsfrist
 

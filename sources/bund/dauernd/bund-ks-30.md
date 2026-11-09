@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2010-12-21'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/2YuHXYYJMbn9/dbst-ks-2010-1-030-d-de.pdf
@@ -14,6 +15,8 @@ sha256: 50e37ecde4d8cf45144d5b17afb636db56398665b2ed5c820e9be9713d12f119
 abgerufen: '2026-11-09'
 seiten: 58
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2011-01-01'
 ---
 # ESTV-Kreisschreiben Nr. 30: Ehepaar- und Familienbesteuerung
 

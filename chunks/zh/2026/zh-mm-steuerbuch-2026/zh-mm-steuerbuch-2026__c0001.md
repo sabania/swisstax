@@ -2,12 +2,12 @@
 id: zh-mm-steuerbuch-2026__c0001
 quelle: zh-mm-steuerbuch-2026
 jur: zh
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: mitteilung
 titel: "Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026)"
-qmd: {metadata: {jur: zh, jahre: [2026], typ: mitteilung}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026, 2027], typ: mitteilung}}
 ---
-> ZH · Steuerjahr 2026 · MM ZStB 20.01.2026 · Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026)
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Mitteilung · Steuerjahr 2025/2026/2027 · MM ZStB 20.01.2026 · Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026)
 
 # Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026)
 

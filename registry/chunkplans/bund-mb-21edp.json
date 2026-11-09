@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "titel": "Merkblatt Formular 21 EDP – Abkürzungen und Begriffe",
    "pfad": [
     "Merkblatt Formular 21 EDP"
@@ -24,7 +24,7 @@
    "zusammenfassung": "Merkblatt der ESTV zum Ausfüllen der Bescheinigung über Vorsorgebeiträge (Formular 21 EDP) mit Abkürzungen und Begriffsdefinitionen."
   },
   {
-   "start": 53,
+   "start": 36,
    "titel": "Rz 1–3 Allgemeines – Bescheinigungspflicht des Vorsorgeträgers",
    "pfad": [
     "Allgemeines"
@@ -43,7 +43,7 @@
    "ziffer": "1–3"
   },
   {
-   "start": 80,
+   "start": 63,
    "titel": "Rz 4–6 Anwendungsbereich – 2. Säule, Säule 3a, Einkäufe Säule 3a",
    "pfad": [
     "Anwendungsbereich"
@@ -63,7 +63,7 @@
    "ziffer": "4–6"
   },
   {
-   "start": 97,
+   "start": 80,
    "titel": "Rz 7–10 Erläuterungen Formular 21 – Felder a–c (Vorsorgeträger, AHV-Nr., Geburtsdatum)",
    "pfad": [
     "Erläuterungen zu den Positionen"
@@ -79,7 +79,7 @@
    "ziffer": "7–10"
   },
   {
-   "start": 113,
+   "start": 96,
    "titel": "Ziff. 1 Rz 11–12 Beiträge an die 2. Säule – Abgrenzung zum Lohnausweis",
    "pfad": [
     "Erläuterungen",
@@ -99,7 +99,7 @@
    "ziffer": "11–12"
   },
   {
-   "start": 131,
+   "start": 114,
    "titel": "Ziff. 1 Rz 13–15 Lohnausweis-Leistungen und WEF-Rückzahlung",
    "pfad": [
     "Erläuterungen",
@@ -120,7 +120,7 @@
    "ziffer": "13–15"
   },
   {
-   "start": 156,
+   "start": 139,
    "titel": "Rz 16–18 Felder d–f: Datum, als Selbständigerwerbende/r, als Arbeitnehmer/in",
    "pfad": [
     "Erläuterungen",
@@ -139,7 +139,7 @@
    "ziffer": "16–18"
   },
   {
-   "start": 178,
+   "start": 161,
    "titel": "Rz 19–21 Felder g–i: Arbeitgeberbeiträge durch Arbeitnehmer, Beginn, Fälligkeit",
    "pfad": [
     "Erläuterungen",
@@ -158,7 +158,7 @@
    "ziffer": "19–21"
   },
   {
-   "start": 196,
+   "start": 179,
    "titel": "Rz 22–23 Felder j–k: Freiwillige Einkaufsbeiträge, ordentliche und Erhöhungsbeiträge",
    "pfad": [
     "Erläuterungen",
@@ -176,7 +176,7 @@
    "ziffer": "22–23"
   },
   {
-   "start": 206,
+   "start": 189,
    "titel": "Ziff. 2 Rz 24–25 Säule 3a – Arbeitgeberbeiträge und anerkannte Vorsorgeformen",
    "pfad": [
     "Erläuterungen",
@@ -195,7 +195,7 @@
    "ziffer": "24–25"
   },
   {
-   "start": 222,
+   "start": 205,
    "titel": "Ziff. 2 Rz 26–27 Felder p–q: Jahr und Total Beiträge Säule 3a",
    "pfad": [
     "Erläuterungen",
@@ -213,7 +213,7 @@
    "ziffer": "26–27"
   },
   {
-   "start": 234,
+   "start": 217,
    "titel": "Ziff. 3 Rz 28–29 Einkäufe Säule 3a – Jahresbeitragslücke",
    "pfad": [
     "Erläuterungen",
@@ -233,7 +233,7 @@
    "ziffer": "28–29"
   },
   {
-   "start": 254,
+   "start": 237,
    "titel": "Rz 30–31 Felder t–u: Steuerperiode und bereits geleistete 3a-Beiträge",
    "pfad": [
     "Erläuterungen",
@@ -251,7 +251,7 @@
    "ziffer": "30–31"
   },
   {
-   "start": 266,
+   "start": 249,
    "titel": "Rz 32–33 Feld x: Total Einkaufsbeiträge Säule 3a und Abzugsgrenze im Einkaufsjahr",
    "pfad": [
     "Erläuterungen",
@@ -270,7 +270,7 @@
    "ziffer": "32–33"
   },
   {
-   "start": 277,
+   "start": 260,
    "titel": "Rz 34 Die Richtigkeit bezeugt – Bestätigung durch den Vorsorgeträger",
    "pfad": [
     "Die Richtigkeit bezeugt"
@@ -284,5 +284,7 @@
    "zusammenfassung": "Die Richtigkeit ist durch den verantwortlichen Vorsorgeträger zu bestätigen; bei maschineller Erstellung genügt Firmenbezeichnung und Name der verantwortlichen Person.",
    "ziffer": "34"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

@@ -8,7 +8,7 @@ titel: "Art. 73–78 DBG"
 artikel: "Art. 73–78"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Dritter Titel: … › Art. 73–78
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Dritter Titel: … › Art. 73–78
 
 ### Art. 73–78 DBG
 

@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Wegleitung DA-1/DA-2/DA-3 2025 – Titel und Allgemeines (DBA-Länder)",
    "pfad": [
     "Allgemeines"
@@ -23,7 +23,7 @@
    "zusammenfassung": "Wertpapiere aus Ländern mit Doppelbesteuerungsabkommen sind in eines der Formulare DA-1, DA-2 oder DA-3 einzutragen."
   },
   {
-   "start": 33,
+   "start": 18,
    "titel": "Formular DA-1 (natürliche Personen) – Länderliste Stand 1.1.2025",
    "pfad": [
     "Allgemeines",
@@ -48,7 +48,7 @@
    "zusammenfassung": "DA-1 dient der Deklaration von Wertschriften mit Steuerrückbehalt USA und/oder Quellensteuer aus den aufgeführten Ländern."
   },
   {
-   "start": 51,
+   "start": 36,
    "titel": "Formular DA-2 (juristische Personen) – Länder",
    "pfad": [
     "Allgemeines",
@@ -66,7 +66,7 @@
    "zusammenfassung": "DA-2 dient der Deklaration quellensteuerbelasteter Erträge juristischer Personen; Länder wie bei DA-1."
   },
   {
-   "start": 55,
+   "start": 40,
    "titel": "Formular DA-3 (Lizenz- und Dienstleistungserträge) – Länderliste Stand 1.1.2025",
    "pfad": [
     "Allgemeines",
@@ -86,7 +86,7 @@
    "zusammenfassung": "DA-3 dient der Deklaration quellensteuerbelasteter Lizenz- und Dienstleistungserträge natürlicher und juristischer Personen aus den aufgeführten Ländern."
   },
   {
-   "start": 68,
+   "start": 53,
    "titel": "Kontoverbindung (IBAN) auf dem Antrag",
    "pfad": [
     "Allgemeines",
@@ -109,7 +109,7 @@
    "zusammenfassung": "Auf dem Antrag ist die vollständige IBAN anzugeben und die Person, auf die das Konto lautet."
   },
   {
-   "start": 71,
+   "start": 56,
    "titel": "Zuständige Stellen – DA-1 mit Steuererklärung einreichen, DA-2/DA-3 separat",
    "pfad": [
     "Allgemeines",
@@ -133,7 +133,7 @@
    "zusammenfassung": "DA-1 inkl. Ertragsabrechnungen wird nur der Steuererklärung beigelegt, Totale Seite 3 gehen ins Wertschriftenverzeichnis (Übertrag ab Formular DA-1); DA-2 und DA-3 separat an das Steueramt, Wertschriften."
   },
   {
-   "start": 82,
+   "start": 67,
    "titel": "Deklarationsmöglichkeiten – Online-Steuererklärung und PDF-Vorlagen",
    "pfad": [
     "Allgemeines",
@@ -156,7 +156,7 @@
    "zusammenfassung": "DA-1 kann in der Online-Steuererklärung vollständig elektronisch ausgefüllt werden; Formulare DA-1 bis DA-3 auch als beschreibbare PDF unter www.zh.ch/da1-3."
   },
   {
-   "start": 87,
+   "start": 72,
    "titel": "Rückerstattung ausländischer Quellensteuern nach DBA (ESTV-Formulare)",
    "pfad": [
     "Allgemeines",
@@ -177,7 +177,7 @@
    "zusammenfassung": "Verschiedene DBA sehen volle oder teilweise Rückerstattung ausländischer Quellensteuern vor; die Formulare bietet die ESTV an."
   },
   {
-   "start": 95,
+   "start": 80,
    "titel": "Anspruch auf Anrechnung – Bruttodeklaration (100 %) der ausländischen Erträge",
    "pfad": [
     "Erläuterungen",
@@ -199,7 +199,7 @@
    "zusammenfassung": "Anrechnung erst nach Einreichung der Steuererklärung und Bezugsberechnung; ausländische Kapitalerträge müssen brutto (zu 100 %) deklariert werden, sonst kein Anspruch."
   },
   {
-   "start": 102,
+   "start": 87,
    "titel": "DA-1 Dividenden- und Zinserträge natürliche Personen – Antrag, Frist drei Jahre, Wohnsitzkanton",
    "pfad": [
     "Erläuterungen",
@@ -222,7 +222,7 @@
    "zusammenfassung": "DA-1 ist Antrag auf Anrechnung ausländischer Quellensteuern und Rückerstattung des zusätzlichen Steuerrückbehalts USA; der Anspruch erlischt, wenn er nicht innert drei Jahren nach Ablauf der Steuerperiode geltend gemacht wird."
   },
   {
-   "start": 113,
+   "start": 98,
    "titel": "DA-1 Mindestbetrag CHF 100.– und Erträge ohne Quellensteuer; Maximalbetrag",
    "pfad": [
     "Erläuterungen",
@@ -245,7 +245,7 @@
    "zusammenfassung": "Übersteigen die nicht rückforderbaren ausländischen Steuern insgesamt CHF 100.– nicht, wird keine Anrechnung gewährt; Erträge ohne Quellensteuer gehören ins Wertschriftenverzeichnis Rubrik B; Maximalbetrag ohne Kirchensteuerzuschläge."
   },
   {
-   "start": 123,
+   "start": 108,
    "titel": "DA-1 Steuerrückbehalt USA – Belege, kein Mindestbetrag",
    "pfad": [
     "Erläuterungen",
@@ -268,7 +268,7 @@
    "zusammenfassung": "Für den zusätzlichen Steuerrückbehalt USA sind alle Bankbelege beizulegen; ohne Belege wird abgelehnt; hierfür gilt kein Mindestbetrag von CHF 100.–."
   },
   {
-   "start": 129,
+   "start": 114,
    "titel": "DA-2 Dividenden- und Zinserträge juristische Personen – Antrag und Frist",
    "pfad": [
     "Erläuterungen",
@@ -287,7 +287,7 @@
    "zusammenfassung": "DA-2 ist der Antrag juristischer Personen auf Anrechnung ausländischer Quellensteuern; Anspruch erlischt nach drei Jahren, unter CHF 100.– keine Anrechnung."
   },
   {
-   "start": 140,
+   "start": 125,
    "titel": "DA-3 Lizenz- und Dienstleistungserträge – Antrag, Frist, Patentbox",
    "pfad": [
     "Erläuterungen",
@@ -308,9 +308,11 @@
    "zusammenfassung": "DA-3 dient der Anrechnung ausländischer Quellensteuern auf Lizenz- und Dienstleistungserträgen; Anspruch erlischt nach drei Jahren, unter CHF 100.– keine Anrechnung; Patentbox-Erträge mit «Ja» kennzeichnen."
   },
   {
-   "start": 155,
+   "start": 140,
    "skip": true,
    "titel": "Länder-News (leer) und Seitenfuss"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

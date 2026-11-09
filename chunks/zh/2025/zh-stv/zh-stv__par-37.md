@@ -9,7 +9,7 @@ artikel: "§ 37"
 seiten: "7"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 37 StV ZH – e. Tod eines Ehegatten · S. 7
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 37 StV ZH – e. Tod eines Ehegatten · S. 7
 
 ### § 37 StV ZH – e. Tod eines Ehegatten
 

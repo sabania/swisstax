@@ -12,6 +12,9 @@ sha256: 34b9d573d5d57ce3cb8bf99e9d8189822727d8f55757019da83ba4c509027b5d
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
 ---
 # Steuerfüsse 2026 (Stand 28.4.2026)
 

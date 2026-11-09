@@ -2,13 +2,13 @@
 id: bund-sthg__art-78c
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 78c StHG – Übergangsbestimmungen zur Änderung vom 8. Oktober 2004"
 artikel: "Art. 78c"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Achter Titel: Schlussbestimmungen › 3. Kapitel: Übergangsbestimmungen › Art. 78c Übergangsbestimmungen zur Änderung vom 8. Oktober 2004
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Achter Titel: Schlussbestimmungen › 3. Kapitel: Übergangsbestimmungen › Art. 78c Übergangsbestimmungen zur Änderung vom 8. Oktober 2004
 
 ### Art. 78c StHG – Übergangsbestimmungen zur Änderung vom 8. Oktober 2004
 

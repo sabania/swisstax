@@ -7,12 +7,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 82,
+   "start": 65,
    "titel": "Ziff. 1 Einleitung – KAG, Formen kollektiver Kapitalanlagen",
    "pfad": [
     "1 Einleitung"
@@ -29,7 +29,7 @@
    "ziffer": "1"
   },
   {
-   "start": 98,
+   "start": 81,
    "titel": "Ziff. 1 Einleitung – Neuerungen des KS Nr. 25",
    "pfad": [
     "1 Einleitung"
@@ -44,7 +44,7 @@
    "ziffer": "1"
   },
   {
-   "start": 115,
+   "start": 98,
    "titel": "Ziff. 2 Aufsichtsrechtliche Aspekte kollektiver Kapitalanlagen",
    "pfad": [
     "2 Aufsichtsrechtliche Aspekte"
@@ -59,7 +59,7 @@
    "ziffer": "2"
   },
   {
-   "start": 141,
+   "start": 124,
    "titel": "Ziff. 3.1 Steuerliche Grundlagen – transparente Betrachtung",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -76,7 +76,7 @@
    "ziffer": "3.1"
   },
   {
-   "start": 165,
+   "start": 148,
    "titel": "Ziff. 3.2 Besteuerung KKA ohne direkten Grundbesitz",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -92,7 +92,7 @@
    "ziffer": "3.2"
   },
   {
-   "start": 185,
+   "start": 168,
    "titel": "Ziff. 3.3.1 Begriff – KKA mit direktem Grundbesitz",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -112,7 +112,7 @@
    ]
   },
   {
-   "start": 197,
+   "start": 180,
    "titel": "Ziff. 3.3.2 Besteuerung – Gewinnsteuer 4,25 % auf Ertrag aus Grundbesitz",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -132,7 +132,7 @@
    ]
   },
   {
-   "start": 220,
+   "start": 203,
    "titel": "Ziff. 3.3.3 Ermittlung des steuerbaren Gewinns – Grundsätze",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -149,7 +149,7 @@
    "ziffer": "3.3.3"
   },
   {
-   "start": 235,
+   "start": 218,
    "titel": "Ziff. 3.3.3 – Zurechnung von Erträgen und Aufwendungen, Rückstellungen",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -166,7 +166,7 @@
    "ziffer": "3.3.3"
   },
   {
-   "start": 258,
+   "start": 241,
    "titel": "Ziff. 3.3.3 – Jahresrechnung nach KAG oder OR, Wechsel KAG zu OR",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -183,7 +183,7 @@
    "ziffer": "3.3.3"
   },
   {
-   "start": 277,
+   "start": 260,
    "titel": "Ziff. 3.3.3–3.3.4 Wechsel OR zu KAG, Überleitung, Spartenrechnung, Deklarationspflicht",
    "pfad": [
     "3 Grundsätze der Besteuerung",
@@ -200,7 +200,7 @@
    "ziffer": "3.3.3 / 3.3.4"
   },
   {
-   "start": 294,
+   "start": 277,
    "titel": "Ziff. 4.1 Anlegerebene – ausschüttende, thesaurierende, gemischte Fonds",
    "pfad": [
     "4 Besteuerung auf Ebene der Anleger",
@@ -219,7 +219,7 @@
    ]
   },
   {
-   "start": 316,
+   "start": 299,
    "titel": "Ziff. 4.1 Freistellung von Erträgen aus Grundstücken beim Anleger",
    "pfad": [
     "4 Besteuerung auf Ebene der Anleger",
@@ -238,7 +238,7 @@
    ]
   },
   {
-   "start": 325,
+   "start": 308,
    "titel": "Ziff. 4.2 Privatvermögen – Erträge, Kapitalgewinne, Kursliste HB",
    "pfad": [
     "4 Besteuerung auf Ebene der Anleger",
@@ -260,7 +260,7 @@
    ]
   },
   {
-   "start": 350,
+   "start": 333,
    "titel": "Ziff. 4.2 Privatvermögen – Liquidation einer kollektiven Kapitalanlage",
    "pfad": [
     "4 Besteuerung auf Ebene der Anleger",
@@ -279,7 +279,7 @@
    ]
   },
   {
-   "start": 377,
+   "start": 360,
    "titel": "Ziff. 4.3 Anlagen im Geschäftsvermögen",
    "pfad": [
     "4 Besteuerung auf Ebene der Anleger",
@@ -298,7 +298,7 @@
    ]
   },
   {
-   "start": 397,
+   "start": 380,
    "titel": "Ziff. 4.4 Rückerstattung der Verrechnungssteuer – Grundsatz",
    "pfad": [
     "4 Besteuerung auf Ebene der Anleger",
@@ -317,7 +317,7 @@
    ]
   },
   {
-   "start": 409,
+   "start": 392,
    "titel": "Ziff. 4.4 – Thesaurierung: Verbuchung, Verrechnungssteuer 35 %",
    "pfad": [
     "4 Besteuerung auf Ebene der Anleger",
@@ -338,7 +338,7 @@
    ]
   },
   {
-   "start": 426,
+   "start": 409,
    "titel": "Ziff. 4.5 Bescheinigungspflicht",
    "pfad": [
     "4 Besteuerung auf Ebene der Anleger",
@@ -357,7 +357,7 @@
    ]
   },
   {
-   "start": 452,
+   "start": 435,
    "titel": "Ziff. 5.1 Gewerbsmässiger Wertschriftenhandel",
    "pfad": [
     "5 Spezialfragen",
@@ -372,7 +372,7 @@
    "ziffer": "5.1"
   },
   {
-   "start": 461,
+   "start": 444,
    "titel": "Ziff. 5.2 Kommanditgesellschaft für kollektive Kapitalanlagen (KmGK)",
    "pfad": [
     "5 Spezialfragen",
@@ -388,7 +388,7 @@
    "ziffer": "5.2"
   },
   {
-   "start": 484,
+   "start": 467,
    "titel": "Ziff. 5.3.1 Umstrukturierungen auf Ebene der kollektiven Kapitalanlage",
    "pfad": [
     "5 Spezialfragen",
@@ -407,7 +407,7 @@
    "ziffer": "5.3.1"
   },
   {
-   "start": 509,
+   "start": 492,
    "titel": "Ziff. 5.3.2 Umstrukturierungen auf Ebene der Anleger",
    "pfad": [
     "5 Spezialfragen",
@@ -424,7 +424,7 @@
    "ziffer": "5.3.2"
   },
   {
-   "start": 529,
+   "start": 512,
    "titel": "Ziff. 5.4 Beteiligungsabzug und Teilbesteuerung",
    "pfad": [
     "5 Spezialfragen",
@@ -443,7 +443,7 @@
    ]
   },
   {
-   "start": 538,
+   "start": 521,
    "titel": "Ziff. 5.5 Sitzverlegung oder Expatriierung von KKA",
    "pfad": [
     "5 Spezialfragen",
@@ -462,7 +462,7 @@
    ]
   },
   {
-   "start": 554,
+   "start": 537,
    "titel": "Ziff. 5.6 Einanlegerfonds und Ziff. 6 Inkrafttreten",
    "pfad": [
     "5 Spezialfragen",
@@ -478,7 +478,7 @@
    "ziffer": "5.6 / 6"
   },
   {
-   "start": 569,
+   "start": 552,
    "titel": "Anhang I Begriffsbestimmungen (Anlagefonds, Ausschüttungsfonds, offene KKA)",
    "pfad": [
     "7 Anhänge",
@@ -495,7 +495,7 @@
    "ziffer": "Anhang I"
   },
   {
-   "start": 596,
+   "start": 579,
    "titel": "Anhang I Begriffsbestimmungen (Effektenfonds, Immobilienfonds, Transparenzprinzip)",
    "pfad": [
     "7 Anhänge",
@@ -512,7 +512,7 @@
    "ziffer": "Anhang I"
   },
   {
-   "start": 617,
+   "start": 600,
    "titel": "Anhang I Abkürzungsverzeichnis",
    "pfad": [
     "7 Anhänge",
@@ -530,7 +530,7 @@
    "ziffer": "Anhang I"
   },
   {
-   "start": 654,
+   "start": 637,
    "titel": "Anhang II Beispiel Spartenrechnung – Ertrag",
    "pfad": [
     "7 Anhänge",
@@ -546,7 +546,7 @@
    "ziffer": "Anhang II"
   },
   {
-   "start": 669,
+   "start": 652,
    "titel": "Anhang II Beispiel Spartenrechnung – Aufwand und steuerbarer Gewinn",
    "pfad": [
     "7 Anhänge",
@@ -563,7 +563,7 @@
    "ziffer": "Anhang II"
   },
   {
-   "start": 714,
+   "start": 697,
    "titel": "Anhang II Steuerbare Einkünfte aus Anteilen mit direktem Grundbesitz",
    "pfad": [
     "7 Anhänge",
@@ -582,7 +582,7 @@
    ]
   },
   {
-   "start": 732,
+   "start": 715,
    "titel": "Anhang III Übersicht Formen kollektiver Kapitalanlagen und ihre Besteuerung",
    "pfad": [
     "7 Anhänge",
@@ -601,7 +601,7 @@
    "ziffer": "Anhang III"
   },
   {
-   "start": 769,
+   "start": 752,
    "titel": "Anhang IV Gleichstellungsregeln ausländische kollektive Kapitalanlagen",
    "pfad": [
     "7 Anhänge",
@@ -617,7 +617,7 @@
    "ziffer": "Anhang IV"
   },
   {
-   "start": 790,
+   "start": 773,
    "titel": "Anhang IV Erläuterungen zu den Gleichstellungsregeln",
    "pfad": [
     "7 Anhänge",
@@ -634,7 +634,7 @@
    "ziffer": "Anhang IV"
   },
   {
-   "start": 831,
+   "start": 814,
    "titel": "Anhang V Entscheidungsbaum ausländische KKA (Teil 1)",
    "pfad": [
     "7 Anhänge",
@@ -650,7 +650,7 @@
    "ziffer": "Anhang V"
   },
   {
-   "start": 869,
+   "start": 852,
    "titel": "Anhang V Entscheidungsbaum ausländische KKA (Teil 2)",
    "pfad": [
     "7 Anhänge",
@@ -666,7 +666,7 @@
    "ziffer": "Anhang V"
   },
   {
-   "start": 924,
+   "start": 907,
    "titel": "Anhang V Legende zum Entscheidungsbaum",
    "pfad": [
     "7 Anhänge",
@@ -682,7 +682,7 @@
    "ziffer": "Anhang V"
   },
   {
-   "start": 942,
+   "start": 925,
    "titel": "Anhang VI–VIII Musterreporting Dachfonds und Einzelfonds",
    "pfad": [
     "7 Anhänge",
@@ -697,5 +697,7 @@
    "zusammenfassung": "Verweise auf Musterreportings (Excel) gemäss Anhängen des KS Nr. 24 vom 20. November 2017.",
    "ziffer": "Anhang VI–VIII"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

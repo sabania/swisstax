@@ -8,7 +8,7 @@ titel: "Art. 27 QStV – Inkrafttreten"
 artikel: "Art. 27"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 5. Abschnitt: Schlussbestimmungen › Art. 27 Inkrafttreten
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 5. Abschnitt: Schlussbestimmungen › Art. 27 Inkrafttreten
 
 ### Art. 27 QStV – Inkrafttreten
 

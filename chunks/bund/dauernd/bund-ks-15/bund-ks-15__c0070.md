@@ -2,14 +2,14 @@
 id: bund-ks-15__c0070
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 3 Verrechnungssteuer und Stempelabgaben bei Fondszertifikaten"
 ziffer: "Anh. III 3"
 seiten: "21"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 3 Zertifikate auf kollektive Kapitalanlagen · S. 21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 3 Zertifikate auf kollektive Kapitalanlagen · S. 21
 
 Das KAG zählt die Formen der kollektiven Kapitalanlagen abschliessend auf (vgl. Art. 7 bis 9
 KAG). Diese Aufzählung umfasst die strukturierten Produkte grundsätzlich nicht. Da Artikel 4

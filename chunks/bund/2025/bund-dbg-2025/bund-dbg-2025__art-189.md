@@ -8,7 +8,7 @@ titel: "Art. 189 DBG – Verjährung der Strafverfolgung"
 artikel: "Art. 189"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Zweiter Titel: Steuervergehen › Art. 189 Verjährung der Strafverfolgung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Zweiter Titel: Steuervergehen › Art. 189 Verjährung der Strafverfolgung
 
 ### Art. 189 DBG – Verjährung der Strafverfolgung
 

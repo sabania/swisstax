@@ -8,7 +8,7 @@ titel: "Art. 241 StG SG – Gegenstand und Steueranspruch"
 artikel: "Art. 241"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 241 Gegenstand und Steueranspruch
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 241 Gegenstand und Steueranspruch
 
 ### Art. 241 StG SG – Gegenstand und Steueranspruch
 

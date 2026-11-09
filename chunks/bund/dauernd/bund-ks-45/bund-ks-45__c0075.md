@@ -2,14 +2,14 @@
 id: bund-ks-45__c0075
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.4 Beispiele 6–7 – gleicher Schuldner, Arbeitsverhältnis im Ausland"
 ziffer: "6.4"
 seiten: "24"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.4 Satzbestimmendes Einkommen Teilzeit · S. 24
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.4 Satzbestimmendes Einkommen Teilzeit · S. 24
 
     6. Zwei Arbeitsverhältnisse beim gleichen Schuldner der steuerbaren Leistung in der Schweiz:
     Der Arbeitnehmer S. ist bei der A. AG, Aarau, zu 80 % als Sachbearbeiter und zu 20 % als Hauswart an-

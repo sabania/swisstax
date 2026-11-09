@@ -14,6 +14,8 @@ sha256: ea49ce4bfdc90acd2c3b86e81685692e9a0fdb8cfaa79ce989908f575e20944e
 abgerufen: '2026-11-09'
 einheiten: 27
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2024-01-01'
 ---
 # Grundstückschätzungsverordnung TG (RB 640.12) – Version gültig ab 01.01.2024
 

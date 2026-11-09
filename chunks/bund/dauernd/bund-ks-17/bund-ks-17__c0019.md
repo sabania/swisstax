@@ -2,14 +2,14 @@
 id: bund-ks-17__c0019
 quelle: bund-ks-17
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. II.3.2 Neukauf nach zwei Jahren oder Verzicht – Rückzahlung an Pensionskasse"
 ziffer: "II.3.2"
 seiten: "7-8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · II 2. Säule › 3 Verkauf des Eigenheims › 3.2 Neukauf nach Ablauf von zwei Jahren · S. 7–8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 17 · II 2. Säule › 3 Verkauf des Eigenheims › 3.2 Neukauf nach Ablauf von zwei Jahren · S. 7–8
 
 3.2. Kauf eines neuen Eigenheims nach Ablauf von zwei Jahren oder Verzicht
     auf Neukauf

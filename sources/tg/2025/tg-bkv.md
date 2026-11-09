@@ -14,6 +14,8 @@ sha256: 9d4ac7209dda12b38143b28b982b04f6c8c671e0f8bc24b3b6e00bf84f19ba9d
 abgerufen: '2026-11-09'
 einheiten: 10
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2022-01-01'
 ---
 # Berufskostenverordnung TG (RB 640.21) – Version gültig ab 01.01.2022
 

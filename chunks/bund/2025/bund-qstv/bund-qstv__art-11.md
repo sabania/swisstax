@@ -8,7 +8,7 @@ titel: "Art. 11 QStV – Regelung von Härtefällen"
 artikel: "Art. 11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · 2. Abschnitt: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 11 Regelung von Härtefällen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · 2. Abschnitt: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 11 Regelung von Härtefällen
 
 ### Art. 11 QStV – Regelung von Härtefällen
 

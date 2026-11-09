@@ -8,7 +8,7 @@ titel: "Art. 3 VKP – Besteuerung nach dem Aufwand"
 artikel: "Art. 3"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2026 · VKP · Art. 3 Besteuerung nach dem Aufwand
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2026 · VKP · Art. 3 Besteuerung nach dem Aufwand
 
 ### Art. 3 VKP – Besteuerung nach dem Aufwand
 

@@ -8,7 +8,7 @@ titel: "Art. 15 StV AR – Fahrtkosten (Art. 29 Abs. 1 lit. a StG)"
 artikel: "Art. 15"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 15 Fahrtkosten (Art. 29 Abs. 1 lit. a StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 15 Fahrtkosten (Art. 29 Abs. 1 lit. a StG)
 
 ### Art. 15 StV AR – Fahrtkosten (Art. 29 Abs. 1 lit. a StG)
 

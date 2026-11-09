@@ -11,7 +11,16 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2027 · **Stand:** 2026-05-26
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/zmpC2043uHr7/1-011a-D-2026-de.pdf> · lokal: [bund-ks-11a.pdf](../../../raw/bund/dauernd/bund-ks-11a.pdf) · Volltext: [bund-ks-11a.md](../../../sources/bund/dauernd/bund-ks-11a.md)
 - **Abgerufen:** 2026-11-09 · sha256 `156ee589061806b1…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2027-01-01 bis offen · ersetzt `bund-ks-11`
 - ⚠ **Hinweis:** gilt gemäss Ziff. 7 erst ab Steuerperiode 2027; für 2025/2026 gilt KS 11 vom 31.8.2005 (bund-ks-11)
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-11a`).
+
+- `data/belege-teil1.yaml#14:arzt-zahnarzt-rechnungen` (agent-geprueft)
+- [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
+- [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

@@ -2,13 +2,13 @@
 id: bund-vstv__uebergang-disp-u4
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Übergangsbestimmung zur Änderung vom 3. Februar 2021 VStV"
 artikel: "Übergangsbestimmung zur Änderung vom 3. Februar 2021"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · Übergangsbestimmung zur Änderung vom 3. Februar 2021
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · Übergangsbestimmung zur Änderung vom 3. Februar 2021
 
 ### Übergangsbestimmung zur Änderung vom 3. Februar 2021 VStV
 

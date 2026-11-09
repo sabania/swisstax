@@ -8,7 +8,7 @@ titel: "Art. 48c StV AR – Wechsel von der ordentlichen Besteuerung zur Quellen
 artikel: "Art. 48c"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › (1.3.1a.) B. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › Art. 48c Wechsel von der ordentlichen Besteuerung zur Quellenbesteuerung (Art. 105 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › (1.3.1a.) B. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › Art. 48c Wechsel von der ordentlichen Besteuerung zur Quellenbesteuerung (Art. 105 StG)
 
 ### Art. 48c StV AR – Wechsel von der ordentlichen Besteuerung zur Quellenbesteuerung (Art. 105 StG)
 

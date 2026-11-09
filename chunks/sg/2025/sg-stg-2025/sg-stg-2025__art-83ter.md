@@ -8,7 +8,7 @@ titel: "Art. 83 ter StG SG – 2ter. Patente und vergleichbare Rechte: Besteueru
 artikel: "Art. 83 ter"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 ter 2ter. Patente und vergleichbare Rechte: Besteuerung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 ter 2ter. Patente und vergleichbare Rechte: Besteuerung
 
 ### Art. 83 ter StG SG – 2ter. Patente und vergleichbare Rechte: Besteuerung
 

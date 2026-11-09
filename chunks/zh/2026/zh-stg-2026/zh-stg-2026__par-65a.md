@@ -9,7 +9,7 @@ artikel: "§ 65a"
 seiten: "35"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 65a StG ZH – g. Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand · S. 35
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 65a StG ZH – g. Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand · S. 35
 
 ### § 65a StG ZH – g. Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand
 

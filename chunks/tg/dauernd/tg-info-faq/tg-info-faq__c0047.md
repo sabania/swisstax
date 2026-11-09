@@ -7,7 +7,7 @@ typ: info
 titel: "Liegenschaften"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
 
     Abziehbar sind die Schulden, die Schuldzinsen und die Unterhalts-, Betriebs- und Verwaltungskosten. Die Handänderungssteuer und die Notariatskosten können nicht in Abzug gebracht werden. Bewahren Sie die entsprechenden Belege trotzdem auf. Diese Kosten können bei einer späteren Veräusserung vom steuerbaren Grundstückgewinn in Abzug gebracht werden.
 

@@ -13,6 +13,9 @@ sha256: adfc86c6c36f7046de21921ef40b1d8fd05fa866c02dbffffe631da9083e8e8a
 abgerufen: '2026-11-09'
 seiten: 5
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2026-12-31'
 ---
 # BSV Masszahlen berufliche Vorsorge / Säule 3a 2025/2026
 

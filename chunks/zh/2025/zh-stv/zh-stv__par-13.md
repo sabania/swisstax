@@ -9,7 +9,7 @@ artikel: "§ 13"
 seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › D. Fristen › § 13 StV ZH · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › D. Fristen › § 13 StV ZH · S. 3
 
 ### § 13 StV ZH
 

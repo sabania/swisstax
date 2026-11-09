@@ -9,7 +9,7 @@ ziffer: "6.2 a"
 seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung · S. 7–8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung · S. 7–8
 
 Gemäss Artikel 3 Absatz 2 Buchstabe b BVV 3 besteht die Möglichkeit der vorzeitigen Aus-
 richtung der Altersleistung unter Einbringung des Guthabens in eine andere anerkannte Vor-

@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0023
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.7 Sonderfall g: Wechsel unselbständig/selbständig im Jahr"
 ziffer: "5.7 g"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 8
 
 g)   Berechnung des Abzuges beim Übergang von einer unselbständigen zu
     einer selbständigen Erwerbstätigkeit oder umgekehrt

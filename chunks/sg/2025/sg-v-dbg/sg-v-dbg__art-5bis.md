@@ -8,7 +8,7 @@ titel: "Art. 5 bis V DBG SG – Entscheide über Stundung und Erlass"
 artikel: "Art. 5 bis"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 5 bis Entscheide über Stundung und Erlass
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 5 bis Entscheide über Stundung und Erlass
 
 ### Art. 5 bis V DBG SG – Entscheide über Stundung und Erlass
 

@@ -8,7 +8,7 @@ titel: "Art. 19 StG SG – Beginn und Ende der Steuerpflicht"
 artikel: "Art. 19"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 19 Beginn und Ende der Steuerpflicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 19 Beginn und Ende der Steuerpflicht
 
 ### Art. 19 StG SG – Beginn und Ende der Steuerpflicht
 

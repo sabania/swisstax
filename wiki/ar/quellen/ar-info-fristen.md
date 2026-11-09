@@ -11,6 +11,17 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://ar.ch/verwaltung/departement-finanzen/steuerverwaltung/steuererklaerungen-fristverlaengerungen/> · lokal: [ar-info-fristen.html](../../../raw/ar/dauernd/ar-info-fristen.html) · Volltext: [ar-info-fristen.md](../../../sources/ar/dauernd/ar-info-fristen.md)
 - **Abgerufen:** 2026-11-09 · sha256 `48d738ce60c0f4c8…`
+- **Gültigkeit:** Zeitbezug info (Information) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 3 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-info-fristen`).
+
+- `data/werte/ar/2025.yaml#66:verfahren.abgabeweg` (agent-geprueft)
+- `data/werte/ar/2026.yaml#65:verfahren.fristerstreckung` (agent-geprueft)
+- `data/werte/ar/2026.yaml#66:verfahren.abgabeweg` (agent-geprueft)
+- [wiki/ar/ar-ueberblick.md](../ar-ueberblick.md)
+- [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
 
 ## Inhalt (4 Chunks)
 

@@ -8,7 +8,7 @@ titel: "Art. 84 StG SG – 3. Erfolgswirksame Aufwendungen (Teil 2/3)"
 artikel: "Art. 84"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 84 3. Erfolgswirksame Aufwendungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 84 3. Erfolgswirksame Aufwendungen
 
 ### Art. 84 StG SG – 3. Erfolgswirksame Aufwendungen (Fortsetzung)
 

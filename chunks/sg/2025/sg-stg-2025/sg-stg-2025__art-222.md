@@ -8,7 +8,7 @@ titel: "Art. 222 StG SG – Einsprache, Rekurs und Beschwerde"
 artikel: "Art. 222"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 222 Einsprache, Rekurs und Beschwerde
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 222 Einsprache, Rekurs und Beschwerde
 
 ### Art. 222 StG SG – Einsprache, Rekurs und Beschwerde
 

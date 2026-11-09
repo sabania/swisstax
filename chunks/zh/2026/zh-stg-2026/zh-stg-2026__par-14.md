@@ -9,7 +9,7 @@ artikel: "§ 14"
 seiten: "6"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 14 StG ZH – X.[^78] Angehörige diplomatischer und konsularischer Vertretungen · S. 6
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 14 StG ZH – X.[^78] Angehörige diplomatischer und konsularischer Vertretungen · S. 6
 
 ### § 14 StG ZH – X.[^78] Angehörige diplomatischer und konsularischer Vertretungen
 

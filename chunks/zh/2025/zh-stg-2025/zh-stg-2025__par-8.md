@@ -9,7 +9,7 @@ artikel: "§ 8"
 seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 8 StG ZH – VI. Besteuerung von Personengemeinschaften 1. Einfache Gesellschaften, Kollektiv- und Kommanditgesellschaften; ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten · S. 4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 8 StG ZH – VI. Besteuerung von Personengemeinschaften 1. Einfache Gesellschaften, Kollektiv- und Kommanditgesellschaften; ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten · S. 4
 
 ### § 8 StG ZH – VI. Besteuerung von Personengemeinschaften 1. Einfache Gesellschaften, Kollektiv- und Kommanditgesellschaften; ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten
 

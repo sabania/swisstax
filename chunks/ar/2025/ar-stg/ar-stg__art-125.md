@@ -8,7 +8,7 @@ titel: "Art. 125 StG AR – III. Steuersubjekt, Steueranspruch und Fälligkeit"
 artikel: "Art. 125"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 125 III. Steuersubjekt, Steueranspruch und Fälligkeit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 125 III. Steuersubjekt, Steueranspruch und Fälligkeit
 
 ### Art. 125 StG AR – III. Steuersubjekt, Steueranspruch und Fälligkeit
 

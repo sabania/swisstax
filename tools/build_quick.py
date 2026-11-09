@@ -337,8 +337,14 @@ def write_zuordnung(Z, W, B):
                 if r.get("belege") or r.get("feld"):
                     D.append(f"- **Beleg → Feld:** {', '.join(beleg_name.get(b, b) for b in r.get('belege') or []) or '–'}"
                              + (f" → {r['feld']}" if r.get("feld") else ""))
+                if r.get("rein"):
+                    D.append("- **Rein:** " + " · ".join(sx(x) for x in r["rein"]))
+                if r.get("berechnung"):
+                    D.append(f"- **Rechnen:** {r['berechnung']}")
                 if r.get("regel"):
                     D.append(f"- **Regel:** {r['regel']}")
+                for b in r.get("beachten") or []:
+                    D.append(f"- **Beachten:** {sx(b)}")
                 if liml:
                     D += ["- **Limiten:**"] + liml
                 if r.get("bund"):
@@ -362,6 +368,55 @@ def write_zuordnung(Z, W, B):
         (Q / f"zuordnung-{kt}-{jahr}.md").write_text("\n".join(L), encoding="utf-8")
         (ROOT / "wiki" / kt).mkdir(parents=True, exist_ok=True)
         (ROOT / "wiki" / kt / f"zuordnung-{kt}-{jahr}-detail.md").write_text("\n".join(D), encoding="utf-8")
+
+
+def write_wegleitung(Z, W, B):
+    """quick/wegleitung-<kt>-<jahr>.md: Kompakt-Wegleitung je Formularposition (Rein · Rechnen · Limite · Beachten)."""
+    beleg_name = {b["id"]: b.get("name", b["id"]) for b in (B or {}).get("belege", [])}
+    for (kt, jahr), d in Z.items():
+        rows = d.get("positionen") or []
+        if not any(r.get("berechnung") or r.get("rein") for r in rows):
+            continue
+        wk = {r["key"]: r for r in ((W.get((kt, jahr)) or {}).get("werte") or [])}
+        wb = {r["key"]: r for r in ((W.get(("bund", jahr)) or {}).get("werte") or [])}
+        det = f"../wiki/{kt}/zuordnung-{kt}-{jahr}-detail.md"
+        L = [fm({"typ": "wegleitung-kompakt", "titel": f"Kompakt-Wegleitung {JUR_SHORT[kt]} {jahr}", "jur": kt, "jahre": [int(jahr)],
+                 "generiert": f"tools/build_quick.py aus data/zuordnung/{kt}/{jahr}.yaml ({today()})"}),
+             f"# Kompakt-Wegleitung {JUR_LABEL[kt]} – Steuerjahr {jahr}", "",
+             f"> Je Formularposition: **Rein** (welche Dokumente → welches Feld) · **Rechnen** (Kurzformel) · **Limite** (Kanton / Bund) · "
+             f"**Beachten**. Volle Regel, Bund-Hinweis und wörtliche Zitate: ↗ Detail. Formular: {kurz(d.get('formular', '–'), 260)} · "
+             f"[Tabelle](zuordnung-{kt}-{jahr}.md) · [Eckwerte](werte-{kt}-{jahr}.md) · [Gültigkeit {jahr}](gueltigkeit-{jahr}.md)", ""]
+        if d.get("hinweis"):
+            L += [f"> **Hinweis:** {kurz(d['hinweis'], 400)}", ""]
+        sections = collections.OrderedDict()
+        for r in rows:
+            sections.setdefault(r.get("abschnitt") or "Positionen", []).append(r)
+        L += ["**Abschnitte:** " + " · ".join(f"{sec} ({len(rs)})" for sec, rs in sections.items()), ""]
+        seen = set()
+        for sec, rs in sections.items():
+            L += [f"## {sec}", ""]
+            for r in rs:
+                a = anchor(r.get("ziffer"), r.get("key"), seen=seen)
+                L.append(f"### {r.get('ziffer', '')} · {kurz(r.get('bezeichnung', ''), 120, satz=False)} {STATUS_ICON.get(r.get('status', 'offen'), '')}")
+                rein = r.get("rein") or ([f"{', '.join(beleg_kurz(beleg_name.get(b, b)) for b in r.get('belege') or [])}"
+                                          + (f" → {r['feld']}" if r.get("feld") else "")] if (r.get("belege") or r.get("feld")) else [])
+                if rein:
+                    L.append("- **Rein:** " + " · ".join(sx(x) for x in rein))
+                ber = r.get("berechnung") or kurz(r.get("regel"), 140)
+                if ber:
+                    L.append(f"- **Rechnen:** {ber}")
+                lim = []
+                for k in r.get("werte_keys") or []:
+                    x, y = wk.get(k), wb.get(k)
+                    lab = TAX["werte"].get(k, k).split(" – ")[-1]
+                    lim.append(f"{lab}: {fmt_kurz(x) if x else '–'} / {fmt_kurz(y) if y else '–'}")
+                if lim:
+                    L.append("- **Limite (Kanton / Bund):** " + " · ".join(lim))
+                for b in (r.get("beachten") or [])[:3]:
+                    L.append(f"- **Beachten:** {sx(b)}")
+                L.append(f"- ↗ [Detail]({det}#{a}) · {first_link(r)}")
+                L.append("")
+        (Q / f"wegleitung-{kt}-{jahr}.md").write_text("\n".join(L), encoding="utf-8")
 
 
 REL_LABEL = {"ja": "Relevant", "bedingt": "Bedingt relevant", "nein": "Nicht relevant"}
@@ -466,6 +521,7 @@ ROUTER = [
     ("Regel im Detail, Sonderfälle, Praxis", "[Themen](../wiki/themen/index.md) (Stichworte unten) → Chunks"),
     ("Fristen, Fristerstreckung, Verfahren, Bezug", "[Fristen & Verfahren](../wiki/themen/fristen-verfahren.md) · Überblick je Kanton"),
     ("Was ändert sich (2026, 2027, Eigenmietwert 2029 …)?", "[Rechtsänderungen](../wiki/themen/rechtsaenderungen.md)"),
+    ("Welche Fassung gilt für Steuerjahr X (Gesetz, Wegleitung, Fristen-Weisung)?", "[Gültigkeit 2025](gueltigkeit-2025.md) · [2026](gueltigkeit-2026.md) – materiell vs. Verfahren vs. Stichtag"),
     ("Alltagsbegriff → Fachbegriff («Kita», «Pendlerabzug»)", "[Glossar](../wiki/glossar.md)"),
     ("Gesetzesartikel wörtlich", "`chunks/<jur>/<jahr>/<gesetz-id>/<id>__art-<nr>[-tN].md` (Bund: Art., ZH/TG: §, AR/SG: Art.); lange Artikel in Teile `-t1`, `-t2` … gesplittet"),
     ("Nichts gefunden?", "Suche: `python3 tools/search.py \"<Begriffe>\" --jur <kt>,bund --jahr <jahr> --expand` bzw. `memory_search`"),
@@ -507,6 +563,53 @@ def write_index(W, Z):
           "- Regeln für Antworten (Zitierpflicht, Kanton ≠ Bund, Jahr fix): `AGENTS.md`", "",
           "Statuslegende: ✅ verifiziert (Fachperson) · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig · ⬜ offen · – n/a"]
     (Q / "index.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+
+
+ZEIT_LABEL = {"steuerperiode": "Materielles Recht / Unterlagen der Steuerperiode", "verfahren": "Verfahren (gilt zum Zeitpunkt der Handlung)",
+              "stichtag": "Stichtagswerte", "dauernd": "Praxis (gilt bis zum Ersatz)", "info": "Information / Tools"}
+
+
+def write_gueltigkeit():
+    """quick/gueltigkeit-<jahr>.md: welche Fassung jeder Quelle für Steuerjahr X massgeblich ist (Zeitmodell)."""
+    from common import load_registry
+    reg = load_registry()
+    years = sorted({y for e in reg for y in (e.get("jahre") or []) if isinstance(y, int) and y >= 2025})
+    byid = {e["id"]: e for e in reg}
+    for y in years:
+        L = [fm({"typ": "gueltigkeit", "titel": f"Gültige Fassungen für Steuerjahr {y}", "jur": "multi", "jahre": [y],
+                 "generiert": f"tools/build_quick.py aus registry/sources.yaml ({today()})"}),
+             f"# Steuerjahr {y}: welche Fassung gilt?", "",
+             f"> **Zeitmodell.** Steuerjahr {y} = Steuerperiode 1.1.–31.12.{y}; die Erklärung wird {y + 1} eingereicht und veranlagt. "
+             f"**Materielles Recht** (Einkünfte, Abzüge, Tarife, Formular/Wegleitung): Fassung für die Periode {y}. "
+             f"**Verfahren** (Einreichefrist, Fristerstreckung, Mahnung, Rechtsmittel, Gebühren): Regeln zum Zeitpunkt der Handlung, "
+             f"also i.d.R. {y + 1}. **Bezug/Zinsen:** Sätze des Kalenderjahres der Zahlung (provisorisch {y}, Schlussrechnung {y + 1}). "
+             f"**Stichtag:** Werte per 31.12.{y} (Kursliste, Vermögen). **Praxis** (Kreisschreiben, Merkblätter, Steuerbuch): "
+             "Fassung, die gilt, solange sie nicht ersetzt ist – Anwendungsbeginn beachten (z.B. «ab Steuerperiode 2027»). "
+             "Unterjährige Gesetzesänderungen wirken nur, wenn die Übergangsbestimmung es so vorsieht; sonst ab der nächsten Periode.", "",
+             f"Werte/Zuordnungen für {y}: Quick-Seiten mit «{y}» im Namen. Andere Jahre nie übertragen (AGENTS.md).", ""]
+        for jur in JURS:
+            rows = [e for e in reg if e["jurisdiktion"] == jur and y in (e.get("jahre") or [])]
+            if not rows:
+                continue
+            L += [f"## {JUR_LABEL[jur]}", "", "| Zeitbezug | Quelle | Fassung gilt | ersetzt / ersetzt durch |", "|---|---|---|---|"]
+            order = ["steuerperiode", "verfahren", "stichtag", "dauernd", "info", None]
+            rows.sort(key=lambda e: (order.index(e.get("zeitbezug")) if e.get("zeitbezug") in order else 9, e["typ"], e["id"]))
+            for e in rows:
+                kette = " · ".join(x for x in (f"ersetzt `{e['ersetzt']}`" if e.get("ersetzt") else "",
+                                               f"→ `{e['ersetzt_durch']}`" if e.get("ersetzt_durch") else "") if x)
+                sp = ROOT / "wiki" / jur / "quellen" / f"{e['id']}.md"
+                ln = f"../wiki/{jur}/quellen/{e['id']}.md" if sp.exists() else e["url"]
+                L.append(f"| {e.get('zeitbezug') or '–'} | [{e.get('kurz') or e['id']}]({ln}) `{e['id']}` | "
+                         f"{e.get('gilt_ab') or '?'} – {e.get('gilt_bis') or 'offen'} | {kette} |")
+            # Fassungen, die für dieses Jahr NICHT gelten, aber verwechselt werden können
+            nicht = [e for e in reg if e["jurisdiktion"] == jur and y not in (e.get("jahre") or []) and
+                     ((e.get("ersetzt_durch") and y in (byid.get(e["ersetzt_durch"], {}).get("jahre") or [])) or
+                      (e.get("ersetzt") and y in (byid.get(e["ersetzt"], {}).get("jahre") or [])))]
+            if nicht:
+                L += ["", f"**Nicht für Steuerjahr {y}** (andere Fassung): " +
+                      ", ".join(f"`{e['id']}` ({', '.join(map(str, e.get('jahre') or []))})" for e in nicht)]
+            L.append("")
+        (Q / f"gueltigkeit-{y}.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 
 def write_themen_index():
@@ -553,6 +656,8 @@ def main():
     write_vergleich(W)
     write_zuordnung(Z, W, B)
     write_belege(B, Z)
+    write_wegleitung(Z, W, B)
+    write_gueltigkeit()
     write_index(W, Z)
     print(f"quick/: {len(W)} Werte-Seiten, {len(Z)} Zuordnungs-Seiten, Belege: {len((B or {}).get('belege', []))}")
 

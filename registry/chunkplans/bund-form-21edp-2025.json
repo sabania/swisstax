@@ -1,8 +1,124 @@
-{"id":"bund-form-21edp-2025","hinweise":["Dreisprachiges Formular (de/fr/it) mit Spaltenköpfen in Zeilen vermischt; Seite 1 Tabellenlayout zerrissen, Feldbuchstaben a–x erkennbar.","Seite 2: Fussnoten dreisprachig."],"chunks":[
-{"start":16,"titel":"Formular 21 EDP – Kopf, Vorsorgeeinrichtung und versicherte Person (Felder a–c)","pfad":["Bescheinigung über Vorsorgebeiträge","Kopfdaten"],"stichworte":["Bescheinigung Säule 3a","Formular 21 EDP","Art. 81 Abs. 3 BVG","Art. 8 BVV 3","AHV-Nummer","Vorsorgeeinrichtung"],"positionen":["abzug.vorsorge.saeule3a"],"zusammenfassung":"Von der versicherten Person der Steuererklärung beizulegende Bescheinigung nach Art. 81 Abs. 3 BVG und Art. 8 BVV 3 mit Angaben zu Einrichtung, AHV-Nummer und Geburtsdatum."},
-{"start":41,"titel":"Ziff. 1 Beiträge an Einrichtungen der beruflichen Vorsorge 2. Säule (Felder d–k)","pfad":["Bescheinigung über Vorsorgebeiträge","1. Beiträge 2. Säule"],"ziffer":"1","stichworte":["2. Säule","Pensionskasse","freiwillige Einkaufsbeiträge","Selbstständigerwerbende","Arbeitgeberbeiträge","BVG-Beiträge"],"positionen":["abzug.vorsorge.saeule2_einkauf"],"zusammenfassung":"Beiträge an die 2. Säule als Selbstständigerwerbende/r oder Arbeitnehmer/in, Beginn des Vorsorgeverhältnisses, Fälligkeit und freiwillige Einkaufsbeiträge; nur ganze Franken."},
-{"start":69,"titel":"Ziff. 2 Beiträge Säule 3a (Felder l–q)","pfad":["Bescheinigung über Vorsorgebeiträge","2. Beiträge Säule 3a"],"ziffer":"2","stichworte":["Säule 3a","gebundene Selbstvorsorge","Vorsorgepolice","Bankstiftung","Total Beiträge 3a"],"positionen":["abzug.vorsorge.saeule3a"],"zusammenfassung":"Beiträge an anerkannte Formen der gebundenen Selbstvorsorge (Policen bei Versicherungen, Vereinbarungen bei Bankstiftungen) mit Total Beiträge an die Säule 3a (Feld q)."},
-{"start":79,"titel":"Ziff. 3 Einkäufe in die Säule 3a (Felder r–x) und Übertragungshinweis","pfad":["Bescheinigung über Vorsorgebeiträge","3. Einkäufe Säule 3a"],"ziffer":"3","stichworte":["Einkauf Säule 3a","Einkaufsbeiträge","nachträgliche Einzahlung","Steuerperiode","bereits geleistete Beiträge"],"positionen":["abzug.vorsorge.saeule3a_einkauf"],"zusammenfassung":"Einkäufe in die Säule 3a mit Steuerperiode, bereits geleisteten Beiträgen, Einkaufsdatum und Höhe; Total Einkaufsbeiträge (Feld x); Beiträge in die Steuererklärung zu übertragen."},
-{"start":94,"titel":"Bemerkungen, Ort/Datum, Bestätigung der Einrichtung","pfad":["Bescheinigung über Vorsorgebeiträge","Abschluss"],"stichworte":["Bemerkungen","Beglaubigung","Formular 605.040.42"],"zusammenfassung":"Feld für Bemerkungen, Ort und Datum sowie Bestätigung der Richtigkeit durch die Einrichtung."},
-{"start":104,"titel":"Fussnoten 1–3 zu Formular 21 EDP (Lohnausweis, erstes Vorsorgeverhältnis, Eigenverantwortung)","pfad":["Fussnoten"],"stichworte":["Fussnoten","Lohnausweis","Arbeitnehmer","Eigenverantwortung","Vorsorgeverhältnis"],"positionen":["abzug.vorsorge.saeule3a"],"zusammenfassung":"Bei Arbeitnehmern sind vom Lohn abgezogene Beiträge im Lohnausweis zu bescheinigen und hier nicht aufzuführen; Angaben zu bereits geleisteten Beiträgen unter Verantwortung der versicherten Person."}
-]}
+{
+ "id": "bund-form-21edp-2025",
+ "hinweise": [
+  "Dreisprachiges Formular (de/fr/it) mit Spaltenköpfen in Zeilen vermischt; Seite 1 Tabellenlayout zerrissen, Feldbuchstaben a–x erkennbar.",
+  "Seite 2: Fussnoten dreisprachig."
+ ],
+ "chunks": [
+  {
+   "start": 1,
+   "titel": "Formular 21 EDP – Kopf, Vorsorgeeinrichtung und versicherte Person (Felder a–c)",
+   "pfad": [
+    "Bescheinigung über Vorsorgebeiträge",
+    "Kopfdaten"
+   ],
+   "stichworte": [
+    "Bescheinigung Säule 3a",
+    "Formular 21 EDP",
+    "Art. 81 Abs. 3 BVG",
+    "Art. 8 BVV 3",
+    "AHV-Nummer",
+    "Vorsorgeeinrichtung"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Von der versicherten Person der Steuererklärung beizulegende Bescheinigung nach Art. 81 Abs. 3 BVG und Art. 8 BVV 3 mit Angaben zu Einrichtung, AHV-Nummer und Geburtsdatum."
+  },
+  {
+   "start": 26,
+   "titel": "Ziff. 1 Beiträge an Einrichtungen der beruflichen Vorsorge 2. Säule (Felder d–k)",
+   "pfad": [
+    "Bescheinigung über Vorsorgebeiträge",
+    "1. Beiträge 2. Säule"
+   ],
+   "ziffer": "1",
+   "stichworte": [
+    "2. Säule",
+    "Pensionskasse",
+    "freiwillige Einkaufsbeiträge",
+    "Selbstständigerwerbende",
+    "Arbeitgeberbeiträge",
+    "BVG-Beiträge"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Beiträge an die 2. Säule als Selbstständigerwerbende/r oder Arbeitnehmer/in, Beginn des Vorsorgeverhältnisses, Fälligkeit und freiwillige Einkaufsbeiträge; nur ganze Franken."
+  },
+  {
+   "start": 54,
+   "titel": "Ziff. 2 Beiträge Säule 3a (Felder l–q)",
+   "pfad": [
+    "Bescheinigung über Vorsorgebeiträge",
+    "2. Beiträge Säule 3a"
+   ],
+   "ziffer": "2",
+   "stichworte": [
+    "Säule 3a",
+    "gebundene Selbstvorsorge",
+    "Vorsorgepolice",
+    "Bankstiftung",
+    "Total Beiträge 3a"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Beiträge an anerkannte Formen der gebundenen Selbstvorsorge (Policen bei Versicherungen, Vereinbarungen bei Bankstiftungen) mit Total Beiträge an die Säule 3a (Feld q)."
+  },
+  {
+   "start": 64,
+   "titel": "Ziff. 3 Einkäufe in die Säule 3a (Felder r–x) und Übertragungshinweis",
+   "pfad": [
+    "Bescheinigung über Vorsorgebeiträge",
+    "3. Einkäufe Säule 3a"
+   ],
+   "ziffer": "3",
+   "stichworte": [
+    "Einkauf Säule 3a",
+    "Einkaufsbeiträge",
+    "nachträgliche Einzahlung",
+    "Steuerperiode",
+    "bereits geleistete Beiträge"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a_einkauf"
+   ],
+   "zusammenfassung": "Einkäufe in die Säule 3a mit Steuerperiode, bereits geleisteten Beiträgen, Einkaufsdatum und Höhe; Total Einkaufsbeiträge (Feld x); Beiträge in die Steuererklärung zu übertragen."
+  },
+  {
+   "start": 79,
+   "titel": "Bemerkungen, Ort/Datum, Bestätigung der Einrichtung",
+   "pfad": [
+    "Bescheinigung über Vorsorgebeiträge",
+    "Abschluss"
+   ],
+   "stichworte": [
+    "Bemerkungen",
+    "Beglaubigung",
+    "Formular 605.040.42"
+   ],
+   "zusammenfassung": "Feld für Bemerkungen, Ort und Datum sowie Bestätigung der Richtigkeit durch die Einrichtung."
+  },
+  {
+   "start": 89,
+   "titel": "Fussnoten 1–3 zu Formular 21 EDP (Lohnausweis, erstes Vorsorgeverhältnis, Eigenverantwortung)",
+   "pfad": [
+    "Fussnoten"
+   ],
+   "stichworte": [
+    "Fussnoten",
+    "Lohnausweis",
+    "Arbeitnehmer",
+    "Eigenverantwortung",
+    "Vorsorgeverhältnis"
+   ],
+   "positionen": [
+    "abzug.vorsorge.saeule3a"
+   ],
+   "zusammenfassung": "Bei Arbeitnehmern sind vom Lohn abgezogene Beiträge im Lohnausweis zu bescheinigen und hier nicht aufzuführen; Angaben zu bereits geleisteten Beiträgen unter Verantwortung der versicherten Person."
+  }
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
+}

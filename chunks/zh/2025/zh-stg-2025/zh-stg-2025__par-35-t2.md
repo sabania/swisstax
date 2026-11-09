@@ -9,7 +9,7 @@ artikel: "§ 35"
 seiten: "20-21"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 35 StG ZH – V. Steuerberechnung 1. Steuertarife · S. 20–21
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 35 StG ZH – V. Steuerberechnung 1. Steuertarife · S. 20–21
 
 ### § 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Fortsetzung)
 

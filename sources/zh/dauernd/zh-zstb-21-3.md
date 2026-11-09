@@ -11,6 +11,9 @@ raw: raw/zh/dauernd/zh-zstb-21-3.html
 sha256: 3799a1b29918a06488d82e602f828ba385b7b3d9f33c29297886a5d3172df2db
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: zh-zstb-21-3-bis-2025
 ---
 # ZStB 21.3: Härtefalleinschlag Eigenmietwert
 

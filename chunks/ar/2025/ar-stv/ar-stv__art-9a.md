@@ -8,7 +8,7 @@ titel: "Art. 9a StV AR – Veräusserung infolge Überführung (Art. 21 Abs. 2 S
 artikel: "Art. 9a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 9a Veräusserung infolge Überführung (Art. 21 Abs. 2 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › B. Einkommenssteuer › Art. 9a Veräusserung infolge Überführung (Art. 21 Abs. 2 StG)
 
 ### Art. 9a StV AR – Veräusserung infolge Überführung (Art. 21 Abs. 2 StG)
 

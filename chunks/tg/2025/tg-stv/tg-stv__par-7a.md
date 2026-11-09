@@ -8,7 +8,7 @@ titel: "§ 7a StV TG – Rückbaukosten im Hinblick auf den Ersatzneubau"
 artikel: "§ 7a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 7a Rückbaukosten im Hinblick auf den Ersatzneubau
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 7a Rückbaukosten im Hinblick auf den Ersatzneubau
 
 ### § 7a StV TG – Rückbaukosten im Hinblick auf den Ersatzneubau
 

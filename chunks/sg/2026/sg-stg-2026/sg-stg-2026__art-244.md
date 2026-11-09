@@ -8,7 +8,7 @@ titel: "Art. 244 StG SG – Steuerfreie Handänderungen"
 artikel: "Art. 244"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 244 Steuerfreie Handänderungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Vierter Abschnitt: Handänderungssteuer › Art. 244 Steuerfreie Handänderungen
 
 ### Art. 244 StG SG – Steuerfreie Handänderungen
 

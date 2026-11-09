@@ -9,7 +9,7 @@ artikel: "§ 254"
 seiten: "87"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 254 StG ZH – c. Vorbereitung der Hauptverhandlung · S. 87
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 254 StG ZH – c. Vorbereitung der Hauptverhandlung · S. 87
 
 ### § 254 StG ZH – c. Vorbereitung der Hauptverhandlung
 

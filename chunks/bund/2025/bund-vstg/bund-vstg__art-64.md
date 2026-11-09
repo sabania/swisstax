@@ -2,13 +2,13 @@
 id: bund-vstg__art-64
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 64 VStG"
 artikel: "Art. 64"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · A. Widerhandlungen › IV. Ordnungswidrigkeiten › Art. 64
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · A. Widerhandlungen › IV. Ordnungswidrigkeiten › Art. 64
 
 ### Art. 64 VStG
 

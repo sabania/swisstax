@@ -2,14 +2,14 @@
 id: bund-ks-45__c0098
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.8 Leistungen vor Antritt des Arbeitsverhältnisses (Sign-on-Bonus)"
 ziffer: "6.8"
 seiten: "31"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.8 Leistungen vor Antritt · S. 31
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.8 Leistungen vor Antritt · S. 31
 
 6.8   Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses
 Entschädigungen, welche dem Arbeitnehmer vom Arbeitgeber vor Antritt des Arbeitsverhält-

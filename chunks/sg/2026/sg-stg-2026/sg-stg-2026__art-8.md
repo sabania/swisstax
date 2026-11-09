@@ -8,7 +8,7 @@ titel: "Art. 8 StG SG – b) Gemeindeanteile"
 artikel: "Art. 8"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 8 b) Gemeindeanteile
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 8 b) Gemeindeanteile
 
 ### Art. 8 StG SG – b) Gemeindeanteile
 

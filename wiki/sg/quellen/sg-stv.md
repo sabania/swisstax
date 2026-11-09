@@ -11,6 +11,48 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2024-01-01
 - **Original:** <https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/811.11/versions/3565> · lokal: [sg-stv.json](../../../raw/sg/2025/sg-stv.json) · Volltext: [sg-stv.md](../../../sources/sg/2025/sg-stv.md)
 - **Abgerufen:** 2026-11-09 · sha256 `3132abb71b6cdd68…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2024-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 26 Daten-Einträgen und 10 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stv`).
+
+- `data/belege-teil2.yaml#6:liegenschaft-nebenkosten-gebaeudeversicherung` (agent-geprueft)
+- `data/werte/sg/2025.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
+- `data/werte/sg/2025.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
+- `data/werte/sg/2025.yaml#41:liegenschaft.pauschale_alt` (agent-geprueft)
+- `data/werte/sg/2026.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
+- `data/werte/sg/2026.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
+- `data/werte/sg/2026.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
+- `data/werte/sg/2026.yaml#13:berufskosten.uebrige.fix` (agent-geprueft)
+- `data/werte/sg/2026.yaml#15:berufskosten.uebrige.max` (agent-geprueft)
+- `data/werte/sg/2026.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/sg/2026.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
+- `data/werte/sg/2026.yaml#41:liegenschaft.pauschale_alt` (agent-geprueft)
+- `data/werte/sg/2026.yaml#42:liegenschaft.eigenmietwert_abzug` (agent-geprueft)
+- `data/werte/sg/2026.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
+- `data/werte/sg/2026.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
+- `data/werte/sg/2026.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#14:einkommen.liegenschaften.eigenmietwert@5` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#15:einkommen.unterhaltsbeitraege@6.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#2:einkommen.unselbstaendig.vr_honorare@1.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#33:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#69:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#70:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#71:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#73:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#74:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#75:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.1` (agent-geprueft)
+- [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
+- [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
+- [wiki/themen/mitarbeiterbeteiligungen.md](../../themen/mitarbeiterbeteiligungen.md)
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
+- [wiki/themen/selbstaendige-naturalbezuege.md](../../themen/selbstaendige-naturalbezuege.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
+- [wiki/themen/unterhaltsbeitraege.md](../../themen/unterhaltsbeitraege.md)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 
 ## Inhalt (141 Chunks)
 

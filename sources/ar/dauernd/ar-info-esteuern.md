@@ -12,6 +12,7 @@ raw: raw/ar/dauernd/ar-info-esteuern.html
 sha256: 96db1a911a9515ccf472f4a3aece851688157e5816524020bf8e135771ebd2c4
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # eSteuern – Servicebeschreibung Steuerportal
 

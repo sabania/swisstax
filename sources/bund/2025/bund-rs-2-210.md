@@ -13,6 +13,10 @@ sha256: f0e26f3310523a726627de797f81015e5ab27cf7445aedb39642905080613d02
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: bund-rs-2-215
 ---
 # Rundschreiben 2-210: Berufskosten, Naturalbezüge, kalte Progression 2025
 

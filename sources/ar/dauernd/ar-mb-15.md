@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/15_Berufskostenpauschale_fuer_Behoerdentaetigkeit__ab_2024_.pdf
 raw: raw/ar/dauernd/ar-mb-15.pdf
@@ -13,6 +14,8 @@ sha256: eb4c82669d3000c4494ace004169fc064f47af8d0afa68e3396d911bb45177bc
 abgerufen: '2026-11-09'
 seiten: 3
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2024-02-01'
 ---
 # Merkblatt 15: Berufskostenpauschale für Behördentätigkeit (ab 2024)
 

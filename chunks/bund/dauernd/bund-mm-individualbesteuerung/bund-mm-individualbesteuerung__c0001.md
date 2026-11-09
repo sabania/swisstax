@@ -2,12 +2,12 @@
 id: bund-mm-individualbesteuerung__c0001
 quelle: bund-mm-individualbesteuerung
 jur: bund
-jahre: [2025, 2026]
+jahre: []
 typ: mitteilung
 titel: "Medienmitteilung Bundesrat: Individualbesteuerung per 01.01.2032"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: mitteilung}}
+qmd: {metadata: {jur: bund, jahre: [], typ: mitteilung}}
 ---
-> Bund · Steuerjahr 2025/2026 · MM Individualbesteuerung · Medienmitteilung Bundesrat: Individualbesteuerung per 01.01.2032
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Mitteilung · MM Individualbesteuerung · Medienmitteilung Bundesrat: Individualbesteuerung per 01.01.2032
 
 # Medienmitteilung Bundesrat: Individualbesteuerung per 01.01.2032
 

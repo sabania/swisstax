@@ -8,7 +8,7 @@ titel: "Art. 54 bis StV SG – Ersatzeinkünfte (Art. 106 Abs. 2 Bst. b StG)"
 artikel: "Art. 54 bis"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 54 bis Ersatzeinkünfte (Art. 106 Abs. 2 Bst. b StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 54 bis Ersatzeinkünfte (Art. 106 Abs. 2 Bst. b StG)
 
 ### Art. 54 bis StV SG – Ersatzeinkünfte (Art. 106 Abs. 2 Bst. b StG)
 

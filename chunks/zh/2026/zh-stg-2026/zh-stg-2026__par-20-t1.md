@@ -9,7 +9,7 @@ artikel: "§ 20"
 seiten: "9-11"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] · S. 9–11
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] · S. 9–11
 
 ### § 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48]
 

@@ -2,14 +2,14 @@
 id: bund-ks-45__c0062
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.1 Monatsmodell – Vorbemerkungen (Swissdec)"
 ziffer: "6.1"
 seiten: "21"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.1 Vorbemerkungen · S. 21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 6 Berechnung nach dem Monatsmodell › 6.1 Vorbemerkungen · S. 21
 
 6   Berechnung der Quellensteuer nach dem Monatsmodell
 

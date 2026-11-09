@@ -9,7 +9,7 @@ ziffer: "2.2 / 21"
 seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2.2 Privatanteil Geschäftsfahrzeug · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 2.2 Privatanteil Geschäftsfahrzeug · S. 10
 
 Bei Leasingfahrzeugen tritt anstelle des Kaufpreises der im Leasingvertrag festgehaltene
 Barkaufpreis des Fahrzeuges (exkl. Mehrwertsteuer), eventuell der im Leasingvertrag ange

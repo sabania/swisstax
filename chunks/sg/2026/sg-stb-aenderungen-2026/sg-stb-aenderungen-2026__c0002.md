@@ -2,13 +2,13 @@
 id: sg-stb-aenderungen-2026__c0002
 quelle: sg-stb-aenderungen-2026
 jur: sg
-jahre: [2026]
+jahre: [2025, 2026]
 typ: info
 titel: "Änderungen StB 044 – Verwaltungskosten, Liegenschaftsunterhalt, Denkmalpflege"
 seiten: "1"
-qmd: {metadata: {jur: sg, jahre: [2026], typ: info}}
+qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2026 · StB SG Änderungen 2026 · Änderungen Steuerbuch Stand 1.1.2026 · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · StB SG Änderungen 2026 · Änderungen Steuerbuch Stand 1.1.2026 · S. 1
 
 StB 044 Nr. 1   Verwaltungskosten des beweglichen   01.01.2026
     Allgemeine Aktualisierung.

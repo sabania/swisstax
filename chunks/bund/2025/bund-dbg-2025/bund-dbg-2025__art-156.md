@@ -8,7 +8,7 @@ titel: "Art. 156 DBG – Sicherung der Inventaraufnahme"
 artikel: "Art. 156"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Siebenter Titel: Inventar › 3. Kapitel: Verfahren › Art. 156 Sicherung der Inventaraufnahme
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Siebenter Titel: Inventar › 3. Kapitel: Verfahren › Art. 156 Sicherung der Inventaraufnahme
 
 ### Art. 156 DBG – Sicherung der Inventaraufnahme
 

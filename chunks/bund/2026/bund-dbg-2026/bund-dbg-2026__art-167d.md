@@ -8,7 +8,7 @@ titel: "Art. 167d DBG – Verfahrensrechte und Verfahrenspflichten der gesuchste
 artikel: "Art. 167d"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 4. Kapitel: Erlass der Steuer › Art. 167d Verfahrensrechte und Verfahrenspflichten der gesuchstellenden Person
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 4. Kapitel: Erlass der Steuer › Art. 167d Verfahrensrechte und Verfahrenspflichten der gesuchstellenden Person
 
 ### Art. 167d DBG – Verfahrensrechte und Verfahrenspflichten der gesuchstellenden Person
 

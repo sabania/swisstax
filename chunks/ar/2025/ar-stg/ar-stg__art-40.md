@@ -8,7 +8,7 @@ titel: "Art. 40 StG AR – 2. Kapitalabfindungen für wiederkehrende Leistungen"
 artikel: "Art. 40"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 40 2. Kapitalabfindungen für wiederkehrende Leistungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 40 2. Kapitalabfindungen für wiederkehrende Leistungen
 
 ### Art. 40 StG AR – 2. Kapitalabfindungen für wiederkehrende Leistungen
 

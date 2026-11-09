@@ -8,7 +8,7 @@ titel: "Art. 112 DBG – Amtshilfe anderer Behörden"
 artikel: "Art. 112"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 1. Kapitel: Amtspflichten › Art. 112 Amtshilfe anderer Behörden
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 1. Kapitel: Amtspflichten › Art. 112 Amtshilfe anderer Behörden
 
 ### Art. 112 DBG – Amtshilfe anderer Behörden
 

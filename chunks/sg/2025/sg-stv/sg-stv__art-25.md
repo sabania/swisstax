@@ -8,7 +8,7 @@ titel: "Art. 25 StV SG – c) Rückstellungen (Art. 41 Abs. 1 Bst. c StG)"
 artikel: "Art. 25"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 25 c) Rückstellungen (Art. 41 Abs. 1 Bst. c StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 25 c) Rückstellungen (Art. 41 Abs. 1 Bst. c StG)
 
 ### Art. 25 StV SG – c) Rückstellungen (Art. 41 Abs. 1 Bst. c StG)
 

@@ -8,7 +8,7 @@ titel: "Art. 32 DBG (Teil 2/2)"
 artikel: "Art. 32"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 4. Abschnitt: Privatvermögen › Art. 32
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 4. Abschnitt: Privatvermögen › Art. 32
 
 ### Art. 32 DBG (Fortsetzung)
 

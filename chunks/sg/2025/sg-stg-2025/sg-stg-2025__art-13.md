@@ -8,7 +8,7 @@ titel: "Art. 13 StG SG – Persönliche Zugehörigkeit"
 artikel: "Art. 13"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 13 Persönliche Zugehörigkeit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 13 Persönliche Zugehörigkeit
 
 ### Art. 13 StG SG – Persönliche Zugehörigkeit
 

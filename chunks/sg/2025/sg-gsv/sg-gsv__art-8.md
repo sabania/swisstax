@@ -8,7 +8,7 @@ titel: "Art. 8 VGS SG – Schätzungswerte"
 artikel: "Art. 8"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 8 Schätzungswerte
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 8 Schätzungswerte
 
 ### Art. 8 VGS SG – Schätzungswerte
 

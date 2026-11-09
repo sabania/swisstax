@@ -9,7 +9,7 @@ artikel: "§ 20a"
 seiten: "11-12"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 20a StG ZH – b. Besondere Fälle · S. 11–12
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 20a StG ZH – b. Besondere Fälle · S. 11–12
 
 ### § 20a StG ZH – b. Besondere Fälle (Fortsetzung)
 

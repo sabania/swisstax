@@ -8,7 +8,7 @@ titel: "Art. 272 StG SG – Steuerbetrug"
 artikel: "Art. 272"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · VIERTER TEIL: STEUERSTRAFRECHT › Zweiter Abschnitt: Steuervergehen › Art. 272 Steuerbetrug
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · VIERTER TEIL: STEUERSTRAFRECHT › Zweiter Abschnitt: Steuervergehen › Art. 272 Steuerbetrug
 
 ### Art. 272 StG SG – Steuerbetrug
 

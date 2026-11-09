@@ -8,7 +8,7 @@ titel: "Art. 35 StG SG – f) Einkünfte aus Vorsorge (Teil 2/3)"
 artikel: "Art. 35"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 35 f) Einkünfte aus Vorsorge
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 35 f) Einkünfte aus Vorsorge
 
 ### Art. 35 StG SG – f) Einkünfte aus Vorsorge (Fortsetzung)
 

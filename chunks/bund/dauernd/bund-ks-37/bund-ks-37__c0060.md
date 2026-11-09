@@ -2,14 +2,14 @@
 id: bund-ks-37__c0060
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8.1.2.1–8.1.2.2 Bescheinigung bei Freigabe vor Sperrfristablauf und bei Rückgabe"
 ziffer: "8.1.2.1 / 8.1.2.2"
 seiten: "19-20"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1 Arbeitgeber › 8.1.2 Bescheinigung bei Mitarbeiteraktien · S. 19–20
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 8 Mitwirkungs- und Bescheinigungspflichten › 8.1 Arbeitgeber › 8.1.2 Bescheinigung bei Mitarbeiteraktien · S. 19–20
 
 8.1.2.1 Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfrist (Art. 11 MBV)
 Die Bescheinigung bei Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfirst muss für die

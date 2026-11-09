@@ -8,7 +8,7 @@ titel: "§ 36 StV TG – Akteneinsicht"
 artikel: "§ 36"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 36 Akteneinsicht
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 36 Akteneinsicht
 
 ### § 36 StV TG – Akteneinsicht
 

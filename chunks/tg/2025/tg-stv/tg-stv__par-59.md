@@ -8,7 +8,7 @@ titel: "§ 59 StV TG – Elektronische Erfassung"
 artikel: "§ 59"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 10. Elektronische Erfassung und Aufbewahrung * › § 59 Elektronische Erfassung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 10. Elektronische Erfassung und Aufbewahrung * › § 59 Elektronische Erfassung
 
 ### § 59 StV TG – Elektronische Erfassung
 

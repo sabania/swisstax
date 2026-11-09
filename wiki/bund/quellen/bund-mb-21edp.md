@@ -2,15 +2,24 @@
 typ: quelle
 id: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt zur Bescheinigung über Vorsorgebeiträge (Formular 21 EDP)"
 generiert: tools/build_index.py
 ---
 # MB 21 EDP: Merkblatt zur Bescheinigung über Vorsorgebeiträge (Formular 21 EDP)
 
-- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-07-29
+- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2025-07-29
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/bwQT3vUiDRc1/dbst-mb-21edp-2025-de.pdf> · lokal: [bund-mb-21edp.pdf](../../../raw/bund/dauernd/bund-mb-21edp.pdf) · Volltext: [bund-mb-21edp.md](../../../sources/bund/dauernd/bund-mb-21edp.md)
 - **Abgerufen:** 2026-11-09 · sha256 `df3961460e44fb8a…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-07-29 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 3 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-mb-21edp`).
+
+- `data/belege-teil1.yaml#4:bescheinigung-saeule3a` (agent-geprueft)
+- `data/belege-teil1.yaml#5:bescheinigung-pk-einkauf` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#1:einkommen.unselbstaendig.haupterwerb@1.1` (agent-geprueft)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

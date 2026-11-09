@@ -8,7 +8,7 @@ titel: "§ 4 BKV TG – Wochenaufenthalt"
 artikel: "§ 4"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 4 Wochenaufenthalt
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · BKV TG · 1. Berufsauslagen › § 4 Wochenaufenthalt
 
 ### § 4 BKV TG – Wochenaufenthalt
 

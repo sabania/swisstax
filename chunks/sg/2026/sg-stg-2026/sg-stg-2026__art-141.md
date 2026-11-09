@@ -8,7 +8,7 @@ titel: "Art. 141 StG SG – b) Zuschläge und Ermässigungen"
 artikel: "Art. 141"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 141 b) Zuschläge und Ermässigungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 141 b) Zuschläge und Ermässigungen
 
 ### Art. 141 StG SG – b) Zuschläge und Ermässigungen
 

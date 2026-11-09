@@ -9,7 +9,7 @@ artikel: "§ 77"
 seiten: "41"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 77 StG ZH – 7. Kollektive Kapitalanlagen · S. 41
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 77 StG ZH – 7. Kollektive Kapitalanlagen · S. 41
 
 ### § 77 StG ZH – 7. Kollektive Kapitalanlagen
 

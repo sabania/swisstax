@@ -8,7 +8,7 @@ titel: "Art. 7 StV SG – Wirtschaftliche Zugehörigkeit (Art. 14 Abs. 3 StG)"
 artikel: "Art. 7"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 7 Wirtschaftliche Zugehörigkeit (Art. 14 Abs. 3 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 7 Wirtschaftliche Zugehörigkeit (Art. 14 Abs. 3 StG)
 
 ### Art. 7 StV SG – Wirtschaftliche Zugehörigkeit (Art. 14 Abs. 3 StG)
 

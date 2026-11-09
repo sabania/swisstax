@@ -8,7 +8,7 @@ titel: "Art. 2 GSV AR – Gegenstand der Schätzung"
 artikel: "Art. 2"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 2 Gegenstand der Schätzung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 2 Gegenstand der Schätzung
 
 ### Art. 2 GSV AR – Gegenstand der Schätzung
 

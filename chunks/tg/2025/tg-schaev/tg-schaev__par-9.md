@@ -8,7 +8,7 @@ titel: "§ 9 SchäV TG – Schätzung land- und forstwirtschaftlicher Grundstüc
 artikel: "§ 9"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · SchäV TG · 1. Allgemeine Bestimmungen › § 9 Schätzung land- und forstwirtschaftlicher Grundstücke
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · SchäV TG · 1. Allgemeine Bestimmungen › § 9 Schätzung land- und forstwirtschaftlicher Grundstücke
 
 ### § 9 SchäV TG – Schätzung land- und forstwirtschaftlicher Grundstücke
 

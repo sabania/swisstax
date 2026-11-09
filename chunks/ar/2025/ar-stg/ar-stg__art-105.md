@@ -8,7 +8,7 @@ titel: "Art. 105 StG AR – VII. Wechsel zwischen Quellensteuerabzug und ordentl
 artikel: "Art. 105"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 105 VII. Wechsel zwischen Quellensteuerabzug und ordentlicher Veranlagung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 105 VII. Wechsel zwischen Quellensteuerabzug und ordentlicher Veranlagung
 
 ### Art. 105 StG AR – VII. Wechsel zwischen Quellensteuerabzug und ordentlicher Veranlagung
 

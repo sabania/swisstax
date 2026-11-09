@@ -8,7 +8,7 @@ titel: "Art. 91 StV SG – c) Ausscheidungsvereinbarungen"
 artikel: "Art. 91"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · DRITTER TEIL: GEMEINDESTEUERN › Art. 91 c) Ausscheidungsvereinbarungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · DRITTER TEIL: GEMEINDESTEUERN › Art. 91 c) Ausscheidungsvereinbarungen
 
 ### Art. 91 StV SG – c) Ausscheidungsvereinbarungen
 

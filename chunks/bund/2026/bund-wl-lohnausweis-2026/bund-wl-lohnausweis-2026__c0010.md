@@ -9,7 +9,7 @@ ziffer: "9"
 seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstabe F · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Buchstabe F · S. 8
 
 Unentgeltliche Beförderung zwischen Wohn- und Arbeitsort   Buchstabe F
 

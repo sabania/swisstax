@@ -8,7 +8,7 @@ titel: "Art. 2 V DBG SG – Aufgaben"
 artikel: "Art. 2"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · I. Organisation › Art. 2 Aufgaben
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · I. Organisation › Art. 2 Aufgaben
 
 ### Art. 2 V DBG SG – Aufgaben
 

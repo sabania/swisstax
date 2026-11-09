@@ -8,7 +8,7 @@ titel: "Art. 51 StG SG – 2. Kapitalabfindungen für wiederkehrende Leistungen"
 artikel: "Art. 51"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 51 2. Kapitalabfindungen für wiederkehrende Leistungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 51 2. Kapitalabfindungen für wiederkehrende Leistungen
 
 ### Art. 51 StG SG – 2. Kapitalabfindungen für wiederkehrende Leistungen
 

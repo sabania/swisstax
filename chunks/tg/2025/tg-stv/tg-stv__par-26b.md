@@ -8,7 +8,7 @@ titel: "§ 26b StV TG – Mitwirkungsentschädigung"
 artikel: "§ 26b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 4. Quellensteuer für natürliche und juristische Personen › 4.3. Allgemeine Bestimmungen * › § 26b Mitwirkungsentschädigung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 4. Quellensteuer für natürliche und juristische Personen › 4.3. Allgemeine Bestimmungen * › § 26b Mitwirkungsentschädigung
 
 ### § 26b StV TG – Mitwirkungsentschädigung
 

@@ -7,7 +7,7 @@ typ: info
 titel: "Steuererklärungen und Fristverlängerungen"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: info}}
 ---
-> AR · Steuerjahr 2025/2026 · AR Fristverlängerung · Steuererklärungen und Fristverlängerungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · AR Fristverlängerung · Steuererklärungen und Fristverlängerungen
 
 # Steuererklärungen und Fristverlängerungen
 

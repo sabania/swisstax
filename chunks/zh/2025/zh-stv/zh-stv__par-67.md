@@ -9,7 +9,7 @@ artikel: "§ 67"
 seiten: "12-13"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 67 StV ZH – 1. Melde- und Auskunftspflichten der Notariate und Grundbuchämter · S. 12–13
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Zweiter Abschnitt: Grundsteuern › § 67 StV ZH – 1. Melde- und Auskunftspflichten der Notariate und Grundbuchämter · S. 12–13
 
 ### § 67 StV ZH – 1. Melde- und Auskunftspflichten der Notariate und Grundbuchämter
 

@@ -9,7 +9,7 @@ artikel: "§ 283"
 seiten: "94"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 283 StG ZH · S. 94
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 283 StG ZH · S. 94
 
 ### § 283 StG ZH
 

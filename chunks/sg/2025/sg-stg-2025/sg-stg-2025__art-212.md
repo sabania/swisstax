@@ -8,7 +8,7 @@ titel: "Art. 212 StG SG – Ausgleichszinsen"
 artikel: "Art. 212"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 212 Ausgleichszinsen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 212 Ausgleichszinsen
 
 ### Art. 212 StG SG – Ausgleichszinsen
 

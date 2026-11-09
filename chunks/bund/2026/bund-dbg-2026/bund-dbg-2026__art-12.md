@@ -8,7 +8,7 @@ titel: "Art. 12 DBG – Steuernachfolge"
 artikel: "Art. 12"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 12 Steuernachfolge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Besondere Verhältnisse bei der Einkommenssteuer › Art. 12 Steuernachfolge
 
 ### Art. 12 DBG – Steuernachfolge
 

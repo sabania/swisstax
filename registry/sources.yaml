@@ -27,6 +27,10 @@
     symbol: Art.
     pdf: https://ar.clex.ch/api/de/versions/1634/pdf_file
   geaendert_am: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'raw/ar/2025/ar-stg.json: selected_version 1634 «Aktuelle Version in Kraft seit: 01.01.2025 (Beschlussdatum: 25.09.2023)»; old_versions 1633 «Version in Kraft von: 01.03.2024 bis: 31.12.2024»;
+    future_versions = []; Änderungstabelle letzte Inkrafttreten 01.01.2025 (Art. 25 Abs. 3, Art. 35 Abs. 1 lit. '
 - id: ar-steuerfuesse-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -43,6 +47,11 @@
   sha256: f8481fe52d5eafd998a17249f547807e065651394964298797e3a864d7e5897d
   bytes: 146574
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/ar/2025/ar-steuerfuesse-2025.md Seite 1: «Steuerfüsse 2025 natürliche Personen», «Kantonaler Steuerfuss: 3.30 Einheiten», «Entwicklung der Steuerfüsse 2024 – 2025»; raw-PDF Fusszeile
+    «Stand: 08.01.2025» (PDF-CreationDate 15.01.2026)'
 - id: ar-steuerfuesse-2026
   jurisdiktion: ar
   ordner_jahr: '2026'
@@ -59,6 +68,11 @@
   sha256: 34b9d573d5d57ce3cb8bf99e9d8189822727d8f55757019da83ba4c509027b5d
   bytes: 139829
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/ar/2026/ar-steuerfuesse-2026.md Seite 1: «Steuerfüsse 2026 natürliche Personen», «Kantonaler Steuerfuss: 3.30 Einheiten», «Entwicklung der Steuerfüsse 2025 – 2026»; raw-PDF Fusszeile
+    «Stand: 28.04.2026»'
 - id: ar-tarif-np
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -77,6 +91,10 @@
   sha256: 65517bb763f5946ce251da67ea91bc51a743abbdc060f2f5f519a557c6ca57e2
   bytes: 76307
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2024-01-01'
+  zeit_beleg: 'sources/ar/dauernd/ar-tarif-np.md Seite 1: «Einkommens- und Vermögenssteuertarife 2024 *)» / «*) Anpassung des Steuertarifs gemäss Art. 39a Ausgleich der Folgen der kalten Progression per
+    01.01.2024»; ar-info-steuerberechnung: «Tarifübersicht natürliche Personen ab Steuerjahr 2024»'
 - id: ar-portal-merkblaetter
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -94,12 +112,16 @@
   sha256: bad9b97cbcfda7a5e6dccc8263b79ad98468628d89f1ee121b1e7c578af8113c
   bytes: 148730
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/ar/dauernd/ar-portal-merkblaetter.md: Liste u.a. «06 ... (bis 2024)» / «06 ... (ab 2025)», «03 (1) ... (ab 2020)» / «(ab 2024)», «15 ... (ab 2024)» / «(ab 2020)», «04 ... (ab 2026)»,
+    «08/11/12 (alle Steuerperioden)», «18 Erhebung von Gebühren (ab 2025)»'
 - id: ar-mb-01
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 01
   titel: 'Merkblatt 01: Kosten der Fahrt zum Arbeitsort (ab 2020)'
@@ -111,12 +133,19 @@
   sha256: 225151d00c165178a313e024884d6f76203c0afc7f9d7bf6b1ab8ffd00251d73
   bytes: 12974
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2020-04-30'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-01.md Seite 1: «Merkblatt Kosten der Fahrt zum Arbeitsort vom 30. April 2020 gültig ab Steuerperiode 2020»; «bis zu einem Höchstbetrag von Fr. 6‘000»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-02
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 02
   titel: 'Merkblatt 02: Kinderabzug (Fassung 25.9.2025)'
@@ -128,12 +157,20 @@
   sha256: 8a48257f1e4c51d255810cb0e54d6040a19d48a0a8cf19f8abfccbd32fd9176d
   bytes: 148400
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2026-08-18'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-02.md Seite 1: «vom 25. September 2025 / gültig ab Steuerperiode 2020»; Seite 2 Fusszeile: «Erstellt: 30.04.2020 / Ersetzt Version vom: 25.09.2025 / Stand: 18.08.2026»;
+    raw/ar/dauernd/ar-mb-02.pdf CreationDate 24.08.2026'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-03
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 03
   titel: 'Merkblatt 03: Steuerliche Behandlung des Liegenschaftsunterhalts (ab 2024)'
@@ -145,12 +182,19 @@
   sha256: 0e07eb68ddc5cb8be425504a91330e07d66867a3fa26b4e96ecc7eaceec45503
   bytes: 122061
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-09-30'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-03.md Seite 1: «Merkblatt Steuerliche Behandlung des Liegenschaftsunterhalts vom 30. September 2025 gültig ab Steuerperiode 2024»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-03-anhang
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 03-anhang
   titel: 'Merkblatt 03-anhang: Anhang zum Merkblatt Liegenschaftsunterhalt (ab 2024)'
@@ -162,12 +206,19 @@
   sha256: 35e078f44ce7d4423f86a1e88c3fdf989f7f75cc974138d669b5d881123ea29a
   bytes: 66495
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2024-11-21'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-03-anhang.md Seite 1: «Anhang zum Merkblatt Liegenschaftsunterhalt vom 21. November 2024»; Fusszeilen «21.11.2024 Seite x von 7»; Dateiname «..._ab_2024_.pdf»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-06
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 06
   titel: 'Merkblatt 06: Bemessung von Bussen bei Verletzung von Verfahrenspflichten (ab 2025)'
@@ -179,12 +230,20 @@
   sha256: 99570601d93f8e93b88ebabb41c50816b38ad879aa991c14a05f88e6140fd07c
   bytes: 33694
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-12-17'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-06.md Seite 1: «Merkblatt Bemessung von Bussen bei Verletzung von Verfahrenspflichten vom 17.12.2025 gültig ab Steuerperiode 2025»; ar-portal-merkblaetter: «06 ...
+    (bis 2024)» / «06 ... (ab 2025)»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-07
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 07
   titel: 'Merkblatt 07: Festsetzung der Mietwerte von selbstgenutzten Liegenschaften (Fassung 17.6.2025)'
@@ -196,12 +255,19 @@
   sha256: bee8a946610ac48d0b7f40145404f2e23f321220b2a47bf0c42d4f0a7f86f40c
   bytes: 282760
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-06-17'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-07.md Seite 1: «Merkblatt Festsetzung der Mietwerte für selbstgenutzte Liegenschaften (Eigenmietwert) vom 17. Juni 2025 gültig ab Steuerperiode 2020»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-08
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 08
   titel: 'Merkblatt 08: Einkauf in die Pensionskasse'
@@ -213,12 +279,19 @@
   sha256: 23f154cbac9035b6ae387c5ecc109ee2f80bed56e91a87601de48fc5ed031653
   bytes: 23120
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-08.md Seite 2: «Diese Ausführungen finden für Einkäufe ab 1.1.2006 Anwendung.» / «Kantonale Steuerverwaltung Oktober 2007»; ar-portal-merkblaetter: «08 Einkauf von
+    Beitragsjahren in die 2. Säule (alle Steuerperioden)»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-09
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 09
   titel: 'Merkblatt 09: Teilpensionierung mit Kapitalbezug'
@@ -230,12 +303,19 @@
   sha256: 7d8b2fa7593c97fdb289fd28130a3bac4f25496e073bc0319fc52d8930d8ad46
   bytes: 91465
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2024-10-22'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-09.md Seite 1: «Merkblatt zur Teilpensionierung mit Kapitalbezug vom 22. Oktober 2024 gültig ab Steuerperiode 2024»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-11
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 11
   titel: 'Merkblatt 11: Steuererlass'
@@ -247,12 +327,18 @@
   sha256: 6213779d4a585ee687ae20cdbc2d227c47177abbbe86cc35a9e8df24e1f028b1
   bytes: 46626
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-11.md: «Merkblatt zum Steuererlass» ... Schluss «Kantonale Steuerverwaltung Februar 2016»; ar-portal-merkblaetter: «11 Steuererlass (alle Steuerperioden)»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-12
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 12
   titel: 'Merkblatt 12: Nachsteuerverfahren – Kostenverrechnung'
@@ -264,12 +350,19 @@
   sha256: 2e346eb525cc108b721826126ab500592980b14441f93505df4c15210a5a04a9
   bytes: 24795
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-12.md: «Gebühr in Höhe von 10 Prozent des Nachsteuerbetrags ... Mindestgebühr Fr. 100.– und die Maximalgebühr Fr. 5''000.–», gestützt auf Gebührengesetz «Nachtrag
+    vom 14. März 2005»; Fusszeile Dateipfad «Nachsteuergebühren 23.06.2006.doc»; ar-portal-merkblaetter: «12 ... (all'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-15
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 15
   titel: 'Merkblatt 15: Berufskostenpauschale für Behördentätigkeit (ab 2024)'
@@ -281,12 +374,20 @@
   sha256: eb4c82669d3000c4494ace004169fc064f47af8d0afa68e3396d911bb45177bc
   bytes: 89911
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2024-02-01'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-15.md Seite 1: «Merkblatt Berufskostenpauschale für nebenamtliche Behördentätigkeit vom 1. Februar 2024 gültig ab Steuerperiode 2024»; Seite 3 Ziff. 7 «Frühere Steuerperioden:
+    Siehe Merkblatt 2020 und Weisung Staatssteuerkommission»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-16
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 16
   titel: 'Merkblatt 16: Ermittlung des Mietwertes bei landwirtschaftlichen Liegenschaften'
@@ -298,12 +399,19 @@
   sha256: a05d3d046d928daad09571e6981c0a9d73c96d41869bc6f4c8a946eca27929ac
   bytes: 28386
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2020-08-13'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-16.md Seite 1: «Merkblatt Ermittlung des Mietwertes bei landwirtschaftlichen Liegenschaften vom 13. August 2020 gültig ab der Steuerperiode 2020»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-18
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 18
   titel: 'Merkblatt 18: Erhebung von Gebühren (ab 1.9.2025)'
@@ -315,12 +423,20 @@
   sha256: 2130dd72d99546205fe7bd3b3c985539aa81211a16ee890733e16e7cc57d7ec6
   bytes: 204995
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2025-09-01'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-18.md Seite 1: «Merkblatt Erhebung von Gebühren vom 22. Mai 2025 gültig ab 1. September 2025»; u.a. «Fristverlängerungen (im Wiederholungsfall): Fr. 25», «2. Mahnung
+    und allenfalls weitere Mahnungen: Fr. 25»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-mb-19
   jurisdiktion: ar
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB AR 19
   titel: 'Merkblatt 19: WEF-Vorbezug'
@@ -332,10 +448,18 @@
   sha256: 20cc87b962e9e9ee9b4d7c0e7d5c1d7500025f0bc222f2cb231830ecbbb0cfa5
   bytes: 27902
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2023-02-01'
+  zeit_beleg: 'sources/ar/dauernd/ar-mb-19.md Seite 1: «Merkblatt WEF-Vorbezug vom 1. Februar 2023 gültig ab Kalenderjahr 2023»; «Das Rückerstattungsgesuch muss innerhalb von drei Jahren nach der Rückzahlung
+    ... gestellt werden (Art. 83a Abs. 3 BVG)»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-news-2026
   jurisdiktion: ar
   ordner_jahr: '2026'
   jahre:
+  - 2025
   - 2026
   typ: mitteilung
   kurz: News AR 2026
@@ -348,6 +472,12 @@
   sha256: f5b033bd9f904ccf73e25fd837b07a19855a8d7aeeabbc96d0e5d5b3a12db4fc
   bytes: 109474
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2025-12-11'
+  zeit_beleg: 'raw/ar/2026/ar-news-2026.html: datePublished «2025-12-11»; sources/ar/2026/ar-news-2026.md: Steuerfuss bleibt 3.3 Einheiten (KR 1.12.2025); Kilometeransatz «von 70 auf 75 Rappen» auch für
+    SGS AR; «Im Jahr 2026 gilt: ... provisorische Steuern ... 1 % ... Verzugszins ... 5 %»; «Aufschalten Steuererklä'
+  jahre_vorher:
+  - 2026
 - id: ar-info-steuerberechnung
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -365,6 +495,9 @@
   sha256: bcaddcf48cb9919fb8453dcf73b4fd42c15f8441a2833c0f9b93771d242b299a
   bytes: 113043
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/ar/dauernd/ar-info-steuerberechnung.md: Links «Tarifübersicht natürliche Personen ab Steuerjahr 2024», «Steuerfüsse 2026», «Steuerfüsse 2025», «Steuerfüsse 2024», «Steuerfüsse 2016
+    bis 2026»'
 - id: ar-info-steuerbezug
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -382,6 +515,9 @@
   sha256: c181b0368b0434a3f8abb86d6fb34f890d4d5fc8b562a0aaec9fcb1a9b47a35e
   bytes: 133771
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  zeit_beleg: 'sources/ar/dauernd/ar-info-steuerbezug.md: Ausgleichszins-Tabelle «ab 01.01.2024 1.0%»; «Der Zinssatz für Verzugszinsen beträgt bei den Staats- und Gemeindesteuern 5 %»; DBG-Verzugszins «ab
+    2025 4.5% / ab 2026 4.0%»; Elterntarif «2025 Fr. 263.00 / 2026 Fr. 263.00»; «Der Verfalltag ist jeweils der 30'
 - id: ar-info-faq
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -399,6 +535,8 @@
   sha256: 6b2d468d69b83d6634dd7d97442aaed5ce33891ea1004ee24f12b659755dd79e
   bytes: 107303
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/ar/dauernd/ar-info-faq.md: Link «Wegleitung_zur_Steuererklaerung_2024_.pdf» und Berechnungsformular Pflegeaufenthalt («..._ab_Pflegestufe_4.xls»); kein Datum'
 - id: ar-wl-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -415,6 +553,11 @@
   sha256: 11fbb16675343dcbb63399b7ceaa7c1a4e3fadf556680cdfe4074eb6ffc66da9
   bytes: 641200
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: sources/ar/2025/ar-wl-2025.md S. 1 «Wegleitung zur Steuererklärung 2025»; «Vermögen nach dem Stand per 31. Dezember»; S. 4 «nur die erste Fristverlängerung kostenlos ist. Jede weitere Fristverlängerung
+    kostet Fr. 25.–»
 - id: ar-portal-formulare
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -432,6 +575,9 @@
   sha256: 155ab2c33af7c543cd94f1c740f6e62d29a19a2f8ca0c61a5335e90fc8669f2f
   bytes: 128287
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/ar/dauernd/ar-portal-formulare.md: nur Überschrift «Formulare und Wegleitungen» und Kontaktblock; raw/ar/dauernd/ar-portal-formulare.html Navigationsdaten: Unterseiten «Formulare
+    Steuerperiode 2021» … «Formulare Steuerperiode 2025», «Formulare Steuerperiode 2026», «Wegleitungen», «Jahresunab'
 - id: ar-info-fristen
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -449,6 +595,8 @@
   sha256: 48d738ce60c0f4c8659da84a173958a4e37e7fe887f590276b18caa577964658
   bytes: 112011
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/ar/dauernd/ar-info-fristen.md: Links «Fristverlängerung online» (esteuern.ar.ch/private/fristerstreckung), Online-Steuererklärung NP/JP, Ergänzungssteuer; keine Fristen/Daten genannt'
 - id: ar-info-esteuern
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -466,6 +614,8 @@
   sha256: 96db1a911a9515ccf472f4a3aece851688157e5816524020bf8e135771ebd2c4
   bytes: 22321
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/ar/dauernd/ar-info-esteuern.md: Servicebeschreibung Steuerportal (Online-Einreichung, Fristerstreckung, Massenfristen, Kontoauszug); kein Datum'
 - id: ar-tool-esteuern
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -484,6 +634,8 @@
   bytes: 1331
   final_url: https://esteuern.ar.ch/
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'raw/ar/dauernd/ar-tool-esteuern.bin (1331 Bytes, HTML-Hülle): «AR PORTAL», Module DEADLINE-EXTENSION, ACCOUNT-STATEMENT, REFUND-ACCOUNT, PAYMENT-SLIP; kein Volltext, kein Datum, kein Jahr'
 - id: ar-info-agov
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -501,6 +653,8 @@
   sha256: 8e5946e166dfb29b3bcdabdd3bb879f9a263e867c2580d984411b7ab4d6f7967
   bytes: 109088
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/ar/dauernd/ar-info-agov.md: Anleitung Login AGOV / esteuern.ar.ch; kein Datum im Text, kein Datums-Meta im raw/ar/dauernd/ar-info-agov.html'
 - id: ar-info-grundstueckschaetzung
   jurisdiktion: ar
   ordner_jahr: dauernd
@@ -518,12 +672,16 @@
   sha256: 91f6ab8a0b9a0adddf67092835cb63082bafc705b558329d4efcd92b3cfb645e
   bytes: 106035
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/ar/dauernd/ar-info-grundstueckschaetzung.md: «Gemäss Beschluss des Regierungsrates vom 21. November 2023 gilt ab 1. Januar 2024 ein Basiszinssatz von 2.75 Prozent»; «mindestens alle
+    zehn Jahre neu bewertet»'
 - id: bund-portal-fedlex-64
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: portal
   kurz: Fedlex SR 64
   titel: Systematik Direkte Steuern (Fedlex)
@@ -536,12 +694,18 @@
   bytes: 77151
   final_url: https://www.fedlex.admin.ch:443/de/cc/internal-law/64
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Registry: verarbeitung link, kein Volltext, abgerufen 2026-11-09, final_url https://www.fedlex.admin.ch:443/de/cc/internal-law/64'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-portal-gesetze
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: portal
   kurz: ESTV Gesetze DBST
   titel: ESTV Gesetze und Verordnungen DBST
@@ -553,12 +717,18 @@
   sha256: f8e2d11f8bd37081d237b197687323fa7e1095cc0d9eb44914cd62b65039e9fc
   bytes: 318951
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: Seite verweist nur auf «642.1 - Direkte Steuern» (Fedlex); Abruf 2026-11-09; keine Datums-/Jahresangabe
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-sthg
   jurisdiktion: bund
   ordner_jahr: '2025'
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: gesetz
   kurz: StHG
   titel: Steuerharmonisierungsgesetz (StHG, SR 642.14) – Fassung gültig ab 01.01.2025
@@ -583,12 +753,20 @@
     html: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1991/1256_1256_1256/20250101/de/html/fedlex-data-admin-ch-eli-cc-1991-1256_1256_1256-20250101-de-html-12.html
     pdf_a: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1991/1256_1256_1256/20250101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1991-1256_1256_1256-20250101-de-pdf-a-4.pdf
   geaendert_am: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2027-12-31'
+  zeit_beleg: 'Titel «Fassung gültig ab 01.01.2025»; Registry fedlex.gilt_bis 2027-12-31; Fedlex-SPARQL (2026-11-09): Konsolidierungen 642.14 20250101 (bis 2027-12-31), 20280101, 20290101'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-vstg
   jurisdiktion: bund
   ordner_jahr: '2025'
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: gesetz
   kurz: VStG
   titel: Verrechnungssteuergesetz (VStG, SR 642.21) – Fassung gültig ab 01.01.2025
@@ -613,12 +791,20 @@
     html: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/371_385_384/20250101/de/html/fedlex-data-admin-ch-eli-cc-1966-371_385_384-20250101-de-html-11.html
     pdf_a: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/371_385_384/20250101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1966-371_385_384-20250101-de-pdf-a-3.pdf
   geaendert_am: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'Titel «Fassung gültig ab 01.01.2025»; Registry fedlex.gilt_bis null; Fedlex-SPARQL (2026-11-09): für SR 642.21 einzige Konsolidierung seit 2024 = 20250101 ohne dateEndApplicability, während
+    für DBG bereits 20270101/20280101/20290101 und für StHG 20280101 publiziert sind'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-vstv
   jurisdiktion: bund
   ordner_jahr: '2025'
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: verordnung
   kurz: VStV
   titel: Verrechnungssteuerverordnung (VStV, SR 642.211) – Fassung gültig ab 01.01.2025
@@ -643,6 +829,13 @@
     html: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/1585_1641_1624/20250101/de/html/fedlex-data-admin-ch-eli-cc-1966-1585_1641_1624-20250101-de-html-6.html
     pdf_a: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/1585_1641_1624/20250101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1966-1585_1641_1624-20250101-de-pdf-a-3.pdf
   geaendert_am: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  zeit_beleg: sources/bund/2025/bund-vstv.md Titel 'Fassung gültig ab 01.01.2025'; Fn. 81 'Eingefügt durch Ziff. I der V vom 9. Juni 2023, in Kraft seit 1. Jan. 2025 (AS 2023 305)'; Fedlex-Metadaten gilt_bis
+    null
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-mm-2025-09-11-kalte-progression-2026
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -659,6 +852,11 @@
   sha256: deebb4b6b06c68974f490780acb65d5e1ee344a10d1ee8176a77603c35d4e9d3
   bytes: 323397
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt_durch: bund-mm-kalte-progression-2027
+  zeit_beleg: «Veröffentlicht am 11. September 2025»; «Die Anpassung gilt ab dem Steuerjahr 2026 und wird erstmals für die Steuererklärung relevant, die 2027 für das Steuerjahr 2026 auszufüllen ist»
 - id: bund-bsv-masszahlen-2025-2026
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -676,12 +874,17 @@
   sha256: adfc86c6c36f7046de21921ef40b1d8fd05fa866c02dbffffe631da9083e8e8a
   bytes: 373454
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: S. 1 Tabelle mit Spalten «2025» und «2026»; Ziff. 9 «Steuerfreier Grenzbetrag Säule 3a» 7'258 / 36'288 je Jahr; Fusszeile «© 2026 by BSV/MAS/Math»
 - id: bund-portal-ks
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: portal
   kurz: ESTV KS DBST
   titel: Kreisschreiben DBST (Übersicht)
@@ -693,12 +896,19 @@
   sha256: 882eb073cd913ef6e4bd08a6c1785f0ab7c7979a8a1a440065e1051545b25439
   bytes: 541160
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: Abruf 2026-11-09; neuester Eintrag «Kreisschreiben Nr. 51 … vom 05.11.2026»; führt KS 37 «in aktualisierter Version vom 30.10.2020» und KS 45 «vom 12.06.2019» als aktuelle Fassungen, ältere
+    Versionen (z.B. KS 37 «Ursprüngliche Version … vom 22.07.2013») getrennt; listet KS 18a (PDF 22. Dezember 2025
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-portal-rs
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: portal
   kurz: ESTV RS DBST
   titel: Rundschreiben DBST (Übersicht)
@@ -710,12 +920,19 @@
   sha256: 6667b1bbf696f164d3351e3deb31b3d67d0bbca3480b0b48ebf8c93d4f51dd1b
   bytes: 934862
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Abruf 2026-11-09; listet «Rundschreiben Nr. 221: Quellensteuertarife 2027» (20. Oktober 2026), Nr. 220 («für das Steuerjahr 2027»), Nr. 215/216/217/218/219 (2026), Nr. 210/211/212/213/214
+    (2025)'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-portal-mb
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: portal
   kurz: ESTV MB DBST
   titel: Merkblätter DBST (Übersicht)
@@ -727,6 +944,12 @@
   sha256: 71b337de8c5dd584fb91cd9d5ab4210afe71f544010a7b63a7a59d601145f022
   bytes: 360423
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: Abruf 2026-11-09; listet «21 EDP - Merkblatt … 29. Juli 2025», «Merkblatt N 1 / 2007», «N 2 / 2007», «NL 1 / 2007» sowie überholte Ausgaben «N 1 / 2001», «N 1 / 1993», «N 2 / 2001», «N 2 /
+    1993», «NL 1 / 2001»
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-portal-formulare
   jurisdiktion: bund
   ordner_jahr: dauernd
@@ -744,12 +967,16 @@
   sha256: 96994d9860c6231c5b1836f6e284f212f91ce847ebb73b33eb4dcb43669992fe
   bytes: 452952
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Abruf 2026-11-09: «DBST 2026 - Sammlung der Formulare und Wegleitungen, dfi … 15. September 2026»; Abschnitt «Formulare und Wegleitungen DBST 2026»; Archiv «DBST 2025 - Sammlung der Formulare
+    und Wegleitungen, dfi ZIP44.51 MB11. August 2025»; kein Treffer «2027» im Volltext'
 - id: bund-portal-publikationen
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: portal
   kurz: ESTV Publikationen DBST
   titel: Publikationen DBST (Übersicht)
@@ -761,12 +988,18 @@
   sha256: d9c7d95a94291166972e356b825110c3ee175b590c551393c1d82d1fa82b39ef
   bytes: 333040
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: Navigationsseite (Kreisschreiben, Rundschreiben, Merkblätter, Gesetze) ohne Datums- oder Jahresangabe; Abruf 2026-11-09
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-portal-ks-vst
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: portal
   kurz: ESTV KS VST
   titel: Kreisschreiben Verrechnungssteuer (Übersicht)
@@ -778,6 +1011,11 @@
   sha256: 6c87a01f53e5d39553737da9acb7c0247a97be8de2c54a564e8388ed740a625f
   bytes: 415078
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: Abruf 2026-11-09; neuester Eintrag «Kreisschreiben Nr. 51 … vom 05.11.2026»; führt KS 48, KS 40, KS 34 und KS 21 (PDF-Datum jeweils 10. Oktober 2023)
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-info-ictax
   jurisdiktion: bund
   ordner_jahr: dauernd
@@ -795,6 +1033,8 @@
   sha256: 1c5a9ffe77720dce70975ceb4e5d3ee9d6a2980f094f58d9b87584229621e7a4
   bytes: 315936
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/bund/dauernd/bund-info-ictax.md: «Diese Kurse gelten als Steuerwert am 31. Dezember (Art. 14 und 17 Abs. 1 StHG)»; keine Jahres- oder Datumsangabe'
 - id: bund-tool-ictax
   jurisdiktion: bund
   ordner_jahr: dauernd
@@ -812,6 +1052,8 @@
   sha256: 562ca9e6038aace0c76eff112efdcd29fa830303af9cd213913e2d2ef87ff452
   bytes: 18157
   abgerufen: '2026-11-09'
+  zeitbezug: stichtag
+  zeit_beleg: 'Kein Volltext (verarbeitung: link); registry/sources.yaml Eintrag bund-tool-ictax (ordner dauernd, URL ictax.admin.ch/extern/de.html#/ratelist)'
 - id: bund-ks-11a
   jurisdiktion: bund
   ordner_jahr: dauernd
@@ -831,12 +1073,16 @@
   abgerufen: '2026-11-09'
   hinweis: gilt gemäss Ziff. 7 erst ab Steuerperiode 2027; für 2025/2026 gilt KS 11 vom 31.8.2005 (bund-ks-11)
   gilt_ab: '2027-01-01'
+  zeitbezug: dauernd
+  ersetzt: bund-ks-11
+  zeit_beleg: S. 1 «Bern, 26. Mai 2026»; S. 12 Ziff. 7 Geltungsbereich «… ersetzt das Kreisschreiben Nr. 11 vom 31. August 2005 … und gelangt ab der Steuerperiode 2027 zur Anwendung»
 - id: bund-ks-17
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 17
   titel: 'ESTV-Kreisschreiben Nr. 17: Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge'
@@ -849,11 +1095,20 @@
   sha256: 4168d3612b608447ac17fa82a36156dc2e3c769844e44e61963b89c31e81ca62
   bytes: 61263
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2007-10-03'
+  zeit_beleg: S. 9 Ziff. IV «Das vorliegende Kreisschreiben gilt ab sofort und ersetzt das Kreisschreiben Nr. 23 vom 5. Mai 1995» (Bern, 3. Oktober 2007); S. 1 Fn. 1 «Angepasst an das Bundesgesetz über
+    die formelle Bereinigung … vom 22. März 2013 (in Kraft seit 1. Januar 2014)»
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-18a
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
+  - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 18a
   titel: 'ESTV-Kreisschreiben Nr. 18a: Säule 3a: Beiträge und Leistungen (ab 01.01.2026)'
@@ -868,12 +1123,19 @@
   abgerufen: '2026-11-09'
   gilt_ab: '2026-01-01'
   hinweis: ersetzt KS 18 ab 1.1.2026; für Steuerjahr 2025 gilt KS 18 (bund-ks-18)
+  zeitbezug: dauernd
+  ersetzt: bund-ks-18
+  zeit_beleg: S. 1 «Bern, 22. Dezember 2025»; S. 13 Ziff. 12 «Das vorliegende Kreisschreiben tritt per 1. Januar 2026 in Kraft. Es ersetzt das Kreisschreiben Nr. 18 vom 17. Juli 2008.»; S. 6 Ziff. 5.6 Einkäufe
+    «erst für Beitragslücken ab dem Steuerjahr 2025»
+  jahre_vorher:
+  - 2026
 - id: bund-ks-41
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 41
   titel: 'ESTV-Kreisschreiben Nr. 41: Freizügigkeit in der beruflichen Vorsorge'
@@ -886,12 +1148,19 @@
   sha256: 15158e1d5cd3da3c1e704156d70b81245e01e53fbe59f601edd48884014707eb
   bytes: 343074
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2014-09-18'
+  zeit_beleg: 'S. 1: «Bern, 18. September 2014»; Ziff. 1: «ersetzt somit das Kreisschreiben Nr. 22 der ESTV vom 4. Mai 1995 … und tritt mit seiner Publikation in Kraft»; bund-portal-ks: «vom 18.09.2014»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-30
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 30
   titel: 'ESTV-Kreisschreiben Nr. 30: Ehepaar- und Familienbesteuerung'
@@ -904,12 +1173,20 @@
   sha256: 50e37ecde4d8cf45144d5b17afb636db56398665b2ed5c820e9be9713d12f119
   bytes: 1624573
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2011-01-01'
+  zeit_beleg: S. 43 Ziff. 17 «Das vorliegende Kreisschreiben gilt für die Steuerperiode 2011 und tritt per 1. Januar 2011 in Kraft»; S. 5 Einleitung «Die vorliegende 2. Auflage entspricht demnach dem gelten
+    Recht per 1. Januar 2014» (sic; Bern, 21. Dezember 2010)
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-42
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 42
   titel: 'ESTV-Kreisschreiben Nr. 42: Berufsorientierte Aus- und Weiterbildungskosten'
@@ -922,12 +1199,19 @@
   sha256: adfeb165cd591db77539debc69d1fe4454c71ebb915f2060d5cf480284de1be2
   bytes: 375489
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2017-11-30'
+  zeit_beleg: 'S. 1: «Bern, 30. November 2017»; Ziff. 1: Gesetz «per 1. Januar 2016 in Kraft»; kein eigener Abschnitt Inkrafttreten im KS; bund-portal-ks: «vom 30.11.2017»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-43
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 43
   titel: 'ESTV-Kreisschreiben Nr. 43: Preise, Ehrengaben, Stipendien, Förderbeiträge'
@@ -940,12 +1224,20 @@
   sha256: 8da9c3f371893d43ca176aca425c9fb38b6ec1b7db98499b5dfde12dfa7edc2f
   bytes: 254124
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2018-02-26'
+  zeit_beleg: 'S. 1: «Bern, 26. Februar 2018»; Ziff. 5 Inkrafttreten: «Das vorliegende Kreisschreiben tritt mit seiner Publikation in Kraft. Es ersetzt das Kreisschreiben Nr. 15 der ESTV vom 8. April 1953
+    … und das Kreisschreiben Nr. 8 … vom 25. Februar 1971»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-37
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 37
   titel: 'ESTV-Kreisschreiben Nr. 37: Mitarbeiterbeteiligungen'
@@ -958,12 +1250,20 @@
   sha256: b0b42a4dd57e77e2e27e8c09e6601ba9c4264b5e323c6fa9358b85f5c6bbb757
   bytes: 362750
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2021-01-01'
+  zeit_beleg: 'S. 1: «Kreisschreiben Nr. 37[Fn 1], Version vom 30. Oktober 2020»; Ziff. 10 (S. 21/22): «Dieses Kreisschreiben tritt auf den 1. Januar 2013 in Kraft» und «Die Anpassungen in den Ziffern 3.2.2,
+    3.4.3 sowie die neue Ziffer 3.4.4 … in der Version vom 30. Oktober 2020 treten auf den 1. Januar 2021 in Kr'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-22a
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 22a
   titel: 'ESTV-Kreisschreiben Nr. 22a: Teilbesteuerung Beteiligungserträge im Privatvermögen, Schuldzinsen'
@@ -976,12 +1276,20 @@
   sha256: 3aac9fe5dc87a3919cfae8cca84959817c074f081b7c7ec4dbe8a9c44c7c9463
   bytes: 250620
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2020-01-01'
+  zeit_beleg: S. 6 Ziff. 4 «… per 1. Januar 2020 in Kraft und findet Anwendung ab Steuerperiode 2020. Für Sachverhalte bis 31. Dezember 2019 ist nach wie vor das Kreisschreiben Nr. 22 … anwendbar» (Bern,
+    31. Januar 2020)
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-25
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 25
   titel: 'ESTV-Kreisschreiben Nr. 25: Kollektive Kapitalanlagen'
@@ -994,12 +1302,19 @@
   sha256: d3f4f397692ef85ad25c593ff085e20e81a308de18af05c394be7703a86f9a8b
   bytes: 357508
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2018-02-23'
+  zeit_beleg: S. 10 Ziff. 6 «Das vorliegende Kreisschreiben tritt mit seiner Publikation in Kraft und ersetzt das Kreisschreiben Nr. 25 vom 5. März 2009»; S. 1 «Bern, 23. Februar 2018»
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-15
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 15
   titel: 'ESTV-Kreisschreiben Nr. 15: Obligationen und derivative Finanzinstrumente'
@@ -1012,12 +1327,20 @@
   sha256: 3f92875c2159c6895915db47968640b01e4ebe16b6cb207539d1145740668a97
   bytes: 845056
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2018-01-01'
+  zeit_beleg: S. 14 Ziff. 6 «tritt mit seiner Publikation in Kraft und hat Gültigkeit für Ertragsfälligkeiten ab 1. Januar 2018. Es ersetzt das Kreisschreiben Nr. 15 vom 7. Februar 2007» (Bern, 3. Oktober
+    2017); «Der Anhang III wird laufend fortgeführt»
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-36
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 36
   titel: 'ESTV-Kreisschreiben Nr. 36: Gewerbsmässiger Wertschriftenhandel'
@@ -1030,12 +1353,19 @@
   sha256: 9f1d4a9d70a7049cbb9d91050fd1e1d538d8f6f0accddde8574c1008e6773841
   bytes: 260863
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2012-07-27'
+  zeit_beleg: S. 8 Ziff. 6 «Dieses Kreisschreiben gilt ab dem Datum seiner Publikation auf der Website der ESTV. Es ersetzt das Kreisschreiben Nr. 8 vom 21. Juni 2005»; S. 1 «Bern, 27. Juli 2012»
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-14
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 14
   titel: 'ESTV-Kreisschreiben Nr. 14: Indirekte Teilliquidation'
@@ -1048,12 +1378,20 @@
   sha256: a3fc9b5baa41c6a6c5448e52d07992ae11dee6c0dc6d5fec4fb1d90d740a1fed
   bytes: 228015
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2007-01-01'
+  zeit_beleg: S. 7 Ziff. 6 «Dieses Kreisschreiben tritt am 1. Januar 2007 in Kraft, es ist gemäss Artikel 205b DBG anwendbar für alle nicht rechtskräftigen Veranlagungen von Erträgen, welche im Steuerjahr
+    2001 und später realisiert wurden» (Bern, 6. November 2007)
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-29c
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 29c
   titel: 'ESTV-Kreisschreiben Nr. 29c: Kapitaleinlageprinzip'
@@ -1066,12 +1404,19 @@
   sha256: c0b160d7ebf862cd59ce9db6a00d13c803b1d5f49dc68f41d9b01ca298f7ca7d
   bytes: 1297560
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2023-01-01'
+  zeit_beleg: S. 27 Ziff. 10 «Dieses Kreisschreiben tritt per 1. Januar 2023 in Kraft und ersetzt die bisherigen Kreisschreiben Nr. 29, 29a und 29b» (Bern, 23.12.2022)
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-28
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 28
   titel: 'ESTV-Kreisschreiben Nr. 28: Liquidationsgewinne bei Aufgabe der selbständigen Erwerbstätigkeit'
@@ -1084,12 +1429,19 @@
   sha256: 65a00487181abc13b9533a02eb7179acf2f547d613397233cf83b3f5aa17f9bb
   bytes: 588287
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2011-01-01'
+  zeit_beleg: S. 6 Ziff. 7 «Dieses Kreisschreiben tritt zusammen mit den Artikeln 18a und 37b DBG sowie der LGBV per 1. Januar 2011 in Kraft» (Bern, 3. November 2010)
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-45
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 45
   titel: 'ESTV-Kreisschreiben Nr. 45: Quellenbesteuerung des Erwerbseinkommens'
@@ -1102,12 +1454,20 @@
   sha256: 0957867cee51f98c90c3ed3d44dda5db600c380a8a584c867253fec198fe3114
   bytes: 1102000
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2021-01-01'
+  zeit_beleg: 'Ziff. 13 (S. 69): «Dieses Kreisschreiben tritt auf den 1. Januar 2021 in Kraft und gilt für sämtliche ab diesem Zeitpunkt fällig werdenden steuerbaren Leistungen»; S. 1: «Bern, 12. Juni 2019»;
+    bund-portal-ks: «vom 12.06.2019» als aktuelle Fassung'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-44
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 44
   titel: 'ESTV-Kreisschreiben Nr. 44: Besteuerung nach dem Aufwand'
@@ -1120,12 +1480,20 @@
   sha256: f17df3f8d4d4005464f54b30d068ce4b91fe14c5b3f7ee01788efe1bc77e17aa
   bytes: 406840
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2016-01-01'
+  zeit_beleg: 'Ziff. 7: «ersetzt das bisherige Kreisschreiben Nr. 9 der ESTV vom 3. Dezember 1993 und ist auf alle Veranlagungen der direkten Bundessteuer ab der Steuerperiode 2016 … anzuwenden»; «Ab 1.
+    Januar 2021 gilt auch für diese Kategorie … ausnahmslos das neue Recht»; S. 1: «Bern, 24. Juli 2018»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-w03-001
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS W03-001
   titel: 'ESTV-Kreisschreiben Nr. w03-001: Abgangsentschädigung / Kapitalabfindung Arbeitgeber'
@@ -1138,12 +1506,20 @@
   sha256: 2511eba406699de91766c7bad21cb0278b79c0ebb065a08b5e8fb189443b4a33
   bytes: 172548
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2003-01-01'
+  zeit_beleg: 'S. 1 Kopf: «Direkte Bundessteuer Steuerperiode 2003», «Bern, 3. Oktober 2002», «Kreisschreiben Nr. 1»; Fn. 1: «Angepasst an das Bundesgesetz über die formelle Bereinigung der zeitlichen Bemessung
+    … (in Kraft seit 1. Januar 2014)»; bund-portal-ks: «W03-001D vom 03.10.2002»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-w95-024
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS W95-024
   titel: 'ESTV-Kreisschreiben Nr. w95-024: Kapitalversicherungen mit Einmalprämie'
@@ -1156,12 +1532,20 @@
   sha256: 8ad1e77230e05b0ca0af3f2351ad74471a02f8816eb0004f05593559b428a9b0
   bytes: 26203
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '1995-01-01'
+  zeit_beleg: 'S. 1 Kopf: «Direkte Bundessteuer Steuerperiode 1995/96», «Bern, 30. Juni 1995», «Kreisschreiben Nr. 24»; S. 2: Art. 20 Abs. 1 Bst. a und Art. 205a DBG «am 1. Januar 1995 in Kraft getreten»;
+    Fn. 1: angepasst (in Kraft seit 1. Januar 2014); bund-portal-ks: «W95-024D vom 30.06.1995»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-w81-004
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS W81-004
   titel: 'ESTV-Kreisschreiben Nr. w81-004: Lidlohn'
@@ -1174,12 +1558,20 @@
   sha256: ed27210410088eb07b2e546a811c650fbd50898910683391fb9ed3eb338f7559
   bytes: 111962
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '1980-04-30'
+  zeit_beleg: 'S. 1: «Bern, 30. April 1980», «Kreisschreiben Nr. 4»; Fn. 1: «Das vorliegende Kreisschreiben wurde im Jahr 2022 formell nachgeführt. Materielle Änderungen wurden keine vorgenommen.»; bund-portal-ks:
+    «W81-004D vom 30.04.1980»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-vst-48
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS VST 48
   titel: 'ESTV-Kreisschreiben VST Nr. 48: Verwirkung des Rückerstattungsanspruchs (Art. 23 VStG)'
@@ -1192,12 +1584,20 @@
   sha256: 764a96d0cabb5f2baffbaecd48b9694246305c62f5e2af44bd1a5d2da6f4c324
   bytes: 183105
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2019-01-01'
+  zeit_beleg: 'Ziff. 7: «Dieses Kreisschreiben tritt gleichzeitig mit dem Inkrafttreten des geänderten Artikels 23 VStG und des Artikels 70d VStG rückwirkend auf den 1. Januar 2019 in Kraft»; S. 1: «Bern,
+    4. Dezember 2019»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-vst-34
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS VST 34
   titel: 'ESTV-Kreisschreiben VST Nr. 34: Kundenguthaben'
@@ -1210,12 +1610,19 @@
   sha256: b3bf8390e43fbf863dd8269b664fb8a3269529b9053acc59635e1d8f870c5641
   bytes: 191132
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2011-07-26'
+  zeit_beleg: 'Ziff. 9 Inkrafttreten: «Das vorliegende Kreisschreiben Nr. 34 tritt mit dessen Publikation in Kraft und ersetzt das Merkblatt S-02.122.2 vom April 1999»; S. 1: «Bern, 26. Juli 2011»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ks-vst-21
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS VST 21
   titel: 'ESTV-Kreisschreiben VST Nr. 21: Rückerstattungsbelege ausländischer Banken'
@@ -1228,6 +1635,12 @@
   sha256: 97dffa2db657836695c5eaadcf14f43451fec25aac90e7537abda92e62b4a7e5
   bytes: 135914
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2008-04-01'
+  zeit_beleg: 'Ziff. 8 Gültigkeit: «Diese Vorschriften finden auf die ab dem 01.04.2008 fälligen Dividendenzahlungen Anwendung»; S. 1: «Bern, 1. April 2008»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-rs-2-210
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -1245,6 +1658,12 @@
   sha256: f0e26f3310523a726627de797f81015e5ab27cf7445aedb39642905080613d02
   bytes: 269819
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-rs-2-215
+  zeit_beleg: 'S. 1: «Bern, 22. August 2024»; Titel «Berufskostenpauschalen und Naturalbezüge 2025 / Ausgleich der Folgen der kalten Progression … für das Steuerjahr 2025»; S. 2: VKP angepasst, «welche
+    auf den 1. Januar 2025 in Kraft tritt»'
 - id: bund-rs-2-215
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -1262,6 +1681,13 @@
   sha256: d117992719bf2fe890bcdb2bd9591c4382afc5a83471713220910fd9ebdfb5c4
   bytes: 245276
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: bund-rs-2-210
+  ersetzt_durch: bund-rs-2-220
+  zeit_beleg: 'sources/bund/2026/bund-rs-2-215.md S. 1: ''Bern, 11. September 2025'', Titel ''Ausgleich der Folgen der kalten Progression sowie Zinssätze bei der direkten Bundessteuer für das Steuerjahr
+    2026'', VKP-Anpassung ''welche auf den 1. Januar 2026 in Kraft tritt''; S. 3 Ziff. 3 Zinssatzverordnung EFD ''Diese Änd'
 - id: bund-rs-2-220
   jurisdiktion: bund
   ordner_jahr: '2027'
@@ -1279,6 +1705,12 @@
   sha256: 4c90a4ed7a92f032026c317dff3b11f99271e41c270520183f7dcda4b1d748b3
   bytes: 268851
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2027-01-01'
+  gilt_bis: '2027-12-31'
+  ersetzt: bund-rs-2-215
+  zeit_beleg: 'sources/bund/2027/bund-rs-2-220.md S. 1: ''Bern, 22. September 2026'', Titel ''... Zinssätze bei der direkten Bundessteuer für das Steuerjahr 2027'', neue Tarife und Abzüge ''welche auf den
+    1. Januar 2027 in Kraft treten''; S. 3 Ziff. 2 Merkblätter N1/NL1/N2 2007 ''weiterhin unverändert gültig''; Ziff. 3 ''D'
 - id: bund-rs-2-213
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -1296,6 +1728,11 @@
   sha256: 5d0beb29fe1167b55750e44d8372f759dfe58c99fb8ebeec2a205f4a5292bbd8
   bytes: 210100
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-rs-2-218
+  zeit_beleg: 'S. 1: «Bern, 27. Januar 2025», «Steuerlich anerkannte Zinssätze 2025 für Vorschüsse oder Darlehen in Schweizer Franken»; ESTV stellt «seit dem 1. Januar 2025 auf die folgenden Zinssätze ab»'
 - id: bund-rs-2-218
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -1313,6 +1750,12 @@
   sha256: 71827642f161d5f47e7e4b65f4b3c6c52f638b08373df0f67b6f3f88d8d9d310
   bytes: 215159
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: bund-rs-2-213
+  zeit_beleg: 'sources/bund/2026/bund-rs-2-218.md S. 1: ''Bern, 29. Januar 2026'', Titel ''Steuerlich anerkannte Zinssätze 2026 für Vorschüsse oder Darlehen in Schweizer Franken'', ''...seit dem 1. Januar
+    2026 auf die folgenden Zinssätze ab'''
 - id: bund-rs-2-214
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -1330,6 +1773,12 @@
   sha256: f5f1c765dde654fb88116c004d95387a5b3d134725ab1032a4332cba349b9bae
   bytes: 248274
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-rs-2-219
+  zeit_beleg: 'sources/bund/2025/bund-rs-2-214.md S. 1: ''Bern, 28. Januar 2025'', Titel ''Steuerlich anerkannte Zinssätze 2025 für Vorschüsse oder Darlehen in Fremdwährungen'', ''...stellt die ESTV ...
+    seit dem 1. Januar 2025 auf die ... Zinssätze (Richtwerte) ab''; gilt_bis aus Nachfolger RS 2-219 S. 1 (''seit dem 1. J'
 - id: bund-rs-2-219
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -1347,6 +1796,12 @@
   sha256: fd0869b79c5f98635934db7799b3711f88b21aa1fe8d916208fdc4d72968c7de
   bytes: 221163
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: bund-rs-2-214
+  zeit_beleg: 'sources/bund/2026/bund-rs-2-219.md S. 1: ''Bern, 30. Januar 2026'', Titel ''Steuerlich anerkannte Zinssätze 2026 für Vorschüsse oder Darlehen in Fremdwährungen'', ''...seit dem 1. Januar
+    2026 auf die ... Zinssätze (Richtwerte) ab''; S. 3 Tabelle Spalte 2026'
 - id: bund-rs-2-211
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -1366,6 +1821,11 @@
   bytes: 20331009
   abgerufen: '2026-11-09'
   max_seiten: 13
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-rs-2-216
+  zeit_beleg: 'S. 1: «Bern, 08. Oktober 2024», «Quellensteuertarife 2025»; Ziff. 2/3: Tarife «treten am 1. Januar 2025 in Kraft (AS 2024 478)»; bund-portal-rs: PDF vom «29. Oktober 2024»'
 - id: bund-rs-2-216
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -1383,12 +1843,19 @@
   sha256: e87db19d6e5c9d6ad5d1e05db7dbfbecb5994eba52056a41ebb0fabcd679eef7
   bytes: 1337901
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: bund-rs-2-211
+  zeit_beleg: 'sources/bund/2026/bund-rs-2-216.md S. 1: ''Bern, 28. Oktober 2025'', Titel ''Quellensteuertarife 2026''; VKP ''mit Inkrafttreten auf den 1. Januar 2026''; ''Die seit dem Jahr 2025 gültigen
+    Quellensteuertarife ... (vgl. Rundschreiben ... vom 8. Oktober 2024) müssen ebenfalls angepasst werden''; S. 2 ''Abzug f'
 - id: bund-mb-n1
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB N1/2007
   titel: 'Merkblatt N1/2007: Naturalbezüge Selbständigerwerbende'
@@ -1400,12 +1867,20 @@
   sha256: 8089d88d76e2b2514a1087b18d69ebf2e0b7dca555e91fd6252261f6675bee7e
   bytes: 170820
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2022-01-01'
+  zeit_beleg: 'S. 1 Vorbemerkung a): «gelten erstmals für die nach dem 30. Juni 2007 abgeschlossenen Geschäftsjahre»; Fussnote: «** Gültig ab 1. Januar 2022 (bis 31. Dezember 2021: 0,8 %)»; Weitergeltung:
+    bund-rs-2-210 Ziff. 1.2 (SJ 2025), bund-rs-2-215 Ziff. 2 (SJ 2026), bund-rs-2-220 Ziff. 2 (SJ 2027: «bleiben s'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-mb-n2
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB N2/2007
   titel: 'Merkblatt N2/2007: Naturalbezüge Arbeitnehmende'
@@ -1417,12 +1892,20 @@
   sha256: 333a950ac256023e24ffbe17d3c536d88a97bca71187300f242bf6ab9c1a3bed
   bytes: 87323
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2007-01-01'
+  zeit_beleg: 'S. 1: «Dieses Merkblatt gilt erstmals für die Bewertung der Naturalbezüge des Jahres 2007 (Bemessungsjahr); es ersetzt das für die Naturalbezüge 2001 bis 2006 massgebende Merkblatt N 2 /
+    2001»; «Ab 2007 sind bis auf weiteres …»; Weitergeltung: bund-rs-2-210 Ziff. 1.2, bund-rs-2-215 Ziff. 2, bund-rs-'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-mb-nl1
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB NL1/2007
   titel: 'Merkblatt NL1/2007: Privatanteile Land- und Forstwirtschaft'
@@ -1434,12 +1917,20 @@
   sha256: 50ebc73d44ed2491a340795e7605738995e3af2c0a3db7a31dff943078242814
   bytes: 148031
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2022-01-01'
+  zeit_beleg: 'S. 1: «Dieses Merkblatt ist erstmals bei der Bewertung und Einkommensermittlung des Bemessungsjahres 2007 anzuwenden»; Ziff. 5 Fussnote: «* Gültig ab 1. Januar 2022 (bis 31. Dezember 2021:
+    0,8 %)»; Weitergeltung: bund-rs-2-210 Ziff. 1.2, bund-rs-2-215 Ziff. 2, bund-rs-2-220 Ziff. 2'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-mb-21edp
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: MB 21 EDP
   titel: Merkblatt zur Bescheinigung über Vorsorgebeiträge (Formular 21 EDP)
@@ -1452,6 +1943,13 @@
   sha256: df3961460e44fb8ac8093cbe67d487252907f35387521c3c3047e80991082720
   bytes: 124771
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-07-29'
+  zeit_beleg: 'S. 6: «Bern, 29. Juli 2025»; Ziff. 3 Rz 28–33 (Einkäufe Säule 3a, Feld t «Steuerperiode»); Dateiname dbst-mb-21edp-2025-de.pdf; bund-portal-mb: «29. Juli 2025»; bund-portal-formulare: dasselbe
+    MB im Abschnitt «Formulare und Wegleitungen DBST 2026»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-wl-lohnausweis-2026
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -1468,6 +1966,10 @@
   sha256: d92b36c0e0f63fd32a0c8e761438d3cc61cb209a854fa9dd0c131450a5a10e8b
   bytes: 896269
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  zeit_beleg: 'sources/bund/2026/bund-wl-lohnausweis-2026.md Titelseite (Seite 1): ''Gültig ab: 1. Januar 2026''; Vorwort S. 3: ''Die Wegleitung wird jeweils jährlich überarbeitet''; Rz 9 / Rz 23 / Spesen
+    S. 11/17: ''mindestens 75 Rappen'', ''8''500 Privatkilometer x 75 Rappen'', ''maximal 75 Rappen pro Kilometer''; Fn. 1 S.'
 - id: bund-form-2-2026
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -1484,6 +1986,11 @@
   sha256: 37b0eabf3920bd6ca85496b65a9637f92df5bfc0a756285965a57d35333bb81d
   bytes: 1121457
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: bund-form-2-2025
+  zeit_beleg: Fusszeilen S. 1–4 «Formular 2 605.040.11d (Steuerperiode 2026)»; Personalien «31. Dezember 2026»
 - id: bund-wl-2a-2026
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -1500,6 +2007,12 @@
   sha256: 767c0f82265a9858a476676796b817ab0f221ce1497f5dc0e0f1915613eab002
   bytes: 380384
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: bund-wl-2a-2025
+  zeit_beleg: 'sources/bund/2026/bund-wl-2a-2026.md Fusszeile jeder Seite ''Formular 2a 605.040.11.1d (Steuerperiode 2026)''; S. 6: ''...können ab der Steuerperiode 2026 Einkäufe geleistet werden für Beitragslücken,
+    die ab dem 1.1.2025 entstanden sind'''
 - id: bund-form-da1-2026
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -1516,6 +2029,11 @@
   sha256: 90f55d4ef1d303cf9d5e0955fb63535002a4a11906123e3cf70185a78854a3d6
   bytes: 853047
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: bund-form-da1-2025
+  zeit_beleg: Fusszeile «Formular DA-1 605.040.03d (Steuerperiode 2026)»; Erläuterungen «im Jahre 2026» fällig gewordene Dividenden und Zinsen, «31. Dezember 2026»
 - id: bund-zip-formulare-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -1532,12 +2050,17 @@
   sha256: 208389366e0115e6195efbdece6784923de5c81f9e366ed505aa7ad86feeefb0
   bytes: 44514898
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'Dateiname dbst-form-2025-de.zip; bund-portal-formulare: «DBST 2025 - Sammlung der Formulare und Wegleitungen, dfi ZIP44.51 MB11. August 2025»'
 - id: bund-mm-saeule3a-einkauf
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: mitteilung
   kurz: MM 3a-Einkäufe
   titel: 'Medienmitteilung Bundesrat: Einkäufe in die Säule 3a'
@@ -1550,6 +2073,13 @@
   bytes: 92967
   final_url: https://www.admin.ch/de/nsb?id=103044
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2025-01-01'
+  zeit_beleg: '«Veröffentlicht am 6. November 2024»; Änderungen der BVV 3 «treten per 1. Januar 2025 in Kraft»; ergänzend bund-bvv3 Übergangsbestimmung zur Änderung vom 6.11.2024: «Beitragslücken …, die
+    vor Inkrafttreten der Änderung vom 6. November 2024 entstanden sind, können nicht mit einem Einkauf ausgeglichen'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-mm-kalte-progression-2027
   jurisdiktion: bund
   ordner_jahr: '2027'
@@ -1566,12 +2096,15 @@
   sha256: c556a9323d16ca99dca5452e6c59e669eb1a78e7a5f0293efac293feb4bf9034
   bytes: 325568
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2027-01-01'
+  gilt_bis: '2027-12-31'
+  ersetzt: bund-mm-2025-09-11-kalte-progression-2026
+  zeit_beleg: «Veröffentlicht am 22. September 2026»; «Die Anpassung gilt ab dem Steuerjahr 2027 und wird erstmals für die Steuererklärung relevant, die 2028 für das Steuerjahr 2027 auszufüllen ist»
 - id: bund-mm-eigenmietwert-abschaffung
   jurisdiktion: bund
   ordner_jahr: dauernd
-  jahre:
-  - 2025
-  - 2026
+  jahre: []
   typ: mitteilung
   kurz: MM Eigenmietwert
   titel: 'Medienmitteilung Bundesrat: Abschaffung Eigenmietwert per 01.01.2029'
@@ -1583,12 +2116,16 @@
   sha256: 65b125a652730d03ca3e518aad273ea555f5ad1380fa6b6c9fe4f8b7137e76e0
   bytes: 94058
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2029-01-01'
+  zeit_beleg: «Veröffentlicht am 1. April 2026»; «hat der Bundesrat beschlossen, die Reform der Wohneigentumsbesteuerung auf den 1. Januar 2029 in Kraft zu setzen»
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-mm-individualbesteuerung
   jurisdiktion: bund
   ordner_jahr: dauernd
-  jahre:
-  - 2025
-  - 2026
+  jahre: []
   typ: mitteilung
   kurz: MM Individualbesteuerung
   titel: 'Medienmitteilung Bundesrat: Individualbesteuerung per 01.01.2032'
@@ -1600,12 +2137,16 @@
   sha256: 74b6d063ce8425074f2907c03738c0e3bcb6da754b6eff98722450a7a0f9903f
   bytes: 92264
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2032-01-01'
+  zeit_beleg: «Veröffentlicht am 19. August 2026»; «Die Individualbesteuerung soll 2032 in Kraft treten»; «muss gemäss dem Gesetzestext spätestens am 1. Januar 2032 in Kraft treten»
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-mm-entlastungspaket-27
   jurisdiktion: bund
   ordner_jahr: dauernd
-  jahre:
-  - 2025
-  - 2026
+  jahre: []
   typ: mitteilung
   kurz: Parlament EP27
   titel: 'Parlament: Entlastungspaket 27 (Kapitalleistungen Vorsorge) – unsicher'
@@ -1617,12 +2158,19 @@
   sha256: cd474b776507ed8a28deda81594460c10188b32ecfa74cc6f4e392dff1ab8115
   bytes: 184855
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Volltext sources/bund/dauernd/bund-mm-entlastungspaket-27.md ist leer (nur Kopf). Rohquelle raw/bund/dauernd/bund-mm-entlastungspaket-27.html: SDA-Meldung «Freitag, 20. März 2026», Schlussabstimmung
+    «Bundesgesetz über das Entlastungspaket 2027 für den Bundeshaushalt, wonach Subventionen des Bundes …'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ssk-ks22-mb-sz
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: SSK-KS 22 (MB SZ)
   titel: 'Merkblatt SZ zu SSK-KS 22: Interkantonale Steuerausscheidung mit Liegenschaften (Repartitionswerte)'
@@ -1634,12 +2182,20 @@
   sha256: 42efcb6f906ddbbfd134d170d3454d5aeba89d770cf94b36db13583b1fcafc61
   bytes: 176372
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-11-18'
+  zeit_beleg: 'Rz 12: «Dieses Merkblatt gilt ab sofort. Es ersetzt das Merkblatt «Interkantonale Steuerausscheidung mit Liegenschaften (Repartitionswerte)» vom 19. Februar 2019.»; Datum: «Schwyz, 18. November
+    2025»'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-ssk-ks27-mb-sz
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: merkblatt
   kurz: SSK-KS 27 (MB SZ)
   titel: 'Merkblatt SZ zu SSK-KS 27: Anrechnung von Ausscheidungsverlusten'
@@ -1651,12 +2207,19 @@
   sha256: 161515dbbf4087372b2a7999b7405a13641a82d1a7fc811ed768b4e2335f36b7
   bytes: 121086
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2010-01-01'
+  zeit_beleg: Ziff. 4.2 «Veranlagungspraxis für Veräusserungen ab 1.01.2010»; Ziff. 6 Übergangsregelungen für Veräusserungen vor dem 01.01.2010; Fusszeile «GGSt-01.2010»; kein Ausstellungsdatum im Dokument
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stp-2-7
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 2 Nr. 7
   titel: 'StP 2 Nr. 7: Interkantonale Repartitionswerte'
@@ -1669,6 +2232,13 @@
   sha256: cf929eac0ee8ee489e4ef7cc04ecbfa4b34c93af0d5fb1f92232a11a743d43a2
   bytes: 58644
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2026-08-11'
+  zeit_beleg: 'sources/tg/dauernd/tg-stp-2-7.md Z. 28 Tabelle «2026 ff. | 2020 -2025 | 2019 | 2006 - 2018» (Aargau 110 / 130); Änderungsliste «Änderungen per 11.08.2026» (verlinkt in tg-stp-aenderungen
+    Z. 22): «StP 2 Nr. 7 … Ziff: 2 Änderung Repartitionswert Aargau»; Vorgänger-PDF 002-07-V2021-01.01'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: sg-stg-portal
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1686,6 +2256,8 @@
   sha256: d15c51e3124ab3796bfeb12aca180aabeb919315b23c417d9565e838a6a33c4a
   bytes: 2294
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Registry: verarbeitung link, kein Volltext; URL texts_of_law/811.1 (zeigt jeweils aktuelle Fassung); Registry sg-stg-2025 lexwork gilt_bis 2025-12-31, sg-stg-2026 lexwork gilt_bis 2026-12-31'
 - id: sg-vkp
   jurisdiktion: sg
   ordner_jahr: '2026'
@@ -1703,6 +2275,9 @@
   sha256: 9b3974653efbdb7296668232ce727988430978dba2503df507f3d2fd953b4dc5
   bytes: 166059
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  zeit_beleg: 'S. 1: «vom 7. Oktober 2025 (Stand 1. Januar 2026)», Fn. 2 «In Vollzug ab 1. Januar 2026»; Änderungstabelle «Grunderlass 2025-044 07.10.2025 01.01.2026»'
 - id: sg-steuerfuesse-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -1719,6 +2294,11 @@
   sha256: 08a9f7964669bfc8526d02527cc25a4d6863bd0dddf216226fcbcca2caf97069
   bytes: 214712
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: sg-steuerfuesse-2026
+  zeit_beleg: 'S. 1: «Steuerfüsse der Gemeinden des Kantons St. Gallen im Jahr 2025»; «Die Kantonssteuer beträgt 105 Prozent»'
 - id: sg-steuerfuesse-2026
   jurisdiktion: sg
   ordner_jahr: '2026'
@@ -1735,6 +2315,11 @@
   sha256: abde299107d3d935068f77e975bbbca183544d96c43c03a1074075126e2699cb
   bytes: 198629
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: sg-steuerfuesse-2025
+  zeit_beleg: 'S. 1: «Steuerfüsse der Gemeinden des Kantons St. Gallen im Jahr 2026»; «Die Kantonssteuer beträgt 105 Prozent»'
 - id: sg-portal-gesetzessammlung
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1753,6 +2338,8 @@
   bytes: 2294
   final_url: https://www.gesetzessammlung.sg.ch/app/
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Registry: verarbeitung link, kein Volltext; Einstiegsseite gesetzessammlung.sg.ch'
 - id: sg-portal-steuerbuch
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1770,6 +2357,8 @@
   sha256: 2e69f1859156a1558d6b3024b3023babab083364f82cf592624e0dc3b9368bb8
   bytes: 127904
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Volltext: «Per 1. Januar 2026 wurden diverse Weisungen des St. Galler Steuerbuchs aktualisiert …» mit Link «Liste geänderte und neue Weisungen Stand 01.01.2026»; abgerufen 2026-11-09'
 - id: sg-portal-steuerbuch-inhalt
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1787,6 +2376,8 @@
   sha256: 8df391faa52e31ad28a69cf3944860228c171f3b0c7099d0d9637fbfe7f3e093
   bytes: 321652
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Volltext: Inhaltsverzeichnis mit Links auf Weisungen (Art. 1–12 StG: Inhaltsverzeichnis, Stichwortverzeichnis, A, B, C, D, S …), kein Stand-Datum'
 - id: sg-portal-steuerbuch-changes
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1804,6 +2395,8 @@
   sha256: 9413eff83b40d0587394c91bccaf9c42ebdff9ea6cb346f22698da25e94b2cd2
   bytes: 255540
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Volltext: Change-History, jüngste Einträge «01.08.2026 | D | Neue Weisung», «01.08.2026 | StB 132 Nr. 1», «01.08.2026 | StB 143 Nr. 1»; Einträge 01.01.2026, 01.05.2025 und 01.01.2025'
 - id: sg-portal-steuerbuch-archiv
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1821,10 +2414,14 @@
   sha256: 63068507a6e79d987cd4705922420627f9c9742e9f336d96834e8c8ded3a3630
   bytes: 126369
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Volltext: Tabelle aufgehobener/zusammengeführter Weisungen, 12 Einträge mit Daten 01.01.2017 bis 01.07.2021 (z.B. «01.07.2021 | StB 033 Nr. 4 | Aufgehoben», «01.01.2017 | StB 033 Nr. 6 |
+    Zusammenführung … zu StB 33bis Nr. 1»)'
 - id: sg-stb-aenderungen-2026
   jurisdiktion: sg
   ordner_jahr: '2026'
   jahre:
+  - 2025
   - 2026
   typ: info
   kurz: StB SG Änderungen 2026
@@ -1837,6 +2434,11 @@
   sha256: fb4424b05c6109fe47ebdd504f0186264b3d09afafd9e65ee238cbd1c906a485
   bytes: 101718
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2026-01-01'
+  zeit_beleg: 'S. 1: «15. Nachtrag zum Steuerbuch Stand 1. Januar 2026»; Spalte «Gültig ab»: meist 01.01.2026, StB 034 Nr. 2 «01.01.2025 (Online-Publikation vorgezogen)», StB 132 Nr. 6 «01.05.2025»'
+  jahre_vorher:
+  - 2026
 - id: sg-stb-34-1
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1855,6 +2457,9 @@
   bytes: 62938
   final_url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/034_1.pdf
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'Fusszeile S. 1: «01.01.2025 -1- ersetzt 01.07.2021»; Change-History «01.01.2025 | StB 034 Nr. 1 | Anpassung der Ausführungen zur Vorzugsmiete …»; Ziff. 2.2 «ab der Steuerperiode 2024»'
 - id: sg-stb-34-2
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1873,6 +2478,9 @@
   bytes: 32984
   final_url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/034_2.pdf
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'Fusszeile S. 1: «01.01.2025 -1- ersetzt 01.01.2021»; sg-stb-aenderungen-2026: «StB 034 Nr. 2 … Einarbeitung von BGer 9C_305/2023 … (Praxisänderung) … 01.01.2025 (Online-Publikation vorgezogen)»'
 - id: sg-stb-39-1
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1891,6 +2499,9 @@
   bytes: 25877
   final_url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_1.pdf
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2021-01-01'
+  zeit_beleg: 'Fusszeile S. 1: «01.01.2021 -1- ersetzt 01.07.2011»; Change-History «01.01.2021 | StB 039 Nr. 1 | Allgemeine Aktualisierung …»'
 - id: sg-stb-39-3
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1909,6 +2520,10 @@
   bytes: 85259
   final_url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_3.pdf
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2026-01-01'
+  zeit_beleg: 'Fusszeile S. 1: «01.01.2026 -1- ersetzt 01.01.2025»; S. 5/6 Ziff. 4.2.2: «Der einheitliche Kilometeransatz von Fr. --.75 gilt ab der Steuerperiode 2026. Für die Steuerperiode 2025 beträgt
+    der Kilometeransatz Fr. --.70»; Ziff. 3 Tabelle Maximalabzüge bis 2026 (2025 und 2026: Fr. 8''000 / Fr. 3''300)'
 - id: sg-stb-39-5
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1927,6 +2542,9 @@
   bytes: 34213
   final_url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_5.pdf
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2021-07-01'
+  zeit_beleg: 'Fusszeile S. 1: «01.07.2021 -1- ersetzt 01.07.2011»; Ziff. 3.1 Pauschalansätze «Steuerjahr 2009 ff.» (30.00/Tag, 6''400/Jahr; reduziert 22.50/Tag, 4''800/Jahr)'
 - id: sg-stb-39-8
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1945,6 +2563,9 @@
   bytes: 92095
   final_url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_8.pdf
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2021-07-01'
+  zeit_beleg: 'Fusszeile S. 1: «01.07.2021 -1- ersetzt 01.01.2016»; Change-History «01.07.2021 | StB 039 Nr. 8 | Nur formale Änderungen.»'
 - id: sg-stb-39-9
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1963,12 +2584,15 @@
   bytes: 61161
   final_url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_9.pdf
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2016-01-01'
+  zeit_beleg: 'Fusszeile S. 1: «01.01.2016 -1- neu»'
 - id: sg-stb-44-1
   jurisdiktion: sg
   ordner_jahr: dauernd
   jahre:
-  - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StB 44 Nr. 1
   titel: StB 44 Nr. 1 Verwaltungskosten bewegliches Privatvermögen
@@ -1981,6 +2605,13 @@
   bytes: 133177
   final_url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/044_1.pdf
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2026-01-01'
+  zeit_beleg: 'Fusszeile S. 1: «01.01.2026 -1- ersetzt 01.07.2021»; Ziff. 3.1 «2 Promille bis … Fr. 3 Mio. und 1 Promille … maximal Fr. 15''000.--»; dagegen WL 2025 (sg-wl-2025, Ausgabe 01.26) S. 27: «2‰
+    des fremdverwalteten … höchstens jedoch Fr. 6’000», ebenso Kurz-WL 2025 Ziff. 16.1'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: sg-mb-8-2026
   jurisdiktion: sg
   ordner_jahr: '2026'
@@ -1997,6 +2628,11 @@
   sha256: fc6ac331b6871a8f063de342e74af9b38d356783fcbf63bbb2c0d3e5e9eb6ee1
   bytes: 7500938
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'Titelseite: «Unterjährige Steuerpflicht zufolge Wegzugs ins Ausland sowie bei Tod im Jahr 2026», Ausgabe «01.26»; Ziff. 2 «unterjährige Steuerpflicht für das Steuerjahr 2026»; Ziff. 11 «Änderungen
+    gegenüber 2025»'
 - id: sg-form-27-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -2014,6 +2650,10 @@
   sha256: 8d15249b30c83d8f55425c18991ee05ce70c1df89d1587bfaeda5427562e8d9a
   bytes: 73624
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: Titel «Merkblatt Steuerpflicht 2025»; Fusszeile S. 1 (raw-PDF) «HA (2025) 12.25 27.01» (Hauptausgabe Steuerperiode 2025, Druck 12.25)
 - id: sg-form-32-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -2031,6 +2671,10 @@
   sha256: a7a14d10b94aab847bb077f56233de8d995cab6d457025ad816c06c0fb71fd0b
   bytes: 235672
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'S. 1: «Merkblatt für die Direkte Bundessteuer 2025», «nach dem Ergebnis 2025 bemessen»; Tarifauszug «Diese Tarife gelten ab 2025 …», «Form. 58 c ‑ 2025 ESTV / DVS 05.2025»'
 - id: sg-info-wertschriften
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -2048,6 +2692,9 @@
   sha256: d7114226159d631c40835f5972b1a61883db20dda17587110a4414fafcf76c94
   bytes: 128424
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Volltext (Snapshot abgerufen 2026-11-09): Downloads «Steuerwertliste per 31.12.2025/2024/2023», «DA-1 Antrag Natürliche Personen Fälligkeit 2025/2024/bis 2023»; allgemeiner Teil (Verweis
+    Steuerbuch 56 Nr. 1, Rz5-Antrag, Kursliste ICTax, VSt-Erläuterungen Erbfälle «Gültig für Fälligkeiten ab 1. Janua'
 - id: sg-info-quellensteuer
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -2065,6 +2712,9 @@
   sha256: 65c4a8120a8b05a461979d6845eb2b79ede3a9d350db8215169c4fc3ae4bf3cf
   bytes: 156336
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/sg/dauernd/sg-info-quellensteuer.md: undatierte Übersichtsseite (Abruf 2026-11-09); ''Einreichefrist: Bis 8 Tage nach Stellenantritt''; ''Tarife L, M, N, P, Q = 4.5% Grenzgänger Deutschland
+    mit täglicher Rückkehr''; verweist auf StB 105–119 und KS Nr. 45; ''Am 1. Januar 2021 traten die revidierte'
 - id: sg-portal-steuern
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -2082,6 +2732,8 @@
   sha256: b5576976a88b8c1c5e35a718ce561a9c5d093d057623c80b005a7e3506ab4f5c
   bytes: 127950
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Volltext: Linkkacheln (Frist verlängern, Elektronische Steuererklärungen, Wegleitungen und Formulare …), «Aktuelles zum Thema Steuern – Keine Einträge vorhanden.»'
 - id: sg-wl-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -2098,6 +2750,10 @@
   sha256: 33913f9443a0bcaaeb11a5c9d657a6471e6d4fa8b24af9995101c07db10cbb7a
   bytes: 6519871
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'Titelseite: «Wegleitung zur Steuererklärung 2025», Ausgabe «01.26»; Fusszeilen «HA (2025) 12.25»'
 - id: sg-wl-kurz-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -2115,6 +2771,11 @@
   sha256: 668a69fcaddcd2a54a9401df6508cebd8fd11cd0b7b6ee510948a3f434d2e08e
   bytes: 32996
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: Titel «Kurzübersicht Wegleitung 2025»; S. 1 «Änderungen gegenüber dem Vorjahr sind fett und kursiv»; Werte der Steuerperiode 2025 (z.B. «70 Rappen je Fahrkilometer», «max. Fr. 8’000», Verwaltung
+    «max. Fr. 6’000»)
 - id: sg-form-1-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -2131,6 +2792,11 @@
   sha256: 7c9d4403f2a98a9af63ef39e2dad09b9090e51269f488035131f6df188310c13
   bytes: 3456681
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/sg/2025/sg-form-1-2025.md S. 1: ''Kantons-, Gemeinde- und direkte Bundessteuer 2025'', ''Personalien ... am 31. Dezember 2025 bzw. am Ende der Steuerpflicht'', ''Einkünfte 2025'',
+    ''Abzüge 2025''; Fusszeile ''HA (2025) 12.25 01.01'''
 - id: sg-form-7-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -2147,6 +2813,11 @@
   sha256: 5a3777b270c8aceb1cb512152422987d76826cf6dde80c417043240b31006b0d
   bytes: 1590892
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/sg/2025/sg-form-7-2025.md S. 1: ''Zugang, bzw. Wegfall der Liegenschaft im Jahr 2025'', ''B. Erträge 2025'', ''C. Unterhalts- und Verwaltungskosten 2025''; Fusszeile ''HA (2025) 12.25
+    07.01'''
 - id: sg-portal-formulare
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -2164,12 +2835,15 @@
   sha256: c1dd90014bffc88ad6813d97db9dfc41dec42fb0c4d6e2c43ae34417f34cde7b
   bytes: 129635
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Volltext: reine Linkübersicht (Einkommens-/Vermögenssteuern, Quellensteuer usw.) ohne Datum; abgerufen 2026-11-09'
 - id: sg-info-ekst-vst
   jurisdiktion: sg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: info
   kurz: SG EK/VM-Steuer
   titel: Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
@@ -2181,6 +2855,12 @@
   sha256: c081baf763cca83175fa1bf33c8385253c328a7670bccaa4d8aee738ab1cdda5
   bytes: 223995
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/sg/dauernd/sg-info-ekst-vst.md: Abschnitt ''Tarife Privatpersonen, gültig ab'' mit Links Tarif 2027/2026/2025; Formularlisten ''2026'' (UJ, Pfad 2026-uj) und ''2025'' (HA, Pfad 2025-hs);
+    ''Steuerfuss 2026/2025'''
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: sg-tool-etax
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -2199,6 +2879,8 @@
   bytes: 576
   final_url: https://etax.sg.ch/
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Registry: verarbeitung link, kein Volltext; https://etax.sg.ch'
 - id: sg-info-etax
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -2216,6 +2898,10 @@
   sha256: 1b582c2bb2aef11171c7c28dfde714f766a0c06b5f2aa6967736946ce7338f45
   bytes: 269235
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2026-01-01'
+  zeit_beleg: 'sources/sg/dauernd/sg-info-etax.md: ''Ab der Steuerperiode 2025 steht Ihnen mit E-Tax SG unsere neue Webapplikation zur Verfügung''; FAQ ''ab der Steuerperiode 2025 wird keine Desktoplösung
+    ... mehr angeboten'', ''jahresunabhängige Webapplikation''; Versionstabelle ''1.0.3 | 01.01.2026 | Initialversion''; '''
 - id: sg-info-ekonto
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -2233,6 +2919,9 @@
   sha256: e871067d2ae1b315c31819f76d058562010cfa4b3299b5b6736a35b351a4d0ce
   bytes: 145629
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/sg/dauernd/sg-info-ekonto.md: undatierte Portal-Infoseite (abgerufen 2026-11-09), Funktionen ''Kontoauszug einsehen'', ''eFristverlängerung Steuererklärung'', ''vorläufige Rechnung
+    anpassen'''
 - id: sg-info-fristverlaengerung
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -2250,6 +2939,9 @@
   sha256: 0d38180b6efed36a22e968ce5635d5746ee351a32ddd7be3d8fcacc630e8293a
   bytes: 127454
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  zeit_beleg: 'sources/sg/dauernd/sg-info-fristverlaengerung.md: undatiert (Abruf 2026-11-09); ''Hinweis: Fristverlängerung kann nur gewährt werden, wenn die fälligen Steuerrechnungen bezahlt sind''; Systemwartung
+    6. November 2026'
 - id: sg-info-steuern-bezahlen
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -2267,6 +2959,9 @@
   sha256: 68955de22557580d9610a1ccc59684276e2ce6729611206470d036afa2558416
   bytes: 149315
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  zeit_beleg: 'sources/sg/dauernd/sg-info-steuern-bezahlen.md: undatiert (Abruf 2026-11-09); KGS ''vorläufigen Steuern ... jeweils Anfang Jahr in Rechnung gestellt ... drei Raten ... Ende Mai, Ende Juli
+    und Ende September''; DBSt ''provisorische Steuerrechnung ... jeweils im Januar des Folgejahres ... bis Ende März z'
 - id: tg-portal-rechtsbuch
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2284,11 +2979,12 @@
   sha256: 7b299f0f4d6a702f08837000cc222aca7b37169cb34277a85b875593f793f720
   bytes: 2294
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Kein Volltext (verarbeitung: link); Registry registry/sources.yaml Eintrag tg-portal-rechtsbuch (URL Systematik Rechtsbuch TG)'
 - id: tg-steuerfuesse-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
   jahre:
-  - 2025
   - 2026
   typ: steuerfuss
   kurz: Steuerfüsse TG 2026
@@ -2301,6 +2997,14 @@
   sha256: 2f243c63006d4f2c70f8e5d8eb0094d084209cd7e85993f5cbb6b6cb493977fc
   bytes: 1668781
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/tg/2026/tg-steuerfuesse-2026.md Seite 1 ''Steuerfüsse 2026, Steuerkraft 2025''; Seite 7 Tabelle ''Steuerfüsse 2026 und Steuerkraft 2025 nach Politischen Gemeinden … Staatssteuerfuss:
+    109 %''; Seite 3 ''Der Staatssteuerfuss liegt seit 2022 bei 109 %''; Schluss ''Diese Ausgabe wurde im Juni 2026 abge'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-portal-stp
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2318,6 +3022,8 @@
   sha256: be7bef91e86110ae39cd0c772b0235a3059230998ac4b780df694606ca58a326
   bytes: 30293
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: sources/tg/dauernd/tg-portal-stp.md (Quell-URL …/steuerpraxis/2026-09/information-zur-steuerpraxis); allgemeiner Informationstext ohne Datum
 - id: tg-stp-aenderungen
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2335,6 +3041,8 @@
   sha256: 4ec980dc6f80f625ccfeb642f93b2c219ee07b12802b1be8b409b76dffa51da0
   bytes: 31623
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/tg/dauernd/tg-stp-aenderungen.md Z. 22–28: Änderungen per 11.08.2026, 01.01.2026, 01.10.2025, 01.01.2025, 01.07.2024, 01.01.2024, 01.10.2023 (Ausgabe 2026-09)'
 - id: tg-portal-stp-np
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2352,6 +3060,8 @@
   sha256: f225d9da374bf0996b66f543c2c40f68329416692ddd6d9c986002be1a1640a6
   bytes: 39648
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/tg/dauernd/tg-portal-stp-np.md: Inhaltsverzeichnis, alle Links auf Ausgabe «/steuerpraxis/2026-09/…»'
 - id: tg-info-faq
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2369,12 +3079,15 @@
   sha256: 72d1298c706132d4bec169dac5ad72981b7c8856995cd23f5619f85f44fcdea6
   bytes: 118188
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  zeit_beleg: sources/tg/dauernd/tg-info-faq.md Z. 260 «(Ansatz Steuerperiode 2025)», Z. 439 «(Stand Steuerperiode 2025)», Z. 473 «(Ansätze Steuerperiode 2026)»; Beispiele mit 2025/2026 (Z. 570, 738, 754)
 - id: tg-stp-23-1
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 23 Nr. 1
   titel: 'StP 23 Nr. 1: Erträge aus unbeweglichem Vermögen (Eigenmietwert)'
@@ -2387,12 +3100,20 @@
   bytes: 62774
   abgerufen: '2026-11-09'
   hinweis: Fassung geändert per 01.10.2025 (Ausgabe 2026-09); ältere Versionen als PDF auf der Seite verlinkt
+  zeitbezug: dauernd
+  gilt_ab: '2025-10-01'
+  zeit_beleg: 'Änderungsliste «Änderungen per 01.10.2025» (verlinkt in sources/tg/dauernd/tg-stp-aenderungen.md Z. 24): «StP 23 Nr. 1 Erträge aus unbeweglichem Vermögen – Ziff. 5: Präzisierung Nettobesteuerung»;
+    Volltext Ziff. 5 Z. 86–92; Vorgänger-PDF 023-01-V2024-07.01 (Änderung per 01.07.2024: Ziff. 3.2 textlic'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stp-29-2
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 29 Nr. 2
   titel: 'StP 29 Nr. 2: Fahrkosten zwischen Wohn- und Arbeitsstätte'
@@ -2404,12 +3125,20 @@
   sha256: 0fba2e319f970d7c1efa1d4f364416674c3f43a47af6c82eab1c9ecda9df4fcf
   bytes: 72292
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'Änderungsliste «Änderungen per 01.01.2025» (verlinkt in tg-stp-aenderungen Z. 25): «StP 29 Nr. 2 … Ziff. 3.1: Änderung Maximalabzug Bund per 2025; Ziff. 3.3: Beispiele auf neue Ansätze angepasst»;
+    sources/tg/dauernd/tg-stp-29-2.md Ziff. 2.3 «Bei der direkten Bundessteuer beträgt der Ansatz einheitli'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stp-29-4
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 29 Nr. 4
   titel: 'StP 29 Nr. 4: Mehrkosten der Verpflegung'
@@ -2421,12 +3150,20 @@
   sha256: 75e4c74391333e399974ac0793214f7f559e80be3c1e7e5eb23fd347869a0a73
   bytes: 58698
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2021-07-01'
+  zeit_beleg: 'sources/tg/dauernd/tg-stp-29-4.md «Ältere Versionen», jüngste 029-04-V2021-01.07; PDF-Fussnote «01.07.2021 - 1/3 - ersetzt 01.01.2018»; Textvergleich PDF V2021-01.07 ↔ aktueller Volltext
+    (Gegenprüfung: wortgleich bis auf Links/Fusszeilen); in keiner Änderungsliste seit 07.2023; bund-rs-2-215 / bund-'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stp-29-7
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 29 Nr. 7
   titel: 'StP 29 Nr. 7: Übrige Berufskosten'
@@ -2438,12 +3175,19 @@
   sha256: 16eaa5cd1e4ba366b8181884681ba95111fca49b52acf9ffc18c271a0808c1b7
   bytes: 54865
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  zeit_beleg: 'sources/tg/dauernd/tg-stp-29-7.md «Ältere Versionen», jüngste 029-07-V2017-01.01 (PDF-Fussnote «01.01.2017 … ersetzt 01.01.2016»). Der aktuelle Text weicht ab: Ziff. 1 verweist auf «Ziff.
+    4 in StP 29 Nr. 8» statt auf StP 29 Nr. 9, Ziff. 4 hat zusätzlich «Persönliche Wahlkampfauslagen von Amtsträgern'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stp-34-1
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 34 Nr. 1
   titel: 'StP 34 Nr. 1: Liegenschaftsunterhalt'
@@ -2455,12 +3199,20 @@
   sha256: 6976db124d32c4e6cc21ecb9892871726ca04832b2b7c577b291129452ed06fa
   bytes: 91057
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2024-07-01'
+  zeit_beleg: 'Änderungsliste «Änderungen per 01.07.2024» (verlinkt in tg-stp-aenderungen Z. 26): «StP 34 Nr. 1 Liegenschaftsunterhalt – Ziff. 6.3 Textstraffung»; PDF 034-01-V2024-07.01 (Fussnote «01.07.2024
+    - 1/7 - ersetzt 01.01.2024») inhaltlich gleich wie der aktuelle Volltext; in den Änderungslisten 01.01.2025'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stp-34-23
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 34 Nr. 23
   titel: 'StP 34 Nr. 23: Freiwillige Zuwendungen'
@@ -2473,11 +3225,20 @@
   bytes: 70389
   abgerufen: '2026-11-09'
   hinweis: Fassung geändert per 01.10.2025 (Ausgabe 2026-09); ältere Versionen als PDF auf der Seite verlinkt
+  zeitbezug: dauernd
+  gilt_ab: '2025-10-01'
+  zeit_beleg: 'Änderungsliste «Änderungen per 01.10.2025» (verlinkt in tg-stp-aenderungen Z. 24): «StP 34 Nr. 23 Freiwillige Zuwendungen – Ziff. 6.1: Hinweis auf Verzeichnis der kantonalen Steuerverwaltung»;
+    Volltext enthält «sofern diese im Verzeichnis der kantonalen Steuerverwaltung geführt sind»; jüngstes Vorgä'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stp-34-24
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
+  - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 34 Nr. 24
   titel: 'StP 34 Nr. 24: Drittbetreuungskosten'
@@ -2489,14 +3250,21 @@
   sha256: e9f8af5c56c0d265dcb1341eecdb403177aad30bb506e4d555c42d4d58f9e6f8
   bytes: 70299
   abgerufen: '2026-11-09'
-  gilt_ab: '2026-01-01'
+  gilt_ab: '2026-08-11'
   hinweis: Fassung geändert per 01.01.2026 und 11.08.2026; für Steuerjahr 2025 gilt tg-stp-34-24-bis-2025 (Version 1.7.2024)
+  zeitbezug: dauernd
+  ersetzt: tg-stp-34-24-bis-2025
+  zeit_beleg: 'Änderungslisten (verlinkt in tg-stp-aenderungen Z. 22–23): «Änderungen per 01.01.2026: StP 34 Nr. 24 … Ziff. 3.2: nicht abzugsfähige Lebenshaltungskosten, Ziff. 5.4 Ausführungen zum Mittagstisch
+    gestrichen, Regelung unter 3.2 anwendbar» und «Änderungen per 11.08.2026: StP 34 Nr. 24 … Ziff. Nr. 1 + 2'
+  jahre_vorher:
+  - 2026
 - id: tg-stp-34-25
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 34 Nr. 25
   titel: 'StP 34 Nr. 25: Zweiverdienerabzug'
@@ -2508,12 +3276,20 @@
   sha256: 1912205a35fd39e1c0743bbb9ca5db683e1adf5cc96302c1879259732b5e2ec0
   bytes: 80481
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'Änderungsliste «Änderungen per 01.01.2025» (verlinkt in tg-stp-aenderungen Z. 25): «StP 34 Nr. 25 Zweiverdienerabzug – Ziff. 6: Anpassung Beispiele auf neue Ansätze 2025»; Volltext Z. 54
+    «6. Berechnungsbeispiele (Ansätze Steuerperiode 2025)»; jüngstes Vorgänger-PDF 034-25-V2018-01.01; bund-rs-2-215 '
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stp-34-27
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 34 Nr. 27
   titel: 'StP 34 Nr. 27: Allgemeine Abzüge – Ansätze'
@@ -2525,6 +3301,13 @@
   sha256: 2b1195a2ed5f52f95208ae5482192fa27b95c5fb303729253bff411efd94d5ea
   bytes: 78856
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'Änderungsliste «Änderungen per 01.01.2025» (verlinkt in tg-stp-aenderungen Z. 25): «StP 34 Nr. 27 Allgemeine Abzüge - Ansätze – Ziff.. 2.2, 3, 4, 5 und 6: Änderung Maximalabzüge Bund per
+    2025»; Volltext Tabellen: Kanton «ab 2020», Bund Versicherungen «ab 2025», Säule 3a «ab 2025», Drittbetreuung/Par'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stp-36-1
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2543,6 +3326,9 @@
   bytes: 65328
   abgerufen: '2026-11-09'
   hinweis: Fassung geändert per 01.10.2025 (Ausgabe 2026-09); ältere Versionen als PDF auf der Seite verlinkt
+  zeitbezug: dauernd
+  zeit_beleg: 'sources/tg/dauernd/tg-stp-36-1.md Ziff. 4.2.1/4.2.2: Tabellen ''Abzugshöhe pro Steuerperiode'' mit Spalten 2025 | 2024 | 2023 | …; Ziff. 4.3 ''Steuerperioden ab 2024''; ''Ältere Versionen'':
+    jüngste archivierte Fassung 036-01-V2024-01.01.pdf; URL-Ausgabe 2026-09; WL TG 2026 Seite 24 (Volltext Z. 1277–1279'
 - id: tg-stp-36-2
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2560,6 +3346,9 @@
   sha256: 7d511fb976554493f22b47ed69b47a92f4782f95346eeab5cfe74dbd7475f06d
   bytes: 52138
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  zeit_beleg: 'sources/tg/dauernd/tg-stp-36-2.md: kein Fassungsdatum; ''Ältere Versionen'': jüngste 036-02-V2014-01.01.pdf; URL-Ausgabe 2026-09; Ziff. 1.2 Stichtagsprinzip 31.12.; Ziff. 2 verweist für Beträge
+    auf StP 36 Nr. 1'
 - id: tg-stp-43-3
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2577,12 +3366,16 @@
   sha256: 12fe57c78425212fa489e07a24a1899cd4104c49ed8507f2b0488a627c381147
   bytes: 43608
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  zeit_beleg: 'sources/tg/dauernd/tg-stp-43-3.md: kein Fassungsdatum; ''Ältere Versionen'': jüngste 043-03-V2016-01.01.pdf; Ziff. 3 ''Massgebend für die Bewertung der Liegenschaft ist der am Ende der zu
+    bemessenden Steuerperiode rechtskräftige und rechtsgenüglich eröffnete Verkehrswert'''
 - id: tg-stp-155-2
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: StP 155 Nr. 2
   titel: 'StP 155 Nr. 2: Fristerstreckung zur Einreichung der Steuererklärung'
@@ -2594,6 +3387,12 @@
   sha256: b07829dc1352fd57645c1f33f708ca6854c20367f6e08c44a3047cb0e52c7c78
   bytes: 46618
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  zeit_beleg: 'sources/tg/dauernd/tg-stp-155-2.md Z. 21–29 (Fristerstreckung bis 30.09./30.11./31.12. «des Deklarationsjahres»); «Ältere Versionen», jüngste 155-02-V2020-01.01 (Fussnote «01.01.2020 … ersetzt
+    01.01.2019»; Ziff. 1 wortgleich, Ziff. 2 JP abweichend: gebührenfrei bis 31. Oktober, § 39b Absatz 2); Quel'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-wl-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -2610,6 +3409,11 @@
   sha256: 893cb9370cc8d4adcef4a8cec9162bcf107dea9d82d42fc02eeaff837b459b83
   bytes: 2463878
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: sources/tg/2025/tg-wl-2025.md Seite 1 'Wegleitung zur Steuererklärung 2025'; Seite 5 'Steuerperiode 2025 definitiv veranlagt'; Seite 7 'bis zum vorgedruckten Datum … Einreichefrist'; Seite
+    20 'Maximalbeitrag Säule 3a für Steuerperiode 2025'
 - id: tg-portal-wl-2025
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2626,6 +3430,8 @@
   sha256: 6c032ba7ae43926482244b9d04f108db0afbe22d79e2e729beae9672c727643f
   bytes: 35571
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Kein Volltext (verarbeitung: link). sources/tg/dauernd/tg-portal-formulare.md Z. 82: «01a - Wegleitung zur Steuererklärung 2025» → product/1184 (Abschnitt «Formulare 2025», Z. 78)'
 - id: tg-wl-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -2642,6 +3448,11 @@
   sha256: 309dd5686d464ca5cc26167668df49545d0372c1ea105abdb473edf3e08666d5
   bytes: 2327564
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: sources/tg/2026/tg-wl-2026.md Seite 1 'Wegleitung zur Steuererklärung 2026'; Seite 5 'Steuerperiode 2026 definitiv veranlagt'; Seite 20 'Maximalbeitrag Säule 3a für Steuerperiode 2026'; Seite
+    52 'Einkommenssteuer 2026'
 - id: tg-portal-wl-2026
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2658,6 +3469,8 @@
   sha256: 61e351a42f3ed68df466b46acfa97a2b8d48f4868a8ba6272d03c116fbd64605
   bytes: 35513
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Kein Volltext (verarbeitung: link). sources/tg/dauernd/tg-portal-formulare.md Z. 58: «01a - Wegleitung zur Steuererklärung 2026» → product/1218 (Abschnitt «Formulare 2026», Z. 54)'
 - id: tg-wl-kurz-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -2674,12 +3487,15 @@
   sha256: a30737e2250c89aa0140df0cc97dce2394a167ca0020b68214f5cdcbea01232f
   bytes: 1762294
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: sources/tg/2026/tg-wl-kurz-2026.md Seite 1 'Kurzübersicht Wegleitung 2026'; Ziff. 25.1 'Jahrgang 2001–2006'; Ziff. 36.3 'Jahrgang 2009 und jüngere'
 - id: tg-portal-wl-archiv
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
   - 2025
-  - 2026
   typ: portal
   kurz: TG WL-Archiv
   titel: Archiv der Wegleitungen 2002–2025
@@ -2691,6 +3507,11 @@
   sha256: b6c191072a2581bde0d53b3d3d801bb85bcb7ad3afbf6c1e9c23821ef4ef988a
   bytes: 37034
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: sources/tg/dauernd/tg-portal-wl-archiv.md Titel «Archiv der Wegleitungen 2002–2025»; neuester Link «Wegleitung 2025» (FW25_Form.01_Wegleitung…), keine Wegleitung 2026 verlinkt
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-portal-formulare
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2708,6 +3529,8 @@
   sha256: 04c403de438747dbafc93a03e9ae0e4084116e30c85e2a6478da567d83975d21
   bytes: 179766
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: sources/tg/dauernd/tg-portal-formulare.md Z. 24 «Jahresunabhängige Formulare/Merkblätter», Z. 54 «Formulare 2026», Z. 78 «Formulare 2025» (danach Formulare 2024 und älter)
 - id: tg-portal-form-09-1-2026
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2724,6 +3547,9 @@
   sha256: 2caff744c637d9d681b74f4c9446abe28cd4f9934cd3e6b81008a8960bbf0420
   bytes: 34736
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Kein Volltext (verarbeitung: link). Zuordnung über sources/tg/dauernd/tg-portal-formulare.md Z. 70: «09.1 - Merkblatt für Grundeigentümer mit Wohnsitz in einem anderen Kanton oder im Ausland
+    2026» → product/1230, im Abschnitt «Formulare 2026» (Z. 54)'
 - id: tg-info-efisc
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2741,6 +3567,8 @@
   sha256: 069847f36a0d3b56eb40c5d792af7bd95b8c8bdd2c220392c4260a584b87f597
   bytes: 39351
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: sources/tg/dauernd/tg-info-efisc.md Z. 28–29 «Download eFisc2026», «Download eFisc2025» (Abruf 2026-11-09)
 - id: zh-vkp-2026
   jurisdiktion: zh
   ordner_jahr: '2026'
@@ -2758,6 +3586,10 @@
   sha256: d239b98abeaa65c9d337f1d9b127c535b01deab81bd0f35dd7163bcde0ab1e4f
   bytes: 56700
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  ersetzt: zh-vkp-2024-zstb
+  zeit_beleg: 'sources/zh/2026/zh-vkp-2026.md: Erlassdatum 30.06.2025, «Inkraftsetzungsdatum 01.01.2026», «Aufhebungsdatum -», Publikation OS 80, 273 am 24.10.2025'
 - id: zh-weisung-liegenschaften-2026
   jurisdiktion: zh
   ordner_jahr: '2026'
@@ -2775,6 +3607,11 @@
   sha256: 68bcf4cf70b1afcfd04cc2790907a6f95d5f9611b85dfecdafe93fa3f045e260
   bytes: 1016765
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  ersetzt: zh-weisung-liegenschaften-2009
+  zeit_beleg: 'sources/zh/2026/zh-weisung-liegenschaften-2026.md Seite 1: «... Eigenmietwerte ab Steuerperiode 2026 (Weisung 2026) (vom 28. August 2024)»; Ziff. 94 (Z. 713): «Diese Weisung gilt ab Steuerperiode
+    2026.»'
 - id: zh-weisung-liegenschaften-2009
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -2792,6 +3629,12 @@
   sha256: 57465eef4a960231dc637971e1b18457f6ab12665ca2501c0b9b9de382be046b
   bytes: 523648
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2009-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: zh-weisung-liegenschaften-2026
+  zeit_beleg: 'sources/zh/2025/zh-weisung-liegenschaften-2009.md Z. 21-22 (Seite 1): «Die Weisung 2009 gilt noch bis und mit Steuerperiode 2025 (31. Dezember 2025). Ab Steuerperiode 2026 (1. Januar 2026)
+    gilt die neue Weisung 2026.»; Titel «... Eigenmietwerte ab Steuerperiode 2009 (Weisung 2009) (vom 12. August 20'
 - id: zh-zstb-26-1
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -2809,6 +3652,10 @@
   bytes: 52079
   abgerufen: '2026-11-09'
   gilt_ab: '2026-01-01'
+  zeitbezug: steuerperiode
+  ersetzt: zh-pauschalierung-berufsauslagen-2025
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-26-1.md Z. 25-32: «Verfügung der Finanzdirektion über die Pauschalierung von Berufsauslagen ... (ab Steuerperiode 2026)», Erlassdatum 26. September 2025, «Gültig
+    ab 1. Januar 2026»'
 - id: zh-info-steuerfuesse
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -2826,6 +3673,9 @@
   sha256: ac92d465f1396dd8a6a10c23df177647575e35050a960eb15a002cab03f020cc
   bytes: 62280
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/zh/dauernd/zh-info-steuerfuesse.md: ''Staatssteuerfuss … liegt für die Jahre 2026 und 2027 bei 95 Prozent der einfachen Staatssteuer. Dies, nachdem er in den Jahren 2024 und 2025
+    bei 98 Prozent gelegen hatte''; ''Steuerfüsse für das laufende Jahr'' nur in Applikation (nicht im Volltext)'
 - id: zh-portal-steuerbuch
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -2843,6 +3693,8 @@
   sha256: f571bf183dacc8beb32996097892e8cacf428ce67862ddc0c3b2daec29cd2afc
   bytes: 87036
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/zh/dauernd/zh-portal-steuerbuch.md: Übersichts-/Suchseite, ''seit Oktober 2017 auf der Website des kantonalen Steueramtes Zürich abrufbar''; keine Jahreswerte'
 - id: zh-portal-treuhaender
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -2860,11 +3712,16 @@
   sha256: 1e6ae27cc805da52e86281a099311667a943967b05e8454409415d1dbbc6fca8
   bytes: 1068297
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/zh/dauernd/zh-portal-treuhaender.md: Z. 459 ff. ''Fristerstreckungsgesuch … online zu beantragen''; Z. 44 ''ab dem Steuerjahr 2025 keine Steuerformulare mehr per Post'' (juristische
+    Personen)'
 - id: zh-mm-steuerbuch-2026
   jurisdiktion: zh
   ordner_jahr: '2026'
   jahre:
+  - 2025
   - 2026
+  - 2027
   typ: mitteilung
   kurz: MM ZStB 20.01.2026
   titel: Überblick über Änderungen im Zürcher Steuerbuch (20.01.2026)
@@ -2876,6 +3733,12 @@
   sha256: c95a1f1884185e952b2b1b1840224edb59f12df66f751ccc080eceafb78ed2da
   bytes: 56217
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2026-01-20'
+  zeit_beleg: 'sources/zh/2026/zh-mm-steuerbuch-2026.md: ''Mitteilung 20.01.2026''; ZStB 132.1 ''Weisung … über das Steuererklärungsverfahren vom 12. November 2025''; ZStB 139.2 ''vom 1. Juli 2025''; ZStB
+    109c.4 elektronische Einreichung; ZStB 26.1 ''Pauschalierung von Berufsauslagen … (ab Steuerperiode 2026) … von 70 au'
+  jahre_vorher:
+  - 2026
 - id: zh-mm-sozialabzuege-2026
   jurisdiktion: zh
   ordner_jahr: '2026'
@@ -2892,6 +3755,10 @@
   sha256: e86da842a4ad6f5e16906c789df198d1bce27b72832ae29c707b21cd191e11ef
   bytes: 53446
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2026-04-15'
+  zeit_beleg: 'sources/zh/2026/zh-mm-sozialabzuege-2026.md: ''Mitteilung 15.04.2026''; ''Weisung der Finanzdirektion über Sozialabzüge und Steuertarife (ab Steuerperiode 2026) (ZStB Nr. 34.1)''; ZStB 21.3
+    Härtefalleinschlag; ZStB 31.4 ''entspricht der langjährigen Praxis''; ZStB 203.1 ''für die Steuerperioden 2027/2028'' '
 - id: zh-portal-steuerwissen
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -2909,11 +3776,16 @@
   sha256: bb8d5de69512e5079b22ed04eeafd21de6bec2df83e81ddb11a518da13985f44
   bytes: 1119146
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: sources/zh/dauernd/zh-portal-steuerwissen.md Z. 100 'Ertragsanteil für die Steuerperiode 2025 beträgt 7% (Publikation vom 30.1.2026 der ESTV)'; Z. 102 'Steuerperiode 2026 … unterjährige Steuererklärung
+    … hilfsweise'; Z. 148 'bis zum Gesamtbetrag von 12'000 Franken'; Z. 324 'Härtefalleinschlag … erst
 - id: zh-zstb-132-1
   jurisdiktion: zh
   ordner_jahr: dauernd
   jahre:
+  - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: ZStB 132.1
   titel: 'ZStB 132.1: Steuererklärungsverfahren inkl. Fristerstreckung'
@@ -2927,6 +3799,12 @@
   abgerufen: '2026-11-09'
   gilt_ab: '2026-01-01'
   hinweis: 'Verfahrensregel: gilt ab 1.1.2026 (d.h. auch für die 2026 einzureichende Steuererklärung 2025) – Vorgängerfassung siehe zh-zstb-132-1-bis-2025.'
+  zeitbezug: verfahren
+  ersetzt: zh-zstb-132-1-bis-2025
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-132-1.md Dokumentinfo ''Erlassdatum 12. November 2025'', ''Gültig ab 1. Januar 2026''; Abschnitt L (Z. 375): ''tritt am 1. Januar 2026 in Kraft und gilt erstmals
+    für das Steuererklärungsverfahren im Kalenderjahr 2026 (Steuerperiode 2025). Sie ersetzt die Weisung vom 10. Juli 20'
+  jahre_vorher:
+  - 2026
 - id: zh-zstb-133-1
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -2945,6 +3823,11 @@
   abgerufen: '2026-11-09'
   gilt_ab: '2027-01-01'
   hinweis: Aktuelle Fassung = Aufforderung 2027 (betrifft Steuererklärung 2026). Für Steuererklärung 2025 siehe zh-zstb-133-1-aufforderung-2026.
+  zeitbezug: verfahren
+  gilt_bis: '2027-12-31'
+  ersetzt: zh-zstb-133-1-aufforderung-2026
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-133-1.md Z. 38-42: Titel «Aufforderung zur Einreichung ... im Jahr 2027», Erlassdatum 4. August 2026, «Gültig ab 1. Januar 2027»; Vorbemerkungen: «haben im Jahre
+    2027 ... eine Steuererklärung 2026 abzugeben»; Z. 97: Frist «bis 31. März 2027»'
 - id: zh-zstb-34-1
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -2962,6 +3845,10 @@
   bytes: 87851
   abgerufen: '2026-11-09'
   gilt_ab: '2026-01-01'
+  zeitbezug: dauernd
+  ersetzt: zh-zstb-34-1-bis-2025
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-34-1.md Z. 33-39: «Weisung ... über Sozialabzüge und Steuertarife (ab Steuerperiode 2026)», Erlassdatum 17. März 2026, «Gültig ab Steuerperiode 2026»; Rz 2 (Z.
+    51): «ersetzt die gleichnamige Weisung vom 7. April 2015 ... und findet ab der Steuerperiode 2026 Anwendung»'
 - id: zh-zstb-34-2
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -2979,6 +3866,10 @@
   sha256: d845bd1b80b8ec6647d74c489b822c800432777c2053832309880b2b2615d48a
   bytes: 55254
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2019-01-01'
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-34-2.md Z. 26-32: «Merkblatt ... bei Familien (ab Steuerperiode 2019)», Erlassdatum 20. April 2021, «Gültig ab Steuerperiode 2019»; Vorfassung «gültig bis Steuerperiode
+    2018»'
 - id: zh-zstb-21-1
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -2996,6 +3887,10 @@
   bytes: 55804
   abgerufen: '2026-11-09'
   gilt_ab: '2026-01-01'
+  zeitbezug: steuerperiode
+  ersetzt: zh-weisung-liegenschaften-2009
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-21-1.md Z. 26-32: Titel «... Eigenmietwerte ab Steuerperiode 2026 (Weisung 2026)», Erlassdatum 28. August 2024, «Gültig ab 1. Januar 2026»; Z. 48-52: Weisung 2009
+    «Gültig bis Steuerperiode 2025 ... gültig bis 31.12.2025»'
 - id: zh-zstb-21-3
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3013,6 +3908,10 @@
   bytes: 54686
   abgerufen: '2026-11-09'
   gilt_ab: '2026-01-01'
+  zeitbezug: steuerperiode
+  ersetzt: zh-zstb-21-3-bis-2025
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-21-3.md Z. 25-31: Weisung des Regierungsrates über Härtefalleinschlag auf dem Eigenmietwert, Erlassdatum 25. Februar 2026, «Gültig ab 01.01.2026»; Vergleich Ziff.
+    62 Weisung 2009 (zh-weisung-liegenschaften-2009.md Z. 491-495 «oder wenn ein Härtefall vorliegt») vs. Weisung '
 - id: zh-zstb-30-2
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3030,6 +3929,9 @@
   sha256: 2be08c43b0cf76a63bc46513b9845e66e227bea0c84f015055086a6403461081
   bytes: 53749
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2002-01-01'
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-30-2.md Z. 28-33: Erlassdatum 7. September 2002, «Gültig ab 1. Januar 2002»; Z. 51: «V. Diese Verfügung gilt ab Steuerperiode 2002.»'
 - id: zh-zstb-30-3
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3047,10 +3949,16 @@
   sha256: 33d3a3ba2031df48b5e2b72b7614a472a2752a6a50afde04857409e2bc4d1c46
   bytes: 183573
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2020-01-01'
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-30-3.md Z. 48-49: «Gültig ab: Steuerperiode 2020» (Erlassdatum 26. März 2021); Rz 58 (Z. 554): «ersetzt das bisherige Merkblatt vom 13. November 2009 und gilt ab
+    Steuerperiode 2020»'
 - id: zh-zstb-31-1
   jurisdiktion: zh
   ordner_jahr: dauernd
   jahre:
+  - 2025
+  - 2026
   - 2027
   typ: praxis
   kurz: ZStB 31.1
@@ -3065,6 +3973,12 @@
   abgerufen: '2026-11-09'
   gilt_ab: '2027-01-01'
   hinweis: Aktuelle Fassung gilt ab 1.1.2027; für Steuerjahre 2025/2026 gilt zh-zstb-31-1-bis-2026.
+  zeitbezug: dauernd
+  ersetzt: zh-zstb-31-1-bis-2026
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-31-1.md Z. 28-32: Erlassdatum 19. Oktober 2026, «Gültig ab 1. Januar 2027»; Tabelle (nach Bemessungsjahr) Z. 68-69: «2025/2026 | 7 258 | 36 288», «2027 | 7 373
+    | 36 864»; Z. 82: Vorfassung «gültig bis 31.12.2026»'
+  jahre_vorher:
+  - 2027
 - id: zh-zstb-32-1
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3082,6 +3996,12 @@
   sha256: 4c96fa9cfd2265f595e5380f3895c067876eb56131930b429e4d009aa089d9a8
   bytes: 68375
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2013-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt_durch: bund-ks-11a
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-32-1.md Z. 40-41 «Gültig ab 1. Januar 2013»; Z. 49: «Dieses Merkblatt wird per 31.12.2026 aufgehoben und gilt letztmals für die Steuerperiode 2026. Ab der Steuerperiode
+    2027 richtet sich die Praxis nach dem Kreisschreiben Nr. 11a der ESTV»'
 - id: zh-zstb-139-2
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3100,6 +4020,10 @@
   bytes: 66186
   abgerufen: '2026-11-09'
   gilt_ab: '2025-07-01'
+  zeitbezug: verfahren
+  ersetzt: zh-zstb-139-2-bis-2025-06
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-139-2.md Z. 37-41: Erlassdatum 1. Juli 2025, «Gültig ab 1. Juli 2025»; Z. 117 (Abschnitt G): «Diese Weisung ersetzt die Weisung vom 17. Februar 2006 und gilt ab
+    sofort.»'
 - id: zh-zstb-172-1
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3117,6 +4041,10 @@
   sha256: b5d9c49830686f8c3206ec1b0eed92ea2baa7b806ad97c9a485f2d1a60928457
   bytes: 122710
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2020-09-11'
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-172-1.md Z. 47-51: Erlassdatum 11. September 2020, «Gültig ab 11. September 2020»; Rz 91 (Z. 521): «ersetzt die Weisung vom 13. September 2016 und tritt per sofort
+    in Kraft»'
 - id: zh-zstb-173-1
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3134,6 +4062,9 @@
   sha256: c12eef4f273bc61c09f2fce60c9a18cc75dbea97f376e2844679adeaa3572c2f
   bytes: 105468
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2008-12-09'
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-173-1.md Z. 36-40: Erlassdatum 9. Dezember 2008, «Gültig ab 9. Dezember 2008»; Rz 143 (Z. 547): ersetzt Weisung vom 17. Februar 2006'
 - id: zh-info-spenden
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3151,6 +4082,8 @@
   sha256: 6b921026c59904f834f00bf62ae94322282c39c1a2c27a30d2ea317a45f59c7c
   bytes: 57149
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/zh/dauernd/zh-info-spenden.md: ''mindestens CHF 100'', ''nicht mehr als 20 Prozent''; Download ''Verzeichnis steuerbefreite Institutionen Stand 31.10.2026'''
 - id: zh-info-neubewertung-2026
   jurisdiktion: zh
   ordner_jahr: '2026'
@@ -3167,6 +4100,10 @@
   sha256: 266b8c7b8a4abec2056c04d269eede45d9ade3c9c8b1f656a3d302620b9b200f
   bytes: 100188
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2026-01-01'
+  zeit_beleg: 'sources/zh/2026/zh-info-neubewertung-2026.md Z. 40 ''Weisung 2026 … tritt am 1. Januar 2026 in Kraft und gilt ab Steuerperiode 2026''; Z. 254 ''Inkraftsetzung per 1. Januar 2029'' (Systemwechsel);
+    Z. 260 ''Für Liegenschaften mit Erstellungsjahr vor 31.12.2025 sind keine neuen Eigenmietwerte festzusetzen '
 - id: zh-info-steuerrechnung
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3184,6 +4121,9 @@
   sha256: d7747cdfc3aa39abc1750e091fd174cd9c6d0c3a7fac0a199a4c4a5286145bc0
   bytes: 1080856
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'sources/zh/dauernd/zh-info-steuerrechnung.md Abschnitt ''Zinssätze'' (Z. 526–534: Rückerstattungs-/Verzugszins 4.0% | 4,5% | 4,75% | …, Vergütungszins 0.0% | 0,75% | 1,25% | …); Spaltenköpfe
+    2026 | 2025 | 2024 | 2023 | 2022 | 2021 | 2020 nur in raw/zh/dauernd/zh-info-steuerrechnung.html; Z. 388 ''provi'
 - id: zh-wl-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -3200,6 +4140,11 @@
   sha256: cb2cf2e63520d9f3afe91e33e131222b35499b53b740f842817b35039eb7c812
   bytes: 1497565
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/zh/2025/zh-wl-2025.md Titel «Wegleitung zur Steuererklärung 2025»; Z. 130/200: «Eine Steuererklärung 2025 haben im Kalenderjahr 2026 alle natürlichen Personen einzureichen»; Z. 144
+    «Was ist neu in der Steuerperiode 2025?»'
 - id: zh-wl-2026-uj
   jurisdiktion: zh
   ordner_jahr: '2026'
@@ -3216,6 +4161,11 @@
   sha256: 30711442ba806237d90f0de1bde3319e240c7624de5ff9d9f919a4eab3fb582d
   bytes: 1472247
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/zh/2026/zh-wl-2026-uj.md Seite 1: «Wegleitung zur Steuererklärung 2026 – Bei Beendigung der Steuerpflicht im Jahre 2026 infolge: Wegzug ins Ausland, Tod»; Z. 139: «Eine Steuererklärung
+    2026 ist im Kalenderjahr 2026 für den Zeitraum 1. Januar 2026 bis ...»'
 - id: zh-wl-da1-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -3232,6 +4182,11 @@
   sha256: b7c8eb89947c1d075f4219ffc41a456f7108c03587b09d8ffc3f8abfc447d0f4
   bytes: 103017
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/zh/2025/zh-wl-da1-2025.md Seite 1: «Wegleitung zu den Formularen DA-1, DA-2 und DA-3 – Fälligkeiten 2025 zur Steuererklärung 2025», Länderlisten «Stand 1.1.2025»; Fusszeile Z. 93
+    «StA Form. 438 (2025) 12.25»'
 - id: zh-portal-steuererklaerung
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3249,6 +4204,9 @@
   sha256: 52a9c19f16089c7c1112281baba3cb06c1bf553278886d1916baf42eb522c9e4
   bytes: 3106214
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: sources/zh/dauernd/zh-portal-steuererklaerung.md Z. 159 'Ab der Steuerperiode 2025 wird die bisherige Download-Software Private Tax eingestellt'; Z. 223 'Ab 2026 wird das Formular «Steuererklärung
+    2026» auch für ausserhalb des Kantons wohnhafte Personen genutzt'; Formularlisten 2026 (UJ), 2025, 2024
 - id: zh-tool-privatetax
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3267,6 +4225,8 @@
   bytes: 198129
   final_url: https://zhprivatetax.ch/
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Registry-Eintrag (verarbeitung: link, kein Volltext/raw im Wiki)'
 - id: zh-tool-steuerrechner
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -3284,11 +4244,12 @@
   sha256: 6662113980ec8312786e68d05b659a495569d4443bd8da0fcaa834d3ae07ecf7
   bytes: 122621
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  zeit_beleg: 'Registry-Eintrag (verarbeitung: link, kein Volltext/raw im Wiki)'
 - id: zh-zstb-132-1-bis-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
-  jahre:
-  - 2025
+  jahre: []
   typ: praxis
   kurz: ZStB 132.1 (bis 2025)
   titel: 'ZStB 132.1: Steuererklärungsverfahren – Fassung gültig bis 31.12.2025'
@@ -3299,11 +4260,20 @@
   sha256: c896180e7db5581605640faa70ace6c1066874e671ab7a616da3f9b6e62133da
   bytes: 151561
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: zh-zstb-132-1
+  zeit_beleg: 'sources/zh/2025/zh-zstb-132-1-bis-2025.md Seite 1 ''(vom 10. Juli 2024)''; Seite 10 L. Inkrafttreten: ''tritt am 1. Januar 2025 in Kraft und gilt erstmals für das Steuererklärungsverfahren
+    im Kalenderjahr 2025 (Steuerperiode 2024). Sie ersetzt die gleich lautende Weisung vom 30. September 2020.''; Datei'
+  jahre_vorher:
+  - 2025
 - id: zh-zstb-133-1-aufforderung-2026
   jurisdiktion: zh
   ordner_jahr: '2025'
   jahre:
   - 2025
+  - 2026
   typ: praxis
   kurz: ZStB 133.1 (Aufforderung 2026)
   titel: 'ZStB 133.1: Aufforderung zur Einreichung 2026 (Steuererklärung 2025)'
@@ -3314,6 +4284,14 @@
   sha256: eeefffcc7585722a57cd8f350378daec9c01792ef1046436e2708cad331512e4
   bytes: 197229
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt_durch: zh-zstb-133-1
+  zeit_beleg: 'sources/zh/2025/zh-zstb-133-1-aufforderung-2026.md Seite 1: «Aufforderung zur Einreichung ... im Jahr 2026 (vom 21. August 2025)», Vorbemerkungen «im Jahre 2026 ... eine Steuererklärung 2025
+    abzugeben» und «bei Beendigung der Steuerpflicht ... im Kalenderjahr 2026 eine Steuererklärung 2026»; Seite 2'
+  jahre_vorher:
+  - 2025
 - id: zh-zstb-34-1-bis-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -3329,11 +4307,16 @@
   sha256: b7212ce95a9fcba9276c920f6851c3eb83d93293d39a3a042d96579351aeca2b
   bytes: 117189
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2015-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: zh-zstb-34-1
+  zeit_beleg: 'sources/zh/2025/zh-zstb-34-1-bis-2025.md Seite 1: «(ab Steuerperiode 2015) (vom 7. April 2015)», Rz 2: «findet ab der Steuerperiode 2015 Anwendung»; Titel/URL «gueltig-bis-31_12_2025»; zh-zstb-34-1.md
+    Rz 2: neue Weisung ab Steuerperiode 2026'
 - id: zh-zstb-21-3-bis-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
-  jahre:
-  - 2025
+  jahre: []
   typ: praxis
   kurz: ZStB 21.3 (aufgehoben)
   titel: 'ZStB 21.3: Härtefalleinschlag Eigenmietwert – aufgehobene Fassung (bis 2025)'
@@ -3344,6 +4327,14 @@
   sha256: c185fce0fa5a4745b810b290185f446061ece4141e292d2eef0c1152db884736
   bytes: 198872
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '1999-01-01'
+  gilt_bis: '2023-05-23'
+  ersetzt_durch: zh-zstb-21-3
+  zeit_beleg: 'raw/zh/2025/zh-zstb-21-3-bis-2025.pdf (Scan, Text nur als Bild; im Volltext sources/zh/2025/zh-zstb-21-3-bis-2025.md nur Seite 1 Aufhebungsvermerk): Seite 1 «Diese Weisung wurde per 24. Mai
+    2023 aufgehoben.», «Weisung der Finanzdirektion betreffend Gewährung eines Einschlages auf dem Eigenmietwert i'
+  jahre_vorher:
+  - 2025
 - id: zh-zstb-31-1-bis-2026
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -3360,11 +4351,16 @@
   sha256: 0915aca45132ce5f53cfe637e7d8dbe43cb506cc008dac6e85ca99d5874cb9db
   bytes: 72867
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt_durch: zh-zstb-31-1
+  zeit_beleg: 'sources/zh/2025/zh-zstb-31-1-bis-2026.md Seite 1: «Merkblatt ... (vom 11. September 2024)», Tabellenzeile «ab 2025 7 258 36 288»; Titel/URL «gueltig-bis-31_12_2026»; zh-zstb-31-1.md Z. 86:
+    Vor-Vorfassung «gültig bis 31.12.2024»'
 - id: zh-zstb-139-2-bis-2025-06
   jurisdiktion: zh
   ordner_jahr: '2025'
-  jahre:
-  - 2025
+  jahre: []
   typ: praxis
   kurz: ZStB 139.2 (bis 30.6.2025)
   titel: 'ZStB 139.2: Einschätzung ohne Steuererklärung – Fassung gültig bis 30.06.2025'
@@ -3375,12 +4371,19 @@
   sha256: 5dbe7049d778a971913c3137690c19d56b45838376be3fad090623b5dcc3dcab
   bytes: 57169
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_bis: '2025-06-30'
+  ersetzt_durch: zh-zstb-139-2
+  zeit_beleg: 'Titel und URL «gueltig-bis-30_06_2025»; zh-zstb-139-2.md Z. 130: Download-Liste «gültig bis 30. Juni 2025»; zh-zstb-139-2-bis-2025-06.md Seite 1: «(vom 17. Februar 2006)», «Steuerperioden
+    2005 ff.»; Seite 5: «Zürich, den 17. Februar 2006»'
+  jahre_vorher:
+  - 2025
 - id: zh-zstb-48-1
   jurisdiktion: zh
   ordner_jahr: dauernd
   jahre:
-  - 2025
   - 2026
+  - 2027
   typ: praxis
   kurz: ZStB 48.1
   titel: 'ZStB 48.1: Verordnung über den Ausgleich der kalten Progression (Übersichtsseite)'
@@ -3390,6 +4393,14 @@
   sha256: e341ceb63dccf2c1fd69e7c936bfe4e09b6b41987c35134e9009dbb78bb2355d
   bytes: 56649
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  ersetzt: zh-vkp-2024-zstb
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-48-1.md Z. 26-33: Titel «Verordnung über den Ausgleich der kalten Progression ... ab 1. Januar 2026», Erlassdatum 30. Juni 2025, «Gültig ab 1. Januar 2026»; Z.
+    50-54: «Verordnung gültig bis 31. Dezember 2025: ... ab 1. Januar 2024» (nur Download-Link)'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: zh-vkp-2026-zstb
   jurisdiktion: zh
   ordner_jahr: '2026'
@@ -3406,6 +4417,9 @@
   sha256: 58e955e924c96e9d0901da75b737b3b2777aa4013c0b1bbc6df66f20fa4b626d
   bytes: 98752
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  ersetzt: zh-vkp-2024-zstb
+  zeit_beleg: 'sources/zh/2026/zh-vkp-2026-zstb.md Seite 1: «... ab 1. Januar 2026 (vom 30. Juni 2025)»; Schluss Z. 193-196: «tritt am 1. Januar 2026 in Kraft (ABl 2025-07-11)»'
 - id: zh-vkp-2024-zstb
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -3422,6 +4436,11 @@
   sha256: 308a0536410d5f796753521877d683c5a1f427fdff5a5d42dffdfb08a56ce1de
   bytes: 128559
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: zh-vkp-2026-zstb
+  zeit_beleg: 'sources/zh/2025/zh-vkp-2024-zstb.md Seite 1: «... ab 1. Januar 2024 (vom 28. Juni 2023)»; Schluss (Z. 213-216): «tritt am 1. Januar 2024 in Kraft»; zh-zstb-48-1.md Z. 50: «Verordnung gültig
+    bis 31. Dezember 2025»'
 - id: bund-form-2-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3437,6 +4456,11 @@
   abgerufen: '2026-11-09'
   sha256: a2334ea179a181362c3224ebf8ace2910040c3188e3c87457ff20aea6e6d83eb
   bytes: 1261369
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-form-2-2026
+  zeit_beleg: Fusszeilen S. 1–4 «Formular 2 605.040.11d (Steuerperiode 2025)»; Personalien «31. Dezember 2025»
 - id: bund-wl-2a-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3452,6 +4476,11 @@
   abgerufen: '2026-11-09'
   sha256: aff1db2d971a1ba74aba7b17730f4653e2a917ec7c40fc29fdee17a482683964
   bytes: 378391
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-wl-2a-2026
+  zeit_beleg: sources/bund/2025/bund-wl-2a-2025.md Fusszeile jeder Seite 'Formular 2a 605.040.11.1d (Steuerperiode 2025)' (z.B. Z. 119, S. 1/10)
 - id: bund-form-8-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3467,6 +4496,10 @@
   abgerufen: '2026-11-09'
   sha256: 72859bb8c37b46c467107b410b66d92a5f9670410a5e4b7285ee0fd6237dd304
   bytes: 181429
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: Fusszeile «Formular 8 605.040.80d (Steuerperiode 2025)»; S. 1 «… Privatvermögen 2025»
 - id: bund-form-9-14-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3482,6 +4515,10 @@
   abgerufen: '2026-11-09'
   sha256: ebb8395e3e280c75f5b5008374095952d77de359eb3a453b5efb7b68ec3e0f5c
   bytes: 1032850
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: Fusszeilen S. 1 und 2 «Formular 9/14 605.040.15d (Steuerperiode 2025)»; Schuldenverzeichnis «31. Dezember 2025»
 - id: bund-form-10-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3497,6 +4534,10 @@
   abgerufen: '2026-11-09'
   sha256: 93e6851faf4f3154782da2039d5e7064fa6d87c9afc46bcfbffb3fb33d29639f
   bytes: 830162
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: S. 1 Kopf «Aus- und Weiterbildungskosten 2025»; Fusszeile «Formular 10 605.040.16d (Steuerperiode 2025)»
 - id: bund-form-12-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3512,6 +4553,10 @@
   abgerufen: '2026-11-09'
   sha256: 85da529b147e19e9bffa8eb8f53c65058728a386d6dc439458aa1bdcd102ac51
   bytes: 121819
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: S. 1 «Bescheinigung über Bezüge von Mitgliedern der Verwaltung … 2025», «Bezüge 2025», «im Jahre 2025 Mitglieder»; S. 2 «Formular 12 – 2025»
 - id: bund-form-13-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3527,6 +4572,11 @@
   abgerufen: '2026-11-09'
   sha256: 24e6961b0eeb29fc7408f33d931f7f044a160b39d52e1cd64c03db39182098eb
   bytes: 975743
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: S. 1 «Verzeichnis der Wertschriften und sonstigen Kapitalanlagen 2025», «Register-Nr. für juristische Personen», «Geschäftsjahr 2025 bzw. 2024/2025»; Fusszeile «Formular 13 605.040.28d (Steuerperiode
+    2025)»; S. 2 «(Stand 1.1.2025)»
 - id: bund-form-16-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3542,6 +4592,10 @@
   abgerufen: '2026-11-09'
   sha256: dd95dd365b9b583e22107aee6f97d80c2a3f0130451bb41cc1685a7cd4ab123a
   bytes: 790798
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: S. 1 Kopf «Einkünfte aus Liegenschaften 2025»; Fusszeile «Formular 16 605.040.35d (Steuerperiode 2025)»
 - id: bund-form-21edp-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3557,6 +4611,9 @@
   abgerufen: '2026-11-09'
   sha256: 61152c0bff8d10106789058984eaf542054e24b7a7fceef9267199a99a1eeae8
   bytes: 876087
+  zeitbezug: steuerperiode
+  zeit_beleg: S. 1 Fusszeile «Eidg. Steuerverwaltung, DVS, 3003 Bern 605.040.42 dfi POD 07.2025»; Formular mit Feldern «p Jahr» und «t Steuerperiode», selbst ohne Periode; Registry zip_member «21edp-2025-dfi.pdf»
+    im Formularset dbst-form-2025
 - id: bund-form-da1-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3572,6 +4629,11 @@
   abgerufen: '2026-11-09'
   sha256: 7c01479740c9cd31600d9d6a8509170395d9bb2aab60f79a4598fa858e5fc98d
   bytes: 965949
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-form-da1-2026
+  zeit_beleg: Fusszeile «Formular DA-1 605.040.03d (Steuerperiode 2025)»; Erläuterungen «im Jahre 2025» fällig gewordene Dividenden und Zinsen, Wohnsitz «31. Dezember 2025»
 - id: bund-dbg-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3597,6 +4659,11 @@
   sha256: 711ae66daf0f597a0c3639a8f7b72210cf755763bc5ec3a3d678d55b948a3084
   bytes: 469984
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-dbg-2026
+  zeit_beleg: 'Titel «Fassung gültig ab 01.01.2025»; Registry fedlex.gilt_ab 2025-01-01, fedlex.gilt_bis 2025-12-31; Fedlex-SPARQL (Abfrage 2026-11-09): Konsolidierung 20250101 bis 2025-12-31, nächste 20260101'
 - id: bund-dbg-2026
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -3622,12 +4689,19 @@
   sha256: 4a4e5bf16f590071ba5f5f74609cd8633dced0dae656cd433a4e7d14332f43ec
   bytes: 484894
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: bund-dbg-2025
+  zeit_beleg: 'Titel «Fassung gültig ab 01.01.2026»; Fn. 19, 60, 63, 112, 113 «V des EFD vom 10. Sept. 2025 über die kalte Progression, in Kraft seit 1. Jan. 2026»; Fedlex-SPARQL (2026-11-09): 20260101
+    bis 2026-09-01, 20260902 bis 2026-12-31, 20270101 bis 2027-12-31; Fedlex-HTML 20260902 Fn. zu Art. 124/133: «Die '
 - id: bund-lkv
   jurisdiktion: bund
   ordner_jahr: '2025'
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: verordnung
   kurz: LKV
   titel: Liegenschaftskostenverordnung (SR 642.116) – Fassung gültig ab 01.01.2020
@@ -3648,6 +4722,13 @@
   sha256: 256fc1e23aa10367a3a674153a8a713e43bee1646f6aa54120c26f2be5f96dcb
   bytes: 13456
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2020-01-01'
+  zeit_beleg: 'sources/bund/2025/bund-lkv.md Titel ''Fassung gültig ab 01.01.2020''; Art. 7 LKV ''Diese Verordnung tritt am 1. Januar 2020 in Kraft''; Fedlex-Metadaten gilt_bis null; sources/bund/dauernd/bund-mm-eigenmietwert-abschaffung.md:
+    Reform (Wegfall Unterhaltskostenabzug selbstgenutzt) ''per 1. Januar 2029'''
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-bkv-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3673,11 +4754,18 @@
   sha256: b51b0222ed979c94828167010f6be03245a7b8f042e89d7d03a72f9ad48cd9b2
   bytes: 25572
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2023-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-bkv-2026
+  zeit_beleg: sources/bund/2025/bund-bkv-2025.md Titel 'Fassung gültig ab 01.01.2023'; Anhang Ziff. 2 'Autos | pro Fahrkilometer | –.70'; Fn. 18 'Bereinigt gemäss Ziff. II der V des EFD vom 16. Sept. 2022,
+    in Kraft seit 1. Jan. 2023'; Fedlex-Metadaten gilt_bis 2025-12-31
 - id: bund-bkv-2026
   jurisdiktion: bund
   ordner_jahr: '2026'
   jahre:
   - 2026
+  - 2027
   typ: verordnung
   kurz: BKV
   titel: Berufskostenverordnung EFD (SR 642.118.1) – Fassung gültig ab 01.01.2026
@@ -3698,6 +4786,13 @@
   sha256: a11ebd81f790b6f2d9fa28734894b87cdd7b10870af946831780e4c637c2df08
   bytes: 31135
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  ersetzt: bund-bkv-2025
+  zeit_beleg: 'sources/bund/2026/bund-bkv-2026.md Titel ''Fassung gültig ab 01.01.2026''; Fn. 18 Anhang ''Bereinigt gemäss Ziff. I der V des EFD vom 10. Sept. 2025, in Kraft seit 1. Jan. 2026 (AS 2025 578)'';
+    Fedlex-Metadaten gilt_bis null; bund-rs-2-220 S. 2: alle BKV-Pauschalen (Fn. 1) 2027 = 2026 (Auto 0.75)'
+  jahre_vorher:
+  - 2026
 - id: bund-qstv
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3725,6 +4820,11 @@
   bytes: 47701
   abgerufen: '2026-11-09'
   hinweis: Fassung ab 10.01.2025 (die Fassung 01.–09.01.2025 ist nicht separat erfasst)
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-10'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/bund/2025/bund-qstv.md Titel ''Fassung gültig ab 10.01.2025''; Fn. 15 ''Die Berichtigung vom 10. Jan. 2025 betrifft nur den französischen Text (AS 2025 8)''; Fn. 14/22 ''in Kraft
+    seit 1. Jan. 2025''; Fedlex-Metadaten gilt_bis 2026-12-31; bund-rs-2-216 S. 2: QStV-Anhang (Tarif G, Kapitalleistungen)'
 - id: bund-vkp-2025
   jurisdiktion: bund
   ordner_jahr: '2025'
@@ -3750,6 +4850,12 @@
   sha256: 5d00b93bafcac962da257e0d257625eb34bdb4e148bf3ce4a913e55e7efba7ed
   bytes: 18838
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-vkp-2026
+  zeit_beleg: sources/bund/2025/bund-vkp-2025.md Art. 9 VKP 'Diese Verordnung tritt am 1. Januar 2025 in Kraft'; Art. 8 Aufhebung VKP vom 1. September 2023; aufgehoben durch bund-vkp-2026 Art. 5 ('Die Verordnung
+    vom 22. August 2024 über die kalte Progression wird aufgehoben'); Fedlex gilt_bis 2025-12-31
 - id: bund-vkp-2026
   jurisdiktion: bund
   ordner_jahr: '2026'
@@ -3775,12 +4881,19 @@
   sha256: caadf62b33c111d00cf70a15be8752de757563c38b274a94077a3564e43cd1c0
   bytes: 25355
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: bund-vkp-2025
+  zeit_beleg: 'sources/bund/2026/bund-vkp-2026.md Art. 6 VKP ''Diese Verordnung tritt am 1. Januar 2026 in Kraft''; Art. 5 Aufhebung VKP vom 22.8.2024; Fn. 3 Berichtigung vom 17. Okt. 2025 (AS 2025 621);
+    Fedlex gilt_bis 2026-12-31; bund-rs-2-220 S. 1: VKP am 16.9.2026 mit Tarifen/Abzügen ab 1.1.2027 angepasst'
 - id: bund-wefv
   jurisdiktion: bund
   ordner_jahr: '2025'
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: verordnung
   kurz: WEFV
   titel: Verordnung über die Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge (WEFV, SR 831.411) – Fassung gültig ab 01.10.2017
@@ -3801,12 +4914,20 @@
   sha256: 777a5b9267e796121ca5b47d1134169996b883d5e65eff4a0fd1674f11b2f2eb
   bytes: 27596
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2017-10-01'
+  zeit_beleg: sources/bund/2025/bund-wefv.md Titel 'Fassung gültig ab 01.10.2017'; jüngste Fussnote Fn. 7 'Fassung gemäss Ziff. I der V vom 30. Aug. 2017, in Kraft seit 1. Okt. 2017 (AS 2017 5017)'; Fedlex-Metadaten
+    gilt_bis null
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: bund-bvv3
   jurisdiktion: bund
   ordner_jahr: '2025'
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: verordnung
   kurz: BVV 3
   titel: Verordnung über die steuerliche Abzugsberechtigung für Beiträge an anerkannte Vorsorgeformen (BVV 3, SR 831.461.3) – Fassung gültig ab 01.01.2025
@@ -3827,6 +4948,14 @@
   sha256: a1da3a3eecfed84531ef41dbe60f3013056dfe81817e93202124275fe90e2ca4
   bytes: 43341
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2027-05-31'
+  zeit_beleg: sources/bund/2025/bund-bvv3.md Titel 'Fassung gültig ab 01.01.2025'; Fn. 33/37–39 'in Kraft seit 1. Jan. 2025 (AS 2024 622)' (Art. 7a/7b Einkauf 3a); Übergangsbestimmung zur Änderung vom 6.
+    November 2024; Fedlex-Metadaten gilt_bis 2027-05-31
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: ar-stv
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -3853,6 +4982,9 @@
   sha256: e79b014b15fec42b80f804ae7f3192ed7fadfdd8d28208a7e5a068c5b5ef76fa
   bytes: 350436
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2024-01-01'
+  zeit_beleg: 'raw/ar/2025/ar-stv.json current_version «Aktuelle Version in Kraft seit: 01.01.2024 (Beschlussdatum: 19.12.2023)», future_versions [], old_versions «01.01.2021 bis: 31.12.2023» (Abruf 2026-11-09)'
 - id: ar-gsv
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -3879,6 +5011,10 @@
   sha256: 1f4be6724bd68fbc7d4893dbfa4cb11811353bb71ea7ca5c9659ee4d844f303a
   bytes: 88220
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2023-01-01'
+  zeit_beleg: 'raw/ar/2025/ar-gsv.json current_version «Aktuelle Version in Kraft seit: 01.01.2023 (Beschlussdatum: 20.12.2022)», future_versions [], old_versions «14.02.2020 bis: 31.12.2022» (Abruf 2026-11-09);
+    sources/ar/2025/ar-gsv.md Art. 30 Abs. 1 «Diese Verordnung tritt am 1. Januar 2011 in Kraft»'
 - id: ar-v-dbg
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -3905,6 +5041,10 @@
   sha256: 2aa2cdd689c592f97866e10794980db4caa67729de200c26ee9f5d4123e53dc7
   bytes: 43943
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2016-01-01'
+  zeit_beleg: 'raw/ar/2025/ar-v-dbg.json current_version «Aktuelle Version in Kraft seit: 01.01.2016 (Beschlussdatum: 15.12.2015)», future_versions []; sources/ar/2025/ar-v-dbg.md Art. 1–19 (Organe, Art.
+    7 Steuererklärung Art. 124 DBG, Art. 9 Einsprache, Art. 11 Kosten, Art. 13 Zeitpunkte Art. 161 DBG, Art. 18 Inv'
 - id: sg-stg-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -3930,6 +5070,11 @@
   sha256: 8912ce5c110ecd9cea4fcef97b1229b3fa3a97aa06d12293f9eed97e267b7052
   bytes: 1406016
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: sg-stg-2026
+  zeit_beleg: sources/sg/2025/sg-stg-2025.md Titel 'Version gültig ab 01.01.2025' (LexWork Version 3711); registry lexwork gilt_ab 2025-01-01, gilt_bis 2025-12-31
 - id: sg-stg-2026
   jurisdiktion: sg
   ordner_jahr: '2026'
@@ -3955,6 +5100,11 @@
   sha256: c2647f875d68aae13225d52de19e23701395483e93d1680d6c2ba8ddd7f6efdb
   bytes: 1412095
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: sg-stg-2025
+  zeit_beleg: sources/sg/2026/sg-stg-2026.md Titel 'Version gültig ab 01.01.2026' (LexWork Version 3822); registry lexwork gilt_bis 2026-12-31 (Folgeversion ab 1.1.2027 existiert)
 - id: sg-stv
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -3981,12 +5131,17 @@
   sha256: 3132abb71b6cdd68812403c0e2db44775f15cb253a9e31233548b2cae62328d7
   bytes: 421639
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2024-01-01'
+  zeit_beleg: 'Titel «Version gültig ab 01.01.2024»; raw/sg/2025/sg-stv.json: «Aktuelle Fassung in Vollzug seit: 01.01.2024 (Erlassdatum: 05.12.2023)», future_versions leer (Abruf 2026-11-09); Vorgänger
+    «Fassung in Vollzug von: 01.01.2022 bis: 31.12.2023»'
 - id: sg-gsg
   jurisdiktion: sg
   ordner_jahr: '2025'
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: gesetz
   kurz: GGS SG
   titel: Gesetz über die Durchführung der Grundstückschätzung SG (sGS 814.1) – Version gültig ab 01.01.2001
@@ -4007,6 +5162,13 @@
   sha256: 1467d580508fcf2b84e97664d9d9e779d0bae4f4a39cf95e149feb2a490f2c8d
   bytes: 48225
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2001-01-01'
+  zeit_beleg: sources/sg/2025/sg-gsg.md Titel 'Version gültig ab 01.01.2001' (LexWork Version 332); Art. 20 GGS 'Dieses Gesetz wird ab 1. Januar 2001 angewendet'; Art. 19 'Verfahren, die im Zeitpunkt des
+    Vollzugsbeginns dieses Gesetzes hängig sind, werden nach bisherigem Recht abgeschlossen'; registry lexwork.gil
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: sg-gsv
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -4033,6 +5195,11 @@
   sha256: 2159e8c76ebfa525832cbf089c6eca1f7e872c062fd603327412fb1dd508398d
   bytes: 82764
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2017-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'Titel «Version gültig ab 01.01.2017»; raw/sg/2025/sg-gsv.json: current_version «Aktuelle Fassung in Vollzug seit: 01.01.2017 bis: 31.12.2026», future_versions «Zukünftige Fassung in Vollzug
+    ab: 01.01.2027 (Erlassdatum: 23.09.2025)» (II. Nachtrag, publiziert 03.11.2025); Art. 7 Stichtag: Verhältnisse'
 - id: sg-v-dbg
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -4059,12 +5226,17 @@
   sha256: 7deb3079633dec4bd60f766cea75b3c6676aa26c74333a4be0080af1985b6843
   bytes: 67533
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2016-01-01'
+  zeit_beleg: 'Titel «Version gültig ab 01.01.2016»; raw/sg/2025/sg-v-dbg.json: «Aktuelle Fassung in Vollzug seit: 01.01.2016», future_versions leer; Inhalt Art. 1–16: Behörden, Einsprache, Beschwerde,
+    Bezug, Inventar'
 - id: tg-stg
   jurisdiktion: tg
   ordner_jahr: '2025'
   jahre:
   - 2025
   - 2026
+  - 2027
   typ: gesetz
   kurz: StG TG
   titel: Gesetz über die Staats- und Gemeindesteuern TG (RB 640.1) – Version gültig ab 01.01.2025
@@ -4085,6 +5257,14 @@
   sha256: 66edf7323892fa19bcc11101d252267c8296aa0c6b59e2f374627c6d6213123f
   bytes: 1091841
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2028-12-31'
+  zeit_beleg: 'sources/tg/2025/tg-stg.md Z. 3 «Version gültig ab 01.01.2025»; raw/tg/2025/tg-stg.json current_version.version_dates_str «Aktuelle Version in Kraft seit: 01.01.2025 bis: 31.12.2028 (Beschlussdatum:
+    19.02.2025)»; future_versions: Version 2950 «Zukünftige Version in Kraft ab: 01.01.2029»; old_versions'
+  jahre_vorher:
+  - 2025
+  - 2026
 - id: tg-stv
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4111,6 +5291,10 @@
   sha256: 2dddb5ebef541f070606dafdc1d167da6a11bb31526e46a867b1d5557d7f7c4c
   bytes: 345182
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'Titel ''Version gültig ab 01.01.2025'' (sources/tg/2025/tg-stv.md Z. 18); raw/tg/2025/tg-stv.json ''Aktuelle Version in Kraft seit: 01.01.2025 (Beschlussdatum: 01.07.2025)'', Vorversion ''in
+    Kraft von: 01.01.2023 bis: 31.12.2024'', future_versions leer; change_documents: ''Änderung der Steuerverordnung (St'
 - id: tg-schaev
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4137,6 +5321,10 @@
   sha256: ea49ce4bfdc90acd2c3b86e81685692e9a0fdb8cfaa79ce989908f575e20944e
   bytes: 75891
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2024-01-01'
+  zeit_beleg: 'Titel ''Version gültig ab 01.01.2024'' (sources/tg/2025/tg-schaev.md); raw/tg/2025/tg-schaev.json ''Aktuelle Version in Kraft seit: 01.01.2024 (Beschlussdatum: 28.11.2023)'', future_versions
+    leer, Vorversion 08.08.2020–31.12.2023'
 - id: tg-vakp
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4163,6 +5351,10 @@
   sha256: ab85e0aa7ade0c08a3f363c070e110951ce25d07ad6eb653019c1e255dcbda5c
   bytes: 30968
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'Titel ''Version gültig ab 01.01.2025'' (sources/tg/2025/tg-vakp.md); raw/tg/2025/tg-vakp.json ''Aktuelle Version in Kraft seit: 01.01.2025 (Beschlussdatum: 05.11.2024)'', Vorversionen 2024
+    und 2023 je einjährig, future_versions leer; § 2 VAKP ''Fr. 0 bis Fr. 12''200 … Fr. 158''400''; WL TG 2026 Seite 24/52 '
 - id: tg-bkv
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4189,6 +5381,10 @@
   sha256: 9d4ac7209dda12b38143b28b982b04f6c8c671e0f8bc24b3b6e00bf84f19ba9d
   bytes: 39689
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2022-01-01'
+  zeit_beleg: 'Titel ''Version gültig ab 01.01.2022'' (sources/tg/2025/tg-bkv.md); raw/tg/2025/tg-bkv.json ''Aktuelle Version in Kraft seit: 01.01.2022 (Beschlussdatum: 30.11.2021)'', future_versions leer,
+    Vorversion 01.01.2018–31.12.2021; Kurz-WL TG 2026 Ziff. 2.2 Fahrrad ''bis Fr. 700'', ''bis 3 000 km Fr. 0.60'''
 - id: tg-v-dbg
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4215,6 +5411,10 @@
   sha256: 29a406f853a0afd54ca4e5d785c719174930e4454bf8896018de32366855db95
   bytes: 43695
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2016-01-01'
+  zeit_beleg: 'Titel ''Version gültig ab 01.01.2016'' (sources/tg/2025/tg-v-dbg.md); raw/tg/2025/tg-v-dbg.json ''Aktuelle Version in Kraft seit: 01.01.2016 (Beschlussdatum: 22.12.2015)'', future_versions
+    leer; Inhalt §§ 1–10 Organe, Rechtsmittel, Kosten, § 9a Mahn-/Inkassogebühren, § 10 Erlass'
 - id: zh-stg-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4232,6 +5432,12 @@
   sha256: bb07dc6cb57e8f6d16a5a9da53a72c374e8bb7c700b7e090a66f875a6cc9eca7
   bytes: 1320331
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: zh-stg-2026
+  zeit_beleg: raw/zh/2025/zh-stg-2025.pdf / Volltext-Kopf 'Stand 1.1.25 - 127'; Fussnoten 'In Kraft seit 1. Januar 2025' (10×, keine anderen 2025er Daten); zh-stg-2026 Fn. 113/114 'In Kraft seit 1. Januar
+    2026'
 - id: zh-stg-2026
   jurisdiktion: zh
   ordner_jahr: '2026'
@@ -4250,6 +5456,11 @@
   sha256: 7b1ed7b46ed0c4801993857424480805e493127835f54f430285c286ee4cb6d7
   bytes: 1324396
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  ersetzt: zh-stg-2025
+  zeit_beleg: sources/zh/2026/zh-stg-2026.md Kopf 'Stand 1.4.26 - 132'; Fn. 113 'V über den Ausgleich der kalten Progression … ab 1. Januar 2026 vom 30. Juni 2025 … In Kraft seit 1. Januar 2026'; Fn. 114
+    'G vom 17. November 2025 (OS 81, 97) … In Kraft seit 1. Januar 2026'; keine Fussnote mit Inkrafttreten nach 1.
 - id: zh-stv
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4268,6 +5479,10 @@
   sha256: 9d1d75d9a1c07d78aa84796991a4c83bf58c5c94f86ab3437935f7ffcc09c7de
   bytes: 229065
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2020-02-01'
+  zeit_beleg: 'sources/zh/2025/zh-stv.md Z. 20 Kopf «Stand 1.4.20 - 108»; jüngste Fussnote (z.B. Z. 89 [^15]): «Fassung gemäss RRB vom 20. November 2019 (OS 75, 24 ...). In Kraft seit 1. Februar 2020.»;
+    § 80 (Z. 743): Inkrafttreten 1. Januar 1999'
 - id: zh-v-einreichung
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4286,6 +5501,9 @@
   sha256: 329de1102a713269a246b375d113af13f4356383acee1aa177611d7b909ea0f9
   bytes: 76568
   abgerufen: '2026-11-09'
+  zeitbezug: verfahren
+  gilt_ab: '2025-07-01'
+  zeit_beleg: 'sources/zh/2025/zh-v-einreichung.md Kopf «Stand 1.7.25 - 129»; Fussnote [^7] (Z. 34): «Fassung gemäss Vfg. vom 13. Mai 2025 (OS 80, 149 ...). In Kraft seit 1. Juli 2025.»'
 - id: zh-pauschalierung-berufsauslagen-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4300,6 +5518,12 @@
   sha256: 8450e5bd9ddd2d0b0a3ab55fc58483356d6419b2a82ee0ebc5e876c78ed6f3d0
   bytes: 57757
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2024-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: zh-pauschalierung-berufsauslagen-2026
+  zeit_beleg: 'sources/zh/2025/zh-pauschalierung-berufsauslagen-2025.md Seite 1: «(ab Steuerperiode 2024) (vom 3. Oktober 2023)»; Ziff. V (Z. 158): «Diese Verfügung gilt ab der Steuerperiode 2024»; Fn 2
+    (Z. 166) «Inkrafttreten: 1. Januar 2024»; Nachfolger zh-pauschalierung-berufsauslagen-2026 Ziff. V (Z. 157-160):'
 - id: zh-pauschalierung-berufsauslagen-2026
   jurisdiktion: zh
   ordner_jahr: '2026'
@@ -4314,6 +5538,11 @@
   sha256: 18826cf23d25a9abc44384bc99f876f44baa37e6aaa4d18fc26f89e5675ed112
   bytes: 57467
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  ersetzt: zh-pauschalierung-berufsauslagen-2025
+  zeit_beleg: 'sources/zh/2026/zh-pauschalierung-berufsauslagen-2026.md Seite 1: «(ab Steuerperiode 2026) (vom 26. September 2025)»; Ziff. V (Z. 157): «Diese Verfügung gilt ab der Steuerperiode 2026»; Fn
+    2 (Z. 164) «Inkrafttreten: 1. Januar 2026»'
 - id: ar-stg-anhang-kp
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -4330,6 +5559,10 @@
   sha256: 38b5a3b588aa0d5aa0f71514d596df98d5a48af696328a4ba88701e6d805d537
   bytes: 42418
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2024-01-01'
+  zeit_beleg: 'sources/ar/2025/ar-stg-anhang-kp.md Seite 1: «Die Tarifstufen und Abzüge wurden auf den 1. Januar 2024 wie folgt angepasst (vgl. Amtsblatt Nr. 51 / 22.12.2023)»; raw/ar/2025/ar-stg.json annex_documents
+    «Anhang 1: Anhang (kalte Progression)» zu Version 1634; Art. 39a Abs. 2/3 StG (sources/ar/2025/ar-'
 - id: tg-stg-tarif-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4346,6 +5579,10 @@
   sha256: 62e9cdae821e059c3f13e8f9f6dd1eaba1567d43c7cca81e9c820fd6b28d0239
   bytes: 558981
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  zeit_beleg: 'raw/tg/2025/tg-stg-tarif-2025.pdf: PDF-Titel ''Anhang: Tabelle der Einfachen Einkommenssteuer (Stand: 1. Januar 2025)'', Kopf S. 1 ''StG Tabelle Einkommenssteuer (Stand 2025) … Gemäss § 37
+    StG und § 2 … VAKP''; raw/tg/2025/tg-stg.json: Annex zu StG-Version 2929 ''in Kraft seit 01.01.2025 bis 31.12.2028'';'
 - id: zh-form-300-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4360,6 +5597,11 @@
   sha256: b3da5eb40db0b7763ad5719e34259d417a192678413f11119a40912c1e7faa38
   bytes: 99652
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: sources/zh/2025/zh-form-300-2025.md Seite 1 'Steuererklärung 2025', 'Die Steuererklärung ist bis Ende März 2026 dem Scancenter einzureichen', 'Personalien, Berufs- und Familienverhältnisse
+    am 31. Dezember 2025'; Fusszeile 'StA Form. 300 (2025) 12.25'
 - id: zh-form-340-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4374,6 +5616,10 @@
   sha256: 37754899b711927c52c8e8d556e859d2a841c8c0b29505dd003113d720229004
   bytes: 167121
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/zh/2025/zh-form-340-2025.md Seite 1 ''Wertschriften- und Guthabenverzeichnis … 2025''; Fusszeile ''StA Form. 340 (2023) 12.25''; Portal: 2025er-Liste unter /2025/est-formulare/'
 - id: zh-form-360-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4388,6 +5634,10 @@
   sha256: 1abe480fd287d8e7a3a801a7ea91d9211c27b43e32d4428874bd15ec08d70b23
   bytes: 71793
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: sources/zh/2025/zh-form-360-2025.md Seite 1 'Berufsauslagen 2025'; '▸ max. CHF 5'200 ▸ max. CHF 3'300'; Fusszeile 'StA Form. 360 (2024) 12.25'
 - id: zh-form-365-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4402,6 +5652,10 @@
   sha256: 233b189d2662841892cc41f6142fe7096457318a60afd775e6bf71537f090f85
   bytes: 56091
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: sources/zh/2025/zh-form-365-2025.md Seite 1 'Versicherungsprämien 2025'; Abschnitt B Höchstbeträge 5'800/3'700, 8'700/5'550, 2'900/1'800, 4'350/2'700; Fusszeile 'StA Form. 365 (2024) 12.25'
 - id: zh-form-367-2025
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4416,6 +5670,11 @@
   sha256: dd595ea03d3a3a7d452562f101911eec6235639952108291d767545b7bec9062
   bytes: 46013
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: sources/zh/2025/zh-form-367-2025.md Z. 44 'Zulässiger Abzug (max. je CHF 12’400)' (Staatssteuer), Z. 54 '(max. je CHF 13’000)' (Bundessteuer); Fusszeile 'StA Form. 367 (2024) 12.25'; URL-Pfad
+    '/2025/est-formulare/'
 - id: zh-form-350
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4431,6 +5690,9 @@
   sha256: 15310365b1733d10116e695201a071ce7ced1c47362eb11c8b7b798b7e95a27f
   bytes: 71322
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  zeit_beleg: 'sources/zh/2025/zh-form-350.md: Feld ''Jahr'' leer; Fusszeile ''StA Form. 350 (2025) 12.25''; URL-Pfad ''/jahrunabhaengig/est-formulare/350 Liegensch ZH 2025 HA DEF.pdf''; zh-portal-steuererklaerung
+    Z. 317 verlinkt dieselbe Datei als aktuelles jahrunabhängiges Formular'
 - id: zh-form-355
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4446,6 +5708,9 @@
   sha256: 8de09c14f6b3a91bd93bd3e425cc48e1cdf60e0438b346f3fccc827d14b0e383
   bytes: 54514
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  zeit_beleg: 'sources/zh/2025/zh-form-355.md: Feld ''Jahr'' leer, ''Schuld am 31. Dezember''; Fusszeile ''StA Form. 355 (2020) 12.20''; URL ''/jahrunabhaengig/est-formulare/355_schulden_zh_2020_def.pdf'';
+    Portal Z. 325 verlinkt sie als aktuell'
 - id: zh-form-370
   jurisdiktion: zh
   ordner_jahr: '2025'
@@ -4461,6 +5726,9 @@
   sha256: 387b0d60749e2d77294cd20ac81da9b6d0ce6fb3e05ae5bdf440146c468a07a1
   bytes: 106170
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  zeit_beleg: 'sources/zh/2025/zh-form-370.md: Feld ''Jahr'' leer; ''Selbstbehalt (5% von Ziffer 21 der Steuererklärung)''; Fusszeile ''StA Form. 370 (2020) 12.20''; URL ''/jahrunabhaengig/est-formulare/370_krankheit_zh_2020_def.pdf'';
+    Portal Z. 329 verlinkt sie als aktuell'
 - id: zh-form-300-2026-uj
   jurisdiktion: zh
   ordner_jahr: '2026'
@@ -4475,6 +5743,11 @@
   sha256: fe7a0d160bb4070e988c065d2b1601586ece2479e4d714c23ce1ccb1617ceaea
   bytes: 94565
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: sources/zh/2026/zh-form-300-2026-uj.md Seite 1 'Steuererklärung 2026', 'Dauer der Steuerpflicht vom … bis …', 'Personalien per 31.12.2026 bzw. per Ende der Steuerpflicht'; Z. 253/255 'Verkehrswert
+    gemäss Neufestsetzung ab 1.1. 2026'; Fusszeile 'StA Form. 300 (2026) 12.26'; zh-portal-steuererklaerung
 - id: sg-form-2-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -4489,6 +5762,11 @@
   sha256: 521411f6f8cb33f0bc0187368d3649177eefc752f0bc169d0b108941172bc890
   bytes: 156358
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/sg/2025/sg-form-2-2025.md S. 1: ''Rückerstattungsantrag Verrechnungssteuer 2025'', ''Haben Sie im Jahr 2025 eine Erbschaft ... erhalten?'', ''Steuerwert am 31. Dezember 2025 / Bruttoertrag
+    2025''; Fusszeile ''HA (2025) 12.25 02.01'''
 - id: sg-form-4-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -4503,6 +5781,10 @@
   sha256: 33642e71e105c0dc10fec2ad74ef1730c2c44c6774e7df3d6d4bb8d77e6a24b0
   bytes: 1558266
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/sg/2025/sg-form-4-2025.md S. 1: ''Jahrespauschalen gemäss ... Fahrkosten zwischen Wohn- und Arbeitsstätte ... Abzüge 2025''; Fusszeile ''HA (2025) 12.25 04.01'''
 - id: sg-form-5-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -4517,6 +5799,10 @@
   sha256: 087826bbd9ed1119e999d4d805baaec93e1e9f0da04eee71274a64ccd5df2093
   bytes: 1575318
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/sg/2025/sg-form-5-2025.md S. 1: Kopf ''2025'', Schulden ''Name und Adresse 31. Dezember 2025 2025''; Fusszeile ''HA (2025) 12.25 05.01'''
 - id: sg-form-6-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -4531,6 +5817,10 @@
   sha256: d682fcf7f50d82d8b1c8bf089a9494912250b94e0716732abc5c560025190ae8
   bytes: 1579613
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/sg/2025/sg-form-6-2025.md S. 1: Kopf ''2025''; Fusszeile ''HA (2025) 12.25 06.01'''
 - id: sg-form-7z-2025
   jurisdiktion: sg
   ordner_jahr: '2025'
@@ -4545,6 +5835,10 @@
   sha256: a6510b13efe43d4ff788ed223d8f80d95bd1dfa978ae0909ce359215374ca0c7
   bytes: 1534216
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/sg/2025/sg-form-7z-2025.md S. 1: ''Steuerwert am 31. Dezember 2025'', ''Erträge 2025'', ''Unterhalts- und Verwaltungskosten 2025''; Fusszeile ''HA (2025) 12.25 07.11'''
 - id: sg-form-1-2026-uj
   jurisdiktion: sg
   ordner_jahr: '2026'
@@ -4559,6 +5853,11 @@
   sha256: 4cfc3b00ba80a6ed4d3ce03b86f62d06b8a272003581095d84d5d430d42c708b
   bytes: 3537030
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/sg/2026/sg-form-1-2026-uj.md S. 1: ''Kantons-, Gemeinde- und direkte Bundessteuer 2026'', ''Personalien ... am 31. Dezember 2026 bzw. am Ende der Steuerpflicht'', ''Einkünfte 2026'',
+    ''Abzüge 2026''; Ziff. 13.1 ''Ordentliche Beiträge Säule 3a'' (208/210) und ''Einkaufsbeiträge Säule 3a Jahr(e)'' (212/21'
 - id: ar-form-02-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -4573,6 +5872,11 @@
   sha256: 29ce4690ff6a10b126e658014d3e66d01879fd89d080d4e23a11bff72342d548
   bytes: 156207
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/ar/2025/ar-form-02-2025.md Seite 1: Kopf «Formular 2 ... 2025», «Haben Sie im Jahr 2025 eine Erbschaft ...», Spalten «Steuerwert am 31. Dezember 2025 / Bruttoertrag 2025»; Fusszeile
+    «HA (2025) 12.25 02.01» (PDF erstellt 24.6.2025)'
 - id: ar-form-04-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -4587,6 +5891,10 @@
   sha256: 5dc82bb21e1c54c2035d5c0b1c911a7d3ff5ede4a15322f736ff35ddd6d5d27a
   bytes: 1551576
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/ar/2025/ar-form-04-2025.md Seite 1: «Berufskosten Person 1 Formular 4 2025», «Abzüge 2025»; Fusszeile «HA (2024) 12.25 04.01»'
 - id: ar-form-05-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -4601,6 +5909,10 @@
   sha256: fec6449e38d0abae136d6607daa7815d17eb4d562e70aa11c9b0f50ed610bfc4
   bytes: 1533007
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/ar/2025/ar-form-05-2025.md Seite 1: «Schuldenverzeichnis Formular 5 2025», «Schuld am 31. Dezember 2025 / Schuldzinsen 2025»; Fusszeile «HA (2024) 12.25 05.01»'
 - id: ar-form-06-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -4615,6 +5927,11 @@
   sha256: 84ef37483ec353c57624926a3119e16b4f376ed16bdb8e8e83e2889d9a2c17e9
   bytes: 1536038
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/ar/2025/ar-form-06-2025.md Seite 1: «Versicherungsprämien und Sparzinsen Formular 6 2025», «Bezahlte Versicherungsprämien und Sparzinsen Beträge 2025»; Fusszeile «HA (2024) 12.25
+    06.01»'
 - id: ar-form-07-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -4629,6 +5946,10 @@
   sha256: 9185329b5f83de3abe27f9b481bc91682f5f530aaeb32fee30e8216dca2b71bc
   bytes: 1543444
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/ar/2025/ar-form-07-2025.md Seite 1: «Liegenschaften Formular 7 2025», «Zugang bzw. Wegfall der Liegenschaft im Jahr 2025»; Fusszeile «HA (2024) 12.25 07.01»'
 - id: ar-form-07z-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -4643,6 +5964,11 @@
   sha256: b2073b96750c782a708b3b7cfd5e06ae05d3ad0576cc9cce094f713c51b5bbe1
   bytes: 1521246
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/ar/2025/ar-form-07z-2025.md Seite 1: «Zusammenzug aller Liegenschaften Formular 7 Z 2025», Spalten «Steuerwert am 31. Dezember 2025 / Erträge 2025 / Unterhalts- und Verwaltungskosten
+    2025»; Fusszeile «HA (2024) 12.25 07.11»'
 - id: ar-form-10-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -4657,6 +5983,10 @@
   sha256: 54c7ee42e15fe489f79e40182a2f5fb81575877348ca268c1320dffcf083b6cf
   bytes: 51986
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/ar/2025/ar-form-10-2025.md Seite 1: «Kinderbetreuungskosten Formular 10 2025», «Kosten 2025», «höchstens Fr. 25’000.–»; Fusszeile «HA (2024) 12.25 10.01»'
 - id: tg-form-01-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4671,6 +6001,11 @@
   sha256: 6b2a8e3ad60ae272c2d9c9d57bbc53ba860b3159e5599a08e729f39f3f7ea48c
   bytes: 2626397
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: tg-form-01-2026
+  zeit_beleg: 'S. 1: «Personalien … am 31. Dezember 2025»; «Einkünfte 2025», «Abzüge 2025»; Quelle FW25_Form.01, Formularcode 0016252101888'
 - id: tg-form-02-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4685,6 +6020,11 @@
   sha256: 48d6a771d9746c7a857999c75c3e721f764951b273e145406c1164127da153ed
   bytes: 1563952
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: tg-form-02-2026
+  zeit_beleg: 'Titel «Wertschriftenverzeichnis 2025»; S. 1: «Stand per 31. Dezember 2025», «Rückerstattung der im Jahr 2025 abgezogenen eidgenössischen Verrechnungs-[steuer]»; Quelle FW25_Form.02'
 - id: tg-form-04-1-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4699,6 +6039,11 @@
   sha256: 560968ae805133bac744db8975465cd9af8b4ec297ac5686ed8ba4597e5da4da
   bytes: 66996
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: tg-form-04-1-2026
+  zeit_beleg: Titel «Schuldenverzeichnis 2025»; «Schuld am 31. Dezember 2025», «Im Jahr 2025 fällige Schuldzinsen»; Quelle FW25_Form.04.1
 - id: tg-form-04-2-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4713,6 +6058,11 @@
   sha256: 649dd850ede4da9b5d92b832c81ca1d7061efe77f882f9cc2230bdfbc0618cd9
   bytes: 166901
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/tg/2025/tg-form-04-2-2025.md Z. 3/16 Titel «Formular 4.2: Berufsauslagen 2025»; Quell-URL «FW25_Form.04.2_Berufsauslagen»; PDF-Metadaten raw/tg/2025/tg-form-04-2-2025.pdf Title «Formular
+    4.2-2025: Berufsauslagen»'
 - id: tg-form-05-1-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4727,6 +6077,11 @@
   sha256: e694580073b0417456c0c2ff5d24cac60981265d140ff53ae77c744dc5ff19dd
   bytes: 83804
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/tg/2025/tg-form-05-1-2025.md Z. 3/16 Titel «Formular 5.1: Krankheitskosten 2025»; Quell-URL «FW25_Form.05.1_Krankheitskosten»; PDF-Metadaten Title «Formular 5.1-2025: Krankheits-
+    und Unfallkosten, Behinderungsbedingte Kosten»'
 - id: tg-form-05-2-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4741,6 +6096,11 @@
   sha256: 921e93cbab19c391991fab464c167d34898d8afd98f637d0a13124a24e368cb4
   bytes: 94412
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/tg/2025/tg-form-05-2-2025.md Z. 3/16 Titel «Formular 5.2: Versicherungsprämien 2025»; Quell-URL «FW25_Form.05.2_Versicherungspraemien»; PDF-Metadaten Title «05b-2025: Versicherungsprämien
+    und Zinsen von Sparkapitalien»'
 - id: tg-form-06-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4755,6 +6115,10 @@
   sha256: b48a2a0fa8e7a39bf7126d596b1d3dd52156f40287b26c6a71384253242f2cb0
   bytes: 112518
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: sources/tg/2025/tg-form-06-2025.md Z. 42 «Zuwendungen 2025»; Titel Z. 16; Quell-URL «FW25_Form.06_Zuwendungen»
 - id: tg-form-07-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4769,6 +6133,10 @@
   sha256: 99bbd0320b728d6518e9a45f6bc63fa7d280a207e35f2c5fbeb7c577dc56f4d8
   bytes: 126638
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/tg/2025/tg-form-07-2025.md Z. 3/16 Titel «Formular 7: Liegenschaften 2025»; Quell-URL «FW25_Form.07_Liegenschaften»; PDF-Metadaten Title «07-2025: Angaben bei Liegenschaftenbesitz»'
 - id: tg-form-08-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4783,6 +6151,11 @@
   sha256: 9e7dbe8cf60709240aeed927977d2c023499d691d24dfbe23b90008b118aa259
   bytes: 115572
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2025-01-01'
+  gilt_bis: '2025-12-31'
+  zeit_beleg: 'sources/tg/2025/tg-form-08-2025.md Z. 3/16 Titel «Formular 8: Liegenschaftsunterhalt 2025»; Quell-URL «FW25_Form.08_Unterhalt»; PDF-Metadaten Title «08-2025: Angaben zu Unterhalts- und Betriebskosten
+    für Liegenschaften»'
 - id: tg-form-01-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -4797,6 +6170,12 @@
   sha256: 1abe7c71e863dd936bf79f43ebc1be69bca435a6f1a0fff79a8aa09a2d398e97
   bytes: 2877603
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: tg-form-01-2025
+  zeit_beleg: 'S. 1: «Personalien … am 31. Dezember 2026»; «Einkünfte 2026», «Abzüge 2026»; Quelle FW26_Form_01, Formularcode 0016262101888; Ziff. 25.1 «Jahrg. 2001 – 2006 Fr. 10 600 / Jahrg. 2007 – 2010
+    Fr. 8 500», Ziff. 36.3 «Jahrgang 2009 und jüngere»'
 - id: tg-form-02-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -4811,6 +6190,11 @@
   sha256: 9169dd09d8e4e90bf631c8cfb4cc598cdbd11a5df6e24858b9172f1f3c88bc91
   bytes: 1832545
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: tg-form-02-2025
+  zeit_beleg: 'Titel «Wertschriftenverzeichnis 2026»; S. 1: «Stand per 31. Dezember 2026», «im Jahr 2026 abgezogenen eidgenössischen Verrechnungs-[steuer]»; Quelle FW26_Form_02'
 - id: tg-form-04-1-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -4825,6 +6209,11 @@
   sha256: 00010702bdede918ad0e7ac2bdc68c9f17b3124afd6c6f593a6716ba68f58539
   bytes: 113152
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt: tg-form-04-1-2025
+  zeit_beleg: Titel «Schuldenverzeichnis 2026»; «31. Dezember 2026», «Im Jahr 2026 fällige Schuldzinsen»; Druckvermerk «FW26_Form_04.1_Schuldenverzeichnis_Web_Web 26.09.2025»
 - id: tg-form-04-2-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -4839,6 +6228,10 @@
   sha256: ac9efb5f4cefacb07e97947489b741668dd7d4bbedc8d517c1b698c83126585a
   bytes: 164128
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/tg/2026/tg-form-04-2-2026.md Z. 3/16 Titel «Formular 4.2/4.3: Berufsauslagen 2026»; Quell-URL «FW26_Form_04.2_04.3_Berufsauslagen»; PDF-Metadaten Title «Formular 4.2 4.3-2026: Berufsauslagen»'
 - id: tg-form-05-1-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -4853,6 +6246,11 @@
   sha256: 2e3826ddf8e7c8cf0e45620e6639853b4f868e3d3c8b632370d94d99b0b7fc4b
   bytes: 87468
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/tg/2026/tg-form-05-1-2026.md Z. 3/16 Titel «Formular 5.1: Krankheit, Unfall, Behinderung 2026»; Quell-URL «FW26_Form_05.1_Krankheit_Unfall_Behinderung»; PDF-Metadaten Title «Formular
+    5.1-2026: Krankheits- und Unfallkosten, Behinderungsbedingte Kosten»'
 - id: tg-form-05-2-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -4867,6 +6265,11 @@
   sha256: 956d2f5caab192aa840bf77d771a078866691f70210ec362895799542e3f28eb
   bytes: 92924
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/tg/2026/tg-form-05-2-2026.md Z. 3/16 Titel «Formular 5.2: Versicherungsprämien 2026»; Quell-URL «FW26_Form_05.2_Versicherungspraemien»; PDF-Metadaten Title «05b-2026: Versicherungsprämien
+    und Zinsen von Sparkapitalien»'
 - id: tg-form-06-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -4881,6 +6284,10 @@
   sha256: b493b4ebdc76a88692dbe02ea2616c9b0397da7a05978c75ff2149158b2903d0
   bytes: 107205
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: sources/tg/2026/tg-form-06-2026.md Z. 42 «Zuwendungen 2026»; Titel Z. 16; Quell-URL «FW26_Form_06_Zuwendungen»
 - id: tg-form-07-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -4895,6 +6302,10 @@
   sha256: 7569ba45db47462e9a771a0b8ec57a88a6a24f427cc7672c1183a1d0592269da
   bytes: 105370
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/tg/2026/tg-form-07-2026.md Z. 3/16 Titel «Formular 7: Liegenschaftenbesitz 2026»; Quell-URL «FW26_Form_07_Liegenschaftenbesitz»; PDF-Metadaten Title «07-2026: Angaben bei Liegenschaftenbesitz»'
 - id: tg-form-08-2026
   jurisdiktion: tg
   ordner_jahr: '2026'
@@ -4909,6 +6320,11 @@
   sha256: 4cd9a234517de97fd1c61e99afd4834a60d861168e54e66260218a2f93bbe36c
   bytes: 117899
   abgerufen: '2026-11-09'
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  zeit_beleg: 'sources/tg/2026/tg-form-08-2026.md Z. 3/16 Titel «Formular 8: Liegenschaftsunterhalt 2026»; Quell-URL «FW26_Form_08_L-Unterhalt»; PDF-Metadaten Title «08-2026: Angaben zu Unterhalts- und
+    Betriebskosten für Liegenschaften»'
 - id: bund-ech-0119
   jurisdiktion: bund
   ordner_jahr: dauernd
@@ -4925,6 +6341,9 @@
   sha256: 489cf92e7c7fc882a614754d5f617061d7b2500503446864d75b9f1f40989abe
   bytes: 1097587
   abgerufen: '2026-11-09'
+  zeitbezug: info
+  gilt_ab: '2021-03-08'
+  zeit_beleg: 'raw/bund/dauernd/bund-ech-0119.pdf S. 1: «Version 4.0.0», «Status Genehmigt», «Beschluss am 2021-03-02», «Ausgabedatum 2021-03-08», «Ersetzt Version 3.2»; Beilagen «SSK_STE-NP_…_ab_2020.pdf»'
 - id: bund-ks-11
   jurisdiktion: bund
   ordner_jahr: dauernd
@@ -4942,6 +6361,12 @@
   sha256: f6471011095a9ee190d6eea31d87f4986050136b67ce3e05541ec1357317ded4
   bytes: 277823
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2005-01-01'
+  gilt_bis: '2026-12-31'
+  ersetzt_durch: bund-ks-11a
+  zeit_beleg: KS 11 S. 12 Ziff. 7 «… und gilt ab dem Steuerjahr 2005» (Bern, 31. August 2005); KS 11a S. 12 Ziff. 7 «ersetzt das Kreisschreiben Nr. 11 vom 31. August 2005 … und gelangt ab der Steuerperiode
+    2027 zur Anwendung»
 - id: bund-ks-18
   jurisdiktion: bund
   ordner_jahr: dauernd
@@ -4957,6 +6382,12 @@
   sha256: 90799b89c9672444b9e9c75dd6c75faff92526cdf265457437cd8edbe62f40e5
   bytes: 272484
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2008-07-17'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: bund-ks-18a
+  zeit_beleg: S. 1 «Bern, 17. Juli 2008»; S. 11 Ziff. 11 «Das vorliegende Kreisschreiben tritt per sofort in Kraft»; KS 18a S. 13 Ziff. 12 «tritt per 1. Januar 2026 in Kraft. Es ersetzt das Kreisschreiben
+    Nr. 18 vom 17. Juli 2008»
 - id: tg-stp-34-24-bis-2025
   jurisdiktion: tg
   ordner_jahr: '2025'
@@ -4972,3 +6403,9 @@
   sha256: 5312898234fa8457debc3102c1c4415c5df3890fe1b9ec367061d8669b62eb0b
   bytes: 289003
   abgerufen: '2026-11-09'
+  zeitbezug: dauernd
+  gilt_ab: '2024-07-01'
+  gilt_bis: '2025-12-31'
+  ersetzt_durch: tg-stp-34-24
+  zeit_beleg: 'sources/tg/2025/tg-stp-34-24-bis-2025.md Z. 64 Fussnote «01.07.2024 - 1/4 - ersetzt 01.01.2021»; Änderungsliste 01.07.2024 «StP 34 Nr. 24 … Ziff. 4: Hinweis auf Praxis bis Steuerperiode 2017
+    entfernt»; Ende durch «Änderungen per 01.01.2026» (StP 34 Nr. 24, Ziff. 3.2/5.4); in den Listen 01.01.2025 un'

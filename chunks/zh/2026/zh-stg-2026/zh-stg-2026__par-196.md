@@ -9,7 +9,7 @@ artikel: "§ 196"
 seiten: "74"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 196 StG ZH – 3. Rechtsmittel · S. 74
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 196 StG ZH – 3. Rechtsmittel · S. 74
 
 ### § 196 StG ZH – 3. Rechtsmittel
 

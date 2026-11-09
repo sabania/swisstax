@@ -2,13 +2,13 @@
 id: bund-bkv-2026__art-1
 quelle: bund-bkv-2026
 jur: bund
-jahre: [2026]
+jahre: [2026, 2027]
 typ: verordnung
 titel: "Art. 1 BKV – Grundsatz"
 artikel: "Art. 1"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2026 · BKV · Art. 1 Grundsatz
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2026/2027 · BKV · Art. 1 Grundsatz
 
 ### Art. 1 BKV – Grundsatz
 

@@ -8,7 +8,7 @@ titel: "Art. 57 DBG"
 artikel: "Art. 57"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 1. Abschnitt: Grundsatz › Art. 57
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 1. Abschnitt: Grundsatz › Art. 57
 
 ### Art. 57 DBG
 

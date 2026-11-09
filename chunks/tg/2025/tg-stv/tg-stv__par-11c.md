@@ -8,7 +8,7 @@ titel: "§ 11c StV TG – Kinderbetreuungskosten"
 artikel: "§ 11c"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 11c Kinderbetreuungskosten
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 11c Kinderbetreuungskosten
 
 ### § 11c StV TG – Kinderbetreuungskosten
 

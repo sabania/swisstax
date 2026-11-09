@@ -9,7 +9,7 @@ artikel: "§ 22"
 seiten: "13"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 22 StG ZH – 6. Einkünfte aus Vorsorge · S. 13
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 22 StG ZH – 6. Einkünfte aus Vorsorge · S. 13
 
 ### § 22 StG ZH – 6. Einkünfte aus Vorsorge
 

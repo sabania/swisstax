@@ -2,13 +2,13 @@
 id: tg-steuerfuesse-2026__c0009
 quelle: tg-steuerfuesse-2026
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 typ: steuerfuss
 titel: "Entwicklung der Steuerfüsse seit 2005 – Staatssteuerfuss 109 % seit 2022 (Teil 1/2)"
 seiten: "3"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
+qmd: {metadata: {jur: tg, jahre: [2026], typ: steuerfuss}}
 ---
-> TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Entwicklung · S. 3
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse TG 2026 · Steuerfüsse 2026, Steuerkraft 2025 › Entwicklung · S. 3
 
 Steuerfüsse tiefer als vor zwanzig Jahren   Gemeindesteuerfüsse rücken näher zusammen
 In den letzten zwanzig Jahren waren die Steuerfüsse rückläufig.   Die Steuerfüsse der Politischen Gemeinden rückten in den letz-

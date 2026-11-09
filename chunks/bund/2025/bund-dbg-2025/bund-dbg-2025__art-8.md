@@ -8,7 +8,7 @@ titel: "Art. 8 DBG"
 artikel: "Art. 8"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 2. Kapitel: Beginn und Ende der Steuerpflicht › Art. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 2. Kapitel: Beginn und Ende der Steuerpflicht › Art. 8
 
 ### Art. 8 DBG
 

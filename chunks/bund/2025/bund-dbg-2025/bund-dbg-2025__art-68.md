@@ -8,7 +8,7 @@ titel: "Art. 68 DBG"
 artikel: "Art. 68"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Steuerberechnung › 1. Abschnitt: Kapitalgesellschaften und Genossenschaften › Art. 68
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Steuerberechnung › 1. Abschnitt: Kapitalgesellschaften und Genossenschaften › Art. 68
 
 ### Art. 68 DBG
 

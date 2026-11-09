@@ -8,7 +8,7 @@ titel: "Art. 136a DBG – Notwendige Vertretung"
 artikel: "Art. 136a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Fünfter Teil: Verfahrensrecht › Vierter Titel: Verfahren bei der Erhebung der Quellensteuer › Art. 136a Notwendige Vertretung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Fünfter Teil: Verfahrensrecht › Vierter Titel: Verfahren bei der Erhebung der Quellensteuer › Art. 136a Notwendige Vertretung
 
 ### Art. 136a DBG – Notwendige Vertretung
 

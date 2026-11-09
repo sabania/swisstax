@@ -8,7 +8,7 @@ titel: "Art. 75 StG AR – 7. Verluste"
 artikel: "Art. 75"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 75 7. Verluste
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 75 7. Verluste
 
 ### Art. 75 StG AR – 7. Verluste
 

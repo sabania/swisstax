@@ -13,6 +13,10 @@ sha256: 8912ce5c110ecd9cea4fcef97b1229b3fa3a97aa06d12293f9eed97e267b7052
 abgerufen: '2026-11-09'
 einheiten: 364
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: sg-stg-2026
 ---
 # Steuergesetz SG (sGS 811.1) – Version gültig ab 01.01.2025
 

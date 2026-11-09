@@ -2,15 +2,23 @@
 typ: quelle
 id: tg-stp-34-25
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "StP 34 Nr. 25: Zweiverdienerabzug"
 generiert: tools/build_index.py
 ---
 # StP 34 Nr. 25: StP 34 Nr. 25: Zweiverdienerabzug
 
-- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-25-zweiverdienerabzug> · lokal: [tg-stp-34-25.html](../../../raw/tg/dauernd/tg-stp-34-25.html) · Volltext: [tg-stp-34-25.md](../../../sources/tg/dauernd/tg-stp-34-25.md)
 - **Abgerufen:** 2026-11-09 · sha256 `1912205a35fd39e1…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-34-25`).
+
+- `data/zuordnung/tg/2025.yaml#41:abzug.zweiverdiener@18` (agent-geprueft)
+- [wiki/themen/zweiverdienerabzug.md](../../themen/zweiverdienerabzug.md)
 
 ## Inhalt (18 Chunks)
 

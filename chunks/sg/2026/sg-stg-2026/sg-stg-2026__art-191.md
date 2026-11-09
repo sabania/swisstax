@@ -8,7 +8,7 @@ titel: "Art. 191 StG SG – c) für Erbschafts- und Schenkungssteuern 1. Veranla
 artikel: "Art. 191"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 191 c) für Erbschafts- und Schenkungssteuern 1. Veranlagungsgrundlage
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 191 c) für Erbschafts- und Schenkungssteuern 1. Veranlagungsgrundlage
 
 ### Art. 191 StG SG – c) für Erbschafts- und Schenkungssteuern 1. Veranlagungsgrundlage
 

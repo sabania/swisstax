@@ -12,6 +12,10 @@ sha256: 08a9f7964669bfc8526d02527cc25a4d6863bd0dddf216226fcbcca2caf97069
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: sg-steuerfuesse-2026
 ---
 # Steuerfüsse Kanton und Gemeinden 2025
 

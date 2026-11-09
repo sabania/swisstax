@@ -2,14 +2,14 @@
 id: bund-ks-15__c0083
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 5b Überjährige Barrier Reverse Convertibles (Teil 1/2)"
 ziffer: "Anh. III 5b"
 seiten: "24"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 24
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 24
 
 b)   Überjährige Reverse Convertibles mit bedingtem Kapitalschutz (Barrier Re-
     verse Convertibles)

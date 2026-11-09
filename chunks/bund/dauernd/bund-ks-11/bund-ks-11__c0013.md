@@ -9,7 +9,7 @@ ziffer: "4.2"
 seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.2 Begriff · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.2 Begriff · S. 7
 
 4.2   Begriff
 

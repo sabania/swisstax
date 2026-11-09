@@ -2,14 +2,14 @@
 id: bund-ks-45__c0200
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 10.1 Rechte des Arbeitnehmers – Ausweis und Verfügung über Quellensteuerpflicht"
 ziffer: "10.1"
 seiten: "63"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers › 10.1 Rechte · S. 63
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers › 10.1 Rechte · S. 63
 
 10   Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers
 

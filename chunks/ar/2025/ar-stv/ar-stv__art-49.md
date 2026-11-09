@@ -8,7 +8,7 @@ titel: "Art. 49 StV AR – Abrechnungsperiode (Art. 115, 178 StG)"
 artikel: "Art. 49"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › C. Gemeinsame Bestimmungen * › Art. 49 Abrechnungsperiode (Art. 115, 178 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › C. Gemeinsame Bestimmungen * › Art. 49 Abrechnungsperiode (Art. 115, 178 StG)
 
 ### Art. 49 StV AR – Abrechnungsperiode (Art. 115, 178 StG)
 

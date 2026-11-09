@@ -9,7 +9,7 @@ artikel: "§ 206"
 seiten: "75"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 206 StG ZH – II. Anwendung von Bestimmungen über die Staatssteuern · S. 75
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 206 StG ZH – II. Anwendung von Bestimmungen über die Staatssteuern · S. 75
 
 ### § 206 StG ZH – II. Anwendung von Bestimmungen über die Staatssteuern
 

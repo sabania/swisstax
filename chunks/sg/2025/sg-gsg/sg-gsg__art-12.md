@@ -2,13 +2,13 @@
 id: sg-gsg__art-12
 quelle: sg-gsg
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 12 GGS SG – Grundeigentümer"
 artikel: "Art. 12"
-qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: sg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025/2026 · GGS SG · III. Kosten › Art. 12 Grundeigentümer
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · GGS SG · III. Kosten › Art. 12 Grundeigentümer
 
 ### Art. 12 GGS SG – Grundeigentümer
 

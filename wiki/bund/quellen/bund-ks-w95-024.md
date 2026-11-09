@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-w95-024
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. w95-024: Kapitalversicherungen mit Einmalprämie"
 generiert: tools/build_index.py
 ---
 # KS W95-024: ESTV-Kreisschreiben Nr. w95-024: Kapitalversicherungen mit Einmalprämie
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 1995-06-30
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 1995-06-30
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/Fd7ZiKQ5C3fY/dbst-ks-w95-024-de.pdf> · lokal: [bund-ks-w95-024.pdf](../../../raw/bund/dauernd/bund-ks-w95-024.pdf) · Volltext: [bund-ks-w95-024.md](../../../sources/bund/dauernd/bund-ks-w95-024.md)
 - **Abgerufen:** 2026-11-09 · sha256 `8ad1e77230e05b0c…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 1995-01-01 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

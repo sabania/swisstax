@@ -7,7 +7,7 @@ typ: info
 titel: "Zeitbauwert"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: info}}
 ---
-> ZH · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Methode der Bewertung › Zeitbauwert
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Methode der Bewertung › Zeitbauwert
 
 Die Eigenmietwerte bestimmen sich durch die Multiplikation der im Anhang der Weisung 2026 aufgeführten Ableitungssätze mit dem Land- und Zeitbauwert bzw. Land- und Zeitbauwertanteil. Für jede Gemeinde wurde ein Ableitungssatz für Einfamilienhäuser und auch für Stockwerkeigentum festgelegt.
 

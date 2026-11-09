@@ -2,13 +2,13 @@
 id: bund-vstv__art-37
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 37 VStV"
 artikel: "Art. 37"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · 3. Domizilerklärung › b. Überprüfung › Art. 37
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · 3. Domizilerklärung › b. Überprüfung › Art. 37
 
 ### Art. 37 VStV
 

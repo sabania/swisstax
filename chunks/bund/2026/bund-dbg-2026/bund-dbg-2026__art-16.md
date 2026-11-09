@@ -8,7 +8,7 @@ titel: "Art. 16 DBG"
 artikel: "Art. 16"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerbare Einkünfte › 1. Abschnitt: Allgemeines › Art. 16
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerbare Einkünfte › 1. Abschnitt: Allgemeines › Art. 16
 
 ### Art. 16 DBG
 

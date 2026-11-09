@@ -8,7 +8,7 @@ titel: "Art. 142 DBG – Verfahren"
 artikel: "Art. 142"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 142 Verfahren
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Fünfter Titel: Beschwerdeverfahren › 1. Kapitel: Vor kantonaler Steuerrekurskommission › Art. 142 Verfahren
 
 ### Art. 142 DBG – Verfahren
 

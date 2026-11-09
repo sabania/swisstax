@@ -2,14 +2,14 @@
 id: bund-ks-37__c0053
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.3.4 Überblick Quellenbesteuerung bei Realisation – Verwaltungsrat"
 ziffer: "7.3.4"
 seiten: "17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.3.4 Überblick Quellenbesteuerung · S. 17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 7 Internationales Verhältnis › 7.3.4 Überblick Quellenbesteuerung · S. 17
 
   Ausschliesslich Verwal-   Fälle von Art. 83 DBG:   Fälle von Art. 93 DBG:
   tungsrat (VR)

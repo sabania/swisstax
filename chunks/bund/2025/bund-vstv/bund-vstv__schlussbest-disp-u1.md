@@ -2,13 +2,13 @@
 id: bund-vstv__schlussbest-disp-u1
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Schlussbestimmungen der Änderung vom 22. November 2000 VStV"
 artikel: "Schlussbestimmungen der Änderung vom 22. November 2000"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · Schlussbestimmungen der Änderung vom 22. November 2000
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · Schlussbestimmungen der Änderung vom 22. November 2000
 
 ### Schlussbestimmungen der Änderung vom 22. November 2000 VStV
 

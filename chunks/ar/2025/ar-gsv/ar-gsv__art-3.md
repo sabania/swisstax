@@ -8,7 +8,7 @@ titel: "Art. 3 GSV AR – Schätzungsobjekte"
 artikel: "Art. 3"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 3 Schätzungsobjekte
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · I. Allgemeine Bestimmungen › Art. 3 Schätzungsobjekte
 
 ### Art. 3 GSV AR – Schätzungsobjekte
 

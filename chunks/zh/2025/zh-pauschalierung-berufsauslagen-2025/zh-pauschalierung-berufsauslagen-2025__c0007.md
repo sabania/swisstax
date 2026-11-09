@@ -9,7 +9,7 @@ ziffer: "II–V"
 seiten: "3-4"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · LS 631.33 (bis 2025) · Verfügung Finanzdirektion › II–V Schlussbestimmungen · S. 3–4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · LS 631.33 (bis 2025) · Verfügung Finanzdirektion › II–V Schlussbestimmungen · S. 3–4
 
     II. Sind beide Ehegatten erwerbstätig, werden die Abzüge für Be-
 rufsauslagen für jeden Ehegatten nach Massgabe seiner Beschäftigung

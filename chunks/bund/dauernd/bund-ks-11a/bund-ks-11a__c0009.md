@@ -9,7 +9,7 @@ ziffer: "3.2.3"
 seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 4–5
 
 3.2.3   Kosten für Kuraufenthalte
 Die Kosten für ärztlich verordnete Kur- und Erholungsaufenthalte gelten als Krankheitskosten,

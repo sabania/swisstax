@@ -9,7 +9,7 @@ artikel: "§ 253"
 seiten: "87"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 253 StG ZH – b. Überweisung der Akten und Anklage · S. 87
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 253 StG ZH – b. Überweisung der Akten und Anklage · S. 87
 
 ### § 253 StG ZH – b. Überweisung der Akten und Anklage
 

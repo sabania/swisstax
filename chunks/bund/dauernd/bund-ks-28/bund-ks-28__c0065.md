@@ -2,14 +2,14 @@
 id: bund-ks-28__c0065
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Art. 3 Fall 4 – Überführung vor Vorjahr mit Aufschub, Verkauf im Liquidationsjahr (Teil 1/2)"
 ziffer: "Art. 3 Fall 4"
 seiten: "23"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 23
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 23
 
 b)   Die steuerpflichtige Person überführt eine Liegenschaft im Jahr n-2 vom Geschäftsver-
     mögen ins Privatvermögen und nimmt dabei Artikel 18a DBG (Steueraufschub) in An-

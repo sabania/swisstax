@@ -8,7 +8,7 @@ titel: "Art. 63 StV AR – Verzicht wegen Geringfügigkeit (Art. 209 StG)"
 artikel: "Art. 63"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 7. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 63 Verzicht wegen Geringfügigkeit (Art. 209 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 7. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 63 Verzicht wegen Geringfügigkeit (Art. 209 StG)
 
 ### Art. 63 StV AR – Verzicht wegen Geringfügigkeit (Art. 209 StG)
 

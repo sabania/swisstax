@@ -8,7 +8,7 @@ titel: "§ 35c StV TG – Datenweitergabe an Amt für Geoinformation"
 artikel: "§ 35c"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 35c Datenweitergabe an Amt für Geoinformation
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 35c Datenweitergabe an Amt für Geoinformation
 
 ### § 35c StV TG – Datenweitergabe an Amt für Geoinformation
 

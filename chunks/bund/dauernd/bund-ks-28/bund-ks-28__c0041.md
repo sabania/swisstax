@@ -2,14 +2,14 @@
 id: bund-ks-28__c0041
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Ziff. 1.2 Beratung Ständerat – Fünftel und Mindestsatz 2 Prozent (Teil 1/2)"
 ziffer: "1.2"
 seiten: "16"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 16
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 16
 
 1.2   Beratung in den eidgenössischen Räten
 Der Ständerat hatte als Erstrat in der Sommersession 2006 - in Abweichung vom bundesrät-

@@ -2,13 +2,13 @@
 id: bund-vstg__art-4a-t3
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 4a VStG (Teil 3/3)"
 artikel: "Art. 4a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · I. Kapitalerträge › 1a. Erwerb eigener Beteiligungsrechte › Art. 4a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · I. Kapitalerträge › 1a. Erwerb eigener Beteiligungsrechte › Art. 4a
 
 ### Art. 4a VStG (Fortsetzung)
 

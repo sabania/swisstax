@@ -12,6 +12,9 @@ sha256: fe7a0d160bb4070e988c065d2b1601586ece2479e4d714c23ce1ccb1617ceaea
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
 ---
 # Steuererklärung 2026 – Hauptformular für unterjährige Steuerpflicht (Form. 300 UJ)
 

@@ -8,7 +8,7 @@ titel: "Art. 147 StG AR – 2. Steuertarif"
 artikel: "Art. 147"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 147 2. Steuertarif
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 147 2. Steuertarif
 
 ### Art. 147 StG AR – 2. Steuertarif
 

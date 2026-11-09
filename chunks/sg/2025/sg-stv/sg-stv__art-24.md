@@ -8,7 +8,7 @@ titel: "Art. 24 StV SG – b) Wertberichtigungen (Art. 41 Abs. 1 Bst. b StG)"
 artikel: "Art. 24"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 24 b) Wertberichtigungen (Art. 41 Abs. 1 Bst. b StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 24 b) Wertberichtigungen (Art. 41 Abs. 1 Bst. b StG)
 
 ### Art. 24 StV SG – b) Wertberichtigungen (Art. 41 Abs. 1 Bst. b StG)
 

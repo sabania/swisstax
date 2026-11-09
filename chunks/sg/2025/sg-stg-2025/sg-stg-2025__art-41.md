@@ -8,7 +8,7 @@ titel: "Art. 41 StG SG – 2. Abschreibungen, Wertberichtigungen, Rückstellunge
 artikel: "Art. 41"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 41 2. Abschreibungen, Wertberichtigungen, Rückstellungen und Rücklagen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 41 2. Abschreibungen, Wertberichtigungen, Rückstellungen und Rücklagen
 
 ### Art. 41 StG SG – 2. Abschreibungen, Wertberichtigungen, Rückstellungen und Rücklagen
 

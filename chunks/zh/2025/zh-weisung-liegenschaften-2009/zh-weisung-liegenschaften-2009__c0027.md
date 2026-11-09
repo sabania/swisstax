@@ -9,7 +9,7 @@ ziffer: "68–72"
 seiten: "13"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · B. Eigenmietwerte › III.–IV. Geschäftshäuser, Geschäftsräume · S. 13
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · B. Eigenmietwerte › III.–IV. Geschäftshäuser, Geschäftsräume · S. 13
 
 III. Wohnungen in Geschäftshäusern
 

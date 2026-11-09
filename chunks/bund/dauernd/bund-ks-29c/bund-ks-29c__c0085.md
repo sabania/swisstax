@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0085
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang 4 Beispiel 1 – kotierte Gesellschaft, Rückzahlung und Wiedereinzahlung KER im Kapitalband (Teil 5/5)"
 ziffer: "Anhang 4"
 seiten: "34-35"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 4 Kapitalband · S. 34–35
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › Anhang 4 Kapitalband · S. 34–35
 
 Werden solche Rückzahlungen während eines Kapitalbands durch die Anteilsinhaber wieder ein-
 bezahlt, kommt es zu einer Überkompensation, da die neuen Bestimmungen aufgrund der Ak-

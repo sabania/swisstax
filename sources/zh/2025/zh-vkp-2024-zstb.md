@@ -12,6 +12,10 @@ sha256: 308a0536410d5f796753521877d683c5a1f427fdff5a5d42dffdfb08a56ce1de
 abgerufen: '2026-11-09'
 seiten: 5
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2024-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: zh-vkp-2026-zstb
 ---
 # Verordnung über den Ausgleich der kalten Progression ab 1. Januar 2024 (gültig bis 31.12.2025; ZStB 48.1)
 

@@ -2,13 +2,13 @@
 id: bund-wefv__art-6
 quelle: bund-wefv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 6 WEFV – Auszahlung"
 artikel: "Art. 6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · WEFV · 2. Kapitel: Modalitäten › 1. Abschnitt: Vorbezug › Art. 6 Auszahlung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · WEFV · 2. Kapitel: Modalitäten › 1. Abschnitt: Vorbezug › Art. 6 Auszahlung
 
 ### Art. 6 WEFV – Auszahlung
 

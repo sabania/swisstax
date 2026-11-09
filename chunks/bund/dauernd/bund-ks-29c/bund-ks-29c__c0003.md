@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0003
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Neue Bestimmungen Art. 20 Abs. 8 DBG und Art. 5 Abs. 1septies VStG (Kapitalband)"
 ziffer: "1"
 seiten: "4-5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 1 Gegenstand · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 1 Gegenstand · S. 4–5
 
 Neu wurden damit einhergehend folgende Gesetzesbestimmungen in DBG und VStG aufge-
 nommen:

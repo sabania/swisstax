@@ -9,7 +9,7 @@ artikel: "§ 19a"
 seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 19a StG ZH – e. Einkommen aus Patenten und vergleichbaren Rechten · S. 9
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 19a StG ZH – e. Einkommen aus Patenten und vergleichbaren Rechten · S. 9
 
 ### § 19a StG ZH – e. Einkommen aus Patenten und vergleichbaren Rechten
 

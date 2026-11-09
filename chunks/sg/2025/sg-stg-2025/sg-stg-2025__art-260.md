@@ -8,7 +8,7 @@ titel: "Art. 260 StG SG – 4. Zeugeneinvernahme"
 artikel: "Art. 260"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 260 4. Zeugeneinvernahme
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 260 4. Zeugeneinvernahme
 
 ### Art. 260 StG SG – 4. Zeugeneinvernahme
 

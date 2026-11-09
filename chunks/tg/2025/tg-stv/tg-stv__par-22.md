@@ -8,7 +8,7 @@ titel: "§ 22 StV TG – Steuerabzug und Neuberechnung"
 artikel: "§ 22"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 4. Quellensteuer für natürliche und juristische Personen › 4.1. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › § 22 Steuerabzug und Neuberechnung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 4. Quellensteuer für natürliche und juristische Personen › 4.1. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › § 22 Steuerabzug und Neuberechnung
 
 ### § 22 StV TG – Steuerabzug und Neuberechnung
 

@@ -9,7 +9,7 @@ ziffer: "3.2.7"
 seiten: "5-6"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5–6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5–6
 
 3.2.7   Pflegekosten in Alters- und Pflegeheimen
 Altersgebrechen gelten erst ab einem bestimmten Grad als Behinderung (vgl. Ziff. 4.1 d). Bei

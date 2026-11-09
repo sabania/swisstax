@@ -14,6 +14,10 @@ sha256: f6471011095a9ee190d6eea31d87f4986050136b67ce3e05541ec1357317ded4
 abgerufen: '2026-11-09'
 seiten: 12
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2005-01-01'
+gilt_bis: '2026-12-31'
+ersetzt_durch: bund-ks-11a
 ---
 # ESTV-Kreisschreiben Nr. 11: Abzug von Krankheits- und Unfallkosten sowie behinderungsbedingten Kosten (31.08.2005; gilt bis Steuerperiode 2026)
 

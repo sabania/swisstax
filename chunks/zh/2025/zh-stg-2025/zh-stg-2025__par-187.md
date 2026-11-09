@@ -9,7 +9,7 @@ artikel: "§ 187"
 seiten: "72"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 187 StG ZH – I. Steuerpflicht 1. Steuerarten · S. 72
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 187 StG ZH – I. Steuerpflicht 1. Steuerarten · S. 72
 
 ### § 187 StG ZH – I. Steuerpflicht 1. Steuerarten
 

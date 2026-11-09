@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Tarif · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Diverses/Steuertarif_Natuerliche_Personen_ab_2024_01.pdf> · lokal: [ar-tarif-np.pdf](../../../raw/ar/dauernd/ar-tarif-np.pdf) · Volltext: [ar-tarif-np.md](../../../sources/ar/dauernd/ar-tarif-np.md)
 - **Abgerufen:** 2026-11-09 · sha256 `65517bb763f5946c…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2024-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-tarif-np`).
+
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0092
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang 5 Beispiel Änderung Aktienkapital in wesentliche ausländische Währung (USD) (Teil 1/3)"
 ziffer: "Anhang 5"
 seiten: "37"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › Anhang 5 Währungswechsel · S. 37
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › Anhang 5 Währungswechsel · S. 37
 
 Anhang 5: Beispiel Änderung Aktienkapital in eine für die Geschäftstätigkeit
 wesentliche ausländische Währung

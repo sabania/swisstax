@@ -8,7 +8,7 @@ titel: "Art. 9 StG SG – c) Ausgleichsbeiträge an Kirchgemeinden"
 artikel: "Art. 9"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 9 c) Ausgleichsbeiträge an Kirchgemeinden
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 9 c) Ausgleichsbeiträge an Kirchgemeinden
 
 ### Art. 9 StG SG – c) Ausgleichsbeiträge an Kirchgemeinden
 

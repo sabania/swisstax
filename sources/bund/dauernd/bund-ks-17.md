@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2007-10-03'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/JdJbK10G0lJN/dbst-ks-2007-1-017-d-de.pdf
@@ -14,6 +15,8 @@ sha256: 4168d3612b608447ac17fa82a36156dc2e3c769844e44e61963b89c31e81ca62
 abgerufen: '2026-11-09'
 seiten: 9
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2007-10-03'
 ---
 # ESTV-Kreisschreiben Nr. 17: Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge
 

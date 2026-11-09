@@ -8,7 +8,7 @@ titel: "Art. 50 StV SG – b) Ermässigungen für gemischte Beteiligungsgesellsc
 artikel: "Art. 50"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 50 b) Ermässigungen für gemischte Beteiligungsgesellschaften (Art. 90 und Art. 284 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 50 b) Ermässigungen für gemischte Beteiligungsgesellschaften (Art. 90 und Art. 284 StG)
 
 ### Art. 50 StV SG – b) Ermässigungen für gemischte Beteiligungsgesellschaften (Art. 90 und Art. 284 StG)
 

@@ -7,7 +7,7 @@ typ: info
 titel: "Informationen zur Ergänzungssteuer der ESTV"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: info}}
 ---
-> AR · Steuerjahr 2025/2026 · AR Fristverlängerung · Steuererklärungen / Fristverlängerungen › Informationen zur Ergänzungssteuer der ESTV
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · AR Fristverlängerung · Steuererklärungen / Fristverlängerungen › Informationen zur Ergänzungssteuer der ESTV
 
 ### Informationen zur Ergänzungssteuer der ESTV
 

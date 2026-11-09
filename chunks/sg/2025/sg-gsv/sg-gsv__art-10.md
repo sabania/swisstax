@@ -8,7 +8,7 @@ titel: "Art. 10 VGS SG – Mitwirkung von Behörden"
 artikel: "Art. 10"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 10 Mitwirkung von Behörden
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 10 Mitwirkung von Behörden
 
 ### Art. 10 VGS SG – Mitwirkung von Behörden
 

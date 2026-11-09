@@ -11,6 +11,9 @@ raw: raw/zh/dauernd/zh-zstb-26-1.html
 sha256: 2ef86a6d00cac128ed4d8f7a38518eedf86ff4719f0285738b79dca21d66911e
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: zh-pauschalierung-berufsauslagen-2025
 ---
 # ZStB 26.1: Pauschalierung Berufsauslagen (ab 2026)
 

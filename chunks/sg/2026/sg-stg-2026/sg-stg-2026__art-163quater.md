@@ -8,7 +8,7 @@ titel: "Art. 163 quater StG SG – Elektronische Erfassung und Aufbewahrung von 
 artikel: "Art. 163 quater"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 163 quater Elektronische Erfassung und Aufbewahrung von Daten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 163 quater Elektronische Erfassung und Aufbewahrung von Daten
 
 ### Art. 163 quater StG SG – Elektronische Erfassung und Aufbewahrung von Daten
 

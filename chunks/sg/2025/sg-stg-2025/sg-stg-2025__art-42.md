@@ -8,7 +8,7 @@ titel: "Art. 42 StG SG – 3. Verluste"
 artikel: "Art. 42"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 42 3. Verluste
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 42 3. Verluste
 
 ### Art. 42 StG SG – 3. Verluste
 

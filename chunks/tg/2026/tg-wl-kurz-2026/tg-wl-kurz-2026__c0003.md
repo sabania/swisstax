@@ -9,7 +9,7 @@ ziffer: "10 (3.1–6)"
 seiten: "1"
 qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
-> TG · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 › 10 Berufskosten · S. 1
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 › 10 Berufskosten · S. 1
 
     Mehrkosten für   3.1 Abzug Verpflegungsmehrkosten bei unzumutbarer Heimkehr am Mittag
     auswärtige   oder bei durchgehender Schicht- oder Nachtarbeit Fr. 15 pro Tag max. Fr.   3 200

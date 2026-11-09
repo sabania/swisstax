@@ -8,7 +8,7 @@ titel: "Art. 124 StG AR – 2. Steueraufschiebende Veräusserungen (Teil 1/2)"
 artikel: "Art. 124"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 124 2. Steueraufschiebende Veräusserungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 5. Grundstückgewinnsteuer › Art. 124 2. Steueraufschiebende Veräusserungen
 
 ### Art. 124 StG AR – 2. Steueraufschiebende Veräusserungen
 

@@ -9,7 +9,7 @@ ziffer: "29"
 seiten: "7"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 2. Landwert · S. 7
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › IV. Einfamilienhäuser und Stockwerkeigentum › 2. Landwert · S. 7
 
    Landflächenanteile, welche die gemäss Ziff. 26–28 anrechenbare 29
 Grundstücksfläche übersteigen, werden folgendermassen bewertet:

@@ -8,7 +8,7 @@ titel: "Art. 266 StG SG – c) Vorbereitung der Hauptverhandlung"
 artikel: "Art. 266"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 266 c) Vorbereitung der Hauptverhandlung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 266 c) Vorbereitung der Hauptverhandlung
 
 ### Art. 266 StG SG – c) Vorbereitung der Hauptverhandlung
 

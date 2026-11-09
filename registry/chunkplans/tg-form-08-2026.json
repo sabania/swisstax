@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 8 TG 2026 – Hinweise zum Ausfüllen (Liegenschaftsunterhalt)",
    "pfad": [
     "Angaben zu Unterhalts- und Betriebskosten für Liegenschaften",
@@ -26,7 +26,7 @@
    "zusammenfassung": "Pro Liegenschaft ein Formular; Rechnungskopien bei Einzelbeträgen ab Fr.1000.–, bei Stockwerkeigentum Abrechnung der Gemeinschaft beilegen."
   },
   {
-   "start": 48,
+   "start": 33,
    "titel": "Formular 8 S. 1 – Rechnungsliste 1–20 (Unterhalts- vs. Anlagekosten)",
    "pfad": [
     "Liegenschaftsunterhalt",
@@ -46,7 +46,7 @@
    "zusammenfassung": "Je Rechnung Datum, Rechnungsteller, Arbeit, Zahlungsbetrag und Aufteilung in Anlagekosten/Mehrwert und Unterhalts- und Betriebskosten."
   },
   {
-   "start": 75,
+   "start": 60,
    "titel": "Formular 8 S. 1 – Übertrag, Förderbeiträge, Total Unterhalts- und Betriebskosten (auf Formular 7)",
    "pfad": [
     "Liegenschaftsunterhalt",
@@ -68,7 +68,7 @@
    "zusammenfassung": "Totalisierung inkl. erhaltener Förderbeiträge und aus Vorjahren übertragbarer Kosten für Energiesparen/Umweltschutz/Rückbau; Total Unterhalts- und Betriebskosten auf Formular 7."
   },
   {
-   "start": 96,
+   "start": 81,
    "titel": "Formular 8 S. 2 – Rechnungsliste 21–63 und Übertrag auf Vorderseite",
    "pfad": [
     "Liegenschaftsunterhalt",
@@ -85,5 +85,7 @@
    ],
    "zusammenfassung": "Fortsetzung der Rechnungsliste (Nr. 21–63) mit Übertrag von Hilfsblättern und Übertrag auf die Vorderseite."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

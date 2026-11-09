@@ -2,14 +2,14 @@
 id: bund-ks-43__c0015
 quelle: bund-ks-43
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang Beispiel 4 – Forschungsstipendium CHF 42'000 mit Berichtspflicht"
 ziffer: "Beispiel 4"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · Anhang: Beispiele · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 43 · Anhang: Beispiele · S. 6
 
 Beispiel 4: Besteuerung eines Förderbeitrages im Wissenschaftsbereich
 Sachverhalt: Die Forscherin D erhält von der Stiftung Z ein Stipendium für ihre wissenschaftli-

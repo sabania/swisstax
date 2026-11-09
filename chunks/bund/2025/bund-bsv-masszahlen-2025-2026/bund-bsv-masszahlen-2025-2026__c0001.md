@@ -9,7 +9,7 @@ ziffer: "1–2"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Wichtige Masszahlen berufliche Vorsorge › 1–2 AHV-Rente und Lohndaten · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Informationsseite · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · Wichtige Masszahlen berufliche Vorsorge › 1–2 AHV-Rente und Lohndaten · S. 1
 
 # BSV Masszahlen berufliche Vorsorge / Säule 3a 2025/2026
 

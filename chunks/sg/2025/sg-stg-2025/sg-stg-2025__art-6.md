@@ -8,7 +8,7 @@ titel: "Art. 6 StG SG – Steuerfuss"
 artikel: "Art. 6"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 6 Steuerfuss
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 6 Steuerfuss
 
 ### Art. 6 StG SG – Steuerfuss
 

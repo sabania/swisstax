@@ -9,7 +9,7 @@ artikel: "§ 169"
 seiten: "68-69"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 169 StG ZH – VII. Inventarbehörde · S. 68–69
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › H. Inventar › § 169 StG ZH – VII. Inventarbehörde · S. 68–69
 
 ### § 169 StG ZH – VII. Inventarbehörde
 

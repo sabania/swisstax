@@ -2,13 +2,13 @@
 id: bund-wefv__art-20a
 quelle: bund-wefv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 20a WEFV – Übergangsbestimmung zur Änderung vom 10. Juni 2016"
 artikel: "Art. 20a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · WEFV · 5. Kapitel: Schlussbestimmungen › Art. 20a Übergangsbestimmung zur Änderung vom 10. Juni 2016
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · WEFV · 5. Kapitel: Schlussbestimmungen › Art. 20a Übergangsbestimmung zur Änderung vom 10. Juni 2016
 
 ### Art. 20a WEFV – Übergangsbestimmung zur Änderung vom 10. Juni 2016
 

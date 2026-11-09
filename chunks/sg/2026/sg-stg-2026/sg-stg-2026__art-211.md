@@ -8,7 +8,7 @@ titel: "Art. 211 StG SG – Schlussrechnung"
 artikel: "Art. 211"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 211 Schlussrechnung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 211 Schlussrechnung
 
 ### Art. 211 StG SG – Schlussrechnung
 

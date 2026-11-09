@@ -11,6 +11,20 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://ar.ch/verwaltung/departement-finanzen/steuerverwaltung/steuerbezug/> · lokal: [ar-info-steuerbezug.html](../../../raw/ar/dauernd/ar-info-steuerbezug.html) · Volltext: [ar-info-steuerbezug.md](../../../sources/ar/dauernd/ar-info-steuerbezug.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c181b0368b0434a3…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab ? bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 6 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-info-steuerbezug`).
+
+- `data/werte/ar/2025.yaml#68:bezug.provisorisch` (agent-geprueft)
+- `data/werte/ar/2025.yaml#69:bezug.verzugszins` (agent-geprueft)
+- `data/werte/ar/2025.yaml#71:bezug.ausgleichszins` (agent-geprueft)
+- `data/werte/ar/2026.yaml#68:bezug.provisorisch` (agent-geprueft)
+- `data/werte/ar/2026.yaml#69:bezug.verzugszins` (agent-geprueft)
+- `data/werte/ar/2026.yaml#71:bezug.ausgleichszins` (agent-geprueft)
+- [wiki/ar/ar-ueberblick.md](../ar-ueberblick.md)
+- [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 
 ## Inhalt (16 Chunks)
 

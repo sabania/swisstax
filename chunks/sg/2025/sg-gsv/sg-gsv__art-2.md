@@ -8,7 +8,7 @@ titel: "Art. 2 VGS SG – Einteilung der Grundstücke"
 artikel: "Art. 2"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · I. Allgemeine Bestimmungen › Art. 2 Einteilung der Grundstücke
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · I. Allgemeine Bestimmungen › Art. 2 Einteilung der Grundstücke
 
 ### Art. 2 VGS SG – Einteilung der Grundstücke
 

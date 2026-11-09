@@ -9,7 +9,7 @@ artikel: "§ 108"
 seiten: "50"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 108 StG ZH – III. Einschätzungsgemeinde 1. Bei Besteuerung im ordentlichen Verfahren · S. 50
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 108 StG ZH – III. Einschätzungsgemeinde 1. Bei Besteuerung im ordentlichen Verfahren · S. 50
 
 ### § 108 StG ZH – III. Einschätzungsgemeinde 1. Bei Besteuerung im ordentlichen Verfahren
 

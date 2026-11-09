@@ -2,15 +2,22 @@
 typ: quelle
 id: ar-mb-09
 jur: ar
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt 09: Teilpensionierung mit Kapitalbezug"
 generiert: tools/build_index.py
 ---
 # MB AR 09: Merkblatt 09: Teilpensionierung mit Kapitalbezug
 
-- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Appenzell Ausserrhoden (AR) · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/09_Teilpensionierung_mit_Kapitalbezug_.pdf> · lokal: [ar-mb-09.pdf](../../../raw/ar/dauernd/ar-mb-09.pdf) · Volltext: [ar-mb-09.md](../../../sources/ar/dauernd/ar-mb-09.md)
 - **Abgerufen:** 2026-11-09 · sha256 `7d8b2fa7593c97fd…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2024-10-22 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle ar-mb-09`).
+
+- [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

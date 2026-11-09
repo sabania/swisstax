@@ -9,7 +9,7 @@ artikel: "§ 186"
 seiten: "72"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Steuererlass › § 186 StG ZH · S. 72
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Steuererlass › § 186 StG ZH · S. 72
 
 ### § 186 StG ZH
 

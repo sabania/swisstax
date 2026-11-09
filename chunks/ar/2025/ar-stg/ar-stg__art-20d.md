@@ -8,7 +8,7 @@ titel: "Art. 20d StG AR – Anteilsmässige Besteuerung"
 artikel: "Art. 20d"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 20d Anteilsmässige Besteuerung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 20d Anteilsmässige Besteuerung
 
 ### Art. 20d StG AR – Anteilsmässige Besteuerung
 

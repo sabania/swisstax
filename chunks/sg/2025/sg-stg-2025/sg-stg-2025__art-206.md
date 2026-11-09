@@ -8,7 +8,7 @@ titel: "Art. 206 StG SG – Inventarverfahren a) Mitwirkungspflichten"
 artikel: "Art. 206"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 206 Inventarverfahren a) Mitwirkungspflichten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 206 Inventarverfahren a) Mitwirkungspflichten
 
 ### Art. 206 StG SG – Inventarverfahren a) Mitwirkungspflichten
 

@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0012
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 2 Rz 24–25 Säule 3a – Arbeitgeberbeiträge und anerkannte Vorsorgeformen"
 ziffer: "24–25"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 2: Säule 3a · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Erläuterungen › Ziffer 2: Säule 3a · S. 4
 
     Ziffer 2: Beiträge für anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)
 

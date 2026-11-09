@@ -8,7 +8,7 @@ titel: "Art. 220a DBG"
 artikel: "Art. 220a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 220a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 220a
 
 ### Art. 220a DBG
 

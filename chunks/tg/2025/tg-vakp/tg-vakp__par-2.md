@@ -8,7 +8,7 @@ titel: "§ 2 VAKP TG – Tarifstufen des Einkommenssteuertarifs"
 artikel: "§ 2"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · VAKP TG · § 2 Tarifstufen des Einkommenssteuertarifs
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VAKP TG · § 2 Tarifstufen des Einkommenssteuertarifs
 
 ### § 2 VAKP TG – Tarifstufen des Einkommenssteuertarifs
 

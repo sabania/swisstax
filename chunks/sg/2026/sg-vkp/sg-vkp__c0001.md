@@ -9,7 +9,7 @@ ziffer: "Art. 1"
 seiten: "1-2"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2026 · VKP SG · Verordnung kalte Progression · S. 1–2
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2026 · VKP SG · Verordnung kalte Progression · S. 1–2
 
 # Verordnung über den Ausgleich der kalten Progression (sGS 811.12)
 

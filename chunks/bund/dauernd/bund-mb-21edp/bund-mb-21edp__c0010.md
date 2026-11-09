@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0010
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Rz 19–21 Felder g–i: Arbeitgeberbeiträge durch Arbeitnehmer, Beginn, Fälligkeit"
 ziffer: "19–21"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 1: 2. Säule · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Erläuterungen › Ziffer 1: 2. Säule · S. 4
 
     Feld g: Vom Arbeitnehmer/Von der Arbeitnehmerhin entrichtete Arbeitgeberbeiträge
 19   Anzugeben sind Arbeitgeberbeiträge, die der Arbeitnehmer anstelle seines Arbeitgebers

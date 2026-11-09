@@ -9,7 +9,7 @@ ziffer: "Kol. 1-8"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: formular}}
 ---
-> Bund · Steuerjahr 2026 · DA-1 2026 · DA-1 › Kapitalanlagen und Erträge · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2026 · DA-1 2026 · DA-1 › Kapitalanlagen und Erträge · S. 1
 
 Kapitalanlagen und Erträge, für die eine Anrechnung ausländischer Quellensteuern verlangt wird:
     Bezeichnung der Kapitalanlagen:   Steuerwert am   Bruttoertrag Nicht rückforderbare

@@ -2,15 +2,16 @@
 typ: quelle
 id: bund-ks-vst-34
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben VST Nr. 34: Kundenguthaben"
 generiert: tools/build_index.py
 ---
 # KS VST 34: ESTV-Kreisschreiben VST Nr. 34: Kundenguthaben
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2011-07-26
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2011-07-26
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/lKCBiZzMJOLy/dbst-ks-2011-1-034-v-de.pdf> · lokal: [bund-ks-vst-34.pdf](../../../raw/bund/dauernd/bund-ks-vst-34.pdf) · Volltext: [bund-ks-vst-34.md](../../../sources/bund/dauernd/bund-ks-vst-34.md)
 - **Abgerufen:** 2026-11-09 · sha256 `b3bf8390e43fbf86…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2011-07-26 bis offen
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

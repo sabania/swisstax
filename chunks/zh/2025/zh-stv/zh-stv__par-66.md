@@ -9,7 +9,7 @@ artikel: "§ 66"
 seiten: "12"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Erster Abschnitt: Allgemeine Gemeindesteuern › § 66 StV ZH – 3. Kirchensteuern · S. 12
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Zweiter Teil: Gemeindesteuern › Erster Abschnitt: Allgemeine Gemeindesteuern › § 66 StV ZH – 3. Kirchensteuern · S. 12
 
 ### § 66 StV ZH – 3. Kirchensteuern
 

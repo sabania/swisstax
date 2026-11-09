@@ -8,7 +8,7 @@ titel: "Art. 10 BKV – Nebenerwerb"
 artikel: "Art. 10"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 10 Nebenerwerb
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 10 Nebenerwerb
 
 ### Art. 10 BKV – Nebenerwerb
 

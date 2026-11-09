@@ -8,7 +8,7 @@ titel: "Art. 113 DBG"
 artikel: "Art. 113"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 2. Kapitel: Verfahrensrechtliche Stellung der Ehegatten › Art. 113
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 2. Kapitel: Verfahrensrechtliche Stellung der Ehegatten › Art. 113
 
 ### Art. 113 DBG
 

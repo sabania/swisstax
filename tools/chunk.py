@@ -98,6 +98,13 @@ def fmt_pages(seiten):
     return str(seiten[0]) if len(seiten) == 1 else f"{seiten[0]}-{seiten[-1]}"
 
 
+# Kontextzeile: ausgeschriebene Ebene/Kanton, damit Volltextsuche (FTS/BM25) «direkte Bundessteuer», «Kanton Zürich» usw.
+# trifft (Experiment eval/laeufe/experimente.md: MRR 0.28 → 0.36 bei Stichwort-Anfragen).
+JUR_KONTEXT = {"bund": "Bund · Bundesebene (direkte Bundessteuer, Bundesrecht)", "ar": "AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer",
+               "sg": "SG · Kanton St. Gallen · Staats- und Gemeindesteuer", "tg": "TG · Kanton Thurgau · Staats- und Gemeindesteuer",
+               "zh": "ZH · Kanton Zürich · Staats- und Gemeindesteuer"}
+
+
 def yq(v: str) -> str:
     """YAML-sicherer Skalar (immer in Anführungszeichen)"""
     return '"' + str(v).replace("\\", "\\\\").replace('"', '\\"') + '"'
@@ -119,7 +126,8 @@ def write_chunks(e: dict, fm_src: dict, items: list[dict]) -> int:
         seiten = it.get("seiten") or []
         sp = fmt_pages(seiten)
         crumb = " · ".join(x for x in [
-            JUR_SHORT[e["jurisdiktion"]], ("Steuerjahr " + "/".join(map(str, jahre))) if jahre else None,
+            JUR_KONTEXT[e["jurisdiktion"]], TYP_LABEL.get(e["typ"], e["typ"]).split(" (")[0],
+            ("Steuerjahr " + "/".join(map(str, jahre))) if jahre else None,
             e.get("kurz") or e["titel"], " › ".join(pfad[-3:]) if pfad else None,
             ("S. " + sp.replace("-", "–")) if sp else None] if x)
         titel = it.get("titel") or (pfad[-1] if pfad else e["titel"])
@@ -157,12 +165,26 @@ def strat_law(e, fm, arts_path):
     return items
 
 
+def fm_laenge(full_lines) -> int:
+    """Anzahl Zeilen der Frontmatter inkl. schliessendem --- (0 ohne Frontmatter)."""
+    if not full_lines or full_lines[0] != "---":
+        return 0
+    return next((i + 1 for i, l in enumerate(full_lines[1:], 1) if l == "---"), 0)
+
+
+def plan_starts(plan, full_lines) -> list[int]:
+    """Absolute 1-basierte Startzeilen. Pläne mit basis «koerper» zählen ab dem Textkörper (robust gegen Metadaten-
+    Änderungen in der Frontmatter); ältere Pläne zählen ab Dateianfang."""
+    off = fm_laenge(full_lines) if plan.get("basis") == "koerper" else 0
+    return [c["start"] + off for c in plan["chunks"]]
+
+
 def plan_items(e, full_lines, plan):
-    """Plan-Zeilennummern beziehen sich auf die VOLLSTÄNDIGE Datei sources/.../<id>.md (1-basiert, wie Read/cat -n)."""
-    starts = [c["start"] for c in plan["chunks"]] + [len(full_lines) + 1]
+    """Plan-Zeilen: siehe plan_starts (basis «koerper» = ab Textkörper, sonst ab Dateianfang; 1-basiert)."""
+    starts = plan_starts(plan, full_lines) + [len(full_lines) + 1]
     items, n = [], 0
     for i, c in enumerate(plan["chunks"]):
-        a, b = c["start"] - 1, starts[i + 1] - 1
+        a, b = starts[i] - 1, starts[i + 1] - 1
         if c.get("skip"):
             continue
         seg = "\n".join(l for l in full_lines[a:b] if not l.startswith("<!-- Seite ")).strip("\n")

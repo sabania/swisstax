@@ -9,7 +9,7 @@ artikel: "§ 194"
 seiten: "73"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 194 StG ZH – b. Ermittlung der Grundlagen · S. 73
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 194 StG ZH – b. Ermittlung der Grundlagen · S. 73
 
 ### § 194 StG ZH – b. Ermittlung der Grundlagen
 

@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2018-02-26'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/9jH59-8M4UeL/dbst-ks-2018-1-043-d-de.pdf
@@ -14,6 +15,8 @@ sha256: 8da9c3f371893d43ca176aca425c9fb38b6ec1b7db98499b5dfde12dfa7edc2f
 abgerufen: '2026-11-09'
 seiten: 6
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2018-02-26'
 ---
 # ESTV-Kreisschreiben Nr. 43: Preise, Ehrengaben, Stipendien, Förderbeiträge
 

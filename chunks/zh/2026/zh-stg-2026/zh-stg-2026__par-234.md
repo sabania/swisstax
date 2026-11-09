@@ -9,7 +9,7 @@ artikel: "§ 234"
 seiten: "81"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 234 StG ZH – I. Verletzung von Verfahrenspflichten · S. 81
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 234 StG ZH – I. Verletzung von Verfahrenspflichten · S. 81
 
 ### § 234 StG ZH – I. Verletzung von Verfahrenspflichten
 

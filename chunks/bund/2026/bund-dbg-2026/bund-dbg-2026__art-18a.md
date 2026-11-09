@@ -8,7 +8,7 @@ titel: "Art. 18a DBG – Aufschubstatbestände"
 artikel: "Art. 18a"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerbare Einkünfte › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 18a Aufschubstatbestände
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerbare Einkünfte › 3. Abschnitt: Selbständige Erwerbstätigkeit › Art. 18a Aufschubstatbestände
 
 ### Art. 18a DBG – Aufschubstatbestände
 

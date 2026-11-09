@@ -11,6 +11,16 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Steuerfüsse · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerfuesse%202025%20finale%20Version%20fuer%20Internet.pdf> · lokal: [sg-steuerfuesse-2025.pdf](../../../raw/sg/2025/sg-steuerfuesse-2025.pdf) · Volltext: [sg-steuerfuesse-2025.md](../../../sources/sg/2025/sg-steuerfuesse-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `08a9f7964669bfc8…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31 · ersetzt durch `sg-steuerfuesse-2026`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-steuerfuesse-2025`).
+
+- `data/werte/sg/2025.yaml#58:tarif.steuerfuss_kanton` (agent-geprueft)
+- [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
+- [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

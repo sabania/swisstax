@@ -8,7 +8,7 @@ titel: "§ 50b StV TG – Erlassvoraussetzungen (Teil 2/2)"
 artikel: "§ 50b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.3. Stundung und Erlass › § 50b Erlassvoraussetzungen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 8. Bezug und Sicherung der Steuern › 8.3. Stundung und Erlass › § 50b Erlassvoraussetzungen
 
 ### § 50b StV TG – Erlassvoraussetzungen (Fortsetzung)
 

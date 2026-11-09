@@ -8,7 +8,7 @@ titel: "§ 55 StV TG – Kirchensteuern natürlicher Personen"
 artikel: "§ 55"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 9. Gemeindesteuern › § 55 Kirchensteuern natürlicher Personen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 9. Gemeindesteuern › § 55 Kirchensteuern natürlicher Personen
 
 ### § 55 StV TG – Kirchensteuern natürlicher Personen
 

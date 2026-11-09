@@ -418,6 +418,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 - **Wert:** 10 % (Pauschalabzug Liegenschaftskosten (anstelle effektiver Kosten, Wahl pro Periode und Liegenschaft): 10 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, wenn das Gebäude zu Beginn der Steuerperiode bis 10 Jahre alt ist.)
 - **Schlüssel:** `liegenschaft.pauschale_neu` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 32 Abs. 4 DBG; Art. 5 Abs. 2 lit. a LKV
+- **Bemerkung:** Massgebend ist das Gebäudealter zu Beginn der Steuerperiode (1.1.2026): bis zehn Jahre alt → 10 %, mehr als zehn Jahre → 20 % (Baujahr/Bezug im Grenzfall genau prüfen).
 - **Quellen:**
   - [LKV Art. 5](../../chunks/bund/2025/bund-lkv/bund-lkv__art-5.md) `bund-lkv__art-5` – «wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags»
 
@@ -427,7 +428,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 - **Wert:** 20 % (Pauschalabzug 20 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, wenn das Gebäude zu Beginn der Steuerperiode mehr als 10 Jahre alt ist.)
 - **Schlüssel:** `liegenschaft.pauschale_alt` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 32 Abs. 4 DBG; Art. 5 Abs. 2 lit. b LKV
-- **Bemerkung:** Eigenmietwert bleibt für 2026 steuerbar (Abschaffung erst per 01.01.2029 geplant, siehe bund-mm-eigenmietwert-abschaffung).
+- **Bemerkung:** Eigenmietwert bleibt für 2026 steuerbar (Abschaffung erst per 01.01.2029 geplant, siehe bund-mm-eigenmietwert-abschaffung). Massgebend ist das Gebäudealter zu Beginn der Steuerperiode (1.1.2026): bis zehn Jahre alt → 10 %, mehr als zehn Jahre → 20 % (Baujahr/Bezug im Grenzfall genau prüfen).
 - **Quellen:**
   - [LKV Art. 5](../../chunks/bund/2025/bund-lkv/bund-lkv__art-5.md) `bund-lkv__art-5` – «wenn das Gebäude zu Beginn der Steuerperiode mehr als zehn Jahre alt ist: 20 Prozent des Brutto-Mietertrags»
 
@@ -446,6 +447,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 - **Wert:** CHF 6'800 (Kinderabzug CHF 6'800 pro minderjähriges oder in beruflicher/schulischer Ausbildung stehendes Kind, für dessen Unterhalt die steuerpflichtige Person sorgt; bei getrennter Besteuerung der Eltern hälftig bei gemeinsamer elterlicher Sorge ohne Unterhaltsbeiträge.)
 - **Schlüssel:** `sozialabzug.kind` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 35 Abs. 1 lit. a DBG
+- **Bemerkung:** Zusätzlich zum Kinderabzug vom Einkommen: Abzug vom Steuerbetrag je Kind (Eckwert steuerbetrag.abzug_kind, Art. 36 Abs. 2bis DBG) – beide Abzüge gelten, nicht verwechseln.
 - **Quellen:**
   - [DBG Art. 35](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-35.md) `bund-dbg-2026__art-35` – «a. 6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind»
   - [RS 2-215 S. 2](../../chunks/bund/2026/bund-rs-2-215/bund-rs-2-215__c0008.md) `bund-rs-2-215__c0008` – «Kinderabzug (Art. 35 Abs. 1 Bst. a DBG) 6’800 6’800»

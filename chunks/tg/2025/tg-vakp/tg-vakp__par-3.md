@@ -8,7 +8,7 @@ titel: "§ 3 VAKP TG – Rundungsmethodik"
 artikel: "§ 3"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · VAKP TG · § 3 Rundungsmethodik
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VAKP TG · § 3 Rundungsmethodik
 
 ### § 3 VAKP TG – Rundungsmethodik
 

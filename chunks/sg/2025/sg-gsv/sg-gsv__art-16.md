@@ -8,7 +8,7 @@ titel: "Art. 16 VGS SG – Aufhebung bisherigen Rechts"
 artikel: "Art. 16"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · V. Schlussbestimmungen › Art. 16 Aufhebung bisherigen Rechts
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · V. Schlussbestimmungen › Art. 16 Aufhebung bisherigen Rechts
 
 ### Art. 16 VGS SG – Aufhebung bisherigen Rechts
 

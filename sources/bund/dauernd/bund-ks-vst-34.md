@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2011-07-26'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/lKCBiZzMJOLy/dbst-ks-2011-1-034-v-de.pdf
@@ -14,6 +15,8 @@ sha256: b3bf8390e43fbf863dd8269b664fb8a3269529b9053acc59635e1d8f870c5641
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2011-07-26'
 ---
 # ESTV-Kreisschreiben VST Nr. 34: Kundenguthaben
 

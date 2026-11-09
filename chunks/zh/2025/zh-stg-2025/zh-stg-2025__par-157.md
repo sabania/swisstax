@@ -9,7 +9,7 @@ artikel: "§ 157"
 seiten: "65"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › G. Änderung rechtskräftiger Entscheide › § 157 StG ZH – 3. Revisionsbegehren · S. 65
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › G. Änderung rechtskräftiger Entscheide › § 157 StG ZH – 3. Revisionsbegehren · S. 65
 
 ### § 157 StG ZH – 3. Revisionsbegehren
 

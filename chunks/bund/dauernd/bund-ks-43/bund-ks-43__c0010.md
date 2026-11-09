@@ -2,14 +2,14 @@
 id: bund-ks-43__c0010
 quelle: bund-ks-43
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5 Inkrafttreten und ersetzte Kreisschreiben"
 ziffer: "5"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 43 · 5 Inkrafttreten · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 43 · 5 Inkrafttreten · S. 4
 
 5   Inkrafttreten
 

@@ -2,13 +2,13 @@
 id: bund-sthg__art-11-t2
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 11 StHG (Teil 2/3)"
 artikel: "Art. 11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · 2. Kapitel: Einkommenssteuer › 3. Abschnitt: Steuerberechnung › Art. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · 2. Kapitel: Einkommenssteuer › 3. Abschnitt: Steuerberechnung › Art. 11
 
 ### Art. 11 StHG (Fortsetzung)
 

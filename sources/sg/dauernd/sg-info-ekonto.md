@@ -12,6 +12,7 @@ raw: raw/sg/dauernd/sg-info-ekonto.html
 sha256: e871067d2ae1b315c31819f76d058562010cfa4b3299b5b6736a35b351a4d0ce
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # eKonto / eFaktoren
 

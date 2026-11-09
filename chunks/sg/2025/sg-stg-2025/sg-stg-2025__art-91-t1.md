@@ -8,7 +8,7 @@ titel: "Art. 91 StG SG – 2. Kapitalgewinne auf Beteiligungen (Teil 1/2)"
 artikel: "Art. 91"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 91 2. Kapitalgewinne auf Beteiligungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 91 2. Kapitalgewinne auf Beteiligungen
 
 ### Art. 91 StG SG – 2. Kapitalgewinne auf Beteiligungen
 

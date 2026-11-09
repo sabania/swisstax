@@ -9,7 +9,7 @@ artikel: "§ 133"
 seiten: "58"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 133 StG ZH – 2. Pflichten des Steuerpflichtigen a. Steuererklärung · S. 58
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 133 StG ZH – 2. Pflichten des Steuerpflichtigen a. Steuererklärung · S. 58
 
 ### § 133 StG ZH – 2. Pflichten des Steuerpflichtigen a. Steuererklärung
 

@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0018
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "H Schenkungssteuer – Pflicht, Einreichung, Befreiungen (Fr. 5'000)"
 ziffer: "H"
 seiten: "6-7"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · H. Schenkungssteuer · S. 6–7
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · H. Schenkungssteuer · S. 6–7
 
 H. Schenkungssteuer
 Natürliche und juristische Personen, die Schenkungen erhalten, schulden eine

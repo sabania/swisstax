@@ -8,7 +8,7 @@ titel: "Art. 265 StG AR – e) Hauptverhandlung"
 artikel: "Art. 265"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 265 e) Hauptverhandlung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 265 e) Hauptverhandlung
 
 ### Art. 265 StG AR – e) Hauptverhandlung
 

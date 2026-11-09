@@ -8,7 +8,7 @@ titel: "§ 1e StV TG – Modifizierte Besteuerung"
 artikel: "§ 1e"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.1. Besteuerung nach dem Aufwand * › § 1e Modifizierte Besteuerung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.1. Besteuerung nach dem Aufwand * › § 1e Modifizierte Besteuerung
 
 ### § 1e StV TG – Modifizierte Besteuerung
 

@@ -8,7 +8,7 @@ titel: "Art. 22 GSV AR – Voraussetzungen"
 artikel: "Art. 22"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · V. Anpassung und Bereinigung ohne Neuschätzung › Art. 22 Voraussetzungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · V. Anpassung und Bereinigung ohne Neuschätzung › Art. 22 Voraussetzungen
 
 ### Art. 22 GSV AR – Voraussetzungen
 

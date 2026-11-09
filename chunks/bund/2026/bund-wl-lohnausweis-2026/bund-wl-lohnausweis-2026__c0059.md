@@ -9,7 +9,7 @@ ziffer: "75"
 seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · V Bestelladressen · S. 21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · V Bestelladressen · S. 21
 
 V   Bestelladressen für Lohnausweisformular und
     Wegleitung

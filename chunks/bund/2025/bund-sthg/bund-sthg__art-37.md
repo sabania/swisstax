@@ -2,13 +2,13 @@
 id: bund-sthg__art-37
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 37 StHG"
 artikel: "Art. 37"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Vierter Titel: Quellensteuern für natürliche und juristische Personen › 3. Kapitel: Pflichten des Schuldners der steuerbaren Leistung › Art. 37
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Vierter Titel: Quellensteuern für natürliche und juristische Personen › 3. Kapitel: Pflichten des Schuldners der steuerbaren Leistung › Art. 37
 
 ### Art. 37 StHG
 

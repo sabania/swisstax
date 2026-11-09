@@ -8,7 +8,7 @@ titel: "Art. 123 StG SG – Fälligkeit"
 artikel: "Art. 123"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 123 Fälligkeit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 123 Fälligkeit
 
 ### Art. 123 StG SG – Fälligkeit
 

@@ -9,7 +9,7 @@ artikel: "§ 144"
 seiten: "62"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › E. Verfahren bei der Erhebung der Quellensteuer › § 144 StG ZH – II. Verfügung · S. 62
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › E. Verfahren bei der Erhebung der Quellensteuer › § 144 StG ZH – II. Verfügung · S. 62
 
 ### § 144 StG ZH – II. Verfügung
 

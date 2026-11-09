@@ -8,7 +8,7 @@ titel: "Art. 31 StV AR – Bewertung von Wertschriften (Art. 46 StG)"
 artikel: "Art. 31"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 31 Bewertung von Wertschriften (Art. 46 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 31 Bewertung von Wertschriften (Art. 46 StG)
 
 ### Art. 31 StV AR – Bewertung von Wertschriften (Art. 46 StG)
 

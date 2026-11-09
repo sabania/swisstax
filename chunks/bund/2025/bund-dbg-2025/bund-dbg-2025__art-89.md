@@ -8,7 +8,7 @@ titel: "Art. 89 DBG – Obligatorische nachträgliche ordentliche Veranlagung"
 artikel: "Art. 89"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 89 Obligatorische nachträgliche ordentliche Veranlagung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Erster Titel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt in der Schweiz › Art. 89 Obligatorische nachträgliche ordentliche Veranlagung
 
 ### Art. 89 DBG – Obligatorische nachträgliche ordentliche Veranlagung
 

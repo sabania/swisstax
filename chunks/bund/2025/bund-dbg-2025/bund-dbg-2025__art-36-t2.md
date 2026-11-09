@@ -8,7 +8,7 @@ titel: "Art. 36 DBG (Teil 2/4)"
 artikel: "Art. 36"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 5. Kapitel: Steuerberechnung › 1. Abschnitt: Tarife › Art. 36
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 5. Kapitel: Steuerberechnung › 1. Abschnitt: Tarife › Art. 36
 
 ### Art. 36 DBG (Fortsetzung)
 

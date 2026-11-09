@@ -2,14 +2,14 @@
 id: bund-ks-44__c0006
 quelle: bund-ks-44
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.4 Erfüllung der Voraussetzungen durch beide Ehegatten"
 ziffer: "2.4"
 seiten: "3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · 2 Subjektive Voraussetzungen › 2.4 Ehegatten · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 44 · 2 Subjektive Voraussetzungen › 2.4 Ehegatten · S. 3
 
 2.4   Erfüllung der Voraussetzungen durch beide Ehegatten
 Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, müssen beide die Voraus-

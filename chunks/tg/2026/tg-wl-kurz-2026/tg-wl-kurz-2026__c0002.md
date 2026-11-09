@@ -9,7 +9,7 @@ ziffer: "10 (2.2–2.5)"
 seiten: "1"
 qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
-> TG · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 › 10 Berufskosten · S. 1
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 › 10 Berufskosten · S. 1
 
 10.   Berufskosten   2.2 bei Benützung eines Fahrrades oder Kleinmotorrades   bis Fr.   700
     unselbständig   2.3 bei Benützung eines privaten Motorfahrzeuges in begründeten Fällen

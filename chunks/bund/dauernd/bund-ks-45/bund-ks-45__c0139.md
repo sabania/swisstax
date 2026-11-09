@@ -2,14 +2,14 @@
 id: bund-ks-45__c0139
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.4 Änderung persönlicher Verhältnisse – Grundsatz und Beispiel 1 (Heirat)"
 ziffer: "7.4"
 seiten: "44-45"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 44–45
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 44–45
 
 7.4   Änderung der persönlichen Verhältnisse während des Kalenderjahres
 Jede Änderung, die zu einer Anpassung des anwendbaren Tarifcodes führt (bspw. Heirat,

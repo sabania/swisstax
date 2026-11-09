@@ -8,12 +8,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 89,
+   "start": 72,
    "titel": "Ziff. 1 Einleitung – Art. 33 Abs. 1 Bst. h und hbis DBG",
    "pfad": [
     "1 Einleitung"
@@ -33,7 +33,7 @@
    ]
   },
   {
-   "start": 104,
+   "start": 87,
    "titel": "Ziff. 2 Gesetzliche Grundlagen – Wortlaut Art. 33 DBG, BehiG",
    "pfad": [
     "2 Gesetzliche Grundlagen"
@@ -52,7 +52,7 @@
    ]
   },
   {
-   "start": 128,
+   "start": 111,
    "titel": "Ziff. 3.1 Begriff der Krankheits- und Unfallkosten",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -74,7 +74,7 @@
    ]
   },
   {
-   "start": 136,
+   "start": 119,
    "titel": "Ziff. 3.1 Bst. a–f Nicht abzugsfähige Lebenshaltungskosten",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -95,7 +95,7 @@
    ]
   },
   {
-   "start": 159,
+   "start": 142,
    "titel": "Ziff. 3.1 Krankenkassenprämien sind keine Krankheitskosten",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -113,7 +113,7 @@
    ]
   },
   {
-   "start": 163,
+   "start": 146,
    "titel": "Ziff. 3.2.1–3.2.2 Zahnbehandlungen und Heilbehandlungen",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -135,7 +135,7 @@
    ]
   },
   {
-   "start": 183,
+   "start": 166,
    "titel": "Ziff. 3.2.3 Kuraufenthalte (CHF 21.50 pro Tag Verpflegung)",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -155,7 +155,7 @@
    ]
   },
   {
-   "start": 194,
+   "start": 177,
    "titel": "Ziff. 3.2.4 Alternativmedizin und Naturheilpraktiker",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -177,7 +177,7 @@
    ]
   },
   {
-   "start": 211,
+   "start": 194,
    "titel": "Ziff. 3.2.5–3.2.6 Medikamente, Heilmittel und Pflegekosten",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -198,7 +198,7 @@
    ]
   },
   {
-   "start": 228,
+   "start": 211,
    "titel": "Ziff. 3.2.7 Pflegekosten in Alters- und Pflegeheimen",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -220,7 +220,7 @@
    ]
   },
   {
-   "start": 240,
+   "start": 223,
    "titel": "Ziff. 3.2.8 Fortpflanzungshilfen",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -241,7 +241,7 @@
    ]
   },
   {
-   "start": 252,
+   "start": 235,
    "titel": "Ziff. 3.2.9 Transportkosten zu Arzt und Therapie",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -261,7 +261,7 @@
    ]
   },
   {
-   "start": 261,
+   "start": 244,
    "titel": "Ziff. 3.2.10 Besondere Ernährung – Pauschale CHF 1'500",
    "pfad": [
     "3 Krankheits- und Unfallkosten",
@@ -281,7 +281,7 @@
    ]
   },
   {
-   "start": 274,
+   "start": 257,
    "titel": "Ziff. 4.1 Person mit Behinderung – Definition",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -300,7 +300,7 @@
    ]
   },
   {
-   "start": 287,
+   "start": 270,
    "titel": "Ziff. 4.1 Als behindert geltende Personen, Hör- und Sehbehinderung",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -321,7 +321,7 @@
    ]
   },
   {
-   "start": 318,
+   "start": 301,
    "titel": "Ziff. 4.2 Begriff der behinderungsbedingten Kosten",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -341,7 +341,7 @@
    ]
   },
   {
-   "start": 346,
+   "start": 329,
    "titel": "Ziff. 4.3.1 Assistenzkosten, Haushaltshilfe",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -362,7 +362,7 @@
    ]
   },
   {
-   "start": 366,
+   "start": 349,
    "titel": "Ziff. 4.3.1 Dolmetscherkosten Gehörlose – Pauschale CHF 2'500",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -382,7 +382,7 @@
    ]
   },
   {
-   "start": 376,
+   "start": 359,
    "titel": "Ziff. 4.3.2–4.3.3 Kinderbetreuung und Tagesstrukturen",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -403,7 +403,7 @@
    ]
   },
   {
-   "start": 393,
+   "start": 376,
    "titel": "Ziff. 4.3.4 Heim- und Entlastungsaufenthalte",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -424,7 +424,7 @@
    ]
   },
   {
-   "start": 409,
+   "start": 392,
    "titel": "Ziff. 4.3.5 Heilpädagogische Therapien, Sozialrehabilitation",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -444,7 +444,7 @@
    ]
   },
   {
-   "start": 418,
+   "start": 401,
    "titel": "Ziff. 4.3.6 Transport- und Fahrzeugkosten – Grundsatz",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -465,7 +465,7 @@
    ]
   },
   {
-   "start": 426,
+   "start": 409,
    "titel": "Ziff. 4.3.6 Freizeitfahrten, Taxi, Arbeitsweg",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -486,7 +486,7 @@
    ]
   },
   {
-   "start": 443,
+   "start": 426,
    "titel": "Ziff. 4.3.6 Fahrzeugumbau, Pauschale Transport CHF 2'500",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -505,7 +505,7 @@
    ]
   },
   {
-   "start": 451,
+   "start": 434,
    "titel": "Ziff. 4.3.7–4.3.8 Assistenzhunde, Hilfsmittel, Pflegeartikel, Kleider",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -527,7 +527,7 @@
    ]
   },
   {
-   "start": 473,
+   "start": 456,
    "titel": "Ziff. 4.3.9–4.3.10 Wohnkosten und Privatschulen",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -548,7 +548,7 @@
    ]
   },
   {
-   "start": 491,
+   "start": 474,
    "titel": "Ziff. 4.4 Pauschalen bei Hilflosenentschädigung (CHF 2'500 / 6'000 / 9'500)",
    "pfad": [
     "4 Behinderungsbedingte Kosten",
@@ -569,7 +569,7 @@
    ]
   },
   {
-   "start": 506,
+   "start": 489,
    "titel": "Ziff. 5.1 Selbstgetragene Kosten – Anrechnung von Leistungen Dritter",
    "pfad": [
     "5 Abzugsfähige Kosten",
@@ -590,7 +590,7 @@
    ]
   },
   {
-   "start": 518,
+   "start": 501,
    "titel": "Ziff. 5.1 Ergänzungsleistungen und Pauschalen",
    "pfad": [
     "5 Abzugsfähige Kosten",
@@ -611,7 +611,7 @@
    ]
   },
   {
-   "start": 528,
+   "start": 511,
    "titel": "Ziff. 5.1 Hilflosenentschädigung, Kapitalleistungen, Genugtuung",
    "pfad": [
     "5 Abzugsfähige Kosten",
@@ -631,7 +631,7 @@
    ]
   },
   {
-   "start": 542,
+   "start": 525,
    "titel": "Ziff. 5.2.1 Kosten minderjähriger oder in Ausbildung stehender Kinder",
    "pfad": [
     "5 Abzugsfähige Kosten",
@@ -652,7 +652,7 @@
    ]
   },
   {
-   "start": 554,
+   "start": 537,
    "titel": "Ziff. 5.2.2 Übrige unterstützte Personen",
    "pfad": [
     "5 Abzugsfähige Kosten",
@@ -674,7 +674,7 @@
    ]
   },
   {
-   "start": 569,
+   "start": 552,
    "titel": "Ziff. 5.3 Selbstbehalt 5 Prozent",
    "pfad": [
     "5 Abzugsfähige Kosten",
@@ -693,7 +693,7 @@
    ]
   },
   {
-   "start": 577,
+   "start": 560,
    "titel": "Ziff. 6 Nachweis – Belege und ärztlicher Fragebogen",
    "pfad": [
     "6 Nachweis"
@@ -714,7 +714,7 @@
    ]
   },
   {
-   "start": 595,
+   "start": 578,
    "titel": "Ziff. 7 Geltungsbereich und Anhang Fragebogen",
    "pfad": [
     "7 Geltungsbereich"
@@ -732,5 +732,7 @@
     "abzug.behinderungskosten"
    ]
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

@@ -8,7 +8,7 @@ titel: "Art. 92 StG AR – Steuerperiode"
 artikel: "Art. 92"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › D. Zeitliche Bemessung › Art. 92 Steuerperiode
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › D. Zeitliche Bemessung › Art. 92 Steuerperiode
 
 ### Art. 92 StG AR – Steuerperiode
 

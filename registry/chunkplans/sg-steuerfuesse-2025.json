@@ -1,7 +1,104 @@
-{"id":"sg-steuerfuesse-2025","hinweise":["Tabellen-Layout (pdftotext): Fussnotenziffern 3/4 stehen als eigene Zeilen über den Gemeindezeilen (Seiten 1-4); Zuordnung zur Gemeinde ist die jeweils folgende Zeile."],"chunks":[
-{"start":16,"titel":"Bemerkungen und Zeichenerklärung – Kantonssteuer 105 %, christkatholisch 24 %","pfad":["Steuerfüsse 2025","Bemerkungen"],"stichworte":["Steuerfuss","Kantonssteuer 105 Prozent","einfache Steuer","christkatholisch","Zentralsteuer","Kirchensteuer"],"positionen":[],"zusammenfassung":"Der Steuerfuss ist in Prozent der einfachen Steuer festgelegt; die Kantonssteuer beträgt 105 Prozent, der Steuerfuss der christkatholischen Kirchgemeinde im ganzen Kanton 24 Prozent."},
-{"start":45,"titel":"Steuerfüsse Gemeinden St. Gallen bis St. Margrethen (Seite 1)","pfad":["Steuerfüsse 2025","Tabelle Gemeinden"],"stichworte":["Steuerfuss St. Gallen 138","Gesamtsteuerfuss","Wittenbach","Goldach","Rorschach","Grundsteuersatz Promille","Kirchgemeinde"],"positionen":[],"zusammenfassung":"Tabelle mit Grundsteuersatz, Gesamtsteuerfuss Politische Gemeinde und Kirchgemeinden (z.B. St. Gallen 0.8 Promille, 138 %; Wittenbach 123 %)."},
-{"start":78,"titel":"Steuerfüsse Gemeinden Au bis Walenstadt (Seite 2)","pfad":["Steuerfüsse 2025","Tabelle Gemeinden"],"stichworte":["Steuerfuss Altstätten","Buchs","Wartau","Mels","Rheintal","Sarganserland","Gesamtsteuerfuss"],"positionen":[],"zusammenfassung":"Tabelle der Steuerfüsse von Au, Berneck, Balgach, Altstätten, Buchs, Sargans, Mels, Flums, Walenstadt u.a. (z.B. Wartau 145 %, Balgach 61 %)."},
-{"start":129,"titel":"Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3)","pfad":["Steuerfüsse 2025","Tabelle Gemeinden"],"stichworte":["Steuerfuss Rapperswil-Jona","Uznach","Wattwil","Ebnat-Kappel","Toggenburg","Linthgebiet","Gesamtsteuerfuss"],"positionen":[],"zusammenfassung":"Tabelle der Steuerfüsse von Quarten, Amden, Rapperswil-Jona (74 %), Wattwil, Ebnat-Kappel, Neckertal, Mosnang u.a."},
-{"start":179,"titel":"Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4)","pfad":["Steuerfüsse 2025","Tabelle Gemeinden"],"stichworte":["Steuerfuss Wil","Gossau","Uzwil","Flawil","Degersheim","Gesamtsteuerfuss","Stand 15.1.2026"],"positionen":[],"zusammenfassung":"Tabelle der Steuerfüsse von Kirchberg, Uzwil, Flawil, Wil (115 %), Gossau (116 %), Gaiserwald u.a.; Stand Kantonales Steueramt 15.1.2026."}
-]}
+{
+ "id": "sg-steuerfuesse-2025",
+ "hinweise": [
+  "Tabellen-Layout (pdftotext): Fussnotenziffern 3/4 stehen als eigene Zeilen über den Gemeindezeilen (Seiten 1-4); Zuordnung zur Gemeinde ist die jeweils folgende Zeile."
+ ],
+ "chunks": [
+  {
+   "start": 1,
+   "titel": "Bemerkungen und Zeichenerklärung – Kantonssteuer 105 %, christkatholisch 24 %",
+   "pfad": [
+    "Steuerfüsse 2025",
+    "Bemerkungen"
+   ],
+   "stichworte": [
+    "Steuerfuss",
+    "Kantonssteuer 105 Prozent",
+    "einfache Steuer",
+    "christkatholisch",
+    "Zentralsteuer",
+    "Kirchensteuer"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Der Steuerfuss ist in Prozent der einfachen Steuer festgelegt; die Kantonssteuer beträgt 105 Prozent, der Steuerfuss der christkatholischen Kirchgemeinde im ganzen Kanton 24 Prozent."
+  },
+  {
+   "start": 30,
+   "titel": "Steuerfüsse Gemeinden St. Gallen bis St. Margrethen (Seite 1)",
+   "pfad": [
+    "Steuerfüsse 2025",
+    "Tabelle Gemeinden"
+   ],
+   "stichworte": [
+    "Steuerfuss St. Gallen 138",
+    "Gesamtsteuerfuss",
+    "Wittenbach",
+    "Goldach",
+    "Rorschach",
+    "Grundsteuersatz Promille",
+    "Kirchgemeinde"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Tabelle mit Grundsteuersatz, Gesamtsteuerfuss Politische Gemeinde und Kirchgemeinden (z.B. St. Gallen 0.8 Promille, 138 %; Wittenbach 123 %)."
+  },
+  {
+   "start": 63,
+   "titel": "Steuerfüsse Gemeinden Au bis Walenstadt (Seite 2)",
+   "pfad": [
+    "Steuerfüsse 2025",
+    "Tabelle Gemeinden"
+   ],
+   "stichworte": [
+    "Steuerfuss Altstätten",
+    "Buchs",
+    "Wartau",
+    "Mels",
+    "Rheintal",
+    "Sarganserland",
+    "Gesamtsteuerfuss"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Tabelle der Steuerfüsse von Au, Berneck, Balgach, Altstätten, Buchs, Sargans, Mels, Flums, Walenstadt u.a. (z.B. Wartau 145 %, Balgach 61 %)."
+  },
+  {
+   "start": 114,
+   "titel": "Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3)",
+   "pfad": [
+    "Steuerfüsse 2025",
+    "Tabelle Gemeinden"
+   ],
+   "stichworte": [
+    "Steuerfuss Rapperswil-Jona",
+    "Uznach",
+    "Wattwil",
+    "Ebnat-Kappel",
+    "Toggenburg",
+    "Linthgebiet",
+    "Gesamtsteuerfuss"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Tabelle der Steuerfüsse von Quarten, Amden, Rapperswil-Jona (74 %), Wattwil, Ebnat-Kappel, Neckertal, Mosnang u.a."
+  },
+  {
+   "start": 164,
+   "titel": "Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4)",
+   "pfad": [
+    "Steuerfüsse 2025",
+    "Tabelle Gemeinden"
+   ],
+   "stichworte": [
+    "Steuerfuss Wil",
+    "Gossau",
+    "Uzwil",
+    "Flawil",
+    "Degersheim",
+    "Gesamtsteuerfuss",
+    "Stand 15.1.2026"
+   ],
+   "positionen": [],
+   "zusammenfassung": "Tabelle der Steuerfüsse von Kirchberg, Uzwil, Flawil, Wil (115 %), Gossau (116 %), Gaiserwald u.a.; Stand Kantonales Steueramt 15.1.2026."
+  }
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
+}

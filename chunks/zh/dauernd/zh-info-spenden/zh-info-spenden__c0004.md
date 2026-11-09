@@ -7,7 +7,7 @@ typ: info
 titel: "Zuwendungen an Organisationen im Kanton Zürich"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Spenden · Spenden an gemeinnützige Organisationen › Abzug von Spenden an steuerbefreite Organisationen › Zuwendungen an Organisationen im Kanton Zürich
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Spenden · Spenden an gemeinnützige Organisationen › Abzug von Spenden an steuerbefreite Organisationen › Zuwendungen an Organisationen im Kanton Zürich
 
 ### Zuwendungen an Organisationen im Kanton Zürich
 

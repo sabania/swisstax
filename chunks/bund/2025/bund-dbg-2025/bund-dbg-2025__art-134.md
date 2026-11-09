@@ -8,7 +8,7 @@ titel: "Art. 134 DBG – Befugnisse der Steuerbehörden"
 artikel: "Art. 134"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 4. Kapitel: Einsprache › Art. 134 Befugnisse der Steuerbehörden
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 4. Kapitel: Einsprache › Art. 134 Befugnisse der Steuerbehörden
 
 ### Art. 134 DBG – Befugnisse der Steuerbehörden
 

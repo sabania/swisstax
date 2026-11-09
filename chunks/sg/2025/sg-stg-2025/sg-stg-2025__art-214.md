@@ -8,7 +8,7 @@ titel: "Art. 214 StG SG – Zahlungsfrist und Verzugszins"
 artikel: "Art. 214"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 214 Zahlungsfrist und Verzugszins
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 214 Zahlungsfrist und Verzugszins
 
 ### Art. 214 StG SG – Zahlungsfrist und Verzugszins
 

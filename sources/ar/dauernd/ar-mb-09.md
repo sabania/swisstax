@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/09_Teilpensionierung_mit_Kapitalbezug_.pdf
 raw: raw/ar/dauernd/ar-mb-09.pdf
@@ -13,6 +14,8 @@ sha256: 7d8b2fa7593c97fdb289fd28130a3bac4f25496e073bc0319fc52d8930d8ad46
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2024-10-22'
 ---
 # Merkblatt 09: Teilpensionierung mit Kapitalbezug
 

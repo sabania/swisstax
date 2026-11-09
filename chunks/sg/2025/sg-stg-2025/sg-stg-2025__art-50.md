@@ -8,7 +8,7 @@ titel: "Art. 50 StG SG – h) Steuerberechnung 1. Steuersatz"
 artikel: "Art. 50"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 50 h) Steuerberechnung 1. Steuersatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 50 h) Steuerberechnung 1. Steuersatz
 
 ### Art. 50 StG SG – h) Steuerberechnung 1. Steuersatz
 

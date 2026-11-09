@@ -8,7 +8,7 @@ titel: "§ 39d StV TG – Meldepflicht bei Mitarbeiterbeteiligungen"
 artikel: "§ 39d"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 39d Meldepflicht bei Mitarbeiterbeteiligungen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 39d Meldepflicht bei Mitarbeiterbeteiligungen
 
 ### § 39d StV TG – Meldepflicht bei Mitarbeiterbeteiligungen
 

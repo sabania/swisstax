@@ -8,7 +8,7 @@ titel: "Art. 140 StG SG – Steuerberechnung a) Steuersatz"
 artikel: "Art. 140"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 140 Steuerberechnung a) Steuersatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer › Art. 140 Steuerberechnung a) Steuersatz
 
 ### Art. 140 StG SG – Steuerberechnung a) Steuersatz
 

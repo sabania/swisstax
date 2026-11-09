@@ -8,7 +8,7 @@ titel: "Art. 181 StG SG – b) Verfahren"
 artikel: "Art. 181"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 181 b) Verfahren
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 181 b) Verfahren
 
 ### Art. 181 StG SG – b) Verfahren
 

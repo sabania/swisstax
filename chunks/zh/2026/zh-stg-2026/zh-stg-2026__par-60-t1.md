@@ -9,7 +9,7 @@ artikel: "§ 60"
 seiten: "29"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 60 StG ZH – IV. Mithaftung · S. 29
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 60 StG ZH – IV. Mithaftung · S. 29
 
 ### § 60 StG ZH – IV. Mithaftung
 

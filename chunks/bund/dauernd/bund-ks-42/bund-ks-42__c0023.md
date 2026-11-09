@@ -2,14 +2,14 @@
 id: bund-ks-42__c0023
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.6 Abzugsmöglichkeiten für Arbeitgeber und Selbständigerwerbende (Teil 2/2)"
 ziffer: "4.6"
 seiten: "8-9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.6 Arbeitgeber und Selbständige · S. 8–9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 4 Steuerliche Behandlung › 4.6 Arbeitgeber und Selbständige · S. 8–9
 
 tierten Aus- und Weiterbildung, können sie beim Arbeitgeber dennoch geschäftsmässig begrün-
 deten Aufwand darstellen. Die Qualifikation als geldwerte Leistung an Nahestehende bleibt vor-

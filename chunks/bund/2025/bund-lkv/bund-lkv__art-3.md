@@ -2,13 +2,13 @@
 id: bund-lkv__art-3
 quelle: bund-lkv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 3 LKV – Ersatzneubau"
 artikel: "Art. 3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · LKV · Art. 3 Ersatzneubau
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · LKV · Art. 3 Ersatzneubau
 
 ### Art. 3 LKV – Ersatzneubau
 

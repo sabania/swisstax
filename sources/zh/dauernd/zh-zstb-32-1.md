@@ -12,6 +12,10 @@ raw: raw/zh/dauernd/zh-zstb-32-1.html
 sha256: 4c96fa9cfd2265f595e5380f3895c067876eb56131930b429e4d009aa089d9a8
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2013-01-01'
+gilt_bis: '2026-12-31'
+ersetzt_durch: bund-ks-11a
 ---
 # ZStB 32.1: Krankheits-, Unfall- und Behinderungskosten
 

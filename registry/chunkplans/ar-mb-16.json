@@ -5,12 +5,12 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "skip": true,
    "titel": "Titel und Adressblock Steuerverwaltung AR"
   },
   {
-   "start": 32,
+   "start": 16,
    "titel": "Rechtliche Grundlagen Mietwert landwirtschaftliche Liegenschaften",
    "pfad": [
     "Rechtliche Grundlagen"
@@ -28,7 +28,7 @@
    "ziffer": "1"
   },
   {
-   "start": 46,
+   "start": 30,
    "titel": "Ziff. 2a Berechnung bei Neuschätzungen nach 1. April 2018",
    "pfad": [
     "Berechnung",
@@ -47,7 +47,7 @@
    "ziffer": "2a"
   },
   {
-   "start": 83,
+   "start": 67,
    "titel": "Ziff. 2b Neuschätzungen nach 1. Februar 2004 (3,5% / 85%)",
    "pfad": [
     "Berechnung",
@@ -65,7 +65,7 @@
    "ziffer": "2b"
   },
   {
-   "start": 100,
+   "start": 84,
    "titel": "Ziff. 2c Neuschätzungen nach 1. Februar 1996 (4% / 68%)",
    "pfad": [
     "Berechnung",
@@ -83,7 +83,7 @@
    "ziffer": "2c"
   },
   {
-   "start": 125,
+   "start": 109,
    "titel": "Zweitwohnungen, Verdoppelung des Mietwerts, Betriebsaufgabe",
    "pfad": [
     "Berechnung",
@@ -100,5 +100,7 @@
    ],
    "zusammenfassung": "Ab 1. April 2018 nur Betriebsleiterwohnungen nach landwirtschaftlichen Ansätzen; Verdoppelung des Mietwerts bei geänderter Nutzung oder Betriebsaufgabe ohne neue Schätzung."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

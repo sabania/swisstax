@@ -8,7 +8,7 @@ titel: "Art. 28 StV SG – Abzüge bei Nutzung von Liegenschaften des Privatverm
 artikel: "Art. 28"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 28 Abzüge bei Nutzung von Liegenschaften des Privatvermögens a) tatsächliche Kosten (Art. 44 Abs. 2 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 28 Abzüge bei Nutzung von Liegenschaften des Privatvermögens a) tatsächliche Kosten (Art. 44 Abs. 2 StG)
 
 ### Art. 28 StV SG – Abzüge bei Nutzung von Liegenschaften des Privatvermögens a) tatsächliche Kosten (Art. 44 Abs. 2 StG)
 

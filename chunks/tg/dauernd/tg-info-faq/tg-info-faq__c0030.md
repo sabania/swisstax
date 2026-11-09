@@ -7,7 +7,7 @@ typ: info
 titel: "Vorsorge 2. und 3. Säule"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
 
     Einlagen, Prämien und Beiträge zum Erwerb von vertraglichen Ansprüchen aus anerkannten Formen der gebundenen Selbstvorsorge (Säule 3a) können bis zum bundesrechtlich festgelegten Betrag von den Einkünften abgezogen werden.
 

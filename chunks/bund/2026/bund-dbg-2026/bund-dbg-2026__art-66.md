@@ -8,7 +8,7 @@ titel: "Art. 66 DBG – Gewinne von Vereinen, Stiftungen und kollektiven Kapital
 artikel: "Art. 66"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 66 Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerobjekt › 2. Abschnitt: Berechnung des Reingewinns › Art. 66 Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen
 
 ### Art. 66 DBG – Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen
 

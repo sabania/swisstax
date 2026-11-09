@@ -8,7 +8,7 @@ titel: "Art. 85 StG SG – 4. Abschreibungen, Wertberichtigungen und Rückstellu
 artikel: "Art. 85"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 85 4. Abschreibungen, Wertberichtigungen und Rückstellungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 85 4. Abschreibungen, Wertberichtigungen und Rückstellungen
 
 ### Art. 85 StG SG – 4. Abschreibungen, Wertberichtigungen und Rückstellungen
 

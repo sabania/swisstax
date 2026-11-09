@@ -7,7 +7,7 @@ typ: info
 titel: "Kapitalleistungen aus Vorsorge"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Kapitalleistungen aus Vorsorge
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Kapitalleistungen aus Vorsorge
 
     Auch bei der Bundessteuer werden Kapitalleistungen gesondert besteuert. Die direkte Bundessteuer beträgt jeweils ein Fünftel der ordentlichen Tarife gemäss Artikel 36 DBG.
 

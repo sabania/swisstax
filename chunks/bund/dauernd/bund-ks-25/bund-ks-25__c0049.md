@@ -2,14 +2,14 @@
 id: bund-ks-25__c0049
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang IV Erläuterungen zu den Gleichstellungsregeln (Teil 2/3)"
 ziffer: "Anhang IV"
 seiten: "16-17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang IV Gleichstellung · S. 16–17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 7 Anhänge › Anhang IV Gleichstellung · S. 16–17
 
 Zu Ziffer 3: Handelt es sich bei dieser Anlageform um eine juristische Person mit Rückgabe-
 recht der Anteile (vgl. Art. 119 Abs. 1 Bst. b KAG), ist diese aufgrund von Artikel 49 Absatz 3

@@ -8,7 +8,7 @@ titel: "Art. 85 StG AR – IV. Verteilung"
 artikel: "Art. 85"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 85 IV. Verteilung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 85 IV. Verteilung
 
 ### Art. 85 StG AR – IV. Verteilung
 

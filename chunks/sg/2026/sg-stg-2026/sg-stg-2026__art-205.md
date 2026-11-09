@@ -8,7 +8,7 @@ titel: "Art. 205 StG SG – Gegenstand"
 artikel: "Art. 205"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 205 Gegenstand
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 205 Gegenstand
 
 ### Art. 205 StG SG – Gegenstand
 

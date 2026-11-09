@@ -8,7 +8,7 @@ titel: "§ 5 BKV TG – Dauer"
 artikel: "§ 5"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · BKV TG · 2. Allgemeine Bestimmungen › § 5 Dauer
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · BKV TG · 2. Allgemeine Bestimmungen › § 5 Dauer
 
 ### § 5 BKV TG – Dauer
 

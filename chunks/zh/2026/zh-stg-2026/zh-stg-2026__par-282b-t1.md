@@ -9,7 +9,7 @@ artikel: "§ 282b"
 seiten: "93-94"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 282b StG ZH – 13. Ausdehnung des Beteiligungsabzugs auf Kapital- und Aufwertungsgewinne · S. 93–94
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 282b StG ZH – 13. Ausdehnung des Beteiligungsabzugs auf Kapital- und Aufwertungsgewinne · S. 93–94
 
 ### § 282b StG ZH – 13. Ausdehnung des Beteiligungsabzugs auf Kapital- und Aufwertungsgewinne
 

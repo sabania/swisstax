@@ -2,14 +2,14 @@
 id: bund-ks-45__c0217
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 11.6 Neuberechnung der Quellensteuer (Teil 1/2)"
 ziffer: "11.6"
 seiten: "67"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.6 Neuberechnung der Quellensteuer · S. 67
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 11 Nachträgliche ordentliche Veranlagung und Neuberechnung › 11.6 Neuberechnung der Quellensteuer · S. 67
 
 11.6 Neuberechnung der Quellensteuer
 Jede quellensteuerpflichtige Person kann in den nachfolgend abschliessend beschriebenen

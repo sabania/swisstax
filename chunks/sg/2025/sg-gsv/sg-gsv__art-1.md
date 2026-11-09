@@ -8,7 +8,7 @@ titel: "Art. 1 VGS SG – Schätzungsobjekt"
 artikel: "Art. 1"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · I. Allgemeine Bestimmungen › Art. 1 Schätzungsobjekt
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · I. Allgemeine Bestimmungen › Art. 1 Schätzungsobjekt
 
 ### Art. 1 VGS SG – Schätzungsobjekt
 

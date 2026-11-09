@@ -14,6 +14,8 @@ sha256: 7deb3079633dec4bd60f766cea75b3c6676aa26c74333a4be0080af1985b6843
 abgerufen: '2026-11-09'
 einheiten: 17
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: verfahren
+gilt_ab: '2016-01-01'
 ---
 # Verordnung zum DBG SG (sGS 815.1) – Version gültig ab 01.01.2016
 

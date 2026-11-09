@@ -12,6 +12,9 @@ sha256: 521411f6f8cb33f0bc0187368d3649177eefc752f0bc169d0b108941172bc890
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Formular 2: Wertschriften- und Guthabenverzeichnis 2025
 

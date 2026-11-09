@@ -9,7 +9,7 @@ ziffer: "2"
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: tarif}}
 ---
-> AR · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · 2. Vermögenssteuer · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Tarif · Steuerjahr 2025/2026 · Tarif NP AR ab 2024 · 2. Vermögenssteuer · S. 1
 
 2. Vermögenssteuer Art. 52 Steuergesetz (bGS 621.11)
 

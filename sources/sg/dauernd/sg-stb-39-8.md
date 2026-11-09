@@ -13,6 +13,8 @@ sha256: e38545b3e4df8a66f3b7aaf24ec43f31567758c4b11005682b090c6982afde23
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2021-07-01'
 ---
 # StB 39 Nr. 8 Auswärtige Verpflegung
 

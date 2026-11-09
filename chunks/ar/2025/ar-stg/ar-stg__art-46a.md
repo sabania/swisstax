@@ -8,7 +8,7 @@ titel: "Art. 46a StG AR – Bewertung von Mitarbeiterbeteiligungen"
 artikel: "Art. 46a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 46a Bewertung von Mitarbeiterbeteiligungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › C. Vermögenssteuer › Art. 46a Bewertung von Mitarbeiterbeteiligungen
 
 ### Art. 46a StG AR – Bewertung von Mitarbeiterbeteiligungen
 

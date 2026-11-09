@@ -8,7 +8,7 @@ titel: "Art. 132 DBG – Voraussetzungen"
 artikel: "Art. 132"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 4. Kapitel: Einsprache › Art. 132 Voraussetzungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Dritter Titel: Veranlagung im ordentlichen Verfahren › 4. Kapitel: Einsprache › Art. 132 Voraussetzungen
 
 ### Art. 132 DBG – Voraussetzungen
 

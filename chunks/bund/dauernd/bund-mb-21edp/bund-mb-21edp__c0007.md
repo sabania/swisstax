@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0007
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 1 Rz 13–15 Lohnausweis-Leistungen und WEF-Rückzahlung (Teil 1/2)"
 ziffer: "13–15"
 seiten: "3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Erläuterungen › Ziffer 1: 2. Säule · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Erläuterungen › Ziffer 1: 2. Säule · S. 3
 
 13   Der Arbeitgeber hat dem Arbeitnehmer gemäss Wegleitung zum Ausfüllen des Lohnaus
     weises der Schweizerischen Steuerkonferenz namentlich folgende Leistungen auf dem

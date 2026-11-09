@@ -8,7 +8,7 @@ titel: "Art. 154 StG SG – b) Steuersätze"
 artikel: "Art. 154"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 154 b) Steuersätze
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 154 b) Steuersätze
 
 ### Art. 154 StG SG – b) Steuersätze
 

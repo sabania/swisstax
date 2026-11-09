@@ -12,6 +12,9 @@ sha256: 33642e71e105c0dc10fec2ad74ef1730c2c44c6774e7df3d6d4bb8d77e6a24b0
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Formular 4: Berufskosten 2025
 

@@ -8,7 +8,7 @@ titel: "Art. 179 StG AR – 5. Nachforderung und Rückerstattung"
 artikel: "Art. 179"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 179 5. Nachforderung und Rückerstattung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › D. Besondere Verfahrens- und Organisationsbestimmungen › Art. 179 5. Nachforderung und Rückerstattung
 
 ### Art. 179 StG AR – 5. Nachforderung und Rückerstattung
 

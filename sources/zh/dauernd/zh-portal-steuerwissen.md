@@ -12,6 +12,7 @@ raw: raw/zh/dauernd/zh-portal-steuerwissen.html
 sha256: bb8d5de69512e5079b22ed04eeafd21de6bec2df83e81ddb11a518da13985f44
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Steuerwissen natürliche Personen
 

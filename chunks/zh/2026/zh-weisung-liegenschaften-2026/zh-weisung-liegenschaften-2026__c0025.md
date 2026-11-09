@@ -9,7 +9,7 @@ ziffer: "60–60a"
 seiten: "12"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › I. Einfamilienhäuser und Stockwerkeigentum · S. 12
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › I. Einfamilienhäuser und Stockwerkeigentum · S. 12
 
 60   Übersteigt der Basiswert bzw. Basiswertanteil
     – bei Einfamilienhäusern Fr. 120 000,

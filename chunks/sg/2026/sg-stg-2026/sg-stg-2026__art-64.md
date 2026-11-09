@@ -8,7 +8,7 @@ titel: "Art. 64 StG SG – Steuerberechnung a) Sozialabzüge"
 artikel: "Art. 64"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 64 Steuerberechnung a) Sozialabzüge
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 64 Steuerberechnung a) Sozialabzüge
 
 ### Art. 64 StG SG – Steuerberechnung a) Sozialabzüge
 

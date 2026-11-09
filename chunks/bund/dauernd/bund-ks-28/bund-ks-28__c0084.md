@@ -2,14 +2,14 @@
 id: bund-ks-28__c0084
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Art. 12–13 Fortführung durch Erben; Inkrafttreten (Teil 1/2)"
 ziffer: "Art. 12–13"
 seiten: "29-31"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 29–31
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 29–31
 
 Artikel 12   Fortführung der selbständigen Erwerbstätigkeit durch die Erben oder die
     Vermächtnisnehmer

@@ -8,7 +8,7 @@ titel: "Art. 174 StG AR – V. Veranlagungsverjährung"
 artikel: "Art. 174"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 174 V. Veranlagungsverjährung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 174 V. Veranlagungsverjährung
 
 ### Art. 174 StG AR – V. Veranlagungsverjährung
 

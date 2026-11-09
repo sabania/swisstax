@@ -8,7 +8,7 @@ titel: "Art. 41 bis StG SG – 2bis. Abzug von Forschungs- und Entwicklungsaufwa
 artikel: "Art. 41 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 41 bis 2bis. Abzug von Forschungs- und Entwicklungsaufwand bei selbständiger Erwerbstätigkeit
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 41 bis 2bis. Abzug von Forschungs- und Entwicklungsaufwand bei selbständiger Erwerbstätigkeit
 
 ### Art. 41 bis StG SG – 2bis. Abzug von Forschungs- und Entwicklungsaufwand bei selbständiger Erwerbstätigkeit
 

@@ -2,13 +2,13 @@
 id: tg-stg__par-231
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 231 StG TG – Kapitalversicherungen mit Einmalprämie"
 artikel: "§ 231"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 3. Übergangs- und Schlussbestimmungen › § 231 Kapitalversicherungen mit Einmalprämie
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 3. Übergangs- und Schlussbestimmungen › § 231 Kapitalversicherungen mit Einmalprämie
 
 ### § 231 StG TG – Kapitalversicherungen mit Einmalprämie
 

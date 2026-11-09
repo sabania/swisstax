@@ -9,7 +9,7 @@ artikel: "§ 13"
 seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › D. Schlussbestimmungen › § 13 V elektr. Einreichung ZH – Ausführungsbestimmungen und Verweisungen · S. 4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › D. Schlussbestimmungen › § 13 V elektr. Einreichung ZH – Ausführungsbestimmungen und Verweisungen · S. 4
 
 ### § 13 V elektr. Einreichung ZH – Ausführungsbestimmungen und Verweisungen
 

@@ -9,7 +9,7 @@ ziffer: "1"
 seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 1 Einleitung · S. 3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 1 Einleitung · S. 3
 
 1   Einleitung
 

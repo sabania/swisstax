@@ -9,7 +9,7 @@ ziffer: "4.3.5"
 seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9
 
 4.3.5   Kosten für heilpädagogische Therapien und Sozialrehabilitationsmassnahmen
 Die Kosten anerkannter heilpädagogischer Therapien (z.B. heilpädagogisches Reiten, Musik

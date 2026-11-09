@@ -9,7 +9,7 @@ artikel: "§ 7"
 seiten: "3-4"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 7 StG ZH – V. Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter eSlotregrlei[^4]c[^4]her · S. 3–4
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 7 StG ZH – V. Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter eSlotregrlei[^4]c[^4]her · S. 3–4
 
 ### § 7 StG ZH – V. Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter eSlotregrlei[^4]c[^4]her
 

@@ -7,13 +7,15 @@ jahre:
 - 2025
 - 2026
 typ: verordnung
-stand: 1.7.25 - 129
+stand: '2025-07-01'
 quelle_url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_121-2011_10_18-2013_01_01-129.html
 raw: raw/zh/2025/zh-v-einreichung.pdf
 sha256: 329de1102a713269a246b375d113af13f4356383acee1aa177611d7b909ea0f9
 abgerufen: '2026-11-09'
 einheiten: 14
 konvertierung: ZH-Lex-PDF -> Markdown je § (tools/zhlex.py, pdfplumber, Randtitel/Endnoten heuristisch)
+zeitbezug: verfahren
+gilt_ab: '2025-07-01'
 ---
 # Verordnung über die elektronische Einreichung (LS 631.121) – Nachtrag 129
 

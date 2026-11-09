@@ -2,14 +2,14 @@
 id: bund-ks-42__c0001
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Gesetzliche Grundlage und Gegenstand – Abzug bis 12 000 Franken"
 ziffer: "1"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 1 Gesetzliche Grundlage · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 1 Gesetzliche Grundlage · S. 2
 
 1   Gesetzliche Grundlage sowie Gegenstand des Kreisschreibens
 

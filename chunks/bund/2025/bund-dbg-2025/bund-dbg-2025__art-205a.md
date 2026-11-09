@@ -8,7 +8,7 @@ titel: "Art. 205a DBG – Altrechtliche Kapitalversicherungen mit Einmalprämien
 artikel: "Art. 205a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205a Altrechtliche Kapitalversicherungen mit Einmalprämien
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205a Altrechtliche Kapitalversicherungen mit Einmalprämien
 
 ### Art. 205a DBG – Altrechtliche Kapitalversicherungen mit Einmalprämien
 

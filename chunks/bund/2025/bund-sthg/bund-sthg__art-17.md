@@ -2,13 +2,13 @@
 id: bund-sthg__art-17
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 17 StHG – Bemessung des Vermögens"
 artikel: "Art. 17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Zweiter Titel: Steuern der natürlichen Personen › 5. Kapitel: Zeitliche Bemessung › Art. 17 Bemessung des Vermögens
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Zweiter Titel: Steuern der natürlichen Personen › 5. Kapitel: Zeitliche Bemessung › Art. 17 Bemessung des Vermögens
 
 ### Art. 17 StHG – Bemessung des Vermögens
 

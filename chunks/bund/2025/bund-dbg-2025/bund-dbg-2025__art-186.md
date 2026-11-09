@@ -8,7 +8,7 @@ titel: "Art. 186 DBG – Steuerbetrug"
 artikel: "Art. 186"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Zweiter Titel: Steuervergehen › Art. 186 Steuerbetrug
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Zweiter Titel: Steuervergehen › Art. 186 Steuerbetrug
 
 ### Art. 186 DBG – Steuerbetrug
 

@@ -9,7 +9,7 @@ artikel: "§ 42"
 seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 42 StV ZH – 7. Weiterleitung an das kantonale Steueramt · S. 8
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › B. Das Steuererklärungsverfahren › § 42 StV ZH – 7. Weiterleitung an das kantonale Steueramt · S. 8
 
 ### § 42 StV ZH – 7. Weiterleitung an das kantonale Steueramt
 

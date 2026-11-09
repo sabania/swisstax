@@ -7,7 +7,7 @@ typ: info
 titel: "Für Zahlungen aus dem Ausland:"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: info}}
 ---
-> AR · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug › Für Zahlungen aus dem Ausland:
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · AR Steuerbezug · Steuerbezug › Für Zahlungen aus dem Ausland:
 
 Die Ausgleichszinsen haben zum Ziel, einen gerechten Ausgleich zwischen den Steuerpflichtigen zu schaffen. Mit einem angemessenen Zinssatz wird sichergestellt, dass alle Steuerzahlerinnen und Steuerzahler bezogen auf die definitive Steuerschuld finanziell gleich behandelt werden. Dies unabhängig davon, ob sie nun eine zu hohe, zu tiefe oder exakt zutreffende vorläufige Rechnung erhalten und bezahlen.
 

@@ -70,15 +70,15 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 
 | Eckwert | Wert | Hinweis | Quelle | St. |
 |---|---|---|---|---|
-| Liegenschaftsunterhalt Pauschale – Gebäude bis 10 Jahre (%) <small>`liegenschaft.pauschale_neu`</small> | **10 %** |  [↗](../wiki/bund/werte-bund-2026-detail.md#liegenschaft-pauschale-neu) | [LKV Art. 5](../chunks/bund/2025/bund-lkv/bund-lkv__art-5.md) | ☑️ |
-| Liegenschaftsunterhalt Pauschale – Gebäude über 10 Jahre (%) <small>`liegenschaft.pauschale_alt`</small> | **20 %** | Eigenmietwert bleibt für 2026 steuerbar (Abschaffung erst per 01.01.2029 geplant, siehe bund-mm-eigenmietwert-abschaffung). [↗](../wiki/bund/werte-bund-2026-detail.md#liegenschaft-pauschale-alt) | [LKV Art. 5](../chunks/bund/2025/bund-lkv/bund-lkv__art-5.md) | ☑️ |
+| Liegenschaftsunterhalt Pauschale – Gebäude bis 10 Jahre (%) <small>`liegenschaft.pauschale_neu`</small> | **10 %** | Massgebend ist das Gebäudealter zu Beginn der Steuerperiode (1.1.2026): bis zehn Jahre alt → 10 %, mehr als zehn Jahre → 20 % (Baujahr/Bezug im Grenzfall genau prüfen). [↗](../wiki/bund/werte-bund-2026-detail.md#liegenschaft-pauschale-neu) | [LKV Art. 5](../chunks/bund/2025/bund-lkv/bund-lkv__art-5.md) | ☑️ |
+| Liegenschaftsunterhalt Pauschale – Gebäude über 10 Jahre (%) <small>`liegenschaft.pauschale_alt`</small> | **20 %** | Eigenmietwert bleibt für 2026 steuerbar (Abschaffung erst per 01.01.2029 geplant, siehe bund-mm-eigenmietwert-abschaffung). Massgebend ist das Gebäudealter zu Beginn der Steuerperiode (1.1.2026): bis … [↗](../wiki/bund/werte-bund-2026-detail.md#liegenschaft-pauschale-alt) | [LKV Art. 5](../chunks/bund/2025/bund-lkv/bund-lkv__art-5.md) | ☑️ |
 | Eigenmietwert – Einschlag/Abzug für selbstbewohnte Liegenschaft (%) <small>`liegenschaft.eigenmietwert_abzug`</small> | **n/a** | Bund: kein prozentualer Einschlag/Abzug auf dem Eigenmietwert; Festsetzung nach ortsüblichen Verhältnissen (Art. 21 Abs. 2 DBG), kantonale Eigenmietwert-Bewertung. [↗](../wiki/bund/werte-bund-2026-detail.md#liegenschaft-eigenmietwert-abzug) | – | – |
 
 ## Sozialabzüge
 
 | Eckwert | Wert | Hinweis | Quelle | St. |
 |---|---|---|---|---|
-| Kinderabzug Grundbetrag (CHF) <small>`sozialabzug.kind`</small> | **CHF 6'800** |  [↗](../wiki/bund/werte-bund-2026-detail.md#sozialabzug-kind) | [DBG Art. 35](../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-35.md) | ☑️ |
+| Kinderabzug Grundbetrag (CHF) <small>`sozialabzug.kind`</small> | **CHF 6'800** | Zusätzlich zum Kinderabzug vom Einkommen: Abzug vom Steuerbetrag je Kind (Eckwert steuerbetrag.abzug_kind, Art. 36 Abs. 2bis DBG) – beide Abzüge gelten, nicht verwechseln. [↗](../wiki/bund/werte-bund-2026-detail.md#sozialabzug-kind) | [DBG Art. 35](../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-35.md) | ☑️ |
 | Kinderabzug Vorschulalter (CHF) <small>`sozialabzug.kind_vorschule`</small> | **n/a** | Bund: einheitlicher Kinderabzug CHF 6'800 (Art. 35 Abs. 1 lit. a DBG), keine Staffelung nach Alter; siehe sozialabzug.kind. [↗](../wiki/bund/werte-bund-2026-detail.md#sozialabzug-kind-vorschule) | – | – |
 | Kinderabzug Schulalter (CHF) <small>`sozialabzug.kind_schule`</small> | **n/a** | Bund: einheitlicher Kinderabzug CHF 6'800, keine Staffelung nach Alter; siehe sozialabzug.kind. [↗](../wiki/bund/werte-bund-2026-detail.md#sozialabzug-kind-schule) | – | – |
 | Kinderabzug/Ausbildungsabzug in Ausbildung (CHF) <small>`sozialabzug.kind_ausbildung`</small> | **CHF 6'800** | Identisch mit sozialabzug.kind. [↗](../wiki/bund/werte-bund-2026-detail.md#sozialabzug-kind-ausbildung) | [DBG Art. 35](../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-35.md) | ☑️ |

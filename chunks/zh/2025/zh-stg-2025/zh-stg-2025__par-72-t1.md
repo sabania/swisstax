@@ -9,7 +9,7 @@ artikel: "§ 72"
 seiten: "39-40"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 72 StG ZH – 2. Beteiligungsabzug a. Grundsatz · S. 39–40
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 72 StG ZH – 2. Beteiligungsabzug a. Grundsatz · S. 39–40
 
 ### § 72 StG ZH – 2. Beteiligungsabzug a. Grundsatz
 

@@ -9,7 +9,7 @@ artikel: "§ 190"
 seiten: "73"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 190 StG ZH – b. Bei Verlegung des Wohnsitzes oder Sitzes · S. 73
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 190 StG ZH – b. Bei Verlegung des Wohnsitzes oder Sitzes · S. 73
 
 ### § 190 StG ZH – b. Bei Verlegung des Wohnsitzes oder Sitzes
 

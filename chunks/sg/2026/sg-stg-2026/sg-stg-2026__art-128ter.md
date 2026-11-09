@@ -8,7 +8,7 @@ titel: "Art. 128 ter StG SG – Interkommunale Verhältnisse"
 artikel: "Art. 128 ter"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 128 ter Interkommunale Verhältnisse
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 128 ter Interkommunale Verhältnisse
 
 ### Art. 128 ter StG SG – Interkommunale Verhältnisse
 

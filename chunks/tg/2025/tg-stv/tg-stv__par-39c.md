@@ -8,7 +8,7 @@ titel: "§ 39c StV TG – Gebühren für schriftliche Auskünfte und Vorbescheid
 artikel: "§ 39c"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 39c Gebühren für schriftliche Auskünfte und Vorbescheide
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 7. Veranlagungsverfahren › § 39c Gebühren für schriftliche Auskünfte und Vorbescheide
 
 ### § 39c StV TG – Gebühren für schriftliche Auskünfte und Vorbescheide
 

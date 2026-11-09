@@ -7,7 +7,7 @@ typ: mitteilung
 titel: "EFD passt Steuertarife und -abzüge an Teuerung an"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: mitteilung}}
 ---
-> Bund · Steuerjahr 2027 · ESTV-MM 2027 · EFD passt Steuertarife und -abzüge an Teuerung an
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Mitteilung · Steuerjahr 2027 · ESTV-MM 2027 · EFD passt Steuertarife und -abzüge an Teuerung an
 
 Ab dem Steuerjahr 2027 steigt unter anderem der Drittbetreuungsabzug auf 25 900 Franken pro Kind (bisher 25 800 Franken). Für berufsorientierte Aus- und Weiterbildungskosten können neu bis zu 13 100 Franken von den Steuern abgezogen werden. Das sind 100 Franken mehr als bisher.
 

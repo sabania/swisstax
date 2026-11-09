@@ -12,6 +12,7 @@ raw: raw/ar/dauernd/ar-portal-formulare.html
 sha256: 155ab2c33af7c543cd94f1c740f6e62d29a19a2f8ca0c61a5335e90fc8669f2f
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Formulare und Wegleitungen
 

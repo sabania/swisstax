@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0017
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.2.1–4.2.2 Gratisaktien, Gratisnennwerterhöhungen und direkte Teilliquidation"
 ziffer: "4.2.1–4.2.2"
 seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 4 Ausschüttungen › 4.2 Spezialfälle · S. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 4 Ausschüttungen › 4.2 Spezialfälle · S. 11
 
 4.2.   Spezialfälle
 

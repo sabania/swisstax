@@ -2,15 +2,30 @@
 typ: quelle
 id: tg-stp-29-2
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "StP 29 Nr. 2: Fahrkosten zwischen Wohn- und Arbeitsstätte"
 generiert: tools/build_index.py
 ---
 # StP 29 Nr. 2: StP 29 Nr. 2: Fahrkosten zwischen Wohn- und Arbeitsstätte
 
-- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-29-nr-2-fahrkosten-zwischen-wohn-und-arbeitsstatte> · lokal: [tg-stp-29-2.html](../../../raw/tg/dauernd/tg-stp-29-2.html) · Volltext: [tg-stp-29-2.md](../../../sources/tg/dauernd/tg-stp-29-2.md)
 - **Abgerufen:** 2026-11-09 · sha256 `0fba2e319f970d7c…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 8 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-29-2`).
+
+- `data/belege-teil2.yaml#12:oev-abo` (agent-geprueft)
+- `data/werte/tg/2025.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/werte/tg/2025.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/tg/2025.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/tg/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#82:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#83:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 2.3` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#85:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 2.5` (agent-geprueft)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 
 ## Inhalt (12 Chunks)
 

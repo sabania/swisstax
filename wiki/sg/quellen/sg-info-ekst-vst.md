@@ -2,15 +2,16 @@
 typ: quelle
 id: sg-info-ekst-vst
 jur: sg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)"
 generiert: tools/build_index.py
 ---
 # SG EK/VM-Steuer: Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 
-- **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html> · lokal: [sg-info-ekst-vst.html](../../../raw/sg/dauernd/sg-info-ekst-vst.html) · Volltext: [sg-info-ekst-vst.md](../../../sources/sg/dauernd/sg-info-ekst-vst.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c081baf763cca831…`
+- **Gültigkeit:** Zeitbezug info (Information) · gilt ab ? bis offen
 
 ## Inhalt (64 Chunks)
 

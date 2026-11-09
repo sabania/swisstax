@@ -11,6 +11,29 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Informationsseite · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.bsv.admin.ch/dam/de/sd-web/GZplHByBJoFc/Internet_Masszahlenarticles_25_26_d.pdf> · lokal: [bund-bsv-masszahlen-2025-2026.pdf](../../../raw/bund/2025/bund-bsv-masszahlen-2025-2026.pdf) · Volltext: [bund-bsv-masszahlen-2025-2026.md](../../../sources/bund/2025/bund-bsv-masszahlen-2025-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `adfc86c6c36f7046…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2026-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 16 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-bsv-masszahlen-2025-2026`).
+
+- `data/werte/ar/2025.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/ar/2025.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/ar/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/ar/2026.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/bund/2025.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/bund/2025.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/bund/2025.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/werte/bund/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/bund/2026.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/sg/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/sg/2026.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/tg/2025.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
+- `data/werte/tg/2025.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/werte/zh/2025.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#29:abzug.vorsorge.saeule3a@13.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#29:abzug.vorsorge.saeule3a@13.1` (agent-geprueft)
+- [wiki/themen/saeule-3a.md](../../themen/saeule-3a.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

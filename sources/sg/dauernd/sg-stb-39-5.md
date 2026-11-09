@@ -13,6 +13,8 @@ sha256: 95b29b88c383821a3817d3e530498b0245e3e82bf3b48fc6229b75a078a7bb77
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2021-07-01'
 ---
 # StB 39 Nr. 5 Wochenaufenthalt
 

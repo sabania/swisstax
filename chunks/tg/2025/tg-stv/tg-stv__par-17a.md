@@ -8,7 +8,7 @@ titel: "§ 17a StV TG – Hinzurechnungsbesteuerung"
 artikel: "§ 17a"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 3. Steuern der juristischen Personen › § 17a Hinzurechnungsbesteuerung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 3. Steuern der juristischen Personen › § 17a Hinzurechnungsbesteuerung
 
 ### § 17a StV TG – Hinzurechnungsbesteuerung
 

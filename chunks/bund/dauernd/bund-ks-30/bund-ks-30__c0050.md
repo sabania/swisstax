@@ -2,14 +2,14 @@
 id: bund-ks-30__c0050
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 9.1 Zweiverdienerabzug bei Mitarbeit im Betrieb des Ehegatten"
 ziffer: "9.1"
 seiten: "17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.1 Voraussetzungen · S. 17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 9 Zweiverdienerabzug › 9.1 Voraussetzungen · S. 17
 
 Der Zweiverdienerabzug wird nicht nur bei unselbständiger Tätigkeit der Ehegatten, sondern
 auch bei erheblicher Mitarbeit eines Ehegatten im Beruf, Geschäft oder Gewerbe des ande-

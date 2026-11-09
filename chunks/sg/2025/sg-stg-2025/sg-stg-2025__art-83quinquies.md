@@ -8,7 +8,7 @@ titel: "Art. 83 quinquies StG SG – 2quinquies. Besteuerung stiller Reserven am
 artikel: "Art. 83 quinquies"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 quinquies 2quinquies. Besteuerung stiller Reserven am Ende der Steuerpflicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 83 quinquies 2quinquies. Besteuerung stiller Reserven am Ende der Steuerpflicht
 
 ### Art. 83 quinquies StG SG – 2quinquies. Besteuerung stiller Reserven am Ende der Steuerpflicht
 

@@ -8,7 +8,7 @@ titel: "Art. 220 StG SG – c) Rückforderung bei rechtskräftiger Veranlagung"
 artikel: "Art. 220"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 220 c) Rückforderung bei rechtskräftiger Veranlagung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 220 c) Rückforderung bei rechtskräftiger Veranlagung
 
 ### Art. 220 StG SG – c) Rückforderung bei rechtskräftiger Veranlagung
 

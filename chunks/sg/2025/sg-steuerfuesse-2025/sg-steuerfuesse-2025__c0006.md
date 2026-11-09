@@ -8,7 +8,7 @@ titel: "Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3) (Teil 2/2)"
 seiten: "3"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2025 · Steuerfüsse SG 2025 · Steuerfüsse 2025 › Tabelle Gemeinden · S. 3
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2025 · Steuerfüsse SG 2025 · Steuerfüsse 2025 › Tabelle Gemeinden · S. 3
 
   Krinau   --   129   24   28   258   262
 Lichtensteig   0.8   129   24   28   258   262

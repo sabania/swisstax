@@ -2,14 +2,14 @@
 id: bund-ks-30__c0011
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.2 Beschränkte Steuerpflicht eines Ehegatten"
 ziffer: "2.2"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 2 Internationale Verhältnisse › 2.2 Beschränkte Steuerpflicht eines Ehegatten · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 2 Internationale Verhältnisse › 2.2 Beschränkte Steuerpflicht eines Ehegatten · S. 7
 
 2.2   Beschränkte Steuerpflicht eines Ehegatten
 

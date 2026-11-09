@@ -2,13 +2,13 @@
 id: zh-zstb-133-1-aufforderung-2026__c0002
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "Vorbemerkungen Aufforderung zur Einreichung 2026 (Teil 2/2)"
 seiten: "1"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · Vorbemerkungen · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · Vorbemerkungen · S. 1
 
 Vorbemerkungen
 Natürliche und juristische Personen, die schon vor dem 1. Januar 2026 steuerpflichtig waren,

@@ -9,7 +9,7 @@ ziffer: "16.2-16.3"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: wegleitung}}
 ---
-> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 16. Weitere Abzüge › 16.2–16.3 · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 16. Weitere Abzüge › 16.2–16.3 · S. 1
 
 16.2 Kinderbetreuung   für jedes Kind unter 14 Jahren   max. Fr. 26’700   28
 16.3 Parteispenden   Alleinstehende   max. Fr. 10’700   28

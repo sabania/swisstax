@@ -8,7 +8,7 @@ titel: "Art. 148 StG AR – VII. Haftung"
 artikel: "Art. 148"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 148 VII. Haftung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 148 VII. Haftung
 
 ### Art. 148 StG AR – VII. Haftung
 

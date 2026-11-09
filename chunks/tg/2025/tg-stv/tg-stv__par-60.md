@@ -8,7 +8,7 @@ titel: "§ 60 StV TG – Informationssicherheit"
 artikel: "§ 60"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 10. Elektronische Erfassung und Aufbewahrung * › § 60 Informationssicherheit
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 10. Elektronische Erfassung und Aufbewahrung * › § 60 Informationssicherheit
 
 ### § 60 StV TG – Informationssicherheit
 

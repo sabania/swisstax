@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "titel": "KS Nr. 4 Lidlohn (Art. 334 ZGB) – Steuerbarkeit als Arbeitseinkommen",
    "pfad": [
     "Lidlohn",
@@ -25,7 +25,7 @@
    "zusammenfassung": "Lidlohn nach Art. 334 ZGB ist obligationenrechtlicher Anspruch und grundsätzlich steuerbares Arbeitseinkommen (Art. 17 Abs. 1 DBG); Rückerstattung zugewendeter Einkünfte ist nicht steuerbar."
   },
   {
-   "start": 59,
+   "start": 42,
    "titel": "Lidlohn – Satzbestimmung: Division durch Anzahl Arbeitsjahre",
    "pfad": [
     "Lidlohn",
@@ -43,12 +43,12 @@
    "zusammenfassung": "Für den Steuersatz wird der Lidlohn stets durch die Anzahl Arbeitsjahre geteilt und nur in diesem Umfang dem übrigen Einkommen zugerechnet; Fussnoten zu Rechtsgrundlagen."
   },
   {
-   "start": 80,
+   "start": 63,
    "skip": true,
    "titel": "Adressblock ESTV"
   },
   {
-   "start": 87,
+   "start": 70,
    "titel": "Anwendung ab 21. Periode, Beilage Berechnungsbeispiel",
    "pfad": [
     "Lidlohn",
@@ -62,7 +62,7 @@
    "zusammenfassung": "Vorgehen nach den Richtlinien ab 21. Periode im Einvernehmen mit der Konferenz staatlicher Steuerbeamter."
   },
   {
-   "start": 102,
+   "start": 85,
    "titel": "Berechnungsbeispiel Lidlohn CHF 60'000 über 20 Jahre – Steuersatz 0.397 %",
    "pfad": [
     "Lidlohn",
@@ -79,5 +79,7 @@
    ],
    "zusammenfassung": "Lidlohn CHF 60'000 / 20 = CHF 3'000, plus übriges Einkommen CHF 44'000 = CHF 47'000 für Satz 0.397 %; Steuer auf CHF 104'000 = CHF 412.88."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

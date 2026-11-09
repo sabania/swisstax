@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2022-12-23'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/h36nmhxQYuz5/dbst-ks-2022-1-029c-dvs-de.pdf
@@ -14,6 +15,8 @@ sha256: c0b160d7ebf862cd59ce9db6a00d13c803b1d5f49dc68f41d9b01ca298f7ca7d
 abgerufen: '2026-11-09'
 seiten: 37
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2023-01-01'
 ---
 # ESTV-Kreisschreiben Nr. 29c: Kapitaleinlageprinzip
 

@@ -13,6 +13,10 @@ sha256: ef8180ef2d7aba97abddfcb68b1db24caa321d3561fb93f6a5b0ec94560ce07b
 abgerufen: '2026-11-09'
 seiten: 870
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
+ersetzt_durch: bund-rs-2-216
 ---
 # Rundschreiben 2-211: Quellensteuertarife 2025
 

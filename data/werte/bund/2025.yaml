@@ -505,6 +505,7 @@ werte:
   - chunk: bund-lkv__art-5
     zitat: 'wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags'
   status: agent-geprueft
+  bemerkung: 'Massgebend ist das Gebäudealter zu Beginn der Steuerperiode (1.1.2025): bis zehn Jahre alt → 10 %, mehr als zehn Jahre → 20 % (Baujahr/Bezug im Grenzfall genau prüfen).'
 - key: liegenschaft.pauschale_alt
   wert: 20
   einheit: '%'
@@ -515,6 +516,7 @@ werte:
   - chunk: bund-lkv__art-5
     zitat: 'wenn das Gebäude zu Beginn der Steuerperiode mehr als zehn Jahre alt ist: 20 Prozent des Brutto-Mietertrags'
   status: agent-geprueft
+  bemerkung: 'Massgebend ist das Gebäudealter zu Beginn der Steuerperiode (1.1.2025): bis zehn Jahre alt → 10 %, mehr als zehn Jahre → 20 % (Baujahr/Bezug im Grenzfall genau prüfen).'
 - key: liegenschaft.eigenmietwert_abzug
   wert: null
   einheit: null
@@ -522,8 +524,8 @@ werte:
   gilt_fuer: bund
   quellen: []
   status: na
-  bemerkung: Eigenmietwert wird nach ortsüblichen Verhältnissen und tatsächlicher Nutzung festgesetzt (Art. 21 Abs. 2 DBG); Abschaffung per 01.01.2029 beschlossen, 2025–2028 gilt bisheriges Recht. Der
-    Eigenmietwert für die direkte Bundessteuer wird im kantonalen Veranlagungsverfahren festgesetzt; ein dort vorgesehener Abzug für die DBSt (z.B. TG 20 %, siehe werte-tg) ist kantonale Vollzugspraxis, kein Widerspruch.
+  bemerkung: Eigenmietwert wird nach ortsüblichen Verhältnissen und tatsächlicher Nutzung festgesetzt (Art. 21 Abs. 2 DBG); Abschaffung per 01.01.2029 beschlossen, 2025–2028 gilt bisheriges Recht. Der Eigenmietwert
+    für die direkte Bundessteuer wird im kantonalen Veranlagungsverfahren festgesetzt; ein dort vorgesehener Abzug für die DBSt (z.B. TG 20 %, siehe werte-tg) ist kantonale Vollzugspraxis, kein Widerspruch.
   rechtsgrundlage: Art. 21 Abs. 1 lit. b, Abs. 2 DBG
 - key: sozialabzug.kind
   wert: 6800
@@ -537,6 +539,7 @@ werte:
   - chunk: bund-rs-2-210__c0007
     zitat: Kinderabzug (Art. 35 Abs. 1 Bst. a DBG) 6’700 6’800
   status: agent-geprueft
+  bemerkung: 'Zusätzlich zum Kinderabzug vom Einkommen: Abzug vom Steuerbetrag je Kind (Eckwert steuerbetrag.abzug_kind, Art. 36 Abs. 2bis DBG) – beide Abzüge gelten, nicht verwechseln.'
 - key: sozialabzug.kind_vorschule
   wert: null
   einheit: null
@@ -827,16 +830,17 @@ werte:
   status: na
   bemerkung: DBG kennt Verzugs-, Rückerstattungs- und Vergütungszins; der Rückerstattungszins entspricht 2025 dem Verzugszins (4.50 %, RS 2-215, Spalte 2025).
 - key: tarif.kapitalleistung_vorsorge
-  kurz: "1/5 der Tarife Art. 36 DBG, keine Sozialabzüge"
+  kurz: 1/5 der Tarife Art. 36 DBG, keine Sozialabzüge
   wert: null
   einheit: Text
-  text: "Kapitalleistungen aus Vorsorge (Art. 22 DBG) und Zahlungen bei Tod/bleibenden Nachteilen werden gesondert besteuert (volle Jahressteuer, Steuerjahr des Zuflusses); Steuer = ein Fünftel der Tarife nach Art. 36 Abs. 1, 2 und 2bis erster Satz DBG (Bruchteil 1/5); keine Sozialabzüge."
+  text: Kapitalleistungen aus Vorsorge (Art. 22 DBG) und Zahlungen bei Tod/bleibenden Nachteilen werden gesondert besteuert (volle Jahressteuer, Steuerjahr des Zuflusses); Steuer = ein Fünftel der Tarife
+    nach Art. 36 Abs. 1, 2 und 2bis erster Satz DBG (Bruchteil 1/5); keine Sozialabzüge.
   gilt_fuer: bund
-  rechtsgrundlage: "Art. 38 DBG"
+  rechtsgrundlage: Art. 38 DBG
   quellen:
   - chunk: bund-dbg-2025__art-38
-    zitat: "Sie wird zu einem Fünftel der Tarife nach Artikel 36 Absätze 1, 2 und 2bis erster Satz berechnet."
+    zitat: Sie wird zu einem Fünftel der Tarife nach Artikel 36 Absätze 1, 2 und 2bis erster Satz berechnet.
   - chunk: bund-dbg-2025__art-38
-    zitat: "Die Sozialabzüge werden nicht gewährt."
+    zitat: Die Sozialabzüge werden nicht gewährt.
   status: agent-geprueft
-  bemerkung: "Betrag in CHF je nach Tarif (Verheirateten-/Grundtarif) berechnen; kein einzelner Prozentsatz."
+  bemerkung: Betrag in CHF je nach Tarif (Verheirateten-/Grundtarif) berechnen; kein einzelner Prozentsatz.

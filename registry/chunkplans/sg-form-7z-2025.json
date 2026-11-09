@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 7Z Zusammenzug aller Liegenschaften 2025 – Steuerwert, Erträge, Unterhaltskosten",
    "pfad": [
     "Zusammenzug Liegenschaften"
@@ -27,5 +27,7 @@
    ],
    "zusammenfassung": "Formular 7Z SG sammelt bei mehreren Liegenschaften Steuerwert (A), Erträge (B) und Unterhaltskosten (Pauschalabzug C1, tatsächliche Kosten C2) und wird mit den Totalen in Steuererklärung Seite 4 Ziffer 31, Seite 2 Ziffer 5 und Seite 3 Ziffer 15 übertragen."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

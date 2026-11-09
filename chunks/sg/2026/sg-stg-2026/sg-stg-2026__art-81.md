@@ -8,7 +8,7 @@ titel: "Art. 81 StG SG – Steuerobjekt a) Gegenstand"
 artikel: "Art. 81"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 81 Steuerobjekt a) Gegenstand
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 81 Steuerobjekt a) Gegenstand
 
 ### Art. 81 StG SG – Steuerobjekt a) Gegenstand
 

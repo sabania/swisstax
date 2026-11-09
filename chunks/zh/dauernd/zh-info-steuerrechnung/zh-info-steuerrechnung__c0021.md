@@ -7,7 +7,7 @@ typ: info
 titel: "Zahlung der Steuerrechnung"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Zahlung der Steuerrechnung
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Zahlung der Steuerrechnung
 
 ## Zahlung der Steuerrechnung
 

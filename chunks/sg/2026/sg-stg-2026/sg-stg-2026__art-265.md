@@ -8,7 +8,7 @@ titel: "Art. 265 StG SG – b) Überweisung der Akten und Anklage"
 artikel: "Art. 265"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 265 b) Überweisung der Akten und Anklage
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 265 b) Überweisung der Akten und Anklage
 
 ### Art. 265 StG SG – b) Überweisung der Akten und Anklage
 

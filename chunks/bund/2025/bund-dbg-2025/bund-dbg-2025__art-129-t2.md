@@ -8,7 +8,7 @@ titel: "Art. 129 DBG (Teil 2/2)"
 artikel: "Art. 129"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 5. Abschnitt: Meldepflicht Dritter › Art. 129
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 2. Kapitel: Verfahrenspflichten › 5. Abschnitt: Meldepflicht Dritter › Art. 129
 
 ### Art. 129 DBG (Fortsetzung)
 

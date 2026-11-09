@@ -8,7 +8,7 @@ titel: "Art. 249a StG AR – 2. Selbstanzeige juristischer Personen (Teil 2/2)"
 artikel: "Art. 249a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 249a 2. Selbstanzeige juristischer Personen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 249a 2. Selbstanzeige juristischer Personen
 
 ### Art. 249a StG AR – 2. Selbstanzeige juristischer Personen (Fortsetzung)
 

@@ -7,7 +7,7 @@ typ: info
 titel: "Einkommen"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Einkommen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Einkommen
 
     Renten aus Einrichtungen der beruflichen Vorsorge, die vor dem 1. Januar 2002 zu laufen begannen und auf einem Vorsorgeverhältnis beruhen, das am 31. Dezember 1984 bereits bestand, werden gemäss geltender Gesetzgebung nur zu 80 Prozent besteuert. Eine künftige Aufhebung der Übergangsbestimmung bleibt jedoch vorbehalten.
 

@@ -8,7 +8,7 @@ titel: "Art. 205e DBG – Übergangsbestimmung zur Änderung vom 20. Juni 2014"
 artikel: "Art. 205e"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205e Übergangsbestimmung zur Änderung vom 20. Juni 2014
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 1. Kapitel: Natürliche Personen › Art. 205e Übergangsbestimmung zur Änderung vom 20. Juni 2014
 
 ### Art. 205e DBG – Übergangsbestimmung zur Änderung vom 20. Juni 2014
 

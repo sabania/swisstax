@@ -8,7 +8,7 @@ titel: "Art. 114a StG AR – Nachträgliche ordentliche Veranlagung auf Antrag"
 artikel: "Art. 114a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › B. Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz * › Art. 114a Nachträgliche ordentliche Veranlagung auf Antrag
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Quellensteuern für natürliche und juristische Personen › B. Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz * › Art. 114a Nachträgliche ordentliche Veranlagung auf Antrag
 
 ### Art. 114a StG AR – Nachträgliche ordentliche Veranlagung auf Antrag
 

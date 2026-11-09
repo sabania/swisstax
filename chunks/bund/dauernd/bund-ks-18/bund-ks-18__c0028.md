@@ -9,7 +9,7 @@ ziffer: "7–8"
 seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 7. Reinvestition › 8. Bescheinigungspflicht · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 7. Reinvestition › 8. Bescheinigungspflicht · S. 9
 
 7.   Reinvestition der Altersleistung aus einer 2. Säule in eine Vorsorgeform
     der Säule 3a

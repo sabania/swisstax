@@ -2,13 +2,13 @@
 id: bund-vstv__art-48
 quelle: bund-vstv
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 48 VStV"
 artikel: "Art. 48"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStV · III. Meldung statt Steuerentrichtung › 2. Einspruch gegen die Meldung › Art. 48
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · VStV · III. Meldung statt Steuerentrichtung › 2. Einspruch gegen die Meldung › Art. 48
 
 ### Art. 48 VStV
 

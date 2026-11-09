@@ -14,6 +14,8 @@ sha256: 29a406f853a0afd54ca4e5d785c719174930e4454bf8896018de32366855db95
 abgerufen: '2026-11-09'
 einheiten: 14
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: verfahren
+gilt_ab: '2016-01-01'
 ---
 # Verordnung zum DBG TG (RB 642.11) – Version gültig ab 01.01.2016
 

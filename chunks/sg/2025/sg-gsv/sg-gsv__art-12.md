@@ -8,7 +8,7 @@ titel: "Art. 12 VGS SG – Ausstand"
 artikel: "Art. 12"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 12 Ausstand
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 12 Ausstand
 
 ### Art. 12 VGS SG – Ausstand
 

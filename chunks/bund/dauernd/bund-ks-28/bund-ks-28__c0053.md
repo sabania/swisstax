@@ -2,14 +2,14 @@
 id: bund-ks-28__c0053
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Art. 1 Abs. 1–2 Gegenstand: definitive Aufgabe, Invalidität (Teil 2/2)"
 ziffer: "Art. 1 Abs. 1–2"
 seiten: "19"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 19
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 19
 
 Absatz 2
 Das Vorliegen einer Invalidität richtet sich nach den massgebenden gesetzlichen Bestim-

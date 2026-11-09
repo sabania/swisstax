@@ -12,6 +12,7 @@ raw: raw/ar/dauernd/ar-info-agov.html
 sha256: 8e5946e166dfb29b3bcdabdd3bb879f9a263e867c2580d984411b7ab4d6f7967
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Anmeldung AGOV
 

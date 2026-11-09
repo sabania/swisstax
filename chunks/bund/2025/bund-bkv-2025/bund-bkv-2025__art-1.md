@@ -8,7 +8,7 @@ titel: "Art. 1 BKV – Grundsatz"
 artikel: "Art. 1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 1 Grundsatz
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 1 Grundsatz
 
 ### Art. 1 BKV – Grundsatz
 

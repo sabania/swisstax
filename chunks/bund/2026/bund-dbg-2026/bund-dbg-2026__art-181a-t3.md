@@ -8,7 +8,7 @@ titel: "Art. 181a DBG – Selbstanzeige (Teil 3/3)"
 artikel: "Art. 181a"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 3. Kapitel: Juristische Personen › Art. 181a Selbstanzeige
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 3. Kapitel: Juristische Personen › Art. 181a Selbstanzeige
 
 ### Art. 181a DBG – Selbstanzeige (Fortsetzung)
 

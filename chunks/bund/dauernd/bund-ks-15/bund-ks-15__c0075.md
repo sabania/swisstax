@@ -2,14 +2,14 @@
 id: bund-ks-15__c0075
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 4b Mini-Futures – Funktionsweise, Hebel (Teil 2/2)"
 ziffer: "Anh. III 4b"
 seiten: "22"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 22
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 22
 
 gern regelmässig nur ein geringer Teil des Kaufpreises aus eigenen Mitteln aufgebracht, der
 überwiegende Teil der Investition wird kreditfinanziert. Dadurch entsteht ein Hebel (Le-

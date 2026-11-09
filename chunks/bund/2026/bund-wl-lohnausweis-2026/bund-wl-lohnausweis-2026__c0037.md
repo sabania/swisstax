@@ -9,7 +9,7 @@ ziffer: "10.1–10.2 / 44–46"
 seiten: "14-15"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 10.1/10.2 · S. 14–15
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 10.1/10.2 · S. 14–15
 
     ESTV   Seite 14 / 25
 

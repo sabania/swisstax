@@ -2,14 +2,14 @@
 id: bund-ssk-ks22-mb-sz__c0003
 quelle: bund-ssk-ks22-mb-sz
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Rz 7–8 Bewertung der Liegenschaften – Repartitionsfaktor (Teil 1/2)"
 ziffer: "7–8"
 seiten: "2-3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 2. Bewertung der Liegenschaften (Repartition) · S. 2–3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 2. Bewertung der Liegenschaften (Repartition) · S. 2–3
 
     2. Bewertung der Liegenschaften (Repartition)
 

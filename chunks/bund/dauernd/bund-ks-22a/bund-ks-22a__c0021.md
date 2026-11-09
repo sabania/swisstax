@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0021
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang Beispiel 4 – Abgrenzung private/geschäftliche Schuldzinsen ohne Nachweis"
 ziffer: "Bsp. 4"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · Anhang Beispiele › Beispiel 4 · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · Anhang Beispiele › Beispiel 4 · S. 8
 
 Nr. 4: Abgrenzung zwischen privaten und geschäftlichen Schuldzinsen
 

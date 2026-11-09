@@ -9,7 +9,7 @@ artikel: "§ 87"
 seiten: "43"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 87 StG ZH – I. Der Quellensteuer unterworfene Personen · S. 43
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 87 StG ZH – I. Der Quellensteuer unterworfene Personen · S. 43
 
 ### § 87 StG ZH – I. Der Quellensteuer unterworfene Personen
 

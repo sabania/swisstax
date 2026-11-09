@@ -12,6 +12,7 @@ raw: raw/tg/dauernd/tg-stp-36-2.html
 sha256: 7d511fb976554493f22b47ed69b47a92f4782f95346eeab5cfe74dbd7475f06d
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (article) -> Markdown (markdownify)
+zeitbezug: dauernd
 ---
 # StP 36 Nr. 2: Kinder- und Ausbildungsabzüge
 

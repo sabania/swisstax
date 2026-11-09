@@ -24,6 +24,7 @@ Schnellzugriff für den Steuerexperten-Agenten: erst hier, dann über die Links 
 | Regel im Detail, Sonderfälle, Praxis | [Themen](../wiki/themen/index.md) (Stichworte unten) → Chunks |
 | Fristen, Fristerstreckung, Verfahren, Bezug | [Fristen & Verfahren](../wiki/themen/fristen-verfahren.md) · Überblick je Kanton |
 | Was ändert sich (2026, 2027, Eigenmietwert 2029 …)? | [Rechtsänderungen](../wiki/themen/rechtsaenderungen.md) |
+| Welche Fassung gilt für Steuerjahr X (Gesetz, Wegleitung, Fristen-Weisung)? | [Gültigkeit 2025](gueltigkeit-2025.md) · [2026](gueltigkeit-2026.md) – materiell vs. Verfahren vs. Stichtag |
 | Alltagsbegriff → Fachbegriff («Kita», «Pendlerabzug») | [Glossar](../wiki/glossar.md) |
 | Gesetzesartikel wörtlich | `chunks/<jur>/<jahr>/<gesetz-id>/<id>__art-<nr>[-tN].md` (Bund: Art., ZH/TG: §, AR/SG: Art.); lange Artikel in Teile `-t1`, `-t2` … gesplittet |
 | Nichts gefunden? | Suche: `python3 tools/search.py "<Begriffe>" --jur <kt>,bund --jahr <jahr> --expand` bzw. `memory_search` |

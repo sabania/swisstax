@@ -8,7 +8,7 @@ titel: "Art. 233 StG SG – Abgrenzung zwischen Gemeinden a) Wechsel der Steuerp
 artikel: "Art. 233"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Zweiter Abschnitt: Einkommens- und Vermögenssteuern › Art. 233 Abgrenzung zwischen Gemeinden a) Wechsel der Steuerpflicht innerhalb des Kantons
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Zweiter Abschnitt: Einkommens- und Vermögenssteuern › Art. 233 Abgrenzung zwischen Gemeinden a) Wechsel der Steuerpflicht innerhalb des Kantons
 
 ### Art. 233 StG SG – Abgrenzung zwischen Gemeinden a) Wechsel der Steuerpflicht innerhalb des Kantons
 

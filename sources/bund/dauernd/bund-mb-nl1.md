@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/Y8n2gVgxB3Zn/dbst-mb-nl1-2007-de.pdf
 raw: raw/bund/dauernd/bund-mb-nl1.pdf
@@ -13,6 +14,8 @@ sha256: 50ebc73d44ed2491a340795e7605738995e3af2c0a3db7a31dff943078242814
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2022-01-01'
 ---
 # Merkblatt NL1/2007: Privatanteile Land- und Forstwirtschaft
 

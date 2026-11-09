@@ -8,7 +8,7 @@ titel: "Art. 157 StG AR – Akteneinsicht"
 artikel: "Art. 157"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 157 Akteneinsicht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 157 Akteneinsicht
 
 ### Art. 157 StG AR – Akteneinsicht
 

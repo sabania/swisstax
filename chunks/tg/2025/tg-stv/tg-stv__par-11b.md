@@ -8,7 +8,7 @@ titel: "§ 11b StV TG – Behinderungsbedingte Kosten"
 artikel: "§ 11b"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 11b Behinderungsbedingte Kosten
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.2. Einkommenssteuer * › § 11b Behinderungsbedingte Kosten
 
 ### § 11b StV TG – Behinderungsbedingte Kosten
 

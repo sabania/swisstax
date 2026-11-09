@@ -8,7 +8,7 @@ titel: "Art. 154 StG AR – Auskunftspflicht von Verwaltungsbehörden und Gerich
 artikel: "Art. 154"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 154 Auskunftspflicht von Verwaltungsbehörden und Gerichten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 154 Auskunftspflicht von Verwaltungsbehörden und Gerichten
 
 ### Art. 154 StG AR – Auskunftspflicht von Verwaltungsbehörden und Gerichten
 

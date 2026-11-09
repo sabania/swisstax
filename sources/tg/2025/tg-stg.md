@@ -6,6 +6,7 @@ jurisdiktion: tg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: gesetz
 stand: '2025-01-01'
 quelle_url: https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.1/versions/2929
@@ -14,6 +15,9 @@ sha256: 66edf7323892fa19bcc11101d252267c8296aa0c6b59e2f374627c6d6213123f
 abgerufen: '2026-11-09'
 einheiten: 286
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2028-12-31'
 ---
 # Gesetz über die Staats- und Gemeindesteuern TG (RB 640.1) – Version gültig ab 01.01.2025
 

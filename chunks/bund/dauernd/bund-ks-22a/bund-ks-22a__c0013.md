@@ -2,14 +2,14 @@
 id: bund-ks-22a__c0013
 quelle: bund-ks-22a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.1 Teilweise Steuerpflicht, Auslandliegenschaften, aperiodische Erträge"
 ziffer: "3.1"
 seiten: "4-5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.1 · S. 4–5
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 22a · 3 Beschränkung des Schuldzinsenabzugs › 3.1 · S. 4–5
 
 Die Beschränkung des Abzuges privater Schuldzinsen gilt bei teilweiser Steuerpflicht sowohl
 bei der Festsetzung des steuerbaren wie des satzbestimmenden Einkommens. Dabei fallen

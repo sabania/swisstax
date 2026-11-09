@@ -2,15 +2,24 @@
 typ: quelle
 id: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 45: Quellenbesteuerung des Erwerbseinkommens"
 generiert: tools/build_index.py
 ---
 # KS 45: ESTV-Kreisschreiben Nr. 45: Quellenbesteuerung des Erwerbseinkommens
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2019-06-12
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2019-06-12
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/I3YyTvU3ThVA/dbst-ks-2019-1-045-d-de.pdf> · lokal: [bund-ks-45.pdf](../../../raw/bund/dauernd/bund-ks-45.pdf) · Volltext: [bund-ks-45.md](../../../sources/bund/dauernd/bund-ks-45.md)
 - **Abgerufen:** 2026-11-09 · sha256 `0957867cee51f98c…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2021-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-45`).
+
+- `data/belege-teil2.yaml#14:spesenreglement` (agent-geprueft)
+- [wiki/themen/mitarbeiterbeteiligungen.md](../../themen/mitarbeiterbeteiligungen.md)
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

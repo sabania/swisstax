@@ -9,7 +9,7 @@ artikel: "§ 48"
 seiten: "25"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Ausgleich der kalten Progression › § 48 StG ZH – Ausgleich der kalten Progression · S. 25
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Ausgleich der kalten Progression › § 48 StG ZH – Ausgleich der kalten Progression · S. 25
 
 ### § 48 StG ZH – Ausgleich der kalten Progression
 

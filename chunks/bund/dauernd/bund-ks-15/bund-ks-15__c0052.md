@@ -2,14 +2,14 @@
 id: bund-ks-15__c0052
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Beispiel Nr. 4 – IUP-Obligation mit Option: Sachverhalt, Bondwerte (Teil 2/2)"
 ziffer: "Nr. 4"
 seiten: "17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang II Beispiele · S. 17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang II Beispiele · S. 17
 
 Im Zeitpunkt der zweiten Handänderung, drei Jahre und 9 1/2 Monate oder 1'384 Tage nach
 der Emission, stellt man fest, dass die Bezugsgrösse "Zinsniveau" von 5.75% auf 5.37625%

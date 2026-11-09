@@ -11,6 +11,29 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Formular · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_4_NP_2025_HA.pdf> · lokal: [sg-form-4-2025.pdf](../../../raw/sg/2025/sg-form-4-2025.pdf) · Volltext: [sg-form-4-2025.md](../../../sources/sg/2025/sg-form-4-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `33642e71e105c0dc…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 14 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-4-2025`).
+
+- `data/werte/sg/2025.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#23:berechnung.total@10.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#68:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#69:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#70:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#71:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#72:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#73:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#74:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#75:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#76:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#77:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#78:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#79:berechnung.total@Form. 4 Ziff. 6` (agent-geprueft)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

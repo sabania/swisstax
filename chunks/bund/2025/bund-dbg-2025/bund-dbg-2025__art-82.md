@@ -8,7 +8,7 @@ titel: "Art. 82 DBG – Steuersätze"
 artikel: "Art. 82"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Vierter Titel: Zeitliche Bemessung › Art. 82 Steuersätze
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Dritter Teil: Besteuerung der juristischen Personen › Vierter Titel: Zeitliche Bemessung › Art. 82 Steuersätze
 
 ### Art. 82 DBG – Steuersätze
 

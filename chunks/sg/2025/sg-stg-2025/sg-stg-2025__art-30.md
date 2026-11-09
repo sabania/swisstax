@@ -8,7 +8,7 @@ titel: "Art. 30 StG SG – b) Unselbständige Erwerbstätigkeit 1. Allgemeines"
 artikel: "Art. 30"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 30 b) Unselbständige Erwerbstätigkeit 1. Allgemeines
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › II. Einkommenssteuer › Art. 30 b) Unselbständige Erwerbstätigkeit 1. Allgemeines
 
 ### Art. 30 StG SG – b) Unselbständige Erwerbstätigkeit 1. Allgemeines
 

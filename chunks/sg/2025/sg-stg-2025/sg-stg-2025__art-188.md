@@ -8,7 +8,7 @@ titel: "Art. 188 StG SG – 5. Nachforderung und Rückerstattung"
 artikel: "Art. 188"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 188 5. Nachforderung und Rückerstattung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 188 5. Nachforderung und Rückerstattung
 
 ### Art. 188 StG SG – 5. Nachforderung und Rückerstattung
 

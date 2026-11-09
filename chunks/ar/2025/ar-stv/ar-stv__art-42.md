@@ -8,7 +8,7 @@ titel: "Art. 42 StV AR – Ersatzbeschaffung (Art. 74 StG)"
 artikel: "Art. 42"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 42 Ersatzbeschaffung (Art. 74 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 2. Besteuerung juristischer Personen › B. Gewinnsteuer › Art. 42 Ersatzbeschaffung (Art. 74 StG)
 
 ### Art. 42 StV AR – Ersatzbeschaffung (Art. 74 StG)
 

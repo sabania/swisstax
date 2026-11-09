@@ -2,14 +2,14 @@
 id: bund-ks-45__c0182
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8.4 Beispiel Tessin nach Genf und Ziff. 8.5 Wechsel Monatsmodell zu Monatsmodell (Teil 2/2)"
 ziffer: "8.4"
 seiten: "57"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 8 Kantonswechsel › 8.4 Jahresmodell zu Jahresmodell · S. 57
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 8 Kantonswechsel › 8.4 Jahresmodell zu Jahresmodell · S. 57
 
     2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 95 000.00 [(CHF 5 000 x 13) + CHF 30 000].
 

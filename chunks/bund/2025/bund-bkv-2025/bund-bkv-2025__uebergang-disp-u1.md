@@ -8,7 +8,7 @@ titel: "Übergangsbestimmung zur Änderung vom 3. November 2006 BKV"
 artikel: "Übergangsbestimmung zur Änderung vom 3. November 2006"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Übergangsbestimmung zur Änderung vom 3. November 2006
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Übergangsbestimmung zur Änderung vom 3. November 2006
 
 ### Übergangsbestimmung zur Änderung vom 3. November 2006 BKV
 

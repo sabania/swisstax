@@ -2,14 +2,14 @@
 id: bund-ssk-ks22-mb-sz__c0010
 quelle: bund-ssk-ks22-mb-sz
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Rz 11 Beispiel ab Steuerperiode 2019 (Faktoren 125 % / 155 %) (Teil 2/2)"
 ziffer: "11"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 3. Beispiele › 3.2 Ab Steuerperiode 2019 · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · SSK-KS 22 (MB SZ) · D. Repartitionswerte › 3. Beispiele › 3.2 Ab Steuerperiode 2019 · S. 4
 
     Veranlagung Kanton Tessin1   686‘000 / 155 x 55   500‘000 / 155 x 55   186‘000 / 155 x 55
     Faktor B >100 % -> Abrechnung   -243‘420   -177‘420   -66‘000

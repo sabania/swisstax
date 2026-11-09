@@ -9,7 +9,7 @@ artikel: "§ 34"
 seiten: "19-20"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 34 StG ZH – IV. Sozialabzüge · S. 19–20
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 34 StG ZH – IV. Sozialabzüge · S. 19–20
 
 ### § 34 StG ZH – IV. Sozialabzüge
 

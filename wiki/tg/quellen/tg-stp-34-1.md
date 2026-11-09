@@ -2,15 +2,16 @@
 typ: quelle
 id: tg-stp-34-1
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "StP 34 Nr. 1: Liegenschaftsunterhalt"
 generiert: tools/build_index.py
 ---
 # StP 34 Nr. 1: StP 34 Nr. 1: Liegenschaftsunterhalt
 
-- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-1-liegenschaftsunterhalt> · lokal: [tg-stp-34-1.html](../../../raw/tg/dauernd/tg-stp-34-1.html) · Volltext: [tg-stp-34-1.md](../../../sources/tg/dauernd/tg-stp-34-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `6976db124d32c4e6…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2024-07-01 bis offen
 
 ## Inhalt (28 Chunks)
 

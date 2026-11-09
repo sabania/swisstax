@@ -8,7 +8,7 @@ titel: "§ 15 StV TG – Bemessung des Einkommens"
 artikel: "§ 15"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.4. Zeitliche Bemessung * › § 15 Bemessung des Einkommens
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 2. Steuern der natürlichen Personen › 2.4. Zeitliche Bemessung * › § 15 Bemessung des Einkommens
 
 ### § 15 StV TG – Bemessung des Einkommens
 

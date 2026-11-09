@@ -2,13 +2,13 @@
 id: bund-sthg__art-9-t2
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 9 StHG – Allgemeines (Teil 2/7)"
 artikel: "Art. 9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · 2. Kapitel: Einkommenssteuer › 2. Abschnitt: Abzüge › Art. 9 Allgemeines
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · 2. Kapitel: Einkommenssteuer › 2. Abschnitt: Abzüge › Art. 9 Allgemeines
 
 ### Art. 9 StHG – Allgemeines (Fortsetzung)
 

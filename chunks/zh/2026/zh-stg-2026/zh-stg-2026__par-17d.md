@@ -9,7 +9,7 @@ artikel: "§ 17d"
 seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 17d StG ZH – e. Anteilmässige Besteuerung · S. 8
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 17d StG ZH – e. Anteilmässige Besteuerung · S. 8
 
 ### § 17d StG ZH – e. Anteilmässige Besteuerung
 

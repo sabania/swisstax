@@ -11,6 +11,15 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Weisung · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/tempor%C3%A4r/zstb-nr-21-1_g%C3%BCltig-bis-31_12_2025.pdf> · lokal: [zh-weisung-liegenschaften-2009.pdf](../../../raw/zh/2025/zh-weisung-liegenschaften-2009.pdf) · Volltext: [zh-weisung-liegenschaften-2009.md](../../../sources/zh/2025/zh-weisung-liegenschaften-2009.md)
 - **Abgerufen:** 2026-11-09 · sha256 `57465eef4a960231…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2009-01-01 bis 2025-12-31 · ersetzt durch `zh-weisung-liegenschaften-2026`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-weisung-liegenschaften-2009`).
+
+- `data/belege-teil2.yaml#4:liegenschaft-schaetzung-eigenmietwert` (agent-geprueft)
+- `data/werte/zh/2025.yaml#42:liegenschaft.eigenmietwert_abzug` (agent-geprueft)
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

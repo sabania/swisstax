@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Rundschreiben · **gilt für Steuerjahre:** 2027 · **Stand:** 2026-09-22
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/sqbIsYvx0tZg/2-220-D-2026-de.pdf> · lokal: [bund-rs-2-220.pdf](../../../raw/bund/2027/bund-rs-2-220.pdf) · Volltext: [bund-rs-2-220.md](../../../sources/bund/2027/bund-rs-2-220.md)
 - **Abgerufen:** 2026-11-09 · sha256 `4c90a4ed7a92f032…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2027-01-01 bis 2027-12-31 · ersetzt `bund-rs-2-215`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-rs-2-220`).
+
+- [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

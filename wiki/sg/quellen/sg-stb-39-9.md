@@ -11,6 +11,23 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_9.pdf.ocFile/039_9.pdf> · lokal: [sg-stb-39-9.pdf](../../../raw/sg/dauernd/sg-stb-39-9.pdf) · Volltext: [sg-stb-39-9.md](../../../sources/sg/dauernd/sg-stb-39-9.md)
 - **Abgerufen:** 2026-11-09 · sha256 `279df3ec159fde00…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2016-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 9 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-9`).
+
+- `data/werte/sg/2025.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/sg/2025.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/sg/2025.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/werte/sg/2026.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
+- `data/werte/sg/2026.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/sg/2026.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/sg/2026.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#1:einkommen.unselbstaendig.nebenerwerb@1.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#77:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
+- [wiki/themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md](../../themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

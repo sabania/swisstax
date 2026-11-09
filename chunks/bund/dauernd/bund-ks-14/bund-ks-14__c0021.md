@@ -2,14 +2,14 @@
 id: bund-ks-14__c0021
 quelle: bund-ks-14
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6 Geltungsbereich und Inkrafttreten (1. Januar 2007, Rückwirkung ab Steuerjahr 2001)"
 ziffer: "6"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 14 · 6 Geltungsbereich / Inkrafttreten · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 14 · 6 Geltungsbereich / Inkrafttreten · S. 7
 
 6.   Geltungsbereich / Inkrafttreten
 

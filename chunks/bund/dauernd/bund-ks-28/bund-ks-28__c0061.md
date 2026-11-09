@@ -2,14 +2,14 @@
 id: bund-ks-28__c0061
 quelle: bund-ks-28
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang II Art. 3 Verhältnis zu Art. 18a DBG – Grundsätze (Teil 2/2)"
 ziffer: "Art. 3"
 seiten: "20-21"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 20–21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 28 · KS 28 › Anhang II Erläuterungen · S. 20–21
 
 Verlangt die steuerpflichtige Person im Rahmen der definitiven Aufgabe der selbständigen
 Erwerbstätigkeit einen Besteuerungsaufschub nach Artikel 18a DBG, findet Artikel 37b DBG

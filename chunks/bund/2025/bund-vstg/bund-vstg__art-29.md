@@ -2,13 +2,13 @@
 id: bund-vstg__art-29
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 29 VStG"
 artikel: "Art. 29"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · III. Geltendmachung des Anspruchs › 1. Antrag › Art. 29
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · III. Geltendmachung des Anspruchs › 1. Antrag › Art. 29
 
 ### Art. 29 VStG
 

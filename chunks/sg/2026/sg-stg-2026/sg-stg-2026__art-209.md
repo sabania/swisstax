@@ -8,7 +8,7 @@ titel: "Art. 209 StG SG – d) Mitwirkung der Gemeindebehörden"
 artikel: "Art. 209"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 209 d) Mitwirkung der Gemeindebehörden
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 209 d) Mitwirkung der Gemeindebehörden
 
 ### Art. 209 StG SG – d) Mitwirkung der Gemeindebehörden
 

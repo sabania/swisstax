@@ -8,7 +8,7 @@ titel: "Art. 69 StV SG – Grundsätze der Steuerberechnung (Art. 154 StG)"
 artikel: "Art. 69"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 69 Grundsätze der Steuerberechnung (Art. 154 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern › Art. 69 Grundsätze der Steuerberechnung (Art. 154 StG)
 
 ### Art. 69 StV SG – Grundsätze der Steuerberechnung (Art. 154 StG)
 

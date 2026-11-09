@@ -7,7 +7,7 @@ typ: info
 titel: "Was ist neu?"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: info}}
 ---
-> ZH · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Was ist neu?
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2026 · ZH Neubewertung 2026 · Liegenschaftenneubewertung 2026 › Was ist neu?
 
 Die Festlegung der Lageklassen basiert wie bisher hauptsächlich auf folgenden Kriterien:
 

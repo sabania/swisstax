@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0042
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.3.3 Umwandlung von Verein/Stiftung in Kapitalgesellschaft (Teil 1/2)"
 ziffer: "6.3.3"
 seiten: "18"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.3 Umwandlung · S. 18
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.3 Umwandlung · S. 18
 
 6.3.3. Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Per-
     son in eine Kapitalgesellschaft oder Genossenschaft

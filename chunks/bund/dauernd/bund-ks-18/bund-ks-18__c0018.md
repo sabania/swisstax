@@ -9,7 +9,7 @@ ziffer: "6.1"
 seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.1 Grundsätze · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.1 Grundsätze · S. 7
 
 6.   Ausrichtung und Besteuerung der Leistungen
 

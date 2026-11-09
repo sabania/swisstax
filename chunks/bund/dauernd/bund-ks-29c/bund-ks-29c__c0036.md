@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0036
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 6.2.4 Absorption der Muttergesellschaft (Reverse Merger) (Teil 2/4)"
 ziffer: "6.2.4"
 seiten: "16-17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.2 Fusion · S. 16–17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 6 Umstrukturierungen › 6.2 Fusion · S. 16–17
 
 Ein allfälliges Fusionsagio stellt nur in dem Umfang eine ausweisbare KER bzw. Ausland-
 KER dar, soweit es dem liberierten Grund- oder Stammkapital und den bestehenden KER

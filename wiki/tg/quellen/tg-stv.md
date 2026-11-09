@@ -11,6 +11,29 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2025-01-01
 - **Original:** <https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.11/versions/2927> · lokal: [tg-stv.json](../../../raw/tg/2025/tg-stv.json) · Volltext: [tg-stv.md](../../../sources/tg/2025/tg-stv.md)
 - **Abgerufen:** 2026-11-09 · sha256 `2dddb5ebef541f07…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 9 Daten-Einträgen und 8 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stv`).
+
+- `data/belege-teil2.yaml#3:liegenschaft-unterhaltsrechnungen` (agent-geprueft)
+- `data/belege-teil2.yaml#6:liegenschaft-nebenkosten-gebaeudeversicherung` (agent-geprueft)
+- `data/belege-teil2.yaml#7:kinderbetreuung-rechnungen` (agent-geprueft)
+- `data/werte/tg/2025.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
+- `data/werte/tg/2025.yaml#41:liegenschaft.pauschale_alt` (agent-geprueft)
+- `data/werte/tg/2025.yaml#68:bezug.provisorisch` (agent-geprueft)
+- `data/werte/tg/2026.yaml#33:drittbetreuung.max` (agent-geprueft)
+- `data/werte/tg/2026.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
+- `data/werte/tg/2026.yaml#41:liegenschaft.pauschale_alt` (agent-geprueft)
+- [wiki/tg/tg-ueberblick.md](../tg-ueberblick.md)
+- [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
+- [wiki/themen/kinderdrittbetreuung.md](../../themen/kinderdrittbetreuung.md)
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
+- [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
+- [wiki/themen/mitarbeiterbeteiligungen.md](../../themen/mitarbeiterbeteiligungen.md)
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
+- [wiki/themen/vermoegen-bewertung.md](../../themen/vermoegen-bewertung.md)
 
 ## Inhalt (115 Chunks)
 

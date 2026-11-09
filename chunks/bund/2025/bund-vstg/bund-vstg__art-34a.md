@@ -2,13 +2,13 @@
 id: bund-vstg__art-34a
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 34a VStG"
 artikel: "Art. 34a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · I. Organisation › 1a. Elektronische Verfahren › Art. 34a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · I. Organisation › 1a. Elektronische Verfahren › Art. 34a
 
 ### Art. 34a VStG
 

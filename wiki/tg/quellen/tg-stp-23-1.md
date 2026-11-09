@@ -2,16 +2,27 @@
 typ: quelle
 id: tg-stp-23-1
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "StP 23 Nr. 1: Erträge aus unbeweglichem Vermögen (Eigenmietwert)"
 generiert: tools/build_index.py
 ---
 # StP 23 Nr. 1: StP 23 Nr. 1: Erträge aus unbeweglichem Vermögen (Eigenmietwert)
 
-- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-23-nr-1-ertrage-aus-unbeweglichem-vermogen> · lokal: [tg-stp-23-1.html](../../../raw/tg/dauernd/tg-stp-23-1.html) · Volltext: [tg-stp-23-1.md](../../../sources/tg/dauernd/tg-stp-23-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `1a4b080dea44abbc…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2025-10-01 bis offen
 - ⚠ **Hinweis:** Fassung geändert per 01.10.2025 (Ausgabe 2026-09); ältere Versionen als PDF auf der Seite verlinkt
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 3 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-23-1`).
+
+- `data/belege-teil2.yaml#4:liegenschaft-schaetzung-eigenmietwert` (agent-geprueft)
+- `data/belege-teil2.yaml#5:liegenschaft-mietertraege` (agent-geprueft)
+- `data/werte/tg/2025.yaml#42:liegenschaft.eigenmietwert_abzug` (agent-geprueft)
+- [wiki/tg/tg-ueberblick.md](../tg-ueberblick.md)
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
 
 ## Inhalt (11 Chunks)
 

@@ -8,7 +8,7 @@ titel: "Art. 285 StG AR – 8. Organisatorische Bestimmungen"
 artikel: "Art. 285"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285 8. Organisatorische Bestimmungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 4. Teil: Schlussbestimmungen › Art. 285 8. Organisatorische Bestimmungen
 
 ### Art. 285 StG AR – 8. Organisatorische Bestimmungen
 

@@ -8,7 +8,7 @@ titel: "Art. 48a StV AR – Härtefälle"
 artikel: "Art. 48a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › (1.3.1a.) B. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › Art. 48a Härtefälle
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › (1.3.1a.) B. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › Art. 48a Härtefälle
 
 ### Art. 48a StV AR – Härtefälle
 

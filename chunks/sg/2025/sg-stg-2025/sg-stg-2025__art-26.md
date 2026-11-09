@@ -8,7 +8,7 @@ titel: "Art. 26 StG SG – Besteuerung nach dem Aufwand a) Berechtigte Personen"
 artikel: "Art. 26"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 26 Besteuerung nach dem Aufwand a) Berechtigte Personen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 26 Besteuerung nach dem Aufwand a) Berechtigte Personen
 
 ### Art. 26 StG SG – Besteuerung nach dem Aufwand a) Berechtigte Personen
 

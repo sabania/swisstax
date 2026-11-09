@@ -2,14 +2,14 @@
 id: bund-ks-37__c0034
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.1 Bescheinigung nach Art. 7/8/9 MBV und Quellensteuer auf dem Schweizer Anteil"
 ziffer: "7.1"
 seiten: "11-12"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 7 Internationales Verhältnis › 7.1 Allgemeines · S. 11–12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 7 Internationales Verhältnis › 7.1 Allgemeines · S. 11–12
 
 Artikel 7 wie auch Artikel 8 MBV schreiben dem Arbeitgeber vor, welche Angaben er in den
 Fällen der anteilsmässigen Besteuerung nach Artikel 17d DBG zu bescheinigen hat. Anzu-

@@ -8,7 +8,7 @@ titel: "Art. 181 DBG – Allgemeines"
 artikel: "Art. 181"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 3. Kapitel: Juristische Personen › Art. 181 Allgemeines
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Erster Titel: Verletzung von Verfahrenspflichten und Steuerhinterziehung › 3. Kapitel: Juristische Personen › Art. 181 Allgemeines
 
 ### Art. 181 DBG – Allgemeines
 

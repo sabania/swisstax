@@ -8,7 +8,7 @@ titel: "Formular DA-1 2026 – Kopf, Personalien und Antrag auf Anrechnung ausl�
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: formular}}
 ---
-> Bund · Steuerjahr 2026 · DA-1 2026 · DA-1 › Kopf · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2026 · DA-1 2026 · DA-1 › Kopf · S. 1
 
 # DA-1 Anrechnung ausländischer Quellensteuern 2026
 

@@ -9,7 +9,7 @@ artikel: "§ 102"
 seiten: "48"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 102 StG ZH – XII. Pflichten des Schuldners der steuerbaren Leistung · S. 48
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder › § 102 StG ZH – XII. Pflichten des Schuldners der steuerbaren Leistung · S. 48
 
 ### § 102 StG ZH – XII. Pflichten des Schuldners der steuerbaren Leistung
 

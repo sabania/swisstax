@@ -8,7 +8,7 @@ titel: "Art. 128 StG SG – Internationale Verhältnisse"
 artikel: "Art. 128"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 128 Internationale Verhältnisse
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › III. Gemeinsame Bestimmungen › Art. 128 Internationale Verhältnisse
 
 ### Art. 128 StG SG – Internationale Verhältnisse
 

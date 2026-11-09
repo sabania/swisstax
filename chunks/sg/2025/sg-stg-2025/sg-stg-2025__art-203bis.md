@@ -8,7 +8,7 @@ titel: "Art. 203 bis StG SG – f) Vereinfachte Nachbesteuerung von Erben"
 artikel: "Art. 203 bis"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 203 bis f) Vereinfachte Nachbesteuerung von Erben
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VI. Änderung rechtskräftiger Verfügungen und Entscheide › Art. 203 bis f) Vereinfachte Nachbesteuerung von Erben
 
 ### Art. 203 bis StG SG – f) Vereinfachte Nachbesteuerung von Erben
 

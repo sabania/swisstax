@@ -8,7 +8,7 @@ titel: "Art. 221 DBG"
 artikel: "Art. 221"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Achter Teil: Schlussbestimmungen › Fünfter Titel: Referendum und Inkrafttreten › Art. 221
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Achter Teil: Schlussbestimmungen › Fünfter Titel: Referendum und Inkrafttreten › Art. 221
 
 ### Art. 221 DBG
 

@@ -9,7 +9,7 @@ artikel: "§ 26"
 seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 26 StG ZH – 2. Unselbstständige Erwerbstätigkeit · S. 15
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Einkommenssteuer › § 26 StG ZH – 2. Unselbstständige Erwerbstätigkeit · S. 15
 
 ### § 26 StG ZH – 2. Unselbstständige Erwerbstätigkeit
 

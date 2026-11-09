@@ -9,7 +9,7 @@ ziffer: "1–2"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 1. Rechtliche Grundlagen · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 1. Rechtliche Grundlagen · S. 2
 
 1.   Rechtliche Grundlagen
 

@@ -2,14 +2,14 @@
 id: bund-ks-15__c0002
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Einleitung – KS 4 und Transparenz kombinierter Produkte (Teil 2/3)"
 ziffer: "1"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 1 Einleitung · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · 1 Einleitung · S. 2
 
 nierten Produkten dem schweizerischen Steuersystem entsprechend zwischen steuerbaren
 Erträgen aus Kapitalanlagen (Art. 20 Abs. 1 Bst. a und b des Bundesgesetzes vom 14. De-

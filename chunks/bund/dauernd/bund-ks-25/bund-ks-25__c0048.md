@@ -2,14 +2,14 @@
 id: bund-ks-25__c0048
 quelle: bund-ks-25
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang IV Erläuterungen zu den Gleichstellungsregeln (Teil 1/3)"
 ziffer: "Anhang IV"
 seiten: "16-17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · 7 Anhänge › Anhang IV Gleichstellung · S. 16–17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 25 · 7 Anhänge › Anhang IV Gleichstellung · S. 16–17
 
 Erläuterungen zu den Gleichstellungsregeln:
 Zu Ziffer 1: Liegt eine Vertriebsbewilligung der FINMA für eine ausländische kollektive Kapi-

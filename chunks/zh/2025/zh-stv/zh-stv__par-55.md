@@ -9,7 +9,7 @@ artikel: "§ 55"
 seiten: "11"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › D. Abrechnung › § 55 StV ZH – 1. Aufteilung der Zahlungseingänge · S. 11
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › D. Abrechnung › § 55 StV ZH – 1. Aufteilung der Zahlungseingänge · S. 11
 
 ### § 55 StV ZH – 1. Aufteilung der Zahlungseingänge
 

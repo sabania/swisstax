@@ -8,7 +8,7 @@ titel: "Art. 261 StG AR – 5. Gerichtliche Beurteilung durch das Obergericht a)
 artikel: "Art. 261"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 261 5. Gerichtliche Beurteilung durch das Obergericht a) Einsprache
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 2. Strafverfahren › Art. 261 5. Gerichtliche Beurteilung durch das Obergericht a) Einsprache
 
 ### Art. 261 StG AR – 5. Gerichtliche Beurteilung durch das Obergericht a) Einsprache
 

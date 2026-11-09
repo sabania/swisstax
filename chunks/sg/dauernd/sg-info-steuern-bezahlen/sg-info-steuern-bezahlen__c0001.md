@@ -7,7 +7,7 @@ typ: info
 titel: "Steuern bezahlen (Rechnungen, Zinsen)"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG Steuern bezahlen · Steuern bezahlen (Rechnungen, Zinsen)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · SG Steuern bezahlen · Steuern bezahlen (Rechnungen, Zinsen)
 
 # Steuern bezahlen (Rechnungen, Zinsen)
 

@@ -7,7 +7,7 @@ typ: info
 titel: "Vorsorge 2. und 3. Säule"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Vorsorge 2. und 3. Säule
 
     Ein Kapitalbezug innerhalb von drei Jahren seit dem Einkauf von Beitragsjahren ist mit Artikel 79b Absatz 3 Satz 1 BVG nicht konform. Daher ist bei diesem Sachverhalt der Einkauf in die Pensionskasse steuerlich nicht abzugsfähig. Die Dreijahresfrist wird tag genau berechnet (z.B. Einkauf erfolgt am 31.03.2025, Kapitalbezug frühestens möglich 01.04.2028.
 

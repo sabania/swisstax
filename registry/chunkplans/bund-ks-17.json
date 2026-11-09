@@ -5,12 +5,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 91,
+   "start": 74,
    "titel": "Ziff. I Allgemeines – Rechtsgrundlagen WEF",
    "pfad": [
     "I Allgemeines"
@@ -27,7 +27,7 @@
    "ziffer": "I"
   },
   {
-   "start": 103,
+   "start": 86,
    "titel": "Ziff. II.1 Zweck und Inhalt – Eigenbedarf, Objekt, Verwendung",
    "pfad": [
     "II 2. Säule",
@@ -46,7 +46,7 @@
    "ziffer": "II.1"
   },
   {
-   "start": 125,
+   "start": 108,
    "titel": "Ziff. II.1 Begrenzungen des Vorbezugs (relativ/absolut, ab 50 Jahren)",
    "pfad": [
     "II 2. Säule",
@@ -63,7 +63,7 @@
    "ziffer": "II.1"
   },
   {
-   "start": 135,
+   "start": 118,
    "titel": "Ziff. II.1 Gesuchsfrist, Mindestbetrag 20'000 Franken, alle fünf Jahre",
    "pfad": [
     "II 2. Säule",
@@ -81,7 +81,7 @@
    "ziffer": "II.1"
   },
   {
-   "start": 153,
+   "start": 136,
    "titel": "Ziff. II.2.1 Besteuerung des Vorbezugs (Kapitalleistung, Art. 38 DBG, Quellensteuer)",
    "pfad": [
     "II 2. Säule",
@@ -102,7 +102,7 @@
    "ziffer": "II.2.1"
   },
   {
-   "start": 168,
+   "start": 151,
    "titel": "Ziff. II.2.1 Quellensteuer auf dem Vorbezug (Art. 11 QStV, DBA)",
    "pfad": [
     "II 2. Säule",
@@ -122,7 +122,7 @@
    "ziffer": "II.2.1"
   },
   {
-   "start": 180,
+   "start": 163,
    "titel": "Ziff. II.2.2 a) Rückzahlung – Rückerstattung der bezahlten Steuern",
    "pfad": [
     "II 2. Säule",
@@ -143,7 +143,7 @@
    "ziffer": "II.2.2 a"
   },
   {
-   "start": 196,
+   "start": 179,
    "titel": "Ziff. II.2.2 a) Gesuch um Steuerrückerstattung und Bescheinigungen",
    "pfad": [
     "II 2. Säule",
@@ -163,7 +163,7 @@
    "ziffer": "II.2.2 a"
   },
   {
-   "start": 220,
+   "start": 203,
    "titel": "Ziff. II.2.2 b) Ausgleich des Zinsausfalls durch Einkauf",
    "pfad": [
     "II 2. Säule",
@@ -182,7 +182,7 @@
    "ziffer": "II.2.2 b"
   },
   {
-   "start": 229,
+   "start": 212,
    "titel": "Ziff. II.2.2 c) Keine WEF-Rückzahlung mit bereits gebundenen Mitteln",
    "pfad": [
     "II 2. Säule",
@@ -202,7 +202,7 @@
    "ziffer": "II.2.2 c"
   },
   {
-   "start": 247,
+   "start": 230,
    "titel": "Ziff. II.2.3 a) Einkauf nach WEF-Vorbezug – Sperre und Dreijahresfrist",
    "pfad": [
     "II 2. Säule",
@@ -222,7 +222,7 @@
    "ziffer": "II.2.3 a"
   },
   {
-   "start": 261,
+   "start": 244,
    "titel": "Ziff. II.2.3 a) Rückzahlungsfrist und Einkauf bei Vorsorgelücken (Art. 60d BVV 2)",
    "pfad": [
     "II 2. Säule",
@@ -241,7 +241,7 @@
    "ziffer": "II.2.3 a"
   },
   {
-   "start": 275,
+   "start": 258,
    "titel": "Ziff. II.2.3 b) Einkauf nach einer Scheidung",
    "pfad": [
     "II 2. Säule",
@@ -261,7 +261,7 @@
    "ziffer": "II.2.3 b"
   },
   {
-   "start": 289,
+   "start": 272,
    "titel": "Ziff. II.2.4 Zusatzversicherung – Risikodeckung nach Vorbezug",
    "pfad": [
     "II 2. Säule",
@@ -282,7 +282,7 @@
    "ziffer": "II.2.4"
   },
   {
-   "start": 306,
+   "start": 289,
    "titel": "Ziff. II.3.1 Verkauf Eigenheim – Neukauf innert zwei Jahren (Wartekonto, Zinsen)",
    "pfad": [
     "II 2. Säule",
@@ -303,7 +303,7 @@
    "ziffer": "II.3.1"
   },
   {
-   "start": 319,
+   "start": 302,
    "titel": "Ziff. II.3.1 Verkauf Eigenheim – Besteuerung der Zinsen und Meldepflicht",
    "pfad": [
     "II 2. Säule",
@@ -322,7 +322,7 @@
    "ziffer": "II.3.1"
   },
   {
-   "start": 329,
+   "start": 312,
    "titel": "Ziff. II.3.1 Vorsorgefall während Parkierung des Verkaufserlöses",
    "pfad": [
     "II 2. Säule",
@@ -342,7 +342,7 @@
    "ziffer": "II.3.1"
   },
   {
-   "start": 337,
+   "start": 320,
    "titel": "Ziff. II.3.2 Neukauf nach zwei Jahren oder Verzicht – Rückzahlung an Pensionskasse",
    "pfad": [
     "II 2. Säule",
@@ -361,7 +361,7 @@
    "ziffer": "II.3.2"
   },
   {
-   "start": 348,
+   "start": 331,
    "titel": "Ziff. II.4 Verpfändung von Vorsorgeguthaben und Pfandverwertung",
    "pfad": [
     "II 2. Säule",
@@ -379,7 +379,7 @@
    "ziffer": "II.4"
   },
   {
-   "start": 370,
+   "start": 353,
    "titel": "Ziff. II.5.1 Pflichten gegenüber dem Vorsorgenehmer – Bescheinigung",
    "pfad": [
     "II 2. Säule",
@@ -398,7 +398,7 @@
    "ziffer": "II.5.1"
   },
   {
-   "start": 381,
+   "start": 364,
    "titel": "Ziff. II.5.2 Pflichten gegenüber der ESTV – Meldung innert 30 Tagen",
    "pfad": [
     "II 2. Säule",
@@ -417,7 +417,7 @@
    "ziffer": "II.5.2"
   },
   {
-   "start": 400,
+   "start": 383,
    "titel": "Ziff. II.6 Aufgaben der ESTV – Register und Kontoauszug",
    "pfad": [
     "II 2. Säule",
@@ -433,7 +433,7 @@
    "ziffer": "II.6"
   },
   {
-   "start": 412,
+   "start": 395,
    "titel": "Ziff. III WEF mit Mitteln der Säule 3a",
    "pfad": [
     "III Säule 3a"
@@ -451,7 +451,7 @@
    "ziffer": "III"
   },
   {
-   "start": 428,
+   "start": 411,
    "titel": "Ziff. IV Inkrafttreten und Empfehlung an die Kantone",
    "pfad": [
     "IV Inkrafttreten"
@@ -465,5 +465,7 @@
    "zusammenfassung": "Das Kreisschreiben gilt ab sofort (3. Oktober 2007), ersetzt das KS Nr. 23 vom 5. Mai 1995; die SSK empfiehlt es den Kantonen.",
    "ziffer": "IV"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

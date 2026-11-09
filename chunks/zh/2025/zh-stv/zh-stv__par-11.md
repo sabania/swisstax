@@ -9,7 +9,7 @@ artikel: "§ 11"
 seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › C. Form und Zustellung von Verfügungen und Entscheiden › § 11 StV ZH – 4. Öffentliche Bekanntmachung · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › C. Form und Zustellung von Verfügungen und Entscheiden › § 11 StV ZH – 4. Öffentliche Bekanntmachung · S. 3
 
 ### § 11 StV ZH – 4. Öffentliche Bekanntmachung
 

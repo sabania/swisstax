@@ -8,7 +8,7 @@ titel: "Art. 244 StG AR – 2. Versuchtes Delikt"
 artikel: "Art. 244"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 244 2. Versuchtes Delikt
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Kapitel: Steuerstrafrecht › 1. Verletzung von Verfahrenspflichten und Steuerhinterziehung › Art. 244 2. Versuchtes Delikt
 
 ### Art. 244 StG AR – 2. Versuchtes Delikt
 

@@ -7,7 +7,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Ziff. 1.1 Dach – Abziehbarkeit Unterhalt/Anlagekosten",
    "pfad": [
     "1 Gebäude aussen",
@@ -29,7 +29,7 @@
    "zusammenfassung": "Dachunterhalt, gleichwertiger Dachersatz, Dachrinne und Blitzableiter-Reparatur sind zu 1/1 abziehbar; Neueinbau Blitzableiter und Ausbau Dachwohnraum/Dachgaube 1/1 nicht abziehbar; thermische Isolation als Energiesparmassnahme (E)."
   },
   {
-   "start": 40,
+   "start": 24,
    "titel": "Ziff. 1.2 Fassaden, Fenster, Insektenschutz, Rollläden",
    "pfad": [
     "1 Gebäude aussen",
@@ -51,7 +51,7 @@
    "zusammenfassung": "Gleichwertige Fassaden- und Fensterrenovation abziehbar (1/1), Isolation/Isolierglasfenster als Energiesparmassnahme E; Neueinbau Rollläden und Neuanschaffung Insektenschutz sind Anlagekosten."
   },
   {
-   "start": 58,
+   "start": 42,
    "titel": "Ziff. 1.2 Haustüren, Garagentore, Sonnenstoren",
    "pfad": [
     "1 Gebäude aussen",
@@ -71,7 +71,7 @@
    "zusammenfassung": "Gleichwertiger Ersatz von Haus-, Keller- und Garagentüren sowie Sonnenstoren und Ersatz mit Motorisierung 1/1 abziehbar bzw. Anlagekosten bei Neueinbau je nach Spalte."
   },
   {
-   "start": 71,
+   "start": 55,
    "titel": "Ziff. 1.2 Wintergarten, Balkonverglasung, Windfang",
    "pfad": [
     "1 Gebäude aussen",
@@ -91,7 +91,7 @@
    "zusammenfassung": "Sanierung/Reparatur und gleichwertiger Ersatz von Wintergarten und Balkonverglasung abziehbar, Neuerstellung nicht; unbeheizter Windfang-Neubau als Energiesparmassnahme E."
   },
   {
-   "start": 85,
+   "start": 69,
    "titel": "Ziff. 2 Gebäude innen – Grundrissveränderung, Innenausbau",
    "pfad": [
     "2 Gebäude innen",
@@ -113,7 +113,7 @@
    "zusammenfassung": "Wohnraumerweiterung und Grundrissveränderungen sind nicht abziehbar; gleichwertiger Ersatz von Bodenbelägen, Wandbelägen, Zimmertüren und Malerarbeiten abziehbar (Maler bei Anbauten nicht)."
   },
   {
-   "start": 111,
+   "start": 95,
    "titel": "Ziff. 3.1–3.2 Küche und Sanitäre Installationen",
    "pfad": [
     "3 Installationen",
@@ -135,7 +135,7 @@
    "zusammenfassung": "Gleichwertiger Ersatz Küche und Sanitär 1/1 abziehbar; Ersatz mit erheblicher Komfortverbesserung 2/3 abziehbar, 1/3 nicht abziehbar; Neuinstallationen und erstmalige Anschaffungen nicht abziehbar."
   },
   {
-   "start": 139,
+   "start": 123,
    "titel": "Ziff. 3.3–3.4 Elektroinstallationen, Glasfaser, Ladestation, Alarmanlage, Lift",
    "pfad": [
     "3 Installationen",
@@ -159,7 +159,7 @@
    "zusammenfassung": "Gleichwertiger Ersatz abziehbar, Erstanschaffung/Erweiterung nicht; erstmalige bidirektionale Ladestation 3/4 abziehbar (E), 1/4 nicht abziehbar; Neueinbau Lift nicht abziehbar."
   },
   {
-   "start": 167,
+   "start": 151,
    "titel": "Ziff. 4.1 Heizungs- und Lüftungsinstallationen – Wartung, Heizungssystem",
    "pfad": [
     "4 Heizung, Energiegewinnung",
@@ -181,7 +181,7 @@
    "zusammenfassung": "Wartung und Reparatur abziehbar; vollständiger Ersatz durch Heizung mit erneuerbarer Energie, Öltank-Entfernung beim Ersatz und Umstellung auf Bodenheizung als Energiesparmassnahme E abziehbar."
   },
   {
-   "start": 184,
+   "start": 168,
    "titel": "Ziff. 4.1 Wärmecontracting, Klimaanlage und Lüftung",
    "pfad": [
     "4 Heizung, Energiegewinnung",
@@ -202,7 +202,7 @@
    "zusammenfassung": "Contracting: Amortisationsraten bei Neubau nicht, bei Ersatz abziehbar; nicht aufteilbare Grundkosten 1/2 abziehbar und 1/2 nicht; Klimaanlage erstmalig nicht, gleichwertiger Ersatz abziehbar."
   },
   {
-   "start": 199,
+   "start": 183,
    "titel": "Ziff. 4.2 Energiegewinnung – Fernwärme, Photovoltaik, Boiler",
    "pfad": [
     "4 Heizung, Energiegewinnung",
@@ -224,7 +224,7 @@
    "zusammenfassung": "Photovoltaik bei bestehenden Bauten und Fernwärmeanschluss mit Ausserbetriebnahme der Heizung als E abziehbar; PV bei Neubau (innert 2 Jahren) nicht abziehbar; laufende Betriebskosten abziehbar."
   },
   {
-   "start": 223,
+   "start": 207,
    "titel": "Ziff. 4.3 Kaminanlagen, Cheminées, Schweden- und Speicheröfen",
    "pfad": [
     "4 Heizung, Energiegewinnung",
@@ -245,7 +245,7 @@
    "zusammenfassung": "Kaminsanierung im Zusammenhang mit Ersatz des Wärmeerzeugers als E abziehbar; erstmaliger Einbau von Cheminée/Ofen nicht abziehbar, gleichwertiger Ersatz abziehbar."
   },
   {
-   "start": 234,
+   "start": 218,
    "titel": "Ziff. 5.1 Gartenunterhalt – Geräte, Pflanzen und Gartenanlage",
    "pfad": [
     "5 Umgebung",
@@ -266,7 +266,7 @@
    "zusammenfassung": "Ordentlicher Gartenunterhalt, Rasenpflege und gleichwertiger Ersatz mehrjähriger Pflanzen 1/1 abziehbar; erstmaliges Ansetzen und Geräteanschaffung gemäss Tabelle."
   },
   {
-   "start": 264,
+   "start": 248,
    "titel": "Ziff. 5.1 Garten – Blumengarten, Gartenmöbel, Lebhäge, Terrain, Stützmauern",
    "pfad": [
     "5 Umgebung",
@@ -287,7 +287,7 @@
    "zusammenfassung": "Gartenmöbel und Topfpflanzen nicht abziehbar; gleichwertiger Ersatz Lebhag abziehbar, Ersatz durch hochwertige Häge 1/3 abziehbar und 2/3 nicht; Terrainveränderungen/Gartenumgestaltung und erstmalige Erstellung nicht abziehbar."
   },
   {
-   "start": 284,
+   "start": 268,
    "titel": "Ziff. 5.1 Böschungssicherung, Sitzplatz, Pergola, Zäune, Drainage, Lärm- und Hochwasserschutz",
    "pfad": [
     "5 Umgebung",
@@ -308,7 +308,7 @@
    "zusammenfassung": "Gleichwertiger Ersatz sowie Sanierung/Reparatur abziehbar, erstmalige Erstellung von Pergola, Zäunen, Lärm- und Hochwasserschutz nicht (Ausnahme Lärmschutz bei überschrittenen Grenzwerten)."
   },
   {
-   "start": 309,
+   "start": 293,
    "titel": "Ziff. 5.2 Umgebungsarbeiten – Vorplätze, Carports, Schwimmbad",
    "pfad": [
     "5 Umgebung",
@@ -329,7 +329,7 @@
    "zusammenfassung": "Vorplatz bei gleicher Qualität abziehbar; Kiesplatz zu Teer/Verbundstein 1/4 abziehbar, 3/4 nicht abziehbar; Schwimmbad Ersatz, Service, Reparatur, Folie und Reinigung abziehbar, wenn in der Mietwertschätzung enthalten."
   },
   {
-   "start": 331,
+   "start": 315,
    "titel": "Ziff. 5.3 Anschlusskosten und -gebühren (Kanalisation, ARA, Retention)",
    "pfad": [
     "5 Umgebung",
@@ -350,7 +350,7 @@
    "zusammenfassung": "Einmalige Anschluss-/Klärbeiträge und Anstösserbeiträge nicht abziehbar; Anpassung an Norm (Ersatz Klär-/Jauchegrube) 2/3 abziehbar, 1/3 nicht; Umstellung Misch- auf Trennsystem 1/2 abziehbar."
   },
   {
-   "start": 344,
+   "start": 328,
    "titel": "Ziff. 6 Diverse Kosten – Architekt, Baubewilligung, Schädlinge, Feuerschutz, Mobiliar",
    "pfad": [
     "6 Diverse Kosten"
@@ -372,7 +372,7 @@
    "zusammenfassung": "Architekturleistungen anteilmässig zum Liegenschaftsunterhalt abziehbar; Marderschutz, Schädlingsbekämpfung und Feuerschutz-Reparaturen abziehbar; Mobiliar und Werkzeuge nicht abziehbar."
   },
   {
-   "start": 362,
+   "start": 346,
    "titel": "Ziff. 6 Diverse Kosten – Reinigung, Schneeräumung, Versicherungsprämien, Besitzesabgaben",
    "pfad": [
     "6 Diverse Kosten",
@@ -394,7 +394,7 @@
    "zusammenfassung": "Baureinigung bei Renovation abziehbar; Haus-/Fensterreinigung, Schneeräumung, Gebäudeversicherungs- und Hausratprämien, HEV-Beitrag und Verwaltungskosten sind Lebenshaltung, nicht als Unterhalt abziehbar (siehe Spalten)."
   },
   {
-   "start": 379,
+   "start": 363,
    "titel": "Ziff. 6 Diverse Kosten – nutzungsbedingte Kosten und Grundgebühren",
    "pfad": [
     "6 Diverse Kosten",
@@ -415,7 +415,7 @@
    "zusammenfassung": "Wiederkehrende Nebenkosten (Wasser, Strom, Heizung, Telefon, Serafe, Kehricht) bei Selbstnutzung der Lebenshaltung zugeordnet; bei fremdvermieteter Liegenschaft nur bei Deklaration der Bruttomieterträge abziehbar."
   },
   {
-   "start": 404,
+   "start": 388,
    "titel": "Ziff. 6 Stockwerkeigentümerschaft (Erneuerungsfonds, Hauswart) und Anwaltskosten",
    "pfad": [
     "6 Diverse Kosten",
@@ -434,5 +434,7 @@
    ],
    "zusammenfassung": "Einlagen in den Erneuerungsfonds 1/1 nicht abziehbar; Hauswartkosten 1/2 abziehbar, 1/2 nicht; Anwaltskosten zur Werterhaltung des Grundstücks abziehbar, aussichtsloses Rechtsmittel nicht."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

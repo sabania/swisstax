@@ -9,7 +9,7 @@ ziffer: "14"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: wegleitung}}
 ---
-> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 14. Versicherungsprämien und Sparzinsen · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 14. Versicherungsprämien und Sparzinsen · S. 1
 
 14.   Versicherungs-   gemeinsam Pflichtige   Übrige   27
     Prämien   maximaler Abzug   Fr. 6’800   Fr.   3’400

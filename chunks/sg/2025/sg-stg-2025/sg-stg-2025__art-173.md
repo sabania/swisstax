@@ -8,7 +8,7 @@ titel: "Art. 173 StG SG – b) Auskunftspflicht Dritter"
 artikel: "Art. 173"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 173 b) Auskunftspflicht Dritter
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 173 b) Auskunftspflicht Dritter
 
 ### Art. 173 StG SG – b) Auskunftspflicht Dritter
 

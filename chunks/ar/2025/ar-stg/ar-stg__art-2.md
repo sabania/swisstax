@@ -8,7 +8,7 @@ titel: "Art. 2 StG AR – Steuereinheit"
 artikel: "Art. 2"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 1. Allgemeine Bestimmungen › Art. 2 Steuereinheit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 1. Allgemeine Bestimmungen › Art. 2 Steuereinheit
 
 ### Art. 2 StG AR – Steuereinheit
 

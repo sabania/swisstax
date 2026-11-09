@@ -5,12 +5,12 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "skip": true,
    "titel": "Kopf und Adressblock"
   },
   {
-   "start": 40,
+   "start": 24,
    "titel": "Einleitung – geldwerte Leistungen, Verrechnungssteuer 35 %, Formular 102",
    "pfad": [
     "Einleitung"
@@ -29,7 +29,7 @@
    ]
   },
   {
-   "start": 69,
+   "start": 53,
    "titel": "Ziff. 1 Anwendung – Vorschüsse oder Darlehen an Beteiligte",
    "pfad": [
     "Anwendung der Zinssätze",
@@ -45,7 +45,7 @@
    "ziffer": "1"
   },
   {
-   "start": 90,
+   "start": 74,
    "titel": "Ziff. 2 Anwendung – Vorschüsse oder Darlehen von Beteiligten (safe haven)",
    "pfad": [
     "Anwendung der Zinssätze",
@@ -62,7 +62,7 @@
    "ziffer": "2"
   },
   {
-   "start": 113,
+   "start": 97,
    "titel": "Ziff. 3 Bewertung von Unternehmen",
    "pfad": [
     "Anwendung der Zinssätze",
@@ -78,7 +78,7 @@
    "ziffer": "3"
   },
   {
-   "start": 120,
+   "start": 104,
    "titel": "Tabelle Steuerlich anerkannte Zinssätze Fremdwährungen 2020–2025",
    "pfad": [
     "Zinssatztabelle"
@@ -92,5 +92,7 @@
    ],
    "zusammenfassung": "Tabelle der Zinssätze 2025 u. a. EUR 2.50, USD 4.25, GBP 4.50, JPY 1.25, AUD 4.50, CAD 3.25 (Vorjahre 2020–2024 ebenfalls aufgeführt)."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

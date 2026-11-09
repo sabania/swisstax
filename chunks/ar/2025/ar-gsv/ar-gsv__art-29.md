@@ -8,7 +8,7 @@ titel: "Art. 29 GSV AR – Aufhebung und Änderung bisherigen Rechts"
 artikel: "Art. 29"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · VIII. Übergangs- und Schlussbestimmungen › Art. 29 Aufhebung und Änderung bisherigen Rechts
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · VIII. Übergangs- und Schlussbestimmungen › Art. 29 Aufhebung und Änderung bisherigen Rechts
 
 ### Art. 29 GSV AR – Aufhebung und Änderung bisherigen Rechts
 

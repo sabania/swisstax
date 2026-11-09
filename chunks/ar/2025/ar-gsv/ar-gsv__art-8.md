@@ -8,7 +8,7 @@ titel: "Art. 8 GSV AR – Ermittlung der Schätzwerte"
 artikel: "Art. 8"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 8 Ermittlung der Schätzwerte
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 8 Ermittlung der Schätzwerte
 
 ### Art. 8 GSV AR – Ermittlung der Schätzwerte
 

@@ -8,7 +8,7 @@ titel: "Anhang QStV (Teil 3/4)"
 artikel: "Anhang"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · QStV · Anhang
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026 · QStV · Anhang
 
 ### Anhang QStV (Fortsetzung)
 

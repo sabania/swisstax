@@ -9,7 +9,7 @@ artikel: "§ 83"
 seiten: "42"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Zeitliche Bemessung › § 83 StG ZH – I. Steuerperiode · S. 42
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Zeitliche Bemessung › § 83 StG ZH – I. Steuerperiode · S. 42
 
 ### § 83 StG ZH – I. Steuerperiode
 

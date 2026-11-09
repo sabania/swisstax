@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0037
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8 Mitteilungspflicht bei Übertragung (zehn Jahre Beiträge und Einkäufe)"
 ziffer: "8"
 seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 8. Bescheinigungspflicht · S. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 8. Bescheinigungspflicht · S. 11
 
 Im Falle einer Übertragung eines Säule 3a-Guthabens in eine andere anerkannte Vorsorge-
 form (Art. 3a Abs. 1 Bst. b BVV3) muss die übertragende Einrichtung der neuen Einrichtung

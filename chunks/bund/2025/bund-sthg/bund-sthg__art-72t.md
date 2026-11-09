@@ -2,13 +2,13 @@
 id: bund-sthg__art-72t
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 72t StHG – Anpassung der kantonalen Gesetzgebung an die Änderung vom 20. März 2015"
 artikel: "Art. 72t"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Achter Titel: Schlussbestimmungen › 1. Kapitel: Durchführung durch die Kantone › Art. 72t Anpassung der kantonalen Gesetzgebung an die Änderung vom 20. März 2015
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Achter Titel: Schlussbestimmungen › 1. Kapitel: Durchführung durch die Kantone › Art. 72t Anpassung der kantonalen Gesetzgebung an die Änderung vom 20. März 2015
 
 ### Art. 72t StHG – Anpassung der kantonalen Gesetzgebung an die Änderung vom 20. März 2015
 

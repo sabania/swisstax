@@ -8,7 +8,7 @@ titel: "Art. 248 StG SG – Steuerhinterziehung a) Vollendete Steuerhinterziehun
 artikel: "Art. 248"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 248 Steuerhinterziehung a) Vollendete Steuerhinterziehung 1. Grundsatz
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › I. Straftatbestände und strafbare Personen › Art. 248 Steuerhinterziehung a) Vollendete Steuerhinterziehung 1. Grundsatz
 
 ### Art. 248 StG SG – Steuerhinterziehung a) Vollendete Steuerhinterziehung 1. Grundsatz
 

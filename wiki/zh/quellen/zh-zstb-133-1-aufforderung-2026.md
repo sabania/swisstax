@@ -2,15 +2,23 @@
 typ: quelle
 id: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 titel: "ZStB 133.1: Aufforderung zur Einreichung 2026 (Steuererklärung 2025)"
 generiert: tools/build_index.py
 ---
 # ZStB 133.1 (Aufforderung 2026): ZStB 133.1: Aufforderung zur Einreichung 2026 (Steuererklärung 2025)
 
-- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025
+- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-133-1/ZStB-Nr-133-1_Aufforderung-2026.pdf> · lokal: [zh-zstb-133-1-aufforderung-2026.pdf](../../../raw/zh/2025/zh-zstb-133-1-aufforderung-2026.pdf) · Volltext: [zh-zstb-133-1-aufforderung-2026.md](../../../sources/zh/2025/zh-zstb-133-1-aufforderung-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `eeefffcc7585722a…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2026-01-01 bis 2026-12-31 · ersetzt durch `zh-zstb-133-1`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-133-1-aufforderung-2026`).
+
+- [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

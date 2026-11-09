@@ -8,7 +8,7 @@ titel: "Art. 6 DBG (Teil 2/2)"
 artikel: "Art. 6"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerliche Zugehörigkeit › 3. Abschnitt: Umfang der Steuerpflicht › Art. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 1. Kapitel: Steuerliche Zugehörigkeit › 3. Abschnitt: Umfang der Steuerpflicht › Art. 6
 
 ### Art. 6 DBG (Fortsetzung)
 

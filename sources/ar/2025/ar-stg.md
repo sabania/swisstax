@@ -14,6 +14,8 @@ sha256: 7961b8ef00a75c6166858e62ff3f721cf08d55481e5f01bd8113a7f7f47a1eea
 abgerufen: '2026-11-09'
 einheiten: 328
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
 ---
 # Steuergesetz AR (bGS 621.11) – Version gültig ab 01.01.2025
 

@@ -8,7 +8,7 @@ titel: "Art. 193a StG AR – 1a. Vereinfachte Nachbesteuerung von Erben"
 artikel: "Art. 193a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 193a 1a. Vereinfachte Nachbesteuerung von Erben
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › F. Änderung rechtskräftiger Entscheide › Art. 193a 1a. Vereinfachte Nachbesteuerung von Erben
 
 ### Art. 193a StG AR – 1a. Vereinfachte Nachbesteuerung von Erben
 

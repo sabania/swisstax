@@ -8,7 +8,7 @@ titel: "Art. 1 VKP – Gegenstand"
 artikel: "Art. 1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · VKP · Art. 1 Gegenstand
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · VKP · Art. 1 Gegenstand
 
 ### Art. 1 VKP – Gegenstand
 

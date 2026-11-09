@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0027
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.1.3 Ausland-KER nach Art. 5 Abs. 1quater Bst. a und b VStG"
 ziffer: "5.1.3"
 seiten: "13-14"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 5 Kotierte Gesellschaften › 5.1 Ausschüttungsregel · S. 13–14
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 5 Kotierte Gesellschaften › 5.1 Ausschüttungsregel · S. 13–14
 
 5.1.3. Ausland-KER nach Artikel 5 Absatz 1quater Buchstaben a und b VStG
 

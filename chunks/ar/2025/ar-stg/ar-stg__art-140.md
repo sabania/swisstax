@@ -8,7 +8,7 @@ titel: "Art. 140 StG AR – IV. Steuerpflicht a) Steuerliche Zugehörigkeit"
 artikel: "Art. 140"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 140 IV. Steuerpflicht a) Steuerliche Zugehörigkeit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 140 IV. Steuerpflicht a) Steuerliche Zugehörigkeit
 
 ### Art. 140 StG AR – IV. Steuerpflicht a) Steuerliche Zugehörigkeit
 

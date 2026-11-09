@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0017
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.6 Einkäufe Säule 3a – Umfang (kleiner Abzug), Jahresbeitragslücke, Fristen"
 ziffer: "5.6"
 seiten: "6-7"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.6 Einkäufe in die Säule 3a · S. 6–7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.6 Einkäufe in die Säule 3a · S. 6–7
 
 Ein Einkauf in die Säule 3a kann gemäss Artikel 7 Absatz 1 Buchstabe 1 BVV3 pro Steuer-
 jahr maximal im Umfang des «kleinen Abzugs», d.h. im Umfang von höchstes 8 Prozent des

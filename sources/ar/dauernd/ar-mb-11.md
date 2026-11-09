@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/11_Steuererlass__alle_Jahre_.pdf
 raw: raw/ar/dauernd/ar-mb-11.pdf
@@ -13,6 +14,7 @@ sha256: 6213779d4a585ee687ae20cdbc2d227c47177abbbe86cc35a9e8df24e1f028b1
 abgerufen: '2026-11-09'
 seiten: 4
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: verfahren
 ---
 # Merkblatt 11: Steuererlass
 

@@ -2,14 +2,14 @@
 id: bund-ks-36__c0007
 quelle: bund-ks-36
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.1 Grundsatz – Praxis des BdBSt gilt für das DBG (BGE 2.12.1999)"
 ziffer: "4.1"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.1 · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.1 · S. 4
 
 4.   Die selbständige Erwerbstätigkeit mit Wertschriften
     (Gewerbsmässiger Wertschriftenhandel)

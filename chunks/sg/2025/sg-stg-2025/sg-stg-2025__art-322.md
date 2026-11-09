@@ -8,7 +8,7 @@ titel: "Art. 322 StG SG – Übergangsbestimmung des XIV. Nachtrags vom 14. Augu
 artikel: "Art. 322"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 322 Übergangsbestimmung des XIV. Nachtrags vom 14. August 2018
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 322 Übergangsbestimmung des XIV. Nachtrags vom 14. August 2018
 
 ### Art. 322 StG SG – Übergangsbestimmung des XIV. Nachtrags vom 14. August 2018
 

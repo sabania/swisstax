@@ -8,7 +8,7 @@ titel: "Art. 32 StV AR – Landwirtschaftliche Grundstücke (Art. 48 StG)"
 artikel: "Art. 32"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 32 Landwirtschaftliche Grundstücke (Art. 48 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 1. Besteuerung natürlicher Personen [2] › C. Vermögenssteuer › Art. 32 Landwirtschaftliche Grundstücke (Art. 48 StG)
 
 ### Art. 32 StV AR – Landwirtschaftliche Grundstücke (Art. 48 StG)
 

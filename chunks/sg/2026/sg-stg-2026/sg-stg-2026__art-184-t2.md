@@ -8,7 +8,7 @@ titel: "Art. 184 StG SG – a) für Quellensteuer 1. Pflichten des Schuldners de
 artikel: "Art. 184"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 184 a) für Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 184 a) für Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung
 
 ### Art. 184 StG SG – a) für Quellensteuer 1. Pflichten des Schuldners der steuerbaren Leistung (Fortsetzung)
 

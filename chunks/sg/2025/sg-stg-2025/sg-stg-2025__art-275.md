@@ -8,7 +8,7 @@ titel: "Art. 275 StG SG – Verjährung der Strafverfolgung"
 artikel: "Art. 275"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · VIERTER TEIL: STEUERSTRAFRECHT › Zweiter Abschnitt: Steuervergehen › Art. 275 Verjährung der Strafverfolgung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · VIERTER TEIL: STEUERSTRAFRECHT › Zweiter Abschnitt: Steuervergehen › Art. 275 Verjährung der Strafverfolgung
 
 ### Art. 275 StG SG – Verjährung der Strafverfolgung
 

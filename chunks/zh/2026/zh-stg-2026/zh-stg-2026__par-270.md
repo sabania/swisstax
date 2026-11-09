@@ -9,7 +9,7 @@ artikel: "§ 270"
 seiten: "90-91"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 270 StG ZH – 3. Renten und Kapitalzahlungen aus Einrichtungen der beruflichen Vorsorge · S. 90–91
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Vierter Teil: Schlussbestimmungen › § 270 StG ZH – 3. Renten und Kapitalzahlungen aus Einrichtungen der beruflichen Vorsorge · S. 90–91
 
 ### § 270 StG ZH – 3. Renten und Kapitalzahlungen aus Einrichtungen der beruflichen Vorsorge
 

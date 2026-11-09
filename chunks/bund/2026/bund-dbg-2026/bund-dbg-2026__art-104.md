@@ -8,7 +8,7 @@ titel: "Art. 104 DBG – Organisation"
 artikel: "Art. 104"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 2. Kapitel: Kantonale Behörden › 1. Abschnitt: Organisation, elektronische Verfahren und Aufsicht › Art. 104 Organisation
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 2. Kapitel: Kantonale Behörden › 1. Abschnitt: Organisation, elektronische Verfahren und Aufsicht › Art. 104 Organisation
 
 ### Art. 104 DBG – Organisation
 

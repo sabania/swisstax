@@ -9,7 +9,7 @@ ziffer: "45–48"
 seiten: "9-10"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › VI. Industrielle oder gewerbliche Liegenschaften › 1. Allgemeine Grundsätze · S. 9–10
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · A. Vermögenssteuerwerte › VI. Industrielle oder gewerbliche Liegenschaften › 1. Allgemeine Grundsätze · S. 9–10
 
 VI. Industrielle oder gewerbliche Liegenschaften
 

@@ -8,7 +8,7 @@ titel: "Art. 207 StG SG – b) Auskunfts- und Bescheinigungspflichten"
 artikel: "Art. 207"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 207 b) Auskunfts- und Bescheinigungspflichten
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › VII. Inventar › Art. 207 b) Auskunfts- und Bescheinigungspflichten
 
 ### Art. 207 StG SG – b) Auskunfts- und Bescheinigungspflichten
 

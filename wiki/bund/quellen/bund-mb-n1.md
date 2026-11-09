@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-mb-n1
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "Merkblatt N1/2007: Naturalbezüge Selbständigerwerbende"
 generiert: tools/build_index.py
 ---
 # MB N1/2007: Merkblatt N1/2007: Naturalbezüge Selbständigerwerbende
 
-- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Bund · **Typ:** Merkblatt · **gilt für Steuerjahre:** 2025, 2026, 2027
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/GZQy304UTaia/dbst-mb-n1-2007-de.pdf> · lokal: [bund-mb-n1.pdf](../../../raw/bund/dauernd/bund-mb-n1.pdf) · Volltext: [bund-mb-n1.md](../../../sources/bund/dauernd/bund-mb-n1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `8089d88d76e2b251…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2022-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-mb-n1`).
+
+- [wiki/themen/selbstaendige-naturalbezuege.md](../../themen/selbstaendige-naturalbezuege.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

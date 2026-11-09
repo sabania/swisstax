@@ -2,14 +2,14 @@
 id: bund-ks-45__c0050
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.6 Grenzgänger Deutschland – Nichtrückkehrtage (Gre-3)"
 ziffer: "4.6"
 seiten: "17"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.6 Grenzgänger aus Deutschland · S. 17
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 4 Grundsätze zur Tarifanwendung › 4.6 Grenzgänger aus Deutschland · S. 17
 
 In Deutschland ansässige Arbeitnehmer, die an mehr als 60 Arbeitstagen im Jahr aus beruf-
 lich bedingten Gründen verhindert sind, an ihren Wohnsitz in Deutschland zurückzukehren

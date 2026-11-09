@@ -9,7 +9,7 @@ artikel: "§ 4"
 seiten: "97"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 4 StG ZH – Unterstützung der Landeskirchen · S. 97
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 4 StG ZH – Unterstützung der Landeskirchen · S. 97
 
 ### § 4 StG ZH – Unterstützung der Landeskirchen
 

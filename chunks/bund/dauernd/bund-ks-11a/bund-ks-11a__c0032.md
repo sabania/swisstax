@@ -9,7 +9,7 @@ ziffer: "4.3.7–4.3.8"
 seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 10
 
 4.3.8   Kosten für Hilfsmittel, Pflegeartikel und Kleider
 Als behinderungsbedingte Kosten gelten Anschaffungs- oder Mietauslagen für Hilfsmittel, Ge

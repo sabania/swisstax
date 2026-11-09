@@ -8,7 +8,7 @@ titel: "Art. 99a DBG – Nachträgliche ordentliche Veranlagung auf Antrag"
 artikel: "Art. 99a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 99a Nachträgliche ordentliche Veranlagung auf Antrag
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Teil: Quellensteuern für natürliche und juristische Personen › Zweiter Titel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz › Art. 99a Nachträgliche ordentliche Veranlagung auf Antrag
 
 ### Art. 99a DBG – Nachträgliche ordentliche Veranlagung auf Antrag
 

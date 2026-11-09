@@ -9,7 +9,7 @@ ziffer: "4.3.7–4.3.8"
 seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9
 
 Abzugsfähig sind auch die Mehrkosten, die im Zusammenhang mit der Anfertigung von spe-
 ziellen Kleidern oder Schuhen entstehen. Ebenso sind die Mehrkosten zum Abzug zugelas-

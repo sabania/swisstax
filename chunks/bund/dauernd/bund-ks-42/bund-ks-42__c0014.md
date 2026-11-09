@@ -2,14 +2,14 @@
 id: bund-ks-42__c0014
 quelle: bund-ks-42
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.2 Allgemeiner Abzug – kein Pauschalabzug, pro Ehegatte (Teil 2/2)"
 ziffer: "4.2"
 seiten: "6-7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · 4 Steuerliche Behandlung › 4.2 Allgemeiner Abzug · S. 6–7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 42 · 4 Steuerliche Behandlung › 4.2 Allgemeiner Abzug · S. 6–7
 
 jedem Ehegatten, jeder eingetragenen Partnerin und jedem eingetragenen Partner zu. Aufgrund
 dieser gesetzlichen Konzeption ist für dessen Geltendmachung kein Zusammenhang mit Er-

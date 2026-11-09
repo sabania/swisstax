@@ -9,7 +9,7 @@ ziffer: "3.2.10"
 seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 6
 
 3.2.10   Besondere Ernährungskosten
 Die Mehrkosten einer ärztlich angeordneten, lebensnotwendigen Sonderernährung (Einnahme

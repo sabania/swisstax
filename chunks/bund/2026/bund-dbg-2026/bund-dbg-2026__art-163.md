@@ -8,7 +8,7 @@ titel: "Art. 163 DBG – Zahlung"
 artikel: "Art. 163"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 3. Kapitel: Steuerbezug › Art. 163 Zahlung
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 3. Kapitel: Steuerbezug › Art. 163 Zahlung
 
 ### Art. 163 DBG – Zahlung
 

@@ -8,7 +8,7 @@ titel: "Art. 274 StG SG – Verfahren"
 artikel: "Art. 274"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · VIERTER TEIL: STEUERSTRAFRECHT › Zweiter Abschnitt: Steuervergehen › Art. 274 Verfahren
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · VIERTER TEIL: STEUERSTRAFRECHT › Zweiter Abschnitt: Steuervergehen › Art. 274 Verfahren
 
 ### Art. 274 StG SG – Verfahren
 

@@ -8,7 +8,7 @@ titel: "Art. 22 DBG (Teil 3/3)"
 artikel: "Art. 22"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerbare Einkünfte › 6. Abschnitt: Einkünfte aus Vorsorge › Art. 22
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 1. Kapitel: Steuerbare Einkünfte › 6. Abschnitt: Einkünfte aus Vorsorge › Art. 22
 
 ### Art. 22 DBG (Fortsetzung)
 

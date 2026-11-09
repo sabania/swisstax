@@ -13,6 +13,8 @@ sha256: 65517bb763f5946ce251da67ea91bc51a743abbdc060f2f5f519a557c6ca57e2
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2024-01-01'
 ---
 # Steuertarif natürliche Personen ab 2024
 

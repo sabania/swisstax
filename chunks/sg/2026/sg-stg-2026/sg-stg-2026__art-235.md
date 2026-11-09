@@ -8,7 +8,7 @@ titel: "Art. 235 StG SG – c) Verfahren"
 artikel: "Art. 235"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Zweiter Abschnitt: Einkommens- und Vermögenssteuern › Art. 235 c) Verfahren
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · DRITTER TEIL: GEMEINDESTEUERN › Zweiter Abschnitt: Einkommens- und Vermögenssteuern › Art. 235 c) Verfahren
 
 ### Art. 235 StG SG – c) Verfahren
 

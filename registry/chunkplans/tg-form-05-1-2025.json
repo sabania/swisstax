@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Ziff. A.1–9 Aufwendungen Krankheits-/Unfall- und behinderungsbedingte Kosten",
    "pfad": [
     "Formular 5.1",
@@ -29,7 +29,7 @@
    "zusammenfassung": "Aufwendungen: Selbstbehalt/Franchise, Arzt, Zahnarzt, Pflegepersonal, Spital, Therapien, Prothesen, Total (A); Belege geordnet beilegen."
   },
   {
-   "start": 53,
+   "start": 38,
    "titel": "Ziff. B.1–6 Vergütungen Dritter und Anteil Lebenshaltungskosten",
    "pfad": [
     "Formular 5.1",
@@ -49,7 +49,7 @@
    "zusammenfassung": "Abzuziehen sind Leistungen von Krankenkasse, Versicherungen, Hilflosenentschädigung AHV/IV/SUVA und Anteil Lebenshaltungskosten (Total B)."
   },
   {
-   "start": 65,
+   "start": 50,
    "titel": "Ziff. C behinderungsbedingte Kosten (Code 350, Ziff. 17)",
    "pfad": [
     "Formular 5.1",
@@ -67,7 +67,7 @@
    "zusammenfassung": "Abzugsfähige behinderungsbedingte Kosten = A minus B, Code 350, Übertrag Steuererklärung Seite 3, Ziffer 17."
   },
   {
-   "start": 77,
+   "start": 62,
    "titel": "Ziff. D Krankheits- und Unfallkosten (Code 364, Ziff. 23.1) – Selbstbehalt 5%",
    "pfad": [
     "Formular 5.1",
@@ -85,5 +85,7 @@
    ],
    "zusammenfassung": "Auslagen abzüglich Selbstbehalt (5% von Ziffer 22 der Steuererklärung); Code 364, Übertrag Seite 3, Ziffer 23.1."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

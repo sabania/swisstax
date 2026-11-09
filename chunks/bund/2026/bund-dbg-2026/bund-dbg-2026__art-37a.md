@@ -8,7 +8,7 @@ titel: "Art. 37a DBG – Vereinfachtes Abrechnungsverfahren"
 artikel: "Art. 37a"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 5. Kapitel: Steuerberechnung › 2. Abschnitt: Sonderfälle › Art. 37a Vereinfachtes Abrechnungsverfahren
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 5. Kapitel: Steuerberechnung › 2. Abschnitt: Sonderfälle › Art. 37a Vereinfachtes Abrechnungsverfahren
 
 ### Art. 37a DBG – Vereinfachtes Abrechnungsverfahren
 

@@ -9,7 +9,7 @@ artikel: "§ 122"
 seiten: "55"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 122 StG ZH – 4. Steuerausweise · S. 55
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 122 StG ZH – 4. Steuerausweise · S. 55
 
 ### § 122 StG ZH – 4. Steuerausweise
 

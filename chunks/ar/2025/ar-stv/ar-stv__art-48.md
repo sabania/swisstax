@@ -8,7 +8,7 @@ titel: "Art. 48 StV AR – Obligatorische nachträgliche ordentliche Veranlagung
 artikel: "Art. 48"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › (1.3.1a.) B. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › Art. 48 Obligatorische nachträgliche ordentliche Veranlagung (Art. 103 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 3. Quellensteuer › (1.3.1a.) B. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton * › Art. 48 Obligatorische nachträgliche ordentliche Veranlagung (Art. 103 StG)
 
 ### Art. 48 StV AR – Obligatorische nachträgliche ordentliche Veranlagung (Art. 103 StG)
 

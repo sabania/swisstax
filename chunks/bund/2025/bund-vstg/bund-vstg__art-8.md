@@ -2,13 +2,13 @@
 id: bund-vstg__art-8
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 8 VStG"
 artikel: "Art. 8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · III. Versicherungsleistungen › 2. Ausnahmen › Art. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · III. Versicherungsleistungen › 2. Ausnahmen › Art. 8
 
 ### Art. 8 VStG
 

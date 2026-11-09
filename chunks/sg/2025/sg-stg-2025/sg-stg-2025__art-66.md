@@ -8,7 +8,7 @@ titel: "Art. 66 StG SG – Steuerperiode"
 artikel: "Art. 66"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › IV. Zeitliche Bemessung › Art. 66 Steuerperiode
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › IV. Zeitliche Bemessung › Art. 66 Steuerperiode
 
 ### Art. 66 StG SG – Steuerperiode
 

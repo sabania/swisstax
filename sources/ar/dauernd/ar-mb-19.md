@@ -6,6 +6,7 @@ jurisdiktion: ar
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/19_WEF-Vorbezug.pdf
 raw: raw/ar/dauernd/ar-mb-19.pdf
@@ -13,6 +14,8 @@ sha256: 20cc87b962e9e9ee9b4d7c0e7d5c1d7500025f0bc222f2cb231830ecbbb0cfa5
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: verfahren
+gilt_ab: '2023-02-01'
 ---
 # Merkblatt 19: WEF-Vorbezug
 

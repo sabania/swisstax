@@ -4,8 +4,7 @@ titel: 'ESTV-Kreisschreiben Nr. 11a: Krankheits-, Unfall- und behinderungsbeding
 kurz: KS 11a
 jurisdiktion: bund
 jahre:
-- 2025
-- 2026
+- 2027
 typ: kreisschreiben
 stand: '2026-05-26'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/zmpC2043uHr7/1-011a-D-2026-de.pdf
@@ -14,6 +13,9 @@ sha256: 156ee589061806b10452536bffe36adaf0ff8ecad0886415fd4e7b34231fcd64
 abgerufen: '2026-11-09'
 seiten: 12
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2027-01-01'
+ersetzt: bund-ks-11
 ---
 # ESTV-Kreisschreiben Nr. 11a: Krankheits-, Unfall- und behinderungsbedingte Kosten
 

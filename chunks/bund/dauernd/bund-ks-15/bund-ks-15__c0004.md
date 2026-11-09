@@ -2,14 +2,14 @@
 id: bund-ks-15__c0004
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1 Einleitung – KS 15 (2007) und Nachfolge 2017, Gutachten SBVg"
 ziffer: "1"
 seiten: "2-3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · 1 Einleitung · S. 2–3
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · 1 Einleitung · S. 2–3
 
 Das Kreisschreiben Nr. 15 der ESTV in der Version vom 7. Februar 2007 (KS 15, Nachfolge-
 Kreisschreiben des KS 4) erläuterte deshalb insbesondere die aktuelle Praxis im Bereich der

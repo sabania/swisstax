@@ -12,6 +12,9 @@ raw: raw/zh/2026/zh-vkp-2026.html
 sha256: d239b98abeaa65c9d337f1d9b127c535b01deab81bd0f35dd7163bcde0ab1e4f
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+ersetzt: zh-vkp-2024-zstb
 ---
 # Verordnung kalte Progression ab 1.1.2026 (OS 80, 273)
 

@@ -8,7 +8,7 @@ titel: "Art. 88 StG AR – b) Verdecktes Eigenkapital"
 artikel: "Art. 88"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › C. Kapitalsteuer › Art. 88 b) Verdecktes Eigenkapital
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 3. Besteuerung juristischer Personen › C. Kapitalsteuer › Art. 88 b) Verdecktes Eigenkapital
 
 ### Art. 88 StG AR – b) Verdecktes Eigenkapital
 

@@ -8,7 +8,7 @@ titel: "Art. 216 StG AR – XII. Ausführungsbestimmungen"
 artikel: "Art. 216"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 216 XII. Ausführungsbestimmungen
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 216 XII. Ausführungsbestimmungen
 
 ### Art. 216 StG AR – XII. Ausführungsbestimmungen
 

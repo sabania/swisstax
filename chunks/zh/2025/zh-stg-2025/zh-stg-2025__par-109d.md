@@ -9,7 +9,7 @@ artikel: "§ 109d"
 seiten: "52"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 109d StG ZH – b. Elektronische Erfassung, Aufbewahrung und Vernichtung von Steuerakten · S. 52
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerverwaltungsbehörden › § 109d StG ZH – b. Elektronische Erfassung, Aufbewahrung und Vernichtung von Steuerakten · S. 52
 
 ### § 109d StG ZH – b. Elektronische Erfassung, Aufbewahrung und Vernichtung von Steuerakten
 

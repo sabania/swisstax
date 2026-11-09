@@ -8,7 +8,7 @@ titel: "Art. 83 StV SG – Inventar a) Inventaraufnahme (Art. 204 StG)"
 artikel: "Art. 83"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 83 Inventar a) Inventaraufnahme (Art. 204 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 83 Inventar a) Inventaraufnahme (Art. 204 StG)
 
 ### Art. 83 StV SG – Inventar a) Inventaraufnahme (Art. 204 StG)
 

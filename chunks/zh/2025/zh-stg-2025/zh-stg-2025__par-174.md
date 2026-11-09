@@ -9,7 +9,7 @@ artikel: "§ 174"
 seiten: "70"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerbezug › § 174 StG ZH – 2. Zinsen · S. 70
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › A. Steuerbezug › § 174 StG ZH – 2. Zinsen · S. 70
 
 ### § 174 StG ZH – 2. Zinsen
 

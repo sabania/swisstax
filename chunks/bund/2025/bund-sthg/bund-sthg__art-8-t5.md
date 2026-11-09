@@ -2,13 +2,13 @@
 id: bund-sthg__art-8-t5
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 8 StHG – Selbständige Erwerbstätigkeit (Teil 5/6)"
 artikel: "Art. 8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · 2. Kapitel: Einkommenssteuer › 1. Abschnitt: Einkünfte › Art. 8 Selbständige Erwerbstätigkeit
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · 2. Kapitel: Einkommenssteuer › 1. Abschnitt: Einkünfte › Art. 8 Selbständige Erwerbstätigkeit
 
 ### Art. 8 StHG – Selbständige Erwerbstätigkeit (Fortsetzung)
 

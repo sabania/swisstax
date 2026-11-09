@@ -8,7 +8,7 @@ titel: "Art. 54 DBG"
 artikel: "Art. 54"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Beginn und Ende der Steuerpflicht › Art. 54
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Erster Titel: Steuerpflicht › 3. Kapitel: Beginn und Ende der Steuerpflicht › Art. 54
 
 ### Art. 54 DBG
 

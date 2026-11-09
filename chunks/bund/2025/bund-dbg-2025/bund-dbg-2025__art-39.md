@@ -8,7 +8,7 @@ titel: "Art. 39 DBG"
 artikel: "Art. 39"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Zweiter Titel: Einkommenssteuer › 6. Kapitel: Ausgleich der Folgen der kalten Progression › Art. 39
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Zweiter Titel: Einkommenssteuer › 6. Kapitel: Ausgleich der Folgen der kalten Progression › Art. 39
 
 ### Art. 39 DBG
 

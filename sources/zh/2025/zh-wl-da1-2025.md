@@ -12,6 +12,9 @@ sha256: b7c8eb89947c1d075f4219ffc41a456f7108c03587b09d8ffc3f8abfc447d0f4
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Wegleitung DA-1/DA-3 2025
 

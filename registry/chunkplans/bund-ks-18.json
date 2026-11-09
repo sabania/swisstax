@@ -6,12 +6,12 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 86,
+   "start": 71,
    "titel": "Ziff. 1–2 Rechtliche Grundlagen und Prüfung der Vertragsmodelle Säule 3a",
    "pfad": [
     "1. Rechtliche Grundlagen"
@@ -31,7 +31,7 @@
    "ziffer": "1–2"
   },
   {
-   "start": 119,
+   "start": 104,
    "titel": "Ziff. 3–4 Kreis der Vorsorgenehmer und begünstigte Personen",
    "pfad": [
     "3. Kreis der Vorsorgenehmer"
@@ -52,7 +52,7 @@
    "ziffer": "3–4"
   },
   {
-   "start": 154,
+   "start": 139,
    "titel": "Ziff. 5.1 Abzugsberechtigung – Allgemeines (Art. 33 Abs. 1 Bst. e DBG)",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -72,7 +72,7 @@
    "ziffer": "5.1"
   },
   {
-   "start": 189,
+   "start": 174,
    "titel": "Ziff. 5.2–5.3 Mehrere Vorsorgekonten und oberer Grenzbetrag (8 % / 40 %)",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -93,7 +93,7 @@
    "ziffer": "5.2–5.3"
   },
   {
-   "start": 211,
+   "start": 196,
    "titel": "Ziff. 5.4–5.5 Abzug mit 2. Säule (8 %) und ohne 2. Säule (20 % / max. 40 %)",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -114,7 +114,7 @@
    "ziffer": "5.4–5.5"
   },
   {
-   "start": 236,
+   "start": 221,
    "titel": "Ziff. 5.5 Erwerbseinkommen, Verlust, Nachholverbot und Einzahlung bis Jahresende",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -135,7 +135,7 @@
    "ziffer": "5.5"
   },
   {
-   "start": 262,
+   "start": 247,
    "titel": "Ziff. 5.6 a–b Sonderfälle: Mitarbeit im Betrieb des Ehegatten, Selbständige mit 2.-Säule-Nebenverdienst",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -154,7 +154,7 @@
    "ziffer": "5.6 a–b"
   },
   {
-   "start": 286,
+   "start": 271,
    "titel": "Ziff. 5.6 c–e Sonderfälle: IV-Bezüger, Quellensteuer, Beendigung der Erwerbstätigkeit",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -175,7 +175,7 @@
    "ziffer": "5.6 c–e"
   },
   {
-   "start": 309,
+   "start": 294,
    "titel": "Ziff. 5.6 f–g Sonderfälle: Erwerbstätige über AHV-Alter, Wechsel unselbständig/selbständig",
    "pfad": [
     "5. Abzugsberechtigung für Beiträge",
@@ -195,7 +195,7 @@
    "ziffer": "5.6 f–g"
   },
   {
-   "start": 337,
+   "start": 322,
    "titel": "Ziff. 6.1 Ausrichtung der Leistungen – Grundsätze und Besteuerung (1/5 des Tarifs)",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -217,7 +217,7 @@
    "ziffer": "6.1"
   },
   {
-   "start": 364,
+   "start": 349,
    "titel": "Ziff. 6.2 a Vorzeitige Ausrichtung – Allgemeines, Übertragung, Teilbezug",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -238,7 +238,7 @@
    "ziffer": "6.2 a"
   },
   {
-   "start": 403,
+   "start": 388,
    "titel": "Ziff. 6.2 b–c WEF-Vorbezug und Barauszahlung bei selbständiger Erwerbstätigkeit",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -260,7 +260,7 @@
    "ziffer": "6.2 b–c"
   },
   {
-   "start": 437,
+   "start": 422,
    "titel": "Ziff. 6.3–6.4 Einkauf in die 2. Säule mit Säule-3a-Mitteln; Rückzahlung WEF-Vorbezug",
    "pfad": [
     "6. Ausrichtung und Besteuerung der Leistungen",
@@ -280,7 +280,7 @@
    "ziffer": "6.3–6.4"
   },
   {
-   "start": 465,
+   "start": 450,
    "titel": "Ziff. 7–8 Reinvestition aus 2. Säule und Bescheinigungspflicht (Formulare 563, 565)",
    "pfad": [
     "7. Reinvestition",
@@ -302,7 +302,7 @@
    "ziffer": "7–8"
   },
   {
-   "start": 489,
+   "start": 474,
    "titel": "Ziff. 9 Folgen unzulässiger Einzahlungen",
    "pfad": [
     "9. Folgen unzulässiger Einzahlungen"
@@ -321,7 +321,7 @@
    "ziffer": "9"
   },
   {
-   "start": 533,
+   "start": 518,
    "titel": "Ziff. 10–11 Wertschriftenanlage, Verrechnungssteuer, Inkrafttreten",
    "pfad": [
     "10. Anlage in Wertschriften",
@@ -340,5 +340,7 @@
    "zusammenfassung": "Die Bankstiftung beantragt die Rückerstattung der Verrechnungssteuer, dem Vorsorgenehmer steht sie nicht zu; das KS ersetzt die KS Nr. 2 (1986) und Nr. 1 (1989) und wird den Kantonen zur Übernahme empfohlen.",
    "ziffer": "10–11"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

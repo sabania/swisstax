@@ -2,14 +2,14 @@
 id: bund-ks-29c__c0058
 quelle: bund-ks-29c
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 8 Zuzug einer juristischen Person aus dem Ausland"
 ziffer: "8"
 seiten: "24-25"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · KS 29c › 8 Zuzug aus dem Ausland · S. 24–25
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 29c · KS 29c › 8 Zuzug aus dem Ausland · S. 24–25
 
 8.   Zuzug einer juristischen Person aus dem Ausland
 

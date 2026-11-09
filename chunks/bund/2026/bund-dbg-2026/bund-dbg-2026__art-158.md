@@ -8,7 +8,7 @@ titel: "Art. 158 DBG – Auskunfts- und Bescheinigungspflicht"
 artikel: "Art. 158"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Siebenter Titel: Inventar › 3. Kapitel: Verfahren › Art. 158 Auskunfts- und Bescheinigungspflicht
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Siebenter Titel: Inventar › 3. Kapitel: Verfahren › Art. 158 Auskunfts- und Bescheinigungspflicht
 
 ### Art. 158 DBG – Auskunfts- und Bescheinigungspflicht
 

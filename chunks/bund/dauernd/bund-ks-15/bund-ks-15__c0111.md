@@ -2,14 +2,14 @@
 id: bund-ks-15__c0111
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang IV Gutachten Ziff. III.2 Verhältnismässigkeit schuldnerspezifischer Zinssatz"
 ziffer: "Anh. IV III.2"
 seiten: "33-34"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Gutachten SBVg › III Beurteilung · S. 33–34
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Gutachten SBVg › III Beurteilung · S. 33–34
 
 Auch bei der modifizierten Differenzbesteuerung wäre es - zumindest theoretisch -
 denkbar, den Wert des Anleihensteils basierend auf dem risikofreien Zinssatz und dem

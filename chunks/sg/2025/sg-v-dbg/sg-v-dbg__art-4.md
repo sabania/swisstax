@@ -8,7 +8,7 @@ titel: "Art. 4 V DBG SG – Anwendbares Recht"
 artikel: "Art. 4"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · I. Organisation › Art. 4 Anwendbares Recht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · I. Organisation › Art. 4 Anwendbares Recht
 
 ### Art. 4 V DBG SG – Anwendbares Recht
 

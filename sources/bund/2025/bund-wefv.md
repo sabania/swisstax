@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: verordnung
 stand: '2017-10-01'
 quelle_url: https://www.fedlex.admin.ch/eli/cc/1994/2379_2379_2379/20171001/de
@@ -14,6 +15,8 @@ sha256: 777a5b9267e796121ca5b47d1134169996b883d5e65eff4a0fd1674f11b2f2eb
 abgerufen: '2026-11-09'
 einheiten: 25
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2017-10-01'
 ---
 # Verordnung über die Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge (WEFV, SR 831.411) – Fassung gültig ab 01.10.2017
 

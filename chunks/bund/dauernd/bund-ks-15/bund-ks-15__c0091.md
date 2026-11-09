@@ -2,14 +2,14 @@
 id: bund-ks-15__c0091
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 6a Kapitalgarantierte Derivate – Obligationen mit bedingten Coupons (Teil 2/2)"
 ziffer: "Anh. III 6a"
 seiten: "25"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 6 Kapitalgarantierte Derivate · S. 25
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 6 Kapitalgarantierte Derivate · S. 25
 
 a)   Obligationen mit bedingten Coupons
 Kapitalgeschützte Produkte können vorsehen, dass ausschliesslich oder teilweise von der

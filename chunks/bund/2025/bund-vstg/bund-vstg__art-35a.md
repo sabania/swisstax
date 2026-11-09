@@ -2,13 +2,13 @@
 id: bund-vstg__art-35a
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 35a VStG"
 artikel: "Art. 35a"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · I. Organisation › 2a. Elektronische Verfahren im Kanton › Art. 35a
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · I. Organisation › 2a. Elektronische Verfahren im Kanton › Art. 35a
 
 ### Art. 35a VStG
 

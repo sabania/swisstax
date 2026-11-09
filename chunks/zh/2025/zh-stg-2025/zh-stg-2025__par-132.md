@@ -9,7 +9,7 @@ artikel: "§ 132"
 seiten: "58"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 132 StG ZH – I. Verfahrenspflichten 1. Aufgaben der Steuerbehörden · S. 58
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 132 StG ZH – I. Verfahrenspflichten 1. Aufgaben der Steuerbehörden · S. 58
 
 ### § 132 StG ZH – I. Verfahrenspflichten 1. Aufgaben der Steuerbehörden
 

@@ -8,7 +8,7 @@ titel: "Art. 7 VGS SG – Stichtag"
 artikel: "Art. 7"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 7 Stichtag
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 7 Stichtag
 
 ### Art. 7 VGS SG – Stichtag
 

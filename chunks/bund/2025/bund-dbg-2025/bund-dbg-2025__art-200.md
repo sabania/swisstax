@@ -8,7 +8,7 @@ titel: "Art. 200 DBG"
 artikel: "Art. 200"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Achter Teil: Schlussbestimmungen › Zweiter Titel: Kantonale Stempelabgaben › Art. 200
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Achter Teil: Schlussbestimmungen › Zweiter Titel: Kantonale Stempelabgaben › Art. 200
 
 ### Art. 200 DBG
 

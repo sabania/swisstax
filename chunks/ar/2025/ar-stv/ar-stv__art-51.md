@@ -8,7 +8,7 @@ titel: "Art. 51 StV AR – Wirtschaftliche Handänderung (Art. 123 Abs. 2 lit. a
 artikel: "Art. 51"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Erster Teil: Staatssteuern › 4. Grundstückgewinnsteuer › Art. 51 Wirtschaftliche Handänderung (Art. 123 Abs. 2 lit. a StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Erster Teil: Staatssteuern › 4. Grundstückgewinnsteuer › Art. 51 Wirtschaftliche Handänderung (Art. 123 Abs. 2 lit. a StG)
 
 ### Art. 51 StV AR – Wirtschaftliche Handänderung (Art. 123 Abs. 2 lit. a StG)
 

@@ -8,7 +8,7 @@ titel: "Art. 146 DBG"
 artikel: "Art. 146"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 3. Kapitel: Vor Bundesgericht › Art. 146
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Fünfter Titel: Beschwerdeverfahren › 3. Kapitel: Vor Bundesgericht › Art. 146
 
 ### Art. 146 DBG
 

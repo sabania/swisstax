@@ -8,7 +8,7 @@ titel: "Art. 27 StV SG – e) Ersatzbeschaffungen (Art. 43 Abs. 2 StG)"
 artikel: "Art. 27"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 27 e) Ersatzbeschaffungen (Art. 43 Abs. 2 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern › Art. 27 e) Ersatzbeschaffungen (Art. 43 Abs. 2 StG)
 
 ### Art. 27 StV SG – e) Ersatzbeschaffungen (Art. 43 Abs. 2 StG)
 

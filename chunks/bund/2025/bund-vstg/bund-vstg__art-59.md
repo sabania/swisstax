@@ -2,13 +2,13 @@
 id: bund-vstg__art-59
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 59 VStG"
 artikel: "Art. 59"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · Dritter Abschnitt: Behörden und Verfahren › D. Revision und Erläuterung von Entscheiden › Art. 59
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · Dritter Abschnitt: Behörden und Verfahren › D. Revision und Erläuterung von Entscheiden › Art. 59
 
 ### Art. 59 VStG
 

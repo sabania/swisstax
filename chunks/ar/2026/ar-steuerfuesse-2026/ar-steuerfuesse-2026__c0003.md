@@ -8,7 +8,7 @@ titel: "Steuerfüsse pro Gemeinde und Kirchgemeinde 2026 (Tabelle AR) (Teil 2/2)
 seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2026], typ: steuerfuss}}
 ---
-> AR · Steuerjahr 2026 · Steuerfüsse AR 2026 · Steuerfüsse 2026 › Tabelle nach Gemeinde · S. 1
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Steuerfüsse · Steuerjahr 2026 · Steuerfüsse AR 2026 · Steuerfüsse 2026 › Tabelle nach Gemeinde · S. 1
 
 Schönengrund   4.20 Schönengrund   0.60 St. Peterzell   0.71   8.10   8.21   7.50
 Schwellbrunn   4.00 Schwellbrunn   0.60 Herisau   0.47   7.90   7.77   7.30

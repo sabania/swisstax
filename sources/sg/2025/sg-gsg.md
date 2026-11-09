@@ -6,6 +6,7 @@ jurisdiktion: sg
 jahre:
 - 2025
 - 2026
+- 2027
 typ: gesetz
 stand: '2001-01-01'
 quelle_url: https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/814.1/versions/332
@@ -14,6 +15,8 @@ sha256: 1467d580508fcf2b84e97664d9d9e779d0bae4f4a39cf95e149feb2a490f2c8d
 abgerufen: '2026-11-09'
 einheiten: 20
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: verfahren
+gilt_ab: '2001-01-01'
 ---
 # Gesetz über die Durchführung der Grundstückschätzung SG (sGS 814.1) – Version gültig ab 01.01.2001
 

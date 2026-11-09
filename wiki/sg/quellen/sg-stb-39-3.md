@@ -11,6 +11,26 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton St. Gallen (SG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_3.pdf.ocFile/039_3.pdf> · lokal: [sg-stb-39-3.pdf](../../../raw/sg/dauernd/sg-stb-39-3.pdf) · Volltext: [sg-stb-39-3.md](../../../sources/sg/dauernd/sg-stb-39-3.md)
 - **Abgerufen:** 2026-11-09 · sha256 `17f5ee43bc3de2d1…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2026-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 13 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-3`).
+
+- `data/belege-teil2.yaml#12:oev-abo` (agent-geprueft)
+- `data/werte/sg/2025.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/sg/2025.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/sg/2025.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/sg/2025.yaml#4:berufskosten.fahrkosten.arbeitstage` (agent-geprueft)
+- `data/werte/sg/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/werte/sg/2026.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/sg/2026.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/sg/2026.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/sg/2026.yaml#4:berufskosten.fahrkosten.arbeitstage` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#67:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#68:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#69:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.3` (agent-geprueft)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

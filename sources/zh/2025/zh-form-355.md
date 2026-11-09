@@ -13,6 +13,7 @@ sha256: 8de09c14f6b3a91bd93bd3e425cc48e1cdf60e0438b346f3fccc827d14b0e383
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
 ---
 # Schuldenverzeichnis (Form. 355)
 

@@ -2,14 +2,14 @@
 id: bund-ks-30__c0067
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 1/3)"
 ziffer: "11"
 seiten: "21-22"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21–22
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 11 Unterstützungsabzug · S. 21–22
 
 Der Abzug ist nicht zulässig, wenn der gemeinsam veranlagte Ehegatte unterstützt wird. Der
 gegenseitigen ehelichen Unterstützung wird bereits durch den Verheiratetentarif (Art. 36 Abs.

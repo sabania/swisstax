@@ -8,7 +8,7 @@ titel: "Art. 58 StV AR – Meldepflichten (Art. 154 StG)"
 artikel: "Art. 58"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · 6. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 58 Meldepflichten (Art. 154 StG)
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · 6. Verfahrensrecht › B. Allgemeine Verfahrensgrundsätze › Art. 58 Meldepflichten (Art. 154 StG)
 
 ### Art. 58 StV AR – Meldepflichten (Art. 154 StG)
 

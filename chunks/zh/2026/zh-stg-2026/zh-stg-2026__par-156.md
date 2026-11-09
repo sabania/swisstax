@@ -9,7 +9,7 @@ artikel: "§ 156"
 seiten: "65"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › G. Änderung rechtskräftiger Entscheide › § 156 StG ZH – 2. Frist · S. 65
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › G. Änderung rechtskräftiger Entscheide › § 156 StG ZH – 2. Frist · S. 65
 
 ### § 156 StG ZH – 2. Frist
 

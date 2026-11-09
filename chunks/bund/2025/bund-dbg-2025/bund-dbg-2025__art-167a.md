@@ -8,7 +8,7 @@ titel: "Art. 167a DBG – Ablehnungsgründe"
 artikel: "Art. 167a"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 4. Kapitel: Erlass der Steuer › Art. 167a Ablehnungsgründe
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 4. Kapitel: Erlass der Steuer › Art. 167a Ablehnungsgründe
 
 ### Art. 167a DBG – Ablehnungsgründe
 

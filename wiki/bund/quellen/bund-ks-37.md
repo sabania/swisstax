@@ -2,15 +2,22 @@
 typ: quelle
 id: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 titel: "ESTV-Kreisschreiben Nr. 37: Mitarbeiterbeteiligungen"
 generiert: tools/build_index.py
 ---
 # KS 37: ESTV-Kreisschreiben Nr. 37: Mitarbeiterbeteiligungen
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2020-10-30
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026, 2027 · **Stand:** 2020-10-30
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/IUU3cAaknqvw/dbst-ks-2020-1-037-d-de.pdf> · lokal: [bund-ks-37.pdf](../../../raw/bund/dauernd/bund-ks-37.pdf) · Volltext: [bund-ks-37.md](../../../sources/bund/dauernd/bund-ks-37.md)
 - **Abgerufen:** 2026-11-09 · sha256 `b0b42a4dd57e77e2…`
+- **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2021-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-37`).
+
+- [wiki/themen/mitarbeiterbeteiligungen.md](../../themen/mitarbeiterbeteiligungen.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

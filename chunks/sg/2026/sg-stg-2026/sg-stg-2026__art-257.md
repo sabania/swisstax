@@ -8,7 +8,7 @@ titel: "Art. 257 StG SG – c) Untersuchung und Strafbefehl 1. Eröffnung der Un
 artikel: "Art. 257"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 257 c) Untersuchung und Strafbefehl 1. Eröffnung der Untersuchung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Verletzung von Verfahrenspflichten und Steuerhinterziehung › II. Strafverfahren › Art. 257 c) Untersuchung und Strafbefehl 1. Eröffnung der Untersuchung
 
 ### Art. 257 StG SG – c) Untersuchung und Strafbefehl 1. Eröffnung der Untersuchung
 

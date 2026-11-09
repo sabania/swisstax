@@ -9,7 +9,7 @@ artikel: "§ 123"
 seiten: "56"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 123 StG ZH – II. Verfahrensrechtliche Stellung der Ehegatten · S. 56
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 123 StG ZH – II. Verfahrensrechtliche Stellung der Ehegatten · S. 56
 
 ### § 123 StG ZH – II. Verfahrensrechtliche Stellung der Ehegatten
 

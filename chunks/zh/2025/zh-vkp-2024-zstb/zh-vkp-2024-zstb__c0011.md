@@ -9,7 +9,7 @@ ziffer: "§ 47 Abs. 2"
 seiten: "4-5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 47 · S. 4–5
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 47 · S. 4–5
 
     2 Für Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe
 

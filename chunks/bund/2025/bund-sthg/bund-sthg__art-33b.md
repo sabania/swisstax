@@ -2,13 +2,13 @@
 id: bund-sthg__art-33b
 quelle: bund-sthg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 33b StHG – Nachträgliche ordentliche Veranlagung auf Antrag"
 artikel: "Art. 33b"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · StHG · Vierter Titel: Quellensteuern für natürliche und juristische Personen › 1. Kapitel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 33b Nachträgliche ordentliche Veranlagung auf Antrag
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · StHG · Vierter Titel: Quellensteuern für natürliche und juristische Personen › 1. Kapitel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton › Art. 33b Nachträgliche ordentliche Veranlagung auf Antrag
 
 ### Art. 33b StHG – Nachträgliche ordentliche Veranlagung auf Antrag
 

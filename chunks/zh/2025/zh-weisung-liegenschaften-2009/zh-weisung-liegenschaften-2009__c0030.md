@@ -9,7 +9,7 @@ ziffer: "79–80"
 seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · D. Individuelle Schätzung › I. Vermögenssteuerwert · S. 15
 
 Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
 D. Individuelle Schätzung des Verkehrswerts und des Eigenmietwerts

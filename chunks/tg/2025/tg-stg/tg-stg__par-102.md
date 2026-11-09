@@ -2,13 +2,13 @@
 id: tg-stg__par-102
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 102 StG TG – Ausnahmen"
 artikel: "§ 102"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.3. Steuern der juristischen Personen › 1.3.4. Minimalsteuer › § 102 Ausnahmen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.3. Steuern der juristischen Personen › 1.3.4. Minimalsteuer › § 102 Ausnahmen
 
 ### § 102 StG TG – Ausnahmen
 

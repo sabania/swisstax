@@ -9,7 +9,7 @@ artikel: "§ 201"
 seiten: "74"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Besondere Bestimmungen › § 201 StG ZH – II. Kirchensteuer 1. Steuerpflicht a. Im Allgemeinen · S. 74
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › B. Besondere Bestimmungen › § 201 StG ZH – II. Kirchensteuer 1. Steuerpflicht a. Im Allgemeinen · S. 74
 
 ### § 201 StG ZH – II. Kirchensteuer 1. Steuerpflicht a. Im Allgemeinen
 

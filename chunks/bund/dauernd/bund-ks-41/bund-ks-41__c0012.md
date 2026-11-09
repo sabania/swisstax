@@ -2,14 +2,14 @@
 id: bund-ks-41__c0012
 quelle: bund-ks-41
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 2.2.4 Jahressteuer (ein Fünftel des Tarifs) und Quellensteuer bei Auslandwohnsitz (Teil 2/2)"
 ziffer: "2.2.4"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 41 · 2.2 Steuerliche Auswirkungen › 2.2.4 Auszahlung › Besteuerung · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 41 · 2.2 Steuerliche Auswirkungen › 2.2.4 Auszahlung › Besteuerung · S. 4
 
 Die Besteuerung an der Quelle erfolgt aufgrund der entsprechenden Bestimmungen der
 Verordnung des EFD vom 19. Oktober 1993 über die Quellensteuer bei der direkten Bun-

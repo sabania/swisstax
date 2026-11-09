@@ -11,6 +11,44 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2022-01-01
 - **Original:** <https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.21/versions/2387> · lokal: [tg-bkv.json](../../../raw/tg/2025/tg-bkv.json) · Volltext: [tg-bkv.md](../../../sources/tg/2025/tg-bkv.md)
 - **Abgerufen:** 2026-11-09 · sha256 `9d4ac7209dda12b3…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2022-01-01 bis offen
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 29 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-bkv`).
+
+- `data/werte/tg/2025.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
+- `data/werte/tg/2025.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
+- `data/werte/tg/2025.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
+- `data/werte/tg/2025.yaml#14:berufskosten.uebrige.min` (agent-geprueft)
+- `data/werte/tg/2025.yaml#15:berufskosten.uebrige.max` (agent-geprueft)
+- `data/werte/tg/2025.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/tg/2025.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/tg/2025.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/werte/tg/2025.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/tg/2025.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/tg/2025.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/tg/2025.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
+- `data/werte/tg/2025.yaml#6:berufskosten.verpflegung.jahr` (agent-geprueft)
+- `data/werte/tg/2025.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
+- `data/werte/tg/2025.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
+- `data/werte/tg/2025.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/werte/tg/2026.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
+- `data/werte/tg/2026.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
+- `data/werte/tg/2026.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
+- `data/werte/tg/2026.yaml#14:berufskosten.uebrige.min` (agent-geprueft)
+- `data/werte/tg/2026.yaml#15:berufskosten.uebrige.max` (agent-geprueft)
+- `data/werte/tg/2026.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/tg/2026.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/tg/2026.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/tg/2026.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
+- `data/werte/tg/2026.yaml#6:berufskosten.verpflegung.jahr` (agent-geprueft)
+- `data/werte/tg/2026.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
+- `data/werte/tg/2026.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
+- `data/werte/tg/2026.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 
 ## Inhalt (11 Chunks)
 

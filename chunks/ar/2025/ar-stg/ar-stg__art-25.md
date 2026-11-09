@@ -8,7 +8,7 @@ titel: "Art. 25 StG AR – 6. Einkünfte aus Vorsorge"
 artikel: "Art. 25"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 25 6. Einkünfte aus Vorsorge
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 25 6. Einkünfte aus Vorsorge
 
 ### Art. 25 StG AR – 6. Einkünfte aus Vorsorge
 

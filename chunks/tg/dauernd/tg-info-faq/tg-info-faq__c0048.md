@@ -7,7 +7,7 @@ typ: info
 titel: "Liegenschaften"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Liegenschaften
 
     Bei selbstgenutzten Liegenschaften können weder die Grundgebühren noch die wiederkehrenden Wasser-, Abwasser- und Stromgebühren abgezogen werden. Es handelt sich um nicht abzugsfähige Lebenshaltungskosten.
 

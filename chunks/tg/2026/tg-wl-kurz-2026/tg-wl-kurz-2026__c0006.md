@@ -9,7 +9,7 @@ ziffer: "23"
 seiten: "1"
 qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
-> TG · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 · S. 1
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2026 · Kurz-WL TG 2026 · Kurzübersicht Wegleitung 2026 · S. 1
 
 23.   Zusätzliche   23.1 Krankheits- und Unfallkosten, Selbstbehalt vom Nettoeinkommen   5%
     Abzüge   Pauschalabzug lebensnotwendige Diät (z.B. Zöliakie, nicht aber Diabetes) Fr.   2 500

@@ -9,7 +9,7 @@ artikel: "§ 124"
 seiten: "56"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 124 StG ZH – III. Verfahrensrechte des Steuerpflichtigen 1. Akteneinsicht · S. 56
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 124 StG ZH – III. Verfahrensrechte des Steuerpflichtigen 1. Akteneinsicht · S. 56
 
 ### § 124 StG ZH – III. Verfahrensrechte des Steuerpflichtigen 1. Akteneinsicht
 

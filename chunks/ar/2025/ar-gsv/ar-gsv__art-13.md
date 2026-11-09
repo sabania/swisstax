@@ -8,7 +8,7 @@ titel: "Art. 13 GSV AR – Mietwert"
 artikel: "Art. 13"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 13 Mietwert
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · II. Schätzwerte › Art. 13 Mietwert
 
 ### Art. 13 GSV AR – Mietwert
 

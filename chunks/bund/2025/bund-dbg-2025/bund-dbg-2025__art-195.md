@@ -8,7 +8,7 @@ titel: "Art. 195 DBG – Weitere Verfahrensvorschriften"
 artikel: "Art. 195"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 195 Weitere Verfahrensvorschriften
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 195 Weitere Verfahrensvorschriften
 
 ### Art. 195 DBG – Weitere Verfahrensvorschriften
 

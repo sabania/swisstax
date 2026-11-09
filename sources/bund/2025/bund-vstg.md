@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: gesetz
 stand: '2025-01-01'
 quelle_url: https://www.fedlex.admin.ch/eli/cc/1966/371_385_384/20250101/de
@@ -14,6 +15,8 @@ sha256: afdc571c7fd9783e93c1685dd0192407d1d6cd4dbff95c671de862b8c0a1a8c2
 abgerufen: '2026-11-09'
 einheiten: 83
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
 ---
 # Verrechnungssteuergesetz (VStG, SR 642.21) – Fassung gültig ab 01.01.2025
 

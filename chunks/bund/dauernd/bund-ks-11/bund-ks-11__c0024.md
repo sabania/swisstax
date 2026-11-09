@@ -9,7 +9,7 @@ ziffer: "4.3.9–4.3.10"
 seiten: "9-10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9–10
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026 · KS 11 · 4. Behinderungsbedingte Kosten › 4.3 Kategorien · S. 9–10
 
 4.3.9   Wohnkosten
 

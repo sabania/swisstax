@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Liegenschaftenverzeichnis Seite 1 – Liegenschaften 1–6 (Steuerwert, Ertragswert, Verkehrswert)",
    "pfad": [
     "Liegenschaftenverzeichnis",
@@ -27,7 +27,7 @@
    "zusammenfassung": "Je Liegenschaft Ort, Strasse, Art, Fläche in m2 sowie Steuerwert (Codes 553x) und Ertragswert/Verkehrswert für Land- oder Forstwirtschaft (Codes 554x)."
   },
   {
-   "start": 59,
+   "start": 43,
    "titel": "Liegenschaften 7–10, Übertrag und Total (Codes 557, 558, 3952, 3951) – Übertrag Steuererklärung Seite 4 Ziff. 31.1/31.2",
    "pfad": [
     "Liegenschaftenverzeichnis",
@@ -47,7 +47,7 @@
    "zusammenfassung": "Total der Steuerwerte (Code 3952) und Verkehrs-/Ertragswerte (Code 3951) zu übertragen in die Steuererklärung Seite 4, Ziffer 31.2 bzw. 31.1."
   },
   {
-   "start": 85,
+   "start": 69,
    "titel": "Liegenschaftenerträge und Unterhaltskosten – Liegenschaften 1–5 (Codes 570x–575x)",
    "pfad": [
     "Liegenschaftenverzeichnis",
@@ -70,7 +70,7 @@
    "zusammenfassung": "Je Liegenschaft Eigenmietwert/Miet- und Pachtzinseinnahmen, Unterhalts- und Verwaltungskosten (pauschal oder effektiv) und verbleibender Ertrag."
   },
   {
-   "start": 119,
+   "start": 103,
    "titel": "Liegenschaften 6–10, Übertrag und Nettoertrag aus Liegenschaften (Codes 578, 3953) – Übertrag Steuererklärung Seite 2 Ziff. 6",
    "pfad": [
     "Liegenschaftenverzeichnis",
@@ -92,7 +92,7 @@
    "zusammenfassung": "Nettoertrag aus Liegenschaften (Code 3953) zu übertragen in die Steuererklärung Seite 2, Ziffer 6."
   },
   {
-   "start": 150,
+   "start": 134,
    "titel": "Allgemeines – Angaben je Liegenschaft in der Reihenfolge der Vorderseite",
    "pfad": [
     "Liegenschaftenverzeichnis",
@@ -111,7 +111,7 @@
    "zusammenfassung": "Für jede Liegenschaft Eigenmietwert/Miet- und Pachtzinseinnahmen, Unterhalts- und Verwaltungskosten und verbleibenden Ertrag einsetzen."
   },
   {
-   "start": 153,
+   "start": 137,
    "titel": "Eigenmietwert / Miet- und Pachtzinseinnahmen – Erläuterung (70 % bei Mehrfamilienhaus)",
    "pfad": [
     "Liegenschaftenverzeichnis",
@@ -133,7 +133,7 @@
    "zusammenfassung": "Steuerbar sind alle Miet- und Pachtzinseinnahmen sowie der Eigenmietwert; bei selbst genutzter Wohnung im Mehrfamilien- und Geschäftshaus (ohne Stockwerkeigentum) 70 % des erzielbaren Mietzinses; Mieterspiegel beilegen."
   },
   {
-   "start": 164,
+   "start": 148,
    "titel": "Unterhalts- und Verwaltungskosten – Pauschale oder effektive Kosten",
    "pfad": [
     "Liegenschaftenverzeichnis",
@@ -154,7 +154,7 @@
    "zusammenfassung": "Bei Privatvermögen abziehbar: Unterhaltskosten, Versicherungsprämien und Verwaltungskosten, pauschal oder effektiv; Pauschale nicht zulässig bei vorwiegend geschäftlicher Nutzung."
   },
   {
-   "start": 170,
+   "start": 154,
    "titel": "Unterhalts- und Verwaltungskosten – Detailaufstellung und Beiblatt zum Liegenschaftenverzeichnis",
    "pfad": [
     "Liegenschaftenverzeichnis",
@@ -172,5 +172,7 @@
    ],
    "zusammenfassung": "Ohne eigene Aufstellung oder Verwaltungsrechnung sind die Angaben im Formular Beiblatt zum Liegenschaftenverzeichnis einzutragen und der Steuererklärung beizulegen."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

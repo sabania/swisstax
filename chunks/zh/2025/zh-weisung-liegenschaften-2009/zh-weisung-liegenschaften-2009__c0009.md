@@ -9,7 +9,7 @@ ziffer: "19"
 seiten: "4-5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › III. Grenzfälle · S. 4–5
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2025 · Weisung 2009 ZH · A. Vermögenssteuerwerte › III. Grenzfälle · S. 4–5
 
     III. Grenzfälle
 

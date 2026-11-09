@@ -2,14 +2,14 @@
 id: zh-zstb-133-1-aufforderung-2026__c0017
 quelle: zh-zstb-133-1-aufforderung-2026
 jur: zh
-jahre: [2025]
+jahre: [2025, 2026]
 typ: praxis
 titel: "G Rückerstattung/Anrechnung ausländischer Quellensteuern (USA, DBA)"
 ziffer: "G"
 seiten: "6"
-qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
+qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · G. Ausländische Quellensteuern · S. 6
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Praxis · Steuerjahr 2025/2026 · ZStB 133.1 (Aufforderung 2026) · G. Ausländische Quellensteuern · S. 6
 
 G. Rückerstattung oder Anrechnung ausländischer
 Quellensteuern

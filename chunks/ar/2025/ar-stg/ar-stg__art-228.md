@@ -8,7 +8,7 @@ titel: "Art. 228 StG AR – 2. Bezugs- und Veranlagungsbehörde"
 artikel: "Art. 228"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 1. Allgemeine Bestimmungen › Art. 228 2. Bezugs- und Veranlagungsbehörde
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Teil: Steuern der Gemeinden und von Körperschaften › 1. Allgemeine Bestimmungen › Art. 228 2. Bezugs- und Veranlagungsbehörde
 
 ### Art. 228 StG AR – 2. Bezugs- und Veranlagungsbehörde
 

@@ -8,7 +8,7 @@ titel: "Art. 74 StV AR – b) Bei selbständiger Erwerbstätigkeit"
 artikel: "Art. 74"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 74 b) Bei selbständiger Erwerbstätigkeit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV AR · Dritter Teil: Schlussbestimmungen › Art. 74 b) Bei selbständiger Erwerbstätigkeit
 
 ### Art. 74 StV AR – b) Bei selbständiger Erwerbstätigkeit
 

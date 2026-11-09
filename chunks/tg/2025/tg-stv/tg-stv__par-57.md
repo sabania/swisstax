@@ -8,7 +8,7 @@ titel: "§ 57 StV TG – Austritt"
 artikel: "§ 57"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 9. Gemeindesteuern › § 57 Austritt
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 9. Gemeindesteuern › § 57 Austritt
 
 ### § 57 StV TG – Austritt
 

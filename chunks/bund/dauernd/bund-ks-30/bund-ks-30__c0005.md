@@ -2,14 +2,14 @@
 id: bund-ks-30__c0005
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 1.3 Faktische Trennung – Voraussetzungen getrennter Veranlagung"
 ziffer: "1.3"
 seiten: "5-6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 1 Einheit der Familie / Zusammenveranlagung › 1.3 Getrennte Veranlagung bei faktischer Trennung · S. 5–6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 1 Einheit der Familie / Zusammenveranlagung › 1.3 Getrennte Veranlagung bei faktischer Trennung · S. 5–6
 
 1.3   Getrennte Veranlagung der Ehegatten bei faktischer Trennung
 

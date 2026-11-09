@@ -8,7 +8,7 @@ titel: "Art. 206 DBG"
 artikel: "Art. 206"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 206
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 206
 
 ### Art. 206 DBG
 

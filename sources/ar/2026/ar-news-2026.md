@@ -4,6 +4,7 @@ titel: Steuern – Informationen für 2026 (11.12.2025)
 kurz: News AR 2026
 jurisdiktion: ar
 jahre:
+- 2025
 - 2026
 typ: mitteilung
 quelle_url: https://ar.ch/verwaltung/departement-finanzen/steuerverwaltung/news-aus-der-steuerverwaltung/detail/news/steuern-informationen-fuer-2026/
@@ -11,6 +12,8 @@ raw: raw/ar/2026/ar-news-2026.html
 sha256: f5b033bd9f904ccf73e25fd837b07a19855a8d7aeeabbc96d0e5d5b3a12db4fc
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
+gilt_ab: '2025-12-11'
 ---
 # Steuern – Informationen für 2026 (11.12.2025)
 

@@ -2,13 +2,13 @@
 id: bund-vstg__art-60
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 60 VStG"
 artikel: "Art. 60"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · Dritter Abschnitt: Behörden und Verfahren › E. Berichtigung von kantonalen Abrechnungen › Art. 60
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · Dritter Abschnitt: Behörden und Verfahren › E. Berichtigung von kantonalen Abrechnungen › Art. 60
 
 ### Art. 60 VStG
 

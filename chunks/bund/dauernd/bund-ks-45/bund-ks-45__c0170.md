@@ -2,14 +2,14 @@
 id: bund-ks-45__c0170
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.5.5 Beispiel – Krankentaggeld und Teilzeitlohn 60 % (Jahresmodell)"
 ziffer: "7.5.5"
 seiten: "53"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.5 Ersatzeinkünfte direkt ausbezahlt · S. 53
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.5 Sonderfälle › 7.5.5 Ersatzeinkünfte direkt ausbezahlt · S. 53
 
     Beispiel:
     - Der Arbeitnehmer T erhält von der Versicherung ein Krankentaggeld von brutto CHF 1 800.00 für 12 Ka-

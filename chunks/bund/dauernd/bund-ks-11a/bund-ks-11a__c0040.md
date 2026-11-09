@@ -9,7 +9,7 @@ ziffer: "5.3"
 seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2027 · KS 11a · 5 Abzugsfähige Kosten › 5.3 Selbstbehalt · S. 12
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2027 · KS 11a · 5 Abzugsfähige Kosten › 5.3 Selbstbehalt · S. 12
 
 5.3   Selbstbehalt
 Krankheits- und Unfallkosten können nur abgezogen werden, soweit diese einen Selbstbehalt

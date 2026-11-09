@@ -8,7 +8,7 @@ titel: "Art. 12 bis StG SG – Eingetragene Partnerschaft"
 artikel: "Art. 12 bis"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 12 bis Eingetragene Partnerschaft
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 12 bis Eingetragene Partnerschaft
 
 ### Art. 12 bis StG SG – Eingetragene Partnerschaft
 

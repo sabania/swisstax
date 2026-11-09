@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: verordnung
 stand: '2025-01-01'
 quelle_url: https://www.fedlex.admin.ch/eli/cc/1985/1778_1778_1778/20250101/de
@@ -14,6 +15,9 @@ sha256: a1da3a3eecfed84531ef41dbe60f3013056dfe81817e93202124275fe90e2ca4
 abgerufen: '2026-11-09'
 einheiten: 18
 konvertierung: Akoma-Ntoso-XML (Fedlex) -> Markdown je Artikel (tools/akn.py); Fussnoten = Fedlex-Nummerierung
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2027-05-31'
 ---
 # Verordnung über die steuerliche Abzugsberechtigung für Beiträge an anerkannte Vorsorgeformen (BVV 3, SR 831.461.3) – Fassung gültig ab 01.01.2025
 

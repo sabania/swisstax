@@ -6,12 +6,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 91,
+   "start": 74,
    "titel": "Ziff. 1 Ausgangslage – Revision per 1.1.2005 (BehiG)",
    "pfad": [
     "1. Ausgangslage"
@@ -31,7 +31,7 @@
    "ziffer": "1"
   },
   {
-   "start": 105,
+   "start": 88,
    "titel": "Ziff. 2 Gesetzliche Grundlagen – Art. 33 Abs. 1 Bst. h und hbis DBG",
    "pfad": [
     "2. Gesetzliche Grundlagen"
@@ -51,7 +51,7 @@
    "ziffer": "2"
   },
   {
-   "start": 132,
+   "start": 115,
    "titel": "Ziff. 3.1 Begriff Krankheits- und Unfallkosten",
    "pfad": [
     "3. Krankheits- und Unfallkosten",
@@ -73,7 +73,7 @@
    "ziffer": "3.1"
   },
   {
-   "start": 150,
+   "start": 133,
    "titel": "Ziff. 3.1 Nicht abzugsfähige Aufwendungen (Lebenshaltung, Prävention, Schönheit) und Krankenkassenprämien",
    "pfad": [
     "3. Krankheits- und Unfallkosten",
@@ -95,7 +95,7 @@
    "ziffer": "3.1"
   },
   {
-   "start": 170,
+   "start": 153,
    "titel": "Ziff. 3.2.1–3.2.3 Zahnbehandlung, Heilmassnahmen, Kuraufenthalte",
    "pfad": [
     "3. Krankheits- und Unfallkosten",
@@ -117,7 +117,7 @@
    "ziffer": "3.2.1–3.2.3"
   },
   {
-   "start": 194,
+   "start": 177,
    "titel": "Ziff. 3.2.4–3.2.5 Alternativmedizin, Medikamente und Heilmittel",
    "pfad": [
     "3. Krankheits- und Unfallkosten",
@@ -137,7 +137,7 @@
    "ziffer": "3.2.4–3.2.5"
   },
   {
-   "start": 215,
+   "start": 198,
    "titel": "Ziff. 3.2.6–3.2.7 Pflegekosten zu Hause und in Alters- und Pflegeheimen",
    "pfad": [
     "3. Krankheits- und Unfallkosten",
@@ -158,7 +158,7 @@
    "ziffer": "3.2.6–3.2.7"
   },
   {
-   "start": 236,
+   "start": 219,
    "titel": "Ziff. 3.2.8–3.2.10 Fortpflanzungshilfen, Transportkosten, Diäten (Pauschale CHF 2'500)",
    "pfad": [
     "3. Krankheits- und Unfallkosten",
@@ -180,7 +180,7 @@
    "ziffer": "3.2.8–3.2.10"
   },
   {
-   "start": 266,
+   "start": 249,
    "titel": "Ziff. 4.1 Behinderte Person – Begriff und Personengruppen",
    "pfad": [
     "4. Behinderungsbedingte Kosten",
@@ -201,7 +201,7 @@
    "ziffer": "4.1"
   },
   {
-   "start": 311,
+   "start": 294,
    "titel": "Ziff. 4.2 Begriff behinderungsbedingte Kosten",
    "pfad": [
     "4. Behinderungsbedingte Kosten",
@@ -220,7 +220,7 @@
    "ziffer": "4.2"
   },
   {
-   "start": 330,
+   "start": 313,
    "titel": "Ziff. 4.3.1–4.3.3 Assistenz, Haushaltshilfe und Kinderbetreuung, Tagesstrukturen",
    "pfad": [
     "4. Behinderungsbedingte Kosten",
@@ -241,7 +241,7 @@
    "ziffer": "4.3.1–4.3.3"
   },
   {
-   "start": 372,
+   "start": 355,
    "titel": "Ziff. 4.3.4–4.3.5 Heim- und Entlastungsaufenthalte, heilpädagogische Therapien",
    "pfad": [
     "4. Behinderungsbedingte Kosten",
@@ -262,7 +262,7 @@
    "ziffer": "4.3.4–4.3.5"
   },
   {
-   "start": 392,
+   "start": 375,
    "titel": "Ziff. 4.3.6 Transport- und Fahrzeugkosten",
    "pfad": [
     "4. Behinderungsbedingte Kosten",
@@ -284,7 +284,7 @@
    "ziffer": "4.3.6"
   },
   {
-   "start": 421,
+   "start": 404,
    "titel": "Ziff. 4.3.7–4.3.8 Blindenführhunde, Hilfsmittel, Pflegeartikel und Kleider",
    "pfad": [
     "4. Behinderungsbedingte Kosten",
@@ -306,7 +306,7 @@
    "ziffer": "4.3.7–4.3.8"
   },
   {
-   "start": 444,
+   "start": 427,
    "titel": "Ziff. 4.3.9–4.3.10 Wohnkosten (Umbau) und Privatschulen",
    "pfad": [
     "4. Behinderungsbedingte Kosten",
@@ -327,7 +327,7 @@
    "ziffer": "4.3.9–4.3.10"
   },
   {
-   "start": 462,
+   "start": 445,
    "titel": "Ziff. 4.4 Pauschalen behinderungsbedingte Kosten (CHF 2'500 / 5'000 / 7'500)",
    "pfad": [
     "4. Behinderungsbedingte Kosten",
@@ -349,7 +349,7 @@
    "ziffer": "4.4"
   },
   {
-   "start": 477,
+   "start": 460,
    "titel": "Ziff. 5.1 Selbst getragene Kosten und Anrechnung von Leistungen Dritter",
    "pfad": [
     "5. Abzugsfähige Kosten",
@@ -372,7 +372,7 @@
    "ziffer": "5.1"
   },
   {
-   "start": 508,
+   "start": 491,
    "titel": "Ziff. 5.2 Kosten der unterhaltenen Personen (Kinder, übrige unterstützte Personen)",
    "pfad": [
     "5. Abzugsfähige Kosten",
@@ -395,7 +395,7 @@
    "ziffer": "5.2"
   },
   {
-   "start": 535,
+   "start": 518,
    "titel": "Ziff. 5.3 Selbstbehalt 5 %",
    "pfad": [
     "5. Abzugsfähige Kosten",
@@ -414,7 +414,7 @@
    "ziffer": "5.3"
   },
   {
-   "start": 543,
+   "start": 526,
    "titel": "Ziff. 6–7 Nachweis, ärztlicher Fragebogen und Geltungsbereich",
    "pfad": [
     "6. Nachweis",
@@ -435,5 +435,7 @@
    "zusammenfassung": "Kosten sind durch ärztliche Bescheinigungen und Rechnungen nachzuweisen; das KS ersetzt das KS Nr. 16 vom 14.12.1994 und gilt ab Steuerjahr 2005.",
    "ziffer": "6–7"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

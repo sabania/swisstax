@@ -2,14 +2,14 @@
 id: bund-ks-vst-48__c0010
 quelle: bund-ks-vst-48
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4–5 Veranlagung nach pflichtgemässem Ermessen und Meldeverfahren (Teil 2/2)"
 ziffer: "4–5"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 48 · 4 Veranlagung nach pflichtgemässem Ermessen / 5 Meldeverfahren · S. 4
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS VST 48 · 4 Veranlagung nach pflichtgemässem Ermessen / 5 Meldeverfahren · S. 4
 
 Die Anwendung des Meldeverfahrens bei Leistungen an inländische natürliche Personen (vgl.
 Art. 20 VStG und Art. 24 ff. der Verordnung vom 19. Dezember 1966 über die die Verrech-

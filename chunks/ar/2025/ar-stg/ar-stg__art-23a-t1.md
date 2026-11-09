@@ -8,7 +8,7 @@ titel: "Art. 23a StG AR – Besondere Fälle (Teil 1/2)"
 artikel: "Art. 23a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 23a Besondere Fälle
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 23a Besondere Fälle
 
 ### Art. 23a StG AR – Besondere Fälle
 

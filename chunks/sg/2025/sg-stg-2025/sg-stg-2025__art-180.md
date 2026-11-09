@@ -8,7 +8,7 @@ titel: "Art. 180 StG SG – Einsprache a) Voraussetzungen"
 artikel: "Art. 180"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 180 Einsprache a) Voraussetzungen
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › III. Veranlagung › Art. 180 Einsprache a) Voraussetzungen
 
 ### Art. 180 StG SG – Einsprache a) Voraussetzungen
 

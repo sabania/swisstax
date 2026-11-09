@@ -12,6 +12,7 @@ raw: raw/zh/dauernd/zh-info-spenden.html
 sha256: 6b921026c59904f834f00bf62ae94322282c39c1a2c27a30d2ea317a45f59c7c
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Spenden an gemeinnützige Organisationen
 

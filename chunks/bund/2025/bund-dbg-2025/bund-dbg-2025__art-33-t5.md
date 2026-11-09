@@ -8,7 +8,7 @@ titel: "Art. 33 DBG – Schuldzinsen und andere Abzüge (Teil 5/7)"
 artikel: "Art. 33"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 5. Abschnitt: Allgemeine Abzüge › Art. 33 Schuldzinsen und andere Abzüge
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · 3. Kapitel: Ermittlung des Reineinkommens › 5. Abschnitt: Allgemeine Abzüge › Art. 33 Schuldzinsen und andere Abzüge
 
 ### Art. 33 DBG – Schuldzinsen und andere Abzüge (Fortsetzung)
 

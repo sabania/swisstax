@@ -12,6 +12,7 @@ raw: raw/sg/dauernd/sg-info-wertschriften.html
 sha256: d7114226159d631c40835f5972b1a61883db20dda17587110a4414fafcf76c94
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (#content) -> Markdown (markdownify)
+zeitbezug: info
 ---
 # Verrechnungssteuer / Wertschriftenbewertung (Steuerwertliste)
 

@@ -9,7 +9,7 @@ artikel: "§ 159"
 seiten: "66"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › G. Änderung rechtskräftiger Entscheide › § 159 StG ZH – II. Berichtigung von Rechnungsfehlern und Schreibversehen · S. 66
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › G. Änderung rechtskräftiger Entscheide › § 159 StG ZH – II. Berichtigung von Rechnungsfehlern und Schreibversehen · S. 66
 
 ### § 159 StG ZH – II. Berichtigung von Rechnungsfehlern und Schreibversehen
 

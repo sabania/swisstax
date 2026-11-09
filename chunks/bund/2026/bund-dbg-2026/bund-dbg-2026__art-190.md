@@ -8,7 +8,7 @@ titel: "Art. 190 DBG – Voraussetzungen"
 artikel: "Art. 190"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 190 Voraussetzungen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Sechster Teil: Steuerstrafrecht › Dritter Titel: Besondere Untersuchungsmassnahmen der ESTV › Art. 190 Voraussetzungen
 
 ### Art. 190 DBG – Voraussetzungen
 

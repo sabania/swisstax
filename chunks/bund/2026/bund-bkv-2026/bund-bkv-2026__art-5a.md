@@ -2,13 +2,13 @@
 id: bund-bkv-2026__art-5a
 quelle: bund-bkv-2026
 jur: bund
-jahre: [2026]
+jahre: [2026, 2027]
 typ: verordnung
 titel: "Art. 5a BKV – Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen"
 artikel: "Art. 5a"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2026 · BKV · Art. 5a Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2026/2027 · BKV · Art. 5a Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
 
 ### Art. 5a BKV – Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
 

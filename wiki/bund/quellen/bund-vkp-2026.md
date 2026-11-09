@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2026 · **Stand:** 2026-01-01
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/2025/579/20260101/de> · lokal: [bund-vkp-2026.xml](../../../raw/bund/2026/bund-vkp-2026.xml) · Volltext: [bund-vkp-2026.md](../../../sources/bund/2026/bund-vkp-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `caadf62b33c111d0…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31 · ersetzt `bund-vkp-2025`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-vkp-2026`).
+
+- `data/werte/bund/2026.yaml#55:steuerfrei.feuerwehrsold` (agent-geprueft)
 
 ## Inhalt (8 Chunks)
 

@@ -2,13 +2,13 @@
 id: bund-mb-21edp__c0001
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Merkblatt Formular 21 EDP – Abkürzungen und Begriffe"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Merkblatt Formular 21 EDP · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Merkblatt Formular 21 EDP · S. 1
 
 # Merkblatt zur Bescheinigung über Vorsorgebeiträge (Formular 21 EDP)
 

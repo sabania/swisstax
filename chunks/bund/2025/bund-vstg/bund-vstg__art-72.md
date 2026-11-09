@@ -2,13 +2,13 @@
 id: bund-vstg__art-72
 quelle: bund-vstg
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "Art. 72 VStG"
 artikel: "Art. 72"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025/2026 · VStG · Fünfter Abschnitt: Schluss- und Übergangsbestimmungen › D. Aufhebung bisherigen Rechts › Art. 72
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025/2026/2027 · VStG · Fünfter Abschnitt: Schluss- und Übergangsbestimmungen › D. Aufhebung bisherigen Rechts › Art. 72
 
 ### Art. 72 VStG
 

@@ -8,7 +8,7 @@ titel: "Art. 20 StG AR – 2. Unselbständige Erwerbstätigkeit"
 artikel: "Art. 20"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 20 2. Unselbständige Erwerbstätigkeit
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 20 2. Unselbständige Erwerbstätigkeit
 
 ### Art. 20 StG AR – 2. Unselbständige Erwerbstätigkeit
 

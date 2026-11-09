@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0034
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7 Reinvestition der Altersleistung aus der 2. Säule in die Säule 3a"
 ziffer: "7"
 seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 7. Reinvestition der Altersleistung · S. 11
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 7. Reinvestition der Altersleistung · S. 11
 
 7.   Reinvestition der Altersleistung aus einer 2. Säule in eine Vorsorgeform der
     Säule 3a

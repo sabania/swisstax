@@ -2,14 +2,14 @@
 id: bund-ks-44__c0019
 quelle: bund-ks-44
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 3.3.4 Begriff Lizenzgebühren (Royalties)"
 ziffer: "3.3.4"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · 3 Objektive Voraussetzungen › 3.3 Mindestwerte › 3.3.4 Kontrollrechnung · S. 6
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 44 · 3 Objektive Voraussetzungen › 3.3 Mindestwerte › 3.3.4 Kontrollrechnung · S. 6
 
 Als Lizenzgebühren (Royalties) gelten Vergütungen jeder Art, die für die Benutzung oder für
 das Recht auf Benutzung von Urheberrechten an literarischen, künstlerischen oder wissen-

@@ -2,14 +2,14 @@
 id: bund-ks-37__c0065
 quelle: bund-ks-37
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 9.1–9.2 Vorbescheid (Ruling) – Zweck und Voraussetzungen"
 ziffer: "9.1 / 9.2"
 seiten: "21"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · 9 Vorbescheid (Ruling) › 9.1 Allgemeines / 9.2 Voraussetzungen · S. 21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 37 · 9 Vorbescheid (Ruling) › 9.1 Allgemeines / 9.2 Voraussetzungen · S. 21
 
 9   Vorbescheid zwischen dem Arbeitgeber und der Steuerbehörde (Ruling)
 9.1   Allgemeines

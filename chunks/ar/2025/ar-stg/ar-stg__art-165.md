@@ -8,7 +8,7 @@ titel: "Art. 165 StG AR – II. Pflichten von Drittpersonen 1. Bescheinigungspfl
 artikel: "Art. 165"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 165 II. Pflichten von Drittpersonen 1. Bescheinigungspflichten
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 165 II. Pflichten von Drittpersonen 1. Bescheinigungspflichten
 
 ### Art. 165 StG AR – II. Pflichten von Drittpersonen 1. Bescheinigungspflichten
 

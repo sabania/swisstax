@@ -8,7 +8,7 @@ titel: "Art. 118 DBG"
 artikel: "Art. 118"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 3. Kapitel: Verfahrensrechte des Steuerpflichtigen › Art. 118
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 3. Kapitel: Verfahrensrechte des Steuerpflichtigen › Art. 118
 
 ### Art. 118 DBG
 

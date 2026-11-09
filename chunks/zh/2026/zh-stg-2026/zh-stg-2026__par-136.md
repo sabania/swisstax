@@ -9,7 +9,7 @@ artikel: "§ 136"
 seiten: "59-60"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 136 StG ZH – 3. Bescheinigungspflicht Dritter · S. 59–60
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › D. Einschätzung im ordentlichen Verfahren › § 136 StG ZH – 3. Bescheinigungspflicht Dritter · S. 59–60
 
 ### § 136 StG ZH – 3. Bescheinigungspflicht Dritter
 

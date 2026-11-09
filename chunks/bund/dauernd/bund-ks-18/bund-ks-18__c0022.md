@@ -9,7 +9,7 @@ ziffer: "6.2 a"
 seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung · S. 7–8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025 · KS 18 · 6. Ausrichtung und Besteuerung der Leistungen › 6.2 Vorzeitige Ausrichtung · S. 7–8
 
 Verlangt ein Vorsorgenehmer innerhalb der fünf Jahre vor Erreichen des AHV-Rentenalters,
 dass ihm sein Vorsorgekapital ausbezahlt wird, beendet er damit den Aufbau seiner Vorsor-

@@ -12,6 +12,8 @@ raw: raw/zh/dauernd/zh-zstb-30-3.html
 sha256: 33d3a3ba2031df48b5e2b72b7614a472a2752a6a50afde04857409e2bc4d1c46
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2020-01-01'
 ---
 # ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten
 

@@ -14,6 +14,8 @@ sha256: 3132abb71b6cdd68812403c0e2db44775f15cb253a9e31233548b2cae62328d7
 abgerufen: '2026-11-09'
 einheiten: 136
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2024-01-01'
 ---
 # Steuerverordnung SG (sGS 811.11) – Version gültig ab 01.01.2024
 

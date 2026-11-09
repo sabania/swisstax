@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 8 – Qualifizierte Beteiligungen im Privatvermögen 2025 (Teilbesteuerung 70%)",
    "pfad": [
     "Formular 8",
@@ -27,5 +27,7 @@
    ],
    "zusammenfassung": "Erträge aus qualifizierten Beteiligungen werden zu 70% besteuert (Art. 20 Abs. 1bis DBG); Abzug 30% vom Total Bruttoertrag, zu übertragen in die Steuererklärung Seite 3, Ziff. 15.8."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

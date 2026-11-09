@@ -9,7 +9,7 @@ ziffer: "15 / 66–71"
 seiten: "19-20"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 15 Bemerkungen · S. 19–20
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 15 Bemerkungen · S. 19–20
 
     fliesst, ist folgender Vermerk anzubringen: «Mitarbeiterbeteiligung ohne steuerbares Ein
     kommen. Grund: ... (z. B. anwartschaftliche Mitarbeiteraktien)»;

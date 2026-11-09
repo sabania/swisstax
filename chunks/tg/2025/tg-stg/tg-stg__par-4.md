@@ -2,13 +2,13 @@
 id: tg-stg__par-4
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 4 StG TG – Steuererleichterungen für Unternehmen"
 artikel: "§ 4"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1. Teil: Staatssteuern › 1.1. Allgemeine Bestimmungen › § 4 Steuererleichterungen für Unternehmen
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1. Teil: Staatssteuern › 1.1. Allgemeine Bestimmungen › § 4 Steuererleichterungen für Unternehmen
 
 ### § 4 StG TG – Steuererleichterungen für Unternehmen
 

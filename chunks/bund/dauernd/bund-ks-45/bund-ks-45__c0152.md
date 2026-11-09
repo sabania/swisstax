@@ -2,14 +2,14 @@
 id: bund-ks-45__c0152
 quelle: bund-ks-45
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 7.4 Beispiel 9 – Kind wird volljährig, Wegfall der Familienzulagen (Teil 1/2)"
 ziffer: "7.4"
 seiten: "49"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 49
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 45 · 7 Berechnung nach dem Jahresmodell › 7.4 Änderung der persönlichen Verhältnisse · S. 49
 
     Änderung des Zivilstands mit anschliessender Anpassung des Lohns während des Kalenderjahres:
     9. Ein Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Er übt eine unselbstständige Er-

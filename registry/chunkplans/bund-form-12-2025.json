@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "titel": "Formular 12 Seite 1 – Bescheinigung Bezüge Verwaltungsmitglieder 2025",
    "pfad": [
     "Formular"
@@ -24,7 +24,7 @@
    "zusammenfassung": "Verzeichnis der Mitglieder der Verwaltung mit Bezügen 2025 gemäss Ziffer 11 des Lohnausweises; Beilage Lohnausweise Form. 11."
   },
   {
-   "start": 82,
+   "start": 67,
    "titel": "Formular 12 Seite 2 – Erläuterungen Lohnausweis und Einreichung",
    "pfad": [
     "Erläuterungen"
@@ -42,5 +42,7 @@
    ],
    "zusammenfassung": "Juristische Personen müssen nach Art. 129 Abs. 1 lit. a DBG für jedes Mitglied einen Lohnausweis (Form. 11) ausstellen und Formular 12 einreichen."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

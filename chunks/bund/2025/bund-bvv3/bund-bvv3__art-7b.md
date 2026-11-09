@@ -2,13 +2,13 @@
 id: bund-bvv3__art-7b
 quelle: bund-bvv3
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: verordnung
 titel: "Art. 7b BVV 3 – Gesuch um Annahme von als Einkauf geleisteten Beiträgen"
 artikel: "Art. 7b"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025/2026 · BVV 3 · 2. Abschnitt: Steuerliche Behandlung › Art. 7b Gesuch um Annahme von als Einkauf geleisteten Beiträgen
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025/2026/2027 · BVV 3 · 2. Abschnitt: Steuerliche Behandlung › Art. 7b Gesuch um Annahme von als Einkauf geleisteten Beiträgen
 
 ### Art. 7b BVV 3 – Gesuch um Annahme von als Einkauf geleisteten Beiträgen
 

@@ -8,7 +8,7 @@ titel: "Art. 164 StG AR – 4. Aufbewahrungspflicht"
 artikel: "Art. 164"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 164 4. Aufbewahrungspflicht
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 7. Verfahrensrecht › C. Veranlagung im ordentlichen Verfahren › Art. 164 4. Aufbewahrungspflicht
 
 ### Art. 164 StG AR – 4. Aufbewahrungspflicht
 

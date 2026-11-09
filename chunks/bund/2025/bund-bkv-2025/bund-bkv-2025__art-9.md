@@ -8,7 +8,7 @@ titel: "Art. 9 BKV – Auswärtiger Wochenaufenthalt"
 artikel: "Art. 9"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2025 · BKV · Art. 9 Auswärtiger Wochenaufenthalt
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2025 · BKV · Art. 9 Auswärtiger Wochenaufenthalt
 
 ### Art. 9 BKV – Auswärtiger Wochenaufenthalt
 

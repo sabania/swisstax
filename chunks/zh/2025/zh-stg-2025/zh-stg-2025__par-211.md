@@ -9,7 +9,7 @@ artikel: "§ 211"
 seiten: "76"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 211 StG ZH – 3. Einsprache · S. 76
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 211 StG ZH – 3. Einsprache · S. 76
 
 ### § 211 StG ZH – 3. Einsprache
 

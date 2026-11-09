@@ -2,13 +2,13 @@
 id: tg-stg__par-7
 quelle: tg-stg
 jur: tg
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: gesetz
 titel: "§ 7 StG TG – Persönliche Zugehörigkeit"
 artikel: "§ 7"
-qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: gesetz}}
+qmd: {metadata: {jur: tg, jahre: [2025, 2026, 2027], typ: gesetz}}
 ---
-> TG · Steuerjahr 2025/2026 · StG TG · 1.2 Steuern der natürlichen Personen › 1.2.1. Steuerpflicht › § 7 Persönliche Zugehörigkeit
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026/2027 · StG TG · 1.2 Steuern der natürlichen Personen › 1.2.1. Steuerpflicht › § 7 Persönliche Zugehörigkeit
 
 ### § 7 StG TG – Persönliche Zugehörigkeit
 

@@ -9,7 +9,7 @@ artikel: "§ 11"
 seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › C. Vertretung und Treuhänder-Register › § 11 V elektr. Einreichung ZH – Vertretung der steuerpflichtigen Person · S. 3
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V elektr. Einreichung ZH · A. Allgemeines › C. Vertretung und Treuhänder-Register › § 11 V elektr. Einreichung ZH – Vertretung der steuerpflichtigen Person · S. 3
 
 ### § 11 V elektr. Einreichung ZH – Vertretung der steuerpflichtigen Person
 

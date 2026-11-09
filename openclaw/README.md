@@ -45,17 +45,19 @@ Testfragen: [`../eval/openclaw-lauf.md`](../eval/openclaw-lauf.md).
       provider: "openai",                    // | voyage | gemini | mistral | deepinfra | ollama | "local" (GGUF, ohne API-Key) | "none" (nur Volltext/FTS)
       model: "text-embedding-3-small",       // für Deutsch besser: text-embedding-3-large, voyage-4-large oder bge-m3
       cache: { enabled: true },
-      store: { fts: { tokenizer: "trigram" } },   // empfohlen für Deutsch (Komposita); bei Wechsel Reindex
+      // store.fts.tokenizer: Standard "unicode61" belassen – im Retrieval-Test besser als "trigram" (eval/laeufe/experimente.md)
     },
   },
 }
 ```
 
 - **Kein `extraPaths` nötig**, weil das Wiki unter `memory/` liegt (wird standardmässig indexiert).
-- **Ohne Embedding-Schlüssel:** `provider: "none"` (reine Volltextsuche, im Test brauchbar: die richtigen Chunks erscheinen
-  oben, wenn die Anfrage Fachbegriffe enthält – Glossar `wiki/glossar.md` hilft) oder `provider: "local"` (lädt
-  `embeddinggemma-300m` ~0.3 GB von HuggingFace, hybride Suche ohne Cloud). Ein explizit gesetzter Remote-Provider
-  ohne Schlüssel fällt **nicht** auf FTS zurück – dann liefert `memory_search` nichts.
+- **Ohne Embedding-Schlüssel:** `provider: "none"` (reine Volltextsuche; so wurde getestet) oder `provider: "local"` – dieser
+  braucht in 2026.11.2 zuerst das Plugin: `openclaw plugins install @openclaw/llama-cpp-provider` (lädt dann
+  `embeddinggemma-300m` ~0.3 GB von HuggingFace; im Test nicht installiert, siehe Experimente). Ein explizit gesetzter
+  Remote-Provider ohne Schlüssel fällt **nicht** auf FTS zurück – dann liefert `memory_search` nichts.
+- **Tokenizer:** Standard (`unicode61`) belassen. Retrieval-Test (29 Fragen mit belegten Fundstellen): unicode61 Hit@10 59 %
+  vs. trigram 52 %; mit angereicherten Chunk-Kontextzeilen MRR 0.36 statt 0.28.
 - **Modell:** beliebig. Getestet mit Claude über die `claude-cli`-Runtime (Claude Code auf dem Gateway-Host angemeldet):
   `agents.defaults.models: { "anthropic/claude-sonnet-5-5": { agentRuntime: { id: "claude-cli" } } }`.
 
@@ -68,7 +70,9 @@ Testfragen: [`../eval/openclaw-lauf.md`](../eval/openclaw-lauf.md).
   nur `.md`-Dateien; OpenClaw zerlegt jede Datei selbst (~400 Tokens). Die Chunk-Dateien dieses Wikis sind ≤ ~1'600
   Zeichen → 1 Datei ≈ 1 Treffer. PDFs werden nie indexiert. **Symlinks werden nicht verfolgt** (deshalb keine Dubletten aus
   `sources/`).
-- **Tools im Agent-Turn (Test):** `memory_search`, `memory_get`, `read`, `ls` – der Agent folgt den Links quick → wiki → chunks.
+- **Tools im Agent-Turn (Test, 47 Turns):** `read` 333×, `exec` (grep/cat) 38×, `memory_search` 9× – der Agent navigiert
+  hauptsächlich über Dateien und Links (quick → wiki → chunks); die Suche ist Rückfallebene. Darum zählt die Struktur des
+  Quick-Layers mehr als die Suchkonfiguration.
 - **Zeitverfall:** Dateien über `extraPaths` verlieren mit 30 Tagen Halbwertszeit nach Änderungsdatum (mtime) an Gewicht
   (im Test: Score 0.0007 statt 0.92 bei mtime vor 10 Monaten). `evergreen: true` für extraPaths wird von 2026.11.2 **abgelehnt**
   («Unrecognized key»), ist aber in der Doku für neuere Versionen beschrieben. Dateien unter `memory/` ohne Datumspräfix

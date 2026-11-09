@@ -8,7 +8,7 @@ titel: "Art. 149 DBG – Verfahren und Entscheid"
 artikel: "Art. 149"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 1. Kapitel: Revision › Art. 149 Verfahren und Entscheid
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · Sechster Titel: Änderung rechtskräftiger Verfügungen und Entscheide › 1. Kapitel: Revision › Art. 149 Verfahren und Entscheid
 
 ### Art. 149 DBG – Verfahren und Entscheid
 

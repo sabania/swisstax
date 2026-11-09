@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Wegleitung · **gilt für Steuerjahre:** 2025
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2025/vst-formulare/438%20Wegleitung%20DA1_DA-3%202025%20bf%20DEF.pdf> · lokal: [zh-wl-da1-2025.pdf](../../../raw/zh/2025/zh-wl-da1-2025.pdf) · Volltext: [zh-wl-da1-2025.md](../../../sources/zh/2025/zh-wl-da1-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `b7c8eb89947c1d07…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-wl-da1-2025`).
+
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

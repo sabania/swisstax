@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: merkblatt
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/ZVmW0a6DHqu8/dbst-mb-n2-2007-de.pdf
 raw: raw/bund/dauernd/bund-mb-n2.pdf
@@ -13,6 +14,8 @@ sha256: 333a950ac256023e24ffbe17d3c536d88a97bca71187300f242bf6ab9c1a3bed
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2007-01-01'
 ---
 # Merkblatt N2/2007: Naturalbezüge Arbeitnehmende
 

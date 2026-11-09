@@ -8,7 +8,7 @@ titel: "Art. 211 StG AR – IX. Bezugsverjährung"
 artikel: "Art. 211"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 211 IX. Bezugsverjährung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 8. Steuerbezug, Steuersicherung und Steuererlass › A. Steuerbezug › Art. 211 IX. Bezugsverjährung
 
 ### Art. 211 StG AR – IX. Bezugsverjährung
 

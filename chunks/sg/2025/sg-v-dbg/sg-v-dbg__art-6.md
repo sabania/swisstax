@@ -8,7 +8,7 @@ titel: "Art. 6 V DBG SG – Einreichung der Einsprache"
 artikel: "Art. 6"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 6 Einreichung der Einsprache
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG SG · III. Verfahren › Art. 6 Einreichung der Einsprache
 
 ### Art. 6 V DBG SG – Einreichung der Einsprache
 

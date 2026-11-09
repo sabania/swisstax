@@ -8,7 +8,7 @@ titel: "Art. 26 GSV AR – Kosten der Schätzung"
 artikel: "Art. 26"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: verordnung}}
 ---
-> AR · Steuerjahr 2025/2026 · GSV AR · VII. Kosten › Art. 26 Kosten der Schätzung
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · GSV AR · VII. Kosten › Art. 26 Kosten der Schätzung
 
 ### Art. 26 GSV AR – Kosten der Schätzung
 

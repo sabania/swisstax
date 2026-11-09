@@ -12,6 +12,9 @@ sha256: 85da529b147e19e9bffa8eb8f53c65058728a386d6dc439458aa1bdcd102ac51
 abgerufen: '2026-11-09'
 seiten: 2
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # ESTV Formular 12: Bescheinigung über Bezüge von Mitgliedern der Verwaltung 2025
 

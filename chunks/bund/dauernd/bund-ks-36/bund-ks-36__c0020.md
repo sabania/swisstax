@@ -2,14 +2,14 @@
 id: bund-ks-36__c0020
 quelle: bund-ks-36
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 4.4 Abzug geschäftsmässiger Kosten und Verluste (Art. 27 DBG), Aufzeichnungen (Teil 1/2)"
 ziffer: "4.4"
 seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.4 Bemessungsgrundlage · S. 7
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 36 · 4 Selbständige Erwerbstätigkeit › 4.4 Bemessungsgrundlage · S. 7
 
 Von den steuerbaren Einkünften aus selbständiger Erwerbstätigkeit werden gemäss
 Artikel 27 Absatz 1 DBG die geschäfts- oder berufsmässig begründeten Kosten abgezogen.

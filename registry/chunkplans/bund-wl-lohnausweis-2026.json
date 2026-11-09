@@ -7,12 +7,12 @@
  ],
  "chunks": [
   {
-   "start": 16,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Formularhinweis"
   },
   {
-   "start": 54,
+   "start": 39,
    "titel": "Vorwort zur Wegleitung Lohnausweis",
    "pfad": [
     "Vorwort"
@@ -27,12 +27,12 @@
    "zusammenfassung": "Die Wegleitung wurde von der erweiterten Arbeitsgruppe Lohnausweis der SSK erstellt und wird jährlich überarbeitet; Änderungen sind mit schwarzem Balken markiert."
   },
   {
-   "start": 75,
+   "start": 60,
    "skip": true,
    "titel": "Inhaltsverzeichnis"
   },
   {
-   "start": 99,
+   "start": 84,
    "titel": "Allgemeines – Abkürzungen, FAQ, eLohnausweis",
    "pfad": [
     "Allgemeines"
@@ -46,7 +46,7 @@
    "zusammenfassung": "Abkürzungsverzeichnis sowie Hinweise auf FAQ und eLohnausweis SSK."
   },
   {
-   "start": 136,
+   "start": 121,
    "titel": "Rz 1–3 Vorinformationen – Formular 11, Pflicht zur Ausstellung",
    "pfad": [
     "Vorinformationen"
@@ -65,7 +65,7 @@
    ]
   },
   {
-   "start": 170,
+   "start": 155,
    "titel": "Rz 4–5 Buchstabe A/B – Lohnausweis oder Rentenbescheinigung",
    "pfad": [
     "I Notwendige Angaben",
@@ -87,7 +87,7 @@
    ]
   },
   {
-   "start": 195,
+   "start": 180,
    "titel": "Rz 6–8 Buchstaben C–E – AHV-Nummer, Kalenderjahr, Lohnperiode",
    "pfad": [
     "I Notwendige Angaben",
@@ -108,7 +108,7 @@
    ]
   },
   {
-   "start": 236,
+   "start": 221,
    "titel": "Rz 9 Buchstabe F – Unentgeltliche Beförderung Wohn-/Arbeitsort",
    "pfad": [
     "I Notwendige Angaben",
@@ -130,7 +130,7 @@
    ]
   },
   {
-   "start": 248,
+   "start": 233,
    "titel": "Rz 9 Buchstabe F (Teil 2) – Autopauschale, Generalabonnement, Halbtax",
    "pfad": [
     "I Notwendige Angaben",
@@ -150,7 +150,7 @@
    ]
   },
   {
-   "start": 260,
+   "start": 245,
    "titel": "Rz 10 Buchstabe G – Kantinenverpflegung / Lunch-Checks",
    "pfad": [
     "I Notwendige Angaben",
@@ -171,7 +171,7 @@
    ]
   },
   {
-   "start": 287,
+   "start": 272,
    "titel": "Rz 11–12 Buchstaben H–I – Name, Adresse, Unterschrift",
    "pfad": [
     "I Notwendige Angaben",
@@ -187,7 +187,7 @@
    "ziffer": "11–12"
   },
   {
-   "start": 305,
+   "start": 290,
    "titel": "Rz 13–16 Ziffer 1 Lohn – ordentliches Salär, Taggelder, Zulagen, Provisionen",
    "pfad": [
     "I Notwendige Angaben",
@@ -209,7 +209,7 @@
    ]
   },
   {
-   "start": 323,
+   "start": 308,
    "titel": "Rz 17–18 Ziffer 1 – Arbeitswegvergütungen, Verpflegungsbeiträge, Lunch-Checks",
    "pfad": [
     "I Notwendige Angaben",
@@ -230,7 +230,7 @@
    ]
   },
   {
-   "start": 334,
+   "start": 319,
    "titel": "Rz 19 Ziffer 2 Gehaltsnebenleistungen – Bewertung zum Marktwert",
    "pfad": [
     "I Notwendige Angaben",
@@ -249,7 +249,7 @@
    ]
   },
   {
-   "start": 357,
+   "start": 342,
    "titel": "Rz 20 Ziffer 2.1 Verpflegung und Unterkunft",
    "pfad": [
     "I Notwendige Angaben",
@@ -269,7 +269,7 @@
    ]
   },
   {
-   "start": 371,
+   "start": 356,
    "titel": "Rz 21 Ziffer 2.2 Privatanteil Geschäftsfahrzeug – Pauschale 0,9 % pro Monat",
    "pfad": [
     "I Notwendige Angaben",
@@ -290,7 +290,7 @@
    ]
   },
   {
-   "start": 392,
+   "start": 377,
    "titel": "Rz 22–25 Ziffer 2.2 – Kostenübernahme, effektive Erfassung, Feld F",
    "pfad": [
     "I Notwendige Angaben",
@@ -311,7 +311,7 @@
    ]
   },
   {
-   "start": 422,
+   "start": 407,
    "titel": "Rz 26 Ziffer 2.3 Andere Gehaltsnebenleistungen",
    "pfad": [
     "I Notwendige Angaben",
@@ -331,7 +331,7 @@
    ]
   },
   {
-   "start": 441,
+   "start": 426,
    "titel": "Rz 27 Ziffer 3 Unregelmässige Leistungen – Bonus, Umzugsentschädigung",
    "pfad": [
     "I Notwendige Angaben",
@@ -352,7 +352,7 @@
    ]
   },
   {
-   "start": 477,
+   "start": 462,
    "titel": "Rz 28 Ziffer 4 Kapitalleistungen",
    "pfad": [
     "I Notwendige Angaben",
@@ -371,7 +371,7 @@
    ]
   },
   {
-   "start": 493,
+   "start": 478,
    "titel": "Rz 29 Ziffer 5 Beteiligungsrechte gemäss Beiblatt",
    "pfad": [
     "I Notwendige Angaben",
@@ -392,7 +392,7 @@
    ]
   },
   {
-   "start": 527,
+   "start": 512,
    "titel": "Rz 30 Ziffer 6 Verwaltungsratsentschädigungen",
    "pfad": [
     "I Notwendige Angaben",
@@ -413,7 +413,7 @@
    ]
   },
   {
-   "start": 540,
+   "start": 525,
    "titel": "Rz 31–35 Ziffer 7 Andere Leistungen – Trinkgelder, Taggelder, ALV, EO",
    "pfad": [
     "I Notwendige Angaben",
@@ -435,7 +435,7 @@
    ]
   },
   {
-   "start": 557,
+   "start": 542,
    "titel": "Rz 36–37 Ziffer 7 – Übernommene PK-Beiträge, Versicherungsbeiträge Säule 3b",
    "pfad": [
     "I Notwendige Angaben",
@@ -456,7 +456,7 @@
    ]
   },
   {
-   "start": 569,
+   "start": 554,
    "titel": "Rz 38 Ziffer 7 – Arbeitgeberbeiträge an Säule 3a",
    "pfad": [
     "I Notwendige Angaben",
@@ -475,7 +475,7 @@
    ]
   },
   {
-   "start": 582,
+   "start": 567,
    "titel": "Rz 39–42 Ziffer 7 (Quellensteuer, Schulgelder), Ziffer 8 Bruttolohn, Ziffer 9 AHV/IV/EO/ALV/NBUV",
    "pfad": [
     "I Notwendige Angaben",
@@ -498,7 +498,7 @@
    ]
   },
   {
-   "start": 606,
+   "start": 591,
    "titel": "Rz 43 Ziffer 10 Berufliche Vorsorge (2. Säule)",
    "pfad": [
     "I Notwendige Angaben",
@@ -518,7 +518,7 @@
    ]
   },
   {
-   "start": 618,
+   "start": 603,
    "titel": "Rz 44–46 Ziffer 10.1/10.2 Ordentliche Beiträge und Einkauf in die 2. Säule",
    "pfad": [
     "I Notwendige Angaben",
@@ -538,7 +538,7 @@
    ]
   },
   {
-   "start": 647,
+   "start": 632,
    "titel": "Rz 47–48 Ziffer 11 Nettolohn/Rente und Ziffer 12 Quellensteuerabzug",
    "pfad": [
     "I Notwendige Angaben",
@@ -559,7 +559,7 @@
    ]
   },
   {
-   "start": 668,
+   "start": 653,
    "titel": "Rz 49–51 Ziffer 13 Spesenvergütungen – Abgrenzung und Arten",
    "pfad": [
     "I Notwendige Angaben",
@@ -580,7 +580,7 @@
    ]
   },
   {
-   "start": 700,
+   "start": 685,
    "titel": "Rz 52 Ziffer 13.1 Effektive Spesen – Verzicht auf Deklaration (Kreuz 13.1.1)",
    "pfad": [
     "I Notwendige Angaben",
@@ -602,7 +602,7 @@
    ]
   },
   {
-   "start": 719,
+   "start": 704,
    "titel": "Rz 52 Ziffer 13.1 (Schluss) – Voraussetzung Reisetätigkeit, Kreuz in 13.1.1",
    "pfad": [
     "I Notwendige Angaben",
@@ -617,7 +617,7 @@
    "ziffer": "13.1 / 52"
   },
   {
-   "start": 727,
+   "start": 712,
    "titel": "Rz 53–54 Ziffer 13.1.1/13.1.2 Effektive Reise- und übrige Spesen, Homeoffice",
    "pfad": [
     "I Notwendige Angaben",
@@ -638,7 +638,7 @@
    ]
   },
   {
-   "start": 762,
+   "start": 747,
    "titel": "Rz 55–58 Ziffer 13.2 Pauschalspesen – Repräsentation, Auto, übrige",
    "pfad": [
     "I Notwendige Angaben",
@@ -659,7 +659,7 @@
    ]
   },
   {
-   "start": 797,
+   "start": 782,
    "titel": "Rz 59–60 Genehmigtes Spesenreglement",
    "pfad": [
     "I Notwendige Angaben",
@@ -675,7 +675,7 @@
    "ziffer": "13 / 59–60"
   },
   {
-   "start": 821,
+   "start": 806,
    "titel": "Rz 61–62 Ziffer 13.3 Weiterbildungsbeiträge, Ziffer 14 Weitere Gehaltsnebenleistungen",
    "pfad": [
     "I Notwendige Angaben",
@@ -695,7 +695,7 @@
    ]
   },
   {
-   "start": 850,
+   "start": 835,
    "titel": "Rz 63 Ziffer 15 Bemerkungen – allgemein",
    "pfad": [
     "I Notwendige Angaben",
@@ -714,7 +714,7 @@
    ]
   },
   {
-   "start": 866,
+   "start": 851,
    "titel": "Rz 64–65a Ziffer 15 – Erwerbsausfall, ALV, Spesenreglement, Expatriate",
    "pfad": [
     "I Notwendige Angaben",
@@ -733,7 +733,7 @@
    ]
   },
   {
-   "start": 884,
+   "start": 869,
    "titel": "Rz 66–71 Ziffer 15 – mehrere Lohnausweise, Rektifikat, Teilzeit, Beteiligungen, Umzugskosten",
    "pfad": [
     "I Notwendige Angaben",
@@ -750,7 +750,7 @@
    "ziffer": "15 / 66–71"
   },
   {
-   "start": 918,
+   "start": 903,
    "titel": "Rz 72 Nicht zu deklarierende Leistungen – Pauschalen und Limiten (Teil 1)",
    "pfad": [
     "II Nicht zu deklarierende Leistungen"
@@ -769,7 +769,7 @@
    ]
   },
   {
-   "start": 938,
+   "start": 923,
    "titel": "Rz 72 Nicht zu deklarierende Leistungen (Teil 2) – Anlässe, Krippe, Parkplatz",
    "pfad": [
     "II Nicht zu deklarierende Leistungen"
@@ -789,7 +789,7 @@
    ]
   },
   {
-   "start": 962,
+   "start": 947,
    "titel": "Rz 73–74 Pflichtverletzung und Adressaten des Lohnausweises",
    "pfad": [
     "III Pflichtverletzung",
@@ -806,7 +806,7 @@
    "ziffer": "73–74"
   },
   {
-   "start": 976,
+   "start": 961,
    "titel": "Rz 75 Bestelladressen Lohnausweisformular und Wegleitung",
    "pfad": [
     "V Bestelladressen"
@@ -820,9 +820,11 @@
    "ziffer": "75"
   },
   {
-   "start": 1006,
+   "start": 991,
    "skip": true,
    "titel": "Anhang – Adressen kantonale Steuerbehörden"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

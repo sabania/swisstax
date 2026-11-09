@@ -6,6 +6,7 @@ jurisdiktion: bund
 jahre:
 - 2025
 - 2026
+- 2027
 typ: kreisschreiben
 stand: '2018-07-24'
 quelle_url: https://www.estv.admin.ch/dam/de/sd-web/pl0PXAcAAxJq/dbst-ks-2018-1-044-d-de.pdf
@@ -14,6 +15,8 @@ sha256: f17df3f8d4d4005464f54b30d068ce4b91fe14c5b3f7ee01788efe1bc77e17aa
 abgerufen: '2026-11-09'
 seiten: 8
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: dauernd
+gilt_ab: '2016-01-01'
 ---
 # ESTV-Kreisschreiben Nr. 44: Besteuerung nach dem Aufwand
 

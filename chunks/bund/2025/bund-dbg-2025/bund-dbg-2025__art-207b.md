@@ -8,7 +8,7 @@ titel: "Art. 207b DBG – Übergangsbestimmung zur Änderung vom 20. Juni 2014"
 artikel: "Art. 207b"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 207b Übergangsbestimmung zur Änderung vom 20. Juni 2014
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2025 · DBG · Vierter Titel: Übergangsbestimmungen › 2. Kapitel: Juristische Personen › Art. 207b Übergangsbestimmung zur Änderung vom 20. Juni 2014
 
 ### Art. 207b DBG – Übergangsbestimmung zur Änderung vom 20. Juni 2014
 

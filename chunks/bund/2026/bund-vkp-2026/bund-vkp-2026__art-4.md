@@ -8,7 +8,7 @@ titel: "Art. 4 VKP – Steuerfreie Einkünfte"
 artikel: "Art. 4"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: verordnung}}
 ---
-> Bund · Steuerjahr 2026 · VKP · Art. 4 Steuerfreie Einkünfte
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Verordnung · Steuerjahr 2026 · VKP · Art. 4 Steuerfreie Einkünfte
 
 ### Art. 4 VKP – Steuerfreie Einkünfte
 

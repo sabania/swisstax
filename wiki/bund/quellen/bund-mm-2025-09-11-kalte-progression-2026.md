@@ -11,6 +11,18 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Mitteilung · **gilt für Steuerjahre:** 2026
 - **Original:** <https://www.estv.admin.ch/de/newnsb/VzaAUrhkPx2EPde4a6e3O> · lokal: [bund-mm-2025-09-11-kalte-progression-2026.html](../../../raw/bund/2026/bund-mm-2025-09-11-kalte-progression-2026.html) · Volltext: [bund-mm-2025-09-11-kalte-progression-2026.md](../../../sources/bund/2026/bund-mm-2025-09-11-kalte-progression-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `deebb4b6b06c6897…`
+- **Gültigkeit:** Zeitbezug info (Information) · gilt ab 2026-01-01 bis 2026-12-31 · ersetzt durch `bund-mm-kalte-progression-2027`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-mm-2025-09-11-kalte-progression-2026`).
+
+- `data/werte/bund/2026.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/bund/2026.yaml#56:steuerfrei.grossspielgewinn` (agent-geprueft)
+- [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)
+- [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
 
 ## Inhalt (5 Chunks)
 

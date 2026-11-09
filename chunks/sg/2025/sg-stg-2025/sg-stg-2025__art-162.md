@@ -8,7 +8,7 @@ titel: "Art. 162 StG SG – Geheimhaltungspflicht"
 artikel: "Art. 162"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 162 Geheimhaltungspflicht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 162 Geheimhaltungspflicht
 
 ### Art. 162 StG SG – Geheimhaltungspflicht
 

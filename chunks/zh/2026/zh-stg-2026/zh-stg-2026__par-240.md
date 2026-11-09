@@ -9,7 +9,7 @@ artikel: "§ 240"
 seiten: "83"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 240 StG ZH – 6. Steuerhinterziehung von Ehegatten · S. 83
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 240 StG ZH – 6. Steuerhinterziehung von Ehegatten · S. 83
 
 ### § 240 StG ZH – 6. Steuerhinterziehung von Ehegatten
 

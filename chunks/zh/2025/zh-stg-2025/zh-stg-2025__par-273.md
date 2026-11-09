@@ -9,7 +9,7 @@ artikel: "§ 273"
 seiten: "91"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 273 StG ZH – 6. Wechsel der zeitlichen Bemessung für die natürlichen Personen a. Grundsatz · S. 91
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 273 StG ZH – 6. Wechsel der zeitlichen Bemessung für die natürlichen Personen a. Grundsatz · S. 91
 
 ### § 273 StG ZH – 6. Wechsel der zeitlichen Bemessung für die natürlichen Personen a. Grundsatz
 

@@ -12,6 +12,9 @@ sha256: 72859bb8c37b46c467107b410b66d92a5f9670410a5e4b7285ee0fd6237dd304
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # ESTV Formular 8: Qualifizierte Beteiligungen im Privatvermögen 2025
 

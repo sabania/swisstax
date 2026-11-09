@@ -2,14 +2,14 @@
 id: bund-mb-nl1__c0002
 quelle: bund-mb-nl1
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Ziff. 1 Naturalbezüge (Privatanteile pro Person) und Ziff. 6 Naturallohn Verpflegung/Unterkunft (Teil 1/2)"
 ziffer: "1, 6"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB NL1/2007 · Merkblatt NL1 › Ziff. 1 / Ziff. 6 · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB NL1/2007 · Merkblatt NL1 › Ziff. 1 / Ziff. 6 · S. 1
 
 1. Naturalbezüge
 Diese Beträge stellen den Wert der Nahrungsmittelbezüge aus Selbst-   6. Naturallohn (Verpflegung und Unterkunft)

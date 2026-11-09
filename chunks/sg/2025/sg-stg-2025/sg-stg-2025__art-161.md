@@ -8,7 +8,7 @@ titel: "Art. 161 StG SG – Massgebendes Recht"
 artikel: "Art. 161"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 161 Massgebendes Recht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Sechster Abschnitt: Organisation und Verfahren › II. Allgemeine Verfahrensgrundsätze › Art. 161 Massgebendes Recht
 
 ### Art. 161 StG SG – Massgebendes Recht
 

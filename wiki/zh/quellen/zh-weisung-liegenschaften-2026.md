@@ -11,6 +11,13 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Weisung · **gilt für Steuerjahre:** 2026 · **Stand:** 2024-08-28
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/631.32_28.8.2024_Weisung_2026.pdf> · lokal: [zh-weisung-liegenschaften-2026.pdf](../../../raw/zh/2026/zh-weisung-liegenschaften-2026.pdf) · Volltext: [zh-weisung-liegenschaften-2026.md](../../../sources/zh/2026/zh-weisung-liegenschaften-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `68bcf4cf70b1afcf…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis offen · ersetzt `zh-weisung-liegenschaften-2009`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-weisung-liegenschaften-2026`).
+
+- [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

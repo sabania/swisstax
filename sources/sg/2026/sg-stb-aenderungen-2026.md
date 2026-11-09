@@ -4,6 +4,7 @@ titel: Liste geänderter und neuer Weisungen, Stand 1.1.2026
 kurz: StB SG Änderungen 2026
 jurisdiktion: sg
 jahre:
+- 2025
 - 2026
 typ: info
 quelle_url: https://www.sg.ch/steuern-finanzen/steuern/steuerbuch/_jcr_content/Par/sgch_downloadlist_co/DownloadListPar/sgch_download.ocFile/Liste%20ge%C3%A4nderte%20und%20neue%20Weisungen%20Stand%2001.01.2026.pdf
@@ -12,6 +13,8 @@ sha256: fb4424b05c6109fe47ebdd504f0186264b3d09afafd9e65ee238cbd1c906a485
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: info
+gilt_ab: '2026-01-01'
 ---
 # Liste geänderter und neuer Weisungen, Stand 1.1.2026
 

@@ -2,14 +2,14 @@
 id: bund-ks-30__c0068
 quelle: bund-ks-30
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 2/3)"
 ziffer: "11"
 seiten: "21-22"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21–22
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 30 · 11 Unterstützungsabzug · S. 21–22
 
 gen. Den Unterstützungsabzug kann er nicht zusätzlich auch noch beanspruchen. Dem an-
 deren Elternteil, der die Unterhaltsleistungen für das Kind zu versteuern hat, wird der Kin-

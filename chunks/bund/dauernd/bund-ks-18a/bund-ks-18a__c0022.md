@@ -2,14 +2,14 @@
 id: bund-ks-18a__c0022
 quelle: bund-ks-18a
 jur: bund
-jahre: [2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Ziff. 5.7 Sonderfall f: Erwerbstätige nach Erreichen des Referenzalters"
 ziffer: "5.7 f"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2026 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 8
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 18a · 5. Abzugsberechtigung für Beiträge › 5.7 Sonderfälle · S. 8
 
 f)   Erwerbstätige, die das Referenzalter überschritten haben
 Leistet der Vorsorgenehmer keine Beiträge mehr in eine Vorsorgeeinrichtung, weil er das

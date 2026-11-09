@@ -12,6 +12,7 @@ raw: raw/tg/dauernd/tg-info-faq.html
 sha256: 72d1298c706132d4bec169dac5ad72981b7c8856995cd23f5619f85f44fcdea6
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: dauernd
 ---
 # FAQ natürliche Personen
 

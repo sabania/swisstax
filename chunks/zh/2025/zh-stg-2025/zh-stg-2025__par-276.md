@@ -9,7 +9,7 @@ artikel: "§ 276"
 seiten: "92"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 276 StG ZH – 7. Wechsel der zeitlichen Bemessung für die juristischen Personen a. Grundsatz · S. 92
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Vierter Teil: Schlussbestimmungen › § 276 StG ZH – 7. Wechsel der zeitlichen Bemessung für die juristischen Personen a. Grundsatz · S. 92
 
 ### § 276 StG ZH – 7. Wechsel der zeitlichen Bemessung für die juristischen Personen a. Grundsatz
 

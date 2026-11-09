@@ -9,7 +9,7 @@ ziffer: "63–67"
 seiten: "12-13"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › II. Wohnungen in Mehrfamilienhäusern ohne Stockwerkeigentum · S. 12–13
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Weisung · Steuerjahr 2026 · Weisung 2026 ZH · B. Eigenmietwerte › II. Wohnungen in Mehrfamilienhäusern ohne Stockwerkeigentum · S. 12–13
 
     II. Wohnungen in Mehrfamilienhäusern ohne Stockwerkeigentum
 

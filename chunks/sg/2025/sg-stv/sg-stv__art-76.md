@@ -8,7 +8,7 @@ titel: "Art. 76 StV SG – Mitteilung rechtskräftiger Steuerfaktoren (Art. 162 
 artikel: "Art. 76"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 76 Mitteilung rechtskräftiger Steuerfaktoren (Art. 162 Abs. 2 StG) a) Mitteilung an Dritte
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 76 Mitteilung rechtskräftiger Steuerfaktoren (Art. 162 Abs. 2 StG) a) Mitteilung an Dritte
 
 ### Art. 76 StV SG – Mitteilung rechtskräftiger Steuerfaktoren (Art. 162 Abs. 2 StG) a) Mitteilung an Dritte
 

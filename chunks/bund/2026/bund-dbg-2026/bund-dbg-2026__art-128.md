@@ -8,7 +8,7 @@ titel: "Art. 128 DBG"
 artikel: "Art. 128"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: gesetz}}
 ---
-> Bund · Steuerjahr 2026 · DBG · 2. Kapitel: Verfahrenspflichten › 4. Abschnitt: Auskunftspflicht Dritter › Art. 128
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Gesetz · Steuerjahr 2026 · DBG · 2. Kapitel: Verfahrenspflichten › 4. Abschnitt: Auskunftspflicht Dritter › Art. 128
 
 ### Art. 128 DBG
 

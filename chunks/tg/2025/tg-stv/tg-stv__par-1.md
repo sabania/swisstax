@@ -8,7 +8,7 @@ titel: "§ 1 StV TG – Steuerteilung im interkommunalen Verhältnis"
 artikel: "§ 1"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · StV TG · 1. Allgemeine Bestimmungen › § 1 Steuerteilung im interkommunalen Verhältnis
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV TG · 1. Allgemeine Bestimmungen › § 1 Steuerteilung im interkommunalen Verhältnis
 
 ### § 1 StV TG – Steuerteilung im interkommunalen Verhältnis
 

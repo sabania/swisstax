@@ -9,7 +9,7 @@ ziffer: "36"
 seiten: "1"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: wegleitung}}
 ---
-> SG · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 36. Sozialabzüge Vermögen · S. 1
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Wegleitung · Steuerjahr 2025 · Kurz-WL SG 2025 · Kurzübersicht › 36. Sozialabzüge Vermögen · S. 1
 
 36.   Sozialabzüge   Für alleinstehende Steuerpflichtige   Fr. 75’000   34
     Vermögen   Für gemeinsam Steuerpflichtige   Fr.150’000

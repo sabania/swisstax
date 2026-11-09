@@ -9,7 +9,7 @@ artikel: "§ 3"
 seiten: "1"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Allgemeine Bestimmungen › § 3 StV ZH – 2. Fehlende Vertretung eines Steuerpflichtigen mit Wohnsitz oder Sitz im Ausland · S. 1
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV ZH · Erster Teil: Staatssteuern › A. Allgemeine Bestimmungen › § 3 StV ZH – 2. Fehlende Vertretung eines Steuerpflichtigen mit Wohnsitz oder Sitz im Ausland · S. 1
 
 ### § 3 StV ZH – 2. Fehlende Vertretung eines Steuerpflichtigen mit Wohnsitz oder Sitz im Ausland
 

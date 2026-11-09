@@ -8,7 +8,7 @@ titel: "Art. 9 VGS SG – Schätzungsmethode"
 artikel: "Art. 9"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 9 Schätzungsmethode
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · VGS SG · III. Verfahren › Art. 9 Schätzungsmethode
 
 ### Art. 9 VGS SG – Schätzungsmethode
 

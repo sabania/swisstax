@@ -9,7 +9,7 @@ artikel: "§ 214"
 seiten: "76"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 214 StG ZH – 3. Beschwerde an das Bundesgericht · S. 76
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 214 StG ZH – 3. Beschwerde an das Bundesgericht · S. 76
 
 ### § 214 StG ZH – 3. Beschwerde an das Bundesgericht
 

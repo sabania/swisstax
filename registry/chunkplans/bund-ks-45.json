@@ -7,12 +7,12 @@
  ],
  "chunks": [
   {
-   "start": 18,
+   "start": 1,
    "skip": true,
    "titel": "Deckblatt und Inhaltsverzeichnis"
   },
   {
-   "start": 158,
+   "start": 141,
    "titel": "Ziff. 1 Allgemeines – Revision Quellenbesteuerung 2021",
    "pfad": [
     "1 Allgemeines und Gegenstand"
@@ -28,7 +28,7 @@
    "zusammenfassung": "Das Bundesgesetz vom 16. Dezember 2016 über die Revision der Quellenbesteuerung tritt auf den 1. Januar 2021 in Kraft und führt u.a. die Quasi-Ansässigkeit ein."
   },
   {
-   "start": 174,
+   "start": 157,
    "titel": "Ziff. 1 Allgemeines – DBA, Art. 85 Abs. 4 DBG, Geltungsbereich",
    "pfad": [
     "1 Allgemeines und Gegenstand"
@@ -44,7 +44,7 @@
    "zusammenfassung": "Die Berechnung der Quellensteuern für Arbeitnehmer nach Art. 83 und 91 DBG wird vereinheitlicht; für übrige Quellensteuerpflichtige gelten die ESTV-Rundschreiben."
   },
   {
-   "start": 189,
+   "start": 172,
    "titel": "Ziff. 1 Allgemeines – Wichtigste Neuerungen",
    "pfad": [
     "1 Allgemeines und Gegenstand"
@@ -60,7 +60,7 @@
    "zusammenfassung": "Das Kreisschreiben gilt schweizweit; Schuldner rechnen direkt mit dem zuständigen Kanton nach dessen Modell (Monats- oder Jahresmodell) ab."
   },
   {
-   "start": 203,
+   "start": 186,
    "titel": "Ziff. 2.1 Arbeitnehmer – Begriff",
    "pfad": [
     "2 Begriffe",
@@ -79,7 +79,7 @@
    "zusammenfassung": "Arbeitnehmer sind Personen im Dienst eines Arbeitgebers mit Sitz in der Schweiz; massgebend ist der Charakter als unselbstständige Erwerbstätigkeit nach Art. 17 Abs. 1 DBG."
   },
   {
-   "start": 215,
+   "start": 198,
    "titel": "Ziff. 2.1 Arbeitnehmer – Abgrenzungskriterien selbstständig/unselbstständig",
    "pfad": [
     "2 Begriffe",
@@ -101,7 +101,7 @@
    "zusammenfassung": "Abgrenzungskriterien wie Weisungsgebundenheit, Eingliederung und fehlendes unternehmerisches Risiko; sie müssen nicht kumulativ erfüllt sein."
   },
   {
-   "start": 240,
+   "start": 223,
    "titel": "Ziff. 2.2.1 Schuldner der steuerbaren Leistung – Grundsatz",
    "pfad": [
     "2 Begriffe",
@@ -118,7 +118,7 @@
    "zusammenfassung": "Schuldner ist, wer dem Arbeitnehmer eine quellensteuerpflichtige Leistung ausrichtet und Wohnsitz, Sitz, Verwaltung, Betriebsstätte oder feste Einrichtung in der Schweiz hat."
   },
   {
-   "start": 262,
+   "start": 245,
    "titel": "Ziff. 2.2.2 Schuldner beim Personalverleih",
    "pfad": [
     "2 Begriffe",
@@ -136,7 +136,7 @@
    "zusammenfassung": "Beim Personalverleih gilt der Verleiher als Arbeitgeber; bei verbotenem Verleih aus dem Ausland gilt der schweizerische Einsatzbetrieb als Schuldner."
   },
   {
-   "start": 279,
+   "start": 262,
    "titel": "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Begriff und Kriterien",
    "pfad": [
     "2 Begriffe",
@@ -153,7 +153,7 @@
    "zusammenfassung": "Faktische Arbeitgeberschaft liegt vor, wenn der Arbeitnehmer seine Leistung einer anderen Unternehmung schuldet, die weisungsbefugt ist und die Lohnkosten wirtschaftlich trägt."
   },
   {
-   "start": 289,
+   "start": 272,
    "titel": "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Prüfkriterien",
    "pfad": [
     "2 Begriffe",
@@ -169,7 +169,7 @@
    "zusammenfassung": "Prüfkriterien u.a. integraler Bestandteil der Geschäftstätigkeit, Verantwortung und Risiko, Weisungshoheit, Eingliederung und Tragung der Lohnkosten."
   },
   {
-   "start": 306,
+   "start": 289,
    "titel": "Ziff. 2.2.3 Faktische Arbeitgeberschaft – Dreimonatsgrenze und Rechtsfolge",
    "pfad": [
     "2 Begriffe",
@@ -185,7 +185,7 @@
    "zusammenfassung": "Geprüft wird in der Regel nur bei Entsendungen von mehr als drei Monaten innerhalb von zwölf Monaten; die Quellensteuerpflicht besteht dann ab dem ersten Arbeitstag."
   },
   {
-   "start": 330,
+   "start": 313,
    "titel": "Ziff. 2.2.3 Beispiele – faktische Arbeitgeberschaft bejaht",
    "pfad": [
     "2 Begriffe",
@@ -201,7 +201,7 @@
    "zusammenfassung": "Beispiele mit Entsendung von vier bzw. sechs Monaten, bei denen die schweizerische Gesellschaft als faktische Arbeitgeberin die Quellensteuer abrechnet."
   },
   {
-   "start": 343,
+   "start": 326,
    "titel": "Ziff. 2.2.3 Beispiele 1–2 – faktische Arbeitgeberschaft verneint (Erfüllungsgehilfe, Subunternehmer)",
    "pfad": [
     "2 Begriffe",
@@ -218,7 +218,7 @@
    "zusammenfassung": "Keine faktische Arbeitgeberschaft, wenn ein ausländisches Unternehmen als Erfüllungsgehilfe oder Subunternehmer Arbeitnehmer zur Auftragserfüllung (z.B. sechs bzw. fünf Monate) in die Schweiz entsendet."
   },
   {
-   "start": 353,
+   "start": 336,
    "titel": "Ziff. 2.2.3 Beispiel 3 – Konzern-CIO mit 95 Arbeitstagen in der Schweiz",
    "pfad": [
     "2 Begriffe",
@@ -235,7 +235,7 @@
    "zusammenfassung": "Keine faktische Arbeitgeberschaft beim Informatikchef des deutschen Mutterhauses, der jährlich 95 Arbeitstage bei der Tochter in Solothurn verbringt (Arbeitsleistungen nur gemäss Vertrag mit dem Mutterhaus)."
   },
   {
-   "start": 360,
+   "start": 343,
    "titel": "Ziff. 2.3 Ansässigkeit – Begriff und Schweizer Recht",
    "pfad": [
     "2 Begriffe",
@@ -252,7 +252,7 @@
    "zusammenfassung": "Ansässig ist, wer nach Art. 3 DBG aufgrund persönlicher Zugehörigkeit unbeschränkt steuerpflichtig ist."
   },
   {
-   "start": 372,
+   "start": 355,
    "titel": "Ziff. 2.3 Ansässigkeit – Doppelansässigkeit und Vorrangkriterien",
    "pfad": [
     "2 Begriffe",
@@ -269,7 +269,7 @@
    "zusammenfassung": "Bei Doppelansässigkeit gilt die Reihenfolge: ständige Wohnstätte/Mittelpunkt der Lebensinteressen, gewöhnlicher Aufenthalt, Staatsangehörigkeit, Verständigungsverfahren."
   },
   {
-   "start": 391,
+   "start": 374,
    "titel": "Ziff. 2.3 Ansässigkeit – Grenzgänger, Wochen- und Kurzaufenthalter",
    "pfad": [
     "2 Begriffe",
@@ -286,7 +286,7 @@
    "zusammenfassung": "Grenzgänger, Wochenaufenthalter und Kurzaufenthalter begründen keine Ansässigkeit in der Schweiz und unterliegen nur für Erwerbseinkommen der Quellensteuer."
   },
   {
-   "start": 397,
+   "start": 380,
    "titel": "Ziff. 3.1 / 3.1.1 Quellenbesteuerte Arbeitnehmer mit Ansässigkeit in der Schweiz",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -307,7 +307,7 @@
    "zusammenfassung": "Ausländer ohne Niederlassungsbewilligung (Ausweis C) mit Ansässigkeit in der Schweiz sind quellensteuerpflichtig; Ehepaare in ungetrennter Ehe nicht, wenn ein Ehegatte Schweizer ist oder die Niederlassungsbewilligung hat."
   },
   {
-   "start": 415,
+   "start": 398,
    "titel": "Ziff. 3.1.2 Arbeitnehmer mit Ansässigkeit im Ausland",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -324,7 +324,7 @@
    "zusammenfassung": "Arbeitnehmer mit Ansässigkeit im Ausland sind unabhängig von Staatsangehörigkeit oder Bewilligung für Lohn- und Ersatzeinkünfte quellensteuerpflichtig, vorbehältlich DBA."
   },
   {
-   "start": 433,
+   "start": 416,
    "titel": "Ziff. 3.2.1 Steuerbare Einkünfte aus Arbeitsverhältnis – Bruttoeinkünfte",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -348,7 +348,7 @@
    "zusammenfassung": "Die Quellensteuer wird vom Bruttoeinkommen berechnet; steuerbar sind Lohn, Zulagen, Provisionen, Boni, Naturalleistungen, Tantiemen, Sitzungsgelder, Mitarbeiterbeteiligungen und Abgangsentschädigungen."
   },
   {
-   "start": 459,
+   "start": 442,
    "titel": "Ziff. 3.2.1 Ersatzeinkünfte und nicht quellensteuerpflichtige Einkünfte",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -369,7 +369,7 @@
    "zusammenfassung": "Auch Ersatzeinkünfte (Taggelder, Teil-Invaliditätsrenten, Mutterschaftsentschädigung) sind steuerbar; Wertschriften- und Liegenschaftserträge werden nachträglich ordentlich veranlagt."
   },
   {
-   "start": 469,
+   "start": 452,
    "titel": "Ziff. 3.2.1 Leistungsschuldner mit Sitz im Ausland",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -385,7 +385,7 @@
    "zusammenfassung": "Bei Schuldnern mit Sitz im Ausland gilt grundsätzlich die ordentliche Veranlagung; Quellenbesteuerung nur bei Betriebsstätte, Personalverleih oder faktischer Arbeitgeberschaft in der Schweiz."
   },
   {
-   "start": 479,
+   "start": 462,
    "titel": "Ziff. 3.2.2 Beschränkt steuerbare Einkünfte – schweizerische Arbeitstage",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -406,7 +406,7 @@
    "zusammenfassung": "Bei Ansässigkeit im Ausland ist nur der auf Schweizer Arbeitstage entfallende Teil steuerbar; für den Satz zählen die weltweiten Bruttoerwerbseinkünfte."
   },
   {
-   "start": 501,
+   "start": 484,
    "titel": "Ziff. 3.2.3 Vom Arbeitgeber übernommene Leistungen – Hinzurechnung zum Bruttolohn",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -427,7 +427,7 @@
    "zusammenfassung": "Vom Arbeitgeber übernommene Arbeitnehmerbeiträge (AHV/IV/EO, ALV, 2. Säule, 3a/3b, Privatversicherungen) und übernommene Quellensteuern gehören zum Bruttolohn."
   },
   {
-   "start": 523,
+   "start": 506,
    "titel": "Ziff. 3.2.3 Nicht hinzuzurechnende Arbeitgeberleistungen",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -444,7 +444,7 @@
    "zusammenfassung": "Nicht hinzuzurechnen sind reglementarische Leistungen an rein patronale Vorsorge, UVG-Beiträge und Kollektiv-Taggeldversicherungen, sofern für alle bzw. Gruppen gleich."
   },
   {
-   "start": 537,
+   "start": 520,
    "titel": "Ziff. 3.2.3 Hypo-Tax bei entsandten Arbeitnehmern",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -461,7 +461,7 @@
    "zusammenfassung": "Bei Hypo-Tax-Vereinbarung wird die hypothetische ausländische Steuer vom Bruttolohn abgezogen und die vom Arbeitgeber übernommene Quellensteuer nach der Methode der Iteration hinzugerechnet."
   },
   {
-   "start": 546,
+   "start": 529,
    "titel": "Ziff. 3.2.3 Beispiel – Iterationsberechnung übernommene Quellensteuer (Hypo-Tax)",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -478,7 +478,7 @@
    "zusammenfassung": "Beispiel: Bruttolohn CHF 7 000.00 abzüglich CHF 1 750.00 Hypo-Tax ergibt CHF 5 250.00; nach Iteration Steuersatz 12.79 %, steuerbarer Lohn CHF 6 019.95, QSt CHF 769.95."
   },
   {
-   "start": 591,
+   "start": 574,
    "titel": "Ziff. 3.2.4 Entschädigung für Berufskosten",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -501,7 +501,7 @@
    "zusammenfassung": "Zusätzliche Arbeitgeberentschädigungen für Berufskosten gehören zum steuerbaren Bruttolohn; Verpflegungsentschädigungen nicht, wenn sie nach Rz 18 Lohnausweis nicht im Bruttolohn auszuweisen sind."
   },
   {
-   "start": 611,
+   "start": 594,
    "titel": "Ziff. 3.2.5 Spesenzahlungen",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -518,7 +518,7 @@
    "zusammenfassung": "Effektive Spesen sind nicht steuerbar (Belege aufbewahren); Pauschalspesen unterliegen der Quellensteuer, ausser sie stützen sich auf ein genehmigtes Spesenreglement."
   },
   {
-   "start": 620,
+   "start": 603,
    "titel": "Ziff. 3.2.6–3.2.7 Geschäftsfahrzeuge und Naturalleistungen",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -536,7 +536,7 @@
    "zusammenfassung": "Das Geschäftsfahrzeug erhöht den Bruttomonatslohn nach Rz 21 Lohnausweis; Naturalleistungen werden zum Marktwert nach Merkblatt N2 ESTV zugerechnet."
   },
   {
-   "start": 636,
+   "start": 619,
    "titel": "Ziff. 3.2.8 Abgangsentschädigungen",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -556,7 +556,7 @@
    "zusammenfassung": "Abgangsentschädigungen ohne Vorsorgecharakter sind steuerbar; mit Vorsorgecharakter bei in der Schweiz Ansässigen kein Quellensteuerabzug, bei Nichtansässigen Besteuerung nach ordentlichen Tarifcodes."
   },
   {
-   "start": 653,
+   "start": 636,
    "titel": "Ziff. 3.2.9 Personalverleih und faktische Arbeitgeberschaft – steuerbare Leistungen",
    "pfad": [
     "3 Quellenbesteuerte Arbeitnehmer",
@@ -573,7 +573,7 @@
    "zusammenfassung": "Steuerbar sind nur die dem Arbeitnehmer zukommenden Leistungen; im Beispiel unterliegt nur der Bruttolohn von CHF 34.00 pro Stunde, die Differenz von CHF 18.00 wird beim Verleiher besteuert."
   },
   {
-   "start": 675,
+   "start": 658,
    "titel": "Ziff. 4.1 Tarifanwendung – Allgemeines, Zeitpunkt, Änderungen",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -591,7 +591,7 @@
    "zusammenfassung": "Der Tarifcode richtet sich nach den Verhältnissen bei Auszahlung/Fälligkeit; Änderungen wie Heirat oder Geburt gelten ab Beginn des Folgemonats."
   },
   {
-   "start": 690,
+   "start": 673,
    "titel": "Ziff. 4.1 Tarifanwendung – fehlende Angaben, Mehrfachtätigkeit, Sondertarife E, G, Q",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -609,7 +609,7 @@
    "zusammenfassung": "Weist sich der Arbeitnehmer nicht aus, gilt für Ledige A0Y und für Verheiratete C0Y; Vorbehalten bleiben die Tarifcodes E, G und Q."
   },
   {
-   "start": 711,
+   "start": 694,
    "titel": "Ziff. 4.2 Einverdiener- und Zweiverdienertarif (Tarifcodes B, C, M, N)",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -630,7 +630,7 @@
    "zusammenfassung": "Tarifcode B gilt, wenn nur ein Ehegatte erwerbstätig ist, Tarifcode C bei Erwerbstätigkeit beider Ehegatten (Höhe der Einkünfte unerheblich); Wechsel ab dem Folgemonat."
   },
   {
-   "start": 735,
+   "start": 718,
    "titel": "Ziff. 4.3 Tarif für Alleinerziehende (Tarifcodes H, P)",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -651,7 +651,7 @@
    "zusammenfassung": "Tarifcode H gilt für Alleinstehende mit Kindern im gleichen Haushalt; im Konkubinat erhält ihn der Elternteil mit dem höheren Bruttoeinkommen, im Zweifel zunächst A0."
   },
   {
-   "start": 752,
+   "start": 735,
    "titel": "Ziff. 4.4 Vereinfachtes Abrechnungsverfahren (Tarifcode E)",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -671,7 +671,7 @@
    "zusammenfassung": "Kleinere Arbeitsentgelte im vereinfachten Abrechnungsverfahren (Art. 37a DBG, BGSA) werden mit Tarifcode E an der Quelle besteuert."
   },
   {
-   "start": 764,
+   "start": 747,
    "titel": "Ziff. 4.5 Grenzgänger aus Italien (Tarifcode F)",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -687,7 +687,7 @@
    "zusammenfassung": "Tarifcode F gilt für Grenzgänger aus italienischen Grenzgemeinden mit ausserhalb der Schweiz erwerbstätigem Ehegatten, nur in TI, VS und GR."
   },
   {
-   "start": 775,
+   "start": 758,
    "titel": "Ziff. 4.6 Grenzgänger aus Deutschland – Tarife L, M, N, P und Ansässigkeitsbescheinigung",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -704,7 +704,7 @@
    "zusammenfassung": "Die Grenzgängertarife (höchstens 4.5 Prozent) setzen eine Ansässigkeitsbescheinigung (Gre-1/Gre-2) pro Kalenderjahr voraus, sonst gelten die ordentlichen Tarife."
   },
   {
-   "start": 789,
+   "start": 772,
    "titel": "Ziff. 4.6 Grenzgänger Deutschland – Nichtrückkehrtage (Gre-3)",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -720,7 +720,7 @@
    "zusammenfassung": "Wer an mehr als 60 Arbeitstagen im Jahr nicht an den deutschen Wohnort zurückkehren kann (Gre-3), gilt nicht als Grenzgänger und wird nach ordentlichen Tarifen besteuert."
   },
   {
-   "start": 800,
+   "start": 783,
    "titel": "Ziff. 4.7 Gewährung von Kinderabzügen",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -741,7 +741,7 @@
    "zusammenfassung": "Kinderabzug für minderjährige oder in Erstausbildung stehende Kinder, für deren Unterhalt der Arbeitnehmer zur Hauptsache aufkommt; Nachweis durch Geburtsurkunde, Zulagenentscheid, Lehrvertrag etc."
   },
   {
-   "start": 818,
+   "start": 801,
    "titel": "Ziff. 4.7 Beispiele Tarifcode B (Einverdiener mit Kindern)",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -757,7 +757,7 @@
    "zusammenfassung": "Beispiele für Tarifcode B2 bei nicht erwerbstätigem Ehegatten und zwei Kindern."
   },
   {
-   "start": 827,
+   "start": 810,
    "titel": "Ziff. 4.7 Beispiele Tarifcode C (Zweiverdiener mit Kindern)",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -773,7 +773,7 @@
    "zusammenfassung": "Beispiele für Tarifcode C2 bzw. C1 bei erwerbstätigen Ehegatten, auch bei separaten Wohnsitzen in der Schweiz und im Ausland."
   },
   {
-   "start": 841,
+   "start": 824,
    "titel": "Ziff. 4.7 Beispiele Tarifcode H (Alleinerziehende, Konkubinat)",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -789,7 +789,7 @@
    "zusammenfassung": "Beispiele zu H1 und A0: H1 nur, wenn das Kind im gleichen Haushalt lebt und der Arbeitnehmer zur Hauptsache für den Unterhalt aufkommt."
   },
   {
-   "start": 857,
+   "start": 840,
    "titel": "Ziff. 4.8–4.9 Kirchensteuerpflicht und Härtefallregelung (Alimente)",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -811,7 +811,7 @@
    "zusammenfassung": "Auf Antrag können bei Alimentenzahlungen zur Milderung von Härtefällen Kinderabzüge im Tarif gewährt werden (Art. 11 Abs. 1 QStV); die Kirchensteuerpflicht richtet sich nach kantonalem Recht."
   },
   {
-   "start": 875,
+   "start": 858,
    "titel": "Ziff. 4.9 Beispiel Härtefallregelung – Alimente CHF 42 000",
    "pfad": [
     "4 Grundsätze zur Tarifanwendung",
@@ -830,7 +830,7 @@
    "zusammenfassung": "Beispiel: jährliche Unterhaltszahlungen CHF 42 000.00, Kinderabzug CHF 8 000.00 je Kind, bewilligt wird Tarifcode A5N (5 x CHF 8 000.00 = CHF 40 000.00)."
   },
   {
-   "start": 886,
+   "start": 869,
    "titel": "Ziff. 5 / 5.1 Abgrenzungen – Künstler, Sportler und Referenten",
    "pfad": [
     "5 Abgrenzungen",
@@ -848,7 +848,7 @@
    "zusammenfassung": "Künstler, Sportler und Referenten mit Ansässigkeit im Ausland unterliegen bei mindestens 30 Tagen Anstellung Art. 91 DBG, bei weniger als 30 Tagen Art. 92 DBG."
   },
   {
-   "start": 905,
+   "start": 888,
    "titel": "Ziff. 5.1 Beispiele Künstler und Sportler",
    "pfad": [
     "5 Abgrenzungen",
@@ -865,7 +865,7 @@
    "zusammenfassung": "Beispiele: viermonatiger Vertrag = ordentliche Tarife (Art. 91 DBG); zweiwöchiger oder eintägiger Auftritt = Künstlertarif nach Art. 92 Abs. 2 DBG."
   },
   {
-   "start": 918,
+   "start": 901,
    "titel": "Ziff. 5.2 Mitarbeiterbeteiligungen",
    "pfad": [
     "5 Abgrenzungen",
@@ -885,7 +885,7 @@
    "zusammenfassung": "Geldwerte Vorteile aus Mitarbeiterbeteiligungen werden in der Regel zusammen mit dem übrigen Erwerbseinkommen an der Quelle besteuert."
   },
   {
-   "start": 927,
+   "start": 910,
    "titel": "Ziff. 5.3 Verwaltungsratsentschädigungen",
    "pfad": [
     "5 Abgrenzungen",
@@ -906,7 +906,7 @@
    "zusammenfassung": "VR-Entschädigungen von in der Schweiz Ansässigen werden nach Art. 83 DBG besteuert; bei Ansässigkeit im Ausland gilt Art. 93 DBG für Aufsichtsfunktionen, Art. 91 DBG für operative Tätigkeiten."
   },
   {
-   "start": 946,
+   "start": 929,
    "titel": "Ziff. 5.3 Beispiele Verwaltungsratsentschädigung und Lohn",
    "pfad": [
     "5 Abgrenzungen",
@@ -925,7 +925,7 @@
    "zusammenfassung": "Beispiel: VR-Entschädigung CHF 5 000.00 plus Bruttolohn CHF 10 000.00 = CHF 15 000.00 bei Ansässigkeit in der Schweiz; im Ausland getrennt (progressiver Tarif und linearer Tarif)."
   },
   {
-   "start": 957,
+   "start": 940,
    "titel": "Ziff. 6.1 Monatsmodell – Vorbemerkungen (Swissdec)",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -940,7 +940,7 @@
    "zusammenfassung": "Bei Abrechnung über Swissdec-zertifizierte Software sind deren Richtlinien massgebend, mit geringfügigen Abweichungen vom Kreisschreiben."
   },
   {
-   "start": 966,
+   "start": 949,
    "titel": "Ziff. 6.2 Monatsmodell – Grundsätze",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -958,7 +958,7 @@
    "zusammenfassung": "Beim Monatsmodell ist der Monat die Steuerperiode; die Quellensteuer ergibt sich aus Bruttoeinkünften x Steuersatz des Tarifs, der 13. Monatslohn wird im Auszahlungsmonat besteuert."
   },
   {
-   "start": 984,
+   "start": 967,
    "titel": "Ziff. 6.3 Satzbestimmendes Einkommen beim 13. Monatslohn",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -979,7 +979,7 @@
    "zusammenfassung": "Bei vierteljährlicher, halbjährlicher oder jährlicher Auszahlung werden 25, 50 bzw. 100 Prozent eines vollen 13. Monatslohns zum satzbestimmenden Einkommen hinzugerechnet."
   },
   {
-   "start": 1005,
+   "start": 988,
    "titel": "Ziff. 6.3 Beispiel 13. Monatslohn – halbjährliche Auszahlung, Austritt 31. Mai 2021",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -995,7 +995,7 @@
    "zusammenfassung": "Beispiel: Lohn CHF 6 000 plus anteiliger 13. Monatslohn CHF 2 500 steuerbar, satzbestimmend CHF 3 000 (2 500 / 150 x 180), total steuerbar CHF 8 500, satzbestimmend CHF 9 000."
   },
   {
-   "start": 1025,
+   "start": 1008,
    "titel": "Ziff. 6.4 Teilzeit und mehrere Erwerbstätigkeiten – Umrechnungsmethode",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1015,7 +1015,7 @@
    "zusammenfassung": "Bei mehreren Arbeitsverhältnissen wird das satzbestimmende Einkommen auf den Gesamtbeschäftigungsgrad, ersatzweise auf 100 Prozent bzw. auf das tatsächliche Gesamteinkommen umgerechnet."
   },
   {
-   "start": 1047,
+   "start": 1030,
    "titel": "Ziff. 6.4 Offenlegungspflicht, Pensum nicht bekannt, 100-Prozent-Umrechnung",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1033,7 +1033,7 @@
    "zusammenfassung": "Gibt der Arbeitnehmer Pensum und Lohn der anderen Tätigkeit nicht bekannt, wird jedes Arbeitsverhältnis auf ein 100-Prozent-Pensum umgerechnet; bei Ersatzeinkünften zählt der Invaliditätsgrad."
   },
   {
-   "start": 1066,
+   "start": 1049,
    "titel": "Ziff. 6.4 Aperiodische Bestandteile, Folgemonat, Tarifcode E, Neuberechnung",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1050,7 +1050,7 @@
    "zusammenfassung": "Nur periodische Lohnbestandteile werden umgerechnet; die Umrechnung beginnt ab dem Folgemonat; Neuberechnung oder nachträgliche ordentliche Veranlagung ist bis 31. März des Folgejahres zu beantragen."
   },
   {
-   "start": 1078,
+   "start": 1061,
    "titel": "Ziff. 6.4 Beispiele 1–3 – zwei Arbeitsverhältnisse in der Schweiz",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1067,7 +1067,7 @@
    "zusammenfassung": "Beispiele: 50 %/50 % ergibt satzbestimmend 9 000 und 8 000; bei Gesamtpensum 90 % ohne Kenntnis 9 000 und 11 000, mit Kenntnis 8 100 und 9 900."
   },
   {
-   "start": 1112,
+   "start": 1095,
    "titel": "Ziff. 6.4 Beispiel 4 – Pensum 70 % mit Bonus plus Pensum 30 %",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1083,7 +1083,7 @@
    "zusammenfassung": "Beispiel: Lohn 70 % CHF 4 550 wird auf 6 500 umgerechnet, Bonus CHF 2 000 nicht, zweite Stelle 30 % CHF 1 200 ergibt 4 000."
   },
   {
-   "start": 1127,
+   "start": 1110,
    "titel": "Ziff. 6.4 Beispiele 5–6 – Stundenlohn und gleicher Schuldner",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1100,7 +1100,7 @@
    "zusammenfassung": "Beispiele: Stundenlohn mit 35 Stunden bei 182 Stunden betriebsüblich entspricht 19,23 % Pensum; beim gleichen Schuldner werden die Bruttolöhne addiert (satzbestimmend 5 300)."
   },
   {
-   "start": 1143,
+   "start": 1126,
    "titel": "Ziff. 6.4 Beispiele 6–7 – gleicher Schuldner, Arbeitsverhältnis im Ausland",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1117,7 +1117,7 @@
    "zusammenfassung": "Beispiele zur Umrechnung bei zwei Tätigkeiten beim gleichen Schuldner und bei einem Arbeitsverhältnis im Ausland (Gesamtpensum 70 %)."
   },
   {
-   "start": 1168,
+   "start": 1151,
    "titel": "Ziff. 6.4 Beispiele 8–9 – Lohn und IV-Rente (Tarifcode G), Tätigkeit ohne Pensum",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1137,7 +1137,7 @@
    "zusammenfassung": "Beispiele: Lohn 60 % CHF 6 000 und IV-Rente 40 % CHF 2 000 (Tarifcode G) ergeben satzbestimmend 10 000 und 5 000; nebenamtliche Tätigkeit ohne Pensum satzbestimmend 5 425."
   },
   {
-   "start": 1192,
+   "start": 1175,
    "titel": "Ziff. 6.5 Stunden- und Tageslohn – satzbestimmendes Monatseinkommen",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1158,7 +1158,7 @@
    "zusammenfassung": "Bei Stunden- oder Tageslohn ohne Monatszahlung wird das satzbestimmende Monatseinkommen durch Umrechnung auf 180 Stunden bzw. 21,667 Tage ermittelt."
   },
   {
-   "start": 1207,
+   "start": 1190,
    "titel": "Ziff. 6.5 Abzugszeitpunkt, Ablieferung, gewogenes Mittel, Neuberechnung",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1175,7 +1175,7 @@
    "zusammenfassung": "Der Quellensteuerabzug erfolgt im Zeitpunkt der Lohnzahlung, die Ablieferung monatlich; bei unterschiedlichen Ansätzen gilt das gewogene Mittel (x 180 Stunden bzw. 21.667 Tage)."
   },
   {
-   "start": 1222,
+   "start": 1205,
    "titel": "Ziff. 6.5 Beispiel 1 – Personalverleih, wöchentliche Auszahlung Stundenlohn",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1192,7 +1192,7 @@
    "zusammenfassung": "Beispiel: 152 Stunden zu CHF 32.00–40.00 pro Stunde, wöchentliche Auszahlung; je Woche wird x 180 umgerechnet, Total Lohn CHF 5 319 und Quellensteuer CHF 642.35."
   },
   {
-   "start": 1242,
+   "start": 1225,
    "titel": "Ziff. 6.5 Beispiel 2 – Tageslohn und Stundenlohn bei zwei Arbeitgebern",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1209,7 +1209,7 @@
    "zusammenfassung": "Beispiel: Tagesentschädigung CHF 190.00 an 11 Tagen (x 21,667) bei der P. AG und 70 Stunden zu CHF 22.00 bei der R. AG (Pensum 38,46 %)."
   },
   {
-   "start": 1263,
+   "start": 1246,
    "titel": "Ziff. 6.5 Beispiel 3 – Reinigungskraft im Stundenlohn plus Monatslohn 50 %",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1226,7 +1226,7 @@
    "zusammenfassung": "Beispiel: 70 Stunden zu CHF 23.00 (satzbestimmend 4 140, Satz 7.5 %) und 50 % Monatslohn CHF 2 400 (satzbestimmend 4 800, Satz 9.5 %)."
   },
   {
-   "start": 1279,
+   "start": 1262,
    "titel": "Ziff. 6.5 Beispiele 4–5 – Kurzeinsatz und Abrechnung über mehrere Wochen",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1243,7 +1243,7 @@
    "zusammenfassung": "Beispiele: 72 Stunden zu CHF 35.00 ergeben satzbestimmend 6 300 und Quellensteuer CHF 327.60; Stundenabrechnungen über mehrere Wochen werden je Abrechnung auf 180 Stunden umgerechnet."
   },
   {
-   "start": 1303,
+   "start": 1286,
    "titel": "Ziff. 6.5 Beispiel 6 – Stundenlohn mit Krankentaggeld und Familienzulage",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1264,7 +1264,7 @@
    "zusammenfassung": "Beispiel: Lohn CHF 2 625, Taggeld CHF 2 000 und Familienzulage CHF 1 200 (inkl. Nachzahlung) ergeben total steuerbar CHF 5 825 und satzbestimmend CHF 7 500."
   },
   {
-   "start": 1323,
+   "start": 1306,
    "titel": "Ziff. 6.6 Untermonatige Ein- und Austritte – Umrechnung auf 30 Tage",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1281,7 +1281,7 @@
    "zusammenfassung": "Im Ein- oder Austrittsmonat werden nur die periodischen Lohnbestandteile auf 30 Kalendertage umgerechnet; aperiodische Bestandteile werden danach hinzugerechnet."
   },
   {
-   "start": 1335,
+   "start": 1318,
    "titel": "Ziff. 6.6 Spezialfälle Anzahl Tage im Ein- oder Austrittsmonat",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1298,7 +1298,7 @@
    "zusammenfassung": "Tabelle der Tagesanzahl bei Ein-/Austritt Ende Monat, z.B. Eintritt 31. März = 1 Tag, Eintritt 27. Februar 2023 = 4 Tage, Austritt 27. Februar 2023 = 27 Tage."
   },
   {
-   "start": 1353,
+   "start": 1336,
    "titel": "Ziff. 6.6 Aperiodische Leistungen und Beispiel 1 (Austritt 16. März 2022)",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1315,7 +1315,7 @@
    "zusammenfassung": "Aperiodisch sind u.a. Überzeit, Ferienentschädigung, Boni, Gratifikationen und Abgangsentschädigungen; im Beispiel wird CHF 3 500 auf 6 562.50 umgerechnet (3 500 / 16 x 30), Total satzbestimmend CHF 12 562.50."
   },
   {
-   "start": 1387,
+   "start": 1370,
    "titel": "Ziff. 6.6 Beispiel 2 – Austritt bei einer von zwei Stellen mit Abgangsentschädigung",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1332,7 +1332,7 @@
    "zusammenfassung": "Beispiel: Umrechnung Austritt auf 30 Tage und anschliessend auf Gesamtpensum 90 %; Total Satzbestimmung bei der C. AG CHF 9 500 inkl. Abgangsentschädigung CHF 500."
   },
   {
-   "start": 1416,
+   "start": 1399,
    "titel": "Ziff. 6.6 Beispiele 13. Monatslohn 3 – halbjährliche Auszahlung, Austritt 15. Juni 2021",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1348,7 +1348,7 @@
    "zusammenfassung": "Beispiel: periodische Lohnzahlung CHF 3 000 ergibt satzbestimmend 6 000, 13. Monatslohn CHF 2 750 ergibt 3 000; Total satzbestimmend CHF 9 000."
   },
   {
-   "start": 1434,
+   "start": 1417,
    "titel": "Ziff. 6.6 Beispiel 4 – vierteljährliche Auszahlung 13. Monatslohn, Austritt 15. Oktober 2021",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1364,7 +1364,7 @@
    "zusammenfassung": "Beispiel: 13. Monatslohn CHF 250 pro rata ergibt satzbestimmend CHF 1 500 (250 / 15 x 90); Total satzbestimmend CHF 7 500."
   },
   {
-   "start": 1451,
+   "start": 1434,
    "titel": "Ziff. 6.6 Beispiel 5 – Ein- und Austritt im selben Jahr, halbjährliche Auszahlung",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1380,7 +1380,7 @@
    "zusammenfassung": "Beispiel: Eintritt 1. Februar, Austritt 15. Juni 2021; 13. Monatslohn CHF 2 250 ergibt satzbestimmend CHF 3 000, Total satzbestimmend CHF 9 000."
   },
   {
-   "start": 1468,
+   "start": 1451,
    "titel": "Ziff. 6.6 Beispiel 6 – jährliche Auszahlung 13. Monatslohn, Austritt 15. Dezember 2021",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1396,7 +1396,7 @@
    "zusammenfassung": "Beispiel: 13. Monatslohn CHF 5 750 ergibt satzbestimmend CHF 6 000 (5 750 / 345 x 360); Total steuerbar CHF 8 750, satzbestimmend CHF 12 000."
   },
   {
-   "start": 1483,
+   "start": 1466,
    "titel": "Ziff. 6.6 Beispiel 7 – jährliche Auszahlung 13. Monatslohn, Ein- und Austritt im Jahr",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1412,7 +1412,7 @@
    "zusammenfassung": "Beispiel: 13. Monatslohn CHF 3 250 ergibt satzbestimmend CHF 6 000 (3 250 / 195 x 360), periodischer Lohn CHF 3 000 ergibt 6 000."
   },
   {
-   "start": 1501,
+   "start": 1484,
    "titel": "Ziff. 6.7 Ausscheidung ausländischer Arbeitstage – Ansässige und Monteurklausel",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1429,7 +1429,7 @@
    "zusammenfassung": "In der Schweiz Ansässige sind grundsätzlich auch für Arbeitstage im Ausland steuerpflichtig, ausser das DBA weist die Steuerbefugnis dem Tätigkeitsstaat zu (Monteurklausel nicht erfüllt)."
   },
   {
-   "start": 1512,
+   "start": 1495,
    "titel": "Ziff. 6.7 Ausscheidungsregeln – 20 Arbeitstage pro Monat, 240 pro Jahr",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1446,7 +1446,7 @@
    "zusammenfassung": "Schweizer Arbeitstage ergeben sich aus 20 Arbeitstagen pro Monat bzw. 240 pro Jahr abzüglich ausländischer Arbeitstage; Ferien- und Krankheitstage werden nicht ausgeschieden."
   },
   {
-   "start": 1522,
+   "start": 1505,
    "titel": "Ziff. 6.7 Beispiel 1 – 5 Arbeitstage in Österreich, Bruttolohn CHF 8 000",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1462,7 +1462,7 @@
    "zusammenfassung": "Beispiel: Bruttolohn CHF 8 000.00, 5 ausländische Arbeitstage, Ausscheidung 15/20; steuerbar CHF 6 000.00, satzbestimmend CHF 8 000.00."
   },
   {
-   "start": 1537,
+   "start": 1520,
    "titel": "Ziff. 6.7 Beispiel 2 – Lohn mit Bonus Vorjahr, Ausscheidung",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1478,7 +1478,7 @@
    "zusammenfassung": "Beispiel: Lohn CHF 10 000 (16/20 = CHF 8 000) plus Bonus Vorjahr CHF 30 000 (200/240 = CHF 25 000); total steuerbar CHF 33 000, satzbestimmend CHF 40 000."
   },
   {
-   "start": 1557,
+   "start": 1540,
    "titel": "Ziff. 6.7 Kalendarium und nachträgliche Korrektur der Ausscheidung",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1495,7 +1495,7 @@
    "zusammenfassung": "Die massgebenden Arbeitstage sind in einem Kalendarium festzuhalten und der Abrechnung beizulegen; Neuberechnung ist bis 31. März des Folgejahres mit unterzeichnetem Kalendarium zu beantragen."
   },
   {
-   "start": 1574,
+   "start": 1557,
    "titel": "Ziff. 6.8 Leistungen vor Antritt des Arbeitsverhältnisses (Sign-on-Bonus)",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1515,7 +1515,7 @@
    "zusammenfassung": "Vor Antritt ausgerichtete Entschädigungen wie ein Sign-on-Bonus unterliegen der Quellensteuer nach den Verhältnissen im Zeitpunkt der Ausrichtung."
   },
   {
-   "start": 1591,
+   "start": 1574,
    "titel": "Ziff. 6.9 Leistungen bei Beendigung – fällige Ansprüche (Überzeit, Ferien)",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1532,7 +1532,7 @@
    "zusammenfassung": "Bei Beendigung fällige, später ausbezahlte Leistungen werden zusammen mit dem letzten Arbeitsmonat besteuert, bereits abgezogene Quellensteuern werden angerechnet."
   },
   {
-   "start": 1604,
+   "start": 1587,
    "titel": "Ziff. 6.9 Leistungen mit Rechtsanspruch erst nach Beendigung (Bonus, Abgangsentschädigung)",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1549,7 +1549,7 @@
    "zusammenfassung": "Leistungen, auf die der Anspruch erst nach Beendigung entsteht, werden separat nach den Verhältnissen im Auszahlungsmonat besteuert; zur Satzbestimmung kann der letzte Bruttomonatslohn dienen."
   },
   {
-   "start": 1615,
+   "start": 1598,
    "titel": "Ziff. 6.9 Lohnfortzahlung bei Freistellung – Ansässigkeit im Ausland",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1566,7 +1566,7 @@
    "zusammenfassung": "Lohnfortzahlungen an einen freigestellten Arbeitnehmer mit Ansässigkeit im Ausland sind an der Quelle zu besteuern, auf einem reduzierten Bruttolohn, wenn die Arbeit mutmasslich im Ausland geleistet worden wäre."
   },
   {
-   "start": 1627,
+   "start": 1610,
    "titel": "Ziff. 6.9 Beispiel 1 – nachträglich ausbezahlte Ferienguthaben",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1582,7 +1582,7 @@
    "zusammenfassung": "Beispiel: Lohn CHF 5 500 plus Ferienguthaben CHF 500 = CHF 6 000, Quellensteuer CHF 757.20 abzüglich bezahlte CHF 649.55 ergibt CHF 107.65 geschuldet."
   },
   {
-   "start": 1651,
+   "start": 1634,
    "titel": "Ziff. 6.9 Beispiel 2 – Bonus nach Austritt, Ansässigkeit in Österreich",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1599,7 +1599,7 @@
    "zusammenfassung": "Beispiel: Bonus CHF 15 000 nur im Umfang von CHF 10 500 (15 000 / 220 x 154) zum Satz auf CHF 23 000 steuerbar; Quellensteuer geschuldet April 2022 CHF 2 835."
   },
   {
-   "start": 1678,
+   "start": 1661,
    "titel": "Ziff. 6.9 Beispiel 3 – Bonus an Grenzgänger aus Deutschland (4.5 %)",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1616,7 +1616,7 @@
    "zusammenfassung": "Beispiel: Bonus CHF 21 000 an einen Grenzgänger wird zum Satz von maximal 4.5 % besteuert; geschuldet CHF 945, bezahlt im November CHF 360."
   },
   {
-   "start": 1701,
+   "start": 1684,
    "titel": "Ziff. 6.9 Beispiele 4–5 – Gre-3 und Lohnfortzahlung bei Freistellung (Italien)",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1633,7 +1633,7 @@
    "zusammenfassung": "Beispiel 5: Bruttolohn CHF 7 000 bei Freistellung; steuerbar je Monat CHF 5 250.00 (7 000 / 240 x 180 Schweizer Arbeitstage), Satz auf CHF 7 000."
   },
   {
-   "start": 1717,
+   "start": 1700,
    "titel": "Ziff. 6.10 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1653,7 +1653,7 @@
    "zusammenfassung": "Taggelder, die die Versicherung dem Arbeitgeber überweist, werden vom Arbeitgeber zusammen mit dem Lohn besteuert; im Beispiel CHF 4 500 plus CHF 1 000 = CHF 5 500 mit Tarifcode A0."
   },
   {
-   "start": 1732,
+   "start": 1715,
    "titel": "Ziff. 6.11 Ersatzeinkünfte direkt an Arbeitnehmer (Tarifcode G / Q)",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1674,7 +1674,7 @@
    "zusammenfassung": "Direkt ausbezahlte Ersatzeinkünfte werden vom Leistungserbringer mit Tarifcode G (Grenzgänger Deutschland: Q) besteuert; bei Verdienstbezug gilt der versicherte Verdienst als satzbestimmend."
   },
   {
-   "start": 1746,
+   "start": 1729,
    "titel": "Ziff. 6.11 Beispiel – Krankentaggeld für 12 Tage und Teilzeitlohn",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1693,7 +1693,7 @@
    "zusammenfassung": "Beispiel: Krankentaggeld CHF 1 800 für 12 Tage (40 %) ergibt satzbestimmend CHF 4 500 (Tarifcode G); Lohn CHF 3 000 bei 60 % ergibt CHF 5 000 (Tarifcode A0)."
   },
   {
-   "start": 1763,
+   "start": 1746,
    "titel": "Ziff. 6.12 Kapitalabfindungen für wiederkehrende Leistungen",
    "pfad": [
     "6 Berechnung nach dem Monatsmodell",
@@ -1714,7 +1714,7 @@
    "zusammenfassung": "Kapitalabfindungen für wiederkehrende Leistungen werden im Auszahlungsmonat zusammen mit dem Lohn besteuert und für die Satzbestimmung nicht umgerechnet; Beispiel Mai 2022: Lohn CHF 4 800 plus Nachzahlung CHF 1 200 = CHF 6 000."
   },
   {
-   "start": 1789,
+   "start": 1772,
    "titel": "Ziff. 7.1 Jahresmodell – Vorbemerkungen (Swissdec, 13. Monatslohn)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1730,7 +1730,7 @@
    "zusammenfassung": "Bei Swissdec-Software gelten deren Richtlinien; der 13. Monatslohn wird im Jahresmodell erst bei Auszahlung berücksichtigt (Realisationsprinzip)."
   },
   {
-   "start": 1805,
+   "start": 1788,
    "titel": "Ziff. 7.2 Jahresmodell – Grundsätze (Kalenderjahr als Steuerperiode)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1746,7 +1746,7 @@
    "zusammenfassung": "Im Jahresmodell ist das Kalenderjahr Steuerperiode; die Quellensteuer wird monatlich einbehalten, der Satz bestimmt sich nach dem gesamten Jahreseinkommen."
   },
   {
-   "start": 1818,
+   "start": 1801,
    "titel": "Ziff. 7.2 Vergütungen für andere Perioden (DBA) und Korrektur am Jahresende",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1763,7 +1763,7 @@
    "zusammenfassung": "Der Arbeitgeber darf Korrekturen beim satzbestimmenden Jahreseinkommen erst im Dezember bzw. am Ende des Arbeitsverhältnisses vornehmen und bereits abgezogene Steuern anrechnen."
   },
   {
-   "start": 1831,
+   "start": 1814,
    "titel": "Ziff. 7.2 Die vier Schritte zur Berechnung des monatlichen Quellensteuerabzugs",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1780,7 +1780,7 @@
    "zusammenfassung": "Vier Schritte: Bemessungsgrundlage ermitteln, satzbestimmendes Jahreseinkommen, Tarifcode festlegen, Bemessungsgrundlage mit dem jährlichen Steuersatz multiplizieren."
   },
   {
-   "start": 1848,
+   "start": 1831,
    "titel": "Ziff. 7.3.1 Satzbestimmendes Jahreseinkommen – Grundsatz und Beispiel 1 (gleichbleibender Lohn)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1798,7 +1798,7 @@
    "zusammenfassung": "Beispiel 1: Monatslohn CHF 5 000 (Jahr CHF 60 000), Tarifcode A0, Steuersatz 9,5 %, Quellensteuer CHF 475 pro Monat bzw. CHF 5 700 pro Jahr."
   },
   {
-   "start": 1874,
+   "start": 1857,
    "titel": "Ziff. 7.3.1 Jahresendberechnung und Anpassung der monatlichen Abzüge",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1815,7 +1815,7 @@
    "zusammenfassung": "Am Jahresende bzw. Ende des Arbeitsverhältnisses wird die Quellensteuer auf dem gesamten Jahreseinkommen nochmals berechnet; ein bekannter 13. Monatslohn kann ab Januar berücksichtigt werden."
   },
   {
-   "start": 1886,
+   "start": 1869,
    "titel": "Ziff. 7.3.1 Beispiel 2 – 13. Monatslohn im Dezember",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1832,7 +1832,7 @@
    "zusammenfassung": "Beispiel 2: Jahreseinkommen CHF 65 000 (12 x CHF 5 000 + 13. Monatslohn), Steuersatz 10,4 %, Quellensteuer CHF 520 pro Monat, im Dezember CHF 1 040, Jahr CHF 6 760."
   },
   {
-   "start": 1908,
+   "start": 1891,
    "titel": "Ziff. 7.3.1 Beispiel 3 – halbjährliche Auszahlung 13. Monatslohn",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1849,7 +1849,7 @@
    "zusammenfassung": "Beispiel 3: halbjährliche Auszahlung (Juni/Dezember) bei Jahreseinkommen CHF 65 000; Quellensteuer CHF 520 pro Monat, CHF 780 im Juni und Dezember, Jahr CHF 6 760."
   },
   {
-   "start": 1930,
+   "start": 1913,
    "titel": "Ziff. 7.3.1 Beispiel 4 – Lohnänderung im Verlauf des Kalenderjahres",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1867,7 +1867,7 @@
    "zusammenfassung": "Beispiel 4: Jahresbruttoeinkommen CHF 72 000 mit Lohnerhöhungen; Quellensteuer total CHF 8 280 inkl. Korrekturen für Januar–April und Mai–Oktober."
   },
   {
-   "start": 1976,
+   "start": 1959,
    "titel": "Ziff. 7.3.1 Beispiel 5 – Bonus CHF 8 000 im April",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1885,7 +1885,7 @@
    "zusammenfassung": "Beispiel 5: unbekannter Bonus von CHF 8 000 im April hebt das satzbestimmende Jahreseinkommen auf CHF 73 000 (Satz 11,7 %); Korrektur Januar–März, Quellensteuer total CHF 8 541."
   },
   {
-   "start": 2011,
+   "start": 1994,
    "titel": "Ziff. 7.3.1 Umrechnung auf 360 Tage – periodische und aperiodische Leistungen",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1904,7 +1904,7 @@
    "zusammenfassung": "Bei Teilzeit, Stunden-/Tageslohn oder unterjährigen Verhältnissen werden nur periodische Leistungen auf 360 Tage umgerechnet; aperiodisch sind u.a. Überzeit, Ferienentschädigung, Boni, Prämien, VR-Honorare und Abgangsentschädigungen."
   },
   {
-   "start": 2030,
+   "start": 2013,
    "titel": "Ziff. 7.3.2 Teilzeit und mehrere Erwerbstätigkeiten – Umrechnungsmethode",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1925,7 +1925,7 @@
    "zusammenfassung": "Bei mehreren Arbeitsverhältnissen wird das satzbestimmende Jahreseinkommen auf den Gesamtbeschäftigungsgrad, ersatzweise 100 Prozent oder das tatsächliche Gesamteinkommen umgerechnet."
   },
   {
-   "start": 2052,
+   "start": 2035,
    "titel": "Ziff. 7.3.2 Offenlegungspflicht, Pensum nicht bestimmbar, Folgemonat, Tarifcode E",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1944,7 +1944,7 @@
    "zusammenfassung": "Der Arbeitnehmer muss weitere Erwerbstätigkeiten melden; ohne Angaben gilt eine Umrechnung auf 100 %; Umrechnung ab Folgemonat, nicht bei Tarifcode E; Neuberechnung bis 31. März des Folgejahres."
   },
   {
-   "start": 2081,
+   "start": 2064,
    "titel": "Ziff. 7.3.2 Beispiel 1 – 50 %/50 %, gleicher Lohn CHF 39 000",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1962,7 +1962,7 @@
    "zusammenfassung": "Beispiel 1: je CHF 39 000 bei 50 % ergibt satzbestimmendes Jahreseinkommen von CHF 78 000 (Steuersatz 12,4 %, Quellensteuer CHF 4 836 pro Arbeitgeber)."
   },
   {
-   "start": 2116,
+   "start": 2099,
    "titel": "Ziff. 7.3.2 Beispiel 2 – 50 %/50 %, unterschiedlicher Lohn",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1980,7 +1980,7 @@
    "zusammenfassung": "Beispiel 2: CHF 39 000 ergibt satzbestimmend CHF 78 000 (12,4 %), CHF 52 000 ergibt satzbestimmend CHF 104 000 (15,4 %, Quellensteuer CHF 8 008)."
   },
   {
-   "start": 2153,
+   "start": 2136,
    "titel": "Ziff. 7.3.2 Beispiel 3 – 70 %/20 % ohne Mitteilung des Gesamtpensums",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -1997,7 +1997,7 @@
    "zusammenfassung": "Beispiel 3: CHF 24 000 bei 70 % ergibt satzbestimmend CHF 34 285.70 (Satz 3,9 %), CHF 6 000 bei 20 % ergibt CHF 30 000 (Satz 3,2 %)."
   },
   {
-   "start": 2178,
+   "start": 2161,
    "titel": "Ziff. 7.3.3 Stunden- und Tageslohn – Umrechnung auf 2 160 Stunden / 260 Tage",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2019,7 +2019,7 @@
    "zusammenfassung": "Bei Stunden- oder Tageslohn ohne Monatszahlung ist das satzbestimmende Jahreseinkommen durch Umrechnung auf 2 160 Stunden (12 x 180) bzw. 260 Tage (12 x 21.667) zu ermitteln."
   },
   {
-   "start": 2194,
+   "start": 2177,
    "titel": "Ziff. 7.3.3 Abzugszeitpunkt, Ablieferung und Neuberechnung bei Stunden-/Tageslohn",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2036,7 +2036,7 @@
    "zusammenfassung": "Der Abzug erfolgt bei Lohnzahlung, die Ablieferung monatlich; Neuberechnung oder nachträgliche ordentliche Veranlagung ist bis 31. März des Folgejahres zu beantragen."
   },
   {
-   "start": 2203,
+   "start": 2186,
    "titel": "Ziff. 7.3.3 Beispiel – Stundenlohn CHF 35, Jahreseinkommen CHF 75 600",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2054,7 +2054,7 @@
    "zusammenfassung": "Beispiel: Stundenlohn CHF 35 x 2 160 = CHF 75 600 satzbestimmend (A0, Satz 12,0 %); Bruttolohn Jahr CHF 50 750, Quellensteuer CHF 6 090."
   },
   {
-   "start": 2237,
+   "start": 2220,
    "titel": "Ziff. 7.3.4 Unterjährige Ein- und Austritte – Umrechnung auf 360 Tage",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2072,7 +2072,7 @@
    "zusammenfassung": "Bei weniger als einem Kalenderjahr Tätigkeit wird der Lohn für die Satzbestimmung auf 360 Tage (30 Tage pro Monat) umgerechnet; aperiodische Bestandteile werden erst danach addiert."
   },
   {
-   "start": 2251,
+   "start": 2234,
    "titel": "Ziff. 7.3.4 Beispiel – Ein- und Austritt in Monaten mit Bonus",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2090,7 +2090,7 @@
    "zusammenfassung": "Beispiel: Arbeitsperioden von 15, 20 und 18 Tagen mit Bonus von CHF 2 000; satzbestimmend Januar CHF 120 000, Februar CHF 113 142.85, März CHF 97 094.35; Quellensteuer total CHF 2 336."
   },
   {
-   "start": 2295,
+   "start": 2278,
    "titel": "Ziff. 7.4 Änderung persönlicher Verhältnisse – Grundsatz und Beispiel 1 (Heirat)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2107,7 +2107,7 @@
    "zusammenfassung": "Änderungen wie Heirat, Scheidung oder Geburt werden erst im Folgemonat berücksichtigt; Beispiel 1: Heirat am 26. Mai 2021, Wechsel von A0 zu B0 ab Juni (Satz 5,0 %), Quellensteuer Jahr CHF 4 600."
   },
   {
-   "start": 2322,
+   "start": 2305,
    "titel": "Ziff. 7.4 Beispiel 2 – Scheidung während des Jahres",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2123,7 +2123,7 @@
    "zusammenfassung": "Beispiel 2: Scheidung am 25. August 2021, Wechsel von B0 (Satz 5,0 %) zu A0 (Satz 10,4 %) ab September."
   },
   {
-   "start": 2344,
+   "start": 2327,
    "titel": "Ziff. 7.4 Beispiel 3 – Arbeitgeberwechsel und Heirat (Arbeitgeber 1)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2139,7 +2139,7 @@
    "zusammenfassung": "Beispiel 3: Arbeitgeber 1 (Januar–April) rechnet das satzbestimmende Jahreseinkommen auf CHF 65 000 hoch ((15 000 + 6 666.65) / 120 x 360), Tarifcode A0."
   },
   {
-   "start": 2369,
+   "start": 2352,
    "titel": "Ziff. 7.4 Beispiel 3 – Arbeitgeberwechsel und Heirat (Arbeitgeber 2)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2156,7 +2156,7 @@
    "zusammenfassung": "Beispiel 3 (Arbeitgeber 2, Mai–Dezember): satzbestimmend CHF 65 000 ((35 000 + 8 333.35) / 240 x 360), Tarifcode A0 bzw. ab Juni B0; Beispiel 4 folgt mit Heirat und Geburt."
   },
   {
-   "start": 2391,
+   "start": 2374,
    "titel": "Ziff. 7.4 Beispiel 4 – Heirat, Geburt eines Kindes und Bonus CHF 30 000",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2176,7 +2176,7 @@
    "zusammenfassung": "Beispiel 4: Bonus CHF 30 000 im Februar hebt das satzbestimmende Einkommen auf CHF 95 000; Tarifwechsel A0, B0 (ab Juni), B1 (ab November); Quellensteuer total CHF 11 205."
   },
   {
-   "start": 2427,
+   "start": 2410,
    "titel": "Ziff. 7.4 Beispiel 5 – Aufnahme Erwerbstätigkeit des anderen Ehegatten",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2196,7 +2196,7 @@
    "zusammenfassung": "Beispiel 5: Ehegattin beginnt am 15. September 2021; Tarifcode C0 gilt für sie sofort, für den Ehemann ab Oktober (Satz 7,2 %)."
   },
   {
-   "start": 2454,
+   "start": 2437,
    "titel": "Ziff. 7.4 Beispiel 6 – Geburt eines Kindes und Aufgabe der Erwerbstätigkeit des Ehegatten",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2218,7 +2218,7 @@
    "zusammenfassung": "Beispiel 6: Kind am 15. August, Familienzulagen CHF 200 pro Monat, Ehegattin gibt am 15. Oktober auf; Wechsel C0, C1, B1; Quellensteuer total CHF 7 801.80."
   },
   {
-   "start": 2490,
+   "start": 2473,
    "titel": "Ziff. 7.4 Beispiel 7 – Lohnerhöhung und anschliessende Erwerbstätigkeit des Ehegatten",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2238,7 +2238,7 @@
    "zusammenfassung": "Beispiel 7: Jahreslohn CHF 114 000 mit Lohnerhöhung (CHF 8 000 auf CHF 11 000) und Eintritt der Ehegattin im September; Tarifcode B0 dann C0, Quellensteuer total CHF 14 526."
   },
   {
-   "start": 2530,
+   "start": 2513,
    "titel": "Ziff. 7.4 Beispiel 8 – Heirat und Lohnerhöhung im Verlauf des Jahres",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2255,7 +2255,7 @@
    "zusammenfassung": "Beispiel 8: Heirat im April und Lohnerhöhung von CHF 6 000 auf CHF 8 000 ab September; satzbestimmend CHF 72 000 dann CHF 80 000, Quellensteuer total CHF 9 936."
   },
   {
-   "start": 2566,
+   "start": 2549,
    "titel": "Ziff. 7.4 Beispiel 9 – Kind wird volljährig, Wegfall der Familienzulagen",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2276,7 +2276,7 @@
    "zusammenfassung": "Beispiel 9: Kind wird im September volljährig, Familienzulagen CHF 200 enden; Wechsel von C1 zu C0, Quellensteuer total CHF 8 452.20 inkl. Korrektur CHF -55.80."
   },
   {
-   "start": 2602,
+   "start": 2585,
    "titel": "Ziff. 7.5.1 Ausscheidung von im Ausland geleisteten Arbeitstagen (Jahresmodell)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2294,7 +2294,7 @@
    "zusammenfassung": "Schweizer Arbeitstage = 20 Arbeitstage pro Monat bzw. 240 pro Jahr abzüglich ausländischer Arbeitstage; bezahlte Abwesenheitstage (Ferien, Krankheit) werden nicht ausgeschieden."
   },
   {
-   "start": 2624,
+   "start": 2607,
    "titel": "Ziff. 7.5.1 Beispiel 1 – 5 Arbeitstage in Österreich (Jahresmodell)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2311,7 +2311,7 @@
    "zusammenfassung": "Beispiel 1: Bruttolohn CHF 8 000, 5 ausländische Arbeitstage; steuerbar CHF 6 000.00 (8 000 / 20 x 15), satzbestimmend CHF 96 000.00 (8 000 x 12)."
   },
   {
-   "start": 2641,
+   "start": 2624,
    "titel": "Ziff. 7.5.1 Beispiel 2 – Lohn und Bonus Vorjahr (Jahresmodell)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2328,7 +2328,7 @@
    "zusammenfassung": "Beispiel 2: steuerbar CHF 33 000 (Lohn CHF 8 000 plus Bonus CHF 25 000), satzbestimmend CHF 150 000 (CHF 10 000 x 12 + CHF 30 000)."
   },
   {
-   "start": 2661,
+   "start": 2644,
    "titel": "Ziff. 7.5.1 Korrektur am Jahresende, Kalendarium und nachträgliche Neuberechnung",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2345,7 +2345,7 @@
    "zusammenfassung": "Korrekturen dürfen am Jahresende erfolgen; das Kalendarium ist der Abrechnung beizulegen; Neuberechnung ist bis 31. März des Folgejahres mit unterzeichnetem Kalendarium zu beantragen."
   },
   {
-   "start": 2684,
+   "start": 2667,
    "titel": "Ziff. 7.5.2 Leistungen vor Antritt des Arbeitsverhältnisses (Sign-on-Bonus)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2362,7 +2362,7 @@
    "zusammenfassung": "Vor Antritt ausgerichtete Entschädigungen (z.B. Sign-on-Bonus) werden nach den Verhältnissen im Zeitpunkt der Ausrichtung besteuert; Neuberechnung bis 31. März des Folgejahres möglich."
   },
   {
-   "start": 2702,
+   "start": 2685,
    "titel": "Ziff. 7.5.3 Leistungen bei Beendigung – fällige Ansprüche (Jahresmodell)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2380,7 +2380,7 @@
    "zusammenfassung": "Bei Beendigung fällige, später ausbezahlte Leistungen werden zusammen mit dem letzten Arbeitsmonat besteuert und bereits abgezogene Quellensteuern angerechnet."
   },
   {
-   "start": 2714,
+   "start": 2697,
    "titel": "Ziff. 7.5.3 Nachträgliche Ansprüche und Satzbestimmung nach Beendigung",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2398,7 +2398,7 @@
    "zusammenfassung": "Bei Anspruch erst nach Beendigung: separate Berechnung nach Verhältnissen im Auszahlungsmonat; satzbestimmend ist der auf ein Jahr umgerechnete letzte Bruttomonatslohn zuzüglich der Leistung."
   },
   {
-   "start": 2734,
+   "start": 2717,
    "titel": "Ziff. 7.5.3 Lohnfortzahlung bei Freistellung (Ansässigkeit im Ausland)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2416,7 +2416,7 @@
    "zusammenfassung": "Lohnfortzahlungen an einen freigestellten Arbeitnehmer mit Ansässigkeit im Ausland sind quellensteuerpflichtig, auf einem reduzierten Bruttolohn, wenn die Arbeit mutmasslich im Ausland geleistet worden wäre."
   },
   {
-   "start": 2747,
+   "start": 2730,
    "titel": "Ziff. 7.5.3 Beispiel 1 – Austritt 31. August 2022 mit Bonus CHF 20 000",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2434,7 +2434,7 @@
    "zusammenfassung": "Beispiel 1: Bonus CHF 20 000 im August hebt das satzbestimmende Einkommen auf CHF 85 000 (Satz 13,3 %); Korrektur Januar–Juli CHF 1 015, Quellensteuer total CHF 8 423.30."
   },
   {
-   "start": 2779,
+   "start": 2762,
    "titel": "Ziff. 7.5.3 Beispiel 2 – Bonus nach Beendigung (Februar 2023) und Variante mit Auslandtagen",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2452,7 +2452,7 @@
    "zusammenfassung": "Beispiel 2: Bonus CHF 30 000 nach Beendigung zum Satz auf CHF 110 000 (80 000 + 30 000), Quellensteuer CHF 4 800; Variante: nur CHF 15 000 steuerpflichtig bei 120 Schweizer von 240 Arbeitstagen."
   },
   {
-   "start": 2809,
+   "start": 2792,
    "titel": "Ziff. 7.5.4 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden (Jahresmodell)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2472,7 +2472,7 @@
    "zusammenfassung": "Vom Arbeitgeber weitergeleitete Taggelder werden zusammen mit dem Lohn besteuert; im Beispiel Lohn CHF 4 500 plus Unfalltaggeld CHF 1 000, satzbestimmend CHF 66 000 (Satz 10,5 %)."
   },
   {
-   "start": 2835,
+   "start": 2818,
    "titel": "Ziff. 7.5.5 Ersatzeinkünfte direkt an Arbeitnehmer (Tarifcode G / Q), Jahresmodell",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2493,7 +2493,7 @@
    "zusammenfassung": "Direkt ausbezahlte Ersatzeinkünfte werden vom Leistungserbringer mit Tarifcode G (Grenzgänger Deutschland: Q) besteuert; bei zusätzlichem Erwerbseinkommen erfolgt eine Umrechnung."
   },
   {
-   "start": 2850,
+   "start": 2833,
    "titel": "Ziff. 7.5.5 Beispiel – Krankentaggeld und Teilzeitlohn 60 % (Jahresmodell)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2514,7 +2514,7 @@
    "zusammenfassung": "Beispiel: Lohn CHF 39 000 bei 60 % ergibt satzbestimmend CHF 65 000 (A0, Satz 10,4 %); Krankentaggeld CHF 21 600 bei 40 % ergibt CHF 54 000 (Tarifcode G, Satz 5,7 %)."
   },
   {
-   "start": 2869,
+   "start": 2852,
    "titel": "Ziff. 7.5.6 Kapitalleistungen für wiederkehrende Leistungen (Jahresmodell)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2535,7 +2535,7 @@
    "zusammenfassung": "Kapitalleistungen für wiederkehrende Leistungen sind im Auszahlungszeitpunkt zusammen mit dem Lohn quellensteuerpflichtig; der Satz ergibt sich aus Kapitalleistung, Jahresbruttolohn und weiteren periodischen Leistungen."
   },
   {
-   "start": 2878,
+   "start": 2861,
    "titel": "Ziff. 7.5.6 Beispiel – Nachzahlung Familienzulagen CHF 4 400 (Tarifcode H1)",
    "pfad": [
     "7 Berechnung nach dem Jahresmodell",
@@ -2556,7 +2556,7 @@
    "zusammenfassung": "Beispiel: Nachzahlung Familienzulagen CHF 4 400 im März hebt das satzbestimmende Einkommen auf CHF 58 800 (H1, Satz 1,9 %); Quellensteuer total CHF 1 117.20."
   },
   {
-   "start": 2916,
+   "start": 2899,
    "titel": "Ziff. 8.1–8.2 Kantonswechsel – Grundsatz und Wechsel Jahresmodell zu Monatsmodell",
    "pfad": [
     "8 Kantonswechsel"
@@ -2572,7 +2572,7 @@
    "zusammenfassung": "Der Schuldner rechnet mit dem im Zeitpunkt der Fälligkeit anspruchsberechtigten Kanton ab, ab dem Folgemonat des Kantonswechsels nach dessen Tarif; Einmalzahlungen nach dem Wechsel beeinflussen das Jahreseinkommen des früheren Kantons nicht."
   },
   {
-   "start": 2936,
+   "start": 2919,
    "titel": "Ziff. 8.2 Beispiel – Wechsel Tessin (Jahresmodell) nach Bern (Monatsmodell)",
    "pfad": [
     "8 Kantonswechsel",
@@ -2589,7 +2589,7 @@
    "zusammenfassung": "Beispiel: Wohnsitzwechsel TI nach BE am 15. August 2021, Bonus CHF 30 000 im Februar; Quellensteuer total CHF 13 375.50, ab September mit dem Tarif des Kantons Bern."
   },
   {
-   "start": 2972,
+   "start": 2955,
    "titel": "Ziff. 8.3 Wechsel von Monatsmodell zu Jahresmodell",
    "pfad": [
     "8 Kantonswechsel",
@@ -2605,7 +2605,7 @@
    "zusammenfassung": "Ab dem Folgemonat wird ausschliesslich mit dem Kanton mit Jahresmodell abgerechnet; frühere Einmalzahlungen beeinflussen dessen satzbestimmendes Jahreseinkommen nicht."
   },
   {
-   "start": 2984,
+   "start": 2967,
    "titel": "Ziff. 8.3 Beispiel – Wechsel Bern (Monatsmodell) nach Tessin (Jahresmodell)",
    "pfad": [
     "8 Kantonswechsel",
@@ -2622,7 +2622,7 @@
    "zusammenfassung": "Beispiel: Wechsel BE nach TI am 15. August 2021; im Februar zählt im Monatsmodell nur der Monatslohn inkl. Bonus (CHF 35 000); Quellensteuer total CHF 17 086.50."
   },
   {
-   "start": 3017,
+   "start": 3000,
    "titel": "Ziff. 8.4 Wechsel von Jahresmodell zu Jahresmodell",
    "pfad": [
     "8 Kantonswechsel",
@@ -2638,7 +2638,7 @@
    "zusammenfassung": "Ab dem Folgemonat wird mit dem neuen Kanton nach dessen Tarif abgerechnet; Einmalzahlungen vor oder nach dem Wechsel haben keinen Einfluss auf das Jahreseinkommen im anderen Kanton."
   },
   {
-   "start": 3027,
+   "start": 3010,
    "titel": "Ziff. 8.4 Beispiel Tessin nach Genf und Ziff. 8.5 Wechsel Monatsmodell zu Monatsmodell",
    "pfad": [
     "8 Kantonswechsel",
@@ -2656,7 +2656,7 @@
    "zusammenfassung": "Beispiel: Wechsel TI nach GE am 15. August 2021; ab September Satz Genf 11,31 %, satzbestimmend CHF 65 000; Quellensteuer total CHF 12 907.50. Ziff. 8.5: Bei Wechsel zwischen zwei Monatsmodell-Kantonen wird ab dem Folgemonat nur noch mit dem anspruchsberechtigten Kanton abgerechnet."
   },
   {
-   "start": 3068,
+   "start": 3051,
    "titel": "Ziff. 9.1 Pflichten und Haftung des Schuldners der steuerbaren Leistung",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2676,7 +2676,7 @@
    "zusammenfassung": "Der Schuldner haftet in vollem Umfang und verschuldensunabhängig für die Quellensteuer, erhält eine Bezugsprovision und kann auf den Arbeitnehmer zurückgreifen (Art. 88, 100, 138 DBG)."
   },
   {
-   "start": 3091,
+   "start": 3074,
    "titel": "Ziff. 9.1 Ermittlung persönlicher Verhältnisse, Strafbarkeit, Ausweis im Lohnausweis",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2693,7 +2693,7 @@
    "zusammenfassung": "Der Schuldner muss Zivilstand, Kinderzahl und Konfession ermitteln; die abgezogene Quellensteuer ist in jeder Lohnabrechnung und in Ziffer 12 des Lohnausweises auszuweisen."
   },
   {
-   "start": 3107,
+   "start": 3090,
    "titel": "Ziff. 9.2 Anmeldung und Mutationen quellensteuerpflichtiger Arbeitnehmer",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2714,7 +2714,7 @@
    "zusammenfassung": "Neuanstellungen und Änderungen der persönlichen Verhältnisse sind der kantonalen Steuerbehörde innert acht Tagen zu melden."
   },
   {
-   "start": 3129,
+   "start": 3112,
    "titel": "Ziff. 9.2 Beispiele Personalverleih – Meldung von Ein- und Austritten",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2731,7 +2731,7 @@
    "zusammenfassung": "Beispiele und Fallvarianten, wie bei Personalverleih Ein- und Austritte in der monatlichen Quellensteuerabrechnung zu melden sind."
   },
   {
-   "start": 3177,
+   "start": 3160,
    "titel": "Ziff. 9.3 / 9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2752,7 +2752,7 @@
    "zusammenfassung": "Die Abrechnung erfolgt grundsätzlich monatlich und ist innert 30 Tagen nach Ablauf der Abrechnungsperiode einzureichen; längere Perioden nur auf Antrag und nicht bei ELM-QSt."
   },
   {
-   "start": 3198,
+   "start": 3181,
    "titel": "Ziff. 9.3.2–9.3.4 Ablieferung (Monatsmodell) sowie Abrechnung und Ablieferung (Jahresmodell)",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2771,7 +2771,7 @@
    "zusammenfassung": "Im Jahresmodell ist immer innert 30 Tagen abzurechnen und die abgezogene Steuer innerhalb von 30 Tagen seit Fälligkeit abzuliefern; im Monatsmodell nach Rechnungsstellung des Kantons."
   },
   {
-   "start": 3219,
+   "start": 3202,
    "titel": "Ziff. 9.4 Abrechnungskorrekturen durch den Schuldner (bis 31. März)",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2787,7 +2787,7 @@
    "zusammenfassung": "Fehler bei Bruttolohn oder Tarifcode kann der Schuldner bis 31. März des Folgejahres selber korrigieren und bis dahin eine Verfügung über die Quellensteuerpflicht verlangen."
   },
   {
-   "start": 3228,
+   "start": 3211,
    "titel": "Ziff. 9.4 Nachforderung und Rückerstattung zu viel/zu wenig abgezogener Quellensteuer",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2805,7 +2805,7 @@
    "zusammenfassung": "Zu wenig abgezogene Steuern kann der Schuldner beim Arbeitnehmer nachfordern; zu viel abgezogene sind zurückzuerstatten, bei bereits erfolgter Abrechnung zinslos durch die Steuerbehörde."
   },
   {
-   "start": 3243,
+   "start": 3226,
    "titel": "Ziff. 9.5 Anspruchsberechtigter Kanton – Zuständigkeitsregeln",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2822,7 +2822,7 @@
    "zusammenfassung": "Abzurechnen ist mit dem Wohn- bzw. Aufenthaltskanton, bei Ansässigkeit im Ausland mit dem Sitz-/Betriebsstättekanton des Arbeitgebers, bei Wochenaufenthaltern mit dem Wochenaufenthaltskanton (Art. 107 DBG)."
   },
   {
-   "start": 3260,
+   "start": 3243,
    "titel": "Ziff. 9.5 Sonderfälle, Personalverleiher, Konstellationen und Wohnsitzwechsel",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2839,7 +2839,7 @@
    "zusammenfassung": "Bonus nach Beendigung, Freistellungslohn und Mitarbeiterbeteiligungen bei Ansässigkeit im Ausland sind mit dem Kanton des Leistungsschuldners abzurechnen; bei Wohnsitzwechsel ab dem Folgemonat mit dem neuen Kanton."
   },
   {
-   "start": 3288,
+   "start": 3271,
    "titel": "Ziff. 9.6 Verletzung von Verfahrenspflichten durch den Schuldner",
    "pfad": [
     "9 Pflichten des Schuldners der steuerbaren Leistung",
@@ -2856,7 +2856,7 @@
    "zusammenfassung": "Bei verspäteten Anmeldungen oder Abrechnungen droht der Verlust der Bezugsprovision, Verzugszinsen, Busse (Art. 174 DBG) und Veranlagung nach pflichtgemässem Ermessen."
   },
   {
-   "start": 3300,
+   "start": 3283,
    "titel": "Ziff. 10.1 Rechte des Arbeitnehmers – Ausweis und Verfügung über Quellensteuerpflicht",
    "pfad": [
     "10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers",
@@ -2873,7 +2873,7 @@
    "zusammenfassung": "Der Arbeitnehmer kann bis 31. März des Folgejahres eine Verfügung über Bestand und Umfang der Quellensteuerpflicht verlangen; der Schuldner muss bis zum rechtskräftigen Entscheid weiter abziehen."
   },
   {
-   "start": 3314,
+   "start": 3297,
    "titel": "Ziff. 10.1 Zusätzliche Abzüge, Antrag auf nachträgliche ordentliche Veranlagung oder Neuberechnung",
    "pfad": [
     "10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers",
@@ -2890,7 +2890,7 @@
    "zusammenfassung": "Zusätzliche, im Tarif nicht berücksichtigte Abzüge können nur über eine nachträgliche ordentliche Veranlagung (Antrag bis 31. März) geltend gemacht werden; Fehler bei Lohn oder Tarif über die Neuberechnung."
   },
   {
-   "start": 3325,
+   "start": 3308,
    "titel": "Ziff. 10.2 Pflichten des quellensteuerpflichtigen Arbeitnehmers",
    "pfad": [
     "10 Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers",
@@ -2911,7 +2911,7 @@
    "zusammenfassung": "Der Arbeitnehmer muss dem Schuldner Zivilstand, Kinder, Konfession, zusätzliche Erwerbstätigkeit und Erwerbstätigkeit des Ehegatten mitteilen; bei Verletzung droht eine Busse (Art. 174 DBG)."
   },
   {
-   "start": 3337,
+   "start": 3320,
    "titel": "Ziff. 11.1 Nachträgliche ordentliche Veranlagung – Grundsätze und Anrechnung",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -2931,7 +2931,7 @@
    "zusammenfassung": "Bei der nachträglichen ordentlichen Veranlagung (NOV) gelten die ordentlichen Verfahrensregeln; bereits bezahlte Quellensteuern werden zinslos angerechnet."
   },
   {
-   "start": 3351,
+   "start": 3334,
    "titel": "Ziff. 11.1 Dauer des Antrags, Quasi-Ansässigkeit, Verrechnungssteuer",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -2950,7 +2950,7 @@
    "zusammenfassung": "Ein einmal gestellter Antrag gilt bis zum Ende der Quellensteuerpflicht; Quasi-Ansässige müssen jährlich bis 31. März neu beantragen; Verrechnungssteuer kann über die NOV zurückgefordert werden."
   },
   {
-   "start": 3364,
+   "start": 3347,
    "titel": "Ziff. 11.1 Zuständigkeit für die nachträgliche ordentliche Veranlagung",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -2966,7 +2966,7 @@
    "zusammenfassung": "Zuständig ist der Wohnsitz- bzw. Aufenthaltskanton am Ende der Steuerperiode, bei Ansässigkeit im Ausland der Sitz-/Betriebsstättekanton des Schuldners bzw. der Wochenaufenthaltskanton."
   },
   {
-   "start": 3376,
+   "start": 3359,
    "titel": "Ziff. 11.2 Obligatorische NOV – Schwelle Bruttoeinkommen CHF 120 000",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -2983,7 +2983,7 @@
    "zusammenfassung": "Eine obligatorische NOV erfolgt bei einem Bruttoeinkommen aus unselbstständiger Erwerbstätigkeit von mindestens CHF 120 000; bei Ehegatten werden die Einkommen für den Mindestbetrag nicht zusammengerechnet."
   },
   {
-   "start": 3391,
+   "start": 3374,
    "titel": "Ziff. 11.2 Obligatorische NOV – zusätzliche Einkünfte/Vermögen, Ehegatten, Heirat und Scheidung",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3005,7 +3005,7 @@
    "zusammenfassung": "Zusätzliche nicht quellenbesteuerte Einkünfte (selbstständige Tätigkeit, Alimente, Renten, Vermögenserträge) oder Vermögen führen zur obligatorischen NOV; Steuererklärung bis 31. März verlangen."
   },
   {
-   "start": 3407,
+   "start": 3390,
    "titel": "Ziff. 11.3 NOV auf Antrag bei Ansässigkeit in der Schweiz – Voraussetzungen und Form",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3026,7 +3026,7 @@
    "zusammenfassung": "Bei Einkommen unter CHF 120 000 erfolgt die NOV auf schriftlichen, unterzeichneten Antrag bis 31. März des Folgejahres (bei Eheleuten von beiden unterzeichnet)."
   },
   {
-   "start": 3423,
+   "start": 3406,
    "titel": "Ziff. 11.3 Steuererklärung, Bindungswirkung des Antrags und Wegzug aus der Schweiz",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3043,7 +3043,7 @@
    "zusammenfassung": "Ein form- und fristgerecht gestellter Antrag kann nicht zurückgezogen werden; die NOV wird danach von Amtes wegen bis Ende der Quellensteuerpflicht durchgeführt; beim Wegzug endet die Frist mit der Abmeldung."
   },
   {
-   "start": 3443,
+   "start": 3426,
    "titel": "Ziff. 11.4 NOV auf Antrag bei Ansässigkeit im Ausland – Quasi-Ansässigkeit (90 Prozent)",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3060,7 +3060,7 @@
    "zusammenfassung": "Im Ausland Ansässige können bis 31. März des Folgejahres eine NOV beantragen, wenn in der Regel mindestens 90 Prozent ihrer weltweiten Bruttoeinkünfte in der Schweiz steuerbar sind (Quasi-Ansässigkeit)."
   },
   {
-   "start": 3451,
+   "start": 3434,
    "titel": "Ziff. 11.4 Vergleichbarkeit mit Ansässigen und Vertreter in der Schweiz",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3077,7 +3077,7 @@
    "zusammenfassung": "Eine NOV kann auch beantragt werden, wenn die Situation mit derjenigen eines in der Schweiz Wohnhaften vergleichbar ist; zusätzlich ist eine Zustelladresse in der Schweiz zu bezeichnen."
   },
   {
-   "start": 3461,
+   "start": 3444,
    "titel": "Ziff. 11.4 Berechnung der 90-Prozent-Schwelle",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3093,7 +3093,7 @@
    "zusammenfassung": "Zur Prüfung der 90-Prozent-Schwelle wird das nach den Zuteilungsregeln in der Schweiz steuerbare Einkommen ins Verhältnis zum weltweiten Einkommen (inkl. Ehegatte) gesetzt."
   },
   {
-   "start": 3470,
+   "start": 3453,
    "titel": "Ziff. 11.4 Beispiel – Quasi-Ansässigkeit nicht erfüllt (75.7 Prozent)",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3110,7 +3110,7 @@
    "zusammenfassung": "Beispiel: Gesamteinkünfte CHF 132 200 (Lohn CHF 100 000, Mieterträge CHF 20 000, Zinsen CHF 200, Alimente CHF 12 000); Anteil des Schweizer Lohns 75.7 %, daher keine Quasi-Ansässigkeit."
   },
   {
-   "start": 3481,
+   "start": 3464,
    "titel": "Ziff. 11.4 Abweisende Verfügung, Nichteintreten und Rechtskraft des Quellensteuerabzugs",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3127,7 +3127,7 @@
    "zusammenfassung": "Sind die Voraussetzungen nicht erfüllt, ergeht eine anfechtbare abweisende Verfügung bzw. ein Nichteintretensentscheid; der Quellensteuerabzug wird nach Ablauf der Rechtsmittelfrist definitiv."
   },
   {
-   "start": 3495,
+   "start": 3478,
    "titel": "Ziff. 11.5 NOV von Amtes wegen bei Ansässigkeit im Ausland",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3144,7 +3144,7 @@
    "zusammenfassung": "Bei teils quellenbesteuerten, teils ordentlich zu veranlagenden Einkünften kann die Behörde von Amtes wegen eine NOV vornehmen (Art. 99b DBG)."
   },
   {
-   "start": 3508,
+   "start": 3491,
    "titel": "Ziff. 11.6 Neuberechnung der Quellensteuer",
    "pfad": [
     "11 Nachträgliche ordentliche Veranlagung und Neuberechnung",
@@ -3161,7 +3161,7 @@
    "zusammenfassung": "Neuberechnung kann bis 31. März des Folgejahres bei falschem Bruttolohn, falschem satzbestimmendem Einkommen oder falscher Tarifanwendung beantragt werden; zusätzliche Abzüge nur über die NOV."
   },
   {
-   "start": 3530,
+   "start": 3513,
    "titel": "Ziff. 12.1 Wechsel von der Quellenbesteuerung zur ordentlichen Veranlagung",
    "pfad": [
     "12 Wechsel zwischen Quellenbesteuerung und ordentlicher Veranlagung",
@@ -3179,7 +3179,7 @@
    "zusammenfassung": "Entlassung aus der Quellensteuer bei Niederlassungsbewilligung, Schweizer Bürgerrecht, Heirat mit einer solchen Person, Erreichen des AHV-Rentenalters ohne quellenbesteuerte Einkünfte oder voller IV-Rente, ab dem ersten Tag des Folgemonats."
   },
   {
-   "start": 3555,
+   "start": 3538,
    "titel": "Ziff. 12.2 Wechsel von der ordentlichen Veranlagung zur Quellenbesteuerung",
    "pfad": [
     "12 Wechsel zwischen Quellenbesteuerung und ordentlicher Veranlagung",
@@ -3196,7 +3196,7 @@
    "zusammenfassung": "Fallen die Voraussetzungen weg (z.B. Scheidung ohne Bewilligung C/Bürgerrecht), gilt ab dem Folgemonat wieder die Quellenbesteuerung und es folgt eine NOV für die ganze Steuerperiode."
   },
   {
-   "start": 3573,
+   "start": 3556,
    "titel": "Ziff. 13 Inkrafttreten, Übergangsrecht und Anhänge",
    "pfad": [
     "13 Inkrafttreten, Aufhebungen und Übergangsrecht"
@@ -3211,5 +3211,7 @@
    ],
    "zusammenfassung": "Das Kreisschreiben tritt am 1. Januar 2021 in Kraft; altrechtliche Vorbescheide entfalten ab der Steuerperiode 2021 keine Wirkung mehr; Anhänge I–III (Musterformulare, Übersicht NOV, Kantone mit Monats-/Jahresmodell)."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

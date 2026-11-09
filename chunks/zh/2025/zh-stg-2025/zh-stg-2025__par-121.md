@@ -9,7 +9,7 @@ artikel: "§ 121"
 seiten: "55"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 121 StG ZH – 3. Auskunftspflichten von Verwaltungsbehörden und Gerichten · S. 55
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG ZH · Erster Teil: Staatssteuern › C. Allgemeine Verfahrensgrundsätze › § 121 StG ZH – 3. Auskunftspflichten von Verwaltungsbehörden und Gerichten · S. 55
 
 ### § 121 StG ZH – 3. Auskunftspflichten von Verwaltungsbehörden und Gerichten
 

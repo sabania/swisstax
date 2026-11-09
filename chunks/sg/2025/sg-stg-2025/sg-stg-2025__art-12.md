@@ -8,7 +8,7 @@ titel: "Art. 12 StG SG – Gegenrecht"
 artikel: "Art. 12"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 12 Gegenrecht
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 12 Gegenrecht
 
 ### Art. 12 StG SG – Gegenrecht
 

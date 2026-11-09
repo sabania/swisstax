@@ -2,14 +2,14 @@
 id: bund-ks-15__c0067
 quelle: bund-ks-15
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: kreisschreiben
 titel: "Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate) (Teil 2/2)"
 ziffer: "Anh. III 2"
 seiten: "20-21"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 2 Bond-Zertifikate · S. 20–21
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Kreisschreiben · Steuerjahr 2025/2026/2027 · KS 15 · Anhang III Spezialfälle › 2 Bond-Zertifikate · S. 20–21
 
 Der Zertifikatsinhaber trägt die gleichen Risiken und Chancen eines steigenden allgemeinen
 Zinsniveaus und/oder sinkender Wechselkurse wie ein gewöhnlicher Obligationär. Die Tatsa-

@@ -9,7 +9,7 @@ ziffer: "1-5"
 seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: formular}}
 ---
-> Bund · Steuerjahr 2026 · DA-1 2026 · DA-1 › Erläuterungen · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2026 · DA-1 2026 · DA-1 › Erläuterungen · S. 2
 
 Erläuterungen
 1. Dieses Formular DA-1 dient als Antrag auf Anrechnung für die im Jahre 2026 fällig gewordenen Dividenden und Zinsen.

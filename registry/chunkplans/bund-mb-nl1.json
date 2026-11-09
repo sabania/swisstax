@@ -5,7 +5,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Merkblatt NL 1/2007 Naturalbezüge Land-/Forstwirtschaft – Einleitung und Ziff. 5 Autokosten-Privatanteil",
    "pfad": [
     "Merkblatt NL1",
@@ -25,7 +25,7 @@
    "zusammenfassung": "Privatanteil Autokosten pauschal 0,9 % des Kaufpreises oder ein Drittel bis die Hälfte der Gesamtkosten, mindestens CHF 150 pro Monat und Fahrzeug."
   },
   {
-   "start": 43,
+   "start": 27,
    "titel": "Ziff. 1 Naturalbezüge (Privatanteile pro Person) und Ziff. 6 Naturallohn Verpflegung/Unterkunft",
    "pfad": [
     "Merkblatt NL1",
@@ -46,7 +46,7 @@
    "zusammenfassung": "Naturalbezüge Erwachsene in der Regel CHF 960 pro Jahr; Naturallohn volle Verpflegung CHF 21.50/Tag, 7740/Jahr, Unterkunft CHF 11.50/Tag, Verpflegung und Unterkunft CHF 33/Tag, 11 880/Jahr."
   },
   {
-   "start": 68,
+   "start": 52,
    "titel": "Ziff. 2–3 Mietwert Wohnung, Privatanteil Heizung/Beleuchtung und Ziff. 7 Naturallohnabzug",
    "pfad": [
     "Merkblatt NL1",
@@ -65,7 +65,7 @@
    "zusammenfassung": "Privatanteil Heizung etc. in der Regel CHF 2640 für den ersten Erwachsenen, Zuschlag CHF 660 je weiteren Erwachsenen und CHF 420 je Kind; Naturallohnabzug in der Regel CHF 17/Tag, 510/Monat, 6120/Jahr."
   },
   {
-   "start": 86,
+   "start": 70,
    "titel": "Ziff. 4 Privatanteil an den Löhnen des Geschäftspersonals",
    "pfad": [
     "Merkblatt NL1",
@@ -79,5 +79,7 @@
    ],
    "zusammenfassung": "Arbeiten Angestellte teilweise für private Bedürfnisse, ist ein entsprechender Teil der Löhne als Privatanteil anzurechnen."
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

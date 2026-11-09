@@ -12,6 +12,9 @@ sha256: f8481fe52d5eafd998a17249f547807e065651394964298797e3a864d7e5897d
 abgerufen: '2026-11-09'
 seiten: 1
 konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2025-01-01'
+gilt_bis: '2025-12-31'
 ---
 # Steuerfüsse 2025 (Stand 8.1.2025)
 

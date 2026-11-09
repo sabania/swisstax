@@ -8,7 +8,7 @@ titel: "§ 3 V DBG TG – Steuerverwaltung"
 artikel: "§ 3"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> TG · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 3 Steuerverwaltung
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · V DBG TG · 1. Behörden › § 3 Steuerverwaltung
 
 ### § 3 V DBG TG – Steuerverwaltung
 

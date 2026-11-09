@@ -7,7 +7,7 @@ typ: info
 titel: "Ausnahme: Nachsteuern und Steuerstrafen"
 qmd: {metadata: {jur: zh, jahre: [2025, 2026], typ: info}}
 ---
-> ZH · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Staats- und Gemeindesteuer › Ausnahme: Nachsteuern und Steuerstrafen
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · ZH Steuerrechnung · Steuerrechnung Privatpersonen › Staats- und Gemeindesteuer › Ausnahme: Nachsteuern und Steuerstrafen
 
   8.799306999999999
 - 47.3407771

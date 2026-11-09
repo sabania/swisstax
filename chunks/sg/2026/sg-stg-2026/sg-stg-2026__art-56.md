@@ -8,7 +8,7 @@ titel: "Art. 56 StG SG – 2. Wertschriften"
 artikel: "Art. 56"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 56 2. Wertschriften
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › III. Vermögenssteuer › Art. 56 2. Wertschriften
 
 ### Art. 56 StG SG – 2. Wertschriften
 

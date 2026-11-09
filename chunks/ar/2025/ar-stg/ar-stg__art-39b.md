@@ -8,7 +8,7 @@ titel: "Art. 39b StG AR – 1b. Vereinfachtes Abrechnungsverfahren"
 artikel: "Art. 39b"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 39b 1b. Vereinfachtes Abrechnungsverfahren
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 2. Besteuerung natürlicher Personen › B. Einkommenssteuer › Art. 39b 1b. Vereinfachtes Abrechnungsverfahren
 
 ### Art. 39b StG AR – 1b. Vereinfachtes Abrechnungsverfahren
 

@@ -9,7 +9,7 @@ artikel: "§ 65c"
 seiten: "36"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
 ---
-> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 65c StG ZH – i. Entlastungsbegrenzung · S. 36
+> ZH · Kanton Zürich · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › B. Gewinnsteuer › § 65c StG ZH – i. Entlastungsbegrenzung · S. 36
 
 ### § 65c StG ZH – i. Entlastungsbegrenzung
 

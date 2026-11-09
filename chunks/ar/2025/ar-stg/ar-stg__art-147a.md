@@ -8,7 +8,7 @@ titel: "Art. 147a StG AR – 3. Ermässigung bei Unternehmensnachfolge"
 artikel: "Art. 147a"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: gesetz}}
 ---
-> AR · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 147a 3. Ermässigung bei Unternehmensnachfolge
+> AR · Kanton Appenzell Ausserrhoden · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025/2026 · StG AR · 1. Teil: Staatssteuern › 6. Erbschafts- und Schenkungssteuer › Art. 147a 3. Ermässigung bei Unternehmensnachfolge
 
 ### Art. 147a StG AR – 3. Ermässigung bei Unternehmensnachfolge
 

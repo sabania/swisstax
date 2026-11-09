@@ -4,6 +4,8 @@ titel: 'ZStB 31.1: Säule 3a'
 kurz: ZStB 31.1
 jurisdiktion: zh
 jahre:
+- 2025
+- 2026
 - 2027
 typ: praxis
 quelle_url: https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-31-1.html
@@ -11,6 +13,9 @@ raw: raw/zh/dauernd/zh-zstb-31-1.html
 sha256: 7f406dd90a0a7a0748c1a706ab5ff1ef807c39f6d0ffcfe03a99f20bab1e5449
 abgerufen: '2026-11-09'
 konvertierung: HTML-Hauptinhalt (main) -> Markdown (markdownify)
+zeitbezug: dauernd
+gilt_ab: '2027-01-01'
+ersetzt: zh-zstb-31-1-bis-2026
 ---
 # ZStB 31.1: Säule 3a
 

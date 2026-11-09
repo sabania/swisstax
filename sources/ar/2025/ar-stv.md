@@ -14,6 +14,8 @@ sha256: e79b014b15fec42b80f804ae7f3192ed7fadfdd8d28208a7e5a068c5b5ef76fa
 abgerufen: '2026-11-09'
 einheiten: 97
 konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
+zeitbezug: steuerperiode
+gilt_ab: '2024-01-01'
 ---
 # Verordnung zum Steuergesetz AR (bGS 621.111) – Version gültig ab 01.01.2024
 

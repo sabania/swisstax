@@ -8,7 +8,7 @@ titel: "DA-1 Entscheid und Buchungsanweisung (leer lassen)"
 seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025], typ: formular}}
 ---
-> Bund · Steuerjahr 2025 · DA-1 2025 · DA-1 › Amtlicher Teil · S. 1
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Formular · Steuerjahr 2025 · DA-1 2025 · DA-1 › Amtlicher Teil · S. 1
 
    Entscheid und Buchungsanweisung (leer lassen)   Geprüft   Eröffnet   Gebucht   Überwiesen
     am   am   am   am

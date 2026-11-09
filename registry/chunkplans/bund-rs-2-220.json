@@ -6,7 +6,7 @@
  ],
  "chunks": [
   {
-   "start": 17,
+   "start": 1,
    "titel": "Ziff. 1 Kalte Progression 2027 – Indexstand, Verordnung, Tarife und Abzüge",
    "pfad": [
     "1. Ausgleich der Folgen der kalten Progression"
@@ -26,7 +26,7 @@
    "ziffer": "1"
   },
   {
-   "start": 65,
+   "start": 49,
    "titel": "Ziff. 1 Abzugstabelle 2027 – Aufwandbesteuerung, Feuerwehrsold, Gewinnspiele, Fahrkosten",
    "pfad": [
     "1. Ausgleich der Folgen der kalten Progression",
@@ -46,7 +46,7 @@
    "ziffer": "1"
   },
   {
-   "start": 86,
+   "start": 70,
    "titel": "Ziff. 1 Abzugstabelle 2027 – Verpflegung und Wochenaufenthalt",
    "pfad": [
     "1. Ausgleich der Folgen der kalten Progression",
@@ -66,7 +66,7 @@
    "ziffer": "1"
   },
   {
-   "start": 110,
+   "start": 94,
    "titel": "Ziff. 1 Abzugstabelle 2027 – Übrige Berufskosten, Nebenerwerb, Versicherungsprämien",
    "pfad": [
     "1. Ausgleich der Folgen der kalten Progression",
@@ -88,7 +88,7 @@
    "ziffer": "1"
   },
   {
-   "start": 127,
+   "start": 111,
    "titel": "Ziff. 1 Abzugstabelle 2027 – Parteispenden, Weiterbildung",
    "pfad": [
     "1. Ausgleich der Folgen der kalten Progression",
@@ -107,7 +107,7 @@
    "ziffer": "1"
   },
   {
-   "start": 137,
+   "start": 121,
    "titel": "Ziff. 1 Abzugstabelle 2027 – Zweiverdiener, Drittbetreuung, Spielkosten, Sozialabzüge",
    "pfad": [
     "1. Ausgleich der Folgen der kalten Progression",
@@ -133,7 +133,7 @@
    "ziffer": "1"
   },
   {
-   "start": 157,
+   "start": 141,
    "titel": "Ziff. 2 Bewertung von Naturalbezügen 2027 – Merkblätter N1, N2, NL1",
    "pfad": [
     "2. Naturalbezüge"
@@ -151,7 +151,7 @@
    "ziffer": "2"
   },
   {
-   "start": 164,
+   "start": 148,
    "titel": "Ziff. 3 Zinssätze DBSt 2027 – Verzugszins, Vergütungszins",
    "pfad": [
     "3. Zinssätze"
@@ -170,7 +170,7 @@
    "ziffer": "3"
   },
   {
-   "start": 188,
+   "start": 172,
    "titel": "Tarif 2027 (Art. 36 DBG) Abs. 1 – Grundtarif Alleinstehende",
    "pfad": [
     "Tarif DBSt",
@@ -190,7 +190,7 @@
    "ziffer": "Art. 36 Abs. 1"
   },
   {
-   "start": 218,
+   "start": 202,
    "titel": "Tarif 2027 (Art. 36 DBG) Abs. 2 – Verheiratetentarif",
    "pfad": [
     "Tarif DBSt",
@@ -209,7 +209,7 @@
    "ziffer": "Art. 36 Abs. 2"
   },
   {
-   "start": 250,
+   "start": 234,
    "titel": "Tarif 2027 (Art. 36 DBG) Abs. 2bis und 3 – Kinderabzug vom Steuerbetrag, Mindestbetrag",
    "pfad": [
     "Tarif DBSt",
@@ -227,5 +227,7 @@
    "zusammenfassung": "Der Steuerbetrag ermässigt sich um 264 Franken für jedes Kind oder jede unterstützungsbedürftige Person; Steuerbeträge unter 25 Franken werden nicht erhoben.",
    "ziffer": "Art. 36 Abs. 2bis, 3"
   }
- ]
+ ],
+ "basis": "koerper",
+ "basis_hinweis": "start = 1-basierte Zeile im Textkörper (nach der Frontmatter) von sources/<jur>/<jahr>/<id>.md"
 }

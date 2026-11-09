@@ -9,7 +9,7 @@ ziffer: "13 / 49–51"
 seiten: "15-16"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13 Spesen · S. 15–16
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Wegleitung · Steuerjahr 2026 · WL Lohnausweis 2026 · I Notwendige Angaben › Ziffer 13 Spesen · S. 15–16
 
 Spesenvergütungen (nicht im Bruttolohn enthalten)   Ziffer 13
 

@@ -2,14 +2,14 @@
 id: bund-mb-21edp__c0004
 quelle: bund-mb-21edp
 jur: bund
-jahre: [2025, 2026]
+jahre: [2025, 2026, 2027]
 typ: merkblatt
 titel: "Rz 4–6 Anwendungsbereich – 2. Säule, Säule 3a, Einkäufe Säule 3a"
 ziffer: "4–6"
 seiten: "2"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
+qmd: {metadata: {jur: bund, jahre: [2025, 2026, 2027], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · Anwendungsbereich · S. 2
+> Bund · Bundesebene (direkte Bundessteuer, Bundesrecht) · Merkblatt · Steuerjahr 2025/2026/2027 · MB 21 EDP · Anwendungsbereich · S. 2
 
     Anwendungsbereich
 4   Das Formular 21 ist von allen Schweizer Vorsorgeträgern zu verwenden. Zu bescheini

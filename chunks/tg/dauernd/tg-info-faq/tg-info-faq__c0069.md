@@ -7,7 +7,7 @@ typ: info
 titel: "Veranlagungsverfahren"
 qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: info}}
 ---
-> TG · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
+> TG · Kanton Thurgau · Staats- und Gemeindesteuer · Informationsseite · Steuerjahr 2025/2026 · TG FAQ NP · Natürliche Personen › Veranlagungsverfahren
 
     Ein Fristwiederherstellungsgrund wäre gegeben, wenn er überraschend aus persönlichen oder geschäftlichen Gründen ins Ausland hätte verreisen müssen. Ein Auslandaufenthalt zu Ferienzwecken ist kein stichhaltiger Entschuldigungsgrund. Es wird deshalb keine Fristwiederherstellung gewährt.
 

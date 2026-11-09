@@ -8,7 +8,7 @@ titel: "Art. 84 StV SG – b) dem Inventar gleichgestellte Abrechnung (Art. 204 
 artikel: "Art. 84"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 84 b) dem Inventar gleichgestellte Abrechnung (Art. 204 StG)
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Verordnung · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren › Art. 84 b) dem Inventar gleichgestellte Abrechnung (Art. 204 StG)
 
 ### Art. 84 StV SG – b) dem Inventar gleichgestellte Abrechnung (Art. 204 StG)
 

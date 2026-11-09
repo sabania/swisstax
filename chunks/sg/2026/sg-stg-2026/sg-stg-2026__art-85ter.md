@@ -8,7 +8,7 @@ titel: "Art. 85 ter StG SG – 4ter. Entlastungsbegrenzung"
 artikel: "Art. 85 ter"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 85 ter 4ter. Entlastungsbegrenzung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Zweiter Abschnitt: Gewinn- und Kapitalsteuern › II. Gewinnsteuer › Art. 85 ter 4ter. Entlastungsbegrenzung
 
 ### Art. 85 ter StG SG – 4ter. Entlastungsbegrenzung
 

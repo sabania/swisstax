@@ -8,7 +8,7 @@ titel: "Art. 186 StG SG – 3. Verfügung"
 artikel: "Art. 186"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
 ---
-> SG · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 186 3. Verfügung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2026 · StG SG · Sechster Abschnitt: Organisation und Verfahren › IV. Besondere Verfahrensbestimmungen › Art. 186 3. Verfügung
 
 ### Art. 186 StG SG – 3. Verfügung
 

@@ -8,7 +8,7 @@ titel: "Art. 210 StG SG – Vorläufige Steuerrechnung"
 artikel: "Art. 210"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
 ---
-> SG · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 210 Vorläufige Steuerrechnung
+> SG · Kanton St. Gallen · Staats- und Gemeindesteuer · Gesetz · Steuerjahr 2025 · StG SG · Siebter Abschnitt: Steuerbezug › I. Steuerbezug und Steuererlass › Art. 210 Vorläufige Steuerrechnung
 
 ### Art. 210 StG SG – Vorläufige Steuerrechnung
 

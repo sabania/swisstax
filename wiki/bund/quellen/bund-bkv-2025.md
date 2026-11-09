@@ -11,6 +11,51 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Bund · **Typ:** Verordnung · **gilt für Steuerjahre:** 2025 · **Stand:** 2023-01-01
 - **Original:** <https://www.fedlex.admin.ch/eli/cc/1993/1363_1363_1363/20230101/de> · lokal: [bund-bkv-2025.xml](../../../raw/bund/2025/bund-bkv-2025.xml) · Volltext: [bund-bkv-2025.md](../../../sources/bund/2025/bund-bkv-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `b51b0222ed979c94…`
+- **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2023-01-01 bis 2025-12-31 · ersetzt durch `bund-bkv-2026`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 36 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-bkv-2025`).
+
+- `data/werte/ar/2025.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
+- `data/werte/ar/2025.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/ar/2025.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/ar/2025.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/werte/ar/2025.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/ar/2025.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/ar/2025.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
+- `data/werte/ar/2025.yaml#6:berufskosten.verpflegung.jahr` (agent-geprueft)
+- `data/werte/ar/2025.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
+- `data/werte/ar/2025.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/werte/bund/2025.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
+- `data/werte/bund/2025.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
+- `data/werte/bund/2025.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
+- `data/werte/bund/2025.yaml#14:berufskosten.uebrige.min` (agent-geprueft)
+- `data/werte/bund/2025.yaml#15:berufskosten.uebrige.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
+- `data/werte/bund/2025.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
+- `data/werte/bund/2025.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- `data/werte/bund/2025.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
+- `data/werte/bund/2025.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
+- `data/werte/bund/2025.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
+- `data/werte/bund/2025.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
+- `data/werte/bund/2025.yaml#6:berufskosten.verpflegung.jahr` (agent-geprueft)
+- `data/werte/bund/2025.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
+- `data/werte/bund/2025.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#24:abzug.berufskosten.uebrige@10.1` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#2:einkommen.unselbstaendig.nebenerwerb@1.2` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#72:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#73:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.3` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#74:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.1` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#75:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#76:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.3` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#77:abzug.berufskosten.uebrige@Form. 4 Ziff. 3` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#78:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4` (agent-geprueft)
+- `data/zuordnung/ar/2025.yaml#79:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
+- [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
+- [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
+- [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 
 ## Inhalt (15 Chunks)
 
