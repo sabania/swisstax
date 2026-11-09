@@ -13,13 +13,14 @@ Getestet mit OpenClaw 2026.11.2 und Haiku/Sonnet über die `claude-cli`-Runtime.
 python3 tools/build_plugin.py --tgz                     # → dist/steuerwiki-plugin/ (und .tgz, ≈ 7 MB)
 openclaw plugins install dist/steuerwiki-plugin --force --accept-capabilities   # lokale Quelle → --force
 openclaw plugins inspect steuerwiki                     # Format: bundle (claude) · Bundle capabilities: skills, mcpServers
-cat openclaw/AGENTS.workspace-snippet.md >> <workspace>/AGENTS.md                # L0-Einstieg (≈ 2 KB)
+cat openclaw/AGENTS.workspace-snippet.md >> <workspace>/AGENTS.md                # L0-Einstieg (≈ 4 KB)
 cp kategorien/<firma>.md <workspace>/KATEGORIEN.md                              # Kategorienliste der Firma (Vorlage: kategorien/vorlage.md)
 openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     # → 1 Aufruf steuerwiki__wert
 ```
 
 - Das Plugin bringt 3 Skills (`belege-ablage`, `steuererklaerung-np`, `steuerwiki`) und den
-  MCP-Server `steuerwiki` mit den Tools `steuerwiki__ablage`, `__beleg`, `__position`, `__wert`, `__vergleich`, `__suche`, `__zeige`.
+  MCP-Server `steuerwiki` mit den Tools `steuerwiki__ablage`, `__beleg`, `__formular`, `__position`, `__wert`, `__vergleich`,
+  `__suche`, `__zeige`.
 - **Ablage-Kategorien:** die Liste der Firma als `KATEGORIEN.md` in den Workspace legen (`cp kategorien/<firma>.md <ws>/KATEGORIEN.md`;
   Vorlage `kategorien/vorlage.md`, Beispiel `kategorien/consis.md`). Der Agent liest sie und ordnet danach ein – austauschbar ohne Neubau des Plugins. Voraussetzung: `python3` auf dem Gateway-Host (nur Standardbibliothek).
 - **Kein `tools.fs.workspaceOnly` für diesen Agenten setzen.** OpenClaw legt Plugin-Skills unter `<state>/plugin-skills/` ab und

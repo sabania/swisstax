@@ -86,9 +86,46 @@ Pauschale, die die Musterlösung übersehen hatte. Details: [bewertung-faelle.md
 Sachverhalte im Skill `steuererklaerung-np`. **Nachtest ZH nach Tuning:** alle Positionen korrekt (plus eine von der Musterlösung
 übersehene zulässige Pauschale) → 4/4 Fälle «einreichbar nach Kontrolle».
 
+## E4 – Schwaches Modell (Haiku) mit Plugin: Werkzeug statt Dateisuche
+
+Ziel: Der Agent soll auch mit einem kleinen Modell schnell und sicher arbeiten. Modell: Haiku über die `claude-cli`-Runtime,
+OpenClaw 2026.11.2. Gleiche Fragen und gleiches unabhängiges Bewertungsverfahren wie oben (Opus-Prüfer gegen Referenz und
+Primärquellen); jede Antwort in einer frischen Sitzung (eindeutige Sitzungs-ID).
+
+| Lauf | Konfiguration |
+|---|---|
+| H0 | Haiku, Wiki als Dateien im Workspace (wie Lauf B), ohne Plugin |
+| H1 | Haiku + Plugin v1 (Skills, MCP-Werkzeug `steuer`) |
+| H4 | Haiku + Plugin, firmenunabhängige Ablage (`KATEGORIEN.md`), Kanton-/Jahresregel im Einstieg |
+| H5 | wie H4 + robustere Wortsuche, `formular`-Gerüst, Korrekturen aus der Ursachenanalyse von H4 (siehe unten) |
+
+*Ergebnisse H0–H5: Tabelle folgt nach der Bewertung von H5.*
+
+**Ursachenanalyse H4** (19 nicht voll richtige Antworten, je ein unabhängiger Analyst mit Protokoll der Werkzeugaufrufe; jede
+vorgeschlagene Datenkorrektur von einem zweiten Agenten gegen die Primärquelle geprüft): Werkzeugausgabe unvollständig/irreführend 7,
+Stichwort nicht gefunden 3, Anleitung 3, falsche Daten 2, Modellfehler trotz korrekter Ausgabe 4. In allen Protokollen H0–H4 lieferten
+`wert` 10 % und `position` 19 % der Aufrufe nichts – der Agent fragte mit Alltagswörtern und Komposita («Kinderabzug»,
+«Sparzinsen», «Kinderdrittbetreuung») oder mit Hilfsblatt-Ziffern («2.3», «Form. 360»). Ein leerer `wert`-Treffer führte in q09 über die
+Volltextsuche zu einem überholten Verordnungswert.
+
+**Werkzeugtest** (`eval/werkzeug_test.py`, deterministisch, Treffer unter den ersten 3):
+
+| Testsatz | alter Stand | neuer Stand |
+|---|---|---|
+| Echte Fehlgriffe aus den Protokollen + Prüffälle der Analyse (`werkzeug-test.yaml`) | 11/46 | 46/46 |
+| Holdout 1: 385 Eingaben unabhängiger Agenten (2025) | 75 % | 98 % (zum Ableiten allgemeiner Regeln benutzt) |
+| Holdout 2: 270 Stichworte aus Kundenfragen (2026), nach dem Tuning erzeugt | 72 % | 95 % (danach mit Äquivalenzen 98 %) |
+
+Änderungen: Komposita (Bestimmungs-/Grundwort, Fugen-s, allgemeine Wortteile wie «-beiträge», «-frist»), Synonyme auch für
+Formularpositionen, gleichbedeutende Wörter (Velo/Fahrrad, Auto/Motorfahrzeug), Ziffern/Codes/Artikel (`Ziff. 16.6`, `Code 220`,
+`Art. 36 DBG`, `Form. 360`), Rückfall auf Formularposition + Volltext statt leerer Ausgabe; neuer Befehl `formular` (alle Positionen in
+Formularreihenfolge, Limiten Kanton|Bund, Standardabzüge nach Haushalt); `zeige` nennt die Geltung der Quelle; Verfahrensdokumente
+ausdrücklich «kein Steuerbeleg»; Kategorie-Regel im Einstieg. Dokumenterkennung (`ablage`) unverändert: 46/46, Holdouts 93–98 % Top-1.
+
 ## Grenzen der Experimente
 
-- Ein Modell (Claude über claude-cli); andere Modelle können anders navigieren.
+- Zwei Modellgrössen (Claude über claude-cli: grosses Modell in A/B/E3, Haiku in E4); andere Modelle können anders navigieren.
+- Haiku-Läufe streuen von Lauf zu Lauf (gleiche Frage, andere Werkzeugwahl); Unterschiede von 1–3 Antworten sind teils Rauschen.
 - Hybrid-/Vektorsuche nicht getestet (lokales Embedding-Plugin in der Testumgebung blockiert, kein Embedding-API-Schlüssel).
 - 64 Fragen und 4 Fälle sind eine Stichprobe; Fragen, Musterlösungen und Bewertungen stammen von KI-Agenten (unabhängig
   voneinander, gegen Primärquellen) – eine Abnahme durch eine Fachperson (Status ✅, `tools/abnahme.py`) steht aus.
