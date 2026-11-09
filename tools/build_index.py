@@ -92,6 +92,37 @@ def main():
                 L.append(f"| {TYP_LABEL.get(e['typ'], e['typ'])} | {e.get('kurz') or ''} | [{titel}]({e['url']}){hint} | {jahre} | {vt} | {ck} | {rw} |")
             L.append("")
         (base / f"{jur}-quellen.md").write_text("\n".join(L), encoding="utf-8")
+    # Quellenseiten (LLM-Wiki «source summary»): Inhaltsverzeichnis je Quelle aus den Chunk-Metadaten
+    nq = 0
+    for e in reg:
+        d = chunk_dir(e)
+        mp = d / "_meta.json"
+        if not mp.exists():
+            continue
+        metas = json.loads(mp.read_text(encoding="utf-8"))
+        qd = ROOT / "wiki" / e["jurisdiktion"] / "quellen"
+        qd.mkdir(parents=True, exist_ok=True)
+        plan = ROOT / "registry" / "chunkplans" / f"{e['id']}.json"
+        hinweise = json.loads(plan.read_text(encoding="utf-8")).get("hinweise", []) if plan.exists() else []
+        L = ["---", "typ: quelle", f"id: {e['id']}", f"jur: {e['jurisdiktion']}", f"jahre: {json.dumps(e.get('jahre') or [])}",
+             f"titel: {json.dumps(e['titel'], ensure_ascii=False)}", "generiert: tools/build_index.py", "---",
+             f"# {e.get('kurz') or e['id']}: {e['titel']}", "",
+             f"- **Jurisdiktion:** {JUR_LABEL[e['jurisdiktion']]} · **Typ:** {TYP_LABEL.get(e['typ'], e['typ'])} · "
+             f"**gilt für Steuerjahre:** {', '.join(map(str, e.get('jahre') or [])) or '–'}" + (f" · **Stand:** {e['stand']}" if e.get("stand") else ""),
+             f"- **Original:** <{e['url']}> · lokal: [{raw_path(e).name}]({rel(raw_path(e), qd)}) · Volltext: [{source_path(e).name}]({rel(source_path(e), qd)})",
+             f"- **Abgerufen:** {e.get('abgerufen', '–')} · sha256 `{(e.get('sha256') or '')[:16]}…`"]
+        if e.get("hinweis"):
+            L.append(f"- ⚠ **Hinweis:** {e['hinweis']}")
+        if hinweise:
+            L += ["", "## Hinweise zur Quelle (aus dem Chunking)", ""] + [f"- {h}" for h in hinweise]
+        L += ["", f"## Inhalt ({len(metas)} Chunks)", "", "| Chunk | Titel | Seiten/Artikel | Kurzfassung |", "|---|---|---|---|"]
+        for m in metas:
+            where = m.get("artikel") or (("S. " + str(m["seiten"][0]) + (f"–{m['seiten'][-1]}" if len(m["seiten"]) > 1 else "")) if m.get("seiten") else "")
+            summ = (m.get("zusammenfassung") or "").replace("|", "/").replace("\n", " ")
+            L.append(f"| [{m['id'].split('__')[-1]}]({rel(d / (m['id'] + '.md'), qd)}) | {(m.get('titel') or '').replace('|', '/')} | {where} | {summ} |")
+        (qd / f"{e['id']}.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+        nq += 1
+    print(f"Quellenseiten: {nq}")
     print(f"index/chunks.jsonl: {nchunks} Chunks {dict(stats)}; index/quellen.jsonl: {len(reg)} Quellen; Kataloge geschrieben")
 
 

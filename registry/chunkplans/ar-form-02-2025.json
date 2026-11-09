@@ -1,0 +1,139 @@
+{
+ "id": "ar-form-02-2025",
+ "hinweise": [
+  "Formularraster Seite 2 enthält nur Platzhalter-/Rasterzeichen ohne Aussage (Seite 2)."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 2 AR Wertschriften- und Guthabenverzeichnis – Zweck und Bestätigung",
+   "pfad": [
+    "Formular 2"
+   ],
+   "stichworte": [
+    "Wertschriftenverzeichnis",
+    "Guthabenverzeichnis",
+    "Verrechnungssteuer",
+    "Rückerstattungsantrag",
+    "35%"
+   ],
+   "zusammenfassung": "Verzeichnis ist Bestandteil der Steuererklärung; Unterschrift bestätigt, dass auf allen Erträgen unter Rubrik A die Verrechnungssteuer mit 35% abgezogen wurde.",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 36,
+   "titel": "Fragen Erbschaften (Codes 960, 961) – erhaltene und unverteilte Erbschaft",
+   "pfad": [
+    "Formular 2",
+    "Seite 1",
+    "Erbschaften"
+   ],
+   "stichworte": [
+    "Erbschaft",
+    "Vermächtnis",
+    "unverteilte Erbschaft",
+    "Erbteilung",
+    "Erbanteil"
+   ],
+   "zusammenfassung": "Angaben zu im Jahr 2025 erhaltener Erbschaft (Code 960) und Beteiligung an unverteilter Erbschaft (Code 961, ohne Liegenschaften, diese in Formular 7).",
+   "positionen": [
+    "info.schenkungen_erbschaften",
+    "einkommen.erbschaften_unverteilt",
+    "vermoegen.erbschaften_beteiligungen"
+   ],
+   "ziffer": "960–961"
+  },
+  {
+   "start": 57,
+   "titel": "Fragen Schenkungen (Codes 962, 963) – erhalten und verschenkt",
+   "pfad": [
+    "Formular 2",
+    "Seite 1",
+    "Schenkungen"
+   ],
+   "stichworte": [
+    "Schenkung",
+    "Erbvorbezug",
+    "verschenkt",
+    "Verwandtschaftsgrad"
+   ],
+   "zusammenfassung": "Angaben zu 2025 erworbenen (Code 962) und verschenkten Vermögenswerten (Code 963) mit Schenkungsdatum, Betrag und Verwandtschaftsgrad.",
+   "positionen": [
+    "info.schenkungen_erbschaften"
+   ],
+   "ziffer": "962–963"
+  },
+  {
+   "start": 75,
+   "titel": "Kollektiv-/Kommanditgesellschaften, Beilagen und Unterschrift",
+   "pfad": [
+    "Formular 2",
+    "Seite 1",
+    "Beilagen"
+   ],
+   "stichworte": [
+    "Kollektivgesellschaft",
+    "Kommanditgesellschaft",
+    "Formular 25",
+    "Beilagen",
+    "Steuerauszug",
+    "Unterschrift"
+   ],
+   "zusammenfassung": "Bei Beteiligung an Kollektiv-/Kommanditgesellschaft erfolgt die Rückerstattung der Verrechnungssteuer mit Formular 25 direkt bei der ESTV; Beilagen: Ergänzungsblätter, Steuerauszüge, Bankbescheinigungen, Lotto-/Totobescheinigungen.",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 95,
+   "titel": "Verzeichnis der Vermögenswerte – Tabellenkopf (Seite 2)",
+   "pfad": [
+    "Formular 2",
+    "Seite 2",
+    "Verzeichnis"
+   ],
+   "stichworte": [
+    "Wertschriften",
+    "Valoren-Nr.",
+    "IBAN",
+    "Steuerwert 31. Dezember 2025",
+    "Bruttoertrag",
+    "Konto"
+   ],
+   "zusammenfassung": "Tabelle mit Code, Nennwert/Stückzahl, Valoren-/IBAN-Nr., Bezeichnung, Datum, Steuerwert am 31. Dezember 2025 und Bruttoertrag 2025 (A mit, B ohne Verrechnungssteuerabzug).",
+   "positionen": [
+    "vermoegen.wertschriften_guthaben",
+    "einkommen.wertschriften"
+   ]
+  },
+  {
+   "start": 140,
+   "titel": "Totale, Code-Abkürzungen und Übertrag (Ziff. 4.1, 4.2, 4.3, Seite 4 Ziff. 30.1)",
+   "pfad": [
+    "Formular 2",
+    "Seite 2",
+    "Totale"
+   ],
+   "stichworte": [
+    "Total Erträge A",
+    "Verrechnungssteueranspruch",
+    "Geschäftsvermögen",
+    "Privatbeteiligung",
+    "Übertrag Steuererklärung",
+    "DA-1"
+   ],
+   "zusammenfassung": "Verrechnungssteueranspruch 35 % vom Bruttoertrag (Total A); Total zu übertragen in Steuererklärung Seite 4 Ziffer 30.1 und Seite 2 Ziffer 4.1; BP-Erträge in Ziff. 4.2, BG-Erträge in Ziff. 4.3.",
+   "positionen": [
+    "verrechnungssteuer.rueckerstattung",
+    "berechnung.total",
+    "einkommen.beteiligungen_qualifiziert",
+    "vermoegen.wertschriften_guthaben"
+   ],
+   "ziffer": "4.1–4.3, 30.1"
+  }
+ ]
+}

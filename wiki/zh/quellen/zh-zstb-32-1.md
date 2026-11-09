@@ -1,0 +1,36 @@
+---
+typ: quelle
+id: zh-zstb-32-1
+jur: zh
+jahre: [2025, 2026]
+titel: "ZStB 32.1: Krankheits-, Unfall- und Behinderungskosten"
+generiert: tools/build_index.py
+---
+# ZStB 32.1: ZStB 32.1: Krankheits-, Unfall- und Behinderungskosten
+
+- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
+- **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-32-1.html> · lokal: [zh-zstb-32-1.html](../../../raw/zh/dauernd/zh-zstb-32-1.html) · Volltext: [zh-zstb-32-1.md](../../../sources/zh/dauernd/zh-zstb-32-1.md)
+- **Abgerufen:** 2026-11-09 · sha256 `4c96fa9cfd2265f5…`
+
+## Inhalt (18 Chunks)
+
+| Chunk | Titel | Seiten/Artikel | Kurzfassung |
+|---|---|---|---|
+| [c0001](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0001.md) | ZStB 32.1: Krankheits-, Unfall- und Behinderungskosten |  |  |
+| [c0002](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0002.md) | Auf dieser Seite |  |  |
+| [c0003](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0003.md) | Auf dieser Seite |  |  |
+| [c0004](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0004.md) | 1.Zwei unterschiedliche Abzüge ab Steuerperiode 2005 |  |  |
+| [c0005](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0005.md) | a) Gesetzliche Regelungen |  |  |
+| [c0006](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0006.md) | b) Abzugsfähige Krankheits- und Unfallkosten |  |  |
+| [c0007](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0007.md) | b) Abzugsfähige Krankheits- und Unfallkosten |  |  |
+| [c0008](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0008.md) | b) Abzugsfähige Krankheits- und Unfallkosten |  |  |
+| [c0009](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0009.md) | a) Gesetzliche Regelungen |  |  |
+| [c0010](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0010.md) | b) Personen mit Behinderungen |  |  |
+| [c0011](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0011.md) | b) Personen mit Behinderungen |  |  |
+| [c0012](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0012.md) | b) Personen mit Behinderungen |  |  |
+| [c0013](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0013.md) | c) Abzugsfähige behinderungsbedingte Kosten |  |  |
+| [c0014](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0014.md) | c) Abzugsfähige behinderungsbedingte Kosten |  |  |
+| [c0015](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0015.md) | c) Abzugsfähige behinderungsbedingte Kosten |  |  |
+| [c0016](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0016.md) | d) Pauschalen |  |  |
+| [c0017](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0017.md) | 4.Zur Deklaration der Abzüge (Formulare und Steuererklärung) |  |  |
+| [c0018](../../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0018.md) | 4.Zur Deklaration der Abzüge (Formulare und Steuererklärung) |  |  |

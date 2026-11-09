@@ -1,0 +1,68 @@
+{
+ "id": "tg-form-06-2025",
+ "hinweise": [
+  "S. 1-2: Leere Namens-/Nummernzeilen (1.-60.); Spalten 'gemeinnützige oder öffentliche Zwecke' / 'politische Parteien' nur als Kopf erkennbar; Barcode- und Schaltflächentext im Text."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 6 TG S. 1 – Hinweis zum Ausfüllen und Zuwendungsliste 1–16",
+   "pfad": [
+    "Freiwillige Zuwendungen sowie Mitgliederbeiträge und Zuwendungen an politische Parteien",
+    "Zuwendungen 2025"
+   ],
+   "stichworte": [
+    "Spenden",
+    "Quittung ab Fr. 1000",
+    "Zuwendungen",
+    "politische Parteien",
+    "gemeinnützige Zwecke",
+    "Bescheinigung"
+   ],
+   "positionen": [
+    "abzug.spenden",
+    "abzug.parteispenden",
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Ab Fr. 1000.– pro Zuwendung Quittung oder Bescheinigung beilegen; Liste der Institutionen/Parteien Nr. 1–16 mit Übertrag von Beiblättern."
+  },
+  {
+   "start": 84,
+   "titel": "Formular 6 TG – Parteispenden (Code 347, Ziff. 15.5) und Berechnung Zuwendungen (Code 366, Ziff. 23.2)",
+   "pfad": [
+    "Freiwillige Zuwendungen",
+    "Berechnung"
+   ],
+   "stichworte": [
+    "Parteispenden Höchstbetrag",
+    "Selbstbehalt",
+    "20% Nettoeinkommen",
+    "Spendenabzug",
+    "Staatssteuer",
+    "Bundessteuer"
+   ],
+   "positionen": [
+    "abzug.parteispenden",
+    "abzug.spenden"
+   ],
+   "zusammenfassung": "Parteien: Staatssteuer max. Fr. 10 000.–, Bundessteuer max. Fr. 10 600.–; Zuwendungen: Selbstbehalt Fr. 200.– (Staat), max. Fr. 8000.– bis Nettoeinkommen Fr. 40000.–, darüber 20% des Nettoeinkommens; Bund max. 20%."
+  },
+  {
+   "start": 115,
+   "titel": "Formular 6 TG S. 2 – Zuwendungsliste 17–60",
+   "pfad": [
+    "Zuwendungen 2025",
+    "Rückseite"
+   ],
+   "stichworte": [
+    "Zuwendungsliste",
+    "Beiblätter",
+    "Übertrag Vorderseite"
+   ],
+   "positionen": [
+    "abzug.spenden"
+   ],
+   "zusammenfassung": "Fortsetzung der Liste der Institutionen/Parteien Nr. 17–60 mit Übertrag aus Beiblättern und auf die Vorderseite."
+  }
+ ]
+}

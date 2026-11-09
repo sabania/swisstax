@@ -4342,3 +4342,582 @@
   sha256: 62e9cdae821e059c3f13e8f9f6dd1eaba1567d43c7cca81e9c820fd6b28d0239
   bytes: 558981
   abgerufen: '2026-11-09'
+- id: zh-form-300-2025
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 300 ZH 2025
+  titel: Steuererklärung 2025 – Hauptformular (StA Form. 300)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2025/est-formulare/300%20STE%20ZH%202025%20HA%20DEF.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: b3da5eb40db0b7763ad5719e34259d417a192678413f11119a40912c1e7faa38
+  bytes: 99652
+  abgerufen: '2026-11-09'
+- id: zh-form-340-2025
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 340 ZH 2025
+  titel: Wertschriften- und Guthabenverzeichnis 2025 (Form. 340)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2025/est-formulare/340%20WV%20ZH%202025%20HA%20DEF.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 37754899b711927c52c8e8d556e859d2a841c8c0b29505dd003113d720229004
+  bytes: 167121
+  abgerufen: '2026-11-09'
+- id: zh-form-360-2025
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 360 ZH 2025
+  titel: Berufsauslagen 2025 (Form. 360)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2025/est-formulare/360%20Berufsauslagen%20ZH%202025%20HA%20DEF.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 1abe480fd287d8e7a3a801a7ea91d9211c27b43e32d4428874bd15ec08d70b23
+  bytes: 71793
+  abgerufen: '2026-11-09'
+- id: zh-form-365-2025
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 365 ZH 2025
+  titel: Versicherungsprämien 2025 (Form. 365)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2025/est-formulare/365%20Versicherung%20ZH%202025%20HA%20DEF.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 233b189d2662841892cc41f6142fe7096457318a60afd775e6bf71537f090f85
+  bytes: 56091
+  abgerufen: '2026-11-09'
+- id: zh-form-367-2025
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 367 ZH 2025
+  titel: Aus- und Weiterbildungskosten 2025 (Form. 367)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2025/est-formulare/367%20Aus-%20und%20Weiterbildung%20ZH%202025%20HA%20DEF.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: dd595ea03d3a3a7d452562f101911eec6235639952108291d767545b7bec9062
+  bytes: 46013
+  abgerufen: '2026-11-09'
+- id: zh-form-350
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: formular
+  kurz: Formular 350 ZH
+  titel: Liegenschaftenverzeichnis (Form. 350)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/jahrunabhaengig/est-formulare/350%20Liegensch%20ZH%202025%20HA%20DEF.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 15310365b1733d10116e695201a071ce7ced1c47362eb11c8b7b798b7e95a27f
+  bytes: 71322
+  abgerufen: '2026-11-09'
+- id: zh-form-355
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: formular
+  kurz: Formular 355 ZH
+  titel: Schuldenverzeichnis (Form. 355)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/jahrunabhaengig/est-formulare/355_schulden_zh_2020_def.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 8de09c14f6b3a91bd93bd3e425cc48e1cdf60e0438b346f3fccc827d14b0e383
+  bytes: 54514
+  abgerufen: '2026-11-09'
+- id: zh-form-370
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: formular
+  kurz: Formular 370 ZH
+  titel: Krankheits- und Unfallkosten (Form. 370)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/jahrunabhaengig/est-formulare/370_krankheit_zh_2020_def.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 387b0d60749e2d77294cd20ac81da9b6d0ce6fb3e05ae5bdf440146c468a07a1
+  bytes: 106170
+  abgerufen: '2026-11-09'
+- id: zh-form-300-2026-uj
+  jurisdiktion: zh
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 300 ZH 2026 UJ
+  titel: Steuererklärung 2026 – Hauptformular für unterjährige Steuerpflicht (Form. 300 UJ)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2026/est-formulare-uj/300%20STE%20ZH%202026.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: fe7a0d160bb4070e988c065d2b1601586ece2479e4d714c23ce1ccb1617ceaea
+  bytes: 94565
+  abgerufen: '2026-11-09'
+- id: sg-form-2-2025
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 2 SG 2025
+  titel: 'Formular 2: Wertschriften- und Guthabenverzeichnis 2025'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_2_NP_2025_HA.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 521411f6f8cb33f0bc0187368d3649177eefc752f0bc169d0b108941172bc890
+  bytes: 156358
+  abgerufen: '2026-11-09'
+- id: sg-form-4-2025
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 4 SG 2025
+  titel: 'Formular 4: Berufskosten 2025'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_4_NP_2025_HA.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 33642e71e105c0dc10fec2ad74ef1730c2c44c6774e7df3d6d4bb8d77e6a24b0
+  bytes: 1558266
+  abgerufen: '2026-11-09'
+- id: sg-form-5-2025
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 5 SG 2025
+  titel: 'Formular 5: Schulden, freiwillige Zuwendungen, Parteispenden 2025'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_5_NP_2025_HA.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 087826bbd9ed1119e999d4d805baaec93e1e9f0da04eee71274a64ccd5df2093
+  bytes: 1575318
+  abgerufen: '2026-11-09'
+- id: sg-form-6-2025
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 6 SG 2025
+  titel: 'Formular 6: Versicherungsprämien, Krankheits- und Unfallkosten 2025'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_6_NP_2025_HA.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: d682fcf7f50d82d8b1c8bf089a9494912250b94e0716732abc5c560025190ae8
+  bytes: 1579613
+  abgerufen: '2026-11-09'
+- id: sg-form-7z-2025
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 7Z SG 2025
+  titel: 'Formular 7Z: Zusammenzug Liegenschaften 2025'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_7Z_NP_2025_HA.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: a6510b13efe43d4ff788ed223d8f80d95bd1dfa978ae0909ce359215374ca0c7
+  bytes: 1534216
+  abgerufen: '2026-11-09'
+- id: sg-form-1-2026-uj
+  jurisdiktion: sg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 1 SG 2026 UJ
+  titel: 'Formular 1: Steuererklärung 2026 für unterjährige Steuerpflicht'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2026-uj/Formular_1_NP_2026_UJ.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 4cfc3b00ba80a6ed4d3ce03b86f62d06b8a272003581095d84d5d430d42c708b
+  bytes: 3537030
+  abgerufen: '2026-11-09'
+- id: ar-form-02-2025
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 2 AR 2025
+  titel: 'Formular 2: Wertschriftenverzeichnis 2025'
+  url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Formulare/Formular_02_Wertschriftenverzeichnis.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 29ce4690ff6a10b126e658014d3e66d01879fd89d080d4e23a11bff72342d548
+  bytes: 156207
+  abgerufen: '2026-11-09'
+- id: ar-form-04-2025
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 4 AR 2025
+  titel: 'Formular 4: Berufskosten der erwerbstätigen Personen 2025'
+  url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Formulare/Formular_04_Berufskosten_der_erwerbstaetigen_Personen.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 5dc82bb21e1c54c2035d5c0b1c911a7d3ff5ede4a15322f736ff35ddd6d5d27a
+  bytes: 1551576
+  abgerufen: '2026-11-09'
+- id: ar-form-05-2025
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 5 AR 2025
+  titel: 'Formular 5: Schuldenverzeichnis, freiwillige Zuwendungen, Parteispenden 2025'
+  url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Formulare/Formular_05_Schuldenverzeichnis__Freiwillige_Zuwendungen__Parteispenden.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: fec6449e38d0abae136d6607daa7815d17eb4d562e70aa11c9b0f50ed610bfc4
+  bytes: 1533007
+  abgerufen: '2026-11-09'
+- id: ar-form-06-2025
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 6 AR 2025
+  titel: 'Formular 6: Krankheits- und Unfallkosten, behinderungsbedingte Kosten 2025'
+  url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Formulare/Formular_06_Krankheits-_und_Unfallkosten__behinderungsbedingte_Kosten.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 84ef37483ec353c57624926a3119e16b4f376ed16bdb8e8e83e2889d9a2c17e9
+  bytes: 1536038
+  abgerufen: '2026-11-09'
+- id: ar-form-07-2025
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 7 AR 2025
+  titel: 'Formular 7: Liegenschaften – Unterhalt und Verwaltungskosten 2025'
+  url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Formulare/Formular_07_Liegenschaften_Unterhalt_und_Verwaltungskosten.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 9185329b5f83de3abe27f9b481bc91682f5f530aaeb32fee30e8216dca2b71bc
+  bytes: 1543444
+  abgerufen: '2026-11-09'
+- id: ar-form-07z-2025
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 7Z AR 2025
+  titel: 'Formular 7Z: Zusammenstellung aller Liegenschaften 2025'
+  url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Formulare/Formular_07Z_Zusammenstellung_aller_Liegenschaften.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: b2073b96750c782a708b3b7cfd5e06ae05d3ad0576cc9cce094f713c51b5bbe1
+  bytes: 1521246
+  abgerufen: '2026-11-09'
+- id: ar-form-10-2025
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 10 AR 2025
+  titel: 'Formular 10: Kinderbetreuungskosten 2025'
+  url: https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2025/Formulare/Formular_10_Kinderbetreuungskosten.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 54c7ee42e15fe489f79e40182a2f5fb81575877348ca268c1320dffcf083b6cf
+  bytes: 51986
+  abgerufen: '2026-11-09'
+- id: tg-form-01-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 1 TG 2025
+  titel: 'Formular 1: Steuererklärung 2025'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/172639/FW25_Form.01_Steuererklaerung_Web_GzD.pdf?fp=1738937060316
+  format: pdf
+  verarbeitung: chunk
+  sha256: 6b2a8e3ad60ae272c2d9c9d57bbc53ba860b3159e5599a08e729f39f3f7ea48c
+  bytes: 2626397
+  abgerufen: '2026-11-09'
+- id: tg-form-02-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 2 TG 2025
+  titel: 'Formular 2: Wertschriftenverzeichnis 2025'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/172640/FW25_Form.02_Wertschriftenverzeichnis_Web_GzD.pdf?fp=1738937074053
+  format: pdf
+  verarbeitung: chunk
+  sha256: 48d6a771d9746c7a857999c75c3e721f764951b273e145406c1164127da153ed
+  bytes: 1563952
+  abgerufen: '2026-11-09'
+- id: tg-form-04-1-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 4.1 TG 2025
+  titel: 'Formular 4.1: Schuldenverzeichnis 2025'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/172629/FW25_Form.04.1_Schuldenverzeichnis_ftx01.pdf?fp=1738936896065
+  format: pdf
+  verarbeitung: chunk
+  sha256: 560968ae805133bac744db8975465cd9af8b4ec297ac5686ed8ba4597e5da4da
+  bytes: 66996
+  abgerufen: '2026-11-09'
+- id: tg-form-04-2-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 4.2 TG 2025
+  titel: 'Formular 4.2: Berufsauslagen 2025'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/172698/FW25_Form.04.2_Berufsauslagen_ftx02.pdf?fp=1739180990400
+  format: pdf
+  verarbeitung: chunk
+  sha256: 649dd850ede4da9b5d92b832c81ca1d7061efe77f882f9cc2230bdfbc0618cd9
+  bytes: 166901
+  abgerufen: '2026-11-09'
+- id: tg-form-05-1-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 5.1 TG 2025
+  titel: 'Formular 5.1: Krankheitskosten 2025'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/172630/FW25_Form.05.1_Krankheitskosten_ftx01.pdf?fp=1738936896089
+  format: pdf
+  verarbeitung: chunk
+  sha256: e694580073b0417456c0c2ff5d24cac60981265d140ff53ae77c744dc5ff19dd
+  bytes: 83804
+  abgerufen: '2026-11-09'
+- id: tg-form-05-2-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 5.2 TG 2025
+  titel: 'Formular 5.2: Versicherungsprämien 2025'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/172699/FW25_Form.05.2_Versicherungspraemien_ftx02.pdf?fp=1739181038009
+  format: pdf
+  verarbeitung: chunk
+  sha256: 921e93cbab19c391991fab464c167d34898d8afd98f637d0a13124a24e368cb4
+  bytes: 94412
+  abgerufen: '2026-11-09'
+- id: tg-form-06-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 6 TG 2025
+  titel: 'Formular 6: Zuwendungen 2025'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/172631/FW25_Form.06_Zuwendungen_ftx01.pdf?fp=1738936896122
+  format: pdf
+  verarbeitung: chunk
+  sha256: b48a2a0fa8e7a39bf7126d596b1d3dd52156f40287b26c6a71384253242f2cb0
+  bytes: 112518
+  abgerufen: '2026-11-09'
+- id: tg-form-07-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 7 TG 2025
+  titel: 'Formular 7: Liegenschaften 2025'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/172632/FW25_Form.07_Liegenschaften_ftx01.pdf?fp=1738936896115
+  format: pdf
+  verarbeitung: chunk
+  sha256: 99bbd0320b728d6518e9a45f6bc63fa7d280a207e35f2c5fbeb7c577dc56f4d8
+  bytes: 126638
+  abgerufen: '2026-11-09'
+- id: tg-form-08-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: formular
+  kurz: Formular 8 TG 2025
+  titel: 'Formular 8: Liegenschaftsunterhalt 2025'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/172633/FW25_Form.08_Unterhalt_ftx01.pdf?fp=1738936896116
+  format: pdf
+  verarbeitung: chunk
+  sha256: 9e7dbe8cf60709240aeed927977d2c023499d691d24dfbe23b90008b118aa259
+  bytes: 115572
+  abgerufen: '2026-11-09'
+- id: tg-form-01-2026
+  jurisdiktion: tg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 1 TG 2026
+  titel: 'Formular 1: Steuererklärung 2026'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/183668/FW26_Form_01_Steuererklaerung_Web.pdf?fp=1766146595455
+  format: pdf
+  verarbeitung: chunk
+  sha256: 1abe7c71e863dd936bf79f43ebc1be69bca435a6f1a0fff79a8aa09a2d398e97
+  bytes: 2877603
+  abgerufen: '2026-11-09'
+- id: tg-form-02-2026
+  jurisdiktion: tg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 2 TG 2026
+  titel: 'Formular 2: Wertschriftenverzeichnis 2026'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/183669/FW26_Form_02_Wertschriftenverzeichnis_Web.pdf?fp=1766146609233
+  format: pdf
+  verarbeitung: chunk
+  sha256: 9169dd09d8e4e90bf631c8cfb4cc598cdbd11a5df6e24858b9172f1f3c88bc91
+  bytes: 1832545
+  abgerufen: '2026-11-09'
+- id: tg-form-04-1-2026
+  jurisdiktion: tg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 4.1 TG 2026
+  titel: 'Formular 4.1: Schuldenverzeichnis 2026'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/185598/FW26_Form_04.1_Schuldenverzeichnis_ftx01.pdf?fp=1771576791140
+  format: pdf
+  verarbeitung: chunk
+  sha256: 00010702bdede918ad0e7ac2bdc68c9f17b3124afd6c6f593a6716ba68f58539
+  bytes: 113152
+  abgerufen: '2026-11-09'
+- id: tg-form-04-2-2026
+  jurisdiktion: tg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 4.2/4.3 TG 2026
+  titel: 'Formular 4.2/4.3: Berufsauslagen 2026'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/185799/FW26_Form_04.2_04.3_Berufsauslagen_ftx02.pdf?fp=1771854878293
+  format: pdf
+  verarbeitung: chunk
+  sha256: ac9efb5f4cefacb07e97947489b741668dd7d4bbedc8d517c1b698c83126585a
+  bytes: 164128
+  abgerufen: '2026-11-09'
+- id: tg-form-05-1-2026
+  jurisdiktion: tg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 5.1 TG 2026
+  titel: 'Formular 5.1: Krankheit, Unfall, Behinderung 2026'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/185599/FW26_Form_05.1_Krankheit_Unfall_Behinderung_ftx01.pdf?fp=1771576791135
+  format: pdf
+  verarbeitung: chunk
+  sha256: 2e3826ddf8e7c8cf0e45620e6639853b4f868e3d3c8b632370d94d99b0b7fc4b
+  bytes: 87468
+  abgerufen: '2026-11-09'
+- id: tg-form-05-2-2026
+  jurisdiktion: tg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 5.2 TG 2026
+  titel: 'Formular 5.2: Versicherungsprämien 2026'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/185600/FW26_Form_05.2_Versicherungspraemien_ftx01.pdf?fp=1771576791149
+  format: pdf
+  verarbeitung: chunk
+  sha256: 956d2f5caab192aa840bf77d771a078866691f70210ec362895799542e3f28eb
+  bytes: 92924
+  abgerufen: '2026-11-09'
+- id: tg-form-06-2026
+  jurisdiktion: tg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 6 TG 2026
+  titel: 'Formular 6: Zuwendungen 2026'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/185601/FW26_Form_06_Zuwendungen_ftx01.pdf?fp=1771576791142
+  format: pdf
+  verarbeitung: chunk
+  sha256: b493b4ebdc76a88692dbe02ea2616c9b0397da7a05978c75ff2149158b2903d0
+  bytes: 107205
+  abgerufen: '2026-11-09'
+- id: tg-form-07-2026
+  jurisdiktion: tg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 7 TG 2026
+  titel: 'Formular 7: Liegenschaftenbesitz 2026'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/185602/FW26_Form_07_Liegenschaftenbesitz_ftx01.pdf?fp=1771576791150
+  format: pdf
+  verarbeitung: chunk
+  sha256: 7569ba45db47462e9a771a0b8ec57a88a6a24f427cc7672c1183a1d0592269da
+  bytes: 105370
+  abgerufen: '2026-11-09'
+- id: tg-form-08-2026
+  jurisdiktion: tg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 8 TG 2026
+  titel: 'Formular 8: Liegenschaftsunterhalt 2026'
+  url: https://steuerverwaltung.tg.ch/public/upload/assets/185603/FW26_Form_08_L-Unterhalt_ftx01.pdf?fp=1771576791225
+  format: pdf
+  verarbeitung: chunk
+  sha256: 4cd9a234517de97fd1c61e99afd4834a60d861168e54e66260218a2f93bbe36c
+  bytes: 117899
+  abgerufen: '2026-11-09'
+- id: bund-ech-0119
+  jurisdiktion: bund
+  ordner_jahr: dauernd
+  jahre:
+  - 2025
+  - 2026
+  typ: info
+  kurz: eCH-0119 4.0.0
+  titel: eCH-0119 E-Tax Filing 4.0.0 (Standard Steuererklärung natürliche Personen, SSK-Musterformular)
+  url: https://www.ech.ch/sites/default/files/dosvers/hauptdokument/STAN_d_DEF_2021-03-08_eCH-0119_V4.0.0_E-Tax%20Filing_1.pdf
+  format: pdf
+  verarbeitung: original
+  hinweis: nur als Original abgelegt; Konkordanz siehe data/konkordanz-positionen-2025.csv
+  sha256: 489cf92e7c7fc882a614754d5f617061d7b2500503446864d75b9f1f40989abe
+  bytes: 1097587
+  abgerufen: '2026-11-09'

@@ -1,0 +1,53 @@
+{
+ "id": "tg-form-04-1-2025",
+ "hinweise": [
+  "Einseitiges Formular, Raster leer; Text lesbar, Spalten teils zeilenweise zerlegt (Seite 1)."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 4.1 A/B Privat- und Geschäftsschulden (Codes 455/286, 460/288)",
+   "pfad": [
+    "Schuldenverzeichnis",
+    "A/B"
+   ],
+   "ziffer": "4.1",
+   "stichworte": [
+    "Schuldenverzeichnis",
+    "Schulden",
+    "Hypothek",
+    "Schuldzinsen",
+    "Privatschulden",
+    "Geschäftsschulden",
+    "Kredit",
+    "Darlehen"
+   ],
+   "positionen": [
+    "schulden.privat",
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Privatschulden (Codes 455/286) und Geschäftsschulden (460/288) mit Gläubiger, Schuld am 31. Dezember, Zinssatz und fälligen Schuldzinsen."
+  },
+  {
+   "start": 62,
+   "titel": "Formular 4.1 C Zusammenzug Schulden (Codes 466/290) – Übertrag Ziff. 34 / Ziff. 11",
+   "pfad": [
+    "Schuldenverzeichnis",
+    "C. Zusammenzug"
+   ],
+   "ziffer": "4.1 C",
+   "stichworte": [
+    "Schulden Total",
+    "Schuldzinsen",
+    "Übertrag Steuererklärung",
+    "Privatschulden",
+    "Geschäftsschulden"
+   ],
+   "positionen": [
+    "schulden.privat",
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Total Privat- und Geschäftsschulden (Code 466) und fällige Schuldzinsen 2025 (Code 290), Übertrag in Steuererklärung Seite 4 Ziffer 34 bzw. Seite 3 Ziffer 11."
+  }
+ ]
+}

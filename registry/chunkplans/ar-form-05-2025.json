@@ -1,0 +1,88 @@
+{
+ "id": "ar-form-05-2025",
+ "hinweise": [
+  "S. 1-2: Formularfelder enthalten Platzhalterzahlen (z.B. '213213211'); Geschäftsschulden-Hinweis steht zerstückelt in der Randspalte (Z. 66-73)."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 5 S. 1 A – Private Schulden und Schuldzinsen (Ziff. 34.1 / 11)",
+   "pfad": [
+    "Schuldenverzeichnis",
+    "A. Private Schulden"
+   ],
+   "ziffer": "A",
+   "stichworte": [
+    "Schulden",
+    "Hypothek",
+    "Schuldzinsen",
+    "Kredit",
+    "Darlehen",
+    "Gläubiger"
+   ],
+   "positionen": [
+    "schulden.privat",
+    "abzug.schuldzinsen"
+   ],
+   "zusammenfassung": "Private Schulden per 31. Dezember 2025 und Schuldzinsen 2025; Übertrag in Seite 4 Ziffer 34.1 bzw. Seite 3 Ziffer 11."
+  },
+  {
+   "start": 61,
+   "titel": "Formular 5 S. 1 B – Geschäftsschulden (Ziff. 34.2)",
+   "pfad": [
+    "Schuldenverzeichnis",
+    "B. Geschäftsschulden"
+   ],
+   "ziffer": "B",
+   "stichworte": [
+    "Geschäftsschulden",
+    "Bilanzstichtag",
+    "selbständig",
+    "Jahresrechnung"
+   ],
+   "positionen": [
+    "schulden.privat"
+   ],
+   "zusammenfassung": "Geschäftsschulden per 31. Dezember 2025 bzw. Bilanzstichtag; Schuldzinsen sind in der Jahresrechnung enthalten; Übertrag Seite 4 Ziffer 34.2."
+  },
+  {
+   "start": 87,
+   "titel": "Formular 5 S. 2 A – Freiwillige Zuwendungen (Code 550, Ziff. 21.3)",
+   "pfad": [
+    "Freiwillige Zuwendungen / Parteispenden",
+    "A. Freiwillige Zuwendungen"
+   ],
+   "ziffer": "A",
+   "stichworte": [
+    "Spenden",
+    "Zuwendungen",
+    "gemeinnützig",
+    "Spendenbestätigung",
+    "Institution"
+   ],
+   "positionen": [
+    "abzug.spenden"
+   ],
+   "zusammenfassung": "Liste der Zuwendungen 2025 mit Total (Code 550); Übertrag in Seite 3 Ziffer 21.3."
+  },
+  {
+   "start": 129,
+   "titel": "Formular 5 S. 2 B – Parteispenden (Code 555, Ziff. 16.3)",
+   "pfad": [
+    "Freiwillige Zuwendungen / Parteispenden",
+    "B. Parteispenden"
+   ],
+   "ziffer": "B",
+   "stichworte": [
+    "Parteispende",
+    "Partei",
+    "Mitgliederbeitrag",
+    "politische Partei"
+   ],
+   "positionen": [
+    "abzug.parteispenden"
+   ],
+   "zusammenfassung": "Liste der Parteispenden 2025 mit Total (Code 555); Übertrag in Seite 3 Ziffer 16.3."
+  }
+ ]
+}

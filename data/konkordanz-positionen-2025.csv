@@ -1,0 +1,88 @@
+key;label_de;ech0119_xpath;ssk_ziffer;ssk_code;zh_2025_ziffer;zh_2025_code;sg_2025_ziffer;sg_2025_code;ar_2025_ziffer;ar_2025_code;tg_2025_ziffer;tg_2025_code;typ_beleg;hinweis
+einkommen.unselbstaendig.haupterwerb.p1;Nettolohn Haupterwerb P1;mainForm/revenue/employedMainRevenue/partner1Amount;1.1;100;1.1;100;1.1;100;1.1;100;1.1;100;Lohnausweis Ziff. 11;
+einkommen.unselbstaendig.haupterwerb.p2;Nettolohn Haupterwerb P2;mainForm/revenue/employedMainRevenue/partner2Amount;1.1;101;1.1;101;1.1;102;1.1;102;1.1;101;Lohnausweis Ziff. 11;
+einkommen.unselbstaendig.nebenerwerb.p1;Nettolohn Nebenerwerb P1;mainForm/revenue/employedSidelineRevenue/partner1Amount;1.2;102;1.2;102;1.2;104;1.2;104;1.2;104;Lohnausweis Ziff. 11;
+einkommen.unselbstaendig.nebenerwerb.p2;Nettolohn Nebenerwerb P2;mainForm/revenue/employedSidelineRevenue/partner2Amount;1.2;103;1.2;103;1.2;106;1.2;106;1.2;105;Lohnausweis Ziff. 11;
+einkommen.unselbstaendig.vr_sitzungsgelder.p1;VR-Honorare/Sitzungsgelder P1;cantonExtension (SSK: in 1.2);1.2;102;1.2;102;1.3;108;1.3;108;1.2;104;Lohnausweis Ziff. 6 / Bescheinigung;SG/AR eigene Zeile 1.3
+einkommen.unselbstaendig.vr_sitzungsgelder.p2;VR-Honorare/Sitzungsgelder P2;cantonExtension (SSK: in 1.2);1.2;103;1.2;103;1.3;110;1.3;110;1.2;105;Lohnausweis Ziff. 6 / Bescheinigung;
+einkommen.unselbstaendig.vereinfachtes_verfahren;Im vereinfachten Verfahren abgerechneter Bruttolohn (nur Info);cantonExtension;;;;;8.1;290;8.1;290?;1.3;106/107;Bescheinigung Ausgleichskasse;AR-Code unverifiziert
+einkommen.selbstaendig.haupterwerb.p1;Einkommen selbstaendige Erwerbstaetigkeit P1;mainForm/revenue/selfemployedMainRevenue/partner1Amount;2.1;120;2.1;120;2.1;112;2.1;112;2.1;112;Jahresrechnung/Hilfsblatt;
+einkommen.selbstaendig.haupterwerb.p2;Einkommen selbstaendige Erwerbstaetigkeit P2;mainForm/revenue/selfemployedMainRevenue/partner2Amount;2.1;121;2.1;121;2.1;114;2.1;114;2.1;113;Jahresrechnung/Hilfsblatt;
+einkommen.selbstaendig.nebenerwerb_oder_personengesellschaft.p1;Nebenerwerb selbst. (SSK/ZH/TG) bzw. Kollektiv-/Kommanditges. (SG/AR) P1;mainForm/revenue/selfemployedSidelineRevenue/partner1Amount;2.2;122;2.2;122;2.2;120;2.2;120;2.2;116;Jahresrechnung;Semantik SG/AR 2.2 abweichend
+einkommen.selbstaendig.nebenerwerb_oder_personengesellschaft.p2;dito P2;mainForm/revenue/selfemployedSidelineRevenue/partner2Amount;2.2;123;2.2;123;2.2;122;2.2;122;2.2;117;Jahresrechnung;
+einkommen.renten.ahv_iv.p1;AHV/IV-Rente 100% P1;mainForm/revenue/insuranceAHVIV100Amount/partner1Amount;3.1;130;3.1;130;3.1;126;3.1;126;3.1;130;Rentenbescheinigung AHV/IV;
+einkommen.renten.ahv_iv.p2;AHV/IV-Rente 100% P2;mainForm/revenue/insuranceAHVIV100Amount/partner2Amount;3.1;131;3.1;131;3.1;128;3.1;128;3.1;131;Rentenbescheinigung AHV/IV;
+einkommen.renten.pension.p1;Renten/Pensionen (BVG, 3a, UVG, Leibrenten) P1 inkl. Prozentsatz;mainForm/revenue/pension1Partner1 (+pension2FPartner1);3.2;134/135 (960-963);3.2;134/135;3.2;130;3.2;130;3.2;132;Lohnausweis B (Rentenbescheinigung) / Bescheinigung;steuerbarer % (80/100/40...) mitgeben
+einkommen.renten.pension.p2;dito P2;mainForm/revenue/pension1Partner2 (+pension2FPartner2);3.2;136/137 (964-967);3.2;136/137;3.2;132;3.2;132;3.2;133;dito;
+einkommen.ersatz.erwerbsausfall.p1;Taggelder/EO/Erwerbsausfall direkt (nicht im LA) P1;mainForm/revenue/unemploymentInsurance (SSK 3.3) / cantonExtension;3.3;140;3.3;140;3.3;134;3.3;134;3.3;136;Bescheinigung Versicherung/EO;ZH 3.3 = ALV-Leistungen
+einkommen.ersatz.erwerbsausfall.p2;dito P2;dito;3.3;141;3.3;141;3.3;136;3.3;136;3.3;137;dito;
+einkommen.ersatz.alv.p1;Arbeitslosentaggelder (nicht im LA) P1;mainForm/revenue/unemploymentInsurance/partner1Amount;3.3;140;3.3;140;3.4;138;3.4;138;3.3;136;ALV-Bescheinigung (Formular 11 als ALV-Beleg);TG: in 3.3 Erwerbsausfall (unverifiziert)
+einkommen.ersatz.alv.p2;dito P2;mainForm/revenue/unemploymentInsurance/partner2Amount;3.3;141;3.3;141;3.4;140;3.4;140;3.3;137;dito;
+einkommen.familienzulagen_direkt;Kinder-/Familienzulagen direkt von Ausgleichskasse;mainForm/revenue/childAllowances;3.4;142/143;3.4;142/143;3.5;142;3.5;142;3.4;140;Bescheinigung FAK;nur wenn nicht im Lohnausweis
+einkommen.wertschriften.ertrag;Ertrag Wertschriften/Guthaben/Lotterie (Total A+B);mainForm/revenue/securitiesRevenue;4.1;150;4.1;150;4.1;146;4.1;146;4;150;Wertschriftenverzeichnis / E-Steuerauszug (eCH-0196);
+einkommen.wertschriften.qualifizierte_beteiligungen_pv;davon Ertrag qualif. Beteiligungen >=10% PV;mainForm/revenue/securitiesRevenueQualified + qualifiedInvestmentsPrivate;4.2;151;4.2;151;4.2;147;4.2;147;(in 4);-;Dividendenbeleg;
+einkommen.wertschriften.qualifizierte_beteiligungen_gv;Ertrag qualif. Beteiligungen GV;qualifiedInvestmentsBusiness;;;;;4.3;149;4.3;149;;;;
+einkommen.liegenschaften.netto;Nettoertrag Liegenschaften (EMW/Miete ./. Unterhalt);mainForm/revenue/property*;6.1-6.4;180-188;6;188;5;712;5;712;8.1;180;Liegenschaftenformular / Schaetzung / Unterhaltsrechnungen;SG/AR Unterhalt separat Ziff. 15 (716)
+einkommen.unterhalt.ex_partner;Erhaltene Unterhaltsbeitraege Ex-Partner;mainForm/revenue/restRevenueAlimony;5.1;160;5.1;160;6.1;154;6.1;154;5.1;160;Scheidungs-/Trennungsurteil, Zahlungsbelege;
+einkommen.unterhalt.kinder;Erhaltene Kinderalimente (minderj.);mainForm/revenue/restRevenueAlimonyChild;5.2;161;5.2;161;6.1;156;6.1;156;5.2;162;dito;
+einkommen.erbschaft_unverteilt_geschaeftsanteile;Ertrag unverteilte Erbschaften / Geschaefts-/Korporationsanteile;mainForm/revenue/restRevenueInheritanceEtc;5.3;162;5.3;162;6.2;158;6.2;158;5.3;164;Aufstellung Erbengemeinschaft;ZH 5.3 nur Geschaefts-/Korporationsanteile
+einkommen.uebrige;Weitere Einkuenfte (Provisionen, Lizenzen, Wohnrecht ...);mainForm/revenue/restRevenueFreeText+Amount;5.4;163;5.4;163;6.3;162;6.3;162;5.4;168;Aufstellung;
+einkommen.kapitalabfindung_wiederkehrend;Kapitalabfindungen fuer wiederkehrende Leistungen;mainForm/revenue/restRevenueLumpSumSettlement*;5.5;164;5.5;164;6.4;164;6.4;164;5.5;170;Bescheinigung;
+einkommen.total;Total der Einkuenfte;mainForm/revenue/totalAmountRevenue;7;199;7;199;7;168;7;168;9;198;-;
+abzug.berufskosten.p1;Berufsauslagen unselbst. P1 (Total Hilfsblatt);mainForm/deduction/jobExpensesPartner1;11.1;220;11.1;220;10.1;438;10.1;438;10.1;240;Formular Berufskosten;
+abzug.berufskosten.p2;Berufsauslagen unselbst. P2;mainForm/deduction/jobExpensesPartner2;11.2;240;11.2;240;10.2;488;10.2;488;10.2;280;Formular Berufskosten;
+abzug.berufskosten.fahrkosten.oev.p1;Abo oeV;jobExpenses/jobExpensePartner1/ticketCostPublicTransport;BA 1.1;201;BA 1.1;201;F4 1.1;400;F4 1.1;400;F4.2 2.1;206;Abo-Beleg; LA Feld F beachten
+abzug.berufskosten.fahrkosten.velo.p1;Velo/Mofa Pauschale 700;jobExpenses/.../bicycleOrSmallMotorbike;BA 1.2;202;BA 1.2;202;F4 1.2;402;F4 1.2;402;F4.2 2.2;210;-;
+abzug.berufskosten.fahrkosten.auto.p1;Privates Motorfahrzeug km x 0.70;jobExpenses/.../amountMotorvehicle;BA 1.3;204;BA 1.3;204;F4 1.3;404;F4 1.3;404;F4.2 2.3;211;Begruendung noetig;
+abzug.berufskosten.fahrkosten.total.p1;Fahrkosten nach Plafonierung;jobExpenses/.../subtotalVehicle;BA;205;BA;205 (Staat max 5200 / Bund 3300);F4;406 (max 8000);F4;405 (max 6000);F4.2 2.5;213 (Staat 6000 / Bund 3300);-;
+abzug.berufskosten.verpflegung.p1;Mehrkosten Verpflegung;jobExpenses/.../cateringNonSubsidized|cateringSubsidized|cateringShiftWork;BA 2;206/208/210;BA 2;206/208/210;F4 2;408/410/412;F4 2;408/410/412;F4.2 3;214/216;LA Feld G => reduziert;
+abzug.berufskosten.uebrige.p1;Uebrige Berufskosten pauschal/effektiv;jobExpenses/.../remainingJobCostFlatrate|Effective;BA 3;212/213;BA 3;212/213 (3% 2000-4000);F4 3;416/418 (700+10% max 2400);F4 3;416/418;F4.2 4;220 (3% 2000-4000);-;
+abzug.berufskosten.wochenaufenthalt.p1;Wochenaufenthalt;jobExpenses/.../weekdayStay;BA 4;2860;BA 4;2860;F4 4;426/428;F4 4;426/428;F4.2 5;226/230;Mietvertrag Zimmer;
+abzug.berufskosten.nebenerwerb.p1;Berufskosten Nebenerwerb;jobExpenses/.../sidelineFlatrate|Effective;BA 5;216/217;BA 5;216/217;F4 5;432/434;F4 5;432/434;F4.2 6;232;-;
+abzug.schuldzinsen.privat;Private Schuldzinsen;mainForm/deduction/amountLiabilitiesInterest;12;250;12;250;11;500;11;500;11;290;Schuldenverzeichnis, Zinsausweis Bank;
+abzug.unterhalt.ex_partner;Bezahlte Unterhaltsbeitraege Ex-Partner;mainForm/deduction/paymentAlimony;13.1;254;13.1;254;12.1;200;12.1;200;12.1;300;Zahlungsbelege, Urteil;
+abzug.unterhalt.kinder;Bezahlte Kinderalimente minderj.;mainForm/deduction/paymentAlimonyChild;13.2;255;13.2;255;12.2;202;12.2;202;12.2;302;dito;
+abzug.rentenleistungen;Bezahlte Renten/dauernde Lasten (Ertragsanteil);mainForm/deduction/paymentPensionDeduction;13.3;256 (2561 total);13.3;256;12.3;204;12.3;204;12.3;304;Vertrag;
+abzug.saeule3a.p1;Beitraege Saeule 3a P1;mainForm/deduction/provision3aPartner1Deduction (+provision3aPartner1Effective);14.1;260 (262 eff.);14.1;260 (262);13.1;208;13.1;208;13.1;314;3a-Bescheinigung;
+abzug.saeule3a.p2;Beitraege Saeule 3a P2;mainForm/deduction/provision3aPartner2Deduction;14.2;261 (263 eff.);14.2;261 (263);13.1;210;13.1;210;13.2;315;3a-Bescheinigung;
+abzug.saeule3a.einkauf;3a-Einkauf (ab Steuerjahr 2026);cantonExtension (nicht in eCH-0119 4.0.0);;;14.3 (2026);264 (276/278);13.1 (2026);212/214;?;?;?;?;3a-Einkaufsbescheinigung;nur ZH/SG 2026-Formular gesehen
+abzug.bvg.beitraege_einkauf.p1;BVG-Beitraege/Einkaeufe nicht via Lohnausweis P1;mainForm/deduction/furtherDeductionProvision;16.1;280;16.1;280;13.2;218;13.2;218;15.2;343;Formular 21 EDP / PK-Bescheinigung;LA Ziff. 10.2 NICHT nochmals
+abzug.bvg.beitraege_einkauf.p2;dito P2;mainForm/deduction/furtherDeductionProvision;16.1;280;16.1;280;13.2;219;13.2;219;15.2;344;dito;
+abzug.ahv_nichterwerbstaetige;AHV-Beitraege Nichterwerbstaetige;mainForm/deduction/furtherDeductionProvision;16.1;280;16.1;280;16.5;222;16.6;?;15.1;342;AHV-Beitragsverfuegung;
+abzug.versicherungspraemien;Versicherungspraemien und Sparzinsen (Pauschalmax);mainForm/deduction/insuranceAndInterest + insurancePremiums/*;15;270;15;270;14;600;14;600;14;330;KK-Praemienbescheinigung, IPV-Bescheid;
+abzug.liegenschaften.unterhalt;Unterhalt/Verwaltung Liegenschaften (Pauschal/effektiv);mainForm/revenue/propertyDeductionFlatrate|Effective;6.2;184/185;(in 6);(188 netto);15;716;15;716;(in 8.1);(180 netto);Unterhaltsrechnungen;
+abzug.wertschriften.verwaltungskosten;Vermoegensverwaltungskosten;mainForm/deduction/furtherDeductionFinancialManagement;16.3;283;16.3;283;16.1;220;16.1;220;F2 Ziff. 17;148;Depotgebuehren-Ausweis;
+abzug.kinderbetreuung_dritt;Fremdbetreuung Kinder;mainForm/deduction/furtherDeductionNonparentalSuperVision;16.6;376;16.6;376 (max 25000/25800);16.2;258;16.2;258;15.3;345;Kita-Rechnungen;
+abzug.parteispenden;Mitgliederbeitraege/Zuwendungen pol. Parteien;mainForm/deduction/furtherDeductionFreeTextAmount;16.5;284;16.5;284;16.3;555;16.3;?;15.5;347;Spendenbestaetigung;
+abzug.weiterbildung.p1;Berufsorientierte Aus-/Weiterbildung P1;mainForm/deduction/furtherDeductionJobOrientedFurtherEducationCost + jobOrientedFurtherEducationCost;16.2;291;16.2;292;16.4;223;16.4;?;16.1;348;Rechnungen Kurs;
+abzug.weiterbildung.p2;dito P2;dito;16.2;291;16.2;292;16.4;224;16.4;?;16.2;349;dito;
+abzug.behinderungskosten;Behinderungsbedingte Kosten;mainForm/deduction/furtherDeductionHandicap + handicapExpenses;16.4;3160;16.4;3160;21.2;235;21.2;?;17;350;Rechnungen;SG/AR nach Nettoeinkommen
+abzug.uebrige;Weitere Abzuege (Freitext);mainForm/deduction/furtherDeductionFreeText+Amount;16.5;284;16.5;284;16.5;222;16.6;?;15.4;346;Aufstellung;
+abzug.teilbesteuerung_beteiligungen;Teilbesteuerungsabzug qualif. Beteiligungen PV;qualifiedInvestmentsPrivate/deductionPartialTaxation;;;(Formular QB);?;4.4;150;16.7;?;15.6;341;Dividendenbeleg;SG im Einkommensteil
+abzug.zweiverdiener;Zweiverdienerabzug;mainForm/deduction/employmentBothPartner;17;290;17;290;17;226;17;?;18;356;-;
+abzug.total;Total Abzuege;mainForm/deduction/totalAmountDeduction;18;299;18;299;18;230;18;?;19;360;-;
+einkommen.netto;Nettoeinkommen;mainForm/revenueCalculation/netIncome;21;310;21;310;20;234;20;?;22;362;-;
+abzug.krankheitskosten;Krankheits-/Unfallkosten nach Selbstbehalt;mainForm/revenueCalculation/deductionDiseaseAndAccident + diseaseAndAccidentExpenses;22.1;320;22.1;320;21.1;650/238/240 (SB 2%);21.1;? (SB 5%);23.1;364 (SB 5%);Arzt-/Spitalrechnungen, KK-Leistungsabrechnung;
+abzug.gemeinnuetzige_zuwendungen;Spenden gemeinnuetzig;mainForm/revenueCalculation/deductionCharity;22.2;324;22.2;324;21.3;244;21.3;?;23.2;366;Spendenbestaetigungen;
+einkommen.rein;Reineinkommen;mainForm/revenueCalculation/adjustedNetIncome;23;350;23;350;22;248;22;?;24;372;-;
+sozialabzug.kinder;Kinderabzug(e);mainForm/revenueCalculation/socialDeductionHomeChild|ExternalChild;24.1;370/372;24.1;370/372;23.1/23.2/23.3;252/254/256;23.1-23.3;?;25.1;380/382/384;Personalien Kinder;
+sozialabzug.unterstuetzte_person;Unterstuetzungsabzug;mainForm/revenueCalculation/socialDeductionSupportedPerson;24.2;374;24.2;374;23.4;264 (nur DBG);23.4;? (nur DBG);25.2;386;Bestaetigung Unterstuetzung;
+sozialabzug.verheiratet_bund;Verheiratetenabzug DBG;mainForm/revenueCalculation/socialDeductionPartner;24.3;365;24.3;365;-;- (Behoerde);-;-;25.4;390;-;
+sozialabzug.tg_rentner;TG-Abzug AHV-Rentner/erwerbsunfaehig/verwitwet;cantonExtension;;;;;;;;;25.3;388;-;nur TG
+einkommen.steuerbar;Steuerbares Einkommen gesamt;mainForm/revenueCalculation/totalAmountFiscalRevenue;25;390;25;390;24;268;24;?;26;398;-;
+vermoegen.wertschriften_guthaben;Wertschriften und Guthaben;mainForm/asset/movablePropertySecuritiesAndAssets;30.1;400;30.1;400;30.1;300;30.1;300;30.1;410;WV / E-Steuerauszug / Bankauszug 31.12.;
+vermoegen.bargeld_edelmetalle;Bargeld, Gold, Edelmetalle;mainForm/asset/movablePropertyCashValue;30.2;404;30.2;404;30.2;302;30.2;302;30.2;412;Aufstellung;
+vermoegen.lebensversicherung;Rueckkaufswert Lebens-/Rentenversicherungen;mainForm/asset/movablePropertyLifeInsurances;30.3;406;30.3;406;30.3;304;30.3;304;30.3;420;Steuerwertbescheinigung Versicherer;
+vermoegen.motorfahrzeuge;Motorfahrzeuge;mainForm/asset/movablePropertyVehicle;30.4;412;30.4;412;30.4;306;30.4;306;30.4;422;Kaufvertrag (Preis, Jahr);
+vermoegen.erbschaften_geschaeftsanteile;Unverteilte Erbschaften / Geschaefts-/Korporationsanteile;mainForm/asset/movablePropertyHeritageEtc;30.5;414;30.5;414;30.5;308;30.5;308;30.5;424;Aufstellung;
+vermoegen.uebrige;Uebrige Vermoegenswerte;mainForm/asset/movablePropertyFreeTextAmount;30.6;416;30.6;416;30.6;310;30.6;310;30.6;426;Aufstellung;
+vermoegen.liegenschaften;Liegenschaften (Steuerwert);mainForm/asset/propertyHouseOrFlat|propertyMarketValue|propertyCapitalizedValue;31.x;421/422;31.1/31.2;421/422;31;710;31;710;31;430;Schaetzung / Liegenschaftenformular;
+vermoegen.geschaeft;Geschaeftsvermoegen Selbstaendige;mainForm/asset/selfEmployed*;32.x;430-434;32;430;32.1-32.3;314/316/318;32.1-32.3;314/316/318;32.1/32.6;440/442;Bilanz;
+vermoegen.total;Total Vermoegenswerte;mainForm/asset/totalAmountAssets;33;460;33;460;33;322;33;322;33;464;-;
+schulden.total;Schulden (privat+geschaeft);mainForm/asset/totalAmountLiabilities + listOfLiabilities;34;470;34;470;34.1/34.2;504/506;34.1/34.2;504/506;34;466;Schuldenverzeichnis, Bankausweis 31.12.;
+vermoegen.rein;Reinvermoegen;-;-;-;-;-;35;326;35;326;35;468;-;
+sozialabzug.vermoegen;Steuerfreie Betraege Vermoegen;cantonExtension;-;-;-;- (Tarif);36.1-36.3;330/332/334;36.1-36.3 (+36.5);330/332/334 (335);36.1-36.3;470/472/474;-;
+vermoegen.steuerbar;Steuerbares Vermoegen gesamt;mainForm/asset/totalAmountFiscalAssets;35;490;35;490;37;338;37;338;37;498;-;
+info.kapitalleistungen_vorsorge;Kapitalleistungen aus Vorsorge (separat besteuert);mainForm/benefit/payment;40;510;40;510;40.1-41;950;40.1-41;?;S.4;-;Bescheinigung Vorsorgeeinrichtung (Form. 563);
+info.schenkungen_erbschaften;Schenkungen/Erbschaften erhalten/ausgerichtet;mainForm/benefit/restBenefitPaymentReceived|PaidOut;50.1/50.2;516/519;50.1/50.2;516/519;F2;960-963;F2;?;S.3;-;Erbteilung, Schenkungsvertrag;
+info.verrechnungssteuer_anspruch;Verrechnungssteueranspruch 35%;listOfSecurities/withholdingTax;WV;-;WV;540;F2;999;F2;?;F2;-;WV;

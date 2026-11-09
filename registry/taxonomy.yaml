@@ -84,6 +84,13 @@ positionen:
   verfahren.einreichung: Einreichung, Unterschrift, Beilagen, Fristen
   verfahren.bezug: Rechnungen, Raten, Zinsen, Bezug
   personalien: Personalien, Familienverhältnisse, Kinder, unterstützte Personen
+  abzug.vorsorge.saeule3a_einkauf: Einkauf (Nachzahlung) Säule 3a – ab Steuerjahr 2026
+  einkommen.unselbstaendig.vr_honorare: VR-Honorare, Sitzungsgelder, Tantiemen (wo separat ausgewiesen, z.B. SG/AR Ziff. 1.3)
+  einkommen.ersatz.familienzulagen: Kinder- und Familienzulagen, die nicht im Lohnausweis enthalten sind
+  abzug.teilbesteuerung_beteiligungen: Teilbesteuerungsabzug qualifizierte Beteiligungen (wo als Abzugszeile geführt)
+  info.schenkungen_erbschaften: Erhaltene/ausgerichtete Schenkungen und Erbschaften (Angaben)
+  info.steuerfreie_leistungen: Steuerfreie Leistungen (Ergänzungsleistungen, Hilflosenentschädigung, Überbrückungsleistungen – nur Angabe)
+  berechnung.total: Berechnungs-/Totalzeilen (Nettoeinkommen, Reineinkommen, steuerbares Einkommen/Vermögen, Totale)
 
 # Belegtypen (Dokumente von Mandanten). Relevanz und Zuordnung je Kanton in data/belege.yaml
 belege: [lohnausweis, rentenbescheinigung-ahv-iv, rentenbescheinigung-vorsorge, taggeldbescheinigung, bescheinigung-saeule3a,

@@ -1,0 +1,206 @@
+{
+ "id": "tg-form-04-2-2026",
+ "hinweise": [
+  "Formularraster: Betragsfelder leer, Codes (206…280) stehen am Zeilenende; Spalten Staatssteuer/Bundessteuer nicht unterscheidbar (Seiten 1–2)."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 4.2 Berufsauslagen Person 1 – Ziff. 1 Allgemeine Angaben",
+   "pfad": [
+    "Formular 4.2",
+    "Ziff. 1"
+   ],
+   "stichworte": [
+    "Berufsauslagen",
+    "Arbeitgeber",
+    "Arbeitspensum",
+    "Geschäftsfahrzeug"
+   ],
+   "zusammenfassung": "Allgemeine Angaben: Arbeitgeber/in, Arbeitsort, Dauer der Erwerbstätigkeit, Arbeitspensum in % und Geschäftsfahrzeug für den Arbeitsweg.",
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ],
+   "ziffer": "1"
+  },
+  {
+   "start": 41,
+   "titel": "Formular 4.2 Ziff. 2 Fahrkosten (Codes 206–213)",
+   "pfad": [
+    "Formular 4.2",
+    "Ziff. 2"
+   ],
+   "stichworte": [
+    "Fahrkosten",
+    "Pendlerabzug",
+    "GA",
+    "ÖV-Abo",
+    "Velo",
+    "Auto",
+    "Arbeitsweg"
+   ],
+   "zusammenfassung": "Fahrkosten: Velo/Kleinmotorrad pauschal Fr. 700.–; abzugsfähig Staat max. Fr. 6000.– / Bund max. Fr. 3300.– (Codes 206, 210–213).",
+   "positionen": [
+    "abzug.berufskosten.fahrkosten"
+   ],
+   "ziffer": "2"
+  },
+  {
+   "start": 61,
+   "titel": "Formular 4.2 Ziff. 3 Verpflegung auswärts (Codes 214, 216)",
+   "pfad": [
+    "Formular 4.2",
+    "Ziff. 3"
+   ],
+   "stichworte": [
+    "Verpflegung",
+    "Mittagessen",
+    "Kantine",
+    "Schichtarbeit",
+    "Nachtarbeit"
+   ],
+   "zusammenfassung": "Auswärtige Verpflegung: Fr. 15.– pro Arbeitstag / max. Fr. 3200.– pro Jahr; mit Verbilligung Fr. 7.50 / max. Fr. 1600.– pro Jahr.",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ],
+   "ziffer": "3"
+  },
+  {
+   "start": 69,
+   "titel": "Formular 4.2 Ziff. 4–5 Übrige Berufskosten, Wochenaufenthalt (Codes 220–230)",
+   "pfad": [
+    "Formular 4.2",
+    "Ziff. 4–5"
+   ],
+   "stichworte": [
+    "übrige Berufskosten",
+    "Pauschale 3%",
+    "Wochenaufenthalt",
+    "Zimmer",
+    "Verpflegung"
+   ],
+   "zusammenfassung": "Übrige Berufskosten 3% vom Nettolohn, mindestens Fr. 2000.– und höchstens Fr. 4000.–; Wochenaufenthalt Verpflegung Fr. 30.– pro Tag / Fr. 6400.– im Jahr, verbilligt Fr. 22.50 / Fr. 4800.–.",
+   "positionen": [
+    "abzug.berufskosten.uebrige",
+    "abzug.berufskosten.wochenaufenthalt"
+   ],
+   "ziffer": "4–5"
+  },
+  {
+   "start": 76,
+   "titel": "Formular 4.2 Ziff. 6–7 Nebenbeschäftigung und Total (Codes 232, 240)",
+   "pfad": [
+    "Formular 4.2",
+    "Ziff. 6–7"
+   ],
+   "stichworte": [
+    "Nebenerwerb",
+    "Nebenbeschäftigung",
+    "Total Berufsauslagen",
+    "Übertrag"
+   ],
+   "zusammenfassung": "Nebenbeschäftigung 20% vom Nettolohn, mindestens Fr. 800.– und höchstens Fr. 2400.–; Total Code 240, Übertrag in Steuererklärung Seite 3 Ziffer 10.1.",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb",
+    "berechnung.total"
+   ],
+   "ziffer": "6–7"
+  },
+  {
+   "start": 95,
+   "titel": "Formular 4.3 Berufsauslagen Person 2 – Ziff. 1 Allgemeine Angaben",
+   "pfad": [
+    "Formular 4.3",
+    "Ziff. 1"
+   ],
+   "stichworte": [
+    "Berufsauslagen Person 2",
+    "Arbeitgeber",
+    "Arbeitspensum",
+    "Ehepartner"
+   ],
+   "zusammenfassung": "Allgemeine Angaben für Person 2: Arbeitgeber/in, Dauer, Arbeitspensum und Geschäftsfahrzeug.",
+   "positionen": [
+    "abzug.berufskosten.uebrige"
+   ],
+   "ziffer": "1"
+  },
+  {
+   "start": 116,
+   "titel": "Formular 4.3 Ziff. 2 Fahrkosten (Codes 246–253)",
+   "pfad": [
+    "Formular 4.3",
+    "Ziff. 2"
+   ],
+   "stichworte": [
+    "Fahrkosten",
+    "Pendlerabzug",
+    "GA",
+    "ÖV-Abo",
+    "Velo",
+    "Auto"
+   ],
+   "zusammenfassung": "Fahrkosten Person 2: Velo/Kleinmotorrad pauschal Fr. 700.–; abzugsfähig Staat max. Fr. 6000.– / Bund max. Fr. 3300.–.",
+   "positionen": [
+    "abzug.berufskosten.fahrkosten"
+   ],
+   "ziffer": "2"
+  },
+  {
+   "start": 136,
+   "titel": "Formular 4.3 Ziff. 3 Verpflegung auswärts (Codes 254, 256)",
+   "pfad": [
+    "Formular 4.3",
+    "Ziff. 3"
+   ],
+   "stichworte": [
+    "Verpflegung",
+    "Kantine",
+    "Schichtarbeit"
+   ],
+   "zusammenfassung": "Verpflegung Fr. 15.– pro Arbeitstag / max. Fr. 3200.– pro Jahr; mit Verbilligung Fr. 7.50 / max. Fr. 1600.– pro Jahr.",
+   "positionen": [
+    "abzug.berufskosten.verpflegung"
+   ],
+   "ziffer": "3"
+  },
+  {
+   "start": 142,
+   "titel": "Formular 4.3 Ziff. 4–5 Übrige Berufskosten, Wochenaufenthalt (Codes 260–270)",
+   "pfad": [
+    "Formular 4.3",
+    "Ziff. 4–5"
+   ],
+   "stichworte": [
+    "übrige Berufskosten",
+    "Pauschale 3%",
+    "Wochenaufenthalt"
+   ],
+   "zusammenfassung": "Übrige Berufskosten 3% vom Nettolohn, mindestens Fr. 2000.– und höchstens Fr. 4000.–; Wochenaufenthalt Verpflegung Fr. 30.– / Fr. 6400.–, verbilligt Fr. 22.50 / Fr. 4800.–.",
+   "positionen": [
+    "abzug.berufskosten.uebrige",
+    "abzug.berufskosten.wochenaufenthalt"
+   ],
+   "ziffer": "4–5"
+  },
+  {
+   "start": 149,
+   "titel": "Formular 4.3 Ziff. 6–7 Nebenbeschäftigung und Total (Codes 272, 280)",
+   "pfad": [
+    "Formular 4.3",
+    "Ziff. 6–7"
+   ],
+   "stichworte": [
+    "Nebenerwerb",
+    "Nebenbeschäftigung",
+    "Total Berufsauslagen"
+   ],
+   "zusammenfassung": "Nebenbeschäftigung 20% vom Nettolohn, min. Fr. 800.–, max. Fr. 2400.–; Total Code 280, Übertrag Steuererklärung Seite 3 Ziffer 10.2.",
+   "positionen": [
+    "abzug.berufskosten.nebenerwerb",
+    "berechnung.total"
+   ],
+   "ziffer": "6–7"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "sg-form-6-2025",
+ "hinweise": [
+  "S. 1: Randtexte (links) mit Formulartext vermischt; Beträge der Voraussetzungs-Zusätze (Fr. 1'100 / Fr. 500) stehen in der Randspalte."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 6 S. 1 Schritt 1 A – Bezahlte Versicherungsprämien und Sparzinsen",
+   "pfad": [
+    "Versicherungsprämien und Sparzinsen",
+    "Schritt 1"
+   ],
+   "ziffer": "A",
+   "stichworte": [
+    "Versicherungsprämien",
+    "Krankenkasse",
+    "Sparzinsen",
+    "Prämienverbilligung",
+    "Lebensversicherung",
+    "Unfallversicherung"
+   ],
+   "positionen": [
+    "abzug.versicherungspraemien"
+   ],
+   "zusammenfassung": "Deklaration der tatsächlichen Prämien (Kranken, Unfall, Leben/Rente) und Sparzinsen abzüglich Prämienverbilligungen ergibt Total A."
+  },
+  {
+   "start": 49,
+   "titel": "Formular 6 S. 1 Schritte 2–3 B/C – Maximalabzug (6'800/3'400) und Abzug",
+   "pfad": [
+    "Versicherungsprämien und Sparzinsen",
+    "Schritt 2 und 3"
+   ],
+   "ziffer": "B/C",
+   "stichworte": [
+    "Versicherungsabzug",
+    "Pauschalabzug",
+    "Kinderabzug",
+    "ohne 2. Säule",
+    "ohne Säule 3a",
+    "alleinstehend"
+   ],
+   "positionen": [
+    "abzug.versicherungspraemien"
+   ],
+   "zusammenfassung": "Höchstens abzugsfähig Fr. 6’800 gemeinsam (+Fr. 1’100 ohne 2. Säule/3a), Fr. 3’400 alleinstehend (+Fr. 500), zusätzlich Fr. 1’100 je Kind; niedrigerer Betrag von A und B in Seite 3 Ziffer 14."
+  },
+  {
+   "start": 79,
+   "titel": "Formular 6 S. 2 – Krankheits- und Unfallkosten (Ziff. 21.1)",
+   "pfad": [
+    "Krankheits-, Unfall- und behinderungsbedingte Kosten"
+   ],
+   "ziffer": "21.1",
+   "stichworte": [
+    "Krankheitskosten",
+    "Arztrechnung",
+    "Zahnarzt",
+    "Krankenkassen-Auszug",
+    "Hilflosenentschädigung",
+    "selbst getragene Kosten"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten"
+   ],
+   "zusammenfassung": "Nur tatsächlich selbst getragene Kosten abzugsfähig (Beiträge Dritter und Hilflosenentschädigungen abziehen); Total in Seite 3 Ziffer 21.1 (Vorkolonne)."
+  },
+  {
+   "start": 105,
+   "titel": "Formular 6 S. 2 – Behinderungsbedingte Kosten (Ziff. 21.2)",
+   "pfad": [
+    "Krankheits-, Unfall- und behinderungsbedingte Kosten",
+    "Behinderungsbedingte Kosten"
+   ],
+   "ziffer": "21.2",
+   "stichworte": [
+    "behinderungsbedingte Kosten",
+    "Behinderung",
+    "Ergänzungsblätter"
+   ],
+   "positionen": [
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Behinderungsbedingte Kosten mit Übertrag in Seite 3 Ziffer 21.2."
+  }
+ ]
+}

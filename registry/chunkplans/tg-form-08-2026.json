@@ -1,0 +1,89 @@
+{
+ "id": "tg-form-08-2026",
+ "hinweise": [
+  "S. 1-2: Leere Formularraster (Platzhalter TT.MM.JJJJ); Spaltenüberschriften vermischt; Barcode-/Steuerzeichen und Schaltflächen-Text (Drucken/Schliessen/Löschen) im Text."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "Formular 8 TG 2026 – Hinweise zum Ausfüllen (Liegenschaftsunterhalt)",
+   "pfad": [
+    "Angaben zu Unterhalts- und Betriebskosten für Liegenschaften",
+    "Bemerkungen"
+   ],
+   "stichworte": [
+    "Liegenschaftsunterhalt",
+    "Unterhaltskosten",
+    "Belege ab Fr. 1000",
+    "Stockwerkeigentum",
+    "Merkblatt Liegenschaftenunterhalt",
+    "Rechnungskopien"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "verfahren.einreichung"
+   ],
+   "zusammenfassung": "Pro Liegenschaft ein Formular; Rechnungskopien bei Einzelbeträgen ab Fr.1000.–, bei Stockwerkeigentum Abrechnung der Gemeinschaft beilegen."
+  },
+  {
+   "start": 48,
+   "titel": "Formular 8 S. 1 – Rechnungsliste 1–20 (Unterhalts- vs. Anlagekosten)",
+   "pfad": [
+    "Liegenschaftsunterhalt",
+    "Rechnungsliste"
+   ],
+   "stichworte": [
+    "Rechnungsliste",
+    "Anlagekosten",
+    "Mehrwert",
+    "wertvermehrende Aufwendungen",
+    "Unterhalts- und Betriebskosten",
+    "Handwerkerrechnung"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Je Rechnung Datum, Rechnungsteller, Arbeit, Zahlungsbetrag und Aufteilung in Anlagekosten/Mehrwert und Unterhalts- und Betriebskosten."
+  },
+  {
+   "start": 75,
+   "titel": "Formular 8 S. 1 – Übertrag, Förderbeiträge, Total Unterhalts- und Betriebskosten (auf Formular 7)",
+   "pfad": [
+    "Liegenschaftsunterhalt",
+    "Totale"
+   ],
+   "stichworte": [
+    "Förderbeiträge",
+    "Energiesparen",
+    "Umweltschutz",
+    "Rückbaukosten",
+    "Total Unterhaltskosten",
+    "nicht abzugsfähige Kosten"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt",
+    "abzug.liegenschaft.energie_umwelt",
+    "berechnung.total"
+   ],
+   "zusammenfassung": "Totalisierung inkl. erhaltener Förderbeiträge und aus Vorjahren übertragbarer Kosten für Energiesparen/Umweltschutz/Rückbau; Total Unterhalts- und Betriebskosten auf Formular 7."
+  },
+  {
+   "start": 96,
+   "titel": "Formular 8 S. 2 – Rechnungsliste 21–63 und Übertrag auf Vorderseite",
+   "pfad": [
+    "Liegenschaftsunterhalt",
+    "Rückseite"
+   ],
+   "stichworte": [
+    "Rechnungsliste",
+    "Hilfsblätter",
+    "Übertrag Vorderseite",
+    "Liegenschaft"
+   ],
+   "positionen": [
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Fortsetzung der Rechnungsliste (Nr. 21–63) mit Übertrag von Hilfsblättern und Übertrag auf die Vorderseite."
+  }
+ ]
+}
