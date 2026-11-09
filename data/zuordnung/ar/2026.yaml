@@ -1,0 +1,1028 @@
+kanton: ar
+jahr: 2026
+formular: Steuererklärung 2025 Appenzell Ausserrhoden (Formular 1 Seiten 1-4, Hauptformular nicht online; Ziffern/Codes aus den Formular-Miniaturen der Wegleitung WL AR 2025) + Hilfsformulare 2 (Wertschriften),
+  4 (Berufskosten), 5 (Schulden, Zuwendungen, Parteispenden), 6 (Versicherungsprämien, Krankheits-/Behinderungskosten), 7/7Z (Liegenschaften), 10 (Kinderbetreuung)
+hinweis: 'Gerüst aus 2025 (tools/new_year.py) – Formular und Wegleitung AR 2026 noch nicht publiziert (Stand 09.11.2026). Ziffern/Codes vorbehaltlich Änderungen; alle Positionen offen. Neu ab 2026 bundesrechtlich:
+  Einkauf Säule 3a (Ziffer offen).'
+positionen:
+- key: personalien
+  ziffer: Seite 1
+  abschnitt: Personalien
+  bezeichnung: Personalien, Berufs- und Familienverhältnisse, Dauer der Steuerpflicht, Kinder (Formular 1 Seite 1)
+  belege: []
+  feld: Formular 1 Seite 1 (Stammdaten, Erwerbsart, Kinder in Ihrem Haushalt, Unterhaltsbeiträge)
+  status: offen
+  quellen: []
+- key: einkommen.unselbstaendig.haupterwerb
+  ziffer: '1.1'
+  abschnitt: Einkünfte
+  bezeichnung: Haupterwerb unselbständig, Person 1 (Code 100) / Person 2 (Code 102)
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Ziff. 11 (Nettolohn/Rente)
+  status: offen
+  quellen: []
+- key: einkommen.unselbstaendig.nebenerwerb
+  ziffer: '1.2'
+  abschnitt: Einkünfte
+  bezeichnung: Nebenerwerb unselbständig, Person 1 (Code 104) / Person 2 (Code 106), mit Art der Tätigkeit
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Ziff. 11 (Nettolohn) des Nebenarbeitgebers
+  werte_keys:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  status: offen
+  quellen: []
+- key: einkommen.unselbstaendig.vr_honorare
+  ziffer: '1.3'
+  abschnitt: Einkünfte
+  bezeichnung: Sitzungsgelder, VR-Honorare, Behördenentschädigungen, Person 1 (Code 108) / Person 2 (Code 110)
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Ziff. 6 bzw. Bescheinigung der Behörde/Gesellschaft
+  status: offen
+  quellen: []
+- key: einkommen.selbstaendig
+  ziffer: '2.1'
+  abschnitt: Einkünfte
+  bezeichnung: Selbständige Erwerbstätigkeit (Industrie, Handel, Gewerbe, Landwirtschaft, freie Berufe, Internet-Plattformen), Person 1 (Code 112) / Person 2 (Code 114)
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Jahresrechnung (Bilanz, Erfolgsrechnung, Eigenkapitalnachweis, Abschreibungstabelle) bzw. Einnahmen-Ausgaben-Rechnung
+  status: offen
+  quellen: []
+- key: einkommen.selbstaendig
+  ziffer: '2.2'
+  abschnitt: Einkünfte
+  bezeichnung: Kollektiv-, Kommanditgesellschaften und einfache Gesellschaften, Person 1 (Code 120) / Person 2 (Code 122)
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Angaben/Bescheinigung der Gesellschaft (inkl. Kapitalerträge)
+  status: offen
+  quellen: []
+- key: einkommen.sozialversicherung.ahv_iv
+  ziffer: '3.1'
+  abschnitt: Einkünfte
+  bezeichnung: AHV-/IV-Renten (zu 100 %), Person 1 (Code 126) / Person 2 (Code 128)
+  belege:
+  - rentenbescheinigung-ahv-iv
+  feld: Rentenbescheinigung der Ausgleichskasse (Jahresbetrag)
+  status: offen
+  quellen: []
+- key: einkommen.vorsorge.renten
+  ziffer: '3.2'
+  abschnitt: Einkünfte
+  bezeichnung: Renten/Pensionen (2. Säule, Säule 3a, Unfall-/Haftpflichtversicherung, Leibrenten) mit steuerbarem Prozentsatz, Person 1 (Code 130) / Person 2 (Code 132)
+  belege:
+  - rentenbescheinigung-vorsorge
+  feld: Rentenbescheinigung der Vorsorgeeinrichtung/Versicherung (Lohnausweis/Rentenbescheinigung Formular 11)
+  status: offen
+  quellen: []
+- key: einkommen.ersatz.taggelder
+  ziffer: '3.3'
+  abschnitt: Einkünfte
+  bezeichnung: Erwerbsausfallentschädigungen, Taggelder aus Kranken-, Unfall-, Invalidenversicherung, Mutterschaftsentschädigung (nicht im Lohnausweis), Person 1 (Code 134) / Person 2 (Code 136)
+  belege:
+  - taggeldbescheinigung
+  feld: Taggeldabrechnung/Bescheinigung der Versicherung bzw. Ausgleichskasse
+  status: offen
+  quellen: []
+- key: einkommen.ersatz.taggelder
+  ziffer: '3.4'
+  abschnitt: Einkünfte
+  bezeichnung: Arbeitslosentaggelder (nicht im Lohnausweis), Person 1 (Code 138) / Person 2 (Code 140)
+  belege:
+  - taggeldbescheinigung
+  feld: Bescheinigung der Arbeitslosenkasse
+  status: offen
+  quellen: []
+- key: einkommen.ersatz.familienzulagen
+  ziffer: '3.5'
+  abschnitt: Einkünfte
+  bezeichnung: Von Ausgleichskassen direkt ausbezahlte Kinder- und Familienzulagen (Code 142)
+  belege:
+  - taggeldbescheinigung
+  feld: Bescheinigung der Familienausgleichskasse
+  status: offen
+  quellen: []
+- key: einkommen.wertschriften
+  ziffer: '4.1'
+  abschnitt: Einkünfte
+  bezeichnung: Erträge aus Wertschriften und Guthaben inkl. Lotterie-/Geldspielgewinne (Code 146), Übertrag Formular 2
+  belege:
+  - steuerauszug-bank
+  - kontoauszug-zinsausweis
+  - depotauszug
+  - dividenden-ausland-quellensteuer
+  - lotteriegewinn
+  - krypto-auszug
+  feld: Formular 2 Total Bruttoertrag A+B abzüglich Geschäftswertschriften (G) und Beteiligungserträge (BP, BG); Steuerauszug (eCH-0196)/Bankbescheinigungen
+  werte_keys:
+  - steuerfrei.grossspielgewinn
+  - steuerfrei.kleingewinn
+  status: offen
+  quellen: []
+- key: einkommen.beteiligungen_qualifiziert
+  ziffer: '4.2'
+  abschnitt: Einkünfte
+  bezeichnung: Erträge aus Beteiligungen ab 10 % (Privatvermögen, Code BP) (Code 147)
+  belege:
+  - dividenden-ausland-quellensteuer
+  - steuerauszug-bank
+  feld: 'Formular 2: Erträge mit Code BP (Übertrag ohne Vorzeichen)'
+  status: offen
+  quellen: []
+- key: einkommen.beteiligungen_qualifiziert
+  ziffer: '4.3'
+  abschnitt: Einkünfte
+  bezeichnung: Erträge aus Beteiligungen ab 10 % (Geschäftsvermögen, Code BG) (Code 149)
+  belege:
+  - dividenden-ausland-quellensteuer
+  - selbstaendig-jahresrechnung
+  feld: 'Formular 2: Erträge mit Code BG; Jahresrechnung'
+  status: offen
+  quellen: []
+- key: einkommen.liegenschaften.eigenmietwert
+  ziffer: '5'
+  abschnitt: Einkünfte
+  bezeichnung: 'Ertrag aus Liegenschaften: Eigenmietwert (abzüglich 20 % Selbstnutzungsabzug) und Mietertrag (Code 712), Übertrag Formular 7/7Z'
+  belege:
+  - liegenschaft-schaetzung-eigenmietwert
+  - liegenschaft-mietertraege
+  feld: Formular 7 Abschn. B (Total Erträge a. und b.) bzw. Formular 7Z Spalte B
+  werte_keys:
+  - liegenschaft.eigenmietwert_abzug
+  status: offen
+  quellen: []
+- key: einkommen.unterhaltsbeitraege
+  ziffer: '6.1'
+  abschnitt: Einkünfte
+  bezeichnung: 'Erhaltene Unterhaltsbeiträge: für geschiedene/getrennt lebende Person (Code 154); für minderjährige Kinder (Code 156)'
+  belege:
+  - unterhaltszahlungen-alimente
+  feld: Scheidungs-/Trennungsurteil bzw. Vereinbarung und Zahlungsnachweise
+  status: offen
+  quellen: []
+- key: einkommen.erbschaften_unverteilt
+  ziffer: '6.2'
+  abschnitt: Einkünfte
+  bezeichnung: Ertrag aus unverteilten Erbschaften (Code 158)
+  belege:
+  - erbschaft-schenkung
+  feld: Aufstellung des Erbenvertreters/Erbteilung, Inventar und Erbenverzeichnis
+  status: offen
+  quellen: []
+- key: einkommen.uebrige
+  ziffer: '6.3'
+  abschnitt: Einkünfte
+  bezeichnung: Übrige Einkünfte (Provisionen, Trinkgelder, Mitarbeiterbeteiligungen, Lizenzen, nicht verrechnete Förderbeiträge) mit Art (Code 162)
+  belege:
+  - mitarbeiterbeteiligung
+  - privatrechnungen-alltag
+  feld: Aufstellung der Einkünfte; Mitarbeiterbeteiligungs-Bescheinigung
+  status: offen
+  quellen: []
+- key: einkommen.kapitalabfindung_wiederkehrend
+  ziffer: '6.4'
+  abschnitt: Einkünfte
+  bezeichnung: Kapitalabfindungen für wiederkehrende Leistungen mit Anzahl Jahre (Code 164)
+  belege:
+  - kapitalleistung-vorsorge
+  feld: Bescheinigung der auszahlenden Stelle
+  status: offen
+  quellen: []
+- key: berechnung.total
+  ziffer: '7'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Total der Einkünfte (Code 168)
+  belege: []
+  feld: Rechenzeile (Summe Ziff. 1-6)
+  status: offen
+  quellen: []
+- key: einkommen.vereinfachtes_verfahren
+  ziffer: '8.1'
+  abschnitt: Weitere Angaben
+  bezeichnung: Im vereinfachten Abrechnungsverfahren (BGSA) abgerechneter Bruttolohn - nur Information (Code 290)
+  belege: []
+  feld: Abrechnung/Bescheinigung der AHV-Ausgleichskasse
+  status: offen
+  quellen: []
+- key: info.steuerfreie_leistungen
+  ziffer: '8.2'
+  abschnitt: Weitere Angaben
+  bezeichnung: Ergänzungsleistungen (nur Information) (Code 291)
+  belege:
+  - ergaenzungsleistungen
+  feld: Verfügung/Bescheinigung der Ausgleichskasse
+  status: offen
+  quellen: []
+- key: info.steuerfreie_leistungen
+  ziffer: '8.3'
+  abschnitt: Weitere Angaben
+  bezeichnung: Hilflosenentschädigungen (nur Information) (Code 292)
+  belege:
+  - ergaenzungsleistungen
+  feld: Verfügung der Hilflosenentschädigung
+  status: offen
+  quellen: []
+- key: info.steuerfreie_leistungen
+  ziffer: '8.4'
+  abschnitt: Weitere Angaben
+  bezeichnung: Überbrückungsleistungen für ältere Arbeitslose (nur Information) (Code 293)
+  belege:
+  - ergaenzungsleistungen
+  feld: Verfügung über Überbrückungsleistungen
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.uebrige
+  ziffer: '10.1'
+  abschnitt: Abzüge
+  bezeichnung: Berufskosten unselbständig Erwerbende, Person 1 (Total Formular 4, Code 438); Person 2 unter Ziff. 10.2 (Code 488)
+  belege:
+  - oev-abo
+  - spesenreglement
+  - lohnausweis
+  feld: Formular 4 Ziff. 6 Total der Berufskosten (Person 1 Vorderseite, Person 2 Rückseite)
+  werte_keys:
+  - berufskosten.fahrkosten.max
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.max
+  status: offen
+  quellen: []
+- key: abzug.schuldzinsen
+  ziffer: '11'
+  abschnitt: Abzüge
+  bezeichnung: Schuldzinsen (privat), Übertrag Formular 5 Teil A (Code nicht verifiziert)
+  belege:
+  - kredit-darlehen-schuldzinsen
+  - hypothekarbestaetigung
+  - steuerauszug-bank
+  feld: Formular 5 Teil A Total private Schuldzinsen (Spalte rechts)
+  status: offen
+  quellen: []
+- key: abzug.unterhaltsbeitraege
+  ziffer: '12.1'
+  abschnitt: Abzüge
+  bezeichnung: Unterhaltsbeiträge an geschiedene/getrennt lebende Person
+  belege:
+  - unterhaltszahlungen-alimente
+  feld: Scheidungsurteil/Trennungsvereinbarung, Zahlungsnachweise
+  status: offen
+  quellen: []
+- key: abzug.unterhaltsbeitraege
+  ziffer: '12.2'
+  abschnitt: Abzüge
+  bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (an den Elternteil mit Sorge/Obhut)
+  belege:
+  - unterhaltszahlungen-alimente
+  feld: Scheidungsurteil/Vereinbarung, Zahlungsnachweise
+  status: offen
+  quellen: []
+- key: abzug.unterhaltsbeitraege
+  ziffer: '12.3'
+  abschnitt: Abzüge
+  bezeichnung: Rentenleistungen (Leibrenten nach OR, Ertragsanteil)
+  belege: []
+  feld: Vertrag/Bescheinigung der Rentenzahlung
+  status: offen
+  quellen: []
+- key: abzug.vorsorge.saeule3a
+  ziffer: '13.1'
+  abschnitt: Abzüge
+  bezeichnung: Beiträge Säule 3a (gebundene Selbstvorsorge)
+  belege:
+  - bescheinigung-saeule3a
+  feld: Bescheinigung der Bank-/Versicherungsstiftung (Formular 21 EDP)
+  werte_keys:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  status: offen
+  quellen: []
+- key: abzug.vorsorge.saeule2_einkauf
+  ziffer: '13.2'
+  abschnitt: Abzüge
+  bezeichnung: Beiträge/Einkäufe in die 2. Säule (soweit nicht im Lohnausweis abgezogen)
+  belege:
+  - bescheinigung-pk-einkauf
+  - lohnausweis
+  feld: Bescheinigung der Vorsorgeeinrichtung (Formular 21 EDP) mit Einkaufsberechnung; Lohnausweis Ziff. 10.1/10.2
+  status: offen
+  quellen: []
+- key: abzug.versicherungspraemien
+  ziffer: '14'
+  abschnitt: Abzüge
+  bezeichnung: Versicherungsprämien und Zinsen von Sparkapitalien (Übertrag Formular 6 Teil C, Code 600)
+  belege:
+  - krankenkasse-praemien
+  - versicherung-rueckkaufswert
+  - steuerauszug-bank
+  feld: 'Formular 6 Teil C: niedrigerer Betrag aus A (bezahlte Prämien/Sparzinsen abzüglich Prämienverbilligung) und B (Maximum)'
+  werte_keys:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.kind
+  status: offen
+  quellen: []
+- key: abzug.liegenschaft.unterhalt
+  ziffer: '15'
+  abschnitt: Abzüge
+  bezeichnung: 'Unterhalts- und Verwaltungskosten Liegenschaften: Pauschalabzug (C1) oder tatsächliche Kosten (C2), Übertrag Formular 7/7Z'
+  belege:
+  - liegenschaft-unterhaltsrechnungen
+  - liegenschaft-nebenkosten-gebaeudeversicherung
+  feld: Formular 7 Abschn. C bzw. Formular 7Z Spalte C1/C2
+  werte_keys:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  status: offen
+  quellen: []
+- key: abzug.verwaltungskosten_wertschriften
+  ziffer: '16.1'
+  abschnitt: Abzüge
+  bezeichnung: Verwaltungskosten Wertschriften/Kapitalanlagen (tatsächlich oder Pauschale)
+  belege:
+  - depotauszug
+  - steuerauszug-bank
+  feld: Depotgebührenausweis der Bank / Steuerauszug (Bestand per 31.12. fremdverwalteter Titel)
+  status: offen
+  quellen: []
+- key: abzug.drittbetreuung
+  ziffer: '16.2'
+  abschnitt: Abzüge
+  bezeichnung: Kinderbetreuungskosten durch Drittpersonen (Übertrag Formular 10)
+  belege:
+  - kinderbetreuung-rechnungen
+  feld: Formular 10 Total Kinderbetreuungskosten (Rechnungen Krippe/Tagesfamilie, Empfänger muss ersichtlich sein)
+  werte_keys:
+  - drittbetreuung.max
+  - drittbetreuung.altersgrenze
+  status: offen
+  quellen: []
+- key: abzug.parteispenden
+  ziffer: '16.3'
+  abschnitt: Abzüge
+  bezeichnung: Mitgliederbeiträge und Zuwendungen an politische Parteien (Code 555), Übertrag Formular 5 Teil B
+  belege:
+  - parteispende
+  feld: Formular 5 Teil B Total der Parteispenden
+  werte_keys:
+  - parteispenden.max
+  - parteispenden.max_verheiratet
+  status: offen
+  quellen: []
+- key: abzug.weiterbildung
+  ziffer: '16.4'
+  abschnitt: Abzüge
+  bezeichnung: Berufsorientierte Aus- und Weiterbildungskosten inkl. Umschulung, Person 1 / Person 2 (Hauptformular, kein eigenes Hilfsblatt)
+  belege:
+  - weiterbildung-rechnungen
+  - lohnausweis
+  feld: Kursrechnungen/Zahlungsbelege der steuerpflichtigen Person; Lohnausweis Ziff. 13.3 (Vergütungen des Arbeitgebers)
+  werte_keys:
+  - weiterbildung.max
+  status: offen
+  quellen: []
+- key: abzug.uebrige
+  ziffer: '16.6'
+  abschnitt: Abzüge
+  bezeichnung: Übrige Abzüge (AHV-Beiträge Nichterwerbstätiger, Einsatzkosten Geldspiele, nicht im Nettolohn berücksichtigte NBUV-/BVG-Beiträge)
+  belege:
+  - ahv-beitragsverfuegung-nichterwerbstaetige
+  - lohnausweis
+  feld: AHV-Beitragsverfügung; Lohnausweis (NBUV/BVG-Abzüge Ziff. 9/10)
+  status: offen
+  quellen: []
+- key: abzug.teilbesteuerung_beteiligungen
+  ziffer: '16.7'
+  abschnitt: Abzüge
+  bezeichnung: Abzug Teilbesteuerung Beteiligungserträge (40 % der Erträge Ziff. 4.2)
+  belege:
+  - dividenden-ausland-quellensteuer
+  feld: Berechnung aus Ziff. 4.2 (Privatbeteiligungen ab 10 %)
+  status: offen
+  quellen: []
+- key: abzug.zweiverdiener
+  ziffer: '17'
+  abschnitt: Abzüge
+  bezeichnung: Zweiverdienerabzug (gemeinsam veranlagte, beide erwerbstätig)
+  belege: []
+  feld: Rechnung aus den beiden Nettoerwerbseinkommen
+  werte_keys:
+  - zweiverdiener.satz
+  - zweiverdiener.min
+  - zweiverdiener.max
+  status: offen
+  quellen: []
+- key: berechnung.total
+  ziffer: '18'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Total der Abzüge (Zeile nach Ziff. 17)
+  belege: []
+  feld: Rechenzeile
+  status: offen
+  quellen: []
+- key: berechnung.total
+  ziffer: '20'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Nettoeinkommen (Basis für Selbstbehalt Krankheitskosten und Limite Zuwendungen)
+  belege: []
+  feld: Rechenzeile (Total Einkünfte Ziff. 7 abzüglich Abzüge Ziff. 10-17)
+  status: offen
+  quellen: []
+- key: abzug.krankheitskosten
+  ziffer: '21.1'
+  abschnitt: Einkommensberechnung
+  bezeichnung: 'Krankheits- und Unfallkosten nach Selbstbehalt (Vorkolonne: Total Formular 6; Hauptkolonne: über 5 % des Nettoeinkommens)'
+  belege:
+  - arzt-zahnarzt-rechnungen
+  - krankenkasse-leistungen
+  feld: Formular 6 Seite 2 Total Krankheits- und Unfallkosten (selbst getragen)
+  werte_keys:
+  - krankheitskosten.selbstbehalt_satz
+  status: offen
+  quellen: []
+- key: abzug.behinderungskosten
+  ziffer: '21.2'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Behinderungsbedingte Kosten (Übertrag Formular 6 Seite 2; Pflegeheim-Pauschale 2/3, Pauschalen 2'500/5'000/7'500)
+  belege:
+  - arzt-zahnarzt-rechnungen
+  - krankenkasse-leistungen
+  feld: Formular 6 Seite 2 Behinderungsbedingte Kosten Total; Verfügung Hilflosenentschädigung; Bewohnerkonto Pflegeheim
+  status: offen
+  quellen: []
+- key: abzug.spenden
+  ziffer: '21.3'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Freiwillige Zuwendungen an steuerbefreite juristische Personen (Code 550), Übertrag Formular 5 Teil A
+  belege:
+  - spendenbestaetigung
+  feld: Formular 5 Teil A Total der Zuwendungen (Spendenbestätigungen auf Verlangen)
+  werte_keys:
+  - spenden.min
+  - spenden.max_satz
+  status: offen
+  quellen: []
+- key: berechnung.total
+  ziffer: '22'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Reineinkommen
+  belege: []
+  feld: Rechenzeile (Nettoeinkommen abzüglich Abzüge Ziff. 21)
+  status: offen
+  quellen: []
+- key: sozialabzug.kinder
+  ziffer: '23.1'
+  abschnitt: Einkommensberechnung
+  bezeichnung: 'Kinderabzug: Kind bis zur Vollendung des 4. Altersjahrs'
+  belege:
+  - vorjahresveranlagung
+  feld: Seite 1 der Steuererklärung (Kinder, Geburtsdatum) - Stichtag 31.12.2025
+  werte_keys:
+  - sozialabzug.kind_vorschule
+  status: offen
+  quellen: []
+- key: sozialabzug.kinder
+  ziffer: '23.2'
+  abschnitt: Einkommensberechnung
+  bezeichnung: 'Kinderabzug: Kind nach Vollendung des 4. bis zur Vollendung des 15. Altersjahrs'
+  belege:
+  - vorjahresveranlagung
+  feld: Seite 1 der Steuererklärung (Kinder, Geburtsdatum)
+  werte_keys:
+  - sozialabzug.kind_schule
+  status: offen
+  quellen: []
+- key: sozialabzug.kinder
+  ziffer: '23.3'
+  abschnitt: Einkommensberechnung
+  bezeichnung: 'Kinderabzug: Kind nach Vollendung des 15. Altersjahrs bis Volljährigkeit sowie volljährig in beruflicher/schulischer Ausbildung bis 26. Altersjahr'
+  belege:
+  - vorjahresveranlagung
+  feld: Seite 1 der Steuererklärung (Kinder, Schule/Lehrfirma, Dauer der Ausbildung)
+  werte_keys:
+  - sozialabzug.kind_ausbildung
+  status: offen
+  quellen: []
+- key: sozialabzug.unterstuetzung
+  ziffer: '23.4'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Unterstützungsabzug für unterstützte Person (nur direkte Bundessteuer)
+  belege:
+  - privatrechnungen-alltag
+  feld: Bescheinigung der unterstützten Person/Zahlungsnachweise (Name, Adresse, Betrag)
+  werte_keys:
+  - sozialabzug.unterstuetzung
+  status: offen
+  quellen: []
+- key: berechnung.total
+  ziffer: '24'
+  abschnitt: Einkommensberechnung
+  bezeichnung: Steuerbares Einkommen
+  belege: []
+  feld: Rechenzeile (Reineinkommen abzüglich Sozialabzüge)
+  status: offen
+  quellen: []
+- key: vermoegen.wertschriften_guthaben
+  ziffer: '30.1'
+  abschnitt: Vermögen
+  bezeichnung: Wertschriften und Guthaben inkl. Kryptowährungen (Code 300), Übertrag Formular 2
+  belege:
+  - steuerauszug-bank
+  - depotauszug
+  - kontoauszug-zinsausweis
+  - krypto-auszug
+  feld: Formular 2 Total Steuerwert per 31.12.2025 (Spalte 'Steuerwert am 31. Dezember 2025'); Steuerauszug (eCH-0196)
+  status: offen
+  quellen: []
+- key: vermoegen.bargeld_edelmetalle
+  ziffer: '30.2'
+  abschnitt: Vermögen
+  bezeichnung: Bargeld, Gold und andere Edelmetalle (Code 302)
+  belege:
+  - privatrechnungen-alltag
+  feld: Aufstellung/Bewertung zum Verkehrswert per 31.12.
+  status: offen
+  quellen: []
+- key: vermoegen.lebensversicherungen
+  ziffer: '30.3'
+  abschnitt: Vermögen
+  bezeichnung: Lebens- und Rentenversicherungen mit Rückkaufswert (Code 304) mit Versicherungsgesellschaft, Abschluss-/Ablaufjahr, Versicherungssumme
+  belege:
+  - versicherung-rueckkaufswert
+  feld: Steuerwertbescheinigung der Versicherungsgesellschaft (Rückkaufswert + Überschussguthaben)
+  status: offen
+  quellen: []
+- key: vermoegen.fahrzeuge
+  ziffer: '30.4'
+  abschnitt: Vermögen
+  bezeichnung: Motorfahrzeuge mit Art, Kaufpreis, Erwerbsjahr (Code 306)
+  belege:
+  - fahrzeugausweis-arbeitsweg
+  - motorfahrzeug-versicherung
+  feld: Kaufbeleg/Fahrzeugausweis (Anschaffungswert, Erwerbsjahr)
+  status: offen
+  quellen: []
+- key: vermoegen.erbschaften_beteiligungen
+  ziffer: '30.5'
+  abschnitt: Vermögen
+  bezeichnung: Anteil an unverteilter Erbschaft (Code 308), mit Aufstellung
+  belege:
+  - erbschaft-schenkung
+  feld: Inventar und Erbenverzeichnis (Kopie beilegen)
+  status: offen
+  quellen: []
+- key: vermoegen.uebrige
+  ziffer: '30.6'
+  abschnitt: Vermögen
+  bezeichnung: Übrige Vermögenswerte (Boote, Reitpferde, Kunstsammlungen u.a.) (Code 310)
+  belege:
+  - privatrechnungen-alltag
+  feld: Aufstellung der Vermögenswerte mit Verkehrswert
+  status: offen
+  quellen: []
+- key: vermoegen.liegenschaften
+  ziffer: '31'
+  abschnitt: Vermögen
+  bezeichnung: Liegenschaften, Steuerwert (Code 710), Übertrag Formular 7 Abschn. A / 7Z
+  belege:
+  - liegenschaft-schaetzung-eigenmietwert
+  feld: Formular 7 Abschn. A Steuerwert; amtliche Schätzung (vom Grundbuchamt eröffnet)
+  status: offen
+  quellen: []
+- key: vermoegen.erbschaften_beteiligungen
+  ziffer: '32.1'
+  abschnitt: Vermögen
+  bezeichnung: Geschäftskapital in Kollektiv-, Kommandit- und einfachen Gesellschaften (Code 314), mit Aufstellung
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Angaben/Bilanz der Gesellschaft (Anteil am Vermögen)
+  status: offen
+  quellen: []
+- key: vermoegen.erbschaften_beteiligungen
+  ziffer: '32.2'
+  abschnitt: Vermögen
+  bezeichnung: Geschäftsaktiven gemäss Schlussbilanz (ohne Liegenschaften) (Code 316)
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Schlussbilanz/Zusammenstellung Betriebsvermögen
+  status: offen
+  quellen: []
+- key: vermoegen.erbschaften_beteiligungen
+  ziffer: '32.3'
+  abschnitt: Vermögen
+  bezeichnung: Vermögen im landwirtschaftlichen Betrieb (Code 318)
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Spezielle Landwirte-Formulare (12/14)
+  status: offen
+  quellen: []
+- key: berechnung.total
+  ziffer: '33'
+  abschnitt: Vermögen
+  bezeichnung: Total der Vermögenswerte (Code 322)
+  belege: []
+  feld: Rechenzeile (Ziff. 30-32)
+  status: offen
+  quellen: []
+- key: schulden.privat
+  ziffer: '34.1'
+  abschnitt: Vermögen
+  bezeichnung: Privatschulden (Code 504), Übertrag Formular 5 Teil A
+  belege:
+  - hypothekarbestaetigung
+  - kredit-darlehen-schuldzinsen
+  - steuerauszug-bank
+  feld: Formular 5 Teil A Schuld am 31.12.2025 (Total); Hypothekar-/Kreditbestätigung
+  status: offen
+  quellen: []
+- key: schulden.privat
+  ziffer: '34.2'
+  abschnitt: Vermögen
+  bezeichnung: Geschäftsschulden (Code 506), Übertrag Formular 5 Teil B
+  belege:
+  - hypothekarbestaetigung
+  - selbstaendig-jahresrechnung
+  feld: Formular 5 Teil B Total Geschäftsschulden (per Bilanzstichtag)
+  status: offen
+  quellen: []
+- key: berechnung.total
+  ziffer: '35'
+  abschnitt: Vermögen
+  bezeichnung: Reinvermögen (Code 326)
+  belege: []
+  feld: Rechenzeile (Ziff. 33 abzüglich 34)
+  status: offen
+  quellen: []
+- key: vermoegen.sozialabzug
+  ziffer: '36.1'
+  abschnitt: Vermögen
+  bezeichnung: Sozialabzug alleinstehende Steuerpflichtige (Code 330)
+  belege: []
+  feld: Personalien (Zivilstand 31.12.2025)
+  werte_keys:
+  - vermoegen.freibetrag_alleinstehend
+  status: offen
+  quellen: []
+- key: vermoegen.sozialabzug
+  ziffer: '36.2'
+  abschnitt: Vermögen
+  bezeichnung: Sozialabzug gemeinsam steuerpflichtige Ehegatten (Code 332)
+  belege: []
+  feld: Personalien (Zivilstand 31.12.2025)
+  werte_keys:
+  - vermoegen.freibetrag_verheiratet
+  status: offen
+  quellen: []
+- key: vermoegen.sozialabzug
+  ziffer: '36.3'
+  abschnitt: Vermögen
+  bezeichnung: Sozialabzug je minderjähriges Kind (Code 334)
+  belege:
+  - vorjahresveranlagung
+  feld: Seite 1 der Steuererklärung (Kinder, Jahrgang)
+  werte_keys:
+  - vermoegen.freibetrag_kind
+  status: offen
+  quellen: []
+- key: vermoegen.sozialabzug
+  ziffer: '36.5'
+  abschnitt: Vermögen
+  bezeichnung: Ermässigung auf ausserrhodischen Beteiligungen (Code 335)
+  belege: []
+  feld: Beteiligungsbewertung
+  status: offen
+  quellen: []
+- key: berechnung.total
+  ziffer: '37'
+  abschnitt: Vermögen
+  bezeichnung: Steuerbares Vermögen gesamt (Code 338)
+  belege: []
+  feld: Rechenzeile (Ziff. 35 abzüglich 36.1-36.5)
+  status: offen
+  quellen: []
+- key: einkommen.kapitalleistung_vorsorge
+  ziffer: 40-41
+  abschnitt: Weitere Angaben
+  bezeichnung: 'Ausbezahlte Kapitalleistungen aus Vorsorge: 40.1 Säule 3a, 40.2 berufliche Vorsorge, 40.3 übrige; Total Ziff. 41 (Code 950)'
+  belege:
+  - kapitalleistung-vorsorge
+  feld: Bescheinigung der Vorsorgeeinrichtung/Bank
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.fahrkosten
+  ziffer: Form. 4 Ziff. 1.1
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: Fahrkosten öffentliche Verkehrsmittel (Code 400 Person 1 / 450 Person 2)
+  belege:
+  - oev-abo
+  - lohnausweis
+  feld: ÖV-Abo/Fahrausweise (tatsächliche Kosten); Lohnausweis Feld F
+  werte_keys:
+  - berufskosten.fahrkosten.max
+  - berufskosten.fahrkosten.arbeitstage
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.fahrkosten
+  ziffer: Form. 4 Ziff. 1.2
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: Fahrrad/Kleinmotorrad bis 50 cm3 (gelbes Kontrollschild) (Code 402 / 452)
+  belege: []
+  feld: Pauschale (keine Belege)
+  werte_keys:
+  - berufskosten.fahrkosten.velo_pauschale
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.fahrkosten
+  ziffer: Form. 4 Ziff. 1.3
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: Privates Motorfahrzeug in begründeten Fällen (Code 404/454); Zwischentotal 1.1-1.3 max. Fr. 6'000 (Code 405/455)
+  belege:
+  - fahrzeugausweis-arbeitsweg
+  - spesenreglement
+  feld: Fahrtenaufstellung (km, Tage), Begründung (Formular 4 Ankreuzfelder)
+  werte_keys:
+  - berufskosten.fahrkosten.auto_km
+  - berufskosten.fahrkosten.motorrad_km
+  - berufskosten.fahrkosten.max
+  - berufskosten.fahrkosten.arbeitstage
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.verpflegung
+  ziffer: Form. 4 Ziff. 2.1
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: 'Mehrkosten auswärtige Verpflegung: Fr. 15 pro Arbeitstag, max. Fr. 3''200 (Code 408 / 458)'
+  belege:
+  - lohnausweis
+  - spesenreglement
+  feld: Lohnausweis (Felder F/G, Ziff. 15); Arbeitstage
+  werte_keys:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.verpflegung
+  ziffer: Form. 4 Ziff. 2.2
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: 'Verpflegung durch Arbeitgeber verbilligt (Kantine, Lunch-Checks, Beitrag): Fr. 7.50 pro Tag, max. Fr. 1''600 (Code 410 / 460)'
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Feld G (Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten)
+  werte_keys:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.verpflegung
+  ziffer: Form. 4 Ziff. 2.3
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: 'Schicht-/Nachtarbeit (durchgehend mind. 8 Std.): Fr. 15 pro Schichttag, max. Fr. 3''200 (Code 412 / 462)'
+  belege:
+  - lohnausweis
+  feld: 'Lohnausweis Ziff. 15 (Bemerkungen: Anzahl Schichttage)'
+  werte_keys:
+  - berufskosten.schichtarbeit.tag
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.uebrige
+  ziffer: Form. 4 Ziff. 3
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: 'Übrige Berufskosten: Pauschale Fr. 700 + 10 % des Nettolohns, max. Fr. 2''400 (Code 416 / 466) oder tatsächliche Kosten mit Aufstellung (Code 418 / 468)'
+  belege:
+  - lohnausweis
+  - spesenreglement
+  feld: Lohnausweis Ziff. 11 (Nettolohn) für die Pauschale; Kostenaufstellung/Belege bei effektiv
+  werte_keys:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.max
+  - berufskosten.homeoffice
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.wochenaufenthalt
+  ziffer: Form. 4 Ziff. 4
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: 'Wochenaufenthalt: Zimmer (Code 426 / 476), Verpflegung Fr. 30/Tag, max. Fr. 6''400 bzw. Fr. 22.50/Tag, max. Fr. 4''800 (Code 428 / 478)'
+  belege:
+  - mietvertrag-wohnung
+  feld: Mietvertrag/Quittungen des Zimmers; Lohnausweis (verbilligte Mahlzeiten)
+  werte_keys:
+  - berufskosten.wochenaufenthalt.unterkunft
+  - berufskosten.wochenaufenthalt.verpflegung_jahr
+  status: offen
+  quellen: []
+- key: abzug.berufskosten.nebenerwerb
+  ziffer: Form. 4 Ziff. 5
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: 'Unselbständiger Nebenerwerb: Pauschale 20 % der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2''400 (Code 432 / 482) oder tatsächliche Kosten (Code 434 / 484)'
+  belege:
+  - lohnausweis
+  feld: Lohnausweis Ziff. 11 des Nebenarbeitgebers
+  werte_keys:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  status: offen
+  quellen: []
+- key: berechnung.total
+  ziffer: Form. 4 Ziff. 6
+  abschnitt: Hilfsblatt Berufskosten (Form. 4)
+  bezeichnung: Total der Berufskosten (Code 438 Person 1 -> Ziff. 10.1; Code 488 Person 2 -> Ziff. 10.2)
+  belege: []
+  feld: Formular 4 Rechenzeile
+  status: offen
+  quellen: []
+- key: vermoegen.wertschriften_guthaben
+  ziffer: Form. 2 Spalten A/B
+  abschnitt: Hilfsblatt Wertschriftenverzeichnis (Form. 2)
+  bezeichnung: 'Verzeichnis der Vermögenswerte: Steuerwert per 31.12.2025 und Bruttoertrag 2025, Spalte A (mit Verrechnungssteuerabzug) / Spalte B (ohne)'
+  belege:
+  - steuerauszug-bank
+  - depotauszug
+  - kontoauszug-zinsausweis
+  - dividenden-ausland-quellensteuer
+  - krypto-auszug
+  feld: 'Steuerauszug (eCH-0196)/Bankbescheinigung: Valoren-Nr., Stückzahl, Steuerwert per 31.12.2025, Bruttoertrag 2025'
+  status: offen
+  quellen: []
+- key: verrechnungssteuer.rueckerstattung
+  ziffer: Form. 2 Total
+  abschnitt: Hilfsblatt Wertschriftenverzeichnis (Form. 2)
+  bezeichnung: Verrechnungssteueranspruch 35 % vom Bruttoertrag (Total A) (Code 999)
+  belege:
+  - steuerauszug-bank
+  feld: Formular 2 Total A (Rückerstattungsantrag Verrechnungssteuer)
+  status: offen
+  quellen: []
+- key: info.schenkungen_erbschaften
+  ziffer: Form. 2 S. 1 (960/961)
+  abschnitt: Hilfsblatt Wertschriftenverzeichnis (Form. 2)
+  bezeichnung: 'Fragen Erbschaften: erhaltene Erbschaft/Vermächtnis (Code 960); Beteiligung an unverteilter Erbschaft mit Erbanteil (Code 961)'
+  belege:
+  - erbschaft-schenkung
+  feld: Erbteilungsvertrag/Erbteilungsakt (Kopie), Inventar und Erbenverzeichnis
+  status: offen
+  quellen: []
+- key: info.schenkungen_erbschaften
+  ziffer: Form. 2 S. 1 (962/963)
+  abschnitt: Hilfsblatt Wertschriftenverzeichnis (Form. 2)
+  bezeichnung: 'Fragen Schenkungen: Vermögen aus Schenkung/Erbvorbezug erworben (Code 962); Vermögen verschenkt (Code 963)'
+  belege:
+  - erbschaft-schenkung
+  feld: Schenkungsvertrag/Aufstellung
+  status: offen
+  quellen: []
+- key: schulden.privat
+  ziffer: Form. 5 Teil A
+  abschnitt: Hilfsblatt Schulden/Zuwendungen (Form. 5)
+  bezeichnung: Private Schulden (Schuldbestand 31.12.2025) und Schuldzinsen 2025
+  belege:
+  - hypothekarbestaetigung
+  - kredit-darlehen-schuldzinsen
+  - steuerauszug-bank
+  feld: 'Hypothekar-/Kreditbestätigung der Bank: Gläubiger, Schuld per 31.12.2025, Zinsen 2025'
+  status: offen
+  quellen: []
+- key: schulden.privat
+  ziffer: Form. 5 Teil B
+  abschnitt: Hilfsblatt Schulden/Zuwendungen (Form. 5)
+  bezeichnung: Geschäftsschulden (Schuld am 31.12. bzw. Bilanzstichtag)
+  belege:
+  - selbstaendig-jahresrechnung
+  feld: Bilanz/Schuldenbestätigung
+  status: offen
+  quellen: []
+- key: abzug.spenden
+  ziffer: Form. 5 S. 2 Teil A
+  abschnitt: Hilfsblatt Schulden/Zuwendungen (Form. 5)
+  bezeichnung: 'Freiwillige Zuwendungen: Institution, Datum, Betrag; Total (Code 550) -> Ziff. 21.3'
+  belege:
+  - spendenbestaetigung
+  feld: Spendenbestätigung der steuerbefreiten Institution (auf Verlangen)
+  werte_keys:
+  - spenden.min
+  - spenden.max_satz
+  status: offen
+  quellen: []
+- key: abzug.parteispenden
+  ziffer: Form. 5 S. 2 Teil B
+  abschnitt: Hilfsblatt Schulden/Zuwendungen (Form. 5)
+  bezeichnung: 'Parteispenden: Partei, Datum, Betrag; Total (Code 555) -> Ziff. 16.3'
+  belege:
+  - parteispende
+  feld: Bestätigung der Partei (auf Verlangen)
+  werte_keys:
+  - parteispenden.max
+  status: offen
+  quellen: []
+- key: abzug.versicherungspraemien
+  ziffer: Form. 6 Teil A
+  abschnitt: Hilfsblatt Versicherungsprämien/Krankheitskosten (Form. 6)
+  bezeichnung: 'Bezahlte Versicherungsprämien und Sparzinsen: a. Krankenversicherung (brutto), b. Unfallversicherung (ohne NBUV), c. Lebens-/Rentenversicherungen, d. Sparzinsen, e. abzüglich Prämienverbilligungen
+    (Code 600 A)'
+  belege:
+  - krankenkasse-praemien
+  - versicherung-rueckkaufswert
+  - steuerauszug-bank
+  feld: Prämienrechnung/Jahresbescheinigung Krankenversicherung (brutto), Prämienverbilligungs-Verfügung, Zinsausweis (Sparzinsen gemäss Wertschriftenverzeichnis)
+  status: offen
+  quellen: []
+- key: abzug.versicherungspraemien
+  ziffer: Form. 6 Teil B/C
+  abschnitt: Hilfsblatt Versicherungsprämien/Krankheitskosten (Form. 6)
+  bezeichnung: 'Maximaler Abzug (Code 600 B): Fr. 5''400 gemeinsam / Fr. 2''700 übrige + Fr. 1''000 je Kind; Abzug = niedrigerer Betrag aus A und B (Code 600) -> Ziff. 14'
+  belege: []
+  feld: Rechenzeilen
+  werte_keys:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.kind
+  status: offen
+  quellen: []
+- key: abzug.krankheitskosten
+  ziffer: Form. 6 S. 2
+  abschnitt: Hilfsblatt Versicherungsprämien/Krankheitskosten (Form. 6)
+  bezeichnung: 'Krankheits- und Unfallkosten: Rechnungsdatum, Arzt/Zahnarzt/Spital, Bruttobetrag abzüglich Beiträge Dritter = selbst getragene Kosten; Total -> Ziff. 21.1 (Vorkolonne)'
+  belege:
+  - arzt-zahnarzt-rechnungen
+  - krankenkasse-leistungen
+  feld: Arzt-/Zahnarztrechnungen und KK-Leistungsabrechnung (Vergütungen Dritter)
+  status: offen
+  quellen: []
+- key: abzug.behinderungskosten
+  ziffer: Form. 6 S. 2 (behinderungsbedingt)
+  abschnitt: Hilfsblatt Versicherungsprämien/Krankheitskosten (Form. 6)
+  bezeichnung: Behinderungsbedingte Kosten (Einzelleistungen); Total -> Ziff. 21.2
+  belege:
+  - arzt-zahnarzt-rechnungen
+  feld: Rechnungen/Verfügungen (Hinweise in der Wegleitung)
+  status: offen
+  quellen: []
+- key: vermoegen.liegenschaften
+  ziffer: Form. 7 Abschn. A
+  abschnitt: Hilfsblatt Liegenschaften (Form. 7/7Z)
+  bezeichnung: Angaben zur Liegenschaft, Anteil Person 1/2, Nutzung, Baujahr, Steuerwert (Verkehrswert gemäss Grundstückschätzung)
+  belege:
+  - liegenschaft-schaetzung-eigenmietwert
+  feld: Amtliche Grundstückschätzung (Steuerwert, Grundstücknummer, Baujahr)
+  status: offen
+  quellen: []
+- key: einkommen.liegenschaften.eigenmietwert
+  ziffer: Form. 7 Abschn. B a
+  abschnitt: Hilfsblatt Liegenschaften (Form. 7/7Z)
+  bezeichnung: Eigenmietwert abzüglich 20 % = anrechenbarer Eigenmietwert
+  belege:
+  - liegenschaft-schaetzung-eigenmietwert
+  feld: Amtliche Grundstückschätzung (Mietwert)
+  werte_keys:
+  - liegenschaft.eigenmietwert_abzug
+  status: offen
+  quellen: []
+- key: einkommen.liegenschaften.mietertrag
+  ziffer: Form. 7 Abschn. B b
+  abschnitt: Hilfsblatt Liegenschaften (Form. 7/7Z)
+  bezeichnung: Erträge Fremdnutzung und Leistungen Dritter (Miet-/Pachtzinsen abzüglich Nebenkosten), inkl. PV-Einspeisevergütung
+  belege:
+  - liegenschaft-mietertraege
+  - liegenschaft-nebenkosten-gebaeudeversicherung
+  feld: Mietverträge/Mietzinsabrechnung, Abrechnung Netzbetreiber
+  status: offen
+  quellen: []
+- key: abzug.liegenschaft.unterhalt
+  ziffer: Form. 7 Abschn. C
+  abschnitt: Hilfsblatt Liegenschaften (Form. 7/7Z)
+  bezeichnung: 'Unterhalts- und Verwaltungskosten: Pauschalabzug (C1) oder tatsächliche Kosten (C2, Rückseite)'
+  belege:
+  - liegenschaft-unterhaltsrechnungen
+  - liegenschaft-nebenkosten-gebaeudeversicherung
+  feld: Rechnungen (Datum, Rechnungssteller, Beschreibung, Unterhalt/Anlagekosten/Verwaltung)
+  werte_keys:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  status: offen
+  quellen: []
+- key: vermoegen.liegenschaften
+  ziffer: Form. 7Z
+  abschnitt: Hilfsblatt Liegenschaften (Form. 7/7Z)
+  bezeichnung: 'Zusammenzug aller Liegenschaften: Spalten Steuerwert (A) -> Ziff. 31, Erträge (B) -> Ziff. 5, Pauschalabzug (C1) / tatsächliche Kosten (C2) -> Ziff. 15'
+  belege:
+  - liegenschaft-schaetzung-eigenmietwert
+  - liegenschaft-unterhaltsrechnungen
+  feld: Ergebnisse der einzelnen Formulare 7
+  status: offen
+  quellen: []
+- key: abzug.drittbetreuung
+  ziffer: Form. 10
+  abschnitt: Hilfsblatt Kinderbetreuung (Form. 10)
+  bezeichnung: 'Kinderbetreuungskosten: Rechnungsdatum, Name des Kindes, Empfänger, Kosten; tatsächliche Kosten abzüglich erhaltene Beiträge; Total -> Ziff. 16.2'
+  belege:
+  - kinderbetreuung-rechnungen
+  feld: Rechnungen Krippe/Tagesfamilie (Empfänger ersichtlich)
+  werte_keys:
+  - drittbetreuung.max
+  status: offen
+  quellen: []

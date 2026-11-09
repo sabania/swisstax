@@ -256,11 +256,11 @@ def write_belege(B, Z):
     if not B:
         return
     L = [fm({"typ": "belege", "titel": "Belege-Relevanz (welche Dokumente sind steuerrelevant?)", "jur": "multi",
-             "generiert": f"tools/build_quick.py aus data/belege.yaml ({today()})"}),
+             "generiert": f"tools/build_quick.py aus data/belege-teil*.yaml ({today()})"}),
          "# Welche Dokumente sind steuerrelevant?", "",
          "> Triage für Mandantenunterlagen. **ja** = in die Steuererklärung übernehmen · **bedingt** = nur unter der genannten "
          "Bedingung · **nein** = nicht deklarieren (ggf. aufbewahren). Die Ziffern je Kanton/Jahr stehen auf den "
-         "Zuordnungsseiten. Quelle der Wahrheit: [`data/belege.yaml`](../data/belege.yaml).", ""]
+         "Zuordnungsseiten. Quelle der Wahrheit: `data/belege-teil1.yaml` … `belege-teil3.yaml`.", ""]
     pages = sorted(Z)
     for rel_, title in (("ja", "Relevant"), ("bedingt", "Bedingt relevant"), ("nein", "Nicht relevant")):
         rs = [b for b in B.get("belege", []) if b.get("relevanz") == rel_]

@@ -16,7 +16,7 @@ Schnellzugriff für den Steuerexperten-Agenten. Erst hier nachschlagen, dann üb
 | Jurisdiktion | 2025 | 2026 |
 |---|---|---|
 | [Bund](../wiki/bund/bund-ueberblick.md) | [Eckwerte](werte-bund-2025.md) | [Eckwerte](werte-bund-2026.md) |
-| [AR](../wiki/ar/ar-ueberblick.md) | [Zuordnung](zuordnung-ar-2025.md) · [Eckwerte](werte-ar-2025.md) | [Eckwerte](werte-ar-2026.md) |
+| [AR](../wiki/ar/ar-ueberblick.md) | [Zuordnung](zuordnung-ar-2025.md) · [Eckwerte](werte-ar-2025.md) | [Zuordnung](zuordnung-ar-2026.md) · [Eckwerte](werte-ar-2026.md) |
 | [SG](../wiki/sg/sg-ueberblick.md) | [Zuordnung](zuordnung-sg-2025.md) · [Eckwerte](werte-sg-2025.md) | [Zuordnung](zuordnung-sg-2026.md) · [Eckwerte](werte-sg-2026.md) |
 | [TG](../wiki/tg/tg-ueberblick.md) | [Zuordnung](zuordnung-tg-2025.md) · [Eckwerte](werte-tg-2025.md) | [Zuordnung](zuordnung-tg-2026.md) · [Eckwerte](werte-tg-2026.md) |
 | [ZH](../wiki/zh/zh-ueberblick.md) | [Zuordnung](zuordnung-zh-2025.md) · [Eckwerte](werte-zh-2025.md) | [Zuordnung](zuordnung-zh-2026.md) · [Eckwerte](werte-zh-2026.md) |

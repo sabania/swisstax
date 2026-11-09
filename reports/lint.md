@@ -1,7 +1,7 @@
 # Lint-Bericht (2026-11-09)
 
-- Quellen: 285 · Chunks: 8876 · geprüfte Links: 14082
-- Fehler: 12 · Warnungen: 18
+- Quellen: 285 · Chunks: 8876 · geprüfte Links: 19400
+- Fehler: 0 · Warnungen: 18
 
 ## Status der Daten (Werte/Zuordnungen)
 
@@ -15,23 +15,11 @@
 - zuordnung · agent-geprueft: 508
 - zuordnung · extrahiert: 206
 - zuordnung · na: 1
-- zuordnung · offen: 2
+- zuordnung · offen: 101
 - zuordnung · strittig: 7
 
 ## Fehler
 
-- L1 index.md: Link nicht auflösbar: wiki/bund/bund-ueberblick.md
-- L1 index.md: Link nicht auflösbar: wiki/ar/ar-ueberblick.md
-- L1 index.md: Link nicht auflösbar: wiki/sg/sg-ueberblick.md
-- L1 index.md: Link nicht auflösbar: wiki/tg/tg-ueberblick.md
-- L1 index.md: Link nicht auflösbar: wiki/zh/zh-ueberblick.md
-- L1 quick/index.md: Link nicht auflösbar: ../wiki/bund/bund-ueberblick.md
-- L1 quick/index.md: Link nicht auflösbar: ../wiki/ar/ar-ueberblick.md
-- L1 quick/index.md: Link nicht auflösbar: ../wiki/sg/sg-ueberblick.md
-- L1 quick/index.md: Link nicht auflösbar: ../wiki/tg/tg-ueberblick.md
-- L1 quick/index.md: Link nicht auflösbar: ../wiki/zh/zh-ueberblick.md
-- L1 quick/index.md: Link nicht auflösbar: ../wiki/themen/fristen-verfahren.md
-- L1 quick/belege-relevanz.md: Link nicht auflösbar: ../data/belege.yaml
 
 ## Warnungen
 
