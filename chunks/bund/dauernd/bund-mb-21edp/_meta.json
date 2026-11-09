@@ -1,0 +1,352 @@
+[
+{
+"id": "bund-mb-21edp__c0001",
+"titel": "MB 21 EDP – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "bund-mb-21edp__c0002"
+},
+{
+"id": "bund-mb-21edp__c0002",
+"titel": "MB 21 EDP – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0001",
+"nachher": "bund-mb-21edp__c0003"
+},
+{
+"id": "bund-mb-21edp__c0003",
+"titel": "MB 21 EDP – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0002",
+"nachher": "bund-mb-21edp__c0004"
+},
+{
+"id": "bund-mb-21edp__c0004",
+"titel": "MB 21 EDP – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0003",
+"nachher": "bund-mb-21edp__c0005"
+},
+{
+"id": "bund-mb-21edp__c0005",
+"titel": "MB 21 EDP – Abschnitt 5",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0004",
+"nachher": "bund-mb-21edp__c0006"
+},
+{
+"id": "bund-mb-21edp__c0006",
+"titel": "MB 21 EDP – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0005",
+"nachher": "bund-mb-21edp__c0007"
+},
+{
+"id": "bund-mb-21edp__c0007",
+"titel": "MB 21 EDP – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0006",
+"nachher": "bund-mb-21edp__c0008"
+},
+{
+"id": "bund-mb-21edp__c0008",
+"titel": "MB 21 EDP – Abschnitt 8",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0007",
+"nachher": "bund-mb-21edp__c0009"
+},
+{
+"id": "bund-mb-21edp__c0009",
+"titel": "MB 21 EDP – Abschnitt 9",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0008",
+"nachher": "bund-mb-21edp__c0010"
+},
+{
+"id": "bund-mb-21edp__c0010",
+"titel": "MB 21 EDP – Abschnitt 10",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0009",
+"nachher": "bund-mb-21edp__c0011"
+},
+{
+"id": "bund-mb-21edp__c0011",
+"titel": "MB 21 EDP – Abschnitt 11",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0010",
+"nachher": "bund-mb-21edp__c0012"
+},
+{
+"id": "bund-mb-21edp__c0012",
+"titel": "MB 21 EDP – Abschnitt 12",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0011",
+"nachher": "bund-mb-21edp__c0013"
+},
+{
+"id": "bund-mb-21edp__c0013",
+"titel": "MB 21 EDP – Abschnitt 13",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0012",
+"nachher": "bund-mb-21edp__c0014"
+},
+{
+"id": "bund-mb-21edp__c0014",
+"titel": "MB 21 EDP – Abschnitt 14",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0013",
+"nachher": "bund-mb-21edp__c0015"
+},
+{
+"id": "bund-mb-21edp__c0015",
+"titel": "MB 21 EDP – Abschnitt 15",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0014",
+"nachher": "bund-mb-21edp__c0016"
+},
+{
+"id": "bund-mb-21edp__c0016",
+"titel": "MB 21 EDP – Abschnitt 16",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0015",
+"nachher": "bund-mb-21edp__c0017"
+},
+{
+"id": "bund-mb-21edp__c0017",
+"titel": "MB 21 EDP – Abschnitt 17",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0016",
+"nachher": "bund-mb-21edp__c0018"
+},
+{
+"id": "bund-mb-21edp__c0018",
+"titel": "MB 21 EDP – Abschnitt 18",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0017",
+"nachher": "bund-mb-21edp__c0019"
+},
+{
+"id": "bund-mb-21edp__c0019",
+"titel": "MB 21 EDP – Abschnitt 19",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0018",
+"nachher": "bund-mb-21edp__c0020"
+},
+{
+"id": "bund-mb-21edp__c0020",
+"titel": "MB 21 EDP – Abschnitt 20",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0019",
+"nachher": "bund-mb-21edp__c0021"
+},
+{
+"id": "bund-mb-21edp__c0021",
+"titel": "MB 21 EDP – Abschnitt 21",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0020",
+"nachher": "bund-mb-21edp__c0022"
+},
+{
+"id": "bund-mb-21edp__c0022",
+"titel": "MB 21 EDP – Abschnitt 22",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-21edp__c0021",
+"nachher": null
+}
+]

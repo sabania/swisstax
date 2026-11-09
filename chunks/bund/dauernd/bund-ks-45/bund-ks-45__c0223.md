@@ -1,0 +1,29 @@
+---
+id: bund-ks-45__c0223
+quelle: bund-ks-45
+jur: bund
+jahre: [2025, 2026]
+typ: kreisschreiben
+titel: "KS 45 – Abschnitt 223"
+seiten: "61"
+qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+---
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 61
+
+    Beispiel:
+    - Die Zweigniederlassung des Personalverleihers X, mit Sitz in St. Gallen, welche einen in Österreich ansäs-
+    sigen Arbeitnehmer an einen Einsatzbetrieb in Zürich verleiht, hat die Quellensteuern mit dem Kanton St.
+    Gallen abzurechnen.
+    Mögliche Konstellationen:
+
+    Ansässig-   Wohnsitz-   Wochenaufent-   Sitz- bzw. Verwaltungs- oder   Örtliche
+    keitsstaat   kanton   haltskanton   Betriebsstättekanton Arbeitgeber   Zuständigkeit
+    CH   TG   -   TG   TG
+    CH   TG   BE   BE   TG
+    F   -   -   GE   GE
+    F   -   VD   VD   VD
+
+Verlegt eine quellensteuerpflichtige Person ihren Wohnsitz oder ihren Wochenaufenthalt in
+einen anderen Kanton, ist die Quellensteuerabrechnung ab dem Folgemonat bei der Steuer-
+verwaltung des neu anspruchsberechtigten Wohnsitz- oder Wochenaufenthaltskantons ein-
+zureichen.

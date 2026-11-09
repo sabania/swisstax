@@ -1,0 +1,29 @@
+---
+id: bund-ks-15__c0051
+quelle: bund-ks-15
+jur: bund
+jahre: [2025, 2026]
+typ: kreisschreiben
+titel: "KS 15 – Abschnitt 51"
+seiten: "11"
+qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+---
+> Bund · Steuerjahr 2025/2026 · KS 15 · S. 11
+
+Stempelabgaben
+In Bezug auf die Umsatzabgabe kann auf das unter Ziffer 3.1. Gesagte verwiesen werden.
+
+3.4.2   Nicht transparente Produkte
+
+Direkte Bundessteuer und Verrechnungssteuer
+Liegt ein nicht transparentes Instrument vor, stellt die Option oder das Wandelrecht die vari-
+able Komponente eines Ertrags aus dem Anlagegeschäft dar. Alles, was der Investor bei
+Verfall von Coupons, auf Grund eines Options- oder Wandelrechts sowie bei Auflösung des
+Schuldverhältnisses über das ursprünglich investierte Kapital hinaus erhält, unterliegt der
+Einkommenssteuer und – soweit das Produkt von einem Inländer emittiert wurde – der Ver-
+rechnungssteuer (Art. 20 Abs. 1 Bst. a oder b DBG, Art. 4 Abs. 1 Bst. a VStG).
+
+Nicht transparente Instrumente sind in der Regel Anwendungsfälle von Artikel 20 Absatz 1
+Buchstabe b DBG; steuerbar im Falle von Handänderungen ist stets die Differenz zwischen
+Kauf- und Verkaufspreis (bzw. Rückzahlungswert) des Gesamtinstruments (reine Differenz-
+besteuerung).

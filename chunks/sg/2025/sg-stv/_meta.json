@@ -1,0 +1,1490 @@
+[
+{
+"id": "sg-stv__c0001",
+"titel": "StV SG – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "sg-stv__c0002"
+},
+{
+"id": "sg-stv__c0002",
+"titel": "StV SG – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0001",
+"nachher": "sg-stv__c0003"
+},
+{
+"id": "sg-stv__c0003",
+"titel": "StV SG – Abschnitt 3",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0002",
+"nachher": "sg-stv__c0004"
+},
+{
+"id": "sg-stv__c0004",
+"titel": "StV SG – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0003",
+"nachher": "sg-stv__c0005"
+},
+{
+"id": "sg-stv__c0005",
+"titel": "StV SG – Abschnitt 5",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0004",
+"nachher": "sg-stv__c0006"
+},
+{
+"id": "sg-stv__c0006",
+"titel": "StV SG – Abschnitt 6",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0005",
+"nachher": "sg-stv__c0007"
+},
+{
+"id": "sg-stv__c0007",
+"titel": "StV SG – Abschnitt 7",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0006",
+"nachher": "sg-stv__c0008"
+},
+{
+"id": "sg-stv__c0008",
+"titel": "StV SG – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0007",
+"nachher": "sg-stv__c0009"
+},
+{
+"id": "sg-stv__c0009",
+"titel": "StV SG – Abschnitt 9",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0008",
+"nachher": "sg-stv__c0010"
+},
+{
+"id": "sg-stv__c0010",
+"titel": "StV SG – Abschnitt 10",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0009",
+"nachher": "sg-stv__c0011"
+},
+{
+"id": "sg-stv__c0011",
+"titel": "StV SG – Abschnitt 11",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0010",
+"nachher": "sg-stv__c0012"
+},
+{
+"id": "sg-stv__c0012",
+"titel": "StV SG – Abschnitt 12",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0011",
+"nachher": "sg-stv__c0013"
+},
+{
+"id": "sg-stv__c0013",
+"titel": "StV SG – Abschnitt 13",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0012",
+"nachher": "sg-stv__c0014"
+},
+{
+"id": "sg-stv__c0014",
+"titel": "StV SG – Abschnitt 14",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0013",
+"nachher": "sg-stv__c0015"
+},
+{
+"id": "sg-stv__c0015",
+"titel": "StV SG – Abschnitt 15",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0014",
+"nachher": "sg-stv__c0016"
+},
+{
+"id": "sg-stv__c0016",
+"titel": "StV SG – Abschnitt 16",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0015",
+"nachher": "sg-stv__c0017"
+},
+{
+"id": "sg-stv__c0017",
+"titel": "StV SG – Abschnitt 17",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0016",
+"nachher": "sg-stv__c0018"
+},
+{
+"id": "sg-stv__c0018",
+"titel": "StV SG – Abschnitt 18",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0017",
+"nachher": "sg-stv__c0019"
+},
+{
+"id": "sg-stv__c0019",
+"titel": "StV SG – Abschnitt 19",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0018",
+"nachher": "sg-stv__c0020"
+},
+{
+"id": "sg-stv__c0020",
+"titel": "StV SG – Abschnitt 20",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0019",
+"nachher": "sg-stv__c0021"
+},
+{
+"id": "sg-stv__c0021",
+"titel": "StV SG – Abschnitt 21",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0020",
+"nachher": "sg-stv__c0022"
+},
+{
+"id": "sg-stv__c0022",
+"titel": "StV SG – Abschnitt 22",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0021",
+"nachher": "sg-stv__c0023"
+},
+{
+"id": "sg-stv__c0023",
+"titel": "StV SG – Abschnitt 23",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0022",
+"nachher": "sg-stv__c0024"
+},
+{
+"id": "sg-stv__c0024",
+"titel": "StV SG – Abschnitt 24",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0023",
+"nachher": "sg-stv__c0025"
+},
+{
+"id": "sg-stv__c0025",
+"titel": "StV SG – Abschnitt 25",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0024",
+"nachher": "sg-stv__c0026"
+},
+{
+"id": "sg-stv__c0026",
+"titel": "StV SG – Abschnitt 26",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0025",
+"nachher": "sg-stv__c0027"
+},
+{
+"id": "sg-stv__c0027",
+"titel": "StV SG – Abschnitt 27",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0026",
+"nachher": "sg-stv__c0028"
+},
+{
+"id": "sg-stv__c0028",
+"titel": "StV SG – Abschnitt 28",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0027",
+"nachher": "sg-stv__c0029"
+},
+{
+"id": "sg-stv__c0029",
+"titel": "StV SG – Abschnitt 29",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0028",
+"nachher": "sg-stv__c0030"
+},
+{
+"id": "sg-stv__c0030",
+"titel": "StV SG – Abschnitt 30",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0029",
+"nachher": "sg-stv__c0031"
+},
+{
+"id": "sg-stv__c0031",
+"titel": "StV SG – Abschnitt 31",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0030",
+"nachher": "sg-stv__c0032"
+},
+{
+"id": "sg-stv__c0032",
+"titel": "StV SG – Abschnitt 32",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0031",
+"nachher": "sg-stv__c0033"
+},
+{
+"id": "sg-stv__c0033",
+"titel": "StV SG – Abschnitt 33",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0032",
+"nachher": "sg-stv__c0034"
+},
+{
+"id": "sg-stv__c0034",
+"titel": "StV SG – Abschnitt 34",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0033",
+"nachher": "sg-stv__c0035"
+},
+{
+"id": "sg-stv__c0035",
+"titel": "StV SG – Abschnitt 35",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0034",
+"nachher": "sg-stv__c0036"
+},
+{
+"id": "sg-stv__c0036",
+"titel": "StV SG – Abschnitt 36",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0035",
+"nachher": "sg-stv__c0037"
+},
+{
+"id": "sg-stv__c0037",
+"titel": "StV SG – Abschnitt 37",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0036",
+"nachher": "sg-stv__c0038"
+},
+{
+"id": "sg-stv__c0038",
+"titel": "StV SG – Abschnitt 38",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0037",
+"nachher": "sg-stv__c0039"
+},
+{
+"id": "sg-stv__c0039",
+"titel": "StV SG – Abschnitt 39",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0038",
+"nachher": "sg-stv__c0040"
+},
+{
+"id": "sg-stv__c0040",
+"titel": "StV SG – Abschnitt 40",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0039",
+"nachher": "sg-stv__c0041"
+},
+{
+"id": "sg-stv__c0041",
+"titel": "StV SG – Abschnitt 41",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0040",
+"nachher": "sg-stv__c0042"
+},
+{
+"id": "sg-stv__c0042",
+"titel": "StV SG – Abschnitt 42",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0041",
+"nachher": "sg-stv__c0043"
+},
+{
+"id": "sg-stv__c0043",
+"titel": "StV SG – Abschnitt 43",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0042",
+"nachher": "sg-stv__c0044"
+},
+{
+"id": "sg-stv__c0044",
+"titel": "StV SG – Abschnitt 44",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0043",
+"nachher": "sg-stv__c0045"
+},
+{
+"id": "sg-stv__c0045",
+"titel": "StV SG – Abschnitt 45",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0044",
+"nachher": "sg-stv__c0046"
+},
+{
+"id": "sg-stv__c0046",
+"titel": "StV SG – Abschnitt 46",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0045",
+"nachher": "sg-stv__c0047"
+},
+{
+"id": "sg-stv__c0047",
+"titel": "StV SG – Abschnitt 47",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0046",
+"nachher": "sg-stv__c0048"
+},
+{
+"id": "sg-stv__c0048",
+"titel": "StV SG – Abschnitt 48",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0047",
+"nachher": "sg-stv__c0049"
+},
+{
+"id": "sg-stv__c0049",
+"titel": "StV SG – Abschnitt 49",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0048",
+"nachher": "sg-stv__c0050"
+},
+{
+"id": "sg-stv__c0050",
+"titel": "StV SG – Abschnitt 50",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0049",
+"nachher": "sg-stv__c0051"
+},
+{
+"id": "sg-stv__c0051",
+"titel": "StV SG – Abschnitt 51",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0050",
+"nachher": "sg-stv__c0052"
+},
+{
+"id": "sg-stv__c0052",
+"titel": "StV SG – Abschnitt 52",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0051",
+"nachher": "sg-stv__c0053"
+},
+{
+"id": "sg-stv__c0053",
+"titel": "StV SG – Abschnitt 53",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0052",
+"nachher": "sg-stv__c0054"
+},
+{
+"id": "sg-stv__c0054",
+"titel": "StV SG – Abschnitt 54",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0053",
+"nachher": "sg-stv__c0055"
+},
+{
+"id": "sg-stv__c0055",
+"titel": "StV SG – Abschnitt 55",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0054",
+"nachher": "sg-stv__c0056"
+},
+{
+"id": "sg-stv__c0056",
+"titel": "StV SG – Abschnitt 56",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0055",
+"nachher": "sg-stv__c0057"
+},
+{
+"id": "sg-stv__c0057",
+"titel": "StV SG – Abschnitt 57",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0056",
+"nachher": "sg-stv__c0058"
+},
+{
+"id": "sg-stv__c0058",
+"titel": "StV SG – Abschnitt 58",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0057",
+"nachher": "sg-stv__c0059"
+},
+{
+"id": "sg-stv__c0059",
+"titel": "StV SG – Abschnitt 59",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0058",
+"nachher": "sg-stv__c0060"
+},
+{
+"id": "sg-stv__c0060",
+"titel": "StV SG – Abschnitt 60",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0059",
+"nachher": "sg-stv__c0061"
+},
+{
+"id": "sg-stv__c0061",
+"titel": "StV SG – Abschnitt 61",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0060",
+"nachher": "sg-stv__c0062"
+},
+{
+"id": "sg-stv__c0062",
+"titel": "StV SG – Abschnitt 62",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0061",
+"nachher": "sg-stv__c0063"
+},
+{
+"id": "sg-stv__c0063",
+"titel": "StV SG – Abschnitt 63",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0062",
+"nachher": "sg-stv__c0064"
+},
+{
+"id": "sg-stv__c0064",
+"titel": "StV SG – Abschnitt 64",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0063",
+"nachher": "sg-stv__c0065"
+},
+{
+"id": "sg-stv__c0065",
+"titel": "StV SG – Abschnitt 65",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0064",
+"nachher": "sg-stv__c0066"
+},
+{
+"id": "sg-stv__c0066",
+"titel": "StV SG – Abschnitt 66",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0065",
+"nachher": "sg-stv__c0067"
+},
+{
+"id": "sg-stv__c0067",
+"titel": "StV SG – Abschnitt 67",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0066",
+"nachher": "sg-stv__c0068"
+},
+{
+"id": "sg-stv__c0068",
+"titel": "StV SG – Abschnitt 68",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0067",
+"nachher": "sg-stv__c0069"
+},
+{
+"id": "sg-stv__c0069",
+"titel": "StV SG – Abschnitt 69",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0068",
+"nachher": "sg-stv__c0070"
+},
+{
+"id": "sg-stv__c0070",
+"titel": "StV SG – Abschnitt 70",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0069",
+"nachher": "sg-stv__c0071"
+},
+{
+"id": "sg-stv__c0071",
+"titel": "StV SG – Abschnitt 71",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0070",
+"nachher": "sg-stv__c0072"
+},
+{
+"id": "sg-stv__c0072",
+"titel": "StV SG – Abschnitt 72",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0071",
+"nachher": "sg-stv__c0073"
+},
+{
+"id": "sg-stv__c0073",
+"titel": "StV SG – Abschnitt 73",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0072",
+"nachher": "sg-stv__c0074"
+},
+{
+"id": "sg-stv__c0074",
+"titel": "StV SG – Abschnitt 74",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0073",
+"nachher": "sg-stv__c0075"
+},
+{
+"id": "sg-stv__c0075",
+"titel": "StV SG – Abschnitt 75",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0074",
+"nachher": "sg-stv__c0076"
+},
+{
+"id": "sg-stv__c0076",
+"titel": "StV SG – Abschnitt 76",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0075",
+"nachher": "sg-stv__c0077"
+},
+{
+"id": "sg-stv__c0077",
+"titel": "StV SG – Abschnitt 77",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0076",
+"nachher": "sg-stv__c0078"
+},
+{
+"id": "sg-stv__c0078",
+"titel": "StV SG – Abschnitt 78",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0077",
+"nachher": "sg-stv__c0079"
+},
+{
+"id": "sg-stv__c0079",
+"titel": "StV SG – Abschnitt 79",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0078",
+"nachher": "sg-stv__c0080"
+},
+{
+"id": "sg-stv__c0080",
+"titel": "StV SG – Abschnitt 80",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0079",
+"nachher": "sg-stv__c0081"
+},
+{
+"id": "sg-stv__c0081",
+"titel": "StV SG – Abschnitt 81",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0080",
+"nachher": "sg-stv__c0082"
+},
+{
+"id": "sg-stv__c0082",
+"titel": "StV SG – Abschnitt 82",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0081",
+"nachher": "sg-stv__c0083"
+},
+{
+"id": "sg-stv__c0083",
+"titel": "StV SG – Abschnitt 83",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0082",
+"nachher": "sg-stv__c0084"
+},
+{
+"id": "sg-stv__c0084",
+"titel": "StV SG – Abschnitt 84",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0083",
+"nachher": "sg-stv__c0085"
+},
+{
+"id": "sg-stv__c0085",
+"titel": "StV SG – Abschnitt 85",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0084",
+"nachher": "sg-stv__c0086"
+},
+{
+"id": "sg-stv__c0086",
+"titel": "StV SG – Abschnitt 86",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0085",
+"nachher": "sg-stv__c0087"
+},
+{
+"id": "sg-stv__c0087",
+"titel": "StV SG – Abschnitt 87",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0086",
+"nachher": "sg-stv__c0088"
+},
+{
+"id": "sg-stv__c0088",
+"titel": "StV SG – Abschnitt 88",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0087",
+"nachher": "sg-stv__c0089"
+},
+{
+"id": "sg-stv__c0089",
+"titel": "StV SG – Abschnitt 89",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0088",
+"nachher": "sg-stv__c0090"
+},
+{
+"id": "sg-stv__c0090",
+"titel": "StV SG – Abschnitt 90",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0089",
+"nachher": "sg-stv__c0091"
+},
+{
+"id": "sg-stv__c0091",
+"titel": "StV SG – Abschnitt 91",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0090",
+"nachher": "sg-stv__c0092"
+},
+{
+"id": "sg-stv__c0092",
+"titel": "StV SG – Abschnitt 92",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0091",
+"nachher": "sg-stv__c0093"
+},
+{
+"id": "sg-stv__c0093",
+"titel": "StV SG – Abschnitt 93",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stv__c0092",
+"nachher": null
+}
+]

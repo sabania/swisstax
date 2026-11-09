@@ -1,0 +1,29 @@
+---
+id: zh-weisung-liegenschaften-2026__c0048
+quelle: zh-weisung-liegenschaften-2026
+jur: zh
+jahre: [2026]
+typ: weisung
+titel: "Weisung 2026 ZH – Abschnitt 48"
+seiten: "22"
+qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
+---
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 22
+
+Bezirk Dietikon
+Aesch   3   1630   1460   1290   –   –   –   –   –   –
+Birmensdorf   5   1500   1380   1270   1150   1040   –   –   –   –
+Dietikon   5   1460   1350   1240   1140   1030   –   –   –   –
+Geroldswil   5   1650   1530   1410   1290   1170   –   –   –   –
+Oberengstringen   3   1530   1370   1200   –   –   –   –   –   –
+Oetwil an der Limmat   3   1280   1130   980   –   –   –   –   –   –
+Schlieren   5   1590   1480   1370   1250   1140   –   –   –   –
+Uitikon   6   2260   2120   1970   1820   1680   1530   –   –   –
+Unterengstringen   6   1840   1740   1640   1540   1430   1330   –   –   –
+Urdorf   5   1460   1350   1240   1130   1020   –   –   –   –
+Weiningen   3   1540   1320   1100   –   –   –   –   –   –
+Bezirk Hinwil
+Bäretswil   4   960   830   710   590   –   –   –   –   –
+Bubikon   5   1090   990   900   810   710   –   –   –   –
+Dürnten   5   930   840   750   660   570   –   –   –   –
+Fischenthal   3   500   420   340   –   –   –   –   –   –

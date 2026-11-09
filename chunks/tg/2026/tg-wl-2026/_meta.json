@@ -1,0 +1,4596 @@
+[
+{
+"id": "tg-wl-2026__c0001",
+"titel": "WL TG 2026 – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1,
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "tg-wl-2026__c0002"
+},
+{
+"id": "tg-wl-2026__c0002",
+"titel": "WL TG 2026 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0001",
+"nachher": "tg-wl-2026__c0003"
+},
+{
+"id": "tg-wl-2026__c0003",
+"titel": "WL TG 2026 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0002",
+"nachher": "tg-wl-2026__c0004"
+},
+{
+"id": "tg-wl-2026__c0004",
+"titel": "WL TG 2026 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0003",
+"nachher": "tg-wl-2026__c0005"
+},
+{
+"id": "tg-wl-2026__c0005",
+"titel": "WL TG 2026 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0004",
+"nachher": "tg-wl-2026__c0006"
+},
+{
+"id": "tg-wl-2026__c0006",
+"titel": "WL TG 2026 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0005",
+"nachher": "tg-wl-2026__c0007"
+},
+{
+"id": "tg-wl-2026__c0007",
+"titel": "WL TG 2026 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0006",
+"nachher": "tg-wl-2026__c0008"
+},
+{
+"id": "tg-wl-2026__c0008",
+"titel": "WL TG 2026 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0007",
+"nachher": "tg-wl-2026__c0009"
+},
+{
+"id": "tg-wl-2026__c0009",
+"titel": "WL TG 2026 – Abschnitt 9",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0008",
+"nachher": "tg-wl-2026__c0010"
+},
+{
+"id": "tg-wl-2026__c0010",
+"titel": "WL TG 2026 – Abschnitt 10",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0009",
+"nachher": "tg-wl-2026__c0011"
+},
+{
+"id": "tg-wl-2026__c0011",
+"titel": "WL TG 2026 – Abschnitt 11",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0010",
+"nachher": "tg-wl-2026__c0012"
+},
+{
+"id": "tg-wl-2026__c0012",
+"titel": "WL TG 2026 – Abschnitt 12",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0011",
+"nachher": "tg-wl-2026__c0013"
+},
+{
+"id": "tg-wl-2026__c0013",
+"titel": "WL TG 2026 – Abschnitt 13",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0012",
+"nachher": "tg-wl-2026__c0014"
+},
+{
+"id": "tg-wl-2026__c0014",
+"titel": "WL TG 2026 – Abschnitt 14",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0013",
+"nachher": "tg-wl-2026__c0015"
+},
+{
+"id": "tg-wl-2026__c0015",
+"titel": "WL TG 2026 – Abschnitt 15",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0014",
+"nachher": "tg-wl-2026__c0016"
+},
+{
+"id": "tg-wl-2026__c0016",
+"titel": "WL TG 2026 – Abschnitt 16",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0015",
+"nachher": "tg-wl-2026__c0017"
+},
+{
+"id": "tg-wl-2026__c0017",
+"titel": "WL TG 2026 – Abschnitt 17",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0016",
+"nachher": "tg-wl-2026__c0018"
+},
+{
+"id": "tg-wl-2026__c0018",
+"titel": "WL TG 2026 – Abschnitt 18",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0017",
+"nachher": "tg-wl-2026__c0019"
+},
+{
+"id": "tg-wl-2026__c0019",
+"titel": "WL TG 2026 – Abschnitt 19",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0018",
+"nachher": "tg-wl-2026__c0020"
+},
+{
+"id": "tg-wl-2026__c0020",
+"titel": "WL TG 2026 – Abschnitt 20",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0019",
+"nachher": "tg-wl-2026__c0021"
+},
+{
+"id": "tg-wl-2026__c0021",
+"titel": "WL TG 2026 – Abschnitt 21",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0020",
+"nachher": "tg-wl-2026__c0022"
+},
+{
+"id": "tg-wl-2026__c0022",
+"titel": "WL TG 2026 – Abschnitt 22",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0021",
+"nachher": "tg-wl-2026__c0023"
+},
+{
+"id": "tg-wl-2026__c0023",
+"titel": "WL TG 2026 – Abschnitt 23",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0022",
+"nachher": "tg-wl-2026__c0024"
+},
+{
+"id": "tg-wl-2026__c0024",
+"titel": "WL TG 2026 – Abschnitt 24",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0023",
+"nachher": "tg-wl-2026__c0025"
+},
+{
+"id": "tg-wl-2026__c0025",
+"titel": "WL TG 2026 – Abschnitt 25",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0024",
+"nachher": "tg-wl-2026__c0026"
+},
+{
+"id": "tg-wl-2026__c0026",
+"titel": "WL TG 2026 – Abschnitt 26",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0025",
+"nachher": "tg-wl-2026__c0027"
+},
+{
+"id": "tg-wl-2026__c0027",
+"titel": "WL TG 2026 – Abschnitt 27",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0026",
+"nachher": "tg-wl-2026__c0028"
+},
+{
+"id": "tg-wl-2026__c0028",
+"titel": "WL TG 2026 – Abschnitt 28",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0027",
+"nachher": "tg-wl-2026__c0029"
+},
+{
+"id": "tg-wl-2026__c0029",
+"titel": "WL TG 2026 – Abschnitt 29",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0028",
+"nachher": "tg-wl-2026__c0030"
+},
+{
+"id": "tg-wl-2026__c0030",
+"titel": "WL TG 2026 – Abschnitt 30",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0029",
+"nachher": "tg-wl-2026__c0031"
+},
+{
+"id": "tg-wl-2026__c0031",
+"titel": "WL TG 2026 – Abschnitt 31",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0030",
+"nachher": "tg-wl-2026__c0032"
+},
+{
+"id": "tg-wl-2026__c0032",
+"titel": "WL TG 2026 – Abschnitt 32",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0031",
+"nachher": "tg-wl-2026__c0033"
+},
+{
+"id": "tg-wl-2026__c0033",
+"titel": "WL TG 2026 – Abschnitt 33",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0032",
+"nachher": "tg-wl-2026__c0034"
+},
+{
+"id": "tg-wl-2026__c0034",
+"titel": "WL TG 2026 – Abschnitt 34",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0033",
+"nachher": "tg-wl-2026__c0035"
+},
+{
+"id": "tg-wl-2026__c0035",
+"titel": "WL TG 2026 – Abschnitt 35",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0034",
+"nachher": "tg-wl-2026__c0036"
+},
+{
+"id": "tg-wl-2026__c0036",
+"titel": "WL TG 2026 – Abschnitt 36",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0035",
+"nachher": "tg-wl-2026__c0037"
+},
+{
+"id": "tg-wl-2026__c0037",
+"titel": "WL TG 2026 – Abschnitt 37",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0036",
+"nachher": "tg-wl-2026__c0038"
+},
+{
+"id": "tg-wl-2026__c0038",
+"titel": "WL TG 2026 – Abschnitt 38",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0037",
+"nachher": "tg-wl-2026__c0039"
+},
+{
+"id": "tg-wl-2026__c0039",
+"titel": "WL TG 2026 – Abschnitt 39",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0038",
+"nachher": "tg-wl-2026__c0040"
+},
+{
+"id": "tg-wl-2026__c0040",
+"titel": "WL TG 2026 – Abschnitt 40",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0039",
+"nachher": "tg-wl-2026__c0041"
+},
+{
+"id": "tg-wl-2026__c0041",
+"titel": "WL TG 2026 – Abschnitt 41",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0040",
+"nachher": "tg-wl-2026__c0042"
+},
+{
+"id": "tg-wl-2026__c0042",
+"titel": "WL TG 2026 – Abschnitt 42",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0041",
+"nachher": "tg-wl-2026__c0043"
+},
+{
+"id": "tg-wl-2026__c0043",
+"titel": "WL TG 2026 – Abschnitt 43",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0042",
+"nachher": "tg-wl-2026__c0044"
+},
+{
+"id": "tg-wl-2026__c0044",
+"titel": "WL TG 2026 – Abschnitt 44",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0043",
+"nachher": "tg-wl-2026__c0045"
+},
+{
+"id": "tg-wl-2026__c0045",
+"titel": "WL TG 2026 – Abschnitt 45",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0044",
+"nachher": "tg-wl-2026__c0046"
+},
+{
+"id": "tg-wl-2026__c0046",
+"titel": "WL TG 2026 – Abschnitt 46",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0045",
+"nachher": "tg-wl-2026__c0047"
+},
+{
+"id": "tg-wl-2026__c0047",
+"titel": "WL TG 2026 – Abschnitt 47",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0046",
+"nachher": "tg-wl-2026__c0048"
+},
+{
+"id": "tg-wl-2026__c0048",
+"titel": "WL TG 2026 – Abschnitt 48",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0047",
+"nachher": "tg-wl-2026__c0049"
+},
+{
+"id": "tg-wl-2026__c0049",
+"titel": "WL TG 2026 – Abschnitt 49",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0048",
+"nachher": "tg-wl-2026__c0050"
+},
+{
+"id": "tg-wl-2026__c0050",
+"titel": "WL TG 2026 – Abschnitt 50",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0049",
+"nachher": "tg-wl-2026__c0051"
+},
+{
+"id": "tg-wl-2026__c0051",
+"titel": "WL TG 2026 – Abschnitt 51",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0050",
+"nachher": "tg-wl-2026__c0052"
+},
+{
+"id": "tg-wl-2026__c0052",
+"titel": "WL TG 2026 – Abschnitt 52",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0051",
+"nachher": "tg-wl-2026__c0053"
+},
+{
+"id": "tg-wl-2026__c0053",
+"titel": "WL TG 2026 – Abschnitt 53",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0052",
+"nachher": "tg-wl-2026__c0054"
+},
+{
+"id": "tg-wl-2026__c0054",
+"titel": "WL TG 2026 – Abschnitt 54",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0053",
+"nachher": "tg-wl-2026__c0055"
+},
+{
+"id": "tg-wl-2026__c0055",
+"titel": "WL TG 2026 – Abschnitt 55",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0054",
+"nachher": "tg-wl-2026__c0056"
+},
+{
+"id": "tg-wl-2026__c0056",
+"titel": "WL TG 2026 – Abschnitt 56",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0055",
+"nachher": "tg-wl-2026__c0057"
+},
+{
+"id": "tg-wl-2026__c0057",
+"titel": "WL TG 2026 – Abschnitt 57",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0056",
+"nachher": "tg-wl-2026__c0058"
+},
+{
+"id": "tg-wl-2026__c0058",
+"titel": "WL TG 2026 – Abschnitt 58",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0057",
+"nachher": "tg-wl-2026__c0059"
+},
+{
+"id": "tg-wl-2026__c0059",
+"titel": "WL TG 2026 – Abschnitt 59",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0058",
+"nachher": "tg-wl-2026__c0060"
+},
+{
+"id": "tg-wl-2026__c0060",
+"titel": "WL TG 2026 – Abschnitt 60",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0059",
+"nachher": "tg-wl-2026__c0061"
+},
+{
+"id": "tg-wl-2026__c0061",
+"titel": "WL TG 2026 – Abschnitt 61",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0060",
+"nachher": "tg-wl-2026__c0062"
+},
+{
+"id": "tg-wl-2026__c0062",
+"titel": "WL TG 2026 – Abschnitt 62",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0061",
+"nachher": "tg-wl-2026__c0063"
+},
+{
+"id": "tg-wl-2026__c0063",
+"titel": "WL TG 2026 – Abschnitt 63",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0062",
+"nachher": "tg-wl-2026__c0064"
+},
+{
+"id": "tg-wl-2026__c0064",
+"titel": "WL TG 2026 – Abschnitt 64",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0063",
+"nachher": "tg-wl-2026__c0065"
+},
+{
+"id": "tg-wl-2026__c0065",
+"titel": "WL TG 2026 – Abschnitt 65",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0064",
+"nachher": "tg-wl-2026__c0066"
+},
+{
+"id": "tg-wl-2026__c0066",
+"titel": "WL TG 2026 – Abschnitt 66",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0065",
+"nachher": "tg-wl-2026__c0067"
+},
+{
+"id": "tg-wl-2026__c0067",
+"titel": "WL TG 2026 – Abschnitt 67",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0066",
+"nachher": "tg-wl-2026__c0068"
+},
+{
+"id": "tg-wl-2026__c0068",
+"titel": "WL TG 2026 – Abschnitt 68",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0067",
+"nachher": "tg-wl-2026__c0069"
+},
+{
+"id": "tg-wl-2026__c0069",
+"titel": "WL TG 2026 – Abschnitt 69",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0068",
+"nachher": "tg-wl-2026__c0070"
+},
+{
+"id": "tg-wl-2026__c0070",
+"titel": "WL TG 2026 – Abschnitt 70",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0069",
+"nachher": "tg-wl-2026__c0071"
+},
+{
+"id": "tg-wl-2026__c0071",
+"titel": "WL TG 2026 – Abschnitt 71",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0070",
+"nachher": "tg-wl-2026__c0072"
+},
+{
+"id": "tg-wl-2026__c0072",
+"titel": "WL TG 2026 – Abschnitt 72",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0071",
+"nachher": "tg-wl-2026__c0073"
+},
+{
+"id": "tg-wl-2026__c0073",
+"titel": "WL TG 2026 – Abschnitt 73",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0072",
+"nachher": "tg-wl-2026__c0074"
+},
+{
+"id": "tg-wl-2026__c0074",
+"titel": "WL TG 2026 – Abschnitt 74",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0073",
+"nachher": "tg-wl-2026__c0075"
+},
+{
+"id": "tg-wl-2026__c0075",
+"titel": "WL TG 2026 – Abschnitt 75",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0074",
+"nachher": "tg-wl-2026__c0076"
+},
+{
+"id": "tg-wl-2026__c0076",
+"titel": "WL TG 2026 – Abschnitt 76",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0075",
+"nachher": "tg-wl-2026__c0077"
+},
+{
+"id": "tg-wl-2026__c0077",
+"titel": "WL TG 2026 – Abschnitt 77",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0076",
+"nachher": "tg-wl-2026__c0078"
+},
+{
+"id": "tg-wl-2026__c0078",
+"titel": "WL TG 2026 – Abschnitt 78",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0077",
+"nachher": "tg-wl-2026__c0079"
+},
+{
+"id": "tg-wl-2026__c0079",
+"titel": "WL TG 2026 – Abschnitt 79",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0078",
+"nachher": "tg-wl-2026__c0080"
+},
+{
+"id": "tg-wl-2026__c0080",
+"titel": "WL TG 2026 – Abschnitt 80",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0079",
+"nachher": "tg-wl-2026__c0081"
+},
+{
+"id": "tg-wl-2026__c0081",
+"titel": "WL TG 2026 – Abschnitt 81",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0080",
+"nachher": "tg-wl-2026__c0082"
+},
+{
+"id": "tg-wl-2026__c0082",
+"titel": "WL TG 2026 – Abschnitt 82",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0081",
+"nachher": "tg-wl-2026__c0083"
+},
+{
+"id": "tg-wl-2026__c0083",
+"titel": "WL TG 2026 – Abschnitt 83",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0082",
+"nachher": "tg-wl-2026__c0084"
+},
+{
+"id": "tg-wl-2026__c0084",
+"titel": "WL TG 2026 – Abschnitt 84",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0083",
+"nachher": "tg-wl-2026__c0085"
+},
+{
+"id": "tg-wl-2026__c0085",
+"titel": "WL TG 2026 – Abschnitt 85",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0084",
+"nachher": "tg-wl-2026__c0086"
+},
+{
+"id": "tg-wl-2026__c0086",
+"titel": "WL TG 2026 – Abschnitt 86",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0085",
+"nachher": "tg-wl-2026__c0087"
+},
+{
+"id": "tg-wl-2026__c0087",
+"titel": "WL TG 2026 – Abschnitt 87",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0086",
+"nachher": "tg-wl-2026__c0088"
+},
+{
+"id": "tg-wl-2026__c0088",
+"titel": "WL TG 2026 – Abschnitt 88",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0087",
+"nachher": "tg-wl-2026__c0089"
+},
+{
+"id": "tg-wl-2026__c0089",
+"titel": "WL TG 2026 – Abschnitt 89",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0088",
+"nachher": "tg-wl-2026__c0090"
+},
+{
+"id": "tg-wl-2026__c0090",
+"titel": "WL TG 2026 – Abschnitt 90",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0089",
+"nachher": "tg-wl-2026__c0091"
+},
+{
+"id": "tg-wl-2026__c0091",
+"titel": "WL TG 2026 – Abschnitt 91",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0090",
+"nachher": "tg-wl-2026__c0092"
+},
+{
+"id": "tg-wl-2026__c0092",
+"titel": "WL TG 2026 – Abschnitt 92",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0091",
+"nachher": "tg-wl-2026__c0093"
+},
+{
+"id": "tg-wl-2026__c0093",
+"titel": "WL TG 2026 – Abschnitt 93",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0092",
+"nachher": "tg-wl-2026__c0094"
+},
+{
+"id": "tg-wl-2026__c0094",
+"titel": "WL TG 2026 – Abschnitt 94",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0093",
+"nachher": "tg-wl-2026__c0095"
+},
+{
+"id": "tg-wl-2026__c0095",
+"titel": "WL TG 2026 – Abschnitt 95",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0094",
+"nachher": "tg-wl-2026__c0096"
+},
+{
+"id": "tg-wl-2026__c0096",
+"titel": "WL TG 2026 – Abschnitt 96",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0095",
+"nachher": "tg-wl-2026__c0097"
+},
+{
+"id": "tg-wl-2026__c0097",
+"titel": "WL TG 2026 – Abschnitt 97",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0096",
+"nachher": "tg-wl-2026__c0098"
+},
+{
+"id": "tg-wl-2026__c0098",
+"titel": "WL TG 2026 – Abschnitt 98",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0097",
+"nachher": "tg-wl-2026__c0099"
+},
+{
+"id": "tg-wl-2026__c0099",
+"titel": "WL TG 2026 – Abschnitt 99",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0098",
+"nachher": "tg-wl-2026__c0100"
+},
+{
+"id": "tg-wl-2026__c0100",
+"titel": "WL TG 2026 – Abschnitt 100",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0099",
+"nachher": "tg-wl-2026__c0101"
+},
+{
+"id": "tg-wl-2026__c0101",
+"titel": "WL TG 2026 – Abschnitt 101",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0100",
+"nachher": "tg-wl-2026__c0102"
+},
+{
+"id": "tg-wl-2026__c0102",
+"titel": "WL TG 2026 – Abschnitt 102",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0101",
+"nachher": "tg-wl-2026__c0103"
+},
+{
+"id": "tg-wl-2026__c0103",
+"titel": "WL TG 2026 – Abschnitt 103",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0102",
+"nachher": "tg-wl-2026__c0104"
+},
+{
+"id": "tg-wl-2026__c0104",
+"titel": "WL TG 2026 – Abschnitt 104",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0103",
+"nachher": "tg-wl-2026__c0105"
+},
+{
+"id": "tg-wl-2026__c0105",
+"titel": "WL TG 2026 – Abschnitt 105",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0104",
+"nachher": "tg-wl-2026__c0106"
+},
+{
+"id": "tg-wl-2026__c0106",
+"titel": "WL TG 2026 – Abschnitt 106",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0105",
+"nachher": "tg-wl-2026__c0107"
+},
+{
+"id": "tg-wl-2026__c0107",
+"titel": "WL TG 2026 – Abschnitt 107",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0106",
+"nachher": "tg-wl-2026__c0108"
+},
+{
+"id": "tg-wl-2026__c0108",
+"titel": "WL TG 2026 – Abschnitt 108",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0107",
+"nachher": "tg-wl-2026__c0109"
+},
+{
+"id": "tg-wl-2026__c0109",
+"titel": "WL TG 2026 – Abschnitt 109",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0108",
+"nachher": "tg-wl-2026__c0110"
+},
+{
+"id": "tg-wl-2026__c0110",
+"titel": "WL TG 2026 – Abschnitt 110",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0109",
+"nachher": "tg-wl-2026__c0111"
+},
+{
+"id": "tg-wl-2026__c0111",
+"titel": "WL TG 2026 – Abschnitt 111",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0110",
+"nachher": "tg-wl-2026__c0112"
+},
+{
+"id": "tg-wl-2026__c0112",
+"titel": "WL TG 2026 – Abschnitt 112",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0111",
+"nachher": "tg-wl-2026__c0113"
+},
+{
+"id": "tg-wl-2026__c0113",
+"titel": "WL TG 2026 – Abschnitt 113",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0112",
+"nachher": "tg-wl-2026__c0114"
+},
+{
+"id": "tg-wl-2026__c0114",
+"titel": "WL TG 2026 – Abschnitt 114",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0113",
+"nachher": "tg-wl-2026__c0115"
+},
+{
+"id": "tg-wl-2026__c0115",
+"titel": "WL TG 2026 – Abschnitt 115",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0114",
+"nachher": "tg-wl-2026__c0116"
+},
+{
+"id": "tg-wl-2026__c0116",
+"titel": "WL TG 2026 – Abschnitt 116",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0115",
+"nachher": "tg-wl-2026__c0117"
+},
+{
+"id": "tg-wl-2026__c0117",
+"titel": "WL TG 2026 – Abschnitt 117",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0116",
+"nachher": "tg-wl-2026__c0118"
+},
+{
+"id": "tg-wl-2026__c0118",
+"titel": "WL TG 2026 – Abschnitt 118",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0117",
+"nachher": "tg-wl-2026__c0119"
+},
+{
+"id": "tg-wl-2026__c0119",
+"titel": "WL TG 2026 – Abschnitt 119",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0118",
+"nachher": "tg-wl-2026__c0120"
+},
+{
+"id": "tg-wl-2026__c0120",
+"titel": "WL TG 2026 – Abschnitt 120",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0119",
+"nachher": "tg-wl-2026__c0121"
+},
+{
+"id": "tg-wl-2026__c0121",
+"titel": "WL TG 2026 – Abschnitt 121",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0120",
+"nachher": "tg-wl-2026__c0122"
+},
+{
+"id": "tg-wl-2026__c0122",
+"titel": "WL TG 2026 – Abschnitt 122",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0121",
+"nachher": "tg-wl-2026__c0123"
+},
+{
+"id": "tg-wl-2026__c0123",
+"titel": "WL TG 2026 – Abschnitt 123",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0122",
+"nachher": "tg-wl-2026__c0124"
+},
+{
+"id": "tg-wl-2026__c0124",
+"titel": "WL TG 2026 – Abschnitt 124",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0123",
+"nachher": "tg-wl-2026__c0125"
+},
+{
+"id": "tg-wl-2026__c0125",
+"titel": "WL TG 2026 – Abschnitt 125",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0124",
+"nachher": "tg-wl-2026__c0126"
+},
+{
+"id": "tg-wl-2026__c0126",
+"titel": "WL TG 2026 – Abschnitt 126",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0125",
+"nachher": "tg-wl-2026__c0127"
+},
+{
+"id": "tg-wl-2026__c0127",
+"titel": "WL TG 2026 – Abschnitt 127",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0126",
+"nachher": "tg-wl-2026__c0128"
+},
+{
+"id": "tg-wl-2026__c0128",
+"titel": "WL TG 2026 – Abschnitt 128",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0127",
+"nachher": "tg-wl-2026__c0129"
+},
+{
+"id": "tg-wl-2026__c0129",
+"titel": "WL TG 2026 – Abschnitt 129",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0128",
+"nachher": "tg-wl-2026__c0130"
+},
+{
+"id": "tg-wl-2026__c0130",
+"titel": "WL TG 2026 – Abschnitt 130",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0129",
+"nachher": "tg-wl-2026__c0131"
+},
+{
+"id": "tg-wl-2026__c0131",
+"titel": "WL TG 2026 – Abschnitt 131",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0130",
+"nachher": "tg-wl-2026__c0132"
+},
+{
+"id": "tg-wl-2026__c0132",
+"titel": "WL TG 2026 – Abschnitt 132",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0131",
+"nachher": "tg-wl-2026__c0133"
+},
+{
+"id": "tg-wl-2026__c0133",
+"titel": "WL TG 2026 – Abschnitt 133",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0132",
+"nachher": "tg-wl-2026__c0134"
+},
+{
+"id": "tg-wl-2026__c0134",
+"titel": "WL TG 2026 – Abschnitt 134",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0133",
+"nachher": "tg-wl-2026__c0135"
+},
+{
+"id": "tg-wl-2026__c0135",
+"titel": "WL TG 2026 – Abschnitt 135",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0134",
+"nachher": "tg-wl-2026__c0136"
+},
+{
+"id": "tg-wl-2026__c0136",
+"titel": "WL TG 2026 – Abschnitt 136",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0135",
+"nachher": "tg-wl-2026__c0137"
+},
+{
+"id": "tg-wl-2026__c0137",
+"titel": "WL TG 2026 – Abschnitt 137",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0136",
+"nachher": "tg-wl-2026__c0138"
+},
+{
+"id": "tg-wl-2026__c0138",
+"titel": "WL TG 2026 – Abschnitt 138",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0137",
+"nachher": "tg-wl-2026__c0139"
+},
+{
+"id": "tg-wl-2026__c0139",
+"titel": "WL TG 2026 – Abschnitt 139",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0138",
+"nachher": "tg-wl-2026__c0140"
+},
+{
+"id": "tg-wl-2026__c0140",
+"titel": "WL TG 2026 – Abschnitt 140",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0139",
+"nachher": "tg-wl-2026__c0141"
+},
+{
+"id": "tg-wl-2026__c0141",
+"titel": "WL TG 2026 – Abschnitt 141",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0140",
+"nachher": "tg-wl-2026__c0142"
+},
+{
+"id": "tg-wl-2026__c0142",
+"titel": "WL TG 2026 – Abschnitt 142",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0141",
+"nachher": "tg-wl-2026__c0143"
+},
+{
+"id": "tg-wl-2026__c0143",
+"titel": "WL TG 2026 – Abschnitt 143",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0142",
+"nachher": "tg-wl-2026__c0144"
+},
+{
+"id": "tg-wl-2026__c0144",
+"titel": "WL TG 2026 – Abschnitt 144",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0143",
+"nachher": "tg-wl-2026__c0145"
+},
+{
+"id": "tg-wl-2026__c0145",
+"titel": "WL TG 2026 – Abschnitt 145",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0144",
+"nachher": "tg-wl-2026__c0146"
+},
+{
+"id": "tg-wl-2026__c0146",
+"titel": "WL TG 2026 – Abschnitt 146",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0145",
+"nachher": "tg-wl-2026__c0147"
+},
+{
+"id": "tg-wl-2026__c0147",
+"titel": "WL TG 2026 – Abschnitt 147",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0146",
+"nachher": "tg-wl-2026__c0148"
+},
+{
+"id": "tg-wl-2026__c0148",
+"titel": "WL TG 2026 – Abschnitt 148",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0147",
+"nachher": "tg-wl-2026__c0149"
+},
+{
+"id": "tg-wl-2026__c0149",
+"titel": "WL TG 2026 – Abschnitt 149",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0148",
+"nachher": "tg-wl-2026__c0150"
+},
+{
+"id": "tg-wl-2026__c0150",
+"titel": "WL TG 2026 – Abschnitt 150",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0149",
+"nachher": "tg-wl-2026__c0151"
+},
+{
+"id": "tg-wl-2026__c0151",
+"titel": "WL TG 2026 – Abschnitt 151",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0150",
+"nachher": "tg-wl-2026__c0152"
+},
+{
+"id": "tg-wl-2026__c0152",
+"titel": "WL TG 2026 – Abschnitt 152",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0151",
+"nachher": "tg-wl-2026__c0153"
+},
+{
+"id": "tg-wl-2026__c0153",
+"titel": "WL TG 2026 – Abschnitt 153",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0152",
+"nachher": "tg-wl-2026__c0154"
+},
+{
+"id": "tg-wl-2026__c0154",
+"titel": "WL TG 2026 – Abschnitt 154",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0153",
+"nachher": "tg-wl-2026__c0155"
+},
+{
+"id": "tg-wl-2026__c0155",
+"titel": "WL TG 2026 – Abschnitt 155",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0154",
+"nachher": "tg-wl-2026__c0156"
+},
+{
+"id": "tg-wl-2026__c0156",
+"titel": "WL TG 2026 – Abschnitt 156",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0155",
+"nachher": "tg-wl-2026__c0157"
+},
+{
+"id": "tg-wl-2026__c0157",
+"titel": "WL TG 2026 – Abschnitt 157",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0156",
+"nachher": "tg-wl-2026__c0158"
+},
+{
+"id": "tg-wl-2026__c0158",
+"titel": "WL TG 2026 – Abschnitt 158",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0157",
+"nachher": "tg-wl-2026__c0159"
+},
+{
+"id": "tg-wl-2026__c0159",
+"titel": "WL TG 2026 – Abschnitt 159",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0158",
+"nachher": "tg-wl-2026__c0160"
+},
+{
+"id": "tg-wl-2026__c0160",
+"titel": "WL TG 2026 – Abschnitt 160",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0159",
+"nachher": "tg-wl-2026__c0161"
+},
+{
+"id": "tg-wl-2026__c0161",
+"titel": "WL TG 2026 – Abschnitt 161",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0160",
+"nachher": "tg-wl-2026__c0162"
+},
+{
+"id": "tg-wl-2026__c0162",
+"titel": "WL TG 2026 – Abschnitt 162",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0161",
+"nachher": "tg-wl-2026__c0163"
+},
+{
+"id": "tg-wl-2026__c0163",
+"titel": "WL TG 2026 – Abschnitt 163",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0162",
+"nachher": "tg-wl-2026__c0164"
+},
+{
+"id": "tg-wl-2026__c0164",
+"titel": "WL TG 2026 – Abschnitt 164",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0163",
+"nachher": "tg-wl-2026__c0165"
+},
+{
+"id": "tg-wl-2026__c0165",
+"titel": "WL TG 2026 – Abschnitt 165",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0164",
+"nachher": "tg-wl-2026__c0166"
+},
+{
+"id": "tg-wl-2026__c0166",
+"titel": "WL TG 2026 – Abschnitt 166",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0165",
+"nachher": "tg-wl-2026__c0167"
+},
+{
+"id": "tg-wl-2026__c0167",
+"titel": "WL TG 2026 – Abschnitt 167",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0166",
+"nachher": "tg-wl-2026__c0168"
+},
+{
+"id": "tg-wl-2026__c0168",
+"titel": "WL TG 2026 – Abschnitt 168",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0167",
+"nachher": "tg-wl-2026__c0169"
+},
+{
+"id": "tg-wl-2026__c0169",
+"titel": "WL TG 2026 – Abschnitt 169",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0168",
+"nachher": "tg-wl-2026__c0170"
+},
+{
+"id": "tg-wl-2026__c0170",
+"titel": "WL TG 2026 – Abschnitt 170",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0169",
+"nachher": "tg-wl-2026__c0171"
+},
+{
+"id": "tg-wl-2026__c0171",
+"titel": "WL TG 2026 – Abschnitt 171",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0170",
+"nachher": "tg-wl-2026__c0172"
+},
+{
+"id": "tg-wl-2026__c0172",
+"titel": "WL TG 2026 – Abschnitt 172",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0171",
+"nachher": "tg-wl-2026__c0173"
+},
+{
+"id": "tg-wl-2026__c0173",
+"titel": "WL TG 2026 – Abschnitt 173",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0172",
+"nachher": "tg-wl-2026__c0174"
+},
+{
+"id": "tg-wl-2026__c0174",
+"titel": "WL TG 2026 – Abschnitt 174",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0173",
+"nachher": "tg-wl-2026__c0175"
+},
+{
+"id": "tg-wl-2026__c0175",
+"titel": "WL TG 2026 – Abschnitt 175",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0174",
+"nachher": "tg-wl-2026__c0176"
+},
+{
+"id": "tg-wl-2026__c0176",
+"titel": "WL TG 2026 – Abschnitt 176",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0175",
+"nachher": "tg-wl-2026__c0177"
+},
+{
+"id": "tg-wl-2026__c0177",
+"titel": "WL TG 2026 – Abschnitt 177",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0176",
+"nachher": "tg-wl-2026__c0178"
+},
+{
+"id": "tg-wl-2026__c0178",
+"titel": "WL TG 2026 – Abschnitt 178",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0177",
+"nachher": "tg-wl-2026__c0179"
+},
+{
+"id": "tg-wl-2026__c0179",
+"titel": "WL TG 2026 – Abschnitt 179",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0178",
+"nachher": "tg-wl-2026__c0180"
+},
+{
+"id": "tg-wl-2026__c0180",
+"titel": "WL TG 2026 – Abschnitt 180",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0179",
+"nachher": "tg-wl-2026__c0181"
+},
+{
+"id": "tg-wl-2026__c0181",
+"titel": "WL TG 2026 – Abschnitt 181",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0180",
+"nachher": "tg-wl-2026__c0182"
+},
+{
+"id": "tg-wl-2026__c0182",
+"titel": "WL TG 2026 – Abschnitt 182",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0181",
+"nachher": "tg-wl-2026__c0183"
+},
+{
+"id": "tg-wl-2026__c0183",
+"titel": "WL TG 2026 – Abschnitt 183",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0182",
+"nachher": "tg-wl-2026__c0184"
+},
+{
+"id": "tg-wl-2026__c0184",
+"titel": "WL TG 2026 – Abschnitt 184",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0183",
+"nachher": "tg-wl-2026__c0185"
+},
+{
+"id": "tg-wl-2026__c0185",
+"titel": "WL TG 2026 – Abschnitt 185",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0184",
+"nachher": "tg-wl-2026__c0186"
+},
+{
+"id": "tg-wl-2026__c0186",
+"titel": "WL TG 2026 – Abschnitt 186",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0185",
+"nachher": "tg-wl-2026__c0187"
+},
+{
+"id": "tg-wl-2026__c0187",
+"titel": "WL TG 2026 – Abschnitt 187",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0186",
+"nachher": "tg-wl-2026__c0188"
+},
+{
+"id": "tg-wl-2026__c0188",
+"titel": "WL TG 2026 – Abschnitt 188",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0187",
+"nachher": "tg-wl-2026__c0189"
+},
+{
+"id": "tg-wl-2026__c0189",
+"titel": "WL TG 2026 – Abschnitt 189",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0188",
+"nachher": "tg-wl-2026__c0190"
+},
+{
+"id": "tg-wl-2026__c0190",
+"titel": "WL TG 2026 – Abschnitt 190",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0189",
+"nachher": "tg-wl-2026__c0191"
+},
+{
+"id": "tg-wl-2026__c0191",
+"titel": "WL TG 2026 – Abschnitt 191",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0190",
+"nachher": "tg-wl-2026__c0192"
+},
+{
+"id": "tg-wl-2026__c0192",
+"titel": "WL TG 2026 – Abschnitt 192",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0191",
+"nachher": "tg-wl-2026__c0193"
+},
+{
+"id": "tg-wl-2026__c0193",
+"titel": "WL TG 2026 – Abschnitt 193",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0192",
+"nachher": "tg-wl-2026__c0194"
+},
+{
+"id": "tg-wl-2026__c0194",
+"titel": "WL TG 2026 – Abschnitt 194",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0193",
+"nachher": "tg-wl-2026__c0195"
+},
+{
+"id": "tg-wl-2026__c0195",
+"titel": "WL TG 2026 – Abschnitt 195",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0194",
+"nachher": "tg-wl-2026__c0196"
+},
+{
+"id": "tg-wl-2026__c0196",
+"titel": "WL TG 2026 – Abschnitt 196",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0195",
+"nachher": "tg-wl-2026__c0197"
+},
+{
+"id": "tg-wl-2026__c0197",
+"titel": "WL TG 2026 – Abschnitt 197",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0196",
+"nachher": "tg-wl-2026__c0198"
+},
+{
+"id": "tg-wl-2026__c0198",
+"titel": "WL TG 2026 – Abschnitt 198",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0197",
+"nachher": "tg-wl-2026__c0199"
+},
+{
+"id": "tg-wl-2026__c0199",
+"titel": "WL TG 2026 – Abschnitt 199",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0198",
+"nachher": "tg-wl-2026__c0200"
+},
+{
+"id": "tg-wl-2026__c0200",
+"titel": "WL TG 2026 – Abschnitt 200",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0199",
+"nachher": "tg-wl-2026__c0201"
+},
+{
+"id": "tg-wl-2026__c0201",
+"titel": "WL TG 2026 – Abschnitt 201",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0200",
+"nachher": "tg-wl-2026__c0202"
+},
+{
+"id": "tg-wl-2026__c0202",
+"titel": "WL TG 2026 – Abschnitt 202",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0201",
+"nachher": "tg-wl-2026__c0203"
+},
+{
+"id": "tg-wl-2026__c0203",
+"titel": "WL TG 2026 – Abschnitt 203",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0202",
+"nachher": "tg-wl-2026__c0204"
+},
+{
+"id": "tg-wl-2026__c0204",
+"titel": "WL TG 2026 – Abschnitt 204",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0203",
+"nachher": "tg-wl-2026__c0205"
+},
+{
+"id": "tg-wl-2026__c0205",
+"titel": "WL TG 2026 – Abschnitt 205",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0204",
+"nachher": "tg-wl-2026__c0206"
+},
+{
+"id": "tg-wl-2026__c0206",
+"titel": "WL TG 2026 – Abschnitt 206",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0205",
+"nachher": "tg-wl-2026__c0207"
+},
+{
+"id": "tg-wl-2026__c0207",
+"titel": "WL TG 2026 – Abschnitt 207",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0206",
+"nachher": "tg-wl-2026__c0208"
+},
+{
+"id": "tg-wl-2026__c0208",
+"titel": "WL TG 2026 – Abschnitt 208",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0207",
+"nachher": "tg-wl-2026__c0209"
+},
+{
+"id": "tg-wl-2026__c0209",
+"titel": "WL TG 2026 – Abschnitt 209",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0208",
+"nachher": "tg-wl-2026__c0210"
+},
+{
+"id": "tg-wl-2026__c0210",
+"titel": "WL TG 2026 – Abschnitt 210",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0209",
+"nachher": "tg-wl-2026__c0211"
+},
+{
+"id": "tg-wl-2026__c0211",
+"titel": "WL TG 2026 – Abschnitt 211",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0210",
+"nachher": "tg-wl-2026__c0212"
+},
+{
+"id": "tg-wl-2026__c0212",
+"titel": "WL TG 2026 – Abschnitt 212",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0211",
+"nachher": "tg-wl-2026__c0213"
+},
+{
+"id": "tg-wl-2026__c0213",
+"titel": "WL TG 2026 – Abschnitt 213",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0212",
+"nachher": "tg-wl-2026__c0214"
+},
+{
+"id": "tg-wl-2026__c0214",
+"titel": "WL TG 2026 – Abschnitt 214",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0213",
+"nachher": "tg-wl-2026__c0215"
+},
+{
+"id": "tg-wl-2026__c0215",
+"titel": "WL TG 2026 – Abschnitt 215",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0214",
+"nachher": "tg-wl-2026__c0216"
+},
+{
+"id": "tg-wl-2026__c0216",
+"titel": "WL TG 2026 – Abschnitt 216",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0215",
+"nachher": "tg-wl-2026__c0217"
+},
+{
+"id": "tg-wl-2026__c0217",
+"titel": "WL TG 2026 – Abschnitt 217",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0216",
+"nachher": "tg-wl-2026__c0218"
+},
+{
+"id": "tg-wl-2026__c0218",
+"titel": "WL TG 2026 – Abschnitt 218",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0217",
+"nachher": "tg-wl-2026__c0219"
+},
+{
+"id": "tg-wl-2026__c0219",
+"titel": "WL TG 2026 – Abschnitt 219",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0218",
+"nachher": "tg-wl-2026__c0220"
+},
+{
+"id": "tg-wl-2026__c0220",
+"titel": "WL TG 2026 – Abschnitt 220",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0219",
+"nachher": "tg-wl-2026__c0221"
+},
+{
+"id": "tg-wl-2026__c0221",
+"titel": "WL TG 2026 – Abschnitt 221",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0220",
+"nachher": "tg-wl-2026__c0222"
+},
+{
+"id": "tg-wl-2026__c0222",
+"titel": "WL TG 2026 – Abschnitt 222",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0221",
+"nachher": "tg-wl-2026__c0223"
+},
+{
+"id": "tg-wl-2026__c0223",
+"titel": "WL TG 2026 – Abschnitt 223",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0222",
+"nachher": "tg-wl-2026__c0224"
+},
+{
+"id": "tg-wl-2026__c0224",
+"titel": "WL TG 2026 – Abschnitt 224",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0223",
+"nachher": "tg-wl-2026__c0225"
+},
+{
+"id": "tg-wl-2026__c0225",
+"titel": "WL TG 2026 – Abschnitt 225",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0224",
+"nachher": "tg-wl-2026__c0226"
+},
+{
+"id": "tg-wl-2026__c0226",
+"titel": "WL TG 2026 – Abschnitt 226",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0225",
+"nachher": "tg-wl-2026__c0227"
+},
+{
+"id": "tg-wl-2026__c0227",
+"titel": "WL TG 2026 – Abschnitt 227",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0226",
+"nachher": "tg-wl-2026__c0228"
+},
+{
+"id": "tg-wl-2026__c0228",
+"titel": "WL TG 2026 – Abschnitt 228",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0227",
+"nachher": "tg-wl-2026__c0229"
+},
+{
+"id": "tg-wl-2026__c0229",
+"titel": "WL TG 2026 – Abschnitt 229",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0228",
+"nachher": "tg-wl-2026__c0230"
+},
+{
+"id": "tg-wl-2026__c0230",
+"titel": "WL TG 2026 – Abschnitt 230",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0229",
+"nachher": "tg-wl-2026__c0231"
+},
+{
+"id": "tg-wl-2026__c0231",
+"titel": "WL TG 2026 – Abschnitt 231",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0230",
+"nachher": "tg-wl-2026__c0232"
+},
+{
+"id": "tg-wl-2026__c0232",
+"titel": "WL TG 2026 – Abschnitt 232",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0231",
+"nachher": "tg-wl-2026__c0233"
+},
+{
+"id": "tg-wl-2026__c0233",
+"titel": "WL TG 2026 – Abschnitt 233",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0232",
+"nachher": "tg-wl-2026__c0234"
+},
+{
+"id": "tg-wl-2026__c0234",
+"titel": "WL TG 2026 – Abschnitt 234",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0233",
+"nachher": "tg-wl-2026__c0235"
+},
+{
+"id": "tg-wl-2026__c0235",
+"titel": "WL TG 2026 – Abschnitt 235",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0234",
+"nachher": "tg-wl-2026__c0236"
+},
+{
+"id": "tg-wl-2026__c0236",
+"titel": "WL TG 2026 – Abschnitt 236",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0235",
+"nachher": "tg-wl-2026__c0237"
+},
+{
+"id": "tg-wl-2026__c0237",
+"titel": "WL TG 2026 – Abschnitt 237",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0236",
+"nachher": "tg-wl-2026__c0238"
+},
+{
+"id": "tg-wl-2026__c0238",
+"titel": "WL TG 2026 – Abschnitt 238",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0237",
+"nachher": "tg-wl-2026__c0239"
+},
+{
+"id": "tg-wl-2026__c0239",
+"titel": "WL TG 2026 – Abschnitt 239",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0238",
+"nachher": "tg-wl-2026__c0240"
+},
+{
+"id": "tg-wl-2026__c0240",
+"titel": "WL TG 2026 – Abschnitt 240",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0239",
+"nachher": "tg-wl-2026__c0241"
+},
+{
+"id": "tg-wl-2026__c0241",
+"titel": "WL TG 2026 – Abschnitt 241",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0240",
+"nachher": "tg-wl-2026__c0242"
+},
+{
+"id": "tg-wl-2026__c0242",
+"titel": "WL TG 2026 – Abschnitt 242",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0241",
+"nachher": "tg-wl-2026__c0243"
+},
+{
+"id": "tg-wl-2026__c0243",
+"titel": "WL TG 2026 – Abschnitt 243",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0242",
+"nachher": "tg-wl-2026__c0244"
+},
+{
+"id": "tg-wl-2026__c0244",
+"titel": "WL TG 2026 – Abschnitt 244",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0243",
+"nachher": "tg-wl-2026__c0245"
+},
+{
+"id": "tg-wl-2026__c0245",
+"titel": "WL TG 2026 – Abschnitt 245",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0244",
+"nachher": "tg-wl-2026__c0246"
+},
+{
+"id": "tg-wl-2026__c0246",
+"titel": "WL TG 2026 – Abschnitt 246",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0245",
+"nachher": "tg-wl-2026__c0247"
+},
+{
+"id": "tg-wl-2026__c0247",
+"titel": "WL TG 2026 – Abschnitt 247",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0246",
+"nachher": "tg-wl-2026__c0248"
+},
+{
+"id": "tg-wl-2026__c0248",
+"titel": "WL TG 2026 – Abschnitt 248",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0247",
+"nachher": "tg-wl-2026__c0249"
+},
+{
+"id": "tg-wl-2026__c0249",
+"titel": "WL TG 2026 – Abschnitt 249",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0248",
+"nachher": "tg-wl-2026__c0250"
+},
+{
+"id": "tg-wl-2026__c0250",
+"titel": "WL TG 2026 – Abschnitt 250",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0249",
+"nachher": "tg-wl-2026__c0251"
+},
+{
+"id": "tg-wl-2026__c0251",
+"titel": "WL TG 2026 – Abschnitt 251",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0250",
+"nachher": "tg-wl-2026__c0252"
+},
+{
+"id": "tg-wl-2026__c0252",
+"titel": "WL TG 2026 – Abschnitt 252",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0251",
+"nachher": "tg-wl-2026__c0253"
+},
+{
+"id": "tg-wl-2026__c0253",
+"titel": "WL TG 2026 – Abschnitt 253",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0252",
+"nachher": "tg-wl-2026__c0254"
+},
+{
+"id": "tg-wl-2026__c0254",
+"titel": "WL TG 2026 – Abschnitt 254",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0253",
+"nachher": "tg-wl-2026__c0255"
+},
+{
+"id": "tg-wl-2026__c0255",
+"titel": "WL TG 2026 – Abschnitt 255",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0254",
+"nachher": "tg-wl-2026__c0256"
+},
+{
+"id": "tg-wl-2026__c0256",
+"titel": "WL TG 2026 – Abschnitt 256",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0255",
+"nachher": "tg-wl-2026__c0257"
+},
+{
+"id": "tg-wl-2026__c0257",
+"titel": "WL TG 2026 – Abschnitt 257",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0256",
+"nachher": "tg-wl-2026__c0258"
+},
+{
+"id": "tg-wl-2026__c0258",
+"titel": "WL TG 2026 – Abschnitt 258",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0257",
+"nachher": "tg-wl-2026__c0259"
+},
+{
+"id": "tg-wl-2026__c0259",
+"titel": "WL TG 2026 – Abschnitt 259",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0258",
+"nachher": "tg-wl-2026__c0260"
+},
+{
+"id": "tg-wl-2026__c0260",
+"titel": "WL TG 2026 – Abschnitt 260",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0259",
+"nachher": "tg-wl-2026__c0261"
+},
+{
+"id": "tg-wl-2026__c0261",
+"titel": "WL TG 2026 – Abschnitt 261",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0260",
+"nachher": "tg-wl-2026__c0262"
+},
+{
+"id": "tg-wl-2026__c0262",
+"titel": "WL TG 2026 – Abschnitt 262",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0261",
+"nachher": "tg-wl-2026__c0263"
+},
+{
+"id": "tg-wl-2026__c0263",
+"titel": "WL TG 2026 – Abschnitt 263",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0262",
+"nachher": "tg-wl-2026__c0264"
+},
+{
+"id": "tg-wl-2026__c0264",
+"titel": "WL TG 2026 – Abschnitt 264",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0263",
+"nachher": "tg-wl-2026__c0265"
+},
+{
+"id": "tg-wl-2026__c0265",
+"titel": "WL TG 2026 – Abschnitt 265",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0264",
+"nachher": "tg-wl-2026__c0266"
+},
+{
+"id": "tg-wl-2026__c0266",
+"titel": "WL TG 2026 – Abschnitt 266",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0265",
+"nachher": "tg-wl-2026__c0267"
+},
+{
+"id": "tg-wl-2026__c0267",
+"titel": "WL TG 2026 – Abschnitt 267",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0266",
+"nachher": "tg-wl-2026__c0268"
+},
+{
+"id": "tg-wl-2026__c0268",
+"titel": "WL TG 2026 – Abschnitt 268",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0267",
+"nachher": "tg-wl-2026__c0269"
+},
+{
+"id": "tg-wl-2026__c0269",
+"titel": "WL TG 2026 – Abschnitt 269",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0268",
+"nachher": "tg-wl-2026__c0270"
+},
+{
+"id": "tg-wl-2026__c0270",
+"titel": "WL TG 2026 – Abschnitt 270",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0269",
+"nachher": "tg-wl-2026__c0271"
+},
+{
+"id": "tg-wl-2026__c0271",
+"titel": "WL TG 2026 – Abschnitt 271",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0270",
+"nachher": "tg-wl-2026__c0272"
+},
+{
+"id": "tg-wl-2026__c0272",
+"titel": "WL TG 2026 – Abschnitt 272",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0271",
+"nachher": "tg-wl-2026__c0273"
+},
+{
+"id": "tg-wl-2026__c0273",
+"titel": "WL TG 2026 – Abschnitt 273",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0272",
+"nachher": "tg-wl-2026__c0274"
+},
+{
+"id": "tg-wl-2026__c0274",
+"titel": "WL TG 2026 – Abschnitt 274",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0273",
+"nachher": "tg-wl-2026__c0275"
+},
+{
+"id": "tg-wl-2026__c0275",
+"titel": "WL TG 2026 – Abschnitt 275",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0274",
+"nachher": "tg-wl-2026__c0276"
+},
+{
+"id": "tg-wl-2026__c0276",
+"titel": "WL TG 2026 – Abschnitt 276",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0275",
+"nachher": "tg-wl-2026__c0277"
+},
+{
+"id": "tg-wl-2026__c0277",
+"titel": "WL TG 2026 – Abschnitt 277",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0276",
+"nachher": "tg-wl-2026__c0278"
+},
+{
+"id": "tg-wl-2026__c0278",
+"titel": "WL TG 2026 – Abschnitt 278",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0277",
+"nachher": "tg-wl-2026__c0279"
+},
+{
+"id": "tg-wl-2026__c0279",
+"titel": "WL TG 2026 – Abschnitt 279",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0278",
+"nachher": "tg-wl-2026__c0280"
+},
+{
+"id": "tg-wl-2026__c0280",
+"titel": "WL TG 2026 – Abschnitt 280",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0279",
+"nachher": "tg-wl-2026__c0281"
+},
+{
+"id": "tg-wl-2026__c0281",
+"titel": "WL TG 2026 – Abschnitt 281",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0280",
+"nachher": "tg-wl-2026__c0282"
+},
+{
+"id": "tg-wl-2026__c0282",
+"titel": "WL TG 2026 – Abschnitt 282",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0281",
+"nachher": "tg-wl-2026__c0283"
+},
+{
+"id": "tg-wl-2026__c0283",
+"titel": "WL TG 2026 – Abschnitt 283",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0282",
+"nachher": "tg-wl-2026__c0284"
+},
+{
+"id": "tg-wl-2026__c0284",
+"titel": "WL TG 2026 – Abschnitt 284",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0283",
+"nachher": "tg-wl-2026__c0285"
+},
+{
+"id": "tg-wl-2026__c0285",
+"titel": "WL TG 2026 – Abschnitt 285",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0284",
+"nachher": "tg-wl-2026__c0286"
+},
+{
+"id": "tg-wl-2026__c0286",
+"titel": "WL TG 2026 – Abschnitt 286",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0285",
+"nachher": "tg-wl-2026__c0287"
+},
+{
+"id": "tg-wl-2026__c0287",
+"titel": "WL TG 2026 – Abschnitt 287",
+"pfad": [],
+"seiten": [
+59,
+60
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-wl-2026__c0286",
+"nachher": null
+}
+]

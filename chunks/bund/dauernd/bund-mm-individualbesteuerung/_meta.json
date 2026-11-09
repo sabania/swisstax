@@ -1,0 +1,50 @@
+[
+{
+"id": "bund-mm-individualbesteuerung__c0001",
+"titel": "Medienmitteilung Bundesrat: Individualbesteuerung per 01.01.2032",
+"pfad": [
+"Medienmitteilung Bundesrat: Individualbesteuerung per 01.01.2032"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "bund-mm-individualbesteuerung__c0002"
+},
+{
+"id": "bund-mm-individualbesteuerung__c0002",
+"titel": "Individualbesteuerung tritt 2032 in Kraft",
+"pfad": [
+"Individualbesteuerung tritt 2032 in Kraft"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "bund-mm-individualbesteuerung__c0001",
+"nachher": "bund-mm-individualbesteuerung__c0003"
+},
+{
+"id": "bund-mm-individualbesteuerung__c0003",
+"titel": "Individualbesteuerung tritt 2032 in Kraft",
+"pfad": [
+"Individualbesteuerung tritt 2032 in Kraft"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "bund-mm-individualbesteuerung__c0002",
+"nachher": null
+}
+]

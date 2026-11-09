@@ -1,0 +1,87 @@
+[
+{
+"id": "zh-stv__c0001",
+"titel": "Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
+"pfad": [
+"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "zh-stv__c0002"
+},
+{
+"id": "zh-stv__c0002",
+"titel": "Details",
+"pfad": [
+"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
+"Details"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-stv__c0001",
+"nachher": "zh-stv__c0003"
+},
+{
+"id": "zh-stv__c0003",
+"titel": "Details",
+"pfad": [
+"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
+"Details"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-stv__c0002",
+"nachher": "zh-stv__c0004"
+},
+{
+"id": "zh-stv__c0004",
+"titel": "Erlasstext",
+"pfad": [
+"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
+"Details",
+"Erlasstext"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-stv__c0003",
+"nachher": "zh-stv__c0005"
+},
+{
+"id": "zh-stv__c0005",
+"titel": "Für dieses Thema zuständig:",
+"pfad": [
+"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
+"Für dieses Thema zuständig:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-stv__c0004",
+"nachher": null
+}
+]

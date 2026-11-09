@@ -1,0 +1,35 @@
+[
+{
+"id": "zh-zstb-21-1__c0001",
+"titel": "ZStB 21.1: Liegenschaftenbewertung / Eigenmietwerte (Weisung 2026)",
+"pfad": [
+"ZStB 21.1: Liegenschaftenbewertung / Eigenmietwerte (Weisung 2026)"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "zh-zstb-21-1__c0002"
+},
+{
+"id": "zh-zstb-21-1__c0002",
+"titel": "Gültig bis Steuerperiode 2025",
+"pfad": [
+"ZStB 21.1: Liegenschaftenbewertung / Eigenmietwerte (Weisung 2026)",
+"Gültig bis Steuerperiode 2025"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-21-1__c0001",
+"nachher": null
+}
+]

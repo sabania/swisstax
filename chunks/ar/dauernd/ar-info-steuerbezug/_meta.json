@@ -1,0 +1,269 @@
+[
+{
+"id": "ar-info-steuerbezug__c0001",
+"titel": "Steuerbezug (vorläufige Rechnung, Zinsen, Raten)",
+"pfad": [
+"Steuerbezug (vorläufige Rechnung, Zinsen, Raten)"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "ar-info-steuerbezug__c0002"
+},
+{
+"id": "ar-info-steuerbezug__c0002",
+"titel": "Steuerbezug",
+"pfad": [
+"Steuerbezug"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0001",
+"nachher": "ar-info-steuerbezug__c0003"
+},
+{
+"id": "ar-info-steuerbezug__c0003",
+"titel": "Steuerbezug",
+"pfad": [
+"Steuerbezug"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0002",
+"nachher": "ar-info-steuerbezug__c0004"
+},
+{
+"id": "ar-info-steuerbezug__c0004",
+"titel": "Steuerbezug",
+"pfad": [
+"Steuerbezug"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0003",
+"nachher": "ar-info-steuerbezug__c0005"
+},
+{
+"id": "ar-info-steuerbezug__c0005",
+"titel": "Steuerbezug",
+"pfad": [
+"Steuerbezug"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0004",
+"nachher": "ar-info-steuerbezug__c0006"
+},
+{
+"id": "ar-info-steuerbezug__c0006",
+"titel": "Steuerbezug",
+"pfad": [
+"Steuerbezug"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0005",
+"nachher": "ar-info-steuerbezug__c0007"
+},
+{
+"id": "ar-info-steuerbezug__c0007",
+"titel": "Für Zahlungen aus dem Ausland:",
+"pfad": [
+"Steuerbezug",
+"Für Zahlungen aus dem Ausland:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0006",
+"nachher": "ar-info-steuerbezug__c0008"
+},
+{
+"id": "ar-info-steuerbezug__c0008",
+"titel": "Für Zahlungen aus dem Ausland:",
+"pfad": [
+"Steuerbezug",
+"Für Zahlungen aus dem Ausland:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0007",
+"nachher": "ar-info-steuerbezug__c0009"
+},
+{
+"id": "ar-info-steuerbezug__c0009",
+"titel": "Für Zahlungen aus dem Ausland:",
+"pfad": [
+"Steuerbezug",
+"Für Zahlungen aus dem Ausland:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0008",
+"nachher": "ar-info-steuerbezug__c0010"
+},
+{
+"id": "ar-info-steuerbezug__c0010",
+"titel": "Für Zahlungen aus dem Ausland:",
+"pfad": [
+"Steuerbezug",
+"Für Zahlungen aus dem Ausland:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0009",
+"nachher": "ar-info-steuerbezug__c0011"
+},
+{
+"id": "ar-info-steuerbezug__c0011",
+"titel": "Für Zahlungen aus dem Ausland:",
+"pfad": [
+"Steuerbezug",
+"Für Zahlungen aus dem Ausland:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0010",
+"nachher": "ar-info-steuerbezug__c0012"
+},
+{
+"id": "ar-info-steuerbezug__c0012",
+"titel": "Für Zahlungen aus dem Ausland:",
+"pfad": [
+"Steuerbezug",
+"Für Zahlungen aus dem Ausland:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0011",
+"nachher": "ar-info-steuerbezug__c0013"
+},
+{
+"id": "ar-info-steuerbezug__c0013",
+"titel": "Staats- und Gemeindesteuern:",
+"pfad": [
+"Steuerbezug",
+"Staats- und Gemeindesteuern:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0012",
+"nachher": "ar-info-steuerbezug__c0014"
+},
+{
+"id": "ar-info-steuerbezug__c0014",
+"titel": "direkte Bundessteuer:",
+"pfad": [
+"Steuerbezug",
+"direkte Bundessteuer:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0013",
+"nachher": "ar-info-steuerbezug__c0015"
+},
+{
+"id": "ar-info-steuerbezug__c0015",
+"titel": "Informationen zur vorläufigen Rechung Staats- und Gemeindesteuern:",
+"pfad": [
+"Steuerbezug",
+"Informationen zur vorläufigen Rechung Staats- und Gemeindesteuern:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0014",
+"nachher": "ar-info-steuerbezug__c0016"
+},
+{
+"id": "ar-info-steuerbezug__c0016",
+"titel": "Kantonale Steuerverwaltung",
+"pfad": [
+"Steuerbezug",
+"Zusätzliche Informationen",
+"Kantonale Steuerverwaltung"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-steuerbezug__c0015",
+"nachher": null
+}
+]

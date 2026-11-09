@@ -1,0 +1,21 @@
+---
+id: bund-dbg-2025__art-117
+quelle: bund-dbg-2025
+jur: bund
+jahre: [2025]
+typ: gesetz
+titel: "Art. 117 DBG – Vertragliche Vertretung"
+artikel: "Art. 117"
+qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
+---
+> Bund · Steuerjahr 2025 · DBG · Zweiter Titel: Allgemeine Verfahrensgrundsätze › 3. Kapitel: Verfahrensrechte des Steuerpflichtigen › Art. 117 Vertragliche Vertretung
+
+### Art. 117 DBG – Vertragliche Vertretung
+
+**Abs. 1** Der Steuerpflichtige kann sich vor den mit dem Vollzug dieses Gesetzes betrauten Behörden vertraglich vertreten lassen, soweit seine persönliche Mitwirkung nicht notwendig ist.
+
+**Abs. 2** Als Vertreter wird zugelassen, wer handlungsfähig ist und in bürgerlichen Ehren und Rechten steht. Die Behörde kann den Vertreter auffordern, sich durch schriftliche Vollmacht auszuweisen.
+
+**Abs. 3** Haben Ehegatten, welche in rechtlich und tatsächlich ungetrennter Ehe leben, keinen gemeinsamen Vertreter oder Zustellungsberechtigten bestellt, so ergehen sämtliche Zustellungen an die Ehegatten gemeinsam.
+
+**Abs. 4** Zustellungen an Ehegatten, die in gerichtlich oder tatsächlich getrennter Ehe leben, erfolgen an jeden Ehegatten gesondert.

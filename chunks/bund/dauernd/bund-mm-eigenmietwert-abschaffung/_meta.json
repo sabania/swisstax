@@ -1,0 +1,66 @@
+[
+{
+"id": "bund-mm-eigenmietwert-abschaffung__c0001",
+"titel": "Medienmitteilung Bundesrat: Abschaffung Eigenmietwert per 01.01.2029",
+"pfad": [
+"Medienmitteilung Bundesrat: Abschaffung Eigenmietwert per 01.01.2029"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "bund-mm-eigenmietwert-abschaffung__c0002"
+},
+{
+"id": "bund-mm-eigenmietwert-abschaffung__c0002",
+"titel": "Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft",
+"pfad": [
+"Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "bund-mm-eigenmietwert-abschaffung__c0001",
+"nachher": "bund-mm-eigenmietwert-abschaffung__c0003"
+},
+{
+"id": "bund-mm-eigenmietwert-abschaffung__c0003",
+"titel": "Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft",
+"pfad": [
+"Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "bund-mm-eigenmietwert-abschaffung__c0002",
+"nachher": "bund-mm-eigenmietwert-abschaffung__c0004"
+},
+{
+"id": "bund-mm-eigenmietwert-abschaffung__c0004",
+"titel": "Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft",
+"pfad": [
+"Bundesrat setzt Abschaffung des Eigenmietwerts auf 2029 in Kraft"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "bund-mm-eigenmietwert-abschaffung__c0003",
+"nachher": null
+}
+]

@@ -1,0 +1,52 @@
+[
+{
+"id": "sg-info-fristverlaengerung__c0001",
+"titel": "Fristverlängerung Privatpersonen",
+"pfad": [
+"Fristverlängerung Privatpersonen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "sg-info-fristverlaengerung__c0002"
+},
+{
+"id": "sg-info-fristverlaengerung__c0002",
+"titel": "Privatpersonen",
+"pfad": [
+"Fristverlängerung Privatpersonen",
+"Privatpersonen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "sg-info-fristverlaengerung__c0001",
+"nachher": "sg-info-fristverlaengerung__c0003"
+},
+{
+"id": "sg-info-fristverlaengerung__c0003",
+"titel": "eFristverlängerung",
+"pfad": [
+"Fristverlängerung Privatpersonen",
+"eFristverlängerung"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "sg-info-fristverlaengerung__c0002",
+"nachher": null
+}
+]

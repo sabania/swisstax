@@ -1,0 +1,53 @@
+[
+{
+"id": "zh-v-einreichung__c0001",
+"titel": "Verordnung über die elektronische Einreichung (LS 631.121)",
+"pfad": [
+"Verordnung über die elektronische Einreichung (LS 631.121)"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "zh-v-einreichung__c0002"
+},
+{
+"id": "zh-v-einreichung__c0002",
+"titel": "Erlasstext",
+"pfad": [
+"Verordnung über die elektronische Einreichung (LS 631.121)",
+"Details",
+"Erlasstext"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-v-einreichung__c0001",
+"nachher": "zh-v-einreichung__c0003"
+},
+{
+"id": "zh-v-einreichung__c0003",
+"titel": "Für dieses Thema zuständig:",
+"pfad": [
+"Verordnung über die elektronische Einreichung (LS 631.121)",
+"Für dieses Thema zuständig:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-v-einreichung__c0002",
+"nachher": null
+}
+]

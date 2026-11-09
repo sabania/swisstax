@@ -1,0 +1,142 @@
+[
+{
+"id": "zh-info-spenden__c0001",
+"titel": "Spenden an gemeinnützige Organisationen",
+"pfad": [
+"Spenden an gemeinnützige Organisationen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "zh-info-spenden__c0002"
+},
+{
+"id": "zh-info-spenden__c0002",
+"titel": "Auf dieser Seite",
+"pfad": [
+"Spenden an gemeinnützige Organisationen",
+"Auf dieser Seite"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-spenden__c0001",
+"nachher": "zh-info-spenden__c0003"
+},
+{
+"id": "zh-info-spenden__c0003",
+"titel": "Abzug von Spenden an steuerbefreite Organisationen",
+"pfad": [
+"Spenden an gemeinnützige Organisationen",
+"Abzug von Spenden an steuerbefreite Organisationen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-spenden__c0002",
+"nachher": "zh-info-spenden__c0004"
+},
+{
+"id": "zh-info-spenden__c0004",
+"titel": "Zuwendungen an Organisationen im Kanton Zürich",
+"pfad": [
+"Spenden an gemeinnützige Organisationen",
+"Abzug von Spenden an steuerbefreite Organisationen",
+"Zuwendungen an Organisationen im Kanton Zürich"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-spenden__c0003",
+"nachher": "zh-info-spenden__c0005"
+},
+{
+"id": "zh-info-spenden__c0005",
+"titel": "Zuwendungen an Organisationen aus anderen Kantonen",
+"pfad": [
+"Spenden an gemeinnützige Organisationen",
+"Abzug von Spenden an steuerbefreite Organisationen",
+"Zuwendungen an Organisationen aus anderen Kantonen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-spenden__c0004",
+"nachher": "zh-info-spenden__c0006"
+},
+{
+"id": "zh-info-spenden__c0006",
+"titel": "Belege für die Zuwendungen",
+"pfad": [
+"Spenden an gemeinnützige Organisationen",
+"Abzug von Spenden an steuerbefreite Organisationen",
+"Belege für die Zuwendungen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-spenden__c0005",
+"nachher": "zh-info-spenden__c0007"
+},
+{
+"id": "zh-info-spenden__c0007",
+"titel": "Was Sie abziehen können",
+"pfad": [
+"Spenden an gemeinnützige Organisationen",
+"Abzug von Spenden an steuerbefreite Organisationen",
+"Was Sie abziehen können"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-spenden__c0006",
+"nachher": "zh-info-spenden__c0008"
+},
+{
+"id": "zh-info-spenden__c0008",
+"titel": "Organisationen mit dem Buchstaben (a)",
+"pfad": [
+"Spenden an gemeinnützige Organisationen",
+"Hinweise zum Verzeichnis",
+"Organisationen mit dem Buchstaben (a)"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-spenden__c0007",
+"nachher": null
+}
+]

@@ -1,0 +1,19 @@
+---
+id: bund-qstv__art-5
+quelle: bund-qstv
+jur: bund
+jahre: [2025, 2026]
+typ: verordnung
+titel: "Art. 5 QStV – Meldepflichten"
+artikel: "Art. 5"
+qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+---
+> Bund · Steuerjahr 2025/2026 · QStV · 1. Abschnitt: Allgemeine Bestimmungen › Art. 5 Meldepflichten
+
+### Art. 5 QStV – Meldepflichten
+
+**Abs. 1** Die Arbeitgeber müssen die Beschäftigung von Personen, die nach Artikel 83 oder 91 DBG quellensteuerpflichtig sind, der zuständigen Steuerbehörde innert acht Tagen ab Stellenantritt auf dem dafür vorgesehenen Formular melden.
+
+**Abs. 2** Übermittelt der Arbeitgeber die Quellensteuerabrechnung elektronisch, so kann er Neuanstellungen mittels monatlicher Abrechnung melden.
+
+**Abs. 3** Die Arbeitnehmerinnen und Arbeitnehmer müssen dem Arbeitgeber Änderungen von Sachverhalten melden, die für die Erhebung der Quellensteuer massgebend sind. Der Arbeitgeber meldet die Änderungen innerhalb der Fristen nach den Absätzen 1 und 2 der zuständigen Steuerbehörde.

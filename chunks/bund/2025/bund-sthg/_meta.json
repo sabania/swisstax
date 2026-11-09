@@ -1,0 +1,3757 @@
+[
+{
+"id": "bund-sthg__art-1",
+"titel": "Art. 1 StHG – Zweck und Geltungsbereich",
+"pfad": [
+"Erster Titel: Allgemeine Bestimmungen",
+"Art. 1 Zweck und Geltungsbereich"
+],
+"seiten": [],
+"artikel": "Art. 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "bund-sthg__art-2"
+},
+{
+"id": "bund-sthg__art-2",
+"titel": "Art. 2 StHG – Vorgeschriebene direkte Steuern",
+"pfad": [
+"Erster Titel: Allgemeine Bestimmungen",
+"Art. 2 Vorgeschriebene direkte Steuern"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-1",
+"nachher": "bund-sthg__art-3-t1"
+},
+{
+"id": "bund-sthg__art-3-t1",
+"titel": "Art. 3 StHG – Steuerpflicht aufgrund persönlicher Zugehörigkeit (Teil 1/2)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 3 Steuerpflicht aufgrund persönlicher Zugehörigkeit"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-2",
+"nachher": "bund-sthg__art-3-t2"
+},
+{
+"id": "bund-sthg__art-3-t2",
+"titel": "Art. 3 StHG – Steuerpflicht aufgrund persönlicher Zugehörigkeit (Teil 2/2)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 3 Steuerpflicht aufgrund persönlicher Zugehörigkeit"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-3-t1",
+"nachher": "bund-sthg__art-4-t1"
+},
+{
+"id": "bund-sthg__art-4-t1",
+"titel": "Art. 4 StHG – Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit (Teil 1/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 4 Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-3-t2",
+"nachher": "bund-sthg__art-4-t2"
+},
+{
+"id": "bund-sthg__art-4-t2",
+"titel": "Art. 4 StHG – Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit (Teil 2/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 4 Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-4-t1",
+"nachher": "bund-sthg__art-4-t3"
+},
+{
+"id": "bund-sthg__art-4-t3",
+"titel": "Art. 4 StHG – Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit (Teil 3/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 4 Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-4-t2",
+"nachher": "bund-sthg__art-4a"
+},
+{
+"id": "bund-sthg__art-4a",
+"titel": "Art. 4a StHG – Steuerbefreiung",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 4a Steuerbefreiung"
+],
+"seiten": [],
+"artikel": "Art. 4a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-4-t3",
+"nachher": "bund-sthg__art-4b"
+},
+{
+"id": "bund-sthg__art-4b",
+"titel": "Art. 4b StHG – Wechsel der Steuerpflicht",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 4b Wechsel der Steuerpflicht"
+],
+"seiten": [],
+"artikel": "Art. 4b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-4a",
+"nachher": "bund-sthg__art-5"
+},
+{
+"id": "bund-sthg__art-5",
+"titel": "Art. 5 StHG – Steuererleichterungen",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 5 Steuererleichterungen"
+],
+"seiten": [],
+"artikel": "Art. 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-4b",
+"nachher": "bund-sthg__art-6-t1"
+},
+{
+"id": "bund-sthg__art-6-t1",
+"titel": "Art. 6 StHG – Besteuerung nach dem Aufwand (Teil 1/4)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 6 Besteuerung nach dem Aufwand"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-5",
+"nachher": "bund-sthg__art-6-t2"
+},
+{
+"id": "bund-sthg__art-6-t2",
+"titel": "Art. 6 StHG – Besteuerung nach dem Aufwand (Teil 2/4)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 6 Besteuerung nach dem Aufwand"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-6-t1",
+"nachher": "bund-sthg__art-6-t3"
+},
+{
+"id": "bund-sthg__art-6-t3",
+"titel": "Art. 6 StHG – Besteuerung nach dem Aufwand (Teil 3/4)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 6 Besteuerung nach dem Aufwand"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-6-t2",
+"nachher": "bund-sthg__art-6-t4"
+},
+{
+"id": "bund-sthg__art-6-t4",
+"titel": "Art. 6 StHG – Besteuerung nach dem Aufwand (Teil 4/4)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 6 Besteuerung nach dem Aufwand"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-6-t3",
+"nachher": "bund-sthg__art-7-t1"
+},
+{
+"id": "bund-sthg__art-7-t1",
+"titel": "Art. 7 StHG – Grundsatz (Teil 1/9)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-6-t4",
+"nachher": "bund-sthg__art-7-t2"
+},
+{
+"id": "bund-sthg__art-7-t2",
+"titel": "Art. 7 StHG – Grundsatz (Teil 2/9)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7-t1",
+"nachher": "bund-sthg__art-7-t3"
+},
+{
+"id": "bund-sthg__art-7-t3",
+"titel": "Art. 7 StHG – Grundsatz (Teil 3/9)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7-t2",
+"nachher": "bund-sthg__art-7-t4"
+},
+{
+"id": "bund-sthg__art-7-t4",
+"titel": "Art. 7 StHG – Grundsatz (Teil 4/9)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7-t3",
+"nachher": "bund-sthg__art-7-t5"
+},
+{
+"id": "bund-sthg__art-7-t5",
+"titel": "Art. 7 StHG – Grundsatz (Teil 5/9)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7-t4",
+"nachher": "bund-sthg__art-7-t6"
+},
+{
+"id": "bund-sthg__art-7-t6",
+"titel": "Art. 7 StHG – Grundsatz (Teil 6/9)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7-t5",
+"nachher": "bund-sthg__art-7-t7"
+},
+{
+"id": "bund-sthg__art-7-t7",
+"titel": "Art. 7 StHG – Grundsatz (Teil 7/9)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7-t6",
+"nachher": "bund-sthg__art-7-t8"
+},
+{
+"id": "bund-sthg__art-7-t8",
+"titel": "Art. 7 StHG – Grundsatz (Teil 8/9)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7-t7",
+"nachher": "bund-sthg__art-7-t9"
+},
+{
+"id": "bund-sthg__art-7-t9",
+"titel": "Art. 7 StHG – Grundsatz (Teil 9/9)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7-t8",
+"nachher": "bund-sthg__art-7a-t1"
+},
+{
+"id": "bund-sthg__art-7a-t1",
+"titel": "Art. 7a StHG – Besondere Fälle (Teil 1/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7a Besondere Fälle"
+],
+"seiten": [],
+"artikel": "Art. 7a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7-t9",
+"nachher": "bund-sthg__art-7a-t2"
+},
+{
+"id": "bund-sthg__art-7a-t2",
+"titel": "Art. 7a StHG – Besondere Fälle (Teil 2/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7a Besondere Fälle"
+],
+"seiten": [],
+"artikel": "Art. 7a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7a-t1",
+"nachher": "bund-sthg__art-7a-t3"
+},
+{
+"id": "bund-sthg__art-7a-t3",
+"titel": "Art. 7a StHG – Besondere Fälle (Teil 3/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7a Besondere Fälle"
+],
+"seiten": [],
+"artikel": "Art. 7a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7a-t2",
+"nachher": "bund-sthg__art-7b-t1"
+},
+{
+"id": "bund-sthg__art-7b-t1",
+"titel": "Art. 7b StHG – Kapitaleinlagenprinzip (Teil 1/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7b Kapitaleinlagenprinzip"
+],
+"seiten": [],
+"artikel": "Art. 7b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7a-t3",
+"nachher": "bund-sthg__art-7b-t2"
+},
+{
+"id": "bund-sthg__art-7b-t2",
+"titel": "Art. 7b StHG – Kapitaleinlagenprinzip (Teil 2/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7b Kapitaleinlagenprinzip"
+],
+"seiten": [],
+"artikel": "Art. 7b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7b-t1",
+"nachher": "bund-sthg__art-7b-t3"
+},
+{
+"id": "bund-sthg__art-7b-t3",
+"titel": "Art. 7b StHG – Kapitaleinlagenprinzip (Teil 3/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7b Kapitaleinlagenprinzip"
+],
+"seiten": [],
+"artikel": "Art. 7b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7b-t2",
+"nachher": "bund-sthg__art-7c"
+},
+{
+"id": "bund-sthg__art-7c",
+"titel": "Art. 7c StHG – Mitarbeiterbeteiligungen",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7c Mitarbeiterbeteiligungen"
+],
+"seiten": [],
+"artikel": "Art. 7c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7b-t3",
+"nachher": "bund-sthg__art-7d"
+},
+{
+"id": "bund-sthg__art-7d",
+"titel": "Art. 7d StHG – Einkünfte aus echten Mitarbeiterbeteiligungen",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7d Einkünfte aus echten Mitarbeiterbeteiligungen"
+],
+"seiten": [],
+"artikel": "Art. 7d",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7c",
+"nachher": "bund-sthg__art-7e"
+},
+{
+"id": "bund-sthg__art-7e",
+"titel": "Art. 7e StHG – Einkünfte aus unechten Mitarbeiterbeteiligungen",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7e Einkünfte aus unechten Mitarbeiterbeteiligungen"
+],
+"seiten": [],
+"artikel": "Art. 7e",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7d",
+"nachher": "bund-sthg__art-7f"
+},
+{
+"id": "bund-sthg__art-7f",
+"titel": "Art. 7f StHG – Anteilsmässige Besteuerung",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 7f Anteilsmässige Besteuerung"
+],
+"seiten": [],
+"artikel": "Art. 7f",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7e",
+"nachher": "bund-sthg__art-8-t1"
+},
+{
+"id": "bund-sthg__art-8-t1",
+"titel": "Art. 8 StHG – Selbständige Erwerbstätigkeit (Teil 1/6)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 8 Selbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-7f",
+"nachher": "bund-sthg__art-8-t2"
+},
+{
+"id": "bund-sthg__art-8-t2",
+"titel": "Art. 8 StHG – Selbständige Erwerbstätigkeit (Teil 2/6)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 8 Selbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-8-t1",
+"nachher": "bund-sthg__art-8-t3"
+},
+{
+"id": "bund-sthg__art-8-t3",
+"titel": "Art. 8 StHG – Selbständige Erwerbstätigkeit (Teil 3/6)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 8 Selbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-8-t2",
+"nachher": "bund-sthg__art-8-t4"
+},
+{
+"id": "bund-sthg__art-8-t4",
+"titel": "Art. 8 StHG – Selbständige Erwerbstätigkeit (Teil 4/6)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 8 Selbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-8-t3",
+"nachher": "bund-sthg__art-8-t5"
+},
+{
+"id": "bund-sthg__art-8-t5",
+"titel": "Art. 8 StHG – Selbständige Erwerbstätigkeit (Teil 5/6)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 8 Selbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-8-t4",
+"nachher": "bund-sthg__art-8-t6"
+},
+{
+"id": "bund-sthg__art-8-t6",
+"titel": "Art. 8 StHG – Selbständige Erwerbstätigkeit (Teil 6/6)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 8 Selbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-8-t5",
+"nachher": "bund-sthg__art-8a"
+},
+{
+"id": "bund-sthg__art-8a",
+"titel": "Art. 8a StHG – Einkommen aus Patenten und vergleichbaren Rechten bei selbstständiger Erwerbstätigkeit",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"1. Abschnitt: Einkünfte",
+"Art. 8a Einkommen aus Patenten und vergleichbaren Rechten bei selbstständiger Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 8a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-8-t6",
+"nachher": "bund-sthg__art-9-t1"
+},
+{
+"id": "bund-sthg__art-9-t1",
+"titel": "Art. 9 StHG – Allgemeines (Teil 1/7)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 9 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-8a",
+"nachher": "bund-sthg__art-9-t2"
+},
+{
+"id": "bund-sthg__art-9-t2",
+"titel": "Art. 9 StHG – Allgemeines (Teil 2/7)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 9 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-9-t1",
+"nachher": "bund-sthg__art-9-t3"
+},
+{
+"id": "bund-sthg__art-9-t3",
+"titel": "Art. 9 StHG – Allgemeines (Teil 3/7)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 9 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-9-t2",
+"nachher": "bund-sthg__art-9-t4"
+},
+{
+"id": "bund-sthg__art-9-t4",
+"titel": "Art. 9 StHG – Allgemeines (Teil 4/7)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 9 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-9-t3",
+"nachher": "bund-sthg__art-9-t5"
+},
+{
+"id": "bund-sthg__art-9-t5",
+"titel": "Art. 9 StHG – Allgemeines (Teil 5/7)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 9 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-9-t4",
+"nachher": "bund-sthg__art-9-t6"
+},
+{
+"id": "bund-sthg__art-9-t6",
+"titel": "Art. 9 StHG – Allgemeines (Teil 6/7)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 9 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-9-t5",
+"nachher": "bund-sthg__art-9-t7"
+},
+{
+"id": "bund-sthg__art-9-t7",
+"titel": "Art. 9 StHG – Allgemeines (Teil 7/7)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 9 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-9-t6",
+"nachher": "bund-sthg__art-10-t1"
+},
+{
+"id": "bund-sthg__art-10-t1",
+"titel": "Art. 10 StHG – Selbständige Erwerbstätigkeit (Teil 1/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 10 Selbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-9-t7",
+"nachher": "bund-sthg__art-10-t2"
+},
+{
+"id": "bund-sthg__art-10-t2",
+"titel": "Art. 10 StHG – Selbständige Erwerbstätigkeit (Teil 2/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 10 Selbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-10-t1",
+"nachher": "bund-sthg__art-10-t3"
+},
+{
+"id": "bund-sthg__art-10-t3",
+"titel": "Art. 10 StHG – Selbständige Erwerbstätigkeit (Teil 3/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 10 Selbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-10-t2",
+"nachher": "bund-sthg__art-10a"
+},
+{
+"id": "bund-sthg__art-10a",
+"titel": "Art. 10a StHG – Abzug von Forschungs- und Entwicklungsaufwand bei selbstständiger Erwerbstätigkeit",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"2. Abschnitt: Abzüge",
+"Art. 10a Abzug von Forschungs- und Entwicklungsaufwand bei selbstständiger Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 10a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-10-t3",
+"nachher": "bund-sthg__art-11-t1"
+},
+{
+"id": "bund-sthg__art-11-t1",
+"titel": "Art. 11 StHG (Teil 1/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"3. Abschnitt: Steuerberechnung",
+"Art. 11"
+],
+"seiten": [],
+"artikel": "Art. 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-10a",
+"nachher": "bund-sthg__art-11-t2"
+},
+{
+"id": "bund-sthg__art-11-t2",
+"titel": "Art. 11 StHG (Teil 2/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"3. Abschnitt: Steuerberechnung",
+"Art. 11"
+],
+"seiten": [],
+"artikel": "Art. 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-11-t1",
+"nachher": "bund-sthg__art-11-t3"
+},
+{
+"id": "bund-sthg__art-11-t3",
+"titel": "Art. 11 StHG (Teil 3/3)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"2. Kapitel: Einkommenssteuer",
+"3. Abschnitt: Steuerberechnung",
+"Art. 11"
+],
+"seiten": [],
+"artikel": "Art. 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-11-t2",
+"nachher": "bund-sthg__art-12-t1"
+},
+{
+"id": "bund-sthg__art-12-t1",
+"titel": "Art. 12 StHG (Teil 1/4)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"3. Kapitel: Grundstückgewinnsteuer",
+"Art. 12"
+],
+"seiten": [],
+"artikel": "Art. 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-11-t3",
+"nachher": "bund-sthg__art-12-t2"
+},
+{
+"id": "bund-sthg__art-12-t2",
+"titel": "Art. 12 StHG (Teil 2/4)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"3. Kapitel: Grundstückgewinnsteuer",
+"Art. 12"
+],
+"seiten": [],
+"artikel": "Art. 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-12-t1",
+"nachher": "bund-sthg__art-12-t3"
+},
+{
+"id": "bund-sthg__art-12-t3",
+"titel": "Art. 12 StHG (Teil 3/4)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"3. Kapitel: Grundstückgewinnsteuer",
+"Art. 12"
+],
+"seiten": [],
+"artikel": "Art. 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-12-t2",
+"nachher": "bund-sthg__art-12-t4"
+},
+{
+"id": "bund-sthg__art-12-t4",
+"titel": "Art. 12 StHG (Teil 4/4)",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"3. Kapitel: Grundstückgewinnsteuer",
+"Art. 12"
+],
+"seiten": [],
+"artikel": "Art. 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-12-t3",
+"nachher": "bund-sthg__art-13"
+},
+{
+"id": "bund-sthg__art-13",
+"titel": "Art. 13 StHG – Steuerobjekt",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"4. Kapitel: Vermögenssteuer",
+"Art. 13 Steuerobjekt"
+],
+"seiten": [],
+"artikel": "Art. 13",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-12-t4",
+"nachher": "bund-sthg__art-14"
+},
+{
+"id": "bund-sthg__art-14",
+"titel": "Art. 14 StHG – Bewertung",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"4. Kapitel: Vermögenssteuer",
+"Art. 14 Bewertung"
+],
+"seiten": [],
+"artikel": "Art. 14",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-13",
+"nachher": "bund-sthg__art-14a"
+},
+{
+"id": "bund-sthg__art-14a",
+"titel": "Art. 14a StHG – Bewertung von Mitarbeiterbeteiligungen",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"4. Kapitel: Vermögenssteuer",
+"Art. 14a Bewertung von Mitarbeiterbeteiligungen"
+],
+"seiten": [],
+"artikel": "Art. 14a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-14",
+"nachher": "bund-sthg__art-15"
+},
+{
+"id": "bund-sthg__art-15",
+"titel": "Art. 15 StHG – Steuerperiode",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"5. Kapitel: Zeitliche Bemessung",
+"Art. 15 Steuerperiode"
+],
+"seiten": [],
+"artikel": "Art. 15",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-14a",
+"nachher": "bund-sthg__art-16"
+},
+{
+"id": "bund-sthg__art-16",
+"titel": "Art. 16 StHG – Bemessung des Einkommens",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"5. Kapitel: Zeitliche Bemessung",
+"Art. 16 Bemessung des Einkommens"
+],
+"seiten": [],
+"artikel": "Art. 16",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-15",
+"nachher": "bund-sthg__art-17"
+},
+{
+"id": "bund-sthg__art-17",
+"titel": "Art. 17 StHG – Bemessung des Vermögens",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"5. Kapitel: Zeitliche Bemessung",
+"Art. 17 Bemessung des Vermögens"
+],
+"seiten": [],
+"artikel": "Art. 17",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-16",
+"nachher": "bund-sthg__art-18"
+},
+{
+"id": "bund-sthg__art-18",
+"titel": "Art. 18 StHG – Veranlagung bei Begründung und Auflösung der Ehe",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"5. Kapitel: Zeitliche Bemessung",
+"Art. 18 Veranlagung bei Begründung und Auflösung der Ehe"
+],
+"seiten": [],
+"artikel": "Art. 18",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-17",
+"nachher": "bund-sthg__art-19"
+},
+{
+"id": "bund-sthg__art-19",
+"titel": "Art. 19 StHG – Grundstückgewinne",
+"pfad": [
+"Zweiter Titel: Steuern der natürlichen Personen",
+"5. Kapitel: Zeitliche Bemessung",
+"Art. 19 Grundstückgewinne"
+],
+"seiten": [],
+"artikel": "Art. 19",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-18",
+"nachher": "bund-sthg__art-20"
+},
+{
+"id": "bund-sthg__art-20",
+"titel": "Art. 20 StHG – Steuerpflicht aufgrund persönlicher Zugehörigkeit",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 20 Steuerpflicht aufgrund persönlicher Zugehörigkeit"
+],
+"seiten": [],
+"artikel": "Art. 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-19",
+"nachher": "bund-sthg__art-21"
+},
+{
+"id": "bund-sthg__art-21",
+"titel": "Art. 21 StHG – Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 21 Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit"
+],
+"seiten": [],
+"artikel": "Art. 21",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-20",
+"nachher": "bund-sthg__art-22"
+},
+{
+"id": "bund-sthg__art-22",
+"titel": "Art. 22 StHG – Wechsel der Steuerpflicht",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 22 Wechsel der Steuerpflicht"
+],
+"seiten": [],
+"artikel": "Art. 22",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-21",
+"nachher": "bund-sthg__art-23-t1"
+},
+{
+"id": "bund-sthg__art-23-t1",
+"titel": "Art. 23 StHG – Ausnahmen (Teil 1/5)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 23 Ausnahmen"
+],
+"seiten": [],
+"artikel": "Art. 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-22",
+"nachher": "bund-sthg__art-23-t2"
+},
+{
+"id": "bund-sthg__art-23-t2",
+"titel": "Art. 23 StHG – Ausnahmen (Teil 2/5)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 23 Ausnahmen"
+],
+"seiten": [],
+"artikel": "Art. 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-23-t1",
+"nachher": "bund-sthg__art-23-t3"
+},
+{
+"id": "bund-sthg__art-23-t3",
+"titel": "Art. 23 StHG – Ausnahmen (Teil 3/5)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 23 Ausnahmen"
+],
+"seiten": [],
+"artikel": "Art. 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-23-t2",
+"nachher": "bund-sthg__art-23-t4"
+},
+{
+"id": "bund-sthg__art-23-t4",
+"titel": "Art. 23 StHG – Ausnahmen (Teil 4/5)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 23 Ausnahmen"
+],
+"seiten": [],
+"artikel": "Art. 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-23-t3",
+"nachher": "bund-sthg__art-23-t5"
+},
+{
+"id": "bund-sthg__art-23-t5",
+"titel": "Art. 23 StHG – Ausnahmen (Teil 5/5)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"1. Kapitel: Steuerpflicht",
+"Art. 23 Ausnahmen"
+],
+"seiten": [],
+"artikel": "Art. 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-23-t4",
+"nachher": "bund-sthg__art-24-t1"
+},
+{
+"id": "bund-sthg__art-24-t1",
+"titel": "Art. 24 StHG – Allgemeines (Teil 1/7)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-23-t5",
+"nachher": "bund-sthg__art-24-t2"
+},
+{
+"id": "bund-sthg__art-24-t2",
+"titel": "Art. 24 StHG – Allgemeines (Teil 2/7)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24-t1",
+"nachher": "bund-sthg__art-24-t3"
+},
+{
+"id": "bund-sthg__art-24-t3",
+"titel": "Art. 24 StHG – Allgemeines (Teil 3/7)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24-t2",
+"nachher": "bund-sthg__art-24-t4"
+},
+{
+"id": "bund-sthg__art-24-t4",
+"titel": "Art. 24 StHG – Allgemeines (Teil 4/7)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24-t3",
+"nachher": "bund-sthg__art-24-t5"
+},
+{
+"id": "bund-sthg__art-24-t5",
+"titel": "Art. 24 StHG – Allgemeines (Teil 5/7)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24-t4",
+"nachher": "bund-sthg__art-24-t6"
+},
+{
+"id": "bund-sthg__art-24-t6",
+"titel": "Art. 24 StHG – Allgemeines (Teil 6/7)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24-t5",
+"nachher": "bund-sthg__art-24-t7"
+},
+{
+"id": "bund-sthg__art-24-t7",
+"titel": "Art. 24 StHG – Allgemeines (Teil 7/7)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24-t6",
+"nachher": "bund-sthg__art-24a"
+},
+{
+"id": "bund-sthg__art-24a",
+"titel": "Art. 24a StHG – Patente und vergleichbare Rechte: Begriffe",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24a Patente und vergleichbare Rechte: Begriffe"
+],
+"seiten": [],
+"artikel": "Art. 24a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24-t7",
+"nachher": "bund-sthg__art-24b-t1"
+},
+{
+"id": "bund-sthg__art-24b-t1",
+"titel": "Art. 24b StHG – Patente und vergleichbare Rechte: Besteuerung (Teil 1/3)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24b Patente und vergleichbare Rechte: Besteuerung"
+],
+"seiten": [],
+"artikel": "Art. 24b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24a",
+"nachher": "bund-sthg__art-24b-t2"
+},
+{
+"id": "bund-sthg__art-24b-t2",
+"titel": "Art. 24b StHG – Patente und vergleichbare Rechte: Besteuerung (Teil 2/3)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24b Patente und vergleichbare Rechte: Besteuerung"
+],
+"seiten": [],
+"artikel": "Art. 24b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24b-t1",
+"nachher": "bund-sthg__art-24b-t3"
+},
+{
+"id": "bund-sthg__art-24b-t3",
+"titel": "Art. 24b StHG – Patente und vergleichbare Rechte: Besteuerung (Teil 3/3)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24b Patente und vergleichbare Rechte: Besteuerung"
+],
+"seiten": [],
+"artikel": "Art. 24b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24b-t2",
+"nachher": "bund-sthg__art-24c"
+},
+{
+"id": "bund-sthg__art-24c",
+"titel": "Art. 24c StHG – Aufdeckung stiller Reserven bei Beginn der Steuerpflicht",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24c Aufdeckung stiller Reserven bei Beginn der Steuerpflicht"
+],
+"seiten": [],
+"artikel": "Art. 24c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24b-t3",
+"nachher": "bund-sthg__art-24d"
+},
+{
+"id": "bund-sthg__art-24d",
+"titel": "Art. 24d StHG – Besteuerung stiller Reserven am Ende der Steuerpflicht",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 24d Besteuerung stiller Reserven am Ende der Steuerpflicht"
+],
+"seiten": [],
+"artikel": "Art. 24d",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24c",
+"nachher": "bund-sthg__art-25-t1"
+},
+{
+"id": "bund-sthg__art-25-t1",
+"titel": "Art. 25 StHG – Aufwand (Teil 1/3)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 25 Aufwand"
+],
+"seiten": [],
+"artikel": "Art. 25",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-24d",
+"nachher": "bund-sthg__art-25-t2"
+},
+{
+"id": "bund-sthg__art-25-t2",
+"titel": "Art. 25 StHG – Aufwand (Teil 2/3)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 25 Aufwand"
+],
+"seiten": [],
+"artikel": "Art. 25",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-25-t1",
+"nachher": "bund-sthg__art-25-t3"
+},
+{
+"id": "bund-sthg__art-25-t3",
+"titel": "Art. 25 StHG – Aufwand (Teil 3/3)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 25 Aufwand"
+],
+"seiten": [],
+"artikel": "Art. 25",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-25-t2",
+"nachher": "bund-sthg__art-25a"
+},
+{
+"id": "bund-sthg__art-25a",
+"titel": "Art. 25a StHG – Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 25a Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand"
+],
+"seiten": [],
+"artikel": "Art. 25a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-25-t3",
+"nachher": "bund-sthg__art-25abis-t1"
+},
+{
+"id": "bund-sthg__art-25abis-t1",
+"titel": "Art. 25abis StHG – Abzug auf Eigenfinanzierung (Teil 1/3)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 25abis Abzug auf Eigenfinanzierung"
+],
+"seiten": [],
+"artikel": "Art. 25abis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-25a",
+"nachher": "bund-sthg__art-25abis-t2"
+},
+{
+"id": "bund-sthg__art-25abis-t2",
+"titel": "Art. 25abis StHG – Abzug auf Eigenfinanzierung (Teil 2/3)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 25abis Abzug auf Eigenfinanzierung"
+],
+"seiten": [],
+"artikel": "Art. 25abis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-25abis-t1",
+"nachher": "bund-sthg__art-25abis-t3"
+},
+{
+"id": "bund-sthg__art-25abis-t3",
+"titel": "Art. 25abis StHG – Abzug auf Eigenfinanzierung (Teil 3/3)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 25abis Abzug auf Eigenfinanzierung"
+],
+"seiten": [],
+"artikel": "Art. 25abis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-25abis-t2",
+"nachher": "bund-sthg__art-25b"
+},
+{
+"id": "bund-sthg__art-25b",
+"titel": "Art. 25b StHG – Entlastungsbegrenzung",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 25b Entlastungsbegrenzung"
+],
+"seiten": [],
+"artikel": "Art. 25b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-25abis-t3",
+"nachher": "bund-sthg__art-26"
+},
+{
+"id": "bund-sthg__art-26",
+"titel": "Art. 26 StHG – Gewinn von Vereinen, Stiftungen und kollektiven Kapitalanlagen",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 26 Gewinn von Vereinen, Stiftungen und kollektiven Kapitalanlagen"
+],
+"seiten": [],
+"artikel": "Art. 26",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-25b",
+"nachher": "bund-sthg__art-26a"
+},
+{
+"id": "bund-sthg__art-26a",
+"titel": "Art. 26a StHG – Gewinne von juristischen Personen mit ideellen Zwecken",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"1. Abschnitt: Steuerobjekt",
+"Art. 26a Gewinne von juristischen Personen mit ideellen Zwecken"
+],
+"seiten": [],
+"artikel": "Art. 26a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-26",
+"nachher": "bund-sthg__art-27"
+},
+{
+"id": "bund-sthg__art-27",
+"titel": "Art. 27 StHG – Allgemeines",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"2. Abschnitt: Steuerberechnung",
+"Art. 27 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 27",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-26a",
+"nachher": "bund-sthg__art-28-t1"
+},
+{
+"id": "bund-sthg__art-28-t1",
+"titel": "Art. 28 StHG – Besondere Fälle (Teil 1/4)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"2. Abschnitt: Steuerberechnung",
+"Art. 28 Besondere Fälle"
+],
+"seiten": [],
+"artikel": "Art. 28",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-27",
+"nachher": "bund-sthg__art-28-t2"
+},
+{
+"id": "bund-sthg__art-28-t2",
+"titel": "Art. 28 StHG – Besondere Fälle (Teil 2/4)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"2. Abschnitt: Steuerberechnung",
+"Art. 28 Besondere Fälle"
+],
+"seiten": [],
+"artikel": "Art. 28",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-28-t1",
+"nachher": "bund-sthg__art-28-t3"
+},
+{
+"id": "bund-sthg__art-28-t3",
+"titel": "Art. 28 StHG – Besondere Fälle (Teil 3/4)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"2. Abschnitt: Steuerberechnung",
+"Art. 28 Besondere Fälle"
+],
+"seiten": [],
+"artikel": "Art. 28",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-28-t2",
+"nachher": "bund-sthg__art-28-t4"
+},
+{
+"id": "bund-sthg__art-28-t4",
+"titel": "Art. 28 StHG – Besondere Fälle (Teil 4/4)",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"2. Kapitel: Gewinnsteuer",
+"2. Abschnitt: Steuerberechnung",
+"Art. 28 Besondere Fälle"
+],
+"seiten": [],
+"artikel": "Art. 28",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-28-t3",
+"nachher": "bund-sthg__art-29"
+},
+{
+"id": "bund-sthg__art-29",
+"titel": "Art. 29 StHG – Steuerobjekt; im Allgemeinen",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"3. Kapitel: Kapitalsteuer",
+"Art. 29 Steuerobjekt; im Allgemeinen"
+],
+"seiten": [],
+"artikel": "Art. 29",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-28-t4",
+"nachher": "bund-sthg__art-29a"
+},
+{
+"id": "bund-sthg__art-29a",
+"titel": "Art. 29a StHG – Steuerobjekt; verdecktes Eigenkapital",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"3. Kapitel: Kapitalsteuer",
+"Art. 29a Steuerobjekt; verdecktes Eigenkapital"
+],
+"seiten": [],
+"artikel": "Art. 29a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-29",
+"nachher": "bund-sthg__art-30"
+},
+{
+"id": "bund-sthg__art-30",
+"titel": "Art. 30 StHG – Steuerberechnung",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"3. Kapitel: Kapitalsteuer",
+"Art. 30 Steuerberechnung"
+],
+"seiten": [],
+"artikel": "Art. 30",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-29a",
+"nachher": "bund-sthg__art-31"
+},
+{
+"id": "bund-sthg__art-31",
+"titel": "Art. 31 StHG",
+"pfad": [
+"Dritter Titel: Steuern der juristischen Personen",
+"4. Kapitel: Zeitliche Bemessung",
+"Art. 31"
+],
+"seiten": [],
+"artikel": "Art. 31",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-30",
+"nachher": "bund-sthg__art-32"
+},
+{
+"id": "bund-sthg__art-32",
+"titel": "Art. 32 StHG – Geltungsbereich",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"1. Kapitel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 32 Geltungsbereich"
+],
+"seiten": [],
+"artikel": "Art. 32",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-31",
+"nachher": "bund-sthg__art-33"
+},
+{
+"id": "bund-sthg__art-33",
+"titel": "Art. 33 StHG – Ausgestaltung des Steuerabzuges",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"1. Kapitel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 33 Ausgestaltung des Steuerabzuges"
+],
+"seiten": [],
+"artikel": "Art. 33",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-32",
+"nachher": "bund-sthg__art-33a"
+},
+{
+"id": "bund-sthg__art-33a",
+"titel": "Art. 33a StHG – Obligatorische nachträgliche ordentliche Veranlagung",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"1. Kapitel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 33a Obligatorische nachträgliche ordentliche Veranlagung"
+],
+"seiten": [],
+"artikel": "Art. 33a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-33",
+"nachher": "bund-sthg__art-33b"
+},
+{
+"id": "bund-sthg__art-33b",
+"titel": "Art. 33b StHG – Nachträgliche ordentliche Veranlagung auf Antrag",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"1. Kapitel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 33b Nachträgliche ordentliche Veranlagung auf Antrag"
+],
+"seiten": [],
+"artikel": "Art. 33b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-33a",
+"nachher": "bund-sthg__art-34"
+},
+{
+"id": "bund-sthg__art-34",
+"titel": "Art. 34 StHG",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"1. Kapitel: Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 34"
+],
+"seiten": [],
+"artikel": "Art. 34",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-33b",
+"nachher": "bund-sthg__art-35-t1"
+},
+{
+"id": "bund-sthg__art-35-t1",
+"titel": "Art. 35 StHG – Geltungsbereich (Teil 1/4)",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+"Art. 35 Geltungsbereich"
+],
+"seiten": [],
+"artikel": "Art. 35",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-34",
+"nachher": "bund-sthg__art-35-t2"
+},
+{
+"id": "bund-sthg__art-35-t2",
+"titel": "Art. 35 StHG – Geltungsbereich (Teil 2/4)",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+"Art. 35 Geltungsbereich"
+],
+"seiten": [],
+"artikel": "Art. 35",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-35-t1",
+"nachher": "bund-sthg__art-35-t3"
+},
+{
+"id": "bund-sthg__art-35-t3",
+"titel": "Art. 35 StHG – Geltungsbereich (Teil 3/4)",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+"Art. 35 Geltungsbereich"
+],
+"seiten": [],
+"artikel": "Art. 35",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-35-t2",
+"nachher": "bund-sthg__art-35-t4"
+},
+{
+"id": "bund-sthg__art-35-t4",
+"titel": "Art. 35 StHG – Geltungsbereich (Teil 4/4)",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+"Art. 35 Geltungsbereich"
+],
+"seiten": [],
+"artikel": "Art. 35",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-35-t3",
+"nachher": "bund-sthg__art-35a"
+},
+{
+"id": "bund-sthg__art-35a",
+"titel": "Art. 35a StHG – Nachträgliche ordentliche Veranlagung auf Antrag",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+"Art. 35a Nachträgliche ordentliche Veranlagung auf Antrag"
+],
+"seiten": [],
+"artikel": "Art. 35a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-35-t4",
+"nachher": "bund-sthg__art-35b"
+},
+{
+"id": "bund-sthg__art-35b",
+"titel": "Art. 35b StHG – Nachträgliche ordentliche Veranlagung von Amtes wegen",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+"Art. 35b Nachträgliche ordentliche Veranlagung von Amtes wegen"
+],
+"seiten": [],
+"artikel": "Art. 35b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-35a",
+"nachher": "bund-sthg__art-36"
+},
+{
+"id": "bund-sthg__art-36",
+"titel": "Art. 36 StHG – Ausgestaltung des Steuerabzuges",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+"Art. 36 Ausgestaltung des Steuerabzuges"
+],
+"seiten": [],
+"artikel": "Art. 36",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-35b",
+"nachher": "bund-sthg__art-36a"
+},
+{
+"id": "bund-sthg__art-36a",
+"titel": "Art. 36a StHG – Abgegoltene Steuer",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"2. Kapitel: Natürliche Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz sowie juristische Personen ohne Sitz oder tatsächliche Verwaltung in der Schweiz",
+"Art. 36a Abgegoltene Steuer"
+],
+"seiten": [],
+"artikel": "Art. 36a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-36",
+"nachher": "bund-sthg__art-37"
+},
+{
+"id": "bund-sthg__art-37",
+"titel": "Art. 37 StHG",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"3. Kapitel: Pflichten des Schuldners der steuerbaren Leistung",
+"Art. 37"
+],
+"seiten": [],
+"artikel": "Art. 37",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-36a",
+"nachher": "bund-sthg__art-38-t1"
+},
+{
+"id": "bund-sthg__art-38-t1",
+"titel": "Art. 38 StHG – Örtliche Zuständigkeit (Teil 1/2)",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"4. Kapitel: Örtliche Zuständigkeit und interkantonales Verhältnis",
+"Art. 38 Örtliche Zuständigkeit"
+],
+"seiten": [],
+"artikel": "Art. 38",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-37",
+"nachher": "bund-sthg__art-38-t2"
+},
+{
+"id": "bund-sthg__art-38-t2",
+"titel": "Art. 38 StHG – Örtliche Zuständigkeit (Teil 2/2)",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"4. Kapitel: Örtliche Zuständigkeit und interkantonales Verhältnis",
+"Art. 38 Örtliche Zuständigkeit"
+],
+"seiten": [],
+"artikel": "Art. 38",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-38-t1",
+"nachher": "bund-sthg__art-38a"
+},
+{
+"id": "bund-sthg__art-38a",
+"titel": "Art. 38a StHG – Interkantonales Verhältnis",
+"pfad": [
+"Vierter Titel: Quellensteuern für natürliche und juristische Personen",
+"4. Kapitel: Örtliche Zuständigkeit und interkantonales Verhältnis",
+"Art. 38a Interkantonales Verhältnis"
+],
+"seiten": [],
+"artikel": "Art. 38a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-38-t2",
+"nachher": "bund-sthg__art-38b"
+},
+{
+"id": "bund-sthg__art-38b",
+"titel": "Art. 38b StHG – Elektronische Verfahren",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 38b Elektronische Verfahren"
+],
+"seiten": [],
+"artikel": "Art. 38b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-38a",
+"nachher": "bund-sthg__art-39"
+},
+{
+"id": "bund-sthg__art-39",
+"titel": "Art. 39 StHG – Amtspflichten",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 39 Amtspflichten"
+],
+"seiten": [],
+"artikel": "Art. 39",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-38b",
+"nachher": "bund-sthg__art-39a"
+},
+{
+"id": "bund-sthg__art-39a",
+"titel": "Art. 39a StHG – Datenbearbeitung",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 39a Datenbearbeitung"
+],
+"seiten": [],
+"artikel": "Art. 39a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-39",
+"nachher": "bund-sthg__art-40"
+},
+{
+"id": "bund-sthg__art-40",
+"titel": "Art. 40 StHG – Verfahrensrechtliche Stellung der Ehegatten",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 40 Verfahrensrechtliche Stellung der Ehegatten"
+],
+"seiten": [],
+"artikel": "Art. 40",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-39a",
+"nachher": "bund-sthg__art-41"
+},
+{
+"id": "bund-sthg__art-41",
+"titel": "Art. 41 StHG – Verfahrensrechte des Steuerpflichtigen",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 41 Verfahrensrechte des Steuerpflichtigen"
+],
+"seiten": [],
+"artikel": "Art. 41",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-40",
+"nachher": "bund-sthg__art-42"
+},
+{
+"id": "bund-sthg__art-42",
+"titel": "Art. 42 StHG – Verfahrenspflichten des Steuerpflichtigen",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 42 Verfahrenspflichten des Steuerpflichtigen"
+],
+"seiten": [],
+"artikel": "Art. 42",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-41",
+"nachher": "bund-sthg__art-43"
+},
+{
+"id": "bund-sthg__art-43",
+"titel": "Art. 43 StHG – Bescheinigungspflicht Dritter",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 43 Bescheinigungspflicht Dritter"
+],
+"seiten": [],
+"artikel": "Art. 43",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-42",
+"nachher": "bund-sthg__art-44"
+},
+{
+"id": "bund-sthg__art-44",
+"titel": "Art. 44 StHG – Auskunftspflicht Dritter",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 44 Auskunftspflicht Dritter"
+],
+"seiten": [],
+"artikel": "Art. 44",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-43",
+"nachher": "bund-sthg__art-45-t1"
+},
+{
+"id": "bund-sthg__art-45-t1",
+"titel": "Art. 45 StHG – Meldepflicht Dritter (Teil 1/2)",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 45 Meldepflicht Dritter"
+],
+"seiten": [],
+"artikel": "Art. 45",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-44",
+"nachher": "bund-sthg__art-45-t2"
+},
+{
+"id": "bund-sthg__art-45-t2",
+"titel": "Art. 45 StHG – Meldepflicht Dritter (Teil 2/2)",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 45 Meldepflicht Dritter"
+],
+"seiten": [],
+"artikel": "Art. 45",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-45-t1",
+"nachher": "bund-sthg__art-46"
+},
+{
+"id": "bund-sthg__art-46",
+"titel": "Art. 46 StHG – Veranlagung",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 46 Veranlagung"
+],
+"seiten": [],
+"artikel": "Art. 46",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-45-t2",
+"nachher": "bund-sthg__art-47"
+},
+{
+"id": "bund-sthg__art-47",
+"titel": "Art. 47 StHG – Verjährung",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 47 Verjährung"
+],
+"seiten": [],
+"artikel": "Art. 47",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-46",
+"nachher": "bund-sthg__art-48"
+},
+{
+"id": "bund-sthg__art-48",
+"titel": "Art. 48 StHG – Einsprache",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 48 Einsprache"
+],
+"seiten": [],
+"artikel": "Art. 48",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-47",
+"nachher": "bund-sthg__art-49-t1"
+},
+{
+"id": "bund-sthg__art-49-t1",
+"titel": "Art. 49 StHG – Verfahren bei Erhebung der Quellensteuer (Teil 1/2)",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 49 Verfahren bei Erhebung der Quellensteuer"
+],
+"seiten": [],
+"artikel": "Art. 49",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-48",
+"nachher": "bund-sthg__art-49-t2"
+},
+{
+"id": "bund-sthg__art-49-t2",
+"titel": "Art. 49 StHG – Verfahren bei Erhebung der Quellensteuer (Teil 2/2)",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren",
+"Art. 49 Verfahren bei Erhebung der Quellensteuer"
+],
+"seiten": [],
+"artikel": "Art. 49",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-49-t1",
+"nachher": "bund-sthg__art-50"
+},
+{
+"id": "bund-sthg__art-50",
+"titel": "Art. 50 StHG",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"2. Kapitel: Rekursverfahren",
+"Art. 50"
+],
+"seiten": [],
+"artikel": "Art. 50",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-49-t2",
+"nachher": "bund-sthg__art-51"
+},
+{
+"id": "bund-sthg__art-51",
+"titel": "Art. 51 StHG – Revision",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"3. Kapitel: Änderungen rechtskräftiger Verfügungen und Entscheide",
+"Art. 51 Revision"
+],
+"seiten": [],
+"artikel": "Art. 51",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-50",
+"nachher": "bund-sthg__art-52"
+},
+{
+"id": "bund-sthg__art-52",
+"titel": "Art. 52 StHG – Rechnungsfehler und Schreibversehen",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"3. Kapitel: Änderungen rechtskräftiger Verfügungen und Entscheide",
+"Art. 52 Rechnungsfehler und Schreibversehen"
+],
+"seiten": [],
+"artikel": "Art. 52",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-51",
+"nachher": "bund-sthg__art-53"
+},
+{
+"id": "bund-sthg__art-53",
+"titel": "Art. 53 StHG – Ordentliche Nachsteuer",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"3. Kapitel: Änderungen rechtskräftiger Verfügungen und Entscheide",
+"Art. 53 Ordentliche Nachsteuer"
+],
+"seiten": [],
+"artikel": "Art. 53",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-52",
+"nachher": "bund-sthg__art-53a"
+},
+{
+"id": "bund-sthg__art-53a",
+"titel": "Art. 53a StHG – Vereinfachte Nachbesteuerung von Erben",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"3. Kapitel: Änderungen rechtskräftiger Verfügungen und Entscheide",
+"Art. 53a Vereinfachte Nachbesteuerung von Erben"
+],
+"seiten": [],
+"artikel": "Art. 53a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-53",
+"nachher": "bund-sthg__art-54"
+},
+{
+"id": "bund-sthg__art-54",
+"titel": "Art. 54 StHG",
+"pfad": [
+"Fünfter Titel: Verfahrensrecht",
+"4. Kapitel: Inventar",
+"Art. 54"
+],
+"seiten": [],
+"artikel": "Art. 54",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-53a",
+"nachher": "bund-sthg__art-55"
+},
+{
+"id": "bund-sthg__art-55",
+"titel": "Art. 55 StHG – Verletzung von Verfahrenspflichten",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 55 Verletzung von Verfahrenspflichten"
+],
+"seiten": [],
+"artikel": "Art. 55",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-54",
+"nachher": "bund-sthg__art-56-t1"
+},
+{
+"id": "bund-sthg__art-56-t1",
+"titel": "Art. 56 StHG – Steuerhinterziehung (Teil 1/5)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 56 Steuerhinterziehung"
+],
+"seiten": [],
+"artikel": "Art. 56",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-55",
+"nachher": "bund-sthg__art-56-t2"
+},
+{
+"id": "bund-sthg__art-56-t2",
+"titel": "Art. 56 StHG – Steuerhinterziehung (Teil 2/5)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 56 Steuerhinterziehung"
+],
+"seiten": [],
+"artikel": "Art. 56",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-56-t1",
+"nachher": "bund-sthg__art-56-t3"
+},
+{
+"id": "bund-sthg__art-56-t3",
+"titel": "Art. 56 StHG – Steuerhinterziehung (Teil 3/5)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 56 Steuerhinterziehung"
+],
+"seiten": [],
+"artikel": "Art. 56",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-56-t2",
+"nachher": "bund-sthg__art-56-t4"
+},
+{
+"id": "bund-sthg__art-56-t4",
+"titel": "Art. 56 StHG – Steuerhinterziehung (Teil 4/5)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 56 Steuerhinterziehung"
+],
+"seiten": [],
+"artikel": "Art. 56",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-56-t3",
+"nachher": "bund-sthg__art-56-t5"
+},
+{
+"id": "bund-sthg__art-56-t5",
+"titel": "Art. 56 StHG – Steuerhinterziehung (Teil 5/5)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 56 Steuerhinterziehung"
+],
+"seiten": [],
+"artikel": "Art. 56",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-56-t4",
+"nachher": "bund-sthg__art-57"
+},
+{
+"id": "bund-sthg__art-57",
+"titel": "Art. 57 StHG – Besondere Fälle",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 57 Besondere Fälle"
+],
+"seiten": [],
+"artikel": "Art. 57",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-56-t5",
+"nachher": "bund-sthg__art-57bis"
+},
+{
+"id": "bund-sthg__art-57bis",
+"titel": "Art. 57bis StHG – Verfahren",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 57bis Verfahren"
+],
+"seiten": [],
+"artikel": "Art. 57bis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-57",
+"nachher": "bund-sthg__art-57a"
+},
+{
+"id": "bund-sthg__art-57a",
+"titel": "Art. 57a StHG – Eröffnung des Strafverfahrens wegen Steuerhinterziehung",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 57a Eröffnung des Strafverfahrens wegen Steuerhinterziehung"
+],
+"seiten": [],
+"artikel": "Art. 57a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-57bis",
+"nachher": "bund-sthg__art-57b-t1"
+},
+{
+"id": "bund-sthg__art-57b-t1",
+"titel": "Art. 57b StHG – Selbstanzeige juristischer Personen (Teil 1/3)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 57b Selbstanzeige juristischer Personen"
+],
+"seiten": [],
+"artikel": "Art. 57b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-57a",
+"nachher": "bund-sthg__art-57b-t2"
+},
+{
+"id": "bund-sthg__art-57b-t2",
+"titel": "Art. 57b StHG – Selbstanzeige juristischer Personen (Teil 2/3)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 57b Selbstanzeige juristischer Personen"
+],
+"seiten": [],
+"artikel": "Art. 57b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-57b-t1",
+"nachher": "bund-sthg__art-57b-t3"
+},
+{
+"id": "bund-sthg__art-57b-t3",
+"titel": "Art. 57b StHG – Selbstanzeige juristischer Personen (Teil 3/3)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 57b Selbstanzeige juristischer Personen"
+],
+"seiten": [],
+"artikel": "Art. 57b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-57b-t2",
+"nachher": "bund-sthg__art-58"
+},
+{
+"id": "bund-sthg__art-58",
+"titel": "Art. 58 StHG – Verjährung der Strafverfolgung",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"1. Kapitel: Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"Art. 58 Verjährung der Strafverfolgung"
+],
+"seiten": [],
+"artikel": "Art. 58",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-57b-t3",
+"nachher": "bund-sthg__art-59-t1"
+},
+{
+"id": "bund-sthg__art-59-t1",
+"titel": "Art. 59 StHG – Steuerbetrug (Teil 1/2)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"2. Kapitel: Steuervergehen",
+"Art. 59 Steuerbetrug"
+],
+"seiten": [],
+"artikel": "Art. 59",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-58",
+"nachher": "bund-sthg__art-59-t2"
+},
+{
+"id": "bund-sthg__art-59-t2",
+"titel": "Art. 59 StHG – Steuerbetrug (Teil 2/2)",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"2. Kapitel: Steuervergehen",
+"Art. 59 Steuerbetrug"
+],
+"seiten": [],
+"artikel": "Art. 59",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-59-t1",
+"nachher": "bund-sthg__art-60"
+},
+{
+"id": "bund-sthg__art-60",
+"titel": "Art. 60 StHG – Verjährung der Strafverfolgung",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"2. Kapitel: Steuervergehen",
+"Art. 60 Verjährung der Strafverfolgung"
+],
+"seiten": [],
+"artikel": "Art. 60",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-59-t2",
+"nachher": "bund-sthg__art-61"
+},
+{
+"id": "bund-sthg__art-61",
+"titel": "Art. 61 StHG – Verfahren und Vollzug",
+"pfad": [
+"Sechster Titel: Steuerstrafrecht",
+"2. Kapitel: Steuervergehen",
+"Art. 61 Verfahren und Vollzug"
+],
+"seiten": [],
+"artikel": "Art. 61",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-60",
+"nachher": "bund-sthg__art-62-70"
+},
+{
+"id": "bund-sthg__art-62-70",
+"titel": "Art. 62–70 StHG",
+"pfad": [
+"Siebter Titel: …",
+"Art. 62–70"
+],
+"seiten": [],
+"artikel": "Art. 62–70",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-61",
+"nachher": "bund-sthg__art-71"
+},
+{
+"id": "bund-sthg__art-71",
+"titel": "Art. 71 StHG – Mitwirkung",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 71 Mitwirkung"
+],
+"seiten": [],
+"artikel": "Art. 71",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-62-70",
+"nachher": "bund-sthg__art-72"
+},
+{
+"id": "bund-sthg__art-72",
+"titel": "Art. 72 StHG – Anpassung der kantonalen Gesetzgebungen",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72 Anpassung der kantonalen Gesetzgebungen"
+],
+"seiten": [],
+"artikel": "Art. 72",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-71",
+"nachher": "bund-sthg__art-72a"
+},
+{
+"id": "bund-sthg__art-72a",
+"titel": "Art. 72a StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72a"
+],
+"seiten": [],
+"artikel": "Art. 72a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72",
+"nachher": "bund-sthg__art-72b"
+},
+{
+"id": "bund-sthg__art-72b",
+"titel": "Art. 72b StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72b"
+],
+"seiten": [],
+"artikel": "Art. 72b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72a",
+"nachher": "bund-sthg__art-72c"
+},
+{
+"id": "bund-sthg__art-72c",
+"titel": "Art. 72c StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72c"
+],
+"seiten": [],
+"artikel": "Art. 72c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72b",
+"nachher": "bund-sthg__art-72d"
+},
+{
+"id": "bund-sthg__art-72d",
+"titel": "Art. 72d StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72d"
+],
+"seiten": [],
+"artikel": "Art. 72d",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72c",
+"nachher": "bund-sthg__art-72e"
+},
+{
+"id": "bund-sthg__art-72e",
+"titel": "Art. 72e StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72e"
+],
+"seiten": [],
+"artikel": "Art. 72e",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72d",
+"nachher": "bund-sthg__art-72f"
+},
+{
+"id": "bund-sthg__art-72f",
+"titel": "Art. 72f StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72f"
+],
+"seiten": [],
+"artikel": "Art. 72f",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72e",
+"nachher": "bund-sthg__art-72g"
+},
+{
+"id": "bund-sthg__art-72g",
+"titel": "Art. 72g StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72g"
+],
+"seiten": [],
+"artikel": "Art. 72g",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72f",
+"nachher": "bund-sthg__art-72h"
+},
+{
+"id": "bund-sthg__art-72h",
+"titel": "Art. 72h StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72h"
+],
+"seiten": [],
+"artikel": "Art. 72h",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72g",
+"nachher": "bund-sthg__art-72i"
+},
+{
+"id": "bund-sthg__art-72i",
+"titel": "Art. 72i StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72i"
+],
+"seiten": [],
+"artikel": "Art. 72i",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72h",
+"nachher": "bund-sthg__art-72j"
+},
+{
+"id": "bund-sthg__art-72j",
+"titel": "Art. 72j StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72j"
+],
+"seiten": [],
+"artikel": "Art. 72j",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72i",
+"nachher": "bund-sthg__art-72k"
+},
+{
+"id": "bund-sthg__art-72k",
+"titel": "Art. 72k StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72k"
+],
+"seiten": [],
+"artikel": "Art. 72k",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72j",
+"nachher": "bund-sthg__art-72l"
+},
+{
+"id": "bund-sthg__art-72l",
+"titel": "Art. 72l StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72l"
+],
+"seiten": [],
+"artikel": "Art. 72l",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72k",
+"nachher": "bund-sthg__art-72m"
+},
+{
+"id": "bund-sthg__art-72m",
+"titel": "Art. 72m StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72m"
+],
+"seiten": [],
+"artikel": "Art. 72m",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72l",
+"nachher": "bund-sthg__art-72n"
+},
+{
+"id": "bund-sthg__art-72n",
+"titel": "Art. 72n StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72n"
+],
+"seiten": [],
+"artikel": "Art. 72n",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72m",
+"nachher": "bund-sthg__art-72o"
+},
+{
+"id": "bund-sthg__art-72o",
+"titel": "Art. 72o StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72o"
+],
+"seiten": [],
+"artikel": "Art. 72o",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72n",
+"nachher": "bund-sthg__art-72p"
+},
+{
+"id": "bund-sthg__art-72p",
+"titel": "Art. 72p StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72p"
+],
+"seiten": [],
+"artikel": "Art. 72p",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72o",
+"nachher": "bund-sthg__art-72q"
+},
+{
+"id": "bund-sthg__art-72q",
+"titel": "Art. 72q StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72q"
+],
+"seiten": [],
+"artikel": "Art. 72q",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72p",
+"nachher": "bund-sthg__art-72r"
+},
+{
+"id": "bund-sthg__art-72r",
+"titel": "Art. 72r StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72r"
+],
+"seiten": [],
+"artikel": "Art. 72r",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72q",
+"nachher": "bund-sthg__art-72s"
+},
+{
+"id": "bund-sthg__art-72s",
+"titel": "Art. 72s StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72s"
+],
+"seiten": [],
+"artikel": "Art. 72s",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72r",
+"nachher": "bund-sthg__art-72t"
+},
+{
+"id": "bund-sthg__art-72t",
+"titel": "Art. 72t StHG – Anpassung der kantonalen Gesetzgebung an die Änderung vom 20. März 2015",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72t Anpassung der kantonalen Gesetzgebung an die Änderung vom 20. März 2015"
+],
+"seiten": [],
+"artikel": "Art. 72t",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72s",
+"nachher": "bund-sthg__art-72u"
+},
+{
+"id": "bund-sthg__art-72u",
+"titel": "Art. 72u StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72u"
+],
+"seiten": [],
+"artikel": "Art. 72u",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72t",
+"nachher": "bund-sthg__art-72v"
+},
+{
+"id": "bund-sthg__art-72v",
+"titel": "Art. 72v StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72v"
+],
+"seiten": [],
+"artikel": "Art. 72v",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72u",
+"nachher": "bund-sthg__art-72w"
+},
+{
+"id": "bund-sthg__art-72w",
+"titel": "Art. 72w StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72w"
+],
+"seiten": [],
+"artikel": "Art. 72w",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72v",
+"nachher": "bund-sthg__art-72x"
+},
+{
+"id": "bund-sthg__art-72x",
+"titel": "Art. 72x StHG – Anpassung der kantonalen Gesetzgebung an die Änderung vom 29. September 2017",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72x Anpassung der kantonalen Gesetzgebung an die Änderung vom 29. September 2017"
+],
+"seiten": [],
+"artikel": "Art. 72x",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72w",
+"nachher": "bund-sthg__art-72y"
+},
+{
+"id": "bund-sthg__art-72y",
+"titel": "Art. 72y StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72y"
+],
+"seiten": [],
+"artikel": "Art. 72y",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72x",
+"nachher": "bund-sthg__art-72z"
+},
+{
+"id": "bund-sthg__art-72z",
+"titel": "Art. 72z StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72z"
+],
+"seiten": [],
+"artikel": "Art. 72z",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72y",
+"nachher": "bund-sthg__art-72zbis"
+},
+{
+"id": "bund-sthg__art-72zbis",
+"titel": "Art. 72zbis StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 72zbis"
+],
+"seiten": [],
+"artikel": "Art. 72zbis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72z",
+"nachher": "bund-sthg__art-73"
+},
+{
+"id": "bund-sthg__art-73",
+"titel": "Art. 73 StHG – Beschwerde",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"1. Kapitel: Durchführung durch die Kantone",
+"Art. 73 Beschwerde"
+],
+"seiten": [],
+"artikel": "Art. 73",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-72zbis",
+"nachher": "bund-sthg__art-74"
+},
+{
+"id": "bund-sthg__art-74",
+"titel": "Art. 74 StHG – Vollzugsbestimmungen",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"2. Kapitel: Vollzug und Änderung des geltenden Rechts",
+"Art. 74 Vollzugsbestimmungen"
+],
+"seiten": [],
+"artikel": "Art. 74",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-73",
+"nachher": "bund-sthg__art-75"
+},
+{
+"id": "bund-sthg__art-75",
+"titel": "Art. 75 StHG – Änderung des AHVG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"2. Kapitel: Vollzug und Änderung des geltenden Rechts",
+"Art. 75 Änderung des AHVG"
+],
+"seiten": [],
+"artikel": "Art. 75",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-74",
+"nachher": "bund-sthg__art-76"
+},
+{
+"id": "bund-sthg__art-76",
+"titel": "Art. 76 StHG – Leistungen aus Militärversicherung",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 76 Leistungen aus Militärversicherung"
+],
+"seiten": [],
+"artikel": "Art. 76",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-75",
+"nachher": "bund-sthg__art-77"
+},
+{
+"id": "bund-sthg__art-77",
+"titel": "Art. 77 StHG – Reingewinnsteuer",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 77 Reingewinnsteuer"
+],
+"seiten": [],
+"artikel": "Art. 77",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-76",
+"nachher": "bund-sthg__art-78"
+},
+{
+"id": "bund-sthg__art-78",
+"titel": "Art. 78 StHG – Arrest",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 78 Arrest"
+],
+"seiten": [],
+"artikel": "Art. 78",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-77",
+"nachher": "bund-sthg__art-78a"
+},
+{
+"id": "bund-sthg__art-78a",
+"titel": "Art. 78a StHG – Kapitalversicherungen mit Einmalprämie",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 78a Kapitalversicherungen mit Einmalprämie"
+],
+"seiten": [],
+"artikel": "Art. 78a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-78",
+"nachher": "bund-sthg__art-78b"
+},
+{
+"id": "bund-sthg__art-78b",
+"titel": "Art. 78b StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 78b"
+],
+"seiten": [],
+"artikel": "Art. 78b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-78a",
+"nachher": "bund-sthg__art-78c"
+},
+{
+"id": "bund-sthg__art-78c",
+"titel": "Art. 78c StHG – Übergangsbestimmungen zur Änderung vom 8. Oktober 2004",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 78c Übergangsbestimmungen zur Änderung vom 8. Oktober 2004"
+],
+"seiten": [],
+"artikel": "Art. 78c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-78b",
+"nachher": "bund-sthg__art-78d"
+},
+{
+"id": "bund-sthg__art-78d",
+"titel": "Art. 78d StHG – Übergangsbestimmung zur Änderung vom 20. März 2008",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 78d Übergangsbestimmung zur Änderung vom 20. März 2008"
+],
+"seiten": [],
+"artikel": "Art. 78d",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-78c",
+"nachher": "bund-sthg__art-78e"
+},
+{
+"id": "bund-sthg__art-78e",
+"titel": "Art. 78e StHG – Übergangsbestimmung zur Änderung vom 28. September 2012",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 78e Übergangsbestimmung zur Änderung vom 28. September 2012"
+],
+"seiten": [],
+"artikel": "Art. 78e",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-78d",
+"nachher": "bund-sthg__art-78f"
+},
+{
+"id": "bund-sthg__art-78f",
+"titel": "Art. 78f StHG – Übergangsbestimmung zur Änderung vom 26. September 2014",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 78f Übergangsbestimmung zur Änderung vom 26. September 2014"
+],
+"seiten": [],
+"artikel": "Art. 78f",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-78e",
+"nachher": "bund-sthg__art-78g"
+},
+{
+"id": "bund-sthg__art-78g",
+"titel": "Art. 78g StHG – Übergangsbestimmungen zur Änderung vom 28. September 2018",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"3. Kapitel: Übergangsbestimmungen",
+"Art. 78g Übergangsbestimmungen zur Änderung vom 28. September 2018"
+],
+"seiten": [],
+"artikel": "Art. 78g",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-78f",
+"nachher": "bund-sthg__art-79"
+},
+{
+"id": "bund-sthg__art-79",
+"titel": "Art. 79 StHG",
+"pfad": [
+"Achter Titel: Schlussbestimmungen",
+"4. Kapitel: Referendum und Inkrafttreten",
+"Art. 79"
+],
+"seiten": [],
+"artikel": "Art. 79",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-sthg__art-78g",
+"nachher": null
+}
+]

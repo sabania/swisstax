@@ -1,0 +1,210 @@
+[
+{
+"id": "sg-mb-8-2026__c0001",
+"titel": "MB 8/2026 SG – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "sg-mb-8-2026__c0002"
+},
+{
+"id": "sg-mb-8-2026__c0002",
+"titel": "MB 8/2026 SG – Abschnitt 2",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0001",
+"nachher": "sg-mb-8-2026__c0003"
+},
+{
+"id": "sg-mb-8-2026__c0003",
+"titel": "MB 8/2026 SG – Abschnitt 3",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0002",
+"nachher": "sg-mb-8-2026__c0004"
+},
+{
+"id": "sg-mb-8-2026__c0004",
+"titel": "MB 8/2026 SG – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0003",
+"nachher": "sg-mb-8-2026__c0005"
+},
+{
+"id": "sg-mb-8-2026__c0005",
+"titel": "MB 8/2026 SG – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0004",
+"nachher": "sg-mb-8-2026__c0006"
+},
+{
+"id": "sg-mb-8-2026__c0006",
+"titel": "MB 8/2026 SG – Abschnitt 6",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0005",
+"nachher": "sg-mb-8-2026__c0007"
+},
+{
+"id": "sg-mb-8-2026__c0007",
+"titel": "MB 8/2026 SG – Abschnitt 7",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0006",
+"nachher": "sg-mb-8-2026__c0008"
+},
+{
+"id": "sg-mb-8-2026__c0008",
+"titel": "MB 8/2026 SG – Abschnitt 8",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0007",
+"nachher": "sg-mb-8-2026__c0009"
+},
+{
+"id": "sg-mb-8-2026__c0009",
+"titel": "MB 8/2026 SG – Abschnitt 9",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0008",
+"nachher": "sg-mb-8-2026__c0010"
+},
+{
+"id": "sg-mb-8-2026__c0010",
+"titel": "MB 8/2026 SG – Abschnitt 10",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0009",
+"nachher": "sg-mb-8-2026__c0011"
+},
+{
+"id": "sg-mb-8-2026__c0011",
+"titel": "MB 8/2026 SG – Abschnitt 11",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0010",
+"nachher": "sg-mb-8-2026__c0012"
+},
+{
+"id": "sg-mb-8-2026__c0012",
+"titel": "MB 8/2026 SG – Abschnitt 12",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0011",
+"nachher": "sg-mb-8-2026__c0013"
+},
+{
+"id": "sg-mb-8-2026__c0013",
+"titel": "MB 8/2026 SG – Abschnitt 13",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-mb-8-2026__c0012",
+"nachher": null
+}
+]

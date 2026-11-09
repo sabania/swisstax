@@ -1,0 +1,8 @@
+# Abgedeckte Steuerjahre und ihr Stand (geplant | teilweise | vollständig)
+jahre:
+  2025:
+    status: teilweise
+    hinweis: Wegleitungen 2025 aller vier Kantone und ESTV (2a 2025) vorhanden; Werte agent-geprüft, Verifikation durch Fachperson offen.
+  2026:
+    status: teilweise
+    hinweis: Kantonale Wegleitungen 2026 noch nicht publiziert (ausser TG); Werte aus Gesetzen, Verordnungen (kalte Progression), Merkblättern und Mitteilungen.

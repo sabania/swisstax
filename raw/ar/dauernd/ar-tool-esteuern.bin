@@ -1,0 +1,38 @@
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+
+
+	<script type="text/javascript"  src="/resources/DEADLINE-EXTENSION/webres/deadline-extension-min.js"></script>
+	<script type="text/javascript"  src="/resources/MASS-DEADLINE-EXTENSION/webres/mass-deadline-extension-min.js"></script>
+	<script type="text/javascript"  src="/resources/ACCOUNT-STATEMENT/webres/account-statement-min.js"></script>
+	<script type="text/javascript"  src="/resources/REFUND-ACCOUNT/webres/refund-account-min.js"></script>
+	<script type="text/javascript"  src="/resources/PAYMENT-SLIP/webres/payment-slip-min.js"></script>
+
+
+
+<link type="image/x-icon" rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="stylesheet" href="/images/css/style.css">
+<link rel="stylesheet" href="/images/css/glyphicons.css">
+
+
+
+<title>AR PORTAL</title>
+</head>
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+
+	<div id="root" role="main" contextUrl="">
+		
+	</div>
+	<script type="text/javascript"		src="/resources/ARPORTAL/webres/vendors-min.js">
+	</script>
+	<script type="text/javascript"		src="/resources/ARPORTAL/webres/main-min.js">
+	</script>
+
+</body>
+
+</html>

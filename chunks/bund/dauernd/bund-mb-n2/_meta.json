@@ -1,0 +1,80 @@
+[
+{
+"id": "bund-mb-n2__c0001",
+"titel": "MB N2/2007 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "bund-mb-n2__c0002"
+},
+{
+"id": "bund-mb-n2__c0002",
+"titel": "MB N2/2007 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-n2__c0001",
+"nachher": "bund-mb-n2__c0003"
+},
+{
+"id": "bund-mb-n2__c0003",
+"titel": "MB N2/2007 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-n2__c0002",
+"nachher": "bund-mb-n2__c0004"
+},
+{
+"id": "bund-mb-n2__c0004",
+"titel": "MB N2/2007 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-n2__c0003",
+"nachher": "bund-mb-n2__c0005"
+},
+{
+"id": "bund-mb-n2__c0005",
+"titel": "MB N2/2007 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-mb-n2__c0004",
+"nachher": null
+}
+]

@@ -1,0 +1,27 @@
+---
+id: bund-ks-45__c0248
+quelle: bund-ks-45
+jur: bund
+jahre: [2025, 2026]
+typ: kreisschreiben
+titel: "KS 45 – Abschnitt 248"
+seiten: "69"
+qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+---
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 69
+
+<!-- Seite 69 -->
+13   Inkrafttreten, Aufhebungen und Übergangsrecht
+
+Dieses Kreisschreiben tritt auf den 1. Januar 2021 in Kraft und gilt für sämtliche ab diesem
+Zeitpunkt fällig werdenden steuerbaren Leistungen.
+Nachträgliche ordentliche Veranlagungen sowie Neuberechnungen der Quellensteuer (vgl.
+Ziffer 11 oben) werden daher erstmals für die Steuerperiode 2021 nach neuem Recht bzw.
+nach den Vorgaben dieses Kreisschreibens durchgeführt.
+Altrechtliche Vorbescheide (Rulings), die dem Inhalt dieses Kreisschreibens nicht entspre-
+chen, entfalten ab der Steuerperiode 2021 keine Wirkung mehr.
+
+
+    Anhang I: Musterformulare (Anmeldung, Mutation, Abrechnung, Anträge NOV)
+    Anhang II: Übersicht NOV
+    Anhang III: Übersicht der Kantone mit Monatsmodell und Jahresmodell

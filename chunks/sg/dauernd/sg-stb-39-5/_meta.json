@@ -1,0 +1,96 @@
+[
+{
+"id": "sg-stb-39-5__c0001",
+"titel": "StB 39 Nr. 5 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "sg-stb-39-5__c0002"
+},
+{
+"id": "sg-stb-39-5__c0002",
+"titel": "StB 39 Nr. 5 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-5__c0001",
+"nachher": "sg-stb-39-5__c0003"
+},
+{
+"id": "sg-stb-39-5__c0003",
+"titel": "StB 39 Nr. 5 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-5__c0002",
+"nachher": "sg-stb-39-5__c0004"
+},
+{
+"id": "sg-stb-39-5__c0004",
+"titel": "StB 39 Nr. 5 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-5__c0003",
+"nachher": "sg-stb-39-5__c0005"
+},
+{
+"id": "sg-stb-39-5__c0005",
+"titel": "StB 39 Nr. 5 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-5__c0004",
+"nachher": "sg-stb-39-5__c0006"
+},
+{
+"id": "sg-stb-39-5__c0006",
+"titel": "StB 39 Nr. 5 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-5__c0005",
+"nachher": null
+}
+]

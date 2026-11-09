@@ -1,0 +1,146 @@
+[
+{
+"id": "tg-v-dbg__c0001",
+"titel": "V DBG TG – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "tg-v-dbg__c0002"
+},
+{
+"id": "tg-v-dbg__c0002",
+"titel": "V DBG TG – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-v-dbg__c0001",
+"nachher": "tg-v-dbg__c0003"
+},
+{
+"id": "tg-v-dbg__c0003",
+"titel": "V DBG TG – Abschnitt 3",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-v-dbg__c0002",
+"nachher": "tg-v-dbg__c0004"
+},
+{
+"id": "tg-v-dbg__c0004",
+"titel": "V DBG TG – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-v-dbg__c0003",
+"nachher": "tg-v-dbg__c0005"
+},
+{
+"id": "tg-v-dbg__c0005",
+"titel": "V DBG TG – Abschnitt 5",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-v-dbg__c0004",
+"nachher": "tg-v-dbg__c0006"
+},
+{
+"id": "tg-v-dbg__c0006",
+"titel": "V DBG TG – Abschnitt 6",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-v-dbg__c0005",
+"nachher": "tg-v-dbg__c0007"
+},
+{
+"id": "tg-v-dbg__c0007",
+"titel": "V DBG TG – Abschnitt 7",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-v-dbg__c0006",
+"nachher": "tg-v-dbg__c0008"
+},
+{
+"id": "tg-v-dbg__c0008",
+"titel": "V DBG TG – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-v-dbg__c0007",
+"nachher": "tg-v-dbg__c0009"
+},
+{
+"id": "tg-v-dbg__c0009",
+"titel": "V DBG TG – Abschnitt 9",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-v-dbg__c0008",
+"nachher": null
+}
+]

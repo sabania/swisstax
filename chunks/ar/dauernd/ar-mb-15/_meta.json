@@ -1,0 +1,144 @@
+[
+{
+"id": "ar-mb-15__c0001",
+"titel": "MB AR 15 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "ar-mb-15__c0002"
+},
+{
+"id": "ar-mb-15__c0002",
+"titel": "MB AR 15 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-15__c0001",
+"nachher": "ar-mb-15__c0003"
+},
+{
+"id": "ar-mb-15__c0003",
+"titel": "MB AR 15 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-15__c0002",
+"nachher": "ar-mb-15__c0004"
+},
+{
+"id": "ar-mb-15__c0004",
+"titel": "MB AR 15 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-15__c0003",
+"nachher": "ar-mb-15__c0005"
+},
+{
+"id": "ar-mb-15__c0005",
+"titel": "MB AR 15 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-15__c0004",
+"nachher": "ar-mb-15__c0006"
+},
+{
+"id": "ar-mb-15__c0006",
+"titel": "MB AR 15 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-15__c0005",
+"nachher": "ar-mb-15__c0007"
+},
+{
+"id": "ar-mb-15__c0007",
+"titel": "MB AR 15 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-15__c0006",
+"nachher": "ar-mb-15__c0008"
+},
+{
+"id": "ar-mb-15__c0008",
+"titel": "MB AR 15 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-15__c0007",
+"nachher": "ar-mb-15__c0009"
+},
+{
+"id": "ar-mb-15__c0009",
+"titel": "MB AR 15 – Abschnitt 9",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-15__c0008",
+"nachher": null
+}
+]

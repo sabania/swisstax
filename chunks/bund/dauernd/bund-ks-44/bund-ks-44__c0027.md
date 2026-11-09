@@ -1,0 +1,22 @@
+---
+id: bund-ks-44__c0027
+quelle: bund-ks-44
+jur: bund
+jahre: [2025, 2026]
+typ: kreisschreiben
+titel: "KS 44 – Abschnitt 27"
+seiten: "6"
+qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+---
+> Bund · Steuerjahr 2025/2026 · KS 44 · S. 6
+
+4 Sozialabzüge, anwendbarer Tarif, Satzbestimmung
+
+Gemäss Artikel 14 Absatz 4 DBG wird die Steuer nach dem ordentlichen Steuertarif berechnet
+(vgl. Art. 36 DBG). Die Ermässigung nach Artikel 36 Absatz 2bis zweiter Satz DBG kommt nicht
+zur Anwendung.
+Sozialabzüge (vgl. Art. 35 DBG) sind bei der Besteuerung nach dem Aufwand gemäss Artikel 2
+VO Aufwandbesteuerung in der Fassung vom 20. Februar 2013 nicht zulässig.
+Das nicht unter Artikel 14 Absatz 3 Buchstabe d DBG fallende Einkommen der steuerpflichtigen
+Person wird in Abweichung von Artikel 7 Absatz 1 DBG bei der Festsetzung des Steuersatzes
+nicht berücksichtigt.

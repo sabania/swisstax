@@ -1,0 +1,70 @@
+[
+{
+"id": "ar-info-fristen__c0001",
+"titel": "Steuererklärungen und Fristverlängerungen",
+"pfad": [
+"Steuererklärungen und Fristverlängerungen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "ar-info-fristen__c0002"
+},
+{
+"id": "ar-info-fristen__c0002",
+"titel": "Steuererklärung für juristische Personen",
+"pfad": [
+"Steuererklärungen / Fristverlängerungen",
+"Steuererklärung für juristische Personen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-fristen__c0001",
+"nachher": "ar-info-fristen__c0003"
+},
+{
+"id": "ar-info-fristen__c0003",
+"titel": "Informationen zur Ergänzungssteuer der ESTV",
+"pfad": [
+"Steuererklärungen / Fristverlängerungen",
+"Informationen zur Ergänzungssteuer der ESTV"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-fristen__c0002",
+"nachher": "ar-info-fristen__c0004"
+},
+{
+"id": "ar-info-fristen__c0004",
+"titel": "Kantonale Steuerverwaltung",
+"pfad": [
+"Steuererklärungen / Fristverlängerungen",
+"Zusätzliche Informationen",
+"Kantonale Steuerverwaltung"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "ar-info-fristen__c0003",
+"nachher": null
+}
+]

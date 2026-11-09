@@ -1,0 +1,128 @@
+[
+{
+"id": "ar-mb-08__c0001",
+"titel": "MB AR 08 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "ar-mb-08__c0002"
+},
+{
+"id": "ar-mb-08__c0002",
+"titel": "MB AR 08 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-08__c0001",
+"nachher": "ar-mb-08__c0003"
+},
+{
+"id": "ar-mb-08__c0003",
+"titel": "MB AR 08 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-08__c0002",
+"nachher": "ar-mb-08__c0004"
+},
+{
+"id": "ar-mb-08__c0004",
+"titel": "MB AR 08 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-08__c0003",
+"nachher": "ar-mb-08__c0005"
+},
+{
+"id": "ar-mb-08__c0005",
+"titel": "MB AR 08 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-08__c0004",
+"nachher": "ar-mb-08__c0006"
+},
+{
+"id": "ar-mb-08__c0006",
+"titel": "MB AR 08 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-08__c0005",
+"nachher": "ar-mb-08__c0007"
+},
+{
+"id": "ar-mb-08__c0007",
+"titel": "MB AR 08 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-08__c0006",
+"nachher": "ar-mb-08__c0008"
+},
+{
+"id": "ar-mb-08__c0008",
+"titel": "MB AR 08 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-08__c0007",
+"nachher": null
+}
+]

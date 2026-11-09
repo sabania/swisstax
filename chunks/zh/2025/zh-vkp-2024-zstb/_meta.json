@@ -1,0 +1,208 @@
+[
+{
+"id": "zh-vkp-2024-zstb__c0001",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "zh-vkp-2024-zstb__c0002"
+},
+{
+"id": "zh-vkp-2024-zstb__c0002",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0001",
+"nachher": "zh-vkp-2024-zstb__c0003"
+},
+{
+"id": "zh-vkp-2024-zstb__c0003",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0002",
+"nachher": "zh-vkp-2024-zstb__c0004"
+},
+{
+"id": "zh-vkp-2024-zstb__c0004",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0003",
+"nachher": "zh-vkp-2024-zstb__c0005"
+},
+{
+"id": "zh-vkp-2024-zstb__c0005",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0004",
+"nachher": "zh-vkp-2024-zstb__c0006"
+},
+{
+"id": "zh-vkp-2024-zstb__c0006",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0005",
+"nachher": "zh-vkp-2024-zstb__c0007"
+},
+{
+"id": "zh-vkp-2024-zstb__c0007",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0006",
+"nachher": "zh-vkp-2024-zstb__c0008"
+},
+{
+"id": "zh-vkp-2024-zstb__c0008",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 8",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0007",
+"nachher": "zh-vkp-2024-zstb__c0009"
+},
+{
+"id": "zh-vkp-2024-zstb__c0009",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 9",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0008",
+"nachher": "zh-vkp-2024-zstb__c0010"
+},
+{
+"id": "zh-vkp-2024-zstb__c0010",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 10",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0009",
+"nachher": "zh-vkp-2024-zstb__c0011"
+},
+{
+"id": "zh-vkp-2024-zstb__c0011",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 11",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0010",
+"nachher": "zh-vkp-2024-zstb__c0012"
+},
+{
+"id": "zh-vkp-2024-zstb__c0012",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 12",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0011",
+"nachher": "zh-vkp-2024-zstb__c0013"
+},
+{
+"id": "zh-vkp-2024-zstb__c0013",
+"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 13",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-vkp-2024-zstb__c0012",
+"nachher": null
+}
+]

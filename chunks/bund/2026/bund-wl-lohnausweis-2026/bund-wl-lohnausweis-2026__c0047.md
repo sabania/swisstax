@@ -1,0 +1,23 @@
+---
+id: bund-wl-lohnausweis-2026__c0047
+quelle: bund-wl-lohnausweis-2026
+jur: bund
+jahre: [2026]
+typ: wegleitung
+titel: "WL Lohnausweis 2026 – Abschnitt 47"
+seiten: "15"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
+---
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 15
+
+Eine Vergütung von Spesen ist je nach Art der Entschädigung unterschiedlich im Lohnaus   51
+weis zu deklarieren.
+Es wird wie folgt unterschieden:
+•   Effektive Spesenvergütungen anhand von Belegen oder in Form von Einzelfallpauschalen,
+    z. B. CHF 30 pro auswärtiges Abendessen (vgl. Rz 52, 53 und 54);
+•   Pauschale Spesenvergütungen für einen bestimmten Zeitabschnitt, z. B. monatliche Auto-
+    oder Repräsentationsspesen (vgl. Rz 55, 56, 57 und 58);
+•   Spesenvergütungen im Rahmen eines genehmigten Spesenreglementes (vgl. Rz 59 und
+    60).
+
+    ESTV   Seite 15 / 25

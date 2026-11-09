@@ -1,0 +1,26 @@
+---
+id: sg-stv__c0061
+quelle: sg-stv
+jur: sg
+jahre: [2025, 2026]
+typ: verordnung
+titel: "StV SG – Abschnitt 61"
+seiten: "26"
+qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
+---
+> SG · Steuerjahr 2025/2026 · StV SG · S. 26
+
+Art. 84   b) dem Inventar gleichgestellte Abrechnung (Art. 204 StG)
+1
+ Für steuerliche Zwecke können dem Inventar gleichgestellt werden:
+a)* die Schlussrechnung, die der Beistand oder der Vormund nach dem Tod eines
+    Kindes unter Vormundschaft oder einer Person unter umfassender Beistand-
+    schaft erstellt;
+abis)* die Schlussrechnung, die der Beistand nach dem Tod einer unter umfassen-
+    der Beistandschaft stehenden Person erstellt;
+b) das Sicherungsinventar oder das öffentliche Inventar, das nach dem Tod eines
+    Steuerpflichtigen aufgenommen wurde.
+2
+    Die Inventarbehörde ergänzt im Bedarfsfall diese Zusammenstellungen.
+
+30   Vgl. Art. 212 StG, sGS 811.1.

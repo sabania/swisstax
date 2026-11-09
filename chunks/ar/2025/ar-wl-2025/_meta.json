@@ -1,0 +1,3201 @@
+[
+{
+"id": "ar-wl-2025__c0001",
+"titel": "WL AR 2025 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "ar-wl-2025__c0002"
+},
+{
+"id": "ar-wl-2025__c0002",
+"titel": "WL AR 2025 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0001",
+"nachher": "ar-wl-2025__c0003"
+},
+{
+"id": "ar-wl-2025__c0003",
+"titel": "WL AR 2025 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0002",
+"nachher": "ar-wl-2025__c0004"
+},
+{
+"id": "ar-wl-2025__c0004",
+"titel": "WL AR 2025 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0003",
+"nachher": "ar-wl-2025__c0005"
+},
+{
+"id": "ar-wl-2025__c0005",
+"titel": "WL AR 2025 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0004",
+"nachher": "ar-wl-2025__c0006"
+},
+{
+"id": "ar-wl-2025__c0006",
+"titel": "WL AR 2025 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0005",
+"nachher": "ar-wl-2025__c0007"
+},
+{
+"id": "ar-wl-2025__c0007",
+"titel": "WL AR 2025 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0006",
+"nachher": "ar-wl-2025__c0008"
+},
+{
+"id": "ar-wl-2025__c0008",
+"titel": "WL AR 2025 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0007",
+"nachher": "ar-wl-2025__c0009"
+},
+{
+"id": "ar-wl-2025__c0009",
+"titel": "WL AR 2025 – Abschnitt 9",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0008",
+"nachher": "ar-wl-2025__c0010"
+},
+{
+"id": "ar-wl-2025__c0010",
+"titel": "WL AR 2025 – Abschnitt 10",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0009",
+"nachher": "ar-wl-2025__c0011"
+},
+{
+"id": "ar-wl-2025__c0011",
+"titel": "WL AR 2025 – Abschnitt 11",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0010",
+"nachher": "ar-wl-2025__c0012"
+},
+{
+"id": "ar-wl-2025__c0012",
+"titel": "WL AR 2025 – Abschnitt 12",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0011",
+"nachher": "ar-wl-2025__c0013"
+},
+{
+"id": "ar-wl-2025__c0013",
+"titel": "WL AR 2025 – Abschnitt 13",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0012",
+"nachher": "ar-wl-2025__c0014"
+},
+{
+"id": "ar-wl-2025__c0014",
+"titel": "WL AR 2025 – Abschnitt 14",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0013",
+"nachher": "ar-wl-2025__c0015"
+},
+{
+"id": "ar-wl-2025__c0015",
+"titel": "WL AR 2025 – Abschnitt 15",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0014",
+"nachher": "ar-wl-2025__c0016"
+},
+{
+"id": "ar-wl-2025__c0016",
+"titel": "WL AR 2025 – Abschnitt 16",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0015",
+"nachher": "ar-wl-2025__c0017"
+},
+{
+"id": "ar-wl-2025__c0017",
+"titel": "WL AR 2025 – Abschnitt 17",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0016",
+"nachher": "ar-wl-2025__c0018"
+},
+{
+"id": "ar-wl-2025__c0018",
+"titel": "WL AR 2025 – Abschnitt 18",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0017",
+"nachher": "ar-wl-2025__c0019"
+},
+{
+"id": "ar-wl-2025__c0019",
+"titel": "WL AR 2025 – Abschnitt 19",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0018",
+"nachher": "ar-wl-2025__c0020"
+},
+{
+"id": "ar-wl-2025__c0020",
+"titel": "WL AR 2025 – Abschnitt 20",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0019",
+"nachher": "ar-wl-2025__c0021"
+},
+{
+"id": "ar-wl-2025__c0021",
+"titel": "WL AR 2025 – Abschnitt 21",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0020",
+"nachher": "ar-wl-2025__c0022"
+},
+{
+"id": "ar-wl-2025__c0022",
+"titel": "WL AR 2025 – Abschnitt 22",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0021",
+"nachher": "ar-wl-2025__c0023"
+},
+{
+"id": "ar-wl-2025__c0023",
+"titel": "WL AR 2025 – Abschnitt 23",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0022",
+"nachher": "ar-wl-2025__c0024"
+},
+{
+"id": "ar-wl-2025__c0024",
+"titel": "WL AR 2025 – Abschnitt 24",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0023",
+"nachher": "ar-wl-2025__c0025"
+},
+{
+"id": "ar-wl-2025__c0025",
+"titel": "WL AR 2025 – Abschnitt 25",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0024",
+"nachher": "ar-wl-2025__c0026"
+},
+{
+"id": "ar-wl-2025__c0026",
+"titel": "WL AR 2025 – Abschnitt 26",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0025",
+"nachher": "ar-wl-2025__c0027"
+},
+{
+"id": "ar-wl-2025__c0027",
+"titel": "WL AR 2025 – Abschnitt 27",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0026",
+"nachher": "ar-wl-2025__c0028"
+},
+{
+"id": "ar-wl-2025__c0028",
+"titel": "WL AR 2025 – Abschnitt 28",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0027",
+"nachher": "ar-wl-2025__c0029"
+},
+{
+"id": "ar-wl-2025__c0029",
+"titel": "WL AR 2025 – Abschnitt 29",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0028",
+"nachher": "ar-wl-2025__c0030"
+},
+{
+"id": "ar-wl-2025__c0030",
+"titel": "WL AR 2025 – Abschnitt 30",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0029",
+"nachher": "ar-wl-2025__c0031"
+},
+{
+"id": "ar-wl-2025__c0031",
+"titel": "WL AR 2025 – Abschnitt 31",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0030",
+"nachher": "ar-wl-2025__c0032"
+},
+{
+"id": "ar-wl-2025__c0032",
+"titel": "WL AR 2025 – Abschnitt 32",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0031",
+"nachher": "ar-wl-2025__c0033"
+},
+{
+"id": "ar-wl-2025__c0033",
+"titel": "WL AR 2025 – Abschnitt 33",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0032",
+"nachher": "ar-wl-2025__c0034"
+},
+{
+"id": "ar-wl-2025__c0034",
+"titel": "WL AR 2025 – Abschnitt 34",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0033",
+"nachher": "ar-wl-2025__c0035"
+},
+{
+"id": "ar-wl-2025__c0035",
+"titel": "WL AR 2025 – Abschnitt 35",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0034",
+"nachher": "ar-wl-2025__c0036"
+},
+{
+"id": "ar-wl-2025__c0036",
+"titel": "WL AR 2025 – Abschnitt 36",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0035",
+"nachher": "ar-wl-2025__c0037"
+},
+{
+"id": "ar-wl-2025__c0037",
+"titel": "WL AR 2025 – Abschnitt 37",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0036",
+"nachher": "ar-wl-2025__c0038"
+},
+{
+"id": "ar-wl-2025__c0038",
+"titel": "WL AR 2025 – Abschnitt 38",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0037",
+"nachher": "ar-wl-2025__c0039"
+},
+{
+"id": "ar-wl-2025__c0039",
+"titel": "WL AR 2025 – Abschnitt 39",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0038",
+"nachher": "ar-wl-2025__c0040"
+},
+{
+"id": "ar-wl-2025__c0040",
+"titel": "WL AR 2025 – Abschnitt 40",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0039",
+"nachher": "ar-wl-2025__c0041"
+},
+{
+"id": "ar-wl-2025__c0041",
+"titel": "WL AR 2025 – Abschnitt 41",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0040",
+"nachher": "ar-wl-2025__c0042"
+},
+{
+"id": "ar-wl-2025__c0042",
+"titel": "WL AR 2025 – Abschnitt 42",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0041",
+"nachher": "ar-wl-2025__c0043"
+},
+{
+"id": "ar-wl-2025__c0043",
+"titel": "WL AR 2025 – Abschnitt 43",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0042",
+"nachher": "ar-wl-2025__c0044"
+},
+{
+"id": "ar-wl-2025__c0044",
+"titel": "WL AR 2025 – Abschnitt 44",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0043",
+"nachher": "ar-wl-2025__c0045"
+},
+{
+"id": "ar-wl-2025__c0045",
+"titel": "WL AR 2025 – Abschnitt 45",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0044",
+"nachher": "ar-wl-2025__c0046"
+},
+{
+"id": "ar-wl-2025__c0046",
+"titel": "WL AR 2025 – Abschnitt 46",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0045",
+"nachher": "ar-wl-2025__c0047"
+},
+{
+"id": "ar-wl-2025__c0047",
+"titel": "WL AR 2025 – Abschnitt 47",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0046",
+"nachher": "ar-wl-2025__c0048"
+},
+{
+"id": "ar-wl-2025__c0048",
+"titel": "WL AR 2025 – Abschnitt 48",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0047",
+"nachher": "ar-wl-2025__c0049"
+},
+{
+"id": "ar-wl-2025__c0049",
+"titel": "WL AR 2025 – Abschnitt 49",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0048",
+"nachher": "ar-wl-2025__c0050"
+},
+{
+"id": "ar-wl-2025__c0050",
+"titel": "WL AR 2025 – Abschnitt 50",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0049",
+"nachher": "ar-wl-2025__c0051"
+},
+{
+"id": "ar-wl-2025__c0051",
+"titel": "WL AR 2025 – Abschnitt 51",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0050",
+"nachher": "ar-wl-2025__c0052"
+},
+{
+"id": "ar-wl-2025__c0052",
+"titel": "WL AR 2025 – Abschnitt 52",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0051",
+"nachher": "ar-wl-2025__c0053"
+},
+{
+"id": "ar-wl-2025__c0053",
+"titel": "WL AR 2025 – Abschnitt 53",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0052",
+"nachher": "ar-wl-2025__c0054"
+},
+{
+"id": "ar-wl-2025__c0054",
+"titel": "WL AR 2025 – Abschnitt 54",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0053",
+"nachher": "ar-wl-2025__c0055"
+},
+{
+"id": "ar-wl-2025__c0055",
+"titel": "WL AR 2025 – Abschnitt 55",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0054",
+"nachher": "ar-wl-2025__c0056"
+},
+{
+"id": "ar-wl-2025__c0056",
+"titel": "WL AR 2025 – Abschnitt 56",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0055",
+"nachher": "ar-wl-2025__c0057"
+},
+{
+"id": "ar-wl-2025__c0057",
+"titel": "WL AR 2025 – Abschnitt 57",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0056",
+"nachher": "ar-wl-2025__c0058"
+},
+{
+"id": "ar-wl-2025__c0058",
+"titel": "WL AR 2025 – Abschnitt 58",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0057",
+"nachher": "ar-wl-2025__c0059"
+},
+{
+"id": "ar-wl-2025__c0059",
+"titel": "WL AR 2025 – Abschnitt 59",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0058",
+"nachher": "ar-wl-2025__c0060"
+},
+{
+"id": "ar-wl-2025__c0060",
+"titel": "WL AR 2025 – Abschnitt 60",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0059",
+"nachher": "ar-wl-2025__c0061"
+},
+{
+"id": "ar-wl-2025__c0061",
+"titel": "WL AR 2025 – Abschnitt 61",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0060",
+"nachher": "ar-wl-2025__c0062"
+},
+{
+"id": "ar-wl-2025__c0062",
+"titel": "WL AR 2025 – Abschnitt 62",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0061",
+"nachher": "ar-wl-2025__c0063"
+},
+{
+"id": "ar-wl-2025__c0063",
+"titel": "WL AR 2025 – Abschnitt 63",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0062",
+"nachher": "ar-wl-2025__c0064"
+},
+{
+"id": "ar-wl-2025__c0064",
+"titel": "WL AR 2025 – Abschnitt 64",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0063",
+"nachher": "ar-wl-2025__c0065"
+},
+{
+"id": "ar-wl-2025__c0065",
+"titel": "WL AR 2025 – Abschnitt 65",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0064",
+"nachher": "ar-wl-2025__c0066"
+},
+{
+"id": "ar-wl-2025__c0066",
+"titel": "WL AR 2025 – Abschnitt 66",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0065",
+"nachher": "ar-wl-2025__c0067"
+},
+{
+"id": "ar-wl-2025__c0067",
+"titel": "WL AR 2025 – Abschnitt 67",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0066",
+"nachher": "ar-wl-2025__c0068"
+},
+{
+"id": "ar-wl-2025__c0068",
+"titel": "WL AR 2025 – Abschnitt 68",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0067",
+"nachher": "ar-wl-2025__c0069"
+},
+{
+"id": "ar-wl-2025__c0069",
+"titel": "WL AR 2025 – Abschnitt 69",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0068",
+"nachher": "ar-wl-2025__c0070"
+},
+{
+"id": "ar-wl-2025__c0070",
+"titel": "WL AR 2025 – Abschnitt 70",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0069",
+"nachher": "ar-wl-2025__c0071"
+},
+{
+"id": "ar-wl-2025__c0071",
+"titel": "WL AR 2025 – Abschnitt 71",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0070",
+"nachher": "ar-wl-2025__c0072"
+},
+{
+"id": "ar-wl-2025__c0072",
+"titel": "WL AR 2025 – Abschnitt 72",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0071",
+"nachher": "ar-wl-2025__c0073"
+},
+{
+"id": "ar-wl-2025__c0073",
+"titel": "WL AR 2025 – Abschnitt 73",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0072",
+"nachher": "ar-wl-2025__c0074"
+},
+{
+"id": "ar-wl-2025__c0074",
+"titel": "WL AR 2025 – Abschnitt 74",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0073",
+"nachher": "ar-wl-2025__c0075"
+},
+{
+"id": "ar-wl-2025__c0075",
+"titel": "WL AR 2025 – Abschnitt 75",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0074",
+"nachher": "ar-wl-2025__c0076"
+},
+{
+"id": "ar-wl-2025__c0076",
+"titel": "WL AR 2025 – Abschnitt 76",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0075",
+"nachher": "ar-wl-2025__c0077"
+},
+{
+"id": "ar-wl-2025__c0077",
+"titel": "WL AR 2025 – Abschnitt 77",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0076",
+"nachher": "ar-wl-2025__c0078"
+},
+{
+"id": "ar-wl-2025__c0078",
+"titel": "WL AR 2025 – Abschnitt 78",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0077",
+"nachher": "ar-wl-2025__c0079"
+},
+{
+"id": "ar-wl-2025__c0079",
+"titel": "WL AR 2025 – Abschnitt 79",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0078",
+"nachher": "ar-wl-2025__c0080"
+},
+{
+"id": "ar-wl-2025__c0080",
+"titel": "WL AR 2025 – Abschnitt 80",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0079",
+"nachher": "ar-wl-2025__c0081"
+},
+{
+"id": "ar-wl-2025__c0081",
+"titel": "WL AR 2025 – Abschnitt 81",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0080",
+"nachher": "ar-wl-2025__c0082"
+},
+{
+"id": "ar-wl-2025__c0082",
+"titel": "WL AR 2025 – Abschnitt 82",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0081",
+"nachher": "ar-wl-2025__c0083"
+},
+{
+"id": "ar-wl-2025__c0083",
+"titel": "WL AR 2025 – Abschnitt 83",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0082",
+"nachher": "ar-wl-2025__c0084"
+},
+{
+"id": "ar-wl-2025__c0084",
+"titel": "WL AR 2025 – Abschnitt 84",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0083",
+"nachher": "ar-wl-2025__c0085"
+},
+{
+"id": "ar-wl-2025__c0085",
+"titel": "WL AR 2025 – Abschnitt 85",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0084",
+"nachher": "ar-wl-2025__c0086"
+},
+{
+"id": "ar-wl-2025__c0086",
+"titel": "WL AR 2025 – Abschnitt 86",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0085",
+"nachher": "ar-wl-2025__c0087"
+},
+{
+"id": "ar-wl-2025__c0087",
+"titel": "WL AR 2025 – Abschnitt 87",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0086",
+"nachher": "ar-wl-2025__c0088"
+},
+{
+"id": "ar-wl-2025__c0088",
+"titel": "WL AR 2025 – Abschnitt 88",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0087",
+"nachher": "ar-wl-2025__c0089"
+},
+{
+"id": "ar-wl-2025__c0089",
+"titel": "WL AR 2025 – Abschnitt 89",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0088",
+"nachher": "ar-wl-2025__c0090"
+},
+{
+"id": "ar-wl-2025__c0090",
+"titel": "WL AR 2025 – Abschnitt 90",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0089",
+"nachher": "ar-wl-2025__c0091"
+},
+{
+"id": "ar-wl-2025__c0091",
+"titel": "WL AR 2025 – Abschnitt 91",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0090",
+"nachher": "ar-wl-2025__c0092"
+},
+{
+"id": "ar-wl-2025__c0092",
+"titel": "WL AR 2025 – Abschnitt 92",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0091",
+"nachher": "ar-wl-2025__c0093"
+},
+{
+"id": "ar-wl-2025__c0093",
+"titel": "WL AR 2025 – Abschnitt 93",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0092",
+"nachher": "ar-wl-2025__c0094"
+},
+{
+"id": "ar-wl-2025__c0094",
+"titel": "WL AR 2025 – Abschnitt 94",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0093",
+"nachher": "ar-wl-2025__c0095"
+},
+{
+"id": "ar-wl-2025__c0095",
+"titel": "WL AR 2025 – Abschnitt 95",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0094",
+"nachher": "ar-wl-2025__c0096"
+},
+{
+"id": "ar-wl-2025__c0096",
+"titel": "WL AR 2025 – Abschnitt 96",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0095",
+"nachher": "ar-wl-2025__c0097"
+},
+{
+"id": "ar-wl-2025__c0097",
+"titel": "WL AR 2025 – Abschnitt 97",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0096",
+"nachher": "ar-wl-2025__c0098"
+},
+{
+"id": "ar-wl-2025__c0098",
+"titel": "WL AR 2025 – Abschnitt 98",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0097",
+"nachher": "ar-wl-2025__c0099"
+},
+{
+"id": "ar-wl-2025__c0099",
+"titel": "WL AR 2025 – Abschnitt 99",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0098",
+"nachher": "ar-wl-2025__c0100"
+},
+{
+"id": "ar-wl-2025__c0100",
+"titel": "WL AR 2025 – Abschnitt 100",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0099",
+"nachher": "ar-wl-2025__c0101"
+},
+{
+"id": "ar-wl-2025__c0101",
+"titel": "WL AR 2025 – Abschnitt 101",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0100",
+"nachher": "ar-wl-2025__c0102"
+},
+{
+"id": "ar-wl-2025__c0102",
+"titel": "WL AR 2025 – Abschnitt 102",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0101",
+"nachher": "ar-wl-2025__c0103"
+},
+{
+"id": "ar-wl-2025__c0103",
+"titel": "WL AR 2025 – Abschnitt 103",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0102",
+"nachher": "ar-wl-2025__c0104"
+},
+{
+"id": "ar-wl-2025__c0104",
+"titel": "WL AR 2025 – Abschnitt 104",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0103",
+"nachher": "ar-wl-2025__c0105"
+},
+{
+"id": "ar-wl-2025__c0105",
+"titel": "WL AR 2025 – Abschnitt 105",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0104",
+"nachher": "ar-wl-2025__c0106"
+},
+{
+"id": "ar-wl-2025__c0106",
+"titel": "WL AR 2025 – Abschnitt 106",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0105",
+"nachher": "ar-wl-2025__c0107"
+},
+{
+"id": "ar-wl-2025__c0107",
+"titel": "WL AR 2025 – Abschnitt 107",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0106",
+"nachher": "ar-wl-2025__c0108"
+},
+{
+"id": "ar-wl-2025__c0108",
+"titel": "WL AR 2025 – Abschnitt 108",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0107",
+"nachher": "ar-wl-2025__c0109"
+},
+{
+"id": "ar-wl-2025__c0109",
+"titel": "WL AR 2025 – Abschnitt 109",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0108",
+"nachher": "ar-wl-2025__c0110"
+},
+{
+"id": "ar-wl-2025__c0110",
+"titel": "WL AR 2025 – Abschnitt 110",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0109",
+"nachher": "ar-wl-2025__c0111"
+},
+{
+"id": "ar-wl-2025__c0111",
+"titel": "WL AR 2025 – Abschnitt 111",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0110",
+"nachher": "ar-wl-2025__c0112"
+},
+{
+"id": "ar-wl-2025__c0112",
+"titel": "WL AR 2025 – Abschnitt 112",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0111",
+"nachher": "ar-wl-2025__c0113"
+},
+{
+"id": "ar-wl-2025__c0113",
+"titel": "WL AR 2025 – Abschnitt 113",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0112",
+"nachher": "ar-wl-2025__c0114"
+},
+{
+"id": "ar-wl-2025__c0114",
+"titel": "WL AR 2025 – Abschnitt 114",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0113",
+"nachher": "ar-wl-2025__c0115"
+},
+{
+"id": "ar-wl-2025__c0115",
+"titel": "WL AR 2025 – Abschnitt 115",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0114",
+"nachher": "ar-wl-2025__c0116"
+},
+{
+"id": "ar-wl-2025__c0116",
+"titel": "WL AR 2025 – Abschnitt 116",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0115",
+"nachher": "ar-wl-2025__c0117"
+},
+{
+"id": "ar-wl-2025__c0117",
+"titel": "WL AR 2025 – Abschnitt 117",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0116",
+"nachher": "ar-wl-2025__c0118"
+},
+{
+"id": "ar-wl-2025__c0118",
+"titel": "WL AR 2025 – Abschnitt 118",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0117",
+"nachher": "ar-wl-2025__c0119"
+},
+{
+"id": "ar-wl-2025__c0119",
+"titel": "WL AR 2025 – Abschnitt 119",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0118",
+"nachher": "ar-wl-2025__c0120"
+},
+{
+"id": "ar-wl-2025__c0120",
+"titel": "WL AR 2025 – Abschnitt 120",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0119",
+"nachher": "ar-wl-2025__c0121"
+},
+{
+"id": "ar-wl-2025__c0121",
+"titel": "WL AR 2025 – Abschnitt 121",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0120",
+"nachher": "ar-wl-2025__c0122"
+},
+{
+"id": "ar-wl-2025__c0122",
+"titel": "WL AR 2025 – Abschnitt 122",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0121",
+"nachher": "ar-wl-2025__c0123"
+},
+{
+"id": "ar-wl-2025__c0123",
+"titel": "WL AR 2025 – Abschnitt 123",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0122",
+"nachher": "ar-wl-2025__c0124"
+},
+{
+"id": "ar-wl-2025__c0124",
+"titel": "WL AR 2025 – Abschnitt 124",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0123",
+"nachher": "ar-wl-2025__c0125"
+},
+{
+"id": "ar-wl-2025__c0125",
+"titel": "WL AR 2025 – Abschnitt 125",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0124",
+"nachher": "ar-wl-2025__c0126"
+},
+{
+"id": "ar-wl-2025__c0126",
+"titel": "WL AR 2025 – Abschnitt 126",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0125",
+"nachher": "ar-wl-2025__c0127"
+},
+{
+"id": "ar-wl-2025__c0127",
+"titel": "WL AR 2025 – Abschnitt 127",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0126",
+"nachher": "ar-wl-2025__c0128"
+},
+{
+"id": "ar-wl-2025__c0128",
+"titel": "WL AR 2025 – Abschnitt 128",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0127",
+"nachher": "ar-wl-2025__c0129"
+},
+{
+"id": "ar-wl-2025__c0129",
+"titel": "WL AR 2025 – Abschnitt 129",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0128",
+"nachher": "ar-wl-2025__c0130"
+},
+{
+"id": "ar-wl-2025__c0130",
+"titel": "WL AR 2025 – Abschnitt 130",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0129",
+"nachher": "ar-wl-2025__c0131"
+},
+{
+"id": "ar-wl-2025__c0131",
+"titel": "WL AR 2025 – Abschnitt 131",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0130",
+"nachher": "ar-wl-2025__c0132"
+},
+{
+"id": "ar-wl-2025__c0132",
+"titel": "WL AR 2025 – Abschnitt 132",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0131",
+"nachher": "ar-wl-2025__c0133"
+},
+{
+"id": "ar-wl-2025__c0133",
+"titel": "WL AR 2025 – Abschnitt 133",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0132",
+"nachher": "ar-wl-2025__c0134"
+},
+{
+"id": "ar-wl-2025__c0134",
+"titel": "WL AR 2025 – Abschnitt 134",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0133",
+"nachher": "ar-wl-2025__c0135"
+},
+{
+"id": "ar-wl-2025__c0135",
+"titel": "WL AR 2025 – Abschnitt 135",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0134",
+"nachher": "ar-wl-2025__c0136"
+},
+{
+"id": "ar-wl-2025__c0136",
+"titel": "WL AR 2025 – Abschnitt 136",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0135",
+"nachher": "ar-wl-2025__c0137"
+},
+{
+"id": "ar-wl-2025__c0137",
+"titel": "WL AR 2025 – Abschnitt 137",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0136",
+"nachher": "ar-wl-2025__c0138"
+},
+{
+"id": "ar-wl-2025__c0138",
+"titel": "WL AR 2025 – Abschnitt 138",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0137",
+"nachher": "ar-wl-2025__c0139"
+},
+{
+"id": "ar-wl-2025__c0139",
+"titel": "WL AR 2025 – Abschnitt 139",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0138",
+"nachher": "ar-wl-2025__c0140"
+},
+{
+"id": "ar-wl-2025__c0140",
+"titel": "WL AR 2025 – Abschnitt 140",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0139",
+"nachher": "ar-wl-2025__c0141"
+},
+{
+"id": "ar-wl-2025__c0141",
+"titel": "WL AR 2025 – Abschnitt 141",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0140",
+"nachher": "ar-wl-2025__c0142"
+},
+{
+"id": "ar-wl-2025__c0142",
+"titel": "WL AR 2025 – Abschnitt 142",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0141",
+"nachher": "ar-wl-2025__c0143"
+},
+{
+"id": "ar-wl-2025__c0143",
+"titel": "WL AR 2025 – Abschnitt 143",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0142",
+"nachher": "ar-wl-2025__c0144"
+},
+{
+"id": "ar-wl-2025__c0144",
+"titel": "WL AR 2025 – Abschnitt 144",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0143",
+"nachher": "ar-wl-2025__c0145"
+},
+{
+"id": "ar-wl-2025__c0145",
+"titel": "WL AR 2025 – Abschnitt 145",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0144",
+"nachher": "ar-wl-2025__c0146"
+},
+{
+"id": "ar-wl-2025__c0146",
+"titel": "WL AR 2025 – Abschnitt 146",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0145",
+"nachher": "ar-wl-2025__c0147"
+},
+{
+"id": "ar-wl-2025__c0147",
+"titel": "WL AR 2025 – Abschnitt 147",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0146",
+"nachher": "ar-wl-2025__c0148"
+},
+{
+"id": "ar-wl-2025__c0148",
+"titel": "WL AR 2025 – Abschnitt 148",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0147",
+"nachher": "ar-wl-2025__c0149"
+},
+{
+"id": "ar-wl-2025__c0149",
+"titel": "WL AR 2025 – Abschnitt 149",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0148",
+"nachher": "ar-wl-2025__c0150"
+},
+{
+"id": "ar-wl-2025__c0150",
+"titel": "WL AR 2025 – Abschnitt 150",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0149",
+"nachher": "ar-wl-2025__c0151"
+},
+{
+"id": "ar-wl-2025__c0151",
+"titel": "WL AR 2025 – Abschnitt 151",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0150",
+"nachher": "ar-wl-2025__c0152"
+},
+{
+"id": "ar-wl-2025__c0152",
+"titel": "WL AR 2025 – Abschnitt 152",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0151",
+"nachher": "ar-wl-2025__c0153"
+},
+{
+"id": "ar-wl-2025__c0153",
+"titel": "WL AR 2025 – Abschnitt 153",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0152",
+"nachher": "ar-wl-2025__c0154"
+},
+{
+"id": "ar-wl-2025__c0154",
+"titel": "WL AR 2025 – Abschnitt 154",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0153",
+"nachher": "ar-wl-2025__c0155"
+},
+{
+"id": "ar-wl-2025__c0155",
+"titel": "WL AR 2025 – Abschnitt 155",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0154",
+"nachher": "ar-wl-2025__c0156"
+},
+{
+"id": "ar-wl-2025__c0156",
+"titel": "WL AR 2025 – Abschnitt 156",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0155",
+"nachher": "ar-wl-2025__c0157"
+},
+{
+"id": "ar-wl-2025__c0157",
+"titel": "WL AR 2025 – Abschnitt 157",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0156",
+"nachher": "ar-wl-2025__c0158"
+},
+{
+"id": "ar-wl-2025__c0158",
+"titel": "WL AR 2025 – Abschnitt 158",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0157",
+"nachher": "ar-wl-2025__c0159"
+},
+{
+"id": "ar-wl-2025__c0159",
+"titel": "WL AR 2025 – Abschnitt 159",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0158",
+"nachher": "ar-wl-2025__c0160"
+},
+{
+"id": "ar-wl-2025__c0160",
+"titel": "WL AR 2025 – Abschnitt 160",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0159",
+"nachher": "ar-wl-2025__c0161"
+},
+{
+"id": "ar-wl-2025__c0161",
+"titel": "WL AR 2025 – Abschnitt 161",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0160",
+"nachher": "ar-wl-2025__c0162"
+},
+{
+"id": "ar-wl-2025__c0162",
+"titel": "WL AR 2025 – Abschnitt 162",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0161",
+"nachher": "ar-wl-2025__c0163"
+},
+{
+"id": "ar-wl-2025__c0163",
+"titel": "WL AR 2025 – Abschnitt 163",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0162",
+"nachher": "ar-wl-2025__c0164"
+},
+{
+"id": "ar-wl-2025__c0164",
+"titel": "WL AR 2025 – Abschnitt 164",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0163",
+"nachher": "ar-wl-2025__c0165"
+},
+{
+"id": "ar-wl-2025__c0165",
+"titel": "WL AR 2025 – Abschnitt 165",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0164",
+"nachher": "ar-wl-2025__c0166"
+},
+{
+"id": "ar-wl-2025__c0166",
+"titel": "WL AR 2025 – Abschnitt 166",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0165",
+"nachher": "ar-wl-2025__c0167"
+},
+{
+"id": "ar-wl-2025__c0167",
+"titel": "WL AR 2025 – Abschnitt 167",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0166",
+"nachher": "ar-wl-2025__c0168"
+},
+{
+"id": "ar-wl-2025__c0168",
+"titel": "WL AR 2025 – Abschnitt 168",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0167",
+"nachher": "ar-wl-2025__c0169"
+},
+{
+"id": "ar-wl-2025__c0169",
+"titel": "WL AR 2025 – Abschnitt 169",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0168",
+"nachher": "ar-wl-2025__c0170"
+},
+{
+"id": "ar-wl-2025__c0170",
+"titel": "WL AR 2025 – Abschnitt 170",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0169",
+"nachher": "ar-wl-2025__c0171"
+},
+{
+"id": "ar-wl-2025__c0171",
+"titel": "WL AR 2025 – Abschnitt 171",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0170",
+"nachher": "ar-wl-2025__c0172"
+},
+{
+"id": "ar-wl-2025__c0172",
+"titel": "WL AR 2025 – Abschnitt 172",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0171",
+"nachher": "ar-wl-2025__c0173"
+},
+{
+"id": "ar-wl-2025__c0173",
+"titel": "WL AR 2025 – Abschnitt 173",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0172",
+"nachher": "ar-wl-2025__c0174"
+},
+{
+"id": "ar-wl-2025__c0174",
+"titel": "WL AR 2025 – Abschnitt 174",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0173",
+"nachher": "ar-wl-2025__c0175"
+},
+{
+"id": "ar-wl-2025__c0175",
+"titel": "WL AR 2025 – Abschnitt 175",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0174",
+"nachher": "ar-wl-2025__c0176"
+},
+{
+"id": "ar-wl-2025__c0176",
+"titel": "WL AR 2025 – Abschnitt 176",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0175",
+"nachher": "ar-wl-2025__c0177"
+},
+{
+"id": "ar-wl-2025__c0177",
+"titel": "WL AR 2025 – Abschnitt 177",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0176",
+"nachher": "ar-wl-2025__c0178"
+},
+{
+"id": "ar-wl-2025__c0178",
+"titel": "WL AR 2025 – Abschnitt 178",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0177",
+"nachher": "ar-wl-2025__c0179"
+},
+{
+"id": "ar-wl-2025__c0179",
+"titel": "WL AR 2025 – Abschnitt 179",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0178",
+"nachher": "ar-wl-2025__c0180"
+},
+{
+"id": "ar-wl-2025__c0180",
+"titel": "WL AR 2025 – Abschnitt 180",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0179",
+"nachher": "ar-wl-2025__c0181"
+},
+{
+"id": "ar-wl-2025__c0181",
+"titel": "WL AR 2025 – Abschnitt 181",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0180",
+"nachher": "ar-wl-2025__c0182"
+},
+{
+"id": "ar-wl-2025__c0182",
+"titel": "WL AR 2025 – Abschnitt 182",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0181",
+"nachher": "ar-wl-2025__c0183"
+},
+{
+"id": "ar-wl-2025__c0183",
+"titel": "WL AR 2025 – Abschnitt 183",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0182",
+"nachher": "ar-wl-2025__c0184"
+},
+{
+"id": "ar-wl-2025__c0184",
+"titel": "WL AR 2025 – Abschnitt 184",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0183",
+"nachher": "ar-wl-2025__c0185"
+},
+{
+"id": "ar-wl-2025__c0185",
+"titel": "WL AR 2025 – Abschnitt 185",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0184",
+"nachher": "ar-wl-2025__c0186"
+},
+{
+"id": "ar-wl-2025__c0186",
+"titel": "WL AR 2025 – Abschnitt 186",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0185",
+"nachher": "ar-wl-2025__c0187"
+},
+{
+"id": "ar-wl-2025__c0187",
+"titel": "WL AR 2025 – Abschnitt 187",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0186",
+"nachher": "ar-wl-2025__c0188"
+},
+{
+"id": "ar-wl-2025__c0188",
+"titel": "WL AR 2025 – Abschnitt 188",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0187",
+"nachher": "ar-wl-2025__c0189"
+},
+{
+"id": "ar-wl-2025__c0189",
+"titel": "WL AR 2025 – Abschnitt 189",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0188",
+"nachher": "ar-wl-2025__c0190"
+},
+{
+"id": "ar-wl-2025__c0190",
+"titel": "WL AR 2025 – Abschnitt 190",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0189",
+"nachher": "ar-wl-2025__c0191"
+},
+{
+"id": "ar-wl-2025__c0191",
+"titel": "WL AR 2025 – Abschnitt 191",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0190",
+"nachher": "ar-wl-2025__c0192"
+},
+{
+"id": "ar-wl-2025__c0192",
+"titel": "WL AR 2025 – Abschnitt 192",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0191",
+"nachher": "ar-wl-2025__c0193"
+},
+{
+"id": "ar-wl-2025__c0193",
+"titel": "WL AR 2025 – Abschnitt 193",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0192",
+"nachher": "ar-wl-2025__c0194"
+},
+{
+"id": "ar-wl-2025__c0194",
+"titel": "WL AR 2025 – Abschnitt 194",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0193",
+"nachher": "ar-wl-2025__c0195"
+},
+{
+"id": "ar-wl-2025__c0195",
+"titel": "WL AR 2025 – Abschnitt 195",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0194",
+"nachher": "ar-wl-2025__c0196"
+},
+{
+"id": "ar-wl-2025__c0196",
+"titel": "WL AR 2025 – Abschnitt 196",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0195",
+"nachher": "ar-wl-2025__c0197"
+},
+{
+"id": "ar-wl-2025__c0197",
+"titel": "WL AR 2025 – Abschnitt 197",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0196",
+"nachher": "ar-wl-2025__c0198"
+},
+{
+"id": "ar-wl-2025__c0198",
+"titel": "WL AR 2025 – Abschnitt 198",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0197",
+"nachher": "ar-wl-2025__c0199"
+},
+{
+"id": "ar-wl-2025__c0199",
+"titel": "WL AR 2025 – Abschnitt 199",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0198",
+"nachher": "ar-wl-2025__c0200"
+},
+{
+"id": "ar-wl-2025__c0200",
+"titel": "WL AR 2025 – Abschnitt 200",
+"pfad": [],
+"seiten": [
+35,
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-wl-2025__c0199",
+"nachher": null
+}
+]

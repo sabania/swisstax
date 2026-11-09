@@ -1,0 +1,114 @@
+[
+{
+"id": "bund-lkv__art-1",
+"titel": "Art. 1 LKV – Dem Energiesparen und dem Umweltschutz dienende Investitionen",
+"pfad": [
+"Art. 1 Dem Energiesparen und dem Umweltschutz dienende Investitionen"
+],
+"seiten": [],
+"artikel": "Art. 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "bund-lkv__art-2"
+},
+{
+"id": "bund-lkv__art-2",
+"titel": "Art. 2 LKV – Rückbaukosten im Hinblick auf den Ersatzneubau",
+"pfad": [
+"Art. 2 Rückbaukosten im Hinblick auf den Ersatzneubau"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-lkv__art-1",
+"nachher": "bund-lkv__art-3"
+},
+{
+"id": "bund-lkv__art-3",
+"titel": "Art. 3 LKV – Ersatzneubau",
+"pfad": [
+"Art. 3 Ersatzneubau"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-lkv__art-2",
+"nachher": "bund-lkv__art-4"
+},
+{
+"id": "bund-lkv__art-4",
+"titel": "Art. 4 LKV – Auf die beiden nachfolgenden Steuerperioden übertragbare Kosten",
+"pfad": [
+"Art. 4 Auf die beiden nachfolgenden Steuerperioden übertragbare Kosten"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-lkv__art-3",
+"nachher": "bund-lkv__art-5"
+},
+{
+"id": "bund-lkv__art-5",
+"titel": "Art. 5 LKV – Pauschalabzug",
+"pfad": [
+"Art. 5 Pauschalabzug"
+],
+"seiten": [],
+"artikel": "Art. 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-lkv__art-4",
+"nachher": "bund-lkv__art-6"
+},
+{
+"id": "bund-lkv__art-6",
+"titel": "Art. 6 LKV – Aufhebung eines anderen Erlasses",
+"pfad": [
+"Art. 6 Aufhebung eines anderen Erlasses"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-lkv__art-5",
+"nachher": "bund-lkv__art-7"
+},
+{
+"id": "bund-lkv__art-7",
+"titel": "Art. 7 LKV – Inkrafttreten",
+"pfad": [
+"Art. 7 Inkrafttreten"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-lkv__art-6",
+"nachher": null
+}
+]

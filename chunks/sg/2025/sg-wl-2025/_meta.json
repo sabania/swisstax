@@ -1,0 +1,3059 @@
+[
+{
+"id": "sg-wl-2025__c0001",
+"titel": "WL SG 2025 – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1,
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "sg-wl-2025__c0002"
+},
+{
+"id": "sg-wl-2025__c0002",
+"titel": "WL SG 2025 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0001",
+"nachher": "sg-wl-2025__c0003"
+},
+{
+"id": "sg-wl-2025__c0003",
+"titel": "WL SG 2025 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0002",
+"nachher": "sg-wl-2025__c0004"
+},
+{
+"id": "sg-wl-2025__c0004",
+"titel": "WL SG 2025 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0003",
+"nachher": "sg-wl-2025__c0005"
+},
+{
+"id": "sg-wl-2025__c0005",
+"titel": "WL SG 2025 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0004",
+"nachher": "sg-wl-2025__c0006"
+},
+{
+"id": "sg-wl-2025__c0006",
+"titel": "WL SG 2025 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0005",
+"nachher": "sg-wl-2025__c0007"
+},
+{
+"id": "sg-wl-2025__c0007",
+"titel": "WL SG 2025 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0006",
+"nachher": "sg-wl-2025__c0008"
+},
+{
+"id": "sg-wl-2025__c0008",
+"titel": "WL SG 2025 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0007",
+"nachher": "sg-wl-2025__c0009"
+},
+{
+"id": "sg-wl-2025__c0009",
+"titel": "WL SG 2025 – Abschnitt 9",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0008",
+"nachher": "sg-wl-2025__c0010"
+},
+{
+"id": "sg-wl-2025__c0010",
+"titel": "WL SG 2025 – Abschnitt 10",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0009",
+"nachher": "sg-wl-2025__c0011"
+},
+{
+"id": "sg-wl-2025__c0011",
+"titel": "WL SG 2025 – Abschnitt 11",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0010",
+"nachher": "sg-wl-2025__c0012"
+},
+{
+"id": "sg-wl-2025__c0012",
+"titel": "WL SG 2025 – Abschnitt 12",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0011",
+"nachher": "sg-wl-2025__c0013"
+},
+{
+"id": "sg-wl-2025__c0013",
+"titel": "WL SG 2025 – Abschnitt 13",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0012",
+"nachher": "sg-wl-2025__c0014"
+},
+{
+"id": "sg-wl-2025__c0014",
+"titel": "WL SG 2025 – Abschnitt 14",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0013",
+"nachher": "sg-wl-2025__c0015"
+},
+{
+"id": "sg-wl-2025__c0015",
+"titel": "WL SG 2025 – Abschnitt 15",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0014",
+"nachher": "sg-wl-2025__c0016"
+},
+{
+"id": "sg-wl-2025__c0016",
+"titel": "WL SG 2025 – Abschnitt 16",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0015",
+"nachher": "sg-wl-2025__c0017"
+},
+{
+"id": "sg-wl-2025__c0017",
+"titel": "WL SG 2025 – Abschnitt 17",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0016",
+"nachher": "sg-wl-2025__c0018"
+},
+{
+"id": "sg-wl-2025__c0018",
+"titel": "WL SG 2025 – Abschnitt 18",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0017",
+"nachher": "sg-wl-2025__c0019"
+},
+{
+"id": "sg-wl-2025__c0019",
+"titel": "WL SG 2025 – Abschnitt 19",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0018",
+"nachher": "sg-wl-2025__c0020"
+},
+{
+"id": "sg-wl-2025__c0020",
+"titel": "WL SG 2025 – Abschnitt 20",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0019",
+"nachher": "sg-wl-2025__c0021"
+},
+{
+"id": "sg-wl-2025__c0021",
+"titel": "WL SG 2025 – Abschnitt 21",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0020",
+"nachher": "sg-wl-2025__c0022"
+},
+{
+"id": "sg-wl-2025__c0022",
+"titel": "WL SG 2025 – Abschnitt 22",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0021",
+"nachher": "sg-wl-2025__c0023"
+},
+{
+"id": "sg-wl-2025__c0023",
+"titel": "WL SG 2025 – Abschnitt 23",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0022",
+"nachher": "sg-wl-2025__c0024"
+},
+{
+"id": "sg-wl-2025__c0024",
+"titel": "WL SG 2025 – Abschnitt 24",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0023",
+"nachher": "sg-wl-2025__c0025"
+},
+{
+"id": "sg-wl-2025__c0025",
+"titel": "WL SG 2025 – Abschnitt 25",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0024",
+"nachher": "sg-wl-2025__c0026"
+},
+{
+"id": "sg-wl-2025__c0026",
+"titel": "WL SG 2025 – Abschnitt 26",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0025",
+"nachher": "sg-wl-2025__c0027"
+},
+{
+"id": "sg-wl-2025__c0027",
+"titel": "WL SG 2025 – Abschnitt 27",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0026",
+"nachher": "sg-wl-2025__c0028"
+},
+{
+"id": "sg-wl-2025__c0028",
+"titel": "WL SG 2025 – Abschnitt 28",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0027",
+"nachher": "sg-wl-2025__c0029"
+},
+{
+"id": "sg-wl-2025__c0029",
+"titel": "WL SG 2025 – Abschnitt 29",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0028",
+"nachher": "sg-wl-2025__c0030"
+},
+{
+"id": "sg-wl-2025__c0030",
+"titel": "WL SG 2025 – Abschnitt 30",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0029",
+"nachher": "sg-wl-2025__c0031"
+},
+{
+"id": "sg-wl-2025__c0031",
+"titel": "WL SG 2025 – Abschnitt 31",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0030",
+"nachher": "sg-wl-2025__c0032"
+},
+{
+"id": "sg-wl-2025__c0032",
+"titel": "WL SG 2025 – Abschnitt 32",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0031",
+"nachher": "sg-wl-2025__c0033"
+},
+{
+"id": "sg-wl-2025__c0033",
+"titel": "WL SG 2025 – Abschnitt 33",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0032",
+"nachher": "sg-wl-2025__c0034"
+},
+{
+"id": "sg-wl-2025__c0034",
+"titel": "WL SG 2025 – Abschnitt 34",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0033",
+"nachher": "sg-wl-2025__c0035"
+},
+{
+"id": "sg-wl-2025__c0035",
+"titel": "WL SG 2025 – Abschnitt 35",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0034",
+"nachher": "sg-wl-2025__c0036"
+},
+{
+"id": "sg-wl-2025__c0036",
+"titel": "WL SG 2025 – Abschnitt 36",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0035",
+"nachher": "sg-wl-2025__c0037"
+},
+{
+"id": "sg-wl-2025__c0037",
+"titel": "WL SG 2025 – Abschnitt 37",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0036",
+"nachher": "sg-wl-2025__c0038"
+},
+{
+"id": "sg-wl-2025__c0038",
+"titel": "WL SG 2025 – Abschnitt 38",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0037",
+"nachher": "sg-wl-2025__c0039"
+},
+{
+"id": "sg-wl-2025__c0039",
+"titel": "WL SG 2025 – Abschnitt 39",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0038",
+"nachher": "sg-wl-2025__c0040"
+},
+{
+"id": "sg-wl-2025__c0040",
+"titel": "WL SG 2025 – Abschnitt 40",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0039",
+"nachher": "sg-wl-2025__c0041"
+},
+{
+"id": "sg-wl-2025__c0041",
+"titel": "WL SG 2025 – Abschnitt 41",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0040",
+"nachher": "sg-wl-2025__c0042"
+},
+{
+"id": "sg-wl-2025__c0042",
+"titel": "WL SG 2025 – Abschnitt 42",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0041",
+"nachher": "sg-wl-2025__c0043"
+},
+{
+"id": "sg-wl-2025__c0043",
+"titel": "WL SG 2025 – Abschnitt 43",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0042",
+"nachher": "sg-wl-2025__c0044"
+},
+{
+"id": "sg-wl-2025__c0044",
+"titel": "WL SG 2025 – Abschnitt 44",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0043",
+"nachher": "sg-wl-2025__c0045"
+},
+{
+"id": "sg-wl-2025__c0045",
+"titel": "WL SG 2025 – Abschnitt 45",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0044",
+"nachher": "sg-wl-2025__c0046"
+},
+{
+"id": "sg-wl-2025__c0046",
+"titel": "WL SG 2025 – Abschnitt 46",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0045",
+"nachher": "sg-wl-2025__c0047"
+},
+{
+"id": "sg-wl-2025__c0047",
+"titel": "WL SG 2025 – Abschnitt 47",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0046",
+"nachher": "sg-wl-2025__c0048"
+},
+{
+"id": "sg-wl-2025__c0048",
+"titel": "WL SG 2025 – Abschnitt 48",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0047",
+"nachher": "sg-wl-2025__c0049"
+},
+{
+"id": "sg-wl-2025__c0049",
+"titel": "WL SG 2025 – Abschnitt 49",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0048",
+"nachher": "sg-wl-2025__c0050"
+},
+{
+"id": "sg-wl-2025__c0050",
+"titel": "WL SG 2025 – Abschnitt 50",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0049",
+"nachher": "sg-wl-2025__c0051"
+},
+{
+"id": "sg-wl-2025__c0051",
+"titel": "WL SG 2025 – Abschnitt 51",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0050",
+"nachher": "sg-wl-2025__c0052"
+},
+{
+"id": "sg-wl-2025__c0052",
+"titel": "WL SG 2025 – Abschnitt 52",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0051",
+"nachher": "sg-wl-2025__c0053"
+},
+{
+"id": "sg-wl-2025__c0053",
+"titel": "WL SG 2025 – Abschnitt 53",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0052",
+"nachher": "sg-wl-2025__c0054"
+},
+{
+"id": "sg-wl-2025__c0054",
+"titel": "WL SG 2025 – Abschnitt 54",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0053",
+"nachher": "sg-wl-2025__c0055"
+},
+{
+"id": "sg-wl-2025__c0055",
+"titel": "WL SG 2025 – Abschnitt 55",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0054",
+"nachher": "sg-wl-2025__c0056"
+},
+{
+"id": "sg-wl-2025__c0056",
+"titel": "WL SG 2025 – Abschnitt 56",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0055",
+"nachher": "sg-wl-2025__c0057"
+},
+{
+"id": "sg-wl-2025__c0057",
+"titel": "WL SG 2025 – Abschnitt 57",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0056",
+"nachher": "sg-wl-2025__c0058"
+},
+{
+"id": "sg-wl-2025__c0058",
+"titel": "WL SG 2025 – Abschnitt 58",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0057",
+"nachher": "sg-wl-2025__c0059"
+},
+{
+"id": "sg-wl-2025__c0059",
+"titel": "WL SG 2025 – Abschnitt 59",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0058",
+"nachher": "sg-wl-2025__c0060"
+},
+{
+"id": "sg-wl-2025__c0060",
+"titel": "WL SG 2025 – Abschnitt 60",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0059",
+"nachher": "sg-wl-2025__c0061"
+},
+{
+"id": "sg-wl-2025__c0061",
+"titel": "WL SG 2025 – Abschnitt 61",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0060",
+"nachher": "sg-wl-2025__c0062"
+},
+{
+"id": "sg-wl-2025__c0062",
+"titel": "WL SG 2025 – Abschnitt 62",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0061",
+"nachher": "sg-wl-2025__c0063"
+},
+{
+"id": "sg-wl-2025__c0063",
+"titel": "WL SG 2025 – Abschnitt 63",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0062",
+"nachher": "sg-wl-2025__c0064"
+},
+{
+"id": "sg-wl-2025__c0064",
+"titel": "WL SG 2025 – Abschnitt 64",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0063",
+"nachher": "sg-wl-2025__c0065"
+},
+{
+"id": "sg-wl-2025__c0065",
+"titel": "WL SG 2025 – Abschnitt 65",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0064",
+"nachher": "sg-wl-2025__c0066"
+},
+{
+"id": "sg-wl-2025__c0066",
+"titel": "WL SG 2025 – Abschnitt 66",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0065",
+"nachher": "sg-wl-2025__c0067"
+},
+{
+"id": "sg-wl-2025__c0067",
+"titel": "WL SG 2025 – Abschnitt 67",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0066",
+"nachher": "sg-wl-2025__c0068"
+},
+{
+"id": "sg-wl-2025__c0068",
+"titel": "WL SG 2025 – Abschnitt 68",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0067",
+"nachher": "sg-wl-2025__c0069"
+},
+{
+"id": "sg-wl-2025__c0069",
+"titel": "WL SG 2025 – Abschnitt 69",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0068",
+"nachher": "sg-wl-2025__c0070"
+},
+{
+"id": "sg-wl-2025__c0070",
+"titel": "WL SG 2025 – Abschnitt 70",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0069",
+"nachher": "sg-wl-2025__c0071"
+},
+{
+"id": "sg-wl-2025__c0071",
+"titel": "WL SG 2025 – Abschnitt 71",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0070",
+"nachher": "sg-wl-2025__c0072"
+},
+{
+"id": "sg-wl-2025__c0072",
+"titel": "WL SG 2025 – Abschnitt 72",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0071",
+"nachher": "sg-wl-2025__c0073"
+},
+{
+"id": "sg-wl-2025__c0073",
+"titel": "WL SG 2025 – Abschnitt 73",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0072",
+"nachher": "sg-wl-2025__c0074"
+},
+{
+"id": "sg-wl-2025__c0074",
+"titel": "WL SG 2025 – Abschnitt 74",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0073",
+"nachher": "sg-wl-2025__c0075"
+},
+{
+"id": "sg-wl-2025__c0075",
+"titel": "WL SG 2025 – Abschnitt 75",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0074",
+"nachher": "sg-wl-2025__c0076"
+},
+{
+"id": "sg-wl-2025__c0076",
+"titel": "WL SG 2025 – Abschnitt 76",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0075",
+"nachher": "sg-wl-2025__c0077"
+},
+{
+"id": "sg-wl-2025__c0077",
+"titel": "WL SG 2025 – Abschnitt 77",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0076",
+"nachher": "sg-wl-2025__c0078"
+},
+{
+"id": "sg-wl-2025__c0078",
+"titel": "WL SG 2025 – Abschnitt 78",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0077",
+"nachher": "sg-wl-2025__c0079"
+},
+{
+"id": "sg-wl-2025__c0079",
+"titel": "WL SG 2025 – Abschnitt 79",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0078",
+"nachher": "sg-wl-2025__c0080"
+},
+{
+"id": "sg-wl-2025__c0080",
+"titel": "WL SG 2025 – Abschnitt 80",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0079",
+"nachher": "sg-wl-2025__c0081"
+},
+{
+"id": "sg-wl-2025__c0081",
+"titel": "WL SG 2025 – Abschnitt 81",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0080",
+"nachher": "sg-wl-2025__c0082"
+},
+{
+"id": "sg-wl-2025__c0082",
+"titel": "WL SG 2025 – Abschnitt 82",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0081",
+"nachher": "sg-wl-2025__c0083"
+},
+{
+"id": "sg-wl-2025__c0083",
+"titel": "WL SG 2025 – Abschnitt 83",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0082",
+"nachher": "sg-wl-2025__c0084"
+},
+{
+"id": "sg-wl-2025__c0084",
+"titel": "WL SG 2025 – Abschnitt 84",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0083",
+"nachher": "sg-wl-2025__c0085"
+},
+{
+"id": "sg-wl-2025__c0085",
+"titel": "WL SG 2025 – Abschnitt 85",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0084",
+"nachher": "sg-wl-2025__c0086"
+},
+{
+"id": "sg-wl-2025__c0086",
+"titel": "WL SG 2025 – Abschnitt 86",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0085",
+"nachher": "sg-wl-2025__c0087"
+},
+{
+"id": "sg-wl-2025__c0087",
+"titel": "WL SG 2025 – Abschnitt 87",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0086",
+"nachher": "sg-wl-2025__c0088"
+},
+{
+"id": "sg-wl-2025__c0088",
+"titel": "WL SG 2025 – Abschnitt 88",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0087",
+"nachher": "sg-wl-2025__c0089"
+},
+{
+"id": "sg-wl-2025__c0089",
+"titel": "WL SG 2025 – Abschnitt 89",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0088",
+"nachher": "sg-wl-2025__c0090"
+},
+{
+"id": "sg-wl-2025__c0090",
+"titel": "WL SG 2025 – Abschnitt 90",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0089",
+"nachher": "sg-wl-2025__c0091"
+},
+{
+"id": "sg-wl-2025__c0091",
+"titel": "WL SG 2025 – Abschnitt 91",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0090",
+"nachher": "sg-wl-2025__c0092"
+},
+{
+"id": "sg-wl-2025__c0092",
+"titel": "WL SG 2025 – Abschnitt 92",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0091",
+"nachher": "sg-wl-2025__c0093"
+},
+{
+"id": "sg-wl-2025__c0093",
+"titel": "WL SG 2025 – Abschnitt 93",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0092",
+"nachher": "sg-wl-2025__c0094"
+},
+{
+"id": "sg-wl-2025__c0094",
+"titel": "WL SG 2025 – Abschnitt 94",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0093",
+"nachher": "sg-wl-2025__c0095"
+},
+{
+"id": "sg-wl-2025__c0095",
+"titel": "WL SG 2025 – Abschnitt 95",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0094",
+"nachher": "sg-wl-2025__c0096"
+},
+{
+"id": "sg-wl-2025__c0096",
+"titel": "WL SG 2025 – Abschnitt 96",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0095",
+"nachher": "sg-wl-2025__c0097"
+},
+{
+"id": "sg-wl-2025__c0097",
+"titel": "WL SG 2025 – Abschnitt 97",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0096",
+"nachher": "sg-wl-2025__c0098"
+},
+{
+"id": "sg-wl-2025__c0098",
+"titel": "WL SG 2025 – Abschnitt 98",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0097",
+"nachher": "sg-wl-2025__c0099"
+},
+{
+"id": "sg-wl-2025__c0099",
+"titel": "WL SG 2025 – Abschnitt 99",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0098",
+"nachher": "sg-wl-2025__c0100"
+},
+{
+"id": "sg-wl-2025__c0100",
+"titel": "WL SG 2025 – Abschnitt 100",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0099",
+"nachher": "sg-wl-2025__c0101"
+},
+{
+"id": "sg-wl-2025__c0101",
+"titel": "WL SG 2025 – Abschnitt 101",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0100",
+"nachher": "sg-wl-2025__c0102"
+},
+{
+"id": "sg-wl-2025__c0102",
+"titel": "WL SG 2025 – Abschnitt 102",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0101",
+"nachher": "sg-wl-2025__c0103"
+},
+{
+"id": "sg-wl-2025__c0103",
+"titel": "WL SG 2025 – Abschnitt 103",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0102",
+"nachher": "sg-wl-2025__c0104"
+},
+{
+"id": "sg-wl-2025__c0104",
+"titel": "WL SG 2025 – Abschnitt 104",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0103",
+"nachher": "sg-wl-2025__c0105"
+},
+{
+"id": "sg-wl-2025__c0105",
+"titel": "WL SG 2025 – Abschnitt 105",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0104",
+"nachher": "sg-wl-2025__c0106"
+},
+{
+"id": "sg-wl-2025__c0106",
+"titel": "WL SG 2025 – Abschnitt 106",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0105",
+"nachher": "sg-wl-2025__c0107"
+},
+{
+"id": "sg-wl-2025__c0107",
+"titel": "WL SG 2025 – Abschnitt 107",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0106",
+"nachher": "sg-wl-2025__c0108"
+},
+{
+"id": "sg-wl-2025__c0108",
+"titel": "WL SG 2025 – Abschnitt 108",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0107",
+"nachher": "sg-wl-2025__c0109"
+},
+{
+"id": "sg-wl-2025__c0109",
+"titel": "WL SG 2025 – Abschnitt 109",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0108",
+"nachher": "sg-wl-2025__c0110"
+},
+{
+"id": "sg-wl-2025__c0110",
+"titel": "WL SG 2025 – Abschnitt 110",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0109",
+"nachher": "sg-wl-2025__c0111"
+},
+{
+"id": "sg-wl-2025__c0111",
+"titel": "WL SG 2025 – Abschnitt 111",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0110",
+"nachher": "sg-wl-2025__c0112"
+},
+{
+"id": "sg-wl-2025__c0112",
+"titel": "WL SG 2025 – Abschnitt 112",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0111",
+"nachher": "sg-wl-2025__c0113"
+},
+{
+"id": "sg-wl-2025__c0113",
+"titel": "WL SG 2025 – Abschnitt 113",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0112",
+"nachher": "sg-wl-2025__c0114"
+},
+{
+"id": "sg-wl-2025__c0114",
+"titel": "WL SG 2025 – Abschnitt 114",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0113",
+"nachher": "sg-wl-2025__c0115"
+},
+{
+"id": "sg-wl-2025__c0115",
+"titel": "WL SG 2025 – Abschnitt 115",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0114",
+"nachher": "sg-wl-2025__c0116"
+},
+{
+"id": "sg-wl-2025__c0116",
+"titel": "WL SG 2025 – Abschnitt 116",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0115",
+"nachher": "sg-wl-2025__c0117"
+},
+{
+"id": "sg-wl-2025__c0117",
+"titel": "WL SG 2025 – Abschnitt 117",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0116",
+"nachher": "sg-wl-2025__c0118"
+},
+{
+"id": "sg-wl-2025__c0118",
+"titel": "WL SG 2025 – Abschnitt 118",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0117",
+"nachher": "sg-wl-2025__c0119"
+},
+{
+"id": "sg-wl-2025__c0119",
+"titel": "WL SG 2025 – Abschnitt 119",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0118",
+"nachher": "sg-wl-2025__c0120"
+},
+{
+"id": "sg-wl-2025__c0120",
+"titel": "WL SG 2025 – Abschnitt 120",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0119",
+"nachher": "sg-wl-2025__c0121"
+},
+{
+"id": "sg-wl-2025__c0121",
+"titel": "WL SG 2025 – Abschnitt 121",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0120",
+"nachher": "sg-wl-2025__c0122"
+},
+{
+"id": "sg-wl-2025__c0122",
+"titel": "WL SG 2025 – Abschnitt 122",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0121",
+"nachher": "sg-wl-2025__c0123"
+},
+{
+"id": "sg-wl-2025__c0123",
+"titel": "WL SG 2025 – Abschnitt 123",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0122",
+"nachher": "sg-wl-2025__c0124"
+},
+{
+"id": "sg-wl-2025__c0124",
+"titel": "WL SG 2025 – Abschnitt 124",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0123",
+"nachher": "sg-wl-2025__c0125"
+},
+{
+"id": "sg-wl-2025__c0125",
+"titel": "WL SG 2025 – Abschnitt 125",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0124",
+"nachher": "sg-wl-2025__c0126"
+},
+{
+"id": "sg-wl-2025__c0126",
+"titel": "WL SG 2025 – Abschnitt 126",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0125",
+"nachher": "sg-wl-2025__c0127"
+},
+{
+"id": "sg-wl-2025__c0127",
+"titel": "WL SG 2025 – Abschnitt 127",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0126",
+"nachher": "sg-wl-2025__c0128"
+},
+{
+"id": "sg-wl-2025__c0128",
+"titel": "WL SG 2025 – Abschnitt 128",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0127",
+"nachher": "sg-wl-2025__c0129"
+},
+{
+"id": "sg-wl-2025__c0129",
+"titel": "WL SG 2025 – Abschnitt 129",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0128",
+"nachher": "sg-wl-2025__c0130"
+},
+{
+"id": "sg-wl-2025__c0130",
+"titel": "WL SG 2025 – Abschnitt 130",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0129",
+"nachher": "sg-wl-2025__c0131"
+},
+{
+"id": "sg-wl-2025__c0131",
+"titel": "WL SG 2025 – Abschnitt 131",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0130",
+"nachher": "sg-wl-2025__c0132"
+},
+{
+"id": "sg-wl-2025__c0132",
+"titel": "WL SG 2025 – Abschnitt 132",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0131",
+"nachher": "sg-wl-2025__c0133"
+},
+{
+"id": "sg-wl-2025__c0133",
+"titel": "WL SG 2025 – Abschnitt 133",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0132",
+"nachher": "sg-wl-2025__c0134"
+},
+{
+"id": "sg-wl-2025__c0134",
+"titel": "WL SG 2025 – Abschnitt 134",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0133",
+"nachher": "sg-wl-2025__c0135"
+},
+{
+"id": "sg-wl-2025__c0135",
+"titel": "WL SG 2025 – Abschnitt 135",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0134",
+"nachher": "sg-wl-2025__c0136"
+},
+{
+"id": "sg-wl-2025__c0136",
+"titel": "WL SG 2025 – Abschnitt 136",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0135",
+"nachher": "sg-wl-2025__c0137"
+},
+{
+"id": "sg-wl-2025__c0137",
+"titel": "WL SG 2025 – Abschnitt 137",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0136",
+"nachher": "sg-wl-2025__c0138"
+},
+{
+"id": "sg-wl-2025__c0138",
+"titel": "WL SG 2025 – Abschnitt 138",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0137",
+"nachher": "sg-wl-2025__c0139"
+},
+{
+"id": "sg-wl-2025__c0139",
+"titel": "WL SG 2025 – Abschnitt 139",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0138",
+"nachher": "sg-wl-2025__c0140"
+},
+{
+"id": "sg-wl-2025__c0140",
+"titel": "WL SG 2025 – Abschnitt 140",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0139",
+"nachher": "sg-wl-2025__c0141"
+},
+{
+"id": "sg-wl-2025__c0141",
+"titel": "WL SG 2025 – Abschnitt 141",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0140",
+"nachher": "sg-wl-2025__c0142"
+},
+{
+"id": "sg-wl-2025__c0142",
+"titel": "WL SG 2025 – Abschnitt 142",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0141",
+"nachher": "sg-wl-2025__c0143"
+},
+{
+"id": "sg-wl-2025__c0143",
+"titel": "WL SG 2025 – Abschnitt 143",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0142",
+"nachher": "sg-wl-2025__c0144"
+},
+{
+"id": "sg-wl-2025__c0144",
+"titel": "WL SG 2025 – Abschnitt 144",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0143",
+"nachher": "sg-wl-2025__c0145"
+},
+{
+"id": "sg-wl-2025__c0145",
+"titel": "WL SG 2025 – Abschnitt 145",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0144",
+"nachher": "sg-wl-2025__c0146"
+},
+{
+"id": "sg-wl-2025__c0146",
+"titel": "WL SG 2025 – Abschnitt 146",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0145",
+"nachher": "sg-wl-2025__c0147"
+},
+{
+"id": "sg-wl-2025__c0147",
+"titel": "WL SG 2025 – Abschnitt 147",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0146",
+"nachher": "sg-wl-2025__c0148"
+},
+{
+"id": "sg-wl-2025__c0148",
+"titel": "WL SG 2025 – Abschnitt 148",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0147",
+"nachher": "sg-wl-2025__c0149"
+},
+{
+"id": "sg-wl-2025__c0149",
+"titel": "WL SG 2025 – Abschnitt 149",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0148",
+"nachher": "sg-wl-2025__c0150"
+},
+{
+"id": "sg-wl-2025__c0150",
+"titel": "WL SG 2025 – Abschnitt 150",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0149",
+"nachher": "sg-wl-2025__c0151"
+},
+{
+"id": "sg-wl-2025__c0151",
+"titel": "WL SG 2025 – Abschnitt 151",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0150",
+"nachher": "sg-wl-2025__c0152"
+},
+{
+"id": "sg-wl-2025__c0152",
+"titel": "WL SG 2025 – Abschnitt 152",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0151",
+"nachher": "sg-wl-2025__c0153"
+},
+{
+"id": "sg-wl-2025__c0153",
+"titel": "WL SG 2025 – Abschnitt 153",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0152",
+"nachher": "sg-wl-2025__c0154"
+},
+{
+"id": "sg-wl-2025__c0154",
+"titel": "WL SG 2025 – Abschnitt 154",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0153",
+"nachher": "sg-wl-2025__c0155"
+},
+{
+"id": "sg-wl-2025__c0155",
+"titel": "WL SG 2025 – Abschnitt 155",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0154",
+"nachher": "sg-wl-2025__c0156"
+},
+{
+"id": "sg-wl-2025__c0156",
+"titel": "WL SG 2025 – Abschnitt 156",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0155",
+"nachher": "sg-wl-2025__c0157"
+},
+{
+"id": "sg-wl-2025__c0157",
+"titel": "WL SG 2025 – Abschnitt 157",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0156",
+"nachher": "sg-wl-2025__c0158"
+},
+{
+"id": "sg-wl-2025__c0158",
+"titel": "WL SG 2025 – Abschnitt 158",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0157",
+"nachher": "sg-wl-2025__c0159"
+},
+{
+"id": "sg-wl-2025__c0159",
+"titel": "WL SG 2025 – Abschnitt 159",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0158",
+"nachher": "sg-wl-2025__c0160"
+},
+{
+"id": "sg-wl-2025__c0160",
+"titel": "WL SG 2025 – Abschnitt 160",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0159",
+"nachher": "sg-wl-2025__c0161"
+},
+{
+"id": "sg-wl-2025__c0161",
+"titel": "WL SG 2025 – Abschnitt 161",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0160",
+"nachher": "sg-wl-2025__c0162"
+},
+{
+"id": "sg-wl-2025__c0162",
+"titel": "WL SG 2025 – Abschnitt 162",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0161",
+"nachher": "sg-wl-2025__c0163"
+},
+{
+"id": "sg-wl-2025__c0163",
+"titel": "WL SG 2025 – Abschnitt 163",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0162",
+"nachher": "sg-wl-2025__c0164"
+},
+{
+"id": "sg-wl-2025__c0164",
+"titel": "WL SG 2025 – Abschnitt 164",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0163",
+"nachher": "sg-wl-2025__c0165"
+},
+{
+"id": "sg-wl-2025__c0165",
+"titel": "WL SG 2025 – Abschnitt 165",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0164",
+"nachher": "sg-wl-2025__c0166"
+},
+{
+"id": "sg-wl-2025__c0166",
+"titel": "WL SG 2025 – Abschnitt 166",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0165",
+"nachher": "sg-wl-2025__c0167"
+},
+{
+"id": "sg-wl-2025__c0167",
+"titel": "WL SG 2025 – Abschnitt 167",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0166",
+"nachher": "sg-wl-2025__c0168"
+},
+{
+"id": "sg-wl-2025__c0168",
+"titel": "WL SG 2025 – Abschnitt 168",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0167",
+"nachher": "sg-wl-2025__c0169"
+},
+{
+"id": "sg-wl-2025__c0169",
+"titel": "WL SG 2025 – Abschnitt 169",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0168",
+"nachher": "sg-wl-2025__c0170"
+},
+{
+"id": "sg-wl-2025__c0170",
+"titel": "WL SG 2025 – Abschnitt 170",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0169",
+"nachher": "sg-wl-2025__c0171"
+},
+{
+"id": "sg-wl-2025__c0171",
+"titel": "WL SG 2025 – Abschnitt 171",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0170",
+"nachher": "sg-wl-2025__c0172"
+},
+{
+"id": "sg-wl-2025__c0172",
+"titel": "WL SG 2025 – Abschnitt 172",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0171",
+"nachher": "sg-wl-2025__c0173"
+},
+{
+"id": "sg-wl-2025__c0173",
+"titel": "WL SG 2025 – Abschnitt 173",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0172",
+"nachher": "sg-wl-2025__c0174"
+},
+{
+"id": "sg-wl-2025__c0174",
+"titel": "WL SG 2025 – Abschnitt 174",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0173",
+"nachher": "sg-wl-2025__c0175"
+},
+{
+"id": "sg-wl-2025__c0175",
+"titel": "WL SG 2025 – Abschnitt 175",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0174",
+"nachher": "sg-wl-2025__c0176"
+},
+{
+"id": "sg-wl-2025__c0176",
+"titel": "WL SG 2025 – Abschnitt 176",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0175",
+"nachher": "sg-wl-2025__c0177"
+},
+{
+"id": "sg-wl-2025__c0177",
+"titel": "WL SG 2025 – Abschnitt 177",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0176",
+"nachher": "sg-wl-2025__c0178"
+},
+{
+"id": "sg-wl-2025__c0178",
+"titel": "WL SG 2025 – Abschnitt 178",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0177",
+"nachher": "sg-wl-2025__c0179"
+},
+{
+"id": "sg-wl-2025__c0179",
+"titel": "WL SG 2025 – Abschnitt 179",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0178",
+"nachher": "sg-wl-2025__c0180"
+},
+{
+"id": "sg-wl-2025__c0180",
+"titel": "WL SG 2025 – Abschnitt 180",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0179",
+"nachher": "sg-wl-2025__c0181"
+},
+{
+"id": "sg-wl-2025__c0181",
+"titel": "WL SG 2025 – Abschnitt 181",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0180",
+"nachher": "sg-wl-2025__c0182"
+},
+{
+"id": "sg-wl-2025__c0182",
+"titel": "WL SG 2025 – Abschnitt 182",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0181",
+"nachher": "sg-wl-2025__c0183"
+},
+{
+"id": "sg-wl-2025__c0183",
+"titel": "WL SG 2025 – Abschnitt 183",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0182",
+"nachher": "sg-wl-2025__c0184"
+},
+{
+"id": "sg-wl-2025__c0184",
+"titel": "WL SG 2025 – Abschnitt 184",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0183",
+"nachher": "sg-wl-2025__c0185"
+},
+{
+"id": "sg-wl-2025__c0185",
+"titel": "WL SG 2025 – Abschnitt 185",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0184",
+"nachher": "sg-wl-2025__c0186"
+},
+{
+"id": "sg-wl-2025__c0186",
+"titel": "WL SG 2025 – Abschnitt 186",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0185",
+"nachher": "sg-wl-2025__c0187"
+},
+{
+"id": "sg-wl-2025__c0187",
+"titel": "WL SG 2025 – Abschnitt 187",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0186",
+"nachher": "sg-wl-2025__c0188"
+},
+{
+"id": "sg-wl-2025__c0188",
+"titel": "WL SG 2025 – Abschnitt 188",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0187",
+"nachher": "sg-wl-2025__c0189"
+},
+{
+"id": "sg-wl-2025__c0189",
+"titel": "WL SG 2025 – Abschnitt 189",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0188",
+"nachher": "sg-wl-2025__c0190"
+},
+{
+"id": "sg-wl-2025__c0190",
+"titel": "WL SG 2025 – Abschnitt 190",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0189",
+"nachher": "sg-wl-2025__c0191"
+},
+{
+"id": "sg-wl-2025__c0191",
+"titel": "WL SG 2025 – Abschnitt 191",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-wl-2025__c0190",
+"nachher": null
+}
+]

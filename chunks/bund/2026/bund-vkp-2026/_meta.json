@@ -1,0 +1,130 @@
+[
+{
+"id": "bund-vkp-2026__art-1",
+"titel": "Art. 1 VKP – Gegenstand",
+"pfad": [
+"Art. 1 Gegenstand"
+],
+"seiten": [],
+"artikel": "Art. 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "bund-vkp-2026__art-2-t1"
+},
+{
+"id": "bund-vkp-2026__art-2-t1",
+"titel": "Art. 2 VKP – Tarife (Teil 1/3)",
+"pfad": [
+"Art. 2 Tarife"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2026__art-1",
+"nachher": "bund-vkp-2026__art-2-t2"
+},
+{
+"id": "bund-vkp-2026__art-2-t2",
+"titel": "Art. 2 VKP – Tarife (Teil 2/3)",
+"pfad": [
+"Art. 2 Tarife"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2026__art-2-t1",
+"nachher": "bund-vkp-2026__art-2-t3"
+},
+{
+"id": "bund-vkp-2026__art-2-t3",
+"titel": "Art. 2 VKP – Tarife (Teil 3/3)",
+"pfad": [
+"Art. 2 Tarife"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2026__art-2-t2",
+"nachher": "bund-vkp-2026__art-3"
+},
+{
+"id": "bund-vkp-2026__art-3",
+"titel": "Art. 3 VKP – Besteuerung nach dem Aufwand",
+"pfad": [
+"Art. 3 Besteuerung nach dem Aufwand"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2026__art-2-t3",
+"nachher": "bund-vkp-2026__art-4"
+},
+{
+"id": "bund-vkp-2026__art-4",
+"titel": "Art. 4 VKP – Steuerfreie Einkünfte",
+"pfad": [
+"Art. 4 Steuerfreie Einkünfte"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2026__art-3",
+"nachher": "bund-vkp-2026__art-5"
+},
+{
+"id": "bund-vkp-2026__art-5",
+"titel": "Art. 5 VKP – Aufhebung eines anderen Erlasses",
+"pfad": [
+"Art. 5 Aufhebung eines anderen Erlasses"
+],
+"seiten": [],
+"artikel": "Art. 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2026__art-4",
+"nachher": "bund-vkp-2026__art-6"
+},
+{
+"id": "bund-vkp-2026__art-6",
+"titel": "Art. 6 VKP – Inkrafttreten",
+"pfad": [
+"Art. 6 Inkrafttreten"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2026__art-5",
+"nachher": null
+}
+]

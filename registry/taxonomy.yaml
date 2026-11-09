@@ -1,0 +1,180 @@
+# Kontrolliertes Vokabular des Steuer-Wikis (Schlüssel bleiben über Jahre/Kantone stabil).
+# Neue Schlüssel nur ergänzen, nie umbenennen (Zitate/Chunks verweisen darauf).
+
+jurisdiktionen:
+  bund: Bund (DBG, StHG, VStG, ESTV-Praxis)
+  ar: Appenzell Ausserrhoden
+  sg: St. Gallen
+  tg: Thurgau
+  zh: Zürich
+
+dokumenttypen: [gesetz, verordnung, weisung, kreisschreiben, rundschreiben, merkblatt, wegleitung, formular, praxis, steuerfuss, tarif, mitteilung, info, portal, tool]
+
+# Status eines Werts/einer Zuordnung (Vertrauensstufen)
+status:
+  offen: noch nicht erfasst
+  extrahiert: vom Agenten aus der Quelle übernommen (mit wörtlichem Zitat)
+  agent-geprueft: von unabhängigem Prüf-Agenten gegen die Quelle bestätigt
+  verifiziert: von einer Fachperson (SB/ML) bestätigt – nur Menschen setzen diesen Status
+  strittig: Quellen widersprechen sich – Entscheid durch Fachperson nötig
+  na: für diese Jurisdiktion/dieses Jahr nicht anwendbar
+
+# Kanonische Positionsschlüssel der Steuererklärung natürlicher Personen (kantonsübergreifend).
+# Kantonale Formular-Ziffern werden in data/zuordnung/<kanton>/<jahr>.yaml auf diese Schlüssel abgebildet.
+positionen:
+  # --- Einkünfte
+  einkommen.unselbstaendig.haupterwerb: Unselbständige Erwerbstätigkeit – Haupterwerb (Nettolohn)
+  einkommen.unselbstaendig.nebenerwerb: Unselbständige Erwerbstätigkeit – Nebenerwerb (inkl. VR-/Behördenentschädigungen)
+  einkommen.selbstaendig: Selbständige Erwerbstätigkeit (Haupt-/Nebenerwerb, Landwirtschaft)
+  einkommen.sozialversicherung.ahv_iv: AHV-/IV-Renten
+  einkommen.vorsorge.renten: Renten/Pensionen 2. Säule und Säule 3a
+  einkommen.vorsorge.uebrige_renten: Übrige Renten (Leibrenten, ausländische Renten, Militär-/Unfallversicherung)
+  einkommen.ersatz.taggelder: Erwerbsausfallentschädigungen (ALV, KV, UV, IV-Taggelder, EO, Mutterschaft)
+  einkommen.unterhaltsbeitraege: Erhaltene Unterhaltsbeiträge (Alimente) für sich und Kinder
+  einkommen.wertschriften: Ertrag aus Wertschriften und Guthaben (gem. Wertschriftenverzeichnis)
+  einkommen.beteiligungen_qualifiziert: Erträge aus qualifizierten Beteiligungen (Teilbesteuerung)
+  einkommen.lotterie_gewinne: Lotterie-/Geldspielgewinne (steuerbarer Teil)
+  einkommen.liegenschaften.eigenmietwert: Eigenmietwert selbstbewohnter Liegenschaft
+  einkommen.liegenschaften.mietertrag: Mietertrag/übrige Liegenschaftserträge
+  einkommen.erbschaften_unverteilt: Einkünfte aus unverteilten Erbschaften/Vermögensmassen
+  einkommen.uebrige: Übrige Einkünfte (Provisionen, Trinkgelder, Mitarbeiterbeteiligungen, Lizenzen …)
+  einkommen.vereinfachtes_verfahren: Vereinfacht abgerechnete Erwerbseinkünfte (nur Information)
+  einkommen.kapitalleistung_vorsorge: Kapitalleistungen aus Vorsorge (separate Besteuerung)
+  einkommen.kapitalabfindung_wiederkehrend: Kapitalabfindungen für wiederkehrende Leistungen (Rentensatz)
+  # --- Abzüge
+  abzug.berufskosten.fahrkosten: Fahrkosten Wohn-/Arbeitsstätte
+  abzug.berufskosten.verpflegung: Mehrkosten auswärtige Verpflegung / Schichtarbeit
+  abzug.berufskosten.wochenaufenthalt: Mehrkosten Wochenaufenthalt
+  abzug.berufskosten.uebrige: Übrige Berufskosten (Pauschale oder effektiv, inkl. Arbeitszimmer)
+  abzug.berufskosten.nebenerwerb: Berufskosten Nebenerwerb
+  abzug.weiterbildung: Berufsorientierte Aus- und Weiterbildungskosten
+  abzug.schuldzinsen: Private Schuldzinsen
+  abzug.unterhaltsbeitraege: Bezahlte Unterhaltsbeiträge (Alimente) und Renten
+  abzug.vorsorge.saeule2_einkauf: Beiträge/Einkäufe 2. Säule (soweit nicht im Lohnausweis abgezogen)
+  abzug.vorsorge.saeule3a: Beiträge Säule 3a (inkl. Einkäufe ab 2026)
+  abzug.versicherungspraemien: Versicherungsprämien und Zinsen von Sparkapitalien
+  abzug.ahv_nichterwerbstaetige: AHV/IV/EO-Beiträge Nichterwerbstätiger u.ä.
+  abzug.zweiverdiener: Zweiverdienerabzug
+  abzug.drittbetreuung: Kinderdrittbetreuungskosten
+  abzug.krankheitskosten: Krankheits- und Unfallkosten (über Selbstbehalt)
+  abzug.behinderungskosten: Behinderungsbedingte Kosten
+  abzug.spenden: Freiwillige Zuwendungen an gemeinnützige Institutionen
+  abzug.parteispenden: Mitgliederbeiträge und Zuwendungen an politische Parteien
+  abzug.liegenschaft.unterhalt: Liegenschaftsunterhalt (Pauschale oder effektiv), Verwaltungskosten
+  abzug.liegenschaft.energie_umwelt: Investitionen Energiesparen/Umweltschutz, Rückbaukosten
+  abzug.verwaltungskosten_wertschriften: Vermögensverwaltungskosten bewegliches Vermögen
+  abzug.uebrige: Übrige Abzüge
+  sozialabzug.kinder: Kinder-/Ausbildungsabzug
+  sozialabzug.unterstuetzung: Unterstützungsabzug
+  sozialabzug.verheiratete: Verheiratetenabzug (Bund)
+  sozialabzug.alter_iv: Abzug für Personen im AHV-Alter, erwerbsunfähig oder verwitwet (kantonal)
+  sozialabzug.eigenmietwert: Einschlag/Abzug auf dem Eigenmietwert (kantonal)
+  # --- Vermögen und Schulden
+  vermoegen.wertschriften_guthaben: Wertschriften und Guthaben (Bank-/Postkonten, Depot, Krypto)
+  vermoegen.bargeld_edelmetalle: Bargeld, Gold, Edelmetalle
+  vermoegen.lebensversicherungen: Lebens-/Rentenversicherungen (Rückkaufswert)
+  vermoegen.fahrzeuge: Motorfahrzeuge
+  vermoegen.erbschaften_beteiligungen: Anteile an unverteilten Erbschaften, Geschäftsvermögen
+  vermoegen.liegenschaften: Liegenschaften (Steuerwert)
+  vermoegen.uebrige: Übrige Vermögenswerte
+  schulden.privat: Private Schulden (Hypotheken, Darlehen, Kredite)
+  vermoegen.sozialabzug: Steuerfreie Beträge / Sozialabzüge auf dem Vermögen
+  # --- Weitere
+  verrechnungssteuer.rueckerstattung: Rückforderung Verrechnungssteuer (Wertschriftenverzeichnis), DA-1
+  verfahren.einreichung: Einreichung, Unterschrift, Beilagen, Fristen
+  verfahren.bezug: Rechnungen, Raten, Zinsen, Bezug
+  personalien: Personalien, Familienverhältnisse, Kinder, unterstützte Personen
+
+# Belegtypen (Dokumente von Mandanten). Relevanz und Zuordnung je Kanton in data/belege.yaml
+belege: [lohnausweis, rentenbescheinigung-ahv-iv, rentenbescheinigung-vorsorge, taggeldbescheinigung, bescheinigung-saeule3a,
+  bescheinigung-pk-einkauf, steuerauszug-bank, kontoauszug-zinsausweis, depotauszug, krypto-auszug, dividenden-ausland-quellensteuer,
+  versicherung-rueckkaufswert, krankenkasse-praemien, krankenkasse-leistungen, arzt-zahnarzt-rechnungen, hypothekarbestaetigung,
+  kredit-darlehen-schuldzinsen, leasingvertrag, liegenschaft-unterhaltsrechnungen, liegenschaft-schaetzung-eigenmietwert,
+  liegenschaft-mietertraege, liegenschaft-nebenkosten-gebaeudeversicherung, kinderbetreuung-rechnungen, weiterbildung-rechnungen,
+  spendenbestaetigung, parteispende, unterhaltszahlungen-alimente, oev-abo, fahrzeugausweis-arbeitsweg, spesenreglement,
+  kapitalleistung-vorsorge, erbschaft-schenkung, lotteriegewinn, selbstaendig-jahresrechnung, mitarbeiterbeteiligung,
+  steuerrechnung, vorjahresveranlagung, ahv-beitragsverfuegung-nichterwerbstaetige, ergaenzungsleistungen, privatrechnungen-alltag,
+  hausrat-haftpflicht-police, motorfahrzeug-versicherung, mietvertrag-wohnung, kreditkartenabrechnung, steuerberatungskosten]
+
+# Kanonische Wert-Schlüssel (Eckwerte) für data/werte/<jur>/<jahr>.yaml.
+# Ein Schlüssel = eine Zahl/Regel. Formeln (z.B. "3 % des Nettolohns, min. 2'000, max. 4'000") als satz/min/max zerlegen.
+# Nicht anwendbar -> status: na (mit Bemerkung). Neue Schlüssel nur ergänzen, nie umbenennen.
+werte:
+  # Berufskosten
+  berufskosten.fahrkosten.max: Fahrkosten – Maximalabzug pro Person (CHF)
+  berufskosten.fahrkosten.auto_km: Fahrkosten Auto – Ansatz pro km (CHF)
+  berufskosten.fahrkosten.motorrad_km: Fahrkosten Motorrad – Ansatz pro km (CHF)
+  berufskosten.fahrkosten.velo_pauschale: Velo/Kleinmotorrad/E-Bike – Pauschale (CHF)
+  berufskosten.fahrkosten.arbeitstage: Fahrkosten – massgebende Arbeitstage pro Jahr
+  berufskosten.verpflegung.tag: Verpflegungsmehrkosten pro Arbeitstag (CHF)
+  berufskosten.verpflegung.jahr: Verpflegungsmehrkosten pro Jahr (CHF)
+  berufskosten.verpflegung.verbilligt_tag: Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF)
+  berufskosten.verpflegung.verbilligt_jahr: Verpflegung bei Verbilligung pro Jahr (CHF)
+  berufskosten.schichtarbeit.tag: Schicht-/Nachtarbeit pro Tag (CHF)
+  berufskosten.wochenaufenthalt.unterkunft: Wochenaufenthalt – Unterkunft (Regel)
+  berufskosten.wochenaufenthalt.verpflegung_jahr: Wochenaufenthalt – Mehrkosten Verpflegung pro Jahr (CHF)
+  berufskosten.uebrige.satz: Übrige Berufskosten – Pauschale in % des Nettolohns
+  berufskosten.uebrige.fix: Übrige Berufskosten – fixer Pauschalbetrag (CHF), falls Formel «fix + %»
+  berufskosten.uebrige.min: Übrige Berufskosten – Pauschale Minimum (CHF)
+  berufskosten.uebrige.max: Übrige Berufskosten – Pauschale Maximum (CHF)
+  berufskosten.nebenerwerb.satz: Nebenerwerb – Pauschale in % der Nebeneinkünfte
+  berufskosten.nebenerwerb.min: Nebenerwerb – Pauschale Minimum (CHF)
+  berufskosten.nebenerwerb.max: Nebenerwerb – Pauschale Maximum (CHF)
+  berufskosten.homeoffice: Arbeitszimmer/Homeoffice – Regel
+  # Allgemeine Abzüge
+  weiterbildung.max: Aus- und Weiterbildungskosten – Maximum (CHF)
+  versicherung.verheiratet: Versicherungsabzug gemeinsam Besteuerte (CHF)
+  versicherung.verheiratet_ohne_vorsorge: Versicherungsabzug gemeinsam Besteuerte ohne Beiträge 2. Säule/3a (CHF)
+  versicherung.alleinstehend: Versicherungsabzug übrige Steuerpflichtige (CHF)
+  versicherung.alleinstehend_ohne_vorsorge: Versicherungsabzug übrige ohne Beiträge 2. Säule/3a (CHF)
+  versicherung.kind: Versicherungsabzug Zuschlag pro Kind/unterstützte Person (CHF)
+  saeule3a.max_mit_2saeule: Säule 3a – Maximum mit 2. Säule (CHF)
+  saeule3a.max_ohne_2saeule: Säule 3a – Maximum ohne 2. Säule (CHF)
+  saeule3a.satz_ohne_2saeule: Säule 3a – ohne 2. Säule in % des Erwerbseinkommens
+  saeule3a.einkauf: Säule 3a – Einkauf (Nachzahlung) Regel/Maximum
+  zweiverdiener.satz: Zweiverdienerabzug – Satz (% des tieferen Erwerbseinkommens)
+  zweiverdiener.min: Zweiverdienerabzug – Minimum (CHF)
+  zweiverdiener.max: Zweiverdienerabzug – Maximum bzw. fixer Betrag (CHF)
+  drittbetreuung.max: Kinderdrittbetreuungskosten – Maximum pro Kind (CHF)
+  drittbetreuung.altersgrenze: Kinderdrittbetreuung – Altersgrenze Kind
+  krankheitskosten.selbstbehalt_satz: Krankheitskosten – Selbstbehalt in % des Nettoeinkommens
+  spenden.min: Freiwillige Zuwendungen – Mindestbetrag (CHF)
+  spenden.max_satz: Freiwillige Zuwendungen – Maximum in % des (Rein-)Einkommens
+  parteispenden.max: Parteispenden – Maximum (CHF), ggf. alleinstehend
+  parteispenden.max_verheiratet: Parteispenden – Maximum gemeinsam Besteuerte (CHF)
+  liegenschaft.pauschale_neu: Liegenschaftsunterhalt Pauschale – Gebäude bis 10 Jahre (%)
+  liegenschaft.pauschale_alt: Liegenschaftsunterhalt Pauschale – Gebäude über 10 Jahre (%)
+  liegenschaft.eigenmietwert_abzug: Eigenmietwert – Einschlag/Abzug für selbstbewohnte Liegenschaft (%)
+  # Sozialabzüge Einkommen
+  sozialabzug.kind: Kinderabzug Grundbetrag (CHF)
+  sozialabzug.kind_vorschule: Kinderabzug Vorschulalter (CHF)
+  sozialabzug.kind_schule: Kinderabzug Schulalter (CHF)
+  sozialabzug.kind_ausbildung: Kinderabzug/Ausbildungsabzug in Ausbildung (CHF)
+  sozialabzug.kind_ausbildung_auswaerts: Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+  sozialabzug.unterstuetzung: Unterstützungsabzug (CHF)
+  sozialabzug.verheiratete: Verheiratetenabzug (CHF, Bund)
+  sozialabzug.alter_iv: Abzug AHV-Alter/erwerbsunfähig/verwitwet (CHF)
+  steuerbetrag.abzug_kind: Abzug vom Steuerbetrag pro Kind (CHF, Bund)
+  # Vermögen
+  vermoegen.freibetrag_alleinstehend: Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF)
+  vermoegen.freibetrag_verheiratet: Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF)
+  vermoegen.freibetrag_kind: Vermögens-Sozialabzug pro Kind (CHF)
+  # Steuerfreie Einkünfte / Tarif
+  steuerfrei.feuerwehrsold: Feuerwehrsold steuerfrei bis (CHF)
+  steuerfrei.grossspielgewinn: Grossspielgewinne steuerfrei bis (CHF)
+  steuerfrei.kleingewinn: Lotterie-/Kleingewinne steuerfrei bis (CHF)
+  tarif.steuerfuss_kanton: Steuerfuss Kanton (%/Einheiten)
+  tarif.steuerfrei_alleinstehend: Tarif – steuerfrei bis, Alleinstehende (CHF, Bund)
+  tarif.steuerfrei_verheiratet: Tarif – steuerfrei bis, Verheiratete (CHF, Bund)
+  tarif.hoechstsatz_ab_alleinstehend: Tarif – Höchstsatz ab, Alleinstehende (CHF, Bund)
+  tarif.hoechstsatz_ab_verheiratet: Tarif – Höchstsatz ab, Verheiratete (CHF, Bund)
+  tarif.mindeststeuer: Mindeststeuerbetrag (CHF)
+  # Verfahren und Bezug
+  verfahren.einreichefrist: Einreichefrist Steuererklärung
+  verfahren.fristerstreckung: Fristerstreckung – Regel (Private / Treuhänder), Kosten
+  verfahren.abgabeweg: Abgabeweg (E-Tax/Portal/Papier, Unterschrift)
+  verfahren.beilagen_schwellen: Belegpflicht-Schwellen (z.B. Rechnungen ab CHF …)
+  bezug.provisorisch: Provisorische Rechnung – Fälligkeit/Raten
+  bezug.verzugszins: Verzugszins (%)
+  bezug.verguetungszins: Vergütungs-/Vorauszahlungszins (%)
+  bezug.ausgleichszins: Ausgleichszins – Regel/Satz

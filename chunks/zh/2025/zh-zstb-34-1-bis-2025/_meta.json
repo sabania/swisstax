@@ -1,0 +1,579 @@
+[
+{
+"id": "zh-zstb-34-1-bis-2025__c0001",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "zh-zstb-34-1-bis-2025__c0002"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0002",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0001",
+"nachher": "zh-zstb-34-1-bis-2025__c0003"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0003",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0002",
+"nachher": "zh-zstb-34-1-bis-2025__c0004"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0004",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0003",
+"nachher": "zh-zstb-34-1-bis-2025__c0005"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0005",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0004",
+"nachher": "zh-zstb-34-1-bis-2025__c0006"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0006",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0005",
+"nachher": "zh-zstb-34-1-bis-2025__c0007"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0007",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 7",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0006",
+"nachher": "zh-zstb-34-1-bis-2025__c0008"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0008",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 8",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0007",
+"nachher": "zh-zstb-34-1-bis-2025__c0009"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0009",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 9",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0008",
+"nachher": "zh-zstb-34-1-bis-2025__c0010"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0010",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 10",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0009",
+"nachher": "zh-zstb-34-1-bis-2025__c0011"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0011",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 11",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0010",
+"nachher": "zh-zstb-34-1-bis-2025__c0012"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0012",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 12",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0011",
+"nachher": "zh-zstb-34-1-bis-2025__c0013"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0013",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 13",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0012",
+"nachher": "zh-zstb-34-1-bis-2025__c0014"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0014",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 14",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0013",
+"nachher": "zh-zstb-34-1-bis-2025__c0015"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0015",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 15",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0014",
+"nachher": "zh-zstb-34-1-bis-2025__c0016"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0016",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 16",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0015",
+"nachher": "zh-zstb-34-1-bis-2025__c0017"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0017",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 17",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0016",
+"nachher": "zh-zstb-34-1-bis-2025__c0018"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0018",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 18",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0017",
+"nachher": "zh-zstb-34-1-bis-2025__c0019"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0019",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 19",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0018",
+"nachher": "zh-zstb-34-1-bis-2025__c0020"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0020",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 20",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0019",
+"nachher": "zh-zstb-34-1-bis-2025__c0021"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0021",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 21",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0020",
+"nachher": "zh-zstb-34-1-bis-2025__c0022"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0022",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 22",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0021",
+"nachher": "zh-zstb-34-1-bis-2025__c0023"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0023",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 23",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0022",
+"nachher": "zh-zstb-34-1-bis-2025__c0024"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0024",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 24",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0023",
+"nachher": "zh-zstb-34-1-bis-2025__c0025"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0025",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 25",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0024",
+"nachher": "zh-zstb-34-1-bis-2025__c0026"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0026",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 26",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0025",
+"nachher": "zh-zstb-34-1-bis-2025__c0027"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0027",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 27",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0026",
+"nachher": "zh-zstb-34-1-bis-2025__c0028"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0028",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 28",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0027",
+"nachher": "zh-zstb-34-1-bis-2025__c0029"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0029",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 29",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0028",
+"nachher": "zh-zstb-34-1-bis-2025__c0030"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0030",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 30",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0029",
+"nachher": "zh-zstb-34-1-bis-2025__c0031"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0031",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 31",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0030",
+"nachher": "zh-zstb-34-1-bis-2025__c0032"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0032",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 32",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0031",
+"nachher": "zh-zstb-34-1-bis-2025__c0033"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0033",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 33",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0032",
+"nachher": "zh-zstb-34-1-bis-2025__c0034"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0034",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 34",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0033",
+"nachher": "zh-zstb-34-1-bis-2025__c0035"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0035",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 35",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0034",
+"nachher": "zh-zstb-34-1-bis-2025__c0036"
+},
+{
+"id": "zh-zstb-34-1-bis-2025__c0036",
+"titel": "ZStB 34.1 (bis 2025) – Abschnitt 36",
+"pfad": [],
+"seiten": [
+13,
+14,
+15,
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-zstb-34-1-bis-2025__c0035",
+"nachher": null
+}
+]

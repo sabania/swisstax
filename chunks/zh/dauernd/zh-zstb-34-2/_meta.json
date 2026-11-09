@@ -1,0 +1,34 @@
+[
+{
+"id": "zh-zstb-34-2__c0001",
+"titel": "ZStB 34.2: Sozialabzüge bei Familien",
+"pfad": [
+"ZStB 34.2: Sozialabzüge bei Familien"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "zh-zstb-34-2__c0002"
+},
+{
+"id": "zh-zstb-34-2__c0002",
+"titel": "ZStB 34.2: Sozialabzüge bei Familien",
+"pfad": [
+"ZStB 34.2: Sozialabzüge bei Familien"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-34-2__c0001",
+"nachher": null
+}
+]

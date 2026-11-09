@@ -1,0 +1,82 @@
+[
+{
+"id": "zh-zstb-31-1__c0001",
+"titel": "ZStB 31.1: Säule 3a",
+"pfad": [
+"ZStB 31.1: Säule 3a"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "zh-zstb-31-1__c0002"
+},
+{
+"id": "zh-zstb-31-1__c0002",
+"titel": "ZStB 31.1: Säule 3a",
+"pfad": [
+"ZStB 31.1: Säule 3a"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-31-1__c0001",
+"nachher": "zh-zstb-31-1__c0003"
+},
+{
+"id": "zh-zstb-31-1__c0003",
+"titel": "ZStB 31.1: Säule 3a",
+"pfad": [
+"ZStB 31.1: Säule 3a"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-31-1__c0002",
+"nachher": "zh-zstb-31-1__c0004"
+},
+{
+"id": "zh-zstb-31-1__c0004",
+"titel": "ZStB 31.1: Säule 3a",
+"pfad": [
+"ZStB 31.1: Säule 3a"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-31-1__c0003",
+"nachher": "zh-zstb-31-1__c0005"
+},
+{
+"id": "zh-zstb-31-1__c0005",
+"titel": "ZStB 31.1: Säule 3a",
+"pfad": [
+"ZStB 31.1: Säule 3a"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-31-1__c0004",
+"nachher": null
+}
+]

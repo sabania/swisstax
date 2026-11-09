@@ -1,0 +1,356 @@
+[
+{
+"id": "ar-gsv__c0001",
+"titel": "GSV AR – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "ar-gsv__c0002"
+},
+{
+"id": "ar-gsv__c0002",
+"titel": "GSV AR – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0001",
+"nachher": "ar-gsv__c0003"
+},
+{
+"id": "ar-gsv__c0003",
+"titel": "GSV AR – Abschnitt 3",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0002",
+"nachher": "ar-gsv__c0004"
+},
+{
+"id": "ar-gsv__c0004",
+"titel": "GSV AR – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0003",
+"nachher": "ar-gsv__c0005"
+},
+{
+"id": "ar-gsv__c0005",
+"titel": "GSV AR – Abschnitt 5",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0004",
+"nachher": "ar-gsv__c0006"
+},
+{
+"id": "ar-gsv__c0006",
+"titel": "GSV AR – Abschnitt 6",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0005",
+"nachher": "ar-gsv__c0007"
+},
+{
+"id": "ar-gsv__c0007",
+"titel": "GSV AR – Abschnitt 7",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0006",
+"nachher": "ar-gsv__c0008"
+},
+{
+"id": "ar-gsv__c0008",
+"titel": "GSV AR – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0007",
+"nachher": "ar-gsv__c0009"
+},
+{
+"id": "ar-gsv__c0009",
+"titel": "GSV AR – Abschnitt 9",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0008",
+"nachher": "ar-gsv__c0010"
+},
+{
+"id": "ar-gsv__c0010",
+"titel": "GSV AR – Abschnitt 10",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0009",
+"nachher": "ar-gsv__c0011"
+},
+{
+"id": "ar-gsv__c0011",
+"titel": "GSV AR – Abschnitt 11",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0010",
+"nachher": "ar-gsv__c0012"
+},
+{
+"id": "ar-gsv__c0012",
+"titel": "GSV AR – Abschnitt 12",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0011",
+"nachher": "ar-gsv__c0013"
+},
+{
+"id": "ar-gsv__c0013",
+"titel": "GSV AR – Abschnitt 13",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0012",
+"nachher": "ar-gsv__c0014"
+},
+{
+"id": "ar-gsv__c0014",
+"titel": "GSV AR – Abschnitt 14",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0013",
+"nachher": "ar-gsv__c0015"
+},
+{
+"id": "ar-gsv__c0015",
+"titel": "GSV AR – Abschnitt 15",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0014",
+"nachher": "ar-gsv__c0016"
+},
+{
+"id": "ar-gsv__c0016",
+"titel": "GSV AR – Abschnitt 16",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0015",
+"nachher": "ar-gsv__c0017"
+},
+{
+"id": "ar-gsv__c0017",
+"titel": "GSV AR – Abschnitt 17",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0016",
+"nachher": "ar-gsv__c0018"
+},
+{
+"id": "ar-gsv__c0018",
+"titel": "GSV AR – Abschnitt 18",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0017",
+"nachher": "ar-gsv__c0019"
+},
+{
+"id": "ar-gsv__c0019",
+"titel": "GSV AR – Abschnitt 19",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0018",
+"nachher": "ar-gsv__c0020"
+},
+{
+"id": "ar-gsv__c0020",
+"titel": "GSV AR – Abschnitt 20",
+"pfad": [],
+"seiten": [
+10,
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0019",
+"nachher": "ar-gsv__c0021"
+},
+{
+"id": "ar-gsv__c0021",
+"titel": "GSV AR – Abschnitt 21",
+"pfad": [],
+"seiten": [
+10,
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0020",
+"nachher": "ar-gsv__c0022"
+},
+{
+"id": "ar-gsv__c0022",
+"titel": "GSV AR – Abschnitt 22",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-gsv__c0021",
+"nachher": null
+}
+]

@@ -1,0 +1,320 @@
+[
+{
+"id": "bund-rs-2-215__c0001",
+"titel": "RS 2-215 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "bund-rs-2-215__c0002"
+},
+{
+"id": "bund-rs-2-215__c0002",
+"titel": "RS 2-215 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0001",
+"nachher": "bund-rs-2-215__c0003"
+},
+{
+"id": "bund-rs-2-215__c0003",
+"titel": "RS 2-215 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0002",
+"nachher": "bund-rs-2-215__c0004"
+},
+{
+"id": "bund-rs-2-215__c0004",
+"titel": "RS 2-215 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0003",
+"nachher": "bund-rs-2-215__c0005"
+},
+{
+"id": "bund-rs-2-215__c0005",
+"titel": "RS 2-215 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0004",
+"nachher": "bund-rs-2-215__c0006"
+},
+{
+"id": "bund-rs-2-215__c0006",
+"titel": "RS 2-215 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0005",
+"nachher": "bund-rs-2-215__c0007"
+},
+{
+"id": "bund-rs-2-215__c0007",
+"titel": "RS 2-215 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0006",
+"nachher": "bund-rs-2-215__c0008"
+},
+{
+"id": "bund-rs-2-215__c0008",
+"titel": "RS 2-215 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0007",
+"nachher": "bund-rs-2-215__c0009"
+},
+{
+"id": "bund-rs-2-215__c0009",
+"titel": "RS 2-215 – Abschnitt 9",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0008",
+"nachher": "bund-rs-2-215__c0010"
+},
+{
+"id": "bund-rs-2-215__c0010",
+"titel": "RS 2-215 – Abschnitt 10",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0009",
+"nachher": "bund-rs-2-215__c0011"
+},
+{
+"id": "bund-rs-2-215__c0011",
+"titel": "RS 2-215 – Abschnitt 11",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0010",
+"nachher": "bund-rs-2-215__c0012"
+},
+{
+"id": "bund-rs-2-215__c0012",
+"titel": "RS 2-215 – Abschnitt 12",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0011",
+"nachher": "bund-rs-2-215__c0013"
+},
+{
+"id": "bund-rs-2-215__c0013",
+"titel": "RS 2-215 – Abschnitt 13",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0012",
+"nachher": "bund-rs-2-215__c0014"
+},
+{
+"id": "bund-rs-2-215__c0014",
+"titel": "RS 2-215 – Abschnitt 14",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0013",
+"nachher": "bund-rs-2-215__c0015"
+},
+{
+"id": "bund-rs-2-215__c0015",
+"titel": "RS 2-215 – Abschnitt 15",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0014",
+"nachher": "bund-rs-2-215__c0016"
+},
+{
+"id": "bund-rs-2-215__c0016",
+"titel": "RS 2-215 – Abschnitt 16",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0015",
+"nachher": "bund-rs-2-215__c0017"
+},
+{
+"id": "bund-rs-2-215__c0017",
+"titel": "RS 2-215 – Abschnitt 17",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0016",
+"nachher": "bund-rs-2-215__c0018"
+},
+{
+"id": "bund-rs-2-215__c0018",
+"titel": "RS 2-215 – Abschnitt 18",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0017",
+"nachher": "bund-rs-2-215__c0019"
+},
+{
+"id": "bund-rs-2-215__c0019",
+"titel": "RS 2-215 – Abschnitt 19",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0018",
+"nachher": "bund-rs-2-215__c0020"
+},
+{
+"id": "bund-rs-2-215__c0020",
+"titel": "RS 2-215 – Abschnitt 20",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-215__c0019",
+"nachher": null
+}
+]

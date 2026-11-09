@@ -1,0 +1,64 @@
+[
+{
+"id": "sg-stb-aenderungen-2026__c0001",
+"titel": "StB SG Änderungen 2026 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "sg-stb-aenderungen-2026__c0002"
+},
+{
+"id": "sg-stb-aenderungen-2026__c0002",
+"titel": "StB SG Änderungen 2026 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-aenderungen-2026__c0001",
+"nachher": "sg-stb-aenderungen-2026__c0003"
+},
+{
+"id": "sg-stb-aenderungen-2026__c0003",
+"titel": "StB SG Änderungen 2026 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-aenderungen-2026__c0002",
+"nachher": "sg-stb-aenderungen-2026__c0004"
+},
+{
+"id": "sg-stb-aenderungen-2026__c0004",
+"titel": "StB SG Änderungen 2026 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-aenderungen-2026__c0003",
+"nachher": null
+}
+]

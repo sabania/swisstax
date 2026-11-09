@@ -1,0 +1,1472 @@
+[
+{
+"id": "zh-weisung-liegenschaften-2026__c0001",
+"titel": "Weisung 2026 ZH – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "zh-weisung-liegenschaften-2026__c0002"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0002",
+"titel": "Weisung 2026 ZH – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0001",
+"nachher": "zh-weisung-liegenschaften-2026__c0003"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0003",
+"titel": "Weisung 2026 ZH – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0002",
+"nachher": "zh-weisung-liegenschaften-2026__c0004"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0004",
+"titel": "Weisung 2026 ZH – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0003",
+"nachher": "zh-weisung-liegenschaften-2026__c0005"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0005",
+"titel": "Weisung 2026 ZH – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0004",
+"nachher": "zh-weisung-liegenschaften-2026__c0006"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0006",
+"titel": "Weisung 2026 ZH – Abschnitt 6",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0005",
+"nachher": "zh-weisung-liegenschaften-2026__c0007"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0007",
+"titel": "Weisung 2026 ZH – Abschnitt 7",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0006",
+"nachher": "zh-weisung-liegenschaften-2026__c0008"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0008",
+"titel": "Weisung 2026 ZH – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0007",
+"nachher": "zh-weisung-liegenschaften-2026__c0009"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0009",
+"titel": "Weisung 2026 ZH – Abschnitt 9",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0008",
+"nachher": "zh-weisung-liegenschaften-2026__c0010"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0010",
+"titel": "Weisung 2026 ZH – Abschnitt 10",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0009",
+"nachher": "zh-weisung-liegenschaften-2026__c0011"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0011",
+"titel": "Weisung 2026 ZH – Abschnitt 11",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0010",
+"nachher": "zh-weisung-liegenschaften-2026__c0012"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0012",
+"titel": "Weisung 2026 ZH – Abschnitt 12",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0011",
+"nachher": "zh-weisung-liegenschaften-2026__c0013"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0013",
+"titel": "Weisung 2026 ZH – Abschnitt 13",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0012",
+"nachher": "zh-weisung-liegenschaften-2026__c0014"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0014",
+"titel": "Weisung 2026 ZH – Abschnitt 14",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0013",
+"nachher": "zh-weisung-liegenschaften-2026__c0015"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0015",
+"titel": "Weisung 2026 ZH – Abschnitt 15",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0014",
+"nachher": "zh-weisung-liegenschaften-2026__c0016"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0016",
+"titel": "Weisung 2026 ZH – Abschnitt 16",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0015",
+"nachher": "zh-weisung-liegenschaften-2026__c0017"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0017",
+"titel": "Weisung 2026 ZH – Abschnitt 17",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0016",
+"nachher": "zh-weisung-liegenschaften-2026__c0018"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0018",
+"titel": "Weisung 2026 ZH – Abschnitt 18",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0017",
+"nachher": "zh-weisung-liegenschaften-2026__c0019"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0019",
+"titel": "Weisung 2026 ZH – Abschnitt 19",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0018",
+"nachher": "zh-weisung-liegenschaften-2026__c0020"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0020",
+"titel": "Weisung 2026 ZH – Abschnitt 20",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0019",
+"nachher": "zh-weisung-liegenschaften-2026__c0021"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0021",
+"titel": "Weisung 2026 ZH – Abschnitt 21",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0020",
+"nachher": "zh-weisung-liegenschaften-2026__c0022"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0022",
+"titel": "Weisung 2026 ZH – Abschnitt 22",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0021",
+"nachher": "zh-weisung-liegenschaften-2026__c0023"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0023",
+"titel": "Weisung 2026 ZH – Abschnitt 23",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0022",
+"nachher": "zh-weisung-liegenschaften-2026__c0024"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0024",
+"titel": "Weisung 2026 ZH – Abschnitt 24",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0023",
+"nachher": "zh-weisung-liegenschaften-2026__c0025"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0025",
+"titel": "Weisung 2026 ZH – Abschnitt 25",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0024",
+"nachher": "zh-weisung-liegenschaften-2026__c0026"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0026",
+"titel": "Weisung 2026 ZH – Abschnitt 26",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0025",
+"nachher": "zh-weisung-liegenschaften-2026__c0027"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0027",
+"titel": "Weisung 2026 ZH – Abschnitt 27",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0026",
+"nachher": "zh-weisung-liegenschaften-2026__c0028"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0028",
+"titel": "Weisung 2026 ZH – Abschnitt 28",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0027",
+"nachher": "zh-weisung-liegenschaften-2026__c0029"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0029",
+"titel": "Weisung 2026 ZH – Abschnitt 29",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0028",
+"nachher": "zh-weisung-liegenschaften-2026__c0030"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0030",
+"titel": "Weisung 2026 ZH – Abschnitt 30",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0029",
+"nachher": "zh-weisung-liegenschaften-2026__c0031"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0031",
+"titel": "Weisung 2026 ZH – Abschnitt 31",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0030",
+"nachher": "zh-weisung-liegenschaften-2026__c0032"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0032",
+"titel": "Weisung 2026 ZH – Abschnitt 32",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0031",
+"nachher": "zh-weisung-liegenschaften-2026__c0033"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0033",
+"titel": "Weisung 2026 ZH – Abschnitt 33",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0032",
+"nachher": "zh-weisung-liegenschaften-2026__c0034"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0034",
+"titel": "Weisung 2026 ZH – Abschnitt 34",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0033",
+"nachher": "zh-weisung-liegenschaften-2026__c0035"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0035",
+"titel": "Weisung 2026 ZH – Abschnitt 35",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0034",
+"nachher": "zh-weisung-liegenschaften-2026__c0036"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0036",
+"titel": "Weisung 2026 ZH – Abschnitt 36",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0035",
+"nachher": "zh-weisung-liegenschaften-2026__c0037"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0037",
+"titel": "Weisung 2026 ZH – Abschnitt 37",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0036",
+"nachher": "zh-weisung-liegenschaften-2026__c0038"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0038",
+"titel": "Weisung 2026 ZH – Abschnitt 38",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0037",
+"nachher": "zh-weisung-liegenschaften-2026__c0039"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0039",
+"titel": "Weisung 2026 ZH – Abschnitt 39",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0038",
+"nachher": "zh-weisung-liegenschaften-2026__c0040"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0040",
+"titel": "Weisung 2026 ZH – Abschnitt 40",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0039",
+"nachher": "zh-weisung-liegenschaften-2026__c0041"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0041",
+"titel": "Weisung 2026 ZH – Abschnitt 41",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0040",
+"nachher": "zh-weisung-liegenschaften-2026__c0042"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0042",
+"titel": "Weisung 2026 ZH – Abschnitt 42",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0041",
+"nachher": "zh-weisung-liegenschaften-2026__c0043"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0043",
+"titel": "Weisung 2026 ZH – Abschnitt 43",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0042",
+"nachher": "zh-weisung-liegenschaften-2026__c0044"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0044",
+"titel": "Weisung 2026 ZH – Abschnitt 44",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0043",
+"nachher": "zh-weisung-liegenschaften-2026__c0045"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0045",
+"titel": "Weisung 2026 ZH – Abschnitt 45",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0044",
+"nachher": "zh-weisung-liegenschaften-2026__c0046"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0046",
+"titel": "Weisung 2026 ZH – Abschnitt 46",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0045",
+"nachher": "zh-weisung-liegenschaften-2026__c0047"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0047",
+"titel": "Weisung 2026 ZH – Abschnitt 47",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0046",
+"nachher": "zh-weisung-liegenschaften-2026__c0048"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0048",
+"titel": "Weisung 2026 ZH – Abschnitt 48",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0047",
+"nachher": "zh-weisung-liegenschaften-2026__c0049"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0049",
+"titel": "Weisung 2026 ZH – Abschnitt 49",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0048",
+"nachher": "zh-weisung-liegenschaften-2026__c0050"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0050",
+"titel": "Weisung 2026 ZH – Abschnitt 50",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0049",
+"nachher": "zh-weisung-liegenschaften-2026__c0051"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0051",
+"titel": "Weisung 2026 ZH – Abschnitt 51",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0050",
+"nachher": "zh-weisung-liegenschaften-2026__c0052"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0052",
+"titel": "Weisung 2026 ZH – Abschnitt 52",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0051",
+"nachher": "zh-weisung-liegenschaften-2026__c0053"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0053",
+"titel": "Weisung 2026 ZH – Abschnitt 53",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0052",
+"nachher": "zh-weisung-liegenschaften-2026__c0054"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0054",
+"titel": "Weisung 2026 ZH – Abschnitt 54",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0053",
+"nachher": "zh-weisung-liegenschaften-2026__c0055"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0055",
+"titel": "Weisung 2026 ZH – Abschnitt 55",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0054",
+"nachher": "zh-weisung-liegenschaften-2026__c0056"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0056",
+"titel": "Weisung 2026 ZH – Abschnitt 56",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0055",
+"nachher": "zh-weisung-liegenschaften-2026__c0057"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0057",
+"titel": "Weisung 2026 ZH – Abschnitt 57",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0056",
+"nachher": "zh-weisung-liegenschaften-2026__c0058"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0058",
+"titel": "Weisung 2026 ZH – Abschnitt 58",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0057",
+"nachher": "zh-weisung-liegenschaften-2026__c0059"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0059",
+"titel": "Weisung 2026 ZH – Abschnitt 59",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0058",
+"nachher": "zh-weisung-liegenschaften-2026__c0060"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0060",
+"titel": "Weisung 2026 ZH – Abschnitt 60",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0059",
+"nachher": "zh-weisung-liegenschaften-2026__c0061"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0061",
+"titel": "Weisung 2026 ZH – Abschnitt 61",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0060",
+"nachher": "zh-weisung-liegenschaften-2026__c0062"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0062",
+"titel": "Weisung 2026 ZH – Abschnitt 62",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0061",
+"nachher": "zh-weisung-liegenschaften-2026__c0063"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0063",
+"titel": "Weisung 2026 ZH – Abschnitt 63",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0062",
+"nachher": "zh-weisung-liegenschaften-2026__c0064"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0064",
+"titel": "Weisung 2026 ZH – Abschnitt 64",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0063",
+"nachher": "zh-weisung-liegenschaften-2026__c0065"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0065",
+"titel": "Weisung 2026 ZH – Abschnitt 65",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0064",
+"nachher": "zh-weisung-liegenschaften-2026__c0066"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0066",
+"titel": "Weisung 2026 ZH – Abschnitt 66",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0065",
+"nachher": "zh-weisung-liegenschaften-2026__c0067"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0067",
+"titel": "Weisung 2026 ZH – Abschnitt 67",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0066",
+"nachher": "zh-weisung-liegenschaften-2026__c0068"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0068",
+"titel": "Weisung 2026 ZH – Abschnitt 68",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0067",
+"nachher": "zh-weisung-liegenschaften-2026__c0069"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0069",
+"titel": "Weisung 2026 ZH – Abschnitt 69",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0068",
+"nachher": "zh-weisung-liegenschaften-2026__c0070"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0070",
+"titel": "Weisung 2026 ZH – Abschnitt 70",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0069",
+"nachher": "zh-weisung-liegenschaften-2026__c0071"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0071",
+"titel": "Weisung 2026 ZH – Abschnitt 71",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0070",
+"nachher": "zh-weisung-liegenschaften-2026__c0072"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0072",
+"titel": "Weisung 2026 ZH – Abschnitt 72",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0071",
+"nachher": "zh-weisung-liegenschaften-2026__c0073"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0073",
+"titel": "Weisung 2026 ZH – Abschnitt 73",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0072",
+"nachher": "zh-weisung-liegenschaften-2026__c0074"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0074",
+"titel": "Weisung 2026 ZH – Abschnitt 74",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0073",
+"nachher": "zh-weisung-liegenschaften-2026__c0075"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0075",
+"titel": "Weisung 2026 ZH – Abschnitt 75",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0074",
+"nachher": "zh-weisung-liegenschaften-2026__c0076"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0076",
+"titel": "Weisung 2026 ZH – Abschnitt 76",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0075",
+"nachher": "zh-weisung-liegenschaften-2026__c0077"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0077",
+"titel": "Weisung 2026 ZH – Abschnitt 77",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0076",
+"nachher": "zh-weisung-liegenschaften-2026__c0078"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0078",
+"titel": "Weisung 2026 ZH – Abschnitt 78",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0077",
+"nachher": "zh-weisung-liegenschaften-2026__c0079"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0079",
+"titel": "Weisung 2026 ZH – Abschnitt 79",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0078",
+"nachher": "zh-weisung-liegenschaften-2026__c0080"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0080",
+"titel": "Weisung 2026 ZH – Abschnitt 80",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0079",
+"nachher": "zh-weisung-liegenschaften-2026__c0081"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0081",
+"titel": "Weisung 2026 ZH – Abschnitt 81",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0080",
+"nachher": "zh-weisung-liegenschaften-2026__c0082"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0082",
+"titel": "Weisung 2026 ZH – Abschnitt 82",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0081",
+"nachher": "zh-weisung-liegenschaften-2026__c0083"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0083",
+"titel": "Weisung 2026 ZH – Abschnitt 83",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0082",
+"nachher": "zh-weisung-liegenschaften-2026__c0084"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0084",
+"titel": "Weisung 2026 ZH – Abschnitt 84",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0083",
+"nachher": "zh-weisung-liegenschaften-2026__c0085"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0085",
+"titel": "Weisung 2026 ZH – Abschnitt 85",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0084",
+"nachher": "zh-weisung-liegenschaften-2026__c0086"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0086",
+"titel": "Weisung 2026 ZH – Abschnitt 86",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0085",
+"nachher": "zh-weisung-liegenschaften-2026__c0087"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0087",
+"titel": "Weisung 2026 ZH – Abschnitt 87",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0086",
+"nachher": "zh-weisung-liegenschaften-2026__c0088"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0088",
+"titel": "Weisung 2026 ZH – Abschnitt 88",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0087",
+"nachher": "zh-weisung-liegenschaften-2026__c0089"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0089",
+"titel": "Weisung 2026 ZH – Abschnitt 89",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0088",
+"nachher": "zh-weisung-liegenschaften-2026__c0090"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0090",
+"titel": "Weisung 2026 ZH – Abschnitt 90",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0089",
+"nachher": "zh-weisung-liegenschaften-2026__c0091"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0091",
+"titel": "Weisung 2026 ZH – Abschnitt 91",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0090",
+"nachher": "zh-weisung-liegenschaften-2026__c0092"
+},
+{
+"id": "zh-weisung-liegenschaften-2026__c0092",
+"titel": "Weisung 2026 ZH – Abschnitt 92",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-weisung-liegenschaften-2026__c0091",
+"nachher": null
+}
+]

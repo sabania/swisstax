@@ -1,0 +1,242 @@
+[
+{
+"id": "bund-vkp-2025__art-1",
+"titel": "Art. 1 VKP – Gegenstand",
+"pfad": [
+"Art. 1 Gegenstand"
+],
+"seiten": [],
+"artikel": "Art. 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "bund-vkp-2025__art-2-t1"
+},
+{
+"id": "bund-vkp-2025__art-2-t1",
+"titel": "Art. 2 VKP – Tarife (Teil 1/4)",
+"pfad": [
+"Art. 2 Tarife"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-1",
+"nachher": "bund-vkp-2025__art-2-t2"
+},
+{
+"id": "bund-vkp-2025__art-2-t2",
+"titel": "Art. 2 VKP – Tarife (Teil 2/4)",
+"pfad": [
+"Art. 2 Tarife"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-2-t1",
+"nachher": "bund-vkp-2025__art-2-t3"
+},
+{
+"id": "bund-vkp-2025__art-2-t3",
+"titel": "Art. 2 VKP – Tarife (Teil 3/4)",
+"pfad": [
+"Art. 2 Tarife"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-2-t2",
+"nachher": "bund-vkp-2025__art-2-t4"
+},
+{
+"id": "bund-vkp-2025__art-2-t4",
+"titel": "Art. 2 VKP – Tarife (Teil 4/4)",
+"pfad": [
+"Art. 2 Tarife"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-2-t3",
+"nachher": "bund-vkp-2025__art-3-t1"
+},
+{
+"id": "bund-vkp-2025__art-3-t1",
+"titel": "Art. 3 VKP – Allgemeine Abzüge (Teil 1/4)",
+"pfad": [
+"Art. 3 Allgemeine Abzüge"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-2-t4",
+"nachher": "bund-vkp-2025__art-3-t2"
+},
+{
+"id": "bund-vkp-2025__art-3-t2",
+"titel": "Art. 3 VKP – Allgemeine Abzüge (Teil 2/4)",
+"pfad": [
+"Art. 3 Allgemeine Abzüge"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-3-t1",
+"nachher": "bund-vkp-2025__art-3-t3"
+},
+{
+"id": "bund-vkp-2025__art-3-t3",
+"titel": "Art. 3 VKP – Allgemeine Abzüge (Teil 3/4)",
+"pfad": [
+"Art. 3 Allgemeine Abzüge"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-3-t2",
+"nachher": "bund-vkp-2025__art-3-t4"
+},
+{
+"id": "bund-vkp-2025__art-3-t4",
+"titel": "Art. 3 VKP – Allgemeine Abzüge (Teil 4/4)",
+"pfad": [
+"Art. 3 Allgemeine Abzüge"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-3-t3",
+"nachher": "bund-vkp-2025__art-4"
+},
+{
+"id": "bund-vkp-2025__art-4",
+"titel": "Art. 4 VKP – Sozialabzüge",
+"pfad": [
+"Art. 4 Sozialabzüge"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-3-t4",
+"nachher": "bund-vkp-2025__art-5"
+},
+{
+"id": "bund-vkp-2025__art-5",
+"titel": "Art. 5 VKP – Besteuerung nach dem Aufwand",
+"pfad": [
+"Art. 5 Besteuerung nach dem Aufwand"
+],
+"seiten": [],
+"artikel": "Art. 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-4",
+"nachher": "bund-vkp-2025__art-6"
+},
+{
+"id": "bund-vkp-2025__art-6",
+"titel": "Art. 6 VKP – Steuerfreie Einkünfte",
+"pfad": [
+"Art. 6 Steuerfreie Einkünfte"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-5",
+"nachher": "bund-vkp-2025__art-7"
+},
+{
+"id": "bund-vkp-2025__art-7",
+"titel": "Art. 7 VKP – Unselbständige Erwerbstätigkeit",
+"pfad": [
+"Art. 7 Unselbständige Erwerbstätigkeit"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-6",
+"nachher": "bund-vkp-2025__art-8"
+},
+{
+"id": "bund-vkp-2025__art-8",
+"titel": "Art. 8 VKP – Aufhebung eines anderen Erlasses",
+"pfad": [
+"Art. 8 Aufhebung eines anderen Erlasses"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-7",
+"nachher": "bund-vkp-2025__art-9"
+},
+{
+"id": "bund-vkp-2025__art-9",
+"titel": "Art. 9 VKP – Inkrafttreten",
+"pfad": [
+"Art. 9 Inkrafttreten"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-vkp-2025__art-8",
+"nachher": null
+}
+]

@@ -1,0 +1,384 @@
+[
+{
+"id": "sg-stb-39-3__c0001",
+"titel": "StB 39 Nr. 3 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "sg-stb-39-3__c0002"
+},
+{
+"id": "sg-stb-39-3__c0002",
+"titel": "StB 39 Nr. 3 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0001",
+"nachher": "sg-stb-39-3__c0003"
+},
+{
+"id": "sg-stb-39-3__c0003",
+"titel": "StB 39 Nr. 3 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0002",
+"nachher": "sg-stb-39-3__c0004"
+},
+{
+"id": "sg-stb-39-3__c0004",
+"titel": "StB 39 Nr. 3 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0003",
+"nachher": "sg-stb-39-3__c0005"
+},
+{
+"id": "sg-stb-39-3__c0005",
+"titel": "StB 39 Nr. 3 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0004",
+"nachher": "sg-stb-39-3__c0006"
+},
+{
+"id": "sg-stb-39-3__c0006",
+"titel": "StB 39 Nr. 3 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0005",
+"nachher": "sg-stb-39-3__c0007"
+},
+{
+"id": "sg-stb-39-3__c0007",
+"titel": "StB 39 Nr. 3 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0006",
+"nachher": "sg-stb-39-3__c0008"
+},
+{
+"id": "sg-stb-39-3__c0008",
+"titel": "StB 39 Nr. 3 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0007",
+"nachher": "sg-stb-39-3__c0009"
+},
+{
+"id": "sg-stb-39-3__c0009",
+"titel": "StB 39 Nr. 3 – Abschnitt 9",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0008",
+"nachher": "sg-stb-39-3__c0010"
+},
+{
+"id": "sg-stb-39-3__c0010",
+"titel": "StB 39 Nr. 3 – Abschnitt 10",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0009",
+"nachher": "sg-stb-39-3__c0011"
+},
+{
+"id": "sg-stb-39-3__c0011",
+"titel": "StB 39 Nr. 3 – Abschnitt 11",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0010",
+"nachher": "sg-stb-39-3__c0012"
+},
+{
+"id": "sg-stb-39-3__c0012",
+"titel": "StB 39 Nr. 3 – Abschnitt 12",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0011",
+"nachher": "sg-stb-39-3__c0013"
+},
+{
+"id": "sg-stb-39-3__c0013",
+"titel": "StB 39 Nr. 3 – Abschnitt 13",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0012",
+"nachher": "sg-stb-39-3__c0014"
+},
+{
+"id": "sg-stb-39-3__c0014",
+"titel": "StB 39 Nr. 3 – Abschnitt 14",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0013",
+"nachher": "sg-stb-39-3__c0015"
+},
+{
+"id": "sg-stb-39-3__c0015",
+"titel": "StB 39 Nr. 3 – Abschnitt 15",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0014",
+"nachher": "sg-stb-39-3__c0016"
+},
+{
+"id": "sg-stb-39-3__c0016",
+"titel": "StB 39 Nr. 3 – Abschnitt 16",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0015",
+"nachher": "sg-stb-39-3__c0017"
+},
+{
+"id": "sg-stb-39-3__c0017",
+"titel": "StB 39 Nr. 3 – Abschnitt 17",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0016",
+"nachher": "sg-stb-39-3__c0018"
+},
+{
+"id": "sg-stb-39-3__c0018",
+"titel": "StB 39 Nr. 3 – Abschnitt 18",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0017",
+"nachher": "sg-stb-39-3__c0019"
+},
+{
+"id": "sg-stb-39-3__c0019",
+"titel": "StB 39 Nr. 3 – Abschnitt 19",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0018",
+"nachher": "sg-stb-39-3__c0020"
+},
+{
+"id": "sg-stb-39-3__c0020",
+"titel": "StB 39 Nr. 3 – Abschnitt 20",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0019",
+"nachher": "sg-stb-39-3__c0021"
+},
+{
+"id": "sg-stb-39-3__c0021",
+"titel": "StB 39 Nr. 3 – Abschnitt 21",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0020",
+"nachher": "sg-stb-39-3__c0022"
+},
+{
+"id": "sg-stb-39-3__c0022",
+"titel": "StB 39 Nr. 3 – Abschnitt 22",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0021",
+"nachher": "sg-stb-39-3__c0023"
+},
+{
+"id": "sg-stb-39-3__c0023",
+"titel": "StB 39 Nr. 3 – Abschnitt 23",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0022",
+"nachher": "sg-stb-39-3__c0024"
+},
+{
+"id": "sg-stb-39-3__c0024",
+"titel": "StB 39 Nr. 3 – Abschnitt 24",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stb-39-3__c0023",
+"nachher": null
+}
+]

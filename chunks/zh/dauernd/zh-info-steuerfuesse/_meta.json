@@ -1,0 +1,70 @@
+[
+{
+"id": "zh-info-steuerfuesse__c0001",
+"titel": "Aktuelle Gemeindesteuerfüsse",
+"pfad": [
+"Aktuelle Gemeindesteuerfüsse"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "zh-info-steuerfuesse__c0002"
+},
+{
+"id": "zh-info-steuerfuesse__c0002",
+"titel": "Auf dieser Seite",
+"pfad": [
+"Aktuelle Gemeindesteuerfüsse",
+"Auf dieser Seite"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-steuerfuesse__c0001",
+"nachher": "zh-info-steuerfuesse__c0003"
+},
+{
+"id": "zh-info-steuerfuesse__c0003",
+"titel": "Steuerfüsse",
+"pfad": [
+"Aktuelle Gemeindesteuerfüsse",
+"Steuerfüsse"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-steuerfuesse__c0002",
+"nachher": "zh-info-steuerfuesse__c0004"
+},
+{
+"id": "zh-info-steuerfuesse__c0004",
+"titel": "Analysen und Auswertungen",
+"pfad": [
+"Aktuelle Gemeindesteuerfüsse",
+"Daten",
+"Analysen und Auswertungen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-info-steuerfuesse__c0003",
+"nachher": null
+}
+]

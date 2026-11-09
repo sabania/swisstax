@@ -1,0 +1,21 @@
+---
+id: bund-sthg__art-39
+quelle: bund-sthg
+jur: bund
+jahre: [2025, 2026]
+typ: gesetz
+titel: "Art. 39 StHG – Amtspflichten"
+artikel: "Art. 39"
+qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: gesetz}}
+---
+> Bund · Steuerjahr 2025/2026 · StHG · Fünfter Titel: Verfahrensrecht › 1. Kapitel: Verfahrensgrundsätze und Veranlagungsverfahren › Art. 39 Amtspflichten
+
+### Art. 39 StHG – Amtspflichten
+
+**Abs. 1** Die mit dem Vollzug der Steuergesetze betrauten Personen sind zur Geheimhaltung verpflichtet. Vorbehalten bleibt die Auskunftspflicht, soweit hiefür eine gesetzliche Grundlage im Bundesrecht oder im kantonalen Recht besteht.
+
+**Abs. 2** Die Steuerbehörden erteilen einander kostenlos die benötigten Auskünfte und gewähren einander Einsicht in die amtlichen Akten. Ist eine Person mit Wohnsitz oder Sitz im Kanton aufgrund der Steuererklärung auch in einem andern Kanton steuerpflichtig, so gibt die Veranlagungsbehörde der Steuerbehörde des andern Kantons Kenntnis von der Steuererklärung und von der Veranlagung.
+
+**Abs. 3** Die Behörden des Bundes, der Kantone, Bezirke, Kreise und Gemeinden erteilen den mit dem Vollzug der Steuergesetze betrauten Behörden auf Ersuchen hin alle Auskünfte, die für die Anwendung dieser Gesetze erforderlich sind. Sie können diese Behörden von sich aus darauf aufmerksam machen, wenn sie vermuten, dass eine Veranlagung unvollständig ist.
+
+**Abs. 4** …

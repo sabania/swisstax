@@ -1,0 +1,21 @@
+---
+id: bund-ks-30__c0051
+quelle: bund-ks-30
+jur: bund
+jahre: [2025, 2026]
+typ: kreisschreiben
+titel: "KS 30 – Abschnitt 51"
+seiten: "11"
+qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+---
+> Bund · Steuerjahr 2025/2026 · KS 30 · S. 11
+
+Für Steuerpflichtige, die weder Beiträge an die berufliche Vorsorge noch solche an die ge-
+bundene Selbstvorsorge ausweisen, erhöhen sich nach Artikel 33 Absatz 1bis DBG die Ab-
+zugsansätze um die Hälfte. Entgegen dem Wortlaut ist für die hälftige Erhöhung der Ansätze
+nicht auch noch das Fehlen von AHV/IV-Beiträgen vorausgesetzt. Dies erhellt sich aus der
+Entstehungsgeschichte der Bestimmung. Der Gesetzgeber wollte verhindern, dass Steuer-
+pflichtige, die keine Beiträge an die berufliche Vorsorge oder an die gebundene Vorsorge
+leisten bzw. leisten können, benachteiligt werden. Dies trifft insbesondere auf AHV-Rentner
+oder Nichterwerbstätige zu, die höheren Versicherungskosten oder einem höheren Vorsor-
+gebedarf unterliegen als Steuerpflichtige mit Beiträgen an die Säule 2 und 3a.

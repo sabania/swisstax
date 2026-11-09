@@ -1,0 +1,55 @@
+---
+typ: quellenkatalog
+jur: tg
+titel: "Quellenkatalog Kanton Thurgau (TG)"
+generiert: tools/build_index.py
+---
+# Quellenkatalog – Kanton Thurgau (TG)
+
+Alle erfassten Quellen dieser Jurisdiktion. Spalten: Kurzbezeichnung · Titel · gilt für Steuerjahre · Links (Volltext-Markdown, Chunks, Original). «Ordner» = erstes Steuerjahr der Fassung bzw. `dauernd` für jahresunabhängige Dokumente.
+
+## Ordner 2025
+
+| Typ | Kurz | Titel | Jahre | Volltext | Chunks | Original |
+|---|---|---|---|---|---|---|
+| Gesetz | StG TG | [Gesetz über die Staats- und Gemeindesteuern (RB 640.1)](https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.1) | 2025, 2026 | – | – | [web](https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.1) |
+| Wegleitung | WL TG 2025 | [Wegleitung zur Steuererklärung 2025](https://steuerverwaltung.tg.ch/public/upload/assets/175639/FW25_Form.01_Wegleitung_SteuererklaerungV2_neu.pdf?fp=1746451672373) | 2025 | [md](../../sources/tg/2025/tg-wl-2025.md) | [291](../../chunks/tg/2025/tg-wl-2025/) | [pdf](../../raw/tg/2025/tg-wl-2025.pdf) |
+
+## Ordner 2026
+
+| Typ | Kurz | Titel | Jahre | Volltext | Chunks | Original |
+|---|---|---|---|---|---|---|
+| Wegleitung | WL TG 2026 | [Wegleitung zur Steuererklärung 2026](https://steuerverwaltung.tg.ch/public/upload/assets/183684/FW26_Form_01a_Wegleitung.pdf?fp=1766146578889) | 2026 | [md](../../sources/tg/2026/tg-wl-2026.md) | [287](../../chunks/tg/2026/tg-wl-2026/) | [pdf](../../raw/tg/2026/tg-wl-2026.pdf) |
+| Wegleitung | Kurz-WL TG 2026 | [Kurzübersicht Wegleitung 2026](https://steuerverwaltung.tg.ch/public/upload/assets/183683/FW26_Form_01b_Kurzuebersicht_Wegleitung.pdf?fp=1766146560018) | 2026 | [md](../../sources/tg/2026/tg-wl-kurz-2026.md) | [7](../../chunks/tg/2026/tg-wl-kurz-2026/) | [pdf](../../raw/tg/2026/tg-wl-kurz-2026.pdf) |
+| Steuerfüsse | Steuerfüsse TG 2026 | [Steuerfüsse 2026, Steuerkraft 2025 (Statistik TG)](https://statistik.tg.ch/public/upload/assets/190145/2026_Nr_3_Steuerf%C3%BCsse_2026_Steuerkraft_2025.pdf?fp=1) | 2025, 2026 | [md](../../sources/tg/2026/tg-steuerfuesse-2026.md) | [28](../../chunks/tg/2026/tg-steuerfuesse-2026/) | [pdf](../../raw/tg/2026/tg-steuerfuesse-2026.pdf) |
+
+## Ordner dauernd
+
+| Typ | Kurz | Titel | Jahre | Volltext | Chunks | Original |
+|---|---|---|---|---|---|---|
+| Verordnung | V DBG TG | [Verordnung zum DBG (RB 642.11), PDF Stand 2016 – veraltet](https://www.rechtsbuch.tg.ch/api/de/versions/2356/pdf_file) ⚠ veraltet (2016) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-v-dbg.md) | [9](../../chunks/tg/dauernd/tg-v-dbg/) | [pdf](../../raw/tg/dauernd/tg-v-dbg.pdf) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 155 Nr. 2 | [StP 155 Nr. 2: Fristerstreckung zur Einreichung der Steuererklärung](https://steuerpraxis.tg.ch/steuerpraxis/2025-10/stp-155-nr-2-fristerstreckung-zur-einreichung-der-) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-155-2.md) | [9](../../chunks/tg/dauernd/tg-stp-155-2/) | [html](../../raw/tg/dauernd/tg-stp-155-2.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 2 Nr. 7 | [StP 2 Nr. 7: Interkantonale Repartitionswerte](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-2-nr-7-steuerausscheidung-interkantonale-repartitionswerte) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-2-7.md) | [5](../../chunks/tg/dauernd/tg-stp-2-7/) | [html](../../raw/tg/dauernd/tg-stp-2-7.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 23 Nr. 1 | [StP 23 Nr. 1: Erträge aus unbeweglichem Vermögen (Eigenmietwert)](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-23-nr-1-ertrage-aus-unbeweglichem-vermogen) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-23-1.md) | [11](../../chunks/tg/dauernd/tg-stp-23-1/) | [html](../../raw/tg/dauernd/tg-stp-23-1.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 29 Nr. 2 | [StP 29 Nr. 2: Fahrkosten zwischen Wohn- und Arbeitsstätte](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-29-nr-2-fahrkosten-zwischen-wohn-und-arbeitsstatte) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-29-2.md) | [12](../../chunks/tg/dauernd/tg-stp-29-2/) | [html](../../raw/tg/dauernd/tg-stp-29-2.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 29 Nr. 4 | [StP 29 Nr. 4: Mehrkosten der Verpflegung](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-29-nr-4-mehrkosten-der-verpflegung) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-29-4.md) | [10](../../chunks/tg/dauernd/tg-stp-29-4/) | [html](../../raw/tg/dauernd/tg-stp-29-4.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 29 Nr. 7 | [StP 29 Nr. 7: Übrige Berufskosten](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-29-nr-7-ubrige-fur-die-ausubung-des-berufes-erforderliche-kosten) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-29-7.md) | [8](../../chunks/tg/dauernd/tg-stp-29-7/) | [html](../../raw/tg/dauernd/tg-stp-29-7.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 34 Nr. 1 | [StP 34 Nr. 1: Liegenschaftsunterhalt](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-1-liegenschaftsunterhalt) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-34-1.md) | [30](../../chunks/tg/dauernd/tg-stp-34-1/) | [html](../../raw/tg/dauernd/tg-stp-34-1.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 34 Nr. 23 | [StP 34 Nr. 23: Freiwillige Zuwendungen](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-23-freiwillige-zuwendungen) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-34-23.md) | [13](../../chunks/tg/dauernd/tg-stp-34-23/) | [html](../../raw/tg/dauernd/tg-stp-34-23.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 34 Nr. 24 | [StP 34 Nr. 24: Drittbetreuungskosten](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-24-drittbetreuungskosten) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-34-24.md) | [15](../../chunks/tg/dauernd/tg-stp-34-24/) | [html](../../raw/tg/dauernd/tg-stp-34-24.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 34 Nr. 25 | [StP 34 Nr. 25: Zweiverdienerabzug](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-25-zweiverdienerabzug) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-34-25.md) | [19](../../chunks/tg/dauernd/tg-stp-34-25/) | [html](../../raw/tg/dauernd/tg-stp-34-25.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 34 Nr. 27 | [StP 34 Nr. 27: Allgemeine Abzüge – Ansätze](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-27-allgemeine-abzuge-ansatze) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-34-27.md) | [12](../../chunks/tg/dauernd/tg-stp-34-27/) | [html](../../raw/tg/dauernd/tg-stp-34-27.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 36 Nr. 1 | [StP 36 Nr. 1: Sozialabzüge](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-36-nr-1-sozialabzuge) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-36-1.md) | [14](../../chunks/tg/dauernd/tg-stp-36-1/) | [html](../../raw/tg/dauernd/tg-stp-36-1.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 36 Nr. 2 | [StP 36 Nr. 2: Kinder- und Ausbildungsabzüge](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-36-nr-2-kinder-und-ausbildungsabzuge) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-36-2.md) | [7](../../chunks/tg/dauernd/tg-stp-36-2/) | [html](../../raw/tg/dauernd/tg-stp-36-2.html) |
+| Praxis (Steuerbuch/Steuerpraxis) | StP 43 Nr. 3 | [StP 43 Nr. 3: Verkehrswert Liegenschaften](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-43-nr-3-verkehrswert-liegenschaften) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-43-3.md) | [7](../../chunks/tg/dauernd/tg-stp-43-3/) | [html](../../raw/tg/dauernd/tg-stp-43-3.html) |
+| Informationsseite | TG eFisc | [Software eFisc](https://steuerverwaltung.tg.ch/hilfsmittel/efisc-steuererklaerungssoftware.html/2958) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-info-efisc.md) | – | [html](../../raw/tg/dauernd/tg-info-efisc.html) |
+| Informationsseite | TG FAQ NP | [FAQ natürliche Personen](https://steuerverwaltung.tg.ch/informationen/faq/natuerliche-personen.html/3823) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-info-faq.md) | [83](../../chunks/tg/dauernd/tg-info-faq/) | [html](../../raw/tg/dauernd/tg-info-faq.html) |
+| Informationsseite | StP TG Änderungen | [Änderungen der Steuerpraxis](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/anderungen-steuerpraxis-internet) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-stp-aenderungen.md) | [1](../../chunks/tg/dauernd/tg-stp-aenderungen/) | [html](../../raw/tg/dauernd/tg-stp-aenderungen.html) |
+| Übersichtsseite | TG Produkt 09.1 | [Produktseite Formular 09.1 (2026)](https://steuerverwaltung.tg.ch/hilfsmittel/formulare.html/10797/product/1230) | 2026 | – | – | [web](https://steuerverwaltung.tg.ch/hilfsmittel/formulare.html/10797/product/1230) |
+| Übersichtsseite | TG Formulare NP | [Formulare natürliche Personen](https://steuerverwaltung.tg.ch/hilfsmittel/formulare/natuerliche-personen.html/10810) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-portal-formulare.md) | – | [html](../../raw/tg/dauernd/tg-portal-formulare.html) |
+| Übersichtsseite | Rechtsbuch TG | [Rechtsbuch TG Systematik](https://www.rechtsbuch.tg.ch/app/de/systematic/texts_of_law) | 2025, 2026 | – | – | [web](https://www.rechtsbuch.tg.ch/app/de/systematic/texts_of_law) |
+| Übersichtsseite | StP TG | [Thurgauer Steuerpraxis – Information](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/information-zur-steuerpraxis) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-portal-stp.md) | – | [html](../../raw/tg/dauernd/tg-portal-stp.html) |
+| Übersichtsseite | StP TG NP | [Thurgauer Steuerpraxis – Kapitel natürliche Personen](https://steuerpraxis.tg.ch/steuerpraxis/2026-09/steuer-der-naturlichen-personen) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-portal-stp-np.md) | – | [html](../../raw/tg/dauernd/tg-portal-stp-np.html) |
+| Übersichtsseite | TG Produkt WL 2025 | [Produktseite Wegleitung 2025](https://steuerverwaltung.tg.ch/hilfsmittel/formulare.html/10797/product/1184) | 2025 | – | – | [web](https://steuerverwaltung.tg.ch/hilfsmittel/formulare.html/10797/product/1184) |
+| Übersichtsseite | TG Produkt WL 2026 | [Produktseite Wegleitung 2026](https://steuerverwaltung.tg.ch/hilfsmittel/formulare.html/10797/product/1218) | 2026 | – | – | [web](https://steuerverwaltung.tg.ch/hilfsmittel/formulare.html/10797/product/1218) |
+| Übersichtsseite | TG WL-Archiv | [Archiv der Wegleitungen 2002–2025](https://steuerverwaltung.tg.ch/hilfsmittel/wegleitungen.html/2942) | 2025, 2026 | [md](../../sources/tg/dauernd/tg-portal-wl-archiv.md) | – | [html](../../raw/tg/dauernd/tg-portal-wl-archiv.html) |

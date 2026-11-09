@@ -1,0 +1,64 @@
+[
+{
+"id": "ar-steuerfuesse-2026__c0001",
+"titel": "Steuerfüsse AR 2026 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "ar-steuerfuesse-2026__c0002"
+},
+{
+"id": "ar-steuerfuesse-2026__c0002",
+"titel": "Steuerfüsse AR 2026 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-steuerfuesse-2026__c0001",
+"nachher": "ar-steuerfuesse-2026__c0003"
+},
+{
+"id": "ar-steuerfuesse-2026__c0003",
+"titel": "Steuerfüsse AR 2026 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-steuerfuesse-2026__c0002",
+"nachher": "ar-steuerfuesse-2026__c0004"
+},
+{
+"id": "ar-steuerfuesse-2026__c0004",
+"titel": "Steuerfüsse AR 2026 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-steuerfuesse-2026__c0003",
+"nachher": null
+}
+]

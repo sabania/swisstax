@@ -1,0 +1,400 @@
+[
+{
+"id": "bund-ks-w03-001__c0001",
+"titel": "KS W03-001 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "bund-ks-w03-001__c0002"
+},
+{
+"id": "bund-ks-w03-001__c0002",
+"titel": "KS W03-001 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0001",
+"nachher": "bund-ks-w03-001__c0003"
+},
+{
+"id": "bund-ks-w03-001__c0003",
+"titel": "KS W03-001 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0002",
+"nachher": "bund-ks-w03-001__c0004"
+},
+{
+"id": "bund-ks-w03-001__c0004",
+"titel": "KS W03-001 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0003",
+"nachher": "bund-ks-w03-001__c0005"
+},
+{
+"id": "bund-ks-w03-001__c0005",
+"titel": "KS W03-001 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0004",
+"nachher": "bund-ks-w03-001__c0006"
+},
+{
+"id": "bund-ks-w03-001__c0006",
+"titel": "KS W03-001 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0005",
+"nachher": "bund-ks-w03-001__c0007"
+},
+{
+"id": "bund-ks-w03-001__c0007",
+"titel": "KS W03-001 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0006",
+"nachher": "bund-ks-w03-001__c0008"
+},
+{
+"id": "bund-ks-w03-001__c0008",
+"titel": "KS W03-001 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0007",
+"nachher": "bund-ks-w03-001__c0009"
+},
+{
+"id": "bund-ks-w03-001__c0009",
+"titel": "KS W03-001 – Abschnitt 9",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0008",
+"nachher": "bund-ks-w03-001__c0010"
+},
+{
+"id": "bund-ks-w03-001__c0010",
+"titel": "KS W03-001 – Abschnitt 10",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0009",
+"nachher": "bund-ks-w03-001__c0011"
+},
+{
+"id": "bund-ks-w03-001__c0011",
+"titel": "KS W03-001 – Abschnitt 11",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0010",
+"nachher": "bund-ks-w03-001__c0012"
+},
+{
+"id": "bund-ks-w03-001__c0012",
+"titel": "KS W03-001 – Abschnitt 12",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0011",
+"nachher": "bund-ks-w03-001__c0013"
+},
+{
+"id": "bund-ks-w03-001__c0013",
+"titel": "KS W03-001 – Abschnitt 13",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0012",
+"nachher": "bund-ks-w03-001__c0014"
+},
+{
+"id": "bund-ks-w03-001__c0014",
+"titel": "KS W03-001 – Abschnitt 14",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0013",
+"nachher": "bund-ks-w03-001__c0015"
+},
+{
+"id": "bund-ks-w03-001__c0015",
+"titel": "KS W03-001 – Abschnitt 15",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0014",
+"nachher": "bund-ks-w03-001__c0016"
+},
+{
+"id": "bund-ks-w03-001__c0016",
+"titel": "KS W03-001 – Abschnitt 16",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0015",
+"nachher": "bund-ks-w03-001__c0017"
+},
+{
+"id": "bund-ks-w03-001__c0017",
+"titel": "KS W03-001 – Abschnitt 17",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0016",
+"nachher": "bund-ks-w03-001__c0018"
+},
+{
+"id": "bund-ks-w03-001__c0018",
+"titel": "KS W03-001 – Abschnitt 18",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0017",
+"nachher": "bund-ks-w03-001__c0019"
+},
+{
+"id": "bund-ks-w03-001__c0019",
+"titel": "KS W03-001 – Abschnitt 19",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0018",
+"nachher": "bund-ks-w03-001__c0020"
+},
+{
+"id": "bund-ks-w03-001__c0020",
+"titel": "KS W03-001 – Abschnitt 20",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0019",
+"nachher": "bund-ks-w03-001__c0021"
+},
+{
+"id": "bund-ks-w03-001__c0021",
+"titel": "KS W03-001 – Abschnitt 21",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0020",
+"nachher": "bund-ks-w03-001__c0022"
+},
+{
+"id": "bund-ks-w03-001__c0022",
+"titel": "KS W03-001 – Abschnitt 22",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0021",
+"nachher": "bund-ks-w03-001__c0023"
+},
+{
+"id": "bund-ks-w03-001__c0023",
+"titel": "KS W03-001 – Abschnitt 23",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0022",
+"nachher": "bund-ks-w03-001__c0024"
+},
+{
+"id": "bund-ks-w03-001__c0024",
+"titel": "KS W03-001 – Abschnitt 24",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0023",
+"nachher": "bund-ks-w03-001__c0025"
+},
+{
+"id": "bund-ks-w03-001__c0025",
+"titel": "KS W03-001 – Abschnitt 25",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-w03-001__c0024",
+"nachher": null
+}
+]

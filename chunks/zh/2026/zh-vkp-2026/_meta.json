@@ -1,0 +1,35 @@
+[
+{
+"id": "zh-vkp-2026__c0001",
+"titel": "Verordnung kalte Progression ab 1.1.2026 (OS 80, 273)",
+"pfad": [
+"Verordnung kalte Progression ab 1.1.2026 (OS 80, 273)"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "zh-vkp-2026__c0002"
+},
+{
+"id": "zh-vkp-2026__c0002",
+"titel": "Für dieses Thema zuständig:",
+"pfad": [
+"Verordnung kalte Progression ab 1.1.2026 (OS 80, 273)",
+"Für dieses Thema zuständig:"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-vkp-2026__c0001",
+"nachher": null
+}
+]

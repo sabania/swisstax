@@ -1,0 +1,3472 @@
+[
+{
+"id": "bund-ks-30__c0001",
+"titel": "KS 30 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "bund-ks-30__c0002"
+},
+{
+"id": "bund-ks-30__c0002",
+"titel": "KS 30 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0001",
+"nachher": "bund-ks-30__c0003"
+},
+{
+"id": "bund-ks-30__c0003",
+"titel": "KS 30 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0002",
+"nachher": "bund-ks-30__c0004"
+},
+{
+"id": "bund-ks-30__c0004",
+"titel": "KS 30 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0003",
+"nachher": "bund-ks-30__c0005"
+},
+{
+"id": "bund-ks-30__c0005",
+"titel": "KS 30 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0004",
+"nachher": "bund-ks-30__c0006"
+},
+{
+"id": "bund-ks-30__c0006",
+"titel": "KS 30 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0005",
+"nachher": "bund-ks-30__c0007"
+},
+{
+"id": "bund-ks-30__c0007",
+"titel": "KS 30 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0006",
+"nachher": "bund-ks-30__c0008"
+},
+{
+"id": "bund-ks-30__c0008",
+"titel": "KS 30 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0007",
+"nachher": "bund-ks-30__c0009"
+},
+{
+"id": "bund-ks-30__c0009",
+"titel": "KS 30 – Abschnitt 9",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0008",
+"nachher": "bund-ks-30__c0010"
+},
+{
+"id": "bund-ks-30__c0010",
+"titel": "KS 30 – Abschnitt 10",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0009",
+"nachher": "bund-ks-30__c0011"
+},
+{
+"id": "bund-ks-30__c0011",
+"titel": "KS 30 – Abschnitt 11",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0010",
+"nachher": "bund-ks-30__c0012"
+},
+{
+"id": "bund-ks-30__c0012",
+"titel": "KS 30 – Abschnitt 12",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0011",
+"nachher": "bund-ks-30__c0013"
+},
+{
+"id": "bund-ks-30__c0013",
+"titel": "KS 30 – Abschnitt 13",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0012",
+"nachher": "bund-ks-30__c0014"
+},
+{
+"id": "bund-ks-30__c0014",
+"titel": "KS 30 – Abschnitt 14",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0013",
+"nachher": "bund-ks-30__c0015"
+},
+{
+"id": "bund-ks-30__c0015",
+"titel": "KS 30 – Abschnitt 15",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0014",
+"nachher": "bund-ks-30__c0016"
+},
+{
+"id": "bund-ks-30__c0016",
+"titel": "KS 30 – Abschnitt 16",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0015",
+"nachher": "bund-ks-30__c0017"
+},
+{
+"id": "bund-ks-30__c0017",
+"titel": "KS 30 – Abschnitt 17",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0016",
+"nachher": "bund-ks-30__c0018"
+},
+{
+"id": "bund-ks-30__c0018",
+"titel": "KS 30 – Abschnitt 18",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0017",
+"nachher": "bund-ks-30__c0019"
+},
+{
+"id": "bund-ks-30__c0019",
+"titel": "KS 30 – Abschnitt 19",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0018",
+"nachher": "bund-ks-30__c0020"
+},
+{
+"id": "bund-ks-30__c0020",
+"titel": "KS 30 – Abschnitt 20",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0019",
+"nachher": "bund-ks-30__c0021"
+},
+{
+"id": "bund-ks-30__c0021",
+"titel": "KS 30 – Abschnitt 21",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0020",
+"nachher": "bund-ks-30__c0022"
+},
+{
+"id": "bund-ks-30__c0022",
+"titel": "KS 30 – Abschnitt 22",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0021",
+"nachher": "bund-ks-30__c0023"
+},
+{
+"id": "bund-ks-30__c0023",
+"titel": "KS 30 – Abschnitt 23",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0022",
+"nachher": "bund-ks-30__c0024"
+},
+{
+"id": "bund-ks-30__c0024",
+"titel": "KS 30 – Abschnitt 24",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0023",
+"nachher": "bund-ks-30__c0025"
+},
+{
+"id": "bund-ks-30__c0025",
+"titel": "KS 30 – Abschnitt 25",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0024",
+"nachher": "bund-ks-30__c0026"
+},
+{
+"id": "bund-ks-30__c0026",
+"titel": "KS 30 – Abschnitt 26",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0025",
+"nachher": "bund-ks-30__c0027"
+},
+{
+"id": "bund-ks-30__c0027",
+"titel": "KS 30 – Abschnitt 27",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0026",
+"nachher": "bund-ks-30__c0028"
+},
+{
+"id": "bund-ks-30__c0028",
+"titel": "KS 30 – Abschnitt 28",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0027",
+"nachher": "bund-ks-30__c0029"
+},
+{
+"id": "bund-ks-30__c0029",
+"titel": "KS 30 – Abschnitt 29",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0028",
+"nachher": "bund-ks-30__c0030"
+},
+{
+"id": "bund-ks-30__c0030",
+"titel": "KS 30 – Abschnitt 30",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0029",
+"nachher": "bund-ks-30__c0031"
+},
+{
+"id": "bund-ks-30__c0031",
+"titel": "KS 30 – Abschnitt 31",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0030",
+"nachher": "bund-ks-30__c0032"
+},
+{
+"id": "bund-ks-30__c0032",
+"titel": "KS 30 – Abschnitt 32",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0031",
+"nachher": "bund-ks-30__c0033"
+},
+{
+"id": "bund-ks-30__c0033",
+"titel": "KS 30 – Abschnitt 33",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0032",
+"nachher": "bund-ks-30__c0034"
+},
+{
+"id": "bund-ks-30__c0034",
+"titel": "KS 30 – Abschnitt 34",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0033",
+"nachher": "bund-ks-30__c0035"
+},
+{
+"id": "bund-ks-30__c0035",
+"titel": "KS 30 – Abschnitt 35",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0034",
+"nachher": "bund-ks-30__c0036"
+},
+{
+"id": "bund-ks-30__c0036",
+"titel": "KS 30 – Abschnitt 36",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0035",
+"nachher": "bund-ks-30__c0037"
+},
+{
+"id": "bund-ks-30__c0037",
+"titel": "KS 30 – Abschnitt 37",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0036",
+"nachher": "bund-ks-30__c0038"
+},
+{
+"id": "bund-ks-30__c0038",
+"titel": "KS 30 – Abschnitt 38",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0037",
+"nachher": "bund-ks-30__c0039"
+},
+{
+"id": "bund-ks-30__c0039",
+"titel": "KS 30 – Abschnitt 39",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0038",
+"nachher": "bund-ks-30__c0040"
+},
+{
+"id": "bund-ks-30__c0040",
+"titel": "KS 30 – Abschnitt 40",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0039",
+"nachher": "bund-ks-30__c0041"
+},
+{
+"id": "bund-ks-30__c0041",
+"titel": "KS 30 – Abschnitt 41",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0040",
+"nachher": "bund-ks-30__c0042"
+},
+{
+"id": "bund-ks-30__c0042",
+"titel": "KS 30 – Abschnitt 42",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0041",
+"nachher": "bund-ks-30__c0043"
+},
+{
+"id": "bund-ks-30__c0043",
+"titel": "KS 30 – Abschnitt 43",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0042",
+"nachher": "bund-ks-30__c0044"
+},
+{
+"id": "bund-ks-30__c0044",
+"titel": "KS 30 – Abschnitt 44",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0043",
+"nachher": "bund-ks-30__c0045"
+},
+{
+"id": "bund-ks-30__c0045",
+"titel": "KS 30 – Abschnitt 45",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0044",
+"nachher": "bund-ks-30__c0046"
+},
+{
+"id": "bund-ks-30__c0046",
+"titel": "KS 30 – Abschnitt 46",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0045",
+"nachher": "bund-ks-30__c0047"
+},
+{
+"id": "bund-ks-30__c0047",
+"titel": "KS 30 – Abschnitt 47",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0046",
+"nachher": "bund-ks-30__c0048"
+},
+{
+"id": "bund-ks-30__c0048",
+"titel": "KS 30 – Abschnitt 48",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0047",
+"nachher": "bund-ks-30__c0049"
+},
+{
+"id": "bund-ks-30__c0049",
+"titel": "KS 30 – Abschnitt 49",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0048",
+"nachher": "bund-ks-30__c0050"
+},
+{
+"id": "bund-ks-30__c0050",
+"titel": "KS 30 – Abschnitt 50",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0049",
+"nachher": "bund-ks-30__c0051"
+},
+{
+"id": "bund-ks-30__c0051",
+"titel": "KS 30 – Abschnitt 51",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0050",
+"nachher": "bund-ks-30__c0052"
+},
+{
+"id": "bund-ks-30__c0052",
+"titel": "KS 30 – Abschnitt 52",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0051",
+"nachher": "bund-ks-30__c0053"
+},
+{
+"id": "bund-ks-30__c0053",
+"titel": "KS 30 – Abschnitt 53",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0052",
+"nachher": "bund-ks-30__c0054"
+},
+{
+"id": "bund-ks-30__c0054",
+"titel": "KS 30 – Abschnitt 54",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0053",
+"nachher": "bund-ks-30__c0055"
+},
+{
+"id": "bund-ks-30__c0055",
+"titel": "KS 30 – Abschnitt 55",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0054",
+"nachher": "bund-ks-30__c0056"
+},
+{
+"id": "bund-ks-30__c0056",
+"titel": "KS 30 – Abschnitt 56",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0055",
+"nachher": "bund-ks-30__c0057"
+},
+{
+"id": "bund-ks-30__c0057",
+"titel": "KS 30 – Abschnitt 57",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0056",
+"nachher": "bund-ks-30__c0058"
+},
+{
+"id": "bund-ks-30__c0058",
+"titel": "KS 30 – Abschnitt 58",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0057",
+"nachher": "bund-ks-30__c0059"
+},
+{
+"id": "bund-ks-30__c0059",
+"titel": "KS 30 – Abschnitt 59",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0058",
+"nachher": "bund-ks-30__c0060"
+},
+{
+"id": "bund-ks-30__c0060",
+"titel": "KS 30 – Abschnitt 60",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0059",
+"nachher": "bund-ks-30__c0061"
+},
+{
+"id": "bund-ks-30__c0061",
+"titel": "KS 30 – Abschnitt 61",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0060",
+"nachher": "bund-ks-30__c0062"
+},
+{
+"id": "bund-ks-30__c0062",
+"titel": "KS 30 – Abschnitt 62",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0061",
+"nachher": "bund-ks-30__c0063"
+},
+{
+"id": "bund-ks-30__c0063",
+"titel": "KS 30 – Abschnitt 63",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0062",
+"nachher": "bund-ks-30__c0064"
+},
+{
+"id": "bund-ks-30__c0064",
+"titel": "KS 30 – Abschnitt 64",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0063",
+"nachher": "bund-ks-30__c0065"
+},
+{
+"id": "bund-ks-30__c0065",
+"titel": "KS 30 – Abschnitt 65",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0064",
+"nachher": "bund-ks-30__c0066"
+},
+{
+"id": "bund-ks-30__c0066",
+"titel": "KS 30 – Abschnitt 66",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0065",
+"nachher": "bund-ks-30__c0067"
+},
+{
+"id": "bund-ks-30__c0067",
+"titel": "KS 30 – Abschnitt 67",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0066",
+"nachher": "bund-ks-30__c0068"
+},
+{
+"id": "bund-ks-30__c0068",
+"titel": "KS 30 – Abschnitt 68",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0067",
+"nachher": "bund-ks-30__c0069"
+},
+{
+"id": "bund-ks-30__c0069",
+"titel": "KS 30 – Abschnitt 69",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0068",
+"nachher": "bund-ks-30__c0070"
+},
+{
+"id": "bund-ks-30__c0070",
+"titel": "KS 30 – Abschnitt 70",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0069",
+"nachher": "bund-ks-30__c0071"
+},
+{
+"id": "bund-ks-30__c0071",
+"titel": "KS 30 – Abschnitt 71",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0070",
+"nachher": "bund-ks-30__c0072"
+},
+{
+"id": "bund-ks-30__c0072",
+"titel": "KS 30 – Abschnitt 72",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0071",
+"nachher": "bund-ks-30__c0073"
+},
+{
+"id": "bund-ks-30__c0073",
+"titel": "KS 30 – Abschnitt 73",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0072",
+"nachher": "bund-ks-30__c0074"
+},
+{
+"id": "bund-ks-30__c0074",
+"titel": "KS 30 – Abschnitt 74",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0073",
+"nachher": "bund-ks-30__c0075"
+},
+{
+"id": "bund-ks-30__c0075",
+"titel": "KS 30 – Abschnitt 75",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0074",
+"nachher": "bund-ks-30__c0076"
+},
+{
+"id": "bund-ks-30__c0076",
+"titel": "KS 30 – Abschnitt 76",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0075",
+"nachher": "bund-ks-30__c0077"
+},
+{
+"id": "bund-ks-30__c0077",
+"titel": "KS 30 – Abschnitt 77",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0076",
+"nachher": "bund-ks-30__c0078"
+},
+{
+"id": "bund-ks-30__c0078",
+"titel": "KS 30 – Abschnitt 78",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0077",
+"nachher": "bund-ks-30__c0079"
+},
+{
+"id": "bund-ks-30__c0079",
+"titel": "KS 30 – Abschnitt 79",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0078",
+"nachher": "bund-ks-30__c0080"
+},
+{
+"id": "bund-ks-30__c0080",
+"titel": "KS 30 – Abschnitt 80",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0079",
+"nachher": "bund-ks-30__c0081"
+},
+{
+"id": "bund-ks-30__c0081",
+"titel": "KS 30 – Abschnitt 81",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0080",
+"nachher": "bund-ks-30__c0082"
+},
+{
+"id": "bund-ks-30__c0082",
+"titel": "KS 30 – Abschnitt 82",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0081",
+"nachher": "bund-ks-30__c0083"
+},
+{
+"id": "bund-ks-30__c0083",
+"titel": "KS 30 – Abschnitt 83",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0082",
+"nachher": "bund-ks-30__c0084"
+},
+{
+"id": "bund-ks-30__c0084",
+"titel": "KS 30 – Abschnitt 84",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0083",
+"nachher": "bund-ks-30__c0085"
+},
+{
+"id": "bund-ks-30__c0085",
+"titel": "KS 30 – Abschnitt 85",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0084",
+"nachher": "bund-ks-30__c0086"
+},
+{
+"id": "bund-ks-30__c0086",
+"titel": "KS 30 – Abschnitt 86",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0085",
+"nachher": "bund-ks-30__c0087"
+},
+{
+"id": "bund-ks-30__c0087",
+"titel": "KS 30 – Abschnitt 87",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0086",
+"nachher": "bund-ks-30__c0088"
+},
+{
+"id": "bund-ks-30__c0088",
+"titel": "KS 30 – Abschnitt 88",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0087",
+"nachher": "bund-ks-30__c0089"
+},
+{
+"id": "bund-ks-30__c0089",
+"titel": "KS 30 – Abschnitt 89",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0088",
+"nachher": "bund-ks-30__c0090"
+},
+{
+"id": "bund-ks-30__c0090",
+"titel": "KS 30 – Abschnitt 90",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0089",
+"nachher": "bund-ks-30__c0091"
+},
+{
+"id": "bund-ks-30__c0091",
+"titel": "KS 30 – Abschnitt 91",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0090",
+"nachher": "bund-ks-30__c0092"
+},
+{
+"id": "bund-ks-30__c0092",
+"titel": "KS 30 – Abschnitt 92",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0091",
+"nachher": "bund-ks-30__c0093"
+},
+{
+"id": "bund-ks-30__c0093",
+"titel": "KS 30 – Abschnitt 93",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0092",
+"nachher": "bund-ks-30__c0094"
+},
+{
+"id": "bund-ks-30__c0094",
+"titel": "KS 30 – Abschnitt 94",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0093",
+"nachher": "bund-ks-30__c0095"
+},
+{
+"id": "bund-ks-30__c0095",
+"titel": "KS 30 – Abschnitt 95",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0094",
+"nachher": "bund-ks-30__c0096"
+},
+{
+"id": "bund-ks-30__c0096",
+"titel": "KS 30 – Abschnitt 96",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0095",
+"nachher": "bund-ks-30__c0097"
+},
+{
+"id": "bund-ks-30__c0097",
+"titel": "KS 30 – Abschnitt 97",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0096",
+"nachher": "bund-ks-30__c0098"
+},
+{
+"id": "bund-ks-30__c0098",
+"titel": "KS 30 – Abschnitt 98",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0097",
+"nachher": "bund-ks-30__c0099"
+},
+{
+"id": "bund-ks-30__c0099",
+"titel": "KS 30 – Abschnitt 99",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0098",
+"nachher": "bund-ks-30__c0100"
+},
+{
+"id": "bund-ks-30__c0100",
+"titel": "KS 30 – Abschnitt 100",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0099",
+"nachher": "bund-ks-30__c0101"
+},
+{
+"id": "bund-ks-30__c0101",
+"titel": "KS 30 – Abschnitt 101",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0100",
+"nachher": "bund-ks-30__c0102"
+},
+{
+"id": "bund-ks-30__c0102",
+"titel": "KS 30 – Abschnitt 102",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0101",
+"nachher": "bund-ks-30__c0103"
+},
+{
+"id": "bund-ks-30__c0103",
+"titel": "KS 30 – Abschnitt 103",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0102",
+"nachher": "bund-ks-30__c0104"
+},
+{
+"id": "bund-ks-30__c0104",
+"titel": "KS 30 – Abschnitt 104",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0103",
+"nachher": "bund-ks-30__c0105"
+},
+{
+"id": "bund-ks-30__c0105",
+"titel": "KS 30 – Abschnitt 105",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0104",
+"nachher": "bund-ks-30__c0106"
+},
+{
+"id": "bund-ks-30__c0106",
+"titel": "KS 30 – Abschnitt 106",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0105",
+"nachher": "bund-ks-30__c0107"
+},
+{
+"id": "bund-ks-30__c0107",
+"titel": "KS 30 – Abschnitt 107",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0106",
+"nachher": "bund-ks-30__c0108"
+},
+{
+"id": "bund-ks-30__c0108",
+"titel": "KS 30 – Abschnitt 108",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0107",
+"nachher": "bund-ks-30__c0109"
+},
+{
+"id": "bund-ks-30__c0109",
+"titel": "KS 30 – Abschnitt 109",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0108",
+"nachher": "bund-ks-30__c0110"
+},
+{
+"id": "bund-ks-30__c0110",
+"titel": "KS 30 – Abschnitt 110",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0109",
+"nachher": "bund-ks-30__c0111"
+},
+{
+"id": "bund-ks-30__c0111",
+"titel": "KS 30 – Abschnitt 111",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0110",
+"nachher": "bund-ks-30__c0112"
+},
+{
+"id": "bund-ks-30__c0112",
+"titel": "KS 30 – Abschnitt 112",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0111",
+"nachher": "bund-ks-30__c0113"
+},
+{
+"id": "bund-ks-30__c0113",
+"titel": "KS 30 – Abschnitt 113",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0112",
+"nachher": "bund-ks-30__c0114"
+},
+{
+"id": "bund-ks-30__c0114",
+"titel": "KS 30 – Abschnitt 114",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0113",
+"nachher": "bund-ks-30__c0115"
+},
+{
+"id": "bund-ks-30__c0115",
+"titel": "KS 30 – Abschnitt 115",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0114",
+"nachher": "bund-ks-30__c0116"
+},
+{
+"id": "bund-ks-30__c0116",
+"titel": "KS 30 – Abschnitt 116",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0115",
+"nachher": "bund-ks-30__c0117"
+},
+{
+"id": "bund-ks-30__c0117",
+"titel": "KS 30 – Abschnitt 117",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0116",
+"nachher": "bund-ks-30__c0118"
+},
+{
+"id": "bund-ks-30__c0118",
+"titel": "KS 30 – Abschnitt 118",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0117",
+"nachher": "bund-ks-30__c0119"
+},
+{
+"id": "bund-ks-30__c0119",
+"titel": "KS 30 – Abschnitt 119",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0118",
+"nachher": "bund-ks-30__c0120"
+},
+{
+"id": "bund-ks-30__c0120",
+"titel": "KS 30 – Abschnitt 120",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0119",
+"nachher": "bund-ks-30__c0121"
+},
+{
+"id": "bund-ks-30__c0121",
+"titel": "KS 30 – Abschnitt 121",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0120",
+"nachher": "bund-ks-30__c0122"
+},
+{
+"id": "bund-ks-30__c0122",
+"titel": "KS 30 – Abschnitt 122",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0121",
+"nachher": "bund-ks-30__c0123"
+},
+{
+"id": "bund-ks-30__c0123",
+"titel": "KS 30 – Abschnitt 123",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0122",
+"nachher": "bund-ks-30__c0124"
+},
+{
+"id": "bund-ks-30__c0124",
+"titel": "KS 30 – Abschnitt 124",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0123",
+"nachher": "bund-ks-30__c0125"
+},
+{
+"id": "bund-ks-30__c0125",
+"titel": "KS 30 – Abschnitt 125",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0124",
+"nachher": "bund-ks-30__c0126"
+},
+{
+"id": "bund-ks-30__c0126",
+"titel": "KS 30 – Abschnitt 126",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0125",
+"nachher": "bund-ks-30__c0127"
+},
+{
+"id": "bund-ks-30__c0127",
+"titel": "KS 30 – Abschnitt 127",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0126",
+"nachher": "bund-ks-30__c0128"
+},
+{
+"id": "bund-ks-30__c0128",
+"titel": "KS 30 – Abschnitt 128",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0127",
+"nachher": "bund-ks-30__c0129"
+},
+{
+"id": "bund-ks-30__c0129",
+"titel": "KS 30 – Abschnitt 129",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0128",
+"nachher": "bund-ks-30__c0130"
+},
+{
+"id": "bund-ks-30__c0130",
+"titel": "KS 30 – Abschnitt 130",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0129",
+"nachher": "bund-ks-30__c0131"
+},
+{
+"id": "bund-ks-30__c0131",
+"titel": "KS 30 – Abschnitt 131",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0130",
+"nachher": "bund-ks-30__c0132"
+},
+{
+"id": "bund-ks-30__c0132",
+"titel": "KS 30 – Abschnitt 132",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0131",
+"nachher": "bund-ks-30__c0133"
+},
+{
+"id": "bund-ks-30__c0133",
+"titel": "KS 30 – Abschnitt 133",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0132",
+"nachher": "bund-ks-30__c0134"
+},
+{
+"id": "bund-ks-30__c0134",
+"titel": "KS 30 – Abschnitt 134",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0133",
+"nachher": "bund-ks-30__c0135"
+},
+{
+"id": "bund-ks-30__c0135",
+"titel": "KS 30 – Abschnitt 135",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0134",
+"nachher": "bund-ks-30__c0136"
+},
+{
+"id": "bund-ks-30__c0136",
+"titel": "KS 30 – Abschnitt 136",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0135",
+"nachher": "bund-ks-30__c0137"
+},
+{
+"id": "bund-ks-30__c0137",
+"titel": "KS 30 – Abschnitt 137",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0136",
+"nachher": "bund-ks-30__c0138"
+},
+{
+"id": "bund-ks-30__c0138",
+"titel": "KS 30 – Abschnitt 138",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0137",
+"nachher": "bund-ks-30__c0139"
+},
+{
+"id": "bund-ks-30__c0139",
+"titel": "KS 30 – Abschnitt 139",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0138",
+"nachher": "bund-ks-30__c0140"
+},
+{
+"id": "bund-ks-30__c0140",
+"titel": "KS 30 – Abschnitt 140",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0139",
+"nachher": "bund-ks-30__c0141"
+},
+{
+"id": "bund-ks-30__c0141",
+"titel": "KS 30 – Abschnitt 141",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0140",
+"nachher": "bund-ks-30__c0142"
+},
+{
+"id": "bund-ks-30__c0142",
+"titel": "KS 30 – Abschnitt 142",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0141",
+"nachher": "bund-ks-30__c0143"
+},
+{
+"id": "bund-ks-30__c0143",
+"titel": "KS 30 – Abschnitt 143",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0142",
+"nachher": "bund-ks-30__c0144"
+},
+{
+"id": "bund-ks-30__c0144",
+"titel": "KS 30 – Abschnitt 144",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0143",
+"nachher": "bund-ks-30__c0145"
+},
+{
+"id": "bund-ks-30__c0145",
+"titel": "KS 30 – Abschnitt 145",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0144",
+"nachher": "bund-ks-30__c0146"
+},
+{
+"id": "bund-ks-30__c0146",
+"titel": "KS 30 – Abschnitt 146",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0145",
+"nachher": "bund-ks-30__c0147"
+},
+{
+"id": "bund-ks-30__c0147",
+"titel": "KS 30 – Abschnitt 147",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0146",
+"nachher": "bund-ks-30__c0148"
+},
+{
+"id": "bund-ks-30__c0148",
+"titel": "KS 30 – Abschnitt 148",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0147",
+"nachher": "bund-ks-30__c0149"
+},
+{
+"id": "bund-ks-30__c0149",
+"titel": "KS 30 – Abschnitt 149",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0148",
+"nachher": "bund-ks-30__c0150"
+},
+{
+"id": "bund-ks-30__c0150",
+"titel": "KS 30 – Abschnitt 150",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0149",
+"nachher": "bund-ks-30__c0151"
+},
+{
+"id": "bund-ks-30__c0151",
+"titel": "KS 30 – Abschnitt 151",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0150",
+"nachher": "bund-ks-30__c0152"
+},
+{
+"id": "bund-ks-30__c0152",
+"titel": "KS 30 – Abschnitt 152",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0151",
+"nachher": "bund-ks-30__c0153"
+},
+{
+"id": "bund-ks-30__c0153",
+"titel": "KS 30 – Abschnitt 153",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0152",
+"nachher": "bund-ks-30__c0154"
+},
+{
+"id": "bund-ks-30__c0154",
+"titel": "KS 30 – Abschnitt 154",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0153",
+"nachher": "bund-ks-30__c0155"
+},
+{
+"id": "bund-ks-30__c0155",
+"titel": "KS 30 – Abschnitt 155",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0154",
+"nachher": "bund-ks-30__c0156"
+},
+{
+"id": "bund-ks-30__c0156",
+"titel": "KS 30 – Abschnitt 156",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0155",
+"nachher": "bund-ks-30__c0157"
+},
+{
+"id": "bund-ks-30__c0157",
+"titel": "KS 30 – Abschnitt 157",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0156",
+"nachher": "bund-ks-30__c0158"
+},
+{
+"id": "bund-ks-30__c0158",
+"titel": "KS 30 – Abschnitt 158",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0157",
+"nachher": "bund-ks-30__c0159"
+},
+{
+"id": "bund-ks-30__c0159",
+"titel": "KS 30 – Abschnitt 159",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0158",
+"nachher": "bund-ks-30__c0160"
+},
+{
+"id": "bund-ks-30__c0160",
+"titel": "KS 30 – Abschnitt 160",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0159",
+"nachher": "bund-ks-30__c0161"
+},
+{
+"id": "bund-ks-30__c0161",
+"titel": "KS 30 – Abschnitt 161",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0160",
+"nachher": "bund-ks-30__c0162"
+},
+{
+"id": "bund-ks-30__c0162",
+"titel": "KS 30 – Abschnitt 162",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0161",
+"nachher": "bund-ks-30__c0163"
+},
+{
+"id": "bund-ks-30__c0163",
+"titel": "KS 30 – Abschnitt 163",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0162",
+"nachher": "bund-ks-30__c0164"
+},
+{
+"id": "bund-ks-30__c0164",
+"titel": "KS 30 – Abschnitt 164",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0163",
+"nachher": "bund-ks-30__c0165"
+},
+{
+"id": "bund-ks-30__c0165",
+"titel": "KS 30 – Abschnitt 165",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0164",
+"nachher": "bund-ks-30__c0166"
+},
+{
+"id": "bund-ks-30__c0166",
+"titel": "KS 30 – Abschnitt 166",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0165",
+"nachher": "bund-ks-30__c0167"
+},
+{
+"id": "bund-ks-30__c0167",
+"titel": "KS 30 – Abschnitt 167",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0166",
+"nachher": "bund-ks-30__c0168"
+},
+{
+"id": "bund-ks-30__c0168",
+"titel": "KS 30 – Abschnitt 168",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0167",
+"nachher": "bund-ks-30__c0169"
+},
+{
+"id": "bund-ks-30__c0169",
+"titel": "KS 30 – Abschnitt 169",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0168",
+"nachher": "bund-ks-30__c0170"
+},
+{
+"id": "bund-ks-30__c0170",
+"titel": "KS 30 – Abschnitt 170",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0169",
+"nachher": "bund-ks-30__c0171"
+},
+{
+"id": "bund-ks-30__c0171",
+"titel": "KS 30 – Abschnitt 171",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0170",
+"nachher": "bund-ks-30__c0172"
+},
+{
+"id": "bund-ks-30__c0172",
+"titel": "KS 30 – Abschnitt 172",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0171",
+"nachher": "bund-ks-30__c0173"
+},
+{
+"id": "bund-ks-30__c0173",
+"titel": "KS 30 – Abschnitt 173",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0172",
+"nachher": "bund-ks-30__c0174"
+},
+{
+"id": "bund-ks-30__c0174",
+"titel": "KS 30 – Abschnitt 174",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0173",
+"nachher": "bund-ks-30__c0175"
+},
+{
+"id": "bund-ks-30__c0175",
+"titel": "KS 30 – Abschnitt 175",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0174",
+"nachher": "bund-ks-30__c0176"
+},
+{
+"id": "bund-ks-30__c0176",
+"titel": "KS 30 – Abschnitt 176",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0175",
+"nachher": "bund-ks-30__c0177"
+},
+{
+"id": "bund-ks-30__c0177",
+"titel": "KS 30 – Abschnitt 177",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0176",
+"nachher": "bund-ks-30__c0178"
+},
+{
+"id": "bund-ks-30__c0178",
+"titel": "KS 30 – Abschnitt 178",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0177",
+"nachher": "bund-ks-30__c0179"
+},
+{
+"id": "bund-ks-30__c0179",
+"titel": "KS 30 – Abschnitt 179",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0178",
+"nachher": "bund-ks-30__c0180"
+},
+{
+"id": "bund-ks-30__c0180",
+"titel": "KS 30 – Abschnitt 180",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0179",
+"nachher": "bund-ks-30__c0181"
+},
+{
+"id": "bund-ks-30__c0181",
+"titel": "KS 30 – Abschnitt 181",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0180",
+"nachher": "bund-ks-30__c0182"
+},
+{
+"id": "bund-ks-30__c0182",
+"titel": "KS 30 – Abschnitt 182",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0181",
+"nachher": "bund-ks-30__c0183"
+},
+{
+"id": "bund-ks-30__c0183",
+"titel": "KS 30 – Abschnitt 183",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0182",
+"nachher": "bund-ks-30__c0184"
+},
+{
+"id": "bund-ks-30__c0184",
+"titel": "KS 30 – Abschnitt 184",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0183",
+"nachher": "bund-ks-30__c0185"
+},
+{
+"id": "bund-ks-30__c0185",
+"titel": "KS 30 – Abschnitt 185",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0184",
+"nachher": "bund-ks-30__c0186"
+},
+{
+"id": "bund-ks-30__c0186",
+"titel": "KS 30 – Abschnitt 186",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0185",
+"nachher": "bund-ks-30__c0187"
+},
+{
+"id": "bund-ks-30__c0187",
+"titel": "KS 30 – Abschnitt 187",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0186",
+"nachher": "bund-ks-30__c0188"
+},
+{
+"id": "bund-ks-30__c0188",
+"titel": "KS 30 – Abschnitt 188",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0187",
+"nachher": "bund-ks-30__c0189"
+},
+{
+"id": "bund-ks-30__c0189",
+"titel": "KS 30 – Abschnitt 189",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0188",
+"nachher": "bund-ks-30__c0190"
+},
+{
+"id": "bund-ks-30__c0190",
+"titel": "KS 30 – Abschnitt 190",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0189",
+"nachher": "bund-ks-30__c0191"
+},
+{
+"id": "bund-ks-30__c0191",
+"titel": "KS 30 – Abschnitt 191",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0190",
+"nachher": "bund-ks-30__c0192"
+},
+{
+"id": "bund-ks-30__c0192",
+"titel": "KS 30 – Abschnitt 192",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0191",
+"nachher": "bund-ks-30__c0193"
+},
+{
+"id": "bund-ks-30__c0193",
+"titel": "KS 30 – Abschnitt 193",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0192",
+"nachher": "bund-ks-30__c0194"
+},
+{
+"id": "bund-ks-30__c0194",
+"titel": "KS 30 – Abschnitt 194",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0193",
+"nachher": "bund-ks-30__c0195"
+},
+{
+"id": "bund-ks-30__c0195",
+"titel": "KS 30 – Abschnitt 195",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0194",
+"nachher": "bund-ks-30__c0196"
+},
+{
+"id": "bund-ks-30__c0196",
+"titel": "KS 30 – Abschnitt 196",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0195",
+"nachher": "bund-ks-30__c0197"
+},
+{
+"id": "bund-ks-30__c0197",
+"titel": "KS 30 – Abschnitt 197",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0196",
+"nachher": "bund-ks-30__c0198"
+},
+{
+"id": "bund-ks-30__c0198",
+"titel": "KS 30 – Abschnitt 198",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0197",
+"nachher": "bund-ks-30__c0199"
+},
+{
+"id": "bund-ks-30__c0199",
+"titel": "KS 30 – Abschnitt 199",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0198",
+"nachher": "bund-ks-30__c0200"
+},
+{
+"id": "bund-ks-30__c0200",
+"titel": "KS 30 – Abschnitt 200",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0199",
+"nachher": "bund-ks-30__c0201"
+},
+{
+"id": "bund-ks-30__c0201",
+"titel": "KS 30 – Abschnitt 201",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0200",
+"nachher": "bund-ks-30__c0202"
+},
+{
+"id": "bund-ks-30__c0202",
+"titel": "KS 30 – Abschnitt 202",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0201",
+"nachher": "bund-ks-30__c0203"
+},
+{
+"id": "bund-ks-30__c0203",
+"titel": "KS 30 – Abschnitt 203",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0202",
+"nachher": "bund-ks-30__c0204"
+},
+{
+"id": "bund-ks-30__c0204",
+"titel": "KS 30 – Abschnitt 204",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0203",
+"nachher": "bund-ks-30__c0205"
+},
+{
+"id": "bund-ks-30__c0205",
+"titel": "KS 30 – Abschnitt 205",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0204",
+"nachher": "bund-ks-30__c0206"
+},
+{
+"id": "bund-ks-30__c0206",
+"titel": "KS 30 – Abschnitt 206",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0205",
+"nachher": "bund-ks-30__c0207"
+},
+{
+"id": "bund-ks-30__c0207",
+"titel": "KS 30 – Abschnitt 207",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0206",
+"nachher": "bund-ks-30__c0208"
+},
+{
+"id": "bund-ks-30__c0208",
+"titel": "KS 30 – Abschnitt 208",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0207",
+"nachher": "bund-ks-30__c0209"
+},
+{
+"id": "bund-ks-30__c0209",
+"titel": "KS 30 – Abschnitt 209",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0208",
+"nachher": "bund-ks-30__c0210"
+},
+{
+"id": "bund-ks-30__c0210",
+"titel": "KS 30 – Abschnitt 210",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0209",
+"nachher": "bund-ks-30__c0211"
+},
+{
+"id": "bund-ks-30__c0211",
+"titel": "KS 30 – Abschnitt 211",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0210",
+"nachher": "bund-ks-30__c0212"
+},
+{
+"id": "bund-ks-30__c0212",
+"titel": "KS 30 – Abschnitt 212",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0211",
+"nachher": "bund-ks-30__c0213"
+},
+{
+"id": "bund-ks-30__c0213",
+"titel": "KS 30 – Abschnitt 213",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0212",
+"nachher": "bund-ks-30__c0214"
+},
+{
+"id": "bund-ks-30__c0214",
+"titel": "KS 30 – Abschnitt 214",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0213",
+"nachher": "bund-ks-30__c0215"
+},
+{
+"id": "bund-ks-30__c0215",
+"titel": "KS 30 – Abschnitt 215",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0214",
+"nachher": "bund-ks-30__c0216"
+},
+{
+"id": "bund-ks-30__c0216",
+"titel": "KS 30 – Abschnitt 216",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0215",
+"nachher": "bund-ks-30__c0217"
+},
+{
+"id": "bund-ks-30__c0217",
+"titel": "KS 30 – Abschnitt 217",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-30__c0216",
+"nachher": null
+}
+]

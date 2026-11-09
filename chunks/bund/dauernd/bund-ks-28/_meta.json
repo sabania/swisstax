@@ -1,0 +1,1714 @@
+[
+{
+"id": "bund-ks-28__c0001",
+"titel": "KS 28 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "bund-ks-28__c0002"
+},
+{
+"id": "bund-ks-28__c0002",
+"titel": "KS 28 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0001",
+"nachher": "bund-ks-28__c0003"
+},
+{
+"id": "bund-ks-28__c0003",
+"titel": "KS 28 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0002",
+"nachher": "bund-ks-28__c0004"
+},
+{
+"id": "bund-ks-28__c0004",
+"titel": "KS 28 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0003",
+"nachher": "bund-ks-28__c0005"
+},
+{
+"id": "bund-ks-28__c0005",
+"titel": "KS 28 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0004",
+"nachher": "bund-ks-28__c0006"
+},
+{
+"id": "bund-ks-28__c0006",
+"titel": "KS 28 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0005",
+"nachher": "bund-ks-28__c0007"
+},
+{
+"id": "bund-ks-28__c0007",
+"titel": "KS 28 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0006",
+"nachher": "bund-ks-28__c0008"
+},
+{
+"id": "bund-ks-28__c0008",
+"titel": "KS 28 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0007",
+"nachher": "bund-ks-28__c0009"
+},
+{
+"id": "bund-ks-28__c0009",
+"titel": "KS 28 – Abschnitt 9",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0008",
+"nachher": "bund-ks-28__c0010"
+},
+{
+"id": "bund-ks-28__c0010",
+"titel": "KS 28 – Abschnitt 10",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0009",
+"nachher": "bund-ks-28__c0011"
+},
+{
+"id": "bund-ks-28__c0011",
+"titel": "KS 28 – Abschnitt 11",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0010",
+"nachher": "bund-ks-28__c0012"
+},
+{
+"id": "bund-ks-28__c0012",
+"titel": "KS 28 – Abschnitt 12",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0011",
+"nachher": "bund-ks-28__c0013"
+},
+{
+"id": "bund-ks-28__c0013",
+"titel": "KS 28 – Abschnitt 13",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0012",
+"nachher": "bund-ks-28__c0014"
+},
+{
+"id": "bund-ks-28__c0014",
+"titel": "KS 28 – Abschnitt 14",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0013",
+"nachher": "bund-ks-28__c0015"
+},
+{
+"id": "bund-ks-28__c0015",
+"titel": "KS 28 – Abschnitt 15",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0014",
+"nachher": "bund-ks-28__c0016"
+},
+{
+"id": "bund-ks-28__c0016",
+"titel": "KS 28 – Abschnitt 16",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0015",
+"nachher": "bund-ks-28__c0017"
+},
+{
+"id": "bund-ks-28__c0017",
+"titel": "KS 28 – Abschnitt 17",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0016",
+"nachher": "bund-ks-28__c0018"
+},
+{
+"id": "bund-ks-28__c0018",
+"titel": "KS 28 – Abschnitt 18",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0017",
+"nachher": "bund-ks-28__c0019"
+},
+{
+"id": "bund-ks-28__c0019",
+"titel": "KS 28 – Abschnitt 19",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0018",
+"nachher": "bund-ks-28__c0020"
+},
+{
+"id": "bund-ks-28__c0020",
+"titel": "KS 28 – Abschnitt 20",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0019",
+"nachher": "bund-ks-28__c0021"
+},
+{
+"id": "bund-ks-28__c0021",
+"titel": "KS 28 – Abschnitt 21",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0020",
+"nachher": "bund-ks-28__c0022"
+},
+{
+"id": "bund-ks-28__c0022",
+"titel": "KS 28 – Abschnitt 22",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0021",
+"nachher": "bund-ks-28__c0023"
+},
+{
+"id": "bund-ks-28__c0023",
+"titel": "KS 28 – Abschnitt 23",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0022",
+"nachher": "bund-ks-28__c0024"
+},
+{
+"id": "bund-ks-28__c0024",
+"titel": "KS 28 – Abschnitt 24",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0023",
+"nachher": "bund-ks-28__c0025"
+},
+{
+"id": "bund-ks-28__c0025",
+"titel": "KS 28 – Abschnitt 25",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0024",
+"nachher": "bund-ks-28__c0026"
+},
+{
+"id": "bund-ks-28__c0026",
+"titel": "KS 28 – Abschnitt 26",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0025",
+"nachher": "bund-ks-28__c0027"
+},
+{
+"id": "bund-ks-28__c0027",
+"titel": "KS 28 – Abschnitt 27",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0026",
+"nachher": "bund-ks-28__c0028"
+},
+{
+"id": "bund-ks-28__c0028",
+"titel": "KS 28 – Abschnitt 28",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0027",
+"nachher": "bund-ks-28__c0029"
+},
+{
+"id": "bund-ks-28__c0029",
+"titel": "KS 28 – Abschnitt 29",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0028",
+"nachher": "bund-ks-28__c0030"
+},
+{
+"id": "bund-ks-28__c0030",
+"titel": "KS 28 – Abschnitt 30",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0029",
+"nachher": "bund-ks-28__c0031"
+},
+{
+"id": "bund-ks-28__c0031",
+"titel": "KS 28 – Abschnitt 31",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0030",
+"nachher": "bund-ks-28__c0032"
+},
+{
+"id": "bund-ks-28__c0032",
+"titel": "KS 28 – Abschnitt 32",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0031",
+"nachher": "bund-ks-28__c0033"
+},
+{
+"id": "bund-ks-28__c0033",
+"titel": "KS 28 – Abschnitt 33",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0032",
+"nachher": "bund-ks-28__c0034"
+},
+{
+"id": "bund-ks-28__c0034",
+"titel": "KS 28 – Abschnitt 34",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0033",
+"nachher": "bund-ks-28__c0035"
+},
+{
+"id": "bund-ks-28__c0035",
+"titel": "KS 28 – Abschnitt 35",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0034",
+"nachher": "bund-ks-28__c0036"
+},
+{
+"id": "bund-ks-28__c0036",
+"titel": "KS 28 – Abschnitt 36",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0035",
+"nachher": "bund-ks-28__c0037"
+},
+{
+"id": "bund-ks-28__c0037",
+"titel": "KS 28 – Abschnitt 37",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0036",
+"nachher": "bund-ks-28__c0038"
+},
+{
+"id": "bund-ks-28__c0038",
+"titel": "KS 28 – Abschnitt 38",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0037",
+"nachher": "bund-ks-28__c0039"
+},
+{
+"id": "bund-ks-28__c0039",
+"titel": "KS 28 – Abschnitt 39",
+"pfad": [],
+"seiten": [
+11,
+12,
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0038",
+"nachher": "bund-ks-28__c0040"
+},
+{
+"id": "bund-ks-28__c0040",
+"titel": "KS 28 – Abschnitt 40",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0039",
+"nachher": "bund-ks-28__c0041"
+},
+{
+"id": "bund-ks-28__c0041",
+"titel": "KS 28 – Abschnitt 41",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0040",
+"nachher": "bund-ks-28__c0042"
+},
+{
+"id": "bund-ks-28__c0042",
+"titel": "KS 28 – Abschnitt 42",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0041",
+"nachher": "bund-ks-28__c0043"
+},
+{
+"id": "bund-ks-28__c0043",
+"titel": "KS 28 – Abschnitt 43",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0042",
+"nachher": "bund-ks-28__c0044"
+},
+{
+"id": "bund-ks-28__c0044",
+"titel": "KS 28 – Abschnitt 44",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0043",
+"nachher": "bund-ks-28__c0045"
+},
+{
+"id": "bund-ks-28__c0045",
+"titel": "KS 28 – Abschnitt 45",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0044",
+"nachher": "bund-ks-28__c0046"
+},
+{
+"id": "bund-ks-28__c0046",
+"titel": "KS 28 – Abschnitt 46",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0045",
+"nachher": "bund-ks-28__c0047"
+},
+{
+"id": "bund-ks-28__c0047",
+"titel": "KS 28 – Abschnitt 47",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0046",
+"nachher": "bund-ks-28__c0048"
+},
+{
+"id": "bund-ks-28__c0048",
+"titel": "KS 28 – Abschnitt 48",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0047",
+"nachher": "bund-ks-28__c0049"
+},
+{
+"id": "bund-ks-28__c0049",
+"titel": "KS 28 – Abschnitt 49",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0048",
+"nachher": "bund-ks-28__c0050"
+},
+{
+"id": "bund-ks-28__c0050",
+"titel": "KS 28 – Abschnitt 50",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0049",
+"nachher": "bund-ks-28__c0051"
+},
+{
+"id": "bund-ks-28__c0051",
+"titel": "KS 28 – Abschnitt 51",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0050",
+"nachher": "bund-ks-28__c0052"
+},
+{
+"id": "bund-ks-28__c0052",
+"titel": "KS 28 – Abschnitt 52",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0051",
+"nachher": "bund-ks-28__c0053"
+},
+{
+"id": "bund-ks-28__c0053",
+"titel": "KS 28 – Abschnitt 53",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0052",
+"nachher": "bund-ks-28__c0054"
+},
+{
+"id": "bund-ks-28__c0054",
+"titel": "KS 28 – Abschnitt 54",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0053",
+"nachher": "bund-ks-28__c0055"
+},
+{
+"id": "bund-ks-28__c0055",
+"titel": "KS 28 – Abschnitt 55",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0054",
+"nachher": "bund-ks-28__c0056"
+},
+{
+"id": "bund-ks-28__c0056",
+"titel": "KS 28 – Abschnitt 56",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0055",
+"nachher": "bund-ks-28__c0057"
+},
+{
+"id": "bund-ks-28__c0057",
+"titel": "KS 28 – Abschnitt 57",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0056",
+"nachher": "bund-ks-28__c0058"
+},
+{
+"id": "bund-ks-28__c0058",
+"titel": "KS 28 – Abschnitt 58",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0057",
+"nachher": "bund-ks-28__c0059"
+},
+{
+"id": "bund-ks-28__c0059",
+"titel": "KS 28 – Abschnitt 59",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0058",
+"nachher": "bund-ks-28__c0060"
+},
+{
+"id": "bund-ks-28__c0060",
+"titel": "KS 28 – Abschnitt 60",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0059",
+"nachher": "bund-ks-28__c0061"
+},
+{
+"id": "bund-ks-28__c0061",
+"titel": "KS 28 – Abschnitt 61",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0060",
+"nachher": "bund-ks-28__c0062"
+},
+{
+"id": "bund-ks-28__c0062",
+"titel": "KS 28 – Abschnitt 62",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0061",
+"nachher": "bund-ks-28__c0063"
+},
+{
+"id": "bund-ks-28__c0063",
+"titel": "KS 28 – Abschnitt 63",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0062",
+"nachher": "bund-ks-28__c0064"
+},
+{
+"id": "bund-ks-28__c0064",
+"titel": "KS 28 – Abschnitt 64",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0063",
+"nachher": "bund-ks-28__c0065"
+},
+{
+"id": "bund-ks-28__c0065",
+"titel": "KS 28 – Abschnitt 65",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0064",
+"nachher": "bund-ks-28__c0066"
+},
+{
+"id": "bund-ks-28__c0066",
+"titel": "KS 28 – Abschnitt 66",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0065",
+"nachher": "bund-ks-28__c0067"
+},
+{
+"id": "bund-ks-28__c0067",
+"titel": "KS 28 – Abschnitt 67",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0066",
+"nachher": "bund-ks-28__c0068"
+},
+{
+"id": "bund-ks-28__c0068",
+"titel": "KS 28 – Abschnitt 68",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0067",
+"nachher": "bund-ks-28__c0069"
+},
+{
+"id": "bund-ks-28__c0069",
+"titel": "KS 28 – Abschnitt 69",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0068",
+"nachher": "bund-ks-28__c0070"
+},
+{
+"id": "bund-ks-28__c0070",
+"titel": "KS 28 – Abschnitt 70",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0069",
+"nachher": "bund-ks-28__c0071"
+},
+{
+"id": "bund-ks-28__c0071",
+"titel": "KS 28 – Abschnitt 71",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0070",
+"nachher": "bund-ks-28__c0072"
+},
+{
+"id": "bund-ks-28__c0072",
+"titel": "KS 28 – Abschnitt 72",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0071",
+"nachher": "bund-ks-28__c0073"
+},
+{
+"id": "bund-ks-28__c0073",
+"titel": "KS 28 – Abschnitt 73",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0072",
+"nachher": "bund-ks-28__c0074"
+},
+{
+"id": "bund-ks-28__c0074",
+"titel": "KS 28 – Abschnitt 74",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0073",
+"nachher": "bund-ks-28__c0075"
+},
+{
+"id": "bund-ks-28__c0075",
+"titel": "KS 28 – Abschnitt 75",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0074",
+"nachher": "bund-ks-28__c0076"
+},
+{
+"id": "bund-ks-28__c0076",
+"titel": "KS 28 – Abschnitt 76",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0075",
+"nachher": "bund-ks-28__c0077"
+},
+{
+"id": "bund-ks-28__c0077",
+"titel": "KS 28 – Abschnitt 77",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0076",
+"nachher": "bund-ks-28__c0078"
+},
+{
+"id": "bund-ks-28__c0078",
+"titel": "KS 28 – Abschnitt 78",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0077",
+"nachher": "bund-ks-28__c0079"
+},
+{
+"id": "bund-ks-28__c0079",
+"titel": "KS 28 – Abschnitt 79",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0078",
+"nachher": "bund-ks-28__c0080"
+},
+{
+"id": "bund-ks-28__c0080",
+"titel": "KS 28 – Abschnitt 80",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0079",
+"nachher": "bund-ks-28__c0081"
+},
+{
+"id": "bund-ks-28__c0081",
+"titel": "KS 28 – Abschnitt 81",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0080",
+"nachher": "bund-ks-28__c0082"
+},
+{
+"id": "bund-ks-28__c0082",
+"titel": "KS 28 – Abschnitt 82",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0081",
+"nachher": "bund-ks-28__c0083"
+},
+{
+"id": "bund-ks-28__c0083",
+"titel": "KS 28 – Abschnitt 83",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0082",
+"nachher": "bund-ks-28__c0084"
+},
+{
+"id": "bund-ks-28__c0084",
+"titel": "KS 28 – Abschnitt 84",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0083",
+"nachher": "bund-ks-28__c0085"
+},
+{
+"id": "bund-ks-28__c0085",
+"titel": "KS 28 – Abschnitt 85",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0084",
+"nachher": "bund-ks-28__c0086"
+},
+{
+"id": "bund-ks-28__c0086",
+"titel": "KS 28 – Abschnitt 86",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0085",
+"nachher": "bund-ks-28__c0087"
+},
+{
+"id": "bund-ks-28__c0087",
+"titel": "KS 28 – Abschnitt 87",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0086",
+"nachher": "bund-ks-28__c0088"
+},
+{
+"id": "bund-ks-28__c0088",
+"titel": "KS 28 – Abschnitt 88",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0087",
+"nachher": "bund-ks-28__c0089"
+},
+{
+"id": "bund-ks-28__c0089",
+"titel": "KS 28 – Abschnitt 89",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0088",
+"nachher": "bund-ks-28__c0090"
+},
+{
+"id": "bund-ks-28__c0090",
+"titel": "KS 28 – Abschnitt 90",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0089",
+"nachher": "bund-ks-28__c0091"
+},
+{
+"id": "bund-ks-28__c0091",
+"titel": "KS 28 – Abschnitt 91",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0090",
+"nachher": "bund-ks-28__c0092"
+},
+{
+"id": "bund-ks-28__c0092",
+"titel": "KS 28 – Abschnitt 92",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0091",
+"nachher": "bund-ks-28__c0093"
+},
+{
+"id": "bund-ks-28__c0093",
+"titel": "KS 28 – Abschnitt 93",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0092",
+"nachher": "bund-ks-28__c0094"
+},
+{
+"id": "bund-ks-28__c0094",
+"titel": "KS 28 – Abschnitt 94",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0093",
+"nachher": "bund-ks-28__c0095"
+},
+{
+"id": "bund-ks-28__c0095",
+"titel": "KS 28 – Abschnitt 95",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0094",
+"nachher": "bund-ks-28__c0096"
+},
+{
+"id": "bund-ks-28__c0096",
+"titel": "KS 28 – Abschnitt 96",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0095",
+"nachher": "bund-ks-28__c0097"
+},
+{
+"id": "bund-ks-28__c0097",
+"titel": "KS 28 – Abschnitt 97",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0096",
+"nachher": "bund-ks-28__c0098"
+},
+{
+"id": "bund-ks-28__c0098",
+"titel": "KS 28 – Abschnitt 98",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0097",
+"nachher": "bund-ks-28__c0099"
+},
+{
+"id": "bund-ks-28__c0099",
+"titel": "KS 28 – Abschnitt 99",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0098",
+"nachher": "bund-ks-28__c0100"
+},
+{
+"id": "bund-ks-28__c0100",
+"titel": "KS 28 – Abschnitt 100",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0099",
+"nachher": "bund-ks-28__c0101"
+},
+{
+"id": "bund-ks-28__c0101",
+"titel": "KS 28 – Abschnitt 101",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0100",
+"nachher": "bund-ks-28__c0102"
+},
+{
+"id": "bund-ks-28__c0102",
+"titel": "KS 28 – Abschnitt 102",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0101",
+"nachher": "bund-ks-28__c0103"
+},
+{
+"id": "bund-ks-28__c0103",
+"titel": "KS 28 – Abschnitt 103",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0102",
+"nachher": "bund-ks-28__c0104"
+},
+{
+"id": "bund-ks-28__c0104",
+"titel": "KS 28 – Abschnitt 104",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0103",
+"nachher": "bund-ks-28__c0105"
+},
+{
+"id": "bund-ks-28__c0105",
+"titel": "KS 28 – Abschnitt 105",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0104",
+"nachher": "bund-ks-28__c0106"
+},
+{
+"id": "bund-ks-28__c0106",
+"titel": "KS 28 – Abschnitt 106",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0105",
+"nachher": "bund-ks-28__c0107"
+},
+{
+"id": "bund-ks-28__c0107",
+"titel": "KS 28 – Abschnitt 107",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-28__c0106",
+"nachher": null
+}
+]

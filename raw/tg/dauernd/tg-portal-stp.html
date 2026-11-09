@@ -1,0 +1,1037 @@
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+<!DOCTYPE html>
+<html
+	lang="de"
+	data-page-template="article"
+	
+ data-page-id="ci_bc97320222b1bba2c35ca63dc54519332aec627fb084b45f7599a8960d129996" data-confluence-content-id="478969862"
+		data-color-scheme="light"
+>
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="color-scheme" content="light">
+
+						<link id="pageTreeSource" rel="preload" href="/steuerpraxis/2026-09/__pagetree.json" as="fetch" type="application/json" crossorigin="anonymous">
+
+		<meta name="site-path" content="/">
+
+					<link rel="x-site-path" href="/">
+	<link rel="x-root-path" href="/">
+
+	<meta name="site-default-language" content="de">
+		<meta name="site-languages" content="de">
+		<meta name="confluence-content-type" content="page">
+		<meta name="confluence-base-url" content="https://steuerpraxis-tg.atlassian.net/wiki">
+		<meta name="confluence-space-key" content="STEUERPRAX">
+
+
+
+
+	<link rel="icon" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/scroll-sites-icon-dark.png" type="image/svg+xml">
+
+
+
+
+
+
+
+
+
+
+
+		<title>Information zur Steuerpraxis | steuerpraxis-tg</title>
+		<meta property="og:title" content="Information zur Steuerpraxis | steuerpraxis-tg">
+		<meta property="twitter:title" content="Information zur Steuerpraxis | steuerpraxis-tg">
+
+		<link rel="canonical" href="https://steuerpraxis.tg.ch/steuerpraxis/2026-09/information-zur-steuerpraxis">
+		<meta property="og:url" content="https://steuerpraxis.tg.ch/steuerpraxis/2026-09/information-zur-steuerpraxis">
+
+		<meta name="description" content="In der Thurgauer Steuerpraxis sind sämtliche Weisungen der Steuerverwaltung zum Gesetz sowie der Verordnung über die Staats- und Gemeindesteuern veröffentlicht…">
+		<meta property="og:description" content="In der Thurgauer Steuerpraxis sind sämtliche Weisungen der Steuerverwaltung zum Gesetz sowie der Verordnung über die Staats- und Gemeindesteuern veröffentlicht…">
+		<meta property="twitter:description" content="In der Thurgauer Steuerpraxis sind sämtliche Weisungen der Steuerverwaltung zum Gesetz sowie der Verordnung über die Staats- und Gemeindesteuern veröffentlicht…">
+
+		<meta property="og:image" content="https://steuerpraxis.tg.ch/__site/c5e67d1e-452a-4003-8bf6-c439604028be/logo-kanton-thurgau.png">
+		<meta property="twitter:image" content="https://steuerpraxis.tg.ch/__site/c5e67d1e-452a-4003-8bf6-c439604028be/logo-kanton-thurgau.png">
+
+	<meta property="og:type" content="website">
+	<meta property="twitter:card" content="summary_large_image">
+
+		<meta name="page-last-modified" content="2026-08-18T12:57:09.387Z">
+
+		<script>
+		(function () {
+			const defaultLanguageMeta = /** @type {string|undefined} */(document.querySelector('meta[name="site-default-language"]')?.content);
+			const availableLanguagesMeta = /** @type {string|undefined} */(document.querySelector('meta[name="site-languages"]')?.content);
+			const fallbackLanguage = defaultLanguageMeta ?? 'en';
+			const supportedLanguagesFromMeta = availableLanguagesMeta?.split(',') ?? [];
+			const supportedLanguages = [...new Set([fallbackLanguage, ...supportedLanguagesFromMeta])].filter(Boolean);
+			const detectedLanguage = new URLSearchParams(self.location.search).get('l') || document.documentElement.lang;
+			const resolvedLanguage = supportedLanguages.includes(detectedLanguage) ? detectedLanguage : fallbackLanguage;
+			document.documentElement.lang = resolvedLanguage;
+			const sheet = new CSSStyleSheet();
+			document.adoptedStyleSheets.push(sheet);
+			// Hide any element with a `data-lang` attribute that does NOT match the detected language
+			sheet.replaceSync('[data-lang]:not([data-lang="' + resolvedLanguage + '"]) { display: none; }');
+		})();
+	</script>
+
+		<script>
+		(function() {
+			/** @typedef {'light'|'dark'} ColorScheme */
+			/** @type {ColorScheme[]} */
+			const availableColorSchemes = document.documentElement.querySelector('meta[name="color-scheme"]').content.split(' ').filter(Boolean);
+			/** @type {ColorScheme|'system'} */
+			const userPreference = localStorage?.getItem('color-scheme-preference') ?? 'system';
+			// Clean-up user preference in case there's nothing to choose from
+			// Fall back to the HTML document's default color theme
+			if (availableColorSchemes.length <= 1 || ![...availableColorSchemes, 'system'].includes(userPreference)) {
+				localStorage?.removeItem('color-scheme-preference');
+				return;
+			}
+			// Override default HTML document with client-side user preference
+			if (userPreference === 'system') {
+				updateThemeAttribute(self.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark')
+			} else {
+				updateThemeAttribute(userPreference)
+			}
+			/** @param {ColorScheme} colorScheme */
+			function updateThemeAttribute(colorScheme) {
+				document.documentElement.setAttribute('data-color-scheme', colorScheme);
+			}
+		})();
+	</script>
+
+		<script>
+		
+		function sortContentSources(a, b) {
+			let result = a.precedence - b.precedence;
+
+			if (result === 0) {
+				result = a.value.localeCompare(b.value);
+			}
+
+			return result;
+		}
+
+		
+		function applyContentSourceOrderToElements({ parent, children }) {
+			const contentSourceElements = [...children];
+
+			contentSourceElements
+				.sort((a, b) => (
+					sortContentSources(
+						{ value: a.dataset.orderValue, precedence: a.dataset.orderPrecedence },
+						{ value: b.dataset.orderValue, precedence: b.dataset.orderPrecedence }
+					)
+				))
+				.forEach((element) => {
+					delete element.dataset.orderValue;
+					delete element.dataset.orderPrecedence;
+				});
+
+			parent.replaceChildren(...contentSourceElements);
+		}
+	</script>
+
+<script>
+	(() => {
+		if (isInAppHelpEnabled()) {
+			document.documentElement.dataset.inAppHelp = 'true';
+
+			if (isTitleHidden()) {
+				document.documentElement.dataset.hideTitle = 'true';
+			}
+		}
+
+		function isInAppHelpEnabled() {
+			return new URLSearchParams(location.search).get('inAppHelp') === 'true';
+		}
+
+		function isTitleHidden() {
+			return new URLSearchParams(location.search).get('title') === 'false';
+		}
+	})();
+</script>
+
+<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/in-app-help.css"/>
+<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/in-app-help.js"></script>
+
+	<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/styles.css">
+	<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/fonts.css">
+	<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/search-styles-bundle.css">
+
+
+	<style>
+		@layer overrides {
+			:root {
+				--theme-headline-font: "Roboto";
+				--theme-text-font: "Roboto";
+				--theme-headline-scale: calc(100 / 100);
+				--theme-text-scale: calc(100 / 100);
+			}
+		}
+	</style>
+
+	<style>
+		@layer overrides {
+			:root, :host {
+					--theme-header-logo-size: 40px;
+					--theme-footer-logo-size: 40px;
+			}
+
+			:root[data-color-scheme='light'],
+			:host([data-color-scheme='light']) {
+					--theme-header-text-color: #000000;
+					--theme-header-background-color: #ffffff;
+					--theme-footer-text-color: #FFF;
+					--theme-footer-background-color: #385071;
+			}
+
+			:root[data-color-scheme='dark'],
+			:host([data-color-scheme='dark']) {
+					--theme-header-text-color: #FFFFFF;
+					--theme-header-background-color: #0a0b0c;
+					--theme-footer-text-color: #FFFFFF;
+					--theme-footer-background-color: #0a0b0c;
+			}
+		}
+	</style>
+
+	 
+
+
+
+
+
+<script data-site-data="content-sources" type="application/json">
+{
+	"collection": {
+		"members": [
+
+
+	{
+	"name": "Thurgauer Steuerpraxis",
+	"id": "6c6763f1-b59d-4776-a633-7a5156771d65",
+	"key": "STEUERPRAX",
+	"path": "/steuerpraxis/2026-09",
+		"prefix": "/steuerpraxis/2026-09",
+		"current": true,
+	"versions": {
+		"available": [
+				{
+					"name": "2026-09",
+					"current": true
+
+				},
+				{
+					"name": "2026-01",
+					"current": false
+
+				},
+				{
+					"name": "2025-10",
+					"current": false
+
+				},
+				{
+					"name": "2025-01",
+					"current": false
+
+				},
+				{
+					"name": "2024-01",
+					"current": false
+
+				},
+				{
+					"name": "2023-10",
+					"current": false
+
+				},
+				{
+					"name": "2023-07",
+					"current": false
+
+				}
+		]
+	},
+	"variants": {
+		"available": [
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+
+		]
+	}
+}
+</script>
+
+
+<script data-theme-placeholder="site" type="application/json">
+	{
+		"id": "b2184f16-478b-41c0-be95-6fe916c3c1df",
+		"path": "/",
+		"url": "/",
+		"domain": "steuerpraxis.tg.ch",
+		"aiSearchEnabled": false,
+		"visibleToSearchEngines": true,
+		"isProtectionEnabled": false,
+		"isPublished": true
+	}
+</script>
+ 
+<script data-config="cookieconsent" type="application/json">
+{
+	"enabled": true,
+	"mode": "opt-in",
+	"heading": "Cookie Notice",
+	"description": "Please read our privacy statement.",
+	"links": [
+	]
+}
+</script>
+
+	<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/main.js"></script>
+	<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/page-tree.js" fetchpriority="high"></script>
+	<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/search-bundle.js"></script>
+
+							<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/article.js"></script>
+
+		<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/ai-actions.css">
+		<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/ai-actions.js"></script>
+
+
+
+
+
+
+
+
+<script data-cfasync="false">
+	(() => {
+		if (new URLSearchParams(location.search).has('disable-custom-overrides')) {
+			return;
+		}
+
+		document.querySelectorAll('[data-custom-overrides]').forEach(template => {
+			const type = template.getAttribute('data-type');
+
+			if (type === 'code-asset') {
+				const assetElement = template.content.cloneNode(true).firstElementChild;
+				const appendAsset = () => document.head.appendChild(assetElement);
+
+				if (assetElement.tagName === 'SCRIPT') {
+															if (document.readyState === 'complete') {
+						appendAsset();
+					} else {
+												document.addEventListener('DOMContentLoaded', appendAsset, { once: true });
+					}
+				} else {
+					appendAsset();
+				}
+			}
+		});
+	})();
+</script>
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+			</head>
+<body>
+	<a href="#content" class="skip-link">
+		<i18n-message i18nkey="navigation.skip.to.main.label">Skip to main content</i18n-message>
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+<header data-component="header" class="header">
+
+	<div class="header-site-branding">
+		<i18n-message id="c8890f7e784d2791-2" class="sr-only" i18nkey="header.home.label"></i18n-message>
+
+		<a href="/" aria-labelledby="c8890f7e784d2791-2">
+
+
+
+
+		<img class="header-logo header-logo--dark" src="/__site/c5e67d1e-452a-4003-8bf6-c439604028be/logo-kanton-thurgau.png" alt="">
+
+		<img class="header-logo header-logo--light" src="/__site/c5e67d1e-452a-4003-8bf6-c439604028be/logo-kanton-thurgau.png" alt="">
+
+		</a>
+
+	</div>
+	<div class="header-content">
+
+		<div class="header-pickers">
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+
+	<auto-width-select class="picker ">
+
+
+		<label class="sr-only" for="c8890f7e784d2791-10">
+			<i18n-message i18nkey="version.picker.label"></i18n-message>
+		</label>
+
+		<select id="c8890f7e784d2791-10" name="version" onchange="self.location.assign(this.value)" >
+				<option id="c8890f7e784d2791-3"  value="/steuerpraxis/2026-09/information-zur-steuerpraxis"  selected="">
+					2026-09
+				</option>
+				<option id="c8890f7e784d2791-4"  value="/steuerpraxis/2026-01/information-zur-steuerpraxis"  >
+					2026-01
+				</option>
+				<option id="c8890f7e784d2791-5"  value="/steuerpraxis/2025-10/information-zur-steuerpraxis"  >
+					2025-10
+				</option>
+				<option id="c8890f7e784d2791-6"  value="/steuerpraxis/2025-01/information-zur-steuerpraxis"  >
+					2025-01
+				</option>
+				<option id="c8890f7e784d2791-7"  value="/steuerpraxis/2024-01/information-zur-steuerpraxis"  >
+					2024-01
+				</option>
+				<option id="c8890f7e784d2791-8"  value="/steuerpraxis/2023-10"  >
+					2023-10
+				</option>
+				<option id="c8890f7e784d2791-9"  value="/steuerpraxis/2023-07"  >
+					2023-07
+				</option>
+		</select>
+
+		<script>
+			/**
+			 * Manages the visibility of picker option icons.
+			 * 1. Each option can have an optional icon assigned
+			 * 2. The currently selected option's icon becomes the picker's main icon
+			 */
+			(() => {
+				const select = document.getElementById('c8890f7e784d2791-10');
+				if(select.parentElement.querySelectorAll('.picker-option-icon').length <= 0) {
+					return;
+				}
+				const sheet = new CSSStyleSheet();
+				document.adoptedStyleSheets.push(sheet);
+				select.addEventListener('change', updateIconVisibility);
+				updateIconVisibility();
+				function updateIconVisibility() {
+					sheet.replaceSync('.picker:has(select[id="' + select.id + '"]) .picker-option-icon:not(.picker-icon--' + select.selectedOptions[0].id + ')' + '{ display: none; }')
+				}
+			})();
+		</script>
+
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-caret_down picker-icon picker-marker">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/icons.svg#caret_down"></use>
+	</svg>
+	</auto-width-select>
+
+		</div>
+
+			<div class="header-search">
+				<search-bar quicksearch></search-bar>
+			</div>
+
+
+				<button type="button" aria-controls="drawer-c8890f7e784d2791-1" aria-haspopup="dialog" aria-expanded="false" class="header-nav-toggle" onclick="self['drawer-c8890f7e784d2791-1'].showModal()">
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-menu ">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/icons.svg#menu"></use>
+	</svg>
+			<i18n-message class="sr-only" i18nkey="navigation.main.label">Main navigation</i18n-message>
+		</button>
+	</div>
+
+	
+
+<dialog id="drawer-c8890f7e784d2791-1" class="drawer">
+	<header data-component="header" class="header">
+
+	<div class="header-site-branding">
+		<i18n-message id="c8890f7e784d2791-11" class="sr-only" i18nkey="header.home.label"></i18n-message>
+
+		<a href="/" aria-labelledby="c8890f7e784d2791-11">
+
+
+
+
+		<img class="header-logo header-logo--dark" src="/__site/c5e67d1e-452a-4003-8bf6-c439604028be/logo-kanton-thurgau.png" alt="">
+
+		<img class="header-logo header-logo--light" src="/__site/c5e67d1e-452a-4003-8bf6-c439604028be/logo-kanton-thurgau.png" alt="">
+
+		</a>
+
+	</div>
+
+		<div class="header-content">
+			<button type="button" aria-controls="drawer-c8890f7e784d2791-1" aria-haspopup="dialog" aria-expanded="true" autofocus class="drawer-toggle" onclick="self['drawer-c8890f7e784d2791-1'].close()">
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-close ">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/icons.svg#close"></use>
+	</svg>
+				<i18n-message class="sr-only" i18nkey="navigation.close.label">Close navigation</i18n-message>
+			</button>
+		</div>
+	</header>
+
+	<div class="drawer-section drawer-search">
+		<search-bar quicksearch></search-bar>
+	</div>
+
+		<div class="drawer-section drawer-pickers">
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+
+	<auto-width-select class="picker ">
+
+
+		<label class="sr-only" for="c8890f7e784d2791-19">
+			<i18n-message i18nkey="version.picker.label"></i18n-message>
+		</label>
+
+		<select id="c8890f7e784d2791-19" name="version" onchange="self.location.assign(this.value)" >
+				<option id="c8890f7e784d2791-12"  value="/steuerpraxis/2026-09/information-zur-steuerpraxis"  selected="">
+					2026-09
+				</option>
+				<option id="c8890f7e784d2791-13"  value="/steuerpraxis/2026-01/information-zur-steuerpraxis"  >
+					2026-01
+				</option>
+				<option id="c8890f7e784d2791-14"  value="/steuerpraxis/2025-10/information-zur-steuerpraxis"  >
+					2025-10
+				</option>
+				<option id="c8890f7e784d2791-15"  value="/steuerpraxis/2025-01/information-zur-steuerpraxis"  >
+					2025-01
+				</option>
+				<option id="c8890f7e784d2791-16"  value="/steuerpraxis/2024-01/information-zur-steuerpraxis"  >
+					2024-01
+				</option>
+				<option id="c8890f7e784d2791-17"  value="/steuerpraxis/2023-10"  >
+					2023-10
+				</option>
+				<option id="c8890f7e784d2791-18"  value="/steuerpraxis/2023-07"  >
+					2023-07
+				</option>
+		</select>
+
+		<script>
+			/**
+			 * Manages the visibility of picker option icons.
+			 * 1. Each option can have an optional icon assigned
+			 * 2. The currently selected option's icon becomes the picker's main icon
+			 */
+			(() => {
+				const select = document.getElementById('c8890f7e784d2791-19');
+				if(select.parentElement.querySelectorAll('.picker-option-icon').length <= 0) {
+					return;
+				}
+				const sheet = new CSSStyleSheet();
+				document.adoptedStyleSheets.push(sheet);
+				select.addEventListener('change', updateIconVisibility);
+				updateIconVisibility();
+				function updateIconVisibility() {
+					sheet.replaceSync('.picker:has(select[id="' + select.id + '"]) .picker-option-icon:not(.picker-icon--' + select.selectedOptions[0].id + ')' + '{ display: none; }')
+				}
+			})();
+		</script>
+
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-caret_down picker-icon picker-marker">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/icons.svg#caret_down"></use>
+	</svg>
+	</auto-width-select>
+
+		</div>
+
+	<nav id="drawer-nav" class="drawer-section drawer-nav tree" aria-labelledby="drawer-nav-label">
+		<i18n-message id="drawer-nav-label" class="sr-only" i18nkey="navigation.main.label">Main</i18n-message>
+
+						<copy-page-tree target="articleTree"></copy-page-tree>
+	</nav>
+
+	</dialog>
+
+</header>
+		<section class="article-page body">
+		<theme-navigator class="navigator">
+			<button id="navigator-toggle" class="navigator-toggle" aria-controls="navigator-nav" aria-labelledby="navigator-nav-label" aria-expanded="true">
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-menu navigator-icon-closed">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/icons.svg#menu"></use>
+	</svg>
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-chevron_left navigator-icon-opened">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/icons.svg#chevron_left"></use>
+	</svg>
+			</button>
+						<nav id="navigator-nav" class="navigator-body tree" aria-labelledby="navigator-nav-label">
+				<i18n-message id="navigator-nav-label" class="sr-only" i18nkey="navigation.main.label">Main</i18n-message>
+				<theme-page-tree id="articleTree">
+<ul  >
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="true"
+aria-controls="c8890f7e784d2791-21"						aria-labelledby="c8890f7e784d2791-20"
+					></button>
+				<a id="c8890f7e784d2791-20" href="/steuerpraxis/2026-09/information-zur-steuerpraxis" aria-current="page">Information zur Steuerpraxis</a>
+			</div>
+
+<ul  id="c8890f7e784d2791-21" >
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-22"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-22" href="/steuerpraxis/2026-09/anderungen-steuerpraxis-internet" >Änderungen Steuerpraxis Internet</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="c8890f7e784d2791-24" href="/steuerpraxis/2026-09/nachtrage-losblattsammlung-steuerpraxis-2013-bis-2024" >Nachträge Losblattsammlung Steuerpraxis 2013 bis 2024</a>
+			</div>
+
+		</li>
+</ul>
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-25"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-25" href="/steuerpraxis/2026-09/allgemeine-bestimmungen" >Allgemeine Bestimmungen</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-27"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-27" href="/steuerpraxis/2026-09/steuer-der-naturlichen-personen" >Steuer der natürlichen Personen</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-29"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-29" href="/steuerpraxis/2026-09/steuern-der-juristischen-personen" >Steuern der juristischen Personen</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-31"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-31" href="/steuerpraxis/2026-09/quellensteuer-fur-naturliche-und-juristische-personen" >Quellensteuer für natürliche und juristische Personen</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-33"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-33" href="/steuerpraxis/2026-09/steuern-vom-grundeigentum" >Steuern vom Grundeigentum</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="c8890f7e784d2791-35" href="/steuerpraxis/2026-09/steuerbehorden" >Steuerbehörden</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-36"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-36" href="/steuerpraxis/2026-09/veranlagungsverfahren" >Veranlagungsverfahren</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-38"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-38" href="/steuerpraxis/2026-09/rechtsmittel-berichtigung-revision" >Rechtsmittel, Berichtigung, Revision</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-40"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-40" href="/steuerpraxis/2026-09/inventar" >Inventar</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-42"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-42" href="/steuerpraxis/2026-09/bezug-und-sicherung-der-steuer" >Bezug und Sicherung der Steuer</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-44"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-44" href="/steuerpraxis/2026-09/nachsteuerverfahren" >Nachsteuerverfahren</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-46"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-46" href="/steuerpraxis/2026-09/gemeindesteuern" >Gemeindesteuern</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="c8890f7e784d2791-48" href="/steuerpraxis/2026-09/ubergangs-und-schlussbestimmungen" >Übergangs- und Schlussbestimmungen</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="c8890f7e784d2791-49"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="c8890f7e784d2791-49" href="/steuerpraxis/2026-09/entfallene-weisungen" >Entfallene Weisungen</a>
+			</div>
+
+		</li>
+</ul>
+				</theme-page-tree>
+			</nav>
+		</theme-navigator>
+
+		<main class="main-content">
+			<div class="topbar">
+
+
+
+
+	<theme-breadcrumbs class="breadcrumbs" >
+		<i18n-message id="c8890f7e784d2791-51" class="sr-only" i18nkey="breadcrumbs.label">Breadcrumbs</i18n-message>
+		<nav aria-labelledby="c8890f7e784d2791-51">
+				<ol>
+											</ol>
+		</nav>
+	</theme-breadcrumbs>
+					<script src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/breadcrumbs.js"></script>
+					<ai-actions class="ai-actions"></ai-actions>
+			</div>
+		<nav class="toc sticky" data-component="toc" aria-labelledby="c8890f7e784d2791-52">
+			<h2 class="toc-heading" id="c8890f7e784d2791-52">
+				<i18n-message i18nkey="page.article.toc.label">On this Page</i18n-message>
+			</h2>
+			<theme-toc for="content"></theme-toc>
+		</nav>
+			<article id="content" tabindex="-1" class="fb-layout-container">
+				<header>
+					<h1>Information zur Steuerpraxis</h1>
+				</header>
+				<section class="article-body fb-layout-body" data-searchable-content>
+		
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+		
+		
+	
+	
+	
+
+	
+	
+	
+	
+	<p>In der Thurgauer Steuerpraxis sind sämtliche Weisungen der Steuerverwaltung zum Gesetz sowie der Verordnung über die Staats- und Gemeindesteuern veröffentlicht. Mit der Veröffentlichung ist die die Verwaltungspraxis transparent und sind die Entscheide für Sie nachvollziehbar.</p>
+<p>Steuergesetz und Steuerverordnung finden Sie - wie alle kantonalen Erlasse - im <a href="https://www.rechtsbuch.tg.ch/app/de/systematic/texts_of_law" data-scope="external" rel="external noreferrer">Thurgauer Rechtsbuch</a>. Die <a href="https://www.fedlex.admin.ch/de/cc/internal-law/64" data-scope="external" rel="external noreferrer">Bundesgesetze zum Bereich Steuern</a> finden Sie auf der Homepage der eidgenössischen Steuerverwaltung.</p>
+<p>Zu den entsprechenden Steuerpraxisweisungen gelangen Sie über das Inhaltsverzeichnis oder durch die Eingabe des gewünschten Begriffs in das untenstehende Suchfeld.</p>
+<p>Informationen zu Änderungen zu Weisungen finden Sie unter folgendem Link:</p>
+<p><a href="/steuerpraxis/2026-09/anderungen-steuerpraxis-internet" data-scope="internal">Änderungen Steuerpraxis Internet</a></p>
+
+
+																				<script>
+						// Mark block images on the first level as breakout so they can grow wider than the article content.
+						document.querySelectorAll('.article-body > .theme-block-image [data-component="image"]').forEach((element) => {
+							const propertyValue = element.style.getPropertyValue('--width');
+							if (!propertyValue) {
+								return;
+							}
+							if (parseInt(propertyValue) >= 760) {
+								element.closest('.theme-block-image').classList.add('theme-block-image--breakout');
+							}
+						});
+
+						// Remove the inline size on page layouts as this would lead to layouts breaking out of the article content.
+						document.querySelectorAll('.article-body [data-component="layout-section"]').forEach((element) => {
+							const propertyValue = element.style.getPropertyValue('--inline-size');
+							if (!propertyValue) {
+								return;
+							}
+							// ONLY for this very specific width (Confluence default)
+							if (parseInt(propertyValue) === 760) {
+								element.style.removeProperty('--inline-size');
+							}
+						})
+
+						// Set the initial state of the navigation toggle to prevent shifting in the UI
+						try {
+							const navigationToggle = document.querySelector('#navigator-toggle');
+							const navigationState = localStorage.getItem('theme-navigation-state');
+
+							if (navigationState === 'collapsed' && navigationToggle) {
+								navigationToggle.setAttribute('aria-expanded', 'false');
+							}
+						} catch (error) {
+							console.error(error);
+						}
+					</script>
+																			</section>
+				<footer>
+
+				</footer>
+			</article>
+		</main>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer data-component="footer" class="footer">
+
+
+
+
+
+		<img class="footer-logo footer-logo--dark" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/scroll-sites-icon-light.png" alt="">
+
+		<img class="footer-logo footer-logo--light" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/48/scroll-sites-icon-dark.png" alt="">
+	<ul class="footer-content">
+		<li><i18n-message i18nkey="footer.copyright.label">Copyright</i18n-message> <current-year></current-year> Kanton Thurgau - Rechtlicher Hinweis: Die Informationen erfolgen ohne Gewähr und haben keinerlei Rechtswirkung.</li>		<li><i18n-message i18nkey="footer.poweredBy.label">Powered by</i18n-message> <a href="https://www.k15t.com/products/scroll-sites-for-confluence?utm_campaign=k15t-sts-attribution-line&utm_source=k15t-apps" rel="external nofollow">Scroll&nbsp;Sites</a> & <a href="https://www.atlassian.com/software/confluence" rel="external nofollow">Atlassian&nbsp;Confluence</a></li>
+			<li>
+				<button type="button" data-cc="show-preferencesModal">
+					<i18n-message i18nkey="cookieConsent.showPreferences">Manage cookie preferences</i18n-message>
+				</button>
+			</li>
+	</ul>
+
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2025/579/20260101/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2025/579/20260101"/><FRBRdate date="2025-09-10" name="jolux:dateDocument"/><FRBRdate date="2026-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2026-01-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="fr" value="Ordonnance du DFF du 10 septembre 2025 sur la compensation des effets de la progression à froid pour les personnes physiques en matière d’impôt fédéral direct (Ordonnance sur la progression à froid, OPFr)" shortForm="OPFr"/><FRBRname xml:lang="it" value="Ordinanza del DFF del 10 settembre 2025 sulla compensazione degli effetti della progressione a freddo per le persone fisiche in materia di imposta federale diretta (Ordinanza sulla progressione a freddo, OPFr)" shortForm="OPFr"/><FRBRname xml:lang="de" value="Verordnung des EFD vom 10. September 2025 über den Ausgleich der Folgen der kalten Progression für die natürlichen Personen bei der direkten Bundessteuer (Verordnung über die kalte Progression, VKP)" shortForm="VKP"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2025/579/20260101/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2025/579/20260101/de"/><FRBRdate date="2025-09-10" name="jolux:dateDocument"/><FRBRdate date="2026-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2026-01-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2025/579/20260101/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2025/579/20260101/de/xml"/><FRBRdate date="2025-09-10" name="jolux:dateDocument"/><FRBRdate date="2026-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2026-01-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q4-rel-1.8.4"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>642.119.2 </docNumber></p><p><docTitle>Verordnung des EFD <br/>über den Ausgleich der Folgen der kalten Progression <br/>für die natürlichen Personen bei der direkten Bundessteuer</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Verordnung über die kalte Progression, VKP)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 10. September 2025 (Stand am 1. Januar 2026)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Eidgenössische Finanzdepartement (EFD),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf die Artikel 14 Absatz 6 und 39 Absatz 2 des Bundesgesetzes <br/>vom 14. Dezember 1990<authorialNote>
+		<p>  <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1991/1184_1184_1184" fedlex:rs="642.11" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8175">SR <b>642.11</b></ref></p>
+	</authorialNote> über die direkte Bundessteuer (DBG),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><article eId="art_1"><num><b>Art. 1</b><authorialNote>
+		<p> Die in den Art. 2‒4 enthaltenen Änderungen werden direkt ins DBG eingefügt.</p>
+	</authorialNote></num><heading>Gegenstand</heading><paragraph eId="art_1/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung regelt die Anpassung der Tarifstufen und Abzüge der Einkommenssteuer der natürlichen Personen an den Landesindex der Konsumentenpreise.</p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Tarife</heading><paragraph eId="art_2/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Tarife für Personen nach Artikel 36 Absatz 1 DBG werden wie folgt geändert:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Franken</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bis</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15 200 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>0.77</p>
+				</td>
+				<td>
+					
+					<p>;</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">33 200 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">138.60</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>0.88</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">43 500 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">229.20</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>2.64</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">58 000 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">612.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>2.97</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">76 200 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 152.50</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>5.94</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">82 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 502.95</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>6.60</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">108 900 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3 271.75</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>8.80</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">141 500 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6 140.55</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>11.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">185 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 936.55</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>13.20</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">793 900 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">91 298.15</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">794 000 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">91 310.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>11.50</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr.<authorialNote>
+		<p> Berichtigung vom 17. Okt. 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/621">AS <b>2025</b> 621</ref>).</p>
+	</authorialNote></p>
+				</td>
+			</tr>
+		</table></content></paragraph><paragraph eId="art_2/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Tarife für Personen nach Artikel 36 Absatz 2 DBG werden wie folgt geändert:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Franken</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bis</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">29 700 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>1.00</p>
+				</td>
+				<td>
+					
+					<p>;</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">53 400 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">237.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>2.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">61 300 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">395.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>3.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">79 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">929.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>4.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">94 900 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 561.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>5.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">108 700 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 251.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>6.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">120 600 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 965.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>7.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">130 500 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3 658.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>8.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">138 400 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4 290.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>9.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">144 300 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4 821.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>10.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">148 300 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5 221.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>11.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">150 400 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5 452.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>12.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">152 400 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5 692.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>13.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr;</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">941 300 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">108 249.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">941 400 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">108 261.00</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>und für je weitere 100 Franken Einkommen</p>
+				</td>
+				<td>
+					
+					<p>11.50</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>mehr.</p>
+				</td>
+			</tr>
+		</table></content></paragraph></article><article eId="art_3"><num><b>Art. 3 </b></num><heading>Besteuerung nach dem Aufwand</heading><paragraph eId="art_3/para"><content><blockList><listIntroduction eId="art_3/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Betrag nach Artikel 14 Absatz 3 Buchstabe a DBG wird wie folgt geändert:</listIntroduction><item eId="art_3/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">435 000 Franken; </p></item></blockList></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Steuerfreie Einkünfte</heading><paragraph eId="art_4/para"><content><blockList><listIntroduction eId="art_4/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Beträge nach Artikel 24 Buchstabe f<sup>bis</sup> und i<sup>bis</sup> DBG werden wie folgt geändert:</listIntroduction><item eId="art_4/para/lbl_f_bis"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f<sup>bis</sup>. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Sold der Milizfeuerwehrleute bis zum Betrag von jährlich 5400 Franken für Dienstleistungen im Zusammenhang mit der Erfüllung der Kernaufgaben der Feuerwehr (Übungen, Pikettdienste, Kurse, Inspektionen und Ernstfalleinsätze zur Rettung, Brandbekämpfung, allgemeinen Schadenwehr, Elementarschadenbewältigung und dergleichen); ausgenommen sind Pauschalzulagen für Kader, Funktionszulagen sowie Entschädigungen für administrative Arbeiten und für Dienstleistungen, welche die Feuerwehr freiwillig erbringt;</p></item><item eId="art_4/para/lbl_i_bis"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i<sup>bis</sup>. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die einzelnen Gewinne bis zum Betrag von 1 071 000 Franken aus der Teilnahme an Grossspielen, die nach dem BGS zugelassen sind, und aus der Online-Teilnahme an Spielbankenspielen, die nach dem BGS zugelassen sind;</p></item></blockList></content></paragraph></article><article eId="art_5"><num><b>Art. 5</b></num><heading>Aufhebung eines anderen Erlasses</heading><paragraph eId="art_5/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Verordnung vom 22. August 2024<authorialNote>
+		<p>  [AS <b>20</b><b>24</b> 479]</p>
+	</authorialNote> über die kalte Progression wird aufgehoben.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Inkrafttreten</heading><paragraph eId="art_6/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. Januar 2026 in Kraft.</p></content></paragraph></article></body></act></akomaNtoso>

@@ -1,0 +1,6868 @@
+[
+{
+"id": "ar-stg__c0001",
+"titel": "StG AR – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "ar-stg__c0002"
+},
+{
+"id": "ar-stg__c0002",
+"titel": "StG AR – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0001",
+"nachher": "ar-stg__c0003"
+},
+{
+"id": "ar-stg__c0003",
+"titel": "StG AR – Abschnitt 3",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0002",
+"nachher": "ar-stg__c0004"
+},
+{
+"id": "ar-stg__c0004",
+"titel": "StG AR – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0003",
+"nachher": "ar-stg__c0005"
+},
+{
+"id": "ar-stg__c0005",
+"titel": "StG AR – Abschnitt 5",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0004",
+"nachher": "ar-stg__c0006"
+},
+{
+"id": "ar-stg__c0006",
+"titel": "StG AR – Abschnitt 6",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0005",
+"nachher": "ar-stg__c0007"
+},
+{
+"id": "ar-stg__c0007",
+"titel": "StG AR – Abschnitt 7",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0006",
+"nachher": "ar-stg__c0008"
+},
+{
+"id": "ar-stg__c0008",
+"titel": "StG AR – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0007",
+"nachher": "ar-stg__c0009"
+},
+{
+"id": "ar-stg__c0009",
+"titel": "StG AR – Abschnitt 9",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0008",
+"nachher": "ar-stg__c0010"
+},
+{
+"id": "ar-stg__c0010",
+"titel": "StG AR – Abschnitt 10",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0009",
+"nachher": "ar-stg__c0011"
+},
+{
+"id": "ar-stg__c0011",
+"titel": "StG AR – Abschnitt 11",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0010",
+"nachher": "ar-stg__c0012"
+},
+{
+"id": "ar-stg__c0012",
+"titel": "StG AR – Abschnitt 12",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0011",
+"nachher": "ar-stg__c0013"
+},
+{
+"id": "ar-stg__c0013",
+"titel": "StG AR – Abschnitt 13",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0012",
+"nachher": "ar-stg__c0014"
+},
+{
+"id": "ar-stg__c0014",
+"titel": "StG AR – Abschnitt 14",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0013",
+"nachher": "ar-stg__c0015"
+},
+{
+"id": "ar-stg__c0015",
+"titel": "StG AR – Abschnitt 15",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0014",
+"nachher": "ar-stg__c0016"
+},
+{
+"id": "ar-stg__c0016",
+"titel": "StG AR – Abschnitt 16",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0015",
+"nachher": "ar-stg__c0017"
+},
+{
+"id": "ar-stg__c0017",
+"titel": "StG AR – Abschnitt 17",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0016",
+"nachher": "ar-stg__c0018"
+},
+{
+"id": "ar-stg__c0018",
+"titel": "StG AR – Abschnitt 18",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0017",
+"nachher": "ar-stg__c0019"
+},
+{
+"id": "ar-stg__c0019",
+"titel": "StG AR – Abschnitt 19",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0018",
+"nachher": "ar-stg__c0020"
+},
+{
+"id": "ar-stg__c0020",
+"titel": "StG AR – Abschnitt 20",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0019",
+"nachher": "ar-stg__c0021"
+},
+{
+"id": "ar-stg__c0021",
+"titel": "StG AR – Abschnitt 21",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0020",
+"nachher": "ar-stg__c0022"
+},
+{
+"id": "ar-stg__c0022",
+"titel": "StG AR – Abschnitt 22",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0021",
+"nachher": "ar-stg__c0023"
+},
+{
+"id": "ar-stg__c0023",
+"titel": "StG AR – Abschnitt 23",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0022",
+"nachher": "ar-stg__c0024"
+},
+{
+"id": "ar-stg__c0024",
+"titel": "StG AR – Abschnitt 24",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0023",
+"nachher": "ar-stg__c0025"
+},
+{
+"id": "ar-stg__c0025",
+"titel": "StG AR – Abschnitt 25",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0024",
+"nachher": "ar-stg__c0026"
+},
+{
+"id": "ar-stg__c0026",
+"titel": "StG AR – Abschnitt 26",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0025",
+"nachher": "ar-stg__c0027"
+},
+{
+"id": "ar-stg__c0027",
+"titel": "StG AR – Abschnitt 27",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0026",
+"nachher": "ar-stg__c0028"
+},
+{
+"id": "ar-stg__c0028",
+"titel": "StG AR – Abschnitt 28",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0027",
+"nachher": "ar-stg__c0029"
+},
+{
+"id": "ar-stg__c0029",
+"titel": "StG AR – Abschnitt 29",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0028",
+"nachher": "ar-stg__c0030"
+},
+{
+"id": "ar-stg__c0030",
+"titel": "StG AR – Abschnitt 30",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0029",
+"nachher": "ar-stg__c0031"
+},
+{
+"id": "ar-stg__c0031",
+"titel": "StG AR – Abschnitt 31",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0030",
+"nachher": "ar-stg__c0032"
+},
+{
+"id": "ar-stg__c0032",
+"titel": "StG AR – Abschnitt 32",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0031",
+"nachher": "ar-stg__c0033"
+},
+{
+"id": "ar-stg__c0033",
+"titel": "StG AR – Abschnitt 33",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0032",
+"nachher": "ar-stg__c0034"
+},
+{
+"id": "ar-stg__c0034",
+"titel": "StG AR – Abschnitt 34",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0033",
+"nachher": "ar-stg__c0035"
+},
+{
+"id": "ar-stg__c0035",
+"titel": "StG AR – Abschnitt 35",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0034",
+"nachher": "ar-stg__c0036"
+},
+{
+"id": "ar-stg__c0036",
+"titel": "StG AR – Abschnitt 36",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0035",
+"nachher": "ar-stg__c0037"
+},
+{
+"id": "ar-stg__c0037",
+"titel": "StG AR – Abschnitt 37",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0036",
+"nachher": "ar-stg__c0038"
+},
+{
+"id": "ar-stg__c0038",
+"titel": "StG AR – Abschnitt 38",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0037",
+"nachher": "ar-stg__c0039"
+},
+{
+"id": "ar-stg__c0039",
+"titel": "StG AR – Abschnitt 39",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0038",
+"nachher": "ar-stg__c0040"
+},
+{
+"id": "ar-stg__c0040",
+"titel": "StG AR – Abschnitt 40",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0039",
+"nachher": "ar-stg__c0041"
+},
+{
+"id": "ar-stg__c0041",
+"titel": "StG AR – Abschnitt 41",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0040",
+"nachher": "ar-stg__c0042"
+},
+{
+"id": "ar-stg__c0042",
+"titel": "StG AR – Abschnitt 42",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0041",
+"nachher": "ar-stg__c0043"
+},
+{
+"id": "ar-stg__c0043",
+"titel": "StG AR – Abschnitt 43",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0042",
+"nachher": "ar-stg__c0044"
+},
+{
+"id": "ar-stg__c0044",
+"titel": "StG AR – Abschnitt 44",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0043",
+"nachher": "ar-stg__c0045"
+},
+{
+"id": "ar-stg__c0045",
+"titel": "StG AR – Abschnitt 45",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0044",
+"nachher": "ar-stg__c0046"
+},
+{
+"id": "ar-stg__c0046",
+"titel": "StG AR – Abschnitt 46",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0045",
+"nachher": "ar-stg__c0047"
+},
+{
+"id": "ar-stg__c0047",
+"titel": "StG AR – Abschnitt 47",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0046",
+"nachher": "ar-stg__c0048"
+},
+{
+"id": "ar-stg__c0048",
+"titel": "StG AR – Abschnitt 48",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0047",
+"nachher": "ar-stg__c0049"
+},
+{
+"id": "ar-stg__c0049",
+"titel": "StG AR – Abschnitt 49",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0048",
+"nachher": "ar-stg__c0050"
+},
+{
+"id": "ar-stg__c0050",
+"titel": "StG AR – Abschnitt 50",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0049",
+"nachher": "ar-stg__c0051"
+},
+{
+"id": "ar-stg__c0051",
+"titel": "StG AR – Abschnitt 51",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0050",
+"nachher": "ar-stg__c0052"
+},
+{
+"id": "ar-stg__c0052",
+"titel": "StG AR – Abschnitt 52",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0051",
+"nachher": "ar-stg__c0053"
+},
+{
+"id": "ar-stg__c0053",
+"titel": "StG AR – Abschnitt 53",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0052",
+"nachher": "ar-stg__c0054"
+},
+{
+"id": "ar-stg__c0054",
+"titel": "StG AR – Abschnitt 54",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0053",
+"nachher": "ar-stg__c0055"
+},
+{
+"id": "ar-stg__c0055",
+"titel": "StG AR – Abschnitt 55",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0054",
+"nachher": "ar-stg__c0056"
+},
+{
+"id": "ar-stg__c0056",
+"titel": "StG AR – Abschnitt 56",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0055",
+"nachher": "ar-stg__c0057"
+},
+{
+"id": "ar-stg__c0057",
+"titel": "StG AR – Abschnitt 57",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0056",
+"nachher": "ar-stg__c0058"
+},
+{
+"id": "ar-stg__c0058",
+"titel": "StG AR – Abschnitt 58",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0057",
+"nachher": "ar-stg__c0059"
+},
+{
+"id": "ar-stg__c0059",
+"titel": "StG AR – Abschnitt 59",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0058",
+"nachher": "ar-stg__c0060"
+},
+{
+"id": "ar-stg__c0060",
+"titel": "StG AR – Abschnitt 60",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0059",
+"nachher": "ar-stg__c0061"
+},
+{
+"id": "ar-stg__c0061",
+"titel": "StG AR – Abschnitt 61",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0060",
+"nachher": "ar-stg__c0062"
+},
+{
+"id": "ar-stg__c0062",
+"titel": "StG AR – Abschnitt 62",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0061",
+"nachher": "ar-stg__c0063"
+},
+{
+"id": "ar-stg__c0063",
+"titel": "StG AR – Abschnitt 63",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0062",
+"nachher": "ar-stg__c0064"
+},
+{
+"id": "ar-stg__c0064",
+"titel": "StG AR – Abschnitt 64",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0063",
+"nachher": "ar-stg__c0065"
+},
+{
+"id": "ar-stg__c0065",
+"titel": "StG AR – Abschnitt 65",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0064",
+"nachher": "ar-stg__c0066"
+},
+{
+"id": "ar-stg__c0066",
+"titel": "StG AR – Abschnitt 66",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0065",
+"nachher": "ar-stg__c0067"
+},
+{
+"id": "ar-stg__c0067",
+"titel": "StG AR – Abschnitt 67",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0066",
+"nachher": "ar-stg__c0068"
+},
+{
+"id": "ar-stg__c0068",
+"titel": "StG AR – Abschnitt 68",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0067",
+"nachher": "ar-stg__c0069"
+},
+{
+"id": "ar-stg__c0069",
+"titel": "StG AR – Abschnitt 69",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0068",
+"nachher": "ar-stg__c0070"
+},
+{
+"id": "ar-stg__c0070",
+"titel": "StG AR – Abschnitt 70",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0069",
+"nachher": "ar-stg__c0071"
+},
+{
+"id": "ar-stg__c0071",
+"titel": "StG AR – Abschnitt 71",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0070",
+"nachher": "ar-stg__c0072"
+},
+{
+"id": "ar-stg__c0072",
+"titel": "StG AR – Abschnitt 72",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0071",
+"nachher": "ar-stg__c0073"
+},
+{
+"id": "ar-stg__c0073",
+"titel": "StG AR – Abschnitt 73",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0072",
+"nachher": "ar-stg__c0074"
+},
+{
+"id": "ar-stg__c0074",
+"titel": "StG AR – Abschnitt 74",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0073",
+"nachher": "ar-stg__c0075"
+},
+{
+"id": "ar-stg__c0075",
+"titel": "StG AR – Abschnitt 75",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0074",
+"nachher": "ar-stg__c0076"
+},
+{
+"id": "ar-stg__c0076",
+"titel": "StG AR – Abschnitt 76",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0075",
+"nachher": "ar-stg__c0077"
+},
+{
+"id": "ar-stg__c0077",
+"titel": "StG AR – Abschnitt 77",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0076",
+"nachher": "ar-stg__c0078"
+},
+{
+"id": "ar-stg__c0078",
+"titel": "StG AR – Abschnitt 78",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0077",
+"nachher": "ar-stg__c0079"
+},
+{
+"id": "ar-stg__c0079",
+"titel": "StG AR – Abschnitt 79",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0078",
+"nachher": "ar-stg__c0080"
+},
+{
+"id": "ar-stg__c0080",
+"titel": "StG AR – Abschnitt 80",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0079",
+"nachher": "ar-stg__c0081"
+},
+{
+"id": "ar-stg__c0081",
+"titel": "StG AR – Abschnitt 81",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0080",
+"nachher": "ar-stg__c0082"
+},
+{
+"id": "ar-stg__c0082",
+"titel": "StG AR – Abschnitt 82",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0081",
+"nachher": "ar-stg__c0083"
+},
+{
+"id": "ar-stg__c0083",
+"titel": "StG AR – Abschnitt 83",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0082",
+"nachher": "ar-stg__c0084"
+},
+{
+"id": "ar-stg__c0084",
+"titel": "StG AR – Abschnitt 84",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0083",
+"nachher": "ar-stg__c0085"
+},
+{
+"id": "ar-stg__c0085",
+"titel": "StG AR – Abschnitt 85",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0084",
+"nachher": "ar-stg__c0086"
+},
+{
+"id": "ar-stg__c0086",
+"titel": "StG AR – Abschnitt 86",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0085",
+"nachher": "ar-stg__c0087"
+},
+{
+"id": "ar-stg__c0087",
+"titel": "StG AR – Abschnitt 87",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0086",
+"nachher": "ar-stg__c0088"
+},
+{
+"id": "ar-stg__c0088",
+"titel": "StG AR – Abschnitt 88",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0087",
+"nachher": "ar-stg__c0089"
+},
+{
+"id": "ar-stg__c0089",
+"titel": "StG AR – Abschnitt 89",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0088",
+"nachher": "ar-stg__c0090"
+},
+{
+"id": "ar-stg__c0090",
+"titel": "StG AR – Abschnitt 90",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0089",
+"nachher": "ar-stg__c0091"
+},
+{
+"id": "ar-stg__c0091",
+"titel": "StG AR – Abschnitt 91",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0090",
+"nachher": "ar-stg__c0092"
+},
+{
+"id": "ar-stg__c0092",
+"titel": "StG AR – Abschnitt 92",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0091",
+"nachher": "ar-stg__c0093"
+},
+{
+"id": "ar-stg__c0093",
+"titel": "StG AR – Abschnitt 93",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0092",
+"nachher": "ar-stg__c0094"
+},
+{
+"id": "ar-stg__c0094",
+"titel": "StG AR – Abschnitt 94",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0093",
+"nachher": "ar-stg__c0095"
+},
+{
+"id": "ar-stg__c0095",
+"titel": "StG AR – Abschnitt 95",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0094",
+"nachher": "ar-stg__c0096"
+},
+{
+"id": "ar-stg__c0096",
+"titel": "StG AR – Abschnitt 96",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0095",
+"nachher": "ar-stg__c0097"
+},
+{
+"id": "ar-stg__c0097",
+"titel": "StG AR – Abschnitt 97",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0096",
+"nachher": "ar-stg__c0098"
+},
+{
+"id": "ar-stg__c0098",
+"titel": "StG AR – Abschnitt 98",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0097",
+"nachher": "ar-stg__c0099"
+},
+{
+"id": "ar-stg__c0099",
+"titel": "StG AR – Abschnitt 99",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0098",
+"nachher": "ar-stg__c0100"
+},
+{
+"id": "ar-stg__c0100",
+"titel": "StG AR – Abschnitt 100",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0099",
+"nachher": "ar-stg__c0101"
+},
+{
+"id": "ar-stg__c0101",
+"titel": "StG AR – Abschnitt 101",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0100",
+"nachher": "ar-stg__c0102"
+},
+{
+"id": "ar-stg__c0102",
+"titel": "StG AR – Abschnitt 102",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0101",
+"nachher": "ar-stg__c0103"
+},
+{
+"id": "ar-stg__c0103",
+"titel": "StG AR – Abschnitt 103",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0102",
+"nachher": "ar-stg__c0104"
+},
+{
+"id": "ar-stg__c0104",
+"titel": "StG AR – Abschnitt 104",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0103",
+"nachher": "ar-stg__c0105"
+},
+{
+"id": "ar-stg__c0105",
+"titel": "StG AR – Abschnitt 105",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0104",
+"nachher": "ar-stg__c0106"
+},
+{
+"id": "ar-stg__c0106",
+"titel": "StG AR – Abschnitt 106",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0105",
+"nachher": "ar-stg__c0107"
+},
+{
+"id": "ar-stg__c0107",
+"titel": "StG AR – Abschnitt 107",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0106",
+"nachher": "ar-stg__c0108"
+},
+{
+"id": "ar-stg__c0108",
+"titel": "StG AR – Abschnitt 108",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0107",
+"nachher": "ar-stg__c0109"
+},
+{
+"id": "ar-stg__c0109",
+"titel": "StG AR – Abschnitt 109",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0108",
+"nachher": "ar-stg__c0110"
+},
+{
+"id": "ar-stg__c0110",
+"titel": "StG AR – Abschnitt 110",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0109",
+"nachher": "ar-stg__c0111"
+},
+{
+"id": "ar-stg__c0111",
+"titel": "StG AR – Abschnitt 111",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0110",
+"nachher": "ar-stg__c0112"
+},
+{
+"id": "ar-stg__c0112",
+"titel": "StG AR – Abschnitt 112",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0111",
+"nachher": "ar-stg__c0113"
+},
+{
+"id": "ar-stg__c0113",
+"titel": "StG AR – Abschnitt 113",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0112",
+"nachher": "ar-stg__c0114"
+},
+{
+"id": "ar-stg__c0114",
+"titel": "StG AR – Abschnitt 114",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0113",
+"nachher": "ar-stg__c0115"
+},
+{
+"id": "ar-stg__c0115",
+"titel": "StG AR – Abschnitt 115",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0114",
+"nachher": "ar-stg__c0116"
+},
+{
+"id": "ar-stg__c0116",
+"titel": "StG AR – Abschnitt 116",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0115",
+"nachher": "ar-stg__c0117"
+},
+{
+"id": "ar-stg__c0117",
+"titel": "StG AR – Abschnitt 117",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0116",
+"nachher": "ar-stg__c0118"
+},
+{
+"id": "ar-stg__c0118",
+"titel": "StG AR – Abschnitt 118",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0117",
+"nachher": "ar-stg__c0119"
+},
+{
+"id": "ar-stg__c0119",
+"titel": "StG AR – Abschnitt 119",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0118",
+"nachher": "ar-stg__c0120"
+},
+{
+"id": "ar-stg__c0120",
+"titel": "StG AR – Abschnitt 120",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0119",
+"nachher": "ar-stg__c0121"
+},
+{
+"id": "ar-stg__c0121",
+"titel": "StG AR – Abschnitt 121",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0120",
+"nachher": "ar-stg__c0122"
+},
+{
+"id": "ar-stg__c0122",
+"titel": "StG AR – Abschnitt 122",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0121",
+"nachher": "ar-stg__c0123"
+},
+{
+"id": "ar-stg__c0123",
+"titel": "StG AR – Abschnitt 123",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0122",
+"nachher": "ar-stg__c0124"
+},
+{
+"id": "ar-stg__c0124",
+"titel": "StG AR – Abschnitt 124",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0123",
+"nachher": "ar-stg__c0125"
+},
+{
+"id": "ar-stg__c0125",
+"titel": "StG AR – Abschnitt 125",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0124",
+"nachher": "ar-stg__c0126"
+},
+{
+"id": "ar-stg__c0126",
+"titel": "StG AR – Abschnitt 126",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0125",
+"nachher": "ar-stg__c0127"
+},
+{
+"id": "ar-stg__c0127",
+"titel": "StG AR – Abschnitt 127",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0126",
+"nachher": "ar-stg__c0128"
+},
+{
+"id": "ar-stg__c0128",
+"titel": "StG AR – Abschnitt 128",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0127",
+"nachher": "ar-stg__c0129"
+},
+{
+"id": "ar-stg__c0129",
+"titel": "StG AR – Abschnitt 129",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0128",
+"nachher": "ar-stg__c0130"
+},
+{
+"id": "ar-stg__c0130",
+"titel": "StG AR – Abschnitt 130",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0129",
+"nachher": "ar-stg__c0131"
+},
+{
+"id": "ar-stg__c0131",
+"titel": "StG AR – Abschnitt 131",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0130",
+"nachher": "ar-stg__c0132"
+},
+{
+"id": "ar-stg__c0132",
+"titel": "StG AR – Abschnitt 132",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0131",
+"nachher": "ar-stg__c0133"
+},
+{
+"id": "ar-stg__c0133",
+"titel": "StG AR – Abschnitt 133",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0132",
+"nachher": "ar-stg__c0134"
+},
+{
+"id": "ar-stg__c0134",
+"titel": "StG AR – Abschnitt 134",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0133",
+"nachher": "ar-stg__c0135"
+},
+{
+"id": "ar-stg__c0135",
+"titel": "StG AR – Abschnitt 135",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0134",
+"nachher": "ar-stg__c0136"
+},
+{
+"id": "ar-stg__c0136",
+"titel": "StG AR – Abschnitt 136",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0135",
+"nachher": "ar-stg__c0137"
+},
+{
+"id": "ar-stg__c0137",
+"titel": "StG AR – Abschnitt 137",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0136",
+"nachher": "ar-stg__c0138"
+},
+{
+"id": "ar-stg__c0138",
+"titel": "StG AR – Abschnitt 138",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0137",
+"nachher": "ar-stg__c0139"
+},
+{
+"id": "ar-stg__c0139",
+"titel": "StG AR – Abschnitt 139",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0138",
+"nachher": "ar-stg__c0140"
+},
+{
+"id": "ar-stg__c0140",
+"titel": "StG AR – Abschnitt 140",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0139",
+"nachher": "ar-stg__c0141"
+},
+{
+"id": "ar-stg__c0141",
+"titel": "StG AR – Abschnitt 141",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0140",
+"nachher": "ar-stg__c0142"
+},
+{
+"id": "ar-stg__c0142",
+"titel": "StG AR – Abschnitt 142",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0141",
+"nachher": "ar-stg__c0143"
+},
+{
+"id": "ar-stg__c0143",
+"titel": "StG AR – Abschnitt 143",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0142",
+"nachher": "ar-stg__c0144"
+},
+{
+"id": "ar-stg__c0144",
+"titel": "StG AR – Abschnitt 144",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0143",
+"nachher": "ar-stg__c0145"
+},
+{
+"id": "ar-stg__c0145",
+"titel": "StG AR – Abschnitt 145",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0144",
+"nachher": "ar-stg__c0146"
+},
+{
+"id": "ar-stg__c0146",
+"titel": "StG AR – Abschnitt 146",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0145",
+"nachher": "ar-stg__c0147"
+},
+{
+"id": "ar-stg__c0147",
+"titel": "StG AR – Abschnitt 147",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0146",
+"nachher": "ar-stg__c0148"
+},
+{
+"id": "ar-stg__c0148",
+"titel": "StG AR – Abschnitt 148",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0147",
+"nachher": "ar-stg__c0149"
+},
+{
+"id": "ar-stg__c0149",
+"titel": "StG AR – Abschnitt 149",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0148",
+"nachher": "ar-stg__c0150"
+},
+{
+"id": "ar-stg__c0150",
+"titel": "StG AR – Abschnitt 150",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0149",
+"nachher": "ar-stg__c0151"
+},
+{
+"id": "ar-stg__c0151",
+"titel": "StG AR – Abschnitt 151",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0150",
+"nachher": "ar-stg__c0152"
+},
+{
+"id": "ar-stg__c0152",
+"titel": "StG AR – Abschnitt 152",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0151",
+"nachher": "ar-stg__c0153"
+},
+{
+"id": "ar-stg__c0153",
+"titel": "StG AR – Abschnitt 153",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0152",
+"nachher": "ar-stg__c0154"
+},
+{
+"id": "ar-stg__c0154",
+"titel": "StG AR – Abschnitt 154",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0153",
+"nachher": "ar-stg__c0155"
+},
+{
+"id": "ar-stg__c0155",
+"titel": "StG AR – Abschnitt 155",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0154",
+"nachher": "ar-stg__c0156"
+},
+{
+"id": "ar-stg__c0156",
+"titel": "StG AR – Abschnitt 156",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0155",
+"nachher": "ar-stg__c0157"
+},
+{
+"id": "ar-stg__c0157",
+"titel": "StG AR – Abschnitt 157",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0156",
+"nachher": "ar-stg__c0158"
+},
+{
+"id": "ar-stg__c0158",
+"titel": "StG AR – Abschnitt 158",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0157",
+"nachher": "ar-stg__c0159"
+},
+{
+"id": "ar-stg__c0159",
+"titel": "StG AR – Abschnitt 159",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0158",
+"nachher": "ar-stg__c0160"
+},
+{
+"id": "ar-stg__c0160",
+"titel": "StG AR – Abschnitt 160",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0159",
+"nachher": "ar-stg__c0161"
+},
+{
+"id": "ar-stg__c0161",
+"titel": "StG AR – Abschnitt 161",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0160",
+"nachher": "ar-stg__c0162"
+},
+{
+"id": "ar-stg__c0162",
+"titel": "StG AR – Abschnitt 162",
+"pfad": [],
+"seiten": [
+59
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0161",
+"nachher": "ar-stg__c0163"
+},
+{
+"id": "ar-stg__c0163",
+"titel": "StG AR – Abschnitt 163",
+"pfad": [],
+"seiten": [
+59
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0162",
+"nachher": "ar-stg__c0164"
+},
+{
+"id": "ar-stg__c0164",
+"titel": "StG AR – Abschnitt 164",
+"pfad": [],
+"seiten": [
+60
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0163",
+"nachher": "ar-stg__c0165"
+},
+{
+"id": "ar-stg__c0165",
+"titel": "StG AR – Abschnitt 165",
+"pfad": [],
+"seiten": [
+60
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0164",
+"nachher": "ar-stg__c0166"
+},
+{
+"id": "ar-stg__c0166",
+"titel": "StG AR – Abschnitt 166",
+"pfad": [],
+"seiten": [
+60
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0165",
+"nachher": "ar-stg__c0167"
+},
+{
+"id": "ar-stg__c0167",
+"titel": "StG AR – Abschnitt 167",
+"pfad": [],
+"seiten": [
+61
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0166",
+"nachher": "ar-stg__c0168"
+},
+{
+"id": "ar-stg__c0168",
+"titel": "StG AR – Abschnitt 168",
+"pfad": [],
+"seiten": [
+61
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0167",
+"nachher": "ar-stg__c0169"
+},
+{
+"id": "ar-stg__c0169",
+"titel": "StG AR – Abschnitt 169",
+"pfad": [],
+"seiten": [
+62
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0168",
+"nachher": "ar-stg__c0170"
+},
+{
+"id": "ar-stg__c0170",
+"titel": "StG AR – Abschnitt 170",
+"pfad": [],
+"seiten": [
+62
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0169",
+"nachher": "ar-stg__c0171"
+},
+{
+"id": "ar-stg__c0171",
+"titel": "StG AR – Abschnitt 171",
+"pfad": [],
+"seiten": [
+62
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0170",
+"nachher": "ar-stg__c0172"
+},
+{
+"id": "ar-stg__c0172",
+"titel": "StG AR – Abschnitt 172",
+"pfad": [],
+"seiten": [
+63
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0171",
+"nachher": "ar-stg__c0173"
+},
+{
+"id": "ar-stg__c0173",
+"titel": "StG AR – Abschnitt 173",
+"pfad": [],
+"seiten": [
+63
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0172",
+"nachher": "ar-stg__c0174"
+},
+{
+"id": "ar-stg__c0174",
+"titel": "StG AR – Abschnitt 174",
+"pfad": [],
+"seiten": [
+63
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0173",
+"nachher": "ar-stg__c0175"
+},
+{
+"id": "ar-stg__c0175",
+"titel": "StG AR – Abschnitt 175",
+"pfad": [],
+"seiten": [
+64
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0174",
+"nachher": "ar-stg__c0176"
+},
+{
+"id": "ar-stg__c0176",
+"titel": "StG AR – Abschnitt 176",
+"pfad": [],
+"seiten": [
+64
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0175",
+"nachher": "ar-stg__c0177"
+},
+{
+"id": "ar-stg__c0177",
+"titel": "StG AR – Abschnitt 177",
+"pfad": [],
+"seiten": [
+65
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0176",
+"nachher": "ar-stg__c0178"
+},
+{
+"id": "ar-stg__c0178",
+"titel": "StG AR – Abschnitt 178",
+"pfad": [],
+"seiten": [
+65
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0177",
+"nachher": "ar-stg__c0179"
+},
+{
+"id": "ar-stg__c0179",
+"titel": "StG AR – Abschnitt 179",
+"pfad": [],
+"seiten": [
+65
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0178",
+"nachher": "ar-stg__c0180"
+},
+{
+"id": "ar-stg__c0180",
+"titel": "StG AR – Abschnitt 180",
+"pfad": [],
+"seiten": [
+66
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0179",
+"nachher": "ar-stg__c0181"
+},
+{
+"id": "ar-stg__c0181",
+"titel": "StG AR – Abschnitt 181",
+"pfad": [],
+"seiten": [
+66
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0180",
+"nachher": "ar-stg__c0182"
+},
+{
+"id": "ar-stg__c0182",
+"titel": "StG AR – Abschnitt 182",
+"pfad": [],
+"seiten": [
+67
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0181",
+"nachher": "ar-stg__c0183"
+},
+{
+"id": "ar-stg__c0183",
+"titel": "StG AR – Abschnitt 183",
+"pfad": [],
+"seiten": [
+67
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0182",
+"nachher": "ar-stg__c0184"
+},
+{
+"id": "ar-stg__c0184",
+"titel": "StG AR – Abschnitt 184",
+"pfad": [],
+"seiten": [
+68
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0183",
+"nachher": "ar-stg__c0185"
+},
+{
+"id": "ar-stg__c0185",
+"titel": "StG AR – Abschnitt 185",
+"pfad": [],
+"seiten": [
+68
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0184",
+"nachher": "ar-stg__c0186"
+},
+{
+"id": "ar-stg__c0186",
+"titel": "StG AR – Abschnitt 186",
+"pfad": [],
+"seiten": [
+69
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0185",
+"nachher": "ar-stg__c0187"
+},
+{
+"id": "ar-stg__c0187",
+"titel": "StG AR – Abschnitt 187",
+"pfad": [],
+"seiten": [
+69
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0186",
+"nachher": "ar-stg__c0188"
+},
+{
+"id": "ar-stg__c0188",
+"titel": "StG AR – Abschnitt 188",
+"pfad": [],
+"seiten": [
+70
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0187",
+"nachher": "ar-stg__c0189"
+},
+{
+"id": "ar-stg__c0189",
+"titel": "StG AR – Abschnitt 189",
+"pfad": [],
+"seiten": [
+70
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0188",
+"nachher": "ar-stg__c0190"
+},
+{
+"id": "ar-stg__c0190",
+"titel": "StG AR – Abschnitt 190",
+"pfad": [],
+"seiten": [
+71
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0189",
+"nachher": "ar-stg__c0191"
+},
+{
+"id": "ar-stg__c0191",
+"titel": "StG AR – Abschnitt 191",
+"pfad": [],
+"seiten": [
+71
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0190",
+"nachher": "ar-stg__c0192"
+},
+{
+"id": "ar-stg__c0192",
+"titel": "StG AR – Abschnitt 192",
+"pfad": [],
+"seiten": [
+71
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0191",
+"nachher": "ar-stg__c0193"
+},
+{
+"id": "ar-stg__c0193",
+"titel": "StG AR – Abschnitt 193",
+"pfad": [],
+"seiten": [
+72
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0192",
+"nachher": "ar-stg__c0194"
+},
+{
+"id": "ar-stg__c0194",
+"titel": "StG AR – Abschnitt 194",
+"pfad": [],
+"seiten": [
+72
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0193",
+"nachher": "ar-stg__c0195"
+},
+{
+"id": "ar-stg__c0195",
+"titel": "StG AR – Abschnitt 195",
+"pfad": [],
+"seiten": [
+73
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0194",
+"nachher": "ar-stg__c0196"
+},
+{
+"id": "ar-stg__c0196",
+"titel": "StG AR – Abschnitt 196",
+"pfad": [],
+"seiten": [
+73
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0195",
+"nachher": "ar-stg__c0197"
+},
+{
+"id": "ar-stg__c0197",
+"titel": "StG AR – Abschnitt 197",
+"pfad": [],
+"seiten": [
+73
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0196",
+"nachher": "ar-stg__c0198"
+},
+{
+"id": "ar-stg__c0198",
+"titel": "StG AR – Abschnitt 198",
+"pfad": [],
+"seiten": [
+74
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0197",
+"nachher": "ar-stg__c0199"
+},
+{
+"id": "ar-stg__c0199",
+"titel": "StG AR – Abschnitt 199",
+"pfad": [],
+"seiten": [
+74
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0198",
+"nachher": "ar-stg__c0200"
+},
+{
+"id": "ar-stg__c0200",
+"titel": "StG AR – Abschnitt 200",
+"pfad": [],
+"seiten": [
+74
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0199",
+"nachher": "ar-stg__c0201"
+},
+{
+"id": "ar-stg__c0201",
+"titel": "StG AR – Abschnitt 201",
+"pfad": [],
+"seiten": [
+75
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0200",
+"nachher": "ar-stg__c0202"
+},
+{
+"id": "ar-stg__c0202",
+"titel": "StG AR – Abschnitt 202",
+"pfad": [],
+"seiten": [
+75
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0201",
+"nachher": "ar-stg__c0203"
+},
+{
+"id": "ar-stg__c0203",
+"titel": "StG AR – Abschnitt 203",
+"pfad": [],
+"seiten": [
+75
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0202",
+"nachher": "ar-stg__c0204"
+},
+{
+"id": "ar-stg__c0204",
+"titel": "StG AR – Abschnitt 204",
+"pfad": [],
+"seiten": [
+76
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0203",
+"nachher": "ar-stg__c0205"
+},
+{
+"id": "ar-stg__c0205",
+"titel": "StG AR – Abschnitt 205",
+"pfad": [],
+"seiten": [
+76
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0204",
+"nachher": "ar-stg__c0206"
+},
+{
+"id": "ar-stg__c0206",
+"titel": "StG AR – Abschnitt 206",
+"pfad": [],
+"seiten": [
+76
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0205",
+"nachher": "ar-stg__c0207"
+},
+{
+"id": "ar-stg__c0207",
+"titel": "StG AR – Abschnitt 207",
+"pfad": [],
+"seiten": [
+77
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0206",
+"nachher": "ar-stg__c0208"
+},
+{
+"id": "ar-stg__c0208",
+"titel": "StG AR – Abschnitt 208",
+"pfad": [],
+"seiten": [
+77
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0207",
+"nachher": "ar-stg__c0209"
+},
+{
+"id": "ar-stg__c0209",
+"titel": "StG AR – Abschnitt 209",
+"pfad": [],
+"seiten": [
+78
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0208",
+"nachher": "ar-stg__c0210"
+},
+{
+"id": "ar-stg__c0210",
+"titel": "StG AR – Abschnitt 210",
+"pfad": [],
+"seiten": [
+78
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0209",
+"nachher": "ar-stg__c0211"
+},
+{
+"id": "ar-stg__c0211",
+"titel": "StG AR – Abschnitt 211",
+"pfad": [],
+"seiten": [
+78
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0210",
+"nachher": "ar-stg__c0212"
+},
+{
+"id": "ar-stg__c0212",
+"titel": "StG AR – Abschnitt 212",
+"pfad": [],
+"seiten": [
+79
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0211",
+"nachher": "ar-stg__c0213"
+},
+{
+"id": "ar-stg__c0213",
+"titel": "StG AR – Abschnitt 213",
+"pfad": [],
+"seiten": [
+79
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0212",
+"nachher": "ar-stg__c0214"
+},
+{
+"id": "ar-stg__c0214",
+"titel": "StG AR – Abschnitt 214",
+"pfad": [],
+"seiten": [
+79
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0213",
+"nachher": "ar-stg__c0215"
+},
+{
+"id": "ar-stg__c0215",
+"titel": "StG AR – Abschnitt 215",
+"pfad": [],
+"seiten": [
+80
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0214",
+"nachher": "ar-stg__c0216"
+},
+{
+"id": "ar-stg__c0216",
+"titel": "StG AR – Abschnitt 216",
+"pfad": [],
+"seiten": [
+80
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0215",
+"nachher": "ar-stg__c0217"
+},
+{
+"id": "ar-stg__c0217",
+"titel": "StG AR – Abschnitt 217",
+"pfad": [],
+"seiten": [
+80
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0216",
+"nachher": "ar-stg__c0218"
+},
+{
+"id": "ar-stg__c0218",
+"titel": "StG AR – Abschnitt 218",
+"pfad": [],
+"seiten": [
+81
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0217",
+"nachher": "ar-stg__c0219"
+},
+{
+"id": "ar-stg__c0219",
+"titel": "StG AR – Abschnitt 219",
+"pfad": [],
+"seiten": [
+81
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0218",
+"nachher": "ar-stg__c0220"
+},
+{
+"id": "ar-stg__c0220",
+"titel": "StG AR – Abschnitt 220",
+"pfad": [],
+"seiten": [
+82
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0219",
+"nachher": "ar-stg__c0221"
+},
+{
+"id": "ar-stg__c0221",
+"titel": "StG AR – Abschnitt 221",
+"pfad": [],
+"seiten": [
+82
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0220",
+"nachher": "ar-stg__c0222"
+},
+{
+"id": "ar-stg__c0222",
+"titel": "StG AR – Abschnitt 222",
+"pfad": [],
+"seiten": [
+82
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0221",
+"nachher": "ar-stg__c0223"
+},
+{
+"id": "ar-stg__c0223",
+"titel": "StG AR – Abschnitt 223",
+"pfad": [],
+"seiten": [
+82
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0222",
+"nachher": "ar-stg__c0224"
+},
+{
+"id": "ar-stg__c0224",
+"titel": "StG AR – Abschnitt 224",
+"pfad": [],
+"seiten": [
+83
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0223",
+"nachher": "ar-stg__c0225"
+},
+{
+"id": "ar-stg__c0225",
+"titel": "StG AR – Abschnitt 225",
+"pfad": [],
+"seiten": [
+83
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0224",
+"nachher": "ar-stg__c0226"
+},
+{
+"id": "ar-stg__c0226",
+"titel": "StG AR – Abschnitt 226",
+"pfad": [],
+"seiten": [
+83
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0225",
+"nachher": "ar-stg__c0227"
+},
+{
+"id": "ar-stg__c0227",
+"titel": "StG AR – Abschnitt 227",
+"pfad": [],
+"seiten": [
+84
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0226",
+"nachher": "ar-stg__c0228"
+},
+{
+"id": "ar-stg__c0228",
+"titel": "StG AR – Abschnitt 228",
+"pfad": [],
+"seiten": [
+84
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0227",
+"nachher": "ar-stg__c0229"
+},
+{
+"id": "ar-stg__c0229",
+"titel": "StG AR – Abschnitt 229",
+"pfad": [],
+"seiten": [
+84
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0228",
+"nachher": "ar-stg__c0230"
+},
+{
+"id": "ar-stg__c0230",
+"titel": "StG AR – Abschnitt 230",
+"pfad": [],
+"seiten": [
+85
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0229",
+"nachher": "ar-stg__c0231"
+},
+{
+"id": "ar-stg__c0231",
+"titel": "StG AR – Abschnitt 231",
+"pfad": [],
+"seiten": [
+85
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0230",
+"nachher": "ar-stg__c0232"
+},
+{
+"id": "ar-stg__c0232",
+"titel": "StG AR – Abschnitt 232",
+"pfad": [],
+"seiten": [
+86
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0231",
+"nachher": "ar-stg__c0233"
+},
+{
+"id": "ar-stg__c0233",
+"titel": "StG AR – Abschnitt 233",
+"pfad": [],
+"seiten": [
+87
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0232",
+"nachher": "ar-stg__c0234"
+},
+{
+"id": "ar-stg__c0234",
+"titel": "StG AR – Abschnitt 234",
+"pfad": [],
+"seiten": [
+87
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0233",
+"nachher": "ar-stg__c0235"
+},
+{
+"id": "ar-stg__c0235",
+"titel": "StG AR – Abschnitt 235",
+"pfad": [],
+"seiten": [
+87
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0234",
+"nachher": "ar-stg__c0236"
+},
+{
+"id": "ar-stg__c0236",
+"titel": "StG AR – Abschnitt 236",
+"pfad": [],
+"seiten": [
+88
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0235",
+"nachher": "ar-stg__c0237"
+},
+{
+"id": "ar-stg__c0237",
+"titel": "StG AR – Abschnitt 237",
+"pfad": [],
+"seiten": [
+88
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0236",
+"nachher": "ar-stg__c0238"
+},
+{
+"id": "ar-stg__c0238",
+"titel": "StG AR – Abschnitt 238",
+"pfad": [],
+"seiten": [
+88
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0237",
+"nachher": "ar-stg__c0239"
+},
+{
+"id": "ar-stg__c0239",
+"titel": "StG AR – Abschnitt 239",
+"pfad": [],
+"seiten": [
+89
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0238",
+"nachher": "ar-stg__c0240"
+},
+{
+"id": "ar-stg__c0240",
+"titel": "StG AR – Abschnitt 240",
+"pfad": [],
+"seiten": [
+89
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0239",
+"nachher": "ar-stg__c0241"
+},
+{
+"id": "ar-stg__c0241",
+"titel": "StG AR – Abschnitt 241",
+"pfad": [],
+"seiten": [
+89
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0240",
+"nachher": "ar-stg__c0242"
+},
+{
+"id": "ar-stg__c0242",
+"titel": "StG AR – Abschnitt 242",
+"pfad": [],
+"seiten": [
+90
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0241",
+"nachher": "ar-stg__c0243"
+},
+{
+"id": "ar-stg__c0243",
+"titel": "StG AR – Abschnitt 243",
+"pfad": [],
+"seiten": [
+90
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0242",
+"nachher": "ar-stg__c0244"
+},
+{
+"id": "ar-stg__c0244",
+"titel": "StG AR – Abschnitt 244",
+"pfad": [],
+"seiten": [
+91
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0243",
+"nachher": "ar-stg__c0245"
+},
+{
+"id": "ar-stg__c0245",
+"titel": "StG AR – Abschnitt 245",
+"pfad": [],
+"seiten": [
+91
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0244",
+"nachher": "ar-stg__c0246"
+},
+{
+"id": "ar-stg__c0246",
+"titel": "StG AR – Abschnitt 246",
+"pfad": [],
+"seiten": [
+92
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0245",
+"nachher": "ar-stg__c0247"
+},
+{
+"id": "ar-stg__c0247",
+"titel": "StG AR – Abschnitt 247",
+"pfad": [],
+"seiten": [
+92
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0246",
+"nachher": "ar-stg__c0248"
+},
+{
+"id": "ar-stg__c0248",
+"titel": "StG AR – Abschnitt 248",
+"pfad": [],
+"seiten": [
+92
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0247",
+"nachher": "ar-stg__c0249"
+},
+{
+"id": "ar-stg__c0249",
+"titel": "StG AR – Abschnitt 249",
+"pfad": [],
+"seiten": [
+93
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0248",
+"nachher": "ar-stg__c0250"
+},
+{
+"id": "ar-stg__c0250",
+"titel": "StG AR – Abschnitt 250",
+"pfad": [],
+"seiten": [
+93
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0249",
+"nachher": "ar-stg__c0251"
+},
+{
+"id": "ar-stg__c0251",
+"titel": "StG AR – Abschnitt 251",
+"pfad": [],
+"seiten": [
+94
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0250",
+"nachher": "ar-stg__c0252"
+},
+{
+"id": "ar-stg__c0252",
+"titel": "StG AR – Abschnitt 252",
+"pfad": [],
+"seiten": [
+94
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0251",
+"nachher": "ar-stg__c0253"
+},
+{
+"id": "ar-stg__c0253",
+"titel": "StG AR – Abschnitt 253",
+"pfad": [],
+"seiten": [
+94
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0252",
+"nachher": "ar-stg__c0254"
+},
+{
+"id": "ar-stg__c0254",
+"titel": "StG AR – Abschnitt 254",
+"pfad": [],
+"seiten": [
+95
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0253",
+"nachher": "ar-stg__c0255"
+},
+{
+"id": "ar-stg__c0255",
+"titel": "StG AR – Abschnitt 255",
+"pfad": [],
+"seiten": [
+95
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0254",
+"nachher": "ar-stg__c0256"
+},
+{
+"id": "ar-stg__c0256",
+"titel": "StG AR – Abschnitt 256",
+"pfad": [],
+"seiten": [
+95
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0255",
+"nachher": "ar-stg__c0257"
+},
+{
+"id": "ar-stg__c0257",
+"titel": "StG AR – Abschnitt 257",
+"pfad": [],
+"seiten": [
+96
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0256",
+"nachher": "ar-stg__c0258"
+},
+{
+"id": "ar-stg__c0258",
+"titel": "StG AR – Abschnitt 258",
+"pfad": [],
+"seiten": [
+96
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0257",
+"nachher": "ar-stg__c0259"
+},
+{
+"id": "ar-stg__c0259",
+"titel": "StG AR – Abschnitt 259",
+"pfad": [],
+"seiten": [
+96
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0258",
+"nachher": "ar-stg__c0260"
+},
+{
+"id": "ar-stg__c0260",
+"titel": "StG AR – Abschnitt 260",
+"pfad": [],
+"seiten": [
+97
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0259",
+"nachher": "ar-stg__c0261"
+},
+{
+"id": "ar-stg__c0261",
+"titel": "StG AR – Abschnitt 261",
+"pfad": [],
+"seiten": [
+97
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0260",
+"nachher": "ar-stg__c0262"
+},
+{
+"id": "ar-stg__c0262",
+"titel": "StG AR – Abschnitt 262",
+"pfad": [],
+"seiten": [
+97
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0261",
+"nachher": "ar-stg__c0263"
+},
+{
+"id": "ar-stg__c0263",
+"titel": "StG AR – Abschnitt 263",
+"pfad": [],
+"seiten": [
+98
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0262",
+"nachher": "ar-stg__c0264"
+},
+{
+"id": "ar-stg__c0264",
+"titel": "StG AR – Abschnitt 264",
+"pfad": [],
+"seiten": [
+98
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0263",
+"nachher": "ar-stg__c0265"
+},
+{
+"id": "ar-stg__c0265",
+"titel": "StG AR – Abschnitt 265",
+"pfad": [],
+"seiten": [
+98
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0264",
+"nachher": "ar-stg__c0266"
+},
+{
+"id": "ar-stg__c0266",
+"titel": "StG AR – Abschnitt 266",
+"pfad": [],
+"seiten": [
+99
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0265",
+"nachher": "ar-stg__c0267"
+},
+{
+"id": "ar-stg__c0267",
+"titel": "StG AR – Abschnitt 267",
+"pfad": [],
+"seiten": [
+99
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0266",
+"nachher": "ar-stg__c0268"
+},
+{
+"id": "ar-stg__c0268",
+"titel": "StG AR – Abschnitt 268",
+"pfad": [],
+"seiten": [
+100
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0267",
+"nachher": "ar-stg__c0269"
+},
+{
+"id": "ar-stg__c0269",
+"titel": "StG AR – Abschnitt 269",
+"pfad": [],
+"seiten": [
+101
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0268",
+"nachher": "ar-stg__c0270"
+},
+{
+"id": "ar-stg__c0270",
+"titel": "StG AR – Abschnitt 270",
+"pfad": [],
+"seiten": [
+101
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0269",
+"nachher": "ar-stg__c0271"
+},
+{
+"id": "ar-stg__c0271",
+"titel": "StG AR – Abschnitt 271",
+"pfad": [],
+"seiten": [
+101
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0270",
+"nachher": "ar-stg__c0272"
+},
+{
+"id": "ar-stg__c0272",
+"titel": "StG AR – Abschnitt 272",
+"pfad": [],
+"seiten": [
+102
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0271",
+"nachher": "ar-stg__c0273"
+},
+{
+"id": "ar-stg__c0273",
+"titel": "StG AR – Abschnitt 273",
+"pfad": [],
+"seiten": [
+102
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0272",
+"nachher": "ar-stg__c0274"
+},
+{
+"id": "ar-stg__c0274",
+"titel": "StG AR – Abschnitt 274",
+"pfad": [],
+"seiten": [
+103
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0273",
+"nachher": "ar-stg__c0275"
+},
+{
+"id": "ar-stg__c0275",
+"titel": "StG AR – Abschnitt 275",
+"pfad": [],
+"seiten": [
+103
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0274",
+"nachher": "ar-stg__c0276"
+},
+{
+"id": "ar-stg__c0276",
+"titel": "StG AR – Abschnitt 276",
+"pfad": [],
+"seiten": [
+103
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0275",
+"nachher": "ar-stg__c0277"
+},
+{
+"id": "ar-stg__c0277",
+"titel": "StG AR – Abschnitt 277",
+"pfad": [],
+"seiten": [
+103
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0276",
+"nachher": "ar-stg__c0278"
+},
+{
+"id": "ar-stg__c0278",
+"titel": "StG AR – Abschnitt 278",
+"pfad": [],
+"seiten": [
+104
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0277",
+"nachher": "ar-stg__c0279"
+},
+{
+"id": "ar-stg__c0279",
+"titel": "StG AR – Abschnitt 279",
+"pfad": [],
+"seiten": [
+104
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0278",
+"nachher": "ar-stg__c0280"
+},
+{
+"id": "ar-stg__c0280",
+"titel": "StG AR – Abschnitt 280",
+"pfad": [],
+"seiten": [
+104
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0279",
+"nachher": "ar-stg__c0281"
+},
+{
+"id": "ar-stg__c0281",
+"titel": "StG AR – Abschnitt 281",
+"pfad": [],
+"seiten": [
+105
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0280",
+"nachher": "ar-stg__c0282"
+},
+{
+"id": "ar-stg__c0282",
+"titel": "StG AR – Abschnitt 282",
+"pfad": [],
+"seiten": [
+105
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0281",
+"nachher": "ar-stg__c0283"
+},
+{
+"id": "ar-stg__c0283",
+"titel": "StG AR – Abschnitt 283",
+"pfad": [],
+"seiten": [
+105
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0282",
+"nachher": "ar-stg__c0284"
+},
+{
+"id": "ar-stg__c0284",
+"titel": "StG AR – Abschnitt 284",
+"pfad": [],
+"seiten": [
+106
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0283",
+"nachher": "ar-stg__c0285"
+},
+{
+"id": "ar-stg__c0285",
+"titel": "StG AR – Abschnitt 285",
+"pfad": [],
+"seiten": [
+106
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0284",
+"nachher": "ar-stg__c0286"
+},
+{
+"id": "ar-stg__c0286",
+"titel": "StG AR – Abschnitt 286",
+"pfad": [],
+"seiten": [
+106
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0285",
+"nachher": "ar-stg__c0287"
+},
+{
+"id": "ar-stg__c0287",
+"titel": "StG AR – Abschnitt 287",
+"pfad": [],
+"seiten": [
+107
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0286",
+"nachher": "ar-stg__c0288"
+},
+{
+"id": "ar-stg__c0288",
+"titel": "StG AR – Abschnitt 288",
+"pfad": [],
+"seiten": [
+107
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0287",
+"nachher": "ar-stg__c0289"
+},
+{
+"id": "ar-stg__c0289",
+"titel": "StG AR – Abschnitt 289",
+"pfad": [],
+"seiten": [
+107
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0288",
+"nachher": "ar-stg__c0290"
+},
+{
+"id": "ar-stg__c0290",
+"titel": "StG AR – Abschnitt 290",
+"pfad": [],
+"seiten": [
+108
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0289",
+"nachher": "ar-stg__c0291"
+},
+{
+"id": "ar-stg__c0291",
+"titel": "StG AR – Abschnitt 291",
+"pfad": [],
+"seiten": [
+108
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0290",
+"nachher": "ar-stg__c0292"
+},
+{
+"id": "ar-stg__c0292",
+"titel": "StG AR – Abschnitt 292",
+"pfad": [],
+"seiten": [
+108
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0291",
+"nachher": "ar-stg__c0293"
+},
+{
+"id": "ar-stg__c0293",
+"titel": "StG AR – Abschnitt 293",
+"pfad": [],
+"seiten": [
+109
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0292",
+"nachher": "ar-stg__c0294"
+},
+{
+"id": "ar-stg__c0294",
+"titel": "StG AR – Abschnitt 294",
+"pfad": [],
+"seiten": [
+109
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0293",
+"nachher": "ar-stg__c0295"
+},
+{
+"id": "ar-stg__c0295",
+"titel": "StG AR – Abschnitt 295",
+"pfad": [],
+"seiten": [
+109
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0294",
+"nachher": "ar-stg__c0296"
+},
+{
+"id": "ar-stg__c0296",
+"titel": "StG AR – Abschnitt 296",
+"pfad": [],
+"seiten": [
+110
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0295",
+"nachher": "ar-stg__c0297"
+},
+{
+"id": "ar-stg__c0297",
+"titel": "StG AR – Abschnitt 297",
+"pfad": [],
+"seiten": [
+110
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0296",
+"nachher": "ar-stg__c0298"
+},
+{
+"id": "ar-stg__c0298",
+"titel": "StG AR – Abschnitt 298",
+"pfad": [],
+"seiten": [
+110
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0297",
+"nachher": "ar-stg__c0299"
+},
+{
+"id": "ar-stg__c0299",
+"titel": "StG AR – Abschnitt 299",
+"pfad": [],
+"seiten": [
+111
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0298",
+"nachher": "ar-stg__c0300"
+},
+{
+"id": "ar-stg__c0300",
+"titel": "StG AR – Abschnitt 300",
+"pfad": [],
+"seiten": [
+111
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0299",
+"nachher": "ar-stg__c0301"
+},
+{
+"id": "ar-stg__c0301",
+"titel": "StG AR – Abschnitt 301",
+"pfad": [],
+"seiten": [
+112
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0300",
+"nachher": "ar-stg__c0302"
+},
+{
+"id": "ar-stg__c0302",
+"titel": "StG AR – Abschnitt 302",
+"pfad": [],
+"seiten": [
+112
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0301",
+"nachher": "ar-stg__c0303"
+},
+{
+"id": "ar-stg__c0303",
+"titel": "StG AR – Abschnitt 303",
+"pfad": [],
+"seiten": [
+113
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0302",
+"nachher": "ar-stg__c0304"
+},
+{
+"id": "ar-stg__c0304",
+"titel": "StG AR – Abschnitt 304",
+"pfad": [],
+"seiten": [
+113
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0303",
+"nachher": "ar-stg__c0305"
+},
+{
+"id": "ar-stg__c0305",
+"titel": "StG AR – Abschnitt 305",
+"pfad": [],
+"seiten": [
+114
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0304",
+"nachher": "ar-stg__c0306"
+},
+{
+"id": "ar-stg__c0306",
+"titel": "StG AR – Abschnitt 306",
+"pfad": [],
+"seiten": [
+114
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0305",
+"nachher": "ar-stg__c0307"
+},
+{
+"id": "ar-stg__c0307",
+"titel": "StG AR – Abschnitt 307",
+"pfad": [],
+"seiten": [
+114
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0306",
+"nachher": "ar-stg__c0308"
+},
+{
+"id": "ar-stg__c0308",
+"titel": "StG AR – Abschnitt 308",
+"pfad": [],
+"seiten": [
+115
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0307",
+"nachher": "ar-stg__c0309"
+},
+{
+"id": "ar-stg__c0309",
+"titel": "StG AR – Abschnitt 309",
+"pfad": [],
+"seiten": [
+115
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0308",
+"nachher": "ar-stg__c0310"
+},
+{
+"id": "ar-stg__c0310",
+"titel": "StG AR – Abschnitt 310",
+"pfad": [],
+"seiten": [
+116
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0309",
+"nachher": "ar-stg__c0311"
+},
+{
+"id": "ar-stg__c0311",
+"titel": "StG AR – Abschnitt 311",
+"pfad": [],
+"seiten": [
+116
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0310",
+"nachher": "ar-stg__c0312"
+},
+{
+"id": "ar-stg__c0312",
+"titel": "StG AR – Abschnitt 312",
+"pfad": [],
+"seiten": [
+116
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0311",
+"nachher": "ar-stg__c0313"
+},
+{
+"id": "ar-stg__c0313",
+"titel": "StG AR – Abschnitt 313",
+"pfad": [],
+"seiten": [
+117
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0312",
+"nachher": "ar-stg__c0314"
+},
+{
+"id": "ar-stg__c0314",
+"titel": "StG AR – Abschnitt 314",
+"pfad": [],
+"seiten": [
+117
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0313",
+"nachher": "ar-stg__c0315"
+},
+{
+"id": "ar-stg__c0315",
+"titel": "StG AR – Abschnitt 315",
+"pfad": [],
+"seiten": [
+117
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0314",
+"nachher": "ar-stg__c0316"
+},
+{
+"id": "ar-stg__c0316",
+"titel": "StG AR – Abschnitt 316",
+"pfad": [],
+"seiten": [
+118
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0315",
+"nachher": "ar-stg__c0317"
+},
+{
+"id": "ar-stg__c0317",
+"titel": "StG AR – Abschnitt 317",
+"pfad": [],
+"seiten": [
+118
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0316",
+"nachher": "ar-stg__c0318"
+},
+{
+"id": "ar-stg__c0318",
+"titel": "StG AR – Abschnitt 318",
+"pfad": [],
+"seiten": [
+118
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0317",
+"nachher": "ar-stg__c0319"
+},
+{
+"id": "ar-stg__c0319",
+"titel": "StG AR – Abschnitt 319",
+"pfad": [],
+"seiten": [
+119
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0318",
+"nachher": "ar-stg__c0320"
+},
+{
+"id": "ar-stg__c0320",
+"titel": "StG AR – Abschnitt 320",
+"pfad": [],
+"seiten": [
+119
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0319",
+"nachher": "ar-stg__c0321"
+},
+{
+"id": "ar-stg__c0321",
+"titel": "StG AR – Abschnitt 321",
+"pfad": [],
+"seiten": [
+119
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0320",
+"nachher": "ar-stg__c0322"
+},
+{
+"id": "ar-stg__c0322",
+"titel": "StG AR – Abschnitt 322",
+"pfad": [],
+"seiten": [
+120
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0321",
+"nachher": "ar-stg__c0323"
+},
+{
+"id": "ar-stg__c0323",
+"titel": "StG AR – Abschnitt 323",
+"pfad": [],
+"seiten": [
+120
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0322",
+"nachher": "ar-stg__c0324"
+},
+{
+"id": "ar-stg__c0324",
+"titel": "StG AR – Abschnitt 324",
+"pfad": [],
+"seiten": [
+120
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0323",
+"nachher": "ar-stg__c0325"
+},
+{
+"id": "ar-stg__c0325",
+"titel": "StG AR – Abschnitt 325",
+"pfad": [],
+"seiten": [
+121
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0324",
+"nachher": "ar-stg__c0326"
+},
+{
+"id": "ar-stg__c0326",
+"titel": "StG AR – Abschnitt 326",
+"pfad": [],
+"seiten": [
+121
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0325",
+"nachher": "ar-stg__c0327"
+},
+{
+"id": "ar-stg__c0327",
+"titel": "StG AR – Abschnitt 327",
+"pfad": [],
+"seiten": [
+122
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0326",
+"nachher": "ar-stg__c0328"
+},
+{
+"id": "ar-stg__c0328",
+"titel": "StG AR – Abschnitt 328",
+"pfad": [],
+"seiten": [
+122
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0327",
+"nachher": "ar-stg__c0329"
+},
+{
+"id": "ar-stg__c0329",
+"titel": "StG AR – Abschnitt 329",
+"pfad": [],
+"seiten": [
+122
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0328",
+"nachher": "ar-stg__c0330"
+},
+{
+"id": "ar-stg__c0330",
+"titel": "StG AR – Abschnitt 330",
+"pfad": [],
+"seiten": [
+123
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0329",
+"nachher": "ar-stg__c0331"
+},
+{
+"id": "ar-stg__c0331",
+"titel": "StG AR – Abschnitt 331",
+"pfad": [],
+"seiten": [
+123
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0330",
+"nachher": "ar-stg__c0332"
+},
+{
+"id": "ar-stg__c0332",
+"titel": "StG AR – Abschnitt 332",
+"pfad": [],
+"seiten": [
+123
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0331",
+"nachher": "ar-stg__c0333"
+},
+{
+"id": "ar-stg__c0333",
+"titel": "StG AR – Abschnitt 333",
+"pfad": [],
+"seiten": [
+123
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0332",
+"nachher": "ar-stg__c0334"
+},
+{
+"id": "ar-stg__c0334",
+"titel": "StG AR – Abschnitt 334",
+"pfad": [],
+"seiten": [
+124
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0333",
+"nachher": "ar-stg__c0335"
+},
+{
+"id": "ar-stg__c0335",
+"titel": "StG AR – Abschnitt 335",
+"pfad": [],
+"seiten": [
+124
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0334",
+"nachher": "ar-stg__c0336"
+},
+{
+"id": "ar-stg__c0336",
+"titel": "StG AR – Abschnitt 336",
+"pfad": [],
+"seiten": [
+124
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0335",
+"nachher": "ar-stg__c0337"
+},
+{
+"id": "ar-stg__c0337",
+"titel": "StG AR – Abschnitt 337",
+"pfad": [],
+"seiten": [
+124
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0336",
+"nachher": "ar-stg__c0338"
+},
+{
+"id": "ar-stg__c0338",
+"titel": "StG AR – Abschnitt 338",
+"pfad": [],
+"seiten": [
+125
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0337",
+"nachher": "ar-stg__c0339"
+},
+{
+"id": "ar-stg__c0339",
+"titel": "StG AR – Abschnitt 339",
+"pfad": [],
+"seiten": [
+125
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0338",
+"nachher": "ar-stg__c0340"
+},
+{
+"id": "ar-stg__c0340",
+"titel": "StG AR – Abschnitt 340",
+"pfad": [],
+"seiten": [
+125
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0339",
+"nachher": "ar-stg__c0341"
+},
+{
+"id": "ar-stg__c0341",
+"titel": "StG AR – Abschnitt 341",
+"pfad": [],
+"seiten": [
+125
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0340",
+"nachher": "ar-stg__c0342"
+},
+{
+"id": "ar-stg__c0342",
+"titel": "StG AR – Abschnitt 342",
+"pfad": [],
+"seiten": [
+125
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0341",
+"nachher": "ar-stg__c0343"
+},
+{
+"id": "ar-stg__c0343",
+"titel": "StG AR – Abschnitt 343",
+"pfad": [],
+"seiten": [
+126
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0342",
+"nachher": "ar-stg__c0344"
+},
+{
+"id": "ar-stg__c0344",
+"titel": "StG AR – Abschnitt 344",
+"pfad": [],
+"seiten": [
+126
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0343",
+"nachher": "ar-stg__c0345"
+},
+{
+"id": "ar-stg__c0345",
+"titel": "StG AR – Abschnitt 345",
+"pfad": [],
+"seiten": [
+126
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0344",
+"nachher": "ar-stg__c0346"
+},
+{
+"id": "ar-stg__c0346",
+"titel": "StG AR – Abschnitt 346",
+"pfad": [],
+"seiten": [
+126
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0345",
+"nachher": "ar-stg__c0347"
+},
+{
+"id": "ar-stg__c0347",
+"titel": "StG AR – Abschnitt 347",
+"pfad": [],
+"seiten": [
+126
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0346",
+"nachher": "ar-stg__c0348"
+},
+{
+"id": "ar-stg__c0348",
+"titel": "StG AR – Abschnitt 348",
+"pfad": [],
+"seiten": [
+126
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0347",
+"nachher": "ar-stg__c0349"
+},
+{
+"id": "ar-stg__c0349",
+"titel": "StG AR – Abschnitt 349",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0348",
+"nachher": "ar-stg__c0350"
+},
+{
+"id": "ar-stg__c0350",
+"titel": "StG AR – Abschnitt 350",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0349",
+"nachher": "ar-stg__c0351"
+},
+{
+"id": "ar-stg__c0351",
+"titel": "StG AR – Abschnitt 351",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0350",
+"nachher": "ar-stg__c0352"
+},
+{
+"id": "ar-stg__c0352",
+"titel": "StG AR – Abschnitt 352",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0351",
+"nachher": "ar-stg__c0353"
+},
+{
+"id": "ar-stg__c0353",
+"titel": "StG AR – Abschnitt 353",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0352",
+"nachher": "ar-stg__c0354"
+},
+{
+"id": "ar-stg__c0354",
+"titel": "StG AR – Abschnitt 354",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0353",
+"nachher": "ar-stg__c0355"
+},
+{
+"id": "ar-stg__c0355",
+"titel": "StG AR – Abschnitt 355",
+"pfad": [],
+"seiten": [
+128
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0354",
+"nachher": "ar-stg__c0356"
+},
+{
+"id": "ar-stg__c0356",
+"titel": "StG AR – Abschnitt 356",
+"pfad": [],
+"seiten": [
+128
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0355",
+"nachher": "ar-stg__c0357"
+},
+{
+"id": "ar-stg__c0357",
+"titel": "StG AR – Abschnitt 357",
+"pfad": [],
+"seiten": [
+128
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0356",
+"nachher": "ar-stg__c0358"
+},
+{
+"id": "ar-stg__c0358",
+"titel": "StG AR – Abschnitt 358",
+"pfad": [],
+"seiten": [
+128
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0357",
+"nachher": "ar-stg__c0359"
+},
+{
+"id": "ar-stg__c0359",
+"titel": "StG AR – Abschnitt 359",
+"pfad": [],
+"seiten": [
+128
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0358",
+"nachher": "ar-stg__c0360"
+},
+{
+"id": "ar-stg__c0360",
+"titel": "StG AR – Abschnitt 360",
+"pfad": [],
+"seiten": [
+128
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0359",
+"nachher": "ar-stg__c0361"
+},
+{
+"id": "ar-stg__c0361",
+"titel": "StG AR – Abschnitt 361",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0360",
+"nachher": "ar-stg__c0362"
+},
+{
+"id": "ar-stg__c0362",
+"titel": "StG AR – Abschnitt 362",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0361",
+"nachher": "ar-stg__c0363"
+},
+{
+"id": "ar-stg__c0363",
+"titel": "StG AR – Abschnitt 363",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0362",
+"nachher": "ar-stg__c0364"
+},
+{
+"id": "ar-stg__c0364",
+"titel": "StG AR – Abschnitt 364",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0363",
+"nachher": "ar-stg__c0365"
+},
+{
+"id": "ar-stg__c0365",
+"titel": "StG AR – Abschnitt 365",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0364",
+"nachher": "ar-stg__c0366"
+},
+{
+"id": "ar-stg__c0366",
+"titel": "StG AR – Abschnitt 366",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0365",
+"nachher": "ar-stg__c0367"
+},
+{
+"id": "ar-stg__c0367",
+"titel": "StG AR – Abschnitt 367",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0366",
+"nachher": "ar-stg__c0368"
+},
+{
+"id": "ar-stg__c0368",
+"titel": "StG AR – Abschnitt 368",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0367",
+"nachher": "ar-stg__c0369"
+},
+{
+"id": "ar-stg__c0369",
+"titel": "StG AR – Abschnitt 369",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0368",
+"nachher": "ar-stg__c0370"
+},
+{
+"id": "ar-stg__c0370",
+"titel": "StG AR – Abschnitt 370",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0369",
+"nachher": "ar-stg__c0371"
+},
+{
+"id": "ar-stg__c0371",
+"titel": "StG AR – Abschnitt 371",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0370",
+"nachher": "ar-stg__c0372"
+},
+{
+"id": "ar-stg__c0372",
+"titel": "StG AR – Abschnitt 372",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0371",
+"nachher": "ar-stg__c0373"
+},
+{
+"id": "ar-stg__c0373",
+"titel": "StG AR – Abschnitt 373",
+"pfad": [],
+"seiten": [
+131
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0372",
+"nachher": "ar-stg__c0374"
+},
+{
+"id": "ar-stg__c0374",
+"titel": "StG AR – Abschnitt 374",
+"pfad": [],
+"seiten": [
+131
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0373",
+"nachher": "ar-stg__c0375"
+},
+{
+"id": "ar-stg__c0375",
+"titel": "StG AR – Abschnitt 375",
+"pfad": [],
+"seiten": [
+131
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0374",
+"nachher": "ar-stg__c0376"
+},
+{
+"id": "ar-stg__c0376",
+"titel": "StG AR – Abschnitt 376",
+"pfad": [],
+"seiten": [
+131
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0375",
+"nachher": "ar-stg__c0377"
+},
+{
+"id": "ar-stg__c0377",
+"titel": "StG AR – Abschnitt 377",
+"pfad": [],
+"seiten": [
+131
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0376",
+"nachher": "ar-stg__c0378"
+},
+{
+"id": "ar-stg__c0378",
+"titel": "StG AR – Abschnitt 378",
+"pfad": [],
+"seiten": [
+131
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0377",
+"nachher": "ar-stg__c0379"
+},
+{
+"id": "ar-stg__c0379",
+"titel": "StG AR – Abschnitt 379",
+"pfad": [],
+"seiten": [
+132
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0378",
+"nachher": "ar-stg__c0380"
+},
+{
+"id": "ar-stg__c0380",
+"titel": "StG AR – Abschnitt 380",
+"pfad": [],
+"seiten": [
+133
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0379",
+"nachher": "ar-stg__c0381"
+},
+{
+"id": "ar-stg__c0381",
+"titel": "StG AR – Abschnitt 381",
+"pfad": [],
+"seiten": [
+133
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0380",
+"nachher": "ar-stg__c0382"
+},
+{
+"id": "ar-stg__c0382",
+"titel": "StG AR – Abschnitt 382",
+"pfad": [],
+"seiten": [
+133
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0381",
+"nachher": "ar-stg__c0383"
+},
+{
+"id": "ar-stg__c0383",
+"titel": "StG AR – Abschnitt 383",
+"pfad": [],
+"seiten": [
+133
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0382",
+"nachher": "ar-stg__c0384"
+},
+{
+"id": "ar-stg__c0384",
+"titel": "StG AR – Abschnitt 384",
+"pfad": [],
+"seiten": [
+133
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0383",
+"nachher": "ar-stg__c0385"
+},
+{
+"id": "ar-stg__c0385",
+"titel": "StG AR – Abschnitt 385",
+"pfad": [],
+"seiten": [
+134
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0384",
+"nachher": "ar-stg__c0386"
+},
+{
+"id": "ar-stg__c0386",
+"titel": "StG AR – Abschnitt 386",
+"pfad": [],
+"seiten": [
+134
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0385",
+"nachher": "ar-stg__c0387"
+},
+{
+"id": "ar-stg__c0387",
+"titel": "StG AR – Abschnitt 387",
+"pfad": [],
+"seiten": [
+134
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0386",
+"nachher": "ar-stg__c0388"
+},
+{
+"id": "ar-stg__c0388",
+"titel": "StG AR – Abschnitt 388",
+"pfad": [],
+"seiten": [
+134
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0387",
+"nachher": "ar-stg__c0389"
+},
+{
+"id": "ar-stg__c0389",
+"titel": "StG AR – Abschnitt 389",
+"pfad": [],
+"seiten": [
+134
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0388",
+"nachher": "ar-stg__c0390"
+},
+{
+"id": "ar-stg__c0390",
+"titel": "StG AR – Abschnitt 390",
+"pfad": [],
+"seiten": [
+134
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0389",
+"nachher": "ar-stg__c0391"
+},
+{
+"id": "ar-stg__c0391",
+"titel": "StG AR – Abschnitt 391",
+"pfad": [],
+"seiten": [
+135
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0390",
+"nachher": "ar-stg__c0392"
+},
+{
+"id": "ar-stg__c0392",
+"titel": "StG AR – Abschnitt 392",
+"pfad": [],
+"seiten": [
+135
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0391",
+"nachher": "ar-stg__c0393"
+},
+{
+"id": "ar-stg__c0393",
+"titel": "StG AR – Abschnitt 393",
+"pfad": [],
+"seiten": [
+135
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0392",
+"nachher": "ar-stg__c0394"
+},
+{
+"id": "ar-stg__c0394",
+"titel": "StG AR – Abschnitt 394",
+"pfad": [],
+"seiten": [
+135
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0393",
+"nachher": "ar-stg__c0395"
+},
+{
+"id": "ar-stg__c0395",
+"titel": "StG AR – Abschnitt 395",
+"pfad": [],
+"seiten": [
+135
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0394",
+"nachher": "ar-stg__c0396"
+},
+{
+"id": "ar-stg__c0396",
+"titel": "StG AR – Abschnitt 396",
+"pfad": [],
+"seiten": [
+136
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0395",
+"nachher": "ar-stg__c0397"
+},
+{
+"id": "ar-stg__c0397",
+"titel": "StG AR – Abschnitt 397",
+"pfad": [],
+"seiten": [
+136
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0396",
+"nachher": "ar-stg__c0398"
+},
+{
+"id": "ar-stg__c0398",
+"titel": "StG AR – Abschnitt 398",
+"pfad": [],
+"seiten": [
+136
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0397",
+"nachher": "ar-stg__c0399"
+},
+{
+"id": "ar-stg__c0399",
+"titel": "StG AR – Abschnitt 399",
+"pfad": [],
+"seiten": [
+136
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0398",
+"nachher": "ar-stg__c0400"
+},
+{
+"id": "ar-stg__c0400",
+"titel": "StG AR – Abschnitt 400",
+"pfad": [],
+"seiten": [
+136
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0399",
+"nachher": "ar-stg__c0401"
+},
+{
+"id": "ar-stg__c0401",
+"titel": "StG AR – Abschnitt 401",
+"pfad": [],
+"seiten": [
+137
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0400",
+"nachher": "ar-stg__c0402"
+},
+{
+"id": "ar-stg__c0402",
+"titel": "StG AR – Abschnitt 402",
+"pfad": [],
+"seiten": [
+137
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0401",
+"nachher": "ar-stg__c0403"
+},
+{
+"id": "ar-stg__c0403",
+"titel": "StG AR – Abschnitt 403",
+"pfad": [],
+"seiten": [
+137
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0402",
+"nachher": "ar-stg__c0404"
+},
+{
+"id": "ar-stg__c0404",
+"titel": "StG AR – Abschnitt 404",
+"pfad": [],
+"seiten": [
+137
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0403",
+"nachher": "ar-stg__c0405"
+},
+{
+"id": "ar-stg__c0405",
+"titel": "StG AR – Abschnitt 405",
+"pfad": [],
+"seiten": [
+137
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0404",
+"nachher": "ar-stg__c0406"
+},
+{
+"id": "ar-stg__c0406",
+"titel": "StG AR – Abschnitt 406",
+"pfad": [],
+"seiten": [
+138
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0405",
+"nachher": "ar-stg__c0407"
+},
+{
+"id": "ar-stg__c0407",
+"titel": "StG AR – Abschnitt 407",
+"pfad": [],
+"seiten": [
+138
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0406",
+"nachher": "ar-stg__c0408"
+},
+{
+"id": "ar-stg__c0408",
+"titel": "StG AR – Abschnitt 408",
+"pfad": [],
+"seiten": [
+138
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0407",
+"nachher": "ar-stg__c0409"
+},
+{
+"id": "ar-stg__c0409",
+"titel": "StG AR – Abschnitt 409",
+"pfad": [],
+"seiten": [
+138
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0408",
+"nachher": "ar-stg__c0410"
+},
+{
+"id": "ar-stg__c0410",
+"titel": "StG AR – Abschnitt 410",
+"pfad": [],
+"seiten": [
+138
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0409",
+"nachher": "ar-stg__c0411"
+},
+{
+"id": "ar-stg__c0411",
+"titel": "StG AR – Abschnitt 411",
+"pfad": [],
+"seiten": [
+139
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0410",
+"nachher": "ar-stg__c0412"
+},
+{
+"id": "ar-stg__c0412",
+"titel": "StG AR – Abschnitt 412",
+"pfad": [],
+"seiten": [
+139
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0411",
+"nachher": "ar-stg__c0413"
+},
+{
+"id": "ar-stg__c0413",
+"titel": "StG AR – Abschnitt 413",
+"pfad": [],
+"seiten": [
+139
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0412",
+"nachher": "ar-stg__c0414"
+},
+{
+"id": "ar-stg__c0414",
+"titel": "StG AR – Abschnitt 414",
+"pfad": [],
+"seiten": [
+139
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0413",
+"nachher": "ar-stg__c0415"
+},
+{
+"id": "ar-stg__c0415",
+"titel": "StG AR – Abschnitt 415",
+"pfad": [],
+"seiten": [
+139
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0414",
+"nachher": "ar-stg__c0416"
+},
+{
+"id": "ar-stg__c0416",
+"titel": "StG AR – Abschnitt 416",
+"pfad": [],
+"seiten": [
+139
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0415",
+"nachher": "ar-stg__c0417"
+},
+{
+"id": "ar-stg__c0417",
+"titel": "StG AR – Abschnitt 417",
+"pfad": [],
+"seiten": [
+140
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0416",
+"nachher": "ar-stg__c0418"
+},
+{
+"id": "ar-stg__c0418",
+"titel": "StG AR – Abschnitt 418",
+"pfad": [],
+"seiten": [
+140
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0417",
+"nachher": "ar-stg__c0419"
+},
+{
+"id": "ar-stg__c0419",
+"titel": "StG AR – Abschnitt 419",
+"pfad": [],
+"seiten": [
+140
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0418",
+"nachher": "ar-stg__c0420"
+},
+{
+"id": "ar-stg__c0420",
+"titel": "StG AR – Abschnitt 420",
+"pfad": [],
+"seiten": [
+140
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0419",
+"nachher": "ar-stg__c0421"
+},
+{
+"id": "ar-stg__c0421",
+"titel": "StG AR – Abschnitt 421",
+"pfad": [],
+"seiten": [
+140
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0420",
+"nachher": "ar-stg__c0422"
+},
+{
+"id": "ar-stg__c0422",
+"titel": "StG AR – Abschnitt 422",
+"pfad": [],
+"seiten": [
+141
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0421",
+"nachher": "ar-stg__c0423"
+},
+{
+"id": "ar-stg__c0423",
+"titel": "StG AR – Abschnitt 423",
+"pfad": [],
+"seiten": [
+141
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0422",
+"nachher": "ar-stg__c0424"
+},
+{
+"id": "ar-stg__c0424",
+"titel": "StG AR – Abschnitt 424",
+"pfad": [],
+"seiten": [
+141
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0423",
+"nachher": "ar-stg__c0425"
+},
+{
+"id": "ar-stg__c0425",
+"titel": "StG AR – Abschnitt 425",
+"pfad": [],
+"seiten": [
+141
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0424",
+"nachher": "ar-stg__c0426"
+},
+{
+"id": "ar-stg__c0426",
+"titel": "StG AR – Abschnitt 426",
+"pfad": [],
+"seiten": [
+141
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0425",
+"nachher": "ar-stg__c0427"
+},
+{
+"id": "ar-stg__c0427",
+"titel": "StG AR – Abschnitt 427",
+"pfad": [],
+"seiten": [
+142,
+143
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0426",
+"nachher": "ar-stg__c0428"
+},
+{
+"id": "ar-stg__c0428",
+"titel": "StG AR – Abschnitt 428",
+"pfad": [],
+"seiten": [
+142,
+143
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0427",
+"nachher": "ar-stg__c0429"
+},
+{
+"id": "ar-stg__c0429",
+"titel": "StG AR – Abschnitt 429",
+"pfad": [],
+"seiten": [
+144
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-stg__c0428",
+"nachher": null
+}
+]

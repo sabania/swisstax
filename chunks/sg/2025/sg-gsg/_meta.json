@@ -1,0 +1,148 @@
+[
+{
+"id": "sg-gsg__c0001",
+"titel": "Grundstückschätzungsgesetz SG – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "sg-gsg__c0002"
+},
+{
+"id": "sg-gsg__c0002",
+"titel": "Grundstückschätzungsgesetz SG – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-gsg__c0001",
+"nachher": "sg-gsg__c0003"
+},
+{
+"id": "sg-gsg__c0003",
+"titel": "Grundstückschätzungsgesetz SG – Abschnitt 3",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-gsg__c0002",
+"nachher": "sg-gsg__c0004"
+},
+{
+"id": "sg-gsg__c0004",
+"titel": "Grundstückschätzungsgesetz SG – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-gsg__c0003",
+"nachher": "sg-gsg__c0005"
+},
+{
+"id": "sg-gsg__c0005",
+"titel": "Grundstückschätzungsgesetz SG – Abschnitt 5",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-gsg__c0004",
+"nachher": "sg-gsg__c0006"
+},
+{
+"id": "sg-gsg__c0006",
+"titel": "Grundstückschätzungsgesetz SG – Abschnitt 6",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-gsg__c0005",
+"nachher": "sg-gsg__c0007"
+},
+{
+"id": "sg-gsg__c0007",
+"titel": "Grundstückschätzungsgesetz SG – Abschnitt 7",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-gsg__c0006",
+"nachher": "sg-gsg__c0008"
+},
+{
+"id": "sg-gsg__c0008",
+"titel": "Grundstückschätzungsgesetz SG – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4,
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-gsg__c0007",
+"nachher": "sg-gsg__c0009"
+},
+{
+"id": "sg-gsg__c0009",
+"titel": "Grundstückschätzungsgesetz SG – Abschnitt 9",
+"pfad": [],
+"seiten": [
+4,
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-gsg__c0008",
+"nachher": null
+}
+]

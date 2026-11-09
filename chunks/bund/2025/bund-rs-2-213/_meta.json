@@ -1,0 +1,128 @@
+[
+{
+"id": "bund-rs-2-213__c0001",
+"titel": "RS 2-213 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "bund-rs-2-213__c0002"
+},
+{
+"id": "bund-rs-2-213__c0002",
+"titel": "RS 2-213 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-213__c0001",
+"nachher": "bund-rs-2-213__c0003"
+},
+{
+"id": "bund-rs-2-213__c0003",
+"titel": "RS 2-213 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-213__c0002",
+"nachher": "bund-rs-2-213__c0004"
+},
+{
+"id": "bund-rs-2-213__c0004",
+"titel": "RS 2-213 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-213__c0003",
+"nachher": "bund-rs-2-213__c0005"
+},
+{
+"id": "bund-rs-2-213__c0005",
+"titel": "RS 2-213 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-213__c0004",
+"nachher": "bund-rs-2-213__c0006"
+},
+{
+"id": "bund-rs-2-213__c0006",
+"titel": "RS 2-213 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-213__c0005",
+"nachher": "bund-rs-2-213__c0007"
+},
+{
+"id": "bund-rs-2-213__c0007",
+"titel": "RS 2-213 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-213__c0006",
+"nachher": "bund-rs-2-213__c0008"
+},
+{
+"id": "bund-rs-2-213__c0008",
+"titel": "RS 2-213 – Abschnitt 8",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-213__c0007",
+"nachher": null
+}
+]

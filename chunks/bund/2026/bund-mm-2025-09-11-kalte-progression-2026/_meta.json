@@ -1,0 +1,83 @@
+[
+{
+"id": "bund-mm-2025-09-11-kalte-progression-2026__c0001",
+"titel": "EFD passt Steuertarife an Teuerung an (Steuerjahr 2026; Auto 0.75/km)",
+"pfad": [
+"EFD passt Steuertarife an Teuerung an (Steuerjahr 2026; Auto 0.75/km)"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "bund-mm-2025-09-11-kalte-progression-2026__c0002"
+},
+{
+"id": "bund-mm-2025-09-11-kalte-progression-2026__c0002",
+"titel": "EFD passt Steuertarife an Teuerung an",
+"pfad": [
+"EFD passt Steuertarife an Teuerung an"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "bund-mm-2025-09-11-kalte-progression-2026__c0001",
+"nachher": "bund-mm-2025-09-11-kalte-progression-2026__c0003"
+},
+{
+"id": "bund-mm-2025-09-11-kalte-progression-2026__c0003",
+"titel": "EFD passt Steuertarife an Teuerung an",
+"pfad": [
+"EFD passt Steuertarife an Teuerung an"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "bund-mm-2025-09-11-kalte-progression-2026__c0002",
+"nachher": "bund-mm-2025-09-11-kalte-progression-2026__c0004"
+},
+{
+"id": "bund-mm-2025-09-11-kalte-progression-2026__c0004",
+"titel": "EFD passt Steuertarife an Teuerung an",
+"pfad": [
+"EFD passt Steuertarife an Teuerung an"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "bund-mm-2025-09-11-kalte-progression-2026__c0003",
+"nachher": "bund-mm-2025-09-11-kalte-progression-2026__c0005"
+},
+{
+"id": "bund-mm-2025-09-11-kalte-progression-2026__c0005",
+"titel": "Beilagen",
+"pfad": [
+"EFD passt Steuertarife an Teuerung an",
+"Beilagen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "bund-mm-2025-09-11-kalte-progression-2026__c0004",
+"nachher": null
+}
+]

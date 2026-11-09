@@ -1,0 +1,436 @@
+[
+{
+"id": "bund-wefv__art-1",
+"titel": "Art. 1 WEFV – Zulässige Verwendungszwecke",
+"pfad": [
+"1. Kapitel: Allgemeine Bestimmungen",
+"Art. 1 Zulässige Verwendungszwecke"
+],
+"seiten": [],
+"artikel": "Art. 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "bund-wefv__art-2"
+},
+{
+"id": "bund-wefv__art-2",
+"titel": "Art. 2 WEFV – Wohneigentum",
+"pfad": [
+"1. Kapitel: Allgemeine Bestimmungen",
+"Art. 2 Wohneigentum"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-1",
+"nachher": "bund-wefv__art-3"
+},
+{
+"id": "bund-wefv__art-3",
+"titel": "Art. 3 WEFV – Beteiligungen",
+"pfad": [
+"1. Kapitel: Allgemeine Bestimmungen",
+"Art. 3 Beteiligungen"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-2",
+"nachher": "bund-wefv__art-4"
+},
+{
+"id": "bund-wefv__art-4",
+"titel": "Art. 4 WEFV – Eigenbedarf",
+"pfad": [
+"1. Kapitel: Allgemeine Bestimmungen",
+"Art. 4 Eigenbedarf"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-3",
+"nachher": "bund-wefv__art-5"
+},
+{
+"id": "bund-wefv__art-5",
+"titel": "Art. 5 WEFV – Mindestbetrag und Begrenzung",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"1. Abschnitt: Vorbezug",
+"Art. 5 Mindestbetrag und Begrenzung"
+],
+"seiten": [],
+"artikel": "Art. 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-4",
+"nachher": "bund-wefv__art-6"
+},
+{
+"id": "bund-wefv__art-6",
+"titel": "Art. 6 WEFV – Auszahlung",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"1. Abschnitt: Vorbezug",
+"Art. 6 Auszahlung"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-5",
+"nachher": "bund-wefv__art-6a"
+},
+{
+"id": "bund-wefv__art-6a",
+"titel": "Art. 6a WEFV – Beschränkung der Auszahlung bei Unterdeckung",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"1. Abschnitt: Vorbezug",
+"Art. 6a Beschränkung der Auszahlung bei Unterdeckung"
+],
+"seiten": [],
+"artikel": "Art. 6a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-6",
+"nachher": "bund-wefv__art-7"
+},
+{
+"id": "bund-wefv__art-7",
+"titel": "Art. 7 WEFV – Rückzahlung",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"1. Abschnitt: Vorbezug",
+"Art. 7 Rückzahlung"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-6a",
+"nachher": "bund-wefv__art-8"
+},
+{
+"id": "bund-wefv__art-8",
+"titel": "Art. 8 WEFV – Begrenzung",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"2. Abschnitt: Verpfändung",
+"Art. 8 Begrenzung"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-7",
+"nachher": "bund-wefv__art-9"
+},
+{
+"id": "bund-wefv__art-9",
+"titel": "Art. 9 WEFV – Zustimmung des Pfandgläubigers",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"2. Abschnitt: Verpfändung",
+"Art. 9 Zustimmung des Pfandgläubigers"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-8",
+"nachher": "bund-wefv__art-10"
+},
+{
+"id": "bund-wefv__art-10",
+"titel": "Art. 10 WEFV – Nachweis",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"3. Abschnitt: Nachweis und Information",
+"Art. 10 Nachweis"
+],
+"seiten": [],
+"artikel": "Art. 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-9",
+"nachher": "bund-wefv__art-11"
+},
+{
+"id": "bund-wefv__art-11",
+"titel": "Art. 11 WEFV – Information der versicherten Person",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"3. Abschnitt: Nachweis und Information",
+"Art. 11 Information der versicherten Person"
+],
+"seiten": [],
+"artikel": "Art. 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-10",
+"nachher": "bund-wefv__art-11a"
+},
+{
+"id": "bund-wefv__art-11a",
+"titel": "Art. 11a WEFV – Freizügigkeitsleistung im Zeitpunkt des Vorbezugs",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"3. Abschnitt: Nachweis und Information",
+"Art. 11a Freizügigkeitsleistung im Zeitpunkt des Vorbezugs"
+],
+"seiten": [],
+"artikel": "Art. 11a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-11",
+"nachher": "bund-wefv__art-12"
+},
+{
+"id": "bund-wefv__art-12",
+"titel": "Art. 12 WEFV – Mitteilungspflicht der bisherigen Vorsorgeeinrichtung",
+"pfad": [
+"2. Kapitel: Modalitäten",
+"3. Abschnitt: Nachweis und Information",
+"Art. 12 Mitteilungspflicht der bisherigen Vorsorgeeinrichtung"
+],
+"seiten": [],
+"artikel": "Art. 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-11a",
+"nachher": "bund-wefv__art-13"
+},
+{
+"id": "bund-wefv__art-13",
+"titel": "Art. 13 WEFV – Meldepflichten",
+"pfad": [
+"3. Kapitel: Steuerliche Bestimmungen",
+"Art. 13 Meldepflichten"
+],
+"seiten": [],
+"artikel": "Art. 13",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-12",
+"nachher": "bund-wefv__art-14"
+},
+{
+"id": "bund-wefv__art-14",
+"titel": "Art. 14 WEFV – Steuerliche Behandlung",
+"pfad": [
+"3. Kapitel: Steuerliche Bestimmungen",
+"Art. 14 Steuerliche Behandlung"
+],
+"seiten": [],
+"artikel": "Art. 14",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-13",
+"nachher": "bund-wefv__art-15"
+},
+{
+"id": "bund-wefv__art-15",
+"titel": "Art. 15 WEFV – Berechnung des Verkaufserlöses",
+"pfad": [
+"4. Kapitel: Besondere Bestimmungen",
+"Art. 15 Berechnung des Verkaufserlöses"
+],
+"seiten": [],
+"artikel": "Art. 15",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-14",
+"nachher": "bund-wefv__art-16"
+},
+{
+"id": "bund-wefv__art-16",
+"titel": "Art. 16 WEFV – Beteiligung an Wohnbaugenossenschaften und an ähnlichen Formen",
+"pfad": [
+"4. Kapitel: Besondere Bestimmungen",
+"Art. 16 Beteiligung an Wohnbaugenossenschaften und an ähnlichen Formen"
+],
+"seiten": [],
+"artikel": "Art. 16",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-15",
+"nachher": "bund-wefv__art-17"
+},
+{
+"id": "bund-wefv__art-17",
+"titel": "Art. 17 WEFV – Kosten der Zusatzversicherung",
+"pfad": [
+"4. Kapitel: Besondere Bestimmungen",
+"Art. 17 Kosten der Zusatzversicherung"
+],
+"seiten": [],
+"artikel": "Art. 17",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-16",
+"nachher": "bund-wefv__art-18"
+},
+{
+"id": "bund-wefv__art-18",
+"titel": "Art. 18 WEFV",
+"pfad": [
+"5. Kapitel: Schlussbestimmungen",
+"Art. 18"
+],
+"seiten": [],
+"artikel": "Art. 18",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-17",
+"nachher": "bund-wefv__art-19"
+},
+{
+"id": "bund-wefv__art-19",
+"titel": "Art. 19 WEFV – Aufhebung bisherigen Rechts",
+"pfad": [
+"5. Kapitel: Schlussbestimmungen",
+"Art. 19 Aufhebung bisherigen Rechts"
+],
+"seiten": [],
+"artikel": "Art. 19",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-18",
+"nachher": "bund-wefv__art-20"
+},
+{
+"id": "bund-wefv__art-20",
+"titel": "Art. 20 WEFV – Änderung bisherigen Rechts",
+"pfad": [
+"5. Kapitel: Schlussbestimmungen",
+"Art. 20 Änderung bisherigen Rechts"
+],
+"seiten": [],
+"artikel": "Art. 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-19",
+"nachher": "bund-wefv__art-20a"
+},
+{
+"id": "bund-wefv__art-20a",
+"titel": "Art. 20a WEFV – Übergangsbestimmung zur Änderung vom 10. Juni 2016",
+"pfad": [
+"5. Kapitel: Schlussbestimmungen",
+"Art. 20a Übergangsbestimmung zur Änderung vom 10. Juni 2016"
+],
+"seiten": [],
+"artikel": "Art. 20a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-20",
+"nachher": "bund-wefv__art-21"
+},
+{
+"id": "bund-wefv__art-21",
+"titel": "Art. 21 WEFV – Inkrafttreten",
+"pfad": [
+"5. Kapitel: Schlussbestimmungen",
+"Art. 21 Inkrafttreten"
+],
+"seiten": [],
+"artikel": "Art. 21",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-20a",
+"nachher": "bund-wefv__schlussbest-disp-u1"
+},
+{
+"id": "bund-wefv__schlussbest-disp-u1",
+"titel": "Schlussbestimmung der Änderung vom 27. Oktober 2004 WEFV",
+"pfad": [
+"Schlussbestimmung der Änderung vom 27. Oktober 2004"
+],
+"seiten": [],
+"artikel": "Schlussbestimmung der Änderung vom 27. Oktober 2004",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-wefv__art-21",
+"nachher": null
+}
+]

@@ -1,0 +1,15 @@
+---
+id: bund-dbg-2025__art-160
+quelle: bund-dbg-2025
+jur: bund
+jahre: [2025]
+typ: gesetz
+titel: "Art. 160 DBG"
+artikel: "Art. 160"
+qmd: {metadata: {jur: bund, jahre: [2025], typ: gesetz}}
+---
+> Bund · Steuerjahr 2025 · DBG · Achter Titel: Bezug und Sicherung der Steuer › 1. Kapitel: Bezugskanton › Art. 160
+
+### Art. 160 DBG
+
+Die Steuer wird durch den Kanton bezogen, in dem die Veranlagung vorgenommen worden ist.

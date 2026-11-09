@@ -1,0 +1,5842 @@
+[
+{
+"id": "sg-stg__c0001",
+"titel": "StG SG – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "sg-stg__c0002"
+},
+{
+"id": "sg-stg__c0002",
+"titel": "StG SG – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0001",
+"nachher": "sg-stg__c0003"
+},
+{
+"id": "sg-stg__c0003",
+"titel": "StG SG – Abschnitt 3",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0002",
+"nachher": "sg-stg__c0004"
+},
+{
+"id": "sg-stg__c0004",
+"titel": "StG SG – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0003",
+"nachher": "sg-stg__c0005"
+},
+{
+"id": "sg-stg__c0005",
+"titel": "StG SG – Abschnitt 5",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0004",
+"nachher": "sg-stg__c0006"
+},
+{
+"id": "sg-stg__c0006",
+"titel": "StG SG – Abschnitt 6",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0005",
+"nachher": "sg-stg__c0007"
+},
+{
+"id": "sg-stg__c0007",
+"titel": "StG SG – Abschnitt 7",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0006",
+"nachher": "sg-stg__c0008"
+},
+{
+"id": "sg-stg__c0008",
+"titel": "StG SG – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0007",
+"nachher": "sg-stg__c0009"
+},
+{
+"id": "sg-stg__c0009",
+"titel": "StG SG – Abschnitt 9",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0008",
+"nachher": "sg-stg__c0010"
+},
+{
+"id": "sg-stg__c0010",
+"titel": "StG SG – Abschnitt 10",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0009",
+"nachher": "sg-stg__c0011"
+},
+{
+"id": "sg-stg__c0011",
+"titel": "StG SG – Abschnitt 11",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0010",
+"nachher": "sg-stg__c0012"
+},
+{
+"id": "sg-stg__c0012",
+"titel": "StG SG – Abschnitt 12",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0011",
+"nachher": "sg-stg__c0013"
+},
+{
+"id": "sg-stg__c0013",
+"titel": "StG SG – Abschnitt 13",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0012",
+"nachher": "sg-stg__c0014"
+},
+{
+"id": "sg-stg__c0014",
+"titel": "StG SG – Abschnitt 14",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0013",
+"nachher": "sg-stg__c0015"
+},
+{
+"id": "sg-stg__c0015",
+"titel": "StG SG – Abschnitt 15",
+"pfad": [],
+"seiten": [
+6
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0014",
+"nachher": "sg-stg__c0016"
+},
+{
+"id": "sg-stg__c0016",
+"titel": "StG SG – Abschnitt 16",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0015",
+"nachher": "sg-stg__c0017"
+},
+{
+"id": "sg-stg__c0017",
+"titel": "StG SG – Abschnitt 17",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0016",
+"nachher": "sg-stg__c0018"
+},
+{
+"id": "sg-stg__c0018",
+"titel": "StG SG – Abschnitt 18",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0017",
+"nachher": "sg-stg__c0019"
+},
+{
+"id": "sg-stg__c0019",
+"titel": "StG SG – Abschnitt 19",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0018",
+"nachher": "sg-stg__c0020"
+},
+{
+"id": "sg-stg__c0020",
+"titel": "StG SG – Abschnitt 20",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0019",
+"nachher": "sg-stg__c0021"
+},
+{
+"id": "sg-stg__c0021",
+"titel": "StG SG – Abschnitt 21",
+"pfad": [],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0020",
+"nachher": "sg-stg__c0022"
+},
+{
+"id": "sg-stg__c0022",
+"titel": "StG SG – Abschnitt 22",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0021",
+"nachher": "sg-stg__c0023"
+},
+{
+"id": "sg-stg__c0023",
+"titel": "StG SG – Abschnitt 23",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0022",
+"nachher": "sg-stg__c0024"
+},
+{
+"id": "sg-stg__c0024",
+"titel": "StG SG – Abschnitt 24",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0023",
+"nachher": "sg-stg__c0025"
+},
+{
+"id": "sg-stg__c0025",
+"titel": "StG SG – Abschnitt 25",
+"pfad": [],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0024",
+"nachher": "sg-stg__c0026"
+},
+{
+"id": "sg-stg__c0026",
+"titel": "StG SG – Abschnitt 26",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0025",
+"nachher": "sg-stg__c0027"
+},
+{
+"id": "sg-stg__c0027",
+"titel": "StG SG – Abschnitt 27",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0026",
+"nachher": "sg-stg__c0028"
+},
+{
+"id": "sg-stg__c0028",
+"titel": "StG SG – Abschnitt 28",
+"pfad": [],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0027",
+"nachher": "sg-stg__c0029"
+},
+{
+"id": "sg-stg__c0029",
+"titel": "StG SG – Abschnitt 29",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0028",
+"nachher": "sg-stg__c0030"
+},
+{
+"id": "sg-stg__c0030",
+"titel": "StG SG – Abschnitt 30",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0029",
+"nachher": "sg-stg__c0031"
+},
+{
+"id": "sg-stg__c0031",
+"titel": "StG SG – Abschnitt 31",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0030",
+"nachher": "sg-stg__c0032"
+},
+{
+"id": "sg-stg__c0032",
+"titel": "StG SG – Abschnitt 32",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0031",
+"nachher": "sg-stg__c0033"
+},
+{
+"id": "sg-stg__c0033",
+"titel": "StG SG – Abschnitt 33",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0032",
+"nachher": "sg-stg__c0034"
+},
+{
+"id": "sg-stg__c0034",
+"titel": "StG SG – Abschnitt 34",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0033",
+"nachher": "sg-stg__c0035"
+},
+{
+"id": "sg-stg__c0035",
+"titel": "StG SG – Abschnitt 35",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0034",
+"nachher": "sg-stg__c0036"
+},
+{
+"id": "sg-stg__c0036",
+"titel": "StG SG – Abschnitt 36",
+"pfad": [],
+"seiten": [
+13
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0035",
+"nachher": "sg-stg__c0037"
+},
+{
+"id": "sg-stg__c0037",
+"titel": "StG SG – Abschnitt 37",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0036",
+"nachher": "sg-stg__c0038"
+},
+{
+"id": "sg-stg__c0038",
+"titel": "StG SG – Abschnitt 38",
+"pfad": [],
+"seiten": [
+14
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0037",
+"nachher": "sg-stg__c0039"
+},
+{
+"id": "sg-stg__c0039",
+"titel": "StG SG – Abschnitt 39",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0038",
+"nachher": "sg-stg__c0040"
+},
+{
+"id": "sg-stg__c0040",
+"titel": "StG SG – Abschnitt 40",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0039",
+"nachher": "sg-stg__c0041"
+},
+{
+"id": "sg-stg__c0041",
+"titel": "StG SG – Abschnitt 41",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0040",
+"nachher": "sg-stg__c0042"
+},
+{
+"id": "sg-stg__c0042",
+"titel": "StG SG – Abschnitt 42",
+"pfad": [],
+"seiten": [
+15
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0041",
+"nachher": "sg-stg__c0043"
+},
+{
+"id": "sg-stg__c0043",
+"titel": "StG SG – Abschnitt 43",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0042",
+"nachher": "sg-stg__c0044"
+},
+{
+"id": "sg-stg__c0044",
+"titel": "StG SG – Abschnitt 44",
+"pfad": [],
+"seiten": [
+16
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0043",
+"nachher": "sg-stg__c0045"
+},
+{
+"id": "sg-stg__c0045",
+"titel": "StG SG – Abschnitt 45",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0044",
+"nachher": "sg-stg__c0046"
+},
+{
+"id": "sg-stg__c0046",
+"titel": "StG SG – Abschnitt 46",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0045",
+"nachher": "sg-stg__c0047"
+},
+{
+"id": "sg-stg__c0047",
+"titel": "StG SG – Abschnitt 47",
+"pfad": [],
+"seiten": [
+17
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0046",
+"nachher": "sg-stg__c0048"
+},
+{
+"id": "sg-stg__c0048",
+"titel": "StG SG – Abschnitt 48",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0047",
+"nachher": "sg-stg__c0049"
+},
+{
+"id": "sg-stg__c0049",
+"titel": "StG SG – Abschnitt 49",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0048",
+"nachher": "sg-stg__c0050"
+},
+{
+"id": "sg-stg__c0050",
+"titel": "StG SG – Abschnitt 50",
+"pfad": [],
+"seiten": [
+18
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0049",
+"nachher": "sg-stg__c0051"
+},
+{
+"id": "sg-stg__c0051",
+"titel": "StG SG – Abschnitt 51",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0050",
+"nachher": "sg-stg__c0052"
+},
+{
+"id": "sg-stg__c0052",
+"titel": "StG SG – Abschnitt 52",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0051",
+"nachher": "sg-stg__c0053"
+},
+{
+"id": "sg-stg__c0053",
+"titel": "StG SG – Abschnitt 53",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0052",
+"nachher": "sg-stg__c0054"
+},
+{
+"id": "sg-stg__c0054",
+"titel": "StG SG – Abschnitt 54",
+"pfad": [],
+"seiten": [
+19
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0053",
+"nachher": "sg-stg__c0055"
+},
+{
+"id": "sg-stg__c0055",
+"titel": "StG SG – Abschnitt 55",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0054",
+"nachher": "sg-stg__c0056"
+},
+{
+"id": "sg-stg__c0056",
+"titel": "StG SG – Abschnitt 56",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0055",
+"nachher": "sg-stg__c0057"
+},
+{
+"id": "sg-stg__c0057",
+"titel": "StG SG – Abschnitt 57",
+"pfad": [],
+"seiten": [
+20
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0056",
+"nachher": "sg-stg__c0058"
+},
+{
+"id": "sg-stg__c0058",
+"titel": "StG SG – Abschnitt 58",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0057",
+"nachher": "sg-stg__c0059"
+},
+{
+"id": "sg-stg__c0059",
+"titel": "StG SG – Abschnitt 59",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0058",
+"nachher": "sg-stg__c0060"
+},
+{
+"id": "sg-stg__c0060",
+"titel": "StG SG – Abschnitt 60",
+"pfad": [],
+"seiten": [
+21
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0059",
+"nachher": "sg-stg__c0061"
+},
+{
+"id": "sg-stg__c0061",
+"titel": "StG SG – Abschnitt 61",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0060",
+"nachher": "sg-stg__c0062"
+},
+{
+"id": "sg-stg__c0062",
+"titel": "StG SG – Abschnitt 62",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0061",
+"nachher": "sg-stg__c0063"
+},
+{
+"id": "sg-stg__c0063",
+"titel": "StG SG – Abschnitt 63",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0062",
+"nachher": "sg-stg__c0064"
+},
+{
+"id": "sg-stg__c0064",
+"titel": "StG SG – Abschnitt 64",
+"pfad": [],
+"seiten": [
+22
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0063",
+"nachher": "sg-stg__c0065"
+},
+{
+"id": "sg-stg__c0065",
+"titel": "StG SG – Abschnitt 65",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0064",
+"nachher": "sg-stg__c0066"
+},
+{
+"id": "sg-stg__c0066",
+"titel": "StG SG – Abschnitt 66",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0065",
+"nachher": "sg-stg__c0067"
+},
+{
+"id": "sg-stg__c0067",
+"titel": "StG SG – Abschnitt 67",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0066",
+"nachher": "sg-stg__c0068"
+},
+{
+"id": "sg-stg__c0068",
+"titel": "StG SG – Abschnitt 68",
+"pfad": [],
+"seiten": [
+23
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0067",
+"nachher": "sg-stg__c0069"
+},
+{
+"id": "sg-stg__c0069",
+"titel": "StG SG – Abschnitt 69",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0068",
+"nachher": "sg-stg__c0070"
+},
+{
+"id": "sg-stg__c0070",
+"titel": "StG SG – Abschnitt 70",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0069",
+"nachher": "sg-stg__c0071"
+},
+{
+"id": "sg-stg__c0071",
+"titel": "StG SG – Abschnitt 71",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0070",
+"nachher": "sg-stg__c0072"
+},
+{
+"id": "sg-stg__c0072",
+"titel": "StG SG – Abschnitt 72",
+"pfad": [],
+"seiten": [
+24
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0071",
+"nachher": "sg-stg__c0073"
+},
+{
+"id": "sg-stg__c0073",
+"titel": "StG SG – Abschnitt 73",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0072",
+"nachher": "sg-stg__c0074"
+},
+{
+"id": "sg-stg__c0074",
+"titel": "StG SG – Abschnitt 74",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0073",
+"nachher": "sg-stg__c0075"
+},
+{
+"id": "sg-stg__c0075",
+"titel": "StG SG – Abschnitt 75",
+"pfad": [],
+"seiten": [
+25
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0074",
+"nachher": "sg-stg__c0076"
+},
+{
+"id": "sg-stg__c0076",
+"titel": "StG SG – Abschnitt 76",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0075",
+"nachher": "sg-stg__c0077"
+},
+{
+"id": "sg-stg__c0077",
+"titel": "StG SG – Abschnitt 77",
+"pfad": [],
+"seiten": [
+26
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0076",
+"nachher": "sg-stg__c0078"
+},
+{
+"id": "sg-stg__c0078",
+"titel": "StG SG – Abschnitt 78",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0077",
+"nachher": "sg-stg__c0079"
+},
+{
+"id": "sg-stg__c0079",
+"titel": "StG SG – Abschnitt 79",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0078",
+"nachher": "sg-stg__c0080"
+},
+{
+"id": "sg-stg__c0080",
+"titel": "StG SG – Abschnitt 80",
+"pfad": [],
+"seiten": [
+27
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0079",
+"nachher": "sg-stg__c0081"
+},
+{
+"id": "sg-stg__c0081",
+"titel": "StG SG – Abschnitt 81",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0080",
+"nachher": "sg-stg__c0082"
+},
+{
+"id": "sg-stg__c0082",
+"titel": "StG SG – Abschnitt 82",
+"pfad": [],
+"seiten": [
+28
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0081",
+"nachher": "sg-stg__c0083"
+},
+{
+"id": "sg-stg__c0083",
+"titel": "StG SG – Abschnitt 83",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0082",
+"nachher": "sg-stg__c0084"
+},
+{
+"id": "sg-stg__c0084",
+"titel": "StG SG – Abschnitt 84",
+"pfad": [],
+"seiten": [
+29
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0083",
+"nachher": "sg-stg__c0085"
+},
+{
+"id": "sg-stg__c0085",
+"titel": "StG SG – Abschnitt 85",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0084",
+"nachher": "sg-stg__c0086"
+},
+{
+"id": "sg-stg__c0086",
+"titel": "StG SG – Abschnitt 86",
+"pfad": [],
+"seiten": [
+30
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0085",
+"nachher": "sg-stg__c0087"
+},
+{
+"id": "sg-stg__c0087",
+"titel": "StG SG – Abschnitt 87",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0086",
+"nachher": "sg-stg__c0088"
+},
+{
+"id": "sg-stg__c0088",
+"titel": "StG SG – Abschnitt 88",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0087",
+"nachher": "sg-stg__c0089"
+},
+{
+"id": "sg-stg__c0089",
+"titel": "StG SG – Abschnitt 89",
+"pfad": [],
+"seiten": [
+31
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0088",
+"nachher": "sg-stg__c0090"
+},
+{
+"id": "sg-stg__c0090",
+"titel": "StG SG – Abschnitt 90",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0089",
+"nachher": "sg-stg__c0091"
+},
+{
+"id": "sg-stg__c0091",
+"titel": "StG SG – Abschnitt 91",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0090",
+"nachher": "sg-stg__c0092"
+},
+{
+"id": "sg-stg__c0092",
+"titel": "StG SG – Abschnitt 92",
+"pfad": [],
+"seiten": [
+32
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0091",
+"nachher": "sg-stg__c0093"
+},
+{
+"id": "sg-stg__c0093",
+"titel": "StG SG – Abschnitt 93",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0092",
+"nachher": "sg-stg__c0094"
+},
+{
+"id": "sg-stg__c0094",
+"titel": "StG SG – Abschnitt 94",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0093",
+"nachher": "sg-stg__c0095"
+},
+{
+"id": "sg-stg__c0095",
+"titel": "StG SG – Abschnitt 95",
+"pfad": [],
+"seiten": [
+33
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0094",
+"nachher": "sg-stg__c0096"
+},
+{
+"id": "sg-stg__c0096",
+"titel": "StG SG – Abschnitt 96",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0095",
+"nachher": "sg-stg__c0097"
+},
+{
+"id": "sg-stg__c0097",
+"titel": "StG SG – Abschnitt 97",
+"pfad": [],
+"seiten": [
+34
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0096",
+"nachher": "sg-stg__c0098"
+},
+{
+"id": "sg-stg__c0098",
+"titel": "StG SG – Abschnitt 98",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0097",
+"nachher": "sg-stg__c0099"
+},
+{
+"id": "sg-stg__c0099",
+"titel": "StG SG – Abschnitt 99",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0098",
+"nachher": "sg-stg__c0100"
+},
+{
+"id": "sg-stg__c0100",
+"titel": "StG SG – Abschnitt 100",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0099",
+"nachher": "sg-stg__c0101"
+},
+{
+"id": "sg-stg__c0101",
+"titel": "StG SG – Abschnitt 101",
+"pfad": [],
+"seiten": [
+35
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0100",
+"nachher": "sg-stg__c0102"
+},
+{
+"id": "sg-stg__c0102",
+"titel": "StG SG – Abschnitt 102",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0101",
+"nachher": "sg-stg__c0103"
+},
+{
+"id": "sg-stg__c0103",
+"titel": "StG SG – Abschnitt 103",
+"pfad": [],
+"seiten": [
+36
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0102",
+"nachher": "sg-stg__c0104"
+},
+{
+"id": "sg-stg__c0104",
+"titel": "StG SG – Abschnitt 104",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0103",
+"nachher": "sg-stg__c0105"
+},
+{
+"id": "sg-stg__c0105",
+"titel": "StG SG – Abschnitt 105",
+"pfad": [],
+"seiten": [
+37
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0104",
+"nachher": "sg-stg__c0106"
+},
+{
+"id": "sg-stg__c0106",
+"titel": "StG SG – Abschnitt 106",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0105",
+"nachher": "sg-stg__c0107"
+},
+{
+"id": "sg-stg__c0107",
+"titel": "StG SG – Abschnitt 107",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0106",
+"nachher": "sg-stg__c0108"
+},
+{
+"id": "sg-stg__c0108",
+"titel": "StG SG – Abschnitt 108",
+"pfad": [],
+"seiten": [
+38
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0107",
+"nachher": "sg-stg__c0109"
+},
+{
+"id": "sg-stg__c0109",
+"titel": "StG SG – Abschnitt 109",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0108",
+"nachher": "sg-stg__c0110"
+},
+{
+"id": "sg-stg__c0110",
+"titel": "StG SG – Abschnitt 110",
+"pfad": [],
+"seiten": [
+39
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0109",
+"nachher": "sg-stg__c0111"
+},
+{
+"id": "sg-stg__c0111",
+"titel": "StG SG – Abschnitt 111",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0110",
+"nachher": "sg-stg__c0112"
+},
+{
+"id": "sg-stg__c0112",
+"titel": "StG SG – Abschnitt 112",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0111",
+"nachher": "sg-stg__c0113"
+},
+{
+"id": "sg-stg__c0113",
+"titel": "StG SG – Abschnitt 113",
+"pfad": [],
+"seiten": [
+40
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0112",
+"nachher": "sg-stg__c0114"
+},
+{
+"id": "sg-stg__c0114",
+"titel": "StG SG – Abschnitt 114",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0113",
+"nachher": "sg-stg__c0115"
+},
+{
+"id": "sg-stg__c0115",
+"titel": "StG SG – Abschnitt 115",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0114",
+"nachher": "sg-stg__c0116"
+},
+{
+"id": "sg-stg__c0116",
+"titel": "StG SG – Abschnitt 116",
+"pfad": [],
+"seiten": [
+41
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0115",
+"nachher": "sg-stg__c0117"
+},
+{
+"id": "sg-stg__c0117",
+"titel": "StG SG – Abschnitt 117",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0116",
+"nachher": "sg-stg__c0118"
+},
+{
+"id": "sg-stg__c0118",
+"titel": "StG SG – Abschnitt 118",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0117",
+"nachher": "sg-stg__c0119"
+},
+{
+"id": "sg-stg__c0119",
+"titel": "StG SG – Abschnitt 119",
+"pfad": [],
+"seiten": [
+42
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0118",
+"nachher": "sg-stg__c0120"
+},
+{
+"id": "sg-stg__c0120",
+"titel": "StG SG – Abschnitt 120",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0119",
+"nachher": "sg-stg__c0121"
+},
+{
+"id": "sg-stg__c0121",
+"titel": "StG SG – Abschnitt 121",
+"pfad": [],
+"seiten": [
+43
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0120",
+"nachher": "sg-stg__c0122"
+},
+{
+"id": "sg-stg__c0122",
+"titel": "StG SG – Abschnitt 122",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0121",
+"nachher": "sg-stg__c0123"
+},
+{
+"id": "sg-stg__c0123",
+"titel": "StG SG – Abschnitt 123",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0122",
+"nachher": "sg-stg__c0124"
+},
+{
+"id": "sg-stg__c0124",
+"titel": "StG SG – Abschnitt 124",
+"pfad": [],
+"seiten": [
+44
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0123",
+"nachher": "sg-stg__c0125"
+},
+{
+"id": "sg-stg__c0125",
+"titel": "StG SG – Abschnitt 125",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0124",
+"nachher": "sg-stg__c0126"
+},
+{
+"id": "sg-stg__c0126",
+"titel": "StG SG – Abschnitt 126",
+"pfad": [],
+"seiten": [
+45
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0125",
+"nachher": "sg-stg__c0127"
+},
+{
+"id": "sg-stg__c0127",
+"titel": "StG SG – Abschnitt 127",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0126",
+"nachher": "sg-stg__c0128"
+},
+{
+"id": "sg-stg__c0128",
+"titel": "StG SG – Abschnitt 128",
+"pfad": [],
+"seiten": [
+46
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0127",
+"nachher": "sg-stg__c0129"
+},
+{
+"id": "sg-stg__c0129",
+"titel": "StG SG – Abschnitt 129",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0128",
+"nachher": "sg-stg__c0130"
+},
+{
+"id": "sg-stg__c0130",
+"titel": "StG SG – Abschnitt 130",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0129",
+"nachher": "sg-stg__c0131"
+},
+{
+"id": "sg-stg__c0131",
+"titel": "StG SG – Abschnitt 131",
+"pfad": [],
+"seiten": [
+47
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0130",
+"nachher": "sg-stg__c0132"
+},
+{
+"id": "sg-stg__c0132",
+"titel": "StG SG – Abschnitt 132",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0131",
+"nachher": "sg-stg__c0133"
+},
+{
+"id": "sg-stg__c0133",
+"titel": "StG SG – Abschnitt 133",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0132",
+"nachher": "sg-stg__c0134"
+},
+{
+"id": "sg-stg__c0134",
+"titel": "StG SG – Abschnitt 134",
+"pfad": [],
+"seiten": [
+48
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0133",
+"nachher": "sg-stg__c0135"
+},
+{
+"id": "sg-stg__c0135",
+"titel": "StG SG – Abschnitt 135",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0134",
+"nachher": "sg-stg__c0136"
+},
+{
+"id": "sg-stg__c0136",
+"titel": "StG SG – Abschnitt 136",
+"pfad": [],
+"seiten": [
+49
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0135",
+"nachher": "sg-stg__c0137"
+},
+{
+"id": "sg-stg__c0137",
+"titel": "StG SG – Abschnitt 137",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0136",
+"nachher": "sg-stg__c0138"
+},
+{
+"id": "sg-stg__c0138",
+"titel": "StG SG – Abschnitt 138",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0137",
+"nachher": "sg-stg__c0139"
+},
+{
+"id": "sg-stg__c0139",
+"titel": "StG SG – Abschnitt 139",
+"pfad": [],
+"seiten": [
+50
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0138",
+"nachher": "sg-stg__c0140"
+},
+{
+"id": "sg-stg__c0140",
+"titel": "StG SG – Abschnitt 140",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0139",
+"nachher": "sg-stg__c0141"
+},
+{
+"id": "sg-stg__c0141",
+"titel": "StG SG – Abschnitt 141",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0140",
+"nachher": "sg-stg__c0142"
+},
+{
+"id": "sg-stg__c0142",
+"titel": "StG SG – Abschnitt 142",
+"pfad": [],
+"seiten": [
+51
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0141",
+"nachher": "sg-stg__c0143"
+},
+{
+"id": "sg-stg__c0143",
+"titel": "StG SG – Abschnitt 143",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0142",
+"nachher": "sg-stg__c0144"
+},
+{
+"id": "sg-stg__c0144",
+"titel": "StG SG – Abschnitt 144",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0143",
+"nachher": "sg-stg__c0145"
+},
+{
+"id": "sg-stg__c0145",
+"titel": "StG SG – Abschnitt 145",
+"pfad": [],
+"seiten": [
+52
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0144",
+"nachher": "sg-stg__c0146"
+},
+{
+"id": "sg-stg__c0146",
+"titel": "StG SG – Abschnitt 146",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0145",
+"nachher": "sg-stg__c0147"
+},
+{
+"id": "sg-stg__c0147",
+"titel": "StG SG – Abschnitt 147",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0146",
+"nachher": "sg-stg__c0148"
+},
+{
+"id": "sg-stg__c0148",
+"titel": "StG SG – Abschnitt 148",
+"pfad": [],
+"seiten": [
+53
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0147",
+"nachher": "sg-stg__c0149"
+},
+{
+"id": "sg-stg__c0149",
+"titel": "StG SG – Abschnitt 149",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0148",
+"nachher": "sg-stg__c0150"
+},
+{
+"id": "sg-stg__c0150",
+"titel": "StG SG – Abschnitt 150",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0149",
+"nachher": "sg-stg__c0151"
+},
+{
+"id": "sg-stg__c0151",
+"titel": "StG SG – Abschnitt 151",
+"pfad": [],
+"seiten": [
+54
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0150",
+"nachher": "sg-stg__c0152"
+},
+{
+"id": "sg-stg__c0152",
+"titel": "StG SG – Abschnitt 152",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0151",
+"nachher": "sg-stg__c0153"
+},
+{
+"id": "sg-stg__c0153",
+"titel": "StG SG – Abschnitt 153",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0152",
+"nachher": "sg-stg__c0154"
+},
+{
+"id": "sg-stg__c0154",
+"titel": "StG SG – Abschnitt 154",
+"pfad": [],
+"seiten": [
+55
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0153",
+"nachher": "sg-stg__c0155"
+},
+{
+"id": "sg-stg__c0155",
+"titel": "StG SG – Abschnitt 155",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0154",
+"nachher": "sg-stg__c0156"
+},
+{
+"id": "sg-stg__c0156",
+"titel": "StG SG – Abschnitt 156",
+"pfad": [],
+"seiten": [
+56
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0155",
+"nachher": "sg-stg__c0157"
+},
+{
+"id": "sg-stg__c0157",
+"titel": "StG SG – Abschnitt 157",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0156",
+"nachher": "sg-stg__c0158"
+},
+{
+"id": "sg-stg__c0158",
+"titel": "StG SG – Abschnitt 158",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0157",
+"nachher": "sg-stg__c0159"
+},
+{
+"id": "sg-stg__c0159",
+"titel": "StG SG – Abschnitt 159",
+"pfad": [],
+"seiten": [
+57
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0158",
+"nachher": "sg-stg__c0160"
+},
+{
+"id": "sg-stg__c0160",
+"titel": "StG SG – Abschnitt 160",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0159",
+"nachher": "sg-stg__c0161"
+},
+{
+"id": "sg-stg__c0161",
+"titel": "StG SG – Abschnitt 161",
+"pfad": [],
+"seiten": [
+58
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0160",
+"nachher": "sg-stg__c0162"
+},
+{
+"id": "sg-stg__c0162",
+"titel": "StG SG – Abschnitt 162",
+"pfad": [],
+"seiten": [
+59
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0161",
+"nachher": "sg-stg__c0163"
+},
+{
+"id": "sg-stg__c0163",
+"titel": "StG SG – Abschnitt 163",
+"pfad": [],
+"seiten": [
+59
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0162",
+"nachher": "sg-stg__c0164"
+},
+{
+"id": "sg-stg__c0164",
+"titel": "StG SG – Abschnitt 164",
+"pfad": [],
+"seiten": [
+59
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0163",
+"nachher": "sg-stg__c0165"
+},
+{
+"id": "sg-stg__c0165",
+"titel": "StG SG – Abschnitt 165",
+"pfad": [],
+"seiten": [
+60
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0164",
+"nachher": "sg-stg__c0166"
+},
+{
+"id": "sg-stg__c0166",
+"titel": "StG SG – Abschnitt 166",
+"pfad": [],
+"seiten": [
+60
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0165",
+"nachher": "sg-stg__c0167"
+},
+{
+"id": "sg-stg__c0167",
+"titel": "StG SG – Abschnitt 167",
+"pfad": [],
+"seiten": [
+60
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0166",
+"nachher": "sg-stg__c0168"
+},
+{
+"id": "sg-stg__c0168",
+"titel": "StG SG – Abschnitt 168",
+"pfad": [],
+"seiten": [
+61
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0167",
+"nachher": "sg-stg__c0169"
+},
+{
+"id": "sg-stg__c0169",
+"titel": "StG SG – Abschnitt 169",
+"pfad": [],
+"seiten": [
+61
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0168",
+"nachher": "sg-stg__c0170"
+},
+{
+"id": "sg-stg__c0170",
+"titel": "StG SG – Abschnitt 170",
+"pfad": [],
+"seiten": [
+61
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0169",
+"nachher": "sg-stg__c0171"
+},
+{
+"id": "sg-stg__c0171",
+"titel": "StG SG – Abschnitt 171",
+"pfad": [],
+"seiten": [
+62
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0170",
+"nachher": "sg-stg__c0172"
+},
+{
+"id": "sg-stg__c0172",
+"titel": "StG SG – Abschnitt 172",
+"pfad": [],
+"seiten": [
+62
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0171",
+"nachher": "sg-stg__c0173"
+},
+{
+"id": "sg-stg__c0173",
+"titel": "StG SG – Abschnitt 173",
+"pfad": [],
+"seiten": [
+62
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0172",
+"nachher": "sg-stg__c0174"
+},
+{
+"id": "sg-stg__c0174",
+"titel": "StG SG – Abschnitt 174",
+"pfad": [],
+"seiten": [
+63
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0173",
+"nachher": "sg-stg__c0175"
+},
+{
+"id": "sg-stg__c0175",
+"titel": "StG SG – Abschnitt 175",
+"pfad": [],
+"seiten": [
+63
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0174",
+"nachher": "sg-stg__c0176"
+},
+{
+"id": "sg-stg__c0176",
+"titel": "StG SG – Abschnitt 176",
+"pfad": [],
+"seiten": [
+64
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0175",
+"nachher": "sg-stg__c0177"
+},
+{
+"id": "sg-stg__c0177",
+"titel": "StG SG – Abschnitt 177",
+"pfad": [],
+"seiten": [
+64
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0176",
+"nachher": "sg-stg__c0178"
+},
+{
+"id": "sg-stg__c0178",
+"titel": "StG SG – Abschnitt 178",
+"pfad": [],
+"seiten": [
+64
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0177",
+"nachher": "sg-stg__c0179"
+},
+{
+"id": "sg-stg__c0179",
+"titel": "StG SG – Abschnitt 179",
+"pfad": [],
+"seiten": [
+65
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0178",
+"nachher": "sg-stg__c0180"
+},
+{
+"id": "sg-stg__c0180",
+"titel": "StG SG – Abschnitt 180",
+"pfad": [],
+"seiten": [
+65
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0179",
+"nachher": "sg-stg__c0181"
+},
+{
+"id": "sg-stg__c0181",
+"titel": "StG SG – Abschnitt 181",
+"pfad": [],
+"seiten": [
+65
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0180",
+"nachher": "sg-stg__c0182"
+},
+{
+"id": "sg-stg__c0182",
+"titel": "StG SG – Abschnitt 182",
+"pfad": [],
+"seiten": [
+66
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0181",
+"nachher": "sg-stg__c0183"
+},
+{
+"id": "sg-stg__c0183",
+"titel": "StG SG – Abschnitt 183",
+"pfad": [],
+"seiten": [
+66
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0182",
+"nachher": "sg-stg__c0184"
+},
+{
+"id": "sg-stg__c0184",
+"titel": "StG SG – Abschnitt 184",
+"pfad": [],
+"seiten": [
+66
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0183",
+"nachher": "sg-stg__c0185"
+},
+{
+"id": "sg-stg__c0185",
+"titel": "StG SG – Abschnitt 185",
+"pfad": [],
+"seiten": [
+67
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0184",
+"nachher": "sg-stg__c0186"
+},
+{
+"id": "sg-stg__c0186",
+"titel": "StG SG – Abschnitt 186",
+"pfad": [],
+"seiten": [
+67
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0185",
+"nachher": "sg-stg__c0187"
+},
+{
+"id": "sg-stg__c0187",
+"titel": "StG SG – Abschnitt 187",
+"pfad": [],
+"seiten": [
+67
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0186",
+"nachher": "sg-stg__c0188"
+},
+{
+"id": "sg-stg__c0188",
+"titel": "StG SG – Abschnitt 188",
+"pfad": [],
+"seiten": [
+68
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0187",
+"nachher": "sg-stg__c0189"
+},
+{
+"id": "sg-stg__c0189",
+"titel": "StG SG – Abschnitt 189",
+"pfad": [],
+"seiten": [
+68
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0188",
+"nachher": "sg-stg__c0190"
+},
+{
+"id": "sg-stg__c0190",
+"titel": "StG SG – Abschnitt 190",
+"pfad": [],
+"seiten": [
+69
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0189",
+"nachher": "sg-stg__c0191"
+},
+{
+"id": "sg-stg__c0191",
+"titel": "StG SG – Abschnitt 191",
+"pfad": [],
+"seiten": [
+69
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0190",
+"nachher": "sg-stg__c0192"
+},
+{
+"id": "sg-stg__c0192",
+"titel": "StG SG – Abschnitt 192",
+"pfad": [],
+"seiten": [
+69
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0191",
+"nachher": "sg-stg__c0193"
+},
+{
+"id": "sg-stg__c0193",
+"titel": "StG SG – Abschnitt 193",
+"pfad": [],
+"seiten": [
+70
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0192",
+"nachher": "sg-stg__c0194"
+},
+{
+"id": "sg-stg__c0194",
+"titel": "StG SG – Abschnitt 194",
+"pfad": [],
+"seiten": [
+70
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0193",
+"nachher": "sg-stg__c0195"
+},
+{
+"id": "sg-stg__c0195",
+"titel": "StG SG – Abschnitt 195",
+"pfad": [],
+"seiten": [
+70
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0194",
+"nachher": "sg-stg__c0196"
+},
+{
+"id": "sg-stg__c0196",
+"titel": "StG SG – Abschnitt 196",
+"pfad": [],
+"seiten": [
+71
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0195",
+"nachher": "sg-stg__c0197"
+},
+{
+"id": "sg-stg__c0197",
+"titel": "StG SG – Abschnitt 197",
+"pfad": [],
+"seiten": [
+71
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0196",
+"nachher": "sg-stg__c0198"
+},
+{
+"id": "sg-stg__c0198",
+"titel": "StG SG – Abschnitt 198",
+"pfad": [],
+"seiten": [
+71
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0197",
+"nachher": "sg-stg__c0199"
+},
+{
+"id": "sg-stg__c0199",
+"titel": "StG SG – Abschnitt 199",
+"pfad": [],
+"seiten": [
+72
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0198",
+"nachher": "sg-stg__c0200"
+},
+{
+"id": "sg-stg__c0200",
+"titel": "StG SG – Abschnitt 200",
+"pfad": [],
+"seiten": [
+72
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0199",
+"nachher": "sg-stg__c0201"
+},
+{
+"id": "sg-stg__c0201",
+"titel": "StG SG – Abschnitt 201",
+"pfad": [],
+"seiten": [
+72
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0200",
+"nachher": "sg-stg__c0202"
+},
+{
+"id": "sg-stg__c0202",
+"titel": "StG SG – Abschnitt 202",
+"pfad": [],
+"seiten": [
+73
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0201",
+"nachher": "sg-stg__c0203"
+},
+{
+"id": "sg-stg__c0203",
+"titel": "StG SG – Abschnitt 203",
+"pfad": [],
+"seiten": [
+73
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0202",
+"nachher": "sg-stg__c0204"
+},
+{
+"id": "sg-stg__c0204",
+"titel": "StG SG – Abschnitt 204",
+"pfad": [],
+"seiten": [
+73
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0203",
+"nachher": "sg-stg__c0205"
+},
+{
+"id": "sg-stg__c0205",
+"titel": "StG SG – Abschnitt 205",
+"pfad": [],
+"seiten": [
+74
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0204",
+"nachher": "sg-stg__c0206"
+},
+{
+"id": "sg-stg__c0206",
+"titel": "StG SG – Abschnitt 206",
+"pfad": [],
+"seiten": [
+74
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0205",
+"nachher": "sg-stg__c0207"
+},
+{
+"id": "sg-stg__c0207",
+"titel": "StG SG – Abschnitt 207",
+"pfad": [],
+"seiten": [
+75
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0206",
+"nachher": "sg-stg__c0208"
+},
+{
+"id": "sg-stg__c0208",
+"titel": "StG SG – Abschnitt 208",
+"pfad": [],
+"seiten": [
+75
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0207",
+"nachher": "sg-stg__c0209"
+},
+{
+"id": "sg-stg__c0209",
+"titel": "StG SG – Abschnitt 209",
+"pfad": [],
+"seiten": [
+75
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0208",
+"nachher": "sg-stg__c0210"
+},
+{
+"id": "sg-stg__c0210",
+"titel": "StG SG – Abschnitt 210",
+"pfad": [],
+"seiten": [
+76
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0209",
+"nachher": "sg-stg__c0211"
+},
+{
+"id": "sg-stg__c0211",
+"titel": "StG SG – Abschnitt 211",
+"pfad": [],
+"seiten": [
+76
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0210",
+"nachher": "sg-stg__c0212"
+},
+{
+"id": "sg-stg__c0212",
+"titel": "StG SG – Abschnitt 212",
+"pfad": [],
+"seiten": [
+77
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0211",
+"nachher": "sg-stg__c0213"
+},
+{
+"id": "sg-stg__c0213",
+"titel": "StG SG – Abschnitt 213",
+"pfad": [],
+"seiten": [
+77
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0212",
+"nachher": "sg-stg__c0214"
+},
+{
+"id": "sg-stg__c0214",
+"titel": "StG SG – Abschnitt 214",
+"pfad": [],
+"seiten": [
+77
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0213",
+"nachher": "sg-stg__c0215"
+},
+{
+"id": "sg-stg__c0215",
+"titel": "StG SG – Abschnitt 215",
+"pfad": [],
+"seiten": [
+78
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0214",
+"nachher": "sg-stg__c0216"
+},
+{
+"id": "sg-stg__c0216",
+"titel": "StG SG – Abschnitt 216",
+"pfad": [],
+"seiten": [
+78
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0215",
+"nachher": "sg-stg__c0217"
+},
+{
+"id": "sg-stg__c0217",
+"titel": "StG SG – Abschnitt 217",
+"pfad": [],
+"seiten": [
+78
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0216",
+"nachher": "sg-stg__c0218"
+},
+{
+"id": "sg-stg__c0218",
+"titel": "StG SG – Abschnitt 218",
+"pfad": [],
+"seiten": [
+79
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0217",
+"nachher": "sg-stg__c0219"
+},
+{
+"id": "sg-stg__c0219",
+"titel": "StG SG – Abschnitt 219",
+"pfad": [],
+"seiten": [
+79
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0218",
+"nachher": "sg-stg__c0220"
+},
+{
+"id": "sg-stg__c0220",
+"titel": "StG SG – Abschnitt 220",
+"pfad": [],
+"seiten": [
+80
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0219",
+"nachher": "sg-stg__c0221"
+},
+{
+"id": "sg-stg__c0221",
+"titel": "StG SG – Abschnitt 221",
+"pfad": [],
+"seiten": [
+80
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0220",
+"nachher": "sg-stg__c0222"
+},
+{
+"id": "sg-stg__c0222",
+"titel": "StG SG – Abschnitt 222",
+"pfad": [],
+"seiten": [
+81
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0221",
+"nachher": "sg-stg__c0223"
+},
+{
+"id": "sg-stg__c0223",
+"titel": "StG SG – Abschnitt 223",
+"pfad": [],
+"seiten": [
+81
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0222",
+"nachher": "sg-stg__c0224"
+},
+{
+"id": "sg-stg__c0224",
+"titel": "StG SG – Abschnitt 224",
+"pfad": [],
+"seiten": [
+81
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0223",
+"nachher": "sg-stg__c0225"
+},
+{
+"id": "sg-stg__c0225",
+"titel": "StG SG – Abschnitt 225",
+"pfad": [],
+"seiten": [
+82
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0224",
+"nachher": "sg-stg__c0226"
+},
+{
+"id": "sg-stg__c0226",
+"titel": "StG SG – Abschnitt 226",
+"pfad": [],
+"seiten": [
+82
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0225",
+"nachher": "sg-stg__c0227"
+},
+{
+"id": "sg-stg__c0227",
+"titel": "StG SG – Abschnitt 227",
+"pfad": [],
+"seiten": [
+82
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0226",
+"nachher": "sg-stg__c0228"
+},
+{
+"id": "sg-stg__c0228",
+"titel": "StG SG – Abschnitt 228",
+"pfad": [],
+"seiten": [
+83
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0227",
+"nachher": "sg-stg__c0229"
+},
+{
+"id": "sg-stg__c0229",
+"titel": "StG SG – Abschnitt 229",
+"pfad": [],
+"seiten": [
+83
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0228",
+"nachher": "sg-stg__c0230"
+},
+{
+"id": "sg-stg__c0230",
+"titel": "StG SG – Abschnitt 230",
+"pfad": [],
+"seiten": [
+84
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0229",
+"nachher": "sg-stg__c0231"
+},
+{
+"id": "sg-stg__c0231",
+"titel": "StG SG – Abschnitt 231",
+"pfad": [],
+"seiten": [
+84
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0230",
+"nachher": "sg-stg__c0232"
+},
+{
+"id": "sg-stg__c0232",
+"titel": "StG SG – Abschnitt 232",
+"pfad": [],
+"seiten": [
+84
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0231",
+"nachher": "sg-stg__c0233"
+},
+{
+"id": "sg-stg__c0233",
+"titel": "StG SG – Abschnitt 233",
+"pfad": [],
+"seiten": [
+85
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0232",
+"nachher": "sg-stg__c0234"
+},
+{
+"id": "sg-stg__c0234",
+"titel": "StG SG – Abschnitt 234",
+"pfad": [],
+"seiten": [
+85
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0233",
+"nachher": "sg-stg__c0235"
+},
+{
+"id": "sg-stg__c0235",
+"titel": "StG SG – Abschnitt 235",
+"pfad": [],
+"seiten": [
+85
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0234",
+"nachher": "sg-stg__c0236"
+},
+{
+"id": "sg-stg__c0236",
+"titel": "StG SG – Abschnitt 236",
+"pfad": [],
+"seiten": [
+86
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0235",
+"nachher": "sg-stg__c0237"
+},
+{
+"id": "sg-stg__c0237",
+"titel": "StG SG – Abschnitt 237",
+"pfad": [],
+"seiten": [
+86
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0236",
+"nachher": "sg-stg__c0238"
+},
+{
+"id": "sg-stg__c0238",
+"titel": "StG SG – Abschnitt 238",
+"pfad": [],
+"seiten": [
+87
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0237",
+"nachher": "sg-stg__c0239"
+},
+{
+"id": "sg-stg__c0239",
+"titel": "StG SG – Abschnitt 239",
+"pfad": [],
+"seiten": [
+87
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0238",
+"nachher": "sg-stg__c0240"
+},
+{
+"id": "sg-stg__c0240",
+"titel": "StG SG – Abschnitt 240",
+"pfad": [],
+"seiten": [
+87
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0239",
+"nachher": "sg-stg__c0241"
+},
+{
+"id": "sg-stg__c0241",
+"titel": "StG SG – Abschnitt 241",
+"pfad": [],
+"seiten": [
+88
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0240",
+"nachher": "sg-stg__c0242"
+},
+{
+"id": "sg-stg__c0242",
+"titel": "StG SG – Abschnitt 242",
+"pfad": [],
+"seiten": [
+88
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0241",
+"nachher": "sg-stg__c0243"
+},
+{
+"id": "sg-stg__c0243",
+"titel": "StG SG – Abschnitt 243",
+"pfad": [],
+"seiten": [
+88
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0242",
+"nachher": "sg-stg__c0244"
+},
+{
+"id": "sg-stg__c0244",
+"titel": "StG SG – Abschnitt 244",
+"pfad": [],
+"seiten": [
+89
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0243",
+"nachher": "sg-stg__c0245"
+},
+{
+"id": "sg-stg__c0245",
+"titel": "StG SG – Abschnitt 245",
+"pfad": [],
+"seiten": [
+89
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0244",
+"nachher": "sg-stg__c0246"
+},
+{
+"id": "sg-stg__c0246",
+"titel": "StG SG – Abschnitt 246",
+"pfad": [],
+"seiten": [
+90
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0245",
+"nachher": "sg-stg__c0247"
+},
+{
+"id": "sg-stg__c0247",
+"titel": "StG SG – Abschnitt 247",
+"pfad": [],
+"seiten": [
+90
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0246",
+"nachher": "sg-stg__c0248"
+},
+{
+"id": "sg-stg__c0248",
+"titel": "StG SG – Abschnitt 248",
+"pfad": [],
+"seiten": [
+90
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0247",
+"nachher": "sg-stg__c0249"
+},
+{
+"id": "sg-stg__c0249",
+"titel": "StG SG – Abschnitt 249",
+"pfad": [],
+"seiten": [
+91
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0248",
+"nachher": "sg-stg__c0250"
+},
+{
+"id": "sg-stg__c0250",
+"titel": "StG SG – Abschnitt 250",
+"pfad": [],
+"seiten": [
+91
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0249",
+"nachher": "sg-stg__c0251"
+},
+{
+"id": "sg-stg__c0251",
+"titel": "StG SG – Abschnitt 251",
+"pfad": [],
+"seiten": [
+92
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0250",
+"nachher": "sg-stg__c0252"
+},
+{
+"id": "sg-stg__c0252",
+"titel": "StG SG – Abschnitt 252",
+"pfad": [],
+"seiten": [
+92
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0251",
+"nachher": "sg-stg__c0253"
+},
+{
+"id": "sg-stg__c0253",
+"titel": "StG SG – Abschnitt 253",
+"pfad": [],
+"seiten": [
+92
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0252",
+"nachher": "sg-stg__c0254"
+},
+{
+"id": "sg-stg__c0254",
+"titel": "StG SG – Abschnitt 254",
+"pfad": [],
+"seiten": [
+93
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0253",
+"nachher": "sg-stg__c0255"
+},
+{
+"id": "sg-stg__c0255",
+"titel": "StG SG – Abschnitt 255",
+"pfad": [],
+"seiten": [
+93
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0254",
+"nachher": "sg-stg__c0256"
+},
+{
+"id": "sg-stg__c0256",
+"titel": "StG SG – Abschnitt 256",
+"pfad": [],
+"seiten": [
+94
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0255",
+"nachher": "sg-stg__c0257"
+},
+{
+"id": "sg-stg__c0257",
+"titel": "StG SG – Abschnitt 257",
+"pfad": [],
+"seiten": [
+94
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0256",
+"nachher": "sg-stg__c0258"
+},
+{
+"id": "sg-stg__c0258",
+"titel": "StG SG – Abschnitt 258",
+"pfad": [],
+"seiten": [
+94
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0257",
+"nachher": "sg-stg__c0259"
+},
+{
+"id": "sg-stg__c0259",
+"titel": "StG SG – Abschnitt 259",
+"pfad": [],
+"seiten": [
+95
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0258",
+"nachher": "sg-stg__c0260"
+},
+{
+"id": "sg-stg__c0260",
+"titel": "StG SG – Abschnitt 260",
+"pfad": [],
+"seiten": [
+95
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0259",
+"nachher": "sg-stg__c0261"
+},
+{
+"id": "sg-stg__c0261",
+"titel": "StG SG – Abschnitt 261",
+"pfad": [],
+"seiten": [
+95
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0260",
+"nachher": "sg-stg__c0262"
+},
+{
+"id": "sg-stg__c0262",
+"titel": "StG SG – Abschnitt 262",
+"pfad": [],
+"seiten": [
+96
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0261",
+"nachher": "sg-stg__c0263"
+},
+{
+"id": "sg-stg__c0263",
+"titel": "StG SG – Abschnitt 263",
+"pfad": [],
+"seiten": [
+96
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0262",
+"nachher": "sg-stg__c0264"
+},
+{
+"id": "sg-stg__c0264",
+"titel": "StG SG – Abschnitt 264",
+"pfad": [],
+"seiten": [
+96
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0263",
+"nachher": "sg-stg__c0265"
+},
+{
+"id": "sg-stg__c0265",
+"titel": "StG SG – Abschnitt 265",
+"pfad": [],
+"seiten": [
+97
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0264",
+"nachher": "sg-stg__c0266"
+},
+{
+"id": "sg-stg__c0266",
+"titel": "StG SG – Abschnitt 266",
+"pfad": [],
+"seiten": [
+97
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0265",
+"nachher": "sg-stg__c0267"
+},
+{
+"id": "sg-stg__c0267",
+"titel": "StG SG – Abschnitt 267",
+"pfad": [],
+"seiten": [
+97
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0266",
+"nachher": "sg-stg__c0268"
+},
+{
+"id": "sg-stg__c0268",
+"titel": "StG SG – Abschnitt 268",
+"pfad": [],
+"seiten": [
+98
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0267",
+"nachher": "sg-stg__c0269"
+},
+{
+"id": "sg-stg__c0269",
+"titel": "StG SG – Abschnitt 269",
+"pfad": [],
+"seiten": [
+98
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0268",
+"nachher": "sg-stg__c0270"
+},
+{
+"id": "sg-stg__c0270",
+"titel": "StG SG – Abschnitt 270",
+"pfad": [],
+"seiten": [
+98
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0269",
+"nachher": "sg-stg__c0271"
+},
+{
+"id": "sg-stg__c0271",
+"titel": "StG SG – Abschnitt 271",
+"pfad": [],
+"seiten": [
+99
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0270",
+"nachher": "sg-stg__c0272"
+},
+{
+"id": "sg-stg__c0272",
+"titel": "StG SG – Abschnitt 272",
+"pfad": [],
+"seiten": [
+99
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0271",
+"nachher": "sg-stg__c0273"
+},
+{
+"id": "sg-stg__c0273",
+"titel": "StG SG – Abschnitt 273",
+"pfad": [],
+"seiten": [
+99
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0272",
+"nachher": "sg-stg__c0274"
+},
+{
+"id": "sg-stg__c0274",
+"titel": "StG SG – Abschnitt 274",
+"pfad": [],
+"seiten": [
+100
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0273",
+"nachher": "sg-stg__c0275"
+},
+{
+"id": "sg-stg__c0275",
+"titel": "StG SG – Abschnitt 275",
+"pfad": [],
+"seiten": [
+100
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0274",
+"nachher": "sg-stg__c0276"
+},
+{
+"id": "sg-stg__c0276",
+"titel": "StG SG – Abschnitt 276",
+"pfad": [],
+"seiten": [
+100
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0275",
+"nachher": "sg-stg__c0277"
+},
+{
+"id": "sg-stg__c0277",
+"titel": "StG SG – Abschnitt 277",
+"pfad": [],
+"seiten": [
+101
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0276",
+"nachher": "sg-stg__c0278"
+},
+{
+"id": "sg-stg__c0278",
+"titel": "StG SG – Abschnitt 278",
+"pfad": [],
+"seiten": [
+101
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0277",
+"nachher": "sg-stg__c0279"
+},
+{
+"id": "sg-stg__c0279",
+"titel": "StG SG – Abschnitt 279",
+"pfad": [],
+"seiten": [
+102
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0278",
+"nachher": "sg-stg__c0280"
+},
+{
+"id": "sg-stg__c0280",
+"titel": "StG SG – Abschnitt 280",
+"pfad": [],
+"seiten": [
+102
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0279",
+"nachher": "sg-stg__c0281"
+},
+{
+"id": "sg-stg__c0281",
+"titel": "StG SG – Abschnitt 281",
+"pfad": [],
+"seiten": [
+103
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0280",
+"nachher": "sg-stg__c0282"
+},
+{
+"id": "sg-stg__c0282",
+"titel": "StG SG – Abschnitt 282",
+"pfad": [],
+"seiten": [
+103
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0281",
+"nachher": "sg-stg__c0283"
+},
+{
+"id": "sg-stg__c0283",
+"titel": "StG SG – Abschnitt 283",
+"pfad": [],
+"seiten": [
+103
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0282",
+"nachher": "sg-stg__c0284"
+},
+{
+"id": "sg-stg__c0284",
+"titel": "StG SG – Abschnitt 284",
+"pfad": [],
+"seiten": [
+104
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0283",
+"nachher": "sg-stg__c0285"
+},
+{
+"id": "sg-stg__c0285",
+"titel": "StG SG – Abschnitt 285",
+"pfad": [],
+"seiten": [
+104
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0284",
+"nachher": "sg-stg__c0286"
+},
+{
+"id": "sg-stg__c0286",
+"titel": "StG SG – Abschnitt 286",
+"pfad": [],
+"seiten": [
+104
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0285",
+"nachher": "sg-stg__c0287"
+},
+{
+"id": "sg-stg__c0287",
+"titel": "StG SG – Abschnitt 287",
+"pfad": [],
+"seiten": [
+105
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0286",
+"nachher": "sg-stg__c0288"
+},
+{
+"id": "sg-stg__c0288",
+"titel": "StG SG – Abschnitt 288",
+"pfad": [],
+"seiten": [
+106
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0287",
+"nachher": "sg-stg__c0289"
+},
+{
+"id": "sg-stg__c0289",
+"titel": "StG SG – Abschnitt 289",
+"pfad": [],
+"seiten": [
+106
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0288",
+"nachher": "sg-stg__c0290"
+},
+{
+"id": "sg-stg__c0290",
+"titel": "StG SG – Abschnitt 290",
+"pfad": [],
+"seiten": [
+107
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0289",
+"nachher": "sg-stg__c0291"
+},
+{
+"id": "sg-stg__c0291",
+"titel": "StG SG – Abschnitt 291",
+"pfad": [],
+"seiten": [
+107
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0290",
+"nachher": "sg-stg__c0292"
+},
+{
+"id": "sg-stg__c0292",
+"titel": "StG SG – Abschnitt 292",
+"pfad": [],
+"seiten": [
+108
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0291",
+"nachher": "sg-stg__c0293"
+},
+{
+"id": "sg-stg__c0293",
+"titel": "StG SG – Abschnitt 293",
+"pfad": [],
+"seiten": [
+108
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0292",
+"nachher": "sg-stg__c0294"
+},
+{
+"id": "sg-stg__c0294",
+"titel": "StG SG – Abschnitt 294",
+"pfad": [],
+"seiten": [
+109
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0293",
+"nachher": "sg-stg__c0295"
+},
+{
+"id": "sg-stg__c0295",
+"titel": "StG SG – Abschnitt 295",
+"pfad": [],
+"seiten": [
+109
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0294",
+"nachher": "sg-stg__c0296"
+},
+{
+"id": "sg-stg__c0296",
+"titel": "StG SG – Abschnitt 296",
+"pfad": [],
+"seiten": [
+109
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0295",
+"nachher": "sg-stg__c0297"
+},
+{
+"id": "sg-stg__c0297",
+"titel": "StG SG – Abschnitt 297",
+"pfad": [],
+"seiten": [
+109
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0296",
+"nachher": "sg-stg__c0298"
+},
+{
+"id": "sg-stg__c0298",
+"titel": "StG SG – Abschnitt 298",
+"pfad": [],
+"seiten": [
+110
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0297",
+"nachher": "sg-stg__c0299"
+},
+{
+"id": "sg-stg__c0299",
+"titel": "StG SG – Abschnitt 299",
+"pfad": [],
+"seiten": [
+110
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0298",
+"nachher": "sg-stg__c0300"
+},
+{
+"id": "sg-stg__c0300",
+"titel": "StG SG – Abschnitt 300",
+"pfad": [],
+"seiten": [
+110
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0299",
+"nachher": "sg-stg__c0301"
+},
+{
+"id": "sg-stg__c0301",
+"titel": "StG SG – Abschnitt 301",
+"pfad": [],
+"seiten": [
+111
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0300",
+"nachher": "sg-stg__c0302"
+},
+{
+"id": "sg-stg__c0302",
+"titel": "StG SG – Abschnitt 302",
+"pfad": [],
+"seiten": [
+111
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0301",
+"nachher": "sg-stg__c0303"
+},
+{
+"id": "sg-stg__c0303",
+"titel": "StG SG – Abschnitt 303",
+"pfad": [],
+"seiten": [
+111
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0302",
+"nachher": "sg-stg__c0304"
+},
+{
+"id": "sg-stg__c0304",
+"titel": "StG SG – Abschnitt 304",
+"pfad": [],
+"seiten": [
+111
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0303",
+"nachher": "sg-stg__c0305"
+},
+{
+"id": "sg-stg__c0305",
+"titel": "StG SG – Abschnitt 305",
+"pfad": [],
+"seiten": [
+112
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0304",
+"nachher": "sg-stg__c0306"
+},
+{
+"id": "sg-stg__c0306",
+"titel": "StG SG – Abschnitt 306",
+"pfad": [],
+"seiten": [
+112
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0305",
+"nachher": "sg-stg__c0307"
+},
+{
+"id": "sg-stg__c0307",
+"titel": "StG SG – Abschnitt 307",
+"pfad": [],
+"seiten": [
+112
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0306",
+"nachher": "sg-stg__c0308"
+},
+{
+"id": "sg-stg__c0308",
+"titel": "StG SG – Abschnitt 308",
+"pfad": [],
+"seiten": [
+112
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0307",
+"nachher": "sg-stg__c0309"
+},
+{
+"id": "sg-stg__c0309",
+"titel": "StG SG – Abschnitt 309",
+"pfad": [],
+"seiten": [
+113
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0308",
+"nachher": "sg-stg__c0310"
+},
+{
+"id": "sg-stg__c0310",
+"titel": "StG SG – Abschnitt 310",
+"pfad": [],
+"seiten": [
+113
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0309",
+"nachher": "sg-stg__c0311"
+},
+{
+"id": "sg-stg__c0311",
+"titel": "StG SG – Abschnitt 311",
+"pfad": [],
+"seiten": [
+113
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0310",
+"nachher": "sg-stg__c0312"
+},
+{
+"id": "sg-stg__c0312",
+"titel": "StG SG – Abschnitt 312",
+"pfad": [],
+"seiten": [
+114
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0311",
+"nachher": "sg-stg__c0313"
+},
+{
+"id": "sg-stg__c0313",
+"titel": "StG SG – Abschnitt 313",
+"pfad": [],
+"seiten": [
+114
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0312",
+"nachher": "sg-stg__c0314"
+},
+{
+"id": "sg-stg__c0314",
+"titel": "StG SG – Abschnitt 314",
+"pfad": [],
+"seiten": [
+114
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0313",
+"nachher": "sg-stg__c0315"
+},
+{
+"id": "sg-stg__c0315",
+"titel": "StG SG – Abschnitt 315",
+"pfad": [],
+"seiten": [
+115
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0314",
+"nachher": "sg-stg__c0316"
+},
+{
+"id": "sg-stg__c0316",
+"titel": "StG SG – Abschnitt 316",
+"pfad": [],
+"seiten": [
+115
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0315",
+"nachher": "sg-stg__c0317"
+},
+{
+"id": "sg-stg__c0317",
+"titel": "StG SG – Abschnitt 317",
+"pfad": [],
+"seiten": [
+115
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0316",
+"nachher": "sg-stg__c0318"
+},
+{
+"id": "sg-stg__c0318",
+"titel": "StG SG – Abschnitt 318",
+"pfad": [],
+"seiten": [
+116
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0317",
+"nachher": "sg-stg__c0319"
+},
+{
+"id": "sg-stg__c0319",
+"titel": "StG SG – Abschnitt 319",
+"pfad": [],
+"seiten": [
+116
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0318",
+"nachher": "sg-stg__c0320"
+},
+{
+"id": "sg-stg__c0320",
+"titel": "StG SG – Abschnitt 320",
+"pfad": [],
+"seiten": [
+116
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0319",
+"nachher": "sg-stg__c0321"
+},
+{
+"id": "sg-stg__c0321",
+"titel": "StG SG – Abschnitt 321",
+"pfad": [],
+"seiten": [
+117
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0320",
+"nachher": "sg-stg__c0322"
+},
+{
+"id": "sg-stg__c0322",
+"titel": "StG SG – Abschnitt 322",
+"pfad": [],
+"seiten": [
+117
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0321",
+"nachher": "sg-stg__c0323"
+},
+{
+"id": "sg-stg__c0323",
+"titel": "StG SG – Abschnitt 323",
+"pfad": [],
+"seiten": [
+117
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0322",
+"nachher": "sg-stg__c0324"
+},
+{
+"id": "sg-stg__c0324",
+"titel": "StG SG – Abschnitt 324",
+"pfad": [],
+"seiten": [
+118
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0323",
+"nachher": "sg-stg__c0325"
+},
+{
+"id": "sg-stg__c0325",
+"titel": "StG SG – Abschnitt 325",
+"pfad": [],
+"seiten": [
+118
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0324",
+"nachher": "sg-stg__c0326"
+},
+{
+"id": "sg-stg__c0326",
+"titel": "StG SG – Abschnitt 326",
+"pfad": [],
+"seiten": [
+118
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0325",
+"nachher": "sg-stg__c0327"
+},
+{
+"id": "sg-stg__c0327",
+"titel": "StG SG – Abschnitt 327",
+"pfad": [],
+"seiten": [
+119
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0326",
+"nachher": "sg-stg__c0328"
+},
+{
+"id": "sg-stg__c0328",
+"titel": "StG SG – Abschnitt 328",
+"pfad": [],
+"seiten": [
+119
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0327",
+"nachher": "sg-stg__c0329"
+},
+{
+"id": "sg-stg__c0329",
+"titel": "StG SG – Abschnitt 329",
+"pfad": [],
+"seiten": [
+119
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0328",
+"nachher": "sg-stg__c0330"
+},
+{
+"id": "sg-stg__c0330",
+"titel": "StG SG – Abschnitt 330",
+"pfad": [],
+"seiten": [
+120
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0329",
+"nachher": "sg-stg__c0331"
+},
+{
+"id": "sg-stg__c0331",
+"titel": "StG SG – Abschnitt 331",
+"pfad": [],
+"seiten": [
+120
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0330",
+"nachher": "sg-stg__c0332"
+},
+{
+"id": "sg-stg__c0332",
+"titel": "StG SG – Abschnitt 332",
+"pfad": [],
+"seiten": [
+121
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0331",
+"nachher": "sg-stg__c0333"
+},
+{
+"id": "sg-stg__c0333",
+"titel": "StG SG – Abschnitt 333",
+"pfad": [],
+"seiten": [
+121
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0332",
+"nachher": "sg-stg__c0334"
+},
+{
+"id": "sg-stg__c0334",
+"titel": "StG SG – Abschnitt 334",
+"pfad": [],
+"seiten": [
+121
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0333",
+"nachher": "sg-stg__c0335"
+},
+{
+"id": "sg-stg__c0335",
+"titel": "StG SG – Abschnitt 335",
+"pfad": [],
+"seiten": [
+122
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0334",
+"nachher": "sg-stg__c0336"
+},
+{
+"id": "sg-stg__c0336",
+"titel": "StG SG – Abschnitt 336",
+"pfad": [],
+"seiten": [
+122
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0335",
+"nachher": "sg-stg__c0337"
+},
+{
+"id": "sg-stg__c0337",
+"titel": "StG SG – Abschnitt 337",
+"pfad": [],
+"seiten": [
+122
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0336",
+"nachher": "sg-stg__c0338"
+},
+{
+"id": "sg-stg__c0338",
+"titel": "StG SG – Abschnitt 338",
+"pfad": [],
+"seiten": [
+123
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0337",
+"nachher": "sg-stg__c0339"
+},
+{
+"id": "sg-stg__c0339",
+"titel": "StG SG – Abschnitt 339",
+"pfad": [],
+"seiten": [
+123
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0338",
+"nachher": "sg-stg__c0340"
+},
+{
+"id": "sg-stg__c0340",
+"titel": "StG SG – Abschnitt 340",
+"pfad": [],
+"seiten": [
+123
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0339",
+"nachher": "sg-stg__c0341"
+},
+{
+"id": "sg-stg__c0341",
+"titel": "StG SG – Abschnitt 341",
+"pfad": [],
+"seiten": [
+124
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0340",
+"nachher": "sg-stg__c0342"
+},
+{
+"id": "sg-stg__c0342",
+"titel": "StG SG – Abschnitt 342",
+"pfad": [],
+"seiten": [
+124
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0341",
+"nachher": "sg-stg__c0343"
+},
+{
+"id": "sg-stg__c0343",
+"titel": "StG SG – Abschnitt 343",
+"pfad": [],
+"seiten": [
+124
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0342",
+"nachher": "sg-stg__c0344"
+},
+{
+"id": "sg-stg__c0344",
+"titel": "StG SG – Abschnitt 344",
+"pfad": [],
+"seiten": [
+125
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0343",
+"nachher": "sg-stg__c0345"
+},
+{
+"id": "sg-stg__c0345",
+"titel": "StG SG – Abschnitt 345",
+"pfad": [],
+"seiten": [
+125
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0344",
+"nachher": "sg-stg__c0346"
+},
+{
+"id": "sg-stg__c0346",
+"titel": "StG SG – Abschnitt 346",
+"pfad": [],
+"seiten": [
+125
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0345",
+"nachher": "sg-stg__c0347"
+},
+{
+"id": "sg-stg__c0347",
+"titel": "StG SG – Abschnitt 347",
+"pfad": [],
+"seiten": [
+126
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0346",
+"nachher": "sg-stg__c0348"
+},
+{
+"id": "sg-stg__c0348",
+"titel": "StG SG – Abschnitt 348",
+"pfad": [],
+"seiten": [
+126
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0347",
+"nachher": "sg-stg__c0349"
+},
+{
+"id": "sg-stg__c0349",
+"titel": "StG SG – Abschnitt 349",
+"pfad": [],
+"seiten": [
+126
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0348",
+"nachher": "sg-stg__c0350"
+},
+{
+"id": "sg-stg__c0350",
+"titel": "StG SG – Abschnitt 350",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0349",
+"nachher": "sg-stg__c0351"
+},
+{
+"id": "sg-stg__c0351",
+"titel": "StG SG – Abschnitt 351",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0350",
+"nachher": "sg-stg__c0352"
+},
+{
+"id": "sg-stg__c0352",
+"titel": "StG SG – Abschnitt 352",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0351",
+"nachher": "sg-stg__c0353"
+},
+{
+"id": "sg-stg__c0353",
+"titel": "StG SG – Abschnitt 353",
+"pfad": [],
+"seiten": [
+127
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0352",
+"nachher": "sg-stg__c0354"
+},
+{
+"id": "sg-stg__c0354",
+"titel": "StG SG – Abschnitt 354",
+"pfad": [],
+"seiten": [
+128
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0353",
+"nachher": "sg-stg__c0355"
+},
+{
+"id": "sg-stg__c0355",
+"titel": "StG SG – Abschnitt 355",
+"pfad": [],
+"seiten": [
+128
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0354",
+"nachher": "sg-stg__c0356"
+},
+{
+"id": "sg-stg__c0356",
+"titel": "StG SG – Abschnitt 356",
+"pfad": [],
+"seiten": [
+128
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0355",
+"nachher": "sg-stg__c0357"
+},
+{
+"id": "sg-stg__c0357",
+"titel": "StG SG – Abschnitt 357",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0356",
+"nachher": "sg-stg__c0358"
+},
+{
+"id": "sg-stg__c0358",
+"titel": "StG SG – Abschnitt 358",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0357",
+"nachher": "sg-stg__c0359"
+},
+{
+"id": "sg-stg__c0359",
+"titel": "StG SG – Abschnitt 359",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0358",
+"nachher": "sg-stg__c0360"
+},
+{
+"id": "sg-stg__c0360",
+"titel": "StG SG – Abschnitt 360",
+"pfad": [],
+"seiten": [
+129
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0359",
+"nachher": "sg-stg__c0361"
+},
+{
+"id": "sg-stg__c0361",
+"titel": "StG SG – Abschnitt 361",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0360",
+"nachher": "sg-stg__c0362"
+},
+{
+"id": "sg-stg__c0362",
+"titel": "StG SG – Abschnitt 362",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0361",
+"nachher": "sg-stg__c0363"
+},
+{
+"id": "sg-stg__c0363",
+"titel": "StG SG – Abschnitt 363",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0362",
+"nachher": "sg-stg__c0364"
+},
+{
+"id": "sg-stg__c0364",
+"titel": "StG SG – Abschnitt 364",
+"pfad": [],
+"seiten": [
+130
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0363",
+"nachher": "sg-stg__c0365"
+},
+{
+"id": "sg-stg__c0365",
+"titel": "StG SG – Abschnitt 365",
+"pfad": [],
+"seiten": [
+131
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-stg__c0364",
+"nachher": null
+}
+]

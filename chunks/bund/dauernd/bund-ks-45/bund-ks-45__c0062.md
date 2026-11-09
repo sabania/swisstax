@@ -1,0 +1,28 @@
+---
+id: bund-ks-45__c0062
+quelle: bund-ks-45
+jur: bund
+jahre: [2025, 2026]
+typ: kreisschreiben
+titel: "KS 45 – Abschnitt 62"
+seiten: "16"
+qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+---
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 16
+
+4.3   Tarif für Alleinerziehende (Tarifcodes H bzw. P)
+Der Tarifcode H (bzw. P für Grenzgänger nach dem DBA-D) gilt nach Artikel 36 Absatz 2bis
+DBG für Alleinstehende, welche mit Kindern oder unterhaltspflichtigen Personen im gleichen
+Haushalt zusammenleben und für deren Unterhalt sie zur Hauptsache aufkommen. Im Kon-
+kubinatsverhältnis mit minderjährigen Kindern unter gemeinsamer elterlicher Sorge oder voll-
+jährigen Kindern in Erstausbildung, für deren Unterhalt die Eltern gemeinsam aufkommen,
+wird der Tarifcode H (bzw. P) mit Kinderabzug demjenigen Elternteil gewährt, der das höhere
+Bruttoeinkommen erzielt (vgl. Ziffer 13.4.2 des Kreisschreibens Nr. 30 der ESTV vom 21. De-
+zember 2010 über die Ehepaar- und Familienbesteuerung; KS 30 ESTV). Vorbehalten bleibt
+die je hälftige Berücksichtigung der Kinderabzüge im Rahmen einer Neuberechnung der
+Quellensteuer oder einer nachträglichen ordentlichen Veranlagung (vgl. Ziffer 11 unten).
+Im Zweifelsfall (bspw. bei unklaren Einkommens- oder Konkubinatsverhältnissen) hat vorab
+eine Quellenbesteuerung zum Tarifcode A0 zu erfolgen. Es bleibt der steuerpflichtigen Per-
+son vorbehalten, bis Ende März des auf die Leistung folgenden Steuerjahres eine Neube-
+rechnung der Quellensteuer oder eine nachträgliche ordentliche Veranlagung zu beantragen
+(vgl. Ziffern 10 und 11 unten).

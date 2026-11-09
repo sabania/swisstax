@@ -1,0 +1,17 @@
+---
+id: bund-vstv__art-37
+quelle: bund-vstv
+jur: bund
+jahre: [2025, 2026]
+typ: verordnung
+titel: "Art. 37 VStV"
+artikel: "Art. 37"
+qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: verordnung}}
+---
+> Bund · Steuerjahr 2025/2026 · VStV · 3. Domizilerklärung › b. Überprüfung › Art. 37
+
+### Art. 37 VStV
+
+**Abs. 1** Das Institut, das eine Domizilerklärung abgibt, hat die zu ihrer Überprüfung erforderlichen Unterlagen, einschliesslich der nötigenfalls zu beschaffenden Unterlagen der ausländischen Bank oder Depotstelle (Art. 36 Abs. 5), der ESTV auf Verlangen vorzuweisen.
+
+**Abs. 2** Weigert sich das Institut, die Unterlagen vorzuweisen, sind seine Unterlagen ungenügend oder hat es eine unrichtige Erklärung abgegeben, so ist die betreffende Steuer zu entrichten. Die ESTV kann dem Institut untersagen, Erklärungen auszustellen; falls sie dies untersagt, unterrichtet sie die anderen Institute sowie den Steuerpflichtigen davon, dass künftige Erklärungen dieses Instituts unwirksam sind. Vorbehalten bleibt die Einleitung des Strafverfahrens.

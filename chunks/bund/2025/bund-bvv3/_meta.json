@@ -1,0 +1,339 @@
+[
+{
+"id": "bund-bvv3__art-1",
+"titel": "Art. 1 BVV 3 – Vorsorgeformen",
+"pfad": [
+"1. Abschnitt: Anerkannte Vorsorgeformen",
+"Art. 1 Vorsorgeformen"
+],
+"seiten": [],
+"artikel": "Art. 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "bund-bvv3__art-2"
+},
+{
+"id": "bund-bvv3__art-2",
+"titel": "Art. 2 BVV 3 – Begünstigte Personen",
+"pfad": [
+"1. Abschnitt: Anerkannte Vorsorgeformen",
+"Art. 2 Begünstigte Personen"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-1",
+"nachher": "bund-bvv3__art-2a"
+},
+{
+"id": "bund-bvv3__art-2a",
+"titel": "Art. 2a BVV 3 – Kürzung der Leistungen bei vorsätzlicher Herbeiführung des Todes der versicherten Person durch die begünstigte Person",
+"pfad": [
+"1. Abschnitt: Anerkannte Vorsorgeformen",
+"Art. 2a Kürzung der Leistungen bei vorsätzlicher Herbeiführung des Todes der versicherten Person durch die begünstigte Person"
+],
+"seiten": [],
+"artikel": "Art. 2a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-2",
+"nachher": "bund-bvv3__art-3-t1"
+},
+{
+"id": "bund-bvv3__art-3-t1",
+"titel": "Art. 3 BVV 3 – Ausrichtung der Leistungen (Teil 1/2)",
+"pfad": [
+"1. Abschnitt: Anerkannte Vorsorgeformen",
+"Art. 3 Ausrichtung der Leistungen"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-2a",
+"nachher": "bund-bvv3__art-3-t2"
+},
+{
+"id": "bund-bvv3__art-3-t2",
+"titel": "Art. 3 BVV 3 – Ausrichtung der Leistungen (Teil 2/2)",
+"pfad": [
+"1. Abschnitt: Anerkannte Vorsorgeformen",
+"Art. 3 Ausrichtung der Leistungen"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-3-t1",
+"nachher": "bund-bvv3__art-3a"
+},
+{
+"id": "bund-bvv3__art-3a",
+"titel": "Art. 3a BVV 3 – Übertragung von Vorsorgekapital in Vorsorgeeinrichtungen oder in andere anerkannte Vorsorgeformen",
+"pfad": [
+"1. Abschnitt: Anerkannte Vorsorgeformen",
+"Art. 3a Übertragung von Vorsorgekapital in Vorsorgeeinrichtungen oder in andere anerkannte Vorsorgeformen"
+],
+"seiten": [],
+"artikel": "Art. 3a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-3-t2",
+"nachher": "bund-bvv3__art-4"
+},
+{
+"id": "bund-bvv3__art-4",
+"titel": "Art. 4 BVV 3 – Abtretung, Verpfändung und Verrechnung",
+"pfad": [
+"1. Abschnitt: Anerkannte Vorsorgeformen",
+"Art. 4 Abtretung, Verpfändung und Verrechnung"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-3a",
+"nachher": "bund-bvv3__art-5"
+},
+{
+"id": "bund-bvv3__art-5",
+"titel": "Art. 5 BVV 3 – Anlagevorschriften",
+"pfad": [
+"1. Abschnitt: Anerkannte Vorsorgeformen",
+"Art. 5 Anlagevorschriften"
+],
+"seiten": [],
+"artikel": "Art. 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-4",
+"nachher": "bund-bvv3__art-6"
+},
+{
+"id": "bund-bvv3__art-6",
+"titel": "Art. 6 BVV 3 – Bankstiftungen",
+"pfad": [
+"2. Abschnitt: Steuerliche Behandlung",
+"Art. 6 Bankstiftungen"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-5",
+"nachher": "bund-bvv3__art-7"
+},
+{
+"id": "bund-bvv3__art-7",
+"titel": "Art. 7 BVV 3 – Abzugsberechtigung für Beiträge",
+"pfad": [
+"2. Abschnitt: Steuerliche Behandlung",
+"Art. 7 Abzugsberechtigung für Beiträge"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-6",
+"nachher": "bund-bvv3__art-7a-t1"
+},
+{
+"id": "bund-bvv3__art-7a-t1",
+"titel": "Art. 7a BVV 3 – Abzugsberechtigung für als Einkauf geleistete Beiträge (Teil 1/2)",
+"pfad": [
+"2. Abschnitt: Steuerliche Behandlung",
+"Art. 7a Abzugsberechtigung für als Einkauf geleistete Beiträge"
+],
+"seiten": [],
+"artikel": "Art. 7a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-7",
+"nachher": "bund-bvv3__art-7a-t2"
+},
+{
+"id": "bund-bvv3__art-7a-t2",
+"titel": "Art. 7a BVV 3 – Abzugsberechtigung für als Einkauf geleistete Beiträge (Teil 2/2)",
+"pfad": [
+"2. Abschnitt: Steuerliche Behandlung",
+"Art. 7a Abzugsberechtigung für als Einkauf geleistete Beiträge"
+],
+"seiten": [],
+"artikel": "Art. 7a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-7a-t1",
+"nachher": "bund-bvv3__art-7b"
+},
+{
+"id": "bund-bvv3__art-7b",
+"titel": "Art. 7b BVV 3 – Gesuch um Annahme von als Einkauf geleisteten Beiträgen",
+"pfad": [
+"2. Abschnitt: Steuerliche Behandlung",
+"Art. 7b Gesuch um Annahme von als Einkauf geleisteten Beiträgen"
+],
+"seiten": [],
+"artikel": "Art. 7b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-7a-t2",
+"nachher": "bund-bvv3__art-8"
+},
+{
+"id": "bund-bvv3__art-8",
+"titel": "Art. 8 BVV 3 – Bescheinigungspflichten",
+"pfad": [
+"2. Abschnitt: Steuerliche Behandlung",
+"Art. 8 Bescheinigungspflichten"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-7b",
+"nachher": "bund-bvv3__art-8a"
+},
+{
+"id": "bund-bvv3__art-8a",
+"titel": "Art. 8a BVV 3 – Festhalten und Aufbewahrung von Vorsorgeangaben",
+"pfad": [
+"2a. Abschnitt: Aufbewahrung der Unterlagen und Mitteilung von Vorsorgeangaben",
+"Art. 8a Festhalten und Aufbewahrung von Vorsorgeangaben"
+],
+"seiten": [],
+"artikel": "Art. 8a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-8",
+"nachher": "bund-bvv3__art-8b"
+},
+{
+"id": "bund-bvv3__art-8b",
+"titel": "Art. 8b BVV 3 – Mitteilung der Vorsorgeangaben",
+"pfad": [
+"2a. Abschnitt: Aufbewahrung der Unterlagen und Mitteilung von Vorsorgeangaben",
+"Art. 8b Mitteilung der Vorsorgeangaben"
+],
+"seiten": [],
+"artikel": "Art. 8b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-8a",
+"nachher": "bund-bvv3__art-9"
+},
+{
+"id": "bund-bvv3__art-9",
+"titel": "Art. 9 BVV 3",
+"pfad": [
+"3. Abschnitt: Inkrafttreten",
+"Art. 9"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-8b",
+"nachher": "bund-bvv3__schlussbest-disp-u1"
+},
+{
+"id": "bund-bvv3__schlussbest-disp-u1",
+"titel": "Schlussbestimmung der Änd. vom 21. Februar 2001 BVV 3",
+"pfad": [
+"Schlussbestimmung der Änd. vom 21. Februar 2001"
+],
+"seiten": [],
+"artikel": "Schlussbestimmung der Änd. vom 21. Februar 2001",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__art-9",
+"nachher": "bund-bvv3__schlussbest-disp-u2"
+},
+{
+"id": "bund-bvv3__schlussbest-disp-u2",
+"titel": "Schlussbestimmung der Änderung vom 19. September 2008 BVV 3",
+"pfad": [
+"Schlussbestimmung der Änderung vom 19. September 2008"
+],
+"seiten": [],
+"artikel": "Schlussbestimmung der Änderung vom 19. September 2008",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__schlussbest-disp-u1",
+"nachher": "bund-bvv3__uebergang-disp-u3"
+},
+{
+"id": "bund-bvv3__uebergang-disp-u3",
+"titel": "Übergangsbestimmung zur Änderung vom 6. November 2024 BVV 3",
+"pfad": [
+"Übergangsbestimmung zur Änderung vom 6. November 2024"
+],
+"seiten": [],
+"artikel": "Übergangsbestimmung zur Änderung vom 6. November 2024",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bvv3__schlussbest-disp-u2",
+"nachher": null
+}
+]

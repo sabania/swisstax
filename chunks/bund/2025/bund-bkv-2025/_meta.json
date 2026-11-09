@@ -1,0 +1,242 @@
+[
+{
+"id": "bund-bkv-2025__art-1",
+"titel": "Art. 1 BKV – Grundsatz",
+"pfad": [
+"Art. 1 Grundsatz"
+],
+"seiten": [],
+"artikel": "Art. 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "bund-bkv-2025__art-2"
+},
+{
+"id": "bund-bkv-2025__art-2",
+"titel": "Art. 2 BKV – Ehegatten",
+"pfad": [
+"Art. 2 Ehegatten"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-1",
+"nachher": "bund-bkv-2025__art-3"
+},
+{
+"id": "bund-bkv-2025__art-3",
+"titel": "Art. 3 BKV – Festlegung der Pauschalansätze und des Abzugs für die Benützung eines privaten Fahrzeugs",
+"pfad": [
+"Art. 3 Festlegung der Pauschalansätze und des Abzugs für die Benützung eines privaten Fahrzeugs"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-2",
+"nachher": "bund-bkv-2025__art-4"
+},
+{
+"id": "bund-bkv-2025__art-4",
+"titel": "Art. 4 BKV – Nachweis höherer Kosten bei Pauschalansätzen",
+"pfad": [
+"Art. 4 Nachweis höherer Kosten bei Pauschalansätzen"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-3",
+"nachher": "bund-bkv-2025__art-5"
+},
+{
+"id": "bund-bkv-2025__art-5",
+"titel": "Art. 5 BKV – Fahrkosten",
+"pfad": [
+"Art. 5 Fahrkosten"
+],
+"seiten": [],
+"artikel": "Art. 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-4",
+"nachher": "bund-bkv-2025__art-5a"
+},
+{
+"id": "bund-bkv-2025__art-5a",
+"titel": "Art. 5a BKV – Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen",
+"pfad": [
+"Art. 5a Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen"
+],
+"seiten": [],
+"artikel": "Art. 5a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-5",
+"nachher": "bund-bkv-2025__art-6-t1"
+},
+{
+"id": "bund-bkv-2025__art-6-t1",
+"titel": "Art. 6 BKV – Mehrkosten für Verpflegung (Teil 1/2)",
+"pfad": [
+"Art. 6 Mehrkosten für Verpflegung"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-5a",
+"nachher": "bund-bkv-2025__art-6-t2"
+},
+{
+"id": "bund-bkv-2025__art-6-t2",
+"titel": "Art. 6 BKV – Mehrkosten für Verpflegung (Teil 2/2)",
+"pfad": [
+"Art. 6 Mehrkosten für Verpflegung"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-6-t1",
+"nachher": "bund-bkv-2025__art-7"
+},
+{
+"id": "bund-bkv-2025__art-7",
+"titel": "Art. 7 BKV – Übrige Berufskosten",
+"pfad": [
+"Art. 7 Übrige Berufskosten"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-6-t2",
+"nachher": "bund-bkv-2025__art-8"
+},
+{
+"id": "bund-bkv-2025__art-8",
+"titel": "Art. 8 BKV",
+"pfad": [
+"Art. 8"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-7",
+"nachher": "bund-bkv-2025__art-9"
+},
+{
+"id": "bund-bkv-2025__art-9",
+"titel": "Art. 9 BKV – Auswärtiger Wochenaufenthalt",
+"pfad": [
+"Art. 9 Auswärtiger Wochenaufenthalt"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-8",
+"nachher": "bund-bkv-2025__art-10"
+},
+{
+"id": "bund-bkv-2025__art-10",
+"titel": "Art. 10 BKV – Nebenerwerb",
+"pfad": [
+"Art. 10 Nebenerwerb"
+],
+"seiten": [],
+"artikel": "Art. 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-9",
+"nachher": "bund-bkv-2025__art-11"
+},
+{
+"id": "bund-bkv-2025__art-11",
+"titel": "Art. 11 BKV – Schlussbestimmungen",
+"pfad": [
+"Art. 11 Schlussbestimmungen"
+],
+"seiten": [],
+"artikel": "Art. 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-10",
+"nachher": "bund-bkv-2025__uebergang-disp-u1"
+},
+{
+"id": "bund-bkv-2025__uebergang-disp-u1",
+"titel": "Übergangsbestimmung zur Änderung vom 3. November 2006 BKV",
+"pfad": [
+"Übergangsbestimmung zur Änderung vom 3. November 2006"
+],
+"seiten": [],
+"artikel": "Übergangsbestimmung zur Änderung vom 3. November 2006",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__art-11",
+"nachher": "bund-bkv-2025__anhang-1"
+},
+{
+"id": "bund-bkv-2025__anhang-1",
+"titel": "Anhang BKV",
+"pfad": [
+"Anhang"
+],
+"seiten": [],
+"artikel": "Anhang",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "bund-bkv-2025__uebergang-disp-u1",
+"nachher": null
+}
+]
