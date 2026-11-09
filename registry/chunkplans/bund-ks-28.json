@@ -1,0 +1,1129 @@
+{
+ "id": "bund-ks-28",
+ "hinweise": [
+  "Seite 27: Schemagrafik zu Art. 9 (Gesamteinkommen/Liquidationsgewinn) als verstreute Wörter extrahiert.",
+  "Seiten 21-23: Grafiken der Fälle 1-4 (Liegenschaft) als zerrissene Textfragmente.",
+  "Seiten 31-32: Anhang III Tabelle mit vier Spalten vermischt (zeilenweise Spaltenvermengung).",
+  "Seite 30 und 12: leere Seiten.",
+  "Stand 2010; Beträge/Schwellen enthalten nur 15 % Altersgutschriftensatz und 2 % Mindestsatz."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt und Inhaltsverzeichnis"
+  },
+  {
+   "start": 88,
+   "titel": "Ziff. 1 Gegenstand – Liquidationsgewinne USTR II, Art. 37b DBG",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "Liquidationsgewinn",
+    "Aufgabe selbständige Erwerbstätigkeit",
+    "Unternehmenssteuerreform II",
+    "Art. 37b DBG",
+    "LGBV",
+    "stille Reserven"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Das KS regelt die getrennte Besteuerung der Liquidationsgewinne bei definitiver Aufgabe der selbständigen Erwerbstätigkeit nach Art. 37b DBG und der LGBV.",
+   "ziffer": "1"
+  },
+  {
+   "start": 98,
+   "titel": "Ziff. 1 Wortlaut Art. 37b DBG Liquidationsgewinne",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "Art. 37b DBG",
+    "55. Altersjahr",
+    "Invalidität",
+    "ein Fünftel Tarif",
+    "Mindestsatz 2 Prozent",
+    "Erben Liquidation"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Nach dem 55. Altersjahr oder bei Invalidität werden die in den letzten zwei Geschäftsjahren realisierten stillen Reserven getrennt besteuert, zu einem Fünftel der Tarife, mindestens zu 2 Prozent.",
+   "ziffer": "1 (Art. 37b)"
+  },
+  {
+   "start": 123,
+   "titel": "Ziff. 2.1 Beendigung selbständige Erwerbstätigkeit – Grundsatz",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "definitive Aufgabe",
+    "geringfügige Tätigkeit",
+    "BVG-Eintrittsschwelle",
+    "einmalige Anwendung",
+    "Einzelunternehmen",
+    "Personengesellschaft"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Art. 37b DBG gilt ab dem 55. Altersjahr oder bei Invalidität; geringfügige Tätigkeit bleibt möglich bis zur BVG-Eintrittsschwelle; nur einmal anwendbar.",
+   "ziffer": "2.1"
+  },
+  {
+   "start": 145,
+   "titel": "Ziff. 2.2 Beendigung infolge Invalidität",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "Invalidität",
+    "IV-Leistungen",
+    "Umschulung",
+    "Kausalität",
+    "Aufgabe Geschäft",
+    "Veranlagung zuwarten"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Invalidität liegt vor, wenn IV-Leistungen (auch Umschulung) ausgerichtet werden; sie muss kausal zur Aufgabe führen.",
+   "ziffer": "2.2"
+  },
+  {
+   "start": 159,
+   "titel": "Ziff. 2.3 Übertragung Personenunternehmung auf juristische Person",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "Umwandlung AG GmbH",
+    "steuerneutrale Übertragung",
+    "Sperrfrist 5 Jahre",
+    "Art. 19 DBG",
+    "Nachsteuerverfahren",
+    "Anstellungsverhältnis"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Bei nicht steuerneutraler Übertragung werden die stillen Reserven nach Art. 37b DBG besteuert; bei Sperrfristverletzung (5 Jahre) im Nachsteuerverfahren.",
+   "ziffer": "2.3"
+  },
+  {
+   "start": 188,
+   "titel": "Ziff. 2.4.1 Verhältnis zu Art. 18a Abs. 1 DBG (Überführung Liegenschaft)",
+   "pfad": [
+    "einkommen.selbstaendig",
+    "vermoegen.liegenschaften"
+   ],
+   "stichworte": [
+    "Art. 18a DBG",
+    "Liegenschaft Privatvermögen",
+    "Steueraufschub",
+    "wieder eingebrachte Abschreibungen",
+    "Wertzuwachsgewinn",
+    "Liquidationsperiode"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Bei Aufschub nach Art. 18a Abs. 1 DBG gilt Art. 37b nur auf wieder eingebrachte Abschreibungen, ausser Überführung und Verkauf fallen in Liquidationsjahr und Vorjahr.",
+   "ziffer": "2.4.1"
+  },
+  {
+   "start": 208,
+   "titel": "Ziff. 2.4.2–2.4.3 Verhältnis zu Art. 18a Abs. 2 und 3 DBG (Verpachtung, Erben)",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "Verpachtung Geschäftsbetrieb",
+    "Art. 18a Abs. 2",
+    "Art. 18a Abs. 3",
+    "Erben Aufschub",
+    "Überführung Privatvermögen"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Bei Verpachtung bleibt der Betrieb im Geschäftsvermögen; beantragen Erben Aufschub nach Art. 18a Abs. 3 DBG, werden keine stillen Reserven realisiert.",
+   "ziffer": "2.4.2–2.4.3"
+  },
+  {
+   "start": 224,
+   "titel": "Ziff. 3 Liquidation – Liquidationsjahr und Abschluss",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "Liquidationsjahr",
+    "letzte Inkassohandlung",
+    "Vorjahr",
+    "Revision Veranlagung",
+    "Inkrafttreten 1.1.2011",
+    "stille Reserven zwei Geschäftsjahre"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Liquidationsgewinn ist die Summe der in den letzten zwei Geschäftsjahren realisierten stillen Reserven; die Liquidation ist in der Regel mit der letzten Inkassohandlung abgeschlossen.",
+   "ziffer": "3"
+  },
+  {
+   "start": 244,
+   "titel": "Ziff. 4 Einkauf in eine Vorsorgeeinrichtung",
+   "pfad": [
+    "einkommen.selbstaendig",
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "stichworte": [
+    "Einkauf Pensionskasse",
+    "Liquidationsjahr",
+    "Beitragsüberhang",
+    "Abzug Einkauf",
+    "2. Säule Selbständige"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Einkäufe im Liquidationsjahr und Vorjahr werden zuerst vom übrigen Einkommen abgezogen; ein Überhang reduziert den Liquidationsgewinn.",
+   "ziffer": "4"
+  },
+  {
+   "start": 253,
+   "titel": "Ziff. 5.1 Fiktiver Einkauf – Grundsatz",
+   "pfad": [
+    "einkommen.selbstaendig",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "stichworte": [
+    "fiktiver Einkauf",
+    "Deckungslücke",
+    "Antrag Steuerbehörde",
+    "nicht angeschlossen Vorsorgeeinrichtung",
+    "Art. 33 DBG"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Selbständig Erwerbende können unabhängig vom Anschluss an eine Vorsorgeeinrichtung die Besteuerung eines fiktiven Einkaufs beantragen, nach Abzug eines tatsächlichen Einkaufs.",
+   "ziffer": "5.1"
+  },
+  {
+   "start": 268,
+   "titel": "Ziff. 5.2 Fiktiver Einkauf – anrechenbare Beitragsjahre",
+   "pfad": [
+    "einkommen.selbstaendig",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "stichworte": [
+    "Beitragsjahre",
+    "25. Altersjahr",
+    "AHV-Rentenalter",
+    "angefangenes Altersjahr"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Massgebend sind die Jahre vom vollendeten 25. Altersjahr bis zum Alter im Liquidationsjahr, höchstens bis zum ordentlichen AHV-Rentenalter.",
+   "ziffer": "5.2"
+  },
+  {
+   "start": 277,
+   "titel": "Ziff. 5.3 Fiktiver Einkauf – massgebendes Einkommen",
+   "pfad": [
+    "einkommen.selbstaendig",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "stichworte": [
+    "Durchschnittseinkommen fünf Jahre",
+    "AHV-pflichtiges Einkommen",
+    "Berechnung fiktiver Einkauf",
+    "weniger als fünf Jahre selbständig"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Massgebend ist das arithmetische Mittel der AHV-pflichtigen Einkünfte der letzten fünf Geschäftsjahre vor dem Liquidationsjahr, abzüglich der im Vorjahr realisierten stillen Reserven.",
+   "ziffer": "5.3"
+  },
+  {
+   "start": 286,
+   "titel": "Ziff. 5.4–5.5 Besteuerung fiktiver Einkauf; spätere Einkäufe",
+   "pfad": [
+    "einkommen.kapitalleistung_vorsorge",
+    "einkommen.selbstaendig"
+   ],
+   "stichworte": [
+    "Art. 38 DBG",
+    "Vorsorgetarif",
+    "keine Zusammenrechnung Kapitalleistungen",
+    "späterer Einkauf Anrechnung",
+    "Deckungslücke"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Der fiktive Einkauf wird nach Art. 38 Abs. 1 DBG besteuert, ohne Zusammenrechnung mit Kapitalleistungen aus Vorsorge derselben Periode, und an spätere Einkäufe angerechnet.",
+   "ziffer": "5.4–5.5"
+  },
+  {
+   "start": 296,
+   "titel": "Ziff. 6.1 Erbgang – Grundsatz",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "Erbgang Unternehmen",
+    "Vermächtnisnehmer",
+    "Universalsukzession",
+    "Liquidation durch Erben",
+    "kein fiktiver Einkauf Erben"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Erben, die nicht weiterführen, können anstelle des Erblassers Art. 37b DBG geltend machen; Einkäufe oder fiktiver Einkauf sind nicht möglich.",
+   "ziffer": "6.1"
+  },
+  {
+   "start": 311,
+   "titel": "Ziff. 6.2 Liquidation durch Erben – Einzelunternehmung und Personengesellschaft",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "Einzelunternehmung Erben",
+    "fünf Kalenderjahre",
+    "Überführung Privatvermögen",
+    "Personengesellschaft Anhang III"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Wird nicht innert fünf Kalenderjahren nach dem Todesjahr liquidiert, erfolgt gesetzlich die Überführung ins Privatvermögen und Besteuerung nach Art. 37b DBG ohne fiktiven Einkauf.",
+   "ziffer": "6.2"
+  },
+  {
+   "start": 329,
+   "titel": "Ziff. 6.3–7 Fortführung durch Erben; Inkrafttreten",
+   "pfad": [
+    "KS 28",
+    "Kreisschreiben"
+   ],
+   "stichworte": [
+    "Fortführung Erben",
+    "Art. 571 ZGB",
+    "Art. 11 Abs. 3 LGBV",
+    "Inkrafttreten 1. Januar 2011",
+    "Art. 18a Abs. 3"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Mit der ersten über die Erfüllung bestehender Verpflichtungen hinausgehenden Handlung geht der Anspruch unter; das KS gilt ab 1. Januar 2011.",
+   "ziffer": "6.3–7"
+  },
+  {
+   "start": 352,
+   "titel": "Anhang I LGBV Art. 1–2 Gegenstand, Geltungsbereich, Liquidationsjahr",
+   "pfad": [
+    "KS 28",
+    "Anhang I LGBV"
+   ],
+   "stichworte": [
+    "LGBV",
+    "Verordnung Liquidationsgewinne",
+    "Geltungsbereich",
+    "Invalidität IVG",
+    "Liquidationsjahr"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Die LGBV vom 17. Februar 2010 regelt die Besteuerung der Liquidationsgewinne nach dem vollendeten 55. Altersjahr oder infolge Invalidität.",
+   "ziffer": "Art. 1–2"
+  },
+  {
+   "start": 403,
+   "titel": "Anhang I LGBV Art. 3–4 Verhältnis Art. 18a DBG; Einkauf Vorsorgeeinrichtung",
+   "pfad": [
+    "KS 28",
+    "Anhang I LGBV"
+   ],
+   "stichworte": [
+    "Art. 18a DBG",
+    "Einkauf Vorsorgeeinrichtung",
+    "Beitragsüberhang",
+    "Liquidationsgewinn reduzieren"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Einkäufe im Liquidationsjahr und Vorjahr sind abziehbar (Art. 33 Abs. 1 Bst. d DBG); ein Beitragsüberhang reduziert den Liquidationsgewinn.",
+   "ziffer": "Art. 3–4"
+  },
+  {
+   "start": 425,
+   "titel": "Anhang I LGBV Art. 5–6 Abs. 1–2 Fiktiver Einkauf – Grundsätze, Berechnung",
+   "pfad": [
+    "KS 28",
+    "Anhang I LGBV"
+   ],
+   "stichworte": [
+    "fiktiver Einkauf Berechnung",
+    "Altersgutschriftensatz 15 Prozent",
+    "25. Altersjahr",
+    "Belege Antrag"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Fiktiver Einkauf = Altersgutschriftensatz von 15 Prozent mal Anzahl Jahre mal Einkommen, abzüglich Abzüge; er darf den Liquidationsgewinn nicht übersteigen.",
+   "ziffer": "Art. 5–6"
+  },
+  {
+   "start": 444,
+   "titel": "Anhang I LGBV Art. 6 Abs. 3–6 Einkommen, Höchstgrenze, Abzüge",
+   "pfad": [
+    "KS 28",
+    "Anhang I LGBV"
+   ],
+   "stichworte": [
+    "zehnfacher oberer Grenzbetrag BVG",
+    "Altersguthaben Abzug",
+    "Säule 3a Guthaben",
+    "WEF-Vorbezug",
+    "Barauszahlung",
+    "Freizügigkeit"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Das Einkommen darf höchstens das Zehnfache des oberen Grenzbetrags nach Art. 8 Abs. 1 BVG betragen; abgezogen werden Vorsorgeguthaben, Vorbezüge und Leistungen.",
+   "ziffer": "Art. 6 Abs. 3–6"
+  },
+  {
+   "start": 477,
+   "titel": "Anhang I LGBV Art. 7–8 Nachträglicher Anschluss; Besteuerung fiktiver Einkauf",
+   "pfad": [
+    "KS 28",
+    "Anhang I LGBV"
+   ],
+   "stichworte": [
+    "nachträglicher Anschluss",
+    "Art. 38 DBG",
+    "fiktiver Einkauf Besteuerung"
+   ],
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Der fiktive Einkauf wird an einen späteren Einkauf angerechnet und nach Art. 38 DBG besteuert.",
+   "ziffer": "Art. 7–8"
+  },
+  {
+   "start": 492,
+   "titel": "Anhang I LGBV Art. 9–10 Übriger Liquidationsgewinn, Besteuerung",
+   "pfad": [
+    "KS 28",
+    "Anhang I LGBV"
+   ],
+   "stichworte": [
+    "übriger Liquidationsgewinn",
+    "ein Fünftel satzbestimmend",
+    "Mindestsatz 2 Prozent",
+    "Verlustvortrag",
+    "Art. 214 DBG"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Für den Steuersatz ist ein Fünftel des Liquidationsgewinns massgebend; der Steuersatz beträgt mindestens 2 Prozent.",
+   "ziffer": "Art. 9–10"
+  },
+  {
+   "start": 515,
+   "titel": "Anhang I LGBV Art. 11 Liquidation durch Erben",
+   "pfad": [
+    "KS 28",
+    "Anhang I LGBV"
+   ],
+   "stichworte": [
+    "Erben Liquidation",
+    "fünf Kalenderjahre",
+    "steuersystematische Abrechnung",
+    "kein fiktiver Einkauf Erben"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Liquidieren die Erben innert fünf Kalenderjahren nach Ablauf des Todesjahres, gilt der Satz nach Art. 10; ein fiktiver Einkauf ist für Erben ausgeschlossen.",
+   "ziffer": "Art. 11"
+  },
+  {
+   "start": 545,
+   "titel": "Anhang I LGBV Art. 12–13 Fortführung durch Erben; Inkrafttreten",
+   "pfad": [
+    "KS 28",
+    "Anhang I LGBV"
+   ],
+   "stichworte": [
+    "Fortführung Erben",
+    "Art. 37b DBG Voraussetzungen",
+    "Inkrafttreten 1. Januar 2011"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Führen die Erben fort, gilt die LGBV nur, wenn sie die Voraussetzungen von Art. 37b DBG selbst erfüllen; Inkrafttreten am 1. Januar 2011.",
+   "ziffer": "Art. 12–13"
+  },
+  {
+   "start": 566,
+   "skip": true,
+   "titel": "Leerseite und Deckblatt Anhang II Erläuterungen"
+  },
+  {
+   "start": 590,
+   "titel": "Anhang II Zusammenfassung der Erläuterungen zur LGBV",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Zusammenfassung",
+    "Liquidationsgewinn privilegiert",
+    "fiktiver Einkauf neues Steuerinstitut",
+    "Art. 11 Abs. 5 StHG"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Der Liquidationsgewinn wird getrennt und privilegiert besteuert, ein Fünftel ist satzbestimmend; der fiktive Einkauf wird nach Art. 38 DBG besteuert.",
+   "ziffer": "Zusammenfassung"
+  },
+  {
+   "start": 619,
+   "titel": "Anhang II Ziff. 1 Einleitung – Unternehmenssteuerreform II",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Unternehmenssteuerreform II",
+    "USTR II",
+    "KMU Entlastung",
+    "Personenunternehmen",
+    "Referendum 24. Februar 2008"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Die USTR II wurde am 24. Februar 2008 vom Volk angenommen; Art. 37b DBG tritt am 1. Januar 2011 in Kraft.",
+   "ziffer": "1"
+  },
+  {
+   "start": 651,
+   "titel": "Anhang II Ziff. 1.1 Vorschlag des Bundesrates (ein Achtel satzbestimmend)",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Botschaft USTR II",
+    "ein Achtel",
+    "Art. 37a DBG",
+    "Revisionsgrund"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Der Bundesrat wollte ein Achtel der realisierten stillen Reserven als satzbestimmend; der ursprüngliche Art. 37a wurde zu Art. 37b DBG.",
+   "ziffer": "1.1"
+  },
+  {
+   "start": 677,
+   "titel": "Anhang II Ziff. 1.1 (Forts.) Verzicht auf Privilegierung wegen Vorsorge",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "berufliche Vorsorge Selbständige",
+    "Art. 4 Abs. 3 BVG",
+    "Progression stille Reserven",
+    "Botschaft"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Der Bundesrat verzichtete auf eine Privilegierung wegen Vorsorgeanteilen, da Art. 4 Abs. 3 BVG Selbständigen die Vorsorge ermöglicht.",
+   "ziffer": "1.1"
+  },
+  {
+   "start": 708,
+   "titel": "Anhang II Ziff. 1.2 Beratung Ständerat – Fünftel und Mindestsatz 2 Prozent",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Ständerat",
+    "ein Fünftel",
+    "Mindestsatz 2 Prozent",
+    "Art. 11 Abs. 5 StHG"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Der Ständerat beschloss getrennte Besteuerung der in den letzten zwei Geschäftsjahren realisierten stillen Reserven, ein Fünftel satzbestimmend, mindestens 2 Prozent.",
+   "ziffer": "1.2"
+  },
+  {
+   "start": 733,
+   "titel": "Anhang II Ziff. 1.2 Nationalrat – Streichung Mindestsatz, Fünftel des Tarifs",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Nationalrat",
+    "Kleinstunternehmen Altersvorsorge",
+    "Tarif ein Fünftel",
+    "Differenzbereinigung"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Der Nationalrat strich den Mindestsatz von 2 Prozent und wollte den Liquidationsgewinn zu einem Fünftel der Tarife nach Art. 36 DBG besteuern.",
+   "ziffer": "1.2"
+  },
+  {
+   "start": 769,
+   "titel": "Anhang II Ziff. 1.2 Einigung – Einkaufsbeiträge und fiktiver Einkauf",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Einkaufsbeiträge abziehbar",
+    "fiktiver Einkauf Entstehung",
+    "Deckungslücke",
+    "Votum Merz"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Das Parlament einigte sich auf Abzug von Einkaufsbeiträgen und auf den fiktiven Einkauf für Selbständige ohne genügende Vorsorge.",
+   "ziffer": "1.2"
+  },
+  {
+   "start": 790,
+   "titel": "Anhang II Wortlaut Art. 37b DBG (vom Parlament verabschiedet)",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Art. 37b DBG Wortlaut",
+    "Liquidationsgewinne",
+    "ein Fünftel",
+    "mindestens 2 Prozent"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Verabschiedeter Wortlaut von Art. 37b DBG: stille Reserven der letzten zwei Geschäftsjahre getrennt besteuern, Einkaufsbeiträge abziehbar, Satz auf Fünftel, mindestens 2 Prozent.",
+   "ziffer": "Art. 37b"
+  },
+  {
+   "start": 812,
+   "titel": "Anhang II Ziff. 1.3 Auslegung von Art. 37b DBG",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Auslegung",
+    "teleologisch",
+    "fiktiver Einkauf Nichtangeschlossene",
+    "Erben Voraussetzungen",
+    "BGE 134 V 170"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Eine strikt wörtliche Auslegung würde Nichtangeschlossene vom fiktiven Einkauf ausschliessen und auch die Erben dem Alterserfordernis unterwerfen, was der Gesetzgeber nicht wollte.",
+   "ziffer": "1.3"
+  },
+  {
+   "start": 838,
+   "titel": "Anhang II Art. 1 Abs. 1–2 Gegenstand: definitive Aufgabe, Invalidität",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "definitive Aufgabe",
+    "55. Altersjahr",
+    "Invalidität Art. 4 IVG",
+    "unselbständige Tätigkeit nachher"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Die privilegierte Besteuerung setzt das vollendete 55. Altersjahr oder Invalidität voraus; eine nachträgliche unselbständige Tätigkeit schadet nicht.",
+   "ziffer": "Art. 1 Abs. 1–2"
+  },
+  {
+   "start": 863,
+   "titel": "Anhang II Art. 1 Abs. 3 Ausnahmen – nur einmal, nur stille Reserven",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "einmalige Anwendung",
+    "Wiederaufnahme selbständige Tätigkeit",
+    "ordentliche Besteuerung",
+    "übrige Einkünfte"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Die Privilegierung gilt nur für im Vorjahr und Liquidationsjahr realisierte stille Reserven und nur einmal; bei Wiederaufnahme der Tätigkeit gilt später die ordentliche Besteuerung.",
+   "ziffer": "Art. 1 Abs. 3"
+  },
+  {
+   "start": 882,
+   "titel": "Anhang II Art. 1 – Nachsteuerverfahren und Steuerumgehung",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Nachsteuerverfahren",
+    "Art. 151 DBG",
+    "Steuerumgehung",
+    "neue Tatsachen",
+    "Bundesgericht"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Ein Nachsteuerverfahren nach Art. 151 DBG ist bei Wiederaufnahme der Tätigkeit nicht möglich; vorbehalten bleibt die Steuerumgehung.",
+   "ziffer": "Art. 1"
+  },
+  {
+   "start": 927,
+   "titel": "Anhang II Art. 2 Liquidationsjahr",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Liquidationsjahr Definition",
+    "Inkrafttreten 2011",
+    "Vorjahr 2010"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Liquidationsjahr ist das Geschäftsjahr der letzten Liquidationshandlung; bei Aufgabe 2011 kann 2010 als Vorjahr herangezogen werden.",
+   "ziffer": "Art. 2"
+  },
+  {
+   "start": 941,
+   "titel": "Anhang II Art. 3 Verhältnis zu Art. 18a DBG – Grundsätze",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Art. 18a DBG",
+    "Überführung Liegenschaft",
+    "Aufschub",
+    "wieder eingebrachte Abschreibungen",
+    "Wertzuwachsgewinn"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Bei Aufschub nach Art. 18a DBG gilt Art. 37b nur auf wieder eingebrachte Abschreibungen; innerhalb von Vorjahr und Liquidationsjahr gehören alle stillen Reserven zum Liquidationsgewinn.",
+   "ziffer": "Art. 3"
+  },
+  {
+   "start": 969,
+   "titel": "Anhang II Art. 3 Fall 1 – Überführung Vorjahr ohne Aufschub, Verkauf Liquidationsjahr",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Fall 1 Liegenschaft",
+    "ohne Aufschub",
+    "Revisionsverfahren",
+    "Liquidationsgewinn Liegenschaft"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Ohne Aufschub werden bei Überführung im Vorjahr und Verkauf im Liquidationsjahr die gesamten stillen Reserven privilegiert besteuert.",
+   "ziffer": "Art. 3 Fall 1"
+  },
+  {
+   "start": 1002,
+   "titel": "Anhang II Art. 3 Fall 2 – Überführung Vorjahr ohne Aufschub, Verkauf später",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Fall 2 Liegenschaft",
+    "Grundstückgewinnsteuer",
+    "steuerfreier privater Kapitalgewinn",
+    "Art. 16 Abs. 3 DBG"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Eine spätere Veräusserung löst nur kantonale Grundstückgewinnsteuer aus; der Kapitalgewinn ist steuerfrei (Art. 16 Abs. 3 DBG).",
+   "ziffer": "Art. 3 Fall 2"
+  },
+  {
+   "start": 1033,
+   "titel": "Anhang II Art. 3 Fall 3 – Überführung mit Aufschub, Verkauf nach Liquidationsjahr",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Fall 3 Liegenschaft",
+    "mit Aufschub",
+    "Anlagekosten",
+    "wieder eingebrachte Abschreibungen"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Mit Aufschub sind nur die wieder eingebrachten Abschreibungen Teil des Liquidationsgewinns; der Wertzuwachsgewinn wird später als Einkommen aus selbständiger Erwerbstätigkeit besteuert.",
+   "ziffer": "Art. 3 Fall 3"
+  },
+  {
+   "start": 1068,
+   "titel": "Anhang II Art. 3 Fall 4 – Überführung vor Vorjahr mit Aufschub, Verkauf im Liquidationsjahr",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Fall 4 Liegenschaft",
+    "Aufschub Art. 18a",
+    "ordentliche Besteuerung Wertzuwachs"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "vermoegen.liegenschaften"
+   ],
+   "zusammenfassung": "Art. 37b DBG findet weder auf die wieder eingebrachten Abschreibungen noch auf den Wertzuwachsgewinn Anwendung; beides wird ordentlich besteuert.",
+   "ziffer": "Art. 3 Fall 4"
+  },
+  {
+   "start": 1109,
+   "titel": "Anhang II Art. 4 Einkauf in eine Vorsorgeeinrichtung",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Einkauf Art. 33 Abs. 1 Bst. d",
+    "Art. 79b Abs. 3 BVG",
+    "Kapitalbezug Sperrfrist drei Jahre",
+    "Beitragsüberhang"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Einkäufe werden zuerst vom übrigen Einkommen abgezogen; Leistungen aus Einkäufen dürfen innerhalb von drei Jahren nicht als Kapital bezogen werden.",
+   "ziffer": "Art. 4"
+  },
+  {
+   "start": 1130,
+   "titel": "Anhang II Art. 5 Fiktiver Einkauf – Grundsätze und Anspruchsberechtigte",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "fiktiver Einkauf Anspruch",
+    "Beweislast Steuerpflichtiger",
+    "Vorsorgeguthaben anrechnen"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Alle selbständig Erwerbenden, die keinen tatsächlichen Einkauf leisten, können die Besteuerung eines fiktiven Einkaufs beantragen; bestehende Vorsorgeguthaben werden angerechnet.",
+   "ziffer": "Art. 5"
+  },
+  {
+   "start": 1160,
+   "titel": "Anhang II Art. 6 Abs. 1–2 Altersgutschriftensatz 15 Prozent, Beitragsjahre",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Altersgutschriftensatz 15 Prozent",
+    "Art. 16 BVG",
+    "40 Jahre",
+    "39 Jahre",
+    "Koordinationsabzug"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Der Altersgutschriftensatz von 15 Prozent entspricht dem obligatorischen Satz zwischen 45 und 54; maximal 40 (65-25) bzw. 39 Jahre (64-25) werden berücksichtigt.",
+   "ziffer": "Art. 6 Abs. 1–2"
+  },
+  {
+   "start": 1187,
+   "titel": "Anhang II Art. 6 Abs. 3–5 Durchschnittseinkommen, Höchstgrenze",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Durchschnittseinkommen",
+    "fünfjähriger Durchschnitt",
+    "oberer Grenzbetrag BVG",
+    "weniger als fünf Jahre"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Es zählt das AHV-pflichtige ordentliche Einkommen im Fünfjahresdurchschnitt ohne Liquidationsgewinn, höchstens der versicherbare BVG-Lohn.",
+   "ziffer": "Art. 6 Abs. 3–5"
+  },
+  {
+   "start": 1209,
+   "titel": "Anhang II Art. 6 Abs. 6 Anrechnung von Vorsorgeguthaben und Bezügen",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Vorsorgeguthaben anrechnen",
+    "Freizügigkeitsguthaben",
+    "WEF-Vorbezug",
+    "Barauszahlung",
+    "Wohlfahrtsfonds"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "einkommen.kapitalleistung_vorsorge"
+   ],
+   "zusammenfassung": "Alle Vorsorgeguthaben inklusive Einkäufe im Vorjahr und Liquidationsjahr sowie bereits bezogene Leistungen sind an den fiktiven Einkauf anzurechnen.",
+   "ziffer": "Art. 6 Abs. 6"
+  },
+  {
+   "start": 1224,
+   "titel": "Anhang II Art. 7 Nachträglicher Anschluss an eine Vorsorgeeinrichtung",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "nachträglicher Anschluss",
+    "neue Erwerbstätigkeit",
+    "Art. 60a BVV 2",
+    "Einkauf nach Liquidation"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig",
+    "abzug.vorsorge.saeule2_einkauf"
+   ],
+   "zusammenfassung": "Der bereits geltend gemachte fiktive Einkauf wird von der effektiven Einkaufslücke abgezogen und wie eine Freizügigkeitsleistung behandelt.",
+   "ziffer": "Art. 7"
+  },
+  {
+   "start": 1243,
+   "titel": "Anhang II Art. 8 Besteuerung des fiktiven Einkaufs (Vorsorgetarif, Zusammenrechnung)",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Art. 38 DBG",
+    "Kapitalleistung Vorsorge",
+    "Zusammenrechnung Kapitalleistungen",
+    "Vorsorgetarif"
+   ],
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge",
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Der fiktive Einkauf wird nach Art. 38 DBG wie eine Kapitalleistung aus Vorsorge besteuert und mit Kapitalleistungen derselben Steuerperiode zusammengerechnet.",
+   "ziffer": "Art. 8"
+  },
+  {
+   "start": 1262,
+   "titel": "Anhang II Art. 9 Bemessung des übrigen Liquidationsgewinns",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Abzüge Liquidationsgewinn",
+    "Liquidationsaufwand",
+    "Verlustvortrag",
+    "Beitragsüberhang",
+    "fiktiver Einkauf Aussonderung"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Vom Liquidationsgewinn abgezogen werden Beitragsüberhänge, der fiktive Einkauf, Liquidationsaufwand (z.B. Notar, Anwalt) und verrechenbare Verlustvorträge.",
+   "ziffer": "Art. 9"
+  },
+  {
+   "start": 1316,
+   "titel": "Anhang II Art. 10 Besteuerung – ein Fünftel, Mindestsatz 2 Prozent",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "ein Fünftel satzbestimmend",
+    "Mindestsatz 2 Prozent",
+    "Art. 214 DBG",
+    "Progression"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Ein Fünftel des verbleibenden Liquidationsgewinns bestimmt den Steuersatz nach Art. 214 DBG; der Mindestsatz von 2 Prozent stellt sicher, dass immer eine Steuer anfällt.",
+   "ziffer": "Art. 10"
+  },
+  {
+   "start": 1326,
+   "titel": "Anhang II Art. 11 Abs. 1–3 Liquidation durch Erben",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Erben Liquidationsgewinn",
+    "Auffangtatbestand",
+    "fünf Jahre",
+    "Erfüllung Verpflichtungen"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Erben und Vermächtnisnehmer übernehmen den Anspruch des Erblassers; nach fünf Jahren ohne Liquidation gilt eine gesetzliche Privatentnahme.",
+   "ziffer": "Art. 11 Abs. 1–3"
+  },
+  {
+   "start": 1350,
+   "titel": "Anhang II Art. 11 Abs. 4 Kein fiktiver Einkauf für Erben",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "fiktiver Einkauf Erben",
+    "Todesfallleistung",
+    "Vorsorgelücke",
+    "Art. 37b Abs. 2 DBG"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Erben und Vermächtnisnehmer können keinen fiktiven Einkauf geltend machen, da nach dem Tod keine Vorsorgelücken mehr geschlossen werden können.",
+   "ziffer": "Art. 11 Abs. 4"
+  },
+  {
+   "start": 1387,
+   "titel": "Anhang II Art. 12–13 Fortführung durch Erben; Inkrafttreten",
+   "pfad": [
+    "KS 28",
+    "Anhang II Erläuterungen"
+   ],
+   "stichworte": [
+    "Fortführung Erben",
+    "Art. 18a Abs. 3 DBG",
+    "übrige Erben Anteil",
+    "Inkrafttreten 1. Januar 2011"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Mit der ersten Fortführungshandlung geht der Anspruch des Erblassers unter; übrige Erben können für ihren Anteil Art. 37b geltend machen; Inkrafttreten 1. Januar 2011.",
+   "ziffer": "Art. 12–13"
+  },
+  {
+   "start": 1422,
+   "titel": "Anhang III Tod eines Gesellschafters – keine Regelung, Nachfolgeklausel",
+   "pfad": [
+    "KS 28",
+    "Anhang III Personengesellschaft"
+   ],
+   "stichworte": [
+    "Personengesellschaft Tod Gesellschafter",
+    "Nachfolgeklausel",
+    "Erbengemeinschaft",
+    "Fortführung nicht fortführen",
+    "Art. 37b Abs. 2 DBG"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Übersicht, ob beim Tod eines Gesellschafters Fortführung oder Nichtfortführung vorliegt und ob Art. 37b Abs. 2 DBG anwendbar ist.",
+   "ziffer": "Anhang III"
+  },
+  {
+   "start": 1460,
+   "titel": "Anhang III Nachfolgeklausel 2.B, Fortsetzungs- und Eintrittsklausel",
+   "pfad": [
+    "KS 28",
+    "Anhang III Personengesellschaft"
+   ],
+   "stichworte": [
+    "Fortsetzungsklausel",
+    "Eintrittsklausel",
+    "Abfindungsanspruch",
+    "kein fiktiver Einkauf",
+    "Liquidationsgewinn Erblasser"
+   ],
+   "positionen": [
+    "einkommen.selbstaendig"
+   ],
+   "zusammenfassung": "Bei Fortsetzungs- oder nicht angenommener Eintrittsklausel realisiert der Erblasser den Liquidationsgewinn (Art. 37b Abs. 1 DBG), ein fiktiver Einkauf ist nicht möglich.",
+   "ziffer": "Anhang III"
+  }
+ ]
+}

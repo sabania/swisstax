@@ -289,7 +289,13 @@ def write_index(W, Z):
 def main():
     Q.mkdir(exist_ok=True)
     W, Z = werte_files(), zuordnung_files()
-    B = load_yaml(DATA / "belege.yaml")
+    B = {"belege": []}
+    for bp in [DATA / "belege.yaml"] + sorted(DATA.glob("belege-teil*.yaml")):
+        d = load_yaml(bp)
+        if d:
+            B["belege"] += d.get("belege") or []
+    order = {k: i for i, k in enumerate(TAX["belege"])}
+    B["belege"].sort(key=lambda b: order.get(b["id"], 999))
     write_werte(W)
     write_vergleich(W)
     write_zuordnung(Z, W, B)

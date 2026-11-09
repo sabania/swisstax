@@ -1,0 +1,94 @@
+# Praxistest für den Steuerexperten-Agenten (OpenClaw). Jede Frage wird NUR mit dem Steuer-Wiki beantwortet.
+# Bewertung: richtig (Zahl/Regel + richtige Fundstelle + richtiges Jahr/Kanton) | teilweise | falsch | «nicht gefunden» (ehrlich).
+# erwartet: Kurzfassung der korrekten Antwort mit Fundstelle (vom Review gefüllt; Status agent-geprueft/verifiziert beachten).
+fragen:
+  - id: q01
+    kategorie: triage
+    frage: "Mandantin (ZH, 2025) bringt: Lohnausweis, Krankenkassen-Prämienrechnung, Handyrechnung, 3a-Bescheinigung, Hausratversicherungspolice, Spendenquittung Rotes Kreuz CHF 80, Kita-Rechnungen. Welche sind relevant, wofür?"
+  - id: q02
+    kategorie: zuordnung
+    frage: "In welche Ziffer und mit welchem Code der ZH-Steuererklärung 2025 gehört der Nettolohn aus Lohnausweis Ziff. 11 (Person 1, Haupterwerb)?"
+  - id: q03
+    kategorie: zuordnung
+    frage: "Lohnausweis Feld F ist angekreuzt (Geschäftsauto). Was bedeutet das für den Fahrkostenabzug (SG 2025)?"
+  - id: q04
+    kategorie: werte
+    frage: "Wie hoch ist der maximale Fahrkostenabzug 2025 in TG (Staatssteuer) und beim Bund, und welcher km-Ansatz gilt für das Auto?"
+  - id: q05
+    kategorie: werte
+    frage: "Welcher km-Ansatz für Autos gilt 2026 bei der direkten Bundessteuer?"
+  - id: q06
+    kategorie: werte
+    frage: "Maximaler Säule-3a-Abzug 2025 für eine Arbeitnehmerin mit Pensionskasse? Und für eine Selbständige ohne 2. Säule?"
+  - id: q07
+    kategorie: werte
+    frage: "Kinderabzug 2025 in AR für ein 10-jähriges Kind – und beim Bund?"
+  - id: q08
+    kategorie: werte
+    frage: "Versicherungsabzug ZH 2025 für ein Ehepaar mit 2 Kindern, beide mit Pensionskasse (Staatssteuer und Bund)?"
+  - id: q09
+    kategorie: werte
+    frage: "Wie hoch ist der Kinderdrittbetreuungsabzug 2025 im Kanton ZH, und gilt 2026 ein anderer Wert?"
+  - id: q10
+    kategorie: werte
+    frage: "Gibt es im Kanton TG einen Zweiverdienerabzug für die Staatssteuer?"
+  - id: q11
+    kategorie: werte
+    frage: "SG 2025: Pauschale für übrige Berufskosten? Wie wird sie berechnet?"
+  - id: q12
+    kategorie: liegenschaften
+    frage: "Pauschalabzug Liegenschaftsunterhalt in AR für ein 8-jähriges Einfamilienhaus – und wie in ZH?"
+  - id: q13
+    kategorie: liegenschaften
+    frage: "TG: Welcher Einschlag gilt auf dem Eigenmietwert der selbstbewohnten Liegenschaft am Wohnsitz (Kanton vs. Bund)?"
+  - id: q14
+    kategorie: verfahren
+    frage: "Bis wann kann ein Treuhänder im Kanton TG für seine Mandanten Fristerstreckung erhalten?"
+  - id: q15
+    kategorie: verfahren
+    frage: "ZH: Bis wann ist die Steuererklärung 2025 einzureichen und wie lange wird höchstens Fristerstreckung gewährt?"
+  - id: q16
+    kategorie: verfahren
+    frage: "AR: Was kostet die zweite Fristverlängerung?"
+  - id: q17
+    kategorie: abzug
+    frage: "Krankheitskosten SG 2025: Ab welchem Selbstbehalt sind sie abziehbar – und beim Bund?"
+  - id: q18
+    kategorie: abzug
+    frage: "PK-Einkauf CHF 20'000 wurde über den Lohn abgezogen (Lohnausweis Ziff. 10.2). Darf er nochmals in der Steuererklärung abgezogen werden?"
+  - id: q19
+    kategorie: abzug
+    frage: "Weiterbildungskosten CHF 15'000 (ZH, 2025), Arbeitgeber hat nichts bezahlt. Wie viel ist abziehbar (Kanton/Bund)?"
+  - id: q20
+    kategorie: abzug
+    frage: "Spenden CHF 50 an eine gemeinnützige Organisation (TG 2025) – abziehbar?"
+  - id: q21
+    kategorie: neu-2026
+    frage: "Was ändert sich 2026 bei der Säule 3a (Einkauf) und wo wird das im ZH-Formular 2026 eingetragen?"
+  - id: q22
+    kategorie: wertschriften
+    frage: "Wie wird die Verrechnungssteuer auf Schweizer Dividenden zurückgefordert und wo wird der Anspruch ausgewiesen?"
+  - id: q23
+    kategorie: vergleich
+    frage: "Vergleiche den Versicherungsabzug 2025 für Alleinstehende ohne Kinder in AR, SG, TG, ZH und beim Bund."
+  - id: q24
+    kategorie: vermoegen
+    frage: "Steuerfreie Vermögensbeträge (Sozialabzüge) 2025 in SG für ein Ehepaar mit einem minderjährigen Kind?"
+  - id: q25
+    kategorie: bezug
+    frage: "Welcher Verzugszins gilt 2026 für die direkte Bundessteuer?"
+  - id: q26
+    kategorie: rechtslage
+    frage: "Wann wird der Eigenmietwert abgeschafft und gilt das schon für 2026?"
+  - id: q27
+    kategorie: gesetz
+    frage: "Zitiere die Regel zum Abzug privater Schuldzinsen im DBG (Steuerjahr 2025) mit Artikel."
+  - id: q28
+    kategorie: triage
+    frage: "Ist ein Leasingvertrag für das Privatauto steuerlich relevant? Was ist mit den Leasingraten?"
+  - id: q29
+    kategorie: nicht-gefunden
+    frage: "Wie hoch ist der Kinderabzug im Kanton Bern 2025?"
+  - id: q30
+    kategorie: fall
+    frage: "Ehepaar TG 2025, beide angestellt (Nettolohn 80'000 und 30'000), pendelt mit ÖV-Abo (CHF 1'200 bzw. 900). Erstelle die Abzüge Berufskosten (Fahrkosten, Verpflegung ohne Kantine, Pauschale übrige) je Person für Kanton und Bund mit Fundstellen."

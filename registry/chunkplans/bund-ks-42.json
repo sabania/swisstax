@@ -1,0 +1,454 @@
+{
+ "id": "bund-ks-42",
+ "hinweise": [
+  "S. 3: Grafik zum Bildungssystem fehlt im Text.",
+  "S. 4/5: Tabelle Ziff. 3 im Layout zerrissen (Spalten- und Zeilenköpfe getrennt, Seitenumbruch mitten in Tabelle); Zuordnung Ja/Nein nur eingeschränkt lesbar.",
+  "S. 11: Beispiel-Tabellen (Spaltenraster N1–N4) nur als Textraster extrahiert."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt und Inhaltsverzeichnis"
+  },
+  {
+   "start": 75,
+   "titel": "Ziff. 1 Gesetzliche Grundlage und Gegenstand – Abzug bis 12 000 Franken",
+   "pfad": [
+    "1 Gesetzliche Grundlage"
+   ],
+   "stichworte": [
+    "Weiterbildung",
+    "Aus- und Weiterbildungskosten",
+    "Art. 33 Abs. 1 Bst. j DBG",
+    "12 000 Franken",
+    "Sekundarstufe II",
+    "20. Lebensjahr"
+   ],
+   "zusammenfassung": "Berufsorientierte Aus- und Weiterbildungskosten sind nach dem ersten Sek-II-Abschluss (oder ab vollendetem 20. Lebensjahr) abzugsfähig, höchstens 12 000 Franken pro Person und Steuerperiode.",
+   "ziffer": "1",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 91,
+   "titel": "Ziff. 1 Inkrafttreten 1.1.2016 und geänderte DBG-Bestimmungen",
+   "pfad": [
+    "1 Gesetzliche Grundlage"
+   ],
+   "stichworte": [
+    "Inkrafttreten 2016",
+    "Art. 17 Abs. 1bis DBG",
+    "Art. 27 DBG",
+    "Art. 59 DBG",
+    "Kreisschreiben 26"
+   ],
+   "zusammenfassung": "Das Gesetz trat per 1. Januar 2016 in Kraft; Ziffer 3 des Kreisschreibens Nr. 26 vom 22. September 1995 wird hinfällig.",
+   "ziffer": "1",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 104,
+   "titel": "Ziff. 2 Bildungssystem in der Schweiz – Primarstufe bis Sekundarstufe II",
+   "pfad": [
+    "2 Bildungssystem"
+   ],
+   "stichworte": [
+    "Bildungssystem",
+    "Primarstufe",
+    "Sekundarstufe I",
+    "Sekundarstufe II",
+    "Berufslehre",
+    "Gymnasium"
+   ],
+   "zusammenfassung": "Beschreibung der Bildungsstufen Primarstufe, Sekundarstufe I und Sekundarstufe II als Grundlage für die Abzugsabgrenzung.",
+   "ziffer": "2",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 126,
+   "titel": "Ziff. 2 Bildungssystem – Sekundarstufe II (Forts.) und Tertiärstufe",
+   "pfad": [
+    "2 Bildungssystem"
+   ],
+   "stichworte": [
+    "Tertiärstufe",
+    "höhere Berufsbildung",
+    "Fachhochschule",
+    "ETH",
+    "Berufsprüfung",
+    "Höhere Fachschule"
+   ],
+   "zusammenfassung": "Sek II umfasst allgemeinbildende und berufliche Ausbildungsgänge; die Tertiärstufe umfasst höhere Berufsbildung und Hochschulen.",
+   "ziffer": "2",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 147,
+   "titel": "Ziff. 3 Schematischer Überblick über die Abzugsfähigkeit (Tabelle)",
+   "pfad": [
+    "3 Überblick Abzugsfähigkeit"
+   ],
+   "stichworte": [
+    "Abzugsfähigkeit",
+    "Umschulung",
+    "Wiedereinstieg",
+    "Liebhaberei",
+    "Hobby",
+    "unter 20 Jahre"
+   ],
+   "zusammenfassung": "Tabelle: Ausbildung bis zum ersten Sek-II-Abschluss ist nicht abzugsfähig; Weiterbildung, Umschulung und Wiedereinstieg sind abzugsfähig, Liebhaberei/Hobby nie.",
+   "ziffer": "3",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 199,
+   "titel": "Ziff. 4.1 Allgemeines – Wortlaut Art. 33 Abs. 1 Bst. j DBG",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.1 Allgemeines"
+   ],
+   "stichworte": [
+    "Art. 33 Abs. 1 Bst. j DBG",
+    "Gesetzestext",
+    "12 000 Franken",
+    "Umschulungskosten"
+   ],
+   "zusammenfassung": "Art. 33 Abs. 1 Bst. j DBG: Abzug der Kosten berufsorientierter Aus- und Weiterbildung inkl. Umschulung bis 12 000 Franken.",
+   "ziffer": "4.1",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 215,
+   "titel": "Ziff. 4.1 Allgemeines – Voraussetzungen, Altersrentner, Lebenshaltungskosten",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.1 Allgemeines"
+   ],
+   "stichworte": [
+    "allgemeiner Abzug",
+    "formale Bildung",
+    "Altersrentner",
+    "Lebenshaltungskosten",
+    "erster Abschluss"
+   ],
+   "zusammenfassung": "Kosten bis und mit erstem Sek-II-Abschluss gelten als Lebenshaltungskosten; Altersrentner müssen eine Erwerbstätigkeit glaubhaft machen.",
+   "ziffer": "4.1",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 237,
+   "titel": "Ziff. 4.1 Beispiele (Automechaniker, Studentin, KV-Lehre Sprachaufenthalt)",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.1 Allgemeines"
+   ],
+   "stichworte": [
+    "Beispiel",
+    "Studentin",
+    "Studium",
+    "Sprachaufenthalt",
+    "Lehrabschluss nachholen",
+    "Kinderabzug"
+   ],
+   "zusammenfassung": "Beispiele: Nachholen des Lehrabschlusses nicht abziehbar; Studiumskosten abziehbar bis 12 000 Franken; Sprachkurs nach dem Lehrabschluss abziehbar.",
+   "ziffer": "4.1",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 259,
+   "titel": "Ziff. 4.2 Allgemeiner Abzug – kein Pauschalabzug, pro Ehegatte",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.2 Allgemeiner Abzug"
+   ],
+   "stichworte": [
+    "effektive Kosten",
+    "Ehegatten",
+    "eingetragene Partnerschaft",
+    "unterjährige Steuerpflicht",
+    "kein Erwerbseinkommen"
+   ],
+   "zusammenfassung": "Der Abzug bis höchstens 12 000 Franken steht jedem Ehegatten/Partner einzeln zu, ist kein Pauschalabzug und braucht kein Erwerbseinkommen.",
+   "ziffer": "4.2",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 280,
+   "titel": "Ziff. 4.3 Obergrenze des Abzuges – 12 000 Franken pro Steuerperiode",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.3 Obergrenze"
+   ],
+   "stichworte": [
+    "Maximalabzug",
+    "12 000 Franken",
+    "Fahrkosten Weiterbildung",
+    "notwendige Kosten",
+    "Obergrenze"
+   ],
+   "zusammenfassung": "Höchstens 12 000 Franken pro Person und Steuerperiode für alle Kurse zusammen; Nebenkosten wie Fahrten nur im Rahmen dieses Betrags.",
+   "ziffer": "4.3",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 297,
+   "titel": "Ziff. 4.4 Berufsorientierte Aus- und Weiterbildung nach Sek-II-Abschluss",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.4 Berufsorientierte Weiterbildung"
+   ],
+   "stichworte": [
+    "Berufsorientierung",
+    "Kurse",
+    "Seminare",
+    "Kongresse",
+    "Abschluss nicht erforderlich"
+   ],
+   "zusammenfassung": "Berufsorientiert sind Kurse, Seminare und Kongresse mit Bezug zur aktuellen oder künftigen Berufsausübung; ein Abschluss ist nicht nötig.",
+   "ziffer": "4.4",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 317,
+   "titel": "Ziff. 4.5 Keine berufsorientierte Weiterbildung – Beratung, Coaching (4.5.1)",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.5 Keine berufsorientierte Weiterbildung"
+   ],
+   "stichworte": [
+    "Coaching",
+    "Karriereberatung",
+    "Berufsberatung",
+    "Studienberatung",
+    "Training",
+    "Beratungsleistung"
+   ],
+   "zusammenfassung": "Berufs-, Studien- und Karriereberatung, Coaching und Training sind grundsätzlich keine abziehbare Weiterbildung.",
+   "ziffer": "4.5",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 340,
+   "titel": "Ziff. 4.5.2 Unterhaltung, Geselligkeit, Sport und Hobby – nicht abzugsfähig",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.5 Keine berufsorientierte Weiterbildung"
+   ],
+   "stichworte": [
+    "Hobby",
+    "Sportkurse",
+    "Yoga",
+    "Fahrstunden",
+    "Erste-Hilfe-Kurs",
+    "Weinseminar",
+    "Freizeit"
+   ],
+   "zusammenfassung": "Veranstaltungen mit überwiegendem Hobby-, Freizeit- oder Sportcharakter (auch Fahrstunden, Erste-Hilfe-Kurse) sind nicht abzugsfähig.",
+   "ziffer": "4.5.2",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 357,
+   "titel": "Ziff. 4.6 Abzugsmöglichkeiten für Arbeitgeber und Selbständigerwerbende",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.6 Arbeitgeber und Selbständige"
+   ],
+   "stichworte": [
+    "Arbeitgeber",
+    "Selbständigerwerbende",
+    "Lohnausweis Ziffer 13.3",
+    "Geschäftsaufwand",
+    "betriebsinterne Weiterbildung"
+   ],
+   "zusammenfassung": "Arbeitgeber können Weiterbildungskosten abziehen, bescheinigen sie bei Rechnung auf den Arbeitnehmer im Lohnausweis Ziff. 13.3; Selbständige können sie als Geschäftsaufwand und zusätzlich nach Art. 33 Abs. 1 Bst. j DBG abziehen.",
+   "ziffer": "4.6",
+   "positionen": [
+    "abzug.weiterbildung",
+    "einkommen.selbstaendig"
+   ]
+  },
+  {
+   "start": 384,
+   "titel": "Ziff. 4.7 Vom Arbeitgeber bezahlte Weiterbildung – Art. 17 Abs. 1bis DBG",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.7 Vom Arbeitgeber bezahlte Kosten"
+   ],
+   "stichworte": [
+    "Arbeitgeber zahlt Weiterbildung",
+    "geldwerter Vorteil",
+    "steuerfrei",
+    "Art. 17 DBG",
+    "Lohnausweis"
+   ],
+   "zusammenfassung": "Vom Arbeitgeber getragene Weiterbildungskosten sind unabhängig von der Höhe kein steuerbarer geldwerter Vorteil (Art. 17 Abs. 1bis DBG).",
+   "ziffer": "4.7",
+   "positionen": [
+    "abzug.weiterbildung",
+    "einkommen.unselbstaendig.haupterwerb"
+   ]
+  },
+  {
+   "start": 401,
+   "titel": "Ziff. 4.7.1 Zahlungen des Arbeitgebers an Arbeitnehmer oder Bildungsinstitut",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.7 Vom Arbeitgeber bezahlte Kosten"
+   ],
+   "stichworte": [
+    "Arbeitgeberleistung",
+    "Bildungsinstitut",
+    "Lohnausweis Ziffer 13.3",
+    "Rechnung auf Arbeitnehmer"
+   ],
+   "zusammenfassung": "Klar belegte Arbeitgeberleistungen sind kein steuerbares Einkommen; lautet die Rechnung auf den Arbeitnehmer, wird sie im Lohnausweis Ziff. 13.3 bescheinigt.",
+   "ziffer": "4.7.1",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 411,
+   "titel": "Ziff. 4.7.2 Rückzahlung vom Arbeitgeber getragener Kosten durch Arbeitnehmer",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.7 Vom Arbeitgeber bezahlte Kosten"
+   ],
+   "stichworte": [
+    "Rückzahlungsklausel",
+    "Stellenwechsel",
+    "Rückzahlung Ausbildungskosten",
+    "Abzug im Jahr der Rückzahlung"
+   ],
+   "zusammenfassung": "Bei Rückzahlung an den Arbeitgeber ist der Abzug im Zahlungsjahr möglich, höchstens 12 000 Franken pro Kalenderjahr, in dem die Kosten angefallen sind.",
+   "ziffer": "4.7.2",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 424,
+   "titel": "Ziff. 4.7.3 Rückvergütung selbst getragener Kosten durch Arbeitgeber",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.7 Vom Arbeitgeber bezahlte Kosten"
+   ],
+   "stichworte": [
+    "Rückvergütung",
+    "Aufrechnung",
+    "steuerbares Einkommen",
+    "Art. 16 DBG",
+    "nachträgliche Vergütung"
+   ],
+   "zusammenfassung": "Nachträglich vom Arbeitgeber vergütete, früher abgezogene Kosten werden im Jahr der Rückvergütung als Einkommen aufgerechnet.",
+   "ziffer": "4.7.3",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 445,
+   "titel": "Ziff. 4.7.3 Beispiele 1–3 Rückvergütung (30 000 / 27 000 / 20 000)",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.7 Vom Arbeitgeber bezahlte Kosten"
+   ],
+   "stichworte": [
+    "Beispiel Rückvergütung",
+    "Aufrechnung",
+    "30 000",
+    "19 000",
+    "20 000"
+   ],
+   "zusammenfassung": "Beispiele: Rückvergütung von 30 000 führt zu 30 000 steuerbarem Einkommen; bei 27 000 sind 19 000 aufzurechnen; bei 20 000 sind 20 000 aufzurechnen.",
+   "ziffer": "4.7.3",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 495,
+   "titel": "Ziff. 4.8 Leistungen des neuen Arbeitgebers bei Stellenantritt",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.8 Neuer Arbeitgeber"
+   ],
+   "stichworte": [
+    "neuer Arbeitgeber",
+    "Stellenantritt",
+    "Entschädigung abgeschlossene Weiterbildung",
+    "steuerbares Einkommen"
+   ],
+   "zusammenfassung": "Entschädigungen des neuen Arbeitgebers für bereits abgeschlossene Weiterbildungen sind steuerbare Einkünfte nach Art. 17 Abs. 1 DBG.",
+   "ziffer": "4.8",
+   "positionen": [
+    "abzug.weiterbildung"
+   ]
+  },
+  {
+   "start": 506,
+   "titel": "Ziff. 4.9 SBFI-Beiträge für Vorbereitungskurse eidg. Prüfungen",
+   "pfad": [
+    "4 Steuerliche Behandlung",
+    "4.9 SBFI-Zahlungen"
+   ],
+   "stichworte": [
+    "SBFI",
+    "Subjektfinanzierung",
+    "eidgenössische Berufsprüfung"
+   ],
+   "zusammenfassung": "Zahlungen des SBFI für Vorbereitungskurse auf eidgenössische Prüfungen sind steuerbares Einkommen nach Art. 16 Abs. 1 DBG.",
+   "ziffer": "4.9",
+   "positionen": [
+    "einkommen.uebrige"
+   ]
+  },
+  {
+   "start": 517,
+   "titel": "Ziff. 5 Quellensteuerpflichtige Personen – nachträgliche Korrektur",
+   "pfad": [
+    "5 Quellensteuerpflichtige"
+   ],
+   "stichworte": [
+    "Quellensteuer",
+    "nachträgliche Korrektur",
+    "31. März",
+    "Art. 137 DBG",
+    "Korrekturantrag"
+   ],
+   "zusammenfassung": "Quellensteuerpflichtige machen den Abzug per Korrekturantrag bis 31. März des Folgejahres bei der kantonalen Steuerbehörde geltend.",
+   "ziffer": "5",
+   "positionen": [
+    "abzug.weiterbildung",
+    "verfahren.einreichung"
+   ]
+  }
+ ]
+}

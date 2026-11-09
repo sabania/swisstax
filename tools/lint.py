@@ -78,16 +78,18 @@ def check_data(reg, cidx):
     wkeys, pkeys = set(tax["werte"]), set(tax["positionen"])
     regby = {e["id"]: e for e in reg}
     stats = collections.Counter()
-    for kind, keyset in (("werte", wkeys), ("zuordnung", pkeys)):
-        for f in sorted((ROOT / "data" / kind).glob("*/*.yaml")):
+    bkeys = set(tax["belege"])
+    for kind, keyset in (("werte", wkeys), ("zuordnung", pkeys), ("belege", bkeys)):
+        files = sorted((ROOT / "data" / kind).glob("*/*.yaml")) if kind != "belege" else sorted((ROOT / "data").glob("belege*.yaml"))
+        for f in files:
             d = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
             jahr = d.get("jahr")
             rows = d.get(kind) or d.get("positionen") or []
             for r in rows:
-                where = f"{f.relative_to(ROOT)}:{r.get('key') or r.get('ziffer')}"
+                where = f"{f.relative_to(ROOT)}:{r.get('key') or r.get('ziffer') or r.get('id')}"
                 st = r.get("status", "offen")
                 stats[(kind, st)] += 1
-                k = r.get("key")
+                k = r.get("key") if kind != "belege" else r.get("id")
                 if k and k not in keyset:
                     errors.append(f"D1 {where}: Schlüssel nicht in taxonomy.yaml")
                 if st in ("offen", "na"):

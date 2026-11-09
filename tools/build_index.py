@@ -123,6 +123,18 @@ def main():
         (qd / f"{e['id']}.md").write_text("\n".join(L) + "\n", encoding="utf-8")
         nq += 1
     print(f"Quellenseiten: {nq}")
+    # Sammelbericht: Hinweise der Chunk-Agenten zu Quellen (Layoutprobleme, Widersprüche in amtlichen Dokumenten)
+    R = ["# Hinweise zu Quellen (aus dem semantischen Chunking)", "",
+         "Automatisch gesammelt aus `registry/chunkplans/*.json` (Feld `hinweise`). Enthält Layoutprobleme der PDF-Extraktion "
+         "(→ im Original prüfen) und von den Agenten bemerkte Unstimmigkeiten in amtlichen Dokumenten (→ Fachperson).", ""]
+    for e in reg:
+        plan = ROOT / "registry" / "chunkplans" / f"{e['id']}.json"
+        if plan.exists():
+            hs = json.loads(plan.read_text(encoding="utf-8")).get("hinweise") or []
+            if hs:
+                R += [f"## {e.get('kurz') or e['id']} (`{e['id']}`)", ""] + [f"- {h}" for h in hs] + [""]
+    (ROOT / "reports").mkdir(exist_ok=True)
+    (ROOT / "reports" / "quellen-hinweise.md").write_text("\n".join(R) + "\n", encoding="utf-8")
     print(f"index/chunks.jsonl: {nchunks} Chunks {dict(stats)}; index/quellen.jsonl: {len(reg)} Quellen; Kataloge geschrieben")
 
 

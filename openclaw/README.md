@@ -2,6 +2,19 @@
 
 Stand der Recherche: 9.11.2026, OpenClaw **v2026.11.1** (stabil) bzw. `main`. Für ≤ 2026.7.1 siehe Abschnitt «Ältere Versionen».
 
+## Schnellstart (5 Schritte)
+
+1. **Agent anlegen** (eigener Workspace, z.B. `~/.openclaw/workspace-steuer`) und ZIP entpacken/Repo klonen.
+2. **Installieren:** `./openclaw/install.sh ~/.openclaw/workspace-steuer` – kopiert das Wiki nach `<workspace>/steuerwiki/`
+   und die drei Skills nach `<workspace>/skills/` (`steuerwiki`, `steuererklaerung-np`, `steuerwiki-pflege`).
+3. **Workspace-`AGENTS.md`:** Inhalt von [`AGENTS.workspace-snippet.md`](AGENTS.workspace-snippet.md) einfügen (≈ 1'500 Zeichen).
+4. **Konfiguration** (`~/.openclaw/openclaw.json`, siehe unten): `memory.search.extraPaths` mit
+   `{ path: "steuerwiki", pattern: "{quick,wiki,chunks}/**/*.md" }`, Embedding-Provider wählen, `maxResults: 10`.
+5. **Indexieren und testen:** Gateway neu starten → `openclaw memory index --force --agent steuer` →
+   `openclaw memory search "Fahrkosten Abzug ZH 2025" --agent steuer`. Danach im Chat z.B. fragen:
+   «ZH 2025: In welche Ziffer gehört der Nettolohn aus dem Lohnausweis?» oder «Triagiere diese Belege …».
+   Weitere Testfragen: [`../eval/fragen.yaml`](../eval/fragen.yaml).
+
 ## Was OpenClaw mit dem Wiki macht
 
 - **Bootstrap:** In jede Sitzung wird nur die Workspace-Datei `AGENTS.md` (+ SOUL/USER/IDENTITY/MEMORY) injiziert,
