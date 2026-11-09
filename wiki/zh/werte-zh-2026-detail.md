@@ -538,6 +538,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2026.yaml (2026-11-09)
 - **Wert:** CHF 81'000 (Vermögenssteuer Grundtarif: 0 ‰ für die ersten Fr. 81'000 (steuerfreies Vermögen im Tarif; kein separater Sozialabzug).)
 - **Schlüssel:** `vermoegen.freibetrag_alleinstehend` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 47 Abs. 1 StG
+- **Bemerkung:** Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag ist die 0‰-Stufe des Vermögenssteuertarifs und wirkt erst bei der Steuerberechnung.
 - **Quellen:**
   - [StG ZH § 47](../../chunks/zh/2026/zh-stg-2026/zh-stg-2026__par-47-t1.md) `zh-stg-2026__par-47-t1` – «0‰ für die ersten Fr. 81 000»
   - [ZStB 48.1 (VKP ab 2026) S. 4](../../chunks/zh/2026/zh-vkp-2026-zstb/zh-vkp-2026-zstb__c0009.md) `zh-vkp-2026-zstb__c0009` – «für die ersten Fr. 81 000»
@@ -548,6 +549,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2026.yaml (2026-11-09)
 - **Wert:** CHF 161'000 (Vermögenssteuer Verheiratetentarif (ungetrennte Ehe; auch Verwitwete, Getrennte, Geschiedene, Ledige mit Kindern im Haushalt): 0 ‰ für die ersten Fr. 161'000.)
 - **Schlüssel:** `vermoegen.freibetrag_verheiratet` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 47 Abs. 2 StG
+- **Bemerkung:** Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag ist die 0‰-Stufe des Vermögenssteuertarifs und wirkt erst bei der Steuerberechnung.
 - **Quellen:**
   - [StG ZH § 47](../../chunks/zh/2026/zh-stg-2026/zh-stg-2026__par-47-t2.md) `zh-stg-2026__par-47-t2` – «0‰ für die ersten Fr. 161 000»
   - [ZStB 48.1 (VKP ab 2026) S. 4](../../chunks/zh/2026/zh-vkp-2026-zstb/zh-vkp-2026-zstb__c0010.md) `zh-vkp-2026-zstb__c0010` – «für die ersten Fr. 161 000»

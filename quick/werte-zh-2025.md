@@ -92,8 +92,8 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 
 | Eckwert | Wert | Hinweis | Quelle | St. |
 |---|---|---|---|---|
-| Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF) <small>`vermoegen.freibetrag_alleinstehend`</small> | **CHF 80'000** | Abbildung des Freibetrags über den Tarif (0-%-Stufe). Seed hatte dafür keinen Wert für 2025. [↗](../wiki/zh/werte-zh-2025-detail.md#vermoegen-freibetrag-alleinstehend) | [StG ZH § 47](../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t1.md) | ☑️ |
-| Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF) <small>`vermoegen.freibetrag_verheiratet`</small> | **CHF 159'000** |  [↗](../wiki/zh/werte-zh-2025-detail.md#vermoegen-freibetrag-verheiratet) | [StG ZH § 47](../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t2.md) | ☑️ |
+| Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF) <small>`vermoegen.freibetrag_alleinstehend`</small> | **CHF 80'000** | Abbildung des Freibetrags über den Tarif (0-%-Stufe). Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag wirkt erst bei der … [↗](../wiki/zh/werte-zh-2025-detail.md#vermoegen-freibetrag-alleinstehend) | [StG ZH § 47](../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t1.md) | ☑️ |
+| Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF) <small>`vermoegen.freibetrag_verheiratet`</small> | **CHF 159'000** | Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag ist die 0‰-Stufe des Vermögenssteuertarifs und wirkt erst bei der … [↗](../wiki/zh/werte-zh-2025-detail.md#vermoegen-freibetrag-verheiratet) | [StG ZH § 47](../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t2.md) | ☑️ |
 | Vermögens-Sozialabzug pro Kind (CHF) <small>`vermoegen.freibetrag_kind`</small> | **n/a** | ZH kennt keinen Vermögens-Sozialabzug pro Kind (§ 47 StG: nur Tarifstufen, keine Kinderabzüge beim Vermögen). [↗](../wiki/zh/werte-zh-2025-detail.md#vermoegen-freibetrag-kind) | – | – |
 
 ## Steuerfreie Einkünfte

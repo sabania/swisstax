@@ -120,6 +120,9 @@ knappen Bundestext zurück und sind danach korrigiert.
 Nur-Bund-Abfragen: die 11 Praxisfragen mit Kürzel je zweimal (22 Antworten) → 19 richtig, 2 teilweise, 1 falsch (H5–H7: 8–10 von 11
 je Lauf). Hartnäckig bleibt nur q13 («TG: … (Kanton vs. Bund)?»): Haiku liest «Kanton vs. Bund» als Bundesfrage und sucht nur
 Bundesquellen, obwohl die Werkzeugausgabe auf TG verweist – Grenze des kleinen Modells bei dieser Formulierung.
+**H9 – Fälle ZH und TG nach den Korrekturen aus H7:** TG 24/25 «einreichbar nach Kontrolle» (Bund-Selbstnutzungsabzug jetzt
+richtig; fehlt nur das formale Zwischentotal Ziff. 6), ZH 28/29 (einzig: Tarif-Nullstufe 159'000 vom Vermögen abgezogen →
+Hinweis «kein Abzug im Formular» direkt am Eckwert ergänzt).
 Bewertungen: `bewertung-haiku-H5.md`, `-H6.md`, `-H7.md`; Protokolle `haiku-H5-*.md` bis `haiku-H7-*.md`.
 
 Lesart: Mit Plugin arbeitet Haiku rund 25 % schneller und mit halb so vielen Aufrufen wie mit Dateisuche (H0). Ab H5 sind

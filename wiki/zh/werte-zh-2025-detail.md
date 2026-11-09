@@ -532,7 +532,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 - **Wert:** CHF 80'000 (Vermögenssteuer Grundtarif: 0 ‰ für die ersten CHF 80'000 steuerbares Vermögen (steuerfrei; kein separater Sozialabzug).)
 - **Schlüssel:** `vermoegen.freibetrag_alleinstehend` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 47 Abs. 1 StG ZH
-- **Bemerkung:** Abbildung des Freibetrags über den Tarif (0-%-Stufe). Seed hatte dafür keinen Wert für 2025.
+- **Bemerkung:** Abbildung des Freibetrags über den Tarif (0-%-Stufe). Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag wirkt erst bei der Steuerberechnung.
 - **Quellen:**
   - [StG ZH § 47](../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t1.md) `zh-stg-2025__par-47-t1` – «0‰ für die ersten Fr. 80 000»
   - [ZStB 48.1 (VKP ab 2024) S. 4](../../chunks/zh/2025/zh-vkp-2024-zstb/zh-vkp-2024-zstb__c0010.md) `zh-vkp-2024-zstb__c0010` – «0‰ für die ersten Fr. 80 000»
@@ -543,6 +543,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 - **Wert:** CHF 159'000 (Verheiratetentarif (auch Verwitwete, Getrennte, Geschiedene, Ledige mit Kindern): 0 ‰ für die ersten CHF 159'000 steuerbares Vermögen.)
 - **Schlüssel:** `vermoegen.freibetrag_verheiratet` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 47 Abs. 2 StG ZH
+- **Bemerkung:** Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag ist die 0‰-Stufe des Vermögenssteuertarifs und wirkt erst bei der Steuerberechnung.
 - **Quellen:**
   - [StG ZH § 47](../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-47-t2.md) `zh-stg-2025__par-47-t2` – «0‰ für die ersten Fr. 159 000»
   - [ZStB 48.1 (VKP ab 2024) S. 4–5](../../chunks/zh/2025/zh-vkp-2024-zstb/zh-vkp-2024-zstb__c0011.md) `zh-vkp-2024-zstb__c0011` – «0‰ für die ersten Fr. 159 000»

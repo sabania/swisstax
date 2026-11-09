@@ -634,6 +634,7 @@ werte:
   - chunk: zh-vkp-2026-zstb__c0009
     zitat: für die ersten Fr. 81 000
   status: agent-geprueft
+  bemerkung: 'Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag ist die 0‰-Stufe des Vermögenssteuertarifs und wirkt erst bei der Steuerberechnung.'
 - key: vermoegen.freibetrag_verheiratet
   wert: 161000
   einheit: CHF
@@ -646,6 +647,7 @@ werte:
   - chunk: zh-vkp-2026-zstb__c0010
     zitat: für die ersten Fr. 161 000
   status: agent-geprueft
+  bemerkung: 'Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag ist die 0‰-Stufe des Vermögenssteuertarifs und wirkt erst bei der Steuerberechnung.'
 - key: vermoegen.freibetrag_kind
   wert: null
   einheit: CHF

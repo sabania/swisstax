@@ -92,8 +92,8 @@ generiert: tools/build_quick.py aus data/werte/zh/2026.yaml (2026-11-09)
 
 | Eckwert | Wert | Hinweis | Quelle | St. |
 |---|---|---|---|---|
-| Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF) <small>`vermoegen.freibetrag_alleinstehend`</small> | **CHF 81'000** |  [↗](../wiki/zh/werte-zh-2026-detail.md#vermoegen-freibetrag-alleinstehend) | [StG ZH § 47](../chunks/zh/2026/zh-stg-2026/zh-stg-2026__par-47-t1.md) | ☑️ |
-| Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF) <small>`vermoegen.freibetrag_verheiratet`</small> | **CHF 161'000** |  [↗](../wiki/zh/werte-zh-2026-detail.md#vermoegen-freibetrag-verheiratet) | [StG ZH § 47](../chunks/zh/2026/zh-stg-2026/zh-stg-2026__par-47-t2.md) | ☑️ |
+| Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF) <small>`vermoegen.freibetrag_alleinstehend`</small> | **CHF 81'000** | Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag ist die 0‰-Stufe des Vermögenssteuertarifs und wirkt erst bei der … [↗](../wiki/zh/werte-zh-2026-detail.md#vermoegen-freibetrag-alleinstehend) | [StG ZH § 47](../chunks/zh/2026/zh-stg-2026/zh-stg-2026__par-47-t1.md) | ☑️ |
+| Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF) <small>`vermoegen.freibetrag_verheiratet`</small> | **CHF 161'000** | Kein Abzug im Formular: Ziff. 35 «Steuerbares Vermögen gesamt» = Ziff. 33 − Ziff. 34 (volles Vermögen eintragen); der Betrag ist die 0‰-Stufe des Vermögenssteuertarifs und wirkt erst bei der … [↗](../wiki/zh/werte-zh-2026-detail.md#vermoegen-freibetrag-verheiratet) | [StG ZH § 47](../chunks/zh/2026/zh-stg-2026/zh-stg-2026__par-47-t2.md) | ☑️ |
 | Vermögens-Sozialabzug pro Kind (CHF) <small>`vermoegen.freibetrag_kind`</small> | **n/a** |  [↗](../wiki/zh/werte-zh-2026-detail.md#vermoegen-freibetrag-kind) | [StG ZH § 47](../chunks/zh/2026/zh-stg-2026/zh-stg-2026__par-47-t2.md) | – |
 
 ## Steuerfreie Einkünfte
