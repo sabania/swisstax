@@ -99,7 +99,23 @@ Primärquellen); jede Antwort in einer frischen Sitzung (eindeutige Sitzungs-ID)
 | H4 | Haiku + Plugin, firmenunabhängige Ablage (`KATEGORIEN.md`), Kanton-/Jahresregel im Einstieg |
 | H5 | wie H4 + robustere Wortsuche, `formular`-Gerüst, Korrekturen aus der Ursachenanalyse von H4 (siehe unten) |
 
-*Ergebnisse H0–H5: Tabelle folgt nach der Bewertung von H5.*
+| Testset | H0 | H1 | H4 | H5 |
+|---|---|---|---|---|
+| Praxistest q01–q40 (richtig / teilweise / falsch) | 35 / 5 / 0 | 31 / 7 / 2 | 33 / 6 / 1 | 31 / 7 / 2 |
+| Blindtest b01–b14 | 14 / 0 / 0 | 14 / 0 / 0 | 13 / 1 / 0 | 14 / 0 / 0 |
+| Positionstest p01–p10 | 10 / 0 / 0 | 8 / 2 / 0 | 7 / 3 / 0 | **10 / 0 / 0** |
+| Ablage + Ausfüllen a01–a08 | – | – | 6 / 2 / 0 | **8 / 0 / 0** |
+| Eingehende Dokumente d01–d40 (Typ, relevant, Jahr, einreichen, Kategorie) | – | – | 34 / 4 / 2 | **40 / 0 / 0** |
+| Vollständige Steuerfälle ZH/SG/TG/AR (109 Positionen korrekt) | – | – | 78 | **96** (AR 31/31, TG 24/25) |
+| Ø Dauer je Frage / Ø Werkzeugaufrufe (Praxistest) | 38 s / 7.2 | 29 s / 4.0 | 28 s / 4.2 | 29 s / 3.5 |
+| Ø Dauer / Aufrufe je vollständigem Fall | – | – | 182 s / 39 | 139 s / 22 |
+
+Lesart: Mit Plugin arbeitet Haiku rund 25 % schneller und mit halb so vielen Aufrufen wie mit Dateisuche (H0). Ab H5 sind
+Positionsfragen, Ablage, Dokumente und ganze Fälle klar besser als H4; die Praxisfragen liegen im Bereich der Streuung
+(31–35 richtig). Die verbleibenden Fehler in H5 sind überwiegend Modellfehler bei korrekter Werkzeugausgabe: Rechenfehler
+(150'000 + 20'000 = 190'000), Kanton «TG:» am Fragenanfang übergangen, Chunk-Aussage falsch wiedergegeben, unbelegte
+Nebenbemerkungen. In den ganzen Fällen: ein selbst angenommener Sachverhalt (Heimkehr über Mittag → Verpflegung gestrichen,
+ZH) und eine nicht angewendete Kantonspauschale (SG) – beide mit Folgefehlern; danach als Ausfüllregeln in `formular` ergänzt.
 
 **Ursachenanalyse H4** (19 nicht voll richtige Antworten, je ein unabhängiger Analyst mit Protokoll der Werkzeugaufrufe; jede
 vorgeschlagene Datenkorrektur von einem zweiten Agenten gegen die Primärquelle geprüft): Werkzeugausgabe unvollständig/irreführend 7,
