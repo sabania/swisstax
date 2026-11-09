@@ -692,6 +692,22 @@ def kurzwert(r):
     return fmt_wert(r).replace("CHF ", "") + (" ⚠️" if r.get("status") == "strittig" else "") + (" ⬜" if r.get("status") == "offen" else "")
 
 
+def kombi(W, j, prefix):
+    """Werte einer Gruppe (z.B. zweiverdiener.satz/min/max) je Ebene zu einem Text: «max 6'100» | «50 %, min 8'600, max 14'100»."""
+    def eine(jur):
+        teile = []
+        for r in sorted((r for (jj, k), r in W.items() if jj == jur and (k == prefix or k.startswith(prefix + "."))),
+                        key=lambda r: ["satz", "fix", "min", "max"].index(r["key"].split(".")[-1])
+                        if r["key"].split(".")[-1] in ("satz", "fix", "min", "max") else 9):
+            if r.get("status") == "na" or r.get("wert") in (None, ""):
+                continue
+            name = r["key"][len(prefix):].lstrip(".")
+            v = kurzwert(r)
+            teile.append(v if name in ("", "satz") else f"{name} {v}")
+        return ", ".join(teile) if teile else "kein Abzug/Wert"
+    return f"K {eine(j)} | B {eine('bund')}"
+
+
 def formular(kt, jahr) -> str:
     j = jur_of(kt)
     if j in (None, "bund"):
@@ -724,10 +740,14 @@ def formular(kt, jahr) -> str:
         if tarif:
             lim.append("nur Steuertarif – nichts eintragen, nicht vom Vermögen/Einkommen abziehen")
         else:
-            for k in (p.get("werte_keys") or [])[:2]:
-                kv, bv = W.get((j, k)), W.get(("bund", k))
-                if (kv and kv.get("status") != "na") or (bv and bv.get("status") != "na"):
-                    lim.append(f"{k.split('.')[-1]}: K {kurzwert(kv)} | B {kurzwert(bv)}")
+            gruppen = []
+            for k in (p.get("werte_keys") or []):
+                g = k.rsplit(".", 1)[0] if k.split(".")[-1] in ("satz", "fix", "min", "max") else k
+                if g not in gruppen:
+                    gruppen.append(g)
+            for g in gruppen[:2]:
+                if any(jj in (j, "bund") and (k == g or k.startswith(g + ".")) and r.get("status") != "na" for (jj, k), r in W.items()):
+                    lim.append(f"{g.split('.')[-1]}: {kombi(W, j, g)}")
         out.append(f"- {p['ziffer']} · {cut(p.get('bezeichnung'), 100)}" + (f" · {' · '.join(lim)}" if lim else ""))
     if neben:
         out += ["", "### Hilfsblätter / Lohnausweis (Überträge ins Hauptformular)"]
@@ -748,15 +768,20 @@ def formular(kt, jahr) -> str:
             else:
                 zif.setdefault(k, p["ziffer"])
     for titel, keys in CHECK:
-        teile = []
+        teile, gesehen = [], set()
         for k in keys:
+            g = k.rsplit(".", 1)[0] if k.split(".")[-1] in ("satz", "fix", "min", "max") else k
+            if g in gesehen:
+                continue
             kv, bv = W.get((j, k)), W.get(("bund", k))
             if not ((kv and kv.get("status") != "na") or (bv and bv.get("status") != "na")):
                 continue
             if zif.get(k, "").startswith("Tarif"):
                 continue        # Tarif-Nullstufe: kein Abzug – nicht in die Abzugsliste
+            gesehen.add(g)
             ort = f" (Ziff. {zif[k]})" if k in zif else ""
-            teile.append(f"{k}{ort}: K {kurzwert(kv)} | B {kurzwert(bv)}")
+            wert_text = kombi(W, j, g) if g != k else f"K {kurzwert(kv)} | B {kurzwert(bv)}"
+            teile.append(f"{g}{ort}: {wert_text}")
         if teile:
             out.append(f"- **{titel}:** " + " · ".join(teile))
     out.append(f"Werte mit Fundstelle: `wert {j} {jahr} <stichwort>`. Status/Abnahme je Wert dort.")
