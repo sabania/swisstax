@@ -342,11 +342,19 @@ def wert(jur, jahr, begriff, n=8) -> str:
         # Rückfall: kein Eckwert mit diesem Stichwort → Formularpositionen (Regel/Limite) und Volltext zeigen
         out = [f"Kein Eckwert «{begriff}» für {NAME[j]} {jahr} erfasst (Eckwerte = feste Limiten, Pauschalen, Sätze, Fristen, Zinsen). "
                "Stattdessen – Regel aus Formularposition bzw. Volltext:", ""]
-        kts = [j] if j != "bund" else []
-        for kt in kts:
-            ph = position_treffer(kt, jahr, begriff)
-            for p in ph[:2]:
+        if j != "bund":
+            for p in position_treffer(j, jahr, begriff)[:2]:
                 out += position_block(p, voll=False) + [""]
+        else:
+            zeilen = []
+            for kt in ("zh", "sg", "tg", "ar"):
+                ph = position_treffer(kt, jahr, begriff)
+                if ph:
+                    p = ph[0]
+                    zeilen.append(f"- **{NAME[kt]} {jahr}:** {zf(p)} {cut(p.get('bezeichnung'), 110)} · {q_line(p.get('quellen'))}")
+            if zeilen:
+                out += ["Natürliche Personen deklarieren in der **kantonalen** Steuererklärung (auch Bundessteuer und "
+                        "Verrechnungssteuer-Rückerstattung). Formularposition je Kanton (Details: `position <kt> " + jahr + " " + str(begriff) + "`):"] + zeilen + [""]
         out.append(suche(begriff, j, jahr, n=4))
         return "\n".join(out)
     out = [f"## Eckwerte {NAME[j]} · Steuerjahr {jahr} · «{begriff}»", ""]
@@ -1111,6 +1119,10 @@ def suche(query, jur=None, jahr=None, typ=None, n=8) -> str:
     if not rows:
         return f"Keine Treffer für «{query}»" + (f" in {NAME.get(j, j)}" if j else "") + (f" {jahr}" if jahr else "") + "."
     out = [f"## Suche «{query}»" + (f" · {NAME.get(j, j)}" if j else "") + (f" · {jahr}" if jahr else "")]
+    if j == "bund":
+        hinweis = ((hinweis + " ") if hinweis else "") + ("Nur Bundesquellen. Nennt die Frage einen Kanton (ZH/SG/TG/AR) oder geht es um "
+                  "Formular/Deklaration (wo eintragen, Rückerstattung, Eigenmietwert …) → mit dem Kanton suchen bzw. `position <kt> …`: "
+                  "natürliche Personen deklarieren in der kantonalen Steuererklärung.")
     if hinweis:
         out.append(hinweis)
     out.append("")
