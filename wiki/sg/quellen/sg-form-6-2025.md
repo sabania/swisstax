@@ -15,10 +15,11 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 8 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-6-2025`).
+Zitiert in 9 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-6-2025`).
 
 - `data/belege-teil1.yaml#13:krankenkasse-leistungen` (agent-geprueft)
 - `data/belege-teil1.yaml#14:arzt-zahnarzt-rechnungen` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#28:abzug.vorsorge.saeule3a@13.1` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#30:abzug.versicherungspraemien@14` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#40:abzug.krankheitskosten@21.1` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#88:abzug.versicherungspraemien@Form. 6 Teil A` (agent-geprueft)

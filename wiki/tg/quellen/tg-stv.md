@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 9 Daten-Einträgen und 8 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stv`).
+Zitiert in 15 Daten-Einträgen und 8 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stv`).
 
 - `data/belege-teil2.yaml#3:liegenschaft-unterhaltsrechnungen` (agent-geprueft)
 - `data/belege-teil2.yaml#6:liegenschaft-nebenkosten-gebaeudeversicherung` (agent-geprueft)
@@ -26,6 +26,12 @@ Zitiert in 9 Daten-Einträgen und 8 handgeschriebenen Seiten (`python3 tools/imp
 - `data/werte/tg/2026.yaml#33:drittbetreuung.max` (agent-geprueft)
 - `data/werte/tg/2026.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
 - `data/werte/tg/2026.yaml#41:liegenschaft.pauschale_alt` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#106:abzug.verwaltungskosten_wertschriften@Form. 2 Vermögensverwaltungskosten (Code 148)` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#53:sozialabzug.unterstuetzung@25.2` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#100:abzug.verwaltungskosten_wertschriften@Form. 2 Ziff. 7 (im Formular-Chunk «17», Code 148)` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#106:einkommen.liegenschaften.eigenmietwert@Form. 7 Mietwert selbstgenutzt` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#2:sozialabzug.unterstuetzung@S. 1 Unterstützte` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#72:verfahren.einreichung@S. 2 Frist` (agent-geprueft)
 - [wiki/tg/tg-ueberblick.md](../tg-ueberblick.md)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 - [wiki/themen/kinderdrittbetreuung.md](../../themen/kinderdrittbetreuung.md)

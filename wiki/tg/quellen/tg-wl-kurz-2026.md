@@ -13,6 +13,13 @@ generiert: tools/build_index.py
 - **Abgerufen:** 2026-11-09 · sha256 `a30737e2250c89aa…`
 - **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31
 
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-wl-kurz-2026`).
+
+- `data/zuordnung/tg/2026.yaml#11:einkommen.sozialversicherung.ahv_iv@3.1` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#15:einkommen.wertschriften@4` (agent-geprueft)
+
 ## Hinweise zur Quelle (aus dem Chunking)
 
 - Einseitige Übersicht: Zweispaltiges Layout (Randtitel links, Text rechts) im Text vermischt; Kanton-/Bund-Spalten nur über Reihenfolge der Beträge erkennbar (z.B. Ziff. 10 Fahrkostenbeschränkung, Ziff. 14, 25).

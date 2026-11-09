@@ -13,6 +13,14 @@ generiert: tools/build_index.py
 - **Abgerufen:** 2026-11-09 · sha256 `85da529b147e19e9…`
 - **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2025-01-01 bis 2025-12-31
 
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 3 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-form-12-2025`).
+
+- `data/zuordnung/sg/2025.yaml#0:einkommen.unselbstaendig.haupterwerb@1.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#1:einkommen.unselbstaendig.nebenerwerb@1.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#2:einkommen.unselbstaendig.vr_honorare@1.3` (agent-geprueft)
+
 ## Hinweise zur Quelle (aus dem Chunking)
 
 - Seite 1: leeres Raster mit Zeilen 01–16; Seite 2: Erläuterungen zweispaltig, Sätze zwischen Spalten vermischt.

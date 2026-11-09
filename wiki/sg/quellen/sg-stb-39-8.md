@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 11 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-8`).
+Zitiert in 16 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-8`).
 
 - `data/werte/sg/2026.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
 - `data/werte/sg/2026.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
@@ -23,10 +23,15 @@ Zitiert in 11 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/im
 - `data/werte/sg/2026.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
 - `data/werte/sg/2026.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
 - `data/werte/sg/2026.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#72:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#73:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#77:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#8:einkommen.ersatz.taggelder@3.4` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#24:berechnung.total@10.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#70:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#71:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#72:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#76:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#79:abzug.berufskosten.verpflegung@Lohnausweis Feld G` (agent-geprueft)
 - [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 

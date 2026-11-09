@@ -15,8 +15,11 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-17`).
+Zitiert in 3 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-17`).
 
+- `data/zuordnung/sg/2026.yaml#31:abzug.vorsorge.saeule2_einkauf@13.2` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#34:abzug.vorsorge.saeule2_einkauf@15.2` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#49:abzug.vorsorge.saeule2_einkauf@16.1` (agent-geprueft)
 - [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

@@ -15,8 +15,9 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 3 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-355`).
+Zitiert in 4 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-355`).
 
+- `data/zuordnung/zh/2025.yaml#23:abzug.schuldzinsen@12` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#64:schulden.privat@34` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#95:schulden.privat@Form. 355 Spalte Schuld` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#96:abzug.schuldzinsen@Form. 355 Spalte Schuldzinsen` (agent-geprueft)

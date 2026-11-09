@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 65 Daten-Einträgen und 15 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-1-2025`).
+Zitiert in 81 Daten-Einträgen und 15 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-1-2025`).
 
 - `data/zuordnung/sg/2025.yaml#0:einkommen.unselbstaendig.haupterwerb@1.1` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#10:einkommen.wertschriften@4.1` (agent-geprueft)
@@ -57,7 +57,7 @@ Zitiert in 65 Daten-Einträgen und 15 handgeschriebenen Seiten (`python3 tools/i
 - `data/zuordnung/sg/2025.yaml#43:berechnung.total@22` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#44:sozialabzug.kinder@23.1` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#45:sozialabzug.kinder@23.2` (agent-geprueft)
-- … 25 weitere
+- … 41 weitere
 - [wiki/themen/erwerbsersatz-taggelder.md](../../themen/erwerbsersatz-taggelder.md)
 - [wiki/themen/interkantonale-ausscheidung.md](../../themen/interkantonale-ausscheidung.md)
 - [wiki/themen/kinder-sozialabzuege.md](../../themen/kinder-sozialabzuege.md)

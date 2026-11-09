@@ -15,9 +15,15 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 4 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-2-2025`).
+Zitiert in 10 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-2-2025`).
 
 - `data/zuordnung/sg/2025.yaml#10:einkommen.wertschriften@4.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#11:einkommen.beteiligungen_qualifiziert@4.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#12:einkommen.beteiligungen_qualifiziert@4.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#16:einkommen.erbschaften_unverteilt@6.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#49:vermoegen.wertschriften_guthaben@30.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#4:einkommen.selbstaendig@2.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#53:vermoegen.erbschaften_beteiligungen@30.5` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#65:einkommen.wertschriften@Form. 2 Spalte A/B` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#66:verrechnungssteuer.rueckerstattung@Form. 2 Code 999` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#67:info.schenkungen_erbschaften@Form. 2 Code 960-963` (agent-geprueft)

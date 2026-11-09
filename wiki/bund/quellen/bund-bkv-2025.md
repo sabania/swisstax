@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 36 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-bkv-2025`).
+Zitiert in 47 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-bkv-2025`).
 
 - `data/werte/ar/2025.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
 - `data/werte/ar/2025.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
@@ -53,6 +53,11 @@ Zitiert in 36 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/im
 - `data/zuordnung/ar/2025.yaml#77:abzug.berufskosten.uebrige@Form. 4 Ziff. 3` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#78:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#79:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#80:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#111:abzug.berufskosten.fahrkosten@Lohnausweis Feld F` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#112:abzug.berufskosten.verpflegung@Lohnausweis Feld G` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#115:abzug.berufskosten.verpflegung@Lohnausweis Ziff. 15` (agent-geprueft)
+- … 7 weitere
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 - [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 - [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)

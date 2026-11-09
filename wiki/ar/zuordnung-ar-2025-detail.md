@@ -11,6 +11,8 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 
 > Kompaktansicht: [quick/zuordnung-ar-2025.md](../../quick/zuordnung-ar-2025.md) · Formular: Steuererklärung 2025 Appenzell Ausserrhoden (Formular 1 Seiten 1-4, Hauptformular nicht online; Ziffern/Codes aus den Formular-Miniaturen der Wegleitung WL AR 2025) + Hilfsformulare 2 (Wertschriften), 4 (Berufskosten), 5 (Schulden, Zuwendungen, Parteispenden), 6 (Versicherungsprämien, Krankheits-/Behinderungskosten), 7/7Z (Liegenschaften), 10 (Kinderbetreuung) · Quelle der Wahrheit: `data/zuordnung/ar/2025.yaml`
 
+> **Hinweis:** Das AR-Formular hat keine separate Bundesspalte: Die Steuererklärung dient zugleich für die direkte Bundessteuer; Abweichungen (z.B. Zweiverdiener-, Versicherungs-, Kinderabzug Bund) werden von der Steuerverwaltung automatisch vorgenommen (WL AR 2025 S. 33, ar-wl-2025__c0179: «Anpassungen durch die Steuerverwaltung automatisch vorgenommen»).
+
 ## Personalien
 
 <a id="seite-1-personalien"></a>
@@ -114,6 +116,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Rein:** Bescheinigung Behörde/Gemeinde → Sitzungs-, Taggelder, Pauschalspesen · Lohnausweis bzw. Bescheinigung der Gesellschaft → VR-Honorare, Tantièmen
 - **Rechnen:** Σ Entschädigungen (soweit nicht in 1.1/1.2); Kanton: Nebenerwerbspauschale + Behördenabzug ≤ 2'600 (Beispiele MB 15); Bund: nur Pauschale 20 % (800–2'400)
 - **Regel:** Nur soweit nicht bereits im Lohnausweis/Haupterwerb deklariert. Nebenamtliche Behördenmitglieder: zusätzlich zu den pauschalen Berufskosten bis max. Fr. 2'600 abziehbar (MB AR 15 Ziff. 3). Mit der Pauschale sind sämtliche Unkosten der Tätigkeit abgegolten; der Nachweis höherer effektiver Kosten bleibt vorbehalten.
+- **Beachten:** Behördenabzug nur bei Behördenentschädigung ≤ 54'000 inkl. Pauschalspesen; darüber gilt Haupterwerb
 - **Beachten:** Kein Abzug: Verwaltungsangestellte, Einsitz von Amtes wegen, Verbände/Vereine; ausserkantonale Behörde: Abzug möglich
 - **Beachten:** VR-Tätigkeit: Nebenerwerbsabzug i.d.R. nicht zulässig (Unkosten meist zusätzlich vergütet)
 - **Limiten:**
@@ -651,9 +654,10 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 
 - **Schlüssel:** `sozialabzug.kinder` (Kinder-/Ausbildungsabzug) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Vorjahresveranlagung / Steuerveranlagungsverfügung / Einschätzungsentscheid → Seite 1 der Steuererklärung (Kinder, Geburtsdatum)
-- **Rein:** StE Seite 1 → Kinderangaben (Geburtsdatum), Stichtag 31. Dezember 2025
+- **Rein:** StE Seite 1 → Kinderangaben (Geburtsdatum), Stichtag 31. Dezember 2025 · Steuererklärung des Kindes (falls Einkünfte) → Total Einkünfte (Grenze 18'000)
 - **Rechnen:** Kanton: 7'400 je Kind nach vollendetem 4. bis vollendetes 15. Altersjahr (Stand 31. Dezember 2025); getrennte Eltern: je ½ / Bund: 6'800 je Kind
 - **Regel:** Fr. 7'400 pro Kind (4.-15. Altersjahr), Voraussetzungen wie 23.1.
+- **Beachten:** Kein Abzug bei Einkünften des Kindes > 18'000 oder wenn Unterhaltsbeiträge Ziff. 12.2 abgezogen werden
 - **Beachten:** StG-Text nennt 7'000 (nicht indexiert) → massgebend 7'400 (Anhang 1, WL 2025)
 - **Limiten:**
   - Kinderabzug Schulalter (CHF): Kanton **CHF 7'400 (Kinderabzug nach Vollendung des 4. bis Vollendung des 15. Altersjahres: CHF 7'400 (indexiert).)** · Bund **n/a – Bund: einheitlicher Kinderabzug CHF 6'800 (sozialabzug.kind).**
@@ -678,6 +682,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Rein:** Seite 1 Steuererklärung → Kind (Name, Geburtsjahr), Schule/Lehrfirma + voraussichtliche Ausbildungsdauer · Steuererklärung des Kindes → Total Einkünfte (Ziff. 168 + vereinfacht abgerechnete Bruttolöhne Ziff. 290; bei Ausbildungsbeginn erst ab Eintritt), Reinvermögen
 - **Rechnen:** Kanton: 11'600 je Kind / Bund: 6'800 je Kind; Eltern getrennt besteuert, gemeinsame Sorge, keine Unterhaltsbeiträge: je ½; Stichtag 31. Dezember 2025
 - **Regel:** Fr. 11'600 pro Kind; für volljährige Kinder in Erstausbildung bis zur Vollendung des 26. Altersjahrs (Ausbildung angeben: Schule oder Lehrfirma und voraussichtliche Dauer). Unterhaltsbeiträge an volljährige Kinder sind nicht abziehbar (beim Empfänger unbesteuert, WL Ziff. 12.2).
+- **Beachten:** Kanton: kein Abzug bei Einkünften des Kindes > 18'000 (inkl. 6'000 frei verfügbar) oder Reinvermögen > 250'000
 - **Beachten:** Kein Kinderabzug für Kind mit Unterhaltsbeiträgen Ziff. 12.2; Schulgelder/Ausbildungskosten nicht zusätzlich abziehbar
 - **Beachten:** Bund volljährig: Beiträge ≥ Abzug; zahlen beide Eltern, erhält die höhere Leistung den Kinderabzug
 - **Limiten:**
@@ -1664,6 +1669,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** ÖV-Abonnement (GA, Streckenabo, Verbundabo, Halbtax nur ergänzend) – Arbeitsweg, Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → ÖV-Abo/Fahrausweise (tatsächliche Kosten); Lohnausweis Feld F
 - **Rein:** ÖV-Abo/Fahrausweise → tatsächliche Kosten 2025 (Strecke, Datum von–bis) · Lohnausweis → Feld F (unentgeltliche Beförderung) prüfen · Angaben Arbeitsverhältnis → Arbeitgeber, Arbeitsort, Pensum, Erwerbsdauer (Form. 4 Allgemeine Angaben)
+- **Rechnen:** Σ tatsächliche ÖV-Kosten → Code 400 (Person 1) / 450 (Person 2); mit 1.2–1.3 begrenzt (Code 405/455): Kanton max. 6'000 / Bund max. 3'300
 - **Regel:** Tatsächliche ÖV-Kosten (Abo-Preis). Lohnausweis Feld F (unentgeltliche Beförderung/Sammeltransport/vom Arbeitgeber bezahltes GA) angekreuzt -> kein Fahrkostenabzug. Zusammen mit 1.2 und 1.3 begrenzt auf max. Fr. 6'000 (Pendlerabzug, nur Staats-/Gemeindesteuer). Fahrt über Mittag: Fahrkostenabzug höchstens Fr. 3'200 bzw. Fr. 1'600 (entspricht Verpflegung). Bei Geschäftsfahrzeug mit Privatanteil 0,9 %/Monat keine effektiven Fahrkosten.
 - **Beachten:** Lohnausweis Feld F angekreuzt (Sammeltransport, GA vom Arbeitgeber) → kein Fahrkostenabzug
 - **Beachten:** Geschäftsfahrzeug (Privatanteil 0,9 % pro Monat) → keine effektiven Fahrkosten
@@ -1911,6 +1917,8 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 
 - **Schlüssel:** `berechnung.total` (Berechnungs-/Totalzeilen (Nettoeinkommen, Reineinkommen, steuerbares Einkommen/Vermögen, Totale)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Formular 4 Rechenzeile
+- **Rein:** Übertrag Form. 4 Ziff. 1–5 je Person (Codes 405, 408/410/412, 416/418, 426, 428, 432/434)
+- **Rechnen:** Code 438 = 405 + 408 bzw. 410 bzw. 412 + 416 bzw. 418 + 426 + 428 + 432 bzw. 434 → Ziff. 10.1; Person 2: Code 488 → Ziff. 10.2
 - **Regel:** Summe Ziff. 1-5; Übertrag in Seite 3 Ziffer 10.1 (Person 1) bzw. 10.2 (Person 2).
 - **Beachten:** Vorderseite Person 1 bzw. Alleinstehende, Rückseite Person 2; Abzüge stehen jedem Ehegatten individuell zu
 - **Beachten:** Kein Abzug für Kosten, die der Arbeitgeber übernommen hat

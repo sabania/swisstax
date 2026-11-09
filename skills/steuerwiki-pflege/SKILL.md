@@ -46,3 +46,14 @@ Widersprüche gleicher Schlüssel/Jahr/Jurisdiktion, auffällige Jahressprünge,
 
 Fachperson prüft Werte/Zuordnungen und setzt `status: verifiziert` sowie `verifiziert: {von: <Kürzel>, am: <Datum>}`.
 Agenten setzen höchstens `extrahiert` bzw. nach unabhängiger Gegenprüfung `agent-geprueft`.
+
+## Änderungen nachvollziehen (Pflicht vor jeder Änderung)
+
+- `python3 tools/impact.py --quelle <id>` / `--chunk <id>` / `--datei data/…yaml` / `--seite wiki/…md` zeigt alle
+  betroffenen Daten-Einträge, generierten und handgeschriebenen Seiten; `--geaendert` prüft sha256 der Originale.
+- Neue Fassung einer Quelle **nie überschreiben**: neuer Registry-Eintrag mit `zeitbezug`, `gilt_ab`, `ersetzt: <alte id>`
+  (bei der alten `ersetzt_durch` und `gilt_bis` setzen), `jahre` nach Zeitmodell (AGENTS.md Regel 2a).
+- Nach Registry-Änderungen: `python3 tools/sync_frontmatter.py` (Metadaten der Volltexte) → `python3 tools/chunk.py --id <id>`
+  (IDs/Texte bleiben stabil; Chunk-Pläne zählen ab Textkörper) → `build_index.py` → `build_quick.py` → `lint.py`.
+- Kompakt-Wegleitung pflegen: Felder `rein`, `berechnung`, `beachten` je Position in `data/zuordnung/<kt>/<jahr>.yaml`; jede
+  Zahl muss in einem zitierten Chunk oder in einem verknüpften Eckwert (`werte_keys`) stehen.

@@ -15,9 +15,11 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 14 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-4-2025`).
+Zitiert in 17 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-4-2025`).
 
 - `data/werte/sg/2025.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#1:einkommen.unselbstaendig.nebenerwerb@1.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#22:berechnung.total@10.1` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#23:berechnung.total@10.2` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#68:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.1` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#69:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.2` (agent-geprueft)
@@ -31,6 +33,7 @@ Zitiert in 14 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/im
 - `data/zuordnung/sg/2025.yaml#77:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.2` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#78:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#79:berechnung.total@Form. 4 Ziff. 6` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#83:abzug.berufskosten.verpflegung@Lohnausweis Ziff. 15` (agent-geprueft)
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 - [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 - [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)

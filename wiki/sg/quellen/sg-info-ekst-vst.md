@@ -13,6 +13,13 @@ generiert: tools/build_index.py
 - **Abgerufen:** 2026-11-09 · sha256 `c081baf763cca831…`
 - **Gültigkeit:** Zeitbezug info (Information) · gilt ab ? bis offen
 
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 2 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-info-ekst-vst`).
+
+- `data/zuordnung/sg/2026.yaml#51:vermoegen.wertschriften_guthaben@30.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#52:vermoegen.bargeld_edelmetalle@30.2` (agent-geprueft)
+
 ## Inhalt (64 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |

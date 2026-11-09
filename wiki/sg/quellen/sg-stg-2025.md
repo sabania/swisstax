@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 34 Daten-Einträgen und 30 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stg-2025`).
+Zitiert in 38 Daten-Einträgen und 30 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stg-2025`).
 
 - `data/belege-teil2.yaml#4:liegenschaft-schaetzung-eigenmietwert` (agent-geprueft)
 - `data/werte/sg/2025.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
@@ -50,6 +50,10 @@ Zitiert in 34 Daten-Einträgen und 30 handgeschriebenen Seiten (`python3 tools/i
 - `data/werte/sg/2025.yaml#68:bezug.provisorisch` (agent-geprueft)
 - `data/werte/sg/2025.yaml#71:bezug.ausgleichszins` (agent-geprueft)
 - `data/werte/sg/2025.yaml#72:tarif.kapitalleistung_vorsorge` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#25:abzug.unterhaltsbeitraege@12.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#40:abzug.krankheitskosten@21.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#42:abzug.spenden@21.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#63:einkommen.kapitalleistung_vorsorge@40.1-40.3` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#48:sozialabzug.kinder@23.3` (agent-geprueft)
 - [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)

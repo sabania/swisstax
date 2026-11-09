@@ -15,11 +15,16 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 3 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-info-faq`).
+Zitiert in 8 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-info-faq`).
 
 - `data/belege-teil1.yaml#14:arzt-zahnarzt-rechnungen` (agent-geprueft)
 - `data/belege-teil1.yaml#5:bescheinigung-pk-einkauf` (agent-geprueft)
 - `data/werte/tg/2025.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#32:abzug.ahv_nichterwerbstaetige@15.1` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#18:einkommen.erbschaften_unverteilt@5.3` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#26:abzug.schuldzinsen@11` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#34:abzug.vorsorge.saeule2_einkauf@15.2` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#71:einkommen.kapitalleistung_vorsorge@S. 4 Kapitalleistungen` (agent-geprueft)
 - [wiki/tg/tg-ueberblick.md](../tg-ueberblick.md)
 - [wiki/themen/interkantonale-ausscheidung.md](../../themen/interkantonale-ausscheidung.md)
 - [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)

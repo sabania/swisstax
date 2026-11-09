@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 33 Daten-Einträgen und 27 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-dbg-2026`).
+Zitiert in 73 Daten-Einträgen und 27 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-dbg-2026`).
 
 - `data/werte/bund/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
 - `data/werte/bund/2026.yaml#20:weiterbildung.max` (agent-geprueft)
@@ -50,6 +50,14 @@ Zitiert in 33 Daten-Einträgen und 27 handgeschriebenen Seiten (`python3 tools/i
 - `data/werte/bund/2026.yaml#69:bezug.verzugszins` (agent-geprueft)
 - `data/werte/bund/2026.yaml#70:bezug.verguetungszins` (agent-geprueft)
 - `data/werte/bund/2026.yaml#72:tarif.kapitalleistung_vorsorge` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#11:einkommen.beteiligungen_qualifiziert@4.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#12:einkommen.beteiligungen_qualifiziert@4.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#13:abzug.teilbesteuerung_beteiligungen@4.4` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#18:einkommen.kapitalabfindung_wiederkehrend@6.4` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#20:einkommen.vereinfachtes_verfahren@8.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#21:info.steuerfreie_leistungen@8.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#48:sozialabzug.kinder@23.3` (agent-geprueft)
+- … 33 weitere
 - [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)

@@ -14,7 +14,8 @@ Schnellzugriff für den Steuerexperten-Agenten: erst hier, dann über die Links 
 | Frage | Seite |
 |---|---|
 | Ist ein Dokument des Mandanten steuerrelevant? | [Belege-Relevanz](belege-relevanz.md) → Detailkarte des Belegs |
-| In welche Ziffer gehört ein Beleg / eine Zahl? | [Beleg × Ziffer](belege-ziffern.md) bzw. Zuordnung Kanton/Jahr (Tabelle unten) |
+| Was gehört in Ziffer X, woher kommt die Zahl, wie rechne ich? | **Kompakt-Wegleitung** Kanton/Jahr (Tabelle unten): je Position Rein · Rechnen · Limite · Beachten |
+| In welche Ziffer gehört ein Beleg / eine Zahl? | [Beleg × Ziffer](belege-ziffern.md) bzw. Zuordnung/Kompakt-Wegleitung Kanton/Jahr (Tabelle unten) |
 | Welche Limite / Pauschale / welcher Satz gilt? | Eckwerte Kanton/Jahr (Tabelle unten) oder [Vergleich 2025](vergleich-2025.md) · [2026](vergleich-2026.md) |
 | Kanton vs. Bund vergleichen, mehrere Kantone | [Vergleich 2025](vergleich-2025.md) · [Vergleich 2026](vergleich-2026.md) |
 | Lohnausweis: Felder F/G, Ziff. 10.2, 13, 15? | Zuordnung Kanton/Jahr → Abschnitt «Lohnausweis-Regeln» · [Belegkarte Lohnausweis](../wiki/belege/beleg-lohnausweis.md) |
@@ -34,13 +35,14 @@ Schnellzugriff für den Steuerexperten-Agenten: erst hier, dann über die Links 
 | Jurisdiktion | 2025 | 2026 | Überblick |
 |---|---|---|---|
 | Bund | [Eckwerte](werte-bund-2025.md) | [Eckwerte](werte-bund-2026.md) | [Bund](../wiki/bund/bund-ueberblick.md) |
-| AR | [Zuordnung](zuordnung-ar-2025.md) · [Eckwerte](werte-ar-2025.md) | [Zuordnung](zuordnung-ar-2026.md) · [Eckwerte](werte-ar-2026.md) | [AR](../wiki/ar/ar-ueberblick.md) |
-| SG | [Zuordnung](zuordnung-sg-2025.md) · [Eckwerte](werte-sg-2025.md) | [Zuordnung](zuordnung-sg-2026.md) · [Eckwerte](werte-sg-2026.md) | [SG](../wiki/sg/sg-ueberblick.md) |
-| TG | [Zuordnung](zuordnung-tg-2025.md) · [Eckwerte](werte-tg-2025.md) | [Zuordnung](zuordnung-tg-2026.md) · [Eckwerte](werte-tg-2026.md) | [TG](../wiki/tg/tg-ueberblick.md) |
-| ZH | [Zuordnung](zuordnung-zh-2025.md) · [Eckwerte](werte-zh-2025.md) | [Zuordnung](zuordnung-zh-2026.md) · [Eckwerte](werte-zh-2026.md) | [ZH](../wiki/zh/zh-ueberblick.md) |
+| AR | [Kompakt-Wegleitung](wegleitung-ar-2025.md) · [Zuordnung](zuordnung-ar-2025.md) · [Eckwerte](werte-ar-2025.md) | [Zuordnung](zuordnung-ar-2026.md) · [Eckwerte](werte-ar-2026.md) | [AR](../wiki/ar/ar-ueberblick.md) |
+| SG | [Kompakt-Wegleitung](wegleitung-sg-2025.md) · [Zuordnung](zuordnung-sg-2025.md) · [Eckwerte](werte-sg-2025.md) | [Kompakt-Wegleitung](wegleitung-sg-2026.md) · [Zuordnung](zuordnung-sg-2026.md) · [Eckwerte](werte-sg-2026.md) | [SG](../wiki/sg/sg-ueberblick.md) |
+| TG | [Kompakt-Wegleitung](wegleitung-tg-2025.md) · [Zuordnung](zuordnung-tg-2025.md) · [Eckwerte](werte-tg-2025.md) | [Kompakt-Wegleitung](wegleitung-tg-2026.md) · [Zuordnung](zuordnung-tg-2026.md) · [Eckwerte](werte-tg-2026.md) | [TG](../wiki/tg/tg-ueberblick.md) |
+| ZH | [Kompakt-Wegleitung](wegleitung-zh-2025.md) · [Zuordnung](zuordnung-zh-2025.md) · [Eckwerte](werte-zh-2025.md) | [Kompakt-Wegleitung](wegleitung-zh-2026.md) · [Zuordnung](zuordnung-zh-2026.md) · [Eckwerte](werte-zh-2026.md) | [ZH](../wiki/zh/zh-ueberblick.md) |
 
 **Datenstand / Lücken:**
 
+- **AR 2025:** Das AR-Formular hat keine separate Bundesspalte: Die Steuererklärung dient zugleich für die direkte Bundessteuer; Abweichungen (z.B. Zweiverdiener-, Versicherungs-, Kinderabzug Bund) werden von der Steuerverwaltung automatisch vorgenommen (WL AR 2025 S. 33, …
 - **AR 2026:** Gerüst aus 2025 (tools/new_year.py) – Formular und Wegleitung AR 2026 noch nicht publiziert (Stand 09.11.2026). Ziffern/Codes vorbehaltlich Änderungen; alle Positionen offen.
 - **SG 2026:** Wegleitung und Hilfsblätter SG 2026 noch nicht publiziert (Stand 09.11.2026) – Zuordnung stützt sich auf Formular 1 SG 2026 UJ und die Rechtsgrundlagen 2026.
 - **ZH 2026:** Reguläres Formular/Wegleitung ZH 2026 noch nicht publiziert (Stand 09.11.2026) – Zuordnung stützt sich auf die Fassung für unterjährige Steuerpflicht (UJ); Ziffern/Codes am regulären Formular prüfen.

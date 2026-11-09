@@ -15,8 +15,9 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-28`).
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-28`).
 
+- `data/zuordnung/tg/2026.yaml#48:abzug.uebrige@23.3` (agent-geprueft)
 - [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

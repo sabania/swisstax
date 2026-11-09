@@ -15,8 +15,9 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-133-1-aufforderung-2026`).
+Zitiert in 1 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-133-1-aufforderung-2026`).
 
+- `data/zuordnung/zh/2025.yaml#92:verrechnungssteuer.rueckerstattung@Form. 340 Totale` (agent-geprueft)
 - [wiki/themen/quellensteuer.md](../../themen/quellensteuer.md)
 - [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 

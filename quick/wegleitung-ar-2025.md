@@ -11,6 +11,8 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 
 > Je Formularposition: **Rein** (welche Dokumente → welches Feld) · **Rechnen** (Kurzformel) · **Limite** (Kanton / Bund) · **Beachten**. Volle Regel, Bund-Hinweis und wörtliche Zitate: ↗ Detail. Formular: Steuererklärung 2025 Appenzell Ausserrhoden (Formular 1 Seiten 1-4, Hauptformular nicht online; Ziffern/Codes aus den Formular-Miniaturen der Wegleitung WL AR 2025) + Hilfsformulare 2 (Wertschriften), 4 (Berufskosten), 5 (Schulden, Zuwendungen, … · [Tabelle](zuordnung-ar-2025.md) · [Eckwerte](werte-ar-2025.md) · [Gültigkeit 2025](gueltigkeit-2025.md)
 
+> **Hinweis:** Das AR-Formular hat keine separate Bundesspalte: Die Steuererklärung dient zugleich für die direkte Bundessteuer; Abweichungen (z.B. Zweiverdiener-, Versicherungs-, Kinderabzug Bund) werden von der Steuerverwaltung automatisch vorgenommen (WL AR 2025 S. 33, ar-wl-2025__c0179: «Anpassungen durch die Steuerverwaltung automatisch vorgenommen»).
+
 **Abschnitte:** Personalien (1) · Einkünfte (18) · Einkommensberechnung (12) · Weitere Angaben (5) · Abzüge (16) · Vermögen (19) · Hilfsblatt Berufskosten (Form. 4) (10) · Hilfsblatt Wertschriftenverzeichnis (Form. 2) (4) · Hilfsblatt Schulden/Zuwendungen (Form. 5) (4) · Hilfsblatt Versicherungsprämien/Krankheitskosten (Form. 6) (4) · Hilfsblatt Liegenschaften (Form. 7/7Z) (5) · Hilfsblatt Kinderbetreuung (Form. 10) (1)
 
 ## Personalien
@@ -47,6 +49,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Rein:** Bescheinigung Behörde/Gemeinde → Sitzungs-, Taggelder, Pauschalspesen · Lohnausweis bzw. Bescheinigung der Gesellschaft → VR-Honorare, Tantièmen
 - **Rechnen:** Σ Entschädigungen (soweit nicht in 1.1/1.2); Kanton: Nebenerwerbspauschale + Behördenabzug ≤ 2'600 (Beispiele MB 15); Bund: nur Pauschale 20 % (800–2'400)
 - **Limite (Kanton / Bund):** Pauschale in % der Nebeneinkünfte: 20 % / 20 % · Pauschale Minimum (CHF): CHF 800 / CHF 800 · Pauschale Maximum (CHF): CHF 2'400 / CHF 2'400
+- **Beachten:** Behördenabzug nur bei Behördenentschädigung ≤ 54'000 inkl. Pauschalspesen; darüber gilt Haupterwerb
 - **Beachten:** Kein Abzug: Verwaltungsangestellte, Einsitz von Amtes wegen, Verbände/Vereine; ausserkantonale Behörde: Abzug möglich
 - **Beachten:** VR-Tätigkeit: Nebenerwerbsabzug i.d.R. nicht zulässig (Unkosten meist zusätzlich vergütet)
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#1-3-einkommen-unselbstaendig-vr-honorare) · [WL AR 2025 S. 8](../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0037.md)
@@ -224,9 +227,10 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#23-1-sozialabzug-kinder) · [WL AR 2025 S. 2](../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0005.md)
 
 ### 23.2 · Kinderabzug: Kind nach Vollendung des 4. bis zur Vollendung des 15. Altersjahrs ☑️
-- **Rein:** StE Seite 1 → Kinderangaben (Geburtsdatum), Stichtag 31. Dezember 2025
+- **Rein:** StE Seite 1 → Kinderangaben (Geburtsdatum), Stichtag 31. Dezember 2025 · Steuererklärung des Kindes (falls Einkünfte) → Total Einkünfte (Grenze 18'000)
 - **Rechnen:** Kanton: 7'400 je Kind nach vollendetem 4. bis vollendetes 15. Altersjahr (Stand 31. Dezember 2025); getrennte Eltern: je ½ / Bund: 6'800 je Kind
 - **Limite (Kanton / Bund):** Kinderabzug Schulalter (CHF): CHF 7'400 / n/a · Kinderabzug Grundbetrag (CHF): n/a / CHF 6'800
+- **Beachten:** Kein Abzug bei Einkünften des Kindes > 18'000 oder wenn Unterhaltsbeiträge Ziff. 12.2 abgezogen werden
 - **Beachten:** StG-Text nennt 7'000 (nicht indexiert) → massgebend 7'400 (Anhang 1, WL 2025)
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#23-2-sozialabzug-kinder) · [WL AR 2025 S. 2](../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0005.md)
 
@@ -234,6 +238,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Rein:** Seite 1 Steuererklärung → Kind (Name, Geburtsjahr), Schule/Lehrfirma + voraussichtliche Ausbildungsdauer · Steuererklärung des Kindes → Total Einkünfte (Ziff. 168 + vereinfacht abgerechnete Bruttolöhne Ziff. 290; bei Ausbildungsbeginn erst ab Eintritt), Reinvermögen
 - **Rechnen:** Kanton: 11'600 je Kind / Bund: 6'800 je Kind; Eltern getrennt besteuert, gemeinsame Sorge, keine Unterhaltsbeiträge: je ½; Stichtag 31. Dezember 2025
 - **Limite (Kanton / Bund):** Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 11'600 / CHF 6'800 · Kinderabzug Grundbetrag (CHF): n/a / CHF 6'800
+- **Beachten:** Kanton: kein Abzug bei Einkünften des Kindes > 18'000 (inkl. 6'000 frei verfügbar) oder Reinvermögen > 250'000
 - **Beachten:** Kein Kinderabzug für Kind mit Unterhaltsbeiträgen Ziff. 12.2; Schulgelder/Ausbildungskosten nicht zusätzlich abziehbar
 - **Beachten:** Bund volljährig: Beiträge ≥ Abzug; zahlen beide Eltern, erhält die höhere Leistung den Kinderabzug
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#23-3-sozialabzug-kinder) · [WL AR 2025 S. 2](../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0005.md)
@@ -579,7 +584,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 
 ### Form. 4 Ziff. 1.1 · Fahrkosten öffentliche Verkehrsmittel (Code 400 Person 1 / 450 Person 2) ☑️
 - **Rein:** ÖV-Abo/Fahrausweise → tatsächliche Kosten 2025 (Strecke, Datum von–bis) · Lohnausweis → Feld F (unentgeltliche Beförderung) prüfen · Angaben Arbeitsverhältnis → Arbeitgeber, Arbeitsort, Pensum, Erwerbsdauer (Form. 4 Allgemeine Angaben)
-- **Rechnen:** Tatsächliche ÖV-Kosten (Abo-Preis). Lohnausweis Feld F (unentgeltliche Beförderung/Sammeltransport/vom Arbeitgeber bezahltes GA) angekreuzt …
+- **Rechnen:** Σ tatsächliche ÖV-Kosten → Code 400 (Person 1) / 450 (Person 2); mit 1.2–1.3 begrenzt (Code 405/455): Kanton max. 6'000 / Bund max. 3'300
 - **Limite (Kanton / Bund):** Maximalabzug pro Person (CHF): CHF 6'000 / CHF 3'300 · massgebende Arbeitstage pro Jahr: 220 Tage / n/a · Verpflegungsmehrkosten pro Jahr (CHF): CHF 3'200 / CHF 3'200 · Verpflegung bei Verbilligung pro Jahr (CHF): CHF 1'600 / CHF 1'600
 - **Beachten:** Lohnausweis Feld F angekreuzt (Sammeltransport, GA vom Arbeitgeber) → kein Fahrkostenabzug
 - **Beachten:** Geschäftsfahrzeug (Privatanteil 0,9 % pro Monat) → keine effektiven Fahrkosten
@@ -658,8 +663,8 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#form-4-ziff-5-abzug-berufskosten-nebenerwerb) · [Formular 4 AR 2025 S. 1](../chunks/ar/2025/ar-form-04-2025/ar-form-04-2025__c0004.md)
 
 ### Form. 4 Ziff. 6 · Total der Berufskosten (Code 438 Person 1 -> Ziff. 10.1; Code 488 Person 2 -> Ziff. 10.2) ☑️
-- **Rein:**  → Formular 4 Rechenzeile
-- **Rechnen:** Summe Ziff. 1-5; Übertrag in Seite 3 Ziffer 10.1 (Person 1) bzw. 10.2 (Person 2).
+- **Rein:** Übertrag Form. 4 Ziff. 1–5 je Person (Codes 405, 408/410/412, 416/418, 426, 428, 432/434)
+- **Rechnen:** Code 438 = 405 + 408 bzw. 410 bzw. 412 + 416 bzw. 418 + 426 + 428 + 432 bzw. 434 → Ziff. 10.1; Person 2: Code 488 → Ziff. 10.2
 - **Limite (Kanton / Bund):** Maximalabzug pro Person (CHF): CHF 6'000 / CHF 3'300 · Pauschale in % des Nettolohns: 10 % / 3 % · Pauschale Minimum (CHF): n/a / CHF 2'000 · Pauschale Maximum (CHF): CHF 2'400 / CHF 4'000
 - **Beachten:** Vorderseite Person 1 bzw. Alleinstehende, Rückseite Person 2; Abzüge stehen jedem Ehegatten individuell zu
 - **Beachten:** Kein Abzug für Kosten, die der Arbeitgeber übernommen hat

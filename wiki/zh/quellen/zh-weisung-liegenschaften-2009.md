@@ -15,10 +15,12 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-weisung-liegenschaften-2009`).
+Zitiert in 4 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-weisung-liegenschaften-2009`).
 
 - `data/belege-teil2.yaml#4:liegenschaft-schaetzung-eigenmietwert` (agent-geprueft)
 - `data/werte/zh/2025.yaml#42:liegenschaft.eigenmietwert_abzug` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#101:sozialabzug.eigenmietwert@Form. 350 / WL Eigenmietwert` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#98:einkommen.liegenschaften.eigenmietwert@Form. 350 Seite 2 Spalte Eigenmietwert` (agent-geprueft)
 - [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 59 Daten-Einträgen und 29 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stg`).
+Zitiert in 72 Daten-Einträgen und 29 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stg`).
 
 - `data/belege-teil1.yaml#0:lohnausweis` (agent-geprueft)
 - `data/belege-teil1.yaml#11:versicherung-rueckkaufswert` (agent-geprueft)
@@ -57,7 +57,7 @@ Zitiert in 59 Daten-Einträgen und 29 handgeschriebenen Seiten (`python3 tools/i
 - `data/werte/tg/2026.yaml#33:drittbetreuung.max` (agent-geprueft)
 - `data/werte/tg/2026.yaml#34:drittbetreuung.altersgrenze` (agent-geprueft)
 - `data/werte/tg/2026.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
-- … 19 weitere
+- … 32 weitere
 - [wiki/tg/tg-ueberblick.md](../tg-ueberblick.md)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)

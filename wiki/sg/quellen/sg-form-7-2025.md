@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 8 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-7-2025`).
+Zitiert in 9 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-7-2025`).
 
 - `data/werte/sg/2025.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#14:einkommen.liegenschaften.eigenmietwert@5` (agent-geprueft)
@@ -25,6 +25,7 @@ Zitiert in 8 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/imp
 - `data/zuordnung/sg/2025.yaml#93:einkommen.liegenschaften.eigenmietwert@Form. 7 Abschnitt B.a` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#94:einkommen.liegenschaften.mietertrag@Form. 7 Abschnitt B.b` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#95:abzug.liegenschaft.unterhalt@Form. 7 Abschnitt C` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#96:berechnung.total@Form. 7Z` (agent-geprueft)
 - [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

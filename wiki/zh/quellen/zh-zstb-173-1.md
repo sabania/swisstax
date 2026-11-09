@@ -15,8 +15,9 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-173-1`).
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-173-1`).
 
+- `data/zuordnung/zh/2026.yaml#91:vermoegen.sozialabzug@(Tarif § 47)` (agent-geprueft)
 - [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Inhalt (53 Chunks)

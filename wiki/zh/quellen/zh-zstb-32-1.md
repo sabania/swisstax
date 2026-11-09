@@ -15,9 +15,20 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-32-1`).
+Zitiert in 12 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-32-1`).
 
 - `data/werte/zh/2025.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#103:abzug.krankheitskosten@Form. 370 S.1 Teil A Ziff. 2–3` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#104:abzug.krankheitskosten@Form. 370 S.1 Teil A Ziff. 4–7` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#105:abzug.krankheitskosten@Form. 370 S.1 Teil B` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#106:abzug.krankheitskosten@Form. 370 S.1 Teil C/D` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#107:abzug.krankheitskosten@Form. 370 S.1 Teil E` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#108:abzug.behinderungskosten@Form. 370 S.2 Teil A/B` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#109:abzug.behinderungskosten@Form. 370 S.2 Teil C/D` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#34:abzug.behinderungskosten@16.4` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#54:abzug.behinderungskosten@16.4` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#64:abzug.krankheitskosten@22.1` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#65:abzug.krankheitskosten@Form. 370 Teil A–E` (agent-geprueft)
 - [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)
 
 ## Inhalt (18 Chunks)

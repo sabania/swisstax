@@ -24,7 +24,33 @@ positionen:
     zitat: Steuerbar sind alle Einkünfte aus privatrechtlichem oder öffentlich-rechtlichem Arbeitsverhältnis
   - chunk: sg-mb-8-2026__c0004
     zitat: pflicht effektiv zugeflossenen Einkünfte und die Aufwendungen zu deklarieren
+  - chunk: bund-wl-lohnausweis-2026__c0036
+    zitat: In diesem Feld sind die im Bruttolohn enthaltenen, dem Arbeitnehmer vom Lohn
+  - chunk: sg-form-1-2026-uj__c0007
+    zitat: 13.2 Säule 2 (BVG) inkl. Einkaufsbeiträge Person 1 Bescheinigung 218
+  - chunk: sg-stg-2026__art-30
+    zitat: stellen unabhängig von deren Höhe keinen anderen geldwerten Vorteil
+  - chunk: bund-wl-lohnausweis-2026__c0048
+    zitat: alle effektiven Vergütungen des Arbeitgebers für berufsorientierte Aus-
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: 16.4 Kosten berufsorientierte Aus-/Weiterbildung Person 1 Aufstellung 223
+  - chunk: bund-wl-lohnausweis-2026__c0027
+    zitat: Abgangsentschädigungen mit Vorsorgecharakter
+  - chunk: sg-stg-2026__art-52
+    zitat: gleichartige Kapitalabfindungen des Arbeitgebers sowie Zahlungen bei Tod
+  - chunk: bund-wl-2a-2026__c0068
+    zitat: Die Steuer darauf wird zu einem Fünftel der Tarife 2026 berechnet
   status: agent-geprueft
+  rein:
+  - Lohnausweis (je Arbeitgeber) → Ziff. 11 Nettolohn
+  - Lohnausweis Ziff. 10.2 → BVG-Einkauf per Lohnabzug (nur Kontrolle)
+  - Lohnausweis Ziff. 13.3 → Weiterbildungsvergütungen AG (nur Kontrolle)
+  - Lohnausweis Ziff. 4 → Kapitalleistung (Vorsorgecharakter prüfen)
+  berechnung: Σ Lohnausweis Ziff. 11 (= Ziff. 8 − Ziff. 9 − Ziff. 10) je Person → Code 100 (P1) / 102 (P2); unterjährig nur während der Steuerpflicht Zugeflossenes
+  beachten:
+  - LA Ziff. 10.2 (BVG-Einkauf) ist im Nettolohn schon abgezogen → nicht nochmals in Ziff. 13.2
+  - LA Ziff. 13.3 (AG-Weiterbildung) ist kein geldwerter Vorteil → nicht zusätzlich in Ziff. 16.4 abziehen
+  - 'LA Ziff. 4 Kapitalleistung mit Vorsorgecharakter: gesondert besteuert (Art. 52 StG; Bund: Fünftel-Tarif)'
 - ziffer: '1.2'
   abschnitt: Einkünfte
   bezeichnung: Aus Nebenerwerbstätigkeit unselbständig (Code 104 Person 1 / 106 Person 2)
@@ -40,7 +66,36 @@ positionen:
     zitat: 1.2 Aus Nebenerwerbstätigkeit Person 1 Lohnausweis 104
   - chunk: sg-stb-39-9__c0002
     zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
+  - chunk: bund-wl-lohnausweis-2026__c0038
+    zitat: In diesem Feld ist der für die Steuererklärung massgebende Nettolohn anzugeben
+  - chunk: sg-stb-39-9__c0005
+    zitat: wenigstens zwei Drittel einer 100-prozentigen Arbeitszeit entspricht
+  - chunk: sg-stb-39-9__c0007
+    zitat: bis die Mindestquote von zwei Drittel überschritten wird
+  - chunk: sg-stb-39-9__c0009
+    zitat: Überstunden für den Hauptarbeitgeber gelten nicht als Nebenerwerbstätigkeit
+  - chunk: sg-stb-39-9__c0013
+    zitat: schliesst die Nebenerwerbspauschale auch die Fahrkosten und die Mehrkosten
+  - chunk: sg-stb-39-9__c0012
+    zitat: höchstens ein Pauschalabzug in gleicher Höhe zulässig
+  - chunk: sg-stb-39-9__c0012
+    zitat: Die Pauschale von 20% errechnet sich aus der Summe aller Nebenerwerbseinkünfte
+  - chunk: sg-stb-39-9__c0014
+    zitat: von diesen Erwerbseinkünften (Nettolohn plus Spesen)
   status: agent-geprueft
+  rein:
+  - Lohnausweis Nebenarbeitgeber → Ziff. 11 Nettolohn
+  - Arbeitsvertrag Haupterwerb → Pensum (Nachweis Haupterwerb ≥ zwei Drittel)
+  - Lohnausweis Nebenerwerb → vergütete Fahrt-/Verpflegungsspesen (steuerbar)
+  berechnung: 'Σ Lohnausweis Ziff. 11 aller Nebenerwerbe je Person → Code 104/106; Pauschale Formular 4: 20% × Σ Nettoeinkünfte, min. 800, max. 2''400 (Kanton = Bund)'
+  beachten:
+  - Nur mit Haupterwerb ≥ zwei Drittel Pensum (Teilzeitstellen zusammenzählen); Überstunden beim Haupt-AG ≠ Nebenerwerb
+  - Pauschale deckt auch Fahrkosten und Verpflegung; bei Nebeneinkünften < 800 höchstens Pauschale in gleicher Höhe
+  - Vom AG vergütete Spesen (Fahrt, Verpflegung) sind Einkommen → Pauschale von Nettolohn plus Spesen
+  werte_keys:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
 - ziffer: '1.3'
   abschnitt: Einkünfte
   bezeichnung: Sitzungsgelder, VR-Honorare usw. (Code 108 Person 1 / 110 Person 2)
@@ -55,7 +110,20 @@ positionen:
     zitat: 1.3 Sitzungsgelder, VR-Honorare usw. Person 1 Bescheinigung 108
   - chunk: sg-stv__art-22
     zitat: pauschal bis Fr. 2400.–, oder
+  - chunk: bund-wl-lohnausweis-2026__c0030
+    zitat: alle Entschädigungen anzugeben, die einer Person in ihrer Eigenschaft
+  - chunk: sg-stb-39-9__c0015
+    zitat: kann zusätzlich zum Nebenerwerbsabzug geltend gemacht werden
+  - chunk: bund-wl-lohnausweis-2026__c0034
+    zitat: das Total der Einkünfte gemäss den Ziffern 1 bis 7 des Lohnausweises
   status: agent-geprueft
+  rein:
+  - Bescheinigung Gesellschaft/Behörde → Sitzungsgelder, VR-Honorare, Tantiemen
+  - Sitzungsliste/Bescheinigung → Anzahl Sitzungen mit Sitzungsgeld (Behörden-Berufskosten)
+  berechnung: 'Σ Entschädigungen lt. Bescheinigung je Person, soweit nicht in Ziff. 1.1/1.2 → Code 108/110; Kanton Behördenkosten: bis 2''400 oder 60 je Sitzung (max. 4''000)'
+  beachten:
+  - VR-/Stiftungsrats-Entschädigungen auf Lohnausweis (Ziff. 6) sind im Brutto-/Nettolohn → nicht doppelt erfassen
+  - Behördenpauschale (Art. 22 Abs. 2 StV) zusätzlich zum Nebenerwerbsabzug möglich; Nachweis höherer Kosten vorbehalten
 - ziffer: '2.1'
   abschnitt: Einkünfte
   bezeichnung: 'Selbständige Erwerbstätigkeit: Industrie-, Handels-, Gewerbebetriebe, Landwirtschaft, freie Berufe (Code 112 Person 1 / 114 Person 2)'
@@ -71,7 +139,35 @@ positionen:
     zitat: 2.1 Person 1 112
   - chunk: sg-stg-2026__art-31-t1
     zitat: Steuerbar sind alle Einkünfte aus einem Handels-, Industrie-, Gewerbe-, Land- und Forstwirtschaftsbetrieb
+  - chunk: sg-stg-2026__art-40-t1
+    zitat: Bei selbständiger Erwerbstätigkeit werden die geschäfts- oder berufsmässig begründeten Kosten abgezogen.
+  - chunk: sg-stg-2026__art-42
+    zitat: Verluste aus den sieben der Steuerperiode vorangegangenen Geschäftsjahren können abgezogen werden
+  - chunk: bund-wl-2a-2026__c0010
+    zitat: Einnahmen und Ausgaben sowie Privatentnahmen und
+  - chunk: sg-form-1-2026-uj__c0011
+    zitat: 32.2 Aktiven gemäss Schlussbilanz per Aufstellung 316
+  - chunk: sg-form-1-2026-uj__c0012
+    zitat: 34.2 Geschäftsschulden Formular 5 506
+  - chunk: bund-wl-2a-2026__c0012
+    zitat: mitarbeitenden Ehegatten dürfen nur im Ausmass des
+  - chunk: bund-wl-2a-2026__c0013
+    zitat: in den Ziffern 15.3 bzw. 13 der Steuererklärung abgezogen
+  - chunk: bund-wl-2a-2026__c0009
+    zitat: Haushalt mit 1 Erwachsenen im Jahr 3540.–
+  - chunk: bund-wl-2a-2026__c0010
+    zitat: im Jahr 900.– 600.–
   status: agent-geprueft
+  rein:
+  - Jahresrechnung (Bilanz + Erfolgsrechnung) → Reingewinn (Code 112 P1 / 114 P2)
+  - 'ohne kaufm. Buchhaltung: Aufstellung Aktiven/Passiven, Einnahmen/Ausgaben, Privatentnahmen/-einlagen'
+  - Schlussbilanz → Aktiven Ziff. 32.2 / Geschäftsschulden Ziff. 34.2
+  - Verlustvortragsaufstellung → noch nicht verrechnete Verluste der sieben Vorjahre
+  berechnung: Reingewinn lt. Erfolgsrechnung (nur geschäftsmässig begründeter Aufwand, Art. 40 StG) − noch nicht verrechnete Verluste der sieben Vorjahre (Art. 42 StG)
+  beachten:
+  - Steuerbar auch Kapitalgewinne/Aufwertungen auf Geschäftsvermögen und Überführung ins Privatvermögen (Art. 31 Abs. 2 StG)
+  - 'Bund: eigene BVG-Beiträge im Geschäft nur als «Arbeitgeberanteil»; Rest und Säule 3a separat als Vorsorgebeiträge'
+  - 'Bund: Privatanteil Haushalt 3''540/Jahr (1 Erwachsener) + 900 je weiteren Erwachsenen + 600 je Kind'
 - ziffer: '2.2'
   abschnitt: Einkünfte
   bezeichnung: Aus Kollektiv-, Kommandit- und einfachen Gesellschaften (Code 120 Person 1 / 122 Person 2)
@@ -86,7 +182,20 @@ positionen:
     zitat: 2.2 Aus Kollektiv-, Kommandit- und einfachen Gesellschaften
   - chunk: sg-stg-2026__art-31-t1
     zitat: Steuerbar sind alle Einkünfte aus einem Handels-, Industrie-, Gewerbe-, Land- und Forstwirtschaftsbetrieb
+  - chunk: sg-form-1-2026-uj__c0011
+    zitat: 32.1 Geschäftskapital in Kollektiv-, Kommandit- und einfachen Gesellschaften 314
+  - chunk: sg-stg-2026__art-42
+    zitat: Verluste aus den sieben der Steuerperiode vorangegangenen Geschäftsjahren können abgezogen werden
   status: agent-geprueft
+  rein:
+  - Abrechnung/Bestätigung der Gesellschaft → Anteil am Gewinn je Teilhaber (Code 120 P1 / 122 P2)
+  - Jahresrechnung der Personengesellschaft → Reingewinn (Grundlage Anteil)
+  - Kapitalkonto lt. Schlussbilanz → Geschäftskapital Ziff. 32.1
+  berechnung: Anteil am Einkommen der Kollektiv-/Kommandit-/einfachen Gesellschaft lt. Angaben der Gesellschaft, je Person (P1/P2 getrennt)
+  beachten:
+  - 'Gilt als selbständiges Einkommen: inkl. Kapitalgewinne auf Geschäftsvermögen (Art. 31 Abs. 2 StG)'
+  - Anteil Geschäftskapital am Stichtag in Ziff. 32.1 (Code 314) deklarieren
+  - Verluste der sieben Vorjahre abziehbar, soweit noch nicht verrechnet (Art. 42 StG)
 - ziffer: '3.1'
   abschnitt: Einkünfte
   bezeichnung: AHV/IV-Renten zu 100% (Code 126 Person 1 / 128 Person 2)
@@ -100,7 +209,32 @@ positionen:
     zitat: 3.1 AHV/IV-Renten (zu 100%) Person 1 Bescheinigung 126
   - chunk: sg-stg-2026__art-35-t1
     zitat: Steuerbar sind alle Einkünfte aus der Alters-, Hinterlassenen- und Invalidenversicherung
+  - chunk: sg-stg-2026__art-37-t2
+    zitat: die Einkünfte aufgrund der Bundesgesetzgebung über Ergänzungsleistungen
+  - chunk: sg-form-1-2026-uj__c0006
+    zitat: 8.2 Ergänzungsleistungen / Überbrückungsleistungen für ältere Arbeitslose 291
+  - chunk: sg-form-1-2026-uj__c0013
+    zitat: 40. Kapitalleistungen aus Vorsorge
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: Kapitalleistungen aus Vorsorge sind auf Seite 4 unten
+  - chunk: bund-wl-2a-2026__c0017
+    zitat: Diese sind zu 100 % steuerbar.
+  - chunk: bund-wl-2a-2026__c0018
+    zitat: Hilfsmittel sowie für Sonderschulung sind steuerfrei
+  - chunk: sg-mb-8-2026__c0004
+    zitat: pflicht effektiv zugeflossenen Einkünfte und die Aufwendungen zu deklarieren
+  - chunk: bund-wl-2a-2026__c0018
+    zitat: einen Auszahlungsbeleg der Rente vom Dezember 2026
   status: agent-geprueft
+  rein:
+  - Rentenbescheinigung Ausgleichskasse/IV → Jahresbetrag Renten
+  - 'Auszahlungsbeleg Rente Dezember (Bund-Praxis: beilegen)'
+  - EL-Verfügung → nicht hier, sondern Ziff. 8.2
+  berechnung: 100% (Kanton = Bund) der im Steuerjahr bezogenen AHV-/IV-Renten je Person → Code 126 (P1) / 128 (P2); unterjährig nur während der Steuerpflicht zugeflossene
+  beachten:
+  - Ergänzungsleistungen steuerfrei → nur Angabe in Ziff. 8.2 (Code 291)
+  - Kapitalleistungen aus Vorsorge nicht hier → Seite 4 (Ziff. 40)
+  - 'Bund: IV-Kostenbeiträge (Eingliederung, Hilfsmittel, Sonderschulung) steuerfrei'
 - ziffer: '3.2'
   abschnitt: Einkünfte
   bezeichnung: Renten/Pensionen mit steuerbarem Prozentsatz (Code 130 Person 1 / 132 Person 2)
@@ -116,7 +250,39 @@ positionen:
     zitat: 3.2 Renten/Pensionen Bescheinigung / Aufstellung
   - chunk: sg-stg-2026__art-35-t1
     zitat: Leibrentenversicherungen sowie Leibrenten- und Verpfründungsverträge sind im Umfang ihres Ertragsanteils steuerbar
+  - chunk: sg-stg-2026__art-280
+    zitat: 40 Prozent der Einkünfte, wenn die Leistungen
+  - chunk: sg-stg-2026__art-280
+    zitat: 20 Prozent der Einkünfte, wenn die Leistungen
+  - chunk: sg-stg-2026__art-280
+    zitat: die auf einem vor dem 1. Januar 1985 begründeten Vorsorgeverhältnis beruhen
+  - chunk: bund-dbg-2026__art-204
+    zitat: die vor dem 1. Januar 1987 zu laufen begannen oder fällig wurden
+  - chunk: bund-dbg-2026__art-204
+    zitat: auf einem Vorsorgeverhältnis beruhen, das am 31. Dezember 1986 bereits bestand
+  - chunk: bund-wl-2a-2026__c0019
+    zitat: zu 60 %, wenn die Leistungen
+  - chunk: bund-wl-2a-2026__c0020
+    zitat: zu 80 %, wenn die Leistungen, auf denen der Anspruch der
+  - chunk: bund-wl-2a-2026__c0020
+    zitat: Leistungen aus gebundener Selbstvorsorge werden zu 100 %
+  - chunk: sg-stg-2026__art-35-t2
+    zitat: entspricht der Ertragsanteil 70 Prozent dieser Leistungen
+  - chunk: bund-wl-2a-2026__c0023
+    zitat: Bei inländischen Leibrentenversicherungen finden Sie den
+  - chunk: bund-wl-2a-2026__c0016
+    zitat: Erhaltene Leibrente / Verpfründung x Berechnungssatz (in %)
   status: agent-geprueft
+  rein:
+  - Rentenbescheinigung Pensionskasse/Freizügigkeitseinrichtung → Jahresrente brutto
+  - Steuerbescheinigung Versicherer (Leibrentenversicherung) → steuerbarer Ertragsanteil
+  - Bescheinigung Säule-3a-Rente → Jahresbetrag
+  - Vertrag private Leibrente/Verpfründung → erhaltene Rente
+  berechnung: 'Σ Rente × steuerbarer % (Vorkolonne) → Code 130/132: BVG/3a 100%; Leibrente = Ertragsanteil; Altrenten Kanton steuerfrei 40%/20% / Bund steuerbar 60%/80%'
+  beachten:
+  - 'Altrenten: fällig vor 1987, oder vor 2002 bei Vorsorgeverhältnis vor 1985 (Kanton) / per 31. Dezember 1986 (Bund)'
+  - 'Leibrentenversicherung CH: Ertragsanteil lt. Steuerbescheinigung Versicherer (Bund); Kanton: Überschussleistungen 70%'
+  - 'Ausländische/private Leibrenten, Verpfründung: Rente × ESTV-Satz (Bund); mehrere Renten: separate Aufstellung'
 - ziffer: '3.3'
   abschnitt: Einkünfte
   bezeichnung: Erwerbsausfallentschädigung (Taggelder Kranken-, Unfall-, Invalidenversicherung, soweit nicht im Lohnausweis; Code 134 Person 1 / 136 Person 2)
@@ -131,7 +297,30 @@ positionen:
     zitat: 3.3 Erwerbsausfallentschädigung Person 1 Bescheinigung 134
   - chunk: sg-stg-2026__art-36
     zitat: alle andern Einkünfte, die an die Stelle des Einkommens aus Erwerbstätigkeit treten
+  - chunk: bund-wl-lohnausweis-2026__c0015
+    zitat: das ordentliche Salär sowie die Taggelder aus Versicherungen, die durch den Ar
+  - chunk: sg-form-1-2026-uj__c0003
+    zitat: 1.1 Aus Haupterwerbstätigkeit Person 1 Lohnausweis 100
+  - chunk: bund-wl-lohnausweis-2026__c0031
+    zitat: sofern sie nicht unter Ziffer 1 deklariert sind
+  - chunk: bund-wl-lohnausweis-2026__c0052
+    zitat: Anzahl der Tage mit Erwerbsausfallentschädigungen
+  - chunk: bund-wl-2a-2026__c0017
+    zitat: Sämtliche Erwerbsausfallentschädigungen wie zum Beispiel für
+  - chunk: sg-stg-2026__art-37-t1
+    zitat: der Sold für Militär- und Zivilschutzdienst
+  - chunk: bund-wl-lohnausweis-2026__c0034
+    zitat: das Total der Einkünfte gemäss den Ziffern 1 bis 7 des Lohnausweises
   status: agent-geprueft
+  rein:
+  - Taggeldabrechnung Kranken-/Unfall-/IV-Versicherung → direkt ausbezahlte Taggelder
+  - Bescheinigung Ausgleichskasse → EO/Mutterschaftsentschädigung (nicht via AG)
+  - Lohnausweis Ziff. 1/7 und Ziff. 15 → Kontrolle, ob Taggelder schon im Lohn
+  berechnung: Σ Taggelder/EO brutto lt. Bescheinigung, soweit nicht im Lohnausweis (Ziff. 1 bzw. 7), je Person → Code 134 (P1) / 136 (P2)
+  beachten:
+  - Über den AG ausbezahlte Taggelder/EO stehen im Lohnausweis (Ziff. 1 oder 7) → bereits in Ziff. 1.1
+  - LA Ziff. 15 nennt Tage mit Erwerbsausfall, die nicht im Bruttolohn sind → dafür Bescheinigung einholen
+  - EO für Militär-/Zivil-/Schutzdienst steuerbar; Militärsold selbst steuerfrei (Art. 37 Bst. g StG)
 - ziffer: '3.4'
   abschnitt: Einkünfte
   bezeichnung: Arbeitslosen-Taggelder (Code 138 Person 1 / 140 Person 2)
@@ -145,7 +334,29 @@ positionen:
     zitat: 3.4 Arbeitslosen-Taggelder Person 1 Bescheinigung 138
   - chunk: sg-stg-2026__art-36
     zitat: alle andern Einkünfte, die an die Stelle des Einkommens aus Erwerbstätigkeit treten
+  - chunk: bund-wl-lohnausweis-2026__c0031
+    zitat: Kurzarbeits- und Schlechtwetterentschädigungen sowie Einarbei
+  - chunk: bund-wl-lohnausweis-2026__c0006
+    zitat: Feld anzukreuzen, wenn das Formular für die Bescheinigung von Ersatzeinkommen
+  - chunk: sg-form-1-2026-uj__c0003
+    zitat: 1.1 Aus Haupterwerbstätigkeit Person 1 Lohnausweis 100
+  - chunk: bund-wl-2a-2026__c0017
+    zitat: Bezüge aus Arbeitslosenversicherung und Versicherungstag
+  - chunk: sg-stg-2026__art-37-t3
+    zitat: Einkünfte aufgrund des Bundesgesetzes über Überbrückungsleistungen für ältere Arbeitslose
+  - chunk: sg-form-1-2026-uj__c0006
+    zitat: 8.2 Ergänzungsleistungen / Überbrückungsleistungen für ältere Arbeitslose 291
+  - chunk: bund-wl-lohnausweis-2026__c0034
+    zitat: das Total der Einkünfte gemäss den Ziffern 1 bis 7 des Lohnausweises
   status: agent-geprueft
+  rein:
+  - Jahresbescheinigung Arbeitslosenkasse (ggf. Formular 11) → ALV-Taggelder brutto
+  - Lohnausweis Arbeitgeber Ziff. 7 → Kurzarbeits-/Schlechtwetterentschädigung (Kontrolle)
+  berechnung: Σ ALV-Taggelder brutto lt. Bescheinigung der Arbeitslosenkasse je Person → Code 138 (P1) / 140 (P2)
+  beachten:
+  - Über den AG ausgerichtete ALV-Leistungen (Kurzarbeit, Schlechtwetter) stehen im Lohnausweis Ziff. 7 → in Ziff. 1.1
+  - 'Bund ebenso: ALV-Bezüge nur, soweit nicht im Lohnausweis bescheinigt'
+  - Überbrückungsleistungen für ältere Arbeitslose sind steuerfrei → nur Ziff. 8.2, nicht hier
 - ziffer: '3.5'
   abschnitt: Einkünfte
   bezeichnung: Von Ausgleichskassen direkt ausbezahlte Familienzulagen (Code 142)
@@ -157,7 +368,22 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0004
     zitat: 3.5 Von Ausgleichskassen direkt ausbezahlte Familienzulagen 142
+  - chunk: bund-wl-lohnausweis-2026__c0015
+    zitat: sämtliche Zulagen (z. B. Geburts-, Kinder- oder andere Familienzulagen
+  - chunk: bund-wl-2a-2026__c0017
+    zitat: direkt ausbezahlten Kinder- und Familienzulagen
+  - chunk: sg-form-1-2026-uj__c0003
+    zitat: 1.2 Aus Nebenerwerbstätigkeit Person 1 Lohnausweis 104
+  - chunk: bund-wl-lohnausweis-2026__c0034
+    zitat: das Total der Einkünfte gemäss den Ziffern 1 bis 7 des Lohnausweises
   status: agent-geprueft
+  rein:
+  - Bescheinigung Familienausgleichskasse → direkt ausbezahlte Kinder-/Familienzulagen
+  - 'Lohnausweis Ziff. 1 → Kontrolle: über AG bezahlte Zulagen (schon im Nettolohn)'
+  berechnung: Σ direkt von der Ausgleichskasse ausbezahlte Kinder-/Familienzulagen → Code 142 (nur, was nicht über den Lohnausweis lief)
+  beachten:
+  - Über den AG bezahlte Kinder-/Familienzulagen sind Lohnbestandteil (LA Ziff. 1) → bereits in Ziff. 1.1/1.2
+  - 'Bund ebenso: nur direkt von der Ausgleichskasse ausbezahlte Zulagen'
 - ziffer: '4.1'
   abschnitt: Einkünfte
   bezeichnung: Einkünfte aus Wertschriften und Guthaben gemäss Formular 2 (Code 146), inkl. Lotterie-/Geldspielgewinne
@@ -192,7 +418,31 @@ positionen:
     zitat: 16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen 220
   - chunk: sg-stg-2026__art-37-t2
     zitat: die Gewinne, die in Spielbanken mit Spielbankenspielen erzielt werden
+  - chunk: sg-stg-2026__art-45-t5
+    zitat: werden 5 Prozent, jedoch höchstens Fr. 5400.–, als Einsatzkosten abgezogen
+  - chunk: sg-stg-2026__art-37-t3
+    zitat: die Gewinne aus Kleinspielen, die nach dem eidgenössischen Geldspielgesetz
+  - chunk: bund-wl-2a-2026__c0025
+    zitat: höchstens bis maximal 26 800 Fr. in Abzug gebracht werden.
+  - chunk: bund-wl-2a-2026__c0026
+    zitat: Einsätze können bis zu 5 %, jedoch maximal 5 400 Fr.
+  - chunk: bund-wl-2a-2026__c0020
+    zitat: verrechnungssteuerbelastete Einkommen sind immer in der
+  - chunk: bund-wl-2a-2026__c0025
+    zitat: Spielbankengewinne in Casinos sind steuerfrei
+  - chunk: sg-mb-8-2026__c0011
+    zitat: Einsatzkosten von den steuerbaren Gewinnen
   status: agent-geprueft
+  rein:
+  - Formular 2 (Wertschriften- und Guthabenverzeichnis) → Total Bruttoerträge
+  - Steuerauszug Bank/Depot → Zinsen, Dividenden, Ausschüttungen kollektiver Kapitalanlagen
+  - Konto-/Zinsausweise → Bruttozinsen (vor VSt)
+  - Gewinnbestätigung Lotterie/Online-Spielbank → Einzelgewinn, Spieleinsätze
+  berechnung: Σ Bruttoerträge Formular 2 (inkl. VSt-belastete) + steuerbare Geldspielgewinne → Code 146; Einsatzkosten (5%, max. 5'400; online max. 26'800) in Ziff. 16.1
+  beachten:
+  - 'Steuerfrei: Casino; Gross-/Online-Gewinne je bis 1''070''900 (Bund 1''071''000); Kleinspiele; Verkaufsförderung ≤ 1''100'
+  - Beteiligungen ≥ 10% separat in Ziff. 4.2/4.3; Verwaltungs- und Einsatzkosten (Kanton = Bund) in Ziff. 16.1
+  - 'Unterjährig: nur zugeflossene Erträge, keine March-/pro-rata-Zinsen; Wegzug: VSt nur bei Saldierung der Konti'
 - ziffer: '4.2'
   abschnitt: Einkünfte
   bezeichnung: Erträge aus Beteiligungen an Gesellschaften ab 10 Prozent, Privatvermögen (Code 147)
@@ -208,7 +458,26 @@ positionen:
     zitat: 4.2 aus Beteiligungen an Gesellschaften ab 10 Prozent (Privatvermögen) 147
   - chunk: sg-stg-2026__art-31bis
     zitat: im Umfang von 70 Prozent steuerbar
+  - chunk: sg-stg-2026__art-33-t3
+    zitat: sind im Umfang von 70 Prozent steuerbar, wenn diese Beteiligungsrechte wenigstens 10 Prozent
+  - chunk: sg-stg-2026__art-33-t3
+    zitat: wird gleich behandelt wie die Rückzahlung von Grund- oder Stammkapital
+  - chunk: bund-dbg-2026__art-20-t3
+    zitat: sind im Umfang von 70 Prozent steuerbar, wenn diese Beteiligungsrechte mindestens 10 Prozent
+  - chunk: sg-stg-2026__art-33-t4
+    zitat: ist die Rückzahlung im Umfang der halben Differenz zwischen der Rückzahlung und der Ausschüttung
+  - chunk: bund-dbg-2026__art-20-t3
+    zitat: wird gleich behandelt wie die Rückzahlung von Grund- oder Stammkapital
   status: agent-geprueft
+  rein:
+  - Formular 2 / Steuerauszug → Dividenden aus Beteiligungen ≥ 10% (Privatvermögen)
+  - Aktienbuch/Statuten/Handelsregister → Beteiligungsquote am Grund-/Stammkapital
+  - Dividenden-/Ausschüttungsabrechnung der Gesellschaft → Bruttoertrag inkl. geldwerte Vorteile
+  berechnung: Σ Bruttoerträge (Dividenden, Gewinnanteile, Liquidationsüberschüsse, geldwerte Vorteile) aus Beteiligungen ≥ 10% → Code 147; Teilbesteuerung via Ziff. 4.4
+  beachten:
+  - Steuerbar 70% (Art. 33 Abs. 1bis StG / Bund Art. 20 Abs. 1bis DBG) → 30% Abzug in Ziff. 4.4
+  - 'Massgebend: ≥ 10% des Grund- oder Stammkapitals einer Kapitalgesellschaft oder Genossenschaft'
+  - 'KER-Rückzahlung (Einlagen nach 31. Dezember 1996) wie Kapitalrückzahlung (Kanton = Bund); kotiert: Art. 33 Abs. 4 StG'
 - ziffer: '4.3'
   abschnitt: Einkünfte
   bezeichnung: Erträge aus Beteiligungen an Gesellschaften ab 10 Prozent, Geschäftsvermögen (Code 149)
@@ -222,7 +491,32 @@ positionen:
     zitat: 4.3 aus Beteiligungen an Gesellschaften ab 10 Prozent (Geschäftsvermögen) 149
   - chunk: sg-stg-2026__art-31bis
     zitat: Dividenden, Gewinnanteile, Liquidationsüberschüsse und geldwerte Vorteile aus Aktien
+  - chunk: bund-dbg-2026__art-18b
+    zitat: nach Abzug des zurechenbaren Aufwandes im Umfang von 70 Prozent steuerbar
+  - chunk: bund-dbg-2026__art-18b
+    zitat: mindestens ein Jahr im Eigentum der steuerpflichtigen Person
+  - chunk: sg-stg-2026__art-31bis
+    zitat: wenigstens ein Jahr im Eigentum des Steuerpflichtigen
+  - chunk: bund-wl-2a-2026__c0011
+    zitat: Die Erträge der zum Geschäftsvermögen gehörenden
+  - chunk: bund-wl-2a-2026__c0011
+    zitat: dort am Rande mit G zu bezeichnen und auf Ziffer
+  - chunk: bund-wl-2a-2026__c0022
+    zitat: Spartenrechnung wird von Amtes wegen bei der Bemessung
+  - chunk: sg-stg-2026__art-31-t1
+    zitat: wenn der Eigentümer sie im Zeitpunkt des Erwerbs zum Geschäftsvermögen erklärt
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 4.4 Abzug Teilbesteuerung Beteiligungserträge 150
   status: agent-geprueft
+  rein:
+  - Formular 2 (Geschäftsvermögen) → Erträge aus Beteiligungen ≥ 10%
+  - Jahresrechnung → im Reingewinn verbuchte Beteiligungserträge
+  - 'Bund: Spartenrechnung → Ertrag nach zurechenbarem Aufwand'
+  berechnung: Σ Dividenden, Gewinnanteile, Liquidationsüberschüsse, geldwerte Vorteile aus Beteiligungen ≥ 10% (Geschäftsvermögen) → Code 149; 70% steuerbar via Ziff. 4.4
+  beachten:
+  - Veräusserungsgewinne solcher Beteiligungen ebenfalls 70% steuerbar, wenn ≥ 1 Jahr im Eigentum (Kanton = Bund)
+  - 'Bund: verbuchte Erträge in Ziff. 2 abziehen, im WV mit «G» bezeichnen → Ziff. 4; Spartenrechnung beilegen'
+  - Beteiligung ≥ 20% kann beim Erwerb zum Geschäftsvermögen erklärt werden (Art. 31 Abs. 2 StG)
 - ziffer: '4.4'
   abschnitt: Einkünfte
   bezeichnung: Abzug Teilbesteuerung Beteiligungserträge (Code 150)
@@ -235,7 +529,22 @@ positionen:
     zitat: 4.4 Abzug Teilbesteuerung Beteiligungserträge 150
   - chunk: sg-stg-2026__art-31bis
     zitat: im Umfang von 70 Prozent steuerbar
+  - chunk: sg-stg-2026__art-33-t3
+    zitat: sind im Umfang von 70 Prozent steuerbar, wenn diese Beteiligungsrechte wenigstens 10 Prozent
+  - chunk: bund-dbg-2026__art-20-t3
+    zitat: sind im Umfang von 70 Prozent steuerbar, wenn diese Beteiligungsrechte mindestens 10 Prozent
+  - chunk: bund-dbg-2026__art-18b
+    zitat: nach Abzug des zurechenbaren Aufwandes im Umfang von 70 Prozent steuerbar
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: Der Abzug beträgt 30 Prozent der
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 4.2 (Code 147)
+  - Übertrag Ziff. 4.3 (Code 149)
+  berechnung: − 30% × (Ziff. 4.2 + Ziff. 4.3) → Code 150 (Minuszeile); steuerbar bleiben 70% (Kanton = Bund)
+  beachten:
+  - 'Geschäftsvermögen: Basis = Ertrag nach Abzug des zurechenbaren Aufwands'
+  - Nur Beteiligungen ≥ 10% des Grund-/Stammkapitals; übrige Dividenden voll in Ziff. 4.1
 - ziffer: '5'
   abschnitt: Einkünfte
   bezeichnung: Ertrag aus Liegenschaften gemäss Formular 7 (Code 712)
@@ -261,7 +570,29 @@ positionen:
     zitat: das steuerbare Vermögen des Steuerpflichtigen höchstens Fr. 600 000.– beträgt
   - chunk: sg-stv__art-14
     zitat: er 30 Prozent der Bruttoeinkünfte des Steuerpflichtigen übersteigt
+  - chunk: sg-stb-34-1__c0013
+    zitat: um 30% reduzierter Eigenmietwert (vgl. oben Ziff. 2.4) x Anzahl nicht benutzte Zimmer Anzahl Zimmer + 2
+  - chunk: sg-stb-34-1__c0012
+    zitat: Vorausgesetzt ist eine tatsächliche und dauernde Nichtbenutzung von Räumen
+  - chunk: sg-stv__art-14
+    zitat: wird im Verfahren nach dem Gesetz über die Durchführung der Grundstückschätzung
+  - chunk: sg-stg-2026__art-34
+    zitat: Einkünfte aus der Ausbeutung von Kies, Sand und anderen Bestandteilen des Bodens
+  - chunk: sg-stg-2026__art-34
+    zitat: Eine Reduktion unter 60 Prozent der mittleren Marktmiete
+  - chunk: sg-stv__art-14
+    zitat: wird der Mietwert soweit reduziert, wie er 30 Prozent der Bruttoeinkünfte
   status: agent-geprueft
+  rein:
+  - Formular 7 → Total Erträge (Code 712)
+  - Schätzungsentscheid (Grundstückschätzung) → Mietwert selbst bewohnte Liegenschaft
+  - Mietverträge/Mieterspiegel → Bruttomietzinse
+  - Antrag Unternutzung → Nachweis dauernd unbenutzter Räume
+  berechnung: 'Σ Formular 7: Eigenmietwert (Kanton −30%, wenn am Wohnsitz dauernd selbst bewohnt) + Bruttomietzinse + übrige Erträge (Baurecht, Kies/Sand u.a.) → Code 712'
+  beachten:
+  - Keine 30%-Herabsetzung für Zweit-/Ferienwohnungen und vermietete Objekte (auch Vorzugsmiete/Gebrauchsleihe)
+  - 'Unternutzung (auf Antrag, dauernd unbenutzt): Abzug = EMW nach 30% × unbenutzte Zimmer ÷ (Zimmer + 2)'
+  - 'Kanton, AHV-Alter: EMW > 30% Bruttoeinkünfte und Vermögen ≤ 600''000 → Kürzung um den Überschuss, min. 60% Marktmiete'
 - ziffer: '6.1'
   abschnitt: Einkünfte
   bezeichnung: 'Unterhaltsbeiträge erhalten: für Steuerpflichtige (Code 154) / für minderjährige Kinder (Code 156)'
@@ -278,7 +609,23 @@ positionen:
     zitat: Unterhaltsbeiträge, die ein Steuerpflichtiger bei Scheidung, gerichtlicher oder tatsächlicher Trennung für sich erhält
   - chunk: sg-stv__art-15
     zitat: gelten ausschliesslich die laufenden Beiträge
+  - chunk: bund-wl-2a-2026__c0028
+    zitat: werden, sind beim/bei der Empfänger/in nicht steuerbar
+  - chunk: bund-wl-2a-2026__c0027
+    zitat: Unterhaltspflicht über das Mündigkeitsalter des Kindes hinaus
+  - chunk: bund-wl-2a-2026__c0028
+    zitat: Elternteil wie beim volljährigen Kind.
+  - chunk: bund-wl-2a-2026__c0028
+    zitat: Den Alimenten gleichgesetzt sind Naturalleistungen wie Miete,
   status: agent-geprueft
+  rein:
+  - Scheidungsurteil/Trennungsvereinbarung → vereinbarte Beiträge (für sich / je Kind)
+  - Kontoauszüge/Zahlungsnachweise → im Steuerjahr erhaltene Beiträge
+  berechnung: 'Σ im Steuerjahr erhaltene laufende Unterhaltsbeiträge: für sich → Code 154; für minderjährige Kinder unter Sorge/Obhut → Code 156 (Kanton = Bund)'
+  beachten:
+  - 'Kapitalabfindung statt laufender Beiträge: beim Empfänger nicht steuerbar (Bund); SG: nur laufende Beiträge'
+  - Beiträge für volljährige Kinder (z.B. Studium) nicht steuerbar – weder beim Elternteil noch beim Kind (Bund)
+  - Naturalleistungen anstelle Barzahlung (Miete, KK-Prämien, Schuldzinsen) gelten als Unterhalt (Bund)
 - ziffer: '6.2'
   abschnitt: Einkünfte
   bezeichnung: Ertrag aus unverteilten Erbschaften (Code 158)
@@ -292,7 +639,20 @@ positionen:
     zitat: 6.2 Ertrag aus unverteilten Erbschaften 158
   - chunk: sg-stg-2026__art-37-t1
     zitat: der Vermögensanfall infolge Erbschaft, Vermächtnis, Schenkung oder güterrechtlicher Auseinandersetzung
+  - chunk: sg-form-1-2026-uj__c0011
+    zitat: 30.5 Anteile an unverteilten Erbschaften Aufstellung 308
+  - chunk: bund-wl-2a-2026__c0029
+    zitat: Über diese Einkünfte ist eine Aufstellung beizulegen.
   status: agent-geprueft
+  rein:
+  - Aufstellung Erbengemeinschaft/Willensvollstrecker → Anteil am Ertrag
+  - Steuerauszug Nachlasskonten/-depots → Erträge und Verrechnungssteuer
+  - Inventar/Aufstellung → Anteil Nachlassvermögen (Ziff. 30.5)
+  berechnung: Anteil an den Erträgen der unverteilten Erbschaft im Steuerjahr lt. Aufstellung → Code 158
+  beachten:
+  - Vermögensanfall selbst (Erbschaft, Vermächtnis, Schenkung) steuerfrei (Art. 37 Bst. a StG)
+  - Vermögensanteil in Ziff. 30.5 (Code 308) deklarieren
+  - 'Bund: Aufstellung beilegen; VSt-Rückerstattung bei der kantonalen Steuerbehörde beantragen'
 - ziffer: '6.3'
   abschnitt: Einkünfte
   bezeichnung: 'Übrige Einkünfte (Code 162): Provisionen, Trinkgelder, Mitarbeiterbeteiligungen, Urheberrechte, Lizenzen, Patente usw.'
@@ -308,7 +668,31 @@ positionen:
     zitat: 6.3 Übrige Einkünfte Arten 162
   - chunk: sg-stg-2026__art-36
     zitat: Entschädigungen für die Aufgabe oder Nichtausübung einer Tätigkeit
+  - chunk: bund-wl-lohnausweis-2026__c0028
+    zitat: aus Mitarbeiterbeteiligungen (z. B. Aktien und/oder Optionen usw.)
+  - chunk: bund-wl-lohnausweis-2026__c0031
+    zitat: Es gilt dieselbe Regelung wie bei der AHV.
+  - chunk: bund-wl-lohnausweis-2026__c0029
+    zitat: Bei anwartschaftlichen Rechten auf Mitarbeiterbeteiligungen wie beispielsweise auf noch
+  - chunk: bund-wl-2a-2026__c0030
+    zitat: aus Untervermietung von Wohnungen oder Zimmern und im
+  - chunk: bund-wl-2a-2026__c0030
+    zitat: Lohnausweis nicht ausgewiesene Trinkgelder sowie Beiträge an
+  - chunk: sg-form-1-2026-uj__c0003
+    zitat: 1.1 Aus Haupterwerbstätigkeit Person 1 Lohnausweis 100
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: Einschliesslich Gewinne aus Lotterien und anderen
   status: agent-geprueft
+  rein:
+  - Abrechnungen Provisionen/Lizenzen/Urheberrechte → Bruttoeinnahmen
+  - Bescheinigung Auszahler → Entschädigungen (Aufgabe/Nichtausübung Tätigkeit oder Recht)
+  - Beiblatt Mitarbeiterbeteiligungen → geldwerter Vorteil, falls nicht im Lohnausweis
+  - Aufstellung Untervermietung → Nettoertrag (Bund-Praxis)
+  berechnung: Σ übrige steuerbare Einkünfte je Art mit Bezeichnung (Provisionen, Trinkgelder ausserhalb LA, Lizenzen, Entschädigungen Art. 36 StG) → Code 162
+  beachten:
+  - Mitarbeiterbeteiligungen/Trinkgelder nur, wenn nicht schon im Lohnausweis (Ziff. 5 bzw. 7) → sonst in Ziff. 1.1
+  - 'Anwartschaften (noch nicht steuerbare Optionen, Phantom-Aktien): keine Deklaration LA Ziff. 5, nur Hinweis Ziff. 15'
+  - Lotterie-/Geldspielgewinne gehören in Ziff. 4.1 (Formular 2), nicht hierher
 - ziffer: '6.4'
   abschnitt: Einkünfte
   bezeichnung: Kapitalabfindungen für wiederkehrende Leistungen für … Jahre (Code 164)
@@ -322,7 +706,25 @@ positionen:
     zitat: Kapitalabfindungen für wiederkehrende Leistungen für Jahre 164
   - chunk: sg-stg-2026__art-51
     zitat: wird die Steuer unter Berücksichtigung der übrigen Einkünfte zu dem Satz berechnet
+  - chunk: bund-dbg-2026__art-37
+    zitat: zu dem Steuersatz berechnet, der sich ergäbe, wenn anstelle der einmaligen Leistung
+  - chunk: sg-form-1-2026-uj__c0013
+    zitat: 40.2 aus Einrichtungen der beruflichen Vorsorge (2. Säule) Bescheinigung
+  - chunk: sg-stg-2026__art-52
+    zitat: Kapitalleistungen nach Art. 35 dieses Erlasses, gleichartige Kapitalabfindungen des Arbeitgebers
+  - chunk: bund-wl-2a-2026__c0027
+    zitat: Werden Kapitalabfindungen für wiederkehrende Leistungen
+  - chunk: bund-wl-2a-2026__c0068
+    zitat: Kapitalabfindungen ohne Vorsorgecharakter (z.B. Abgangs-
   status: agent-geprueft
+  rein:
+  - Bescheinigung/Vereinbarung Auszahler → Kapitalbetrag und Anzahl Jahre
+  - Aufhebungsvereinbarung Arbeitsvertrag → Abfindung (Grund, Vorsorgecharakter?)
+  berechnung: Kapitalbetrag → Code 164 (+ Anzahl Jahre); Satz wie bei entsprechender jährlicher Leistung zusammen mit übrigen Einkünften (Art. 51 StG / Art. 37 DBG)
+  beachten:
+  - Kapitalleistungen aus Vorsorge (Säule 3a, 2. Säule) nicht hier → Seite 4, Ziff. 40 (gesondert, Art. 52 StG)
+  - 'Bund: z.B. Entschädigung für Aufgabe/Nichtausübung einer Tätigkeit oder eines Rechts, Abfindung aus Arbeitsvertrag'
+  - 'Bund: Abgangsentschädigung mit Vorsorgecharakter gesondert; ohne (z.B. «Golden Parachute») mit übrigem Einkommen'
 - ziffer: '7'
   abschnitt: Einkünfte
   bezeichnung: Total der Einkünfte (Code 168)
@@ -333,7 +735,25 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0005
     zitat: 7. Total der Einkünfte 168
+  - chunk: sg-form-1-2026-uj__c0006
+    zitat: Ergänzende Angaben (nicht im Total der Einkünfte zu berücksichtigen)
+  - chunk: sg-form-1-2026-uj__c0003
+    zitat: 1.1 Aus Haupterwerbstätigkeit Person 1 Lohnausweis 100
+  - chunk: sg-form-1-2026-uj__c0013
+    zitat: 41. Total Kapitalleistungen aus Vorsorge 950
+  - chunk: sg-stg-2026__art-52
+    zitat: werden gesondert besteuert. Sie unterliegen einer vollen Jahressteuer.
+  - chunk: sg-mb-8-2026__c0005
+    zitat: Unregelmässig fliessende Einkünfte sind zu bezeichnen und auszuweisen
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 1.1–1.3, 2.1–2.2, 3.1–3.5
+  - Übertrag Ziff. 4.1–4.3 abzüglich Ziff. 4.4, Ziff. 5, Ziff. 6.1–6.4
+  berechnung: Σ Ziff. 1.1 bis 6.4 − Ziff. 4.4 (Code 150) → Code 168; Ziff. 8 (Codes 290–292) nicht mitzählen
+  beachten:
+  - Ziff. 8.1–8.3 (vereinfacht abgerechnet, EL, Hilflosenentschädigung) gehören nicht ins Total
+  - Kapitalleistungen aus Vorsorge (Ziff. 40) nicht im Total; gesondert besteuert (Art. 52 StG)
+  - 'Unterjährig: Satz auf Jahreseinkommen umgerechnet von Amtes wegen; unregelmässige Einkünfte bezeichnen'
 - ziffer: '8.1'
   abschnitt: Einkünfte (ergänzende Angaben)
   bezeichnung: Vereinfacht abgerechnete Einkünfte, Bruttolohn (Code 290; nicht im Total der Einkünfte)
@@ -346,7 +766,22 @@ positionen:
     zitat: 8.1 Vereinfacht abgerechnete Einkünfte Bescheinigung 290
   - chunk: sg-form-1-2026-uj__c0006
     zitat: Ergänzende Angaben (nicht im Total der Einkünfte zu berücksichtigen)
+  - chunk: bund-wl-2a-2026__c0067
+    zitat: Die Deklaration auf der Steuererklärung hat keinen
+  - chunk: bund-dbg-2026__art-37a
+    zitat: zu einem Satz von 0,5 Prozent zu erheben
+  - chunk: sg-stb-34-1__c0016
+    zitat: ./. alle anrechenbaren Eigenmietwerte + vereinfacht abgerechnete Bruttolöhne
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 7. Total der Einkünfte 168
   status: agent-geprueft
+  rein:
+  - Bescheinigung/Bestätigung AHV-Ausgleichskasse (vereinfachtes Verfahren BGSA) → Bruttolohn
+  berechnung: Bruttolohn lt. Bescheinigung der Ausgleichskasse → Code 290 (nur Angabe, nicht im Total Ziff. 7)
+  beachten:
+  - Steuer mit der AG-Abrechnung über die AHV-Ausgleichskasse abgegolten; Deklaration ohne Einfluss auf Steuer (Bund)
+  - 'Bund: 0,5% auf kleine Arbeitsentgelte, ohne Berufskosten und Sozialabzüge (Art. 37a DBG)'
+  - 'SG: Bruttolohn zählt zu den Bruttoeinkünften für den Eigenmietwert-Härtefall (StB 34 Nr. 1)'
 - ziffer: '8.2'
   abschnitt: Einkünfte (ergänzende Angaben)
   bezeichnung: Ergänzungsleistungen / Überbrückungsleistungen für ältere Arbeitslose (Code 291)
@@ -360,7 +795,27 @@ positionen:
     zitat: 8.2 Ergänzungsleistungen / Überbrückungsleistungen für ältere Arbeitslose 291
   - chunk: sg-stg-2026__art-37-t2
     zitat: die Einkünfte aufgrund der Bundesgesetzgebung über Ergänzungsleistungen
+  - chunk: sg-stg-2026__art-37-t3
+    zitat: Einkünfte aufgrund des Bundesgesetzes über Überbrückungsleistungen für ältere Arbeitslose
+  - chunk: bund-dbg-2026__art-24-t2
+    zitat: die Einkünfte aufgrund der Bundesgesetzgebung über Ergänzungsleistungen
+  - chunk: bund-dbg-2026__art-24-t3
+    zitat: Einkünfte aufgrund des Bundesgesetzes vom 19. Juni 2020 über Überbrückungsleistungen
+  - chunk: sg-form-1-2026-uj__c0004
+    zitat: 3.1 AHV/IV-Renten (zu 100%) Person 1 Bescheinigung 126
+  - chunk: sg-stb-34-1__c0016
+    zitat: + Ergänzungsleistungen + Hilflosenentschädigungen
+  - chunk: sg-form-1-2026-uj__c0006
+    zitat: Ergänzende Angaben (nicht im Total der Einkünfte zu berücksichtigen)
   status: agent-geprueft
+  rein:
+  - EL-Verfügung/Jahresbescheinigung der Durchführungsstelle → Jahresbetrag EL
+  - Verfügung Überbrückungsleistungen für ältere Arbeitslose → Jahresbetrag
+  berechnung: Σ EL zur AHV/IV + Überbrückungsleistungen → Code 291 (nur Angabe, steuerfrei, nicht im Total Ziff. 7)
+  beachten:
+  - 'Steuerfrei: EL (Art. 37 Bst. i StG) und Überbrückungsleistungen (Art. 37 Bst. r StG); Bund ebenso (Art. 24 DBG)'
+  - AHV-/IV-Rente selbst bleibt steuerbar → Ziff. 3.1
+  - 'SG: EL zählen zu den Bruttoeinkünften für den Eigenmietwert-Härtefall (StB 34 Nr. 1)'
 - ziffer: '8.3'
   abschnitt: Einkünfte (ergänzende Angaben)
   bezeichnung: Hilflosenentschädigungen (Code 292)
@@ -373,7 +828,28 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0006
     zitat: 8.3 Hilflosenentschädigungen 292
+  - chunk: bund-ks-11__c0011
+    zitat: Bezüger von Hilflosenentschädigungen im Sinne von Artikel 43 bis des Bundesgesetzes
+  - chunk: sg-form-1-2026-uj__c0009
+    zitat: 21.2 Behinderungsbedingte Kosten (ohne Selbstbehalt) Formular 6 235
+  - chunk: sg-stg-2026__art-46
+    zitat: die behinderungsbedingten Kosten des Steuerpflichtigen oder der von ihm unterhaltenen Personen
+  - chunk: bund-ks-11__c0025
+    zitat: 'Bezüger einer Hilflosenentschädigung leichten Grades: CHF 2''500.--'
+  - chunk: sg-stb-34-1__c0016
+    zitat: + Ergänzungsleistungen + Hilflosenentschädigungen
+  - chunk: bund-ks-11__c0026
+    zitat: und sind bei diesen Kosten anzurechnen
+  - chunk: sg-form-1-2026-uj__c0006
+    zitat: Ergänzende Angaben (nicht im Total der Einkünfte zu berücksichtigen)
   status: agent-geprueft
+  rein:
+  - Verfügung Ausgleichskasse/IV/Unfall-/Militärversicherung → Jahresbetrag Hilflosenentschädigung (HE)
+  berechnung: Jahresbetrag Hilflosenentschädigung lt. Verfügung → Code 292 (nur Angabe, nicht im Total Ziff. 7)
+  beachten:
+  - 'Bund (KS 11): HE-Bezüger gelten als Personen mit Behinderung → Kosten Ziff. 21.2 ohne Selbstbehalt (Kanton Art. 46 StG)'
+  - 'Bund (KS 11): Pauschale statt effektiver Kosten – HE leicht 2''500 / mittel 5''000 / schwer 7''500; effektiv: HE anrechnen'
+  - 'SG: HE zählt zu den Bruttoeinkünften für den Eigenmietwert-Härtefall (StB 34 Nr. 1)'
 - ziffer: '10.1'
   abschnitt: Abzüge
   bezeichnung: Berufskosten bei unselbständiger Erwerbstätigkeit Person 1 gemäss Formular 4 (Code 438)
@@ -385,6 +861,11 @@ positionen:
   werte_keys:
   - berufskosten.fahrkosten.max
   - berufskosten.uebrige.max
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.min
+  - berufskosten.fahrkosten.auto_km
+  - berufskosten.fahrkosten.arbeitstage
   bund: Fahrkosten max. Fr. 3'300 (Art. 26 Abs. 1 Bst. a DBG); Pauschalen BKV-Anhang 2026.
   quellen:
   - chunk: sg-form-1-2026-uj__c0007
@@ -393,7 +874,37 @@ positionen:
     zitat: die notwendigen Kosten für Fahrten zwischen Wohn- und Arbeitsstätte bis zum Betrag von Fr. 8000.–
   - chunk: sg-mb-8-2026__c0006
     zitat: Berufskosten ( Formular 4, Ziffer 3.1 und 5.1 )
+  - chunk: sg-stv__art-21
+    zitat: Für übrige notwendige Berufskosten werden Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.– abgezogen.
+  - chunk: bund-wl-2a-2026__c0040
+    zitat: Der Pauschalabzug beträgt 3 % des Nettolohnes, mindestens
+  - chunk: sg-stb-39-3__c0011
+    zitat: Es handelt sich um einen Maximalabzug und nicht um eine Pauschale.
+  - chunk: sg-stb-39-3__c0010
+    zitat: Für Homeoffice-Tage und Tage ohne Arbeitsleistung
+  - chunk: sg-stb-39-3__c0017
+    zitat: Wird die Pauschale beansprucht, entfällt die Aufrechnung für den Arbeitsweg
+  - chunk: sg-stb-39-3__c0018
+    zitat: Im Lohnausweis muss in Ziff. 2.2 nur noch der Privatanteil deklariert werden
+  - chunk: sg-stb-39-3__c0011
+    zitat: wird der Betrag bei unterjähriger Steuerpflicht
+  - chunk: sg-stb-39-3__c0011
+    zitat: 2026 Fr. 8'000.-- Fr. 3'300.--
+  - chunk: bund-wl-lohnausweis-2026__c0010
+    zitat: Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer keine Kosten für den Arbeitsweg
+  - chunk: bund-wl-lohnausweis-2026__c0012
+    zitat: die Möglichkeit einräumt, das Mittag- oder Abendessen verbilligt
   status: agent-geprueft
+  rein:
+  - Formular 4 «Total der Berufskosten» Person 1 → Code 438
+  - Lohnausweis Felder F/G, Ziff. 2.2 → Fahrkosten-/Verpflegungsabzug prüfen
+  - Abo-/Fahrkostenbelege, Anzahl Arbeitstage → Fahrkosten
+  - Belege übrige Berufskosten (nur bei Nachweis höherer Kosten)
+  berechnung: 'Formular 4: min(Fahrkosten; Kanton 8''000 / Bund 3''300) + Verpflegung + übrige (Kanton 700 + 10% Netto, max. 2''400 / Bund 3%, min. 2''000, max. 4''000) + Nebenerwerb'
+  beachten:
+  - 'Unterjährig: Pauschalen (Formular 4 Ziff. 3.1, 5.1) pro rata kürzen; Fahrkosten-Maximum nicht kürzen'
+  - 'Auto nur ohne zumutbaren ÖV: 0.75/km (Kanton = Bund); Kanton: 220 Arbeitstage, Homeoffice-Tage ohne Fahrkosten'
+  - 'Geschäftswagen mit Pauschale (LA Ziff. 2.2): Arbeitsweg abgegolten → kein Fahrkostenabzug'
 - ziffer: '10.2'
   abschnitt: Abzüge
   bezeichnung: Berufskosten bei unselbständiger Erwerbstätigkeit Person 2 gemäss Formular 4 (Code 488)
@@ -406,7 +917,42 @@ positionen:
     zitat: 10.2 Person 2 Formular 4 488
   - chunk: sg-stb-39-8__c0002
     zitat: stehen die Abzüge für Berufskosten (z.B. für auswärtige Verpflegung) jedem unselbständig erwerbenden Ehegatten zu
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Ziffer 10 Berufskosten ( Formular 4, Ziffer 3.1 und 5.1 )
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Zur Satzbestimmung werden jedoch die
+  - chunk: sg-mb-8-2026__c0009
+    zitat: erhöht sich auf 75 Rappen pro Kilometer (bisher 70 Rappen)
+  - chunk: bund-wl-lohnausweis-2026__c0010
+    zitat: wenn dem Arbeitnehmer keine Kosten für den Arbeitsweg er
+  - chunk: bund-wl-lohnausweis-2026__c0012
+    zitat: Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten Buchstabe G
+  - chunk: bund-wl-lohnausweis-2026__c0038
+    zitat: In diesem Feld ist der für die Steuererklärung massgebende Nettolohn anzugeben.
+  - chunk: sg-stb-39-8__c0002
+    zitat: wenn ein Arbeitsverhältnis besteht und hierüber mit den Sozialversicherungen abgerechnet wird
   status: agent-geprueft
+  rein:
+  - Lohnausweis Person 2 → Nettolohn Ziff. 11; Felder F (Gratis-Arbeitsweg) / G (Kantine, Lunch-Checks)
+  - Arbeitsweg Person 2 (Distanz, Arbeitstage, Verkehrsmittel/ÖV-Abo) → Fahrkosten Formular 4
+  - Belege höherer übriger Berufskosten (nur wenn über Pauschale) → Formular 4
+  - Übertrag Formular 4 «Total der Berufskosten» Person 2 → Code 488
+  berechnung: 'Formular 4 P2: Fahrkosten (max. 8''000 / Bund 3''300) + Verpflegung (15/Tag, max. 3''200) + übrige BK (700 + 10% Nettoeinkünfte, max. 2''400 / Bund 3%, 2''000–4''000)'
+  beachten:
+  - Eigene BK je unselbständig erwerbendem Ehegatten; Mitarbeit beim andern nur mit Arbeitsverhältnis + Sozialvers.
+  - Lohnausweis F angekreuzt → keine Fahrkosten; G → Verpflegung halb (7.50/Tag, max. 1'600); Auto 75 Rp./km (bisher 70)
+  - 'UJ: Pauschalen Formular 4 Ziff. 3.1/5.1 nach Dauer kürzen, für den Satz voll'
+  werte_keys:
+  - berufskosten.fahrkosten.max
+  - berufskosten.fahrkosten.auto_km
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.max
+  - berufskosten.uebrige.min
 - ziffer: '11'
   abschnitt: Abzüge
   bezeichnung: Schuldzinsen gemäss Formular 5 (Code 500)
@@ -425,7 +971,41 @@ positionen:
     zitat: 11. Schuldzinsen Formular 5 500
   - chunk: sg-stg-2026__art-45-t1
     zitat: zuzüglich Fr. 50 000.–
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 4.1 aus Wertschriften und Guthaben 146
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 4.4 Abzug Teilbesteuerung Beteiligungserträge 150
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 5. Ertrag aus Liegenschaften Formular 7 712
+  - chunk: sg-form-1-2026-uj__c0012
+    zitat: 34.1 Privatschulden Formular 5 504
+  - chunk: sg-form-1-2026-uj__c0003
+    zitat: 2. Einkünfte aus selbständiger Erwerbstätigkeit
+  - chunk: bund-wl-2a-2026__c0048
+    zitat: Die im Jahr 2026 fällig gewordenen Schuldzinsen
+  - chunk: bund-wl-2a-2026__c0048
+    zitat: abziehbar (wenn nicht bereits in Ziffer 2 berücksichtigt)
+  - chunk: bund-wl-2a-2026__c0049
+    zitat: werden nur zu 70 % in die Berechnung einbezogen.
+  - chunk: bund-wl-2a-2026__c0049
+    zitat: Zu beachten ist, dass Baukreditzinsen als Anlagekosten gelten
+  - chunk: bund-wl-2a-2026__c0062
+    zitat: die Aufwendungen für Schuldentilgung (Amortisation)
+  - chunk: bund-ks-22a__c0015
+    zitat: Leasingraten für privat genutzte Güter enthalten keine abzugsfähigen Zinsanteile
+  - chunk: bund-ks-22a__c0015
+    zitat: Baurechtszinsen für selbstgenutztes Wohneigentum gelten als nicht abzugsfähige
   status: agent-geprueft
+  rein:
+  - Hypothekar-/Zinsbescheinigung Bank → private Schuldzinsen 2026 (Formular 5 Teil A; Schuld → Ziff. 34.1, Code 504)
+  - Kredit-/Darlehensvertrag, Zinsausweis → private Schuldzinsen
+  - Kontoauszug/Zinsausweis → Sollzinsen privater Konten
+  - Übertrag Ziff. 4 (bewegliches Vermögen, nach Abzug 4.4) + Ziff. 5 (Liegenschaften, Code 712) → Limite
+  berechnung: min(Σ private Schuldzinsen 2026; steuerbare Vermögenserträge Ziff. 4 + Ziff. 5 + 50'000); Bund analog (Beteiligungserträge Privatvermögen zu 70%)
+  beachten:
+  - 'Nicht abziehbar: Baukreditzinsen (Anlagekosten); Bund zudem: Amortisation, Leasingraten, Baurechtszins Eigenheim'
+  - 'Geschäftsschuldzinsen nicht hier (→ Ziff. 2 selbständige Erwerbstätigkeit); Bund: im Jahr 2026 fällig gewordene Zinsen'
+  - 'Bund: teilbesteuerte Beteiligungserträge des Privatvermögens nur zu 70% in die Limite'
 - ziffer: '12.1'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge an Geschiedene oder Getrennte (Code 200)
@@ -440,7 +1020,25 @@ positionen:
     zitat: 12.1 Unterhaltsbeiträge an Geschiedene oder Getrennte Aufstellung 200
   - chunk: sg-stg-2026__art-45-t1
     zitat: die Unterhaltsbeiträge an den geschiedenen, gerichtlich oder tatsächlich getrennt lebenden Ehegatten
+  - chunk: sg-stg-2026__art-36
+    zitat: Unterhaltsbeiträge, die ein Steuerpflichtiger bei Scheidung, gerichtlicher oder tatsächlicher Trennung für sich erhält
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 6.1 Unterhaltsbeiträge für den/die Steuerpflichtige(n) 154
+  - chunk: bund-wl-2a-2026__c0051
+    zitat: Unterhaltsbeiträge, die in Form einer Kapitalabfindung erbracht
+  - chunk: bund-wl-2a-2026__c0052
+    zitat: gelten als Schuldentilgung und sind daher nicht
+  - chunk: bund-wl-2a-2026__c0051
+    zitat: Den Alimenten gleichgesetzt sind Naturalleistungen wie Miete,
   status: agent-geprueft
+  rein:
+  - Scheidungsurteil/Trennungsvereinbarung → vereinbarter Unterhaltsbeitrag (bei erstmaliger Zahlung beilegen)
+  - Zahlungsnachweise (Bank) → 2026 bezahlte Beiträge (Aufstellung)
+  berechnung: 'Σ 2026 bezahlte Unterhaltsbeiträge an geschiedenen bzw. gerichtlich/tatsächlich getrennt lebenden Ehegatten (Kanton = Bund; Bund: ohne Kapitalabfindung)'
+  beachten:
+  - 'Gegenstück: beim Empfänger steuerbar (Ziff. 6.1, Code 154; Art. 36 Bst. f StG)'
+  - 'Nicht abziehbar: Leistungen aus anderen familienrechtlichen Unterhalts-/Unterstützungspflichten'
+  - 'Bund: Kapitalabfindung = Schuldentilgung, nicht abziehbar; Naturalleistungen (Miete, KK-Prämien) = Alimente'
 - ziffer: '12.2'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (Code 202)
@@ -455,7 +1053,25 @@ positionen:
     zitat: 12.2 Unterhaltsbeiträge für minderjährige Kinder Aufstellung 202
   - chunk: sg-stg-2026__art-48
     zitat: keinen Abzug nach Art. 45 Abs. 1 Bst. c dieses Erlasses beansprucht
+  - chunk: sg-stg-2026__art-36
+    zitat: Unterhaltsbeiträge, die ein Elternteil für die unter seiner elterlichen Sorge oder Obhut stehenden Kinder erhält
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: für minderjährige Kinder 156
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 6.1 Unterhaltsbeiträge für den/die Steuerpflichtige(n) 154
+  - chunk: bund-wl-2a-2026__c0003
+    zitat: am 31.12.2026 noch nicht 18 Jahre alte
+  - chunk: bund-wl-2a-2026__c0051
+    zitat: steuerbaren Leistungen nur im Rahmen von Ziffer 23.2 der
   status: agent-geprueft
+  rein:
+  - Urteil/Vereinbarung → Unterhaltsbeitrag je Kind (bei erstmaliger Zahlung beilegen)
+  - Zahlungsnachweise → 2026 bezahlte Beiträge, separat je Kind (Aufstellung)
+  berechnung: Σ je Kind 2026 bezahlte Unterhaltsbeiträge an den Elternteil, unter dessen elterlicher Sorge/Obhut das minderjährige Kind steht (Kanton = Bund)
+  beachten:
+  - Für dieses Kind kein Kinderabzug (Art. 48 StG); Empfänger versteuert in Ziff. 6.1 (Code 156)
+  - 'Bund: minderjährig = am 31.12.2026 noch nicht 18 Jahre alt'
+  - 'Bund: Unterhalt an volljähriges Kind (z.B. Studium) nicht hier, nur im Rahmen der Sozialabzüge (Bund-WL Ziff. 23.2)'
 - ziffer: '12.3'
   abschnitt: Abzüge
   bezeichnung: Rentenleistungen (Code 204)
@@ -468,7 +1084,34 @@ positionen:
     zitat: 12.3 Rentenleistungen Aufstellung 204
   - chunk: sg-stg-2026__art-45-t1
     zitat: die dauernden Lasten sowie der Ertragsanteil nach Art. 35 Abs. 3 Bst. c
+  - chunk: sg-stg-2026__art-35-t3
+    zitat: um 0,5 Prozentpunkte erhöhten annualisierten Rendite zehnjähriger Bundesobligationen
+  - chunk: sg-stg-2026__art-35-t3
+    zitat: während des betreffenden Steuerjahres und der neun vorangegangenen Jahre massgebend
+  - chunk: sg-stg-2026__art-35-t3
+    zitat: nach der Formel in Art. 7 Abs. 2 Bst. c Ziff. 1 des eidgenössischen Steuerharmonisierungsgesetzes
+  - chunk: sg-stg-2026__art-35-t3
+    zitat: Ist diese Rendite negativ oder null, so beträgt der Ertragsanteil null Prozent.
+  - chunk: bund-wl-2a-2026__c0052
+    zitat: Unter dieser Rubrik ist der Ertragsanteil der bezahlten
+  - chunk: bund-wl-2a-2026__c0053
+    zitat: Bezahlte Leibrente / Verpfründung x Berechnungssatz (in %)
+  - chunk: bund-wl-2a-2026__c0053
+    zitat: gründeten Verpflichtungen beruhen und nicht der Erfüllung
+  - chunk: bund-wl-2a-2026__c0053
+    zitat: Empfänger/in der Leistung ist anzugeben.
+  - chunk: bund-wl-2a-2026__c0054
+    zitat: leistungen sind z.B. die gesetzlichen Haftpflichtrenten und die
   status: agent-geprueft
+  rein:
+  - Leibrenten-/Verpfründungsvertrag + Zahlungsnachweis → 2026 bezahlte Rente/Verpfründung
+  - Vertrag/Urteil/letztwillige Verfügung dauernde Last → 2026 erbrachte Leistung; Empfänger angeben (Bund)
+  - ESTV-Publikation → Ertragsanteil-Satz (Bund)
+  berechnung: 'Σ dauernde Lasten + bezahlte Leibrente/Verpfründung × Ertragsanteil % (Kanton: Art. 35 Abs. 3 Bst. c StG; Bund: × ESTV-Satz ÷ 100)'
+  beachten:
+  - 'Kanton: Formel Art. 7 Abs. 2 Bst. c StHG; r = Rendite zehnjähriger Bundesobligationen + 0,5 Pp. (Steuerjahr + neun VJ)'
+  - 'Kanton: r negativ/null → Ertragsanteil null; Bund: nur Leistungen aus Gesetz, Vertrag, Verfügung, kein Familienunterhalt'
+  - 'Bund-Beispiele: gesetzliche Haftpflichtrenten, vertraglich/testamentarisch auferlegte Leibrenten an Angestellte'
 - ziffer: '13.1'
   abschnitt: Abzüge
   bezeichnung: Ordentliche Beiträge Säule 3a (Code 208 Person 1 / 210 Person 2)
@@ -495,7 +1138,35 @@ positionen:
     zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
   - chunk: bund-bsv-masszahlen-2025-2026__c0003
     zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
+  - chunk: bund-wl-2a-2026__c0048
+    zitat: Es können nur Beiträge abgezogen werden, die im Jahre 2026
+  - chunk: bund-wl-2a-2026__c0048
+    zitat: lassen, wenn eine Bescheinigung der Versicherungseinrichtung
+  - chunk: bund-wl-2a-2026__c0054
+    zitat: die ein Einkommen aus Erwerbstätigkeit erzielen
+  - chunk: bund-wl-2a-2026__c0047
+    zitat: und der AHV-/IV-Pflicht unterliegen
+  - chunk: bund-wl-2a-2026__c0047
+    zitat: nur vorübergehendem Unterbruch der Erwerbstätigkeit
+  - chunk: bund-wl-2a-2026__c0047
+    zitat: Kein Abzug kommt in Betracht, wenn sich
+  - chunk: bund-mb-21edp__c0012
+    zitat: sind unter Ziffer 7 des Lohnausweises zu deklarieren
+  - chunk: bund-mb-21edp__c0012
+    zitat: Die Bescheinigung ist von derjenigen Versicherungseinrichtung oder Bankstiftung zu erstellen
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: wenn keine Beiträge nach Bst. d und e dieser Bestimmung abgezogen werden
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: 14. Versicherungsprämien und Sparzinsen Formular 6 600
   status: agent-geprueft
+  rein:
+  - 3a-Bescheinigung Bankstiftung/Versicherung (Formular 21 EDP Ziff. 2) → 2026 einbezahlter Betrag je Person (Code 208/210)
+  - Lohnausweis/Jahresrechnung → Erwerbseinkommen (nur ohne 2. Säule, für 20%-Limite)
+  berechnung: 'je Person: mit 2. Säule min(Einzahlung 2026; 7''258); ohne 2. Säule min(Einzahlung; 20% × Erwerbseinkommen; 36''288) – Kanton = Bund'
+  beachten:
+  - Nur 2026 tatsächlich einbezahlte Beiträge; Bescheinigung beilegen
+  - 'Bund: nur mit Erwerbseinkommen + AHV-/IV-Pflicht; kein Abzug bei Verlust; vorübergehender Unterbruch schadet nicht'
+  - AG-Beiträge an 3a sind Lohn (Lohnausweis Ziff. 7); mit 3a-Abzug kein Zuschlag «ohne Vorsorge» in Ziff. 14
 - ziffer: 13.1 (Einkauf)
   abschnitt: Abzüge
   bezeichnung: Einkaufsbeiträge Säule 3a, Jahr(e) (Code 212 Person 1 / 214 Person 2) – NEU 2026
@@ -508,6 +1179,7 @@ positionen:
     der Einzahlung angeben.'
   werte_keys:
   - saeule3a.einkauf
+  - saeule3a.max_mit_2saeule
   bemerkung: 'Betrag des kleinen 3a-Maximalbetrags aus Bundesquelle (werte/bund 2026: saeule3a.einkauf Fr. 7''258); SG-Quelle nennt keinen Betrag.'
   quellen:
   - chunk: sg-form-1-2026-uj__c0007
@@ -518,7 +1190,33 @@ positionen:
     zitat: gung des Vorsorgeanbieters belegt werden
   - chunk: bund-wl-2a-2026__c0051
     zitat: in jedem Fall aber maximal 7258 Fr.
+  - chunk: sg-mb-8-2026__c0010
+    zitat: ein AHV-pflichtiges Einkommen, der Jahresbeitrag ist bereits geleistet
+  - chunk: sg-mb-8-2026__c0010
+    zitat: Abzug höchstens dem kleinen Säule-3a-Maximalbetrag entspricht
+  - chunk: bund-wl-2a-2026__c0049
+    zitat: den für sie maximal zulässigen ordentlichen Beitrag
+  - chunk: bund-wl-2a-2026__c0050
+    zitat: noch keine Altersleistung aus der Säule 3a bezogen hat,
+  - chunk: bund-wl-2a-2026__c0050
+    zitat: chen des Referenzalters erfolgen, als Bezug einer Altersleis-
+  - chunk: bund-wl-2a-2026__c0051
+    zitat: frühestens jedoch ab dem 1.1.2025
+  - chunk: bund-mb-21edp__c0014
+    zitat: Differenz zwischen dem maximal für die steuerpflichtige Person möglichen Säule 3a Beitrag
+  - chunk: bund-mb-21edp__c0014
+    zitat: In der Ziffer 3 sind Einkäufe in die Säule 3a zu bescheinigen.
+  - chunk: bund-mb-21edp__c0014
+    zitat: ist für jedes Steuerjahr eine separate Zeile zu erstellen
   status: agent-geprueft
+  rein:
+  - 3a-Bescheinigungen der Lückenjahre ab 2025 → max. möglicher minus effektiv einbezahlter Beitrag
+  - 3a-Bescheinigung 2026 → Nachweis voller ordentlicher Beitrag im Einkaufsjahr
+  berechnung: 'je Person: min(Einkauf 2026; Σ Jahresbeitragslücken ab 2025 (max. zehn Jahre zurück); 7''258) – Kanton = Bund'
+  beachten:
+  - 'Voraussetzung: AHV-pflichtiges Einkommen, ordentlicher Beitrag 2026 voll geleistet, noch kein 3a-Kapital bezogen'
+  - Nur Lücken ab 1.1.2025; eine Jahresbeitragslücke nur durch einen einzigen Einkauf
+  - 'Bund: Bezüge ab fünf Jahren vor Referenzalter gelten als Altersleistung (dann kein Einkauf)'
 - ziffer: '13.2'
   abschnitt: Abzüge
   bezeichnung: Säule 2 (BVG) inkl. Einkaufsbeiträge (Code 218 Person 1 / 219 Person 2)
@@ -536,7 +1234,27 @@ positionen:
     zitat: Beiträge für den Einkauf in die berufliche Vorsorge Ziffer 10.2
   - chunk: bund-wl-lohnausweis-2026__c0037
     zitat: sind nicht durch den Arbeitgeber im Lohnausweis, sondern durch die Vorsorgeeinrichtung separat mit dem Formular 21 EDP zu bescheinigen
+  - chunk: bund-mb-21edp__c0006
+    zitat: Zu diesen Beiträgen gehören beispielsweise Einkäufe oder Wiedereinkäufe infolge Scheidung
+  - chunk: bund-wl-lohnausweis-2026__c0036
+    zitat: Ordentliche Beiträge für die berufliche Vorsorge Ziffer 10.1
+  - chunk: bund-wl-lohnausweis-2026__c0038
+    zitat: das Total der Abzüge (Ziffer 9 und 10) abgezogen wird
+  - chunk: bund-ks-17__c0012
+    zitat: erst wieder vorgenommen werden, wenn allfällig früher getätigte Vorbezüge
+  - chunk: bund-ks-17__c0012
+    zitat: nächsten drei Jahre nicht in Kapitalform aus der Vorsorge zurückgezogen werden
+  - chunk: bund-mb-21edp__c0008
+    zitat: Die Rückzahlung eines Vorbezugs für Wohneigentum (WEF-Vorbezug)
   status: agent-geprueft
+  rein:
+  - Formular 21 EDP der Vorsorgeeinrichtung → selbst überwiesene Beiträge/Einkäufe 2026 je Person (Code 218/219)
+  - 'Lohnausweis Ziff. 10.1/10.2 → vom Lohn abgezogene Beiträge/Einkäufe: bereits im Nettolohn (Ziff. 11), nicht hier'
+  berechnung: Σ 2026 selbst (nicht über den Lohn) bezahlte BVG-Beiträge + Einkäufe gemäss Formular 21 EDP (Kanton = Bund)
+  beachten:
+  - Lohnausweis Ziff. 10.1/10.2 nie nochmals abziehen (Doppelabzug); z.B. Wiedereinkauf nach Scheidung via Formular 21
+  - Einkauf erst nach Rückzahlung WEF-Vorbezüge; Leistungen daraus drei Jahre nicht als Kapital beziehbar
+  - WEF-Rückzahlung nicht via Formular 21 (WEF-Formular ESTV), nicht hier
 - ziffer: '14'
   abschnitt: Abzüge
   bezeichnung: Versicherungsprämien und Sparzinsen gemäss Formular 6 (Code 600)
@@ -566,7 +1284,27 @@ positionen:
     zitat: die nach Gesetz, Statut oder Reglement geleisteten Einlagen, Prämien und Beiträge an die Alters-, Hinterlassenen- und Invalidenversicherung
   - chunk: sg-stg-2026__art-45-t2
     zitat: die Prämien und Beiträge für die Erwerbsersatzordnung, die Arbeitslosenversicherung und die obligatorische Unfallversicherung
+  - chunk: bund-wl-2a-2026__c0052
+    zitat: sowie die im Wertschriftenverzeichnis
+  - chunk: bund-ks-30__c0031
+    zitat: als aufwandmindernd zu berücksichtigen
+  - chunk: bund-wl-2a-2026__c0054
+    zitat: oder jede unterstützungsbedürftige Person, für welche Abzüge
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Ziffer 14 Versicherungsprämien und Sparzinsen
+  - chunk: sg-mb-8-2026__c0006
+    zitat: der Dauer der Steuerpflicht zu kürzen
   status: agent-geprueft
+  rein:
+  - Krankenkasse-Prämienabrechnung 2026 → bezahlte Prämien Grund-/Zusatzversicherung
+  - Policen Lebens-/Renten-/nicht obligatorische Unfallversicherung → bezahlte Prämien
+  - Wertschriftenverzeichnis (Formular 2) → Zinsen von Sparkapitalien
+  - Verfügung Prämienverbilligung → von den Prämien abziehen (Bund)
+  berechnung: 'min(Prämien + Sparzinsen; Max): Ehegatten 6''800 / übrige 3''400, ohne BVG/3a 7''900 / 3''900, +1''100 je Kind; Bund 3''700/1''800, ohne 5''550/2''700, +700'
+  beachten:
+  - 'Kanton: Zuschlag «ohne Vorsorge» nur, wenn keine Beiträge nach Art. 45 Abs. 1 Bst. d und e StG abgezogen'
+  - 'Bund: Prämienverbilligung mindert die Prämien; Zuschlag +700 je Kind bzw. unterstützte Person'
+  - 'UJ: Maximalbetrag nach Dauer der Steuerpflicht kürzen, für den Satz voll'
 - ziffer: '15'
   abschnitt: Abzüge
   bezeichnung: Unterhalts- und Verwaltungskosten für Liegenschaften gemäss Formular 7 (Code 716)
@@ -586,7 +1324,43 @@ positionen:
     zitat: Pauschalabzug von 20 Prozent des Bruttomietertrags ohne Nebenkosten oder des angerechneten Eigenmietwerts
   - chunk: sg-stg-2026__art-44-t2
     zitat: einen Pauschalabzug geltend machen
+  - chunk: sg-stv__art-29
+    zitat: für jede Steuerperiode und für jede Liegenschaft zwischen dem Abzug der tatsächlichen Kosten und dem Pauschalabzug wählen
+  - chunk: sg-stv__art-28
+    zitat: soweit sie nicht wertvermehrende Aufwendungen darstellen
+  - chunk: sg-stv__art-28
+    zitat: Einlagen in den Reparatur- und Erneuerungsfonds von Stockwerkeigentümergemeinschaften
+  - chunk: sg-stv__art-28
+    zitat: wie Unterhaltsperimeter und Grundsteuern
+  - chunk: sg-stv__art-28
+    zitat: Prämien für Sach- und Haftpflichtversicherung für die Liegenschaft
+  - chunk: sg-stg-2026__art-44-t1
+    zitat: in den zwei nachfolgenden Steuerperioden abziehbar
+  - chunk: sg-stg-2026__art-44-t1
+    zitat: Den Unterhaltskosten gleichgestellt sind auch die Rückbaukosten im Hinblick auf den Ersatzneubau
+  - chunk: bund-wl-2a-2026__c0036
+    zitat: 10 % vom Brutto-Mietertrag bzw. Brutto-Mietwert, wenn
+  - chunk: bund-wl-2a-2026__c0037
+    zitat: nicht in Betracht für Liegenschaften, die zum Geschäftsvermö
+  - chunk: bund-wl-2a-2026__c0038
+    zitat: vorwiegend geschäftlich genutzt werden.
+  - chunk: sg-stb-aenderungen-2026__c0002
+    zitat: Allgemeine Aktualisierung. Abschaffung der Praxis
+  - chunk: sg-stb-aenderungen-2026__c0002
+    zitat: zum wirtschaftlichen Neubau. Präzisierungen zum
   status: agent-geprueft
+  rein:
+  - Formular 7 je Liegenschaft → Bruttomietertrag ohne Nebenkosten / angerechneter Eigenmietwert (Basis Pauschale)
+  - Handwerker-/Unterhaltsrechnungen, STWEG-Abrechnung (Einlage Erneuerungsfonds) → tatsächliche Kosten
+  - Prämien Sach-/Haftpflichtversicherung, Verwaltungsrechnungen Dritter, Grundsteuern/Unterhaltsperimeter → tatsächliche Kosten
+  berechnung: 'je Liegenschaft wählen: Σ tatsächliche Kosten ODER 20% × (Bruttomietertrag ohne NK bzw. angerechneter Eigenmietwert); Bund: 10% (Gebäude bis 10 J.) / 20%'
+  beachten:
+  - 'Pauschale nur bei vorwiegend Wohnzwecken; Bund: nicht für Geschäftsvermögen / von Dritten vorwiegend geschäftlich'
+  - 'Nicht abziehbar: Wertvermehrung; Energiespar-/Umweltinvestitionen + Rückbau = Unterhalt, Vortrag zwei Folgeperioden'
+  - Weisungen StB 044 (Liegenschaftsunterhalt) per 01.01.2026 aktualisiert, u.a. Praxis wirtschaftlicher Neubau abgeschafft
+  werte_keys:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
 - ziffer: '16.1'
   abschnitt: Abzüge
   bezeichnung: Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen (Code 220)
@@ -605,7 +1379,41 @@ positionen:
     zitat: können die Kosten der Verwaltung durch Dritte
   - chunk: sg-stb-44-1__c0006
     zitat: Die Pauschale beträgt 2 Promille bis zu einem Wertschriftenvermögen von Fr. 3 Mio.
+  - chunk: sg-stb-44-1__c0006
+    zitat: Sie ist auf maximal Fr. 15'000.-- begrenzt
+  - chunk: sg-stb-44-1__c0006
+    zitat: (Spalten A + B) nach Abzug des Geschäftsvermögens, der Darlehen sowie der selbstverwalteten Wertschriften
+  - chunk: sg-stb-44-1__c0005
+    zitat: Eine Kumulation von Pauschalabzug und dem Abzug von
+  - chunk: sg-stb-44-1__c0004
+    zitat: Kein Abzug kann gewährt werden, wenn die steuerpflichtige Person ihr bewegliches
+  - chunk: sg-stb-44-1__c0001
+    zitat: Auslagen und Kosten, die mit dem Erwerb, der Erhaltung, Umschichtung, Mehrung oder dem Verkauf von Vermögenswerten verbunden sind
+  - chunk: sg-stb-44-1__c0016
+    zitat: Depotgebühren Die Kosten für die Aufbewahrung Ja
+  - chunk: sg-stb-44-1__c0016
+    zitat: Inkassospesen Die Kosten für die Einforderung Ja
+  - chunk: sg-stb-44-1__c0016
+    zitat: Kontoführungsge- Die Kosten für die Kontoführung Ja
+  - chunk: sg-stb-44-1__c0012
+    zitat: Beratungskosten Die Kosten der Finanz-, Anlage-, Nein
+  - chunk: sg-stb-44-1__c0013
+    zitat: Vermögensverwal- Die Kosten für die laufende Nein
+  - chunk: sg-stb-44-1__c0009
+    zitat: die Abzugsbeschränkung von Fr. 15'000.-- greift nicht
+  - chunk: sg-stb-44-1__c0010
+    zitat: Es gelten daher die gleichen Abzugsregeln wie im kantonalen Recht
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Ziffer 16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen
   status: agent-geprueft
+  rein:
+  - Steuerauszug/Wertschriften- und Guthabenverzeichnis (Spalten A + B) → Bemessungsgrundlage Pauschale
+  - Bankbelege Depotgebühren, Inkassospesen, Kontoführungsgebühren → tatsächliche Kosten (Alternative)
+  berechnung: tatsächl. Kosten ODER Pauschale 2‰ × Basis bis 3 Mio. + 1‰ darüber, max. 15'000; Basis = Sp. A+B − Geschäftsvermögen − Darlehen − Selbstverwaltetes/Krypto
+  beachten:
+  - Pauschale und tatsächliche Kosten pro Periode nicht kumulierbar; Selbstverwaltung → kein Abzug
+  - 'Nicht abziehbar: Transaktionskosten, Beratung, aktives Depotmanagement; All-in-Fee je Depot schätzen (ohne 15''000)'
+  - 'Bund: gleiche Abzugsregeln wie Kanton; UJ: Pauschale nach Dauer kürzen'
 - ziffer: '16.2'
   abschnitt: Abzüge
   bezeichnung: Kinderbetreuungskosten bei Drittbetreuung gemäss Formular 10 (Code 258)
@@ -626,7 +1434,25 @@ positionen:
     zitat: höchstens Fr. 26 800.– für jedes Kind
   - chunk: sg-mb-8-2026__c0011
     zitat: Kinderbetreuung Abzug pro Kind
+  - chunk: sg-mb-8-2026__c0011
+    zitat: Kinderbetreuung Abzug pro Kind neu max. Fr.
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Ziffer 16.2 Kinderbetreuungskosten
+  - chunk: bund-wl-2a-2026__c0058
+    zitat: 25 800 Fr., für die Drittbetreuung jedes Kindes (bis 14 Jahre),
+  - chunk: bund-wl-2a-2026__c0059
+    zitat: betreuungskosten ausserhalb der Arbeits- oder Ausbildungszeit
+  - chunk: bund-wl-2a-2026__c0059
+    zitat: Gleiches gilt für die Kosten für Verpflegung und Unterkunft der
   status: agent-geprueft
+  rein:
+  - Rechnungen Kita/Tagesfamilie/Hort 2026 → bezahlte Betreuungskosten je Kind (Formular 10)
+  - Formular 10 → Name, Geburtsdatum Kind; Nachweis Erwerbstätigkeit/Ausbildung/Erwerbsunfähigkeit
+  berechnung: 'Σ je Kind < 14 J. im gleichen Haushalt: min(nachgewiesene Drittbetreuungskosten; 26''800 / Bund 25''800)'
+  beachten:
+  - Nur bei direktem Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit des Steuerpflichtigen
+  - 'Bund: nicht abziehbar Betreuung ausserhalb Arbeits-/Ausbildungszeit sowie Verpflegung/Unterkunft der Kinder'
+  - 'Kanton neu max. 26''800 je Kind; UJ: Maximum nach Dauer kürzen, für den Satz voll'
 - ziffer: '16.3'
   abschnitt: Abzüge
   bezeichnung: Parteispenden gemäss Formular 5 (Code 555)
@@ -649,7 +1475,18 @@ positionen:
     zitat: bis zum Gesamtbetrag von Fr. 21 400.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 10 700.– für die übrigen Steuerpflichtigen
   - chunk: sg-mb-8-2026__c0011
     zitat: 16.3 Höherer Abzug
+  - chunk: bund-wl-2a-2026__c0057
+    zitat: können bis zum Gesamtbetrag von 10 600 Fr. abgezogen wer-
+  - chunk: bund-wl-2a-2026__c0057
+    zitat: Die Belege sind beizufügen.
   status: strittig
+  rein:
+  - 'Bestätigung/Beitragsrechnung der Partei → Mitgliederbeiträge und Zuwendungen (Formular 5 Teil B: Datum, Partei, Betrag)'
+  berechnung: 'min(Σ Mitgliederbeiträge + Zuwendungen an Parteien; Ehegatten 21''400 / übrige 10''700); Bund: min(…; 10''600)'
+  beachten:
+  - 'Partei: im Parteienregister, in einem kantonalen Parlament vertreten oder ≥ 3% Stimmen bei letzten Wahlen'
+  - 'STRITTIG: Merkblatt UJ 2026 nennt unter 16.3 «Höherer Abzug» ohne Betrag → Fachperson prüft Original-PDF'
+  - 'Bund: Gesamtbetrag 10''600 (keine separate Ehepaar-Limite genannt); Belege beifügen'
 - ziffer: '16.4'
   abschnitt: Abzüge
   bezeichnung: Kosten berufsorientierte Aus-/Weiterbildung (Code 223 Person 1 / 224 Person 2)
@@ -670,7 +1507,23 @@ positionen:
     zitat: bis zum Gesamtbetrag von Fr. 13 000.– je Steuerpflichtigen
   - chunk: sg-stg-2026__art-30
     zitat: Die vom Arbeitgeber getragenen Kosten der berufsorientierten Aus- und Weiterbildung, einschliesslich Umschulungskosten,
+  - chunk: bund-wl-2a-2026__c0055
+    zitat: Abziehbar sind die selbstgetragenen Kosten der
+  - chunk: bund-ks-42__c0027
+    zitat: Weiterbildungskosten im Zeitpunkt der Zahlung geltend machen
+  - chunk: bund-ks-42__c0027
+    zitat: im Jahr der Rückvergütung als steuerbares Einkommen
+  - chunk: sg-form-1-2026-uj__c0010
+    zitat: 23.3 Ausbildungskosten für Kinder in Schule oder Ausbildung Formular 10 256
   status: agent-geprueft
+  rein:
+  - 'Kursrechnungen/Zahlungsbelege 2026 → selbst bezahlte Kosten je Person (Aufstellung: Rechnungsdatum, Bezeichnung, Betrag; Code 223/224)'
+  - Lohnausweis/Bestätigung Arbeitgeber → vom Arbeitgeber getragene oder rückvergütete Kosten (nicht abziehbar)
+  berechnung: je Person min(selbst getragene berufsorientierte Aus-/Weiterbildungs- inkl. Umschulungskosten; 13'000) – Kanton = Bund
+  beachten:
+  - 'Voraussetzung: erster Abschluss Sek. II oder 20. Lebensjahr vollendet (nicht Kosten bis zum ersten Sek-II-Abschluss)'
+  - 'Vom AG getragene Kosten: kein Lohn (Art. 30 Abs. 1bis StG); Bund: Abzug bei Zahlung, spätere AG-Vergütung = Einkommen'
+  - Ausbildungskosten der Kinder nicht hier (→ Ziff. 23.3)
 - ziffer: '16.5'
   abschnitt: Abzüge
   bezeichnung: Übrige Abzüge (Code 222), z.B. AHV-Beiträge Nichterwerbstätiger
@@ -684,7 +1537,23 @@ positionen:
     zitat: 16.5 Übrige Abzüge Arten 222
   - chunk: sg-stg-2026__art-45-t1
     zitat: Einlagen, Prämien und Beiträge an die Alters-, Hinterlassenen- und Invalidenversicherung und an Einrichtungen der beruflichen Vorsorge
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: AHV-Beiträge von Nichterwerbstätigen, u.a.
+  - chunk: bund-wl-2a-2026__c0055
+    zitat: Beiträge Nichterwerbstätiger an die AHV, IV und EO.
+  - chunk: bund-wl-2a-2026__c0055
+    zitat: Nicht zulässig ist der Abzug von Arbeitgeberbeiträgen für das
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: die Prämien und Beiträge für die Erwerbsersatzordnung, die Arbeitslosenversicherung
   status: agent-geprueft
+  rein:
+  - AHV-Beitragsverfügung/-rechnung Nichterwerbstätige (Ausgleichskasse) → AHV/IV/EO-Beiträge
+  - Belege weiterer übriger Abzüge → Aufstellung mit Art (Feld «Arten»)
+  berechnung: Σ AHV/IV/EO-Beiträge als Nichterwerbstätige + weitere übrige Abzüge (je mit Art) – Kanton = Bund
+  beachten:
+  - Art der Abzüge im Feld «Arten» angeben
+  - 'Bund: Arbeitgeberbeiträge für privates Dienstpersonal nicht abziehbar'
+  - 'Grundlage Kanton: Art. 45 Abs. 1 Bst. d (AHV/IV) bzw. Bst. f (EO/ALV) StG'
 - ziffer: '17'
   abschnitt: Abzüge
   bezeichnung: Zweiverdienerabzug (Code 226)
@@ -703,7 +1572,31 @@ positionen:
     zitat: 17. Zweiverdienerabzug 226
   - chunk: sg-stg-2026__art-45-t4
     zitat: Fr. 500.– abgezogen
+  - chunk: bund-wl-2a-2026__c0062
+    zitat: kommen können 50 Prozent, mindestens 8600 Fr. und
+  - chunk: bund-wl-2a-2026__c0062
+    zitat: Bruttolohn abzüglich der Berufskosten sowie der Beiträge an die
+  - chunk: bund-wl-2a-2026__c0056
+    zitat: ALV/NBUV und an die Säulen 2 und 3a gekürzte niedrigere
+  - chunk: bund-wl-2a-2026__c0056
+    zitat: kann nur dieser tiefere Betrag abgezogen werden
+  - chunk: bund-wl-2a-2026__c0056
+    zitat: kommt in Betracht, wenn sich aus der Erwerbstätigkeit ein
+  - chunk: bund-wl-2a-2026__c0055
+    zitat: Dem Erwerbseinkommen gleichgestellt sind
+  - chunk: bund-wl-2a-2026__c0057
+    zitat: sofern die Mitarbeit vertraglich vorgesehen oder durch
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Ziffer 17 Zweiverdienerabzug
   status: agent-geprueft
+  rein:
+  - 'Lohnausweise/Jahresrechnungen beider Ehegatten → Erwerbseinkommen je Ehegatte (Bund: niedrigeres massgebend)'
+  - 'Taggeldabrechnungen (ALV, Kranken-, Unfallversicherung) → Bund: dem Erwerbseinkommen gleichgestellt'
+  berechnung: 'Kanton: fix 500; Bund: min(max(50% × niedrigeres Erwerbseinkommen; 8''600); 14''100), höchstens das niedrigere Erwerbseinkommen'
+  beachten:
+  - 'Nur gemeinsam Steuerpflichtige; auch bei erheblicher Mitarbeit beim andern (Bund: vertraglich vorgesehen/erforderlich)'
+  - Bund-Erwerbseinkommen = Bruttolohn − Berufskosten − AHV/IV/EO/ALV/NBUV − Säule 2/3a; Verlust → kein Abzug
+  - 'UJ: Abzug nach Dauer der Steuerpflicht kürzen, für den Satz voll'
 - ziffer: '18'
   abschnitt: Abzüge
   bezeichnung: Total der Abzüge (Code 230)
@@ -714,7 +1607,21 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0008
     zitat: 18. Total der Abzüge 230
+  - chunk: sg-form-1-2026-uj__c0007
+    zitat: 10.1 Person 1 Formular 4 438
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: 17. Zweiverdienerabzug 226
+  - chunk: sg-form-1-2026-uj__c0009
+    zitat: 20. Nettoeinkommen (Ziffer 7 abzüglich Ziffer 18) 234
   status: agent-geprueft
+  berechnung: Σ Ziff. 10.1 bis 17 (Berufskosten, Schuldzinsen, Unterhalt, Vorsorge, Versicherungen, Liegenschaften, weitere Abzüge, Zweiverdiener)
+  beachten:
+  - Bund weicht ab bei Ziff. 10, 14, 15 (Pauschale 10%), 16.2, 16.3 und 17 (andere Beträge)
+  - 'Übertrag in Ziff. 20: Nettoeinkommen = Ziff. 7 − Ziff. 18'
+  werte_keys:
+  - liegenschaft.pauschale_neu
+  rein:
+  - Übertrag Ziff. 10.1–17 (Seite 3, Codes 438 bis 226)
 - ziffer: '20'
   abschnitt: Einkommensberechnung
   bezeichnung: Nettoeinkommen (Code 234)
@@ -725,7 +1632,20 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0009
     zitat: 20. Nettoeinkommen (Ziffer 7 abzüglich Ziffer 18) 234
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: Total der Einkünfte 168
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: 18. Total der Abzüge 230
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 7 (Total der Einkünfte, Code 168)
+  - Übertrag Ziff. 18 (Total der Abzüge, Code 230)
+  berechnung: Ziff. 7 − Ziff. 18 (Code 168 − Code 230)
+  beachten:
+  - Basis für Selbstbehalt Ziff. 21.1 (Kanton 2% / Bund 5%) und Zuwendungslimite Ziff. 21.3 (20%)
+  werte_keys:
+  - krankheitskosten.selbstbehalt_satz
+  - spenden.max_satz
 - ziffer: '21.1'
   abschnitt: Einkommensberechnung
   bezeichnung: Krankheits- und Unfallkosten gemäss Formular 6 (Code 650), abzüglich Selbstbehalt 2% (Code 238), Abzug (Code 240)
@@ -747,7 +1667,30 @@ positionen:
     zitat: abzüglich Selbstbehalt 2% des Nettoeinkommens (Ziffer 20)
   - chunk: sg-stg-2026__art-46
     zitat: soweit der Steuerpflichtige die Kosten selbst trägt und diese 2 Prozent der Nettoeinkünfte übersteigen
+  - chunk: bund-ks-11__c0026
+    zitat: Abzugsfähig sind nur diejenigen Kosten, die vom Steuerpflichtigen selbst getragen werden.
+  - chunk: bund-ks-11__c0026
+    zitat: Haftpflicht- und private Unfallversicherung
+  - chunk: bund-ks-11__c0004
+    zitat: Keine Krankheitskosten stellen weiter die Krankenkassenprämien dar.
+  - chunk: bund-ks-11__c0004
+    zitat: der Prävention dienen (z.B. Abonnement für Fitness-Center)
+  - chunk: bund-ks-11__c0009
+    zitat: eine Pauschale von CHF 2'500.-- geltend gemacht werden
+  - chunk: bund-ks-11__c0009
+    zitat: können jedoch nur die effektiven Mehrkosten zum Abzug bringen
+  - chunk: bund-wl-2a-2026__c0058
+    zitat: Die Auslagen sind in einer separaten Aufstellung aufzulisten
   status: agent-geprueft
+  rein:
+  - Arzt-/Zahnarzt-/Spital-/Apothekenrechnungen 2026 → Kosten (Formular 6 Rückseite, Brutto-Total Code 650)
+  - Leistungsabrechnung Krankenkasse/Unfall-/Haftpflichtversicherung → Leistungen Dritter abziehen
+  - Übertrag Ziff. 20 → Basis Selbstbehalt (Code 238)
+  berechnung: 'Abzug (Code 240) = Σ selbst getragene Kosten (nach Versicherungs-/Drittleistungen) − 2% × Ziff. 20 (Code 238), nicht negativ; Bund: Selbstbehalt 5%'
+  beachten:
+  - Nur selbst getragene Kosten (nach Versicherungsleistungen); auch für die unterhaltenen Personen
+  - 'Bund nicht abziehbar: KK-Prämien (→ Ziff. 14), Prävention (z.B. Fitness), Schönheitsbehandlungen; Behinderung → 21.2'
+  - 'Bund: lebensnotwendige Diät pauschal 2''500 statt effektiv (Diabetes nur effektive Mehrkosten)'
 - ziffer: '21.2'
   abschnitt: Einkommensberechnung
   bezeichnung: Behinderungsbedingte Kosten, ohne Selbstbehalt gemäss Formular 6 (Code 235)
@@ -762,7 +1705,33 @@ positionen:
     zitat: 21.2 Behinderungsbedingte Kosten (ohne Selbstbehalt) Formular 6 235
   - chunk: sg-stg-2026__art-46
     zitat: die behinderungsbedingten Kosten des Steuerpflichtigen oder der von ihm unterhaltenen Personen
+  - chunk: bund-ks-11__c0025
+    zitat: 'Bezüger einer Hilflosenentschädigung leichten Grades: CHF 2''500.--'
+  - chunk: bund-ks-11__c0025
+    zitat: 'Bezüger einer Hilflosenentschädigung mittleren Grades: CHF 5''000.--'
+  - chunk: bund-ks-11__c0025
+    zitat: 'Bezüger einer Hilflosenentschädigung schweren Grades: CHF 7''500.--'
+  - chunk: bund-ks-11__c0025
+    zitat: Nierenkranke, die sich einer Dialyse unterziehen müssen
+  - chunk: bund-ks-11__c0026
+    zitat: sind bei diesen Kosten anzurechnen
+  - chunk: bund-ks-11__c0017
+    zitat: Kosten für Heim- und Entlastungsaufenthalte
+  - chunk: bund-ks-11__c0022
+    zitat: Anschaffungs- oder Mietauslagen für Hilfsmittel
+  - chunk: sg-stb-44-1__c0004
+    zitat: pauschal 60% der Entschädigung gemäss Art. 404 ZGB als Vermögensverwaltungskosten und 40% als behinderungsbedingte Kosten
+  - chunk: bund-wl-2a-2026__c0058
+    zitat: selber trägt. Die Belege sind beizufügen.
   status: agent-geprueft
+  rein:
+  - Rechnungen Assistenz/Heimaufenthalt/Hilfsmittel/Pflegeartikel 2026 → selbst getragene behinderungsbedingte Kosten (Formular 6, Code 235)
+  - Verfügung Hilflosenentschädigung (HE) → anrechnen bzw. Grundlage Pauschale (Bund)
+  berechnung: Σ selbst getragene behinderungsbedingte Kosten (nach Drittleistungen, z.B. HE), ohne Selbstbehalt; Bund alternativ Pauschale HE 2'500/5'000/7'500
+  beachten:
+  - Nur Personen mit Behinderung im Sinn des BehiG (Steuerpflichtige oder unterhaltene Personen)
+  - 'Verbeiständete Behinderte: Beistandsentschädigung pauschal 60% Verwaltungskosten / 40% behinderungsbedingt'
+  - 'Bund: Pauschale 2''500 auch ohne HE für Gehörlose und Dialysepatienten; Belege beifügen'
 - ziffer: '21.3'
   abschnitt: Einkommensberechnung
   bezeichnung: Freiwillige Zuwendungen gemäss Formular 5 (Code 244)
@@ -781,7 +1750,19 @@ positionen:
     zitat: 21.3 Freiwillige Zuwendungen (wenn mind. Fr.100, max. 20% Ziffer 20) Formular 5 244
   - chunk: sg-stg-2026__art-46
     zitat: höchstens 20 Prozent der Nettoeinkünfte
+  - chunk: bund-wl-2a-2026__c0060
+    zitat: Der Steuererklärung ist eine Aufstellung über die geleisteten
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: 16.3 Parteispenden Formular 5 555
   status: agent-geprueft
+  rein:
+  - 'Spendenbestätigungen → Σ Zuwendungen (Formular 5 Rückseite Teil A: Datum, Institution, Betrag)'
+  - Übertrag Ziff. 20 → Basis 20%-Limite
+  berechnung: 'wenn Σ Zuwendungen im Steuerjahr ≥ 100: min(Σ; 20% × Ziff. 20) – Kanton = Bund'
+  beachten:
+  - Nur an steuerbefreite jur. Personen mit Sitz CH (öffentlich/gemeinnützig) sowie Bund, Kantone, Gemeinden, Anstalten
+  - Parteispenden nicht hier (→ Ziff. 16.3)
+  - 'Bund: Aufstellung über die geleisteten Zuwendungen beifügen'
 - ziffer: '22'
   abschnitt: Einkommensberechnung
   bezeichnung: Reineinkommen (Code 248)
@@ -792,7 +1773,17 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0009
     zitat: 22. Reineinkommen (Ziffer 20 abzüglich Ziffern 21.1 bis 21.3) 248
+  - chunk: sg-form-1-2026-uj__c0010
+    zitat: 24. Steuerbares Einkommen gesamt (Ziffer 22 abzüglich Ziffern 23.1-23.3) 268
+  - chunk: sg-form-1-2026-uj__c0010
+    zitat: Abzug gilt nur für die direkte Bundessteuer
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 20 (Nettoeinkommen, Code 234)
+  - Übertrag Ziff. 21.1 (Abzug Code 240), 21.2 (Code 235), 21.3 (Code 244)
+  berechnung: Ziff. 20 − Ziff. 21.1 (Code 240) − Ziff. 21.2 − Ziff. 21.3 = Code 248
+  beachten:
+  - 'Weiter: Ziff. 24 = Ziff. 22 − Sozialabzüge Ziff. 23.1 bis 23.3; Ziff. 23.4 (unterstützte Personen) nur Bund'
 - ziffer: '23.1'
   abschnitt: Einkommensberechnung
   bezeichnung: Kinderabzug für jedes noch nicht schulpflichtige Kind (Fr. 7'600, Code 252)
@@ -803,6 +1794,8 @@ positionen:
     beansprucht. Stichtag 31.12.2026 bzw. Ende der Steuerpflicht; bei unterjähriger Steuerpflicht anteilig (360-Tage-Methode, MB 8/2026), für den Satz voll.
   werte_keys:
   - sozialabzug.kind_vorschule
+  - sozialabzug.kind
+  - steuerbetrag.abzug_kind
   bund: 'Art. 35 Abs. 1 Bst. a DBG: 6 800 Franken je Kind (minderjährig oder in Ausbildung).'
   quellen:
   - chunk: sg-form-1-2026-uj__c0010
@@ -811,7 +1804,22 @@ positionen:
     zitat: Fr. 7600.– für jedes unter der elterlichen Sorge oder Obhut des Steuerpflichtigen stehende Kind
   - chunk: sg-mb-8-2026__c0006
     zitat: Kinderabzug für ganzes Kalenderjahr (satzbestimmend)
+  - chunk: sg-form-1-2026-uj__c0002
+    zitat: Kinder, für deren Unterhalt Sie zur Hauptsache aufkommen
+  - chunk: sg-stg-2026__art-48
+    zitat: wenn der Steuerpflichtige für den Unterhalt zur Hauptsache aufkommt
+  - chunk: sg-stv__art-30
+    zitat: Als Kinder gelten die leiblichen Kinder sowie die Adoptiv-, Stief- und Pflegekinder.
+  - chunk: bund-ks-30__c0061
+    zitat: Bei getrennt lebenden Eltern mit gemeinsamer elterlicher Sorge kann jeder Elternteil den halben Abzug beanspruchen
   status: agent-geprueft
+  rein:
+  - Seite 1 Kinderangaben (Name, Geburtsdatum, «Im Vorschulalter») → Anzahl noch nicht schulpflichtiger Kinder
+  berechnung: 'Anzahl noch nicht schulpflichtiger Kinder unter Sorge/Obhut × 7''600; UJ: 7''600 ÷ 360 × Tage; Bund: 6''800 je Kind + 263 vom Steuerbetrag'
+  beachten:
+  - Nur bei Unterhalt zur Hauptsache und ohne Abzug Unterhaltsbeiträge (Art. 45 Abs. 1 Bst. c) für dieses Kind
+  - Stichtag 31. Dezember 2026 bzw. Ende Steuerpflicht; Kinder = leibliche, Adoptiv-, Stief-, Pflegekinder
+  - 'Bund: getrennte Eltern mit gemeinsamer Sorge ohne Unterhaltsabzug → je halber Abzug'
 - ziffer: '23.2'
   abschnitt: Einkommensberechnung
   bezeichnung: Kinderabzug für jedes Kind in Schule oder Ausbildung (Fr. 10'800, Code 254)
@@ -822,6 +1830,9 @@ positionen:
     Fr. 10''800 ÷ 360 × Tage (MB 8/2026).'
   werte_keys:
   - sozialabzug.kind_schule
+  - sozialabzug.kind
+  - steuerbetrag.abzug_kind
+  - sozialabzug.kind_ausbildung_auswaerts
   bund: 'Art. 35 Abs. 1 Bst. a DBG: einheitlich 6 800 Franken.'
   quellen:
   - chunk: sg-form-1-2026-uj__c0010
@@ -830,7 +1841,20 @@ positionen:
     zitat: Fr. 10 800.– für jedes unter der elterlichen Sorge oder Obhut des Steuerpflichtigen stehende oder volljährige Kind
   - chunk: sg-mb-8-2026__c0006
     zitat: Fr. 10’800 ÷ 360 × 180 Tage
+  - chunk: sg-form-1-2026-uj__c0002
+    zitat: 'Sofern in beruflicher Ausbildung: Dauer bis'
+  - chunk: sg-stg-2026__art-48
+    zitat: soweit sie der Steuerpflichtige selbst trägt und sie Fr. 3200.– übersteigen
+  - chunk: bund-ks-30__c0062
+    zitat: ist erfüllt, wenn sie Beiträge mindestens in der Höhe des Sozialabzuges an das Kind ausrichtet
   status: agent-geprueft
+  rein:
+  - Seite 1 Kinderangaben → Kinder in Schule/Ausbildung; bei beruflicher Ausbildung Schule/Lehrfirma und «Dauer bis»
+  berechnung: 'Anzahl Kinder (unter Sorge/Obhut oder volljährig) in schulischer/beruflicher Ausbildung × 10''800; UJ ÷ 360 × Tage; Bund: 6''800 je Kind + 263 vom Steuerbetrag'
+  beachten:
+  - Nur bei Unterhalt zur Hauptsache und ohne Abzug nach Art. 45 Abs. 1 Bst. c (Unterhaltsbeiträge)
+  - 'UJ-Beispiel: 10''800 ÷ 360 × 180 Tage = 5''400 (für den Satz voller Betrag)'
+  - 'Zusätzlich Ziff. 23.3: Ausbildungskosten über 3''200, max. 13''800 je Kind; Bund volljährig: Unterhalt ≥ Sozialabzug'
 - ziffer: '23.3'
   abschnitt: Einkommensberechnung
   bezeichnung: Ausbildungskosten für Kinder in Schule oder Ausbildung gemäss Formular 10 (Code 256)
@@ -841,6 +1865,7 @@ positionen:
   regel: 'NEU 2026 höher: Ausbildungskosten je Kind max. Fr. 13''800 (bisher Fr. 13''700), soweit selbst getragen und über Fr. 3''200 (Selbstbehalt).'
   werte_keys:
   - sozialabzug.kind_ausbildung_auswaerts
+  - sozialabzug.kind_ausbildung
   bemerkung: 'Formular 10/2026 nicht publiziert. Selbstbehalt Fr. 3''200 laut Art. 48 Abs. 1 Bst. a Ziff. 3 StG. «Bisher Fr. 13''700»: Vorjahreswert aus StG SG 2025 Art. 48 Abs. 1 Bst. a Ziff. 3 (jahr_ok,
     nur als Vergleich zum Vorjahr).'
   quellen:
@@ -853,7 +1878,23 @@ positionen:
   - chunk: sg-stg-2025__art-48
     zitat: höchstens weitere Fr. 13 700.– für Ausbildungskosten
     jahr_ok: true
+  - chunk: bund-dbg-2026__art-35
+    zitat: 6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Sofern Pauschal-, bzw. Maximalabzüge eingesetzt werden, sind diese im Umfang
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Kinderabzug für ganzes Kalenderjahr (satzbestimmend)
+  - chunk: sg-stg-2026__art-48
+    zitat: wenn der Steuerpflichtige für den Unterhalt zur Hauptsache aufkommt
   status: agent-geprueft
+  rein:
+  - Rechnungen Ausbildung (Formular 10) → selbst getragene Ausbildungskosten je Kind
+  - Kinderliste Seite 1 → Kind in Schule/Ausbildung (Voraussetzung Kinderabzug Ziff. 23.2)
+  berechnung: 'Kanton je Kind: min(selbst getragene Kosten − 3''200; 13''800), nur falls Kosten > 3''200 / Bund: kein Ausbildungskostenabzug (nur Kinderabzug 6''800)'
+  beachten:
+  - 'Voraussetzungen wie Kinderabzug Ziff. 23.2 (10''800): Unterhalt zur Hauptsache, Kind in Ausbildung (auch volljährig)'
+  - 'UJ: Abzug × Tage/360 kürzen, für Satzbestimmung voll (Art. 48 Abs. 3 StG; Merkblatt UJ Ziff. 7)'
+  - Verhältnisse am 31. Dezember 2026 bzw. Ende der Steuerpflicht massgebend (Art. 48 Abs. 2 StG)
 - ziffer: '23.4'
   abschnitt: Einkommensberechnung
   bezeichnung: Abzug für unterstützte Personen (nur direkte Bundessteuer, Code 264)
@@ -864,13 +1905,40 @@ positionen:
     nicht für Ehegatten und Kinder mit Kinderabzug.'
   werte_keys:
   - sozialabzug.unterstuetzung
+  - versicherung.kind
+  - steuerbetrag.abzug_kind
   bund: 'Art. 35 Abs. 1 Bst. b DBG: 6 800 Franken.'
   quellen:
   - chunk: sg-form-1-2026-uj__c0010
     zitat: 23.4 Abzug für unterstützte Personen ja Anzahl Bescheinigung 264
   - chunk: sg-form-1-2026-uj__c0010
     zitat: Abzug gilt nur für die direkte Bundessteuer
+  - chunk: bund-dbg-2026__art-35
+    zitat: 6800 Franken für jede erwerbsunfähige oder beschränkt erwerbsfähige Person
+  - chunk: bund-ks-30__c0065
+    zitat: Wird in einem Steuerjahr weniger als der festgelegte Abzug geleistet, entfällt dieser Sozialabzug
+  - chunk: bund-ks-30__c0067
+    zitat: Dieses Kumulationsverbot von Kinderabzug und Unterstützungsabzug gilt aber nur für ein und dieselbe leistende Person
+  - chunk: bund-ks-30__c0066
+    zitat: müssen zudem unentgeltlich sein bzw. ohne Gegenleistung erfolgen
+  - chunk: bund-ks-30__c0066
+    zitat: als alleinerziehende Eltern mit vorschulpflichtigen Kindern aber kein
+  - chunk: bund-dbg-2026__art-33-t5
+    zitat: um 700 Franken für jedes Kind oder jede unterstützungsbedürftige Person
+  - chunk: bund-dbg-2026__art-36-t4
+    zitat: Der so ermittelte Steuerbetrag ermässigt sich um 263 Franken für jedes Kind oder jede unterstützungsbedürftige Person
+  - chunk: bund-dbg-2026__art-36-t4
+    zitat: die mit Kindern oder unterstützungsbedürftigen Personen im gleichen Haushalt zusammenleben
   status: agent-geprueft
+  rein:
+  - Bescheinigung → Unterstützungsleistung je unterstützte Person im Jahr (mind. 6'800)
+  - Formular 1 Ziff. 23.4 → «ja» + Anzahl unterstützte Personen
+  - Nachweis Bedürftigkeit der unterstützten Person (Erwerbsunfähigkeit, Arbeitslosigkeit u.Ä.)
+  berechnung: 'Bund: 6''800 × Anzahl unterstützte Personen mit Unterstützung ≥ 6''800 je Person / Kanton: kein Abzug'
+  beachten:
+  - Nicht für Ehegatten und Kinder mit Kinderabzug; Kumulationsverbot gilt nur für dieselbe leistende Person
+  - Person objektiv bedürftig; Leistung unentgeltlich (keine Gegenleistung wie Haushaltsbesorgung)
+  - 'Bund je Person: Versicherungsabzug +700; Steuerbetrag −263 (Ehepaare; Alleinstehende nur bei gleichem Haushalt)'
 - ziffer: '24'
   abschnitt: Einkommensberechnung
   bezeichnung: Steuerbares Einkommen gesamt (Code 268)
@@ -881,7 +1949,29 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0010
     zitat: 24. Steuerbares Einkommen gesamt (Ziffer 22 abzüglich Ziffern 23.1-23.3) 268
+  - chunk: bund-dbg-2026__art-35
+    zitat: 2800 Franken für Ehepaare, die in rechtlich und tatsächlich ungetrennter Ehe leben
+  - chunk: sg-stg-2026__art-48
+    zitat: Die Sozialabzüge werden nach den Verhältnissen am Ende der Steuerperiode oder der Steuerpflicht festgelegt
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Kinderabzug für ganzes Kalenderjahr (satzbestimmend)
+  - chunk: sg-mb-8-2026__c0005
+    zitat: Massgebend für die Satzbestimmung sind immer die auf ein Jahr umgerechneten
+  - chunk: bund-dbg-2026__art-35
+    zitat: Bei teilweiser Steuerpflicht werden die Sozialabzüge anteilsmässig gewährt
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 22 (Reineinkommen)
+  - Übertrag Ziff. 23.1–23.3 (Sozialabzüge Kanton)
+  berechnung: 'Kanton: Ziff. 22 − (23.1 + 23.2 + 23.3) / Bund: Reineinkommen − 6''800 je Kind − 6''800 je unterstützte Person − 2''800 Ehepaare'
+  beachten:
+  - 'UJ: Sozialabzüge × Tage/360; Steuersatz auf Jahreseinkommen umgerechnet (von Amtes wegen)'
+  - 'Kanton: kein Verheiratetenabzug (Splittingtarif); Verheiratetenabzug nur Bund'
+  - Sozialabzüge nach Verhältnissen am Ende der Steuerperiode bzw. Steuerpflicht
+  werte_keys:
+  - sozialabzug.kind
+  - sozialabzug.unterstuetzung
+  - sozialabzug.verheiratete
 - ziffer: '30.1'
   abschnitt: Vermögen
   bezeichnung: Wertschriften und Guthaben gemäss Formular 2 (Code 300)
@@ -898,7 +1988,25 @@ positionen:
     zitat: 30.1 Wertschriften und Guthaben Formular 2 300
   - chunk: sg-stg-2026__art-56
     zitat: Wertpapiere werden nach dem Kurswert oder, wenn kein solcher besteht, nach dem inneren Wert bewertet
+  - chunk: sg-info-ekst-vst__c0064
+    zitat: die für die Bewertung der Wertpapiere und Devisen per Ende der Steuerperiode massgebend sind
+  - chunk: sg-stg-2026__art-53
+    zitat: Bei Anteilen an kollektiven Kapitalanlagen ist die Wertdifferenz zwischen den Gesamtaktiven der kollektiven Kapitalanlage und deren direktem Grundbesitz steuerbar
+  - chunk: sg-stg-2026__art-68
+    zitat: Das steuerbare Vermögen bemisst sich nach dem Stand am Ende der Steuerperiode oder der Steuerpflicht
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 4.1 aus Wertschriften und Guthaben 146
   status: agent-geprueft
+  rein:
+  - Steuerauszug Bank/Depotauszug → Steuerwert per Stichtag (Total Formular 2)
+  - Kontoauszug/Zinsausweis → Saldo per Stichtag
+  - Krypto-Auszug → Bestand per Stichtag
+  - Mitarbeiterbeteiligungen → im Wertschriftenverzeichnis aufführen
+  berechnung: Σ Steuerwerte Formular 2 per 31. Dezember 2026 bzw. Ende Steuerpflicht; Kurswert (ESTV-Kursliste), sonst innerer Wert
+  beachten:
+  - 'Echte MA-Beteiligungen: Sperrfrist-Einschlag; gesperrte/nicht kotierte Optionen, unechte: steuerfrei, aber aufführen'
+  - 'Bestrittene/unsichere Forderungen: Verlustwahrscheinlichkeit berücksichtigen; Erträge → Ziff. 4.1'
+  - 'Fonds mit direktem Grundbesitz: nur Gesamtaktiven − direkter Grundbesitz steuerbar'
 - ziffer: '30.2'
   abschnitt: Vermögen
   bezeichnung: Bargeld, Gold und andere Edelmetalle (Code 302)
@@ -911,7 +2019,26 @@ positionen:
     zitat: 30.2 Bargeld, Gold und andere Edelmetalle Aufstellung 302
   - chunk: sg-stg-2026__art-54
     zitat: Das Vermögen wird zum Verkehrswert bewertet
+  - chunk: sg-info-ekst-vst__c0064
+    zitat: Goldmünzen und Edelmetalle
+  - chunk: sg-info-ekst-vst__c0064
+    zitat: die für die Bewertung der Wertpapiere und Devisen per Ende der Steuerperiode massgebend sind
+  - chunk: sg-stv__art-31
+    zitat: Als persönliche Gebrauchsgegenstände gelten die Gebrauchsgegenstände des Alltags, namentlich Kleider, Schmuck, Sportgeräte
+  - chunk: sg-mb-8-2026__c0008
+    zitat: Wegzugs- oder Todestag
+  - chunk: sg-stg-2026__art-63
+    zitat: der Hausrat und die persönlichen Gebrauchsgegenstände
+  - chunk: sg-stv__art-31
+    zitat: Vermögensgegenstände und Sammlungen, deren Wert das gemeinhin Übliche deutlich übersteigt
   status: agent-geprueft
+  rein:
+  - Eigene Aufstellung → Bargeld (CHF/Fremdwährung) per Stichtag
+  - Bestand Gold/Edelmetalle → Menge × Kurs per Stichtag
+  berechnung: Σ Bargeld + Gold/Edelmetalle zum Verkehrswert per Stichtag; Devisen/Edelmetalle zum ESTV-Kurs Ende Steuerperiode
+  beachten:
+  - Alltagsschmuck = persönlicher Gebrauchsgegenstand → steuerfrei; Wert deutlich über Üblichem → steuerbar (Art. 31 StV)
+  - 'Stichtag Ende Steuerperiode; UJ: Wegzugs- oder Todestag'
 - ziffer: '30.3'
   abschnitt: Vermögen
   bezeichnung: Lebens- und Rentenversicherungen (Code 304)
@@ -928,6 +2055,12 @@ positionen:
   - chunk: sg-stg-2026__art-63
     zitat: anwartschaftliche oder nicht rückkaufsfähige Ansprüche auf periodische Leistungen
   status: agent-geprueft
+  rein:
+  - Bescheinigung Versicherungsgesellschaft → Rückkaufswert per Stichtag
+  - Police → Gesellschaft, Abschluss-/Ablaufjahr, Versicherungssumme (Formularfelder)
+  berechnung: Σ Rückkaufswerte je Police per Stichtag; anwartschaftliche oder nicht rückkaufsfähige Ansprüche auf periodische Leistungen steuerfrei
+  beachten:
+  - Stichtag 31. Dezember 2026 bzw. Ende der Steuerpflicht
 - ziffer: '30.4'
   abschnitt: Vermögen
   bezeichnung: Motorfahrzeuge (Code 306)
@@ -944,7 +2077,15 @@ positionen:
     zitat: Das Vermögen wird zum Verkehrswert bewertet
   - chunk: sg-stg-2026__art-63
     zitat: der Hausrat und die persönlichen Gebrauchsgegenstände
+  - chunk: sg-stv__art-31
+    zitat: Nicht zum Hausrat oder zu den persönlichen Gebrauchsgegenständen zählen namentlich Motorfahrzeuge, Boote, Reitpferde und Kunstsammlungen
   status: agent-geprueft
+  rein:
+  - Fahrzeugausweis/Kaufvertrag → Art, Kaufpreis, Erwerbsjahr je Fahrzeug
+  berechnung: Je Fahrzeug Art + Kaufpreis + Erwerbsjahr angeben; Steuerwert = Verkehrswert per Stichtag
+  beachten:
+  - Motorfahrzeuge zählen nicht zum Hausrat → steuerbar (Art. 31 Abs. 3 StV)
+  - Fahrzeuge im Geschäftsvermögen Selbständiger → Ziff. 32.2 (Aktiven Schlussbilanz)
 - ziffer: '30.5'
   abschnitt: Vermögen
   bezeichnung: Anteile an unverteilten Erbschaften (Code 308)
@@ -958,7 +2099,21 @@ positionen:
     zitat: 30.5 Anteile an unverteilten Erbschaften Aufstellung 308
   - chunk: sg-stg-2026__art-54
     zitat: Das Vermögen wird zum Verkehrswert bewertet
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 6.2 Ertrag aus unverteilten Erbschaften 158
+  - chunk: sg-stg-2026__art-68
+    zitat: Erbt der Steuerpflichtige während der Steuerperiode Vermögen
+  - chunk: sg-stv__art-32ter
+    zitat: wird die Veranlagung des Vermögens nur angepasst, wenn der Vermögensanfall mindestens Fr. 50 000.– beträgt
+  - chunk: sg-stg-2026__art-68
+    zitat: Besteht die Steuerpflicht nur während eines Teils der Steuerperiode, wird die diesem Zeitraum entsprechende Steuer erhoben
   status: agent-geprueft
+  rein:
+  - Erbteilungs-/Nachlassaufstellung → eigener Anteil am unverteilten Nachlass per Stichtag
+  berechnung: Anteil am Nachlassvermögen der Erbengemeinschaft zum Verkehrswert per Stichtag
+  beachten:
+  - Erträge aus unverteilten Erbschaften → Ziff. 6.2
+  - 'Erbanfall 2026 ≥ 50''000: Erbteil nur pro rata ab Erbgang besteuert (Art. 68 Abs. 3–4 StG; Art. 32ter StV)'
 - ziffer: '30.6'
   abschnitt: Vermögen
   bezeichnung: 'Übrige Vermögenswerte (Code 310): Boote, Reitpferde, Sammlungen; ohne Hausrat und persönliche Gebrauchsgegenstände'
@@ -971,7 +2126,19 @@ positionen:
     zitat: 30.6 Übrige Vermögenswerte Arten 310
   - chunk: sg-stg-2026__art-63
     zitat: der Hausrat und die persönlichen Gebrauchsgegenstände
+  - chunk: sg-stv__art-31
+    zitat: Vermögensgegenstände und Sammlungen, deren Wert das gemeinhin Übliche deutlich übersteigt
+  - chunk: sg-stv__art-31
+    zitat: namentlich Möbel, Teppiche, Bilder, Küchen- und Gartengeräte, Geschirr, Bücher
+  - chunk: sg-stg-2026__art-54
+    zitat: Das Vermögen wird zum Verkehrswert bewertet
   status: agent-geprueft
+  rein:
+  - Eigene Aufstellung → Art und Verkehrswert (Boote, Reitpferde, Sammlungen) per Stichtag
+  berechnung: Σ Verkehrswerte der übrigen Vermögenswerte per Stichtag (ohne Hausrat und persönliche Gebrauchsgegenstände)
+  beachten:
+  - 'Steuerbar: Kunstsammlungen und Sammlungen, deren Wert das Übliche deutlich übersteigt (Art. 31 Abs. 3 StV)'
+  - 'Steuerfrei: Möbel, Bilder, Bücher, Kleider, Schmuck, Sportgeräte u.Ä. (Art. 31 Abs. 1–2 StV)'
 - ziffer: '31'
   abschnitt: Vermögen
   bezeichnung: Liegenschaften gemäss Formular 7 (Code 710)
@@ -989,7 +2156,30 @@ positionen:
     zitat: Der Verkehrswert von Grundstücken entspricht dem mittleren Preis
   - chunk: sg-stg-2026__art-58
     zitat: überwiegend land- oder forstwirtschaftlich genutzt werden, werden zum Ertragswert bewertet
+  - chunk: sg-stv__art-30bis
+    zitat: Zuschlag zur geltenden Schätzung in der Höhe von 80 Prozent der Neu-, Um- und Anbaukosten
+  - chunk: sg-gsv__art-8
+    zitat: als Steuerwerte der Miet- und Verkehrswert des Grundstücks
+  - chunk: sg-stb-34-2__c0002
+    zitat: Massgebend ist die sachenrechtliche Quote gemäss Grundbucheintrag
+  - chunk: sg-stb-34-2__c0002
+    zitat: ihm zur Nutzung überlassenen Teil an der Liegenschaft zu versteuern
+  - chunk: sg-stb-34-2__c0002
+    zitat: Wohnrecht belastete Liegenschaft vermögenssteuerlich beim (Mit-)Eigentümer
+  - chunk: sg-form-1-2026-uj__c0012
+    zitat: (diese sind unter Ziffer 31
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 5. Ertrag aus Liegenschaften Formular 7 712
   status: agent-geprueft
+  rein:
+  - Amtliche Grundstückschätzung → Verkehrswert (Steuerwert) je Grundstück
+  - Formular 7 → Total Steuerwerte Liegenschaften
+  - Grundbuchauszug → Eigentums-/Miteigentumsquote, Nutzniessung
+  berechnung: 'Σ je Grundstück: Verkehrs- bzw. Ertragswert gemäss Schätzung × Eigentumsquote; Neu-/Um-/Anbau ohne Schätzung: + 80 % der Neu-/Um-/Anbaukosten'
+  beachten:
+  - 'Überwiegend land-/forstwirtschaftlich genutzte Grundstücke (bäuerliches Bodenrecht): Ertragswert'
+  - Nutzniessung → beim Nutzniesser; Wohnrecht → beim (Mit-)Eigentümer (BGer 9C_305/2023)
+  - Geschäftsliegenschaften ebenfalls hier (nicht Ziff. 32); Ertrag/Eigenmietwert → Ziff. 5
 - ziffer: 32.1-32.3
   abschnitt: Vermögen
   bezeichnung: 'Betriebsvermögen aus selbständiger Erwerbstätigkeit: Geschäftskapital Gesellschaften (Code 314), Aktiven Schlussbilanz (316), landwirtschaftlicher Betrieb Formular 12 (318)'
@@ -1005,7 +2195,21 @@ positionen:
     zitat: 32.3 Vermögen im landwirtschaftlichen Betrieb Formular 12 318
   - chunk: sg-stg-2026__art-55
     zitat: werden zum Einkommenssteuerwert bewertet
+  - chunk: sg-stg-2026__art-68
+    zitat: bestimmt sich das steuerbare Geschäftsvermögen nach dem Eigenkapital am Ende des in der Steuerperiode abgeschlossenen Geschäftsjahres
+  - chunk: sg-form-1-2026-uj__c0012
+    zitat: 34.2 Geschäftsschulden Formular 5 506
+  - chunk: sg-form-1-2026-uj__c0012
+    zitat: (diese sind unter Ziffer 31
   status: agent-geprueft
+  rein:
+  - Abschluss Personengesellschaft → Anteil Geschäftskapital (Ziff. 32.1)
+  - Schlussbilanz → Aktiven (Fahrzeuge, Maschinen, Mobiliar, Geräte) ohne Geschäftsliegenschaften (Ziff. 32.2)
+  - Formular 12 → Vermögen im landwirtschaftlichen Betrieb (Ziff. 32.3)
+  berechnung: Σ Ziff. 32.1 + 32.2 + 32.3 zum Einkommenssteuerwert (Art. 55 StG); ohne Buchwert Geschäftsliegenschaften (→ Ziff. 31)
+  beachten:
+  - 'Geschäftsjahr ≠ Kalenderjahr: Stand am Ende des 2026 abgeschlossenen Geschäftsjahres (Art. 68 Abs. 2 StG)'
+  - Geschäftsschulden separat in Ziff. 34.2
 - ziffer: '33'
   abschnitt: Vermögen
   bezeichnung: Total der Vermögenswerte (Code 322)
@@ -1016,7 +2220,17 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0012
     zitat: 33. Total der Vermögenswerte 322
+  - chunk: sg-form-1-2026-uj__c0011
+    zitat: der Steuerpflichtigen und der minderjährigen Kinder, einschliesslich Nutzniessungsvermögen
+  - chunk: sg-form-1-2026-uj__c0011
+    zitat: Steuerwert am 31. Dezember 2026 bzw. am Ende der Steuerpflicht
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 30.1–30.6, 31 und 32.1–32.3
+  berechnung: Σ Ziff. 30.1 bis 30.6 + Ziff. 31 + Ziff. 32.1 bis 32.3
+  beachten:
+  - Inkl. Vermögen der minderjährigen Kinder, Nutzniessungsvermögen und Auslandvermögen
+  - Stichtag 31. Dezember 2026 bzw. Ende der Steuerpflicht
 - ziffer: '34.1'
   abschnitt: Vermögen
   bezeichnung: Privatschulden gemäss Formular 5 (Code 504)
@@ -1033,7 +2247,27 @@ positionen:
     zitat: 34.1 Privatschulden Formular 5 504
   - chunk: sg-stg-2026__art-62
     zitat: Nachgewiesene Schulden, für die der Steuerpflichtige allein haftet, werden voll abgezogen
+  - chunk: sg-stb-34-2__c0003
+    zitat: kann jeder Solidarschuldner den von ihm nach der internen Quote zu tragenden Anteil an der Gesamtschuld abziehen
+  - chunk: sg-stb-34-2__c0003
+    zitat: der Abzug der auf dem nutzniessungsbelasteten Grundstück lastenden Schulden
+  - chunk: sg-stb-34-2__c0004
+    zitat: Bloss voraussehbare, anwartschaftliche Schulden sind nicht abzugsfähig
+  - chunk: sg-form-1-2026-uj__c0007
+    zitat: 11. Schuldzinsen Formular 5 500
+  - chunk: sg-stb-34-2__c0003
+    zitat: beide Miteigentümer je die Hälfte der Schuld abziehen
+  - chunk: sg-stb-34-2__c0004
+    zitat: werden nur berücksichtigt, wenn und soweit der Bürge für die verbürgte Schuld belangt werden kann
   status: agent-geprueft
+  rein:
+  - Schuldenausweis Bank (Hypothek, Kredit) → Schuld per Stichtag (Formular 5)
+  - Privater Darlehensvertrag → Saldo per Stichtag, Gläubiger
+  berechnung: Σ nachgewiesene Privatschulden per Stichtag; Solidar-/Bürgschaftsschulden nur selbst zu tragender Anteil
+  beachten:
+  - 'Solidarhypothek bei Miteigentum: Anteil nach interner Quote; hälftiges Miteigentum ohne Abrede: je Hälfte'
+  - 'Nutzniessung: Schulden auf belastetem Grundstück beim Nutzniesser; anwartschaftliche Schulden nicht abziehbar'
+  - Bürgschaft nur, soweit Bürge belangt werden kann; Schuldzinsen → Ziff. 11; Geschäftsschulden → Ziff. 34.2
 - ziffer: '34.2'
   abschnitt: Vermögen
   bezeichnung: Geschäftsschulden gemäss Formular 5 (Code 506)
@@ -1047,7 +2281,16 @@ positionen:
     zitat: 34.2 Geschäftsschulden Formular 5 506
   - chunk: sg-stg-2026__art-62
     zitat: Nachgewiesene Schulden, für die der Steuerpflichtige allein haftet, werden voll abgezogen
+  - chunk: sg-stg-2026__art-68
+    zitat: bestimmt sich das steuerbare Geschäftsvermögen nach dem Eigenkapital am Ende des in der Steuerperiode abgeschlossenen Geschäftsjahres
   status: agent-geprueft
+  rein:
+  - Schlussbilanz → Fremdkapital (Geschäftsschulden) per Bilanzstichtag
+  - Formular 5 → Total Geschäftsschulden
+  berechnung: Σ Geschäftsschulden gemäss Schlussbilanz des in der Steuerperiode abgeschlossenen Geschäftsjahres
+  beachten:
+  - 'Geschäftsjahr ≠ Kalenderjahr: Stand Ende des 2026 abgeschlossenen Geschäftsjahres (Art. 68 Abs. 2 StG)'
+  - Privatschulden separat in Ziff. 34.1
 - ziffer: '35'
   abschnitt: Vermögen
   bezeichnung: Reinvermögen (Code 326)
@@ -1058,7 +2301,15 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0012
     zitat: 35. Reinvermögen (Ziffer 33 abzüglich 34) 326
+  - chunk: sg-stg-2026__art-53
+    zitat: Der Vermögenssteuer unterliegt das gesamte Reinvermögen
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 33 (Total Vermögenswerte)
+  - Übertrag Ziff. 34.1 + 34.2 (Schulden)
+  berechnung: Ziff. 33 − (Ziff. 34.1 + Ziff. 34.2)
+  beachten:
+  - Steuerbar ist das gesamte Reinvermögen (Art. 53 Abs. 1 StG)
 - ziffer: 36.1-36.3
   abschnitt: Vermögen
   bezeichnung: 'Sozialabzüge Vermögen: alleinstehend Fr. 75''000 (Code 330), gemeinsam steuerpflichtige Ehegatten Fr. 150''000 (332), je minderjähriges Kind Fr. 20''000 (334)'
@@ -1078,7 +2329,16 @@ positionen:
     zitat: 36.3 Abzug für jedes minderjährige Kind Fr. 20’000 334
   - chunk: sg-stg-2026__art-64
     zitat: für jeden Steuerpflichtigen Fr. 75 000.–
+  - chunk: bund-dbg-2026__art-1
+    zitat: eine Einkommenssteuer von den natürlichen Personen
   status: agent-geprueft
+  rein:
+  - Personalien Seite 1 → Zivilstand und minderjährige Kinder am 31. Dezember 2026 bzw. Ende Steuerpflicht
+  berechnung: Alleinstehend 75'000 bzw. Ehegatten 150'000 (2 × 75'000) + 20'000 × minderjährige Kinder mit Kinderabzug
+  beachten:
+  - 'Kinder: nur minderjährig, unter Sorge/Obhut, mit Kinderabzug nach Art. 48 Abs. 1 lit. a StG'
+  - Verhältnisse am Ende der Steuerperiode bzw. Steuerpflicht (Art. 64 Abs. 2 StG)
+  - 'Nur Kantons-/Gemeindesteuer: Bund erhebt keine Vermögenssteuer (Art. 1 DBG)'
 - ziffer: '37'
   abschnitt: Vermögen
   bezeichnung: Steuerbares Vermögen gesamt (Code 338)
@@ -1091,7 +2351,22 @@ positionen:
     zitat: 37. Steuerbares Vermögen gesamt (Ziffer 35 abzüglich Ziffern 36.1 bis 36.3) 338
   - chunk: sg-stg-2026__art-65
     zitat: Die einfache Steuer vom steuerbaren Vermögen beträgt 1,7 Promille
+  - chunk: sg-mb-8-2026__c0008
+    zitat: Die Vermögenssteuer wird nach der Dauer der Steuerpflicht erhoben
+  - chunk: sg-stg-2026__art-68
+    zitat: wird die diesem Zeitraum entsprechende Steuer erhoben
+  - chunk: bund-dbg-2026__art-1
+    zitat: eine Einkommenssteuer von den natürlichen Personen
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 35 abzüglich Ziff. 36.1 bis 36.3
+  berechnung: Ziff. 35 − Σ Ziff. 36.1 bis 36.3; einfache Steuer = 1,7 ‰ × steuerbares Vermögen (Rest < 1'000 entfällt); Steuer = einfache Steuer × Steuerfüsse
+  beachten:
+  - Kantonssteuerfuss 105 %; Gemeinde-/Kirchensteuerfuss je Gemeinde
+  - 'UJ: einfache Steuer × Tage/360 (Art. 68 Abs. 3 StG; Merkblatt UJ Ziff. 10)'
+  - 'Bund: keine Vermögenssteuer (DBG: nur Einkommenssteuer natürlicher Personen)'
+  werte_keys:
+  - tarif.steuerfuss_kanton
 - ziffer: 40.1-40.3
   abschnitt: Weitere Angaben
   bezeichnung: 'Kapitalleistungen aus Vorsorge: aus Säule 3a (40.1), aus 2. Säule (40.2), übrige (40.3)'
@@ -1108,7 +2383,32 @@ positionen:
     zitat: 40.2 aus Einrichtungen der beruflichen Vorsorge (2. Säule) Bescheinigung
   - chunk: sg-stg-2026__art-52
     zitat: werden gesondert besteuert
+  - chunk: bund-dbg-2026__art-38
+    zitat: Sie wird zu einem Fünftel der Tarife nach Artikel 36 Absätze 1, 2 und 2bis erster Satz berechnet
+  - chunk: bund-dbg-2026__art-38
+    zitat: Die Sozialabzüge werden nicht gewährt
+  - chunk: sg-stg-2026__art-35-t1
+    zitat: Leistungen aus Vorsorgekassen, aus Spar- und Gruppenversicherungen sowie aus Freizügigkeitspolicen und Freizügigkeitskonten
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: Kapitalleistungen aus Vorsorge sind auf Seite 4 unten einzu
+  - chunk: sg-stg-2026__art-35-t1
+    zitat: mit Einschluss der Kapitalabfindungen und Rückzahlungen von Einlagen, Prämien und Beiträgen
+  - chunk: sg-stg-2026__art-52
+    zitat: Die einfache Steuer beträgt 2,0 Prozent für gemeinsam steuerpflichtige Ehegatten und 2,2 Prozent für die übrigen Steuerpflichtigen
+  - chunk: sg-stg-2026__art-52
+    zitat: Der Steueranspruch auf die Jahressteuer entsteht im Zeitpunkt, in dem die Leistung zufliesst
   status: agent-geprueft
+  rein:
+  - Bescheinigung 3a-Bank/-Versicherung → Kapitalbezug 2026 (Ziff. 40.1)
+  - Bescheinigung Pensionskasse/Freizügigkeitskonto/-police → Kapitalleistung 2. Säule (Ziff. 40.2)
+  - Bescheinigung übrige Vorsorge (z.B. Kapitalabfindung AHV/IV) → Ziff. 40.3
+  berechnung: 'Kanton: einfache Steuer = 2,0 % (Ehegatten; Alleinstehende mit Kindern/Unterstützten) bzw. 2,2 % (übrige) × Leistung / Bund: Fünftel Tarif Art. 36 DBG'
+  beachten:
+  - Gesondert, volle Jahressteuer (auch bei UJ), Zuflussjahr massgebend; keine allgemeinen Abzüge/Sozialabzüge
+  - Nicht in Ziff. 6.4 oder Total der Einkünfte erfassen, sondern hier (Seite 4 unten)
+  - 'Ebenso gesondert: gleichartige Arbeitgeber-Abfindungen, Zahlungen bei Tod/bleibenden gesundheitlichen Nachteilen'
+  werte_keys:
+  - tarif.kapitalleistung_vorsorge
 - ziffer: '41'
   abschnitt: Weitere Angaben
   bezeichnung: Total Kapitalleistungen aus Vorsorge (Code 950)
@@ -1119,7 +2419,16 @@ positionen:
   quellen:
   - chunk: sg-form-1-2026-uj__c0013
     zitat: 41. Total Kapitalleistungen aus Vorsorge 950
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: Kapitalleistungen aus Vorsorge sind auf Seite 4 unten einzu
+  - chunk: sg-stg-2026__art-52
+    zitat: werden gesondert besteuert. Sie unterliegen einer vollen Jahressteuer
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 40.1 + 40.2 + 40.3
+  berechnung: Σ Ziff. 40.1 bis 40.3
+  beachten:
+  - Nicht ins Total der Einkünfte (Ziff. 7); gesonderte Besteuerung (Art. 52 StG)
 - ziffer: Form. 4 Ziff. 1.1
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: Fahrkosten öffentliche Verkehrsmittel (Code 400 Person 1 / 450 Person 2)
@@ -1142,7 +2451,24 @@ positionen:
     zitat: die notwendigen Kosten für Fahrten zwischen Wohn- und Arbeitsstätte bis zum Betrag von Fr. 8000.–
   - chunk: sg-stb-39-3__c0010
     zitat: Für Homeoffice-Tage und Tage ohne Arbeitsleistung
+  - chunk: bund-wl-lohnausweis-2026__c0010
+    zitat: Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer keine Kosten für den Arbeitsweg
+  - chunk: sg-stb-39-3__c0013
+    zitat: ist diese Entschädigung in Ziff. 2.3 des Lohnausweises zu deklarieren
+  - chunk: sg-stb-39-3__c0014
+    zitat: Das GA stellt für den Mitarbeitenden keine geschäftliche Notwendigkeit dar
+  - chunk: sg-stb-39-3__c0014
+    zitat: Fahrkosten für Streckenabo
   status: agent-geprueft
+  rein:
+  - ÖV-Abo/Billette → tatsächliche Kosten Wohn- bis Arbeitsort
+  - Lohnausweis Feld F → angekreuzt = keine Arbeitswegkosten, kein Abzug
+  - Lohnausweis Ziff. 2.3 → vom Arbeitgeber vergütete Fahrkosten (im Bruttolohn)
+  berechnung: 'Kanton: min(effektive ÖV-Kosten; 8''000) / Bund: min(…; 3''300); Billette nur für Arbeitstage (Vollzeit 220, ohne Homeoffice)'
+  beachten:
+  - 'Maximalabzug, keine Pauschale: bei UJ, Stellenantritt/-aufgabe, Teilzeit nicht kürzen; Haupt- + Nebenerwerb gesamt'
+  - Abo nicht um Homeoffice-Tage kürzen
+  - 'Arbeitgeber zahlt GA ohne geschäftliche Notwendigkeit: Wert im Bruttolohn, Abzug nur Kosten Streckenabo'
 - ziffer: Form. 4 Ziff. 1.2
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: Fahrkosten Fahrrad, Motorfahrrad, Kleinmotorrad (Code 402 Person 1 / 452 Person 2)
@@ -1152,13 +2478,25 @@ positionen:
   regel: Pauschal Fr. 700 im Jahr (Fahrrad, Motorfahrrad, Kleinmotorrad bis 50 cm3 mit gelbem Schild), wenn zu Fuss/zur Haltestelle mehr als 10 Minuten nötig sind.
   werte_keys:
   - berufskosten.fahrkosten.velo_pauschale
+  - berufskosten.fahrkosten.max
   bemerkung: 'Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).'
   quellen:
   - chunk: sg-stb-39-3__c0009
     zitat: Fr. 700.-- im Jahr bei Benützung eines Fahrrades
   - chunk: sg-stb-39-3__c0003
     zitat: mehr als 10 Minuten benötigt
+  - chunk: bund-wl-2a-2026__c0043
+    zitat: Tatsächliche Kosten können nicht zusätzlich zum Pauschalabzug
+  - chunk: bund-wl-2a-2026__c0043
+    zitat: Einen Pauschalabzug von 700 Fr. im Jahr bei Benützung
   status: agent-geprueft
+  rein:
+  - Keine Belege (Pauschale); Angabe Arbeitsweg und Fussweg zur Haltestelle
+  berechnung: Pauschale 700 pro Jahr (Kanton = Bund); zählt zum Fahrkosten-Maximum Kanton 8'000 / Bund 3'300
+  beachten:
+  - 'Kanton: nur wenn Arbeitsweg zu Fuss bzw. zur nächsten ÖV-Haltestelle > 10 Minuten (StB 39 Nr. 3)'
+  - Kleinmotorrad ≤ 50 cm3, gelbes Kontrollschild; übrige Motorräder → km-Ansatz Ziff. 1.3
+  - 'Bund: tatsächliche Kosten nicht zusätzlich zur Pauschale abziehbar'
 - ziffer: Form. 4 Ziff. 1.3
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: 'Fahrkosten Motorfahrzeug (Auto/Motorrad): Fr. 0.75 pro km ab 2026 (Zwischentotal max. Fr. 8''000)'
@@ -1172,6 +2510,7 @@ positionen:
   - berufskosten.fahrkosten.auto_km
   - berufskosten.fahrkosten.arbeitstage
   - berufskosten.fahrkosten.max
+  - berufskosten.fahrkosten.motorrad_km
   bund: Maximum Fr. 3'300; Autos Fr. –.75 pro km (BKV-Anhang 2026).
   bemerkung: 'Seed bestätigt (0.75/km 2026). Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).'
   quellen:
@@ -1181,7 +2520,41 @@ positionen:
     zitat: Der einheitliche Kilometeransatz von Fr. --.75 gilt ab der Steuerperiode 2026
   - chunk: sg-stv__art-18a
     zitat: kann anstelle der Abrechnung über die tatsächlichen Kosten der privaten Nutzung und des Fahrkostenabzugs nach Art. 18 dieser Verordnung eine pauschale Fahrkostenberechnung vorgenommen werden
+  - chunk: sg-stb-39-3__c0004
+    zitat: bei Entfernung von der nächsten Haltestelle von mehr als 10 Fussminuten
+  - chunk: sg-stb-39-3__c0005
+    zitat: mehr als 60 Minuten pro Tag ausmacht
+  - chunk: sg-stb-39-3__c0003
+    zitat: kann sie als notwendige Kosten die Auslagen abziehen, die bei
+  - chunk: sg-stb-39-3__c0009
+    zitat: Sie zählen zu den Fahrkosten
+  - chunk: sg-stb-39-3__c0017
+    zitat: Wird die Pauschale beansprucht, entfällt die Aufrechnung für den Arbeitsweg, gleichzeitig
+  - chunk: sg-stb-39-3__c0015
+    zitat: unter Ziff. 2.2 des Lohnausweises
+  - chunk: bund-wl-2a-2026__c0044
+    zitat: ist pro Fahrkilometer ein Abzug bis zu 40 Rp.
+  - chunk: sg-stb-39-3__c0004
+    zitat: ist das Park-and-Ride-System zumutbar, sodass die Autokosten nur für die Fahrt zur Haltestelle geltend gemacht werden können
+  - chunk: sg-stb-39-3__c0005
+    zitat: für eine steuerpflichtige Person, die zufolge unregelmässiger Arbeitszeit oder
+  - chunk: sg-stb-39-3__c0006
+    zitat: eine Arbeitgeberbescheinigung sowie die entsprechenden
+  - chunk: bund-wl-lohnausweis-2026__c0010
+    zitat: das zur Verfügung stellen eines Geschäftsfahrzeugs durch den Arbeitgeber
+  - chunk: sg-stb-39-3__c0005
+    zitat: weil sie es dort für berufliche Fahrten einsetzen muss
   status: agent-geprueft
+  rein:
+  - Begründung Privatfahrzeug → kein ÖV bzw. Unzumutbarkeit (Gesundheit, Haltestelle, Fahrplan, Dienstfahrten)
+  - Arbeitstage (ohne Homeoffice) und km Hin- und Rückweg
+  - Arbeitgeberbescheinigung/Spesenabrechnung → Dienstfahrten mit Privatauto
+  - Lohnausweis Ziff. 2.2 / Feld F → Geschäftsfahrzeug
+  berechnung: 'Kanton: min(Arbeitstage × km/Tag × 75 Rp.; 8''000) / Bund: min(Tage × km × 75 Rp. Auto bzw. 40 Rp. Motorrad weiss; 3''300)'
+  beachten:
+  - 'ÖV unzumutbar: Gesundheit; Haltestelle > 10 Fussmin. (bei Parkplatz P+R: Auto nur bis dort); Mehraufwand > 60 Min./Tag'
+  - 'Ferner: unregelmässige Arbeitszeit/Präsenzpflicht, Auto für Dienstfahrten nötig; sonst nur ÖV; P+R-Parkgebühr = Fahrkosten'
+  - 'Geschäftsfahrzeug mit Pauschale 0,9 %/Monat (Lohnausweis Ziff. 2.2): kein Fahrkostenabzug'
 - ziffer: Form. 4 Ziff. 2.1
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: 'Mehrkosten auswärtige Verpflegung: Fr. 15 pro Hauptmahlzeit/Arbeitstag, max. Fr. 3''200 pro Jahr'
@@ -1200,7 +2573,30 @@ positionen:
     zitat: voller Abzug pro Hauptmahlzeit bzw. 15.--
   - chunk: sg-stv__art-19
     zitat: wenn der Steuerpflichtige wegen grosser Entfernung zwischen Wohn- und Arbeitsstätte oder wegen kurzer Essenspause eine Hauptmahlzeit nicht zu Hause einnehmen kann
+  - chunk: sg-stb-39-8__c0016
+    zitat: wird der (volle oder halbe) Pauschalabzug im Verhältnis der Arbeitstage mit vergüteter Verpflegung
+  - chunk: sg-stb-39-8__c0011
+    zitat: kann nicht von den Pauschalen abgewichen werden
+  - chunk: sg-stb-39-8__c0005
+    zitat: auch tatsächlich auswärts einnimmt
+  - chunk: sg-stb-39-8__c0006
+    zitat: Der Abzug für Schicht- oder Nachtarbeit kann nicht zusätzlich zum Abzug für auswärtige
+  - chunk: sg-stb-39-8__c0013
+    zitat: Der Pauschalabzug für auswärtige Verpflegung bei täglicher Heimkehr kann nicht
+  - chunk: sg-stb-39-8__c0007
+    zitat: Für auswärts eingenommene Zwischenverpflegungen sieht das Steuergesetz keinen
+  - chunk: sg-stb-39-8__c0014
+    zitat: Auf dem Lohnausweis muss in diesem Fall das Feld G angekreuzt sein
   status: agent-geprueft
+  rein:
+  - Keine Belege (Pauschale); Anzahl Arbeitstage mit auswärtiger Hauptmahlzeit
+  - Lohnausweis Feld G → nicht angekreuzt (sonst halber Abzug Ziff. 2.2)
+  - Spesenabrechnung Arbeitgeber → Tage mit vergüteter Verpflegung (Kürzung)
+  berechnung: 'min(Tage × 15; 3''200) (Kanton = Bund); Spesenersatz: × (Arbeitstage − vergütete Tage) / Arbeitstage, z.B. 3''200 × (220 − 44) / 220 = 2''560'
+  beachten:
+  - Nur Pauschale, kein Nachweis höherer Kosten; Mittagessen muss tatsächlich auswärts eingenommen werden
+  - 'Schicht-/Nachtarbeit: gleiche Pauschale, nicht zusätzlich zum Abzug wegen Entfernung/kurzer Pause'
+  - Nicht gleichzeitig mit Verpflegungsabzug Wochenaufenthalt; Zwischenverpflegung nicht abziehbar
 - ziffer: Form. 4 Ziff. 2.2
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: 'Verpflegung verbilligt durch Arbeitgeber (Kantine, Lunch-Checks): halber Abzug Fr. 7.50 / max. Fr. 1''600'
@@ -1222,7 +2618,27 @@ positionen:
     zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant des Arbeitgebers eingenommen werden kann
   - chunk: sg-stb-39-8__c0012
     zitat: halber Abzug pro Hauptmahlzeit bzw. 7.50
+  - chunk: sg-stb-39-8__c0014
+    zitat: wenn es für den Arbeitnehmer aufgrund der Distanz unzumutbar ist, die Mahlzeit in der Kantine einzunehmen
+  - chunk: sg-stb-39-8__c0015
+    zitat: steht ihm trotz Verpflegung zu höheren Kosten nur der halbe Abzug zu
+  - chunk: sg-stb-39-8__c0007
+    zitat: Kein Abzug ist mangels Mehrkosten zulässig, wenn der Arbeitgeber bei der Bewertung von
+  - chunk: sg-stb-39-8__c0016
+    zitat: wird der (volle oder halbe) Pauschalabzug im Verhältnis der Arbeitstage mit vergüteter Verpflegung
+  - chunk: sg-stb-39-8__c0015
+    zitat: in enger Verbindung mit dem Arbeitsplatz steht
+  - chunk: sg-stb-39-8__c0007
+    zitat: oder wenn sich der Steuerpflichtige zu Preisen verpflegen kann, die unter diesen
   status: agent-geprueft
+  rein:
+  - Lohnausweis Feld G angekreuzt → Kantine/Personalrestaurant oder Lunch-Checks
+  - Anzahl Arbeitstage mit auswärtiger Hauptmahlzeit
+  berechnung: min(Tage × 7.50; 1'600) (Kanton = Bund)
+  beachten:
+  - Halber Abzug auch bei freiwilligem Kantinenverzicht oder Mensa eng mit Arbeitsplatz verbunden; Kantine zu weit → voll
+  - Kein Abzug bei Bewertung bzw. Preisen unter den behördlichen Ansätzen für Naturalbezüge (Art. 6 Abs. 3 BKV)
+  - 'Spesenersatz an einzelnen Tagen: Kürzung im Verhältnis der vergüteten Arbeitstage'
 - ziffer: Form. 4 Ziff. 2.3
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: 'Schicht-/Nachtarbeit (mind. 8 Stunden durchgehend): Fr. 15 pro Schicht, max. Fr. 3''200'
@@ -1234,6 +2650,9 @@ positionen:
     Anzahl Schichttage steht im Lohnausweis Ziff. 15 (freiwillige Angabe des Arbeitgebers). Nicht kumulierbar mit dem Abzug wegen Entfernung/kurzer Pause.
   werte_keys:
   - berufskosten.schichtarbeit.tag
+  - berufskosten.verpflegung.jahr
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
   bemerkung: 'Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).'
   quellen:
   - chunk: sg-stb-39-8__c0006
@@ -1242,7 +2661,28 @@ positionen:
     zitat: kann nicht zusätzlich zum Abzug für auswärtige Verpflegung
   - chunk: bund-wl-lohnausweis-2026__c0051
     zitat: die Anzahl im Kalenderjahr geleisteter Schichttage
+  - chunk: sg-stb-39-8__c0012
+    zitat: halber Abzug pro Hauptmahlzeit bzw. 7.50
+  - chunk: sg-stb-39-8__c0014
+    zitat: Auf dem Lohnausweis muss in diesem Fall das Feld G angekreuzt sein
+  - chunk: sg-stb-39-8__c0006
+    zitat: Der Verpflegungsabzug ist in diesen Fällen nicht abhängig von einer minimalen Entfernung
+  - chunk: sg-stb-39-8__c0011
+    zitat: höhere Kosten anfallen, kann nicht von den Pauschalen abgewichen werden
+  - chunk: bund-bkv-2026__art-6-t2
+    zitat: Der Arbeitgeber muss die Anzahl Tage mit Schicht- oder Nachtarbeit sowie den Arbeitsort auf Verlangen bescheinigen
+  - chunk: bund-wl-lohnausweis-2026__c0051
+    zitat: Zudem können freiwillig Angaben gemacht werden
   status: agent-geprueft
+  rein:
+  - Lohnausweis → Ziff. 15 Anzahl Schichttage (freiwillige Angabe des AG)
+  - 'Arbeitgeberbescheinigung → Schichttage + Arbeitsort (Bund: auf Verlangen, Art. 6 Abs. 5 BKV)'
+  - Lohnausweis → Feld G (Kantine/Verbilligung → halber Ansatz)
+  berechnung: 'min(Schichttage × 15; 3''200); Feld G (Kantine/Verbilligung): min(Tage × 7.50; 1''600) – Kanton = Bund'
+  beachten:
+  - Nicht zusätzlich zum Abzug wegen grosser Entfernung/kurzer Essenspause – nur einer der beiden
+  - Keine minimale Distanz Wohn-/Arbeitsort nötig; nur Pauschale, Nachweis höherer Kosten ausgeschlossen
+  - Gestaffelte/unregelmässige Arbeitszeit nur, wenn beide Hauptmahlzeiten nicht zur üblichen Zeit zu Hause möglich
 - ziffer: Form. 4 Ziff. 3.1
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: 'Pauschalabzug übrige Berufskosten: Fr. 700 + 10% des Nettolohnes, max. Fr. 2''400'
@@ -1255,6 +2695,7 @@ positionen:
   - berufskosten.uebrige.fix
   - berufskosten.uebrige.satz
   - berufskosten.uebrige.max
+  - berufskosten.uebrige.min
   bund: 3% des Nettolohnes, mind. Fr. 2'000, max. Fr. 4'000 (BKV-Anhang 2026).
   bemerkung: 'Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).'
   quellen:
@@ -1262,7 +2703,31 @@ positionen:
     zitat: Für übrige notwendige Berufskosten werden Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.– abgezogen
   - chunk: sg-mb-8-2026__c0006
     zitat: Berufskosten ( Formular 4, Ziffer 3.1 und 5.1 )
+  - chunk: sg-form-1-2026-uj__c0007
+    zitat: 10.1 Person 1 Formular 4 438
+  - chunk: sg-form-1-2026-uj__c0007
+    zitat: 10.2 Person 2 Formular 4 488
+  - chunk: bund-bkv-2026__anhang-1
+    zitat: 3 % des Nettolohns, mindestens im Jahr
+  - chunk: bund-bkv-2026__art-7
+    zitat: Der Pauschalabzug ist angemessen zu kürzen, wenn die unselbständige Erwerbstätigkeit bloss während eines Teils des Jahres oder als Teilzeitarbeit ausgeübt wird
+  - chunk: bund-wl-lohnausweis-2026__c0038
+    zitat: vom Bruttolohn total (Ziffer 8) das Total der Abzüge (Ziffer 9 und 10) abgezogen wird
+  - chunk: sg-stb-39-1__c0001
+    zitat: Sie gelten grundsätzlich als mit der Pauschale abgegolten.
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Fr. 10’800 ÷ 360 × 180 Tage
+  - chunk: sg-mb-8-2026__c0006
+    zitat: der Dauer der Steuerpflicht zu kürzen. Zur Satzbestimmung werden jedoch die
   status: agent-geprueft
+  rein:
+  - 'Lohnausweis → Ziff. 11 Nettolohn (Kanton: + Ziff. 10.2 Einkäufe zurückrechnen)'
+  - Übertrag Total Formular 4 → Formular 1 Ziff. 10.1/10.2 (Code 438 Person 1 / 488 Person 2)
+  berechnung: 'Kanton: min(700 + 10 % × Nettoeinkünfte; 2''400) / Bund: min(max(3 % × Nettolohn; 2''000); 4''000); UJ: × Tage ÷ 360 (Satz: voller Betrag)'
+  beachten:
+  - 'Kanton: Nettoeinkünfte = Brutto − Beiträge Art. 45 Abs. 1 Bst. d/f StG ohne Einkäufe ⇒ LA Ziff. 11 + Ziff. 10.2'
+  - Pauschale deckt u.a. Arbeitszimmer; keine Kumulation mit effektiven Kosten
+  - 'Bund: Pauschale bei Teilzeit/Teiljahr angemessen kürzen (Art. 7 Abs. 2 BKV)'
 - ziffer: Form. 4 Ziff. 3.2
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: Tatsächliche übrige Berufskosten anstelle Pauschale (Code 418 Person 1 / 468 Person 2)
@@ -1279,7 +2744,42 @@ positionen:
     zitat: Der Nachweis höherer notwendiger Kosten bleibt vorbehalten
   - chunk: sg-stg-2026__art-39
     zitat: dem Steuerpflichtigen steht im Falle von Abs. 1 Bst. c dieser Bestimmung der Nachweis höherer Kosten offen
+  - chunk: sg-stb-39-1__c0001
+    zitat: welche insgesamt die Pauschale übersteigen, müssen sämtliche tatsächlichen Aufwendungen nachgewiesen werden
+  - chunk: sg-stb-39-1__c0001
+    zitat: Eine Kumu- lation der Pauschale mit einem Abzug der tatsächlichen Kosten für ein Arbeitszimmer ist nicht möglich
+  - chunk: sg-stb-39-1__c0003
+    zitat: wenn sie ca. 40% der gesamten Arbeitszeit ausmacht
+  - chunk: sg-stb-39-1__c0003
+    zitat: muss auch tatsächlich ausgeschieden worden sein
+  - chunk: sg-stb-39-1__c0005
+    zitat: die Gesamtkosten durch die Anzahl Zimmer plus zwei geteilt werden
+  - chunk: sg-stb-39-1__c0005
+    zitat: ./. 30% Eigenmietwertreduktion
+  - chunk: sg-stb-39-1__c0005
+    zitat: + 10% davon für Nebenkosten (oder effektive Nebenkosten)
+  - chunk: sg-stb-39-1__c0005
+    zitat: Bei Teilzeitarbeit besteht kein Anspruch auf den vollen Arbeitszimmerabzug
+  - chunk: sg-stb-39-1__c0004
+    zitat: vermag die Notwendigkeit eines vorwiegend für berufliche Zwecke ausgeschiedenen
+  - chunk: sg-stb-39-1__c0006
+    zitat: die Berechnung erfolgt ebenfalls gleich
+  - chunk: bund-bkv-2026__art-7
+    zitat: Fachliteratur, privates Arbeitszimmer, Berufskleider
+  - chunk: bund-bkv-2026__art-1
+    zitat: Nicht abziehbar sind die vom Arbeitgeber oder einem Dritten übernommenen Aufwendungen
+  - chunk: bund-wl-lohnausweis-2026__c0039
+    zitat: In den Feldern der Ziffern 13.1 und 13.2 sind die Vergütungen anzugeben, die Spesenersatz
   status: agent-geprueft
+  rein:
+  - Rechnungen/Quittungen → Σ notwendige Berufsauslagen (Werkzeug, EDV, Fachliteratur, Berufskleider)
+  - Mietvertrag bzw. Schätzung Eigenmietwert → Arbeitszimmeranteil
+  - Spesenreglement / Lohnausweis Ziff. 13 → vom Arbeitgeber vergütete Auslagen (Abgleich)
+  berechnung: Σ belegte notwendige Kosten statt Pauschale; Arbeitszimmer = (Miete inkl. NK bzw. EMW −30 % +10 % NK) ÷ (Zimmer + 2), Teilzeit anteilig nach Einkommen – Kanton = Bund
+  beachten:
+  - Zimmer nur bei ca. 40 % Arbeitszeit zu Hause (kein AG-Büro), Raum ausgeschieden; Abend-/Wochenendarbeit reicht nicht
+  - 'Übersteigen die Kosten die Pauschale: sämtliche tatsächlichen Aufwendungen nachweisen (keine Kumulation)'
+  - 'Bund: vom Arbeitgeber oder Dritten übernommene Aufwendungen nicht abziehbar (Art. 1 Abs. 2 BKV)'
 - ziffer: Form. 4 Ziff. 4.1
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: 'Wochenaufenthalt: Unterkunft, ortsübliche Kosten Zimmer'
@@ -1291,13 +2791,38 @@ positionen:
     sonst. Fahrkosten Heimkehr nach Fahrkostenregeln (Maximum).'
   werte_keys:
   - berufskosten.wochenaufenthalt.unterkunft
+  - berufskosten.fahrkosten.max
   bemerkung: 'Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).'
   quellen:
   - chunk: sg-stv__art-20
     zitat: Als notwendige Mehrkosten der Unterkunft gelten die ortsüblichen Mietkosten für ein Zimmer
   - chunk: sg-stb-39-5__c0004
     zitat: Monatsmieten bis Fr. 800.--, an anderen Orten bis Fr. 500.-- allgemein anerkannt
+  - chunk: sg-stb-39-5__c0004
+    zitat: In den Städten Zürich, Bern, Basel, Lausanne und Genf sowie in den grösseren Kurorten
+  - chunk: sg-stb-39-5__c0004
+    zitat: Unter einem Zimmer wird eine 1-Zimmer- wohnung oder ein Studio
+  - chunk: sg-stb-39-5__c0004
+    zitat: handelt es sich bei den Mehrkosten um nicht abziehbare Lebenshaltungskosten
+  - chunk: sg-stv__art-20
+    zitat: denen die alltägliche Rückkehr an den steuerrechtlichen Wohnsitz nicht möglich ist oder nicht zugemutet werden kann
+  - chunk: sg-stv__art-20
+    zitat: Für den Abzug der notwendigen Fahrkosten zwischen Arbeitsort und steuerrechtlichem Wohnsitz wird Art. 18 dieser Verordnung sachgemäss angewendet
+  - chunk: bund-bkv-2026__art-9
+    zitat: jedoch regelmässig für die Freitage an den steuerlichen Wohnsitz zurückkehren
+  - chunk: bund-bkv-2026__art-9
+    zitat: Als notwendige Mehrkosten der Unterkunft sind die ortsüblichen Auslagen für ein Zimmer abziehbar
+  - chunk: bund-bkv-2026__art-9
+    zitat: Sie sind bis zum Maximalbetrag nach Artikel 5 Absatz 1 abziehbar
   status: agent-geprueft
+  rein:
+  - Mietvertrag/Mietzinsquittungen Zimmer am Arbeitsort → Monatsmiete × Monate
+  - Belege Heimkehr (ÖV-Abo/km) → Fahrkosten Wohnsitz–Arbeitsort
+  berechnung: 'Σ Monatsmiete Zimmer: ≤ 800/Mt (Städte Zürich, Bern, Basel, Lausanne, Genf, grössere Kurorte), sonst ≤ 500/Mt; Heimkehr bis Max. Kanton 8''000 / Bund 3''300'
+  beachten:
+  - 'Nur wenn tägliche Rückkehr nicht möglich/zumutbar; Bund: regelmässige Heimkehr an den Freitagen'
+  - Zimmer = 1-Zimmerwohnung/Studio; Mehrkosten für höheren Komfort = nicht abziehbare Lebenshaltung
+  - 'Bund: ortsübliche Auslagen für ein Zimmer – Beträge Fr. 800/500 sind SG-Praxis (StB 39 Nr. 5)'
 - ziffer: Form. 4 Ziff. 4.2
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: 'Wochenaufenthalt: Verpflegung Fr. 30 pro Arbeitstag, max. Fr. 6''400 pro Jahr (gekürzt Fr. 22.50 / Fr. 4''800)'
@@ -1315,7 +2840,23 @@ positionen:
     zitat: Voller Abzug im Tag 30.00 im Jahr 6'400.00
   - chunk: sg-stb-39-5__c0003
     zitat: Der reduzierte Abzug ist anzuwenden, wenn eine der beiden täglichen Hauptmahlzeiten vom Arbeitgeber verbilligt wird
+  - chunk: sg-stb-39-8__c0013
+    zitat: Der Pauschalabzug für auswärtige Verpflegung bei täglicher Heimkehr kann nicht
+  - chunk: sg-stb-39-8__c0014
+    zitat: Auf dem Lohnausweis muss in diesem Fall das Feld G angekreuzt sein
+  - chunk: bund-bkv-2026__art-9
+    zitat: Der Nachweis höherer Kosten ist ausgeschlossen.
+  - chunk: bund-bkv-2026__anhang-1
+    zitat: b. Bei auswärtigem Wochenaufenthalt (Art. 9 Abs. 2)
   status: agent-geprueft
+  rein:
+  - Aufstellung Arbeitstage am Wochenaufenthaltsort → Tage × Tagesansatz
+  - Lohnausweis → Feld G (verbilligte Mahlzeit/Kantine → gekürzter Ansatz)
+  berechnung: 'voll: min(Tage × 30; 6''400) / gekürzt: min(Tage × 22.50; 4''800) – Kanton = Bund (DBG-Pauschalansätze)'
+  beachten:
+  - Nicht gleichzeitig mit Verpflegungsabzug bei täglicher Heimkehr
+  - Nur Pauschale – Nachweis höherer Kosten ausgeschlossen
+  - Gekürzt, wenn eine Hauptmahlzeit vom AG verbilligt oder in Kantine/Personalrestaurant möglich
 - ziffer: Form. 4 Ziff. 5
   abschnitt: Hilfsblatt Berufskosten (Formular 4)
   bezeichnung: 'Kosten bei unselbständiger Nebenerwerbstätigkeit: 20% der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2''400'
@@ -1337,7 +2878,36 @@ positionen:
     zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
   - chunk: sg-mb-8-2026__c0006
     zitat: Berufskosten ( Formular 4, Ziffer 3.1 und 5.1 )
+  - chunk: sg-stb-39-9__c0005
+    zitat: wenigstens zwei Drittel einer 100-prozentigen Arbeitszeit entspricht
+  - chunk: sg-stb-39-9__c0005
+    zitat: lässt sich die erforderliche Quote dem Arbeitsvertrag entnehmen
+  - chunk: sg-stb-39-9__c0008
+    zitat: Ein Erwerbstätiger mit nur einer Beschäftigung führt immer eine Haupterwerbstätigkeit aus
+  - chunk: sg-stb-39-9__c0012
+    zitat: höchstens ein Pauschalabzug in gleicher Höhe zulässig
+  - chunk: sg-stb-39-9__c0012
+    zitat: Die Pauschale von 20% errechnet sich aus der Summe aller Nebenerwerbseinkünfte
+  - chunk: sg-stb-39-9__c0013
+    zitat: schliesst die Nebenerwerbspauschale auch die Fahrkosten und die Mehrkosten der
+  - chunk: sg-stb-39-9__c0010
+    zitat: Nebenerwerb im Sinn dieser Abzugsregelung ist ausschliesslich eine unselbständige
+  - chunk: sg-stb-39-9__c0014
+    zitat: von diesen Erwerbseinkünften (Nettolohn plus Spesen)
+  - chunk: bund-bkv-2026__anhang-1
+    zitat: 20 % der Nettoeinkünfte, mindestens im Jahr
+  - chunk: sg-form-1-2026-uj__c0003
+    zitat: 1.2 Aus Nebenerwerbstätigkeit Person 1 Lohnausweis 104
   status: agent-geprueft
+  rein:
+  - Lohnausweis Nebenerwerb → Ziff. 11 Nettolohn + vergütete Spesen (Form. 1 Ziff. 1.2, Code 104/106)
+  - Arbeitsvertrag Haupterwerb → Pensum (mind. zwei Drittel)
+  - Belege effektive Kosten → nur bei Nachweis höherer Kosten (dann für alle Nebenerwerbe)
+  berechnung: 'min(max(20 % × Σ Nettoeinkünfte aller Nebenerwerbe; 800); 2''400) – Kanton = Bund; Kanton: Einkünfte < 800 → max. = Einkünfte; UJ: × Tage ÷ 360'
+  beachten:
+  - Setzt Haupterwerb von mind. zwei Drittel Normalpensum voraus; einzige Erwerbstätigkeit = Haupterwerb
+  - Pauschale deckt auch Fahrkosten und Verpflegung – kein Zusatzabzug dafür
+  - Nur unselbständiger Nebenerwerb; Basis = Nettolohn plus Spesenvergütungen
 - ziffer: Lohnausweis Feld F
   abschnitt: Lohnausweis (Regeln für Steuererklärung)
   bezeichnung: 'Lohnausweis Feld F: unentgeltliche Beförderung zwischen Wohn- und Arbeitsort'
@@ -1358,7 +2928,36 @@ positionen:
     zitat: In diesem Fall ist das Feld F nicht anzukreuzen
   - chunk: bund-wl-lohnausweis-2026__c0016
     zitat: kein Kreuz im Feld F zu setzen
+  - chunk: sg-stb-39-3__c0015
+    zitat: der Betrag von 0,9% des Kaufpreises des Fahrzeugs
+  - chunk: sg-stb-39-3__c0015
+    zitat: inkl. sämtlichen Sonderausstattungen (exkl. Mehrwertsteuer) pro Monat
+  - chunk: sg-stb-39-3__c0015
+    zitat: mindestens aber Fr. 150.-- pro Monat, unter Ziff. 2.2 des Lohnausweises
+  - chunk: sg-stb-39-3__c0015
+    zitat: eine (identische) Bestimmung ergänzt
+  - chunk: sg-stb-39-3__c0017
+    zitat: Wird die Pauschale beansprucht, entfällt die Aufrechnung für den Arbeitsweg, gleichzeitig aber auch ein Fahrkostenabzug
+  - chunk: sg-stb-39-3__c0017
+    zitat: (Art. 18a Abs. 1 StV und Art. 5a Abs. 1 Berufskostenver-
+  - chunk: sg-stb-39-3__c0013
+    zitat: dies ist aber nur bis zum Maximalbetrag möglich
+  - chunk: sg-stb-39-3__c0014
+    zitat: Fahrkosten für Streckenabo Fr. -2'025.-- (im Formular 4 geltend zu machen)
+  - chunk: bund-wl-lohnausweis-2026__c0010
+    zitat: die Beförderung zum Arbeitsort mittels Sammeltransports
+  - chunk: bund-wl-lohnausweis-2026__c0011
+    zitat: Vergütungen einer Autopauschale für Mitarbeitende mit sehr häufigem geschäftlichem
   status: agent-geprueft
+  rein:
+  - Lohnausweis → Feld F (Kreuz = keine Arbeitswegkosten)
+  - Lohnausweis → Ziff. 2.2 Privatanteil Geschäftsfahrzeug
+  - Lohnausweis → Ziff. 2.3 vergütete Arbeitswegkosten / privat nützliches GA (Marktwert)
+  berechnung: Feld F angekreuzt → Fahrkostenabzug 0; Vergütung in Ziff. 2.3 (kein Kreuz F) → Abzug notwendige Kosten bis Max. Kanton 8'000 / Bund 3'300
+  beachten:
+  - Geschäftsauto-Pauschale 0,9 %/Mt Kaufpreis exkl. MWST (mind. 150/Mt, LA 2.2) → kein Fahrkostenabzug; Kanton = Bund
+  - 'GA ohne geschäftliche Notwendigkeit: Marktwert Ziff. 2.3, kein Kreuz F, Kosten Streckenabo in Formular 4'
+  - Kreuz F u.a. bei Geschäftsfahrzeug, Sammeltransport, Autopauschale Aussendienst, geschäftlich benütztem GA
 - ziffer: Lohnausweis Feld G
   abschnitt: Lohnausweis (Regeln für Steuererklärung)
   bezeichnung: 'Lohnausweis Feld G: Kantinenverpflegung / Lunch-Checks / Bezahlung von Mahlzeiten'
@@ -1372,6 +2971,7 @@ positionen:
   werte_keys:
   - berufskosten.verpflegung.verbilligt_tag
   - berufskosten.verpflegung.verbilligt_jahr
+  - berufskosten.wochenaufenthalt.verpflegung_jahr
   quellen:
   - chunk: bund-wl-lohnausweis-2026__c0012
     zitat: Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten Buchstabe G
@@ -1379,7 +2979,32 @@ positionen:
     zitat: Die Abgabe von Lunch-Checks ist gemäss der Wegleitung über den massgebenden Lohn
   - chunk: sg-stb-39-8__c0014
     zitat: Auf dem Lohnausweis muss in diesem Fall das Feld G angekreuzt sein
+  - chunk: sg-stb-39-8__c0012
+    zitat: halber Abzug pro Hauptmahlzeit bzw. 7.50
+  - chunk: sg-stb-39-5__c0003
+    zitat: Reduzierter Abzug im Tag 22.50
+  - chunk: bund-bkv-2026__art-6-t1
+    zitat: Nur der halbe Abzug ist zulässig
+  - chunk: sg-stb-39-8__c0016
+    zitat: wird der (volle oder halbe) Pauschalabzug im Verhältnis der Arbeitstage mit vergüteter Verpflegung herabgesetzt
+  - chunk: bund-wl-lohnausweis-2026__c0012
+    zitat: Dieses Feld ist auch anzukreuzen bei Arbeitnehmern, die 40 % - 60 % der Arbeitszeit
+  - chunk: bund-wl-lohnausweis-2026__c0012
+    zitat: ausschliesslich unter Ziffer 15 folgender Hinweis anzubringen
+  - chunk: sg-stb-39-8__c0014
+    zitat: wird der volle Abzug gewährt, wenn es für den Arbeitnehmer aufgrund der Distanz unzumutbar ist
+  - chunk: sg-stb-39-8__c0015
+    zitat: steht ihm trotz Verpflegung zu höheren Kosten nur der halbe Abzug zu
   status: agent-geprueft
+  rein:
+  - Lohnausweis → Feld G (Kantine/Lunch-Checks/verbilligte Mahlzeiten)
+  - Lohnausweis → Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt»
+  - Lohnausweis → Ziff. 1 (Lunch-Checks über AHV-Limite im Lohn)
+  berechnung: 'Feld G: min(Tage × 7.50; 1''600), Wochenaufenthalt min(Tage × 22.50; 4''800) – Kanton = Bund; Kanton: AG-Spesenersatz → × (Arbeitstage − vergütete Tage) ÷ Arbeitstage'
+  beachten:
+  - 'Lunch-Checks bis AHV-Limite (Stand 1.1.2022: CHF 180/Mt) nur Kreuz G; Mehrbetrag im Lohn Ziff. 1'
+  - 'Kreuz G auch bei Mittagsentschädigung und 40–60 % auswärts; > 60 %: nur Vermerk in Ziff. 15'
+  - Kantine distanzbedingt unzumutbar → voller Abzug; freiwilliger Verzicht auf zumutbare Kantine → nur halber
 - ziffer: Lohnausweis Ziff. 10.2
   abschnitt: Lohnausweis (Regeln für Steuererklärung)
   bezeichnung: 'Lohnausweis Ziff. 10.2: Beiträge für den Einkauf in die berufliche Vorsorge (BVG-Einkauf, bereits vom Lohn abgezogen)'
@@ -1404,9 +3029,23 @@ positionen:
     jahr_ok: true
   - chunk: sg-form-1-2026-uj__c0007
     zitat: 13.2 Säule 2 (BVG) inkl. Einkaufsbeiträge Person 1 Bescheinigung 218
+  - chunk: bund-wl-lohnausweis-2026__c0036
+    zitat: Zusätzlich sind die vom Arbeitgeber übernommenen Arbeitnehmerbeiträge anzugeben
+  - chunk: bund-wl-lohnausweis-2026__c0038
+    zitat: vom Bruttolohn total (Ziffer 8) das Total der Abzüge (Ziffer 9 und 10) abgezogen wird
+  - chunk: sg-form-1-2026-uj__c0007
+    zitat: Säule 2 (BVG) inkl. Einkaufsbeiträge Person 2 Bescheinigung 219
   status: agent-geprueft
   bemerkung: Doppelabzugs-Verbot («nochmaliger Abzug unter Ziffer 13.2 ausgeschlossen») stammt aus der WL SG 2025 (jahr_ok; eine WL SG 2026 liegt im Wiki nicht vor, Formular 1/2026 UJ führt Ziff. 13.2 unverändert)
     – Fachperson prüft für 2026.
+  rein:
+  - Lohnausweis → Ziff. 10.2 Einkauf (nur Info; im Nettolohn Ziff. 11 abgezogen)
+  - Bescheinigung Vorsorgeeinrichtung (Formular 21 EDP) → direkt bezahlter Einkauf
+  - Übertrag → Formular 1 Ziff. 13.2 (Code 218 Person 1 / 219 Person 2)
+  berechnung: 13.2 = Σ direkt an VE bezahlte Beiträge/Einkäufe gem. Bescheinigung; LA 10.1/10.2 nicht nochmals, da Ziff. 11 = Ziff. 8 − (Ziff. 9 + 10)
+  beachten:
+  - Ziff. 10.2 enthält auch vom AG übernommene AN-Beiträge, sofern in LA Ziff. 7 als Lohn aufgeführt
+  - Ordentliche Beiträge Ziff. 10.1 ebenfalls bereits im Nettolohn abgezogen
 - ziffer: Lohnausweis Ziff. 13.3
   abschnitt: Lohnausweis (Regeln für Steuererklärung)
   bezeichnung: 'Lohnausweis Ziff. 13.3: Beiträge des Arbeitgebers für berufsorientierte Aus- und Weiterbildung (inkl. Umschulung)'
@@ -1426,7 +3065,32 @@ positionen:
     zitat: Nicht anzugeben sind Vergütungen, die direkt an Dritte
   - chunk: sg-stg-2026__art-30
     zitat: stellen unabhängig von deren Höhe keinen anderen geldwerten Vorteil
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: 16.4 Kosten berufsorientierte Aus-/Weiterbildung Person 1 Aufstellung 223
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: Kosten berufsorientierte Aus-/Weiterbildung Person 2 Aufstellung 224
+  - chunk: sg-stg-2026__art-45-t4
+    zitat: bis zum Gesamtbetrag von Fr. 13 000.– je Steuerpflichtigen
+  - chunk: sg-stg-2026__art-45-t4
+    zitat: das 20. Lebensjahr vollendet ist und es sich nicht um die Ausbildungskosten bis zum ersten Abschluss auf der Sekundarstufe II handelt
+  - chunk: bund-wl-2a-2026__c0055
+    zitat: Abziehbar sind die selbstgetragenen Kosten der berufs-
+  - chunk: bund-ks-42__c0027
+    zitat: im Jahr der Rückvergütung als steuerbares Einkommen
+  - chunk: bund-ks-42__c0028
+    zitat: Der Arbeitgeber hat die Rückvergütungen im Lohnausweis in Ziffer 13.3
+  - chunk: bund-wl-lohnausweis-2026__c0048
+    zitat: Immer zu bescheinigen sind jedoch effektive Vergütungen für Rechnungen, die auf den Na
   status: agent-geprueft
+  rein:
+  - Lohnausweis → Ziff. 13.3 AG-Vergütungen Weiterbildung
+  - Rechnungen/Zahlungsbelege Kurs/Studium (auf Namen AN) → selbst getragene Kosten
+  - Übertrag → Formular 1 Ziff. 16.4 (Code 223 Person 1 / 224 Person 2)
+  berechnung: 16.4 = min(Σ selbst getragene Kosten (Rechnungen − AG-Vergütung LA Ziff. 13.3); 13'000) je Person; Max. Kanton = Bund
+  beachten:
+  - 'AG-getragene Kosten (auch direkt ans Institut): kein Lohn (Art. 30 Abs. 1bis StG); Bund: nur selbst getragene abziehbar'
+  - Nur mit erstem Abschluss Sek. II oder ab 20 J. (nicht Ausbildung bis erster Abschluss Sek. II)
+  - 'Bund: spätere AG-Rückvergütung früher abgezogener Kosten = Einkommen im Jahr der Rückvergütung'
 - ziffer: Lohnausweis Ziff. 15
   abschnitt: Lohnausweis (Regeln für Steuererklärung)
   bezeichnung: 'Lohnausweis Ziff. 15: Bemerkungen (Anzahl Schichttage, «Einer von x Lohnausweisen», Hinweise)'
@@ -1444,7 +3108,32 @@ positionen:
     zitat: Einer von zwei Lohnausweisen
   - chunk: bund-wl-lohnausweis-2026__c0021
     zitat: Privatanteil Geschäftsfahrzeug im Veranlagungsverfahren abzuklären
+  - chunk: sg-form-1-2026-uj__c0004
+    zitat: 3.5 Von Ausgleichskassen direkt ausbezahlte Familienzulagen 142
+  - chunk: sg-form-1-2026-uj__c0003
+    zitat: 1.1 Aus Haupterwerbstätigkeit Person 1 Lohnausweis 100
+  - chunk: sg-form-1-2026-uj__c0003
+    zitat: Nettolohn Person 2 Lohnausweis 102
+  - chunk: bund-wl-lohnausweis-2026__c0051
+    zitat: Angaben über die Höhe der im Bruttolohn enthalte
+  - chunk: bund-wl-lohnausweis-2026__c0021
+    zitat: Übernimmt der Arbeitnehmer beträchtliche Kosten
+  - chunk: bund-wl-lohnausweis-2026__c0021
+    zitat: so ist im entsprechenden Feld 2.2 des Lohnausweises keine Aufrechnung vorzunehmen
+  - chunk: bund-wl-lohnausweis-2026__c0038
+    zitat: In diesem Feld ist der für die Steuererklärung massgebende Nettolohn anzugeben
   status: agent-geprueft
+  rein:
+  - Lohnausweis → Ziff. 15 Schichttage → Formular 4 Schichtarbeit
+  - Lohnausweis → Ziff. 15 «Einer von x Lohnausweisen» → alle LA desselben AG erfassen
+  - Lohnausweis → Ziff. 15 Kinderzulagen/KK-Beiträge im Bruttolohn (nur Info)
+  berechnung: 'Schicht: min(Schichttage × 15; 3''200); Lohn: Σ Ziff. 11 aller Lohnausweise → Formular 1 Ziff. 1.1 (Code 100/102)'
+  beachten:
+  - Im Lohn enthaltene Kinderzulagen nicht nochmals in Ziff. 3.5 (Code 142, nur direkt von Ausgleichskasse)
+  - '«Privatanteil Geschäftsfahrzeug … abzuklären»: AN trägt beträchtliche Kosten, keine Aufrechnung Ziff. 2.2'
+  werte_keys:
+  - berufskosten.schichtarbeit.tag
+  - berufskosten.verpflegung.jahr
 - ziffer: Form. 2 (Wertschriftenverzeichnis)
   abschnitt: Hilfsblatt Wertschriften (Formular 2)
   bezeichnung: 'Wertschriften- und Guthabenverzeichnis: Steuerwert → Ziff. 30.1 (Code 300), Erträge → Ziff. 4.1 (Code 146)'
@@ -1463,7 +3152,52 @@ positionen:
     zitat: 4.1 aus Wertschriften und Guthaben 146
   - chunk: sg-form-1-2026-uj__c0011
     zitat: 30.1 Wertschriften und Guthaben Formular 2 300
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 4.2 aus Beteiligungen an Gesellschaften ab 10 Prozent (Privatvermögen) 147
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 4.3 aus Beteiligungen an Gesellschaften ab 10 Prozent (Geschäftsvermögen) 149
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: 4.4 Abzug Teilbesteuerung Beteiligungserträge 150
+  - chunk: sg-form-1-2026-uj__c0005
+    zitat: Der Abzug beträgt 30 Prozent der
+  - chunk: sg-stg-2026__art-33-t3
+    zitat: sind im Umfang von 70 Prozent steuerbar, wenn diese Beteiligungsrechte wenigstens 10 Prozent
+  - chunk: bund-dbg-2026__art-20-t3
+    zitat: sind im Umfang von 70 Prozent steuerbar
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: 16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen 220
+  - chunk: sg-stb-44-1__c0006
+    zitat: Die Pauschale beträgt 2 Promille bis zu einem Wertschriftenvermögen von Fr. 3 Mio. und
+  - chunk: sg-stb-44-1__c0006
+    zitat: 1 Promille auf dem Fr. 3 Mio. übersteigenden Wertschriftenvermögen. Sie ist auf maximal Fr. 15'000.-- begrenzt
+  - chunk: sg-stb-44-1__c0006
+    zitat: nach Abzug des Geschäftsvermögens, der Darlehen sowie der selbstverwalteten Wertschriften
+  - chunk: sg-stb-44-1__c0005
+    zitat: Eine Kumulation von Pauschalabzug und dem Abzug von
+  - chunk: sg-stb-44-1__c0010
+    zitat: Es gelten daher die gleichen Abzugsregeln wie im kantonalen Recht
+  - chunk: bund-vstg__art-13
+    zitat: 35 Prozent der steuerbaren Leistung
+  - chunk: bund-wl-2a-2026__c0020
+    zitat: verrechnungssteuerbelastete Einkommen sind immer in der
+  - chunk: bund-wl-2a-2026__c0020
+    zitat: gleichzeitig als Antrag auf Rückerstattung der Ver
+  - chunk: sg-mb-8-2026__c0005
+    zitat: March- oder pro rata temporis Zinsen sind nicht zu deklarieren
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Ziffer 16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen
+  - chunk: sg-form-1-2026-uj__c0011
+    zitat: Steuerwert am 31. Dezember 2026 bzw. am Ende der Steuerpflicht
   status: agent-geprueft
+  rein:
+  - Steuerauszug Bank/Depot → Steuerwert 31.12. und Bruttoerträge
+  - Dividendenbelege Beteiligungen ≥ 10 % → Ziff. 4.2 PV (147) / 4.3 GV (149)
+  - Bank-/Depotgebührenbelege → Ziff. 16.1 Verwaltungskosten (Code 220)
+  berechnung: '30.1 (300) = Σ Steuerwerte 31.12. bzw. Ende Steuerpflicht; 4.1 (146) = Σ Bruttoerträge; ≥ 10 %: −30 % (4.4/150); 16.1: 2 ‰ bis 3 Mio. + 1 ‰ darüber, max. 15''000'
+  beachten:
+  - 'Bund-WL: VSt-belastete Erträge immer deklarieren; WS-Verzeichnis dient i.d.R. als Antrag auf VSt-Rückerstattung (35 %)'
+  - '16.1: Pauschale oder effektiv (keine Kumulation); Basis ohne Geschäftsvermögen, Darlehen, selbstverwaltete WS'
+  - 'UJ: nur effektiv zugeflossene Erträge, keine Marchzinsen; Pauschale 16.1 nach Dauer kürzen; 16.1 Kanton = Bund'
 - ziffer: Form. 5 (Schulden/Spenden)
   abschnitt: Hilfsblatt Schulden/Zuwendungen (Formular 5)
   bezeichnung: 'Formular 5: Schuldzinsen → Ziff. 11 (Code 500); Privatschulden → 34.1 (504); Geschäftsschulden → 34.2 (506); Zuwendungen → 21.3 (244); Parteispenden → 16.3 (555)'
@@ -1483,7 +3217,41 @@ positionen:
     zitat: 34.1 Privatschulden Formular 5 504
   - chunk: sg-form-1-2026-uj__c0009
     zitat: 21.3 Freiwillige Zuwendungen (wenn mind. Fr.100, max. 20% Ziffer 20) Formular 5 244
+  - chunk: sg-stg-2026__art-45-t1
+    zitat: soweit sie nicht als Anlagekosten gelten
+  - chunk: sg-stg-2026__art-45-t1
+    zitat: steuerbaren Vermögenserträge zuzüglich Fr. 50 000.–
+  - chunk: bund-dbg-2026__art-33-t1
+    zitat: die privaten Schuldzinsen im Umfang der nach den Artikeln 20, 20a und 21 steuerbaren Vermögenserträge und weiterer 50 000 Franken
+  - chunk: sg-stg-2026__art-46
+    zitat: wenn diese Leistungen im Steuerjahr Fr. 100.– erreichen, insgesamt höchstens 20 Prozent der Nettoeinkünfte
+  - chunk: bund-dbg-2026__art-33a
+    zitat: 20 Prozent der um die Aufwendungen (Art. 26–33) verminderten Einkünfte nicht übersteigen
+  - chunk: sg-stg-2026__art-45-t3
+    zitat: bis zum Gesamtbetrag von Fr. 21 400.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 10 700.– für die übrigen Steuerpflichtigen
+  - chunk: sg-stg-2026__art-45-t3
+    zitat: wenigstens 3 Prozent der Stimmen erreicht haben
+  - chunk: sg-form-1-2026-uj__c0008
+    zitat: 16.3 Parteispenden Formular 5 555
+  - chunk: sg-form-1-2026-uj__c0012
+    zitat: 34.2 Geschäftsschulden Formular 5 506
+  - chunk: sg-form-1-2026-uj__c0011
+    zitat: Steuerwert am 31. Dezember 2026 bzw. am Ende der Steuerpflicht
   status: agent-geprueft
+  rein:
+  - Schuldenausweis Gläubiger → Schuld 31.12.2026 bzw. Ende Steuerpflicht (34.1/504, 34.2/506) und Zinsen (Ziff. 11/500)
+  - Spendenbestätigungen steuerbefreiter Institutionen → Ziff. 21.3 (Code 244)
+  - Belege Parteibeiträge/-spenden → Ziff. 16.3 (Code 555)
+  berechnung: '11: min(Schuldzinsen; Vermögensertrag + 50''000); 21.3: min(Σ Zuwendungen; 20 % × Ziff. 20), wenn Σ ≥ 100; 16.3: Kanton ≤ 10''700 / 21''400 Ehepaar, Bund ≤ 10''600'
+  beachten:
+  - 'Bund 21.3: Basis = um Aufwendungen (Art. 26–33 DBG) verminderte Einkünfte; Schuldzinsen ebenfalls Ertrag + 50''000'
+  - 'Parteien nur: im Parteienregister, im kant. Parlament vertreten oder ≥ 3 % Stimmen bei letzten Wahlen'
+  - 'Kanton: als Anlagekosten geltende Schuldzinsen nicht in Ziff. 11'
+  werte_keys:
+  - spenden.min
+  - spenden.max_satz
+  - parteispenden.max
+  - parteispenden.max_verheiratet
 - ziffer: Form. 6 (Versicherungen/Krankheitskosten)
   abschnitt: Hilfsblatt Versicherungen/Krankheitskosten (Formular 6)
   bezeichnung: 'Formular 6: Versicherungsprämien → Ziff. 14 (Code 600); Krankheitskosten → 21.1 (650); behinderungsbedingte Kosten → 21.2 (235)'
@@ -1500,7 +3268,49 @@ positionen:
     zitat: 14. Versicherungsprämien und Sparzinsen Formular 6 600
   - chunk: sg-form-1-2026-uj__c0009
     zitat: 21.1 Krankheits- und Unfallkosten Formular 6 650
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: bis zum Gesamtbetrag von Fr. 6800.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 3400.– für die übrigen Steuerpflichtigen
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: Diese Abzüge erhöhen sich um Fr. 1100.– für gemeinsam steuerpflichtige Ehegatten und um Fr. 500.– für die übrigen Steuerpflichtigen
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: Sie erhöhen sich um Fr. 1100.– für jedes Kind
+  - chunk: bund-dbg-2026__art-33-t5
+    zitat: um die Hälfte für Steuerpflichtige ohne Beiträge nach Absatz 1 Buchstaben d und e
+  - chunk: bund-dbg-2026__art-33-t5
+    zitat: um 700 Franken für jedes Kind oder jede unterstützungsbedürftige Person
+  - chunk: sg-stg-2026__art-46
+    zitat: soweit der Steuerpflichtige die Kosten selbst trägt und diese 2 Prozent der Nettoeinkünfte übersteigen
+  - chunk: sg-form-1-2026-uj__c0009
+    zitat: abzüglich Selbstbehalt 2% des Nettoeinkommens (Ziffer 20)
+  - chunk: bund-ks-11__c0030
+    zitat: Im Gegensatz dazu ist bei den behinderungsbedingten Kosten kein Selbstbehalt zu berücksichtigen
+  - chunk: sg-form-1-2026-uj__c0009
+    zitat: 21.2 Behinderungsbedingte Kosten (ohne Selbstbehalt) Formular 6 235
+  - chunk: bund-ks-30__c0031
+    zitat: als aufwandmindernd zu berücksichtigen
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Ziffer 14 Versicherungsprämien und Sparzinsen
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Fr. 10’800 ÷ 360 × 180 Tage
+  - chunk: sg-mb-8-2026__c0006
+    zitat: der Dauer der Steuerpflicht zu kürzen. Zur Satzbestimmung werden jedoch die
   status: agent-geprueft
+  rein:
+  - Prämienabrechnungen Kranken-/Lebens-/Unfallversicherung + Zinsausweise Sparkonten → Ziff. 14 (Code 600)
+  - Arzt-/Zahnarzt-/Spitalrechnungen + KK-Leistungsabrechnungen → ungedeckter Teil Ziff. 21.1 (Code 650)
+  - Belege behinderungsbedingte Kosten → Ziff. 21.2 (Code 235)
+  berechnung: '14 = min(Σ Prämien + Sparzinsen; Max): Kanton 6''800/3''400 (ohne 2./3a: 7''900/3''900) + 1''100 je Kind / Bund 3''700/1''800 (ohne: 5''550/2''700) + 700 je Kind'
+  beachten:
+  - 21.1 = selbst getragene Kosten − Selbstbehalt (Kanton 2 % × Ziff. 20 / Bund 5 %); 21.2 ohne Selbstbehalt
+  - 'Max. je Ehepaar/übrige; Bund (KS 30): Prämienverbilligung mindert Abzug – nur selbst getragene Prämien'
+  - 'UJ: Ziff. 14 × Tage ÷ 360, für den Satz voller Betrag'
+  werte_keys:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  - versicherung.kind
+  - krankheitskosten.selbstbehalt_satz
 - ziffer: Form. 7 (Liegenschaften)
   abschnitt: Hilfsblatt Liegenschaften (Formular 7)
   bezeichnung: 'Formular 7: Erträge → Ziff. 5 (Code 712); Unterhalts- und Verwaltungskosten → 15 (716); Steuerwert → 31 (710)'
@@ -1519,7 +3329,42 @@ positionen:
     zitat: 15. Unterhalts- und Verwaltungskosten für Liegenschaften Formular 7 716
   - chunk: sg-form-1-2026-uj__c0011
     zitat: 31. Liegenschaften Formular 7 710
+  - chunk: sg-stg-2026__art-34
+    zitat: Der Mietwert des Eigenheims, das der Steuerpflichtige an seinem Wohnsitz dauernd selbst bewohnt, wird um 30 Prozent herabgesetzt
+  - chunk: sg-stg-2026__art-44-t1
+    zitat: die Versicherungsprämien und die Kosten der Verwaltung durch Dritte abgezogen werden
+  - chunk: sg-stv__art-29
+    zitat: Für vorwiegend Wohnzwecken dienende Liegenschaften kann anstelle der tatsächlichen Kosten ein Pauschalabzug von 20 Prozent
+  - chunk: sg-stv__art-29
+    zitat: für jede Steuerperiode und für jede Liegenschaft zwischen dem Abzug der tatsächlichen Kosten und dem Pauschalabzug wählen
+  - chunk: bund-lkv__art-5
+    zitat: 'wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags'
+  - chunk: bund-lkv__art-5
+    zitat: 'mehr als zehn Jahre alt ist: 20 Prozent des Brutto-Mietertrags'
+  - chunk: bund-lkv__art-5
+    zitat: Ein Pauschalabzug ist ausgeschlossen, wenn die Liegenschaft von Dritten vorwiegend geschäftlich genutzt wird
+  - chunk: sg-stg-2026__art-44-t1
+    zitat: sind in den zwei nachfolgenden Steuerperioden abziehbar
+  - chunk: sg-stb-aenderungen-2026__c0002
+    zitat: Allgemeine Aktualisierung. Abschaffung der Praxis
+  - chunk: sg-stb-aenderungen-2026__c0002
+    zitat: zum wirtschaftlichen Neubau. Präzisierungen zum
+  - chunk: sg-stb-aenderungen-2026__c0002
+    zitat: StB 044 Nr. 2 Liegenschaftsunterhalt / wertver-
   status: agent-geprueft
+  rein:
+  - Schätzungsverfügung → Steuerwert (Ziff. 31, Code 710) und Eigenmietwert
+  - Mietzinsabrechnung/Mieterspiegel → Bruttomietertrag (Ziff. 5, Code 712)
+  - Unterhalts-/Verwaltungsrechnungen, Versicherungsprämien 2026 → Ziff. 15 (Code 716)
+  berechnung: '5 = Mieten + EMW (Kanton: selbstbewohntes Eigenheim −30 %); 15 = effektiv oder Pauschale Kanton 20 % / Bund 10 % (Gebäude ≤ 10 J. bei Periodenbeginn) bzw. 20 %'
+  beachten:
+  - 'Pauschale: Kanton nur vorwiegend Wohnzwecke, Bund nicht bei vorw. geschäftl. Drittnutzung; Wahl je Liegenschaft/Periode'
+  - 'Energiespar-/Rückbaukosten: nicht verrechneter Teil in den zwei folgenden Perioden abziehbar (Kanton)'
+  - 'StB 044 Nr. 2 ab 01.01.2026: Praxis zum wirtschaftlichen Neubau abgeschafft'
+  werte_keys:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  - liegenschaft.eigenmietwert_abzug
 - ziffer: Form. 10 (Kinderbetreuung/Ausbildung)
   abschnitt: Hilfsblatt Kinder (Formular 10)
   bezeichnung: 'Formular 10: Kinderbetreuungskosten → Ziff. 16.2 (Code 258); Ausbildungskosten Kinder → 23.3 (256)'
@@ -1532,10 +3377,44 @@ positionen:
   werte_keys:
   - drittbetreuung.max
   - sozialabzug.kind_ausbildung
+  - sozialabzug.kind_ausbildung_auswaerts
+  - drittbetreuung.altersgrenze
+  - sozialabzug.kind
   bemerkung: Formular 10/2026 nicht publiziert.
   quellen:
   - chunk: sg-form-1-2026-uj__c0008
     zitat: 16.2 Kinderbetreuungskosten bei Drittbetreuung Formular 10 258
   - chunk: sg-form-1-2026-uj__c0010
     zitat: 23.3 Ausbildungskosten für Kinder in Schule oder Ausbildung Formular 10 256
+  - chunk: sg-stg-2026__art-45-t3
+    zitat: die Kosten der Betreuung von Kindern unter 14 Jahren durch Drittpersonen, höchstens Fr. 26 800.– für jedes Kind
+  - chunk: sg-stg-2026__art-48
+    zitat: höchstens weitere Fr. 13 800.– für Ausbildungskosten
+  - chunk: sg-stg-2026__art-48
+    zitat: soweit sie der Steuerpflichtige selbst trägt und sie Fr. 3200.– übersteigen
+  - chunk: sg-stg-2026__art-48
+    zitat: werden die Sozialabzüge anteilmässig gewährt; für die Bestimmung des Steuersatzes werden sie voll angerechnet
+  - chunk: bund-dbg-2026__art-35
+    zitat: 6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Ziffer 16.2 Kinderbetreuungskosten
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Ziffer 23 Sozialabzüge
+  - chunk: sg-mb-8-2026__c0006
+    zitat: Fr. 10’800 ÷ 360 × 180 Tage
+  - chunk: sg-mb-8-2026__c0011
+    zitat: 16.2 Höherer Abzug Kinderbetreuungskosten
+  - chunk: sg-mb-8-2026__c0011
+    zitat: Abzug pro Kind neu max. Fr.
+  - chunk: sg-mb-8-2026__c0011
+    zitat: 23.3 Ausbildungskosten pro Kind in Schule/Ausbildung neu max. Fr.
   status: agent-geprueft
+  rein:
+  - Rechnungen Kita/Tagesfamilie/Hort → Ziff. 16.2 (Code 258), je Kind unter 14 J.
+  - Nachweis Erwerbstätigkeit/Ausbildung/Erwerbsunfähigkeit → Kausalität Betreuung
+  - Rechnungen Schul-/Ausbildungskosten Kind (selbst getragen) → Ziff. 23.3 (Code 256)
+  berechnung: 16.2 = min(Betreuungskosten; Kanton 26'800 / Bund 25'800) je Kind; 23.3 (nur Kanton) = min(max(Ausbildungskosten − 3'200; 0); 13'800) je Kind
+  beachten:
+  - 16.2 nur für Kind unter 14 J. im gleichen Haushalt; Kosten kausal zu Erwerb/Ausbildung/Erwerbsunfähigkeit
+  - 'UJ: 16.2 und 23.3 × Tage ÷ 360, Satz voll; 2026 neu: 16.2 max. 26''800, 23.3 max. 13''800'
+  - 'Bund: kein Ausbildungskostenabzug – nur Kinderabzug 6''800 (Art. 35 DBG)'

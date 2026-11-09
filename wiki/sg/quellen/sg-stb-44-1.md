@@ -15,9 +15,11 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-44-1`).
+Zitiert in 3 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-44-1`).
 
 - `data/zuordnung/sg/2026.yaml#34:abzug.verwaltungskosten_wertschriften@16.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#43:abzug.behinderungskosten@21.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#83:einkommen.wertschriften@Form. 2 (Wertschriftenverzeichnis)` (agent-geprueft)
 - [wiki/themen/wertschriften-verrechnungssteuer.md](../../themen/wertschriften-verrechnungssteuer.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

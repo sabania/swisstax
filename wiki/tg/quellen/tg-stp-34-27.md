@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 12 Daten-Einträgen und 5 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-34-27`).
+Zitiert in 13 Daten-Einträgen und 5 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-34-27`).
 
 - `data/werte/tg/2025.yaml#21:versicherung.verheiratet` (agent-geprueft)
 - `data/werte/tg/2025.yaml#23:versicherung.alleinstehend` (agent-geprueft)
@@ -29,6 +29,7 @@ Zitiert in 12 Daten-Einträgen und 5 handgeschriebenen Seiten (`python3 tools/im
 - `data/zuordnung/tg/2025.yaml#34:abzug.drittbetreuung@15.3` (strittig)
 - `data/zuordnung/tg/2025.yaml#36:abzug.parteispenden@15.5` (agent-geprueft)
 - `data/zuordnung/tg/2025.yaml#41:abzug.zweiverdiener@18` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#2:sozialabzug.unterstuetzung@S. 1 Unterstützte` (agent-geprueft)
 - [wiki/themen/kinderdrittbetreuung.md](../../themen/kinderdrittbetreuung.md)
 - [wiki/themen/saeule-3a.md](../../themen/saeule-3a.md)
 - [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)

@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 26 Daten-Einträgen und 10 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stv`).
+Zitiert in 36 Daten-Einträgen und 10 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stv`).
 
 - `data/belege-teil2.yaml#6:liegenschaft-nebenkosten-gebaeudeversicherung` (agent-geprueft)
 - `data/werte/sg/2025.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
@@ -33,16 +33,26 @@ Zitiert in 26 Daten-Einträgen und 10 handgeschriebenen Seiten (`python3 tools/i
 - `data/werte/sg/2026.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
 - `data/werte/sg/2026.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
 - `data/werte/sg/2026.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#31:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#95:abzug.liegenschaft.unterhalt@Form. 7 Abschnitt C` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#14:einkommen.liegenschaften.eigenmietwert@5` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#15:einkommen.unterhaltsbeitraege@6.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#23:berechnung.total@10.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#2:einkommen.unselbstaendig.vr_honorare@1.3` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#33:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#46:sozialabzug.kinder@23.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#52:vermoegen.bargeld_edelmetalle@30.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#54:vermoegen.fahrzeuge@30.4` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#55:vermoegen.erbschaften_beteiligungen@30.5` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#56:vermoegen.uebrige@30.6` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#57:vermoegen.liegenschaften@31` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#69:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.3` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#70:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#71:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#73:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#74:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#75:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#86:vermoegen.liegenschaften@Form. 7 (Liegenschaften)` (agent-geprueft)
 - [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 - [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)

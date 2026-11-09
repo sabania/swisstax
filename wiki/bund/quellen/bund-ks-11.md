@@ -16,7 +16,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 7 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-11`).
+Zitiert in 20 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-11`).
 
 - `data/belege-teil1.yaml#14:arzt-zahnarzt-rechnungen` (agent-geprueft)
 - `data/werte/bund/2025.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
@@ -25,6 +25,19 @@ Zitiert in 7 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/imp
 - `data/zuordnung/ar/2025.yaml#22:info.steuerfreie_leistungen@8.3` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#91:abzug.krankheitskosten@Form. 6 S. 2` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#92:abzug.behinderungskosten@Form. 6 S. 2 (behinderungsbedingt)` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#22:info.steuerfreie_leistungen@8.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#42:abzug.krankheitskosten@21.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#43:abzug.behinderungskosten@21.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#85:abzug.versicherungspraemien@Form. 6 (Versicherungen/Krankheitskosten)` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#90:abzug.krankheitskosten@Form. 5.1 D` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#102:abzug.krankheitskosten@Form. 370 S.1 Teil A Ziff. 1` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#105:abzug.krankheitskosten@Form. 370 S.1 Teil B` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#106:abzug.krankheitskosten@Form. 370 S.1 Teil C/D` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#107:abzug.krankheitskosten@Form. 370 S.1 Teil E` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#108:abzug.behinderungskosten@Form. 370 S.2 Teil A/B` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#109:abzug.behinderungskosten@Form. 370 S.2 Teil C/D` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#34:abzug.behinderungskosten@16.4` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#54:abzug.behinderungskosten@16.4` (agent-geprueft)
 - [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

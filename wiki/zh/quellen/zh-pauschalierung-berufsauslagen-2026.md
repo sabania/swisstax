@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 16 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-pauschalierung-berufsauslagen-2026`).
+Zitiert in 24 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-pauschalierung-berufsauslagen-2026`).
 
 - `data/werte/zh/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
 - `data/werte/zh/2026.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
@@ -33,6 +33,14 @@ Zitiert in 16 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/im
 - `data/werte/zh/2026.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
 - `data/werte/zh/2026.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
 - `data/werte/zh/2026.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#28:berechnung.total@11.1 / 11.2` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#30:abzug.berufskosten.fahrkosten@Form. 360 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#31:abzug.berufskosten.fahrkosten@Form. 360 Ziff. 1.3` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#32:abzug.berufskosten.fahrkosten@Form. 360 Ziff. 1 (Zwischentotal)` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#33:abzug.berufskosten.fahrkosten@Form. 360 Ziff. 7` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#34:abzug.berufskosten.verpflegung@Form. 360 Ziff. 2.1 (verbilligt)` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#37:abzug.berufskosten.uebrige@Form. 360 Ziff. 3` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#38:abzug.berufskosten.wochenaufenthalt@Form. 360 Ziff. 4` (agent-geprueft)
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 - [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 - [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)

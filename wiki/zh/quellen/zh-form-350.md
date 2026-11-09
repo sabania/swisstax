@@ -15,9 +15,12 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 4 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-350`).
+Zitiert in 7 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-350`).
 
+- `data/zuordnung/zh/2025.yaml#100:abzug.liegenschaft.energie_umwelt@Form. 350 / Ziff. 16 Unterhalt` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#20:einkommen.liegenschaften.mietertrag@6` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#60:vermoegen.liegenschaften@31.1` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#61:vermoegen.liegenschaften@31.2` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#97:vermoegen.liegenschaften@Form. 350 Seite 1` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#98:einkommen.liegenschaften.eigenmietwert@Form. 350 Seite 2 Spalte Eigenmietwert` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#99:abzug.liegenschaft.unterhalt@Form. 350 Seite 2 Spalte Unterhalts- und Verwaltungskosten` (agent-geprueft)

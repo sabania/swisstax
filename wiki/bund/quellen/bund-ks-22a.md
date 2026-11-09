@@ -15,8 +15,10 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-22a`).
+Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-22a`).
 
+- `data/zuordnung/sg/2026.yaml#25:abzug.schuldzinsen@11` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#97:schulden.privat@Form. 4.1 B` (agent-geprueft)
 - [wiki/themen/schuldzinsen-schulden.md](../../themen/schuldzinsen-schulden.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

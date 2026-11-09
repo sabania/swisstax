@@ -15,14 +15,27 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 6 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-lkv`).
+Zitiert in 19 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-lkv`).
 
 - `data/werte/bund/2025.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
 - `data/werte/bund/2025.yaml#41:liegenschaft.pauschale_alt` (agent-geprueft)
 - `data/werte/bund/2026.yaml#40:liegenschaft.pauschale_neu` (agent-geprueft)
 - `data/werte/bund/2026.yaml#41:liegenschaft.pauschale_alt` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#96:abzug.liegenschaft.unterhalt@Form. 7 Abschn. C` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#31:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#95:abzug.liegenschaft.unterhalt@Form. 7 Abschnitt C` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#96:berechnung.total@Form. 7Z` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#86:vermoegen.liegenschaften@Form. 7 (Liegenschaften)` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#111:abzug.liegenschaft.unterhalt@Form. 7 Unterhalt` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#109:abzug.liegenschaft.unterhalt@Form. 7 Unterhalts-/Betriebskosten` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#110:berechnung.total@Form. 7 Nettoerfolg / Totale` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#23:einkommen.liegenschaften.mietertrag@8.1` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#20:einkommen.liegenschaften.mietertrag@6` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#99:abzug.liegenschaft.unterhalt@Form. 350 Seite 2 Spalte Unterhalts- und Verwaltungskosten` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#22:einkommen.liegenschaften.eigenmietwert@6` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#25:abzug.liegenschaft.unterhalt@6` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#26:abzug.liegenschaft.energie_umwelt@6` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#84:einkommen.liegenschaften.eigenmietwert@Form. 350` (agent-geprueft)
 - [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
 - [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
 

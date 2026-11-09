@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 29 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-bkv`).
+Zitiert in 40 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-bkv`).
 
 - `data/werte/tg/2025.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
 - `data/werte/tg/2025.yaml#11:berufskosten.wochenaufenthalt.verpflegung_jahr` (agent-geprueft)
@@ -46,6 +46,17 @@ Zitiert in 29 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/im
 - `data/werte/tg/2026.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
 - `data/werte/tg/2026.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
 - `data/werte/tg/2026.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#80:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#86:abzug.berufskosten.verpflegung@Form. 4.2 Ziff. 3.1` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#88:abzug.berufskosten.uebrige@Form. 4.2 Ziff. 4` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#89:abzug.berufskosten.wochenaufenthalt@Form. 4.2 Ziff. 5.1` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#90:abzug.berufskosten.wochenaufenthalt@Form. 4.2 Ziff. 5.2` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#74:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#76:abzug.berufskosten.fahrkosten@Form. 4.2/4.3 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#80:abzug.berufskosten.verpflegung@Form. 4.2/4.3 Ziff. 3.1` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#81:abzug.berufskosten.verpflegung@Form. 4.2/4.3 Ziff. 3.2` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#83:abzug.berufskosten.wochenaufenthalt@Form. 4.2/4.3 Ziff. 5.1` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#84:abzug.berufskosten.wochenaufenthalt@Form. 4.2/4.3 Ziff. 5.2` (agent-geprueft)
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 - [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 - [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)

@@ -15,11 +15,18 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 3 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-mb-21edp`).
+Zitiert in 10 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-mb-21edp`).
 
 - `data/belege-teil1.yaml#4:bescheinigung-saeule3a` (agent-geprueft)
 - `data/belege-teil1.yaml#5:bescheinigung-pk-einkauf` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#1:einkommen.unselbstaendig.haupterwerb@1.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#29:abzug.vorsorge.saeule2_einkauf@13.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#81:abzug.vorsorge.saeule2_einkauf@Lohnausweis Ziff. 10.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#29:abzug.vorsorge.saeule3a@13.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#30:abzug.vorsorge.saeule3a_einkauf@13.1 (Einkauf)` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#31:abzug.vorsorge.saeule2_einkauf@13.2` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#28:abzug.vorsorge.saeule3a_einkauf@14.3 (ab 2026)` (na)
+- `data/zuordnung/zh/2025.yaml#30:abzug.vorsorge.saeule2_einkauf@16.1` (agent-geprueft)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

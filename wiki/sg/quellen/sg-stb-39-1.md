@@ -15,10 +15,14 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-1`).
+Zitiert in 6 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-1`).
 
 - `data/werte/sg/2025.yaml#19:berufskosten.homeoffice` (agent-geprueft)
 - `data/werte/sg/2026.yaml#19:berufskosten.homeoffice` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#74:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#75:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#73:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#74:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.2` (agent-geprueft)
 - [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 
 ## Inhalt (6 Chunks)

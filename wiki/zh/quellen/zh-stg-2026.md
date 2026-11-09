@@ -16,7 +16,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 35 Daten-Einträgen und 27 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-stg-2026`).
+Zitiert in 41 Daten-Einträgen und 27 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-stg-2026`).
 
 - `data/werte/zh/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
 - `data/werte/zh/2026.yaml#20:weiterbildung.max` (agent-geprueft)
@@ -49,10 +49,16 @@ Zitiert in 35 Daten-Einträgen und 27 handgeschriebenen Seiten (`python3 tools/i
 - `data/werte/zh/2026.yaml#62:tarif.hoechstsatz_ab_verheiratet` (agent-geprueft)
 - `data/werte/zh/2026.yaml#72:tarif.kapitalleistung_vorsorge` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#23:sozialabzug.eigenmietwert@6 (Härtefall/Unternutzung)` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#41:abzug.unterhaltsbeitraege@13.1` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#43:abzug.uebrige@13.3` (strittig)
 - `data/zuordnung/zh/2026.yaml#54:abzug.behinderungskosten@16.4` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#57:abzug.uebrige@16.5 (übrige)` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#68:sozialabzug.kinder@24.1` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#69:sozialabzug.unterstuetzung@24.2` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#81:vermoegen.uebrige@30.6` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#90:berechnung.total@37` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#91:vermoegen.sozialabzug@(Tarif § 47)` (agent-geprueft)
+- … 1 weitere
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
 - [wiki/themen/erwerbsersatz-taggelder.md](../../themen/erwerbsersatz-taggelder.md)
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)

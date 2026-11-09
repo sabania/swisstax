@@ -15,10 +15,11 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 2 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-v-einreichung`).
+Zitiert in 3 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-v-einreichung`).
 
 - `data/werte/zh/2025.yaml#66:verfahren.abgabeweg` (agent-geprueft)
 - `data/werte/zh/2026.yaml#66:verfahren.abgabeweg` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#72:verfahren.einreichung@Seite 1 / 4` (agent-geprueft)
 - [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
 - [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 

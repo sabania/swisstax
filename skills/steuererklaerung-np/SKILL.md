@@ -37,7 +37,7 @@ Kinderbetreuungsrechnungen, Weiterbildungsrechnungen, Spendenbestätigungen, Unt
 ## 3. Zuordnen und berechnen
 
 Für jeden extrahierten Wert:
-1. Ziffer und Feldcode aus `quick/zuordnung-<kt>-<jahr>.md` (Kurzregel; volle Regel/Feld über ↗ in `wiki/<kt>/zuordnung-<kt>-<jahr>-detail.md`) bzw. `quick/belege-ziffern.md`.
+1. Ziffer, Feldcode und Rechenweg aus `quick/wegleitung-<kt>-<jahr>.md` (Kompakt-Wegleitung: Rein · Rechnen · Limite · Beachten) bzw. `quick/zuordnung-<kt>-<jahr>.md` (Kurzregel; volle Regel/Feld über ↗ in `wiki/<kt>/zuordnung-<kt>-<jahr>-detail.md`) bzw. `quick/belege-ziffern.md`.
 2. Limite/Pauschale aus `quick/werte-<kt>-<jahr>.md` (Kanton) **und** `quick/werte-bund-<jahr>.md` (direkte
    Bundessteuer) – Abzüge getrennt rechnen, wo sie sich unterscheiden (Fahrkosten-Maximum, Versicherungsabzug,
    Kinderabzug, Drittbetreuung, Weiterbildung, Zweiverdiener, Parteispenden, Krankheitskosten-Selbstbehalt).

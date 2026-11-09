@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 29 Daten-Einträgen und 9 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-wl-2a-2025`).
+Zitiert in 52 Daten-Einträgen und 9 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-wl-2a-2025`).
 
 - `data/belege-teil2.yaml#5:liegenschaft-mietertraege` (agent-geprueft)
 - `data/belege-teil3.yaml#14:steuerberatungskosten` (agent-geprueft)
@@ -46,6 +46,18 @@ Zitiert in 29 Daten-Einträgen und 9 handgeschriebenen Seiten (`python3 tools/im
 - `data/werte/bund/2025.yaml#8:berufskosten.verpflegung.verbilligt_jahr` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#96:abzug.liegenschaft.unterhalt@Form. 7 Abschn. C` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#98:abzug.drittbetreuung@Form. 10` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#24:abzug.schuldzinsen@11` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#25:abzug.unterhaltsbeitraege@12.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#26:abzug.unterhaltsbeitraege@12.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#27:abzug.unterhaltsbeitraege@12.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#28:abzug.vorsorge.saeule3a@13.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#32:abzug.verwaltungskosten_wertschriften@16.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#33:abzug.drittbetreuung@16.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#34:abzug.parteispenden@16.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#36:abzug.ahv_nichterwerbstaetige@16.5` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#37:abzug.zweiverdiener@17` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#42:abzug.spenden@21.3` (agent-geprueft)
+- … 12 weitere
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 - [wiki/themen/selbstaendige-naturalbezuege.md](../../themen/selbstaendige-naturalbezuege.md)
 - [wiki/themen/spenden-parteispenden.md](../../themen/spenden-parteispenden.md)

@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 91 Daten-Einträgen und 30 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stg-2026`).
+Zitiert in 101 Daten-Einträgen und 30 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stg-2026`).
 
 - `data/werte/sg/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
 - `data/werte/sg/2026.yaml#20:weiterbildung.max` (agent-geprueft)
@@ -57,7 +57,7 @@ Zitiert in 91 Daten-Einträgen und 30 handgeschriebenen Seiten (`python3 tools/i
 - `data/werte/sg/2026.yaml#72:tarif.kapitalleistung_vorsorge` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#0:einkommen.unselbstaendig.haupterwerb@1.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#10:einkommen.wertschriften@4.1` (agent-geprueft)
-- … 51 weitere
+- … 61 weitere
 - [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)

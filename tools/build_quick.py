@@ -511,7 +511,8 @@ def write_belege(B, Z):
 
 ROUTER = [
     ("Ist ein Dokument des Mandanten steuerrelevant?", "[Belege-Relevanz](belege-relevanz.md) → Detailkarte des Belegs"),
-    ("In welche Ziffer gehört ein Beleg / eine Zahl?", "[Beleg × Ziffer](belege-ziffern.md) bzw. Zuordnung Kanton/Jahr (Tabelle unten)"),
+    ("Was gehört in Ziffer X, woher kommt die Zahl, wie rechne ich?", "**Kompakt-Wegleitung** Kanton/Jahr (Tabelle unten): je Position Rein · Rechnen · Limite · Beachten"),
+    ("In welche Ziffer gehört ein Beleg / eine Zahl?", "[Beleg × Ziffer](belege-ziffern.md) bzw. Zuordnung/Kompakt-Wegleitung Kanton/Jahr (Tabelle unten)"),
     ("Welche Limite / Pauschale / welcher Satz gilt?", "Eckwerte Kanton/Jahr (Tabelle unten) oder [Vergleich 2025](vergleich-2025.md) · [2026](vergleich-2026.md)"),
     ("Kanton vs. Bund vergleichen, mehrere Kantone", "[Vergleich 2025](vergleich-2025.md) · [Vergleich 2026](vergleich-2026.md)"),
     ("Lohnausweis: Felder F/G, Ziff. 10.2, 13, 15?", "Zuordnung Kanton/Jahr → Abschnitt «Lohnausweis-Regeln» · [Belegkarte Lohnausweis](../wiki/belege/beleg-lohnausweis.md)"),
@@ -543,6 +544,8 @@ def write_index(W, Z):
         cells = []
         for y in years:
             parts = []
+            if (Q / f"wegleitung-{j}-{y}.md").exists():
+                parts.append(f"[Kompakt-Wegleitung](wegleitung-{j}-{y}.md)")
             if (j, y) in Z:
                 parts.append(f"[Zuordnung](zuordnung-{j}-{y}.md)")
             if (j, y) in W:

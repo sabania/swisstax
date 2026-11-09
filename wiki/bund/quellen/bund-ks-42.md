@@ -15,9 +15,13 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-42`).
+Zitiert in 5 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-42`).
 
 - `data/belege-teil2.yaml#8:weiterbildung-rechnungen` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#82:abzug.weiterbildung@Lohnausweis Ziff. 13.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#37:abzug.weiterbildung@16.4` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#81:abzug.weiterbildung@Lohnausweis Ziff. 13.3` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#32:abzug.weiterbildung@16.2` (agent-geprueft)
 - [wiki/themen/weiterbildung.md](../../themen/weiterbildung.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

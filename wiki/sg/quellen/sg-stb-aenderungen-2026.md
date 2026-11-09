@@ -15,8 +15,10 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-aenderungen-2026`).
+Zitiert in 2 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-aenderungen-2026`).
 
+- `data/zuordnung/sg/2026.yaml#33:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#86:vermoegen.liegenschaften@Form. 7 (Liegenschaften)` (agent-geprueft)
 - [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
 - [wiki/themen/liegenschaftsunterhalt.md](../../themen/liegenschaftsunterhalt.md)
 - [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)

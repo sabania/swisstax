@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 73 Daten-Einträgen und 19 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-1-2026-uj`).
+Zitiert in 77 Daten-Einträgen und 19 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-1-2026-uj`).
 
 - `data/zuordnung/sg/2026.yaml#0:einkommen.unselbstaendig.haupterwerb@1.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#10:einkommen.wertschriften@4.1` (agent-geprueft)
@@ -57,7 +57,7 @@ Zitiert in 73 Daten-Einträgen und 19 handgeschriebenen Seiten (`python3 tools/i
 - `data/zuordnung/sg/2026.yaml#43:abzug.behinderungskosten@21.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#44:abzug.spenden@21.3` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#45:berechnung.total@22` (agent-geprueft)
-- … 33 weitere
+- … 37 weitere
 - [wiki/themen/erwerbsersatz-taggelder.md](../../themen/erwerbsersatz-taggelder.md)
 - [wiki/themen/kinder-sozialabzuege.md](../../themen/kinder-sozialabzuege.md)
 - [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)

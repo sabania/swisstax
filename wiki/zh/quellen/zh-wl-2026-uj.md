@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 124 Daten-Einträgen und 30 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-wl-2026-uj`).
+Zitiert in 137 Daten-Einträgen und 30 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-wl-2026-uj`).
 
 - `data/werte/zh/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
 - `data/werte/zh/2026.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
@@ -57,7 +57,7 @@ Zitiert in 124 Daten-Einträgen und 30 handgeschriebenen Seiten (`python3 tools/
 - `data/werte/zh/2026.yaml#64:verfahren.einreichefrist` (agent-geprueft)
 - `data/werte/zh/2026.yaml#66:verfahren.abgabeweg` (agent-geprueft)
 - `data/werte/zh/2026.yaml#67:verfahren.beilagen_schwellen` (agent-geprueft)
-- … 84 weitere
+- … 97 weitere
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
 - [wiki/themen/erwerbsersatz-taggelder.md](../../themen/erwerbsersatz-taggelder.md)

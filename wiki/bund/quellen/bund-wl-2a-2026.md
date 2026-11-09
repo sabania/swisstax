@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 18 Daten-Einträgen und 6 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-wl-2a-2026`).
+Zitiert in 61 Daten-Einträgen und 6 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-wl-2a-2026`).
 
 - `data/werte/ar/2026.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
 - `data/werte/ar/2026.yaml#29:saeule3a.einkauf` (agent-geprueft)
@@ -34,7 +34,30 @@ Zitiert in 18 Daten-Einträgen und 6 handgeschriebenen Seiten (`python3 tools/im
 - `data/werte/bund/2026.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
 - `data/werte/sg/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
 - `data/werte/sg/2026.yaml#27:saeule3a.max_ohne_2saeule` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#0:einkommen.unselbstaendig.haupterwerb@1.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#10:einkommen.wertschriften@4.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#12:einkommen.beteiligungen_qualifiziert@4.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#15:einkommen.unterhaltsbeitraege@6.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#16:einkommen.erbschaften_unverteilt@6.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#17:einkommen.uebrige@6.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#18:einkommen.kapitalabfindung_wiederkehrend@6.4` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#20:einkommen.vereinfachtes_verfahren@8.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#23:berechnung.total@10.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#25:abzug.schuldzinsen@11` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#26:abzug.unterhaltsbeitraege@12.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#27:abzug.unterhaltsbeitraege@12.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#28:abzug.unterhaltsbeitraege@12.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#29:abzug.vorsorge.saeule3a@13.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#30:abzug.vorsorge.saeule3a_einkauf@13.1 (Einkauf)` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#32:abzug.versicherungspraemien@14` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#33:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#35:abzug.drittbetreuung@16.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#36:abzug.parteispenden@16.3` (strittig)
+- `data/zuordnung/sg/2026.yaml#37:abzug.weiterbildung@16.4` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#38:abzug.ahv_nichterwerbstaetige@16.5` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#39:abzug.zweiverdiener@17` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#3:einkommen.selbstaendig@2.1` (agent-geprueft)
+- … 21 weitere
 - [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 - [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)

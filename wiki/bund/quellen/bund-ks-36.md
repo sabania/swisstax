@@ -13,6 +13,15 @@ generiert: tools/build_index.py
 - **Abgerufen:** 2026-11-09 · sha256 `9f1d4a9d70a7049c…`
 - **Gültigkeit:** Zeitbezug dauernd (Praxis bis zum Ersatz) · gilt ab 2012-07-27 bis offen
 
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 4 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-36`).
+
+- `data/zuordnung/sg/2025.yaml#84:schulden.privat@Form. 5 Teil A` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#101:schulden.privat@Form. 4.1 A` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#102:schulden.privat@Form. 4.1 B` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#103:schulden.privat@Form. 4.1 C` (agent-geprueft)
+
 ## Hinweise zur Quelle (aus dem Chunking)
 
 - Fussnoten teils im Fliesstext (S. 2-3).

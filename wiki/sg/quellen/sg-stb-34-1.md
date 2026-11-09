@@ -15,9 +15,15 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-34-1`).
+Zitiert in 7 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-34-1`).
 
+- `data/zuordnung/sg/2025.yaml#14:einkommen.liegenschaften.eigenmietwert@5` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#93:einkommen.liegenschaften.eigenmietwert@Form. 7 Abschnitt B.a` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#95:abzug.liegenschaft.unterhalt@Form. 7 Abschnitt C` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#14:einkommen.liegenschaften.eigenmietwert@5` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#20:einkommen.vereinfachtes_verfahren@8.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#21:info.steuerfreie_leistungen@8.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#22:info.steuerfreie_leistungen@8.3` (agent-geprueft)
 - [wiki/themen/liegenschaften-eigenmietwert.md](../../themen/liegenschaften-eigenmietwert.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

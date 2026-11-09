@@ -18,7 +18,25 @@ positionen:
     zitat: 1.1 Aus Haupterwerbstätigkeit Person 1 Lohnausweis 100
   - chunk: sg-wl-2025__c0042
     zitat: Einzusetzen ist der Nettolohn gemäss Lohnausweis
+  - chunk: sg-wl-2025__c0039
+    zitat: festgesetzte Besoldung, aber auch die Nebenbezüge wie Familienzulagen
+  - chunk: sg-wl-2025__c0041
+    zitat: Spesenentschädigungen sind dem steuerbaren Einkommen zuzurechnen
+  - chunk: sg-wl-2025__c0040
+    zitat: Nicht steuerbar sind die vom Arbeitgeber getragenen Kosten der berufsorientierten
+  - chunk: sg-stb-39-9__c0007
+    zitat: bis die Mindestquote von zwei Drittel überschritten wird
+  - chunk: bund-form-12-2025__c0001
+    zitat: Bezüge 2025 (gemäss Ziffer 11 des Lohnausweises)
   status: agent-geprueft
+  rein:
+  - Lohnausweis (je Arbeitgeber einer) → Ziff. 11 Nettolohn
+  - Lohnausweis → inkl. Nebenbezüge (Familienzulagen, Provisionen, Gratifikationen, Mitarbeiteraktien); Zulagen ausserhalb LA → Ziff. 3.5
+  berechnung: Σ Nettolohn gemäss Lohnausweis aller Haupterwerbs-Arbeitgeber je Person (Bruttolohn − AHV/IV/EO/ALV/NBUV − ordentliche BVG-Beiträge)
+  beachten:
+  - Teilzeitstellen zusammenzählen bis Mindestquote zwei Drittel überschritten; nur weitere untergeordnete Tätigkeit → Ziff. 1.2
+  - Spesen steuerbar, soweit kein Ersatz berufsnotwendiger Auslagen (Nachweis Empfänger); Pauschalspesen immer im Lohnausweis
+  - Vom Arbeitgeber getragene berufsorientierte Aus-/Weiterbildung ist nicht steuerbar
 - ziffer: '1.2'
   abschnitt: Einkünfte
   bezeichnung: Aus Nebenerwerbstätigkeit unselbständig (Code 104 Person 1 / 106 Person 2)
@@ -33,7 +51,32 @@ positionen:
     zitat: 1.2 Aus Nebenerwerbstätigkeit Person 1 Lohnausweis 104
   - chunk: sg-wl-2025__c0043
     zitat: Als Nebenerwerb gilt eine Tätigkeit, die gleichzeitig neben einem Haupterwerb
+  - chunk: sg-stb-39-9__c0009
+    zitat: Überstunden für den Hauptarbeitgeber gelten nicht als Nebenerwerbstätigkeit
+  - chunk: sg-stb-39-9__c0008
+    zitat: Ein Erwerbstätiger mit nur einer Beschäftigung führt immer eine Haupterwerbstätigkeit aus
+  - chunk: sg-form-4-2025__c0004
+    zitat: '5.1 Pauschalabzug: 20% der Nettoeinkünfte, mindestens Fr. 800,'
+  - chunk: sg-stb-39-9__c0012
+    zitat: Die Pauschale von 20% errechnet sich aus der Summe aller Nebenerwerbseinkünfte
+  - chunk: sg-stb-39-9__c0012
+    zitat: höchstens ein Pauschalabzug in gleicher Höhe zulässig
+  - chunk: bund-form-12-2025__c0001
+    zitat: Bezüge 2025 (gemäss Ziffer 11 des Lohnausweises)
   status: agent-geprueft
+  rein:
+  - Lohnausweis Nebenarbeitgeber → Ziff. 11 Nettolohn
+  - Abrechnung/Bescheinigung je Nebentätigkeit (Provisionen, Gutachten, Lehrtätigkeit, Vereinsleitung, Hauswartung) → Entschädigung
+  - Mietvertrag Hauswart → Differenz normaler zu reduziertem Mietzins
+  berechnung: Σ Nettolöhne aller Nebenerwerbe je Person + (normaler − reduzierter Mietzins); Art der Tätigkeit angeben
+  beachten:
+  - Setzt einen Haupterwerb voraus; Überstunden beim Hauptarbeitgeber sind kein Nebenerwerb
+  - Nur eine Beschäftigung (z.B. Rentner mit Teilpensum) ist immer Haupterwerb → Ziff. 1.1
+  - 'Pauschale Form. 4 Ziff. 5.1: min(max(20% × Σ Nebenerwerb netto; 800); 2''400; Nettoeinkünfte); Bund gleiche Eckwerte'
+  werte_keys:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
 - ziffer: '1.3'
   abschnitt: Einkünfte
   bezeichnung: Sitzungsgelder, VR-Honorare usw. (Code 108 Person 1 / 110 Person 2)
@@ -47,9 +90,29 @@ positionen:
     zitat: 1.3 Sitzungsgelder, VR-Honorare usw. Person 1 Bescheinigung 108
   - chunk: sg-wl-2025__c0044
     zitat: Sitzungs- und Taggelder, Verwaltungsratshonorare und Tantiemen
+  - chunk: bund-form-12-2025__c0001
+    zitat: Bezüge 2025 (gemäss Ziffer 11 des Lohnausweises)
+  - chunk: bund-form-12-2025__c0003
+    zitat: sind sämtliche Bezüge aus beiden Funktionen auf
+  - chunk: bund-form-12-2025__c0003
+    zitat: Absatz 2 DBG ein Doppel des Lohnausweises zuzustellen
+  - chunk: bund-form-12-2025__c0002
+    zitat: einem Lohnausweis aufzuführen. Bei der Bescheinigung von
+  - chunk: bund-form-12-2025__c0002
+    zitat: Tantiemen ist das Kalenderjahr massgebend
+  - chunk: sg-wl-2025__c0082
+    zitat: für Einkünfte aus Verwaltungsratstätigkeit, weil die damit verbundenen Unkosten
   status: agent-geprueft
   bemerkung: 'korrigiert durch Prüfung: Lohnausweis-Ziffer für VR-Entschädigungen ist Ziff. 6 (nicht Ziff. 4 = Kapitalleistungen); Beleg: Lohnausweis-Wegleitung (im Wiki nur 2026, Rz 30), Formularstruktur
     gilt unverändert.'
+  rein:
+  - Lohnausweis (Doppel) der Gesellschaft für das Mandat → Bezüge gemäss Lohnausweis Ziff. 11
+  - Bescheinigung Behörde/Gemeinde → Sitzungs- und Taggelder
+  berechnung: Σ Sitzungs-/Taggelder, VR-Honorare und Tantiemen je Person, soweit nicht bereits in Ziff. 1.1/1.2 deklariert
+  beachten:
+  - 'VR zugleich Angestellter: alle Bezüge auf einem Lohnausweis → schon in Ziff. 1.1, nicht doppelt erfassen'
+  - 'Tantiemen: Kalenderjahr massgebend, in dem sie beschlossen und ausgerichtet/gutgeschrieben wurden'
+  - Nebenerwerbspauschale i.d.R. nicht für VR-Honorare (Unkosten meist zusätzlich vergütet)
 - ziffer: '2.1'
   abschnitt: Einkünfte
   bezeichnung: 'Selbständige Erwerbstätigkeit: Industrie-, Handels-, Gewerbebetriebe, Landwirtschaft, freie Berufe (Code 112 Person 1 / 114 Person 2)'
@@ -64,7 +127,34 @@ positionen:
     zitat: 2.1 Person 1 112
   - chunk: sg-wl-2025__c0045
     zitat: Das Einkommen aus selbständiger Erwerbstätigkeit umfasst alle Einkünfte aus
+  - chunk: sg-wl-2025__c0046
+    zitat: eine Aufstellung über Aktiven und Passiven, Einnahmen und Ausgaben sowie
+  - chunk: sg-wl-2025__c0047
+    zitat: mindestens 10%, sind diese separat zu deklarieren
+  - chunk: sg-wl-2025__c0048
+    zitat: die Naturalbezüge jeder Art
+  - chunk: sg-wl-2025__c0061
+    zitat: ist dieser entsprechend gekürzt zu deklarieren
+  - chunk: sg-wl-2025__c0049
+    zitat: Beträge als Privatanteil an den Unkosten anzurechnen
+  - chunk: sg-wl-2025__c0054
+    zitat: Personal leistet. Ist kein solches Personal vorhanden, so gilt die Hälfte
+  - chunk: sg-wl-2025__c0066
+    zitat: bender (Code «BG» im Wertschriftenverzeichnis)
+  - chunk: sg-wl-2025__c0051
+    zitat: a) nach dem vollendeten 55. Altersjahr oder
+  - chunk: sg-wl-2025__c0052
+    zitat: bereinigt um den Liquidationsgewinn, ist in der Steuererklärung aufzuführen
   status: agent-geprueft
+  rein:
+  - Jahresrechnung (Bilanz, Erfolgsrechnung) der 2025 abgeschlossenen Geschäftsjahre → Reingewinn
+  - Eigenkapital-/Privatkonti und Abschreibungstabellen → Beilage
+  - 'Ohne Buchführungspflicht: Aufstellung Aktiven/Passiven, Einnahmen/Ausgaben, Privatentnahmen/-einlagen (ESTV-Form. 15a)'
+  berechnung: Reingewinn gemäss Jahresrechnung inkl. Naturalbezüge/Privatanteile − darin enthaltene Familienzulagen (→ Ziff. 3.5) − Liquidationsgewinn (bei separater Besteuerung)
+  beachten:
+  - 'Privatanteil Haushalts-Nebenkosten (falls dem Betrieb belastet): Fr. 3''540 + 900 je weiterer Erwachsener + 600 je Kind pro Jahr'
+  - 'Eigene BVG-Beiträge nur als Arbeitgeberanteil (ohne Personal: Hälfte); Rest, Einkäufe, Säule 3a → Ziff. 13'
+  - Beteiligungserträge ≥ 10% separat (Code BG → Ziff. 4.3); Liquidationsgewinn (ab 55. Altersjahr/Invalidität) in Beilage
 - ziffer: '2.2'
   abschnitt: Einkünfte
   bezeichnung: Aus Kollektiv-, Kommandit- und einfachen Gesellschaften (Code 120 Person 1 / 122 Person 2)
@@ -79,7 +169,21 @@ positionen:
     zitat: 2.2 Aus Kollektiv-, Kommandit- und einfachen Gesellschaften
   - chunk: sg-wl-2025__c0045
     zitat: unter Ziffer 2.2 anzugeben
+  - chunk: sg-wl-2025__c0124
+    zitat: Kollektiv- und Kommanditgesellschaften dürfen nicht in die persönlichen
+  - chunk: sg-wl-2025__c0047
+    zitat: bei der Veräusserung von Anteilsrechten an einer Personengemeinschaft
+  - chunk: sg-form-2-2025__c0004
+    zitat: Sind Sie an einer Kollektiv- oder Kommanditgesellschaft beteiligt?
   status: agent-geprueft
+  rein:
+  - Formular 11 der Kollektiv-/Kommanditgesellschaft → Anteil Einkünfte inkl. Kapitalerträge
+  - Abrechnung einfache Gesellschaft (z.B. Konsortium) → Anteil am Ergebnis
+  berechnung: Σ Gewinnanteile gemäss Formular 11 der Firma (inkl. Kapitalerträge) + Anteile an einfachen Gesellschaften, je Person
+  beachten:
+  - VSt auf Kapitalerträgen der Gesellschaft nicht im persönlichen Antrag; Gesellschaft fordert mit Form. 25 bei ESTV zurück
+  - 'Gewinn aus Veräusserung von Anteilen an der Personengesellschaft: mit letzter Jahresrechnung (Schlussabrechnung)'
+  - 'Form. 2 Seite 1: Frage Beteiligung an Kollektiv-/Kommanditgesellschaft beantworten (Firma angeben)'
 - ziffer: '3.1'
   abschnitt: Einkünfte
   bezeichnung: AHV/IV-Renten zu 100% (Code 126 Person 1 / 128 Person 2)
@@ -93,7 +197,20 @@ positionen:
     zitat: 3.1 AHV/IV-Renten (zu 100%) Person 1 Bescheinigung 126
   - chunk: sg-wl-2025__c0056
     zitat: sind in vollem Umfang zu deklarieren, nicht aber die Ergänzungsleistungen
+  - chunk: sg-form-1-2025__c0007
+    zitat: 8.2 Ergänzungsleistungen / Überbrückungsleistungen für ältere Arbeitslose 291
+  - chunk: sg-wl-2025__c0072
+    zitat: Hilflosenentschädigungen sind steuerfrei
+  - chunk: sg-wl-2025__c0060
+    zitat: IV-Taggelder gehören zum steuerbaren Einkommen und sind unter
   status: agent-geprueft
+  rein:
+  - Rentenbescheinigung Ausgleichskasse/IV → Jahresbetrag ordentliche und ausserordentliche AHV-/IV-Renten
+  berechnung: Σ AHV-/IV-Renten des Steuerjahres je Person, zu 100%
+  beachten:
+  - 'Ergänzungsleistungen nicht hier: steuerfrei, nur Information in Ziff. 8.2'
+  - 'Hilflosenentschädigung nicht hier: steuerfrei, Information in Ziff. 8.3'
+  - IV-Taggelder (Ersatz für Erwerbseinkommen) nicht hier, sondern Ziff. 3.3
 - ziffer: '3.2'
   abschnitt: Einkünfte
   bezeichnung: Renten/Pensionen mit steuerbarem Prozentsatz (Code 130 Person 1 / 132 Person 2)
@@ -109,7 +226,28 @@ positionen:
     zitat: 3.2 Renten/Pensionen
   - chunk: sg-wl-2025__c0058
     zitat: 100% in allen andern Fällen
+  - chunk: sg-wl-2025__c0057
+    zitat: einschliesslich der vom früheren Arbeitgeber ausgerichteten Ruhegehälter
+  - chunk: sg-wl-2025__c0057
+    zitat: Haftpflichtversicherung, gebundene Selbstvorsorge Säule 3a, freie
+  - chunk: sg-wl-2025__c0059
+    zitat: nach VVG bescheinigen ihn die Versicherer
+  - chunk: sg-wl-2025__c0059
+    zitat: Militärversicherungsleistungen, die nach dem 1. Januar 1994 neu ver
+  - chunk: sg-wl-2025__c0070
+    zitat: Vorsorge sind auf Seite 4 der
+  - chunk: sg-wl-2025__c0119
+    zitat: In Ziffer 40.1 bis 40.3 sind die im Jahr 2025 erhaltenen Kapitalleistungen aus
   status: agent-geprueft
+  rein:
+  - Rentenbescheinigung Pensionskasse/früherer Arbeitgeber → Jahresrente brutto (Vorkolonne) + steuerbarer %
+  - Bescheinigung Versicherer (Säule 3a/3b, Unfall-, Haftpflicht-, Leibrentenversicherung) → Rente bzw. steuerbarer Ertragsanteil
+  - Verfügung/Abrechnung Militärversicherung (nach dem 1. Januar 1994 verfügt/revidiert) → beilegen
+  berechnung: 'je Rente: Brutto × steuerbarer % → Hauptkolonne (2. Säule 100%, Altfall 80%; Säule 3a und reine Risikoversicherung 100%; Leibrente: Ertragsanteil)'
+  beachten:
+  - '80% nur kumulativ: Rentenbeginn vor 2002, Vorsorgeverhältnis vor 1985 und mind. 20% der Beiträge selbst erbracht'
+  - 'Leibrente VVG: Ertragsanteil bescheinigt der Versicherer; OR-/ausländische Leibrenten: ESTV berechnet/publiziert'
+  - Mehrere Renten separat aufstellen; Kapitalleistungen aus Vorsorge nicht hier → Seite 4, Ziff. 40
 - ziffer: '3.3'
   abschnitt: Einkünfte
   bezeichnung: Erwerbsausfallentschädigung / Taggelder IV, Kranken-, Unfallversicherung (Code 134 Person 1 / 136 Person 2)
@@ -124,7 +262,17 @@ positionen:
     zitat: 3.3 Erwerbsausfallentschädigung Person 1 Bescheinigung 134
   - chunk: sg-wl-2025__c0060
     zitat: Taggelder aus Invaliden-, Kranken- und Unfallversicherung sind voll-
+  - chunk: sg-wl-2025__c0050
+    zitat: sind unter Ziffer 3.3 zu deklarieren, sofern die AHV-Beiträge durch die Ausgleichs-
   status: agent-geprueft
+  rein:
+  - Taggeldabrechnung Kranken-/Unfallversicherung bzw. IV → Taggelder, soweit nicht im Lohnausweis
+  - EO-Abrechnung Ausgleichskasse (Militär, Zivilschutz, Mutterschaft) → Entschädigung, soweit nicht im Lohnausweis
+  berechnung: Σ Taggelder IV/KV/UV + EO-Entschädigungen je Person, ohne bereits im Lohnausweis enthaltene Beträge
+  beachten:
+  - 'Selbständige: EO nur bei Nettoauszahlung (AHV abgezogen) hier; Bruttoauszahlung in der Jahresrechnung verbuchen'
+  - 'Selbst getragene Krankheits-/Unfall-/Behinderungskosten: Formular 6 → Ziff. 21.1/21.2'
+  - 'Nicht anzugeben: Unterstützungen bei Bedürftigkeit, IV-Kostenbeiträge (Eingliederung, Hilfsmittel, Sonderschulung)'
 - ziffer: '3.4'
   abschnitt: Einkünfte
   bezeichnung: Arbeitslosen-Taggelder (Code 138 Person 1 / 140 Person 2)
@@ -138,7 +286,24 @@ positionen:
     zitat: 3.4 Arbeitslosen-Taggelder Person 1 Bescheinigung 138
   - chunk: sg-wl-2025__c0060
     zitat: Über nicht im Lohnausweis aufgeführte Bezüge ist eine Bescheinigung beizulegen
+  - chunk: sg-wl-2025__c0080
+    zitat: sinngemäss in Abzug gebracht werden
+  - chunk: sg-wl-2025__c0080
+    zitat: eine Pauschale von Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2’400,
+  - chunk: sg-stb-39-8__c0001
+    zitat: Diese Voraussetzung erfüllt in analoger Anwendung auch ein Arbeitsloser,
   status: agent-geprueft
+  rein:
+  - Bescheinigung der Arbeitslosenkasse → ausbezahlte Taggelder (beilegen)
+  - Lohnausweis → prüfen, ob ALV-Taggelder dort bereits bescheinigt sind (dann nicht hier)
+  berechnung: Σ ALV-Taggelder gemäss Bescheinigung der Arbeitslosenkasse je Person, ohne vom Arbeitgeber im Lohnausweis bescheinigte Bezüge
+  beachten:
+  - 'Kanton: bei ALV-Bezug Pauschale übrige Berufskosten (Fr. 700 + 10% Nettolohn, max. Fr. 2''400) sinngemäss abziehbar'
+  - 'Arbeitslose: Verpflegungsabzug analog möglich, wenn Verpflegung wegen Stellensuche auswärts'
+  werte_keys:
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.max
 - ziffer: '3.5'
   abschnitt: Einkünfte
   bezeichnung: Von Ausgleichskassen direkt ausbezahlte Familienzulagen (Code 142)
@@ -152,7 +317,20 @@ positionen:
     zitat: 3.5 Von Ausgleichskassen direkt ausbezahlte Familienzulagen 142
   - chunk: sg-wl-2025__c0061
     zitat: die von Ausgleichskassen direkt ausbezahlt werden und somit nicht im Lohnaus
+  - chunk: sg-wl-2025__c0042
+    zitat: etc. nicht im Lohnausweis enthalten (z.B. Arbeitgeber Fürstentum Liechtenstein),
+  - chunk: sg-wl-2025__c0039
+    zitat: festgesetzte Besoldung, aber auch die Nebenbezüge wie Familienzulagen
+  - chunk: sg-wl-2025__c0050
+    zitat: Leistungen aus Familienausgleichskassen (Haushaltungs- und Familien
   status: agent-geprueft
+  rein:
+  - Bescheinigung Familienausgleichskasse → direkt ausbezahlte Kinder-/Ausbildungszulagen
+  - 'Selbständige: Buchungsnachweis → im Reingewinn verbuchte Familienzulagen (nicht AHV-pflichtig)'
+  berechnung: 'Σ direkt ausbezahlte Kinder- und Ausbildungszulagen (nicht im Lohnausweis); Selbständige: Reingewinn Ziff. 2 um denselben Betrag kürzen'
+  beachten:
+  - Zulagen im Lohnausweis sind schon in Ziff. 1.1 enthalten → nicht doppelt deklarieren
+  - 'Typischer Fall: Arbeitgeber im Fürstentum Liechtenstein; Selbständige legen den Buchungsnachweis bei'
 - ziffer: '4.1'
   abschnitt: Einkünfte
   bezeichnung: Einkünfte aus Wertschriften und Guthaben inkl. Lotterie-/Geldspielgewinne (Code 146)
@@ -174,7 +352,30 @@ positionen:
     zitat: zu übertragen in die Steuererklärung Seite 4 Ziffer 30.1 Seite 2 Ziffer 4.1
   - chunk: sg-wl-2025__c0130
     zitat: sind bis und mit Fr. 200 je Kalenderjahr verrechnungssteuerfrei
+  - chunk: sg-wl-2025__c0064
+    zitat: Steuerbar sind einzelne Gewinne aus Online-Spielbankenspielen, soweit
+  - chunk: sg-wl-2025__c0145
+    zitat: nicht rückforderbaren Steuern gemäss DA-1 den Betrag von Fr. 100
+  - chunk: sg-wl-2025__c0145
+    zitat: Das Total der Steuerwerte und Bruttoerträge ist aus dem Formular DA-1 in das
+  - chunk: sg-wl-2025__c0145
+    zitat: ist als Vermögensverwaltungskosten ab
+  - chunk: sg-form-2-2025__c0004
+    zitat: Ergänzungsblätter Steuerauszüge Bankbescheinigungen
   status: agent-geprueft
+  rein:
+  - Steuerauszug Bank/Depot → Bruttoerträge und Steuerwerte, Form. 2 Abschnitt A (mit VSt) / B (ohne VSt)
+  - Zinsausweise Konten → Bruttozins; Lotto-/Totobescheinigung → Geldspielgewinne
+  - Formular DA-1 → Total Steuerwerte/Bruttoerträge ausländischer Titel mit Quellensteuer, Übertrag ins Form. 2
+  - Formular 2 → Total Erträge nach Abzugszeilen G/BG, BP, BG
+  berechnung: 'Form. 2: Σ Bruttoerträge A + B (inkl. DA-1, Ergänzungsblätter) − Abzugszeilen G/BG, BP (→ Ziff. 4.2) und BG (→ Ziff. 4.3)'
+  beachten:
+  - Bankzinsen ≤ Fr. 200/Kalenderjahr VSt-frei → Abschnitt B; bei VSt-Abzug Bruttozins → A + Bankbeleg; nichts selbst errechnen
+  - Geldspielgewinn steuerbar je Einzelgewinn > Kanton Fr. 1'069'800 / Bund Fr. 1'070'400; Verkaufsförderung > Fr. 1'100
+  - 'Nicht rückforderbare ausl. Quellensteuer ≤ Fr. 100: keine Anrechnung, als Vermögensverwaltungskosten abziehbar'
+  werte_keys:
+  - steuerfrei.grossspielgewinn
+  - steuerfrei.kleingewinn
 - ziffer: '4.2'
   abschnitt: Einkünfte
   bezeichnung: Beteiligungen an Gesellschaften ab 10 Prozent, Privatvermögen (Code 147)
@@ -191,7 +392,19 @@ positionen:
     zitat: 4.2 aus Beteiligungen an Gesellschaften ab 10 Prozent (Privatvermögen) 147
   - chunk: sg-wl-2025__c0065
     zitat: Zu deklarieren sind 100% der Erträge
+  - chunk: sg-wl-2025__c0131
+    zitat: Für Dividenden ist der Beschluss der Generalversammlung massgebend
+  - chunk: sg-form-2-2025__c0006
+    zitat: Abzüglich Erträge aus Privatbeteiligung (BP) Übertrag in Steuererkl. Ziff. 4.2 (ohne Vorzeichen)
   status: agent-geprueft
+  rein:
+  - Steuerauszug/Dividendenabrechnung → Bruttoertrag der Beteiligung ≥ 10% (Privatvermögen)
+  - Formular 2 → Erträge Code «BP», Übertrag ohne Vorzeichen
+  berechnung: Σ Bruttoerträge Code BP zu 100%; Reduktion 30% separat in Ziff. 4.4
+  beachten:
+  - 'Voraussetzung: mind. 10% am Grund- oder Stammkapital einer Kapitalgesellschaft/Genossenschaft'
+  - 'Dividenden: Beschluss der Generalversammlung massgebend, nicht das Geschäftsjahr'
+  - 'Bund: ebenfalls Teilbesteuerung 70% (Kreisschreiben Nr. 22a ESTV)'
 - ziffer: '4.3'
   abschnitt: Einkünfte
   bezeichnung: Beteiligungen an Gesellschaften ab 10 Prozent, Geschäftsvermögen (Code 149)
@@ -206,7 +419,23 @@ positionen:
     zitat: 4.3 aus Beteiligungen an Gesellschaften ab 10 Prozent (Geschäftsvermögen) 149
   - chunk: sg-wl-2025__c0066
     zitat: Dadurch wird eine doppelte Berück-
+  - chunk: sg-wl-2025__c0141
+    zitat: im Reingewinn enthaltene Brutto- oder Nettoertrag abgezogen werden
+  - chunk: sg-wl-2025__c0141
+    zitat: Auch wenn das Datum des Geschäftsabschlusses vom Kalenderjahr (31.12.)
+  - chunk: sg-form-2-2025__c0006
+    zitat: Abzüglich Erträge aus Geschäftsbeteiligung (BG) Übertrag in Steuererkl. Ziff. 4.3 (ohne Vorzeichen)
+  - chunk: sg-wl-2025__c0065
+    zitat: Die steuerliche Reduktion von 30% ist durch den Steuerpflichtigen zu berechnen
   status: agent-geprueft
+  rein:
+  - Jahresrechnung/Buchhaltung → im Reingewinn verbuchte Beteiligungserträge (brutto oder netto)
+  - Formular 2 → Erträge Code «BG», Übertrag in Ziff. 4.3 ohne Vorzeichen
+  berechnung: Σ Erträge Code BG (≥ 10%, Geschäftsvermögen); dieselben verbuchten Erträge in Form. 2 unter «Abzüglich G und BG» abziehen
+  beachten:
+  - Als verbucht nur den tatsächlich im Reingewinn enthaltenen Brutto- oder Nettoertrag abziehen
+  - 'Abweichendes Geschäftsjahr: für die VSt-Rückforderung Kalenderjahreswerte deklarieren'
+  - 'Bund: ebenfalls Teilbesteuerung 70% (Kreisschreiben Nr. 23a ESTV); Reduktion 30% in Ziff. 4.4'
 - ziffer: '4.4'
   abschnitt: Einkünfte
   bezeichnung: Abzug Teilbesteuerung Beteiligungserträge (Code 150, 30%)
@@ -220,6 +449,12 @@ positionen:
   - chunk: sg-wl-2025__c0065
     zitat: Die steuerliche Reduktion von 30% ist durch den Steuerpflichtigen zu berechnen
   status: agent-geprueft
+  rein:
+  - Übertrag aus Ziff. 4.2 (BP) und Ziff. 4.3 (BG)
+  berechnung: − 30% × (Ziff. 4.2 + Ziff. 4.3); E-Tax SG rechnet automatisch
+  beachten:
+  - Als Minusposten im Einkünfteteil (Code 150) einsetzen, nicht unter den Abzügen
+  - 'Bund: ebenfalls Teilbesteuerung 70% der Beteiligungserträge'
 - ziffer: '5'
   abschnitt: Einkünfte
   bezeichnung: Ertrag aus Liegenschaften (Code 712)
@@ -236,7 +471,34 @@ positionen:
     zitat: 5. Ertrag aus Liegenschaften Formular 7 712
   - chunk: sg-wl-2025__c0067
     zitat: Anzugeben sind die Einkünfte aus Liegenschaften des Privatvermögens
+  - chunk: sg-wl-2025__c0156
+    zitat: mes (Erstwohnung) wird um 30% herabgesetzt. Für alle übrigen Objekte ist der
+  - chunk: sg-wl-2025__c0158
+    zitat: Der Abzug kann maximal 10% des Brutto-
+  - chunk: sg-wl-2025__c0158
+    zitat: 30% der Bruttoeinkünfte übersteigt
+  - chunk: sg-wl-2025__c0158
+    zitat: Übersteigt das steuerbare Vermögen Fr. 600’000
+  - chunk: sg-wl-2025__c0159
+    zitat: Zum steuerbaren Mietertrag gehören die Miet- und Pachtzinsen bei
+  - chunk: sg-wl-2025__c0159
+    zitat: Subventionen und Versicherungsleistungen. Erträge aus Stromerzeugung,
+  - chunk: sg-wl-2025__c0160
+    zitat: abgegolten wird. Der Einschlag beträgt in
+  - chunk: sg-stb-34-1__c0008
+    zitat: Zweitwohnungen, Ferienwohnungen sowie von vermieteten Objekten
   status: agent-geprueft
+  rein:
+  - Schätzungsentscheid (Verkehrs-/Ertragswertschätzung) → Eigenmietwert
+  - Mietverträge/Aufstellung (Form. 7M) → Miet-/Pachtzinsen ohne Nebenkosten, Leistungen Dritter
+  - 'Formular 7 B «Total Erträge a. und b.» → Ziff. 5 (mehrere Liegenschaften: Form. 7Z Spalte B)'
+  berechnung: 'Σ Liegenschaften: EMW − 30% (selbstbewohnte Erstwohnung) − Unternutzung [EMW red. × leere Zimmer ÷ (Zimmer + 2)] + Mieten ohne NK + Leistungen Dritter'
+  beachten:
+  - 'Kauf/Verkauf im Jahr: Mietwert anteilsmässig; Zweit-/Ferienwohnung und Vermietetes ohne 30%-Herabsetzung'
+  - 'Härtefallabzug (AHV-Alter, von Amtes wegen): steuerbarer EMW > 30% Bruttoeinkünfte, Vermögen ≤ Fr. 600''000; max. 10% Brutto-EMW'
+  - 'Möbliert vermietet: i.d.R. 20% Einschlag; PV-Stromertrag über Eigenverbrauch → Ziff. 6.3'
+  werte_keys:
+  - liegenschaft.eigenmietwert_abzug
 - ziffer: '6.1'
   abschnitt: Einkünfte
   bezeichnung: 'Unterhaltsbeiträge erhalten: für Steuerpflichtige (Code 154) / für minderjährige Kinder (Code 156)'
@@ -251,7 +513,16 @@ positionen:
     zitat: 6.1 Unterhaltsbeiträge für den/die Steuerpflichtige(n) 154
   - chunk: sg-wl-2025__c0068
     zitat: sind beim Empfänger steuerbar und daher unter dieser Ziffer zu
+  - chunk: sg-wl-2025__c0084
+    zitat: Unterhaltsbeiträge, die an ein volljähriges Kind bezahlt werden, können einerseits
   status: agent-geprueft
+  rein:
+  - Scheidungsurteil/Trennungsvereinbarung → periodische Unterhaltsbeiträge (Alimente)
+  - Zahlungsnachweise → im Jahr erhaltene Beträge, getrennt für sich und für minderjährige Kinder
+  berechnung: Σ erhaltene periodische Alimente für sich → Code 154; Σ Kinderalimente für Kinder unter eigener Sorge/Obhut → Code 156
+  beachten:
+  - 'Unterhalt für volljährige Kinder: beim Empfänger nicht steuerbar, beim Zahler nicht abziehbar'
+  - 'Spiegelbild: zahlende Person zieht die Beiträge in Ziff. 12.1/12.2 ab'
 - ziffer: '6.2'
   abschnitt: Einkünfte
   bezeichnung: Ertrag aus unverteilten Erbschaften (Code 158)
@@ -265,7 +536,25 @@ positionen:
     zitat: 6.2 Ertrag aus unverteilten Erbschaften 158
   - chunk: sg-wl-2025__c0068
     zitat: Einkünfte aus unverteilten Erbschaften und andern Vermögensmassen
+  - chunk: sg-form-2-2025__c0002
+    zitat: Sind Sie an einer unverteilten Erbschaft beteiligt?
+  - chunk: sg-form-2-2025__c0002
+    zitat: sind im Liegenschaftsformular 7 zu deklarieren
+  - chunk: sg-wl-2025__c0142
+    zitat: Quotale Vermögenserträge aus unverteilten Erbschaften (Fälligkeiten zwischen dem Todes- und dem Teilungstag) sind unter Ziffer 6.2
+  - chunk: sg-wl-2025__c0111
+    zitat: Die Erben sind ab Todestag für ihren Anteil
+  - chunk: sg-wl-2025__c0028
+    zitat: wird der Vermögenszuwachs von Amtes wegen zeitlich
   status: agent-geprueft
+  rein:
+  - Detaillierte Aufstellung der Erbengemeinschaft → Anteil an den Einkünften
+  - Formular 2 Seite 1 → Beteiligung an unverteilter Erbschaft, Erbanteil (Code 961)
+  berechnung: Σ Anteil an Erträgen des Nachlasses (Fälligkeiten Todes- bis Teilungstag) gemäss Aufstellung; Nachlass-Liegenschaften über Formular 7
+  beachten:
+  - Gilt auch für unverteilte ausserkantonale Vermögensmassen; detaillierte Aufstellung beilegen
+  - Vermögensanteil in Ziff. 30.5 (ohne Liegenschaften); Erben ab Todestag deklarationspflichtig
+  - 'Erbschaft ab Fr. 50''000 im Jahr: Vermögenszuwachs wird von Amtes wegen zeitlich gewichtet'
 - ziffer: '6.3'
   abschnitt: Einkünfte
   bezeichnung: Übrige Einkünfte (Code 162)
@@ -280,7 +569,20 @@ positionen:
     zitat: 6.3 Übrige Einkünfte Arten 162
   - chunk: sg-wl-2025__c0069
     zitat: Erträge aus Stromerzeugung (Photovoltaikanlagen), soweit diese den Eigenver
+  - chunk: sg-wl-2025__c0123
+    zitat: Bei Mitarbeiteraktien und -optionen muss die vom Arbeitgeber ausgestellte
+  - chunk: sg-wl-2025__c0038
+    zitat: Plattformeinkünfte, auch aus dem Ausland, müssen in der Steuererklärung
   status: agent-geprueft
+  rein:
+  - Abrechnungen Provisionen/Trinkgelder → Betrag, soweit nicht im Lohnausweis
+  - Bescheinigung Arbeitgeber Mitarbeiteraktien/-optionen → Einkünfte aus Mitarbeiterbeteiligung, soweit nicht im Lohnausweis
+  - Lizenz-/Urheberrechtsabrechnung, Verfügung Förderbeitrag (E-Fahrzeug/E-Bike), PV-Stromabrechnung → Vergütung
+  berechnung: Σ übrige Einkünfte nach Arten, soweit nicht in Ziff. 1 bis 6.2; PV nur Erlös über dem Eigenverbrauch
+  beachten:
+  - IV-Assistenzbeiträge nur, soweit nicht durch abgerechnete Assistenzkosten neutralisiert
+  - 'Mitarbeiteraktien/-optionen: Bescheinigung des Arbeitgebers beilegen'
+  - Online-Plattform-Einkünfte (z.B. Airbnb, Ricardo, YouTube) auch aus dem Ausland deklarieren
 - ziffer: '6.4'
   abschnitt: Einkünfte
   bezeichnung: Kapitalabfindungen für wiederkehrende Leistungen (Code 164, Anzahl Jahre)
@@ -293,7 +595,16 @@ positionen:
     zitat: 6.4 Kapitalabfindungen für wiederkehrende Leistungen für Jahre 164
   - chunk: sg-wl-2025__c0070
     zitat: Die Kapitalabfindungen für wiederkehrende Leistungen sind mit dem
+  - chunk: sg-wl-2025__c0119
+    zitat: In Ziffer 40.1 bis 40.3 sind die im Jahr 2025 erhaltenen Kapitalleistungen aus
+  - chunk: sg-wl-2025__c0119
+    zitat: Kapitalleistungen werden gesondert vom übrigen Einkommen besteuert
   status: agent-geprueft
+  rein:
+  - Vereinbarung/Bescheinigung des Leistenden → Auszahlungsbetrag und Anzahl Jahre der abgegoltenen Leistung
+  berechnung: Betrag voll in Ziff. 6.4 + Anzahl Jahre; Satzbestimmung wie bei entsprechender jährlicher Leistung (Betrag ÷ Jahre)
+  beachten:
+  - Kapitalleistungen aus Vorsorge (2. Säule, Säule 3a) nicht hier → Seite 4, Ziff. 40, separat besteuert
 - ziffer: '7'
   abschnitt: Einkünfte
   bezeichnung: Total der Einkünfte (Code 168)
@@ -304,7 +615,17 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0006
     zitat: 7. Total der Einkünfte 168
+  - chunk: sg-form-1-2025__c0007
+    zitat: 8. Ergänzende Angaben (nicht im Total der Einkünfte zu berücksichtigen)
+  - chunk: sg-wl-2025__c0119
+    zitat: Kapitalleistungen werden gesondert vom übrigen Einkommen besteuert
   status: agent-geprueft
+  beachten:
+  - Ziff. 8 (vereinfacht abgerechnete Löhne, EL, Hilflosenentschädigung) nicht im Total
+  - Kapitalleistungen aus Vorsorge (Ziff. 40) nicht im Total; separate Jahressteuer
+  rein:
+  - Übertrag Ziff. 1.1 bis 6.4 (Hauptkolonne)
+  berechnung: Σ Ziff. 1.1 bis 6.4, dabei Ziff. 4.4 (Abzug Teilbesteuerung) als Minusposten
 - ziffer: '8.1'
   abschnitt: Einkünfte
   bezeichnung: 'Ergänzende Angaben: vereinfacht abgerechnete Einkünfte, Bruttolohn (Code 290)'
@@ -318,6 +639,12 @@ positionen:
   - chunk: sg-wl-2025__c0071
     zitat: In Ziffer 8.1 ist der Bruttolohn einzusetzen
   status: agent-geprueft
+  rein:
+  - 'Bestätigung der AHV-Ausgleichskasse über den Quellensteuerabzug → Bruttolohn (fehlt sie: Lohnabrechnungen)'
+  berechnung: Bruttolohn einsetzen (Information, nicht im Total der Einkünfte); Steuern mit 5% Quellensteuer abgegolten (Bund, Kanton, Gemeinde)
+  beachten:
+  - Keine weiteren Steuerfolgen und nicht satzbestimmend für das steuerbare Einkommen (Ziff. 24)
+  - Nur Löhne, die der Arbeitgeber im vereinfachten Verfahren (BGSA) direkt mit der AHV-Ausgleichskasse abrechnete
 - ziffer: 8.2-8.3
   abschnitt: Einkünfte
   bezeichnung: 'Ergänzende Angaben: Ergänzungsleistungen/Überbrückungsleistungen (Code 291), Hilflosenentschädigungen (Code 292)'
@@ -332,7 +659,16 @@ positionen:
     zitat: 8.2 Ergänzungsleistungen / Überbrückungsleistungen für ältere Arbeitslose 291
   - chunk: sg-wl-2025__c0072
     zitat: Ergänzungsleistungen (inkl. Überbrückungsleistungen für
+  - chunk: sg-wl-2025__c0100
+    zitat: 'Bezüger einer Hilflosenentschädigung leichten Grades: Fr. 2’500'
   status: agent-geprueft
+  rein:
+  - EL-Verfügung/Abrechnung → ausbezahlte Ergänzungs- bzw. Überbrückungsleistungen (Code 291)
+  - Verfügung Hilflosenentschädigung → Jahresbetrag (Code 292)
+  berechnung: 'Information: Σ EL/Überbrückungsleistungen → Code 291; Σ Hilflosenentschädigung → Code 292; steuerfrei, nicht im Total'
+  beachten:
+  - EL für Krankheits-/Behinderungskosten und Hilflosenentschädigung an die entsprechenden Kosten (Formular 6) anrechnen
+  - 'HE-Bezüger: statt effektiver Kosten Pauschale leicht/mittel/schwer Fr. 2''500/5''000/7''500 (Ziff. 21.2), Verfügung beilegen'
 - ziffer: '10.1'
   abschnitt: Abzüge
   bezeichnung: Berufskosten bei unselbständiger Erwerbstätigkeit Person 1 (Code 438)
@@ -345,6 +681,14 @@ positionen:
   werte_keys:
   - berufskosten.fahrkosten.max
   - berufskosten.uebrige.max
+  - berufskosten.fahrkosten.auto_km
+  - berufskosten.fahrkosten.velo_pauschale
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.min
+  - berufskosten.fahrkosten.arbeitstage
   quellen:
   - chunk: sg-form-1-2025__c0008
     zitat: 10.1 Person 1 Formular 4 438
@@ -352,7 +696,39 @@ positionen:
     zitat: stehen jedem Partner individuell zu, soweit er unselbständig erwerbstätig ist
   - chunk: sg-form-32-2025__c0002
     zitat: Fahrkosten zwischen Wohn- und Arbeitsort max. Fr. 8‘000 max. Fr. 3‘300
+  - chunk: sg-form-4-2025__c0002
+    zitat: km x Fr. 0.70 (Kostensatz gemäss Wegleitung)
+  - chunk: sg-form-4-2025__c0003
+    zitat: Pro Arbeitstag Fr. 15 / im Jahr Fr. 3'200
+  - chunk: sg-form-4-2025__c0003
+    zitat: '3.1 Pauschalabzug: Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2''400'
+  - chunk: sg-form-4-2025__c0004
+    zitat: 6. Total der Berufskosten 438
+  - chunk: sg-wl-2025__c0075
+    zitat: wird), muss auf dem Lohnausweis Feld F angekreuzt sein
+  - chunk: sg-wl-2025__c0076
+    zitat: Monat 0,9% des Fahrzeugkaufpreises (exkl. Mehrwertsteuer)
+  - chunk: sg-wl-2025__c0077
+    zitat: '1.3 Bei Benützung eines Motorfahrzeuges in begründeten Fällen: 70 Rappen je'
+  - chunk: sg-wl-2025__c0077
+    zitat: bis zu Fr. 700 im Jahr
+  - chunk: sg-wl-2025__c0077
+    zitat: mit höchstens 220 Arbeits
+  - chunk: sg-wl-2025__c0078
+    zitat: In diesem Fall ist auf dem Lohnausweis Feld G
+  - chunk: sg-wl-2025__c0079
+    zitat: geber unter Bemerkungen (Ziffer 15 im Lohnausweis) oder in einem separaten
   status: agent-geprueft
+  rein:
+  - Formular 4 Person 1 → Ziff. 6 Total der Berufskosten (Code 438)
+  - Lohnausweis → Nettolohn (Basis Pauschale), Feld F (Gratistransport), Feld G (Kantine/Verbilligung)
+  - ÖV-Abo-Belege, Fahrtstrecke (km), Arbeitstage; Arbeitgeberbescheinigung Schichttage (Lohnausweis Ziff. 15)
+  - Zimmermiete und Arbeitstage bei auswärtigem Wochenaufenthalt
+  berechnung: min(ÖV + Velo ≤ 700 + km × 0.70; 8'000) + Verpflegung 15/Tag max. 3'200 + min(700 + 10% Nettolohn; 2'400) + Wochenaufenthalt + Nebenerwerb
+  beachten:
+  - 'Bund: Fahrkosten max. Fr. 3''300; Pauschale 3% des Nettolohns, min. Fr. 2''000, max. Fr. 4''000'
+  - 'Homeoffice-/arbeitsfreie Tage: keine Fahr- und Verpflegungskosten; Kanton i.d.R. max. 220 Arbeitstage'
+  - 'Geschäftsauto mit Privatanteil 0,9%/Monat oder Lohnausweis Feld F angekreuzt: kein Fahrkostenabzug'
 - ziffer: '10.2'
   abschnitt: Abzüge
   bezeichnung: Berufskosten bei unselbständiger Erwerbstätigkeit Person 2 (Code 488)
@@ -365,7 +741,39 @@ positionen:
     zitat: 10.2 Person 2 Formular 4 488
   - chunk: sg-form-4-2025__c0008
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 10.2
+  - chunk: sg-form-4-2025__c0006
+    zitat: km x Fr. 0.70 (Kostensatz gemäss Wegleitung)
+  - chunk: sg-form-4-2025__c0006
+    zitat: Zwischentotal Ziffern 1.1 – 1.3, max. Fr. 8'000
+  - chunk: sg-form-4-2025__c0007
+    zitat: '3.1 Pauschalabzug: Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2''400'
+  - chunk: sg-form-4-2025__c0005
+    zitat: Ziffer 3 und 5 sind nach Dauer der Steuerpflicht
+  - chunk: sg-form-32-2025__c0002
+    zitat: Fahrkosten zwischen Wohn- und Arbeitsort max. Fr. 8‘000 max. Fr. 3‘300
+  - chunk: sg-wl-2025__c0077
+    zitat: bis zu Fr. 700 im Jahr
   status: agent-geprueft
+  rein:
+  - Formular 4 Person 2 (Rückseite) → Ziff. 6 Total der Berufskosten (Code 488)
+  - Lohnausweis Person 2 → Nettolohn als Basis; Feld F/G
+  - Belege Fahrkosten, Verpflegung, Wochenaufenthalt und Nebenerwerb von Person 2
+  berechnung: 'wie Ziff. 10.1 für Person 2: min(ÖV + Velo ≤ 700 + km × 0.70; 8''000) + Verpflegung + min(700 + 10% Nettolohn; 2''400) + Wochenaufenthalt + Nebenerwerb'
+  beachten:
+  - 'Bund: Fahrkosten max. Fr. 3''300; Pauschale 3% des Nettolohns, min. Fr. 2''000, max. Fr. 4''000'
+  - 'Nebenerwerb Form. 4 Ziff. 5.1: 20% der Nettoeinkünfte, min. Fr. 800, max. Fr. 2''400'
+  - Jahrespauschalen Ziff. 3 und 5 bei unterjähriger Steuerpflicht nach Dauer umrechnen
+  werte_keys:
+  - berufskosten.fahrkosten.max
+  - berufskosten.fahrkosten.auto_km
+  - berufskosten.fahrkosten.velo_pauschale
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.max
+  - berufskosten.uebrige.min
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
 - ziffer: '11'
   abschnitt: Abzüge
   bezeichnung: Schuldzinsen (Code 500)
@@ -385,7 +793,23 @@ positionen:
     zitat: Private Schuldzinsen sind nur im Umfang der Einkünfte aus Wertschriften und
   - chunk: sg-form-5-2025__c0001
     zitat: Total private Schulden und private Schuldzinsen
+  - chunk: bund-wl-2a-2025__c0048
+    zitat: Die im Jahr 2025 fällig gewordenen Schuldzinsen sind wie folgt
+  - chunk: bund-wl-2a-2025__c0048
+    zitat: 50 000 Fr.; Einkünfte aus Beteiligungen des Privatvermö-
+  - chunk: bund-wl-2a-2025__c0049
+    zitat: werden nur zu 70 % in die Berechnung einbezogen.
   status: agent-geprueft
+  rein:
+  - Hypothekar-/Zinsbescheinigung Bank → Schuldzinsen 2025 (Form. 5 Teil A; Schuldbetrag → Ziff. 34.1)
+  - Kredit-/Darlehensvertrag, Zinsbescheinigung → private Schuldzinsen 2025
+  - Kontoauszug/Zinsausweis → belastete Sollzinsen privater Konten
+  - Übertrag Ziff. 4 (Wertschriftenertrag) + Ziff. 5 (Liegenschaftsertrag) → Limite
+  berechnung: min(Σ private Schuldzinsen 2025; Ertrag Ziff. 4 ohne Lotterie-/Totogewinne + Ertrag Ziff. 5 + Fr. 50'000); Bund analog (Vermögensertrag + Fr. 50'000)
+  beachten:
+  - 'Nicht abziehbar: Amortisationen, Baukreditzinsen (Anlagekosten), Baurechtszinsen eigenes Eigenheim, Leasinggebühren'
+  - Geschäftliche Schuldzinsen sind in der Jahresrechnung, nicht in Form. 5
+  - 'Bund: im Jahr 2025 fällig gewordene Zinsen; teilbesteuerte Beteiligungserträge nur zu 70% in die Limite'
 - ziffer: '12.1'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge an Geschiedene oder Getrennte (Code 200)
@@ -400,7 +824,25 @@ positionen:
     zitat: 12.1 Unterhaltsbeiträge an Geschiedene oder Getrennte Aufstellung 200
   - chunk: sg-wl-2025__c0084
     zitat: Unterhaltsbeiträge an den geschiedenen, gerichtlich oder tatsächlich getrennt
+  - chunk: sg-wl-2025__c0068
+    zitat: sind beim Empfänger steuerbar und daher unter dieser Ziffer zu
+  - chunk: sg-stg-2025__art-45-t1
+    zitat: nicht jedoch Leistungen in Erfüllung anderer familienrechtlicher Unterhalts- oder Unterstützungspflichten
+  - chunk: bund-wl-2a-2025__c0050
+    zitat: Abziehbar sind die Alimentenleistungen an den geschiedenen
+  - chunk: bund-wl-2a-2025__c0051
+    zitat: Unterhaltsbeiträge, die in Form einer Kapitalabfindung erbracht
+  - chunk: bund-wl-2a-2025__c0051
+    zitat: gelten als Schuldentilgung und sind daher nicht
   status: agent-geprueft
+  rein:
+  - Scheidungsurteil/Trennungsvereinbarung → vereinbarter Unterhaltsbeitrag (bei erstmaliger Zahlung Auszug beilegen)
+  - Zahlungsnachweise (Bank) → 2025 bezahlte Beiträge (Aufstellung)
+  berechnung: Σ 2025 bezahlte periodische Unterhaltsbeiträge an geschiedenen bzw. gerichtlich/tatsächlich getrennt lebenden Partner (Kanton = Bund)
+  beachten:
+  - 'Gegenstück: beim Empfänger steuerbar (dort Ziff. 6.1)'
+  - 'Nicht abziehbar: Leistungen aus anderen familienrechtlichen Unterhalts-/Unterstützungspflichten'
+  - 'Bund: Kapitalabfindung gilt als Schuldentilgung → nicht abziehbar'
 - ziffer: '12.2'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (Code 202)
@@ -415,7 +857,21 @@ positionen:
     zitat: 12.2 Unterhaltsbeiträge für minderjährige Kinder Aufstellung 202
   - chunk: sg-wl-2025__c0084
     zitat: Die Unterhaltsbeiträge an einen Elternteil für die unter dessen elterlicher Sorge
+  - chunk: sg-wl-2025__c0104
+    zitat: auf Seite 1 der Steuererklä-
+  - chunk: bund-wl-2a-2025__c0050
+    zitat: steuerbaren Leistungen nur im Rahmen von Ziffer 23.2 der
+  - chunk: bund-wl-2a-2025__c0051
+    zitat: Den Alimenten gleichgesetzt sind Naturalleistungen wie Miete,
   status: agent-geprueft
+  rein:
+  - Urteil/Vereinbarung → Unterhaltsbeitrag je Kind (bei erstmaliger Zahlung Auszug + Zahlungsnachweis beilegen)
+  - Zahlungsnachweise → 2025 bezahlte Beiträge, separat je Kind
+  berechnung: Σ je Kind 2025 bezahlte Unterhaltsbeiträge an den Elternteil mit elterlicher Sorge/Obhut (nur minderjährige Kinder)
+  beachten:
+  - Für dieses Kind kein Kinderabzug 23.1–23.3; Kind nicht auf Seite 1 aufführen
+  - 'An volljährige Kinder: nicht abziehbar (beim Kind unbesteuert); Bund: nur via Sozialabzug Ziff. 23.2 der Bundes-WL'
+  - 'Bund: Naturalleistungen (Miete, KK-Prämien, Schuldzinsen) anstelle Barzahlung = Alimente'
 - ziffer: '12.3'
   abschnitt: Abzüge
   bezeichnung: Rentenleistungen (Code 204)
@@ -428,7 +884,25 @@ positionen:
     zitat: 12.3 Rentenleistungen Aufstellung 204
   - chunk: sg-wl-2025__c0084
     zitat: Die nachgewiesenen dauernden Lasten sowie der Ertragsanteil
+  - chunk: sg-wl-2025__c0059
+    zitat: Er wird von der ESTV berechnet und publiziert.
+  - chunk: bund-wl-2a-2025__c0052
+    zitat: Bezahlte Leibrente / Verpfründung x Berechnungssatz (in %)
+  - chunk: bund-wl-2a-2025__c0053
+    zitat: gründeten Verpflichtungen beruhen und nicht der Erfüllung einer familienrechtlichen Unterhaltspflicht dienen
+  - chunk: bund-wl-2a-2025__c0053
+    zitat: Empfänger/in der Leistung ist anzugeben.
+  - chunk: bund-wl-2a-2025__c0053
+    zitat: leistungen sind z.B. die gesetzlichen Haftpflichtrenten und die
   status: agent-geprueft
+  rein:
+  - Leibrenten-/Verpfründungsvertrag + Zahlungsnachweis → 2025 bezahlte Rente/Verpfründung (Aufstellung, Empfänger angeben)
+  - Vertrag/Nachweis dauernde Last → 2025 erbrachte Leistung
+  - ESTV-Publikation → Ertragsanteil-Satz
+  berechnung: 'nachgewiesene dauernde Lasten + bezahlte Leibrente/Verpfründung × Ertragsanteil (%) nach Art. 35 Abs. 3 lit. c StG (Bund: × ESTV-Berechnungssatz)'
+  beachten:
+  - Ertragsanteil flexibel (Rendite zehnjähriger Bundesobligationen), von der ESTV berechnet und publiziert
+  - 'Bund: nur aus gesetzl./vertragl./letztwilliger Pflicht (z.B. Haftpflichtrenten), kein familienrechtl. Unterhalt'
 - ziffer: '13.1'
   abschnitt: Abzüge
   bezeichnung: Vorsorgebeiträge Säule 3a (Code 208 Person 1 / 210 Person 2)
@@ -449,7 +923,19 @@ positionen:
     zitat: maximal Fr. 7’258
   - chunk: sg-wl-2025__c0085
     zitat: maximal Fr. 36’288
+  - chunk: sg-form-6-2025__c0002
+    zitat: zusätzlich, wenn keine Beiträge für die berufliche Vorsorge
+  - chunk: bund-wl-2a-2025__c0048
+    zitat: 'gehört: Höchstabzug von 7258 Fr. im Jahr;'
   status: agent-geprueft
+  rein:
+  - 3a-Bescheinigung Bankstiftung/Versicherung (Form. 21 EDP) → 2025 einbezahlter Beitrag je Person
+  - Lohnausweis/Erfolgsrechnung → Erwerbseinkommen (nur ohne 2. Säule, für 20%-Limite)
+  berechnung: 'je Person: mit 2. Säule min(Einzahlung 2025; Fr. 7''258); ohne 2. Säule min(Einzahlung; 20% × Erwerbseinkommen; Fr. 36''288) – Kanton = Bund'
+  beachten:
+  - Nur 2025 tatsächlich einbezahlte Beiträge; Bescheinigung immer beilegen
+  - 'Selbständige: Beiträge sind Privataufwand, nicht der Erfolgsrechnung belasten'
+  - Abzug 3a oder 2. Säule → kein Zuschlag «ohne Vorsorge» in Ziff. 14
 - ziffer: '13.2'
   abschnitt: Abzüge
   bezeichnung: Säule 2 (BVG) inkl. Einkaufsbeiträge (Code 218 Person 1 / 219 Person 2)
@@ -467,7 +953,20 @@ positionen:
     zitat: Deklaration des Nettolohnes
   - chunk: sg-wl-2025__c0086
     zitat: Die Berücksichtigung in der Erfolgsrechnung ist nicht zulässig
+  - chunk: bund-mb-21edp__c0006
+    zitat: alle vom Arbeitnehmer aus eigenen Mitteln aufgebrachten, aber ihm nicht vom Lohn abgezogenen Beiträge nur im Formular 21 angegeben werden dürfen
+  - chunk: bund-mb-21edp__c0007
+    zitat: die dem Arbeitnehmer direkt vom Lohn abgezogen wurden.
   status: agent-geprueft
+  rein:
+  - Bescheinigung Vorsorgeeinrichtung (Form. 21 EDP) → selbst überwiesene Beiträge/Einkäufe 2025
+  - Einkaufsberechnung der Pensionskasse → beilegen
+  - 'Lohnausweis → vom Lohn abgezogene BVG-Beiträge/Einkäufe: bereits im Nettolohn Ziff. 1.1/1.2'
+  berechnung: 'Σ 2025 nicht vom Lohn abgezogene BVG-Beiträge + Einkäufe gemäss Bescheinigung; Selbständige: 100% der Einkaufsbeiträge hier (nicht Erfolgsrechnung)'
+  beachten:
+  - Vom Lohn abgezogene Beiträge/Einkäufe stehen im Lohnausweis, nicht in Form. 21 → kein Doppelabzug
+  - Kein Abzug für Einkauf mit vorzeitig bezogenen, steuerlich nicht erfassten Kapitalleistungen
+  - Bescheinigung der Vorsorgeträgerin + Einkaufsberechnung immer beilegen
 - ziffer: '14'
   abschnitt: Abzüge
   bezeichnung: Versicherungsprämien und Sparzinsen (Code 600)
@@ -496,7 +995,23 @@ positionen:
     zitat: Maximaler Abzug Fr. 6’800 Fr. 3’400
   - chunk: sg-form-32-2025__c0003
     zitat: Verheiratete max. Fr. 6'800 max. Fr. 3'700
+  - chunk: sg-form-6-2025__c0001
+    zitat: Private Unfallversicherung (ohne Nichtberufsunfallversicherung)
+  - chunk: sg-form-6-2025__c0001
+    zitat: Sparzinsen (gemäss Wertschriften- und Guthabenverzeichnis)
+  - chunk: sg-wl-2025__c0087
+    zitat: Dabei sind die individuellen Prämienverbilligungen, die für
   status: agent-geprueft
+  rein:
+  - KK-Prämienbescheinigung → Prämien brutto (Form. 6 A.a)
+  - Prämienbelege Unfall-/Lebens-/Rentenversicherung → A.b (ohne NBU) / A.c
+  - Formular 2 (Wertschriftenverzeichnis) → Sparzinsen (A.d)
+  - Verfügung Prämienverbilligung → A.e abziehen
+  berechnung: 'min(A; B); A = Prämien + Sparzinsen − Verbilligung; B: Kanton 6''800/3''400 (+1''100/+500 ohne 2./3a), +1''100 je Kind; Bund 3''700/1''800 (+1''850/+900), +700 je Kind'
+  beachten:
+  - 'Nicht abziehbar: Mobiliar-, Motorfahrzeug-, Haftpflicht- und andere Sachversicherungen'
+  - 'Zuschlag ohne Vorsorge nur, wenn weder 2. Säule noch 3a abgezogen (Verheiratete: bei beiden)'
+  - Kinderzuschlag nur für Kinder mit Abzug Ziff. 23.1/23.2; Bund auch je unterstützte Person
 - ziffer: '15'
   abschnitt: Abzüge
   bezeichnung: Unterhalts- und Verwaltungskosten für Liegenschaften (Code 716)
@@ -514,7 +1029,40 @@ positionen:
     zitat: 20% des steuerlich massgebenden Mietertrages oder des steuer-
   - chunk: sg-form-7-2025__c0004
     zitat: Pauschalabzug 20% der Erträge (B)
+  - chunk: sg-stv__art-29
+    zitat: zwischen dem Abzug der tatsächlichen Kosten und dem Pauschalabzug wählen
+  - chunk: bund-lkv__art-5
+    zitat: 'wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags'
+  - chunk: sg-wl-2025__c0164
+    zitat: Nicht abziehbar sind die Kosten (inklusive Grundgebühren) für Wasser, Gas,
+  - chunk: sg-wl-2025__c0164
+    zitat: Nicht abzugsberechtigt sind Ausgaben, die eine Wertvermehrung der Liegenschaft
+  - chunk: sg-wl-2025__c0169
+    zitat: auch die Einlagen in den Reparatur- und Erneuerungsfonds
+  - chunk: sg-wl-2025__c0169
+    zitat: Wird für die Liegenschaft eine separate Liegenschaftenrechnung geführt, so kann
+  - chunk: sg-wl-2025__c0089
+    zitat: sind bei der Ermittlung der Einkünfte aus selbständiger Tätigkeit (Ziffer 2) zu berücksichtigen
+  - chunk: sg-form-7-2025__c0003
+    zitat: Total anrechenbarer Eigenmietwert
+  - chunk: sg-form-7-2025__c0005
+    zitat: Abzugsfähig sind nur die selbst bezahlten Kosten.
+  - chunk: sg-form-7-2025__c0005
+    zitat: Übertrag in die Spalte (C2) des Formulars 7Z
   status: agent-geprueft
+  rein:
+  - Formular 7 Teil B → Total Erträge a. + b. (anrechenbarer Eigenmietwert + Mieterträge abzüglich Nebenkosten) = Basis Pauschale
+  - Handwerker-/Unterhaltsrechnungen (Rechnungsdatum 2025, selbst bezahlt) → Form. 7 Rückseite, Anteil Unterhalt/Verwaltung (C2)
+  - Gebäudeversicherung, Grundsteuer, STWEG-Abrechnung (inkl. Erneuerungsfonds), Liegenschaftenrechnung → C2
+  - Mehrere Liegenschaften → Form. 7Z Spalten C1/C2
+  berechnung: 'je Liegenschaft: Pauschale 20% × Erträge (B) ODER C2 = Σ selbst bezahlte Kosten − Versicherungs-/Förderleistungen; Bund: Pauschale 10% (Gebäude ≤ 10 J.) / 20% (> 10 J.)'
+  beachten:
+  - Pauschale nur für ganz/vorwiegend Wohnzwecken dienende Privatliegenschaften; Wahl je Steuerperiode und Liegenschaft
+  - 'Nicht abziehbar: Wertvermehrung; bei Eigengebrauch Wasser, Gas, Strom, Heizung/Warmwasser, Abwasser, Kehricht'
+  - 'Geschäftsliegenschaften: Kosten bei selbständiger Tätigkeit (Ziff. 2)'
+  werte_keys:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
 - ziffer: '16.1'
   abschnitt: Abzüge
   bezeichnung: Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen (Code 220)
@@ -531,7 +1079,26 @@ positionen:
     zitat: 16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen 220
   - chunk: sg-wl-2025__c0090
     zitat: 2‰ des fremdverwalteten
+  - chunk: sg-wl-2025__c0091
+    zitat: die Finanz-, Anlage-, Erbschafts-, Vorsorge- und Steuerberatung;
+  - chunk: sg-wl-2025__c0091
+    zitat: nicht als fremdverwaltetes Wertschriftenvermögen
+  - chunk: sg-form-32-2025__c0004
+    zitat: von Online-Spielen, die abgebuchten Spieleinsätze max. Fr. 26'700 max. Fr. 26'800
+  - chunk: bund-wl-2a-2025__c0056
+    zitat: (sog. Safegebühren) mit Einschluss der zur Erzielung des Ertra-
+  - chunk: bund-wl-2a-2025__c0056
+    zitat: Nicht zulässig ist die Anrechnung einer Entschädigung für ei-
   status: agent-geprueft
+  rein:
+  - Steuerauszug/Depotauszug Bank → Depot-/Safegebühren, Inkassospesen 2025
+  - Depotauszug → Wert fremdverwaltete Wertschriften (Basis Pauschale)
+  - Gewinnbestätigung/Formular 2 → steuerbare Lotterie-/Geldspielgewinne (Einsatzkosten)
+  berechnung: tatsächliche Kosten ODER min(2‰ × fremdverwaltete Wertschriften; Fr. 6'000); Einsatzkosten je Gewinn 5% (max. Fr. 5'400), online max. Kanton 26'700 / Bund 26'800
+  beachten:
+  - 'Nicht abziehbar: Courtagen, Ausgabe-/Rücknahmekommissionen, Emissionsabgabe, Anlage-/Steuerberatung, Verwaltungsmandate'
+  - Darlehen und selbstverwaltete Wertschriften (z.B. Aktien eigene AG) gelten nicht als fremdverwaltet
+  - 'Bund: abziehbar nur Depot-/Safegebühren inkl. Inkasso-/Affidavitspesen; keine Entschädigung eigener Bemühungen'
 - ziffer: '16.2'
   abschnitt: Abzüge
   bezeichnung: Kinderbetreuungskosten bei Drittbetreuung (Code 258)
@@ -549,7 +1116,21 @@ positionen:
     zitat: 16.2 Kinderbetreuungskosten bei Drittbetreuung Formular 10 258
   - chunk: sg-wl-2025__c0092
     zitat: Ein Kinderbetreuungsabzug von maximal Fr. 26’700 pro Kind kann geltend
+  - chunk: bund-wl-2a-2025__c0054
+    zitat: 25 800 Fr., für die Drittbetreuung jedes Kindes (bis 14 Jahre),
+  - chunk: bund-wl-2a-2025__c0055
+    zitat: betreuungskosten ausserhalb der Arbeits- oder Ausbildungszeit
+  - chunk: bund-wl-2a-2025__c0055
+    zitat: Gleiches gilt für die Kosten für Verpflegung und Unterkunft der
   status: agent-geprueft
+  rein:
+  - Rechnungen Kita/Tagesmutter/Hort 2025 → bezahlte Betreuungskosten je Kind (Formular 10)
+  - Formular 10 → Vorname Kind, Name/Adresse Betreuungsperson
+  berechnung: 'je Kind unter 14 im gleichen Haushalt: min(Betreuungskosten − Verpflegungsanteil; Kanton Fr. 26''700 / Bund Fr. 25''800)'
+  beachten:
+  - Nur bei direktem Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit
+  - 'Verpflegung nicht abziehbar (Bund: auch Unterkunft); Kanton: ohne separaten Ausweis, Betreuung ausser Haus − Fr. 8/Tag'
+  - 'Bund: Drittbetreuung ausserhalb der Arbeits-/Ausbildungszeit nicht abziehbar'
 - ziffer: '16.3'
   abschnitt: Abzüge
   bezeichnung: Parteispenden (Code 555)
@@ -572,7 +1153,18 @@ positionen:
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 16.3
   - chunk: sg-form-32-2025__c0004
     zitat: Parteispenden max. Fr. 10'600
+  - chunk: bund-wl-2a-2025__c0053
+    zitat: können bis zum Gesamtbetrag von 10 600 Fr. abgezogen wer-
+  - chunk: sg-form-5-2025__c0003
+    zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 21.3
   status: agent-geprueft
+  rein:
+  - 'Spendenbestätigung/Beitragsrechnung Partei → Σ 2025 (Form. 5 Rückseite Teil B: Datum, Partei, Betrag)'
+  berechnung: min(Σ Mitgliederbeiträge + Spenden + Gesinnungsbeiträge + Mandatssteuern 2025; Kanton Fr. 10'700 übrige / Fr. 21'400 Ehepaare; Bund Fr. 10'600)
+  beachten:
+  - 'Partei: im Parteienregister, im kantonalen Parlament vertreten oder in einem Kanton ≥ 3% Stimmen bei letzten Wahlen'
+  - 'Bund: Fr. 10''600 auch für Ehepaare (keine separate Grenze)'
+  - Spenden an gemeinnützige Institutionen nicht hier (→ Ziff. 21.3)
 - ziffer: '16.4'
   abschnitt: Abzüge
   bezeichnung: Kosten berufsorientierte Aus-/Weiterbildung (Code 223 Person 1 / 224 Person 2)
@@ -596,6 +1188,14 @@ positionen:
   - chunk: sg-wl-2025__c0096
     zitat: können nur 50% der Aufwendungen als Aus- und Weiterbildungskosten abgezogen werden
   status: agent-geprueft
+  rein:
+  - 'Kursrechnungen/Zahlungsbelege → selbst bezahlte Kosten 2025 (Aufstellung: Rechnungsdatum, Bezeichnung, Betrag)'
+  - Bestätigung Kursleitung → zwingend angeschaffte Informatikmittel
+  berechnung: je Person min(selbst bezahlte berufsorientierte Kosten; Fr. 13'000) (Kanton = Bund); Kanton alternativ pauschal Fr. 400 ohne Nachweis; Informatik privat nutzbar × 50%
+  beachten:
+  - 'Voraussetzung: erster Abschluss Sek II oder 20. Lebensjahr vollendet; nicht Ausbildung bis zum ersten Sek-II-Abschluss'
+  - Pauschale Fr. 400 nur Kanton/Gemeinde, nur hauptberuflich Unselbständige; Bund nur effektive Kosten
+  - Ausbildungskosten der Kinder → Ziff. 23.3 (Formular 10)
 - ziffer: '16.5'
   abschnitt: Abzüge
   bezeichnung: Übrige Abzüge, z.B. AHV-Beiträge Nichterwerbstätiger (Code 222)
@@ -609,7 +1209,18 @@ positionen:
     zitat: 16.5 Übrige Abzüge Arten 222
   - chunk: sg-wl-2025__c0097
     zitat: Als übrige Abzüge, die unter dieser Ziffer aufzuführen sind
+  - chunk: bund-wl-2a-2025__c0052
+    zitat: Beiträge Nichterwerbstätiger an die AHV, IV und EO.
+  - chunk: bund-wl-2a-2025__c0052
+    zitat: Nicht zulässig ist der Abzug von Arbeitgeberbeiträgen für das private Dienstpersonal.
   status: agent-geprueft
+  rein:
+  - AHV-Beitragsverfügung/-rechnung Nichterwerbstätige (Ausgleichskasse) → AHV/IV/EO-Beiträge
+  - Weitere übrige Abzüge → Aufstellung mit Art
+  berechnung: Σ AHV/IV/EO-Beiträge als Nichterwerbstätige(r) + weitere übrige Abzüge (Art angeben)
+  beachten:
+  - Ordentliche AHV-Beiträge Erwerbstätiger nicht hier (bereits in Ziff. 1 und 2)
+  - 'Bund: Arbeitgeberbeiträge für privates Dienstpersonal nicht abziehbar'
 - ziffer: '17'
   abschnitt: Abzüge
   bezeichnung: Zweiverdienerabzug (Code 226)
@@ -629,7 +1240,26 @@ positionen:
     zitat: Gemeinsam Steuerpflichtige, die beide einer Erwerbstätigkeit nachgehen
   - chunk: sg-form-32-2025__c0005
     zitat: Zweiverdienerabzug Fr. 500 min. Fr. 8'600
+  - chunk: bund-wl-2a-2025__c0058
+    zitat: lich und tatsächlich ungetrennter Ehe leben und beide ein
+  - chunk: bund-wl-2a-2025__c0059
+    zitat: Bruttolohn abzüglich der Berufskosten sowie der Beiträge an die
+  - chunk: bund-wl-2a-2025__c0059
+    zitat: Dem Erwerbseinkommen gleichgestellt sind Erwerbsausfallen-
+  - chunk: bund-wl-2a-2025__c0060
+    zitat: Erwerbseinkommen unter dem Minimalbetrag von 8600 Fr., so
+  - chunk: bund-wl-2a-2025__c0061
+    zitat: kommt in Betracht, wenn sich aus der Erwerbstätigkeit ein Ver-
+  - chunk: bund-wl-2a-2025__c0061
+    zitat: gatten, sofern die Mitarbeit vertraglich vorgesehen oder durch
   status: agent-geprueft
+  rein:
+  - 'Lohnausweise/Erfolgsrechnungen beider Ehegatten → Erwerbseinkommen beider (Bund: niedrigeres Erwerbseinkommen)'
+  berechnung: 'Kanton: Fr. 500 fix; Bund: 50% × niedrigeres Erwerbseinkommen, min. Fr. 8''600 (höchstens dieses Einkommen), max. Fr. 14''100'
+  beachten:
+  - 'Nur gemeinsam Steuerpflichtige, beide erwerbstätig oder erhebliche Mitarbeit (Bund: rechtlich/tatsächlich ungetrennt)'
+  - Bund-Erwerbseinkommen = Bruttolohn − Berufskosten − AHV/IV/EO/ALV/NBUV − 2. Säule − 3a; Taggelder/EO gleichgestellt
+  - 'Bund: kein Abzug bei Verlust aus Erwerbstätigkeit; Mitarbeit nur, wenn vertraglich vorgesehen oder durch Tätigkeit nötig'
 - ziffer: '18'
   abschnitt: Abzüge
   bezeichnung: Total der Abzüge (Code 230)
@@ -640,7 +1270,14 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0009
     zitat: 18. Total der Abzüge 230
+  - chunk: sg-wl-2025__c0173
+    zitat: werden die erforderlichen Anpassungen durch die Steuerbehörde automatisch
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 10–17 (Seite 3)
+  berechnung: Σ Ziff. 10 bis 17
+  beachten:
+  - Abweichende Bundesabzüge (Merkblatt 32) passt die Steuerbehörde automatisch an
 - ziffer: '20'
   abschnitt: Einkommensberechnung
   bezeichnung: Nettoeinkommen (Code 234)
@@ -652,6 +1289,15 @@ positionen:
   - chunk: sg-form-1-2025__c0010
     zitat: 20. Nettoeinkommen (Ziffer 7 abzüglich Ziffer 18) 234
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 7 (Total der Einkünfte)
+  - Übertrag Ziff. 18 (Total der Abzüge)
+  berechnung: Ziff. 7 − Ziff. 18
+  beachten:
+  - Basis Selbstbehalt Krankheitskosten Ziff. 21.1 (Kanton 2% / Bund 5%) und Limite Zuwendungen Ziff. 21.3 (20%)
+  werte_keys:
+  - krankheitskosten.selbstbehalt_satz
+  - spenden.max_satz
 - ziffer: '21.1'
   abschnitt: Einkommensberechnung
   bezeichnung: Krankheits- und Unfallkosten (Vorkolonne Code 650, Selbstbehalt Code 238, Abzug Code 240)
@@ -674,7 +1320,19 @@ positionen:
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 21.1 (Vorkolonne)
   - chunk: sg-form-32-2025__c0005
     zitat: Selbstbehalt 5% der Nettoeinkünfte
+  - chunk: sg-stg-2025__art-46
+    zitat: die Krankheits- und Unfallkosten des Steuerpflichtigen und der von ihm unterhaltenen Personen
   status: agent-geprueft
+  rein:
+  - Arzt-/Zahnarzt-/Spital-/Therapierechnungen 2025 → Bruttobetrag (Form. 6 Rückseite)
+  - 'KK-Leistungsabrechnung → Beiträge Dritter abziehen (bei Verweis auf Zusammenzug: Leistungsübersicht beilegen)'
+  - Ärztliches Zeugnis/Bescheinigung → Medikamente/Heilmittel, Diät-Pauschale (erstmals)
+  - Übertrag Ziff. 20 → Basis Selbstbehalt
+  berechnung: 'Vorkolonne = Σ (brutto − Beiträge Dritter) [+ Diät-Pauschale Fr. 2''500]; Abzug = max(0; Vorkolonne − 2% × Ziff. 20); Bund: Selbstbehalt 5%'
+  beachten:
+  - Diät-Pauschale nur bei andauernder lebensnotwendiger Diät (z.B. Zöliakie, nicht Diabetes)
+  - Auch Kosten der unterhaltenen Personen, soweit selbst getragen
+  - Behinderungsbedingte Kosten nicht hier (→ Ziff. 21.2, ohne Selbstbehalt)
 - ziffer: '21.2'
   abschnitt: Einkommensberechnung
   bezeichnung: Behinderungsbedingte Kosten, ohne Selbstbehalt (Code 235)
@@ -691,7 +1349,22 @@ positionen:
     zitat: Fr. 2’000 pro Monat als nicht abzugsberechtigte Lebenshaltungskosten
   - chunk: sg-wl-2025__c0100
     zitat: 'Bezüger einer Hilflosenentschädigung mittleren Grades: Fr. 5’000'
+  - chunk: sg-wl-2025__c0101
+    zitat: anstelle der effektiven Kosten eine Pauschale von Fr. 2’500 geltend
+  - chunk: sg-wl-2025__c0101
+    zitat: Gehörlose (gilt nicht für Schwerhörige; diese können nur die effektiven Kosten
+  - chunk: sg-wl-2025__c0101
+    zitat: bedürfen aber stets einer Einzelfallabklärung.
   status: agent-geprueft
+  rein:
+  - Heim-/Pflege-/Betreuungsrechnungen 2025 → selbst getragene Kosten (Form. 6 Rückseite)
+  - Verfügung Hilflosenentschädigung (HE) → abziehen bzw. Grundlage Pauschale (einreichen)
+  - Ärztlicher Fragebogen → Pauschale Gehörlose/Dialyse (bei erstmaliger Geltendmachung)
+  berechnung: 'effektiv: Σ selbst getragene Kosten − Beiträge Dritter (Heim ab Pflegestufe 4: − Fr. 2''000 × Monate) ODER Pauschale HE leicht 2''500 / mittel 5''000 / schwer 7''500'
+  beachten:
+  - 'Gehörlose/Dialysepatienten auch ohne HE: Pauschale Fr. 2''500 (nicht Schwerhörige)'
+  - 'Altersheim ohne spezielle Pflege: Lebenshaltungskosten, kein Abzug'
+  - HE-Pauschale + Gehörlosen-/Dialyse-Pauschale kombiniert nur nach Einzelfallabklärung
 - ziffer: '21.3'
   abschnitt: Einkommensberechnung
   bezeichnung: Freiwillige Zuwendungen (Code 244)
@@ -709,7 +1382,23 @@ positionen:
     zitat: 21.3 Freiwillige Zuwendungen (wenn mind. Fr.100, max. 20% Ziffer 20) Formular 5 244
   - chunk: sg-wl-2025__c0102
     zitat: insgesamt höchstens aber 20% des Nettoeinkommens gemäss Ziffer 20
+  - chunk: sg-stg-2025__art-46
+    zitat: Im gleichen Umfang abziehbar sind entsprechende freiwillige Leistungen an Bund, Kantone und Gemeinden
+  - chunk: sg-form-5-2025__c0004
+    zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 16.3
+  - chunk: sg-form-5-2025__c0003
+    zitat: Total der Zuwendungen
+  - chunk: bund-wl-2a-2025__c0056
+    zitat: Die Leistungen müssen im Steuerjahr mindestens 100 Fr. errei-
   status: agent-geprueft
+  rein:
+  - 'Spendenbestätigungen 2025 → Σ Zuwendungen (Form. 5 Rückseite Teil A: Institution, Datum, Betrag)'
+  - Übertrag Ziff. 20 → Basis 20%-Limite
+  berechnung: 'wenn Σ Zuwendungen 2025 ≥ Fr. 100: min(Σ; 20% × Ziff. 20) (Kanton = Bund)'
+  beachten:
+  - Nur an steuerbefreite jur. Personen mit Sitz CH (gemeinnützig/öffentlich) sowie Bund, Kantone, Gemeinden; uneigennützig
+  - Zuwendungen für Kultuszwecke nicht abziehbar
+  - Parteispenden nicht hier (→ Ziff. 16.3)
 - ziffer: '22'
   abschnitt: Einkommensberechnung
   bezeichnung: Reineinkommen (Code 248)
@@ -720,7 +1409,15 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0010
     zitat: 22. Reineinkommen (Ziffer 20 abzüglich Ziffern 21.1 bis 21.3) 248
+  - chunk: sg-form-1-2025__c0011
+    zitat: 24. Steuerbares Einkommen gesamt (Ziffer 22 abzüglich Ziffern 23.1-23.3)
   status: agent-geprueft
+  rein:
+  - Übertrag Ziff. 20 (Nettoeinkommen)
+  - Übertrag Ziff. 21.1 (Abzug nach Selbstbehalt), 21.2, 21.3
+  berechnung: Ziff. 20 − Ziff. 21.1 (nach Selbstbehalt) − 21.2 − 21.3
+  beachten:
+  - 'Weiter: Ziff. 24 steuerbares Einkommen = Ziff. 22 − Sozialabzüge 23.1–23.3 (23.4 nur Bund)'
 - ziffer: '23.1'
   abschnitt: Einkommensberechnung
   bezeichnung: Kinderabzug für jedes noch nicht schulpflichtige Kind (Fr. 7'600, Code 252)
@@ -731,12 +1428,27 @@ positionen:
   bund: 'Bund: Kinderabzug einheitlich Fr. 6''800 pro Kind (kein Vorschul-/Schulabzug, Formular 32 und data/werte/bund/2025); zusätzlich Abzug vom Steuerbetrag Fr. 263 pro Kind (nur Bund).'
   werte_keys:
   - sozialabzug.kind_vorschule
+  - sozialabzug.kind
+  - steuerbetrag.abzug_kind
   quellen:
   - chunk: sg-form-1-2025__c0011
     zitat: 23.1 Kinderabzug für jedes noch nicht schulpflichtige Kind Fr. 7’600 252
   - chunk: sg-wl-2025__c0104
     zitat: Steuerpflichtige, welche für den Unterhalt der Kinder zur Hauptsache aufkom-
+  - chunk: sg-wl-2025__c0035
+    zitat: Von den Angaben zur Ausbildung resp. Schulpflicht (umfasst auch Kindergarten)
+  - chunk: sg-wl-2025__c0103
+    zitat: werden die Sozialabzüge anteilig nach Massgabe der Dauer der Steuerpflicht gewährt
+  - chunk: sg-form-32-2025__c0006
+    zitat: einheitlich Fr. 6'800
   status: agent-geprueft
+  rein:
+  - Seite 1 Kinderangaben (Vorname, Name, Geburtsdatum, Schulpflicht) → Anzahl noch nicht schulpflichtige Kinder
+  berechnung: 'Anzahl Kinder unter Sorge/Obhut, noch nicht schulpflichtig × Fr. 7''600; Bund: Fr. 6''800 je Kind + Steuerbetrag − max. Fr. 263 je Kind im gleichen Haushalt'
+  beachten:
+  - Kindergarten zählt zur Schulpflicht (→ 23.2)
+  - Stichtag 31. Dezember 2025 bzw. Ende Steuerpflicht; bei unterjähriger Steuerpflicht anteilig
+  - Kein Abzug, wenn für das Kind Unterhaltsbeiträge Ziff. 12.2 abgezogen werden
 - ziffer: '23.2'
   abschnitt: Einkommensberechnung
   bezeichnung: Kinderabzug für jedes Kind in Schule oder Ausbildung (Fr. 10'800, Code 254)
@@ -747,12 +1459,29 @@ positionen:
   bund: 'Bund: einheitlich Fr. 6''800 pro Kind (Schule/Ausbildung).'
   werte_keys:
   - sozialabzug.kind_schule
+  - sozialabzug.kind
+  - steuerbetrag.abzug_kind
   quellen:
   - chunk: sg-form-1-2025__c0011
     zitat: 23.2 Kinderabzug für jedes Kind in Schule oder Ausbildung Fr. 10’800 254
   - chunk: sg-form-32-2025__c0006
     zitat: Fr. 10'800 einheitlich Fr. 6'800
+  - chunk: sg-wl-2025__c0035
+    zitat: Bei Kindern in beruflicher Ausbildung sind zudem die Schule oder Lehrfirma und
+  - chunk: sg-wl-2025__c0104
+    zitat: Unterhaltsbeiträge gemäss Ziffer 12.2 geltend gemacht
+  - chunk: sg-wl-2025__c0105
+    zitat: Abzug gebracht werden, wenn für das Kind ein Abzug
+  - chunk: sg-form-32-2025__c0006
+    zitat: für Kinder in Schule oder Ausbildung Fr. 10'800 einheitlich Fr. 6'800
   status: agent-geprueft
+  rein:
+  - Seite 1 Kinderangaben → Kinder in Schule/Ausbildung; bei beruflicher Ausbildung Schule/Lehrfirma und voraussichtliche Dauer
+  berechnung: 'Anzahl Kinder in Schule (ab Kindergarten) oder Ausbildung (unter Sorge/Obhut oder volljährig) × Fr. 10''800; Bund: Fr. 6''800 je Kind + Steuerbetrag − max. Fr. 263'
+  beachten:
+  - Nur wenn zur Hauptsache für den Unterhalt aufgekommen wird
+  - Kein Abzug für Kind mit Unterhaltsbeitragsabzug Ziff. 12.2
+  - Voraussetzung für Ausbildungskostenabzug Ziff. 23.3
 - ziffer: '23.3'
   abschnitt: Einkommensberechnung
   bezeichnung: Ausbildungskosten für Kinder in Schule oder Ausbildung (Code 256)
@@ -764,6 +1493,7 @@ positionen:
     23.2 gilt. Nur Kanton/Gemeinde (nicht Bund).
   werte_keys:
   - sozialabzug.kind_ausbildung
+  - sozialabzug.kind_ausbildung_auswaerts
   quellen:
   - chunk: sg-form-1-2025__c0011
     zitat: 23.3 Ausbildungskosten für Kinder in Schule oder Ausbildung Formular 10 256
@@ -771,7 +1501,17 @@ positionen:
     zitat: nach Abzug eines Selbstbehaltes von Fr. 3’200
   - chunk: sg-wl-2025__c0105
     zitat: 'geltend gemacht werden kann, maximal: 13’700'
+  - chunk: sg-form-32-2025__c0006
+    zitat: oder beruflicher Ausbildung, maximal Fr. 13'700 -
   status: agent-geprueft
+  rein:
+  - Rechnungen Semestergebühren, Bücher, Skripte 2025 → Formular 10
+  - ÖV-Abo zum Ausbildungsort, Belege Wochenaufenthalt/auswärtige Verpflegung → Formular 10
+  - Stipendienverfügung → erhaltene Stipendien abziehen
+  berechnung: 'je Kind mit Abzug 23.2: min(max(0; selbst getragene Ausbildungskosten − Stipendien − Fr. 3''200); Fr. 13''700); nur Kanton (Bund: kein Abzug)'
+  beachten:
+  - 'Lehrlinge: je halbe Kosten als Ausbildungs- bzw. Berufskosten'
+  - Fahrkosten nur mit öffentlichen Verkehrsmitteln
 - ziffer: '23.4'
   abschnitt: Einkommensberechnung
   bezeichnung: Abzug für unterstützte Personen (nur direkte Bundessteuer, Code 264)
@@ -783,12 +1523,26 @@ positionen:
   bund: 'Nur Bund: Fr. 6''800 pro Person.'
   werte_keys:
   - sozialabzug.unterstuetzung
+  - versicherung.kind
+  - steuerbetrag.abzug_kind
   quellen:
   - chunk: sg-form-1-2025__c0011
     zitat: 23.4 Abzug für unterstützte Personen ja Anzahl Bescheinigung 264
   - chunk: sg-wl-2025__c0106
     zitat: Der Abzug von Fr. 6’800 für jede unterstützte Person
+  - chunk: sg-form-32-2025__c0003
+    zitat: Für jedes Kind (und bei der direkten Bundessteuer für jede un-
+  - chunk: sg-form-32-2025__c0006
+    zitat: Gilt auch für unterstützte Personen im gleichen Haushalt.
   status: agent-geprueft
+  rein:
+  - Bescheinigung Unterstützungsbedürftigkeit (Lebensunterhalt nicht aus eigenen Mitteln bestreitbar) → beilegen
+  - Zahlungsnachweise → geleisteter Betrag 2025; Name, Vorname, Adresse der unterstützten Person
+  berechnung: 'Nur Bund: Anzahl unterstützte Personen (Beitrag je ≥ Fr. 6''800) × Fr. 6''800; Kanton: kein Abzug'
+  beachten:
+  - Nur erwerbsunfähige oder beschränkt erwerbsfähige Personen
+  - Nicht für Ehegatten/eingetragene Partner und Kinder mit Kinderabzug
+  - 'Bund zusätzlich: Versicherungsabzug +Fr. 700 je Person; Fr. 263 vom Steuerbetrag (gleicher Haushalt)'
 - ziffer: '24'
   abschnitt: Einkommensberechnung
   bezeichnung: Steuerbares Einkommen gesamt (Code 268)
@@ -799,7 +1553,39 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0011
     zitat: 24. Steuerbares Einkommen gesamt (Ziffer 22 abzüglich Ziffern 23.1-23.3) 268
+  - chunk: sg-form-1-2025__c0010
+    zitat: 22. Reineinkommen (Ziffer 20 abzüglich Ziffern 21.1 bis 21.3)
+  - chunk: sg-form-32-2025__c0006
+    zitat: Abzug für unterstützungsbedürftige Personen
+  - chunk: sg-form-32-2025__c0001
+    zitat: Die Veranlagungsbehörde entnimmt daraus – trotz teils unterschiedlicher gesetzlicher Regelung – die Angaben für die Veranlagung beider Steuern
+  - chunk: sg-wl-2025__c0103
+    zitat: werden die Sozialabzüge anteilig nach Massgabe der Dauer der Steuerpflicht gewährt
+  - chunk: sg-wl-2025__c0104
+    zitat: Der Kinderabzug entfällt für
+  - chunk: sg-wl-2025__c0104
+    zitat: Steuerpflichtige, welche für den Unterhalt der Kinder zur Hauptsache aufkom-
+  - chunk: sg-wl-2025__c0105
+    zitat: 'gemäss Ziffer 23.2 geltend gemacht werden kann, maximal: 13’700'
+  - chunk: sg-wl-2025__c0106
+    zitat: Der Abzug von Fr. 6’800 für jede unterstützte Person setzt voraus
   status: agent-geprueft
+  rein:
+  - Übertrag aus Ziff. 22 Reineinkommen (Code 248)
+  - Personalien/Kinder Seite 1 (Stichtag 31. Dezember 2025) → Ziff. 23.1/23.2 (Codes 252/254)
+  - Formular 10 → Ziff. 23.3 Ausbildungskosten Kinder (Code 256)
+  - Bescheinigung Unterstützung → Ziff. 23.4 (Code 264, nur Bund)
+  berechnung: 'Kanton: Ziff. 22 − 7''600 × Kind Vorschule − 10''800 × Kind Ausbildung − 23.3 (max. 13''700/Kind) → 268 / Bund: − 6''800 × Kind − 6''800 × Unterstützte − 2''800 Ehepaar'
+  beachten:
+  - 'Stichtag 31. Dezember 2025; unterjährige Steuerpflicht: Sozialabzüge anteilig, für den Steuersatz voll'
+  - Kinderabzug nur bei Unterhalt zur Hauptsache; entfällt für Kinder mit Unterhaltsbeiträgen (Ziff. 12.2)
+  - 'Bund: Behörde entnimmt Angaben derselben Erklärung (Merkblatt 32); kein 23.3; 23.4 nicht in Code 268'
+  werte_keys:
+  - sozialabzug.kind_vorschule
+  - sozialabzug.kind_schule
+  - sozialabzug.kind
+  - sozialabzug.unterstuetzung
+  - sozialabzug.verheiratete
 - ziffer: '30.1'
   abschnitt: Vermögen
   bezeichnung: Wertschriften und Guthaben (Code 300)
@@ -817,7 +1603,27 @@ positionen:
     zitat: 30.1 Wertschriften und Guthaben Formular 2 300
   - chunk: sg-wl-2025__c0121
     zitat: inkl. Kryptowährungen
+  - chunk: sg-form-2-2025__c0006
+    zitat: Abzüglich Geschäftswertschriften bzw. -erträge (G und BG)
+  - chunk: sg-wl-2025__c0127
+    zitat: Kurswert am Ende des Jahres 2025 (Jahresendkurs) als massgebender
+  - chunk: sg-wl-2025__c0129
+    zitat: Die Umrechnung von Kursen aus fremden Währungen in Franken erfolgt zum Devisenkurs für Wertschriften
+  - chunk: sg-wl-2025__c0128
+    zitat: für Minderheitsaktionäre (Beteiligung bis max. 50%) beträgt 30%
+  - chunk: sg-wl-2025__c0107
+    zitat: (Säule 3a) stellen bis zu ihrer Fälligkeit steuerfreies
   status: agent-geprueft
+  rein:
+  - Formular 2 → Total Steuerwert nach Abzug G/BG (Übertrag Seite 4 Ziff. 30.1)
+  - Steuerauszug Bank / Depotauszug → Steuerwert 31.12.2025 je Titel bzw. Total
+  - Kontoauszug / Zinsausweis → Saldo 31.12.2025 je Konto
+  - Krypto-Auszug → Bestand und Steuerwert 31.12.2025
+  berechnung: Σ Steuerwert 31.12.2025 aller Titel und Guthaben (Form. 2 Total) − Geschäftswertschriften (G/BG) → Ziff. 30.1 (Code 300)
+  beachten:
+  - 'Kotierte Titel: Jahresendkurs Kursliste ESTV; Fremdwährung zum Devisen-Jahresendkurs'
+  - 'Nichtkotierte Titel: innerer Wert (KS Nr. 28 SSK), Pauschalabzug 30% bei Beteiligung bis 50%'
+  - Ansprüche 2. Säule und Säule 3a bis zur Fälligkeit steuerfrei (nicht deklarieren)
 - ziffer: '30.2'
   abschnitt: Vermögen
   bezeichnung: Bargeld, Gold und andere Edelmetalle (Code 302)
@@ -830,7 +1636,18 @@ positionen:
     zitat: 30.2 Bargeld, Gold und andere Edelmetalle Aufstellung 302
   - chunk: sg-wl-2025__c0110
     zitat: Gold und andere Edelmetalle mit dem Verkehrswert einzusetzen
+  - chunk: sg-wl-2025__c0109
+    zitat: Die Wertschriften und Guthaben des Privatvermögens einschliesslich aller
+  - chunk: sg-wl-2025__c0109
+    zitat: deren Wert das gemeinhin Übliche deutlich übersteigt
   status: agent-geprueft
+  rein:
+  - Aufstellung Bestand 31. Dezember 2025 → Bargeld CHF und Fremdwährungen
+  - Aufstellung Gold/Edelmetalle → Menge × Wert gemäss amtlicher Kursliste
+  berechnung: Σ Bargeld (CHF + Fremdwährungen) + Σ Gold/Edelmetalle, je zum Verkehrswert gemäss amtlicher Kursliste per Jahresende → Code 302
+  beachten:
+  - Bank-/Postkonten und übrige Guthaben nicht hier, sondern im Formular 2 (Ziff. 30.1)
+  - Schmuck = steuerfreier Gebrauchsgegenstand, ausser Wert deutlich über dem Üblichen (→ Ziff. 30.6)
 - ziffer: '30.3'
   abschnitt: Vermögen
   bezeichnung: Lebens- und Rentenversicherungen (Code 304)
@@ -845,7 +1662,16 @@ positionen:
     zitat: 30.3 Lebens- und Rentenversicherungen Bescheinigung
   - chunk: sg-wl-2025__c0110
     zitat: Als steuerbares Vermögen gilt der Rückkaufswert inklusive
+  - chunk: sg-wl-2025__c0107
+    zitat: (Säule 3a) stellen bis zu ihrer Fälligkeit steuerfreies
   status: agent-geprueft
+  rein:
+  - Bescheinigung Versicherungsgesellschaft → Rückkaufswert inkl. Überschussanteil per 31. Dezember 2025 (beilegen)
+  - Police → Gesellschaft, Abschluss-/Ablaufjahr, Versicherungssumme (Zeilenangaben)
+  berechnung: Σ Rückkaufswert inkl. Überschussanteil je Police (auch aufgeschobene und laufende Rentenversicherungen) → Code 304
+  beachten:
+  - Reine Risikoversicherungen ohne Rückkaufswert nicht deklarieren
+  - Säule-3a-Ansprüche bis zur Fälligkeit steuerfrei (nicht hier)
 - ziffer: '30.4'
   abschnitt: Vermögen
   bezeichnung: Motorfahrzeuge (Code 306)
@@ -859,7 +1685,20 @@ positionen:
     zitat: 30.4 Motorfahrzeuge Art preis jahr 306
   - chunk: sg-wl-2025__c0111
     zitat: eine Wertverminderung von 20% vom Anschaffungswert abgerechnet werden
+  - chunk: sg-wl-2025__c0109
+    zitat: Nicht dazu zählen Motorfahrzeuge, Boote
+  - chunk: sg-wl-2025__c0114
+    zitat: Mobilien, Fahrzeuge sowie entgeltlich erworbene immaterielle Güter
+  - chunk: sg-form-1-2025__c0013
+    zitat: 32.2 Aktiven gemäss Schlussbilanz per
   status: agent-geprueft
+  rein:
+  - Kaufvertrag/Rechnung → Kaufpreis (Anschaffungswert) und Erwerbsjahr
+  - Fahrzeugausweis → Art des Fahrzeugs
+  berechnung: 'Je Fahrzeug: Anschaffungswert − 20% × Anschaffungswert × Jahre seit Erwerb → Code 306'
+  beachten:
+  - Motorfahrzeuge zählen nicht zu den steuerfreien persönlichen Gebrauchsgegenständen
+  - Fahrzeuge im Geschäftsvermögen Selbständiger in Ziff. 32.2, nicht hier
 - ziffer: '30.5'
   abschnitt: Vermögen
   bezeichnung: Anteile an unverteilten Erbschaften (Code 308)
@@ -873,7 +1712,20 @@ positionen:
     zitat: 30.5 Anteile an unverteilten Erbschaften Aufstellung 308
   - chunk: sg-wl-2025__c0111
     zitat: Die Erben sind ab Todestag für ihren Anteil de-
+  - chunk: sg-form-2-2025__c0002
+    zitat: ohne darin enthaltene Liegenschaft(en)
+  - chunk: sg-wl-2025__c0142
+    zitat: Quotale Vermögenserträge aus unverteilten Erbschaften (Fälligkeiten zwischen dem Todes- und dem Teilungstag) sind unter Ziffer 6.2
+  - chunk: sg-wl-2025__c0125
+    zitat: von jedem Erben quotal im persönlichen Wertschriftenverzeichnis
   status: agent-geprueft
+  rein:
+  - Aufstellung Nachlass / Erbteilungsunterlagen → Erbanteil und Nachlasswerte (ohne Liegenschaften)
+  berechnung: Anteil × Nachlassvermögen (Bewertung nach Ziff. 30/31) − enthaltene Liegenschaften (→ Form. 7) − anderswo deklarierte Anteile → Code 308
+  beachten:
+  - Ab Todestag deklarationspflichtig, auch wenn Anteile noch offen; zusätzlich Form. 2 Seite 1 (Code 961) vermerken
+  - Quotale Erträge (Todes- bis Teilungstag) in Ziff. 6.2; VSt darauf quotal im eigenen Form. 2
+  - Umfasst auch Nachlass mit Nutzniessung zugunsten eines Dritten
 - ziffer: '30.6'
   abschnitt: Vermögen
   bezeichnung: Übrige Vermögenswerte (Code 310)
@@ -886,7 +1738,18 @@ positionen:
     zitat: 30.6 Übrige Vermögenswerte Arten 310
   - chunk: sg-wl-2025__c0112
     zitat: Massgebend ist in der Regel der mutmassliche
+  - chunk: sg-wl-2025__c0108
+    zitat: Nicht anzugeben sind der Hausrat und die persönlichen Gebrauchsgegenstände
+  - chunk: sg-wl-2025__c0109
+    zitat: deren Wert das gemeinhin Übliche deutlich übersteigt
   status: agent-geprueft
+  rein:
+  - Aufstellung je Objekt (Boot, Reitpferd, Kunst, Schmuck, Sammlung) → mutmasslicher Verkehrswert 31. Dezember 2025
+  berechnung: Σ mutmasslicher Verkehrswert je Objekt → Code 310
+  beachten:
+  - Hausrat und persönliche Gebrauchsgegenstände steuerfrei (nicht anzugeben)
+  - Nur Werte deutlich über dem Üblichen oder mit erheblichem Wertzuwachspotenzial
+  - Motorfahrzeuge → Ziff. 30.4
 - ziffer: '31'
   abschnitt: Vermögen
   bezeichnung: Liegenschaften (Code 710)
@@ -902,7 +1765,30 @@ positionen:
     zitat: Übertrag in die Steuererklärung Seite 4 Ziffer 31
   - chunk: sg-wl-2025__c0154
     zitat: bestimmt sich nach der rechtskräftigen Verkehrs- oder Ertragswertschätzung
+  - chunk: sg-wl-2025__c0155
+    zitat: Der massgebliche Steuerwert wird vom Gemeindesteueramt eröffnet
+  - chunk: sg-wl-2025__c0155
+    zitat: wertschätzung im Ausmass von 80% der Neu- oder Anbaukosten
+  - chunk: sg-wl-2025__c0155
+    zitat: Ertragswert geschätzten Grundstücken (Landwirtschaft) beträgt der Zuschlag 40% der Neu- oder Anbaukosten
+  - chunk: sg-form-7z-2025__c0001
+    zitat: Bei Besitz von mehr als einer Liegenschaft sind die einzelnen Ergebnisse je Liegenschaft von den Formularen 7 in
+  - chunk: sg-wl-2025__c0154
+    zitat: Anteile von Person 1 und Person 2 in Prozenten anzugeben
+  - chunk: sg-wl-2025__c0116
+    zitat: jedem Fall zum amtlichen Verkehrswert erfasst werden und unter Ziffer 31
+  - chunk: sg-form-7-2025__c0002
+    zitat: Zugang, bzw. Wegfall der Liegenschaft im Jahr 2025
   status: agent-geprueft
+  rein:
+  - 'Formular 7 Abschn. A → Steuerwert je Liegenschaft (bei mehreren: Formular 7Z Total Spalte A)'
+  - Verkehrs-/Ertragswertschätzung (vom Gemeindesteueramt eröffnet) → Steuerwert SG-Grundstücke
+  - 'Andere Kantone: dortiger Steuerwert; Ausland: mutmasslicher Verkehrswert'
+  berechnung: 'Σ Steuerwert aller Liegenschaften (Form. 7 bzw. 7Z Spalte A) → Code 710; Neu-/Anbau ohne Schätzung: Schätzung + 80% der Baukosten (Ertragswert 40%)'
+  beachten:
+  - Ein Formular 7 pro Liegenschaft; Anteile Person 1/2 in % angeben
+  - Geschäftsliegenschaften zum amtlichen Verkehrswert hier (Buchwert nicht in Ziff. 32.2)
+  - Zugang/Wegfall 2025 (Kauf, Verkauf, Erbschaft, Schenkung) mit Datum im Form. 7
 - ziffer: 32.1-32.3
   abschnitt: Vermögen
   bezeichnung: 'Betriebsvermögen aus selbständiger Erwerbstätigkeit: Geschäftskapital Gesellschaften (Code 314), Aktiven Schlussbilanz (Code 316), landwirtschaftlicher Betrieb (Code 318)'
@@ -916,7 +1802,28 @@ positionen:
     zitat: 32.2 Aktiven gemäss Schlussbilanz per Aufstellung 316
   - chunk: sg-form-1-2025__c0013
     zitat: ohne Buchwert der
+  - chunk: sg-wl-2025__c0114
+    zitat: Massgebend ist der Anschaffungswert, vermindert um die eingetretene
+  - chunk: sg-wl-2025__c0115
+    zitat: den Anschaffungs- oder Herstellungskosten bewertet
+  - chunk: sg-wl-2025__c0116
+    zitat: Liegenschaften ist vom Total der Aktiven abzurechnen
+  - chunk: sg-wl-2025__c0116
+    zitat: entsprechend den Angaben im Formular 11
+  - chunk: sg-wl-2025__c0116
+    zitat: Die Betriebsschulden sind im Schuldenverzeichnis (Formular 5)
+  - chunk: sg-wl-2025__c0141
+    zitat: Massgebend für die Vermögensbesteuerung ist der Einkommenssteuerwert
   status: agent-geprueft
+  rein:
+  - Schlussbilanz → Total Aktiven abzüglich Buchwert Geschäftsliegenschaften (Ziff. 32.2, Code 316)
+  - Formular 11 → Anteil am Vermögen Kollektiv-/Kommanditgesellschaft (Ziff. 32.1, Code 314)
+  - Formular 12 → Vermögen landwirtschaftlicher Betrieb (Ziff. 32.3, Code 318)
+  berechnung: 32.2 = Aktiven Schlussbilanz − Buchwert Geschäftsliegenschaften; Anlagen = Anschaffungswert − Entwertung; Waren = min(Anschaffungs-/Herstellkosten; Marktwert)
+  beachten:
+  - Geschäftsliegenschaften zum amtlichen Verkehrswert in Ziff. 31
+  - Geschäftswertschriften im Form. 2 mit «G»/«BG»; Steuerwert = Einkommenssteuerwert (i.d.R. Bilanzwert)
+  - Betriebsschulden separat im Formular 5 Teil B (Ziff. 34.2)
 - ziffer: '33'
   abschnitt: Vermögen
   bezeichnung: Total der Vermögenswerte (Code 322)
@@ -927,7 +1834,17 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0013
     zitat: 33. Total der Vermögenswerte 322
+  - chunk: sg-form-1-2025__c0012
+    zitat: der Steuerpflichtigen und der minderjährigen Kinder
+  - chunk: sg-wl-2025__c0107
+    zitat: Einzusetzen sind auch Vermögenswerte, aus denen sich nach Abzug der Schulden und/oder der Sozialabzüge kein steuerbares
   status: agent-geprueft
+  berechnung: Σ Ziff. 30.1–30.6 + Ziff. 31 + Ziff. 32.1–32.3 → Code 322
+  beachten:
+  - Vermögen der minderjährigen Kinder und Nutzniessungsvermögen einschliessen (In- und Ausland)
+  - Auch deklarieren, wenn nach Schulden/Sozialabzügen kein steuerbares Vermögen bleibt
+  rein:
+  - Übertrag aus Ziff. 30.1–30.6 (Codes 300–310), Ziff. 31 (Code 710), Ziff. 32.1–32.3 (Codes 314–318)
 - ziffer: '34.1'
   abschnitt: Vermögen
   bezeichnung: Privatschulden (Code 504)
@@ -943,7 +1860,19 @@ positionen:
     zitat: 34.1 Privatschulden Formular 5 504
   - chunk: sg-wl-2025__c0117
     zitat: Nachgewiesene Schulden, für die eine alleinige Haftung besteht
+  - chunk: sg-form-5-2025__c0001
+    zitat: zu übertragen in die Steuererklärung Seite 4 Ziffer 34.1
+  - chunk: sg-wl-2025__c0083
+    zitat: Leasinggebühren persönlicher Gebrauchsgegenstände und privater Fahr
   status: agent-geprueft
+  rein:
+  - Schuldausweis/Hypothekarbestätigung Bank → Schuld per 31. Dezember 2025 je Gläubiger (Form. 5 Teil A)
+  - Kredit-/Darlehensvertrag, Kontoauszug → Saldo per 31. Dezember 2025
+  berechnung: Σ Schulden 31. Dezember 2025 (Form. 5 Teil A Total) → Code 504; alleinige Haftung voll, Solidar-/Bürgschaftsschulden nur selbst zu tragender Teil
+  beachten:
+  - 'Schuldzinsen 2025 derselben Schulden: Form. 5 Spalte Schuldzinsen → Ziff. 11'
+  - Leasinggebühren privater Fahrzeuge sind keine abziehbaren Schuldzinsen
+  - Geschäftsschulden nicht hier, sondern Form. 5 Teil B (Ziff. 34.2)
 - ziffer: '34.2'
   abschnitt: Vermögen
   bezeichnung: Geschäftsschulden (Code 506)
@@ -957,7 +1886,17 @@ positionen:
     zitat: 34.2 Geschäftsschulden Formular 5 506
   - chunk: sg-form-5-2025__c0002
     zitat: zu übertragen in die Steuererklärung Seite 4 Ziffer 34.2
+  - chunk: sg-wl-2025__c0116
+    zitat: Die Betriebsschulden sind im Schuldenverzeichnis (Formular 5)
+  - chunk: sg-wl-2025__c0083
+    zitat: sind in der Jahresrechnung enthalten und deshalb nicht im Formular 5 aufzuführen
   status: agent-geprueft
+  rein:
+  - Schlussbilanz/Jahresrechnung → Geschäftsschulden je Gläubiger per Bilanzstichtag (Form. 5 Teil B)
+  berechnung: Σ Geschäftsschulden per 31. Dezember 2025 bzw. Bilanzstichtag (Form. 5 Teil B Total) → Code 506
+  beachten:
+  - Geschäftliche Schuldzinsen nicht im Form. 5 bzw. Ziff. 11 (in Jahresrechnung enthalten)
+  - Aktiven in Ziff. 32, Betriebsschulden separat im Formular 5
 - ziffer: '35'
   abschnitt: Vermögen
   bezeichnung: Reinvermögen (Code 326)
@@ -968,7 +1907,14 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0013
     zitat: 35. Reinvermögen (Ziffer 33 abzüglich 34) 326
+  - chunk: sg-wl-2025__c0118
+    zitat: Vom Reinvermögen gemäss Ziffer 35 können die folgenden Beträge
   status: agent-geprueft
+  berechnung: Ziff. 33 − (Ziff. 34.1 + 34.2) → Code 326
+  beachten:
+  - Reinvermögen ist Ausgangswert für die Sozialabzüge Ziff. 36
+  rein:
+  - Übertrag aus Ziff. 33 (Code 322) und Ziff. 34.1/34.2 (Codes 504/506)
 - ziffer: 36.1-36.3
   abschnitt: Vermögen
   bezeichnung: 'Sozialabzüge Vermögen: alleinstehend Fr. 75''000 (Code 330), gemeinsam Fr. 150''000 (Code 332), je minderjähriges Kind Fr. 20''000 (Code 334)'
@@ -987,7 +1933,16 @@ positionen:
     zitat: 36.2 Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150’000 332
   - chunk: sg-wl-2025__c0118
     zitat: 20’000 zusätzlich für jedes minderjährige
+  - chunk: bund-dbg-2025__art-1
+    zitat: eine Einkommenssteuer von den natürlichen Personen
   status: agent-geprueft
+  rein:
+  - Personalien Seite 1 → Zivilstand am 31. Dezember 2025 (alleinstehend / gemeinsam steuerpflichtig)
+  - Kinderangaben Seite 1 → Anzahl minderjährige Kinder unter elterlicher Sorge/Obhut
+  berechnung: 'Kanton: 75''000 (alleinstehend) bzw. 150''000 (gemeinsam) + 20''000 × minderjähriges Kind / Bund: keine Vermögenssteuer'
+  beachten:
+  - Verhältnisse am Ende der Steuerperiode massgebend (i.d.R. 31. Dezember 2025)
+  - 'Nur minderjährige Kinder unter elterlicher Sorge/Obhut; volljährige Kinder in Ausbildung: kein 36.3'
 - ziffer: '37'
   abschnitt: Vermögen
   bezeichnung: Steuerbares Vermögen gesamt (Code 338)
@@ -998,7 +1953,14 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0013
     zitat: 37. Steuerbares Vermögen gesamt (Ziffer 35 abzüglich Ziffern 36.1 bis 36.3) 338
+  - chunk: bund-dbg-2025__art-1
+    zitat: eine Einkommenssteuer von den natürlichen Personen
   status: agent-geprueft
+  berechnung: Ziff. 35 − (36.1 bzw. 36.2) − 36.3 → Code 338
+  beachten:
+  - Nur Kantons-/Gemeindesteuer; Bund erhebt keine Vermögenssteuer
+  rein:
+  - Übertrag aus Ziff. 35 (Code 326) und Ziff. 36.1–36.3 (Codes 330/332/334)
 - ziffer: 40.1-40.3
   abschnitt: Weitere Angaben
   bezeichnung: 'Kapitalleistungen aus Vorsorge: Säule 3a (40.1), 2. Säule (40.2), übrige (40.3)'
@@ -1013,7 +1975,30 @@ positionen:
     zitat: 40.1 aus gebundener Vorsorge Säule 3a Bescheinigung
   - chunk: sg-wl-2025__c0119
     zitat: Kapitalleistungen werden gesondert vom übrigen Einkommen besteuert
+  - chunk: sg-stg-2025__art-52
+    zitat: Die einfache Steuer beträgt 2,0 Prozent für gemeinsam steuerpflichtige Ehegatten und 2,2 Prozent für die übrigen Steuerpflichtigen
+  - chunk: sg-stg-2025__art-52
+    zitat: Die allgemeinen Abzüge und die Sozialabzüge werden nicht gewährt
+  - chunk: sg-stg-2025__art-52
+    zitat: die mit Kindern oder unterstützungsbedürftigen Personen zusammen leben
+  - chunk: bund-dbg-2025__art-38
+    zitat: Sie wird zu einem Fünftel der Tarife nach Artikel 36 Absätze 1, 2 und 2bis erster Satz berechnet
+  - chunk: bund-dbg-2025__art-38
+    zitat: Die Sozialabzüge werden nicht gewährt
+  - chunk: sg-wl-2025__c0119
+    zitat: ist der zusammengerechnete Gesamtbetrag zu deklarieren
   status: agent-geprueft
+  rein:
+  - Bescheinigung Bank/Versicherung Säule 3a → Kapitalauszahlung 2025 (Ziff. 40.1)
+  - Bescheinigung Vorsorgeeinrichtung 2. Säule → Kapitalleistung 2025 (Ziff. 40.2)
+  - Bescheinigung übrige Kapitalleistung mit Vorsorgecharakter → Betrag 2025 (Ziff. 40.3)
+  berechnung: 'Σ 2025 erhaltene Kapitalleistungen; separate Steuer: Kanton einfache Steuer 2,0% Ehegatten bzw. 2,2% übrige / Bund ein Fünftel der Tarife Art. 36 DBG'
+  beachten:
+  - 'Nur Information; separate volle Jahressteuer: Kanton ohne allgemeine und Sozialabzüge / Bund ohne Sozialabzüge'
+  - 'Mehrere Leistungen: zusammengerechneter Gesamtbetrag'
+  - 'Kanton: Ehegattensatz auch für Alleinstehende, die mit Kindern/Unterstützten zusammenleben'
+  werte_keys:
+  - tarif.kapitalleistung_vorsorge
 - ziffer: '41'
   abschnitt: Weitere Angaben
   bezeichnung: Total Kapitalleistungen aus Vorsorge (Code 950)
@@ -1024,7 +2009,14 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0014
     zitat: 41. Total Kapitalleistungen aus Vorsorge 950
+  - chunk: sg-wl-2025__c0119
+    zitat: Informationszwecken und hat keine weiteren Steuerfolgen
   status: agent-geprueft
+  rein:
+  - Übertrag aus Ziff. 40.1–40.3
+  berechnung: Σ Ziff. 40.1 + 40.2 + 40.3 → Code 950
+  beachten:
+  - Informationszweck; keine weiteren Steuerfolgen in der ordentlichen Veranlagung (separate Jahressteuer)
 - ziffer: Form. 2 Spalte A/B
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: 'Verzeichnis der Vermögenswerte: Steuerwert 31.12.2025, Bruttoertrag Spalte A (mit Verrechnungssteuerabzug) / Spalte B (ohne)'
@@ -1045,7 +2037,37 @@ positionen:
     zitat: Kundenguthaben, deren Bruttozins Fr. 200 übersteigt
   - chunk: sg-form-2-2025__c0006
     zitat: 'Verrechnungssteueranspruch: 35 % vom Bruttoertrag (Total A)'
+  - chunk: sg-wl-2025__c0122
+    zitat: Steuerauszüge sind bei Einreichung der Steuererklärung auf Papier immer komplett dem Formular 2 beizulegen
+  - chunk: sg-wl-2025__c0130
+    zitat: Selbst errechnete Zinsen dürfen nicht ein-
+  - chunk: sg-wl-2025__c0139
+    zitat: ausländische Aktien, Obligationen, Anteile an GmbH, Genossenschaften
+  - chunk: sg-wl-2025__c0143
+    zitat: ertrag in Schweizer Franken, vor Abzug von Quellensteuern und Kommissionen
+  - chunk: sg-wl-2025__c0145
+    zitat: nicht rückforderbaren Steuern gemäss DA-1 den Betrag von Fr. 100
+  - chunk: sg-wl-2025__c0127
+    zitat: Kurswert am Ende des Jahres 2025 (Jahresendkurs) als massgebender
+  - chunk: sg-wl-2025__c0129
+    zitat: Die Umrechnung von Kursen aus fremden Währungen in Franken erfolgt zum Devisenkurs für Wertschriften
+  - chunk: sg-wl-2025__c0121
+    zitat: sind in die entsprechenden Spalten das Datum des Zu- oder Abganges anzugeben und die Bankbelege beizulegen
+  - chunk: sg-wl-2025__c0142
+    zitat: Spalte 1 mit «E» bzw. «S» zu
+  - chunk: sg-form-2-2025__c0006
+    zitat: Abzüglich Erträge aus Privatbeteiligung (BP)
   status: agent-geprueft
+  rein:
+  - Steuerauszug Bank → Steuerwert 31. Dezember 2025 und Bruttoertrag A/B (Totale übertragen; bei Papiereinreichung Auszug beilegen)
+  - Zinsausweis/Kontoauszug → Saldo und Bruttozins je Konto
+  - Dividenden-/Couponabrechnung Ausland → Bruttoertrag in CHF vor Quellensteuer (Spalte B bzw. DA-1)
+  - Kursliste ESTV → Jahresendkurs kotierter Titel und Devisen
+  berechnung: Je Titel Steuerwert + Bruttoertrag (A mit 35% VSt / B ohne); Steuerwert − G/BG → Ziff. 30.1; Ertrag A+B − G/BG − BP (Ziff. 4.2) − BG (Ziff. 4.3) → Ziff. 4.1
+  beachten:
+  - Bankzinsen bis Fr. 200/Jahr → B, mit VSt-Abzug → A; selbst errechnete Zinsen nicht eintragen
+  - 'Ausland: Bruttoertrag vor Quellensteuer in B; DBA-Anrechnung via DA-1 (nicht rückforderbar ≤ Fr. 100: keine)'
+  - Zu-/Abgänge mit Datum und Bankbeleg; Codes G, N, E, S, BP, BG in Spalte 1
 - ziffer: Form. 2 Code 999
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: Verrechnungssteueranspruch 35% vom Bruttoertrag Total A (Code 999)
@@ -1057,7 +2079,31 @@ positionen:
   quellen:
   - chunk: sg-form-2-2025__c0006
     zitat: 'Verrechnungssteueranspruch: 35 % vom Bruttoertrag (Total A) Fr./Rp. 999'
+  - chunk: sg-wl-2025__c0138
+    zitat: 'Verrechnungssteueranspruch: 35 % vom Bruttoertrag (Total A)'
+  - chunk: sg-wl-2025__c0124
+    zitat: Der Verrechnungssteuersatz für die Fälligkeiten 2025 beträgt 35%
+  - chunk: sg-wl-2025__c0125
+    zitat: spätestens Ende 2028
+  - chunk: sg-wl-2025__c0125
+    zitat: nicht innert drei Jahren nach Ablauf des Kalenderjahres
+  - chunk: sg-wl-2025__c0126
+    zitat: verwirkt den Anspruch auf Rückerstattung der von diesen
+  - chunk: sg-wl-2025__c0126
+    zitat: fahrlässig nicht angegeben wurden
+  - chunk: sg-wl-2025__c0124
+    zitat: Antragsformular 25 bei der Eidg. Steuerverwaltung geltend zu machen
+  - chunk: sg-wl-2025__c0131
+    zitat: Antragsformular 25 direkt bei der Eidg. Steuerverwaltung
   status: agent-geprueft
+  rein:
+  - Übertrag aus Form. 2 Total Bruttoertrag Spalte A
+  - Steuerauszug Bank → Total Erträge mit Verrechnungssteuerabzug (A)
+  berechnung: Total Bruttoertrag Spalte A (vor Abzug G/BG/BP) × 35% → Code 999
+  beachten:
+  - Anspruch Fälligkeiten 2025 verwirkt ohne Antrag bis Ende 2028; Fristerstreckung hemmt nicht
+  - 'Nicht deklarierte Erträge/Vermögen: Anspruch verwirkt (ausser fahrlässig und nachträglich angegeben)'
+  - 'Kollektiv-/Kommanditgesellschaft und STWE-Erneuerungsfonds: Formular 25 direkt an ESTV'
 - ziffer: Form. 2 Code 960-963
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: 'Fragen Erbschaften/Schenkungen: Erbschaft erhalten (960), unverteilte Erbschaft (961), Schenkung erhalten (962), verschenkt (963)'
@@ -1072,7 +2118,26 @@ positionen:
     zitat: Haben Sie im Jahr 2025 eine Erbschaft oder ein Vermächtnis erhalten?
   - chunk: sg-form-2-2025__c0003
     zitat: Haben Sie im Jahr 2025Vermögen verschenkt?
+  - chunk: sg-wl-2025__c0120
+    zitat: allen Steuerpflichtigen zu beantworten, da sie von allgemeiner Bedeutung sind
+  - chunk: sg-wl-2025__c0120
+    zitat: Deklaration von Erbschaften und Schenkungen (inkl. Erbvorbezüge und
+  - chunk: sg-wl-2025__c0120
+    zitat: deklarieren, wenn sie unter
+  - chunk: sg-wl-2025__c0142
+    zitat: der Vermögenswerte tatsächlich zugeflossenen Erträge aufzuführen
+  - chunk: sg-wl-2025__c0142
+    zitat: Spalte 1 mit «E» bzw. «S» zu
   status: agent-geprueft
+  rein:
+  - Erbteilungsakt (Kopie beilegen) → Erblasser, Todestag, Teilungsdatum, Betrag (Code 960)
+  - Nachlassaufstellung → Erbanteil unverteilte Erbschaft ohne Liegenschaften (Code 961)
+  - Aufstellung Zusammensetzung (beilegen) → Schenkungsdatum, Betrag, Verwandtschaftsgrad (Codes 962/963)
+  berechnung: 'Kein Rechenfeld: Betrag je Vorgang 2025 (960 Erbschaft erhalten, 961 Erbanteil unverteilt, 962 Schenkung erhalten, 963 verschenkt)'
+  beachten:
+  - Fragen von allen zu beantworten; inkl. Erbvorbezüge, Erbauskäufe, Schenkungen unter Nutzniessungsvorbehalt
+  - Neue Titel im Verzeichnis mit «E»/«S»; nur seit Erwerb zugeflossene Erträge deklarieren
+  - Liegenschaften aus Erbschaft im Formular 7, nicht in Code 961
 - ziffer: Form. 4 Ziff. 1.1
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten öffentliche Verkehrsmittel (Code 400 Person 1 / 450 Person 2)
@@ -1092,7 +2157,25 @@ positionen:
     zitat: muss auf dem Lohnausweis Feld F angekreuzt sein
   - chunk: sg-wl-2025__c0077
     zitat: Bei Benützung eines öffentlichen Verkehrsmittels (Bahn, Tram, Trolley- oder
+  - chunk: sg-stb-39-3__c0010
+    zitat: muss die Abo-Kosten nicht um die Homeoffice-Tage kürzen
+  - chunk: sg-stb-39-3__c0011
+    zitat: der Betrag bei unterjähriger Steuerpflicht, bei Aufnahme oder Aufgabe der Erwerbstätigkeit während des Jahres sowie bei Teilzeitarbeit nicht gekürzt
+  - chunk: sg-form-32-2025__c0002
+    zitat: Fahrkosten zwischen Wohn- und Arbeitsort
+  - chunk: sg-wl-2025__c0074
+    zitat: Abzug ist zulässig für Kosten, die der Arbeitgeber übernommen hat
+  - chunk: sg-stb-39-3__c0003
+    zitat: kann sie als notwendige Kosten die Auslagen abziehen, die bei
   status: agent-geprueft
+  rein:
+  - ÖV-Abo/Billettbelege → tatsächliche Kosten Arbeitsweg 2025 (Weg von–nach, Datum von–bis)
+  - Lohnausweis Feld F → angekreuzt = kein Abzug (Sammeltransport/GA vom Arbeitgeber)
+  berechnung: 'Tatsächliche ÖV-Kosten; Σ Ziff. 1.1–1.3: Kanton max. Fr. 8''000 / Bund max. Fr. 3''300 (Maximalabzug, bei Teilzeit/unterjährig nicht gekürzt)'
+  beachten:
+  - 'Home-Office-/arbeitsfreie Tage: keine Fahrkosten; ÖV-Abo aber nicht um Home-Office-Tage kürzen'
+  - Vom Arbeitgeber übernommene Kosten nicht abziehbar
+  - 'Privatfahrzeug ohne Begründung (Ziff. 1.3): nur Kosten, die mit ÖV angefallen wären'
 - ziffer: Form. 4 Ziff. 1.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten Fahrrad, Kleinmotorrad bis 50 cm3 (Code 402 Person 1 / 452 Person 2)
@@ -1102,12 +2185,25 @@ positionen:
   regel: Pauschal bis Fr. 700 im Jahr (Fahrrad oder Kleinmotorrad mit gelbem Kontrollschild).
   werte_keys:
   - berufskosten.fahrkosten.velo_pauschale
+  - berufskosten.fahrkosten.max
   quellen:
   - chunk: sg-form-4-2025__c0001
     zitat: 1.2 Fahrrad, Kleinmotorrad bis 50 cm3 (Kontrollschild mit gelbem Grund) 402
   - chunk: sg-wl-2025__c0077
     zitat: bis zu Fr. 700 im Jahr
+  - chunk: sg-stb-39-3__c0003
+    zitat: zur nächsten Haltestelle des öffentlichen Verkehrs mehr als 10 Minuten
+  - chunk: sg-stb-39-3__c0004
+    zitat: Die Kosten des privaten Autos oder Motorrades können nur in Abzug gebracht werden
+  - chunk: sg-form-32-2025__c0002
+    zitat: Fahrkosten zwischen Wohn- und Arbeitsort
   status: agent-geprueft
+  rein:
+  - Keine Belege; Fahrrad/Kleinmotorrad bis 50 cm3 (gelbes Kontrollschild) → Pauschale Code 402
+  berechnung: Pauschale bis Fr. 700/Jahr (Kanton und Bund); zählt zu Σ Ziff. 1.1–1.3 (Kanton max. Fr. 8'000 / Bund max. Fr. 3'300)
+  beachten:
+  - Nur wenn Fussweg zur Arbeit bzw. zur ÖV-Haltestelle mehr als 10 Minuten
+  - 'Grössere Motorräder: Ziff. 1.3 (nur in begründeten Fällen)'
 - ziffer: Form. 4 Ziff. 1.3
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten Motorfahrzeug, Fr. 0.70 pro km, Zwischentotal max. Fr. 8'000 (Code 404/406 Person 1; 454/456 Person 2)
@@ -1122,6 +2218,7 @@ positionen:
   - berufskosten.fahrkosten.auto_km
   - berufskosten.fahrkosten.arbeitstage
   - berufskosten.fahrkosten.max
+  - berufskosten.fahrkosten.motorrad_km
   quellen:
   - chunk: sg-form-4-2025__c0002
     zitat: km x Fr. 0.70 (Kostensatz gemäss Wegleitung) 404
@@ -1131,7 +2228,27 @@ positionen:
     zitat: 'Bei Benützung eines Motorfahrzeuges in begründeten Fällen: 70 Rappen je'
   - chunk: sg-wl-2025__c0076
     zitat: entsprechend 10,8% pro Jahr
+  - chunk: sg-stb-39-3__c0019
+    zitat: Für die Steuerperiode 2025 beträgt der Kilometeransatz Fr. --.70
+  - chunk: sg-stb-39-3__c0019
+    zitat: Der einheitliche Kilometeransatz von Fr. --.75 gilt ab der Steuerperiode
+  - chunk: sg-stb-39-3__c0009
+    zitat: 75 Rappen je Fahrkilometer für Motorräder und Autos
+  - chunk: sg-stb-39-3__c0006
+    zitat: eine Arbeitgeberbescheinigung sowie die entsprechenden
+  - chunk: sg-form-32-2025__c0002
+    zitat: Fahrkosten zwischen Wohn- und Arbeitsort
   status: agent-geprueft
+  rein:
+  - Formular 4 → Begründung ankreuzen (kein ÖV, Einsparung über 60 Min./Tag, Arbeitgeberverlangen, Arztzeugnis)
+  - Formular 4 Zeile → Weg von–nach, km/Weg, km/Tag, Tage, Total km
+  - Arbeitgeberbescheinigung + Spesenabrechnungen, wenn mit Dienstfahrten begründet
+  - Bordbuch bei Geschäftsfahrzeug mit effektiver Abrechnung
+  berechnung: 'km/Tag × Arbeitstage (i.d.R. max. 220) × Fr. 0.70 (Code 404); Σ 1.1–1.3: Kanton max. Fr. 8''000 (Code 406) / Bund max. Fr. 3''300'
+  beachten:
+  - 'Geschäftsfahrzeug mit Privatanteil 0,9%/Monat (10,8%/Jahr): kein Abzug; mit Bordbuch effektiv bis Maximum'
+  - 'Motorrad: Kanton Fr. 0.70 / Bund Fr. 0.40 pro km'
+  - 2025 gilt 70 Rp./km; der Ansatz 75 Rp. im StB 39 Nr. 3 (Fassung 2026) gilt erst ab 2026
 - ziffer: Form. 4 Ziff. 2.1
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Mehrkosten auswärtige Verpflegung, Fr. 15 pro Arbeitstag / Fr. 3'200 pro Jahr (Code 408 Person 1 / 458 Person 2)
@@ -1143,12 +2260,26 @@ positionen:
   werte_keys:
   - berufskosten.verpflegung.tag
   - berufskosten.verpflegung.jahr
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
   quellen:
   - chunk: sg-form-4-2025__c0003
     zitat: Pro Arbeitstag Fr. 15 / im Jahr Fr. 3'200 408
   - chunk: sg-wl-2025__c0078
     zitat: Fr. 15 für jede auswärtige Hauptmahlzeit
+  - chunk: sg-wl-2025__c0079
+    zitat: Der Abzug für Schicht- und
+  - chunk: sg-wl-2025__c0078
+    zitat: Geht jedoch die Verbilligung so weit, dass offensichtlich gar keine Mehrkosten gegenüber der Verpflegung zu Hause entstehen
   status: agent-geprueft
+  rein:
+  - Arbeitstage mit auswärtiger Hauptmahlzeit (ohne Home-Office/Absenzen) → Anzahl Tage
+  - 'Lohnausweis Feld G → angekreuzt: Kantine/Verbilligung, dann Ziff. 2.2 statt 2.1'
+  berechnung: min(Fr. 15 × Arbeitstage mit auswärtiger Hauptmahlzeit; Fr. 3'200) – Kanton und Bund gleich
+  beachten:
+  - 'Verbilligung durch Arbeitgeber/Kantine: Ziff. 2.2 halber Abzug Fr. 7.50/Tag, max. Fr. 1''600'
+  - Nicht kumulierbar mit Schicht-/Nachtarbeit (Ziff. 2.3)
+  - Kein Abzug ohne Mehrkosten gegenüber Verpflegung zu Hause; nicht an Home-Office-Tagen
 - ziffer: Form. 4 Ziff. 2.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Verpflegung verbilligt durch Arbeitgeber (Kantine, Gutscheine/Lunch-Checks), Fr. 7.50 pro Tag / Fr. 1'600 pro Jahr (Code 410 Person 1 / 460 Person 2)
@@ -1167,7 +2298,28 @@ positionen:
     zitat: Pro Arbeitstag Fr. 7.50 / im Jahr Fr. 1'600 410
   - chunk: sg-wl-2025__c0078
     zitat: In diesem Fall ist auf dem Lohnausweis Feld G
+  - chunk: sg-form-4-2025__c0007
+    zitat: Pro Arbeitstag Fr. 7.50 / im Jahr Fr. 1'600 460
+  - chunk: sg-stb-39-8__c0015
+    zitat: steht ihm trotz Verpflegung zu höheren Kosten nur der halbe Abzug zu
+  - chunk: sg-stb-39-8__c0016
+    zitat: Pauschalabzug im Verhältnis der Arbeitstage mit vergüteter Verpflegung herabgesetzt
+  - chunk: sg-form-4-2025__c0002
+    zitat: An Home-Office-Tagen und
+  - chunk: sg-form-4-2025__c0002
+    zitat: Tagen ohne Arbeitsleistung entstehen keine Kosten für
+  - chunk: sg-stb-39-8__c0006
+    zitat: Der Abzug für Schicht- oder Nachtarbeit kann nicht zusätzlich zum Abzug für auswärtige Verpflegung
   status: agent-geprueft
+  rein:
+  - Lohnausweis → Feld G angekreuzt (Kantine, Gutscheine/Lunch-Checks, AG-Beitrag)
+  - Arbeitszeitnachweis → Arbeitstage mit auswärtiger Hauptmahlzeit (ohne Homeoffice-/Absenztage)
+  - Spesenabrechnung/Spesenreglement → Tage mit Spesenersatz fürs Mittagessen (Kürzung)
+  berechnung: min(Arbeitstage × 7.50; 1'600) je Person → Code 410 (P1) / 460 (P2); bei Spesenersatz × (Tage − Spesentage) / Tage; Kanton = Bund
+  beachten:
+  - Verbilligung so weit, dass offensichtlich keine Mehrkosten entstehen → kein Abzug
+  - Kantine zumutbar, aber freiwillig nicht genutzt → trotzdem nur halber Abzug
+  - Homeoffice-Tage und Tage ohne Arbeitsleistung zählen nicht; nicht kumulierbar mit Schichtabzug 2.3
 - ziffer: Form. 4 Ziff. 2.3
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Schicht-/Nachtarbeit (mind. 8 Stunden durchgehend), Fr. 15 pro Schichttag / Fr. 3'200 pro Jahr (Code 412 Person 1 / 462 Person 2)
@@ -1184,7 +2336,20 @@ positionen:
     zitat: Pro ausgewiesenen Schichttag Fr. 15 / im Jahr Fr. 3'200 412
   - chunk: sg-wl-2025__c0079
     zitat: geleisteter Schichttage ist vom Arbeit-
+  - chunk: sg-form-4-2025__c0007
+    zitat: Pro ausgewiesenen Schichttag Fr. 15 / im Jahr Fr. 3'200 462
+  - chunk: sg-stb-39-8__c0006
+    zitat: sofern beide Hauptmahlzeiten nicht zur üblichen Zeit zu Hause eingenommen werden können
+  - chunk: sg-stb-39-8__c0006
+    zitat: Verpflegungsabzug ist in diesen Fällen nicht abhängig von einer minimalen Entfernung
   status: agent-geprueft
+  rein:
+  - 'Lohnausweis → Ziff. 15 Bemerkungen: Anzahl Schichttage'
+  - Arbeitgeberbescheinigung (separates Schreiben) → Anzahl Schichttage, falls nicht im Lohnausweis
+  berechnung: min(Schichttage × 15; 3'200) je Person → Code 412 (P1) / 462 (P2); Kanton = Bund
+  beachten:
+  - Nur durchgehende, mind. achtstündige Schicht/Nacht; gestaffelt nur, wenn beide Hauptmahlzeiten nicht zu Hause möglich
+  - Nicht kumulierbar mit Verpflegungsabzug 2.1/2.2; keine Mindestdistanz Wohn-/Arbeitsort nötig
 - ziffer: Form. 4 Ziff. 3.1
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Pauschalabzug übrige Berufskosten: Fr. 700 + 10% des Nettolohnes, max. Fr. 2''400 (Code 416 Person 1 / 466 Person 2)'
@@ -1197,6 +2362,7 @@ positionen:
   - berufskosten.uebrige.fix
   - berufskosten.uebrige.satz
   - berufskosten.uebrige.max
+  - berufskosten.uebrige.min
   quellen:
   - chunk: sg-form-4-2025__c0003
     zitat: 'Pauschalabzug: Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2''400 416'
@@ -1204,7 +2370,26 @@ positionen:
     zitat: Pauschale von Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2’400
   - chunk: sg-form-32-2025__c0002
     zitat: max. Fr. 2'400 max. Fr. 4'000
+  - chunk: sg-form-4-2025__c0007
+    zitat: 'Pauschalabzug: Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2''400 466'
+  - chunk: sg-form-4-2025__c0001
+    zitat: Ziffer 3 und 5 sind nach Dauer der Steuerpflicht
+  - chunk: sg-form-1-2025__c0004
+    zitat: Aus Haupterwerbstätigkeit Person 1 Lohnausweis 100
+  - chunk: sg-stb-39-1__c0001
+    zitat: Sie gelten grundsätzlich als mit der Pauschale abgegolten
+  - chunk: sg-wl-2025__c0173
+    zitat: erforderlichen Anpassungen durch die Steuerbehörde automatisch
   status: agent-geprueft
+  rein:
+  - Lohnausweis → Nettolohn (= Steuererklärung Ziff. 1.1, Code 100/102)
+  - Lohnausweis/Spesenreglement → ausbezahlte nicht ereignisbezogene Pauschalspesen (dann keine Pauschale)
+  - ALV-Abrechnung → Taggelder (Pauschale sinngemäss)
+  berechnung: 'Kanton: min(700 + 10% × Nettolohn; 2''400) / Bund: min(max(3% × Nettolohn; 2''000); 4''000) → Code 416 (P1) / 466 (P2); Teiljahr umrechnen'
+  beachten:
+  - Nicht zusätzlich zu ausbezahlten nicht ereignisbezogenen Pauschalspesen
+  - Arbeitszimmer ist mit der Pauschale abgegolten (keine Kumulation)
+  - Bund-Abweichung (3%-Pauschale) nimmt das Steueramt automatisch vor
 - ziffer: Form. 4 Ziff. 3.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Tatsächliche übrige Berufskosten anstelle Pauschale (Code 418 Person 1 / 468 Person 2)
@@ -1218,7 +2403,30 @@ positionen:
     zitat: '3.2 Anstelle des Pauschalabzuges: tatsächliche Berufskosten'
   - chunk: sg-wl-2025__c0080
     zitat: so können gegen Nachweis die tatsächlichen Auf
+  - chunk: sg-form-4-2025__c0007
+    zitat: 'Anstelle des Pauschalabzuges: tatsächliche Berufskosten Aufstellung'
+  - chunk: sg-stb-39-9__c0001
+    zitat: übrige Berufskosten (z.B. Arbeitszimmer zu Hause, Berufswerkzeuge u.a.)
+  - chunk: sg-stb-39-1__c0001
+    zitat: müssen sämtliche tatsächlichen Aufwendungen nachgewiesen werden
+  - chunk: sg-stb-39-1__c0003
+    zitat: ca. 40% der gesamten Arbeitszeit ausmacht
+  - chunk: sg-stb-39-1__c0005
+    zitat: wobei für die Berechnung die Gesamtkosten durch die Anzahl Zimmer plus zwei geteilt werden
+  - chunk: sg-stb-39-1__c0005
+    zitat: Bei Teilzeitarbeit besteht kein Anspruch auf den vollen Arbeitszimmerabzug
+  - chunk: sg-stb-39-1__c0006
+    zitat: Die Abzugsvoraussetzungen sind gleich wie im kantonalen Recht; die Berechnung erfolgt ebenfalls gleich
   status: agent-geprueft
+  rein:
+  - Quittungen/Rechnungen übrige Berufskosten (z.B. Berufswerkzeuge) → Beiblatt zu Formular 4
+  - Mietvertrag bzw. Eigenmietwert + Nebenkosten → Arbeitszimmeranteil (nur bei beruflicher Notwendigkeit)
+  - Arbeitsvertrag/AG-Bestätigung → kein Arbeitsplatz beim AG, Anteil Arbeit zu Hause
+  berechnung: Σ belegte Kosten (Beiblatt) → Code 418 (P1) / 468 (P2), nur wenn > 3.1; Arbeitszimmer = Miete bzw. EMW netto (inkl. NK) / (Zimmer + 2), Teilzeit anteilig
+  beachten:
+  - 'Entweder Pauschale 3.1 oder effektiv: dann sämtliche übrigen Kosten inkl. Arbeitszimmer belegen'
+  - 'Arbeitszimmer kumulativ: ca. 40% der Arbeitszeit zu Hause, kein AG-Arbeitsplatz, ausgeschiedener Raum'
+  - 'Bund: gleiche Voraussetzungen und Berechnung fürs Arbeitszimmer'
 - ziffer: Form. 4 Ziff. 4.1
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Wochenaufenthalt: Unterkunft, ortsübliche Kosten Zimmer (Code 426 Person 1 / 476 Person 2)'
@@ -1235,7 +2443,23 @@ positionen:
     zitat: '4.1 Unterkunft: Ortsübliche Kosten für ein Zimmer'
   - chunk: sg-wl-2025__c0081
     zitat: je nach Arbeitsort Fr. 500 bis Fr. 800 pro Monat
+  - chunk: sg-form-4-2025__c0008
+    zitat: 'Unterkunft: Ortsübliche Kosten für ein Zimmer Monate à Fr. 476'
+  - chunk: sg-stb-39-5__c0004
+    zitat: Monatsmieten bis Fr. 800.--, an anderen Orten bis Fr. 500.-- allgemein anerkannt
+  - chunk: sg-stb-39-5__c0004
+    zitat: oder ein Studio mit Bad und kleiner Küche bzw. Kochecke verstanden
+  - chunk: sg-stb-39-5__c0002
+    zitat: ist in der Regel davon auszugehen, dass er auch seinen steuerlichen Wohnsitz und damit sein Hauptsteuerdomizil an den Arbeitsort verlegt
   status: agent-geprueft
+  rein:
+  - Mietvertrag/Mietzinsbelege Zimmer bzw. Studio am Arbeitsort → Monate × Monatsmiete
+  - Arbeitszeit-/Arbeitswegangaben → Begründung, dass tägliche Rückkehr unzumutbar ist
+  berechnung: Monate × tatsächliche Zimmermiete, anerkannt bis 800/Mt. (Städte Zürich, Bern, Basel, Lausanne, Genf, gr. Kurorte), sonst bis 500/Mt. → Code 426 (P1) / 476 (P2)
+  beachten:
+  - Zimmer = 1-Zimmerwohnung/Studio; teurere Unterkunft = nicht abziehbare Lebenshaltung
+  - Tägliche Rückkehr zumutbar → i.d.R. Wohnsitz am Arbeitsort (kein Abzug)
+  - Heimfahrten unter Form. 4 Ziff. 1 (Fahrkosten)
 - ziffer: Form. 4 Ziff. 4.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Wochenaufenthalt: Verpflegung Fr. 30 pro Arbeitstag / Fr. 6''400 pro Jahr (Code 428 Person 1 / 478 Person 2)'
@@ -1251,7 +2475,23 @@ positionen:
     zitat: Pro Arbeitstag Fr. 30 / im Jahr Fr. 6'400
   - chunk: sg-wl-2025__c0081
     zitat: gesamthaft Fr. 22.50 im Tag, bzw. Fr. 4’800 im Jahr
+  - chunk: sg-form-4-2025__c0008
+    zitat: Verbilligung der Mahlzeiten durch den Arbeitgeber pro Arbeitstag Fr. 22.50 / im Jahr Fr. 4'800 478
+  - chunk: sg-stb-39-5__c0003
+    zitat: Der reduzierte Abzug ist anzuwenden, wenn eine der beiden täglichen Hauptmahlzeiten vom Arbeitgeber verbilligt wird
+  - chunk: sg-stb-39-8__c0013
+    zitat: Der Pauschalabzug für auswärtige Verpflegung bei täglicher Heimkehr kann nicht
+  - chunk: sg-stb-39-8__c0011
+    zitat: kann nicht von den Pauschalen abgewichen werden
   status: agent-geprueft
+  rein:
+  - Lohnausweis → Feld G (Verbilligung) → reduzierter Ansatz
+  - Arbeitszeitnachweis → Arbeitstage am Wochenaufenthaltsort
+  berechnung: 'Voll: min(Tage × 30; 6''400); verbilligt (Kantine/Feld G): min(Tage × 22.50; 4''800) → Code 428 (P1) / 478 (P2); Kanton = Bund'
+  beachten:
+  - Reduziert schon, wenn eine der beiden Hauptmahlzeiten verbilligt bzw. Kantine verfügbar ist
+  - Nicht zusätzlich zur Verpflegungspauschale bei täglicher Heimkehr
+  - Nachweis höherer Verpflegungskosten ausgeschlossen
 - ziffer: Form. 4 Ziff. 5
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Kosten bei unselbständiger Nebenerwerbstätigkeit: Pauschale 20% der Nettoeinkünfte, min. Fr. 800, max. Fr. 2''400 (Code 432) bzw. tatsächliche Kosten (Code 434); Person 2: 482/484'
@@ -1270,7 +2510,28 @@ positionen:
     zitat: '5.1 Pauschalabzug: 20% der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2''400 432'
   - chunk: sg-wl-2025__c0082
     zitat: Steuerpflichtige, die keine Haupterwerbstätigkeit bei Dritten ausüben
+  - chunk: sg-form-4-2025__c0008
+    zitat: 'Pauschalabzug: 20% der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2''400 482'
+  - chunk: sg-form-1-2025__c0004
+    zitat: Aus Nebenerwerbstätigkeit Person 1 Lohnausweis 104
+  - chunk: sg-stb-39-9__c0005
+    zitat: wenigstens zwei Drittel einer 100-prozentigen Arbeitszeit entspricht
+  - chunk: sg-stb-39-9__c0012
+    zitat: Die Pauschale von 20% errechnet sich aus der Summe aller Nebenerwerbseinkünfte
+  - chunk: sg-stb-39-9__c0013
+    zitat: schliesst die Nebenerwerbspauschale auch die Fahrkosten und die Mehrkosten
+  - chunk: sg-form-4-2025__c0001
+    zitat: Ziffer 3 und 5 sind nach Dauer der Steuerpflicht
   status: agent-geprueft
+  rein:
+  - Lohnausweis Nebenerwerb (NE) → Nettolohn (= Steuererklärung Ziff. 1.2, Code 104/106)
+  - Arbeitsvertrag Haupterwerb → Pensum (Haupterwerb mind. zwei Drittel)
+  - Belege effektive Kosten (alle Nebenerwerbe) → Code 434/484, nur wenn > Pauschale
+  berechnung: 'NE-Nettolohn ≤ 800: Abzug bis Höhe Nettolohn; sonst min(max(20% × Σ Netto aller NE; 800); 2''400) → Code 432 (P1) / 482 (P2); Kanton = Bund; Teiljahr umrechnen'
+  beachten:
+  - Pauschale deckt auch Fahrkosten und Verpflegung des Nebenerwerbs (kein Zusatzabzug)
+  - Haupterwerb bei Dritten nötig (mind. zwei Drittel Pensum); nicht für Pensionierte/Hausfrauen, i.d.R. nicht VR-Honorare
+  - Pauschale oder effektiv einheitlich für alle Nebenerwerbe
 - ziffer: Form. 4 Ziff. 6
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Total der Berufskosten (Code 438 Person 1 / 488 Person 2)
@@ -1283,7 +2544,27 @@ positionen:
     zitat: 6. Total der Berufskosten 438
   - chunk: sg-form-4-2025__c0004
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 10.1
+  - chunk: sg-form-4-2025__c0002
+    zitat: Zwischentotal Ziffern 1.1 – 1.3, max. Fr. 8'000 (siehe Wegleitung) 406
+  - chunk: sg-form-4-2025__c0008
+    zitat: Total der Berufskosten 488
+  - chunk: sg-form-4-2025__c0008
+    zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 10.2
+  - chunk: sg-form-32-2025__c0002
+    zitat: Fahrkosten zwischen Wohn- und Arbeitsort max. Fr. 8‘000 max. Fr. 3‘300
+  - chunk: sg-wl-2025__c0173
+    zitat: erforderlichen Anpassungen durch die Steuerbehörde automatisch
+  - chunk: sg-stb-39-3__c0011
+    zitat: Die Begrenzung gilt, sofern eine (unselbständige) Haupt- und Nebenerwerbstätigkeit vorliegt, insgesamt
   status: agent-geprueft
+  rein:
+  - Übertrag Form. 4 Ziff. 1–5 je Person (P1 Vorderseite, P2 Rückseite)
+  berechnung: 'Code 438 = Fahrkosten-Zwischentotal 406 (max. 8''000) + Verpflegung 2.x + übrige 3.x + Wochenaufenthalt 4.x + Nebenerwerb 5.x → Ziff. 10.1; P2: Code 488 → Ziff. 10.2'
+  beachten:
+  - 'Bund: Fahrkosten max. 3''300 und Pauschale übrige Berufskosten abweichend – Anpassung durch Steueramt automatisch'
+  - Fahrkosten-Max. gilt für Haupt- und Nebenerwerb insgesamt und wird bei Teilzeit/Teiljahr nicht gekürzt
+  werte_keys:
+  - berufskosten.fahrkosten.max
 - ziffer: Lohnausweis Feld F
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Lohnausweis Feld F: unentgeltliche Beförderung zwischen Wohn- und Arbeitsort'
@@ -1296,7 +2577,31 @@ positionen:
   quellen:
   - chunk: sg-wl-2025__c0075
     zitat: Ein Abzug für die Fahrt zur Arbeit ist deshalb nicht möglich
+  - chunk: sg-stb-39-3__c0013
+    zitat: In diesem Fall ist kein Kreuz im Feld F
+  - chunk: sg-stb-39-3__c0013
+    zitat: ist diese Entschädigung in Ziff. 2.3 des Lohnausweises zu deklarieren
+  - chunk: sg-stb-39-3__c0014
+    zitat: weshalb auf dem Lohnausweis das Feld F nicht anzukreuzen ist
+  - chunk: sg-stb-39-3__c0015
+    zitat: unter Ziff. 2.2 des Lohnausweises
+  - chunk: sg-wl-2025__c0076
+    zitat: Monat 0,9% des Fahrzeugkaufpreises (exkl. Mehrwertsteuer)
+  - chunk: sg-wl-2025__c0076
+    zitat: können die effektiven Kosten
+  - chunk: sg-form-32-2025__c0002
+    zitat: Fahrkosten zwischen Wohn- und Arbeitsort max. Fr. 8‘000 max. Fr. 3‘300
   status: agent-geprueft
+  rein:
+  - Lohnausweis → Feld F angekreuzt (Sammeltransport, AG-GA aus geschäftlichen Gründen)
+  - Lohnausweis → Ziff. 2.2 Privatanteil Geschäftsfahrzeug (Gehaltsnebenleistung)
+  - Lohnausweis → Ziff. 2.3 Fahrkostenentschädigung im Bruttolohn (dann kein Kreuz in Feld F)
+  berechnung: Feld F angekreuzt oder Geschäftsauto mit Privatanteil 0,9%/Mt. → kein Fahrkostenabzug (Form. 4 Ziff. 1); Entschädigung LA 2.3 → Abzug bis Kanton 8'000 / Bund 3'300
+  beachten:
+  - 'AG-GA ohne geschäftliche Notwendigkeit: Feld F leer, Vorteil im Lohn; Streckenabo-Kosten in Form. 4 abziehbar'
+  - 'Bordbuch statt Privatanteil-Pauschale: effektive Arbeitswegkosten bis Maximalabzug abziehbar'
+  werte_keys:
+  - berufskosten.fahrkosten.max
 - ziffer: Lohnausweis Ziff. 10.2
   abschnitt: Einkünfte
   bezeichnung: 'Lohnausweis Ziff. 10.2: BVG-Einkaufsbeiträge (bereits vom Lohn abgezogen)'
@@ -1317,10 +2622,30 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0037
     zitat: sind nicht durch den Arbeitgeber im Lohnausweis, sondern durch die Vorsorgeeinrichtung separat mit dem Formular 21 EDP zu bescheinigen
     jahr_ok: true
+  - chunk: bund-mb-21edp__c0006
+    zitat: nicht vom Lohn abgezogenen Beiträge nur im Formular 21 angegeben werden dürfen, nicht aber im Lohnausweis
+  - chunk: bund-mb-21edp__c0007
+    zitat: die dem Arbeitnehmer direkt vom Lohn abgezogen wurden
+  - chunk: sg-wl-2025__c0086
+    zitat: zusammen mit der entsprechenden Einkaufsberechnung
+  - chunk: sg-wl-2025__c0086
+    zitat: steuerliche Erfassung in eine andere Vorsorgeeinrichtung eingebracht werden
+  - chunk: sg-form-1-2025__c0008
+    zitat: Säule 2 (BVG) inkl. Einkaufsbeiträge Person 1 Bescheinigung 218
+  - chunk: sg-form-1-2025__c0008
+    zitat: Säule 2 (BVG) inkl. Einkaufsbeiträge Person 2 Bescheinigung 219
   status: agent-geprueft
   bemerkung: 'Spezifische Lohnausweis-Ziffer 10.2 in der SG-WL 2025 nicht erwähnt; Aussage zur Doppelerfassung aus WL SG 2025 Ziff. 13.2. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47
     bzw. 61, nur 2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert. Zweitprüfung: Bedeutung von Lohnausweis Ziff. 10.2 aus WL Lohnausweis 2026 (jahr_ok; WL Lohnausweis 2025 nicht im Wiki, Feldstruktur
     für 2025 nicht separat bestätigt).'
+  rein:
+  - Lohnausweis → Ziff. 10.2 Einkaufsbeiträge (vom Lohn abgezogen, im Nettolohn bereits berücksichtigt)
+  - Bescheinigung Vorsorgeeinrichtung (Formular 21 EDP) + Einkaufsberechnung → direkt bezahlte Einkäufe → Ziff. 13.2 (Code 218/219)
+  berechnung: Ziff. 13.2 (Code 218 P1 / 219 P2) = Σ nicht über den Lohn bezahlte Einkäufe gem. Bescheinigung; Betrag LA Ziff. 10.2 → kein zusätzlicher Abzug
+  beachten:
+  - Über den Lohn abgerechnete BVG-Beiträge/Einkäufe nie nochmals in Ziff. 13.2
+  - Bescheinigung der Vorsorgeträgerin samt Einkaufsberechnung immer beilegen
+  - Kein Abzug, soweit vorzeitige Kapitalleistungen unversteuert in eine andere Vorsorgeeinrichtung eingebracht wurden
 - ziffer: Lohnausweis Ziff. 13.3
   abschnitt: Einkünfte
   bezeichnung: 'Lohnausweis Ziff. 13.3: Beiträge des Arbeitgebers an Aus-/Weiterbildung'
@@ -1341,10 +2666,38 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0048
     zitat: In diesem Feld sind alle effektiven Vergütungen des Arbeitgebers für berufsorientierte
     jahr_ok: true
+  - chunk: bund-ks-42__c0025
+    zitat: Dies gilt unabhängig davon, ob die Leistung des Arbeitgebers an den Arbeitnehmer oder an das Bildungsinstitut erfolgt
+  - chunk: bund-ks-42__c0025
+    zitat: Lautet dabei die Rechnung auf den Arbeitnehmer, bescheinigt der Arbeitgeber diese Vergütung im Lohnausweis in Ziffer 13.3
+  - chunk: bund-ks-42__c0027
+    zitat: im Jahr der Rückvergütung als steuerbares Einkommen
+  - chunk: sg-wl-2025__c0095
+    zitat: bende ohne besonderen Nachweis pauschal Fr. 400
+  - chunk: sg-wl-2025__c0095
+    zitat: Bei der direkten Bundes- steuer können nur effektive
+  - chunk: sg-form-1-2025__c0009
+    zitat: Kosten berufsorientierte Aus-/Weiterbildung Person 1 Aufstellung 223
+  - chunk: bund-ks-42__c0023
+    zitat: Lautet die Rechnung auf den Arbeitgeber, müssen die übernommenen Kosten im Lohnausweis nicht bescheinigt werden
+  - chunk: bund-ks-42__c0028
+    zitat: Der Arbeitgeber hat die Rückvergütungen im Lohnausweis in Ziffer 13.3
+  - chunk: sg-wl-2025__c0095
+    zitat: lich unselbständig Erwer- bende ohne besonderen
   status: agent-geprueft
   bemerkung: 'Lohnausweis-Ziffer 13.3 wird in der WL SG 2025 nicht namentlich genannt; Regel aus WL SG 2025 Ziff. 1 und 16.4. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw. 61, nur
     2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert. Zweitprüfung: Bedeutung von Lohnausweis Ziff. 13.3 aus WL Lohnausweis 2026 (jahr_ok; WL Lohnausweis 2025 nicht im Wiki, Feldstruktur für 2025
     nicht separat bestätigt).'
+  rein:
+  - Lohnausweis → Ziff. 13.3 AG-Vergütung Weiterbildung (Rechnung auf AN) → nicht steuerbar, nicht abziehbar
+  - Kursrechnungen (Datum, Bezeichnung, Betrag) → selbst bezahlter Anteil → Ziff. 16.4
+  berechnung: Code 223/224 = min(Σ Kursrechnungen − AG-Vergütung LA 13.3; 13'000) je Person; Kanton alternativ 400 pauschal (hauptberuflich Unselbständige) / Bund nur effektiv
+  beachten:
+  - AG-getragene Kosten nicht steuerbar, auch bei Zahlung ans Institut; Rechnung auf AG → nicht im LA
+  - 'Bund: spätere AG-Rückvergütung früher abgezogener Kosten → im Jahr der Rückvergütung steuerbar (LA 13.3)'
+  - 'Voraussetzung: Abschluss Sek II oder 20. Lebensjahr vollendet (nicht Erstausbildung bis Sek II)'
+  werte_keys:
+  - weiterbildung.max
 - ziffer: Lohnausweis Ziff. 15
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Lohnausweis Ziff. 15 Bemerkungen: Anzahl Schichttage; «Einer von xx Lohnausweisen»'
@@ -1358,7 +2711,22 @@ positionen:
     zitat: Ziffer 15 im Lohnausweis
   - chunk: sg-wl-2025__c0039
     zitat: Ziffer 15 des Lohnaus
+  - chunk: sg-form-4-2025__c0007
+    zitat: Pro ausgewiesenen Schichttag Fr. 15 / im Jahr Fr. 3'200 462
+  - chunk: sg-form-4-2025__c0003
+    zitat: Pro ausgewiesenen Schichttag Fr. 15 / im Jahr Fr. 3'200 412
+  - chunk: sg-wl-2025__c0039
+    zitat: grundsätzlich ein Lohnaus- weis einzureichen
   status: agent-geprueft
+  rein:
+  - Lohnausweis Ziff. 15 Bemerkungen → Anzahl Schichttage (→ Form. 4 Ziff. 2.3)
+  - Lohnausweis Ziff. 15 → Vermerk «Einer von xx Lohnausweisen» (alle LA des Arbeitgebers beiziehen)
+  beachten:
+  - 'Fehlt der Vermerk: Schichttage mit separatem AG-Schreiben bescheinigen lassen'
+  - Einkünfte mit Lohnausweisen lückenlos belegen; grundsätzlich ein LA pro Arbeitgeber
+  werte_keys:
+  - berufskosten.schichtarbeit.tag
+  berechnung: 'Schichtabzug = min(Schichttage × 15; 3''200) → Code 412 (P1) / 462 (P2); Vermerk «Einer von xx»: alle LA des AG einreichen, Nettolöhne zusammenzählen'
 - ziffer: Form. 5 Teil A
   abschnitt: Hilfsblatt Schulden
   bezeichnung: Private Schulden und private Schuldzinsen (→ Ziff. 34.1 und 11)
@@ -1371,7 +2739,30 @@ positionen:
   quellen:
   - chunk: sg-form-5-2025__c0001
     zitat: Total private Schulden und private Schuldzinsen
+  - chunk: sg-wl-2025__c0083
+    zitat: und der Einkünfte aus Liegenschaften gemäss Ziffer 5 zuzüglich Fr. 50’000
+  - chunk: sg-wl-2025__c0083
+    zitat: Schuldzinsen, die als Anlagekosten gelten (namentlich Baukreditzinsen)
+  - chunk: sg-wl-2025__c0117
+    zitat: andere Schulden, wie Solidar- und Bürgschaftsschulden, nur insoweit, als diese selbst getragen werden müssen
+  - chunk: sg-stb-34-2__c0009
+    zitat: die auf den nach der internen Quote von ihm zu tragenden Anteil an der Gesamtschuld
+  - chunk: sg-form-1-2025__c0008
+    zitat: Schuldzinsen Formular 5 500
+  - chunk: sg-form-1-2025__c0013
+    zitat: 34.1 Privatschulden Formular 5 504
+  - chunk: bund-ks-36__c0023
+    zitat: die privaten Schuldzinsen nur bis zur Höhe des Bruttovermögensertrags und weiterer 50'000 Franken abziehbar
   status: agent-geprueft
+  rein:
+  - Bank-/Hypothekarauszug per 31. Dezember 2025 → Schuld je Gläubiger
+  - Zinsausweis/Jahresabrechnung 2025 → bezahlte Schuldzinsen
+  - Darlehensvertrag/Bestätigung Privatdarlehen → Schuld und Zins
+  beachten:
+  - 'Nicht abziehbar: Amortisationen, Baukreditzinsen, Baurechtszinsen Eigenheim, Leasing privat'
+  - Solidar-/Bürgschaftsschulden und deren Zinsen nur im selbst getragenen Anteil (interne Quote, Nachweis)
+  - 'Bund: private Zinsen bis Bruttovermögensertrag + 50''000; Geschäftsschulden/-zinsen nicht hier (Teil B/Jahresrechnung)'
+  berechnung: Σ Schulden 31. Dezember 2025 → Ziff. 34.1 (Code 504); Σ Zinsen 2025 → Ziff. 11 (Code 500), max. Ertrag Ziff. 4 (ohne Lotteriegewinne) + Ziff. 5 + 50'000
 - ziffer: Form. 5 Teil B
   abschnitt: Hilfsblatt Schulden
   bezeichnung: Geschäftsschulden (→ Ziff. 34.2)
@@ -1383,7 +2774,19 @@ positionen:
   quellen:
   - chunk: sg-form-5-2025__c0002
     zitat: sind in der Jahresrechnung enthalten und deshalb hier nicht aufzuführen
+  - chunk: sg-form-1-2025__c0013
+    zitat: 34.2 Geschäftsschulden Formular 5 506
+  - chunk: sg-wl-2025__c0083
+    zitat: sind in der Jahresrechnung enthalten und deshalb nicht im Formular 5 aufzuführen
+  - chunk: sg-wl-2025__c0117
+    zitat: andere Schulden, wie Solidar- und Bürgschaftsschulden, nur insoweit, als diese selbst getragen werden müssen
   status: agent-geprueft
+  rein:
+  - Schlussbilanz/Jahresrechnung → Geschäftsschulden per 31. Dezember 2025 bzw. Bilanzstichtag (Gläubiger)
+  beachten:
+  - Geschäftliche Schuldzinsen weder in Formular 5 noch in Ziff. 11
+  - Solidar-/Bürgschaftsschulden nur im selbst getragenen Anteil
+  berechnung: Σ Geschäftsschulden gem. Bilanz → Ziff. 34.2 (Code 506); Geschäftszinsen bleiben in der Jahresrechnung
 - ziffer: Form. 5 Rückseite Teil A
   abschnitt: Hilfsblatt Zuwendungen
   bezeichnung: Freiwillige Zuwendungen (→ Ziff. 21.3)
@@ -1397,7 +2800,24 @@ positionen:
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 21.3
   - chunk: sg-wl-2025__c0102
     zitat: insgesamt höchstens aber 20% des Nettoeinkommens gemäss Ziffer 20
+  - chunk: sg-form-1-2025__c0010
+    zitat: 21.3 Freiwillige Zuwendungen (wenn mind. Fr.100, max. 20% Ziffer 20) Formular 5 244
+  - chunk: sg-wl-2025__c0102
+    zitat: Zuwen- dungen für Kultuszwecke sind nicht abziehbar
+  - chunk: sg-wl-2025__c0102
+    zitat: der Leistende darf aus der Tätigkeit der bedachten Institution weder direkt noch indirekt einen Nutzen ziehen
   status: agent-geprueft
+  rein:
+  - Spendenbestätigung der Institution → Datum, Name/Adresse, Betrag 2025
+  - Übertrag Nettoeinkommen Ziff. 20 → Obergrenze
+  beachten:
+  - Nur an steuerbefreite jur. Personen mit Sitz in der Schweiz (öffentlich/gemeinnützig); Kultuszwecke nicht abziehbar
+  - 'Völlig uneigennützig: kein direkter oder indirekter Nutzen für den Spender'
+  - Parteispenden nicht hier, sondern separat in Teil B
+  werte_keys:
+  - spenden.min
+  - spenden.max_satz
+  berechnung: Ziff. 21.3 (Code 244) = min(Σ Zuwendungen 2025; 20% × Nettoeinkommen Ziff. 20), nur wenn Σ ≥ 100; Kanton = Bund
 - ziffer: Form. 5 Rückseite Teil B
   abschnitt: Hilfsblatt Zuwendungen
   bezeichnung: Parteispenden (→ Ziff. 16.3)
@@ -1414,7 +2834,21 @@ positionen:
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 16.3
   - chunk: sg-wl-2025__c0093
     zitat: Parteispenden können maximal in der Höhe von Fr. 10’700
+  - chunk: sg-form-32-2025__c0004
+    zitat: Parteispenden max. Fr. 10'600
+  - chunk: sg-form-1-2025__c0009
+    zitat: 16.3 Parteispenden Formular 5 555
+  - chunk: sg-wl-2025__c0173
+    zitat: erforderlichen Anpassungen durch die Steuerbehörde automatisch
+  - chunk: sg-wl-2025__c0093
+    zitat: mindes- tens 3 Prozent der Stimmen erreicht hat
   status: agent-geprueft
+  rein:
+  - Bestätigung/Quittung der Partei → Datum, Partei, Betrag 2025 (Mitglieder-, Gesinnungsbeiträge, Spenden, Mandatssteuern)
+  beachten:
+  - Partei im Parteienregister, in einem kant. Parlament vertreten oder ≥ 3% Stimmen bei letzten kant. Parlamentswahlen
+  - Bund-Abweichung (10'600) nimmt das Steueramt automatisch vor
+  berechnung: 'Kanton: min(Σ; 10''700 allein / 21''400 Ehepaar, eingetr. Partnerschaft) / Bund: min(Σ; 10''600) → Ziff. 16.3 (Code 555)'
 - ziffer: Form. 6 Teil A
   abschnitt: Hilfsblatt Versicherungsprämien
   bezeichnung: 'Bezahlte Versicherungsprämien und Sparzinsen: a. Krankenversicherung brutto, b. Unfallversicherung (ohne NBU), c. Lebens-/Rentenversicherungen, d. Sparzinsen, e. abzüglich Prämienverbilligungen'
@@ -1430,7 +2864,25 @@ positionen:
     zitat: a. Private Krankenversicherung (brutto)
   - chunk: sg-form-6-2025__c0001
     zitat: e. abzüglich Prämienverbilligungen
+  - chunk: sg-wl-2025__c0088
+    zitat: Mobiliar-, Motorfahrzeug- und Haftpflichtversiche
+  - chunk: sg-wl-2025__c0088
+    zitat: rungen sowie für andere Sachversicherungen
+  - chunk: sg-wl-2025__c0042
+    zitat: obligatorische Sozialversicherungsbeiträge [AHV, IV, EO, ALV, NBUV]
+  - chunk: sg-wl-2025__c0087
+    zitat: den Steuerpflichtigen und für die von ihm unterhaltenen Kinder ausbezahlt
   status: agent-geprueft
+  rein:
+  - Prämienabrechnung Krankenkasse → Bruttoprämien (a)
+  - Prämienrechnungen private Unfall- (ohne NBU), Lebens-/Rentenversicherung → bezahlte Prämien (b, c)
+  - Formular 2 (Wertschriftenverzeichnis) → Sparzinsen (d)
+  - Verfügung/Abrechnung Prämienverbilligung (IPV) → Abzug (e)
+  berechnung: A = a + b + c + d − e (bezahlte Beträge 2025 der ganzen Familie); Abzug = min(A; B) gem. Teil B/C
+  beachten:
+  - 'Nicht abziehbar: Mobiliar-, Motorfahrzeug-, Haftpflicht- und andere Sachversicherungen'
+  - 'NBU nicht hier: bereits im Nettolohn abgezogen'
+  - IPV für Steuerpflichtige und unterhaltene Kinder anrechnen
 - ziffer: Form. 6 Teil B/C
   abschnitt: Hilfsblatt Versicherungsprämien
   bezeichnung: Maximaler Abzug (Fr. 6'800 / Fr. 3'400, Zuschläge) und zulässiger Abzug (→ Ziff. 14)
@@ -1449,7 +2901,29 @@ positionen:
     zitat: Der niedrigere Betrag von (A) und (B)
   - chunk: sg-form-6-2025__c0002
     zitat: Fr. 1’100 zusätzlich für jedes Kind
+  - chunk: sg-form-32-2025__c0003
+    zitat: Verheiratete max. Fr. 6'800 max. Fr. 3'700
+  - chunk: sg-form-32-2025__c0003
+    zitat: Alleinstehende max. Fr. 3'400 max. Fr. 1'800
+  - chunk: sg-form-32-2025__c0003
+    zitat: terstützungsbedürftige Person), zusätzlich bis Fr. 1'100 bis Fr. 700
+  - chunk: sg-form-1-2025__c0009
+    zitat: 14. Versicherungsprämien und Sparzinsen Formular 6 600
+  - chunk: sg-wl-2025__c0173
+    zitat: erforderlichen Anpassungen durch die Steuerbehörde automatisch
+  - chunk: sg-form-32-2025__c0003
+    zitat: gebundene Selbstvorsorge (Säule 3a), zusätzlich bis Fr. 1'100 bis Fr. 1'850
+  - chunk: sg-form-32-2025__c0003
+    zitat: gebundene Selbstvorsorge, zusätzlich bis Fr. 500 bis Fr. 900
   status: agent-geprueft
+  rein:
+  - Übertrag Total (A) aus Teil A
+  - Zivilstand + Kinder mit Kinderabzug Ziff. 23.1/23.2 → Zuschläge
+  beachten:
+  - Zuschlag ohne Vorsorgebeiträge bei Ehepaaren nur, wenn bei beiden erfüllt
+  - 'Bund: Kinderzuschlag auch für unterstützungsbedürftige Personen'
+  - Bund-Werte setzt das Steueramt automatisch um (eine Deklaration)
+  berechnung: 'Kanton: 6''800 gemeinsam / 3''400 allein (+1''100 / +500 ohne 2. Säule+3a) + 1''100 je Kind; Bund: 3''700 / 1''800 (+1''850 / +900) + 700 je Kind; Code 600 = min(A; B)'
 - ziffer: Form. 6 Rückseite Krankheitskosten
   abschnitt: Hilfsblatt Krankheitskosten
   bezeichnung: 'Krankheits- und Unfallkosten: Rechnungsdatum, Arzt/Zahnarzt/Spital, Bruttobetrag, abzüglich Beiträge Dritter, selbst getragene Kosten (→ Ziff. 21.1 Vorkolonne)'
@@ -1463,7 +2937,28 @@ positionen:
   quellen:
   - chunk: sg-form-6-2025__c0003
     zitat: Abzugsfähig sind die tatsächlich selbst getragenen Kosten
+  - chunk: sg-form-32-2025__c0005
+    zitat: Selbstbehalt 2% der Selbstbehalt 5% der
+  - chunk: sg-form-1-2025__c0010
+    zitat: 21.1 Krankheits- und Unfallkosten Formular 6 650
+  - chunk: sg-wl-2025__c0098
+    zitat: nicht jedoch bei Diabetes) eine Pauschale von Fr. 2’500 in Abzug gebracht werden
+  - chunk: sg-wl-2025__c0098
+    zitat: 2% des Nettoeinkommens gemäss Ziffer 20 übersteigen
+  - chunk: sg-form-1-2025__c0010
+    zitat: abzüglich Selbstbehalt 2% des Nettoeinkommens (Ziffer 20)
   status: agent-geprueft
+  rein:
+  - Arzt-/Zahnarzt-/Spital-/Therapierechnungen 2025 → Bruttobetrag
+  - Leistungsabrechnung Krankenkasse/Versicherung, Hilflosenentschädigung → Beiträge Dritter (abziehen)
+  - Ärztliches Zeugnis → Medikamente/Heilmittel, Diät (Pauschale Zöliakie 2'500)
+  beachten:
+  - 'Bei Verweis auf Kassenauszug: Detailaufstellung inkl. Leistungsübersicht zwingend beilegen'
+  - Diät-Pauschale 2'500 statt effektiv (z.B. Zöliakie, nicht Diabetes); erstmals ärztliche Bescheinigung
+  - Prämien nicht hier (Teil A); behinderungsbedingte Kosten separat ohne Selbstbehalt
+  werte_keys:
+  - krankheitskosten.selbstbehalt_satz
+  berechnung: Σ (Brutto − Beiträge Dritter) → Ziff. 21.1 Vorkolonne (Code 650); Abzug (Code 240) = Σ − Selbstbehalt Kanton 2% / Bund 5% × Nettoeinkommen Ziff. 20, falls positiv
 - ziffer: Form. 6 Rückseite Behinderungskosten
   abschnitt: Hilfsblatt Krankheitskosten
   bezeichnung: Behinderungsbedingte Kosten (→ Ziff. 21.2)
@@ -1475,7 +2970,26 @@ positionen:
   quellen:
   - chunk: sg-form-6-2025__c0004
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 21.2
+  - chunk: sg-wl-2025__c0099
+    zitat: Fr. 2’000 pro Monat als nicht abzugsberechtigte Lebenshaltungskosten
+  - chunk: sg-wl-2025__c0099
+    zitat: Pflegebedürftigkeit ab Pflegestufe 4 oder 21 BESA-Punkten
+  - chunk: sg-wl-2025__c0100
+    zitat: 'Bezüger einer Hilflosenentschädigung mittleren Grades: Fr. 5’000'
+  - chunk: sg-wl-2025__c0101
+    zitat: Gehörlose (gilt nicht für Schwerhörige; diese können nur die effektiven Kosten
+  - chunk: sg-form-1-2025__c0010
+    zitat: 21.2 Behinderungsbedingte Kosten (ohne Selbstbehalt) Formular 6 235
   status: agent-geprueft
+  rein:
+  - Heim-/Pflege-/Betreuungsrechnungen → selbst getragene Kosten
+  - Verfügung Hilflosenentschädigung (HE) → Grad für Pauschale bzw. als Beitrag Dritter abziehen
+  - Ärztlicher Fragebogen → Pauschale Gehörlose/Dialyse (erstmalig)
+  beachten:
+  - Heim nur ab Pflegestufe 4 bzw. 21 BESA-Punkten; Altersheim ohne Pflege = Lebenshaltung
+  - 'Pauschale HE: Verfügung einreichen; Schwerhörige nur effektive Kosten'
+  - Kumulation HE- und Gehörlosen-/Dialyse-Pauschale nur nach Einzelfallabklärung
+  berechnung: 'Σ selbst getragene Kosten − Dritte (Heim: − 2''000 × Monate) oder Pauschale HE leicht/mittel/schwer 2''500/5''000/7''500 bzw. Gehörlose/Dialyse 2''500 → Code 235'
 - ziffer: Form. 7 Abschnitt A
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: Angaben zur Liegenschaft / Steuerwert (→ Ziff. 31)
@@ -1489,7 +3003,35 @@ positionen:
     zitat: Pro Liegenschaft ist ein separates Formular zu verwenden
   - chunk: sg-wl-2025__c0154
     zitat: Im Weiteren sind die Anteile von Person 1 und Person 2 in Prozenten anzugeben
+  - chunk: sg-wl-2025__c0155
+    zitat: im Ausmass von 80% der Neu- oder Anbaukosten
+  - chunk: sg-wl-2025__c0155
+    zitat: beträgt der Zuschlag 40% der Neu- oder Anbaukosten
+  - chunk: sg-wl-2025__c0155
+    zitat: Der massgebliche Steuerwert wird vom Gemeindesteueramt eröffnet
+  - chunk: sg-wl-2025__c0155
+    zitat: Kantonen gelegene Grundstücke sind mit dem entsprechenden Steuerwert
+  - chunk: sg-form-1-2025__c0012
+    zitat: 31. Liegenschaften Formular 7 710
+  - chunk: sg-wl-2025__c0152
+    zitat: Pro Liegenschaft ist je ein Formular 7 auszufüllen. Die ermittelten Totale sind zu
+  - chunk: sg-wl-2025__c0173
+    zitat: direkten Bundessteuer 2025, welche jedoch keine Vermögenssteuer
+  - chunk: sg-form-7-2025__c0002
+    zitat: Zugang, bzw. Wegfall der Liegenschaft im Jahr 2025
+  - chunk: sg-form-7-2025__c0002
+    zitat: Übertrag in Formular 7 Z
   status: agent-geprueft
+  rein:
+  - Steueramtliche Schätzung (Verkehrs-/Ertragswert) → Grundstück-Nr., Steuerwert
+  - Grundbuchauszug → Anteile P1/P2 in %; Kauf-/Schenkungs-/Erbvertrag → Datum Zugang/Wegfall 2025
+  - 'Schätzung Lagekanton → Steuerwert ausserkantonal; Ausland: mutmasslicher Verkehrswert'
+  - Bauabrechnung Neu-/Anbau ohne neue Schätzung → Zuschlag zum Steuerwert
+  beachten:
+  - Ein Formular je Liegenschaft; bei mehreren Totale in Form. 7Z übertragen
+  - Steuerwert wird vom Gemeindesteueramt eröffnet
+  - 'Nur Kanton/Gemeinde: direkte Bundessteuer kennt keine Vermögenssteuer'
+  berechnung: 'Steuerwert lt. rechtskräftiger Schätzung (Neu-/Anbau ohne Schätzung: + 80% der Neu-/Anbaukosten; Ertragswert + 40%) → Ziff. 31 (Code 710) bzw. Form. 7Z'
 - ziffer: Form. 7 Abschnitt B.a
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: Eigenmietwert (abzüglich 30%, Unternutzungs-/Härtefallabzug)
@@ -1509,7 +3051,26 @@ positionen:
     zitat: Der Eigenmietwert des am Wohnsitz dauernd selbstbewohnten Eigenhei-
   - chunk: sg-wl-2025__c0158
     zitat: Übersteigt das steuerbare Vermögen Fr. 600’000
+  - chunk: sg-form-1-2025__c0006
+    zitat: Ertrag aus Liegenschaften Formular 7 712
+  - chunk: sg-stb-34-1__c0011
+    zitat: wird jedoch nur auf Antrag der steuerpflichtigen Person berücksichtigt
+  - chunk: sg-wl-2025__c0157
+    zitat: muss tatsächlich leer, d.h. unmöbliert sein
+  - chunk: sg-stb-34-2__c0005
+    zitat: Massgebend ist die sachenrechtliche Quote gemäss Grundbucheintrag
+  - chunk: sg-stb-34-1__c0008
+    zitat: Ferienwohnungen sowie von vermieteten Objekten
   status: agent-geprueft
+  rein:
+  - Schätzungsverfügung (Verkehrs-/Ertragswertschätzung) → Mietwert
+  - Nachweis dauernd leerer Zimmer → Unternutzungsabzug (Antrag)
+  - Kauf-/Verkaufsvertrag → Datum für anteiligen Mietwert
+  beachten:
+  - 'Härtefall (AHV-Alter) v.A.w.: steuerbarer EMW > 30% Bruttoeinkünfte; max. 10% Brutto-EMW; nicht bei Vermögen > 600''000'
+  - 'Unternutzung nur auf Antrag: Räume dauernd leer/unmöbliert (kein Gäste-/Stauraum), Nachweis beilegen'
+  - 'Miteigentum: EMW nach Grundbuchquote; Zweit-/Ferienwohnung und vermietete Objekte ohne 30%-Reduktion'
+  berechnung: 'Erstwohnung: EMW − 30% − Unternutzung [(EMW − 30%) × nicht benutzte Zimmer / (Zimmer + 2)]; übrige Objekte voller EMW; Teiljahr anteilig → Ziff. 5 (Code 712)'
 - ziffer: Form. 7 Abschnitt B.b
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: Erträge Fremdnutzung und Leistungen Dritter (Miet-/Pachtzinsen, Geschäftsräume, abzüglich Nebenkosten)
@@ -1527,7 +3088,27 @@ positionen:
     zitat: Zum steuerbaren Mietertrag gehören die Miet- und Pachtzinsen bei
   - chunk: sg-wl-2025__c0160
     zitat: Der Einschlag beträgt in der Regel 20%.
+  - chunk: sg-form-1-2025__c0006
+    zitat: Ertrag aus Liegenschaften Formular 7 712
+  - chunk: sg-wl-2025__c0160
+    zitat: Wird für die Liegenschaft eine separate Liegenschaftenrechnung geführt
+  - chunk: sg-stb-34-2__c0005
+    zitat: Massgebend ist die sachenrechtliche Quote gemäss Grundbucheintrag
+  - chunk: sg-wl-2025__c0159
+    zitat: soweit diese den Eigenverbrauch übersteigen, sind unter Ziffer 6.3
+  - chunk: sg-form-7-2025__c0003
+    zitat: Übertrag in die Spalte (B) des Formulars 7 Z
   status: agent-geprueft
+  rein:
+  - Mietverträge/Mietzinsabrechnung → Miet-/Pachtzinsen ohne Nebenkosten (inkl. Mietzinsreduktion Hauswart)
+  - Nebenkostenabrechnung → tatsächliche NK abziehen, wenn im Mietzins inbegriffen
+  - Belege Zinszuschüsse, Subventionen, Versicherungsleistungen → Leistungen Dritter
+  - Liegenschaftenrechnung (falls geführt) → Total direkt einsetzen, beilegen
+  beachten:
+  - Stromerzeugung über Eigenverbrauch (z.B. PV) nicht hier, sondern Ziff. 6.3
+  - 'Miteigentum: Erträge nach Grundbuchquote'
+  - Formular 7M für die Aufstellung Fremdnutzung verfügbar
+  berechnung: Σ Miet-/Pachtzinsen − inbegriffene NK (effektiv) + Leistungen Dritter; möbliert − 20% Einschlag → Total a. + b. → Ziff. 5 (Code 712) bzw. Form. 7Z (B)
 - ziffer: Form. 7 Abschnitt C
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: 'Unterhalts- und Verwaltungskosten: Pauschalabzug 20% der Erträge (B) oder tatsächliche Kosten (Rückseite, C2)'
@@ -1543,7 +3124,36 @@ positionen:
     zitat: Abzugsfähig sind nur die selbst bezahlten Kosten
   - chunk: sg-wl-2025__c0161
     zitat: Die Pauschale umfasst alle Aufwendungen inklusive Kosten denkmalpflegerischer Arbeiten
+  - chunk: sg-stv__art-29
+    zitat: für jede Liegenschaft zwischen dem Abzug der tatsächlichen Kosten und dem Pauschalabzug wählen
+  - chunk: sg-stb-34-1__c0020
+    zitat: beträgt bei Eigenheimen 20% des angerechneten Eigenmietwertes
+  - chunk: bund-lkv__art-5
+    zitat: 'wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags'
+  - chunk: sg-form-1-2025__c0009
+    zitat: Unterhalts- und Verwaltungskosten für Liegenschaften Formular 7 716
+  - chunk: sg-wl-2025__c0164
+    zitat: Baubeiträge an die Kanalisation und Gewässerschutzanlagen sowie Bauperimeter
+  - chunk: sg-wl-2025__c0164
+    zitat: Nicht abziehbar sind die Kosten (inklusive Grundgebühren) für Wasser, Gas, Strom etc.
+  - chunk: sg-wl-2025__c0169
+    zitat: die Einlagen in den Reparatur- und Erneuerungsfonds als Unterhalts
+  - chunk: sg-stb-34-2__c0008
+    zitat: Er steht jedem Miteigentümer im Umfang seines Anteils an der
   status: agent-geprueft
+  rein:
+  - Handwerker-/Unterhaltsrechnungen 2025 → Datum, Rechnungssteller, Betrag netto, Anteil Anlagekosten
+  - Gebäudeversicherung, Grundsteuer, Wartungsverträge → Betriebskosten
+  - STWEG-Abrechnung → Anteil Unterhalt/Verwaltung inkl. Erneuerungsfonds
+  - Förderbeitrags-/Versicherungsabrechnung → Leistungen Dritter (abziehen)
+  beachten:
+  - Wahl Pauschale/effektiv je Liegenschaft und Periode; Pauschale nur für vorwiegend Wohnzwecken dienende Liegenschaft
+  - 'Nicht abziehbar: Anlagekosten, Kanalisations-/Perimeterbeiträge; bei Eigengebrauch Wasser, Strom, Heizung'
+  - 'Miteigentum: Kosten bzw. Pauschale nur im Umfang des Eigentumsanteils'
+  werte_keys:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  berechnung: 'Kanton: 20% × Erträge (B) oder C2 = Σ netto − Anlagekosten − Leistungen Dritter → Ziff. 15 (Code 716) / Bund: 10% (Gebäude ≤ 10 J.) bzw. 20% × Bruttoertrag'
 - ziffer: Form. 7Z
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: 'Zusammenzug aller Liegenschaften: Steuerwert (A), Erträge (B), Pauschalabzug (C1), tatsächliche Kosten (C2)'
@@ -1554,4 +3164,76 @@ positionen:
   quellen:
   - chunk: sg-form-7z-2025__c0001
     zitat: zu übertragen in die Steuererklärung Seite 4 Ziffer 31 Seite 2 Ziffer 5 Seite 3 Ziffer 15
+  - chunk: sg-wl-2025__c0146
+    zitat: Bei Besitz einer einzigen Liegenschaft ist nur das Formular 7 auszufüllen.
+  - chunk: sg-wl-2025__c0152
+    zitat: Pro Liegenschaft ist je ein Formular 7 auszufüllen. Die ermittelten Totale sind zu
+  - chunk: sg-wl-2025__c0152
+    zitat: Der Eintrag hat auf jener Zeile zu erfolgen, die
+  - chunk: sg-wl-2025__c0153
+    zitat: das Total der einzelnen Spalten zu ermitteln und in die jeweiligen Ziffern der
+  - chunk: sg-wl-2025__c0153
+    zitat: Total 3'196'000 210'899 55'816
+  - chunk: sg-form-7z-2025__c0001
+    zitat: Hertrag von weiteren Ergänzungsblättern
+  - chunk: sg-form-7z-2025__c0001
+    zitat: Gemeinde und Kanton
+  - chunk: sg-wl-2025__c0154
+    zitat: de, Kanton/Staat, Adresse) auch die Grundstück-Nummer anzugeben
+  - chunk: sg-form-1-2025__c0012
+    zitat: Vermögen im In- und Ausland
+  - chunk: sg-form-7-2025__c0002
+    zitat: Übertrag in Formular 7 Z
+  - chunk: sg-form-7-2025__c0003
+    zitat: Total Erträge a. und b.
+  - chunk: sg-form-7-2025__c0003
+    zitat: Übertrag in die Spalte (B) des Formulars 7 Z
+  - chunk: sg-form-7-2025__c0004
+    zitat: Pauschalabzug 20% der Erträge (B)
+  - chunk: sg-form-7-2025__c0004
+    zitat: Übertrag in die Spalte (C1) des Formulars 7 Z
+  - chunk: sg-form-7-2025__c0004
+    zitat: die ganz oder vorwiegend
+  - chunk: sg-form-7-2025__c0004
+    zitat: Wohnzwecken dienen, geltend
+  - chunk: sg-form-7-2025__c0005
+    zitat: kosten anstelle des Pauschalabzugs geltend gemacht werden.
+  - chunk: sg-form-7-2025__c0005
+    zitat: Total Unterhalts- und Verwaltungskosten (C2)
+  - chunk: sg-form-7-2025__c0005
+    zitat: Übertrag in die Spalte (C2) des Formulars 7Z
+  - chunk: sg-wl-2025__c0149
+    zitat: 31. Dezember 2025 nicht
+  - chunk: sg-wl-2025__c0149
+    zitat: mehr in Ihrem Besitz war. Es
+  - chunk: sg-wl-2025__c0149
+    zitat: erfolgt jedoch kein Übertrag
+  - chunk: sg-wl-2025__c0149
+    zitat: in das Formular 7 Z.
+  - chunk: sg-form-1-2025__c0012
+    zitat: 31. Liegenschaften Formular 7 710
+  - chunk: sg-form-1-2025__c0006
+    zitat: 5. Ertrag aus Liegenschaften Formular 7 712
+  - chunk: sg-form-1-2025__c0009
+    zitat: 15. Unterhalts- und Verwaltungskosten für Liegenschaften Formular 7 716
+  - chunk: bund-lkv__art-5
+    zitat: 'wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags'
+  - chunk: bund-lkv__art-5
+    zitat: 'mehr als zehn Jahre alt ist: 20 Prozent des Brutto-Mietertrags'
+  - chunk: sg-wl-2025__c0173
+    zitat: direkten Bundessteuer 2025, welche jedoch keine Vermögenssteuer für natür
+  - chunk: sg-wl-2025__c0173
+    zitat: gegenüber den Kantons- und Gemeindesteuern zu beachten sind, werden die erforderlichen Anpassungen durch die Steuerbehörde automatisch
   status: agent-geprueft
+  rein:
+  - Formular 7 (je Liegenschaft, auch ausserkantonal/Ausland) → Teil A Steuerwert → Spalte (A)
+  - Formular 7 → Teil B «Total Erträge a. und b.» (Eigenmietwert, Fremdnutzung) → Spalte (B)
+  - Formular 7 → Teil C Pauschalabzug → (C1) bzw. Rückseite «Total Unterhalts- und Verwaltungskosten (C2)» → (C2)
+  beachten:
+  - 'Nur bei mehreren Liegenschaften (bei einer: Form. 7 direkt übertragen); Zeile = gewählte Liegenschaften-Nr.'
+  - Je Liegenschaft C1 oder C2; C1 = Kanton 20 % von B, nur vorwiegend Wohnzweck / Bund 10 % (Gebäude ≤ 10 J.) bzw. 20 %
+  - 'A: am 31.12.2025 nicht mehr im Besitz → kein Übertrag; A nur Kanton; Bund-Abweichungen passt Steuerbehörde an'
+  werte_keys:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  berechnung: 'Je Spalte Σ Formulare 7 (+ Hertrag Ergänzungsblätter): Σ A → Ziff. 31 (Code 710); Σ B → Ziff. 5 (712); Σ C1 + Σ C2 → Ziff. 15 (716)'

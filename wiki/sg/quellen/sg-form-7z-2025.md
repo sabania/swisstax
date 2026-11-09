@@ -15,8 +15,9 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 1 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-7z-2025`).
+Zitiert in 2 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-7z-2025`).
 
+- `data/zuordnung/sg/2025.yaml#55:vermoegen.liegenschaften@31` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#96:berechnung.total@Form. 7Z` (agent-geprueft)
 
 ## Hinweise zur Quelle (aus dem Chunking)

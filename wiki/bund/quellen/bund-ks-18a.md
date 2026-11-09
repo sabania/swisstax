@@ -16,10 +16,12 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 2 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-18a`).
+Zitiert in 4 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-18a`).
 
 - `data/werte/ar/2026.yaml#29:saeule3a.einkauf` (agent-geprueft)
 - `data/werte/bund/2026.yaml#29:saeule3a.einkauf` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#30:abzug.vorsorge.saeule3a@13.1 / 13.2` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#31:abzug.vorsorge.saeule3a_einkauf@13.1 / 13.2 (Einkauf)` (agent-geprueft)
 - [wiki/themen/pensionskasse-einkauf-wef.md](../../themen/pensionskasse-einkauf-wef.md)
 - [wiki/themen/saeule-3a.md](../../themen/saeule-3a.md)
 

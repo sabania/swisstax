@@ -15,8 +15,9 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-wl-da1-2025`).
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-wl-da1-2025`).
 
+- `data/zuordnung/zh/2025.yaml#93:verrechnungssteuer.rueckerstattung@Form. 340 DA-1` (agent-geprueft)
 - [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

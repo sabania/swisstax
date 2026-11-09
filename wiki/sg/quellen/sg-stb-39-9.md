@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 9 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-9`).
+Zitiert in 14 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-9`).
 
 - `data/werte/sg/2025.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
 - `data/werte/sg/2025.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
@@ -24,7 +24,12 @@ Zitiert in 9 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/imp
 - `data/werte/sg/2026.yaml#16:berufskosten.nebenerwerb.satz` (agent-geprueft)
 - `data/werte/sg/2026.yaml#17:berufskosten.nebenerwerb.min` (agent-geprueft)
 - `data/werte/sg/2026.yaml#18:berufskosten.nebenerwerb.max` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#0:einkommen.unselbstaendig.haupterwerb@1.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#1:einkommen.unselbstaendig.nebenerwerb@1.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#75:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#78:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#1:einkommen.unselbstaendig.nebenerwerb@1.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#2:einkommen.unselbstaendig.vr_honorare@1.3` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#77:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
 - [wiki/themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md](../../themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md)
 - [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)

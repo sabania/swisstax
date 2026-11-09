@@ -15,16 +15,24 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 8 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-29-2`).
+Zitiert in 16 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-stp-29-2`).
 
 - `data/belege-teil2.yaml#12:oev-abo` (agent-geprueft)
 - `data/werte/tg/2025.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
 - `data/werte/tg/2025.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
 - `data/werte/tg/2025.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
 - `data/werte/tg/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#81:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 2.1` (agent-geprueft)
 - `data/zuordnung/tg/2025.yaml#82:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 2.2` (agent-geprueft)
 - `data/zuordnung/tg/2025.yaml#83:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 2.3` (agent-geprueft)
 - `data/zuordnung/tg/2025.yaml#85:abzug.berufskosten.fahrkosten@Form. 4.2 Ziff. 2.5` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#73:abzug.berufskosten.uebrige@Form. 4.2 Ziff. 1.1` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#75:abzug.berufskosten.fahrkosten@Form. 4.2/4.3 Ziff. 2.1` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#76:abzug.berufskosten.fahrkosten@Form. 4.2/4.3 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#77:abzug.berufskosten.fahrkosten@Form. 4.2/4.3 Ziff. 2.3` (strittig)
+- `data/zuordnung/tg/2026.yaml#78:berechnung.total@Form. 4.2/4.3 Ziff. 2.4` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#79:abzug.berufskosten.fahrkosten@Form. 4.2/4.3 Ziff. 2.5` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#89:abzug.behinderungskosten@Form. 5.1 C` (agent-geprueft)
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 
 ## Inhalt (12 Chunks)

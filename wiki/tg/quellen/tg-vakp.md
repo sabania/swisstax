@@ -15,11 +15,13 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 4 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-vakp`).
+Zitiert in 6 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle tg-vakp`).
 
 - `data/werte/tg/2025.yaml#43:sozialabzug.kind` (agent-geprueft)
 - `data/werte/tg/2025.yaml#48:sozialabzug.unterstuetzung` (agent-geprueft)
 - `data/werte/tg/2025.yaml#50:sozialabzug.alter_iv` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#51:sozialabzug.kinder@25.1 a) Jg. 2006–2009` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#52:sozialabzug.kinder@25.1 b)` (agent-geprueft)
 - `data/zuordnung/tg/2025.yaml#54:sozialabzug.alter_iv@25.3` (agent-geprueft)
 - [wiki/themen/kinder-sozialabzuege.md](../../themen/kinder-sozialabzuege.md)
 - [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)

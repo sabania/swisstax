@@ -12,6 +12,8 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 > Formular: Steuererklärung 2025 Appenzell Ausserrhoden (Formular 1 Seiten 1-4, Hauptformular nicht online; Ziffern/Codes aus den Formular-Miniaturen der Wegleitung WL AR 2025) + Hilfsformulare 2 (Wertschriften), 4 (Berufskosten), 5 (Schulden, Zuwendungen, Parteispenden), 6 (Versicherungsprämien, … · Eckwerte: [Kanton](werte-ar-2025.md) · [Bund](werte-bund-2025.md) · [Belege-Relevanz](belege-relevanz.md) · [Beleg × Ziffer](belege-ziffern.md)
 > Kompaktansicht – vollständige Regel, Bund-Hinweis, Zitate: [Detailseite](../wiki/ar/zuordnung-ar-2025-detail.md) (↗ je Zeile). Eine Erklärung für Kanton und Bund: ohne «Bund:»-Vermerk gilt dieselbe Ziffer/Regel auch für die direkte Bundessteuer (Limiten: Kanton / Bund). Status: ✅ verifiziert · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig · ⬜ offen
 
+> **Hinweis:** Das AR-Formular hat keine separate Bundesspalte: Die Steuererklärung dient zugleich für die direkte Bundessteuer; Abweichungen (z.B. Zweiverdiener-, Versicherungs-, Kinderabzug Bund) werden von der Steuerverwaltung automatisch vorgenommen (WL AR 2025 S. 33, ar-wl-2025__c0179: «Anpassungen durch die Steuerverwaltung automatisch vorgenommen»).
+
 ## Personalien
 
 | Ziffer | Position | Beleg | Kurzregel · Limite (Kanton / Bund) | St. |

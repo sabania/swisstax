@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 96 Daten-Einträgen und 32 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-dbg-2025`).
+Zitiert in 110 Daten-Einträgen und 32 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-dbg-2025`).
 
 - `data/belege-teil1.yaml#12:krankenkasse-praemien` (agent-geprueft)
 - `data/belege-teil1.yaml#13:krankenkasse-leistungen` (agent-geprueft)
@@ -57,7 +57,7 @@ Zitiert in 96 Daten-Einträgen und 32 handgeschriebenen Seiten (`python3 tools/i
 - `data/werte/bund/2025.yaml#36:spenden.min` (agent-geprueft)
 - `data/werte/bund/2025.yaml#37:spenden.max_satz` (agent-geprueft)
 - `data/werte/bund/2025.yaml#38:parteispenden.max` (agent-geprueft)
-- … 56 weitere
+- … 70 weitere
 - [wiki/ar/ar-ueberblick.md](../../ar/ar-ueberblick.md)
 - [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)

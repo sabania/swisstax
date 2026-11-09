@@ -15,13 +15,24 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 5 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-30`).
+Zitiert in 16 Daten-Einträgen und 4 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-ks-30`).
 
 - `data/belege-teil1.yaml#12:krankenkasse-praemien` (agent-geprueft)
 - `data/belege-teil2.yaml#11:unterhaltszahlungen-alimente` (agent-geprueft)
 - `data/belege-teil2.yaml#7:kinderbetreuung-rechnungen` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#48:sozialabzug.kinder@23.3` (agent-geprueft)
 - `data/zuordnung/ar/2025.yaml#49:sozialabzug.unterstuetzung@23.4` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#32:abzug.versicherungspraemien@14` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#46:sozialabzug.kinder@23.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#47:sozialabzug.kinder@23.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#49:sozialabzug.unterstuetzung@23.4` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#85:abzug.versicherungspraemien@Form. 6 (Versicherungen/Krankheitskosten)` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#27:abzug.unterhaltsbeitraege@12.1` (agent-geprueft)
+- `data/zuordnung/tg/2026.yaml#28:abzug.unterhaltsbeitraege@12.2` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#24:abzug.unterhaltsbeitraege@13.1` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#25:abzug.unterhaltsbeitraege@13.2` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#59:abzug.zweiverdiener@17` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#68:sozialabzug.kinder@24.1` (agent-geprueft)
 - [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
 - [wiki/themen/unterhaltsbeitraege.md](../../themen/unterhaltsbeitraege.md)

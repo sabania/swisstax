@@ -15,9 +15,12 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 1 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-30-3`).
+Zitiert in 4 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-30-3`).
 
 - `data/belege-teil2.yaml#3:liegenschaft-unterhaltsrechnungen` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#100:abzug.liegenschaft.energie_umwelt@Form. 350 / Ziff. 16 Unterhalt` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#101:sozialabzug.eigenmietwert@Form. 350 / WL Eigenmietwert` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#99:abzug.liegenschaft.unterhalt@Form. 350 Seite 2 Spalte Unterhalts- und Verwaltungskosten` (agent-geprueft)
 
 ## Inhalt (54 Chunks)
 

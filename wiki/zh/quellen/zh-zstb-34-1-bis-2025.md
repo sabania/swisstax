@@ -15,8 +15,10 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-34-1-bis-2025`).
+Zitiert in 2 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-34-1-bis-2025`).
 
+- `data/zuordnung/zh/2025.yaml#48:sozialabzug.kinder@24.1` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#49:sozialabzug.unterstuetzung@24.2` (agent-geprueft)
 - [wiki/themen/unterhaltsbeitraege.md](../../themen/unterhaltsbeitraege.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

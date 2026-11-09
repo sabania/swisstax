@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 50 Daten-Einträgen und 29 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-stg-2025`).
+Zitiert in 65 Daten-Einträgen und 29 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-stg-2025`).
 
 - `data/belege-teil2.yaml#7:kinderbetreuung-rechnungen` (agent-geprueft)
 - `data/belege-teil3.yaml#0:kapitalleistung-vorsorge` (agent-geprueft)
@@ -52,12 +52,12 @@ Zitiert in 50 Daten-Einträgen und 29 handgeschriebenen Seiten (`python3 tools/i
 - `data/werte/zh/2025.yaml#71:bezug.ausgleichszins` (agent-geprueft)
 - `data/werte/zh/2025.yaml#72:tarif.kapitalleistung_vorsorge` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#100:abzug.liegenschaft.energie_umwelt@Form. 350 / Ziff. 16 Unterhalt` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#107:abzug.krankheitskosten@Form. 370 S.1 Teil E` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#23:abzug.schuldzinsen@12` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#26:abzug.uebrige@13.3` (strittig)
 - `data/zuordnung/zh/2025.yaml#32:abzug.weiterbildung@16.2` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#34:abzug.behinderungskosten@16.4` (agent-geprueft)
-- `data/zuordnung/zh/2025.yaml#35:abzug.parteispenden@16.5` (agent-geprueft)
-- … 10 weitere
+- … 25 weitere
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
 - [wiki/themen/erwerbsersatz-taggelder.md](../../themen/erwerbsersatz-taggelder.md)

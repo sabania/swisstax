@@ -5,7 +5,7 @@ ersten Steuerfrage einer Sitzung lesen). Skills: `steuerwiki` (Nachschlagen), `s
 
 - Immer zuerst Kanton (Wohnsitz 31.12.) und Steuerjahr klären.
 - Reihenfolge: `steuerwiki/quick/index.md` (Frage → Seite) → `quick/belege-relevanz.md` (relevant?) →
-  `quick/zuordnung-<kt>-<jahr>.md` (welche Zahl in welche Ziffer) → `quick/werte-<jur>-<jahr>.md` bzw.
+  `quick/wegleitung-<kt>-<jahr>.md` (je Ziffer: Rein · Rechnen · Limite · Beachten) bzw. `quick/zuordnung-<kt>-<jahr>.md` → `quick/werte-<jur>-<jahr>.md` bzw.
   `quick/vergleich-<jahr>.md` (Limiten) → Detail (↗-Link: `wiki/<jur>/*-detail.md`, `wiki/belege/*`, `wiki/themen/*`)
   → Chunk (`chunks/...`) → Original-PDF (`raw/...`). Suche: `memory_search` mit Kanton + Jahr + Begriff.
 - Andere Kantone als AR/SG/TG/ZH sind nicht abgedeckt → «nicht im Wiki» sagen.

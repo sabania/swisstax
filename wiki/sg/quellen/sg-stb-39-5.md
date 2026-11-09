@@ -15,12 +15,15 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 4 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-5`).
+Zitiert in 7 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-5`).
 
 - `data/werte/sg/2025.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
 - `data/werte/sg/2026.yaml#10:berufskosten.wochenaufenthalt.unterkunft` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#76:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#77:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#75:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#76:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#79:abzug.berufskosten.verpflegung@Lohnausweis Feld G` (agent-geprueft)
 - [wiki/themen/verpflegung-wochenaufenthalt.md](../../themen/verpflegung-wochenaufenthalt.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

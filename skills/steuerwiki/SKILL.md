@@ -16,9 +16,12 @@ Antwort einer Sitzung lesen). Antworten immer mit **Kanton**, **Steuerjahr**, **
    - `steuerwiki/quick/belege-relevanz.md` – Ist ein Dokument steuerrelevant? (ja / bedingt / nein) → Detailkarte
      `steuerwiki/wiki/belege/beleg-<id>.md` (Erkennen an, Was extrahieren, Hinweise je Kanton, Ziffern je Kanton/Jahr)
    - `steuerwiki/quick/belege-ziffern.md` – Beleg × Kanton/Jahr → Ziffern (Matrix)
-   - `steuerwiki/quick/zuordnung-<kt>-<jahr>.md` – Ziffer · Position · Beleg · Kurzregel · Limite Kanton/Bund
+   - `steuerwiki/quick/wegleitung-<kt>-<jahr>.md` – **Kompakt-Wegleitung**: je Formularziffer Rein (Dokumente → Feld) ·
+     Rechnen (Kurzformel) · Limite Kanton/Bund · Beachten; `grep -n "^### <ziffer>"` springt zur Position
+   - `steuerwiki/quick/zuordnung-<kt>-<jahr>.md` – Ziffer · Position · Beleg · Kurzregel · Limite Kanton/Bund (Tabelle)
    - `steuerwiki/quick/werte-<jur>-<jahr>.md` – Eckwerte (Pauschalen, Maxima, Sätze) mit Fundstelle und Status
    - `steuerwiki/quick/vergleich-<jahr>.md` – alle Jurisdiktionen nebeneinander (schnellster Weg für Vergleichsfragen)
+   - `steuerwiki/quick/gueltigkeit-<jahr>.md` – welche Fassung (Gesetz, Wegleitung, Fristen-Weisung, KS) für Steuerjahr X gilt
 3. **Detail:** `steuerwiki/wiki/<jur>/zuordnung-<kt>-<jahr>-detail.md` bzw. `werte-<jur>-<jahr>-detail.md` (volle Regel,
    Bund-Hinweis, Bemerkung, **wörtliche Zitate** je Quelle) · `steuerwiki/wiki/themen/<thema>.md` (Querschnitt, Sonderfälle,
    Checklisten) · `steuerwiki/wiki/<jur>/<jur>-ueberblick.md` (Verfahren, Fristen, Behörden) · Quellenkatalog

@@ -15,10 +15,11 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 2 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-info-steuerfuesse`).
+Zitiert in 3 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-info-steuerfuesse`).
 
 - `data/werte/zh/2025.yaml#58:tarif.steuerfuss_kanton` (agent-geprueft)
 - `data/werte/zh/2026.yaml#58:tarif.steuerfuss_kanton` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#91:vermoegen.sozialabzug@(Tarif § 47)` (agent-geprueft)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 - [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)
 - [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)

@@ -18,12 +18,15 @@ verlinktes Markdown-Wiki → Schema-Datei (`AGENTS.md`) mit den Regeln. Ergänzt
 ## Aufbau
 
 ```
-├── AGENTS.md            Schema: Regeln für Agenten (Routing, Zitierpflicht, Pflege)   ← zuerst lesen
+├── AGENTS.md            Schema: Regeln für Agenten (Routing, Zitierpflicht, Zeitmodell, Pflege)   ← zuerst lesen
+├── KONZEPT.md           Konzept und Aufbau ausführlich (Schichten, Hierarchie, Zeitmodell, Nachvollziehbarkeit, Tests)
 ├── index.md             Einstiegskarte · log.md: Chronik (ingest/lint/…)
 ├── quick/               SCHICHT 1 – Quick Access (generiert aus data/)
 │   ├── index.md             Frage → Seite, Matrix Kanton × Jahr, Datenstand/Lücken, Themen
 │   ├── belege-relevanz.md   Dokument → relevant? (ja / bedingt / nein) → Belegkarte
 │   ├── belege-ziffern.md    Beleg × Kanton/Jahr → Formularziffern
+│   ├── wegleitung-<kt>-<jahr>.md  Kompakt-Wegleitung je Ziffer: Rein · Rechnen · Limite · Beachten (↗ Detail)
+│   ├── gueltigkeit-<jahr>.md      welche Fassung jeder Quelle für Steuerjahr X gilt (Zeitmodell)
 │   ├── zuordnung-<kt>-<jahr>.md   Ziffer · Position · Beleg · Kurzregel · Limite Kanton/Bund (↗ Detail)
 │   ├── werte-<jur>-<jahr>.md      Eckwerte mit Fundstelle und Status (↗ Detail)
 │   └── vergleich-<jahr>.md        alle Jurisdiktionen nebeneinander
@@ -37,8 +40,9 @@ verlinktes Markdown-Wiki → Schema-Datei (`AGENTS.md`) mit den Regeln. Ergänzt
 ├── sources/<jur>/<jahr>/<id>.md          SCHICHT 3 – Volltexte (verbatim, Seitenmarker)
 ├── chunks/<jur>/<jahr>/<id>/<id>__….md   SCHICHT 3 – RAG-Chunks (≤ ~1'500 Zeichen, Kontextzeile, Metadaten)
 ├── index/chunks.jsonl   alle Chunks + Metadaten + Text (für externe Vektor-/BM25-Indizes)
+├── index/abhaengigkeiten.json   Quelle → Chunk → Daten-Eintrag → Seite (tools/impact.py)
 ├── raw/<jur>/<jahr>/    Originale (PDF/HTML/XML) als Backup, sha256 in der Registry
-├── registry/            sources.yaml (alle Quellen) · taxonomy.yaml (Schlüssel) · years.yaml · chunkplans/
+├── registry/            sources.yaml (alle Quellen inkl. Zeitbezug, gilt_ab/bis, Versionskette) · taxonomy.yaml · glossar.yaml · chunkplans/
 ├── tools/               Python-Pipeline (fetch → convert/laws → chunk → build_index → build_quick → lint)
 ├── skills/              AgentSkills/OpenClaw: steuerwiki (Abfrage), steuererklaerung-np (Fall-Ablauf), steuerwiki-pflege (Pflege)
 ├── openclaw/            Integrationsanleitung, Konfig-Snippets, install.sh

@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 12 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-370`).
+Zitiert in 13 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-370`).
 
 - `data/belege-teil1.yaml#13:krankenkasse-leistungen` (agent-geprueft)
 - `data/belege-teil1.yaml#14:arzt-zahnarzt-rechnungen` (agent-geprueft)
@@ -29,6 +29,7 @@ Zitiert in 12 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/im
 - `data/zuordnung/zh/2025.yaml#109:abzug.behinderungskosten@Form. 370 S.2 Teil C/D` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#34:abzug.behinderungskosten@16.4` (agent-geprueft)
 - `data/zuordnung/zh/2025.yaml#44:abzug.krankheitskosten@22.1` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#65:abzug.krankheitskosten@Form. 370 Teil A–E` (agent-geprueft)
 - [wiki/themen/krankheits-behinderungskosten.md](../../themen/krankheits-behinderungskosten.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)

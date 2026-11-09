@@ -13,6 +13,12 @@ generiert: tools/build_index.py
 - **Abgerufen:** 2026-11-09 · sha256 `2159e8c76ebfa525…`
 - **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2017-01-01 bis 2026-12-31
 
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-gsv`).
+
+- `data/zuordnung/sg/2026.yaml#57:vermoegen.liegenschaften@31` (agent-geprueft)
+
 ## Inhalt (26 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |

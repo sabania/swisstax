@@ -15,8 +15,11 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-34-1`).
+Zitiert in 3 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-34-1`).
 
+- `data/zuordnung/zh/2026.yaml#58:abzug.drittbetreuung@16.6` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#68:sozialabzug.kinder@24.1` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#69:sozialabzug.unterstuetzung@24.2` (agent-geprueft)
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
 
 ## Inhalt (34 Chunks)

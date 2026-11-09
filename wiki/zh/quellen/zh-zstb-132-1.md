@@ -16,13 +16,14 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 5 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-132-1`).
+Zitiert in 6 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-132-1`).
 
 - `data/werte/zh/2025.yaml#64:verfahren.einreichefrist` (agent-geprueft)
 - `data/werte/zh/2025.yaml#65:verfahren.fristerstreckung` (agent-geprueft)
 - `data/werte/zh/2025.yaml#66:verfahren.abgabeweg` (agent-geprueft)
 - `data/werte/zh/2026.yaml#64:verfahren.einreichefrist` (agent-geprueft)
 - `data/werte/zh/2026.yaml#65:verfahren.fristerstreckung` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#72:verfahren.einreichung@Seite 1 / 4` (agent-geprueft)
 - [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
 - [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
 

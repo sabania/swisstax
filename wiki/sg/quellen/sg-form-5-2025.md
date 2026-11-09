@@ -15,10 +15,12 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 7 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-5-2025`).
+Zitiert in 9 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-5-2025`).
 
 - `data/zuordnung/sg/2025.yaml#24:abzug.schuldzinsen@11` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#34:abzug.parteispenden@16.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#42:abzug.spenden@21.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#58:schulden.privat@34.1` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#59:schulden.privat@34.2` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#84:schulden.privat@Form. 5 Teil A` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#85:schulden.privat@Form. 5 Teil B` (agent-geprueft)

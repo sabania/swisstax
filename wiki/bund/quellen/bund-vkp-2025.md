@@ -15,10 +15,11 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 2 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-vkp-2025`).
+Zitiert in 3 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-vkp-2025`).
 
 - `data/werte/bund/2025.yaml#31:zweiverdiener.min` (agent-geprueft)
 - `data/werte/bund/2025.yaml#32:zweiverdiener.max` (agent-geprueft)
+- `data/zuordnung/tg/2025.yaml#107:einkommen.wertschriften@Form. 2 Einsatzkosten Geldspiele (Code 145)` (agent-geprueft)
 
 ## Inhalt (15 Chunks)
 

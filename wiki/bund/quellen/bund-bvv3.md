@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 18 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-bvv3`).
+Zitiert in 19 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-bvv3`).
 
 - `data/werte/ar/2025.yaml#28:saeule3a.satz_ohne_2saeule` (agent-geprueft)
 - `data/werte/ar/2026.yaml#26:saeule3a.max_mit_2saeule` (agent-geprueft)
@@ -35,6 +35,7 @@ Zitiert in 18 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/im
 - `data/werte/tg/2025.yaml#28:saeule3a.satz_ohne_2saeule` (agent-geprueft)
 - `data/werte/zh/2025.yaml#29:saeule3a.einkauf` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#29:abzug.vorsorge.saeule3a@13.1` (agent-geprueft)
+- `data/zuordnung/zh/2025.yaml#28:abzug.vorsorge.saeule3a_einkauf@14.3 (ab 2026)` (na)
 - [wiki/themen/rechtsaenderungen.md](../../themen/rechtsaenderungen.md)
 - [wiki/themen/saeule-3a.md](../../themen/saeule-3a.md)
 

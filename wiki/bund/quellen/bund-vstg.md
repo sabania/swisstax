@@ -15,8 +15,9 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 0 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-vstg`).
+Zitiert in 1 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-vstg`).
 
+- `data/zuordnung/sg/2026.yaml#83:einkommen.wertschriften@Form. 2 (Wertschriftenverzeichnis)` (agent-geprueft)
 - [wiki/themen/wertschriften-verrechnungssteuer.md](../../themen/wertschriften-verrechnungssteuer.md)
 
 ## Inhalt (96 Chunks)

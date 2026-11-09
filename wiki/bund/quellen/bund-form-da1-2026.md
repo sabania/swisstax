@@ -13,6 +13,12 @@ generiert: tools/build_index.py
 - **Abgerufen:** 2026-11-09 · sha256 `90f55d4ef1d303cf…`
 - **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31 · ersetzt `bund-form-da1-2025`
 
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-form-da1-2026`).
+
+- `data/zuordnung/zh/2026.yaml#76:verrechnungssteuer.rueckerstattung@Form. 340 (Verrechnungsantrag / DA-1)` (agent-geprueft)
+
 ## Hinweise zur Quelle (aus dem Chunking)
 
 - Seite 1: Kopfzeilen der Kapitalanlagen-Tabelle (Spalten 1-8) zerrissen und vermischt; Spaltennummern in einer Zeile.

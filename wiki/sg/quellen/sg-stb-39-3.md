@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 13 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-3`).
+Zitiert in 20 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stb-39-3`).
 
 - `data/belege-teil2.yaml#12:oev-abo` (agent-geprueft)
 - `data/werte/sg/2025.yaml#1:berufskosten.fahrkosten.auto_km` (agent-geprueft)
@@ -27,9 +27,16 @@ Zitiert in 13 Daten-Einträgen und 1 handgeschriebenen Seiten (`python3 tools/im
 - `data/werte/sg/2026.yaml#2:berufskosten.fahrkosten.motorrad_km` (agent-geprueft)
 - `data/werte/sg/2026.yaml#3:berufskosten.fahrkosten.velo_pauschale` (agent-geprueft)
 - `data/werte/sg/2026.yaml#4:berufskosten.fahrkosten.arbeitstage` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#68:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.1` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#69:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#70:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.3` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#79:berechnung.total@Form. 4 Ziff. 6` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#80:abzug.berufskosten.fahrkosten@Lohnausweis Feld F` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#23:berechnung.total@10.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#67:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#68:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#69:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#78:abzug.berufskosten.fahrkosten@Lohnausweis Feld F` (agent-geprueft)
 - [wiki/themen/fahrkosten.md](../../themen/fahrkosten.md)
 
 ## Hinweise zur Quelle (aus dem Chunking)
