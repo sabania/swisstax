@@ -17,7 +17,7 @@ cat openclaw/AGENTS.workspace-snippet.md >> <workspace>/AGENTS.md               
 openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     # → 1 Aufruf steuerwiki__wert
 ```
 
-- Das Plugin bringt 4 Skills (`steuerwiki`, `steuerprozess-eingang`, `steuererklaerung-np`, `steuerprozess-ablauf`) und den
+- Das Plugin bringt 3 Skills (`belege-ablage`, `steuererklaerung-np`, `steuerwiki`) und den
   MCP-Server `steuerwiki` mit den Tools `steuerwiki__wert`, `__position`, `__beleg`, `__ablage`, `__suche`, `__zeige`,
   `__prozess`, `__mfiles`. Voraussetzung: `python3` auf dem Gateway-Host (nur Standardbibliothek).
 - **Kein `tools.fs.workspaceOnly` für diesen Agenten setzen.** OpenClaw legt Plugin-Skills unter `<state>/plugin-skills/` ab und
@@ -28,7 +28,8 @@ openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     
   über das Wiki will, installiert parallel den Workspace-Weg unten.
 - Format: Claude-Plugin (`.claude-plugin/plugin.json`, `.mcp.json`, `skills/`). Ein reines `plugin.json` (Agent-Plugins-Format)
   wurde in 2026.11.2 nicht als solches erkannt; das Claude-Format funktioniert und ist zugleich in Claude Code nutzbar.
-- Update: neu bauen, `openclaw plugins install … --force --accept-capabilities` erneut ausführen (neue Sitzungen sehen den Stand).
+- Update: neu bauen, `openclaw plugins install … --force --accept-capabilities` erneut ausführen, dann `openclaw skills list`
+  (baut den Skill-Index `<state>/plugin-skills/` neu auf; sonst beim nächsten Sessionstart). Neue Sitzungen sehen den Stand.
 
 ## Alternative: Workspace-Installation (Dateien + memory_search)
 
@@ -41,7 +42,7 @@ Das Werkzeug funktioniert auch hier per exec: `python3 steuerwiki/tools/steuer.p
    - legt das ganze Wiki nach `<ws>/steuerwiki/` (alle Pfade aus Skills/Regeln gültig),
    - legt die indexierbaren Teile `quick/`, `wiki/`, `chunks/` physisch nach `<ws>/memory/steuerwiki/` (mit Symlinks in
      beide Richtungen, damit relative Links auf `sources/` und `raw/` funktionieren),
-   - kopiert die Skills `steuerwiki`, `steuerprozess-eingang`, `steuererklaerung-np`, `steuerprozess-ablauf`, `steuerwiki-pflege` nach `<ws>/skills/`.
+   - kopiert die Skills `belege-ablage`, `steuererklaerung-np`, `steuerwiki`, `steuerwiki-pflege` nach `<ws>/skills/`.
 3. **Workspace-`AGENTS.md`:** Inhalt von [`AGENTS.workspace-snippet.md`](AGENTS.workspace-snippet.md) einfügen (≈ 1'500 Zeichen).
 4. **Konfiguration** `~/.openclaw/openclaw.json` (Beispiel unten) und `openclaw config validate`.
 5. **Indexieren und testen:**

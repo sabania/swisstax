@@ -594,10 +594,8 @@ def ablage(text, kt=None, jahr=None) -> str:
             if d.get("hinweis"):
                 out.append(f"   - Hinweis: {d['hinweis']}")
             out.append(f"   - Quelle: {d.get('quelle')}")
-    out += ["", "Regeln Schritt 1: ein Beleg = eine Datei (Sammel-PDF trennen) · Dublette → nicht ablegen, nur protokollieren · "
-            "Mandant = Name auf dem Dokument, sonst Absender; mehrdeutig → Prüfkorb · juristische Person → Prüfkorb · "
-            "Adresse «Nachname Vorname» · Protokoll: Kanal, Datei, Mandant, Jahr, Kategorie, Sicherheit, Aktion, Ergebnis. "
-            "Details: `steuer prozess 1`."]
+    out += ["", "Regeln: ein Beleg = eine Datei (Sammel-PDF trennen) · Dublette nicht nochmals ablegen · Mandant = Name auf dem Dokument "
+            "(Adresse «Nachname Vorname») · unsicher bei Typ, Mandant, Jahr oder Kategorie → Prüfkorb mit Grund und Vorschlag."]
     return "\n".join(out)
 
 

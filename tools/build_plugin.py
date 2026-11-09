@@ -16,7 +16,7 @@ import argparse, json, shutil, subprocess, sys, tarfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILLS = ["steuerwiki", "steuerprozess-eingang", "steuererklaerung-np", "steuerprozess-ablauf"]
+SKILLS = ["belege-ablage", "steuererklaerung-np", "steuerwiki"]
 
 
 def main():
@@ -33,8 +33,8 @@ def main():
     (out / ".claude-plugin" / "plugin.json").write_text(json.dumps({
         "name": "steuerwiki",
         "version": a.version,
-        "description": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; Steuerjahre 2025/2026) mit Firmenprozess Steuererklärung NP "
-                       "(M-Files, DrTax): Skills und Lookup-Tools mit Fundstellen.",
+        "description": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; Steuerjahre 2025/2026): Belege prüfen, in M-Files ablegen, "
+                       "Steuererklärung ausfüllen (DrTax-Positionen) – Skills und Lookup-Tools mit Fundstellen.",
         "author": {"name": "Steuer-Wiki"},
         "keywords": ["steuern", "schweiz", "steuererklaerung", "m-files", "drtax"],
     }, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -16,7 +16,7 @@ WS="${1:?Workspace-Pfad angeben}"
 MODE="${2:-}"
 mkdir -p "$WS/skills"
 cp -R "$SRC/skills/steuerwiki" "$SRC/skills/steuerwiki-pflege" "$SRC/skills/steuererklaerung-np" \
-      "$SRC/skills/steuerprozess-eingang" "$SRC/skills/steuerprozess-ablauf" "$WS/skills/"
+      "$SRC/skills/belege-ablage" "$WS/skills/"
 # L1-Werkzeug: Index bauen, falls er fehlt (nur Python-Standardbibliothek zur Laufzeit)
 [ -f "$SRC/index/lookup.json" ] || python3 "$SRC/tools/build_lookup.py"
 DEST="$WS/steuerwiki"

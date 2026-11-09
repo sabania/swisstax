@@ -206,7 +206,9 @@ Volltexte und Pflege-Tools bleiben im Repository.
   `firma/konfiguration.yaml` (Personen, Schwellen – einzige Stelle mit Namen).
 - **Seiten:** `wiki/firma/prozess-np.md`, `wiki/firma/mfiles-ablage.md`, `quick/ablage-<kt>-<jahr>.md` (Beleg → relevant →
   Kategorie → einreichen → Ziffern).
-- **Skills:** `steuerprozess-eingang` (Schritt 1), `steuererklaerung-np` (Schritt 2), `steuerprozess-ablauf` (Status, 3–6, Grenzen).
+- **Skills:** `belege-ablage` (steuerrelevant?, Typ, Steuerjahr, M-Files-Kategorie), `steuererklaerung-np` (ausfüllen: Positionen,
+  Limiten, Pauschalen). Der Gesamtprozess (Status, Post, Fristenliste, Veranlagung) ist nur Nachschlagewissen (L2, `prozess`), kein Skill –
+  Schwerpunkt sind Relevanz, Kategorie und Ausfüllen.
 - **Widersprüche/offen** (in `data/firma/mfiles.yaml` → `offene_punkte`): Kategorien «Belege WSVZ/Liegenschaften/Scan 1. Seite»
   nur im Prozessbeschrieb; Zuordnungsliste noch nicht bestätigt; Freigabequittung (Deklaration oder Unterlagen Kunde?);
   Schrittnummern der Agententabelle ≠ Schritttabelle; kein Zweig für nicht relevante Portal-/Scan-Dokumente.
