@@ -6409,3 +6409,223 @@
   ersetzt_durch: tg-stp-34-24
   zeit_beleg: 'sources/tg/2025/tg-stp-34-24-bis-2025.md Z. 64 Fussnote «01.07.2024 - 1/4 - ersetzt 01.01.2021»; Änderungsliste 01.07.2024 «StP 34 Nr. 24 … Ziff. 4: Hinweis auf Praxis bis Steuerperiode 2017
     entfernt»; Ende durch «Änderungen per 01.01.2026» (StP 34 Nr. 24, Ziff. 3.2/5.4); in den Listen 01.01.2025 un'
+- id: sg-form-2-2026-uj
+  jurisdiktion: sg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 2 SG 2026 UJ
+  titel: 'Formular 2: Wertschriften- und Guthabenverzeichnis 2026 (unterjährige Steuerpflicht)'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2026-uj/Formular_2_NP_2026_UJ.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - SG
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: 7e8fd7e8844ca50c562e7615a60e5a102c812c2c5c3e2794b1fe3ec6c9f62cb7
+  bytes: 156329
+  abgerufen: '2026-11-09'
+- id: sg-form-4-2026-uj
+  jurisdiktion: sg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 4 SG 2026 UJ
+  titel: 'Formular 4: Berufskosten 2026 (unterjährige Steuerpflicht)'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2026-uj/Formular_4_NP_2026_UJ.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - SG
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: 86363128f5e41ed188751ae29170223719797078cb374bed73de27b313573b91
+  bytes: 1558414
+  abgerufen: '2026-11-09'
+- id: sg-form-5-2026-uj
+  jurisdiktion: sg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 5 SG 2026 UJ
+  titel: 'Formular 5: Schuldenverzeichnis 2026 (unterjährige Steuerpflicht)'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2026-uj/Formular_5_NP_2026_UJ.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - SG
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: b4f31ae75a8b8f51a96b617444c0bd1b9b65fab40f76dfa01b155465f52ca573
+  bytes: 1575451
+  abgerufen: '2026-11-09'
+- id: sg-form-6-2026-uj
+  jurisdiktion: sg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 6 SG 2026 UJ
+  titel: 'Formular 6: Versicherungsprämien, Krankheitskosten 2026 (unterjährige Steuerpflicht)'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2026-uj/Formular_6_NP_2026_UJ.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - SG
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: 064d33d3d8689492813b86272505646f05f0c5211b049df1cdefd2cdcecc9ceb
+  bytes: 1579736
+  abgerufen: '2026-11-09'
+- id: sg-form-7-2026-uj
+  jurisdiktion: sg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 7 SG 2026 UJ
+  titel: 'Formular 7: Liegenschaften 2026 (unterjährige Steuerpflicht)'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2026-uj/Formular_7_NP_2026_UJ.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - SG
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: 47450151a2c657fd3b67c26b949061ff7a5a2bcf3e87d907db135eeea7dd828e
+  bytes: 1591160
+  abgerufen: '2026-11-09'
+- id: sg-form-7z-2026-uj
+  jurisdiktion: sg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 7Z SG 2026 UJ
+  titel: 'Formular 7Z: Zusammenzug Liegenschaften 2026 (unterjährige Steuerpflicht)'
+  url: https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2026-uj/Formular_7Z_NP_2026_UJ.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - SG
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: 5c26d338f4946f28cc8796b56680243d656c75b26c5be8810e24084f97577642
+  bytes: 1534462
+  abgerufen: '2026-11-09'
+- id: zh-form-340-2026-uj
+  jurisdiktion: zh
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 340 ZH 2026 UJ
+  titel: Wertschriften- und Guthabenverzeichnis 2026 (Form. 340, unterjährige Steuerpflicht)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2026/est-formulare-uj/340%20WV%20ZH%202026.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - ZH
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: 18f8f720265f0a1e0cf4990d33030d616f72c023ffd5c0ab20f515a542311cab
+  bytes: 168142
+  abgerufen: '2026-11-09'
+- id: zh-form-360-2026-uj
+  jurisdiktion: zh
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 360 ZH 2026 UJ
+  titel: Berufsauslagen 2026 (Form. 360, unterjährige Steuerpflicht)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2026/est-formulare-uj/360%20Berufsauslagen%20ZH%202026.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - ZH
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: 3e08cc759cd94bdba2bf2f51c1a2f5f5474a3c7488aad23024ab6f65a7479185
+  bytes: 71596
+  abgerufen: '2026-11-09'
+- id: zh-form-365-2026-uj
+  jurisdiktion: zh
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 365 ZH 2026 UJ
+  titel: Versicherungsprämien 2026 (Form. 365, unterjährige Steuerpflicht)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2026/est-formulare-uj/365%20Versicherung%20ZH%202026.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - ZH
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: cdc5534f8bf3ac6b5a4c6b074bd2383b203543ef4de1a1c9bb3aed0dc609a290
+  bytes: 55963
+  abgerufen: '2026-11-09'
+- id: zh-form-367-2026-uj
+  jurisdiktion: zh
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: formular
+  kurz: Formular 367 ZH 2026 UJ
+  titel: Aus- und Weiterbildungskosten 2026 (Form. 367, unterjährige Steuerpflicht)
+  url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2026/est-formulare-uj/367%20Aus-%20und%20Weiterbildung%20ZH%202026.pdf
+  format: pdf
+  verarbeitung: chunk
+  erwaehnt_in:
+  - ZH
+  zeitbezug: steuerperiode
+  gilt_ab: '2026-01-01'
+  gilt_bis: '2026-12-31'
+  hinweis: Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular
+    prüfen.
+  zeit_beleg: 'Portal-Abruf 09.11.2026: Formularliste 2026 nur in UJ-Fassung'
+  sha256: 1bdc347d95d1377dc42126c733c4e3be32f21b07d00d43b6c5c566ec7748cb24
+  bytes: 45904
+  abgerufen: '2026-11-09'

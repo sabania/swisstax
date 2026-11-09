@@ -557,6 +557,19 @@ def write_index(W, Z):
         L.append(f"| {JUR_SHORT[j]} | " + " | ".join(cells) + f" | [{JUR_SHORT[j]}](../wiki/{j}/{j}-ueberblick.md) |")
     if notes:
         L += ["", "**Datenstand / Lücken:**", ""] + list(dict.fromkeys(notes))
+    # Abnahme-Stand (Fachperson)
+    L += ["", "**Abnahme-Stand** (✅ verifiziert durch Fachperson / ☑️ agent-geprüft / ⚠️ strittig / ⬜ offen; Checkliste "
+          "`reports/abnahme-checkliste-<jahr>.md`):", ""]
+    for y in years:
+        cells = []
+        for j in JURS:
+            c = collections.Counter()
+            for d in (W.get((j, y)), Z.get((j, y))):
+                for r in ((d or {}).get("werte") or (d or {}).get("positionen") or []):
+                    c[r.get("status", "offen")] += 1
+            if c:
+                cells.append(f"{JUR_SHORT[j]} ✅{c['verifiziert']} ☑️{c['agent-geprueft']} ⚠️{c['strittig']} ⬜{c['offen']}")
+        L.append(f"- {y}: " + " · ".join(cells))
     th = yaml.safe_load((ROOT / "registry" / "themen.yaml").read_text(encoding="utf-8"))["themen"]
     L += ["", "## Themen (Stichworte)", "",
           " · ".join(f"[{t['titel']}](../wiki/themen/{slug}.md)" for slug, t in th.items() if (ROOT / "wiki" / "themen" / f"{slug}.md").exists()), "",

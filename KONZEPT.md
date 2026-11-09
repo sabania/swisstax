@@ -148,6 +148,15 @@ erklären Zusammenhänge, Sonderfälle und Checklisten; der Chunk ist der Beleg,
 - **Praxistests:** `eval/` – 40 Treuhänder-Fragen, 14 Blindtest-Fragen (unabhängig aus Primärquellen erstellt), echte
   OpenClaw-Läufe (`eval/run_openclaw.py`), unabhängige Bewertung (`eval/laeufe/`), Retrieval-Test (`eval/retrieval_test.py`).
 
+## 8a. Abnahme durch die Fachperson
+
+`tools/abnahme.py checkliste --jahr 2025` erzeugt `reports/abnahme-checkliste-2025.md`: priorisiert (P1 Kern-Eckwerte,
+P2 übrige Eckwerte, P3 Formularpositionen), je Zeile Wert, Link auf den Chunk und das wörtliche Zitat. Die Fachperson liest
+das Zitat, vergleicht den Wert und setzt `[x]`; `tools/abnahme.py uebernehmen --jahr 2025 --kuerzel <Kürzel>` setzt dann
+Status ✅ mit Kürzel und Datum. Ändert sich später eine Quelle, zeigt `impact.py` die betroffenen ✅-Einträge;
+`tools/abnahme.py zuruecksetzen --ref …` nimmt die Abnahme zurück. Strittige Punkte haben eine eigene
+Entscheidungsvorlage (`reports/entscheidungsvorlage-strittig.md`) mit Quellen, Rangfolge und Empfehlung.
+
 ## 9. OpenClaw-Integration (getestet mit 2026.11.2)
 
 - `openclaw/install.sh <workspace>`: Wiki nach `<ws>/steuerwiki/`, indexierte Teile physisch unter `<ws>/memory/steuerwiki/`

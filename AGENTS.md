@@ -20,7 +20,9 @@ Die fachliche Beurteilung bleibt bei der Fachperson. Diese Datei ist das Regelwe
 3. **Staats-/Gemeindesteuer ≠ direkte Bundessteuer.** Natürliche Personen reichen eine kantonale Steuererklärung ein,
    die beide Ebenen abdeckt; Abzüge unterscheiden sich oft (Spalten «Kanton» und «Bund» beachten).
 4. **Status respektieren:** `verifiziert` (Fachperson) > `agent-geprueft` > `extrahiert` > `offen`; `strittig` heisst
-   Quellen widersprechen sich → Fachperson entscheidet. Nur Menschen setzen `verifiziert`.
+   Quellen widersprechen sich → Fachperson entscheidet (Vorschläge: `reports/entscheidungsvorlage-strittig.md`). Nur Menschen
+   setzen `verifiziert` (`tools/abnahme.py uebernehmen/setzen` – Agenten führen das nie aus). Antworten nennen den Status;
+   bei ☑️ (agent-geprüft) gilt: Fundstelle ist geprüft, fachliche Abnahme steht aus.
 5. **Unveränderlich:** `raw/` (Originale), `sources/` (Volltexte) und `chunks/` werden nur von den Tools in `tools/`
    erzeugt, nie von Hand oder per LLM umformuliert. Wissen wird in `data/` (YAML) und `wiki/` gepflegt.
 6. **Keine Mandantendaten** im Wiki (Berufsgeheimnis). Abgelegte Antworten sind generisch und anonym.

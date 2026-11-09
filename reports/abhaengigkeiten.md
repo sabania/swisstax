@@ -141,7 +141,13 @@
 | `sg-steuerfuesse-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 7 (1) | 1 | 3 |
 | `sg-steuerfuesse-2026` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 7 (2) | 1 | 3 |
 | `sg-vkp` | sg | 2026 | steuerperiode | 2026-01-01 –  | 1 (1) | 1 | 2 |
+| `sg-form-2-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 6 (0) | 0 | 0 |
 | `sg-form-27-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 9 (4) | 0 | 1 |
+| `sg-form-4-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 7 (0) | 0 | 0 |
+| `sg-form-5-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 2 (0) | 0 | 0 |
+| `sg-form-6-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 4 (0) | 0 | 0 |
+| `sg-form-7-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 5 (0) | 0 | 0 |
+| `sg-form-7z-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 1 (0) | 0 | 0 |
 | `sg-gsg` | sg | 2025, 2026, 2027 | verfahren | 2001-01-01 –  | 20 (0) | 0 | 0 |
 | `sg-v-dbg` | sg | 2025, 2026 | verfahren | 2016-01-01 –  | 17 (7) | 0 | 1 |
 | `sg-wl-kurz-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 14 (0) | 0 | 0 |
@@ -225,6 +231,10 @@
 | `zh-zstb-133-1-aufforderung-2026` | zh | 2025, 2026 | verfahren | 2026-01-01 – 2026-12-31 | 18 (5) | 1 | 2 |
 | `zh-zstb-173-1` | zh | 2025, 2026 | verfahren | 2008-12-09 –  | 53 (5) | 1 | 1 |
 | `zh-zstb-21-3-bis-2025` | zh |  | steuerperiode | 1999-01-01 – 2023-05-23 | 1 (1) | 1 | 1 |
+| `zh-form-340-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 11 (0) | 0 | 0 |
+| `zh-form-360-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 9 (0) | 0 | 0 |
+| `zh-form-365-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 3 (0) | 0 | 0 |
+| `zh-form-367-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 1 (0) | 0 | 0 |
 | `zh-info-neubewertung-2026` | zh | 2026 | info | 2026-01-01 –  | 25 (9) | 0 | 3 |
 | `zh-info-steuerrechnung` | zh | 2025, 2026 | info | ? –  | 26 (9) | 0 | 1 |
 | `zh-mm-sozialabzuege-2026` | zh | 2026 | info | 2026-04-15 –  | 4 (1) | 0 | 2 |

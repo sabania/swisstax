@@ -1,0 +1,356 @@
+---
+id: zh-form-340-2026-uj
+titel: Wertschriften- und Guthabenverzeichnis 2026 (Form. 340, unterjährige Steuerpflicht)
+kurz: Formular 340 ZH 2026 UJ
+jurisdiktion: zh
+jahre:
+- 2026
+typ: formular
+quelle_url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2026/est-formulare-uj/340%20WV%20ZH%202026.pdf
+raw: raw/zh/2026/zh-form-340-2026-uj.pdf
+sha256: 18f8f720265f0a1e0cf4990d33030d616f72c023ffd5c0ab20f515a542311cab
+abgerufen: '2026-11-09'
+seiten: 4
+konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+zeitbezug: steuerperiode
+gilt_ab: '2026-01-01'
+gilt_bis: '2026-12-31'
+---
+# Wertschriften- und Guthabenverzeichnis 2026 (Form. 340, unterjährige Steuerpflicht)
+
+> Kanton Zürich (ZH) · Formular · Quelle: <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/natuerlichepersonen/2026/est-formulare-uj/340%20WV%20ZH%202026.pdf>
+
+<!-- Seite 1 -->
+    Wertschriften- und Guthabenverzeichnis
+Kanton Zürich   2026
+Wertschriften- und
+Guthabenverzeichnis
+mit Verrechnungsantrag
+
+
+    Bankverbindung für Rückerstattungen
+    Ein allfälliges Guthaben ist wie folgt zu überweisen:
+Ihr Konto   ▶
+für die Rückerstattung
+eines allfälligen Guthabens.
+
+
+Sollten diese Angaben nicht mehr ▶ IBAN-Nr.   2010
+aktuell sein, bitten wir Sie, Ihre
+    Konto lautend auf   549
+Korrekturen hier einzutragen.
+
+
+Eingang
+
+
+    Ich bestätige die Richtigkeit und Vollständigkeit der in diesem Verzeichnis und Antrag gemachten Angaben, insbesondere, dass auf
+    allen unter Kolonne A angegebenen Erträgen die eidg. Verrechnungssteuer zu meinen oder zu Lasten der von mir vertretenen Steuer
+    pflichtigen abgezogen worden ist.
+
+
+    Ort und Datum
+
+
+    Unterschrift Person 1   Unterschrift Person 2
+
+
+StA Form. 340 (2026) 12.26
+
+<!-- Seite 2 -->
+Wertschriften- und Guthabenverzeichnis
+    Original-   Nennwert   Valoren-Nr.   Genaue Bezeichnung der Vermögenswerte
+    Währung   Stückzahl   (bei Konto inkl. Nummer, bei nichtkotierten Wertpapieren inkl. UID)
+    Code*
+
+
+2300-01
+
+2300-02
+
+2300-03
+
+2300-04
+
+2300-05
+
+2300-06
+
+2300-07
+
+2300-08
+
+2300-09
+
+2300-10
+
+2300-11
+
+2300-12
+
+2300-13
+
+2300-14
+
+2300-15
+
+2300-16
+
+2300-17
+
+2300-18
+
+2300-19
+
+2300-20
+
+2300-21
+
+2300-22
+
+2300-23
+
+2300-24
+
+Bemerkungen
+
+
+A Werte mit Verrechnungssteuerabzug, deren Erträge um 35% eidg. Verrechnungssteuer   * Code
+   gekürzt wurden, geordnet nach folgenden Gruppen (Reihenfolge analog Vorperiode):   G Geschäftsvermögen
+1. Spar-, Privat-, Anlage-, Salär-, Postkonti, Kontokorrente etc.   N   Nutzniessungsvermögen
+2. Inländische Aktien, Anlagefonds, Obligationen und Wertschriften aller Art mit Verrechnungssteuerabzug   E   Wertschriften aus Erbschaften
+3. Gewinne aus inländischen Grossspielen und aus Online-Spielbankenspielen über CHF 1’046’400   S   Schenkung
+   (Originalbescheinigungen sind beizulegen)   Q   Qualifizierte Beteiligung ▸
+B Werte ohne Verrechnungssteuerabzug, deren Erträge nicht um 35% eidg. Verrechnungssteuer   ▾
+   gekürzt wurden, geordnet nach folgenden Gruppen (Reihenfolge analog Vorperiode):
+1. Kundenguthaben deren Bruttozins CHF 200.– nicht übersteigt   Ertrag-Total aus
+2. Darlehen, Konti und Guthaben aller Art ohne Verrechnungssteuerabzug   qualifizierten Beteiligungen   151
+3. Ausländische Wertschriften aller Art
+4. Gewinne aus ausländischen Spielbanken, Lotterien und Sportwetten sowie Naturaltreffer   ▸ Zu übertragen in die
+5. Anteile an Stockwerkeigentümergemeinschaft   Steuererklärung Seite 2, Ziffer 4.2
+
+<!-- Seite 3 -->
+    Zugang 2026   Abgang 2026   Steuerwert per 31.12.2026   Bruttoertrag 2026
+
+
+    A   B
+    Kauf   Verkauf   bzw. per Ende der Steuerpflicht   Werte mit   Werte ohne
+    Eröffnung   Saldierung   Verrechnungs-   Verrechnungs-
+    steuerabzug   steuerabzug
+    Datum   Datum   CHF ohne Rappen   CHF ohne Rappen   CHF ohne Rappen
+
+
+2305-01   T T MM   T T MM   2309-01
+
+2305-02   T T MM   T T MM   2309-02
+
+2305-03   T T MM   T T MM   2309-03
+
+2305-04   T T MM   T T MM   2309-04
+
+2305-05   T T MM   T T MM   2309-05
+
+2305-06   T T MM   T T MM   2309-06
+
+2305-07   T T MM   T T MM   2309-07
+
+2305-08   T T MM   T T MM   2309-08
+
+2305-09   T T MM   T T MM   2309-09
+
+2305-10   T T MM   T T MM   2309-10
+
+2305-11   T T MM   T T MM   2309-11
+
+2305-12   T T MM   T T MM   2309-12
+
+2305-13   T T MM   T T MM   2309-13
+
+2305-14   T T MM   T T MM   2309-14
+
+2305-15   T T MM   T T MM   2309-15
+
+2305-16   T T MM   T T MM   2309-16
+
+2305-17   T T MM   T T MM   2309-17
+
+2305-18   T T MM   T T MM   2309-18
+
+2305-19   T T MM   T T MM   2309-19
+
+2305-20   T T MM   T T MM   2309-20
+
+2305-21   T T MM   T T MM   2309-21
+
+2305-22   T T MM   T T MM   2309-22
+
+2305-23   T T MM   T T MM   2309-23
+
+2305-24   T T MM   T T MM   2309-24
+
+Übertrag aus Beiblatt 1   2350   2352
+
+Übertrag aus Beiblatt 2   2360   2362
+
+Übertrag ab Formular DA-1   2370   2371
+
+
+Total Steuerwert   400
+
+    ▸ Zu übertragen in die
+    Steuererklärung Seite 4, Ziffer 30.1
+
+Zwischentotal Bruttoerträge   539   542
+
+
+Übertrag Bruttoertrag A in Kolonne Bruttoertrag B   +   539
+
+
+Total Bruttoertrag A + B   150
+
+Ihr Verrechnungssteueranspruch   ▸ Zu übertragen in die
+    davon 35%   Steuererklärung Seite 2, Ziffer 4.1
+35% von Total Bruttoertrag A   540   .
+
+<!-- Seite 4 -->
+Wertschriften- und Guthabenverzeichnis
+    Original-   Nennwert   Valoren-Nr.   Genaue Bezeichnung der Vermögenswerte   Zugang 2026   Abgang 2026   Steuerwert per 31.12.2026   Bruttoertrag 2026
+    Beispiel
+
+    Währung   Stückzahl   (bei Konto inkl. Nummer, bei nichtkotierten Wertpapieren inkl. UID)   Kauf   Verkauf   bzw. per Ende der Steuerpflicht   Werte mit   Werte ohne
+    Eröffnung   Saldierung   Verrechnungs-   Verrechnungs-
+    steuerabzug   steuerabzug
+
+
+    Code*
+    Datum   Datum   CHF ohne Rappen
+    A   CHF ohne Rappen
+    B   CHF ohne Rappen
+
+
+2300-01   691.559.345.457 Sparkonto, Sparbank   2305-01   T T MM   T T MM   6 0 6 0   5 3   2309-01
+
+2300-02   435.678.900.123 Privatkonto, Sparbank   2305-02   T T MM   T T MM   3 3 5 0   6 8   2309-02
+
+2300-03   4711-49 Postkonto   2305-03   T T MM   T T MM   1 9 6 7   4 7   2309-03
+
+2300-04   5 0 0 0   2 2 2 2 2 2   2 1⁄4 % Kassaobligation, Sparbank 2023– 1.5.2026   2305-04   T T MM   T
+    0 T1 M
+    0M5   1 1 3   2309-04
+
+2300-05   5 0 0 0   2 2 2 2 2 3   2 3⁄4 % Kassaobligation, Sparbank 2026–1.5.2029   2305-05   T0 T1 M0 M5   T T MM   5 0 0 0   2309-05
+
+2300-06   5   1 1 1 4 7 1   Namenaktien Beclan AG   2305-06   T T MM   T T MM   4 7 5 0   2 0 0   2309-06
+
+2300-07   1 0   3 9 9 9 9 9   Anteile Bean   2305-07   T T MM   T T MM   1 1 8 0 0   3 0 0   2309-07
+
+2300-08   35-1D Depot Sparbank (gem. beiliegend. Verzeichnis)   2305-08   T T MM   T T MM   4 7 6 5 9   7 9 6   5 4 7   2309-08
+    ten,
+2300-09   e r   T T MM   T T MM   2309-09
+    W   tschrif b- 2305-09
+2300-10   2309-10
+    von s- bzw. A
+    613.112.1 g   Jugendsparkonto,
+    e   a hreSparkasse
+    2026 gaTal   g   T T MM   T T MM   2 8 0 6   3 8
+    ä n   im   J   n Z u n n Zugang 2305-10
+2300-11   n
+    001.299
+    u   d   ä n
+    Abg Anlagekonto
+    g   gen Sparkasse
+    c h e   o lo n ne
+    ndeTal (saldiert)   2305-11   T T MM   T
+    0 T9 M
+    0M6   2 5   2309-11
+    -
+    Zu - und Ab   sp re   ie K
+2300-12   2 5   i Zu   d d
+    West-Air
+    ie ent AGonat) in d   2305-12   T T MM   T T MM   2 4 7 1 1   2 1 8   2309-12
+    4 4 4 4 4 4 4 BeStammaktien   in
+2300-13   2305-13   2309-13
+    usw. s ( Tag und M en.
+    E U R   3 0 0 0 0   te n
+    Ko3n1t⁄2i %daFestgeld   Westbank
+    ra g   16.1.  – 16.4.2026   T1 T6 M0 M1   T
+    1 T6 M
+    0M4   4 0 7
+    s   zut
+2300-14   U S D   2 6 0 0 0   5 5 5 5 5 5   g a ng ein2020 – 15.10.2027
+    g4a1n⁄8g% bTrustbank   2305-14   T T MM   T T MM   2 4 8 0 0   1 0 3 1   2309-14
+    A
+2300-15
+    oder   2305-15   2309-15
+    T T MM   T T MM
+2300-16   2305-16   T T MM   r   2309-16
+    heM
+    T TcM
+2300-17   2305-17
+    ännis
+    T kMauMfm T T M M
+    T h   2309-17
+    äge   nac
+2300-18   T T MM   2309-18
+    te un   sind ( Tn.T M M
+    d Ertr rträge2305-18
+    E   d e
+2300-19   rwer   und   zu run 0T.– T M M   T T MM   2309-19
+    Steue uerwerte Franken 2305-19
+    e   1 0
+2300-20   T T MM   2309-20
+    CHF T1.–T M M
+    Die St auf ganze 100.45 = 2305-20   0
+    CHF 1
+2300-21   Regel) le: CHF 100.50 =2305-21   T T MM   T T MM   2309-21
+    ie   CHF
+2300-22
+    Beisp   2305-22   2309-22
+    T T MM   T T MM
+2300-23   2305-23   T T MM   T T MM   2309-23
+
+2300-24   2305-24   T T MM   T T MM   2309-24
+
+Bemerkungen   Übertrag aus Beiblatt 1   2350   2352
+
+    Übertrag aus Beiblatt 2   2360   2362
+
+    Verre   Übertrag ab Formular DA-1   2370   2371
+    c
+    Der V hnungsste
+    e
+    anzug rrechnung ueranspru   Total Steuerwert   400   1 3 2 9 0 3
+    c
+    5 Rap eben und ssteuerans h   ▸ Zu übertragen in die
+A Werte mit Verrechnungssteuerabzug, deren Erträge um 35% eidg. Verrechnungssteuer   p* eCode
+    n   (n a  c h   p ruch   Steuererklärung Seite 4, Ziffer 30.1
+   gekürzt wurden, geordnet nach folgenden Gruppen (Reihenfolge analog Vorperiode):
+    u run
+    Beisp G zGeschäftsvermögen
+1. Spar-, Privat-, Anlage-, Salär-, Postkonti, Kontokorrente etc.
+    den. kaufmänn ist mit Ra
+    ieleN: Nutzniessungsvermögen
+2. Inländische Aktien, Anlagefonds, Obligationen und Wertschriften aller Art mit Verrechnungssteuerabzug
+    ischer   p   Zwischentotal Bruttoerträge   539   1 4 0 9   2 4 3 4   542
+    E Wertschriften
+    CHFaus3 Erbschaften
+3. Gewinne aus inländischen Grossspielen und aus Online-Spielbankenspielen über CHF 1’046’400
+    Regel) pen
+    S Schenkung
+    0.224   auf
+   (Originalbescheinigungen sind beizulegen)   Q QualifizierteFBeteiligung   Übertrag Bruttoertrag A in Kolonne Bruttoertrag B   1 4 0 9   539
+    CH 3
+    0.875 ▸= CHF 30.2   +
+B Werte ohne Verrechnungssteuerabzug, deren Erträge nicht um 35% eidg. Verrechnungssteuer   = CHF   0▾
+   gekürzt wurden, geordnet nach folgenden Gruppen (Reihenfolge analog Vorperiode):
+    Ertrag-Total aus
+    30.90
+1. Kundenguthaben deren Bruttozins CHF 200.– nicht übersteigt   Total Bruttoertrag A + B   150
+2. Darlehen, Konti und Guthaben aller Art ohne Verrechnungssteuerabzug   qualifizierten Beteiligungen   151   3 8 4 3
+3. Ausländische Wertschriften aller Art   ▸ Zu übertragen in die
+4. Gewinne aus ausländischen Spielbanken, Lotterien und Sportwetten sowie Naturaltreffer   ▸ Zu übertragen in die   Ihr Verrechnungssteueranspruch
+    Steuererklärung Seite 2, Ziffer 4.2   davon 35%   Steuererklärung Seite 2, Ziffer 4.1
+5. Anteile an Stockwerkeigentümergemeinschaft   35% von Total Bruttoertrag A   540   4 9 3.1 5
+
+
+1006262602261   1006262603261

@@ -1,0 +1,178 @@
+[
+{
+"id": "zh-form-340-2026-uj__c0001",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "zh-form-340-2026-uj__c0002"
+},
+{
+"id": "zh-form-340-2026-uj__c0002",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 2",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0001",
+"nachher": "zh-form-340-2026-uj__c0003"
+},
+{
+"id": "zh-form-340-2026-uj__c0003",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 3",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0002",
+"nachher": "zh-form-340-2026-uj__c0004"
+},
+{
+"id": "zh-form-340-2026-uj__c0004",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 4",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0003",
+"nachher": "zh-form-340-2026-uj__c0005"
+},
+{
+"id": "zh-form-340-2026-uj__c0005",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 5",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0004",
+"nachher": "zh-form-340-2026-uj__c0006"
+},
+{
+"id": "zh-form-340-2026-uj__c0006",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 6",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0005",
+"nachher": "zh-form-340-2026-uj__c0007"
+},
+{
+"id": "zh-form-340-2026-uj__c0007",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 7",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0006",
+"nachher": "zh-form-340-2026-uj__c0008"
+},
+{
+"id": "zh-form-340-2026-uj__c0008",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 8",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0007",
+"nachher": "zh-form-340-2026-uj__c0009"
+},
+{
+"id": "zh-form-340-2026-uj__c0009",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 9",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0008",
+"nachher": "zh-form-340-2026-uj__c0010"
+},
+{
+"id": "zh-form-340-2026-uj__c0010",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 10",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0009",
+"nachher": "zh-form-340-2026-uj__c0011"
+},
+{
+"id": "zh-form-340-2026-uj__c0011",
+"titel": "Formular 340 ZH 2026 UJ – Abschnitt 11",
+"pfad": [],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "zh-form-340-2026-uj__c0010",
+"nachher": null
+}
+]

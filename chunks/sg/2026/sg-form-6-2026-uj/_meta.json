@@ -1,0 +1,64 @@
+[
+{
+"id": "sg-form-6-2026-uj__c0001",
+"titel": "Formular 6 SG 2026 UJ – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "sg-form-6-2026-uj__c0002"
+},
+{
+"id": "sg-form-6-2026-uj__c0002",
+"titel": "Formular 6 SG 2026 UJ – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-form-6-2026-uj__c0001",
+"nachher": "sg-form-6-2026-uj__c0003"
+},
+{
+"id": "sg-form-6-2026-uj__c0003",
+"titel": "Formular 6 SG 2026 UJ – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-form-6-2026-uj__c0002",
+"nachher": "sg-form-6-2026-uj__c0004"
+},
+{
+"id": "sg-form-6-2026-uj__c0004",
+"titel": "Formular 6 SG 2026 UJ – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "sg-form-6-2026-uj__c0003",
+"nachher": null
+}
+]

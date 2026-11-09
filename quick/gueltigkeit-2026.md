@@ -123,6 +123,12 @@ Werte/Zuordnungen für 2026: Quick-Seiten mit «2026» im Namen. Andere Jahre ni
 | Zeitbezug | Quelle | Fassung gilt | ersetzt / ersetzt durch |
 |---|---|---|---|
 | steuerperiode | [Formular 1 SG 2026 UJ](../wiki/sg/quellen/sg-form-1-2026-uj.md) `sg-form-1-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 2 SG 2026 UJ](../wiki/sg/quellen/sg-form-2-2026-uj.md) `sg-form-2-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 4 SG 2026 UJ](../wiki/sg/quellen/sg-form-4-2026-uj.md) `sg-form-4-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 5 SG 2026 UJ](../wiki/sg/quellen/sg-form-5-2026-uj.md) `sg-form-5-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 6 SG 2026 UJ](../wiki/sg/quellen/sg-form-6-2026-uj.md) `sg-form-6-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 7 SG 2026 UJ](../wiki/sg/quellen/sg-form-7-2026-uj.md) `sg-form-7-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 7Z SG 2026 UJ](../wiki/sg/quellen/sg-form-7z-2026-uj.md) `sg-form-7z-2026-uj` | 2026-01-01 – 2026-12-31 |  |
 | steuerperiode | [StG SG](../wiki/sg/quellen/sg-stg-2026.md) `sg-stg-2026` | 2026-01-01 – 2026-12-31 | ersetzt `sg-stg-2025` |
 | steuerperiode | [MB 8/2026 SG](../wiki/sg/quellen/sg-mb-8-2026.md) `sg-mb-8-2026` | 2026-01-01 – 2026-12-31 |  |
 | steuerperiode | [Steuerfüsse SG 2026](../wiki/sg/quellen/sg-steuerfuesse-2026.md) `sg-steuerfuesse-2026` | 2026-01-01 – 2026-12-31 | ersetzt `sg-steuerfuesse-2025` |
@@ -213,6 +219,10 @@ Werte/Zuordnungen für 2026: Quick-Seiten mit «2026» im Namen. Andere Jahre ni
 | Zeitbezug | Quelle | Fassung gilt | ersetzt / ersetzt durch |
 |---|---|---|---|
 | steuerperiode | [Formular 300 ZH 2026 UJ](../wiki/zh/quellen/zh-form-300-2026-uj.md) `zh-form-300-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 340 ZH 2026 UJ](../wiki/zh/quellen/zh-form-340-2026-uj.md) `zh-form-340-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 360 ZH 2026 UJ](../wiki/zh/quellen/zh-form-360-2026-uj.md) `zh-form-360-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 365 ZH 2026 UJ](../wiki/zh/quellen/zh-form-365-2026-uj.md) `zh-form-365-2026-uj` | 2026-01-01 – 2026-12-31 |  |
+| steuerperiode | [Formular 367 ZH 2026 UJ](../wiki/zh/quellen/zh-form-367-2026-uj.md) `zh-form-367-2026-uj` | 2026-01-01 – 2026-12-31 |  |
 | steuerperiode | [StG ZH](../wiki/zh/quellen/zh-stg-2026.md) `zh-stg-2026` | 2026-01-01 – offen | ersetzt `zh-stg-2025` |
 | steuerperiode | [ZStB 21.1](../wiki/zh/quellen/zh-zstb-21-1.md) `zh-zstb-21-1` | 2026-01-01 – offen | ersetzt `zh-weisung-liegenschaften-2009` |
 | steuerperiode | [ZStB 21.3](../wiki/zh/quellen/zh-zstb-21-3.md) `zh-zstb-21-3` | 2026-01-01 – offen | ersetzt `zh-zstb-21-3-bis-2025` |
