@@ -502,7 +502,7 @@ werte:
 - key: liegenschaft.eigenmietwert_abzug
   wert: 40
   einheit: '%'
-  text: 'Selbstnutzungsabzug: 40 % vom Mietwert fuer am Wohnsitz selbstgenutztes Wohneigentum (Bund: 20 %). Kein Abzug bei Zweit-/Ferienwohnungen, landwirtschaftlichen Liegenschaften, an Nahestehende ueberlassenen
+  text: 'Selbstnutzungsabzug: 40 % vom Mietwert fuer am Wohnsitz selbstgenutztes Wohneigentum (Bund: 20 %, tg-wl-2026__c0222). Kein Abzug bei Zweit-/Ferienwohnungen, landwirtschaftlichen Liegenschaften, an Nahestehende ueberlassenen
     Objekten.'
   gilt_fuer: kanton
   rechtsgrundlage: § 23 Abs. 3 StG

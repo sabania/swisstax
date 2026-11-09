@@ -525,7 +525,7 @@ werte:
 - key: liegenschaft.eigenmietwert_abzug
   wert: 40
   einheit: '%'
-  text: Selbstnutzungsabzug 40% vom Eigenmietwert für am Wohnsitz dauernd selbstbewohntes Wohneigentum (Bund 20%); nicht für Zweit-/Ferienwohnungen, landwirtschaftlich geschätzte Liegenschaften oder an
+  text: Selbstnutzungsabzug 40% vom Eigenmietwert für am Wohnsitz dauernd selbstbewohntes Wohneigentum (Bund 20 %, tg-wl-2025__c0225, tg-stp-23-1__c0005); nicht für Zweit-/Ferienwohnungen, landwirtschaftlich geschätzte Liegenschaften oder an
     Nahestehende überlassene Objekte.
   gilt_fuer: kanton
   rechtsgrundlage: § 23 Abs. 3 StG TG

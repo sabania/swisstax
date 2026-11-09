@@ -424,7 +424,7 @@ generiert: tools/build_quick.py aus data/werte/tg/2026.yaml (2026-11-09)
 <a id="liegenschaft-eigenmietwert-abzug"></a>
 ### Eigenmietwert – Einschlag/Abzug für selbstbewohnte Liegenschaft (%)
 
-- **Wert:** 40 % (Selbstnutzungsabzug: 40 % vom Mietwert fuer am Wohnsitz selbstgenutztes Wohneigentum (Bund: 20 %). Kein Abzug bei Zweit-/Ferienwohnungen, landwirtschaftlichen Liegenschaften, an Nahestehende ueberlassenen Objekten.)
+- **Wert:** 40 % (Selbstnutzungsabzug: 40 % vom Mietwert fuer am Wohnsitz selbstgenutztes Wohneigentum (Bund: 20 %, tg-wl-2026__c0222). Kein Abzug bei Zweit-/Ferienwohnungen, landwirtschaftlichen Liegenschaften, an Nahestehende ueberlassenen Objekten.)
 - **Schlüssel:** `liegenschaft.eigenmietwert_abzug` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 23 Abs. 3 StG
 - **Quellen:**
