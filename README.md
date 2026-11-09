@@ -111,7 +111,7 @@ Unveränderte Gesetzesfassungen werden nicht dupliziert (eine Konsolidierung = e
 - **Wiki:** 31 Themenseiten, 5 Überblicke, 45 Belegkarten, Detailseiten mit Zitaten, Gültigkeitsseiten je Jahr, Glossar.
 - **Getestet in OpenClaw 2026.11.2** (echte Agent-Turns, unabhängig bewertet): 63/64 Fragen voll richtig (Praxis-, Blind- und
   Positionstest), 0 falsch; Fundstellen, Kanton/Bund-Trennung und Steuerjahr 64/64. Ende-zu-Ende: 4 vollständige
-  Steuererklärungen (ZH/SG/TG/AR 2025), 103/109 Positionen korrekt, 3 von 4 «einreichbar nach Kontrolle» – siehe [`eval/laeufe/`](eval/laeufe/).
+  Steuererklärungen (ZH/SG/TG/AR 2025): nach Tuning 4 von 4 «einreichbar nach Kontrolle» (erster Lauf 103/109 Positionen) – siehe [`eval/laeufe/`](eval/laeufe/).
 - **Abnahme durch die Fachperson (ausstehend):** priorisierte Checklisten `reports/abnahme-checkliste-2025.md` / `-2026.md`
   (Wert, Chunk-Link, Zitat; Häkchen → `tools/abnahme.py uebernehmen`), Entscheidungsvorlage zu den 10 strittigen Punkten
   `reports/entscheidungsvorlage-strittig.md` (je Quellen, Rang, Empfehlung). Status ✅ setzt nur die Fachperson.

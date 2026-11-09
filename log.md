@@ -61,3 +61,6 @@ Letzte Einträge: `grep "^## \[" log.md | tail -5`
 ## [2026-11-09] query | End-zu-End-Test: vollständige Steuererklärungen 2025
 - 4 Fälle (ZH/SG/TG/AR, 109 Positionen, Musterlösung unabhängig aus Primärquellen) im echten OpenClaw: 103/109 korrekt,
   3/4 «einreichbar nach Kontrolle»; Tuning-Regel «unklarer Sachverhalt» → eval/laeufe/bewertung-faelle.md.
+
+## [2026-11-09] query | Nachtest ZH-Fall nach Tuning
+- Alle Positionen korrekt, zusätzliche zulässige Pauschale gefunden → 4/4 Fälle «einreichbar nach Kontrolle»; Skill-Hinweis Codes Person 2.

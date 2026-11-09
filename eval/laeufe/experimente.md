@@ -83,10 +83,12 @@ unabhängig aus Primärquellen. Der OpenClaw-Agent erstellt die komplette Ausfü
 Ergebnis: **103/109 Positionen korrekt**; SG, TG, AR vollständig korrekt («einreichbar nach Kontrolle»), ZH 23/29 wegen einer
 einzigen Ermessensannahme (Heimkehr über Mittag) mit Folgezeilen – korrekter Wert als Variante genannt. In TG fand der Agent eine
 Pauschale, die die Musterlösung übersehen hatte. Details: [bewertung-faelle.md](bewertung-faelle.md). Tuning: Regel für unklare
-Sachverhalte im Skill `steuererklaerung-np`.
+Sachverhalte im Skill `steuererklaerung-np`. **Nachtest ZH nach Tuning:** alle Positionen korrekt (plus eine von der Musterlösung
+übersehene zulässige Pauschale) → 4/4 Fälle «einreichbar nach Kontrolle».
 
 ## Grenzen der Experimente
 
 - Ein Modell (Claude über claude-cli); andere Modelle können anders navigieren.
 - Hybrid-/Vektorsuche nicht getestet (lokales Embedding-Plugin in der Testumgebung blockiert, kein Embedding-API-Schlüssel).
-- 64 Fragen sind eine Stichprobe; Fachperson-Verifikation der Werte (Status ✅) steht aus.
+- 64 Fragen und 4 Fälle sind eine Stichprobe; Fragen, Musterlösungen und Bewertungen stammen von KI-Agenten (unabhängig
+  voneinander, gegen Primärquellen) – eine Abnahme durch eine Fachperson (Status ✅, `tools/abnahme.py`) steht aus.

@@ -87,3 +87,5 @@ beiziehen, nur Hinweise mit Fundstelle geben. Nie Werte aus einem anderen Jahr/K
   die Annahme offenlegen, die Alternative mit Betrag nennen und eine Rückfrage an den Mandanten formulieren.
 - Pauschalen ohne Beleg nicht vergessen (z.B. TG/SG/ZH Vermögensverwaltungskosten-Pauschale auf Depotwerten, Velo-Pauschale,
   Liegenschaftsunterhalt pauschal) – jeweils Kanton und Bund getrennt prüfen.
+- Person 2 hat in den Hilfsblättern **eigene Codes** (z.B. ZH Form. 360: Person 1 = 2xx, Person 2 = 22x/23x) – Codes je Person
+  aus der Kompakt-Wegleitung/Detailseite übernehmen, nicht die Codes von Person 1 wiederverwenden.

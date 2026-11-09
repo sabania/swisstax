@@ -15,6 +15,11 @@
 
 Tuning daraus: Regel «Unklarer Sachverhalt → Standardfall deklarieren, Annahme offenlegen, Alternative und Rückfrage» im Skill `steuererklaerung-np`.
 
+**Nachtest ZH nach dem Tuning** (gleicher Fall, gleiche Bewertung): alle Positionen der Musterlösung korrekt, Gesamturteil
+«einreichbar nach Kontrolle»; zusätzlich fand der Agent die Pauschale für Vermögensverwaltungskosten (Ziff. 16.3, 3 ‰ × 31'200 = 94),
+die in der Musterlösung fehlte (Prüferin: vertretbar nach WL ZH 2025). Formfehler: für Person 2 zweimal der Code von Person 1 genannt
+(206/212 statt 226/232) → Hinweis im Skill ergänzt. **Damit 4/4 Fälle «einreichbar nach Kontrolle».**
+
 ## f-zh
 
 Die Ausfüllhilfe ist fachlich sehr nah an der Musterlösung. 22 der 29 Positionen stimmen in Ziffer und Beträgen für Staat und Bund. Alle Limiten 2025 habe ich in den Primärquellen nachgeprüft: Fahrkosten 5'200/3'300, Verpflegung 3'200/1'600, Drittbetreuung 25'000/25'800, Versicherungsabzug 5'800 + 1'300 bzw. 3'700 + 700, Zweiverdienerabzug 6'100 bzw. 8'600–14'100, Kinderabzug 9'300/6'800, Verheiratetenabzug 2'800.
