@@ -175,6 +175,7 @@ Ausführlich: `eval/laeufe/experimente.md`, Protokolle und Bewertungen in `eval/
 | Suchkonfiguration (29 Fragen mit Gold-Fundstellen) | Standard-Tokenizer besser als trigram; angereicherte Kontextzeile MRR 0.28 → 0.36 | unicode61; Kontextzeile in `chunk.py` |
 | Lauf A (Baseline) vs. Lauf B (getunt), je 64 Fragen, unabhängig bewertet | A 61/64, B 63/64 voll richtig; 0 falsch; Fundstellen/Kanton-Bund/Jahr 64/64 | Lauf-B-Stand ist Standard |
 | Kompakt-Wegleitung | 89 Zugriffe in B, Detailseiten-Zugriffe −65 %, Lesezugriffe −11 % | erste Station für Positionsfragen |
+| Ende-zu-Ende: 4 vollständige Steuererklärungen 2025 (109 Positionen) | 103/109 korrekt; SG/TG/AR fehlerfrei, ZH eine Ermessensannahme | Regel «unklarer Sachverhalt» im Fall-Skill |
 
 Blindtests: Fragen und Referenzen wurden von separaten Agenten **nur aus Primärquellen** erstellt (ohne die aufbereiteten
 Daten); in einem Fall (b03) war die Referenz falsch und der Agent hatte mit den indexierten Gesetzesbeträgen recht.

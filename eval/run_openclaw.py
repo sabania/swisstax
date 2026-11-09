@@ -16,6 +16,13 @@ import yaml
 
 def load_questions(p: Path):
     d = yaml.safe_load(p.read_text(encoding="utf-8"))
+    if "faelle" in d:   # End-zu-End-Fälle: Haushalt + Belege + Auftrag als eine Nachricht
+        out = []
+        for f in d["faelle"]:
+            msg = (f"Steuerjahr {f.get('jahr')}, Kanton {str(f.get('kanton', '')).upper()}. Mandant/Haushalt: {f.get('haushalt')}\n\n"
+                   "Belege:\n" + "\n".join(f"- {b}" for b in f.get("belege") or []) + f"\n\nAuftrag: {f.get('auftrag')}")
+            out.append({"id": f["id"], "frage": msg, "soll": yaml.safe_dump(f.get("soll"), allow_unicode=True, width=160)})
+        return out
     if "fragen" in d:
         qs = d["fragen"]
     else:

@@ -57,3 +57,7 @@ Letzte Einträge: `grep "^## \[" log.md | tail -5`
   Positionen ZH/SG 2026 gegen die Formulare geprüft (33 bestätigt, 1 korrigiert, 169 Formularzitate).
 - reports/entscheidungsvorlage-strittig.md (10 Punkte, Recherche + Gegenprüfung, Empfehlungen); tools/abnahme.py mit
   priorisierten Checklisten 2025/2026 für die Fachperson.
+
+## [2026-11-09] query | End-zu-End-Test: vollständige Steuererklärungen 2025
+- 4 Fälle (ZH/SG/TG/AR, 109 Positionen, Musterlösung unabhängig aus Primärquellen) im echten OpenClaw: 103/109 korrekt,
+  3/4 «einreichbar nach Kontrolle»; Tuning-Regel «unklarer Sachverhalt» → eval/laeufe/bewertung-faelle.md.

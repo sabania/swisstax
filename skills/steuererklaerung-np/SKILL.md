@@ -79,3 +79,11 @@ Bezug/Zinsen: `wiki/themen/fristen-verfahren.md`, `wiki/themen/bezug-zinsen.md`,
 Nicht abgedeckt bzw. nur Übersicht: selbständige Erwerbstätigkeit im Detail (Buchhaltung), Erbschafts-/Schenkungssteuer,
 Grundstückgewinnsteuer, juristische Personen, internationale Doppelbesteuerung im Detail. In diesen Fällen: Fachperson
 beiziehen, nur Hinweise mit Fundstelle geben. Nie Werte aus einem anderen Jahr/Kanton verwenden.
+
+## Unklarer Sachverhalt (aus dem End-zu-End-Test)
+
+- Fehlt eine Tatsache, die einen Abzug ausschliessen würde (z.B. ob die Heimkehr über Mittag möglich ist), **nicht** selbst
+  ausschliessen: Standardfall der Praxis deklarieren (z.B. Feld G angekreuzt → halber Verpflegungsabzug CHF 7.50/Tag),
+  die Annahme offenlegen, die Alternative mit Betrag nennen und eine Rückfrage an den Mandanten formulieren.
+- Pauschalen ohne Beleg nicht vergessen (z.B. TG/SG/ZH Vermögensverwaltungskosten-Pauschale auf Depotwerten, Velo-Pauschale,
+  Liegenschaftsunterhalt pauschal) – jeweils Kanton und Bund getrennt prüfen.

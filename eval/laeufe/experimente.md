@@ -76,6 +76,15 @@ Bewertung: [bewertung-A.md](bewertung-A.md), [bewertung-B.md](bewertung-B.md).
 **Entscheid:** Lauf-B-Konfiguration ist der Standard (install.sh nach `memory/`, Tokenizer unicode61, Kompakt-Wegleitung im
 Quick-Layer und im Snippet/Skill als erste Station für Positionsfragen).
 
+## E3 – Ende-zu-Ende: vollständige Steuererklärungen (Lauf B-Stand)
+
+4 fiktive Haushalte (ZH, SG, TG, AR 2025; je 10 Belege inkl. Fallen und irrelevanter Belege), Musterlösung mit 109 Positionen
+unabhängig aus Primärquellen. Der OpenClaw-Agent erstellt die komplette Ausfüllhilfe (3–4.5 min je Fall, 19–30 Tool-Aufrufe).
+Ergebnis: **103/109 Positionen korrekt**; SG, TG, AR vollständig korrekt («einreichbar nach Kontrolle»), ZH 23/29 wegen einer
+einzigen Ermessensannahme (Heimkehr über Mittag) mit Folgezeilen – korrekter Wert als Variante genannt. In TG fand der Agent eine
+Pauschale, die die Musterlösung übersehen hatte. Details: [bewertung-faelle.md](bewertung-faelle.md). Tuning: Regel für unklare
+Sachverhalte im Skill `steuererklaerung-np`.
+
 ## Grenzen der Experimente
 
 - Ein Modell (Claude über claude-cli); andere Modelle können anders navigieren.
