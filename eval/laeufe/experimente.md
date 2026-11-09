@@ -129,6 +129,17 @@ ZH 23/29, SG 17/24. Je Fall ein Grundfehler mit Folgefehlern: SG Bruttolohn stat
 ZH Verpflegung beim Bund doppelt halbiert (Datentext «halber Abzug» danach präzisiert), AR Person 2 unter Ziff. 10.1 statt 10.2.
 Danach Ausfüllregel «Nettolohn = Lohnausweis Ziff. 11; Person 1/2 je eigene Ziffer» ergänzt (nicht mehr gemessen).
 
+**H13 – zwei Haiku-Läufe nach allen Korrekturen** (u.a. Ausfüllregeln Nettolohn/Person 1–2, «halber Abzug» präzisiert,
+Werte je Abzug zusammengefasst, Tarif-Nullstufen nicht als Abzug): ganze Fälle **108/109** (ZH 29/29, SG 24/24, AR 31/31, TG 24/25;
+4/4 «einreichbar nach Kontrolle») und **107/109** (ZH, SG, AR fehlerfrei; TG 23/25). Restfehler: TG Zwischentotal Ziff. 6 nicht
+ausgewiesen (formal), unbelegte Nebenbemerkungen zu 3a-Vermögen (danach Ausfüllregel mit Fundstellen). Kürzelfragen q16/q24 2/2
+richtig, q13 («TG: … (Kanton vs. Bund)?») bleibt bei Haiku falsch (Rückfrage nach dem Kanton trotz Kürzel).
+
+**S1 – Sonnet mit demselben Plugin:** ganze Fälle 105/110 – ZH 29/29, SG 24/24, TG 25/25 (je «einreichbar nach Kontrolle»),
+AR 27/32: Sonnet machte eine zulässige Vermögensverwaltungspauschale geltend, die der Musterlösung fehlte (Prüfer: Musterlösung
+unvollständig; Abweichung nur in deren Berechnung). Positionen 9/10, Blindtest 13/14 (b06 wie Haiku: Fristerstreckung nach
+Fristablauf → danach in den Daten ergänzt).
+
 **Gesamtbild ganze Fälle mit Haiku:** 78 (H4) → 94–100/109 in fünf Läufen (H5 96, H6 99, H7 100, H12 94). Die Streuung kommt
 davon, dass Haiku pro Lauf an wechselnden Stellen einen Grundfehler macht, der sich durch die Totale zieht; AR und TG sind
 meist «einreichbar nach Kontrolle». Für komplette Erklärungen bleibt die Kontrolle durch die Fachperson nötig (Plausibilität
