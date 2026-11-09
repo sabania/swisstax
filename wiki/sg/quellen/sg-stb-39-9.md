@@ -30,7 +30,7 @@ Zitiert in 14 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/im
 - `data/zuordnung/sg/2025.yaml#78:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#1:einkommen.unselbstaendig.nebenerwerb@1.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#2:einkommen.unselbstaendig.vr_honorare@1.3` (agent-geprueft)
-- `data/zuordnung/sg/2026.yaml#77:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#77:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5.1` (agent-geprueft)
 - [wiki/themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md](../../themen/lohnausweis-unselbstaendige-erwerbstaetigkeit.md)
 - [wiki/themen/uebrige-berufskosten-nebenerwerb.md](../../themen/uebrige-berufskosten-nebenerwerb.md)
 

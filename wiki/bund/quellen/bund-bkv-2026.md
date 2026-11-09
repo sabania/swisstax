@@ -30,7 +30,7 @@ Zitiert in 24 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/im
 - `data/zuordnung/sg/2026.yaml#74:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.2` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#75:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#76:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.2` (agent-geprueft)
-- `data/zuordnung/sg/2026.yaml#77:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#77:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#79:abzug.berufskosten.verpflegung@Lohnausweis Feld G` (agent-geprueft)
 - `data/zuordnung/tg/2026.yaml#77:abzug.berufskosten.fahrkosten@Form. 4.2/4.3 Ziff. 2.3` (strittig)
 - `data/zuordnung/tg/2026.yaml#84:abzug.berufskosten.wochenaufenthalt@Form. 4.2/4.3 Ziff. 5.2` (agent-geprueft)

@@ -996,6 +996,12 @@ positionen:
     zitat: so wird der Betrag als Berufskostenentschädigung in Ziffer 2.3 deklariert.
   - chunk: zh-wl-2026-uj__c0066
     zitat: Diese sind unter Ziffer 1 des Berufsauslagenblatts in Abzug zu bringen.
+  - chunk: zh-form-360-2026-uj__c0002
+    zitat: 1.1 Abonnementkosten für öffentliche Verkehrsmittel 201 3211 201 3211
+  - chunk: zh-form-360-2026-uj__c0006
+    zitat: 1.1 Abonnementkosten für öffentliche Verkehrsmittel 221 3211 221 3211
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: Zwischentotal 205 3211 205 3211 ▸ max. CHF 5'200 ▸ max. CHF 3'300
   status: agent-geprueft
   rein:
   - ÖV-Abo-Rechnung/Quittung → Abokosten Strecke Wohn-/Arbeitsort
@@ -1006,6 +1012,7 @@ positionen:
   - Feld F (Geschäftsfahrzeug, Sammeltransport, geschäftlich nötiges GA) → keine Arbeitswegkosten
   - Wegvergütung des Arbeitgebers ist Bruttolohn; Abokosten allenfalls als Berufskosten abziehbar
   - Heimkehr bei Wochenaufenthalt (i.d.R. ÖV, z.B. GA) ebenfalls hier erfassen
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 201 (Person 1, Staat/Bund) / 221 (Person 2)'
 - ziffer: Form. 360 Ziff. 1.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten – Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal (Code 202)
@@ -1022,6 +1029,10 @@ positionen:
     zitat: bei ständiger Benützung eines Fahrrades, Motorfahrrades oder Motorrades mit
   - chunk: bund-wl-lohnausweis-2026__c0010
     zitat: Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer keine Kosten für den Arbeitsweg
+  - chunk: zh-form-360-2026-uj__c0002
+    zitat: 1.2 Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700 202 111 202 111
+  - chunk: zh-form-360-2026-uj__c0006
+    zitat: 1.2 Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700 222 111 222 111
   status: agent-geprueft
   rein:
   - keine Belege; Angabe ständige Benützung Fahrrad/Motorfahrrad/Kleinmotorrad (gelbes Kontrollschild)
@@ -1029,6 +1040,7 @@ positionen:
   berechnung: pauschal 700 pro Jahr → Code 202 (Kanton = Bund); zählt ins plafonierte Zwischentotal Ziff. 1
   beachten:
   - Nur bei ständiger Benützung; Motorfahrrad gleichgestellt (Verfügung LS 631.33 I.1b)
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 202 (Person 1, Staat/Bund) / 222 (Person 2)'
 - ziffer: Form. 360 Ziff. 1.3
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten – privates Auto/Motorrad (weisses Kontrollschild), Kilometeransatz (Code 204)
@@ -1063,8 +1075,16 @@ positionen:
     zitat: doch zusammen höchstens 15 Fr. im Tag berechnet werden
   - chunk: bund-bkv-2026__art-5
     zitat: sofern kein öffentliches Verkehrsmittel zur Verfügung steht oder dessen Benützung objektiv nicht zumutbar ist
+  - chunk: zh-form-360-2026-uj__c0002
+    zitat: 1.3 Auto, Motorrad (weisses Kontrollschild) in der Regel begrenzt auf 240 Tage
+  - chunk: zh-form-360-2026-uj__c0002
+    zitat: 'Auto: CHF 0.75 pro km Motorrad: CHF 0.40 pro km geleastes Fahrzeug'
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: '} 204 13211 204 13211 Zwischentotal 205'
+  - chunk: zh-form-360-2026-uj__c0007
+    zitat: '} 224 13211 224 13211 Zwischentotal 225'
   status: agent-geprueft
-  bemerkung: Bei der direkten Bundessteuer dieselben Ansätze laut Formular 360 (Spalte Bund).
+  bemerkung: 'Bei der direkten Bundessteuer dieselben Ansätze laut Formular 360 (Spalte Bund). Formular 2026 (UJ): bestaetigt; Codes 204 (Person 1, Staat/Bund) / 224 (Person 2)'
   rein:
   - Arbeitszeitkalender → Anzahl Arbeitstage (i.d.R. max. 240)
   - Distanz Wohn-/Arbeitsort → km pro Fahrt, Fahrten pro Tag
@@ -1109,6 +1129,12 @@ positionen:
     zitat: Sind beide Ehegatten erwerbstätig, werden die Abzüge für Be-
   - chunk: zh-wl-2026-uj__c0054
     zitat: Person 1 (Berufskosten Person 2 siehe Rückseite)
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: Zwischentotal 205 3211 205 3211 ▸ max. CHF 5'200 ▸ max. CHF 3'300
+  - chunk: zh-form-360-2026-uj__c0007
+    zitat: Zwischentotal 225 3211 225 3211 ▸ max. CHF 5'200 ▸ max. CHF 3'300
+  - chunk: zh-form-360-2026-uj__c0005
+    zitat: Arbeitnehmende, die über ein Geschäftsfahrzeug verfügen, können keine Fahrkosten in Abzug bringen.
   status: agent-geprueft
   rein:
   - Übertrag Ziff. 1.1–1.3 (Form. 360)
@@ -1118,6 +1144,7 @@ positionen:
   - Plafond umfasst auch Heimkehr-Fahrkosten bei Wochenaufenthalt (Kanton LS 631.33; Bund BKV Art. 9 Abs. 4)
   - 'Geschäftsfahrzeug mit pauschaler Fahrkostenberechnung (Bund: 0,9 % Kaufpreis/Monat als Einkommen): kein Abzug'
   - Plafond gilt je Person (Ehegatten je eigenes Hilfsblatt)
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 205 (Person 1, Staat/Bund) / 225 (Person 2)'
 - ziffer: Form. 360 Ziff. 7
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Begründung für die Benützung eines privaten Motorfahrzeugs (Codes 2041–2044)
@@ -1135,6 +1162,20 @@ positionen:
     zitat: private Motorfahrzeug tatsächlich ständig während der Arbeitszeit benützt und für die Fahr-
   - chunk: zh-pauschalierung-berufsauslagen-2026__c0001
     zitat: bei ständiger Benützung eines Motorrades oder Autos
+  - chunk: zh-form-360-2026-uj__c0005
+    zitat: 7. Begründung für die Benützung eines privaten Motorfahrzeuges für den Arbeitsweg
+  - chunk: zh-form-360-2026-uj__c0005
+    zitat: Fehlen eines öffentlichen Verkehrsmittels (siehe Wegleitung) 2041
+  - chunk: zh-form-360-2026-uj__c0005
+    zitat: Zeitersparnis von über 1 Stunde bei Benützung des privaten Motorfahrzeuges 2042
+  - chunk: zh-form-360-2026-uj__c0005
+    zitat: Ständige Benützung während der Arbeitszeit auf Verlangen und gegen Entschädigung des Arbeitgebers 2043
+  - chunk: zh-form-360-2026-uj__c0005
+    zitat: Unmöglichkeit der Benützung des öffentl. Verkehrsmittels zufolge Krankheit / Gebrechlichkeit (Arztzeugnis beilegen) 2044
+  - chunk: zh-form-360-2026-uj__c0009
+    zitat: Fehlen eines öffentlichen Verkehrsmittels (siehe Wegleitung) 2241
+  - chunk: zh-form-360-2026-uj__c0009
+    zitat: Unmöglichkeit der Benützung des öffentl. Verkehrsmittels zufolge Krankheit / Gebrechlichkeit (Arztzeugnis beilegen) 2244
   status: agent-geprueft
   rein:
   - Fahrplan / Distanz zur Haltestelle → 2041 (≥ 1 km oder kein ÖV bei Arbeitsbeginn/-ende)
@@ -1145,6 +1186,7 @@ positionen:
   beachten:
   - '2043: auf Verlangen und gegen Entschädigung des AG ständig in der Arbeitszeit benützt, Arbeitsweg unentschädigt'
   - 'Geschäftsfahrzeug: keine Fahrkosten, Begründung entfällt'
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 2041–2044 (Person 1) / 2241–2244 (Person 2)'
 - ziffer: Form. 360 Ziff. 2.1 (verbilligt)
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Mehrkosten Verpflegung bei verbilligter Verpflegung durch den Arbeitgeber (Code 206)
@@ -1170,6 +1212,10 @@ positionen:
     zitat: Soweit Berufsauslagen vom Arbeitgeber vergütet werden, steht der steuerpflichtigen Person kein Abzug zu.
   - chunk: bund-bkv-2026__art-6-t1
     zitat: Kein Abzug ist mangels Mehrkosten zulässig, wenn der Arbeitgeber bei der Bewertung von Naturalbezügen
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: 'Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 206 3211 206 3211'
+  - chunk: zh-form-360-2026-uj__c0007
+    zitat: 'Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 226 3211 226 3211'
   status: agent-geprueft
   rein:
   - Lohnausweis Feld G → Kantine/Personalrestaurant, Lunch-Checks, Mittagessensentschädigung bei 40–60 % Aussendienst
@@ -1178,6 +1224,7 @@ positionen:
   beachten:
   - 'LA Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt» (über 60 % Aussendienst): kein Abzug'
   - 'Bund: kein Abzug, wenn Verpflegung unter den amtlichen Naturalbezugs-Ansätzen möglich (BKV Art. 6 Abs. 3)'
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 206 (Person 1, Staat/Bund) / 226 (Person 2)'
 - ziffer: Form. 360 Ziff. 2.1 (voll)
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Mehrkosten Verpflegung bei voller Verpflegung zu Lasten des Arbeitnehmers (Code 208)
@@ -1201,6 +1248,10 @@ positionen:
     zitat: Dafür entfällt der Verpflegungsabzug (Ziffer 2.1).
   - chunk: bund-wl-lohnausweis-2026__c0012
     zitat: «Mittagessen durch Arbeitgeber bezahlt»
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: 'wenn die Verpflegung voll zu Lasten des Arbeitnehmers geht: pro Arbeitstag CHF 15 / im Jahr CHF 3’200 208'
+  - chunk: zh-form-360-2026-uj__c0007
+    zitat: 'wenn die Verpflegung voll zu Lasten des Arbeitnehmers geht: pro Arbeitstag CHF 15 / im Jahr CHF 3’200 228'
   status: agent-geprueft
   rein:
   - Lohnausweis → Feld G leer, Ziff. 15 ohne «Mittagessen durch Arbeitgeber bezahlt»
@@ -1210,6 +1261,7 @@ positionen:
   - Nur wenn Arbeitspause keine Heimkehr erlaubt und Mehrkosten gegenüber Verpflegung zu Hause entstehen
   - 'Bund: kein Abzug, wenn die Hauptmahlzeit höchstens CHF 10 kostet'
   - Mittagsheimfahrt mit privatem Motorfahrzeug ersetzt diesen Abzug
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 208 (Person 1, Staat/Bund) / 228 (Person 2)'
 - ziffer: Form. 360 Ziff. 2.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Mehrkosten Verpflegung bei Schicht-/Nachtarbeit (Code 210)
@@ -1233,6 +1285,12 @@ positionen:
     zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung vom Arbeitgeber anders als in bar verbilligt wird
   - chunk: bund-bkv-2026__art-6-t2
     zitat: Der Arbeitgeber muss die Anzahl Tage mit Schicht- oder Nachtarbeit sowie den Arbeitsort auf Verlangen bescheinigen.
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: 2.2 bei durchgehender, mindestens achtstündiger Schicht- / Nachtarbeit,
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: pro ausgewiesenem Schichttag CHF 15 / im Jahr CHF 3’200 210 3211 210 3211
+  - chunk: zh-form-360-2026-uj__c0007
+    zitat: pro ausgewiesenem Schichttag CHF 15 / im Jahr CHF 3’200 230 3211 230 3211
   status: agent-geprueft
   rein:
   - Lohnausweis Ziff. 15 → Anzahl Schichttage (freiwillige Angabe)
@@ -1241,6 +1299,7 @@ positionen:
   beachten:
   - Nicht mit Ziff. 2.1 kumulieren; gestaffelte Arbeitszeit nur, wenn beide Hauptmahlzeiten nicht zu Hause möglich
   - 'Bund: bei Verbilligung/Kantine nur halber Abzug (BKV Art. 6 Abs. 2); AG bescheinigt Tage auf Verlangen (Abs. 5)'
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 210 (Person 1, Staat/Bund) / 230 (Person 2)'
 - ziffer: Form. 360 Ziff. 3
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Übrige Berufskosten – pauschal 3% (Code 212) bzw. effektiv (Code 213)
@@ -1271,6 +1330,14 @@ positionen:
     zitat: so sind die gesamten tatsächlichen Auslagen und deren berufliche Notwendigkeit nachzuweisen.
   - chunk: zh-pauschalierung-berufsauslagen-2026__c0007
     zitat: Soweit Berufsauslagen vom Arbeitgeber vergütet werden, steht der steuerpflichtigen Person kein Abzug zu.
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: pauschal 3% des Nettolohnes gem. Lohnausweis, mind. CHF 2’000, höchstens CHF 4’000 2123211 212 3211
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: bzw. effektiv gemäss Aufstellung 213 13211 213 13211
+  - chunk: zh-form-360-2026-uj__c0007
+    zitat: höchstens CHF 4’000 2323211 232 3211
+  - chunk: zh-form-360-2026-uj__c0007
+    zitat: bzw. effektiv gemäss Aufstellung 233 13211 233 13211
   status: agent-geprueft
   rein:
   - Lohnausweis Ziff. 11 → Nettolohn (= Ziff. 8 − Ziff. 9 − Ziff. 10)
@@ -1281,6 +1348,7 @@ positionen:
   - 'Kein separater Homeoffice-Abzug: Arbeitszimmer in Pauschale enthalten'
   - 'Effektiv: gesamte Kosten und berufliche Notwendigkeit nachweisen; AG-vergütete Kosten nicht abziehbar'
   - 'Bund: Pauschale bei Teilzeit oder unterjähriger Tätigkeit angemessen kürzen (BKV Art. 7 Abs. 2)'
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 212 pauschal / 213 effektiv (Person 1, Staat/Bund); 232 / 233 (Person 2)'
 - ziffer: Form. 360 Ziff. 4
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Zusätzliche Mehrkosten bei auswärtigem Wochenaufenthalt (Code 2860)
@@ -1315,9 +1383,16 @@ positionen:
     zitat: Als notwendige Mehrkosten der Unterkunft sind die ortsüblichen Auslagen für ein Zimmer abziehbar.
   - chunk: zh-pauschalierung-berufsauslagen-2026__c0003
     zitat: unter Einbezug der Fahrkosten bei auswärtigem Wochenaufenthalt
+  - chunk: zh-form-360-2026-uj__c0004
+    zitat: 4. Mehrkosten bei auswärtigem Wochenaufenthalt (gemäss Aufstellung, siehe Wegleitung) 2860 13211 2860 13211
+  - chunk: zh-form-360-2026-uj__c0008
+    zitat: 4. Mehrkosten bei auswärtigem Wochenaufenthalt (gemäss Aufstellung, siehe Wegleitung) 2861 13211 2861 13211
+  - chunk: zh-form-360-2026-uj__c0003
+    zitat: bzw. effektiv gemäss Aufstellung 213 13211 213 13211
   status: agent-geprueft
   bemerkung: 'Code 2860 aus der Formularzeile; im PDF-Layout steht daneben Code 213 (effektive übrige Berufskosten) – Zuordnung am Original prüfen. Hinweis Prüfung: ZH-Wegleitung nennt nur CHF 15/Abendessen
-    bzw. 3''200 pro Jahr; Bundes-Wert laut data/werte/bund/2026.yaml (CHF 30/Tag, 6''400) weicht ab – für die Bundessteuer am Original prüfen.'
+    bzw. 3''200 pro Jahr; Bundes-Wert laut data/werte/bund/2026.yaml (CHF 30/Tag, 6''400) weicht ab – für die Bundessteuer am Original prüfen. Formular 2026 (UJ): bestaetigt; Codes 2860 (Person 1, Staat/Bund)
+    / 2861 (Person 2)'
   rein:
   - Mietvertrag/Quittungen Zimmer am Arbeitsort → Mietzins (nur Zimmer, nicht Wohnung)
   - Arbeitszeiterfassung → Arbeitstage mit Übernachtung am Arbeitsort
@@ -1349,6 +1424,14 @@ positionen:
     zitat: 20 % der Nettoeinkünfte, mindestens im Jahr
   - chunk: bund-wl-2a-2026__c0046
     zitat: einkommen nach Abzug der Sozialversicherungsbeiträge), min-
+  - chunk: zh-form-360-2026-uj__c0004
+    zitat: pauschal 20% der Einkünfte aus Nebenerwerb, mind. CHF 800 und höchstens CHF 2‘400 216 3211 216 3211
+  - chunk: zh-form-360-2026-uj__c0004
+    zitat: bzw. effektiv gemäss Aufstellung 217 13211 217 13211
+  - chunk: zh-form-360-2026-uj__c0008
+    zitat: höchstens CHF 2‘400 236 3211 236 3211
+  - chunk: zh-form-360-2026-uj__c0008
+    zitat: bzw. effektiv gemäss Aufstellung 237 13211 237 13211
   status: agent-geprueft
   rein:
   - Lohnausweis(e) Nebenerwerb → Einkünfte Ziff. 1.2
@@ -1358,6 +1441,7 @@ positionen:
   - Pauschale deckt alle Nebenerwerbsauslagen inkl. Fahrkosten und Verpflegung
   - 'Bund: Basis = Nettoeinkünfte (nach Abzug der Sozialversicherungsbeiträge)'
   - 'Behördenmitglieder (Legislative, Exekutive, Schule, Kirche): Verfügungen ZStB 17.3'
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 216 pauschal / 217 effektiv (Person 1, Staat/Bund); 236 / 237 (Person 2)'
 - ziffer: '12'
   abschnitt: Abzüge
   bezeichnung: Schuldzinsen (soweit nicht schon unter Ziff. 2 abgezogen) (Code 250)
@@ -1629,6 +1713,18 @@ positionen:
     zitat: Prämienverbilligungen der Krankenversicherer, die für den Steuerpflichtigen und die von
   - chunk: zh-wl-2026-uj__c0079
     zitat: Tatsächlich bezahlte Einlagen, Prämien und Beiträge für private Kranken-, Unfall-, Lebens- und
+  - chunk: zh-form-365-2026-uj__c0002
+    zitat: A. Bezahlte Versicherungsprämien und Zinsen von Sparkapitalien 1. Private Krankenversicherungsprämien 601
+  - chunk: zh-form-365-2026-uj__c0002
+    zitat: 4. Zinsen von Sparkapitalien 604
+  - chunk: zh-form-365-2026-uj__c0002
+    zitat: 5. Zwischentotal 607
+  - chunk: zh-form-365-2026-uj__c0002
+    zitat: 6. Abzüglich erhaltene Prämienverbilligungen 605
+  - chunk: zh-form-365-2026-uj__c0002
+    zitat: (soweit nicht schon unter Ziffer 1. berücksichtigt)
+  - chunk: zh-form-365-2026-uj__c0002
+    zitat: Total bezahlte Versicherungsprämien und Zinsen von Sparkapitalien (A) 606
   status: agent-geprueft
   rein:
   - Krankenkassen-Prämienabrechnung (inkl. Kinder) → Code 601, netto nach verrechneter Prämienverbilligung
@@ -1640,6 +1736,7 @@ positionen:
   - Prämienverbilligung meist mit KK-Prämie verrechnet → reduzierte Prämie in 601, Code 605 dann leer
   - Prämien und Prämienverbilligungen der unterhaltenen Kinder einbeziehen
   - Nur tatsächlich bezahlte Prämien, Einlagen und Beiträge
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 601, 602, 603, 604, 607 (Zwischentotal), 605, Total A 606'
 - ziffer: Form. 365 Teil B (Ziff. 1–3)
   abschnitt: Hilfsblatt Versicherungsprämien
   bezeichnung: Maximaler Abzug für Versicherungsprämien und Sparzinsen (Codes 611–616)
@@ -1670,6 +1767,26 @@ positionen:
     zitat: 6. Abzüglich erhaltene Prämienverbilligungen 605
   - chunk: bund-wl-lohnausweis-2026__c0035
     zitat: Berufliche Vorsorge (2. Säule) Ziffer 10
+  - chunk: zh-form-365-2026-uj__c0003
+    zitat: die Beiträge an die 2. oder 3. Säule a geleistet haben 5’800 3’700
+  - chunk: zh-form-365-2026-uj__c0003
+    zitat: 'oder: sofern weder Beiträge an die 2. noch an die 3. Säule a geleistet wurden 8’700 5’550 611'
+  - chunk: zh-form-365-2026-uj__c0003
+    zitat: die Beiträge an die 2. oder 3. Säule a geleistet haben 2’900 1’800
+  - chunk: zh-form-365-2026-uj__c0003
+    zitat: 'oder: sofern weder Beiträge an die 2. noch an die 3. Säule a geleistet wurden 4’350 2’700 612'
+  - chunk: zh-form-365-2026-uj__c0003
+    zitat: 'Zusätzlicher Abzug für jedes Kind Anzahl: 1’300 700 613'
+  - chunk: zh-form-365-2026-uj__c0003
+    zitat: 'Zusätzlicher Abzug für jede unterstützungsbed. Person Anzahl: 1’300 614'
+  - chunk: zh-form-365-2026-uj__c0003
+    zitat: 'Zusätzlicher Abzug für jede unterstützungsbed. Person Anzahl: 700 615'
+  - chunk: zh-form-365-2026-uj__c0003
+    zitat: Total der Abzüge für Versicherungsprämien und Zinsen von Sparkapitalien (B) 616
+  - chunk: zh-form-365-2026-uj__c0003
+    zitat: 'Der niedrigere Betrag: (A) oder (B) 270'
+  - chunk: zh-form-300-2026-uj__c0008
+    zitat: 15. Versicherungsprämien, Zinsen von Sparkapitalien Versicherungsprämien 270
   status: agent-geprueft
   rein:
   - Seite 1 Personalien → Zivilstand (611 Verheiratete / 612 Übrige)
@@ -1680,6 +1797,7 @@ positionen:
   - Ohne-Vorsorge-Ansatz nur, wenn weder Steuerpflichtige noch Arbeitgeber Beiträge an 2. Säule/3a geleistet haben
   - 'Halber Kinderabzug: Zusatz nur 650 (Kanton) / 350 (Bund) je Kind'
   - 'Teil A: erhaltene Prämienverbilligung abziehen (Code 605), sofern nicht schon in KK-Prämie verrechnet'
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 611, 612, 613, 614 (Staat), 615 (Bund), Total B 616; Teil C 270 → Form. 300 Ziff. 15'
 - ziffer: '16.1'
   abschnitt: Abzüge
   bezeichnung: Beiträge an die AHV, IV und 2. Säule, sofern nicht unter Ziff. 1 und 2 abgezogen (Code 280)
@@ -1802,8 +1920,21 @@ positionen:
     zitat: Abschluss auf der Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist
   - chunk: bund-wl-lohnausweis-2026__c0048
     zitat: Immer zu bescheinigen sind jedoch effektive Vergütungen für Rechnungen, die auf den Na
+  - chunk: zh-form-367-2026-uj__c0001
+    zitat: Bezeichnung Person 1 Person 2 CHF ohne Rappen CHF ohne Rappen Total der Kosten 2900 / 2903
+  - chunk: zh-form-367-2026-uj__c0001
+    zitat: Selbstgetragene Kosten 2902 / 2905
+  - chunk: zh-form-367-2026-uj__c0001
+    zitat: Zulässiger Abzug (max. je CHF 12’600) 2920 / 2921
+  - chunk: zh-form-367-2026-uj__c0001
+    zitat: Zulässiger Abzug (max. je CHF 13’000) 2920 / 2921
+  - chunk: zh-form-367-2026-uj__c0001
+    zitat: Steuererklärung Seite 3 Ziffer 16.2 292
+  - chunk: zh-form-300-2026-uj__c0008
+    zitat: 16.2 Berufsorientierte Aus- und Weiterbildungskosten Hilfsblatt 292
   status: agent-geprueft
-  bemerkung: Personenzuordnung der Codes 2900–2905 (Spaltenfolge) am Original prüfen.
+  bemerkung: 'Personenzuordnung der Codes 2900–2905 (Spaltenfolge) am Original prüfen. Formular 2026 (UJ): bestaetigt; Codes 2900/2903, 2901/2904, 2902/2905, 2920/2921 (Person 1 / Person 2) → 292 (Form.
+    300 Ziff. 16.2)'
   rein:
   - Kursrechnungen/Zahlungsbelege → Total der Kosten 2900 / 2903
   - Lohnausweis Ziff. 13.3; Bestätigung Bund/Branchenverband → Beiträge Dritter 2901 / 2904
@@ -2227,6 +2358,20 @@ positionen:
     zitat: Pro Steuererklärung ist nur eine Aufstellung einzureichen.
   - chunk: zh-zstb-32-1__c0006
     zitat: Medizinische Apparate, Korrekturgläser etc.
+  - chunk: zh-form-300-2026-uj__c0009
+    zitat: 22.1 Krankheits- und Unfallkosten Hilfsblatt 32013213211
+  - chunk: zh-form-370__c0002
+    zitat: 1. Selbstbehalt gemäss Abrechnung Krankenkasse und Versicherung 300
+  - chunk: zh-form-370__c0003
+    zitat: Total der Vergütungen Dritter (B) 318
+  - chunk: zh-form-370__c0004
+    zitat: Total der Auslagen (C und / oder D) 313
+  - chunk: zh-form-370__c0004
+    zitat: Abzug 320 113211 113211
+  - chunk: zh-form-370__c0004
+    zitat: Seite 3, Ziffer 22.1
+  - chunk: zh-form-370__c0004
+    zitat: StA Form. 370 (2020) 12.20
   status: agent-geprueft
   rein:
   - Leistungsabrechnung Krankenkasse → Selbstbehalt/Franchise 300; Versicherungsleistungen 308 (soweit nicht in A gekürzt)
@@ -2238,6 +2383,7 @@ positionen:
   - 'Lebensnotwendige Dauerdiät (z.B. Zöliakie): Pauschale CHF 2''500 statt effektiver Mehrkosten'
   - Kosten mehrerer Personen addieren; nur eine Aufstellung pro Steuererklärung; Belege geordnet beilegen
   - Abziehbar auch medizinische Apparate und Korrekturgläser
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes 300–305, 307, 317; 308, 311, 312, 318; 314; 315; 313, 319, 320 → Form. 300 UJ 2026 Ziff. 22.1'
 - ziffer: '22.2'
   abschnitt: Einkommensberechnung
   bezeichnung: Gemeinnützige Zuwendungen (Code 324)
@@ -2584,6 +2730,32 @@ positionen:
     zitat: aber in Kolonne B zu deklarieren.
   - chunk: zh-wl-2026-uj__c0228
     zitat: Steuererklärung Seite 4, Ziffer 30.1
+  - chunk: zh-form-340-2026-uj__c0003
+    zitat: A Werte mit Verrechnungssteuerabzug, deren Erträge um 35% eidg. Verrechnungssteuer
+  - chunk: zh-form-340-2026-uj__c0003
+    zitat: B Werte ohne Verrechnungssteuerabzug, deren Erträge nicht um 35% eidg. Verrechnungssteuer
+  - chunk: zh-form-340-2026-uj__c0003
+    zitat: E Wertschriften aus Erbschaften
+  - chunk: zh-form-340-2026-uj__c0003
+    zitat: über CHF 1’046’400 S Schenkung
+  - chunk: zh-form-340-2026-uj__c0003
+    zitat: (Originalbescheinigungen sind beizulegen) Q Qualifizierte Beteiligung
+  - chunk: zh-form-340-2026-uj__c0003
+    zitat: 1. Kundenguthaben deren Bruttozins CHF 200.– nicht übersteigt
+  - chunk: zh-form-340-2026-uj__c0003
+    zitat: qualifizierten Beteiligungen 151
+  - chunk: zh-form-340-2026-uj__c0004
+    zitat: Steuerwert per 31.12.2026
+  - chunk: zh-form-340-2026-uj__c0004
+    zitat: bzw. per Ende der Steuerpflicht
+  - chunk: zh-form-340-2026-uj__c0005
+    zitat: Total Steuerwert 400 ▸ Zu übertragen in die Steuererklärung Seite 4, Ziffer 30.1
+  - chunk: zh-form-340-2026-uj__c0005
+    zitat: Total Bruttoertrag A + B 150
+  - chunk: zh-form-300-2026-uj__c0006
+    zitat: 4.2 Davon aus qualifizierten Beteiligungen 13213211 151
+  - chunk: zh-form-300-2026-uj__c0011
+    zitat: 30.1 Wertschriften und Guthaben Wertschriftenverzeichnis 400113213211
   status: agent-geprueft
   rein:
   - eSteuerauszug/Steuerauszug Bank → Bruttoerträge mit VSt (A) / ohne VSt (B), Steuerwerte
@@ -2597,6 +2769,7 @@ positionen:
   werte_keys:
   - steuerfrei.grossspielgewinn
   berechnung: 'A: CH-Zinsen/Dividenden, Kundenguthaben mit Bruttozins > CHF 200; B: übrige; Σ Ertrag A + B → Ziff. 4.1 (Code 150), davon Q → 4.2 (151); Σ Steuerwert (400) → 30.1'
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes Kennbuchstaben G, N, E, S, Q; Total Steuerwert 400 → Ziff. 30.1; Total Bruttoertrag A+B 150 → Ziff. 4.1; qualifizierte Beteiligungen 151 → Ziff. 4.2'
 - ziffer: Form. 340 (Verrechnungsantrag / DA-1)
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: Verrechnungsantrag (Rückerstattung Verrechnungssteuer, Kolonne A) und Formular DA-1 (ausländische Quellensteuern)
@@ -2624,6 +2797,20 @@ positionen:
     zitat: 'Bankverbindung für Rückerstattungen Ein allfälliges Guthaben ist wie folgt zu überweisen:'
   - chunk: bund-form-da1-2026__c0007
     zitat: Legen Sie dem Antrag Bankbescheinigungen, Belege über den Einbehalt der ausländischen Quellensteuer, usw. bei.
+  - chunk: zh-form-340-2026-uj__c0001
+    zitat: allen unter Kolonne A angegebenen Erträgen die eidg. Verrechnungssteuer zu meinen oder zu Lasten der von mir vertretenen Steuer
+  - chunk: zh-form-340-2026-uj__c0001
+    zitat: 'Bankverbindung für Rückerstattungen Ein allfälliges Guthaben ist wie folgt zu überweisen:'
+  - chunk: zh-form-340-2026-uj__c0001
+    zitat: IBAN-Nr. 2010
+  - chunk: zh-form-340-2026-uj__c0001
+    zitat: Konto lautend auf 549
+  - chunk: zh-form-340-2026-uj__c0005
+    zitat: Übertrag ab Formular DA-1 2370 2371
+  - chunk: zh-form-340-2026-uj__c0005
+    zitat: 35% von Total Bruttoertrag A 540
+  - chunk: bund-form-da1-2026__c0007
+    zitat: insgesamt den Betrag von 100 Franken nicht übersteigen, so wird
   status: agent-geprueft
   rein:
   - Wertschriftenverzeichnis Kolonne A → Total Bruttoertrag A (Basis VSt-Anspruch)
@@ -2634,6 +2821,7 @@ positionen:
   - Anrechnung nur, wenn nicht rückforderbare ausländische Steuern total > CHF 100; sonst Ertrag gekürzt im Verzeichnis
   - Erträge ohne Quellensteuer oder voll rückforderbar nicht ins DA-1, sondern ins ordentliche Verzeichnis
   - DA-1 auch für US-Erträge mit zusätzlichem Steuerrückbehalt; Verzeichnis unterschreiben (Bestätigung Kolonne A)
+  bemerkung: 'Formular 2026 (UJ): bestaetigt; Codes IBAN 2010, Konto lautend auf 549; Übertrag DA-1 2370 / 2371; VSt-Anspruch 540'
 - ziffer: '30.2'
   abschnitt: Vermögen
   bezeichnung: Bargeld, Gold und andere Edelmetalle (Code 404)
@@ -2864,8 +3052,30 @@ positionen:
     zitat: Wird der Pauschalabzug beansprucht, können (mit Ausnahme der Baurechtszinsen, siehe
   - chunk: zh-wl-2026-uj__c0209
     zitat: Übertrag der Zahlen aus weiteren Liegenschaftenverzeichnissen 578
+  - chunk: zh-form-300-2026-uj__c0006
+    zitat: 6. Nettoertrag aus Liegenschaften Liegenschaftenverzeichnis 188
+  - chunk: zh-form-300-2026-uj__c0012
+    zitat: 31. Liegenschaften, Verkehrswert gemäss Neufestsetzung ab 1.1. 2026
+  - chunk: zh-form-300-2026-uj__c0012
+    zitat: 31.1 Zum Verkehrswert besteuert Liegenschaftenverzeichnis 421
+  - chunk: zh-form-300-2026-uj__c0012
+    zitat: 31.2 Zum Ertragswert besteuert (Land- oder Forstwirtschaft) Liegenschaftenverzeichnis 422
+  - chunk: zh-form-300-2026-uj__c0012
+    zitat: Die Liegenschaftenneubewertung per 1.1.2026 ist zusammen mit der Steuererklärung 2026 einzureichen
+  - chunk: zh-form-350__c0001
+    zitat: Art Fläche in m2 5531 13213211 5541 113213211
+  - chunk: zh-form-350__c0002
+    zitat: Total 3952 13213211 3951 113213211
+  - chunk: zh-form-350__c0002
+    zitat: erklärung Seite 4, Ziffer 31.2 erklärung Seite 4, Ziffer 31.1
+  - chunk: zh-form-350__c0004
+    zitat: Übertrag der Zahlen aus weiteren Liegenschaftenverzeichnissen 578 13213211 Nettoertrag aus Liegenschaften 3953
+  - chunk: zh-form-350__c0004
+    zitat: Nettoertrag aus Liegenschaften 3953 13213211 ▸ Zu übertragen in die Steuer- erklärung Seite 2, Ziffer 6
   status: agent-geprueft
-  bemerkung: 'korrigiert durch Prüfung: Zitate durch wörtliche Textstellen (Code 3953; Deklarationspflicht aller Liegenschaften) ersetzt. Detailregeln in c0172/c0173 bei Bedarf direkt prüfen.'
+  bemerkung: 'korrigiert durch Prüfung: Zitate durch wörtliche Textstellen (Code 3953; Deklarationspflicht aller Liegenschaften) ersetzt. Detailregeln in c0172/c0173 bei Bedarf direkt prüfen. Formular 2026
+    (UJ): bestaetigt; Codes Steuerwert 5531ff (Ertragswert) / 5541ff (Verkehrswert), Totale 3952 → Ziff. 31.2 (Code 422) / 3951 → Ziff. 31.1 (Code 421); Übertrag 578; Nettoertrag 3953 → Ziff. 6 (Hauptformular
+    Code 188)'
   rein:
   - Liegenschaftenneubewertung 2026 der Gemeinde → Steuerwert und Eigenmietwert EFH/STWE
   - Mieterspiegel/Verwaltungsabrechnung (sonst Beiblatt) → Miet- und Pachtzinseinnahmen

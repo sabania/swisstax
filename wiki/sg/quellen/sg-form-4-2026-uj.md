@@ -14,6 +14,22 @@ generiert: tools/build_index.py
 - **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31
 - ⚠ **Hinweis:** Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular prüfen.
 
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 11 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-4-2026-uj`).
+
+- `data/zuordnung/sg/2026.yaml#67:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#68:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#69:abzug.berufskosten.fahrkosten@Form. 4 Ziff. 1.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#70:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#71:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#72:abzug.berufskosten.verpflegung@Form. 4 Ziff. 2.3` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#73:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#74:abzug.berufskosten.uebrige@Form. 4 Ziff. 3.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#75:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#76:abzug.berufskosten.wochenaufenthalt@Form. 4 Ziff. 4.2` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#77:abzug.berufskosten.nebenerwerb@Form. 4 Ziff. 5.1` (agent-geprueft)
+
 ## Inhalt (7 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |

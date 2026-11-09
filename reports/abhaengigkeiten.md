@@ -123,6 +123,7 @@
 | `sg-form-4-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 8 (8) | 17 | 3 |
 | `sg-stb-39-8` | sg | 2025, 2026 | dauernd | 2021-07-01 –  | 17 (11) | 16 | 1 |
 | `sg-stb-39-9` | sg | 2025, 2026 | dauernd | 2016-01-01 –  | 15 (11) | 14 | 2 |
+| `sg-form-4-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 7 (6) | 11 | 0 |
 | `sg-form-2-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 6 (5) | 10 | 1 |
 | `sg-form-5-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 4 (4) | 9 | 2 |
 | `sg-form-6-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 4 (4) | 9 | 2 |
@@ -137,17 +138,16 @@
 | `sg-info-fristverlaengerung` | sg | 2025, 2026 | verfahren | ? –  | 3 (1) | 2 | 2 |
 | `sg-info-steuern-bezahlen` | sg | 2025, 2026 | verfahren | ? –  | 13 (4) | 2 | 3 |
 | `sg-stb-aenderungen-2026` | sg | 2025, 2026 | info | 2026-01-01 –  | 3 (3) | 2 | 3 |
+| `sg-form-2-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 6 (3) | 1 | 0 |
+| `sg-form-5-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 2 (2) | 1 | 0 |
+| `sg-form-6-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 4 (3) | 1 | 0 |
+| `sg-form-7-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 5 (4) | 1 | 0 |
+| `sg-form-7z-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 1 (1) | 1 | 0 |
 | `sg-gsv` | sg | 2025, 2026 | verfahren | 2017-01-01 – 2026-12-31 | 26 (1) | 1 | 0 |
 | `sg-steuerfuesse-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 7 (1) | 1 | 3 |
 | `sg-steuerfuesse-2026` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 7 (2) | 1 | 3 |
 | `sg-vkp` | sg | 2026 | steuerperiode | 2026-01-01 –  | 1 (1) | 1 | 2 |
-| `sg-form-2-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 6 (0) | 0 | 0 |
 | `sg-form-27-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 9 (4) | 0 | 1 |
-| `sg-form-4-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 7 (0) | 0 | 0 |
-| `sg-form-5-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 2 (0) | 0 | 0 |
-| `sg-form-6-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 4 (0) | 0 | 0 |
-| `sg-form-7-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 5 (0) | 0 | 0 |
-| `sg-form-7z-2026-uj` | sg | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 1 (0) | 0 | 0 |
 | `sg-gsg` | sg | 2025, 2026, 2027 | verfahren | 2001-01-01 –  | 20 (0) | 0 | 0 |
 | `sg-v-dbg` | sg | 2025, 2026 | verfahren | 2016-01-01 –  | 17 (7) | 0 | 1 |
 | `sg-wl-kurz-2025` | sg | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 14 (0) | 0 | 0 |
@@ -199,7 +199,7 @@
 | `zh-wl-2025` | zh | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 233 (157) | 164 | 27 |
 | `zh-wl-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 241 (177) | 137 | 30 |
 | `zh-form-300-2025` | zh | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 14 (13) | 81 | 12 |
-| `zh-form-300-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 14 (13) | 68 | 13 |
+| `zh-form-300-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 14 (13) | 72 | 13 |
 | `zh-stg-2025` | zh | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 380 (71) | 65 | 29 |
 | `zh-stg-2026` | zh | 2026 | steuerperiode | 2026-01-01 –  | 379 (33) | 41 | 27 |
 | `zh-pauschalierung-berufsauslagen-2025` | zh | 2025 | steuerperiode | 2024-01-01 – 2025-12-31 | 7 (6) | 26 | 3 |
@@ -207,11 +207,12 @@
 | `zh-form-360-2025` | zh | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 10 (10) | 16 | 3 |
 | `zh-form-370` | zh | 2025, 2026 | dauernd | ? –  | 6 (6) | 13 | 1 |
 | `zh-zstb-32-1` | zh | 2025, 2026 | dauernd | 2013-01-01 – 2026-12-31 | 18 (11) | 12 | 1 |
+| `zh-form-360-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 9 (8) | 11 | 0 |
 | `zh-vkp-2026-zstb` | zh | 2026 | steuerperiode | 2026-01-01 –  | 11 (8) | 11 | 5 |
 | `zh-form-340-2025` | zh | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 11 (4) | 9 | 1 |
+| `zh-form-350` | zh | 2025, 2026 | dauernd | ? –  | 8 (6) | 8 | 1 |
 | `zh-form-365-2025` | zh | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 3 (3) | 8 | 1 |
 | `zh-vkp-2024-zstb` | zh | 2025 | steuerperiode | 2024-01-01 – 2025-12-31 | 12 (6) | 8 | 1 |
-| `zh-form-350` | zh | 2025, 2026 | dauernd | ? –  | 8 (6) | 7 | 1 |
 | `zh-zstb-132-1` | zh | 2025, 2026, 2027 | verfahren | 2026-01-01 –  | 37 (22) | 6 | 2 |
 | `zh-info-spenden` | zh | 2025, 2026 | info | ? –  | 8 (6) | 5 | 1 |
 | `zh-zstb-30-2` | zh | 2025, 2026 | dauernd | 2002-01-01 –  | 2 (1) | 5 | 2 |
@@ -223,18 +224,17 @@
 | `zh-info-steuerfuesse` | zh | 2025, 2026 | info | ? –  | 4 (1) | 3 | 3 |
 | `zh-v-einreichung` | zh | 2025, 2026 | verfahren | 2025-07-01 –  | 14 (9) | 3 | 2 |
 | `zh-zstb-34-1` | zh | 2026 | dauernd | 2026-01-01 –  | 34 (10) | 3 | 1 |
+| `zh-form-340-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 11 (4) | 2 | 0 |
+| `zh-form-365-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 3 (2) | 2 | 0 |
 | `zh-zstb-133-1` | zh | 2026 | verfahren | 2027-01-01 – 2027-12-31 | 33 (12) | 2 | 3 |
 | `zh-zstb-172-1` | zh | 2025, 2026 | verfahren | 2020-09-11 –  | 62 (15) | 2 | 2 |
 | `zh-zstb-34-1-bis-2025` | zh | 2025 | dauernd | 2015-01-01 – 2025-12-31 | 35 (3) | 2 | 1 |
+| `zh-form-367-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 1 (1) | 1 | 0 |
 | `zh-stv` | zh | 2025, 2026 | verfahren | 2020-02-01 –  | 80 (8) | 1 | 2 |
 | `zh-wl-da1-2025` | zh | 2025 | steuerperiode | 2025-01-01 – 2025-12-31 | 16 (6) | 1 | 1 |
 | `zh-zstb-133-1-aufforderung-2026` | zh | 2025, 2026 | verfahren | 2026-01-01 – 2026-12-31 | 18 (5) | 1 | 2 |
 | `zh-zstb-173-1` | zh | 2025, 2026 | verfahren | 2008-12-09 –  | 53 (5) | 1 | 1 |
 | `zh-zstb-21-3-bis-2025` | zh |  | steuerperiode | 1999-01-01 – 2023-05-23 | 1 (1) | 1 | 1 |
-| `zh-form-340-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 11 (0) | 0 | 0 |
-| `zh-form-360-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 9 (0) | 0 | 0 |
-| `zh-form-365-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 3 (0) | 0 | 0 |
-| `zh-form-367-2026-uj` | zh | 2026 | steuerperiode | 2026-01-01 – 2026-12-31 | 1 (0) | 0 | 0 |
 | `zh-info-neubewertung-2026` | zh | 2026 | info | 2026-01-01 –  | 25 (9) | 0 | 3 |
 | `zh-info-steuerrechnung` | zh | 2025, 2026 | info | ? –  | 26 (9) | 0 | 1 |
 | `zh-mm-sozialabzuege-2026` | zh | 2026 | info | 2026-04-15 –  | 4 (1) | 0 | 2 |

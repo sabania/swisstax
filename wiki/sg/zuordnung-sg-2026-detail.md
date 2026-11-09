@@ -1545,7 +1545,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 8'000 (Fahrkosten Wohn-/Arbeitsstätte: Maximalabzug Fr. 8'000 (Maximalabzug, keine Pauschale; bei unterjähriger Steuerpflicht/Teilzeit nicht gekürzt; gilt für Haupt- und Nebenerwerb insgesamt).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Jahr (öffentliche Verkehrsmittel; Pauschalen bzw. km-Ansätze bei Privatfahrzeug unter den Folgeschlüsseln).)**
   - Fahrkosten – massgebende Arbeitstage pro Jahr: Kanton **220 Tage (Für die Berechnung des Fahrkostenabzugs wird von 220 Arbeitstagen pro Kalenderjahr (Vollzeitstelle) ausgegangen, sofern nicht eine höhere Anzahl nachgewiesen wird. Homeoffice-Tage und Tage ohne Arbeitsleistung zählen nicht.)** · Bund **n/a – Bund: keine Arbeitstage-Basis für Fahrkosten; Abzug nach tatsächlichen Kosten bis max. CHF 3'300 (Art. 26 Abs. 1 lit. a DBG).**
 - **Bund:** Maximum Fr. 3'300 (Art. 26 Abs. 1 Bst. a DBG).
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Formular 2026 (UJ): bestaetigt; Codes 400 / 450
 - **Quellen:**
   - [StB 39 Nr. 3 S. 3–4](../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0011.md) `sg-stb-39-3__c0011` – «Es handelt sich um einen Maximalabzug und nicht um eine Pauschale»
   - [StG SG Art. 39](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-39.md) `sg-stg-2026__art-39` – «die notwendigen Kosten für Fahrten zwischen Wohn- und Arbeitsstätte bis zum Betrag von Fr. 8000.–»
@@ -1554,6 +1554,10 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [StB 39 Nr. 3 S. 4](../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0013.md) `sg-stb-39-3__c0013` – «ist diese Entschädigung in Ziff. 2.3 des Lohnausweises zu deklarieren»
   - [StB 39 Nr. 3 S. 4–5](../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0014.md) `sg-stb-39-3__c0014` – «Das GA stellt für den Mitarbeitenden keine geschäftliche Notwendigkeit dar»
   - [StB 39 Nr. 3 S. 4–5](../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0014.md) `sg-stb-39-3__c0014` – «Fahrkosten für Streckenabo»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0002.md) `sg-form-4-2026-uj__c0002` – «1.1 Öffentliche Verkehrsmittel umzurechnen. Datum von bis Weg von nach Fr. 400»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0005.md) `sg-form-4-2026-uj__c0005` – «1.1 Öffentliche Verkehrsmittel umzurechnen. Datum von bis Weg von nach Fr. 450»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0003.md) `sg-form-4-2026-uj__c0003` – «Tagen ohne Arbeitsleistung entstehen keine Kosten für»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0003.md) `sg-form-4-2026-uj__c0003` – «Für solche Tage dürfen deshalb grundsätzlich keine Fahrkosten»
 
 <a id="form-4-ziff-1-2-abzug-berufskosten-fahrkosten"></a>
 ### Ziff. Form. 4 Ziff. 1.2 – Fahrkosten Fahrrad, Motorfahrrad, Kleinmotorrad (Code 402 Person 1 / 452 Person 2)
@@ -1569,12 +1573,14 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Limiten:**
   - Velo/Kleinmotorrad/E-Bike – Pauschale (CHF): Kanton **CHF 700 (Pauschale Fr. 700 im Jahr bei Benützung eines Fahrrades, eines Motorfahrrades oder eines Kleinmotorrades.)** · Bund **CHF 700 (Fahrrad, Motorfahrrad, Motorrad mit gelbem Kontrollschild: Pauschale CHF 700 pro Jahr; tatsächliche Kosten können nicht zusätzlich geltend gemacht werden.)**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 8'000 (Fahrkosten Wohn-/Arbeitsstätte: Maximalabzug Fr. 8'000 (Maximalabzug, keine Pauschale; bei unterjähriger Steuerpflicht/Teilzeit nicht gekürzt; gilt für Haupt- und Nebenerwerb insgesamt).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Jahr (öffentliche Verkehrsmittel; Pauschalen bzw. km-Ansätze bei Privatfahrzeug unter den Folgeschlüsseln).)**
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Formular 2026 (UJ): bestaetigt; Codes 402 / 452
 - **Quellen:**
   - [StB 39 Nr. 3 S. 3](../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0009.md) `sg-stb-39-3__c0009` – «Fr. 700.-- im Jahr bei Benützung eines Fahrrades»
   - [StB 39 Nr. 3 S. 1](../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0003.md) `sg-stb-39-3__c0003` – «mehr als 10 Minuten benötigt»
   - [WL 2a 2026 S. 6](../../chunks/bund/2026/bund-wl-2a-2026/bund-wl-2a-2026__c0043.md) `bund-wl-2a-2026__c0043` – «Tatsächliche Kosten können nicht zusätzlich zum Pauschalabzug»
   - [WL 2a 2026 S. 6](../../chunks/bund/2026/bund-wl-2a-2026/bund-wl-2a-2026__c0043.md) `bund-wl-2a-2026__c0043` – «Einen Pauschalabzug von 700 Fr. im Jahr bei Benützung»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0002.md) `sg-form-4-2026-uj__c0002` – «1.2 Fahrrad, Kleinmotorrad bis 50 cm3 (Kontrollschild mit gelbem Grund) 402»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0005.md) `sg-form-4-2026-uj__c0005` – «1.2 Fahrrad, Kleinmotorrad bis 50 cm3 (Kontrollschild mit gelbem Grund) 452»
 
 <a id="form-4-ziff-1-3-abzug-berufskosten-fahrkosten"></a>
 ### Ziff. Form. 4 Ziff. 1.3 – Fahrkosten Motorfahrzeug (Auto/Motorrad): Fr. 0.75 pro km ab 2026 (Zwischentotal max. Fr. 8'000)
@@ -1593,7 +1599,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 8'000 (Fahrkosten Wohn-/Arbeitsstätte: Maximalabzug Fr. 8'000 (Maximalabzug, keine Pauschale; bei unterjähriger Steuerpflicht/Teilzeit nicht gekürzt; gilt für Haupt- und Nebenerwerb insgesamt).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Jahr (öffentliche Verkehrsmittel; Pauschalen bzw. km-Ansätze bei Privatfahrzeug unter den Folgeschlüsseln).)**
   - Fahrkosten Motorrad – Ansatz pro km (CHF): Kanton **CHF 0.75 (Motorräder: 75 Rappen je Fahrkilometer (gleicher Ansatz wie Autos), sofern kein öffentliches Verkehrsmittel zur Verfügung steht oder zumutbar ist.)** · Bund **CHF 0.40 (Motorrad mit weissem Kontrollschild: CHF 0.40 pro Fahrkilometer (nur wenn kein öffentliches Verkehrsmittel zumutbar); Gesamtmaximum CHF 3'300.)**
 - **Bund:** Maximum Fr. 3'300; Autos Fr. –.75 pro km (BKV-Anhang 2026).
-- **Bemerkung:** Seed bestätigt (0.75/km 2026). Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).
+- **Bemerkung:** Seed bestätigt (0.75/km 2026). Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Formular 2026 (UJ): bestaetigt; Codes 404 / 454 (Total km x Fr. 0.75); Zwischentotal Ziff. 1.1–1.3: 406 / 456
 - **Quellen:**
   - [MB 8/2026 SG S. 4](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0009.md) `sg-mb-8-2026__c0009` – «erhöht sich auf 75 Rappen pro Kilometer (bisher 70 Rappen)»
   - [StB 39 Nr. 3 S. 5–6](../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0019.md) `sg-stb-39-3__c0019` – «Der einheitliche Kilometeransatz von Fr. --.75 gilt ab der Steuerperiode 2026»
@@ -1610,6 +1616,13 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [StB 39 Nr. 3 S. 2](../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0006.md) `sg-stb-39-3__c0006` – «eine Arbeitgeberbescheinigung sowie die entsprechenden»
   - [WL Lohnausweis 2026 S. 8](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0010.md) `bund-wl-lohnausweis-2026__c0010` – «das zur Verfügung stellen eines Geschäftsfahrzeugs durch den Arbeitgeber»
   - [StB 39 Nr. 3 S. 1–2](../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0005.md) `sg-stb-39-3__c0005` – «weil sie es dort für berufliche Fahrten einsetzen muss»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0002.md) `sg-form-4-2026-uj__c0002` – «Die Kosten für Motorfahrzeuge 1.3 Motorfahrzeug können nur in begründeten»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0002.md) `sg-form-4-2026-uj__c0002` – «Einsparung über 60 Minuten/Tag durch Motorfahrzeugbenützung»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0002.md) `sg-form-4-2026-uj__c0002` – «Ständige Benützung des Motorfahrzeugs auf Verlangen des Arbeitgebers»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0003.md) `sg-form-4-2026-uj__c0003` – «km x Fr. 0.75 (Kostensatz gemäss Wegleitung) 404»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0003.md) `sg-form-4-2026-uj__c0003` – «Zwischentotal Ziffern 1.1 – 1.3, max. Fr. 8'000 (siehe Wegleitung) 406»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0006.md) `sg-form-4-2026-uj__c0006` – «km x Fr. 0.75 (Kostensatz gemäss Wegleitung) 454»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0006.md) `sg-form-4-2026-uj__c0006` – «Zwischentotal Ziffern 1.1 – 1.3, max. Fr. 8'000 (siehe Wegleitung) 456»
 
 <a id="form-4-ziff-2-1-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Form. 4 Ziff. 2.1 – Mehrkosten auswärtige Verpflegung: Fr. 15 pro Hauptmahlzeit/Arbeitstag, max. Fr. 3'200 pro Jahr
@@ -1625,7 +1638,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Limiten:**
   - Verpflegungsmehrkosten pro Arbeitstag (CHF): Kanton **CHF 15 (Mehrkosten auswärtige Verpflegung, voller Abzug: Fr. 15 pro Hauptmahlzeit bzw. Tag, max. Fr. 3'200 im Jahr (bei täglicher Heimkehr nicht gleichzeitig mit Wochenaufenthalt). Nachweis höherer Kosten nicht zulässig.)** · Bund **CHF 15 (Auswärtige Verpflegung: CHF 15 pro Hauptmahlzeit (in der Regel nur Mittagessen), nur Pauschale zulässig, wenn Hauptmahlzeit wegen grosser Entfernung/kurzer Pause nicht zu Hause eingenommen werden kann oder bei durchgehender Schicht-/Nachtarbeit.)**
   - Verpflegungsmehrkosten pro Jahr (CHF): Kanton **CHF 3'200 (Voller Abzug auswärtige Verpflegung: max. Fr. 3'200 im Jahr (bei Kürzung für vergütete Mahlzeiten anteilig nach Arbeitstagen).)** · Bund **CHF 3'200 (Auswärtige Verpflegung, voller Abzug: max. CHF 3'200 pro Jahr (bei ständiger auswärtiger Verpflegung).)**
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). StB 39 Nr. 8 Stand 2021 (Ansätze unverändert); Ansätze auch im BKV-Anhang 2026.
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). StB 39 Nr. 8 Stand 2021 (Ansätze unverändert); Ansätze auch im BKV-Anhang 2026. Formular 2026 (UJ): bestaetigt; Codes 408 / 458
 - **Quellen:**
   - [StB 39 Nr. 8 S. 3](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0012.md) `sg-stb-39-8__c0012` – «voller Abzug pro Hauptmahlzeit bzw. 15.--»
   - [StV SG Art. 19](../../chunks/sg/2025/sg-stv/sg-stv__art-19.md) `sg-stv__art-19` – «wenn der Steuerpflichtige wegen grosser Entfernung zwischen Wohn- und Arbeitsstätte oder wegen kurzer Essenspause eine Hauptmahlzeit nicht zu Hause einnehmen kann»
@@ -1636,6 +1649,9 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [StB 39 Nr. 8 S. 3](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0013.md) `sg-stb-39-8__c0013` – «Der Pauschalabzug für auswärtige Verpflegung bei täglicher Heimkehr kann nicht»
   - [StB 39 Nr. 8 S. 2](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0007.md) `sg-stb-39-8__c0007` – «Für auswärts eingenommene Zwischenverpflegungen sieht das Steuergesetz keinen»
   - [StB 39 Nr. 8 S. 3–4](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0014.md) `sg-stb-39-8__c0014` – «Auf dem Lohnausweis muss in diesem Fall das Feld G angekreuzt sein»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0003.md) `sg-form-4-2026-uj__c0003` – «2.1 Bei auswärtiger Verpflegung, sofern die Dauer der Arbeitspause die»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0003.md) `sg-form-4-2026-uj__c0003` – «Heimkehr nicht ermöglicht: Pro Arbeitstag Fr. 15 / im Jahr Fr. 3'200 408»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0006.md) `sg-form-4-2026-uj__c0006` – «Heimkehr nicht ermöglicht: Pro Arbeitstag Fr. 15 / im Jahr Fr. 3'200 458»
 
 <a id="form-4-ziff-2-2-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Form. 4 Ziff. 2.2 – Verpflegung verbilligt durch Arbeitgeber (Kantine, Lunch-Checks): halber Abzug Fr. 7.50 / max. Fr. 1'600
@@ -1651,7 +1667,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Limiten:**
   - Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): Kanton **CHF 7.50 (Halber Abzug Fr. 7.50 pro Hauptmahlzeit bzw. Tag, wenn Verpflegung im Personalrestaurant möglich ist oder durch angemessenen Arbeitgeberbeitrag verbilligt wird (Lohnausweis Feld G).)** · Bund **CHF 7.50 (Nur halber Abzug (CHF 7.50 pro Tag), wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers benützt werden kann. Kein Abzug, wenn der Arbeitgeber die Naturalbezüge unter den behördlichen Bewertungsansätzen bewertet oder die Verpflegung zu Preisen unter diesen Ansätzen möglich ist (Art. 6 Abs. 3 BKV).)**
   - Verpflegung bei Verbilligung pro Jahr (CHF): Kanton **CHF 1'600 (Halber Abzug bei verbilligter Verpflegung: max. Fr. 1'600 im Jahr.)** · Bund **CHF 1'600 (Halber Abzug bei Verbilligung: max. CHF 1'600 pro Jahr.)**
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Formular 2026 (UJ): bestaetigt; Codes 410 / 460
 - **Quellen:**
   - [WL Lohnausweis 2026 S. 8–9](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md) `bund-wl-lohnausweis-2026__c0012` – «Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten Buchstabe G»
   - [StV SG Art. 19](../../chunks/sg/2025/sg-stv/sg-stv__art-19.md) `sg-stv__art-19` – «Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant des Arbeitgebers eingenommen werden kann»
@@ -1662,6 +1678,9 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [StB 39 Nr. 8 S. 4](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0016.md) `sg-stb-39-8__c0016` – «wird der (volle oder halbe) Pauschalabzug im Verhältnis der Arbeitstage mit vergüteter Verpflegung»
   - [StB 39 Nr. 8 S. 3–4](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0015.md) `sg-stb-39-8__c0015` – «in enger Verbindung mit dem Arbeitsplatz steht»
   - [StB 39 Nr. 8 S. 2](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0007.md) `sg-stb-39-8__c0007` – «oder wenn sich der Steuerpflichtige zu Preisen verpflegen kann, die unter diesen»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0003.md) `sg-form-4-2026-uj__c0003` – «2.2 Wenn die Verpflegung durch den Arbeitgeber verbilligt wird und dem»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0003.md) `sg-form-4-2026-uj__c0003` – «Arbeitnehmer trotzdem Mehrkosten entstehen: Pro Arbeitstag Fr. 7.50 / im Jahr Fr. 1'600 410»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0006.md) `sg-form-4-2026-uj__c0006` – «Arbeitnehmer trotzdem Mehrkosten entstehen: Pro Arbeitstag Fr. 7.50 / im Jahr Fr. 1'600 460»
 
 <a id="form-4-ziff-2-3-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Form. 4 Ziff. 2.3 – Schicht-/Nachtarbeit (mind. 8 Stunden durchgehend): Fr. 15 pro Schicht, max. Fr. 3'200
@@ -1679,7 +1698,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - Verpflegungsmehrkosten pro Jahr (CHF): Kanton **CHF 3'200 (Voller Abzug auswärtige Verpflegung: max. Fr. 3'200 im Jahr (bei Kürzung für vergütete Mahlzeiten anteilig nach Arbeitstagen).)** · Bund **CHF 3'200 (Auswärtige Verpflegung, voller Abzug: max. CHF 3'200 pro Jahr (bei ständiger auswärtiger Verpflegung).)**
   - Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): Kanton **CHF 7.50 (Halber Abzug Fr. 7.50 pro Hauptmahlzeit bzw. Tag, wenn Verpflegung im Personalrestaurant möglich ist oder durch angemessenen Arbeitgeberbeitrag verbilligt wird (Lohnausweis Feld G).)** · Bund **CHF 7.50 (Nur halber Abzug (CHF 7.50 pro Tag), wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers benützt werden kann. Kein Abzug, wenn der Arbeitgeber die Naturalbezüge unter den behördlichen Bewertungsansätzen bewertet oder die Verpflegung zu Preisen unter diesen Ansätzen möglich ist (Art. 6 Abs. 3 BKV).)**
   - Verpflegung bei Verbilligung pro Jahr (CHF): Kanton **CHF 1'600 (Halber Abzug bei verbilligter Verpflegung: max. Fr. 1'600 im Jahr.)** · Bund **CHF 1'600 (Halber Abzug bei Verbilligung: max. CHF 1'600 pro Jahr.)**
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Formular 2026 (UJ): bestaetigt; Codes 412 / 462
 - **Quellen:**
   - [StB 39 Nr. 8 S. 2](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0006.md) `sg-stb-39-8__c0006` – «Als Schichtarbeit gilt eine mindestens achtstündige, durchgehende Arbeitszeit»
   - [StB 39 Nr. 8 S. 2](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0006.md) `sg-stb-39-8__c0006` – «kann nicht zusätzlich zum Abzug für auswärtige Verpflegung»
@@ -1690,6 +1709,8 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [StB 39 Nr. 8 S. 3](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0011.md) `sg-stb-39-8__c0011` – «höhere Kosten anfallen, kann nicht von den Pauschalen abgewichen werden»
   - [BKV Art. 6](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-6-t2.md) `bund-bkv-2026__art-6-t2` – «Der Arbeitgeber muss die Anzahl Tage mit Schicht- oder Nachtarbeit sowie den Arbeitsort auf Verlangen bescheinigen»
   - [WL Lohnausweis 2026 S. 18–19](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0051.md) `bund-wl-lohnausweis-2026__c0051` – «Zudem können freiwillig Angaben gemacht werden»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0003.md) `sg-form-4-2026-uj__c0003` – «2.3 Bei durchgehender, mindestens achtstündiger Schicht- / Nachtarbeit: Pro ausgewiesenen Schichttag Fr. 15 / im Jahr Fr. 3'200 412»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0006.md) `sg-form-4-2026-uj__c0006` – «2.3 Bei durchgehender, mindestens achtstündiger Schicht- / Nachtarbeit: Pro ausgewiesenen Schichttag Fr. 15 / im Jahr Fr. 3'200 462»
 
 <a id="form-4-ziff-3-1-abzug-berufskosten-uebrige"></a>
 ### Ziff. Form. 4 Ziff. 3.1 – Pauschalabzug übrige Berufskosten: Fr. 700 + 10% des Nettolohnes, max. Fr. 2'400
@@ -1708,7 +1729,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 2'400 (Pauschale für übrige Berufskosten: höchstens Fr. 2'400.)** · Bund **CHF 4'000 (Höchstbetrag der Pauschale übrige Berufskosten.)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **n/a – Formel 700 + 10 % kennt kein Minimum (Art. 21 Abs. 1 StV SG).** · Bund **CHF 2'000 (Mindestbetrag der Pauschale übrige Berufskosten.)**
 - **Bund:** 3% des Nettolohnes, mind. Fr. 2'000, max. Fr. 4'000 (BKV-Anhang 2026).
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Formular 2026 (UJ): bestaetigt; Codes 416 / 466
 - **Quellen:**
   - [StV SG Art. 21](../../chunks/sg/2025/sg-stv/sg-stv__art-21.md) `sg-stv__art-21` – «Für übrige notwendige Berufskosten werden Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.– abgezogen»
   - [MB 8/2026 SG S. 3](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0006.md) `sg-mb-8-2026__c0006` – «Berufskosten ( Formular 4, Ziffer 3.1 und 5.1 )»
@@ -1720,6 +1741,9 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [StB 39 Nr. 1 S. 1](../../chunks/sg/dauernd/sg-stb-39-1/sg-stb-39-1__c0001.md) `sg-stb-39-1__c0001` – «Sie gelten grundsätzlich als mit der Pauschale abgegolten.»
   - [MB 8/2026 SG S. 3](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0006.md) `sg-mb-8-2026__c0006` – «Fr. 10’800 ÷ 360 × 180 Tage»
   - [MB 8/2026 SG S. 3](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0006.md) `sg-mb-8-2026__c0006` – «der Dauer der Steuerpflicht zu kürzen. Zur Satzbestimmung werden jedoch die»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «3.1 Pauschalabzug: Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2'400 416»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0007.md) `sg-form-4-2026-uj__c0007` – «3.1 Pauschalabzug: Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2'400 466»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0002.md) `sg-form-4-2026-uj__c0002` – «Ziffer 3 und 5 sind nach Dauer der Steuerpflicht»
 
 <a id="form-4-ziff-3-2-abzug-berufskosten-uebrige"></a>
 ### Ziff. Form. 4 Ziff. 3.2 – Tatsächliche übrige Berufskosten anstelle Pauschale (Code 418 Person 1 / 468 Person 2)
@@ -1732,7 +1756,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Beachten:** Zimmer nur bei ca. 40 % Arbeitszeit zu Hause (kein AG-Büro), Raum ausgeschieden; Abend-/Wochenendarbeit reicht nicht
 - **Beachten:** Übersteigen die Kosten die Pauschale: sämtliche tatsächlichen Aufwendungen nachweisen (keine Kumulation)
 - **Beachten:** Bund: vom Arbeitgeber oder Dritten übernommene Aufwendungen nicht abziehbar (Art. 1 Abs. 2 BKV)
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Code 418/468 laut Formular 4/2025 (nicht für 2026 bestätigt).
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Code 418/468 laut Formular 4/2025 (nicht für 2026 bestätigt). Formular 2026 (UJ): bestaetigt; Codes 418 / 468
 - **Quellen:**
   - [StV SG Art. 21](../../chunks/sg/2025/sg-stv/sg-stv__art-21.md) `sg-stv__art-21` – «Der Nachweis höherer notwendiger Kosten bleibt vorbehalten»
   - [StG SG Art. 39](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-39.md) `sg-stg-2026__art-39` – «dem Steuerpflichtigen steht im Falle von Abs. 1 Bst. c dieser Bestimmung der Nachweis höherer Kosten offen»
@@ -1749,6 +1773,10 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [BKV Art. 7](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-7.md) `bund-bkv-2026__art-7` – «Fachliteratur, privates Arbeitszimmer, Berufskleider»
   - [BKV Art. 1](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-1.md) `bund-bkv-2026__art-1` – «Nicht abziehbar sind die vom Arbeitgeber oder einem Dritten übernommenen Aufwendungen»
   - [WL Lohnausweis 2026 S. 15–16](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0039.md) `bund-wl-lohnausweis-2026__c0039` – «In den Feldern der Ziffern 13.1 und 13.2 sind die Vergütungen anzugeben, die Spesenersatz»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «3.2 Anstelle des Pauschalabzuges: tatsächliche Berufskosten Aufstellung»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «418 Fahrkosten für die Heimkehr 4. Mehrkosten bei auswärtigem Wochenaufenthalt»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0007.md) `sg-form-4-2026-uj__c0007` – «3.2 Anstelle des Pauschalabzuges: tatsächliche Berufskosten Aufstellung»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0007.md) `sg-form-4-2026-uj__c0007` – «468 Fahrkosten für die Heimkehr 4. Mehrkosten bei auswärtigem Wochenaufenthalt»
 
 <a id="form-4-ziff-4-1-abzug-berufskosten-wochenaufenthalt"></a>
 ### Ziff. Form. 4 Ziff. 4.1 – Wochenaufenthalt: Unterkunft, ortsübliche Kosten Zimmer
@@ -1764,7 +1792,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Limiten:**
   - Wochenaufenthalt – Unterkunft (Regel): Kanton **Abziehbar sind die ortsüblichen Mietkosten für ein Zimmer (1-Zimmerwohnung/Studio). Allgemein anerkannt: Monatsmieten bis Fr. 800 in den Städten Zürich, Bern, Basel, Lausanne, Genf und grösseren Kurorten, sonst bis Fr. 500. Komfortmehrkosten sind nicht abziehbar.** · Bund **Wochenaufenthalt: abziehbar sind die ortsüblichen Auslagen für ein Zimmer (nicht eine Wohnung) am Arbeitsort sowie die Fahrkosten der regelmässigen Heimkehr (im Rahmen des Fahrkosten-Maximums).**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 8'000 (Fahrkosten Wohn-/Arbeitsstätte: Maximalabzug Fr. 8'000 (Maximalabzug, keine Pauschale; bei unterjähriger Steuerpflicht/Teilzeit nicht gekürzt; gilt für Haupt- und Nebenerwerb insgesamt).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Jahr (öffentliche Verkehrsmittel; Pauschalen bzw. km-Ansätze bei Privatfahrzeug unter den Folgeschlüsseln).)**
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Formular 2026 (UJ): bestaetigt; Codes 426 / 476
 - **Quellen:**
   - [StV SG Art. 20](../../chunks/sg/2025/sg-stv/sg-stv__art-20.md) `sg-stv__art-20` – «Als notwendige Mehrkosten der Unterkunft gelten die ortsüblichen Mietkosten für ein Zimmer»
   - [StB 39 Nr. 5 S. 2](../../chunks/sg/dauernd/sg-stb-39-5/sg-stb-39-5__c0004.md) `sg-stb-39-5__c0004` – «Monatsmieten bis Fr. 800.--, an anderen Orten bis Fr. 500.-- allgemein anerkannt»
@@ -1776,6 +1804,9 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [BKV Art. 9](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-9.md) `bund-bkv-2026__art-9` – «jedoch regelmässig für die Freitage an den steuerlichen Wohnsitz zurückkehren»
   - [BKV Art. 9](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-9.md) `bund-bkv-2026__art-9` – «Als notwendige Mehrkosten der Unterkunft sind die ortsüblichen Auslagen für ein Zimmer abziehbar»
   - [BKV Art. 9](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-9.md) `bund-bkv-2026__art-9` – «Sie sind bis zum Maximalbetrag nach Artikel 5 Absatz 1 abziehbar»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «4.1 Unterkunft: Ortsübliche Kosten für ein Zimmer Monate à Fr. 426»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0007.md) `sg-form-4-2026-uj__c0007` – «4.1 Unterkunft: Ortsübliche Kosten für ein Zimmer Monate à Fr. 476»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «an den steuerlichen Wohnsitz sind unter Ziffer 1 aufzuführen.»
 
 <a id="form-4-ziff-4-2-abzug-berufskosten-wochenaufenthalt"></a>
 ### Ziff. Form. 4 Ziff. 4.2 – Wochenaufenthalt: Verpflegung Fr. 30 pro Arbeitstag, max. Fr. 6'400 pro Jahr (gekürzt Fr. 22.50 / Fr. 4'800)
@@ -1790,7 +1821,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Beachten:** Gekürzt, wenn eine Hauptmahlzeit vom AG verbilligt oder in Kantine/Personalrestaurant möglich
 - **Limiten:**
   - Wochenaufenthalt – Mehrkosten Verpflegung pro Jahr (CHF): Kanton **CHF 6'400 (Wochenaufenthalt Verpflegung: voller Abzug Fr. 30 pro Tag, max. Fr. 6'400 im Jahr; gekürzter Abzug Fr. 22.50 pro Tag, max. Fr. 4'800 im Jahr (bei verbilligter Hauptmahlzeit).)** · Bund **CHF 6'400 (Wochenaufenthalt Verpflegung: voller Abzug CHF 30 pro Tag bzw. CHF 6'400 pro Jahr; gekürzter Abzug (verbilligtes Mittagessen) CHF 22.50 pro Tag bzw. CHF 4'800 pro Jahr. Nachweis höherer Kosten ausgeschlossen.)**
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026).
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). Formular 2026 (UJ): bestaetigt; Codes 428 / 478
 - **Quellen:**
   - [StB 39 Nr. 5 S. 1–2](../../chunks/sg/dauernd/sg-stb-39-5/sg-stb-39-5__c0003.md) `sg-stb-39-5__c0003` – «Voller Abzug im Tag 30.00 im Jahr 6'400.00»
   - [StB 39 Nr. 5 S. 1–2](../../chunks/sg/dauernd/sg-stb-39-5/sg-stb-39-5__c0003.md) `sg-stb-39-5__c0003` – «Der reduzierte Abzug ist anzuwenden, wenn eine der beiden täglichen Hauptmahlzeiten vom Arbeitgeber verbilligt wird»
@@ -1798,9 +1829,12 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [StB 39 Nr. 8 S. 3–4](../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0014.md) `sg-stb-39-8__c0014` – «Auf dem Lohnausweis muss in diesem Fall das Feld G angekreuzt sein»
   - [BKV Art. 9](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-9.md) `bund-bkv-2026__art-9` – «Der Nachweis höherer Kosten ist ausgeschlossen.»
   - [BKV Anhang](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__anhang-1.md) `bund-bkv-2026__anhang-1` – «b. Bei auswärtigem Wochenaufenthalt (Art. 9 Abs. 2)»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «4.2 Verpflegung: Pro Arbeitstag Fr. 30 / im Jahr Fr. 6'400, bei Verbilligung der»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «Mahlzeiten durch den Arbeitgeber pro Arbeitstag Fr. 22.50 / im Jahr Fr. 4'800 428»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0007.md) `sg-form-4-2026-uj__c0007` – «Mahlzeiten durch den Arbeitgeber pro Arbeitstag Fr. 22.50 / im Jahr Fr. 4'800 478»
 
-<a id="form-4-ziff-5-abzug-berufskosten-nebenerwerb"></a>
-### Ziff. Form. 4 Ziff. 5 – Kosten bei unselbständiger Nebenerwerbstätigkeit: 20% der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2'400
+<a id="form-4-ziff-5-1-abzug-berufskosten-nebenerwerb"></a>
+### Ziff. Form. 4 Ziff. 5.1 – Kosten bei unselbständiger Nebenerwerbstätigkeit: 20% der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2'400
 
 - **Schlüssel:** `abzug.berufskosten.nebenerwerb` (Berufskosten Nebenerwerb) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Ziff. 11 des Nebenerwerbs (Nettolohn Ziff. 1.2)
@@ -1815,7 +1849,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - Nebenerwerb – Pauschale Minimum (CHF): Kanton **CHF 800 (Nebenerwerb: Pauschale mindestens Fr. 800; Nebenerwerbseinkünfte unter Fr. 800 sind nicht betroffen (siehe StB 39 Nr. 9).)** · Bund **CHF 800 (Mindestbetrag Pauschale Nebenerwerb.)**
   - Nebenerwerb – Pauschale Maximum (CHF): Kanton **CHF 2'400 (Nebenerwerb: Pauschale höchstens Fr. 2'400.)** · Bund **CHF 2'400 (Höchstbetrag Pauschale Nebenerwerb.)**
 - **Bund:** 20%, mind. Fr. 800, max. Fr. 2'400 (BKV-Anhang 2026).
-- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). MB 8/2026 nennt «Ziffer 5.1» (Nummerierung 2025: Ziff. 5).
+- **Bemerkung:** Formular 4/2026 nicht publiziert: Ziffernnummerierung nach Formular 4/2025; Regel und Beträge aus 2026-Quellen (StG, StV, StB, MB 8/2026). MB 8/2026 nennt «Ziffer 5.1» (Nummerierung 2025: Ziff. 5). Formular 2026 (UJ): korrigiert; Codes 432 / 482 (tatsächliche Kosten Ziff. 5.2: 434 / 484); Formular 4 UJ 2026: «5. Kosten bei unselbständiger Nebenerwerbstätigkeit» ist nur der Abschnittstitel; darunter 5.1 Pauschalabzug (20%, mind. Fr. 800, höchstens Fr. 2'400; Code 432/482) und 5.2 tatsächliche Kosten (Code 434/484, vor dem Code Private-Use-Zeichen U+F09D). Die Position beschreibt die P (Ziffer vorher: Form. 4 Ziff. 5)
 - **Quellen:**
   - [StB 39 Nr. 9 S. 1](../../chunks/sg/dauernd/sg-stb-39-9/sg-stb-39-9__c0002.md) `sg-stb-39-9__c0002` – «sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar»
   - [MB 8/2026 SG S. 3](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0006.md) `sg-mb-8-2026__c0006` – «Berufskosten ( Formular 4, Ziffer 3.1 und 5.1 )»
@@ -1829,6 +1863,12 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [StB 39 Nr. 9 S. 3–4](../../chunks/sg/dauernd/sg-stb-39-9/sg-stb-39-9__c0014.md) `sg-stb-39-9__c0014` – «von diesen Erwerbseinkünften (Nettolohn plus Spesen)»
   - [BKV Anhang](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__anhang-1.md) `bund-bkv-2026__anhang-1` – «20 % der Nettoeinkünfte, mindestens im Jahr»
   - [Formular 1 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0003.md) `sg-form-1-2026-uj__c0003` – «1.2 Aus Nebenerwerbstätigkeit Person 1 Lohnausweis 104»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «5. Kosten bei unselbständiger Nebenerwerbstätigkeit 5.1 Pauschalabzug: 20% der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2'400 432»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0007.md) `sg-form-4-2026-uj__c0007` – «5.1 Pauschalabzug: 20% der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2'400 482»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «5.2 Anstelle des Pauschalabzuges: tatsächliche Kosten Aufstellung»
+  - [Formular 4 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0004.md) `sg-form-4-2026-uj__c0004` – «434 6. Total der Berufskosten 438»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0007.md) `sg-form-4-2026-uj__c0007` – «5.2 Anstelle des Pauschalabzuges: tatsächliche Kosten Aufstellung»
+  - [Formular 4 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-4-2026-uj/sg-form-4-2026-uj__c0007.md) `sg-form-4-2026-uj__c0007` – «484 6. Total der Berufskosten 488»
 
 ## Lohnausweis (Regeln für Steuererklärung)
 
@@ -1975,7 +2015,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Beachten:** Bund-WL: VSt-belastete Erträge immer deklarieren; WS-Verzeichnis dient i.d.R. als Antrag auf VSt-Rückerstattung (35 %)
 - **Beachten:** 16.1: Pauschale oder effektiv (keine Kumulation); Basis ohne Geschäftsvermögen, Darlehen, selbstverwaltete WS
 - **Beachten:** UJ: nur effektiv zugeflossene Erträge, keine Marchzinsen; Pauschale 16.1 nach Dauer kürzen; 16.1 Kanton = Bund
-- **Bemerkung:** Weitere Zeilen (Code 999, 960–963) bewusst weggelassen: keine 2026-Quelle.
+- **Bemerkung:** Weitere Zeilen (Code 999, 960–963) bewusst weggelassen: keine 2026-Quelle. Formular 2026 (UJ): bestaetigt; Codes 300 (Ziff. 30.1) / 146 (Ziff. 4.1); BP → Ziff. 4.2 (147), BG → Ziff. 4.3 (149); VST-Anspruch 999; Erbschaft/Schenkung 960–963
 - **Quellen:**
   - [Formular 1 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0005.md) `sg-form-1-2026-uj__c0005` – «4.1 aus Wertschriften und Guthaben 146»
   - [Formular 1 SG 2026 UJ S. 4](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0011.md) `sg-form-1-2026-uj__c0011` – «30.1 Wertschriften und Guthaben Formular 2 300»
@@ -1997,6 +2037,14 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [MB 8/2026 SG S. 2–3](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0005.md) `sg-mb-8-2026__c0005` – «March- oder pro rata temporis Zinsen sind nicht zu deklarieren»
   - [MB 8/2026 SG S. 3](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0006.md) `sg-mb-8-2026__c0006` – «Ziffer 16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen»
   - [Formular 1 SG 2026 UJ S. 4](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0011.md) `sg-form-1-2026-uj__c0011` – «Steuerwert am 31. Dezember 2026 bzw. am Ende der Steuerpflicht»
+  - [Formular 2 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-2-2026-uj/sg-form-2-2026-uj__c0006.md) `sg-form-2-2026-uj__c0006` – «zu übertragen in die Steuererklärung Seite 4 Ziffer 30.1 Seite 2 Ziffer 4.1»
+  - [Formular 2 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-2-2026-uj/sg-form-2-2026-uj__c0006.md) `sg-form-2-2026-uj__c0006` – «Verrechnungssteueranspruch: 35 % vom Bruttoertrag (Total A) Fr./Rp. 999»
+  - [Formular 2 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-2-2026-uj/sg-form-2-2026-uj__c0006.md) `sg-form-2-2026-uj__c0006` – «Abzüglich Erträge aus Privatbeteiligung (BP) Übertrag in Steuererkl. Ziff. 4.2»
+  - [Formular 2 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-2-2026-uj/sg-form-2-2026-uj__c0006.md) `sg-form-2-2026-uj__c0006` – «Abzüglich Erträge aus Geschäftsbeteiligung (BG) Übertrag in Steuererkl. Ziff. 4.3»
+  - [Formular 2 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-2-2026-uj/sg-form-2-2026-uj__c0002.md) `sg-form-2-2026-uj__c0002` – «Todestag Betrag Fr. 960»
+  - [Formular 2 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-2-2026-uj/sg-form-2-2026-uj__c0003.md) `sg-form-2-2026-uj__c0003` – «Todestag Erbanteil* Fr. 961»
+  - [Formular 2 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-2-2026-uj/sg-form-2-2026-uj__c0003.md) `sg-form-2-2026-uj__c0003` – «Schenkungsdatum Betrag Fr. 962»
+  - [Formular 2 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-2-2026-uj/sg-form-2-2026-uj__c0003.md) `sg-form-2-2026-uj__c0003` – «Schenkungsdatum Betrag Fr. 963»
 
 ## Hilfsblatt Schulden/Zuwendungen (Formular 5)
 
@@ -2016,7 +2064,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - Freiwillige Zuwendungen – Maximum in % des (Rein-)Einkommens: Kanton **20 % (Freiwillige Zuwendungen: insgesamt höchstens 20 % der Nettoeinkünfte.)** · Bund **20 % (Maximum 20 % der um die Aufwendungen (Art. 26-33) verminderten Einkünfte.)**
   - Parteispenden – Maximum (CHF), ggf. alleinstehend: Kanton **CHF 10'700 (Mitgliederbeiträge und Zuwendungen an politische Parteien: bis Fr. 10'700 für übrige (alleinstehende) Steuerpflichtige.)** · Bund **CHF 10'600 (Mitgliederbeiträge und Zuwendungen an politische Parteien (Parteienregister / kantonales Parlament / mind. 3 % Stimmen): bis Gesamtbetrag CHF 10'600.)**
   - Parteispenden – Maximum gemeinsam Besteuerte (CHF): Kanton **CHF 21'400 (Parteispenden: bis Fr. 21'400 für gemeinsam steuerpflichtige Ehegatten.)** · Bund **–**
-- **Bemerkung:** Formular 5/2026 nicht publiziert.
+- **Bemerkung:** Formular 5/2026 nicht publiziert. Formular 2026 (UJ): bestaetigt; Codes 500 (Ziff. 11) / 504 (34.1) / 506 (34.2) / 244 (21.3) / 555 (16.3)
 - **Quellen:**
   - [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0007.md) `sg-form-1-2026-uj__c0007` – «11. Schuldzinsen Formular 5 500»
   - [Formular 1 SG 2026 UJ S. 4](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md) `sg-form-1-2026-uj__c0012` – «34.1 Privatschulden Formular 5 504»
@@ -2031,6 +2079,12 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0008.md) `sg-form-1-2026-uj__c0008` – «16.3 Parteispenden Formular 5 555»
   - [Formular 1 SG 2026 UJ S. 4](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md) `sg-form-1-2026-uj__c0012` – «34.2 Geschäftsschulden Formular 5 506»
   - [Formular 1 SG 2026 UJ S. 4](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0011.md) `sg-form-1-2026-uj__c0011` – «Steuerwert am 31. Dezember 2026 bzw. am Ende der Steuerpflicht»
+  - [Formular 5 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-5-2026-uj/sg-form-5-2026-uj__c0001.md) `sg-form-5-2026-uj__c0001` – «Total private Schulden und private Schuldzinsen zu übertragen in die Steuererklärung Seite 4 Ziffer 34.1»
+  - [Formular 5 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-5-2026-uj/sg-form-5-2026-uj__c0001.md) `sg-form-5-2026-uj__c0001` – «Seite 3 Ziffer 11 B. Geschäftsschulden»
+  - [Formular 5 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-5-2026-uj/sg-form-5-2026-uj__c0001.md) `sg-form-5-2026-uj__c0001` – «Total Geschäftsschulden zu übertragen in die Steuererklärung Seite 4 Ziffer 34.2»
+  - [Formular 5 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-5-2026-uj/sg-form-5-2026-uj__c0001.md) `sg-form-5-2026-uj__c0001` – «Geschäftliche Schuldzinsen sind in der Jahresrechnung enthalten und deshalb hier nicht aufzuführen.»
+  - [Formular 5 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-5-2026-uj/sg-form-5-2026-uj__c0002.md) `sg-form-5-2026-uj__c0002` – «Total der Zuwendungen zu übertragen in die Steuererklärung Seite 3 Ziffer 21.3»
+  - [Formular 5 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-5-2026-uj/sg-form-5-2026-uj__c0002.md) `sg-form-5-2026-uj__c0002` – «Total der Parteispenden zu übertragen in die Steuererklärung Seite 3 Ziffer 16.3»
 
 ## Hilfsblatt Versicherungen/Krankheitskosten (Formular 6)
 
@@ -2052,7 +2106,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - Versicherungsabzug übrige ohne Beiträge 2. Säule/3a (CHF): Kanton **CHF 3'900 (Übrige Steuerpflichtige ohne Abzug von Beiträgen nach Art. 45 Abs. 1 lit. d und e (2. Säule/3a): Fr. 3'400 + Fr. 500 = Fr. 3'900.)** · Bund **CHF 2'700 (Übrige Steuerpflichtige ohne Beiträge an 2. Säule und Säule 3a: max. CHF 2'700.)**
   - Versicherungsabzug Zuschlag pro Kind/unterstützte Person (CHF): Kanton **CHF 1'100 (Erhöhung des Versicherungsabzugs um Fr. 1'100 für jedes Kind, für das ein Kinderabzug geltend gemacht werden kann.)** · Bund **CHF 700 (Zuschlag CHF 700 pro Kind bzw. unterstützungsbedürftige Person, für die ein Abzug nach Art. 35 Abs. 1 lit. a oder b DBG geltend gemacht werden kann.)**
   - Krankheitskosten – Selbstbehalt in % des Nettoeinkommens: Kanton **2 % (Krankheits- und Unfallkosten sind abziehbar, soweit selbst getragen und über 2 % der Nettoeinkünfte. Behinderungsbedingte Kosten: ohne Selbstbehalt (lit. abis).)** · Bund **5 % (Krankheits- und Unfallkosten abziehbar, soweit selbst getragen und über 5 % der um die Aufwendungen (Art. 26-33) verminderten steuerbaren Einkünfte. Behinderungsbedingte Kosten (lit. hbis) ohne Selbstbehalt.)**
-- **Bemerkung:** Formular 6/2026 nicht publiziert.
+- **Bemerkung:** Formular 6/2026 nicht publiziert. Formular 2026 (UJ): bestaetigt; Codes 600 (Ziff. 14) / 650 (Ziff. 21.1; Selbstbehalt 238) / 235 (Ziff. 21.2)
 - **Quellen:**
   - [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0008.md) `sg-form-1-2026-uj__c0008` – «14. Versicherungsprämien und Sparzinsen Formular 6 600»
   - [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0009.md) `sg-form-1-2026-uj__c0009` – «21.1 Krankheits- und Unfallkosten Formular 6 650»
@@ -2069,6 +2123,16 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [MB 8/2026 SG S. 3](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0006.md) `sg-mb-8-2026__c0006` – «Ziffer 14 Versicherungsprämien und Sparzinsen»
   - [MB 8/2026 SG S. 3](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0006.md) `sg-mb-8-2026__c0006` – «Fr. 10’800 ÷ 360 × 180 Tage»
   - [MB 8/2026 SG S. 3](../../chunks/sg/2026/sg-mb-8-2026/sg-mb-8-2026__c0006.md) `sg-mb-8-2026__c0006` – «der Dauer der Steuerpflicht zu kürzen. Zur Satzbestimmung werden jedoch die»
+  - [Formular 6 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-6-2026-uj/sg-form-6-2026-uj__c0003.md) `sg-form-6-2026-uj__c0003` – «Der niedrigere Betrag von (A) und (B) zu übertragen in die Steuererklärung Seite 3 Ziffer 14»
+  - [Formular 6 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-6-2026-uj/sg-form-6-2026-uj__c0004.md) `sg-form-6-2026-uj__c0004` – «zu übertragen in die Steuererklärung Seite 3 Ziffer 21.1 (Vorkolonne)»
+  - [Formular 6 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-6-2026-uj/sg-form-6-2026-uj__c0004.md) `sg-form-6-2026-uj__c0004` – «zu übertragen in die Steuererklärung Seite 3 Ziffer 21.2»
+  - [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0009.md) `sg-form-1-2026-uj__c0009` – «abzüglich Selbstbehalt 2% des Nettoeinkommens (Ziffer 20) – 238»
+  - [Formular 6 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-6-2026-uj/sg-form-6-2026-uj__c0003.md) `sg-form-6-2026-uj__c0003` – «a. Fr. 6’800 für gemeinsam Steuerpflichtige»
+  - [Formular 6 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-6-2026-uj/sg-form-6-2026-uj__c0003.md) `sg-form-6-2026-uj__c0003` – «Fr. 1’100 zusätzlich, wenn keine Beiträge für die berufliche Vorsorge»
+  - [Formular 6 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-6-2026-uj/sg-form-6-2026-uj__c0003.md) `sg-form-6-2026-uj__c0003` – «b. Fr. 3’400 für alleinstehende Steuerpflichtige»
+  - [Formular 6 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-6-2026-uj/sg-form-6-2026-uj__c0003.md) `sg-form-6-2026-uj__c0003` – «Fr. 500 zusätzlich, wenn keine Beiträge für die berufliche Vorsorge»
+  - [Formular 6 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-6-2026-uj/sg-form-6-2026-uj__c0003.md) `sg-form-6-2026-uj__c0003` – «c. Fr. 1’100 zusätzlich für jedes Kind, für das der Kinderabzug gemäss»
+  - [Formular 6 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-6-2026-uj/sg-form-6-2026-uj__c0002.md) `sg-form-6-2026-uj__c0002` – «e. abzüglich Prämienverbilligungen»
 
 ## Hilfsblatt Liegenschaften (Formular 7)
 
@@ -2087,7 +2151,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - Liegenschaftsunterhalt Pauschale – Gebäude bis 10 Jahre (%): Kanton **20 % (Pauschalabzug Liegenschaftsunterhalt bei vorwiegend Wohnzwecken dienenden Liegenschaften: 20 % des Bruttomietertrags ohne Nebenkosten oder des angerechneten Eigenmietwerts, anstelle der tatsächlichen Kosten (Wahl pro Periode und Liegenschaft).)** · Bund **10 % (Pauschalabzug Liegenschaftskosten (anstelle effektiver Kosten, Wahl pro Periode und Liegenschaft): 10 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, wenn das Gebäude zu Beginn der Steuerperiode bis 10 Jahre alt ist.)**
   - Liegenschaftsunterhalt Pauschale – Gebäude über 10 Jahre (%): Kanton **20 % (Gleicher Pauschalsatz wie bei jüngeren Gebäuden: 20 % des Bruttomietertrags bzw. angerechneten Eigenmietwerts (keine Altersstaffelung in Art. 29 StV).)** · Bund **20 % (Pauschalabzug 20 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, wenn das Gebäude zu Beginn der Steuerperiode mehr als 10 Jahre alt ist.)**
   - Eigenmietwert – Einschlag/Abzug für selbstbewohnte Liegenschaft (%): Kanton **30 % (Mietwert des Eigenheims, das am Wohnsitz dauernd selbst bewohnt wird, wird um 30 % herabgesetzt; dauerhafter Unternutzung wird auf Antrag Rechnung getragen. Im AHV-Rentenalter weitere Reduktion bei offensichtlichem Missverhältnis (nicht unter 60 % der Marktmiete; Art. 14 StV: Mietwert über 30 % der Bruttoeinkünfte und steuerbares Vermögen höchstens Fr. 600'000).)** · Bund **n/a – Bund: kein prozentualer Einschlag/Abzug auf dem Eigenmietwert; Festsetzung nach ortsüblichen Verhältnissen (Art. 21 Abs. 2 DBG), kantonale Eigenmietwert-Bewertung. Ein im kantonalen Veranlagungsverfahren vorgesehener Abzug für die DBSt (z.B. TG: 20 %, siehe werte-tg) ist kantonale Vollzugspraxis, kein Widerspruch.**
-- **Bemerkung:** Formular 7/2026 nicht publiziert.
+- **Bemerkung:** Formular 7/2026 nicht publiziert. Formular 2026 (UJ): bestaetigt; Codes 712 (Ziff. 5) / 716 (Ziff. 15) / 710 (Ziff. 31)
 - **Quellen:**
   - [Formular 1 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0005.md) `sg-form-1-2026-uj__c0005` – «Ertrag aus Liegenschaften Formular 7 712»
   - [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0008.md) `sg-form-1-2026-uj__c0008` – «15. Unterhalts- und Verwaltungskosten für Liegenschaften Formular 7 716»
@@ -2103,6 +2167,15 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [StB SG Änderungen 2026 S. 1](../../chunks/sg/2026/sg-stb-aenderungen-2026/sg-stb-aenderungen-2026__c0002.md) `sg-stb-aenderungen-2026__c0002` – «Allgemeine Aktualisierung. Abschaffung der Praxis»
   - [StB SG Änderungen 2026 S. 1](../../chunks/sg/2026/sg-stb-aenderungen-2026/sg-stb-aenderungen-2026__c0002.md) `sg-stb-aenderungen-2026__c0002` – «zum wirtschaftlichen Neubau. Präzisierungen zum»
   - [StB SG Änderungen 2026 S. 1](../../chunks/sg/2026/sg-stb-aenderungen-2026/sg-stb-aenderungen-2026__c0002.md) `sg-stb-aenderungen-2026__c0002` – «StB 044 Nr. 2 Liegenschaftsunterhalt / wertver-»
+  - [Formular 7 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-7-2026-uj/sg-form-7-2026-uj__c0002.md) `sg-form-7-2026-uj__c0002` – «Übertrag in die Steuererklärung Seite 4 Ziffer 31»
+  - [Formular 7 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-7-2026-uj/sg-form-7-2026-uj__c0002.md) `sg-form-7-2026-uj__c0002` – «Übertrag in Formular 7 Z»
+  - [Formular 7 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-7-2026-uj/sg-form-7-2026-uj__c0002.md) `sg-form-7-2026-uj__c0002` – «Pro Liegenschaft ist ein separates Formular zu verwenden.»
+  - [Formular 7 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-7-2026-uj/sg-form-7-2026-uj__c0003.md) `sg-form-7-2026-uj__c0003` – «Übertrag in die Steuererklärung Seite 2 Ziffer 5»
+  - [Formular 7 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-7-2026-uj/sg-form-7-2026-uj__c0004.md) `sg-form-7-2026-uj__c0004` – «Pauschalabzug 20% der Erträge (B)»
+  - [Formular 7 SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-7-2026-uj/sg-form-7-2026-uj__c0004.md) `sg-form-7-2026-uj__c0004` – «Übertrag in die Steuererklärung Seite 3 Ziffer 15»
+  - [Formular 7 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-7-2026-uj/sg-form-7-2026-uj__c0005.md) `sg-form-7-2026-uj__c0005` – «Total Unterhalts- und Verwaltungskosten (C2)»
+  - [Formular 7Z SG 2026 UJ S. 1](../../chunks/sg/2026/sg-form-7z-2026-uj/sg-form-7z-2026-uj__c0001.md) `sg-form-7z-2026-uj__c0001` – «zu übertragen in die Steuererklärung Seite 4 Ziffer 31 Seite 2 Ziffer 5 Seite 3 Ziffer 15»
+  - [Formular 1 SG 2026 UJ S. 2](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0005.md) `sg-form-1-2026-uj__c0005` – «5. Ertrag aus Liegenschaften Formular 7 712»
 
 ## Hilfsblatt Kinder (Formular 10)
 
@@ -2123,7 +2196,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): Kanton **CHF 13'800 (Zusätzlich zum Kinderabzug: höchstens weitere Fr. 13'800 für Ausbildungskosten je Kind in schulischer/beruflicher Ausbildung, soweit vom Steuerpflichtigen selbst getragen und über Fr. 3'200 (Selbstbehalt).)** · Bund **n/a – Bund: kein erhöhter Abzug für auswärtige Ausbildung; einheitlich CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).**
   - Kinderdrittbetreuung – Altersgrenze Kind: Kanton **14 (Kinder unter 14 Jahren.)** · Bund **14 Jahre (Kind, das das 14. Altersjahr noch nicht vollendet hat.)**
   - Kinderabzug Grundbetrag (CHF): Kanton **n/a – Art. 48 Abs. 1 lit. a StG SG. Voraussetzung: Steuerpflichtiger kommt zur Hauptsache für den Unterhalt auf und beansprucht keinen Abzug für Unterhaltsbeiträge (Art. 45 Abs. 1 lit. c).** · Bund **CHF 6'800 (Kinderabzug CHF 6'800 pro minderjähriges oder in beruflicher/schulischer Ausbildung stehendes Kind, für dessen Unterhalt die steuerpflichtige Person sorgt; bei getrennter Besteuerung der Eltern hälftig bei gemeinsamer elterlicher Sorge ohne Unterhaltsbeiträge.)**
-- **Bemerkung:** Formular 10/2026 nicht publiziert.
+- **Bemerkung:** Formular 10/2026 nicht publiziert. Formular 2026 (UJ): bestaetigt; Codes 258 (Ziff. 16.2) / 256 (Ziff. 23.3)
 - **Quellen:**
   - [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0008.md) `sg-form-1-2026-uj__c0008` – «16.2 Kinderbetreuungskosten bei Drittbetreuung Formular 10 258»
   - [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0010.md) `sg-form-1-2026-uj__c0010` – «23.3 Ausbildungskosten für Kinder in Schule oder Ausbildung Formular 10 256»

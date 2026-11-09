@@ -51,3 +51,9 @@ Letzte Einträge: `grep "^## \[" log.md | tail -5`
 ## [2026-11-09] query | Experimente in echtem OpenClaw 2026.11.2 (Läufe A/B)
 - Retrieval: unicode61 > trigram; angereicherte Kontextzeile MRR 0.28 → 0.36. Agent navigiert v.a. dateibasiert.
 - 64 Fragen (Praxis-, Blind-, Positionstest), unabhängig bewertet: A 61/64, B 63/64 voll richtig, 0 falsch → eval/laeufe/.
+
+## [2026-11-09] ingest | Formulare 2026 (UJ) und Abnahme-Paket
+- SG Form. 2/4/5/6/7/7Z und ZH Form. 340/360/365/367 (Fassung unterjährige Steuerpflicht 2026) eingelesen; 34 Hilfsblatt-
+  Positionen ZH/SG 2026 gegen die Formulare geprüft (33 bestätigt, 1 korrigiert, 169 Formularzitate).
+- reports/entscheidungsvorlage-strittig.md (10 Punkte, Recherche + Gegenprüfung, Empfehlungen); tools/abnahme.py mit
+  priorisierten Checklisten 2025/2026 für die Fachperson.

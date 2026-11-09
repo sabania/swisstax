@@ -1051,6 +1051,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Beachten:** Heimkehr bei Wochenaufenthalt (i.d.R. ÖV, z.B. GA) ebenfalls hier erfassen
 - **Limiten:**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 5'200 (Fahrten Wohn-/Arbeitsstätte (inkl. Fahrkosten bei auswärtigem Wochenaufenthalt): Höchstbetrag Fr. 5'200 im Jahr (Staats- und Gemeindesteuer). Bei der direkten Bundessteuer gilt ein anderer Höchstbetrag (Fr. 3'300 laut WL 2026 UJ; siehe Bund-Datei).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Jahr (öffentliche Verkehrsmittel; Pauschalen bzw. km-Ansätze bei Privatfahrzeug unter den Folgeschlüsseln).)**
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 201 (Person 1, Staat/Bund) / 221 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0057.md) `zh-wl-2026-uj__c0057` – «bei ständiger Benützung öffentlicher Verkehrsmittel (Bahn, Schiff, Strassenbahn, Autobus) die notwendigen Abonnementskosten»
   - [WL Lohnausweis 2026 S. 8](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0010.md) `bund-wl-lohnausweis-2026__c0010` – «Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer keine Kosten für den Arbeitsweg»
@@ -1060,6 +1061,9 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [WL Lohnausweis 2026 S. 15–16](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0039.md) `bund-wl-lohnausweis-2026__c0039` – «Solche Entschädigungen sind stets zum Bruttolohn zu addieren»
   - [WL Lohnausweis 2026 S. 9](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0016.md) `bund-wl-lohnausweis-2026__c0016` – «so wird der Betrag als Berufskostenentschädigung in Ziffer 2.3 deklariert.»
   - [WL ZH 2026 UJ S. 13](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0066.md) `zh-wl-2026-uj__c0066` – «Diese sind unter Ziffer 1 des Berufsauslagenblatts in Abzug zu bringen.»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0002.md) `zh-form-360-2026-uj__c0002` – «1.1 Abonnementkosten für öffentliche Verkehrsmittel 201 3211 201 3211»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0006.md) `zh-form-360-2026-uj__c0006` – «1.1 Abonnementkosten für öffentliche Verkehrsmittel 221 3211 221 3211»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «Zwischentotal 205 3211 205 3211 ▸ max. CHF 5'200 ▸ max. CHF 3'300»
 
 <a id="form-360-ziff-1-2-abzug-berufskosten-fahrkosten"></a>
 ### Ziff. Form. 360 Ziff. 1.2 – Fahrkosten – Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal (Code 202)
@@ -1072,10 +1076,13 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Beachten:** Nur bei ständiger Benützung; Motorfahrrad gleichgestellt (Verfügung LS 631.33 I.1b)
 - **Limiten:**
   - Velo/Kleinmotorrad/E-Bike – Pauschale (CHF): Kanton **CHF 700 (Fahrrad, Motorfahrrad oder Motorrad mit gelbem Kontrollschild bei ständiger Benützung: Pauschale Fr. 700 im Jahr.)** · Bund **CHF 700 (Fahrrad, Motorfahrrad, Motorrad mit gelbem Kontrollschild: Pauschale CHF 700 pro Jahr; tatsächliche Kosten können nicht zusätzlich geltend gemacht werden.)**
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 202 (Person 1, Staat/Bund) / 222 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0055.md) `zh-wl-2026-uj__c0055` – «1.2 Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700»
   - [LS 631.33 (ab 2026) S. 1](../../chunks/zh/2026/zh-pauschalierung-berufsauslagen-2026/zh-pauschalierung-berufsauslagen-2026__c0001.md) `zh-pauschalierung-berufsauslagen-2026__c0001` – «bei ständiger Benützung eines Fahrrades, Motorfahrrades oder Motorrades mit»
   - [WL Lohnausweis 2026 S. 8](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0010.md) `bund-wl-lohnausweis-2026__c0010` – «Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer keine Kosten für den Arbeitsweg»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0002.md) `zh-form-360-2026-uj__c0002` – «1.2 Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700 202 111 202 111»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0006.md) `zh-form-360-2026-uj__c0006` – «1.2 Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700 222 111 222 111»
 
 <a id="form-360-ziff-1-3-abzug-berufskosten-fahrkosten"></a>
 ### Ziff. Form. 360 Ziff. 1.3 – Fahrkosten – privates Auto/Motorrad (weisses Kontrollschild), Kilometeransatz (Code 204)
@@ -1093,7 +1100,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - Fahrkosten Motorrad – Ansatz pro km (CHF): Kanton **CHF 0.40 (Motorrad mit weissem Kontrollschild (nur ausnahmsweise abziehbar): 40 Rp. pro Fahrkilometer.)** · Bund **CHF 0.40 (Motorrad mit weissem Kontrollschild: CHF 0.40 pro Fahrkilometer (nur wenn kein öffentliches Verkehrsmittel zumutbar); Gesamtmaximum CHF 3'300.)**
   - Fahrkosten – massgebende Arbeitstage pro Jahr: Kanton **240 Tage (Bei Auto/Motorrad (weisses Kontrollschild) ist der Fahrkostenabzug in der Regel auf 240 Arbeitstage begrenzt.)** · Bund **n/a – Bund: keine Arbeitstage-Basis für Fahrkosten; Abzug nach tatsächlichen Kosten bis max. CHF 3'300 (Art. 26 Abs. 1 lit. a DBG).**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 5'200 (Fahrten Wohn-/Arbeitsstätte (inkl. Fahrkosten bei auswärtigem Wochenaufenthalt): Höchstbetrag Fr. 5'200 im Jahr (Staats- und Gemeindesteuer). Bei der direkten Bundessteuer gilt ein anderer Höchstbetrag (Fr. 3'300 laut WL 2026 UJ; siehe Bund-Datei).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Jahr (öffentliche Verkehrsmittel; Pauschalen bzw. km-Ansätze bei Privatfahrzeug unter den Folgeschlüsseln).)**
-- **Bemerkung:** Bei der direkten Bundessteuer dieselben Ansätze laut Formular 360 (Spalte Bund).
+- **Bemerkung:** Bei der direkten Bundessteuer dieselben Ansätze laut Formular 360 (Spalte Bund). Formular 2026 (UJ): bestaetigt; Codes 204 (Person 1, Staat/Bund) / 224 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0059.md) `zh-wl-2026-uj__c0059` – «Die Kosten für das private Motorfahrzeug können nur ausnahmsweise geltend gemacht»
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0060.md) `zh-wl-2026-uj__c0060` – «für Auto 75 Rp. pro Fahrkilometer.»
@@ -1104,6 +1111,10 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [LS 631.33 (ab 2026) S. 2](../../chunks/zh/2026/zh-pauschalierung-berufsauslagen-2026/zh-pauschalierung-berufsauslagen-2026__c0003.md) `zh-pauschalierung-berufsauslagen-2026__c0003` – «Für Hin- und Rückfahrt über Mittag sind in diesen Fällen höchstens»
   - [WL 2a 2026 S. 6](../../chunks/bund/2026/bund-wl-2a-2026/bund-wl-2a-2026__c0044.md) `bund-wl-2a-2026__c0044` – «doch zusammen höchstens 15 Fr. im Tag berechnet werden»
   - [BKV Art. 5](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-5.md) `bund-bkv-2026__art-5` – «sofern kein öffentliches Verkehrsmittel zur Verfügung steht oder dessen Benützung objektiv nicht zumutbar ist»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0002.md) `zh-form-360-2026-uj__c0002` – «1.3 Auto, Motorrad (weisses Kontrollschild) in der Regel begrenzt auf 240 Tage»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0002.md) `zh-form-360-2026-uj__c0002` – «Auto: CHF 0.75 pro km Motorrad: CHF 0.40 pro km geleastes Fahrzeug»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «} 204 13211 204 13211 Zwischentotal 205»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0007.md) `zh-form-360-2026-uj__c0007` – «} 224 13211 224 13211 Zwischentotal 225»
 
 <a id="form-360-ziff-1-zwischentotal-abzug-berufskosten-fahrkosten"></a>
 ### Ziff. Form. 360 Ziff. 1 (Zwischentotal) – Fahrkosten Zwischentotal mit Plafonierung (Code 205)
@@ -1119,6 +1130,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Limiten:**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 5'200 (Fahrten Wohn-/Arbeitsstätte (inkl. Fahrkosten bei auswärtigem Wochenaufenthalt): Höchstbetrag Fr. 5'200 im Jahr (Staats- und Gemeindesteuer). Bei der direkten Bundessteuer gilt ein anderer Höchstbetrag (Fr. 3'300 laut WL 2026 UJ; siehe Bund-Datei).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Jahr (öffentliche Verkehrsmittel; Pauschalen bzw. km-Ansätze bei Privatfahrzeug unter den Folgeschlüsseln).)**
 - **Bund:** Fahrkostenabzug max. CHF 3'300 (statt CHF 5'200).
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 205 (Person 1, Staat/Bund) / 225 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0060.md) `zh-wl-2026-uj__c0060` – «Bei der Staatssteuer ist der Fahrkostenabzug auf CHF 5’200 beschränkt.»
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0060.md) `zh-wl-2026-uj__c0060` – «Bei der direkten Bundessteuer ist der Fahrkostenabzug auf CHF 3’300 beschränkt.»
@@ -1130,6 +1142,9 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [BKV Art. 9](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-9.md) `bund-bkv-2026__art-9` – «Sie sind bis zum Maximalbetrag nach Artikel 5 Absatz 1 abziehbar.»
   - [LS 631.33 (ab 2026) S. 3–4](../../chunks/zh/2026/zh-pauschalierung-berufsauslagen-2026/zh-pauschalierung-berufsauslagen-2026__c0007.md) `zh-pauschalierung-berufsauslagen-2026__c0007` – «Sind beide Ehegatten erwerbstätig, werden die Abzüge für Be-»
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0054.md) `zh-wl-2026-uj__c0054` – «Person 1 (Berufskosten Person 2 siehe Rückseite)»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «Zwischentotal 205 3211 205 3211 ▸ max. CHF 5'200 ▸ max. CHF 3'300»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0007.md) `zh-form-360-2026-uj__c0007` – «Zwischentotal 225 3211 225 3211 ▸ max. CHF 5'200 ▸ max. CHF 3'300»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0005.md) `zh-form-360-2026-uj__c0005` – «Arbeitnehmende, die über ein Geschäftsfahrzeug verfügen, können keine Fahrkosten in Abzug bringen.»
 
 <a id="form-360-ziff-7-abzug-berufskosten-fahrkosten"></a>
 ### Ziff. Form. 360 Ziff. 7 – Begründung für die Benützung eines privaten Motorfahrzeugs (Codes 2041–2044)
@@ -1141,11 +1156,19 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Regel:** Mindestens eine Begründung ankreuzen, sonst wird der Auto-/Motorradabzug nicht gewährt.
 - **Beachten:** 2043: auf Verlangen und gegen Entschädigung des AG ständig in der Arbeitszeit benützt, Arbeitsweg unentschädigt
 - **Beachten:** Geschäftsfahrzeug: keine Fahrkosten, Begründung entfällt
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 2041–2044 (Person 1) / 2241–2244 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0058.md) `zh-wl-2026-uj__c0058` – «Fehlen eines öffentlichen Verkehrsmittels (siehe Wegleitung) 2041»
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0059.md) `zh-wl-2026-uj__c0059` – «nächsten Haltestelle mindestens 1 km entfernt ist oder bei Arbeitsbeginn oder -ende kein»
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0059.md) `zh-wl-2026-uj__c0059` – «private Motorfahrzeug tatsächlich ständig während der Arbeitszeit benützt und für die Fahr-»
   - [LS 631.33 (ab 2026) S. 1](../../chunks/zh/2026/zh-pauschalierung-berufsauslagen-2026/zh-pauschalierung-berufsauslagen-2026__c0001.md) `zh-pauschalierung-berufsauslagen-2026__c0001` – «bei ständiger Benützung eines Motorrades oder Autos»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0005.md) `zh-form-360-2026-uj__c0005` – «7. Begründung für die Benützung eines privaten Motorfahrzeuges für den Arbeitsweg»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0005.md) `zh-form-360-2026-uj__c0005` – «Fehlen eines öffentlichen Verkehrsmittels (siehe Wegleitung) 2041»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0005.md) `zh-form-360-2026-uj__c0005` – «Zeitersparnis von über 1 Stunde bei Benützung des privaten Motorfahrzeuges 2042»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0005.md) `zh-form-360-2026-uj__c0005` – «Ständige Benützung während der Arbeitszeit auf Verlangen und gegen Entschädigung des Arbeitgebers 2043»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0005.md) `zh-form-360-2026-uj__c0005` – «Unmöglichkeit der Benützung des öffentl. Verkehrsmittels zufolge Krankheit / Gebrechlichkeit (Arztzeugnis beilegen) 2044»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0009.md) `zh-form-360-2026-uj__c0009` – «Fehlen eines öffentlichen Verkehrsmittels (siehe Wegleitung) 2241»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0009.md) `zh-form-360-2026-uj__c0009` – «Unmöglichkeit der Benützung des öffentl. Verkehrsmittels zufolge Krankheit / Gebrechlichkeit (Arztzeugnis beilegen) 2244»
 
 <a id="form-360-ziff-2-1-verbilligt-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Form. 360 Ziff. 2.1 (verbilligt) – Mehrkosten Verpflegung bei verbilligter Verpflegung durch den Arbeitgeber (Code 206)
@@ -1160,12 +1183,15 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Limiten:**
   - Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): Kanton **CHF 7.50 (Verpflegung durch Arbeitgeber verbilligt (Kantine, Personalrestaurant, Barbeitrag, Essensgutscheine) und trotzdem Mehrkosten: Fr. 7.50 pro Arbeitstag.)** · Bund **CHF 7.50 (Nur halber Abzug (CHF 7.50 pro Tag), wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers benützt werden kann. Kein Abzug, wenn der Arbeitgeber die Naturalbezüge unter den behördlichen Bewertungsansätzen bewertet oder die Verpflegung zu Preisen unter diesen Ansätzen möglich ist (Art. 6 Abs. 3 BKV).)**
   - Verpflegung bei Verbilligung pro Jahr (CHF): Kanton **CHF 1'600 (Bei ständiger auswärtiger Verpflegung mit Verbilligung durch den Arbeitgeber: höchstens Fr. 1'600 im Jahr.)** · Bund **CHF 1'600 (Halber Abzug bei Verbilligung: max. CHF 1'600 pro Jahr.)**
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 206 (Person 1, Staat/Bund) / 226 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0061.md) `zh-wl-2026-uj__c0061` – «– wenn die Verpflegung durch den Arbeitgeber verbilligt wird (Kantine, Personalrestaurant,»
   - [WL Lohnausweis 2026 S. 8–9](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md) `bund-wl-lohnausweis-2026__c0012` – «Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten Buchstabe G»
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0056.md) `zh-wl-2026-uj__c0056` – «pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 206»
   - [LS 631.33 (ab 2026) S. 3–4](../../chunks/zh/2026/zh-pauschalierung-berufsauslagen-2026/zh-pauschalierung-berufsauslagen-2026__c0007.md) `zh-pauschalierung-berufsauslagen-2026__c0007` – «Soweit Berufsauslagen vom Arbeitgeber vergütet werden, steht der steuerpflichtigen Person kein Abzug zu.»
   - [BKV Art. 6](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-6-t1.md) `bund-bkv-2026__art-6-t1` – «Kein Abzug ist mangels Mehrkosten zulässig, wenn der Arbeitgeber bei der Bewertung von Naturalbezügen»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 206 3211 206 3211»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0007.md) `zh-form-360-2026-uj__c0007` – «Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 226 3211 226 3211»
 
 <a id="form-360-ziff-2-1-voll-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Form. 360 Ziff. 2.1 (voll) – Mehrkosten Verpflegung bei voller Verpflegung zu Lasten des Arbeitnehmers (Code 208)
@@ -1181,12 +1207,15 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Limiten:**
   - Verpflegungsmehrkosten pro Arbeitstag (CHF): Kanton **CHF 15 (Auswärtige Verpflegung, wenn voll zulasten des Arbeitnehmers (Dauer der Arbeitspause ermöglicht keine Heimkehr): Fr. 15 pro Arbeitstag.)** · Bund **CHF 15 (Auswärtige Verpflegung: CHF 15 pro Hauptmahlzeit (in der Regel nur Mittagessen), nur Pauschale zulässig, wenn Hauptmahlzeit wegen grosser Entfernung/kurzer Pause nicht zu Hause eingenommen werden kann oder bei durchgehender Schicht-/Nachtarbeit.)**
   - Verpflegungsmehrkosten pro Jahr (CHF): Kanton **CHF 3'200 (Bei ständiger auswärtiger Verpflegung (voll zulasten Arbeitnehmer): höchstens Fr. 3'200 im Jahr. Nicht kumulierbar mit der Schicht-/Nachtarbeits-Pauschale.)** · Bund **CHF 3'200 (Auswärtige Verpflegung, voller Abzug: max. CHF 3'200 pro Jahr (bei ständiger auswärtiger Verpflegung).)**
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 208 (Person 1, Staat/Bund) / 228 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0061.md) `zh-wl-2026-uj__c0061` – «– wenn die Verpflegung in andern Gaststätten voll zu Lasten des Arbeitnehmers geht,»
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0056.md) `zh-wl-2026-uj__c0056` – «wenn die Verpflegung voll zu Lasten des Arbeitnehmers geht: pro Arbeitstag CHF 15 / im Jahr CHF 3’200 208»
   - [WL 2a 2026 S. 6](../../chunks/bund/2026/bund-wl-2a-2026/bund-wl-2a-2026__c0046.md) `bund-wl-2a-2026__c0046` – «Kein Abzug ist mangels Mehrkosten zu gewähren, wenn»
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0060.md) `zh-wl-2026-uj__c0060` – «Dafür entfällt der Verpflegungsabzug (Ziffer 2.1).»
   - [WL Lohnausweis 2026 S. 8–9](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md) `bund-wl-lohnausweis-2026__c0012` – ««Mittagessen durch Arbeitgeber bezahlt»»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «wenn die Verpflegung voll zu Lasten des Arbeitnehmers geht: pro Arbeitstag CHF 15 / im Jahr CHF 3’200 208»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0007.md) `zh-form-360-2026-uj__c0007` – «wenn die Verpflegung voll zu Lasten des Arbeitnehmers geht: pro Arbeitstag CHF 15 / im Jahr CHF 3’200 228»
 
 <a id="form-360-ziff-2-2-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Form. 360 Ziff. 2.2 – Mehrkosten Verpflegung bei Schicht-/Nachtarbeit (Code 210)
@@ -1200,12 +1229,16 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Beachten:** Bund: bei Verbilligung/Kantine nur halber Abzug (BKV Art. 6 Abs. 2); AG bescheinigt Tage auf Verlangen (Abs. 5)
 - **Limiten:**
   - Schicht-/Nachtarbeit pro Tag (CHF): Kanton **CHF 15 (Durchgehende, mindestens achtstündige Schicht- oder Nachtarbeit: Fr. 15 pro ausgewiesenen Schichttag, bei ständiger Schicht-/Nachtarbeit höchstens Fr. 3'200 im Jahr. Gestaffelte (unregelmässige) Arbeitszeit ist gleichgestellt, wenn die Hauptmahlzeiten nicht zur üblichen Zeit zu Hause eingenommen werden können.)** · Bund **CHF 15 (Schicht-/Nachtarbeit: gleiche Pauschale wie auswärtige Verpflegung, CHF 15 pro Tag bzw. max. CHF 3'200 pro Jahr (bei Verbilligung halber Abzug). Gestaffelte (unregelmässige) Arbeitszeit ist gleichgestellt (Art. 6 Abs. 4 BKV). Arbeitgeber muss Tage und Arbeitsort auf Verlangen bescheinigen.)**
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 210 (Person 1, Staat/Bund) / 230 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0061.md) `zh-wl-2026-uj__c0061` – «2.2 Bei durchgehender, mindestens achtstündiger Schicht- oder Nachtarbeit, pro aus-»
   - [WL Lohnausweis 2026 S. 18–19](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0051.md) `bund-wl-lohnausweis-2026__c0051` – «die Anzahl im Kalenderjahr geleisteter Schichttage und die Höhe der im»
   - [WL ZH 2026 UJ S. 12](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0056.md) `zh-wl-2026-uj__c0056` – «pro ausgewiesenem Schichttag CHF 15 / im Jahr CHF 3’200 210»
   - [BKV Art. 6](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-6-t1.md) `bund-bkv-2026__art-6-t1` – «Nur der halbe Abzug ist zulässig, wenn die Verpflegung vom Arbeitgeber anders als in bar verbilligt wird»
   - [BKV Art. 6](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-6-t2.md) `bund-bkv-2026__art-6-t2` – «Der Arbeitgeber muss die Anzahl Tage mit Schicht- oder Nachtarbeit sowie den Arbeitsort auf Verlangen bescheinigen.»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «2.2 bei durchgehender, mindestens achtstündiger Schicht- / Nachtarbeit,»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «pro ausgewiesenem Schichttag CHF 15 / im Jahr CHF 3’200 210 3211 210 3211»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0007.md) `zh-form-360-2026-uj__c0007` – «pro ausgewiesenem Schichttag CHF 15 / im Jahr CHF 3’200 230 3211 230 3211»
 
 <a id="form-360-ziff-3-abzug-berufskosten-uebrige"></a>
 ### Ziff. Form. 360 Ziff. 3 – Übrige Berufskosten – pauschal 3% (Code 212) bzw. effektiv (Code 213)
@@ -1223,6 +1256,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **CHF 2'000 (Mindestbetrag der Pauschale für übrige Berufskosten: Fr. 2'000.)** · Bund **CHF 2'000 (Mindestbetrag der Pauschale übrige Berufskosten.)**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 4'000 (Höchstbetrag der Pauschale für übrige Berufskosten: Fr. 4'000. Höhere effektive Kosten sind in vollem Umfang nachzuweisen.)** · Bund **CHF 4'000 (Höchstbetrag der Pauschale übrige Berufskosten.)**
   - Arbeitszimmer/Homeoffice – Regel: Kanton **Kein separater Homeoffice-/Arbeitszimmerabzug: Das private Arbeitszimmer ist in der Pauschale für übrige Berufskosten (3 % des Nettolohns, min. Fr. 2'000, max. Fr. 4'000) enthalten. Höhere effektive Kosten sind in vollem Umfang nachzuweisen (Aufstellung).** · Bund **Privates Arbeitszimmer: in der Pauschale übrige Berufskosten enthalten. Separater Abzug der Zimmerkosten (Miete, Heizung, Beleuchtung) nur bei Nachweis höherer Kosten und wenn ein Zimmer der Privatwohnung hauptsächlich und regelmässig für die Berufsarbeit benützt werden muss; bloss gelegentliche Arbeit zu Hause gibt keinen Abzug. Keine pauschale Homeoffice-Entschädigung.**
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 212 pauschal / 213 effektiv (Person 1, Staat/Bund); 232 / 233 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 13](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0062.md) `zh-wl-2026-uj__c0062` – «3% des Nettolohnes gemäss Lohnausweis, mindestens jedoch CHF 2’000»
   - [WL ZH 2026 UJ S. 13](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0064.md) `zh-wl-2026-uj__c0064` – «so sind diese Berufsauslagen in vollem Umfange nachzuweisen.»
@@ -1231,6 +1265,10 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [BKV Art. 7](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-7.md) `bund-bkv-2026__art-7` – «Der Pauschalabzug ist angemessen zu kürzen, wenn die unselbständige Erwerbstätigkeit bloss während eines Teils des Jahres oder als Teilzeitarbeit ausgeübt wird.»
   - [BKV Art. 4](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-4.md) `bund-bkv-2026__art-4` – «so sind die gesamten tatsächlichen Auslagen und deren berufliche Notwendigkeit nachzuweisen.»
   - [LS 631.33 (ab 2026) S. 3–4](../../chunks/zh/2026/zh-pauschalierung-berufsauslagen-2026/zh-pauschalierung-berufsauslagen-2026__c0007.md) `zh-pauschalierung-berufsauslagen-2026__c0007` – «Soweit Berufsauslagen vom Arbeitgeber vergütet werden, steht der steuerpflichtigen Person kein Abzug zu.»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «pauschal 3% des Nettolohnes gem. Lohnausweis, mind. CHF 2’000, höchstens CHF 4’000 2123211 212 3211»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «bzw. effektiv gemäss Aufstellung 213 13211 213 13211»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0007.md) `zh-form-360-2026-uj__c0007` – «höchstens CHF 4’000 2323211 232 3211»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0007.md) `zh-form-360-2026-uj__c0007` – «bzw. effektiv gemäss Aufstellung 233 13211 233 13211»
 
 <a id="form-360-ziff-4-abzug-berufskosten-wochenaufenthalt"></a>
 ### Ziff. Form. 360 Ziff. 4 – Zusätzliche Mehrkosten bei auswärtigem Wochenaufenthalt (Code 2860)
@@ -1247,7 +1285,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - Wochenaufenthalt – Unterkunft (Regel): Kanton **Auswärtiger Wochenaufenthalt: als Mehrkosten für die auswärtige Unterkunft kann der Mietzins für ein Zimmer abgezogen werden (effektive Kosten, gemäss Aufstellung). Kosten der wöchentlichen Heimkehr in der Regel nur ÖV-Aufwendungen (unter Fahrkosten, Ziff. 1 des Berufsauslagenblatts).** · Bund **Wochenaufenthalt: abziehbar sind die ortsüblichen Auslagen für ein Zimmer (nicht eine Wohnung) am Arbeitsort sowie die Fahrkosten der regelmässigen Heimkehr (im Rahmen des Fahrkosten-Maximums).**
   - Wochenaufenthalt – Mehrkosten Verpflegung pro Jahr (CHF): Kanton **CHF 3'200 (Auswärtiger Wochenaufenthalt: Mehrkosten für auswärtige Verpflegung beim Abendessen Fr. 15 pro Arbeitstag bzw. Fr. 3'200 im Jahr bei ganzjährigem Wochenaufenthalt.)** · Bund **CHF 6'400 (Wochenaufenthalt Verpflegung: voller Abzug CHF 30 pro Tag bzw. CHF 6'400 pro Jahr; gekürzter Abzug (verbilligtes Mittagessen) CHF 22.50 pro Tag bzw. CHF 4'800 pro Jahr. Nachweis höherer Kosten ausgeschlossen.)**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 5'200 (Fahrten Wohn-/Arbeitsstätte (inkl. Fahrkosten bei auswärtigem Wochenaufenthalt): Höchstbetrag Fr. 5'200 im Jahr (Staats- und Gemeindesteuer). Bei der direkten Bundessteuer gilt ein anderer Höchstbetrag (Fr. 3'300 laut WL 2026 UJ; siehe Bund-Datei).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Jahr (öffentliche Verkehrsmittel; Pauschalen bzw. km-Ansätze bei Privatfahrzeug unter den Folgeschlüsseln).)**
-- **Bemerkung:** Code 2860 aus der Formularzeile; im PDF-Layout steht daneben Code 213 (effektive übrige Berufskosten) – Zuordnung am Original prüfen. Hinweis Prüfung: ZH-Wegleitung nennt nur CHF 15/Abendessen bzw. 3'200 pro Jahr; Bundes-Wert laut data/werte/bund/2026.yaml (CHF 30/Tag, 6'400) weicht ab – für die Bundessteuer am Original prüfen.
+- **Bemerkung:** Code 2860 aus der Formularzeile; im PDF-Layout steht daneben Code 213 (effektive übrige Berufskosten) – Zuordnung am Original prüfen. Hinweis Prüfung: ZH-Wegleitung nennt nur CHF 15/Abendessen bzw. 3'200 pro Jahr; Bundes-Wert laut data/werte/bund/2026.yaml (CHF 30/Tag, 6'400) weicht ab – für die Bundessteuer am Original prüfen. Formular 2026 (UJ): bestaetigt; Codes 2860 (Person 1, Staat/Bund) / 2861 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 13](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0066.md) `zh-wl-2026-uj__c0066` – «Als Mehrkosten für auswärtige Unterkunft kann der Mietzins für ein Zimmer abgezogen werden.»
   - [WL ZH 2026 UJ S. 13](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0066.md) `zh-wl-2026-uj__c0066` – «bei ganzjährigem Wochenaufenthalt CHF 3’200 im Jahr abgezogen werden»
@@ -1259,6 +1297,9 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [BKV Art. 9](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-9.md) `bund-bkv-2026__art-9` – «Der Nachweis höherer Kosten ist ausgeschlossen.»
   - [BKV Art. 9](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-9.md) `bund-bkv-2026__art-9` – «Als notwendige Mehrkosten der Unterkunft sind die ortsüblichen Auslagen für ein Zimmer abziehbar.»
   - [LS 631.33 (ab 2026) S. 2](../../chunks/zh/2026/zh-pauschalierung-berufsauslagen-2026/zh-pauschalierung-berufsauslagen-2026__c0003.md) `zh-pauschalierung-berufsauslagen-2026__c0003` – «unter Einbezug der Fahrkosten bei auswärtigem Wochenaufenthalt»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0004.md) `zh-form-360-2026-uj__c0004` – «4. Mehrkosten bei auswärtigem Wochenaufenthalt (gemäss Aufstellung, siehe Wegleitung) 2860 13211 2860 13211»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0008.md) `zh-form-360-2026-uj__c0008` – «4. Mehrkosten bei auswärtigem Wochenaufenthalt (gemäss Aufstellung, siehe Wegleitung) 2861 13211 2861 13211»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0003.md) `zh-form-360-2026-uj__c0003` – «bzw. effektiv gemäss Aufstellung 213 13211 213 13211»
 
 <a id="form-360-ziff-5-abzug-berufskosten-nebenerwerb"></a>
 ### Ziff. Form. 360 Ziff. 5 – Auslagen bei Nebenerwerb – pauschal 20% (Code 216) bzw. effektiv (Code 217)
@@ -1275,11 +1316,16 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - Nebenerwerb – Pauschale in % der Nebeneinkünfte: Kanton **20 % (Auslagen bei Nebenbeschäftigung in unselbstständiger Stellung (inkl. Fahrkosten, auswärtige Verpflegung): 20 % der Einkünfte aus der Nebenbeschäftigung.)** · Bund **20 % (Nebenerwerb: Pauschale 20 % der Nettoeinkünfte (nach Abzug Sozialversicherungsbeiträge), mindestens CHF 800, höchstens CHF 2'400; Nachweis höherer Kosten mit separater Aufstellung möglich.)**
   - Nebenerwerb – Pauschale Minimum (CHF): Kanton **CHF 800 (Mindestbetrag der Nebenerwerbs-Pauschale: Fr. 800.)** · Bund **CHF 800 (Mindestbetrag Pauschale Nebenerwerb.)**
   - Nebenerwerb – Pauschale Maximum (CHF): Kanton **CHF 2'400 (Höchstbetrag der Nebenerwerbs-Pauschale: Fr. 2'400. Höhere effektive Kosten sind detailliert aufzuführen und nachzuweisen.)** · Bund **CHF 2'400 (Höchstbetrag Pauschale Nebenerwerb.)**
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 216 pauschal / 217 effektiv (Person 1, Staat/Bund); 236 / 237 (Person 2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 13](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0067.md) `zh-wl-2026-uj__c0067` – «20% der Einkünfte aus allen Nebenbeschäftigungen, insgesamt mindestens jedoch CHF 800 und höchstens CHF 2’400»
   - [Formular 300 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0004.md) `zh-form-300-2026-uj__c0004` – «1.2 Nebenerwerb Person 1 Lohnausweis 102»
   - [BKV Anhang](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__anhang-1.md) `bund-bkv-2026__anhang-1` – «20 % der Nettoeinkünfte, mindestens im Jahr»
   - [WL 2a 2026 S. 6](../../chunks/bund/2026/bund-wl-2a-2026/bund-wl-2a-2026__c0046.md) `bund-wl-2a-2026__c0046` – «einkommen nach Abzug der Sozialversicherungsbeiträge), min-»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0004.md) `zh-form-360-2026-uj__c0004` – «pauschal 20% der Einkünfte aus Nebenerwerb, mind. CHF 800 und höchstens CHF 2‘400 216 3211 216 3211»
+  - [Formular 360 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0004.md) `zh-form-360-2026-uj__c0004` – «bzw. effektiv gemäss Aufstellung 217 13211 217 13211»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0008.md) `zh-form-360-2026-uj__c0008` – «höchstens CHF 2‘400 236 3211 236 3211»
+  - [Formular 360 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-360-2026-uj/zh-form-360-2026-uj__c0008.md) `zh-form-360-2026-uj__c0008` – «bzw. effektiv gemäss Aufstellung 237 13211 237 13211»
 
 ## Hilfsblatt Versicherungsprämien
 
@@ -1294,11 +1340,18 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Beachten:** Prämienverbilligung meist mit KK-Prämie verrechnet → reduzierte Prämie in 601, Code 605 dann leer
 - **Beachten:** Prämien und Prämienverbilligungen der unterhaltenen Kinder einbeziehen
 - **Beachten:** Nur tatsächlich bezahlte Prämien, Einlagen und Beiträge
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 601, 602, 603, 604, 607 (Zwischentotal), 605, Total A 606
 - **Quellen:**
   - [WL ZH 2026 UJ S. 14](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0079.md) `zh-wl-2026-uj__c0079` – «6. Abzüglich erhaltene Prämienverbilligungen 605»
   - [WL ZH 2026 UJ S. 14](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0078.md) `zh-wl-2026-uj__c0078` – «Der zulässige Abzug für Versicherungsprämien und Sparzinsen ist im Formular Versicherungs-»
   - [WL ZH 2026 UJ S. 14](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0080.md) `zh-wl-2026-uj__c0080` – «Prämienverbilligungen der Krankenversicherer, die für den Steuerpflichtigen und die von»
   - [WL ZH 2026 UJ S. 14](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0079.md) `zh-wl-2026-uj__c0079` – «Tatsächlich bezahlte Einlagen, Prämien und Beiträge für private Kranken-, Unfall-, Lebens- und»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0002.md) `zh-form-365-2026-uj__c0002` – «A. Bezahlte Versicherungsprämien und Zinsen von Sparkapitalien 1. Private Krankenversicherungsprämien 601»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0002.md) `zh-form-365-2026-uj__c0002` – «4. Zinsen von Sparkapitalien 604»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0002.md) `zh-form-365-2026-uj__c0002` – «5. Zwischentotal 607»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0002.md) `zh-form-365-2026-uj__c0002` – «6. Abzüglich erhaltene Prämienverbilligungen 605»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0002.md) `zh-form-365-2026-uj__c0002` – «(soweit nicht schon unter Ziffer 1. berücksichtigt)»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0002.md) `zh-form-365-2026-uj__c0002` – «Total bezahlte Versicherungsprämien und Zinsen von Sparkapitalien (A) 606»
 
 <a id="form-365-teil-b-ziff-1-3-abzug-versicherungspraemien"></a>
 ### Ziff. Form. 365 Teil B (Ziff. 1–3) – Maximaler Abzug für Versicherungsprämien und Sparzinsen (Codes 611–616)
@@ -1318,6 +1371,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - Versicherungsabzug übrige ohne Beiträge 2. Säule/3a (CHF): Kanton **CHF 4'350 (Übrige Steuerpflichtige ohne Beiträge an 2. Säule und Säule 3a: Abzug erhöht sich um die Hälfte, höchstens Fr. 4'350.)** · Bund **CHF 2'700 (Übrige Steuerpflichtige ohne Beiträge an 2. Säule und Säule 3a: max. CHF 2'700.)**
   - Versicherungsabzug Zuschlag pro Kind/unterstützte Person (CHF): Kanton **CHF 1'300 (Zuschlag zum Versicherungsabzug: Fr. 1'300 für jedes Kind oder jede unterstützungsbedürftige Person mit Kinder-/Unterstützungsabzug nach § 34 Abs. 1; bei hälftig aufgeteiltem Kinderabzug Fr. 650.)** · Bund **CHF 700 (Zuschlag CHF 700 pro Kind bzw. unterstützungsbedürftige Person, für die ein Abzug nach Art. 35 Abs. 1 lit. a oder b DBG geltend gemacht werden kann.)**
 - **Bund:** Spalte Bundessteuer: 3'700 / 5'550 (Verheiratete), 1'800 / 2'700 (Übrige), 700 je Kind.
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 611, 612, 613, 614 (Staat), 615 (Bund), Total B 616; Teil C 270 → Form. 300 Ziff. 15
 - **Quellen:**
   - [WL ZH 2026 UJ S. 14](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0080.md) `zh-wl-2026-uj__c0080` – «oder: sofern weder Beiträge an die 2. noch an die 3. Säule a geleistet wurden 8’700 5’550»
   - [WL ZH 2026 UJ S. 14](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0080.md) `zh-wl-2026-uj__c0080` – «Zusätzlicher Abzug für jedes Kind Anzahl: 1’300 700 613»
@@ -1326,6 +1380,16 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [WL ZH 2026 UJ S. 15](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0087.md) `zh-wl-2026-uj__c0087` – «CHF 350 für jedes Kind, für das der steuerpflichtigen Person ein halber Kinderabzug zusteht.»
   - [WL ZH 2026 UJ S. 14](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0079.md) `zh-wl-2026-uj__c0079` – «6. Abzüglich erhaltene Prämienverbilligungen 605»
   - [WL Lohnausweis 2026 S. 14](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0035.md) `bund-wl-lohnausweis-2026__c0035` – «Berufliche Vorsorge (2. Säule) Ziffer 10»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0003.md) `zh-form-365-2026-uj__c0003` – «die Beiträge an die 2. oder 3. Säule a geleistet haben 5’800 3’700»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0003.md) `zh-form-365-2026-uj__c0003` – «oder: sofern weder Beiträge an die 2. noch an die 3. Säule a geleistet wurden 8’700 5’550 611»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0003.md) `zh-form-365-2026-uj__c0003` – «die Beiträge an die 2. oder 3. Säule a geleistet haben 2’900 1’800»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0003.md) `zh-form-365-2026-uj__c0003` – «oder: sofern weder Beiträge an die 2. noch an die 3. Säule a geleistet wurden 4’350 2’700 612»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0003.md) `zh-form-365-2026-uj__c0003` – «Zusätzlicher Abzug für jedes Kind Anzahl: 1’300 700 613»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0003.md) `zh-form-365-2026-uj__c0003` – «Zusätzlicher Abzug für jede unterstützungsbed. Person Anzahl: 1’300 614»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0003.md) `zh-form-365-2026-uj__c0003` – «Zusätzlicher Abzug für jede unterstützungsbed. Person Anzahl: 700 615»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0003.md) `zh-form-365-2026-uj__c0003` – «Total der Abzüge für Versicherungsprämien und Zinsen von Sparkapitalien (B) 616»
+  - [Formular 365 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-365-2026-uj/zh-form-365-2026-uj__c0003.md) `zh-form-365-2026-uj__c0003` – «Der niedrigere Betrag: (A) oder (B) 270»
+  - [Formular 300 ZH 2026 UJ S. 3](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0008.md) `zh-form-300-2026-uj__c0008` – «15. Versicherungsprämien, Zinsen von Sparkapitalien Versicherungsprämien 270»
 
 ## Hilfsblatt Weiterbildung
 
@@ -1343,11 +1407,17 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Limiten:**
   - Aus- und Weiterbildungskosten – Maximum (CHF): Kanton **CHF 12'600 (Berufsorientierte Aus- und Weiterbildungskosten inkl. Umschulung: bis Fr. 12'600 (Staatssteuer), sofern erster Abschluss Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist (und es nicht um Kosten bis zum ersten Abschluss Sek. II geht).)** · Bund **CHF 13'000 (Berufsorientierte Aus- und Weiterbildungs- inkl. Umschulungskosten bis CHF 13'000 pro Jahr, sofern erster Abschluss Sek. II vorliegt oder das 20. Lebensjahr vollendet ist (und nicht Ausbildung bis zum ersten Abschluss Sek. II).)**
 - **Bund:** Max. CHF 13'000 (Zeile Bundessteuer).
-- **Bemerkung:** Personenzuordnung der Codes 2900–2905 (Spaltenfolge) am Original prüfen.
+- **Bemerkung:** Personenzuordnung der Codes 2900–2905 (Spaltenfolge) am Original prüfen. Formular 2026 (UJ): bestaetigt; Codes 2900/2903, 2901/2904, 2902/2905, 2920/2921 (Person 1 / Person 2) → 292 (Form. 300 Ziff. 16.2)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 15](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0090.md) `zh-wl-2026-uj__c0090` – «Beitrag Arbeitgeber oder weiterer Stellen (Bund, Branchenverbände etc.) 2901 / 2904»
   - [WL ZH 2026 UJ S. 15](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0089.md) `zh-wl-2026-uj__c0089` – «Abschluss auf der Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist»
   - [WL Lohnausweis 2026 S. 18](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0048.md) `bund-wl-lohnausweis-2026__c0048` – «Immer zu bescheinigen sind jedoch effektive Vergütungen für Rechnungen, die auf den Na»
+  - [Formular 367 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-367-2026-uj/zh-form-367-2026-uj__c0001.md) `zh-form-367-2026-uj__c0001` – «Bezeichnung Person 1 Person 2 CHF ohne Rappen CHF ohne Rappen Total der Kosten 2900 / 2903»
+  - [Formular 367 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-367-2026-uj/zh-form-367-2026-uj__c0001.md) `zh-form-367-2026-uj__c0001` – «Selbstgetragene Kosten 2902 / 2905»
+  - [Formular 367 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-367-2026-uj/zh-form-367-2026-uj__c0001.md) `zh-form-367-2026-uj__c0001` – «Zulässiger Abzug (max. je CHF 12’600) 2920 / 2921»
+  - [Formular 367 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-367-2026-uj/zh-form-367-2026-uj__c0001.md) `zh-form-367-2026-uj__c0001` – «Zulässiger Abzug (max. je CHF 13’000) 2920 / 2921»
+  - [Formular 367 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-367-2026-uj/zh-form-367-2026-uj__c0001.md) `zh-form-367-2026-uj__c0001` – «Steuererklärung Seite 3 Ziffer 16.2 292»
+  - [Formular 300 ZH 2026 UJ S. 3](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0008.md) `zh-form-300-2026-uj__c0008` – «16.2 Berufsorientierte Aus- und Weiterbildungskosten Hilfsblatt 292»
 
 ## Einkommensberechnung
 
@@ -1596,6 +1666,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Beachten:** Abziehbar auch medizinische Apparate und Korrekturgläser
 - **Limiten:**
   - Krankheitskosten – Selbstbehalt in % des Nettoeinkommens: Kanton **5 % (Krankheits- und Unfallkosten sind abziehbar, soweit selbst getragen und über 5 % der um die Aufwendungen gemäss §§ 26-31 verminderten steuerbaren Einkünfte (laut Wegleitung: Nettoeinkommen, Ziff. 21). Diät-Pauschale Fr. 2'500 bei ärztlich angeordneter, lebensnotwendiger Diät.)** · Bund **5 % (Krankheits- und Unfallkosten abziehbar, soweit selbst getragen und über 5 % der um die Aufwendungen (Art. 26-33) verminderten steuerbaren Einkünfte. Behinderungsbedingte Kosten (lit. hbis) ohne Selbstbehalt.)**
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes 300–305, 307, 317; 308, 311, 312, 318; 314; 315; 313, 319, 320 → Form. 300 UJ 2026 Ziff. 22.1
 - **Quellen:**
   - [WL ZH 2026 UJ S. 18](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0117.md) `zh-wl-2026-uj__c0117` – «1. Selbstbehalt gemäss Abrechnung Krankenkasse und Versicherung 300»
   - [WL ZH 2026 UJ S. 18](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0120.md) `zh-wl-2026-uj__c0120` – «abzüglich Selbstbehalt (5% von Ziffer 21 der»
@@ -1603,6 +1674,13 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [WL ZH 2026 UJ S. 18](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0119.md) `zh-wl-2026-uj__c0119` – «Total der Vergütungen Dritter (B) 318»
   - [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0001.md) `zh-form-370__c0001` – «Pro Steuererklärung ist nur eine Aufstellung einzureichen.»
   - [ZStB 32.1](../../chunks/zh/dauernd/zh-zstb-32-1/zh-zstb-32-1__c0006.md) `zh-zstb-32-1__c0006` – «Medizinische Apparate, Korrekturgläser etc.»
+  - [Formular 300 ZH 2026 UJ S. 3](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0009.md) `zh-form-300-2026-uj__c0009` – «22.1 Krankheits- und Unfallkosten Hilfsblatt 32013213211»
+  - [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0002.md) `zh-form-370__c0002` – «1. Selbstbehalt gemäss Abrechnung Krankenkasse und Versicherung 300»
+  - [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0003.md) `zh-form-370__c0003` – «Total der Vergütungen Dritter (B) 318»
+  - [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0004.md) `zh-form-370__c0004` – «Total der Auslagen (C und / oder D) 313»
+  - [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0004.md) `zh-form-370__c0004` – «Abzug 320 113211 113211»
+  - [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0004.md) `zh-form-370__c0004` – «Seite 3, Ziffer 22.1»
+  - [Formular 370 ZH S. 1](../../chunks/zh/2025/zh-form-370/zh-form-370__c0004.md) `zh-form-370__c0004` – «StA Form. 370 (2020) 12.20»
 
 ## Vermögen
 
@@ -1880,6 +1958,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Beachten:** Fonds: thesaurierte Erträge steuerbar; gesondert ausgewiesene Kapitalgewinne (Privatvermögen) frei
 - **Limiten:**
   - Grossspielgewinne steuerfrei bis (CHF): Kanton **CHF 1'046'400 (Einzelne Gewinne aus Grossspielen und Online-Spielbankenspielen (BGS) steuerfrei bis Fr. 1'046'400 (Freibetrag: nur der übersteigende Anteil ist steuerbar).)** · Bund **CHF 1'071'000 (Einzelne Gewinne aus nach BGS zugelassenen Grossspielen und Online-Spielbankenspielen steuerfrei bis CHF 1'071'000; darüber steuerbar (abzüglich Einsatzkosten nach Art. 33 Abs. 4 DBG).)**
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes Kennbuchstaben G, N, E, S, Q; Total Steuerwert 400 → Ziff. 30.1; Total Bruttoertrag A+B 150 → Ziff. 4.1; qualifizierte Beteiligungen 151 → Ziff. 4.2
 - **Quellen:**
   - [WL ZH 2026 UJ S. 25](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0160.md) `zh-wl-2026-uj__c0160` – «Dies gilt auch für Kundenguthaben mit einem Bruttozins von mehr als»
   - [WL ZH 2026 UJ S. 24](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0156.md) `zh-wl-2026-uj__c0156` – «mit Q Beteiligungen von mindestens 10 Prozent am Aktien-, Grund- oder Stammkapital an»
@@ -1898,6 +1977,19 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [WL ZH 2026 UJ S. 34](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0229.md) `zh-wl-2026-uj__c0229` – «Ausländische Wertschriften aller Art»
   - [WL ZH 2026 UJ S. 26](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0167.md) `zh-wl-2026-uj__c0167` – «aber in Kolonne B zu deklarieren.»
   - [WL ZH 2026 UJ S. 34](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0228.md) `zh-wl-2026-uj__c0228` – «Steuererklärung Seite 4, Ziffer 30.1»
+  - [Formular 340 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0003.md) `zh-form-340-2026-uj__c0003` – «A Werte mit Verrechnungssteuerabzug, deren Erträge um 35% eidg. Verrechnungssteuer»
+  - [Formular 340 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0003.md) `zh-form-340-2026-uj__c0003` – «B Werte ohne Verrechnungssteuerabzug, deren Erträge nicht um 35% eidg. Verrechnungssteuer»
+  - [Formular 340 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0003.md) `zh-form-340-2026-uj__c0003` – «E Wertschriften aus Erbschaften»
+  - [Formular 340 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0003.md) `zh-form-340-2026-uj__c0003` – «über CHF 1’046’400 S Schenkung»
+  - [Formular 340 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0003.md) `zh-form-340-2026-uj__c0003` – «(Originalbescheinigungen sind beizulegen) Q Qualifizierte Beteiligung»
+  - [Formular 340 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0003.md) `zh-form-340-2026-uj__c0003` – «1. Kundenguthaben deren Bruttozins CHF 200.– nicht übersteigt»
+  - [Formular 340 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0003.md) `zh-form-340-2026-uj__c0003` – «qualifizierten Beteiligungen 151»
+  - [Formular 340 ZH 2026 UJ S. 3](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0004.md) `zh-form-340-2026-uj__c0004` – «Steuerwert per 31.12.2026»
+  - [Formular 340 ZH 2026 UJ S. 3](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0004.md) `zh-form-340-2026-uj__c0004` – «bzw. per Ende der Steuerpflicht»
+  - [Formular 340 ZH 2026 UJ S. 3](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0005.md) `zh-form-340-2026-uj__c0005` – «Total Steuerwert 400 ▸ Zu übertragen in die Steuererklärung Seite 4, Ziffer 30.1»
+  - [Formular 340 ZH 2026 UJ S. 3](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0005.md) `zh-form-340-2026-uj__c0005` – «Total Bruttoertrag A + B 150»
+  - [Formular 300 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0006.md) `zh-form-300-2026-uj__c0006` – «4.2 Davon aus qualifizierten Beteiligungen 13213211 151»
+  - [Formular 300 ZH 2026 UJ S. 4](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0011.md) `zh-form-300-2026-uj__c0011` – «30.1 Wertschriften und Guthaben Wertschriftenverzeichnis 400113213211»
 
 <a id="form-340-verrechnungsantrag-da-1-verrechnungssteuer-rueckerstattung"></a>
 ### Ziff. Form. 340 (Verrechnungsantrag / DA-1) – Verrechnungsantrag (Rückerstattung Verrechnungssteuer, Kolonne A) und Formular DA-1 (ausländische Quellensteuern)
@@ -1910,6 +2002,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Beachten:** Anrechnung nur, wenn nicht rückforderbare ausländische Steuern total > CHF 100; sonst Ertrag gekürzt im Verzeichnis
 - **Beachten:** Erträge ohne Quellensteuer oder voll rückforderbar nicht ins DA-1, sondern ins ordentliche Verzeichnis
 - **Beachten:** DA-1 auch für US-Erträge mit zusätzlichem Steuerrückbehalt; Verzeichnis unterschreiben (Bestätigung Kolonne A)
+- **Bemerkung:** Formular 2026 (UJ): bestaetigt; Codes IBAN 2010, Konto lautend auf 549; Übertrag DA-1 2370 / 2371; VSt-Anspruch 540
 - **Quellen:**
   - [WL ZH 2026 UJ S. 24](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0153.md) `zh-wl-2026-uj__c0153` – «allen unter Kolonne A angegebenen Erträgen die eidg. Verrechnungssteuer zu meinen oder zu Lasten der von mir vertretenen»
   - [WL ZH 2026 UJ S. 26–27](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0169.md) `zh-wl-2026-uj__c0169` – «Die Totalbeträge des DA-1 übertragen Sie in die Zeile «Übertrag ab Formular DA-1» im»
@@ -1919,6 +2012,13 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [DA-1 2026 S. 2](../../chunks/bund/2026/bund-form-da1-2026/bund-form-da1-2026__c0007.md) `bund-form-da1-2026__c0007` – «im Quellenstaat unterliegen oder für die die vollständige Rückerstattung verlangt werden kann, nicht hier, sondern im ordentlichen»
   - [WL ZH 2026 UJ S. 24](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0152.md) `zh-wl-2026-uj__c0152` – «Bankverbindung für Rückerstattungen Ein allfälliges Guthaben ist wie folgt zu überweisen:»
   - [DA-1 2026 S. 2](../../chunks/bund/2026/bund-form-da1-2026/bund-form-da1-2026__c0007.md) `bund-form-da1-2026__c0007` – «Legen Sie dem Antrag Bankbescheinigungen, Belege über den Einbehalt der ausländischen Quellensteuer, usw. bei.»
+  - [Formular 340 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0001.md) `zh-form-340-2026-uj__c0001` – «allen unter Kolonne A angegebenen Erträgen die eidg. Verrechnungssteuer zu meinen oder zu Lasten der von mir vertretenen Steuer»
+  - [Formular 340 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0001.md) `zh-form-340-2026-uj__c0001` – «Bankverbindung für Rückerstattungen Ein allfälliges Guthaben ist wie folgt zu überweisen:»
+  - [Formular 340 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0001.md) `zh-form-340-2026-uj__c0001` – «IBAN-Nr. 2010»
+  - [Formular 340 ZH 2026 UJ S. 1](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0001.md) `zh-form-340-2026-uj__c0001` – «Konto lautend auf 549»
+  - [Formular 340 ZH 2026 UJ S. 3](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0005.md) `zh-form-340-2026-uj__c0005` – «Übertrag ab Formular DA-1 2370 2371»
+  - [Formular 340 ZH 2026 UJ S. 3](../../chunks/zh/2026/zh-form-340-2026-uj/zh-form-340-2026-uj__c0005.md) `zh-form-340-2026-uj__c0005` – «35% von Total Bruttoertrag A 540»
+  - [DA-1 2026 S. 2](../../chunks/bund/2026/bund-form-da1-2026/bund-form-da1-2026__c0007.md) `bund-form-da1-2026__c0007` – «insgesamt den Betrag von 100 Franken nicht übersteigen, so wird»
 
 ## Hilfsblatt Liegenschaften
 
@@ -1937,7 +2037,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - Liegenschaftsunterhalt Pauschale – Gebäude bis 10 Jahre (%): Kanton **20 % (Pauschalabzug für Unterhalts- und Verwaltungskosten von Liegenschaften des Privatvermögens: 20 % des Brutto-Mietertrags bzw. Mietwerts je Liegenschaft; ZH kennt keine Abstufung nach Gebäudealter. Wahl pro Liegenschaft und Steuerperiode; nicht bei ganz oder vorwiegend geschäftlich genutzten Liegenschaften; daneben nur Baurechtszinsen abziehbar.)** · Bund **10 % (Pauschalabzug Liegenschaftskosten (anstelle effektiver Kosten, Wahl pro Periode und Liegenschaft): 10 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, wenn das Gebäude zu Beginn der Steuerperiode bis 10 Jahre alt ist.)**
   - Liegenschaftsunterhalt Pauschale – Gebäude über 10 Jahre (%): Kanton **20 % (Gleicher Satz wie für jüngere Gebäude: 20 % des Brutto-Mietertrags bzw. Mietwerts (keine Altersabstufung in ZH).)** · Bund **20 % (Pauschalabzug 20 % des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, wenn das Gebäude zu Beginn der Steuerperiode mehr als 10 Jahre alt ist.)**
   - Eigenmietwert – Einschlag/Abzug für selbstbewohnte Liegenschaft (%): Kanton **10 % (Eigenmietwert: Für Liegenschaften bis und mit Baujahr 2025 gelten weiterhin die Eigenmietwerte nach Weisung 2009 (ohne Erhöhung); für Neubauten ab 2026 gilt die Weisung 2026 mit einem pauschalen Abzug von 10 % zum Ausgleich der höheren Eigenmietwerte. Selbstgenutzte Wohnungen in Mehrfamilien-/Geschäftshäusern: 70 % des erzielbaren Mietzinses. Gesetzliche Leitlinie: Eigenmietwert max. 70 % des Marktwerts.)** · Bund **n/a – Bund: kein prozentualer Einschlag/Abzug auf dem Eigenmietwert; Festsetzung nach ortsüblichen Verhältnissen (Art. 21 Abs. 2 DBG), kantonale Eigenmietwert-Bewertung. Ein im kantonalen Veranlagungsverfahren vorgesehener Abzug für die DBSt (z.B. TG: 20 %, siehe werte-tg) ist kantonale Vollzugspraxis, kein Widerspruch.**
-- **Bemerkung:** korrigiert durch Prüfung: Zitate durch wörtliche Textstellen (Code 3953; Deklarationspflicht aller Liegenschaften) ersetzt. Detailregeln in c0172/c0173 bei Bedarf direkt prüfen.
+- **Bemerkung:** korrigiert durch Prüfung: Zitate durch wörtliche Textstellen (Code 3953; Deklarationspflicht aller Liegenschaften) ersetzt. Detailregeln in c0172/c0173 bei Bedarf direkt prüfen. Formular 2026 (UJ): bestaetigt; Codes Steuerwert 5531ff (Ertragswert) / 5541ff (Verkehrswert), Totale 3952 → Ziff. 31.2 (Code 422) / 3951 → Ziff. 31.1 (Code 421); Übertrag 578; Nettoertrag 3953 → Ziff. 6 (Hauptformular Code 188)
 - **Quellen:**
   - [WL ZH 2026 UJ S. 27](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0177.md) `zh-wl-2026-uj__c0177` – «Nettoertrag aus Liegenschaften 3953»
   - [WL ZH 2026 UJ S. 27](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0173.md) `zh-wl-2026-uj__c0173` – «Es sind alle Liegenschaften zu deklarieren, auch jene in anderen Kantonen oder»
@@ -1955,3 +2055,13 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [WL ZH 2026 UJ S. 28–29](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0192.md) `zh-wl-2026-uj__c0192` – «ist der Steuererklärung eine detaillierte Aufstellung über diese Aufwendungen (enthaltend»
   - [WL ZH 2026 UJ S. 28](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0191.md) `zh-wl-2026-uj__c0191` – «Wird der Pauschalabzug beansprucht, können (mit Ausnahme der Baurechtszinsen, siehe»
   - [WL ZH 2026 UJ S. 30](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0209.md) `zh-wl-2026-uj__c0209` – «Übertrag der Zahlen aus weiteren Liegenschaftenverzeichnissen 578»
+  - [Formular 300 ZH 2026 UJ S. 2](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0006.md) `zh-form-300-2026-uj__c0006` – «6. Nettoertrag aus Liegenschaften Liegenschaftenverzeichnis 188»
+  - [Formular 300 ZH 2026 UJ S. 4](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0012.md) `zh-form-300-2026-uj__c0012` – «31. Liegenschaften, Verkehrswert gemäss Neufestsetzung ab 1.1. 2026»
+  - [Formular 300 ZH 2026 UJ S. 4](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0012.md) `zh-form-300-2026-uj__c0012` – «31.1 Zum Verkehrswert besteuert Liegenschaftenverzeichnis 421»
+  - [Formular 300 ZH 2026 UJ S. 4](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0012.md) `zh-form-300-2026-uj__c0012` – «31.2 Zum Ertragswert besteuert (Land- oder Forstwirtschaft) Liegenschaftenverzeichnis 422»
+  - [Formular 300 ZH 2026 UJ S. 4](../../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0012.md) `zh-form-300-2026-uj__c0012` – «Die Liegenschaftenneubewertung per 1.1.2026 ist zusammen mit der Steuererklärung 2026 einzureichen»
+  - [Formular 350 ZH S. 1](../../chunks/zh/2025/zh-form-350/zh-form-350__c0001.md) `zh-form-350__c0001` – «Art Fläche in m2 5531 13213211 5541 113213211»
+  - [Formular 350 ZH S. 1](../../chunks/zh/2025/zh-form-350/zh-form-350__c0002.md) `zh-form-350__c0002` – «Total 3952 13213211 3951 113213211»
+  - [Formular 350 ZH S. 1](../../chunks/zh/2025/zh-form-350/zh-form-350__c0002.md) `zh-form-350__c0002` – «erklärung Seite 4, Ziffer 31.2 erklärung Seite 4, Ziffer 31.1»
+  - [Formular 350 ZH S. 2](../../chunks/zh/2025/zh-form-350/zh-form-350__c0004.md) `zh-form-350__c0004` – «Übertrag der Zahlen aus weiteren Liegenschaftenverzeichnissen 578 13213211 Nettoertrag aus Liegenschaften 3953»
+  - [Formular 350 ZH S. 2](../../chunks/zh/2025/zh-form-350/zh-form-350__c0004.md) `zh-form-350__c0004` – «Nettoertrag aus Liegenschaften 3953 13213211 ▸ Zu übertragen in die Steuer- erklärung Seite 2, Ziffer 6»

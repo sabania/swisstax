@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 68 Daten-Einträgen und 13 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-300-2026-uj`).
+Zitiert in 72 Daten-Einträgen und 13 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-300-2026-uj`).
 
 - `data/zuordnung/zh/2026.yaml#0:personalien@S. 1 Personalien` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#10:einkommen.ersatz.taggelder@3.3` (agent-geprueft)
@@ -40,10 +40,12 @@ Zitiert in 68 Daten-Einträgen und 13 handgeschriebenen Seiten (`python3 tools/i
 - `data/zuordnung/zh/2026.yaml#44:abzug.vorsorge.saeule3a@14.1 / 14.2` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#45:abzug.vorsorge.saeule3a_einkauf@14.3` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#46:abzug.versicherungspraemien@15` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#48:abzug.versicherungspraemien@Form. 365 Teil B (Ziff. 1–3)` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#49:abzug.vorsorge.saeule2_einkauf@16.1` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#4:einkommen.unselbstaendig.nebenerwerb@1.2` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#50:abzug.ahv_nichterwerbstaetige@16.1` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#51:abzug.weiterbildung@16.2` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#52:abzug.weiterbildung@Form. 367` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#54:abzug.behinderungskosten@16.4` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#55:abzug.parteispenden@16.5 (Parteien)` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#56:abzug.teilbesteuerung_beteiligungen@16.5 (Teilbesteuerung)` (agent-geprueft)
@@ -55,9 +57,7 @@ Zitiert in 68 Daten-Einträgen und 13 handgeschriebenen Seiten (`python3 tools/i
 - `data/zuordnung/zh/2026.yaml#61:berechnung.total@19` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#62:berechnung.total@20` (agent-geprueft)
 - `data/zuordnung/zh/2026.yaml#63:berechnung.total@21` (agent-geprueft)
-- `data/zuordnung/zh/2026.yaml#64:abzug.krankheitskosten@22.1` (agent-geprueft)
-- `data/zuordnung/zh/2026.yaml#66:abzug.spenden@22.2` (agent-geprueft)
-- … 28 weitere
+- … 32 weitere
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)
 - [wiki/themen/erwerbsersatz-taggelder.md](../../themen/erwerbsersatz-taggelder.md)
 - [wiki/themen/interkantonale-ausscheidung.md](../../themen/interkantonale-ausscheidung.md)

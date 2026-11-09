@@ -658,14 +658,14 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Beachten:** Gekürzt, wenn eine Hauptmahlzeit vom AG verbilligt oder in Kantine/Personalrestaurant möglich
 - ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#form-4-ziff-4-2-abzug-berufskosten-wochenaufenthalt) · [StB 39 Nr. 5 S. 1–2](../chunks/sg/dauernd/sg-stb-39-5/sg-stb-39-5__c0003.md)
 
-### Form. 4 Ziff. 5 · Kosten bei unselbständiger Nebenerwerbstätigkeit: 20% der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2'400 ☑️
+### Form. 4 Ziff. 5.1 · Kosten bei unselbständiger Nebenerwerbstätigkeit: 20% der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2'400 ☑️
 - **Rein:** Lohnausweis Nebenerwerb → Ziff. 11 Nettolohn + vergütete Spesen (Form. 1 Ziff. 1.2, Code 104/106) · Arbeitsvertrag Haupterwerb → Pensum (mind. zwei Drittel) · Belege effektive Kosten → nur bei Nachweis höherer Kosten (dann für alle Nebenerwerbe)
 - **Rechnen:** min(max(20 % × Σ Nettoeinkünfte aller Nebenerwerbe; 800); 2'400) – Kanton = Bund; Kanton: Einkünfte < 800 → max. = Einkünfte; UJ: × Tage ÷ 360
 - **Limite (Kanton / Bund):** Pauschale in % der Nebeneinkünfte: 20 % / 20 % · Pauschale Minimum (CHF): CHF 800 / CHF 800 · Pauschale Maximum (CHF): CHF 2'400 / CHF 2'400
 - **Beachten:** Setzt Haupterwerb von mind. zwei Drittel Normalpensum voraus; einzige Erwerbstätigkeit = Haupterwerb
 - **Beachten:** Pauschale deckt auch Fahrkosten und Verpflegung – kein Zusatzabzug dafür
 - **Beachten:** Nur unselbständiger Nebenerwerb; Basis = Nettolohn plus Spesenvergütungen
-- ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#form-4-ziff-5-abzug-berufskosten-nebenerwerb) · [StB 39 Nr. 9 S. 1](../chunks/sg/dauernd/sg-stb-39-9/sg-stb-39-9__c0002.md)
+- ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#form-4-ziff-5-1-abzug-berufskosten-nebenerwerb) · [StB 39 Nr. 9 S. 1](../chunks/sg/dauernd/sg-stb-39-9/sg-stb-39-9__c0002.md)
 
 ## Lohnausweis (Regeln für Steuererklärung)
 

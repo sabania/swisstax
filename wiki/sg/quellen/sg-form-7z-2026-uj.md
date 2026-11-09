@@ -14,6 +14,12 @@ generiert: tools/build_index.py
 - **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31
 - ⚠ **Hinweis:** Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular prüfen.
 
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 1 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-form-7z-2026-uj`).
+
+- `data/zuordnung/sg/2026.yaml#86:vermoegen.liegenschaften@Form. 7 (Liegenschaften)` (agent-geprueft)
+
 ## Inhalt (1 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |

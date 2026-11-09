@@ -111,8 +111,11 @@ Unveränderte Gesetzesfassungen werden nicht dupliziert (eine Konsolidierung = e
 - **Wiki:** 31 Themenseiten, 5 Überblicke, 45 Belegkarten, Detailseiten mit Zitaten, Gültigkeitsseiten je Jahr, Glossar.
 - **Getestet in OpenClaw 2026.11.2** (echte Agent-Turns, unabhängig bewertet): 63/64 Fragen voll richtig (Praxis-, Blind- und
   Positionstest), 0 falsch; Fundstellen, Kanton/Bund-Trennung und Steuerjahr 64/64 – siehe [`eval/laeufe/`](eval/laeufe/).
-- **Lücken:** AR 2026 ohne Formular/Wegleitung (Gerüst); ZH/SG 2026 nur Formular für unterjährige Steuerpflicht; 10 strittige
-  Punkte für die Fachperson; Status ✅ «verifiziert» setzt nur die Fachperson.
+- **Abnahme durch die Fachperson (ausstehend):** priorisierte Checklisten `reports/abnahme-checkliste-2025.md` / `-2026.md`
+  (Wert, Chunk-Link, Zitat; Häkchen → `tools/abnahme.py uebernehmen`), Entscheidungsvorlage zu den 10 strittigen Punkten
+  `reports/entscheidungsvorlage-strittig.md` (je Quellen, Rang, Empfehlung). Status ✅ setzt nur die Fachperson.
+- **Lücken 2026:** reguläre Formulare/Wegleitungen 2026 noch nicht publiziert (Stand 09.11.2026); ZH/SG 2026 stützen sich auf
+  die UJ-Fassungen (Hauptformular und Hilfsblätter), AR 2026 ist ein Gerüst.
 
 Quellenbasis: die Wissensdatenbank-Dateien in `_seed/` (Recherche vom 30.10.2026) plus ergänzte Quellen (Fedlex-XML,
 ESTV-Formulare 2025, Vorgängerfassungen ZStB, VKP ZH, KS 11/18). Chronik: [`log.md`](log.md).

@@ -14,6 +14,22 @@ generiert: tools/build_index.py
 - **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2026-01-01 bis 2026-12-31
 - ⚠ **Hinweis:** Fassung für unterjährige Steuerpflicht 2026 (Wegzug ins Ausland/Tod); reguläres Formular 2026 noch nicht publiziert (Stand 09.11.2026) – Ziffern/Codes voraussichtlich gleich, am regulären Formular prüfen.
 
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 11 Daten-Einträgen und 0 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-form-360-2026-uj`).
+
+- `data/zuordnung/zh/2026.yaml#29:abzug.berufskosten.fahrkosten@Form. 360 Ziff. 1.1` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#30:abzug.berufskosten.fahrkosten@Form. 360 Ziff. 1.2` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#31:abzug.berufskosten.fahrkosten@Form. 360 Ziff. 1.3` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#32:abzug.berufskosten.fahrkosten@Form. 360 Ziff. 1 (Zwischentotal)` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#33:abzug.berufskosten.fahrkosten@Form. 360 Ziff. 7` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#34:abzug.berufskosten.verpflegung@Form. 360 Ziff. 2.1 (verbilligt)` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#35:abzug.berufskosten.verpflegung@Form. 360 Ziff. 2.1 (voll)` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#36:abzug.berufskosten.verpflegung@Form. 360 Ziff. 2.2` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#37:abzug.berufskosten.uebrige@Form. 360 Ziff. 3` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#38:abzug.berufskosten.wochenaufenthalt@Form. 360 Ziff. 4` (agent-geprueft)
+- `data/zuordnung/zh/2026.yaml#39:abzug.berufskosten.nebenerwerb@Form. 360 Ziff. 5` (agent-geprueft)
+
 ## Inhalt (9 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
