@@ -35,6 +35,11 @@ TOOLS = [
                     "Hilfsblätter und Standardabzüge nach Haushalt (Ehepaar, Kinder, Erwerbstätige). Zuerst aufrufen bei kompletten Fällen.",
      "inputSchema": {"type": "object", "properties": {"kanton": {**S, "description": "zh, sg, tg oder ar"}, "jahr": S},
                      "required": ["kanton", "jahr"]}},
+    {"name": "rechne", "fn": lambda a: steuer.rechne(a["ausdruck"]),
+     "description": "Rechnet exakt statt im Kopf: Summen, Differenzen, Prozent, min/max (z.B. \"6'800 + 1'100 + 2*1'100; "
+                    "min(27'300; 25'000); 3% * 103'000\"). Mehrere Rechnungen mit ; trennen, optional «Name = Ausdruck». "
+                    "Jede Summe, jedes Total und jede Limite-Anwendung damit prüfen.",
+     "inputSchema": {"type": "object", "properties": {"ausdruck": S}, "required": ["ausdruck"]}},
     {"name": "beleg", "fn": lambda a: steuer.beleg(a["begriff"], a.get("kanton"), a.get("jahr")),
      "description": "Belegkarte zu einem Dokumenttyp (z.B. Lohnausweis, Steuerauszug, Kita-Rechnung): steuerrelevant?, Werte entnehmen, "
                     "vom Dokument in die Steuererklärung: Feld → Position (Ziffer/Code) → Rechnen → Limite Kanton/Bund; Einreichepflicht (mit Zitat).",

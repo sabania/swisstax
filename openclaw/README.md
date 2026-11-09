@@ -20,7 +20,7 @@ openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     
 
 - Das Plugin bringt 3 Skills (`belege-ablage`, `steuererklaerung-np`, `steuerwiki`) und den
   MCP-Server `steuerwiki` mit den Tools `steuerwiki__ablage`, `__beleg`, `__formular`, `__position`, `__wert`, `__vergleich`,
-  `__suche`, `__zeige`.
+  `__rechne`, `__suche`, `__zeige`.
 - **Ablage-Kategorien:** die Liste der Firma als `KATEGORIEN.md` in den Workspace legen (`cp kategorien/<firma>.md <ws>/KATEGORIEN.md`;
   Vorlage `kategorien/vorlage.md`, Beispiel `kategorien/consis.md`). Der Agent liest sie und ordnet danach ein – austauschbar ohne Neubau des Plugins. Voraussetzung: `python3` auf dem Gateway-Host (nur Standardbibliothek).
 - **Kein `tools.fs.workspaceOnly` für diesen Agenten setzen.** OpenClaw legt Plugin-Skills unter `<state>/plugin-skills/` ab und

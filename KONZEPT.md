@@ -181,6 +181,7 @@ Aufruf, und L1 liefert in einem Aufruf das, wofür der Agent früher 5–10 Date
 |---|---|
 | `ablage "<titel/text>" --kanton --jahr` | Dokument: Typ (Top 3), steuerrelevant, Steuerjahr, Einreichepflicht, Sicherheit (Kategorie danach aus `KATEGORIEN.md`) |
 | `beleg <stichwort> --kanton --jahr` | Belegkarte: relevant?, Feld → Position → Rechnen → Limite, Einreichepflicht (Zitat) |
+| `rechne "<ausdruck; …>"` | exakte Rechnung (Summen, Totale, %, min/max, Zahlen mit Apostroph) – gegen Kopfrechenfehler kleiner Modelle |
 | `formular <kt> <jahr>` | ganze Steuererklärung: alle Positionen in Formularreihenfolge mit Limiten Kanton \| Bund, Hilfsblätter, Standardabzüge nach Haushalt (Gerüst für komplette Fälle) |
 | `position <kt> <jahr> <ziffer\|"Form. <nr>"\|"Code <nr>"\|stichwort>` | Formularposition (Ziffer/Code, auch Hilfsblätter und Lohnausweis-Felder): Rein, Rechnen, Regel, Limite Kanton/Bund, Bundesspalte, Beachten, Belege mit Einreichepflicht |
 | `wert <jur> <jahr> <stichwort>` / `vergleich <jahr> <stichwort>` | Eckwerte mit Zitat, Chunk, Status (Kanton + Bund) / alle Jurisdiktionen nebeneinander |

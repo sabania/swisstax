@@ -20,7 +20,9 @@ import steuer  # noqa: E402
 def pruefe(c, top=3):
     j, jahr, e = c["jur"], str(c["jahr"]), str(c["eingabe"])
     if c.get("enthaelt") or c.get("nicht_enthaelt"):
-        if c["befehl"] in ("ablage", "beleg"):
+        if c["befehl"] == "rechne":
+            out = steuer.rechne(e)
+        elif c["befehl"] in ("ablage", "beleg"):
             out = getattr(steuer, c["befehl"])(e, j, jahr)
         else:
             out = (steuer.wert if c["befehl"] == "wert" else steuer.position)(j, jahr, e)

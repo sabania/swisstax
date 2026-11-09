@@ -5,7 +5,7 @@ description: Steuererklärung natürliche Person ausfüllen (AR/SG/TG/ZH + Bund)
 
 # Steuererklärung ausfüllen (Formularpositionen: Ziffer/Code des amtlichen Formulars)
 
-Werkzeug: `steuerwiki__formular`, `__beleg`, `__position`, `__wert`, `__vergleich` (ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
+Werkzeug: `steuerwiki__formular`, `__beleg`, `__position`, `__wert`, `__vergleich`, `__rechne` (ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
 Ergebnis: Werte je Position mit Beleg-Referenz und Fundstelle. Fachliche Verantwortung: Fachperson.
 
 ## 1. Rahmen und Gerüst
@@ -21,7 +21,8 @@ Fehlendes als «fehlender Beleg» ausweisen; fehlende Belege blockieren die übr
 2. `position <kt> <jahr> <ziffer>` nur, wenn Regel, Beachten, Fundstelle oder die Bundesspalte gebraucht werden oder etwas unklar ist
    (die Ausgabe sagt auch, wie der Bund im Formular erfasst wird: eigene Spalte, eine Spalte oder keine Bundesspalte).
    Hilfsblatt komplett: `position <kt> <jahr> "Form. <nr>"` (z.B. Berufsauslagen mit allen Codes für Person 1 und 2).
-3. Betrag mit Beleg-Referenz (Datei/Seite) erfassen; Kanton und Bund getrennt, wo Limiten abweichen.
+3. Betrag mit Beleg-Referenz (Datei/Seite) erfassen; Kanton und Bund getrennt, wo Limiten abweichen. **Alle Rechnungen mit
+   `rechne`** (Summen, Totale, Prozente, min/max) – mehrere auf einmal mit «;».
 4. Wert unsicher gelesen → **nie schätzen**: als offenen Punkt «Wert prüfen» ausweisen.
 5. Pauschale vs. effektiv: beide rechnen, günstigere Variante, wo erlaubt – **je Teilposition**. Die Berufskosten-Pauschale ersetzt
    nur die übrigen Berufskosten; Fahrkosten (Abo, Velo, Auto) und Verpflegung kommen immer dazu (Total = Summe der Teilziffern).

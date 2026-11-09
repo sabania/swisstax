@@ -8,6 +8,7 @@ Für Agenten (auch kleine Modelle): EIN Aufruf liefert die kompakte, belegte Ant
   python3 tools/steuer.py vergleich <jahr> <begriff>                    alle Kantone + Bund nebeneinander (Vergleich/Rangfolge)
   python3 tools/steuer.py position <kanton> <jahr> <ziffer|begriff>  Formularposition (Ziffer/Code): rein, rechnen, Limite, Belege
   python3 tools/steuer.py formular <kanton> <jahr>                     ganze Steuererklärung: alle Positionen in Reihenfolge + Standardabzüge
+  python3 tools/steuer.py rechne "6'800 + 1'100 + 2*1'100; min(14'000; 25'000)"   exakt rechnen statt Kopfrechnen
   python3 tools/steuer.py beleg <begriff> [--kanton zh] [--jahr 2025] Belegkarte: relevant?, Feld → Position → Rechnen, einreichen?
   python3 tools/steuer.py ablage "<Titel/Text des Dokuments>" [--kanton zh] [--jahr 2025]   Dokument: Typ, relevant?, Steuerjahr, einreichen?
   python3 tools/steuer.py suche "<begriffe>" [--jur zh] [--jahr 2025]   Volltextsuche über alle Chunks (L2)
@@ -603,6 +604,58 @@ def position(kt, jahr, arg, n=3) -> str:
     return "\n".join(out)
 
 
+# ---------------------------------------------------------------- Rechnen (gegen Kopfrechenfehler)
+def rechne(ausdruck) -> str:
+    """Rechnet einen Ausdruck exakt: + - * / ( ), %, min(), max(), round(), abs(); Zahlen auch als 6'800 oder 1'069'800.
+    Mehrere Rechnungen mit «;» trennen, optional «Name = Ausdruck»."""
+    import ast
+    import operator as op
+    ops = {ast.Add: op.add, ast.Sub: op.sub, ast.Mult: op.mul, ast.Div: op.truediv, ast.USub: op.neg, ast.UAdd: op.pos}
+    funcs = {"min": min, "max": max, "round": round, "abs": abs}
+
+    def ev(n):
+        if isinstance(n, ast.Constant) and isinstance(n.value, (int, float)):
+            return n.value
+        if isinstance(n, ast.BinOp) and type(n.op) in ops:
+            return ops[type(n.op)](ev(n.left), ev(n.right))
+        if isinstance(n, ast.UnaryOp) and type(n.op) in ops:
+            return ops[type(n.op)](ev(n.operand))
+        if isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id in funcs and not n.keywords:
+            return funcs[n.func.id](*[ev(a) for a in n.args])
+        raise ValueError("nicht erlaubt")
+
+    def fmt(x):
+        if isinstance(x, float) and abs(x - round(x)) < 1e-9:
+            x = int(round(x))
+        if isinstance(x, int):
+            return f"{x:,}".replace(",", "'")
+        return f"{x:,.2f}".replace(",", "'")
+
+    out = []
+    teile, tiefe, akt = [], 0, ""
+    for ch in str(ausdruck):
+        tiefe += (ch == "(") - (ch == ")")
+        if ch in ";\n" and tiefe == 0:
+            teile.append(akt)
+            akt = ""
+        else:
+            akt += ch
+    teile.append(akt)
+    for teil in [t.strip() for t in teile if t.strip()]:
+        name, expr = (teil.split("=", 1) + [""])[:2] if re.match(r"^[^=()]+=[^=]", teil) else ("", teil)
+        e = expr.strip() or teil
+        e2 = re.sub(r"(?<=\d)['’](?=\d{3})", "", e).replace("×", "*").replace("÷", "/")
+        e2 = re.sub(r"(?<=[\d)\s])x(?=[\s\d(])", "*", e2)
+        e2 = e2.replace(";", ",")
+        e2 = re.sub(r"(\d+(?:\.\d+)?)\s*%", r"(\1/100)", e2)
+        try:
+            v = ev(ast.parse(e2, mode="eval").body)
+            out.append(f"{name.strip() + ' = ' if name.strip() else ''}{e.strip()} = **{fmt(v)}**")
+        except Exception:
+            out.append(f"{teil}: nicht rechenbar (erlaubt: Zahlen, + - * / ( ), %, min, max, round, abs)")
+    return "\n".join(out)
+
+
 # ---------------------------------------------------------------- Formular-Gerüst (ganze Steuererklärung)
 CHECK = [
     ("Ehepaar / eingetragene Partner", ["sozialabzug.verheiratete", "versicherung.verheiratet", "zweiverdiener.satz",
@@ -694,7 +747,7 @@ def formular(kt, jahr) -> str:
             "- Unklarer Sachverhalt (z.B. Heimkehr über Mittag, Arbeitstage): Standardfall erfassen, Annahme offenlegen, Alternative mit "
             "Betrag nennen, Rückfrage formulieren – keinen Abzug aus einer eigenen Annahme streichen.",
             "- Nur belegte Hinweise geben; Nebenbemerkungen ohne Fundstelle (z.B. zu Vermögen, Zulagen) weglassen oder «nicht geprüft».",
-            "- Alle Totale mit Ziffer ausweisen; steuerbares Einkommen Kanton und Bund auf Plausibilität vergleichen."]
+            "- Alle Totale mit Ziffer ausweisen und mit `rechne` rechnen (nie im Kopf); steuerbares Einkommen Kanton und Bund auf Plausibilität vergleichen."]
     return "\n".join(out)
 
 
@@ -1146,6 +1199,7 @@ def main(argv=None):
         a = sp.add_parser(name)
         a.add_argument("woerter", nargs="+", help="Kanton/Jur, Jahr und Begriff/Ziffer in beliebiger Reihenfolge")
         a.add_argument("--jur"); a.add_argument("--kanton"); a.add_argument("--jahr")
+    a = sp.add_parser("rechne"); a.add_argument("ausdruck", nargs="+")
     a = sp.add_parser("formular"); a.add_argument("woerter", nargs="+", help="Kanton und Jahr"); a.add_argument("--kanton"); a.add_argument("--jahr")
     a = sp.add_parser("ablage"); a.add_argument("text", nargs="+"); a.add_argument("--kanton"); a.add_argument("--jur"); a.add_argument("--jahr")
     a = sp.add_parser("suche"); a.add_argument("query", nargs="+"); a.add_argument("--jur"); a.add_argument("--kanton"); a.add_argument("--jahr"); a.add_argument("--typ"); a.add_argument("-n", type=int, default=8)
@@ -1165,6 +1219,8 @@ def main(argv=None):
             print(wert(jur, jahr, rest))
         else:
             print(position(jur, jahr, rest))
+    elif x.cmd == "rechne":
+        print(rechne(" ".join(x.ausdruck)))
     elif x.cmd == "formular":
         jur, jahr, _ = zerlege(x.woerter, x.kanton, x.jahr)
         print(formular(jur, jahr) if jur and jahr else "Kanton und Jahr angeben, z.B. `formular zh 2025`.")

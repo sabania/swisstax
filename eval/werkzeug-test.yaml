@@ -50,3 +50,7 @@ faelle:
 - {befehl: ablage, jur: zh, jahr: "2025", eingabe: "Portal-Upload: Freigabequittung zur elektronisch eingereichten Steuererklärung 2025, Kanton Zürich, unterschrieben von beiden Ehegatten, mit Freigabecode", enthaelt: "kein Steuerbeleg"}
 - {befehl: beleg, jur: zh, jahr: "2025", eingabe: Freigabequittung, enthaelt: "kein Steuerbeleg"}
 - {befehl: ablage, jur: zh, jahr: "2025", eingabe: "Police Hausratversicherung und Privathaftpflicht 2025", enthaelt: "keine Steuerbeleg-Kategorie"}
+# Rechner (H5/H6: Kopfrechenfehler 150'000 + 20'000 = 190'000; 6'800 + 1'100 + 2 × 1'100 = 10'200)
+- {befehl: rechne, jur: "-", jahr: "-", eingabe: "150'000 + 20'000", enthaelt: "**170'000**"}
+- {befehl: rechne, jur: "-", jahr: "-", eingabe: "6'800 + 1'100 + 2 × 1'100", enthaelt: "**10'100**"}
+- {befehl: rechne, jur: "-", jahr: "-", eingabe: "min(27'300; 25'000); 3% * 103'000", enthaelt: "**3'090**"}

@@ -23,6 +23,7 @@ nie mit `jur=bund` suchen, sondern `position <kt> …`.
 | Ausfüllen: Formularziffer/Code, rechnen, Bundesspalte; Abzüge mit Beträgen | `position <kt> <jahr> <ziffer, "Form. <nr>" oder stichwort>` |
 | Zahl, Limite, Pauschale, Frist, Zins (ein Kanton) | `wert <bund\|zh\|sg\|tg\|ar> <jahr> <stichwort>` |
 | Vergleich mehrerer Kantone, «höchster/tiefster» | `vergleich <jahr> <stichwort>` |
+| Rechnen (Summen, Totale, %, min/max) – nie im Kopf | `rechne "<ausdruck; ausdruck …>"` |
 | Alles andere | `suche "<begriffe>" --jur <kt> --jahr <jahr>` → `zeige <chunk-id>` |
 
 **Kategorie** (bei jeder Ablage-Frage selbst bestimmen und nennen – `KATEGORIEN.md` lesen, nicht an den Benutzer delegieren):
