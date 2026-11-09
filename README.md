@@ -125,11 +125,13 @@ Unveränderte Gesetzesfassungen werden nicht dupliziert (eine Konsolidierung = e
   Positionstest), 0 falsch; Fundstellen, Kanton/Bund-Trennung und Steuerjahr 64/64. Ende-zu-Ende: 4 vollständige
   Steuererklärungen (ZH/SG/TG/AR 2025): nach Tuning 4 von 4 «einreichbar nach Kontrolle» (erster Lauf 103/109 Positionen) – siehe [`eval/laeufe/`](eval/laeufe/).
 - **Kleines Modell (Haiku) mit Plugin** (E4 in [`eval/laeufe/experimente.md`](eval/laeufe/experimente.md)): Positionsfragen 10/10,
-  Ablage 8/8, 40 eingehende Dokumente 40/40, ganze Steuerfälle 96–100/109 Positionen (Start: 78), Praxisfragen 31–36/40
+  Ablage 8/8, 40 eingehende Dokumente 40/40, ganze Steuerfälle 98–109/111 Positionen (Start: 78/109), Praxisfragen 31–36/40
   (Streuung); ~25 % schneller und halb so viele Werkzeugaufrufe wie mit Dateisuche. Werkzeug-Wortsuche (`eval/werkzeug_test.py`):
   frisch erzeugte Eingaben 72 % → 98 % Treffer.
-- **Sonnet mit Plugin:** Fachfragen 39/40, Ablage 8/8, ganze Steuerfälle ZH/SG/TG fehlerfrei – empfohlenes Modell für
-  Fachfragen und komplette Erklärungen; Haiku für Belegeingang/Ablage (Modellwahl: [`openclaw/README.md`](openclaw/README.md)).
+- **Sonnet mit Plugin (Endstand, zweistufig nachgeprüft):** ganze Steuererklärungen ZH/SG/TG/AR in drei Läufen hintereinander
+  fehlerfrei (3× 111/111 Positionen, je 4/4 «einreichbar nach Kontrolle»), Positionen 10/10, Blindtest 14/14, Ablage 8/8,
+  Fachfragen 38–39/40 – empfohlenes Modell des Steuer-Agenten; Haiku für Belegeingang/Ablage (Modellwahl:
+  [`openclaw/README.md`](openclaw/README.md), Messungen: [`eval/laeufe/experimente.md`](eval/laeufe/experimente.md)).
 - **Abnahme durch die Fachperson (ausstehend):** priorisierte Checklisten `reports/abnahme-checkliste-2025.md` / `-2026.md`
   (Wert, Chunk-Link, Zitat; Häkchen → `tools/abnahme.py uebernehmen`), Entscheidungsvorlage zu den 11 strittigen Punkten
   `reports/entscheidungsvorlage-strittig.md` (je Quellen, Rang, Empfehlung). Status ✅ setzt nur die Fachperson.

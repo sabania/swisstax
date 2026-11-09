@@ -143,7 +143,32 @@ Kinderalimente versteuert → danach in der Position präzisiert), Ablage + Ausf
 Artefakt: Sonnet hängte teils die Erststart-Frage aus `BOOTSTRAP.md` an («Wie möchtest du mich nennen?») → Datei im Workspace
 des Steuer-Agenten entfernen (openclaw/README.md).
 
-**Modellwahl:** Sonnet + Plugin erreicht in allen Testsätzen Bestwerte (Fachfragen 39/40, ganze Erklärungen ohne Grundfehler);
+**Endmessung mit Nachprüfung (H14–H19, S2–S4).** Bewertung neu zweistufig: je Fall bzw. Fragenpaket eine unabhängige Prüferin
+gegen Musterlösung und Primärquellen, danach prüft eine zweite, skeptische Prüferin jede Abweichung und jede Aussage
+«Musterlösung falsch» (`bewertung-faelle-H14-S2.md`, `bewertung-faelle-endstand.md`, `bewertung-fragen-S2-S3-H17.md`).
+Musterlösungen ZH/TG/AR um die Verwaltungskosten-Pauschale ergänzt (Befund S1; neue Quelle ZStB 30.1). Änderungen dazwischen:
+Kantonswerte in `wert bund` bei kantonal geregelten Schlüsseln, Einstieg «TG = Thurgau (kein Kanal-Kürzel)» (OpenClaw stellt einen
+Zeitstempel vor die Frage), Formular-Gerüst mit Block «Pauschalen ohne Beleg», Rundung, Vermögens-Sozialabzüge, VSt-Anspruch;
+Daten: Bankdepot genügt für die Pauschale, TG-Bundesansatz Eigenmietwert, ZH-Kita-Verpflegung, VSt-Eckwert, 3a-Einkauf 2025.
+
+| Lauf | Modell | Ganze Fälle (111 Positionen) | Praxis (40) | Positionen (10) | Blind (14) | Ablage (8) |
+|---|---|---|---|---|---|---|
+| S2 | Sonnet | **111/111** (4/4 einreichbar) | 39/40 | – | – | – |
+| S3 | Sonnet (Endstand ohne Pauschalen-Block) | **111/111** (4/4) | 38/40 | **10/10** | **14/14** | **8/8** |
+| S4 | Sonnet (Endstand) | **111/111** (4/4) | q13, q31 richtig | – | – | – |
+| H14A/B | Haiku | 109 / 107 | – | – | – | – |
+| H17A/B | Haiku | 98 / 107 | 34 / 32 | – | – | – |
+| H18A/B | Haiku (mit Pauschalen-Block) | 106 / 104 (ZH, SG, TG je fehlerfrei) | – | – | – | – |
+| H19 (4× AR) | Haiku (Pauschale zuerst) | AR 32, 32, 31, 30 von 32 | – | – | – | – |
+
+Kantonskürzel q13 («TG: … (Kanton vs. Bund)?»): H13 0/2 → H14 5/6 (Kantonswerte in `wert bund`) → H15 **10/10** (Einstieg
+«TG = Thurgau»); q16 10/10. Sonnet: richtig in S1–S4.
+Lesart: Sonnet liefert die ganzen Erklärungen in drei Läufen hintereinander fehlerfrei (333/333 Positionen) und ist bei
+Positionen, Blindtest und Ablage fehlerfrei; die 1–2 Abzüge im Praxistest betreffen Nebenaussagen (danach in den Daten
+präzisiert). Haiku streut weiter (ganze Fälle 98–109/111, Praxis 32–34/40): Auslassungen zustehender Pauschalen, Ziffern
+zusammengezogen, falsche Nebenaussagen – Modellgrenzen bei korrekter Werkzeugausgabe.
+
+**Modellwahl:** Sonnet + Plugin erreicht in allen Testsätzen Bestwerte (ganze Erklärungen 3× 111/111, Fachfragen 38–39/40);
 Haiku + Plugin ist für Belegeingang/Ablage gleich gut und schneller, bei Fachfragen und ganzen Erklärungen aber mit Streuung.
 Empfehlung in `openclaw/README.md` («Modellwahl»).
 

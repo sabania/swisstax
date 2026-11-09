@@ -41,14 +41,16 @@ openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     
 |---|---|---|---|
 | Eingehende Dokumente einordnen (Typ, relevant, Steuerjahr, einreichen, Kategorie) | 40/40 | – | Haiku |
 | Ablage + Ausfüllen einzelner Belege | 8/8 | 8/8 | Haiku |
-| Positionsfragen (wo eintragen, wie rechnen) | 8–10/10 | 9/10 | beide |
-| Fachfragen (Praxistest, 40) | 31–36 (Streuung) | **39/40** | Sonnet |
-| Ganze Steuererklärung (4 Fälle, 109 Positionen) | 94–108 je Lauf (zuletzt 108 und 107) | 105/110 (ZH, SG, TG fehlerfrei; AR mit zusätzlicher zulässiger Pauschale) | Sonnet; Haiku mit Kontrolle |
+| Positionsfragen (wo eintragen, wie rechnen) | 8–10/10 | **10/10** | beide |
+| Blindtest (unabhängig erstellte Fragen) | – | **14/14** | Sonnet |
+| Fachfragen (Praxistest, 40) | 31–36 (Streuung) | **38–39/40** | Sonnet |
+| Ganze Steuererklärung (4 Fälle, 111 Positionen) | 98–109 je Lauf | **111/111 in 3 Läufen** (je 4/4 «einreichbar nach Kontrolle») | Sonnet |
 
 - **Empfehlung:** Sonnet als Modell des Steuer-Agenten (`agents.defaults.model`), wenn Fachfragen und ganze Erklärungen
   bearbeitet werden. Haiku genügt für Belegeingang und Ablage (hohe Mengen, ~25 % schneller) – als eigener Agent mit eigenem
   Workspace (OpenClaw: ein Modell je Agent-State bzw. `agents.ownership: "explicit"` für mehrere Agenten).
-- Grenze Haiku: Kantonskürzel in Fragen wie «TG: … (Kanton vs. Bund)?» werden teils übergangen; Sonnet beantwortet sie richtig.
+- Grenze Haiku: lässt in ganzen Erklärungen gelegentlich zustehende Pauschalen aus oder zieht Ziffern zusammen und macht
+  unbelegte Nebenaussagen (Werkzeugausgabe jeweils korrekt). Kantonskürzel («TG: …») seit dem Einstieg-Update 10/10.
 - Jede Ausfüllhilfe bleibt eine Vorlage für die Fachperson (Kontrolle der Totale Kanton/Bund); strittige Punkte nennt der Agent
   ausdrücklich (`reports/entscheidungsvorlage-strittig.md`).
 

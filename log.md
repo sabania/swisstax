@@ -95,3 +95,9 @@ Modellempfehlung in openclaw/README.md; BOOTSTRAP.md im Agent-Workspace entferne
 - `formular`: Ausfüllregel «Wertschriften im Bankdepot → Verwaltungskosten-Pauschale prüfen»; `wert bund … ` zeigt bei kantonal geregelten Schlüsseln die Kantonswerte (Haiku q13).
 - Einstieg: Kantonskürzel auch nach dem OpenClaw-Zeitstempel «[… UTC] TG: …». Musterlösungen ZH/TG/AR (eval/faelle-2025.yaml) um die Pauschale ergänzt (Prüferbefund S1: Referenz unvollständig).
 - Entscheidungsvorlage Nr. 11 nachgeprüft: WL-Text verlangt Belege nur zu 13.3 (zh-wl-2025__c0080) → bleibt offen, Agent rät weiter zum Beilegen.
+
+## [2026-11-09] query | Endmessung zweistufig nachgeprüft: Sonnet 3× 111/111, Haiku-Restfehler behoben, wo werkzeugbedingt
+- Sonnet + Plugin: ganze Erklärungen S2/S3/S4 je 111/111 (4/4 einreichbar nach Kontrolle), Positionen 10/10, Blind 14/14, Ablage 8/8, Praxis 38–39/40.
+- Haiku: q13-Kürzel 10/10 (Einstieg «TG = Thurgau», Kantonswerte in `wert bund`); ganze Fälle 98–109/111 (Streuung), Praxis 32–34/40.
+- Werkzeug/Daten: Pauschalen-ohne-Beleg-Block, Bundesansatz aus Kantonseintrag, Hilfsblatt-Codes, Rundung, VSt-Eckwert, 3a-Einkauf 2025, ZH-Kita-Verpflegung.
+- Berichte: eval/laeufe/bewertung-faelle-H14-S2.md, bewertung-faelle-endstand.md, bewertung-fragen-S2-S3-H17.md; experimente.md, README, openclaw/README (Modellwahl), KONZEPT §10.
