@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generiert die Ablage-Seiten (firmenunabhängig) aus data/ablage/, data/einreichen/ und den Belegtypen:
 
-  wiki/ablage/ablage.md          Ablagegruppen, Belegtypen (Relevanz), Verfahrensdokumente, Firmen-Adapter
-  quick/ablage-<kt>-<jahr>.md    je Kanton/Jahr: Belegtyp → relevant → Einreichepflicht (Zitat) → Ablagegruppe → Formularziffern
+  wiki/ablage/ablage.md          Belegtypen (Relevanz), Verfahrensdokumente, Hinweis Kategorienliste
+  quick/ablage-<kt>-<jahr>.md    je Kanton/Jahr: Belegtyp → relevant → Einreichepflicht (Zitat) → Formularziffern
 
   python3 tools/build_ablage.py      (vorher tools/build_lookup.py; danach tools/build_quick.py für den Index)
 """
@@ -13,7 +13,6 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
-os.environ.pop("STEUERWIKI_FIRMA", None)   # Seiten sind firmenunabhängig
 import steuer  # noqa: E402
 from common import today  # noqa: E402
 
@@ -33,41 +32,25 @@ def link_chunk(cid, von):
     return f"[{cid}]({os.path.relpath(ROOT / d, von)})" if d else (cid or "–")
 
 
-def gruppen_kurz(gid):
-    return " oder ".join(steuer.gruppe_name(g).split(" (")[0] for g in gid.split("|"))
-
-
 def uebersicht():
     out = ROOT / "wiki" / "ablage" / "ablage.md"
     out.parent.mkdir(parents=True, exist_ok=True)
     L = [fm({"typ": "thema", "titel": "Ablage eingegangener Dokumente (firmenunabhängig)", "jur": "multi", "jahre": [2025, 2026],
              "quellen": [], "status": "entwurf", "generiert": f"tools/build_ablage.py ({today()})"}),
          "# Ablage eingegangener Dokumente", "",
-         "> Für jedes Dokument: **steuerrelevant?** → **Belegtyp** → **Steuerjahr** (Bescheinigungsjahr) → **Einreichepflicht** des Kantons "
-         "(Wegleitung des Steuerjahres, mit Zitat) → **Ablagegruppe**. Die Gruppen sind firmenunabhängig; eine Firma übersetzt sie mit "
-         "einem Adapter in ihre Ablage ([firmen/README.md](../../firmen/README.md)). Werkzeug: `steuer ablage`, `steuer beleg`, "
-         "`steuer kategorien`. Je Kanton/Jahr: [ZH 2025](../../quick/ablage-zh-2025.md) · [SG 2025](../../quick/ablage-sg-2025.md) · "
+         "> Je Dokument: **steuerrelevant?** → **Belegtyp** → **Steuerjahr** (Bescheinigungsjahr) → **muss es im Kanton eingereicht werden?** "
+         "(Wegleitung des Steuerjahres, mit Zitat) → **Kategorie** aus der Kategorienliste der Firma (`KATEGORIEN.md` im Workspace; "
+         "Vorlage und Beispiel unter [kategorien/](../../kategorien/vorlage.md)). Werkzeug: `steuer ablage`, `steuer beleg`. "
+         "Je Kanton/Jahr: [ZH 2025](../../quick/ablage-zh-2025.md) · [SG 2025](../../quick/ablage-sg-2025.md) · "
          "[TG 2025](../../quick/ablage-tg-2025.md) · [AR 2025](../../quick/ablage-ar-2025.md).", "",
-         "## Ablagegruppen", "", "| Gruppe | ID | Regel |", "|---|---|---|"]
-    L += [f"| **{esc(g['name'])}** | `{g['id']}` | {esc(g['regel'])} |" for g in steuer.L()["gruppen"]]
-    L += ["", "## Belegtypen (Steuerbelege)", "", "| Belegtyp | steuerrelevant | Ablage (ohne Kanton) |", "|---|---|---|"]
+         "## Belegtypen (Steuerbelege)", "", "| Belegtyp | steuerrelevant | Zweck |", "|---|---|---|"]
     for b in steuer.L()["belege"]:
-        gid, why = steuer.ablagegruppe(b["id"])
-        L.append(f"| [{esc(b['name'])}](../belege/beleg-{b['id']}.md) | {b.get('relevanz')} | {esc(gruppen_kurz(gid))} |")
-    L += ["", "## Verfahrens- und Korrespondenzdokumente", "", "| Dokument | Ablagegruppe | Steuerjahr |", "|---|---|---|"]
+        z = b.get("zweck")
+        z = ", ".join(map(str, z)) if isinstance(z, list) else (z or "")
+        L.append(f"| [{esc(b['name'])}](../belege/beleg-{b['id']}.md) | {b.get('relevanz')} | {esc(z)} |")
+    L += ["", "## Dokumente der Steuerbehörde, Steuererklärung, Korrespondenz", "", "| Dokument | Hinweis | Steuerjahr |", "|---|---|---|"]
     for k, d in (steuer.L()["erkennung"].get("verfahrensdokumente") or {}).items():
-        L.append(f"| {esc(d['name'])} (`{k}`) | {esc(steuer.gruppe_name(d['gruppe']))} | {esc(d.get('steuerjahr', 'Jahr des Dokuments'))} |")
-    L += ["", "## Firmen-Adapter", ""]
-    for f, A in (steuer.L().get("firmen") or {}).items():
-        L += [f"**{f}** ({A.get('system')}, Stand {A.get('stand')}; {A.get('status')}) – gepflegt in "
-              f"[firmen/{f}/kategorien.xlsx](../../firmen/{f}/kategorien.xlsx):", "",
-              "| Kategorie | Klasse | was hinein gehört | eingereicht | Ablagegruppen (Wiki) |", "|---|---|---|---|---|"]
-        for k in A.get("kategorien") or []:
-            if not k.get("aktiv", True):
-                continue
-            L.append(f"| {esc(k['name'])} | {esc(k.get('klasse'))} | {esc(steuer.cut(k.get('erklaerung'), 160))} | {esc(k.get('eingereicht'))} | "
-                     f"{esc(', '.join(k.get('gruppen') or []) or '–')} |")
-        L.append("")
+        L.append(f"| {esc(d['name'])} (`{k}`) | {esc(d.get('hinweis'))} | {esc(d.get('steuerjahr', 'Jahr des Dokuments'))} |")
     L.append("")
     out.write_text("\n".join(L), encoding="utf-8")
     return out
@@ -88,16 +71,15 @@ def kanton_seiten():
             L = [fm({"typ": "belege", "titel": f"Ablage {kt.upper()} {j}", "jur": kt, "jahre": [int(j)],
                      "quellen": [f"{kt}-wl-{j}"], "status": "entwurf", "generiert": f"tools/build_ablage.py ({today()})"}),
                  f"# Ablage – {steuer.NAME[kt]} Steuerjahr {j}", "",
-                 "> Je Belegtyp: steuerrelevant? → Einreichepflicht laut Wegleitung (Fundstelle) → **Ablagegruppe** → Formularziffern "
+                 "> Je Belegtyp: steuerrelevant? → muss er eingereicht werden (Wegleitung, Fundstelle)? → Formularziffern "
                  f"(Positionen, wie in DrTax/amtlichem Formular). Ziffer im Detail: `steuer position {kt} {j} <ziffer>` bzw. {wl}. "
-                 "Gruppen und Firmen-Adapter: [Ablage](../wiki/ablage/ablage.md).", ""]
+                 "Die Ablage-Kategorie kommt aus der Kategorienliste der Firma (`KATEGORIEN.md`); Übersicht: [Ablage](../wiki/ablage/ablage.md).", ""]
             if not er:
                 L += [f"> ⚠️ Für {kt.upper()} {j} ist keine Einreichepflicht aus der Wegleitung erfasst – bei «je nach Kanton» prüfen.", ""]
             for g in (er.get("allgemein") or [])[:6]:
                 L.append(f"- Allgemein: {esc(g.get('regel'))} ({link_chunk(g.get('chunk'), out.parent)} «{esc(steuer.cut(g.get('zitat'), 120))}»)")
-            L += ["", "| Belegtyp | relevant | einreichen (Fundstelle) | Ablagegruppe | Ziffern |", "|---|---|---|---|---|"]
+            L += ["", "| Belegtyp | relevant | einreichen (Fundstelle) | Ziffern |", "|---|---|---|---|"]
             for b in steuer.L()["belege"]:
-                gid, _ = steuer.ablagegruppe(b["id"], kt, j)
                 e = steuer.einreichen(b["id"], kt, j)
                 ein = "–"
                 if e:
@@ -105,8 +87,7 @@ def kanton_seiten():
                     if e.get("chunk"):
                         ein += f" ({link_chunk(e['chunk'], out.parent)})"
                 zf = " · ".join(steuer.zf(p) for p in pos if b["id"] in (p.get("belege") or []))[:300] or "–"
-                L.append(f"| [{esc(b['name'].split('(')[0].strip())}](../wiki/belege/beleg-{b['id']}.md) | {b.get('relevanz')} | {ein} | "
-                         f"{esc(gruppen_kurz(gid))} | {esc(zf)} |")
+                L.append(f"| [{esc(b['name'].split('(')[0].strip())}](../wiki/belege/beleg-{b['id']}.md) | {b.get('relevanz')} | {ein} | {esc(zf)} |")
             L.append("")
             out.write_text("\n".join(L), encoding="utf-8")
             outs.append(out)

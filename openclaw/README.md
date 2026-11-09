@@ -10,16 +10,18 @@ Testfragen: [`../eval/openclaw-lauf.md`](../eval/openclaw-lauf.md).
 Getestet mit OpenClaw 2026.11.2 und Haiku/Sonnet über die `claude-cli`-Runtime.
 
 ```bash
-python3 tools/build_plugin.py --tgz [--firma consis]    # → dist/steuerwiki-plugin/ (und .tgz, ≈ 7 MB); --firma: Ablage-Adapter
+python3 tools/build_plugin.py --tgz                     # → dist/steuerwiki-plugin/ (und .tgz, ≈ 7 MB)
 openclaw plugins install dist/steuerwiki-plugin --force --accept-capabilities   # lokale Quelle → --force
 openclaw plugins inspect steuerwiki                     # Format: bundle (claude) · Bundle capabilities: skills, mcpServers
 cat openclaw/AGENTS.workspace-snippet.md >> <workspace>/AGENTS.md                # L0-Einstieg (≈ 2 KB)
+cp kategorien/consis.md <workspace>/KATEGORIEN.md                               # Kategorienliste der Firma
 openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     # → 1 Aufruf steuerwiki__wert
 ```
 
 - Das Plugin bringt 3 Skills (`belege-ablage`, `steuererklaerung-np`, `steuerwiki`) und den
-  MCP-Server `steuerwiki` mit den Tools `steuerwiki__ablage`, `__beleg`, `__kategorien`, `__position`, `__wert`, `__vergleich`,
-  `__suche`, `__zeige`. Firmen-Kategorien (z.B. M-Files): `python3 tools/build_plugin.py --firma consis` (siehe `firmen/README.md`). Voraussetzung: `python3` auf dem Gateway-Host (nur Standardbibliothek).
+  MCP-Server `steuerwiki` mit den Tools `steuerwiki__ablage`, `__beleg`, `__position`, `__wert`, `__vergleich`, `__suche`, `__zeige`.
+- **Ablage-Kategorien:** die Liste der Firma als `KATEGORIEN.md` in den Workspace legen (`cp kategorien/consis.md <ws>/KATEGORIEN.md`;
+  Vorlage `kategorien/vorlage.md`). Der Agent liest sie und ordnet danach ein – austauschbar ohne Neubau des Plugins. Voraussetzung: `python3` auf dem Gateway-Host (nur Standardbibliothek).
 - **Kein `tools.fs.workspaceOnly` für diesen Agenten setzen.** OpenClaw legt Plugin-Skills unter `<state>/plugin-skills/` ab und
   der Agent liest sie mit dem OpenClaw-Tool `read`; `workspaceOnly: true` sperrt genau diesen Pfad («Path escapes sandbox root»),
   die Skills wären dann nicht nutzbar (getestet 2026.11.2). Isolation stattdessen über einen eigenen Betriebssystem-Benutzer bzw.

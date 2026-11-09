@@ -1,8 +1,8 @@
 # Erkennung eingegangener Dokumente (firmenunabhängig): Stichworte je Belegtyp und je Verfahrensdokument.
 # Heuristik für tools/steuer.py ablage – die Entscheidung trifft der Agent nach Lesen des Dokuments.
 # stark = typische Titel/Begriffe (5 Punkte, im Titel 8), schwach = Hinweise (1), nicht = Gegenindiz (−5). DE/FR/IT, OCR-tolerant.
-# Belegtypen (Schlüssel = Beleg-ID aus data/belege-teil*.yaml) übernehmen Relevanz/Positionen von dort; Ablagegruppe nach Einreichepflicht.
-# Verfahrensdokumente (Steuerbehörde, Deklaration, Korrespondenz) haben eine feste Ablagegruppe (data/ablage/gruppen.yaml).
+# Belegtypen (Schlüssel = Beleg-ID aus data/belege-teil*.yaml) übernehmen Relevanz/Positionen/Einreichepflicht von dort.
+# Verfahrensdokumente (Steuerbehörde, Steuererklärung, Korrespondenz) mit sachlichem Hinweis; die Ablage-Kategorie wählt der Agent aus der Kategorienliste.
 belegtypen:
   lohnausweis:
     stark:
@@ -622,7 +622,6 @@ belegtypen:
 verfahrensdokumente:
   veranlagung:
     name: Veranlagungsverfügung / Einschätzungsentscheid / definitive Steuerrechnung (Bund, Kanton/Gemeinde, Kapitalleistung)
-    gruppe: veranlagung
     stark:
     - veranlagungsverfuegung
     - einschaetzungsentscheid
@@ -653,9 +652,9 @@ verfahrensdokumente:
     - grundstueckgewinnsteuer
     - kontoauszug
     steuerjahr: Steuerperiode, für welche veranlagt wird (nicht das Ausstellungsjahr)
+    hinweis: Entscheid der Steuerbehörde zur Steuerperiode; Steuerjahr = veranlagte Periode. Mit der eingereichten Steuererklärung vergleichen; Rechtsmittelfrist gemäss Rechtsmittelbelehrung.
   provisorische-rechnung:
     name: Provisorische Steuerrechnung (Bund, Kanton/Gemeinde)
-    gruppe: provisorische-rechnung
     stark:
     - provisorische steuerrechnung
     - provisorische rechnung
@@ -674,9 +673,9 @@ verfahrensdokumente:
     - faellig
     - einzahlungsschein
     steuerjahr: Steuerjahr der provisorischen Rechnung
+    hinweis: Vorläufige Rechnung für die laufende Steuerperiode (Basis meist letzte Veranlagung bzw. Steuererklärung).
   auflage-nachfrage:
     name: Auflage / Nachfrage / Buchprüfung des Steueramts
-    gruppe: auflage
     stark:
     - auflage
     - auflage zur steuererklaerung
@@ -695,9 +694,9 @@ verfahrensdokumente:
     - frist
     - steueramt
     - unterlagen nachreichen
+    hinweis: Aufforderung der Steuerbehörde, Unterlagen oder Auskünfte nachzureichen – Frist beachten.
   einsprache-rekurs:
     name: Einsprache / Einspracheentscheid / Rekurs
-    gruppe: rechtsmittel
     stark:
     - einsprache
     - einspracheentscheid
@@ -708,9 +707,9 @@ verfahrensdokumente:
     schwach:
     - rechtsmittel
     - steuerrekursgericht
+    hinweis: Rechtsmittel gegen eine Veranlagung bzw. Entscheid darüber.
   kontoauszug-steueramt:
     name: Kontoauszug des Steueramts (Steuerkonto, Zahlungen, Saldo) – nicht Bank-Kontoauszug
-    gruppe: steuerkonto
     stark:
     - kontoauszug steuern
     - steuerkonto
@@ -724,9 +723,9 @@ verfahrensdokumente:
     - saldo zu ihren gunsten
     - verzugszins
     - vergütungszins
+    hinweis: Zahlungen, Saldo, Zinsen des Steuerkontos – kein Bank-Kontoauszug, kein Wert in der Steuererklärung.
   steuererklaerung-formular:
     name: Steuererklärung / Hauptformular (leer vom Steueramt oder ausgefüllt vom Kunden)
-    gruppe: deklaration
     stark:
     - hauptformular
     - formular 300
@@ -751,9 +750,9 @@ verfahrensdokumente:
     - zur steuererklaerung
     - juristische personen
     - honorar
+    hinweis: Die Steuererklärung selbst bzw. ihre Bestandteile/Quittungen der Steuerpflichtigen.
   fristerstreckung:
     name: Fristerstreckungsgesuch / Bestätigung Fristerstreckung
-    gruppe: frist
     stark:
     - fristerstreckung
     - fristverlaengerung
@@ -766,9 +765,9 @@ verfahrensdokumente:
     schwach:
     - frist
     - gesuch
+    hinweis: Gesuch oder Bestätigung einer Fristerstreckung.
   uebermittlungsquittung:
     name: Übermittlungs-/Eingangsquittung der eingereichten Steuererklärung
-    gruppe: uebermittlung
     stark:
     - uebermittlungsquittung
     - uebermittlungsbestaetigung
@@ -776,9 +775,9 @@ verfahrensdokumente:
     - eingangsbestaetigung
     schwach:
     - uebermittlung
+    hinweis: Bestätigung, dass die Steuererklärung eingereicht ist.
   freigabequittung:
     name: Freigabe-/Unterschriftsquittung zur (elektronisch eingereichten) Steuererklärung
-    gruppe: deklaration
     stark:
     - freigabequittung
     - freigabe steuererklaerung
@@ -788,9 +787,9 @@ verfahrensdokumente:
     schwach:
     - unterschrift
     - freigabe
+    hinweis: Die Steuererklärung selbst bzw. ihre Bestandteile/Quittungen der Steuerpflichtigen.
   kundenantwort:
     name: Antworten/Bestätigungen/Checklisten des Kunden, Kundenfreigabe per E-Mail
-    gruppe: korrespondenz-mandant
     stark:
     - checkliste
     - fragebogen
@@ -804,9 +803,9 @@ verfahrensdokumente:
     schwach:
     - wie besprochen
     - gerne bestaetige ich
+    hinweis: Angaben des Mandanten ohne eigentlichen Beleg (z.B. Antworten auf Rückfragen) – Inhalt für die Erfassung verwenden.
   steuerausscheidung:
     name: Steuerausscheidung (mehrere Steuerdomizile)
-    gruppe: steuerausscheidung
     stark:
     - steuerausscheidung
     - interkantonale ausscheidung
@@ -814,9 +813,9 @@ verfahrensdokumente:
     schwach:
     - nebensteuerdomizil
     - liegenschaftskanton
+    hinweis: Mehrere Steuerdomizile (interkantonal/international).
   unterjaehrige-deklaration:
     name: Unterjährige Deklaration (Tod, Wegzug ins Ausland, Zuzug aus dem Ausland)
-    gruppe: deklaration-unterjaehrig
     stark:
     - unterjaehrig
     - steuerpflicht waehrend
@@ -826,9 +825,9 @@ verfahrensdokumente:
     schwach:
     - teilperiode
     - unterjaehrige
+    hinweis: Keine volle Steuerperiode (Zuzug/Wegzug Ausland, Tod).
   grundstueckgewinn-erbschaft-schenkung-steuer:
     name: Grundstückgewinnsteuer-, Erbschafts- oder Schenkungssteuer-Verfahren (Steuererklärung/Veranlagung)
-    gruppe: andere-steuerart
     stark:
     - grundstueckgewinnsteuer
     - grundstueckgewinn
@@ -844,9 +843,9 @@ verfahrensdokumente:
     schwach:
     - veraeusserung
     - grundstueck
+    hinweis: Nicht Einkommens-/Vermögenssteuer der natürlichen Person (Grundstückgewinn-, Erbschafts-, Schenkungssteuer).
   juristische-person:
     name: Unterlagen einer juristischen Person (AG, GmbH, Verein, Stiftung)
-    gruppe: juristische-person
     stark:
     - juristische personen
     - kapitalgesellschaften
@@ -861,3 +860,4 @@ verfahrensdokumente:
     - che-
     - statuten
     - gmbh
+    hinweis: Nicht natürliche Person – separat behandeln.

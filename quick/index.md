@@ -13,7 +13,7 @@ Schnellzugriff für den Steuerexperten-Agenten: erst hier, dann über die Links 
 
 | Frage | Seite |
 |---|---|
-| **Schnellster Weg (ein Aufruf, mit Fundstelle)** | `python3 tools/steuer.py wert|vergleich|position|beleg|ablage|kategorien|suche|zeige …` bzw. Plugin-Tools `steuerwiki__…` |
+| **Schnellster Weg (ein Aufruf, mit Fundstelle)** | `python3 tools/steuer.py wert|vergleich|position|beleg|ablage|suche|zeige …` bzw. Plugin-Tools `steuerwiki__…` |
 | Eingegangenes Dokument: relevant? Typ? Steuerjahr? Ablage? | [Ablage](../wiki/ablage/ablage.md) · Ablage Kanton/Jahr (Tabelle unten) · `steuer ablage` |
 | Ist ein Dokument des Mandanten steuerrelevant? | [Belege-Relevanz](belege-relevanz.md) → Detailkarte des Belegs |
 | Was gehört in Ziffer X, woher kommt die Zahl, wie rechne ich? | **Kompakt-Wegleitung** Kanton/Jahr (Tabelle unten): je Position Rein · Rechnen · Limite · Beachten |

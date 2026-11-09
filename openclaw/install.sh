@@ -46,5 +46,6 @@ else
   echo "Keine extraPaths nötig."
 fi
 python3 "$DEST/tools/steuer.py" index >/dev/null 2>&1 || true   # Volltextindex index/fts.sqlite
+echo "Kategorienliste der Firma: cp $SRC/kategorien/<firma>.md $WS/KATEGORIEN.md   (Vorlage: kategorien/vorlage.md)"
 echo "Snippet einfügen: $SRC/openclaw/AGENTS.workspace-snippet.md -> $WS/AGENTS.md"
 echo "Danach: openclaw memory index --force --agent <agent-id>"

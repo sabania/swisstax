@@ -3,7 +3,7 @@
 
   python3 tools/build_lookup.py          # -> index/lookup.json (+ index/fts.sqlite neu)
 
-lookup.json fasst data/ (Eckwerte, Positionen, Belege, Einreichepflicht, Ablagegruppen, Erkennung), Firmen-Adapter und das Glossar
+lookup.json fasst data/ (Eckwerte, Positionen, Belege, Einreichepflicht, Erkennung) und das Glossar
 zusammen; fts.sqlite ist ein SQLite-FTS5-Volltextindex über alle Chunks (Tokenizer unicode61, Diakritika entfernt).
 tools/steuer.py und tools/mcp_server.py brauchen zur Laufzeit nur die Python-Standardbibliothek.
 """
@@ -55,9 +55,7 @@ def main():
         out["einreichen"].setdefault(p.parent.name, {})[p.stem] = d
     g = ylo(ROOT / "registry" / "glossar.yaml").get("glossar") or {}
     out["glossar"] = {k: v for k, v in g.items()}
-    out["gruppen"] = ylo(ROOT / "data" / "ablage" / "gruppen.yaml").get("gruppen") or []
     out["erkennung"] = ylo(ROOT / "data" / "ablage" / "erkennung.yaml")
-    out["firmen"] = {p.parent.name: ylo(p) for p in sorted((ROOT / "firmen").glob("*/ablage.yaml")) if p.parent.name != "vorlage"}
     (ROOT / "index" / "lookup.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":"), default=str),
                                                 encoding="utf-8")
     print(f"index/lookup.json: {len(out['werte'])} Werte · {len(out['positionen'])} Positionen · {len(out['belege'])} Belege · "

@@ -179,9 +179,8 @@ Aufruf, und L1 liefert in einem Aufruf das, wofür der Agent früher 5–10 Date
 
 | Befehl | liefert |
 |---|---|
-| `ablage "<titel/text>" --kanton --jahr` | Dokument: Typ (Top 3), steuerrelevant, Steuerjahr, Ablagegruppe (+ Kategorie des Firmen-Adapters), Sicherheit |
-| `beleg <stichwort> --kanton --jahr` | Belegkarte: relevant?, Werte entnehmen, Ziffern, Einreichepflicht (Zitat), Ablage |
-| `kategorien [begriff]` | Ablagegruppen und – mit Adapter – die Kategorien der Firmenablage |
+| `ablage "<titel/text>" --kanton --jahr` | Dokument: Typ (Top 3), steuerrelevant, Steuerjahr, Einreichepflicht, Sicherheit (Kategorie danach aus `KATEGORIEN.md`) |
+| `beleg <stichwort> --kanton --jahr` | Belegkarte: relevant?, Feld → Position → Rechnen → Limite, Einreichepflicht (Zitat) |
 | `position <kt> <jahr> <ziffer\|stichwort>` | Formularposition (= DrTax-Position): Rein, Rechnen, Regel, Limite Kanton/Bund, Bundesspalte, Beachten, Belege |
 | `wert <jur> <jahr> <stichwort>` / `vergleich <jahr> <stichwort>` | Eckwerte mit Zitat, Chunk, Status (Kanton + Bund) / alle Jurisdiktionen nebeneinander |
 | `suche "<begriffe>" --jur --jahr` / `zeige <chunk\|pfad>` | Volltext (SQLite FTS5, unicode61) über alle 8'925 Chunks / Wortlaut |
@@ -196,24 +195,18 @@ direkt laden. Installation: `openclaw plugins install <ordner> --force --accept-
 Workspace-`AGENTS.md`. Das Plugin enthält Skills, Werkzeug, Index, Quick- und Wiki-Seiten (≈ 7 MB als .tgz); Originale,
 Volltexte und Pflege-Tools bleiben im Repository.
 
-## 9b. Ablage eingegangener Dokumente – firmenunabhängig, mit Firmen-Adapter
+## 9b. Ablage eingegangener Dokumente – firmenunabhängig, Kategorienliste austauschbar
 
-Das Wiki kennt **keine firmeninternen Abläufe**. Es beantwortet für jedes Dokument: steuerrelevant? → Belegtyp → Steuerjahr →
-Einreichepflicht im Kanton → **Ablagegruppe** – und hilft beim Ausfüllen (Positionen, Limiten, Pauschalen).
+Das Wiki kennt **keine firmeninternen Abläufe**. Es liefert für jedes Dokument das Steuerwissen: steuerrelevant? → Belegtyp →
+Steuerjahr → muss es im Kanton eingereicht werden (mit Zitat)? → welche Felder in welche Position, wie rechnen.
 
-- `data/ablage/gruppen.yaml`: 16 neutrale Ablagegruppen (Steuerbeleg einzureichen / nicht einzureichen, Steuererklärung, Veranlagung,
-  provisorische Rechnung, Steuerkonto, Auflage, Rechtsmittel, Frist, Übermittlung, Korrespondenz Mandant, andere Steuerart,
-  juristische Person, nicht relevant …).
-- `data/ablage/erkennung.yaml`: Stichworte je Belegtyp und Verfahrensdokument (DE/FR/IT, OCR-tolerant) für `steuer ablage`.
-- `data/einreichen/<kt>/<jahr>.yaml`: Einreichepflicht der 45 Belegtypen laut Wegleitung/Formular/Gesetz, mit Zitat (Lint prüft) –
-  entscheidet «einzureichen» vs. «nicht einzureichen».
-- **Firmen-Adapter** `firmen/<firma>/ablage.yaml` (gepflegt als Excel `kategorien.xlsx` mit Kategorie, Erklärung, Beispielen, Gruppen; `tools/firma_kategorien.py`): übersetzt Gruppen in die eigene Ablage (z.B. consis: M-Files Klasse/Kategorie
-  aus der Zuordnungsliste) und kann einzelne Belegtypen fest zuordnen; aktiviert mit `--firma` bzw. `STEUERWIKI_FIRMA`
-  (Plugin: `build_plugin.py --firma consis`). Ohne Adapter erscheinen die neutralen Gruppennamen. Vorlage: `firmen/vorlage/`.
-- Seiten: `wiki/ablage/ablage.md`, `quick/ablage-<kt>-<jahr>.md` (Beleg → relevant → einreichen → Gruppe → Ziffern).
-- Skills: `belege-ablage` (relevant?, Typ, Steuerjahr, Ablage), `steuererklaerung-np` (ausfüllen).
-- «DrTax-Position» = Ziffer/Code des amtlichen Formulars, das die Steuersoftware abbildet; Feldnamen einzelner Softwaremasken
-  sind nicht im Wiki.
+- `data/ablage/erkennung.yaml`: Stichworte je Belegtyp und Dokument der Steuerbehörde (DE/FR/IT, OCR-tolerant) für `steuer ablage`.
+- `data/einreichen/<kt>/<jahr>.yaml`: Einreichepflicht der 45 Belegtypen laut Wegleitung/Formular/Gesetz, mit Zitat (Lint prüft).
+- **Kategorienliste:** `KATEGORIEN.md` im Workspace des Agenten – eine Markdown-Tabelle der Firma (Kategorie · was hinein gehört ·
+  Beispiele · eingereicht?). Einstieg und Skill `belege-ablage` verweisen darauf; der Agent wählt die passende Zeile. Austauschbar
+  ohne Code oder Neubau. Vorlage `kategorien/vorlage.md`, Beispiel consis `kategorien/consis.md` (aus der Zuordnungsliste).
+- Seiten: `wiki/ablage/ablage.md`, `quick/ablage-<kt>-<jahr>.md` (Beleg → relevant → einreichen → Ziffern).
+- «DrTax-Position» = Ziffer/Code des amtlichen Formulars, das die Steuersoftware abbildet.
 
 ## 10. Experimente und Tuning (Ergebnisse)
 
