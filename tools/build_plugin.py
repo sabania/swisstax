@@ -9,7 +9,8 @@ Nicht enthalten (bleiben im Repository/ZIP): raw/ (Original-PDFs), sources/, chu
 Laufzeit: nur Python 3 (Standardbibliothek).
 
 Installation OpenClaw:  openclaw plugins install <out> --force --accept-capabilities   (lokale Quelle → --force)
-Installation Claude Code: /plugin install aus einem Marketplace oder `claude --plugin-dir <out>`.
+Installation Claude Code: Marketplace im Repository (.claude-plugin/marketplace.json → plugins/steuerwiki); Plugin-Ordner bauen mit
+  python3 tools/build_plugin.py --out plugins/steuerwiki   (nach jeder Datenänderung, Version in plugin.json erhöhen: --version x.y.z)
 """
 from __future__ import annotations
 import argparse, json, shutil, subprocess, sys, tarfile
@@ -65,6 +66,16 @@ Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; 2025/2026): Belege prüfen (steuerrel
 - **Wissen:** index/lookup.json (Eckwerte, Positionen, Belege, Einreichepflicht, Erkennung), index/fts.sqlite (Volltext aller
   Quellen-Chunks), quick/ und wiki/ (Seiten für `zeige`). Originale und Volltexte: Repository/ZIP.
 - Voraussetzung: `python3` (nur Standardbibliothek) auf dem Gateway-Host.
+
+## Installation Claude Code (offizieller Weg über den Marketplace im Repository)
+```
+/plugin marketplace add sabania/swisstax
+/plugin install steuerwiki@swisstax
+```
+Solange der Stand nur auf dem Branch liegt: `/plugin marketplace add sabania/swisstax#claude/clever-cori-k71ld5`.
+Aktualisieren: `/plugin marketplace update swisstax`, danach `/plugin update steuerwiki@swisstax` (oder Auto-Update in `/plugin`).
+Tools heissen in Claude Code `mcp__plugin_steuerwiki_steuerwiki__<name>`. Für Ablagefragen `KATEGORIEN.md` ins Projektverzeichnis legen;
+den Einstieg (`AGENTS.workspace-snippet.md`) optional in die `CLAUDE.md` des Projekts übernehmen.
 
 ## Installation OpenClaw
 ```bash

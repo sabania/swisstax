@@ -5,7 +5,7 @@ description: Steuerfachfragen Schweiz (Bund, AR, SG, TG, ZH; Steuerjahre 2025/20
 
 # Steuerfachfragen beantworten
 
-Werkzeug: Tools `steuerwiki__wert`, `__position`, `__beleg`, `__suche`, `__zeige`, `__rechne` (jede Rechnung) (ohne Plugin: `python3 steuerwiki/tools/steuer.py <befehl> …`).
+Werkzeug: Tools `steuerwiki__wert`, `__position`, `__beleg`, `__suche`, `__zeige`, `__rechne` (jede Rechnung) (OpenClaw `steuerwiki__<name>`, Claude Code `mcp__plugin_steuerwiki_steuerwiki__<name>`; ohne Plugin: `python3 steuerwiki/tools/steuer.py <befehl> …`).
 Jede Ausgabe enthält schon Fundstelle (Chunk-ID) und Status – übernehmen, nicht neu erfinden.
 
 ## Ablauf (in dieser Reihenfolge, meist reichen 1–3 Aufrufe)

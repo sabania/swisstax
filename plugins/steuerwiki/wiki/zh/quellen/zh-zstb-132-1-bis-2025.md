@@ -1,0 +1,60 @@
+---
+typ: quelle
+id: zh-zstb-132-1-bis-2025
+jur: zh
+jahre: []
+titel: "ZStB 132.1: Steuererklärungsverfahren – Fassung gültig bis 31.12.2025"
+generiert: tools/build_index.py
+---
+# ZStB 132.1 (bis 2025): ZStB 132.1: Steuererklärungsverfahren – Fassung gültig bis 31.12.2025
+
+- **Jurisdiktion:** Kanton Zürich (ZH) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** –
+- **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-132-1/zstb-nr-132-1-gueltig-bis-31_12_2025.pdf> · lokal: [zh-zstb-132-1-bis-2025.pdf](../../../raw/zh/2025/zh-zstb-132-1-bis-2025.pdf) · Volltext: [zh-zstb-132-1-bis-2025.md](../../../sources/zh/2025/zh-zstb-132-1-bis-2025.md)
+- **Abgerufen:** 2026-11-09 · sha256 `c896180e7db55816…`
+- **Gültigkeit:** Zeitbezug verfahren (Verfahrenshandlungen im Geltungszeitraum (Einreichung, Fristen, Bezug, Zinsen)) · gilt ab 2025-01-01 bis 2025-12-31 · ersetzt durch `zh-zstb-132-1`
+
+## Verwendet in (Änderungsauswirkung)
+
+Zitiert in 0 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle zh-zstb-132-1-bis-2025`).
+
+- [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)
+- [wiki/zh/zh-ueberblick.md](../zh-ueberblick.md)
+
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Textextraktion sauber; Formularlisten (Nummer, Bezeichnung) in zwei Spalten, aber gut lesbar.
+- Kopfzeile 'Zürcher Steuerbuch Nr. 132.1' wiederholt sich als Seitenrest ab S. 5.
+
+## Inhalt (29 Chunks)
+
+| Chunk | Titel | Seiten/Artikel | Kurzfassung |
+|---|---|---|---|
+| [c0001](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0001.md) | A. Einleitende Bemerkungen – Pflicht zur Steuererklärung, Geltungsbereich (Teil 1/2) | S. 1 | Natürliche und juristische Personen reichen für jede Steuerperiode eine Steuererklärung ein, in der Regel im folgenden Kalenderjahr; wer volljährig geworden ist, reicht im Folgejahr erstmals eine eigene ein. |
+| [c0002](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0002.md) | A. Einleitende Bemerkungen – Pflicht zur Steuererklärung, Geltungsbereich (Teil 2/2) | S. 1 |  |
+| [c0003](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0003.md) | B. Steuerpflicht – Einreichungspflicht und Ausnahmen (Quellensteuer) | S. 1 | Alle Steuerpflichtigen werden zur Abgabe aufgefordert; ausgenommen sind nur Quellensteuerpflichtige, die nicht die Voraussetzungen der nachträglichen ordentlichen Veranlagung erfüllen. |
+| [c0004](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0004.md) | C.–D. Durchführung (Gemeindesteuerämter) und Publikation der Aufforderung | S. 2 | Das Verfahren für natürliche Personen führen die Gemeindesteuerämter durch, für juristische Personen das kantonale Steueramt; die Aufforderung wird im Januar und März im Amtsblatt publiziert. |
+| [c0005](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0005.md) | E.I Formularverzeichnis natürliche Personen – Lohnausweis, Steuererklärung 300/303, Wegleitung, Hilfsblätter A | S. 2 | Formulare: Form. 11 Lohnausweis, 300 Steuererklärung (im Kanton wohnhaft), 303 (ausserkantonal mit Liegenschaften/Betriebsstätten), 305 Wegleitung, 321–329 Selbständigerwerbende. |
+| [c0006](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0006.md) | E.I Formularverzeichnis – Landwirtschaft 330–332 | S. 3 | Formulare 330 (Hilfsblatt B), 331 (Hilfsblatt G) und 332 (Wegleitung) für Einkünfte aus Land- und Forstwirtschaft. |
+| [c0007](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0007.md) | E.I Formularverzeichnis – Wertschriftenverzeichnis 340, Liegenschaften 350, Schulden 355, Berufsauslagen 360, Versicherungen 365–370 | S. 3 | Formulare 340/342 Wertschriften, 345/346 qualifizierte Beteiligungen, 350/352 Liegenschaften, 355 Schulden, 360 Berufsauslagen, 365 Versicherungsprämien, 367 Weiterbildung, 370 Krankheits-/Behinderungskosten. |
+| [c0008](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0008.md) | E.I Formularverzeichnis – Inventar, Todesfall, Erbschaft, DA-1/DA-3 | S. 3 | Formulare 395–398 (Inventar, Todesfälle, Erbschafts- und Schenkungssteuer), 430 DA-1, 434 DA-3 und 438 Wegleitung zu DA-1/2/3. |
+| [c0009](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0009.md) | E.II Formularverzeichnis juristische Personen – 12, 431, 434, 438, 500–520 (Teil 1/2) | S. 3–4 | Formulare für juristische Personen: 12 (Bezüge Verwaltung), 431 DA-2, 434 DA-3, 438 Wegleitung, 500/505 Kapitalgesellschaften, 510 Vereine und Stiftungen, 520 Steuerausscheidung. |
+| [c0010](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0010.md) | E.II Formularverzeichnis juristische Personen – 12, 431, 434, 438, 500–520 (Teil 2/2) | S. 3–4 |  |
+| [c0011](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0011.md) | E.II Formularverzeichnis juristische Personen – 530–570 (STAF, Beteiligungsabzug), R 25 | S. 4 | Formulare 530–547 (STAF: F&E-Abzug, Patentbox, Eigenfinanzierung), 550/551 Beteiligungen, 570 Gestehungskosten und R 25 Rückerstattungsantrag. |
+| [c0012](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0012.md) | F.I.1 Ordentliches Verfahren – vollständiger Formularsatz (Wohnsitz im Kanton, Quellensteuerpflichtige) | S. 4–5 | Allen im Kanton Zürich Wohnhaften werden Formulare 300, 305, 340, 360, 365, 367 und 370 zugestellt, auch Quellensteuerpflichtigen mit nachträglicher ordentlicher Veranlagung. |
+| [c0013](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0013.md) | F.I.1 b)–d) Zusatzformulare Liegenschaften, Selbständigerwerbende, Landwirte, ausserkantonal Wohnhafte | S. 5 | Liegenschaftsbesitzer erhalten 350/352/355, Selbständigerwerbende 321–329, Landwirte zusätzlich 330–332, ausserkantonal Wohnhafte 303 und 305. |
+| [c0014](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0014.md) | F.I.2 Reduzierter Formularsatz (Steuererklärungssoftware) | S. 5–6 | Wer die Steuererklärung mit Software ausgefüllt hat, erhält ab der Folgeperiode nur noch die Formulare 300 und 340. |
+| [c0015](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0015.md) | F.I.3–4 Zugangsdaten ZHprivateTax online und nachträgliche ordentliche Veranlagung | S. 6 | Wer im Vorjahr ZHprivate Tax online verwendet hat, erhält nur ein Schreiben mit Zugangsdaten; für die nachträgliche ordentliche Veranlagung Quellensteuerpflichtiger gelten die gleichen Formulare wie bei ordentlich Besteuerten. |
+| [c0016](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0016.md) | F.II–III Zustellung an juristische Personen und Beschriftung (Ehepaare, eingetragene Partnerschaft) | S. 6 | Bei ungetrennter Ehe sind die Unterlagen beiden Eheleuten gemeinsam zuzustellen (beide nennen); bei eingetragener Partnerschaft beide Partner in alphabetischer Reihenfolge. |
+| [c0017](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0017.md) | F.IV–V Versand (Retourcouvert) und Frist der Formularzustellung (Ende Januar) | S. 6 | Die Formularzustellung an die Steuerpflichtigen des Hauptregisters muss bis Ende Januar abgeschlossen sein; jeder Sendung ist ein Retourcouvert beizulegen. |
+| [c0018](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0018.md) | F.VI Heirat, Trennung, Scheidung, Tod im Kalenderjahr – gemeinsame bzw. getrennte Besteuerung | S. 7 | Bei Heirat werden die Eheleute für die ganze Steuerperiode gemeinsam besteuert; bei Trennung oder Scheidung für die ganze Steuerperiode getrennt mit je einer Steuererklärung; bei Tod reicht der überlebende Ehegatte eine Erklärung ab Todestag ein. |
+| [c0019](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0019.md) | G.I–II.1 Ordentliche Einreichungsfristen (31. März / 30. September) und Fristerstreckung von Amtes wegen | S. 7 | Natürliche Personen reichen bis 31. März des Folgejahres ein, juristische bis 30. September; Gemeindesteuerämter können für Selbständigerwerbende und ausserkantonal Wohnhafte von Amtes wegen bis 30. September erstrecken. |
+| [c0020](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0020.md) | G.II.2 a) Fristerstreckungsgesuche – Allgemeines und Wiederherstellung | S. 7–8 | Gesuche sind vor Fristablauf einzureichen; nach Ablauf gestellte Gesuche sind abzuweisen, eine abgelaufene Frist kann höchstens wiederhergestellt werden. |
+| [c0021](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0021.md) | G.II.2 b) Fristerstreckung längstens bis 30. November – ausserordentliche Gründe | S. 8 | Rechtzeitigen Gesuchen ist längstens bis 30. November zu entsprechen; darüber hinaus nur bei glaubhaft gemachten ausserordentlichen Gründen (starke berufliche Beanspruchung oder fehlende Unterlagen genügen nicht). |
+| [c0022](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0022.md) | G.II.2 c) Verrechnungssteuer – Rückerstattungsanspruch erlischt nach drei Jahren | S. 8 | Der Anspruch auf Rückerstattung der Verrechnungssteuer erlischt, wenn er nicht innerhalb dreier Jahre nach Ablauf des Kalenderjahres der Fälligkeit geltend gemacht wird; die Frist darf nicht darüber hinaus erstreckt werden. |
+| [c0023](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0023.md) | G.II.2 d)–e) Entscheid über Fristerstreckung, stillschweigende Bewilligung, andere Kantone | S. 8 | Rechtzeitige erstmalige Gesuche gelten ohne gegenteiligen Entscheid als stillschweigend bewilligt; Erstreckungsentscheide des Wohnsitzkantons gelten auch für den Kanton Zürich, wenn sie vor Ablauf der zürcherischen Frist mitgeteilt werden. |
+| [c0024](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0024.md) | G.III Nachträgliche ordentliche Veranlagung von Quellensteuerpflichtigen (ab Fr. 120'000.-) | S. 8–9 | Betrugen die quellenbesteuerten Bruttoeinkünfte im Vorjahr oder einem der Vorjahre mindestens Fr. 120'000.-, ist eine Steuererklärung für die nachträgliche ordentliche Veranlagung bis 31. März einzureichen. |
+| [c0025](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0025.md) | G.IV.1–2 Mahnungen – Allgemeines und Zeitpunkt (20 Tage vorab) | S. 9 | Wer die Steuererklärung nicht fristgerecht einreicht, wird gemahnt; vorher kann mit gewöhnlicher Post eine Einreichung innert 20 Tagen verlangt werden, das Mahnverfahren beginnt unmittelbar nach Fristablauf. |
+| [c0026](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0026.md) | G.IV.3–5 Mahnung – Androhung (Ermessenseinschätzung, Ordnungsbusse), Mahnfrist 10 Tage, A-Post Plus | S. 9 | Die Mahnfrist beträgt 10 Tage und ist nicht erstreckbar; bei Unterlassung droht eine Einschätzung nach pflichtgemässem Ermessen und eine Ordnungsbusse; Mahnungen gehen per A-Post Plus ohne Gebühren. |
+| [c0027](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0027.md) | H.–I. Kontrolle bei Eingang und Rücksendung mangelhafter Steuererklärungen | S. 9–10 | Unvollständige oder formell unrichtige Steuererklärungen sowie «provisorische» Erklärungen ohne Details und Unterlagen werden unter Fristansetzung zur Ergänzung zurückgesandt; bei Nichtbefolgung folgt das Mahnverfahren. |
+| [c0028](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0028.md) | J.–K. Verfahren bei Nichtabgabe und Ablieferung an das kantonale Steueramt | S. 10 | Bei Nichtabgabe trotz Mahnung gilt die Weisung ZStB Nr. 139.2; die Ablieferung der Steuererklärungen erfolgt nach ZStB Nr. 107.3. |
+| [c0029](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0029.md) | L. Inkrafttreten – Weisung vom 10. Juli 2024, gültig ab 1. Januar 2025 | S. 10 | Die Weisung tritt am 1. Januar 2025 in Kraft, gilt erstmals für das Steuererklärungsverfahren 2025 (Steuerperiode 2024) und ersetzt die Weisung vom 30. September 2020. |

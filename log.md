@@ -107,3 +107,8 @@ Modellempfehlung in openclaw/README.md; BOOTSTRAP.md im Agent-Workspace entferne
 - Danach: Ziffern 36.1–36.3 getrennt (SG 2025/2026, TG 2026), Totale im Gerüst markiert, `wert bund` mit Formularzeilen je Kanton (VSt Code 540/999).
 - S6A/S6B: ganze Fälle 2× 111/111 (8/8 einreichbar nach Kontrolle); q22 3/3 vollständig. Sonnet gesamt: 5× 111/111.
 - Berichte: eval/laeufe/bewertung-fragen-S5.md, bewertung-faelle-S5-S6.md; OpenClaw-README mit getesteter Sonnet-Konfiguration.
+
+## [2026-11-09] ingest | Claude-Code-Plugin über offiziellen Marketplace
+- `.claude-plugin/marketplace.json` (Marketplace «swisstax») → `plugins/steuerwiki/` (gebaut mit `tools/build_plugin.py --out plugins/steuerwiki`).
+- `claude plugin validate` bestanden; Test in isolierter Konfiguration: marketplace add → install → MCP verbunden → Abfrage TG 2025 Fahrkosten korrekt.
+- Skills nennen die Toolnamen für OpenClaw und Claude Code; README mit Installationsbefehlen.

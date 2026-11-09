@@ -1,0 +1,15 @@
+{
+  "name": "steuerwiki",
+  "version": "1.0.0",
+  "description": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; Steuerjahre 2025/2026): Belege prüfen und ablegen, Steuererklärung ausfüllen (Formularpositionen) – Skills und Lookup-Tools mit Fundstellen.",
+  "author": {
+    "name": "Steuer-Wiki"
+  },
+  "keywords": [
+    "steuern",
+    "schweiz",
+    "steuererklaerung",
+    "belege",
+    "ablage"
+  ]
+}

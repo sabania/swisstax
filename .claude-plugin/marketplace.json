@@ -1,0 +1,17 @@
+{
+  "name": "swisstax",
+  "owner": { "name": "sabania" },
+  "metadata": {
+    "description": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; Steuerjahre 2025/2026) als Claude-Code-Plugin"
+  },
+  "plugins": [
+    {
+      "name": "steuerwiki",
+      "source": "./plugins/steuerwiki",
+      "description": "Belege prüfen und ablegen, Steuererklärung ausfüllen (Formularpositionen Kanton/Bund) – Skills und Lookup-Tools mit Fundstellen.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["steuern", "schweiz", "steuererklaerung", "belege"]
+    }
+  ]
+}

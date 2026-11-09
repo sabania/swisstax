@@ -5,7 +5,7 @@ description: Eingegangenes Dokument eines Mandanten beurteilen – ist es steuer
 
 # Belege prüfen und ablegen
 
-Werkzeug: `steuerwiki__ablage`, `__beleg` (ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
+Werkzeug: `steuerwiki__ablage`, `__beleg` (OpenClaw `steuerwiki__<name>`, Claude Code `mcp__plugin_steuerwiki_steuerwiki__<name>`; ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
 **Kategorienliste:** `KATEGORIEN.md` im Workspace (Markdown-Tabelle der Firma). Mit dem Datei-Lesewerkzeug (`read`) öffnen, nicht mit `zeige`.
 Fehlt die Datei → nur Steuerwissen liefern (Typ, relevant, Steuerjahr, einreichen) und sagen, dass keine Kategorienliste vorliegt.
 Keine Beispielliste aus dem Plugin verwenden, keine Kategorie erfinden.

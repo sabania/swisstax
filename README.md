@@ -81,7 +81,12 @@ lesbar je Jurisdiktion: `wiki/<jur>/<jur>-quellen.md`.
 - **OpenClaw ohne Plugin** (getestet mit 2026.11.2): `./openclaw/install.sh <workspace>` → Snippet in die Workspace-`AGENTS.md` →
   `openclaw memory index --force --agent <id>`. Indexiert werden `quick/`, `wiki/`, `chunks/` unter `memory/steuerwiki/`
   (kein Zeitverfall), nicht `sources/`/`raw/`. Details, Konfiguration und Testprotokoll: [`openclaw/README.md`](openclaw/README.md).
-- **Andere Agenten (Claude Code, Codex …):** `AGENTS.md` ist das Schema; `skills/steuerwiki/SKILL.md` beschreibt den Abfrageablauf.
+- **Claude-Code-Plugin (offizieller Weg, getestet mit Claude Code 2.1.321):** Marketplace `.claude-plugin/marketplace.json` →
+  Plugin-Ordner [`plugins/steuerwiki/`](plugins/steuerwiki/). In Claude Code: `/plugin marketplace add sabania/swisstax`
+  (solange nur auf dem Branch: `sabania/swisstax#claude/clever-cori-k71ld5`), dann `/plugin install steuerwiki@swisstax`.
+  Tools heissen `mcp__plugin_steuerwiki_steuerwiki__<name>`; `KATEGORIEN.md` ins Projektverzeichnis legen. Nach Datenänderungen
+  neu bauen: `python3 tools/build_plugin.py --out plugins/steuerwiki --version <neu>` (Version erhöhen, sonst kein Update).
+- **Andere Agenten (Codex …):** `AGENTS.md` ist das Schema; `skills/steuerwiki/SKILL.md` beschreibt den Abfrageablauf.
 - **Eigenes Hybrid-RAG:** `index/chunks.jsonl` (ein Datensatz pro Chunk: `id, jurisdiktion, jahre, typ, dokument, titel,
   pfad, artikel, ziffer, seiten, quelle_url, kontext, text, stichworte, positionen, …`). Empfehlung: BM25 (deutscher
   Stemmer/Dekompounding) + multilinguales Embedding (z.B. bge-m3, Qwen3-Embedding, text-embedding-3-large), Filter

@@ -5,7 +5,7 @@ description: Steuererklärung natürliche Person ausfüllen (AR/SG/TG/ZH + Bund)
 
 # Steuererklärung ausfüllen (Formularpositionen: Ziffer/Code des amtlichen Formulars)
 
-Werkzeug: `steuerwiki__formular`, `__beleg`, `__position`, `__wert`, `__vergleich`, `__rechne` (ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
+Werkzeug: `steuerwiki__formular`, `__beleg`, `__position`, `__wert`, `__vergleich`, `__rechne` (OpenClaw `steuerwiki__<name>`, Claude Code `mcp__plugin_steuerwiki_steuerwiki__<name>`; ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
 Ergebnis: Werte je Position mit Beleg-Referenz und Fundstelle. Fachliche Verantwortung: Fachperson.
 
 ## 1. Rahmen und Gerüst
