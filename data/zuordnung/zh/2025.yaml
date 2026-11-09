@@ -2783,7 +2783,7 @@ positionen:
   beachten:
   - Nur wenn die Arbeitspause die Heimkehr nicht ermöglicht und trotzdem Mehrkosten entstehen
   - Nicht kumulierbar mit 2.1 voll, 2.2 Schicht oder Mittagsheimfahrt (dann entfällt Verpflegungsabzug)
-  - 'Bund: halber Abzug bei Verbilligung anders als in bar (Gutscheine) oder AG-Kantine; kein Abzug unter Naturalbezugsansatz'
+  - 'Bund: «halber Abzug» bei Gutscheinen oder AG-Kantine = genau diese CHF 7.50/Tag bzw. 1''600/Jahr (nicht nochmals halbieren); bei Barbeitrag kein halber Abzug; kein Abzug unter Naturalbezugsansatz'
 - ziffer: Form. 360 Ziff. 2.1 (voll)
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
   bezeichnung: 'Mehrkosten Verpflegung, Verpflegung voll zu Lasten Arbeitnehmer: CHF 15/Tag, max. CHF 3’200/Jahr (Code 208 Person 1 / 228 Person 2)'
@@ -4133,9 +4133,9 @@ positionen:
   - Lohnausweis Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt» → Folge für Abzug prüfen
   beachten:
   - Feld G auch bei Lunch-Checks, verbilligtem Personalrestaurant (Nutzung egal), 40–60 % Aussendienst mit Essensgeld
-  - 'Kanton: Barbeitrag gilt als Verbilligung; Bund: halber Abzug nur bei Gutscheinen oder Kantine/Personalrestaurant'
+  - 'Kanton: Barbeitrag gilt als Verbilligung; Bund: halber Abzug (= CHF 7.50/Tag, 1''600/Jahr, nicht nochmals halbieren) nur bei Gutscheinen oder Kantine/Personalrestaurant'
   - 'Bund: kein Abzug mangels Mehrkosten, wenn Hauptmahlzeiten max. 10 Fr. kosten'
-  berechnung: 'Feld G ⇒ Code 206 = min(Arbeitstage × 7.50; 1’600) statt Code 208 = min(Arbeitstage × 15; 3’200); Beträge Kanton = Bund (Bund: halber Abzug)'
+  berechnung: 'Feld G ⇒ Code 206 = min(Arbeitstage × 7.50; 1’600) statt Code 208 = min(Arbeitstage × 15; 3’200); Beträge Kanton = Bund (die 7.50/1''600 sind bereits der halbe Abzug – nicht nochmals halbieren)'
 - ziffer: Lohnausweis Ziff. 10.2
   abschnitt: Lohnausweis-Regeln
   bezeichnung: Beiträge für den Einkauf in die berufliche Vorsorge – bereits vom Lohn abgezogen → nicht nochmals unter Ziff. 16.1 abziehen

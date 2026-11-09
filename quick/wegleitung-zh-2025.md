@@ -622,7 +622,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Limite (Kanton / Bund):** Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): CHF 7.50 / CHF 7.50 · Verpflegung bei Verbilligung pro Jahr (CHF): CHF 1'600 / CHF 1'600
 - **Beachten:** Nur wenn die Arbeitspause die Heimkehr nicht ermöglicht und trotzdem Mehrkosten entstehen
 - **Beachten:** Nicht kumulierbar mit 2.1 voll, 2.2 Schicht oder Mittagsheimfahrt (dann entfällt Verpflegungsabzug)
-- **Beachten:** Bund: halber Abzug bei Verbilligung anders als in bar (Gutscheine) oder AG-Kantine; kein Abzug unter Naturalbezugsansatz
+- **Beachten:** Bund: «halber Abzug» bei Gutscheinen oder AG-Kantine = genau diese CHF 7.50/Tag bzw. 1'600/Jahr (nicht nochmals halbieren); bei Barbeitrag kein halber Abzug; kein Abzug unter Naturalbezugsansatz
 - ↗ [Detail](../wiki/zh/zuordnung-zh-2025-detail.md#form-360-ziff-2-1-verbilligt-abzug-berufskosten-verpflegung) · [Formular 360 ZH 2025 S. 1](../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0003.md)
 
 ### Form. 360 Ziff. 2.1 (voll) · Mehrkosten Verpflegung, Verpflegung voll zu Lasten Arbeitnehmer: CHF 15/Tag, max. CHF 3’200/Jahr (Code 208 Person 1 / … ☑️
@@ -915,10 +915,10 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 
 ### Lohnausweis Feld G · Kantinenverpflegung / Lunch-Checks → reduzierter Verpflegungsabzug (Form. 360 Ziff. 2.1 verbilligt, Code 206) ☑️
 - **Rein:** Lohnausweis Feld G (Kreuz) → Form. 360 Ziff. 2.1 verbilligt (Code 206) · Lohnausweis ohne Feld G, Verpflegung voll zulasten AN → Form. 360 Ziff. 2.1 (Code 208) · Lohnausweis Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt» → Folge für Abzug prüfen
-- **Rechnen:** Feld G ⇒ Code 206 = min(Arbeitstage × 7.50; 1’600) statt Code 208 = min(Arbeitstage × 15; 3’200); Beträge Kanton = Bund (Bund: halber Abzug)
+- **Rechnen:** Feld G ⇒ Code 206 = min(Arbeitstage × 7.50; 1’600) statt Code 208 = min(Arbeitstage × 15; 3’200); Beträge Kanton = Bund (die 7.50/1'600 sind bereits der halbe Abzug – nicht nochmals halbieren)
 - **Limite (Kanton / Bund):** Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): CHF 7.50 / CHF 7.50 · Verpflegung bei Verbilligung pro Jahr (CHF): CHF 1'600 / CHF 1'600 · Verpflegungsmehrkosten pro Arbeitstag (CHF): CHF 15 / CHF 15 · Verpflegungsmehrkosten pro Jahr (CHF): CHF 3'200 / CHF 3'200
 - **Beachten:** Feld G auch bei Lunch-Checks, verbilligtem Personalrestaurant (Nutzung egal), 40–60 % Aussendienst mit Essensgeld
-- **Beachten:** Kanton: Barbeitrag gilt als Verbilligung; Bund: halber Abzug nur bei Gutscheinen oder Kantine/Personalrestaurant
+- **Beachten:** Kanton: Barbeitrag gilt als Verbilligung; Bund: halber Abzug (= CHF 7.50/Tag, 1'600/Jahr, nicht nochmals halbieren) nur bei Gutscheinen oder Kantine/Personalrestaurant
 - **Beachten:** Bund: kein Abzug mangels Mehrkosten, wenn Hauptmahlzeiten max. 10 Fr. kosten
 - ↗ [Detail](../wiki/zh/zuordnung-zh-2025-detail.md#lohnausweis-feld-g-abzug-berufskosten-verpflegung) · [WL Lohnausweis 2026 S. 8–9](../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md)
 

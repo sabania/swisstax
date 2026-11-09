@@ -1711,7 +1711,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Regel:** Wenn die Verpflegung vom Arbeitgeber verbilligt wird (Kantine, Personalrestaurant, Barbeitrag, Essensgutscheine) und trotzdem Mehrkosten entstehen: CHF 7.50 pro Arbeitstag, bei ständiger auswärtiger Verpflegung max. CHF 1’600 pro Jahr. Nur wenn die Heimkehr in der Mittagspause nicht möglich ist. Nicht kumulierbar mit 2.1 voll und 2.2 Schicht.
 - **Beachten:** Nur wenn die Arbeitspause die Heimkehr nicht ermöglicht und trotzdem Mehrkosten entstehen
 - **Beachten:** Nicht kumulierbar mit 2.1 voll, 2.2 Schicht oder Mittagsheimfahrt (dann entfällt Verpflegungsabzug)
-- **Beachten:** Bund: halber Abzug bei Verbilligung anders als in bar (Gutscheine) oder AG-Kantine; kein Abzug unter Naturalbezugsansatz
+- **Beachten:** Bund: «halber Abzug» bei Gutscheinen oder AG-Kantine = genau diese CHF 7.50/Tag bzw. 1'600/Jahr (nicht nochmals halbieren); bei Barbeitrag kein halber Abzug; kein Abzug unter Naturalbezugsansatz
 - **Limiten:**
   - Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): Kanton **CHF 7.50 (Verpflegung durch Arbeitgeber verbilligt (Kantine, Personalrestaurant, Barbeitrag, Essensgutscheine) und trotzdem Mehrkosten: CHF 7.50 pro Arbeitstag.)** · Bund **CHF 7.50 (Halber Abzug CHF 7.50 pro Hauptmahlzeit, wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers)**
   - Verpflegung bei Verbilligung pro Jahr (CHF): Kanton **CHF 1'600 (Bei ständiger auswärtiger Verpflegung mit Verbilligung: CHF 1'600 pro Jahr.)** · Bund **CHF 1'600 (Halber Abzug bei Verbilligung: CHF 1'600 pro Jahr)**
@@ -2521,10 +2521,10 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Feld G (Kreuz) / Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt»
 - **Rein:** Lohnausweis Feld G (Kreuz) → Form. 360 Ziff. 2.1 verbilligt (Code 206) · Lohnausweis ohne Feld G, Verpflegung voll zulasten AN → Form. 360 Ziff. 2.1 (Code 208) · Lohnausweis Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt» → Folge für Abzug prüfen
-- **Rechnen:** Feld G ⇒ Code 206 = min(Arbeitstage × 7.50; 1’600) statt Code 208 = min(Arbeitstage × 15; 3’200); Beträge Kanton = Bund (Bund: halber Abzug)
+- **Rechnen:** Feld G ⇒ Code 206 = min(Arbeitstage × 7.50; 1’600) statt Code 208 = min(Arbeitstage × 15; 3’200); Beträge Kanton = Bund (die 7.50/1'600 sind bereits der halbe Abzug – nicht nochmals halbieren)
 - **Regel:** Feld G angekreuzt (Lunch-Checks, verbilligtes Personalrestaurant, auch wenn Nutzung unbekannt) → nur der reduzierte Verpflegungsabzug CHF 7.50/Tag (max. CHF 1’600/Jahr), nicht CHF 15/3’200. Bei > 60 % auswärtiger Tätigkeit mit Mittagessensentschädigung ist im Lohnausweis ausschliesslich unter Ziff. 15 der Hinweis «Mittagessen durch Arbeitgeber bezahlt» anzubringen (WL Lohnausweis 2026); die Folge für den Verpflegungsabzug ist in den vorliegenden Quellen nicht ausdrücklich belegt – nicht belegt, Fachperson prüfen.
 - **Beachten:** Feld G auch bei Lunch-Checks, verbilligtem Personalrestaurant (Nutzung egal), 40–60 % Aussendienst mit Essensgeld
-- **Beachten:** Kanton: Barbeitrag gilt als Verbilligung; Bund: halber Abzug nur bei Gutscheinen oder Kantine/Personalrestaurant
+- **Beachten:** Kanton: Barbeitrag gilt als Verbilligung; Bund: halber Abzug (= CHF 7.50/Tag, 1'600/Jahr, nicht nochmals halbieren) nur bei Gutscheinen oder Kantine/Personalrestaurant
 - **Beachten:** Bund: kein Abzug mangels Mehrkosten, wenn Hauptmahlzeiten max. 10 Fr. kosten
 - **Limiten:**
   - Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): Kanton **CHF 7.50 (Verpflegung durch Arbeitgeber verbilligt (Kantine, Personalrestaurant, Barbeitrag, Essensgutscheine) und trotzdem Mehrkosten: CHF 7.50 pro Arbeitstag.)** · Bund **CHF 7.50 (Halber Abzug CHF 7.50 pro Hauptmahlzeit, wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers)**

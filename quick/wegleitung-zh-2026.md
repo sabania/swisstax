@@ -482,7 +482,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Rechnen:** min(Schichttage × 15; 3'200) → Code 210 (Kanton = Bund)
 - **Limite (Kanton / Bund):** Schicht-/Nachtarbeit pro Tag (CHF): CHF 15 / CHF 15
 - **Beachten:** Nicht mit Ziff. 2.1 kumulieren; gestaffelte Arbeitszeit nur, wenn beide Hauptmahlzeiten nicht zu Hause möglich
-- **Beachten:** Bund: bei Verbilligung/Kantine nur halber Abzug (BKV Art. 6 Abs. 2); AG bescheinigt Tage auf Verlangen (Abs. 5)
+- **Beachten:** Bund: bei Verbilligung/Kantine nur halber Abzug (BKV Art. 6 Abs. 2) = CHF 7.50/Tag bzw. 1'600/Jahr (nicht nochmals halbieren); AG bescheinigt Tage auf Verlangen (Abs. 5)
 - ↗ [Detail](../wiki/zh/zuordnung-zh-2026-detail.md#form-360-ziff-2-2-abzug-berufskosten-verpflegung) · [WL ZH 2026 UJ S. 12](../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0061.md)
 
 ### Form. 360 Ziff. 3 · Übrige Berufskosten – pauschal 3% (Code 212) bzw. effektiv (Code 213) ☑️
