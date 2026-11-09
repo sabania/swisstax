@@ -602,6 +602,8 @@ def ablage(text, kt=None, jahr=None) -> str:
                 out.append(f"   - Bedingung: {cut(b['bedingung'], 240)}")
             if j and jahr and rel != "nein":
                 out.append(f"   - einreichen ({NAME[j]} {jahr}): {einreichen_text(kid, j, jahr)}")
+            elif not j and rel != "nein":
+                out.append("   - einreichen: hängt vom Kanton ab → Wohnsitzkanton am 31.12. erfragen und mit Kanton erneut aufrufen")
             if j and jahr:
                 pos = [p for p in L()["positionen"] if p["kt"] == j and p["jahr"] == jahr and kid in (p.get("belege") or [])]
                 if pos:

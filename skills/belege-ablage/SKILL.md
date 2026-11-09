@@ -12,7 +12,8 @@ Keine Beispielliste aus dem Plugin verwenden, keine Kategorie erfinden.
 
 ## Für jedes Dokument
 
-1. **Kanton** = Wohnsitz des Mandanten am 31.12. (aus der Anfrage; steht er nicht da und ist er nötig → nachfragen).
+1. **Kanton** = Wohnsitz des Mandanten am 31.12. (aus der Anfrage). Fehlt er: `ablage` **trotzdem** aufrufen – Typ, Relevanz und
+   Steuerjahr hängen nicht vom Kanton ab; nur für Einreichepflicht und Kategorie relevanter Belege nachfragen.
    **Steuerjahr** = Bescheinigungsjahr des Dokuments (Veranlagung/Rechnung: die Steuerperiode, für die sie gilt).
 2. **Einordnen:** `ablage "<Titel + erste Zeilen + Absender>" --kanton <kt>` → Belegtyp (Top 3), steuerrelevant (mit Bedingung),
    Steuerjahr, Einreichepflicht. Mit dem Dokument abgleichen – die Erkennung ist eine Hilfe, der Inhalt entscheidet.
