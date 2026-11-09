@@ -46,7 +46,7 @@ def main():
     for f in ("steuer.py", "mcp_server.py"):
         shutil.copy2(ROOT / "tools" / f, out / "tools" / f)
     (out / "index").mkdir()
-    for f in ("lookup.json", "fts.sqlite"):
+    for f in ("lookup.json", "fts.sqlite", "quellen.jsonl"):
         shutil.copy2(ROOT / "index" / f, out / "index" / f)
     for d in ("quick", "wiki"):
         shutil.copytree(ROOT / d, out / d)

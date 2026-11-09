@@ -37,3 +37,16 @@ faelle:
 - {befehl: position, jur: tg, jahr: "2025", eingabe: "2.5", erwartet: ["Form. 4.2 Ziff. 2.5"]}
 - {befehl: position, jur: tg, jahr: "2025", eingabe: "4.1 A", erwartet: ["Form. 4.1 A"]}
 - {befehl: position, jur: tg, jahr: "2025", eingabe: "A.1", erwartet: ["Form. 5.2 A.1–A.4"]}
+# Aus der Ursachenanalyse H4 (Prüfer-Vorschläge, 09.11.2026)
+- {befehl: position, jur: zh, jahr: "2025", eingabe: "Unterhaltsbeiträge", erwartet: ["13.1", "13.2", "5.1", "5.2"]}
+- {befehl: position, jur: zh, jahr: "2025", eingabe: "220", erwartet: ["11.1 / 11.2", "Form. 360 Ziff. 6"]}
+- {befehl: position, jur: zh, jahr: "2025", eingabe: "Code 204", erwartet: ["Form. 360 Ziff. 1.3"]}
+- {befehl: position, jur: tg, jahr: "2025", eingabe: "2.4", erwartet: ["Form. 4.2 Ziff. 2.4"]}
+- {befehl: position, jur: tg, jahr: "2025", eingabe: "Code 240", erwartet: ["Form. 4.2 Ziff. 7", "10.1"]}
+- {befehl: position, jur: sg, jahr: "2025", eingabe: Lotteriegewinn, erwartet: ["4.1"]}
+- {befehl: position, jur: sg, jahr: "2025", eingabe: Lotteriegewinn, nicht_enthaelt: "Hilflosenentschädigung"}
+- {befehl: wert, jur: sg, jahr: "2025", eingabe: kinderabzug, nicht_enthaelt: "drittbetreuung"}
+- {befehl: wert, jur: zh, jahr: "2025", eingabe: kinderabzug, enthaelt: "sozialabzug.kind"}
+- {befehl: ablage, jur: zh, jahr: "2025", eingabe: "Portal-Upload: Freigabequittung zur elektronisch eingereichten Steuererklärung 2025, Kanton Zürich, unterschrieben von beiden Ehegatten, mit Freigabecode", enthaelt: "kein Steuerbeleg"}
+- {befehl: beleg, jur: zh, jahr: "2025", eingabe: Freigabequittung, enthaelt: "kein Steuerbeleg"}
+- {befehl: ablage, jur: zh, jahr: "2025", eingabe: "Police Hausratversicherung und Privathaftpflicht 2025", enthaelt: "keine Steuerbeleg-Kategorie"}

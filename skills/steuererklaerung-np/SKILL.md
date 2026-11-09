@@ -23,8 +23,10 @@ Fehlendes als «fehlender Beleg» ausweisen; fehlende Belege blockieren die übr
    Hilfsblatt komplett: `position <kt> <jahr> "Form. <nr>"` (z.B. Berufsauslagen mit allen Codes für Person 1 und 2).
 3. Betrag mit Beleg-Referenz (Datei/Seite) erfassen; Kanton und Bund getrennt, wo Limiten abweichen.
 4. Wert unsicher gelesen → **nie schätzen**: als offenen Punkt «Wert prüfen» ausweisen.
-5. Pauschale vs. effektiv: beide rechnen, günstigere Variante, wo erlaubt. Pauschalen ohne Beleg nicht vergessen
-   (Vermögensverwaltungskosten, Velo, Liegenschaftsunterhalt pauschal …).
+5. Pauschale vs. effektiv: beide rechnen, günstigere Variante, wo erlaubt – **je Teilposition**. Die Berufskosten-Pauschale ersetzt
+   nur die übrigen Berufskosten; Fahrkosten (Abo, Velo, Auto) und Verpflegung kommen immer dazu (Total = Summe der Teilziffern).
+   Pauschalen ohne Beleg nicht vergessen (Vermögensverwaltungskosten, Velo, Liegenschaftsunterhalt pauschal …).
+6. Hilfsblatt-Positionen bis zur Ziffer der Steuererklärung verfolgen (Total des Hilfsblatts → Übertrag; `position <kt> <jahr> "Code <nr>"`).
 
 ## 2a. Haushalt-Abzüge ohne Beleg (aus `formular`, Abschnitt «Standardabzüge nach Haushalt»)
 - **Ehepaar:** Verheiratetenabzug (Bund; kantonal je nach Formular), Versicherungsabzug Verheiratete, **Zweiverdienerabzug**, wenn

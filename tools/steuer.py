@@ -55,7 +55,9 @@ KEYSYN = {
     "versicherung": "krankenkasse praemien versicherung versicherungsabzug versicherungspraemien krankenversicherung "
                     "krankenkassenpraemien sparzinsen sparkapital sparkapitalzinsen praemienabzug",
     "krankheitskosten": "krankheitskosten arzt zahnarzt selbstbehalt arztkosten krankheit unfallkosten",
-    "liegenschaft": "liegenschaft unterhalt liegenschaftsunterhalt unterhaltspauschale eigenmietwert haus wohneigentum",
+    "liegenschaft": "liegenschaft liegenschaften liegenschaftsunterhalt unterhaltskosten unterhaltspauschale eigenmietwert haus "
+                    "wohneigentum einfamilienhaus eigentumswohnung",
+    "unterhaltsbeitraege": "unterhaltsbeitraege unterhaltsbeitrag alimente unterhaltszahlungen kinderalimente unterhalt",
     "parteispenden": "partei parteien parteispende parteispenden parteibeitraege",
     "spenden": "spende spenden gemeinnuetzig vergabungen zuwendungen",
     "weiterbildung": "weiterbildung ausbildung kurs umschulung fortbildung weiterbildungskosten",
@@ -194,13 +196,18 @@ def kompositum(w, ts) -> bool:
         x, y = w[:i], w[i:]
         xs = [x] + ([x[:-1]] if x.endswith("s") and len(x) > 5 else [])
         y_stop = y in STOP or y in GENERISCH
-        if not (y_stop or any(teil(y, t) for t in ts)):
-            continue
         for x2 in xs:
             x_stop = x2 in STOP or x2 in GENERISCH
-            if x_stop and not y_stop:
-                return True
-            if not x_stop and any(teil(x2, t) for t in ts):
+            if x_stop and y_stop:
+                continue
+            if y_stop:
+                # «kinderabzug» → «kinder» muss als ganzes Wort treffen (nicht kinder~kinderbetreuung)
+                if any(tm(x2, t) for t in ts):
+                    return True
+            elif x_stop:
+                if any(tm(y, t) for t in ts):
+                    return True
+            elif any(teil(y, t) for t in ts) and any(teil(x2, t) for t in ts):
                 return True
     return False
 
@@ -355,9 +362,18 @@ def wert(jur, jahr, begriff, n=8) -> str:
         if bund:
             out += ["", f"**Bund (direkte Bundessteuer) {jahr} – gleiche Schlüssel, separat deklarieren:**"]
             for r in bund:
-                out.append(f"- {r['key']} = **{fmt_wert(r)}** · {st(r)} · Quelle: {q_line(r.get('quellen'))}")
+                if r.get("status") == "na":
+                    out.append(f"- {r['key']}: beim Bund nicht gesondert – {cut(r.get('text') or r.get('bemerkung') or '', 180)}")
+                else:
+                    out.append(f"- {r['key']} = **{fmt_wert(r)}** · {st(r)} · Quelle: {q_line(r.get('quellen'))}")
         else:
             out += ["", f"Bund: für diese Schlüssel kein separater Bundeswert erfasst – bei Bedarf `steuer wert bund {jahr} {begriff}`."]
+        # Wo im Formular? (Hauptformular-Positionen mit diesen Eckwerten)
+        pos = [p for p in L()["positionen"] if p["kt"] == j and p["jahr"] == jahr and set(p.get("werte_keys") or []) & keys
+               and not re.match(r"(Form\.|Lohnausweis)", str(p["ziffer"]))]
+        if pos:
+            out += ["", f"**Im Formular {NAME[j]} {jahr}:** " + " · ".join(f"{zf(p)} {cut(p.get('bezeichnung'), 70)}" for p in pos[:4])
+                    + f" → Rechnen/Regel: `position {j} {jahr} <ziffer>`"]
     return "\n".join(out)
 
 
@@ -447,7 +463,7 @@ def position_block(p, voll=True) -> list[str]:
         bl = []
         for b in p["belege"]:
             e = einreichen(b, kt, jahr)
-            bl.append(f"{b} ({cut(beleg_name(b), 50)})" + (f" · einreichen: {e['einreichen'].replace('_', ' ')}" if e else ""))
+            bl.append(f"{b} ({cut(beleg_name(b), 50)})" + (f" · einreichen: {einreichen_text(b, kt, jahr)}" if e else ""))
         out.append("- **Belege:** " + " · ".join(bl))
     if p.get("bemerkung") and voll:
         out.append(f"- **Bemerkung:** {cut(p['bemerkung'], 240)}")
@@ -537,7 +553,8 @@ def position_treffer(j, jahr, arg):
     for p in rows:
         s = score(qt, f"{p.get('bezeichnung')} {p.get('key', '').replace('.', ' ').replace('_', ' ')}",
                   f"{' '.join(p.get('rein') or [])} {p.get('feld') or ''} {' '.join(p.get('belege') or [])}")
-        g = max([v for x, v in pref.items() if key_passt(x, p.get("key")) or any(key_passt(x, k) for k in (p.get("werte_keys") or []))] or [0])
+        g = 0 if str(p.get("key", "")).startswith("info.") else \
+            max([v for x, v in pref.items() if key_passt(x, p.get("key")) or any(key_passt(x, k) for k in (p.get("werte_keys") or []))] or [0])
         if g:
             s += 4 + 2 * g
         if s > 0:
@@ -572,7 +589,13 @@ def position(kt, jahr, arg, n=3) -> str:
     for p in hits[:n]:
         out += position_block(p) + [""]
     if len(hits) > n:
-        out.append("Weitere Treffer: " + " · ".join(f"{zf(p)} {cut(p.get('bezeichnung'), 60)}" for p in hits[n:n + 12]))
+        out.append("Weitere Treffer: " + " · ".join(f"{zf(p)} {cut(p.get('bezeichnung'), 110)}" for p in hits[n:n + 12]))
+    z = ist_ziffer(arg)
+    if z and all(str(p["ziffer"])[:1].isdigit() for p in hits[:n]):
+        hf = [p for p in rows if re.search(r"ziff\.\s*" + re.escape(z) + r"(?![\d.])", str(p["ziffer"]).lower())]
+        if hf:
+            out.append("Gleiche Ziffer im Hilfsblatt: " + " · ".join(f"{p['ziffer']} {cut(p.get('bezeichnung'), 90)}" for p in hf[:4])
+                       + f" → `position {j} {jahr} \"<Hilfsblatt-Ziffer>\"`")
     out.append(f"Detail mit allen Zitaten: wiki/{j}/zuordnung-{j}-{jahr}-detail.md")
     return "\n".join(out)
 
@@ -754,7 +777,7 @@ def beleg(begriff, kt=None, jahr=None) -> str:
             for p in pos[:12]:
                 rein = [sj(x) for x in (p.get("rein") or [])]
                 passend = [x for x in rein if any(tm(w, t) for w in kw for t in toks(x))] or rein
-                out.append(f"- **{zf(p)}** {cut(p.get('bezeichnung'), 80)}" + (" · *nur Selbständigerwerb/Geschäftsvermögen*" if gesch(p) else "")
+                out.append(f"- **{zf(p)}** {cut(p.get('bezeichnung'), 140)}" + (" · *nur Selbständigerwerb/Geschäftsvermögen*" if gesch(p) else "")
                            + (" · *Code im Formular prüfen*" if "nicht verifiziert" in str(p.get("bezeichnung") or "") else ""))
                 if passend:
                     out.append("  - Feld → Eintrag: " + " · ".join(cut(x, 150) for x in passend[:3]))
@@ -773,7 +796,11 @@ def beleg(begriff, kt=None, jahr=None) -> str:
         if e:
             q = f" · Quelle: {e.get('chunk')} «{cut(e.get('zitat'), 120)}»" if e.get("chunk") else ""
             out.append(f"- **Einreichen ({NAME[j]} {jahr}):** {e.get('einreichen')}" + (f" – {cut(e.get('bedingung'), 160)}" if e.get("bedingung") else "") + q)
-        out.append("- **Ablage:** Kategorie aus der Kategorienliste (KATEGORIEN.md) wählen – nach Relevanz und Einreichepflicht oben.")
+        if b.get("relevanz") == "nein":
+            out.append("- **Ablage:** nicht steuerrelevant → keine Steuerbeleg-Kategorie (auch wenn ein Listenbeispiel ähnlich klingt); Grund nennen.")
+        else:
+            out.append("- **Ablage:** Nennt KATEGORIEN.md diese Dokumentart ausdrücklich → diese Kategorie (Vorbehalt bei «prüfen»); "
+                       "sonst nach Einreichepflicht oben (ja → «Eingereicht?» = ja; sonst nein; bedingt → Bedingung prüfen).")
         kn = (b.get("kantone") or {}).get(j.upper())
         if kn:
             out.append(f"- **{j.upper()}:** {cut(kn, 300)}")
@@ -782,7 +809,7 @@ def beleg(begriff, kt=None, jahr=None) -> str:
         out.append("- Kanton und Jahr angeben (--kanton zh --jahr 2025) für Feld → Position, Rechnen und Einreichepflicht.")
     if b.get("hinweise"):
         out.append("- **Hinweise:** " + " · ".join(cut(sj(x), 200) for x in b["hinweise"][:3]))
-    out.append(f"- **Quelle:** {q_line(b.get('quellen'))} · Karte: wiki/belege/beleg-{b['id']}.md")
+    out.append(f"- **Quelle:** {q_line(quelle_fuer(b.get('quellen'), j))} · Karte: wiki/belege/beleg-{b['id']}.md")
     if len(hits) > 1:
         out.append("Andere Kandidaten: " + " · ".join(f"{x['id']}" for _, x in hits[1:]))
     return "\n".join(out)
@@ -834,6 +861,22 @@ def treffer(kw, ntext, ntitel):
     return s
 
 
+KATEGORIE_REGEL = ("Kategorie selbst bestimmen (KATEGORIEN.md mit read öffnen) und nennen: 1) Nennt die Liste diese Dokumentart "
+                   "ausdrücklich → diese Kategorie (auch wenn als «prüfen» markiert: Vorbehalt nennen). 2) Sonst nach Einreichepflicht: "
+                   "ja → Zeile «Eingereicht?» = ja; nein · auf Verlangen · unklar · nicht erfasst → Zeile «Eingereicht?» = nein "
+                   "(bei unklar Unsicherheit nennen); bedingt → Bedingung prüfen, nicht prüfbar → beide Fälle nennen. "
+                   "3) Nicht steuerrelevant oder «kein Steuerbeleg» → keine Steuerbeleg-Kategorie (auch wenn ein Listenbeispiel "
+                   "ähnlich klingt), Grund nennen; Verfahrensdokumente in die dafür vorgesehene Zeile/Klasse der Liste.")
+
+
+def quelle_fuer(qs, kt=None):
+    """Erste Quelle, bevorzugt der angefragte Kanton, dann Bund."""
+    qs = list(qs or [])
+    if kt:
+        qs.sort(key=lambda q: 0 if str(q.get("chunk", "")).startswith(kt + "-") else 1 if str(q.get("chunk", "")).startswith("bund-") else 2)
+    return qs[:1]
+
+
 def ablage(text, kt=None, jahr=None) -> str:
     j = jur_of(kt) if kt else None
     roh = str(text)[:6000]
@@ -875,9 +918,18 @@ def ablage(text, kt=None, jahr=None) -> str:
             b = next((x for x in L()["belege"] if x["id"] == kid), {"id": kid, "name": kid})
             rel = b.get("relevanz")
             out.append(f"{i + 1}. **{b['name']}** (`{kid}`) · Punkte {s:g}")
-            out.append(f"   - steuerrelevant: **{rel}**" + (" → kein Wert in der Steuererklärung" if rel == "nein" else ""))
+            out.append(f"   - steuerrelevant: **{rel}** · {st(b)}" + (" → kein Wert in der Steuererklärung" if rel == "nein" else ""))
             if rel == "bedingt" and b.get("bedingung"):
                 out.append(f"   - Bedingung: {cut(b['bedingung'], 240)}")
+            if rel == "nein":
+                if b.get("bedingung"):
+                    out.append(f"   - Grund: {cut(b['bedingung'], 200)}")
+                if i == 0:
+                    out.append("   - **Ablage:** kein Steuerbeleg → keine Steuerbeleg-Kategorie (auch wenn ein Listenbeispiel ähnlich klingt); Grund nennen")
+            if i == 0 and b.get("quellen"):
+                q = quelle_fuer(b.get("quellen"), j)
+                fremd = j and q and not str(q[0].get("chunk", "")).startswith((j + "-", "bund-"))
+                out.append(f"   - Fundstelle (Relevanz): {q_line(q)}" + (f" – aus anderem Kanton, für {NAME[j]} nicht einzeln belegt" if fremd else ""))
             if j and jahr and rel != "nein":
                 out.append(f"   - einreichen ({NAME[j]} {jahr}): {einreichen_text(kid, j, jahr)}")
             elif not j and rel != "nein":
@@ -889,15 +941,16 @@ def ablage(text, kt=None, jahr=None) -> str:
         else:
             d = (er.get("verfahrensdokumente") or {})[kid]
             out.append(f"{i + 1}. **{d['name']}** (`{kid}`) · Punkte {s:g}")
-            out.append("   - **kein Steuerbeleg** (Dokument des Steuerverfahrens): kein Wert in der Steuererklärung; das Dokument "
-                       "selbst wird nicht als Beleg eingereicht" + (" – verlangte Unterlagen sind die Belege, nicht das Schreiben"
-                                                                     if kid == "auflage-nachfrage" else ""))
+            out.append("   - steuerrelevant (als Beleg): **nein – kein Steuerbeleg** (Dokument des Steuerverfahrens), kein Wert in der Steuererklärung")
+            out.append("   - einreichen als Beleg: **nein**" + (" – die im Schreiben verlangten Unterlagen sind die Belege (je eigenes Dokument)"
+                                                                if kid == "auflage-nachfrage" else ""))
+            out.append("   - Ablage: Zeile/Klasse der Kategorienliste für Dokumente des Steuerverfahrens (nicht für Belege)")
             if d.get("steuerjahr"):
                 out.append(f"   - Steuerjahr: {d['steuerjahr']}")
             if d.get("hinweis"):
                 out.append(f"   - Hinweis: {d['hinweis']}")
-    out += ["", "Kategorie: in KATEGORIEN.md die passende Zeile wählen (Relevanz + Einreichepflicht). Steuerjahr = Bescheinigungsjahr. "
-            "Unsicher → nicht raten, Unsicherheit mit Grund und Vorschlag offenlegen."]
+    out += ["", KATEGORIE_REGEL, "Steuerjahr = Bescheinigungsjahr. Unsicher (Typ, Person, Jahr, Kategorie) → nicht raten, "
+            "Unsicherheit mit Grund und Vorschlag offenlegen."]
     return "\n".join(out)
 
 
@@ -954,6 +1007,17 @@ def suche(query, jur=None, jahr=None, typ=None, n=8) -> str:
                    "⚠️ Ohne Kanton gesucht – Treffer können aus verschiedenen Kantonen stammen. Nennt die Frage einen Kanton, "
                    "mit jur=<kt> wiederholen und nur Treffer dieses Kantons (oder Bund) verwenden.")
     jahr = jahr or jahr_aus(query)
+    if typ:
+        t0 = norm(typ).strip()
+        t0 = {"formulare": "formular", "gesetze": "gesetz", "wegleitungen": "wegleitung", "merkblaetter": "merkblatt",
+              "verordnungen": "verordnung", "kreisschreiben": "kreisschreiben", "weisungen": "weisung"}.get(t0, t0)
+        bekannt = {"gesetz", "verordnung", "wegleitung", "formular", "merkblatt", "kreisschreiben", "rundschreiben", "praxis",
+                   "weisung", "mitteilung", "info", "tarif", "steuerfuss"}
+        if t0 not in bekannt:
+            hinweis = (hinweis + " " if hinweis else "") + f"(typ «{typ}» unbekannt – ohne Filter gesucht; erlaubt: {', '.join(sorted(bekannt))})"
+            typ = None
+        else:
+            typ = t0
     terms = fts_terms(query)
     if not terms:
         return "Leere Suchanfrage."
@@ -990,13 +1054,43 @@ def suche(query, jur=None, jahr=None, typ=None, n=8) -> str:
 
 
 # ---------------------------------------------------------------- Anzeigen
+@lru_cache(maxsize=1)
+def quellen_meta() -> dict:
+    f = ROOT / "index" / "quellen.jsonl"
+    if not f.exists():
+        return {}
+    return {d["id"]: d for d in (json.loads(l) for l in f.read_text(encoding="utf-8").splitlines() if l.strip())}
+
+
+def quellen_hinweis(cid) -> str:
+    """Geltung der Quelle (Jahre, gilt bis, ersetzt durch, Hinweis) und Eckwerte, die diesen Chunk zitieren oder ihn als überholt nennen."""
+    sid = cid.split("__")[0]
+    m = quellen_meta().get(sid) or {}
+    out = []
+    if m:
+        t = f"Quelle: {m.get('kurz') or sid} · gilt für Steuerjahre {', '.join(map(str, m.get('jahre') or [])) or '–'}"
+        if m.get("gilt_bis"):
+            t += f" · gilt bis {m['gilt_bis']}"
+        if m.get("ersetzt_durch"):
+            t += f" · ersetzt durch {m['ersetzt_durch']}"
+        out.append(t)
+        if m.get("hinweis"):
+            out.append(f"Hinweis zur Quelle: {cut(m['hinweis'], 300)}")
+    zit = [r for r in L()["werte"] if any(q.get("chunk") == cid for q in r.get("quellen") or [])]
+    erw = [r for r in L()["werte"] if (sid in str(r.get("bemerkung") or "") or cid in str(r.get("bemerkung") or "")) and r not in zit]
+    for r in (zit + erw)[:4]:
+        out.append(f"Im Wiki: {NAME.get(r['jur'], r['jur'])} {r['jahr']} {r['key']} = {fmt_wert(r)}"
+                   + (f" – Hinweis: {cut(r['bemerkung'], 160)}" if r in erw and r.get("bemerkung") else ""))
+    return ("\n".join("ℹ️ " + x for x in out) + "\n") if out else ""
+
+
 def zeige(ref, abschnitt=None) -> str:
     ref = str(ref).strip()
     if "__" in ref and "/" not in ref:
         r = fts().execute("select id, datei, kontext, text from chunks where id = ?", (ref,)).fetchone()
         if not r:
             return f"Chunk «{ref}» nicht gefunden."
-        return f"# {r[0]}\nDatei: {r[1]}\n> {r[2]}\n\n{r[3]}"
+        return f"# {r[0]}\nDatei: {r[1]}\n> {r[2]}\n" + quellen_hinweis(r[0]) + f"\n{r[3]}"
     for pre in ("steuerwiki/", "./", "../"):
         if ref.startswith(pre):
             ref = ref[len(pre):]
@@ -1066,7 +1160,7 @@ def main(argv=None):
         print(formular(jur, jahr) if jur and jahr else "Kanton und Jahr angeben, z.B. `formular zh 2025`.")
     elif x.cmd == "ablage":
         t = " ".join(x.text)
-        if len(x.text) == 1 and Path(t).is_file():
+        if len(x.text) == 1 and len(t) < 250 and Path(t).is_file():
             t = Path(t).read_text(encoding="utf-8", errors="replace")
         print(ablage(t, x.kanton or x.jur, x.jahr))
     elif x.cmd == "suche":

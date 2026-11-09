@@ -19,10 +19,14 @@ import steuer  # noqa: E402
 
 def pruefe(c, top=3):
     j, jahr, e = c["jur"], str(c["jahr"]), str(c["eingabe"])
-    if c.get("enthaelt"):
-        f = steuer.wert if c["befehl"] == "wert" else steuer.position
-        out = f(j, jahr, e)
-        return c["enthaelt"].lower() in out.lower(), out.splitlines()[0][:100]
+    if c.get("enthaelt") or c.get("nicht_enthaelt"):
+        if c["befehl"] in ("ablage", "beleg"):
+            out = getattr(steuer, c["befehl"])(e, j, jahr)
+        else:
+            out = (steuer.wert if c["befehl"] == "wert" else steuer.position)(j, jahr, e)
+        ok = (not c.get("enthaelt") or c["enthaelt"].lower() in out.lower()) and \
+             (not c.get("nicht_enthaelt") or c["nicht_enthaelt"].lower() not in out.lower())
+        return ok, out.splitlines()[0][:100]
     if c["befehl"] == "wert":
         if hasattr(steuer, "wert_treffer"):
             hits = [r["key"] for r in steuer.wert_treffer(j, jahr, e)]

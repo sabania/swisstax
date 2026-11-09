@@ -30,6 +30,10 @@ Jede Ausgabe enthält schon Fundstelle (Chunk-ID) und Status – übernehmen, ni
 - **Schwellen gelten fürs Jahrestotal** (z.B. Mindestbetrag Spenden: `wert bund <jahr> spenden`).
 - **Kein Doppelabzug:** PK-Einkauf via Lohn (Lohnausweis Ziff. 10.2) steckt im Nettolohn; Feld F (Gratis-Arbeitsweg) → keine Fahrkosten.
 - **«bedingt»** heisst relevant, wenn die Bedingung zutrifft – als bedingt mit Bedingung nennen.
+- **Höchstbeträge** gelten nach dem Gesetz der Jahresfassung (StG/DBG des Steuerjahres); eine Verordnung oder Fassung eines anderen
+  Jahres geht nicht vor. Auffälliger Sprung zum Vorjahr → nachprüfen (`zeige` zeigt Geltung/Hinweis der Quelle).
+- **Berufskosten:** Pauschale «übrige Berufskosten» ersetzt nicht Fahrkosten und Verpflegung – diese kommen dazu.
+- **Ohne Kanton**, aber Formular-/Deklarationsfrage: nicht auf Bund ausweichen – Kanton erfragen oder `position` je Kanton.
 - **2026 teils provisorisch** (ZH/SG 2026 nur Formulare für unterjährige Steuerpflicht; AR 2026 lückenhaft).
 - **Zeitbezug:** Tools immer mit dem Steuerjahr der Erklärung aufrufen – die Ausgabe berücksichtigt, dass Fristen/Verfahren der
   Erklärung X aus der Fassung X+1 stammen (Frist der Erklärung 2025 = `wert <kt> 2025 einreichefrist`). Zinsen: Jahr der Zahlung.

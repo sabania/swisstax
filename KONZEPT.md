@@ -181,9 +181,16 @@ Aufruf, und L1 liefert in einem Aufruf das, wofür der Agent früher 5–10 Date
 |---|---|
 | `ablage "<titel/text>" --kanton --jahr` | Dokument: Typ (Top 3), steuerrelevant, Steuerjahr, Einreichepflicht, Sicherheit (Kategorie danach aus `KATEGORIEN.md`) |
 | `beleg <stichwort> --kanton --jahr` | Belegkarte: relevant?, Feld → Position → Rechnen → Limite, Einreichepflicht (Zitat) |
-| `position <kt> <jahr> <ziffer\|stichwort>` | Formularposition (Ziffer/Code): Rein, Rechnen, Regel, Limite Kanton/Bund, Bundesspalte, Beachten, Belege |
+| `formular <kt> <jahr>` | ganze Steuererklärung: alle Positionen in Formularreihenfolge mit Limiten Kanton \| Bund, Hilfsblätter, Standardabzüge nach Haushalt (Gerüst für komplette Fälle) |
+| `position <kt> <jahr> <ziffer\|"Form. <nr>"\|"Code <nr>"\|stichwort>` | Formularposition (Ziffer/Code, auch Hilfsblätter und Lohnausweis-Felder): Rein, Rechnen, Regel, Limite Kanton/Bund, Bundesspalte, Beachten, Belege mit Einreichepflicht |
 | `wert <jur> <jahr> <stichwort>` / `vergleich <jahr> <stichwort>` | Eckwerte mit Zitat, Chunk, Status (Kanton + Bund) / alle Jurisdiktionen nebeneinander |
 | `suche "<begriffe>" --jur --jahr` / `zeige <chunk\|pfad>` | Volltext (SQLite FTS5, unicode61) über alle 8'925 Chunks / Wortlaut |
+
+Die Wortsuche ist auf schwache Modelle ausgelegt: deutsche Komposita (Kinderabzug, Sparzinsen), Alltagswörter und Abkürzungen
+(Kita, GA, PK, Velo), Ziffern/Codes/Artikel (`Ziff. 16.6`, `Code 220`, `Art. 36 DBG`); findet sie keinen Eckwert, zeigt sie
+die passende Formularposition und Volltexttreffer statt einer leeren Ausgabe. Gemessen mit `eval/werkzeug_test.py`: echte
+Fehlgriffe aus den Protokollen 46/46; unabhängig erzeugte Eingaben (Holdout 2, 270) alter Stand 72 % → 98 % Treffer unter den
+ersten drei. `zeige <chunk>` nennt Geltung der Quelle (Jahre, gilt bis, ersetzt durch) und Wiki-Werte, die sie als überholt führen.
 
 Das Werkzeug ist deterministisch (gleiche Frage → gleiche Antwort), braucht nur Python 3 und liest die vorab gebaute
 `index/lookup.json` (`tools/build_lookup.py`). Es gibt es als CLI (`python3 tools/steuer.py …`) und als MCP-Server

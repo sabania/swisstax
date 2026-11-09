@@ -19,21 +19,29 @@ Keine Beispielliste aus dem Plugin verwenden, keine Kategorie erfinden.
    Steuerjahr, Einreichepflicht. Mit dem Dokument abgleichen – die Erkennung ist eine Hilfe, der Inhalt entscheidet.
 3. **Steuerrelevant?** ja · **bedingt** → die angezeigte Bedingung am Dokument prüfen und nennen · nein → kein Wert in der Steuererklärung.
 4. **Einreichen?** steht in der Ausgabe (`beleg <typ> --kanton <kt> --jahr <jahr>` für Details mit Fundstelle).
-5. **Kategorie aus `KATEGORIEN.md`** – die Zeile wählen, deren «Was hinein gehört» und Beispiele zum Dokument passen; bei Belegen
-   mit Wert in der Steuererklärung entscheidet die Einreichepflicht:
+5. **Kategorie aus `KATEGORIEN.md`** – immer selbst bestimmen und nennen (nicht an den Benutzer delegieren), in dieser Reihenfolge:
+   - **Nicht steuerrelevant** oder Ausgabe **«kein Steuerbeleg»** → keine Steuerbeleg-Kategorie, Grund nennen – auch wenn ein
+     Beispiel der Liste ähnlich klingt (Prämienbescheinigung ≠ Police einer nicht abziehbaren Versicherung). Dokumente des
+     Steuerverfahrens (Veranlagung, Quittung, Freigabe, Fristerstreckung, Auflage) → Zeile/Klasse der Liste für solche Dokumente;
+     bei einer Auflage sind die verlangten Unterlagen die Belege, nicht das Schreiben.
+   - **Nennt die Liste die Dokumentart ausdrücklich** → diese Kategorie, auch wenn sie als «prüfen»/unbestätigt markiert ist
+     (Vorbehalt nennen, nicht abweichen).
+   - **Sonst** entscheidet die Einreichepflicht:
 
    | Einreichen (Tool) | Kategorie |
    |---|---|
    | ja | Zeile für einzureichende Belege («Eingereicht?» = ja) |
    | auf Verlangen · nein | Zeile für Belege, die nicht eingereicht werden («Eingereicht?» = nein) |
-   | bedingt | Bedingung prüfen: erfüllt → einzureichen, sonst nicht; Bedingung nennen |
+   | bedingt | Bedingung prüfen: erfüllt → einzureichen, sonst nicht; aus der Anfrage nicht prüfbar → beide Fälle nennen |
    | unklar · nicht erfasst | wie «nicht einzureichen» und die Unsicherheit nennen |
 
-   Gibt die Liste für eine Dokumentart ausdrücklich eine Kategorie vor, gilt diese. Die Liste kann mehrere Tabellen haben (z.B.
-   Klassen ausserhalb der Steuererklärung für Veranlagung, Rechnungen, Auflagen): dann Tabelle/Klasse **und** Kategorie nennen.
-   Nicht steuerrelevant → keine Steuerbeleg-Kategorie; Grund nennen.
+   Die Liste kann mehrere Tabellen haben (z.B. Klassen ausserhalb der Steuererklärung für Veranlagung, Rechnungen, Auflagen): dann
+   Tabelle/Klasse **und** Kategorie nennen.
 6. **Beschreibung/Dateiregeln:** wie in `KATEGORIEN.md` angegeben (falls vorhanden).
 7. **Unsicher** (Typ, Person, Jahr oder Kategorie) → nicht raten; Unsicherheit mit Grund und Vorschlag offenlegen.
+8. **Mandant** = Person aus Anfrage bzw. Dokument (wörtlich oder neutral «Mandant/in») – nie den Namen des Benutzerkontos oder aus
+   anderen Sitzungen einsetzen.
 
-Ausgabe je Dokument: `Dokument | Belegtyp | steuerrelevant | Steuerjahr | einreichen (Fundstelle) | Kategorie (Tabelle) | Unsicherheit`.
+Ausgabe je Dokument: `Dokument | Belegtyp | steuerrelevant (Fundstelle, Status) | Steuerjahr | einreichen (Fundstelle) | Kategorie (Tabelle) | Unsicherheit`.
+Mehrere Dokumente: erst die Tabelle, danach ein Kurzfazit, das wörtlich aus den Spalten folgt (kein abweichendes Fazit).
 Danach: Werte erfassen mit Skill `steuererklaerung-np`.

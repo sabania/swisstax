@@ -48,7 +48,7 @@ def main():
         for r in ylo(p).get("belege") or []:
             e = {k: r.get(k) for k in ("id", "name", "erkennen", "relevanz", "bedingung", "zweck", "positionen", "extrahieren",
                                        "hinweise", "kantone", "status", "bemerkung")}
-            e["quellen"] = kurzq(r.get("quellen"), 2)
+            e["quellen"] = kurzq(r.get("quellen"), 10)
             out["belege"].append(e)
     for p in sorted((ROOT / "data" / "einreichen").glob("*/*.yaml")):
         d = ylo(p)
