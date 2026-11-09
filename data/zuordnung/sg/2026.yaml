@@ -2314,35 +2314,54 @@ positionen:
   berechnung: Ziff. 33 − (Ziff. 34.1 + Ziff. 34.2)
   beachten:
   - Steuerbar ist das gesamte Reinvermögen (Art. 53 Abs. 1 StG)
-- ziffer: 36.1-36.3
+- ziffer: '36.1'
   abschnitt: Vermögen
-  bezeichnung: 'Sozialabzüge Vermögen: alleinstehend Fr. 75''000 (Code 330), gemeinsam steuerpflichtige Ehegatten Fr. 150''000 (332), je minderjähriges Kind Fr. 20''000 (334)'
+  bezeichnung: Abzug für alleinstehende Steuerpflichtige Fr. 75'000 (Code 330)
   key: vermoegen.sozialabzug
   belege: []
-  feld: Personalien/Kinder Seite 1 (Stichtag 31.12.2026)
-  regel: Abzug Fr. 75'000 je Steuerpflichtigen (Ehepaar 150'000) plus Fr. 20'000 je minderjähriges Kind mit Kinderabzug nach Art. 48 Abs. 1 lit. a. Verhältnisse am Ende der Steuerperiode. Einfache Vermögenssteuer
-    1,7 Promille.
+  feld: Personalien Seite 1 (Zivilstand am 31.12.2026)
+  regel: Fester Abzug vom Reinvermögen für Alleinstehende, Verhältnisse am 31.12.2026. Bund kennt keine Vermögenssteuer.
   werte_keys:
   - vermoegen.freibetrag_alleinstehend
-  - vermoegen.freibetrag_verheiratet
-  - vermoegen.freibetrag_kind
   quellen:
   - chunk: sg-form-1-2026-uj__c0012
     zitat: 36.1 Abzug für alleinstehende Steuerpflichtige Fr. 75’000 330
+  - chunk: bund-dbg-2026__art-1
+    zitat: eine Einkommenssteuer von den natürlichen Personen
+  status: agent-geprueft
+  berechnung: 'Kanton: 75''000 (alleinstehend), in voller Höhe in Ziff. 36.1 / Bund: keine Vermögenssteuer'
+- ziffer: '36.2'
+  abschnitt: Vermögen
+  bezeichnung: Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150'000 (Code 332)
+  key: vermoegen.sozialabzug
+  belege: []
+  feld: Personalien Seite 1 (Zivilstand am 31.12.2026)
+  regel: Fester Abzug vom Reinvermögen für gemeinsam steuerpflichtige Ehegatten, Verhältnisse am 31.12.2026. Bund kennt keine Vermögenssteuer.
+  werte_keys:
+  - vermoegen.freibetrag_verheiratet
+  quellen:
+  - chunk: sg-form-1-2026-uj__c0012
+    zitat: 36.2 Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150’000 332
+  status: agent-geprueft
+  berechnung: 'Kanton: 150''000 (gemeinsam), in voller Höhe in Ziff. 36.2 / Bund: keine Vermögenssteuer'
+- ziffer: '36.3'
+  abschnitt: Vermögen
+  bezeichnung: Abzug für jedes minderjährige Kind Fr. 20'000 (Code 334)
+  key: vermoegen.sozialabzug
+  belege: []
+  feld: Kinderangaben Seite 1 (minderjährige Kinder am 31.12.2026)
+  regel: Fr. 20'000 je minderjähriges Kind unter elterlicher Sorge/Obhut, eigene Zeile (nicht mit 36.1/36.2 zusammenfassen).
+  werte_keys:
+  - vermoegen.freibetrag_kind
+  quellen:
   - chunk: sg-form-1-2026-uj__c0012
     zitat: 36.3 Abzug für jedes minderjährige Kind Fr. 20’000 334
   - chunk: sg-stg-2026__art-64
     zitat: für jeden Steuerpflichtigen Fr. 75 000.–
-  - chunk: bund-dbg-2026__art-1
-    zitat: eine Einkommenssteuer von den natürlichen Personen
   status: agent-geprueft
-  rein:
-  - Personalien Seite 1 → Zivilstand und minderjährige Kinder am 31. Dezember 2026 bzw. Ende Steuerpflicht
-  berechnung: Alleinstehend 75'000 bzw. Ehegatten 150'000 (2 × 75'000) + 20'000 × minderjährige Kinder mit Kinderabzug
+  berechnung: 'Kanton: 20''000 × minderjährige Kinder (eigene Zeile, Code 334) / Bund: keine Vermögenssteuer'
   beachten:
-  - 'Kinder: nur minderjährig, unter Sorge/Obhut, mit Kinderabzug nach Art. 48 Abs. 1 lit. a StG'
-  - Verhältnisse am Ende der Steuerperiode bzw. Steuerpflicht (Art. 64 Abs. 2 StG)
-  - 'Nur Kantons-/Gemeindesteuer: Bund erhebt keine Vermögenssteuer (Art. 1 DBG)'
+  - 'Nur minderjährige Kinder unter elterlicher Sorge/Obhut; volljährige Kinder in Ausbildung: kein 36.3'
 - ziffer: '37'
   abschnitt: Vermögen
   bezeichnung: Steuerbares Vermögen gesamt (Code 338)

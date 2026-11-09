@@ -52,8 +52,8 @@ Schnellzugriff für den Steuerexperten-Agenten: erst hier, dann über die Links 
 
 **Abnahme-Stand** (✅ verifiziert durch Fachperson / ☑️ agent-geprüft / ⚠️ strittig / ⬜ offen; Checkliste `reports/abnahme-checkliste-<jahr>.md`):
 
-- 2025: Bund ✅0 ☑️57 ⚠️0 ⬜0 · AR ✅0 ☑️152 ⚠️1 ⬜5 · SG ✅0 ☑️157 ⚠️0 ⬜3 · TG ✅0 ☑️169 ⚠️1 ⬜4 · ZH ✅0 ☑️174 ⚠️2 ⬜2
-- 2026: Bund ✅0 ☑️57 ⚠️0 ⬜1 · AR ✅0 ☑️52 ⚠️3 ⬜103 · SG ✅0 ☑️147 ⚠️1 ⬜4 · TG ✅0 ☑️167 ⚠️1 ⬜4 · ZH ✅0 ☑️155 ⚠️1 ⬜0
+- 2025: Bund ✅0 ☑️57 ⚠️0 ⬜0 · AR ✅0 ☑️152 ⚠️1 ⬜5 · SG ✅0 ☑️159 ⚠️0 ⬜3 · TG ✅0 ☑️169 ⚠️1 ⬜4 · ZH ✅0 ☑️174 ⚠️2 ⬜2
+- 2026: Bund ✅0 ☑️57 ⚠️0 ⬜1 · AR ✅0 ☑️52 ⚠️3 ⬜103 · SG ✅0 ☑️149 ⚠️1 ⬜4 · TG ✅0 ☑️169 ⚠️1 ⬜4 · ZH ✅0 ☑️155 ⚠️1 ⬜0
 
 ## Themen (Stichworte)
 

@@ -11,7 +11,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 
 > Je Formularposition: **Rein** (welche Dokumente → welches Feld) · **Rechnen** (Kurzformel) · **Limite** (Kanton / Bund) · **Beachten**. Volle Regel, Bund-Hinweis und wörtliche Zitate: ↗ Detail. Formular: Steuererklärung 2026 TG (Formular 1, Seiten 1–4) + Hilfsblätter: Form. · [Tabelle](zuordnung-tg-2026.md) · [Eckwerte](werte-tg-2026.md) · [Gültigkeit 2026](gueltigkeit-2026.md)
 
-**Abschnitte:** Personalien (5) · Einkünfte (20) · Abzüge (18) · Einkommensberechnung (14) · Vermögen (13) · Weitere Angaben (3) · Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2) (14) · Hilfsblatt Krankheit/Unfall/Behinderung (Form. 5.1) (4) · Hilfsblatt Versicherungsprämien (Form. 5.2) (3) · Hilfsblatt Zuwendungen (Form. 6) (2) · Hilfsblatt Schuldenverzeichnis (Form. 4.1) (3) · Hilfsblatt Wertschriftenverzeichnis (Form. 2) (6) · Hilfsblatt Liegenschaften (Form. 7) (6) · Hilfsblatt Liegenschaftsunterhalt (Form. 8) (3)
+**Abschnitte:** Personalien (5) · Einkünfte (20) · Abzüge (18) · Einkommensberechnung (14) · Vermögen (15) · Weitere Angaben (3) · Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2) (14) · Hilfsblatt Krankheit/Unfall/Behinderung (Form. 5.1) (4) · Hilfsblatt Versicherungsprämien (Form. 5.2) (3) · Hilfsblatt Zuwendungen (Form. 6) (2) · Hilfsblatt Schuldenverzeichnis (Form. 4.1) (3) · Hilfsblatt Wertschriftenverzeichnis (Form. 2) (6) · Hilfsblatt Liegenschaften (Form. 7) (6) · Hilfsblatt Liegenschaftsunterhalt (Form. 8) (3)
 
 ## Personalien
 
@@ -568,14 +568,23 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Nur Staatssteuer (Vermögen wird nur kantonal besteuert)
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#35-berechnung-total) · [Formular 1 TG 2026 S. 4](../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0015.md)
 
-### 36.1–36.3 · Steuerfreie Beträge: gemeinsam Besteuerte Fr. 200'000 (Code 470); Alleinstehende Fr. 100'000 (Code 472); je nicht … ☑️
-- **Rein:** Personalien → Zivilstand, Kinder mit Jahrgang (Stand 31. Dezember 2026)
-- **Rechnen:** Gemeinsam Besteuerte 200'000 (Code 470) bzw. Alleinstehende 100'000 (Code 472) + 100'000 je Kind Jg. 2009 und jünger (Code 474)
-- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): CHF 100'000 / n/a · Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): CHF 200'000 / n/a · Vermögens-Sozialabzug pro Kind (CHF): CHF 100'000 / n/a
-- **Beachten:** Getrennte Eltern: Freibetrag je Kind folgt Kinderabzug; hälftig nur bei gem. Sorge, ohne Alimente, alternierender Obhut
-- **Beachten:** Kinder Jg. 2008 sind 2026 selbständig steuerpflichtig (Mündigkeitsjahr) – kein Freibetrag bei den Eltern
-- **Beachten:** Bund: kein Vermögen, kein Abzug
-- ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#36-1-36-3-vermoegen-sozialabzug) · [Formular 1 TG 2026 S. 4](../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0016.md)
+### 36.1 · Abzug für gemeinsam besteuerte Personen Fr. 200'000 (Code 470) ☑️
+- **Rein:**  → Personalien Seite 1 (Stand 31.12.2026)
+- **Rechnen:** 200'000 in voller Höhe (Code 470)
+- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): CHF 200'000 / n/a
+- ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#36-1-vermoegen-sozialabzug) · [Formular 1 TG 2026 S. 4](../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0016.md)
+
+### 36.2 · Abzug für alleinstehende Personen Fr. 100'000 (Code 472) ☑️
+- **Rein:**  → Personalien Seite 1 (Stand 31.12.2026)
+- **Rechnen:** 100'000 in voller Höhe (Code 472)
+- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): CHF 100'000 / n/a
+- ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#36-2-vermoegen-sozialabzug) · [Formular 1 TG 2026 S. 4](../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0016.md)
+
+### 36.3 · Abzug für jedes nicht selbständig besteuerte Kind (Jg. 2009 und jünger) Fr. 100'000 (Code 474) ☑️
+- **Rein:**  → Kinder (Jahrgang) Seite 1
+- **Rechnen:** 100'000 × Kinder Jg. 2009 und jünger (eigene Zeile, Code 474)
+- **Limite (Kanton / Bund):** Vermögens-Sozialabzug pro Kind (CHF): CHF 100'000 / n/a
+- ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#36-3-vermoegen-sozialabzug) · [Formular 1 TG 2026 S. 4](../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0016.md)
 
 ### 37 · Steuerbares Vermögen gesamt (Code 498) ☑️
 - **Rein:** Übertrag Ziff. 35 und Ziff. 36.1–36.3 (Codes 470–474)

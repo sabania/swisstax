@@ -1290,25 +1290,44 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
   - [Formular 1 SG 2025 S. 4](../../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md) `sg-form-1-2025__c0013` – «35. Reinvermögen (Ziffer 33 abzüglich 34) 326»
   - [WL SG 2025 S. 34](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0118.md) `sg-wl-2025__c0118` – «Vom Reinvermögen gemäss Ziffer 35 können die folgenden Beträge»
 
-<a id="36-1-36-3-vermoegen-sozialabzug"></a>
-### Ziff. 36.1-36.3 – Sozialabzüge Vermögen: alleinstehend Fr. 75'000 (Code 330), gemeinsam Fr. 150'000 (Code 332), je minderjähriges Kind Fr. 20'000 (Code 334)
+<a id="36-1-vermoegen-sozialabzug"></a>
+### Ziff. 36.1 – Abzug für alleinstehende Steuerpflichtige Fr. 75'000 (Code 330)
 
 - **Schlüssel:** `vermoegen.sozialabzug` (Steuerfreie Beträge / Sozialabzüge auf dem Vermögen) · **Status:** ☑️ agent-geprueft
-- **Beleg → Feld:** – → Personalien/Kinder Seite 1 (Stichtag 31.12.2025)
-- **Rein:** Personalien Seite 1 → Zivilstand am 31. Dezember 2025 (alleinstehend / gemeinsam steuerpflichtig) · Kinderangaben Seite 1 → Anzahl minderjährige Kinder unter elterlicher Sorge/Obhut
-- **Rechnen:** Kanton: 75'000 (alleinstehend) bzw. 150'000 (gemeinsam) + 20'000 × minderjähriges Kind / Bund: keine Vermögenssteuer
-- **Regel:** Festbeträge vom Reinvermögen nach den Verhältnissen am 31.12.2025; Kinderabzug für minderjährige Kinder unter elterlicher Sorge/Obhut. Bund kennt keine Vermögenssteuer.
-- **Beachten:** Verhältnisse am Ende der Steuerperiode massgebend (i.d.R. 31. Dezember 2025)
-- **Beachten:** Nur minderjährige Kinder unter elterlicher Sorge/Obhut; volljährige Kinder in Ausbildung: kein 36.3
+- **Beleg → Feld:** – → Personalien Seite 1 (Zivilstand am 31.12.2025)
+- **Rechnen:** Kanton: 75'000 (alleinstehend), in voller Höhe in Ziff. 36.1 / Bund: keine Vermögenssteuer
+- **Regel:** Fester Abzug vom Reinvermögen für Alleinstehende, Verhältnisse am 31.12.2025. Bund kennt keine Vermögenssteuer.
 - **Limiten:**
   - Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): Kanton **CHF 75'000 (Sozialabzug auf dem Reinvermögen: Fr. 75'000 für jeden Steuerpflichtigen (Alleinstehende).)** · Bund **n/a – Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.**
-  - Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): Kanton **CHF 150'000 (Sozialabzug Vermögen für gemeinsam Steuerpflichtige: Fr. 150'000 (2 x Fr. 75'000).)** · Bund **n/a – Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.**
-  - Vermögens-Sozialabzug pro Kind (CHF): Kanton **CHF 20'000 (Zusätzlicher Vermögens-Sozialabzug Fr. 20'000 pro minderjähriges Kind unter elterlicher Sorge/Obhut, für das ein Kinderabzug beansprucht werden kann.)** · Bund **n/a – Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.**
 - **Quellen:**
   - [Formular 1 SG 2025 S. 4](../../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md) `sg-form-1-2025__c0013` – «36.1 Abzug für alleinstehende Steuerpflichtige Fr. 75’000 330»
-  - [Formular 1 SG 2025 S. 4](../../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md) `sg-form-1-2025__c0013` – «36.2 Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150’000 332»
-  - [WL SG 2025 S. 34](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0118.md) `sg-wl-2025__c0118` – «20’000 zusätzlich für jedes minderjährige»
   - [DBG Art. 1](../../chunks/bund/2025/bund-dbg-2025/bund-dbg-2025__art-1.md) `bund-dbg-2025__art-1` – «eine Einkommenssteuer von den natürlichen Personen»
+
+<a id="36-2-vermoegen-sozialabzug"></a>
+### Ziff. 36.2 – Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150'000 (Code 332)
+
+- **Schlüssel:** `vermoegen.sozialabzug` (Steuerfreie Beträge / Sozialabzüge auf dem Vermögen) · **Status:** ☑️ agent-geprueft
+- **Beleg → Feld:** – → Personalien Seite 1 (Zivilstand am 31.12.2025)
+- **Rechnen:** Kanton: 150'000 (gemeinsam), in voller Höhe in Ziff. 36.2 / Bund: keine Vermögenssteuer
+- **Regel:** Fester Abzug vom Reinvermögen für gemeinsam steuerpflichtige Ehegatten, Verhältnisse am 31.12.2025. Bund kennt keine Vermögenssteuer.
+- **Limiten:**
+  - Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): Kanton **CHF 150'000 (Sozialabzug Vermögen für gemeinsam Steuerpflichtige: Fr. 150'000 (2 x Fr. 75'000).)** · Bund **n/a – Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.**
+- **Quellen:**
+  - [Formular 1 SG 2025 S. 4](../../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md) `sg-form-1-2025__c0013` – «36.2 Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150’000 332»
+
+<a id="36-3-vermoegen-sozialabzug"></a>
+### Ziff. 36.3 – Abzug für jedes minderjährige Kind Fr. 20'000 (Code 334)
+
+- **Schlüssel:** `vermoegen.sozialabzug` (Steuerfreie Beträge / Sozialabzüge auf dem Vermögen) · **Status:** ☑️ agent-geprueft
+- **Beleg → Feld:** – → Kinderangaben Seite 1 (minderjährige Kinder am 31.12.2025)
+- **Rechnen:** Kanton: 20'000 × minderjährige Kinder (eigene Zeile, Code 334) / Bund: keine Vermögenssteuer
+- **Regel:** Fr. 20'000 je minderjähriges Kind unter elterlicher Sorge/Obhut, eigene Zeile (nicht mit 36.1/36.2 zusammenfassen).
+- **Beachten:** Nur minderjährige Kinder unter elterlicher Sorge/Obhut; volljährige Kinder in Ausbildung: kein 36.3
+- **Limiten:**
+  - Vermögens-Sozialabzug pro Kind (CHF): Kanton **CHF 20'000 (Zusätzlicher Vermögens-Sozialabzug Fr. 20'000 pro minderjähriges Kind unter elterlicher Sorge/Obhut, für das ein Kinderabzug beansprucht werden kann.)** · Bund **n/a – Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.**
+- **Quellen:**
+  - [Formular 1 SG 2025 S. 4](../../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md) `sg-form-1-2025__c0013` – «36.3 Abzug für jedes minderjährige Kind Fr. 20’000 334»
+  - [WL SG 2025 S. 34](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0118.md) `sg-wl-2025__c0118` – «20’000 zusätzlich für jedes minderjährige»
 
 <a id="37-berechnung-total"></a>
 ### Ziff. 37 – Steuerbares Vermögen gesamt (Code 338)

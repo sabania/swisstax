@@ -13,7 +13,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 
 > **Hinweis:** Wegleitung und Hilfsblätter SG 2026 noch nicht publiziert (Stand 09.11.2026) – Zuordnung stützt sich auf Formular 1 SG 2026 UJ und die Rechtsgrundlagen 2026.
 
-**Abschnitte:** Einkünfte (20) · Einkünfte (ergänzende Angaben) (3) · Abzüge (18) · Einkommensberechnung (10) · Vermögen (14) · Weitere Angaben (2) · Hilfsblatt Berufskosten (Formular 4) (11) · Lohnausweis (Regeln für Steuererklärung) (5) · Hilfsblatt Wertschriften (Formular 2) (1) · Hilfsblatt Schulden/Zuwendungen (Formular 5) (1) · Hilfsblatt Versicherungen/Krankheitskosten (Formular 6) (1) · Hilfsblatt Liegenschaften (Formular 7) (1) · Hilfsblatt Kinder (Formular 10) (1)
+**Abschnitte:** Einkünfte (20) · Einkünfte (ergänzende Angaben) (3) · Abzüge (18) · Einkommensberechnung (10) · Vermögen (16) · Weitere Angaben (2) · Hilfsblatt Berufskosten (Formular 4) (11) · Lohnausweis (Regeln für Steuererklärung) (5) · Hilfsblatt Wertschriften (Formular 2) (1) · Hilfsblatt Schulden/Zuwendungen (Formular 5) (1) · Hilfsblatt Versicherungen/Krankheitskosten (Formular 6) (1) · Hilfsblatt Liegenschaften (Formular 7) (1) · Hilfsblatt Kinder (Formular 10) (1)
 
 ## Einkünfte
 
@@ -532,14 +532,24 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Beachten:** Steuerbar ist das gesamte Reinvermögen (Art. 53 Abs. 1 StG)
 - ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#35-berechnung-total) · [Formular 1 SG 2026 UJ S. 4](../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md)
 
-### 36.1-36.3 · Sozialabzüge Vermögen: alleinstehend Fr. 75'000 (Code 330), gemeinsam steuerpflichtige Ehegatten Fr. 150'000 (332), je … ☑️
-- **Rein:** Personalien Seite 1 → Zivilstand und minderjährige Kinder am 31. Dezember 2026 bzw. Ende Steuerpflicht
-- **Rechnen:** Alleinstehend 75'000 bzw. Ehegatten 150'000 (2 × 75'000) + 20'000 × minderjährige Kinder mit Kinderabzug
-- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): CHF 75'000 / n/a · Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): CHF 150'000 / n/a · Vermögens-Sozialabzug pro Kind (CHF): CHF 20'000 / n/a
-- **Beachten:** Kinder: nur minderjährig, unter Sorge/Obhut, mit Kinderabzug nach Art. 48 Abs. 1 lit. a StG
-- **Beachten:** Verhältnisse am Ende der Steuerperiode bzw. Steuerpflicht (Art. 64 Abs. 2 StG)
-- **Beachten:** Nur Kantons-/Gemeindesteuer: Bund erhebt keine Vermögenssteuer (Art. 1 DBG)
-- ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#36-1-36-3-vermoegen-sozialabzug) · [Formular 1 SG 2026 UJ S. 4](../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md)
+### 36.1 · Abzug für alleinstehende Steuerpflichtige Fr. 75'000 (Code 330) ☑️
+- **Rein:**  → Personalien Seite 1 (Zivilstand am 31.12.2026)
+- **Rechnen:** Kanton: 75'000 (alleinstehend), in voller Höhe in Ziff. 36.1 / Bund: keine Vermögenssteuer
+- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): CHF 75'000 / n/a
+- ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#36-1-vermoegen-sozialabzug) · [Formular 1 SG 2026 UJ S. 4](../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md)
+
+### 36.2 · Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150'000 (Code 332) ☑️
+- **Rein:**  → Personalien Seite 1 (Zivilstand am 31.12.2026)
+- **Rechnen:** Kanton: 150'000 (gemeinsam), in voller Höhe in Ziff. 36.2 / Bund: keine Vermögenssteuer
+- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): CHF 150'000 / n/a
+- ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#36-2-vermoegen-sozialabzug) · [Formular 1 SG 2026 UJ S. 4](../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md)
+
+### 36.3 · Abzug für jedes minderjährige Kind Fr. 20'000 (Code 334) ☑️
+- **Rein:**  → Kinderangaben Seite 1 (minderjährige Kinder am 31.12.2026)
+- **Rechnen:** Kanton: 20'000 × minderjährige Kinder (eigene Zeile, Code 334) / Bund: keine Vermögenssteuer
+- **Limite (Kanton / Bund):** Vermögens-Sozialabzug pro Kind (CHF): CHF 20'000 / n/a
+- **Beachten:** Nur minderjährige Kinder unter elterlicher Sorge/Obhut; volljährige Kinder in Ausbildung: kein 36.3
+- ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#36-3-vermoegen-sozialabzug) · [Formular 1 SG 2026 UJ S. 4](../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md)
 
 ### 37 · Steuerbares Vermögen gesamt (Code 338) ☑️
 - **Rein:** Übertrag Ziff. 35 abzüglich Ziff. 36.1 bis 36.3

@@ -1449,26 +1449,44 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
   - [Formular 1 SG 2026 UJ S. 4](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md) `sg-form-1-2026-uj__c0012` – «35. Reinvermögen (Ziffer 33 abzüglich 34) 326»
   - [StG SG Art. 53](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-53.md) `sg-stg-2026__art-53` – «Der Vermögenssteuer unterliegt das gesamte Reinvermögen»
 
-<a id="36-1-36-3-vermoegen-sozialabzug"></a>
-### Ziff. 36.1-36.3 – Sozialabzüge Vermögen: alleinstehend Fr. 75'000 (Code 330), gemeinsam steuerpflichtige Ehegatten Fr. 150'000 (332), je minderjähriges Kind Fr. 20'000 (334)
+<a id="36-1-vermoegen-sozialabzug"></a>
+### Ziff. 36.1 – Abzug für alleinstehende Steuerpflichtige Fr. 75'000 (Code 330)
 
 - **Schlüssel:** `vermoegen.sozialabzug` (Steuerfreie Beträge / Sozialabzüge auf dem Vermögen) · **Status:** ☑️ agent-geprueft
-- **Beleg → Feld:** – → Personalien/Kinder Seite 1 (Stichtag 31.12.2026)
-- **Rein:** Personalien Seite 1 → Zivilstand und minderjährige Kinder am 31. Dezember 2026 bzw. Ende Steuerpflicht
-- **Rechnen:** Alleinstehend 75'000 bzw. Ehegatten 150'000 (2 × 75'000) + 20'000 × minderjährige Kinder mit Kinderabzug
-- **Regel:** Abzug Fr. 75'000 je Steuerpflichtigen (Ehepaar 150'000) plus Fr. 20'000 je minderjähriges Kind mit Kinderabzug nach Art. 48 Abs. 1 lit. a. Verhältnisse am Ende der Steuerperiode. Einfache Vermögenssteuer 1,7 Promille.
-- **Beachten:** Kinder: nur minderjährig, unter Sorge/Obhut, mit Kinderabzug nach Art. 48 Abs. 1 lit. a StG
-- **Beachten:** Verhältnisse am Ende der Steuerperiode bzw. Steuerpflicht (Art. 64 Abs. 2 StG)
-- **Beachten:** Nur Kantons-/Gemeindesteuer: Bund erhebt keine Vermögenssteuer (Art. 1 DBG)
+- **Beleg → Feld:** – → Personalien Seite 1 (Zivilstand am 31.12.2026)
+- **Rechnen:** Kanton: 75'000 (alleinstehend), in voller Höhe in Ziff. 36.1 / Bund: keine Vermögenssteuer
+- **Regel:** Fester Abzug vom Reinvermögen für Alleinstehende, Verhältnisse am 31.12.2026. Bund kennt keine Vermögenssteuer.
 - **Limiten:**
   - Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): Kanton **CHF 75'000 (Sozialabzug vom Reinvermögen: Fr. 75'000 für jeden Steuerpflichtigen.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
-  - Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): Kanton **CHF 150'000 (Gemeinsam steuerpflichtige Ehegatten: Fr. 75'000 für jeden Steuerpflichtigen, somit Fr. 150'000 gemeinsam.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
-  - Vermögens-Sozialabzug pro Kind (CHF): Kanton **CHF 20'000 (Zusätzlich Fr. 20'000 für jedes minderjährige, unter der elterlichen Sorge oder Obhut stehende Kind, für das ein Kinderabzug nach Art. 48 Abs. 1 lit. a beansprucht werden kann.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
 - **Quellen:**
   - [Formular 1 SG 2026 UJ S. 4](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md) `sg-form-1-2026-uj__c0012` – «36.1 Abzug für alleinstehende Steuerpflichtige Fr. 75’000 330»
+  - [DBG Art. 1](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-1.md) `bund-dbg-2026__art-1` – «eine Einkommenssteuer von den natürlichen Personen»
+
+<a id="36-2-vermoegen-sozialabzug"></a>
+### Ziff. 36.2 – Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150'000 (Code 332)
+
+- **Schlüssel:** `vermoegen.sozialabzug` (Steuerfreie Beträge / Sozialabzüge auf dem Vermögen) · **Status:** ☑️ agent-geprueft
+- **Beleg → Feld:** – → Personalien Seite 1 (Zivilstand am 31.12.2026)
+- **Rechnen:** Kanton: 150'000 (gemeinsam), in voller Höhe in Ziff. 36.2 / Bund: keine Vermögenssteuer
+- **Regel:** Fester Abzug vom Reinvermögen für gemeinsam steuerpflichtige Ehegatten, Verhältnisse am 31.12.2026. Bund kennt keine Vermögenssteuer.
+- **Limiten:**
+  - Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): Kanton **CHF 150'000 (Gemeinsam steuerpflichtige Ehegatten: Fr. 75'000 für jeden Steuerpflichtigen, somit Fr. 150'000 gemeinsam.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
+- **Quellen:**
+  - [Formular 1 SG 2026 UJ S. 4](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md) `sg-form-1-2026-uj__c0012` – «36.2 Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150’000 332»
+
+<a id="36-3-vermoegen-sozialabzug"></a>
+### Ziff. 36.3 – Abzug für jedes minderjährige Kind Fr. 20'000 (Code 334)
+
+- **Schlüssel:** `vermoegen.sozialabzug` (Steuerfreie Beträge / Sozialabzüge auf dem Vermögen) · **Status:** ☑️ agent-geprueft
+- **Beleg → Feld:** – → Kinderangaben Seite 1 (minderjährige Kinder am 31.12.2026)
+- **Rechnen:** Kanton: 20'000 × minderjährige Kinder (eigene Zeile, Code 334) / Bund: keine Vermögenssteuer
+- **Regel:** Fr. 20'000 je minderjähriges Kind unter elterlicher Sorge/Obhut, eigene Zeile (nicht mit 36.1/36.2 zusammenfassen).
+- **Beachten:** Nur minderjährige Kinder unter elterlicher Sorge/Obhut; volljährige Kinder in Ausbildung: kein 36.3
+- **Limiten:**
+  - Vermögens-Sozialabzug pro Kind (CHF): Kanton **CHF 20'000 (Zusätzlich Fr. 20'000 für jedes minderjährige, unter der elterlichen Sorge oder Obhut stehende Kind, für das ein Kinderabzug nach Art. 48 Abs. 1 lit. a beansprucht werden kann.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
+- **Quellen:**
   - [Formular 1 SG 2026 UJ S. 4](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0012.md) `sg-form-1-2026-uj__c0012` – «36.3 Abzug für jedes minderjährige Kind Fr. 20’000 334»
   - [StG SG Art. 64](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-64.md) `sg-stg-2026__art-64` – «für jeden Steuerpflichtigen Fr. 75 000.–»
-  - [DBG Art. 1](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-1.md) `bund-dbg-2026__art-1` – «eine Einkommenssteuer von den natürlichen Personen»
 
 <a id="37-berechnung-total"></a>
 ### Ziff. 37 – Steuerbares Vermögen gesamt (Code 338)

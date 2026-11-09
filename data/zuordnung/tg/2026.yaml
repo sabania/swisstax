@@ -2227,22 +2227,49 @@ positionen:
   berechnung: Ziff. 33 − Ziff. 34 → Code 468
   beachten:
   - Nur Staatssteuer (Vermögen wird nur kantonal besteuert)
-- ziffer: 36.1–36.3
+- ziffer: '36.1'
   abschnitt: Vermögen
-  bezeichnung: 'Steuerfreie Beträge: gemeinsam Besteuerte Fr. 200''000 (Code 470); Alleinstehende Fr. 100''000 (Code 472); je nicht selbständig besteuertes Kind Jg. 2009 und jünger Fr. 100''000 (Code 474)'
+  bezeichnung: Abzug für gemeinsam besteuerte Personen Fr. 200'000 (Code 470)
   key: vermoegen.sozialabzug
   belege: []
-  feld: Personalien/Kinder (Jahrgang) Seite 1
-  regel: Verhältnisse am 31.12.2026. Bei getrennt besteuerten Eltern erhält der Elternteil den Freibetrag je Kind, der den Kinderabzug erhält; hälftig nur bei gemeinsamem Sorgerecht, keinen periodischen
-    Unterhaltsbeiträgen und alternierender Obhut. Für mündige Kinder (Mündigkeitsjahr) kein Freibetrag der Eltern.
+  feld: Personalien Seite 1 (Stand 31.12.2026)
+  regel: Steuerfreier Betrag für gemeinsam besteuerte Personen, Verhältnisse am 31.12.2026.
   werte_keys:
-  - vermoegen.freibetrag_alleinstehend
   - vermoegen.freibetrag_verheiratet
-  - vermoegen.freibetrag_kind
   bund: Kein Vermögenssteuerabzug bei der direkten Bundessteuer.
   quellen:
   - chunk: tg-form-01-2026__c0016
     zitat: 36.1 Abzug für gemeinsam besteuerte Personen (Eheleute / Partnerinnen oder Partner) Fr. 200000 470
+  status: agent-geprueft
+  berechnung: 200'000 in voller Höhe (Code 470)
+- ziffer: '36.2'
+  abschnitt: Vermögen
+  bezeichnung: Abzug für alleinstehende Personen Fr. 100'000 (Code 472)
+  key: vermoegen.sozialabzug
+  belege: []
+  feld: Personalien Seite 1 (Stand 31.12.2026)
+  regel: Steuerfreier Betrag für Alleinstehende, Verhältnisse am 31.12.2026.
+  werte_keys:
+  - vermoegen.freibetrag_alleinstehend
+  bund: Kein Vermögenssteuerabzug bei der direkten Bundessteuer.
+  quellen:
+  - chunk: tg-form-01-2026__c0016
+    zitat: 36.2 Abzug für alleinstehende Personen Fr. 100000 472
+  status: agent-geprueft
+  berechnung: 100'000 in voller Höhe (Code 472)
+- ziffer: '36.3'
+  abschnitt: Vermögen
+  bezeichnung: Abzug für jedes nicht selbständig besteuerte Kind (Jg. 2009 und jünger) Fr. 100'000 (Code 474)
+  key: vermoegen.sozialabzug
+  belege: []
+  feld: Kinder (Jahrgang) Seite 1
+  regel: Fr. 100'000 je nicht selbständig besteuertes Kind Jg. 2009 und jünger; bei getrennt besteuerten Eltern erhält ihn der Elternteil mit dem Kinderabzug (hälftig nur bei gemeinsamem Sorgerecht, keinen Unterhaltsbeiträgen und alternierender Obhut). Kinder Jg. 2008 sind 2026 selbständig steuerpflichtig.
+  werte_keys:
+  - vermoegen.freibetrag_kind
+  bund: Kein Vermögenssteuerabzug bei der direkten Bundessteuer.
+  quellen:
+  - chunk: tg-form-01-2026__c0016
+    zitat: 36.3 Abzug für jedes nicht selbständig besteuerte Kind (Jahrgang 2009 und jüngere) Fr. 100000 474
   - chunk: tg-wl-2026__c0128
     zitat: – für jedes nicht selbständig besteuerte Kind (Jahrgang 2009 und jünger) Fr. 100'000
   - chunk: tg-wl-2026__c0012
@@ -2250,13 +2277,7 @@ positionen:
   - chunk: tg-wl-2026__c0128
     zitat: Die Eltern können für ihre mündigen Kinder
   status: agent-geprueft
-  rein:
-  - Personalien → Zivilstand, Kinder mit Jahrgang (Stand 31. Dezember 2026)
-  berechnung: Gemeinsam Besteuerte 200'000 (Code 470) bzw. Alleinstehende 100'000 (Code 472) + 100'000 je Kind Jg. 2009 und jünger (Code 474)
-  beachten:
-  - 'Getrennte Eltern: Freibetrag je Kind folgt Kinderabzug; hälftig nur bei gem. Sorge, ohne Alimente, alternierender Obhut'
-  - Kinder Jg. 2008 sind 2026 selbständig steuerpflichtig (Mündigkeitsjahr) – kein Freibetrag bei den Eltern
-  - 'Bund: kein Vermögen, kein Abzug'
+  berechnung: 100'000 × Kinder Jg. 2009 und jünger (eigene Zeile, Code 474)
 - ziffer: '37'
   abschnitt: Vermögen
   bezeichnung: Steuerbares Vermögen gesamt (Code 498)

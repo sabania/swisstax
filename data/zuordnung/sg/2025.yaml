@@ -1932,33 +1932,53 @@ positionen:
   - Reinvermögen ist Ausgangswert für die Sozialabzüge Ziff. 36
   rein:
   - Übertrag aus Ziff. 33 (Code 322) und Ziff. 34.1/34.2 (Codes 504/506)
-- ziffer: 36.1-36.3
+- ziffer: '36.1'
   abschnitt: Vermögen
-  bezeichnung: 'Sozialabzüge Vermögen: alleinstehend Fr. 75''000 (Code 330), gemeinsam Fr. 150''000 (Code 332), je minderjähriges Kind Fr. 20''000 (Code 334)'
+  bezeichnung: Abzug für alleinstehende Steuerpflichtige Fr. 75'000 (Code 330)
   key: vermoegen.sozialabzug
   belege: []
-  feld: Personalien/Kinder Seite 1 (Stichtag 31.12.2025)
-  regel: Festbeträge vom Reinvermögen nach den Verhältnissen am 31.12.2025; Kinderabzug für minderjährige Kinder unter elterlicher Sorge/Obhut. Bund kennt keine Vermögenssteuer.
+  feld: Personalien Seite 1 (Zivilstand am 31.12.2025)
+  regel: Fester Abzug vom Reinvermögen für Alleinstehende, Verhältnisse am 31.12.2025. Bund kennt keine Vermögenssteuer.
   werte_keys:
   - vermoegen.freibetrag_alleinstehend
-  - vermoegen.freibetrag_verheiratet
-  - vermoegen.freibetrag_kind
   quellen:
   - chunk: sg-form-1-2025__c0013
     zitat: 36.1 Abzug für alleinstehende Steuerpflichtige Fr. 75’000 330
-  - chunk: sg-form-1-2025__c0013
-    zitat: 36.2 Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150’000 332
-  - chunk: sg-wl-2025__c0118
-    zitat: 20’000 zusätzlich für jedes minderjährige
   - chunk: bund-dbg-2025__art-1
     zitat: eine Einkommenssteuer von den natürlichen Personen
   status: agent-geprueft
-  rein:
-  - Personalien Seite 1 → Zivilstand am 31. Dezember 2025 (alleinstehend / gemeinsam steuerpflichtig)
-  - Kinderangaben Seite 1 → Anzahl minderjährige Kinder unter elterlicher Sorge/Obhut
-  berechnung: 'Kanton: 75''000 (alleinstehend) bzw. 150''000 (gemeinsam) + 20''000 × minderjähriges Kind / Bund: keine Vermögenssteuer'
+  berechnung: 'Kanton: 75''000 (alleinstehend), in voller Höhe in Ziff. 36.1 / Bund: keine Vermögenssteuer'
+- ziffer: '36.2'
+  abschnitt: Vermögen
+  bezeichnung: Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150'000 (Code 332)
+  key: vermoegen.sozialabzug
+  belege: []
+  feld: Personalien Seite 1 (Zivilstand am 31.12.2025)
+  regel: Fester Abzug vom Reinvermögen für gemeinsam steuerpflichtige Ehegatten, Verhältnisse am 31.12.2025. Bund kennt keine Vermögenssteuer.
+  werte_keys:
+  - vermoegen.freibetrag_verheiratet
+  quellen:
+  - chunk: sg-form-1-2025__c0013
+    zitat: 36.2 Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150’000 332
+  status: agent-geprueft
+  berechnung: 'Kanton: 150''000 (gemeinsam), in voller Höhe in Ziff. 36.2 / Bund: keine Vermögenssteuer'
+- ziffer: '36.3'
+  abschnitt: Vermögen
+  bezeichnung: Abzug für jedes minderjährige Kind Fr. 20'000 (Code 334)
+  key: vermoegen.sozialabzug
+  belege: []
+  feld: Kinderangaben Seite 1 (minderjährige Kinder am 31.12.2025)
+  regel: Fr. 20'000 je minderjähriges Kind unter elterlicher Sorge/Obhut, eigene Zeile (nicht mit 36.1/36.2 zusammenfassen).
+  werte_keys:
+  - vermoegen.freibetrag_kind
+  quellen:
+  - chunk: sg-form-1-2025__c0013
+    zitat: 36.3 Abzug für jedes minderjährige Kind Fr. 20’000 334
+  - chunk: sg-wl-2025__c0118
+    zitat: 20’000 zusätzlich für jedes minderjährige
+  status: agent-geprueft
+  berechnung: 'Kanton: 20''000 × minderjährige Kinder (eigene Zeile, Code 334) / Bund: keine Vermögenssteuer'
   beachten:
-  - Verhältnisse am Ende der Steuerperiode massgebend (i.d.R. 31. Dezember 2025)
   - 'Nur minderjährige Kinder unter elterlicher Sorge/Obhut; volljährige Kinder in Ausbildung: kein 36.3'
 - ziffer: '37'
   abschnitt: Vermögen

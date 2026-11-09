@@ -11,7 +11,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 
 > Je Formularposition: **Rein** (welche Dokumente → welches Feld) · **Rechnen** (Kurzformel) · **Limite** (Kanton / Bund) · **Beachten**. Volle Regel, Bund-Hinweis und wörtliche Zitate: ↗ Detail. Formular: Steuererklärung 2025 Formular 1 (Hauptformular, Kantons-, Gemeinde- und direkte Bundessteuer) + Hilfsblätter Formular 2 (Wertschriften- und Guthabenverzeichnis), 4 (Berufskosten), 5 (Schulden, freiwillige Zuwendungen, Parteispenden), 6 (Versicherungsprämien, … · [Tabelle](zuordnung-sg-2025.md) · [Eckwerte](werte-sg-2025.md) · [Gültigkeit 2025](gueltigkeit-2025.md)
 
-**Abschnitte:** Einkünfte (24) · Abzüge (17) · Einkommensberechnung (10) · Vermögen (14) · Weitere Angaben (2) · Hilfsblatt Wertschriftenverzeichnis (3) · Hilfsblatt Berufskosten (14) · Hilfsblatt Schulden (2) · Hilfsblatt Zuwendungen (2) · Hilfsblatt Versicherungsprämien (2) · Hilfsblatt Krankheitskosten (2) · Hilfsblatt Liegenschaften (5)
+**Abschnitte:** Einkünfte (24) · Abzüge (17) · Einkommensberechnung (10) · Vermögen (16) · Weitere Angaben (2) · Hilfsblatt Wertschriftenverzeichnis (3) · Hilfsblatt Berufskosten (14) · Hilfsblatt Schulden (2) · Hilfsblatt Zuwendungen (2) · Hilfsblatt Versicherungsprämien (2) · Hilfsblatt Krankheitskosten (2) · Hilfsblatt Liegenschaften (5)
 
 ## Einkünfte
 
@@ -522,13 +522,24 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 - **Beachten:** Reinvermögen ist Ausgangswert für die Sozialabzüge Ziff. 36
 - ↗ [Detail](../wiki/sg/zuordnung-sg-2025-detail.md#35-berechnung-total) · [Formular 1 SG 2025 S. 4](../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md)
 
-### 36.1-36.3 · Sozialabzüge Vermögen: alleinstehend Fr. 75'000 (Code 330), gemeinsam Fr. 150'000 (Code 332), je minderjähriges Kind … ☑️
-- **Rein:** Personalien Seite 1 → Zivilstand am 31. Dezember 2025 (alleinstehend / gemeinsam steuerpflichtig) · Kinderangaben Seite 1 → Anzahl minderjährige Kinder unter elterlicher Sorge/Obhut
-- **Rechnen:** Kanton: 75'000 (alleinstehend) bzw. 150'000 (gemeinsam) + 20'000 × minderjähriges Kind / Bund: keine Vermögenssteuer
-- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): CHF 75'000 / n/a · Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): CHF 150'000 / n/a · Vermögens-Sozialabzug pro Kind (CHF): CHF 20'000 / n/a
-- **Beachten:** Verhältnisse am Ende der Steuerperiode massgebend (i.d.R. 31. Dezember 2025)
+### 36.1 · Abzug für alleinstehende Steuerpflichtige Fr. 75'000 (Code 330) ☑️
+- **Rein:**  → Personalien Seite 1 (Zivilstand am 31.12.2025)
+- **Rechnen:** Kanton: 75'000 (alleinstehend), in voller Höhe in Ziff. 36.1 / Bund: keine Vermögenssteuer
+- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): CHF 75'000 / n/a
+- ↗ [Detail](../wiki/sg/zuordnung-sg-2025-detail.md#36-1-vermoegen-sozialabzug) · [Formular 1 SG 2025 S. 4](../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md)
+
+### 36.2 · Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150'000 (Code 332) ☑️
+- **Rein:**  → Personalien Seite 1 (Zivilstand am 31.12.2025)
+- **Rechnen:** Kanton: 150'000 (gemeinsam), in voller Höhe in Ziff. 36.2 / Bund: keine Vermögenssteuer
+- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): CHF 150'000 / n/a
+- ↗ [Detail](../wiki/sg/zuordnung-sg-2025-detail.md#36-2-vermoegen-sozialabzug) · [Formular 1 SG 2025 S. 4](../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md)
+
+### 36.3 · Abzug für jedes minderjährige Kind Fr. 20'000 (Code 334) ☑️
+- **Rein:**  → Kinderangaben Seite 1 (minderjährige Kinder am 31.12.2025)
+- **Rechnen:** Kanton: 20'000 × minderjährige Kinder (eigene Zeile, Code 334) / Bund: keine Vermögenssteuer
+- **Limite (Kanton / Bund):** Vermögens-Sozialabzug pro Kind (CHF): CHF 20'000 / n/a
 - **Beachten:** Nur minderjährige Kinder unter elterlicher Sorge/Obhut; volljährige Kinder in Ausbildung: kein 36.3
-- ↗ [Detail](../wiki/sg/zuordnung-sg-2025-detail.md#36-1-36-3-vermoegen-sozialabzug) · [Formular 1 SG 2025 S. 4](../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md)
+- ↗ [Detail](../wiki/sg/zuordnung-sg-2025-detail.md#36-3-vermoegen-sozialabzug) · [Formular 1 SG 2025 S. 4](../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0013.md)
 
 ### 37 · Steuerbares Vermögen gesamt (Code 338) ☑️
 - **Rein:** Übertrag aus Ziff. 35 (Code 326) und Ziff. 36.1–36.3 (Codes 330/332/334)

@@ -1413,24 +1413,44 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [Formular 1 TG 2026 S. 4](../../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0015.md) `tg-form-01-2026__c0015` – «35. Reinvermögen (Ziffer 33 abzüglich Ziffer 34) 468»
   - [WL TG 2026 S. 26](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0118.md) `tg-wl-2026__c0118` – «Das Vermögen wird nur kantonal besteuert.»
 
-<a id="36-1-36-3-vermoegen-sozialabzug"></a>
-### Ziff. 36.1–36.3 – Steuerfreie Beträge: gemeinsam Besteuerte Fr. 200'000 (Code 470); Alleinstehende Fr. 100'000 (Code 472); je nicht selbständig besteuertes Kind Jg. 2009 und jünger Fr. 100'000 (Code 474)
+<a id="36-1-vermoegen-sozialabzug"></a>
+### Ziff. 36.1 – Abzug für gemeinsam besteuerte Personen Fr. 200'000 (Code 470)
 
 - **Schlüssel:** `vermoegen.sozialabzug` (Steuerfreie Beträge / Sozialabzüge auf dem Vermögen) · **Status:** ☑️ agent-geprueft
-- **Beleg → Feld:** – → Personalien/Kinder (Jahrgang) Seite 1
-- **Rein:** Personalien → Zivilstand, Kinder mit Jahrgang (Stand 31. Dezember 2026)
-- **Rechnen:** Gemeinsam Besteuerte 200'000 (Code 470) bzw. Alleinstehende 100'000 (Code 472) + 100'000 je Kind Jg. 2009 und jünger (Code 474)
-- **Regel:** Verhältnisse am 31.12.2026. Bei getrennt besteuerten Eltern erhält der Elternteil den Freibetrag je Kind, der den Kinderabzug erhält; hälftig nur bei gemeinsamem Sorgerecht, keinen periodischen Unterhaltsbeiträgen und alternierender Obhut. Für mündige Kinder (Mündigkeitsjahr) kein Freibetrag der Eltern.
-- **Beachten:** Getrennte Eltern: Freibetrag je Kind folgt Kinderabzug; hälftig nur bei gem. Sorge, ohne Alimente, alternierender Obhut
-- **Beachten:** Kinder Jg. 2008 sind 2026 selbständig steuerpflichtig (Mündigkeitsjahr) – kein Freibetrag bei den Eltern
-- **Beachten:** Bund: kein Vermögen, kein Abzug
+- **Beleg → Feld:** – → Personalien Seite 1 (Stand 31.12.2026)
+- **Rechnen:** 200'000 in voller Höhe (Code 470)
+- **Regel:** Steuerfreier Betrag für gemeinsam besteuerte Personen, Verhältnisse am 31.12.2026.
 - **Limiten:**
-  - Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): Kanton **CHF 100'000 (Steuerfreier Betrag Vermoegenssteuer: Fr. 100'000 fuer alle uebrigen Steuerpflichtigen (ledig, getrennt, geschieden, verwitwet). Stichtag 31.12.2026.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
   - Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): Kanton **CHF 200'000 (Steuerfreier Betrag Vermoegenssteuer: Fr. 200'000 fuer Steuerpflichtige in ungetrennter Ehe/Partnerschaft.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
-  - Vermögens-Sozialabzug pro Kind (CHF): Kanton **CHF 100'000 (Zusaetzlich Fr. 100'000 je nicht selbstaendig besteuertes Kind (WL 2026: Jahrgang 2009 und juenger). Bei getrennt besteuerten Eltern Zuteilung wie Kinderabzug; haelftig bei gemeinsamem Sorgerecht und alternierender Obhut ohne Alimente.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
 - **Bund:** Kein Vermögenssteuerabzug bei der direkten Bundessteuer.
 - **Quellen:**
   - [Formular 1 TG 2026 S. 4](../../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0016.md) `tg-form-01-2026__c0016` – «36.1 Abzug für gemeinsam besteuerte Personen (Eheleute / Partnerinnen oder Partner) Fr. 200000 470»
+
+<a id="36-2-vermoegen-sozialabzug"></a>
+### Ziff. 36.2 – Abzug für alleinstehende Personen Fr. 100'000 (Code 472)
+
+- **Schlüssel:** `vermoegen.sozialabzug` (Steuerfreie Beträge / Sozialabzüge auf dem Vermögen) · **Status:** ☑️ agent-geprueft
+- **Beleg → Feld:** – → Personalien Seite 1 (Stand 31.12.2026)
+- **Rechnen:** 100'000 in voller Höhe (Code 472)
+- **Regel:** Steuerfreier Betrag für Alleinstehende, Verhältnisse am 31.12.2026.
+- **Limiten:**
+  - Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): Kanton **CHF 100'000 (Steuerfreier Betrag Vermoegenssteuer: Fr. 100'000 fuer alle uebrigen Steuerpflichtigen (ledig, getrennt, geschieden, verwitwet). Stichtag 31.12.2026.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
+- **Bund:** Kein Vermögenssteuerabzug bei der direkten Bundessteuer.
+- **Quellen:**
+  - [Formular 1 TG 2026 S. 4](../../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0016.md) `tg-form-01-2026__c0016` – «36.2 Abzug für alleinstehende Personen Fr. 100000 472»
+
+<a id="36-3-vermoegen-sozialabzug"></a>
+### Ziff. 36.3 – Abzug für jedes nicht selbständig besteuerte Kind (Jg. 2009 und jünger) Fr. 100'000 (Code 474)
+
+- **Schlüssel:** `vermoegen.sozialabzug` (Steuerfreie Beträge / Sozialabzüge auf dem Vermögen) · **Status:** ☑️ agent-geprueft
+- **Beleg → Feld:** – → Kinder (Jahrgang) Seite 1
+- **Rechnen:** 100'000 × Kinder Jg. 2009 und jünger (eigene Zeile, Code 474)
+- **Regel:** Fr. 100'000 je nicht selbständig besteuertes Kind Jg. 2009 und jünger; bei getrennt besteuerten Eltern erhält ihn der Elternteil mit dem Kinderabzug (hälftig nur bei gemeinsamem Sorgerecht, keinen Unterhaltsbeiträgen und alternierender Obhut). Kinder Jg. 2008 sind 2026 selbständig steuerpflichtig.
+- **Limiten:**
+  - Vermögens-Sozialabzug pro Kind (CHF): Kanton **CHF 100'000 (Zusaetzlich Fr. 100'000 je nicht selbstaendig besteuertes Kind (WL 2026: Jahrgang 2009 und juenger). Bei getrennt besteuerten Eltern Zuteilung wie Kinderabzug; haelftig bei gemeinsamem Sorgerecht und alternierender Obhut ohne Alimente.)** · Bund **n/a – Der Bund erhebt keine Vermögenssteuer (nur Einkommenssteuer, DBG); Vermögenswerte kantonal.**
+- **Bund:** Kein Vermögenssteuerabzug bei der direkten Bundessteuer.
+- **Quellen:**
+  - [Formular 1 TG 2026 S. 4](../../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0016.md) `tg-form-01-2026__c0016` – «36.3 Abzug für jedes nicht selbständig besteuerte Kind (Jahrgang 2009 und jüngere) Fr. 100000 474»
   - [WL TG 2026 S. 27–28](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0128.md) `tg-wl-2026__c0128` – «– für jedes nicht selbständig besteuerte Kind (Jahrgang 2009 und jünger) Fr. 100'000»
   - [WL TG 2026 S. 6](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0012.md) `tg-wl-2026__c0012` – «Personen mit Jahrgang 2008 sind somit für die Steuerperiode 2026 erstmals selbständig deklarationspflichtig.»
   - [WL TG 2026 S. 27–28](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0128.md) `tg-wl-2026__c0128` – «Die Eltern können für ihre mündigen Kinder»

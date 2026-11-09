@@ -785,6 +785,9 @@ def formular(kt, jahr) -> str:
             for g in gruppen[:2]:
                 if any(jj in (j, "bund") and (k == g or k.startswith(g + ".")) and r.get("status") != "na" for (jj, k), r in W.items()):
                     lim.append(f"{g.split('.')[-1]}: {kombi(W, j, g)}")
+        if not tarif and re.search(r"(zwischen)?total|übertrag|nettoeinkommen|reineinkommen|reinvermögen|steuerbares (einkommen|vermögen)",
+                                   str(p.get("bezeichnung") or ""), re.I):
+            lim.insert(0, "**Total/Übertrag – eigene Zeile mit Betrag ausweisen**")
         out.append(f"- {p['ziffer']} · {cut(p.get('bezeichnung'), 100)}" + (f" · {' · '.join(lim)}" if lim else ""))
     if neben:
         out += ["", "### Hilfsblätter / Lohnausweis (Überträge ins Hauptformular)"]
