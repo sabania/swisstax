@@ -101,3 +101,9 @@ Modellempfehlung in openclaw/README.md; BOOTSTRAP.md im Agent-Workspace entferne
 - Haiku: q13-Kürzel 10/10 (Einstieg «TG = Thurgau», Kantonswerte in `wert bund`); ganze Fälle 98–109/111 (Streuung), Praxis 32–34/40.
 - Werkzeug/Daten: Pauschalen-ohne-Beleg-Block, Bundesansatz aus Kantonseintrag, Hilfsblatt-Codes, Rundung, VSt-Eckwert, 3a-Einkauf 2025, ZH-Kita-Verpflegung.
 - Berichte: eval/laeufe/bewertung-faelle-H14-S2.md, bewertung-faelle-endstand.md, bewertung-fragen-S2-S3-H17.md; experimente.md, README, openclaw/README (Modellwahl), KONZEPT §10.
+
+## [2026-11-09] query | Endkontrolle Sonnet: S5 (Fragen) und S6A/B (ganze Fälle) – alles nachgeprüft
+- S5 (Endstand nach Daten-Nachträgen): Positionen 10/10, Blind 14/14, Ablage 8/8, Praxis 39/40; Fälle 109/111 (SG 36.3, TG 6 formal).
+- Danach: Ziffern 36.1–36.3 getrennt (SG 2025/2026, TG 2026), Totale im Gerüst markiert, `wert bund` mit Formularzeilen je Kanton (VSt Code 540/999).
+- S6A/S6B: ganze Fälle 2× 111/111 (8/8 einreichbar nach Kontrolle); q22 3/3 vollständig. Sonnet gesamt: 5× 111/111.
+- Berichte: eval/laeufe/bewertung-fragen-S5.md, bewertung-faelle-S5-S6.md; OpenClaw-README mit getesteter Sonnet-Konfiguration.

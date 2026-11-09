@@ -19,7 +19,7 @@ rm -f <workspace>/BOOTSTRAP.md                                                  
 openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     # → 1 Aufruf steuerwiki__wert
 ```
 
-**Modell des Steuer-Agenten: Sonnet** (gemessen: ganze Erklärungen 3× 111/111, siehe «Modellwahl»). Getestete Konfiguration
+**Modell des Steuer-Agenten: Sonnet** (gemessen: ganze Erklärungen 5× 111/111, siehe «Modellwahl»). Getestete Konfiguration
 (`openclaw.json`, Claude über die `claude-cli`-Runtime; Modell-ID je nach Zugang):
 
 ```json5
@@ -57,8 +57,8 @@ agents: {
 | Ablage + Ausfüllen einzelner Belege | 8/8 | 8/8 | Haiku |
 | Positionsfragen (wo eintragen, wie rechnen) | 8–10/10 | **10/10** | beide |
 | Blindtest (unabhängig erstellte Fragen) | – | **14/14** | Sonnet |
-| Fachfragen (Praxistest, 40) | 31–36 (Streuung) | **38–39/40** | Sonnet |
-| Ganze Steuererklärung (4 Fälle, 111 Positionen) | 98–109 je Lauf | **111/111 in 3 Läufen** (je 4/4 «einreichbar nach Kontrolle») | Sonnet |
+| Fachfragen (Praxistest, 40) | 31–36 (Streuung) | **39/40** (Endstand) | Sonnet |
+| Ganze Steuererklärung (4 Fälle, 111 Positionen) | 98–109 je Lauf | **111/111 in 5 Läufen** (je 4/4 «einreichbar nach Kontrolle», inkl. Endkontrolle 2×) | Sonnet |
 
 - **Empfehlung:** Sonnet als Modell des Steuer-Agenten (`agents.defaults.model`), wenn Fachfragen und ganze Erklärungen
   bearbeitet werden. Haiku genügt für Belegeingang und Ablage (hohe Mengen, ~25 % schneller) – als eigener Agent mit eigenem

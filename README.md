@@ -128,9 +128,9 @@ Unveränderte Gesetzesfassungen werden nicht dupliziert (eine Konsolidierung = e
   Ablage 8/8, 40 eingehende Dokumente 40/40, ganze Steuerfälle 98–109/111 Positionen (Start: 78/109), Praxisfragen 31–36/40
   (Streuung); ~25 % schneller und halb so viele Werkzeugaufrufe wie mit Dateisuche. Werkzeug-Wortsuche (`eval/werkzeug_test.py`):
   frisch erzeugte Eingaben 72 % → 98 % Treffer.
-- **Sonnet mit Plugin (Endstand, zweistufig nachgeprüft):** ganze Steuererklärungen ZH/SG/TG/AR in drei Läufen hintereinander
-  fehlerfrei (3× 111/111 Positionen, je 4/4 «einreichbar nach Kontrolle»), Positionen 10/10, Blindtest 14/14, Ablage 8/8,
-  Fachfragen 38–39/40 – empfohlenes Modell des Steuer-Agenten; Haiku für Belegeingang/Ablage (Modellwahl:
+- **Sonnet mit Plugin (Endstand, zweistufig nachgeprüft):** ganze Steuererklärungen ZH/SG/TG/AR fehlerfrei in 5 von 6 Läufen
+  (5× 111/111 Positionen, darunter die zwei Endkontroll-Läufe; je 4/4 «einreichbar nach Kontrolle»), Positionen 10/10,
+  Blindtest 14/14, Ablage 8/8, Fachfragen 39/40 – empfohlenes Modell des Steuer-Agenten; Haiku für Belegeingang/Ablage (Modellwahl:
   [`openclaw/README.md`](openclaw/README.md), Messungen: [`eval/laeufe/experimente.md`](eval/laeufe/experimente.md)).
 - **Abnahme durch die Fachperson (ausstehend):** priorisierte Checklisten `reports/abnahme-checkliste-2025.md` / `-2026.md`
   (Wert, Chunk-Link, Zitat; Häkchen → `tools/abnahme.py uebernehmen`), Entscheidungsvorlage zu den 11 strittigen Punkten

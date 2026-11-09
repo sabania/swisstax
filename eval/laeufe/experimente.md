@@ -156,6 +156,8 @@ Daten: Bankdepot genügt für die Pauschale, TG-Bundesansatz Eigenmietwert, ZH-K
 | S2 | Sonnet | **111/111** (4/4 einreichbar) | 39/40 | – | – | – |
 | S3 | Sonnet (Endstand ohne Pauschalen-Block) | **111/111** (4/4) | 38/40 | **10/10** | **14/14** | **8/8** |
 | S4 | Sonnet (Endstand) | **111/111** (4/4) | q13, q31 richtig | – | – | – |
+| S5 | Sonnet (nach Daten-Nachträgen) | 109/111 (SG 36.3 zusammengezogen, TG Ziff. 6 fehlt – formal) | **39/40** | **10/10** | **14/14** | **8/8** |
+| S6A/B | Sonnet (Endstand: 36.x getrennt, Totale markiert) | **111/111** und **111/111** (8/8 Fälle einreichbar) | q22 3/3 vollständig | – | – | – |
 | H14A/B | Haiku | 109 / 107 | – | – | – | – |
 | H17A/B | Haiku | 98 / 107 | 34 / 32 | – | – | – |
 | H18A/B | Haiku (mit Pauschalen-Block) | 106 / 104 (ZH, SG, TG je fehlerfrei) | – | – | – | – |
@@ -163,12 +165,12 @@ Daten: Bankdepot genügt für die Pauschale, TG-Bundesansatz Eigenmietwert, ZH-K
 
 Kantonskürzel q13 («TG: … (Kanton vs. Bund)?»): H13 0/2 → H14 5/6 (Kantonswerte in `wert bund`) → H15 **10/10** (Einstieg
 «TG = Thurgau»); q16 10/10. Sonnet: richtig in S1–S4.
-Lesart: Sonnet liefert die ganzen Erklärungen in drei Läufen hintereinander fehlerfrei (333/333 Positionen) und ist bei
+Lesart: Sonnet liefert die ganzen Erklärungen in fünf von sechs Läufen fehlerfrei (S2, S3, S4, S6A, S6B: 555/555 Positionen; S5 mit zwei formalen Befunden, danach behoben) und ist bei
 Positionen, Blindtest und Ablage fehlerfrei; die 1–2 Abzüge im Praxistest betreffen Nebenaussagen (danach in den Daten
 präzisiert). Haiku streut weiter (ganze Fälle 98–109/111, Praxis 32–34/40): Auslassungen zustehender Pauschalen, Ziffern
 zusammengezogen, falsche Nebenaussagen – Modellgrenzen bei korrekter Werkzeugausgabe.
 
-**Modellwahl:** Sonnet + Plugin erreicht in allen Testsätzen Bestwerte (ganze Erklärungen 3× 111/111, Fachfragen 38–39/40);
+**Modellwahl:** Sonnet + Plugin erreicht in allen Testsätzen Bestwerte (ganze Erklärungen 5× 111/111, Fachfragen 38–39/40);
 Haiku + Plugin ist für Belegeingang/Ablage gleich gut und schneller, bei Fachfragen und ganzen Erklärungen aber mit Streuung.
 Empfehlung in `openclaw/README.md` («Modellwahl»).
 
