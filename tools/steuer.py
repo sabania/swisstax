@@ -513,7 +513,23 @@ def beleg(begriff, kt=None, jahr=None) -> str:
     if j and jahr:
         pos = [p for p in L()["positionen"] if p["kt"] == j and p["jahr"] == jahr and b["id"] in (p.get("belege") or [])]
         if pos:
-            out.append(f"- **Positionen {NAME[j]} {jahr}:** " + " · ".join(f"{zf(p)} {cut(p.get('bezeichnung'), 70)}" for p in pos[:10]))
+            kw = [w for w in toks(b["name"].split("(")[0]) if len(w) >= 5][:3]
+            out += ["", f"**Vom Dokument in die Steuererklärung {NAME[j]} {jahr}** (Feld → Position · Rechnen · Limite Kanton | Bund):", ""]
+            for p in pos[:12]:
+                rein = [sj(x) for x in (p.get("rein") or [])]
+                passend = [x for x in rein if any(tm(w, t) for w in kw for t in toks(x))] or rein
+                out.append(f"- **{zf(p)}** {cut(p.get('bezeichnung'), 80)}")
+                if passend:
+                    out.append("  - Feld → Eintrag: " + " · ".join(cut(x, 150) for x in passend[:3]))
+                if p.get("berechnung"):
+                    out.append(f"  - Rechnen: {cut(p['berechnung'], 220)}")
+                lim = bund_limiten(p.get("werte_keys"), j, jahr)
+                if lim:
+                    out.append("  - Limite: " + " · ".join(lim[:3]))
+            if len(pos) > 12:
+                out.append(f"- … {len(pos) - 12} weitere: " + " · ".join(zf(p) for p in pos[12:]))
+            out.append(f"  (Regel/Beachten/Fundstelle je Ziffer: `position {j} {jahr} <ziffer>`)")
+            out.append("")
         else:
             out.append(f"- **Positionen {NAME[j]} {jahr}:** keine Formularposition mit diesem Beleg erfasst")
         e = einreichen(b["id"], j, jahr)

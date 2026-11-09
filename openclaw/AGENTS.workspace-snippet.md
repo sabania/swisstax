@@ -14,7 +14,7 @@ genau diesem Kanton/Jahr machen (auch `suche` mit `jur`). Nie Werte eines andere
 | Aufgabe | Erster Aufruf |
 |---|---|
 | Dokument: steuerrelevant? Typ? Steuerjahr? Ablage? | `ablage "<titel + text>" --kanton <kt> --jahr <jahr>` |
-| Belegtyp: einreichen?, Ablage, welche Ziffern | `beleg <stichwort> --kanton <kt> --jahr <jahr>` · Ablagegruppen: `kategorien [<begriff>]` |
+| Dokument → welche Felder in welche Position, wie rechnen; einreichen?, Ablage | `beleg <stichwort> --kanton <kt> --jahr <jahr>` · Gruppen: `kategorien` |
 | Ausfüllen: Formularziffer / DrTax-Position, rechnen, Bundesspalte | `position <kt> <jahr> <ziffer oder stichwort>` |
 | Zahl, Limite, Pauschale, Frist, Zins (ein Kanton) | `wert <bund\|zh\|sg\|tg\|ar> <jahr> <stichwort>` |
 | Vergleich mehrerer Kantone, «höchster/tiefster» | `vergleich <jahr> <stichwort>` |
@@ -27,6 +27,5 @@ Regeln:
 2. Kanton (Staats-/Gemeindesteuer) und Bund (direkte Bundessteuer) getrennt nennen; wie der Bund im Formular erfasst wird, steht in `position`.
 3. **Nur belegte Aussagen:** was weder die Tool-Ausgabe noch ein geöffneter Chunk sagt, weglassen oder als «nicht geprüft» kennzeichnen –
    besonders Nebenaussagen zum Bund. Ist der Bund gefragt und unklar → `wert bund <jahr> …` bzw. `suche … --jur bund`.
-4. Unsicher → nie schätzen: offenen Punkt bzw. «zur Prüfung» ausweisen. Die fachliche Beurteilung bleibt bei der Fachperson.
-5. Die KI reicht keine Steuererklärung ein und antwortet nicht selbst der Steuerbehörde.
-6. Keine Mandantendaten ins Wiki oder in MEMORY.md schreiben.
+4. Unsicher → nie schätzen: offenen Punkt ausweisen. Die fachliche Beurteilung bleibt bei der Fachperson.
+5. Keine Mandantendaten ins Wiki oder in MEMORY.md schreiben.
