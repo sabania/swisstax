@@ -67,3 +67,9 @@ Hilft beim Suchen (Mandanten sagen «Kita», das Gesetz sagt «Drittbetreuung»)
 | **Vermögen** | Reinvermögen, steuerfreies Vermögen, Sozialabzüge Vermögen, Vermögenssteuer |
 | **Steuerfuss** | Steuerfüsse, Gemeindesteuerfuss, Einheiten, Staatssteuerfuss |
 | **Kalte Progression** | Teuerungsausgleich, indexiert, Ausgleich der kalten Progression, VKP |
+| **Alleinstehende** | übrige Steuerpflichtige, ledig, verwitwet, geschieden, Einzelperson, Grundtarif |
+| **Handyrechnung** | Private Alltagsrechnungen, Telefon, Internet, Mobilabo, Lebenshaltungskosten |
+| **Hausratversicherung** | Privathaftpflicht, Mobiliarversicherung, Sachversicherung, nicht abziehbar |
+| **Eigenmietwert-Abschaffung** | Systemwechsel Wohneigentumsbesteuerung, Rechtsänderungen, Liegenschaftssteuer Zweitliegenschaften, 2029 |
+| **Steuerberatung** | Treuhänderrechnung, Steuerberatungskosten, Ausfertigung Steuererklärung |
+| **Säule 3a Einkauf** | Nachzahlung Säule 3a, Beitragslücken, BVV 3 Art. 7a, Einkauf 3a |

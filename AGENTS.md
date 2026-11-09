@@ -28,7 +28,7 @@ Die fachliche Beurteilung bleibt bei der Fachperson. Diese Datei ist das Regelwe
 |---|---|---|---|
 | 1 Quick Access | `quick/` | Belege-Relevanz, Zuordnung Beleg→Formularziffer je Kanton/Jahr, Eckwerte je Jurisdiktion/Jahr, Jahresvergleich | generiert aus `data/` (`tools/build_quick.py`) |
 | Daten | `data/` | `belege.yaml`, `werte/<jur>/<jahr>.yaml`, `zuordnung/<kanton>/<jahr>.yaml` – jede Angabe mit Chunk-ID + wörtlichem Zitat | Agent (Ingest) + Fachperson |
-| 2 Detailwissen | `wiki/` | `themen/` (Querschnitt), `<jur>/` Überblick, Quellenkatalog, `quellen/` (Zusammenfassung je Dokument) | Agent, Review durch Fachperson |
+| 2 Detailwissen | `wiki/` | `themen/` (Querschnitt), `belege/` (Detailkarte je Belegtyp), `<jur>/` Überblick, Zuordnung-/Werte-Detail (mit Zitaten), Quellenkatalog, `quellen/` (Zusammenfassung je Dokument) | Agent, Review durch Fachperson; `belege/` und `*-detail.md` generiert |
 | 3 Volltext | `sources/<jur>/<jahr>/<id>.md` | verbatim konvertierte Quellen mit Seitenmarkern `<!-- Seite N -->` | `tools/convert.py`, `tools/laws.py` |
 | 3 RAG-Chunks | `chunks/<jur>/<jahr>/<id>/<id>__cNNNN.md` bzw. `__art-33` | semantische/strukturelle Chunks (≤ ~1'500 Zeichen) mit Kontextzeile | `tools/chunk.py` |
 | Index | `index/chunks.jsonl`, `index/quellen.jsonl` | alle Chunks/Quellen mit Metadaten (für Hybrid-RAG) | `tools/build_index.py` |
@@ -41,13 +41,16 @@ Dokumente (Kreisschreiben, Merkblätter, Praxis). Massgeblich ist immer das Feld
 ## 3. Anfragen beantworten (Routing)
 
 1. **Kanton und Steuerjahr klären** (Wohnsitz am 31.12.; bei Unklarheit nachfragen).
-2. **Quick-Layer:** `quick/index.md` → `quick/belege-relevanz.md` (ist ein Dokument relevant?) →
-   `quick/zuordnung-<kt>-<jahr>.md` (welcher Wert in welche Ziffer?) → `quick/werte-<jur>-<jahr>.md` (Limiten/Pauschalen).
-3. **Detail:** `wiki/themen/<thema>.md`, `wiki/<jur>/<jur>-ueberblick.md`, `wiki/<jur>/quellen/<id>.md`.
+2. **Quick-Layer:** `quick/index.md` (Frage → Seite) → `quick/belege-relevanz.md` (ist ein Dokument relevant?) →
+   `quick/zuordnung-<kt>-<jahr>.md` bzw. `quick/belege-ziffern.md` (welcher Wert in welche Ziffer?) →
+   `quick/werte-<jur>-<jahr>.md` / `quick/vergleich-<jahr>.md` (Limiten/Pauschalen).
+3. **Detail:** `wiki/<jur>/zuordnung-<kt>-<jahr>-detail.md`, `wiki/<jur>/werte-<jur>-<jahr>-detail.md` (Zitate),
+   `wiki/belege/beleg-<id>.md`, `wiki/themen/<thema>.md`, `wiki/<jur>/<jur>-ueberblick.md`, `wiki/<jur>/quellen/<id>.md`.
 4. **Beleg:** den zitierten Chunk öffnen (`chunks/…`); bei Tabellen/Layout das Original `raw/…pdf` (Seite) prüfen.
 5. **Nicht abgedeckt?** Hybride Suche über `chunks/` (OpenClaw `memory_search`, qmd oder `index/chunks.jsonl`),
    Suchbegriff mit Kanton und Jahr anreichern (z.B. «Fahrkosten ZH 2025»), Treffer nach `jur`/`jahre` filtern.
-   Gesetzesartikel: `chunks/<jur>/<jahr>/<gesetz-id>/<id>__art-<nr>.md` (Bund: Art., ZH/TG: §).
+   Gesetzesartikel: `chunks/<jur>/<jahr>/<gesetz-id>/<id>__art-<nr>.md` (Bund/AR/SG: Art.) bzw. `__par-<nr>.md` (ZH/TG: §);
+   lange Artikel sind in Teile `-t1`, `-t2` … gesplittet (z.B. `bund-dbg-2025__art-33-t4.md`).
 6. **Antwort:** Ergebnis, Steuerjahr, Kanton/Bund getrennt, Fundstelle(n), Status. Nichts gefunden → sagen.
 
 ## 4. Zitierformat
@@ -67,7 +70,7 @@ beide Quellen nennen, Eintrag in `reports/`, Fachperson entscheidet.
 ## 6. Seitentypen (Frontmatter)
 
 Alle Wiki-/Quick-Seiten beginnen mit YAML-Frontmatter: `typ` (quick-index | belege | zuordnung | werte | vergleich |
-thema | ueberblick | quelle | quellenkatalog | antwort), `titel`, `jur` (oder `multi`), `jahre`, `quellen` (IDs),
+thema | ueberblick | quelle | quellenkatalog | antwort | beleg | werte-detail | zuordnung-detail), `titel`, `jur` (oder `multi`), `jahre`, `quellen` (IDs),
 `status` (entwurf | stabil | veraltet), `generiert` (Tool/Agent, Datum), optional `verifiziert` (Kürzel, Datum).
 Dateinamen: kebab-case, ASCII (ae/oe/ue), global eindeutig (`werte-zh-2025.md`), **nie** mit Datumspräfix `YYYY-MM-DD`
 (OpenClaw behandelt solche Dateien als Tagesnotizen mit Zeitverfall).

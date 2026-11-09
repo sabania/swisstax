@@ -516,8 +516,8 @@ werte:
   gilt_fuer: bund
   quellen: []
   status: na
-  bemerkung: Eigenmietwert wird nach ortsüblichen Verhältnissen und tatsächlicher Nutzung festgesetzt (Art. 21 Abs. 2 DBG); Abschaffung per 01.01.2029 beschlossen, 2025–2028 gilt bisheriges Recht. Kantonale
-    Einschläge sind Sache der Kantone.
+  bemerkung: Eigenmietwert wird nach ortsüblichen Verhältnissen und tatsächlicher Nutzung festgesetzt (Art. 21 Abs. 2 DBG); Abschaffung per 01.01.2029 beschlossen, 2025–2028 gilt bisheriges Recht. Der
+    Eigenmietwert für die direkte Bundessteuer wird im kantonalen Veranlagungsverfahren festgesetzt; ein dort vorgesehener Abzug für die DBSt (z.B. TG 20 %, siehe werte-tg) ist kantonale Vollzugspraxis, kein Widerspruch.
   rechtsgrundlage: Art. 21 Abs. 1 lit. b, Abs. 2 DBG
 - key: sozialabzug.kind
   wert: 6800

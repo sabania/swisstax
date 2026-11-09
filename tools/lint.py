@@ -107,6 +107,8 @@ def check_data(reg, cidx):
     regby = {e["id"]: e for e in reg}
     stats = collections.Counter()
     bkeys = set(tax["belege"])
+    global OFFEN
+    OFFEN = collections.defaultdict(list)
     for kind, keyset in (("werte", wkeys), ("zuordnung", pkeys), ("belege", bkeys)):
         files = sorted((ROOT / "data" / kind).glob("*/*.yaml")) if kind != "belege" else sorted((ROOT / "data").glob("belege*.yaml"))
         for f in files:
@@ -117,6 +119,9 @@ def check_data(reg, cidx):
                 where = f"{f.relative_to(ROOT)}:{r.get('key') or r.get('ziffer') or r.get('id')}"
                 st = r.get("status", "offen")
                 stats[(kind, st)] += 1
+                if st in ("strittig", "offen", "extrahiert"):
+                    OFFEN[st].append((str(f.relative_to(ROOT)), r.get("key") or r.get("id"), r.get("ziffer"),
+                                      (r.get("bemerkung") or r.get("hinweis") or "").strip()))
                 k = r.get("key") if kind != "belege" else r.get("id")
                 if k and k not in keyset:
                     errors.append(f"D1 {where}: Schlüssel nicht in taxonomy.yaml")
@@ -162,6 +167,34 @@ def check_links():
     return n
 
 
+OFFEN = {}
+
+
+def write_offen(stats):
+    """reports/offene-punkte.md: Arbeitsliste für die Fachperson (strittig > extrahiert > offen)."""
+    L = [f"# Offene Punkte für die Fachperson ({today()})", "",
+         "> Generiert von `tools/lint.py` aus `data/`. **strittig** = Quellen widersprechen sich → Fachperson entscheidet und "
+         "setzt den Status (`verifiziert` nur durch Menschen). **extrahiert** = Wert mit Zitat, aber ohne zweite Prüfung. "
+         "**offen** = Wert fehlt (Quelle des Jahres noch nicht publiziert oder nicht im Wiki).", ""]
+    for st, title in (("strittig", "Strittig – Entscheid nötig"), ("extrahiert", "Extrahiert – Zweitprüfung empfohlen"),
+                      ("offen", "Offen – Wert fehlt")):
+        rows = OFFEN.get(st, [])
+        L += [f"## {title} ({len(rows)})", ""]
+        if st == "offen":
+            by = collections.defaultdict(list)
+            for f, k, z, _ in rows:
+                by[f].append(f"{k}" + (f" (Ziff. {z})" if z else ""))
+            for f in sorted(by):
+                L.append(f"- `{f}`: " + ", ".join(by[f]))
+        else:
+            L += ["| Datei | Schlüssel | Ziffer | Bemerkung |", "|---|---|---|---|"]
+            for f, k, z, b in rows:
+                b = re.sub(r"\s+", " ", b).replace("|", "/")
+                L.append(f"| `{f}` | {k} | {z or ''} | {b[:400]}{'…' if len(b) > 400 else ''} |")
+        L.append("")
+    (ROOT / "reports" / "offene-punkte.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+
+
 def main():
     reg = load_registry()
     cidx = chunk_index()
@@ -178,6 +211,7 @@ def main():
         L.append(f"- {k} · {st}: {n}")
     L += ["", "## Fehler", ""] + [f"- {x}" for x in errors] + ["", "## Warnungen", ""] + [f"- {x}" for x in warnings]
     out.write_text("\n".join(L) + "\n", encoding="utf-8")
+    write_offen(stats)
     print(f"Fehler: {len(errors)}, Warnungen: {len(warnings)} -> reports/lint.md")
     for x in errors[:30]:
         print("  ", x)

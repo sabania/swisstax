@@ -11,7 +11,7 @@ Die Markdown-Seiten NICHT von Hand bearbeiten – data/*.yaml ändern und dieses
   python3 tools/build_quick.py
 """
 from __future__ import annotations
-import json, os, collections, yaml
+import json, os, re, collections, yaml
 from common import ROOT, DATA, JUR_LABEL, JUR_SHORT, today
 
 Q = ROOT / "quick"
@@ -127,34 +127,107 @@ def group_of(key: str) -> str:
             "verfahren": "Verfahren", "bezug": "Bezug / Zinsen"}.get(key.split(".")[0], "Weitere")
 
 
+ABK = set("ziff inkl abs art lit bzw ua max min nr s ca dh evtl ggf sog resp vgl gem fr bsp zb al ff lt mind ff sr stv stg dbg wl ks mb rz kap".split())
+
+
+def kurz(t, n=140, satz=True) -> str:
+    """Erster Satz (Abkürzungen wie «Ziff.», «inkl.» berücksichtigt) bzw. auf n Zeichen gekürzt."""
+    t = re.sub(r"\s+", " ", sx(t or "")).strip().replace("|", "/")
+    if satz:
+        for m in re.finditer(r"[.!?](?=\s)", t):
+            if m.start() < 25:
+                continue
+            w = re.findall(r"([A-Za-zÄÖÜäöüß.]+)$", t[:m.start()])
+            last = w[0].replace(".", "").lower() if w else ""
+            if t[m.start()] == "." and (last in ABK or len(last) <= 1 or re.search(r"\d$", t[:m.start()])):
+                continue
+            if m.end() <= n:
+                return t[:m.end()]
+            break
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0] + " …"
+
+
+def anchor(*parts, seen=None) -> str:
+    a = re.sub(r"[^a-z0-9]+", "-", "-".join(str(p) for p in parts if p).lower()).strip("-")
+    if seen is not None:
+        base, i = a, 2
+        while a in seen:
+            a, i = f"{base}-{i}", i + 1
+        seen.add(a)
+    return a
+
+
+def first_link(row, base=Q) -> str:
+    qs = row.get("quellen") or ([{"chunk": row["quelle"]}] if row.get("quelle") else [])
+    return clink(qs[0]["chunk"], base) if qs and qs[0].get("chunk") else "–"
+
+
+def quellen_detail(row, base) -> list[str]:
+    out = []
+    qs = row.get("quellen") or ([{"chunk": row["quelle"], "zitat": row.get("zitat")}] if row.get("quelle") else [])
+    for q in qs:
+        if not q.get("chunk"):
+            continue
+        z = f" – «{q['zitat']}»" if q.get("zitat") else ""
+        out.append(f"  - {clink(q['chunk'], base)} `{q['chunk']}`{z}")
+    return out
+
+
 def write_werte(W):
     for (jur, jahr), d in W.items():
         rows = d.get("werte") or []
         known = {r["key"] for r in rows}
         missing = [k for k in TAX["werte"] if k not in known]
+        det_rel = f"../wiki/{jur}/werte-{jur}-{jahr}-detail.md"
         L = [fm({"typ": "werte", "titel": f"Eckwerte {JUR_SHORT[jur]} {jahr}", "jur": jur, "jahre": [int(jahr)],
                  "generiert": f"tools/build_quick.py aus data/werte/{jur}/{jahr}.yaml ({today()})"}),
              f"# Eckwerte {JUR_LABEL[jur]} – Steuerjahr {jahr}", "",
-             f"> Quelle der Wahrheit: [`data/werte/{jur}/{jahr}.yaml`](../data/werte/{jur}/{jahr}.yaml) · "
-             f"Legende: ✅ verifiziert (Fachperson) · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig · ⬜ offen · "
-             f"[Vergleich aller Jurisdiktionen {jahr}](vergleich-{jahr}.md) · [Quick-Index](index.md)", ""]
+             f"> Kompaktansicht. Wortlaut, Bedingungen und Zitate je Wert: [Detailseite]({det_rel}) · "
+             f"Legende: ✅ verifiziert · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig · ⬜ offen · – n/a · "
+             f"[Vergleich {jahr}](vergleich-{jahr}.md) · [Quick-Index](index.md)", ""]
         if d.get("hinweis"):
-            L += [f"> **Hinweis:** {d['hinweis']}", ""]
+            L += [f"> **Hinweis:** {kurz(d['hinweis'], 400)}", ""]
         groups = collections.OrderedDict((g, []) for g in GROUP_ORDER)
         for r in rows:
             groups.setdefault(group_of(r["key"]), []).append(r)
-        groups = collections.OrderedDict((g, rs) for g, rs in groups.items() if rs)
+        seen = set()
+        D = [fm({"typ": "werte-detail", "titel": f"Eckwerte {JUR_SHORT[jur]} {jahr} – Detail", "jur": jur, "jahre": [int(jahr)],
+                 "generiert": f"tools/build_quick.py aus data/werte/{jur}/{jahr}.yaml ({today()})"}),
+             f"# Eckwerte {JUR_LABEL[jur]} {jahr} – Detail mit Zitaten", "",
+             f"> Kompaktansicht: [quick/werte-{jur}-{jahr}.md](../../quick/werte-{jur}-{jahr}.md) · "
+             f"Quelle der Wahrheit: `data/werte/{jur}/{jahr}.yaml` · Zitate sind wörtlich aus dem verlinkten Chunk (maschinell geprüft).", ""]
+        if d.get("hinweis"):
+            D += [f"> **Hinweis:** {d['hinweis']}", ""]
         for g, rs in groups.items():
-            L += [f"## {g}", "", "| Eckwert | Wert | gilt für | Rechtsgrundlage | Quelle | Status |", "|---|---|---|---|---|---|"]
+            if not rs:
+                continue
+            L += [f"## {g}", "", "| Eckwert | Wert | Hinweis | Quelle | St. |", "|---|---|---|---|---|"]
+            D += [f"## {g}", ""]
             for r in rs:
                 label = TAX["werte"].get(r["key"], r["key"])
-                bem = f"<br><small>{r['bemerkung']}</small>" if r.get("bemerkung") and r.get("status") != "na" else ""
-                L.append(f"| {label} <br><small>`{r['key']}`</small> | **{fmt_wert(r)}**{bem} | {r.get('gilt_fuer', '')} | "
-                         f"{r.get('rechtsgrundlage', '') or ''} | {qlinks(r)} | {st(r)} |")
+                a = anchor(r["key"], seen=seen)
+                hin = kurz(r.get("bemerkung"), 120) if r.get("bemerkung") else ""
+                if r.get("gilt_fuer") and r.get("gilt_fuer") not in ("kanton", "bund", "beide"):
+                    hin = (hin + " · " if hin else "") + f"gilt für: {r['gilt_fuer']}"
+                L.append(f"| {label} <small>`{r['key']}`</small> | **{fmt_kurz(r)}** | {hin} [↗]({det_rel}#{a}) | {first_link(r)} | "
+                         f"{STATUS_ICON.get(r.get('status', 'offen'), '')} |")
+                D += [f'<a id="{a}"></a>', f"### {label}", "",
+                      f"- **Wert:** {fmt_wert(r)}",
+                      f"- **Schlüssel:** `{r['key']}` · **gilt für:** {r.get('gilt_fuer', '–')} · **Status:** {st(r)}"]
+                if r.get("rechtsgrundlage"):
+                    D.append(f"- **Rechtsgrundlage:** {r['rechtsgrundlage']}")
+                if r.get("bemerkung"):
+                    D.append(f"- **Bemerkung:** {r['bemerkung']}")
+                ql = quellen_detail(r, ROOT / "wiki" / jur)
+                if ql:
+                    D += ["- **Quellen:**"] + ql
+                D.append("")
             L.append("")
         if missing:
             L += ["## Nicht erfasste Schlüssel", "", ", ".join(f"`{k}`" for k in missing), ""]
         (Q / f"werte-{jur}-{jahr}.md").write_text("\n".join(L), encoding="utf-8")
+        (ROOT / "wiki" / jur).mkdir(parents=True, exist_ok=True)
+        (ROOT / "wiki" / jur / f"werte-{jur}-{jahr}-detail.md").write_text("\n".join(D), encoding="utf-8")
 
 
 GROUP_ORDER = ["Berufskosten", "Allgemeine Abzüge", "Vorsorge", "Liegenschaften", "Sozialabzüge", "Vermögen",
@@ -208,100 +281,197 @@ def write_vergleich(W):
         (Q / f"vergleich-{y}.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 
+def beleg_kurz(name: str) -> str:
+    return re.split(r"\s*\(", name or "", maxsplit=1)[0].strip()
+
+
 def write_zuordnung(Z, W, B):
     beleg_name = {b["id"]: b.get("name", b["id"]) for b in (B or {}).get("belege", [])}
     for (kt, jahr), d in Z.items():
         wk = {r["key"]: r for r in ((W.get((kt, jahr)) or {}).get("werte") or [])}
         wb = {r["key"]: r for r in ((W.get(("bund", jahr)) or {}).get("werte") or [])}
+        det_rel = f"../wiki/{kt}/zuordnung-{kt}-{jahr}-detail.md"
+        head = (f"> Formular: {kurz(d.get('formular', '–'), 300)} · Eckwerte: [Kanton](werte-{kt}-{jahr}.md) · "
+                f"[Bund](werte-bund-{jahr}.md) · [Belege-Relevanz](belege-relevanz.md) · [Beleg × Ziffer](belege-ziffern.md)")
         L = [fm({"typ": "zuordnung", "titel": f"Zuordnung Belege → Formular {JUR_SHORT[kt]} {jahr}", "jur": kt, "jahre": [int(jahr)],
                  "generiert": f"tools/build_quick.py aus data/zuordnung/{kt}/{jahr}.yaml ({today()})"}),
              f"# {JUR_SHORT[kt]} {jahr}: Welcher Beleg / welche Zahl gehört in welche Ziffer?", "",
-             f"> Formular: {d.get('formular', '–')} · Quelle der Wahrheit: [`data/zuordnung/{kt}/{jahr}.yaml`](../data/zuordnung/{kt}/{jahr}.yaml) · "
-             f"Eckwerte: [Kanton](werte-{kt}-{jahr}.md) · [Bund](werte-bund-{jahr}.md) · [Belege-Relevanz](belege-relevanz.md)", ""]
+             head, f"> Kompaktansicht – vollständige Regel, Bund-Hinweis, Zitate: [Detailseite]({det_rel}) (↗ je Zeile). "
+             "Status: ✅ verifiziert · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig · ⬜ offen", ""]
+        D = [fm({"typ": "zuordnung-detail", "titel": f"Zuordnung {JUR_SHORT[kt]} {jahr} – Detail", "jur": kt, "jahre": [int(jahr)],
+                 "generiert": f"tools/build_quick.py aus data/zuordnung/{kt}/{jahr}.yaml ({today()})"}),
+             f"# {JUR_SHORT[kt]} {jahr}: Zuordnung Beleg → Ziffer – Detail", "",
+             f"> Kompaktansicht: [quick/zuordnung-{kt}-{jahr}.md](../../quick/zuordnung-{kt}-{jahr}.md) · Formular: {d.get('formular', '–')} · "
+             f"Quelle der Wahrheit: `data/zuordnung/{kt}/{jahr}.yaml`", ""]
         if d.get("hinweis"):
-            L += [f"> **Hinweis:** {d['hinweis']}", ""]
+            L += [f"> **Hinweis:** {kurz(d['hinweis'], 400)}", ""]
+            D += [f"> **Hinweis:** {d['hinweis']}", ""]
         sections = collections.OrderedDict()
         for r in d.get("positionen") or []:
             sections.setdefault(r.get("abschnitt") or "Positionen", []).append(r)
+        seen = set()
         for sec, rs in sections.items():
-            L += [f"## {sec}", "", "| Ziffer | Position | Beleg → Feld | Regel / Limite (Kanton · Bund) | Quelle | Status |", "|---|---|---|---|---|---|"]
+            L += [f"## {sec}", "", "| Ziffer | Position | Beleg | Kurzregel · Limite (Kanton / Bund) | St. |", "|---|---|---|---|---|"]
+            D += [f"## {sec}", ""]
             for r in rs:
-                bel = ", ".join(beleg_name.get(b, b) for b in r.get("belege") or [])
-                feld = r.get("feld") or ""
-                lim = []
+                a = anchor(r.get("ziffer"), r.get("key"), seen=seen)
+                bel = ", ".join(dict.fromkeys(beleg_kurz(beleg_name.get(b, b)) for b in r.get("belege") or []))
+                lim, liml = [], []
                 for k in r.get("werte_keys") or []:
-                    a, b = wk.get(k), wb.get(k)
+                    x, y = wk.get(k), wb.get(k)
                     lab = TAX["werte"].get(k, k).split(" – ")[-1]
-                    lim.append(f"{lab}: {fmt_wert(a) if a else '–'} · Bund {fmt_wert(b) if b else '–'}")
-                regel = (r.get("regel") or "") + ("<br>" + "<br>".join(lim) if lim else "")
+                    lim.append(f"{lab}: {fmt_kurz(x) if x else '–'} / {fmt_kurz(y) if y else '–'}")
+                    liml.append(f"  - {TAX['werte'].get(k, k)}: Kanton **{fmt_wert(x) if x else '–'}** · Bund **{fmt_wert(y) if y else '–'}**")
+                kr = kurz(r.get("regel"), 120) + ("<br>" + "<br>".join(lim) if lim else "")
+                L.append(f"| {r.get('ziffer', '')} | {kurz(r.get('bezeichnung', ''), 110, satz=False)} | {bel} | {kr} [↗]({det_rel}#{a}) | "
+                         f"{STATUS_ICON.get(r.get('status', 'offen'), '')} |")
+                D += [f'<a id="{a}"></a>', f"### Ziff. {r.get('ziffer', '?')} – {r.get('bezeichnung', '')}", "",
+                      f"- **Schlüssel:** `{r.get('key', '')}` ({TAX['positionen'].get(r.get('key'), '')}) · **Status:** {st(r)}"]
+                if r.get("belege") or r.get("feld"):
+                    D.append(f"- **Beleg → Feld:** {', '.join(beleg_name.get(b, b) for b in r.get('belege') or []) or '–'}"
+                             + (f" → {r['feld']}" if r.get("feld") else ""))
+                if r.get("regel"):
+                    D.append(f"- **Regel:** {r['regel']}")
+                if liml:
+                    D += ["- **Limiten:**"] + liml
                 if r.get("bund"):
-                    regel += f"<br><small>Bund: {r['bund']}</small>"
-                pos = f"{r.get('bezeichnung', '')}<br><small>`{r.get('key', '')}`</small>"
-                L.append(f"| {r.get('ziffer', '')} | {pos} | {bel}{(' → ' + feld) if feld else ''} | {regel} | {qlinks(r)} | {st(r)} |")
+                    D.append(f"- **Bund:** {r['bund']}")
+                if r.get("bemerkung"):
+                    D.append(f"- **Bemerkung:** {r['bemerkung']}")
+                ql = quellen_detail(r, ROOT / "wiki" / kt)
+                if ql:
+                    D += ["- **Quellen:**"] + ql
+                D.append("")
             L.append("")
-        # Rückwärts-Index Beleg -> Ziffern
         rev = collections.defaultdict(list)
         for r in d.get("positionen") or []:
             for b in r.get("belege") or []:
                 rev[b].append(r.get("ziffer", "?"))
         if rev:
             L += ["## Beleg → Ziffern (Rückwärts-Index)", "", "| Beleg | Ziffern |", "|---|---|"]
-            for b in sorted(rev):
-                L.append(f"| {beleg_name.get(b, b)} | {', '.join(rev[b])} |")
+            for b in sorted(rev, key=lambda x: beleg_name.get(x, x)):
+                L.append(f"| [{beleg_kurz(beleg_name.get(b, b))}](../wiki/belege/beleg-{b}.md) | {', '.join(dict.fromkeys(rev[b]))} |")
             L.append("")
         (Q / f"zuordnung-{kt}-{jahr}.md").write_text("\n".join(L), encoding="utf-8")
+        (ROOT / "wiki" / kt).mkdir(parents=True, exist_ok=True)
+        (ROOT / "wiki" / kt / f"zuordnung-{kt}-{jahr}-detail.md").write_text("\n".join(D), encoding="utf-8")
+
+
+REL_LABEL = {"ja": "Relevant", "bedingt": "Bedingt relevant", "nein": "Nicht relevant"}
+
+
+def beleg_ziffern(b, Z):
+    out = []
+    for (kt, jahr) in sorted(Z):
+        zs = [r.get("ziffer") for r in Z[(kt, jahr)].get("positionen") or [] if b["id"] in (r.get("belege") or [])]
+        out.append(((kt, jahr), list(dict.fromkeys(z for z in zs if z))))
+    return out
 
 
 def write_belege(B, Z):
     if not B:
         return
+    bdir = ROOT / "wiki" / "belege"
+    bdir.mkdir(parents=True, exist_ok=True)
     L = [fm({"typ": "belege", "titel": "Belege-Relevanz (welche Dokumente sind steuerrelevant?)", "jur": "multi",
              "generiert": f"tools/build_quick.py aus data/belege-teil*.yaml ({today()})"}),
          "# Welche Dokumente sind steuerrelevant?", "",
-         "> Triage für Mandantenunterlagen. **ja** = in die Steuererklärung übernehmen · **bedingt** = nur unter der genannten "
-         "Bedingung · **nein** = nicht deklarieren (ggf. aufbewahren). Die Ziffern je Kanton/Jahr stehen auf den "
-         "Zuordnungsseiten. Quelle der Wahrheit: `data/belege-teil1.yaml` … `belege-teil3.yaml`.", ""]
-    pages = sorted(Z)
-    for rel_, title in (("ja", "Relevant"), ("bedingt", "Bedingt relevant"), ("nein", "Nicht relevant")):
+         "> Triage für Mandantenunterlagen. **ja** = übernehmen · **bedingt** = nur unter der Bedingung · **nein** = nicht "
+         "deklarieren (ggf. aufbewahren). Pro Dokument eine Detailkarte (Erkennen an, Was extrahieren, Hinweise je Kanton, "
+         "Ziffern je Kanton/Jahr, Quellen). Ziffern-Matrix: [Beleg × Ziffer](belege-ziffern.md).", ""]
+    for rel_ in ("ja", "bedingt", "nein"):
         rs = [b for b in B.get("belege", []) if b.get("relevanz") == rel_]
         if not rs:
             continue
-        L += [f"## {title}", ""]
+        L += [f"## {REL_LABEL[rel_]}", ""]
         if rel_ == "nein":
-            L += ["| Dokument | Erkennen an | Warum nicht relevant | Quelle |", "|---|---|---|---|"]
-            for b in rs:
-                L.append(f"| **{b.get('name')}** <small>`{b['id']}`</small> | {sj(b.get('erkennen'))} | "
-                         f"{sx(b.get('bedingung') or b.get('begruendung') or '')} | {qlinks(b)} |")
+            L += ["| Dokument | Warum nicht relevant |", "|---|---|"]
+        elif rel_ == "bedingt":
+            L += ["| Dokument | Bedingung | Wofür |", "|---|---|---|"]
         else:
-            L += ["| Dokument | Erkennen an | Wofür / Positionen | Was extrahieren | Hinweise (Kantone) | Quelle |", "|---|---|---|---|---|---|"]
-            for b in rs:
-                pos = "<br>".join(f"`{p}`" for p in b.get("positionen") or [])
-                ziff = []
-                for (kt, jahr) in pages:
-                    zs = [r.get("ziffer") for r in Z[(kt, jahr)].get("positionen") or [] if b["id"] in (r.get("belege") or [])]
-                    if zs:
-                        ziff.append(f"[{JUR_SHORT[kt]} {jahr}](zuordnung-{kt}-{jahr}.md): {', '.join(dict.fromkeys(zs))}")
-                hin = [sx(h) for h in (b.get("hinweise") or [])]
-                for kt, txt in (b.get("kantone") or {}).items():
-                    hin.append(f"**{JUR_SHORT.get(kt, kt)}:** {txt}")
-                cond = f"<br>**Bedingung:** {b['bedingung']}" if rel_ == "bedingt" and b.get("bedingung") else ""
-                L.append(f"| **{b.get('name')}** <small>`{b['id']}`</small>{cond} | {sj(b.get('erkennen'))} | "
-                         f"{pos}{('<br>' + '<br>'.join(ziff)) if ziff else ''} | {sj(b.get('extrahieren'), '<br>')} | "
-                         f"{'<br>'.join(hin)} | {qlinks(b)} |")
+            L += ["| Dokument | Wofür | Wichtigster Hinweis |", "|---|---|---|"]
+        for b in rs:
+            name = f"**[{b.get('name')}](../wiki/belege/beleg-{b['id']}.md)**"
+            wof = kurz("; ".join(dict.fromkeys(TAX["positionen"].get(p, p) for p in (b.get("positionen") or []))), 160, satz=False)
+            if rel_ == "nein":
+                L.append(f"| {name} | {kurz(b.get('bedingung') or b.get('begruendung') or '', 170)} |")
+            elif rel_ == "bedingt":
+                L.append(f"| {name} | {kurz(b.get('bedingung') or '', 170)} | {wof} |")
+            else:
+                L.append(f"| {name} | {wof} | {kurz((b.get('hinweise') or [''])[0], 150)} |")
         L.append("")
+        # Detailkarten
+        for b in rs:
+            C = [fm({"typ": "beleg", "titel": b.get("name"), "jur": "multi", "beleg": b["id"], "relevanz": rel_,
+                     "generiert": f"tools/build_quick.py aus data/belege-teil*.yaml ({today()})"}),
+                 f"# {b.get('name')}", "",
+                 f"> Relevanz: **{rel_}** ({REL_LABEL[rel_]}) · ID `{b['id']}` · Status: {st(b)} · "
+                 f"[Belege-Übersicht](../../quick/belege-relevanz.md)", ""]
+            if b.get("bedingung") or b.get("begruendung"):
+                C += [f"**{'Bedingung' if rel_ == 'bedingt' else 'Begründung'}:** {sx(b.get('bedingung') or b.get('begruendung'))}", ""]
+            if b.get("erkennen"):
+                C += ["## Erkennen an", ""] + [f"- {sx(x)}" for x in b["erkennen"]] + [""]
+            if b.get("positionen"):
+                C += ["## Wofür (Positionen)", ""] + [f"- {TAX['positionen'].get(p, p)} `{p}`" for p in b["positionen"]] + [""]
+            zz = [(k, zs) for k, zs in beleg_ziffern(b, Z) if zs]
+            if zz:
+                C += ["## Ziffern je Kanton und Jahr", "", "| Kanton/Jahr | Ziffern |", "|---|---|"]
+                C += [f"| [{JUR_SHORT[kt]} {jahr}](../../quick/zuordnung-{kt}-{jahr}.md) | {', '.join(zs)} |" for (kt, jahr), zs in zz] + [""]
+            if b.get("extrahieren"):
+                C += ["## Was extrahieren", ""] + [f"- {sx(x)}" for x in b["extrahieren"]] + [""]
+            if b.get("hinweise"):
+                C += ["## Hinweise", ""] + [f"- {sx(x)}" for x in b["hinweise"]] + [""]
+            if b.get("kantone"):
+                C += ["## Kantonale Besonderheiten", ""] + [f"- **{JUR_SHORT.get(k, k)}:** {sx(v)}" for k, v in b["kantone"].items()] + [""]
+            if b.get("bemerkung"):
+                C += [f"> Bemerkung: {b['bemerkung']}", ""]
+            ql = quellen_detail(b, bdir)
+            if ql:
+                C += ["## Quellen", ""] + [x[2:] for x in ql] + [""]
+            (bdir / f"beleg-{b['id']}.md").write_text("\n".join(C), encoding="utf-8")
     (Q / "belege-relevanz.md").write_text("\n".join(L), encoding="utf-8")
+    # Matrix Beleg × Kanton/Jahr
+    pages = sorted(Z)
+    M = [fm({"typ": "belege", "titel": "Beleg × Ziffer (alle Kantone/Jahre)", "jur": "multi", "generiert": f"tools/build_quick.py ({today()})"}),
+         "# Beleg × Ziffer – in welche Ziffer gehört ein Beleg?", "",
+         "> Ziffern je Kanton/Jahr (nur Belege mit Relevanz ja/bedingt). Details: Spaltenkopf (Zuordnung) bzw. Beleg (Detailkarte).", "",
+         "| Beleg | " + " | ".join(f"[{JUR_SHORT[kt]} {j}](zuordnung-{kt}-{j}.md)" for kt, j in pages) + " |",
+         "|---|" + "---|" * len(pages)]
+    for b in B.get("belege", []):
+        if b.get("relevanz") == "nein":
+            continue
+        cells = []
+        for _, zs in beleg_ziffern(b, Z):
+            cells.append(", ".join(zs[:4]) + (" …" if len(zs) > 4 else "") if zs else "–")
+        M.append(f"| [{beleg_kurz(b.get('name'))}](../wiki/belege/beleg-{b['id']}.md) | " + " | ".join(cells) + " |")
+    (Q / "belege-ziffern.md").write_text("\n".join(M) + "\n", encoding="utf-8")
+
+
+ROUTER = [
+    ("Ist ein Dokument des Mandanten steuerrelevant?", "[Belege-Relevanz](belege-relevanz.md) → Detailkarte des Belegs"),
+    ("In welche Ziffer gehört ein Beleg / eine Zahl?", "[Beleg × Ziffer](belege-ziffern.md) bzw. Zuordnung Kanton/Jahr (Tabelle unten)"),
+    ("Welche Limite / Pauschale / welcher Satz gilt?", "Eckwerte Kanton/Jahr (Tabelle unten) oder [Vergleich 2025](vergleich-2025.md) · [2026](vergleich-2026.md)"),
+    ("Kanton vs. Bund vergleichen, mehrere Kantone", "[Vergleich 2025](vergleich-2025.md) · [Vergleich 2026](vergleich-2026.md)"),
+    ("Regel im Detail, Sonderfälle, Praxis", "[Themen](../wiki/themen/index.md) (Stichworte unten) → Chunks"),
+    ("Fristen, Fristerstreckung, Verfahren, Bezug", "[Fristen & Verfahren](../wiki/themen/fristen-verfahren.md) · Überblick je Kanton"),
+    ("Was ändert sich (2026, 2027, Eigenmietwert 2029 …)?", "[Rechtsänderungen](../wiki/themen/rechtsaenderungen.md)"),
+    ("Alltagsbegriff → Fachbegriff («Kita», «Pendlerabzug»)", "[Glossar](../wiki/glossar.md)"),
+    ("Gesetzesartikel wörtlich", "`chunks/<jur>/<jahr>/<gesetz-id>/<id>__art-<nr>[-tN].md` (Bund: Art., ZH/TG: §, AR/SG: Art.); lange Artikel in Teile `-t1`, `-t2` … gesplittet"),
+    ("Nichts gefunden?", "Suche: `python3 tools/search.py \"<Begriffe>\" --jur <kt>,bund --jahr <jahr> --expand` bzw. `memory_search`"),
+]
 
 
 def write_index(W, Z):
     years = sorted({y for (_, y) in W} | {y for (_, y) in Z})
     L = [fm({"typ": "quick-index", "titel": "Quick-Access – Einstieg", "jur": "multi", "generiert": f"tools/build_quick.py ({today()})"}),
-         "# Quick-Access", "",
-         "Schnellzugriff für den Steuerexperten-Agenten. Erst hier nachschlagen, dann über die Links ins Detailwissen (`wiki/`) "
-         "und zu den Belegstellen (`chunks/`, `raw/`).", "",
-         "1. **Ist ein Dokument relevant?** → [Belege-Relevanz](belege-relevanz.md)",
-         "2. **Welche Zahl gehört in welche Ziffer?** → Zuordnung je Kanton/Jahr (Tabelle unten)",
-         "3. **Welche Limite/Pauschale gilt?** → Eckwerte je Jurisdiktion/Jahr bzw. Jahresvergleich", "",
-         "| Jurisdiktion | " + " | ".join(years) + " |", "|---|" + "---|" * len(years)]
+         "# Quick-Access – Einstieg", "",
+         "Schnellzugriff für den Steuerexperten-Agenten: erst hier, dann über die Links ins Detailwissen (`wiki/`) und zu den "
+         "Belegstellen (`chunks/`, `raw/`). **Abdeckung:** Bund + Kantone **AR, SG, TG, ZH**, Steuerjahre **"
+         + ", ".join(years) + "**. Andere Kantone (z.B. BE, LU, SZ) sind **nicht** im Wiki → so sagen, keine Werte übertragen.", "",
+         "## Welche Frage → welche Seite", "", "| Frage | Seite |", "|---|---|"]
+    L += [f"| {a} | {b} |" for a, b in ROUTER]
+    L += ["", "## Kanton × Jahr", "", "| Jurisdiktion | " + " | ".join(years) + " | Überblick |", "|---|" + "---|" * len(years) + "---|"]
+    notes = []
     for j in JURS:
         cells = []
         for y in years:
@@ -311,10 +481,19 @@ def write_index(W, Z):
             if (j, y) in W:
                 parts.append(f"[Eckwerte](werte-{j}-{y}.md)")
             cells.append(" · ".join(parts) or "–")
-        L.append(f"| [{JUR_SHORT[j]}](../wiki/{j}/{j}-ueberblick.md) | " + " | ".join(cells) + " |")
-    L += ["", "**Vergleich aller Jurisdiktionen:** " + " · ".join(f"[{y}](vergleich-{y}.md)" for y in years if any(k[1] == y for k in W)), "",
-          "**Weitere Einstiege:** [Themen](../wiki/themen/index.md) · Quellenkataloge: " +
-          " · ".join(f"[{JUR_SHORT[j]}](../wiki/{j}/{j}-quellen.md)" for j in JURS) + " · [Fristen & Verfahren](../wiki/themen/fristen-verfahren.md)", "",
+            for d in (Z.get((j, y)), W.get((j, y))):
+                if d and d.get("hinweis"):
+                    notes.append(f"- **{JUR_SHORT[j]} {y}:** {kurz(d['hinweis'], 260)}")
+        L.append(f"| {JUR_SHORT[j]} | " + " | ".join(cells) + f" | [{JUR_SHORT[j]}](../wiki/{j}/{j}-ueberblick.md) |")
+    if notes:
+        L += ["", "**Datenstand / Lücken:**", ""] + list(dict.fromkeys(notes))
+    th = yaml.safe_load((ROOT / "registry" / "themen.yaml").read_text(encoding="utf-8"))["themen"]
+    L += ["", "## Themen (Stichworte)", "",
+          " · ".join(f"[{t['titel']}](../wiki/themen/{slug}.md)" for slug, t in th.items() if (ROOT / "wiki" / "themen" / f"{slug}.md").exists()), "",
+          "## Weitere Einstiege", "",
+          "- Quellenkataloge: " + " · ".join(f"[{JUR_SHORT[j]}](../wiki/{j}/{j}-quellen.md)" for j in JURS),
+          "- Offene Punkte für die Fachperson (strittig/extrahiert/offen): `reports/offene-punkte.md` · Lint: `reports/lint.md`",
+          "- Regeln für Antworten (Zitierpflicht, Kanton ≠ Bund, Jahr fix): `AGENTS.md`", "",
           "Statuslegende: ✅ verifiziert (Fachperson) · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig · ⬜ offen · – n/a"]
     (Q / "index.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
