@@ -238,7 +238,8 @@ positionen:
   - liegenschaft-mietertraege
   feld: Formular 7 «Total Erträge» (Eigenmietwert, Mietzinseinnahmen)
   regel: 'Eigenmietwert und Mietzinseinnahmen aus Formular 7. Mietwert des dauernd selbst bewohnten Eigenheims am Wohnsitz wird um 30% herabgesetzt (Art. 34 Abs. 3 StG); Unternutzungsabzug nur auf Antrag;
-    Härtefall-Reduktion bei Mietwert > 30% der Bruttoeinkünfte und steuerbarem Vermögen bis Fr. 600''000 (Art. 14 StV). Zweit-/Ferienwohnungen und vermietete Objekte: keine Herabsetzung.'
+    Reduktion nur für Steuerpflichtige im ordentlichen AHV-Rentenalter bei offensichtlichem Missverhältnis (Art. 34 Abs. 4 StG; nicht unter 60% der mittleren Marktmiete); Art. 14 StV: Mietwert > 30% der
+    Bruttoeinkünfte und steuerbares Vermögen höchstens Fr. 600''000. Zweit-/Ferienwohnungen und vermietete Objekte: keine Herabsetzung.'
   werte_keys:
   - liegenschaft.eigenmietwert_abzug
   bemerkung: Formular 7/2026 nicht publiziert (Ausfüllhilfe Formular 7/2025 nicht übertragbar).
@@ -464,19 +465,25 @@ positionen:
   belege:
   - bescheinigung-saeule3a
   feld: '3a-Bescheinigung der Vorsorgeeinrichtung: im Jahr 2026 bezahlter Betrag'
-  regel: Im Steuerjahr 2026 einbezahlte ordentliche 3a-Beiträge gemäss Bescheinigung; Höchstbeträge nach Bundesrecht (BVV 3, nicht in den SG-Quellen 2026 enthalten). Abzug der Einlagen in anerkannte gebundene
-    Selbstvorsorge nach Art. 82 BVG.
+  regel: 'Im Steuerjahr 2026 einbezahlte ordentliche 3a-Beiträge gemäss Bescheinigung. Art. 45 Abs. 1 Bst. e StG SG verweist auf anerkannte Formen der gebundenen Selbstvorsorge nach Art. 82 BVG; die Höchstbeträge
+    entsprechen daher dem Bundesrecht (BVV 3, 2026): Fr. 7''258 mit 2. Säule; ohne 2. Säule 20% des Erwerbseinkommens, höchstens Fr. 36''288.'
   werte_keys:
   - saeule3a.max_mit_2saeule
   - saeule3a.max_ohne_2saeule
   - saeule3a.satz_ohne_2saeule
   bund: 'Art. 33 Abs. 1 Bst. e DBG: Höhe der abzugsfähigen Beiträge durch Bundesrat festgelegt (BVV 3).'
-  bemerkung: Höchstbeträge 2026 (BVV 3) im Wiki unter werte/bund prüfen; keine SG-eigene Limite.
+  bemerkung: Verweis auf Bundesrecht (Art. 82 BVG / BVV 3); keine SG-eigene Limite.
   quellen:
   - chunk: sg-form-1-2026-uj__c0007
     zitat: 13.1 Ordentliche Beiträge Säule 3a Person 1 Bescheinigung 208
   - chunk: sg-stg-2026__art-45-t2
     zitat: gebundenen Selbstvorsorge nach Art. 82 BVG
+  - chunk: bund-bvv3__art-7
+    zitat: jährlich bis 8 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG, wenn sie einer Vorsorgeeinrichtung nach Artikel 80 BVG angehören
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
   status: extrahiert
 - ziffer: 13.1 (Einkauf)
   abschnitt: Abzüge
@@ -485,11 +492,12 @@ positionen:
   belege:
   - bescheinigung-saeule3a
   feld: Bescheinigung des Vorsorgeanbieters (Einkauf, Jahr(e) der Lücke)
-  regel: 'NEU 2026: Nachträgliche Einkäufe in die Säule 3a für Lücken ab 1.1.2025 (bis 10 Jahre), Abzug höchstens in Höhe des kleinen 3a-Maximalbetrags; erstmals in der Steuererklärung 2026. Voraussetzungen:
-    AHV-pflichtiges Einkommen, Jahresbeitrag bereits geleistet, noch kein 3a-Kapital bezogen; Bestätigung des Vorsorgeanbieters beilegen. Jahr(e) der Einzahlung angeben.'
+  regel: 'NEU 2026: Nachträgliche Einkäufe in die Säule 3a für Lücken ab 1.1.2025 (bis 10 Jahre), Abzug höchstens in Höhe des kleinen 3a-Maximalbetrags (Fr. 7''258 im Jahr 2026, Bundesrecht Art. 7a/7b BVV
+    3); erstmals in der Steuererklärung 2026. Voraussetzungen: AHV-pflichtiges Einkommen, Jahresbeitrag bereits geleistet, noch kein 3a-Kapital bezogen; Bestätigung des Vorsorgeanbieters beilegen. Jahr(e)
+    der Einzahlung angeben.'
   werte_keys:
   - saeule3a.einkauf
-  bemerkung: Betrag des «kleinen Säule-3a-Maximalbetrags» 2026 nicht in SG-Quelle; aus Bundesquelle ergänzen.
+  bemerkung: 'Betrag des kleinen 3a-Maximalbetrags aus Bundesquelle (werte/bund 2026: saeule3a.einkauf Fr. 7''258); SG-Quelle nennt keinen Betrag.'
   quellen:
   - chunk: sg-form-1-2026-uj__c0007
     zitat: Einkaufsbeiträge Säule 3a Jahr(e) Person 1 Bescheinigung 212
@@ -497,6 +505,8 @@ positionen:
     zitat: erstmals mit der Steuererklärung 2026 im Kanton St. Gallen geltend gemacht werden kann
   - chunk: sg-mb-8-2026__c0010
     zitat: gung des Vorsorgeanbieters belegt werden
+  - chunk: bund-wl-2a-2026__c0051
+    zitat: in jedem Fall aber maximal 7258 Fr.
   status: extrahiert
 - ziffer: '13.2'
   abschnitt: Abzüge

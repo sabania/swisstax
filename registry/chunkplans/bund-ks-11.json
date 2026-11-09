@@ -1,0 +1,439 @@
+{
+ "id": "bund-ks-11",
+ "hinweise": [
+  "Anhang Fragebogen für Ärzte (S. 12+) ist im Text nicht enthalten.",
+  "Layout sauber, Fussnoten stehen inline am Seitenende."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt und Inhaltsverzeichnis"
+  },
+  {
+   "start": 91,
+   "titel": "Ziff. 1 Ausgangslage – Revision per 1.1.2005 (BehiG)",
+   "pfad": [
+    "1. Ausgangslage"
+   ],
+   "stichworte": [
+    "Krankheitskosten",
+    "Behindertengleichstellungsgesetz",
+    "BehiG",
+    "Selbstbehalt 5 %",
+    "Revision 2005"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Bis Ende 2004 galt ein Selbstbehalt von 5 % für Krankheits-, Unfall- und Invaliditätskosten; per 1.1.2005 wurden mit dem BehiG steuerliche Erleichterungen für Behinderte eingeführt.",
+   "ziffer": "1"
+  },
+  {
+   "start": 105,
+   "titel": "Ziff. 2 Gesetzliche Grundlagen – Art. 33 Abs. 1 Bst. h und hbis DBG",
+   "pfad": [
+    "2. Gesetzliche Grundlagen"
+   ],
+   "stichworte": [
+    "Art. 33 DBG",
+    "Krankheitskosten",
+    "Unfallkosten",
+    "behinderungsbedingte Kosten",
+    "Selbstbehalt 5 Prozent"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Krankheits- und Unfallkosten sind abziehbar, soweit sie 5 Prozent der um die Aufwendungen verminderten steuerbaren Einkünfte übersteigen; bei behinderungsbedingten Kosten gibt es keinen Selbstbehalt.",
+   "ziffer": "2"
+  },
+  {
+   "start": 132,
+   "titel": "Ziff. 3.1 Begriff Krankheits- und Unfallkosten",
+   "pfad": [
+    "3. Krankheits- und Unfallkosten",
+    "3.1 Begriff"
+   ],
+   "stichworte": [
+    "Krankheitskosten",
+    "Arzt",
+    "Spital",
+    "Medikamente",
+    "Brille",
+    "Kontaktlinsen",
+    "Therapien"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten"
+   ],
+   "zusammenfassung": "Krankheits- und Unfallkosten sind Ausgaben für medizinische Behandlungen zur Erhaltung oder Wiederherstellung der Gesundheit.",
+   "ziffer": "3.1"
+  },
+  {
+   "start": 150,
+   "titel": "Ziff. 3.1 Nicht abzugsfähige Aufwendungen (Lebenshaltung, Prävention, Schönheit) und Krankenkassenprämien",
+   "pfad": [
+    "3. Krankheits- und Unfallkosten",
+    "3.1 Begriff"
+   ],
+   "stichworte": [
+    "Lebenshaltungskosten",
+    "Prävention",
+    "Fitness",
+    "Schönheitsbehandlung",
+    "Krankenkassenprämien",
+    "Psychoanalyse"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.versicherungspraemien"
+   ],
+   "zusammenfassung": "Nicht abzugsfähig sind Lebenshaltungs-, Präventions- und Schönheitskosten sowie Krankenkassenprämien (nur über Art. 212 Abs. 1 DBG).",
+   "ziffer": "3.1"
+  },
+  {
+   "start": 170,
+   "titel": "Ziff. 3.2.1–3.2.3 Zahnbehandlung, Heilmassnahmen, Kuraufenthalte",
+   "pfad": [
+    "3. Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Zahnarzt",
+    "Zahnkorrektur",
+    "Physiotherapie",
+    "Psychotherapie",
+    "Kur",
+    "Erholungsaufenthalt",
+    "Verpflegung CHF 20"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten"
+   ],
+   "zusammenfassung": "Zahnbehandlungen, ärztlich verordnete Heilmassnahmen und Kuren sind abzugsfähig; bei Kuren nur über den Ansatz von CHF 20.-- pro Tag und erwachsene Person eingesparter Verpflegung.",
+   "ziffer": "3.2.1–3.2.3"
+  },
+  {
+   "start": 194,
+   "titel": "Ziff. 3.2.4–3.2.5 Alternativmedizin, Medikamente und Heilmittel",
+   "pfad": [
+    "3. Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Alternativmedizin",
+    "Naturheilpraktiker",
+    "Komplementärmedizin",
+    "Medikamente",
+    "Heilmittel"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten"
+   ],
+   "zusammenfassung": "Naturheilärztliche Behandlungen, Medikamente und Heilmittel sind abzugsfähig, wenn von Arzt oder anerkanntem Naturheilpraktiker verordnet.",
+   "ziffer": "3.2.4–3.2.5"
+  },
+  {
+   "start": 215,
+   "titel": "Ziff. 3.2.6–3.2.7 Pflegekosten zu Hause und in Alters- und Pflegeheimen",
+   "pfad": [
+    "3. Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "Spitex",
+    "Pflege zu Hause",
+    "Altersheim",
+    "Pflegeheim",
+    "60 Minuten pro Tag",
+    "Haushalt"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten"
+   ],
+   "zusammenfassung": "Ambulante Pflege zu Hause ist abzugsfähig (nicht unentgeltliche); Heimkosten bei weniger als 60 Minuten Pflegeaufwand pro Tag sind Lebenshaltungskosten.",
+   "ziffer": "3.2.6–3.2.7"
+  },
+  {
+   "start": 236,
+   "titel": "Ziff. 3.2.8–3.2.10 Fortpflanzungshilfen, Transportkosten, Diäten (Pauschale CHF 2'500)",
+   "pfad": [
+    "3. Krankheits- und Unfallkosten",
+    "3.2 Kategorien"
+   ],
+   "stichworte": [
+    "künstliche Befruchtung",
+    "In-vitro-Fertilisation",
+    "Rega",
+    "Krankenwagen",
+    "Diät",
+    "Zöliakie",
+    "Diabetes"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten"
+   ],
+   "zusammenfassung": "Fortpflanzungshilfen sind abzugsfähig, Transportkosten nur ausnahmsweise; bei lebensnotwendigen Diäten ist eine Pauschale von CHF 2'500.-- möglich (nicht bei Diabetes).",
+   "ziffer": "3.2.8–3.2.10"
+  },
+  {
+   "start": 266,
+   "titel": "Ziff. 4.1 Behinderte Person – Begriff und Personengruppen",
+   "pfad": [
+    "4. Behinderungsbedingte Kosten",
+    "4.1 Behinderte Person"
+   ],
+   "stichworte": [
+    "Behinderung",
+    "IV-Rente",
+    "Hilflosenentschädigung",
+    "Hilfsmittel",
+    "Heimbewohner",
+    "Spitex"
+   ],
+   "positionen": [
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Als behindert gelten u.a. Bezüger von IV-Leistungen, Hilflosenentschädigung, Hilfsmitteln sowie Heim-/Spitex-Patienten mit mindestens 60 Minuten Pflegeaufwand pro Tag.",
+   "ziffer": "4.1"
+  },
+  {
+   "start": 311,
+   "titel": "Ziff. 4.2 Begriff behinderungsbedingte Kosten",
+   "pfad": [
+    "4. Behinderungsbedingte Kosten",
+    "4.2 Begriff"
+   ],
+   "stichworte": [
+    "behinderungsbedingte Kosten",
+    "Luxusausgaben",
+    "Lebenshaltungskosten",
+    "kausaler Zusammenhang"
+   ],
+   "positionen": [
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Behinderungsbedingt sind notwendige Kosten mit kausalem Zusammenhang zur Behinderung; Lebenshaltungs- und Luxusausgaben sind nicht abziehbar.",
+   "ziffer": "4.2"
+  },
+  {
+   "start": 330,
+   "titel": "Ziff. 4.3.1–4.3.3 Assistenz, Haushaltshilfe und Kinderbetreuung, Tagesstrukturen",
+   "pfad": [
+    "4. Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Assistenz",
+    "Haushaltshilfe",
+    "Kinderbetreuung",
+    "Gebärdendolmetscher",
+    "Tagesstruktur",
+    "ärztliche Bescheinigung"
+   ],
+   "positionen": [
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Kosten für Assistenz, Haushaltshilfe/Kinderbetreuung (mit ärztlicher Bescheinigung) und Tagesstrukturen sind abzugsfähig, nicht aber unentgeltliche Leistungen oder übliche Verpflegung.",
+   "ziffer": "4.3.1–4.3.3"
+  },
+  {
+   "start": 372,
+   "titel": "Ziff. 4.3.4–4.3.5 Heim- und Entlastungsaufenthalte, heilpädagogische Therapien",
+   "pfad": [
+    "4. Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Wohnheim",
+    "Pflegeheim",
+    "Entlastungsaufenthalt",
+    "Existenzminimum Art. 93 SchKG",
+    "Musiktherapie",
+    "Blindenschrift"
+   ],
+   "positionen": [
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Heim- und Entlastungsaufenthalte sind abzugsfähig, gekürzt um die ersparten Lebenshaltungskosten (Existenzminimum Art. 93 SchKG).",
+   "ziffer": "4.3.4–4.3.5"
+  },
+  {
+   "start": 392,
+   "titel": "Ziff. 4.3.6 Transport- und Fahrzeugkosten",
+   "pfad": [
+    "4. Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Behindertenfahrdienst",
+    "Taxi",
+    "Kilometerentschädigung",
+    "Fahrzeugumbau",
+    "Rampe",
+    "Arbeitsweg"
+   ],
+   "positionen": [
+    "abzug.behinderungskosten",
+    "abzug.berufskosten.fahrkosten"
+   ],
+   "zusammenfassung": "Transportkosten sind mit öffentlichem Verkehrsmittel/Behindertenfahrdienst abzugsfähig, private Fahrzeuge nur wenn jene nicht zumutbar; Arbeitswege sind Gewinnungskosten.",
+   "ziffer": "4.3.6"
+  },
+  {
+   "start": 421,
+   "titel": "Ziff. 4.3.7–4.3.8 Blindenführhunde, Hilfsmittel, Pflegeartikel und Kleider",
+   "pfad": [
+    "4. Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Blindenführhund",
+    "Hilfsmittel",
+    "Windeln",
+    "Stoma",
+    "Notrufsystem",
+    "Spezialschuhe",
+    "Kleiderverschleiss"
+   ],
+   "positionen": [
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Anschaffung und Haltung von Blindenführhunden sowie Hilfsmittel, Pflegeartikel und Mehrkosten für Kleider/Schuhe sind abzugsfähig.",
+   "ziffer": "4.3.7–4.3.8"
+  },
+  {
+   "start": 444,
+   "titel": "Ziff. 4.3.9–4.3.10 Wohnkosten (Umbau) und Privatschulen",
+   "pfad": [
+    "4. Behinderungsbedingte Kosten",
+    "4.3 Kategorien"
+   ],
+   "stichworte": [
+    "Treppenlift",
+    "Rollstuhlrampe",
+    "Wohnungsumbau",
+    "Privatschule",
+    "schulpsychologischer Dienst"
+   ],
+   "positionen": [
+    "abzug.behinderungskosten",
+    "abzug.liegenschaft.unterhalt"
+   ],
+   "zusammenfassung": "Behinderungsbedingter Wohnungsumbau ist abziehbar; Privatschulkosten nur mit Bericht des schulpsychologischen Dienstes.",
+   "ziffer": "4.3.9–4.3.10"
+  },
+  {
+   "start": 462,
+   "titel": "Ziff. 4.4 Pauschalen behinderungsbedingte Kosten (CHF 2'500 / 5'000 / 7'500)",
+   "pfad": [
+    "4. Behinderungsbedingte Kosten",
+    "4.4 Pauschalen"
+   ],
+   "stichworte": [
+    "Pauschalabzug",
+    "Hilflosenentschädigung",
+    "leichter Grad",
+    "mittlerer Grad",
+    "schwerer Grad",
+    "Dialyse",
+    "Gehörlose"
+   ],
+   "positionen": [
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Jährliche Pauschalen: Hilflosenentschädigung leicht CHF 2'500.--, mittel CHF 5'000.--, schwer CHF 7'500.--; CHF 2'500.-- für Gehörlose und Dialysepatienten.",
+   "ziffer": "4.4"
+  },
+  {
+   "start": 477,
+   "titel": "Ziff. 5.1 Selbst getragene Kosten und Anrechnung von Leistungen Dritter",
+   "pfad": [
+    "5. Abzugsfähige Kosten",
+    "5.1 Selbst getragene Kosten"
+   ],
+   "stichworte": [
+    "Selbst getragene Kosten",
+    "Krankenkasse Leistungen",
+    "Ergänzungsleistungen",
+    "Hilflosenentschädigung",
+    "Genugtuung",
+    "Kapitalleistung"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten",
+    "info.steuerfreie_leistungen"
+   ],
+   "zusammenfassung": "Abzugsfähig ist nur der nach Versicherungs- und Drittleistungen verbleibende Betrag; Ergänzungsleistungen nach Art. 3a ELG werden nicht angerechnet, Genugtuungsleistungen ebenfalls nicht.",
+   "ziffer": "5.1"
+  },
+  {
+   "start": 508,
+   "titel": "Ziff. 5.2 Kosten der unterhaltenen Personen (Kinder, übrige unterstützte Personen)",
+   "pfad": [
+    "5. Abzugsfähige Kosten",
+    "5.2 Unterhaltene Personen"
+   ],
+   "stichworte": [
+    "Kinder",
+    "unterstützte Person",
+    "Unterstützungsabzug",
+    "Alimente",
+    "Ausland"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten",
+    "sozialabzug.unterstuetzung",
+    "sozialabzug.kinder"
+   ],
+   "zusammenfassung": "Kosten unterhaltener Personen sind abziehbar; bei übrigen unterstützten Personen nur der Betrag über dem Unterstützungsabzug nach Art. 213 Abs. 1 Bst. b DBG.",
+   "ziffer": "5.2"
+  },
+  {
+   "start": 535,
+   "titel": "Ziff. 5.3 Selbstbehalt 5 %",
+   "pfad": [
+    "5. Abzugsfähige Kosten",
+    "5.3 Selbstbehalt"
+   ],
+   "stichworte": [
+    "Selbstbehalt",
+    "5 Prozent",
+    "Nettoeinkommen",
+    "Krankheitskosten Abzug"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten"
+   ],
+   "zusammenfassung": "Krankheits- und Unfallkosten sind nur abziehbar, soweit sie 5 % der um die Aufwendungen (Art. 26–33 DBG) verminderten Einkünfte übersteigen; bei behinderungsbedingten Kosten kein Selbstbehalt.",
+   "ziffer": "5.3"
+  },
+  {
+   "start": 543,
+   "titel": "Ziff. 6–7 Nachweis, ärztlicher Fragebogen und Geltungsbereich",
+   "pfad": [
+    "6. Nachweis",
+    "7. Geltungsbereich"
+   ],
+   "stichworte": [
+    "Nachweis",
+    "Arztzeugnis",
+    "Belege",
+    "Fragebogen für Ärzte",
+    "Auslandzahlungen",
+    "Geltungsbereich"
+   ],
+   "positionen": [
+    "abzug.krankheitskosten",
+    "abzug.behinderungskosten"
+   ],
+   "zusammenfassung": "Kosten sind durch ärztliche Bescheinigungen und Rechnungen nachzuweisen; das KS ersetzt das KS Nr. 16 vom 14.12.1994 und gilt ab Steuerjahr 2005.",
+   "ziffer": "6–7"
+  }
+ ]
+}

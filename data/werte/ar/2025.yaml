@@ -12,25 +12,36 @@ werte:
     zitat: bis zu einem Höchstbetrag von Fr. 6 000.–
   - chunk: ar-wl-2025__c0001
     zitat: zur Arbeit auf kantonaler Ebene auf max. Fr. 6’000
-  status: extrahiert
-  bemerkung: Betrag nicht im Anhang 1 (kalte Progression) aufgeführt, daher unverändert. Direkte Bundessteuer separat (data/werte/bund).
+  status: agent-geprueft
+  bemerkung: 'Kantonaler Wert (Art. 29 Abs. 1 lit. a StG AR, kein Verweis auf DBG). Betrag nicht im Anhang 1 (kalte Progression) aufgeführt, daher unverändert. Direkte Bundessteuer separat (data/werte/bund: 3''300).'
 - key: berufskosten.fahrkosten.auto_km
   wert: 0.7
   einheit: CHF
   text: 'Privates Motorfahrzeug in begründeten Fällen: CHF 0.70 pro km.'
   gilt_fuer: kanton
-  rechtsgrundlage: Art. 29 Abs. 2 StG AR; WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 15 Abs. 3 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-15
+    zitat: gemäss den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen werden
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Autos | pro Fahrkilometer | –.70
   - chunk: ar-wl-2025__c0001
     zitat: Bei Benützung eines privaten Motorfahrzeuges in begründeten Fällen pro Km Fr. 0.70
   status: extrahiert
-  bemerkung: Steuerjahr 2025. Für 2026 gilt gemäss News AR 2026 CHF 0.75/km (ar-news-2026__c0002) - dort in 2026.yaml.
+  bemerkung: Verweis auf DBG-Ansatz. Steuerjahr 2025. Für 2026 gilt gemäss News AR 2026 CHF 0.75/km (ar-news-2026__c0002) - dort in 2026.yaml.
 - key: berufskosten.fahrkosten.motorrad_km
-  wert: null
+  wert: 0.4
   gilt_fuer: kanton
-  quellen: []
-  status: offen
-  bemerkung: In der Kurzübersicht der WL 2025 nur Velo/Kleinmotorrad-Pauschale (Fr. 700) und Auto-km-Ansatz genannt; separater km-Ansatz für Motorrad nicht gefunden.
+  quellen:
+  - chunk: ar-stv__art-15
+    zitat: gemäss den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen werden
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Motorräder mit weissem Kontrollschild | pro Fahrkilometer | –.40
+  status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz. Die AR-Wegleitung nennt nur die Pauschale bis Fr. 700 für Fahrrad/Kleinmotorrad; der km-Ansatz für Motorräder mit weissem Kontrollschild folgt aus dem Verweis in Art. 15 Abs. 3 StV auf die DBG-Pauschalansätze. Bitte fachlich bestätigen.
+  einheit: CHF
+  text: 'Privates Motorrad (weisses Kontrollschild), sofern Benützung begründet: CHF 0.40 pro km (kantonaler Wert = DBG-Ansatz gemäss Verweis in Art. 15 Abs. 3 StV).'
+  rechtsgrundlage: Art. 15 Abs. 3 StV AR (Verweis auf DBG-Ansatz)
 - key: berufskosten.fahrkosten.velo_pauschale
   wert: 700
   einheit: CHF
@@ -40,7 +51,7 @@ werte:
   quellen:
   - chunk: ar-wl-2025__c0001
     zitat: Bei Benützung eines Fahrrades oder Kleinmotorrades bis zu Fr. 700
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.arbeitstage
   wert: 220
   einheit: Tage
@@ -50,57 +61,82 @@ werte:
   quellen:
   - chunk: ar-wl-2025__c0001
     zitat: in der Regel höchstens 220 Tage
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.tag
   wert: 15
   einheit: CHF
   text: Mehrkosten auswärtige Verpflegung CHF 15 pro Tag.
   gilt_fuer: kanton
-  rechtsgrundlage: Art. 29 Abs. 1 lit. b StG AR; WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 16 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - &id001
+    chunk: ar-stv__art-16
+    zitat: nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen werden
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Voller Abzug | pro Hauptmahlzeit bzw. Tag | 15.—
   - chunk: ar-wl-2025__c0002
     zitat: Abzug für Mehrkosten der Verpflegung Fr. 15 pro Tag max. Fr. 3’200
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.verpflegung.jahr
   wert: 3200
   einheit: CHF
   text: Mehrkosten auswärtige Verpflegung höchstens CHF 3'200 pro Jahr.
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 16 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - *id001
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: im Jahr | 3200.—
   - chunk: ar-wl-2025__c0002
     zitat: Abzug für Mehrkosten der Verpflegung Fr. 15 pro Tag max. Fr. 3’200
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
   einheit: CHF
   text: Bei Kantinenverpflegung oder Arbeitgeberbeitrag CHF 7.50 pro Tag.
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 16 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-16
+    zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant eingenommen werden kann
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Halber Abzug | pro Hauptmahlzeit bzw. Tag | 7.50
   - chunk: ar-wl-2025__c0002
     zitat: Bei Kantinenverpflegung oder Arbeitgeberbeitrag Fr. 7.50 pro Tag max. Fr. 1’600
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.verpflegung.verbilligt_jahr
   wert: 1600
   einheit: CHF
   text: Bei Kantinenverpflegung oder Arbeitgeberbeitrag höchstens CHF 1'600 pro Jahr.
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 16 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-16
+    zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant eingenommen werden kann
+  - chunk: bund-wl-2a-2025__c0045
+    zitat: Nur der halbe Abzug (Fr. 7.50 im Tag, 1600 Fr. im Jahr) ist
   - chunk: ar-wl-2025__c0002
     zitat: Bei Kantinenverpflegung oder Arbeitgeberbeitrag Fr. 7.50 pro Tag max. Fr. 1’600
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.schichtarbeit.tag
   wert: 15
   einheit: CHF
   text: 'Schicht- oder Nachtarbeit: CHF 15 pro Tag, max. CHF 3''200 pro Jahr.'
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 16 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-16
+    zitat: sowie bei durchgehender Schichtarbeit
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Voller Abzug | pro Hauptmahlzeit bzw. Tag | 15.—
   - chunk: ar-wl-2025__c0002
     zitat: Bei Schicht- oder Nachtarbeit Fr. 15 pro Tag max. Fr. 3’200
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz Schichtarbeitsabzug nicht zusätzlich zum Verpflegungsabzug (Art. 16 Abs. 4 StV).
 - key: berufskosten.wochenaufenthalt.unterkunft
   wert: null
   einheit: Text
@@ -112,37 +148,46 @@ werte:
     zitat: Kosten für ein auswärtiges Zimmer je nach Arbeitsort, pro Monat max. Fr. 800
   - chunk: ar-stv__art-17
     zitat: höchstens die ortsüblichen Mietkosten für ein Zimmer
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.wochenaufenthalt.verpflegung_jahr
   wert: 6400
   einheit: CHF
   text: 'Wochenaufenthalt: auswärtige Verpflegung CHF 30 pro Tag, max. CHF 6''400 pro Jahr (bei Vergünstigung durch Arbeitgeber CHF 22.50/Tag, max. CHF 4''800).'
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 17 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-17
+    zitat: Mehrkosten der auswärtigen Verpflegung bestimmt sich nach den für die direkte Bundessteuer massgebenden Pauschalansätzen
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Voller Abzug | im Tag im Jahr | 30.— 6400.—
   - chunk: ar-wl-2025__c0002
     zitat: Für die auswärtige Verpflegung Fr. 30 pro Tag max. Fr. 6’400
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.uebrige.satz
   wert: 10
   einheit: '%'
   text: 'Übrige Berufskosten Pauschale: CHF 700 zuzüglich 10 % des Nettolohnes, max. CHF 2''400.'
   gilt_fuer: kanton
-  rechtsgrundlage: Art. 29 Abs. 2 StG AR; WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 18 Abs. 1 StV AR; WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-18
+    zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens aber Fr. 2400.–
   - chunk: ar-wl-2025__c0002
     zitat: Pauschalabzug Fr. 700 zuzüglich 10 % des Nettolohnes max. Fr. 2’400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.fix
   wert: 700
   einheit: CHF
   text: Fixer Sockelbetrag der Pauschale (zuzüglich 10 % des Nettolohnes).
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 18 Abs. 1 StV AR; WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-18
+    zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens aber Fr. 2400.–
   - chunk: ar-wl-2025__c0002
     zitat: Pauschalabzug Fr. 700 zuzüglich 10 % des Nettolohnes max. Fr. 2’400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.min
   wert: null
   gilt_fuer: kanton
@@ -154,47 +199,71 @@ werte:
   einheit: CHF
   text: 'Maximum der Pauschale für übrige Berufskosten: CHF 2''400.'
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 18 Abs. 1 StV AR; WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-18
+    zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens aber Fr. 2400.–
   - chunk: ar-wl-2025__c0002
     zitat: Pauschalabzug Fr. 700 zuzüglich 10 % des Nettolohnes max. Fr. 2’400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.satz
   wert: 20
   einheit: '%'
-  text: 'Nebenerwerb: Pauschalabzug 20 % des Nettolohnes, mind. CHF 800, max. CHF 2''400.'
+  text: 'Nebenerwerb: Pauschalabzug 20 % der Nettoeinkünfte (WL: Nettolohn), mind. CHF 800, max. CHF 2''400 (DBG-Ansatz).'
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 19 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-19
+    zitat: werden die notwendigen Berufskosten nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
   - chunk: ar-wl-2025__c0002
     zitat: Pauschalabzug 20 % des Nettolohnes, mind. Fr. 800 max. Fr. 2’400
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.nebenerwerb.min
   wert: 800
   einheit: CHF
   text: Nebenerwerb Pauschale Minimum CHF 800.
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 19 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-19
+    zitat: werden die notwendigen Berufskosten nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
   - chunk: ar-wl-2025__c0002
     zitat: Pauschalabzug 20 % des Nettolohnes, mind. Fr. 800 max. Fr. 2’400
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.nebenerwerb.max
   wert: 2400
   einheit: CHF
   text: Nebenerwerb Pauschale Maximum CHF 2'400.
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 10
+  rechtsgrundlage: Art. 19 Abs. 1 StV AR (Verweis auf DBG-Ansatz); WL 2025 Ziff. 10
   quellen:
+  - chunk: ar-stv__art-19
+    zitat: werden die notwendigen Berufskosten nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: höchstens im Jahr | 2400.—
   - chunk: ar-wl-2025__c0002
     zitat: Pauschalabzug 20 % des Nettolohnes, mind. Fr. 800 max. Fr. 2’400
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: berufskosten.homeoffice
   wert: null
   gilt_fuer: kanton
-  quellen: []
-  status: offen
-  bemerkung: In WL 2025 (Kurzübersicht, Ziff. 10) und Merkblättern keine Sonderregel für Arbeitszimmer/Homeoffice gefunden; nur Nachweis höherer effektiver Berufskosten möglich (Art. 29 Abs. 2 StG).
+  quellen:
+  - chunk: ar-stv__art-18
+    zitat: Die Kosten eines Arbeitszimmers in der Privatwohnung werden als notwendige Berufskosten anerkannt
+  - chunk: ar-stv__art-18
+    zitat: mindestens 40 Prozent der Tätigkeit, gemessen an einer Vollzeitbeschäftigung, zu Hause erledigt werden müssen
+  status: extrahiert
+  bemerkung: Ergänzt durch Prüfung (StV Art. 18 Abs. 3).
+  einheit: Text
+  text: Kosten eines Arbeitszimmers in der Privatwohnung sind abziehbar, wenn ein spezifisch eingerichteter Arbeitsplatz benötigt und tatsächlich ausgeschieden wird und mindestens 40 % der Tätigkeit (bezogen auf Vollzeit) zu Hause erledigt werden müssen; sonst nur Pauschale übrige Berufskosten bzw. Nachweis höherer Kosten.
+  rechtsgrundlage: Art. 18 Abs. 3 StV AR
 - key: weiterbildung.max
   wert: 12000
   einheit: CHF
@@ -206,7 +275,7 @@ werte:
     zitat: bis zum Gesamtbetrag von Fr. 12 000.– pro steuerpflichtige Person
   - chunk: ar-wl-2025__c0003
     zitat: Berufsorientierte Aus-/Weiterbildungskosten Person 1 max. Fr. 12’000
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.verheiratet
   wert: 5400
   einheit: CHF
@@ -218,7 +287,7 @@ werte:
     zitat: Fr. 5 400.– für in ungetrennter Ehe lebende
   - chunk: ar-wl-2025__c0003
     zitat: gemeinsam steuerpflichtige Personen max. Fr. 5’400
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.verheiratet_ohne_vorsorge
   wert: null
   gilt_fuer: kanton
@@ -236,7 +305,7 @@ werte:
     zitat: Fr. 2 700.– für die übrigen steuerpflichtigen Personen
   - chunk: ar-wl-2025__c0003
     zitat: Einzelperson max. Fr. 2’700
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.alleinstehend_ohne_vorsorge
   wert: null
   gilt_fuer: kanton
@@ -254,37 +323,51 @@ werte:
     zitat: erhöhen sich diese Abzüge um Fr. 1 000.–
   - chunk: ar-wl-2025__c0003
     zitat: für jedes Kind zusätzlich max. Fr. 1’000
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.max_mit_2saeule
   wert: 7258
   einheit: CHF
   text: 'Säule 3a: Erwerbstätige mit 2. Säule max. CHF 7''258 (nur im Jahr 2025 tatsächlich bezahlte Beiträge).'
   gilt_fuer: kanton
-  rechtsgrundlage: Art. 35 lit. e StG AR i.V.m. BVV 3; WL 2025 Ziff. 13.1
+  rechtsgrundlage: Art. 35 lit. e StG AR i.V.m. Art. 82 BVG, Art. 7 BVV 3; WL 2025 Ziff. 13.1
   quellen:
+  - &id002
+    chunk: ar-stg__art-35-t2
+    zitat: im Sinn und im Umfang von Art. 82 des Bundesgesetzes über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
   - chunk: ar-wl-2025__c0003
     zitat: Erwerbstätige mit 2. Säule (Belege) max. Fr. 7’258
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: saeule3a.max_ohne_2saeule
   wert: 36288
   einheit: CHF
   text: 'Säule 3a: Erwerbstätige ohne 2. Säule 20 % des Erwerbseinkommens, max. CHF 36''288.'
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 13.1
+  rechtsgrundlage: Art. 35 lit. e StG AR i.V.m. Art. 82 BVG, Art. 7 BVV 3; WL 2025 Ziff. 13.1
   quellen:
+  - *id002
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
   - chunk: ar-wl-2025__c0003
     zitat: 20 % des Erwerbseinkommens (Belege) max. Fr. 36’288
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
   einheit: '%'
   text: 'Säule 3a ohne 2. Säule: 20 % des Erwerbseinkommens (max. CHF 36''288).'
   gilt_fuer: kanton
-  rechtsgrundlage: WL 2025 Ziff. 13.1
+  rechtsgrundlage: Art. 35 lit. e StG AR i.V.m. Art. 82 BVG, Art. 7 BVV 3; WL 2025 Ziff. 13.1
   quellen:
+  - *id002
+  - chunk: bund-bvv3__art-7
+    zitat: jährlich bis 20 Prozent des Erwerbseinkommens
   - chunk: ar-wl-2025__c0003
     zitat: 20 % des Erwerbseinkommens (Belege) max. Fr. 36’288
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz
 - key: saeule3a.einkauf
   wert: null
   gilt_fuer: kanton
@@ -302,7 +385,7 @@ werte:
     zitat: 10 Prozent, jedoch mindestens
   - chunk: ar-wl-2025__c0004
     zitat: 10 %, mindestens Fr. 2’500
-  status: extrahiert
+  status: agent-geprueft
 - key: zweiverdiener.min
   wert: 2500
   einheit: CHF
@@ -314,7 +397,7 @@ werte:
     zitat: Art. 35 Abs. 1 lit. h, Abzug Minimum 2'500
   - chunk: ar-wl-2025__c0004
     zitat: 10 %, mindestens Fr. 2’500
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Gesetzestext nennt unindexiert Fr. 2 400; massgebend ist Anhang 1 (indexiert per 1.1.2024), bestätigt durch WL 2025. Kein Widerspruch (Indexierung).
 - key: zweiverdiener.max
   wert: 5200
@@ -327,7 +410,7 @@ werte:
     zitat: Art. 35 Abs. 1 lit. h, Abzug Maximum 5'200
   - chunk: ar-wl-2025__c0004
     zitat: max. Fr. 5’200
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Gesetzestext nennt unindexiert Fr. 5 000; massgebend ist Anhang 1, bestätigt durch WL 2025.
 - key: drittbetreuung.max
   wert: 25000
@@ -340,7 +423,7 @@ werte:
     zitat: jedoch höchstens Fr. 25 000.–, für die Drittbetreuung jedes Kindes
   - chunk: ar-wl-2025__c0003
     zitat: max. Fr. 25’000
-  status: extrahiert
+  status: agent-geprueft
 - key: drittbetreuung.altersgrenze
   wert: 14
   einheit: Jahre
@@ -350,7 +433,7 @@ werte:
   quellen:
   - chunk: ar-wl-2025__c0089
     zitat: Altersjahr noch nicht vollendet hat, d.h. bis zum 14. Geburtstag
-  status: extrahiert
+  status: agent-geprueft
 - key: krankheitskosten.selbstbehalt_satz
   wert: 5
   einheit: '%'
@@ -362,7 +445,7 @@ werte:
     zitat: diese 5 Prozent der um die Aufwendungen gemäss Art. 28–35 verminderten steuerbaren Einkünfte übersteigen
   - chunk: ar-wl-2025__c0004
     zitat: Selbstbehalt vom Nettoeinkommen 5%
-  status: extrahiert
+  status: agent-geprueft
 - key: spenden.min
   wert: 100
   einheit: CHF
@@ -374,7 +457,7 @@ werte:
     zitat: in der Steuerperiode Fr. 100.– erreichen
   - chunk: ar-wl-2025__c0004
     zitat: sofern diese gesamthaft Fr. 100 überschreiten
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Gesetz: «erreichen», WL: «überschreiten» - geringfügige Formulierungsabweichung; Gesetz geht vor.'
 - key: spenden.max_satz
   wert: 20
@@ -387,7 +470,7 @@ werte:
     zitat: insgesamt 20 Prozent der um die Aufwendungen gemäss Art. 28–35 verminderten steuerbaren Einkünfte
   - chunk: ar-wl-2025__c0004
     zitat: der Abzug ist auf max. 20 % des Nettoeinkommens beschränkt
-  status: extrahiert
+  status: agent-geprueft
 - key: parteispenden.max
   wert: 10000
   einheit: CHF
@@ -399,7 +482,7 @@ werte:
     zitat: bis zu einem Gesamtbetrag von Fr. 10 000.– an politische Parteien
   - chunk: ar-wl-2025__c0092
     zitat: Gesamtbetrag von Fr. 10’000.– (pro Steuererklärung)
-  status: extrahiert
+  status: agent-geprueft
 - key: parteispenden.max_verheiratet
   wert: 10000
   einheit: CHF
@@ -409,27 +492,27 @@ werte:
   quellen:
   - chunk: ar-wl-2025__c0092
     zitat: Gesamtbetrag von Fr. 10’000.– (pro Steuererklärung)
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.pauschale_neu
   wert: 10
   einheit: '%'
-  text: 'Pauschalabzug Liegenschaftsunterhalt: 10 % des Bruttomietertrags bei Gebäuden bis 10 Jahre (Wahlrecht je Periode zwischen Pauschale und effektiven Kosten).'
+  text: 'Pauschalabzug Liegenschaftsunterhalt: 10 % des Bruttomietertrags bei Gebäuden bis 10 Jahre (Wahlrecht je Gebäude und Periode zwischen Pauschale und effektiven Kosten); nur wenn der jährliche Bruttomietertrag des gesamten Liegenschaftsbesitzes CHF 100''000 nicht übersteigt.'
   gilt_fuer: kanton
-  rechtsgrundlage: MB AR 03
+  rechtsgrundlage: Art. 25 StV AR (MB AR 03)
   quellen:
   - chunk: ar-mb-03__c0004
     zitat: Der Pauschalabzug beträgt 10 Prozent des Bruttomietertrages bei Gebäuden mit einem Alter bis zu 10 Jahren
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.pauschale_alt
   wert: 20
   einheit: '%'
-  text: 'Pauschalabzug Liegenschaftsunterhalt: 20 % des Bruttomietertrags für ältere Gebäude (über 10 Jahre).'
+  text: 'Pauschalabzug Liegenschaftsunterhalt: 20 % des Bruttomietertrags für ältere Gebäude (über 10 Jahre); nur wenn der jährliche Bruttomietertrag des gesamten Liegenschaftsbesitzes CHF 100''000 nicht übersteigt.'
   gilt_fuer: kanton
-  rechtsgrundlage: MB AR 03
+  rechtsgrundlage: Art. 25 StV AR (MB AR 03)
   quellen:
   - chunk: ar-mb-03__c0004
     zitat: 20 Prozent des Bruttomietertrages für ältere Gebäude
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.eigenmietwert_abzug
   wert: 20
   einheit: '%'
@@ -439,7 +522,7 @@ werte:
   quellen:
   - chunk: ar-wl-2025__c0001
     zitat: Der Selbstnutzungsabzug beträgt 20 %
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind
   wert: null
   gilt_fuer: kanton
@@ -457,7 +540,7 @@ werte:
     zitat: Art. 38 Abs. 1 lit. a Ziff. 1 5'300
   - chunk: ar-wl-2025__c0005
     zitat: Für jedes Kind bis zur Vollendung des 4. Altersjahrs Fr. 5’300
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Gesetzestext nennt unindexiert Fr. 5 000; massgebend Anhang 1 + WL 2025. Seed-Hinweis (5'000) ist die unindexierte Gesetzesfassung.
 - key: sozialabzug.kind_schule
   wert: 7400
@@ -470,7 +553,7 @@ werte:
     zitat: Art. 38 Abs. 1 lit. a Ziff. 2 7'400
   - chunk: ar-wl-2025__c0005
     zitat: des 15. Altersjahrs Fr. 7’400
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind_ausbildung
   wert: 11600
   einheit: CHF
@@ -482,7 +565,7 @@ werte:
     zitat: Art. 38 Abs. 1 lit. a Ziff. 3 11'600
   - chunk: ar-wl-2025__c0005
     zitat: bis zur Vollendung des 26. Altersjahrs Fr. 11’600
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: null
   gilt_fuer: kanton
@@ -526,7 +609,7 @@ werte:
     zitat: für alle übrigen steuerpflichtigen Personen Fr. 75 000.–
   - chunk: ar-wl-2025__c0005
     zitat: Für alleinstehende Personen Fr. 75’000
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_verheiratet
   wert: 150000
   einheit: CHF
@@ -538,7 +621,7 @@ werte:
     zitat: in rechtlich und tatsächlich ungetrennter Ehe leben, Fr. 150 000.–
   - chunk: ar-wl-2025__c0005
     zitat: Für gemeinsam steuerpflichtige Personen Fr. 150’000
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_kind
   wert: 25000
   einheit: CHF
@@ -550,7 +633,7 @@ werte:
     zitat: Fr. 25 000.–
   - chunk: ar-wl-2025__c0005
     zitat: Zusätzlich für jedes minderjährige Kind Fr. 25’000
-  status: extrahiert
+  status: agent-geprueft
 - key: steuerfrei.feuerwehrsold
   wert: 5000
   einheit: CHF
@@ -560,7 +643,7 @@ werte:
   quellen:
   - chunk: ar-stg__art-27-t2
     zitat: bis zu einem Betrag von jährlich Fr. 5 000.–
-  status: extrahiert
+  status: agent-geprueft
 - key: steuerfrei.grossspielgewinn
   wert: 1000000
   einheit: CHF
@@ -570,7 +653,7 @@ werte:
   quellen:
   - chunk: ar-stg__art-27-t2
     zitat: die einzelnen Gewinne bis zu einem Betrag von 1 Million Franken aus der Teilnahme an Grossspielen
-  status: extrahiert
+  status: agent-geprueft
 - key: steuerfrei.kleingewinn
   wert: 1000
   einheit: CHF
@@ -582,7 +665,7 @@ werte:
     zitat: sofern die Grenze von Fr. 1 000.– nicht überschritten wird
   - chunk: ar-stg__art-27-t3
     zitat: die Gewinne aus Kleinspielen, die nach dem BGS zugelassen sind
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfuss_kanton
   wert: 3.3
   einheit: Einheiten
@@ -591,7 +674,7 @@ werte:
   quellen:
   - chunk: ar-steuerfuesse-2025__c0001
     zitat: 'Kantonaler Steuerfuss: 3.30 Einheiten'
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfrei_alleinstehend
   wert: null
   gilt_fuer: kanton
@@ -621,7 +704,7 @@ werte:
   gilt_fuer: kanton
   quellen: []
   status: offen
-  bemerkung: Keine Mindeststeuer für natürliche Personen in StG AR/WL 2025 gefunden (Art. 96 StG betrifft Minimalsteuer juristischer Personen).
+  bemerkung: 'Keine Mindeststeuer für natürliche Personen in StG AR/WL 2025 gefunden (Art. 96 StG betrifft Minimalsteuer juristischer Personen). Nachsuche bestätigt: keine Mindeststeuer für natürliche Personen gefunden.'
 - key: verfahren.einreichefrist
   wert: null
   einheit: Text
@@ -631,7 +714,7 @@ werte:
   quellen:
   - chunk: ar-wl-2025__c0012
     zitat: min gemäss Seite 1 der Steuererklärung an die Kantonale Steuerverwaltung
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Kein festes Datum in der Wegleitung; Termin steht auf der Steuererklärung des Mandanten.
 - key: verfahren.fristerstreckung
   wert: 25
@@ -642,7 +725,7 @@ werte:
   quellen:
   - chunk: ar-wl-2025__c0012
     zitat: nur die erste Fristverlängerung kostenlos ist
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Treuhänder-Sammelgesuche (Seed-Angabe) in den Chunks nicht belegt; nicht übernommen.
 - key: verfahren.abgabeweg
   wert: null
@@ -653,13 +736,13 @@ werte:
   quellen:
   - chunk: ar-info-fristen__c0001
     zitat: Füllen Sie die Steuererklärung online aus.
-  status: extrahiert
+  status: agent-geprueft
 - key: verfahren.beilagen_schwellen
   wert: null
   gilt_fuer: kanton
   quellen: []
   status: offen
-  bemerkung: Seed nennt Rechnungskopien ab Einzelbeträgen CHF 5'000 (MB 03); in den Chunks von MB 03 nicht auffindbar - nicht übernommen.
+  bemerkung: 'Seed nennt Rechnungskopien ab Einzelbeträgen CHF 5''000 (MB 03); in den Chunks von MB 03 nicht auffindbar - nicht übernommen. Nachsuche WL c0009 / Art. 162 StG: nur allgemeine Beilagepflichten, keine Betragsschwellen.'
 - key: bezug.provisorisch
   wert: null
   einheit: Text
@@ -671,7 +754,7 @@ werte:
     zitat: Einzahlungsschein für die Gesamtzahlung (per 30. Juni)
   - chunk: ar-info-steuerbezug__c0004
     zitat: Eine Ratenzahlung (4 bis 11 Monatsraten)
-  status: extrahiert
+  status: agent-geprueft
 - key: bezug.verzugszins
   wert: 5
   einheit: '%'
@@ -681,14 +764,14 @@ werte:
   quellen:
   - chunk: ar-info-steuerbezug__c0009
     zitat: Der Zinssatz für Verzugszinsen beträgt bei den Staats- und Gemeindesteuern 5 %
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Direkte Bundessteuer 2025: 4.5 % (gleiche Quelle) - gehört in data/werte/bund.'
 - key: bezug.verguetungszins
   wert: null
   gilt_fuer: kanton
   quellen: []
   status: offen
-  bemerkung: Satz für Zinsen auf zu früh/zu spät bezahlten provisorischen Steuern 2025 in den Quellen nicht belegt (nur 1 % für 2026 gemäss ar-news-2026__c0003).
+  bemerkung: 'AR kennt keinen separaten Vergütungszins: Art. 206 StG regelt nur Ausgleichszinsen (zugunsten/zulasten) mit einheitlichem, vom Regierungsrat festgelegten Satz; für 2025 siehe bezug.ausgleichszins (1.0 % ab 01.01.2024, 2025 nicht ausdrücklich bestätigt). Für 2026 1 % gemäss ar-news-2026__c0003. Offen gelassen, da Satz-Bestätigung fehlt.'
 - key: bezug.ausgleichszins
   wert: 1.0
   einheit: '%'

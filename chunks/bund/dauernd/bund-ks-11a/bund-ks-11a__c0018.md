@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0018
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 4.1 Als behindert geltende Personen, Hör- und Sehbehinderung (Teil 2/2)"
 ziffer: "4.1 a–d"
 seiten: "6-7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.1 Person mit Behinderung · S. 6–7
+> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.1 Person mit Behinderung · S. 6–7
 
     - Sehbehinderung: Die Sehschärfe auf dem besser sehenden Auge liegt trotz Hilfsmittel un
     ter dem Visus-Wert 0.3 oder es liegt beidseitig eine Einschränkung des Gesichtsfeldes auf

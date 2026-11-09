@@ -16,7 +16,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0002
     zitat: Personalien per 31.12.2026 bzw. per Ende der Steuerpflicht
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: S. 1 Kinder
   abschnitt: Weitere Angaben
   bezeichnung: Kinder im und ausserhalb des Haushalts (Jahrgänge 2009–2026 oder in beruflicher Erstausbildung)
@@ -31,7 +31,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0003
     zitat: Kinder der Jahrgänge 2009–2026 oder in beruflicher Erstausbildung stehende Kinder
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: S. 1 Unterstützte Personen
   abschnitt: Weitere Angaben
   bezeichnung: Erwerbsunfähige oder beschränkt erwerbsfähige unterstützte Personen (im und ausserhalb des Haushalts)
@@ -47,7 +47,7 @@ positionen:
     zitat: Erwerbsunfähige oder beschränkt erwerbsfähige Personen
   - chunk: zh-wl-2026-uj__c0134
     zitat: des Unterstützungsabzuges von CHF 2’800
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '1.1'
   abschnitt: Einkünfte
   bezeichnung: Unselbständige Erwerbstätigkeit – Haupterwerb, Person 1 / Person 2 (Code 100/101)
@@ -66,7 +66,7 @@ positionen:
     zitat: In der Steuererklärung ist der Nettolohn (d.h. der Lohn nach Abzug von AHV/IV/EO- und
   - chunk: bund-wl-lohnausweis-2026__c0038
     zitat: dass vom Bruttolohn total (Ziffer 8) das Total der Abzüge (Ziffer 9 und 10) abgezogen wird.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '1.2'
   abschnitt: Einkünfte
   bezeichnung: Unselbständige Erwerbstätigkeit – Nebenerwerb, Person 1 / Person 2 (Code 102/103)
@@ -82,7 +82,7 @@ positionen:
     zitat: Hier sind sämtliche Einkünfte aus unselbständigen Nebenerwerbstätigkeiten aufzuführen.
   - chunk: zh-wl-2026-uj__c0030
     zitat: gegen die Schwarzarbeit bezahlt wurden. Der Steuererklärung ist jedoch die Bescheinigung
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '2.1'
   abschnitt: Einkünfte
   bezeichnung: Selbständige Erwerbstätigkeit – Haupterwerb, Person 1 / Person 2 (Code 120/121)
@@ -97,7 +97,7 @@ positionen:
     zitat: 2. Einkünfte aus selbständiger Erwerbstätigkeit in Handel, Gewerbe,
   - chunk: zh-wl-2026-uj__c0217
     zitat: Unterzeichnete Jahresrechnung (Bilanz, Erfolgsrechnung und Anhang) für Steuerpflichtige
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '2.2'
   abschnitt: Einkünfte
   bezeichnung: Selbständige Erwerbstätigkeit – Nebenerwerb, Person 1 / Person 2 (Code 122/123)
@@ -111,7 +111,7 @@ positionen:
     zitat: 2.2 Nebenerwerb Person 1 Hilfsblatt 122
   - chunk: zh-wl-2026-uj__c0042
     zitat: Hier sind sämtliche Einkünfte aus selbständigen Nebenerwerbstätigkeiten anzugeben.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.1'
   abschnitt: Einkünfte
   bezeichnung: AHV-/IV-Renten (100%), Person 1 / Person 2 (Code 130/131)
@@ -125,7 +125,7 @@ positionen:
     zitat: 3.1 AHV- / IV-Renten (100%) Person 1 AHV IV 130
   - chunk: zh-wl-2026-uj__c0044
     zitat: Renten und Pensionen [ Ziffer 3.2]
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.2'
   abschnitt: Einkünfte
   bezeichnung: Renten/Pensionen 2. Säule, Säule 3a, Arbeitgeber, UVG/Militärversicherung (Betrag/Prozente Code 960–967, Hauptkolonne 134–137)
@@ -143,7 +143,9 @@ positionen:
     zitat: Von Arbeitgebern (also nicht von einer Pensionskasse) ausgerichtete Renten
   - chunk: zh-wl-2026-uj__c0047
     zitat: Bei nicht zu 100% steuerbaren Renten ist in den Vorkolonnen der Steuererklärung der
-  status: extrahiert
+  - chunk: zh-wl-2026-uj__c0045
+    zitat: Folgende Leistungen der Militärversicherung sind jedoch steuerfrei
+  status: agent-geprueft
 - ziffer: '3.2'
   abschnitt: Einkünfte
   bezeichnung: Leibrenten und Verpfründung (Ertragsanteil; Code 960–967 / 134–137)
@@ -158,7 +160,7 @@ positionen:
     zitat: 'Berechnungsformel: Erhaltene Leibrente / Verpfründung x Berechnungssatz (in %)'
   - chunk: zh-wl-2026-uj__c0047
     zitat: Kolonne «Prozente» ist leer zu lassen.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.3'
   abschnitt: Einkünfte
   bezeichnung: Erwerbsausfallentschädigungen aus Arbeitslosenversicherung, direkt ausbezahlt, Person 1 / Person 2 (Code 140/141)
@@ -172,7 +174,7 @@ positionen:
     zitat: 3.3 Erwerbsausfallentschädigungen aus Arbeitslosenversicherung
   - chunk: zh-wl-2026-uj__c0218
     zitat: Bescheinigung der Arbeitslosenkasse über erhaltene Taggelder.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.4'
   abschnitt: Einkünfte
   bezeichnung: Taggelder aus Kranken-, Unfall-, Invaliden-, Militärversicherung, EO, Mutterschaftsentschädigungen, Person 1 / Person 2 (Code 142/143)
@@ -185,7 +187,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0049
     zitat: Taggelder aus Kranken-, Unfall- und Invalidenversicherung, aus Militärversicherung sowie die
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.4'
   abschnitt: Einkünfte
   bezeichnung: Kinder- und Familienzulagen, direkt von der Ausgleichskasse ausbezahlt (Code 142/143)
@@ -196,7 +198,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0005
     zitat: 3.4 Kinder- und Familienzulagen, Mutterschaftsentschädigungen, Taggelder
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 3 (Hinweis)
   abschnitt: Einkünfte
   bezeichnung: Nicht steuerbare Unterstützungsleistungen (Ergänzungsleistungen, Hilflosenentschädigungen, Pflegebeiträge u.ä.) – nur Angabe, nicht einsetzen
@@ -204,12 +206,12 @@ positionen:
   belege:
   - ergaenzungsleistungen
   feld: Verfügung/Bescheinigung der EL-Stelle
-  regel: Nicht in die Einkünfte aufnehmen; Pflegebeiträge, Hilflosenentschädigungen, Ergänzungsleistungen, Beihilfen, Arbeitslosenhilfen und Gemeindezuschüsse für Bezüger von AHV-/IV-Renten sowie UVG-Leistungen
-    sind nicht steuerbar.
+  regel: Nicht in die Einkünfte aufnehmen; Pflegebeiträge, Hilflosenentschädigungen, Ergänzungsleistungen, Beihilfen, Arbeitslosenhilfen und Gemeindezuschüsse für Bezüger von AHV-, IV- und UVG-Leistungen
+    sind nicht steuerbar. Die Renten und Taggelder selbst (AHV/IV, UVG usw.) bleiben steuerbar (Ziff. 3.1–3.4).
   quellen:
   - chunk: zh-wl-2026-uj__c0048
     zitat: ausgerichtet werden, sind nicht steuerbar.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '4.1'
   abschnitt: Einkünfte
   bezeichnung: Ertrag aus Wertschriften, Guthaben und Lotterien (Code 150)
@@ -228,7 +230,7 @@ positionen:
     zitat: 4.1 Ertrag aus Wertschriften, Guthaben und Lotterien Wertschriftenverzeichnis 150
   - chunk: zh-wl-2026-uj__c0050
     zitat: Ertrag aus Nutzniessung ist zu 100% einzutragen.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '4.1'
   abschnitt: Einkünfte
   bezeichnung: Lotto-, Grossspiel- und Online-Spielbankengewinne (Teil von Code 150)
@@ -247,7 +249,7 @@ positionen:
     zitat: etc.) und aus Online-Spielbankenspielen sind bis zu einem Betrag von CHF 1’046’400 bei
   - chunk: zh-wl-2026-uj__c0165
     zitat: CHF 1’000 (Staatssteuer) bzw. CHF 1’100 (Bundessteuer) steuerfrei
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '4.2'
   abschnitt: Einkünfte
   bezeichnung: Davon aus qualifizierten Beteiligungen (Code 151)
@@ -258,13 +260,13 @@ positionen:
   feld: Ausschüttungsabrechnung/Dividendenbeleg; Wertschriftenverzeichnis mit Code Q
   regel: 'Beteiligungen von mindestens 10% (Code «Q» im Wertschriftenverzeichnis): Ausschüttungen ungekürzt (brutto) in Ziff. 4.1 UND als «davon» in Ziff. 4.2 eintragen; der Teilbesteuerungsabzug erfolgt
     separat unter Ziff. 16.5 gemäss Formular «Qualifizierte Beteiligungen im Privatvermögen».'
-  bund: Teilbesteuerung 30% (Privatvermögen) statt 50% bei der Staatssteuer.
+  bund: Teilbesteuerungsabzug 30% (Privatvermögen) statt 50% bei der Staatssteuer.
   quellen:
   - chunk: zh-form-300-2026-uj__c0006
     zitat: 4.2 Davon aus qualifizierten Beteiligungen
   - chunk: zh-wl-2026-uj__c0162
     zitat: Sie sind ungekürzt, d.h. mit dem Bruttobetrag der Ausschüttung,
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '5.1'
   abschnitt: Einkünfte
   bezeichnung: Erhaltene Unterhaltsbeiträge vom geschiedenen/getrennten Ehegatten/Partner (Code 160)
@@ -276,7 +278,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0051
     zitat: Unterhaltsbeiträge (Alimente), die den geschiedenen, gerichtlich oder tatsächlich getrennt
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '5.2'
   abschnitt: Einkünfte
   bezeichnung: Erhaltene Unterhaltsbeiträge für minderjährige Kinder (Code 161)
@@ -289,19 +291,18 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0051
     zitat: dem das Kind das 18. Altersjahr erreicht, als Einkommen in die Steuererklärung einzutragen.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '5.3'
   abschnitt: Einkünfte
   bezeichnung: Ertrag aus Geschäfts- und Korporationsanteilen (Code 162)
   key: einkommen.uebrige
   belege: []
   feld: Aufstellung über Kapital und Ertrag
-  regel: 'Anteilmässig nach Beteiligungsquote deklarieren; Aufstellung über Kapital und Ertrag beilegen. In ZH ist hier nicht die unverteilte Erbschaft erfasst – deren Erträge gehören anteilmässig in die
-    jeweiligen Ziffern (Wertschriften, Liegenschaften). Vermögenswert: Ziff. 30.5.'
+  regel: 'Anteilmässig nach Beteiligungsquote deklarieren; Aufstellung über Kapital und Ertrag beilegen. Vermögenswert: Ziff. 30.5.'
   quellen:
   - chunk: zh-wl-2026-uj__c0051
     zitat: Einkünfte aus Geschäfts- und Korporationsanteilen sind von den Inhabern anteilmässig ent-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '5.4'
   abschnitt: Einkünfte
   bezeichnung: Weitere Einkünfte, nähere Bezeichnung (Code 163)
@@ -316,7 +317,7 @@ positionen:
     zitat: Hier sind weitere Einkünfte einzutragen, die der Steuerpflicht unterliegen und unter den übrigen
   - chunk: zh-wl-2026-uj__c0197
     zitat: Förderbeiträge für Energiespar- und Umweltschutzmassnahmen sind im Jahr der Auszahlung
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '5.5'
   abschnitt: Einkünfte
   bezeichnung: Kapitalabfindungen für wiederkehrende Leistungen (Code 164)
@@ -328,7 +329,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0053
     zitat: Diese werden bei der Ermittlung des Steuersatzes zu dem Betrag eingesetzt, welcher der jährlichen Leistung entspricht.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '6'
   abschnitt: Einkünfte
   bezeichnung: Nettoertrag aus Liegenschaften – Eigenmietwert selbstbewohnter Liegenschaften (Code 188)
@@ -350,7 +351,7 @@ positionen:
     zitat: Abzug von 10% vorgenommen
   - chunk: zh-wl-2026-uj__c0178
     zitat: (ohne Stockwerkeigentum) sind 70% des Mietzinses einzusetzen, der bei
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 6 (Härtefall/Unternutzung)
   abschnitt: Einkünfte
   bezeichnung: Einschlag auf dem Eigenmietwert (Unternutzung; Härtefalleinschlag auf Antrag)
@@ -368,7 +369,7 @@ positionen:
     zitat: ist der Eigenmietwert auf Antrag angemessen herabzusetzen
   - chunk: zh-wl-2026-uj__c0023
     zitat: die (Wieder-)Einführung eines Härtefalleinschlags auf dem Eigenmietwert beschlossen.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Inkrafttreten des Härtefalleinschlags (Weisung) in der WL 2026 UJ offen; StG-Fassung Stand 1.4.2026 enthält § 21 Abs. 2 lit. d.
 - ziffer: '6'
   abschnitt: Einkünfte
@@ -384,7 +385,7 @@ positionen:
     zitat: Steuerbar sind sämtliche Miet- und Pachtzinseinnahmen (inkl. Einnahmen z.B. für Gara
   - chunk: zh-wl-2026-uj__c0179
     zitat: 'Für jede Liegenschaft ist eine Ertragsaufstellung (Mieterspiegel) mit folgenden Angaben beizulegen:'
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '6'
   abschnitt: Einkünfte
   bezeichnung: Nettoertrag aus Liegenschaften – Unterhalts- und Verwaltungskosten (Pauschale oder effektiv; im Netto-Code 188 enthalten)
@@ -393,13 +394,14 @@ positionen:
   - liegenschaft-unterhaltsrechnungen
   - liegenschaft-nebenkosten-gebaeudeversicherung
   feld: Rechnungen/Verwaltungsabrechnung, Gebäudeversicherungsprämien; Beiblatt zum Liegenschaftenverzeichnis
-  regel: 'Pro Liegenschaft Wahlrecht Pauschale oder effektive Kosten. Pauschale 20% des deklarierten Bruttomietertrags (bei vermieteten Liegenschaften abzüglich Heizungs-/Warmwasser-/Treppenhausentschädigungen);
+  regel: 'Pro Liegenschaft Wahlrecht Pauschale oder effektive Kosten. Pauschale (Staatssteuer) 20% des deklarierten Bruttomietertrags (bei vermieteten Liegenschaften abzüglich Heizungs-/Warmwasser-/Treppenhausentschädigungen);
     kein Pauschalabzug bei vorwiegend geschäftlicher Nutzung; bei Pauschale keine weiteren Abzüge (ausser Baurechtszinsen). Effektiv: detaillierte Aufstellung (Datum, Art, Empfänger, Betrag) beilegen. Baurechtszinsen
     zusätzlich abziehbar (Aufstellung beilegen).'
   werte_keys:
   - liegenschaft.pauschale_neu
   - liegenschaft.pauschale_alt
-  bund: 'Baurechtszinsen: bei der direkten Bundessteuer nicht abziehbar, wenn der Eigenmietwert auf dem Zeitbauwert beruht (siehe WL 2026 UJ).'
+  bund: 'Pauschale bei der direkten Bundessteuer: 10% des Brutto-Mietertrags bzw. Brutto-Eigenmietwerts, wenn das Gebäude zu Beginn der Steuerperiode bis 10 Jahre alt ist, sonst 20% (Art. 5 Abs. 2 LKV);
+    Wahl pro Liegenschaft. Baurechtszinsen: bei der direkten Bundessteuer nicht abziehbar, wenn der Eigenmietwert auf dem Zeitbauwert beruht (siehe WL 2026 UJ).'
   quellen:
   - chunk: zh-wl-2026-uj__c0191
     zitat: beträgt 20% für jede Liegenschaft
@@ -407,7 +409,10 @@ positionen:
     zitat: Für jede Liegenschaft, für welche die tatsächlichen Aufwendungen geltend gemacht werden,
   - chunk: zh-wl-2026-uj__c0199
     zitat: Zusätzlich zu den Unterhalts- und Verwaltungskosten können (bei der Staats- und direkten
-  status: extrahiert
+  - chunk: bund-lkv__art-5
+    zitat: 'wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags'
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: Bund-Pauschale (10%/20% nach Gebäudealter, LKV) ergänzt; die ZH-Wegleitung nennt nur 20%.'
 - ziffer: '6'
   abschnitt: Einkünfte
   bezeichnung: Nettoertrag aus Liegenschaften – Energiespar-/Umweltschutzinvestitionen und Rückbaukosten (im Netto-Code 188 enthalten)
@@ -422,7 +427,7 @@ positionen:
     zitat: Den abzugsfähigen Unterhaltskosten gleichgestellt sind Aufwendungen für Massnahmen, wel-
   - chunk: zh-wl-2026-uj__c0194
     zitat: abzugsfähig sind Rückbaukosten für einen Ersatzneubau.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '7'
   abschnitt: Einkünfte
   bezeichnung: Total der Einkünfte, Übertrag auf Seite 3 Ziff. 19 (Code 199)
@@ -433,7 +438,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0006
     zitat: 7. Total der Einkünfte, zu übertragen auf Seite 3, Ziffer 19 199
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 11.1 / 11.2
   abschnitt: Abzüge
   bezeichnung: Berufsauslagen bei unselbständiger Erwerbstätigkeit, Person 1 (Code 220) / Person 2 (Code 240)
@@ -450,7 +455,7 @@ positionen:
     zitat: 11. Berufsauslagen bei unselbständiger Erwerbstätigkeit
   - chunk: zh-wl-2026-uj__c0057
     zitat: 6. Total der Berufsauslagen 220
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 360 Ziff. 1.1
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten – Abonnementskosten öffentliche Verkehrsmittel (Code 201)
@@ -469,7 +474,7 @@ positionen:
     zitat: bei ständiger Benützung öffentlicher Verkehrsmittel (Bahn, Schiff, Strassenbahn, Autobus) die notwendigen Abonnementskosten
   - chunk: bund-wl-lohnausweis-2026__c0010
     zitat: Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer keine Kosten für den Arbeitsweg
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 360 Ziff. 1.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten – Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal (Code 202)
@@ -482,7 +487,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0055
     zitat: 1.2 Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 360 Ziff. 1.3
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten – privates Auto/Motorrad (weisses Kontrollschild), Kilometeransatz (Code 204)
@@ -504,7 +509,7 @@ positionen:
     zitat: für Auto 75 Rp. pro Fahrkilometer.
   - chunk: zh-wl-2026-uj__c0021
     zitat: der Fahrkostenabzug für Automobile pro Kilometer von CHF 0.70 auf CHF 0.75 angehoben worden
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Bei der direkten Bundessteuer dieselben Ansätze laut Formular 360 (Spalte Bund).
 - ziffer: Form. 360 Ziff. 1 (Zwischentotal)
   abschnitt: Hilfsblatt Berufskosten
@@ -526,7 +531,7 @@ positionen:
     zitat: Bei der direkten Bundessteuer ist der Fahrkostenabzug auf CHF 3’300 beschränkt.
   - chunk: zh-wl-2026-uj__c0060
     zitat: Arbeitnehmende, die über ein Geschäftsfahrzeug verfügen, können keine Fahrkosten in Ab-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 360 Ziff. 7
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Begründung für die Benützung eines privaten Motorfahrzeugs (Codes 2041–2044)
@@ -538,7 +543,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0058
     zitat: Fehlen eines öffentlichen Verkehrsmittels (siehe Wegleitung) 2041
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 360 Ziff. 2.1 (verbilligt)
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Mehrkosten Verpflegung bei verbilligter Verpflegung durch den Arbeitgeber (Code 206)
@@ -558,7 +563,7 @@ positionen:
     zitat: – wenn die Verpflegung durch den Arbeitgeber verbilligt wird (Kantine, Personalrestaurant,
   - chunk: bund-wl-lohnausweis-2026__c0012
     zitat: Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten Buchstabe G
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 360 Ziff. 2.1 (voll)
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Mehrkosten Verpflegung bei voller Verpflegung zu Lasten des Arbeitnehmers (Code 208)
@@ -574,7 +579,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0061
     zitat: – wenn die Verpflegung in andern Gaststätten voll zu Lasten des Arbeitnehmers geht,
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 360 Ziff. 2.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Mehrkosten Verpflegung bei Schicht-/Nachtarbeit (Code 210)
@@ -592,7 +597,7 @@ positionen:
     zitat: 2.2 Bei durchgehender, mindestens achtstündiger Schicht- oder Nachtarbeit, pro aus-
   - chunk: bund-wl-lohnausweis-2026__c0051
     zitat: die Anzahl im Kalenderjahr geleisteter Schichttage und die Höhe der im
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 360 Ziff. 3
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Übrige Berufskosten – pauschal 3% (Code 212) bzw. effektiv (Code 213)
@@ -613,7 +618,7 @@ positionen:
     zitat: 3% des Nettolohnes gemäss Lohnausweis, mindestens jedoch CHF 2’000
   - chunk: zh-wl-2026-uj__c0064
     zitat: so sind diese Berufsauslagen in vollem Umfange nachzuweisen.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 360 Ziff. 4
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Zusätzliche Mehrkosten bei auswärtigem Wochenaufenthalt (Code 2860)
@@ -631,8 +636,9 @@ positionen:
     zitat: Als Mehrkosten für auswärtige Unterkunft kann der Mietzins für ein Zimmer abgezogen werden.
   - chunk: zh-wl-2026-uj__c0066
     zitat: bei ganzjährigem Wochenaufenthalt CHF 3’200 im Jahr abgezogen werden
-  status: extrahiert
-  bemerkung: Code 2860 aus der Formularzeile; im PDF-Layout steht daneben Code 213 (effektive übrige Berufskosten) – Zuordnung am Original prüfen.
+  status: agent-geprueft
+  bemerkung: 'Code 2860 aus der Formularzeile; im PDF-Layout steht daneben Code 213 (effektive übrige Berufskosten) – Zuordnung am Original prüfen. Hinweis Prüfung: ZH-Wegleitung nennt nur CHF 15/Abendessen
+    bzw. 3''200 pro Jahr; Bundes-Wert laut data/werte/bund/2026.yaml (CHF 30/Tag, 6''400) weicht ab – für die Bundessteuer am Original prüfen.'
 - ziffer: Form. 360 Ziff. 5
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Auslagen bei Nebenerwerb – pauschal 20% (Code 216) bzw. effektiv (Code 217)
@@ -648,7 +654,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0067
     zitat: 20% der Einkünfte aus allen Nebenbeschäftigungen, insgesamt mindestens jedoch CHF 800 und höchstens CHF 2’400
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '12'
   abschnitt: Abzüge
   bezeichnung: Schuldzinsen (soweit nicht schon unter Ziff. 2 abgezogen) (Code 250)
@@ -667,7 +673,7 @@ positionen:
     zitat: mögen (inkl. Eigenmietwert) und weiterer CHF 50’000 nicht übersteigen.
   - chunk: zh-wl-2026-uj__c0068
     zitat: abzugsberechtigt sind Amortisationen (Schuldrückzahlungen) sowie Leasingraten (mit den
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '13.1'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge an den geschiedenen oder getrennt lebenden Ehegatten/Partner (Code 254)
@@ -681,7 +687,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0070
     zitat: Ehegatten persönlich bestimmt sind, können voll abgezogen werden.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '13.2'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (bis zum Monat der Volljährigkeit) (Code 255)
@@ -694,7 +700,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0070
     zitat: Für Kinder bestimmte Unterhaltsbeiträge (Alimente) können bis und mit dem Monat abgezogen werden, in dem das Kind das 18. Altersjahr erreicht.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '13.3'
   abschnitt: Abzüge
   bezeichnung: 'Rentenleistungen – abzugsfähig: Ertragsanteil (Code 256, Vorkolonne 2561)'
@@ -733,7 +739,7 @@ positionen:
     zitat: die einer Einrichtung der beruflichen Vorsorge (2. Säule) angehören, höchstens CHF 7’258;
   - chunk: zh-wl-2026-uj__c0076
     zitat: Es dürfen nur die tatsächlich im Jahr 2026 bezahlten Prämien/Beiträge oder Einlagen ab-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '14.3'
   abschnitt: Abzüge
   bezeichnung: Einkauf Säule 3a (neu ab 2026), Person 1 (Code 276) / Person 2 (Code 278), Hauptkolonne Code 264
@@ -753,7 +759,7 @@ positionen:
     zitat: in jedem Fall aber maximal CHF 7’258.
   - chunk: zh-wl-2026-uj__c0020
     zitat: auch Einkäufe getätigt werden für Beitragslücken, die ab dem 1.1.2025 entstanden sind
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '15'
   abschnitt: Abzüge
   bezeichnung: Versicherungsprämien, Zinsen von Sparkapitalien (Code 270)
@@ -783,7 +789,7 @@ positionen:
     zitat: CHF 2’900 für alle übrigen Steuerpflichtigen.
   - chunk: zh-wl-2026-uj__c0082
     zitat: CHF 3’700 für verheiratete Personen in rechtlich und tatsächlich ungetrennter Ehe.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 365 Teil A (Ziff. 1–6)
   abschnitt: Hilfsblatt Versicherungsprämien
   bezeichnung: Bezahlte Versicherungsprämien und Zinsen von Sparkapitalien (Codes 601–607, Total A 606)
@@ -801,7 +807,7 @@ positionen:
     zitat: 6. Abzüglich erhaltene Prämienverbilligungen 605
   - chunk: zh-wl-2026-uj__c0078
     zitat: Der zulässige Abzug für Versicherungsprämien und Sparzinsen ist im Formular Versicherungs-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 365 Teil B (Ziff. 1–3)
   abschnitt: Hilfsblatt Versicherungsprämien
   bezeichnung: Maximaler Abzug für Versicherungsprämien und Sparzinsen (Codes 611–616)
@@ -824,7 +830,7 @@ positionen:
     zitat: 'Zusätzlicher Abzug für jedes Kind Anzahl: 1’300 700 613'
   - chunk: zh-wl-2026-uj__c0081
     zitat: 'Der niedrigere Betrag: (A) oder (B) 270'
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '16.1'
   abschnitt: Abzüge
   bezeichnung: Beiträge an die AHV, IV und 2. Säule, sofern nicht unter Ziff. 1 und 2 abgezogen (Code 280)
@@ -843,7 +849,7 @@ positionen:
     zitat: die berufliche Vorsorge, sind nicht durch den Arbeitgeber im Lohnausweis, sondern durch die Vorsorgeeinrichtung separat mit dem Formular 21 EDP zu bescheinigen.
   - chunk: bund-wl-lohnausweis-2026__c0036
     zitat: Beiträge für den Einkauf von fehlenden Versicherungsjahren oder von fehlendem Spar-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '16.1'
   abschnitt: Abzüge
   bezeichnung: AHV/IV-Beiträge, soweit nicht im Lohnausweis gekürzt (z.B. Nichterwerbstätige) (Code 280)
@@ -856,7 +862,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0088
     zitat: • Beiträge an die AHV und IV, soweit die unter Ziffern 1 und 2 der Steuererklärung deklarierten
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '16.2'
   abschnitt: Abzüge
   bezeichnung: Berufsorientierte Aus- und Weiterbildungskosten (Code 292)
@@ -876,7 +882,7 @@ positionen:
     zitat: betrag von CHF 12’600 bei der Staatssteuer bzw. CHF 13’000 bei der Bundessteuer, sofern ein
   - chunk: bund-wl-lohnausweis-2026__c0048
     zitat: die dem Arbeitnehmer vergütet werden. Nicht anzugeben sind Vergütungen, die direkt an Dritte (z. B. Bildungsinstitut) bezahlt werden.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 367
   abschnitt: Hilfsblatt Weiterbildung
   bezeichnung: 'Berufsorientierte Aus- und Weiterbildungskosten: Total Kosten (2900/2903), Beitrag Arbeitgeber/Dritte (2901/2904), selbstgetragene Kosten (2902/2905), zulässiger Abzug (2920/2921) → Code
@@ -894,7 +900,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0090
     zitat: Beitrag Arbeitgeber oder weiterer Stellen (Bund, Branchenverbände etc.) 2901 / 2904
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Personenzuordnung der Codes 2900–2905 (Spaltenfolge) am Original prüfen.
 - ziffer: '16.3'
   abschnitt: Abzüge
@@ -911,7 +917,7 @@ positionen:
     zitat: können 3‰ des Steuerwerts dieser durch Dritte verwalteten Wertschriften, maximal
   - chunk: zh-wl-2026-uj__c0090
     zitat: Bei beweglichem Privatvermögen können die Kosten der Verwaltung durch Dritte und die weder
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '16.4'
   abschnitt: Abzüge
   bezeichnung: Behinderungsbedingte Kosten (Code 3160)
@@ -927,7 +933,7 @@ positionen:
     zitat: Wenn Sie einen solchen Abzug beanspruchen, füllen Sie das Formular «Aufstellung über
   - chunk: zh-stg-2026__par-31-t3
     zitat: soweit der Steuerpflichtige die Kosten selber trägt
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 16.5 (Parteien)
   abschnitt: Abzüge
   bezeichnung: Weitere Abzüge – Mitgliederbeiträge und Zuwendungen an politische Parteien (Code 284)
@@ -946,7 +952,7 @@ positionen:
     zitat: Höchstbetrag von CHF 21’000 für in ungetrennter Ehe lebende Steuerpflichtige und von
   - chunk: zh-wl-2026-uj__c0098
     zitat: Der Höchstbetrag für solche Abzüge beträgt CHF 10’600.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 16.5 (Teilbesteuerung)
   abschnitt: Abzüge
   bezeichnung: Weitere Abzüge – Teilbesteuerungsabzug qualifizierte Beteiligungen (Code 284, Aufstellung)
@@ -963,7 +969,7 @@ positionen:
     zitat: für qualifizierte Beteiligungen im Privatvermögen beträgt 50%,
   - chunk: zh-wl-2026-uj__c0100
     zitat: qualifizierte Beteiligungen im Privatvermögen beträgt 30%,
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 16.5 (übrige)
   abschnitt: Abzüge
   bezeichnung: Weitere Abzüge – Liquidationsgewinne, Geldspiel-Einsatzkosten u.a. (Code 284)
@@ -981,7 +987,7 @@ positionen:
     zitat: stille Reserven (Liquidationsgewinne), die in den letzten zwei Geschäftsjahren realisiert worden
   - chunk: zh-wl-2026-uj__c0102
     zitat: tens CHF 5’200 (Staatssteuer) bzw. CHF 5’400 (Bundessteuer), als Einsatzkosten abgezogen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '16.6'
   abschnitt: Abzüge
   bezeichnung: Abzug für fremdbetreute Kinder (Jahrg. 2012–2026) (Code 376)
@@ -1003,7 +1009,7 @@ positionen:
     zitat: 'Kinderdrittbetreuungskosten: Der Abzug beträgt höchstens CHF 25’300 (Staatssteuer) bzw.'
   - chunk: zh-wl-2026-uj__c0107
     zitat: Der halbe Abzug beträgt je höchstens CHF 12’650 (Staatssteuer) bzw. CHF 12’900
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '17'
   abschnitt: Abzüge
   bezeichnung: Sonderabzug bei Erwerbstätigkeit beider Ehegatten/Partner (Zweiverdienerabzug) (Code 290)
@@ -1024,7 +1030,7 @@ positionen:
     zitat: 'Der Abzug beträgt max. CHF 6’200 und steht wie folgt zu:'
   - chunk: zh-wl-2026-uj__c0110
     zitat: jedoch mind. CHF 8’600 und max. CHF 14’100;
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '18'
   abschnitt: Abzüge
   bezeichnung: Total der Abzüge, zu übertragen in Ziffer 20 (Code 299)
@@ -1035,7 +1041,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0008
     zitat: 18. Total der Abzüge, zu übertragen in Ziffer 20 299
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '19'
   abschnitt: Einkommensberechnung
   bezeichnung: Total der Einkünfte, Übertrag von Seite 2 Ziffer 7 (Code 199)
@@ -1046,7 +1052,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0009
     zitat: 19. Total der Einkünfte Übertrag von Seite 2, Ziffer 7 199
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '20'
   abschnitt: Einkommensberechnung
   bezeichnung: Total der Abzüge, Übertrag von Ziffer 18 (Code 299)
@@ -1057,7 +1063,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0009
     zitat: 20. Total der Abzüge Übertrag von Ziffer 18 299
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '21'
   abschnitt: Einkommensberechnung
   bezeichnung: Nettoeinkommen (Code 310)
@@ -1068,7 +1074,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0009
     zitat: 21. Nettoeinkommen 310
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '22.1'
   abschnitt: Einkommensberechnung
   bezeichnung: Krankheits- und Unfallkosten (Code 320)
@@ -1089,7 +1095,7 @@ positionen:
     zitat: wollen, müssen mit der Steuererklärung das vollständig ausgefüllte Formular «Aufstellung über
   - chunk: zh-wl-2026-uj__c0119
     zitat: CHF 2500 geltend gemacht wer-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 370 Teil A–E
   abschnitt: Hilfsblatt Krankheitskosten
   bezeichnung: 'Aufstellung über Krankheits- und Unfallkosten: A Aufwendungen (300–307, Total 317), B Vergütungen Dritter (308, 311, 312, Total 318), C Auslagen netto (314), D Pauschale (315), E Berechnung
@@ -1110,7 +1116,7 @@ positionen:
     zitat: 1. Selbstbehalt gemäss Abrechnung Krankenkasse und Versicherung 300
   - chunk: zh-wl-2026-uj__c0120
     zitat: abzüglich Selbstbehalt (5% von Ziffer 21 der
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '22.2'
   abschnitt: Einkommensberechnung
   bezeichnung: Gemeinnützige Zuwendungen (Code 324)
@@ -1132,7 +1138,7 @@ positionen:
     zitat: des Nettoeinkommens (Ziffer 21 der Steuererklärung) nicht übersteigen.
   - chunk: zh-wl-2026-uj__c0120
     zitat: Wir bitten Sie, der Steuererklärung eine Aufstellung über gemeinnützige Zuwendungen bei-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '23'
   abschnitt: Einkommensberechnung
   bezeichnung: Reineinkommen (Ziffer 21 abzüglich Ziffern 22.1 und 22.2) (Code 350)
@@ -1143,7 +1149,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0009
     zitat: (Ziffer 21 abzüglich Ziffern 22.1 und 22.2) 350
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '24.1'
   abschnitt: Einkommensberechnung
   bezeichnung: Abzug für Kinder in Ihrem Haushalt (Code 370) und ausserhalb Ihres Haushaltes (Code 372)
@@ -1170,7 +1176,7 @@ positionen:
     zitat: pro Kind (CHF 4’700) pro Kind (CHF 3’400)
   - chunk: zh-stg-2026__par-34
     zitat: je Fr. 9400
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '24.2'
   abschnitt: Einkommensberechnung
   bezeichnung: Abzug für unterstützte Personen (Code 374)
@@ -1189,7 +1195,7 @@ positionen:
     zitat: 'Der Abzug kann nicht gewährt werden:'
   - chunk: zh-wl-2026-uj__c0134
     zitat: des Unterstützungsabzuges von CHF 2’800
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '24.3'
   abschnitt: Einkommensberechnung
   bezeichnung: Abzug für Ehegatten/Partner – nur Bundessteuer (Code 365)
@@ -1205,7 +1211,7 @@ positionen:
     zitat: 24.3 Abzug für Ehegatten / Partn.
   - chunk: zh-wl-2026-uj__c0134
     zitat: Steuerpflichtigen einen Verheiratetenabzug von CHF 2’800.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '25'
   abschnitt: Einkommensberechnung
   bezeichnung: Steuerbares Einkommen gesamt (Ziffer 23 abzüglich Ziff. 24.1 bis 24.3) (Code 390)
@@ -1216,7 +1222,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0010
     zitat: 25. Steuerbares Einkommen gesamt (Ziffer 23 abz. Ziff. 24.1 bis 24.3) 390
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 26.1 / 26.2
   abschnitt: Einkommensberechnung
   bezeichnung: Auf steuerbare Einkünfte in anderen Kantonen (Code 394) / im Ausland (Code 396) entfallender Anteil
@@ -1229,7 +1235,7 @@ positionen:
     zitat: 26.1 Auf steuerbare Einkünfte in anderen Kantonen 394
   - chunk: zh-form-300-2026-uj__c0010
     zitat: 26.2 Auf steuerbare Einkünfte im Ausland 396
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '27'
   abschnitt: Einkommensberechnung
   bezeichnung: Steuerbares Einkommen im Kanton Zürich bzw. in der Schweiz (Code 398)
@@ -1240,7 +1246,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0010
     zitat: 27. Steuerbares Einkommen im Kanton Zürich bzw. in der Schweiz 398
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.1'
   abschnitt: Vermögen
   bezeichnung: Wertschriften und Guthaben (Code 400)
@@ -1260,7 +1266,7 @@ positionen:
     zitat: Kryptowährungen wie Bitcoin sind zum Marktwert zu deklarieren.
   - chunk: zh-wl-2026-uj__c0155
     zitat: Leistungen steuerfrei und nicht im Wertschriftenverzeichnis aufzuführen.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 340 (Kolonnen A/B, Codes)
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: 'Wertschriften- und Guthabenverzeichnis mit Verrechnungsantrag: Kolonne A (mit Verrechnungssteuerabzug), Kolonne B (ohne); Codes G, N, E, S, Q'
@@ -1281,7 +1287,7 @@ positionen:
     zitat: mit Q Beteiligungen von mindestens 10 Prozent am Aktien-, Grund- oder Stammkapital an
   - chunk: zh-wl-2026-uj__c0155
     zitat: ob die Verrechnungssteuer abgezogen wurde oder nicht, entweder in der Kolonne A oder Kolonne B einzutragen.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 340 (Verrechnungsantrag / DA-1)
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: Verrechnungsantrag (Rückerstattung Verrechnungssteuer, Kolonne A) und Formular DA-1 (ausländische Quellensteuern)
@@ -1297,7 +1303,7 @@ positionen:
     zitat: allen unter Kolonne A angegebenen Erträgen die eidg. Verrechnungssteuer zu meinen oder zu Lasten der von mir vertretenen
   - chunk: zh-wl-2026-uj__c0169
     zitat: Die Totalbeträge des DA-1 übertragen Sie in die Zeile «Übertrag ab Formular DA-1» im
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.2'
   abschnitt: Vermögen
   bezeichnung: Bargeld, Gold und andere Edelmetalle (Code 404)
@@ -1308,7 +1314,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0137
     zitat: Ausländische Banknoten, Goldmünzen und Edelmetalle sind zum Tageskurs anzugeben.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.3'
   abschnitt: Vermögen
   bezeichnung: Lebens- und Rentenversicherungen (Steuerwert gem. Bescheinigung der Versicherungsgesellschaft) (Code 406)
@@ -1323,7 +1329,7 @@ positionen:
     zitat: Der Vermögenssteuerwert von Lebensversicherungen richtet sich nach dem Steuerwert. Dabei
   - chunk: zh-wl-2026-uj__c0138
     zitat: abgeschlossene Vorsorgepolicen sind bis zur Fälligkeit der Versicherungssumme steuerfrei.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.4'
   abschnitt: Vermögen
   bezeichnung: Motorfahrzeuge (Kaufpreis, Kaufjahr) (Code 412)
@@ -1335,18 +1341,18 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0139
     zitat: beträgt die Wertverminderung pro Jahr 40% des Restwertes.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.5'
   abschnitt: Vermögen
   bezeichnung: Geschäfts-/Korporationsanteile (Code 414)
   key: vermoegen.erbschaften_beteiligungen
   belege: []
   feld: Aufstellung über Kapital und Ertrag; Beteiligungsquote
-  regel: 'Anteilmässig entsprechend der Beteiligungsquote deklarieren. Anteile an unverteilten Erbschaften: Deklarationshinweise und Aufstellung gemäss WL.'
+  regel: Anteilmässig entsprechend der Beteiligungsquote deklarieren; Aufstellung über Kapital und Ertrag beilegen.
   quellen:
   - chunk: zh-wl-2026-uj__c0139
     zitat: Geschäfts- und Korporationsanteile sind von den Inhabern anteilmässig entsprechend ihrer
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.6'
   abschnitt: Vermögen
   bezeichnung: Übrige Vermögenswerte, nähere Bezeichnung (Code 416)
@@ -1357,7 +1363,7 @@ positionen:
   quellen:
   - chunk: zh-wl-2026-uj__c0139
     zitat: Der Hausrat ist steuerfrei.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '31.1'
   abschnitt: Vermögen
   bezeichnung: Liegenschaften, zum Verkehrswert besteuert, gemäss Neufestsetzung ab 1.1.2026 (Code 421)
@@ -1374,7 +1380,7 @@ positionen:
     zitat: ist der nach der «Weisung des Regierungsrates an die Steuerbehörden über die Bewertung
   - chunk: zh-wl-2026-uj__c0213
     zitat: Bei Liegenschaften, auf denen ein Wohnrecht lastet, ist der Vermögenssteuerwert zu 100%
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Spaltenzuordnung der Codes 553x/554x im Liegenschaftenverzeichnis (Ertragswert/Verkehrswert) am Original prüfen.
 - ziffer: '31.2'
   abschnitt: Vermögen
@@ -1389,7 +1395,7 @@ positionen:
     zitat: 31.2 Zum Ertragswert besteuert (Land- oder Forstwirtschaft) Liegenschaftenverzeichnis 422
   - chunk: zh-wl-2026-uj__c0213
     zitat: Das Total der Vermögenssteuerwerte aller übrigen Liegenschaften ist auf Seite 4, Ziffer 31.1 der
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 350
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: 'Liegenschaftenverzeichnis: Steuerwert (Codes 5531ff / 5541ff), Eigenmietwert/Mietzinseinnahmen, Unterhalt (pauschal/effektiv), Nettoertrag aus Liegenschaften (Code 3953), Übertrag weitere
@@ -1407,9 +1413,9 @@ positionen:
   - chunk: zh-wl-2026-uj__c0177
     zitat: Nettoertrag aus Liegenschaften 3953
   - chunk: zh-wl-2026-uj__c0173
-    zitat: Liegenschaftenverzeichnis – alle Liegenschaften inkl. andere Kantone und Ausland
-  status: offen
-  bemerkung: Chunktitel statt Fliesstext zitiert; Detailregeln in c0172/c0173 bei Bedarf direkt prüfen.
+    zitat: Es sind alle Liegenschaften zu deklarieren, auch jene in anderen Kantonen oder
+  status: extrahiert
+  bemerkung: 'korrigiert durch Prüfung: Zitate durch wörtliche Textstellen (Code 3953; Deklarationspflicht aller Liegenschaften) ersetzt. Detailregeln in c0172/c0173 bei Bedarf direkt prüfen.'
 - ziffer: '32'
   abschnitt: Vermögen
   bezeichnung: Eigenkapital Selbständigerwerbender ohne Geschäftswertschriften (Code 430)
@@ -1423,7 +1429,7 @@ positionen:
     zitat: 32. Eigenkapital Selbständigerwerbender ohne Geschäftswertschriften Hilfsblatt A 430
   - chunk: zh-wl-2026-uj__c0140
     zitat: Selbständigerwerbende mit kaufmännischer Buchführung übertragen das Eigenkapital laut
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '33'
   abschnitt: Vermögen
   bezeichnung: Total der Vermögenswerte (Code 460)
@@ -1434,7 +1440,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0012
     zitat: 33. Total der Vermögenswerte 460
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '34'
   abschnitt: Vermögen
   bezeichnung: Schulden (Code 470)
@@ -1453,7 +1459,7 @@ positionen:
     zitat: Werden Schulden deklariert, ist ein vollständiges Schuldenverzeichnis mit der Steuererklärung
   - chunk: zh-wl-2026-uj__c0070
     zitat: Total Privatschulden / private Schuldzinsen 3200 / 3201
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '35'
   abschnitt: Vermögen
   bezeichnung: Steuerbares Vermögen gesamt (Code 490)
@@ -1464,7 +1470,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0012
     zitat: 35. Steuerbares Vermögen gesamt 490
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 36.1 / 36.2
   abschnitt: Vermögen
   bezeichnung: Auf steuerbare Vermögenswerte in anderen Kantonen (Code 494) / im Ausland (Code 496) entfallender Anteil
@@ -1477,7 +1483,7 @@ positionen:
     zitat: 36.1 Auf steuerbare Vermögenswerte in anderen Kantonen 494
   - chunk: zh-form-300-2026-uj__c0012
     zitat: 36.2 Auf steuerbare Vermögenswerte im Ausland 496
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '37'
   abschnitt: Vermögen
   bezeichnung: Steuerbares Vermögen im Kanton Zürich (Code 498)
@@ -1488,7 +1494,7 @@ positionen:
   quellen:
   - chunk: zh-form-300-2026-uj__c0012
     zitat: 37. Steuerbares Vermögen im Kanton Zürich 498
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: (Tarif § 47)
   abschnitt: Vermögen
   bezeichnung: Steuerfreie Vermögensbeträge (kein Formularfeld; im Tarif berücksichtigt)
@@ -1505,7 +1511,7 @@ positionen:
     zitat: 0‰ für die ersten Fr. 81 000
   - chunk: zh-stg-2026__par-47-t2
     zitat: 0‰ für die ersten Fr. 161 000
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '40'
   abschnitt: Weitere Angaben
   bezeichnung: Kapitalleistungen aus AHV/IV, 2. Säule, Freizügigkeitskonto/-police, Säule 3a, Kapitalzahlungen bei Tod oder bleibenden Nachteilen (Code 510)
@@ -1526,7 +1532,7 @@ positionen:
     zitat: ausgerichtet würde; die einfache Staatssteuer beträgt jedoch mindestens 2%.
   - chunk: zh-wl-2026-uj__c0145
     zitat: Die Steuer wird zu einem Fünftel der Tarife nach Artikel 36 Abs. 1 und 2 DBG berechnet.
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 50.1 / 50.2
   abschnitt: Weitere Angaben
   bezeichnung: 'Schenkungen, Erbvorbezüge, Erbschaften, Beteiligung an Erbengemeinschaften: erhalten (Code 516) / ausgerichtet (Code 519)'
@@ -1541,4 +1547,4 @@ positionen:
     zitat: '50.1 Am T T M M 2026 erhalten von Wert: 516'
   - chunk: zh-wl-2026-uj__c0148
     zitat: bei Gelegenheitsgeschenken, die den Wert von je CHF 5’000 nicht übersteigen.
-  status: extrahiert
+  status: agent-geprueft

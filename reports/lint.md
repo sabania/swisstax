@@ -1,52 +1,38 @@
 # Lint-Bericht (2026-11-09)
 
-- Quellen: 282 · Chunks: 8798 · geprüfte Links: 10064
-- Fehler: 29 · Warnungen: 18
+- Quellen: 285 · Chunks: 8876 · geprüfte Links: 14083
+- Fehler: 13 · Warnungen: 18
 
 ## Status der Daten (Werte/Zuordnungen)
 
-- belege · extrahiert: 44
-- belege · strittig: 1
-- werte · extrahiert: 540
-- werte · na: 130
-- werte · offen: 46
-- werte · strittig: 4
-- zuordnung · extrahiert: 711
+- belege · agent-geprueft: 41
+- belege · extrahiert: 4
+- werte · agent-geprueft: 501
+- werte · extrahiert: 60
+- werte · na: 131
+- werte · offen: 25
+- werte · strittig: 3
+- zuordnung · agent-geprueft: 508
+- zuordnung · extrahiert: 206
 - zuordnung · na: 1
-- zuordnung · offen: 3
+- zuordnung · offen: 2
 - zuordnung · strittig: 7
 
 ## Fehler
 
-- D1 data/werte/sg/2025.yaml:versicherung.verheiratet: Zitat nicht im Chunk sg-wl-2025__c0097 gefunden: «Maximaler Abzug   Fr.   6’800   Fr.   3’400»
-- D1 data/werte/sg/2025.yaml:versicherung.alleinstehend: Zitat nicht im Chunk sg-wl-2025__c0097 gefunden: «Maximaler Abzug   Fr.   6’800   Fr.   3’400»
-- D1 data/werte/tg/2025.yaml:liegenschaft.eigenmietwert_abzug: Zitat nicht im Chunk tg-wl-2025__c0231 gefunden: «kantonal einen Abzug von 40% und beim Bund von 20% vornehmen»
-- D1 data/werte/zh/2025.yaml:verfahren.abgabeweg: Zitat nicht im Chunk zh-zstb-133-1-aufforderung-2026__c0005 gefunden: «online (www.zh.ch/steuererklaerung) oder dem Scan-Center einzureichen»
-- D1 data/zuordnung/ar/2025.yaml:einkommen.selbstaendig: Zitat nicht im Chunk ar-wl-2025__c0029 gefunden: «112 13213211»
-- D1 data/zuordnung/ar/2025.yaml:einkommen.vorsorge.renten: Zitat nicht im Chunk ar-wl-2025__c0054 gefunden: «100 % in allen andern Fällen»
-- D1 data/zuordnung/ar/2025.yaml:vermoegen.bargeld_edelmetalle: Zitat nicht im Chunk ar-wl-2025__c0112 gefunden: «302»
-- D1 data/zuordnung/sg/2025.yaml:abzug.versicherungspraemien: Zitat nicht im Chunk sg-wl-2025__c0097 gefunden: «Maximaler Abzug Fr. 6’800 Fr. 3’400»
-- D1 data/zuordnung/tg/2025.yaml:sozialabzug.kinder: Zitat nicht im Chunk tg-wl-2025__c0009 gefunden: «für jedes übrige Kind   Fr. 7'400   Fr. 6'800»
-- D1 data/zuordnung/tg/2025.yaml:abzug.versicherungspraemien: Zitat nicht im Chunk tg-wl-2025__c0007 gefunden: «Fr. 3'500   Fr. 1'800»
-- D1 data/zuordnung/tg/2025.yaml:einkommen.wertschriften: Zitat nicht im Chunk tg-form-02-2025__c0006 gefunden: «Detailverzeichnis Wertschriften und Guthaben»
-- D1 data/zuordnung/tg/2026.yaml:einkommen.wertschriften: Zitat nicht im Chunk tg-form-02-2026__c0006 gefunden: «Detailverzeichnis Wertschriften und Guthaben»
-- L1 index.md: Link nicht auflösbar: quick/index.md
-- L1 index.md: Link nicht auflösbar: quick/belege-relevanz.md
-- L1 index.md: Link nicht auflösbar: quick/zuordnung-ar-2025.md
-- L1 index.md: Link nicht auflösbar: quick/zuordnung-sg-2025.md
-- L1 index.md: Link nicht auflösbar: quick/zuordnung-tg-2025.md
-- L1 index.md: Link nicht auflösbar: quick/zuordnung-zh-2025.md
-- L1 index.md: Link nicht auflösbar: quick/vergleich-2025.md
-- L1 index.md: Link nicht auflösbar: quick/vergleich-2026.md
 - L1 index.md: Link nicht auflösbar: wiki/bund/bund-ueberblick.md
 - L1 index.md: Link nicht auflösbar: wiki/ar/ar-ueberblick.md
 - L1 index.md: Link nicht auflösbar: wiki/sg/sg-ueberblick.md
 - L1 index.md: Link nicht auflösbar: wiki/tg/tg-ueberblick.md
 - L1 index.md: Link nicht auflösbar: wiki/zh/zh-ueberblick.md
-- L1 README.md: Link nicht auflösbar: quick/belege-relevanz.md
-- L1 README.md: Link nicht auflösbar: quick/index.md
 - L1 AGENTS.md: Link nicht auflösbar: ../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0042.md
-- L1 wiki/themen/index.md: Link nicht auflösbar: ../../quick/index.md
+- L1 quick/index.md: Link nicht auflösbar: ../wiki/bund/bund-ueberblick.md
+- L1 quick/index.md: Link nicht auflösbar: ../wiki/ar/ar-ueberblick.md
+- L1 quick/index.md: Link nicht auflösbar: ../wiki/sg/sg-ueberblick.md
+- L1 quick/index.md: Link nicht auflösbar: ../wiki/tg/tg-ueberblick.md
+- L1 quick/index.md: Link nicht auflösbar: ../wiki/zh/zh-ueberblick.md
+- L1 quick/index.md: Link nicht auflösbar: ../wiki/themen/fristen-verfahren.md
+- L1 quick/belege-relevanz.md: Link nicht auflösbar: ../data/belege.yaml
 
 ## Warnungen
 

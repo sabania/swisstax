@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0022
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 4.3.1 Assistenzkosten, Haushaltshilfe"
 ziffer: "4.3.1"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8
+> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8
 
 4.3   Kategorien
 Als behinderungsbedingte Kosten gelten insbesondere:

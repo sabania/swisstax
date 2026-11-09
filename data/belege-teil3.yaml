@@ -27,8 +27,8 @@ belege:
   kantone:
     TG: 'Alle im Jahr erhaltenen Kapitalleistungen auf Seite 4 unten deklarieren und die Quelle ankreuzen; sie sind immer zu 100% steuerbar. Kanton: einheitlicher Satz auf der einfachen Steuer (Alleinstehende
       2,4%, gemeinsam besteuerte Personen 2%), Bund: 1/5 des ordentlichen Tarifs, kein Elterntarif (WL TG 2025 S. 28).'
-    ZH: Kapitalleistungen aus Vorsorge werden gesondert zum Satz berechnet, der sich bei einer jährlichen Leistung von einem Zehntel der Kapitalleistung ergäbe (Zürcher Steuerbuch 173.1 Rz 55); Eintrag
-      auf Seite 4, Ziffer 40. Provisorische Steuerrechnung ist möglich, fällig erst mit der definitiven Rechnung.
+    ZH: 'Kapitalleistungen aus Vorsorge werden gesondert zu dem Satz berechnet, der sich bei einer jährlichen Leistung von einem ZWANZIGSTEL der Kapitalleistung ergäbe; einfache Staatssteuer mindestens
+      2% (§ 37 Abs. 1 StG ZH; WL ZH 2025 S. 22–23). Bund: ein Fünftel der Tarife. Eintrag auf Seite 4, Ziffer 40 (Aufstellung bei mehreren Leistungen).'
     SG: Ziff. 40.1 (Säule 3a), 40.2 (2. Säule), 40.3 (übrige) sind nur Information (ergänzende Angaben); Gesamtbetrag bei mehreren Leistungen zusammenrechnen. Die separate Besteuerung erfolgt trotzdem.
     AR: 'Ziff. 40.1–40.3 (Kapitalleistungen aus Vorsorge) auf Seite 4 der Steuererklärung; Bescheinigung beilegen. Tarifdetails AR in diesem Wiki nicht verifiziert (Quelle: WL AR 2025 S. 19, layoutbedingt
       schwer lesbar – Original prüfen).'
@@ -37,17 +37,25 @@ belege:
     zitat: Sie unterliegen stets einer vollen Jahressteuer.
   - chunk: bund-dbg-2025__art-38
     zitat: Die Sozialabzüge werden nicht gewährt.
+  - chunk: bund-dbg-2025__art-38
+    zitat: Sie wird zu einem Fünftel der Tarife nach Artikel 36 Absätze 1, 2 und 2bis erster Satz berechnet.
   - chunk: tg-wl-2025__c0131
     zitat: Sie sind immer zu 100% steuerbar.
   - chunk: tg-wl-2025__c0131
     zitat: Bei Alleinstehenden beträgt der einheitliche Satz für die einfache Steuer 2,4%.
-  - chunk: zh-zstb-173-1__c0022
-    zitat: Kapitalleistungen aus Vorsorge (§ 37 StG) werden gesondert vom übrigen Einkommen
   - chunk: sg-wl-2025__c0119
     zitat: Kapitalleistungen werden gesondert vom übrigen Einkommen besteuert.
   - chunk: bund-dbg-2025__art-24-t1
     zitat: wenn sie der Empfänger innert Jahresfrist zum Einkauf in eine Einrichtung der beruflichen Vorsorge
-  status: extrahiert
+  - chunk: zh-stg-2025__par-37
+    zitat: eine jährliche Leistung von einem Zwanzigstel der Kapitalleistung ausgerichtet würde
+  - chunk: zh-wl-2025__c0145
+    zitat: ausgerichtet würde; die einfache Staatssteuer beträgt jedoch mindestens 2%.
+  - chunk: tg-wl-2025__c0132
+    zitat: findet bei Kapitalleistungen aus Vorsorge keine An
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: ZH-Satz Zehntel (ZStB 173.1 Rz 55) -> Zwanzigstel (§ 37 StG ZH 2025 und WL ZH 2025); ZStB 173.1 widerspricht dem Gesetz. Unbelegte Aussage zur provisorischen Rechnung
+    entfernt. AR-Tarif nicht verifiziert.'
 - id: erbschaft-schenkung
   name: Erbschaft/Schenkung (Erbteilungsvertrag, Nachlassinventar, Schenkungsvertrag, Erbbescheinigung)
   erkennen:
@@ -97,7 +105,7 @@ belege:
     zitat: Spalte 1 mit «E» bzw. «S» zu
   - chunk: ar-wl-2025__c0130
     zitat: Bei einer verteilten Erbschaft ist uns zwingend eine Kopie
-  status: extrahiert
+  status: agent-geprueft
 - id: lotteriegewinn
   name: Lotterie-/Lottogewinn-Bescheinigung (Swisslos, Casino, Online-Spielbank, Wettbewerbsgewinn)
   erkennen:
@@ -133,7 +141,8 @@ belege:
     SG: Grossspiele/Online-Spielbank Freibetrag CHF 1'069'800; Verkaufsförderung CHF 1'100. Einsatzkosten 5%, max. CHF 5'400; Online-Spiele max. CHF 26'700 (Ziff. 16.1).
     TG: Grossspiele/Spielbank Freibetrag CHF 1'000'000 (Staat) bzw. CHF 1'070'400 (Bund); Verkaufsförderung Freigrenze CHF 1'000 (Staat) bzw. CHF 1'100 (Bund). Bund-Korrektur erfolgt von Amtes wegen; Anteil
       nur Staats-/Gemeindesteuer in Spalte B des Wertschriftenverzeichnisses. Pauschalabzug Einsatzkosten Ziff. 9 (WL TG 2025).
-    AR: Grossspiele/Online-Spielbank Freibetrag CHF 1 Mio.; Verkaufsförderung CHF 1'000. Einsatzkosten 5%, max. CHF 5'400; Online-Spiele max. CHF 26'800 unter Ziff. 16.6.
+    AR: 'Grossspiele/Online-Spielbank Freibetrag CHF 1 Mio. (Bund: CHF 1''070''400, Art. 24 lit. ibis DBG); Verkaufsförderung CHF 1''000. Einsatzkosten 5%, max. CHF 5''400; Online-Spiele max. CHF 26''800
+      unter Ziff. 16.6.'
   quellen:
   - chunk: bund-dbg-2025__art-24-t3
     zitat: die einzelnen Gewinne bis zum Betrag von 1 070 400 Franken aus der Teilnahme an Grossspielen
@@ -149,7 +158,7 @@ belege:
     zitat: Sobald ein einzelner Gewinn die Steuerfreigrenze übersteigt, ist der gesamte Gewinn steuerbar.
   - chunk: ar-wl-2025__c0138
     zitat: und Geschicklichkeitsspielen zur Verkaufsförderung, wenn > Fr. 1’000.–;
-  status: extrahiert
+  status: agent-geprueft
 - id: selbstaendig-jahresrechnung
   name: Jahresrechnung Selbständigerwerbende (Bilanz, Erfolgsrechnung, Einnahmen-Ausgaben-Rechnung, Privatkonten)
   erkennen:
@@ -170,7 +179,8 @@ belege:
   - Eigenkapital per Bilanzstichtag (Geschäftsvermögen für die Vermögenssteuer)
   - Privatbezüge/-einlagen, Privatanteile (z.B. Fahrzeug, Wohnung) laut Privatkonto
   - Abschreibungen, Rückstellungen, Liquidationsgewinne/Kapitalgewinne separat ausweisen
-  - Beiträge an AHV/IV/EO, 2. Säule und 3a des Selbständigen (nicht im Geschäftsaufwand verbuchen, sondern bei den Abzügen)
+  - 'Beiträge des Selbständigen an die 2. Säule (inkl. Einkäufe) und Säule 3a: nicht in der Erfolgsrechnung, sondern bei den Abzügen (AR Ziff. 13). AHV/IV/EO-Beiträge sind bereits im Reingewinn berücksichtigt
+    und nicht nochmals abzuziehen (TG Ziff. 15.1)'
   hinweise:
   - Bilanzen und Erfolgsrechnungen der im Steuerjahr abgeschlossenen Geschäftsjahre sind zwingend beizulegen; auch bei nebenberuflicher Tätigkeit besteht Buchführungs-/Aufzeichnungspflicht.
   - Fehlt eine eigentliche Jahresrechnung, ist mindestens eine Einnahmen-Ausgaben-Rechnung samt Aktiven/Passiven (Vermögensübersicht) und Privatentnahmen/-einlagen einzureichen.
@@ -196,14 +206,17 @@ belege:
     zitat: bei selbständiger Erwerbstätigkeit Aufstellungen über die Einnahmen und Ausgaben sowie über
   - chunk: ar-wl-2025__c0084
     zitat: dürfen deshalb nicht der Erfolgsrechnung belastet werden.
-  status: extrahiert
+  - chunk: tg-wl-2025__c0093
+    zitat: sind im Reingewinn (Ziff. 2.1 bzw. Ziff. 2.2) zu berücksichtigen.
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: AHV/IV/EO-Beiträge Selbständiger sind laut WL TG im Reingewinn berücksichtigt, nicht separat abziehbar (vorher mit 2. Säule/3a gleichgestellt).'
 - id: mitarbeiterbeteiligung
   name: Bescheinigung Mitarbeiterbeteiligung (Mitarbeiteraktien, Optionen, Anwartschaften/RSU, Beiblatt zum Lohnausweis)
   erkennen:
   - Titel «Beiblatt zum Lohnausweis», «Bescheinigung Mitarbeiterbeteiligungen», «Statement of Equity Awards», «Vesting Statement»
   - 'Absender: Arbeitgeber, Muttergesellschaft/Konzern, Aktienplan-Administrator (Bank, Broker)'
   - 'Begriffe: Zuteilung (Grant), Vesting, Ausübung (Exercise), Sperrfrist, Ausübungspreis, Verkehrswert, RSU/PSU, ESPP'
-  - Lohnausweis mit Kreuz bei Ziff. 5 «Beteiligungsrechte gemäss Beiblatt»
+  - Lohnausweis mit Betrag bei Ziff. 5 «Beteiligungsrechte gemäss Beiblatt»
   relevanz: ja
   zweck:
   - einkommen
@@ -224,7 +237,7 @@ belege:
   - 'Bei Auslandbezug (gesperrte Optionen) anteilsmässige Besteuerung nach Art. 17d DBG: Dossier an Fachperson.'
   - Die Beilage der Bescheinigung ist Pflicht; das Beiblatt ist Teil der Lohnausweis-Unterlagen und ersetzt nicht den Lohnausweis.
   kantone:
-    ZH: 'Beilagen Unselbständigerwerbende: Lohnausweise inkl. Beilagen sowie Bescheinigungen über Mitarbeiterbeteiligungen; Formularzeile «Beteiligungsrechte gemäss Beiblatt». Meldepflicht des Arbeitgebers
+    ZH: 'Beilagen Unselbständigerwerbende: Lohnausweise inkl. Beilagen sowie Bescheinigungen über Mitarbeiterbeteiligungen; Lohnausweis-Ziffer 5 «Beteiligungsrechte gemäss Beiblatt». Meldepflicht des Arbeitgebers
       nach § 137a StG ZH.'
     SG: Bei Mitarbeiteraktien und -optionen muss die vom Arbeitgeber ausgestellte Bescheinigung beigelegt werden.
     AR: Bescheinigung des Arbeitgebers beilegen; Einkünfte aus Mitarbeiterbeteiligungen zählen zu den übrigen Einkünften (Ziff. 6.3) bzw. zum Lohn laut Lohnausweis.
@@ -241,7 +254,9 @@ belege:
     zitat: Bei Mitarbeiteraktien und -optionen muss die vom Arbeitgeber ausgestellte
   - chunk: ar-wl-2025__c0130
     zitat: Bei Mitarbeiteraktien und -optionen muss die vom Arbeitgeber ausgestellte Be
-  status: extrahiert
+  status: agent-geprueft
+  bemerkung: Lohnausweis-Quelle ist WL Lohnausweis 2026 (Steuerjahr 2026); Ziff. 5 für 2025 inhaltlich gleich erwartet, Original prüfen. Formulierung «Kreuz bei Ziff. 5» korrigiert (Ziff. 5 enthält einen
+    Betrag).
 - id: steuerrechnung
   name: Steuerrechnung / Akontorechnung / Schlussrechnung (Staats-, Gemeinde- und Bundessteuer)
   erkennen:
@@ -281,7 +296,9 @@ belege:
     zitat: Auf jeder Zahlung wird ein
   - chunk: tg-wl-2025__c0224
     zitat: Liegenschaften- steuerrechnung 2026, welche Sie im Januar 2026 erhalten
-  status: extrahiert
+  - chunk: tg-wl-2025__c0271
+    zitat: erfolgt der provisorische Steuerbezug in drei Raten
+  status: agent-geprueft
 - id: vorjahresveranlagung
   name: Vorjahresveranlagung / Steuerveranlagungsverfügung / Einschätzungsentscheid
   erkennen:
@@ -316,7 +333,7 @@ belege:
     zitat: Massgebend für die Berechnung der übertragbaren Kosten ist das veranlagte Reineinkommen 2024
   - chunk: sg-wl-2025__c0008
     zitat: Mit der Importfunktion können Vorjahresdaten in die aktuelle Steuerer-
-  status: extrahiert
+  status: agent-geprueft
 - id: ahv-beitragsverfuegung-nichterwerbstaetige
   name: AHV-Beitragsverfügung / Rechnung für Nichterwerbstätige (Ausgleichskasse)
   erkennen:
@@ -353,7 +370,7 @@ belege:
     zitat: Beiträge an die AHV, IV und 2. Säule, sofern nicht unter Ziff. 1 und 2 abgezogen
   - chunk: ar-wl-2025__c0094
     zitat: Beiträge von nichterwerbstätigen steuerpflichtigen Personen
-  status: extrahiert
+  status: agent-geprueft
 - id: ergaenzungsleistungen
   name: Verfügung/Jahresabrechnung Ergänzungsleistungen (EL) zur AHV/IV
   erkennen:
@@ -382,8 +399,7 @@ belege:
     AR: EL und Hilflosenentschädigungen steuerfrei; anzurechnen sind aber EL zur Vergütung von Krankheits- und Behinderungskosten. Ordentliche und ausserordentliche EL sind nicht zu deklarieren.
     SG: EL (inkl. Überbrückungsleistungen für ältere Arbeitslose) und Hilflosenentschädigungen steuerfrei; anzurechnen sind EL für Krankheits- und Behinderungskosten.
     TG: Ergänzungsleistungen der AHV und IV steuerfrei und nicht anzugeben (§ 26 Ziff. 6 StG TG); über EL ausgerichtete Prämienverbilligungen mindern die Nettoprämie.
-    ZH: Im Formularabbild der WL ZH 2025 werden Ergänzungsleistungen unter den Unterstützungsleistungen genannt (zh-wl-2025__c0053, layoutbedingt unklar); die Detailregelung ist in diesem Wiki nicht verifiziert
-      – Original prüfen.
+    ZH: Ergänzungsleistungen zur AHV/IV sind steuerfrei (§ 24 lit. i StG ZH). Anrechnung vergüteter Krankheits-/Behinderungskosten im Detail in der WL ZH nicht verifiziert – Original prüfen.
   quellen:
   - chunk: bund-dbg-2025__art-24-t2
     zitat: die Einkünfte aufgrund der Bundesgesetzgebung über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung
@@ -395,7 +411,10 @@ belege:
     zitat: Ergänzungsleistungen der AHV und IV;
   - chunk: tg-wl-2025__c0210
     zitat: Dazu zählen auch über Ergänzungsleistungen zur AHV und IV ausgerichtete
-  status: extrahiert
+  - chunk: zh-stg-2025__par-24-t2
+    zitat: die Einkünfte aufgrund der Bundesgesetzgebung über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung
+  status: agent-geprueft
+  bemerkung: 'ZH-Hinweis ergänzt durch Prüfung: § 24 lit. i StG ZH 2025.'
 - id: privatrechnungen-alltag
   name: Private Alltagsrechnungen (Lebensmittel, Kleider, Telefon/Internet, Strom privat, Freizeit, Ferien)
   erkennen:
@@ -423,7 +442,7 @@ belege:
     zitat: die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie
   - chunk: ar-wl-2025__c0170
     zitat: Diese Kosten gelten als nicht abzugsfähige Lebenshaltungskosten.
-  status: extrahiert
+  status: agent-geprueft
 - id: hausrat-haftpflicht-police
   name: Police Hausrat-/Privathaftpflichtversicherung (inkl. Gebäudeversicherung des Mieters/Mobiliar)
   erkennen:
@@ -459,7 +478,7 @@ belege:
     zitat: nicht aber Privathaftpflicht- und Hausratversicherungen
   - chunk: ar-wl-2025__c0111
     zitat: Nicht anzugeben sind der Hausrat und die persönlichen Gebrauchsgegen-
-  status: extrahiert
+  status: agent-geprueft
 - id: motorfahrzeug-versicherung
   name: Motorfahrzeug-Versicherungspolice (Haftpflicht/Kasko) und Verkehrssteuer-Rechnung
   erkennen:
@@ -482,7 +501,7 @@ belege:
   - 'Private Motorfahrzeuge sind Vermögen: Steuerwert Anschaffungspreis abzüglich 20% pro Jahr seit Erwerb (AR/SG), TG Verkehrswert mit 20% Wertverminderung; vor mehr als 5 Jahren gekaufte Fahrzeuge pro
     memoria Fr. 1.– (TG); Leasingfahrzeuge nicht deklarieren (TG).'
   - Arbeitsweg mit Privatauto nur in begründeten Fällen (kein öffentliches Verkehrsmittel, Wohn-/Arbeitsstätte weit von Haltestelle, Gesundheit) und mit Pauschalansätzen pro km – Police nicht relevant.
-  - 'Geschäftsfahrzeug: Privatanteil 0,9% pro Monat bzw. 10,8% pro Jahr auf dem Anschaffungspreis (AR);'
+  - 'Geschäftsfahrzeug: Privatanteil 0,9% pro Monat bzw. 10,8% pro Jahr auf dem Anschaffungspreis (AR Ziff. 10.1, ar-wl-2025__c0075).'
   kantone:
     AR: Motorfahrzeug-Versicherungsprämien vom Abzug ausgeschlossen; Fahrzeugwert 20% Wertverminderung pro Jahr (Ziff. 30.4).
     SG: Motorfahrzeug-Versicherungen vom Abzug ausgeschlossen; Steuerwert mit 20% jährlicher Wertverminderung vom Anschaffungswert (Ziff. 30.4).
@@ -497,7 +516,8 @@ belege:
     zitat: Nicht deklariert werden müssen geleaste Fahr-
   - chunk: zh-wl-2025__c0064
     zitat: Die Kosten für das private Motorfahrzeug können nur ausnahmsweise geltend gemacht werden
-  status: extrahiert
+  status: agent-geprueft
+  bemerkung: 'ZH/Bund: Behandlung des Fahrzeugs als Vermögen in den hinterlegten Quellen nicht verifiziert.'
 - id: mietvertrag-wohnung
   name: Mietvertrag Wohnung (Mietzinsbestätigung, Nebenkostenabrechnung des Mieters)
   erkennen:
@@ -528,8 +548,8 @@ belege:
   - Für Eigentümer entfällt der Beleg; massgebend sind Eigenmietwert und Unterhalt (siehe liegenschaft-*).
   kantone:
     TG: 'Untervermietung netto steuerbar nach Abzug des anteiligen Mietzinses und der Nebenkosten (Ziff. 5.4). Wochenaufenthalt: Mietzins : (Anzahl Zimmer + 1) bei Wohnungen bis 3½ Zimmer.'
-    AR: Mietzinsreduktion als Entgelt (z.B. Hauswart) ist die Differenz als Einkommen zu deklarieren; Mehrkosten bei auswärtigem Wochenaufenthalt unter Ziff. 4 (WL AR 2025).
-    SG: Mietzinsreduktion (Hauswart) als Einkommen; Mehrkosten Wochenaufenthalt Ziff. 4.
+    AR: 'Mietzinsreduktion als Entgelt (z.B. Hauswart): Differenz als Einkommen deklarieren; Mehrkosten bei auswärtigem Wochenaufenthalt Ziff. 10.4 (Formular 4 Ziff. 4) (WL AR 2025).'
+    SG: Mietzinsreduktion (Hauswart) als Einkommen; Mehrkosten Wochenaufenthalt Ziff. 10.4 (Formular 4 Ziff. 4).
   quellen:
   - chunk: bund-dbg-2025__art-34
     zitat: die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie
@@ -541,7 +561,7 @@ belege:
     zitat: ist die Differenz zwischen normalem und reduziertem Mietzins als Einkommen
   - chunk: sg-wl-2025__c0043
     zitat: ist die Differenz
-  status: extrahiert
+  status: agent-geprueft
 - id: kreditkartenabrechnung
   name: Kreditkartenabrechnung (Monats-/Jahresabrechnung, Karten-Jahresgebühr)
   erkennen:
@@ -566,8 +586,8 @@ belege:
   - Private Schuldzinsen sind nur im Umfang der Wertschriften-/Guthabenerträge und Liegenschaftserträge zuzüglich Fr. 50'000 abziehbar (AR/SG); Kartenzinsen fallen darunter.
   - Offene Kartensaldi per 31.12. sind Schulden im Schuldenverzeichnis; Aufwendungen für Schuldentilgung sind nicht abziehbar (Art. 34 lit. c DBG).
   kantone:
-    AR: Gebühren für Bancomat- und Kreditkarten gehören zu den nicht abzugsfähigen Kosten (Ziff. 16, Vermögensverwaltung).
-    SG: Private Schuldzinsen max. Wertschriften-/Liegenschaftserträge zuzüglich Fr. 50'000 (Ziff. 16).
+    AR: 'Gebühren für Bancomat- und Kreditkarten gehören zu den nicht abzugsfähigen Kosten (Ziff. 16, Vermögensverwaltung). Private Schuldzinsen: Ziff. 11.'
+    SG: Private Schuldzinsen max. Wertschriften-/Liegenschaftserträge zuzüglich Fr. 50'000 (Ziff. 11).
   quellen:
   - chunk: ar-wl-2025__c0088
     zitat: Gebühren für Bancomat- und Kreditkarten.
@@ -575,7 +595,10 @@ belege:
     zitat: Private Schuldzinsen sind nur im Umfang der Einkünfte aus Wertschriften und Gut-
   - chunk: bund-dbg-2025__art-34
     zitat: die Aufwendungen für Schuldentilgung
-  status: extrahiert
+  - chunk: sg-wl-2025__c0083
+    zitat: abziehbar.
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: SG-Schuldzinsen stehen unter Ziff. 11 (nicht Ziff. 16).'
 - id: steuerberatungskosten
   name: Rechnung Steuerberatung / Steuererklärungs-Ausfertigung (Treuhänder, Steuerberater)
   erkennen:
@@ -609,4 +632,4 @@ belege:
     zitat: die Finanz-, Anlage-, Erbschafts-, Vorsorge- und Steuerberatung;
   - chunk: bund-dbg-2025__art-34
     zitat: die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie
-  status: extrahiert
+  status: agent-geprueft

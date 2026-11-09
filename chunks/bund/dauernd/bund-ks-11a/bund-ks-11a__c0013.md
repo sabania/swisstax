@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0013
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 3.2.8 Fortpflanzungshilfen"
 ziffer: "3.2.8"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 6
+> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 6
 
 3.2.8   Kosten für Fortpflanzungshilfen
 Kosten für Fortpflanzungshilfen, d.h. sowohl die Kosten für Hormonbehandlungen als auch die

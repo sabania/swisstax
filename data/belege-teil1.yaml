@@ -2,7 +2,7 @@ belege:
 - id: lohnausweis
   name: Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare)
   erkennen:
-  - Titel «Lohnausweis – Rentenbescheinigung» (Formular 11 SSK/ESTV) bzw. eLohnausweis mit Datamatrix-Code
+  - Titel «Lohnausweis – Rentenbescheinigung» (Formular 11 SSK/ESTV), auch als eLohnausweis (mit Barcode)
   - 'Absender: Arbeitgeber; Felder A–H, Ziffern 1–15'
   - 'Typische Begriffe: Bruttolohn total (Ziff. 8), Nettolohn/Rente (Ziff. 11), Spesenvergütungen (Ziff. 13), Bemerkungen (Ziff. 15)'
   - Kästchen F (unentgeltliche Beförderung) und G (Kantinenverpflegung/Lunch-Checks)
@@ -21,7 +21,8 @@ belege:
   - Ziff. 6 Verwaltungsratsentschädigungen und Ziff. 5 Beteiligungsrechte (separat ausgewiesen, siehe Beiblatt)
   - Ziff. 10.2 Einkaufsbeiträge 2. Säule (nur wenn vom Lohn abgezogen)
   - Ziff. 12 Quellensteuerabzug (nur Information bei Quellensteuerpflicht)
-  - 'Ziff. 13 Spesen: Kreuz bei 13.1.1 = genehmigtes Spesenreglement; effektive Spesen 13.1.1/13.1.2 (z.B. «Spesen für externen Arbeitsplatz»), Pauschalspesen 13.2, Weiterbildung 13.3'
+  - 'Ziff. 13 Spesen: Kreuz im Feld vor 13.1.1 = Vorgaben für Einzelfallpauschalen eingehalten (kein Betrag nötig); sonst effektive Spesen 13.1.1/13.1.2 betragsmässig (z.B. «Spesen für externen Arbeitsplatz»);
+    Pauschalspesen 13.2 immer mit Betrag; Weiterbildung 13.3. Bei genehmigtem Spesenreglement kein Kreuz, sondern Vermerk in Ziff. 15'
   - Kästchen F (Arbeitsweg gratis → Fahrkostenabzug fällt weg), Kästchen G (Kantine/Lunch-Checks → reduzierte Verpflegungspauschale), Feld Ziff. 15 Bemerkungen
   hinweise:
   - Pro Arbeitgeber ein Lohnausweis, auch bei Nebenbeschäftigungen; bei mehreren Lohnausweisen für dasselbe Jahr steht in Ziff. 15 «Einer von … Lohnausweisen», ein ersetzter Lohnausweis trägt den Vermerk
@@ -34,7 +35,7 @@ belege:
   kantone:
     TG: In der Steuererklärung ist der in Ziffer 11 des Lohnausweises aufgeführte Nettolohn einzusetzen; Trinkgelder sind auch ohne Ausweis im Lohnausweis steuerbar (WL TG 2025 Ziff. 1.1).
     AR: Nettolohn gemäss Lohnausweis in Ziff. 1.1; nicht im Lohnausweis abgerechnete NBUV-/2.-Säule-Beiträge werden unter Ziff. 16.6 abgezogen (WL AR 2025 Ziff. 1.1).
-    ZH: Lohnausweise sind der Steuererklärung beizulegen; Nebenerwerb über Hilfsblatt (Ziff. 1.2) (WL ZH 2025 Ziff. 1.1).
+    ZH: Lohnausweise sind der Steuererklärung beizulegen; auch Nebenerwerb (Ziff. 1.2) wird mit Lohnausweis deklariert (WL ZH 2025 Ziff. 1.1, Formularbild S. 10).
   quellen:
   - chunk: bund-wl-lohnausweis-2026__c0038
     zitat: In diesem Feld ist der für die Steuererklärung massgebende Nettolohn anzugeben.
@@ -46,7 +47,13 @@ belege:
     zitat: Lohnausweise über alle Einkünfte aus unselbständiger Erwerbstätigkeit
   - chunk: bund-wl-lohnausweis-2026__c0054
     zitat: Wurden vom Arbeitgeber für dasselbe Jahr ausnahmsweise
-  status: extrahiert
+  - chunk: bund-wl-lohnausweis-2026__c0042
+    zitat: genügt es, im vorangestellten kleinen Feld
+  - chunk: bund-wl-lohnausweis-2026__c0053
+    zitat: In diesem Fall ist in Ziffer 13.1.1 kein Kreuz zu machen
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: Kreuz bei 13.1.1 gehört zu den Einzelfallpauschalen (Rz 52), nicht zum genehmigten Spesenreglement (dort Vermerk Ziff. 15, Rz 60/65); ZH-Nebenerwerb nicht über Hilfsblatt.
+    Wegleitung ist Fassung 2026, für 2025 gleicher Aufbau angenommen.'
 - id: rentenbescheinigung-ahv-iv
   name: Rentenbescheinigung AHV/IV (Ausgleichskasse, Jahresbescheinigung der Renten)
   erkennen:
@@ -70,7 +77,7 @@ belege:
   - Gleiches Formular 11 (Rentenbescheinigung) kann auch von Pensionskassen verwendet werden -> rentenbescheinigung-vorsorge.
   kantone:
     TG: AHV-/IV-Rentenausweise bzw. Postabschnitte gelten als Unterlage; steuerfrei sind u.a. Ergänzungsleistungen (WL TG 2025 Ziff. 3).
-    ZH: Ziff. 3.1 (AHV getrennt von IV) – Rentenbescheinigung gemäss Formular 11 beilegen (WL ZH 2025 Ziff. 1.1/3.1).
+    ZH: AHV- und IV-Renten zu 100 % steuerbar (Ziff. 3.1); Rentenbescheinigungen sind zu den Unterlagen bereitzuhalten (WL ZH 2025 Ziff. 3.1, Checkliste).
   quellen:
   - chunk: ar-wl-2025__c0049
     zitat: Die ordentlichen und ausserordentlichen AHV- und IV-Renten sind in vollem Um-
@@ -80,7 +87,10 @@ belege:
     zitat: Steuerbar sind alle Einkünfte aus der Alters-, Hinterlassenen- und Invalidenversicherung
   - chunk: tg-wl-2025__c0026
     zitat: AHV- und PK-Rentenausweise oder Postabschnitte über Renten;
-  status: extrahiert
+  - chunk: zh-wl-2025__c0208
+    zitat: Rentenbescheinigungen
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: ZH-Hinweis «AHV getrennt von IV» war nicht belegt, ersetzt durch belegte Aussage.'
 - id: rentenbescheinigung-vorsorge
   name: Rentenbescheinigung Pensionskasse / Versicherung (2. Säule, 3a, Leibrente)
   erkennen:
@@ -117,7 +127,7 @@ belege:
     zitat: Bitte legen Sie diese Bescheinigung der Steuererklärung bei.
   - chunk: tg-wl-2025__c0078
     zitat: Überschussleistungen sind pauschal zu 70% steuerbar.
-  status: extrahiert
+  status: agent-geprueft
 - id: taggeldbescheinigung
   name: Taggeldbescheinigung (ALV, Kranken-/Unfall-/IV-/Militärversicherung, EO/Mutterschaft)
   erkennen:
@@ -154,11 +164,11 @@ belege:
     zitat: IV-Taggelder gehören zum steuerbaren Einkommen
   - chunk: bund-wl-lohnausweis-2026__c0052
     zitat: Anzahl der Tage mit Erwerbsausfallentschädigungen
-  status: extrahiert
+  status: agent-geprueft
 - id: bescheinigung-saeule3a
   name: Bescheinigung Säule 3a (Formular 21 EDP, Bank-/Versicherungsstiftung)
   erkennen:
-  - Titel «Bescheinigung über Beiträge an anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)», Formular 21 EDP
+  - Titel «Bescheinigung über Vorsorgebeiträge», Formular 21 EDP (für Säule 3a: Ziffer 2 Beiträge, Ziffer 3 Einkäufe; dasselbe Formular dient der 2. Säule)
   - 'Absender: Bankstiftung (z.B. Vorsorgekonto 3a) oder Versicherungsgesellschaft (3a-Police)'
   - 'Felder: Feld q «Total Beiträge an die Säule 3a», Datum der Einzahlungen, Ziffer 2 (Beiträge), Ziffer 3 (Einkäufe)'
   relevanz: ja
@@ -191,12 +201,14 @@ belege:
     zitat: Es dürfen nur die im Jahre
   - chunk: bund-mb-21edp__c0016
     zitat: Im Jahr, in dem der Einkauf erfolgt (Einkaufsjahr) kann maximal der kleine Säule 3a-Ab
-  status: extrahiert
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: Formulartitel präzisiert (Formular 21 heisst «Bescheinigung über Vorsorgebeiträge»). Einkauf 3a: Abzug erst ab Steuerperiode 2026 (vgl. data/werte/bund/2026.yaml
+    saeule3a.einkauf).'
 - id: bescheinigung-pk-einkauf
   name: Bescheinigung Einkauf Pensionskasse (2. Säule, Formular 21 EDP)
   erkennen:
   - 'Absender: Pensionskasse, Vorsorgestiftung, Sammelstiftung'
-  - Titel «Bescheinigung Einkäufe in die berufliche Vorsorge», Formular 21 EDP (Einkauf von Beitragsjahren)
+  - Titel «Bescheinigung über Vorsorgebeiträge», Formular 21 EDP (Ziffer 1: Beiträge an Einrichtungen der 2. Säule, auch Einkäufe von Beitragsjahren)
   - 'Begriffe: Einkaufssumme, Einkauf Beitragsjahre, freiwillige Einlage, Einkaufsberechnung/Einkaufsmöglichkeit'
   - Zahlungsdatum der Einzahlung
   relevanz: ja
@@ -209,7 +221,7 @@ belege:
   - Ordentliche Beiträge, soweit nicht bereits im Lohnausweis (Ziff. 10) abgezogen
   - Ggf. Einkaufsberechnung/Einkaufspotenzial; Hinweis auf frühere WEF-Vorbezüge
   hinweise:
-  - Massgebend für die Zuordnung zum Steuerjahr ist das Jahr, in dem die Beiträge effektiv entrichtet wurden (nicht das Jahr der Verbuchung).
+  - Einkäufe von Beitragsjahren: massgebend ist das Jahr der effektiven Zahlung (nicht der Verbuchung); bei ordentlichen und Erhöhungsbeiträgen das Jahr, für das sie bestimmt sind und fakturiert werden.
   - '3-Jahres-Sperrfrist: Einkäufe sind steuerlich nicht abziehbar, soweit innerhalb von drei Jahren ein Kapitalbezug erfolgt; Einkauf erst nach Rückzahlung früherer WEF-Vorbezüge zulässig (Art. 79b Abs.
     3 BVG).'
   - Rückzahlungen von WEF-Vorbezügen sind keine abziehbaren Einkäufe (separates WEF-Formular, nicht Formular 21 EDP).
@@ -229,7 +241,10 @@ belege:
     zitat: Massgebend für die Zuordnung bei Einkäufen von Beitragsjahren ist das Jahr
   - chunk: tg-info-faq__c0028
     zitat: Gemäss Artikel 79b Absatz 3 Satz 2 BVG darf ein Einkauf von Beitragsjahren erst vorgenommen werden
-  status: extrahiert
+  - chunk: bund-mb-21edp__c0008
+    zitat: Die Rückzahlung eines Vorbezugs für Wohneigentum (WEF-Vorbezug)
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: Formulartitel und Zuordnungsjahr präzisiert (ordentliche vs. Einkaufsbeiträge, MB 21 EDP Rz 16).'
 - id: steuerauszug-bank
   name: Steuerauszug der Bank / Post (inkl. eSteuerauszug)
   erkennen:
@@ -273,7 +288,7 @@ belege:
     zitat: Für steuerliche Zwecke eignen sich die von den Banken – auf Wunsch des Kunden – erstellten
   - chunk: zh-wl-2025__c0155
     zitat: entweder in der Kolonne A oder Kolonne B einzutragen
-  status: extrahiert
+  status: agent-geprueft
 - id: kontoauszug-zinsausweis
   name: Kontoauszug / Zins- und Saldobescheinigung (Sparkonto, Privatkonto, Festgeld, Post)
   erkennen:
@@ -314,7 +329,7 @@ belege:
     zitat: aus denen die Bruttozinsen, die
   - chunk: ar-wl-2025__c0137
     zitat: Bruchzinsen (Zinsen bei Aufgabe, Rückzahlung, Einlösung oder Konversion
-  status: extrahiert
+  status: agent-geprueft
 - id: depotauszug
   name: Depotauszug / Wertschriftenverzeichnis der Bank (Titelbestand per 31.12.)
   erkennen:
@@ -356,14 +371,15 @@ belege:
     zitat: Für nicht kotierte Wertpapiere gilt der Verkehrswert per 31. Dezember 2025.
   - chunk: zh-wl-2025__c0155
     zitat: Beteiligungen von mindestens 10 Prozent am Aktien-, Grund- oder Stammkapital
-  status: extrahiert
+  status: agent-geprueft
 - id: krypto-auszug
   name: Krypto-Auszug (Exchange-/Wallet-Auszug, Jahresendbestand)
   erkennen:
   - 'Absender: Krypto-Börse/-Broker (z.B. Bitcoin Suisse, Kraken, Binance, Bitpanda) oder Wallet-Export'
   - 'Begriffe: Bestand per 31.12., Kurs/Jahresendkurs, Staking-/Lending-Erträge, Transaktionshistorie'
   - Bitcoin, Ether, XRP, Bitcoin Cash, EOS und weitere Kryptowährungen
-  relevanz: ja
+  relevanz: bedingt
+  bedingung: Nur wenn Kryptowährungen gehalten werden (Bestand per 31.12. und Erträge wie Staking/Lending deklarieren).
   zweck:
   - vermoegen
   - einkommen
@@ -396,7 +412,9 @@ belege:
     zitat: (inkl. Kryptowäh-
   - chunk: bund-dbg-2025__art-34
     zitat: die Aufwendungen für die Anschaffung, Herstellung oder Wertvermehrung von Vermögensgegenständen
-  status: extrahiert
+  status: agent-geprueft
+  bemerkung: 'Relevanz auf bedingt korrigiert durch Prüfung. TG: keine kantonale Krypto-Aussage in der Wegleitung gefunden. Steuerfreiheit privater Kursgewinne ist hier nicht mit Chunk belegt (Fachperson
+    beurteilt).'
 - id: dividenden-ausland-quellensteuer
   name: Dividenden-/Zinsabrechnung Ausland mit Quellensteuer (inkl. DA-1, USA)
   erkennen:
@@ -419,7 +437,8 @@ belege:
   hinweise:
   - Steuerbarer Ertrag ausländischer Wertpapiere = Nettobetrag zuzüglich ausländischer Quellensteuern, soweit sie aufgrund eines DBA zurückverlangt oder angerechnet werden können.
   - Banken stellen die Quellensteuern meist im Steuerauszug zusammen; fehlen die Angaben, Bescheinigung der Finanzinstitute (Kapital, Zinssatz, Laufzeit, Bruttoerträge, abgezogene Quellensteuer) beilegen.
-  - 'Rückerstattung im Ausland: Formulare gehen an das kantonale Steueramt, nicht an die Gemeinde; pauschale Steueranrechnung (DA-1) nur für nicht rückforderbare Teile.'
+  - 'Pauschale Steueranrechnung (DA-1) nur für nicht rückforderbare Teile; Bagatellgrenze: nicht rückforderbare Steuern bis Fr. 100 (SG, TG) werden nicht angerechnet. Rückerstattung im Ausland: Formulare
+    an das Kantonale Steueramt (SG).'
   kantone:
     SG: DA-1 zusammen mit der Steuererklärung dem Gemeindesteueramt einreichen; Formulare für Rückerstattung im Ausland an das Kantonale Steueramt, Fachbereich Verrechnungssteuer (WL SG 2025).
     TG: DA-1 dient zugleich als Antrag auf Rückerstattung des zusätzlichen Steuerrückbehalts USA; Gesamtbeträge auf Formular 2 Seite 1 übertragen (WL TG 2025 S. 33).
@@ -431,14 +450,15 @@ belege:
     zitat: Bruttoerträge und der abgezogenen Verrechnungssteuer bzw. ausländischen
   - chunk: tg-wl-2025__c0155
     zitat: Übertragen Sie die Gesamtbeträge des Formulars DA-1 alsdann auf Seite 1 des Formulars 2
-  status: extrahiert
+  status: agent-geprueft
 - id: versicherung-rueckkaufswert
   name: Versicherungsbescheinigung Rückkaufswert (Lebens-/Rentenversicherung, Steuerwert 31.12.)
   erkennen:
   - 'Absender: Lebensversicherungsgesellschaft'
   - Titel «Bescheinigung für die Steuererklärung», «Steuerwert per 31.12.», «Rückkaufswert»
   - 'Begriffe: Rückkaufswert, Überschussanteil/Gewinnbeteiligung, Prämien des Jahres, Ertragsanteil'
-  relevanz: ja
+  relevanz: bedingt
+  bedingung: Nur bei rückkaufsfähigen Lebens-/Rentenversicherungen (Steuerwert = Rückkaufswert); reine Risikoversicherungen und Säule-3a-Policen sind nicht als Vermögen zu deklarieren.
   zweck:
   - vermoegen
   - abzug
@@ -471,7 +491,8 @@ belege:
     zitat: Bescheinigungen der Steuerwerte Ihrer Lebensversicherungen per 31.12.2025.
   - chunk: tg-stg__par-158
     zitat: Versicherer über den Rückkaufswert von Versicherungen
-  status: extrahiert
+  status: agent-geprueft
+  bemerkung: Relevanz auf bedingt korrigiert durch Prüfung (nur rückkaufsfähige Policen).
 - id: krankenkasse-praemien
   name: Krankenkassen-Prämienrechnung / Jahresbescheinigung (Grund- und Zusatzversicherung)
   erkennen:
@@ -495,7 +516,7 @@ belege:
   kantone:
     TG: 'Ziffer 1 des Formulars 5.2: Nettoprämie (nach IPV) eintragen, inkl. über Ergänzungsleistungen ausgerichteter Prämienverbilligung und Nachzahlungen früherer Jahre; Jahresbestätigung der Krankenkasse
       beilegen (WL TG 2025 S. 44).'
-    ZH: Erhaltene Prämienverbilligung als Abzug in Ziff. 15.6 (soweit nicht schon bei den Prämien berücksichtigt) (WL ZH 2025 Ziff. 15).
+    ZH: Erhaltene Prämienverbilligung wird in Ziff. 15 (Zeile 6) abgezogen, soweit nicht schon bei den Prämien berücksichtigt (WL ZH 2025 Ziff. 15).
     SG: Versicherungsabzug in Formular 6 ermitteln; individuelle Prämienverbilligungen anrechnen (WL SG 2025 Ziff. 14).
     AR: Versicherungsabzug in Formular 6 ermitteln; Prämien für Mobiliar-, Motorfahrzeug- und Haftpflichtversicherungen sind ausgeschlossen (WL AR 2025 Ziff. 14).
   quellen:
@@ -509,7 +530,7 @@ belege:
     zitat: Vom Abzug ausgeschlossen sind die Prämien für Mobiliar-, Motorfahrzeug- und
   - chunk: sg-wl-2025__c0087
     zitat: Dabei sind die individuellen Prämienverbilligungen, die für
-  status: extrahiert
+  status: agent-geprueft
 - id: krankenkasse-leistungen
   name: Krankenkassen-Leistungsabrechnung / Kosten- und Selbstbehaltszusammenstellung
   erkennen:
@@ -551,7 +572,7 @@ belege:
     zitat: 1. Selbstbehalt gemäss Abrechnung Krankenkasse und Versicherung
   - chunk: tg-form-05-1-2025__c0001
     zitat: Die Belege sind geordnet beizulegen
-  status: extrahiert
+  status: agent-geprueft
 - id: arzt-zahnarzt-rechnungen
   name: Arzt-, Zahnarzt-, Spital- und Therapierechnungen (Krankheits- und Unfallkosten)
   erkennen:
@@ -572,11 +593,12 @@ belege:
   - Zahlungsnachweis (bezahlt im Steuerjahr)
   - Art der Kosten gemäss Formular (Arzt/Medikamente, Zahnarzt, Pflege, Spital, Therapien/Kuren)
   hinweise:
-  - Nachweis durch ärztliche Bescheinigungen, Rechnungen, Zahlungsnachweise und Versicherungsbelege, da steuermindernde Tatsachen.
+  - Nachweis durch ärztliche Bescheinigungen, Rechnungen, Zahlungsnachweise und Versicherungsbelege, da steuermindernde Tatsachen (Grundsatz aus KS 11a, formell erst ab 2027; für 2025/2026 gelten die Belegregeln
+    der Kantone, siehe unten).
   - Abziehbar sind Kosten im Jahr der Zahlung; Kosten Dritter (z.B. unterhaltene Personen) nur bei effektiver Unterstützung.
   - Nicht abziehbar sind z.B. Präventivmassnahmen (Fitness-Abo), Fahrkosten zum Arzt, Schönheitsbehandlungen, Wellness- und Schlankheitskuren, eigene Pflegeleistungen.
   - 'Besondere Ernährungskosten: bei ärztlich angeordneter, lebensnotwendiger Sonderernährung Pauschale möglich (unterliegt dem Selbstbehalt); Detailwerte siehe Werte-Dateien.'
-  - KS 11a (Bund) tritt erst ab Steuerperiode 2027 in Kraft; für 2025/2026 gilt noch die bisherige Praxis (Kreisschreiben Nr. 11).
+  - KS 11a (Bund) tritt erst ab Steuerperiode 2027 in Kraft; für 2025/2026 gilt noch die bisherige Praxis (Kreisschreiben Nr. 11, bund-ks-11).
   kantone:
     ZH: Formular 370 mit Aufstellung ausfüllen und Belege bereithalten; nicht abzugsfähig sind u.a. Fahrkosten zum Arzt, Präventivmassnahmen (Fitness), Akupunktur ohne Verordnung, Schönheitsbehandlungen
       (Form. 370).
@@ -594,4 +616,7 @@ belege:
     zitat: Nein, die Kosten für das Fitnessabonnement stellen in der Regel private Lebenshaltungskosten dar und sind nicht abzugsfähig.
   - chunk: ar-wl-2025__c0099
     zitat: Fr. 2’500.– in Abzug gebracht werden.
+  - chunk: bund-ks-11__c0030
+    zitat: halt von 5 % der um die Aufwendungen (Art. 26 – 33 DBG) verminderten steuerbaren
   status: extrahiert
+  bemerkung: Für 2025/2026 gilt KS 11 (bund-ks-11); KS 11a gilt ab Steuerperiode 2027. Review Opus 2026-11-09.

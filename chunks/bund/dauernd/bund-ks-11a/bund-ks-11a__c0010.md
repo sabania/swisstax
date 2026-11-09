@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0010
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 3.2.4 Alternativmedizin und Naturheilpraktiker"
 ziffer: "3.2.4"
 seiten: "5"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5
+> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.2 Kategorien · S. 5
 
 3.2.4   Kosten für Alternativmedizin
 Neben den traditionellen Heilbehandlungen gelten auch die Behandlungen der Alternativmedi

@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0039
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 5.2.2 Übrige unterstützte Personen"
 ziffer: "5.2.2"
 seiten: "12"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 5 Abzugsfähige Kosten › 5.2 Kosten der unterhaltenen Person · S. 12
+> Bund · Steuerjahr 2027 · KS 11a · 5 Abzugsfähige Kosten › 5.2 Kosten der unterhaltenen Person · S. 12
 
 5.2.2   Übrige unterstützte Personen
 Abgezogen werden können auch die Kosten von weiteren von der steuerpflichtigen Person un

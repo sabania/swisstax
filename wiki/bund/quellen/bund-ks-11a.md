@@ -2,16 +2,16 @@
 typ: quelle
 id: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 titel: "ESTV-Kreisschreiben Nr. 11a: Krankheits-, Unfall- und behinderungsbedingte Kosten"
 generiert: tools/build_index.py
 ---
 # KS 11a: ESTV-Kreisschreiben Nr. 11a: Krankheits-, Unfall- und behinderungsbedingte Kosten
 
-- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2025, 2026 · **Stand:** 2026-05-26
+- **Jurisdiktion:** Bund · **Typ:** Kreisschreiben · **gilt für Steuerjahre:** 2027 · **Stand:** 2026-05-26
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/zmpC2043uHr7/1-011a-D-2026-de.pdf> · lokal: [bund-ks-11a.pdf](../../../raw/bund/dauernd/bund-ks-11a.pdf) · Volltext: [bund-ks-11a.md](../../../sources/bund/dauernd/bund-ks-11a.md)
 - **Abgerufen:** 2026-11-09 · sha256 `156ee589061806b1…`
-- ⚠ **Hinweis:** ersetzt KS 11 (publiziert 26.05.2026); Praxisänderung gilt grundsätzlich für alle offenen Veranlagungen
+- ⚠ **Hinweis:** gilt gemäss Ziff. 7 erst ab Steuerperiode 2027; für 2025/2026 gilt KS 11 vom 31.8.2005 (bund-ks-11)
 
 ## Hinweise zur Quelle (aus dem Chunking)
 

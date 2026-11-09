@@ -62,8 +62,12 @@ positionen:
     zitat: bstätigkeit 104
   - chunk: ar-wl-2025__c0026
     zitat: bstätigkeit 106
+  - chunk: ar-stv__art-19
+    zitat: werden die notwendigen Berufskosten nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
   status: extrahiert
-  bemerkung: Code aus der Formular-Miniatur der WL AR 2025 (Raster verzerrt, Zuordnung Zeile-Code nach Reihenfolge); am Originalformular prüfen.
+  bemerkung: 'Code aus der Formular-Miniatur der WL AR 2025 (Raster verzerrt, Zuordnung Zeile-Code nach Reihenfolge); am Originalformular prüfen. Nebenerwerb-Pauschale: Verweis auf DBG-Ansatz.'
 - ziffer: '1.3'
   abschnitt: Einkünfte
   bezeichnung: Sitzungsgelder, VR-Honorare, Behördenentschädigungen, Person 1 (Code 108) / Person 2 (Code 110)
@@ -95,8 +99,8 @@ positionen:
   quellen:
   - chunk: ar-wl-2025__c0038
     zitat: Handels- und Gewerbebetrieben, aus Landwirtschaft sowie aus freien
-  - chunk: ar-wl-2025__c0029
-    zitat: 112 13213211
+  - chunk: ar-wl-2025__c0026
+    zitat: '112'
   - chunk: ar-wl-2025__c0026
     zitat: selbständig 114
   status: extrahiert
@@ -148,7 +152,7 @@ positionen:
     vor dem 1.1.1985 bestand und der Versicherte mind. 20 % der Beiträge erbracht hat), Nettobetrag in die Hauptkolonne. Säule-3a-Renten 100 % steuerbar. Bei mehreren Renten Aufstellung beilegen. Renten,
     die als Leibrenten nach OR finanziert sind: Ertragsanteil siehe Ziff. 12.3.'
   quellen:
-  - chunk: ar-wl-2025__c0054
+  - chunk: ar-wl-2025__c0051
     zitat: 100 % in allen andern Fällen
   - chunk: ar-wl-2025__c0050
     zitat: Renten aus anerkannten Vorsorgeformen der Säule 3a 100 % steuerbar
@@ -164,8 +168,7 @@ positionen:
   belege:
   - taggeldbescheinigung
   feld: Taggeldabrechnung/Bescheinigung der Versicherung bzw. Ausgleichskasse
-  regel: Nur soweit nicht im Lohnausweis enthalten. IV-Taggelder sind steuerbar. Damit zusammenhängende selbst getragene Krankheits-/Behinderungskosten über Formular 6 (Ziff. 21.1/21.2). Bei Selbständigen
-    werden EO-Entschädigungen in der Jahresrechnung verbucht, nicht hier.
+  regel: Nur soweit nicht im Lohnausweis enthalten. IV-Taggelder sind steuerbar. Damit zusammenhängende selbst getragene Krankheits-/Behinderungskosten über Formular 6 (Ziff. 21.1/21.2).
   quellen:
   - chunk: ar-wl-2025__c0053
     zitat: IV-Taggelder gehören zum steuerbaren Einkommen und sind unter Ziffer 3.3
@@ -383,8 +386,7 @@ positionen:
   abschnitt: Weitere Angaben
   bezeichnung: Im vereinfachten Abrechnungsverfahren (BGSA) abgerechneter Bruttolohn - nur Information (Code 290)
   key: einkommen.vereinfachtes_verfahren
-  belege:
-  - lohnausweis
+  belege: []
   feld: Abrechnung/Bescheinigung der AHV-Ausgleichskasse
   regel: Bruttolohn einsetzen, nur zur Information (nicht im Total der Einkünfte Ziff. 7); mit 5 % Quellensteuerabzug sind DBSt und Kantons-/Gemeindesteuern abgegolten; keine Abzüge im ordentlichen Verfahren
     dafür.
@@ -396,7 +398,8 @@ positionen:
   - chunk: ar-wl-2025__c0030
     zitat: 290 213211
   status: extrahiert
-  bemerkung: Code aus der Formular-Miniatur der WL AR 2025 (Raster verzerrt, Zuordnung Zeile-Code nach Reihenfolge); am Originalformular prüfen.
+  bemerkung: 'Code aus der Formular-Miniatur der WL AR 2025 (Raster verzerrt, Zuordnung Zeile-Code nach Reihenfolge); am Originalformular prüfen. Korrigiert durch Prüfung: Beleg lohnausweis entfernt; beim
+    vereinfachten Verfahren (BGSA) wird kein Lohnausweis ausgestellt, Beleg ist die Abrechnung der AHV-Ausgleichskasse (kein passender Belegtyp in der Taxonomie).'
 - ziffer: '8.2'
   abschnitt: Weitere Angaben
   bezeichnung: Ergänzungsleistungen (nur Information) (Code 291)
@@ -547,7 +550,8 @@ positionen:
   - saeule3a.max_mit_2saeule
   - saeule3a.max_ohne_2saeule
   - saeule3a.satz_ohne_2saeule
-  bund: Säule-3a-Maxima 2025 gleich wie Bund (data/werte/bund/2025.yaml); Einkauf 3a erst ab 2026.
+  bund: 'Verweis auf DBG-Ansatz: Art. 35 lit. e StG AR gewährt den Abzug «im Umfang von Art. 82 BVG»; Höchstbeträge 2025 daher identisch mit Bund (7''258 / 36''288; data/werte/bund/2025.yaml). Einkauf 3a
+    erst ab 2026.'
   quellen:
   - chunk: ar-wl-2025__c0003
     zitat: Erwerbstätige mit 2. Säule (Belege) max. Fr. 7’258
@@ -555,8 +559,14 @@ positionen:
     zitat: 'Erwerbstätige ohne 2. Säule: 20 % des Erwerbseinkommens (Belege) max. Fr. 36’288'
   - chunk: ar-wl-2025__c0084
     zitat: Sind beide Partner erwerbstätig und leisten sie Beiträge an eine anerkannte Vor
+  - chunk: ar-stg__art-35-t2
+    zitat: im Sinn und im Umfang von Art. 82 des Bundesgesetzes über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
   status: extrahiert
-  bemerkung: Code nicht verifiziert (Seite 3 der Steuererklärung ist in der WL nicht als Miniatur abgebildet).
+  bemerkung: Code nicht verifiziert (Seite 3 der Steuererklärung ist in der WL nicht als Miniatur abgebildet). Verweis auf DBG-Ansatz (Art. 35 lit. e StG AR i.V.m. Art. 82 BVG).
 - ziffer: '13.2'
   abschnitt: Abzüge
   bezeichnung: Beiträge/Einkäufe in die 2. Säule (soweit nicht im Lohnausweis abgezogen)
@@ -591,7 +601,6 @@ positionen:
   key: abzug.versicherungspraemien
   belege:
   - krankenkasse-praemien
-  - hausrat-haftpflicht-police
   - versicherung-rueckkaufswert
   - steuerauszug-bank
   feld: 'Formular 6 Teil C: niedrigerer Betrag aus A (bezahlte Prämien/Sparzinsen abzüglich Prämienverbilligung) und B (Maximum)'
@@ -611,8 +620,11 @@ positionen:
     zitat: Fr. 1’000 zusätzlich für jedes Kind
   - chunk: ar-form-06-2025__c0002
     zitat: Der niedrigere Betrag von (A) und (B) 600 13211 zu übertragen in die Steuererklärung Seite 3 Ziffer 14
+  - chunk: ar-wl-2025__c0085
+    zitat: Vom Abzug ausgeschlossen sind die Prämien für Mobiliar-, Motorfahrzeug- und
   status: extrahiert
-  bemerkung: Code 600 (Hilfsblatt Form. 6, Hauptformular-Code für Ziff. 14 nicht separat verifiziert).
+  bemerkung: 'Code 600 (Hilfsblatt Form. 6, Hauptformular-Code für Ziff. 14 nicht separat verifiziert). Korrigiert durch Prüfung: Beleg hausrat-haftpflicht-police entfernt, da Mobiliar-/Haftpflicht-/Sachversicherungen
+    vom Abzug ausgeschlossen sind.'
 - ziffer: '15'
   abschnitt: Abzüge
   bezeichnung: 'Unterhalts- und Verwaltungskosten Liegenschaften: Pauschalabzug (C1) oder tatsächliche Kosten (C2), Übertrag Formular 7/7Z'
@@ -670,8 +682,9 @@ positionen:
   belege:
   - kinderbetreuung-rechnungen
   feld: Formular 10 Total Kinderbetreuungskosten (Rechnungen Krippe/Tagesfamilie, Empfänger muss ersichtlich sein)
-  regel: Nachgewiesene Kosten bis max. Fr. 25'000 pro Kind unter 14 Jahren im gleichen Haushalt, in direktem Zusammenhang mit Erwerbstätigkeit/Ausbildung/Erwerbsunfähigkeit; Ehepaare nur bei gleichzeitiger
-    Erwerbstätigkeit beider. Ohne Verpflegung (Lebenshaltungskosten); Betreuungsbeiträge nach Kinderbetreuungsgesetz abziehen. Fahrkosten zur Betreuungsstätte zählen mit.
+  regel: Nachgewiesene Kosten bis max. Fr. 25'000 pro Kind unter 14 Jahren im gleichen Haushalt, in direktem Zusammenhang mit Erwerbstätigkeit/Ausbildung/Erwerbsunfähigkeit; Ehepaare in ungetrennter Ehe
+    nur, wenn beide gleichzeitig erwerbstätig bzw. in Ausbildung sind oder erwerbsunfähig und zugleich betreuungsunfähig; Konkubinatspaare analog. Ohne Verpflegung (Lebenshaltungskosten); Betreuungsbeiträge
+    nach Kinderbetreuungsgesetz abziehen. Fahrkosten zur Betreuungsstätte zählen mit.
   werte_keys:
   - drittbetreuung.max
   - drittbetreuung.altersgrenze
@@ -685,6 +698,8 @@ positionen:
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 16.2
   - chunk: ar-wl-2025__c0091
     zitat: tatsächlichen Betreuungskosten sind um die erhaltenen Beiträge zu reduzieren
+  - chunk: ar-wl-2025__c0090
+    zitat: Fahrkosten zur Betreuungsstätte gehören ebenfalls
   status: extrahiert
   bemerkung: Code nicht verifiziert (Seite 3 der Steuererklärung ist in der WL nicht als Miniatur abgebildet).
 - ziffer: '16.3'
@@ -739,8 +754,8 @@ positionen:
   - ahv-beitragsverfuegung-nichterwerbstaetige
   - lohnausweis
   feld: AHV-Beitragsverfügung; Lohnausweis (NBUV/BVG-Abzüge Ziff. 9/10)
-  regel: 'AHV-Beiträge Nichterwerbstätiger; Einsatzkosten bei steuerbaren Geldspielgewinnen 5 %, max. Fr. 5''400 (Online-Spiele: Spieleinsätze max. Fr. 26''800); NBUV-Beiträge nur, wenn nicht schon im Nettolohn
-    berücksichtigt (Regelfall: schon berücksichtigt -> kein nochmaliger Abzug).'
+  regel: 'AHV-Beiträge Nichterwerbstätiger; Einsatzkosten bei steuerbaren Geldspielgewinnen 5 %, max. Fr. 5''400 (Online-Spiele: Spieleinsätze max. Fr. 26''800); NBUV-Beiträge (und gemäss Ziff. 1.1 der
+    WL auch BVG-Beiträge) nur, wenn nicht schon im Nettolohn bzw. Lohnausweis berücksichtigt (Regelfall: schon berücksichtigt -> kein nochmaliger Abzug). Abgrenzung zu Ziff. 13.2 siehe dort (WL widersprüchlich).'
   quellen:
   - chunk: ar-wl-2025__c0094
     zitat: Beiträge von nichterwerbstätigen steuerpflichtigen Personen (ordentliche
@@ -748,6 +763,8 @@ positionen:
     zitat: können 5 Prozent, jedoch höchstens Fr. 5’400.–, als Einsatzkosten
   - chunk: ar-wl-2025__c0094
     zitat: unter dieser Ziffer abgezogen werden
+  - chunk: ar-wl-2025__c0035
+    zitat: bzw. im Lohnausweis nicht bereits abgerechnet sind, können unter der Ziffer 16.6 abgezogen werden
   status: extrahiert
   bemerkung: Code nicht verifiziert (Seite 3 der Steuererklärung ist in der WL nicht als Miniatur abgebildet). Ziff. 16.5 im Formular nicht beschrieben.
 - ziffer: '16.7'
@@ -788,8 +805,11 @@ positionen:
     zitat: einkommens, jedoch mindestens Fr. 2’500.– und höchstens Fr. 5’200.–
   - chunk: ar-wl-2025__c0096
     zitat: abzüglich aller damit zusammenhängenden Abzüge
+  - chunk: ar-stg__art-35-t3
+    zitat: vom niedrigeren Erwerbseinkommen, das ein Ehegatte unabhängig vom Beruf, Geschäft oder Gewerbe des anderen Ehegatten erzielt, 10 Prozent
   status: extrahiert
-  bemerkung: Code nicht verifiziert (Seite 3 der Steuererklärung ist in der WL nicht als Miniatur abgebildet).
+  bemerkung: 'Code nicht verifiziert (Seite 3 der Steuererklärung ist in der WL nicht als Miniatur abgebildet). Gesetz (Art. 35 lit. h StG): Erwerbseinkommen = Einkünfte abzüglich Aufwendungen Art. 29-33
+    und allgemeine Abzüge Art. 35 lit. d-f; Betragsgrenzen 2''500/5''200 gemäss Anhang 1 (Gesetzestext nennt unindexiert 2''400/5''000).'
 - ziffer: '18'
   abschnitt: Einkommensberechnung
   bezeichnung: Total der Abzüge (Zeile nach Ziff. 17)
@@ -797,9 +817,12 @@ positionen:
   belege: []
   feld: Rechenzeile
   regel: Summe der Abzüge Ziff. 10-17.
-  quellen: []
+  quellen:
+  - chunk: ar-stg__art-28
+    zitat: werden von den gesamten steuerbaren Einkünften die Aufwendungen und allgemeinen Abzüge gemäss Art. 29–36 abgezogen
   status: offen
-  bemerkung: 'Ziffer/Code in den AR-Quellen nicht belegt (konkordanz-CSV nennt 18/Code unverifiziert); Rechenlogik: Art. 28 StG (Einkünfte abzüglich Abzüge Art. 29-36).'
+  bemerkung: 'Ziffer/Code in den AR-Quellen nicht belegt (konkordanz-CSV nennt 18/Code unverifiziert); Rechenlogik: Art. 28 StG (Einkünfte abzüglich Abzüge Art. 29-36). Geprüft: weiterhin offen; im Formular/in
+    der WL ist Ziff. 18 nicht belegt, nur die Rechenlogik (Art. 28 Abs. 1 StG).'
 - ziffer: '20'
   abschnitt: Einkommensberechnung
   bezeichnung: Nettoeinkommen (Basis für Selbstbehalt Krankheitskosten und Limite Zuwendungen)
@@ -900,9 +923,14 @@ positionen:
   belege: []
   feld: Rechenzeile (Nettoeinkommen abzüglich Abzüge Ziff. 21)
   regel: Nettoeinkommen abzüglich zusätzliche Abzüge 21.1-21.3; Sozialabzüge (Ziff. 23) werden vom Reineinkommen abgezogen.
-  quellen: []
+  quellen:
+  - chunk: ar-stg__art-28
+    zitat: werden von den gesamten steuerbaren Einkünften die Aufwendungen und allgemeinen Abzüge gemäss Art. 29–36 abgezogen
+  - chunk: ar-stg__art-38-t1
+    zitat: Vom Reineinkommen werden für die Steuerberechnung abgezogen
   status: offen
-  bemerkung: Ziffer/Code 22 in den AR-Quellen nicht belegt; Reineinkommen/Sozialabzüge laut Art. 28 und Art. 38 StG (ar-stg__art-28, ar-stg__art-38-t1).
+  bemerkung: 'Ziffer/Code 22 in den AR-Quellen nicht belegt; Reineinkommen/Sozialabzüge laut Art. 28 und Art. 38 StG (ar-stg__art-28, ar-stg__art-38-t1). Geprüft: weiterhin offen; Ziffer/Code 22 nicht in
+    WL/Formularraster belegt, nur die Rechenlogik (Art. 28, Art. 38 Abs. 1 StG).'
 - ziffer: '23.1'
   abschnitt: Einkommensberechnung
   bezeichnung: 'Kinderabzug: Kind bis zur Vollendung des 4. Altersjahrs'
@@ -1027,7 +1055,7 @@ positionen:
   quellen:
   - chunk: ar-wl-2025__c0113
     zitat: 30.2 Unter dieser Ziffer sind nebst dem inländischen Bargeld auch das ausländische
-  - chunk: ar-wl-2025__c0112
+  - chunk: ar-wl-2025__c0106
     zitat: '302'
   status: extrahiert
   bemerkung: Code aus der Formular-Miniatur der WL AR 2025 (Raster verzerrt, Zuordnung Zeile-Code nach Reihenfolge); am Originalformular prüfen.
@@ -1239,6 +1267,8 @@ positionen:
     zitat: 36.1 Für alleinstehende Personen Fr. 75’000
   - chunk: ar-wl-2025__c0108
     zitat: (Ziffer 33 330
+  - chunk: ar-stg__art-51
+    zitat: für alle übrigen steuerpflichtigen Personen Fr. 75 000.–
   status: extrahiert
   bemerkung: Code aus der Formular-Miniatur der WL AR 2025 (Raster verzerrt, Zuordnung Zeile-Code nach Reihenfolge); am Originalformular prüfen.
 - ziffer: '36.2'
@@ -1247,7 +1277,7 @@ positionen:
   key: vermoegen.sozialabzug
   belege: []
   feld: Personalien (Zivilstand 31.12.2025)
-  regel: Fr. 150'000 für gemeinsam steuerpflichtige Ehegatten/Personen.
+  regel: Fr. 150'000 für Ehegatten in rechtlich und tatsächlich ungetrennter Ehe (gemeinsam steuerpflichtig); alle übrigen Steuerpflichtigen Fr. 75'000 (Ziff. 36.1).
   werte_keys:
   - vermoegen.freibetrag_verheiratet
   bund: Keine Vermögenssteuer beim Bund.
@@ -1258,6 +1288,8 @@ positionen:
     zitat: 36.2 Für gemeinsam steuerpflichtige Personen Fr. 150’000
   - chunk: ar-wl-2025__c0108
     zitat: 332 –
+  - chunk: ar-stg__art-51
+    zitat: für Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, Fr. 150 000.–
   status: extrahiert
   bemerkung: Code aus der Formular-Miniatur der WL AR 2025 (Raster verzerrt, Zuordnung Zeile-Code nach Reihenfolge); am Originalformular prüfen.
 - ziffer: '36.3'
@@ -1267,7 +1299,8 @@ positionen:
   belege:
   - vorjahresveranlagung
   feld: Seite 1 der Steuererklärung (Kinder, Jahrgang)
-  regel: Fr. 25'000 für jedes minderjährige Kind (Jahrgang auf Seite 1 massgebend).
+  regel: Fr. 25'000 für jedes minderjährige Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person, für das ein Kinderabzug nach Art. 38 StG (Ziff. 23.1-23.3) geltend gemacht werden kann
+    (Jahrgang auf Seite 1 massgebend).
   werte_keys:
   - vermoegen.freibetrag_kind
   bund: Keine Vermögenssteuer beim Bund.
@@ -1278,6 +1311,8 @@ positionen:
     zitat: 36.3 Zusätzlich für jedes minderjährige Kind Fr. 25’000
   - chunk: ar-wl-2025__c0108
     zitat: 334 –
+  - chunk: ar-stg__art-51
+    zitat: zusätzlich für jedes minderjährige Kind, das unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person steht
   status: extrahiert
   bemerkung: Code aus der Formular-Miniatur der WL AR 2025 (Raster verzerrt, Zuordnung Zeile-Code nach Reihenfolge); am Originalformular prüfen.
 - ziffer: '36.5'
@@ -1370,12 +1405,14 @@ positionen:
   regel: Pauschal bis Fr. 700 pro Jahr; zählt zur Gesamtlimite Fr. 6'000.
   werte_keys:
   - berufskosten.fahrkosten.velo_pauschale
-  bund: 'Bund: Pauschale Velo/Motorfahrrad eigener Betrag.'
+  bund: 'Bund: gleiche Pauschale Fr. 700 (BKV Anhang 2); Gesamtlimite Fr. 6''000 gilt nur kantonal (Bund 3''300).'
   quellen:
   - chunk: ar-form-04-2025__c0001
     zitat: 1.2 Fahrrad, Kleinmotorrad bis 50 cm3 (Kontrollschild mit gelbem Grund) 402
   - chunk: ar-wl-2025__c0074
     zitat: bis zu Fr. 700.– im Jahr
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Motorräder mit gelbem Kontrollschild | im Jahr | 700.—
   status: extrahiert
   bemerkung: Code 402 (Person 1); Person 2 Code 452 aus Form. 4 Rückseite.
 - ziffer: Form. 4 Ziff. 1.3
@@ -1403,9 +1440,15 @@ positionen:
     zitat: Arbeitstage in der Regel höchstens 220 Tage
   - chunk: ar-mb-01__c0001
     zitat: ungenügenden Verbindungen mit öffentlichen Verkehrsmitteln oder ungünstigem Fahrplan
+  - chunk: ar-stv__art-15
+    zitat: gemäss den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen werden
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Autos | pro Fahrkilometer | –.70
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Motorräder mit weissem Kontrollschild | pro Fahrkilometer | –.40
   status: extrahiert
-  bemerkung: Codes 404/405 Person 1, 454/455 Person 2 (Form. 4). Der Wert 2026 (0.75/km) steht in ar-news-2026, nicht für 2025 verwendet. In data/werte/ar/2025.yaml fehlt motorrad_km (offen), WL AR 2025
-    nennt 40 Rappen.
+  bemerkung: 'Codes 404/405 Person 1, 454/455 Person 2 (Form. 4). Km-Ansätze: Verweis auf DBG-Ansatz (kantonale Verweisnorm + BKV-Anhang). Der Wert 2026 (0.75/km) steht in ar-news-2026, nicht für 2025 verwendet.
+    data/werte/ar/2025.yaml führt auto_km 0.70 und motorrad_km 0.40 (Verweis auf DBG-Ansatz).'
 - ziffer: Form. 4 Ziff. 2.1
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
   bezeichnung: 'Mehrkosten auswärtige Verpflegung: Fr. 15 pro Arbeitstag, max. Fr. 3''200 (Code 408 / 458)'
@@ -1425,8 +1468,14 @@ positionen:
     zitat: Pro Arbeitstag Fr. 15 / im Jahr Fr. 3'200 408
   - chunk: ar-wl-2025__c0076
     zitat: mässiger auswärtiger Verpflegung (Mittagessen) Fr. 3’200.– im Jahr
+  - chunk: ar-stv__art-16
+    zitat: nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen werden
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Voller Abzug | pro Hauptmahlzeit bzw. Tag | 15.—
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: im Jahr | 3200.—
   status: extrahiert
-  bemerkung: Code 408 Person 1, 458 Person 2.
+  bemerkung: Code 408 Person 1, 458 Person 2. Verweis auf DBG-Ansatz (kantonale Verweisnorm + BKV-Anhang).
 - ziffer: Form. 4 Ziff. 2.2
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
   bezeichnung: 'Verpflegung durch Arbeitgeber verbilligt (Kantine, Lunch-Checks, Beitrag): Fr. 7.50 pro Tag, max. Fr. 1''600 (Code 410 / 460)'
@@ -1450,8 +1499,12 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0012
     zitat: Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer Lunch-Checks
     jahr_ok: true
+  - chunk: ar-stv__art-16
+    zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant eingenommen werden kann
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Halber Abzug | pro Hauptmahlzeit bzw. Tag | 7.50
   status: extrahiert
-  bemerkung: Code 410 Person 1, 460 Person 2. Lohnausweis-Wegleitung gilt 2026 (jahr_ok).
+  bemerkung: Code 410 Person 1, 460 Person 2. Lohnausweis-Wegleitung gilt 2026 (jahr_ok). Verweis auf DBG-Ansatz (kantonale Verweisnorm + BKV-Anhang).
 - ziffer: Form. 4 Ziff. 2.3
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
   bezeichnung: 'Schicht-/Nachtarbeit (durchgehend mind. 8 Std.): Fr. 15 pro Schichttag, max. Fr. 3''200 (Code 412 / 462)'
@@ -1473,8 +1526,12 @@ positionen:
   - chunk: bund-wl-lohnausweis-2026__c0051
     zitat: die Anzahl im Kalenderjahr geleisteter Schichttage
     jahr_ok: true
+  - chunk: ar-stv__art-16
+    zitat: sowie bei durchgehender Schichtarbeit
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Voller Abzug | pro Hauptmahlzeit bzw. Tag | 15.—
   status: extrahiert
-  bemerkung: Code 412 Person 1, 462 Person 2. Lohnausweis Ziff. 15 laut ESTV-Wegleitung (2026, jahr_ok).
+  bemerkung: Code 412 Person 1, 462 Person 2. Lohnausweis Ziff. 15 laut ESTV-Wegleitung (2026, jahr_ok). Verweis auf DBG-Ansatz (kantonale Verweisnorm + BKV-Anhang).
 - ziffer: Form. 4 Ziff. 3
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
   bezeichnung: 'Übrige Berufskosten: Pauschale Fr. 700 + 10 % des Nettolohns, max. Fr. 2''400 (Code 416 / 466) oder tatsächliche Kosten mit Aufstellung (Code 418 / 468)'
@@ -1484,11 +1541,13 @@ positionen:
   - spesenreglement
   feld: Lohnausweis Ziff. 11 (Nettolohn) für die Pauschale; Kostenaufstellung/Belege bei effektiv
   regel: 'Pauschale für jede unselbständig erwerbstätige Person; auch bei Taggeldern der ALV sinngemäss. Höhere effektive Kosten nur gegen Nachweis (Beiblatt). Bei nicht ereignisbezogenen Pauschalspesen
-    des Arbeitgebers keine zusätzliche Pauschale. Nebenamtliche Behörden: MB 15.'
+    des Arbeitgebers keine zusätzliche Pauschale. Nebenamtliche Behörden: MB 15. Arbeitszimmer in der Privatwohnung nur, wenn spezifisch eingerichteter Arbeitsplatz ausgeschieden und mindestens 40 % der
+    Tätigkeit (bezogen auf Vollzeit) zu Hause erledigt werden müssen (Art. 18 Abs. 3 StV AR).'
   werte_keys:
   - berufskosten.uebrige.satz
   - berufskosten.uebrige.fix
   - berufskosten.uebrige.max
+  - berufskosten.homeoffice
   bund: 'DBSt: eigene Pauschale 3 % (min./max.) statt Fr. 700 + 10 % (data/werte/bund/2025.yaml).'
   quellen:
   - chunk: ar-form-04-2025__c0003
@@ -1499,8 +1558,12 @@ positionen:
     zitat: Bei Auszahlung nicht ereignis
   - chunk: ar-wl-2025__c0078
     zitat: 3.1 Für diese Aufwendungen kann die steuerpflichtige Person von ihren Einkünf
+  - chunk: ar-stv__art-18
+    zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens aber Fr. 2400.–
+  - chunk: ar-stv__art-18
+    zitat: mindestens 40 Prozent der Tätigkeit, gemessen an einer Vollzeitbeschäftigung, zu Hause erledigt werden müssen
   status: extrahiert
-  bemerkung: Codes 416/418 Person 1, 466/468 Person 2.
+  bemerkung: Codes 416/418 Person 1, 466/468 Person 2. Pauschale ist kantonal (Art. 18 StV AR, kein Verweis auf DBG-Ansatz); Bund hat 3 %.
 - ziffer: Form. 4 Ziff. 4
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
   bezeichnung: 'Wochenaufenthalt: Zimmer (Code 426 / 476), Verpflegung Fr. 30/Tag, max. Fr. 6''400 bzw. Fr. 22.50/Tag, max. Fr. 4''800 (Code 428 / 478)'
@@ -1523,8 +1586,15 @@ positionen:
     zitat: betragen maximal Fr. 800.– pro Monat
   - chunk: ar-wl-2025__c0002
     zitat: 4.2 Für die auswärtige Verpflegung Fr. 30 pro Tag
+  - chunk: ar-stv__art-17
+    zitat: Mehrkosten der auswärtigen Verpflegung bestimmt sich nach den für die direkte Bundessteuer massgebenden Pauschalansätzen
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Voller Abzug | im Tag im Jahr | 30.— 6400.—
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: Gekürzter Abzug | im Tag im Jahr | 22.50 4800.—
   status: extrahiert
-  bemerkung: Codes 426/428 Person 1, 476/478 Person 2.
+  bemerkung: 'Codes 426/428 Person 1, 476/478 Person 2. Verpflegungspauschalen: Verweis auf DBG-Ansatz (kantonale Verweisnorm + BKV-Anhang). Zimmer: nur ortsübliche Mietkosten (Art. 17 Abs. 2 StV), WL nennt
+    max. Fr. 800 pro Monat.'
 - ziffer: Form. 4 Ziff. 5
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
   bezeichnung: 'Unselbständiger Nebenerwerb: Pauschale 20 % der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2''400 (Code 432 / 482) oder tatsächliche Kosten (Code 434 / 484)'
@@ -1546,8 +1616,12 @@ positionen:
     zitat: Fr. 800.–, wird in der Regel ohne besonderen Nachweis ein Pauschalabzug von
   - chunk: ar-wl-2025__c0080
     zitat: Der Abzug ist in der Regel auch nicht zulässig für Einkünfte aus Verwaltungsratstätigkeit
+  - chunk: ar-stv__art-19
+    zitat: werden die notwendigen Berufskosten nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
+  - chunk: bund-bkv-2025__anhang-1
+    zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
   status: extrahiert
-  bemerkung: Codes 432/434 Person 1, 482/484 Person 2.
+  bemerkung: Codes 432/434 Person 1, 482/484 Person 2. Verweis auf DBG-Ansatz (kantonale Verweisnorm + BKV-Anhang).
 - ziffer: Form. 4 Ziff. 6
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
   bezeichnung: Total der Berufskosten (Code 438 Person 1 -> Ziff. 10.1; Code 488 Person 2 -> Ziff. 10.2)

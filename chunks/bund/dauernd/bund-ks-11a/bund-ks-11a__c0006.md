@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0006
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 3.1 Bst. a–f Nicht abzugsfähige Lebenshaltungskosten (Teil 2/2)"
 ziffer: "3.1 a–f"
 seiten: "3-4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3–4
+> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3–4
 
     e. ohnehin im Rahmen der privaten Lebenshaltung anfallen würden und durch einen Spital
     aufenthalt eingespart werden können (z. B. Spitalkostenbeiträge, welche hauptsächlich

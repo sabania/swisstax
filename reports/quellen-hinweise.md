@@ -715,3 +715,13 @@ Automatisch gesammelt aus `registry/chunkplans/*.json` (Feld `hinweise`). Enthä
 
 - S. 1-2: Leere Formularraster (Platzhalter TT.MM.JJJJ); Spaltenüberschriften vermischt; Barcode-/Steuerzeichen und Schaltflächen-Text (Drucken/Schliessen/Löschen) im Text.
 
+## KS 11 (`bund-ks-11`)
+
+- Anhang Fragebogen für Ärzte (S. 12+) ist im Text nicht enthalten.
+- Layout sauber, Fussnoten stehen inline am Seitenende.
+
+## KS 18 (`bund-ks-18`)
+
+- Layout sauber (Fliesstext); Inhaltsverzeichnis mit Punktlinien wird übersprungen.
+- Zahlen (Grenzbeträge) sind nur als Prozentsätze enthalten, Frankenbeträge fehlen in diesem KS.
+

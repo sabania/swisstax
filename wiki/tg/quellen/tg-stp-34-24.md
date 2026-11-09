@@ -2,15 +2,16 @@
 typ: quelle
 id: tg-stp-34-24
 jur: tg
-jahre: [2025, 2026]
+jahre: [2026]
 titel: "StP 34 Nr. 24: Drittbetreuungskosten"
 generiert: tools/build_index.py
 ---
 # StP 34 Nr. 24: StP 34 Nr. 24: Drittbetreuungskosten
 
-- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
+- **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2026
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-24-drittbetreuungskosten> · lokal: [tg-stp-34-24.html](../../../raw/tg/dauernd/tg-stp-34-24.html) · Volltext: [tg-stp-34-24.md](../../../sources/tg/dauernd/tg-stp-34-24.md)
 - **Abgerufen:** 2026-11-09 · sha256 `e9f8af5c56c0d265…`
+- ⚠ **Hinweis:** Fassung geändert per 01.01.2026 und 11.08.2026; für Steuerjahr 2025 gilt tg-stp-34-24-bis-2025 (Version 1.7.2024)
 
 ## Inhalt (14 Chunks)
 

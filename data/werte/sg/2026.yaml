@@ -12,7 +12,7 @@ werte:
     zitat: die notwendigen Kosten für Fahrten zwischen Wohn- und Arbeitsstätte bis zum Betrag von Fr. 8000.–
   - chunk: sg-stb-39-3__c0011
     zitat: 2026 Fr. 8'000.--
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Die Weisung StB 39 Nr. 3 führt 2026 zusätzlich eine zweite Spalte (Fr. 3''300.--); deren Bedeutung ist im Chunk nicht erklärt und wird hier nicht übernommen. Direkte Bundessteuer: siehe data/werte/bund.'
 - key: berufskosten.fahrkosten.auto_km
   wert: 0.75
@@ -26,7 +26,7 @@ werte:
     zitat: erhöht sich auf 75 Rappen pro Kilometer (bisher 70 Rappen)
   - chunk: sg-stb-39-3__c0009
     zitat: 75 Rappen je Fahrkilometer für Motorräder und Autos.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Neu 2026 (2025: 70 Rappen). Änderung auch in StB-Änderungsliste 2026 (sg-stb-aenderungen-2026__c0002) aufgeführt.'
 - key: berufskosten.fahrkosten.motorrad_km
   wert: 0.75
@@ -37,7 +37,7 @@ werte:
   quellen:
   - chunk: sg-stb-39-3__c0009
     zitat: 75 Rappen je Fahrkilometer für Motorräder und Autos.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Motorrad und Auto werden in StB 39 Nr. 3 zusammen mit 75 Rappen genannt. Kleinmotorrad (Motorfahrrad) fällt unter die Velo-Pauschale.
 - key: berufskosten.fahrkosten.velo_pauschale
   wert: 700
@@ -48,15 +48,22 @@ werte:
   quellen:
   - chunk: sg-stb-39-3__c0009
     zitat: Fr. 700.-- im Jahr bei Benützung eines Fahrrades, eines Motorfahrrades oder eines
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Weisung gilt für Steuerjahre 2025 und 2026 (Frontmatter jahre).
 - key: berufskosten.fahrkosten.arbeitstage
-  wert: null
+  wert: 220
   einheit: Tage
-  text: Für 2026 keine Quelle mit verbindlicher Anzahl massgebender Arbeitstage gefunden.
+  text: Für die Berechnung des Fahrkostenabzugs wird von 220 Arbeitstagen pro Kalenderjahr (Vollzeitstelle) ausgegangen, sofern nicht eine höhere Anzahl nachgewiesen wird. Homeoffice-Tage und Tage ohne
+    Arbeitsleistung zählen nicht.
   gilt_fuer: kanton
-  status: offen
-  bemerkung: StB 39 Nr. 8 rechnet in einem Beispiel mit 220 Arbeitstagen (sg-stb-39-8__c0015), das ist keine Regel. Wegleitung 2026 noch nicht publiziert.
+  status: extrahiert
+  bemerkung: Gefunden in StB 39 Nr. 3 Ziff. 2.7 (gilt 2025/2026); ergänzt durch Prüfung.
+  rechtsgrundlage: StB 39 Nr. 3 Ziff. 2.7
+  quellen:
+  - chunk: sg-stb-39-3__c0010
+    zitat: wird von 220
+  - chunk: sg-stb-39-3__c0010
+    zitat: pro Kalenderjahr (Vollzeitstelle) ausgegangen, sofern nicht eine höhere Anzahl
 - key: berufskosten.verpflegung.tag
   wert: 15
   einheit: CHF
@@ -69,7 +76,7 @@ werte:
     zitat: voller Abzug pro Hauptmahlzeit bzw. 15.-- Tag im Jahr 3'200.--
   - chunk: sg-stv__art-19
     zitat: Mehrkosten für Verpflegung werden nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: StB 39 Nr. 8 gilt 2025/2026; die Ansätze sind laut Weisung seit zehn Jahren unverändert (sg-stb-39-8__c0012).
 - key: berufskosten.verpflegung.jahr
   wert: 3200
@@ -80,7 +87,7 @@ werte:
   quellen:
   - chunk: sg-stb-39-8__c0012
     zitat: voller Abzug pro Hauptmahlzeit bzw. 15.-- Tag im Jahr 3'200.--
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
@@ -93,7 +100,7 @@ werte:
     zitat: halber Abzug pro Hauptmahlzeit bzw. 7.50 Tag 1'600.-- im Jahr
   - chunk: sg-stv__art-19
     zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant des Arbeitgebers eingenommen werden kann
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: berufskosten.verpflegung.verbilligt_jahr
   wert: 1600
@@ -104,7 +111,7 @@ werte:
   quellen:
   - chunk: sg-stb-39-8__c0012
     zitat: halber Abzug pro Hauptmahlzeit bzw. 7.50 Tag 1'600.-- im Jahr
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: berufskosten.schichtarbeit.tag
   wert: 15
@@ -117,7 +124,7 @@ werte:
     zitat: voller Abzug pro Hauptmahlzeit bzw. 15.-- Tag im Jahr 3'200.--
   - chunk: sg-stv__art-19
     zitat: bei durchgehender Schicht- oder Nachtarbeit
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Die Tabelle in StB 39 Nr. 8 führt «auswärtige Verpflegung bzw. Schicht- oder Nachtarbeit» unter denselben Ansätzen.
 - key: berufskosten.wochenaufenthalt.unterkunft
   wert: null
@@ -131,7 +138,7 @@ werte:
     zitat: Als notwendige Mehrkosten der Unterkunft gelten die ortsüblichen Mietkosten für ein Zimmer.
   - chunk: sg-stb-39-5__c0004
     zitat: Monatsmieten bis Fr. 800.--, an anderen Orten bis Fr. 500.-- allgemein anerkannt
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: berufskosten.wochenaufenthalt.verpflegung_jahr
   wert: 6400
@@ -144,7 +151,7 @@ werte:
     zitat: voller Abzug im Tag 30.-- im Jahr 6'400.--
   - chunk: sg-stv__art-20
     zitat: wird nach den für die direkte Bundessteuer massgebenden Pauschalansätzen bestimmt
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Gekürzter Abzug: 22.50/Tag bzw. 4''800 im Jahr (sg-stb-39-8__c0013).'
 - key: berufskosten.uebrige.satz
   wert: 10
@@ -158,7 +165,7 @@ werte:
     zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.–
   - chunk: sg-stb-39-9__c0001
     zitat: Fr. 700.-- zuzüglich 10 Prozent der Nettoeinkünfte, höchstens aber Fr. 2'400.--
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Formel fix + Satz: fix 700, Satz 10 %, max 2''400, kein Minimum.'
 - key: berufskosten.uebrige.fix
   wert: 700
@@ -169,7 +176,7 @@ werte:
   quellen:
   - chunk: sg-stv__art-21
     zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.–
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: berufskosten.uebrige.min
   wert: null
@@ -187,7 +194,7 @@ werte:
   quellen:
   - chunk: sg-stv__art-21
     zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.–
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: berufskosten.nebenerwerb.satz
   wert: 20
@@ -200,7 +207,7 @@ werte:
     zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
   - chunk: sg-stv__art-22
     zitat: werden die notwendigen Berufskosten nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Nebenamtliche Behördenmitglieder: zusätzlich pauschal bis Fr. 2''400 oder Fr. 60 je Sitzung (max. Fr. 4''000), Art. 22 Abs. 2 StV.'
 - key: berufskosten.nebenerwerb.min
   wert: 800
@@ -211,7 +218,7 @@ werte:
   quellen:
   - chunk: sg-stb-39-9__c0002
     zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: berufskosten.nebenerwerb.max
   wert: 2400
@@ -222,7 +229,7 @@ werte:
   quellen:
   - chunk: sg-stb-39-9__c0002
     zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: berufskosten.homeoffice
   wert: null
@@ -236,7 +243,7 @@ werte:
     zitat: Sie gelten grundsätzlich als mit der Pauschale abgegolten.
   - chunk: sg-stb-39-1__c0001
     zitat: Eine Kumu- lation der Pauschale mit einem Abzug der tatsächlichen Kosten für ein Arbeitszimmer ist nicht möglich.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Kein pauschaler Homeoffice-Abzug in den vorliegenden Quellen.
 - key: weiterbildung.max
   wert: 13000
@@ -248,7 +255,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-45-t4
     zitat: bis zum Gesamtbetrag von Fr. 13 000.– je Steuerpflichtigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Gesetzesfassung 1.1.2026 (Betrag gegenüber WL 2025 unverändert; MB 8/2026 listet keine Änderung). Pauschale ohne Nachweis (WL 2025: 400) nicht in Quelle 2026 verifiziert.'
 - key: versicherung.verheiratet
   wert: 6800
@@ -259,7 +266,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-45-t2
     zitat: bis zum Gesamtbetrag von Fr. 6800.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 3400.– für die übrigen Steuerpflichtigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: versicherung.verheiratet_ohne_vorsorge
   wert: 7900
@@ -271,7 +278,7 @@ werte:
   - chunk: sg-stg-2026__art-45-t2
     zitat: Diese Abzüge erhöhen sich um Fr. 1100.– für gemeinsam steuerpflichtige Ehegatten und um Fr. 500.– für die übrigen Steuerpflichtigen, wenn keine Beiträge nach Bst. d und e dieser Bestimmung abgezogen
       werden.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Wert 7''900 ist Summe aus Grundbetrag 6''800 und gesetzlicher Erhöhung 1''100 (berechnet). Zuschlag allein: 1''100.'
 - key: versicherung.alleinstehend
   wert: 3400
@@ -282,7 +289,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-45-t2
     zitat: bis zum Gesamtbetrag von Fr. 6800.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 3400.– für die übrigen Steuerpflichtigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: versicherung.alleinstehend_ohne_vorsorge
   wert: 3900
@@ -294,7 +301,7 @@ werte:
   - chunk: sg-stg-2026__art-45-t2
     zitat: Diese Abzüge erhöhen sich um Fr. 1100.– für gemeinsam steuerpflichtige Ehegatten und um Fr. 500.– für die übrigen Steuerpflichtigen, wenn keine Beiträge nach Bst. d und e dieser Bestimmung abgezogen
       werden.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Wert 3''900 ist Summe aus Grundbetrag 3''400 und gesetzlicher Erhöhung 500 (berechnet). Zuschlag allein: 500.'
 - key: versicherung.kind
   wert: 1100
@@ -305,31 +312,56 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-45-t2
     zitat: Sie erhöhen sich um Fr. 1100.– für jedes Kind, für das der Steuerpflichtige einen Kinderabzug geltend machen kann
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: saeule3a.max_mit_2saeule
-  wert: null
+  wert: 7258
   einheit: CHF
-  text: Maximalbeträge Säule 3a sind in StG/StV SG nicht beziffert (Verweis auf anerkannte Formen gebundener Selbstvorsorge nach Art. 82 BVG; Bundesrecht BVV 3).
+  text: 'Säule 3a (kleiner Abzug): Höchstabzug CHF 7''258 pro Jahr für Personen, die einer Vorsorgeeinrichtung der 2. Säule angehören. SG verweist für die abziehbaren Beiträge auf die anerkannten Formen
+    der gebundenen Selbstvorsorge nach Art. 82 BVG; Höchstbetrag nach BVV 3 (identisch mit DBG).'
   gilt_fuer: kanton
-  rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG
-  status: offen
-  bemerkung: 'Kein SG-Dokument für 2026 mit dem Betrag vorhanden. Vorjahr 2025: Betrag in WL SG 2025 (sg-wl-2025__c0094), nicht als 2026 bestätigt. Bundesvorgabe für 2026 in data/werte/bund prüfen.'
+  rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG i.V.m. Art. 82 BVG, Art. 7 BVV 3
+  status: extrahiert
+  bemerkung: 'Verweis auf DBG-Ansatz: StG SG beziffert den Betrag nicht, sondern verweist auf Art. 82 BVG; kantonaler Wert = Bundeswert 2026 (data/werte/bund/2026.yaml).'
+  quellen:
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: Einlagen, Prämien und Beiträge zum Erwerb von Ansprüchen auf Leistungen aus anerkannten Formen der gebundenen Selbstvorsorge nach Art. 82 BVG
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
+  - chunk: bund-wl-2a-2026__c0047
+    zitat: 'gehört: Höchstabzug von 7258 Fr. im Jahr;'
+  - chunk: bund-bvv3__art-7
+    zitat: jährlich bis 8 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG, wenn sie einer Vorsorgeeinrichtung nach Artikel 80 BVG angehören
 - key: saeule3a.max_ohne_2saeule
-  wert: null
+  wert: 36288
   einheit: CHF
-  text: 'Grosser Säule-3a-Betrag (ohne 2. Säule): in SG-Quellen 2026 nicht beziffert.'
+  text: 'Säule 3a (grosser Abzug) ohne 2. Säule: 20 % des Erwerbseinkommens, höchstens CHF 36''288 pro Jahr (Bundesrecht, Art. 82 BVG / BVV 3; SG übernimmt via Verweis).'
   gilt_fuer: kanton
-  rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG
-  status: offen
-  bemerkung: 'Vorjahr 2025: WL SG 2025 (sg-wl-2025__c0094), nicht als 2026 bestätigt. Wegleitung 2026 noch nicht publiziert.'
+  rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG i.V.m. Art. 82 BVG, Art. 7 BVV 3
+  status: extrahiert
+  bemerkung: 'Verweis auf DBG-Ansatz: StG SG beziffert den Betrag nicht, sondern verweist auf Art. 82 BVG; kantonaler Wert = Bundeswert 2026 (data/werte/bund/2026.yaml).'
+  quellen:
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: Einlagen, Prämien und Beiträge zum Erwerb von Ansprüchen auf Leistungen aus anerkannten Formen der gebundenen Selbstvorsorge nach Art. 82 BVG
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
+  - chunk: bund-wl-2a-2026__c0048
+    zitat: cher Erwerbstätigkeit), höchstens 36 288 Fr. im Jahr.
+  - chunk: bund-bvv3__art-7
+    zitat: jährlich bis 20 Prozent des Erwerbseinkommens, jedoch höchstens bis 40 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG
 - key: saeule3a.satz_ohne_2saeule
-  wert: null
+  wert: 20
   einheit: '%'
-  text: 'Prozentsatz des Erwerbseinkommens (ohne 2. Säule): in SG-Quellen 2026 nicht genannt.'
+  text: 'Säule 3a ohne 2. Säule: 20 % des Erwerbseinkommens, max. CHF 36''288 (Bundesrecht BVV 3; SG verweist auf Art. 82 BVG).'
   gilt_fuer: kanton
-  status: offen
-  bemerkung: Bundesrecht (BVV 3); Wegleitung SG 2026 noch nicht publiziert. Vorjahr 2025 siehe WL SG 2025.
+  status: extrahiert
+  bemerkung: 'Verweis auf DBG-Ansatz: StG SG beziffert den Betrag nicht, sondern verweist auf Art. 82 BVG; kantonaler Wert = Bundeswert 2026 (data/werte/bund/2026.yaml).'
+  rechtsgrundlage: Art. 45 Abs. 1 lit. e StG SG i.V.m. Art. 82 BVG, Art. 7 BVV 3
+  quellen:
+  - chunk: sg-stg-2026__art-45-t2
+    zitat: Einlagen, Prämien und Beiträge zum Erwerb von Ansprüchen auf Leistungen aus anerkannten Formen der gebundenen Selbstvorsorge nach Art. 82 BVG
+  - chunk: bund-bvv3__art-7
+    zitat: jährlich bis 20 Prozent des Erwerbseinkommens, jedoch höchstens bis 40 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG
 - key: saeule3a.einkauf
   wert: null
   einheit: Text
@@ -368,7 +400,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-45-t4
     zitat: Fr. 500.– abgezogen; ein gleicher Abzug wird bei erheblicher Mitarbeit
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Bei unterjähriger Steuerpflicht zeitanteilig kürzen (MB 8/2026 Ziff. 7, Ziff. 17).
 - key: drittbetreuung.max
   wert: 26800
@@ -379,7 +411,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-45-t3
     zitat: höchstens Fr. 26 800.– für jedes Kind, das mit dem Steuerpflichtigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Neu 2026 gemäss MB 8/2026 Ziff. 16.2 (sg-mb-8-2026__c0012; Zitat wegen Spaltenlayout nicht maschinell prüfbar); 2025: Fr. 26''700 laut Seed/WL 2025.'
 - key: drittbetreuung.altersgrenze
   wert: 14
@@ -390,7 +422,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-45-t3
     zitat: die Kosten der Betreuung von Kindern unter 14 Jahren durch Drittpersonen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: krankheitskosten.selbstbehalt_satz
   wert: 2
@@ -401,7 +433,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-46
     zitat: diese 2 Prozent der Nettoeinkünfte übersteigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: spenden.min
   wert: 100
@@ -412,7 +444,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-46
     zitat: wenn diese Leistungen im Steuerjahr Fr. 100.– erreichen, insgesamt höchstens 20 Prozent der Nettoeinkünfte
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: spenden.max_satz
   wert: 20
@@ -423,7 +455,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-46
     zitat: wenn diese Leistungen im Steuerjahr Fr. 100.– erreichen, insgesamt höchstens 20 Prozent der Nettoeinkünfte
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Bemessungsgrundlage sind die Nettoeinkünfte (nach Abzügen nach Art. 39–45 StG), nicht das Reineinkommen.
 - key: parteispenden.max
   wert: 10700
@@ -434,7 +466,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-45-t3
     zitat: bis zum Gesamtbetrag von Fr. 21 400.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 10 700.– für die übrigen Steuerpflichtigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'MB 8/2026 Ziff. 16.3 nennt «Höherer Abzug Parteispenden» (Betrag im Merkblatt-Chunk nicht lesbar). Seed führt 2025 mit 10''700/21''400, die Gesetzesfassung 1.1.2026 nennt dieselben Beträge:
     Abweichung Seed-Annahme «geändert» nicht bestätigt; Gesetz gilt.'
 - key: parteispenden.max_verheiratet
@@ -446,7 +478,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-45-t3
     zitat: bis zum Gesamtbetrag von Fr. 21 400.– für gemeinsam steuerpflichtige Ehegatten und von Fr. 10 700.– für die übrigen Steuerpflichtigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: liegenschaft.pauschale_neu
   wert: 20
@@ -460,7 +492,7 @@ werte:
     zitat: Pauschalabzug von 20 Prozent des Bruttomietertrags ohne Nebenkosten oder des angerechneten Eigenmietwerts
   - chunk: sg-stg-2026__art-44-t2
     zitat: einen Pauschalabzug geltend machen. Die Regierung legt diesen Pauschalabzug fest.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: SG kennt keine Staffelung nach Gebäudealter in Art. 29 StV. Weisung StB 44 Nr. 8 (Pauschalabzug) per 1.1.2026 «geringfügig überarbeitet» (sg-stb-aenderungen-2026__c0003), StB 44 Nr. 2 mit Praxisänderungen
     (Abschaffung wirtschaftlicher Neubau); Inhalt nicht im Wiki, bei Bedarf Originalweisung prüfen.
 - key: liegenschaft.pauschale_alt
@@ -472,7 +504,7 @@ werte:
   quellen:
   - chunk: sg-stv__art-29
     zitat: Pauschalabzug von 20 Prozent des Bruttomietertrags ohne Nebenkosten oder des angerechneten Eigenmietwerts
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Schlüssel aus ZH-Systematik übernommen; SG hat einen einheitlichen Satz.
 - key: liegenschaft.eigenmietwert_abzug
   wert: 30
@@ -486,7 +518,7 @@ werte:
     zitat: wird um 30 Prozent herabgesetzt
   - chunk: sg-stv__art-14
     zitat: das steuerbare Vermögen des Steuerpflichtigen höchstens Fr. 600 000.– beträgt
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Kein Abzug auf Zweitliegenschaften. Härtefallregel: StB 34 Nr. 1.'
 - key: sozialabzug.kind
   wert: null
@@ -504,7 +536,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-48
     zitat: Fr. 7600.– für jedes unter der elterlichen Sorge oder Obhut des Steuerpflichtigen stehende Kind, das noch nicht schulpflichtig ist
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Bei unterjähriger Steuerpflicht anteilmässig (Art. 48 Abs. 3 StG); satzbestimmend voller Betrag.
 - key: sozialabzug.kind_schule
   wert: 10800
@@ -517,7 +549,7 @@ werte:
     zitat: Fr. 10 800.– für jedes unter der elterlichen Sorge oder Obhut des Steuerpflichtigen stehende oder volljährige Kind
   - chunk: sg-mb-8-2026__c0006
     zitat: Fr. 10’800 ÷ 360 × 180 Tage
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Unverändert gegenüber 2025; in MB 8/2026 Ziff. 11 nicht als geändert aufgeführt.
 - key: sozialabzug.kind_ausbildung
   wert: 10800
@@ -528,7 +560,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-48
     zitat: Fr. 10 800.– für jedes unter der elterlichen Sorge oder Obhut des Steuerpflichtigen stehende oder volljährige Kind
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Gleicher Betrag wie sozialabzug.kind_schule (eine gesetzliche Ziffer).
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: 13800
@@ -539,7 +571,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-48
     zitat: höchstens weitere Fr. 13 800.– für Ausbildungskosten
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Neu 2026 gemäss MB 8/2026 Ziff. 23.3 (sg-mb-8-2026__c0013; Zitat wegen Layout nicht maschinell prüfbar); 2025: 13''700. Selbstbehalt Fr. 3''200 unverändert (Gesetzestext).'
 - key: sozialabzug.unterstuetzung
   wert: null
@@ -578,7 +610,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-64
     zitat: für jeden Steuerpflichtigen Fr. 75 000.–
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Vermögenssteuer-Einheitssatz 1,7 Promille (Art. 65 StG; sg-stg-2026__art-65). Restbeträge unter Fr. 1'000 fallen ausser Betracht.
 - key: vermoegen.freibetrag_verheiratet
   wert: 150000
@@ -589,7 +621,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-64
     zitat: für jeden Steuerpflichtigen Fr. 75 000.–
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 150'000 ist berechnet (2 x 75'000); das Gesetz nennt keinen separaten Ehegattenbetrag. WL 2025 Ziff. 36 nennt 150'000 gemeinsam (Vorjahresbestätigung).
 - key: vermoegen.freibetrag_kind
   wert: 20000
@@ -600,7 +632,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-64
     zitat: zusätzlich Fr. 20 000.–
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: steuerfrei.feuerwehrsold
   wert: 5300
@@ -611,7 +643,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-37-t2
     zitat: der Sold der Milizfeuerwehrleute bis zum Betrag von Fr. 5300.–
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: steuerfrei.grossspielgewinn
   wert: 1070900
@@ -624,7 +656,7 @@ werte:
     zitat: die einzelnen Gewinne bis zum Betrag von Fr. 1 070 900.–
   - chunk: sg-mb-8-2026__c0009
     zitat: soweit > Fr. 1’070’900
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Gemäss MB 8/2026 Ziff. 11 neu/Änderung 2026. Einsatzkosten: 5 % der Gewinne, max. Fr. 5''400 (Art. 45 Abs. 3); Online-Spielbank: abgebuchte Einsätze, max. Fr. 26''800.'
 - key: steuerfrei.kleingewinn
   wert: 1100
@@ -638,7 +670,7 @@ werte:
     zitat: sofern die Grenze von Fr. 1100.– nicht überschritten wird
   - chunk: sg-mb-8-2026__c0009
     zitat: wenn > Fr. 1’100 (Freigrenze)
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Freigrenze, nicht Freibetrag: bei Überschreitung ist der gesamte Gewinn steuerbar.'
 - key: tarif.steuerfuss_kanton
   wert: 105
@@ -649,7 +681,7 @@ werte:
   quellen:
   - chunk: sg-steuerfuesse-2026__c0001
     zitat: Die Kantonssteuer beträgt 105 Prozent.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Steuerfüsse 2026 (KStA, 30.9.2026). Aktualisierung Kantonssteuerfuss in StB 6 Nr. 1 per 1.1.2026.
 - key: tarif.steuerfrei_alleinstehend
   wert: 11600
@@ -663,7 +695,7 @@ werte:
     zitat: 0 Prozent für die ersten · Fr. 11 600.–
   - chunk: sg-vkp__c0001
     zitat: Anpassung der Tarifstufen und Abzüge der Einkommens- steuer der natürlichen Personen an den Landesindex der Konsumentenpreise
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Taxonomie-Schlüssel ist als Bundes-Schlüssel beschrieben, hier sinngemäss für den kantonalen Tarif genutzt. Tarifstufen 2026 aus StG-Jahresversion (indexiert nach VKP, in Vollzug ab 1.1.2026).
 - key: tarif.steuerfrei_verheiratet
   wert: 23200
@@ -686,7 +718,7 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-50
     zitat: Für steuerbare Einkommen über Fr. 264 500.– beträgt die einfache Steuer für das ganze Einkommen 8,5 Prozent.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Kein klassischer Höchstsatz, sondern Flat-Satz 8,5 % auf das ganze Einkommen.
 - key: tarif.hoechstsatz_ab_verheiratet
   wert: 529000
@@ -728,7 +760,7 @@ werte:
     zitat: Fristverlängerung kann nur gewährt werden, wenn die fälligen Steuerrechnungen bezahlt sind.
   - chunk: sg-info-fristverlaengerung__c0002
     zitat: Das Gesuch wird interaktiv bewilligt bzw. abgelehnt.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Dauer/Kosten sowie Sonderregel für Treuhänder in den Quellen nicht genannt (offen). Info-Seite gilt für 2025/2026.
 - key: verfahren.abgabeweg
   wert: null
@@ -767,7 +799,7 @@ werte:
     zitat: Sie ist bis Ende März zu bezahlen.
   - chunk: sg-stg-2026__art-214
     zitat: wird eine Zahlungsfrist von dreissig Tagen gewährt
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ''
 - key: bezug.verzugszins
   wert: null
@@ -796,5 +828,5 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-212
     zitat: zulasten des Steuerpflichtigen auf dem veranlagten Steuerbetrag ab dem Verfalltag
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Regel extrahiert, Zinssatz offen.

@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0025
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 4.3.4 Heim- und Entlastungsaufenthalte"
 ziffer: "4.3.4"
 seiten: "8-9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8–9
+> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.3 Kategorien · S. 8–9
 
 4.3.4   Kosten für Heim- und Entlastungsaufenthalte
 Die Kosten, Taxen und Gebühren für den Aufenthalt in einem Wohnheim für Personen mit

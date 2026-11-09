@@ -79,6 +79,17 @@ def fmt_wert(r) -> str:
     return str(w) + (f" ({t})" if t else "")
 
 
+def sx(x) -> str:
+    """Listeneintrag als Text (YAML kann «Titel: …» als dict lesen)."""
+    if isinstance(x, dict):
+        return "; ".join(f"{k}: {v}" for k, v in x.items())
+    return str(x)
+
+
+def sj(items, sep=", ") -> str:
+    return sep.join(sx(i) for i in (items or []))
+
+
 def fm(d: dict) -> str:
     return "---\n" + yaml.safe_dump(d, allow_unicode=True, sort_keys=False, width=1000).strip() + "\n---\n"
 
@@ -237,8 +248,8 @@ def write_belege(B, Z):
         if rel_ == "nein":
             L += ["| Dokument | Erkennen an | Warum nicht relevant | Quelle |", "|---|---|---|---|"]
             for b in rs:
-                L.append(f"| **{b.get('name')}** <small>`{b['id']}`</small> | {', '.join(b.get('erkennen') or [])} | "
-                         f"{b.get('bedingung') or b.get('begruendung') or ''} | {qlinks(b)} |")
+                L.append(f"| **{b.get('name')}** <small>`{b['id']}`</small> | {sj(b.get('erkennen'))} | "
+                         f"{sx(b.get('bedingung') or b.get('begruendung') or '')} | {qlinks(b)} |")
         else:
             L += ["| Dokument | Erkennen an | Wofür / Positionen | Was extrahieren | Hinweise (Kantone) | Quelle |", "|---|---|---|---|---|---|"]
             for b in rs:
@@ -248,12 +259,12 @@ def write_belege(B, Z):
                     zs = [r.get("ziffer") for r in Z[(kt, jahr)].get("positionen") or [] if b["id"] in (r.get("belege") or [])]
                     if zs:
                         ziff.append(f"[{JUR_SHORT[kt]} {jahr}](zuordnung-{kt}-{jahr}.md): {', '.join(dict.fromkeys(zs))}")
-                hin = list(b.get("hinweise") or [])
+                hin = [sx(h) for h in (b.get("hinweise") or [])]
                 for kt, txt in (b.get("kantone") or {}).items():
                     hin.append(f"**{JUR_SHORT.get(kt, kt)}:** {txt}")
                 cond = f"<br>**Bedingung:** {b['bedingung']}" if rel_ == "bedingt" and b.get("bedingung") else ""
-                L.append(f"| **{b.get('name')}** <small>`{b['id']}`</small>{cond} | {', '.join(b.get('erkennen') or [])} | "
-                         f"{pos}{('<br>' + '<br>'.join(ziff)) if ziff else ''} | {'<br>'.join(b.get('extrahieren') or [])} | "
+                L.append(f"| **{b.get('name')}** <small>`{b['id']}`</small>{cond} | {sj(b.get('erkennen'))} | "
+                         f"{pos}{('<br>' + '<br>'.join(ziff)) if ziff else ''} | {sj(b.get('extrahieren'), '<br>')} | "
                          f"{'<br>'.join(hin)} | {qlinks(b)} |")
         L.append("")
     (Q / "belege-relevanz.md").write_text("\n".join(L), encoding="utf-8")

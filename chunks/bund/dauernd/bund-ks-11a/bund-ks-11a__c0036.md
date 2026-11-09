@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0036
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 5.1 Ergänzungsleistungen und Pauschalen"
 ziffer: "5.1"
 seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 5 Abzugsfähige Kosten › 5.1 Selbstgetragene Kosten · S. 11
+> Bund · Steuerjahr 2027 · KS 11a · 5 Abzugsfähige Kosten › 5.1 Selbstgetragene Kosten · S. 11
 
 Jährliche Ergänzungsleistungen gemäss Artikel 3 Absatz 1 Buchstabe a des Bundesgesetzes
 vom 6. Oktober 2006 über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenver

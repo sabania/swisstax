@@ -816,8 +816,7 @@
   jurisdiktion: bund
   ordner_jahr: dauernd
   jahre:
-  - 2025
-  - 2026
+  - 2027
   typ: kreisschreiben
   kurz: KS 11a
   titel: 'ESTV-Kreisschreiben Nr. 11a: Krankheits-, Unfall- und behinderungsbedingte Kosten'
@@ -830,7 +829,8 @@
   sha256: 156ee589061806b10452536bffe36adaf0ff8ecad0886415fd4e7b34231fcd64
   bytes: 298198
   abgerufen: '2026-11-09'
-  hinweis: ersetzt KS 11 (publiziert 26.05.2026); Praxisänderung gilt grundsätzlich für alle offenen Veranlagungen
+  hinweis: gilt gemäss Ziff. 7 erst ab Steuerperiode 2027; für 2025/2026 gilt KS 11 vom 31.8.2005 (bund-ks-11)
+  gilt_ab: '2027-01-01'
 - id: bund-ks-17
   jurisdiktion: bund
   ordner_jahr: dauernd
@@ -2386,6 +2386,7 @@
   sha256: 1a4b080dea44abbcdd44b9c8a88d39cf88254f5753023bd8b312febd4b78c7f4
   bytes: 62774
   abgerufen: '2026-11-09'
+  hinweis: Fassung geändert per 01.10.2025 (Ausgabe 2026-09); ältere Versionen als PDF auf der Seite verlinkt
 - id: tg-stp-29-2
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2471,11 +2472,11 @@
   sha256: 5fc14ff06e80602463835365d1c9979fe70d0d6eb806eae5bd1a3b6ec6844e54
   bytes: 70389
   abgerufen: '2026-11-09'
+  hinweis: Fassung geändert per 01.10.2025 (Ausgabe 2026-09); ältere Versionen als PDF auf der Seite verlinkt
 - id: tg-stp-34-24
   jurisdiktion: tg
   ordner_jahr: dauernd
   jahre:
-  - 2025
   - 2026
   typ: praxis
   kurz: StP 34 Nr. 24
@@ -2488,6 +2489,8 @@
   sha256: e9f8af5c56c0d265dcb1341eecdb403177aad30bb506e4d555c42d4d58f9e6f8
   bytes: 70299
   abgerufen: '2026-11-09'
+  gilt_ab: '2026-01-01'
+  hinweis: Fassung geändert per 01.01.2026 und 11.08.2026; für Steuerjahr 2025 gilt tg-stp-34-24-bis-2025 (Version 1.7.2024)
 - id: tg-stp-34-25
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2539,6 +2542,7 @@
   sha256: 6fe995beea61696de9327ea7e5cb956c0ead47359f8345f2cd07163efe3520b6
   bytes: 65328
   abgerufen: '2026-11-09'
+  hinweis: Fassung geändert per 01.10.2025 (Ausgabe 2026-09); ältere Versionen als PDF auf der Seite verlinkt
 - id: tg-stp-36-2
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -4920,4 +4924,51 @@
   hinweis: nur als Original abgelegt; Konkordanz siehe data/konkordanz-positionen-2025.csv
   sha256: 489cf92e7c7fc882a614754d5f617061d7b2500503446864d75b9f1f40989abe
   bytes: 1097587
+  abgerufen: '2026-11-09'
+- id: bund-ks-11
+  jurisdiktion: bund
+  ordner_jahr: dauernd
+  jahre:
+  - 2025
+  - 2026
+  typ: kreisschreiben
+  kurz: KS 11
+  titel: 'ESTV-Kreisschreiben Nr. 11: Abzug von Krankheits- und Unfallkosten sowie behinderungsbedingten Kosten (31.08.2005; gilt bis Steuerperiode 2026)'
+  url: https://www.estv.admin.ch/dam/de/sd-web/aVpMnA7YXyaD/dbst-ks-2005-1-011-d-de.pdf
+  format: pdf
+  verarbeitung: chunk
+  stand: '2005-08-31'
+  hinweis: wird ab Steuerperiode 2027 durch KS 11a ersetzt
+  sha256: f6471011095a9ee190d6eea31d87f4986050136b67ce3e05541ec1357317ded4
+  bytes: 277823
+  abgerufen: '2026-11-09'
+- id: bund-ks-18
+  jurisdiktion: bund
+  ordner_jahr: dauernd
+  jahre:
+  - 2025
+  typ: kreisschreiben
+  kurz: KS 18
+  titel: 'ESTV-Kreisschreiben Nr. 18: Steuerliche Behandlung von Vorsorgebeiträgen und -leistungen der Säule 3a (2008; gilt bis Steuerperiode 2025)'
+  url: https://www.estv.admin.ch/dam/de/sd-web/WgoQKXnb7PCr/dbst-ks-2008-1-018-dv-de.pdf
+  format: pdf
+  verarbeitung: chunk
+  hinweis: ab 1.1.2026 durch KS 18a ersetzt
+  sha256: 90799b89c9672444b9e9c75dd6c75faff92526cdf265457437cd8edbe62f40e5
+  bytes: 272484
+  abgerufen: '2026-11-09'
+- id: tg-stp-34-24-bis-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: praxis
+  kurz: StP 34 Nr. 24 (V 1.7.2024)
+  titel: 'StP 34 Nr. 24: Drittbetreuungskosten – Version gültig ab 01.07.2024 (bis 31.12.2025)'
+  url: https://steuerpraxis.tg.ch/__attachments/a_c033062393e77a7606051891217c6442ea0e27915c27fc6b1e67102c7f97b129/034-24-V2024-07.01.pdf?cb=310bb24211309ff1a06e632ec6fb3211
+  format: pdf
+  verarbeitung: chunk
+  version_von: tg-stp-34-24
+  sha256: 5312898234fa8457debc3102c1c4415c5df3890fe1b9ec367061d8669b62eb0b
+  bytes: 289003
   abgerufen: '2026-11-09'

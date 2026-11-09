@@ -23,7 +23,8 @@ belege:
   - 'Private Schuldzinsen sind begrenzt auf die steuerbaren Vermögenserträge (Wertschriften, Liegenschaften) plus Fr. 50''000 (Art. 33 Abs. 1 lit. a DBG und kantonal gleich); Rechner: Zinsabzug = min(bezahlte
     Zinsen; Vermögenserträge + 50''000).'
   - 'Zinsen und Saldo gehören zusammen: Schuld per 31.12. (Vermögen) und Zinsen des Jahres (Einkommen) aus demselben Beleg; Schuldenverzeichnis ist der Steuererklärung beizulegen.'
-  - Baurechtszinsen selbstgenutzter Eigenheime sind im Eigenmietwert berücksichtigt und nicht als Schuldzins abziehbar (SG, AR); bei Fremdvermietung abziehbar (TG).
+  - 'Baurechtszinsen selbstgenutzter Eigenheime sind im Eigenmietwert berücksichtigt und nicht als Schuldzins abziehbar (SG, AR); bei Fremdvermietung abziehbar (TG); ZH: Baurechtszinsen sind bei den Liegenschaftsunterhaltskosten
+    geltend zu machen und fallen nicht unter die Schuldzinsen-Beschränkung (WL ZH 2025 Ziff. 12).'
   - Bei Solidarschulden (Ehepaar/Miteigentum) Anteil der steuerpflichtigen Person beachten.
   kantone:
     ZH: Mehrere Positionen sind in einer separaten Aufstellung oder im Schuldenverzeichnis aufzuführen und der Steuererklärung beizulegen; Amortisationen und Leasingraten nicht abzugsberechtigt (WL ZH 2025
@@ -42,7 +43,17 @@ belege:
     zitat: Schuldzinsen, die als Anlagekosten gelten (ausser Baukreditzinsen; diese sind
   - chunk: tg-wl-2025__c0171
     zitat: Unerlässlich ist insbesondere die Angabe der Gläubigerin bzw. des Gläubigers
-  status: extrahiert
+  - chunk: zh-wl-2025__c0074
+    zitat: mögen (inkl. Eigenmietwert) und weiterer CHF 50’000 nicht übersteigen
+  - chunk: zh-wl-2025__c0074
+    zitat: Baurechtszinsen sind bei den Liegenschaftenunterhaltskosten geltend zu machen
+  - chunk: sg-wl-2025__c0083
+    zitat: Schuldzinsen, die als Anlagekosten gelten (namentlich Baukreditzinsen);
+  - chunk: tg-wl-2025__c0173
+    zitat: ebenso wenig Bau- und Landkreditzinsen während der Bauphase
+  status: agent-geprueft
+  bemerkung: 'Hinweis ZH-Zitat (zh-wl-2025__c0073): Der Satzanfang «Nicht» steht im PDF-Layout (S. 14) in einer vorangehenden Zeile; der Satz lautet vollständig «Nicht abzugsberechtigt sind Amortisationen
+    (Schuldrückzahlungen) sowie Leasingraten (mit den darin enthaltenen Zinsanteilen).»'
 - id: kredit-darlehen-schuldzinsen
   name: Kredit-/Darlehensvertrag, Privatkredit, Lombard-, Konsum- oder Familiendarlehen (Zinsbescheinigung)
   erkennen:
@@ -61,7 +72,7 @@ belege:
   - Restschuld per 31.12. – ins Schuldenverzeichnis
   - Im Steuerjahr bezahlte Zinsen (ohne Kapitalrückzahlung, ohne Gebühren/Leasingraten)
   - Gläubiger mit Name und Adresse, Zinssatz, Zweck/Datum der Aufnahme
-  - 'Bei Darlehen unter Nahestehenden: schriftlicher Vertrag, marktübliche Bedingungen'
+  - 'Bei Darlehen unter Nahestehenden (insbesondere von Kapitalgesellschaften an Beteiligte): Vertrag und marktübliche Bedingungen belegen (Art. 33 Abs. 1 lit. a DBG, 2. Satz)'
   hinweise:
   - Die Schuld muss steuerlich anerkannt sein (Kapitalforderung als Schuld anerkannt); bei Privatdarlehen Gläubiger und Zinssatz belegen.
   - Private Schuldzinsen sind auf Vermögenserträge plus Fr. 50'000 begrenzt (Art. 33 Abs. 1 lit. a DBG, kantonal analog).
@@ -82,7 +93,9 @@ belege:
     zitat: und unbeweglichem Vermögen und weiterer Fr. 50 000 in Abzug bringen
   - chunk: bund-dbg-2025__art-33-t1
     zitat: die privaten Schuldzinsen im Umfang der nach den Artikeln 20, 20a und 21 steuerbaren Vermögenserträge und weiterer 50 000 Franken
-  status: extrahiert
+  - chunk: zh-wl-2025__c0074
+    zitat: mögen (inkl. Eigenmietwert) und weiterer CHF 50’000 nicht übersteigen
+  status: agent-geprueft
 - id: leasingvertrag
   name: Leasingvertrag Fahrzeug / Leasingraten-Abrechnung
   erkennen:
@@ -125,6 +138,9 @@ belege:
   - chunk: zh-wl-2025__c0140
     zitat: Nicht deklariert werden müssen geleaste Fahrzeuge.
   status: extrahiert
+  bemerkung: 'Hinweis ZH-Zitat (zh-wl-2025__c0073): Der Satzanfang «Nicht» steht im PDF-Layout (S. 14) in einer vorangehenden Zeile; der Satz lautet vollständig «Nicht abzugsberechtigt sind Amortisationen
+    (Schuldrückzahlungen) sowie Leasingraten (mit den darin enthaltenen Zinsanteilen).» Aussage zur Abgeltung der Leasingkosten durch den Kilometeransatz ist in den zitierten Chunks nicht belegt (Praxis,
+    nachprüfen).'
 - id: liegenschaft-unterhaltsrechnungen
   name: Handwerker- und Unterhaltsrechnungen Liegenschaft (Reparaturen, Renovationen, Energiespar-/Umweltschutzmassnahmen)
   erkennen:
@@ -172,7 +188,11 @@ belege:
     zitat: nicht übersteigt
   - chunk: tg-stv__par-9
     zitat: für mehr als zehn Jahre alte Gebäude 20 Prozent des Bruttomietertrages
-  status: extrahiert
+  - chunk: zh-zstb-30-3__c0038
+    zitat: Der Pauschalabzug beträgt 20 Prozent des jährlichen Bruttomietertrages bzw. Eigenmietwertes
+  - chunk: bund-dbg-2025__art-32-t1
+    zitat: in den zwei nachfolgenden Steuerperioden abziehbar
+  status: agent-geprueft
 - id: liegenschaft-schaetzung-eigenmietwert
   name: Schätzungsprotokoll / Steuerwert- und Eigenmietwert-Verfügung Liegenschaft (amtliche Schätzung, Liegenschaftssteuerrechnung)
   erkennen:
@@ -195,17 +215,19 @@ belege:
   - 'Bei Neu-/Umbauten: Baukosten und Fertigstellungsdatum für den Zuschlag zum Steuerwert'
   hinweise:
   - Massgebend ist grundsätzlich der am Ende der Steuerperiode rechtskräftig eröffnete Wert; die Schätzung nicht selbst berechnen, ausser Neu-/Anbauten ohne neue Schätzung (kantonale Zuschläge).
-  - 'Der Eigenmietwert ist Einkommen (Art. 21 Abs. 1 lit. b DBG); Steuerwert ist Vermögen (Kanton, nicht Bund). Eigenmietwert bei dauernd selbstbewohntem Eigenheim: Kantone unterschiedlich (AR 20 % Abzug;
-    ZH Weisung).'
+  - 'Der Eigenmietwert ist Einkommen (Art. 21 Abs. 1 lit. b DBG); Steuerwert ist Vermögen (Kanton, nicht Bund). Eigenmietwert bei dauernd selbstbewohntem Eigenheim: Kantone unterschiedlich (AR Abzug 20
+    %, SG Herabsetzung um 30 %, TG Abzug 40 %, ZH Weisung ohne pauschalen Einschlag; Bund kein prozentualer Abzug).'
   - 'Aussen-/Auslandsliegenschaften: Steuerwert des Belegenheitskantons, Veranlagungsbehörde nimmt Repartitionswert vor (TG).'
-  - 'Reform Eigenmietwert: Abschaffung des Eigenmietwerts durch den Bundesrat auf den 1.1.2029 angekündigt – für Steuerjahre 2025/2026 gilt der Eigenmietwert unverändert (Quelle: Medienmitteilung); ZH hat
-    ab 2026 eine neue Bewertungsweisung (Weisung 2026) – Einzelheiten und Übergangsregelung in data/werte prüfen (nicht in diesem Beleg bestätigt).'
+  - 'Reform Eigenmietwert: Der Bundesrat hat am 1.4.2026 beschlossen, die Abschaffung der Eigenmietwertbesteuerung auf den 1.1.2029 in Kraft zu setzen – für die Steuerjahre 2025/2026 gilt der Eigenmietwert
+    unverändert. ZH hat ab 2026 eine neue Bewertungsweisung (Neubewertung 2026) – Einzelheiten und Übergangsregelung in data/werte prüfen (nicht in diesem Beleg bestätigt).'
   kantone:
     ZH: 'Weisung 2009 (bis Steuerjahr 2025): schematische Ermittlung; liegt der Wert über 70 % oder unter 60 % der Marktmiete, ist eine individuelle Schätzung vorzunehmen (Weisung 2009 ZH Ziff. 83).'
-    SG: Der massgebliche Steuerwert wird vom Gemeindesteueramt eröffnet; bei Neu-/Anbauten ohne Schätzung Zuschlag von 80 % der Neu-/Anbaukosten zum Verkehrswert (WL SG 2025 Formular 7 A).
+    SG: 'Der massgebliche Steuerwert wird vom Gemeindesteueramt eröffnet; bei Neu-/Anbauten ohne Schätzung Zuschlag von 80 % der Neu-/Anbaukosten zum Verkehrswert (WL SG 2025 Formular 7 A). Eigenmietwert
+      des dauernd selbstbewohnten Eigenheims: Herabsetzung um 30 % (Art. 34 Abs. 3 StG SG).'
     AR: Eigenmietwert = Mietwert der letzten amtlichen Schätzung abzüglich 20 %; bei Zweit-/Ferienwohnungen und Landwirtschaft entfällt der Abzug; wertvermehrende Investitionen 2.8 % Zuschlag (WL AR 2025
       Formular 7 B).
-    TG: Massgebend ist der am Ende der Steuerperiode rechtskräftig eröffnete Mietwert (StP 23 Nr. 1 Ziff. 3.3); Steuerwert = rechtskräftiger amtlicher Verkehrswert (WL TG 2025 Formular 7).
+    TG: 'Massgebend ist der am Ende der Steuerperiode rechtskräftig eröffnete Mietwert (StP 23 Nr. 1 Ziff. 3.3); Steuerwert = rechtskräftiger amtlicher Verkehrswert (WL TG 2025 Formular 7). Eigenmietwert
+      des selbstgenutzten Wohneigentums: Abzug 40 % (§ 23 Abs. 3 StG TG).'
   quellen:
   - chunk: bund-dbg-2025__art-21
     zitat: der Mietwert von Liegenschaften oder Liegenschaftsteilen, die dem Steuerpflichtigen aufgrund von Eigentum
@@ -217,7 +239,13 @@ belege:
     zitat: Mietwert abzüglich 20 Prozent
   - chunk: tg-stp-23-1__c0004
     zitat: Massgebend für die Bewertung ist in der Regel der am Ende der zu bemessenden Steuerperiode rechtskräftige
-  status: extrahiert
+  - chunk: sg-stg-2025__art-34
+    zitat: um 30 Prozent herabgesetzt
+  - chunk: tg-stg__par-23
+    zitat: ein Abzug von 40 Prozent vorgenommen
+  - chunk: bund-mm-eigenmietwert-abschaffung__c0002
+    zitat: die Reform der Wohneigentumsbesteuerung auf den 1. Januar 2029 in Kraft zu setzen
+  status: agent-geprueft
 - id: liegenschaft-mietertraege
   name: Mietverträge / Mietzinsabrechnung / Mietzinsaufstellung (vermietete Liegenschaft, Garage, Ferienwohnung)
   erkennen:
@@ -257,7 +285,11 @@ belege:
     zitat: Steuerbar sind sämtliche Miet- und Pachtzinseinnahmen, die der Steuerpflichtige aus Grundeigentum
   - chunk: ar-wl-2025__c0170
     zitat: Kosten gelten als nicht abzugsfähige Lebenshaltungskosten.
-  status: extrahiert
+  - chunk: tg-wl-2025__c0224
+    zitat: Einspeisevergütungen für Photovoltaikanlagen sind steuerbar.
+  - chunk: bund-wl-2a-2025__c0031
+    zitat: Bei möblierten Ferienwohnungen sind in der Regel nur 4/5 der
+  status: agent-geprueft
 - id: liegenschaft-nebenkosten-gebaeudeversicherung
   name: Nebenkosten-, Versicherungs- und Verwaltungsabrechnungen Liegenschaft (Gebäudeversicherung, Grundstücksteuern, Hauswart, Verwalter)
   erkennen:
@@ -298,7 +330,9 @@ belege:
     zitat: Kosten gelten als nicht abzugsfähige Lebenshaltungskosten.
   - chunk: tg-stv__par-9
     zitat: die Versicherungsprämien, die Denkmalpflege sowie die Liegenschaftensteuer inbegriffen
-  status: extrahiert
+  - chunk: zh-wl-2025__c0184
+    zitat: prämien und die Kosten der Verwaltung durch Dritte abgezogen werden
+  status: agent-geprueft
 - id: kinderbetreuung-rechnungen
   name: Rechnungen Kinderbetreuung (Kita/Krippe, Tagesstätte, Tagesmutter, Hort, Tagesschule)
   erkennen:
@@ -327,8 +361,7 @@ belege:
     Obhut je hälftig).
   - Betreuungsperson darf bei Anstellung durch den Steuerpflichtigen nur mit Lohnabrechnung/Lohnausweis belegt werden.
   kantone:
-    ZH: 'Staatssteuer: StG-Fassung 2025 nennt höchstens Fr. 25 000 je Kind (§ 31 Abs. 1 lit. j), die WL ZH 2025 bestätigt CHF 25''000 Staat / CHF 25''800 Bund. STRITTIG: Der Auszug zh-vkp-2024-zstb (VKP/ZStB
-      48.1) nennt für denselben Absatz Fr. 10 400. Fachperson entscheidet; Betragsprüfung in data/werte.'
+    ZH: 'Staatssteuer: höchstens Fr. 25''000 je Kind (§ 31 Abs. 1 lit. j StG ZH, Stand 1.1.2025; WL ZH 2025 Ziff. 16.6: CHF 25''000 Staat / CHF 25''800 Bund).'
     SG: Maximal Fr. 26'700 pro Kind unter 14 Jahren (WL SG 2025 Ziff. 16.2, Formular 10); Vorname des Kindes, Höhe der Kosten, Name und Adresse der Betreuungsperson angeben.
     AR: Maximal Fr. 25'000 je Kind (Staat), Formular 10; Belege (Rechnungen, Quittungen, Lohnabrechnungen) auf Verlangen; Empfänger muss ersichtlich sein; erhaltene Beiträge nach Kinderbetreuungsgesetz
       sind abzuziehen (WL AR 2025 Ziff. 16.2).
@@ -338,8 +371,6 @@ belege:
     zitat: höchstens 25 800 Franken, für die Drittbetreuung jedes Kindes
   - chunk: zh-stg-2025__par-31-t4
     zitat: höchstens Fr. 25 000, für die Drittbetreuung jedes Kindes
-  - chunk: zh-vkp-2024-zstb__c0005
-    zitat: die nachgewiesenen Kosten, jedoch höchstens Fr. 10 400, für die
   - chunk: sg-wl-2025__c0092
     zitat: Ein Kinderbetreuungsabzug von maximal Fr. 26’700 pro Kind
   - chunk: ar-wl-2025__c0089
@@ -348,7 +379,16 @@ belege:
     zitat: maximal jedoch Fr. 10'100 in Abzug gebracht werden
   - chunk: bund-ks-30__c0044
     zitat: Kosten für die Betreuung durch die Eltern selbst sind nicht abzugsfähig.
-  status: strittig
+  - chunk: zh-wl-2025__c0106
+    zitat: Der Abzug beträgt höchstens CHF 25’000 (Staatssteuer) bzw.
+  - chunk: ar-stg__art-35-t4
+    zitat: höchstens Fr. 25 000.–, für die Drittbetreuung jedes Kindes
+  - chunk: tg-wl-2025__c0096
+    zitat: bringen, maximal jedoch Fr. 10'100.
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: Strittig-Vermerk aufgelöst. ZH Staatssteuer 2025 = Fr. 25''000 (StG ZH Stand 1.1.2025 und WL ZH 2025, zudem Fr. 25''000 als Basis der VKP ab 2026, die auf Fr. 25''300
+    indexiert). Der Auszug zh-vkp-2024-zstb__c0005 (ZStB 48.1, VKP ab 2024) nennt noch den überholten Betrag Fr. 10''400 und wurde als Quelle entfernt. Gegenprobe AR (Art. 35 StG AR: Fr. 25''000), TG (§
+    11c StV: Fr. 10''100) und SG (Fr. 26''700) bestätigt.'
 - id: weiterbildung-rechnungen
   name: Rechnungen und Belege Aus- und Weiterbildung (Kurse, Lehrgänge, Umschulung, Prüfungsgebühren)
   erkennen:
@@ -392,7 +432,9 @@ belege:
     zitat: auf jährlich maximal Fr. 13'000 pro Person beschränkt
   - chunk: bund-ks-42__c0001
     zitat: Nicht abzugsfähig sind Kosten für Aus- und Weiterbildungen, die nicht berufsorientiert sind
-  status: extrahiert
+  - chunk: sg-wl-2025__c0095
+    zitat: Nachweis pauschal Fr. 400
+  status: agent-geprueft
 - id: spendenbestaetigung
   name: Spendenbescheinigung / Spendenquittung gemeinnützige Organisation (Jahresübersicht)
   erkennen:
@@ -418,6 +460,7 @@ belege:
   - Pauschalabzüge mit Vermerk «Spenden an diverse Organisationen» werden nicht anerkannt (TG).
   - Die einzelnen Zuwendungen sind mit Name und Sitz der Organisation aufzulisten; Belege/Bescheinigungen auf Anforderung vorweisen können.
   - Freiwillige Zuwendungen sind steuerlich nicht abziehbar, wenn die Organisation nicht steuerbefreit ist (Steuerstatus beim Sitzkanton klären).
+  - 'SG: Zuwendungen für Kultuszwecke sind nicht abziehbar; die Leistung muss völlig uneigennützig sein (WL SG 2025 Ziff. 21.3).'
   kantone:
     ZH: Liste mit allen einzelnen Zuwendungen beilegen, Spendenbescheinigung auf Nachfrage vorweisen; Mindestens CHF 100, max. 20 % des Nettoeinkommens (Info ZH Spenden, WL ZH 2025 Ziff. 22.2). Belege erst
       auf Verlangen im Einschätzungsverfahren (WL ZH 2025 Beilagen).
@@ -439,7 +482,11 @@ belege:
     zitat: Soweit die freiwilligen Zuwendungen gesamthaft Fr. 200 übersteigen
   - chunk: tg-wl-2025__c0220
     zitat: Für Zuwendungen unter Fr. 1'000 sind keine Belege einzureichen.
-  status: extrahiert
+  - chunk: sg-wl-2025__c0102
+    zitat: Als freiwillige Zuwendungen gelten die freiwilligen Leistungen von Geld und
+  - chunk: sg-wl-2025__c0102
+    zitat: dungen für Kultuszwecke sind nicht abziehbar.
+  status: agent-geprueft
 - id: parteispende
   name: Bestätigung Mitgliederbeiträge und Zuwendungen an politische Parteien
   erkennen:
@@ -480,7 +527,9 @@ belege:
     zitat: Gesamtbetrag von Fr. 10’000.– (pro Steuererklärung) an politische Parteien
   - chunk: tg-wl-2025__c0219
     zitat: Maximalabzug beträgt bei den Staats- und Gemeindesteuern Fr. 10 000
-  status: extrahiert
+  - chunk: zh-wl-2025__c0100
+    zitat: Höchstbetrag von CHF 20’600 für in ungetrennter Ehe lebende Steuerpflichtige und von
+  status: agent-geprueft
 - id: unterhaltszahlungen-alimente
   name: Unterhaltsvereinbarung / Scheidungsurteil / Zahlungsnachweis Alimente (bezahlte und erhaltene Unterhaltsbeiträge)
   erkennen:
@@ -527,7 +576,9 @@ belege:
     zitat: Unterhaltsbeiträge, die an ein volljähriges Kind bezahlt werden, können einerseits
   - chunk: tg-wl-2025__c0087
     zitat: Kopie der entsprechenden Passagen des Scheidungs- oder Trennungsurteils
-  status: extrahiert
+  - chunk: tg-wl-2025__c0088
+    zitat: träge können längstens bis und mit dem Monat der Mündigkeit des Kindes abgezogen werden.
+  status: agent-geprueft
 - id: oev-abo
   name: ÖV-Abonnement (GA, Streckenabo, Verbundabo, Halbtax nur ergänzend) – Arbeitsweg
   erkennen:
@@ -549,8 +600,8 @@ belege:
   - 'Bei Wochenaufenthalt: Fahrkosten Wohnort – Wochenaufenthaltsort'
   - 'Lohnausweis Kästchen F: unentgeltliche Beförderung zwischen Wohn- und Arbeitsort'
   hinweise:
-  - 'Bei ständiger Benützung öffentlicher Verkehrsmittel: nachgewiesene (tatsächliche) Abonnementskosten, begrenzt durch den Maximalbetrag Fahrkosten des Kantons/Bundes (siehe kantone); Bund max. nach Berufskostenverordnung,
-    ZH CHF 3''300 Bund.'
+  - 'Bei ständiger Benützung öffentlicher Verkehrsmittel: nachgewiesene (tatsächliche) Abonnementskosten, begrenzt durch den Maximalbetrag Fahrkosten des Kantons/Bundes (siehe kantone); Bund max. CHF 3''300
+    (Art. 26 Abs. 1 lit. a DBG, 2025; ZH WL 2025).'
   - 'Das Abo ist mit dem Mittagsheimfahrt-Abzug zu koordinieren: Hin- und Rückfahrt in der Mittagspause maximal in Höhe der abzugsberechtigten Verpflegungskosten (ZH).'
   - Bei Velo/Kleinmotorrad (gelbes Kontrollschild) gilt die Pauschale von Fr. 700 pro Jahr statt der effektiven Kosten.
   - Mit Geschäftsfahrzeug oder gratis Beförderung durch den Arbeitgeber entfällt der Fahrkostenabzug (ZH WL, Lohnausweis Kästchen F).
@@ -572,7 +623,7 @@ belege:
     zitat: zur Arbeit bei den Staats- und Gemeindesteuern auf max. Fr. 6’000.–.
   - chunk: tg-stp-29-2__c0002
     zitat: die tatsächlich entstandenen (nachgewiesenen) Abonnementskosten abgezogen werden
-  status: extrahiert
+  status: agent-geprueft
 - id: fahrzeugausweis-arbeitsweg
   name: Fahrzeugausweis (Fahrzeugschein) / Kontrollschild-Nachweis, Fahrtenaufstellung für Auto oder Motorrad auf dem Arbeitsweg
   erkennen:
@@ -592,14 +643,15 @@ belege:
   - vermoegen.fahrzeuge
   extrahieren:
   - Fahrzeugart (Auto, Motorrad, Kleinmotorrad mit gelbem Schild), Halter, Kontrollschild, Jahrgang/Inverkehrsetzung
-  - 'Arbeitsweg: einfache Strecke in km, Anzahl Arbeitstage (ZH/SG in der Regel max. 220), Begründung für Privatfahrzeug'
+  - 'Arbeitsweg: einfache Strecke in km, Anzahl Arbeitstage (SG in der Regel max. 220), Begründung für Privatfahrzeug'
   - Verkehrswert/Restwert per 31.12. für die Vermögensdeklaration
   - 'Kennzeichen «Leasing» (Halter ist Leasinggesellschaft) → geleast: nicht im Vermögen'
   hinweise:
-  - 'Auto/Motorrad: Kilometerentschädigung Fr. 0.70/km (Auto) bzw. 0.40 (Motorrad) im Rahmen der Maximalbeträge, nur in begründeten Fällen (Formular 4/Begründungsfeld); Velo/Kleinmotorrad: Fr. 700 pro Jahr.'
+  - 'Auto/Motorrad: Kilometerentschädigung nur in begründeten Fällen (Formular 4/Begründungsfeld): AR Fr. 0.70/km Auto bzw. 0.40 Motorrad; SG einheitlich Fr. 0.70/km (2025; ab 2026 Fr. 0.75); Velo/Kleinmotorrad:
+    Fr. 700 pro Jahr. Ansätze der anderen Kantone und des Bundes aus data/werte verwenden.'
   - Das private Motorfahrzeug ist mit dem aktuellen Verkehrswert zu deklarieren; in der Regel Wertverminderung 40 % des Restwerts pro Jahr (ZH WL 2025 Ziff. 30.4). Geleaste Fahrzeuge nicht deklarieren.
   - 'Der Fahrzeugausweis allein ist nie ein Abzugsbeleg: Abzug folgt aus Arbeitsweg und Begründung; mit Lohnausweis (Kästchen F, Geschäftsfahrzeug) abgleichen.'
-  - Unterhalts-, Versicherungs-, Leasing- und Parkplatzkosten sind mit dem Kilometeransatz abgegolten und nicht zusätzlich abziehbar.
+  - Unterhalts-, Versicherungs-, Leasing- und Parkplatzkosten sind mit dem Kilometeransatz abgegolten und nicht zusätzlich abziehbar. (Praxis; in den zitierten Chunks nicht belegt, nachprüfen)
   kantone:
     ZH: 'Begründung für private Motorfahrzeuge im Formular 360 (Ziff. 7): Fehlen eines öV, Zeitersparnis über 1 Stunde, ständige Benützung während der Arbeitszeit, Krankheit mit Arztzeugnis; Velo/Kleinmotorrad
       CHF 700; Fahrkostenmaximum Staat CHF 5''200 / Bund CHF 3''300; Wertverminderung 40 % für Vermögen (WL ZH 2025).'
@@ -618,17 +670,18 @@ belege:
   - chunk: tg-wl-2025__c0178
     zitat: Die Kosten der Benützung von privaten Motorfahrzeugen können Sie nur in Ausnahmefällen
   status: extrahiert
+  bemerkung: 'Geprüft: Kilometeransätze/220 Tage auf belegte Kantone eingeschränkt; Aussage zur Abgeltung von Unterhalts-/Versicherungs-/Parkplatzkosten durch den Kilometeransatz nicht in Chunks belegt.'
 - id: spesenreglement
   name: Spesenreglement des Arbeitgebers (genehmigtes Spesenreglement, Spesenabrechnung, Pauschalspesen)
   erkennen:
   - Dokument «Spesenreglement» des Arbeitgebers; Vermerk «Spesenreglement durch Kanton XY am … genehmigt» (Lohnausweis Ziff. 15)
   - Arbeitgeber-Spesenabrechnung, Spesenpauschalen-Bestätigung, Reisekostenabrechnung
   - 'Typische Begriffe: Pauschalspesen, Repräsentationsspesen, Autospesen, übrige Spesen, effektive Spesen, Verpflegung auswärts, Übernachtung'
-  - Lohnausweis Ziff. 13 (Spesenvergütungen) mit Kreuz bei 13.1.1 «genehmigtes Spesenreglement» bzw. Betrag bei 13.2
+  - 'Lohnausweis Ziff. 13 (Spesenvergütungen): effektive Spesen 13.1, Pauschalspesen mit Betrag bei 13.2; Vermerk zum genehmigten Spesenreglement in Ziff. 15'
   relevanz: bedingt
   bedingung: 'Nur als Hilfsunterlage zum Lohnausweis (Ziff. 13): Entscheidend ist, ob die Spesen im Lohnausweis steuerfrei ausgewiesen sind (dann kein zusätzlicher Berufskostenabzug für dieselben Auslagen)
-    oder ob nicht ersetzte Berufsauslagen als zusätzliche Abzüge geltend gemacht werden. Ohne genehmigtes Spesenreglement sind Pauschalspesen quellensteuerlich/steuerlich nicht anerkannt; effektive Spesen
-    brauchen Einzelbelege.'
+    oder ob nicht ersetzte Berufsauslagen als zusätzliche Abzüge geltend gemacht werden. Ohne genehmigtes Spesenreglement unterliegen Pauschalspesen bei Quellenbesteuerten der Quellensteuer (KS 45 Ziff.
+    3.2.5); Pauschalen müssen in etwa den effektiven Auslagen entsprechen, effektive Spesen brauchen Einzelbelege.'
   zweck:
   - abzug
   - info
@@ -636,7 +689,7 @@ belege:
   - abzug.berufskosten.uebrige
   - einkommen.unselbstaendig.haupterwerb
   extrahieren:
-  - Vom Arbeitgeber vergütete Spesen laut Lohnausweis Ziff. 13.1 (effektiv) und 13.2 (Pauschal) – Betrag der Pauschalen und Kreuz bei genehmigtem Reglement
+  - Vom Arbeitgeber vergütete Spesen laut Lohnausweis Ziff. 13.1 (effektiv) und 13.2 (Pauschal) – Betrag der Pauschalen; Vermerk zum genehmigten Reglement in Ziff. 15
   - Genehmigungsvermerk des Kantons (Ziff. 15) und Gültigkeit
   - 'Nicht ersetzte Berufsauslagen: nur im Rahmen der Pauschal-/effektiven Berufskosten des Kantons'
   - 'Bei effektiven Spesen: Belege/Spesenabrechnungen des Arbeitgebers (Aufbewahrungspflicht)'
@@ -660,3 +713,5 @@ belege:
   - chunk: bund-ks-45__c0036
     zitat: Pauschalspesen der Quellensteuer zu unterwerfen
   status: extrahiert
+  bemerkung: 'Geprüft: Lohnausweis-Wegleitung liegt nur für 2026 vor (Praxis für 2025 inhaltlich gleich, nicht separat belegt); Kreuz bei 13.1.1 «genehmigtes Reglement» entfernt (Reglement-Vermerk steht
+    in Ziff. 15).'

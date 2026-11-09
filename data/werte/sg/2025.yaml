@@ -13,7 +13,7 @@ werte:
     zitat: die notwendigen Kosten für Fahrten zwischen Wohn- und Arbeitsstätte bis zum Betrag von Fr. 8000
   - chunk: sg-form-4-2025__c0002
     zitat: Zwischentotal Ziffern 1.1 – 1.3, max. Fr. 8'000 (siehe Wegleitung)
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Seit 1.1.2025 Fr. 8''000 (StB 39 Nr. 3: Maximalabzug 2025 Fr. 8''000, Bund Fr. 3''300).'
 - key: berufskosten.fahrkosten.auto_km
   wert: 0.7
@@ -25,8 +25,8 @@ werte:
   - chunk: sg-wl-2025__c0001
     zitat: 70 Rappen je Fahrkilometer
   - chunk: sg-stb-39-3__c0019
-    zitat: Für die Steuerperiode 2025 beträgt der Kilometeransatz
-  status: extrahiert
+    zitat: Für die Steuerperiode 2025 beträgt der Kilometeransatz Fr. --.70
+  status: agent-geprueft
   bemerkung: Ab Steuerperiode 2026 einheitlich Fr. 0.75 (StB 39 Nr. 3) - nicht auf 2025 übertragen.
 - key: berufskosten.fahrkosten.motorrad_km
   wert: 0.7
@@ -38,8 +38,8 @@ werte:
   - chunk: sg-wl-2025__c0001
     zitat: 70 Rappen je Fahrkilometer
   - chunk: sg-stb-39-3__c0019
-    zitat: Für die Steuerperiode 2025 beträgt der Kilometeransatz
-  status: extrahiert
+    zitat: Für die Steuerperiode 2025 beträgt der Kilometeransatz Fr. --.70
+  status: agent-geprueft
   bemerkung: 'WL 2025 nennt einen Ansatz für ''Motorfahrzeuge'' ohne Unterscheidung Auto/Motorrad; StB 39 Nr. 3 spricht von einheitlichem Ansatz. Kleinmotorrad bis 50 ccm (gelbes Schild): siehe velo_pauschale.'
 - key: berufskosten.fahrkosten.velo_pauschale
   wert: 700
@@ -52,7 +52,7 @@ werte:
     zitat: Bei Benützung eines Fahrrades oder Kleinmotorrades bis Fr.   700
   - chunk: sg-stb-39-3__c0003
     zitat: mehr als 10 Minuten benötigt
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.arbeitstage
   wert: 220
   einheit: Tage
@@ -62,7 +62,7 @@ werte:
   quellen:
   - chunk: sg-stb-39-3__c0010
     zitat: pro Kalenderjahr (Vollzeitstelle) ausgegangen, sofern nicht eine höhere Anzahl
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.tag
   wert: 15
   einheit: CHF
@@ -72,7 +72,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0002
     zitat: Abzug für Mehrkosten der Verpflegung Fr. 15 pro Tag
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.jahr
   wert: 3200
   einheit: CHF
@@ -82,7 +82,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0002
     zitat: Abzug für Mehrkosten der Verpflegung Fr. 15 pro Tag   max. Fr.   3’200
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bei Teilzeit/Homeoffice Kürzung nach Arbeitstagen (Beispiel StB 39 Nr. 8: 3''200 x (220 - 44) / 220).'
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
@@ -94,7 +94,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0078
     zitat: der halbe Abzug (Fr. 7.50 im Tag, Fr. 1’600 im Jahr) zulässig
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.verbilligt_jahr
   wert: 1600
   einheit: CHF
@@ -104,7 +104,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0078
     zitat: der halbe Abzug (Fr. 7.50 im Tag, Fr. 1’600 im Jahr) zulässig
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.schichtarbeit.tag
   wert: 15
   einheit: CHF
@@ -115,7 +115,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0079
     zitat: können für jeden Schichttag Fr. 15, bei ganzjähriger Schichtarbeit
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.wochenaufenthalt.unterkunft
   wert: null
   einheit: Text
@@ -128,7 +128,7 @@ werte:
     zitat: je nach Arbeitsort Fr. 500 bis Fr. 800 pro Monat
   - chunk: sg-stb-39-5__c0004
     zitat: Monatsmieten bis Fr. 800.--, an anderen Orten bis Fr. 500.-- allgemein anerkannt
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.wochenaufenthalt.verpflegung_jahr
   wert: 6400
   einheit: CHF
@@ -138,7 +138,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0081
     zitat: Für die auswärtige Verpflegung Fr. 30 im Tag, bei ganzjährigem Wochenaufenthalt
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Reduzierter Ansatz: Fr. 4''800 im Jahr (Fr. 22.50/Tag).'
 - key: berufskosten.uebrige.satz
   wert: 10
@@ -152,7 +152,7 @@ werte:
     zitat: Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400
   - chunk: sg-wl-2025__c0080
     zitat: Pauschale von Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2’400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.fix
   wert: 700
   einheit: CHF
@@ -162,7 +162,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0080
     zitat: Pauschale von Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2’400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.min
   wert: null
   einheit: CHF
@@ -180,7 +180,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0080
     zitat: Pauschale von Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2’400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.satz
   wert: 20
   einheit: '%'
@@ -193,7 +193,7 @@ werte:
     zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
   - chunk: sg-wl-2025__c0002
     zitat: Pauschalabzug 20% des Nettolohnes   mind. Fr. 800 max. Fr.   2’400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.min
   wert: 800
   einheit: CHF
@@ -203,7 +203,7 @@ werte:
   quellen:
   - chunk: sg-stb-39-9__c0002
     zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.max
   wert: 2400
   einheit: CHF
@@ -213,7 +213,7 @@ werte:
   quellen:
   - chunk: sg-stb-39-9__c0002
     zitat: sind 20% der Nettoeinkünfte, mindestens Fr. 800.-- und höchstens Fr. 2'400.-- abziehbar
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.homeoffice
   wert: null
   einheit: Text
@@ -225,7 +225,7 @@ werte:
   quellen:
   - chunk: sg-stb-39-1__c0005
     zitat: die Gesamtkosten durch die Anzahl Zimmer plus zwei geteilt werden
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Steuerbuch-Weisung (Version 1.1.2021). Kein Pauschalbetrag für Homeoffice.
 - key: weiterbildung.max
   wert: 13000
@@ -239,7 +239,7 @@ werte:
     zitat: bis zum Gesamtbetrag von Fr. 13 000
   - chunk: sg-wl-2025__c0094
     zitat: von maximal Fr. 13’000 pro Kalenderjahr und Person
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Pauschale ohne Nachweis: Fr. 400 (WL 2025 Ziff. 16.4, nur Kantons- und Gemeindesteuern; Bund nur effektive Kosten). Informatikmittel nur bei zwingender Anschaffung, 50 % bei privater Nutzbarkeit.'
 - key: versicherung.verheiratet
   wert: 6800
@@ -251,9 +251,9 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-45-t2
     zitat: bis zum Gesamtbetrag von Fr. 6800
-  - chunk: sg-wl-2025__c0097
-    zitat: Maximaler Abzug   Fr.   6’800   Fr.   3’400
-  status: extrahiert
+  - chunk: sg-wl-2025__c0003
+    zitat: maximaler Abzug   Fr. 6’800   Fr.   3’400
+  status: agent-geprueft
 - key: versicherung.verheiratet_ohne_vorsorge
   wert: 7900
   einheit: CHF
@@ -266,7 +266,7 @@ werte:
     zitat: Diese Abzüge erhöhen sich um Fr. 1100
   - chunk: sg-wl-2025__c0003
     zitat: ohne Beiträge an 2. oder 3. Säule, zusätzlich   bis Fr. 1’100   bis Fr.   500
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Wert 7'900 ist die Summe aus Grundbetrag 6'800 und gesetzlichem Zuschlag 1'100 (abgeleitet). Zuschlag bis Fr. 1'100 'bis zu'.
 - key: versicherung.alleinstehend
   wert: 3400
@@ -277,9 +277,9 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-45-t2
     zitat: von Fr. 3400
-  - chunk: sg-wl-2025__c0097
-    zitat: Maximaler Abzug   Fr.   6’800   Fr.   3’400
-  status: extrahiert
+  - chunk: sg-wl-2025__c0003
+    zitat: maximaler Abzug   Fr. 6’800   Fr.   3’400
+  status: agent-geprueft
 - key: versicherung.alleinstehend_ohne_vorsorge
   wert: 3900
   einheit: CHF
@@ -291,7 +291,7 @@ werte:
     zitat: um Fr. 500
   - chunk: sg-wl-2025__c0003
     zitat: ohne Beiträge an 2. oder 3. Säule, zusätzlich   bis Fr. 1’100   bis Fr.   500
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Wert 3'900 abgeleitet (3'400 + 500).
 - key: versicherung.kind
   wert: 1100
@@ -304,7 +304,7 @@ werte:
     zitat: Sie erhöhen sich um Fr. 1100
   - chunk: sg-wl-2025__c0003
     zitat: pro Kind zusätzlich   bis Fr. 1’100
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.max_mit_2saeule
   wert: 7258
   einheit: CHF
@@ -316,7 +316,7 @@ werte:
     zitat: 'Vorsorge (2. Säule) angehören:   maximal Fr. 7’258'
   - chunk: sg-wl-2025__c0003
     zitat: Erwerbstätige mit 2. Säule   max. Fr. 7’258
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.max_ohne_2saeule
   wert: 36288
   einheit: CHF
@@ -326,7 +326,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0085
     zitat: 20% des Erwerbseinkommens   maximal Fr. 36’288
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
   einheit: '%'
@@ -336,7 +336,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0085
     zitat: 20% des Erwerbseinkommens   maximal Fr. 36’288
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.einkauf
   wert: null
   einheit: Text
@@ -363,7 +363,7 @@ werte:
 - key: zweiverdiener.max
   wert: 500
   einheit: CHF
-  text: 'Zweiverdienerabzug: fixer Abzug von Fr. 500 vom Erwerbseinkommen jedes Ehegatten bei gemeinsamer Steuerpflicht (auch bei erheblicher Mitarbeit im Beruf/Geschäft des anderen Ehegatten).'
+  text: 'Zweiverdienerabzug: Fr. 500 (einmal pro gemeinsam steuerpflichtigem Ehepaar, wenn beide erwerbstätig sind; derselbe Abzug bei erheblicher Mitarbeit eines Ehegatten im Beruf/Geschäft des anderen).'
   gilt_fuer: kanton
   rechtsgrundlage: Art. 45 Abs. 2 StG SG; WL 2025 Ziff. 17
   quellen:
@@ -371,8 +371,9 @@ werte:
     zitat: Fr. 500.– abgezogen
   - chunk: sg-wl-2025__c0097
     zitat: können Fr. 500 in Abzug bringen
-  status: extrahiert
-  bemerkung: 'Direkte Bundessteuer: 50 % des niedrigeren Einkommens, min. Fr. 8''600, max. Fr. 14''100 (Formular 32 SG 2025, siehe Bund).'
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: Text sprach von "jedem Ehegatten"; WL 2025 Ziff. 17 («können Fr. 500 in Abzug bringen») und Art. 45 Abs. 2 StG lesen sich als ein Abzug je Ehepaar, nicht je Person
+    (Fachperson bestätigen). Direkte Bundessteuer: 50 % des niedrigeren Einkommens, min. Fr. 8''600, max. Fr. 14''100 (siehe Bund).'
 - key: drittbetreuung.max
   wert: 26700
   einheit: CHF
@@ -385,7 +386,7 @@ werte:
     zitat: höchstens Fr. 26 700
   - chunk: sg-wl-2025__c0092
     zitat: Kinderbetreuungsabzug von maximal Fr. 26’700 pro Kind
-  status: extrahiert
+  status: agent-geprueft
 - key: drittbetreuung.altersgrenze
   wert: 14
   einheit: Jahre
@@ -395,7 +396,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-45-t3
     zitat: Kosten der Betreuung von Kindern unter 14 Jahren durch Drittpersonen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Einheit: Alter in Jahren (Kind muss jünger als 14 sein).'
 - key: krankheitskosten.selbstbehalt_satz
   wert: 2
@@ -408,7 +409,7 @@ werte:
     zitat: diese 2 Prozent der Nettoeinkünfte übersteigen
   - chunk: sg-wl-2025__c0098
     zitat: soweit sie 2% des Nettoeinkommens gemäss Ziffer 20 übersteigen
-  status: extrahiert
+  status: agent-geprueft
 - key: spenden.min
   wert: 100
   einheit: CHF
@@ -420,8 +421,8 @@ werte:
   - chunk: sg-stg-2025__art-46
     zitat: wenn diese Leistungen im Steuerjahr Fr. 100
   - chunk: sg-wl-2025__c0005
-    zitat: freiwillige Zuwendungen von mindestens   Fr.   100
-  status: extrahiert
+    zitat: Freiwillige Zuwendungen von mindestens   Fr.   100
+  status: agent-geprueft
 - key: spenden.max_satz
   wert: 20
   einheit: '%'
@@ -431,7 +432,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-46
     zitat: insgesamt höchstens 20 Prozent der Nettoeinkünfte
-  status: extrahiert
+  status: agent-geprueft
 - key: parteispenden.max
   wert: 10700
   einheit: CHF
@@ -444,7 +445,7 @@ werte:
     zitat: von Fr. 10 700
   - chunk: sg-wl-2025__c0093
     zitat: Parteispenden können maximal in der Höhe von Fr. 10’700
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Direkte Bundessteuer: Fr. 10''600 (Formular 32 SG 2025).'
 - key: parteispenden.max_verheiratet
   wert: 21400
@@ -457,7 +458,7 @@ werte:
     zitat: bis zum Gesamtbetrag von Fr. 21 400
   - chunk: sg-wl-2025__c0093
     zitat: bzw. Fr. 21’400 (Ehepaare, eingetragene Partner
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.pauschale_neu
   wert: 20
   einheit: '%'
@@ -470,7 +471,7 @@ werte:
     zitat: Pauschalabzug von 20 Prozent des Bruttomietertrags ohne Nebenkosten
   - chunk: sg-form-7-2025__c0004
     zitat: Pauschalabzug 20% der Erträge (B)
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'SG unterscheidet nicht nach Gebäudealter: gleicher Satz 20 % für Gebäude bis und über 10 Jahre.'
 - key: liegenschaft.pauschale_alt
   wert: 20
@@ -481,7 +482,7 @@ werte:
   quellen:
   - chunk: sg-stv__art-29
     zitat: Pauschalabzug von 20 Prozent des Bruttomietertrags ohne Nebenkosten
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Siehe liegenschaft.pauschale_neu.
 - key: liegenschaft.eigenmietwert_abzug
   wert: 30
@@ -493,7 +494,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-34
     zitat: wird um 30 Prozent herabgesetzt
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind
   wert: null
   einheit: CHF
@@ -514,7 +515,7 @@ werte:
     zitat: Fr. 7600
   - chunk: sg-wl-2025__c0006
     zitat: Für jedes Kind im Vorschulalter   Fr. 7’600
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind_schule
   wert: 10800
   einheit: CHF
@@ -526,7 +527,7 @@ werte:
     zitat: Fr. 10 800
   - chunk: sg-wl-2025__c0006
     zitat: Für jedes Kind in schulischer oder beruflicher Ausbildung   Fr. 10’800
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Gleicher Betrag wie kind_ausbildung (SG unterscheidet Schule/Ausbildung nicht).
 - key: sozialabzug.kind_ausbildung
   wert: 10800
@@ -539,7 +540,7 @@ werte:
     zitat: Fr. 10 800
   - chunk: sg-wl-2025__c0006
     zitat: Für jedes Kind in schulischer oder beruflicher Ausbildung   Fr. 10’800
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: 13700
   einheit: CHF
@@ -552,7 +553,7 @@ werte:
     zitat: höchstens weitere Fr. 13 700
   - chunk: sg-wl-2025__c0006
     zitat: Selbstbehalt Ausbildungskosten je Kind   Fr. 3’200
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Maximum 13'700 nach Abzug Selbstbehalt 3'200; Voraussetzung Abzug nach Ziff. 23.2.
 - key: sozialabzug.unterstuetzung
   wert: null
@@ -597,7 +598,7 @@ werte:
     zitat: für jeden Steuerpflichtigen Fr. 75 000
   - chunk: sg-wl-2025__c0118
     zitat: 75’000   für Alleinstehende
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_verheiratet
   wert: 150000
   einheit: CHF
@@ -607,7 +608,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0118
     zitat: 150’000   für gemeinsam Steuerpflichtige
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_kind
   wert: 20000
   einheit: CHF
@@ -619,7 +620,7 @@ werte:
     zitat: zusätzlich Fr. 20 000
   - chunk: sg-wl-2025__c0118
     zitat: 20’000   zusätzlich für jedes minderjährige
-  status: extrahiert
+  status: agent-geprueft
 - key: steuerfrei.feuerwehrsold
   wert: 5300
   einheit: CHF
@@ -630,7 +631,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-37-t2
     zitat: bis zum Betrag von Fr. 5300
-  status: extrahiert
+  status: agent-geprueft
 - key: steuerfrei.grossspielgewinn
   wert: 1069800
   einheit: CHF
@@ -640,7 +641,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-37-t3
     zitat: bis zum Betrag von Fr. 1 069 800
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Betrag für 2025. Für 2026 steigt die Grenze (Merkblatt 8/2026), nicht auf 2025 übertragen.
 - key: steuerfrei.kleingewinn
   wert: 1100
@@ -652,7 +653,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-37-t3
     zitat: sofern die Grenze von Fr. 1100
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfuss_kanton
   wert: 105
   einheit: '%'
@@ -662,7 +663,7 @@ werte:
   quellen:
   - chunk: sg-steuerfuesse-2025__c0001
     zitat: Die Kantonssteuer beträgt 105 Prozent
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfrei_alleinstehend
   wert: 11600
   einheit: CHF
@@ -673,7 +674,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-50
     zitat: 0 Prozent für die ersten · Fr. 11 600
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Kantonaler Tarif (nicht Bund; taxonomy-Beschreibung nennt Bund). Bund siehe data/werte/bund.
 - key: tarif.steuerfrei_verheiratet
   wert: null
@@ -684,7 +685,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-50
     zitat: Für gemeinsam steuerpflichtige Ehegatten wird der Steuersatz des halben steuerbaren Einkommens angewendet
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Kein eigener Tarif; Splittingsatz. Kein fester Betrag aus Quelle ausgewiesen.
 - key: tarif.hoechstsatz_ab_alleinstehend
   wert: 264200
@@ -695,7 +696,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-50
     zitat: Für steuerbare Einkommen über Fr. 264 200
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Kein klassischer 'Höchstsatz-ab'-Wert wie beim Bund; Schwelle des Einheitssatzes 8,5 %.
 - key: tarif.hoechstsatz_ab_verheiratet
   wert: null
@@ -706,7 +707,7 @@ werte:
   quellen:
   - chunk: sg-stg-2025__art-50
     zitat: Für gemeinsam steuerpflichtige Ehegatten wird der Steuersatz des halben steuerbaren Einkommens angewendet
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Schwelle für Verheiratete (528'400 Gesamteinkommen) ist nur abgeleitet, daher nicht als Zahl geführt.
 - key: tarif.mindeststeuer
   wert: null
@@ -726,7 +727,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0018
     zitat: gemäss Seite 1 der Steuererklärung
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Konkretes Datum in den Quellen des Wikis nicht enthalten: auf Seite 1 der Steuererklärung 2025 prüfen.'
 - key: verfahren.fristerstreckung
   wert: null
@@ -740,7 +741,7 @@ werte:
     zitat: Auf Gesuch hin kann vor Ablauf der Einreichefrist eine angemes
   - chunk: sg-info-fristverlaengerung__c0002
     zitat: Fristverlängerung kann nur gewährt werden, wenn die fälligen Steuerrechnungen bezahlt sind
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Besondere Treuhänder-Regel (Sammelgesuch/Fristen für Vertreter) in den Quellen nicht gefunden: offen. Dauer der Verlängerung nicht beziffert.'
 - key: verfahren.abgabeweg
   wert: null
@@ -751,7 +752,7 @@ werte:
   quellen:
   - chunk: sg-wl-2025__c0008
     zitat: die Steuererklärung ab der Steuerperiode 2025 bequem online ausgefüllt
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Zusätzlich E-Tax SG Infoseite; Details Login (AGOV/E-Login) in den Quellen des Wikis nicht geprüft.
 - key: verfahren.beilagen_schwellen
   wert: null
@@ -774,7 +775,7 @@ werte:
     zitat: 'drei Raten vorgesehen: Ende Mai, Ende Juli und Ende September'
   - chunk: sg-stg-2025__art-214
     zitat: wird eine Zahlungsfrist von dreissig Tagen gewährt
-  status: extrahiert
+  status: agent-geprueft
 - key: bezug.verzugszins
   wert: null
   einheit: Text
@@ -803,4 +804,4 @@ werte:
     zitat: betrug im Jahr 2025 0,75%
   - chunk: sg-stg-2025__art-212
     zitat: Mit der Schlussrechnung werden Ausgleichszinsen berechnet
-  status: extrahiert
+  status: agent-geprueft

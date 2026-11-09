@@ -18,7 +18,7 @@ positionen:
     zitat: 1.1 Aus Haupterwerbstätigkeit Person 1 Lohnausweis 100
   - chunk: sg-wl-2025__c0042
     zitat: Einzusetzen ist der Nettolohn gemäss Lohnausweis
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '1.2'
   abschnitt: Einkünfte
   bezeichnung: Aus Nebenerwerbstätigkeit unselbständig (Code 104 Person 1 / 106 Person 2)
@@ -33,21 +33,23 @@ positionen:
     zitat: 1.2 Aus Nebenerwerbstätigkeit Person 1 Lohnausweis 104
   - chunk: sg-wl-2025__c0043
     zitat: Als Nebenerwerb gilt eine Tätigkeit, die gleichzeitig neben einem Haupterwerb
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '1.3'
   abschnitt: Einkünfte
   bezeichnung: Sitzungsgelder, VR-Honorare usw. (Code 108 Person 1 / 110 Person 2)
   key: einkommen.unselbstaendig.vr_honorare
   belege:
   - lohnausweis
-  feld: Lohnausweis Ziff. 4 bzw. Bescheinigung der Gesellschaft/Behörde
+  feld: Lohnausweis Ziff. 6 (Verwaltungsratsentschädigungen) bzw. Bescheinigung der Gesellschaft/Behörde
   regel: 'Nur soweit nicht bereits mit den übrigen Erwerbseinkünften deklariert (Doppelerfassung vermeiden). Behördentätigkeit: Steuerbuch SG StB 39 Nr. 4.'
   quellen:
   - chunk: sg-form-1-2025__c0004
     zitat: 1.3 Sitzungsgelder, VR-Honorare usw. Person 1 Bescheinigung 108
   - chunk: sg-wl-2025__c0044
     zitat: Sitzungs- und Taggelder, Verwaltungsratshonorare und Tantiemen
-  status: extrahiert
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: Lohnausweis-Ziffer für VR-Entschädigungen ist Ziff. 6 (nicht Ziff. 4 = Kapitalleistungen); Beleg: Lohnausweis-Wegleitung (im Wiki nur 2026, Rz 30), Formularstruktur
+    gilt unverändert.'
 - ziffer: '2.1'
   abschnitt: Einkünfte
   bezeichnung: 'Selbständige Erwerbstätigkeit: Industrie-, Handels-, Gewerbebetriebe, Landwirtschaft, freie Berufe (Code 112 Person 1 / 114 Person 2)'
@@ -62,7 +64,7 @@ positionen:
     zitat: 2.1 Person 1 112
   - chunk: sg-wl-2025__c0045
     zitat: Das Einkommen aus selbständiger Erwerbstätigkeit umfasst alle Einkünfte aus
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '2.2'
   abschnitt: Einkünfte
   bezeichnung: Aus Kollektiv-, Kommandit- und einfachen Gesellschaften (Code 120 Person 1 / 122 Person 2)
@@ -77,7 +79,7 @@ positionen:
     zitat: 2.2 Aus Kollektiv-, Kommandit- und einfachen Gesellschaften
   - chunk: sg-wl-2025__c0045
     zitat: unter Ziffer 2.2 anzugeben
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.1'
   abschnitt: Einkünfte
   bezeichnung: AHV/IV-Renten zu 100% (Code 126 Person 1 / 128 Person 2)
@@ -91,7 +93,7 @@ positionen:
     zitat: 3.1 AHV/IV-Renten (zu 100%) Person 1 Bescheinigung 126
   - chunk: sg-wl-2025__c0056
     zitat: sind in vollem Umfang zu deklarieren, nicht aber die Ergänzungsleistungen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.2'
   abschnitt: Einkünfte
   bezeichnung: Renten/Pensionen mit steuerbarem Prozentsatz (Code 130 Person 1 / 132 Person 2)
@@ -107,7 +109,7 @@ positionen:
     zitat: 3.2 Renten/Pensionen
   - chunk: sg-wl-2025__c0058
     zitat: 100% in allen andern Fällen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.3'
   abschnitt: Einkünfte
   bezeichnung: Erwerbsausfallentschädigung / Taggelder IV, Kranken-, Unfallversicherung (Code 134 Person 1 / 136 Person 2)
@@ -122,7 +124,7 @@ positionen:
     zitat: 3.3 Erwerbsausfallentschädigung Person 1 Bescheinigung 134
   - chunk: sg-wl-2025__c0060
     zitat: Taggelder aus Invaliden-, Kranken- und Unfallversicherung sind voll-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.4'
   abschnitt: Einkünfte
   bezeichnung: Arbeitslosen-Taggelder (Code 138 Person 1 / 140 Person 2)
@@ -136,7 +138,7 @@ positionen:
     zitat: 3.4 Arbeitslosen-Taggelder Person 1 Bescheinigung 138
   - chunk: sg-wl-2025__c0060
     zitat: Über nicht im Lohnausweis aufgeführte Bezüge ist eine Bescheinigung beizulegen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '3.5'
   abschnitt: Einkünfte
   bezeichnung: Von Ausgleichskassen direkt ausbezahlte Familienzulagen (Code 142)
@@ -150,7 +152,7 @@ positionen:
     zitat: 3.5 Von Ausgleichskassen direkt ausbezahlte Familienzulagen 142
   - chunk: sg-wl-2025__c0061
     zitat: die von Ausgleichskassen direkt ausbezahlt werden und somit nicht im Lohnaus
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '4.1'
   abschnitt: Einkünfte
   bezeichnung: Einkünfte aus Wertschriften und Guthaben inkl. Lotterie-/Geldspielgewinne (Code 146)
@@ -172,7 +174,7 @@ positionen:
     zitat: zu übertragen in die Steuererklärung Seite 4 Ziffer 30.1 Seite 2 Ziffer 4.1
   - chunk: sg-wl-2025__c0130
     zitat: sind bis und mit Fr. 200 je Kalenderjahr verrechnungssteuerfrei
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '4.2'
   abschnitt: Einkünfte
   bezeichnung: Beteiligungen an Gesellschaften ab 10 Prozent, Privatvermögen (Code 147)
@@ -189,7 +191,7 @@ positionen:
     zitat: 4.2 aus Beteiligungen an Gesellschaften ab 10 Prozent (Privatvermögen) 147
   - chunk: sg-wl-2025__c0065
     zitat: Zu deklarieren sind 100% der Erträge
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '4.3'
   abschnitt: Einkünfte
   bezeichnung: Beteiligungen an Gesellschaften ab 10 Prozent, Geschäftsvermögen (Code 149)
@@ -204,7 +206,7 @@ positionen:
     zitat: 4.3 aus Beteiligungen an Gesellschaften ab 10 Prozent (Geschäftsvermögen) 149
   - chunk: sg-wl-2025__c0066
     zitat: Dadurch wird eine doppelte Berück-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '4.4'
   abschnitt: Einkünfte
   bezeichnung: Abzug Teilbesteuerung Beteiligungserträge (Code 150, 30%)
@@ -217,7 +219,7 @@ positionen:
     zitat: 4.4 Abzug Teilbesteuerung Beteiligungserträge 150
   - chunk: sg-wl-2025__c0065
     zitat: Die steuerliche Reduktion von 30% ist durch den Steuerpflichtigen zu berechnen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '5'
   abschnitt: Einkünfte
   bezeichnung: Ertrag aus Liegenschaften (Code 712)
@@ -234,7 +236,7 @@ positionen:
     zitat: 5. Ertrag aus Liegenschaften Formular 7 712
   - chunk: sg-wl-2025__c0067
     zitat: Anzugeben sind die Einkünfte aus Liegenschaften des Privatvermögens
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '6.1'
   abschnitt: Einkünfte
   bezeichnung: 'Unterhaltsbeiträge erhalten: für Steuerpflichtige (Code 154) / für minderjährige Kinder (Code 156)'
@@ -249,7 +251,7 @@ positionen:
     zitat: 6.1 Unterhaltsbeiträge für den/die Steuerpflichtige(n) 154
   - chunk: sg-wl-2025__c0068
     zitat: sind beim Empfänger steuerbar und daher unter dieser Ziffer zu
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '6.2'
   abschnitt: Einkünfte
   bezeichnung: Ertrag aus unverteilten Erbschaften (Code 158)
@@ -263,7 +265,7 @@ positionen:
     zitat: 6.2 Ertrag aus unverteilten Erbschaften 158
   - chunk: sg-wl-2025__c0068
     zitat: Einkünfte aus unverteilten Erbschaften und andern Vermögensmassen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '6.3'
   abschnitt: Einkünfte
   bezeichnung: Übrige Einkünfte (Code 162)
@@ -278,7 +280,7 @@ positionen:
     zitat: 6.3 Übrige Einkünfte Arten 162
   - chunk: sg-wl-2025__c0069
     zitat: Erträge aus Stromerzeugung (Photovoltaikanlagen), soweit diese den Eigenver
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '6.4'
   abschnitt: Einkünfte
   bezeichnung: Kapitalabfindungen für wiederkehrende Leistungen (Code 164, Anzahl Jahre)
@@ -291,7 +293,7 @@ positionen:
     zitat: 6.4 Kapitalabfindungen für wiederkehrende Leistungen für Jahre 164
   - chunk: sg-wl-2025__c0070
     zitat: Die Kapitalabfindungen für wiederkehrende Leistungen sind mit dem
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '7'
   abschnitt: Einkünfte
   bezeichnung: Total der Einkünfte (Code 168)
@@ -302,7 +304,7 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0006
     zitat: 7. Total der Einkünfte 168
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '8.1'
   abschnitt: Einkünfte
   bezeichnung: 'Ergänzende Angaben: vereinfacht abgerechnete Einkünfte, Bruttolohn (Code 290)'
@@ -315,7 +317,7 @@ positionen:
     zitat: 8.1 Vereinfacht abgerechnete Einkünfte Bescheinigung 290
   - chunk: sg-wl-2025__c0071
     zitat: In Ziffer 8.1 ist der Bruttolohn einzusetzen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 8.2-8.3
   abschnitt: Einkünfte
   bezeichnung: 'Ergänzende Angaben: Ergänzungsleistungen/Überbrückungsleistungen (Code 291), Hilflosenentschädigungen (Code 292)'
@@ -330,7 +332,7 @@ positionen:
     zitat: 8.2 Ergänzungsleistungen / Überbrückungsleistungen für ältere Arbeitslose 291
   - chunk: sg-wl-2025__c0072
     zitat: Ergänzungsleistungen (inkl. Überbrückungsleistungen für
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '10.1'
   abschnitt: Abzüge
   bezeichnung: Berufskosten bei unselbständiger Erwerbstätigkeit Person 1 (Code 438)
@@ -350,7 +352,7 @@ positionen:
     zitat: stehen jedem Partner individuell zu, soweit er unselbständig erwerbstätig ist
   - chunk: sg-form-32-2025__c0002
     zitat: Fahrkosten zwischen Wohn- und Arbeitsort max. Fr. 8‘000 max. Fr. 3‘300
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '10.2'
   abschnitt: Abzüge
   bezeichnung: Berufskosten bei unselbständiger Erwerbstätigkeit Person 2 (Code 488)
@@ -363,7 +365,7 @@ positionen:
     zitat: 10.2 Person 2 Formular 4 488
   - chunk: sg-form-4-2025__c0008
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 10.2
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '11'
   abschnitt: Abzüge
   bezeichnung: Schuldzinsen (Code 500)
@@ -383,7 +385,7 @@ positionen:
     zitat: Private Schuldzinsen sind nur im Umfang der Einkünfte aus Wertschriften und
   - chunk: sg-form-5-2025__c0001
     zitat: Total private Schulden und private Schuldzinsen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '12.1'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge an Geschiedene oder Getrennte (Code 200)
@@ -391,14 +393,14 @@ positionen:
   belege:
   - unterhaltszahlungen-alimente
   feld: Scheidungsurteil/Trennungsvereinbarung (bei erstmaliger Zahlung), Zahlungsnachweise
-  regel: Nur Beiträge an geschiedenen/getrennt lebenden Partner. Bei erstmaliger Zahlung Auszug aus Urteil bzw. Vereinbarung beilegen. Wird abgezogen, entfallen die Kinderabzüge für das betreffende Kind
-    (Ziff. 23.1-23.3).
+  regel: 'Nur Beiträge an geschiedenen/getrennt lebenden Partner. Bei erstmaliger Zahlung Auszug aus Urteil bzw. Vereinbarung beilegen. Hinweis: Können Unterhaltsbeiträge (für Kinder, Ziff. 12.2) abgezogen
+    werden, entfallen die Kinderabzüge Ziff. 23.1-23.3 für dieses Kind.'
   quellen:
   - chunk: sg-form-1-2025__c0008
     zitat: 12.1 Unterhaltsbeiträge an Geschiedene oder Getrennte Aufstellung 200
   - chunk: sg-wl-2025__c0084
     zitat: Unterhaltsbeiträge an den geschiedenen, gerichtlich oder tatsächlich getrennt
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '12.2'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (Code 202)
@@ -413,7 +415,7 @@ positionen:
     zitat: 12.2 Unterhaltsbeiträge für minderjährige Kinder Aufstellung 202
   - chunk: sg-wl-2025__c0084
     zitat: Die Unterhaltsbeiträge an einen Elternteil für die unter dessen elterlicher Sorge
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '12.3'
   abschnitt: Abzüge
   bezeichnung: Rentenleistungen (Code 204)
@@ -426,7 +428,7 @@ positionen:
     zitat: 12.3 Rentenleistungen Aufstellung 204
   - chunk: sg-wl-2025__c0084
     zitat: Die nachgewiesenen dauernden Lasten sowie der Ertragsanteil
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '13.1'
   abschnitt: Abzüge
   bezeichnung: Vorsorgebeiträge Säule 3a (Code 208 Person 1 / 210 Person 2)
@@ -447,7 +449,7 @@ positionen:
     zitat: maximal Fr. 7’258
   - chunk: sg-wl-2025__c0085
     zitat: maximal Fr. 36’288
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '13.2'
   abschnitt: Abzüge
   bezeichnung: Säule 2 (BVG) inkl. Einkaufsbeiträge (Code 218 Person 1 / 219 Person 2)
@@ -456,8 +458,8 @@ positionen:
   - bescheinigung-pk-einkauf
   feld: Bescheinigung Vorsorgeeinrichtung + Einkaufsberechnung (Lohnausweis Ziff. 10.2 = bereits abgezogen)
   regel: 'Beiträge im Lohnausweis (Ziff. 10.1 ordentliche BVG-Beiträge) sind im Nettolohn schon berücksichtigt: nicht nochmals abziehen. Hier nur Einkäufe/Beiträge ausserhalb des Lohnausweises, bei Selbständigen
-    100% der Einkaufsbeiträge. Lohnausweis Ziff. 10.2 (Einkauf): wenn im Lohnausweis separat ausgewiesen, prüfen ob im Nettolohn (Ziff. 11) bereits abgezogen. Bescheinigung der Vorsorgeträgerin immer beilegen.
-    Kein Abzug bei Einkauf mit vorzeitig bezogenen, steuerlich nicht erfassten Kapitalleistungen.'
+    100% der Einkaufsbeiträge. Lohnausweis Ziff. 10.2 (Einkauf, vom Lohn abgezogen): im Nettolohn (Ziff. 11 = Ziff. 8 abzüglich Ziff. 9 und 10) bereits abgezogen, daher hier nicht nochmals (Lohnausweis-Wegleitung
+    Rz 45/47, im Wiki nur 2026). Bescheinigung der Vorsorgeträgerin immer beilegen. Kein Abzug bei Einkauf mit vorzeitig bezogenen, steuerlich nicht erfassten Kapitalleistungen.'
   quellen:
   - chunk: sg-form-1-2025__c0008
     zitat: 13.2 Säule 2 (BVG) inkl. Einkaufsbeiträge Person 1 Bescheinigung 218
@@ -465,7 +467,7 @@ positionen:
     zitat: Deklaration des Nettolohnes
   - chunk: sg-wl-2025__c0086
     zitat: Die Berücksichtigung in der Erfolgsrechnung ist nicht zulässig
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '14'
   abschnitt: Abzüge
   bezeichnung: Versicherungsprämien und Sparzinsen (Code 600)
@@ -490,11 +492,11 @@ positionen:
     zitat: 14. Versicherungsprämien und Sparzinsen Formular 6 600
   - chunk: sg-form-6-2025__c0002
     zitat: Fr. 3’400 für alleinstehende Steuerpflichtige
-  - chunk: sg-wl-2025__c0097
+  - chunk: sg-wl-2025__c0088
     zitat: Maximaler Abzug Fr. 6’800 Fr. 3’400
   - chunk: sg-form-32-2025__c0003
     zitat: Verheiratete max. Fr. 6'800 max. Fr. 3'700
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '15'
   abschnitt: Abzüge
   bezeichnung: Unterhalts- und Verwaltungskosten für Liegenschaften (Code 716)
@@ -512,7 +514,7 @@ positionen:
     zitat: 20% des steuerlich massgebenden Mietertrages oder des steuer-
   - chunk: sg-form-7-2025__c0004
     zitat: Pauschalabzug 20% der Erträge (B)
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '16.1'
   abschnitt: Abzüge
   bezeichnung: Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen (Code 220)
@@ -529,7 +531,7 @@ positionen:
     zitat: 16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen 220
   - chunk: sg-wl-2025__c0090
     zitat: 2‰ des fremdverwalteten
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '16.2'
   abschnitt: Abzüge
   bezeichnung: Kinderbetreuungskosten bei Drittbetreuung (Code 258)
@@ -547,7 +549,7 @@ positionen:
     zitat: 16.2 Kinderbetreuungskosten bei Drittbetreuung Formular 10 258
   - chunk: sg-wl-2025__c0092
     zitat: Ein Kinderbetreuungsabzug von maximal Fr. 26’700 pro Kind kann geltend
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '16.3'
   abschnitt: Abzüge
   bezeichnung: Parteispenden (Code 555)
@@ -557,7 +559,7 @@ positionen:
   feld: Formular 5 Rückseite Teil B «Total der Parteispenden»; Spendenbestätigung
   regel: 'Max. Fr. 10''700 (Alleinstehende, Verwitwete, getrennt Lebende) bzw. Fr. 21''400 (Ehepaare/eingetragene Partnerschaften). Begünstigte Partei: im Parteienregister eingetragen, im kantonalen Parlament
     vertreten oder bei letzten Wahlen mind. 3% Stimmen. Mitgliederbeiträge, Gesinnungsbeiträge, Spenden, Mandatssteuern.'
-  bund: 'Bund: max. Fr. 10''600 (Formular 32 nennt Bund-Parteispenden Fr. 10''600; Ehepaar-Betrag Bund dort nicht eindeutig erkennbar, Layout prüfen).'
+  bund: 'Bund: max. Fr. 10''600 (Gesamtbetrag, keine separate Grenze für Ehepaare; Art. 33 Abs. 1 lit. i DBG).'
   werte_keys:
   - parteispenden.max
   - parteispenden.max_verheiratet
@@ -568,7 +570,9 @@ positionen:
     zitat: Parteispenden können maximal in der Höhe von Fr. 10’700
   - chunk: sg-form-5-2025__c0004
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 16.3
-  status: extrahiert
+  - chunk: sg-form-32-2025__c0004
+    zitat: Parteispenden max. Fr. 10'600
+  status: agent-geprueft
 - ziffer: '16.4'
   abschnitt: Abzüge
   bezeichnung: Kosten berufsorientierte Aus-/Weiterbildung (Code 223 Person 1 / 224 Person 2)
@@ -589,7 +593,9 @@ positionen:
     zitat: von maximal Fr. 13’000 pro Kalenderjahr und Person
   - chunk: sg-wl-2025__c0095
     zitat: pauschal Fr. 400
-  status: extrahiert
+  - chunk: sg-wl-2025__c0096
+    zitat: können nur 50% der Aufwendungen als Aus- und Weiterbildungskosten abgezogen werden
+  status: agent-geprueft
 - ziffer: '16.5'
   abschnitt: Abzüge
   bezeichnung: Übrige Abzüge, z.B. AHV-Beiträge Nichterwerbstätiger (Code 222)
@@ -603,7 +609,7 @@ positionen:
     zitat: 16.5 Übrige Abzüge Arten 222
   - chunk: sg-wl-2025__c0097
     zitat: Als übrige Abzüge, die unter dieser Ziffer aufzuführen sind
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '17'
   abschnitt: Abzüge
   bezeichnung: Zweiverdienerabzug (Code 226)
@@ -623,7 +629,7 @@ positionen:
     zitat: Gemeinsam Steuerpflichtige, die beide einer Erwerbstätigkeit nachgehen
   - chunk: sg-form-32-2025__c0005
     zitat: Zweiverdienerabzug Fr. 500 min. Fr. 8'600
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '18'
   abschnitt: Abzüge
   bezeichnung: Total der Abzüge (Code 230)
@@ -634,7 +640,7 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0009
     zitat: 18. Total der Abzüge 230
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '20'
   abschnitt: Einkommensberechnung
   bezeichnung: Nettoeinkommen (Code 234)
@@ -645,7 +651,7 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0010
     zitat: 20. Nettoeinkommen (Ziffer 7 abzüglich Ziffer 18) 234
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '21.1'
   abschnitt: Einkommensberechnung
   bezeichnung: Krankheits- und Unfallkosten (Vorkolonne Code 650, Selbstbehalt Code 238, Abzug Code 240)
@@ -668,7 +674,7 @@ positionen:
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 21.1 (Vorkolonne)
   - chunk: sg-form-32-2025__c0005
     zitat: Selbstbehalt 5% der Nettoeinkünfte
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '21.2'
   abschnitt: Einkommensberechnung
   bezeichnung: Behinderungsbedingte Kosten, ohne Selbstbehalt (Code 235)
@@ -685,7 +691,7 @@ positionen:
     zitat: Fr. 2’000 pro Monat als nicht abzugsberechtigte Lebenshaltungskosten
   - chunk: sg-wl-2025__c0100
     zitat: 'Bezüger einer Hilflosenentschädigung mittleren Grades: Fr. 5’000'
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '21.3'
   abschnitt: Einkommensberechnung
   bezeichnung: Freiwillige Zuwendungen (Code 244)
@@ -703,7 +709,7 @@ positionen:
     zitat: 21.3 Freiwillige Zuwendungen (wenn mind. Fr.100, max. 20% Ziffer 20) Formular 5 244
   - chunk: sg-wl-2025__c0102
     zitat: insgesamt höchstens aber 20% des Nettoeinkommens gemäss Ziffer 20
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '22'
   abschnitt: Einkommensberechnung
   bezeichnung: Reineinkommen (Code 248)
@@ -714,7 +720,7 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0010
     zitat: 22. Reineinkommen (Ziffer 20 abzüglich Ziffern 21.1 bis 21.3) 248
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '23.1'
   abschnitt: Einkommensberechnung
   bezeichnung: Kinderabzug für jedes noch nicht schulpflichtige Kind (Fr. 7'600, Code 252)
@@ -722,7 +728,7 @@ positionen:
   belege: []
   feld: Angaben Seite 1 (Kinder, für deren Unterhalt zur Hauptsache aufgekommen wird)
   regel: Verhältnisse am 31.12.2025 bzw. Ende der Steuerpflicht; bei unterjähriger Steuerpflicht anteilig. Kind, für das Unterhaltsbeiträge nach Ziff. 12.2 abgezogen werden, erhält keinen Kinderabzug.
-  bund: 'Bund: Kinder im Vorschulalter Fr. 7''600 pro Kind; zusätzlich Steuerermässigung Fr. 263 pro Kind vom Steuerbetrag.'
+  bund: 'Bund: Kinderabzug einheitlich Fr. 6''800 pro Kind (kein Vorschul-/Schulabzug, Formular 32 und data/werte/bund/2025); zusätzlich Abzug vom Steuerbetrag Fr. 263 pro Kind (nur Bund).'
   werte_keys:
   - sozialabzug.kind_vorschule
   quellen:
@@ -730,7 +736,7 @@ positionen:
     zitat: 23.1 Kinderabzug für jedes noch nicht schulpflichtige Kind Fr. 7’600 252
   - chunk: sg-wl-2025__c0104
     zitat: Steuerpflichtige, welche für den Unterhalt der Kinder zur Hauptsache aufkom-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '23.2'
   abschnitt: Einkommensberechnung
   bezeichnung: Kinderabzug für jedes Kind in Schule oder Ausbildung (Fr. 10'800, Code 254)
@@ -746,7 +752,7 @@ positionen:
     zitat: 23.2 Kinderabzug für jedes Kind in Schule oder Ausbildung Fr. 10’800 254
   - chunk: sg-form-32-2025__c0006
     zitat: Fr. 10'800 einheitlich Fr. 6'800
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '23.3'
   abschnitt: Einkommensberechnung
   bezeichnung: Ausbildungskosten für Kinder in Schule oder Ausbildung (Code 256)
@@ -765,7 +771,7 @@ positionen:
     zitat: nach Abzug eines Selbstbehaltes von Fr. 3’200
   - chunk: sg-wl-2025__c0105
     zitat: 'geltend gemacht werden kann, maximal: 13’700'
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '23.4'
   abschnitt: Einkommensberechnung
   bezeichnung: Abzug für unterstützte Personen (nur direkte Bundessteuer, Code 264)
@@ -782,7 +788,7 @@ positionen:
     zitat: 23.4 Abzug für unterstützte Personen ja Anzahl Bescheinigung 264
   - chunk: sg-wl-2025__c0106
     zitat: Der Abzug von Fr. 6’800 für jede unterstützte Person
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '24'
   abschnitt: Einkommensberechnung
   bezeichnung: Steuerbares Einkommen gesamt (Code 268)
@@ -793,7 +799,7 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0011
     zitat: 24. Steuerbares Einkommen gesamt (Ziffer 22 abzüglich Ziffern 23.1-23.3) 268
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.1'
   abschnitt: Vermögen
   bezeichnung: Wertschriften und Guthaben (Code 300)
@@ -811,7 +817,7 @@ positionen:
     zitat: 30.1 Wertschriften und Guthaben Formular 2 300
   - chunk: sg-wl-2025__c0121
     zitat: inkl. Kryptowährungen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.2'
   abschnitt: Vermögen
   bezeichnung: Bargeld, Gold und andere Edelmetalle (Code 302)
@@ -824,7 +830,7 @@ positionen:
     zitat: 30.2 Bargeld, Gold und andere Edelmetalle Aufstellung 302
   - chunk: sg-wl-2025__c0110
     zitat: Gold und andere Edelmetalle mit dem Verkehrswert einzusetzen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.3'
   abschnitt: Vermögen
   bezeichnung: Lebens- und Rentenversicherungen (Code 304)
@@ -839,7 +845,7 @@ positionen:
     zitat: 30.3 Lebens- und Rentenversicherungen Bescheinigung
   - chunk: sg-wl-2025__c0110
     zitat: Als steuerbares Vermögen gilt der Rückkaufswert inklusive
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.4'
   abschnitt: Vermögen
   bezeichnung: Motorfahrzeuge (Code 306)
@@ -853,7 +859,7 @@ positionen:
     zitat: 30.4 Motorfahrzeuge Art preis jahr 306
   - chunk: sg-wl-2025__c0111
     zitat: eine Wertverminderung von 20% vom Anschaffungswert abgerechnet werden
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.5'
   abschnitt: Vermögen
   bezeichnung: Anteile an unverteilten Erbschaften (Code 308)
@@ -867,7 +873,7 @@ positionen:
     zitat: 30.5 Anteile an unverteilten Erbschaften Aufstellung 308
   - chunk: sg-wl-2025__c0111
     zitat: Die Erben sind ab Todestag für ihren Anteil de-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '30.6'
   abschnitt: Vermögen
   bezeichnung: Übrige Vermögenswerte (Code 310)
@@ -880,7 +886,7 @@ positionen:
     zitat: 30.6 Übrige Vermögenswerte Arten 310
   - chunk: sg-wl-2025__c0112
     zitat: Massgebend ist in der Regel der mutmassliche
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '31'
   abschnitt: Vermögen
   bezeichnung: Liegenschaften (Code 710)
@@ -896,7 +902,7 @@ positionen:
     zitat: Übertrag in die Steuererklärung Seite 4 Ziffer 31
   - chunk: sg-wl-2025__c0154
     zitat: bestimmt sich nach der rechtskräftigen Verkehrs- oder Ertragswertschätzung
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 32.1-32.3
   abschnitt: Vermögen
   bezeichnung: 'Betriebsvermögen aus selbständiger Erwerbstätigkeit: Geschäftskapital Gesellschaften (Code 314), Aktiven Schlussbilanz (Code 316), landwirtschaftlicher Betrieb (Code 318)'
@@ -910,7 +916,7 @@ positionen:
     zitat: 32.2 Aktiven gemäss Schlussbilanz per Aufstellung 316
   - chunk: sg-form-1-2025__c0013
     zitat: ohne Buchwert der
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '33'
   abschnitt: Vermögen
   bezeichnung: Total der Vermögenswerte (Code 322)
@@ -921,7 +927,7 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0013
     zitat: 33. Total der Vermögenswerte 322
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '34.1'
   abschnitt: Vermögen
   bezeichnung: Privatschulden (Code 504)
@@ -937,7 +943,7 @@ positionen:
     zitat: 34.1 Privatschulden Formular 5 504
   - chunk: sg-wl-2025__c0117
     zitat: Nachgewiesene Schulden, für die eine alleinige Haftung besteht
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '34.2'
   abschnitt: Vermögen
   bezeichnung: Geschäftsschulden (Code 506)
@@ -951,7 +957,7 @@ positionen:
     zitat: 34.2 Geschäftsschulden Formular 5 506
   - chunk: sg-form-5-2025__c0002
     zitat: zu übertragen in die Steuererklärung Seite 4 Ziffer 34.2
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '35'
   abschnitt: Vermögen
   bezeichnung: Reinvermögen (Code 326)
@@ -962,7 +968,7 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0013
     zitat: 35. Reinvermögen (Ziffer 33 abzüglich 34) 326
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 36.1-36.3
   abschnitt: Vermögen
   bezeichnung: 'Sozialabzüge Vermögen: alleinstehend Fr. 75''000 (Code 330), gemeinsam Fr. 150''000 (Code 332), je minderjähriges Kind Fr. 20''000 (Code 334)'
@@ -981,7 +987,7 @@ positionen:
     zitat: 36.2 Abzug für gemeinsam steuerpflichtige Ehegatten Fr. 150’000 332
   - chunk: sg-wl-2025__c0118
     zitat: 20’000 zusätzlich für jedes minderjährige
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '37'
   abschnitt: Vermögen
   bezeichnung: Steuerbares Vermögen gesamt (Code 338)
@@ -992,7 +998,7 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0013
     zitat: 37. Steuerbares Vermögen gesamt (Ziffer 35 abzüglich Ziffern 36.1 bis 36.3) 338
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: 40.1-40.3
   abschnitt: Weitere Angaben
   bezeichnung: 'Kapitalleistungen aus Vorsorge: Säule 3a (40.1), 2. Säule (40.2), übrige (40.3)'
@@ -1007,7 +1013,7 @@ positionen:
     zitat: 40.1 aus gebundener Vorsorge Säule 3a Bescheinigung
   - chunk: sg-wl-2025__c0119
     zitat: Kapitalleistungen werden gesondert vom übrigen Einkommen besteuert
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: '41'
   abschnitt: Weitere Angaben
   bezeichnung: Total Kapitalleistungen aus Vorsorge (Code 950)
@@ -1018,7 +1024,7 @@ positionen:
   quellen:
   - chunk: sg-form-1-2025__c0014
     zitat: 41. Total Kapitalleistungen aus Vorsorge 950
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 2 Spalte A/B
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: 'Verzeichnis der Vermögenswerte: Steuerwert 31.12.2025, Bruttoertrag Spalte A (mit Verrechnungssteuerabzug) / Spalte B (ohne)'
@@ -1037,7 +1043,9 @@ positionen:
     zitat: Steuerwert am 31. Dezember 2025
   - chunk: sg-wl-2025__c0135
     zitat: Kundenguthaben, deren Bruttozins Fr. 200 übersteigt
-  status: extrahiert
+  - chunk: sg-form-2-2025__c0006
+    zitat: 'Verrechnungssteueranspruch: 35 % vom Bruttoertrag (Total A)'
+  status: agent-geprueft
 - ziffer: Form. 2 Code 999
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: Verrechnungssteueranspruch 35% vom Bruttoertrag Total A (Code 999)
@@ -1049,7 +1057,7 @@ positionen:
   quellen:
   - chunk: sg-form-2-2025__c0006
     zitat: 'Verrechnungssteueranspruch: 35 % vom Bruttoertrag (Total A) Fr./Rp. 999'
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 2 Code 960-963
   abschnitt: Hilfsblatt Wertschriftenverzeichnis
   bezeichnung: 'Fragen Erbschaften/Schenkungen: Erbschaft erhalten (960), unverteilte Erbschaft (961), Schenkung erhalten (962), verschenkt (963)'
@@ -1064,7 +1072,7 @@ positionen:
     zitat: Haben Sie im Jahr 2025 eine Erbschaft oder ein Vermächtnis erhalten?
   - chunk: sg-form-2-2025__c0003
     zitat: Haben Sie im Jahr 2025Vermögen verschenkt?
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 1.1
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten öffentliche Verkehrsmittel (Code 400 Person 1 / 450 Person 2)
@@ -1084,7 +1092,7 @@ positionen:
     zitat: muss auf dem Lohnausweis Feld F angekreuzt sein
   - chunk: sg-wl-2025__c0077
     zitat: Bei Benützung eines öffentlichen Verkehrsmittels (Bahn, Tram, Trolley- oder
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 1.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten Fahrrad, Kleinmotorrad bis 50 cm3 (Code 402 Person 1 / 452 Person 2)
@@ -1099,7 +1107,7 @@ positionen:
     zitat: 1.2 Fahrrad, Kleinmotorrad bis 50 cm3 (Kontrollschild mit gelbem Grund) 402
   - chunk: sg-wl-2025__c0077
     zitat: bis zu Fr. 700 im Jahr
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 1.3
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Fahrkosten Motorfahrzeug, Fr. 0.70 pro km, Zwischentotal max. Fr. 8'000 (Code 404/406 Person 1; 454/456 Person 2)
@@ -1123,7 +1131,7 @@ positionen:
     zitat: 'Bei Benützung eines Motorfahrzeuges in begründeten Fällen: 70 Rappen je'
   - chunk: sg-wl-2025__c0076
     zitat: entsprechend 10,8% pro Jahr
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 2.1
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Mehrkosten auswärtige Verpflegung, Fr. 15 pro Arbeitstag / Fr. 3'200 pro Jahr (Code 408 Person 1 / 458 Person 2)
@@ -1140,7 +1148,7 @@ positionen:
     zitat: Pro Arbeitstag Fr. 15 / im Jahr Fr. 3'200 408
   - chunk: sg-wl-2025__c0078
     zitat: Fr. 15 für jede auswärtige Hauptmahlzeit
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 2.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Verpflegung verbilligt durch Arbeitgeber (Kantine, Gutscheine/Lunch-Checks), Fr. 7.50 pro Tag / Fr. 1'600 pro Jahr (Code 410 Person 1 / 460 Person 2)
@@ -1159,7 +1167,7 @@ positionen:
     zitat: Pro Arbeitstag Fr. 7.50 / im Jahr Fr. 1'600 410
   - chunk: sg-wl-2025__c0078
     zitat: In diesem Fall ist auf dem Lohnausweis Feld G
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 2.3
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Schicht-/Nachtarbeit (mind. 8 Stunden durchgehend), Fr. 15 pro Schichttag / Fr. 3'200 pro Jahr (Code 412 Person 1 / 462 Person 2)
@@ -1176,7 +1184,7 @@ positionen:
     zitat: Pro ausgewiesenen Schichttag Fr. 15 / im Jahr Fr. 3'200 412
   - chunk: sg-wl-2025__c0079
     zitat: geleisteter Schichttage ist vom Arbeit-
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 3.1
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Pauschalabzug übrige Berufskosten: Fr. 700 + 10% des Nettolohnes, max. Fr. 2''400 (Code 416 Person 1 / 466 Person 2)'
@@ -1196,7 +1204,7 @@ positionen:
     zitat: Pauschale von Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2’400
   - chunk: sg-form-32-2025__c0002
     zitat: max. Fr. 2'400 max. Fr. 4'000
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 3.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Tatsächliche übrige Berufskosten anstelle Pauschale (Code 418 Person 1 / 468 Person 2)
@@ -1210,7 +1218,7 @@ positionen:
     zitat: '3.2 Anstelle des Pauschalabzuges: tatsächliche Berufskosten'
   - chunk: sg-wl-2025__c0080
     zitat: so können gegen Nachweis die tatsächlichen Auf
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 4.1
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Wochenaufenthalt: Unterkunft, ortsübliche Kosten Zimmer (Code 426 Person 1 / 476 Person 2)'
@@ -1227,7 +1235,7 @@ positionen:
     zitat: '4.1 Unterkunft: Ortsübliche Kosten für ein Zimmer'
   - chunk: sg-wl-2025__c0081
     zitat: je nach Arbeitsort Fr. 500 bis Fr. 800 pro Monat
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 4.2
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Wochenaufenthalt: Verpflegung Fr. 30 pro Arbeitstag / Fr. 6''400 pro Jahr (Code 428 Person 1 / 478 Person 2)'
@@ -1243,7 +1251,7 @@ positionen:
     zitat: Pro Arbeitstag Fr. 30 / im Jahr Fr. 6'400
   - chunk: sg-wl-2025__c0081
     zitat: gesamthaft Fr. 22.50 im Tag, bzw. Fr. 4’800 im Jahr
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 5
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Kosten bei unselbständiger Nebenerwerbstätigkeit: Pauschale 20% der Nettoeinkünfte, min. Fr. 800, max. Fr. 2''400 (Code 432) bzw. tatsächliche Kosten (Code 434); Person 2: 482/484'
@@ -1262,7 +1270,7 @@ positionen:
     zitat: '5.1 Pauschalabzug: 20% der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2''400 432'
   - chunk: sg-wl-2025__c0082
     zitat: Steuerpflichtige, die keine Haupterwerbstätigkeit bei Dritten ausüben
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 4 Ziff. 6
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: Total der Berufskosten (Code 438 Person 1 / 488 Person 2)
@@ -1275,7 +1283,7 @@ positionen:
     zitat: 6. Total der Berufskosten 438
   - chunk: sg-form-4-2025__c0004
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 10.1
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Lohnausweis Feld F
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Lohnausweis Feld F: unentgeltliche Beförderung zwischen Wohn- und Arbeitsort'
@@ -1288,7 +1296,7 @@ positionen:
   quellen:
   - chunk: sg-wl-2025__c0075
     zitat: Ein Abzug für die Fahrt zur Arbeit ist deshalb nicht möglich
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Lohnausweis Ziff. 10.2
   abschnitt: Einkünfte
   bezeichnung: 'Lohnausweis Ziff. 10.2: BVG-Einkaufsbeiträge (bereits vom Lohn abgezogen)'
@@ -1304,7 +1312,8 @@ positionen:
   - chunk: sg-wl-2025__c0086
     zitat: Deklaration des Nettolohnes
   status: extrahiert
-  bemerkung: Spezifische Lohnausweis-Ziffer 10.2 in der SG-WL 2025 nicht erwähnt; Aussage zur Doppelerfassung aus WL SG 2025 Ziff. 13.2.
+  bemerkung: Spezifische Lohnausweis-Ziffer 10.2 in der SG-WL 2025 nicht erwähnt; Aussage zur Doppelerfassung aus WL SG 2025 Ziff. 13.2. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw.
+    61, nur 2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert.
 - ziffer: Lohnausweis Ziff. 13.3
   abschnitt: Einkünfte
   bezeichnung: 'Lohnausweis Ziff. 13.3: Beiträge des Arbeitgebers an Aus-/Weiterbildung'
@@ -1323,7 +1332,8 @@ positionen:
   - chunk: sg-wl-2025__c0094
     zitat: Um selbst bezahlte, berufsorientierte Aus-, Weiterbildungs- und
   status: extrahiert
-  bemerkung: Lohnausweis-Ziffer 13.3 wird in der WL SG 2025 nicht namentlich genannt; Regel aus WL SG 2025 Ziff. 1 und 16.4.
+  bemerkung: Lohnausweis-Ziffer 13.3 wird in der WL SG 2025 nicht namentlich genannt; Regel aus WL SG 2025 Ziff. 1 und 16.4. Inhalt durch Prüfung bestätigt (Lohnausweis-Wegleitung Rz 45/47 bzw. 61, nur
+    2026 im Wiki); SG-Zitat nur indirekt, daher extrahiert.
 - ziffer: Lohnausweis Ziff. 15
   abschnitt: Hilfsblatt Berufskosten
   bezeichnung: 'Lohnausweis Ziff. 15 Bemerkungen: Anzahl Schichttage; «Einer von xx Lohnausweisen»'
@@ -1337,7 +1347,7 @@ positionen:
     zitat: Ziffer 15 im Lohnausweis
   - chunk: sg-wl-2025__c0039
     zitat: Ziffer 15 des Lohnaus
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 5 Teil A
   abschnitt: Hilfsblatt Schulden
   bezeichnung: Private Schulden und private Schuldzinsen (→ Ziff. 34.1 und 11)
@@ -1350,7 +1360,7 @@ positionen:
   quellen:
   - chunk: sg-form-5-2025__c0001
     zitat: Total private Schulden und private Schuldzinsen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 5 Teil B
   abschnitt: Hilfsblatt Schulden
   bezeichnung: Geschäftsschulden (→ Ziff. 34.2)
@@ -1362,7 +1372,7 @@ positionen:
   quellen:
   - chunk: sg-form-5-2025__c0002
     zitat: sind in der Jahresrechnung enthalten und deshalb hier nicht aufzuführen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 5 Rückseite Teil A
   abschnitt: Hilfsblatt Zuwendungen
   bezeichnung: Freiwillige Zuwendungen (→ Ziff. 21.3)
@@ -1374,7 +1384,9 @@ positionen:
   quellen:
   - chunk: sg-form-5-2025__c0003
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 21.3
-  status: extrahiert
+  - chunk: sg-wl-2025__c0102
+    zitat: insgesamt höchstens aber 20% des Nettoeinkommens gemäss Ziffer 20
+  status: agent-geprueft
 - ziffer: Form. 5 Rückseite Teil B
   abschnitt: Hilfsblatt Zuwendungen
   bezeichnung: Parteispenden (→ Ziff. 16.3)
@@ -1389,7 +1401,9 @@ positionen:
   quellen:
   - chunk: sg-form-5-2025__c0004
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 16.3
-  status: extrahiert
+  - chunk: sg-wl-2025__c0093
+    zitat: Parteispenden können maximal in der Höhe von Fr. 10’700
+  status: agent-geprueft
 - ziffer: Form. 6 Teil A
   abschnitt: Hilfsblatt Versicherungsprämien
   bezeichnung: 'Bezahlte Versicherungsprämien und Sparzinsen: a. Krankenversicherung brutto, b. Unfallversicherung (ohne NBU), c. Lebens-/Rentenversicherungen, d. Sparzinsen, e. abzüglich Prämienverbilligungen'
@@ -1405,7 +1419,7 @@ positionen:
     zitat: a. Private Krankenversicherung (brutto)
   - chunk: sg-form-6-2025__c0001
     zitat: e. abzüglich Prämienverbilligungen
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 6 Teil B/C
   abschnitt: Hilfsblatt Versicherungsprämien
   bezeichnung: Maximaler Abzug (Fr. 6'800 / Fr. 3'400, Zuschläge) und zulässiger Abzug (→ Ziff. 14)
@@ -1424,7 +1438,7 @@ positionen:
     zitat: Der niedrigere Betrag von (A) und (B)
   - chunk: sg-form-6-2025__c0002
     zitat: Fr. 1’100 zusätzlich für jedes Kind
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 6 Rückseite Krankheitskosten
   abschnitt: Hilfsblatt Krankheitskosten
   bezeichnung: 'Krankheits- und Unfallkosten: Rechnungsdatum, Arzt/Zahnarzt/Spital, Bruttobetrag, abzüglich Beiträge Dritter, selbst getragene Kosten (→ Ziff. 21.1 Vorkolonne)'
@@ -1438,7 +1452,7 @@ positionen:
   quellen:
   - chunk: sg-form-6-2025__c0003
     zitat: Abzugsfähig sind die tatsächlich selbst getragenen Kosten
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 6 Rückseite Behinderungskosten
   abschnitt: Hilfsblatt Krankheitskosten
   bezeichnung: Behinderungsbedingte Kosten (→ Ziff. 21.2)
@@ -1450,7 +1464,7 @@ positionen:
   quellen:
   - chunk: sg-form-6-2025__c0004
     zitat: zu übertragen in die Steuererklärung Seite 3 Ziffer 21.2
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 7 Abschnitt A
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: Angaben zur Liegenschaft / Steuerwert (→ Ziff. 31)
@@ -1464,7 +1478,7 @@ positionen:
     zitat: Pro Liegenschaft ist ein separates Formular zu verwenden
   - chunk: sg-wl-2025__c0154
     zitat: Im Weiteren sind die Anteile von Person 1 und Person 2 in Prozenten anzugeben
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 7 Abschnitt B.a
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: Eigenmietwert (abzüglich 30%, Unternutzungs-/Härtefallabzug)
@@ -1484,7 +1498,7 @@ positionen:
     zitat: Der Eigenmietwert des am Wohnsitz dauernd selbstbewohnten Eigenhei-
   - chunk: sg-wl-2025__c0158
     zitat: Übersteigt das steuerbare Vermögen Fr. 600’000
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 7 Abschnitt B.b
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: Erträge Fremdnutzung und Leistungen Dritter (Miet-/Pachtzinsen, Geschäftsräume, abzüglich Nebenkosten)
@@ -1500,7 +1514,9 @@ positionen:
     zitat: Total steuerbare Erträge Fremdnutzung und Leistungen Dritter
   - chunk: sg-wl-2025__c0159
     zitat: Zum steuerbaren Mietertrag gehören die Miet- und Pachtzinsen bei
-  status: extrahiert
+  - chunk: sg-wl-2025__c0160
+    zitat: Der Einschlag beträgt in der Regel 20%.
+  status: agent-geprueft
 - ziffer: Form. 7 Abschnitt C
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: 'Unterhalts- und Verwaltungskosten: Pauschalabzug 20% der Erträge (B) oder tatsächliche Kosten (Rückseite, C2)'
@@ -1516,7 +1532,7 @@ positionen:
     zitat: Abzugsfähig sind nur die selbst bezahlten Kosten
   - chunk: sg-wl-2025__c0161
     zitat: Die Pauschale umfasst alle Aufwendungen inklusive Kosten denkmalpflegerischer Arbeiten
-  status: extrahiert
+  status: agent-geprueft
 - ziffer: Form. 7Z
   abschnitt: Hilfsblatt Liegenschaften
   bezeichnung: 'Zusammenzug aller Liegenschaften: Steuerwert (A), Erträge (B), Pauschalabzug (C1), tatsächliche Kosten (C2)'
@@ -1527,4 +1543,4 @@ positionen:
   quellen:
   - chunk: sg-form-7z-2025__c0001
     zitat: zu übertragen in die Steuererklärung Seite 4 Ziffer 31 Seite 2 Ziffer 5 Seite 3 Ziffer 15
-  status: extrahiert
+  status: agent-geprueft

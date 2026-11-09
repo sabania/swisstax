@@ -52,7 +52,7 @@ Dokumente (Kreisschreiben, Merkblätter, Praxis). Massgeblich ist immer das Feld
 
 ## 4. Zitierformat
 
-- Tabelle: Spalte «Quelle» mit `[WL ZH 2025 S. 14](../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0042.md)`.
+- Tabelle: Spalte «Quelle» mit Link auf den Chunk, z.B. `[WL ZH 2025 S. 14](../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0042.md)`.
 - Fliesstext: `^[zh-wl-2025__c0042]` (Chunk-ID) oder `^[bund-dbg-2026__art-33]`.
 - Daten (`data/*.yaml`): `quelle: <chunk-id>` und `zitat: "<wörtlich aus dem Chunk>"` – `tools/lint.py` prüft das Zitat
   maschinell gegen den Chunk-Text.

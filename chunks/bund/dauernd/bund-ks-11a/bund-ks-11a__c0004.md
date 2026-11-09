@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0004
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 3.1 Begriff der Krankheits- und Unfallkosten"
 ziffer: "3.1"
 seiten: "3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3
+> Bund · Steuerjahr 2027 · KS 11a · 3 Krankheits- und Unfallkosten › 3.1 Begriffe · S. 3
 
 3   Krankheits- und Unfallkosten
 

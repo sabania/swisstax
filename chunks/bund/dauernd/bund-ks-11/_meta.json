@@ -1,0 +1,899 @@
+[
+{
+"id": "bund-ks-11__c0001",
+"titel": "Ziff. 1 Ausgangslage – Revision per 1.1.2005 (BehiG)",
+"pfad": [
+"1. Ausgangslage"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "1",
+"stichworte": [
+"Krankheitskosten",
+"Behindertengleichstellungsgesetz",
+"BehiG",
+"Selbstbehalt 5 %",
+"Revision 2005"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Bis Ende 2004 galt ein Selbstbehalt von 5 % für Krankheits-, Unfall- und Invaliditätskosten; per 1.1.2005 wurden mit dem BehiG steuerliche Erleichterungen für Behinderte eingeführt.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "bund-ks-11__c0002"
+},
+{
+"id": "bund-ks-11__c0002",
+"titel": "Ziff. 2 Gesetzliche Grundlagen – Art. 33 Abs. 1 Bst. h und hbis DBG",
+"pfad": [
+"2. Gesetzliche Grundlagen"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "2",
+"stichworte": [
+"Art. 33 DBG",
+"Krankheitskosten",
+"Unfallkosten",
+"behinderungsbedingte Kosten",
+"Selbstbehalt 5 Prozent"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Krankheits- und Unfallkosten sind abziehbar, soweit sie 5 Prozent der um die Aufwendungen verminderten steuerbaren Einkünfte übersteigen; bei behinderungsbedingten Kosten gibt es keinen Selbstbehalt.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0001",
+"nachher": "bund-ks-11__c0003"
+},
+{
+"id": "bund-ks-11__c0003",
+"titel": "Ziff. 3.1 Begriff Krankheits- und Unfallkosten",
+"pfad": [
+"3. Krankheits- und Unfallkosten",
+"3.1 Begriff"
+],
+"seiten": [
+3,
+4
+],
+"artikel": null,
+"ziffer": "3.1",
+"stichworte": [
+"Krankheitskosten",
+"Arzt",
+"Spital",
+"Medikamente",
+"Brille",
+"Kontaktlinsen",
+"Therapien"
+],
+"positionen": [
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Krankheits- und Unfallkosten sind Ausgaben für medizinische Behandlungen zur Erhaltung oder Wiederherstellung der Gesundheit.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0002",
+"nachher": "bund-ks-11__c0004"
+},
+{
+"id": "bund-ks-11__c0004",
+"titel": "Ziff. 3.1 Nicht abzugsfähige Aufwendungen (Lebenshaltung, Prävention, Schönheit) und Krankenkassenprämien",
+"pfad": [
+"3. Krankheits- und Unfallkosten",
+"3.1 Begriff"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "3.1",
+"stichworte": [
+"Lebenshaltungskosten",
+"Prävention",
+"Fitness",
+"Schönheitsbehandlung",
+"Krankenkassenprämien",
+"Psychoanalyse"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Nicht abzugsfähig sind Lebenshaltungs-, Präventions- und Schönheitskosten sowie Krankenkassenprämien (nur über Art. 212 Abs. 1 DBG).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0003",
+"nachher": "bund-ks-11__c0005"
+},
+{
+"id": "bund-ks-11__c0005",
+"titel": "Ziff. 3.2.1–3.2.3 Zahnbehandlung, Heilmassnahmen, Kuraufenthalte",
+"pfad": [
+"3. Krankheits- und Unfallkosten",
+"3.2 Kategorien"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "3.2.1–3.2.3",
+"stichworte": [
+"Zahnarzt",
+"Zahnkorrektur",
+"Physiotherapie",
+"Psychotherapie",
+"Kur",
+"Erholungsaufenthalt",
+"Verpflegung CHF 20"
+],
+"positionen": [
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Zahnbehandlungen, ärztlich verordnete Heilmassnahmen und Kuren sind abzugsfähig; bei Kuren nur über den Ansatz von CHF 20.-- pro Tag und erwachsene Person eingesparter Verpflegung.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0004",
+"nachher": "bund-ks-11__c0006"
+},
+{
+"id": "bund-ks-11__c0006",
+"titel": "Ziff. 3.2.4–3.2.5 Alternativmedizin, Medikamente und Heilmittel",
+"pfad": [
+"3. Krankheits- und Unfallkosten",
+"3.2 Kategorien"
+],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": "3.2.4–3.2.5",
+"stichworte": [
+"Alternativmedizin",
+"Naturheilpraktiker",
+"Komplementärmedizin",
+"Medikamente",
+"Heilmittel"
+],
+"positionen": [
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Naturheilärztliche Behandlungen, Medikamente und Heilmittel sind abzugsfähig, wenn von Arzt oder anerkanntem Naturheilpraktiker verordnet.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0005",
+"nachher": "bund-ks-11__c0007"
+},
+{
+"id": "bund-ks-11__c0007",
+"titel": "Ziff. 3.2.6–3.2.7 Pflegekosten zu Hause und in Alters- und Pflegeheimen",
+"pfad": [
+"3. Krankheits- und Unfallkosten",
+"3.2 Kategorien"
+],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": "3.2.6–3.2.7",
+"stichworte": [
+"Spitex",
+"Pflege zu Hause",
+"Altersheim",
+"Pflegeheim",
+"60 Minuten pro Tag",
+"Haushalt"
+],
+"positionen": [
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Ambulante Pflege zu Hause ist abzugsfähig (nicht unentgeltliche); Heimkosten bei weniger als 60 Minuten Pflegeaufwand pro Tag sind Lebenshaltungskosten.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0006",
+"nachher": "bund-ks-11__c0008"
+},
+{
+"id": "bund-ks-11__c0008",
+"titel": "Ziff. 3.2.8–3.2.10 Fortpflanzungshilfen, Transportkosten, Diäten (Pauschale CHF 2'500) (Teil 1/2)",
+"pfad": [
+"3. Krankheits- und Unfallkosten",
+"3.2 Kategorien"
+],
+"seiten": [
+5,
+6
+],
+"artikel": null,
+"ziffer": "3.2.8–3.2.10",
+"stichworte": [
+"künstliche Befruchtung",
+"In-vitro-Fertilisation",
+"Rega",
+"Krankenwagen",
+"Diät",
+"Zöliakie",
+"Diabetes"
+],
+"positionen": [
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Fortpflanzungshilfen sind abzugsfähig, Transportkosten nur ausnahmsweise; bei lebensnotwendigen Diäten ist eine Pauschale von CHF 2'500.-- möglich (nicht bei Diabetes).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0007",
+"nachher": "bund-ks-11__c0009"
+},
+{
+"id": "bund-ks-11__c0009",
+"titel": "Ziff. 3.2.8–3.2.10 Fortpflanzungshilfen, Transportkosten, Diäten (Pauschale CHF 2'500) (Teil 2/2)",
+"pfad": [
+"3. Krankheits- und Unfallkosten",
+"3.2 Kategorien"
+],
+"seiten": [
+5,
+6
+],
+"artikel": null,
+"ziffer": "3.2.8–3.2.10",
+"stichworte": [
+"künstliche Befruchtung",
+"In-vitro-Fertilisation",
+"Rega",
+"Krankenwagen",
+"Diät",
+"Zöliakie",
+"Diabetes"
+],
+"positionen": [
+"abzug.krankheitskosten"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0008",
+"nachher": "bund-ks-11__c0010"
+},
+{
+"id": "bund-ks-11__c0010",
+"titel": "Ziff. 4.1 Behinderte Person – Begriff und Personengruppen (Teil 1/3)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.1 Behinderte Person"
+],
+"seiten": [
+6,
+7
+],
+"artikel": null,
+"ziffer": "4.1",
+"stichworte": [
+"Behinderung",
+"IV-Rente",
+"Hilflosenentschädigung",
+"Hilfsmittel",
+"Heimbewohner",
+"Spitex"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Als behindert gelten u.a. Bezüger von IV-Leistungen, Hilflosenentschädigung, Hilfsmitteln sowie Heim-/Spitex-Patienten mit mindestens 60 Minuten Pflegeaufwand pro Tag.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0009",
+"nachher": "bund-ks-11__c0011"
+},
+{
+"id": "bund-ks-11__c0011",
+"titel": "Ziff. 4.1 Behinderte Person – Begriff und Personengruppen (Teil 2/3)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.1 Behinderte Person"
+],
+"seiten": [
+6,
+7
+],
+"artikel": null,
+"ziffer": "4.1",
+"stichworte": [
+"Behinderung",
+"IV-Rente",
+"Hilflosenentschädigung",
+"Hilfsmittel",
+"Heimbewohner",
+"Spitex"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0010",
+"nachher": "bund-ks-11__c0012"
+},
+{
+"id": "bund-ks-11__c0012",
+"titel": "Ziff. 4.1 Behinderte Person – Begriff und Personengruppen (Teil 3/3)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.1 Behinderte Person"
+],
+"seiten": [
+6,
+7
+],
+"artikel": null,
+"ziffer": "4.1",
+"stichworte": [
+"Behinderung",
+"IV-Rente",
+"Hilflosenentschädigung",
+"Hilfsmittel",
+"Heimbewohner",
+"Spitex"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0011",
+"nachher": "bund-ks-11__c0013"
+},
+{
+"id": "bund-ks-11__c0013",
+"titel": "Ziff. 4.2 Begriff behinderungsbedingte Kosten",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.2 Begriff"
+],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": "4.2",
+"stichworte": [
+"behinderungsbedingte Kosten",
+"Luxusausgaben",
+"Lebenshaltungskosten",
+"kausaler Zusammenhang"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Behinderungsbedingt sind notwendige Kosten mit kausalem Zusammenhang zur Behinderung; Lebenshaltungs- und Luxusausgaben sind nicht abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0012",
+"nachher": "bund-ks-11__c0014"
+},
+{
+"id": "bund-ks-11__c0014",
+"titel": "Ziff. 4.3.1–4.3.3 Assistenz, Haushaltshilfe und Kinderbetreuung, Tagesstrukturen (Teil 1/3)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+7,
+8
+],
+"artikel": null,
+"ziffer": "4.3.1–4.3.3",
+"stichworte": [
+"Assistenz",
+"Haushaltshilfe",
+"Kinderbetreuung",
+"Gebärdendolmetscher",
+"Tagesstruktur",
+"ärztliche Bescheinigung"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Kosten für Assistenz, Haushaltshilfe/Kinderbetreuung (mit ärztlicher Bescheinigung) und Tagesstrukturen sind abzugsfähig, nicht aber unentgeltliche Leistungen oder übliche Verpflegung.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0013",
+"nachher": "bund-ks-11__c0015"
+},
+{
+"id": "bund-ks-11__c0015",
+"titel": "Ziff. 4.3.1–4.3.3 Assistenz, Haushaltshilfe und Kinderbetreuung, Tagesstrukturen (Teil 2/3)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+7,
+8
+],
+"artikel": null,
+"ziffer": "4.3.1–4.3.3",
+"stichworte": [
+"Assistenz",
+"Haushaltshilfe",
+"Kinderbetreuung",
+"Gebärdendolmetscher",
+"Tagesstruktur",
+"ärztliche Bescheinigung"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0014",
+"nachher": "bund-ks-11__c0016"
+},
+{
+"id": "bund-ks-11__c0016",
+"titel": "Ziff. 4.3.1–4.3.3 Assistenz, Haushaltshilfe und Kinderbetreuung, Tagesstrukturen (Teil 3/3)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+7,
+8
+],
+"artikel": null,
+"ziffer": "4.3.1–4.3.3",
+"stichworte": [
+"Assistenz",
+"Haushaltshilfe",
+"Kinderbetreuung",
+"Gebärdendolmetscher",
+"Tagesstruktur",
+"ärztliche Bescheinigung"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0015",
+"nachher": "bund-ks-11__c0017"
+},
+{
+"id": "bund-ks-11__c0017",
+"titel": "Ziff. 4.3.4–4.3.5 Heim- und Entlastungsaufenthalte, heilpädagogische Therapien (Teil 1/2)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": "4.3.4–4.3.5",
+"stichworte": [
+"Wohnheim",
+"Pflegeheim",
+"Entlastungsaufenthalt",
+"Existenzminimum Art. 93 SchKG",
+"Musiktherapie",
+"Blindenschrift"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Heim- und Entlastungsaufenthalte sind abzugsfähig, gekürzt um die ersparten Lebenshaltungskosten (Existenzminimum Art. 93 SchKG).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0016",
+"nachher": "bund-ks-11__c0018"
+},
+{
+"id": "bund-ks-11__c0018",
+"titel": "Ziff. 4.3.4–4.3.5 Heim- und Entlastungsaufenthalte, heilpädagogische Therapien (Teil 2/2)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+8
+],
+"artikel": null,
+"ziffer": "4.3.4–4.3.5",
+"stichworte": [
+"Wohnheim",
+"Pflegeheim",
+"Entlastungsaufenthalt",
+"Existenzminimum Art. 93 SchKG",
+"Musiktherapie",
+"Blindenschrift"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0017",
+"nachher": "bund-ks-11__c0019"
+},
+{
+"id": "bund-ks-11__c0019",
+"titel": "Ziff. 4.3.6 Transport- und Fahrzeugkosten (Teil 1/3)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+8,
+9
+],
+"artikel": null,
+"ziffer": "4.3.6",
+"stichworte": [
+"Behindertenfahrdienst",
+"Taxi",
+"Kilometerentschädigung",
+"Fahrzeugumbau",
+"Rampe",
+"Arbeitsweg"
+],
+"positionen": [
+"abzug.behinderungskosten",
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Transportkosten sind mit öffentlichem Verkehrsmittel/Behindertenfahrdienst abzugsfähig, private Fahrzeuge nur wenn jene nicht zumutbar; Arbeitswege sind Gewinnungskosten.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0018",
+"nachher": "bund-ks-11__c0020"
+},
+{
+"id": "bund-ks-11__c0020",
+"titel": "Ziff. 4.3.6 Transport- und Fahrzeugkosten (Teil 2/3)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+8,
+9
+],
+"artikel": null,
+"ziffer": "4.3.6",
+"stichworte": [
+"Behindertenfahrdienst",
+"Taxi",
+"Kilometerentschädigung",
+"Fahrzeugumbau",
+"Rampe",
+"Arbeitsweg"
+],
+"positionen": [
+"abzug.behinderungskosten",
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0019",
+"nachher": "bund-ks-11__c0021"
+},
+{
+"id": "bund-ks-11__c0021",
+"titel": "Ziff. 4.3.6 Transport- und Fahrzeugkosten (Teil 3/3)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+8,
+9
+],
+"artikel": null,
+"ziffer": "4.3.6",
+"stichworte": [
+"Behindertenfahrdienst",
+"Taxi",
+"Kilometerentschädigung",
+"Fahrzeugumbau",
+"Rampe",
+"Arbeitsweg"
+],
+"positionen": [
+"abzug.behinderungskosten",
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0020",
+"nachher": "bund-ks-11__c0022"
+},
+{
+"id": "bund-ks-11__c0022",
+"titel": "Ziff. 4.3.7–4.3.8 Blindenführhunde, Hilfsmittel, Pflegeartikel und Kleider (Teil 1/2)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": "4.3.7–4.3.8",
+"stichworte": [
+"Blindenführhund",
+"Hilfsmittel",
+"Windeln",
+"Stoma",
+"Notrufsystem",
+"Spezialschuhe",
+"Kleiderverschleiss"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Anschaffung und Haltung von Blindenführhunden sowie Hilfsmittel, Pflegeartikel und Mehrkosten für Kleider/Schuhe sind abzugsfähig.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0021",
+"nachher": "bund-ks-11__c0023"
+},
+{
+"id": "bund-ks-11__c0023",
+"titel": "Ziff. 4.3.7–4.3.8 Blindenführhunde, Hilfsmittel, Pflegeartikel und Kleider (Teil 2/2)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+9
+],
+"artikel": null,
+"ziffer": "4.3.7–4.3.8",
+"stichworte": [
+"Blindenführhund",
+"Hilfsmittel",
+"Windeln",
+"Stoma",
+"Notrufsystem",
+"Spezialschuhe",
+"Kleiderverschleiss"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0022",
+"nachher": "bund-ks-11__c0024"
+},
+{
+"id": "bund-ks-11__c0024",
+"titel": "Ziff. 4.3.9–4.3.10 Wohnkosten (Umbau) und Privatschulen",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.3 Kategorien"
+],
+"seiten": [
+9,
+10
+],
+"artikel": null,
+"ziffer": "4.3.9–4.3.10",
+"stichworte": [
+"Treppenlift",
+"Rollstuhlrampe",
+"Wohnungsumbau",
+"Privatschule",
+"schulpsychologischer Dienst"
+],
+"positionen": [
+"abzug.behinderungskosten",
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Behinderungsbedingter Wohnungsumbau ist abziehbar; Privatschulkosten nur mit Bericht des schulpsychologischen Dienstes.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0023",
+"nachher": "bund-ks-11__c0025"
+},
+{
+"id": "bund-ks-11__c0025",
+"titel": "Ziff. 4.4 Pauschalen behinderungsbedingte Kosten (CHF 2'500 / 5'000 / 7'500)",
+"pfad": [
+"4. Behinderungsbedingte Kosten",
+"4.4 Pauschalen"
+],
+"seiten": [
+10
+],
+"artikel": null,
+"ziffer": "4.4",
+"stichworte": [
+"Pauschalabzug",
+"Hilflosenentschädigung",
+"leichter Grad",
+"mittlerer Grad",
+"schwerer Grad",
+"Dialyse",
+"Gehörlose"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Jährliche Pauschalen: Hilflosenentschädigung leicht CHF 2'500.--, mittel CHF 5'000.--, schwer CHF 7'500.--; CHF 2'500.-- für Gehörlose und Dialysepatienten.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0024",
+"nachher": "bund-ks-11__c0026"
+},
+{
+"id": "bund-ks-11__c0026",
+"titel": "Ziff. 5.1 Selbst getragene Kosten und Anrechnung von Leistungen Dritter (Teil 1/2)",
+"pfad": [
+"5. Abzugsfähige Kosten",
+"5.1 Selbst getragene Kosten"
+],
+"seiten": [
+10,
+11
+],
+"artikel": null,
+"ziffer": "5.1",
+"stichworte": [
+"Selbst getragene Kosten",
+"Krankenkasse Leistungen",
+"Ergänzungsleistungen",
+"Hilflosenentschädigung",
+"Genugtuung",
+"Kapitalleistung"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten",
+"info.steuerfreie_leistungen"
+],
+"zusammenfassung": "Abzugsfähig ist nur der nach Versicherungs- und Drittleistungen verbleibende Betrag; Ergänzungsleistungen nach Art. 3a ELG werden nicht angerechnet, Genugtuungsleistungen ebenfalls nicht.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0025",
+"nachher": "bund-ks-11__c0027"
+},
+{
+"id": "bund-ks-11__c0027",
+"titel": "Ziff. 5.1 Selbst getragene Kosten und Anrechnung von Leistungen Dritter (Teil 2/2)",
+"pfad": [
+"5. Abzugsfähige Kosten",
+"5.1 Selbst getragene Kosten"
+],
+"seiten": [
+10,
+11
+],
+"artikel": null,
+"ziffer": "5.1",
+"stichworte": [
+"Selbst getragene Kosten",
+"Krankenkasse Leistungen",
+"Ergänzungsleistungen",
+"Hilflosenentschädigung",
+"Genugtuung",
+"Kapitalleistung"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten",
+"info.steuerfreie_leistungen"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0026",
+"nachher": "bund-ks-11__c0028"
+},
+{
+"id": "bund-ks-11__c0028",
+"titel": "Ziff. 5.2 Kosten der unterhaltenen Personen (Kinder, übrige unterstützte Personen) (Teil 1/2)",
+"pfad": [
+"5. Abzugsfähige Kosten",
+"5.2 Unterhaltene Personen"
+],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": "5.2",
+"stichworte": [
+"Kinder",
+"unterstützte Person",
+"Unterstützungsabzug",
+"Alimente",
+"Ausland"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten",
+"sozialabzug.unterstuetzung",
+"sozialabzug.kinder"
+],
+"zusammenfassung": "Kosten unterhaltener Personen sind abziehbar; bei übrigen unterstützten Personen nur der Betrag über dem Unterstützungsabzug nach Art. 213 Abs. 1 Bst. b DBG.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0027",
+"nachher": "bund-ks-11__c0029"
+},
+{
+"id": "bund-ks-11__c0029",
+"titel": "Ziff. 5.2 Kosten der unterhaltenen Personen (Kinder, übrige unterstützte Personen) (Teil 2/2)",
+"pfad": [
+"5. Abzugsfähige Kosten",
+"5.2 Unterhaltene Personen"
+],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": "5.2",
+"stichworte": [
+"Kinder",
+"unterstützte Person",
+"Unterstützungsabzug",
+"Alimente",
+"Ausland"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten",
+"sozialabzug.unterstuetzung",
+"sozialabzug.kinder"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0028",
+"nachher": "bund-ks-11__c0030"
+},
+{
+"id": "bund-ks-11__c0030",
+"titel": "Ziff. 5.3 Selbstbehalt 5 %",
+"pfad": [
+"5. Abzugsfähige Kosten",
+"5.3 Selbstbehalt"
+],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": "5.3",
+"stichworte": [
+"Selbstbehalt",
+"5 Prozent",
+"Nettoeinkommen",
+"Krankheitskosten Abzug"
+],
+"positionen": [
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Krankheits- und Unfallkosten sind nur abziehbar, soweit sie 5 % der um die Aufwendungen (Art. 26–33 DBG) verminderten Einkünfte übersteigen; bei behinderungsbedingten Kosten kein Selbstbehalt.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0029",
+"nachher": "bund-ks-11__c0031"
+},
+{
+"id": "bund-ks-11__c0031",
+"titel": "Ziff. 6–7 Nachweis, ärztlicher Fragebogen und Geltungsbereich",
+"pfad": [
+"6. Nachweis",
+"7. Geltungsbereich"
+],
+"seiten": [
+11,
+12
+],
+"artikel": null,
+"ziffer": "6–7",
+"stichworte": [
+"Nachweis",
+"Arztzeugnis",
+"Belege",
+"Fragebogen für Ärzte",
+"Auslandzahlungen",
+"Geltungsbereich"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Kosten sind durch ärztliche Bescheinigungen und Rechnungen nachzuweisen; das KS ersetzt das KS Nr. 16 vom 14.12.1994 und gilt ab Steuerjahr 2005.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "bund-ks-11__c0030",
+"nachher": null
+}
+]

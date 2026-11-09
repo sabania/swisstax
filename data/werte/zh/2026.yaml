@@ -18,7 +18,7 @@ werte:
     zitat: Fr. 5200 im Jahr abgezogen werden
   - chunk: zh-wl-2026-uj__c0060
     zitat: Bei der Staatssteuer ist der Fahrkostenabzug auf CHF 5’200 beschränkt.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Aus WL 2026 UJ bestätigt.
 - key: berufskosten.fahrkosten.auto_km
   wert: 0.75
@@ -31,7 +31,7 @@ werte:
     zitat: für Auto . . . . . . . . . . . . . . . . . 75 Rp. pro Fahrkilometer
   - chunk: zh-wl-2026-uj__c0021
     zitat: der Fahrkostenabzug für Automobile pro Kilometer von CHF 0.70 auf CHF 0.75 angehoben worden
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Privates Motorfahrzeug nur bei Ausnahmen gemäss Ziff. I/1 (kein ÖV, Zeitersparnis über 1 Std., Arbeitgeber-Verlangen, Krankheit/Gebrechlichkeit). Aus WL 2026 UJ bestätigt.
 - key: berufskosten.fahrkosten.motorrad_km
   wert: 0.4
@@ -44,7 +44,7 @@ werte:
     zitat: 40 Rp. pro Fahrkilometer
   - chunk: zh-wl-2026-uj__c0060
     zitat: für Motorrad mit weissem Kontrollschild 40 Rp. pro Fahrkilometer
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.velo_pauschale
   wert: 700
   einheit: CHF
@@ -56,7 +56,7 @@ werte:
     zitat: im Jahr Fr. 700
   - chunk: zh-wl-2026-uj__c0055
     zitat: Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.arbeitstage
   wert: 240
   einheit: Tage
@@ -66,7 +66,7 @@ werte:
   quellen:
   - chunk: zh-wl-2026-uj__c0062
     zitat: in der Regel begrenzt auf 240 Tage
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Quelle ist das Formular Berufsauslagen (in WL 2026 UJ abgedruckt), nicht LS 631.33 selbst.
 - key: berufskosten.verpflegung.tag
   wert: 15
@@ -79,11 +79,11 @@ werte:
     zitat: pro Arbeitstag Fr. 15
   - chunk: zh-wl-2026-uj__c0061
     zitat: pro Arbeitstag CHF 15, bei ständiger auswärtiger Verpflegung im Jahr höchstens CHF 3’200
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.jahr
   wert: 3200
   einheit: CHF
-  text: 'Bei ständiger auswärtiger Verpflegung (voll zulasten Arbeitnehmer): höchstens Fr. 3''200 im Jahr. Nicht kumulierbar mit Schichtarbeits- und Wochenaufenthalts-Verpflegung.'
+  text: 'Bei ständiger auswärtiger Verpflegung (voll zulasten Arbeitnehmer): höchstens Fr. 3''200 im Jahr. Nicht kumulierbar mit der Schicht-/Nachtarbeits-Pauschale.'
   gilt_fuer: kanton
   rechtsgrundlage: LS 631.33 Ziff. I/2 lit. a
   quellen:
@@ -91,7 +91,7 @@ werte:
     zitat: pro Arbeitstag CHF 15, bei ständiger auswärtiger Verpflegung im Jahr höchstens CHF 3’200
   - chunk: zh-pauschalierung-berufsauslagen-2026__c0004
     zitat: Die vorstehenden Abzüge dürfen nicht kumuliert werden.
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
   einheit: CHF
@@ -103,7 +103,7 @@ werte:
     zitat: pro Arbeitstag CHF 7.50, bei ständiger auswärtiger Verpflegung im Jahr höchstens CHF 1’600
   - chunk: zh-pauschalierung-berufsauslagen-2026__c0004
     zitat: Fr. 7.50
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.verbilligt_jahr
   wert: 1600
   einheit: CHF
@@ -115,7 +115,7 @@ werte:
     zitat: bei ständiger auswärtiger Verpflegung . . im Jahr Fr. 1600
   - chunk: zh-wl-2026-uj__c0061
     zitat: bei ständiger auswärtiger Verpflegung im Jahr höchstens CHF 1’600
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.schichtarbeit.tag
   wert: 15
   einheit: CHF
@@ -128,7 +128,7 @@ werte:
     zitat: Schichttag CHF 15, bei ständiger Schicht- oder Nachtarbeit im Jahr höchstens CHF 3’200
   - chunk: zh-pauschalierung-berufsauslagen-2026__c0004
     zitat: bei ständiger Schicht- oder Nachtarbeit . . im Jahr Fr. 3200
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.wochenaufenthalt.unterkunft
   wert: null
   einheit: Text
@@ -139,7 +139,7 @@ werte:
   quellen:
   - chunk: zh-wl-2026-uj__c0066
     zitat: Als Mehrkosten für auswärtige Unterkunft kann der Mietzins für ein Zimmer abgezogen werden.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Aus WL 2026 UJ; LS 631.33 enthält keine Pauschale für die Unterkunft.
 - key: berufskosten.wochenaufenthalt.verpflegung_jahr
   wert: 3200
@@ -150,7 +150,7 @@ werte:
   quellen:
   - chunk: zh-wl-2026-uj__c0066
     zitat: bei ganzjährigem Wochenaufenthalt CHF 3’200 im Jahr abgezogen werden
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Aus WL 2026 UJ; nicht aus LS 631.33.
 - key: berufskosten.uebrige.satz
   wert: 3
@@ -164,7 +164,7 @@ werte:
     zitat: mindestens jedoch Fr. 2000 und höchstens Fr. 4000
   - chunk: zh-wl-2026-uj__c0062
     zitat: 3% des Nettolohnes gemäss Lohnausweis, mindestens jedoch CHF 2’000
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.fix
   wert: null
   einheit: CHF
@@ -184,7 +184,7 @@ werte:
     zitat: mindestens jedoch Fr. 2000 und höchstens Fr. 4000
   - chunk: zh-wl-2026-uj__c0062
     zitat: 3% des Nettolohnes gemäss Lohnausweis, mindestens jedoch CHF 2’000
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.max
   wert: 4000
   einheit: CHF
@@ -196,7 +196,7 @@ werte:
     zitat: mindestens jedoch Fr. 2000 und höchstens Fr. 4000
   - chunk: zh-pauschalierung-berufsauslagen-2026__c0007
     zitat: sind die Berufsauslagen in vollem Umfang nachzuweisen
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.satz
   wert: 20
   einheit: '%'
@@ -208,7 +208,7 @@ werte:
     zitat: mindestens jedoch Fr. 800 und höchstens Fr. 2400
   - chunk: zh-wl-2026-uj__c0067
     zitat: 20% der Einkünfte aus allen Nebenbeschäftigungen, insgesamt mindestens jedoch CHF 800 und höchstens CHF 2’400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.min
   wert: 800
   einheit: CHF
@@ -218,7 +218,7 @@ werte:
   quellen:
   - chunk: zh-pauschalierung-berufsauslagen-2026__c0006
     zitat: mindestens jedoch Fr. 800 und höchstens Fr. 2400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.max
   wert: 2400
   einheit: CHF
@@ -230,7 +230,7 @@ werte:
     zitat: mindestens jedoch Fr. 800 und höchstens Fr. 2400
   - chunk: zh-wl-2026-uj__c0067
     zitat: insgesamt mindestens jedoch CHF 800 und höchstens CHF 2’400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.homeoffice
   wert: null
   einheit: Text
@@ -243,7 +243,7 @@ werte:
     zitat: privates Arbeitszimmer, Beiträge an Berufsverbände
   - chunk: zh-pauschalierung-berufsauslagen-2026__c0007
     zitat: sind die Berufsauslagen in vollem Umfang nachzuweisen
-  status: extrahiert
+  status: agent-geprueft
 - key: weiterbildung.max
   wert: 12600
   einheit: CHF
@@ -258,7 +258,7 @@ werte:
     zitat: bis zum Gesamtbetrag von Fr. 12 600
   - chunk: zh-wl-2026-uj__c0089
     zitat: CHF 12’600 bei der Staatssteuer bzw. CHF 13’000 bei der Bundessteuer
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.verheiratet
   wert: 5800
   einheit: CHF
@@ -270,7 +270,7 @@ werte:
     zitat: bis zum Gesamtbetrag von Fr. 5800 für in ungetrennter Ehe lebende Steuerpflichtige und von Fr. 2900 für die übrigen Steuerpflichtigen
   - chunk: zh-wl-2026-uj__c0081
     zitat: CHF 5’800 für verheiratete Personen in rechtlich und tatsächlich ungetrennter Ehe
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.verheiratet_ohne_vorsorge
   wert: 8700
   einheit: CHF
@@ -282,7 +282,7 @@ werte:
     zitat: Für Steuerpflichtige ohne Beiträge gemäss lit. d und e erhöhen sich diese Abzüge um die Hälfte.
   - chunk: zh-wl-2026-uj__c0081
     zitat: Der Abzug beträgt für solche Steuerpflichtige höchstens CHF 8’700.
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.alleinstehend
   wert: 2900
   einheit: CHF
@@ -294,7 +294,7 @@ werte:
     zitat: Fr. 5800 für in ungetrennter Ehe lebende Steuerpflichtige und von Fr. 2900 für die übrigen Steuerpflichtigen
   - chunk: zh-wl-2026-uj__c0084
     zitat: CHF 2’900 für alle übrigen Steuerpflichtigen.
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.alleinstehend_ohne_vorsorge
   wert: 4350
   einheit: CHF
@@ -306,7 +306,7 @@ werte:
     zitat: Für Steuerpflichtige ohne Beiträge gemäss lit. d und e erhöhen sich diese Abzüge um die Hälfte.
   - chunk: zh-wl-2026-uj__c0085
     zitat: Steuerpflichtige höchstens CHF 4’350.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 4'350 = 2'900 x 1.5 (Gesetz) und in WL 2026 UJ ausdrücklich genannt.
 - key: versicherung.kind
   wert: 1300
@@ -319,7 +319,7 @@ werte:
     zitat: Zudem erhöhen sich diese Abzüge um Fr. 1300 für jedes Kin d oder jede unterstützungsbedürftige Person
   - chunk: zh-wl-2026-uj__c0087
     zitat: CHF 1’300 für jedes Kind oder jede u nterstützungsbedürftige Person
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.max_mit_2saeule
   wert: 7258
   einheit: CHF
@@ -331,7 +331,7 @@ werte:
     zitat: höchstens CHF 7’258
   - chunk: zh-zstb-31-1-bis-2026__c0002
     zitat: ab 2025 7 258 36 288
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ZStB 31.1 (Fassung bis 31.12.2026) nennt die Beträge 'ab 2025' ohne neues Datum für 2026; Wegleitung 2026 UJ bestätigt 7'258.
 - key: saeule3a.max_ohne_2saeule
   wert: 36288
@@ -344,7 +344,7 @@ werte:
     zitat: höchstens 20% des Erwerbseinkommens, maximal aber CHF 36’288
   - chunk: zh-zstb-31-1-bis-2026__c0002
     zitat: ab 2025 7 258 36 288
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
   einheit: '%'
@@ -354,7 +354,7 @@ werte:
   quellen:
   - chunk: zh-wl-2026-uj__c0075
     zitat: höchstens 20% des Erwerbseinkommens, maximal aber CHF 36’288
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.einkauf
   wert: 7258
   einheit: CHF
@@ -367,7 +367,7 @@ werte:
     zitat: in jedem Fall aber maximal CHF 7’258
   - chunk: zh-wl-2026-uj__c0020
     zitat: auch Einkäufe getätigt werden für Beitragslücken, die ab dem 1.1.2025 entstanden sind
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Rechtsgrundlage nur aus Wegleitung belegt, Artikelangabe BVV 3 nicht aus einem Chunk geprüft.
 - key: zweiverdiener.satz
   wert: null
@@ -398,7 +398,7 @@ werte:
     zitat: Erwerbseinkommen, das ein Ehegatte unabhängig von Beruf, Geschäft oder Gewerbe des anderen Ehegatten erzielt, Fr. 6200 abgezogen
   - chunk: zh-wl-2026-uj__c0109
     zitat: Der Abzug beträgt max. CHF 6’200
-  status: extrahiert
+  status: agent-geprueft
 - key: drittbetreuung.max
   wert: 25300
   einheit: CHF
@@ -412,7 +412,7 @@ werte:
     zitat: jedoch höchstens Fr. 25 300, für die Drittbetreuung jedes Kindes
   - chunk: zh-wl-2026-uj__c0105
     zitat: Der Abzug beträgt höchstens CHF 25’300 (Staatssteuer)
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'StG Nachtrag 127 (2025) vs. VKP 2024: für 2026 gilt 25''300 laut StG Nachtrag 132 und VKP ab 2026; die 10''400 der alten VKP ab 2024 sind überholt.'
 - key: drittbetreuung.altersgrenze
   wert: 14
@@ -424,7 +424,7 @@ werte:
   quellen:
   - chunk: zh-stg-2026__par-31-t3
     zitat: welches das 14. Altersjahr noch nicht vollendet hat
-  status: extrahiert
+  status: agent-geprueft
 - key: krankheitskosten.selbstbehalt_satz
   wert: 5
   einheit: '%'
@@ -437,7 +437,9 @@ werte:
     zitat: diese 5 Prozent der um die Aufwendungen gemäss §§ 26–31 verminderten steuerbaren Einkünfte übersteigen
   - chunk: zh-wl-2026-uj__c0115
     zitat: Selbstbehalt von 5% des Nettoeinkommens
-  status: extrahiert
+  - chunk: zh-wl-2026-uj__c0119
+    zitat: Pauschale von CHF 2500 geltend gemacht
+  status: agent-geprueft
 - key: spenden.min
   wert: 100
   einheit: CHF
@@ -449,7 +451,7 @@ werte:
     zitat: wenn die Zuwendungen in der Steuerperiode Fr. 100 erreichen
   - chunk: zh-info-spenden__c0003
     zitat: Die Zuwendungen in einem Jahr gesamthaft mindestens CHF 100 betragen.
-  status: extrahiert
+  status: agent-geprueft
 - key: spenden.max_satz
   wert: 20
   einheit: '%'
@@ -461,7 +463,7 @@ werte:
     zitat: insgesamt 20 Prozent der um die Aufwendungen gemäss §§ 26–31 verminderten steuerbaren Einkünfte nicht übersteigen
   - chunk: zh-wl-2026-uj__c0120
     zitat: die Zuwendungen in der Steuerperiode CHF 100 erreichen und soweit sie insgesamt 20%
-  status: extrahiert
+  status: agent-geprueft
 - key: parteispenden.max
   wert: 10500
   einheit: CHF
@@ -473,7 +475,7 @@ werte:
     zitat: Fr. 21 000 für in ungetrennter Ehe lebende Steuerpflichtige und von Fr. 10 500 für die übrigen Steuerpflichtigen
   - chunk: zh-vkp-2026-zstb__c0003
     zitat: und von Fr. 10 500 für die übrigen Steuerpflichtigen an politische
-  status: extrahiert
+  status: agent-geprueft
 - key: parteispenden.max_verheiratet
   wert: 21000
   einheit: CHF
@@ -485,7 +487,7 @@ werte:
     zitat: Fr. 21 000 für in ungetrennter Ehe lebende Steuerpflichtige
   - chunk: zh-wl-2026-uj__c0097
     zitat: Höchstbetrag von CHF 21’000 für in ungetrennter Ehe lebende Steuerpflichtige
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.pauschale_neu
   wert: 20
   einheit: '%'
@@ -498,7 +500,7 @@ werte:
     zitat: Dieser Pauschalabzug beträgt 20 % vom Brutto-Mietertrag bzw. -Mietwert.
   - chunk: zh-wl-2026-uj__c0191
     zitat: beträgt 20% für jede Liegenschaft
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Keine Unterscheidung Gebäude bis/über 10 Jahre in den Quellen.
 - key: liegenschaft.pauschale_alt
   wert: 20
@@ -511,7 +513,7 @@ werte:
     zitat: Dieser Pauschalabzug beträgt 20 % vom Brutto-Mietertrag bzw. -Mietwert.
   - chunk: zh-wl-2026-uj__c0191
     zitat: beträgt 20% für jede Liegenschaft
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.eigenmietwert_abzug
   wert: 10
   einheit: '%'
@@ -527,7 +529,7 @@ werte:
     zitat: gelten für Zürcher Liegenschaften bis und mit Baujahr 2025 deshalb weiterhin die bisherigen
   - chunk: zh-stg-2026__par-21-t2
     zitat: auf maximal 70 Prozent des Marktwertes festzulegen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Der Abzug von 10 % gilt nur für Neubauten ab 2026 (Quelle: WL 2026 UJ, Liegenschaftenverzeichnis). Härtefalleinschlag nach § 21 Abs. 2 lit. d StG (Nachtrag 132) auf Antrag möglich, Details
     siehe ZStB 21.3.'
 - key: sozialabzug.kind
@@ -544,7 +546,7 @@ werte:
     zitat: je Fr. 9400
   - chunk: zh-wl-2026-uj__c0124
     zitat: CHF 9’400 pro Kind
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind_vorschule
   wert: null
   einheit: CHF
@@ -570,7 +572,7 @@ werte:
   quellen:
   - chunk: zh-stg-2026__par-34
     zitat: volljährige Kinder, die in der beruflichen Erstausbildung stehen und deren Unterhalt der Steuerpflichtige zur Hauptsache bestreitet, je Fr. 9400
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: null
   einheit: CHF
@@ -592,7 +594,7 @@ werte:
     zitat: mindestens in der Höhe des Abzugs beiträgt, je Fr. 2800
   - chunk: zh-wl-2026-uj__c0134
     zitat: Unterstützungsabzuges von CHF 2’800
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.verheiratete
   wert: null
   einheit: CHF
@@ -631,7 +633,7 @@ werte:
     zitat: 0‰ für die ersten Fr. 81 000
   - chunk: zh-vkp-2026-zstb__c0009
     zitat: für die ersten Fr. 81 000
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_verheiratet
   wert: 161000
   einheit: CHF
@@ -643,7 +645,7 @@ werte:
     zitat: 0‰ für die ersten Fr. 161 000
   - chunk: zh-vkp-2026-zstb__c0010
     zitat: für die ersten Fr. 161 000
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_kind
   wert: null
   einheit: CHF
@@ -665,7 +667,7 @@ werte:
     zitat: Sold der Milizfeuerwehrleute bis zum Betrag von jährlich Fr. 8400
   - chunk: zh-vkp-2026-zstb__c0002
     zitat: bis zum Betrag von jährlich Fr. 8400
-  status: extrahiert
+  status: agent-geprueft
 - key: steuerfrei.grossspielgewinn
   wert: 1046400
   einheit: CHF
@@ -677,7 +679,7 @@ werte:
     zitat: die einzelnen Gewinne bis zum Betrag von Fr. 1 046 400
   - chunk: zh-wl-2026-uj__c0164
     zitat: bis zu einem Betrag von CHF 1’046’400 bei
-  status: extrahiert
+  status: agent-geprueft
 - key: steuerfrei.kleingewinn
   wert: 1000
   einheit: CHF
@@ -690,7 +692,7 @@ werte:
     zitat: sofern die Grenze von Fr. 1000 nicht überschritten wird
   - chunk: zh-wl-2026-uj__c0165
     zitat: CHF 1’000 (Staatssteuer) bzw. CHF 1’100 (Bundessteuer) steuerfrei
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfuss_kanton
   wert: 95
   einheit: '%'
@@ -700,7 +702,7 @@ werte:
   quellen:
   - chunk: zh-info-steuerfuesse__c0003
     zitat: liegt für die Jahre 2026 und 2027 bei 95 Prozent der einfachen Staatssteuer
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfrei_alleinstehend
   wert: 7000
   einheit: CHF
@@ -712,7 +714,7 @@ werte:
     zitat: 0% für die ersten Fr. 7 000
   - chunk: zh-vkp-2026-zstb__c0007
     zitat: 0% für die ersten Fr. 7 000
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfrei_verheiratet
   wert: 14100
   einheit: CHF
@@ -724,7 +726,7 @@ werte:
     zitat: 0% für die ersten Fr. 14 100
   - chunk: zh-vkp-2026-zstb__c0008
     zitat: 0% für die ersten Fr. 14 100
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.hoechstsatz_ab_alleinstehend
   wert: 266700
   einheit: CHF
@@ -736,7 +738,7 @@ werte:
     zitat: 13% für Einkommensteile über Fr. 266 700
   - chunk: zh-vkp-2026-zstb__c0007
     zitat: 13% für Einkommensteile über Fr. 266 700
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.hoechstsatz_ab_verheiratet
   wert: 370600
   einheit: CHF
@@ -748,7 +750,7 @@ werte:
     zitat: 13% für Einkommensteile über Fr. 370 600
   - chunk: zh-vkp-2026-zstb__c0008
     zitat: 13% für Einkommensteile über Fr. 370 600
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.mindeststeuer
   wert: null
   einheit: CHF
@@ -772,7 +774,7 @@ werte:
     zitat: bis 31. März des der Steuerperiode folgenden Kalenderjahres
   - chunk: zh-wl-2026-uj__c0013
     zitat: Die Steuererklärung ist innert 30 Tagen nach Zustellung der Formulare
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: ZStB 133.1 (Aufforderung 2027) nennt 31.3.2027 ausdrücklich für die Steuererklärung 2026. 30-Tage-Frist nur für unterjährige Steuerpflicht (WL 2026 UJ).
 - key: verfahren.fristerstreckung
   wert: null
@@ -789,7 +791,7 @@ werte:
     zitat: gelten ohne gegenteiligen schriftlichen Entscheid als stillschweigend bewilligt
   - chunk: zh-zstb-132-1__c0023
     zitat: erstrecken von Amtes wegen die Frist bis am 30. September des der Steuerperiode folgenden Kalenderjahres
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Kosten einer Fristerstreckung in den Quellen nicht gefunden. ZStB 132.1 gilt ab 1.1.2026 (Steuererklärung 2025 und Folgejahre).
 - key: verfahren.abgabeweg
   wert: null
@@ -807,7 +809,7 @@ werte:
     zitat: bis 31. März 2027 online
   - chunk: zh-wl-2026-uj__c0214
     zitat: Beilagen zur Steuererklärung sind in Papierform einzureichen.
-  status: extrahiert
+  status: agent-geprueft
 - key: verfahren.beilagen_schwellen
   wert: null
   einheit: Text
@@ -818,7 +820,7 @@ werte:
   quellen:
   - chunk: zh-wl-2026-uj__c0220
     zitat: sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist
-  status: extrahiert
+  status: agent-geprueft
 - key: bezug.provisorisch
   wert: null
   einheit: Text
@@ -831,7 +833,7 @@ werte:
     zitat: in drei Raten per 30. Juni, 30. September
   - chunk: zh-stv__par-49
     zitat: der 30. September in der Steuerperiode
-  status: extrahiert
+  status: agent-geprueft
 - key: bezug.verzugszins
   wert: 4.5
   einheit: '%'
@@ -841,8 +843,8 @@ werte:
   quellen:
   - chunk: zh-wl-2026-uj__c0019
     zitat: Ablauf der dreissig tägigen Zahlungsfrist seit 1. Januar 2008 4,5%
-  status: extrahiert
-  bemerkung: Aus WL 2026 UJ (Satzangabe gilt seit 2008; vorübergehende Senkung 2020 ist abgelaufen).
+  status: agent-geprueft
+  bemerkung: Aus WL 2026 UJ (Satzangabe gilt seit 2008; vorübergehende Senkung 2020 ist abgelaufen). Gilt für die Staats-/Gemeindesteuer; bei der direkten Bundessteuer beträgt der Verzugszins 2026 4,0 % (RS 2-215).
 - key: bezug.verguetungszins
   wert: 0.75
   einheit: '%'
@@ -852,7 +854,7 @@ werte:
   quellen:
   - chunk: zh-wl-2026-uj__c0018
     zitat: Zins zu Gunsten wie zu Lasten der steuerpflichtigen Person beträgt im Kalenderjahr 2026 Zinssatz 0,75%
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Gleicher Satz für Zins zugunsten und zulasten (Ausgleichszins); aus WL 2026 UJ.
 - key: bezug.ausgleichszins
   wert: 0.75
@@ -866,4 +868,4 @@ werte:
     zitat: beträgt im Kalenderjahr 2026 Zinssatz 0,75%
   - chunk: zh-wl-2026-uj__c0018
     zitat: Sämtliche Zahlungen, die Sie im Kalenderjahr 2026 vor dem 1. Oktober 2026 geleistet haben
-  status: extrahiert
+  status: agent-geprueft

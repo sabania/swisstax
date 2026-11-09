@@ -78,8 +78,8 @@ werte:
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
   einheit: CHF
-  text: Nur halber Abzug (CHF 7.50 pro Tag), wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers benützt werden kann. Kein Abzug, wenn der
-    Arbeitgeber die Naturalbezüge unter den behördlichen Bewertungsansätzen bewertet oder die Verpflegung zu Preisen unter diesen Ansätzen möglich ist (Art. 6 Abs. 3 BKV).
+  text: Nur halber Abzug (CHF 7.50 pro Tag), wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers benützt werden kann. Kein Abzug, wenn
+    der Arbeitgeber die Naturalbezüge unter den behördlichen Bewertungsansätzen bewertet oder die Verpflegung zu Preisen unter diesen Ansätzen möglich ist (Art. 6 Abs. 3 BKV).
   gilt_fuer: bund
   rechtsgrundlage: Art. 6 Abs. 2 und 3 BKV
   quellen:
@@ -101,8 +101,8 @@ werte:
 - key: berufskosten.schichtarbeit.tag
   wert: 15
   einheit: CHF
-  text: 'Schicht-/Nachtarbeit: gleiche Pauschale wie auswärtige Verpflegung, CHF 15 pro Tag bzw. max. CHF 3''200 pro Jahr (bei Verbilligung halber Abzug). Gestaffelte (unregelmässige) Arbeitszeit ist gleichgestellt (Art. 6 Abs. 4 BKV). Arbeitgeber muss Tage und Arbeitsort auf Verlangen
-    bescheinigen.'
+  text: 'Schicht-/Nachtarbeit: gleiche Pauschale wie auswärtige Verpflegung, CHF 15 pro Tag bzw. max. CHF 3''200 pro Jahr (bei Verbilligung halber Abzug). Gestaffelte (unregelmässige) Arbeitszeit ist gleichgestellt
+    (Art. 6 Abs. 4 BKV). Arbeitgeber muss Tage und Arbeitsort auf Verlangen bescheinigen.'
   gilt_fuer: bund
   rechtsgrundlage: Art. 6 Abs. 1 lit. b, Abs. 4, 5 BKV; Anhang Ziff. 1 lit. a BKV
   quellen:
@@ -419,14 +419,14 @@ werte:
   text: Krankheits- und Unfallkosten abziehbar, soweit selbst getragen und über 5 % der um die Aufwendungen (Art. 26-33) verminderten steuerbaren Einkünfte. Behinderungsbedingte Kosten (lit. hbis) ohne
     Selbstbehalt.
   gilt_fuer: bund
-  rechtsgrundlage: Art. 33 Abs. 1 lit. h DBG; KS 11a Ziff. 5.3
+  rechtsgrundlage: Art. 33 Abs. 1 lit. h DBG; KS 11 Ziff. 5.3
   quellen:
   - chunk: bund-dbg-2026__art-33-t3
     zitat: diese 5 Prozent der um die Aufwendungen (Art. 26–33) verminderten steuerbaren Einkünfte übersteigen
-  - chunk: bund-ks-11a__c0040
-    zitat: von 5 Prozent der um die Aufwendungen (Art. 26 - 33 DBG) verminderten steuerbaren Ein
+  - chunk: bund-ks-11__c0030
+    zitat: halt von 5 % der um die Aufwendungen (Art. 26 – 33 DBG) verminderten steuerbaren
   status: agent-geprueft
-  bemerkung: KS 11a (publiziert 26.05.2026) ersetzt KS 11; Praxisänderung gilt grundsätzlich für alle offenen Veranlagungen – Änderungen bei der Abgrenzung der Kosten beachten.
+  bemerkung: 'Praxis 2025/2026: ESTV-KS 11 vom 31.08.2005 (bund-ks-11). Das KS 11a (publiziert 26.05.2026) gilt gemäss seiner Ziff. 7 erst ab Steuerperiode 2027 (bund-ks-11a). Review Opus 2026-11-09.'
 - key: spenden.min
   wert: 100
   einheit: CHF

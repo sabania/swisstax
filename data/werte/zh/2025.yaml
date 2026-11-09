@@ -12,7 +12,7 @@ werte:
     zitat: Höchstbetrag von Fr. 5200 für Fahrten zwischen Wohn- und Arbeitsstätte
   - chunk: zh-wl-2025__c0065
     zitat: Bei der Staatssteuer ist der Fahrkostenabzug auf CHF 5’200 beschränkt.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Direkte Bundessteuer: CHF 3''300 (WL ZH 2025) – siehe data/werte/bund.'
 - key: berufskosten.fahrkosten.auto_km
   wert: 0.7
@@ -25,7 +25,7 @@ werte:
     zitat: für Auto 70 Rp. pro Fahrkilometer
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0003
     zitat: 70 Rp. pro Fahrkilometer
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.motorrad_km
   wert: 0.4
   einheit: CHF
@@ -37,7 +37,7 @@ werte:
     zitat: für Motorrad mit weissem Kontrollschild 40 Rp. pro Fahrkilometer
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0003
     zitat: 40 Rp. pro Fahrkilometer
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.velo_pauschale
   wert: 700
   einheit: CHF
@@ -49,7 +49,7 @@ werte:
     zitat: im Jahr Fr. 700
   - chunk: zh-wl-2025__c0063
     zitat: Kontrollschild im Jahr CHF 700
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.arbeitstage
   wert: 240
   einheit: Tage
@@ -72,7 +72,7 @@ werte:
     zitat: pro Arbeitstag Fr. 15
   - chunk: zh-wl-2025__c0071
     zitat: CHF 15 pro Arbeitstag
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Wegleitungs-Zitat betrifft Wochenaufenthalt (Abendessen); Tagessatz identisch mit LS 631.33.
 - key: berufskosten.verpflegung.jahr
   wert: 3200
@@ -83,7 +83,7 @@ werte:
   quellen:
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0004
     zitat: im Jahr Fr. 3200
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
   einheit: CHF
@@ -93,7 +93,7 @@ werte:
   quellen:
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0004
     zitat: Fr. 7.50
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.verbilligt_jahr
   wert: 1600
   einheit: CHF
@@ -103,7 +103,7 @@ werte:
   quellen:
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0004
     zitat: im Jahr Fr. 1600
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.schichtarbeit.tag
   wert: 15
   einheit: CHF
@@ -116,7 +116,7 @@ werte:
     zitat: Schichttag Fr. 15
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0004
     zitat: bei ständiger Schicht- oder Nachtarbeit . . im Jahr Fr. 3200
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Abzüge nach Ziff. I/2 dürfen nicht kumuliert werden.
 - key: berufskosten.wochenaufenthalt.unterkunft
   wert: null
@@ -128,7 +128,7 @@ werte:
   quellen:
   - chunk: zh-wl-2025__c0071
     zitat: kann der Mietzins für ein Zimmer abgezogen werden
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.wochenaufenthalt.verpflegung_jahr
   wert: 3200
   einheit: CHF
@@ -138,7 +138,7 @@ werte:
   quellen:
   - chunk: zh-wl-2025__c0071
     zitat: bei ganzjährigem Wochenaufenthalt CHF 3’200 im Jahr abgezogen werden
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.satz
   wert: 3
   einheit: '%'
@@ -149,7 +149,7 @@ werte:
   quellen:
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0005
     zitat: 3% des Netto
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.fix
   wert: null
   gilt_fuer: kanton
@@ -165,7 +165,7 @@ werte:
   quellen:
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0005
     zitat: jedoch Fr. 2000
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.max
   wert: 4000
   einheit: CHF
@@ -175,7 +175,7 @@ werte:
   quellen:
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0005
     zitat: und höchstens Fr. 4000
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.satz
   wert: 20
   einheit: '%'
@@ -187,7 +187,7 @@ werte:
     zitat: 20% der Einkünfte aus allen Nebenbeschäftigungen
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0006
     zitat: 20% der Ein
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.min
   wert: 800
   einheit: CHF
@@ -199,7 +199,7 @@ werte:
     zitat: mindestens jedoch CHF 800 und höchstens CHF 2’400
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0006
     zitat: jedoch Fr. 800
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.max
   wert: 2400
   einheit: CHF
@@ -210,8 +210,8 @@ werte:
   - chunk: zh-wl-2025__c0072
     zitat: mindestens jedoch CHF 800 und höchstens CHF 2’400
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0006
-    zitat: und höchstens
-  status: extrahiert
+    zitat: und höchstens Fr. 2400
+  status: agent-geprueft
 - key: berufskosten.homeoffice
   wert: null
   einheit: Text
@@ -238,7 +238,7 @@ werte:
     zitat: bis zum Gesamtbetrag von Fr. 12 400
   - chunk: zh-wl-2025__c0093
     zitat: CHF 12’400 bei der Staatssteuer
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund: CHF 13''000 (WL ZH 2025).'
 - key: versicherung.verheiratet
   wert: 5800
@@ -251,7 +251,7 @@ werte:
     zitat: bis zum Gesamtbetrag von Fr. 5800 für in ungetrennter Ehe lebende Steuerpflichtige
   - chunk: zh-wl-2025__c0086
     zitat: CHF 5’800 für verheiratete Personen in rechtlich und tatsächlich ungetrennter Ehe.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund: CHF 3''700 / ohne Vorsorge 5''550 (Form. 365). Zuschlag je Kind/unterstützte Person separat.'
 - key: versicherung.verheiratet_ohne_vorsorge
   wert: 8700
@@ -264,7 +264,7 @@ werte:
     zitat: Der Abzug beträgt für solche Steuerpflichtige höchstens CHF 8’700.
   - chunk: zh-stg-2025__par-31-t2
     zitat: Für Steuerpflichtige ohne Beiträge gemäss lit. d und e erhöhen sich diese Abzüge um die Hälfte.
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.alleinstehend
   wert: 2900
   einheit: CHF
@@ -276,7 +276,7 @@ werte:
     zitat: von Fr. 2900 für die übrigen Steuerpflichtigen
   - chunk: zh-wl-2025__c0084
     zitat: die Beiträge an die 2. oder 3. Säule a geleistet haben 2’900
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund: CHF 1''800 / ohne Vorsorge 2''700 (Form. 365).'
 - key: versicherung.alleinstehend_ohne_vorsorge
   wert: 4350
@@ -289,7 +289,7 @@ werte:
     zitat: geleistet wurden 4’350
   - chunk: zh-stg-2025__par-31-t2
     zitat: Für Steuerpflichtige ohne Beiträge gemäss lit. d und e erhöhen sich diese Abzüge um die Hälfte.
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.kind
   wert: 1300
   einheit: CHF
@@ -301,7 +301,7 @@ werte:
     zitat: um Fr. 1300 für jedes Kind oder jede unterstützungsbedürftige Person
   - chunk: zh-wl-2025__c0085
     zitat: Zusätzlicher Abzug für jedes Kind
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.max_mit_2saeule
   wert: 7258
   einheit: CHF
@@ -313,7 +313,7 @@ werte:
     zitat: höchstens CHF 7’258
   - chunk: zh-zstb-31-1-bis-2026__c0002
     zitat: ab 2025 7 258 36 288
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.max_ohne_2saeule
   wert: 36288
   einheit: CHF
@@ -325,7 +325,7 @@ werte:
     zitat: maximal aber CHF 36’288
   - chunk: zh-zstb-31-1-bis-2026__c0002
     zitat: ab 2025 7 258 36 288
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
   einheit: '%'
@@ -335,13 +335,27 @@ werte:
   quellen:
   - chunk: zh-wl-2025__c0081
     zitat: höchstens 20% des Erwerbseinkommens
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.einkauf
   wert: null
   gilt_fuer: kanton
-  quellen: []
-  status: offen
-  bemerkung: In den ZH-Quellen 2025 (WL ZH 2025, ZStB 31.1) keine Regel zur nachträglichen 3a-Einzahlung (Einkauf) gefunden; ZStB 31.1 Fassung bis 2026 nennt nur die Höchstbeträge.
+  quellen:
+  - chunk: zh-stg-2025__par-31-t2
+    zitat: vorsorge im Sinn und im Umfang von Art. 82 BVG
+  - chunk: bund-bvv3__art-7a-t1
+    zitat: in den zehn dem Einkauf vorangehenden Jahren nicht alle für sie maximal zulässigen Beiträge einbezahlt haben
+  - chunk: bund-bvv3__art-7a-t1
+    zitat: auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG
+  - chunk: bund-bvv3__uebergang-disp-u3
+    zitat: können nicht mit einem Einkauf ausgeglichen werden
+  status: extrahiert
+  bemerkung: Verweis auf Bundesrecht (BVV 3, Wert aus data/werte/bund/2025.yaml). Kantonale Norm § 31 Abs. 1 lit. e verweist «im Sinn und im Umfang von Art. 82 BVG». Taxonomie führt Beleg-Schlüssel «ab
+    Steuerjahr 2026»; praktisch erster Einkauf frühestens 2026 (Lücken ab Beitragsjahr 2025). ZH-spezifische Vollzugspraxis (ZStB 31.1) hierzu nicht gefunden.
+  einheit: Text
+  text: 'Nachträglicher Einkauf (Nachzahlung) in die Säule 3a: zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren (ab Beitragsjahr 2025) nicht alle zulässigen Beiträge einbezahlt
+    wurden; im Einkaufsjahr muss der volle ordentliche Beitrag geleistet sein; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7''258); je Jahresbeitragslücke nur ein Einkauf; Lücken vor
+    Inkrafttreten (1.1.2025) nicht einkaufbar.'
+  rechtsgrundlage: § 31 Abs. 1 lit. e StG ZH (Verweis auf Art. 82 BVG); Art. 7a, 7b BVV 3
 - key: zweiverdiener.satz
   wert: null
   gilt_fuer: kanton
@@ -366,7 +380,7 @@ werte:
     zitat: Fr. 6100 abgezogen
   - chunk: zh-wl-2025__c0112
     zitat: Der Abzug beträgt max. CHF 6’100
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund: 50 % des niedrigeren Erwerbseinkommens, min. CHF 8''600, max. CHF 14''100 (WL ZH 2025).'
 - key: drittbetreuung.max
   wert: 25000
@@ -380,7 +394,7 @@ werte:
     zitat: höchstens Fr. 25 000, für die Drittbetreuung jedes Kindes
   - chunk: zh-wl-2025__c0106
     zitat: Der Abzug beträgt höchstens CHF 25’000 (Staatssteuer)
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Die VKP ab 2024 (zh-vkp-2024-zstb__c0005) nennt noch Fr. 10 400. Das StG in der Fassung Nachtrag 127 (Stand 1.1.2025) und die WL 2025 nennen übereinstimmend Fr. 25 000; Gesetz und WL der Jahresfassung
     gehen vor, VKP-Wert ist überholt.
 - key: drittbetreuung.altersgrenze
@@ -392,7 +406,7 @@ werte:
   quellen:
   - chunk: zh-stg-2025__par-31-t4
     zitat: das 14. Altersjahr noch nicht vollendet hat
-  status: extrahiert
+  status: agent-geprueft
 - key: krankheitskosten.selbstbehalt_satz
   wert: 5
   einheit: '%'
@@ -405,7 +419,7 @@ werte:
     zitat: diese 5 Prozent der um die Aufwendungen gemäss §§ 26–31 verminderten steuerbaren Einkünfte
   - chunk: zh-zstb-32-1__c0004
     zitat: Selbstbehalt von fünf Prozent des Nettoeinkommens
-  status: extrahiert
+  status: agent-geprueft
 - key: spenden.min
   wert: 100
   einheit: CHF
@@ -417,7 +431,7 @@ werte:
     zitat: wenn die Zuwendungen in der Steuerperiode Fr. 100 erreichen
   - chunk: zh-info-spenden__c0003
     zitat: Die Zuwendungen in einem Jahr gesamthaft mindestens CHF 100 betragen.
-  status: extrahiert
+  status: agent-geprueft
 - key: spenden.max_satz
   wert: 20
   einheit: '%'
@@ -429,7 +443,7 @@ werte:
     zitat: insgesamt 20 Prozent der um die Aufwendungen gemäss §§ 26–31 verminderten steuerbaren Eink
   - chunk: zh-info-spenden__c0003
     zitat: nicht mehr als 20 Prozent von Ihrem Nettoeinkommen oder Reingewinn
-  status: extrahiert
+  status: agent-geprueft
 - key: parteispenden.max
   wert: 10300
   einheit: CHF
@@ -441,7 +455,7 @@ werte:
     zitat: Fr. 10 300 für die übrigen Steuerpflichtigen
   - chunk: zh-wl-2025__c0100
     zitat: CHF 10’300 für die übrigen Steuerpflichtigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund: CHF 10''600 für alle (WL ZH 2025).'
 - key: parteispenden.max_verheiratet
   wert: 20600
@@ -454,7 +468,7 @@ werte:
     zitat: Fr. 20 600 für in ungetrennter Ehe lebende Steuerpflichtige
   - chunk: zh-wl-2025__c0100
     zitat: CHF 20’600 für in ungetrennter Ehe lebende Steuerpflichtige
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.pauschale_neu
   wert: 20
   einheit: '%'
@@ -465,7 +479,7 @@ werte:
   quellen:
   - chunk: zh-zstb-30-2__c0002
     zitat: Dieser Pauschalabzug beträgt 20 % vom Brutto-Mietertrag bzw. -Mietwert.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'ZH kennt keine Staffelung nach Gebäudealter: einheitlich 20 % (siehe auch liegenschaft.pauschale_alt). Seed stimmt überein.'
 - key: liegenschaft.pauschale_alt
   wert: 20
@@ -476,7 +490,7 @@ werte:
   quellen:
   - chunk: zh-zstb-30-2__c0002
     zitat: Dieser Pauschalabzug beträgt 20 % vom Brutto-Mietertrag bzw. -Mietwert.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Keine Altersstaffelung (Gebäude bis/über 10 Jahre) in ZH; derselbe Wert wie liegenschaft.pauschale_neu.
 - key: liegenschaft.eigenmietwert_abzug
   wert: null
@@ -488,6 +502,8 @@ werte:
   quellen:
   - chunk: zh-weisung-liegenschaften-2009__c0033
     zitat: über 70% der Marktmiete oder unter 60% derselben liegt
+  - chunk: zh-weisung-liegenschaften-2009__c0035
+    zitat: auf 60% des Marktmietwerts festzulegen, wenn der Formelwert
   - chunk: zh-wl-2025__c0183
     zitat: kann in Ausnahmefällen ein Einschlag gewährt werden
   - chunk: zh-zstb-21-3-bis-2025__c0001
@@ -506,7 +522,7 @@ werte:
     zitat: je Fr. 9300
   - chunk: zh-vkp-2024-zstb__c0007
     zitat: je Fr. 9300
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund: abweichend (Kinderabzug Bund separat). Seed (9''300) bestätigt.'
 - key: sozialabzug.kind_vorschule
   wert: null
@@ -529,7 +545,7 @@ werte:
   quellen:
   - chunk: zh-stg-2025__par-34
     zitat: sowie für volljährige Kinder, die in der beruflichen Erstausbildung stehen und deren Unterhalt der Steuerpflichtige zur Hauptsache bestreitet, je Fr. 9300
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: null
   gilt_fuer: kanton
@@ -548,7 +564,7 @@ werte:
     zitat: je Fr. 2800
   - chunk: zh-wl-2025__c0203
     zitat: Staatssteuer CHF 2’800
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund: CHF 6''800 (WL ZH 2025 Beilagen).'
 - key: sozialabzug.verheiratete
   wert: null
@@ -579,7 +595,7 @@ werte:
     zitat: 0‰ für die ersten Fr. 80 000
   - chunk: zh-vkp-2024-zstb__c0010
     zitat: 0‰ für die ersten Fr. 80 000
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Abbildung des Freibetrags über den Tarif (0-%-Stufe). Seed hatte dafür keinen Wert für 2025.
 - key: vermoegen.freibetrag_verheiratet
   wert: 159000
@@ -592,7 +608,7 @@ werte:
     zitat: 0‰ für die ersten Fr. 159 000
   - chunk: zh-vkp-2024-zstb__c0011
     zitat: 0‰ für die ersten Fr. 159 000
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_kind
   wert: null
   gilt_fuer: kanton
@@ -608,7 +624,7 @@ werte:
   quellen:
   - chunk: zh-stg-2025__par-24-t2
     zitat: Fr. 8300 für Dienstleistungen im Zusammenhang mit der Erfüllung der Kernaufgaben der Feuerwehr
-  status: extrahiert
+  status: agent-geprueft
 - key: steuerfrei.grossspielgewinn
   wert: 1033000
   einheit: CHF
@@ -618,7 +634,7 @@ werte:
   quellen:
   - chunk: zh-stg-2025__par-24-t2
     zitat: Gewinne bis zum Betrag von Fr. 1 033 000
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Einsatzkostenabzug bei nicht steuerfreien Geldspielgewinnen: 5 %, max. CHF 5''200 (§ 31 Abs. 3).'
 - key: steuerfrei.kleingewinn
   wert: 1000
@@ -629,18 +645,20 @@ werte:
   quellen:
   - chunk: zh-stg-2025__par-24-t3
     zitat: sofern die Grenze von Fr. 1000 nicht überschritten wird
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfuss_kanton
   wert: 98
   einheit: '%'
   text: 'Staatssteuerfuss für alle Gemeinden einheitlich 98 % der einfachen Staatssteuer in den Jahren 2024 und 2025 (2026/2027: 95 %).'
   gilt_fuer: kanton
-  rechtsgrundlage: § 188 StG ZH (Gemeinden); Festsetzung durch Kantonsrat
+  rechtsgrundlage: § 2 Abs. 2 StG ZH
   quellen:
+  - chunk: zh-stg-2025__par-2
+    zitat: Der Kantonsrat setzt für je zwei Kalenderjahre den Steuerfuss in Prozenten der einfachen Staatssteuer fest.
   - chunk: zh-info-steuerfuesse__c0003
     zitat: in den Jahren 2024 und 2025 bei 98 Prozent gelegen hatte
-  status: extrahiert
-  bemerkung: Gemeindesteuerfüsse variieren je Gemeinde (zh-info-steuerfuesse).
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: Rechtsgrundlage war § 188 StG (Gemeindesteuerfuss); Staatssteuerfuss = § 2 Abs. 2 StG. Gemeindesteuerfüsse variieren je Gemeinde (zh-info-steuerfuesse).'
 - key: tarif.steuerfrei_alleinstehend
   wert: 6900
   einheit: CHF
@@ -652,7 +670,7 @@ werte:
     zitat: 0% für die ersten Fr. 6 900
   - chunk: zh-vkp-2024-zstb__c0008
     zitat: 0% für die ersten Fr. 6 900
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Schlüssel ist Bund-bezogen beschrieben; hier kantonaler ZH-Tarif (gilt_fuer kanton).
 - key: tarif.steuerfrei_verheiratet
   wert: 13900
@@ -665,7 +683,7 @@ werte:
     zitat: 0% für die ersten Fr. 13 900
   - chunk: zh-vkp-2024-zstb__c0009
     zitat: 0% für die ersten Fr. 13 900
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.hoechstsatz_ab_alleinstehend
   wert: 263300
   einheit: CHF
@@ -677,7 +695,7 @@ werte:
     zitat: 13% für Einkommensteile über Fr. 263 300
   - chunk: zh-vkp-2024-zstb__c0008
     zitat: 13% für Einkommensteile über   Fr. 263 300
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.hoechstsatz_ab_verheiratet
   wert: 365800
   einheit: CHF
@@ -689,7 +707,7 @@ werte:
     zitat: 13% für Einkommensteile über Fr. 365 800
   - chunk: zh-vkp-2024-zstb__c0009
     zitat: 13% für Einkommensteile über   Fr. 365 800
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.mindeststeuer
   wert: null
   gilt_fuer: kanton
@@ -707,7 +725,7 @@ werte:
     zitat: Die Steuererklärung ist bis am 31. März 2026 einzureichen.
   - chunk: zh-zstb-132-1-bis-2025__c0019
     zitat: bis 31. März des der Steuerperiode folgenden Kalenderjahres
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Datum 31.3.2026 laut WL ZH 2025; Fassung ZStB 132.1 bis 31.12.2025.
 - key: verfahren.fristerstreckung
   wert: null
@@ -726,23 +744,25 @@ werte:
     zitat: starke berufliche Inanspruchnahme der Vertreterin oder des Vertreters
   - chunk: zh-wl-2025__c0017
     zitat: Mahnfristen sind nicht erstreckbar.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Kosten der Fristerstreckung: in den Quellen nicht genannt. Fassung ZStB 132.1 gültig bis 31.12.2025 (ab 2026 neue Fassung).'
 - key: verfahren.abgabeweg
   wert: null
   einheit: Text
-  text: Steuererklärung online (www.zh.ch/steuererklaerung) oder in Papierform beim Scan-Center; Beilagen in Papierform (keine CD/DVD).
+  text: Steuererklärung natürlicher Personen online oder beim Scan-Center einreichen; auch Papierform zulässig (elektronische Einreichung über Applikation des kantonalen Steueramts); Beilagen in Papierform
+    (keine CD/DVD).
   gilt_fuer: kanton
-  rechtsgrundlage: V elektr. Einreichung (LS 631.121) § 1 Abs. 3; ZStB 133.1
+  rechtsgrundlage: V elektr. Einreichung (LS 631.121) § 1 Abs. 3; ZStB 132.1 Ziff. G.I.1
   quellen:
-  - chunk: zh-zstb-133-1-aufforderung-2026__c0005
-    zitat: online (www.zh.ch/steuererklaerung) oder dem Scan-Center einzureichen
+  - chunk: zh-zstb-132-1-bis-2025__c0019
+    zitat: online oder dem Scan-Center einzureichen
   - chunk: zh-v-einreichung__par-1
     zitat: Die Steuererklärung kann auch in Papierform eingereicht werden.
   - chunk: zh-wl-2025__c0201
     zitat: Beilagen zur Steuererklärung sind in Papierform einzureichen.
-  status: extrahiert
-  bemerkung: Unterschriftsregel bei Online-Einreichung (ZHprivateTax, Delegation für Vertreter) hier nicht verifiziert.
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: ursprüngliches Zitat stammte aus ZStB 133.1 (Aufforderung 2026, Steuerpflicht-Ende im Jahr 2026, 30-Tage-Frist) und belegte die ordentliche Einreichung 2025 nicht;
+    ersetzt durch ZStB 132.1 (bis 2025). Unterschriftsregel bei Online-Einreichung nicht verifiziert.'
 - key: verfahren.beilagen_schwellen
   wert: null
   gilt_fuer: kanton
@@ -763,7 +783,7 @@ werte:
     zitat: 30. Juni, 31. Juli, 31. August, 30. September, 31. Oktober, 30. November, 31. Dezember
   - chunk: zh-zstb-172-1__c0018
     zitat: vor dem 30. September geleisteten Zahlungen zu Gunsten
-  status: extrahiert
+  status: agent-geprueft
 - key: bezug.verzugszins
   wert: 4.5
   einheit: '%'
@@ -773,20 +793,26 @@ werte:
   quellen:
   - chunk: zh-wl-2025__c0024
     zitat: Zahlungsfrist seit 1. Januar 2008 4,5%
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Satz laut WL ZH 2025; Verzugszinsen sind auch bei Rechtsmittel, Ratenzahlung oder Stundung geschuldet (ZStB 172.1 N. 28).
 - key: bezug.verguetungszins
-  wert: null
+  wert: 1
   gilt_fuer: kanton
-  quellen: []
-  status: offen
-  bemerkung: 'WL ZH 2025 nennt nur den Zins für das Kalenderjahr 2026 (0,75 % zu Gunsten wie zu Lasten, WL c0024); ein Satz für das Kalenderjahr 2025 ist in den ZH-Quellen nicht ausdrücklich enthalten (Seed:
-    1 % – nicht bestätigt).'
+  quellen:
+  - chunk: zh-wl-2025__c0022
+    zitat: Der Zins zu Gunsten wie zu Lasten der steuerpflichtigen Person beträgt im Kalenderjahr 2025
+  - chunk: zh-wl-2025__c0022
+    zitat: vor dem 1. Oktober 2025 geleistet haben
+  status: extrahiert
+  bemerkung: 'ergänzt durch Prüfung: WL ZH 2025 (S. 8, «Steuern 2025») nennt den Satz 2025. Gleicher Satz zu Gunsten wie zu Lasten (Ausgleichszins).'
+  einheit: '%'
+  text: 'Vergütungszins (Zins zu Gunsten der steuerpflichtigen Person) im Kalenderjahr 2025: 1 %; Zahlungen vor dem 1. Oktober 2025 werden bis zur Schlussrechnung verzinst.'
+  rechtsgrundlage: § 174 StG ZH; §§ 51–54 StV; WL ZH 2025 Anmerkungen zur Steuerzahlung
 - key: bezug.ausgleichszins
   wert: null
   einheit: Text
   text: 'Mit der Schlussrechnung werden Zinsen zu Gunsten (Vergütungszins) und zu Lasten (Ausgleichszins) in einer Zinsrechnung abgerechnet; Zahlungen vor dem 30. September (Verfalltag) werden zu Gunsten,
-    Ausstände danach zu Lasten verzinst. Satz Vergütungs-/Ausgleichszins gleich (Kalenderjahr 2026: 0,75 %; Satz 2025 in Quellen nicht genannt).'
+    Ausstände danach zu Lasten verzinst. Satz im Kalenderjahr 2025 für beide Zinsen: 1 % (WL: Zinsen zu Lasten ab 1. Oktober 2025).'
   gilt_fuer: kanton
   rechtsgrundlage: § 174 StG ZH; §§ 51–54 StV; ZStB 172.1 Ziff. I
   quellen:
@@ -794,5 +820,7 @@ werte:
     zitat: Dabei werden alle Zinsen zu Gunsten wie auch alle Zinsen zu Lasten der steuerpflichtigen Person in einer Zinsrechnung zusammengefasst.
   - chunk: zh-stg-2025__par-174
     zitat: zulasten des Steuerpflichtigen ab einem Verfalltag in der Steuerperiode
+  - chunk: zh-wl-2025__c0022
+    zitat: Der Zins zu Gunsten wie zu Lasten der steuerpflichtigen Person beträgt im Kalenderjahr 2025
   status: extrahiert
-  bemerkung: Zinssatz für 2025 nicht belegt, siehe bezug.verguetungszins (offen).
+  bemerkung: 'ergänzt durch Prüfung: Satz 2025 = 1 % (WL ZH 2025 c0022); Satz 2026 = 0,75 % (c0024), hier nicht massgebend. Siehe bezug.verguetungszins.'

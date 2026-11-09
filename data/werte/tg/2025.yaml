@@ -14,7 +14,7 @@ werte:
     zitat: Der Fahrkostenabzug ist bei den Staats- und Gemeindesteuern auf maximal Fr. 6 000 beschränkt
   - chunk: tg-wl-2025__c0177
     zitat: Bei den Staats- und Gemeindesteuern können Fahrkosten von gesamthaft maximal Fr. 6 000
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Direkte Bundessteuer 2025: Fr. 3''300 (siehe data/werte/bund).'
 - key: berufskosten.fahrkosten.auto_km
   wert: null
@@ -32,7 +32,7 @@ werte:
     zitat: c. über 5'000 km · Fr. 0.40
   - chunk: tg-stp-29-2__c0004
     zitat: In diesen km-Ansätzen sind allfällige Parkgebühren bereits enthalten
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Gestaffelter Ansatz, daher wert null. Bund 2025: einheitlich CHF 0.70/km (data/werte/bund). Gemäss StP 29 Nr. 2 Berechnungsbeispiel 8''000 km = Fr. 4''000 (Staffel kumulativ).'
 - key: berufskosten.fahrkosten.motorrad_km
   wert: 0.4
@@ -45,7 +45,7 @@ werte:
     zitat: ein Abzug bis Fr. 0.40 für Motorräder mit weissem Kontrollschild
   - chunk: tg-stp-29-2__c0003
     zitat: ist ein Abzug von bis zu 40 Rp. pro Fahrkilometer zulässig
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.velo_pauschale
   wert: 700
   einheit: CHF
@@ -57,7 +57,7 @@ werte:
     zitat: bis Fr. 700 im Jahr
   - chunk: tg-wl-2025__c0177
     zitat: können Sie bis zu Fr. 700 im Jahr abziehen
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.arbeitstage
   wert: 225
   einheit: Tage
@@ -67,7 +67,7 @@ werte:
   quellen:
   - chunk: tg-wl-2025__c0003
     zitat: bei 100%-Tätigkeit in der Regel für max. 225 Arbeitstage
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Angabe in der Kurzübersicht der Wegleitung im Abschnitt Privatauto/Motorrad; kein Wert im Gesetz/Verordnung.
 - key: berufskosten.verpflegung.tag
   wert: 15
@@ -80,7 +80,7 @@ werte:
     zitat: beträgt Fr. 15 für jede auswärtige Hauptmahlzeit
   - chunk: tg-wl-2025__c0183
     zitat: Der Pauschalabzug beträgt Fr. 15 für jede auswärtige Hauptmahlzeit
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.jahr
   wert: 3200
   einheit: CHF
@@ -92,7 +92,7 @@ werte:
     zitat: bei ständiger auswärtiger Verpflegung Fr. 3'200 im Jahr
   - chunk: tg-stp-29-4__c0005
     zitat: Fr. 2 560 (80% von Fr. 3 200)
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
   einheit: CHF
@@ -103,7 +103,7 @@ werte:
   quellen:
   - chunk: tg-bkv__par-2-t2
     zitat: Nur der halbe Abzug (Fr. 7.50 im Tag, Fr. 1'600 im Jahr)
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.verbilligt_jahr
   wert: 1600
   einheit: CHF
@@ -115,7 +115,7 @@ werte:
     zitat: Nur der halbe Abzug (Fr. 7.50 im Tag, Fr. 1'600 im Jahr)
   - chunk: tg-wl-2025__c0004
     zitat: Kantinen, Vergünstigung durch Arbeitgeber/in Fr. 7.50 pro Tag
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.schichtarbeit.tag
   wert: 15
   einheit: CHF
@@ -128,7 +128,7 @@ werte:
     zitat: die gleichen Abzüge wie für auswärtige Verpflegung gewährt
   - chunk: tg-wl-2025__c0004
     zitat: oder bei durchgehender Schicht- oder Nachtarbeit Fr. 15 pro Tag
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.wochenaufenthalt.unterkunft
   wert: null
   einheit: Text
@@ -141,7 +141,7 @@ werte:
     zitat: für die notwendigen Mehrkosten der Unterkunft sind die ortsüblichen Auslagen für ein Zimmer abziehbar
   - chunk: tg-wl-2025__c0189
     zitat: 'Jahresmietzins : (Anzahl Zimmer + 1) = Kosten des Zimmers'
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.wochenaufenthalt.verpflegung_jahr
   wert: 6400
   einheit: CHF
@@ -153,7 +153,7 @@ werte:
     zitat: Fr. 30 pro Tag, bei ganzjährigem Wochenaufenthalt Fr. 6'400
   - chunk: tg-wl-2025__c0190
     zitat: bei ganzjährigem Wochenaufenthalt Fr. 6'400 im Jahr abziehen
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.satz
   wert: 3
   einheit: '%'
@@ -165,7 +165,7 @@ werte:
     zitat: beträgt der Pauschalabzug 3 Prozent des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000
   - chunk: tg-stp-29-7__c0002
     zitat: 3% des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Gilt gleich bei der direkten Bundessteuer. Bei unterjähriger Erwerbsdauer verhältnismässige Kürzung (StP 29 Nr. 7 Ziff. 2).
 - key: berufskosten.uebrige.fix
   wert: null
@@ -184,7 +184,7 @@ werte:
     zitat: mindestens Fr. 2'000 und höchstens Fr. 4'000
   - chunk: tg-wl-2025__c0004
     zitat: Pauschalabzug 3% des Nettolohns, mindestens Fr. 2 000
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.max
   wert: 4000
   einheit: CHF
@@ -194,7 +194,7 @@ werte:
   quellen:
   - chunk: tg-bkv__par-4a
     zitat: mindestens Fr. 2'000 und höchstens Fr. 4'000
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.satz
   wert: 20
   einheit: '%'
@@ -206,7 +206,7 @@ werte:
     zitat: Pauschalabzug von 20 Prozent der Nettoeinkünfte, mindestens Fr. 800 und höchstens Fr. 2'400
   - chunk: tg-wl-2025__c0191
     zitat: Der Abzug beträgt 20% der Nettoeinkünfte, mindestens aber Fr. 800 und höchstens
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.min
   wert: 800
   einheit: CHF
@@ -216,7 +216,7 @@ werte:
   quellen:
   - chunk: tg-bkv__par-4b
     zitat: mindestens Fr. 800 und höchstens Fr. 2'400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.max
   wert: 2400
   einheit: CHF
@@ -226,15 +226,22 @@ werte:
   quellen:
   - chunk: tg-bkv__par-4b
     zitat: mindestens Fr. 800 und höchstens Fr. 2'400
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.homeoffice
   wert: null
   einheit: Text
   gilt_fuer: kanton
-  quellen: []
-  status: offen
-  bemerkung: Weder Wegleitung 2025 noch die im Wiki vorhandenen Praxis-Chunks nennen eine Regel zu Arbeitszimmer/Homeoffice; StP 29 Nr. 7 Ziff. 4 verweist nur auf StP 29 Nr. 8 (nicht im Wiki, effektive
-    Kosten gegen Nachweis).
+  quellen:
+  - chunk: tg-info-faq__c0014
+    zitat: Ein Abzug für ein Arbeitszimmer im Privathaus oder in der Privatwohnung wird nur gewährt, wenn die Erledigung der haupt- oder nebenberuflichen Arbeit zu Hause notwendig ist.
+  - chunk: tg-info-faq__c0015
+    zitat: Die Arbeitnehmerin/der Arbeitnehmer muss über einen besonderen Raum verfügen
+  status: extrahiert
+  bemerkung: Ergänzt durch Prüfung aus FAQ (nicht Wegleitung). Weisung StP 29 Nr. 8 (Details) nicht im Wiki; Homeoffice-Pauschale gibt es gemäss Quellen nicht. Fachperson prüft Einzelfall.
+  text: 'Arbeitszimmer in der Privatwohnung: Abzug nur, wenn die Arbeit zu Hause notwendig ist (Nachweis durch steuerpflichtige Person) und kumulativ: wesentlicher Teil der Arbeit zu Hause, weil der Arbeitgeber
+    kein geeignetes Zimmer stellt oder dessen Benützung nicht möglich/zumutbar ist; besonderer, ausschliesslich oder vorwiegend beruflich genutzter Raum; Raumverhältnisse erlauben Ausscheiden eines Zimmers.
+    Details: StP 29 Nr. 8. Kein Pauschalbetrag.'
+  rechtsgrundlage: TG FAQ natürliche Personen (Berufsauslagen); StP 29 Nr. 7 Ziff. 4 / StP 29 Nr. 8
 - key: weiterbildung.max
   wert: 13000
   einheit: CHF
@@ -246,8 +253,10 @@ werte:
     zitat: bis zu dem für die direkte Bundessteuer massgebenden Betrag
   - chunk: tg-wl-2025__c0102
     zitat: auf jährlich maximal Fr. 13'000 pro Person beschränkt
+  - chunk: bund-dbg-2025__art-33-t4
+    zitat: bis zum Gesamtbetrag von 13 000 Franken
   status: extrahiert
-  bemerkung: Kantonaler Betrag verweist auf den Bundesbetrag; Zahl aus der Wegleitung 2025.
+  bemerkung: 'Verweis auf DBG-Ansatz (§ 34 Abs. 1 Ziff. 16 StG TG: «bis zu dem für die direkte Bundessteuer massgebenden Betrag»); Betrag 2025 = Bund CHF 13''000 (WL 2025 bestätigt für Kanton und Bund).'
 - key: versicherung.verheiratet
   wert: 7000
   einheit: CHF
@@ -259,7 +268,7 @@ werte:
     zitat: a. Fr. 7'000 für verheiratete Personen, die in ungetrennter Ehe leben
   - chunk: tg-stp-34-27__c0002
     zitat: für Verheiratete in ungetrennter Ehe 1) | Fr. 7’000
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund 2025: CHF 3''700 (data/werte/bund).'
 - key: versicherung.verheiratet_ohne_vorsorge
   wert: null
@@ -280,7 +289,7 @@ werte:
     zitat: b. Fr. 3'500 für die übrigen Steuerpflichtigen
   - chunk: tg-stp-34-27__c0002
     zitat: für übrige Steuerpflichtige | Fr. 3’500
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.alleinstehend_ohne_vorsorge
   wert: null
   gilt_fuer: kanton
@@ -298,7 +307,7 @@ werte:
     zitat: zusätzlich Fr. 1'000 für jedes minderjährige
   - chunk: tg-stp-34-27__c0002
     zitat: je Kind oder unterstützte Person | Fr. 1’000
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.max_mit_2saeule
   wert: 7258
   einheit: CHF
@@ -310,7 +319,12 @@ werte:
     zitat: Vorsorge (2. Säule) angehören Fr. 7'258
   - chunk: tg-stp-34-27__c0005
     zitat: ab 2025 | *Fr. 90’720* | Fr. 7’258 | Fr. 36’288
+  - chunk: tg-stg__par-34-t2
+    zitat: bis zum bundesrechtlich festgelegten Betrag
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag bei Unterstellung unter 2. Säule 7'258 7'258
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz (bundesrechtlich festgelegter Betrag, Art. 7 BVV 3).
 - key: saeule3a.max_ohne_2saeule
   wert: 36288
   einheit: CHF
@@ -322,7 +336,12 @@ werte:
     zitat: 20% des Erwerbseinkommens, maximal Fr. 36'288
   - chunk: tg-stp-34-27__c0005
     zitat: ab 2025 | *Fr. 90’720* | Fr. 7’258 | Fr. 36’288
+  - chunk: tg-stg__par-34-t2
+    zitat: bis zum bundesrechtlich festgelegten Betrag
+  - chunk: bund-bsv-masszahlen-2025-2026__c0003
+    zitat: Oberer Grenzbetrag ohne Unterstellung unter 2. Säule 36'288 36'288
   status: extrahiert
+  bemerkung: Verweis auf DBG-Ansatz (bundesrechtlich festgelegter Betrag, Art. 7 BVV 3).
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
   einheit: '%'
@@ -332,8 +351,11 @@ werte:
   quellen:
   - chunk: tg-wl-2025__c0090
     zitat: Der Abzug von 20% des Erwerbseinkommens gilt auch für unselbständig erwerbende Personen
+  - chunk: bund-bvv3__art-7
+    zitat: jährlich bis 20 Prozent des Erwerbseinkommens
   status: extrahiert
-  bemerkung: StP 34 Nr. 27 nennt 40% des oberen Grenzbetrags als Maximalabzug (=36'288) ohne 2. Säule; die 20%-Grenze vom Erwerbseinkommen steht in der Wegleitung (Ziff. 13).
+  bemerkung: Verweis auf DBG-Ansatz (bundesrechtlich festgelegter Betrag, Art. 7 BVV 3). StP 34 Nr. 27 nennt 40% des oberen Grenzbetrags (=36'288) als Maximalabzug ohne 2. Säule; die 20%-Grenze vom Erwerbseinkommen
+    steht in der Wegleitung (Ziff. 13).
 - key: saeule3a.einkauf
   wert: null
   gilt_fuer: kanton
@@ -378,8 +400,18 @@ werte:
     zitat: 2025 | Fr. 10’100 | Fr. 25’800
   - chunk: tg-wl-2025__c0006
     zitat: in der Regel 75% der Kosten, maximal aber Fr. 10'100
-  status: extrahiert
-  bemerkung: 'Bund 2025: CHF 25''800 (data/werte/bund).'
+  - chunk: tg-stp-34-24__c0004
+    zitat: in der Regel nur 75% der deklarierten Aufwendungen, höchstens aber bis zum jeweiligen Maximalabzug
+    jahr_ok: true
+  - chunk: tg-stp-34-24__c0010
+    zitat: Abzug von Fr. 800 pro Jahr und Kind
+    jahr_ok: true
+  - chunk: tg-stp-34-24__c0006
+    zitat: Befindet sich das Kind in alternierender Obhut, kann jeder Elternteil seine nachgewiesenen Kosten bis höchstens zur Hälfte
+    jahr_ok: true
+  status: agent-geprueft
+  bemerkung: 'Bund 2025: CHF 25''800 (data/werte/bund). StP 34 Nr. 24 ist als Weisung im Wiki nur mit Jahr 2026 geführt; Betrag 2025 (CHF 10''100) ist durch StG-Text und StP 34 Nr. 27 / WL 2025 belegt,
+    die Ausführungsregeln (75%, Tagesschule CHF 800, alternierende Obhut) werden als unverändert angenommen (jahr_ok).'
 - key: drittbetreuung.altersgrenze
   wert: 14
   einheit: Jahre
@@ -391,7 +423,9 @@ werte:
     zitat: welches das 14. Altersjahr noch nicht vollendet hat
   - chunk: tg-stp-34-24__c0002
     zitat: das Kind das 14. Altersjahr noch nicht vollendet hat
-  status: extrahiert
+    jahr_ok: true
+  status: agent-geprueft
+  bemerkung: StP 34 Nr. 24 im Wiki nur Jahr 2026; Altersgrenze 14 steht gleichlautend im StG-Text (jahr_ok für Praxis-Quelle).
 - key: krankheitskosten.selbstbehalt_satz
   wert: 5
   einheit: '%'
@@ -403,7 +437,7 @@ werte:
     zitat: diese 5 Prozent des Reineinkommens übersteigen
   - chunk: tg-wl-2025__c0197
     zitat: diese 5% des Nettoeinkommens (Ziffer 22) übersteigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Gesetz nennt ''Reineinkommen'', Wegleitung ''Nettoeinkommen (Ziffer 22)''; gleicher Prozentsatz, Bemessungsgrösse gemäss Formular Ziff. 22 verwenden. Bund: 5% des Nettoeinkommens.'
 - key: spenden.min
   wert: 200
@@ -416,7 +450,7 @@ werte:
     zitat: soweit sie gesamthaft Fr. 200 übersteigen
   - chunk: tg-stp-34-23__c0003
     zitat: müssen kantonal gesamthaft Fr. 200 übersteigen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Belege ab CHF 1'000 pro Zuwendung einreichen (WL 2025 Ziff. 23.2).
 - key: spenden.max_satz
   wert: 20
@@ -430,7 +464,7 @@ werte:
     zitat: bis zu Fr. 8'000 oder 20 Prozent des Reineinkommens
   - chunk: tg-stp-34-23__c0003
     zitat: können maximal 20% des Nettoeinkommens abgezogen werden
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Gesetz: ''bis zu Fr. 8''000 oder 20 Prozent des Reineinkommens''; Wegleitung/StP 34 Nr. 23: Fr. 8''000 bei Nettoeinkommen bis Fr. 40''000, darüber 20% des Nettoeinkommens. Wortlaut Bemessungsgrösse
     leicht abweichend, Auslegung der Wegleitung/Praxis angewendet.'
 - key: parteispenden.max
@@ -444,15 +478,18 @@ werte:
     zitat: bis zum Gesamtbetrag von Fr. 10'000 an politische Parteien
   - chunk: tg-stp-34-27__c0008
     zitat: 2025 | Fr. 10’000 | Fr. 10’600
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund 2025: CHF 10''600 (data/werte/bund).'
 - key: parteispenden.max_verheiratet
   wert: null
   einheit: CHF
   gilt_fuer: kanton
-  quellen: []
+  quellen:
+  - chunk: tg-wl-2025__c0219
+    zitat: Der Maximalabzug beträgt bei den Staats- und Gemeindesteuern Fr. 10 000
   status: offen
-  bemerkung: Quellen nennen nur den Gesamtbetrag CHF 10'000 ohne gesonderten Betrag für gemeinsam Besteuerte; ob verdoppelt wird, ist aus den Quellen nicht ersichtlich.
+  bemerkung: 'Geprüft: Gesetz (§ 34 Abs. 1 Ziff. 14), Wegleitung und StP 34 Nr. 27 nennen nur den Gesamtbetrag CHF 10''000 (Bund 10''600) ohne gesonderten Betrag für gemeinsam Besteuerte; keine Verdoppelung
+    belegt. Offen lassen; Fachperson entscheidet (StP 34 Nr. 26 nicht im Wiki).'
 - key: liegenschaft.pauschale_neu
   wert: 10
   einheit: '%'
@@ -465,7 +502,7 @@ werte:
     zitat: für Gebäude, die am Ende der Steuerperiode bis zu zehn Jahre alt sind, 10 Prozent
   - chunk: tg-wl-2025__c0238
     zitat: 10% für Gebäude, die am Ende der Steuerperiode bis zu zehn Jahre alt sind
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.pauschale_alt
   wert: 20
   einheit: '%'
@@ -477,7 +514,7 @@ werte:
     zitat: für mehr als zehn Jahre alte Gebäude 20 Prozent
   - chunk: tg-wl-2025__c0238
     zitat: 20% für Gebäude, die am Ende der Steuerperiode älter als zehn Jahre sind
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.eigenmietwert_abzug
   wert: 40
   einheit: '%'
@@ -488,9 +525,11 @@ werte:
   quellen:
   - chunk: tg-stg__par-23
     zitat: von dem gemäss Abs. 2 festgelegten Mietwert ein Abzug von 40 Prozent vorgenommen
-  - chunk: tg-wl-2025__c0231
+  - chunk: tg-wl-2025__c0225
     zitat: kantonal einen Abzug von 40% und beim Bund von 20% vornehmen
-  status: extrahiert
+  - chunk: tg-stp-23-1__c0005
+    zitat: Bei der direkten Bundessteuer beträgt der Abzug hingegen nur 20%.
+  status: agent-geprueft
 - key: sozialabzug.kind
   wert: 7400
   einheit: CHF
@@ -504,7 +543,7 @@ werte:
     zitat: 1.1 je Kind · Fr. 7'400
   - chunk: tg-stp-36-1__c0006
     zitat: pro Kind | Fr. 7’400 | Fr. 7’300
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund 2025: CHF 6''800 pro Kind.'
 - key: sozialabzug.kind_vorschule
   wert: null
@@ -529,7 +568,7 @@ werte:
     zitat: nach Vollendung des 16. Altersjahres auf · Fr. 8'500
   - chunk: tg-stp-36-1__c0006
     zitat: 16. Altersjahres auf | Fr. 8’500 | Fr. 8’300
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: 10600
   einheit: CHF
@@ -542,7 +581,7 @@ werte:
     zitat: nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr auf · Fr. 10'600
   - chunk: tg-stp-36-1__c0006
     zitat: Fr. 10’600 | Fr. 10’400 | Fr. 10’300
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Zuordnung zum Schlüssel ''auswärtig/höhere Stufe'' sinngemäss: TG staffelt nach Alter (20-26 Jahre), nicht nach Ausbildungsort. Ab vollendetem 26. Altersjahr (erwerbsunfähig/in Ausbildung)
     wieder CHF 7''400.'
 - key: sozialabzug.unterstuetzung
@@ -558,7 +597,7 @@ werte:
     zitat: zur Hauptsache aufkommt; der Abzug kann nicht beansprucht werden für den Ehegatten
   - chunk: tg-stp-36-1__c0006
     zitat: Für jede unterstützte Person | Fr. 2’700 | Fr. 2’700
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund 2025: CHF 6''800.'
 - key: sozialabzug.verheiratete
   wert: null
@@ -580,7 +619,7 @@ werte:
     zitat: Steuerpflichtigen Fr. 4'200; beträgt das Reineinkommen mehr als Fr. 16'900
   - chunk: tg-stg__par-36-t1
     zitat: Fr. 4'200; beträgt das Reineinkommen mehr als Fr. 16'900
-  status: extrahiert
+  status: agent-geprueft
 - key: steuerbetrag.abzug_kind
   wert: null
   gilt_fuer: kanton
@@ -598,7 +637,7 @@ werte:
   quellen:
   - chunk: tg-stg__par-53
     zitat: 2. bei allen übrigen Steuerpflichtigen · Fr. 100'000
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_verheiratet
   wert: 200000
   einheit: CHF
@@ -608,7 +647,7 @@ werte:
   quellen:
   - chunk: tg-stg__par-53
     zitat: 1. bei Steuerpflichtigen in ungetrennter Ehe · Fr. 200'000
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_kind
   wert: 100000
   einheit: CHF
@@ -618,7 +657,7 @@ werte:
   quellen:
   - chunk: tg-stg__par-53
     zitat: 3. für jedes nicht selbständig besteuerte Kind zusätzlich · Fr. 100'000
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Wegleitung 2025 nennt Jahrgang 2008 und jünger als massgebend für minderjährige Kinder.
 - key: steuerfrei.feuerwehrsold
   wert: 5000
@@ -631,7 +670,7 @@ werte:
     zitat: bis zu einem Betrag von jährlich Fr. 5'000
   - chunk: tg-wl-2025__c0052
     zitat: Fr. 5'000 bei der Staats- und Gemeindesteuer
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Bund 2025: CHF 5''300.'
 - key: steuerfrei.grossspielgewinn
   wert: 1000000
@@ -642,7 +681,7 @@ werte:
   quellen:
   - chunk: tg-stg__par-26-t2
     zitat: bis zu einem Betrag von Fr. 1'000'000 aus der Teilnahme an Grossspielen
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Bund 2025 gemäss Wegleitung CHF 1'070'400.
 - key: steuerfrei.kleingewinn
   wert: 1000
@@ -655,7 +694,7 @@ werte:
     zitat: bis zu einem Betrag von Fr. 1'000, die nach Art. 1 Abs. 2 lit. d
   - chunk: tg-stg__par-25
     zitat: über Fr. 1'000, die nicht der Geldspielgesetzgebung unterstehen
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfuss_kanton
   wert: 109
   einheit: '%'
@@ -668,7 +707,7 @@ werte:
   - chunk: tg-stg__par-6
     zitat: Der Grosse Rat setzt jährlich den Staatssteuerfuss in Prozenten der einfachen Steuer fest
   status: extrahiert
-  bemerkung: Quelle ist die Statistische Mitteilung 3/2026 (Steuerfüsse 2026); der Satz '109% seit 2022' gilt damit auch für 2025. Grossratsbeschluss 2025 nicht im Wiki.
+  bemerkung: Quelle ist die Statistische Mitteilung 3/2026 (Steuerfüsse 2026); '109% seit 2022' impliziert 2025, Grossratsbeschluss 2025 nicht im Wiki, daher extrahiert.
 - key: tarif.steuerfrei_alleinstehend
   wert: null
   gilt_fuer: kanton
@@ -699,7 +738,7 @@ werte:
   gilt_fuer: kanton
   quellen: []
   status: offen
-  bemerkung: Keine Mindeststeuer für natürliche Personen in den Quellen gefunden.
+  bemerkung: 'Geprüft (Suche StG/StV/WL 2025): keine Mindeststeuer für natürliche Personen in den Quellen; nur Minimalsteuer vom Grundeigentum bei juristischen Personen (§ 40 StV).'
 - key: verfahren.einreichefrist
   wert: null
   einheit: Text
@@ -710,7 +749,7 @@ werte:
   quellen:
   - chunk: tg-wl-2025__c0023
     zitat: Können Sie die angesetzte Einreichungsfrist nicht einhalten
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Das konkrete Datum ist auf der Steuererklärung aufgedruckt.
 - key: verfahren.fristerstreckung
   wert: null
@@ -727,7 +766,7 @@ werte:
     zitat: Arbeitsüberlastung stellt keinen Fristverlängerungsgrund dar
   - chunk: tg-stp-155-2__c0002
     zitat: für Ihre Mandanten ein Fristerstreckungsgesuch längstens bis zum 31. Dezember des Deklarationsjahres
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 'Deklarationsjahr = Jahr der Einreichung (für Steuerjahr 2025: 2026). Gebühr für natürliche Personen in den Quellen nicht genannt (Kanzleigebühr Fr. 30 nur für juristische Personen).'
 - key: verfahren.abgabeweg
   wert: null
@@ -741,7 +780,7 @@ werte:
     zitat: Reichen Sie Ihrem Steueramt die persönlich unterzeichnete Quittung zusammen mit dem
   - chunk: tg-wl-2025__c0024
     zitat: durch die steuerpflichtige Person persönlich zu unterzeichnen
-  status: extrahiert
+  status: agent-geprueft
 - key: verfahren.beilagen_schwellen
   wert: null
   einheit: Text
@@ -756,21 +795,25 @@ werte:
     zitat: Bestätigungen von freiwilligen Zuwendungen ab einem Betrag von Fr. 1'000
   - chunk: tg-wl-2025__c0220
     zitat: Für Zuwendungen unter Fr. 1'000 sind keine Belege einzureichen
-  status: extrahiert
+  status: agent-geprueft
 - key: bezug.provisorisch
   wert: null
   einheit: Text
-  text: Bei ganzjähriger Steuerpflicht ist der 1. März des Folgejahres Fälligkeitstermin; liegt die definitive Veranlagung nicht vor, wird provisorisch bezogen (Fälligkeit unverändert). Schlussrechnung
-    nach Rechtskraft der Veranlagung, Zahlungsfrist 30 Tage; Beträge bis CHF 30 werden nicht bezogen.
+  text: Provisorische Steuerrechnung bei ganzjähriger Steuerpflicht in drei Raten, fällig am 31. Mai, 31. August und 31. Oktober des Steuerjahres (Staats- und Gemeindesteuern). Werden trotz Mahnung die
+    erste und zweite Rate nicht fristgerecht bezahlt, wird die ganze Steuer fällig. Schlussrechnung nach Rechtskraft der Veranlagung, Zahlungsfrist 30 Tage; Beträge bis CHF 30 werden nicht bezogen.
   gilt_fuer: kanton
-  rechtsgrundlage: WL TG 2025 S. 56/58
+  rechtsgrundlage: § 40 Abs. 2 StV TG; § 46 Abs. 1 StV TG; WL TG 2025 S. 56
   quellen:
-  - chunk: tg-wl-2025__c0284
-    zitat: gilt der 1. März des auf die Steuerperiode folgenden Kalenderjahres
+  - chunk: tg-stv__par-40
+    zitat: die erste Rate am 31. Mai, die zweite am 31. August und die dritte am 31. Oktober des Steuerjahres fällig
+  - chunk: tg-wl-2025__c0271
+    zitat: die erste Rate am 31. Mai,
+  - chunk: tg-stv__par-46
+    zitat: wird eine Zahlungsfrist von 30 Tagen gewährt
   - chunk: tg-wl-2025__c0273
     zitat: werden die Steuern nicht bezogen
-  status: extrahiert
-  bemerkung: Raten- und Fälligkeitsdetails der provisorischen Rechnung (Anzahl Raten) nicht in den Quellen gefunden.
+  status: agent-geprueft
+  bemerkung: 'korrigiert durch Prüfung: bisherige Quelle tg-wl-2025__c0284 (1. März) betrifft die direkte Bundessteuer, nicht die Staats- und Gemeindesteuern. Bund: Fälligkeit 1. März des Folgejahres.'
 - key: bezug.verzugszins
   wert: null
   einheit: '%'
@@ -778,6 +821,8 @@ werte:
   quellen:
   - chunk: tg-wl-2025__c0275
     zitat: vom Regierungsrat festgelegt
+  - chunk: tg-stg__par-191
+    zitat: Der Regierungsrat bestimmt den Zinsfuss für Ausgleichs-, Verzugs- und Rückerstattungszinsen.
   status: offen
   bemerkung: Zinssatz wird jährlich vom Regierungsrat festgelegt (StP 190 Nr. 1 / StP 191 Nr. 1), im Wiki nicht enthalten. Verzugszins ab dem 31. Tag nach Fälligkeit der Schlussrechnung (Zahlungsfrist 30
     Tage).
@@ -787,7 +832,8 @@ werte:
   gilt_fuer: kanton
   quellen: []
   status: offen
-  bemerkung: Satz des Rückerstattungs-/Vergütungszinses nicht in den Quellen (StP 191 Nr. 1 nicht im Wiki); Rückerstattungszins ab Datum der Schlussrechnung bis Auszahlung, nicht ausbezahlt bis CHF 30.
+  bemerkung: 'Geprüft: § 191 StG TG und WL 2025 S. 56 delegieren den Zinsfuss an den Regierungsrat (StP 191 Nr. 1 / StP 190 Nr. 1 nicht im Wiki); kein Satz für 2025 in den Quellen. Rückerstattungszins ab
+    Datum der Schlussrechnung bis Auszahlung, nicht ausbezahlt bis CHF 30.'
 - key: bezug.ausgleichszins
   wert: null
   einheit: Text
@@ -798,5 +844,5 @@ werte:
   quellen:
   - chunk: tg-wl-2025__c0274
     zitat: Bei den Einkommens- und Vermögenssteuern gilt in der Regel der 31. August als mittlerer Ver-
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Zinssatz nicht in den Quellen; negative Ausgleichszinsen sind als Schuldzinsen abziehbar (WL 2025 Ziff. 12/FAQ).

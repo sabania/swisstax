@@ -11,6 +11,7 @@ generiert: tools/build_index.py
 - **Jurisdiktion:** Kanton Thurgau (TG) · **Typ:** Praxis (Steuerbuch/Steuerpraxis) · **gilt für Steuerjahre:** 2025, 2026
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-23-nr-1-ertrage-aus-unbeweglichem-vermogen> · lokal: [tg-stp-23-1.html](../../../raw/tg/dauernd/tg-stp-23-1.html) · Volltext: [tg-stp-23-1.md](../../../sources/tg/dauernd/tg-stp-23-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `1a4b080dea44abbc…`
+- ⚠ **Hinweis:** Fassung geändert per 01.10.2025 (Ausgabe 2026-09); ältere Versionen als PDF auf der Seite verlinkt
 
 ## Inhalt (11 Chunks)
 

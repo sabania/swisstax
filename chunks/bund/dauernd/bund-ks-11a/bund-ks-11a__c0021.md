@@ -2,14 +2,14 @@
 id: bund-ks-11a__c0021
 quelle: bund-ks-11a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2027]
 typ: kreisschreiben
 titel: "Ziff. 4.2 Begriff der behinderungsbedingten Kosten (Teil 3/3)"
 ziffer: "4.2"
 seiten: "7-8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2027], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · 4 Behinderungsbedingte Kosten › 4.2 Begriff · S. 7–8
+> Bund · Steuerjahr 2027 · KS 11a · 4 Behinderungsbedingte Kosten › 4.2 Begriff · S. 7–8
 
 1 Ein Pflegeaufwand von täglich mindestens 61 Minuten wird jeweils mit den Pflegestufen 4-12 erreicht (vgl. Messung
 
