@@ -24,6 +24,8 @@ def pruefe(c, top=3):
             out = steuer.rechne(e)
         elif c["befehl"] in ("ablage", "beleg"):
             out = getattr(steuer, c["befehl"])(e, j, jahr)
+        elif c["befehl"] == "formular":
+            out = steuer.formular(j, jahr)
         else:
             out = (steuer.wert if c["befehl"] == "wert" else steuer.position)(j, jahr, e)
         ok = (not c.get("enthaelt") or c["enthaelt"].lower() in out.lower()) and \
