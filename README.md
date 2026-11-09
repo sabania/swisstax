@@ -74,7 +74,11 @@ lesbar je Jurisdiktion: `wiki/<jur>/<jur>-quellen.md`.
 
 ## Nutzung durch einen Agenten
 
-- **OpenClaw** (getestet mit 2026.11.2): `./openclaw/install.sh <workspace>` → Snippet in die Workspace-`AGENTS.md` →
+- **OpenClaw-Plugin (empfohlen, auch für kleine Modelle wie Haiku):** `python3 tools/build_plugin.py --tgz` →
+  `openclaw plugins install dist/steuerwiki-plugin --force --accept-capabilities` → Snippet `openclaw/AGENTS.workspace-snippet.md`
+  in die Workspace-`AGENTS.md`, Kategorienliste der Firma als `KATEGORIEN.md` in den Workspace. Werkzeuge: `ablage`, `beleg`,
+  `formular`, `position`, `wert`, `vergleich`, `rechne`, `suche`, `zeige`; Skills `belege-ablage`, `steuererklaerung-np`, `steuerwiki`.
+- **OpenClaw ohne Plugin** (getestet mit 2026.11.2): `./openclaw/install.sh <workspace>` → Snippet in die Workspace-`AGENTS.md` →
   `openclaw memory index --force --agent <id>`. Indexiert werden `quick/`, `wiki/`, `chunks/` unter `memory/steuerwiki/`
   (kein Zeitverfall), nicht `sources/`/`raw/`. Details, Konfiguration und Testprotokoll: [`openclaw/README.md`](openclaw/README.md).
 - **Andere Agenten (Claude Code, Codex …):** `AGENTS.md` ist das Schema; `skills/steuerwiki/SKILL.md` beschreibt den Abfrageablauf.
@@ -120,8 +124,12 @@ Unveränderte Gesetzesfassungen werden nicht dupliziert (eine Konsolidierung = e
 - **Getestet in OpenClaw 2026.11.2** (echte Agent-Turns, unabhängig bewertet): 63/64 Fragen voll richtig (Praxis-, Blind- und
   Positionstest), 0 falsch; Fundstellen, Kanton/Bund-Trennung und Steuerjahr 64/64. Ende-zu-Ende: 4 vollständige
   Steuererklärungen (ZH/SG/TG/AR 2025): nach Tuning 4 von 4 «einreichbar nach Kontrolle» (erster Lauf 103/109 Positionen) – siehe [`eval/laeufe/`](eval/laeufe/).
+- **Kleines Modell (Haiku) mit Plugin** (E4 in [`eval/laeufe/experimente.md`](eval/laeufe/experimente.md)): Positionsfragen 10/10,
+  Ablage 8/8, 40 eingehende Dokumente 40/40, ganze Steuerfälle 96–100/109 Positionen (Start: 78), Praxisfragen 31–36/40
+  (Streuung); ~25 % schneller und halb so viele Werkzeugaufrufe wie mit Dateisuche. Werkzeug-Wortsuche (`eval/werkzeug_test.py`):
+  frisch erzeugte Eingaben 72 % → 98 % Treffer.
 - **Abnahme durch die Fachperson (ausstehend):** priorisierte Checklisten `reports/abnahme-checkliste-2025.md` / `-2026.md`
-  (Wert, Chunk-Link, Zitat; Häkchen → `tools/abnahme.py uebernehmen`), Entscheidungsvorlage zu den 10 strittigen Punkten
+  (Wert, Chunk-Link, Zitat; Häkchen → `tools/abnahme.py uebernehmen`), Entscheidungsvorlage zu den 11 strittigen Punkten
   `reports/entscheidungsvorlage-strittig.md` (je Quellen, Rang, Empfehlung). Status ✅ setzt nur die Fachperson.
 - **Lücken 2026:** reguläre Formulare/Wegleitungen 2026 noch nicht publiziert (Stand 09.11.2026); ZH/SG 2026 stützen sich auf
   die UJ-Fassungen (Hauptformular und Hilfsblätter), AR 2026 ist ein Gerüst.
