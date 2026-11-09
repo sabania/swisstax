@@ -2613,7 +2613,7 @@ positionen:
   - Plafond gilt inkl. Fahrkosten des Wochenaufenthalts (Kanton 5'200 / Bund 3'300)
 - ziffer: Form. 360 Ziff. 1.2
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700 (Code 202 / 222)
+  bezeichnung: Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700 (Code 202 Person 1 / 222 Person 2)
   key: abzug.berufskosten.fahrkosten
   belege: []
   feld: –
@@ -2637,7 +2637,7 @@ positionen:
   - 'Bund: tatsächliche Kosten zusätzlich nicht abziehbar'
 - ziffer: Form. 360 Ziff. 1.3
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: Auto / Motorrad (weisses Kontrollschild), CHF –.70 bzw. –.40 pro km (Code 204 / 224; Zwischentotal 205 / 225)
+  bezeichnung: Auto / Motorrad (weisses Kontrollschild), CHF –.70 bzw. –.40 pro km (Code 204 Person 1 / 224 Person 2; Zwischentotal 205 Person 1 / 225 Person 2)
   key: abzug.berufskosten.fahrkosten
   belege:
   - fahrzeugausweis-arbeitsweg
@@ -2722,7 +2722,7 @@ positionen:
   - 'Unentgeltliches Geschäftsfahrzeug mit pauschaler Fahrkostenberechnung (ZStB 17.1): kein Fahrkostenabzug'
 - ziffer: Form. 360 Ziff. 2.1 (verbilligt)
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: 'Mehrkosten Verpflegung bei verbilligter Verpflegung (Kantine, Lunch-Checks): CHF 7.50/Tag, max. CHF 1’600/Jahr (Code 206 / 226)'
+  bezeichnung: 'Mehrkosten Verpflegung bei verbilligter Verpflegung (Kantine, Lunch-Checks): CHF 7.50/Tag, max. CHF 1’600/Jahr (Code 206 Person 1 / 226 Person 2)'
   key: abzug.berufskosten.verpflegung
   belege:
   - lohnausweis
@@ -2760,7 +2760,7 @@ positionen:
   - 'Bund: halber Abzug bei Verbilligung anders als in bar (Gutscheine) oder AG-Kantine; kein Abzug unter Naturalbezugsansatz'
 - ziffer: Form. 360 Ziff. 2.1 (voll)
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: 'Mehrkosten Verpflegung, Verpflegung voll zu Lasten Arbeitnehmer: CHF 15/Tag, max. CHF 3’200/Jahr (Code 208 / 228)'
+  bezeichnung: 'Mehrkosten Verpflegung, Verpflegung voll zu Lasten Arbeitnehmer: CHF 15/Tag, max. CHF 3’200/Jahr (Code 208 Person 1 / 228 Person 2)'
   key: abzug.berufskosten.verpflegung
   belege:
   - lohnausweis
@@ -2797,7 +2797,7 @@ positionen:
   - 'Bund: kein Abzug mangels Mehrkosten, wenn die Hauptmahlzeit maximal 10 Fr. kostet'
 - ziffer: Form. 360 Ziff. 2.2
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: 'Mehrkosten bei durchgehender, mind. achtstündiger Schicht- / Nachtarbeit: CHF 15/Schichttag, max. CHF 3’200/Jahr (Code 210 / 230)'
+  bezeichnung: 'Mehrkosten bei durchgehender, mind. achtstündiger Schicht- / Nachtarbeit: CHF 15/Schichttag, max. CHF 3’200/Jahr (Code 210 Person 1 / 230 Person 2)'
   key: abzug.berufskosten.verpflegung
   belege:
   - lohnausweis
@@ -2860,7 +2860,7 @@ positionen:
   - 'Bund: Pauschale bei Teilzeit oder unterjähriger Erwerbstätigkeit angemessen kürzen'
 - ziffer: Form. 360 Ziff. 4
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: Mehrkosten bei auswärtigem Wochenaufenthalt (Code 2860 / 2861)
+  bezeichnung: Mehrkosten bei auswärtigem Wochenaufenthalt (Code 2860 Person 1 / 2861 Person 2)
   key: abzug.berufskosten.wochenaufenthalt
   belege:
   - mietvertrag-wohnung
@@ -2945,7 +2945,7 @@ positionen:
   - 'Bund: Basis = Nebeneinkünfte netto (nach Sozialversicherungsbeiträgen), gleiche Grenzen'
 - ziffer: Form. 360 Ziff. 6
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: Total der Berufsauslagen (Code 220 / 240) → Steuererklärung Ziff. 11.1 / 11.2
+  bezeichnung: Total der Berufsauslagen (Code 220 Person 1 / 240 Person 2) → Steuererklärung Ziff. 11.1 / 11.2
   key: berechnung.total
   belege: []
   feld: Rechenzeile Formular 360

@@ -7,6 +7,7 @@ Für Agenten (auch kleine Modelle): EIN Aufruf liefert die kompakte, belegte Ant
   python3 tools/steuer.py wert <kanton|bund> <jahr> <begriff>        Eckwerte/Limiten (+ Bund automatisch)
   python3 tools/steuer.py vergleich <jahr> <begriff>                    alle Kantone + Bund nebeneinander (Vergleich/Rangfolge)
   python3 tools/steuer.py position <kanton> <jahr> <ziffer|begriff>  Formularposition (Ziffer/Code): rein, rechnen, Limite, Belege
+  python3 tools/steuer.py formular <kanton> <jahr>                     ganze Steuererklärung: alle Positionen in Reihenfolge + Standardabzüge
   python3 tools/steuer.py beleg <begriff> [--kanton zh] [--jahr 2025] Belegkarte: relevant?, Feld → Position → Rechnen, einreichen?
   python3 tools/steuer.py ablage "<Titel/Text des Dokuments>" [--kanton zh] [--jahr 2025]   Dokument: Typ, relevant?, Steuerjahr, einreichen?
   python3 tools/steuer.py suche "<begriffe>" [--jur zh] [--jahr 2025]   Volltextsuche über alle Chunks (L2)
@@ -38,33 +39,43 @@ STOP = set("der die das den dem des ein eine einer eines und oder fuer von vom i
 MAXOUT = 9000
 # Alltagswort → Schlüsselpräfix der Eckwerte (data/werte). Treffer haben Vorrang vor der Wortsuche.
 KEYSYN = {
-    "sozialabzug.kind steuerbetrag.abzug_kind versicherung.kind vermoegen.freibetrag_kind": "kinderabzug kinder kind kinderabzuege",
-    "drittbetreuung": "kita kinderbetreuung drittbetreuung krippe hort tagesmutter tagesschule fremdbetreuung betreuungskosten",
-    "saeule3a": "3a saeule saeule3a vorsorgekonto selbstvorsorge",
-    "berufskosten.fahrkosten": "pendler pendlerabzug arbeitsweg fahrkosten fahrtkosten km kilometer auto velo oev abo motorrad",
-    "berufskosten.verpflegung": "verpflegung mittag mittagessen essen kantine lunch",
-    "berufskosten.uebrige": "berufskosten berufsauslagen uebrige berufspauschale",
+    "sozialabzug.kind steuerbetrag.abzug_kind versicherung.kind vermoegen.freibetrag_kind": "kinderabzug kinder kind kinderabzuege kinderabzugs",
+    "drittbetreuung": "kita kinderbetreuung drittbetreuung kinderdrittbetreuung krippe hort tagesmutter tagesfamilie tagesschule "
+                      "fremdbetreuung fremdbetreute betreuungskosten kinderbetreuungskosten",
+    "saeule3a": "3a saeule saeule3a vorsorgekonto selbstvorsorge gebundene",
+    "berufskosten.fahrkosten": "pendler pendlerabzug arbeitsweg fahrkosten fahrtkosten km kilometer auto privatauto velo fahrrad "
+                               "oev abo motorrad generalabonnement",
+    "berufskosten.verpflegung": "verpflegung mittag mittagessen essen kantine lunch personalrestaurant",
+    "berufskosten.uebrige": "berufskosten berufsauslagen uebrige berufspauschale berufskostenpauschale",
     "berufskosten.homeoffice": "homeoffice arbeitszimmer",
-    "berufskosten.nebenerwerb": "nebenerwerb nebenjob nebenverdienst",
+    "berufskosten.nebenerwerb": "nebenerwerb nebenjob nebenverdienst nebenbeschaeftigung",
     "berufskosten.wochenaufenthalt": "wochenaufenthalt wochenaufenthalter",
     "berufskosten.schichtarbeit": "schicht schichtarbeit nachtarbeit",
-    "versicherung": "krankenkasse praemien versicherung versicherungsabzug versicherungspraemien krankenversicherung",
-    "krankheitskosten": "krankheitskosten arzt zahnarzt selbstbehalt arztkosten",
+    "versicherung": "krankenkasse praemien versicherung versicherungsabzug versicherungspraemien krankenversicherung "
+                    "krankenkassenpraemien sparzinsen sparkapital sparkapitalzinsen praemienabzug",
+    "krankheitskosten": "krankheitskosten arzt zahnarzt selbstbehalt arztkosten krankheit unfallkosten",
     "liegenschaft": "liegenschaft unterhalt liegenschaftsunterhalt unterhaltspauschale eigenmietwert haus wohneigentum",
     "parteispenden": "partei parteispende parteispenden",
-    "spenden": "spende spenden gemeinnuetzig vergabungen",
-    "weiterbildung": "weiterbildung ausbildung kurs umschulung",
+    "spenden": "spende spenden gemeinnuetzig vergabungen zuwendungen",
+    "weiterbildung": "weiterbildung ausbildung kurs umschulung fortbildung weiterbildungskosten",
     "zweiverdiener": "zweiverdiener doppelverdiener zweiverdienerabzug",
     "sozialabzug.alter_iv": "alter rentner altersabzug invalid",
-    "sozialabzug.verheiratete": "verheiratetenabzug verheiratete ehepaar",
+    "sozialabzug.verheiratete": "verheiratetenabzug verheiratete ehepaar ehegattenabzug",
     "sozialabzug.unterstuetzung": "unterstuetzung unterstuetzungsabzug unterstuetzungsbeduerftig",
     "vermoegen": "vermoegen freibetrag vermoegenssteuer",
     "verfahren": "frist einreichefrist fristerstreckung einreichen abgabe beilagen fristverlaengerung",
-    "bezug": "zins verzugszins verguetungszins ausgleichszins provisorisch bezug",
+    "bezug": "zins zinsen verzugszins verguetungszins ausgleichszins provisorisch bezug",
     "tarif.steuerfuss_kanton": "steuerfuss",
     "tarif.kapitalleistung_vorsorge": "kapitalleistung kapitalbezug kapitalauszahlung kapitalsteuer",
     "tarif": "tarif hoechstsatz mindeststeuer steuerfrei",
     "steuerfrei": "lotto lotterie gewinn feuerwehr feuerwehrsold geldspiel",
+    # nur Formularpositionen (keine Eckwerte):
+    "schuldzinsen schulden": "schuldzins schuldzinsen hypothek hypothekarzins hypothekarzinsen darlehenszins schulden hypothekarschuld",
+    "familienzulagen": "kinderzulagen kinderzulage familienzulagen ausbildungszulagen zulagen",
+    "unselbstaendig.haupterwerb": "lohn nettolohn erwerbseinkommen haupterwerb gehalt salaer lohnausweis",
+    "verrechnungssteuer": "verrechnungssteuer vst verrechnungssteueranspruch rueckerstattung",
+    "lotterie": "lotterie lotto lotteriegewinn geldspiel geldspiele einsatzkosten",
+    "wertschriften": "wertschriften wertschriftenverzeichnis dividenden depot guthaben vermoegensertrag",
 }
 
 
@@ -137,14 +148,41 @@ def expand(qt: list[str], raw: str) -> list:
 
 
 def tm(w, t) -> bool:
-    """Token-Treffer mit deutscher Komposita-Toleranz: fahrkosten~fahrkostenabzug, aber nicht kinder~kinderbetreuung."""
+    """Token-Treffer mit deutscher Komposita-Toleranz: fahrkosten~fahrkostenabzug, kinderdrittbetreuung~drittbetreuung
+    (gleicher Wortkopf), aber nicht kinder~kinderbetreuung."""
     if w == t:
         return True
     a, b = (w, t) if len(w) <= len(t) else (t, w)
     if len(a) < 5:
         return False
+    if len(a) >= 6 and b.endswith(a):
+        return True
     core = a[:-1] if len(a) > 6 else a
     return b.startswith(core) and (len(a) >= 8 or len(a) / len(b) >= 0.6)
+
+
+def teil(x, t) -> bool:
+    """Teil eines Kompositums trifft ein Token (Wortanfang ab 4 Zeichen, Wortende ab 5 Zeichen)."""
+    return tm(x, t) or (len(x) >= 4 and t.startswith(x)) or (len(x) >= 5 and t.endswith(x))
+
+
+def kompositum(w, ts) -> bool:
+    """w = Bestimmungswort + Grundwort (Fugen-s erlaubt), z.B. kinderabzug → kinder + abzug, sparzinsen → spar + zinsen.
+    Ein Teil darf ein Stoppwort sein (abzug, betrag …), der andere muss ein Token treffen."""
+    if len(w) < 8:
+        return False
+    for i in range(4, len(w) - 3):
+        x, y = w[:i], w[i:]
+        xs = [x] + ([x[:-1]] if x.endswith("s") and len(x) > 5 else [])
+        y_stop = y in STOP
+        if not (y_stop or any(teil(y, t) for t in ts)):
+            continue
+        for x2 in xs:
+            if x2 in STOP and not y_stop:
+                return True
+            if not (x2 in STOP) and any(teil(x2, t) for t in ts):
+                return True
+    return False
 
 
 def score(qt, strong: str, weak: str = "") -> float:
@@ -159,8 +197,12 @@ def score(qt, strong: str, weak: str = "") -> float:
         w, g = x if isinstance(x, tuple) else (x, 1.0)
         if any(tm(w, t) for t in st):
             s += 3 * g
+        elif g >= 1 and kompositum(w, st):
+            s += 2.5 * g
         elif any(tm(w, t) for t in wt):
             s += 1 * g
+        elif g >= 1 and kompositum(w, wt):
+            s += 0.8 * g
     return s
 
 
@@ -220,6 +262,29 @@ def st(r) -> str:
 
 
 # ---------------------------------------------------------------- Eckwerte
+def wert_treffer(j, jahr, begriff, n=8):
+    rows = [r for r in L()["werte"] if r["jur"] == j and r["jahr"] == str(jahr)]
+    qt = expand(toks(begriff), begriff)
+    b = norm(begriff).replace(" ", "")
+    pref = syn_praefixe(begriff)
+    scored = []
+    for r in rows:
+        if b and (r["key"] == begriff or r["key"].startswith(str(begriff).strip() + ".")):
+            s = 100
+        else:
+            s = score(qt, r["key"].replace(".", " ").replace("_", " "), f"{r.get('text')} {r.get('kurz') or ''} {r.get('bemerkung') or ''}")
+            g = max([v for p, v in pref.items() if r["key"] == p or r["key"].startswith(p + ".") or r["key"].startswith(p + "_")] or [0])
+            if g:
+                s += 6 + 2 * g
+        if s > 0:
+            scored.append((s, r))
+    scored.sort(key=lambda x: (x[1].get("status") == "na", -x[0], x[1]["key"]))
+    if not scored:
+        return []
+    top = max(x[0] for x in scored)
+    return [r for s, r in scored if s >= max(2.5, top * 0.5)][:n]
+
+
 def wert(jur, jahr, begriff, n=8) -> str:
     j = jur_of(jur)
     if not j:
@@ -229,26 +294,18 @@ def wert(jur, jahr, begriff, n=8) -> str:
     if not rows:
         jahre = sorted({r["jahr"] for r in L()["werte"] if r["jur"] == j})
         return f"Für {NAME[j]} {jahr} sind keine Eckwerte erfasst (vorhanden: {', '.join(jahre)}). Werte nie aus einem anderen Jahr übernehmen."
-    qt = expand(toks(begriff), begriff)
-    b = norm(begriff).replace(" ", "")
-    pref = [p for prefs, words in KEYSYN.items() for p in prefs.split()
-            if any(tm(w, x) for w in toks(begriff) for x in words.split())]
-    scored = []
-    for r in rows:
-        if b and (r["key"] == begriff or r["key"].startswith(str(begriff).strip() + ".")):
-            s = 100
-        else:
-            s = score(qt, r["key"].replace(".", " ").replace("_", " "), f"{r.get('text')} {r.get('kurz') or ''} {r.get('bemerkung') or ''}")
-            if any(r["key"] == p or r["key"].startswith(p + ".") or r["key"].startswith(p + "_") for p in pref):
-                s += 8
-        if s > 0:
-            scored.append((s, r))
-    scored.sort(key=lambda x: (x[1].get("status") == "na", -x[0], x[1]["key"]))
-    if not scored:
-        return (f"Kein Eckwert zu «{begriff}» für {NAME[j]} {jahr}. Tipp: anderes Stichwort (z.B. fahrkosten, verpflegung, saeule3a, "
-                f"versicherung, kinder, drittbetreuung, weiterbildung, spenden, liegenschaft) oder `steuer suche`.")
-    top = max(x[0] for x in scored)
-    hits = [r for s, r in scored if s >= max(3, top * 0.5)][:n]
+    hits = wert_treffer(j, jahr, begriff, n)
+    if not hits:
+        # Rückfall: kein Eckwert mit diesem Stichwort → Formularpositionen (Regel/Limite) und Volltext zeigen
+        out = [f"Kein Eckwert «{begriff}» für {NAME[j]} {jahr} erfasst (Eckwerte = feste Limiten, Pauschalen, Sätze, Fristen, Zinsen). "
+               "Stattdessen – Regel aus Formularposition bzw. Volltext:", ""]
+        kts = [j] if j != "bund" else []
+        for kt in kts:
+            ph = position_treffer(kt, jahr, begriff)
+            for p in ph[:2]:
+                out += position_block(p, voll=False) + [""]
+        out.append(suche(begriff, j, jahr, n=4))
+        return "\n".join(out)
     out = [f"## Eckwerte {NAME[j]} · Steuerjahr {jahr} · «{begriff}»", ""]
     for r in hits:
         out.append(f"- **{r['key']}** = **{fmt_wert(r)}** · {st(r)}")
@@ -277,19 +334,20 @@ def vergleich(begriff, jahr, n=8) -> str:
     if not rows:
         return f"Für {jahr} sind keine Eckwerte erfasst."
     qt = expand(toks(begriff), begriff)
-    pref = [p for prefs, words in KEYSYN.items() for p in prefs.split()
-            if any(tm(w, x) for w in toks(begriff) for x in words.split())]
+    pref = syn_praefixe(begriff)
     best = {}
     for r in rows:
         s = score(qt, r["key"].replace(".", " ").replace("_", " "), f"{r.get('text')} {r.get('kurz') or ''}")
-        if any(r["key"] == p or r["key"].startswith(p + ".") or r["key"].startswith(p + "_") for p in pref):
-            s += 8
+        g = max([v for p, v in pref.items() if r["key"] == p or r["key"].startswith(p + ".") or r["key"].startswith(p + "_")] or [0])
+        if g:
+            s += 6 + 2 * g
         if s > 0 and r.get("status") != "na":
             best[r["key"]] = max(best.get(r["key"], 0), s)
-    if not best:
-        return f"Kein Eckwert zu «{begriff}» für {jahr}."
-    top = max(best.values())
-    keys = sorted([k for k, v in best.items() if v >= max(3, top * 0.5)], key=lambda k: (-best[k], k))[:n]
+    top = max(best.values()) if best else 0
+    keys = sorted([k for k, v in best.items() if v >= max(2.5, top * 0.5)], key=lambda k: (-best[k], k))[:n]
+    if not keys:
+        return (f"Kein Eckwert «{begriff}» für {jahr} erfasst (Eckwerte = feste Limiten, Pauschalen, Sätze, Fristen, Zinsen). "
+                f"Je Kanton: `position <kt> {jahr} {begriff}` (Regel/Limite der Formularposition) oder `suche \"{begriff}\" --jur <kt>`.")
     by = {(r["jur"], r["key"]): r for r in rows}
     out = [f"## Vergleich Steuerjahr {jahr} · «{begriff}» (Kanton = Staats-/Gemeindesteuer; Bund = direkte Bundessteuer)", "",
            "| Schlüssel | " + " | ".join(NAME[j] if j != "bund" else "Bund" for j in jurs) + " |", "|---|" + "---|" * len(jurs)]
@@ -367,6 +425,94 @@ def ist_ziffer(s):
     return s if re.fullmatch(r"\d{1,3}(\.\d{1,3}){0,3}[a-z]?", s) else None
 
 
+def syn_praefixe(begriff) -> dict:
+    """KEYSYN-Präfixe, deren Alltagswörter in der Anfrage vorkommen (auch als Teil eines Kompositums), mit Gewicht:
+    je getroffenes Anfragewort 1, lange (spezifische) Wörter ab 8 Zeichen 2 → «Sparkapital Zinsen» → versicherung vor bezug."""
+    w = toks(begriff)
+    out = {}
+    for prefs, words in KEYSYN.items():
+        ws = words.split()
+        g = sum(1 + (len(x) >= 8) for x in w if any(tm(x, y) or (len(y) >= 6 and kompositum(x, [y])) for y in ws))
+        if g:
+            for p in prefs.split():
+                out[p] = max(out.get(p, 0), g)
+    return out
+
+
+def key_passt(p, key) -> bool:
+    """Schlüsselpräfix p (z.B. sozialabzug.kind) passt auf Schlüssel key (z.B. sozialabzug.kinder, abzug.drittbetreuung)."""
+    ps, ks = p.split("."), str(key or "").split(".")
+    for i in range(len(ks) - len(ps) + 1):
+        if ks[i:i + len(ps) - 1] == ps[:-1] and ks[i + len(ps) - 1].startswith(ps[-1]):
+            return True
+    return False
+
+
+def ziffer_teile(z):
+    """«11.1 / 11.2» → ['11.1', '11.2']; «Form. 4.2 Ziff. 2.3» → ['form. 4.2 ziff. 2.3']."""
+    return [x.strip().lower() for x in str(z).split("/")]
+
+
+def ziffer_treffer(rows, arg):
+    """Positionen zu einer Ziffer/Code-Angabe: Hauptformular exakt → Hilfsformular/Lohnausweis (Ziffer am Ende) → Code."""
+    q = norm(arg).replace("ziffer", "").replace("ziff.", "").replace("ziff", "").strip()
+    q = re.sub(r"\s+", " ", q)
+    if not q or len(q) > 24 or not re.search(r"\d", q):
+        return []
+    z = ist_ziffer(arg)
+    if z:
+        hits = [p for p in rows if z in ziffer_teile(p["ziffer"])]
+        if hits:
+            return hits
+    form = re.fullmatch(r"(?:form(?:ular)?\.?\s*)?([\d.]+[a-z]?)\s*(.*)", q)
+    nz = lambda p: re.sub(r"\s+", " ", norm(str(p["ziffer"]).replace("–", " ").replace("-", " ")))
+    if q.startswith("form"):
+        # «Form. 360», «Form. 360 Ziff. 3», «Formular 4.2 2.3»
+        m = re.fullmatch(r"form(?:ular)?\.?\s*([\d.]+[a-z]?)\s*(?:ziff\.?\s*)?(.*)", q)
+        if m:
+            f, rest = m.group(1), m.group(2).strip()
+            fh = [p for p in rows if re.match(r"form\.? " + re.escape(f) + r"(?![\d.])", nz(p))]
+            if rest:
+                fh2 = [p for p in fh if re.search(r"(?<![\w.])" + re.escape(rest) + r"(?![\d])", nz(p))]
+                return fh2 or fh
+            return fh
+    # Ziffer am Ende einer Hilfsformular-/Lohnausweis-Ziffer («2.3» → «Form. 4.2 Ziff. 2.3», «4.1 A» → «Form. 4.1 A»)
+    hits = [p for p in rows if re.search(r"(?<![\w.])" + re.escape(q) + r"(?![\w.])", nz(p)) and not nz(p) == q]
+    if z and hits:
+        exakt_ende = [p for p in hits if nz(p).endswith(" " + q)]
+        hits = exakt_ende or hits
+    if hits:
+        return hits
+    if z and re.fullmatch(r"\d{3,4}", z):
+        # Code (z.B. 220, 3200): in der Bezeichnung
+        return [p for p in rows if re.search(r"(?<!\d)" + z + r"(?!\d)", str(p.get("bezeichnung") or ""))]
+    if z:
+        return [p for p in rows if str(p["ziffer"]).lower().startswith(z + ".")]
+    return []
+
+
+def position_treffer(j, jahr, arg):
+    rows = [p for p in L()["positionen"] if p["kt"] == j and p["jahr"] == str(jahr)]
+    hits = ziffer_treffer(rows, arg)
+    if hits:
+        return hits
+    qt = expand(toks(arg), arg)
+    pref = syn_praefixe(arg)
+    sc = []
+    for p in rows:
+        s = score(qt, f"{p.get('bezeichnung')} {p.get('key', '').replace('.', ' ').replace('_', ' ')}",
+                  f"{' '.join(p.get('rein') or [])} {p.get('feld') or ''} {' '.join(p.get('belege') or [])}")
+        g = max([v for x, v in pref.items() if key_passt(x, p.get("key")) or any(key_passt(x, k) for k in (p.get("werte_keys") or []))] or [0])
+        if g:
+            s += 4 + 2 * g
+        if s > 0:
+            # Hauptformular vor Hilfsformular/Lohnausweis bei gleicher Punktzahl
+            sc.append((s - (0.5 if not str(p["ziffer"])[:1].isdigit() else 0), p))
+    sc.sort(key=lambda x: -x[0])
+    top = sc[0][0] if sc else 0
+    return [p for s, p in sc if s >= max(2.5, top * 0.6)]
+
+
 def position(kt, jahr, arg, n=3) -> str:
     j = jur_of(kt)
     if j in (None, "bund"):
@@ -375,23 +521,11 @@ def position(kt, jahr, arg, n=3) -> str:
     rows = [p for p in L()["positionen"] if p["kt"] == j and p["jahr"] == jahr]
     if not rows:
         return f"Für {NAME[j]} {jahr} sind keine Formularpositionen erfasst."
-    z = ist_ziffer(arg)
-    if z:
-        hits = [p for p in rows if str(p["ziffer"]).lower() == z] or \
-               [p for p in rows if str(p["ziffer"]).lower().startswith(z + ".")]
-    else:
-        qt = expand(toks(arg), arg)
-        sc = []
-        for p in rows:
-            s = score(qt, f"{p.get('bezeichnung')} {p.get('key', '').replace('.', ' ').replace('_', ' ')}",
-                      f"{' '.join(p.get('rein') or [])} {p.get('feld') or ''} {' '.join(p.get('belege') or [])}")
-            if s > 0:
-                sc.append((s, p))
-        sc.sort(key=lambda x: -x[0])
-        top = sc[0][0] if sc else 0
-        hits = [p for s, p in sc if s >= max(3, top * 0.6)]
+    hits = position_treffer(j, jahr, arg)
     if not hits:
-        return f"Keine Position «{arg}» in {NAME[j]} {jahr}. Übersicht: quick/wegleitung-{j}-{jahr}.md oder `steuer suche`."
+        out = [f"Keine erfasste Position «{arg}» in {NAME[j]} {jahr}. Alle Positionen in Formularreihenfolge: `formular {j} {jahr}`.", ""]
+        out.append(suche(arg, j, jahr, n=4))
+        return "\n".join(out)
     f = L()["formulare"].get(f"{j}-{jahr}", {})
     out = [f"## Formularposition {NAME[j]} {jahr} · «{arg}»", f"Formular: {cut(f.get('formular'), 200)}"]
     bs = f.get("bund_spalte")
@@ -405,6 +539,94 @@ def position(kt, jahr, arg, n=3) -> str:
     if len(hits) > n:
         out.append("Weitere Treffer: " + " · ".join(f"{zf(p)} {cut(p.get('bezeichnung'), 60)}" for p in hits[n:n + 12]))
     out.append(f"Detail mit allen Zitaten: wiki/{j}/zuordnung-{j}-{jahr}-detail.md")
+    return "\n".join(out)
+
+
+# ---------------------------------------------------------------- Formular-Gerüst (ganze Steuererklärung)
+CHECK = [
+    ("Ehepaar / eingetragene Partner", ["sozialabzug.verheiratete", "versicherung.verheiratet", "zweiverdiener.satz",
+                                        "zweiverdiener.max", "zweiverdiener.min"]),
+    ("Kinder (Alter am 31.12.; Ausbildung)", ["sozialabzug.kind", "sozialabzug.kind_vorschule", "sozialabzug.kind_schule",
+                                             "sozialabzug.kind_ausbildung", "sozialabzug.kind_ausbildung_auswaerts",
+                                             "versicherung.kind", "steuerbetrag.abzug_kind", "drittbetreuung.max",
+                                             "vermoegen.freibetrag_kind"]),
+    ("Erwerbstätige (je Person)", ["berufskosten.fahrkosten.max", "berufskosten.verpflegung.jahr", "berufskosten.uebrige.satz",
+                                   "berufskosten.uebrige.fix", "berufskosten.uebrige.min", "berufskosten.uebrige.max",
+                                   "saeule3a.max_mit_2saeule"]),
+    ("Alle", ["versicherung.alleinstehend", "krankheitskosten.selbstbehalt_satz", "spenden.min", "spenden.max_satz",
+              "vermoegen.freibetrag_alleinstehend", "vermoegen.freibetrag_verheiratet", "sozialabzug.alter_iv",
+              "sozialabzug.unterstuetzung"]),
+]
+
+
+def zkey(z):
+    m = re.match(r"(\d+)(?:\.(\d+))?", str(z))
+    return (int(m.group(1)), int(m.group(2) or 0), str(z)) if m else (999, 0, str(z))
+
+
+def kurzwert(r):
+    if not r or r.get("status") == "na":
+        return "–"
+    return fmt_wert(r).replace("CHF ", "") + (" ⚠️" if r.get("status") == "strittig" else "") + (" ⬜" if r.get("status") == "offen" else "")
+
+
+def formular(kt, jahr) -> str:
+    j = jur_of(kt)
+    if j in (None, "bund"):
+        return "Formular je Kanton (zh, sg, tg, ar); der Bund wird im kantonalen Formular erfasst."
+    jahr = str(jahr)
+    rows = [p for p in L()["positionen"] if p["kt"] == j and p["jahr"] == jahr]
+    if not rows:
+        return f"Für {NAME[j]} {jahr} sind keine Formularpositionen erfasst."
+    W = {(r["jur"], r["key"]): r for r in L()["werte"] if r["jahr"] == jahr}
+    f = L()["formulare"].get(f"{j}-{jahr}", {})
+    out = [f"## Formular {NAME[j]} {jahr} – alle Positionen in Formularreihenfolge (Gerüst der Ausfüllhilfe)",
+           f"Formular: {cut(f.get('formular'), 160)}"]
+    if f.get("bund_spalte"):
+        out.append(f"Bund: {cut(f['bund_spalte']['text'], 200)} (Quelle: {f['bund_spalte']['quelle']})")
+    out.append("Ablauf: Einkünfte → Abzüge → Nettoeinkommen → Abzüge auf Basis Nettoeinkommen (Krankheitskosten, Zuwendungen) → "
+               "Reineinkommen → Sozialabzüge → steuerbares Einkommen → Vermögen. Jede Zeile prüfen: zutreffend? Betrag Kanton | Bund; "
+               "Totale ausweisen. Details/Fundstelle: `position " + j + " " + jahr + " <ziffer>`.")
+    haupt = [p for p in rows if not re.match(r"(Form\.|Lohnausweis)", str(p["ziffer"]))]
+    neben = [p for p in rows if p not in haupt]
+    letzte = None
+    for p in sorted(haupt, key=lambda p: zkey(p["ziffer"])):
+        if str(p["ziffer"]).startswith("Seite 1") and "personalien" in norm(p.get("bezeichnung")):
+            continue
+        a = p.get("abschnitt") or "–"
+        if a != letzte:
+            out += ["", f"### {a}"]
+            letzte = a
+        lim = []
+        for k in (p.get("werte_keys") or [])[:2]:
+            kv, bv = W.get((j, k)), W.get(("bund", k))
+            if (kv and kv.get("status") != "na") or (bv and bv.get("status") != "na"):
+                lim.append(f"{k.split('.')[-1]}: K {kurzwert(kv)} | B {kurzwert(bv)}")
+        out.append(f"- {p['ziffer']} · {cut(p.get('bezeichnung'), 100)}" + (f" · {' · '.join(lim)}" if lim else ""))
+    if neben:
+        out += ["", "### Hilfsblätter / Lohnausweis (Überträge ins Hauptformular)"]
+        gr = {}
+        for p in neben:
+            g = re.match(r"(Form\.\s*[\w.]+|Lohnausweis|[^\s]+)", str(p["ziffer"])).group(1)
+            gr.setdefault(g, []).append(p)
+        for g, ps in gr.items():
+            teile = [re.sub(r"^" + re.escape(g) + r"\s*", "", str(p["ziffer"])) or cut(p.get("bezeichnung"), 70) for p in ps]
+            out.append(f"- {g} ({cut(ps[0].get('abschnitt'), 60)}): {', '.join(teile)} → `position {j} {jahr} \"{g}\"`")
+    out += ["", f"### Standardabzüge nach Haushalt – nicht vergessen (Werte Kanton {NAME[j]} | Bund {jahr})"]
+    zif = {}
+    for p in haupt:
+        for k in p.get("werte_keys") or []:
+            zif.setdefault(k, p["ziffer"])
+    for titel, keys in CHECK:
+        teile = []
+        for k in keys:
+            kv, bv = W.get((j, k)), W.get(("bund", k))
+            if not ((kv and kv.get("status") != "na") or (bv and bv.get("status") != "na")):
+                continue
+            teile.append(f"{k}" + (f" (Ziff. {zif[k]})" if k in zif else "") + f": K {kurzwert(kv)} | B {kurzwert(bv)}")
+        if teile:
+            out.append(f"- **{titel}:** " + " · ".join(teile))
+    out.append(f"Werte mit Fundstelle: `wert {j} {jahr} <stichwort>`. Status/Abnahme je Wert dort.")
     return "\n".join(out)
 
 
@@ -448,10 +670,31 @@ def beleg_match(begriff, n=3):
     return sc[:n]
 
 
+def verfahren_match(begriff):
+    """Dokument des Steuerverfahrens (Veranlagung, Quittung, Auflage …) zu einem Stichwort: (punkte, id, eintrag) oder None."""
+    qt = expand(toks(begriff), begriff)
+    best = None
+    for kid, d in ((L().get("erkennung") or {}).get("verfahrensdokumente") or {}).items():
+        s = score(qt, f"{kid.replace('-', ' ')} {d['name']} {' '.join(d.get('stark') or [])}", " ".join(d.get("schwach") or []))
+        if norm(begriff).replace(" ", "-") == kid:
+            s += 100
+        if s > 0 and (not best or s > best[0]):
+            best = (s, kid, d)
+    return best
+
+
 def beleg(begriff, kt=None, jahr=None) -> str:
     j = jur_of(kt) if kt else None
     jahr = str(jahr) if jahr else None
     hits = beleg_match(begriff)
+    vd = verfahren_match(begriff)
+    if vd and (not hits or vd[0] > hits[0][0]):
+        kid, d = vd[1], vd[2]
+        return "\n".join([f"## {d['name']} (`{kid}`) – Dokument des Steuerverfahrens, **kein Steuerbeleg**",
+                          "- Kein Wert in der Steuererklärung; das Dokument selbst wird nicht als Beleg eingereicht.",
+                          f"- Hinweis: {d.get('hinweis') or '–'}" + (f" · Steuerjahr: {d['steuerjahr']}" if d.get("steuerjahr") else ""),
+                          "- Ablage: passende Zeile/Klasse in der Kategorienliste (KATEGORIEN.md); fehlt sie → Unsicherheit nennen.",
+                          "- Einordnen mit Text des Dokuments: `steuer ablage \"<Titel + erste Zeilen>\"`."])
     if not hits:
         return f"Kein Belegtyp zu «{begriff}». Liste: quick/belege-relevanz.md · Dokument einordnen: `steuer ablage \"<Titel>\"`."
     b = hits[0][1]
@@ -611,6 +854,9 @@ def ablage(text, kt=None, jahr=None) -> str:
         else:
             d = (er.get("verfahrensdokumente") or {})[kid]
             out.append(f"{i + 1}. **{d['name']}** (`{kid}`) · Punkte {s:g}")
+            out.append("   - **kein Steuerbeleg** (Dokument des Steuerverfahrens): kein Wert in der Steuererklärung; das Dokument "
+                       "selbst wird nicht als Beleg eingereicht" + (" – verlangte Unterlagen sind die Belege, nicht das Schreiben"
+                                                                     if kid == "auflage-nachfrage" else ""))
             if d.get("steuerjahr"):
                 out.append(f"   - Steuerjahr: {d['steuerjahr']}")
             if d.get("hinweis"):
@@ -761,6 +1007,7 @@ def main(argv=None):
         a = sp.add_parser(name)
         a.add_argument("woerter", nargs="+", help="Kanton/Jur, Jahr und Begriff/Ziffer in beliebiger Reihenfolge")
         a.add_argument("--jur"); a.add_argument("--kanton"); a.add_argument("--jahr")
+    a = sp.add_parser("formular"); a.add_argument("woerter", nargs="+", help="Kanton und Jahr"); a.add_argument("--kanton"); a.add_argument("--jahr")
     a = sp.add_parser("ablage"); a.add_argument("text", nargs="+"); a.add_argument("--kanton"); a.add_argument("--jur"); a.add_argument("--jahr")
     a = sp.add_parser("suche"); a.add_argument("query", nargs="+"); a.add_argument("--jur"); a.add_argument("--kanton"); a.add_argument("--jahr"); a.add_argument("--typ"); a.add_argument("-n", type=int, default=8)
     a = sp.add_parser("zeige"); a.add_argument("ref"); a.add_argument("--abschnitt")
@@ -779,6 +1026,9 @@ def main(argv=None):
             print(wert(jur, jahr, rest))
         else:
             print(position(jur, jahr, rest))
+    elif x.cmd == "formular":
+        jur, jahr, _ = zerlege(x.woerter, x.kanton, x.jahr)
+        print(formular(jur, jahr) if jur and jahr else "Kanton und Jahr angeben, z.B. `formular zh 2025`.")
     elif x.cmd == "ablage":
         t = " ".join(x.text)
         if len(x.text) == 1 and Path(t).is_file():

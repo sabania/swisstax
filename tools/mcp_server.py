@@ -29,6 +29,12 @@ TOOLS = [
                     "Beachten, Belege, Fundstelle. Mit Ziffer (z.B. 11.1, 16.2) oder Stichwort (z.B. Kinderbetreuung).",
      "inputSchema": {"type": "object", "properties": {"kanton": {**S, "description": "zh, sg, tg oder ar"}, "jahr": S,
                                                       "ziffer_oder_begriff": S}, "required": ["kanton", "jahr", "ziffer_oder_begriff"]}},
+    {"name": "formular", "fn": lambda a: steuer.formular(a["kanton"], a["jahr"]),
+     "description": "Ganze Steuererklärung eines Kantons: ALLE Positionen in Formularreihenfolge (Einkünfte → Abzüge → Nettoeinkommen → "
+                    "Abzüge auf Basis Nettoeinkommen → Sozialabzüge → steuerbares Einkommen → Vermögen) mit Limiten Kanton|Bund, "
+                    "Hilfsblätter und Standardabzüge nach Haushalt (Ehepaar, Kinder, Erwerbstätige). Zuerst aufrufen bei kompletten Fällen.",
+     "inputSchema": {"type": "object", "properties": {"kanton": {**S, "description": "zh, sg, tg oder ar"}, "jahr": S},
+                     "required": ["kanton", "jahr"]}},
     {"name": "beleg", "fn": lambda a: steuer.beleg(a["begriff"], a.get("kanton"), a.get("jahr")),
      "description": "Belegkarte zu einem Dokumenttyp (z.B. Lohnausweis, Steuerauszug, Kita-Rechnung): steuerrelevant?, Werte entnehmen, "
                     "vom Dokument in die Steuererklärung: Feld → Position (Ziffer/Code) → Rechnen → Limite Kanton/Bund; Einreichepflicht (mit Zitat).",
@@ -72,7 +78,7 @@ def main():
                 "capabilities": {"tools": {"listChanged": False}},
                 "serverInfo": {"name": "steuerwiki", "version": "1.0.0"},
                 "instructions": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; 2025/2026). Dokumente: ablage/beleg; Ausfüllen: "
-                                "position/wert/vergleich; sonst suche → zeige. Immer Kanton und Steuerjahr angeben."}})
+                                "formular (ganzer Fall)/position/wert/vergleich; sonst suche → zeige. Immer Kanton und Steuerjahr angeben."}})
         elif meth == "tools/list":
             send({"jsonrpc": "2.0", "id": i, "result": {"tools": [{k: t[k] for k in ("name", "description", "inputSchema")} for t in TOOLS]}})
         elif meth == "tools/call":

@@ -2451,7 +2451,7 @@ positionen:
   - Bietet der Arbeitgeber eine Fahrmöglichkeit, besteht kein Abzug (§ 6 BKV TG)
 - ziffer: Form. 4.2/4.3 Ziff. 2.1
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: Abonnementskosten öffentliche Verkehrsmittel (Code 206 / 246)
+  bezeichnung: Abonnementskosten öffentliche Verkehrsmittel (Code 206 Person 1 / 246 Person 2)
   key: abzug.berufskosten.fahrkosten
   belege:
   - oev-abo
@@ -2485,7 +2485,7 @@ positionen:
   - berufskosten.fahrkosten.max
 - ziffer: Form. 4.2/4.3 Ziff. 2.2
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: Fahrrad, Kleinmotorrad bis 50 cm³ pauschal Fr. 700 (Code 210 / 250)
+  bezeichnung: Fahrrad, Kleinmotorrad bis 50 cm³ pauschal Fr. 700 (Code 210 Person 1 / 250 Person 2)
   key: abzug.berufskosten.fahrkosten
   belege: []
   feld: Keine Belege nötig (Pauschale)
@@ -2518,7 +2518,7 @@ positionen:
   - Zählt zum Fahrkostenmaximum (Ziff. 2.5)
 - ziffer: Form. 4.2/4.3 Ziff. 2.3
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: 'Kosten für privates Motorfahrzeug (Auto / Motorrad über 50 cm³): km pro Tag × Anzahl Tage (Code 211 / 251), Spalten Staat und Bund separat'
+  bezeichnung: 'Kosten für privates Motorfahrzeug (Auto / Motorrad über 50 cm³): km pro Tag × Anzahl Tage (Code 211 Person 1 / 251 Person 2), Spalten Staat und Bund separat'
   key: abzug.berufskosten.fahrkosten
   belege:
   - fahrzeugausweis-arbeitsweg
@@ -2567,7 +2567,7 @@ positionen:
   - P+Rail grundsätzlich zumutbar (dann Parkgebühren abziehbar); in den km-Ansätzen sind Parkgebühren enthalten
 - ziffer: Form. 4.2/4.3 Ziff. 2.4
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: Total effektive Fahrkosten (Ziff. 2.1–2.3) (Code 212 / 252)
+  bezeichnung: Total effektive Fahrkosten (Ziff. 2.1–2.3) (Code 212 Person 1 / 252 Person 2)
   key: berechnung.total
   belege: []
   feld: Rechenzeile
@@ -2593,7 +2593,7 @@ positionen:
   - Behinderungsbedingte Mehrkosten der Fahrt zur Arbeit nicht hier, sondern bei den behinderungsbedingten Kosten
 - ziffer: Form. 4.2/4.3 Ziff. 2.5
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: Total abzugsfähige Fahrkosten – Staat max. Fr. 6'000 / Bund max. Fr. 3'300 (Code 213 / 253)
+  bezeichnung: Total abzugsfähige Fahrkosten – Staat max. Fr. 6'000 / Bund max. Fr. 3'300 (Code 213 Person 1 / 253 Person 2)
   key: abzug.berufskosten.fahrkosten
   belege: []
   feld: Rechenzeile mit Plafonierung
@@ -2624,7 +2624,7 @@ positionen:
   - 'Beispiel 12''150 km: Kanton 5''660 (unter Maximum), Bund auf 3''300 begrenzt'
 - ziffer: Form. 4.2/4.3 Ziff. 3.1
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: 'Mehrkosten auswärtige Verpflegung ohne Verbilligung: Fr. 15 pro Arbeitstag, max. Fr. 3''200/Jahr; Schichttage (Code 214 / 254)'
+  bezeichnung: 'Mehrkosten auswärtige Verpflegung ohne Verbilligung: Fr. 15 pro Arbeitstag, max. Fr. 3''200/Jahr; Schichttage (Code 214 Person 1 / 254 Person 2)'
   key: abzug.berufskosten.verpflegung
   belege:
   - lohnausweis
@@ -2666,7 +2666,7 @@ positionen:
   - Gestaffelte/unregelmässige Arbeitszeit = Schichtarbeit, wenn beide Hauptmahlzeiten nicht zu Hause möglich
 - ziffer: Form. 4.2/4.3 Ziff. 3.2
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: 'Mehrkosten auswärtige Verpflegung mit Verbilligung durch Arbeitgeber/Kantine: Fr. 7.50 pro Arbeitstag, max. Fr. 1''600/Jahr (Code 216 / 256)'
+  bezeichnung: 'Mehrkosten auswärtige Verpflegung mit Verbilligung durch Arbeitgeber/Kantine: Fr. 7.50 pro Arbeitstag, max. Fr. 1''600/Jahr (Code 216 Person 1 / 256 Person 2)'
   key: abzug.berufskosten.verpflegung
   belege:
   - lohnausweis
@@ -2704,7 +2704,7 @@ positionen:
   - Vom AG bezahltes Mittagessen (LA Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt») → kein Abzug (§ 6 BKV TG)
 - ziffer: Form. 4.2/4.3 Ziff. 4
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: 'Übrige für den Beruf erforderliche Kosten: 3% vom Nettolohn, min. Fr. 2''000, max. Fr. 4''000, oder effektiv (Code 220 / 260)'
+  bezeichnung: 'Übrige für den Beruf erforderliche Kosten: 3% vom Nettolohn, min. Fr. 2''000, max. Fr. 4''000, oder effektiv (Code 220 Person 1 / 260 Person 2)'
   key: abzug.berufskosten.uebrige
   belege:
   - lohnausweis
@@ -2734,7 +2734,7 @@ positionen:
   - Nebenerwerb nicht hier, sondern separat in Ziff. 6
 - ziffer: Form. 4.2/4.3 Ziff. 5.1
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: 'Wochenaufenthalt – Unterkunft: ortsübliche Auslagen für ein Zimmer (Code 226 / 266)'
+  bezeichnung: 'Wochenaufenthalt – Unterkunft: ortsübliche Auslagen für ein Zimmer (Code 226 Person 1 / 266 Person 2)'
   key: abzug.berufskosten.wochenaufenthalt
   belege:
   - mietvertrag-wohnung
@@ -2765,7 +2765,7 @@ positionen:
   - Fahrkosten Heimkehr und Unterkunft–Arbeitsstätte in Ziff. 2.1–2.3; Fahrkostenmaximum gilt
 - ziffer: Form. 4.2/4.3 Ziff. 5.2
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: 'Wochenaufenthalt – Verpflegung: Fr. 30 pro Arbeitstag, max. Fr. 6''400/Jahr; bei Verbilligung Fr. 22.50, max. Fr. 4''800 (Code 230 / 270)'
+  bezeichnung: 'Wochenaufenthalt – Verpflegung: Fr. 30 pro Arbeitstag, max. Fr. 6''400/Jahr; bei Verbilligung Fr. 22.50, max. Fr. 4''800 (Code 230 Person 1 / 270 Person 2)'
   key: abzug.berufskosten.wochenaufenthalt
   belege:
   - lohnausweis
@@ -2798,7 +2798,7 @@ positionen:
   - 'Bund: Nachweis höherer Kosten ausgeschlossen'
 - ziffer: Form. 4.2/4.3 Ziff. 6
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: 'Auslagen bei Nebenbeschäftigung: 20% vom Nettolohn, min. Fr. 800, max. Fr. 2''400, oder effektiv (Code 232 / 272)'
+  bezeichnung: 'Auslagen bei Nebenbeschäftigung: 20% vom Nettolohn, min. Fr. 800, max. Fr. 2''400, oder effektiv (Code 232 Person 1 / 272 Person 2)'
   key: abzug.berufskosten.nebenerwerb
   belege:
   - lohnausweis
@@ -2836,7 +2836,7 @@ positionen:
   - 'Behördenpauschale nur nebenamtliche, gewählte Gemeinde-Exekutive; Kommissionen/Parlamente: ordentliche 20%-Pauschale'
 - ziffer: Form. 4.2/4.3 Ziff. 7
   abschnitt: Hilfsblatt Berufskosten (Form. 4.2 Person 1 / 4.3 Person 2)
-  bezeichnung: Total der abzugsfähigen Berufsauslagen (Code 240 / 280) – Übertrag Form. 1 Ziff. 10.1 / 10.2
+  bezeichnung: Total der abzugsfähigen Berufsauslagen (Code 240 Person 1 / 280 Person 2) – Übertrag Form. 1 Ziff. 10.1 / 10.2
   key: berechnung.total
   belege: []
   feld: Rechenzeile (Ziff. 2 bis 6)

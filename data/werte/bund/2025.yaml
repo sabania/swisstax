@@ -544,7 +544,7 @@ werte:
 - key: sozialabzug.kind_vorschule
   wert: null
   einheit: null
-  text: Beim Bund kein Vorschulabzug
+  text: 'Keine Altersstaffel beim Bund: der einheitliche Kinderabzug (sozialabzug.kind) gilt auch für Kinder im Vorschulalter'
   gilt_fuer: bund
   quellen: []
   status: na
@@ -552,7 +552,7 @@ werte:
 - key: sozialabzug.kind_schule
   wert: null
   einheit: null
-  text: Beim Bund kein Schulalter-Abzug
+  text: 'Keine Altersstaffel beim Bund: der einheitliche Kinderabzug (sozialabzug.kind) gilt auch für Kinder im Schulalter'
   gilt_fuer: bund
   quellen: []
   status: na
@@ -570,7 +570,7 @@ werte:
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: null
   einheit: null
-  text: Beim Bund kein Zuschlag für auswärtige Ausbildung
+  text: 'Kein Zuschlag für auswärtige Ausbildung beim Bund: es gilt der einheitliche Kinderabzug (sozialabzug.kind)'
   gilt_fuer: bund
   quellen: []
   status: na

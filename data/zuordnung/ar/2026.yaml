@@ -730,7 +730,7 @@ positionen:
 - key: abzug.berufskosten.fahrkosten
   ziffer: Form. 4 Ziff. 1.2
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
-  bezeichnung: Fahrrad/Kleinmotorrad bis 50 cm3 (gelbes Kontrollschild) (Code 402 / 452)
+  bezeichnung: Fahrrad/Kleinmotorrad bis 50 cm3 (gelbes Kontrollschild) (Code 402 Person 1 / 452 Person 2)
   belege: []
   feld: Pauschale (keine Belege)
   werte_keys:
@@ -755,7 +755,7 @@ positionen:
 - key: abzug.berufskosten.verpflegung
   ziffer: Form. 4 Ziff. 2.1
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
-  bezeichnung: 'Mehrkosten auswärtige Verpflegung: Fr. 15 pro Arbeitstag, max. Fr. 3''200 (Code 408 / 458)'
+  bezeichnung: 'Mehrkosten auswärtige Verpflegung: Fr. 15 pro Arbeitstag, max. Fr. 3''200 (Code 408 Person 1 / 458 Person 2)'
   belege:
   - lohnausweis
   - spesenreglement
@@ -768,7 +768,7 @@ positionen:
 - key: abzug.berufskosten.verpflegung
   ziffer: Form. 4 Ziff. 2.2
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
-  bezeichnung: 'Verpflegung durch Arbeitgeber verbilligt (Kantine, Lunch-Checks, Beitrag): Fr. 7.50 pro Tag, max. Fr. 1''600 (Code 410 / 460)'
+  bezeichnung: 'Verpflegung durch Arbeitgeber verbilligt (Kantine, Lunch-Checks, Beitrag): Fr. 7.50 pro Tag, max. Fr. 1''600 (Code 410 Person 1 / 460 Person 2)'
   belege:
   - lohnausweis
   feld: Lohnausweis Feld G (Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten)
@@ -780,7 +780,7 @@ positionen:
 - key: abzug.berufskosten.verpflegung
   ziffer: Form. 4 Ziff. 2.3
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
-  bezeichnung: 'Schicht-/Nachtarbeit (durchgehend mind. 8 Std.): Fr. 15 pro Schichttag, max. Fr. 3''200 (Code 412 / 462)'
+  bezeichnung: 'Schicht-/Nachtarbeit (durchgehend mind. 8 Std.): Fr. 15 pro Schichttag, max. Fr. 3''200 (Code 412 Person 1 / 462 Person 2)'
   belege:
   - lohnausweis
   feld: 'Lohnausweis Ziff. 15 (Bemerkungen: Anzahl Schichttage)'
@@ -791,7 +791,7 @@ positionen:
 - key: abzug.berufskosten.uebrige
   ziffer: Form. 4 Ziff. 3
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
-  bezeichnung: 'Übrige Berufskosten: Pauschale Fr. 700 + 10 % des Nettolohns, max. Fr. 2''400 (Code 416 / 466) oder tatsächliche Kosten mit Aufstellung (Code 418 / 468)'
+  bezeichnung: 'Übrige Berufskosten: Pauschale Fr. 700 + 10 % des Nettolohns, max. Fr. 2''400 (Code 416 Person 1 / 466 Person 2) oder tatsächliche Kosten mit Aufstellung (Code 418 Person 1 / 468 Person 2)'
   belege:
   - lohnausweis
   - spesenreglement
@@ -806,7 +806,7 @@ positionen:
 - key: abzug.berufskosten.wochenaufenthalt
   ziffer: Form. 4 Ziff. 4
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
-  bezeichnung: 'Wochenaufenthalt: Zimmer (Code 426 / 476), Verpflegung Fr. 30/Tag, max. Fr. 6''400 bzw. Fr. 22.50/Tag, max. Fr. 4''800 (Code 428 / 478)'
+  bezeichnung: 'Wochenaufenthalt: Zimmer (Code 426 Person 1 / 476 Person 2), Verpflegung Fr. 30/Tag, max. Fr. 6''400 bzw. Fr. 22.50/Tag, max. Fr. 4''800 (Code 428 Person 1 / 478 Person 2)'
   belege:
   - mietvertrag-wohnung
   feld: Mietvertrag/Quittungen des Zimmers; Lohnausweis (verbilligte Mahlzeiten)
@@ -818,7 +818,7 @@ positionen:
 - key: abzug.berufskosten.nebenerwerb
   ziffer: Form. 4 Ziff. 5
   abschnitt: Hilfsblatt Berufskosten (Form. 4)
-  bezeichnung: 'Unselbständiger Nebenerwerb: Pauschale 20 % der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2''400 (Code 432 / 482) oder tatsächliche Kosten (Code 434 / 484)'
+  bezeichnung: 'Unselbständiger Nebenerwerb: Pauschale 20 % der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2''400 (Code 432 Person 1 / 482 Person 2) oder tatsächliche Kosten (Code 434 Person 1 / 484 Person 2)'
   belege:
   - lohnausweis
   feld: Lohnausweis Ziff. 11 des Nebenarbeitgebers

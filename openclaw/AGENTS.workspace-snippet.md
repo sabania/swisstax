@@ -18,6 +18,7 @@ Nie Werte eines anderen Kantons als Antwort geben.
 |---|---|
 | Dokument: steuerrelevant? Typ? Steuerjahr? einreichen? → Kategorie aus `KATEGORIEN.md` | `ablage "<titel + text>" --kanton <kt> --jahr <jahr>` |
 | Dokument → welche Felder in welche Position, wie rechnen; einreichen? | `beleg <stichwort> --kanton <kt> --jahr <jahr>` |
+| Ganze Steuererklärung / kompletter Fall (Gerüst, Standardabzüge) | `formular <kt> <jahr>` |
 | Ausfüllen: Formularziffer/Code, rechnen, Bundesspalte | `position <kt> <jahr> <ziffer oder stichwort>` |
 | Zahl, Limite, Pauschale, Frist, Zins (ein Kanton) | `wert <bund\|zh\|sg\|tg\|ar> <jahr> <stichwort>` |
 | Vergleich mehrerer Kantone, «höchster/tiefster» | `vergleich <jahr> <stichwort>` |
@@ -32,4 +33,5 @@ Regeln:
 3. **Nur belegte Aussagen:** was weder die Tool-Ausgabe noch ein geöffneter Chunk sagt, weglassen oder als «nicht geprüft» kennzeichnen –
    besonders Nebenaussagen zum Bund. Ist der Bund gefragt und unklar → `wert bund <jahr> …` bzw. `suche … --jur bund`.
 4. Unsicher → nie schätzen: Unsicherheit mit Grund offenlegen. Die fachliche Beurteilung bleibt bei der Fachperson.
-5. Keine Mandantendaten ins Wiki oder in MEMORY.md schreiben.
+5. Keine Mandantendaten ins Wiki oder in MEMORY.md schreiben. Mandant = Person aus Anfrage/Dokument – nie den Namen des
+   Benutzerkontos oder aus anderen Sitzungen einsetzen.

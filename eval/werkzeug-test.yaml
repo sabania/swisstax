@@ -1,0 +1,39 @@
+# Werkzeugtest (deterministisch): Eingaben, mit denen Agenten in echten OpenClaw-Läufen nichts gefunden haben
+# (aus den Protokollen H0–H4, 09.11.2026), mit dem erwarteten Treffer. Auswertung: python3 eval/werkzeug_test.py
+# erwartet: Schlüssel (wert) bzw. Ziffer (position), von denen einer unter den ersten 3 Treffern stehen muss;
+# enthaelt: Text, der in der Ausgabe stehen muss (für Eingaben ohne eigenen Eckwert → Rückfall auf Positionen/Volltext).
+faelle:
+- {befehl: wert, jur: zh, jahr: "2025", eingabe: kinderdrittbetreuung, erwartet: [drittbetreuung.max]}
+- {befehl: wert, jur: zh, jahr: "2026", eingabe: kinderdrittbetreuung, erwartet: [drittbetreuung.max]}
+- {befehl: wert, jur: bund, jahr: "2025", eingabe: kinderdrittbetreuung, erwartet: [drittbetreuung.max]}
+- {befehl: wert, jur: bund, jahr: "2026", eingabe: kinderdrittbetreuung, erwartet: [drittbetreuung.max]}
+- {befehl: wert, jur: zh, jahr: "2025", eingabe: sparzinsen, erwartet: [versicherung.verheiratet, versicherung.alleinstehend]}
+- {befehl: wert, jur: sg, jahr: "2025", eingabe: sparzinsen, erwartet: [versicherung.verheiratet, versicherung.alleinstehend]}
+- {befehl: wert, jur: tg, jahr: "2025", eingabe: sparzinsen, erwartet: [versicherung.verheiratet, versicherung.alleinstehend]}
+- {befehl: wert, jur: bund, jahr: "2025", eingabe: sparzinsen, erwartet: [versicherung.verheiratet, versicherung.alleinstehend]}
+- {befehl: wert, jur: zh, jahr: "2025", eingabe: sparkapital zinsen, erwartet: [versicherung.verheiratet, versicherung.alleinstehend]}
+- {befehl: wert, jur: bund, jahr: "2025", eingabe: zinsen sparkapital, erwartet: [versicherung.verheiratet, versicherung.alleinstehend]}
+- {befehl: wert, jur: tg, jahr: "2025", eingabe: privatauto, erwartet: [berufskosten.fahrkosten.auto_km]}
+- {befehl: wert, jur: bund, jahr: "2025", eingabe: zinsen, erwartet: [bezug.verzugszins, bezug.verguetungszins, versicherung.verheiratet]}
+- {befehl: wert, jur: zh, jahr: "2025", eingabe: kinderzulagen, enthaelt: "Familienzulagen"}
+- {befehl: wert, jur: bund, jahr: "2025", eingabe: einsatzkosten, enthaelt: "Einsatzkosten"}
+- {befehl: wert, jur: sg, jahr: "2025", eingabe: einsatzkosten, enthaelt: "Einsatzkosten"}
+- {befehl: wert, jur: tg, jahr: "2025", eingabe: schuldzinsen, enthaelt: "Schuldzinsen"}
+- {befehl: wert, jur: bund, jahr: "2025", eingabe: schuldzinsen, enthaelt: "Schuldzinsen"}
+- {befehl: wert, jur: tg, jahr: "2025", eingabe: selbstnutzungsabzug, enthaelt: "Selbstnutzung"}
+- {befehl: wert, jur: bund, jahr: "2025", eingabe: verrechnungssteuer, enthaelt: "Verrechnungssteuer"}
+- {befehl: position, jur: zh, jahr: "2025", eingabe: Kinderabzug, erwartet: ["24.1"]}
+- {befehl: position, jur: zh, jahr: "2025", eingabe: Kinderbetreuung, erwartet: ["16.6"]}
+- {befehl: position, jur: zh, jahr: "2025", eingabe: Kinderdrittbetreuung, erwartet: ["16.6"]}
+- {befehl: position, jur: zh, jahr: "2026", eingabe: Kinderbetreuung, erwartet: ["16.6"]}
+- {befehl: position, jur: zh, jahr: "2025", eingabe: Erwerbseinkommen, erwartet: ["1.1"]}
+- {befehl: position, jur: zh, jahr: "2025", eingabe: "11.1", erwartet: ["11.1 / 11.2"]}
+- {befehl: position, jur: zh, jahr: "2025", eingabe: "10.2", erwartet: ["Lohnausweis Ziff. 10.2"]}
+- {befehl: position, jur: ar, jahr: "2025", eingabe: Hypothekarzins, erwartet: ["11", "Form. 5 Teil A"]}
+- {befehl: position, jur: ar, jahr: "2025", eingabe: Kinderzulagen, erwartet: ["3.5"]}
+- {befehl: position, jur: ar, jahr: "2025", eingabe: Versicherungsabzug, erwartet: ["14", "Form. 6 Teil B/C"]}
+- {befehl: position, jur: tg, jahr: "2025", eingabe: Versicherungsabzug, erwartet: ["14", "Form. 5.2 C", "Form. 5.2 B"]}
+- {befehl: position, jur: tg, jahr: "2025", eingabe: "2.3", erwartet: ["Form. 4.2 Ziff. 2.3"]}
+- {befehl: position, jur: tg, jahr: "2025", eingabe: "2.5", erwartet: ["Form. 4.2 Ziff. 2.5"]}
+- {befehl: position, jur: tg, jahr: "2025", eingabe: "4.1 A", erwartet: ["Form. 4.1 A"]}
+- {befehl: position, jur: tg, jahr: "2025", eingabe: "A.1", erwartet: ["Form. 5.2 A.1–A.4"]}
