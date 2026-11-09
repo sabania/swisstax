@@ -1,0 +1,388 @@
+titel: M-Files Klasse StE – Kategorien und Zuordnung Dokumentart → Kategorie (consis)
+stand: '2026-11-05'
+quelle_datei: firma/quellen/mfiles-kategorien-ste-2026-11-05.xlsx
+status: offen – Zuordnungen sind laut Excel noch von consis zu bestätigen (Spalte «Bestätigt» leer)
+regel_je_nach_kanton: 'Gemäss Wegleitung Kanton/Gemeinde: einzureichen → Belege eingereicht, sonst Belege Sonstiges (Excel Nr. 9–11). Generalisiert (Kategorie «Belege eingereicht», Excel Kategorien Nr.
+  4): Sobald ein Beleg eingereicht werden muss oder eingereicht wurde → Belege eingereicht; sonst, wenn er in der Deklaration einen Wert hat → Belege Sonstiges (Kategorien Nr. 5). Einreichepflicht je Kanton/Jahr:
+  data/einreichen/<kt>/<jahr>.yaml.'
+kategorien:
+- nr: 1
+  kategorie: Übermittlungsbestätigung
+  inhalt: Quittung, dass die Steuerdeklaration eingereicht ist. Wird aktuell von Dr. Tax generiert, wenn consis digital über Dr. Tax einreicht.
+  prozess: NP / JP
+  eingereicht: nein
+  anzahl_dokumentarten: 1
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 1
+- nr: 2
+  kategorie: Fristenliste NP
+  inhalt: Nur für die Fristenkontrolle, Bearbeitung und Verlängerung (Fristerstreckung) der Steuererklärungen natürlicher Personen. Keine Ablage von Belegen im Steuerprozess.
+  prozess: NP (nur Fristen)
+  eingereicht: nein
+  anzahl_dokumentarten: 2
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 2
+- nr: 3
+  kategorie: Fristenliste JP
+  inhalt: Betrifft nur juristische Personen. Im Prozess StE NP nicht verwenden.
+  prozess: nur JP
+  eingereicht: –
+  anzahl_dokumentarten: 0
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 3
+- nr: 4
+  kategorie: Belege eingereicht
+  inhalt: Sämtliche Belege, die per Online-Übermittlung über Dr. Tax an das Steueramt gehen. Welche Belege eingereicht werden müssen, zeigen die Wegleitungen der Kantone bzw. Gemeinden. Sobald ein Beleg
+    eingereicht werden muss oder eingereicht wurde, wird er hier abgelegt.
+  prozess: NP / JP
+  eingereicht: ja
+  anzahl_dokumentarten: 8
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 4
+- nr: 5
+  kategorie: Belege Sonstiges
+  inhalt: Grundsätzlich alle relevanten Belege, die in der Steuerdeklaration einen Wert bzw. Eintrag haben, aber nicht eingereicht werden müssen. Z. B. Wertschriftenverzeichnis, Nachweise zu Edelmetallen/Gold
+    und Bitcoins, Liegenschaftsrechnungen und Nachweise zu Weiterbildungskosten (soweit nicht einzureichen).
+  prozess: NP / JP
+  eingereicht: nein
+  anzahl_dokumentarten: 10
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 5
+- nr: 6
+  kategorie: Verlustverrechnung
+  inhalt: Nur bei juristischen Personen, nicht bei natürlichen Personen.
+  prozess: nur JP
+  eingereicht: –
+  anzahl_dokumentarten: 0
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 6
+- nr: 7
+  kategorie: Steuerausscheidung
+  inhalt: Der Teil der Steuerausscheidung, der aus der Steuerdeklaration hervorgeht.
+  prozess: NP / JP
+  eingereicht: ja
+  anzahl_dokumentarten: 1
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 7
+- nr: 8
+  kategorie: Deklaration
+  inhalt: 'Steuererklärung: Deklarationsentwürfe und finale Versionen.'
+  prozess: NP / JP
+  eingereicht: finale Version ja
+  anzahl_dokumentarten: 4
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 8
+- nr: 9
+  kategorie: Deklaration unterjährig
+  inhalt: Nur wenn keine volle Steuerperiode (01.01.–31.12.) besteht, z. B. Tod, Wegzug ins Ausland oder Zuzug aus dem Ausland.
+  prozess: NP
+  eingereicht: ja
+  anzahl_dokumentarten: 1
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 9
+- nr: 10
+  kategorie: Unterlagen Kunde
+  inhalt: 'Vor allem Informationen des Kunden, z. B. per E-Mail: zusätzliche Angaben, Antworten auf Fragen oder Pendenzen, die dokumentiert werden sollen.'
+  prozess: NP / JP
+  eingereicht: nein
+  anzahl_dokumentarten: 4
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 10
+- nr: 11
+  kategorie: Steuercheck Excel
+  inhalt: 'Früher: Plausibilitätskontrolle und interne Qualitätssicherung. Erfolgt neu direkt im M-Files-Prozess; wird nicht mehr benötigt (bestehende Dateien nur lesen).'
+  prozess: nicht mehr verwenden
+  eingereicht: nein
+  anzahl_dokumentarten: 1
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Kategorien · Nr. 11
+dokumentarten:
+- nr: 1
+  dokumentart: Übermittlungsquittung Online-Übermittlung
+  beispiele: Von Dr. Tax generiert bei digitaler Einreichung
+  kategorie: Übermittlungsbestätigung
+  beschreibung_mfiles: Übermittlungsquittung
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 1
+- nr: 2
+  dokumentart: Fristerstreckungsgesuch / Bestätigung Fristerstreckung NP
+  beispiele: Einzel- oder Sammelgesuch, Bestätigung des Steueramts
+  kategorie: Fristenliste NP
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 2
+- nr: 3
+  dokumentart: Fristenliste NP (Excel)
+  beispiele: 'StP 2025: «Fristenliste Natürliche Personen»; ab 2027 in Dr. Tax'
+  kategorie: Fristenliste NP
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 3
+- nr: 4
+  dokumentart: Lohnausweis
+  beispiele: Direkt beim Ablegen
+  kategorie: Belege eingereicht
+  eingereicht: ja
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - lohnausweis
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 4
+- nr: 5
+  dokumentart: Bescheinigung Säule 3a
+  kategorie: Belege eingereicht
+  eingereicht: ja
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - bescheinigung-saeule3a
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 5
+- nr: 6
+  dokumentart: Einkaufsbescheinigung berufliche Vorsorge (PK)
+  kategorie: Belege eingereicht
+  eingereicht: ja
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - bescheinigung-pk-einkauf
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 6
+- nr: 7
+  dokumentart: Jahresrechnung Einzelfirma
+  beispiele: Selbständigerwerbende
+  kategorie: Belege eingereicht
+  eingereicht: ja
+  quelle_zuordnung: Anhang F (02.11.2026), prüfen
+  belege:
+  - selbstaendig-jahresrechnung
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 7
+- nr: 8
+  dokumentart: Renten-/Pensionsbescheinigung
+  beispiele: AHV, PK
+  kategorie: Belege eingereicht
+  eingereicht: ja
+  quelle_zuordnung: Anhang F (02.11.2026), prüfen
+  belege:
+  - rentenbescheinigung-ahv-iv
+  - rentenbescheinigung-vorsorge
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 8
+- nr: 9
+  dokumentart: Bank-/Depotauszüge, Steuerverzeichnis
+  beispiele: 'Gemäss Wegleitung Kanton/Gemeinde: einzureichen → Belege eingereicht, sonst Belege Sonstiges'
+  kategorie: Belege eingereicht
+  eingereicht: je nach Kanton
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - steuerauszug-bank
+  - kontoauszug-zinsausweis
+  - depotauszug
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 9
+- nr: 10
+  dokumentart: Hypothekarzinsbescheinigung
+  beispiele: 'Gemäss Wegleitung Kanton/Gemeinde: einzureichen → Belege eingereicht, sonst Belege Sonstiges'
+  kategorie: Belege eingereicht
+  eingereicht: je nach Kanton
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - hypothekarbestaetigung
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 10
+- nr: 11
+  dokumentart: Liegenschaftsunterhalt (Rechnungen, Aufstellung)
+  beispiele: 'Gemäss Wegleitung Kanton/Gemeinde: einzureichen → Belege eingereicht, sonst Belege Sonstiges'
+  kategorie: Belege eingereicht
+  eingereicht: je nach Kanton
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - liegenschaft-unterhaltsrechnungen
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 11
+- nr: 12
+  dokumentart: Wertschriftenverzeichnis
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 12
+- nr: 13
+  dokumentart: Nachweis Edelmetalle / Gold
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 13
+- nr: 14
+  dokumentart: Nachweis Kryptowährungen (z. B. Bitcoin)
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  belege:
+  - krypto-auszug
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 14
+- nr: 15
+  dokumentart: Andere Nachweise zu Werten in der Deklaration
+  beispiele: Sofern nicht einzureichen
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  belege:
+  - versicherung-rueckkaufswert
+  - dividenden-ausland-quellensteuer
+  - liegenschaft-schaetzung-eigenmietwert
+  - liegenschaft-mietertraege
+  - liegenschaft-nebenkosten-gebaeudeversicherung
+  - unterhaltszahlungen-alimente
+  - taggeldbescheinigung
+  - kapitalleistung-vorsorge
+  - mitarbeiterbeteiligung
+  - oev-abo
+  - fahrzeugausweis-arbeitsweg
+  - spesenreglement
+  - ahv-beitragsverfuegung-nichterwerbstaetige
+  - ergaenzungsleistungen
+  - erbschaft-schenkung
+  - lotteriegewinn
+  - mietvertrag-wohnung
+  - kreditkartenabrechnung
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 15
+- nr: 16
+  dokumentart: Krankheitskosten
+  beispiele: Sofern nicht einzureichen
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - arzt-zahnarzt-rechnungen
+  - krankenkasse-leistungen
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 16
+- nr: 17
+  dokumentart: Spendenbescheinigungen
+  beispiele: Sofern nicht einzureichen
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - spendenbestaetigung
+  - parteispende
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 17
+- nr: 18
+  dokumentart: Weiterbildungskosten
+  beispiele: Sofern nicht einzureichen
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  belege:
+  - weiterbildung-rechnungen
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 18
+- nr: 19
+  dokumentart: Kinderbetreuungskosten
+  beispiele: Sofern nicht einzureichen
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - kinderbetreuung-rechnungen
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 19
+- nr: 20
+  dokumentart: Versicherungsprämien (Prämienbescheinigung)
+  beispiele: Sofern nicht einzureichen
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - krankenkasse-praemien
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 20
+- nr: 21
+  dokumentart: Schuldzinsen (ohne Hypothek)
+  beispiele: Sofern nicht einzureichen
+  kategorie: Belege Sonstiges
+  eingereicht: nein
+  quelle_zuordnung: Anhang F (02.11.2026)
+  belege:
+  - kredit-darlehen-schuldzinsen
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 21
+- nr: 22
+  dokumentart: Steuerausscheidung (mehrere Steuerdomizile)
+  beispiele: Teil aus der Steuerdeklaration
+  kategorie: Steuerausscheidung
+  eingereicht: ja
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 22
+- nr: 23
+  dokumentart: Hauptformular
+  kategorie: Deklaration
+  beschreibung_mfiles: Hauptformular
+  quelle_zuordnung: Anhang F (02.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 23
+- nr: 24
+  dokumentart: Entwurf Steuererklärung
+  kategorie: Deklaration
+  beschreibung_mfiles: Entwurf TT.MM.JJJJ
+  eingereicht: nein
+  quelle_zuordnung: Anhang F (02.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 24
+- nr: 25
+  dokumentart: Fertige Steuererklärung
+  kategorie: Deklaration
+  beschreibung_mfiles: Steuererklärung final
+  eingereicht: ja
+  quelle_zuordnung: Anhang F (02.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 25
+- nr: 26
+  dokumentart: Unterzeichnete Freigabequittung (DeepSign oder Papier)
+  beispiele: 'Offen: Deklaration oder Unterlagen Kunde?'
+  kategorie: Deklaration
+  beschreibung_mfiles: Freigabequittung
+  eingereicht: ja (Post)
+  quelle_zuordnung: Vorschlag, zu prüfen
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 26
+- nr: 27
+  dokumentart: Unterjährige Deklaration
+  beispiele: Tod, Wegzug ins Ausland, Zuzug aus dem Ausland
+  kategorie: Deklaration unterjährig
+  eingereicht: ja
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 27
+- nr: 28
+  dokumentart: Checklisten des Kunden
+  kategorie: Unterlagen Kunde
+  eingereicht: nein
+  quelle_zuordnung: Anhang F (02.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 28
+- nr: 29
+  dokumentart: Antworten des Kunden auf Fragen / Pendenzen
+  beispiele: z. B. per E-Mail
+  kategorie: Unterlagen Kunde
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 29
+- nr: 30
+  dokumentart: Bestätigungen des Kunden
+  beispiele: z. B. Weiterbildungskosten vollständig
+  kategorie: Unterlagen Kunde
+  eingereicht: nein
+  quelle_zuordnung: Anhang F (02.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 30
+- nr: 31
+  dokumentart: Kundenfreigabe per E-Mail
+  beispiele: Freigabe zur Einreichung (Frage 91)
+  kategorie: Unterlagen Kunde
+  beschreibung_mfiles: Freigabe Kunde
+  eingereicht: nein
+  quelle_zuordnung: Erläuterung FE (05.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 31
+- nr: 32
+  dokumentart: Steuercheck (Excel)
+  beispiele: Nicht mehr verwenden; QS neu im M-Files-Prozess
+  kategorie: Steuercheck Excel
+  eingereicht: nein
+  quelle_zuordnung: Anhang F (02.11.2026)
+  quelle: mfiles-kategorien-ste-2026-11-05 · Blatt Zuordnung Dokumente · Nr. 32
+ergaenzungen_prozessbeschrieb:
+- thema: Klassen im Bereich ST ausserhalb StE
+  inhalt: 'Zuerst Klasse im Bereich ST – Steuern: StE, Veranlagung + def. Steuerrechnung, Prov. Steuerrechnung, Kontoauszug, Auflage/Buchprüfung, Einsprache/Rekurs; dann Kategorie (nur Klasse StE).'
+  quelle: steuerprozess-np-2026-10-27 S. 10, Schritt 1.11–1.12
+- thema: Kategorien laut Prozessbeschrieb, die in der Kategorienliste 05.11.2026 fehlen
+  inhalt: Belege WSVZ, Belege Liegenschaften, Scan 1. Seite (Prozessbeschrieb S. 10 und S. 11, Schritt 2.2). Die Excel-Liste (neuer) kennt diese Kategorien nicht → mit FE klären; bis dahin Excel-Kategorien
+    verwenden.
+  quelle: steuerprozess-np-2026-10-27 S. 10–11
+  status: offen
+- thema: Veranlagung, Steuerrechnung, Nachfrage
+  inhalt: 'Klasse «Veranlagung + def. Steuerrechnung» (Bund, Kanton/Gemeinde, Kapitalleistung); Nachfragen «Auflage/Buchprüfung»; Einsprachen «Einsprache/Rekurs»; Kontoauszüge (des Steueramts) «Kontoauszug»
+    → weiter in Schritt 5. Provisorische Rechnung: Klasse «Prov. Steuerrechnung» → Schritt 6.'
+  quelle: steuerprozess-np-2026-10-27 S. 9, S. 23, S. 24
+- thema: Andere Klassen
+  inhalt: 'Grundstückgewinn-, Erbschafts- und Schenkungssteuer: eigene Klassen, Meldung an ML.'
+  quelle: steuerprozess-np-2026-10-27 S. 10, Schritt 1.14
+- thema: Beschreibung
+  inhalt: 'Beschreibung z.B. «Lohnausweis Arbeitgeber», «Hauptformular»; Entwurf: «Entwurf TT.MM.JJJJ»; final: «Steuererklärung final»; Protokoll: «Besprechungsprotokoll Entwurf TT.MM.JJJJ».'
+  quelle: steuerprozess-np-2026-10-27 S. 10, S. 12, S. 14, S. 17
+offene_punkte:
+- 'Alle Zuordnungen: Spalte «Bestätigt» im Excel leer → Vorschlag, nicht bestätigt.'
+- 'Nr. 26 Freigabequittung: «Offen: Deklaration oder Unterlagen Kunde?» (Excel).'
+- 'Nr. 7 und 8: Quelle «Anhang F (02.11.2026), prüfen».'
+- 'Belegtypen ohne Excel-Zeile (Zuordnung durch Wiki als Vorschlag unter Nr. 15 «Andere Nachweise»): Taggeld, Kapitalleistung, Mitarbeiterbeteiligung, Alimente, Liegenschaftsunterlagen u.a. – bestätigen.'
+- Kategorien Belege WSVZ / Belege Liegenschaften / Scan 1. Seite (Prozessbeschrieb) fehlen in der Kategorienliste.
+- 'Nicht steuerrelevante Dokumente aus Kundenportal/DeepBox/Scan (K3–K6): Prozessbeschrieb hat keinen eigenen Zweig (nur K1/K2: E-Mail unberührt lassen) → Vorschlag: Prüfkorb mit Grund «nicht steuerrelevant».'

@@ -40,6 +40,8 @@ Die fachliche Beurteilung bleibt bei der Fachperson. Diese Datei ist das Regelwe
 | 3 RAG-Chunks | `chunks/<jur>/<jahr>/<id>/<id>__cNNNN.md` bzw. `__art-33` | semantische/strukturelle Chunks (≤ ~1'500 Zeichen) mit Kontextzeile | `tools/chunk.py` |
 | Index | `index/chunks.jsonl`, `index/quellen.jsonl` | alle Chunks/Quellen mit Metadaten (für Hybrid-RAG) | `tools/build_index.py` |
 | Originale | `raw/<jur>/<jahr>/<id>.pdf|html|xml` | unveränderte Downloads (Backup, sha256 in Registry) | `tools/fetch.py` |
+| Firmenprozess | `firma/`, `data/firma/`, `wiki/firma/`, `quick/ablage-*` | Prozess Steuererklärung NP (consis), M-Files-Kategorien, Erkennung, Konfiguration | Agent aus Firmenquellen (`firma/quellen/`), FE bestätigt |
+| L1-Index | `index/lookup.json`, `index/fts.sqlite` | kompakte Daten für `tools/steuer.py` / MCP-Server, Volltextindex | `tools/build_lookup.py` |
 | Register | `registry/` | `sources.yaml` (alle Quellen), `taxonomy.yaml` (Schlüssel), `years.yaml`, `chunkplans/` | Tools + Agent |
 
 `<jur>` ∈ `bund, ar, sg, tg, zh`. `<jahr>` = erstes Steuerjahr der Fassung, oder `dauernd` für jahresunabhängige
@@ -48,6 +50,8 @@ Dokumente (Kreisschreiben, Merkblätter, Praxis). Massgeblich ist immer das Feld
 ## 3. Anfragen beantworten (Routing)
 
 1. **Kanton und Steuerjahr klären** (Wohnsitz am 31.12.; bei Unklarheit nachfragen).
+1a. **Werkzeug zuerst** (L1, ein Aufruf mit Fundstelle): `python3 tools/steuer.py wert|position|beleg|ablage|suche|zeige|prozess|mfiles …`
+   bzw. Plugin-Tools `steuerwiki__…` (siehe `KONZEPT.md` §9a). Die folgenden Schritte sind der Weg über die Dateien.
 2. **Quick-Layer:** `quick/index.md` (Frage → Seite) → `quick/belege-relevanz.md` (ist ein Dokument relevant?) →
    `quick/zuordnung-<kt>-<jahr>.md` bzw. `quick/belege-ziffern.md` (welcher Wert in welche Ziffer?) →
    `quick/werte-<jur>-<jahr>.md` / `quick/vergleich-<jahr>.md` (Limiten/Pauschalen).

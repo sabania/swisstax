@@ -165,6 +165,54 @@ Entscheidungsvorlage (`reports/entscheidungsvorlage-strittig.md`) mit Quellen, R
   `memory_search` ist die Rückfallebene für Unvorhergesehenes.
 - Konfiguration, Befunde und Testprotokolle: `openclaw/README.md`, `eval/laeufe/`.
 
+## 9a. Gedächtnis in drei Ebenen, Werkzeug und Plugin
+
+| Ebene | Was | Wann geladen | Wo |
+|---|---|---|---|
+| **L0 Chat / Einstieg** | Gesprächsverlauf + kurzer Einstieg (Regeln, Tabelle «Aufgabe → erster Aufruf», ~2 KB) | immer (Bootstrap-Datei `AGENTS.md` des Workspace) | `openclaw/AGENTS.workspace-snippet.md` |
+| **L1 Schnellzugriff** | Skills (Ablauf je Aufgabe) + Lookup-Werkzeug `steuer` mit fertigen, belegten Antwortblöcken | Skills: im Systemprompt nur Name + Beschreibung, Inhalt erst bei Bedarf; Werkzeug: pro Aufruf | `skills/`, `tools/steuer.py`, `index/lookup.json` |
+| **L2 Langzeitwissen** | Quick-/Wiki-Seiten, Chunks (Volltext aller Quellen), Originale | nur auf Anfrage (`zeige`, `suche`, `memory_search`, `read`) | `quick/`, `wiki/`, `chunks/` bzw. `index/fts.sqlite`, `raw/` |
+
+Der Agent **sucht selbst** (Werkzeugaufrufe); OpenClaw spielt keine Wiki-Inhalte automatisch ein – automatisch geladen werden
+nur Bootstrap-Dateien (AGENTS.md u.a.) und die Skill-Liste. Darum ist L0 klein und zeigt pro Aufgabe den **einen** passenden
+Aufruf, und L1 liefert in einem Aufruf das, wofür der Agent früher 5–10 Dateien lesen musste:
+
+| Befehl | liefert |
+|---|---|
+| `wert <jur> <jahr> <stichwort>` | Eckwerte mit Zitat, Chunk, Status; bei Kantonen automatisch der Bundeswert |
+| `position <kt> <jahr> <ziffer\|stichwort>` | Formularposition (= DrTax-Position): Rein, Rechnen, Regel, Limite Kanton/Bund, Beachten, Belege mit M-Files-Kategorie |
+| `beleg <stichwort> --kanton --jahr` | Belegkarte: relevant?, Werte entnehmen, Ziffern, Einreichepflicht (Zitat), M-Files-Kategorie |
+| `ablage "<titel/text>" --kanton --jahr` | Schritt 1: Dokumenttyp (Top 3), Steuerjahr, Klasse/Kategorie/Beschreibung, Weiterleitung, Sicherheit |
+| `suche "<begriffe>" --jur --jahr` / `zeige <chunk\|pfad>` | Volltext (SQLite FTS5, unicode61) über alle 8'925 Chunks / Wortlaut |
+| `prozess [schritt\|status\|…]` / `mfiles [begriff]` | Firmenprozess und M-Files-Zuordnung |
+
+Das Werkzeug ist deterministisch (gleiche Frage → gleiche Antwort), braucht nur Python 3 und liest die vorab gebaute
+`index/lookup.json` (`tools/build_lookup.py`). Es gibt es als CLI (`python3 tools/steuer.py …`) und als MCP-Server
+(`tools/mcp_server.py`, Tools `steuerwiki__wert` usw.).
+
+**Plugin:** `python3 tools/build_plugin.py --tgz` baut `dist/steuerwiki-plugin` im Claude-Plugin-Format
+(`.claude-plugin/plugin.json`, `.mcp.json`, `skills/`): OpenClaw erkennt es als Bundle (Skills + MCP-Server), Claude Code kann es
+direkt laden. Installation: `openclaw plugins install <ordner> --force --accept-capabilities`, danach das Snippet in die
+Workspace-`AGENTS.md`. Das Plugin enthält Skills, Werkzeug, Index, Quick- und Wiki-Seiten (≈ 7 MB als .tgz); Originale,
+Volltexte und Pflege-Tools bleiben im Repository.
+
+## 9b. Firmenprozess (consis): Steuererklärung NP mit M-Files und DrTax
+
+- **Quellen:** `firma/quellen/` (Prozessbeschrieb 27.10.2026, M-Files-Zuordnungsliste 05.11.2026; sha256 im README).
+- **Daten:** `data/firma/prozess.yaml` (Grundsätze, Rollen, Statusmodell, Schritte 1–6 mit Teilschritten, Querschnitt, Agenten),
+  `data/firma/mfiles.yaml` (11 Kategorien, 32 Dokumentarten, verknüpft mit den 45 Belegtypen), `data/firma/erkennung.yaml`
+  (Stichworte je Dokumenttyp inkl. Prozessdokumenten wie Veranlagung, provisorische Rechnung), `data/einreichen/<kt>/<jahr>.yaml`
+  (Einreichepflicht je Belegtyp laut Wegleitung, mit Zitat – entscheidet «Belege eingereicht» vs. «Belege Sonstiges»),
+  `firma/konfiguration.yaml` (Personen, Schwellen – einzige Stelle mit Namen).
+- **Seiten:** `wiki/firma/prozess-np.md`, `wiki/firma/mfiles-ablage.md`, `quick/ablage-<kt>-<jahr>.md` (Beleg → relevant →
+  Kategorie → einreichen → Ziffern).
+- **Skills:** `steuerprozess-eingang` (Schritt 1), `steuererklaerung-np` (Schritt 2), `steuerprozess-ablauf` (Status, 3–6, Grenzen).
+- **Widersprüche/offen** (in `data/firma/mfiles.yaml` → `offene_punkte`): Kategorien «Belege WSVZ/Liegenschaften/Scan 1. Seite»
+  nur im Prozessbeschrieb; Zuordnungsliste noch nicht bestätigt; Freigabequittung (Deklaration oder Unterlagen Kunde?);
+  Schrittnummern der Agententabelle ≠ Schritttabelle; kein Zweig für nicht relevante Portal-/Scan-Dokumente.
+- «DrTax-Position» = Ziffer/Code des amtlichen Formulars, das DrTax abbildet (Feldnamen der DrTax-Masken sind nicht im Wiki;
+  die Schnittstelle ist laut Prozessbeschrieb noch offen).
+
 ## 10. Experimente und Tuning (Ergebnisse)
 
 Ausführlich: `eval/laeufe/experimente.md`, Protokolle und Bewertungen in `eval/laeufe/`.

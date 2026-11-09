@@ -144,6 +144,27 @@ def check_data(reg, cidx):
                     src = regby.get(c["quelle_id"], {})
                     if jahr and src and "jahre" in src and int(jahr) not in (src.get("jahre") or []) and not q.get("jahr_ok"):
                         warnings.append(f"D1 {where}: Jahres-Wache – Quelle {c['quelle_id']} gilt für {src['jahre']}, Wert für {jahr}")
+    # Einreichepflicht je Kanton/Jahr (data/einreichen/<kt>/<jahr>.yaml): Chunk, Zitat, Kanton, Belegtyp
+    for f in sorted((ROOT / "data" / "einreichen").glob("*/*.yaml")):
+        d = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
+        kt = f.parent.name
+        for r in (d.get("allgemein") or []) + (d.get("belege") or []):
+            where = f"{f.relative_to(ROOT)}:{r.get('beleg_id') or 'allgemein'}"
+            if r.get("beleg_id") and r["beleg_id"] not in bkeys:
+                errors.append(f"D2 {where}: Belegtyp nicht in taxonomy.yaml")
+            stats[("einreichen", r.get("einreichen") or "allgemein")] += 1
+            cid, zitat = r.get("chunk"), r.get("zitat")
+            if not cid:
+                if r.get("einreichen") not in (None, "unklar", "nein"):
+                    warnings.append(f"D2 {where}: Einstufung {r.get('einreichen')} ohne Fundstelle")
+                continue
+            c = cidx.get(cid)
+            if not c:
+                errors.append(f"D2 {where}: zitierter Chunk {cid} existiert nicht")
+            elif not zitat or norm(zitat) not in norm(c["text"]):
+                errors.append(f"D2 {where}: Zitat nicht im Chunk {cid} gefunden: «{(zitat or '')[:80]}»")
+            elif c.get("jurisdiktion") not in (kt, "bund"):
+                errors.append(f"D2 {where}: Chunk {cid} gehört zu {c.get('jurisdiktion')}, nicht {kt}")
     return stats
 
 

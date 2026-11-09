@@ -15,7 +15,10 @@ SRC="$(cd "$(dirname "$0")/.." && pwd)"
 WS="${1:?Workspace-Pfad angeben}"
 MODE="${2:-}"
 mkdir -p "$WS/skills"
-cp -R "$SRC/skills/steuerwiki" "$SRC/skills/steuerwiki-pflege" "$SRC/skills/steuererklaerung-np" "$WS/skills/"
+cp -R "$SRC/skills/steuerwiki" "$SRC/skills/steuerwiki-pflege" "$SRC/skills/steuererklaerung-np" \
+      "$SRC/skills/steuerprozess-eingang" "$SRC/skills/steuerprozess-ablauf" "$WS/skills/"
+# L1-Werkzeug: Index bauen, falls er fehlt (nur Python-Standardbibliothek zur Laufzeit)
+[ -f "$SRC/index/lookup.json" ] || python3 "$SRC/tools/build_lookup.py"
 DEST="$WS/steuerwiki"
 mkdir -p "$DEST"
 cp -R "$SRC"/. "$DEST/"
@@ -42,5 +45,6 @@ else
   echo "Steuer-Wiki installiert: $DEST (Pfade für Skills) · indexiert wird $MEM (memory/, kein Zeitverfall)."
   echo "Keine extraPaths nötig."
 fi
+python3 "$DEST/tools/steuer.py" index >/dev/null 2>&1 || true   # Volltextindex index/fts.sqlite
 echo "Snippet einfügen: $SRC/openclaw/AGENTS.workspace-snippet.md -> $WS/AGENTS.md"
 echo "Danach: openclaw memory index --force --agent <agent-id>"

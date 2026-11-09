@@ -510,6 +510,9 @@ def write_belege(B, Z):
 
 
 ROUTER = [
+    ("**Schnellster Weg (ein Aufruf, mit Fundstelle)**", "`python3 tools/steuer.py wert|position|beleg|ablage|suche|zeige|prozess|mfiles …` bzw. Plugin-Tools `steuerwiki__…`"),
+    ("Eingegangenes Dokument: relevant? Typ? M-Files-Kategorie? (Prozess Schritt 1)", "[Ablage Kanton/Jahr](ablage-zh-2025.md) (Tabelle unten) · [M-Files-Ablage](../wiki/firma/mfiles-ablage.md) · `steuer ablage`"),
+    ("Prozess: Status, wer darf was, Schritte 1–6 (consis)", "[Steuerprozess NP](../wiki/firma/prozess-np.md) · `steuer prozess`"),
     ("Ist ein Dokument des Mandanten steuerrelevant?", "[Belege-Relevanz](belege-relevanz.md) → Detailkarte des Belegs"),
     ("Was gehört in Ziffer X, woher kommt die Zahl, wie rechne ich?", "**Kompakt-Wegleitung** Kanton/Jahr (Tabelle unten): je Position Rein · Rechnen · Limite · Beachten"),
     ("In welche Ziffer gehört ein Beleg / eine Zahl?", "[Beleg × Ziffer](belege-ziffern.md) bzw. Zuordnung/Kompakt-Wegleitung Kanton/Jahr (Tabelle unten)"),
@@ -525,7 +528,7 @@ ROUTER = [
     ("Welche Fassung gilt für Steuerjahr X (Gesetz, Wegleitung, Fristen-Weisung)?", "[Gültigkeit 2025](gueltigkeit-2025.md) · [2026](gueltigkeit-2026.md) – materiell vs. Verfahren vs. Stichtag"),
     ("Alltagsbegriff → Fachbegriff («Kita», «Pendlerabzug»)", "[Glossar](../wiki/glossar.md)"),
     ("Gesetzesartikel wörtlich", "`chunks/<jur>/<jahr>/<gesetz-id>/<id>__art-<nr>[-tN].md` (Bund: Art., ZH/TG: §, AR/SG: Art.); lange Artikel in Teile `-t1`, `-t2` … gesplittet"),
-    ("Nichts gefunden?", "Suche: `python3 tools/search.py \"<Begriffe>\" --jur <kt>,bund --jahr <jahr> --expand` bzw. `memory_search`"),
+    ("Nichts gefunden?", "Suche: `python3 tools/steuer.py suche \"<Begriffe>\" --jur <kt> --jahr <jahr>` bzw. `memory_search`"),
 ]
 
 
@@ -550,6 +553,8 @@ def write_index(W, Z):
                 parts.append(f"[Zuordnung](zuordnung-{j}-{y}.md)")
             if (j, y) in W:
                 parts.append(f"[Eckwerte](werte-{j}-{y}.md)")
+            if (Q / f"ablage-{j}-{y}.md").exists():
+                parts.append(f"[Ablage/M-Files](ablage-{j}-{y}.md)")
             cells.append(" · ".join(parts) or "–")
             for d in (Z.get((j, y)), W.get((j, y))):
                 if d and d.get("hinweis"):

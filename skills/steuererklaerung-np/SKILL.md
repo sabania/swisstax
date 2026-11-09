@@ -1,91 +1,52 @@
 ---
 name: steuererklaerung-np
-description: Steuererklärung natürliche Person (AR/SG/TG/ZH, Bund) von Belegen bis Ausfüllhilfe – Triage, Zuordnung zu Ziffern/Codes, Limiten, Plausibilisierung.
+description: Schritt 2 Steuerprozess – Steuererklärung natürliche Person (AR/SG/TG/ZH + Bund) erfassen – Vorjahresabgleich, Soll-Belegliste, Kundenpendenzen, Beleg für Beleg in DrTax-Positionen (Formularziffern) mit Limiten, QK, Vermögensvergleich, Entwurf. Auch für komplette Ausfüllhilfen aus Belegen.
 ---
 
-# Steuererklärung natürliche Person – Fall-Ablauf
+# Schritt 2 · Erfassung (Status Unterlagen erhalten → in Arbeit (St) → zur Kontrolle)
 
-Wissensbasis: `steuerwiki/` (Regeln `steuerwiki/AGENTS.md`, Abfrage-Skill `steuerwiki`). Ergebnis ist eine
-**Ausfüllhilfe mit Fundstellen** für die Fachperson (SB/ML), keine eingereichte Steuererklärung. Die fachliche Verantwortung
-bleibt bei der Fachperson; Unsicherheiten werden als offene Punkte ausgewiesen, nie «wegerklärt».
+Werkzeug: `steuerwiki__position`, `__wert`, `__beleg`, `__prozess 2` (ohne Plugin: `python3 steuerwiki/tools/steuer.py …`).
+Ergebnis: Erfassung/Ausfüllhilfe mit Beleg-Referenz und Fundstelle je Position. Fachliche Verantwortung: SB/ML.
 
-## 1. Rahmen festlegen (vor jeder Zahl)
+## 2.1–2.4 Sofort nach Eingang
+1. Status «Unterlagen erhalten», Feld = Eingangsdatum (nie überschreiben).
+2. **Vorjahresabgleich → Soll-Belegliste:** Vorjahresdeklaration, Vorjahresbelege (Belege eingereicht/Sonstiges),
+   Einschätzung Vorjahr. Jeder Vorjahresbeleg (Lohnausweis, 3a, Steuerauszug, Hypothek, Liegenschaft …) wird erwartet.
+3. **Vollständigkeit:** fehlende Soll-Belege → Flag «Kundenpendenzen offen» + Details (Liste). Nachlieferung → neu prüfen.
+4. **Einforderung:** E-Mail nur als Entwurf an die SB.
 
-| Frage | Warum | Wo nachlesen |
-|---|---|---|
-| Steuerjahr (Steuerperiode)? | Werte/Formulare sind jahresgebunden | `quick/index.md` |
-| Wohnsitzkanton am 31.12.? Unterjährige Steuerpflicht (Zuzug/Wegzug/Heirat/Tod)? | bestimmt Formular und Regeln | `wiki/<kt>/<kt>-ueberblick.md`, Themen `ehepaare-familie` |
-| Zivilstand / gemeinsame Besteuerung, Kinder (Jahrgang, Ausbildung, Obhut), unterstützte Personen | Sozialabzüge, Tarif, Versicherungsabzug | `wiki/themen/kinder-sozialabzuege.md` |
-| Erwerbssituation je Person (unselbständig, selbständig, Rente, Arbeitslos, Nebenerwerb) | Positionen und Pauschalen | `quick/zuordnung-<kt>-<jahr>.md` |
-| Liegenschaften (selbstbewohnt/vermietet/andere Kantone) | Eigenmietwert, Unterhalt, Ausscheidung | Themen `liegenschaften-*`, `interkantonale-ausscheidung` |
-| Quellensteuer? Auslandseinkünfte? | Sonderverfahren | Themen `quellensteuer`, `wertschriften-verrechnungssteuer` |
+## 2.5 Erfassung DrTax – Beleg für Beleg (fehlende Belege blockieren nicht)
+Mandant in DrTax über den Namen suchen (eindeutig → weiter; nicht vorhanden → mit Stammdaten aus M-Files anlegen; mehrdeutig → Prüfkorb).
+Für jeden Beleg:
+1. `beleg <typ> --kanton <kt> --jahr <jahr>` → Werte entnehmen, betroffene Ziffern.
+2. Je Ziffer `position <kt> <jahr> <ziffer>` → **Rein · Rechnen · Limite (Kanton | Bund) · Beachten · Belege**.
+3. Betrag erfassen mit **Beleg-Referenz** (Datei/Seite). Kanton- und Bundesspalte getrennt, wo Limiten abweichen.
+4. **Wert unsicher gelesen → nie schätzen:** Pendenz an SB «Wert prüfen».
+5. Pauschale vs. effektiv: beide rechnen, günstigere Variante, wo erlaubt. Pauschalen ohne Beleg nicht vergessen
+   (Vermögensverwaltungskosten, Velo, Liegenschaftsunterhalt pauschal …).
 
-## 2. Belege triagieren
+## 2.6–2.8 Prüfpunkte, QK, Entwurf
+- **Prüfpunkte → Checkboxen:** ausländische Quellensteuer (DA-1), Steuerausscheidung (andere Kantone/Liegenschaften), Steuerfaktoren.
+- **Vermögensvergleich (zentral):** Vermögen Vorjahr + Einkommen − Verbrauch ≈ Vermögen aktuell; ungeklärte Differenz in Notiz.
+  Veränderung ≥ ± CHF 20'000 Einkommen oder ≥ ± CHF 50'000 Vermögen → Feld «Wesentliche Veränderungen zum Vorjahr».
+- Weitere Plausis: Bruttoertrag ↔ Verrechnungssteuer 35 %; Schuldzinsen ↔ Schulden; Kinder (Alter 31.12., Alimente vs. Kinderabzug).
+- **Steuerberechnung** → Flag «Steuerberechnung erstellt» → Entwurf-PDF: Klasse StE, Kategorie Deklaration, «Entwurf TT.MM.JJJJ» →
+  Status «zur Kontrolle», «Zugewiesen an» = Prüfer (ML). Offene Pendenzen bleiben im Flag.
 
-Für jedes Dokument mit `quick/belege-relevanz.md`:
-1. **Typ erkennen** (Belegkarte `wiki/belege/beleg-<id>.md`, Abschnitt «Erkennen an»; Alltagsbegriffe via `wiki/glossar.md`). Unbekannt → als offener Punkt aufführen.
-2. **Relevanz:** ja / bedingt (Bedingung prüfen) / nein (nicht verwenden; begründen).
-3. **Werte extrahieren** gemäss Belegkarte «Was extrahieren» – mit Beleg-Referenz (Dateiname/Seite).
-4. **Fallen** (aus `hinweise`) sofort prüfen, z.B. Lohnausweis Feld F (kein Fahrkostenabzug), Feld G (Verpflegung
-   reduziert), Ziff. 10.2 (PK-Einkauf schon im Nettolohn – nicht doppelt), Ziff. 13.3 (Weiterbildung vom Arbeitgeber).
-
-Fehlende Standardbelege aktiv anfordern (Checkliste): Lohnausweise/Rentenbescheinigungen, Steuerauszug bzw.
-Kontoauszüge per 31.12. mit Zinsen, Säule-3a-Bescheinigung, PK-Einkaufsbestätigung, Krankenkassen-Prämienübersicht,
-Hypothekar-/Schuldzinsbestätigung, Liegenschaftsunterlagen (Unterhaltsrechnungen, Eigenmietwert/Schätzung),
-Kinderbetreuungsrechnungen, Weiterbildungsrechnungen, Spendenbestätigungen, Unterhaltszahlungen, Vorjahresveranlagung.
-
-## 3. Zuordnen und berechnen
-
-Für jeden extrahierten Wert:
-1. Ziffer, Feldcode und Rechenweg aus `quick/wegleitung-<kt>-<jahr>.md` (Kompakt-Wegleitung: Rein · Rechnen · Limite · Beachten) bzw. `quick/zuordnung-<kt>-<jahr>.md` (Kurzregel; volle Regel/Feld über ↗ in `wiki/<kt>/zuordnung-<kt>-<jahr>-detail.md`) bzw. `quick/belege-ziffern.md`.
-2. Limite/Pauschale aus `quick/werte-<kt>-<jahr>.md` (Kanton) **und** `quick/werte-bund-<jahr>.md` (direkte
-   Bundessteuer) – Abzüge getrennt rechnen, wo sie sich unterscheiden (Fahrkosten-Maximum, Versicherungsabzug,
-   Kinderabzug, Drittbetreuung, Weiterbildung, Zweiverdiener, Parteispenden, Krankheitskosten-Selbstbehalt).
-3. Pauschale vs. effektiv: beide rechnen, günstigere Variante wählen, wo das Recht die Wahl lässt (z.B. übrige
-   Berufskosten, Liegenschaftsunterhalt je Steuerperiode und Liegenschaft – kantonale Regeln beachten).
-4. Plafonierungen anwenden (Fahrkosten, Versicherungen, 3a, Weiterbildung, Drittbetreuung, Spenden in % des Reineinkommens,
-   Krankheitskosten-Selbstbehalt in % des Nettoeinkommens).
-5. Jede Zahl mit Fundstelle (Chunk-ID) und Status (✅/☑️/🟡/⚠️). Status 🟡 oder ⚠️ → in «offene Punkte».
-
-## 4. Plausibilisieren
-
-- Vermögensvergleich Vorjahr ↔ aktuelles Jahr (Vermögensentwicklung erklärbar durch Einkommen/Verbrauch?).
-- Bruttoertrag Wertschriften ↔ Verrechnungssteuer-Anspruch (35 %), Steuerwerte per 31.12. gemäss Kursliste.
-- Lohnausweis-Summe ↔ AHV-Einkommen; Nebenerwerb vollständig?
-- Schuldzinsen ↔ Schulden per 31.12.; Abzugsgrenze Schuldzinsen (Vermögensertrag + CHF 50'000).
-- Kinder: Alter/Ausbildung am 31.12., Alimente vs. Kinderabzug (nicht beides für dasselbe Kind).
-- Säule 3a: Maximum mit/ohne 2. Säule; Einkauf ab 2026 nur unter den Voraussetzungen (KS 18a).
-
-## 5. Ausgabe – Ausfüllhilfe
-
+## Ausgabe (Ausfüllhilfe/Erfassungsliste)
 ```
-Mandant: <Kürzel> · Kanton: <kt> · Steuerjahr: <jahr> · Formular: <aus zuordnung>
-| Ziffer | Code | Position | Betrag Kanton | Betrag Bund | Beleg | Regel/Limite | Fundstelle | Status |
-|---|---|---|---|---|---|---|---|---|
-...
-Offene Punkte / Rückfragen an Mandant:
-- …
-Hinweise für SB/ML (Unsicherheiten, strittige Werte, Ermessen):
-- …
+Mandant: <Kürzel> · Kanton: <kt> · Steuerjahr: <jahr> · Formular: <aus position>
+| Ziffer | Code | Position | Kanton | Bund | Beleg (Referenz) | Regel/Limite | Fundstelle | Status |
+Kundenpendenzen: …   Pendenzen an SB (Werte prüfen): …   Hinweise SB/ML (Annahmen, strittig, Ermessen): …
 ```
 
-## 6. Verfahren
+## Fallen (aus den Tests)
+- Lohnausweis: Feld F → keine Fahrkosten; Feld G → Verpflegung halb; Ziff. 10.2 PK-Einkauf schon im Nettolohn (nicht doppelt); Ziff. 13.3.
+- **Unklarer Sachverhalt** (z.B. Heimkehr über Mittag): Standardfall der Praxis erfassen, Annahme offenlegen, Alternative mit Betrag
+  nennen, Rückfrage formulieren – nicht selbst einen Abzug streichen.
+- Person 2 hat in Hilfsblättern eigene Codes – Codes je Person aus `position` übernehmen.
+- AR/SG/TG-Kinderabzüge je Altersstufe; Bund ≠ Kanton bei Fahrkosten, Versicherung, Kinder, Drittbetreuung, Weiterbildung.
+- Status ⬜ offen/⚠️ strittig → in «Hinweise SB/ML», nie Werte aus einem anderen Jahr/Kanton.
 
-Fristen, Fristerstreckung (auch Sammelgesuche für Treuhänder), Abgabeweg (E-Tax/Portal, Unterschrift, Belege),
-Bezug/Zinsen: `wiki/themen/fristen-verfahren.md`, `wiki/themen/bezug-zinsen.md`, `wiki/<kt>/<kt>-ueberblick.md`.
-
-## 7. Grenzen
-
-Nicht abgedeckt bzw. nur Übersicht: selbständige Erwerbstätigkeit im Detail (Buchhaltung), Erbschafts-/Schenkungssteuer,
-Grundstückgewinnsteuer, juristische Personen, internationale Doppelbesteuerung im Detail. In diesen Fällen: Fachperson
-beiziehen, nur Hinweise mit Fundstelle geben. Nie Werte aus einem anderen Jahr/Kanton verwenden.
-
-## Unklarer Sachverhalt (aus dem End-zu-End-Test)
-
-- Fehlt eine Tatsache, die einen Abzug ausschliessen würde (z.B. ob die Heimkehr über Mittag möglich ist), **nicht** selbst
-  ausschliessen: Standardfall der Praxis deklarieren (z.B. Feld G angekreuzt → halber Verpflegungsabzug CHF 7.50/Tag),
-  die Annahme offenlegen, die Alternative mit Betrag nennen und eine Rückfrage an den Mandanten formulieren.
-- Pauschalen ohne Beleg nicht vergessen (z.B. TG/SG/ZH Vermögensverwaltungskosten-Pauschale auf Depotwerten, Velo-Pauschale,
-  Liegenschaftsunterhalt pauschal) – jeweils Kanton und Bund getrennt prüfen.
-- Person 2 hat in den Hilfsblättern **eigene Codes** (z.B. ZH Form. 360: Person 1 = 2xx, Person 2 = 22x/23x) – Codes je Person
-  aus der Kompakt-Wegleitung/Detailseite übernehmen, nicht die Codes von Person 1 wiederverwenden.
+Nicht abgedeckt (nur Hinweise, Fachperson): Buchhaltung Selbständigerwerb, Erbschafts-/Schenkungs-/Grundstückgewinnsteuer,
+juristische Personen, internationale Doppelbesteuerung im Detail.

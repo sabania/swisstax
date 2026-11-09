@@ -1,15 +1,27 @@
-## Steuer-Wiki (Schweiz, natürliche Personen)
+## Steuer-Wiki (Schweiz, natürliche Personen) – Einstieg
 
-Wissensbasis: `steuerwiki/` (indexiert unter `memory/steuerwiki/`, gleiche Dateien) – Bund + AR/SG/TG/ZH, Steuerjahre 2025/2026. Regeln: `steuerwiki/AGENTS.md` (bei der
-ersten Steuerfrage einer Sitzung lesen). Skills: `steuerwiki` (Nachschlagen), `steuererklaerung-np` (ganzer Fall: Belege → Ausfüllhilfe).
+Wissen: Bund + Kantone AR, SG, TG, ZH · Steuerjahre 2025, 2026 · Firmenprozess Steuererklärung NP (consis: M-Files, DrTax).
+Andere Kantone sind nicht abgedeckt → «nicht im Wiki» sagen.
 
-- Immer zuerst Kanton (Wohnsitz 31.12.) und Steuerjahr klären.
-- Reihenfolge: `steuerwiki/quick/index.md` (Frage → Seite) → `quick/belege-relevanz.md` (relevant?) →
-  `quick/wegleitung-<kt>-<jahr>.md` (je Ziffer: Rein · Rechnen · Limite · Beachten) bzw. `quick/zuordnung-<kt>-<jahr>.md` → `quick/werte-<jur>-<jahr>.md` bzw.
-  `quick/vergleich-<jahr>.md` (Limiten) → Detail (↗-Link: `wiki/<jur>/*-detail.md`, `wiki/belege/*`, `wiki/themen/*`)
-  → Chunk (`chunks/...`) → Original-PDF (`raw/...`). Suche: `memory_search` mit Kanton + Jahr + Begriff.
-- Andere Kantone als AR/SG/TG/ZH sind nicht abgedeckt → «nicht im Wiki» sagen.
-- Jede Zahl mit Fundstelle (Chunk-ID oder Dokument + Seite) und Steuerjahr. Kanton (Staats-/Gemeindesteuer) und
-  Bund (DBG) getrennt angeben. Status nennen (✅ verifiziert · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig).
-- Werte nie aus anderem Jahr/Kanton übertragen. Fehlt etwas: offen sagen. Fachliche Beurteilung bleibt bei SB/ML.
-- Keine Mandantendaten in `steuerwiki/` oder `MEMORY.md` schreiben.
+**Werkzeug zuerst, nicht lange suchen.** Tools `steuerwiki__<befehl>` (Plugin). Ohne Plugin dasselbe per exec:
+`python3 steuerwiki/tools/steuer.py <befehl> …`. Seiten/Chunks öffnen: `zeige <pfad|chunk-id>`.
+
+| Aufgabe | Erster Aufruf |
+|---|---|
+| Zahl, Limite, Pauschale, Frist, Zins | `wert <bund\|zh\|sg\|tg\|ar> <jahr> <stichwort>` |
+| Formularziffer / DrTax-Position: was rein, wie rechnen | `position <kt> <jahr> <ziffer oder stichwort>` |
+| Eingegangenes Dokument: relevant? Typ? M-Files-Kategorie? | `ablage "<titel + text>" --kanton <kt> --jahr <jahr>` |
+| Regeln zu einem Belegtyp (einreichen?, Ziffern) | `beleg <stichwort> --kanton <kt> --jahr <jahr>` |
+| Prozess: Status, wer darf was, Schritt 1–6 | `prozess [<schritt>\|status]` · M-Files: `mfiles [<begriff>]` |
+| Alles andere | `suche "<begriffe>" --jur <kt> --jahr <jahr>` → `zeige <chunk-id>` |
+
+Skills (bei Bedarf lesen): `steuerwiki` (Fachfragen) · `steuerprozess-eingang` (Schritt 1: Dokumente erkennen, ablegen) ·
+`steuererklaerung-np` (Schritt 2: Erfassung DrTax, ganzer Fall) · `steuerprozess-ablauf` (Status, Schritte 3–6, Grenzen der KI).
+
+Regeln:
+1. Kanton (Wohnsitz 31.12.) und Steuerjahr zuerst festlegen; unklar → nachfragen. Werte nie aus anderem Jahr/Kanton übernehmen.
+2. Jede Zahl mit Fundstelle (Chunk-ID) und Status (✅ verifiziert · ☑️ agent-geprüft = Fundstelle geprüft, Abnahme offen · ⚠️ strittig).
+3. Kanton (Staats-/Gemeindesteuer) und Bund (direkte Bundessteuer) getrennt nennen.
+4. Unsicher → nie schätzen: Pendenz an SB bzw. Prüfkorb. Fachliche Beurteilung bleibt bei SB/ML.
+5. Die KI reicht nie ein, antwortet nie dem Steueramt, setzt nie «zur Fertigstellung / Versand» oder «In Excel-Fristenliste austragen».
+6. Keine Mandantendaten ins Wiki oder in MEMORY.md schreiben.

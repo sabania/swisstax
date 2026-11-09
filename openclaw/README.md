@@ -5,14 +5,39 @@
 search` und echte Agent-Turns (`openclaw agent --local`) mit Claude über die `claude-cli`-Runtime. Protokoll der
 Testfragen: [`../eval/openclaw-lauf.md`](../eval/openclaw-lauf.md).
 
-## Schnellstart (5 Schritte)
+## Empfohlen: als Plugin installieren (Skills + Tools + Wissen)
+
+Getestet mit OpenClaw 2026.11.2 und Haiku/Sonnet über die `claude-cli`-Runtime.
+
+```bash
+python3 tools/build_plugin.py --tgz                     # → dist/steuerwiki-plugin/ (und .tgz, ≈ 7 MB)
+openclaw plugins install dist/steuerwiki-plugin --force --accept-capabilities   # lokale Quelle → --force
+openclaw plugins inspect steuerwiki                     # Format: bundle (claude) · Bundle capabilities: skills, mcpServers
+cat openclaw/AGENTS.workspace-snippet.md >> <workspace>/AGENTS.md                # L0-Einstieg (≈ 2 KB)
+openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     # → 1 Aufruf steuerwiki__wert
+```
+
+- Das Plugin bringt 4 Skills (`steuerwiki`, `steuerprozess-eingang`, `steuererklaerung-np`, `steuerprozess-ablauf`) und den
+  MCP-Server `steuerwiki` mit den Tools `steuerwiki__wert`, `__position`, `__beleg`, `__ablage`, `__suche`, `__zeige`,
+  `__prozess`, `__mfiles`. Voraussetzung: `python3` auf dem Gateway-Host (nur Standardbibliothek).
+- `memory_search`/Indexierung sind für das Plugin nicht nötig (eigene Volltextsuche `suche`). Wer zusätzlich `memory_search`
+  über das Wiki will, installiert parallel den Workspace-Weg unten.
+- Format: Claude-Plugin (`.claude-plugin/plugin.json`, `.mcp.json`, `skills/`). Ein reines `plugin.json` (Agent-Plugins-Format)
+  wurde in 2026.11.2 nicht als solches erkannt; das Claude-Format funktioniert und ist zugleich in Claude Code nutzbar.
+- Update: neu bauen, `openclaw plugins install … --force --accept-capabilities` erneut ausführen (neue Sitzungen sehen den Stand).
+
+## Alternative: Workspace-Installation (Dateien + memory_search)
+
+Das Werkzeug funktioniert auch hier per exec: `python3 steuerwiki/tools/steuer.py <befehl> …`.
+
+## Schnellstart Workspace (5 Schritte)
 
 1. **Agent anlegen** mit eigenem Workspace, z.B. `~/.openclaw/workspace-steuer`, und ZIP entpacken / Repo klonen.
 2. **Installieren:** `./openclaw/install.sh ~/.openclaw/workspace-steuer`
    - legt das ganze Wiki nach `<ws>/steuerwiki/` (alle Pfade aus Skills/Regeln gültig),
    - legt die indexierbaren Teile `quick/`, `wiki/`, `chunks/` physisch nach `<ws>/memory/steuerwiki/` (mit Symlinks in
      beide Richtungen, damit relative Links auf `sources/` und `raw/` funktionieren),
-   - kopiert die Skills `steuerwiki`, `steuererklaerung-np`, `steuerwiki-pflege` nach `<ws>/skills/`.
+   - kopiert die Skills `steuerwiki`, `steuerprozess-eingang`, `steuererklaerung-np`, `steuerprozess-ablauf`, `steuerwiki-pflege` nach `<ws>/skills/`.
 3. **Workspace-`AGENTS.md`:** Inhalt von [`AGENTS.workspace-snippet.md`](AGENTS.workspace-snippet.md) einfügen (≈ 1'500 Zeichen).
 4. **Konfiguration** `~/.openclaw/openclaw.json` (Beispiel unten) und `openclaw config validate`.
 5. **Indexieren und testen:**
