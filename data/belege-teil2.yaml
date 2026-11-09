@@ -557,8 +557,9 @@ belege:
   - Alimentenbevorschussungen sind den Alimenten gleichgestellt (steuerbar beim Empfänger, ZH WL Ziff. 5.2).
   - 'Dauernde Lasten/Leibrenten (Ertragsanteil): separater Abzug (Art. 33 Abs. 1 lit. b DBG), bei Leibrenten Beiblatt mit Empfänger und Umfang einreichen.'
   kantone:
-    ZH: Abzug Ziff. 13.1 (Ehegatten, voll abziehbar) und 13.2 (minderjährige Kinder bis zum Monat der Volljährigkeit); Einkommen Ziff. 5.1/5.2; mit der Steuererklärung 2025 sind sämtliche Zahlungsnachweise
-      einzureichen (WL ZH 2025 Ziff. 13).
+    ZH: 'Abzug Ziff. 13.1 (Ehegatten, voll abziehbar) und 13.2 (minderjährige Kinder bis zum Monat der Volljährigkeit); Einkommen Ziff. 5.1/5.2; Zahlungsnachweise: Form. 300 ZH 2025 S. 3 «Mit der Steuererklärung
+      2025 sind sämtliche Zahlungsnachweise einzureichen» (Hinweis unter Ziff. 13.3 im Block 13); der Text der WL ZH 2025 zu Ziff. 13.1/13.2 enthält selbst keine Belegvorschrift, und die WL bezieht den Hinweis
+      bei Ziff. 13.3 auf Leibrenten/Verpfründungen → Bezug auf 13.1/13.2 nicht eindeutig: auf Verlangen, im Zweifel beilegen (Fachperson entscheidet).'
     SG: Ziff. 12.1 (Ehegatte) und 12.2 (Kinder, je Kind separat ausweisen); bei erstmaliger Zahlung Auszug aus Scheidungsurteil/Trennungsvereinbarung und Zahlungsnachweis beilegen (WL SG 2025 Ziff. 12).
     AR: Ziff. 12.1/12.2 (minderjährige Kinder); bei erstmaliger Zahlung Urteil/Vereinbarung und Zahlungsnachweis beilegen (WL AR 2025 Ziff. 12).
     TG: Abzug nur bei eingereichten Zahlungsnachweisen mit Name und Adresse der empfangenden Person; bei erstmaliger Deklaration Kopie der Urteilspassagen/Vereinbarung beilegen; Kinderunterhalt inkl. Kinderzulagen,
@@ -572,6 +573,10 @@ belege:
     zitat: Nach Erreichen des 18. Altersjahres geleistete Unterhaltsbeiträge können somit nicht mehr
   - chunk: zh-wl-2025__c0057
     zitat: Den Alimenten gleichgestellt sind Alimentenbevorschussungen.
+  - chunk: zh-form-300-2025__c0007
+    zitat: Mit der Steuererklärung 2025 sind sämtliche Zahlungsnachweise einzureichen.
+  - chunk: zh-wl-2025__c0080
+    zitat: Leibrenten und Verpfründungen einzureichen (insbesondere Leibrenten- bzw.
   - chunk: sg-wl-2025__c0084
     zitat: Unterhaltsbeiträge, die an ein volljähriges Kind bezahlt werden, können einerseits
   - chunk: tg-wl-2025__c0087

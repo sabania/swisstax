@@ -131,12 +131,15 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 <a id="berufskosten-uebrige-satz"></a>
 ### Übrige Berufskosten – Pauschale in % des Nettolohns
 
-- **Wert:** 3 % (Übrige Berufskosten: Pauschale 3 % des Nettolohns, mindestens CHF 2'000, höchstens CHF 4'000 pro Jahr; Nachweis höherer tatsächlicher Kosten möglich. Bei Teilzeit/Teiljahr angemessen zu kürzen.)
+- **Wert:** 3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)
 - **Schlüssel:** `berufskosten.uebrige.satz` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
-- **Rechtsgrundlage:** Art. 26 Abs. 1 lit. c, Abs. 2 DBG; Art. 7 BKV; Anhang Ziff. 1 BKV
+- **Rechtsgrundlage:** Art. 26 Abs. 1 lit. c, Abs. 2 DBG; Art. 4 und 7 BKV; Anhang Ziff. 1 BKV
 - **Quellen:**
   - [BKV Anhang](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__anhang-1.md) `bund-bkv-2026__anhang-1` – «3 % des Nettolohns, mindestens im Jahr | 2000.—»
   - [WL 2a 2026 S. 6](../../chunks/bund/2026/bund-wl-2a-2026/bund-wl-2a-2026__c0040.md) `bund-wl-2a-2026__c0040` – «Der Pauschalabzug beträgt 3 % des Nettolohnes, mindestens»
+  - [DBG Art. 26](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-26.md) `bund-dbg-2026__art-26` – «im Fall von Absatz 1 Buchstabe c steht der steuerpflichtigen Person der Nachweis höherer Kosten offen»
+  - [DBG Art. 26](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-26.md) `bund-dbg-2026__art-26` – «bis zu einem Maximalbetrag von 3300 Franken»
+  - [BKV Art. 7](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-7.md) `bund-bkv-2026__art-7` – «Der Pauschalabzug ist angemessen zu kürzen, wenn die unselbständige Erwerbstätigkeit bloss während eines Teils des Jahres oder als Teilzeitarbeit ausgeübt wird.»
 
 <a id="berufskosten-uebrige-fix"></a>
 ### Übrige Berufskosten – fixer Pauschalbetrag (CHF), falls Formel «fix + %»
@@ -478,7 +481,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
   - [DBG Art. 35](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-35.md) `bund-dbg-2026__art-35` – «a. 6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind»
 
 <a id="sozialabzug-kind-ausbildung-auswaerts"></a>
-### Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+### Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)
 
 - **Wert:** n/a – Bund: kein erhöhter Abzug für auswärtige Ausbildung; einheitlich CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).
 - **Schlüssel:** `sozialabzug.kind_ausbildung_auswaerts` · **gilt für:** bund · **Status:** – na

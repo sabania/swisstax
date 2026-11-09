@@ -517,7 +517,7 @@ positionen:
   - Mit Kinderalimenten weitergeleitete Zulagen beim Empfänger in Ziff. 5.2
 - ziffer: '4'
   abschnitt: Einkünfte
-  bezeichnung: Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 2, Code 150)
+  bezeichnung: Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 1 Code 150, Übertrag aus Formular 2)
   key: einkommen.wertschriften
   belege:
   - steuerauszug-bank
@@ -1359,7 +1359,7 @@ positionen:
   - Einzeln mit Name/Sitz; Pauschalvermerke («Spenden an diverse Organisationen») nicht anerkannt
 - ziffer: '15.6'
   abschnitt: Abzüge
-  bezeichnung: Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 2 Hilfsblatt, Code 341)
+  bezeichnung: Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 1 Code 341, Übertrag aus Formular 2 Hilfsblatt)
   key: abzug.teilbesteuerung_beteiligungen
   belege:
   - dividenden-ausland-quellensteuer
@@ -1936,7 +1936,7 @@ positionen:
   - 'Kanton: keine Ermässigung, stattdessen Steuergutschrift Ziff. 28.1'
 - ziffer: '30.1'
   abschnitt: Vermögen
-  bezeichnung: Wertschriften und Guthaben (Formular 2, Code 410)
+  bezeichnung: Wertschriften und Guthaben (Formular 1 Code 410, Übertrag aus Formular 2)
   key: vermoegen.wertschriften_guthaben
   belege:
   - steuerauszug-bank
@@ -2614,10 +2614,14 @@ positionen:
     zitat: werden auch bei unterjähriger Steuerpflicht, unterjähriger Erwerbsdauer oder Teilzeitarbeit nicht gekürzt
   - chunk: tg-wl-2026__c0182
     zitat: Daher kann bei der direkten Bundessteuer nur der Maximalabzug von Fr. 3'300
+  - chunk: tg-form-04-2-2026__c0005
+    zitat: Übertrag in Steuererklärung Seite 3, Ziffer 10.1
+  - chunk: tg-form-04-2-2026__c0010
+    zitat: 7. Total der abzugsfähigen Berufsauslagen 280
   status: agent-geprueft
   rein:
   - Übertrag aus Ziff. 2.4 (Spalten Staat/Bund)
-  berechnung: 'Kanton: min(Ziff. 2.4 Kanton; 6''000); Bund: min(Ziff. 2.4 Bund; 3''300) – je Person'
+  berechnung: 'Kanton: min(Ziff. 2.4 Kanton; 6''000); Bund: min(Ziff. 2.4 Bund; 3''300) – je Person → Form. 4.2/4.3 Ziff. 7 (Code 240/280) → Steuererklärung Seite 3 Ziff. 10.1/10.2'
   beachten:
   - Plafond umfasst alle Fahrkosten inkl. Wochenaufenthalt und effektive Nebenerwerbs-Fahrkosten
   - Keine Kürzung bei unterjähriger Steuerpflicht/Erwerbsdauer oder Teilzeit

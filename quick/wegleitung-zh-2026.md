@@ -395,7 +395,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 ### 16.6 · Abzug für fremdbetreute Kinder (Jahrg. 2012–2026) (Code 376) ☑️
 - **Rein:** Rechnungen Kita/Hort/Spielgruppe/Tagesmutter + Zahlungsnachweis → bezahlte Betreuungskosten je Kind · Aufstellung Fremdbetreuungskosten mit Empfängern → beilegen; bei angestellter Betreuungsperson Kopie Lohnausweis · Seite 1 Kinder → Jahrgang 2012–2026, gleicher Haushalt
 - **Rechnen:** Σ je Kind min(nachgewiesene Kosten; Kanton 25'300 / Bund 25'800); Konkubinat/alternierende Obhut: je min(Anteil; 12'650 / 12'900) → Code 376
-- **Limite (Kanton / Bund):** Maximum pro Kind (CHF): CHF 25'300 / CHF 25'800 · Altersgrenze Kind: 14 / 14 Jahre
+- **Limite (Kanton / Bund):** Maximum pro Kind (CHF): CHF 25'300 / CHF 25'800 · Altersgrenze Kind: 14 Jahre / 14 Jahre
 - **Beachten:** Nur Kosten während Arbeits-/Ausbildungszeit; Ehepaare: beide gleichzeitig erwerbstätig/in Ausbildung/erwerbsunfähig
 - **Beachten:** Nur pauschal ausgewiesene Betreuungskosten: 20% als Lebenshaltungskosten kürzen
 - **Beachten:** Nicht abziehbar: Sport, Musik, Vereine, Schulgeld, Nachhilfe; bei Ferienbetreuung Reise/Verpflegung/Übernachtung

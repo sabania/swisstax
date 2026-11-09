@@ -317,7 +317,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2026.yaml (2026-11-09)
 <a id="drittbetreuung-altersgrenze"></a>
 ### Kinderdrittbetreuung – Altersgrenze Kind
 
-- **Wert:** 14 (Kind hat das 14. Altersjahr noch nicht vollendet, lebt im gleichen Haushalt wie die für den Unterhalt sorgende Person; Kosten im direkten kausalen Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit.)
+- **Wert:** 14 Jahre (Kind hat das 14. Altersjahr noch nicht vollendet, lebt im gleichen Haushalt wie die für den Unterhalt sorgende Person; Kosten im direkten kausalen Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit.)
 - **Schlüssel:** `drittbetreuung.altersgrenze` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 31 Abs. 1 lit. j StG
 - **Quellen:**
@@ -489,7 +489,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2026.yaml (2026-11-09)
   - [StG ZH § 34](../../chunks/zh/2026/zh-stg-2026/zh-stg-2026__par-34.md) `zh-stg-2026__par-34` – «volljährige Kinder, die in der beruflichen Erstausbildung stehen und deren Unterhalt der Steuerpflichtige zur Hauptsache bestreitet, je Fr. 9400»
 
 <a id="sozialabzug-kind-ausbildung-auswaerts"></a>
-### Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+### Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)
 
 - **Wert:** n/a – Aus dem Gesetzestext (§ 34 StG) ohne Sonderregel abgeleitet.
 - **Schlüssel:** `sozialabzug.kind_ausbildung_auswaerts` · **gilt für:** kanton · **Status:** – na

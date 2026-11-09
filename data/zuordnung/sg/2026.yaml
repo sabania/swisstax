@@ -1030,15 +1030,17 @@ positionen:
     zitat: gelten als Schuldentilgung und sind daher nicht
   - chunk: bund-wl-2a-2026__c0051
     zitat: Den Alimenten gleichgesetzt sind Naturalleistungen wie Miete,
+  - chunk: sg-stv__art-15
+    zitat: gelten ausschliesslich die laufenden Beiträge
   status: agent-geprueft
   rein:
   - Scheidungsurteil/Trennungsvereinbarung → vereinbarter Unterhaltsbeitrag (bei erstmaliger Zahlung beilegen)
   - Zahlungsnachweise (Bank) → 2026 bezahlte Beiträge (Aufstellung)
-  berechnung: 'Σ 2026 bezahlte Unterhaltsbeiträge an geschiedenen bzw. gerichtlich/tatsächlich getrennt lebenden Ehegatten (Kanton = Bund; Bund: ohne Kapitalabfindung)'
+  berechnung: Σ 2026 bezahlte Unterhaltsbeiträge an geschiedenen bzw. gerichtlich/tatsächlich getrennt lebenden Ehegatten (Kanton = Bund; ohne Kapitalabfindung)
   beachten:
   - 'Gegenstück: beim Empfänger steuerbar (Ziff. 6.1, Code 154; Art. 36 Bst. f StG)'
   - 'Nicht abziehbar: Leistungen aus anderen familienrechtlichen Unterhalts-/Unterstützungspflichten'
-  - 'Bund: Kapitalabfindung = Schuldentilgung, nicht abziehbar; Naturalleistungen (Miete, KK-Prämien) = Alimente'
+  - 'Nur periodische/laufende Beiträge: Kapitalabfindung gilt als Schuldentilgung, nicht abziehbar (WL 2a 2026); SG: StV Art. 15 – als Unterhaltsbeiträge gelten ausschliesslich die laufenden Beiträge (Empfängerseite); Naturalleistungen (Miete, KK-Prämien) = Alimente (WL 2a 2026)'
 - ziffer: '12.2'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (Code 202)

@@ -49,4 +49,5 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 ## Quellen
 
 - [DBG Art. 34](../../chunks/bund/2025/bund-dbg-2025/bund-dbg-2025__art-34.md) `bund-dbg-2025__art-34` – «die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie»
+- [DBG Art. 34](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-34.md) `bund-dbg-2026__art-34` – «die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie»
 - [WL AR 2025 S. 31](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0170.md) `ar-wl-2025__c0170` – «Diese Kosten gelten als nicht abzugsfähige Lebenshaltungskosten.»

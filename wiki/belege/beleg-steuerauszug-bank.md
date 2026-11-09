@@ -47,8 +47,8 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 
 ## Hinweise
 
-- Der Steuerauszug ersetzt Einzelauszüge der Bank für Konti und Depots; bei Papiereinreichung ist er vollständig beizulegen (nicht nur die Zusammenfassung).
-- Der eSteuerauszug kann in die Online-Steuererklärung importiert werden; die Werte werden danach mit der aktuellen Kursliste geprüft; fehlende Positionen (andere Banken, Kryptowerte, Darlehen) sind zu ergänzen.
+- Der Steuerauszug fasst die Konti und Depots der Bank per 31.12. zusammen. Ob und wie vollständig er beizulegen ist, regelt der Kanton: meist dann, wenn Totale aus dem Steuerauszug übertragen werden oder darauf verwiesen wird (AR, TG, ZH); in SG auf Papier immer komplett. Siehe Einreichen bzw. Kantonsangabe.
+- Der eSteuerauszug kann in die Online-Steuererklärung importiert werden; anschliessend können die Werte mit der aktuellen Kursliste neu bewertet bzw. fehlende Werte ergänzt werden (WL ZH; Import auch in E-Tax SG, WL SG).
 - Bei Veräusserung/Erwerb von Titeln im Jahr: Datum angeben und Bankbelege beilegen; Bruttoerträge verkaufter/rückbezahlter Titel sind ebenfalls zu deklarieren.
 - Vermögen und Ertrag von minderjährigen Kindern (Jahrgang 2008 und jünger bei ZH) gehören in die Steuererklärung der Eltern; Ansprüche an 2. Säule/3a sind bis zur Fälligkeit steuerfrei und nicht aufzuführen.
 
@@ -57,6 +57,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - **SG:** Steuerauszüge sind bei Papiereinreichung immer komplett dem Formular 2 beizulegen, auch wenn in E-Tax SG importiert; bei vollständigem eFiling erfolgt die Übermittlung automatisch (WL SG 2025 Formular 2 Beilagen).
 - **AR:** Werden die Gesamtbeträge der Steuerauszüge in Formular 2 übertragen, sind die Auszüge vollständig beizulegen (WL AR 2025 Formular 2 Beilagen).
 - **ZH:** eSteuerauszug (Barcode) kann in die Online-Steuererklärung importiert werden (WL ZH 2025 Wertschriftenverzeichnis).
+- **TG:** Steuerauszüge sind einzureichen, wenn die Titel im Wertschriften- und Guthabenverzeichnis nicht einzeln, sondern als Total deklariert werden (WL TG 2025 S. 10); sie bilden dann Bestandteil des Verrechnungssteuerantrags (WL TG 2025 S. 35).
 
 ## Quellen
 
@@ -65,3 +66,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - [WL ZH 2025 S. 24](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0153.md) `zh-wl-2025__c0153` – «Sie können diesen eSteuerauszug in die Online-»
 - [WL ZH 2025 S. 24](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0156.md) `zh-wl-2025__c0156` – «Für steuerliche Zwecke eignen sich die von den Banken – auf Wunsch des Kunden – erstellten»
 - [WL ZH 2025 S. 24](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0155.md) `zh-wl-2025__c0155` – «entweder in der Kolonne A oder Kolonne B einzutragen»
+- [WL TG 2025 S. 10](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0036.md) `tg-wl-2025__c0036` – «benverzeichnis nicht einzeln, sondern als Total unter Erträge und Steuerwert deklariert haben»
+- [WL TG 2025 S. 35](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0168.md) `tg-wl-2025__c0168` – «Steuerauszüge von Banken, die anstelle von detaillierten Angaben im Formular 2 eingereicht»
+- [WL ZH 2025 S. 27](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0173.md) `zh-wl-2025__c0173` – «Liegen die detaillierten Steuerverzeichnisse bzw. Steuerbewertungen bei, auf welche im»
+- [WL SG 2025 S. 36](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0122.md) `sg-wl-2025__c0122` – «Dies gilt auch für mit E-Tax SG importierte»

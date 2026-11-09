@@ -137,12 +137,13 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 <a id="berufskosten-uebrige-satz"></a>
 ### Übrige Berufskosten – Pauschale in % des Nettolohns
 
-- **Wert:** 3 % (Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen)
+- **Wert:** 3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300 gemäss DBG 2025; WL 2a 2025 nennt 3'200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)
 - **Schlüssel:** `berufskosten.uebrige.satz` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
-- **Rechtsgrundlage:** Art. 26 Abs. 2 DBG; Art. 7 BKV; Anhang Ziff. 1 BKV
+- **Rechtsgrundlage:** Art. 26 Abs. 1 lit. c, Abs. 2 DBG; Art. 4 und 7 BKV; Anhang Ziff. 1 BKV
 - **Quellen:**
   - [BKV Anhang](../../chunks/bund/2025/bund-bkv-2025/bund-bkv-2025__anhang-1.md) `bund-bkv-2025__anhang-1` – «3 % des Nettolohns, mindestens im Jahr | 2000.—»
   - [BKV Art. 7](../../chunks/bund/2025/bund-bkv-2025/bund-bkv-2025__art-7.md) `bund-bkv-2025__art-7` – «Der Pauschalabzug ist angemessen zu kürzen, wenn die unselbständige Erwerbstätigkeit bloss während eines Teils des Jahres oder als Teilzeitarbeit ausgeübt wird.»
+  - [DBG Art. 26](../../chunks/bund/2025/bund-dbg-2025/bund-dbg-2025__art-26.md) `bund-dbg-2025__art-26` – «im Fall von Absatz 1 Buchstabe c steht der steuerpflichtigen Person der Nachweis höherer Kosten offen»
 
 <a id="berufskosten-uebrige-fix"></a>
 ### Übrige Berufskosten – fixer Pauschalbetrag (CHF), falls Formel «fix + %»
@@ -489,7 +490,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
   - [DBG Art. 35](../../chunks/bund/2025/bund-dbg-2025/bund-dbg-2025__art-35.md) `bund-dbg-2025__art-35` – «6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind»
 
 <a id="sozialabzug-kind-ausbildung-auswaerts"></a>
-### Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+### Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)
 
 - **Wert:** n/a – Bund: gleicher Kinderabzug CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).
 - **Schlüssel:** `sozialabzug.kind_ausbildung_auswaerts` · **gilt für:** bund · **Status:** – na
@@ -731,3 +732,15 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 - **Wert:** n/a – DBG kennt Verzugs-, Rückerstattungs- und Vergütungszins; der Rückerstattungszins entspricht 2025 dem Verzugszins (4.50 %, RS 2-215, Spalte 2025).
 - **Schlüssel:** `bezug.ausgleichszins` · **gilt für:** bund · **Status:** – na
 - **Bemerkung:** DBG kennt Verzugs-, Rückerstattungs- und Vergütungszins; der Rückerstattungszins entspricht 2025 dem Verzugszins (4.50 %, RS 2-215, Spalte 2025).
+
+## Weitere
+
+<a id="geldspiele-einsatzkosten-max"></a>
+### Einsatzkosten Geldspielgewinne – Maximum je Gewinn (CHF)
+
+- **Wert:** CHF 5'400 (Einsatzkosten: 5 % der einzelnen steuerbaren Geldspielgewinne, höchstens CHF 5'400 je Gewinn (Online-Spielbankenspiele: abgebuchte Einsätze, höchstens CHF 26'800))
+- **Schlüssel:** `geldspiele.einsatzkosten_max` · **gilt für:** bund · **Status:** 🟡 extrahiert
+- **Rechtsgrundlage:** Art. 33 Abs. 4 DBG i.V.m. Art. 3 Abs. 6 VKP
+- **Quellen:**
+  - [VKP Art. 3](../../chunks/bund/2025/bund-vkp-2025/bund-vkp-2025__art-3-t4.md) `bund-vkp-2025__art-3-t4` – «werden 5 Prozent, jedoch höchstens 5400 Franken, als Einsatzkosten abgezogen»
+  - [VKP Art. 3](../../chunks/bund/2025/bund-vkp-2025/bund-vkp-2025__art-3-t4.md) `bund-vkp-2025__art-3-t4` – «jedoch höchstens 26 800 Franken abgezogen»

@@ -11,6 +11,8 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 
 > Kompaktansicht: [quick/zuordnung-zh-2025.md](../../quick/zuordnung-zh-2025.md) · Formular: Steuererklärung 2025 Kanton Zürich (StA Form. 300, Hauptformular) + Hilfsblätter Form. 340 (Wertschriften- und Guthabenverzeichnis), 350 (Liegenschaftenverzeichnis), 355 (Schuldenverzeichnis), 360 (Berufsauslagen), 365 (Versicherungsprämien), 367 (Aus- und Weiterbildungskosten), 370 (Krankheits-/Unfallkosten, behinderungsbedingte Kosten) · Quelle der Wahrheit: `data/zuordnung/zh/2025.yaml`
 
+> **Hinweis:** Codes bezeichnen Zeilen, nicht Spalten. Hauptformular und Form. 365: ein Code je Zeile für beide Spalten. Form. 360: derselbe Code in beiden Spalten (z.B. 206); Person 2 hat eigene Codes (226 usw.). Ein Codepaar «X/Y» heisst je nach Blatt Person 1/Person 2 (Form. 360 206/226; Form. 367: Spalten Person 1/Person 2, 2900/2903) oder Staat/Bund (Form. 365: 614 Staat 1’300 / 615 Bund 700) – massgebend ist die Bezeichnung der Position. Belege: zh-form-360-2025__c0003 «Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 206 3211 206» («3211» = Layoutartefakt der Eingabefelder, kein Code; Spaltenlage per raw/zh/2025/zh-form-360-2025.pdf S. 1 geprüft); zh-form-360-2025__c0008 «Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 226»; zh-form-365-2025__c0002 «Zusätzlicher Abzug für jede unterstützungsbed. Person Anzahl: 700 615»; zh-form-367-2025__c0001 «Bezeichnung Person 1 Person 2».
+
 ## Einkünfte
 
 <a id="1-1-einkommen-unselbstaendig-haupterwerb"></a>
@@ -494,14 +496,14 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Schlüssel:** `berechnung.total` (Berechnungs-/Totalzeilen (Nettoeinkommen, Reineinkommen, steuerbares Einkommen/Vermögen, Totale)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Formular 360 Ziff. 6 «Total der Berufsauslagen» (Staats- und Bundessteuer getrennte Spalten)
 - **Rein:** Form. 360 «Berufsauslagen» je Person → Ziff. 6 Total: P1 Code 220 → Ziff. 11.1, P2 Code 240 → Ziff. 11.2 · Lohnausweis → Ziff. 11 Nettolohn (Basis Pauschale), Felder F/G, Spesen · ÖV-Abo, km-Nachweis/Begründung Auto, Arbeitstage, Mietvertrag Zimmer (Wochenaufenthalt)
-- **Rechnen:** Fahrkosten 205 (max. Kanton 5’200 / Bund 3’300) + Verpflegung 206/208/210 + übrige 212|213 + Wochenaufenthalt 2860 + Nebenerwerb 216|217 = 220 (P2: 240)
+- **Rechnen:** Fahrkosten 201 Abo + 202 Velo + 204 Auto/Motorrad = Zwischentotal 205 (max. Kanton 5’200 / Bund 3’300) + Verpflegung 206/208/210 + übrige 212|213 + Wochenaufenthalt 2860 + Nebenerwerb 216|217 = 220 → Ziff. 11.1; P2: 221 + 222 + 224 = 225 … = 240 → Ziff. 11.2; bei Auto/Motorrad (weisses Kontrollschild) Begründung Ziff. 7 ankreuzen (P1 2041–2044 / P2 2241–2244)
 - **Regel:** Pro Person Formular «Berufsauslagen» (Form. 360) ausfüllen und beilegen; Total in Ziff. 11.1/11.2 übertragen. Staats- und Bundessteuer-Spalte können abweichen (Fahrkosten-Plafond). Vom Arbeitgeber vergütete Berufsauslagen sind nicht abziehbar.
 - **Beachten:** Vom Arbeitgeber vergütete Auslagen nicht abziehbar; mit Geschäftsfahrzeug keine Fahrkosten.
 - **Beachten:** Auto 70 Rp./km nur ausnahmsweise (kein ÖV, > 1 Std. Zeitersparnis, AG-Verlangen, Krankheit): Begründung Ziff. 7.
 - **Beachten:** Übrige Kosten pauschal 3 % Nettolohn (min. 2’000, max. 4’000) bzw. effektiv mit vollem Nachweis.
 - **Limiten:**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 5'200 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten, bei der Staatssteuer höchstens CHF 5'200 pro Jahr (inkl. Fahrkosten bei auswärtigem Wochenaufenthalt).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Person und Jahr (Steuerjahr 2025))**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Übrige Berufsauslagen (Berufskleider, Werkzeuge inkl. EDV, Fachliteratur, privates Arbeitszimmer, Berufsverbandsbeiträge): 3 % des Nettolohns, mind. CHF 2'000, höchstens CHF 4'000. Nachweis höherer Kosten möglich (volle Belegpflicht).)** · Bund **3 % (Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Übrige Berufsauslagen (Berufskleider, Werkzeuge inkl. EDV, Fachliteratur, privates Arbeitszimmer, Berufsverbandsbeiträge): 3 % des Nettolohns, mind. CHF 2'000, höchstens CHF 4'000. Nachweis höherer Kosten möglich (volle Belegpflicht).)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300 gemäss DBG 2025; WL 2a 2025 nennt 3'200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **CHF 2'000 (Minimum der Pauschale für übrige Berufsauslagen: CHF 2'000.)** · Bund **CHF 2'000 (Minimum der Pauschale übrige Berufskosten)**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 4'000 (Maximum der Pauschale für übrige Berufsauslagen: CHF 4'000.)** · Bund **CHF 4'000 (Maximum der Pauschale übrige Berufskosten)**
   - Fahrkosten Auto – Ansatz pro km (CHF): Kanton **CHF 0.70 (Privatauto nur ausnahmsweise (kein öV, Zeitersparnis über 1 Std., Einsatz auf Verlangen des Arbeitgebers, Krankheit/Gebrechlichkeit): CHF 0.70 pro Fahrkilometer.)** · Bund **CHF 0.70 (Privatauto: Abzug pro Fahrkilometer CHF 0.70, nur wenn kein öffentliches Verkehrsmittel verfügbar/zumutbar (Steuerjahr 2025))**
@@ -526,6 +528,8 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [WL ZH 2025 S. 13](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0064.md) `zh-wl-2025__c0064` – «Die Kosten für das private Motorfahrzeug können nur ausnahmsweise geltend gemacht»
   - [Formular 360 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0005.md) `zh-form-360-2025__c0005` – «Zeitersparnis von über 1 Stunde bei Benützung des privaten Motorfahrzeuges   2042»
   - [WL ZH 2025 S. 10](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0032.md) `zh-wl-2025__c0032` – «Kantinenverpflegung / Lunch-Checks»
+  - [Formular 360 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0002.md) `zh-form-360-2025__c0002` – «Zwischentotal   205  3211»
+  - [Formular 360 ZH 2025 S. 2](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0007.md) `zh-form-360-2025__c0007` – «Zwischentotal   225  3211»
 
 <a id="12-abzug-schuldzinsen"></a>
 ### Ziff. 12 – Schuldzinsen (Code 250)
@@ -555,11 +559,11 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 
 - **Schlüssel:** `abzug.unterhaltsbeitraege` (Bezahlte Unterhaltsbeiträge (Alimente) und Renten) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Unterhaltsvereinbarung / Scheidungsurteil / Zahlungsnachweis Alimente (bezahlte und erhaltene Unterhaltsbeiträge) → Scheidungs-/Trennungsurteil + Zahlungsnachweise (Jahressumme)
-- **Rein:** Scheidungs-/Trennungsurteil bzw. Vereinbarung → Unterhalt für den Ehegatten persönlich · Bank-/Zahlungsbelege → Σ 2025 effektiv bezahlte Beiträge (alle Nachweise einreichen)
+- **Rein:** Scheidungs-/Trennungsurteil bzw. Vereinbarung → Unterhalt für den Ehegatten persönlich · Bank-/Zahlungsbelege → Σ 2025 effektiv bezahlte Beiträge (Einreichung auf Verlangen; im Zweifel beilegen, vgl. Formularhinweis unter Ziff. 13.3)
 - **Rechnen:** Σ 2025 bezahlte periodische Unterhaltsbeiträge an geschiedenen/getrennten Ehegatten → voll (Code 254; Kanton = Bund)
-- **Regel:** Für den Ehegatten persönlich bestimmte Beiträge voll abziehbar; sämtliche Zahlungsnachweise einreichen. Der Empfänger deklariert sie in Ziff. 5.1.
+- **Regel:** Für den Ehegatten persönlich bestimmte Beiträge voll abziehbar. Zahlungsnachweise: Die WL nennt für 13.1/13.2 keine Beilagepflicht (Belege nur, wenn ausdrücklich verlangt). Der Formularhinweis «sämtliche Zahlungsnachweise» steht unter Ziff. 13.3 und wird in der WL auf Leibrenten/Verpfründungen bezogen. Der Bezug auf 13.1/13.2 ist nicht eindeutig (raw/zh/2025/zh-form-300-2025.pdf S. 3) → Nachweise auf Verlangen, im Zweifel beilegen, Fachperson entscheidet. Der Empfänger deklariert die Beiträge in Ziff. 5.1.
 - **Beachten:** Empfänger versteuert sie in Ziff. 5.1 (Korrespondenzprinzip)
-- **Beachten:** Bund: Kapitalabfindung nicht abziehbar; Naturalleistungen (Miete, KK-Prämien, Schuldzinsen) gleichgestellt
+- **Beachten:** Nur periodische Beiträge: Kapitalabfindung gilt als Schuldentilgung, nicht abziehbar; Naturalleistungen (Miete, KK-Prämien, Schuldzinsen) gleichgestellt. Fundstelle nur Bundespraxis (KS 30 Ziff. 14.1.2, WL 2a); WL ZH 2025 äussert sich nicht, eine ZH-Abweichung ist nicht belegt.
 - **Quellen:**
   - [Formular 300 ZH 2025 S. 3](../../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0007.md) `zh-form-300-2025__c0007` – «13.1 Unterhaltsbeiträge an den geschiedenen oder getrennt lebenden Ehegatten / Partn. 254»
   - [WL ZH 2025 S. 14](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0075.md) `zh-wl-2025__c0075` – «Ehegatten persönlich bestimmt sind, können voll abgezogen werden.»
@@ -568,13 +572,16 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [KS 30 S. 30–31](../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0095.md) `bund-ks-30__c0095` – «Infolgedessen kann der als Kapitalleistung gezahlte Betrag zum Unterhalt des»
   - [WL 2a 2025 S. 7](../../chunks/bund/2025/bund-wl-2a-2025/bund-wl-2a-2025__c0051.md) `bund-wl-2a-2025__c0051` – «Den Alimenten gleichgesetzt sind Naturalleistungen wie Miete,»
   - [WL 2a 2025 S. 7](../../chunks/bund/2025/bund-wl-2a-2025/bund-wl-2a-2025__c0051.md) `bund-wl-2a-2025__c0051` – «Unterhaltsbeiträge, die in Form einer Kapitalabfindung erbracht»
+  - [Formular 300 ZH 2025 S. 3](../../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0007.md) `zh-form-300-2025__c0007` – «Mit der Steuererklärung 2025 sind sämtliche Zahlungsnachweise einzureichen.»
+  - [WL ZH 2025 S. 15](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0080.md) `zh-wl-2025__c0080` – «Leibrenten und Verpfründungen einzureichen (insbesondere Leibrenten- bzw.»
+  - [WL ZH 2025 S. 32](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0207.md) `zh-wl-2025__c0207` – «Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.»
 
 <a id="13-2-abzug-unterhaltsbeitraege"></a>
 ### Ziff. 13.2 – Unterhaltsbeiträge für minderjährige Kinder (Code 255)
 
 - **Schlüssel:** `abzug.unterhaltsbeitraege` (Bezahlte Unterhaltsbeiträge (Alimente) und Renten) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Unterhaltsvereinbarung / Scheidungsurteil / Zahlungsnachweis Alimente (bezahlte und erhaltene Unterhaltsbeiträge) → Urteil/Vereinbarung + Zahlungsnachweise bis und mit Monat des 18. Geburtstags
-- **Rein:** Urteil/Unterhaltsvertrag → Kinderalimente je Kind · Zahlungsbelege mit Monatszuordnung → bezahlt bis und mit Monat des 18. Geburtstags
+- **Rein:** Urteil/Unterhaltsvertrag → Kinderalimente je Kind · Zahlungsbelege mit Monatszuordnung → bezahlt bis und mit Monat des 18. Geburtstags (Einreichung auf Verlangen; im Zweifel beilegen, vgl. Formularhinweis unter Ziff. 13.3)
 - **Rechnen:** Σ bezahlte Kinderalimente je Kind bis und mit dem Monat, in dem das Kind 18 wird (Code 255; Kanton = Bund)
 - **Regel:** Abziehbar bis und mit dem Monat der Volljährigkeit; danach steht dem Zahlenden stattdessen der Kinderabzug zu (Ziff. 24.1). Spätere Zahlungen nicht mehr abziehbar.
 - **Beachten:** Ab Folgemonat kein Abzug; stattdessen Kinderabzug Ziff. 24.1 (Erstausbildung, Unterhalt zur Hauptsache)
@@ -589,6 +596,9 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [WL ZH 2025 S. 20](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0129.md) `zh-wl-2025__c0129` – «können Sie keinen Kinderabzug geltend machen;»
   - [KS 30 S. 32](../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0100.md) `bund-ks-30__c0100` – «jedoch nicht für freiwillig erbrachte Alimente»
   - [KS 30 S. 32](../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0100.md) `bund-ks-30__c0100` – «müssen sie effek- tiv bezahlt worden sein.»
+  - [Formular 300 ZH 2025 S. 3](../../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0007.md) `zh-form-300-2025__c0007` – «Mit der Steuererklärung 2025 sind sämtliche Zahlungsnachweise einzureichen.»
+  - [WL ZH 2025 S. 15](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0080.md) `zh-wl-2025__c0080` – «Leibrenten und Verpfründungen einzureichen (insbesondere Leibrenten- bzw.»
+  - [WL ZH 2025 S. 32](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0207.md) `zh-wl-2025__c0207` – «Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.»
 
 <a id="13-3-abzug-uebrige"></a>
 ### Ziff. 13.3 – Rentenleistungen / dauernde Lasten, abzugsfähig: Ertragsanteil (Code 256)
@@ -734,22 +744,24 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Schlüssel:** `abzug.weiterbildung` (Berufsorientierte Aus- und Weiterbildungskosten) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Rechnungen und Belege Aus- und Weiterbildung (Kurse, Lehrgänge, Umschulung, Prüfungsgebühren) → Formular 367 (selbstgetragene Kosten nach Abzug Arbeitgeberbeitrag) + Kursrechnungen / Zahlungsnachweise
 - **Rein:** Kursrechnungen + Zahlungsbelege → Total der Kosten (Form. 367 Code 2900/2903) · Bestätigung Arbeitgeber/Dritte bzw. Lohnausweis Ziff. 13.3 → Beiträge Dritter (Code 2901/2904)
-- **Rechnen:** je Person: min(selbstgetragene Kosten 2902/2905 = Kosten − Beiträge Dritter; Kanton 12’400 / Bund 13’000) → 2920/2921; Summe → Code 292
+- **Rechnen:** je Person (Spalten Person 1 / Person 2): 2902/2905 = 2900/2903 − 2901/2904; zulässiger Abzug 2920 (Person 1) / 2921 (Person 2) = min(selbstgetragen; Block Staatssteuer 12’400 bzw. Block Bundessteuer 13’000); je Block 292 = 2920 + 2921
 - **Regel:** Selbst getragene Kosten (nach Abzug Beiträge Dritter, z. B. Arbeitgeber/Bund) bis max. CHF 12’400 (Staat) bzw. CHF 13’000 (Bund), sofern Abschluss Sek. II vorliegt oder 20. Altersjahr vollendet und nicht Ausbildung bis zum ersten Sek.-II-Abschluss. Massgebend ist Fälligkeit/Zahlung, nicht der Kursbesuch. Lohnausweis Ziff. 13.3 beachten.
 - **Beachten:** Nur mit Abschluss Sek. II oder ab vollendetem 20. Lebensjahr; nicht Ausbildung bis zum ersten Sek.-II-Abschluss
 - **Beachten:** Zeitpunkt: Fälligkeit bzw. Zahlung, nicht der Kursbesuch
 - **Beachten:** Formular 367 vollständig ausgefüllt beilegen
+- **Beachten:** Codes 2920/2921 = Person 1 / Person 2 (nicht Staat/Bund); Staats- und Bundessteuer stehen in getrennten Blöcken mit denselben Codes
 - **Limiten:**
   - Aus- und Weiterbildungskosten – Maximum (CHF): Kanton **CHF 12'400 (Berufsorientierte Aus- und Weiterbildung inkl. Umschulung, selbst getragene Kosten: max. CHF 12'400 (Staatssteuer), sofern Abschluss Sek. II vorliegt oder 20. Lebensjahr vollendet (und nicht Ausbildung bis zum ersten Sek.-II-Abschluss).)** · Bund **CHF 13'000 (Berufsorientierte Aus- und Weiterbildung inkl. Umschulung bis CHF 13'000 (erster Abschluss Sek II oder 20. Lebensjahr vollendet))**
-- **Bund:** Bund: max. CHF 13’000 (Bundessteuer-Spalte, Form. 367 Code 2921/292).
+- **Bund:** Bund: max. CHF 13’000 je Person (Form. 367 Block «Bundessteuer»: 2920 = Person 1, 2921 = Person 2; 2920 + 2921 → Code 292 in der Bundessteuer-Spalte Ziff. 16.2). (Layout: raw/zh/2025/zh-form-367-2025.pdf S. 1)
 - **Quellen:**
   - [Formular 300 ZH 2025 S. 3](../../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0008.md) `zh-form-300-2025__c0008` – «16.2 Berufsorientierte Aus- und Weiterbildungskosten Hilfsblatt 292»
   - [WL ZH 2025 S. 16](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0093.md) `zh-wl-2025__c0093` – «betrag von CHF 12’400 bei der Staatssteuer bzw. CHF 13’000 bei der Bundessteuer, sofern ein»
   - [StG ZH § 31](../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-31-t4.md) `zh-stg-2025__par-31-t4` – «die Kosten der berufsorientierten Aus- und Weiterbildung, einschliesslich Umschulungskosten, bis zum Gesamtbetrag von Fr. 12 400»
   - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Beitrag Arbeitgeber oder weiterer Stellen (Bund, Branchenverbände etc.)»
-  - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Zulässiger Abzug (max. je CHF 13’000)»
+  - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Zulässiger Abzug (max. je CHF 13’000) 2920 / 2921»
   - [KS 42 S. 9](../../chunks/bund/dauernd/bund-ks-42/bund-ks-42__c0025.md) `bund-ks-42__c0025` – «bescheinigt der Arbeitgeber diese Vergütung im Lohnausweis in Ziffer 13.3»
-  - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Zulässiger Abzug (max. je CHF 12’400)»
+  - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Zulässiger Abzug (max. je CHF 12’400) 2920 / 2921»
+  - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Bezeichnung Person 1 Person 2»
 
 <a id="16-3-abzug-verwaltungskosten-wertschriften"></a>
 ### Ziff. 16.3 – Kosten für die Verwaltung des beweglichen Privatvermögens (Code 283)
@@ -1599,7 +1611,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 ## Hilfsblatt Berufskosten (Form. 360)
 
 <a id="form-360-ziff-1-1-abzug-berufskosten-fahrkosten"></a>
-### Ziff. Form. 360 Ziff. 1.1 – Abonnementkosten öffentliche Verkehrsmittel (Code 201 / Person 2: 221)
+### Ziff. Form. 360 Ziff. 1.1 – Abonnementkosten öffentliche Verkehrsmittel (Code 201 Person 1 / 221 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** ÖV-Abonnement (GA, Streckenabo, Verbundabo, Halbtax nur ergänzend) – Arbeitsweg → ÖV-Abo-Beleg (Jahreskosten, Wohn- und Arbeitsort); Lohnausweis Feld F
@@ -1623,7 +1635,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [BKV Art. 9](../../chunks/bund/2025/bund-bkv-2025/bund-bkv-2025__art-9.md) `bund-bkv-2025__art-9` – «Sie sind bis zum Maximalbetrag nach Artikel 5 Absatz 1 abziehbar.»
 
 <a id="form-360-ziff-1-2-abzug-berufskosten-fahrkosten"></a>
-### Ziff. Form. 360 Ziff. 1.2 – Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700 (Code 202 / 222)
+### Ziff. Form. 360 Ziff. 1.2 – Fahrrad, Kleinmotorrad (gelbes Kontrollschild) pauschal CHF 700 (Code 202 Person 1 / 222 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → –
@@ -1641,7 +1653,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [LS 631.33 (bis 2025) S. 1](../../chunks/zh/2025/zh-pauschalierung-berufsauslagen-2025/zh-pauschalierung-berufsauslagen-2025__c0001.md) `zh-pauschalierung-berufsauslagen-2025__c0001` – «b. bei ständiger Benützung eines Fahrrades,»
 
 <a id="form-360-ziff-1-3-abzug-berufskosten-fahrkosten"></a>
-### Ziff. Form. 360 Ziff. 1.3 – Auto / Motorrad (weisses Kontrollschild), CHF –.70 bzw. –.40 pro km (Code 204 / 224; Zwischentotal 205 / 225)
+### Ziff. Form. 360 Ziff. 1.3 – Auto / Motorrad (weisses Kontrollschild), CHF –.70 bzw. –.40 pro km (Code 204 Person 1 / 224 Person 2; Zwischentotal 205 Person 1 / 225 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Fahrzeugausweis (Fahrzeugschein) / Kontrollschild-Nachweis, Fahrtenaufstellung für Auto oder Motorrad auf dem Arbeitsweg → Fahrzeugausweis, Arbeitsort, Arbeitstage, km pro Fahrt; Begründung Ziff. 7 (Code 2041–2044)
@@ -1671,7 +1683,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [Formular 360 ZH 2025 S. 2](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0007.md) `zh-form-360-2025__c0007` – «Zwischentotal 225 3211 225 3211»
 
 <a id="form-360-ziff-7-abzug-berufskosten-fahrkosten"></a>
-### Ziff. Form. 360 Ziff. 7 – Begründung für Benützung eines privaten Motorfahrzeugs (Code 2041–2044 / 2241–2244); Geschäftsfahrzeug
+### Ziff. Form. 360 Ziff. 7 – Begründung private Motorfahrzeugbenützung ankreuzen: 2041 Fehlen ÖV, 2042 Zeitersparnis über 1 Std., 2043 ständige Benützung während der Arbeitszeit auf Verlangen und gegen Entschädigung des AG, 2044 Krankheit/Gebrechlichkeit (Arztzeugnis) (Person 2: 2241–2244); Geschäftsfahrzeug
 
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Fahrzeugausweis (Fahrzeugschein) / Kontrollschild-Nachweis, Fahrtenaufstellung für Auto oder Motorrad auf dem Arbeitsweg → Arbeitgeberbestätigung / Arztzeugnis; Lohnausweis Feld F bei Geschäftsfahrzeug
@@ -1682,6 +1694,8 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Beachten:** Unentgeltliches Geschäftsfahrzeug mit pauschaler Fahrkostenberechnung (ZStB 17.1): kein Fahrkostenabzug
 - **Quellen:**
   - [Formular 360 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0005.md) `zh-form-360-2025__c0005` – «Fehlen eines öffentlichen Verkehrsmittels (siehe Wegleitung) 2041»
+  - [Formular 360 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0005.md) `zh-form-360-2025__c0005` – «Zeitersparnis von über 1 Stunde bei Benützung des privaten Motorfahrzeuges   2042»
+  - [Formular 360 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0005.md) `zh-form-360-2025__c0005` – «Ständige Benützung während der Arbeitszeit auf Verlangen und gegen Entschädigung des Arbeitgebers   2043»
   - [Formular 360 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0005.md) `zh-form-360-2025__c0005` – «Arbeitnehmende, die über ein Geschäftsfahrzeug verfügen, können keine Fahrkosten in Abzug bringen.»
   - [Formular 360 ZH 2025 S. 2](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0010.md) `zh-form-360-2025__c0010` – «Fehlen eines öffentlichen Verkehrsmittels (siehe Wegleitung) 2241»
   - [WL ZH 2025 S. 13](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0064.md) `zh-wl-2025__c0064` – «nächsten Haltestelle mindestens 1 km entfernt ist oder bei Arbeitsbeginn oder -ende kein»
@@ -1691,11 +1705,12 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [WL ZH 2025 S. 13](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0064.md) `zh-wl-2025__c0064` – «auf Verlangen und gegen Entschädigung des Arbeitgebers das private Motorfahrzeug tatsächlich ständig während der Arbeitszeit benützt»
 
 <a id="form-360-ziff-2-1-verbilligt-abzug-berufskosten-verpflegung"></a>
-### Ziff. Form. 360 Ziff. 2.1 (verbilligt) – Mehrkosten Verpflegung bei verbilligter Verpflegung (Kantine, Lunch-Checks): CHF 7.50/Tag, max. CHF 1’600/Jahr (Code 206 / 226)
+### Ziff. Form. 360 Ziff. 2.1 (verbilligt) – Mehrkosten Verpflegung bei verbilligter Verpflegung (Kantine, Lunch-Checks): CHF 7.50/Tag, max. CHF 1’600/Jahr (Code 206 Person 1 / 226 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Spesenreglement des Arbeitgebers (genehmigtes Spesenreglement, Spesenabrechnung, Pauschalspesen) → Lohnausweis Feld G (Kantine/Lunch-Checks); Arbeitstage am Arbeitsort
 - **Rein:** Lohnausweis → Feld G (Kantinenverpflegung/Lunch-Checks) angekreuzt · Arbeitszeitnachweis → Anzahl Arbeitstage mit auswärtiger Verpflegung
+- **Rechnen:** min(Arbeitstage × 7.50; 1’600) → Code 206 (Person 2: Code 226), Spalte Staatssteuer und Bundessteuer; Regelfall Kantine/Lunch-Checks: Kanton = Bund (Ausnahmen Bund nach BKV Art. 6 Abs. 2/3, s. beachten: Barbeitrag beim Bund kein halber Abzug, kein Abzug unter Naturalbezugsansätzen)
 - **Regel:** Wenn die Verpflegung vom Arbeitgeber verbilligt wird (Kantine, Personalrestaurant, Barbeitrag, Essensgutscheine) und trotzdem Mehrkosten entstehen: CHF 7.50 pro Arbeitstag, bei ständiger auswärtiger Verpflegung max. CHF 1’600 pro Jahr. Nur wenn die Heimkehr in der Mittagspause nicht möglich ist. Nicht kumulierbar mit 2.1 voll und 2.2 Schicht.
 - **Beachten:** Nur wenn die Arbeitspause die Heimkehr nicht ermöglicht und trotzdem Mehrkosten entstehen
 - **Beachten:** Nicht kumulierbar mit 2.1 voll, 2.2 Schicht oder Mittagsheimfahrt (dann entfällt Verpflegungsabzug)
@@ -1703,18 +1718,20 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Limiten:**
   - Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): Kanton **CHF 7.50 (Verpflegung durch Arbeitgeber verbilligt (Kantine, Personalrestaurant, Barbeitrag, Essensgutscheine) und trotzdem Mehrkosten: CHF 7.50 pro Arbeitstag.)** · Bund **CHF 7.50 (Halber Abzug CHF 7.50 pro Hauptmahlzeit, wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers)**
   - Verpflegung bei Verbilligung pro Jahr (CHF): Kanton **CHF 1'600 (Bei ständiger auswärtiger Verpflegung mit Verbilligung: CHF 1'600 pro Jahr.)** · Bund **CHF 1'600 (Halber Abzug bei Verbilligung: CHF 1'600 pro Jahr)**
+- **Bemerkung:** Codes 206 (Person 1, Staat und Bund) / 226 (Person 2, Staat und Bund). «3211» in den Formular-Zitaten ist ein Layoutartefakt der Eingabefelder, kein Code (raw/zh/2025/zh-form-360-2025.pdf S. 1).
 - **Quellen:**
   - [Formular 360 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0003.md) `zh-form-360-2025__c0003` – «wenn die Verpflegung durch den Arbeitgeber verbilligt wird und dem Arbeitnehmer trotzdem»
+  - [Formular 360 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0003.md) `zh-form-360-2025__c0003` – «Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 206 3211 206 3211»
   - [WL ZH 2025 S. 13](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0066.md) `zh-wl-2025__c0066` – «– wenn die Verpflegung durch den Arbeitgeber verbilligt wird (Kantine, Personalrestaurant,»
   - [LS 631.33 (bis 2025) S. 2–3](../../chunks/zh/2025/zh-pauschalierung-berufsauslagen-2025/zh-pauschalierung-berufsauslagen-2025__c0004.md) `zh-pauschalierung-berufsauslagen-2025__c0004` – «Die vorstehenden Abzüge dürfen nicht kumuliert werden.»
   - [WL ZH 2025 S. 10](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0032.md) `zh-wl-2025__c0032` – «Kantinenverpflegung / Lunch-Checks»
-  - [Formular 360 ZH 2025 S. 2](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0008.md) `zh-form-360-2025__c0008` – «pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 226»
+  - [Formular 360 ZH 2025 S. 2](../../chunks/zh/2025/zh-form-360-2025/zh-form-360-2025__c0008.md) `zh-form-360-2025__c0008` – «pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 226 3211 226 3211»
   - [WL ZH 2025 S. 13](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0065.md) `zh-wl-2025__c0065` – «Dafür entfällt der Verpflegungsabzug (Ziffer 2.1).»
   - [BKV Art. 6](../../chunks/bund/2025/bund-bkv-2025/bund-bkv-2025__art-6-t1.md) `bund-bkv-2025__art-6-t1` – «Kein Abzug ist mangels Mehrkosten zulässig, wenn der Arbeitgeber bei der Bewertung von Naturalbezügen»
   - [BKV Art. 6](../../chunks/bund/2025/bund-bkv-2025/bund-bkv-2025__art-6-t1.md) `bund-bkv-2025__art-6-t1` – «Nur der halbe Abzug ist zulässig, wenn die Verpflegung vom Arbeitgeber anders als in bar verbilligt wird (Abgabe von Gutscheinen)»
 
 <a id="form-360-ziff-2-1-voll-abzug-berufskosten-verpflegung"></a>
-### Ziff. Form. 360 Ziff. 2.1 (voll) – Mehrkosten Verpflegung, Verpflegung voll zu Lasten Arbeitnehmer: CHF 15/Tag, max. CHF 3’200/Jahr (Code 208 / 228)
+### Ziff. Form. 360 Ziff. 2.1 (voll) – Mehrkosten Verpflegung, Verpflegung voll zu Lasten Arbeitnehmer: CHF 15/Tag, max. CHF 3’200/Jahr (Code 208 Person 1 / 228 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis (kein Feld G); Arbeitstage am Arbeitsort
@@ -1737,7 +1754,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [WL ZH 2025 S. 13](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0065.md) `zh-wl-2025__c0065` – «Dafür entfällt der Verpflegungsabzug (Ziffer 2.1).»
 
 <a id="form-360-ziff-2-2-abzug-berufskosten-verpflegung"></a>
-### Ziff. Form. 360 Ziff. 2.2 – Mehrkosten bei durchgehender, mind. achtstündiger Schicht- / Nachtarbeit: CHF 15/Schichttag, max. CHF 3’200/Jahr (Code 210 / 230)
+### Ziff. Form. 360 Ziff. 2.2 – Mehrkosten bei durchgehender, mind. achtstündiger Schicht- / Nachtarbeit: CHF 15/Schichttag, max. CHF 3’200/Jahr (Code 210 Person 1 / 230 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Ziff. 15 (Anzahl Schichttage); Dienstplan
@@ -1766,7 +1783,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Beachten:** Privates Arbeitszimmer/Homeoffice in Pauschale enthalten, keine separate Pauschale
 - **Beachten:** Bund: Pauschale bei Teilzeit oder unterjähriger Erwerbstätigkeit angemessen kürzen
 - **Limiten:**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Übrige Berufsauslagen (Berufskleider, Werkzeuge inkl. EDV, Fachliteratur, privates Arbeitszimmer, Berufsverbandsbeiträge): 3 % des Nettolohns, mind. CHF 2'000, höchstens CHF 4'000. Nachweis höherer Kosten möglich (volle Belegpflicht).)** · Bund **3 % (Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Übrige Berufsauslagen (Berufskleider, Werkzeuge inkl. EDV, Fachliteratur, privates Arbeitszimmer, Berufsverbandsbeiträge): 3 % des Nettolohns, mind. CHF 2'000, höchstens CHF 4'000. Nachweis höherer Kosten möglich (volle Belegpflicht).)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300 gemäss DBG 2025; WL 2a 2025 nennt 3'200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **CHF 2'000 (Minimum der Pauschale für übrige Berufsauslagen: CHF 2'000.)** · Bund **CHF 2'000 (Minimum der Pauschale übrige Berufskosten)**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 4'000 (Maximum der Pauschale für übrige Berufsauslagen: CHF 4'000.)** · Bund **CHF 4'000 (Maximum der Pauschale übrige Berufskosten)**
   - Arbeitszimmer/Homeoffice – Regel: Kanton **Keine separate Homeoffice-/Arbeitszimmer-Pauschale: Kosten eines privaten Arbeitszimmers sind in der Pauschale für übrige Berufsauslagen (3 % des Nettolohns, CHF 2'000–4'000) enthalten; höhere effektive Kosten nur bei vollem Nachweis.** · Bund **Privates Arbeitszimmer: nur als Teil der Pauschale 'übrige Berufskosten' bzw. bei Nachweis höherer Kosten abziehbar; Kosten (Miete, Heizung, Beleuchtung) nur, wenn das Zimmer für die Berufsarbeit benützt werden muss. Gelegentliche Arbeit in der Privatwohnung gibt keinen Abzug**
@@ -1779,7 +1796,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [BKV Art. 7](../../chunks/bund/2025/bund-bkv-2025/bund-bkv-2025__art-7.md) `bund-bkv-2025__art-7` – «Der Pauschalabzug ist angemessen zu kürzen, wenn die unselbständige Erwerbstätigkeit bloss während eines Teils des Jahres oder als Teilzeitarbeit ausgeübt wird.»
 
 <a id="form-360-ziff-4-abzug-berufskosten-wochenaufenthalt"></a>
-### Ziff. Form. 360 Ziff. 4 – Mehrkosten bei auswärtigem Wochenaufenthalt (Code 2860 / 2861)
+### Ziff. Form. 360 Ziff. 4 – Mehrkosten bei auswärtigem Wochenaufenthalt (Code 2860 Person 1 / 2861 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.wochenaufenthalt` (Mehrkosten Wochenaufenthalt) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Mietvertrag Wohnung (Mietzinsbestätigung, Nebenkostenabrechnung des Mieters) → Mietvertrag Zimmer am Arbeitsort; Aufstellung
@@ -1831,7 +1848,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
   - [WL 2a 2025 S. 6–7](../../chunks/bund/2025/bund-wl-2a-2025/bund-wl-2a-2025__c0046.md) `bund-wl-2a-2025__c0046` – «einkommen nach Abzug der Sozialversicherungsbeiträge), min-»
 
 <a id="form-360-ziff-6-berechnung-total"></a>
-### Ziff. Form. 360 Ziff. 6 – Total der Berufsauslagen (Code 220 / 240) → Steuererklärung Ziff. 11.1 / 11.2
+### Ziff. Form. 360 Ziff. 6 – Total der Berufsauslagen (Code 220 Person 1 / 240 Person 2) → Steuererklärung Ziff. 11.1 / 11.2
 
 - **Schlüssel:** `berechnung.total` (Berechnungs-/Totalzeilen (Nettoeinkommen, Reineinkommen, steuerbares Einkommen/Vermögen, Totale)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Rechenzeile Formular 360
@@ -2453,23 +2470,24 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 ## Hilfsblatt Weiterbildung (Form. 367)
 
 <a id="form-367-abzug-weiterbildung"></a>
-### Ziff. Form. 367 – Total der Kosten (Code 2900/2903), Beitrag Arbeitgeber/Dritte (2901/2904), Selbstgetragene Kosten (2902/2905), Zulässiger Abzug (2920/2921 → Code 292)
+### Ziff. Form. 367 – Total der Kosten (Code 2900/2903), Beitrag Arbeitgeber/Dritte (2901/2904), Selbstgetragene Kosten (2902/2905), Zulässiger Abzug (2920/2921 → Code 292) (Spalten Person 1 / Person 2)
 
 - **Schlüssel:** `abzug.weiterbildung` (Berufsorientierte Aus- und Weiterbildungskosten) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Rechnungen und Belege Aus- und Weiterbildung (Kurse, Lehrgänge, Umschulung, Prüfungsgebühren), Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Kursrechnungen, Zahlungsnachweise; Lohnausweis Ziff. 13.3 (Arbeitgeberbeitrag an den Arbeitnehmer)
 - **Rein:** Kursrechnungen/Zahlungsbelege 2025 → Total der Kosten (2900/2903) · Lohnausweis Ziff. 13.3 → Beitrag Arbeitgeber (2901/2904) · Bestätigungen Beiträge Bund/Branchenverbände → Beitrag weiterer Stellen (2901/2904)
-- **Rechnen:** Je Person: 2902/2905 = 2900/2903 – 2901/2904; Abzug 2920/2921 = min(selbstgetragen; Kanton 12’400 / Bund 13’000); Σ → Code 292 → Ziff. 16.2
+- **Rechnen:** Je Person: 2902/2905 = 2900/2903 – 2901/2904; Abzug 2920/2921 (Person 1/Person 2) = min(selbstgetragen; Kanton 12’400 / Bund 13’000); 292 = 2920 + 2921 je Block Staats-/Bundessteuer → Ziff. 16.2
 - **Regel:** Je Person: Total Kosten – Beiträge Arbeitgeber/Bund/Branchenverbände = selbstgetragene Kosten; zulässiger Abzug max. CHF 12’400 (Staatssteuer) bzw. CHF 13’000 (Bundessteuer) → Ziff. 16.2. Im Lohnausweis Ziff. 13.3 ausgewiesene Arbeitgeberbeiträge sind als Beitrag Dritter anzugeben.
 - **Beachten:** Nur mit Abschluss Sek. II oder ab vollendetem 20. Lebensjahr; nicht Ausbildung bis zum ersten Sek.-II-Abschluss
 - **Beachten:** Massgebend ist Fälligkeit bzw. Zahlung, nicht der Kursbesuch
 - **Beachten:** Formular 367 vollständig ausgefüllt beilegen
 - **Limiten:**
   - Aus- und Weiterbildungskosten – Maximum (CHF): Kanton **CHF 12'400 (Berufsorientierte Aus- und Weiterbildung inkl. Umschulung, selbst getragene Kosten: max. CHF 12'400 (Staatssteuer), sofern Abschluss Sek. II vorliegt oder 20. Lebensjahr vollendet (und nicht Ausbildung bis zum ersten Sek.-II-Abschluss).)** · Bund **CHF 13'000 (Berufsorientierte Aus- und Weiterbildung inkl. Umschulung bis CHF 13'000 (erster Abschluss Sek II oder 20. Lebensjahr vollendet))**
-- **Bund:** Bund: max. CHF 13’000.
+- **Bund:** Bund: max. CHF 13’000 je Person (Block «Bundessteuer», Codes 2920/2921 = Person 1/Person 2).
 - **Quellen:**
   - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Beitrag Arbeitgeber oder weiterer Stellen (Bund, Branchenverbände etc.)»
   - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Zulässiger Abzug (max. je CHF 12’400)»
   - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Zulässiger Abzug (max. je CHF 13’000)»
+  - [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) `zh-form-367-2025__c0001` – «Bezeichnung Person 1 Person 2»
   - [WL ZH 2025 S. 16](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0093.md) `zh-wl-2025__c0093` – «Abschluss auf der Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist»
   - [WL ZH 2025 S. 16](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0093.md) `zh-wl-2025__c0093` – «nicht um die Ausbildungskosten bis zum ersten Abschluss auf der Sekundarstufe II handelt.»
   - [WL ZH 2025 S. 16](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0093.md) `zh-wl-2025__c0093` – «ist die Fälligkeit bzw. die Zahlung und nicht der Kursbesuch»

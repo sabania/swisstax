@@ -493,7 +493,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
   - [MB AR 02 S. 1](../../chunks/ar/dauernd/ar-mb-02/ar-mb-02__c0002.md) `ar-mb-02__c0002` – «Fr. 11‘000 für jedes Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person nach»
 
 <a id="sozialabzug-kind-ausbildung-auswaerts"></a>
-### Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+### Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)
 
 - **Wert:** n/a
 - **Schlüssel:** `sozialabzug.kind_ausbildung_auswaerts` · **gilt für:** kanton · **Status:** – na

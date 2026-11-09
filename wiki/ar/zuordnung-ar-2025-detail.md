@@ -888,7 +888,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Nicht ereignisbezogene Pauschalspesen → keine Pauschale übrige Kosten; vom AG übernommene Kosten nicht abziehbar
 - **Limiten:**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 6'000 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten, kantonal höchstens CHF 6'000 (Pendlerabzug).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Person und Jahr (Steuerjahr 2025))**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **10 % (Übrige Berufskosten Pauschale: CHF 700 zuzüglich 10 % des Nettolohnes, max. CHF 2'400.)** · Bund **3 % (Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **10 % (Übrige Berufskosten Pauschale: CHF 700 zuzüglich 10 % des Nettolohnes, max. CHF 2'400.)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300 gemäss DBG 2025; WL 2a 2025 nennt 3'200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – fixer Pauschalbetrag (CHF), falls Formel «fix + %»: Kanton **CHF 700 (Fixer Sockelbetrag der Pauschale (zuzüglich 10 % des Nettolohnes).)** · Bund **n/a – Bund: 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; kein 'fix + %'-Modell.**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 2'400 (Maximum der Pauschale für übrige Berufskosten: CHF 2'400.)** · Bund **CHF 4'000 (Maximum der Pauschale übrige Berufskosten)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **n/a – Formel «700 + 10 %» ohne separates Minimum; der fixe Sockelbetrag von CHF 700 ist das faktische Minimum (siehe berufskosten.uebrige.fix).** · Bund **CHF 2'000 (Minimum der Pauschale übrige Berufskosten)**
@@ -1697,7 +1697,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
   - [Formular 4 AR 2025 S. 1](../../chunks/ar/2025/ar-form-04-2025/ar-form-04-2025__c0001.md) `ar-form-04-2025__c0001` – «Arbeitgeber, Arbeitsort, Arbeitspensum, Erwerbsdauer»
 
 <a id="form-4-ziff-1-2-abzug-berufskosten-fahrkosten"></a>
-### Ziff. Form. 4 Ziff. 1.2 – Fahrrad/Kleinmotorrad bis 50 cm3 (gelbes Kontrollschild) (Code 402 / 452)
+### Ziff. Form. 4 Ziff. 1.2 – Fahrrad/Kleinmotorrad bis 50 cm3 (gelbes Kontrollschild) (Code 402 Person 1 / 452 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Pauschale (keine Belege)
@@ -1754,7 +1754,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
   - [MB AR 01 S. 1](../../chunks/ar/dauernd/ar-mb-01/ar-mb-01__c0001.md) `ar-mb-01__c0001` – «Verpflichtung zur Mitnahme des Fahrzeuges für Dienstfahrten an den Arbeitsort.»
 
 <a id="form-4-ziff-2-1-abzug-berufskosten-verpflegung"></a>
-### Ziff. Form. 4 Ziff. 2.1 – Mehrkosten auswärtige Verpflegung: Fr. 15 pro Arbeitstag, max. Fr. 3'200 (Code 408 / 458)
+### Ziff. Form. 4 Ziff. 2.1 – Mehrkosten auswärtige Verpflegung: Fr. 15 pro Arbeitstag, max. Fr. 3'200 (Code 408 Person 1 / 458 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Spesenreglement des Arbeitgebers (genehmigtes Spesenreglement, Spesenabrechnung, Pauschalspesen) → Lohnausweis (Felder F/G, Ziff. 15); Arbeitstage
@@ -1777,7 +1777,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
   - [Formular 4 AR 2025 S. 2](../../chunks/ar/2025/ar-form-04-2025/ar-form-04-2025__c0007.md) `ar-form-04-2025__c0007` – «Pro Arbeitstag Fr. 15 / im Jahr Fr. 3'200 458»
 
 <a id="form-4-ziff-2-2-abzug-berufskosten-verpflegung"></a>
-### Ziff. Form. 4 Ziff. 2.2 – Verpflegung durch Arbeitgeber verbilligt (Kantine, Lunch-Checks, Beitrag): Fr. 7.50 pro Tag, max. Fr. 1'600 (Code 410 / 460)
+### Ziff. Form. 4 Ziff. 2.2 – Verpflegung durch Arbeitgeber verbilligt (Kantine, Lunch-Checks, Beitrag): Fr. 7.50 pro Tag, max. Fr. 1'600 (Code 410 Person 1 / 460 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Feld G (Kantinenverpflegung/Lunch-Checks/Bezahlung von Mahlzeiten)
@@ -1801,7 +1801,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
   - [Formular 4 AR 2025 S. 2](../../chunks/ar/2025/ar-form-04-2025/ar-form-04-2025__c0007.md) `ar-form-04-2025__c0007` – «Pro Arbeitstag Fr. 7.50 / im Jahr Fr. 1'600 460»
 
 <a id="form-4-ziff-2-3-abzug-berufskosten-verpflegung"></a>
-### Ziff. Form. 4 Ziff. 2.3 – Schicht-/Nachtarbeit (durchgehend mind. 8 Std.): Fr. 15 pro Schichttag, max. Fr. 3'200 (Code 412 / 462)
+### Ziff. Form. 4 Ziff. 2.3 – Schicht-/Nachtarbeit (durchgehend mind. 8 Std.): Fr. 15 pro Schichttag, max. Fr. 3'200 (Code 412 Person 1 / 462 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Ziff. 15 (Bemerkungen: Anzahl Schichttage)
@@ -1825,7 +1825,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
   - [StV AR Art. 16](../../chunks/ar/2025/ar-stv/ar-stv__art-16.md) `ar-stv__art-16` – «Die gestaffelte oder unregelmässige Arbeitszeit wird der Schichtarbeit gleichgestellt»
 
 <a id="form-4-ziff-3-abzug-berufskosten-uebrige"></a>
-### Ziff. Form. 4 Ziff. 3 – Übrige Berufskosten: Pauschale Fr. 700 + 10 % des Nettolohns, max. Fr. 2'400 (Code 416 / 466) oder tatsächliche Kosten mit Aufstellung (Code 418 / 468)
+### Ziff. Form. 4 Ziff. 3 – Übrige Berufskosten: Pauschale Fr. 700 + 10 % des Nettolohns, max. Fr. 2'400 (Code 416 Person 1 / 466 Person 2) oder tatsächliche Kosten mit Aufstellung (Code 418 Person 1 / 468 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.uebrige` (Übrige Berufskosten (Pauschale oder effektiv, inkl. Arbeitszimmer)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Spesenreglement des Arbeitgebers (genehmigtes Spesenreglement, Spesenabrechnung, Pauschalspesen) → Lohnausweis Ziff. 11 (Nettolohn) für die Pauschale; Kostenaufstellung/Belege bei effektiv
@@ -1835,7 +1835,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Arbeitszimmer (Kanton) nur mit ausgeschiedenem Arbeitsplatz und ≥ 40 % Heimarbeit (Vollzeitbasis)
 - **Beachten:** Bund: Pauschale bei Teilzeit oder unterjähriger Tätigkeit angemessen kürzen
 - **Limiten:**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **10 % (Übrige Berufskosten Pauschale: CHF 700 zuzüglich 10 % des Nettolohnes, max. CHF 2'400.)** · Bund **3 % (Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **10 % (Übrige Berufskosten Pauschale: CHF 700 zuzüglich 10 % des Nettolohnes, max. CHF 2'400.)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300 gemäss DBG 2025; WL 2a 2025 nennt 3'200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – fixer Pauschalbetrag (CHF), falls Formel «fix + %»: Kanton **CHF 700 (Fixer Sockelbetrag der Pauschale (zuzüglich 10 % des Nettolohnes).)** · Bund **n/a – Bund: 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; kein 'fix + %'-Modell.**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 2'400 (Maximum der Pauschale für übrige Berufskosten: CHF 2'400.)** · Bund **CHF 4'000 (Maximum der Pauschale übrige Berufskosten)**
   - Arbeitszimmer/Homeoffice – Regel: Kanton **Kosten eines Arbeitszimmers in der Privatwohnung sind abziehbar, wenn ein spezifisch eingerichteter Arbeitsplatz benötigt und tatsächlich ausgeschieden wird und mindestens 40 % der Tätigkeit (bezogen auf Vollzeit) zu Hause erledigt werden müssen; sonst nur Pauschale übrige Berufskosten bzw. Nachweis höherer Kosten.** · Bund **Privates Arbeitszimmer: nur als Teil der Pauschale 'übrige Berufskosten' bzw. bei Nachweis höherer Kosten abziehbar; Kosten (Miete, Heizung, Beleuchtung) nur, wenn das Zimmer für die Berufsarbeit benützt werden muss. Gelegentliche Arbeit in der Privatwohnung gibt keinen Abzug**
@@ -1856,7 +1856,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
   - [BKV Art. 7](../../chunks/bund/2025/bund-bkv-2025/bund-bkv-2025__art-7.md) `bund-bkv-2025__art-7` – «Der Pauschalabzug ist angemessen zu kürzen, wenn die unselbständige Erwerbstätigkeit bloss während eines Teils des Jahres oder als Teilzeitarbeit ausgeübt wird.»
 
 <a id="form-4-ziff-4-abzug-berufskosten-wochenaufenthalt"></a>
-### Ziff. Form. 4 Ziff. 4 – Wochenaufenthalt: Zimmer (Code 426 / 476), Verpflegung Fr. 30/Tag, max. Fr. 6'400 bzw. Fr. 22.50/Tag, max. Fr. 4'800 (Code 428 / 478)
+### Ziff. Form. 4 Ziff. 4 – Wochenaufenthalt: Zimmer (Code 426 Person 1 / 476 Person 2), Verpflegung Fr. 30/Tag, max. Fr. 6'400 bzw. Fr. 22.50/Tag, max. Fr. 4'800 (Code 428 Person 1 / 478 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.wochenaufenthalt` (Mehrkosten Wochenaufenthalt) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Mietvertrag Wohnung (Mietzinsbestätigung, Nebenkostenabrechnung des Mieters) → Mietvertrag/Quittungen des Zimmers; Lohnausweis (verbilligte Mahlzeiten)
@@ -1885,7 +1885,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
   - [BKV Art. 9](../../chunks/bund/2025/bund-bkv-2025/bund-bkv-2025__art-9.md) `bund-bkv-2025__art-9` – «Als notwendige Mehrkosten der Unterkunft sind die ortsüblichen Auslagen für ein Zimmer abziehbar.»
 
 <a id="form-4-ziff-5-abzug-berufskosten-nebenerwerb"></a>
-### Ziff. Form. 4 Ziff. 5 – Unselbständiger Nebenerwerb: Pauschale 20 % der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2'400 (Code 432 / 482) oder tatsächliche Kosten (Code 434 / 484)
+### Ziff. Form. 4 Ziff. 5 – Unselbständiger Nebenerwerb: Pauschale 20 % der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2'400 (Code 432 Person 1 / 482 Person 2) oder tatsächliche Kosten (Code 434 Person 1 / 484 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.nebenerwerb` (Berufskosten Nebenerwerb) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Ziff. 11 des Nebenarbeitgebers
@@ -1925,7 +1925,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Bund abweichend: Fahrkosten max. 3'300; übrige Berufskosten 3 %, min. 2'000, max. 4'000
 - **Limiten:**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 6'000 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten, kantonal höchstens CHF 6'000 (Pendlerabzug).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Person und Jahr (Steuerjahr 2025))**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **10 % (Übrige Berufskosten Pauschale: CHF 700 zuzüglich 10 % des Nettolohnes, max. CHF 2'400.)** · Bund **3 % (Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **10 % (Übrige Berufskosten Pauschale: CHF 700 zuzüglich 10 % des Nettolohnes, max. CHF 2'400.)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300 gemäss DBG 2025; WL 2a 2025 nennt 3'200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **n/a – Formel «700 + 10 %» ohne separates Minimum; der fixe Sockelbetrag von CHF 700 ist das faktische Minimum (siehe berufskosten.uebrige.fix).** · Bund **CHF 2'000 (Minimum der Pauschale übrige Berufskosten)**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 2'400 (Maximum der Pauschale für übrige Berufskosten: CHF 2'400.)** · Bund **CHF 4'000 (Maximum der Pauschale übrige Berufskosten)**
 - **Bemerkung:** Code 488 aus Form. 4 Rückseite (Person 2).

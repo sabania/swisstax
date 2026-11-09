@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 36 Daten-Einträgen und 10 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stv`).
+Zitiert in 38 Daten-Einträgen und 10 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-stv`).
 
 - `data/belege-teil2.yaml#6:liegenschaft-nebenkosten-gebaeudeversicherung` (agent-geprueft)
 - `data/werte/sg/2025.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
@@ -33,11 +33,13 @@ Zitiert in 36 Daten-Einträgen und 10 handgeschriebenen Seiten (`python3 tools/i
 - `data/werte/sg/2026.yaml#5:berufskosten.verpflegung.tag` (agent-geprueft)
 - `data/werte/sg/2026.yaml#7:berufskosten.verpflegung.verbilligt_tag` (agent-geprueft)
 - `data/werte/sg/2026.yaml#9:berufskosten.schichtarbeit.tag` (agent-geprueft)
+- `data/zuordnung/sg/2025.yaml#25:abzug.unterhaltsbeitraege@12.1` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#31:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
 - `data/zuordnung/sg/2025.yaml#95:abzug.liegenschaft.unterhalt@Form. 7 Abschnitt C` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#14:einkommen.liegenschaften.eigenmietwert@5` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#15:einkommen.unterhaltsbeitraege@6.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#23:berechnung.total@10.1` (agent-geprueft)
+- `data/zuordnung/sg/2026.yaml#26:abzug.unterhaltsbeitraege@12.1` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#2:einkommen.unselbstaendig.vr_honorare@1.3` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#33:abzug.liegenschaft.unterhalt@15` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#46:sozialabzug.kinder@23.1` (agent-geprueft)

@@ -17,10 +17,12 @@
 | `data/zuordnung/zh/2025.yaml` | abzug.uebrige | 13.3 | Wie Ziff. 3.2 (Leibrenten): StG ZH § 31 Abs. 1 lit. b (zh-stg-2025) = 40 Prozent der bezahlten Leibrenten; WL 2025 (c0078) = Ertragsanteil nach ESTV-Satz. Bund (bund-dbg-2025__art-33-t1): «der Ertragsanteil nach Artikel 22 Absatz 3 Buchstabe c». Fachperson entscheidet für die Staatssteuer. Gegenprobe Prüfung: Bundesrecht (Art. 33 Abs. 1 lit. b DBG) und StHG gelten nach Art. 72 Abs. 2 StHG direkt, … |
 | `data/zuordnung/zh/2026.yaml` | abzug.uebrige | 13.3 | Gesetz (§ 31 Abs. 1 lit. b StG, Stand 2026): 40 Prozent der bezahlten Leibrenten; Wegleitung: Ertragsanteil nach jährlichem ESTV-Satz. Je nach Satz weichen die Werte ab; Gesetz geht vor, Fachperson entscheidet. |
 
-## Extrahiert – Zweitprüfung empfohlen (0)
+## Extrahiert – Zweitprüfung empfohlen (2)
 
 | Datei | Schlüssel | Ziffer | Bemerkung |
 |---|---|---|---|
+| `data/werte/bund/2025.yaml` | geldspiele.einsatzkosten_max |  |  |
+| `data/werte/sg/2025.yaml` | geldspiele.einsatzkosten_max |  |  |
 
 ## Offen – Wert fehlt (126)
 

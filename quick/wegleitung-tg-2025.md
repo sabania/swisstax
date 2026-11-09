@@ -25,7 +25,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 ### Seite 1 Kinder · Kinder (minderjährig, in Ausbildung oder erwerbsunfähig), Unterhalt wird bestritten; Zusatzangaben bei getrennt … ☑️
 - **Rein:** Geburtsdatum Kind (genau) → Geb.-datum, «In Ihrem Haushalt?» · Lehrvertrag/Schulbestätigung → Schule/Lehrfirma, Ausbildungsende (Kinder Jg. 2005 und älter) · Scheidungs-/Trennungsurteil, Sorgerechtsentscheid → Checkboxen Unterhaltsbeiträge, gemeinsames Sorgerecht, alternierende Obhut
 - **Rechnen:** Folgeabzug Ziff. 25.1 je Kind (Stichtag 31. Dezember 2025): Kanton 7'400 / in Ausbildung Jg. 2006–2009: 8'500 / Jg. 2000–2005: 10'600; Bund 6'800
-- **Limite (Kanton / Bund):** Kinderabzug Grundbetrag (CHF): CHF 7'400 / CHF 6'800 · Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 8'500 / CHF 6'800 · Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): CHF 10'600 / n/a
+- **Limite (Kanton / Bund):** Kinderabzug Grundbetrag (CHF): CHF 7'400 / CHF 6'800 · Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 8'500 / CHF 6'800 · siehe Text) (CHF): CHF 10'600 / n/a
 - **Beachten:** Getrennte Eltern: minderjährig → Kinderabzug beim Alimente-Empfänger (nicht Zahler); volljährig → i.d.R. beim Zahler.
 - **Beachten:** Ohne Alimente hälftig: Kanton nur bei gem. Sorgerecht + alternierender Obhut; Bund schon bei gem. Sorgerecht.
 - **Beachten:** Vermögen/Erträge Kinder Jg. 2008 und jünger in Formular 2 der Eltern; Jg. 2007 und älter versteuern selbst.
@@ -119,7 +119,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Beachten:** Vom anderen Elternteil weitergeleitete Kinderzulagen gehören zu den Alimenten Ziff. 5.2.
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2025-detail.md#3-4-einkommen-ersatz-familienzulagen) · [Formular 1 TG 2025 S. 2](../chunks/tg/2025/tg-form-01-2025/tg-form-01-2025__c0007.md)
 
-### 4 · Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 2, Code 150) ☑️
+### 4 · Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 1 Code 150, Übertrag aus Formular 2) ☑️
 - **Rein:** Steuerauszug/Depotauszug Bank → Steuerwert Sp. 7, Bruttoerträge Sp. 8 (mit VSt) / Sp. 9 (ohne VSt) · Zinsausweis Bank-/Postkonto → Bruttozins (bis Fr. 200, einmal jährlich: Spalte 9), Kontostand · Ausländische Dividenden-/Zinsabrechnung → Netto + anrechenbare Quellensteuer; Formular DA-1 · Auszahlungsbescheinigung Lotterie/Geldspiel (Original) → Gewinn Sp. 8 / Sp. 9
 - **Rechnen:** Form. 2 Ziff. 9 = Ziff. 15 (Bruttoertrag A+B) − Ziff. 16 Geschäftserträge − Ziff. 17 Verwaltungskosten (2 Promille, max. 6'000) − Ziff. 18 Einsatzkosten
 - **Limite (Kanton / Bund):** Lotterie-/Kleingewinne steuerfrei bis (CHF): CHF 1'000 / CHF 1'100 · Grossspielgewinne steuerfrei bis (CHF): CHF 1'000'000 / CHF 1'070'400
@@ -310,7 +310,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Beachten:** Spenden an gemeinnützige Institutionen → Ziff. 23.2
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2025-detail.md#15-5-abzug-parteispenden) · [Formular 1 TG 2025 S. 3](../chunks/tg/2025/tg-form-01-2025/tg-form-01-2025__c0011.md)
 
-### 15.6 · Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 2 Hilfsblatt, Code 341; Staat/Bund) ☑️
+### 15.6 · Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 1 Code 341, Übertrag aus Formular 2 Hilfsblatt; … ☑️
 - **Rein:** Dividendenabrechnung/Steuerauszug → Beteiligungsertrag 2025 je Gesellschaft · Nachweis Beteiligungsquote ≥ 10% am Grund-/Stammkapital → durch Steuerpflichtige zu erbringen · Hilfsblatt (letzte Seite Formular 2) → Name/Sitz Gesellschaft, Quote, Ertrag 2025 je Beteiligung
 - **Rechnen:** Hilfsblatt Ziff. 2 Σ Erträge qualifizierter Beteiligungen (≥ 10%) × Kanton 40% / Bund 30% = Ziff. 3 → Code 341
 - **Beachten:** Erträge selbst voll im Wertschriftenverzeichnis (Spalte 8 oder 9) deklarieren; Abzug jährlich beantragen
@@ -417,7 +417,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 ### 25.1 a) Jg. 2000–2005 · Kinderabzug für jedes Kind in Ausbildung mit Jahrgang 2000–2005 (Code 380; Staat Fr. 10'600 / Bund Fr. 6'800) ☑️
 - **Rein:** Formular 1 S. 1 Kinder → Geburtsdatum, Haushalt, Schule/Lehrfirma, voraussichtliches Ausbildungsende · Formular 1 S. 1 (nur getrennt besteuerte Eltern) → Unterhaltsbeiträge des anderen Elternteils
 - **Rechnen:** Anzahl Kinder Jg. 2000–2005 in Ausbildung am 31. Dezember 2025 × Kanton Fr. 10'600 / Bund Fr. 6'800 → Code 380
-- **Limite (Kanton / Bund):** Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): CHF 10'600 / n/a · Kinderabzug Grundbetrag (CHF): CHF 7'400 / CHF 6'800
+- **Limite (Kanton / Bund):** siehe Text) (CHF): CHF 10'600 / n/a · Kinderabzug Grundbetrag (CHF): CHF 7'400 / CHF 6'800
 - **Beachten:** Ausbildung vor Stichtag beendet → kein Abzug, auch nicht pro rata; Pflege-/Stiefkinder ausgeschlossen
 - **Beachten:** Kein Abzug, wenn das volljährige Kind ein Einkommen für den selbständigen Lebensunterhalt erzielt
 - **Beachten:** Getrennte Eltern: Abzug ungeteilt beim Elternteil, der den Unterhalt hauptsächlich trägt (i.d.R. Alimente-Zahler)
@@ -491,7 +491,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 
 ## Vermögen
 
-### 30.1 · Wertschriften und Guthaben (Formular 2, Code 410) ☑️
+### 30.1 · Wertschriften und Guthaben (Formular 1 Code 410, Übertrag aus Formular 2) ☑️
 - **Rein:** Formular 2 Ziff. 9 → Total Steuerwert Privatvermögen (Code 410) · Steuerauszug Bank/Depot → Steuerwert je Konto/Titel per 31.12.2025 · Kursliste ESTV → Kurs Ende Dezember 2025 (kotierte Titel)
 - **Rechnen:** Formular 2: Zwischentotal Steuerwerte − Geschäftswertschriften = Ziff. 9 Total Steuerwert Privatvermögen → Code 410
 - **Beachten:** PK-, Freizügigkeits- und Säule-3a-Guthaben bis Fälligkeit steuerfrei – nicht aufführen
@@ -704,7 +704,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 
 ### Form. 4.2 Ziff. 2.5 · Total abzugsfähige Fahrkosten, Staat max. Fr. 6'000 / Bund max. Fr. 3'300 (Code 213; Person 2: 253) ☑️
 - **Rein:** Übertrag Ziff. 2.4 (je Spalte Staat / Bund)
-- **Rechnen:** Staat: min(Ziff. 2.4; Fr. 6'000) / Bund: min(Ziff. 2.4; Fr. 3'300) → Ziff. 7
+- **Rechnen:** Staat: min(Ziff. 2.4; Fr. 6'000) / Bund: min(Ziff. 2.4; Fr. 3'300) → Form. 4.2 Ziff. 7 (Code 240) → Steuererklärung Seite 3 Ziff. 10.1 (Staat links, Bund rechts); Person 2: Code 253 → Form. 4.3 Ziff. 7 (Code 280) → Ziff. 10.2
 - **Limite (Kanton / Bund):** Maximalabzug pro Person (CHF): CHF 6'000 / CHF 3'300
 - **Beachten:** Maxima nicht gekürzt bei unterjähriger Steuerpflicht/Erwerbsdauer oder Teilzeit
 - **Beachten:** Begrenzung umfasst alle Fahrkosten (ÖV, Velo, Motorrad, Auto, inkl. Wochenaufenthalt)
@@ -765,9 +765,9 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Beachten:** Nebenerwerb setzt Haupterwerb voraus; einzige, auch geringfügige Tätigkeit gilt als Haupterwerb
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2025-detail.md#form-4-2-ziff-6-abzug-berufskosten-nebenerwerb) · [Formular 4.2 TG 2025 S. 1](../chunks/tg/2025/tg-form-04-2-2025/tg-form-04-2-2025__c0005.md)
 
-### Form. 4.2 Ziff. 7 · Total der abzugsfähigen Berufsauslagen (Code 240; Person 2: 280) → Steuererklärung Ziff. 10.1 / 10.2 ☑️
+### Form. 4.2 Ziff. 7 · Total der abzugsfähigen Berufsauslagen (Code 240; Person 2: 280) → Steuererklärung Seite 3 Ziff. 10.1 / 10.2 ☑️
 - **Rein:** Übertrag Ziff. 2.5, 3.1/3.2, 4, 5.1, 5.2, 6 (je Spalte Staat / Bund)
-- **Rechnen:** Σ Ziff. 2.5 + 3.1/3.2 + 4 + 5.1 + 5.2 + 6 je Spalte → Formular 1 Ziff. 10.1 (Person 1) / 10.2 (Person 2); Staat links, Bund rechts
+- **Rechnen:** Σ Ziff. 2.5 + 3.1/3.2 + 4 + 5.1 + 5.2 + 6 je Spalte → Steuererklärung (Formular 1) Seite 3 Ziff. 10.1 (Person 1) / 10.2 (Person 2); Staat links, Bund rechts
 - **Beachten:** Ziff. 2.5 (begrenzt), nicht 2.4 übernehmen
 - **Beachten:** Person 2: eigenes Formular 4.3, wenn beide erwerbstätig
 - **Beachten:** Pauschalen vorab auf die Erwerbsdauer umrechnen (unterjährige Erwerbstätigkeit)

@@ -495,6 +495,18 @@ werte:
   - chunk: sg-stg-2025__art-34
     zitat: wird um 30 Prozent herabgesetzt
   status: agent-geprueft
+- key: geldspiele.einsatzkosten_max
+  wert: 5400
+  einheit: CHF
+  text: 'Einsatzkosten: 5 % der einzelnen steuerbaren Geldspielgewinne, höchstens Fr. 5''400 je Gewinn (Online-Spielbankenspiele: abgebuchte Einsätze, höchstens Fr. 26''700)'
+  gilt_fuer: kanton
+  rechtsgrundlage: Art. 45 Abs. 3 StG SG
+  quellen:
+  - chunk: sg-stg-2025__art-45-t5
+    zitat: werden 5 Prozent, jedoch höchstens Fr. 5400.–, als Einsatzkosten abgezogen
+  - chunk: sg-stg-2025__art-45-t5
+    zitat: jedoch höchstens Fr. 26 700.–, abgezogen
+  status: extrahiert
 - key: sozialabzug.kind
   wert: null
   einheit: CHF

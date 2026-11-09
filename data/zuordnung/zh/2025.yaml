@@ -851,6 +851,10 @@ positionen:
     zitat: Zeitersparnis von über 1 Stunde bei Benützung des privaten Motorfahrzeuges   2042
   - chunk: zh-wl-2025__c0032
     zitat: Kantinenverpflegung / Lunch-Checks
+  - chunk: zh-form-360-2025__c0002
+    zitat: Zwischentotal   205  3211
+  - chunk: zh-form-360-2025__c0007
+    zitat: Zwischentotal   225  3211
   status: agent-geprueft
   rein:
   - 'Form. 360 «Berufsauslagen» je Person → Ziff. 6 Total: P1 Code 220 → Ziff. 11.1, P2 Code 240 → Ziff. 11.2'
@@ -866,7 +870,7 @@ positionen:
   - berufskosten.uebrige.min
   - berufskosten.uebrige.max
   - berufskosten.fahrkosten.auto_km
-  berechnung: 'Fahrkosten 205 (max. Kanton 5’200 / Bund 3’300) + Verpflegung 206/208/210 + übrige 212|213 + Wochenaufenthalt 2860 + Nebenerwerb 216|217 = 220 (P2: 240)'
+  berechnung: 'Fahrkosten 201 Abo + 202 Velo + 204 Auto/Motorrad = Zwischentotal 205 (max. Kanton 5’200 / Bund 3’300) + Verpflegung 206/208/210 + übrige 212|213 + Wochenaufenthalt 2860 + Nebenerwerb 216|217 = 220 → Ziff. 11.1; P2: 221 + 222 + 224 = 225 … = 240 → Ziff. 11.2; bei Auto/Motorrad (weisses Kontrollschild) Begründung Ziff. 7 ankreuzen (P1 2041–2044 / P2 2241–2244)'
 - ziffer: '12'
   abschnitt: Abzüge
   bezeichnung: Schuldzinsen (Code 250)
@@ -914,7 +918,7 @@ positionen:
   belege:
   - unterhaltszahlungen-alimente
   feld: Scheidungs-/Trennungsurteil + Zahlungsnachweise (Jahressumme)
-  regel: Für den Ehegatten persönlich bestimmte Beiträge voll abziehbar; sämtliche Zahlungsnachweise einreichen. Der Empfänger deklariert sie in Ziff. 5.1.
+  regel: 'Für den Ehegatten persönlich bestimmte Beiträge voll abziehbar. Zahlungsnachweise: Die WL nennt für 13.1/13.2 keine Beilagepflicht (Belege nur, wenn ausdrücklich verlangt). Der Formularhinweis «sämtliche Zahlungsnachweise» steht unter Ziff. 13.3 und wird in der WL auf Leibrenten/Verpfründungen bezogen. Der Bezug auf 13.1/13.2 ist nicht eindeutig (raw/zh/2025/zh-form-300-2025.pdf S. 3) → Nachweise auf Verlangen, im Zweifel beilegen, Fachperson entscheidet. Der Empfänger deklariert die Beiträge in Ziff. 5.1.'
   quellen:
   - chunk: zh-form-300-2025__c0007
     zitat: 13.1 Unterhaltsbeiträge an den geschiedenen oder getrennt lebenden Ehegatten / Partn. 254
@@ -930,14 +934,20 @@ positionen:
     zitat: Den Alimenten gleichgesetzt sind Naturalleistungen wie Miete,
   - chunk: bund-wl-2a-2025__c0051
     zitat: Unterhaltsbeiträge, die in Form einer Kapitalabfindung erbracht
+  - chunk: zh-form-300-2025__c0007
+    zitat: Mit der Steuererklärung 2025 sind sämtliche Zahlungsnachweise einzureichen.
+  - chunk: zh-wl-2025__c0080
+    zitat: Leibrenten und Verpfründungen einzureichen (insbesondere Leibrenten- bzw.
+  - chunk: zh-wl-2025__c0207
+    zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
   status: agent-geprueft
   rein:
   - Scheidungs-/Trennungsurteil bzw. Vereinbarung → Unterhalt für den Ehegatten persönlich
-  - Bank-/Zahlungsbelege → Σ 2025 effektiv bezahlte Beiträge (alle Nachweise einreichen)
+  - Bank-/Zahlungsbelege → Σ 2025 effektiv bezahlte Beiträge (Einreichung auf Verlangen; im Zweifel beilegen, vgl. Formularhinweis unter Ziff. 13.3)
   berechnung: Σ 2025 bezahlte periodische Unterhaltsbeiträge an geschiedenen/getrennten Ehegatten → voll (Code 254; Kanton = Bund)
   beachten:
   - Empfänger versteuert sie in Ziff. 5.1 (Korrespondenzprinzip)
-  - 'Bund: Kapitalabfindung nicht abziehbar; Naturalleistungen (Miete, KK-Prämien, Schuldzinsen) gleichgestellt'
+  - 'Nur periodische Beiträge: Kapitalabfindung gilt als Schuldentilgung, nicht abziehbar; Naturalleistungen (Miete, KK-Prämien, Schuldzinsen) gleichgestellt. Fundstelle nur Bundespraxis (KS 30 Ziff. 14.1.2, WL 2a); WL ZH 2025 äussert sich nicht, eine ZH-Abweichung ist nicht belegt.'
 - ziffer: '13.2'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (Code 255)
@@ -963,10 +973,16 @@ positionen:
     zitat: jedoch nicht für freiwillig erbrachte Alimente
   - chunk: bund-ks-30__c0100
     zitat: müssen sie effek- tiv bezahlt worden sein.
+  - chunk: zh-form-300-2025__c0007
+    zitat: Mit der Steuererklärung 2025 sind sämtliche Zahlungsnachweise einzureichen.
+  - chunk: zh-wl-2025__c0080
+    zitat: Leibrenten und Verpfründungen einzureichen (insbesondere Leibrenten- bzw.
+  - chunk: zh-wl-2025__c0207
+    zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
   status: agent-geprueft
   rein:
   - Urteil/Unterhaltsvertrag → Kinderalimente je Kind
-  - Zahlungsbelege mit Monatszuordnung → bezahlt bis und mit Monat des 18. Geburtstags
+  - Zahlungsbelege mit Monatszuordnung → bezahlt bis und mit Monat des 18. Geburtstags (Einreichung auf Verlangen; im Zweifel beilegen, vgl. Formularhinweis unter Ziff. 13.3)
   berechnung: Σ bezahlte Kinderalimente je Kind bis und mit dem Monat, in dem das Kind 18 wird (Code 255; Kanton = Bund)
   beachten:
   - Ab Folgemonat kein Abzug; stattdessen Kinderabzug Ziff. 24.1 (Erstausbildung, Unterhalt zur Hauptsache)
@@ -2691,7 +2707,7 @@ positionen:
   - 'Geschäftsfahrzeug: kein Fahrkostenabzug; Bund: km-Abzug nur ohne verfügbares/zumutbares ÖV'
 - ziffer: Form. 360 Ziff. 7
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: Begründung für Benützung eines privaten Motorfahrzeugs (Code 2041–2044 Person 1 / 2241–2244 Person 2); Geschäftsfahrzeug
+  bezeichnung: 'Begründung private Motorfahrzeugbenützung ankreuzen: 2041 Fehlen ÖV, 2042 Zeitersparnis über 1 Std., 2043 ständige Benützung während der Arbeitszeit auf Verlangen und gegen Entschädigung des AG, 2044 Krankheit/Gebrechlichkeit (Arztzeugnis) (Person 2: 2241–2244); Geschäftsfahrzeug'
   key: abzug.berufskosten.fahrkosten
   belege:
   - fahrzeugausweis-arbeitsweg
@@ -2701,6 +2717,10 @@ positionen:
   quellen:
   - chunk: zh-form-360-2025__c0005
     zitat: Fehlen eines öffentlichen Verkehrsmittels (siehe Wegleitung) 2041
+  - chunk: zh-form-360-2025__c0005
+    zitat: Zeitersparnis von über 1 Stunde bei Benützung des privaten Motorfahrzeuges   2042
+  - chunk: zh-form-360-2025__c0005
+    zitat: Ständige Benützung während der Arbeitszeit auf Verlangen und gegen Entschädigung des Arbeitgebers   2043
   - chunk: zh-form-360-2025__c0005
     zitat: Arbeitnehmende, die über ein Geschäftsfahrzeug verfügen, können keine Fahrkosten in Abzug bringen.
   - chunk: zh-form-360-2025__c0010

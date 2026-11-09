@@ -591,7 +591,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Fahrt über Mittag: Fahrkosten max. 3'200 / 1'600 (= Verpflegungsabzug); Maxima Kanton und Bund beachten
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#form-4-ziff-1-1-abzug-berufskosten-fahrkosten) · [WL AR 2025 S. 13](../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0074.md)
 
-### Form. 4 Ziff. 1.2 · Fahrrad/Kleinmotorrad bis 50 cm3 (gelbes Kontrollschild) (Code 402 / 452) ☑️
+### Form. 4 Ziff. 1.2 · Fahrrad/Kleinmotorrad bis 50 cm3 (gelbes Kontrollschild) (Code 402 Person 1 / 452 Person 2) ☑️
 - **Rein:** Keine Belege – Pauschale (Code 402 Person 1 / 452 Person 2) · Form. 4 Kopf → Arbeitgeber, Arbeitsort, Pensum, Erwerbsdauer
 - **Rechnen:** Pauschal bis Fr. 700 pro Jahr; zählt zur Gesamtlimite Fr. 6'000.
 - **Limite (Kanton / Bund):** Pauschale (CHF): CHF 700 / CHF 700 · Maximalabzug pro Person (CHF): CHF 6'000 / CHF 3'300
@@ -608,7 +608,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** > 220 Arbeitstage nachweisen; Park and Ride nur bis nächste Haltestelle; Heimfahrt über Mittag max. Fr. 3'200 / 1'600
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#form-4-ziff-1-3-abzug-berufskosten-fahrkosten) · [WL AR 2025 S. 13](../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0074.md)
 
-### Form. 4 Ziff. 2.1 · Mehrkosten auswärtige Verpflegung: Fr. 15 pro Arbeitstag, max. Fr. 3'200 (Code 408 / 458) ☑️
+### Form. 4 Ziff. 2.1 · Mehrkosten auswärtige Verpflegung: Fr. 15 pro Arbeitstag, max. Fr. 3'200 (Code 408 Person 1 / 458 Person 2) ☑️
 - **Rein:** Lohnausweis → Feld G nicht angekreuzt (sonst Ziff. 2.2) · Arbeitstage mit auswärtiger Hauptmahlzeit
 - **Rechnen:** Nur wenn die Heimkehr zum Mittagessen nicht möglich ist (grosse Entfernung): Fr. 15 pro Hauptmahlzeit, bei regelmässiger auswärtiger …
 - **Limite (Kanton / Bund):** Verpflegungsmehrkosten pro Arbeitstag (CHF): CHF 15 / CHF 15 · Verpflegungsmehrkosten pro Jahr (CHF): CHF 3'200 / CHF 3'200
@@ -617,7 +617,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Nicht zusammen mit Schicht-/Nachtarbeit (Ziff. 2.3)
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#form-4-ziff-2-1-abzug-berufskosten-verpflegung) · [Formular 4 AR 2025 S. 1](../chunks/ar/2025/ar-form-04-2025/ar-form-04-2025__c0003.md)
 
-### Form. 4 Ziff. 2.2 · Verpflegung durch Arbeitgeber verbilligt (Kantine, Lunch-Checks, Beitrag): Fr. 7.50 pro Tag, max. Fr. 1'600 (Code 410 / … ☑️
+### Form. 4 Ziff. 2.2 · Verpflegung durch Arbeitgeber verbilligt (Kantine, Lunch-Checks, Beitrag): Fr. 7.50 pro Tag, max. Fr. 1'600 (Code 410 … ☑️
 - **Rein:** Lohnausweis → Feld G angekreuzt (Kantine, AG-Beitrag, Gutscheine) · Arbeitstage mit verbilligter Hauptmahlzeit
 - **Rechnen:** Lohnausweis Feld G angekreuzt (Kantine, Lunch-Checks, Arbeitgeberbeitrag) -> in der Regel nur halber Abzug Fr. 7.50 pro Tag, max. Fr. 1'600 …
 - **Limite (Kanton / Bund):** Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): CHF 7.50 / CHF 7.50 · Verpflegung bei Verbilligung pro Jahr (CHF): CHF 1'600 / CHF 1'600
@@ -626,7 +626,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Nicht kumulierbar mit Ziff. 2.1 oder 2.3
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#form-4-ziff-2-2-abzug-berufskosten-verpflegung) · [Formular 4 AR 2025 S. 1](../chunks/ar/2025/ar-form-04-2025/ar-form-04-2025__c0003.md)
 
-### Form. 4 Ziff. 2.3 · Schicht-/Nachtarbeit (durchgehend mind. 8 Std.): Fr. 15 pro Schichttag, max. Fr. 3'200 (Code 412 / 462) ☑️
+### Form. 4 Ziff. 2.3 · Schicht-/Nachtarbeit (durchgehend mind. 8 Std.): Fr. 15 pro Schichttag, max. Fr. 3'200 (Code 412 Person 1 / 462 Person … ☑️
 - **Rein:** Arbeitgeberbescheinigung (Lohnausweis, Bemerkungen) → Anzahl geleisteter Schichttage
 - **Rechnen:** Nur bei durchgehender, mindestens achtstündiger Schicht-/Nachtarbeit; Anzahl Schichttage vom Arbeitgeber bescheinigt (Lohnausweis Ziff. …
 - **Limite (Kanton / Bund):** Schicht-/Nachtarbeit pro Tag (CHF): CHF 15 / CHF 15
@@ -635,7 +635,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Nicht zusätzlich zu Ziff. 2.1/2.2
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#form-4-ziff-2-3-abzug-berufskosten-verpflegung) · [Formular 4 AR 2025 S. 1](../chunks/ar/2025/ar-form-04-2025/ar-form-04-2025__c0003.md)
 
-### Form. 4 Ziff. 3 · Übrige Berufskosten: Pauschale Fr. 700 + 10 % des Nettolohns, max. Fr. 2'400 (Code 416 / 466) oder tatsächliche Kosten … ☑️
+### Form. 4 Ziff. 3 · Übrige Berufskosten: Pauschale Fr. 700 + 10 % des Nettolohns, max. Fr. 2'400 (Code 416 Person 1 / 466 Person 2) oder … ☑️
 - **Rein:** Lohnausweis → Nettolohn (= Ziff. 1.1 Steuererklärung) als Basis der Pauschale · Lohnausweis → Pauschalspesen des Arbeitgebers prüfen
 - **Rechnen:** Pauschale für jede unselbständig erwerbstätige Person; auch bei Taggeldern der ALV sinngemäss.
 - **Limite (Kanton / Bund):** Pauschale in % des Nettolohns: 10 % / 3 % · fixer Pauschalbetrag (CHF), falls Formel «fix + %»: CHF 700 / n/a · Pauschale Maximum (CHF): CHF 2'400 / CHF 4'000 · Regel: Kosten eines Arbeitszimmers in der Privatwohnung sind abziehbar, wenn … / Privates Arbeitszimmer: nur als Teil der Pauschale 'übrige Berufskoste… · Pauschale Minimum (CHF): n/a / CHF 2'000
@@ -644,7 +644,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Bund: Pauschale bei Teilzeit oder unterjähriger Tätigkeit angemessen kürzen
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#form-4-ziff-3-abzug-berufskosten-uebrige) · [Formular 4 AR 2025 S. 1](../chunks/ar/2025/ar-form-04-2025/ar-form-04-2025__c0003.md)
 
-### Form. 4 Ziff. 4 · Wochenaufenthalt: Zimmer (Code 426 / 476), Verpflegung Fr. 30/Tag, max. Fr. 6'400 bzw. Fr. 22.50/Tag, max. Fr. 4'800 … ☑️
+### Form. 4 Ziff. 4 · Wochenaufenthalt: Zimmer (Code 426 Person 1 / 476 Person 2), Verpflegung Fr. 30/Tag, max. Fr. 6'400 bzw. Fr. 22.50/Tag, … ☑️
 - **Rein:** Heimfahrten an den Wohnsitz → Ziff. 1 Fahrkosten
 - **Rechnen:** Code 426 = Monate × min(Zimmermiete/Monat; 800) (Kanton) + Code 428 = min(Tage × 30; 6'400), verbilligt min(Tage × 22.50; 4'800); Verpflegung Kanton = Bund
 - **Limite (Kanton / Bund):** Unterkunft (Regel): Wochenaufenthalt: Kosten für ein auswärtiges Zimmer je nach Arbeitsort… / Mehrkosten Unterkunft: ortsübliche Auslagen für ein Zimmer (nicht eine… · Mehrkosten Verpflegung pro Jahr (CHF): CHF 6'400 / CHF 6'400
@@ -653,7 +653,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Beachten:** Bund: Nachweis höherer Verpflegungskosten ausgeschlossen; Zimmer nur ortsübliche Auslagen
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#form-4-ziff-4-abzug-berufskosten-wochenaufenthalt) · [Formular 4 AR 2025 S. 1](../chunks/ar/2025/ar-form-04-2025/ar-form-04-2025__c0004.md)
 
-### Form. 4 Ziff. 5 · Unselbständiger Nebenerwerb: Pauschale 20 % der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2'400 (Code 432 / 482) oder … ☑️
+### Form. 4 Ziff. 5 · Unselbständiger Nebenerwerb: Pauschale 20 % der Nettoeinkünfte, mind. Fr. 800, max. Fr. 2'400 (Code 432 Person 1 / 482 … ☑️
 - **Rein:** Lohnausweis Nebenarbeitgeber → Nettolohn Nebenerwerb (Ziff. 1.2 Steuererklärung)
 - **Rechnen:** Nur bei echtem Nebenerwerb neben vollem Hauptberuf für einen anderen Arbeitgeber; bis Nettolohn Fr. 800: Auslagen bis zur Höhe des …
 - **Limite (Kanton / Bund):** Pauschale in % der Nebeneinkünfte: 20 % / 20 % · Pauschale Minimum (CHF): CHF 800 / CHF 800 · Pauschale Maximum (CHF): CHF 2'400 / CHF 2'400

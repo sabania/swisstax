@@ -26,7 +26,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 ### S. 1 Kinder · Minderjährige, in Ausbildung stehende oder erwerbsunfähige Kinder, deren Unterhalt bestritten wird ☑️
 - **Rein:** Geburtsurkunde/Familienausweis → genaues Geburtsdatum (Jahrgang bestimmt Abzugshöhe) · Lehrvertrag/Schul-/Studienbestätigung → Ausbildungsstätte + voraussichtliches Ende (Jg. 2007 und älter) · Scheidungs-/Trennungsurteil, Unterhaltsvertrag → Alimente ja/nein, gemeinsames Sorgerecht, alternierende Obhut · Angaben Mandant → Kind im eigenen Haushalt? gemeinsames Kind mit Konkubinatspartner/in?
 - **Rechnen:** Ziff. 25.1 je Kind: Kanton Fr. 10'600 (Ausbildung, Jg. 2001–2006) / Fr. 8'500 (Ausbildung, Jg. 2007–2010) / Fr. 7'400 (übrige); Bund Fr. 6'800
-- **Limite (Kanton / Bund):** Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 8'500 / CHF 6'800 · Kinderabzug Schulalter (CHF): n/a / n/a · Kinderabzug Grundbetrag (CHF): CHF 7'400 / CHF 6'800 · Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): CHF 10'600 / n/a
+- **Limite (Kanton / Bund):** Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 8'500 / CHF 6'800 · Kinderabzug Schulalter (CHF): n/a / n/a · Kinderabzug Grundbetrag (CHF): CHF 7'400 / CHF 6'800 · siehe Text) (CHF): CHF 10'600 / n/a
 - **Beachten:** Kanton (minderjährig): mit Alimenten nur Empfänger; hälftig nur bei gem. Sorge + alternierender Obhut ohne Alimente
 - **Beachten:** Bund: gem. Sorgerecht ohne Alimente genügt für hälftige Teilung; volljährige Kinder immer ungeteilt
 - **Beachten:** Kein Abzug für Pflege-/Stiefkinder und volljährige Kinder mit Einkommen für selbständigen Lebensunterhalt
@@ -140,7 +140,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Mit Kinderalimenten weitergeleitete Zulagen beim Empfänger in Ziff. 5.2
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#3-4-einkommen-ersatz-familienzulagen) · [Formular 1 TG 2026 S. 2](../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0007.md)
 
-### 4 · Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 2, Code 150) ☑️
+### 4 · Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 1 Code 150, Übertrag aus Formular 2) ☑️
 - **Rein:** Steuerauszug Bank/Depot → Formular 2: Steuerwerte, Erträge Spalte 8/A (mit VSt) bzw. 9/B (ohne VSt) · Zinsausweise/Kontoauszüge → Bruttozinsen (über Fr. 200/Jahr mit VSt) · Gutschriftsanzeigen ausländischer Dividenden → Nettobetrag + rückforderbare Quellensteuer; DA-1 · Lotterie-Auszahlungsbescheinigung (Original) bzw. Postanweisungsabschnitt → Geldspielgewinne
 - **Rechnen:** Form. 2 Ziff. 9 = Ziff. 5 (Bruttoerträge A+B) − Ziff. 6 Geschäftsanteil − Ziff. 7 Verwaltung (2 ‰ Steuerwert fremdverwaltet, max. Fr. 6'000) − Ziff. 8 Einsatzkosten
 - **Limite (Kanton / Bund):** Lotterie-/Kleingewinne steuerfrei bis (CHF): CHF 1'000 / CHF 1'100 · Grossspielgewinne steuerfrei bis (CHF): CHF 1'000'000 / CHF 1'071'000
@@ -326,7 +326,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Einzeln mit Name/Sitz; Pauschalvermerke («Spenden an diverse Organisationen») nicht anerkannt
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#15-5-abzug-parteispenden) · [Formular 1 TG 2026 S. 3](../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0011.md)
 
-### 15.6 · Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 2 Hilfsblatt, Code 341) ☑️
+### 15.6 · Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 1 Code 341, Übertrag aus Formular 2 Hilfsblatt) ☑️
 - **Rein:** Formular 2, Hilfsblatt qualifizierte Beteiligungen (S. 4) → Ziff. 3 Teilbesteuerungsabzug · Dividendenabrechnung → Beteiligungsertrag 2026 (brutto in Formular 2 Spalte 8/9) · Nachweis Beteiligungsquote ≥ 10% am Grund-/Stammkapital · Formular 2 Detailverzeichnis: Code 05 = qualifizierte Beteiligung im Privatvermögen
 - **Rechnen:** Kanton 40% / Bund 30% × Σ Erträge qualifizierter Beteiligungen PV (Hilfsblatt Ziff. 2) → Ziff. 3 → Ziff. 15.6
 - **Beachten:** Ertrag bleibt voll in Formular 2 (Spalte 8/9) deklariert; Entlastung nur über Antrag im Hilfsblatt
@@ -425,7 +425,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 ### 25.1 · Sozialabzug für Kinder: a) in Ausbildung Jg. 2001–2006 (Code 380); Jg. 2007–2010 (Code 382); b) übrige Kinder (Code 384) ☑️
 - **Rein:** Personalien (Kinder) → Jahrgang, Ausbildung/Erwerbsunfähigkeit, Unterhalt · Getrennte Eltern: Unterhaltsregelung → Alimente, Sorgerecht, Obhut (Zuteilung)
 - **Rechnen:** Σ je Kind – Kanton: Ausbildung Jg. 2001–2006 10'600 (Code 380) / Jg. 2007–2010 8'500 (382) / übrige 7'400 (384); Bund 6'800 je Kind
-- **Limite (Kanton / Bund):** Kinderabzug Grundbetrag (CHF): CHF 7'400 / CHF 6'800 · Kinderabzug Vorschulalter (CHF): n/a / n/a · Kinderabzug Schulalter (CHF): n/a / n/a · Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 8'500 / CHF 6'800 · Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): CHF 10'600 / n/a
+- **Limite (Kanton / Bund):** Kinderabzug Grundbetrag (CHF): CHF 7'400 / CHF 6'800 · Kinderabzug Vorschulalter (CHF): n/a / n/a · Kinderabzug Schulalter (CHF): n/a / n/a · Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 8'500 / CHF 6'800 · siehe Text) (CHF): CHF 10'600 / n/a
 - **Beachten:** Stichtag 31. Dezember 2026, kein pro rata (nur bei unterjähriger Steuerpflicht anteilig); keine Pflege-/Stiefkinder
 - **Beachten:** Kanton getrennt (minderjährig): Alimente-Empfänger; ohne Alimente hälftig nur bei gem. Sorge + alternierender Obhut
 - **Beachten:** Bund: gem. Sorge ohne Alimente → hälftig; volljährige Kinder ungeteilt, i.d.R. an Unterhaltszahler
@@ -484,7 +484,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 
 ## Vermögen
 
-### 30.1 · Wertschriften und Guthaben (Formular 2, Code 410) ☑️
+### 30.1 · Wertschriften und Guthaben (Formular 1 Code 410, Übertrag aus Formular 2) ☑️
 - **Rein:** Formular 2 Ziff. 9 → Total Steuerwert Privatvermögen (Code 410) · Steuer-/Depotauszug Bank → Steuerwerte und Kontosaldi per 31.12.2026 · ESTV-Kursliste → Kurse und Devisenkurse Ende Dezember 2026
 - **Rechnen:** Formular 2: Ziff. 5 (Σ Steuerwerte = Verkehrswerte; kotiert Kurs Ende Dez. 2026, Ausland × ESTV-Devisenkurs) − Ziff. 6 Geschäftswertschriften = Ziff. 9 → Code 410
 - **Beachten:** PK-, Freizügigkeits- und nicht fällige 3a-Guthaben nicht deklarieren
@@ -631,7 +631,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Bietet der Arbeitgeber eine Fahrmöglichkeit, besteht kein Abzug (§ 6 BKV TG)
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-4-2-ziff-1-2-abzug-berufskosten-fahrkosten) · [Formular 4.2/4.3 TG 2026 S. 1](../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0001.md)
 
-### Form. 4.2/4.3 Ziff. 2.1 · Abonnementskosten öffentliche Verkehrsmittel (Code 206 / 246) ☑️
+### Form. 4.2/4.3 Ziff. 2.1 · Abonnementskosten öffentliche Verkehrsmittel (Code 206 Person 1 / 246 Person 2) ☑️
 - **Rein:** ÖV-Abonnement/Quittung → nachgewiesene Abokosten Arbeitsweg · Lohnausweis → Bst. F nicht angekreuzt · ÖV-Belege Wochenaufenthalt → Heimkehr bzw. Unterkunft–Arbeitsstätte
 - **Rechnen:** Σ nachgewiesene Abokosten (inkl. Wochenaufenthalt) → Ziff. 2.4; Plafond in Ziff. 2.5: Kanton 6'000 / Bund 3'300
 - **Limite (Kanton / Bund):** Maximalabzug pro Person (CHF): CHF 6'000 / CHF 3'300
@@ -640,7 +640,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Tatsächliche Abokosten gelten für Kanton und Bund gleich; Unterschied erst beim Plafond
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-4-2-4-3-ziff-2-1-abzug-berufskosten-fahrkosten) · [Formular 4.2/4.3 TG 2026 S. 1](../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0002.md)
 
-### Form. 4.2/4.3 Ziff. 2.2 · Fahrrad, Kleinmotorrad bis 50 cm³ pauschal Fr. 700 (Code 210 / 250) ☑️
+### Form. 4.2/4.3 Ziff. 2.2 · Fahrrad, Kleinmotorrad bis 50 cm³ pauschal Fr. 700 (Code 210 Person 1 / 250 Person 2) ☑️
 - **Rein:** Kein Beleg nötig (Pauschale) · Angabe Fahrzeugart: Fahrrad, Motorfahrrad, Kleinmotorrad (gelbes Kontrollschild) · Form. 4.2 Ziff. 1.1 → Dauer der Erwerbstätigkeit (für Umrechnung)
 - **Rechnen:** pauschal bis 700 pro Jahr (Kanton = Bund); bei unterjähriger Erwerbstätigkeit auf die Dauer umrechnen
 - **Limite (Kanton / Bund):** Pauschale (CHF): CHF 700 / CHF 700 · Ansatz pro km (CHF): CHF 0.40 / CHF 0.40
@@ -649,7 +649,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Zählt zum Fahrkostenmaximum (Ziff. 2.5)
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-4-2-4-3-ziff-2-2-abzug-berufskosten-fahrkosten) · [Formular 4.2/4.3 TG 2026 S. 1](../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0002.md)
 
-### Form. 4.2/4.3 Ziff. 2.3 · Kosten für privates Motorfahrzeug (Auto / Motorrad über 50 cm³): km pro Tag × Anzahl Tage (Code 211 / 251), Spalten … ⚠️
+### Form. 4.2/4.3 Ziff. 2.3 · Kosten für privates Motorfahrzeug (Auto / Motorrad über 50 cm³): km pro Tag × Anzahl Tage (Code 211 Person 1 / 251 … ⚠️
 - **Rein:** Angaben Arbeitsweg → km pro Tag (Wohnadresse – Fahrzeugstandort am Arbeitsort bzw. P+Rail), Anzahl Tage · Begründung Unzumutbarkeit ÖV (Fahrplan, Umsteigen, Distanz Haltestelle, Zeitersparnis) · Belege Parkgebühren P+Rail
 - **Rechnen:** km/Jahr = km/Tag × Tage (≤ 225 bei 100%); Kanton Auto: 3'000 km × 0.60 + nächste 2'000 × 0.50 + Rest × 0.40; Bund Auto km × 0.75 (strittig); Motorrad km × 0.40
 - **Limite (Kanton / Bund):** Ansatz pro km (CHF): Privatauto (nur in begruendeten Ausnahmefaellen, wenn OeV nicht zur Ve… / CHF 0.75 · Ansatz pro km (CHF): CHF 0.40 / CHF 0.40 · massgebende Arbeitstage pro Jahr: 225 Tage / n/a
@@ -657,7 +657,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** P+Rail grundsätzlich zumutbar (dann Parkgebühren abziehbar); in den km-Ansätzen sind Parkgebühren enthalten
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-4-2-4-3-ziff-2-3-abzug-berufskosten-fahrkosten) · [Formular 4.2/4.3 TG 2026 S. 1](../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0002.md)
 
-### Form. 4.2/4.3 Ziff. 2.4 · Total effektive Fahrkosten (Ziff. 2.1–2.3) (Code 212 / 252) ☑️
+### Form. 4.2/4.3 Ziff. 2.4 · Total effektive Fahrkosten (Ziff. 2.1–2.3) (Code 212 Person 1 / 252 Person 2) ☑️
 - **Rein:** Übertrag aus Ziff. 2.1, 2.2 und 2.3 (je Spalte Staat/Bund)
 - **Rechnen:** Σ Ziff. 2.1 + 2.2 + 2.3, getrennt Kanton / Bund (Bund wegen km-Ansatz in Ziff. 2.3 abweichend)
 - **Beachten:** Geschäftsfahrzeug für den Arbeitsweg (Ziff. 1.2 «Ja») → keine Fahrkosten
@@ -665,9 +665,9 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Behinderungsbedingte Mehrkosten der Fahrt zur Arbeit nicht hier, sondern bei den behinderungsbedingten Kosten
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-4-2-4-3-ziff-2-4-berechnung-total) · [Formular 4.2/4.3 TG 2026 S. 1](../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0002.md)
 
-### Form. 4.2/4.3 Ziff. 2.5 · Total abzugsfähige Fahrkosten – Staat max. Fr. 6'000 / Bund max. Fr. 3'300 (Code 213 / 253) ☑️
+### Form. 4.2/4.3 Ziff. 2.5 · Total abzugsfähige Fahrkosten – Staat max. Fr. 6'000 / Bund max. Fr. 3'300 (Code 213 Person 1 / 253 Person 2) ☑️
 - **Rein:** Übertrag aus Ziff. 2.4 (Spalten Staat/Bund)
-- **Rechnen:** Kanton: min(Ziff. 2.4 Kanton; 6'000); Bund: min(Ziff. 2.4 Bund; 3'300) – je Person
+- **Rechnen:** Kanton: min(Ziff. 2.4 Kanton; 6'000); Bund: min(Ziff. 2.4 Bund; 3'300) – je Person → Form. 4.2/4.3 Ziff. 7 (Code 240/280) → Steuererklärung Seite 3 Ziff. 10.1/10.2
 - **Limite (Kanton / Bund):** Maximalabzug pro Person (CHF): CHF 6'000 / CHF 3'300
 - **Beachten:** Plafond umfasst alle Fahrkosten inkl. Wochenaufenthalt und effektive Nebenerwerbs-Fahrkosten
 - **Beachten:** Keine Kürzung bei unterjähriger Steuerpflicht/Erwerbsdauer oder Teilzeit
@@ -692,7 +692,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Vom AG bezahltes Mittagessen (LA Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt») → kein Abzug (§ 6 BKV TG)
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-4-2-4-3-ziff-3-2-abzug-berufskosten-verpflegung) · [Formular 4.2/4.3 TG 2026 S. 1](../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0003.md)
 
-### Form. 4.2/4.3 Ziff. 4 · Übrige für den Beruf erforderliche Kosten: 3% vom Nettolohn, min. Fr. 2'000, max. Fr. 4'000, oder effektiv (Code 220 / … ☑️
+### Form. 4.2/4.3 Ziff. 4 · Übrige für den Beruf erforderliche Kosten: 3% vom Nettolohn, min. Fr. 2'000, max. Fr. 4'000, oder effektiv (Code 220 … ☑️
 - **Rein:** Lohnausweis → Ziff. 11 Nettolohn (Basis 3%) · Aufstellung + Belege effektive Kosten (Werkzeuge, Fachliteratur, Berufskleider, Verbandsbeiträge)
 - **Rechnen:** max(2'000; min(3% × Nettolohn LA Ziff. 11; 4'000)) je Person, Kanton = Bund; < 12 Monate erwerbstätig: anteilmässig kürzen; oder effektiv
 - **Limite (Kanton / Bund):** Pauschale in % des Nettolohns: 3 % / 3 % · Pauschale Minimum (CHF): CHF 2'000 / CHF 2'000 · Pauschale Maximum (CHF): CHF 4'000 / CHF 4'000
@@ -701,7 +701,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Nebenerwerb nicht hier, sondern separat in Ziff. 6
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-4-2-4-3-ziff-4-abzug-berufskosten-uebrige) · [Formular 4.2/4.3 TG 2026 S. 1](../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0004.md)
 
-### Form. 4.2/4.3 Ziff. 5.1 · Wochenaufenthalt – Unterkunft: ortsübliche Auslagen für ein Zimmer (Code 226 / 266) ☑️
+### Form. 4.2/4.3 Ziff. 5.1 · Wochenaufenthalt – Unterkunft: ortsübliche Auslagen für ein Zimmer (Code 226 Person 1 / 266 Person 2) ☑️
 - **Rein:** Mietvertrag/Mietzinsbelege Zimmer am Arbeitsort → Jahresmiete · Bei Wohnung bis 3,5 Zimmer: Mietvertrag → Jahresmietzins, Zimmerzahl
 - **Rechnen:** Zimmer: ortsübliche Jahresmiete; Wohnung bis 3,5 Zi.: Jahresmietzins : (Zimmerzahl + 1), z.B. 10'800 : (3,5 + 1) = 2'400
 - **Limite (Kanton / Bund):** Unterkunft (Regel): Wochenaufenthalt: notwendige Mehrkosten der Unterkunft - nur ortsuebli… / Wochenaufenthalt: abziehbar sind die ortsüblichen Auslagen für ein Zim…
@@ -719,7 +719,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Bund: Nachweis höherer Kosten ausgeschlossen
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-4-2-4-3-ziff-5-2-abzug-berufskosten-wochenaufenthalt) · [Formular 4.2/4.3 TG 2026 S. 1](../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0004.md)
 
-### Form. 4.2/4.3 Ziff. 6 · Auslagen bei Nebenbeschäftigung: 20% vom Nettolohn, min. Fr. 800, max. Fr. 2'400, oder effektiv (Code 232 / 272) ☑️
+### Form. 4.2/4.3 Ziff. 6 · Auslagen bei Nebenbeschäftigung: 20% vom Nettolohn, min. Fr. 800, max. Fr. 2'400, oder effektiv (Code 232 Person 1 / … ☑️
 - **Rein:** Lohnausweis Nebenerwerb → Ziff. 11 Nettolohn · Aufstellung effektive Kosten (statt Pauschale) · Behördenmitglied: Abrechnung Funktionsentschädigungen, Sitzungsgelder, Pauschalspesen
 - **Rechnen:** max(800; min(20% × Nettolohn NE; 2'400)) ≤ Einkommen der Tätigkeit, Kanton = Bund; Gemeinde-Exekutive: 50% × Entschädigungen, min. 2'000, max. 4'000
 - **Limite (Kanton / Bund):** Pauschale in % der Nebeneinkünfte: 20 % / 20 % · Pauschale Minimum (CHF): CHF 800 / CHF 800 · Pauschale Maximum (CHF): CHF 2'400 / CHF 2'400
@@ -728,7 +728,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Behördenpauschale nur nebenamtliche, gewählte Gemeinde-Exekutive; Kommissionen/Parlamente: ordentliche 20%-Pauschale
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2026-detail.md#form-4-2-4-3-ziff-6-abzug-berufskosten-nebenerwerb) · [Formular 4.2/4.3 TG 2026 S. 1](../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0005.md)
 
-### Form. 4.2/4.3 Ziff. 7 · Total der abzugsfähigen Berufsauslagen (Code 240 / 280) – Übertrag Form. 1 Ziff. 10.1 / 10.2 ☑️
+### Form. 4.2/4.3 Ziff. 7 · Total der abzugsfähigen Berufsauslagen (Code 240 Person 1 / 280 Person 2) – Übertrag Form. 1 Ziff. 10.1 / 10.2 ☑️
 - **Rein:** Übertrag aus Ziff. 2.5, 3.1, 3.2, 4, 5.1, 5.2 und 6 (Form. 4.2 Person 1 / 4.3 Person 2)
 - **Rechnen:** Σ Ziff. 2.5 + 3.1 + 3.2 + 4 + 5.1 + 5.2 + 6, je Spalte Kanton/Bund → Form. 1 Ziff. 10.1 (Person 1) / 10.2 (Person 2)
 - **Beachten:** Fahrkosten nur mit plafoniertem Betrag aus Ziff. 2.5 übernehmen

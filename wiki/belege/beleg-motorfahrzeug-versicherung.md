@@ -54,6 +54,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 
 ## Quellen
 
+- [DBG Art. 34](../../chunks/bund/2025/bund-dbg-2025/bund-dbg-2025__art-34.md) `bund-dbg-2025__art-34` – «die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie»
 - [WL AR 2025 S. 15](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0085.md) `ar-wl-2025__c0085` – «Vom Abzug ausgeschlossen sind die Prämien für Mobiliar-, Motorfahrzeug- und»
 - [WL SG 2025 S. 33](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0111.md) `sg-wl-2025__c0111` – «kann pro Jahr seit Erwerb eine Wertverminderung von 20% vom Anschaffungswert abgerechnet werden.»
 - [WL TG 2025 S. 26](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0123.md) `tg-wl-2025__c0123` – «Nicht deklariert werden müssen geleaste Fahr-»

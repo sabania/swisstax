@@ -486,7 +486,7 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
   - [StG ZH § 34](../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-34.md) `zh-stg-2025__par-34` – «sowie für volljährige Kinder, die in der beruflichen Erstausbildung stehen und deren Unterhalt der Steuerpflichtige zur Hauptsache bestreitet, je Fr. 9300»
 
 <a id="sozialabzug-kind-ausbildung-auswaerts"></a>
-### Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+### Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)
 
 - **Wert:** n/a – ZH kennt keinen zusätzlichen Abzug für auswärtige Ausbildung (kein entsprechender Tatbestand in § 34 StG).
 - **Schlüssel:** `sozialabzug.kind_ausbildung_auswaerts` · **gilt für:** kanton · **Status:** – na

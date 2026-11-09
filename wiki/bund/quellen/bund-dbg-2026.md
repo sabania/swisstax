@@ -15,9 +15,11 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 73 Daten-Einträgen und 27 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-dbg-2026`).
+Zitiert in 75 Daten-Einträgen und 27 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-dbg-2026`).
 
+- `data/belege-teil3.yaml#9:privatrechnungen-alltag` (agent-geprueft)
 - `data/werte/bund/2026.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/werte/bund/2026.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
 - `data/werte/bund/2026.yaml#20:weiterbildung.max` (agent-geprueft)
 - `data/werte/bund/2026.yaml#21:versicherung.verheiratet` (agent-geprueft)
 - `data/werte/bund/2026.yaml#22:versicherung.verheiratet_ohne_vorsorge` (agent-geprueft)
@@ -55,9 +57,7 @@ Zitiert in 73 Daten-Einträgen und 27 handgeschriebenen Seiten (`python3 tools/i
 - `data/zuordnung/sg/2026.yaml#13:abzug.teilbesteuerung_beteiligungen@4.4` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#18:einkommen.kapitalabfindung_wiederkehrend@6.4` (agent-geprueft)
 - `data/zuordnung/sg/2026.yaml#20:einkommen.vereinfachtes_verfahren@8.1` (agent-geprueft)
-- `data/zuordnung/sg/2026.yaml#21:info.steuerfreie_leistungen@8.2` (agent-geprueft)
-- `data/zuordnung/sg/2026.yaml#48:sozialabzug.kinder@23.3` (agent-geprueft)
-- … 33 weitere
+- … 35 weitere
 - [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 - [wiki/themen/ehepaare-familie.md](../../themen/ehepaare-familie.md)

@@ -144,7 +144,8 @@ belege:
   urteil: bestätigt
 - beleg_id: kontoauszug-zinsausweis
   einreichen: unklar
-  bedingung: als «benötigte Unterlage» genannt; Beilagepflicht nicht ausdrücklich (allenfalls «weitere notwendige Belege» zu Formular 2)
+  bedingung: nur als Unterlage zum Ausfüllen genannt (c0026); nicht in der Liste «Immer einzureichen» (c0035/c0036, Aufzählung «z.B.»); zu Formular 2 nur allgemein «allfällig weitere notwendige Belege»
+    (c0142); weitere Belege auf Verlangen der Veranlagungsbehörde (§ 157 Abs. 1 StG, tg-stg__par-157) → keine ausdrückliche Beilagepflicht
   chunk: tg-wl-2025__c0026
   zitat: Zins- und Kapitalbescheinigungen von Bank- und Postkonto, aus denen die Bruttozinsen, die abgezogene Verrechnungssteuer und der Kontostand ersichtlich sind;
   urteil: bestätigt

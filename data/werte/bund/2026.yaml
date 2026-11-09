@@ -138,14 +138,21 @@ werte:
 - key: berufskosten.uebrige.satz
   wert: 3
   einheit: '%'
-  text: 'Übrige Berufskosten: Pauschale 3 % des Nettolohns, mindestens CHF 2''000, höchstens CHF 4''000 pro Jahr; Nachweis höherer tatsächlicher Kosten möglich. Bei Teilzeit/Teiljahr angemessen zu kürzen.'
+  text: 'Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2''000, max. CHF 4''000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten
+    möglich. Fahrkosten (lit. a, max. 3''300) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.'
   gilt_fuer: bund
-  rechtsgrundlage: Art. 26 Abs. 1 lit. c, Abs. 2 DBG; Art. 7 BKV; Anhang Ziff. 1 BKV
+  rechtsgrundlage: Art. 26 Abs. 1 lit. c, Abs. 2 DBG; Art. 4 und 7 BKV; Anhang Ziff. 1 BKV
   quellen:
   - chunk: bund-bkv-2026__anhang-1
     zitat: 3 % des Nettolohns, mindestens im Jahr | 2000.—
   - chunk: bund-wl-2a-2026__c0040
     zitat: Der Pauschalabzug beträgt 3 % des Nettolohnes, mindestens
+  - chunk: bund-dbg-2026__art-26
+    zitat: im Fall von Absatz 1 Buchstabe c steht der steuerpflichtigen Person der Nachweis höherer Kosten offen
+  - chunk: bund-dbg-2026__art-26
+    zitat: bis zu einem Maximalbetrag von 3300 Franken
+  - chunk: bund-bkv-2026__art-7
+    zitat: Der Pauschalabzug ist angemessen zu kürzen, wenn die unselbständige Erwerbstätigkeit bloss während eines Teils des Jahres oder als Teilzeitarbeit ausgeübt wird.
   status: agent-geprueft
 - key: berufskosten.uebrige.fix
   wert: null

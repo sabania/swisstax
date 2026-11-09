@@ -32,7 +32,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 |---|---|
 | [AR 2025](../../quick/zuordnung-ar-2025.md) | 4.1 |
 | [AR 2026](../../quick/zuordnung-ar-2026.md) | 4.1 |
-| [SG 2025](../../quick/zuordnung-sg-2025.md) | 4.1 |
+| [SG 2025](../../quick/zuordnung-sg-2025.md) | 4.1, 16.1 |
 | [SG 2026](../../quick/zuordnung-sg-2026.md) | 4.1, 6.3 |
 | [TG 2025](../../quick/zuordnung-tg-2025.md) | 4, Form. 2 Einsatzkosten Geldspiele (Code 145) |
 | [TG 2026](../../quick/zuordnung-tg-2026.md) | 4, Form. 2 Ziff. 8 (im Formular-Chunk «18», Code 145) |

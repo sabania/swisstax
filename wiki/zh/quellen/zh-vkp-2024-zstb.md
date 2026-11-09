@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-48-1/zstb-nr-48-1_gueltig-ab-01-01-2024.pdf> · lokal: [zh-vkp-2024-zstb.pdf](../../../raw/zh/2025/zh-vkp-2024-zstb.pdf) · Volltext: [zh-vkp-2024-zstb.md](../../../sources/zh/2025/zh-vkp-2024-zstb.md)
 - **Abgerufen:** 2026-11-09 · sha256 `308a0536410d5f79…`
 - **Gültigkeit:** Zeitbezug steuerperiode (materiell für die genannten Steuerjahre) · gilt ab 2024-01-01 bis 2025-12-31 · ersetzt durch `zh-vkp-2026-zstb`
-- ⚠ **Hinweis:** gilt für Steuerperioden 2024 und 2025
+- ⚠ **Hinweis:** gilt für Steuerperioden 2024 und 2025; Ausnahme § 31 Abs. 1 lit. j (Drittbetreuung): der VKP-Betrag Fr. 10 400 ist nicht anzuwenden – lit. j lautet gemäss G vom 21. August 2023 (OS 78, 484; in Kraft seit 1. Januar 2024) auf Fr. 25 000 (zh-stg-2025__par-31-t4; Fussnote 110: sources/zh/2025/zh-stg-2025.md Z. 685 bzw. raw/zh/2025/zh-stg-2025.pdf S. 102)
 
 ## Verwendet in (Änderungsauswirkung)
 

@@ -233,10 +233,10 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 
 ### 12.1 · Unterhaltsbeiträge an Geschiedene oder Getrennte (Code 200) ☑️
 - **Rein:** Scheidungsurteil/Trennungsvereinbarung → vereinbarter Unterhaltsbeitrag (bei erstmaliger Zahlung beilegen) · Zahlungsnachweise (Bank) → 2026 bezahlte Beiträge (Aufstellung)
-- **Rechnen:** Σ 2026 bezahlte Unterhaltsbeiträge an geschiedenen bzw. gerichtlich/tatsächlich getrennt lebenden Ehegatten (Kanton = Bund; Bund: ohne Kapitalabfindung)
+- **Rechnen:** Σ 2026 bezahlte Unterhaltsbeiträge an geschiedenen bzw. gerichtlich/tatsächlich getrennt lebenden Ehegatten (Kanton = Bund; ohne Kapitalabfindung)
 - **Beachten:** Gegenstück: beim Empfänger steuerbar (Ziff. 6.1, Code 154; Art. 36 Bst. f StG)
 - **Beachten:** Nicht abziehbar: Leistungen aus anderen familienrechtlichen Unterhalts-/Unterstützungspflichten
-- **Beachten:** Bund: Kapitalabfindung = Schuldentilgung, nicht abziehbar; Naturalleistungen (Miete, KK-Prämien) = Alimente
+- **Beachten:** Nur periodische/laufende Beiträge: Kapitalabfindung gilt als Schuldentilgung, nicht abziehbar (WL 2a 2026); SG: StV Art. 15 – als Unterhaltsbeiträge gelten ausschliesslich die laufenden Beiträge (Empfängerseite); Naturalleistungen (Miete, KK-Prämien) = Alimente (WL 2a 2026)
 - ↗ [Detail](../wiki/sg/zuordnung-sg-2026-detail.md#12-1-abzug-unterhaltsbeitraege) · [Formular 1 SG 2026 UJ S. 3](../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0007.md)
 
 ### 12.2 · Unterhaltsbeiträge für minderjährige Kinder (Code 202) ☑️
@@ -412,7 +412,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 ### 23.2 · Kinderabzug für jedes Kind in Schule oder Ausbildung (Fr. 10'800, Code 254) ☑️
 - **Rein:** Seite 1 Kinderangaben → Kinder in Schule/Ausbildung; bei beruflicher Ausbildung Schule/Lehrfirma und «Dauer bis»
 - **Rechnen:** Anzahl Kinder (unter Sorge/Obhut oder volljährig) in schulischer/beruflicher Ausbildung × 10'800; UJ ÷ 360 × Tage; Bund: 6'800 je Kind + 263 vom Steuerbetrag
-- **Limite (Kanton / Bund):** Kinderabzug Schulalter (CHF): CHF 10'800 / n/a · Kinderabzug Grundbetrag (CHF): n/a / CHF 6'800 · Abzug vom Steuerbetrag pro Kind (CHF, Bund): n/a / CHF 263 · Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): CHF 13'800 / n/a
+- **Limite (Kanton / Bund):** Kinderabzug Schulalter (CHF): CHF 10'800 / n/a · Kinderabzug Grundbetrag (CHF): n/a / CHF 6'800 · Abzug vom Steuerbetrag pro Kind (CHF, Bund): n/a / CHF 263 · siehe Text) (CHF): CHF 13'800 / n/a
 - **Beachten:** Nur bei Unterhalt zur Hauptsache und ohne Abzug nach Art. 45 Abs. 1 Bst. c (Unterhaltsbeiträge)
 - **Beachten:** UJ-Beispiel: 10'800 ÷ 360 × 180 Tage = 5'400 (für den Satz voller Betrag)
 - **Beachten:** Zusätzlich Ziff. 23.3: Ausbildungskosten über 3'200, max. 13'800 je Kind; Bund volljährig: Unterhalt ≥ Sozialabzug
@@ -421,7 +421,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 ### 23.3 · Ausbildungskosten für Kinder in Schule oder Ausbildung gemäss Formular 10 (Code 256) ☑️
 - **Rein:** Rechnungen Ausbildung (Formular 10) → selbst getragene Ausbildungskosten je Kind · Kinderliste Seite 1 → Kind in Schule/Ausbildung (Voraussetzung Kinderabzug Ziff. 23.2)
 - **Rechnen:** Kanton je Kind: min(selbst getragene Kosten − 3'200; 13'800), nur falls Kosten > 3'200 / Bund: kein Ausbildungskostenabzug (nur Kinderabzug 6'800)
-- **Limite (Kanton / Bund):** Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): CHF 13'800 / n/a · Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 10'800 / CHF 6'800
+- **Limite (Kanton / Bund):** siehe Text) (CHF): CHF 13'800 / n/a · Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 10'800 / CHF 6'800
 - **Beachten:** Voraussetzungen wie Kinderabzug Ziff. 23.2 (10'800): Unterhalt zur Hauptsache, Kind in Ausbildung (auch volljährig)
 - **Beachten:** UJ: Abzug × Tage/360 kürzen, für Satzbestimmung voll (Art. 48 Abs. 3 StG; Merkblatt UJ Ziff. 7)
 - **Beachten:** Verhältnisse am 31. Dezember 2026 bzw. Ende der Steuerpflicht massgebend (Art. 48 Abs. 2 StG)
@@ -759,7 +759,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 ### Form. 10 (Kinderbetreuung/Ausbildung) · Formular 10: Kinderbetreuungskosten → Ziff. 16.2 (Code 258); Ausbildungskosten Kinder → 23.3 (256) ☑️
 - **Rein:** Rechnungen Kita/Tagesfamilie/Hort → Ziff. 16.2 (Code 258), je Kind unter 14 J. · Nachweis Erwerbstätigkeit/Ausbildung/Erwerbsunfähigkeit → Kausalität Betreuung · Rechnungen Schul-/Ausbildungskosten Kind (selbst getragen) → Ziff. 23.3 (Code 256)
 - **Rechnen:** 16.2 = min(Betreuungskosten; Kanton 26'800 / Bund 25'800) je Kind; 23.3 (nur Kanton) = min(max(Ausbildungskosten − 3'200; 0); 13'800) je Kind
-- **Limite (Kanton / Bund):** Maximum pro Kind (CHF): CHF 26'800 / CHF 25'800 · Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 10'800 / CHF 6'800 · Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): CHF 13'800 / n/a · Altersgrenze Kind: 14 / 14 Jahre · Kinderabzug Grundbetrag (CHF): n/a / CHF 6'800
+- **Limite (Kanton / Bund):** Maximum pro Kind (CHF): CHF 26'800 / CHF 25'800 · Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 10'800 / CHF 6'800 · siehe Text) (CHF): CHF 13'800 / n/a · Altersgrenze Kind: 14 / 14 Jahre · Kinderabzug Grundbetrag (CHF): n/a / CHF 6'800
 - **Beachten:** 16.2 nur für Kind unter 14 J. im gleichen Haushalt; Kosten kausal zu Erwerb/Ausbildung/Erwerbsunfähigkeit
 - **Beachten:** UJ: 16.2 und 23.3 × Tage ÷ 360, Satz voll; 2026 neu: 16.2 max. 26'800, 23.3 max. 13'800
 - **Beachten:** Bund: kein Ausbildungskostenabzug – nur Kinderabzug 6'800 (Art. 35 DBG)

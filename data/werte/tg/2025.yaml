@@ -157,7 +157,9 @@ werte:
 - key: berufskosten.uebrige.satz
   wert: 3
   einheit: '%'
-  text: 'Pauschale übrige Berufskosten: 3% des Nettolohnes (Alternative: Nachweis höherer tatsächlicher Kosten, keine Kumulation).'
+  text: 'Pauschale übrige Berufskosten (Form. 4.2 Ziff. 4: Berufswerkzeuge, Fachliteratur, Kleider-/Schuhverschleiss, Mehrauslagen für Schwerarbeit, Beiträge an Berufsverbände/Gewerkschaften): 3 % des Nettolohns
+    (Ziff. 11 Lohnausweis), min. Fr. 2''000, max. Fr. 4''000 (Kanton und dBSt). Anstelle der Pauschale können die notwendigen tatsächlichen Aufwendungen nachgewiesen werden (keine Kumulation mit der Pauschale).
+    Bei weniger als 12 Monaten unselbständiger Erwerbstätigkeit anteilmässig gekürzt.'
   gilt_fuer: kanton
   rechtsgrundlage: § 4a Abs. 1 BKV TG; § 29 Abs. 2 StG
   quellen:
@@ -165,6 +167,10 @@ werte:
     zitat: beträgt der Pauschalabzug 3 Prozent des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000
   - chunk: tg-stp-29-7__c0002
     zitat: 3% des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000
+  - chunk: tg-wl-2025__c0187
+    zitat: Allgemeine Berufskosten wie Aufwendungen für Berufswerkzeuge, Fachliteratur, Kleider- und
+  - chunk: tg-wl-2025__c0187
+    zitat: Anstelle der Pauschale können Sie die notwendigen tatsächlichen Aufwendungen nachweisen.
   status: agent-geprueft
   bemerkung: Gilt gleich bei der direkten Bundessteuer. Bei unterjähriger Erwerbsdauer verhältnismässige Kürzung (StP 29 Nr. 7 Ziff. 2).
 - key: berufskosten.uebrige.fix
@@ -574,12 +580,14 @@ werte:
   wert: 10600
   einheit: CHF
   text: 'Kinderabzug in Ausbildung nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr: CHF 10''600 (WL 2025: Jahrgang 2000-2005). Keine Unterscheidung nach auswärtiger Ausbildung;
-    Abstufung erfolgt nach Alter.'
+    Abstufung erfolgt nach Alter. Anstelle von sozialabzug.kind/kind_ausbildung (der Abzug «erhöht sich … auf»), nicht zusätzlich.'
   gilt_fuer: kanton
   rechtsgrundlage: § 36 Abs. 2 Ziff. 1 lit. c StG TG; § 1 Abs. 1 Ziff. 1.3 VAKP
   quellen:
   - chunk: tg-stg__par-36-t1
     zitat: nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr auf · Fr. 10'600
+  - chunk: tg-stg__par-36-t1
+    zitat: der Abzug erhöht sich für jedes in Ausbildung stehende Kind nach Vollendung des 16. Altersjahres auf
   - chunk: tg-stp-36-1__c0006
     zitat: Fr. 10’600 | Fr. 10’400 | Fr. 10’300
   status: agent-geprueft

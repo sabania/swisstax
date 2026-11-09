@@ -140,13 +140,15 @@ generiert: tools/build_quick.py aus data/werte/tg/2025.yaml (2026-11-09)
 <a id="berufskosten-uebrige-satz"></a>
 ### Übrige Berufskosten – Pauschale in % des Nettolohns
 
-- **Wert:** 3 % (Pauschale übrige Berufskosten: 3% des Nettolohnes (Alternative: Nachweis höherer tatsächlicher Kosten, keine Kumulation).)
+- **Wert:** 3 % (Pauschale übrige Berufskosten (Form. 4.2 Ziff. 4: Berufswerkzeuge, Fachliteratur, Kleider-/Schuhverschleiss, Mehrauslagen für Schwerarbeit, Beiträge an Berufsverbände/Gewerkschaften): 3 % des Nettolohns (Ziff. 11 Lohnausweis), min. Fr. 2'000, max. Fr. 4'000 (Kanton und dBSt). Anstelle der Pauschale können die notwendigen tatsächlichen Aufwendungen nachgewiesen werden (keine Kumulation mit der Pauschale). Bei weniger als 12 Monaten unselbständiger Erwerbstätigkeit anteilmässig gekürzt.)
 - **Schlüssel:** `berufskosten.uebrige.satz` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 4a Abs. 1 BKV TG; § 29 Abs. 2 StG
 - **Bemerkung:** Gilt gleich bei der direkten Bundessteuer. Bei unterjähriger Erwerbsdauer verhältnismässige Kürzung (StP 29 Nr. 7 Ziff. 2).
 - **Quellen:**
   - [BKV TG § 4a](../../chunks/tg/2025/tg-bkv/tg-bkv__par-4a.md) `tg-bkv__par-4a` – «beträgt der Pauschalabzug 3 Prozent des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000»
   - [StP 29 Nr. 7](../../chunks/tg/dauernd/tg-stp-29-7/tg-stp-29-7__c0002.md) `tg-stp-29-7__c0002` – «3% des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000»
+  - [WL TG 2025 S. 40](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0187.md) `tg-wl-2025__c0187` – «Allgemeine Berufskosten wie Aufwendungen für Berufswerkzeuge, Fachliteratur, Kleider- und»
+  - [WL TG 2025 S. 40](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0187.md) `tg-wl-2025__c0187` – «Anstelle der Pauschale können Sie die notwendigen tatsächlichen Aufwendungen nachweisen.»
 
 <a id="berufskosten-uebrige-fix"></a>
 ### Übrige Berufskosten – fixer Pauschalbetrag (CHF), falls Formel «fix + %»
@@ -498,14 +500,15 @@ generiert: tools/build_quick.py aus data/werte/tg/2025.yaml (2026-11-09)
   - [StP 36 Nr. 1](../../chunks/tg/dauernd/tg-stp-36-1/tg-stp-36-1__c0006.md) `tg-stp-36-1__c0006` – «16. Altersjahres auf | Fr. 8’500 | Fr. 8’300»
 
 <a id="sozialabzug-kind-ausbildung-auswaerts"></a>
-### Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+### Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)
 
-- **Wert:** CHF 10'600 (Kinderabzug in Ausbildung nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr: CHF 10'600 (WL 2025: Jahrgang 2000-2005). Keine Unterscheidung nach auswärtiger Ausbildung; Abstufung erfolgt nach Alter.)
+- **Wert:** CHF 10'600 (Kinderabzug in Ausbildung nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr: CHF 10'600 (WL 2025: Jahrgang 2000-2005). Keine Unterscheidung nach auswärtiger Ausbildung; Abstufung erfolgt nach Alter. Anstelle von sozialabzug.kind/kind_ausbildung (der Abzug «erhöht sich … auf»), nicht zusätzlich.)
 - **Schlüssel:** `sozialabzug.kind_ausbildung_auswaerts` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 36 Abs. 2 Ziff. 1 lit. c StG TG; § 1 Abs. 1 Ziff. 1.3 VAKP
 - **Bemerkung:** Zuordnung zum Schlüssel 'auswärtig/höhere Stufe' sinngemäss: TG staffelt nach Alter (20-26 Jahre), nicht nach Ausbildungsort. Ab vollendetem 26. Altersjahr (erwerbsunfähig/in Ausbildung) wieder CHF 7'400.
 - **Quellen:**
   - [StG TG § 36](../../chunks/tg/2025/tg-stg/tg-stg__par-36-t1.md) `tg-stg__par-36-t1` – «nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr auf · Fr. 10'600»
+  - [StG TG § 36](../../chunks/tg/2025/tg-stg/tg-stg__par-36-t1.md) `tg-stg__par-36-t1` – «der Abzug erhöht sich für jedes in Ausbildung stehende Kind nach Vollendung des 16. Altersjahres auf»
   - [StP 36 Nr. 1](../../chunks/tg/dauernd/tg-stp-36-1/tg-stp-36-1__c0006.md) `tg-stp-36-1__c0006` – «Fr. 10’600 | Fr. 10’400 | Fr. 10’300»
 
 <a id="sozialabzug-unterstuetzung"></a>

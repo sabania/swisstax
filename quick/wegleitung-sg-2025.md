@@ -96,7 +96,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 - ↗ [Detail](../wiki/sg/zuordnung-sg-2025-detail.md#3-5-einkommen-ersatz-familienzulagen) · [Formular 1 SG 2025 S. 2](../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0005.md)
 
 ### 4.1 · Einkünfte aus Wertschriften und Guthaben inkl. Lotterie-/Geldspielgewinne (Code 146) ☑️
-- **Rein:** Steuerauszug Bank/Depot → Bruttoerträge und Steuerwerte, Form. 2 Abschnitt A (mit VSt) / B (ohne VSt) · Zinsausweise Konten → Bruttozins; Lotto-/Totobescheinigung → Geldspielgewinne · Formular DA-1 → Total Steuerwerte/Bruttoerträge ausländischer Titel mit Quellensteuer, Übertrag ins Form. 2 · Formular 2 → Total Erträge nach Abzugszeilen G/BG, BP, BG
+- **Rein:** Steuerauszug Bank/Depot → Bruttoerträge und Steuerwerte, Form. 2 Abschnitt A (mit VSt) / B (ohne VSt) · Zinsausweise Konten → Bruttozins; Lotto-/Totobescheinigung → Bargewinne aus inländischen Lotterien/Geldspielen in Spalte A (VSt); ausländische Geldspielgewinne und alle Naturalpreise in Spalte B; Übertrag Ziff. 4.1 · Formular DA-1 → Total Steuerwerte/Bruttoerträge ausländischer Titel mit Quellensteuer, Übertrag ins Form. 2 · Formular 2 → Total Erträge nach Abzugszeilen G/BG, BP, BG
 - **Rechnen:** Form. 2: Σ Bruttoerträge A + B (inkl. DA-1, Ergänzungsblätter) − Abzugszeilen G/BG, BP (→ Ziff. 4.2) und BG (→ Ziff. 4.3)
 - **Limite (Kanton / Bund):** Grossspielgewinne steuerfrei bis (CHF): CHF 1'069'800 / CHF 1'070'400 · Lotterie-/Kleingewinne steuerfrei bis (CHF): CHF 1'100 / CHF 1'100
 - **Beachten:** Bankzinsen ≤ Fr. 200/Kalenderjahr VSt-frei → Abschnitt B; bei VSt-Abzug Bruttozins → A + Bankbeleg; nichts selbst errechnen
@@ -236,7 +236,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 - **Rechnen:** Σ 2025 bezahlte periodische Unterhaltsbeiträge an geschiedenen bzw. gerichtlich/tatsächlich getrennt lebenden Partner (Kanton = Bund)
 - **Beachten:** Gegenstück: beim Empfänger steuerbar (dort Ziff. 6.1)
 - **Beachten:** Nicht abziehbar: Leistungen aus anderen familienrechtlichen Unterhalts-/Unterstützungspflichten
-- **Beachten:** Bund: Kapitalabfindung gilt als Schuldentilgung → nicht abziehbar
+- **Beachten:** Nur periodische/laufende Beiträge: Kapitalabfindung gilt als Schuldentilgung, nicht abziehbar (WL 2a 2025); SG: StV Art. 15 – als Unterhaltsbeiträge gelten ausschliesslich die laufenden Beiträge (Empfängerseite)
 - ↗ [Detail](../wiki/sg/zuordnung-sg-2025-detail.md#12-1-abzug-unterhaltsbeitraege) · [Formular 1 SG 2025 S. 3](../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0008.md)
 
 ### 12.2 · Unterhaltsbeiträge für minderjährige Kinder (Code 202) ☑️
@@ -408,7 +408,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 ### 23.3 · Ausbildungskosten für Kinder in Schule oder Ausbildung (Code 256) ☑️
 - **Rein:** Rechnungen Semestergebühren, Bücher, Skripte 2025 → Formular 10 · ÖV-Abo zum Ausbildungsort, Belege Wochenaufenthalt/auswärtige Verpflegung → Formular 10 · Stipendienverfügung → erhaltene Stipendien abziehen
 - **Rechnen:** je Kind mit Abzug 23.2: min(max(0; selbst getragene Ausbildungskosten − Stipendien − Fr. 3'200); Fr. 13'700); nur Kanton (Bund: kein Abzug)
-- **Limite (Kanton / Bund):** Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 10'800 / CHF 6'800 · Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): CHF 13'700 / n/a
+- **Limite (Kanton / Bund):** Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): CHF 10'800 / CHF 6'800 · siehe Text) (CHF): CHF 13'700 / n/a
 - **Beachten:** Lehrlinge: je halbe Kosten als Ausbildungs- bzw. Berufskosten
 - **Beachten:** Fahrkosten nur mit öffentlichen Verkehrsmitteln
 - ↗ [Detail](../wiki/sg/zuordnung-sg-2025-detail.md#23-3-sozialabzug-kinder) · [Formular 1 SG 2025 S. 3](../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0011.md)

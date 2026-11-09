@@ -45,7 +45,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Limiten:**
   - Kinderabzug Grundbetrag (CHF): Kanton **CHF 7'400 (Kinderabzug je Kind (nicht selbständig besteuert, in Ausbildung oder erwerbsunfähig; Steuerpflichtiger kommt für Unterhalt auf): CHF 7'400. Stichtag Ende Steuerperiode.)** · Bund **CHF 6'800 (Kinderabzug pro minderjähriges oder in Ausbildung stehendes Kind; bei getrennter Besteuerung hälftig, wenn gemeinsame elterliche Sorge und keine Unterhaltsbeiträge)**
   - Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): Kanton **CHF 8'500 (Kinderabzug erhöht sich für jedes in Ausbildung stehende Kind nach Vollendung des 16. Altersjahres auf CHF 8'500 (WL 2025: Jahrgang 2006-2009).)** · Bund **CHF 6'800 (Kinder in beruflicher oder schulischer Ausbildung: gleicher Kinderabzug CHF 6'800 wie für Minderjährige (kein höherer Ausbildungsabzug))**
-  - Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): Kanton **CHF 10'600 (Kinderabzug in Ausbildung nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr: CHF 10'600 (WL 2025: Jahrgang 2000-2005). Keine Unterscheidung nach auswärtiger Ausbildung; Abstufung erfolgt nach Alter.)** · Bund **n/a – Bund: gleicher Kinderabzug CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).**
+  - Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF): Kanton **CHF 10'600 (Kinderabzug in Ausbildung nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr: CHF 10'600 (WL 2025: Jahrgang 2000-2005). Keine Unterscheidung nach auswärtiger Ausbildung; Abstufung erfolgt nach Alter. Anstelle von sozialabzug.kind/kind_ausbildung (der Abzug «erhöht sich … auf»), nicht zusätzlich.)** · Bund **n/a – Bund: gleicher Kinderabzug CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).**
 - **Quellen:**
   - [Formular 1 TG 2025 S. 1](../../chunks/tg/2025/tg-form-01-2025/tg-form-01-2025__c0003.md) `tg-form-01-2025__c0003` – «Minderjährige, in beruflicher Ausbildung stehende oder erwerbsunfähige Kinder, deren Unterhalt Sie bestreiten»
   - [WL TG 2025 S. 12](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0045.md) `tg-wl-2025__c0045` – «Für Kinder mit Jahrgang 2005 und älter, welche sich in Ausbildung befinden, geben Sie bitte»
@@ -272,7 +272,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
   - [WL TG 2025 S. 19](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0081.md) `tg-wl-2025__c0081` – «Periodische Unterhaltsbeiträge (inklusive Kinderzulagen), die Sie für die unter Ihrer elterlichen»
 
 <a id="4-einkommen-wertschriften"></a>
-### Ziff. 4 – Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 2, Code 150)
+### Ziff. 4 – Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 1 Code 150, Übertrag aus Formular 2)
 
 - **Schlüssel:** `einkommen.wertschriften` (Ertrag aus Wertschriften und Guthaben (gem. Wertschriftenverzeichnis)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Steuerauszug der Bank / Post (inkl. eSteuerauszug), Kontoauszug / Zins- und Saldobescheinigung (Sparkonto, Privatkonto, Festgeld, Post), Depotauszug / Wertschriftenverzeichnis der Bank (Titelbestand per 31.12.), Dividenden-/Zinsabrechnung Ausland mit Quellensteuer (inkl. DA-1, USA), Krypto-Auszug (Exchange-/Wallet-Auszug, Jahresendbestand), Lotterie-/Lottogewinn-Bescheinigung (Swisslos, Casino, Online-Spielbank, Wettbewerbsgewinn) → Formular 2 (Wertschriftenverzeichnis) Total steuerbarer Ertrag Ziff. 9 (Code 150)
@@ -481,7 +481,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 6'000 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten, kantonal höchstens CHF 6'000 pro Jahr (alle Fahrkosten inkl. Wochenaufenthalt und Nebenerwerb zusammen; keine Kürzung bei unterjähriger Steuerpflicht/Teilzeit).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Person und Jahr (Steuerjahr 2025))**
   - Verpflegungsmehrkosten pro Arbeitstag (CHF): Kanton **CHF 15 (Pauschale CHF 15 pro auswärtige Hauptmahlzeit (in der Regel nur Mittagessen), wenn Heimkehr am Mittag wegen grosser Entfernung oder sehr kurzer Essenspause unzumutbar.)** · Bund **CHF 15 (Mehrkosten auswärtige Verpflegung: CHF 15 pro Hauptmahlzeit (i.d.R. Mittagessen); ausschliesslich Pauschale, wenn Hauptmahlzeit wegen Entfernung/kurzer Pause nicht zu Hause eingenommen werden kann)**
   - Verpflegungsmehrkosten pro Jahr (CHF): Kanton **CHF 3'200 (Bei ständiger auswärtiger Verpflegung maximal CHF 3'200 pro Jahr; bei Teilzeitpensum Kürzung nach Beschäftigungsgrad (z.B. 80% = Fr. 2'560).)** · Bund **CHF 3'200 (Bei ständiger auswärtiger Verpflegung CHF 3'200 pro Jahr (voller Abzug))**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale übrige Berufskosten: 3% des Nettolohnes (Alternative: Nachweis höherer tatsächlicher Kosten, keine Kumulation).)** · Bund **3 % (Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale übrige Berufskosten (Form. 4.2 Ziff. 4: Berufswerkzeuge, Fachliteratur, Kleider-/Schuhverschleiss, Mehrauslagen für Schwerarbeit, Beiträge an Berufsverbände/Gewerkschaften): 3 % des Nettolohns (Ziff. 11 Lohnausweis), min. Fr. 2'000, max. Fr. 4'000 (Kanton und dBSt). Anstelle der Pauschale können die notwendigen tatsächlichen Aufwendungen nachgewiesen werden (keine Kumulation mit der Pauschale). Bei weniger als 12 Monaten unselbständiger Erwerbstätigkeit anteilmässig gekürzt.)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300 gemäss DBG 2025; WL 2a 2025 nennt 3'200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **CHF 2'000 (Pauschale übrige Berufskosten: Minimum CHF 2'000.)** · Bund **CHF 2'000 (Minimum der Pauschale übrige Berufskosten)**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 4'000 (Pauschale übrige Berufskosten: Maximum CHF 4'000.)** · Bund **CHF 4'000 (Maximum der Pauschale übrige Berufskosten)**
 - **Quellen:**
@@ -516,7 +516,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Beachten:** Unterjährige Tätigkeit: Pauschalen pro rata (Tage/360); vom Arbeitgeber übernommene Kosten nicht abziehbar
 - **Limiten:**
   - Fahrkosten – Maximalabzug pro Person (CHF): Kanton **CHF 6'000 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten, kantonal höchstens CHF 6'000 pro Jahr (alle Fahrkosten inkl. Wochenaufenthalt und Nebenerwerb zusammen; keine Kürzung bei unterjähriger Steuerpflicht/Teilzeit).)** · Bund **CHF 3'300 (Fahrkosten Wohn-/Arbeitsstätte: notwendige Kosten bis max. CHF 3'300 pro Person und Jahr (Steuerjahr 2025))**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale übrige Berufskosten: 3% des Nettolohnes (Alternative: Nachweis höherer tatsächlicher Kosten, keine Kumulation).)** · Bund **3 % (Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale übrige Berufskosten (Form. 4.2 Ziff. 4: Berufswerkzeuge, Fachliteratur, Kleider-/Schuhverschleiss, Mehrauslagen für Schwerarbeit, Beiträge an Berufsverbände/Gewerkschaften): 3 % des Nettolohns (Ziff. 11 Lohnausweis), min. Fr. 2'000, max. Fr. 4'000 (Kanton und dBSt). Anstelle der Pauschale können die notwendigen tatsächlichen Aufwendungen nachgewiesen werden (keine Kumulation mit der Pauschale). Bei weniger als 12 Monaten unselbständiger Erwerbstätigkeit anteilmässig gekürzt.)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300 gemäss DBG 2025; WL 2a 2025 nennt 3'200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **CHF 2'000 (Pauschale übrige Berufskosten: Minimum CHF 2'000.)** · Bund **CHF 2'000 (Minimum der Pauschale übrige Berufskosten)**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 4'000 (Pauschale übrige Berufskosten: Maximum CHF 4'000.)** · Bund **CHF 4'000 (Maximum der Pauschale übrige Berufskosten)**
   - Fahrkosten Auto – Ansatz pro km (CHF): Kanton **Privatauto, nur in Ausnahmefällen (wenn ÖV nicht zumutbar): gestaffelt nach jährlicher Fahrleistung bis 3'000 km CHF 0.60/km, 3'001-5'000 km CHF 0.50/km, über 5'000 km CHF 0.40/km (stufenweise Berechnung; inkl. Parkgebühren). Normalfall: Kosten des ÖV-Abonnements.** · Bund **CHF 0.70 (Privatauto: Abzug pro Fahrkilometer CHF 0.70, nur wenn kein öffentliches Verkehrsmittel verfügbar/zumutbar (Steuerjahr 2025))**
@@ -798,7 +798,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
   - [StG TG § 34](../../chunks/tg/2025/tg-stg/tg-stg__par-34-t5.md) `tg-stg__par-34-t5` – «in einem kantonalen Parlament vertreten sind, oder»
 
 <a id="15-6-abzug-teilbesteuerung-beteiligungen"></a>
-### Ziff. 15.6 – Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 2 Hilfsblatt, Code 341; Staat/Bund)
+### Ziff. 15.6 – Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 1 Code 341, Übertrag aus Formular 2 Hilfsblatt; Staat/Bund)
 
 - **Schlüssel:** `abzug.teilbesteuerung_beteiligungen` (Teilbesteuerungsabzug qualifizierte Beteiligungen (wo als Abzugszeile geführt)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Steuerauszug der Bank / Post (inkl. eSteuerauszug), Dividenden-/Zinsabrechnung Ausland mit Quellensteuer (inkl. DA-1, USA) → Formular 2 letzte Seite «Hilfsblatt qualifizierte Beteiligungen im Privatvermögen» Ziff. 3
@@ -1081,7 +1081,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Beachten:** Kein Abzug, wenn das volljährige Kind ein Einkommen für den selbständigen Lebensunterhalt erzielt
 - **Beachten:** Getrennte Eltern: Abzug ungeteilt beim Elternteil, der den Unterhalt hauptsächlich trägt (i.d.R. Alimente-Zahler)
 - **Limiten:**
-  - Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): Kanton **CHF 10'600 (Kinderabzug in Ausbildung nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr: CHF 10'600 (WL 2025: Jahrgang 2000-2005). Keine Unterscheidung nach auswärtiger Ausbildung; Abstufung erfolgt nach Alter.)** · Bund **n/a – Bund: gleicher Kinderabzug CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).**
+  - Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF): Kanton **CHF 10'600 (Kinderabzug in Ausbildung nach Vollendung des 20. Altersjahres bis höchstens zum vollendeten 26. Altersjahr: CHF 10'600 (WL 2025: Jahrgang 2000-2005). Keine Unterscheidung nach auswärtiger Ausbildung; Abstufung erfolgt nach Alter. Anstelle von sozialabzug.kind/kind_ausbildung (der Abzug «erhöht sich … auf»), nicht zusätzlich.)** · Bund **n/a – Bund: gleicher Kinderabzug CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).**
   - Kinderabzug Grundbetrag (CHF): Kanton **CHF 7'400 (Kinderabzug je Kind (nicht selbständig besteuert, in Ausbildung oder erwerbsunfähig; Steuerpflichtiger kommt für Unterhalt auf): CHF 7'400. Stichtag Ende Steuerperiode.)** · Bund **CHF 6'800 (Kinderabzug pro minderjähriges oder in Ausbildung stehendes Kind; bei getrennter Besteuerung hälftig, wenn gemeinsame elterliche Sorge und keine Unterhaltsbeiträge)**
 - **Bund:** Bund Fr. 6'800 pro Kind (alle Jahrgänge).
 - **Quellen:**
@@ -1274,7 +1274,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 ## Vermögen
 
 <a id="30-1-vermoegen-wertschriften-guthaben"></a>
-### Ziff. 30.1 – Wertschriften und Guthaben (Formular 2, Code 410)
+### Ziff. 30.1 – Wertschriften und Guthaben (Formular 1 Code 410, Übertrag aus Formular 2)
 
 - **Schlüssel:** `vermoegen.wertschriften_guthaben` (Wertschriften und Guthaben (Bank-/Postkonten, Depot, Krypto)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Steuerauszug der Bank / Post (inkl. eSteuerauszug), Depotauszug / Wertschriftenverzeichnis der Bank (Titelbestand per 31.12.), Kontoauszug / Zins- und Saldobescheinigung (Sparkonto, Privatkonto, Festgeld, Post), Krypto-Auszug (Exchange-/Wallet-Auszug, Jahresendbestand) → Formular 2 Ziff. 9 Total Steuerwert (Code 410); Bank-/Postauszüge per 31.12.2025
@@ -1794,7 +1794,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Rechenzeile (Ziff. 2.4 begrenzt auf Maximum)
 - **Rein:** Übertrag Ziff. 2.4 (je Spalte Staat / Bund)
-- **Rechnen:** Staat: min(Ziff. 2.4; Fr. 6'000) / Bund: min(Ziff. 2.4; Fr. 3'300) → Ziff. 7
+- **Rechnen:** Staat: min(Ziff. 2.4; Fr. 6'000) / Bund: min(Ziff. 2.4; Fr. 3'300) → Form. 4.2 Ziff. 7 (Code 240) → Steuererklärung Seite 3 Ziff. 10.1 (Staat links, Bund rechts); Person 2: Code 253 → Form. 4.3 Ziff. 7 (Code 280) → Ziff. 10.2
 - **Regel:** Staat: min(Ziff. 2.4; Fr. 6'000), Bund: min(Ziff. 2.4; Fr. 3'300). Maximum wird bei unterjähriger Steuerpflicht/Erwerbsdauer oder Teilzeit nicht gekürzt. Beispiel WL: 12'150 km → Kanton Fr. 5'660, Bund effektiv Fr. 8'505 → Fr. 3'300.
 - **Beachten:** Maxima nicht gekürzt bei unterjähriger Steuerpflicht/Erwerbsdauer oder Teilzeit
 - **Beachten:** Begrenzung umfasst alle Fahrkosten (ÖV, Velo, Motorrad, Auto, inkl. Wochenaufenthalt)
@@ -1807,6 +1807,9 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
   - [StP 29 Nr. 2](../../chunks/tg/dauernd/tg-stp-29-2/tg-stp-29-2__c0006.md) `tg-stp-29-2__c0006` – «Bei der direkten Bundessteuer beträgt der Maximalabzug:»
   - [StG TG § 29](../../chunks/tg/2025/tg-stg/tg-stg__par-29.md) `tg-stg__par-29` – «bis zu einem Maximalbetrag von Fr. 6'000»
   - [StP 29 Nr. 2](../../chunks/tg/dauernd/tg-stp-29-2/tg-stp-29-2__c0007.md) `tg-stp-29-2__c0007` – «werden auch bei unterjähriger Steuerpflicht, unterjähriger Erwerbsdauer oder Teilzeitarbeit nicht gekürzt»
+  - [Formular 4.2 TG 2025 S. 1](../../chunks/tg/2025/tg-form-04-2-2025/tg-form-04-2-2025__c0005.md) `tg-form-04-2-2025__c0005` – «Übertrag in Steuererklärung Seite 3,»
+  - [WL TG 2025 S. 41](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0196.md) `tg-wl-2025__c0196` – «übertragen Sie diesen Betrag auf Seite 3 der Steuererklärung in die Ziffer 10.1»
+  - [Formular 4.2 TG 2025 S. 2](../../chunks/tg/2025/tg-form-04-2-2025/tg-form-04-2-2025__c0010.md) `tg-form-04-2-2025__c0010` – «Übertrag in Steuererklärung Seite 3, Ziffer 10.2»
 
 <a id="form-4-2-ziff-3-1-abzug-berufskosten-verpflegung"></a>
 ### Ziff. Form. 4.2 Ziff. 3.1 – Mehrkosten auswärtige Verpflegung ohne Verbilligung oder bei Schicht-/Nachtarbeit, Fr. 15 pro Tag, max. Fr. 3'200 (Code 214; Person 2: 254)
@@ -1871,7 +1874,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Beachten:** Vom Arbeitgeber vergütete Auslagen nicht abziehbar (§ 6 BKV TG)
 - **Beachten:** Nur Haupterwerb; Nebenbeschäftigung → Ziff. 6
 - **Limiten:**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale übrige Berufskosten: 3% des Nettolohnes (Alternative: Nachweis höherer tatsächlicher Kosten, keine Kumulation).)** · Bund **3 % (Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale übrige Berufskosten (Form. 4.2 Ziff. 4: Berufswerkzeuge, Fachliteratur, Kleider-/Schuhverschleiss, Mehrauslagen für Schwerarbeit, Beiträge an Berufsverbände/Gewerkschaften): 3 % des Nettolohns (Ziff. 11 Lohnausweis), min. Fr. 2'000, max. Fr. 4'000 (Kanton und dBSt). Anstelle der Pauschale können die notwendigen tatsächlichen Aufwendungen nachgewiesen werden (keine Kumulation mit der Pauschale). Bei weniger als 12 Monaten unselbständiger Erwerbstätigkeit anteilmässig gekürzt.)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300 gemäss DBG 2025; WL 2a 2025 nennt 3'200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **CHF 2'000 (Pauschale übrige Berufskosten: Minimum CHF 2'000.)** · Bund **CHF 2'000 (Minimum der Pauschale übrige Berufskosten)**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 4'000 (Pauschale übrige Berufskosten: Maximum CHF 4'000.)** · Bund **CHF 4'000 (Maximum der Pauschale übrige Berufskosten)**
 - **Bund:** Gleiche Pauschale beim Bund (3%, Fr. 2'000–4'000).
@@ -1949,12 +1952,12 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
   - [WL TG 2025 S. 37](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0174.md) `tg-wl-2025__c0174` – «Zweckmässigerweise erfolgt diese Aufstellung in der gleichen Reihenfolge der Ziffern»
 
 <a id="form-4-2-ziff-7-berechnung-total"></a>
-### Ziff. Form. 4.2 Ziff. 7 – Total der abzugsfähigen Berufsauslagen (Code 240; Person 2: 280) → Steuererklärung Ziff. 10.1 / 10.2
+### Ziff. Form. 4.2 Ziff. 7 – Total der abzugsfähigen Berufsauslagen (Code 240; Person 2: 280) → Steuererklärung Seite 3 Ziff. 10.1 / 10.2
 
 - **Schlüssel:** `berechnung.total` (Berechnungs-/Totalzeilen (Nettoeinkommen, Reineinkommen, steuerbares Einkommen/Vermögen, Totale)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Rechenzeile
 - **Rein:** Übertrag Ziff. 2.5, 3.1/3.2, 4, 5.1, 5.2, 6 (je Spalte Staat / Bund)
-- **Rechnen:** Σ Ziff. 2.5 + 3.1/3.2 + 4 + 5.1 + 5.2 + 6 je Spalte → Formular 1 Ziff. 10.1 (Person 1) / 10.2 (Person 2); Staat links, Bund rechts
+- **Rechnen:** Σ Ziff. 2.5 + 3.1/3.2 + 4 + 5.1 + 5.2 + 6 je Spalte → Steuererklärung (Formular 1) Seite 3 Ziff. 10.1 (Person 1) / 10.2 (Person 2); Staat links, Bund rechts
 - **Regel:** Summe Ziff. 2.5 bis 6; Übertrag in Ziff. 10.1 (Person 1) bzw. 10.2 (Person 2), Spalten Staat/Bund getrennt.
 - **Beachten:** Ziff. 2.5 (begrenzt), nicht 2.4 übernehmen
 - **Beachten:** Person 2: eigenes Formular 4.3, wenn beide erwerbstätig

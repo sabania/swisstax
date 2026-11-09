@@ -53,7 +53,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 
 - **AR:** Bei Konti mit Bruttozins unter Fr. 200, aber Verrechnungssteuerabzug, ist der Nachweis beizulegen (WL AR 2025 Deklaration der Erträge a).
 - **SG:** Bankbeleg mit Verrechnungssteuernachweis beilegen, wenn Abzug erfolgte (WL SG 2025 Deklaration der Erträge a).
-- **TG:** Zins- und Kapitalbescheinigungen müssen Bruttozinsen, abgezogene Verrechnungssteuer und Kontostand zeigen (WL TG 2025 Benötigte Unterlagen).
+- **TG:** Zins- und Kapitalbescheinigungen müssen Bruttozinsen, abgezogene Verrechnungssteuer und Kontostand zeigen (WL TG 2025 Benötigte Unterlagen). Inländische Bank-/Postkonti: Bruttozins bis Fr. 200 und Zinsvergütung nur einmal jährlich → Spalte 9 (in der Regel ohne VSt); Bruttozins über Fr. 200 oder mehrmalige Vergütung → Spalte 8 (mit VSt). Ausländische Guthaben immer Spalte 9 (WL TG 2025 S. 32).
 - **ZH:** Kolonne A (Kundenguthaben mit Bruttozins über CHF 200) / Kolonne B (bis CHF 200); Abrechnungsbelege bei Festgeld beilegen (WL ZH 2025 Kolonnen A/B).
 
 ## Quellen
@@ -63,3 +63,6 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - [WL ZH 2025 S. 25](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0162.md) `zh-wl-2025__c0162` – «Dies gilt auch für Kundenguthaben mit einem Bruttozins von mehr als»
 - [WL TG 2025 S. 8](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0026.md) `tg-wl-2025__c0026` – «aus denen die Bruttozinsen, die»
 - [WL AR 2025 S. 23–24](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0137.md) `ar-wl-2025__c0137` – «Bruchzinsen (Zinsen bei Aufgabe, Rückzahlung, Einlösung oder Konversion»
+- [WL TG 2025 S. 32](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0153.md) `tg-wl-2025__c0153` – «Bank- und Postkonti aller Art, deren Bruttozins im Kalenderjahr Fr. 200 nicht übersteigt und»
+- [WL TG 2025 S. 32](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0151.md) `tg-wl-2025__c0151` – «zinsen im Kalenderjahr Fr. 200 übersteigen sowie für Konti, bei denen die Zinsvergütung mehr-»
+- [WL TG 2025 S. 32](../../chunks/tg/2025/tg-wl-2025/tg-wl-2025__c0153.md) `tg-wl-2025__c0153` – «schen Wertschriften und Guthaben aller Art.»

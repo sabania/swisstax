@@ -17,7 +17,7 @@ generiert: tools/build_index.py
 
 Zitiert in 2 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-info-steuern-bezahlen`).
 
-- `data/werte/sg/2025.yaml#68:bezug.provisorisch` (agent-geprueft)
+- `data/werte/sg/2025.yaml#69:bezug.provisorisch` (agent-geprueft)
 - `data/werte/sg/2026.yaml#68:bezug.provisorisch` (agent-geprueft)
 - [wiki/bund/bund-ueberblick.md](../../bund/bund-ueberblick.md)
 - [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)

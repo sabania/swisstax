@@ -434,7 +434,7 @@ positionen:
   - Vom anderen Elternteil weitergeleitete Kinderzulagen gehören zu den Alimenten Ziff. 5.2.
 - ziffer: '4'
   abschnitt: Einkünfte
-  bezeichnung: Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 2, Code 150)
+  bezeichnung: Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 1 Code 150, Übertrag aus Formular 2)
   key: einkommen.wertschriften
   belege:
   - steuerauszug-bank
@@ -1314,7 +1314,7 @@ positionen:
   - Spenden an gemeinnützige Institutionen → Ziff. 23.2
 - ziffer: '15.6'
   abschnitt: Abzüge
-  bezeichnung: Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 2 Hilfsblatt, Code 341; Staat/Bund)
+  bezeichnung: Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 1 Code 341, Übertrag aus Formular 2 Hilfsblatt; Staat/Bund)
   key: abzug.teilbesteuerung_beteiligungen
   belege:
   - steuerauszug-bank
@@ -2062,7 +2062,7 @@ positionen:
   - Tarifarische Massnahme (Elterntarif), kein Sozialabzug
 - ziffer: '30.1'
   abschnitt: Vermögen
-  bezeichnung: Wertschriften und Guthaben (Formular 2, Code 410)
+  bezeichnung: Wertschriften und Guthaben (Formular 1 Code 410, Übertrag aus Formular 2)
   key: vermoegen.wertschriften_guthaben
   belege:
   - steuerauszug-bank
@@ -2895,10 +2895,16 @@ positionen:
     zitat: bis zu einem Maximalbetrag von Fr. 6'000
   - chunk: tg-stp-29-2__c0007
     zitat: werden auch bei unterjähriger Steuerpflicht, unterjähriger Erwerbsdauer oder Teilzeitarbeit nicht gekürzt
+  - chunk: tg-form-04-2-2025__c0005
+    zitat: Übertrag in Steuererklärung Seite 3,
+  - chunk: tg-wl-2025__c0196
+    zitat: übertragen Sie diesen Betrag auf Seite 3 der Steuererklärung in die Ziffer 10.1
+  - chunk: tg-form-04-2-2025__c0010
+    zitat: Übertrag in Steuererklärung Seite 3, Ziffer 10.2
   status: agent-geprueft
   rein:
   - Übertrag Ziff. 2.4 (je Spalte Staat / Bund)
-  berechnung: 'Staat: min(Ziff. 2.4; Fr. 6''000) / Bund: min(Ziff. 2.4; Fr. 3''300) → Ziff. 7'
+  berechnung: 'Staat: min(Ziff. 2.4; Fr. 6''000) / Bund: min(Ziff. 2.4; Fr. 3''300) → Form. 4.2 Ziff. 7 (Code 240) → Steuererklärung Seite 3 Ziff. 10.1 (Staat links, Bund rechts); Person 2: Code 253 → Form. 4.3 Ziff. 7 (Code 280) → Ziff. 10.2'
   beachten:
   - Maxima nicht gekürzt bei unterjähriger Steuerpflicht/Erwerbsdauer oder Teilzeit
   - Begrenzung umfasst alle Fahrkosten (ÖV, Velo, Motorrad, Auto, inkl. Wochenaufenthalt)
@@ -3131,7 +3137,7 @@ positionen:
   - Nebenerwerb setzt Haupterwerb voraus; einzige, auch geringfügige Tätigkeit gilt als Haupterwerb
 - ziffer: Form. 4.2 Ziff. 7
   abschnitt: Hilfsblatt Berufskosten
-  bezeichnung: 'Total der abzugsfähigen Berufsauslagen (Code 240; Person 2: 280) → Steuererklärung Ziff. 10.1 / 10.2'
+  bezeichnung: 'Total der abzugsfähigen Berufsauslagen (Code 240; Person 2: 280) → Steuererklärung Seite 3 Ziff. 10.1 / 10.2'
   key: berechnung.total
   belege: []
   feld: Rechenzeile
@@ -3158,7 +3164,7 @@ positionen:
   status: agent-geprueft
   rein:
   - Übertrag Ziff. 2.5, 3.1/3.2, 4, 5.1, 5.2, 6 (je Spalte Staat / Bund)
-  berechnung: Σ Ziff. 2.5 + 3.1/3.2 + 4 + 5.1 + 5.2 + 6 je Spalte → Formular 1 Ziff. 10.1 (Person 1) / 10.2 (Person 2); Staat links, Bund rechts
+  berechnung: Σ Ziff. 2.5 + 3.1/3.2 + 4 + 5.1 + 5.2 + 6 je Spalte → Steuererklärung (Formular 1) Seite 3 Ziff. 10.1 (Person 1) / 10.2 (Person 2); Staat links, Bund rechts
   beachten:
   - Ziff. 2.5 (begrenzt), nicht 2.4 übernehmen
   - 'Person 2: eigenes Formular 4.3, wenn beide erwerbstätig'

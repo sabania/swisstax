@@ -47,6 +47,7 @@ Schnellzugriff für den Steuerexperten-Agenten: erst hier, dann über die Links 
 - **AR 2025:** Das AR-Formular hat keine separate Bundesspalte: Die Steuererklärung dient zugleich für die direkte Bundessteuer; Abweichungen (z.B. Zweiverdiener-, Versicherungs-, Kinderabzug Bund) werden von der Steuerverwaltung automatisch vorgenommen (WL AR 2025 S. 33, …
 - **AR 2026:** Gerüst aus 2025 (tools/new_year.py) – Formular und Wegleitung AR 2026 noch nicht publiziert (Stand 09.11.2026). Ziffern/Codes vorbehaltlich Änderungen; alle Positionen offen.
 - **SG 2026:** Wegleitung und Hilfsblätter SG 2026 noch nicht publiziert (Stand 09.11.2026) – Zuordnung stützt sich auf Formular 1 SG 2026 UJ und die Rechtsgrundlagen 2026.
+- **ZH 2025:** Codes bezeichnen Zeilen, nicht Spalten.
 - **ZH 2026:** Reguläres Formular/Wegleitung ZH 2026 noch nicht publiziert (Stand 09.11.2026) – Zuordnung stützt sich auf die Fassung für unterjährige Steuerpflicht (UJ); Ziffern/Codes am regulären Formular prüfen.
 
 **Abnahme-Stand** (✅ verifiziert durch Fachperson / ☑️ agent-geprüft / ⚠️ strittig / ⬜ offen; Checkliste `reports/abnahme-checkliste-<jahr>.md`):

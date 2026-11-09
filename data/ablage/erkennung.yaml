@@ -321,6 +321,7 @@ belegtypen:
     - handwerkerrechnungen
     - unterhaltskosten liegenschaft
     - unterhaltsrechnung
+    - liegenschaftsunterhalt
     schwach:
     - rechnung
     - liegenschaft
@@ -706,6 +707,7 @@ verfahrensdokumente:
     - frist
     - steueramt
     - unterlagen nachreichen
+    steuerjahr: Steuerperiode der Steuererklärung, zu der die Auflage ergeht
     hinweis: Aufforderung der Steuerbehörde, Unterlagen oder Auskünfte nachzureichen – Frist beachten.
   einsprache-rekurs:
     name: Einsprache / Einspracheentscheid / Rekurs
@@ -801,7 +803,10 @@ verfahrensdokumente:
     schwach:
     - unterschrift
     - freigabe
-    hinweis: Die Steuererklärung selbst bzw. ihre Bestandteile/Quittungen der Steuerpflichtigen.
+    hinweis: 'Unterschrift/Freigabe der Steuerpflichtigen zur Steuererklärung: Bestätigung, dass sie wahrheitsgemäss und vollständig ist, Ehegatten gemeinsam (DBG Art. 124 Abs. 2, Art. 113 Abs. 2; ZH elektronisch:
+      V elektr. Einreichung § 8). Gehört zur Erklärung, kein Beleg mit Wert. Ob die unterzeichnete Quittung dem Gemeindesteueramt zugestellt werden muss, regelt der Kanton: data/einreichen/<kt>/<jahr>.yaml,
+      Abschnitt «allgemein» – z.B. SG: Freigabequittung mit den Papierbelegen, wenn bei E-Tax keine Belege hochgeladen werden; TG: unterzeichnete Quittung immer einreichen, die Steuererklärung gilt erst
+      mit ihrem Eingang als eingereicht.'
   kundenantwort:
     name: Antworten, Bestätigungen und Checklisten des Kunden, Kundenfreigabe per E-Mail
     stark:

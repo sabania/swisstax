@@ -17,7 +17,7 @@ generiert: tools/build_index.py
 
 Zitiert in 2 Daten-Einträgen und 2 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-info-fristverlaengerung`).
 
-- `data/werte/sg/2025.yaml#65:verfahren.fristerstreckung` (agent-geprueft)
+- `data/werte/sg/2025.yaml#66:verfahren.fristerstreckung` (agent-geprueft)
 - `data/werte/sg/2026.yaml#65:verfahren.fristerstreckung` (agent-geprueft)
 - [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
 - [wiki/themen/fristen-verfahren.md](../../themen/fristen-verfahren.md)

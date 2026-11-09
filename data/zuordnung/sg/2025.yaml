@@ -366,10 +366,14 @@ positionen:
     zitat: ist als Vermögensverwaltungskosten ab
   - chunk: sg-form-2-2025__c0004
     zitat: Ergänzungsblätter Steuerauszüge Bankbescheinigungen
+  - chunk: sg-wl-2025__c0135
+    zitat: Bargewinne aus inländischen Lotterien und anderen Geldspielen
+  - chunk: sg-wl-2025__c0139
+    zitat: Bargewinne aus ausländischen Lotterien und anderen Geldspielen sowie alle
   status: agent-geprueft
   rein:
   - Steuerauszug Bank/Depot → Bruttoerträge und Steuerwerte, Form. 2 Abschnitt A (mit VSt) / B (ohne VSt)
-  - Zinsausweise Konten → Bruttozins; Lotto-/Totobescheinigung → Geldspielgewinne
+  - Zinsausweise Konten → Bruttozins; Lotto-/Totobescheinigung → Bargewinne aus inländischen Lotterien/Geldspielen in Spalte A (VSt); ausländische Geldspielgewinne und alle Naturalpreise in Spalte B; Übertrag Ziff. 4.1
   - Formular DA-1 → Total Steuerwerte/Bruttoerträge ausländischer Titel mit Quellensteuer, Übertrag ins Form. 2
   - Formular 2 → Total Erträge nach Abzugszeilen G/BG, BP, BG
   berechnung: 'Form. 2: Σ Bruttoerträge A + B (inkl. DA-1, Ergänzungsblätter) − Abzugszeilen G/BG, BP (→ Ziff. 4.2) und BG (→ Ziff. 4.3)'
@@ -838,6 +842,8 @@ positionen:
     zitat: Unterhaltsbeiträge, die in Form einer Kapitalabfindung erbracht
   - chunk: bund-wl-2a-2025__c0051
     zitat: gelten als Schuldentilgung und sind daher nicht
+  - chunk: sg-stv__art-15
+    zitat: gelten ausschliesslich die laufenden Beiträge
   status: agent-geprueft
   rein:
   - Scheidungsurteil/Trennungsvereinbarung → vereinbarter Unterhaltsbeitrag (bei erstmaliger Zahlung Auszug beilegen)
@@ -846,7 +852,7 @@ positionen:
   beachten:
   - 'Gegenstück: beim Empfänger steuerbar (dort Ziff. 6.1)'
   - 'Nicht abziehbar: Leistungen aus anderen familienrechtlichen Unterhalts-/Unterstützungspflichten'
-  - 'Bund: Kapitalabfindung gilt als Schuldentilgung → nicht abziehbar'
+  - 'Nur periodische/laufende Beiträge: Kapitalabfindung gilt als Schuldentilgung, nicht abziehbar (WL 2a 2025); SG: StV Art. 15 – als Unterhaltsbeiträge gelten ausschliesslich die laufenden Beiträge (Empfängerseite)'
 - ziffer: '12.2'
   abschnitt: Abzüge
   bezeichnung: Unterhaltsbeiträge für minderjährige Kinder (Code 202)
@@ -1074,6 +1080,7 @@ positionen:
   belege:
   - steuerauszug-bank
   - depotauszug
+  - lotteriegewinn
   feld: Steuerauszug/Depotgebührenausweis; Kurswert fremdverwaltetes Vermögen
   regel: 'Tatsächliche Kosten (Depot-/Safegebühren, Inkassospesen) oder Pauschale 2 Promille des fremdverwalteten Wertschriftenvermögens, höchstens Fr. 6''000. Nicht abzugsfähig: Courtagen, Emissionsabgabe,
     Anlage-/Steuerberatung, Vermögensverwaltungsmandate. Darlehen und selbstverwaltete Wertschriften (eigene AG) gelten nicht als fremdverwaltet. Einsatzkosten Geldspiele: 5% des Gewinns, max. Fr. 5''400;
@@ -1093,6 +1100,10 @@ positionen:
     zitat: (sog. Safegebühren) mit Einschluss der zur Erzielung des Ertra-
   - chunk: bund-wl-2a-2025__c0056
     zitat: Nicht zulässig ist die Anrechnung einer Entschädigung für ei-
+  - chunk: sg-wl-2025__c0090
+    zitat: anderen Geldspielen können 5%, jedoch höchstens Fr. 5’400
+  - chunk: sg-wl-2025__c0134
+    zitat: können unter Ziffer 16.1 5%,
   status: agent-geprueft
   rein:
   - Steuerauszug/Depotauszug Bank → Depot-/Safegebühren, Inkassospesen 2025

@@ -584,7 +584,7 @@ def position(kt, jahr, arg, n=3) -> str:
     if bs:
         out.append(f"**Bund im Formular {NAME[j]} {jahr}:** {bs['text']} (Quelle: {bs['quelle']} «{cut(bs['zitat'], 110)}»)")
     if f.get("hinweis"):
-        out.append(f"Hinweis Formular: {cut(f.get('hinweis'), 300)}")
+        out.append(f"Hinweis Formular: {cut(f.get('hinweis'), 700)}")
     out.append("")
     for p in hits[:n]:
         out += position_block(p) + [""]

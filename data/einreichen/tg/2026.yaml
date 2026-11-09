@@ -117,7 +117,8 @@ belege:
   urteil: bestätigt
 - beleg_id: kontoauszug-zinsausweis
   einreichen: unklar
-  bedingung: Nur als 'Benötigte Unterlage' genannt; zum Formular 2 allgemein 'allfällig weitere notwendige Belege' beilegen (c0142) – keine ausdrückliche Pflicht für Zinsausweise
+  bedingung: nur als Unterlage zum Ausfüllen genannt (c0026); nicht in der Liste «Immer einzureichen» (c0034, Aufzählung «z.B.»); zu Formular 2 nur allgemein «allfällig weitere notwendige Belege» (c0142);
+    weitere Belege auf Verlangen der Veranlagungsbehörde (§ 157 Abs. 1 StG, tg-stg__par-157) → keine ausdrückliche Beilagepflicht
   chunk: tg-wl-2026__c0026
   zitat: Zins- und Kapitalbescheinigungen von Bank- und Postkonto, aus denen die Bruttozinsen, die
   urteil: bestätigt

@@ -19,6 +19,17 @@ allgemein:
 - regel: 'Online-Einreichung: erforderliche Beilagen zusammen mit der Steuererklärung elektronisch einreichen (§ 8 Abs. 4 V elektr. Einreichung)'
   chunk: zh-v-einreichung__par-8
   zitat: Die erforderlichen Beilagen sind zusammen mit der Steuererklärung elektronisch einzureichen.
+- regel: 'Online-Einreichung: Die Steuererklärung gilt als eingereicht, wenn sie elektronisch übermittelt und dabei elektronisch als «wahrheitsgemäss und vollständig» bestätigt wurde (§ 8 Abs. 1 V elektr. Einreichung).
+    Eine separate Papier-Freigabequittung sehen die ZH-Quellen 2025 nicht vor. Ehegatten und eingetragene Partner bestätigen gemeinsam (Abs. 2).'
+  chunk: zh-v-einreichung__par-8
+  zitat: Die Steuererklärung gilt als elektronisch eingereicht, wenn die steuerpflichtige Person die auf der Applikation erfasste Steuererklärung elektronisch an den Server übermittelt und dabei elektronisch
+    bestätigt hat, dass die Steuererklärung wahrheitsgemäss und vollständig ausgefüllt ist.
+- regel: 'Online-Einreichung: Gemeinsam Steuerpflichtige (Ehegatten, eingetragene Partner) geben die elektronische Bestätigung gemeinsam ab (§ 8 Abs. 2 V elektr. Einreichung)'
+  chunk: zh-v-einreichung__par-8
+  zitat: Gemeinsam steuerpflichtige Ehegatten und eingetragene Partnerinnen und Partner geben die elektronische Bestätigung gemeinsam ab.
+- regel: 'Gesetz: Bei elektronischer Einreichung ersetzt die elektronische Bestätigung die Unterzeichnung (§ 109c Abs. 1 StG)'
+  chunk: zh-stg-2025__par-109c-t1
+  zitat: In diesem Fall ersetzt eine elektronische Bestätigung der Angaben die Unterzeichnung.
 - regel: Einreichung der SE 2025 bis Ende März 2026 an das Scancenter (Papier)
   chunk: zh-wl-2025__c0202
   zitat: Die Steuererklärung ist bis Ende März 2026 dem Scancenter einzureichen.
@@ -254,10 +265,9 @@ belege:
   urteil: bestätigt
 - beleg_id: unterhaltszahlungen-alimente
   einreichen: auf_verlangen
-  bedingung: 'bezahlte Unterhaltsbeiträge (Ziff. 13.1/13.2): WL 2025 S. 14–15 nennt keine Beilagepflicht; der Formularhinweis «Mit der Steuererklärung 2025 sind sämtliche Zahlungsnachweise einzureichen»
-    steht eingerückt unter Ziff. 13.3 Rentenleistungen (zh-form-300-2025__c0007) und wird in der WL S. 15 auf die bezahlten Leibrenten und Verpfründungen bezogen (zh-wl-2025__c0080) -> für Alimente allgemeine
-    Regel, Nachweise (Zahlungsbelege, Urteil/Konvention) auf Verlangen; Formularwortlaut nicht ganz eindeutig (raw/zh/2025/zh-form-300-2025.pdf S. 3), im Zweifel beilegen – Fachperson entscheidet; erhaltene
-    Alimente (Ziff. 5.1/5.2): nur Name/Adresse Alimentenzahler/in, keine Beilagepflicht'
+  bedingung: 'Zahler (Ziff. 13.1/13.2): Zahlungsnachweise und Urteil/Konvention auf Verlangen. Die WL nennt keine Beilagepflicht. Der Formularhinweis «sämtliche Zahlungsnachweise» steht in der Zeile 13.3 (zh-form-300-2025__c0007),
+    und die WL S. 15 bezieht ihn auf bezahlte Leibrenten/Verpfründungen (zh-wl-2025__c0080: «Leibrenten und Verpfründungen einzureichen (insbesondere Leibrenten- bzw.»). Wortlaut nicht ganz eindeutig
+    (raw/zh/2025/zh-form-300-2025.pdf S. 3), im Zweifel beilegen – Fachperson entscheidet. Empfänger (Ziff. 5.1/5.2): keine Beilagepflicht, nur Name/Adresse Zahler/in.'
   chunk: zh-wl-2025__c0207
   zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
   urteil: 'korrigiert: bedingt -> auf_verlangen; der Hinweis «sämtliche Zahlungsnachweise» betrifft gemäss WL c0080 die Rentenleistungen Ziff. 13.3 (Leibrenten/Verpfründungen), nicht die Unterhaltsbeiträge

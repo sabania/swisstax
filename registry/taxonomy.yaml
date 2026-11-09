@@ -152,6 +152,7 @@ werte:
   liegenschaft.pauschale_neu: Liegenschaftsunterhalt Pauschale – Gebäude bis 10 Jahre (%)
   liegenschaft.pauschale_alt: Liegenschaftsunterhalt Pauschale – Gebäude über 10 Jahre (%)
   liegenschaft.eigenmietwert_abzug: Eigenmietwert – Einschlag/Abzug für selbstbewohnte Liegenschaft (%)
+  geldspiele.einsatzkosten_max: Einsatzkosten Geldspielgewinne – Maximum je Gewinn (CHF)
   # Sozialabzüge Einkommen
   sozialabzug.kind: Kinderabzug Grundbetrag (CHF)
   sozialabzug.kind_vorschule: Kinderabzug Vorschulalter (CHF)

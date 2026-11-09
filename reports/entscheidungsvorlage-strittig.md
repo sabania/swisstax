@@ -213,3 +213,20 @@
 
 - [ ] Entscheid Fachperson: ______  (Kürzel/Datum) <!-- ref: data/zuordnung/zh/2026.yaml#abzug.uebrige -->
 
+
+## 11. Einreichepflicht Unterhaltsbeiträge (data/einreichen/zh/2025.yaml#unterhaltszahlungen-alimente)
+
+**Frage:** Müssen die Zahlungsnachweise für geleistete Unterhaltsbeiträge (ZH 2025, Ziff. 13.1/13.2) mit der Steuererklärung eingereicht werden, oder nur auf Verlangen?
+
+**Quellen und Rang:**
+
+- *Formular* – Im Hauptformular steht im Block 13 (nach Ziff. 13.3) ein ausdrücklicher Hinweis. · [zh-form-300-2025__c0007](../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0007.md) – «Mit der Steuererklärung 2025 sind sämtliche Zahlungsnachweise einzureichen.»
+- *Praxis des Jahres* – Die Wegleitung ZH 2025 regelt allgemein: Belege nur einreichen, wenn das ausdrücklich verlangt ist. · [zh-wl-2025__c0207](../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0207.md) – «Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.»
+
+**Lesarten:** (a) Der Formularhinweis ist ein solches «ausdrückliches Verlangen» und gilt nach seiner Stellung für den ganzen Block 13, also auch für 13.1/13.2 → einreichen: ja. (b) Der Hinweis bezieht sich nur auf Ziff. 13.3 (Rentenleistungen); für Unterhaltsbeiträge gilt der Grundsatz der Wegleitung → auf Verlangen.
+
+**Empfehlung (mittlere Sicherheit):** Lesart (a), also Zahlungsnachweise zu 13.1/13.2 beilegen. Der Hinweis steht im Block 13 ohne Einschränkung auf 13.3, und die Wegleitung lässt ausdrückliche Verlangen ausdrücklich zu. Das Wiki führt den Eintrag bis zum Entscheid als «auf_verlangen» mit dem Zusatz «im Zweifel beilegen». Ein unabhängiger Prüfer hat beide Lesarten belegt gefunden.
+
+**Endgültige Klärung durch:** Rückfrage beim Kantonalen Steueramt ZH oder die Praxis der Fachperson.
+
+- [ ] Entscheid Fachperson: ______  (Kürzel/Datum) <!-- ref: data/einreichen/zh/2025.yaml#unterhaltszahlungen-alimente -->

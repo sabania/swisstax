@@ -487,14 +487,15 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
   - [StG SG Art. 48](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-48.md) `sg-stg-2026__art-48` – «Fr. 10 800.– für jedes unter der elterlichen Sorge oder Obhut des Steuerpflichtigen stehende oder volljährige Kind»
 
 <a id="sozialabzug-kind-ausbildung-auswaerts"></a>
-### Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+### Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)
 
 - **Wert:** CHF 13'800 (Zusätzlich zum Kinderabzug: höchstens weitere Fr. 13'800 für Ausbildungskosten je Kind in schulischer/beruflicher Ausbildung, soweit vom Steuerpflichtigen selbst getragen und über Fr. 3'200 (Selbstbehalt).)
 - **Schlüssel:** `sozialabzug.kind_ausbildung_auswaerts` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 48 Abs. 1 lit. a Ziff. 3 StG SG
-- **Bemerkung:** Neu 2026 gemäss MB 8/2026 Ziff. 23.3 (sg-mb-8-2026__c0013; Zitat wegen Layout nicht maschinell prüfbar); 2025: 13'700. Selbstbehalt Fr. 3'200 unverändert (Gesetzestext).
+- **Bemerkung:** Neu 2026 gemäss MB 8/2026 Ziff. 23.3 (sg-mb-8-2026__c0013; Zitat wegen Layout nicht maschinell prüfbar); 2025: 13'700. Selbstbehalt Fr. 3'200 unverändert (Gesetzestext). Ausbildungskostenabzug (Ziff. 23.3), NICHT auf auswärtige Ausbildung beschränkt: gilt für jedes Kind in schulischer oder beruflicher Ausbildung (Art. 48 Abs. 1 lit. a Ziff. 3 StG SG); selbst getragene Kosten über dem Selbstbehalt Fr. 3'200, höchstens Fr. 13'800 (Schlüsselname historisch). Bedingung «Abzug nach Ziff. 23.2» und Anrechnung der Stipendien stehen in der WL 2025 (sg-wl-2025__c0105) – für 2026 Vorjahr, nicht bestätigt.
 - **Quellen:**
   - [StG SG Art. 48](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-48.md) `sg-stg-2026__art-48` – «höchstens weitere Fr. 13 800.– für Ausbildungskosten»
+  - [StG SG Art. 48](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-48.md) `sg-stg-2026__art-48` – «das in der schulischen oder beruflichen Ausbildung steht, soweit sie der Steuerpflichtige selbst trägt und sie Fr. 3200.– übersteigen»
 
 <a id="sozialabzug-unterstuetzung"></a>
 ### Unterstützungsabzug (CHF)

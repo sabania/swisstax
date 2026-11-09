@@ -271,9 +271,10 @@ belege:
   - Abgezogene Verrechnungssteuer, ausländische Quellensteuern (-> dividenden-ausland-quellensteuer)
   - Depotgebühren / Verwaltungskosten, soweit ausgewiesen
   hinweise:
-  - Der Steuerauszug ersetzt Einzelauszüge der Bank für Konti und Depots; bei Papiereinreichung ist er vollständig beizulegen (nicht nur die Zusammenfassung).
-  - Der eSteuerauszug kann in die Online-Steuererklärung importiert werden; die Werte werden danach mit der aktuellen Kursliste geprüft; fehlende Positionen (andere Banken, Kryptowerte, Darlehen) sind zu
-    ergänzen.
+  - 'Der Steuerauszug fasst die Konti und Depots der Bank per 31.12. zusammen. Ob und wie vollständig er beizulegen ist, regelt der Kanton: meist dann, wenn Totale aus dem Steuerauszug übertragen werden
+    oder darauf verwiesen wird (AR, TG, ZH); in SG auf Papier immer komplett. Siehe Einreichen bzw. Kantonsangabe.'
+  - Der eSteuerauszug kann in die Online-Steuererklärung importiert werden; anschliessend können die Werte mit der aktuellen Kursliste neu bewertet bzw. fehlende Werte ergänzt werden (WL ZH; Import auch
+    in E-Tax SG, WL SG).
   - 'Bei Veräusserung/Erwerb von Titeln im Jahr: Datum angeben und Bankbelege beilegen; Bruttoerträge verkaufter/rückbezahlter Titel sind ebenfalls zu deklarieren.'
   - Vermögen und Ertrag von minderjährigen Kindern (Jahrgang 2008 und jünger bei ZH) gehören in die Steuererklärung der Eltern; Ansprüche an 2. Säule/3a sind bis zur Fälligkeit steuerfrei und nicht aufzuführen.
   kantone:
@@ -281,6 +282,8 @@ belege:
       2 Beilagen).
     AR: Werden die Gesamtbeträge der Steuerauszüge in Formular 2 übertragen, sind die Auszüge vollständig beizulegen (WL AR 2025 Formular 2 Beilagen).
     ZH: eSteuerauszug (Barcode) kann in die Online-Steuererklärung importiert werden (WL ZH 2025 Wertschriftenverzeichnis).
+    TG: Steuerauszüge sind einzureichen, wenn die Titel im Wertschriften- und Guthabenverzeichnis nicht einzeln, sondern als Total deklariert werden (WL TG 2025 S. 10); sie bilden dann Bestandteil des
+      Verrechnungssteuerantrags (WL TG 2025 S. 35).
   quellen:
   - chunk: sg-wl-2025__c0122
     zitat: Steuerauszüge sind bei Einreichung der Steuererklärung auf Papier immer
@@ -292,6 +295,14 @@ belege:
     zitat: Für steuerliche Zwecke eignen sich die von den Banken – auf Wunsch des Kunden – erstellten
   - chunk: zh-wl-2025__c0155
     zitat: entweder in der Kolonne A oder Kolonne B einzutragen
+  - chunk: tg-wl-2025__c0036
+    zitat: benverzeichnis nicht einzeln, sondern als Total unter Erträge und Steuerwert deklariert haben
+  - chunk: tg-wl-2025__c0168
+    zitat: Steuerauszüge von Banken, die anstelle von detaillierten Angaben im Formular 2 eingereicht
+  - chunk: zh-wl-2025__c0173
+    zitat: Liegen die detaillierten Steuerverzeichnisse bzw. Steuerbewertungen bei, auf welche im
+  - chunk: sg-wl-2025__c0122
+    zitat: Dies gilt auch für mit E-Tax SG importierte
   status: agent-geprueft
 - id: kontoauszug-zinsausweis
   name: Kontoauszug / Zins- und Saldobescheinigung (Sparkonto, Privatkonto, Festgeld, Post)
@@ -320,7 +331,8 @@ belege:
   kantone:
     AR: Bei Konti mit Bruttozins unter Fr. 200, aber Verrechnungssteuerabzug, ist der Nachweis beizulegen (WL AR 2025 Deklaration der Erträge a).
     SG: Bankbeleg mit Verrechnungssteuernachweis beilegen, wenn Abzug erfolgte (WL SG 2025 Deklaration der Erträge a).
-    TG: Zins- und Kapitalbescheinigungen müssen Bruttozinsen, abgezogene Verrechnungssteuer und Kontostand zeigen (WL TG 2025 Benötigte Unterlagen).
+    TG: 'Zins- und Kapitalbescheinigungen müssen Bruttozinsen, abgezogene Verrechnungssteuer und Kontostand zeigen (WL TG 2025 Benötigte Unterlagen). Inländische Bank-/Postkonti: Bruttozins bis Fr. 200 und
+      Zinsvergütung nur einmal jährlich → Spalte 9 (in der Regel ohne VSt); Bruttozins über Fr. 200 oder mehrmalige Vergütung → Spalte 8 (mit VSt). Ausländische Guthaben immer Spalte 9 (WL TG 2025 S. 32).'
     ZH: Kolonne A (Kundenguthaben mit Bruttozins über CHF 200) / Kolonne B (bis CHF 200); Abrechnungsbelege bei Festgeld beilegen (WL ZH 2025 Kolonnen A/B).
   quellen:
   - chunk: ar-wl-2025__c0136
@@ -333,6 +345,12 @@ belege:
     zitat: aus denen die Bruttozinsen, die
   - chunk: ar-wl-2025__c0137
     zitat: Bruchzinsen (Zinsen bei Aufgabe, Rückzahlung, Einlösung oder Konversion
+  - chunk: tg-wl-2025__c0153
+    zitat: Bank- und Postkonti aller Art, deren Bruttozins im Kalenderjahr Fr. 200 nicht übersteigt und
+  - chunk: tg-wl-2025__c0151
+    zitat: zinsen im Kalenderjahr Fr. 200 übersteigen sowie für Konti, bei denen die Zinsvergütung mehr-
+  - chunk: tg-wl-2025__c0153
+    zitat: schen Wertschriften und Guthaben aller Art.
   status: agent-geprueft
 - id: depotauszug
   name: Depotauszug / Wertschriftenverzeichnis der Bank (Titelbestand per 31.12.)

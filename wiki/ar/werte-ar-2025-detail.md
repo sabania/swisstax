@@ -503,7 +503,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
   - [WL AR 2025 S. 2](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0005.md) `ar-wl-2025__c0005` – «bis zur Vollendung des 26. Altersjahrs Fr. 11’600»
 
 <a id="sozialabzug-kind-ausbildung-auswaerts"></a>
-### Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+### Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)
 
 - **Wert:** n/a – Kein separater Abzug für auswärtige Ausbildung; Ziff. 3 (CHF 11'600) gilt einheitlich bis zum 26. Altersjahr.
 - **Schlüssel:** `sozialabzug.kind_ausbildung_auswaerts` · **gilt für:** kanton · **Status:** – na

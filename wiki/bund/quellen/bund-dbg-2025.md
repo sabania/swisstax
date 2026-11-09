@@ -15,7 +15,7 @@ generiert: tools/build_index.py
 
 ## Verwendet in (Änderungsauswirkung)
 
-Zitiert in 110 Daten-Einträgen und 32 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-dbg-2025`).
+Zitiert in 112 Daten-Einträgen und 32 handgeschriebenen Seiten (`python3 tools/impact.py --quelle bund-dbg-2025`).
 
 - `data/belege-teil1.yaml#12:krankenkasse-praemien` (agent-geprueft)
 - `data/belege-teil1.yaml#13:krankenkasse-leistungen` (agent-geprueft)
@@ -33,6 +33,7 @@ Zitiert in 110 Daten-Einträgen und 32 handgeschriebenen Seiten (`python3 tools/
 - `data/belege-teil2.yaml#7:kinderbetreuung-rechnungen` (agent-geprueft)
 - `data/belege-teil2.yaml#9:spendenbestaetigung` (agent-geprueft)
 - `data/belege-teil3.yaml#0:kapitalleistung-vorsorge` (agent-geprueft)
+- `data/belege-teil3.yaml#11:motorfahrzeug-versicherung` (agent-geprueft)
 - `data/belege-teil3.yaml#12:mietvertrag-wohnung` (agent-geprueft)
 - `data/belege-teil3.yaml#13:kreditkartenabrechnung` (agent-geprueft)
 - `data/belege-teil3.yaml#14:steuerberatungskosten` (agent-geprueft)
@@ -43,6 +44,7 @@ Zitiert in 110 Daten-Einträgen und 32 handgeschriebenen Seiten (`python3 tools/
 - `data/belege-teil3.yaml#8:ergaenzungsleistungen` (agent-geprueft)
 - `data/belege-teil3.yaml#9:privatrechnungen-alltag` (agent-geprueft)
 - `data/werte/bund/2025.yaml#0:berufskosten.fahrkosten.max` (agent-geprueft)
+- `data/werte/bund/2025.yaml#12:berufskosten.uebrige.satz` (agent-geprueft)
 - `data/werte/bund/2025.yaml#20:weiterbildung.max` (agent-geprueft)
 - `data/werte/bund/2025.yaml#21:versicherung.verheiratet` (agent-geprueft)
 - `data/werte/bund/2025.yaml#22:versicherung.verheiratet_ohne_vorsorge` (agent-geprueft)
@@ -55,9 +57,7 @@ Zitiert in 110 Daten-Einträgen und 32 handgeschriebenen Seiten (`python3 tools/
 - `data/werte/bund/2025.yaml#34:drittbetreuung.altersgrenze` (agent-geprueft)
 - `data/werte/bund/2025.yaml#35:krankheitskosten.selbstbehalt_satz` (agent-geprueft)
 - `data/werte/bund/2025.yaml#36:spenden.min` (agent-geprueft)
-- `data/werte/bund/2025.yaml#37:spenden.max_satz` (agent-geprueft)
-- `data/werte/bund/2025.yaml#38:parteispenden.max` (agent-geprueft)
-- … 70 weitere
+- … 72 weitere
 - [wiki/ar/ar-ueberblick.md](../../ar/ar-ueberblick.md)
 - [wiki/bund/bund-ueberblick.md](../bund-ueberblick.md)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)

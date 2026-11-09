@@ -151,14 +151,18 @@ werte:
 - key: berufskosten.uebrige.satz
   wert: 3
   einheit: '%'
-  text: 'Übrige Berufskosten: 3 % des Nettolohns (Pauschale; Nachweis höherer Kosten möglich); bei Teilzeit/unterjährig angemessen kürzen'
+  text: 'Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2''000, max. CHF 4''000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten
+    möglich. Fahrkosten (lit. a, max. 3''300 gemäss DBG 2025; WL 2a 2025 nennt 3''200 – Widerspruch siehe berufskosten.fahrkosten.max) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr
+    angemessen kürzen.'
   gilt_fuer: bund
-  rechtsgrundlage: Art. 26 Abs. 2 DBG; Art. 7 BKV; Anhang Ziff. 1 BKV
+  rechtsgrundlage: Art. 26 Abs. 1 lit. c, Abs. 2 DBG; Art. 4 und 7 BKV; Anhang Ziff. 1 BKV
   quellen:
   - chunk: bund-bkv-2025__anhang-1
     zitat: 3 % des Nettolohns, mindestens im Jahr | 2000.—
   - chunk: bund-bkv-2025__art-7
     zitat: Der Pauschalabzug ist angemessen zu kürzen, wenn die unselbständige Erwerbstätigkeit bloss während eines Teils des Jahres oder als Teilzeitarbeit ausgeübt wird.
+  - chunk: bund-dbg-2025__art-26
+    zitat: im Fall von Absatz 1 Buchstabe c steht der steuerpflichtigen Person der Nachweis höherer Kosten offen
   status: agent-geprueft
 - key: berufskosten.uebrige.fix
   wert: null
@@ -528,6 +532,18 @@ werte:
   bemerkung: Eigenmietwert wird nach ortsüblichen Verhältnissen und tatsächlicher Nutzung festgesetzt (Art. 21 Abs. 2 DBG); Abschaffung per 01.01.2029 beschlossen, 2025–2028 gilt bisheriges Recht. Der Eigenmietwert
     für die direkte Bundessteuer wird im kantonalen Veranlagungsverfahren festgesetzt; ein dort vorgesehener Abzug für die DBSt (z.B. TG 20 %, siehe werte-tg) ist kantonale Vollzugspraxis, kein Widerspruch.
   rechtsgrundlage: Art. 21 Abs. 1 lit. b, Abs. 2 DBG
+- key: geldspiele.einsatzkosten_max
+  wert: 5400
+  einheit: CHF
+  text: 'Einsatzkosten: 5 % der einzelnen steuerbaren Geldspielgewinne, höchstens CHF 5''400 je Gewinn (Online-Spielbankenspiele: abgebuchte Einsätze, höchstens CHF 26''800)'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 33 Abs. 4 DBG i.V.m. Art. 3 Abs. 6 VKP
+  quellen:
+  - chunk: bund-vkp-2025__art-3-t4
+    zitat: werden 5 Prozent, jedoch höchstens 5400 Franken, als Einsatzkosten abgezogen
+  - chunk: bund-vkp-2025__art-3-t4
+    zitat: jedoch höchstens 26 800 Franken abgezogen
+  status: extrahiert
 - key: sozialabzug.kind
   wert: 6800
   einheit: CHF

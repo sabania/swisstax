@@ -159,8 +159,9 @@ werte:
 - key: berufskosten.uebrige.satz
   wert: 3
   einheit: '%'
-  text: 'Pauschale uebrige Berufskosten: 3 % des Nettolohns (Ziff. 11 Lohnausweis); alternativ Nachweis der effektiven Kosten (nicht kumulierbar). Bei weniger als 12 Monaten Erwerbstaetigkeit anteilmaessig
-    gekuerzt.'
+  text: 'Pauschale übrige Berufskosten (Form. 4.2 Ziff. 4: Berufswerkzeuge, Fachliteratur, Kleider-/Schuhverschleiss, Mehrauslagen für Schwerarbeit, Beiträge an Berufsverbände/Gewerkschaften): 3 % des Nettolohns
+    (Ziff. 11 Lohnausweis), min. Fr. 2''000, max. Fr. 4''000 (Kanton und dBSt). Anstelle der Pauschale können die notwendigen tatsächlichen Aufwendungen nachgewiesen werden (keine Kumulation mit der Pauschale).
+    Bei weniger als 12 Monaten unselbständiger Erwerbstätigkeit anteilmässig gekürzt.'
   gilt_fuer: kanton
   rechtsgrundlage: § 4a Abs. 1 BKV; StP 29 Nr. 7
   quellen:
@@ -168,6 +169,10 @@ werte:
     zitat: beträgt der Pauschalabzug 3 Prozent des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000
   - chunk: tg-wl-2026__c0187
     zitat: mindestens Fr. 2'000 und höchstens Fr. 4'000 (kantonal und direkte Bundessteuer)
+  - chunk: tg-wl-2026__c0187
+    zitat: Allgemeine Berufskosten wie Aufwendungen für Berufswerkzeuge, Fachliteratur, Kleider- und
+  - chunk: tg-wl-2026__c0187
+    zitat: Anstelle der Pauschale können Sie die notwendigen tatsächlichen Aufwendungen nachweisen.
   - chunk: tg-stp-29-7__c0002
     zitat: 3% des Nettolohnes, mindestens Fr. 2'000 und höchstens Fr. 4'000
   status: agent-geprueft
@@ -552,12 +557,14 @@ werte:
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: 10600
   einheit: CHF
-  text: 'Kind in Ausbildung nach Vollendung des 20. bis zum vollendeten 26. Altersjahr (WL 2026: Jahrgang 2001-2006): Fr. 10''600.'
+  text: 'Kind in Ausbildung nach Vollendung des 20. bis zum vollendeten 26. Altersjahr (WL 2026: Jahrgang 2001-2006): Fr. 10''600. Anstelle von sozialabzug.kind/kind_ausbildung (der Abzug «erhöht sich … auf»), nicht zusätzlich.'
   gilt_fuer: kanton
   rechtsgrundlage: § 36 Abs. 2 Ziff. 1 lit. c StG
   quellen:
   - chunk: tg-stg__par-36-t1
     zitat: bis höchstens zum vollendeten 26. Altersjahr auf · Fr. 10'600
+  - chunk: tg-stg__par-36-t1
+    zitat: der Abzug erhöht sich für jedes in Ausbildung stehende Kind nach Vollendung des 16. Altersjahres auf
   - chunk: tg-wl-2026__c0107
     zitat: für jedes Kind in Ausbildung mit Jahrgang 2001 – 2006 Fr. 10'600
   status: agent-geprueft

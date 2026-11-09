@@ -17,7 +17,7 @@ generiert: tools/build_index.py
 
 Zitiert in 1 Daten-Einträgen und 3 handgeschriebenen Seiten (`python3 tools/impact.py --quelle sg-steuerfuesse-2025`).
 
-- `data/werte/sg/2025.yaml#58:tarif.steuerfuss_kanton` (agent-geprueft)
+- `data/werte/sg/2025.yaml#59:tarif.steuerfuss_kanton` (agent-geprueft)
 - [wiki/sg/sg-ueberblick.md](../sg-ueberblick.md)
 - [wiki/themen/bezug-zinsen.md](../../themen/bezug-zinsen.md)
 - [wiki/themen/tarife-steuerfuesse.md](../../themen/tarife-steuerfuesse.md)

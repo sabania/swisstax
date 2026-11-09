@@ -46,7 +46,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): Kanton **CHF 8'500 (Kind in Ausbildung nach Vollendung des 16. Altersjahres (WL 2026: Jahrgang 2007-2010): Fr. 8'500.)** · Bund **CHF 6'800 (Kinder in beruflicher oder schulischer Ausbildung: gleicher Abzug CHF 6'800 (kein höherer Ausbildungsabzug beim Bund).)**
   - Kinderabzug Schulalter (CHF): Kanton **n/a** · Bund **n/a – Bund: einheitlicher Kinderabzug CHF 6'800, keine Staffelung nach Alter; siehe sozialabzug.kind.**
   - Kinderabzug Grundbetrag (CHF): Kanton **CHF 7'400 (Kinderabzug je Kind (nicht selbstaendig besteuert, in Ausbildung oder erwerbsunfaehig, Unterhalt wird getragen): Fr. 7'400 ('uebriges Kind'). Stichtag 31.12.2026. Zusaetzlich Steuergutschrift max. Fr. 100 pro minderjaehriges Kind mit der Schlussrechnung.)** · Bund **CHF 6'800 (Kinderabzug CHF 6'800 pro minderjähriges oder in beruflicher/schulischer Ausbildung stehendes Kind, für dessen Unterhalt die steuerpflichtige Person sorgt; bei getrennter Besteuerung der Eltern hälftig bei gemeinsamer elterlicher Sorge ohne Unterhaltsbeiträge.)**
-  - Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): Kanton **CHF 10'600 (Kind in Ausbildung nach Vollendung des 20. bis zum vollendeten 26. Altersjahr (WL 2026: Jahrgang 2001-2006): Fr. 10'600.)** · Bund **n/a – Bund: kein erhöhter Abzug für auswärtige Ausbildung; einheitlich CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).**
+  - Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF): Kanton **CHF 10'600 (Kind in Ausbildung nach Vollendung des 20. bis zum vollendeten 26. Altersjahr (WL 2026: Jahrgang 2001-2006): Fr. 10'600. Anstelle von sozialabzug.kind/kind_ausbildung (der Abzug «erhöht sich … auf»), nicht zusätzlich.)** · Bund **n/a – Bund: kein erhöhter Abzug für auswärtige Ausbildung; einheitlich CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).**
 - **Quellen:**
   - [Formular 1 TG 2026 S. 1](../../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0003.md) `tg-form-01-2026__c0003` – «Minderjährige, in beruflicher Ausbildung stehende oder erwerbsunfähige Kinder, deren Unterhalt Sie bestreiten»
   - [WL TG 2026 S. 12](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0044.md) `tg-wl-2026__c0044` – «Für Kinder mit Jahrgang 2007 und älter, welche sich in Ausbildung befinden, geben Sie bitte»
@@ -327,7 +327,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [WL TG 2026 S. 19](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0079.md) `tg-wl-2026__c0079` – «Periodische Unterhaltsbeiträge (inklusive Kinderzulagen)»
 
 <a id="4-einkommen-wertschriften"></a>
-### Ziff. 4 – Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 2, Code 150)
+### Ziff. 4 – Wertschriften- und Zinserträge sowie Gewinne aus Geldspielen (Formular 1 Code 150, Übertrag aus Formular 2)
 
 - **Schlüssel:** `einkommen.wertschriften` (Ertrag aus Wertschriften und Guthaben (gem. Wertschriftenverzeichnis)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Steuerauszug der Bank / Post (inkl. eSteuerauszug), Kontoauszug / Zins- und Saldobescheinigung (Sparkonto, Privatkonto, Festgeld, Post), Depotauszug / Wertschriftenverzeichnis der Bank (Titelbestand per 31.12.), Dividenden-/Zinsabrechnung Ausland mit Quellensteuer (inkl. DA-1, USA), Lotterie-/Lottogewinn-Bescheinigung (Swisslos, Casino, Online-Spielbank, Wettbewerbsgewinn) → Formular 2 Total steuerbarer Ertrag (Ziff. 9)
@@ -549,7 +549,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - Fahrkosten Auto – Ansatz pro km (CHF): Kanton **Privatauto (nur in begruendeten Ausnahmefaellen, wenn OeV nicht zur Verfuegung steht/unzumutbar): gestaffelter Ansatz je jaehrlich gefahrener Kilometer: bis 3'000 km Fr. 0.60, 3'001-5'000 km Fr. 0.50, ueber 5'000 km Fr. 0.40 pro km (Parkgebuehren inbegriffen). Beispiel 12'150 km = Fr. 5'660.** · Bund **CHF 0.75 (Privatauto: CHF 0.75 pro Fahrkilometer, nur wenn kein öffentliches Verkehrsmittel zur Verfügung steht oder dessen Benützung objektiv nicht zumutbar ist; Gesamtmaximum CHF 3'300.)**
   - Verpflegungsmehrkosten pro Arbeitstag (CHF): Kanton **CHF 15 (Mehrkosten auswaertige Verpflegung bei taeglicher Heimkehr: Fr. 15 pro auswaertige Hauptmahlzeit (in der Regel nur Mittagessen), wenn Heimkehr am Mittag wegen grosser Entfernung oder sehr kurzer Essenspause nicht zumutbar.)** · Bund **CHF 15 (Auswärtige Verpflegung: CHF 15 pro Hauptmahlzeit (in der Regel nur Mittagessen), nur Pauschale zulässig, wenn Hauptmahlzeit wegen grosser Entfernung/kurzer Pause nicht zu Hause eingenommen werden kann oder bei durchgehender Schicht-/Nachtarbeit.)**
   - Verpflegungsmehrkosten pro Jahr (CHF): Kanton **CHF 3'200 (Bei staendiger auswaertiger Verpflegung maximal Fr. 3'200 im Jahr; bei Teilzeit/Nebenberuf angemessene Kuerzung.)** · Bund **CHF 3'200 (Auswärtige Verpflegung, voller Abzug: max. CHF 3'200 pro Jahr (bei ständiger auswärtiger Verpflegung).)**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale uebrige Berufskosten: 3 % des Nettolohns (Ziff. 11 Lohnausweis); alternativ Nachweis der effektiven Kosten (nicht kumulierbar). Bei weniger als 12 Monaten Erwerbstaetigkeit anteilmaessig gekuerzt.)** · Bund **3 % (Übrige Berufskosten: Pauschale 3 % des Nettolohns, mindestens CHF 2'000, höchstens CHF 4'000 pro Jahr; Nachweis höherer tatsächlicher Kosten möglich. Bei Teilzeit/Teiljahr angemessen zu kürzen.)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale übrige Berufskosten (Form. 4.2 Ziff. 4: Berufswerkzeuge, Fachliteratur, Kleider-/Schuhverschleiss, Mehrauslagen für Schwerarbeit, Beiträge an Berufsverbände/Gewerkschaften): 3 % des Nettolohns (Ziff. 11 Lohnausweis), min. Fr. 2'000, max. Fr. 4'000 (Kanton und dBSt). Anstelle der Pauschale können die notwendigen tatsächlichen Aufwendungen nachgewiesen werden (keine Kumulation mit der Pauschale). Bei weniger als 12 Monaten unselbständiger Erwerbstätigkeit anteilmässig gekürzt.)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **CHF 2'000 (Pauschale uebrige Berufskosten: Minimum Fr. 2'000.)** · Bund **CHF 2'000 (Mindestbetrag der Pauschale übrige Berufskosten.)**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 4'000 (Pauschale uebrige Berufskosten: Maximum Fr. 4'000.)** · Bund **CHF 4'000 (Höchstbetrag der Pauschale übrige Berufskosten.)**
   - Verpflegung bei Verbilligung (Kantine/Lunch-Checks) pro Tag (CHF): Kanton **CHF 7.50 (Bei Verbilligung durch Arbeitgeber (Gutscheine, Kantine, Personalrestaurant) nur der halbe Abzug: Fr. 7.50 pro Tag. Kein Abzug, wenn Hauptmahlzeit unter Fr. 10 zu stehen kommt.)** · Bund **CHF 7.50 (Nur halber Abzug (CHF 7.50 pro Tag), wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers benützt werden kann. Kein Abzug, wenn der Arbeitgeber die Naturalbezüge unter den behördlichen Bewertungsansätzen bewertet oder die Verpflegung zu Preisen unter diesen Ansätzen möglich ist (Art. 6 Abs. 3 BKV).)**
@@ -842,7 +842,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [WL TG 2026 S. 46](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0217.md) `tg-wl-2026__c0217` – «mit dem Vermerk „Spenden an diverse Organisationen“ oder ähnlichen Vermerken»
 
 <a id="15-6-abzug-teilbesteuerung-beteiligungen"></a>
-### Ziff. 15.6 – Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 2 Hilfsblatt, Code 341)
+### Ziff. 15.6 – Teilbesteuerungsabzug Beteiligungen im Privatvermögen (Formular 1 Code 341, Übertrag aus Formular 2 Hilfsblatt)
 
 - **Schlüssel:** `abzug.teilbesteuerung_beteiligungen` (Teilbesteuerungsabzug qualifizierte Beteiligungen (wo als Abzugszeile geführt)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Dividenden-/Zinsabrechnung Ausland mit Quellensteuer (inkl. DA-1, USA), Steuerauszug der Bank / Post (inkl. eSteuerauszug) → Formular 2, letzte Seite: Hilfsblatt qualifizierte Beteiligungen (Ziff. 3 Teilbesteuerungsabzug)
@@ -1100,7 +1100,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - Kinderabzug Vorschulalter (CHF): Kanton **n/a** · Bund **n/a – Bund: einheitlicher Kinderabzug CHF 6'800 (Art. 35 Abs. 1 lit. a DBG), keine Staffelung nach Alter; siehe sozialabzug.kind.**
   - Kinderabzug Schulalter (CHF): Kanton **n/a** · Bund **n/a – Bund: einheitlicher Kinderabzug CHF 6'800, keine Staffelung nach Alter; siehe sozialabzug.kind.**
   - Kinderabzug/Ausbildungsabzug in Ausbildung (CHF): Kanton **CHF 8'500 (Kind in Ausbildung nach Vollendung des 16. Altersjahres (WL 2026: Jahrgang 2007-2010): Fr. 8'500.)** · Bund **CHF 6'800 (Kinder in beruflicher oder schulischer Ausbildung: gleicher Abzug CHF 6'800 (kein höherer Ausbildungsabzug beim Bund).)**
-  - Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF): Kanton **CHF 10'600 (Kind in Ausbildung nach Vollendung des 20. bis zum vollendeten 26. Altersjahr (WL 2026: Jahrgang 2001-2006): Fr. 10'600.)** · Bund **n/a – Bund: kein erhöhter Abzug für auswärtige Ausbildung; einheitlich CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).**
+  - Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF): Kanton **CHF 10'600 (Kind in Ausbildung nach Vollendung des 20. bis zum vollendeten 26. Altersjahr (WL 2026: Jahrgang 2001-2006): Fr. 10'600. Anstelle von sozialabzug.kind/kind_ausbildung (der Abzug «erhöht sich … auf»), nicht zusätzlich.)** · Bund **n/a – Bund: kein erhöhter Abzug für auswärtige Ausbildung; einheitlich CHF 6'800 (Art. 35 Abs. 1 lit. a DBG).**
 - **Bund:** Bund Fr. 6'800 je Kind; Zuteilungsregeln bei getrennten Eltern weichen ab.
 - **Quellen:**
   - [Formular 1 TG 2026 S. 3](../../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0013.md) `tg-form-01-2026__c0013` – «25.1 a) für jedes Kind in Ausbildung mit Jahrg. 2001 – 2006 Fr. 10 600 Fr. 6800 380»
@@ -1227,7 +1227,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 ## Vermögen
 
 <a id="30-1-vermoegen-wertschriften-guthaben"></a>
-### Ziff. 30.1 – Wertschriften und Guthaben (Formular 2, Code 410)
+### Ziff. 30.1 – Wertschriften und Guthaben (Formular 1 Code 410, Übertrag aus Formular 2)
 
 - **Schlüssel:** `vermoegen.wertschriften_guthaben` (Wertschriften und Guthaben (Bank-/Postkonten, Depot, Krypto)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Steuerauszug der Bank / Post (inkl. eSteuerauszug), Depotauszug / Wertschriftenverzeichnis der Bank (Titelbestand per 31.12.), Kontoauszug / Zins- und Saldobescheinigung (Sparkonto, Privatkonto, Festgeld, Post), Krypto-Auszug (Exchange-/Wallet-Auszug, Jahresendbestand) → Formular 2 Total Steuerwerte (Ziff. 9); Steuerwerte per 31.12.2026
@@ -1563,7 +1563,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [WL Lohnausweis 2026 S. 10](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0019.md) `bund-wl-lohnausweis-2026__c0019` – «Privatanteil Geschäftsfahrzeug Ziffer 2.2»
 
 <a id="form-4-2-4-3-ziff-2-1-abzug-berufskosten-fahrkosten"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 2.1 – Abonnementskosten öffentliche Verkehrsmittel (Code 206 / 246)
+### Ziff. Form. 4.2/4.3 Ziff. 2.1 – Abonnementskosten öffentliche Verkehrsmittel (Code 206 Person 1 / 246 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** ÖV-Abonnement (GA, Streckenabo, Verbundabo, Halbtax nur ergänzend) – Arbeitsweg → Abo-Beleg (Jahresabo, Streckenabo, GA) – nachgewiesene Kosten
@@ -1584,7 +1584,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [WL TG 2026 S. 40](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0188.md) `tg-wl-2026__c0188` – «Deklarieren Sie die Fahrkosten für den Wochenaufenthalt unter den Ziffern 2.1 bis 2.3.»
 
 <a id="form-4-2-4-3-ziff-2-2-abzug-berufskosten-fahrkosten"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 2.2 – Fahrrad, Kleinmotorrad bis 50 cm³ pauschal Fr. 700 (Code 210 / 250)
+### Ziff. Form. 4.2/4.3 Ziff. 2.2 – Fahrrad, Kleinmotorrad bis 50 cm³ pauschal Fr. 700 (Code 210 Person 1 / 250 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Keine Belege nötig (Pauschale)
@@ -1606,7 +1606,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [WL TG 2026 S. 37–38](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0176.md) `tg-wl-2026__c0176` – «sofern es sich um eine beachtenswerte Entfernung (ab ca. 1 km) handelt.»
 
 <a id="form-4-2-4-3-ziff-2-3-abzug-berufskosten-fahrkosten"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 2.3 – Kosten für privates Motorfahrzeug (Auto / Motorrad über 50 cm³): km pro Tag × Anzahl Tage (Code 211 / 251), Spalten Staat und Bund separat
+### Ziff. Form. 4.2/4.3 Ziff. 2.3 – Kosten für privates Motorfahrzeug (Auto / Motorrad über 50 cm³): km pro Tag × Anzahl Tage (Code 211 Person 1 / 251 Person 2), Spalten Staat und Bund separat
 
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ⚠️ strittig
 - **Beleg → Feld:** Fahrzeugausweis (Fahrzeugschein) / Kontrollschild-Nachweis, Fahrtenaufstellung für Auto oder Motorrad auf dem Arbeitsweg → Begründung der Notwendigkeit (Zeitersparnis, kein zumutbarer ÖV), Arbeitsweg-km und Arbeitstage
@@ -1634,7 +1634,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [StP 29 Nr. 2](../../chunks/tg/dauernd/tg-stp-29-2/tg-stp-29-2__c0004.md) `tg-stp-29-2__c0004` – «Bei der direkten Bundessteuer beträgt der Ansatz einheitlich 70 Rp. pro gefahrenen Kilometer.»
 
 <a id="form-4-2-4-3-ziff-2-4-berechnung-total"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 2.4 – Total effektive Fahrkosten (Ziff. 2.1–2.3) (Code 212 / 252)
+### Ziff. Form. 4.2/4.3 Ziff. 2.4 – Total effektive Fahrkosten (Ziff. 2.1–2.3) (Code 212 Person 1 / 252 Person 2)
 
 - **Schlüssel:** `berechnung.total` (Berechnungs-/Totalzeilen (Nettoeinkommen, Reineinkommen, steuerbares Einkommen/Vermögen, Totale)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Rechenzeile
@@ -1652,12 +1652,12 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [StP 29 Nr. 2](../../chunks/tg/dauernd/tg-stp-29-2/tg-stp-29-2__c0006.md) `tg-stp-29-2__c0006` – «Im Zusammenhang mit der Fahrt zur Arbeit entstandene behinderungsbedingte Mehrkosten sind nicht unter den Berufsauslagen»
 
 <a id="form-4-2-4-3-ziff-2-5-abzug-berufskosten-fahrkosten"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 2.5 – Total abzugsfähige Fahrkosten – Staat max. Fr. 6'000 / Bund max. Fr. 3'300 (Code 213 / 253)
+### Ziff. Form. 4.2/4.3 Ziff. 2.5 – Total abzugsfähige Fahrkosten – Staat max. Fr. 6'000 / Bund max. Fr. 3'300 (Code 213 Person 1 / 253 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.fahrkosten` (Fahrkosten Wohn-/Arbeitsstätte) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Rechenzeile mit Plafonierung
 - **Rein:** Übertrag aus Ziff. 2.4 (Spalten Staat/Bund)
-- **Rechnen:** Kanton: min(Ziff. 2.4 Kanton; 6'000); Bund: min(Ziff. 2.4 Bund; 3'300) – je Person
+- **Rechnen:** Kanton: min(Ziff. 2.4 Kanton; 6'000); Bund: min(Ziff. 2.4 Bund; 3'300) – je Person → Form. 4.2/4.3 Ziff. 7 (Code 240/280) → Steuererklärung Seite 3 Ziff. 10.1/10.2
 - **Regel:** Total aus 2.4, aber Staat höchstens Fr. 6'000 und Bund höchstens Fr. 3'300 (gilt auch für Fahrkosten bei Wochenaufenthalt). Liegt 2.4 darunter, wird der effektive Betrag eingesetzt.
 - **Beachten:** Plafond umfasst alle Fahrkosten inkl. Wochenaufenthalt und effektive Nebenerwerbs-Fahrkosten
 - **Beachten:** Keine Kürzung bei unterjähriger Steuerpflicht/Erwerbsdauer oder Teilzeit
@@ -1672,9 +1672,11 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [WL TG 2026 S. 40–41](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0190.md) `tg-wl-2026__c0190` – «Werden effektive Fahrkosten geltend gemacht, sind diese bei der»
   - [StP 29 Nr. 2](../../chunks/tg/dauernd/tg-stp-29-2/tg-stp-29-2__c0007.md) `tg-stp-29-2__c0007` – «werden auch bei unterjähriger Steuerpflicht, unterjähriger Erwerbsdauer oder Teilzeitarbeit nicht gekürzt»
   - [WL TG 2026 S. 39](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0182.md) `tg-wl-2026__c0182` – «Daher kann bei der direkten Bundessteuer nur der Maximalabzug von Fr. 3'300»
+  - [Formular 4.2/4.3 TG 2026 S. 1](../../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0005.md) `tg-form-04-2-2026__c0005` – «Übertrag in Steuererklärung Seite 3, Ziffer 10.1»
+  - [Formular 4.2/4.3 TG 2026 S. 2](../../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0010.md) `tg-form-04-2-2026__c0010` – «7. Total der abzugsfähigen Berufsauslagen 280»
 
 <a id="form-4-2-4-3-ziff-3-1-abzug-berufskosten-verpflegung"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 3.1 – Mehrkosten auswärtige Verpflegung ohne Verbilligung: Fr. 15 pro Arbeitstag, max. Fr. 3'200/Jahr; Schichttage (Code 214 / 254)
+### Ziff. Form. 4.2/4.3 Ziff. 3.1 – Mehrkosten auswärtige Verpflegung ohne Verbilligung: Fr. 15 pro Arbeitstag, max. Fr. 3'200/Jahr; Schichttage (Code 214 Person 1 / 254 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Spesenreglement des Arbeitgebers (genehmigtes Spesenreglement, Spesenabrechnung, Pauschalspesen) → Lohnausweis Ziff. 15 (Anzahl Schichttage) bzw. Bescheinigung Arbeitgeber; Lohnausweis Feld G darf nicht angekreuzt sein
@@ -1699,7 +1701,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [WL Lohnausweis 2026 S. 8–9](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0012.md) `bund-wl-lohnausweis-2026__c0012` – «Dieses Feld ist anzukreuzen, wenn dem Arbeitnehmer Lunch-Checks»
 
 <a id="form-4-2-4-3-ziff-3-2-abzug-berufskosten-verpflegung"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 3.2 – Mehrkosten auswärtige Verpflegung mit Verbilligung durch Arbeitgeber/Kantine: Fr. 7.50 pro Arbeitstag, max. Fr. 1'600/Jahr (Code 216 / 256)
+### Ziff. Form. 4.2/4.3 Ziff. 3.2 – Mehrkosten auswärtige Verpflegung mit Verbilligung durch Arbeitgeber/Kantine: Fr. 7.50 pro Arbeitstag, max. Fr. 1'600/Jahr (Code 216 Person 1 / 256 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.verpflegung` (Mehrkosten auswärtige Verpflegung / Schichtarbeit) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare), Spesenreglement des Arbeitgebers (genehmigtes Spesenreglement, Spesenabrechnung, Pauschalspesen) → Lohnausweis Feld G (Kantine/Lunch-Checks/Personalrestaurant) angekreuzt; Ziff. 15 «Mittagessen durch Arbeitgeber bezahlt»
@@ -1722,7 +1724,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [WL TG 2026 S. 37](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0173.md) `tg-wl-2026__c0173` – «Die als Pauschalen ausgestalteten Berufsauslagen beziehen sich auf das ganze Jahr.»
 
 <a id="form-4-2-4-3-ziff-4-abzug-berufskosten-uebrige"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 4 – Übrige für den Beruf erforderliche Kosten: 3% vom Nettolohn, min. Fr. 2'000, max. Fr. 4'000, oder effektiv (Code 220 / 260)
+### Ziff. Form. 4.2/4.3 Ziff. 4 – Übrige für den Beruf erforderliche Kosten: 3% vom Nettolohn, min. Fr. 2'000, max. Fr. 4'000, oder effektiv (Code 220 Person 1 / 260 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.uebrige` (Übrige Berufskosten (Pauschale oder effektiv, inkl. Arbeitszimmer)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Ziff. 11 Nettolohn (Berechnungsbasis); bei effektiven Kosten Aufstellung mit Belegen
@@ -1733,7 +1735,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Beachten:** Pauschale deckt u.a. Werkzeuge, Fachliteratur, Kleider-/Schuhverschleiss, Schwerarbeit, Berufsverbände
 - **Beachten:** Nebenerwerb nicht hier, sondern separat in Ziff. 6
 - **Limiten:**
-  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale uebrige Berufskosten: 3 % des Nettolohns (Ziff. 11 Lohnausweis); alternativ Nachweis der effektiven Kosten (nicht kumulierbar). Bei weniger als 12 Monaten Erwerbstaetigkeit anteilmaessig gekuerzt.)** · Bund **3 % (Übrige Berufskosten: Pauschale 3 % des Nettolohns, mindestens CHF 2'000, höchstens CHF 4'000 pro Jahr; Nachweis höherer tatsächlicher Kosten möglich. Bei Teilzeit/Teiljahr angemessen zu kürzen.)**
+  - Übrige Berufskosten – Pauschale in % des Nettolohns: Kanton **3 % (Pauschale übrige Berufskosten (Form. 4.2 Ziff. 4: Berufswerkzeuge, Fachliteratur, Kleider-/Schuhverschleiss, Mehrauslagen für Schwerarbeit, Beiträge an Berufsverbände/Gewerkschaften): 3 % des Nettolohns (Ziff. 11 Lohnausweis), min. Fr. 2'000, max. Fr. 4'000 (Kanton und dBSt). Anstelle der Pauschale können die notwendigen tatsächlichen Aufwendungen nachgewiesen werden (keine Kumulation mit der Pauschale). Bei weniger als 12 Monaten unselbständiger Erwerbstätigkeit anteilmässig gekürzt.)** · Bund **3 % (Übrige Berufskosten (Art. 26 Abs. 1 lit. c DBG): Pauschale 3 % des Nettolohns, min. CHF 2'000, max. CHF 4'000; anstelle der Pauschale ist der Nachweis höherer tatsächlicher übriger Berufskosten möglich. Fahrkosten (lit. a, max. 3'300) und Verpflegung (lit. b) werden zusätzlich abgezogen. Bei Teilzeit/Teiljahr angemessen kürzen.)**
   - Übrige Berufskosten – Pauschale Minimum (CHF): Kanton **CHF 2'000 (Pauschale uebrige Berufskosten: Minimum Fr. 2'000.)** · Bund **CHF 2'000 (Mindestbetrag der Pauschale übrige Berufskosten.)**
   - Übrige Berufskosten – Pauschale Maximum (CHF): Kanton **CHF 4'000 (Pauschale uebrige Berufskosten: Maximum Fr. 4'000.)** · Bund **CHF 4'000 (Höchstbetrag der Pauschale übrige Berufskosten.)**
 - **Bund:** Gleich (Pauschale gilt kantonal und Bund).
@@ -1743,7 +1745,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [Formular 4.2/4.3 TG 2026 S. 1](../../chunks/tg/2026/tg-form-04-2-2026/tg-form-04-2-2026__c0005.md) `tg-form-04-2-2026__c0005` – «6. Auslagen bei Nebenbeschäftigung»
 
 <a id="form-4-2-4-3-ziff-5-1-abzug-berufskosten-wochenaufenthalt"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 5.1 – Wochenaufenthalt – Unterkunft: ortsübliche Auslagen für ein Zimmer (Code 226 / 266)
+### Ziff. Form. 4.2/4.3 Ziff. 5.1 – Wochenaufenthalt – Unterkunft: ortsübliche Auslagen für ein Zimmer (Code 226 Person 1 / 266 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.wochenaufenthalt` (Mehrkosten Wochenaufenthalt) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Mietvertrag Wohnung (Mietzinsbestätigung, Nebenkostenabrechnung des Mieters) → Mietvertrag/Mietzinsbestätigung Zimmer am Arbeitsort
@@ -1763,7 +1765,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [BKV TG § 4](../../chunks/tg/2025/tg-bkv/tg-bkv__par-4.md) `tg-bkv__par-4` – «ein Abzug gemäss Ziff. 1 und Ziff. 2 ist nicht zulässig, wenn der Steuerpflichtige die entsprechende Leistung als Naturallohn erhält»
 
 <a id="form-4-2-4-3-ziff-5-2-abzug-berufskosten-wochenaufenthalt"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 5.2 – Wochenaufenthalt – Verpflegung: Fr. 30 pro Arbeitstag, max. Fr. 6'400/Jahr; bei Verbilligung Fr. 22.50, max. Fr. 4'800 (Code 230 / 270)
+### Ziff. Form. 4.2/4.3 Ziff. 5.2 – Wochenaufenthalt – Verpflegung: Fr. 30 pro Arbeitstag, max. Fr. 6'400/Jahr; bei Verbilligung Fr. 22.50, max. Fr. 4'800 (Code 230 Person 1 / 270 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.wochenaufenthalt` (Mehrkosten Wochenaufenthalt) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Feld G (verbilligtes Mittagessen) → Reduktion
@@ -1784,7 +1786,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [BKV Art. 9](../../chunks/bund/2026/bund-bkv-2026/bund-bkv-2026__art-9.md) `bund-bkv-2026__art-9` – «Der Nachweis höherer Kosten ist ausgeschlossen.»
 
 <a id="form-4-2-4-3-ziff-6-abzug-berufskosten-nebenerwerb"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 6 – Auslagen bei Nebenbeschäftigung: 20% vom Nettolohn, min. Fr. 800, max. Fr. 2'400, oder effektiv (Code 232 / 272)
+### Ziff. Form. 4.2/4.3 Ziff. 6 – Auslagen bei Nebenbeschäftigung: 20% vom Nettolohn, min. Fr. 800, max. Fr. 2'400, oder effektiv (Code 232 Person 1 / 272 Person 2)
 
 - **Schlüssel:** `abzug.berufskosten.nebenerwerb` (Berufskosten Nebenerwerb) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** Lohnausweis (Formular 11, auch für Nebenerwerb/VR-Honorare) → Lohnausweis Nebenerwerb Ziff. 11; bei effektiven Kosten Aufstellung
@@ -1808,7 +1810,7 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
   - [WL TG 2026 S. 40](../../chunks/tg/2026/tg-wl-2026/tg-wl-2026__c0187.md) `tg-wl-2026__c0187` – «Nettolohn gemäss Ziffer 11 des Lohnausweises»
 
 <a id="form-4-2-4-3-ziff-7-berechnung-total"></a>
-### Ziff. Form. 4.2/4.3 Ziff. 7 – Total der abzugsfähigen Berufsauslagen (Code 240 / 280) – Übertrag Form. 1 Ziff. 10.1 / 10.2
+### Ziff. Form. 4.2/4.3 Ziff. 7 – Total der abzugsfähigen Berufsauslagen (Code 240 Person 1 / 280 Person 2) – Übertrag Form. 1 Ziff. 10.1 / 10.2
 
 - **Schlüssel:** `berechnung.total` (Berechnungs-/Totalzeilen (Nettoeinkommen, Reineinkommen, steuerbares Einkommen/Vermögen, Totale)) · **Status:** ☑️ agent-geprueft
 - **Beleg → Feld:** – → Rechenzeile (Ziff. 2 bis 6)

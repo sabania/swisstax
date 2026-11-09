@@ -51,7 +51,7 @@ generiert: "Sonnet-Agent 2026-11-09"
 
 | Jurisdiktion | 2025 | 2026 | Besonderheiten |
 |---|---|---|---|
-| Bund (DBG) | – | – | Beim Bund kein Vorschulabzug (einheitlich CHF 6'800). |
+| Bund (DBG) | – | – | Bund: kein gesonderter Vorschul-Abzug – einheitlicher Kinderabzug CHF 6'800 je Kind, auch im Vorschulalter ([Art. 35 DBG 2025](../../chunks/bund/2025/bund-dbg-2025/bund-dbg-2025__art-35.md), [Art. 35 DBG 2026](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-35.md)). |
 | AR | CHF 5'300 [StG AR Anhang 1 S. 1](../../chunks/ar/2025/ar-stg-anhang-kp/ar-stg-anhang-kp__c0001.md) | CHF 5'300 [StG AR Anhang 1 S. 1](../../chunks/ar/2025/ar-stg-anhang-kp/ar-stg-anhang-kp__c0001.md) | Anhang 1 StG (indexiert per 1.1.2024); StG-Text und MB 02 nennen Fr. 5'000 – 2026 im Datenbestand als **strittig** geführt, Fachperson bestätigt; 2025 bestätigt WL AR 2025 Fr. 5'300. ⚠ prüfen |
 | SG | CHF 7'600 [Art. 48 StG SG](../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-48.md) | CHF 7'600 [Art. 48 StG SG](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-48.md) | Art. 48 Abs. 1 lit. a Ziff. 1 StG SG; Bei unterjähriger Steuerpflicht anteilmässig (Art. 48 Abs. 3 StG); satzbestimmend voller Betrag. |
 | TG | – | – | TG kennt keine Staffelung nach Vorschulalter (Grundbetrag CHF 7'400). |

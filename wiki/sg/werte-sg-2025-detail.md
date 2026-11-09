@@ -477,15 +477,16 @@ generiert: tools/build_quick.py aus data/werte/sg/2025.yaml (2026-11-09)
   - [WL SG 2025 S. 4](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0006.md) `sg-wl-2025__c0006` – «Für jedes Kind in schulischer oder beruflicher Ausbildung   Fr. 10’800»
 
 <a id="sozialabzug-kind-ausbildung-auswaerts"></a>
-### Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+### Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)
 
 - **Wert:** CHF 13'700 (Zusätzlicher Ausbildungskostenabzug je Kind in Ausbildung: effektive, notwendige, selbst getragene Kosten, soweit sie den Selbstbehalt von Fr. 3'200 übersteigen (nach Abzug Stipendien), höchstens Fr. 13'700.)
 - **Schlüssel:** `sozialabzug.kind_ausbildung_auswaerts` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 48 Abs. 1 lit. a Ziff. 3 StG SG; WL 2025 Ziff. 23.3
-- **Bemerkung:** Maximum 13'700 nach Abzug Selbstbehalt 3'200; Voraussetzung Abzug nach Ziff. 23.2.
+- **Bemerkung:** Ausbildungskostenabzug (Ziff. 23.3), NICHT auf auswärtige Ausbildung beschränkt: gilt für jedes Kind in schulischer oder beruflicher Ausbildung, für das der Abzug nach Ziff. 23.2 geltend gemacht werden kann; selbst getragene Kosten nach Abzug von Stipendien und Selbstbehalt Fr. 3'200, höchstens Fr. 13'700 (Schlüsselname historisch).
 - **Quellen:**
   - [StG SG Art. 48](../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-48.md) `sg-stg-2025__art-48` – «höchstens weitere Fr. 13 700»
   - [WL SG 2025 S. 4](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0006.md) `sg-wl-2025__c0006` – «Selbstbehalt Ausbildungskosten je Kind   Fr. 3’200»
+  - [WL SG 2025 S. 31](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0105.md) `sg-wl-2025__c0105` – «wenn für das Kind ein Abzug»
 
 <a id="sozialabzug-unterstuetzung"></a>
 ### Unterstützungsabzug (CHF)
@@ -724,3 +725,15 @@ generiert: tools/build_quick.py aus data/werte/sg/2025.yaml (2026-11-09)
 - **Quellen:**
   - [WL SG 2025 S. 49](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0175.md) `sg-wl-2025__c0175` – «betrug im Jahr 2025 0,75%»
   - [StG SG Art. 212](../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-212.md) `sg-stg-2025__art-212` – «Mit der Schlussrechnung werden Ausgleichszinsen berechnet»
+
+## Weitere
+
+<a id="geldspiele-einsatzkosten-max"></a>
+### Einsatzkosten Geldspielgewinne – Maximum je Gewinn (CHF)
+
+- **Wert:** CHF 5'400 (Einsatzkosten: 5 % der einzelnen steuerbaren Geldspielgewinne, höchstens Fr. 5'400 je Gewinn (Online-Spielbankenspiele: abgebuchte Einsätze, höchstens Fr. 26'700))
+- **Schlüssel:** `geldspiele.einsatzkosten_max` · **gilt für:** kanton · **Status:** 🟡 extrahiert
+- **Rechtsgrundlage:** Art. 45 Abs. 3 StG SG
+- **Quellen:**
+  - [StG SG Art. 45](../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-45-t5.md) `sg-stg-2025__art-45-t5` – «werden 5 Prozent, jedoch höchstens Fr. 5400.–, als Einsatzkosten abgezogen»
+  - [StG SG Art. 45](../../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-45-t5.md) `sg-stg-2025__art-45-t5` – «jedoch höchstens Fr. 26 700.–, abgezogen»

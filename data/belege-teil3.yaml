@@ -440,6 +440,8 @@ belege:
   quellen:
   - chunk: bund-dbg-2025__art-34
     zitat: die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie
+  - chunk: bund-dbg-2026__art-34
+    zitat: die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie
   - chunk: ar-wl-2025__c0170
     zitat: Diese Kosten gelten als nicht abzugsfähige Lebenshaltungskosten.
   status: agent-geprueft
@@ -508,6 +510,8 @@ belege:
     TG: Fahrzeuge zum Verkehrswert per 31.12. deklarieren; Fahrzeugtyp, Kaufpreis und Anschaffungsjahr erfassen; geleaste Fahrzeuge nicht deklarieren.
     ZH: Privates Motorfahrzeug für den Arbeitsweg nur ausnahmsweise (kein öffentliches Verkehrsmittel, Haltestelle mindestens 1 km entfernt) – Begründung im Formular Berufsauslagen.
   quellen:
+  - chunk: bund-dbg-2025__art-34
+    zitat: die Aufwendungen für den Unterhalt des Steuerpflichtigen und seiner Familie
   - chunk: ar-wl-2025__c0085
     zitat: Vom Abzug ausgeschlossen sind die Prämien für Mobiliar-, Motorfahrzeug- und
   - chunk: sg-wl-2025__c0111
