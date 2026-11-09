@@ -136,4 +136,4 @@ generiert: tools/build_quick.py aus data/werte/zh/2026.yaml (2026-11-09)
 
 ## Nicht erfasste Schlüssel
 
-`geldspiele.einsatzkosten_max`
+`verrechnungssteuer.satz`, `geldspiele.einsatzkosten_max`

@@ -354,10 +354,24 @@ werte:
   - chunk: bund-wl-2a-2025__c0048
     zitat: 'der beruflichen Vorsorge (2. Säule) angehört: 20 % des'
   status: agent-geprueft
+- key: verrechnungssteuer.satz
+  wert: 35
+  einheit: '%'
+  text: 'Verrechnungssteuer 35 % auf Kapitalerträgen (und steuerbaren Geldspielgewinnen); natürliche Personen fordern sie über das Wertschriftenverzeichnis der kantonalen Erklärung zurück (35 % der Erträge mit VSt-Abzug). Bundesrecht, gilt in allen Kantonen: Anspruch verwirkt, wenn die Einkünfte nicht deklariert werden (Art. 23 Abs. 1 VStG) – Ausnahme bei fahrlässiger Nichtangabe und Nachdeklaration bzw. Aufrechnung im noch offenen Verfahren (Art. 23 Abs. 2 VStG); Antrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres (Art. 32 Abs. 1 VStG).'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 13, 23, 32 VStG
+  quellen:
+  - chunk: bund-vstg__art-13
+    zitat: '35 Prozent der steuerbaren Leistung'
+  - chunk: bund-vstg__art-23
+    zitat: 'Die Verwirkung tritt nicht ein, wenn die Einkünfte oder Vermögen in der Steuererklärung fahrlässig nicht angegeben wurden'
+  - chunk: bund-vstg__art-32
+    zitat: 'innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist'
+  status: agent-geprueft
 - key: saeule3a.einkauf
   wert: null
   einheit: Text
-  text: 'Steuerjahr 2025: Lücken, die vor dem 01.01.2025 entstanden sind, können nicht eingekauft werden (Übergangsbestimmung BVV 3) – ein Einkauf über den ordentlichen Höchstbetrag
+  text: 'Im Steuerjahr 2025 ist kein 3a-Einkauf möglich (Höchstabzug bleibt 7''258 bzw. 36''288; erster Einkauf frühestens 2026, für Lücken ab 2025; KS 18a Ziff. 5.6, bund-ks-18a__c0016). Lücken, die vor dem 01.01.2025 entstanden sind, können nicht eingekauft werden (Übergangsbestimmung BVV 3) – ein Einkauf über den ordentlichen Höchstbetrag
     hinaus kommt erst für Lücken ab Beitragsjahr 2025 in Frage. Regel: Nachzahlung zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren nicht alle zulässigen Beiträge einbezahlt
     wurden und im Einkaufsjahr der volle ordentliche Beitrag geleistet wird; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7''258); je Jahresbeitragslücke nur ein Einkauf'
   gilt_fuer: bund
@@ -367,6 +381,8 @@ werte:
     zitat: in den zehn dem Einkauf vorangehenden Jahren nicht alle für sie maximal zulässigen Beiträge einbezahlt haben
   - chunk: bund-bvv3__uebergang-disp-u3
     zitat: die vor Inkrafttreten der Änderung vom 6. November 2024 entstanden sind, können nicht mit einem Einkauf ausgeglichen werden
+  - chunk: bund-ks-18a__c0016
+    zitat: erst für Beitragslücken ab dem Steuerjahr 2025
   - chunk: bund-bvv3__art-7a-t1
     zitat: auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG
   - chunk: bund-bvv3__uebergang-disp-u3

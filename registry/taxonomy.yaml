@@ -139,6 +139,7 @@ werte:
   saeule3a.max_ohne_2saeule: Säule 3a – Maximum ohne 2. Säule (CHF)
   saeule3a.satz_ohne_2saeule: Säule 3a – ohne 2. Säule in % des Erwerbseinkommens
   saeule3a.einkauf: Säule 3a – Einkauf (Nachzahlung) Regel/Maximum
+  verrechnungssteuer.satz: Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis
   zweiverdiener.satz: Zweiverdienerabzug – Satz (% des tieferen Erwerbseinkommens)
   zweiverdiener.min: Zweiverdienerabzug – Minimum (CHF)
   zweiverdiener.max: Zweiverdienerabzug – Maximum bzw. fixer Betrag (CHF)

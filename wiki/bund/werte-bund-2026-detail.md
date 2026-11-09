@@ -723,3 +723,16 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 - **Wert:** n/a – Bund kennt keinen Ausgleichszins; Verzugs-/Rückerstattungszins 4.00 % und Vergütungszins 0.00 % siehe bezug.verzugszins / bezug.verguetungszins.
 - **Schlüssel:** `bezug.ausgleichszins` · **gilt für:** bund · **Status:** – na
 - **Bemerkung:** Bund kennt keinen Ausgleichszins; Verzugs-/Rückerstattungszins 4.00 % und Vergütungszins 0.00 % siehe bezug.verzugszins / bezug.verguetungszins.
+
+## Weitere
+
+<a id="verrechnungssteuer-satz"></a>
+### Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis
+
+- **Wert:** 35 % (Verrechnungssteuer 35 % auf Kapitalerträgen (und steuerbaren Geldspielgewinnen); natürliche Personen fordern sie über das Wertschriftenverzeichnis der kantonalen Erklärung zurück (35 % der Erträge mit VSt-Abzug). Bundesrecht, gilt in allen Kantonen: Anspruch verwirkt, wenn die Einkünfte nicht deklariert werden (Art. 23 Abs. 1 VStG) – Ausnahme bei fahrlässiger Nichtangabe und Nachdeklaration bzw. Aufrechnung im noch offenen Verfahren (Art. 23 Abs. 2 VStG); Antrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres (Art. 32 Abs. 1 VStG).)
+- **Schlüssel:** `verrechnungssteuer.satz` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
+- **Rechtsgrundlage:** Art. 13, 23, 32 VStG
+- **Quellen:**
+  - [VStG Art. 13](../../chunks/bund/2025/bund-vstg/bund-vstg__art-13.md) `bund-vstg__art-13` – «35 Prozent der steuerbaren Leistung»
+  - [VStG Art. 23](../../chunks/bund/2025/bund-vstg/bund-vstg__art-23.md) `bund-vstg__art-23` – «Die Verwirkung tritt nicht ein, wenn die Einkünfte oder Vermögen in der Steuererklärung fahrlässig nicht angegeben wurden»
+  - [VStG Art. 32](../../chunks/bund/2025/bund-vstg/bund-vstg__art-32.md) `bund-vstg__art-32` – «innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist»

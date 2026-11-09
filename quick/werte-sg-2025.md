@@ -139,3 +139,7 @@ generiert: tools/build_quick.py aus data/werte/sg/2025.yaml (2026-11-09)
 | Eckwert | Wert | Hinweis | Quelle | St. |
 |---|---|---|---|---|
 | Einsatzkosten Geldspielgewinne – Maximum je Gewinn (CHF) <small>`geldspiele.einsatzkosten_max`</small> | **CHF 5'400** |  [↗](../wiki/sg/werte-sg-2025-detail.md#geldspiele-einsatzkosten-max) | [StG SG Art. 45](../chunks/sg/2025/sg-stg-2025/sg-stg-2025__art-45-t5.md) | 🟡 |
+
+## Nicht erfasste Schlüssel
+
+`verrechnungssteuer.satz`

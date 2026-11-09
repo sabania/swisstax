@@ -347,6 +347,20 @@ werte:
   - chunk: bund-bvv3__art-7
     zitat: jährlich bis 20 Prozent des Erwerbseinkommens, jedoch höchstens bis 40 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG
   status: agent-geprueft
+- key: verrechnungssteuer.satz
+  wert: 35
+  einheit: '%'
+  text: 'Verrechnungssteuer 35 % auf Kapitalerträgen (und steuerbaren Geldspielgewinnen); natürliche Personen fordern sie über das Wertschriftenverzeichnis der kantonalen Erklärung zurück (35 % der Erträge mit VSt-Abzug). Bundesrecht, gilt in allen Kantonen: Anspruch verwirkt, wenn die Einkünfte nicht deklariert werden (Art. 23 Abs. 1 VStG) – Ausnahme bei fahrlässiger Nichtangabe und Nachdeklaration bzw. Aufrechnung im noch offenen Verfahren (Art. 23 Abs. 2 VStG); Antrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres (Art. 32 Abs. 1 VStG).'
+  gilt_fuer: bund
+  rechtsgrundlage: Art. 13, 23, 32 VStG
+  quellen:
+  - chunk: bund-vstg__art-13
+    zitat: '35 Prozent der steuerbaren Leistung'
+  - chunk: bund-vstg__art-23
+    zitat: 'Die Verwirkung tritt nicht ein, wenn die Einkünfte oder Vermögen in der Steuererklärung fahrlässig nicht angegeben wurden'
+  - chunk: bund-vstg__art-32
+    zitat: 'innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist'
+  status: agent-geprueft
 - key: saeule3a.einkauf
   wert: 7258
   einheit: CHF

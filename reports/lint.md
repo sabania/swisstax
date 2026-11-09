@@ -1,6 +1,6 @@
 # Lint-Bericht (2026-11-09)
 
-- Quellen: 296 · Chunks: 8935 · geprüfte Links: 29467
+- Quellen: 296 · Chunks: 8935 · geprüfte Links: 29480
 - Fehler: 0 · Warnungen: 49
 
 ## Status der Daten (Werte/Zuordnungen)
@@ -12,7 +12,7 @@
 - einreichen · ja: 51
 - einreichen · nein: 32
 - einreichen · unklar: 47
-- werte · agent-geprueft: 571
+- werte · agent-geprueft: 573
 - werte · extrahiert: 2
 - werte · na: 131
 - werte · offen: 25

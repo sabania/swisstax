@@ -64,7 +64,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 | Säule 3a – Maximum mit 2. Säule (CHF) <small>`saeule3a.max_mit_2saeule`</small> | **CHF 7'258** |  [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-max-mit-2saeule) | [BSV Masszahlen 25/26 S. 1](../chunks/bund/2025/bund-bsv-masszahlen-2025-2026/bund-bsv-masszahlen-2025-2026__c0003.md) | ☑️ |
 | Säule 3a – Maximum ohne 2. Säule (CHF) <small>`saeule3a.max_ohne_2saeule`</small> | **CHF 36'288** |  [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-max-ohne-2saeule) | [BSV Masszahlen 25/26 S. 1](../chunks/bund/2025/bund-bsv-masszahlen-2025-2026/bund-bsv-masszahlen-2025-2026__c0003.md) | ☑️ |
 | Säule 3a – ohne 2. Säule in % des Erwerbseinkommens <small>`saeule3a.satz_ohne_2saeule`</small> | **20 %** |  [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-satz-ohne-2saeule) | [BVV 3 Art. 7](../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7.md) | ☑️ |
-| Säule 3a – Einkauf (Nachzahlung) Regel/Maximum <small>`saeule3a.einkauf`</small> | **Steuerjahr 2025: Lücken, die vor dem 01.01.2025 entstanden sind, könne…** | BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-einkauf) | [BVV 3 Art. 7a](../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) | ☑️ |
+| Säule 3a – Einkauf (Nachzahlung) Regel/Maximum <small>`saeule3a.einkauf`</small> | **Im Steuerjahr 2025 ist kein 3a-Einkauf möglich (Höchstabzug bleibt 7'2…** | BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. [↗](../wiki/bund/werte-bund-2025-detail.md#saeule3a-einkauf) | [BVV 3 Art. 7a](../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) | ☑️ |
 
 ## Liegenschaften
 
@@ -138,4 +138,5 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 
 | Eckwert | Wert | Hinweis | Quelle | St. |
 |---|---|---|---|---|
+| Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis <small>`verrechnungssteuer.satz`</small> | **35 %** |  [↗](../wiki/bund/werte-bund-2025-detail.md#verrechnungssteuer-satz) | [VStG Art. 13](../chunks/bund/2025/bund-vstg/bund-vstg__art-13.md) | ☑️ |
 | Einsatzkosten Geldspielgewinne – Maximum je Gewinn (CHF) <small>`geldspiele.einsatzkosten_max`</small> | **CHF 5'400** |  [↗](../wiki/bund/werte-bund-2025-detail.md#geldspiele-einsatzkosten-max) | [VKP Art. 3](../chunks/bund/2025/bund-vkp-2025/bund-vkp-2025__art-3-t4.md) | 🟡 |

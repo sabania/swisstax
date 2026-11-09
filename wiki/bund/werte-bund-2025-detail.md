@@ -410,13 +410,14 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 <a id="saeule3a-einkauf"></a>
 ### Säule 3a – Einkauf (Nachzahlung) Regel/Maximum
 
-- **Wert:** Steuerjahr 2025: Lücken, die vor dem 01.01.2025 entstanden sind, können nicht eingekauft werden (Übergangsbestimmung BVV 3) – ein Einkauf über den ordentlichen Höchstbetrag hinaus kommt erst für Lücken ab Beitragsjahr 2025 in Frage. Regel: Nachzahlung zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren nicht alle zulässigen Beiträge einbezahlt wurden und im Einkaufsjahr der volle ordentliche Beitrag geleistet wird; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7'258); je Jahresbeitragslücke nur ein Einkauf
+- **Wert:** Im Steuerjahr 2025 ist kein 3a-Einkauf möglich (Höchstabzug bleibt 7'258 bzw. 36'288; erster Einkauf frühestens 2026, für Lücken ab 2025; KS 18a Ziff. 5.6, bund-ks-18a__c0016). Lücken, die vor dem 01.01.2025 entstanden sind, können nicht eingekauft werden (Übergangsbestimmung BVV 3) – ein Einkauf über den ordentlichen Höchstbetrag hinaus kommt erst für Lücken ab Beitragsjahr 2025 in Frage. Regel: Nachzahlung zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren nicht alle zulässigen Beiträge einbezahlt wurden und im Einkaufsjahr der volle ordentliche Beitrag geleistet wird; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7'258); je Jahresbeitragslücke nur ein Einkauf
 - **Schlüssel:** `saeule3a.einkauf` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 7a, 7b BVV 3; Übergangsbestimmung Änderung 6.11.2024
 - **Bemerkung:** BVV 3 Art. 7a/7b seit 01.01.2025 in Kraft. Betrag CHF 7'258 = oberer Grenzbetrag (BSV-Masszahlen 2025/2026, zitiert); «nur ein Einkauf je Jahresbeitragslücke» = Art. 7a Abs. 3 BVV 3. Das ESTV-KS 18a (ab 01.01.2026) gilt nicht für 2025 und wurde nicht herangezogen. Praktisch erster Einkauf frühestens 2026 (Lücken erst ab Beitragsjahr 2025) – laut Seed, nicht aus Quelle bestätigt.
 - **Quellen:**
   - [BVV 3 Art. 7a](../../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) `bund-bvv3__art-7a-t1` – «in den zehn dem Einkauf vorangehenden Jahren nicht alle für sie maximal zulässigen Beiträge einbezahlt haben»
   - [BVV 3 Übergangsbestimmung zur Änderung vom 6. November 2024](../../chunks/bund/2025/bund-bvv3/bund-bvv3__uebergang-disp-u3.md) `bund-bvv3__uebergang-disp-u3` – «die vor Inkrafttreten der Änderung vom 6. November 2024 entstanden sind, können nicht mit einem Einkauf ausgeglichen werden»
+  - [KS 18a S. 6](../../chunks/bund/dauernd/bund-ks-18a/bund-ks-18a__c0016.md) `bund-ks-18a__c0016` – «erst für Beitragslücken ab dem Steuerjahr 2025»
   - [BVV 3 Art. 7a](../../chunks/bund/2025/bund-bvv3/bund-bvv3__art-7a-t1.md) `bund-bvv3__art-7a-t1` – «auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG»
   - [BVV 3 Übergangsbestimmung zur Änderung vom 6. November 2024](../../chunks/bund/2025/bund-bvv3/bund-bvv3__uebergang-disp-u3.md) `bund-bvv3__uebergang-disp-u3` – «können nicht mit einem Einkauf ausgeglichen werden»
   - [MM 3a-Einkäufe](../../chunks/bund/dauernd/bund-mm-saeule3a-einkauf/bund-mm-saeule3a-einkauf__c0001.md) `bund-mm-saeule3a-einkauf__c0001` – «Diese treten per 1. Januar 2025 in Kraft»
@@ -735,6 +736,17 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 - **Bemerkung:** DBG kennt Verzugs-, Rückerstattungs- und Vergütungszins; der Rückerstattungszins entspricht 2025 dem Verzugszins (4.50 %, RS 2-215, Spalte 2025).
 
 ## Weitere
+
+<a id="verrechnungssteuer-satz"></a>
+### Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis
+
+- **Wert:** 35 % (Verrechnungssteuer 35 % auf Kapitalerträgen (und steuerbaren Geldspielgewinnen); natürliche Personen fordern sie über das Wertschriftenverzeichnis der kantonalen Erklärung zurück (35 % der Erträge mit VSt-Abzug). Bundesrecht, gilt in allen Kantonen: Anspruch verwirkt, wenn die Einkünfte nicht deklariert werden (Art. 23 Abs. 1 VStG) – Ausnahme bei fahrlässiger Nichtangabe und Nachdeklaration bzw. Aufrechnung im noch offenen Verfahren (Art. 23 Abs. 2 VStG); Antrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres (Art. 32 Abs. 1 VStG).)
+- **Schlüssel:** `verrechnungssteuer.satz` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
+- **Rechtsgrundlage:** Art. 13, 23, 32 VStG
+- **Quellen:**
+  - [VStG Art. 13](../../chunks/bund/2025/bund-vstg/bund-vstg__art-13.md) `bund-vstg__art-13` – «35 Prozent der steuerbaren Leistung»
+  - [VStG Art. 23](../../chunks/bund/2025/bund-vstg/bund-vstg__art-23.md) `bund-vstg__art-23` – «Die Verwirkung tritt nicht ein, wenn die Einkünfte oder Vermögen in der Steuererklärung fahrlässig nicht angegeben wurden»
+  - [VStG Art. 32](../../chunks/bund/2025/bund-vstg/bund-vstg__art-32.md) `bund-vstg__art-32` – «innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist»
 
 <a id="geldspiele-einsatzkosten-max"></a>
 ### Einsatzkosten Geldspielgewinne – Maximum je Gewinn (CHF)

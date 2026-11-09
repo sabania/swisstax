@@ -134,6 +134,12 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 | Vergütungs-/Vorauszahlungszins (%) <small>`bezug.verguetungszins`</small> | **0 %** |  [↗](../wiki/bund/werte-bund-2026-detail.md#bezug-verguetungszins) | [RS 2-215 S. 3](../chunks/bund/2026/bund-rs-2-215/bund-rs-2-215__c0010.md) | ☑️ |
 | Ausgleichszins – Regel/Satz <small>`bezug.ausgleichszins`</small> | **n/a** | Bund kennt keinen Ausgleichszins; Verzugs-/Rückerstattungszins 4.00 % und Vergütungszins 0.00 % siehe bezug.verzugszins / bezug.verguetungszins. [↗](../wiki/bund/werte-bund-2026-detail.md#bezug-ausgleichszins) | – | – |
 
+## Weitere
+
+| Eckwert | Wert | Hinweis | Quelle | St. |
+|---|---|---|---|---|
+| Verrechnungssteuer auf Kapitalerträgen/Geldspielgewinnen (%), Rückerstattung über Wertschriftenverzeichnis <small>`verrechnungssteuer.satz`</small> | **35 %** |  [↗](../wiki/bund/werte-bund-2026-detail.md#verrechnungssteuer-satz) | [VStG Art. 13](../chunks/bund/2025/bund-vstg/bund-vstg__art-13.md) | ☑️ |
+
 ## Nicht erfasste Schlüssel
 
 `geldspiele.einsatzkosten_max`
